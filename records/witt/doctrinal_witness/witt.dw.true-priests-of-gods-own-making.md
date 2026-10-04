@@ -46,7 +46,7 @@ text: >-
 
   Wanting to die as a martyr, and calling it faithfulness -- isn't that
   a death wish in religious language? We do not have a whole cult of
-  martyrdom to answer that broadly; our library holds one martyr-song. On the
+  martyrdom to answer that broadly. On the
   first of July, 1523, two young monks, John and Henry, were burned at
   Brussels after theologians from Louvain pressed them to take back a
   teaching they had come to hold, and they refused. Our founder, in

@@ -15,8 +15,8 @@ confidence:
     Walter "in his old age," reaching this library through three transmitting hands (Walter, then Praetorius,
     then Rambach in 1813, then Bacon in 1883), laudatory in tone toward Luther throughout. This is Tier
     2''s own definition exactly - collected community memory, authentic as tradition even where wording
-    cannot be independently verified. The letter itself is undated. The years field gives the mid-1520s events
-    Walter recalls, not the date of the letter.'
+    cannot be independently verified. The letter itself is undated. The years field gives 1526, Bacon''s date for the German Mass
+    (his heading "FROM THE GERMAN MASS, 1526", luther_hymns_bacon-allen.txt line 368), not the date of the letter.'
 sources:
 - source_id: witt.source.johann-letter-of-reminiscence-on-luther-as
   locus: Walter's own letter, as quoted in Bacon's Introduction - "he kept me three weeks long at Wittenberg...

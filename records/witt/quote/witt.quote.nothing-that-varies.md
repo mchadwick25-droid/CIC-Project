@@ -67,7 +67,7 @@ use_note:
 The quoted span is checked against cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. The Conclusion
 heading is at line 1531, after Article XXVIII (line 1271), the last article of the confession. The span runs
 from "Nor has anything been here said" (line 1543, mid-line) through "creep into our churches." (line 1550).
-Lines 1540-1542 end an earlier sentence about disputes between pastors and monks and are left outside `text`.
+Lines 1540-1543 hold two earlier sentences, about disputes between pastors and monks, and are left outside `text`.
 No word is added, dropped, substituted or reordered within the span.
 
 The id is a historical label. The words "nothing that varies from the Scriptures, or from the Church

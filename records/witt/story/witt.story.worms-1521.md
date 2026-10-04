@@ -56,10 +56,10 @@ narrative_tier_justification: 'Tier 2, Collected and Traditional Material, on id
   event''s general shape (the summons, the Diet, the refusal to recant) is Widely Accepted; the specific
   wording, including the sentence popular memory most associates with this story, is Contested (Doc_09
   witt-S03).'
-tellable_as: A young friar is warned that he is already condemned and that the road to Worms may end in
-  fire. He answers that he will go anyway, "although in Worms there were as many devils as there are tiles
-  on the houses." The next day he stands before the Emperor and the princes of the Empire. He will not
-  take back what he has written unless he is shown from Scripture that he is wrong.
+tellable_as: On the road, a young friar hears that he is already condemned. He answers the herald that he
+  will go anyway, "although in Worms there were as many devils as there are tiles on the houses." Later he
+  is warned that he may be burned, and he goes on. At Worms he stands before the Emperor and the princes of
+  the Empire. He will not take back what he has written unless he is shown from Scripture that he is wrong.
 text: 'This is how Luther himself told the story of Worms, years afterward, to the students gathered at
   his table.
 
