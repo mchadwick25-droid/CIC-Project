@@ -38,6 +38,14 @@ relations:
   target: desert.story.moses-leaking-jug
 - type: associated-with
   target: desert.gravity.diakrisis
+use_note:
+  means: "In Budge's Syriac Sayings, Abba Moses says his own sins run out unseen behind him while he comes to judge another's faults."
+  not_for:
+    - "the words \"The sands are\" as Moses's, when they are Budge's bracketed supplement"
+    - "the saying as securely datable to Moses rather than transmitted in a collection compiled after 430"
+    - "a formal disciplinary procedure, which Moses refuses here"
+  years: {from: 320, to: 430}
+  status: reviewed
 ---
 Verified against the vendored Budge at
 line 1160, §542. The file prints "[The sands are]" in square

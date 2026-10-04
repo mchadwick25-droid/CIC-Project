@@ -39,6 +39,14 @@ tensions:
 relations:
 - type: associated-with
   target: desert.quote.an-old-man-in-the-next-village
+use_note:
+  means: "This witness claims no apostolic line for desert monasticism, only that Antony copied an older hermit already practising near his village."
+  not_for:
+    - "an unbroken institutional line from the apostles"
+    - "Antony as the inventor of monasticism from nothing"
+    - "the village hermit as evidence of a widespread, well-documented movement before Antony"
+  years: {from: 268, to: 275}
+  status: reviewed
 ---
 Drawn directly from desert.force.village-ascetic-culture and
 desert.gravity.withdrawal's own generating-force framing. Answers the

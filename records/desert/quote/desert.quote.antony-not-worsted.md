@@ -37,6 +37,14 @@ relations:
   target: desert.gravity.spiritual-combat
 - type: associated-with
   target: desert.figure.antony
+use_note:
+  means: "Athanasius gives Antony's words to demons attacking in beast form, mocking their weakness and naming faith in the Lord as his wall of safety."
+  not_for:
+    - "the scene as a neutral factual report of a supernatural event"
+    - "the demons' beast shapes as primitive superstition with nothing to say"
+    - "Antony's words as independently attested speech outside Athanasius's Vita"
+  years: {from: 356, to: 362}
+  status: reviewed
 ---
 Verified verbatim against the vendored file
 (npnf204_athanasius-select-works-letters.xml), the same passage

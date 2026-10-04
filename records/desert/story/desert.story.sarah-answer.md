@@ -36,6 +36,14 @@ tellable_as: "some monks came to test her, a woman - she answered them as one ma
 text: "The tradition tells that some elder monks once came to visit Amma Sarah meaning to humble her, and said as much to her directly - that she was, after all, only a woman. She answered them: it is I who am the man, and you who are the women."
 absent_detail: "This is one of a small number of sayings this world's own surviving record attributes to a named amma by name - genuinely thin material, not evidence of a fuller corpus that happens not to have been included here. Whether the specific visit happened as narrated, or the saying survived detached from any single occasion, is not something this document can settle."
 modern_contrast: "A modern reader may hear a woman's decisive rebuff of men who came to test her as a straightforward claim of equality, in the modern sense of gender being beside the point. This world's own record makes a narrower and stranger claim: it accepts the era's own coding of courage and steadfastness as \"manly\" and weakness as \"womanly,\" and Sarah's own answer works by claiming the first category for herself, not by rejecting the coding itself - a real distinction desert.demo.identity-collision-womens-authority's own trailing note already holds to (this world's own record does not show that challenge put to any man)."
+use_note:
+  means: "The tradition tells that Amma Sarah, challenged by visiting elders as only a woman, answered that she was the man and they the women."
+  not_for:
+    - "Presenting it as evidence of a large body of women's sayings, when named ammas are thin"
+    - "Adding the Greek clause about being a woman by nature but not in thought, which the vendored recension lacks"
+    - "Presenting the elders' visit as verified history or as attested in Budge's Syriac, which gives only the saying to her brethren"
+  years: {from: 320, to: 430}
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 2.3, itself
 independently web-verified during that build's own drafting - the same
