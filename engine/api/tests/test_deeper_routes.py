@@ -33,11 +33,11 @@ def sign(body: bytes, *, secret: str = SECRET, stamp: int | None = None) -> str:
     return f"t={stamp},v1={digest}"
 
 
-def completed(*, payment="pi_100", link=LINK_SINGLE, reference=REF, paid="paid", kind="checkout.session.completed", amount=700):
+def completed(*, payment="pi_100", link=LINK_SINGLE, reference=REF, paid="paid", kind="checkout.session.completed", amount=700, currency="usd"):
     return {
         "id": "evt_1",
         "type": kind,
-        "data": {"object": {"id": "cs_1", "payment_link": link, "payment_status": paid, "payment_intent": payment, "client_reference_id": reference, "amount_total": amount}},
+        "data": {"object": {"id": "cs_1", "payment_link": link, "payment_status": paid, "payment_intent": payment, "client_reference_id": reference, "amount_total": amount, "currency": currency}},
     }
 
 
@@ -636,10 +636,31 @@ def test_a_bad_adjustment_is_refused(http, body):
     assert http.post("/api/admin/deeper/funds", json=body, headers=admin()).status_code == 422
 
 
-def test_the_funds_routes_need_the_admin_credential(http):
+def test_the_funds_routes_need_the_admin_credential(http, runtime):
+    entry = runtime.meter.add_funds("adjustment", 500, note="kept")
     assert http.get("/api/admin/deeper/funds").status_code == 404
     assert http.post("/api/admin/deeper/funds", json={"cents": 1, "note": "x"}, headers=admin("wrong")).status_code == 404
-    assert http.post("/api/admin/deeper/funds/abc/reverse").status_code == 404
+    assert http.post(f"/api/admin/deeper/funds/{entry}/reverse").status_code == 404
+    assert http.post(f"/api/admin/deeper/funds/{entry}/reverse", headers=admin("wrong")).status_code == 404
+    assert runtime.meter.net_funds()["adjustment"] == 500
+    assert http.post(f"/api/admin/deeper/funds/{entry}/reverse", headers=admin()).status_code == 200
+    assert runtime.meter.net_funds()["adjustment"] == 0
+
+
+@pytest.mark.parametrize("currency", ["inr", "eur", "USD", None, ""])
+def test_a_checkout_not_in_us_dollars_counts_nothing(http, gift_runtime, currency):
+    event = completed(link=LINK_GIFT, payment="pi_fx", amount=60000)
+    if currency is None:
+        del event["data"]["object"]["currency"]
+    else:
+        event["data"]["object"]["currency"] = currency
+    assert post_event(http, event).status_code == 200
+    assert gift_runtime.meter.net_funds()["gift"] == 0
+
+
+def test_a_checkout_in_us_dollars_counts(http, gift_runtime):
+    post_event(http, completed(link=LINK_GIFT, payment="pi_usd", amount=2500, currency="usd"))
+    assert gift_runtime.meter.net_funds()["gift"] == 2500
 
 
 def test_a_link_cannot_be_both_a_gift_and_a_product():

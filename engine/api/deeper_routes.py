@@ -184,6 +184,9 @@ def _record_funds(runtime: DeeperRuntime, kind: str, session: dict) -> None:
     from the codes: the amount and the payment id, nothing about the buyer."""
     payment = payment_id_of({"data": {"object": session}})
     cents = session.get("amount_total")
+    if session.get("currency") != "usd":
+        logger.error("paid checkout was not in US dollars; not counted toward the door")
+        return
     if payment is None or isinstance(cents, bool) or not isinstance(cents, int) or cents <= 0:
         logger.error("paid checkout carried no payment id or amount; not counted toward the door")
         return
@@ -451,12 +454,13 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None)
             "and without the visitor cookie everyone behind one address would share it"
         )
     ops = ops or load_ops()
+    products = parse_products(env.get("CIC_DEEPER_PRODUCTS"))
     return DeeperRuntime(
         meter=Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling),
         claims=ClaimStore(config.claims_db_path),
         webhook_secret=secret,
-        products=parse_products(env.get("CIC_DEEPER_PRODUCTS")),
-        gift_links=parse_gift_links(env.get("CIC_DEEPER_GIFT_LINKS"), parse_products(env.get("CIC_DEEPER_PRODUCTS"))),
+        products=products,
+        gift_links=parse_gift_links(env.get("CIC_DEEPER_GIFT_LINKS"), products),
         site_origin=env.get("CIC_DEEPER_SITE_ORIGIN") or None,
         token_rates=ops.rates,
         group_burst_multiplier=ops.group_burst_multiplier,

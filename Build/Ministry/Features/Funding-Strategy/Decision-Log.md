@@ -1339,6 +1339,8 @@ Carries out the free half of System Hub decision 46. Still switched off behind t
 - A refund or dispute reverses the payment's entry along with voiding its code.
 - Admin: `POST /api/admin/deeper/funds` (cents and a short note), `POST /api/admin/deeper/funds/{entry}/reverse`, `GET /api/admin/deeper/funds` (the seven-day sum by kind and the last fourteen days' entries, without payment ids). A reversed entry stays listed.
 
-**Added to the unverified Stripe facts for Mark:** that a completion event carries the amount paid as `amount_total` in cents, and that gifts go through their own Payment Links (S4).
+**Added to the unverified Stripe facts for Mark:** that a completion event carries the amount paid as `amount_total` in cents, that gifts go through their own Payment Links (S4), whether Adaptive Pricing is on for these links, and which currency `amount_total` is in when it is.
+
+**Money is counted only in US dollars.** A checkout whose currency is not `usd` is logged and adds nothing, so a payment in another currency cannot be read as dollars and lift the door. **A partial refund is not subtracted** (as for codes, it is ignored); only a full refund or a dispute takes a payment back out, so a partially refunded gift stays counted at its full amount. **Adjustment notes are plain words about the money ("church gift, cash"); never a person's name or email.** The notes are kept 90 days and listed to the admin.
 
 **Still to come:** S5b computes the week's priced spend from the usage log (the approved price tables in `engine/m8/price_tables.py`, times the measured invoice factor) against a ceiling of the base number plus a share of these funds; S5c lets admission narrow the free path in stages, failing closed to the last computed stage. The base number, the stage thresholds, the gift and purchase shares and the invoice factor are Mark's; each will ship in the operations file with a stated default.
