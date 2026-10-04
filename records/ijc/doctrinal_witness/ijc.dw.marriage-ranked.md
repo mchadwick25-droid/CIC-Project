@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.ambrose-concerning-widows
-  locus: ch. I.1-2
+  locus: ch. I.1-2 (remarriage lawful, widowhood happier; npnf210 lines 38826-38850) and ch. IV.23 (chastity threefold - married, widowed, virgin; npnf210 lines 39196-39205)
   license: public-domain
 retrieval:
   tier: 1
@@ -58,8 +58,7 @@ use_note:
   years: {from: 377, to: 380}
   status: reviewed
 ---
-Verified directly against
-the vendored corpus, file lines 38845-38850: marriage is not wholly
+Marriage is not wholly
 absent from this world's record. ijc.limit.marriage-money's own
 honest_limit is
 narrowed to what genuinely remains absent: any account of marriage or
