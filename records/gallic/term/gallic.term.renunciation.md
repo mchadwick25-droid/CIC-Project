@@ -120,6 +120,15 @@ quick_meaning: >-
   The act that makes a monk - a death to the world of which giving up goods is only the first and
   easiest stage. And the Church still fetches renunciants for its sees.
 distortion_risk: high
+use_note:
+  means: "Renunciation meant the act that makes a monk, a death to the world of which giving up goods is only the first and easiest of three stages."
+  not_for:
+    - "giving things up as the whole monastic act"
+    - "a heroic once-for-all rejection of society"
+    - "the day of entry, which sits in gallic.term.conversion"
+    - "the baptismal renunciation of the devil, which is Salvian's referent"
+  years: {from: 397, to: 450}
+  status: provisional
 ---
 Built from Doc_06 entry 021 (Tier 2, pruned from Doc_03's Tier-1 estimate per Doc_04 §2.2; chunk
 galliclex021_renunciation.md; Doc_03 1.11). Register emic. Quotations verified at locus by the build's

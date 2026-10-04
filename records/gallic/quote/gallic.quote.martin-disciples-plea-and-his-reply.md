@@ -66,6 +66,13 @@ modern_rendering: >-
   alone and without comfort." Martin was moved by their laments, for he was truly always full of compassion. He is said
   to have burst into tears. He turned to the Lord. To those weeping around him he gave only this
   answer: "O Lord, if your people still need me, I do not shrink from the work. Your will be done."
+use_note:
+  means: "Sulpitius tells how Martin's brethren begged him not to leave them and Martin, weeping, prayed to stay if still needed while yielding to God's will."
+  not_for:
+    - "an eyewitness account, when Sulpitius was not present at the death"
+    - "the refusal to turn on his side, which sits in gallic.quote.martin-allow-me-dear-brother"
+  years: {from: 397, to: 397}
+  status: provisional
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "on the point of dissolution"` returns line 2414; `grep -n "thy will be done"` returns line 2430. Read

@@ -83,6 +83,14 @@ relations:
   target: gallic.quote.martin-refuses-the-donative
 - type: associated-with
   target: gallic.gravity.soldier-of-christ
+use_note:
+  means: "Sulpitius narrates Martin offering to face the enemy unarmed after Julian charged him with cowardice, and reads the enemy's surrender next day as granted to Martin."
+  not_for:
+    - "the refusal of the donative and the soldier-of-Christ words, which sit in gallic.quote.martin-refuses-the-donative"
+    - "Sulpitius's providential reading of the surrender as an established fact"
+    - "a rule of nonviolence binding all Christians in this world"
+  years: {from: 397, to: 397}
+  status: provisional
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, same chapter div
 `id="ii.ii.v"` (line 819) as gallic.quote.martin-refuses-the-donative. `grep -n "thrust back into

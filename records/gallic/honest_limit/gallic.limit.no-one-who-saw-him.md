@@ -81,6 +81,15 @@ nearest_material:
 - gallic.term.theotocos
 - gallic.source.cassian-de-incarnatione
 relations: []
+use_note:
+  means: "The record attests that this world's books never claim a witness to the Lord and never argue the resurrection to a doubter, and it cannot supply either."
+  not_for:
+    - "a proof of the resurrection written by this world for a doubter, which the record says is absent"
+    - "the cloak vision or the raised catechumen as evidence that the Lord rose, when they show the saint's power, as in gallic.story.the-cloak-at-amiens and gallic.story.raising-of-the-catechumen"
+    - "the content of Cassian's seven books against Nestorius, which is unread"
+    - "a chain of witnesses, when the world's floor stands more than three centuries after the events"
+  years: {from: 397, to: 434}
+  status: provisional
 ---
 Closes C-E at the Answer-the-Canon step (inserted between B-7 and B-8)
 as a genuine, declared absence rather than a strained dw. The cell's

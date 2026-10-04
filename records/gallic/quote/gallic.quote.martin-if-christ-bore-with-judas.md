@@ -58,6 +58,15 @@ modern_rendering: >-
   Martin could not be persuaded to remove him from the priesthood. He did not want to be suspected of
   taking revenge for the wrong done to himself. And he often repeated this saying: ‘If Christ bore with
   Judas, why should I not bear with Brictio?’
+use_note:
+  means: "Gallus, in Sulpitius's Dialogues, reports that Martin refused to remove the accused presbyter Brictio, often saying that if Christ bore with Judas he should bear with Brictio."
+  not_for:
+    - "a verdict that the charges against Brictio were false, which the passage never gives"
+    - "a claim about Brictio's later career or status, which nothing at this locus supports"
+    - "the courtyard tirade and Martin's restraint, which sit in gallic.quote.brictio-tirade-and-martins-restraint"
+    - "Martin's saying as a verbatim transcript rather than words a narrator reports him repeating"
+  years: {from: 404, to: 406}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "And
 then the holy man explained"` returns line 5330; `grep -n "Brictio?"` returns line 5339, the chapter's

@@ -44,6 +44,13 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.army-and-rank-before
+use_note:
+  means: "Cassian explains in Institutes IV.6 that a novice's worldly clothes are kept by the steward until trials have proven his progress."
+  not_for:
+    - "a claim that the clothes are kept permanently, when the chapter says they are given away once progress is proven"
+    - "Gallic practice, when Cassian describes the Egyptian coenobia"
+  years: {from: 415, to: 426}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "excellence of his progress"` returns line 18681; read with `sed -n '18674,18684p'`, inside `<div4

@@ -126,6 +126,15 @@ quick_meaning: >-
   The virtue that keeps every other virtue from ruining itself. The royal road between excess and
   slackness, gained only by showing one's thoughts to the elders.
 distortion_risk: high
+use_note:
+  means: "Discretion meant, for Cassian, the virtue that regulates all others, the royal road between excess and slackness, gained only by humility and by showing thoughts to the elders."
+  not_for:
+    - "tact, prudence or confidentiality"
+    - "discernment as a private intuition or decision technique"
+    - "the practice of telling thoughts to the senior, which sits in gallic.term.disclosure-of-thoughts"
+    - "a Tours teaching, where the practice appears without the word"
+  years: {from: 397, to: 426}
+  status: provisional
 ---
 Built from Doc_06 entry 029 (Tier 2, pruned from Doc_03's Tier-1 estimate as "the closest call in the
 document," Doc_06 §2.3; chunk galliclex029_discretion.md; Doc_03 3.7). Register emic. Quotations

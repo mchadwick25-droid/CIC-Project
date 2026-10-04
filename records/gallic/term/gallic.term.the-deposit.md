@@ -90,6 +90,15 @@ quick_meaning: >-
   The faith held in trust. Gold received, gold to be given back - by one who is a keeper, not an
   author. Vincent's reading of the Apostle's charge to Timothy.
 distortion_risk: medium
+use_note:
+  means: "The deposit meant the faith held in trust, gold received and gold to be returned, by one who is a keeper and not an author, in Vincent's reading of Timothy."
+  not_for:
+    - "the later dogmatic deposit of faith administered by a magisterium"
+    - "a bank balance"
+    - "the three-part test, which sits in gallic.term.the-rule"
+    - "legitimate growth, which sits in gallic.term.progress-vs-alteration"
+  years: {from: 434, to: 434}
+  status: provisional
 ---
 Built from Doc_06 entry 056 (`galliclex056_the-deposit.md`, Tier 2, tags AS TC; Doc_03 7.4).
 Tagged [AS] in Doc_06 (not traceable to any reported Egyptian conference); the single-voice status

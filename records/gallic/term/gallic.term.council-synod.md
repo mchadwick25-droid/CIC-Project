@@ -107,6 +107,15 @@ quick_meaning: >-
   nothing. For Martin, the assembly that handed heretics to the sword, and which he never
   attended again. Two hearings we never reconciled.
 distortion_risk: medium
+use_note:
+  means: "Council meant two opposed things: for Vincent the ancients' decree that guards the faith by innovating nothing, for Martin the bishops' assembly he never entered again."
+  not_for:
+    - "an ecumenical council as a settled organ with defined authority"
+    - "Martin's refusal as anti-institutionalism"
+    - "the bishop's office, which sits in gallic.term.monk-bishop"
+    - "the three criteria of Vincent's test, which sit in gallic.term.the-rule"
+  years: {from: 397, to: 434}
+  status: provisional
 ---
 Built from Doc_06 entry 059 (`galliclex059_council-synod.md`, Tier 2, tags SC TC PV; Doc_03
 7.8). The [PV] is carried as the divergence_note's substance and in every sense: neither valence

@@ -166,6 +166,15 @@ quick_meaning: >-
   God's help, without which no effort reaches its goal - going before the will, working with it, and
   requiring it. Held on both sides at once, by design.
 distortion_risk: high
+use_note:
+  means: "Grace meant, for Cassian's Marseilles, God's help without which no effort reaches its goal, going before the will and crowning it, held on purpose with a will that stays free."
+  not_for:
+    - "a binary of grace alone against works, with the world placed on one side of it"
+    - "semi-Pelagian as a settled verdict, a label whose fit is contested in gallic.contested.massilian-label"
+    - "Martin's power to heal, which sits in gallic.term.grace-as-charism"
+    - "Augustine's own doctrine, for which his treatises are context only"
+  years: {from: 397, to: 434}
+  status: provisional
 ---
 Built from Doc_06 entry 008 (Tier 1, [CT] Meaning and Application; chunk galliclex008_grace.md;
 Doc_03 5.1). Register emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read

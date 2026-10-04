@@ -128,6 +128,15 @@ quick_meaning: >-
   A real and present enemy, sometimes visible. Martin knew him in any shape and spoke to him. Our
   elders find him in the thought we are ashamed to tell. Never a figure of speech.
 distortion_risk: high
+use_note:
+  means: "The devil meant a real, present and sometimes visible adversary whom Martin saw and spoke to and whom Cassian's elders find in the thought one is ashamed to tell."
+  not_for:
+    - "a metaphor for psychological conflict or social evil"
+    - "demons as a primitive explanation of illness"
+    - "exorcism as a practice, which sits in gallic.term.possessed-exorcism"
+    - "the devil's false appearances, which sit in gallic.term.illusion"
+  years: {from: 397, to: 435}
+  status: provisional
 ---
 Built from Doc_06 entry 050 (`galliclex050_the-devil-demons.md`, Tier 2, tags SC DR RT; Doc_03
 6.4). Pruned from Doc_03's Tier-1 estimate at Doc_06 section 2.3 (the object of the warfare, not a

@@ -39,6 +39,13 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented
+use_note:
+  means: "Cassian calls the Institutes, in his preface to the first Conferences, a work not his own but the fathers'."
+  not_for:
+    - "a modern disclaimer of authorship, when it disowns the teaching's origin rather than the writing"
+    - "the Institutes' own text, which this phrase only names"
+  years: {from: 426, to: 426}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "may now by the reception of the Institutes"` returns one hit, line 25931, inside `<div3

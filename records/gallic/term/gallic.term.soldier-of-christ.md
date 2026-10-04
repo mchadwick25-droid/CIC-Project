@@ -123,6 +123,15 @@ quick_meaning: >-
   A man who has changed service, from Caesar's to Christ's, and now fights the devil and his own
   faults under oath - with the cross, not with weapons.
 distortion_risk: high
+use_note:
+  means: "Soldier of Christ meant a man who has changed service from Caesar's to Christ's and fights the devil and his own faults under oath, the slack one being a deserter."
+  not_for:
+    - "spiritual warfare as a private inner metaphor"
+    - "the rhetoric of a militant crusading Christianity"
+    - "actual Roman military service as such"
+    - "the numbered combat with the faults, which sits in gallic.term.combat-athlete"
+  years: {from: 397, to: 434}
+  status: provisional
 ---
 Built from Doc_06 entry 002 (Tier 1; chunk galliclex002_soldier-of-christ.md; Doc_03 2.1). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read by this conversion pass.

@@ -134,6 +134,15 @@ modern_contrast: >-
   offends him - circuses, as a "remedy" for a ruined city - is itself evidence that Roman civic
   identity and its entertainments ran deeper than piety even among people who had just buried their
   own dead in the street.
+use_note:
+  means: "Salvian reports seeing the unburied dead of a repeatedly sacked city and then its surviving notables petitioning the emperors for circus games, evidencing his charge that judgment is present."
+  not_for:
+    - "the general pattern of lay worship against the games, which sits in gallic.term.church-or-circus"
+    - "the monastic houses' own theology of judgment, which sits in gallic.term.government-of-god"
+    - "a survey of the whole city, when it is one presbyter's eyewitness indictment"
+    - "Trier as named by Salvian, when the identification is his translator's"
+  years: {from: 439, to: 450}
+  status: provisional
 ---
 Built from a direct read of Salvian's On the Government of God, VI.13 and VI.15. Deliberately does not
 claim this episode establishes the broader "ordinary Christians skip church for games" pattern

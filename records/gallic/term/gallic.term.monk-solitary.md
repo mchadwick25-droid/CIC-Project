@@ -138,6 +138,15 @@ quick_meaning: >-
   A man cut off from marriage, kin, property and the life of the world for a stricter service of
   Christ. At Tours even a soldier and a bishop wore the name.
 distortion_risk: medium
+use_note:
+  means: "A monk meant a man cut off from marriage, kin, property and the world for stricter service of Christ, a name a soldier or bishop could bear at Tours."
+  not_for:
+    - "a cloistered professional religious under a written Rule and an abbot"
+    - "someone who by definition is not a soldier, a bishop or a city dweller"
+    - "Benedictine or later medieval monasticism"
+    - "why monks became bishops, which sits in gallic.term.monk-bishop"
+  years: {from: 397, to: 450}
+  status: provisional
 ---
 Built from Doc_06 entry 001 (Tier 1; chunk galliclex001_monk-solitary.md; Doc_03 1.1). Register set
 emic: the chunk's own voice note records a close-third-person lexicon device (naming Tours and

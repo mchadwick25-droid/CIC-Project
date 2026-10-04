@@ -51,6 +51,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.africa-and-rome-pressure
+use_note:
+  means: "Chaeremon, in Cassian's Conference XIII, rejects as profane the notion that everything rests on free will and that grace follows each man's desert."
+  not_for:
+    - "Cassian as a teacher of salvation by free will, which this passage expressly refuses"
+    - "the opposite refusal of a limited saving will, which sits in gallic.quote.without-grievous-blasphemy-all-men-to-be-saved"
+    - "a resolution of the contested grace teaching of Conference XIII"
+  years: {from: 426, to: 426}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "let no one imagine" cic/texts/npnf211..."` matches two chapters; the one needed is line 38459,

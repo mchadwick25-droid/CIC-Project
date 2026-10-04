@@ -50,6 +50,14 @@ modern_rendering: >-
   owned nothing. In fact, Martin himself had raised him in the monastery. Yet now he was keeping horses
   and buying slaves. At that time many people accused him of buying not only boys from barbarian
   peoples, but good-looking girls as well.
+use_note:
+  means: "Gallus reports that Brictio, raised penniless in Martin's monastery, had been reproved for keeping horses and buying slaves, including barbarian boys and comely girls."
+  not_for:
+    - "a proven conviction, when the text says he was accused by many"
+    - "the demonic framing of the outburst, which sits in gallic.quote.brictio-called-by-demons-on-the-rock"
+    - "a claim that clergy in this world generally kept horses and slaves"
+  years: {from: 404, to: 406}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "For he
 had been reproved"` returns line 5299; `grep -n "comely$"` returns line 5304, continuing "appearance." on

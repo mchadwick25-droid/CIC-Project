@@ -51,6 +51,13 @@ modern_rendering: >-
   Then Martin, with miraculous power in his words, commands the birds to leave the pool where they
   were swimming. He orders them to go off to dry and deserted lands. He used on those birds the very
   same authority he had long used to drive demons away.
+use_note:
+  means: "Sulpitius writes that on the road to Condate Martin commanded water birds to leave a pool, using the authority he used against demons."
+  not_for:
+    - "an eyewitness report, when Sulpitius says he was not present at Martin's death"
+    - "the foreknowledge of death and journey to Condate, which sits in gallic.quote.martin-foreknows-death-and-goes-to-condate"
+  years: {from: 397, to: 397}
+  status: provisional
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "put demons to flight"` returns line 2406. Read in context at lines 2400-2406: the sentence opens

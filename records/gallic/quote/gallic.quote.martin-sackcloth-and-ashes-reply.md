@@ -52,6 +52,14 @@ relations:
 modern_rendering: >-
   It is not right for a Christian to die anywhere but among ashes. If I leave you a different
   example, I have sinned.
+use_note:
+  means: "Martin, as Sulpitius reports in Letter III, refuses straw on his deathbed, saying a Christian should die among ashes and he must not leave another example."
+  not_for:
+    - "an eyewitness report, when Sulpitius was not present at the death"
+    - "ordinary deathbed practice among Gallic Christians rather than one saint's example"
+    - "the rebuke of the devil and the witnesses' report, which sit in gallic.quote.martin-rebukes-the-devil-and-dies"
+  years: {from: 397, to: 397}
+  status: provisional
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "I
 have sinned if I leave you a different example"` returns line 2466. Read in context at lines

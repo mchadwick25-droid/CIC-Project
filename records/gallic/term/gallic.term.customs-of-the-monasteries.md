@@ -132,6 +132,15 @@ quick_meaning: >-
   Egypt's monastic customs, received from the Fathers, not invented. Kept in Gaul as far as the cold
   allows, and admitted to be kept badly.
 distortion_risk: high
+use_note:
+  means: "The customs of the monasteries meant what Cassian carried from Egypt to Gaul, received from the fathers and not written as a Rule, kept as far as the cold allowed."
+  not_for:
+    - "a codified Rule such as Benedict's, with a canonical abbot and novitiate"
+    - "the Institutes as a theology textbook"
+    - "Vincent's rule of faith, which sits in gallic.term.the-rule"
+    - "documented Gallic practice, when Cassian admits that no one kept them for a year"
+  years: {from: 397, to: 435}
+  status: provisional
 ---
 Built from Doc_06 entry 005 (Tier 1, promoted from Doc_03's Tier 2 on Doc_05's reading of Institutes
 II-III; chunk galliclex005_customs-of-the-monasteries.md; Doc_03 3.6). Register emic. Quotations

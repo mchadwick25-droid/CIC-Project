@@ -113,6 +113,15 @@ quick_meaning: >-
   The monk's own hut or cave, rarely left except for prayer - where saints and the devil come, and
   where the wandering heart is held still.
 distortion_risk: medium
+use_note:
+  means: "The cell meant the monk's own hut or cave, rarely left except for prayer, where saints and devils come and the wandering heart is held still."
+  not_for:
+    - "a prison cell, or a bare private bedroom with solitude as privacy"
+    - "the house as a whole, which sits in gallic.term.monastery-coenobium"
+    - "the desert hermit's cell as such, which sits in gallic.term.anchorite-hermit"
+    - "Cassian's rule of never leaving the cell as proven Gallic practice, when whether any Gallic house kept it is not documented"
+  years: {from: 397, to: 435}
+  status: provisional
 ---
 Built from Doc_06 entry 016 (Tier 2, promoted from Doc_03's Tier 3 on Doc_05 §1.2; chunk
 galliclex016_cell.md; Doc_03 1.5). Register emic. Quotations verified at locus by the build's own

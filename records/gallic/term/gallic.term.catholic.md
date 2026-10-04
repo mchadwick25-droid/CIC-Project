@@ -113,6 +113,15 @@ quick_meaning: >-
   The faith "believed everywhere, always, by all." For us a rule, not a confession. The test is
   what all held, from of old, by consent. Cassian even calls a monk's custom "Catholic."
 distortion_risk: high
+use_note:
+  means: "Catholic meant the faith believed everywhere, always, by all, as Vincent puts it, a rule of the many and the old against the few and the new, not a confession."
+  not_for:
+    - "Roman Catholic as a denomination or a communion under the bishop of Rome"
+    - "the rule itself, which sits in gallic.term.the-rule"
+    - "the Roman see, which sits in gallic.term.apostolic-see-pope"
+    - "a later confessional identity"
+  years: {from: 397, to: 435}
+  status: provisional
 ---
 Built from Doc_06 entry 055 (`galliclex055_catholic.md`, Tier 2, tags SC DR TC RT; Doc_03 7.1).
 Pruned from Doc_03's Tier-1 estimate at Doc_06 section 2.3 (its defining content is the rule).

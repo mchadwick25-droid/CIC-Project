@@ -76,6 +76,14 @@ quick_meaning: >-
   Cassian's third kind of monk, "rightly named" by Egypt. He renounces the world for show, lives
   two or three together, and answers to no elder. A monk without a boundary.
 distortion_risk: low
+use_note:
+  means: "Sarabaite was Egypt's name, kept by Cassian, for the false third kind of monk who renounces for show, lives two or three together and answers to no elder."
+  not_for:
+    - "monks in general, which sit in gallic.term.monk-solitary"
+    - "the house as such, which sits in gallic.term.monastery-coenobium"
+    - "a Tours word, which no one at Tours uses"
+  years: {from: 426, to: 435}
+  status: provisional
 ---
 Built from Doc_06 entry 069 (`galliclex069_sarabaite.md`, Tier 3, tags SC TC; Doc_03 1.4). Kept
 intentionally thin at the Tier-3 floor: the chunk's own Distortion Risk section names only a

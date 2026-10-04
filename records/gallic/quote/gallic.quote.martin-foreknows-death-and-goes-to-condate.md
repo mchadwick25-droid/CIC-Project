@@ -58,6 +58,13 @@ modern_rendering: >-
   restore peace there. He knew well that the end of his days was near. Yet he did not shrink from
   making the journey for such a purpose. In fact, he thought that leaving behind him a church at
   peace again would be a fine crown to set on his virtues.
+use_note:
+  means: "Sulpitius writes that Martin foreknew his death yet travelled to Condate to reconcile its quarrelling clergy, counting restored peace a crown for his virtues."
+  not_for:
+    - "corroborated fact about the foreknowledge, which rests on Sulpitius alone"
+    - "the deathbed scene, which sits in gallic.quote.martin-disciples-plea-and-his-reply"
+  years: {from: 397, to: 397}
+  status: provisional
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "was aware of the period of his own death"` returns line 2380, opening the paragraph at

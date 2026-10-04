@@ -111,6 +111,15 @@ quick_meaning: >-
   The monk's binding, public undertaking of a whole way of life. Sworn like a soldier's oath, and
   betrayed like a deserter.
 distortion_risk: medium
+use_note:
+  means: "Profession meant the monastic undertaking as a binding public commitment with its own goal and end, sworn like a soldier's oath and betrayed like a deserter."
+  not_for:
+    - "a career or trade"
+    - "the later formal rite of solemn vows"
+    - "a profession of faith as a creed, which sits in gallic.term.the-rule"
+    - "the goal of the undertaking, which sits in gallic.term.goal-and-end"
+  years: {from: 397, to: 435}
+  status: provisional
 ---
 Built from Doc_06 entry 019 (Tier 2; chunk galliclex019_profession.md; Doc_03 1.9). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here.

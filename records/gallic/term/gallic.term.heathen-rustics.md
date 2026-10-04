@@ -103,6 +103,15 @@ quick_meaning: >-
   At Tours, the unconverted countryside - the mission field where Martin halted idols, burned
   temples, and built churches in their place. Where almost none had the name of Christ.
 distortion_risk: medium
+use_note:
+  means: "Heathen rustics meant, at Tours, the unconverted Gallic countryside where Martin halted idols, burned temples and built churches where they fell."
+  not_for:
+    - "pagan as a neutral identity, or temple burning as intolerance to be judged"
+    - "Gaul as already Christian by the fourth century"
+    - "Cassian's heathen philosophers, a different referent"
+    - "the Roman province politically, which sits in gallic.term.gaul"
+  years: {from: 397, to: 435}
+  status: provisional
 ---
 Built from Doc_06 entry 053 (`galliclex053_heathen-rustics.md`, Tier 2, tags SC DR RT; Doc_03
 6.8). Single-voice by node, stated in divergence_note; the south's silence is stated, as the

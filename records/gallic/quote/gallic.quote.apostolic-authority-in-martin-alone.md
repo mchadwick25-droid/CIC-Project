@@ -46,6 +46,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence
+use_note:
+  means: "Sulpitius writes in the Life of Martin that while bishops fawned on the emperor Maximus, apostolic authority still asserted itself in Martin alone."
+  not_for:
+    - "Martin's own claim about himself, when it is Sulpitius's verdict"
+    - "a fair report of every bishop at Maximus's court"
+    - "the later Treves crisis over the tribunes, which sits in gallic.quote.gallus-on-the-tribunes-for-the-spains"
+  years: {from: 397, to: 397}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "apostolic authority continued to assert itself"` returns one hit, line 1565, inside `<div3

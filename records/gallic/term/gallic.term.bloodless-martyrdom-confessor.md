@@ -104,6 +104,14 @@ quick_meaning: >-
   A martyr without blood. Martin was one "by vow and virtues." A Confessor suffered for the faith and
   lived. A strict monk is "crucified daily" to his own will.
 distortion_risk: medium
+use_note:
+  means: "Bloodless martyrdom covered three unconnected senses: Martin a martyr in will without bloodshed for Sulpitius, Vincent's Confessors suffering short of death, and Cassian's strict monks crucified daily."
+  not_for:
+    - "a confessor as a priest who hears confessions, a later sense; the monk's telling of thoughts sits in gallic.term.disclosure-of-thoughts"
+    - "the three senses as one doctrine, when the voices do not cite one another"
+    - "white martyrdom as a later category read backward"
+  years: {from: 397, to: 435}
+  status: provisional
 ---
 Built from Doc_06 entry 025 (Tier 2; chunk galliclex025_bloodless-martyrdom-confessor.md; Doc_03
 2.4). Register emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here.

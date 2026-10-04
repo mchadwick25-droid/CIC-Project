@@ -103,6 +103,15 @@ quick_meaning: >-
   loins, the staff against invisible beasts - refitted for Gaul's cold. At Marmoutier, camel's
   hair, and softness a crime.
 distortion_risk: medium
+use_note:
+  means: "The monk's dress meant, in Cassian, garments each read as a mystery of the inner life and refitted for Gaul's cold, and at Marmoutier camel's hair with softness a crime."
+  not_for:
+    - "the habit as a uniform fixed by rule and worn for identification"
+    - "dress as incidental to formation"
+    - "sackcloth specifically, which sits in gallic.term.sackcloth-and-ashes"
+    - "the Benedictine habit, which lies outside the window"
+  years: {from: 397, to: 426}
+  status: provisional
 ---
 Built from Doc_06 entry 066 (`galliclex066_the-monks-dress.md`, Tier 2, tags SC TC DR; Doc_03
 8.6). One of the terms Doc_06 section 4(b) names as carrying the Benedictine back-projection

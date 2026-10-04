@@ -113,6 +113,15 @@ quick_meaning: >-
   A consecrated state, given by the bishop's hands, with its own dress. Marriage is excused;
   virginity points to glory. The south's own teaching on chastity was cut from our English text.
 distortion_risk: medium
+use_note:
+  means: "Virginity meant a consecrated state given by the bishop's hands, with its own dress, where marriage is excused and virginity points to glory, seen mostly through Tours."
+  not_for:
+    - "virginity as sexual abstinence merely, or as repression"
+    - "nuns under a later rule"
+    - "the south's own teaching on chastity, which was cut from the vendored English edition"
+    - "purity of heart as the monk's goal, which sits in gallic.term.purity-of-heart"
+  years: {from: 397, to: 426}
+  status: provisional
 ---
 Built from Doc_06 entry 064 (`galliclex064_virgin-virginity.md`, Tier 2, tags SC DR RT; Doc_03
 8.4). The row 11 excisions (Conf. XII, Conf. XXII, Inst. VI) and the Article 20 finding (no

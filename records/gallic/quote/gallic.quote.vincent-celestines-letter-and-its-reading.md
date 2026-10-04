@@ -70,6 +70,14 @@ relations:
   target: gallic.force.contest-over-antiquity
 - type: associated-with
   target: gallic.force.africa-and-rome-pressure
+use_note:
+  means: "Vincent quotes Pope Celestine's letter rebuking the priests of Gaul and reads it as silencing novelty rather than antiquity."
+  not_for:
+    - "a settled finding that Vincent held the Massilian position, which is contested"
+    - "Celestine's own interpretation rather than Vincent's reading of the letter"
+    - "Pope Stephen's rule, which sits in gallic.quote.pope-stephen-no-innovation"
+  years: {from: 434, to: 434}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "85\.\] Holy Pope Celestine"` returns line 14615; read with `sed -n '14614,14632p'`, inside `<div2

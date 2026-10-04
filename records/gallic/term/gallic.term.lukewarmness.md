@@ -123,6 +123,15 @@ quick_meaning: >-
   The monk's characteristic failure - not apostasy but cooling. A disease of temperature that damns,
   the reason a grey head is no guarantee.
 distortion_risk: high
+use_note:
+  means: "Lukewarmness meant the monk's characteristic failure, not apostasy but cooling, a disease of temperature that damns and that a grey head does not cure."
+  not_for:
+    - "mild disapproval or half-heartedness"
+    - "burnout as an understandable phase"
+    - "the specific noonday assault on the cell, which sits in gallic.term.accidie"
+    - "a word for monks only, when Salvian uses it of ordinary Christians"
+  years: {from: 404, to: 450}
+  status: provisional
 ---
 Built from Doc_06 entry 033 (Tier 2; chunk galliclex033_lukewarmness.md; Doc_03 3.11). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Conf. Pref. II's "cold of

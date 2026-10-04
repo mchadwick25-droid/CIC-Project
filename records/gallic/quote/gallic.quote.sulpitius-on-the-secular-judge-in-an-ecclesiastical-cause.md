@@ -50,6 +50,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.trier-and-the-ithacian-communion
+use_note:
+  means: "Sulpitius, in his own voice in the Sacred History, states Martin's position that expulsion sufficed for the heretics and that a secular judge in a church cause was unheard of."
+  not_for:
+    - "a separate witness from gallic.quote.secular-ruler-judge-in-ecclesiastical-cause, which carries the same sentence"
+    - "independent corroboration of the Dialogues' Treves account, when both come from the same author"
+    - "a claim that Martin thought the condemned were not heretics"
+  years: {from: 397, to: 406}
+  status: provisional
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "quite sufficient punishment"`

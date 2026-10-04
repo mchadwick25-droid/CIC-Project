@@ -103,6 +103,15 @@ quick_meaning: >-
   Vincent's rule for growth. All possible progress, but never alteration. The faith may be
   enlarged like a body growing, or given a clearer name; it may not become something else.
 distortion_risk: high
+use_note:
+  means: "Progress meant, for Vincent, enlargement like a growing body or a clearer name for the same faith, never alteration into something else."
+  not_for:
+    - "development of doctrine as Newman's theory, or Vincent as a charter for change"
+    - "Vincent as a proof-text against all change"
+    - "what is kept, which sits in gallic.term.the-deposit"
+    - "the test of the faith, which sits in gallic.term.the-rule"
+  years: {from: 434, to: 434}
+  status: provisional
 ---
 Built from Doc_06 entry 057 (`galliclex057_progress-vs-alteration.md`, Tier 2, tags AS TC DR CT;
 Doc_03 7.5). The CT (Relationship to present-day traditions) is carried in divergence_note;

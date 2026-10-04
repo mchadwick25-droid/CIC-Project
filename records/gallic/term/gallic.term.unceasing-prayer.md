@@ -134,6 +134,15 @@ quick_meaning: >-
   Prayer that never stops, the aim of every monk. At Marseilles, a received Egyptian system of twelve
   psalms at fixed hours built to serve that aim.
 distortion_risk: high
+use_note:
+  means: "Unceasing prayer meant the aim of every monk at Tours and Marseilles, served at Marseilles by a received Egyptian system of psalms at fixed hours said to be an angel's."
+  not_for:
+    - "the Divine Office as one settled book that all monks everywhere recited"
+    - "prayer as private devotion and feeling"
+    - "the eucharist as a rite, which sits in gallic.term.communion"
+    - "later Benedictine or Roman hours, whose names Lauds, Prime and Compline are the editor's"
+  years: {from: 397, to: 426}
+  status: provisional
 ---
 Built from Doc_06 entry 007 (Tier 1, promoted from Doc_03's Tier 2 on Doc_05's Worship lens; chunk
 galliclex007_unceasing-prayer.md; Doc_03 4.11). Register emic. Quotations verified at locus by the

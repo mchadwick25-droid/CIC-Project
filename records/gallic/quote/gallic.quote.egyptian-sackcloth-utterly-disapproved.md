@@ -57,6 +57,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.power-displayed-disowned
+use_note:
+  means: "Cassian reports that the Egyptian fathers rejected sackcloth robes as conspicuous, conducive to vanity and unsuited to a monk's necessary work."
+  not_for:
+    - "a rejection of penance, when the objection is to visible display"
+    - "the general rule on antiquity and consent, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
+    - "an explicit criticism of Martin by name"
+  years: {from: 415, to: 426}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "disapproved"` returns line 16656; read with `sed -n '16648,16663p'`, inside the Institutes Book

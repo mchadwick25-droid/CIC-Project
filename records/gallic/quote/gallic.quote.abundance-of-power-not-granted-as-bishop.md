@@ -46,6 +46,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.virtus
+use_note:
+  means: "Gallus reports in Sulpitius's Dialogues that Martin often said he had less power as bishop than he remembered having before taking office."
+  not_for:
+    - "Martin's own direct words, when the line is Gallus's report of a habitual remark"
+    - "the diminution after the coerced communion at Treves, which sits in gallic.quote.gallus-on-the-forced-communion-and-the-angel"
+    - "a claim that office always diminished holy men's power in this world"
+  years: {from: 404, to: 406}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "such an abundance"` returns line 4040; read with `sed -n '4038,4043p'`, inside `<div4 ...

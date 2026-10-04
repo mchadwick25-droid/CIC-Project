@@ -120,6 +120,15 @@ divergence_partners:
 relations:
 - type: associated-with
   target: gallic.gravity.monk-bishop
+use_note:
+  means: "The claim that monk-bishops came to office as captives, never candidates, is contested, since the houses tell their own founders' stories and Martin's election is told at second hand."
+  not_for:
+    - "the reluctance as total fact for every house"
+    - "the story of Tours itself, which sits in gallic.story.election-at-tours"
+    - "a neutral account of the objecting bishops"
+    - "the pattern of monks becoming bishops, which sits in gallic.gravity.monk-bishop"
+  years: {from: 397, to: 430}
+  status: provisional
 ---
 Unparked, not invented. The contested content sits in three places in this world's own record: (1)
 gallic.story.election-at-tours's own confidence note and absent_detail ("The objecting bishops' own

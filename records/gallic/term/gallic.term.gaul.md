@@ -116,6 +116,15 @@ quick_meaning: >-
   For Sulpitius, "We are Gauls" - a joke about our appetites, and a boast that Egypt has no
   Martin.
 distortion_risk: medium
+use_note:
+  means: "Gaul meant, for Cassian, the cold late province that receives Egypt's rule and falls short of it, and for Sulpitius a self-mocking 'We are Gauls' and a boast of Martin."
+  not_for:
+    - "France or a national identity"
+    - "Gallic pride, when Cassian's voice is self-deprecating"
+    - "the received customs as such, which sit in gallic.term.customs-of-the-monasteries"
+    - "the pagan countryside, which sits in gallic.term.heathen-rustics"
+  years: {from: 404, to: 450}
+  status: provisional
 ---
 Built from Doc_06 entry 068 (`galliclex068_gaul.md`, Tier 2, tags AS DR RT; Doc_03 8.8). Carries
 G2's comparative mode and local pole (Doc_06 section 2.2, section 2.5); tagged [AS] because

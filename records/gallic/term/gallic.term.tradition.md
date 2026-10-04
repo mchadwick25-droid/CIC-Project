@@ -115,6 +115,15 @@ quick_meaning: >-
   What was handed down and must be passed on unchanged. The ground on which a Pope's letter, a monk's
   fast and a bishop's refusal of a tomb are all judged.
 distortion_risk: medium
+use_note:
+  means: "Tradition meant what has been received and must be passed on unchanged, the ground on which Vincent's rule, Cassian's elders and Martin's refusal of a tomb are all judged."
+  not_for:
+    - "a rival authority to Scripture in a confessional debate"
+    - "custom and folkways, or conservatism"
+    - "the persons who hand down, which sit in gallic.term.the-fathers-elders"
+    - "the formulated test, which sits in gallic.term.the-rule"
+  years: {from: 397, to: 435}
+  status: provisional
 ---
 Built from Doc_06 entry 027 (Tier 2; chunk galliclex027_tradition.md; Doc_03 3.4). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cells F2-T and

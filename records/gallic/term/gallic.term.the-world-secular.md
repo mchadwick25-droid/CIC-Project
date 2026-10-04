@@ -124,6 +124,15 @@ quick_meaning: >-
   What a monk has left - kin, property, honours, business - named from the harbour as a warfare
   one was discharged from. Never a place where God is absent.
 distortion_risk: medium
+use_note:
+  means: "The world meant what a monk has left, kin, property, honours and business, named from the harbour as a warfare one was discharged from, never as a place without God."
+  not_for:
+    - "secular in the modern sense of non-religious or secular government"
+    - "contempt for the created order, or misanthropy"
+    - "the act of leaving, which sits in gallic.term.renunciation"
+    - "the Roman province and its ruin, which sit in gallic.term.gaul and gallic.term.government-of-god"
+  years: {from: 397, to: 434}
+  status: provisional
 ---
 Built from Doc_06 entry 022 (Tier 2; chunk galliclex022_the-world-secular.md; Doc_03 1.12). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Row 25 (De

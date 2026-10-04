@@ -77,6 +77,15 @@ nearest_material:
 - gallic.term.gaul
 - gallic.demo.record-thinnest
 relations: []
+use_note:
+  means: "The record attests that everything it holds about this world's places and daily life comes from texts, and cannot supply any excavation, material find or account of the island's days."
+  not_for:
+    - "a claim that nothing has ever been dug up, when the build has not searched that literature"
+    - "what the island kept day by day, which the record does not hold"
+    - "Cassian's Egyptian customs as how Gallic houses lived, when he complains no one kept them for a year, as in gallic.term.customs-of-the-monasteries"
+    - "the editorial place-names as the world's own words"
+  years: {from: 397, to: 426}
+  status: provisional
 ---
 Closes F5-E at the Answer-the-Canon step (inserted between B-7 and B-8)
 as a genuine, declared absence, on the shape of

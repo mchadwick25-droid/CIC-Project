@@ -55,6 +55,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence
+use_note:
+  means: "Vincent, in chapter 28 of the Commonitory, rules that a lone teacher's view against all, whatever his rank, is a private fancy, lest the Church follow one man's error."
+  not_for:
+    - "a separate witness from gallic.quote.private-fancy-be-he-a-bishop, which carries the opening of this same sentence"
+    - "hostility to bishops as such, when the rule weighs every rank alike"
+    - "Vincent's threefold test, which sits in gallic.quote.believed-everywhere-always-by-all"
+  years: {from: 434, to: 434}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "be he a bishop"` returns one hit, line 14272, inside `<div2 title="Chapter XXVIII. In what Way, on

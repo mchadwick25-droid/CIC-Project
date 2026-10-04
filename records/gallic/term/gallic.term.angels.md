@@ -87,6 +87,15 @@ quick_meaning: >-
   At Tours, Martin's visitors - warriors at a temple, a messenger at sea, Agnes and Thecla in his
   cell. At Marseilles, mostly the devil's false angel of light.
 distortion_risk: medium
+use_note:
+  means: "Angels meant, at Tours, Martin's frequent visitors and messengers, and at Marseilles chiefly the devil's counterfeit angel of light."
+  not_for:
+    - "one angel piety shared symmetrically by both nodes"
+    - "the devil's counterfeit angel, which sits in gallic.term.illusion"
+    - "the angel who fixed the twelve psalms, which sits in gallic.story.the-angel-and-the-twelve-psalms"
+    - "angelology as doctrine, which the record does not hold"
+  years: {from: 397, to: 426}
+  status: provisional
 ---
 Built from Doc_06 entry 075 (`galliclex075_angels.md`, Tier 3, tags SC DR RT; Doc_03 6.6). Kept
 thin at the Tier-3 floor; the DR tag carried as distortion_risk: medium with the chunk's own two

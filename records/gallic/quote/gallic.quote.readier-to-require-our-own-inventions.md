@@ -51,6 +51,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.legitimacy-by-reception
+use_note:
+  means: "Cassian, in Institutes II, blames varied monastic rules on men who become abbots before being disciples and prefer their own inventions to the elders' teaching."
+  not_for:
+    - "a survey showing every Gallic house was disordered"
+    - "Cassian's appeal to the antiquity of the many, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
+    - "Vincent's rule on doctrine, which sits in gallic.quote.not-an-author-but-a-keeper"
+  years: {from: 415, to: 426}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "appoint ourselves Abbots before we have"` returns line 17095; read with `sed -n '17092,17098p'`,

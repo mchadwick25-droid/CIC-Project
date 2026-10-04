@@ -139,6 +139,15 @@ manifestations:
 - "'Not an author but a keeper, not a teacher but a disciple, not a leader but a follower' (Comm. ch. 22 [53]); 'real progress, not alteration of the faith' (ch. 23)"
 - "Martin refusing a cult at an unattested tomb, 'lest a mere superstition should obtain a firmer footing' (Vita XI) - the Tours node's one episode"
 - "The instrument turned both ways in-window: Prosper's 'they defend their obstinacy by antiquity'; Celestine's 'let novelty cease to assail antiquity'; Vincent reading the letter for his own side (Comm. ch. 32 [85]; Heurtley's Appendices II-III, editorial)"
+use_note:
+  means: "Antiquity, the fathers and consent are the test of legitimacy against novelty in custom, doctrine and cult, applied by all three founding voices though they never cite one another."
+  not_for:
+    - "a conservatism that forbids all growth"
+    - "the test as consistently applied, when that is contested in gallic.contested.who-holds-antiquity"
+    - "Cassian's customs as a written Rule"
+    - "Martin's refusal of an unattested tomb as Vincent's doctrine, which sits in gallic.term.the-rule"
+  years: {from: 397, to: 434}
+  status: provisional
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Vincent of
 Lérins, Sulpitius Severus) and, for the Massilian contest over antiquity, the same edition's own

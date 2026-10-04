@@ -94,6 +94,15 @@ relations:
   target: gallic.quote.receiving-christ-in-you
 - type: associated-with
   target: gallic.quote.martin-on-the-christ-with-wounds
+use_note:
+  means: "This witness says Jesus sought the unpitied, citing Martin's cloak, the guest received as Christ and grace calling the unwilling, while naming its thin personal testimony."
+  not_for:
+    - "a personal conversion testimony from anyone but Martin, which the record lacks"
+    - "evidence that Gallic houses broke fasts for guests, which Cassian does not say"
+    - "a settled reading of Conference XIII on grace, which is contested"
+    - "who Christ was and what his death meant, which sit in gallic.dw.the-christ-who-bears-the-wounds"
+  years: {from: 397, to: 434}
+  status: provisional
 ---
 Closes C-P at the Answer-the-Canon step (inserted between B-7 and B-8).
 The fleet has both precedents for this cell - ijc.limit.jesus-to-you (an

@@ -137,6 +137,15 @@ quick_meaning: >-
   A real but weak freedom that "always remains" in man, which grace strengthens without removing.
   Our fasts are truly ours and truly required; the labouring is not our own.
 distortion_risk: high
+use_note:
+  means: "Free will meant, for Cassian's Marseilles, a real but weak power that always remains in man, which grace strengthens without removing and which never suffices alone."
+  not_for:
+    - "a philosophical question about determinism"
+    - "the Pelagian half of a grace-versus-works binary"
+    - "grace as such, which sits in gallic.term.grace"
+    - "a Tours teaching, whose literature does not raise the matter"
+  years: {from: 415, to: 434}
+  status: provisional
 ---
 Built from Doc_06 entry 009 (Tier 1, [CT] Meaning and Application; chunk galliclex009_free-will.md;
 Doc_03 5.2). Register emic. Quotations verified at locus by the build's own Doc_06 pass (including the

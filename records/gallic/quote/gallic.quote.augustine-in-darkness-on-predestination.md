@@ -48,6 +48,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.africa-and-rome-pressure
+use_note:
+  means: "Augustine writes in On the Predestination of the Saints that the Massilian brethren are still in darkness on predestination but may yet be shown the truth."
+  not_for:
+    - "the Gallic monks' own voice or self-description, when it is an outside African report"
+    - "Chaeremon's teaching on grace, which sits in gallic.quote.chaeremon-three-stages-of-grace"
+    - "a condemnation of the brethren as heretics"
+  years: {from: 428, to: 429}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml. `grep -n "For as
 yet they are in darkness"` returns line 20836; read with `sed -n '20828,20838p'`, inside `<div3

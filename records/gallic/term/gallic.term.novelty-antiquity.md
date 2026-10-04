@@ -136,6 +136,15 @@ quick_meaning: >-
   Our test of what is legitimate, in doctrine, custom and cult alike. The new is suspect for being
   new. The handed-down is held fast. The old may grow, but not become other.
 distortion_risk: medium
+use_note:
+  means: "Novelty and antiquity named the axis on which all three founding voices judged legitimacy: the new is suspect for being new, and what was handed down is held fast."
+  not_for:
+    - "novelty as harmless newness or as a virtue"
+    - "conservative as a political posture"
+    - "the three-part procedure, which sits in gallic.term.the-rule"
+    - "Vincent's growth analogy, which sits in gallic.term.progress-vs-alteration"
+  years: {from: 397, to: 435}
+  status: provisional
 ---
 Built from Doc_06 entry 012 (Tier 1; chunk galliclex012_novelty-antiquity.md; Doc_03 7.3). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Doc_06 considered

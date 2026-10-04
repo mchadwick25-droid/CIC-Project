@@ -55,6 +55,13 @@ modern_rendering: >-
   that holy multitude, bands dressed in cloaks. Some were old men whose life's labor was done.
   Others were young soldiers who had just sworn their oath of loyalty to Christ. Then came the
   company of virgins too, holding back their tears out of modesty.
+use_note:
+  means: "Sulpitius pictures Martin's funeral procession as a shepherd driving his flocks, with old men, newly sworn soldiers of Christ and a choir of virgins."
+  not_for:
+    - "literal soldiers, when the oath of allegiance is to Christ"
+    - "the crowd size and monk count, which sits in gallic.quote.martin-funeral-crowd-and-monks"
+  years: {from: 397, to: 397}
+  status: provisional
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Undoubtedly the shepherd was then driving"` returns line 2495; `grep -n "abstaining out of modesty

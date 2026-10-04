@@ -107,6 +107,15 @@ quick_meaning: >-
   healing the sick. At Marseilles, a conspicuous robe the fathers refused as vanity. Never
   reconciled.
 distortion_risk: medium
+use_note:
+  means: "Sackcloth and ashes were, at Tours, Martin's weapons for prayer, exorcism and death, and at Marseilles a conspicuous robe that Egypt's fathers refused as vanity."
+  not_for:
+    - "a hair shirt as medieval self-torment, or a figure of speech for regret"
+    - "one monastic view of penitential dress, when the two nodes directly oppose"
+    - "the monk's dress as a system, which sits in gallic.term.the-monks-dress"
+    - "penance for a fault, which sits in gallic.term.penance-satisfaction"
+  years: {from: 397, to: 426}
+  status: provisional
 ---
 Built from Doc_06 entry 065 (`galliclex065_sackcloth-and-ashes.md`, Tier 2, tags SC DR PV;
 Doc_03 8.5), promoted from Tier 3 at Doc_06 section 2.4 as the ecology's second-best-documented

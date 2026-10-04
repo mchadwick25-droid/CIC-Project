@@ -66,6 +66,14 @@ relations:
   target: gallic.dw.christ-in-the-beggar-and-the-guest
 - type: associated-with
   target: gallic.dw.the-christ-who-bears-the-wounds
+use_note:
+  means: "An unnamed Egyptian elder, in Cassian's Institutes, explains breaking his fast for guests because receiving Christ in them commands charity, and he will fast afterwards."
+  not_for:
+    - "evidence that Gallic houses broke fasts for guests, which Cassian does not say"
+    - "a Gallic teaching rather than Egypt's, received through Cassian's book"
+    - "Christ shown in the beggar at Amiens, which sits in gallic.quote.the-cloak-divided-and-the-vision-of-christ"
+  years: {from: 415, to: 426}
+  status: provisional
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between
 B-7 and B-8) directly against the vendored

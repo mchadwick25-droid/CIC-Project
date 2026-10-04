@@ -47,6 +47,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented
+use_note:
+  means: "Vincent, expounding 'Keep the deposit' in the Commonitory, says the guardian of doctrine holds what was entrusted to him, as a keeper and not an author."
+  not_for:
+    - "Pope Stephen's rule against innovation, which sits in gallic.quote.pope-stephen-no-innovation"
+    - "the threefold test of universality, antiquity and consent, which sits in gallic.quote.believed-everywhere-always-by-all"
+    - "a description of how every Gallic teacher actually taught rather than Vincent's ideal"
+  years: {from: 434, to: 434}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "not an author but a keeper"` returns one hit, line 13773, inside `<div2 title="Chapter XXII. A more

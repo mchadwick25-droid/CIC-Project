@@ -135,6 +135,15 @@ quick_meaning: >-
   Vincent's test for the faith: what has been believed everywhere, always, by all. Prefer the whole
   to the part, the old to the new, and the consent of the ancients to any one teacher.
 distortion_risk: high
+use_note:
+  means: "The rule meant Vincent's test of the faith, what has been believed everywhere, always, by all, preferring the whole, the old and consent to the part, the new and few."
+  not_for:
+    - "the Vincentian canon as a slogan in later polemic over which communion holds the faith"
+    - "a monastic Rule, whether Cassian's customs or Benedict's"
+    - "a formula consistently applied, when its use in the live grace dispute is contested in gallic.contested.who-holds-antiquity"
+    - "novelty as a value in itself, which sits in gallic.term.novelty-antiquity"
+  years: {from: 397, to: 434}
+  status: provisional
 ---
 Built from Doc_06 entry 011 (Tier 1, [AS] [CT] Historical scope and Present-day; chunk
 galliclex011_the-rule.md; Doc_03 7.2). Register emic. Quotations verified at locus by the build's own

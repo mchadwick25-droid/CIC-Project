@@ -119,6 +119,15 @@ quick_meaning: >-
   The exact point at issue in our argument about grace. Does our good will begin with us, or with
   God's mercy? Our teacher answered on both sides and said no one can fully grasp it.
 distortion_risk: high
+use_note:
+  means: "The beginning of a good will named the point at issue in the grace argument, whether the will starts with us or with God, which Cassian answered on both sides."
+  not_for:
+    - "a settled semi-Pelagian position that man makes the first move"
+    - "either of Cassian's two phrasings taken as his one position, a contest carried in gallic.contested.beginning-of-good-will"
+    - "the broader doctrine of grace, which sits in gallic.term.grace"
+    - "the beginning of the monastic life, which sits in gallic.term.conversion"
+  years: {from: 426, to: 429}
+  status: provisional
 ---
 Built from Doc_06 entry 042 (`galliclex042_beginning-of-a-good-will.md`, Tier 2, tags SC TC DR
 CT; Doc_03 5.3). Pruned from Doc_03's Tier-1 estimate at Doc_06 section 2.3: the crux of the grace

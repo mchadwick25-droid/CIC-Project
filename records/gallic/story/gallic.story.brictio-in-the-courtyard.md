@@ -126,6 +126,15 @@ modern_contrast: >-
   stops believing what he sees, calling the master's visions "ridiculous fancies," is a man Martin
   raised, and the community's own text is what raises the charge of barbarian boys and comely girls
   bought as slaves.
+use_note:
+  means: "Gallus relates that Brictio, raised by Martin, stormed at him and called his visions ridiculous fancies, repented within the hour, and was borne with as Christ bore Judas."
+  not_for:
+    - "a neutral report of Brictio's case, when it comes from men hostile to him"
+    - "Marseilles teaching on obedience or the disclosure of thoughts, which sits in gallic.term.obedience"
+    - "the south's doctrine of demons, which sits in gallic.term.the-devil-demons"
+    - "an Egyptian disciple turning on a master, which sits in gallic.story.paphnutius-and-the-hidden-book"
+  years: {from: 404, to: 406}
+  status: provisional
 ---
 No separate figure record exists for Brictio: he appears in this single story and nowhere else in the
 world's built evidence, and nothing may be asserted about him beyond this locus - he is fully carried

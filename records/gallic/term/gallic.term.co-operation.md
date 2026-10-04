@@ -99,6 +99,15 @@ quick_meaning: >-
   Our verb for grace and effort together. God's grace goes before our will, helps it, and crowns
   it - and still asks real work of us. We name God Protector and Helper for the two moments.
 distortion_risk: high
+use_note:
+  means: "Co-operation meant grace working with the will, going before it, helping it and crowning it, while still asking real effort of the monk."
+  not_for:
+    - "synergism as a confessional position to affirm or condemn"
+    - "a saying that God helps those who help themselves"
+    - "the broader doctrine of grace, which sits in gallic.term.grace"
+    - "the first beginning of a good will, which sits in gallic.term.beginning-of-a-good-will"
+  years: {from: 415, to: 426}
+  status: provisional
 ---
 Built from Doc_06 entry 045 (`galliclex045_co-operation.md`, Tier 2, tags SC TC DR; Doc_03 5.6).
 CT tag not applied per Doc_06 section 3 (the "synergism" gap is a distortion risk) - carried here as

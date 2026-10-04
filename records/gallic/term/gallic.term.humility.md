@@ -152,6 +152,15 @@ quick_meaning: >-
   A virtue with ten checkable signs, won by obedience and set above miracles. The one virtue that
   survives being made a bishop.
 distortion_risk: medium
+use_note:
+  means: "Humility meant the root of discretion and patience, given ten checkable signs by Cassian and kept by Martin even as bishop on a servant's stool."
+  not_for:
+    - "modesty, low self-esteem or a temperament"
+    - "a virtue opposed to confidence and leadership"
+    - "the regulating virtue that grows from it, which sits in gallic.term.discretion"
+    - "pride as the eighth fault specifically, which sits in gallic.term.eight-principal-faults"
+  years: {from: 397, to: 435}
+  status: provisional
 ---
 Built from Doc_06 entry 032 (Tier 2; chunk galliclex032_humility.md; Doc_03 3.10). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Doc_06 §5 item 1

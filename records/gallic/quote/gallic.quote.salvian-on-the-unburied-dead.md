@@ -64,6 +64,14 @@ relations:
   target: gallic.quote.salvian-on-treves-ruined-elite
 - type: associated-with
   target: gallic.quote.salvian-on-the-demand-for-circuses
+use_note:
+  means: "Salvian, in On the Government of God, describes the greatest city of Gaul after repeated sacks, its dead lying unburied, a sight he says he himself endured."
+  not_for:
+    - "a consistent count of the sacks, when Salvian says three here and four in gallic.quote.salvian-on-treves-ruined-elite"
+    - "the circus petition, which sits in gallic.quote.salvian-on-the-demand-for-circuses"
+    - "a lament for the dead, when Salvian uses them as an indictment of the living"
+  years: {from: 439, to: 450}
+  status: provisional
 ---
 Verified against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n "three times
 destroyed"` returns one hit, line 8242; `grep -n "torn and naked"` returns one hit, line 8255-8256;

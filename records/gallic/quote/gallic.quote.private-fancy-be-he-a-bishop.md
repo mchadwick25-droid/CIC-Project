@@ -47,6 +47,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.legitimacy-by-reception
+use_note:
+  means: "Vincent, in chapter 28 of the Commonitory, says any teacher's view held against all, even a bishop's, confessor's or martyr's, is to be treated as a private fancy."
+  not_for:
+    - "a separate witness from gallic.quote.private-fancy-of-his-own, which carries this same sentence in full"
+    - "a rejection of bishops' authority in general, when the rule targets a lone opinion against consent"
+    - "a rule aimed at a named opponent, which the passage does not name"
+  years: {from: 434, to: 434}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "But whatsoever a teacher holds"` returns line 14271; read with `sed -n '14260,14276p'`, inside

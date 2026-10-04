@@ -109,6 +109,15 @@ quick_meaning: >-
   Being already dead to the world, as a crucified man cannot move his limbs. The state every practice
   assumes, worn in the girdle and the tunic.
 distortion_risk: high
+use_note:
+  means: "Mortification meant being already dead to the world as a crucified man cannot move his limbs, the state every practice assumes, worn in the girdle and the tunic."
+  not_for:
+    - "self-harm, self-hatred or flagellation"
+    - "asceticism as contempt for the body"
+    - "the act of giving things up, which sits in gallic.term.renunciation"
+    - "Tours' sackcloth and ashes as practices named with this word, which sit in gallic.term.sackcloth-and-ashes"
+  years: {from: 397, to: 426}
+  status: provisional
 ---
 Built from Doc_06 entry 039 (Tier 2; chunk galliclex039_mortification.md; Doc_03 4.7). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cells left

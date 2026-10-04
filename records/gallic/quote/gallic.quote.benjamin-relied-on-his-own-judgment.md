@@ -46,6 +46,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented
+use_note:
+  means: "In Cassian's Second Conference, Brother Benjamin's leaving the desert for worldly philosophy is presented as the end of a monk who trusted his own judgment over the Elders' traditions."
+  not_for:
+    - "Cassian's own narration, when the source places the words in Abbot Moses's address to Cassian and Germanus"
+    - "a teaching about food alone, when the fault named is obstinacy against tradition"
+    - "a record of Benjamin's later life beyond this one report"
+  years: {from: 426, to: 426}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "relied on his own judgment"` returns one hit, line 28108, inside `<div4 title="Chapter XXIV. Of the

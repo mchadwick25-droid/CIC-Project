@@ -70,6 +70,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.the-three-lentil-beans
+use_note:
+  means: "Cassian, in Institutes IV, tells of a monk suspended from prayer for spilling three lentils, because monks treat all monastery goods as consecrated to the Lord."
+  not_for:
+    - "a Gallic incident, when Cassian sets it in the East without names"
+    - "the weekly rotation and handover of vessels, which sits in gallic.quote.weekly-service-and-sacred-vessels"
+    - "routine cruelty rather than one example Cassian offers of reverence for sacred property"
+  years: {from: 415, to: 426}
+  status: provisional
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "three$"` and a read of the surrounding lines locate the passage at the chapter div `<div4

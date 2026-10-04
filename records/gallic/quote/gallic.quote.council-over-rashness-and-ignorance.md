@@ -44,6 +44,13 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence
+use_note:
+  means: "Vincent rules in the Commonitory that, where error appears, the decrees of an ancient general council are to be preferred to the rashness and ignorance of a few."
+  not_for:
+    - "the threefold everywhere-always-by-all test, which sits in gallic.quote.believed-everywhere-always-by-all"
+    - "a view shared by the Tours tradition, whose withdrawal from synods sits in gallic.quote.aloof-from-assemblies-of-bishops"
+  years: {from: 434, to: 434}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "rashness and ignorance"` returns one hit, line 12220, inside `<div2 title="Chapter III. What is to

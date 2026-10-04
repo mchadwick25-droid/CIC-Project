@@ -50,6 +50,13 @@ relations:
 modern_rendering: >-
   Let me, dear brother, keep my eyes on heaven rather than on earth. Then my spirit, just about to
   set out on its own journey, may be turned toward the Lord.
+use_note:
+  means: "Sulpitius reports that the dying Martin refused to be turned on his side, asking to keep his eyes on heaven as his spirit departed."
+  not_for:
+    - "an eyewitness account, when Sulpitius relies on those present"
+    - "the prayer about remaining necessary to his people, which sits in gallic.quote.martin-disciples-plea-and-his-reply"
+  years: {from: 397, to: 397}
+  status: provisional
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "fix my looks rather on heaven"` returns line 2471. Read in context at lines 2468-2473: "And on being

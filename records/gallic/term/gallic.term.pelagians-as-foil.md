@@ -109,6 +109,15 @@ quick_meaning: >-
   The heresy we named and refused. Vincent calls them frogs and flies; Cassian calls theirs "the
   profane notion." They made grace unnecessary. We never did.
 distortion_risk: medium
+use_note:
+  means: "The Pelagians were the named heresy this world defined itself against, those who gave so much to free will that they denied any need of grace."
+  not_for:
+    - "a claim that the Marseilles monks were Pelagians, or semi-Pelagians as a settled verdict"
+    - "Pelagianism as a general word for works or optimism about human nature"
+    - "the Marseilles party itself, which sits in gallic.term.massilians"
+    - "Pelagius's own writings, which the record does not hold"
+  years: {from: 426, to: 434}
+  status: provisional
 ---
 Built from Doc_06 entry 047 (`galliclex047_pelagians-as-foil.md`, Tier 2, tags SC TC RT; Doc_03
 5.9). CT tag not applied per Doc_06 section 3 - the Gennadius charge on Sulpitius attaches to a

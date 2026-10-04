@@ -140,6 +140,15 @@ modern_contrast: >-
   nothing; an elder who shortens the office to answer him; a farmer's field that needs both ploughing
   and rain. The doctrine sat inside the formation life as a question about whether the practices
   accomplish anything, before anyone across the sea reported it as a party's position.
+use_note:
+  means: "Cassian records that Germanus's scruple over one sentence of Chaeremon's led the elder to shorten the office and answer that the initiative comes from God."
+  not_for:
+    - "Cassian's doctrine of grace at depth, which sits in gallic.term.grace"
+    - "a Tours doctrine of grace, which the record does not hold"
+    - "what Conference XII said on chastity, which is absent from the vendored edition"
+    - "Cassian's own position on the beginning of a good will, which is contested in gallic.contested.beginning-of-good-will"
+  years: {from: 426, to: 426}
+  status: provisional
 ---
 "Chaeremon" is spelled without the ligature for plain ASCII; the vendored volume prints the ae ligature.
 Germanus here is Cassian's own companion, never Germanus of Auxerre.

@@ -60,6 +60,14 @@ modern_rendering: >-
   trained in the Church's holy ways. Martin, he said, had first been stained by a soldier's life, as
   Martin could not deny. And now, he said, Martin had sunk completely into old age's foolishness. His
   groundless superstitions and ridiculous fancies about visions had brought him to it.
+use_note:
+  means: "Gallus describes Brictio nearly assaulting Martin and claiming to be holier for growing up in the monastery, while Martin answered with gentle words."
+  not_for:
+    - "a neutral report of Brictio's case, when it comes from men hostile to him"
+    - "the reproof that provoked the outburst, which sits in gallic.quote.brictio-horses-and-slaves"
+    - "a claim that Martin argued back, when the text gives him only gentle restraint"
+  years: {from: 404, to: 406}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "The
 miserable man, moved with bitter rage"` returns line 5305; `grep -n "ridiculous fancies about visions"`

@@ -149,6 +149,15 @@ modern_contrast: >-
   compromise is a saint who saved lives and never forgave himself the price; and the south, in its own
   voice, preferred "the decrees ... of an ancient General Council" - the two nodes never argued this
   with each other.
+use_note:
+  means: "Gallus tells that Martin yielded once to communion with the Ithacian bishops to save men from the tribunes, then lost power, was told his compunction was just, and shunned synods."
+  not_for:
+    - "Priscillianism as a movement, which belongs to another world"
+    - "the south's valuing of councils as guarantors, which sits in gallic.term.council-synod"
+    - "Martin's rejection of synods as a general principle, when it follows one forced act"
+    - "the earlier phase told in Sulpitius's own voice as one account with the Dialogues, when the two accounts remain distinct"
+  years: {from: 397, to: 406}
+  status: provisional
 ---
 The record id keeps the technical slug "trier-..." as a stable identifier, though the vendored volume's
 own spelling is "Treves," which every in-record use of the place name follows.

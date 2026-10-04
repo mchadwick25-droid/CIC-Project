@@ -61,6 +61,14 @@ relations:
   target: gallic.dw.the-christ-who-bears-the-wounds
 - type: associated-with
   target: gallic.dw.christ-in-the-beggar-and-the-guest
+use_note:
+  means: "Sulpitius reports Martin telling a devil disguised as a crowned Christ that he would believe only in a Christ showing the wounds of the cross."
+  not_for:
+    - "an independently witnessed event, when Sulpitius says he had it from Martin's own lips"
+    - "a doctrine of Christ's two natures, which sits in gallic.quote.one-substance-three-persons"
+    - "the whole answer to who Christ was for this world, which sits in gallic.dw.the-christ-who-bears-the-wounds"
+  years: {from: 397, to: 397}
+  status: provisional
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between
 B-7 and B-8) directly against the vendored

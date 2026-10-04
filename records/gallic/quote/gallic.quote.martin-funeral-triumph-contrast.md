@@ -61,6 +61,14 @@ modern_rendering: >-
   chariots, hands tied behind their backs. Those who went with Martin's body had, under his
   guidance, overcome the world. Let madness honor these earthly warriors with the joined praises of
   nations. Martin is praised with the sacred psalms; Martin is honored in the hymns of heaven.
+use_note:
+  means: "Sulpitius, in Letter III to Bassula, sets Martin's psalm-singing funeral procession against a Roman triumph and says Martin is already praised in hymns."
+  not_for:
+    - "an established cult or feast of Martin, when the line is Sulpitius's rhetoric written months after the death"
+    - "the make-up and ranks of the funeral crowd, which sit in gallic.quote.martin-funeral-procession-ranks and gallic.quote.martin-funeral-crowd-and-monks"
+    - "the death scene itself, which sits in gallic.quote.martin-rebukes-the-devil-and-dies"
+  years: {from: 397, to: 397}
+  status: provisional
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "each single person preferred that he himself should grieve"` returns line 2506; `grep -n "Martin is

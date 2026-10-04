@@ -98,6 +98,15 @@ quick_meaning: >-
   A gesture with real force - the soldier's weapon in place of shield and helmet, halting crowds,
   turning a falling tree, beating off demons.
 distortion_risk: medium
+use_note:
+  means: "The sign of the cross meant a gesture of real force, Martin's protection in place of shield and helmet and the monk's weapon against demons, not a devotional habit."
+  not_for:
+    - "a devotional or liturgical gesture, or a mark of denominational identity"
+    - "a superstition"
+    - "the saint's power in general, which sits in gallic.term.virtus"
+    - "blessed oil, threads and straw, which sit in gallic.term.blessing"
+  years: {from: 397, to: 426}
+  status: provisional
 ---
 Built from Doc_06 entry 024 (Tier 2; chunk galliclex024_sign-of-the-cross.md; Doc_03 2.3). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cell F1-P:

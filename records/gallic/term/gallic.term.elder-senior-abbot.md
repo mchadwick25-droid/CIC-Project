@@ -122,6 +122,15 @@ quick_meaning: >-
   The senior whose judgment replaces the junior's own, to whom every thought is shown. "Abbot" is an
   Egyptian father's title; at Tours it is one master with no title at all.
 distortion_risk: high
+use_note:
+  means: "The elder meant the senior whose judgment stands in for the junior's own, to whom every thought is shown, and abbot was the title of Egypt's fathers."
+  not_for:
+    - "a Benedictine abbot with jurisdiction and a crozier"
+    - "elder as a church officer or simply an old man"
+    - "the Fathers as the source of teaching, which sits in gallic.term.the-fathers-elders"
+    - "the bishop's office, which sits in gallic.term.monk-bishop"
+  years: {from: 397, to: 426}
+  status: provisional
 ---
 Built from Doc_06 entry 017 (Tier 2, on §2.5's list; chunk
 galliclex017_elder-senior-abbot.md; Doc_03 1.7). Register emic. Quotations verified at locus by the

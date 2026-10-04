@@ -121,6 +121,15 @@ divergence_partners:
 relations:
 - type: associated-with
   target: gallic.gravity.grace-and-effort
+use_note:
+  means: "The claim that the Marseilles and Lerins monks formed one semi-Pelagian school called the Massilians is contested, since neither name is theirs and the first is an outsider's label."
+  not_for:
+    - "a self-description by the Marseilles monks"
+    - "semi-Pelagian as a settled verdict on a heresy"
+    - "the term's meaning, which sits in gallic.term.massilians"
+    - "Faustus's later De gratia as this world's own voice, when its prologue falls after the window"
+  years: {from: 426, to: 434}
+  status: provisional
 ---
 Unparked from Doc_06 section 3's own [CT] tagging - Contest Type "Application to this world" - of chunks
 008 (grace), 009 (free will), 044 (predestination), and 074 (Massilians): "whether 'semi-Pelagian' ...

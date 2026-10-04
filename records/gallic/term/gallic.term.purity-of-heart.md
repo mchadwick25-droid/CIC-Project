@@ -148,6 +148,15 @@ quick_meaning: >-
   The monk's immediate goal, short of the kingdom itself: a heart cleared to charity. Every fast and
   vigil is ranked by it as an aid, and never as the point.
 distortion_risk: high
+use_note:
+  means: "Purity of heart meant the monk's immediate goal short of the kingdom, a heart cleared to charity, by which every fast and vigil is ranked as an aid."
+  not_for:
+    - "sexual purity or moral spotlessness"
+    - "sincerity or good intentions"
+    - "the end, the kingdom, which sits in gallic.term.goal-and-end"
+    - "the south's own chastity teaching, since Conference XII is excised from the vendored edition"
+  years: {from: 415, to: 426}
+  status: provisional
 ---
 Built from Doc_06 entry 006 (Tier 1; chunk galliclex006_purity-of-heart.md; Doc_03 4.1). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass, including puritas

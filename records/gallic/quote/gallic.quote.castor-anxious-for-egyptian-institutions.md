@@ -44,6 +44,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.egypt-as-measure
+use_note:
+  means: "Cassian writes that Bishop Castor wanted the institutions of the East and especially Egypt established in his province, which then had no monasteries."
+  not_for:
+    - "Cassian's method for adapting those customs, which sits in gallic.quote.cassian-adapts-egypt-to-gaul"
+    - "a claim that all Gaul lacked monasteries, when the text speaks of Castor's province"
+    - "the clause on customs delivered by the Fathers, which sits in gallic.quote.customs-delivered-to-us-by-the-fathers"
+  years: {from: 415, to: 426}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "institutions of the East"` returns line 16434; read with `sed -n '16420,16436p'`, inside `<div2
