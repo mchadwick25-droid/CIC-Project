@@ -4,7 +4,10 @@
   // VITE_DEEPER_SITE_ORIGIN and the server's CIC_DEEPER_SITE_ORIGIN must name
   // this site's exact origin.
   var isLocal = ["localhost", "127.0.0.1"].indexOf(root.location.hostname) !== -1;
+  // Off until Go Deeper is turned on, so the home and Get Involved pages make no
+  // request to a route that does not exist yet.
   root.GoDeeperConfig = {
+    enabled: false,
     app: isLocal ? "http://localhost:5173" : "https://cic-engine.onrender.com",
     api: isLocal ? "http://localhost:8000" : "https://cic-engine.onrender.com",
   };

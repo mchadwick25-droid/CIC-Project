@@ -448,3 +448,4 @@ ol.convictions li::before { border-color: #E08C74; }
   .feature-bar { gap: 0.5rem; }
   .feature-btn { font-size: 0.8rem; padding: 0.45rem 0.9rem; }
 }
+.door-line { max-width: 46rem; margin: 1rem auto 0; line-height: 1.5; text-align: center; }

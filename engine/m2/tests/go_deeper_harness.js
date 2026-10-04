@@ -127,6 +127,32 @@ const scenarios = {
     return out;
   },
   limits: () => ({ poll: GD.POLL_MS, tries: GD.MAX_TRIES }),
+  doorLine: async () => {
+    const DL = require("../../../cic-website/assets/door-line.js");
+    const run = async (step) => {
+      const target = { hidden: true, textContent: "" };
+      const seen = {};
+      await DL.load(target, {
+        apiBase: "https://api.test",
+        fetch: (url, init) => {
+          seen.url = url;
+          seen.init = init;
+          return step === "network" ? Promise.reject(new Error("offline")) : reply(step.status, step.body);
+        },
+      });
+      return { target: { hidden: target.hidden, text: target.textContent }, seen };
+    };
+    const shown = await run({ status: 200, body: { state: "limited", line: "Free conversations are limited this week." } });
+    return {
+      shown: shown.target,
+      url: shown.seen.url,
+      init: shown.seen.init,
+      open: (await run({ status: 200, body: { state: "open", line: null } })).target,
+      unreachable: (await run("network")).target,
+      refused: (await run({ status: 404, body: {} })).target,
+      malformed: (await run({ status: 200, body: { line: 7 } })).target,
+    };
+  },
 };
 
 Promise.resolve(scenarios[process.argv[2]]()).then((out) => console.log(JSON.stringify(out)));

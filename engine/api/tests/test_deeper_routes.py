@@ -103,6 +103,7 @@ def test_flag_off_mounts_no_deeper_route(store, usage_store, world_loader, regis
     assert http.post("/api/deeper/webhook", content=b"{}").status_code == 404
     assert http.post("/api/deeper/claim", json={"reference": REF}).status_code == 404
     assert http.get("/api/deeper/balance").status_code == 404
+    assert http.get("/api/deeper/door").status_code == 404
     assert http.post("/api/admin/deeper/pause", json={"on": True}, headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/reconciliation", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/funds", headers=admin()).status_code == 404
@@ -113,7 +114,7 @@ def test_flag_on_mounts_every_route(store, usage_store, world_loader, registry, 
     app = make_app(store, usage_store, world_loader, registry, deeper=runtime)
     paths = {getattr(r, "path", "") for r in app.routes}
     assert {
-        "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance",
+        "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance", "/api/deeper/door",
         "/api/admin/deeper/pause", "/api/admin/deeper/reconciliation",
         "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/door",
     } <= paths
@@ -730,3 +731,48 @@ def test_a_restart_with_the_usage_log_down_still_finds_the_door_where_it_was_lef
     assert (state.stage, state.free_voice, state.table_free_rounds) == (4, False, 0)
     runtime.meter.close()
     runtime.claims.close()
+
+
+# ---- the public door line ----------------------------------------------------------------
+
+def _public_door(http, runtime, **fields):
+    from engine.deeper import door as door_module
+
+    from engine.api.deeper_ops import load_ops
+
+    runtime.ops = load_ops()
+
+    stage = fields.pop("stage", 1)
+
+    class Stub:
+        def state(self):
+            return door_module.DoorState(stage=stage, ratio=0.8, ceiling_usd=150.0, **fields)
+
+    runtime.door = Stub()
+    return http.get("/api/deeper/door")
+
+
+def test_the_public_door_line_is_silent_while_the_door_is_wide_open(http, runtime):
+    assert http.get("/api/deeper/door").json() == {"state": "open", "line": None}
+    assert _public_door(http, runtime, stage=0).json() == {"state": "open", "line": None}
+
+
+def test_the_public_door_line_says_limited_then_paused_in_mark_s_words(http, runtime):
+    limited = _public_door(http, runtime, solo_free_rounds=2)
+    words = runtime.ops.door_words
+    assert limited.json() == {"state": "limited", "line": words["limited"]}
+    paused = _public_door(http, runtime, stage=4, free_voice=False)
+    assert paused.json() == {"state": "paused", "line": words["paused"] + " " + words["code_still_works"]}
+
+
+def test_the_public_door_line_never_says_a_code_works_once_codes_are_refused(http, runtime):
+    body = _public_door(http, runtime, stage=5, free_voice=False, paid_voice=False).json()
+    assert body == {"state": "paused", "line": runtime.ops.door_words["paused"]}
+    assert "code" not in body["line"].lower()
+
+
+def test_the_public_door_line_carries_words_only_and_may_be_kept_a_minute(http, runtime):
+    response = _public_door(http, runtime, stage=4, free_voice=False)
+    assert set(response.json()) == {"state", "line"}
+    assert response.headers["cache-control"] == "public, max-age=60"
+    assert not any(key in response.text for key in ("ratio", "ceiling", "stage"))
