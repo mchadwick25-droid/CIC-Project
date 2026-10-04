@@ -66,7 +66,7 @@ use_note:
     - "Presenting it as the whole movement's vocabulary, when it belongs to the learned circle at Kellia"
     - "Presenting as settled that Antony himself had the philosophical literacy this vocabulary presupposes"
   years: {from: 385, to: 399}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS2.2 (Tier 2; tags AS TC DR PV CT). The [CT]
 contest is carried exactly as that document's twice-corrected form has

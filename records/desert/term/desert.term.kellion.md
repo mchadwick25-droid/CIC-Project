@@ -41,13 +41,13 @@ senses:
 quick_meaning: "The monk's small dwelling - spare, separate, and itself a teacher."
 distortion_risk: medium
 use_note:
-  means: "A kellion was the small dwelling of one monk or a few, the basic unit from which the semi-solitary settlements at Kellia were built."
+  means: "A kellion was the small dwelling of one monk or a few, the basic unit from which semi-solitary settlements such as Kellia were built."
   not_for:
     - "Hearing it as a prison cell or just a room"
     - "Tying an excavated structure to a named monk"
     - "Applying Kellia's cell pattern to Pachomian houses or to all hermits"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS2.7 (Tier 2; tags AS RT). The
 sit-in-your-cell counsel referenced in the personal sense is the

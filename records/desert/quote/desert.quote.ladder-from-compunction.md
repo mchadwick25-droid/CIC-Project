@@ -53,7 +53,7 @@ use_note:
     - "compunction as mere guilt feeling"
     - "Evagrius's chain from belief to charity, carried by desert.quote.charity-is-the-offspring-of-apatheia"
   years: {from: 385, to: 429}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf211 line
 20066. The passage is continuous to its end.

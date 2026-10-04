@@ -79,11 +79,11 @@ relations:
 use_note:
   means: "Cassian's Institutes tell how a vanishing chanter, taken as an angel, settled a dispute by singing twelve psalms, fixing that number for the office."
   not_for:
-    - "Asserting the angelic visitation as historical event"
-    - "Treating Cassian's claim of uniform practice across Egypt and the Thebaid as established"
-    - "Applying it to the Pachomian rule's own prayer provisions"
+    - "the angelic visitation as a historical event"
+    - "Cassian's claim of uniform practice across Egypt and the Thebaid as established"
+    - "evidence of what the Pachomian rule itself prescribed for prayer"
   years: {from: 385, to: 429}
-  status: provisional
+  status: reviewed
 ---
 CiC_W3_Doc02 Source_Ecology names "this world's actual liturgical content beyond
 structure and rhythm" as genuinely thin (Section 4), carried into the

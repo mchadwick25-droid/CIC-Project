@@ -35,7 +35,7 @@ use_note:
     - "Narrating that outsiders were saved"
     - "Presenting the silence as proof they held no view"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Named rather than filled: this world's own confident claim to be the
 one true way (desert.dw.only-true-religion) is a different

@@ -40,7 +40,7 @@ use_note:
     - "Antony's own words, which are carried by desert.quote.christ-worketh-them-not-we"
     - "the healings as verified historical events"
   years: {from: 356, to: 362}
-  status: provisional
+  status: reviewed
 ---
 Kept as the narrator's own gloss, and marked as such. It corroborates
 desert.quote.christ-worketh-them-not-we from outside Antony's own mouth, and it is the

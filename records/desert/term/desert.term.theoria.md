@@ -51,7 +51,7 @@ use_note:
     - "Hearing it as theory or abstract speculation"
     - "Presenting Evagrius's ladder as the whole movement's way of prayer, when the wider movement prayed the Psalter"
   years: {from: 385, to: 399}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS2.3 (Tier 2; tags AS TC DR PV;
 strand-C-bound, single-author-concentrated per Doc_03 SS1.7/Doc_04

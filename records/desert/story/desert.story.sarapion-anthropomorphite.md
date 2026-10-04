@@ -69,7 +69,7 @@ use_note:
     - "Conflating Sarapion with the Abbot Serapion of Conference V"
     - "Saying what became of Sarapion afterward, which is not recorded"
   years: {from: 399, to: 399}
-  status: provisional
+  status: reviewed
 ---
 Authored for the world_front pilot migration (Website V2
 world_front design, approved to proceed), reconciling

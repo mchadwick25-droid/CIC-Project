@@ -60,7 +60,7 @@ use_note:
     - "Attributing the phrase mother of all virtues to Cassian, a claim the record deliberately omits"
     - "Presenting Cassian's Conference II as a transcript of what Egyptian elders said"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS1.5 (Tier 1; anchors gravity 5) and Doc_05
 SS11's ecological-hub finding (diakrisis is the most cross-referenced

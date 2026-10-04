@@ -45,13 +45,13 @@ senses:
 quick_meaning: "Stillness sought on purpose - quiet that shows you what the noise was hiding."
 distortion_risk: high
 use_note:
-  means: "Hesychia meant stillness of body and mind, sought as both the condition and the fruit of ascetic life, and easier to reach in a cell than in common labor."
+  means: "Hesychia meant stillness of body and mind, sought as both the condition and the fruit of ascetic life."
   not_for:
     - "Hearing it as mindfulness, relaxation, or stress relief"
     - "Importing the later Byzantine hesychast method or Jesus Prayer, which falls outside this world"
     - "Presenting it as a systematized practice in this world's own time"
   years: {from: 270, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS1.3 (Tier 1 on the central-conceptual-clusters
 criterion; tags SC DR RT). The do-not-retrieve fence carries Doc_06's

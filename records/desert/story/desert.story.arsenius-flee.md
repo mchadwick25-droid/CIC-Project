@@ -33,13 +33,14 @@ text: "The tradition tells that Arsenius, while still a tutor at the imperial co
 absent_detail: "Arsenius's own imperial-court career is independently attested in the wider tradition beyond this saying, but this document does not extend its own verification to that fuller biography - only to the saying itself and its place in the collected tradition."
 modern_contrast: "\"Flee the company of men\" risks a modern misreading as social anxiety or avoidance - running from people rather than toward anything. In this world's own idiom, matching desert.term.anachoresis's own translational note for \"withdrawal,\" fleeing was a chosen strategy aimed at something (a life without sin), not an escape from something feared."
 use_note:
-  means: "The sayings tradition tells that Arsenius, a court tutor, heard a voice bid him flee, be silent, and be still, evidencing how withdrawal was taught."
+  means: "The sayings report a voice telling Arsenius, at court and again as a monk, to flee and keep silence, evidencing withdrawal as a chosen strategy."
   not_for:
-    - "Quoting it verbatim, since it is paraphrase-only with no vendored edition"
-    - "Presenting his wider court biography as verified here"
-    - "Claiming more than the saying itself states"
+    - "Quoting the Latin triad flee, be silent, be still as Arsenius's own words or the vendored text's wording"
+    - "Merging the two separate sayings, flee from men and flee and keep silence, into one"
+    - "Presenting his wider court biography, such as the tutor role, as verified here"
+    - "Claiming more than the sayings themselves state"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 2.2, itself
 independently web-verified during that build's own drafting - matching

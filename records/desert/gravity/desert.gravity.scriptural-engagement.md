@@ -59,9 +59,9 @@ use_note:
   not_for:
     - "Presenting a systematic exegetical method as this world's own"
     - "Presenting the case as equally strong for the Pachomian federation"
-    - "Treating the absence of exegetical treatises as proof"
+    - "Presenting the sayings' habitual use of scripture as a count of how often it happened, when compilers selected it"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 7
 (the World #2 comparison lives at Doc_01 SS4), SS2 row 7, SS3, SS4,

@@ -42,7 +42,7 @@ use_note:
     - "Presenting the absence as proof it never happened, since the record cannot say"
     - "Offering Moses's reception or the leaking jug as communal restitution"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Drafted alongside the three pahc silences - see
 pahc.limit.enslaved-voices' trailing note for the shared basis. Celled

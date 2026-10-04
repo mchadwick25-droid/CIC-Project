@@ -92,8 +92,8 @@ use_note:
     - "Dating it, counting its years, or presenting it as an established episode in Athanasius's life"
     - "Naming the woman, whom no source names"
     - "Repeating the thirty years, which the record says cannot be right"
-  years: {from: 320, to: 430}
-  status: provisional
+  years: {from: 388, to: 420}
+  status: reviewed
 ---
 This record draws on cic/texts/palladius_paradise-v1-syriac_budge1907.txt.
 

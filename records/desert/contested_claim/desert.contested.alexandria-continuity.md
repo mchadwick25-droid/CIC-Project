@@ -45,7 +45,7 @@ use_note:
     - "Presenting the disputed reading of Antony's Letters as the majority view"
     - "Presenting Evagrius as establishing the link, which the record does not claim"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 CROSS-BUILD record, the Desert-side counterpart to the Alexandria
 build's own alx.contested.desert-attribution (`records/alx/contested_claim/`,

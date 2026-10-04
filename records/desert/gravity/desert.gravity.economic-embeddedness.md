@@ -73,7 +73,7 @@ use_note:
     - "Presenting the ties as proof that withdrawal was insincere"
     - "Presenting the Nepheros community as representative of Nitria, Kellia, or Scetis"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 8, SS2
 row 8, SS3, SS4, SS5 row 8, SS6 (gravity 8). Doc_04 SS6 itself states

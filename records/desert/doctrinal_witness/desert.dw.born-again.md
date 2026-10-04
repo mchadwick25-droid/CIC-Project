@@ -44,11 +44,11 @@ relations:
 use_note:
   means: "Palladius reports the Galatian ascetic Philoromus saying that since he was initiated and born again he never ate another's bread for nothing."
   not_for:
-    - "Treating born again as a common desert term on the strength of one Galatian's single use"
-    - "Equating it with a modern conversion experience rather than entry into the discipline"
-    - "Answering the tithing question from it, which belongs to desert.limit.tithe"
+    - "born again as a common desert term, on the strength of one Galatian's single use"
+    - "a modern conversion experience, when it marks entry into the discipline"
+    - "an answer to the tithing question, which belongs to desert.limit.tithe"
   years: {from: 419, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Palladius ch. XLV (Philoromus), verified directly against the vendored
 file this session.

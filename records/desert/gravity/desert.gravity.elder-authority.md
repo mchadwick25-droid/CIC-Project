@@ -44,7 +44,20 @@ relations:
 - type: illustrated-by
   target: desert.quote.talida-key-never-taken
 name: "Elder-mediated oral authority [PRIMARY]"
-description: "Authority earned through recognized discernment and passed through direct personal relationship - the geron/abba/amma address - as this world's primary authority mode in the anchoritic and semi-anchoritic strands, and present but structurally secondary to the Rule in the cenobitic strand. Strong on all six tests: the sayings collection's own organizing structure is this gravity's clearest evidential trace, though that structure is also the later compilers' own arrangement, not a transcript of how authority actually worked while it was being lived; teaching transmission and formation logic depend on it directly; it explains the absence of a general systematic treatise tradition outside Evagrius; it is cross-strand, though strand-differentiated in relative weight; and it reinforces diakrisis. Widely Accepted confidence. Stands as one pole of the authority tension (gravity 10) against the Pachomian Rule's office-based model (gravity 6). Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
+description: >-
+  Authority here was earned by proven discernment and passed on through a bond
+  between two people, in the address of geron, abba or amma. In the anchoritic
+  and semi-anchoritic strands it was the main kind of authority. In the
+  cenobitic strand it was present but ranked below the Rule. The clearest
+  trace of it is the way the sayings are ordered, by the names of elders. But
+  that order is the later compilers' own plan, so it does not record how
+  authority worked as it was lived. Teaching and training rest on it. It
+  explains why there was no tradition of general treatises outside Evagrius.
+  It appears in every strand, though its weight differs. It supports
+  discernment. Scholars widely accept all of this. It is one side of a
+  tension over authority. The other side is the Pachomian Rule's office-based model. It answers one
+  historical pressure, the end of martyrdom, and it grew stronger under that
+  pressure.
 classification: primary
 manifestations:
 - "the Apophthegmata's alphabetical and systematic organization by named elder - the compilers' own later arrangement, not a neutral record of authority's shape in real time"
@@ -57,7 +70,7 @@ use_note:
     - "Presenting elder authority as a conferred office"
     - "Presenting amma authority as well documented, when it is thin"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 3, SS2
 row 3, SS3, SS4, SS5 row 3, SS6 (gravity 3). The tension-with relation

@@ -37,13 +37,13 @@ text: "The tradition tells that a brother at Scetis had done wrong, and the elde
 absent_detail: "Whether this specific council and this specific exchange happened as narrated, or condenses a teaching Moses gave more generally into one memorable scene, is not something this world's own compiled tradition can settle - it is told as tradition, not as verified single-event history."
 modern_contrast: "No significant modern-misreading risk identified for this story. The image (a leaking jug, sins running out unseen behind you while you judge someone else's) is self-interpreting and reads plainly to a modern ear the same way it read then."
 use_note:
-  means: "Abba Moses, summoned to judge an erring brother, carried a leaking jug to show his own sins ran behind him, and the elders released the brother."
+  means: "Abba Moses, summoned to judge an erring brother at Scetis, carried a leaking load to picture his own unseen sins, and the elders released the brother."
   not_for:
     - "Presenting the council scene as verified single-event history"
-    - "Quoting it verbatim, since it is paraphrase-only"
+    - "Presenting the jug of water as the vendored text's image, when Budge's Syriac has a basket of sand"
     - "Presenting it as a community making a wrong right, which desert.limit.communal-wrong-unrepaired says no account supplies"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 2.1, itself
 independently web-verified during that build's own drafting (not

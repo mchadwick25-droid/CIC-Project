@@ -51,7 +51,7 @@ use_note:
     - "discretion in the modern sense of tact or reticence"
     - "Moses's exact speech rather than Cassian's literary Latin composed decades later in Gaul"
   years: {from: 385, to: 429}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf211 line
 27181; one continuous passage, unaltered, ending at the chapter break.

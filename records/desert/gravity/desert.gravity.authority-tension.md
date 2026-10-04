@@ -72,7 +72,7 @@ use_note:
     - "Presenting either model as having displaced the other within this world's span"
     - "Presenting the elder model as the sole authority in the Pachomian houses"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 10, SS2
 row 10, SS3, SS4, SS5 row 10, SS6 (gravity 10). Generated and tested as

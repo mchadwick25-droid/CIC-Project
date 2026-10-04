@@ -59,7 +59,7 @@ use_note:
     - "Supplying Antony's reasons for each move, which the Vita does not give"
     - "Presenting incident-level detail as settled"
   years: {from: 270, to: 313}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 1.2. SS3-4 and
 SS12-13 verified directly against the vendored file this session

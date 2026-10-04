@@ -76,7 +76,7 @@ use_note:
     - "Presenting recension-specific Lives details, such as the brother John, as settled"
     - "Merging it with the iron-tablet account in desert.story.angel-hands-the-tablet"
   years: {from: 318, to: 346}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 1.3. The
 vision/tablet material is newly and directly verified against the

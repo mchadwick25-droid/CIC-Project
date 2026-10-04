@@ -34,7 +34,7 @@ use_note:
     - "Narrating a rule or practice of tithing"
     - "Presenting almsgiving as a fixed proportion"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Named rather than filled: this world's own logic of total renunciation
 (desert.story.antony-call) structurally excludes the proportional-

@@ -69,8 +69,8 @@ use_note:
     - "Applying koinonia to solitary or semi-solitary monks"
     - "Presenting it as the organization of the whole world"
     - "Presenting Rule detail as verified when it comes by consult-only scholarship"
-  years: {from: 318, to: 346}
-  status: provisional
+  years: {from: 318, to: 430}
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 6, SS2
 row 6, SS3, SS4, SS5 row 6, SS6 (gravity 6). Held at Supporting on the

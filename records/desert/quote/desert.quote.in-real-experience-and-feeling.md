@@ -41,7 +41,7 @@ use_note:
     - "the words of Macarius the Egyptian or any securely identified desert elder"
     - "consciously felt grace as uncontested teaching, when it drew the Messalian charge"
   years: {from: 375, to: 430}
-  status: provisional
+  status: reviewed
 ---
 The claim that made the corpus suspect, kept because a world that holds it should be shown holding
 it. desert.dw.god has this world knowing God by 'a long stilling of the passions' - an emptying. This

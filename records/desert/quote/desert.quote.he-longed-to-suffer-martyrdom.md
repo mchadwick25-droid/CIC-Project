@@ -48,7 +48,7 @@ use_note:
     - "approval of volunteering for martyrdom, which Antony refused"
     - "the SS8-9 tomb combat with demons, which is a different episode"
   years: {from: 303, to: 311}
-  status: provisional
+  status: reviewed
 ---
 This record fills canon cell F6-E. desert.dw.death-wish alone serves this cell, citing the combat
 sections for spiritual-warfare vocabulary, with nothing quotable at the point the cell's own

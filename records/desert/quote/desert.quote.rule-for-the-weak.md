@@ -62,11 +62,11 @@ relations:
 use_note:
   means: "In the Ethiopic rule, the angel answers Pachomius's complaint of too few prayers by saying the ordinance is pitched for the weak and those without advisers."
   not_for:
-    - "Asserting the angelic exchange as historical event"
-    - "Claiming the rule ranked above the elder, when it presents itself as a substitute for one"
-    - "Taking the Ethiopic recension's wording as the original Coptic rule"
+    - "the angelic exchange as a historical event"
+    - "a claim that the rule ranked above the elder, when it presents itself as a substitute for one"
+    - "the Ethiopic recension's wording as the original Coptic rule"
   years: {from: 320, to: 346}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file, Part I, pp.
 682-683. The quotation stops at "who have no advisers," marked with an

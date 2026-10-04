@@ -42,7 +42,7 @@ use_note:
     - "Antony's positive statement of Nicene doctrine, which is carried by desert.quote.antony-nicene-formula (SS69), not this record"
     - "ordinary desert monks generally as active combatants in the Arian controversy"
   years: {from: 356, to: 362}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file, the same
 division (SS68) desert.force.melitian-rivalry already cites for the

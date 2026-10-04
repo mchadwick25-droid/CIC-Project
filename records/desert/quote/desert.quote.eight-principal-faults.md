@@ -52,7 +52,7 @@ use_note:
     - "the list as the later seven deadly sins"
     - "the faults as sins committed rather than thoughts that assail"
   years: {from: 385, to: 429}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf211 line
 30132; one continuous sentence, unaltered, with the ANF's transliterated

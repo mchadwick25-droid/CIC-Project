@@ -65,7 +65,7 @@ use_note:
     - "evidence that desert monks read De Principiis"
     - "a desert voice, when it is the doctrine the anthropomorphite monks reacted against"
   years: {from: 398, to: 400}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at line 22800.
 The ANF prints the Latin "Simplex intellectualis natura" as

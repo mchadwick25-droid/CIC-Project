@@ -45,7 +45,7 @@ use_note:
     - "a sign that desert monks generally held articulated Trinitarian theology"
     - "the SS68 refusal and expulsion scene, which belongs to desert.quote.antony-arians-serpents"
   years: {from: 356, to: 362}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file, S69 - immediately
 following the S68 passage desert.quote.antony-arians-serpents cites (the

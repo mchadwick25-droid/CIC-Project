@@ -55,7 +55,7 @@ use_note:
     - "the custom as a monastic invention or distinctive to this world, when it was general early-church practice"
     - "independent evidence that the Nitria, Kellia or Scetis communities kept it"
   years: {from: 385, to: 429}
-  status: provisional
+  status: reviewed
 ---
 Same supplemental source review as desert.quote.
 twelve-psalms-by-an-angel. Text verified directly against

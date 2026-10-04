@@ -51,7 +51,7 @@ use_note:
     - "Presenting a saying as a transcript, when the collections were compiled by later editors"
     - "Treating the anthology form as the shape the teaching originally had"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS1.8 (Tier 1 as the dominant teaching-
 transmission genre; tags AS TC RT). Serves F2-E because the honest

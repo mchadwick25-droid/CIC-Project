@@ -69,13 +69,13 @@ relations:
 - type: associated-with
   target: desert.quote.when-the-cross-of-christ-arose
 use_note:
-  means: "This witness, drawing on the Life of Antony, gives Christ's command as life-ordering, the Incarnation and Cross as argued, and Christ as having beaten the demons."
+  means: "Drawing on the Life of Antony, this witness names Christ's life-ordering command, the Incarnation argued before philosophers, and the Cross as already breaking the old powers."
   not_for:
-    - "Treating the disputation's Christology as certainly Antony's own words"
-    - "Generalizing one disputation episode into a systematic desert Christology"
-    - "Calling the healings the monks' own works"
+    - "the disputation's Christology as certainly Antony's own words"
+    - "a systematic desert Christology, drawn from one disputation episode"
+    - "the healings as the monks' own works"
   years: {from: 269, to: 356}
-  status: provisional
+  status: reviewed
 ---
 Drawn from desert.story.antony-call and desert.quote.antony-dying-daily,
 both already independently verified, and from six quote records opened

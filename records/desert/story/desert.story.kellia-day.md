@@ -60,7 +60,7 @@ use_note:
     - "Adding details such as spare meals, which no attested passage supports"
     - "Presenting the Nitria linen evidence as Kellia's own, or applying the day to Pachomian houses"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 4.1, with the
 unsourced diet element removed rather than retained-and-flagged, per

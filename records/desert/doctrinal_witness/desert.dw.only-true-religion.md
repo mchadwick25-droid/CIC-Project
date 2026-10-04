@@ -38,11 +38,11 @@ relations:
 use_note:
   means: "This witness, from Antony's disputation with philosophers in the Vita, holds that the faith of Christ alone is the true religion, proved by transformed lives."
   not_for:
-    - "Claiming outsiders were held personally damned, which desert.limit.outsiders-condemned treats as open"
-    - "Treating the disputation as certainly Antony's own words"
-    - "Presenting desert monks as habitual debaters"
+    - "a claim that outsiders were held personally damned, which desert.limit.outsiders-condemned treats as open"
+    - "the disputation as certainly Antony's own words"
+    - "desert monks as habitual debaters"
   years: {from: 313, to: 356}
-  status: provisional
+  status: reviewed
 ---
 Vita SS72-80, verified directly against the vendored file this session.
 Antony is shown receiving visiting philosophers more than once, arguing

@@ -38,11 +38,11 @@ relations:
 use_note:
   means: "Drawing on the Life of Antony, this witness affirms certain judgment and bodily resurrection as reasons to live daily as if dying, with no end-times scheme."
   not_for:
-    - "Supplying a desert timetable or sequence for the end"
-    - "Answering the born-again question from it, which desert.dw.born-again covers"
-    - "Treating Antony's deathbed words as verified history rather than Athanasius's narrative"
-  years: {from: 305, to: 356}
-  status: provisional
+    - "a desert timetable or sequence for the end"
+    - "an answer to the born-again question, which desert.dw.born-again covers"
+    - "Antony's deathbed words as verified history rather than Athanasius's narrative"
+  years: {from: 356, to: 362}
+  status: reviewed
 ---
 Vita SS16, 19, 33, 81 and 91, verified directly against the vendored
 file: this record narrows the claim to what is actually absent (a

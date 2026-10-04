@@ -63,7 +63,7 @@ use_note:
     - "Presenting incident-level detail as verified history, since its reliability is contested"
     - "Presenting it as how every monk entered this life"
   years: {from: 268, to: 274}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 1.1, re-verified
 directly against desert.source.athanasius-vita-antonii (Vita SS2-3,

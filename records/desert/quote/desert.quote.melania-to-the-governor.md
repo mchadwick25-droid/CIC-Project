@@ -64,7 +64,7 @@ use_note:
     - "renunciation of property as renunciation of rank or birth"
     - "her further advice on handling senseless men, which is in the source but not quoted here"
   years: {from: 419, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file.
 

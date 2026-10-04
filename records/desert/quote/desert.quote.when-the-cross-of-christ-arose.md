@@ -41,11 +41,11 @@ relations:
 use_note:
   means: "In the Life of Antony, Antony tells philosophers that oracles failed and knowledge of God, virginity and contempt for death spread once the Cross appeared."
   not_for:
-    - "Reading despising death as contempt for life"
-    - "Treating it as certainly Antony's own words rather than Athanasius's narrative"
-    - "Offering it as historical evidence for the decline of pagan cults"
+    - "despising death as contempt for life"
+    - "certainly Antony's own words, when it is Athanasius's narrative"
+    - "historical evidence for the decline of pagan cults"
   years: {from: 313, to: 356}
-  status: provisional
+  status: reviewed
 ---
 This world's own account of what the Cross did, argued rather than asserted: the old
 oracles fell silent, the knowledge of God spread, celibacy became thinkable, and death

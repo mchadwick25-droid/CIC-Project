@@ -41,10 +41,11 @@ use_note:
   means: "Evagrius's Praktikos traces charity back through apatheia, the ascetic life, the commandments and the fear of God to belief, an indwelling natural good."
   not_for:
     - "Evagrius's system as representative of ordinary Coptic-speaking desert monks"
-    - "the wording as public-domain text rather than Dysinger's licensed modern English"
+    - "the English wording as Evagrius's own, when it is Dysinger's modern translation of the Greek"
+    - "belief here as explicit Christian faith, when the text says it exists naturally even in those who have not yet believed"
     - "Cassian's case-based grace-and-effort argument in Conference XIII, which is a different position"
   years: {from: 385, to: 399}
-  status: provisional
+  status: reviewed
 ---
 The chain run in reverse - charity from apatheia, apatheia from the ascetic life, that life from the
 commandments, the commandments watched by the fear of God, that fear born of right belief - and then

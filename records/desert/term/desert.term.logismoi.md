@@ -66,7 +66,7 @@ use_note:
     - "Hearing it as clinical intrusive thoughts or mere distractions"
     - "Presenting Evagrius's eight-fold list as the whole movement's shared checklist"
   years: {from: 270, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS1.4 (Tier 1; tags AS TC RT PV DR). The [PV]
 discipline is load-bearing: the eight-fold taxonomy is Evagrian/Strand C

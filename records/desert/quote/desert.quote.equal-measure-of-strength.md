@@ -63,7 +63,7 @@ use_note:
     - "equality in any modern sense, when the sentence removes an excuse rather than conferring standing"
     - "a woman's own voice, when it is a male author's editorial statement"
   years: {from: 419, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file.
 

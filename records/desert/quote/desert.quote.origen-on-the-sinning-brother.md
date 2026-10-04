@@ -63,7 +63,7 @@ use_note:
     - "a desert voice, when it is an antecedent Caesarean text"
     - "Abba Moses's refusal to judge, carried by desert.story.moses-leaking-jug"
   years: {from: 240, to: 250}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at line 36205.
 

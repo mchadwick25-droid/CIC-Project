@@ -43,20 +43,34 @@ relations:
   target: desert.quote.origen-on-the-sinning-brother
 - {type: illustrated-by, target: desert.quote.discretion-greatest-prize}
 name: "Diakrisis - discernment as master virtue [PRIMARY]"
-description: "The capacity to judge rightly between thoughts, practices, and counsels, governing how every other discipline in this world was calibrated and practiced - this world had no fixed syllabus, so discernment did the work a curriculum does elsewhere. Recurs across named elders and across settlements in the sayings tradition - though how far that cross-settlement pattern reflects the settlements themselves and how far it reflects the sayings' later compilers' own arrangement is not settled; Cassian, writing decades later in Latin for a Gallic audience, devotes a whole Conference to it as teaching he received in Egypt. Strong on all six tests: repeated across the tradition independent of settlement; other practices depend on it for calibration; directly formative; explains the situational, non-systematic character of most surviving teaching; cross-strand; and moderates the intensity of both spiritual combat and its Evagrian systematization against excess. Widely Accepted, no discrepancy. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
+description: >-
+  Diakrisis is the skill of judging rightly between thoughts, practices and
+  counsels, and it set the measure for every other discipline in this world.
+  This world had no fixed syllabus, so discernment did the work that a course
+  of study does elsewhere. It recurs across named elders and across
+  settlements in the sayings, but it is not settled why. It may reflect the
+  settlements, or how the later compilers arranged the sayings, or some of
+  both. Cassian wrote decades later, in Latin, for a Gallic audience. He
+  gives a whole Conference to it, and he says it was teaching he got in Egypt.
+  Other practices need discernment to stay in balance, and it shaped monks
+  directly. It explains why most surviving teaching fits a single case and not
+  a system. It runs through all the strands. It also curbed the zeal of
+  spiritual combat and of its Evagrian systematization, keeping both from
+  excess. Scholars widely accept all of this. It answers one historical
+  pressure, the end of martyrdom, and it grew stronger under that pressure.
 classification: primary
 manifestations:
 - "the recurring narrative pattern: an eager newcomer asks an elder for an extreme practice and is redirected toward something more moderate"
 - "Cassian's Conference II, devoted entirely to discretion as the teaching he received from the Egyptian elders"
 - "diakrisis, like most of this world's teaching outside Evagrius, was the subject of almost no sustained treatise - Cassian's Conference II is the one exception, a retrospective account written decades after the fact, not a systematic handbook in the register of the praktike-apatheia-theoria ladder or the eight-logismoi taxonomy"
 use_note:
-  means: "Discernment calibrated every other discipline in a world without a fixed syllabus, yet how far its cross-settlement pattern reflects the compilers' arrangement is unsettled."
+  means: "Discernment, learned under elders, calibrated every other discipline in a world without a fixed syllabus, holding ascetic zeal back from excess."
   not_for:
     - "Presenting Cassian's Conference II as a transcript of Egyptian teaching"
     - "Presenting a sustained treatise on discernment, since almost none exists"
     - "Presenting the cross-settlement pattern as settled"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 5, SS2
 row 5, SS3, SS4, SS5 row 5, SS6 (gravity 5). The fabricated "mother of

@@ -44,7 +44,7 @@ use_note:
     - "Hearing it as travel, relocation, or tourism"
     - "Presenting it as equally strong in the Pachomian frame, where it is quieter"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS2.1 (Tier 2; tags AS DR PV). Serves the
 F5-P distance question as material the voice can witness FROM - the

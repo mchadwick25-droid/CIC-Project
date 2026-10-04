@@ -44,7 +44,7 @@ use_note:
     - "the demons' beast shapes as primitive superstition with nothing to say"
     - "Antony's words as independently attested speech outside Athanasius's Vita"
   years: {from: 356, to: 362}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file
 (npnf204_athanasius-select-works-letters.xml), the same passage

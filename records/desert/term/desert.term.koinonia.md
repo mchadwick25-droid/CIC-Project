@@ -55,8 +55,8 @@ use_note:
     - "Hearing it as loose Christian fellowship or any monastery whatever"
     - "Applying it to the solitary or semi-solitary life, which had no equivalent institution"
     - "Presenting Rule or Lives details as verified when they rest on consult-only scholarship"
-  years: {from: 318, to: 346}
-  status: provisional
+  years: {from: 318, to: 430}
+  status: reviewed
 ---
 Re-derived from Doc_06 SS1.9 (Tier 1 for Strand B specifically, per
 Doc_03 SS1.19 and gravity 6; tags SC TC RT PV). The strand-bound

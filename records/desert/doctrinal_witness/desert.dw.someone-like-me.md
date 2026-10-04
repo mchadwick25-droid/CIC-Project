@@ -34,11 +34,11 @@ tensions:
 use_note:
   means: "This witness answers that people with shameful or unremarkable pasts were received, citing Palladius on Moses the robber and Paul the Simple."
   not_for:
-    - "Stating Moses's killings as confessed fact, when Palladius gives them as report"
-    - "Promising instant transformation, when Moses's struggle was long"
-    - "Turning two Palladian figures into a universal rule"
-  years: {from: 305, to: 420}
-  status: provisional
+    - "Moses's killings as confessed fact, when Palladius gives them as report"
+    - "a promise of instant transformation, when Moses's struggle was long"
+    - "a universal rule, drawn from two Palladian figures"
+  years: {from: 419, to: 420}
+  status: reviewed
 ---
 Palladius ch. XIX (Moses the Robber) and ch. XXII (Paul the Simple),
 both verified directly against the vendored file. Paul the Simple's

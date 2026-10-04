@@ -56,11 +56,11 @@ relations:
 use_note:
   means: "This witness pairs Antony's public Nicene confession and refusal of the Arians with the Evagrian teaching that God is seen through stilled passions."
   not_for:
-    - "Presenting contemplative theoria as ordinary desert experience rather than that of a few"
-    - "Treating this record's synthesis as a claim either source makes"
-    - "Offering it as the desert's only answer, beside the Macarian current in desert.dw.the-heart-and-the-spirit"
-  years: {from: 325, to: 399}
-  status: provisional
+    - "contemplative theoria as ordinary desert experience rather than that of a few"
+    - "a claim either source makes, when the joining is this record's own synthesis"
+    - "the desert's only answer, beside the Macarian current in desert.dw.the-heart-and-the-spirit"
+  years: {from: 313, to: 399}
+  status: reviewed
 ---
 Joins desert.quote.antony-arians-serpents and desert.quote.antony-
 nicene-formula (the boundary-drawing and, now, the positive-formula

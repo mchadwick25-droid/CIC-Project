@@ -55,14 +55,6 @@ relations:
   target: desert.force.formation-at-scale
 - type: associated-with
   target: desert.quote.monks-like-hyenas
-use_note:
-  means: "Part II of the Ethiopic Pachomian Rule forbids talk in the dark or where monks sleep, bedding beyond a mat, washing the whole body except in sickness, and touching."
-  not_for:
-    - "Pachomius's own words, when Part II is later Pachomian-tradition legislation of uncertain date"
-    - "contempt for the body rather than regulation of darkness, touch and being unobserved"
-    - "the Part III homily's account of failure, carried by desert.quote.monks-like-hyenas"
-  years: {from: 320, to: 430}
-  status: provisional
 ---
 Verified verbatim against the vendored file, Part II, pp.
 684-685.

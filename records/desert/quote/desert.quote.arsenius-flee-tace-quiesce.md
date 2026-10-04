@@ -49,7 +49,7 @@ use_note:
     - "the separate first saying, to flee from men, which stands at §1 and is not quoted here"
     - "the saying as securely datable to Arsenius rather than transmitted in a collection compiled after 430"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Verified against the vendored Budge at line 47, §2. These are the
 voice's words only - the file's

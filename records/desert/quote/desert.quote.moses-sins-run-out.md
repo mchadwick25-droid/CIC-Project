@@ -45,7 +45,7 @@ use_note:
     - "the saying as securely datable to Moses rather than transmitted in a collection compiled after 430"
     - "a formal disciplinary procedure, which Moses refuses here"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Verified against the vendored Budge at
 line 1160, §542. The file prints "[The sands are]" in square

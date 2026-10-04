@@ -53,7 +53,7 @@ use_note:
     - "Quoting Gould's critique directly, since its venue is not pinned"
     - "Presenting withdrawal or elder authority as depending on resolving it"
   years: {from: 251, to: 356}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_01 SS10, SS11 item 4 (source-level flag) and Doc_04
 SS3 (the Confidence/Gravity Cross-Check treatment, routed specifically

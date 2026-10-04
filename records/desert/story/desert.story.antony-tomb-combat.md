@@ -62,7 +62,7 @@ use_note:
     - "Claiming to know what specifically happened in the tomb"
     - "Generalizing it to the ordinary experience of desert monks"
   years: {from: 270, to: 286}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 3.1. SS8-9 and
 SS12-13 are verified directly against the vendored file (the same

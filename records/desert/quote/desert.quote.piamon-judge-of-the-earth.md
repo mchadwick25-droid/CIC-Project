@@ -67,14 +67,14 @@ relations:
 - type: associated-with
   target: desert.force.village-ascetic-culture
 use_note:
-  means: "Palladius reports village elders begging the virgin Piamon to face attackers in a Nile water dispute, and her all-night rooftop prayer to the Judge of the earth."
+  means: "Palladius reports village elders begging the virgin Piamon to meet attackers in a dispute over Nile water, and her all-night rooftop prayer instead."
   not_for:
-    - "Asserting the miracle that follows as historical fact"
-    - "Presenting Piamon as a desert solitary rather than a village ascetic living with her mother"
-    - "Claiming she obeyed the elders, when she refused to go out to meet the attackers"
-    - "Taking Palladius's reported speech as her own written words"
-  years: {from: 388, to: 420}
-  status: provisional
+    - "the miracle that follows as historical fact"
+    - "Piamon as a desert solitary, when she was a village ascetic living with her mother"
+    - "a claim that she obeyed the elders, when she refused to go out to the attackers"
+    - "her own written words, when this is speech reported by Palladius"
+  years: {from: 419, to: 420}
+  status: reviewed
 ---
 Verified verbatim against the vendored file.
 

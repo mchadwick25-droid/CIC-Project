@@ -43,11 +43,11 @@ relations:
 use_note:
   means: "In the Life of Antony, Antony tells Greek philosophers that the healings, raisings and other signs show Christ's deeds prove him God come for salvation."
   not_for:
-    - "Treating it as certainly Antony's own argument rather than words the Vita puts in his mouth"
-    - "Presenting proof here as evidence weighed in the modern sense"
-    - "Generalizing one disputation into a habit of argued apologetics among desert monks"
+    - "certainly Antony's own argument, when the Vita puts these words in his mouth"
+    - "proof as evidence weighed in the modern sense"
+    - "a habit of argued apologetics among desert monks, drawn from one disputation"
   years: {from: 313, to: 356}
-  status: provisional
+  status: reviewed
 ---
 The resurrection and the healings named together as the ground of the claim, in a
 desert participant's own reported argument. desert.dw.writings had carried this world's

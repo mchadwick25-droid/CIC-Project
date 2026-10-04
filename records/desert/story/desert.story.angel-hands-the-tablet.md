@@ -89,7 +89,7 @@ use_note:
     - "Merging it with Palladius's brass-tablet account in desert.story.pachomius-founding"
     - "Treating Jerome's Latin Praecepta as the text described"
   years: {from: 318, to: 346}
-  status: provisional
+  status: reviewed
 ---
 Registered on the vendoring of
 cic/texts/pachomius_rules-ethiopic_schodde1885.txt.

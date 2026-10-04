@@ -41,10 +41,10 @@ relations:
 use_note:
   means: "In the Life of Antony, Antony tells philosophers the unchanged Word took a human body for human salvation so humans might share the divine nature."
   not_for:
-    - "Asserting Antony certainly said it, when the argument tracks Athanasius's own On the Incarnation"
-    - "Generalizing this one disputation into a developed desert Christology"
+    - "words Antony certainly said, when the argument tracks Athanasius's own On the Incarnation"
+    - "a developed desert Christology, drawn from this one disputation"
   years: {from: 313, to: 356}
-  status: provisional
+  status: reviewed
 ---
 The single fullest Christological statement this world's own corpus puts in a desert
 participant's own mouth. It matters for three reasons. It is an argument, not a

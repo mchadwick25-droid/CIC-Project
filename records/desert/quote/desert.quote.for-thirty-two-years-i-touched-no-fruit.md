@@ -46,8 +46,8 @@ use_note:
     - "Philoromus as an Egyptian desert monk, when he lived in Galatia"
     - "an inward conversion experience of the modern born-again kind"
     - "his austerities as ordinary monastic practice"
-  years: {from: 361, to: 420}
-  status: provisional
+  years: {from: 419, to: 420}
+  status: reviewed
 ---
 This record fills canon cell F4-T. desert.dw.born-again alone serves this cell, citing this chapter
 for "the day he took up this life, in his own words".

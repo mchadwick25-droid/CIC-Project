@@ -71,7 +71,7 @@ use_note:
     - "Presenting desert settlements as cut off from villages, when they sat on marginal land with real trade ties"
     - "Citing the Goehring embeddedness thesis alone, or treating the Nepheros community as representative of this world's mainstream"
   years: {from: 270, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS1.1 (Tier 1; tags AS TC RT DR; anchors gravity
 1 per Doc_04). The Goehring embeddedness qualification is in the

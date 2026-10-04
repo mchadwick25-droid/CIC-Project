@@ -49,7 +49,7 @@ use_note:
     - "Hearing it as a one-time vow after which ordinary attachments resume"
     - "Presenting the formal Pachomian entry condition as the form it took among solitary monks"
   years: {from: 270, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS1.2 (Tier 1 there on the central-conceptual-
 clusters criterion, not a gravity anchor - Doc_06's Tier-composition

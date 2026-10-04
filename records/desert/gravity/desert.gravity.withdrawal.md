@@ -81,7 +81,7 @@ use_note:
     - "Presenting it as total separation from village life"
     - "Presenting Antony's staged career as the template for every monk"
   years: {from: 270, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 1, SS2
 row 1, SS3, SS4, SS5 row 1, SS6 (gravity 1) - six-test, Confidence/

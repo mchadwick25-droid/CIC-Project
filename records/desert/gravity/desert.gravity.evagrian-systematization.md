@@ -74,7 +74,7 @@ use_note:
     - "Presenting the eight-thought list or the ladder as the movement's shared teaching"
     - "Applying it to the formation of solitary hermits or Pachomian monks"
   years: {from: 385, to: 399}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 9, SS2
 row 9, SS3, SS4, SS5 row 9, SS6 (gravity 9). Its later transmission

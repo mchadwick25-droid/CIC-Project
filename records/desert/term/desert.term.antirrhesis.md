@@ -48,7 +48,7 @@ use_note:
     - "Presenting it as the whole movement's shared practice, when it comes from one author, Evagrius"
     - "Quoting Antirrhetikos wording, since no vendored text exists"
   years: {from: 385, to: 399}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS3.1 (Tier 3; tags AS TC PV). The prior
 build's corrected transmission fact stands: the Antirrhetikos survives

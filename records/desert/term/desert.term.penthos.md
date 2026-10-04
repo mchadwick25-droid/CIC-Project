@@ -46,7 +46,7 @@ use_note:
     - "Applying it to a participant's own disclosed distress, as though that sorrow were to be cultivated"
     - "Presenting sayings about it as unmediated, when compilers shaped the tradition"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS2.4 (Tier 2; tags SC DR). canon_cells left
 EMPTY deliberately: no canon question corresponds tightly (the F4-P

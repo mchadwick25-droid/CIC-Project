@@ -38,11 +38,11 @@ relations:
 use_note:
   means: "Evagrius's Praktikos gives three signs of apatheia: the nous seeing its own gentle radiance, calm before dream visions, and calm toward events."
   not_for:
-    - "Taking the signs as a promise rather than a test against easy claims"
-    - "Merging it with the Macarian soul lit by Another, which sits in desert.quote.the-soul-becomes-all-eye"
-    - "Generalizing Evagrius's method to the whole desert"
+    - "the signs as a promise rather than a test against easy claims"
+    - "the Macarian soul lit by Another, which is carried by desert.quote.the-soul-becomes-all-eye"
+    - "Evagrius's method as the whole desert's"
   years: {from: 385, to: 399}
-  status: provisional
+  status: reviewed
 ---
 Kept because it is evidence about method rather than doctrine: this world tested interior claims
 against observable signs, including what a person's sleep was like. That is a striking thing for a

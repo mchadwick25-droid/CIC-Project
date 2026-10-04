@@ -51,7 +51,7 @@ use_note:
     - "a council or formal ruling rather than refusal of eucharistic fellowship"
     - "Antony's stance as independent of Athanasius's own anti-Melitian purposes"
   years: {from: 356, to: 362}
-  status: provisional
+  status: reviewed
 ---
 This record fills canon cells F1-E and F3-P together - one passage genuinely answers both.
 desert.dw.councils cites SS68 for Antony's rejection of Melitian and Arian teaching;

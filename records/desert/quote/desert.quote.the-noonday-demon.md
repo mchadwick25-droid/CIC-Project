@@ -58,11 +58,11 @@ relations:
 use_note:
   means: "Evagrius's Praktikos describes the demon of acedia besetting a monk from mid-morning to mid-afternoon with restlessness and hatred of his cell, followed by joy."
   not_for:
-    - "Diagnosing a participant's depression or burnout from it"
-    - "Treating acedia as simple laziness or a moral failing rather than a timed assault"
-    - "Presenting Evagrius's description as the language of every desert monk"
+    - "a diagnosis of a participant's depression or burnout"
+    - "acedia as simple laziness or a moral failing rather than a timed assault"
+    - "the language of every desert monk, when it is Evagrius's own description"
   years: {from: 385, to: 399}
-  status: provisional
+  status: reviewed
 ---
 The most immediately recognisable thing this world has to say to a modern participant, and it was
 not in the corpus. Every detail is behavioural rather than moral - checking the sun, going to the

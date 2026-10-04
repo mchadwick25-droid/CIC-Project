@@ -53,7 +53,7 @@ use_note:
     - "Presenting it as proof the monks were really worldly, or as proof they were cut off from village markets"
     - "Treating the Nepheros letters as describing practice at Nitria, Kellia, or Scetis"
   years: {from: 270, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS1.7 (Tier 1; anchors gravity 4; tags AS TC
 RT). verified-direct because the two load-bearing textual anchors are
@@ -67,7 +67,7 @@ Both of that source's standing cautions travel with every use here: the
 community is Melitian, and its representativeness for this world's
 mainstream strands is an unverified working assumption; its own
 organization has also been read as intermediary, not a clean fit to
-this world's own three strands, a live open item at
+this world's own three strands, a question left open at
 desert.contested.strand-porousness. Embeddedness claims cite Kellia,
 Nepheros, and Goehring jointly, never Goehring alone; his thesis is
 village trade ties from labor, not the labor-almsgiving cycle (this

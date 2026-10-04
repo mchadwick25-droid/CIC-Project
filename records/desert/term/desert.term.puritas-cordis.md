@@ -46,7 +46,7 @@ use_note:
     - "Hearing it as a vague devotional phrase"
     - "Equating it with the final end, the kingdom of God, when it names the immediate aim"
   years: {from: 420, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS3.2 (Tier 3; tags SC TC PV). Both loci
 machine-verified this session against npnf211. Reception-history

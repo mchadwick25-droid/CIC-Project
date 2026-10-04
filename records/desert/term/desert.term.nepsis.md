@@ -53,7 +53,7 @@ use_note:
     - "Hearing it as generic mindfulness or a calm-inducing practice"
     - "Importing the later Byzantine neptic apparatus into this world"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS2.5 (Tier 2; tags AS TC DR PV). Feeds
 diakrisis directly (Doc_06's own ecological-function line); shares

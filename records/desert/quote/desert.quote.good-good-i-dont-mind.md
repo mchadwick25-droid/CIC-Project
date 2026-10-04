@@ -51,7 +51,7 @@ use_note:
     - "a general rule on how this world treated divorce or betrayal"
     - "Palladius's own eyewitness account, when he reports a tale told him"
   years: {from: 419, to: 420}
-  status: provisional
+  status: reviewed
 ---
 This record fills canon cell F6-T. desert.dw.marriage-ending alone serves this cell, and has nothing
 quotable there.

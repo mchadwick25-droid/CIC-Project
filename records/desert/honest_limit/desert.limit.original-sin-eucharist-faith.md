@@ -55,7 +55,7 @@ use_note:
     - "Presenting the silence as proof they held no view"
     - "Presenting the faith-and-works conclusion as settled desert doctrine rather than one recorded argument"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 F1-T's three fleet questions are original sin, the eucharist, and faith
 versus works. desert.quote.antony-arians-serpents carries only a

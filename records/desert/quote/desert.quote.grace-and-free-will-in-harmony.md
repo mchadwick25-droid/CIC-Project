@@ -40,7 +40,7 @@ use_note:
     - "free will as modern personal autonomy"
     - "settled church teaching, when Prosper of Aquitaine attacked this Conference as erroneous"
   years: {from: 426, to: 429}
-  status: provisional
+  status: reviewed
 ---
 The desert answer to the effort question, stated as a refusal of the dichotomy rather
 than a choice between its horns. Chaeremon's own worked examples in this chapter are the

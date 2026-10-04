@@ -31,7 +31,7 @@ use_note:
     - "Presenting the silence as proof the questions never occurred to anyone"
     - "Claiming whether they held scripture to be their only authority"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Named directly rather than filled: desert.gravity.scriptural-engagement's
 own description already states this world's reading mode was practical

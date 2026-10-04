@@ -75,12 +75,12 @@ relations:
 use_note:
   means: "Part II of the Ethiopic Pachomian rules says Pachomius set his sister's house across the river, where 180 women lived unseen by 340 men."
   not_for:
-    - "Presenting it as women's own words, when no woman speaks in it"
-    - "Naming the sister, whom this text leaves unnamed"
-    - "Treating Part II as Pachomius's own legislation rather than later tradition of uncertain date"
-    - "Reading the separation as only exclusion, leaving out the men's burial of the women"
+    - "women's own words, when no woman speaks in it"
+    - "a name for the sister, whom this text leaves unnamed"
+    - "Pachomius's own legislation, when Part II is later tradition of uncertain date"
+    - "the separation as only exclusion, leaving out the men's burial of the women"
   years: {from: 320, to: 346}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file, Part II, p. 685.
 

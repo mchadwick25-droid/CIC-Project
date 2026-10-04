@@ -65,7 +65,7 @@ use_note:
     - "Linking it to the later 561 discovery or to relic traditions in Alexandria and France"
     - "Naming the attendants or narrating their experience, which no source gives"
   years: {from: 355, to: 356}
-  status: provisional
+  status: reviewed
 ---
 This record reconciles `cic-website/atlas-v3.html`'s desert-monasticism
 `documentedStories` entry "Antony Has Himself Buried Where No One Will

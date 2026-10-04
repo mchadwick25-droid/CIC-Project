@@ -58,7 +58,7 @@ use_note:
     - "Presenting it as an appointed office, or as the authority model of the Pachomian communities"
     - "Suggesting ammas are well documented, when the surviving evidence is thin"
   years: {from: 320, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_06 SS1.6 (Tier 1; anchors gravity 3; tags SC RT
 PV). The amma thinness bound (Doc_02 SS1.6: Widely Accepted presence;

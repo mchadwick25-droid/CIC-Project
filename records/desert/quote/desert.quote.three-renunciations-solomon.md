@@ -49,11 +49,11 @@ relations:
 use_note:
   means: "Cassian's Abbot Paphnutius matches three renunciations to Proverbs, Ecclesiastes and the Song of Songs, the last joining the soul to the Word in contemplation."
   not_for:
-    - "Treating the mapping as a claim about how Solomon's books were written"
-    - "Reading the Song of Songs material here as erotic rather than about prayer"
-    - "Presenting it as an unmediated Egyptian voice rather than Cassian's later Latin reporting"
+    - "a claim about how Solomon's books were written"
+    - "the Song of Songs read erotically here, when it stands for contemplation"
+    - "an unmediated Egyptian voice, when it is Cassian's later Latin reporting"
   years: {from: 385, to: 429}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf211 line
 28484; one continuous passage to the chapter break, unaltered.
