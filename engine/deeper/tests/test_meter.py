@@ -473,3 +473,25 @@ def test_a_failing_measure_does_not_undo_a_purchase(meter, monkeypatch):
     assert meter.status(code).remaining == 25
     assert meter.payment_minted("pi_bought")
     assert meter.reconciliation()[0]["codes_minted"] == 1
+
+
+# ---- the balances owed at a switch-off -------------------------------------------------------
+
+def test_owed_lists_each_payment_with_unspent_tokens_and_nothing_else(meter):
+    (spent,) = meter.mint("single", 10, "pi_spent")
+    meter.settle(meter.reserve(spent, 10).reservation, True)
+    (part,) = meter.mint("single", 100, "pi_part")
+    meter.settle(meter.reserve(part, 30).reservation, True)
+    meter.mint("batch", 50, "pi_batch", count=2)
+    meter.mint("single", 25, "pi_refunded")
+    meter.void("pi_refunded")
+    owed = {row["payment_id"]: row for row in meter.owed()}
+    assert set(owed) == {"pi_part", "pi_batch"}
+    assert (owed["pi_part"]["tokens_bought"], owed["pi_part"]["tokens_left"]) == (100, 70)
+    assert (owed["pi_batch"]["codes"], owed["pi_batch"]["tokens_left"]) == (2, 100)
+
+
+def test_owed_carries_no_code_and_no_hash(meter):
+    (code,) = meter.mint("single", 40, "pi_x")
+    text = str(meter.owed()).lower()
+    assert code.lower() not in text and "hash" not in text
