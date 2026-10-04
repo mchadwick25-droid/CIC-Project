@@ -769,7 +769,7 @@ where none does.
 
 ### F-22 — the anachronism dictionary has one entry, so five of six worlds get no anachronism coverage · Fleet
 
-`records/_fleet/modern_term/` holds a single record: `_fleet.modern.trinity`,
+`engine/m5/records/modern_term/` holds a single record: `_fleet.modern.trinity`,
 `origin_year: 325`. `engine.m5.anachronism` flags a term when its origin year
 postdates the world's window, so:
 

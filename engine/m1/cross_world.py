@@ -611,11 +611,9 @@ def check_required_record_types_and_site_json(*, registry, records, worlds, **_)
 # stage 3: the records tree, world against world
 # --------------------------------------------------------------------------
 
-# Directories under records/ that are not a world's own: _fleet holds
-# fleet-shared content with no registry entry of its own by design, and
-# worlds IS records/worlds/, the registry's own storage location, not
-# something registered inside itself.
-_NON_WORLD_RECORD_DIRS = frozenset({"_fleet", "worlds"})
+# The one directory under records/ that is not a world's own: records/worlds/
+# is the registry's storage, not something registered inside itself.
+_NON_WORLD_RECORD_DIRS = frozenset({"worlds"})
 
 
 def check_unregistered_world_dirs(*, registry, **_) -> list[Finding]:

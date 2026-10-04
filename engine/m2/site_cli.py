@@ -55,7 +55,7 @@ def compile_site_json_for_world(
     """The compiled site JSON for `world_key`, or None if that world has
     no world_front record - not a failure by itself, since a world
     without one simply has nothing for this compiler to produce yet."""
-    fleet = load_fleet_records(records_root=records_root)
+    fleet = load_fleet_records()
     records = load_world_records(world_key, records_root=records_root)
     world_front = _find_world_front(records)
     if world_front is None:

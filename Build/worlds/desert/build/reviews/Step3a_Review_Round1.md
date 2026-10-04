@@ -1,6 +1,6 @@
 # Step 3a Lexicon - Review Round 1
 
-**Reviewer:** independent, adversarial; no drafting context. **Under review:** 18 term records in `records/desert/term/` and `Build/worlds/desert/build/LEXICON-INDEX.md`, at commit "desert step 3a draft" (b7d20aa0), branch `world/desert`. **Ground truth used:** `Build/worlds/desert/CiC_W3_Doc06_Full_Lexicon.md` (cleared, Round 3), Doc_01–Doc_05 and their review files, the 24 step-2 source records in `records/desert/source/`, the canon questions in `records/_fleet/canon_question/`, the vendored texts in `cic/texts/`, and `engine/m1/schemas.py`/`gates.py`. Nothing was sampled: every record, every index row, every relation edge, every claimed locus, and every canon-cell claim was traced.
+**Reviewer:** independent, adversarial; no drafting context. **Under review:** 18 term records in `records/desert/term/` and `Build/worlds/desert/build/LEXICON-INDEX.md`, at commit "desert step 3a draft" (b7d20aa0), branch `world/desert`. **Ground truth used:** `Build/worlds/desert/CiC_W3_Doc06_Full_Lexicon.md` (cleared, Round 3), Doc_01–Doc_05 and their review files, the 24 step-2 source records in `records/desert/source/`, the canon questions in `engine/canon/records/canon_question/`, the vendored texts in `cic/texts/`, and `engine/m1/schemas.py`/`gates.py`. Nothing was sampled: every record, every index row, every relation edge, every claimed locus, and every canon-cell claim was traced.
 
 ## A. What was independently verified and holds
 
