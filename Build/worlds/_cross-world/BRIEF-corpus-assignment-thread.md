@@ -542,7 +542,7 @@ is the whole mechanism; there is no separate list to keep.
 Seven entries currently sit in `unclassified` — Tacitus, Suetonius, Lucian,
 Ammianus, Auxentius, Paulinus of Milan. Most are the context material §11a
 covers, and several are in the Pearse appendix, so they should resolve as you
-go rather than needing a ruling.
+go.
 
 ---
 
