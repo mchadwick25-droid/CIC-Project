@@ -20,7 +20,8 @@ FREE_KEYS = ("daily", "rounds_per_conversation")
 LATER_ROUNDS_FROM = 4
 MINIMUM_PACK_USD = 7
 LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
-DOOR_KEYS = ("base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
+DOOR_KEYS = ("observe", "base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
+PAID_KEYS = ("round_cap", "provisional")
 STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_day_share", "free_voice", "paid_voice"}
 
 
@@ -39,6 +40,9 @@ class DeeperOps:
     rates: TokenRates
     packs: tuple[Pack, ...]
     door: DoorSettings
+    door_observe: bool
+    paid_round_cap: int
+    paid_round_cap_provisional: bool
 
 
 def _section(data: dict, name: str, keys: tuple[str, ...]) -> dict:
@@ -100,6 +104,8 @@ def _number(value, name: str, *, low: float, high: float | None = None, inclusiv
 
 def _door(section) -> DoorSettings:
     section = _section({"door": section}, "door", DOOR_KEYS)
+    if not isinstance(section["observe"], bool):
+        raise OpsFileError("door.observe must be true or false")
     base = _number(section["base_weekly_usd"], "door.base_weekly_usd", low=0, inclusive_low=False)
     gift = _number(section["gift_share"], "door.gift_share", low=0, high=1)
     purchase = _number(section["purchase_share"], "door.purchase_share", low=0, high=1)
@@ -154,8 +160,8 @@ def load_ops(path: str | None = None) -> DeeperOps:
             data = yaml.safe_load(handle)
     except (OSError, yaml.YAMLError) as exc:
         raise OpsFileError(f"cannot read {path}: {exc}") from exc
-    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "words"}:
-        raise OpsFileError("the file must hold exactly limits, tokens, door and words")
+    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "paid", "words"}:
+        raise OpsFileError("the file must hold exactly limits, tokens, door, paid and words")
     limits = _section(data, "limits", LIMIT_KEYS)
     for key, value in limits.items():
         if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
@@ -170,7 +176,13 @@ def load_ops(path: str | None = None) -> DeeperOps:
             raise OpsFileError("every piece of wording must be a non-empty string")
     rates, packs = _tokens(data["tokens"])
     door = _door(data["door"])
+    paid = _section(data, "paid", PAID_KEYS)
+    if isinstance(paid["round_cap"], bool) or not isinstance(paid["round_cap"], int) or paid["round_cap"] <= 0:
+        raise OpsFileError("paid.round_cap must be a positive whole number")
+    if not isinstance(paid["provisional"], bool):
+        raise OpsFileError("paid.provisional must be true or false")
     return DeeperOps(
         group_daily_ceiling=limits["group_daily_ceiling"],
         group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
+        door_observe=data["door"]["observe"], paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
     )

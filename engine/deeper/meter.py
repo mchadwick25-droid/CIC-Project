@@ -32,13 +32,14 @@ RECONCILE_RETENTION_DAYS = 90
 MEASURE_RETENTION_DAYS = 90
 REFUSAL_REASONS = (
     "no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use",
-    "free_rounds_done", "free_day_spent", "door_free_closed", "door_paid_closed",
+    "free_rounds_done", "free_day_spent", "door_free_closed", "door_paid_closed", "paid_round_cap",
 )
 SUM_MEASURES = (
     "codes_single", "codes_batch", "codes_group", "tokens_sold", "tokens_spent",
     *(f"refused_{reason}" for reason in REFUSAL_REASONS),
+    "observed_free_refused", "observed_paid_refused",
 )
-MAX_MEASURES = ("door_stage",)
+MAX_MEASURES = ("door_stage", "door_ratio_permille", "door_spend_cents")
 FUNDS_KINDS = ("gift", "purchase", "adjustment")
 FUNDS_RETENTION_DAYS = 90
 MAX_FUNDS_CENTS = 10_000_000

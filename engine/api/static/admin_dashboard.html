@@ -176,6 +176,7 @@
           <div class="caveat">Payments seen, minus codes made, minus refunds that came first. Today.</div>
         </div>
       </div>
+      <div class="caveat" id="deeper-observe-note" style="margin-top: 8px;"></div>
       <div id="deeper-table-wrap" style="margin-top: 12px;"></div>
       <div class="caveat" style="margin-top: 8px;">One number per measure per day. No code, visitor or time of day is kept. Crisis turns are not counted here: the Go Deeper module never sees what a message says.</div>
     </section>
@@ -410,7 +411,7 @@
     refused_no_code: "no code", refused_code_not_accepted: "code not accepted", refused_spent: "code spent",
     refused_too_few: "too few tokens", refused_daily_ceiling: "group daily limit", refused_paused: "codes paused",
     refused_in_use: "tokens in use", refused_free_rounds_done: "free rounds done", refused_free_day_spent: "free day spent",
-    refused_door_free_closed: "door closed to free", refused_door_paid_closed: "door closed to codes",
+    refused_door_free_closed: "door closed to free", refused_door_paid_closed: "door closed to codes", refused_paid_round_cap: "paid conversation at its round cap",
   };
   function refusalTotal(row) {
     return Object.keys(REFUSAL_LABELS).reduce((sum, key) => sum + (row[key] || 0), 0);
@@ -443,7 +444,9 @@
     table.appendChild(el("thead", {}, [el("tr", {}, [
       el("th", { text: "Day" }), el("th", { class: "num", text: "Codes" }), el("th", { class: "num", text: "Tokens sold" }),
       el("th", { class: "num", text: "Tokens spent" }), el("th", { class: "num", text: "Refused" }),
-      el("th", { text: "Why" }), el("th", { class: "num", text: "Highest door stage" }),
+      el("th", { text: "Why" }), el("th", { class: "num", text: "Door stage (peak)" }), el("th", { class: "num", text: "Of ceiling (peak)" }),
+      el("th", { class: "num", text: "Spend (peak)" }), el("th", { class: "num", text: "Would have refused: free" }),
+      el("th", { class: "num", text: "Would have refused: codes" }),
     ])]));
     const tbody = el("tbody", {});
     rows.forEach((row) => {
@@ -455,16 +458,32 @@
         el("td", { class: "num", text: fmtNumber(refusalTotal(row)) }),
         el("td", { text: refusalText(row) }),
         el("td", { class: "num", text: fmtNumber(row.door_stage || 0) }),
+        el("td", { class: "num", text: Math.round((row.door_ratio_permille || 0) / 10) + "%" }),
+        el("td", { class: "num", text: fmtDollars((row.door_spend_cents || 0) / 100) }),
+        el("td", { class: "num", text: fmtNumber(row.observed_free_refused || 0) }),
+        el("td", { class: "num", text: fmtNumber(row.observed_paid_refused || 0) }),
       ]));
     });
     table.appendChild(tbody);
     wrap.appendChild(table);
   }
+  function renderObserveNote(door) {
+    const note = document.getElementById("deeper-observe-note");
+    note.textContent = door && door.observe
+      ? "Observe mode: the door is worked out every minute but narrows nothing. The door columns show what it would have done each day, so the base number and thresholds can be set from them. They count turns the door would have refused outright; halving the free day at a stage is not counted, so read the peaks for how close the week came."
+      : "";
+  }
   async function loadDeeper() {
     // The route exists only when the Go Deeper module is on; without it the section stays hidden.
     try {
       const resp = await fetch("/api/admin/deeper/measures", { credentials: "same-origin" });
-      if (resp.ok) renderDeeper(await resp.json());
+      if (resp.ok) {
+        renderDeeper(await resp.json());
+        try {
+          const doorResp = await fetch("/api/admin/deeper/door", { credentials: "same-origin" });
+          if (doorResp.ok) renderObserveNote((await doorResp.json()).door);
+        } catch (e) { /* the note is optional */ }
+      }
       else document.getElementById("deeper-section").classList.add("hidden");
     } catch (e) {
       document.getElementById("deeper-section").classList.add("hidden");

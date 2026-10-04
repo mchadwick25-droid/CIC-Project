@@ -63,6 +63,13 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["words"].pop("door"),
         lambda d: d["words"]["door"].pop("limited"),
         lambda d: d["words"]["door"].update(paused=" "),
+        lambda d: d.pop("paid"),
+        lambda d: d["paid"].update(round_cap=0),
+        lambda d: d["paid"].update(round_cap=True),
+        lambda d: d["paid"].update(provisional="yes"),
+        lambda d: d["paid"].pop("provisional"),
+        lambda d: d["door"].pop("observe"),
+        lambda d: d["door"].update(observe="yes"),
     ],
 )
 def test_a_malformed_file_is_refused(tmp_path, change):
@@ -164,3 +171,9 @@ def test_a_malformed_door_is_refused(tmp_path, change):
     change(data)
     with pytest.raises(OpsFileError):
         load_ops(_write(tmp_path, data))
+
+
+def test_the_shipped_door_starts_in_observe_mode_and_the_paid_cap_is_provisional():
+    ops = load_ops()
+    assert ops.door_observe is True
+    assert (ops.paid_round_cap, ops.paid_round_cap_provisional) == (40, True)

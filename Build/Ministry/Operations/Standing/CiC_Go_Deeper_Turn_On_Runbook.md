@@ -28,9 +28,9 @@ All of these must be true. The build thread checks the first group; Mark confirm
 **Mark's, before any real sale:**
 
 - Prices, packs and the sponsor pack (ruled: $7 = 1,100 tokens, $15 = 2,750, $30 = 6,600; nothing under $7; the sponsor pack shape is open).
-- The door's numbers: base $150 a week is ruled. The gift and purchase shares (0.8, 0.5), the invoice factor (1.35) and the five stages ship as stated defaults in `engine/deeper/ops/go-deeper.yaml`. Change them by pull request if wanted.
+- The door's numbers: the base number and thresholds are set from the observe week (Part 5, step 2). The gift and purchase shares (0.8, 0.5), the invoice factor (1.35) and the five stages ship as stated defaults in `engine/deeper/ops/go-deeper.yaml`. Change them by pull request.
 - The converted numbers: group daily ceiling 6000 tokens, low-balance warning at 100 tokens.
-- Words: the free-day count line, "beside" or "under" the message box, the last-stage public line, and "give at Get Involved" showing on Get Involved itself.
+- Words: the free-day count line, "beside" or "under" the message box, the last-stage public line, "give at Get Involved" showing on Get Involved itself, and a line for the paid round-cap stop that says the participant's code still holds tokens.
 - Expiry, refund and lost-code policy, after a professional answers the stored-value, gift-card, unclaimed-property, sales-tax and minors questions.
 - **The minors question, answered before the first group code is sold.**
 - Stripe: the written answer on stored value, the account set up, and each unverified Stripe fact checked before the slice that depends on it (below).
@@ -77,22 +77,19 @@ Staging is `cic-engine-staging`, which follows `main`. Use Stripe test mode.
 7. Pause codes (`POST /api/admin/deeper/pause` with `{"on": true}`). The next message with a code gets the paused line. Free conversations carry on. Unpause.
 8. Run each state on the Ledger page's list and read the words as a participant would: spent, too few, in use, group daily limit, code not accepted, paused.
 9. Send a message that reads as distress, one that is unclear, and one the safety check cannot read, at: the third free round, a spent code, a paused module, and each door stage. Each must get the Facilitator's answer and never the limit message.
-10. Drive the door: copy the operations file, set a low base number in the copy, and point `CIC_DEEPER_OPS_FILE` at the copy on staging (never edit the shipped file for a test). Run traffic until each stage is reached. Read `GET /api/admin/deeper/door` at each. Confirm the free path narrows in the order the operations file lists, free voice closes, and at the last stage a code is refused with nothing spent.
+10. Drive the door: copy the operations file, set a low base number in the copy, and point `CIC_DEEPER_OPS_FILE` at the copy on staging (never edit the shipped file for a test). In that copy set `door.observe` to false, because in observe mode the door narrows nothing. Run traffic until each stage is reached. Read `GET /api/admin/deeper/door` at each. Confirm the free path narrows in the order the operations file lists, free voice closes, and at the last stage a code is refused with nothing spent.
 11. Open the admin dashboard. The Go Deeper section shows the day's codes, tokens and refusals, and the "highest door stage" column moves with step 10.
 12. Take a backup and restore it to a scratch copy. The restored meter file has the same balances.
 13. Flip the module off (rollback step 4). Confirm the free path is unchanged and every deeper route returns 404.
 14. Mark signs the checklist, listing anything that did not behave and what was done about it.
 
-## Part 4 — The paid voice-quality run (needs Mark's approval first)
+## Part 4 — No paid voice-quality run
 
-One paid run before step 4, to see that the voice holds across the longest sitting a pack allows. This is a paid bulk run on a metered outside service, so it follows the standing rule: a small sample first, Mark approves the sample by ear or eye, and only then the rest.
+Ruled by Mark, 2026-10-04: there is no paid voice-quality run now. The new engine is about to land and would make the result stale. The question the run was meant to answer, how many rounds a paid conversation may run before quality falls, is answered from the new engine's own baseline runs when they exist. Step 4 is not gated on a paid run.
 
-- **Sizing is Mark's to choose.** Two different things are called the longest a pack allows. Sixty is the number of three-round conversations the $30 pack buys. The longest single solo sitting it allows is about 262 rounds (50 tokens to open, 20 a round for rounds one to three, then 25 a round: 6,585 of the 6,600 tokens). The voice's behaviour late in a long sitting is what the run is meant to test, so the run needs the long sitting. A Table sitting uses more tokens a round and runs shorter. The request names which sittings are run and how many.
-- **Settings are passed on the command, never inherited:** the voice model id and generation settings are named explicitly, and the run prints them with item counts and character (token) counts. Confirm from that printout that what was paid for is what was meant.
-- **A stated cap** on spend is written into the request, and the run stops at it.
-- **The order:** (1) the build thread states the sample's settings and cost; (2) the sample runs; (3) Mark approves the sample by ear or eye; (4) the build thread states the full run's cost and cap; (5) Mark approves; (6) the full run. The build thread does not start any step on its own.
-- **The run script gets its own review** by the Opus thread before the sample runs.
-- A check that files match each other proves nothing about what produced them. Verify the thing that was paid for.
+Until then a provisional cap holds. The operations file carries `paid: {round_cap: 40, provisional: true}`. Past 40 rounds in one conversation a code is not spent, the turn is refused, and the Facilitator answers with the neutral limit text. The 40 is the build thread's safe default with no measurement behind it. Replace it, and set `provisional: false`, when the new engine's baselines exist. The refusals show on the dashboard as "paid conversation at its round cap". The participant sees no line of their own for this stop yet: that wording is Mark's, and it needs to tell a participant that their code still holds tokens.
+
+If a paid run is ever wanted again, it follows the standing rule for paid bulk runs: a small sample first, Mark approves it by ear or eye, settings are passed on the command and printed with item and character counts, a stated cap, and the run script gets its own review.
 
 ## Part 5 — The four production steps
 
@@ -104,9 +101,11 @@ There is no way to hand-mint a code. Only a Stripe completion event makes one. S
 
 **Step 2 — Engine on.** Set the Part 2 engine settings with live-mode Stripe values and turn `CIC_DEEPER_ENABLED` on. The app and site are still off, so no participant sees anything. Check: the webhook endpoint is reachable by Stripe, the door computes from the usage log (`GET /api/admin/deeper/door`), the dashboard section appears. Then Mark makes one real purchase of the smallest pack through a live Payment Link that no page links to, and reads the code from the return page. The reconciliation count must show one payment seen, one code made, a gap of zero. Mark then refunds that purchase in full in Stripe and checks that the refund event voids the code (`refunds_applied` is one, `GET /api/admin/deeper/owed` no longer lists it). This is the first live proof of the whole loop.
 
+The door starts in **observe mode** (`door.observe: true` in the operations file). It is worked out every minute and counted, but it narrows nothing, the public door line says nothing, and no turn is refused for it. Leave it for one week. Each day the dashboard's Go Deeper table shows the door's peak stage, its peak share of the ceiling, the peak weekly spend, and the voiced turns it would have refused, free and coded separately. Halving the free day at a stage is not counted as a refused turn, so read the peaks for how close the week came. Mark sets the base number and thresholds from that week, by pull request to the operations file, then sets `door.observe: false`, and the door goes live. Until it is live, a surge of free traffic is bounded only by the existing per-visitor, per-address and daily limits, so watch the dashboard through the week.
+
 **Step 3 — App on.** Build the app with `VITE_DEEPER_ENABLED=on` and promote. The panel opens at a limit and on request, and accepts a code a person enters. There is still no buy button anywhere. Mark makes a second real smallest-pack purchase through the unlinked Payment Link, enters its code in a sitting, and runs the safety matrix on production (Part 3, step 9) with it, then refunds it in full.
 
-**Step 4 — Site on.** Only after the Part 4 run is approved and clean, and Mark has signed Part 3. Set the Payment Link or links on `go-deeper.html`, set `enabled: true` in `go-deeper-config.js`, remove `noindex` from the two pages, and link the Go Deeper page. Merging to `main` ships the site. Watch the reconciliation gap and the dashboard daily for the first week.
+**Step 4 — Site on.** Only after Mark has signed Part 3, the door has run its week of observe mode and gone live (Part 5, step 2), and the words items in Part 1 are settled. Set the Payment Link or links on `go-deeper.html`, set `enabled: true` in `go-deeper-config.js`, remove `noindex` from the two pages, and link the Go Deeper page. Merging to `main` ships the site. Watch the reconciliation gap and the dashboard daily for the first week.
 
 ## Part 6 — Rollback
 
@@ -163,7 +162,8 @@ Until every refunded payment is voided, the written rule is that **the module is
 
 ## Known gaps, stated
 
-- The door's week of observe mode (stage shown, nothing narrowed) is not built. The door narrows from the first week it is on. Mark decides whether to add it before step 2.
+- The paid round cap of 40 is provisional and unmeasured. Its stop has no participant line of its own yet.
+- Observe mode does not count the halving of the free day as a refusal.
 - Crisis turns are not counted by the module, which never sees message content.
 - A refused message that the safety check then lets through to the Facilitator is counted as a refusal.
 - The go-deeper page carries one Payment Link; three packs need three.
