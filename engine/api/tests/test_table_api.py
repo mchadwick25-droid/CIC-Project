@@ -1178,3 +1178,93 @@ def test_table_voice_turns_write_qc_rows_including_continues(tmp_path, store, us
     assert [(r["world"], r["round"]) for r in rows] == [("alx", 1), ("desert", 2)]
     assert len({r["conversation_token"] for r in rows}) == 1
     assert all(r["question_text"] == "what is prayer?" for r in rows)
+
+
+# --- streamed seats (System Hub decision 38) ---
+
+STREAM = {"Accept": "text/event-stream"}
+
+
+def _events(response):
+    import json
+    out = []
+    for block in response.text.strip().split("\n\n"):
+        name, data = block.split("\n", 1)
+        out.append((name.removeprefix("event: "), json.loads(data.removeprefix("data: "))))
+    return out
+
+
+def test_a_streamed_table_seat_sends_its_sentences_then_the_turn(store, usage_store, world_loader, registry, alx_world, desert_world):
+    clean_sentence, rid = grounded_sentence(alx_world)
+    client = _table_client(
+        selector_script=[{"next": "alx", "reason": "opening"}],
+        stream_scripts=[[clean_sentence + " ", clean_sentence + " ", "That is what we hold."]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
+                 streaming_enabled=True)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+    events = _events(http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers={**auth, **STREAM}))
+    names = [name for name, _ in events]
+    assert names[-1] == "done" and names.count("sentence") == 2
+    done = events[-1][1]
+    assert done["voice"]["speaker"] == "alx" and done["round_open"]
+    shown = "".join(d["lead"] + d["text"] for name, d in events if name == "sentence")
+    assert done["voice"]["text"].startswith(shown)
+
+
+def test_a_seat_caught_mid_reply_ends_at_its_last_shown_sentence_and_the_facilitator_says_so(
+    store, usage_store, world_loader, registry, alx_world, desert_world,
+):
+    clean_sentence, rid = grounded_sentence(alx_world)
+    client = _table_client(
+        selector_script=[{"next": "alx", "reason": "opening"}],
+        stream_scripts=[[clean_sentence + " ", clean_sentence + "\n\n", "The Facilitator: I will speak for both of us now. ", "And more."]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
+                 streaming_enabled=True)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+    events = _events(http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers={**auth, **STREAM}))
+    shown = [d["text"] for name, d in events if name == "sentence"]
+    assert len(shown) == 2 and not any("Facilitator" in t for t in shown)
+    done = events[-1][1]
+    assert "Facilitator" not in done["voice"]["text"] and done["voice"]["text"].count(".") == 2
+    cut = [f for f in done["facilitator"] if f["kind"] == "seat_correction"]
+    assert len(cut) == 1 and "What came before that point stands." in cut[0]["text"]
+    assert alx_world.frame["representative"]["name"] in cut[0]["text"]
+    assert len(client.messages.stream_calls) == 1
+    violations = [e.payload for e in store.read_events(session_id) if e.event_type == "seat_identity_violation"]
+    assert [v["attempt"] for v in violations] == ["streamed"] and violations[0]["offending_prefix"] == "The Facilitator:"
+
+
+def test_a_seat_caught_in_its_first_sentence_shows_nothing_and_regenerates(store, usage_store, world_loader, registry, alx_world, desert_world):
+    clean_sentence, rid = grounded_sentence(alx_world)
+    client = _table_client(
+        selector_script=[{"next": "alx", "reason": "opening"}],
+        stream_scripts=[["The Facilitator: I will speak for both of us now. ", "Then more."], [clean_sentence]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
+                 streaming_enabled=True)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+    events = _events(http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers={**auth, **STREAM}))
+    assert [name for name, _ in events] == ["done"]
+    done = events[-1][1]
+    assert "Facilitator" not in done["voice"]["text"]
+    assert rid in [c["record_ids"][0] for c in done["voice"]["citations"]]
+    assert len(client.messages.stream_calls) == 2
+    assert not any(f["kind"] == "seat_correction" for f in done["facilitator"])
+
+
+def test_continue_streams_the_next_seat(store, usage_store, world_loader, registry, alx_world, desert_world):
+    alx_sentence, _ = grounded_sentence(alx_world)
+    desert_sentence, _ = grounded_sentence(desert_world)
+    client = _table_client(
+        selector_script=[{"next": "alx", "reason": "opening"}, {"next": "desert", "reason": "second"}],
+        stream_scripts=[[alx_sentence], [desert_sentence + " ", desert_sentence + " ", "So we held."]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
+                 streaming_enabled=True)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+    http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers=auth)
+    events = _events(http.post(f"/api/session/{session_id}/continue", headers={**auth, **STREAM}))
+    assert [name for name, _ in events].count("sentence") == 2
+    assert events[-1][0] == "done" and events[-1][1]["voice"]["speaker"] == "desert"

@@ -407,6 +407,14 @@ def _horizon_findings(text: str, window_end: int | None) -> list[dict]:
     return out
 
 
+def check_horizon(text: str, window_end: int | None) -> list[dict]:
+    """The live backstop: the horizon family alone, on the finished text.
+    The other families run after the conversation (engine.m7.offline_checks)."""
+    if not (text or "").strip():
+        return []
+    return _horizon_findings(text, window_end)
+
+
 def check_output(
     text: str,
     *,

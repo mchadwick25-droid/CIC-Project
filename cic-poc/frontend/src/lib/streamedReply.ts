@@ -10,6 +10,7 @@ import type { SourceCard, TransparencyElement, TransparencyPlan } from '../types
 
 export interface StreamedSentence {
   index: number;
+  speaker: string;
   lead: string;
   text: string;
   text_start: number | null;

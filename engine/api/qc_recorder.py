@@ -83,7 +83,6 @@ class QCRecorder:
             "attached_sentences": sum(1 for c in citations if c.get("attached")),
         }
         scores = {
-            "uncited_claims": len((voice_event or {}).get("uncited_claims") or []),
             "degraded_by_net": bool((voice_event or {}).get("degraded_by_net")),
             "horizon_mentions": sum(1 for d in (voice_event or {}).get("output_defects") or [] if d.get("family") == "horizon"),
         }

@@ -19,11 +19,13 @@ import { ModernTermMark } from '../components/ModernTermMark';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry } from '../data/worlds';
+import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import { useState } from 'react';
 
 interface TableRoomProps {
   seatedWorlds: WorldEntry[];
   turns: ConversationTurn[];
+  streamed?: StreamedSentence[];
   sessionCode: string | null;
   closed: boolean;
   roundOpen: boolean;
@@ -43,7 +45,7 @@ function facilitatorParagraphs(text: string): string[] {
 }
 
 export function TableRoom({
-  seatedWorlds, turns, sessionCode, closed, roundOpen, roundCap, isLoading, error, errorRecoverable, onSend, onResumeRound, onEnd, onRestart, onDelete,
+  seatedWorlds, turns, streamed = [], sessionCode, closed, roundOpen, roundCap, isLoading, error, errorRecoverable, onSend, onResumeRound, onEnd, onRestart, onDelete,
 }: TableRoomProps) {
   const [deleted, setDeleted] = useState(false);
   const handleDelete = async () => {
@@ -51,6 +53,8 @@ export function TableRoom({
     setDeleted(true);
   };
   const byKey = new Map(seatedWorlds.map((w) => [w.worldKey, w]));
+  const streamingSeat = streamed.length ? byKey.get(streamed[0].speaker) : undefined;
+  const reply = streamingSeat ? streamedReply(streamed, streamingSeat.worldKey) : null;
   const anyLivingTradition = seatedWorlds.some((w) => w.livingTraditionFlag);
   return (
     <div className="conversation">
@@ -147,7 +151,16 @@ export function TableRoom({
           );
         })}
 
-        {isLoading && !closed && <p className="waiting-note sans" role="status">The table is speaking — voices answer in turn…</p>}
+        {reply && streamingSeat && (
+          <div className="turn turn--voice">
+            <div className="turn__speaker sans" style={{ color: streamingSeat.accentColor }}>
+              {`${streamingSeat.representativeName} · ${streamingSeat.cardName}`}
+            </div>
+            <VoiceTurnBody text={reply.text} citations={[]} transparency={reply.transparency} />
+          </div>
+        )}
+
+        {isLoading && !closed && !reply && <p className="waiting-note sans" role="status">The table is speaking — voices answer in turn…</p>}
       </div>
 
       {error && (
