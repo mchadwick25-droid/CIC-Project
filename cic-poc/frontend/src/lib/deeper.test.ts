@@ -166,7 +166,7 @@ describe('a purchase reference carried in the address', () => {
 
   it('on a yes, the app asks its own server and keeps exactly one code', async () => {
     window.history.replaceState(null, '', `/#cic-claim=${REF}`);
-    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ codes: ['ABCD 2345 EFGH 6789 JKLM'], exchanges: 40 }), { status: 200 }));
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ codes: ['ABCD 2345 EFGH 6789 JKLM'], tokens: 40 }), { status: 200 }));
     vi.stubGlobal('fetch', fetchMock);
     const mod = await load(true);
     expect(await mod.acceptClaim()).toBe(true);
@@ -179,7 +179,7 @@ describe('a purchase reference carried in the address', () => {
 
   it('keeps nothing when the purchase holds several codes, or the server has none, or it cannot be reached', async () => {
     for (const reply of [
-      () => Promise.resolve(new Response(JSON.stringify({ codes: [CODE, CODE.replace('A', 'B')], exchanges: 40 }), { status: 200 })),
+      () => Promise.resolve(new Response(JSON.stringify({ codes: [CODE, CODE.replace('A', 'B')], tokens: 40 }), { status: 200 })),
       () => Promise.resolve(new Response('{}', { status: 404 })),
       () => Promise.reject(new Error('offline')),
     ]) {
