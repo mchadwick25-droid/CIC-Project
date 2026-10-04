@@ -31,6 +31,7 @@ from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
 from engine.deeper.config import DeeperConfig
 from engine.deeper.meter import KINDS, AlreadyMinted, Meter, PaymentVoided
+from engine.deeper.free import DailyFreeAllowance
 from engine.deeper.tokens import TokenRates
 
 logger = logging.getLogger("cic.deeper")
@@ -92,6 +93,11 @@ class DeeperRuntime:
     ops: DeeperOps | None = None
     facilitator_only_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
     paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
+    free: DailyFreeAllowance | None = None
+
+    def __post_init__(self):
+        if self.free is None:
+            self.free = DailyFreeAllowance(self.token_rates.free_daily)
 
 
 def parse_products(raw: str | None) -> dict[str, Product]:

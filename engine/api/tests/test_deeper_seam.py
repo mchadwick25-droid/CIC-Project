@@ -18,6 +18,7 @@ from engine.api.deeper_routes import DeeperRuntime
 from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
 from engine.deeper import codes, tokens
 from engine.deeper.claims import ClaimStore
+from engine.deeper.free import DailyFreeAllowance
 from engine.deeper.meter import Meter
 
 FREE_CAP = 2
@@ -67,6 +68,20 @@ def runtime(tmp_path):
     yield rt
     rt.meter.close()
     rt.claims.close()
+
+
+from engine.m4 import round as _round_module  # noqa: E402
+from engine.m4 import turn as _turn_module  # noqa: E402
+
+SHIPPED_SESSION_TURN_CAP = _turn_module.SESSION_TURN_CAP
+SHIPPED_TABLE_ROUND_CAP = _round_module.TABLE_SESSION_ROUND_CAP
+
+
+@pytest.fixture
+def shipped_caps(monkeypatch):
+    """The engine's own free caps, as shipped, for the tests that prove the free day on top of them."""
+    monkeypatch.setattr("engine.m4.turn.SESSION_TURN_CAP", SHIPPED_SESSION_TURN_CAP)
+    monkeypatch.setattr("engine.m4.round.TABLE_SESSION_ROUND_CAP", SHIPPED_TABLE_ROUND_CAP)
 
 
 @pytest.fixture(autouse=True)
@@ -122,7 +137,7 @@ def run_sitting(http, turns, **headers):
 def test_the_voice_request_is_identical_off_free_and_paid_at_a_turn_past_the_free_cap(
     store, usage_store, world_loader, registry, runtime, tmp_path, monkeypatch
 ):
-    turns = FREE_CAP + 2
+    turns = 2
     requests = {}
 
     monkeypatch.setattr("engine.m4.turn.SESSION_TURN_CAP", 50)
@@ -133,12 +148,13 @@ def test_the_voice_request_is_identical_off_free_and_paid_at_a_turn_past_the_fre
     free = RecordingClient()
     run_sitting(build(store, usage_store, world_loader, registry, free, deeper=runtime), turns)
     requests["on_free"] = free.voice_requests[turns - 1]
+    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_daily - solo_charge(runtime, 1, turns)
 
-    monkeypatch.setattr("engine.m4.turn.SESSION_TURN_CAP", FREE_CAP)
+    runtime.free = DailyFreeAllowance(runtime.token_rates.free_daily)
+    monkeypatch.setattr("engine.m4.turn.SESSION_TURN_CAP", 1)
     paid = RecordingClient()
     spare = 5
-    paid_cost = solo_charge(runtime, FREE_CAP + 1, turns)
-    code = code_with(runtime, paid_cost + spare)
+    code = code_with(runtime, solo_charge(runtime, 2, turns) + spare)
     last = run_sitting(build(store, usage_store, world_loader, registry, paid, deeper=runtime), turns, **{"X-Cic-Code": code})
     requests["on_paid"] = paid.voice_requests[turns - 1]
 
@@ -891,6 +907,7 @@ def test_the_voice_requests_are_identical_for_a_table_round_past_the_free_rounds
 
     off = run(None, None, 5)
     free = run(runtime, None, 5)
+    runtime.free = DailyFreeAllowance(runtime.token_rates.free_daily)
     paid = run(runtime, code_with(runtime, 2 * table_charge(runtime, 2)), 1)
     assert off and off == free == paid
 
@@ -916,3 +933,96 @@ def test_a_reply_counts_as_spoken_exactly_when_it_adds_a_pair_to_the_memory_the_
     voice = {"speaker": "fix", "text": text, "citations": []}
     history = history_from_transcript([{"speaker": "participant", "text": "question"}, voice])
     assert _spoke(voice) == (len(history) // 2 == 1)
+
+
+# ---- the free day: three rounds a conversation, a day's worth of tokens -------------
+
+def run_free_conversation(http, rounds, **headers):
+    session_id, auth = open_session(http, **headers)
+    replies = [say(http, session_id, auth, f"question {i}") for i in range(rounds)]
+    return session_id, auth, replies
+
+
+def test_a_free_solo_conversation_stops_after_three_rounds_and_says_why(store, usage_store, world_loader, registry, runtime, shipped_caps):
+    client = RecordingClient()
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+    _, _, replies = run_free_conversation(http, 4)
+    assert [r.json()["voice"] is not None for r in replies] == [True, True, True, False]
+    assert replies[3].json()["routing_action"] == "session_cap_turn"
+    assert replies[3].json()["limit_note"]["key"] == "no_code"
+    assert len(client.voice_requests) == 3
+
+
+def test_with_the_module_off_a_conversation_still_runs_to_the_engines_own_cap(store, usage_store, world_loader, registry, shipped_caps):
+    client = RecordingClient()
+    http = build(store, usage_store, world_loader, registry, client)
+    _, _, replies = run_free_conversation(http, 4)
+    assert all(r.json()["voice"] is not None for r in replies)
+
+
+def test_three_free_conversations_use_the_free_day_and_a_fourth_is_refused_until_a_code_carries_it(
+    store, usage_store, world_loader, registry, runtime, shipped_caps
+):
+    client = RecordingClient()
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+    for _ in range(3):
+        run_free_conversation(http, 3)
+    assert runtime.free.remaining("ip:testclient") == 0
+    session_id, auth = open_session(http)
+    refused = say(http, session_id, auth, "a fourth conversation")
+    assert refused.json()["voice"] is None and refused.json()["limit_note"]["key"] == "no_code"
+    code = code_with(runtime, solo_charge(runtime, 1))
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    carried = say(http, session_id, auth, "a fourth conversation")
+    assert carried.json()["voice"] is not None
+    assert carried.headers["x-cic-remaining"] == "0"
+
+
+def test_a_code_carries_a_conversation_past_its_third_free_round_at_the_later_price(
+    store, usage_store, world_loader, registry, runtime, shipped_caps
+):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    spare = 7
+    code = code_with(runtime, solo_charge(runtime, 4, 5) + spare)
+    _, _, replies = run_free_conversation(http, 5, **{"X-Cic-Code": code})
+    assert all(r.json()["voice"] is not None for r in replies)
+    assert runtime.meter.status(code).remaining == spare
+    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_daily - solo_charge(runtime, 1, 3)
+
+
+def test_a_failed_voice_call_gives_the_free_tokens_back(store, usage_store, world_loader, registry, runtime, shipped_caps):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(voice_fails=True), deeper=runtime)
+    session_id, auth = open_session(http)
+    say(http, session_id, auth, "hello")
+    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_daily
+    assert runtime.free._held == {}
+
+
+@pytest.mark.parametrize("seats", [2, 3])
+def test_a_free_table_draws_the_free_day_by_its_seats_and_stops_after_three_rounds(
+    store, usage_store, world_loader, registry, runtime, alx_world, desert_world, pahc_world, shipped_caps, seats
+):
+    keys = ["alx", "desert", "pahc"][:seats]
+    sentences = [grounded_sentence(w)[0] for w in (alx_world, desert_world, pahc_world)][:seats]
+    client = _table_client(
+        selector_script=[{"next": keys[i % seats], "reason": "r"} for i in range(80)],
+        stream_scripts=[[sentences[i % seats]] for i in range(80)],
+    )
+    http = table_app(store, usage_store, world_loader, registry, runtime, client)
+    created = http.post("/api/session", json={"world_keys": keys}).json()
+    auth = {"Authorization": f"Session {created['session_code']}"}
+    drawn = []
+    for text in ("one?", "two?", "three?", "four?"):
+        reply = http.post(f"/api/session/{created['session_id']}/message", json={"text": text}, headers=auth)
+        assert reply.status_code == 200
+        drawn.append(runtime.token_rates.free_daily - runtime.free.remaining("ip:testclient"))
+        while reply.json()["round_open"]:
+            reply = http.post(f"/api/session/{created['session_id']}/continue", headers=auth)
+    assert reply.json()["routing_action"] == "session_cap_turn"
+    first = tokens.charge(runtime.token_rates, 1, seats)
+    second = tokens.charge(runtime.token_rates, 2, seats)
+    third = tokens.charge(runtime.token_rates, 3, seats)
+    expected = [first, first + second, first + second + third]
+    # a Table at three seats is 250 + 100 + 100, more than the day holds: its later rounds are refused
+    admitted = [d for d in expected if d <= runtime.token_rates.free_daily]
+    assert drawn[: len(admitted)] == admitted
