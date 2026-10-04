@@ -66,7 +66,7 @@ const scenarios = {
     return { fresh, stale, staleRemoved, broken };
   },
   claimReady: () =>
-    claimWith([{ status: 404 }, { status: 404 }, { status: 200, body: { codes: ["ABCD 2345 EFGH 6789 JKLM"], exchanges: 40 } }]),
+    claimWith([{ status: 404 }, { status: 404 }, { status: 200, body: { codes: ["ABCD 2345 EFGH 6789 JKLM"], tokens: 40 } }]),
   claimMissing: () => claimWith([{ status: 404 }]),
   claimServerError: () => claimWith([{ status: 500 }]),
   claimOffline: () => claimWith(["network"]),

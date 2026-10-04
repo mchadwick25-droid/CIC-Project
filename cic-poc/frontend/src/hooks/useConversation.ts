@@ -9,6 +9,7 @@
  */
 import { useCallback, useRef, useState } from 'react';
 import { ApiRequestError, createSession, getTranscript, sendMessage } from '../lib/api';
+import { noteLimit } from '../lib/deeper';
 import { clearStored, readStored, writeStored } from '../lib/sessionStore';
 import type { FacilitatorTurn, TranscriptEntry, VoiceTurn } from '../types/conversation';
 import type { StreamedSentence } from '../lib/streamedReply';
@@ -117,6 +118,7 @@ export function useConversation() {
         const attempt = lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
         lastAttemptRef.current = attempt;
         const result = await sendMessage(sessionId, sessionCode, text, attempt.id, (sentence) => setState((prev) => ({ ...prev, streamed: [...prev.streamed, sentence] })));
+        if (result.limit_note) noteLimit();
         setState((prev) => {
           const appended: ConversationTurn[] = [];
           if (result.facilitator) appended.push({ speaker: 'facilitator', text: result.facilitator.text, kind: result.facilitator.kind, modernTerms: result.facilitator.modern_terms, note: result.limit_note?.text });

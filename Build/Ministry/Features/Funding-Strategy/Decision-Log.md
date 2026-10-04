@@ -1289,3 +1289,28 @@ Mark's description of the product, 2026-10-03: the buying sits beside the conver
 - The "I have a code" entry stays for sponsors and for a code used on another device. The code field and the "show my code" line sit inside the panel.
 - No sitting or session id goes into any Stripe-bound URL or field (success_url parameter, client_reference_id, metadata). The return reaches the app by the purchase reference alone, and the app's own browser state finds the sitting.
 - The balance line becomes a token count. The words for the panel, the count and "show my code" are Mark's: one question when the slice is ready.
+
+## 2026-10-04 — Go Deeper T1: the meter draws tokens by round and seats
+
+Carries out System Hub decision 46 on the meter. Still switched off behind the flag.
+
+- **The meter counts tokens.** Its columns, status fields, the mint call and a purchase's product table say tokens, not exchanges. No meter file exists anywhere yet (the module has never been switched on), so the columns were renamed in place with no migration. The claim route answers with `tokens`.
+- **What a turn draws comes from the round and the seats.** Admission reserves `charge(round, seats)` from `engine/deeper/tokens.py` before the turn and settles it after: a solo round is 20 (25 from round 4), a Table round 60 or 100 by seats (75 or 125 from round 4), and the opening amount is added once, to the first admitted round of a sitting. A sitting that crosses from free into paid at round 4 draws no opening amount: the conversation was opened when it started. The engine still receives only a cap and a flag.
+- **`table_round_cost` is retired** from the operations file and the loader. A file that still carries it is refused.
+- **Two numbers converted, for Mark to set.** `group_daily_ceiling` 300 exchanges becomes 6,000 tokens and `low_balance_at` 5 becomes 100, both at one exchange = one 20-token round. These are conversions so the shipped file keeps its old meaning, not rulings.
+- **Words not yet changed.** The balance line, the refusal notes ("no exchanges left") and the site page still say exchanges. T3 rewrites them in tokens for Mark's approval. The sentence on the site page giving a Table round's cost is removed, since it no longer holds.
+- The free path (330 a day, three free rounds) is T2 and touches the engine redesign's constants; not in this slice.
+- A positive test through `api.ts` that a reply's balance reaches the code the request carried, plain and stream (the open note from the #747 review).
+- **Review fixes (Opus, #755).** A seam test opens a 2-seat and a 3-seat Table with a code and asserts the literal draws (160 then 60; 250 then 100); capping seats at 2 in the app or in the charge fails it. A reply with no words is no longer counted as voiced, so the round number and the opening amount stay in step with the memory the next turn counts from. The most one code can hold is 1,000,000 tokens, so a large group pack is not refused by the sanity bound.
+- **For the S11 checklist:** T3 (words in tokens, three-pack page) must merge before the module is ever switched on, because the app, the site page and the refusal lines still say exchanges until then.
+
+## 2026-10-04 — Go Deeper P1: the panel beside the conversation (words approved by Mark)
+
+Carries out the panel ruling on the app. Still switched off with the build flag.
+
+- **The panel replaces the code line.** A strip under the message box shows the token count, and the panel opens when a turn comes back refused (a limit note arrives, on an interview or a Table round) or when the person asks. It never opens on its own otherwise. Escape and a Close button shut it. On a wide screen it sits beside the conversation; on a narrow one it rises from the bottom. The conversation underneath is untouched, so the sitting carries on from the pause.
+- **Inside it:** the intro, the count and the low line, Get more tokens, I have a code, a "show my code" line that reveals the code held (or each code, if several) for use on another device and hides it again, and Remove code. A code that arrives with a link opens the panel and asks first, as before.
+- **Words.** Mark approved the panel words as proposed on 2026-10-04: "Go deeper", the intro line, "N tokens left.", "Your tokens are running low.", "Get more tokens", "I have a code", "Show my code" and its reveal line, "Hide my code". "Close" is added as a plain control label. The old "Get a code" and "exchanges left on your code" are gone from the app.
+- **Not changed, because the two Stripe facts are unverified:** "Get more tokens" still opens the site's page in a popup, and a code still comes back by the popup message or a purchase reference in the address. The return to the exact sitting and any in-page checkout wait on Mark verifying them (he took them himself on 2026-10-04, since the sandbox blocks stripe.com); no sitting or session id goes into a Stripe-bound field either way.
+- The site pages and the server's refusal lines still say exchanges; T3 changes them with the three-pack page.
+- Tests: the panel's behaviour (closed until asked, opens at a limit, code reveal and hide, claim prompt, popup origin check), and that an interview turn and a Table round each open it when a limit note arrives.

@@ -3,10 +3,11 @@
 The engine is handed a TurnGrant (a cap and a Facilitator-only flag) and never
 learns why. Here a valid code buys what the free allowance would refuse: a
 turn past the free cap, or any turn once today's allowance is spent. A turn the
-free allowance admits never touches the meter. Admission reserves the
-exchanges before the turn and settles them after it, so nothing is spent for a
-turn that was answered by the Facilitator alone, and nothing is left held when
-a turn fails.
+free allowance admits never touches the meter. What a turn draws comes from the
+round it is and the seats at the table (engine.deeper.tokens). Admission
+reserves those tokens before the turn and settles them after it, so nothing is
+spent for a turn that was answered by the Facilitator alone, and nothing is
+left held when a turn fails.
 
 Any fault here leaves the free grant. Admission never closes the free path.
 """
@@ -16,7 +17,7 @@ from typing import Callable
 from fastapi import Request
 
 from engine.api.deeper_routes import DeeperRuntime
-from engine.deeper import codes
+from engine.deeper import codes, tokens
 from engine.m4.grants import TurnGrant, free_grant
 
 logger = logging.getLogger("cic.deeper")
@@ -48,7 +49,7 @@ _UNSET = object()
 
 def code_is_usable(runtime: DeeperRuntime, request: Request, *, strict: bool = True) -> bool:
     """Whether the code on the request vouches for it. Strict, for opening a
-    sitting past the daily session limit: a live code with exchanges left and
+    sitting past the daily session limit: a live code with tokens left and
     codes not paused. Loose, for continuing a round already admitted: any code
     that is not void."""
     info = _status(runtime, request)
@@ -92,11 +93,11 @@ class Admission:
     """One request's admission. Build it, hand .provider to the engine, and
     call .finish(voiced) exactly once when the turn is over."""
 
-    def __init__(self, runtime: DeeperRuntime, code: str | None, *, session_id: str, free_cap: int, unit_cost: int):
+    def __init__(self, runtime: DeeperRuntime, code: str | None, *, session_id: str, free_cap: int, seats: int):
         self._runtime = runtime
         self._code = code
         self._free_cap = free_cap
-        self._unit_cost = unit_cost
+        self._seats = seats
         self._facilitator_only = session_id in runtime.facilitator_only_sessions
         self._paid_sitting = session_id in runtime.paid_sessions
         self._reservation = None
@@ -110,7 +111,8 @@ class Admission:
         limited = daily_cap_reached or self._facilitator_only or self._paid_sitting
         beyond_free = limited or completed >= self._free_cap
         if self._code and beyond_free:
-            admission = self._runtime.meter.reserve(self._code, self._unit_cost)
+            round_no = completed + 1
+            admission = self._runtime.meter.reserve(self._code, tokens.charge(self._runtime.token_rates, round_no, self._seats))
             if admission.ok:
                 self._reservation = admission.reservation
                 return TurnGrant(cap=completed + 1, facilitator_only=False)
@@ -138,7 +140,7 @@ class Admission:
         return {"key": self._note_key, "text": ops.notes[self._note_key]}
 
     def finish(self, voiced: bool) -> int | None:
-        """Spends the held exchanges when the turn was voiced, returns them
+        """Spends the held tokens when the turn was voiced, returns them
         otherwise, and reports what the code has left."""
         meter = self._runtime.meter
         try:
@@ -152,10 +154,10 @@ class Admission:
         return self.remaining
 
 
-def new_admission(runtime: DeeperRuntime | None, request: Request, *, session_id: str, free_cap: int, table: bool) -> Admission | None:
+def new_admission(runtime: DeeperRuntime | None, request: Request, *, session_id: str, free_cap: int, seats: int = 1) -> Admission | None:
     if runtime is None:
         return None
     return Admission(
         runtime, code_from(request), session_id=session_id, free_cap=free_cap,
-        unit_cost=runtime.table_round_cost if table else 1,
+        seats=seats,
     )
