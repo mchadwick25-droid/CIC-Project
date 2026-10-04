@@ -34,7 +34,7 @@ positions:
 - 'What we will say in our own defense is this: a church gathered only by a believer''s own profession,
   apart from the whole city, was not, to us, a smaller version of what we had built. It unmade the very
   thing our own reform was built to strengthen -- one city, one church, answerable together to the same
-  tested Scripture. We deny they read Scripture wrong. We deny they read it whole.'
+  tested Scripture. We do not deny they read Scripture. We deny they read it whole.'
 tensions:
 - We will not claim the civil force was answered with argument alone, when our own wider record shows
   it was not confined to argument. We hold both facts together rather than letting the one we prefer stand

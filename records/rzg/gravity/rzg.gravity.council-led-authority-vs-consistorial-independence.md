@@ -9,11 +9,11 @@ canon_cells:
 - F3-I
 - F6-I
 confidence:
-  citation_specificity: A
-  verification_state: verified-direct
+  citation_specificity: E
+  verification_state: unverified
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: No vendored source is cited. The record rests on the world's general institutional history of each city, not on a passage checked in a vendored text.
 sources: []
 relations:
 - type: tension-with

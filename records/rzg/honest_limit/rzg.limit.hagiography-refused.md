@@ -24,8 +24,8 @@ relations:
 statement: Are you looking for a saint's life, or a martyr's cult, or a legend polished into devotion
   generations later? We have none, and I will not build you one out of what isn't there. This is not a
   hole in our own record. It is our own record working exactly as we meant it to. We refused the reverence
-  a saint's life is written to produce. We refused it from our first founding statement onward, and our
-  own record shows no such literature was ever written here.
+  a saint's life is written to produce. We refused it from our first founding statement onward, and no
+  such literature is among the writings I hold.
 why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS3.1 states plainly: ''No hagiographic narrative
   exists for this world, and none is built to fill the absence... this world''s own confessional core
   actively refuses the late-medieval devotional genre hagiography belongs to (image veneration, cultic

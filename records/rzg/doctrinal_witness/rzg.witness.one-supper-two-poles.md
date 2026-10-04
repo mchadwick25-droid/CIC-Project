@@ -20,7 +20,7 @@ confidence:
 sources:
 - source_id: rzg.source.zwingli-sixty-seven-articles
   locus: 'Article XVIII: ''the mass is not a sacrifice, but is a remembrance of the sacrifice,'' lines
-    4564-4568'
+    4565-4569'
   license: public-domain
 - source_id: rzg.source.consensus-tigurinus
   locus: 9th Head of Agreement, lines 768-770 -- text quoted verbatim from the already-cleared rzg.quote.signs-and-things-signified

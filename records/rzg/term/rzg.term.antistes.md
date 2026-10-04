@@ -36,7 +36,7 @@ senses:
     took at Zurich once Bullinger succeeded our founder.
   evidential: Bullinger held this title through his own four-decade pastorate at Zurich, from 1531.
   personal: We use this word specifically for Zurich's own senior pastor - it is not our word for Geneva's
-    own church government, which the council itself carries directly.
+    church government, which ran through its own Consistory.
   translational: This is not simply a fancier word for 'pastor' or 'bishop.' It names a specific office
     within Zurich's own particular arrangement of church and council.
 quick_meaning: Zurich's own senior pastoral title. Bullinger held it after Zwingli. It answers to the

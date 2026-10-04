@@ -36,21 +36,20 @@ narrative_tier_justification: 'Direct, first-person textual attestation from a n
   Calvin''s own characterization of Farel''s enthusiasm and the conference''s own friendly tone are his
   own words about his own colleague and conduct, not an independently corroborated outside report - the
   bare facts of the journey and its outcome are not themselves in question.'
-tellable_as: In 1549, worried whether Geneva's and Zurich's own teaching on the Supper actually agreed,
-  Calvin travelled to Zurich himself rather than trust a letter, and what he and Farel worked out there
-  became the Consensus Tigurinus.
+tellable_as: In 1549, many people feared that Geneva and Zurich were at odds on the Supper. Calvin went
+  to Zurich to talk it out. His colleague Farel came too. Their talks led to the Consensus Tigurinus.
 text: 'By 1549, a quiet worry had spread among people who respected both our own churches: did Calvin''s
   own teaching on the Supper actually agree with what Zurich taught? Calvin heard the worry directly,
   from people who revered both churches and did not want an appearance of disagreement to slow their own
-  faith. A letter would not settle it. He went himself, and asked his own colleague William Farel - "indefatigable
+  faith. He went to Zurich himself, and asked his own colleague William Farel - "indefatigable
   soldier of Christ," he called him - to come too. Farel needed no persuading; he had suggested the visit
   himself. What the two of them worked out with Zurich''s own pastors became the Consensus Tigurinus.
   Calvin''s own letter afterward is careful about what it actually is: not a new invention, but a faithful
   record of the conference - and not his and Farel''s own private business, but binding on every colleague
   serving Christ under Geneva''s own jurisdiction as well.'
 modern_contrast: 'A modern reader might expect two theologians to settle a doctrinal question by letter,
-  or through delegates. Calvin''s own account states plainly that he judged the matter too important for
-  that: he made the journey himself, in person, with a colleague at his side.'
+  or through delegates. Calvin''s own account says he thought a friendly conference was the best way to
+  remove the offence: he made the journey himself, in person, with a colleague at his side.'
 use_note:
   means: "In 1549, because others doubted that Geneva's and Zurich's teaching on the sacraments agreed, Calvin travelled to Zurich himself with Farel, and their conference there became the Consensus Tigurinus."
   not_for:

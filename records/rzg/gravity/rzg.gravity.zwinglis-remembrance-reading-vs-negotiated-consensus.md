@@ -43,13 +43,13 @@ relations:
 name: '[TENSIONAL] Zwingli''s Own ''Remembrance'' Reading of the Supper vs. the Negotiated Spiritual-Presence
   Consensus'
 description: We hold two things together without ever fully reconciling them. Our own founder at Zurich
-  once called the Supper nothing more than a remembrance and assurance of what Christ had already done
-  (Sixty-Seven Articles, Art. XVIII, 1523). Our two cities later signed a fuller word together - the Consensus
-  Tigurinus's own 9th Head of Agreement (1549) - holding that we do not disjoin the reality from the signs,
-  that Christ is truly given by the Spirit to whoever receives him believing. Whether the later formula
-  deepens the earlier one or merely stands beside it in careful language neither city could refuse, we
-  cannot say with certainty. We carry both, because both are true of our own record, without needing to
-  decide which one finally speaks for us.
+  once called the Supper a remembrance of Christ's sacrifice. He also called it an assurance of the salvation
+  Christ gave us (Sixty-Seven Articles, Art. XVIII, 1523). Our two cities later signed a fuller word together.
+  It is the 9th Head of Agreement in the Consensus Tigurinus (1549). It says we do not disjoin the reality
+  from the signs. Christ is truly given by the Spirit to whoever receives him believing. Does the later
+  formula deepen the earlier one? Or does it only stand beside it, in careful language neither city could
+  refuse? We cannot say with certainty. We carry both, because both are true of our own record. We do not
+  need to decide which one finally speaks for us.
 manifestations:
 - 'the Sixty-Seven Articles, Art. XVIII (1523): ''the mass is not a sacrifice, but is a remembrance'''
 - the Consensus Tigurinus's own 9th Head of Agreement (1549), signed two decades later, by both cities

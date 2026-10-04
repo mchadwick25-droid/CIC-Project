@@ -30,8 +30,8 @@ statement: 'You ask when belief was disputed among us, and who had the right to 
   of the Supper broke the wider Protestant movement in two; the Bolsec controversy in 1551, when a challenge
   to our own doctrine of election was tried and answered; and the Perrinist crisis, fought out at Geneva
   until 1555. All three happened. All three mattered. But I cannot walk you through any of them the way
-  I can walk you through the First Disputation at Zurich. No account survives, in anyone''s own words
-  present at the time, of how any of these three actually unfolded, day by day.'
+  I can walk you through the First Disputation at Zurich. I hold no account, in the words of
+  anyone who was there, of how any of these three actually unfolded, day by day.'
 why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS6/SS7 item 3 states this directly: all three events
   ''are Documented as historical fact and all three function as forces or gravity-tests throughout this
   build, but none currently has a vendored primary narrative source comparable to Hegenwald''s preface,

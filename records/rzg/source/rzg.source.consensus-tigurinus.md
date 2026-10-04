@@ -15,7 +15,7 @@ confidence:
 sources: []
 relations: []
 author: John Calvin and the Zurich pastors (jointly negotiated and signed)
-work: Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)
+work: Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, agreed 1549, published 1554)
 edition: English translation by Henry Beveridge (1844), vendored as cic/texts/calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
   (a bounded extract, pp. 195-244 of the printed volume - see the file's own intake header for the exact
   boundary against the volume's other, distinct contents)
