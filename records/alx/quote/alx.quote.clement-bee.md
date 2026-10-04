@@ -36,6 +36,14 @@ retrieval:
   retrieve_when:
   - "participant asks how a teacher taught and what a class was like"
   - "participant asks who someone learned from and how teaching passed on"
+use_note:
+  means: "Clement, opening the Stromateis, praises his final, unnamed teacher as a Sicilian bee who gathered prophetic and apostolic teaching into his hearers' souls."
+  not_for:
+    - "a claim that Clement names Pantaenus here, when that identification comes only through Eusebius"
+    - "a literal or belittling comparison rather than a classical praise-epithet for wide, digested reading"
+    - "evidence of how a catechetical school was formally organized or run"
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 Clement's tribute to his final teacher. PRECISION CAUTION (from the
 figure record): Clement does not name him; the identification with

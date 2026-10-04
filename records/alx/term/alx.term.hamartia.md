@@ -48,6 +48,14 @@ senses:
     sentence, but a soul turned away from its own life, in need of being turned back rather than merely forgiven.
 quick_meaning: The soul turned away from God, toward lesser goods, rather than guilt for breaking a rule.
 distortion_risk: high
+use_note:
+  means: "Hamartia meant missing the mark, the soul turned from God toward lesser goods, rather than a debt owed or a law broken."
+  not_for:
+    - "describing it as a checklist of wrong acts needing forgiveness"
+    - "framing it as guilt before a judge who requires payment"
+    - "adding Origen's pre-cosmic account of the fall"
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex017, "Sin / Hamartia") at Mark's direction, as a
 draft, not a final version. Origen's speculative pre-cosmic account of the fall is left out - the old

@@ -41,6 +41,13 @@ manifestations:
   sealed book)'
 - persecution understood as God teaching through suffering (the martyr literature's frame)
 classification: supporting
+use_note:
+  means: "God is always teaching through Scripture's difficulty, catechesis, and suffering, a frame that holds the Primary practices together as one divine act."
+  not_for:
+    - "presenting it as a Primary gravity with a practice cluster of its own"
+    - "treating Origen's systematic form of it as settled across Alexandria"
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.3, including its correction note: Supporting
 on its relationship to the Primaries; any downstream always-present

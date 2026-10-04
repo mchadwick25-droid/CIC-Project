@@ -56,6 +56,14 @@ modern_contrast: >
   authority.' This world's own record (see alx.gravity.teacher-bishop-tension)
   holds both authorities as real and the wound as real on both sides - not a
   hero/villain story, a held and unresolved tension the world never settled.
+use_note:
+  means: "After Origen was ordained in Palestine without Demetrius's consent, Demetrius condemned him and Origen left Alexandria for Caesarea, evidencing a rupture inside the household."
+  not_for:
+    - "casting it as persecuted genius against a jealous institution or as a rogue teacher rightly reined in"
+    - "narrating either man's motives, which are unrecoverable"
+    - "citing the synodal documents, which are lost"
+  years: {from: 231, to: 234}
+  status: reviewed
 ---
 Serves F6-I (the hardest true thing about your people / what they never
 settled) and F3-I (who held authority - the tension made visible). The

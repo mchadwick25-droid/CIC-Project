@@ -60,6 +60,14 @@ modern_contrast: >
   this is Ignatius's own urgent argument, pressed against a real,
   live rival threat in his own communities, not a description of a
   rule every community already agreed to.
+use_note:
+  means: "Under Ignatius's instruction, a member recognizes only the bishop's own eucharist as valid, and follows the bishop as one follows Christ."
+  not_for:
+    - "a settled doctrine of sacramental validity"
+    - "a rule every community already agreed to"
+    - "a record of a member actually doing this"
+  years: {from: 107, to: 180}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 011. Both quotations checked
 directly against cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml,

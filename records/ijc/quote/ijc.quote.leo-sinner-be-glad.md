@@ -34,6 +34,14 @@ retrieval:
   - "participant asks what was said to someone who felt they did not belong"
 relations:
 - {type: illustrates, target: ijc.limit.jesus-to-you}
+use_note:
+  means: "In a Christmas sermon Leo invites saint, sinner, and gentile alike to rejoice, as each is drawn to victory, pardon, or life."
+  not_for:
+    - "a claim that such direct personal invitation is typical of this world's surviving record rather than its closest approach to it"
+    - "a claim that 'gentile' carries a modern cultural sense rather than meaning non-Jew"
+    - "a claim that this sermon's date is fixed within the window, when the edition leaves it undated across Leo's episcopate (440-461)"
+  years: {from: 440, to: 451}
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. Already
 named, but not previously given its own citable record, in

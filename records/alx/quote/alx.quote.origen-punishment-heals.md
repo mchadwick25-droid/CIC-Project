@@ -37,6 +37,14 @@ license: verbatim
 modern_lens_note: >
   No significant modern-lens risk identified for this quote - the vocabulary
   is plain modern English throughout.
+use_note:
+  means: "Origen, in Philocalia XXVII, says every threat, pain and punishment from God is inflicted to do the sufferers good, never to injure them."
+  not_for:
+    - "settled universalism or a defined apokatastasis, which the term record carries as contested"
+    - "a teaching held by all Alexandrian Christians rather than by Origen"
+    - "the community's practical answer to suffering in the plague, which sits in alx.quote.dionysius-plague"
+  years: {from: 203, to: 254}
+  status: reviewed
 ---
 The remedial-punishment strand in the Greek-derived transmission: God's
 severity as healing, not destruction. Serves F6-T (the hell cell - this

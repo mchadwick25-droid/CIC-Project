@@ -1,0 +1,1878 @@
+{
+ "u0001": {
+  "verdict": "defensible",
+  "reason": "Koinonia record supports Pachomian houses distinct from settlements but says nothing about worship rhythm."
+ },
+ "u0005": {
+  "verdict": "defensible",
+  "reason": "Sentence is empty; surrounding paragraph is faithful but the use itself makes no claim."
+ },
+ "u0009": {
+  "verdict": "defensible",
+  "reason": "Gives Cassian's definitions of the three renunciations, which the record text (the Solomon matching) does not itself contain."
+ },
+ "u0013": {
+  "verdict": "accepted",
+  "reason": "Restates the record: even antirrhetic use stayed applied, not commentary."
+ },
+ "u0017": {
+  "verdict": "accepted",
+  "reason": "Faithful to the record's account of Antony summoned to denounce the Arians."
+ },
+ "u0021": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0025": {
+  "verdict": "accepted",
+  "reason": "Quotes the command Antony heard as personal address."
+ },
+ "u0029": {
+  "verdict": "defensible",
+  "reason": "Applies end-of-martyrdom framing to a tomb episode; for Antony's tomb this chronology is questionable and the motive is the world's framing."
+ },
+ "u0033": {
+  "verdict": "accepted",
+  "reason": "Matches the record's claim that the words themselves carried the weight."
+ },
+ "u0037": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0041": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0045": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0049": {
+  "verdict": "misread",
+  "reason": "Record has no second hearing, and the Vita's second hearing was a different text, not the same command."
+ },
+ "u0053": {
+  "verdict": "accepted",
+  "reason": "Matches the use note's 'staged and lasting deepening'."
+ },
+ "u0057": {
+  "verdict": "accepted",
+  "reason": "Attributes the eight logismoi to one systematic figure, as the record does."
+ },
+ "u0061": {
+  "verdict": "accepted",
+  "reason": "Matches the record that Moses's struggle was long, not instant."
+ },
+ "u0065": {
+  "verdict": "accepted",
+  "reason": "Verbatim definition of nepsis."
+ },
+ "u0069": {
+  "verdict": "misread",
+  "reason": "Moses's long struggle comes from another record; the leaking-jug story says nothing of it."
+ },
+ "u0073": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record, keeping the one-instance limit."
+ },
+ "u0077": {
+  "verdict": "accepted",
+  "reason": "Matches the record: the apophthegma was the main way of teaching."
+ },
+ "u0081": {
+  "verdict": "accepted",
+  "reason": "Restates the witness's appeal to Christ's deeds."
+ },
+ "u0085": {
+  "verdict": "accepted",
+  "reason": "Verbatim definition, limited to the systematic few."
+ },
+ "u0089": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0093": {
+  "verdict": "defensible",
+  "reason": "Core claim is faithful, but 'dying instruction' goes beyond the quote and the paragraph frames Melitians as doctrinal dissenters."
+ },
+ "u0097": {
+  "verdict": "accepted",
+  "reason": "Verbatim definition of anachoresis."
+ },
+ "u0101": {
+  "verdict": "accepted",
+  "reason": "Matches the use note's definition of theoria."
+ },
+ "u0105": {
+  "verdict": "accepted",
+  "reason": "Faithful to the record of scripture heard as personal address."
+ },
+ "u0109": {
+  "verdict": "misread",
+  "reason": "The 'where his mind aims' line belongs to a different Macarian homily, not this record, and it is attributed to an elder."
+ },
+ "u0113": {
+  "verdict": "accepted",
+  "reason": "Matches the record: authority lay in the personal bond, not an office."
+ },
+ "u0117": {
+  "verdict": "accepted",
+  "reason": "Faithful to the record's Solomon matching, with the Song read as contemplation."
+ },
+ "u0121": {
+  "verdict": "accepted",
+  "reason": "Matches the record that Moses was received despite his past."
+ },
+ "u0125": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0129": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0133": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0137": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0141": {
+  "verdict": "accepted",
+  "reason": "States the record's limit faithfully."
+ },
+ "u0145": {
+  "verdict": "defensible",
+  "reason": "Generalizes one unnamed elder's sower-parable proof into a habit of proving teachings from the Gospel."
+ },
+ "u0149": {
+  "verdict": "accepted",
+  "reason": "Matches the record's note that surviving Melitian letters are documentary and show ordinary business."
+ },
+ "u0153": {
+  "verdict": "accepted",
+  "reason": "Fits diakrisis as judging between practices, applied to calibrating discipline."
+ },
+ "u0157": {
+  "verdict": "accepted",
+  "reason": "Faithful to the record's memory of Pachomius as a personal father."
+ },
+ "u0161": {
+  "verdict": "defensible",
+  "reason": "Two hearings is accurate to the Vita but is not in the record, and it presents incident detail as settled."
+ },
+ "u0165": {
+  "verdict": "accepted",
+  "reason": "Matches the apotage definition."
+ },
+ "u0169": {
+  "verdict": "accepted",
+  "reason": "Restates the record: the oracles fell silent when the cross rose."
+ },
+ "u0173": {
+  "verdict": "accepted",
+  "reason": "Keeps the record's single-instance limit."
+ },
+ "u0177": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0181": {
+  "verdict": "defensible",
+  "reason": "'Actively wrong for another' extrapolates from the record's single-case teaching."
+ },
+ "u0185": {
+  "verdict": "accepted",
+  "reason": "Verbatim definition of diakrisis."
+ },
+ "u0189": {
+  "verdict": "accepted",
+  "reason": "Matches the record of scripture heard as direct address."
+ },
+ "u0193": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record: the same Scriptures and no separate canon."
+ },
+ "u0197": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of Chaeremon's list."
+ },
+ "u0201": {
+  "verdict": "defensible",
+  "reason": "Two hearings is not in the record; it is Vita incident detail presented as settled."
+ },
+ "u0205": {
+  "verdict": "defensible",
+  "reason": "Stretches the founding story into Pachomius laying down a Rule step by step, which the record does not narrate."
+ },
+ "u0209": {
+  "verdict": "accepted",
+  "reason": "Matches elder authority exercised through the personal word."
+ },
+ "u0213": {
+  "verdict": "defensible",
+  "reason": "Adds 'without learning' and 'would not leave' to the record's 'simple and without guile' account."
+ },
+ "u0217": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0221": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0225": {
+  "verdict": "accepted",
+  "reason": "Matches the record's earned authority passed on through a personal bond."
+ },
+ "u0229": {
+  "verdict": "accepted",
+  "reason": "States the tithe limit faithfully."
+ },
+ "u0233": {
+  "verdict": "accepted",
+  "reason": "Matches the record: the tension went unresolved across the span."
+ },
+ "u0237": {
+  "verdict": "accepted",
+  "reason": "Antirrhesis kept to a smaller circle, not the whole movement."
+ },
+ "u0241": {
+  "verdict": "defensible",
+  "reason": "Respects the bar on naming monks for excavated cells, but 'three kinds of traces' is not in the record."
+ },
+ "u0245": {
+  "verdict": "accepted",
+  "reason": "Restates the record's limit."
+ },
+ "u0249": {
+  "verdict": "accepted",
+  "reason": "States the outsiders limit faithfully."
+ },
+ "u0253": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0257": {
+  "verdict": "accepted",
+  "reason": "Matches the synaxis definition for the semi-solitary settlements."
+ },
+ "u0261": {
+  "verdict": "accepted",
+  "reason": "Keeps the one-instance limit."
+ },
+ "u0265": {
+  "verdict": "accepted",
+  "reason": "A reasonable application of the record's contrast between the elder model and the Rule model."
+ },
+ "u0269": {
+  "verdict": "accepted",
+  "reason": "Faithful to the record of scripture heard as personal address."
+ },
+ "u0273": {
+  "verdict": "accepted",
+  "reason": "Matches the record's main share given to grace."
+ },
+ "u0277": {
+  "verdict": "accepted",
+  "reason": "Matches anachoresis as a discipline, not escape."
+ },
+ "u0281": {
+  "verdict": "defensible",
+  "reason": "The definition of the first renunciation is not in the record text and blurs into the third."
+ },
+ "u0285": {
+  "verdict": "misread",
+  "reason": "The writings record says nothing of the Lord's Prayer or worship content, yet the sentence calls it certain."
+ },
+ "u0289": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the limit record."
+ },
+ "u0293": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0297": {
+  "verdict": "accepted",
+  "reason": "Matches the use note: grace has the main share and effort a real one."
+ },
+ "u0301": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0305": {
+  "verdict": "accepted",
+  "reason": "Matches the record's 'not unless he has it as a gift'."
+ },
+ "u0309": {
+  "verdict": "accepted",
+  "reason": "Verbatim definition."
+ },
+ "u0313": {
+  "verdict": "misread",
+  "reason": "The three days, ten days and one-year novitiate contradict the record's three years as a servant."
+ },
+ "u0317": {
+  "verdict": "accepted",
+  "reason": "Synaxis applied correctly to Nitria, Kellia and Scetis."
+ },
+ "u0321": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0325": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0329": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0333": {
+  "verdict": "accepted",
+  "reason": "Matches the apotage definition."
+ },
+ "u0337": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0341": {
+  "verdict": "defensible",
+  "reason": "Two hearings is not in the record; it is Vita incident detail presented as settled."
+ },
+ "u0345": {
+  "verdict": "misread",
+  "reason": "Adds an unattested detail (a church at the centre) to a reconstruction whose note forbids added details."
+ },
+ "u0349": {
+  "verdict": "accepted",
+  "reason": "A fair paraphrase of the immediate response the record reports."
+ },
+ "u0353": {
+  "verdict": "accepted",
+  "reason": "Matches Sarapion's refusal and grief."
+ },
+ "u0357": {
+  "verdict": "accepted",
+  "reason": "Matches the economic ties to villages."
+ },
+ "u0361": {
+  "verdict": "misread",
+  "reason": "Moves the philosophers' disputation into the Arian confrontation and adds wording not in the quote."
+ },
+ "u0365": {
+  "verdict": "defensible",
+  "reason": "Presents the uncertain Macarian homily as one of 'our teachers' answering."
+ },
+ "u0369": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0373": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of Abraham's arch image."
+ },
+ "u0377": {
+  "verdict": "accepted",
+  "reason": "Matches the record: the ties run against the rhetoric of separation."
+ },
+ "u0381": {
+  "verdict": "accepted",
+  "reason": "Matches the cheironaxia definition."
+ },
+ "u0385": {
+  "verdict": "accepted",
+  "reason": "Matches the synaxis definition."
+ },
+ "u0389": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0393": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0397": {
+  "verdict": "defensible",
+  "reason": "Extends anachoresis as desert withdrawal to all three patterns, including the village-based Pachomian houses."
+ },
+ "u0401": {
+  "verdict": "accepted",
+  "reason": "Consistent with the record's long struggle and reception of people with hard pasts."
+ },
+ "u0405": {
+  "verdict": "accepted",
+  "reason": "Restates the witness's appeal to deeds."
+ },
+ "u0409": {
+  "verdict": "accepted",
+  "reason": "Matches the record's grace-and-effort argument."
+ },
+ "u0413": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the limit record."
+ },
+ "u0417": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0421": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0425": {
+  "verdict": "misread",
+  "reason": "The kellion record says nothing of a central church; this is an added detail."
+ },
+ "u0429": {
+  "verdict": "accepted",
+  "reason": "Keeps Antony's literacy contested."
+ },
+ "u0433": {
+  "verdict": "accepted",
+  "reason": "Matches the record: the soul rises above the visible in the third stage."
+ },
+ "u0437": {
+  "verdict": "accepted",
+  "reason": "Matches apotage as giving up everything, not a portion."
+ },
+ "u0441": {
+  "verdict": "defensible",
+  "reason": "An interpretive gloss on the homily's answer rather than its content."
+ },
+ "u0445": {
+  "verdict": "accepted",
+  "reason": "Restates the record."
+ },
+ "u0449": {
+  "verdict": "accepted",
+  "reason": "Matches the kellion definition."
+ },
+ "u0453": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0457": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0461": {
+  "verdict": "accepted",
+  "reason": "Meta sentence that correctly keeps Antony's literacy contested."
+ },
+ "u0465": {
+  "verdict": "defensible",
+  "reason": "The 'born again' line comes from the same Palladian chapter but not from this record's text."
+ },
+ "u0469": {
+  "verdict": "misread",
+  "reason": "'Hating the fight' belongs to the sin-and-grace homily, not this record."
+ },
+ "u0002": {
+  "verdict": "accepted",
+  "reason": "Restates the nepsis definition exactly."
+ },
+ "u0006": {
+  "verdict": "accepted",
+  "reason": "Matches the record's account of Antony copying the village hermit."
+ },
+ "u0010": {
+  "verdict": "accepted",
+  "reason": "Framed as the record's own portrayal, not neutral history."
+ },
+ "u0014": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record and kept to the smaller circle."
+ },
+ "u0018": {
+  "verdict": "defensible",
+  "reason": "Collectivizes Antony's single Vita disputation as 'what we said', near the not_for on habitual apologetics."
+ },
+ "u0022": {
+  "verdict": "misread",
+  "reason": "A year with the novices is not in the record, which gives three years as a servant before entry."
+ },
+ "u0026": {
+  "verdict": "defensible",
+  "reason": "Brings in Cassian's liturgical details that the synaxis record does not contain, though it hedges them as one later claim."
+ },
+ "u0030": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0034": {
+  "verdict": "accepted",
+  "reason": "Faithful to earned, relational elder authority as opposed to office."
+ },
+ "u0038": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0042": {
+  "verdict": "defensible",
+  "reason": "Saying the Rule 'governed ground the personal model left informal' is a gloss that edges toward ranking."
+ },
+ "u0046": {
+  "verdict": "defensible",
+  "reason": "Adds 'not because he had been wrong', which goes slightly past the grief the record reports."
+ },
+ "u0050": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0054": {
+  "verdict": "defensible",
+  "reason": "States 'that same day' as plain fact, an incident-level detail the record does not give."
+ },
+ "u0058": {
+  "verdict": "accepted",
+  "reason": "Keeps the single-witness limit the record states."
+ },
+ "u0062": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0066": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record's hedged silence."
+ },
+ "u0070": {
+  "verdict": "accepted",
+  "reason": "Explicitly keeps the inward-turn framing as the world's self-narration, as the use note asks."
+ },
+ "u0074": {
+  "verdict": "accepted",
+  "reason": "Restates the unresolved authority question faithfully."
+ },
+ "u0078": {
+  "verdict": "accepted",
+  "reason": "Kept to a smaller circle and matches the antirrhesis definition."
+ },
+ "u0082": {
+  "verdict": "defensible",
+  "reason": "Generalizes Antony's one Vita argument into a collective 'we said'."
+ },
+ "u0086": {
+  "verdict": "accepted",
+  "reason": "Restates the record's own claim as given."
+ },
+ "u0090": {
+  "verdict": "accepted",
+  "reason": "Consistent with monks not deciding doctrine in council."
+ },
+ "u0094": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0098": {
+  "verdict": "defensible",
+  "reason": "'Changed everything for us' widens Antony's personal call toward a shared foundation."
+ },
+ "u0102": {
+  "verdict": "defensible",
+  "reason": "Folds the contemplative seeing of God into apatheia, although the record defines it only as freedom from passions."
+ },
+ "u0106": {
+  "verdict": "accepted",
+  "reason": "Verbatim and kept to the 'deepest teachers'."
+ },
+ "u0110": {
+  "verdict": "accepted",
+  "reason": "Matches the Koinonia definition."
+ },
+ "u0114": {
+  "verdict": "accepted",
+  "reason": "Withdrawal as lifelong formation across strands, as the record says."
+ },
+ "u0118": {
+  "verdict": "accepted",
+  "reason": "Restates the denial of an apostolic line."
+ },
+ "u0122": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of Chaeremon's list."
+ },
+ "u0126": {
+  "verdict": "defensible",
+  "reason": "The definition of the second renunciation is accurate to Cassian but is not in the record text, which gives only the Solomon correspondence."
+ },
+ "u0130": {
+  "verdict": "defensible",
+  "reason": "Uses a record about the origins of the way of life to support a claim about not adding to Scripture."
+ },
+ "u0134": {
+  "verdict": "accepted",
+  "reason": "Within the record's account of who was received."
+ },
+ "u0138": {
+  "verdict": "defensible",
+  "reason": "Compresses the Vita's sequence and states 'that same day' as fact."
+ },
+ "u0142": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0146": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0150": {
+  "verdict": "accepted",
+  "reason": "Restates the nepsis definition exactly."
+ },
+ "u0154": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0158": {
+  "verdict": "defensible",
+  "reason": "Rising before dawn is not in the kellion record, though the setting is the semi-solitary cell."
+ },
+ "u0162": {
+  "verdict": "accepted",
+  "reason": "Faithful restatement of the village-hermit account."
+ },
+ "u0166": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record's Nicene confession."
+ },
+ "u0170": {
+  "verdict": "misread",
+  "reason": "Three days at the gate comes from another Pachomian line, not this Ethiopic rule of three years as a servant."
+ },
+ "u0174": {
+  "verdict": "accepted",
+  "reason": "States the record's limit exactly."
+ },
+ "u0178": {
+  "verdict": "accepted",
+  "reason": "Keeps the record's admitted uncertainty."
+ },
+ "u0182": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's healing attribution."
+ },
+ "u0186": {
+  "verdict": "accepted",
+  "reason": "Matches the record's Philoromus attribution."
+ },
+ "u0190": {
+  "verdict": "accepted",
+  "reason": "Hedged as the tradition's own framing, not as an event."
+ },
+ "u0194": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0198": {
+  "verdict": "accepted",
+  "reason": "Matches the apotage definition."
+ },
+ "u0202": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0206": {
+  "verdict": "accepted",
+  "reason": "Within the record's account of Antony's call."
+ },
+ "u0210": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the quote."
+ },
+ "u0214": {
+  "verdict": "accepted",
+  "reason": "Within the record's account of Antony's call."
+ },
+ "u0218": {
+  "verdict": "accepted",
+  "reason": "Restates the record's main-share claim."
+ },
+ "u0222": {
+  "verdict": "accepted",
+  "reason": "Matches the cheironaxia definition."
+ },
+ "u0226": {
+  "verdict": "misread",
+  "reason": "Moves the Vita's argument to the philosophers into the Arian scene and makes up a 'created and changeable' alternative the record lacks."
+ },
+ "u0230": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0234": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0238": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0242": {
+  "verdict": "accepted",
+  "reason": "Matches the synaxis use note."
+ },
+ "u0246": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0250": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the quote."
+ },
+ "u0254": {
+  "verdict": "misread",
+  "reason": "Turns one Palladian case into a general rule on ended marriages, which the not_for list rules out."
+ },
+ "u0258": {
+  "verdict": "accepted",
+  "reason": "Matches the record's Solomon correspondence."
+ },
+ "u0262": {
+  "verdict": "accepted",
+  "reason": "Matches the address terms."
+ },
+ "u0266": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0270": {
+  "verdict": "accepted",
+  "reason": "Within the record's account of Antony's call."
+ },
+ "u0274": {
+  "verdict": "accepted",
+  "reason": "Verbatim, and the context keeps it to the few."
+ },
+ "u0278": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the record."
+ },
+ "u0282": {
+  "verdict": "defensible",
+  "reason": "The twelve psalms are not in this quote record, though the claim is hedged as one later voice."
+ },
+ "u0286": {
+  "verdict": "accepted",
+  "reason": "Discernment doing the work of a syllabus, as the use note states."
+ },
+ "u0290": {
+  "verdict": "misread",
+  "reason": "The Nicene 'never a time when he was not' is not in this dw.jesus record and is asserted 'with certainty'."
+ },
+ "u0294": {
+  "verdict": "defensible",
+  "reason": "'The whole work' overstates the record's 'ordinary subject' of every strand."
+ },
+ "u0298": {
+  "verdict": "defensible",
+  "reason": "'The years of keeping it' extends the record, which says the words marked the day he took up the discipline."
+ },
+ "u0302": {
+  "verdict": "accepted",
+  "reason": "States the record's limit."
+ },
+ "u0306": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0310": {
+  "verdict": "defensible",
+  "reason": "Adds twelve psalms, which the record lacks, though it is framed as one Gallic writer's claim."
+ },
+ "u0314": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the quote."
+ },
+ "u0318": {
+  "verdict": "accepted",
+  "reason": "Matches the apotage definition."
+ },
+ "u0322": {
+  "verdict": "accepted",
+  "reason": "Within the record's account of Antony's call."
+ },
+ "u0326": {
+  "verdict": "accepted",
+  "reason": "Matches the diakrisis definition."
+ },
+ "u0330": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the record."
+ },
+ "u0334": {
+  "verdict": "defensible",
+  "reason": "States 'before the day is over' as plain fact, an incident-level detail the record does not give."
+ },
+ "u0338": {
+  "verdict": "accepted",
+  "reason": "Matches the record on withdrawal across strands."
+ },
+ "u0342": {
+  "verdict": "accepted",
+  "reason": "Framed as the remembered founding pattern."
+ },
+ "u0346": {
+  "verdict": "accepted",
+  "reason": "Within the record's account of Antony's call."
+ },
+ "u0350": {
+  "verdict": "accepted",
+  "reason": "Matches the anachoresis definition."
+ },
+ "u0354": {
+  "verdict": "accepted",
+  "reason": "Faithful to the unresolved coexistence."
+ },
+ "u0358": {
+  "verdict": "accepted",
+  "reason": "Matches the hesychia definition."
+ },
+ "u0362": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0366": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0370": {
+  "verdict": "accepted",
+  "reason": "States the record's silence on scripture's authority."
+ },
+ "u0374": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0378": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0382": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0386": {
+  "verdict": "defensible",
+  "reason": "'Formed to see him' is not in the dw.jesus record, although it is harmless and fits the world."
+ },
+ "u0390": {
+  "verdict": "accepted",
+  "reason": "Matches the record's two church visits."
+ },
+ "u0394": {
+  "verdict": "misread",
+  "reason": "Gives the sister into the care of existing women, merging Antony's story with the record's Pachomian dwelling made 'for her alone'."
+ },
+ "u0398": {
+  "verdict": "accepted",
+  "reason": "Within the record's account of hearing scripture as address."
+ },
+ "u0402": {
+  "verdict": "defensible",
+  "reason": "Placing the sister with women is not in the antony-call record, and it is stretched into a point about marriage."
+ },
+ "u0406": {
+  "verdict": "misread",
+  "reason": "Claims Scripture as 'weightiest but not exclusive' authority, which the record does not say and the scripture limit forbids."
+ },
+ "u0410": {
+  "verdict": "accepted",
+  "reason": "Matches the koinonia record."
+ },
+ "u0414": {
+  "verdict": "accepted",
+  "reason": "Matches the synaxis definition."
+ },
+ "u0418": {
+  "verdict": "defensible",
+  "reason": "Adds 'given instruction' and loosely blurs 'received' with the record's bar on entry before three years."
+ },
+ "u0422": {
+  "verdict": "accepted",
+  "reason": "Verbatim quote."
+ },
+ "u0426": {
+  "verdict": "defensible",
+  "reason": "'Our whole subject' overstates the record's 'ordinary subject'."
+ },
+ "u0430": {
+  "verdict": "accepted",
+  "reason": "Keeps the killings 'by report' and the long struggle."
+ },
+ "u0434": {
+  "verdict": "accepted",
+  "reason": "Matches the withdrawal gravity."
+ },
+ "u0438": {
+  "verdict": "misread",
+  "reason": "The death-wish record says nothing about the call or about not judging a person's past."
+ },
+ "u0442": {
+  "verdict": "accepted",
+  "reason": "Matches the threefold renunciation tied to Solomon's books."
+ },
+ "u0446": {
+  "verdict": "defensible",
+  "reason": "A claim about absent doubt-to-faith stories that this record does not itself make."
+ },
+ "u0450": {
+  "verdict": "accepted",
+  "reason": "A reasonable application of judging between practices."
+ },
+ "u0454": {
+  "verdict": "accepted",
+  "reason": "Faithful summary of Evagrius's acedia passage, attributed to one teacher."
+ },
+ "u0458": {
+  "verdict": "accepted",
+  "reason": "Fits the Rule-and-office side of the tension for Pachomian houses."
+ },
+ "u0462": {
+  "verdict": "accepted",
+  "reason": "Matches the record's lifelong deepening."
+ },
+ "u0466": {
+  "verdict": "defensible",
+  "reason": "Generalizes Evagrius's timed acedia as common knowledge and shifts its timing toward noon."
+ },
+ "u0003": {
+  "verdict": "accepted",
+  "reason": "Restates the record's limit nearly verbatim."
+ },
+ "u0007": {
+  "verdict": "accepted",
+  "reason": "Record says the most systematic called it contemplation; naming theoria is faithful."
+ },
+ "u0011": {
+  "verdict": "defensible",
+  "reason": "Record defines the cell as a dwelling; calling it a teacher adds a gloss the record lacks."
+ },
+ "u0015": {
+  "verdict": "misread",
+  "reason": "Claim about three kinds of untraced remains has nothing to do with the synaxis record."
+ },
+ "u0019": {
+  "verdict": "accepted",
+  "reason": "Frames the tomb combat as one man's extreme, not ordinary practice, consistent with the note."
+ },
+ "u0023": {
+  "verdict": "accepted",
+  "reason": "Names the documented gap between withdrawal rhetoric and economic need the gravity describes."
+ },
+ "u0027": {
+  "verdict": "accepted",
+  "reason": "Defines antirrhesis correctly and confines it to a smaller circle."
+ },
+ "u0031": {
+  "verdict": "defensible",
+  "reason": "Generalizes Moses's long struggle into a pattern of struggle among many."
+ },
+ "u0035": {
+  "verdict": "misread",
+  "reason": "The two hearings detail is not in this witness record."
+ },
+ "u0039": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of the quoted disputation line."
+ },
+ "u0043": {
+  "verdict": "misread",
+  "reason": "Meta commentary quoting the use note, not a use of the Sarah story's meaning."
+ },
+ "u0047": {
+  "verdict": "accepted",
+  "reason": "Reflects two coexisting authority models in different patterns."
+ },
+ "u0051": {
+  "verdict": "accepted",
+  "reason": "Correct gloss of kellion."
+ },
+ "u0055": {
+  "verdict": "accepted",
+  "reason": "Matches the record: teaching weight without office."
+ },
+ "u0059": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0063": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0067": {
+  "verdict": "misread",
+  "reason": "The leaking jug story does not appear in this record."
+ },
+ "u0071": {
+  "verdict": "defensible",
+  "reason": "Record's same-Scriptures claim is fair, but recasting it as a statement about rituals stretches it."
+ },
+ "u0075": {
+  "verdict": "defensible",
+  "reason": "Not sitting in council fits, but refusal of communion comes from elsewhere, not this record."
+ },
+ "u0079": {
+  "verdict": "accepted",
+  "reason": "Correct gloss of nepsis."
+ },
+ "u0083": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0087": {
+  "verdict": "defensible",
+  "reason": "Second hearing is incident-level Vita detail not in the record's text."
+ },
+ "u0091": {
+  "verdict": "accepted",
+  "reason": "Record states Moses's struggle was long, not erased in a moment."
+ },
+ "u0095": {
+  "verdict": "accepted",
+  "reason": "Restates the limit faithfully."
+ },
+ "u0099": {
+  "verdict": "accepted",
+  "reason": "Record says Moses's struggle with old habits was long."
+ },
+ "u0103": {
+  "verdict": "accepted",
+  "reason": "Faithful gloss of anachoresis."
+ },
+ "u0107": {
+  "verdict": "accepted",
+  "reason": "Matches the record's double purpose of hand-work."
+ },
+ "u0111": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0115": {
+  "verdict": "defensible",
+  "reason": "Quote is exact, but paragraph presents the uncertain Macarian homily as one of our teachers."
+ },
+ "u0119": {
+  "verdict": "accepted",
+  "reason": "Matches the witness's coexistence claim."
+ },
+ "u0123": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0127": {
+  "verdict": "accepted",
+  "reason": "Matches the record's double purpose of hand-work against idleness."
+ },
+ "u0131": {
+  "verdict": "defensible",
+  "reason": "Correct gloss of apotage, but attributing that list to the Pachomian Rule goes beyond the record."
+ },
+ "u0135": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness, keeping its entry-into-discipline sense."
+ },
+ "u0139": {
+  "verdict": "accepted",
+  "reason": "Names the Pachomian office model as the other side of the tension."
+ },
+ "u0143": {
+  "verdict": "misread",
+  "reason": "Record says nothing of Paul's long struggle; that belongs to Moses, and the causal claim is invented."
+ },
+ "u0147": {
+  "verdict": "accepted",
+  "reason": "Reflects the witness's main share to grace, a real share to effort."
+ },
+ "u0151": {
+  "verdict": "misread",
+  "reason": "The seeing-that-must-be-earned line is not in this Christology witness."
+ },
+ "u0155": {
+  "verdict": "accepted",
+  "reason": "Within the record's attested use of scripture as counsel for one struggle at a time."
+ },
+ "u0159": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0163": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0167": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0171": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0175": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0179": {
+  "verdict": "defensible",
+  "reason": "Core definition matches, but the excavated stone-dwelling detail is not in the record and is questionable."
+ },
+ "u0183": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity: discernment set the measure in a world without a syllabus."
+ },
+ "u0187": {
+  "verdict": "accepted",
+  "reason": "Learned by apprenticeship fits the record's curriculum-replacing discernment."
+ },
+ "u0191": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0195": {
+  "verdict": "misread",
+  "reason": "The not-a-doctrine-to-recite line is not in this Christology witness."
+ },
+ "u0199": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0203": {
+  "verdict": "accepted",
+  "reason": "Faithful restatement that bishops, not monks, sat in council."
+ },
+ "u0207": {
+  "verdict": "accepted",
+  "reason": "Theoria as contemplation, framed as a few, fits the term."
+ },
+ "u0211": {
+  "verdict": "accepted",
+  "reason": "Faithful to the story as recorded."
+ },
+ "u0215": {
+  "verdict": "accepted",
+  "reason": "Earned standing through visible discernment matches the gravity."
+ },
+ "u0219": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0223": {
+  "verdict": "accepted",
+  "reason": "Discernment calibrating fasting, solitude and combat fits the gravity."
+ },
+ "u0227": {
+  "verdict": "accepted",
+  "reason": "Matches the use note's ongoing-renunciation meaning."
+ },
+ "u0231": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0235": {
+  "verdict": "misread",
+  "reason": "The Nicene confession to the Arians is not in this witness, which concerns the philosophers' disputation."
+ },
+ "u0239": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the witness."
+ },
+ "u0243": {
+  "verdict": "accepted",
+  "reason": "Weekly gathering called synaxis matches the term."
+ },
+ "u0247": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0251": {
+  "verdict": "defensible",
+  "reason": "Correct gloss of nepsis, but calling it the main work goes beyond the record."
+ },
+ "u0255": {
+  "verdict": "accepted",
+  "reason": "Matches the use note's threshold-and-ongoing renunciation."
+ },
+ "u0259": {
+  "verdict": "defensible",
+  "reason": "Living each day as if dying fits, but the judgment-is-coming rationale is not in the excerpt."
+ },
+ "u0263": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0267": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the witness."
+ },
+ "u0271": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of the quoted line."
+ },
+ "u0275": {
+  "verdict": "accepted",
+  "reason": "Cautious framing that avoids claiming Melitian daily practice matched, consistent with the note."
+ },
+ "u0279": {
+  "verdict": "defensible",
+  "reason": "Koinonia supports a distinct Pachomian pattern, but the three-pattern overlap claim goes beyond this record."
+ },
+ "u0283": {
+  "verdict": "accepted",
+  "reason": "Gives Moses's saying about unseen sins and judging another faithfully."
+ },
+ "u0287": {
+  "verdict": "misread",
+  "reason": "Presents the Latin triad as the words given to Arsenius, which the note forbids."
+ },
+ "u0291": {
+  "verdict": "accepted",
+  "reason": "Matches the record and its ongoing-renunciation sense."
+ },
+ "u0295": {
+  "verdict": "accepted",
+  "reason": "Faithful to the quoted Cassian line."
+ },
+ "u0299": {
+  "verdict": "accepted",
+  "reason": "Restates the honest limit on original sin."
+ },
+ "u0303": {
+  "verdict": "accepted",
+  "reason": "Matches the witness on Pachomius as personal father."
+ },
+ "u0307": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0311": {
+  "verdict": "accepted",
+  "reason": "Confines Evagrius's system to him, as the gravity requires."
+ },
+ "u0315": {
+  "verdict": "accepted",
+  "reason": "Paul received after his wife's betrayal, as the witness says."
+ },
+ "u0319": {
+  "verdict": "accepted",
+  "reason": "Verbatim gloss of nepsis."
+ },
+ "u0323": {
+  "verdict": "accepted",
+  "reason": "Keeps the tomb combat as extraordinary, not general practice."
+ },
+ "u0327": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0331": {
+  "verdict": "accepted",
+  "reason": "Verbatim gloss of nepsis."
+ },
+ "u0335": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0339": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0343": {
+  "verdict": "misread",
+  "reason": "A claim about solitaries not being alone has nothing to do with this authority witness."
+ },
+ "u0347": {
+  "verdict": "accepted",
+  "reason": "Matches the note that renunciation was ongoing, not a one-time vow."
+ },
+ "u0351": {
+  "verdict": "accepted",
+  "reason": "Matches the record's list of hand-work."
+ },
+ "u0355": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the term definition."
+ },
+ "u0359": {
+  "verdict": "accepted",
+  "reason": "Within the record: Gospel heard, goods given, discipline begun."
+ },
+ "u0363": {
+  "verdict": "accepted",
+  "reason": "Verbatim gloss of apotage."
+ },
+ "u0367": {
+  "verdict": "defensible",
+  "reason": "Keeps the tomb episode singular, but recasts the Vita's demonic beating as a struggle with tempting thoughts."
+ },
+ "u0371": {
+  "verdict": "accepted",
+  "reason": "The gravity cites Kellia settlement archaeology as evidence of withdrawal."
+ },
+ "u0375": {
+  "verdict": "accepted",
+  "reason": "Paul's marriage ended by his wife's unfaithfulness, as the witness says."
+ },
+ "u0379": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0383": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0387": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0391": {
+  "verdict": "defensible",
+  "reason": "Saturday-to-Sunday no-kneeling matches, but the twelve Psalms are not in this record, and it is set against the Kellia gathering."
+ },
+ "u0395": {
+  "verdict": "accepted",
+  "reason": "Faithful to Paphnutius's three renunciations mapped to Solomon's books."
+ },
+ "u0399": {
+  "verdict": "accepted",
+  "reason": "Discernment learned under elders without a syllabus fits the gravity."
+ },
+ "u0403": {
+  "verdict": "defensible",
+  "reason": "Flattens Evagrius's two separate Kingdom definitions into apatheia-as-Kingdom and drops the knowledge clause."
+ },
+ "u0407": {
+  "verdict": "accepted",
+  "reason": "Near-verbatim from the witness."
+ },
+ "u0411": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0415": {
+  "verdict": "defensible",
+  "reason": "Adds Vita incident details (young man, same day, treasure in heaven) beyond the record's text."
+ },
+ "u0419": {
+  "verdict": "defensible",
+  "reason": "Infers an absence of unbelief-to-belief stories that this reception witness does not itself state."
+ },
+ "u0423": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0427": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the limit."
+ },
+ "u0431": {
+  "verdict": "accepted",
+  "reason": "Within the record's renunciation of property."
+ },
+ "u0435": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0439": {
+  "verdict": "defensible",
+  "reason": "Generalizes withdrawal into a claim that all came already decided, beyond the term's definition."
+ },
+ "u0443": {
+  "verdict": "misread",
+  "reason": "Being refused and made to stand at the gate for days is not in this Ethiopic three-year rule."
+ },
+ "u0447": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0451": {
+  "verdict": "accepted",
+  "reason": "Matches the term definition."
+ },
+ "u0455": {
+  "verdict": "accepted",
+  "reason": "Faithful to the Solomon-renunciations quote."
+ },
+ "u0459": {
+  "verdict": "misread",
+  "reason": "The leaking jug story says nothing about Moses's long struggle with old habits."
+ },
+ "u0463": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the limit."
+ },
+ "u0467": {
+  "verdict": "accepted",
+  "reason": "Introduces the Pachomian Koinonia as a distinct way, consistent with the gravity."
+ },
+ "u0004": {
+  "verdict": "accepted",
+  "reason": "Restates the record's appeal to read the accounts of Christ's deeds."
+ },
+ "u0008": {
+  "verdict": "accepted",
+  "reason": "Directly restates the record's claim about death after the cross."
+ },
+ "u0012": {
+  "verdict": "accepted",
+  "reason": "Matches the record's insistence on two coexisting currents, unflattened."
+ },
+ "u0016": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0020": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0024": {
+  "verdict": "defensible",
+  "reason": "The Spirit-as-rest/joy/delight matches the quote, but the seat-in-the-soul imagery comes from elsewhere."
+ },
+ "u0028": {
+  "verdict": "accepted",
+  "reason": "Matches Athanasius's report of hearing the Gospel as personal address."
+ },
+ "u0032": {
+  "verdict": "accepted",
+  "reason": "States the attested weekly structure while not overclaiming Cassian's details."
+ },
+ "u0036": {
+  "verdict": "misread",
+  "reason": "This record says nothing about the Son not being created; that anti-Arian claim is absent here."
+ },
+ "u0040": {
+  "verdict": "misread",
+  "reason": "Ten days among guests and a novice year contradicts the record's three years as a servant."
+ },
+ "u0044": {
+  "verdict": "accepted",
+  "reason": "Restates the record's account of the summoned anti-Arian visit."
+ },
+ "u0048": {
+  "verdict": "accepted",
+  "reason": "Repeats the record's claim of no scriptures of their own, in its own sense."
+ },
+ "u0052": {
+  "verdict": "defensible",
+  "reason": "Extends the unresolved authority tension to scriptural interpretation, which the record does not specify."
+ },
+ "u0056": {
+  "verdict": "misread",
+  "reason": "The 'goes where his mind aims' answer is not in this deep-gulf quote and is attributed to an elder."
+ },
+ "u0060": {
+  "verdict": "accepted",
+  "reason": "Faithful to the call story as scripture heard as direct address."
+ },
+ "u0064": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0068": {
+  "verdict": "accepted",
+  "reason": "Matches the record's refusal of those who taught otherwise, correctly identified as Arians."
+ },
+ "u0072": {
+  "verdict": "accepted",
+  "reason": "Keeps the 'by report' hedge on Moses's killings."
+ },
+ "u0076": {
+  "verdict": "misread",
+  "reason": "Places the deeds argument before the Arians/bishops, when the record has it addressed to Greek philosophers."
+ },
+ "u0080": {
+  "verdict": "accepted",
+  "reason": "Faithful, keeps Moses's struggle as long."
+ },
+ "u0084": {
+  "verdict": "accepted",
+  "reason": "Correctly confines apatheia to a learned circle and glosses it as the goal of the practical stage."
+ },
+ "u0088": {
+  "verdict": "accepted",
+  "reason": "Framing sentence marking the solitary path as one path, not universal."
+ },
+ "u0092": {
+  "verdict": "accepted",
+  "reason": "Matches the record's gloss of apatheia."
+ },
+ "u0096": {
+  "verdict": "accepted",
+  "reason": "Faithful to Paul's reception after his marriage ended."
+ },
+ "u0100": {
+  "verdict": "accepted",
+  "reason": "Faithfully states the record's silence on original sin."
+ },
+ "u0104": {
+  "verdict": "misread",
+  "reason": "The Nicene formula is not in this record, which covers command, Incarnation and Cross."
+ },
+ "u0108": {
+  "verdict": "misread",
+  "reason": "The argument from creation's order appears nowhere in this record."
+ },
+ "u0112": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0116": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's Incarnation statement."
+ },
+ "u0120": {
+  "verdict": "accepted",
+  "reason": "States the qualified separation the record describes."
+ },
+ "u0124": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on verse-at-a-time counsel."
+ },
+ "u0128": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the use note's meaning."
+ },
+ "u0132": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0136": {
+  "verdict": "accepted",
+  "reason": "Matches the record's withdrawal as the whole work of formation, a lasting deepening."
+ },
+ "u0140": {
+  "verdict": "accepted",
+  "reason": "Faithful to the kellion as a small dwelling for one or a few."
+ },
+ "u0144": {
+  "verdict": "accepted",
+  "reason": "Faithful to the weekly Saturday gathering of solitaries."
+ },
+ "u0148": {
+  "verdict": "accepted",
+  "reason": "Faithfully states the record's limit."
+ },
+ "u0152": {
+  "verdict": "accepted",
+  "reason": "Restates the quote's 'real experience and feeling' as one current's view."
+ },
+ "u0156": {
+  "verdict": "accepted",
+  "reason": "Faithful to the record."
+ },
+ "u0160": {
+  "verdict": "accepted",
+  "reason": "Gives the record's own reported reason for inward total self-offering."
+ },
+ "u0164": {
+  "verdict": "accepted",
+  "reason": "Echoes the record's refusal to flatten the Macarian current into Evagrius."
+ },
+ "u0168": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0172": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0176": {
+  "verdict": "accepted",
+  "reason": "Uses the record's own 'close to the rule' framing."
+ },
+ "u0180": {
+  "verdict": "defensible",
+  "reason": "Quotes Chaeremon accurately but as 'one of us' without noting Cassian's mediation."
+ },
+ "u0184": {
+  "verdict": "defensible",
+  "reason": "Meta-commentary rather than a voiced use; consistent with the not_for but does not use the content."
+ },
+ "u0188": {
+  "verdict": "defensible",
+  "reason": "'Received without judgment' stretches the record's 'not turned away for what he had been.'"
+ },
+ "u0192": {
+  "verdict": "accepted",
+  "reason": "Faithful to the record's personal memory of Pachomius."
+ },
+ "u0196": {
+  "verdict": "accepted",
+  "reason": "Consistent with Athanasius's report that he went out and gave his property away."
+ },
+ "u0200": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0204": {
+  "verdict": "accepted",
+  "reason": "Faithful retelling of the call story."
+ },
+ "u0208": {
+  "verdict": "defensible",
+  "reason": "Conflates the elder's word with diakrisis itself, though the calibrating function is right."
+ },
+ "u0212": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the quote."
+ },
+ "u0216": {
+  "verdict": "misread",
+  "reason": "The 'another's bread' saying is not in this quote, which concerns fruit, Julian and the tomb."
+ },
+ "u0220": {
+  "verdict": "accepted",
+  "reason": "Hedged as tradition, matching the angel-and-tablet story."
+ },
+ "u0224": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0228": {
+  "verdict": "accepted",
+  "reason": "Consistent with the report that he gave away his inherited land at once."
+ },
+ "u0232": {
+  "verdict": "accepted",
+  "reason": "Faithful retelling of the call story."
+ },
+ "u0236": {
+  "verdict": "defensible",
+  "reason": "Correctly confines synaxis to semi-solitary settlements but adds Pachomian daily rhythm not in the record."
+ },
+ "u0240": {
+  "verdict": "accepted",
+  "reason": "Faithful, keeps Galatia and the single use."
+ },
+ "u0244": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the record."
+ },
+ "u0248": {
+  "verdict": "accepted",
+  "reason": "Faithful to the reported immediate giving of the inheritance."
+ },
+ "u0252": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0256": {
+  "verdict": "accepted",
+  "reason": "Faithful gloss of hesychia as condition and fruit."
+ },
+ "u0260": {
+  "verdict": "accepted",
+  "reason": "Verbatim, keeping the 'only a few' limit."
+ },
+ "u0264": {
+  "verdict": "defensible",
+  "reason": "Loose summary; 'not something to be mastered' edges toward an anti-learning framing the note cautions against."
+ },
+ "u0268": {
+  "verdict": "accepted",
+  "reason": "Matches combat against logismoi as the ordinary subject."
+ },
+ "u0272": {
+  "verdict": "accepted",
+  "reason": "Faithful to authority passed through personal proximity to an elder."
+ },
+ "u0276": {
+  "verdict": "accepted",
+  "reason": "Consistent with Paul refused as too old and then received."
+ },
+ "u0280": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0284": {
+  "verdict": "accepted",
+  "reason": "Keeps the two separate givings as the record requires."
+ },
+ "u0288": {
+  "verdict": "misread",
+  "reason": "Antony's anti-Arian confession is not part of this record."
+ },
+ "u0292": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0296": {
+  "verdict": "misread",
+  "reason": "The second hearing was a different passage, not the same one; detail not supported by the record."
+ },
+ "u0300": {
+  "verdict": "defensible",
+  "reason": "The record names two authority models; 'three patterns' and overlap at Nitria/Scetis go beyond it."
+ },
+ "u0304": {
+  "verdict": "defensible",
+  "reason": "Narrows hesychia to 'some' and a 'deeper' stillness, beyond the record's general sense."
+ },
+ "u0308": {
+  "verdict": "accepted",
+  "reason": "Faithful summary of the unresolved tension."
+ },
+ "u0312": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on persecution's end and the inward fight."
+ },
+ "u0316": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0320": {
+  "verdict": "accepted",
+  "reason": "Faithful to diakrisis as master virtue earned in an elder."
+ },
+ "u0324": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's address to the devil."
+ },
+ "u0328": {
+  "verdict": "accepted",
+  "reason": "Faithfully states the record's silence."
+ },
+ "u0332": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0336": {
+  "verdict": "misread",
+  "reason": "Recasts a jurisdictional schism with the Melitians as refusal over doctrine of Christ."
+ },
+ "u0340": {
+  "verdict": "accepted",
+  "reason": "Correctly names the semi-solitary weekly gathering synaxis."
+ },
+ "u0344": {
+  "verdict": "misread",
+  "reason": "The apatheia/contemplation teaching is not in this record."
+ },
+ "u0348": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0352": {
+  "verdict": "misread",
+  "reason": "Visitors at cell doors has nothing to do with this record on authority models."
+ },
+ "u0356": {
+  "verdict": "defensible",
+  "reason": "'As though Christ himself had said it' slightly supplies Antony's interior response beyond the report."
+ },
+ "u0360": {
+  "verdict": "accepted",
+  "reason": "Accurately states the grace-versus-effort question the record argues."
+ },
+ "u0364": {
+  "verdict": "misread",
+  "reason": "Refusal of heretics is not stated in this record."
+ },
+ "u0368": {
+  "verdict": "accepted",
+  "reason": "Matches authority as earned, not conferred office."
+ },
+ "u0372": {
+  "verdict": "misread",
+  "reason": "'Hating the fight is yours' is not in this record."
+ },
+ "u0376": {
+  "verdict": "defensible",
+  "reason": "Theoria matches the record, but 'apatheia as the Kingdom itself' adds Evagrian content not in it."
+ },
+ "u0380": {
+  "verdict": "accepted",
+  "reason": "Matches the record and frames the elder model as primary in surviving material."
+ },
+ "u0384": {
+  "verdict": "misread",
+  "reason": "The stilled-passions vision of God is not in this record."
+ },
+ "u0388": {
+  "verdict": "accepted",
+  "reason": "Matches anachoresis as open withdrawal and formation, not hiding."
+ },
+ "u0392": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0396": {
+  "verdict": "accepted",
+  "reason": "Faithful to the record's unresolved tension."
+ },
+ "u0400": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0404": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0408": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0412": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0416": {
+  "verdict": "defensible",
+  "reason": "Reports the tomb episode and its motive fairly plainly as history, which the note cautions against."
+ },
+ "u0420": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of elders answering with Scripture."
+ },
+ "u0424": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0428": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0432": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0436": {
+  "verdict": "misread",
+  "reason": "Refusing those who taught otherwise is not in this record."
+ },
+ "u0440": {
+  "verdict": "accepted",
+  "reason": "Faithful to the record."
+ },
+ "u0444": {
+  "verdict": "accepted",
+  "reason": "Correct gloss of Koinonia."
+ },
+ "u0448": {
+  "verdict": "defensible",
+  "reason": "Vague gesture at living the gap between rhetoric and practice; loose tie to the record."
+ },
+ "u0452": {
+  "verdict": "defensible",
+  "reason": "Gives Cassian's three renunciations accurately but not the record's book-by-book mapping."
+ },
+ "u0456": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the quote."
+ },
+ "u0460": {
+  "verdict": "accepted",
+  "reason": "Matches the Vita's address to the devil."
+ },
+ "u0464": {
+  "verdict": "defensible",
+  "reason": "Generalizes a testing period and sequence 'everywhere,' beyond what the term record states."
+ },
+ "u0468": {
+  "verdict": "accepted",
+  "reason": "Faithful gloss of geron, abba, amma."
+ }
+}

@@ -46,6 +46,13 @@ manifestations:
 - Dionysius's persecution letters - flight, confession, the lapsed
 - 'the contemplative pole: the school''s ascent language (Stromateis; the Address)'
 classification: tensional
+use_note:
+  means: "Two pictures of the fully formed life compete, the martyr's witness unto death and the contemplative ascent, with the martyr pole's interior known only thinly."
+  not_for:
+    - "narrating martyrs' inner life as attested beyond saints' lives and martyr records"
+    - "describing martyrs and contemplatives as the same people practicing one path"
+  years: {from: 202, to: 313}
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.6 T4. The martyr pole's cross-stratum reach
 is this world's one gravity-level bridge past the literate sources; its

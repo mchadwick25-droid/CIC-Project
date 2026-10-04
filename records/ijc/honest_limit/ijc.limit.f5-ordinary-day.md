@@ -44,6 +44,12 @@ nearest_material:
 relations:
 - type: associated-with
   target: ijc.quote.hymns-and-psalms-should-be-sung
+use_note:
+  means: "The record, from courts and bishops, noticed ordinary people mostly in a basilica or a riot, so an ordinary day was lived, not written."
+  not_for:
+    - "a claim about the food, work, households or women's own lives of ordinary believers"
+  years: {from: 312, to: 451}
+  status: reviewed
 ---
 The world's central honest limit at its home cell, F5-I - the
 office-holder scope stated in voice, covering the ordinary-day, women's

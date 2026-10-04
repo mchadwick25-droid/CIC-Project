@@ -79,6 +79,14 @@ modern_contrast: >-
   says something a modern reader is likely to miss entirely: the birds eat and the clusters GROW.
   A tradition describing its own poet chose an image in which being consumed increases the supply.
   That is a claim about what his hymns were for.
+use_note:
+  means: "Two dreams about Ephrem, a roll entrusted to him by angels and a vine from his tongue, appear only in the Syriac Paradise recension and are uncorroborated tradition, not events."
+  not_for:
+    - "a claim that the visions happened or are corroborated"
+    - "a claim that the Greek Palladius text carries them"
+    - "a claim that Palladius and the Syriac recension portray Ephrem the same way"
+  years: {from: 306, to: 373}
+  status: reviewed
 ---
 Registered on this world's opening of
 cic/texts/palladius_paradise-v1-syriac_budge1907.txt.

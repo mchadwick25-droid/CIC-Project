@@ -51,6 +51,14 @@ distortion_risk: medium
 relations:
 - type: associated-with
   target: hal.gravity.epistolary-formation
+use_note:
+  means: "The letter was the medium through which teaching, direction, and belonging reached a community split between Rome and Bethlehem."
+  not_for:
+    - "treating the letters' survival alone as proof that letters organized formation"
+    - "reading epistula as casual modern correspondence"
+    - "treating a letter as mere secondary reporting on community life"
+  years: {from: 385, to: 420}
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 7 (hal_lex07). The
 evidentiary-circularity caution from Doc_04 (G4) is carried in the

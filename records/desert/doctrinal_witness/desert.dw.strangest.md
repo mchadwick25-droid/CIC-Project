@@ -45,6 +45,14 @@ positions:
 - "renunciation and seclusion understood, from inside, as total offering rather than as loss"
 tensions:
 - "what looks from outside like loss reads, from inside, as gain - we do not soften the strangeness; we say plainly what the strangeness itself is evidence of"
+use_note:
+  means: "This witness names Antony's giving away his inheritance over two church visits and his years walled in an old fort as what outsiders found strangest."
+  not_for:
+    - "the two separate givings as one act"
+    - "Antony's sealed fort as ordinary monastic life"
+    - "the fort entrance as a locked door, when it was built up"
+  years: {from: 269, to: 313}
+  status: reviewed
 ---
 First-person framing of desert.story.antony-call and desert.story.antony-
 withdrawal, both already independently verified; no new claim beyond

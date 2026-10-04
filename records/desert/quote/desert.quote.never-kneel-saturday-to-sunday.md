@@ -49,6 +49,13 @@ retrieval:
   - "participant asks whether this posture rule was distinctive to ascetic communities - it was ordinary early-church practice, not a monastic invention"
 relations:
 - {type: illustrates, target: desert.term.synaxis}
+use_note:
+  means: "Cassian reports that Egyptian monks never knelt from Saturday evening to Sunday evening or from Easter to Pentecost, and did not fast then."
+  not_for:
+    - "the custom as a monastic invention or distinctive to this world, when it was general early-church practice"
+    - "independent evidence that the Nitria, Kellia or Scetis communities kept it"
+  years: {from: 385, to: 429}
+  status: reviewed
 ---
 Same supplemental source review as desert.quote.
 twelve-psalms-by-an-angel. Text verified directly against

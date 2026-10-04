@@ -35,6 +35,14 @@ nearest_material:
 relations:
 - type: associated-with
   target: syr.quote.the-wedding-feast-continues-for-but-seven-days
+use_note:
+  means: "Surviving voices are vowed celibates who praise the single life, so the record gives marriage mainly as what the covenanter forgoes and describes no in-window Christian wedding or household practice."
+  not_for:
+    - "a claim describing this world's Christian wedding customs"
+    - "a claim that most people did not marry, or that marriage was disparaged"
+    - "a claim treating the regional comparandum's marriage catalogue as Christian practice"
+  years: {from: 200, to: 410}
+  status: reviewed
 ---
 F5-T's honest route: the cell's marriage/money questions get the
 ascetic-vantage limit stated as data. The money half of F5-T is

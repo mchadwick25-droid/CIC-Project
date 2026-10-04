@@ -45,6 +45,14 @@ relations:
   target: ijc.dw.ancient-custom
 - type: associated-with
   target: ijc.limit.f5-ordinary-day
+use_note:
+  means: "Augustine dates Milan's singing of hymns and psalms after the Eastern manner to the 386 vigil, and says nearly all congregations later imitated it."
+  not_for:
+    - "a claim that this passage describes the first Latin hymns ever written"
+    - "a claim that the singing described was antiphonal in form"
+    - "a claim that this is a contemporaneous report rather than a devotional retrospect written about a decade later"
+  years: {from: 397, to: 400}
+  status: reviewed
 ---
 Opened for F4-E and F5-I together. Both were served without a quote, and both cited
 this same passage - ijc.dw.ancient-custom for "a practice's beginning honestly dated",

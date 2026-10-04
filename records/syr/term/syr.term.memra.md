@@ -45,6 +45,14 @@ senses:
 quick_meaning: A memra is a poem in recited couplets. In our years it was a small form, not yet a
   settled genre.
 distortion_risk: low
+use_note:
+  means: "In this window a memra is a small recited verse form in couplets and one syllabic meter, with only a few poems securely Ephrem's and not yet a settled genre."
+  not_for:
+    - "a claim that memra here means the later verse homily of Narsai and Jacob of Serug"
+    - "a claim that Aphrahat wrote memre"
+    - "a claim that memra and madrasha were the same form"
+  years: {from: 306, to: 373}
+  status: reviewed
 ---
 Re-derived from syrlex005 (Tier 3, anachronism-guard entry). Kept
 deliberately minimal per the legacy Tier 3 discipline.

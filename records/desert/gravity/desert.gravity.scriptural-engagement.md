@@ -54,6 +54,14 @@ manifestations:
 - "a scriptural word given directly by an elder as counsel for one disciple's specific struggle, in the sayings tradition's own terse idiom, rather than expounded systematically"
 - "the absence, by documented contrast, of a systematic exegetical corpus comparable to World #2's Alexandrian tradition"
 - "the sayings tradition's own habitual, unglossed use of scripture as immediate counsel - itself the later compilers' own selection and arrangement, not a transcript of how often or where this happened while it was being lived"
+use_note:
+  means: "Scripture was read for how it applied to one struggle now, not through a systematic program like Alexandria's, and this is the softest primary gravity."
+  not_for:
+    - "Presenting a systematic exegetical method as this world's own"
+    - "Presenting the case as equally strong for the Pachomian federation"
+    - "Presenting the sayings' habitual use of scripture as a count of how often it happened, when compilers selected it"
+  years: {from: 320, to: 430}
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 7
 (the World #2 comparison lives at Doc_01 SS4), SS2 row 7, SS3, SS4,

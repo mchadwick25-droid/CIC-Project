@@ -42,17 +42,18 @@ relations:
 - {type: illustrated-by, target: ijc.quote.secular-ruler-ecclesiastical-cause}
 name: Episcopal Independence from Imperial Command [SUPPORTING - strand-bound]
 classification: supporting
-description: 'A bishop''s authority to refuse an emperor, grounded not in his see''s rank or pedigree but
-  in sacramental and moral leverage: the basilica held in 386 against a Homoian court; the exclusion
-  after Thessalonica in 390 with public penance demanded and performed. Bounded, on the evidence, to one
-  bishop''s career - no later actor in the window asserts authority on this specific ground - which is
-  why it is Supporting rather than Primary: it organizes Strand C powerfully within its own years and
-  functions within the context the alliance and primacy gravities establish, rather than organizing the
-  whole ecology. Its classification ceiling is set by the evidence''s temporal bounds, not by any weakness
-  in the evidence itself, which is among the strongest in the world''s record. This
-  gravity is not uniformly a force for restraint - Callinicum (388) shows the identical leverage protecting
-  arsonists from restitution, not checking imperial violence, and an honest account of this gravity holds
-  both.'
+description: >-
+  A bishop can refuse an emperor. His power rests on sacramental and moral leverage. It does not rest
+  on the rank or pedigree of his see. In 386 Ambrose held the basilica against a Homoian court. In 390
+  he excluded the emperor after Thessalonica. He demanded public penance, and the emperor did it. On
+  the evidence, this ground belongs to one bishop's career. No later actor in the window claims
+  authority this way. So it shapes less of the ecology than the alliance and primacy gravities do. In
+  its own years, it shapes the Ambrosian sacramental-independence strand powerfully. It also works
+  inside the frame those two gravities set. It does not organize the whole ecology. The
+  short time span of the evidence sets its rank ceiling. The evidence itself is not weak. It is among the
+  strongest in the world's record. This gravity does not always restrain power. Callinicum (388) shows
+  the same leverage used another way. It shielded arsonists from paying restitution. It did not check
+  imperial violence. An honest account holds both.
 manifestations:
 - the 386 basilica standoff - refusal sustained by a singing congregation under siege
 - Callinicum (388) - the same leverage used to shield the burning of a synagogue and a Valentinian meeting-house
@@ -60,6 +61,13 @@ manifestations:
   of this gravity's own capacity for harm, not only for good
 - Thessalonica (390) - an emperor excluded from the offering until public penance, after a massacre
 - the demonstrated limit that Strand A's later confidence absorbs without adopting its ground
+use_note:
+  means: "A bishop's authority to refuse an emperor rests on sacramental and moral leverage, not his see's rank; this record bounds it to Ambrose's career."
+  not_for:
+    - "a claim that this leverage was uniformly a force for restraint"
+    - "a claim that a later actor in the window asserted authority on this same ground"
+  years: {from: 386, to: 390}
+  status: reviewed
 ---
 Rebuilt from the reviewed Doc_04 Candidate 4 (Supporting; Repetition
 and Persistence fail at world level by Doc_01's own finding - Strand C

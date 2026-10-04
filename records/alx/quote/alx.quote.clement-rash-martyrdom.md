@@ -42,6 +42,14 @@ retrieval:
   retrieve_when:
   - "participant asks whether wanting to die for the faith was healthy or a death wish"
   - "participant asks whether they ever thought someone went looking for martyrdom too eagerly"
+use_note:
+  means: "Clement, in Stromateis IV.4, says those who rush on death out of hatred for the Creator are not true martyrs but die a vain death."
+  not_for:
+    - "a claim that Clement opposed martyrdom itself rather than volunteering for death"
+    - "a neutral description of the groups he attacks, when the parenthesis is polemic against name-only rivals"
+    - "a claim that 'banish themselves' means literal exile"
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 The world's own answer to the 'martyrdom is a death wish' charge (F6-E):
 its greatest teacher CENSURED rushing on death - witness is not
