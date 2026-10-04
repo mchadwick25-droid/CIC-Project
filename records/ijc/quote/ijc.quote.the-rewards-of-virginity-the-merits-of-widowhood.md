@@ -47,7 +47,7 @@ use_note:
     - "a claim that Ambrose treats marriage as equal to virginity or widowhood"
     - "a claim that the ranking is neutral rather than the argument of a treatise commending widowhood"
   years: {from: 377, to: 380}
-  status: provisional
+  status: reviewed
 ---
 Opened for F5-T, served by ijc.dw.marriage-ranked alone.
 

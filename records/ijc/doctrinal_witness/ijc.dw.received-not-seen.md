@@ -59,7 +59,7 @@ use_note:
     - "a claim that the councils independently verified the testimony they received"
     - "a claim that the assembled bishops, rather than the Roman legate Paschasinus, recited the chain of faith at Chalcedon"
   years: {from: 325, to: 451}
-  status: provisional
+  status: reviewed
 ---
 The C-E evidential cell answered in the world's own shape: its
 distinctive testimony about "what did you actually have" is inheritance

@@ -53,7 +53,7 @@ use_note:
     - "a claim that Leo here sets out the full Augustinian system of inherited guilt, concupiscence, and baptism"
     - "a claim that this is a treatise on sin rather than a passing premise of a Christological argument"
   years: {from: 449, to: 449}
-  status: provisional
+  status: reviewed
 ---
 Leo's own anti-Eutychian correspondence states the doctrine of
 inherited guilt explicitly, in Pauline terms, as a premise the wider

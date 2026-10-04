@@ -47,7 +47,7 @@ use_note:
     - "a claim that this letter is a disinterested pastoral text rather than also a political act"
     - "a claim that this world's record says what the wronged should do while awaiting repentance"
   years: {from: 390, to: 390}
-  status: provisional
+  status: reviewed
 ---
 Opened for F4-P, which the rewritten classifier moved out of LIMIT-ONLY: ijc.limit.inner-life
 cites Ep. LI specifically, so the limit can be voiced by the passage it points at.

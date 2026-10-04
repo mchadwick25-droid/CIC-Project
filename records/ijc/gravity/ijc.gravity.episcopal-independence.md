@@ -46,7 +46,7 @@ description: 'A bishop''s authority to refuse an emperor, grounded not in his se
   in sacramental and moral leverage: the basilica held in 386 against a Homoian court; the exclusion
   after Thessalonica in 390 with public penance demanded and performed. Bounded, on the evidence, to one
   bishop''s career - no later actor in the window asserts authority on this specific ground - which is
-  why it is Supporting rather than Primary: it organizes Strand C powerfully within its own years and
+  why it organizes less of the ecology than the alliance and primacy gravities do: it organizes the Ambrosian sacramental-independence strand powerfully within its own years and
   functions within the context the alliance and primacy gravities establish, rather than organizing the
   whole ecology. Its classification ceiling is set by the evidence''s temporal bounds, not by any weakness
   in the evidence itself, which is among the strongest in the world''s record. This
@@ -61,12 +61,12 @@ manifestations:
 - Thessalonica (390) - an emperor excluded from the offering until public penance, after a massacre
 - the demonstrated limit that Strand A's later confidence absorbs without adopting its ground
 use_note:
-  means: "A bishop's authority to refuse an emperor rests on sacramental and moral leverage, not his see's rank, and is bounded to one career."
+  means: "A bishop's authority to refuse an emperor rests on sacramental and moral leverage, not his see's rank; this record bounds it to Ambrose's career."
   not_for:
     - "a claim that this leverage was uniformly a force for restraint"
     - "a claim that a later actor in the window asserted authority on this same ground"
   years: {from: 386, to: 390}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed Doc_04 Candidate 4 (Supporting; Repetition
 and Persistence fail at world level by Doc_01's own finding - Strand C

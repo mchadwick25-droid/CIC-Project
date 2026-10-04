@@ -63,7 +63,7 @@ use_note:
     - "a claim that Augustine always favoured coercion"
     - "a claim that the paraphrase 'it should be by other means' is Augustine's own wording"
   years: {from: 416, to: 418}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf104 line
 19617. The two sentences are consecutive in the file with one

@@ -43,7 +43,7 @@ use_note:
   not_for:
     - "a claim that the presiding officials ruled on the theology in dispute"
   years: {from: 451, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Opened for F2-E, served by ijc.dw.record-under-question alone, whose loci read 'the acts
 and canons' and 'the embedded documents versus the narrative frame' - bodies of text, which is why the

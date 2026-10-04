@@ -60,7 +60,7 @@ use_note:
     - "a claim that this formula is the modern separation of church and state"
     - "a claim that this formula is about which see outranks which"
   years: {from: 386, to: 386}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 1;
 Lexicon-Chunks/ijclex005_imperator_intra_ecclesiam.md). Strand C's

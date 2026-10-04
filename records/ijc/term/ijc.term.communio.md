@@ -67,7 +67,7 @@ use_note:
     - "a claim that communion meant only the private reception of the bread and cup"
     - "a claim that communion meant a merely social or emotional fellowship"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 1;
 Lexicon-Chunks/ijclex004_communio.md). Source discipline carried from

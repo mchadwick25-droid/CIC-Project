@@ -54,7 +54,7 @@ use_note:
     - "a claim that Canon 28 or Julius's opponents accepted Rome's review"
     - "a claim that the window's Roman claim is already the later papacy"
   years: {from: 341, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed Doc_06 SS3's primatus CT entry (Contest Type:
 Relationship to present-day traditions) plus Doc_02 SS2's Leo Author

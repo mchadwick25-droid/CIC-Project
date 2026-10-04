@@ -49,7 +49,7 @@ use_note:
     - "a claim that 'nature' and 'person' carry their modern psychological or temperamental senses"
     - "a claim that this settlement held the whole church"
   years: {from: 451, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. The edition's own
 square brackets within this quoted span, "[of God]" and "[united]",

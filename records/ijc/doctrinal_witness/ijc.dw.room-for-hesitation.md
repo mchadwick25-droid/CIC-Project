@@ -57,7 +57,7 @@ use_note:
     - "a claim that doubt was tolerated regardless of a person's standing and timing"
     - "a claim that Nicaea's creed was accepted without hesitation"
   years: {from: 325, to: 359}
-  status: provisional
+  status: reviewed
 ---
 F1-P answered from the record's one great documented hesitation
 (Eusebius's letter, preserved in Socrates I.8 and verified) rather

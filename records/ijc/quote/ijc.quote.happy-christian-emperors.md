@@ -84,7 +84,7 @@ use_note:
     - "a claim that 'happy' means cheerful rather than blessed"
     - "a claim that Augustine counts worldly success as the mark of a blessed Christian emperor"
   years: {from: 415, to: 415}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf102 line
 11054, chapter number read from the markup's own n="24" attribute.

@@ -54,7 +54,7 @@ use_note:
   not_for:
     - "a claim that 'the right of refuge' means anything other than the church's legal right of asylum at the altar"
   years: {from: 399, to: 399}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file at
 npnf109 line 17739, with the scriptural citation marker ("Luke xxiii.

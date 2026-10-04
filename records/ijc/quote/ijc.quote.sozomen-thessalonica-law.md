@@ -50,7 +50,7 @@ use_note:
     - "a claim that this is the law's own text rather than a historian's report of it"
     - "a claim that 'Catholic Church' here carries its later denominational sense"
   years: {from: 443, to: 448}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. This
 build's registered citation path for the Edict of Thessalonica: the

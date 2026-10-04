@@ -58,7 +58,7 @@ use_note:
     - "a claim that heresy was a purely doctrinal category with no legal consequence"
     - "a claim that the boundary of heresy always pointed the same direction"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 2;
 Lexicon-Chunks/ijclex008_haeresis.md). The legacy chunk's Key Source

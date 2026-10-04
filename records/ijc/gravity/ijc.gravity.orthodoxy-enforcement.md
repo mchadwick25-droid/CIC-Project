@@ -56,7 +56,7 @@ use_note:
   not_for:
     - "a claim that the Ambrosian strand's orthodoxy-defense ran through imperial power"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_04 Candidate 3 (Primary; passes all six
 tests; the one gravity with a REAL Confidence/Gravity Cross-Check

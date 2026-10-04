@@ -46,7 +46,7 @@ use_note:
   not_for:
     - "a claim that Constantine issued the Milan agreement alone"
   years: {from: 313, to: 313}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. The
 so-called Edict of Milan's own opening, as Lactantius preserves the

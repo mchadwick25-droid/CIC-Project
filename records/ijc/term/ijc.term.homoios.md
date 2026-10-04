@@ -67,8 +67,8 @@ use_note:
   not_for:
     - "a claim that \"Arian\" labels a fringe, always-defeated heresy"
     - "a claim that the Homoian confession was a simple denial that the Son is divine"
-  years: {from: 312, to: 451}
-  status: provisional
+  years: {from: 357, to: 451}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 1;
 Lexicon-Chunks/ijclex003_homoios.md) - the binding Homoian-recentering

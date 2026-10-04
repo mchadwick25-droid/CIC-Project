@@ -46,12 +46,12 @@ relations:
 - {type: associated-with, target: ijc.limit.earlier-windows}
 - {type: associated-with, target: ijc.quote.ammianus-sicininus-massacre}
 use_note:
-  means: "Socrates reports that Damasus's ordination away from a church sparked deadly conflict at Rome over who should be bishop, not over any doctrine."
+  means: "Socrates reports that Ursinus's secret ordination as rival to Damasus sparked deadly conflict at Rome over who should be bishop, not over doctrine."
   not_for:
     - "a claim that the 366 conflict was a doctrinal dispute"
     - "a claim that Socrates gives a casualty figure for the conflict"
   years: {from: 439, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. The hard
 F6 fact in a church historian's own words: Damasus's episcopate - the

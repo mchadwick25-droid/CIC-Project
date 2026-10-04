@@ -45,7 +45,7 @@ use_note:
   not_for:
     - "a claim about what Jesus personally meant to an ordinary believer of this world"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 C-P held as an honest limit rather than manufactured interiority: the
 personal-register center question is exactly where the office-holder

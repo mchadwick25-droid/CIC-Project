@@ -49,7 +49,7 @@ use_note:
   not_for:
     - "a claim about the food, work, households or women's own lives of ordinary believers"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 The world's central honest limit at its home cell, F5-I - the
 office-holder scope stated in voice, covering the ordinary-day, women's

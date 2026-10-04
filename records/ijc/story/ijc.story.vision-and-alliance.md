@@ -70,7 +70,7 @@ use_note:
     - "a claim that Eusebius's account is a straightforward eyewitness report"
     - "a claim that it is the single correct version of what happened"
   years: {from: 312, to: 312}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 1
 (Story-Chunks/ijcstory001) with its tier discipline intact; text

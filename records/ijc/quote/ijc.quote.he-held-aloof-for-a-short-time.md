@@ -46,7 +46,7 @@ use_note:
     - "a claim that every bishop at Nicaea accepted the creed without hesitation"
     - "a claim that Socrates is a neutral party to the controversy"
   years: {from: 439, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Serves F1-P alongside ijc.dw.room-for-hesitation, which cites this exact locus and cannot show
 it.

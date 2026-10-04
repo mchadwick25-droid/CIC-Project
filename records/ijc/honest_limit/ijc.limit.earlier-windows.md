@@ -46,7 +46,7 @@ use_note:
   not_for:
     - "a claim about lived martyrdom or testimony forced from tortured slaves in this world's window"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 F6-E held as an honest limit with redirection: the seed questions
 reach before this world's horizon, and the honest move is naming that

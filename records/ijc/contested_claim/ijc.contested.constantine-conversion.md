@@ -42,7 +42,7 @@ use_note:
     - "a claim that the two earliest accounts reconcile into one clean story"
     - "a claim about what Constantine himself believed, and when"
   years: {from: 312, to: 312}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed Doc_02 SS4/SS8 (Contested tier: "the exact
 content and intent behind Constantine's conversion vision"). Both

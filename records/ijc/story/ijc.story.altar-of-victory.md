@@ -68,7 +68,7 @@ use_note:
     - "a claim that this was a free-speech or minority-rights dispute against a neutral state"
     - "a claim that Symmachus sought private toleration rather than restored state funding"
   years: {from: 384, to: 384}
-  status: provisional
+  status: reviewed
 ---
 A registry-append story closing a flagged gap in this world's own
 Registry (no row for the Altar of Victory

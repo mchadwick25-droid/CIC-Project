@@ -36,8 +36,8 @@ use_note:
   means: "On one reading, the decretals under Damasus's name are authentic early evidence of Roman decretal authority; their authenticity is doubted."
   not_for:
     - "a claim that the decretal corpus is the evidence for Rome's primacy-claiming under Damasus"
-  years: {from: 312, to: 451}
-  status: provisional
+  years: {from: 366, to: 384}
+  status: reviewed
 ---
 Rebuilt from the reviewed Doc_02 SS2 (the Damasus entry's Transmission
 History finding - "the single most important Transmission History

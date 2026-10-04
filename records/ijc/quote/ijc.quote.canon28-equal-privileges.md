@@ -47,7 +47,7 @@ use_note:
     - "a claim that Canon 28 was received without contest, since Leo rejected its premise"
     - "a claim that 'the Fathers' here means the later fixed canon of named Church Fathers rather than an earlier council's bishops"
   years: {from: 451, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file (the
 edition's inline Greek gloss "(ἴσα πρεσβεῖα)" after "equal privileges"

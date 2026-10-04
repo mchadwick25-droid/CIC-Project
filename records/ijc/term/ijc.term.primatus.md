@@ -75,14 +75,13 @@ use_note:
     - "a claim that this is the developed medieval or modern papacy read back into the window"
     - "a claim that this was mere seniority or honorary precedence with no binding force"
   years: {from: 341, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 1;
 Lexicon-Chunks/ijclex001_primatus.md) into the Artifact-1 term shape.
 The chunk's Strand A first-person voice is deliberately NOT carried into
 these compiled fields - senses here describe the claim as the world's
-contested content, per the standing caution (Doc_06 Open Item 4) that
-strand-voiced lexicon entries must not pre-decide the Representative's
+contested content, because strand-voiced lexicon entries must not pre-decide the Representative's
 voice; the strand-voiced material remains available in the legacy chunk.
 Key-source discipline carried: the contested Damasine decretal block
 (legacy Registry row 15) is NOT cited here; the claim rests on Julius,

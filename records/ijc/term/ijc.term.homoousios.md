@@ -65,7 +65,7 @@ use_note:
     - "a claim that the formula was settled and uncontested from the moment Nicaea spoke it"
     - "a claim that the word was taken directly from scripture"
   years: {from: 325, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 2;
 Lexicon-Chunks/ijclex006_homoousios.md). The Eusebius hedged-subscription

@@ -59,8 +59,8 @@ use_note:
   not_for:
     - "a claim that the bee omen is a verified event of Ambrose's infancy"
     - "a claim that the legend has nothing to teach about this world's memory"
-  years: {from: 312, to: 451}
-  status: provisional
+  years: {from: 412, to: 413}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 3
 (Story-Chunks/ijcstory003), the inventory's one Tier 3 entry.

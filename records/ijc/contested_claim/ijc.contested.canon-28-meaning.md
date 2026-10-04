@@ -52,7 +52,7 @@ use_note:
     - "a claim that Rome accepted the premise that ecclesiastical rank follows civil rank"
     - "a claim that the step from honor to jurisdiction was clearly continuous"
   years: {from: 381, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed Doc_06 SS3's presbeia CT entry (Contest Type:
 Meaning) and Doc_02 SS8 (Contested tier). All three instruments

@@ -68,7 +68,7 @@ use_note:
     - "a claim that presbeia was a merely ceremonial honor with no operative claim behind it"
     - "a claim that presbeia meant the presbyterate or office of elders"
   years: {from: 381, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 1;
 Lexicon-Chunks/ijclex002_presbeia.md). Strand B's rival pole of the

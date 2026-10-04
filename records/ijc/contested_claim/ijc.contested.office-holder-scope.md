@@ -42,7 +42,7 @@ use_note:
   not_for:
     - "a claim about how ordinary believers received the laws and canons addressed to them"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 The world's central honest limit made a first-class record - the ijc
 counterpart of Alexandria's ecology-wide-primacy claim, and the guard

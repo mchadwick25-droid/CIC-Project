@@ -42,7 +42,7 @@ use_note:
   not_for:
     - "a claim that the formula states settled, uncontested practice rather than Ambrose's position preached under threat in a live standoff"
   years: {from: 386, to: 386}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file - the
 signature formula in its edition's actual wording: "the Emperor is

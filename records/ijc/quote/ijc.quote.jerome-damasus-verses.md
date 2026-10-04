@@ -42,7 +42,7 @@ use_note:
     - "a claim that 'heroic metre' describes heroic subject matter rather than a verse form (hexameter)"
     - "a claim that Jerome writes as a disinterested witness rather than a man who had worked in Damasus's chancery"
   years: {from: 392, to: 393}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. A
 contemporary's entire notice - two sentences, from a man who had worked

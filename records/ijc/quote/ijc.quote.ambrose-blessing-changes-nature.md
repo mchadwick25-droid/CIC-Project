@@ -49,7 +49,7 @@ use_note:
     - "a claim that 'nature' here means the physical world or biology rather than what a thing fundamentally is"
     - "a claim that this teaching was argued against live opponents in its own century"
   years: {from: 385, to: 390}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file (De
 Mysteriis IX.50 and IX.54, joined by a disclosed ellipsis across

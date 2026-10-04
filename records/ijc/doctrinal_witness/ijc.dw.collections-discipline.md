@@ -57,8 +57,9 @@ use_note:
     - "a claim that this world imposed a fixed tithe of a tenth as law"
     - "a claim that Leo himself dated the collection day to early July"
     - "a claim about how widely or literally the preached standard was kept"
+    - "a claim that these sermons' dates are fixed within the window, when the edition leaves them undated across Leo's episcopate (440-461)"
   years: {from: 440, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against the
 vendored corpus, file lines 13503 and 13707 - Leo's own preached corpus

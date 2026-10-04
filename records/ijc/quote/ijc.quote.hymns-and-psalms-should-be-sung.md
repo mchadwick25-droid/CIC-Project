@@ -52,7 +52,7 @@ use_note:
     - "a claim that the singing described was antiphonal in form"
     - "a claim that this is a contemporaneous report rather than a devotional retrospect written about a decade later"
   years: {from: 397, to: 400}
-  status: provisional
+  status: reviewed
 ---
 Opened for F4-E and F5-I together. Both were served without a quote, and both cited
 this same passage - ijc.dw.ancient-custom for "a practice's beginning honestly dated",

@@ -55,7 +55,7 @@ use_note:
     - "a claim that the plainer account is the more reliable one"
     - "a claim that the record adjudicates between the two accounts"
   years: {from: 312, to: 312}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 2
 (Story-Chunks/ijcstory002); text re-verified against the vendored

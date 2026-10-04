@@ -43,7 +43,7 @@ use_note:
     - "a claim that the same council accepted Rome's standing without contest, when it also passed the canon Leo refused"
     - "a claim that 'anathema' means merely something disliked rather than a formal curse and exclusion"
   years: {from: 451, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. The
 Tome's reception in the session record's own words - the acclamation

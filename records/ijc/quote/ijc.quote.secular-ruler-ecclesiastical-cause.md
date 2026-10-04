@@ -50,7 +50,7 @@ use_note:
     - "a claim that Martin defended Priscillian as innocent or orthodox"
     - "a claim that these are Martin's own written words rather than his biographer's report"
   years: {from: 400, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf211 line
 11649; three consecutive sentences, unaltered, with nothing elided

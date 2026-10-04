@@ -78,7 +78,7 @@ use_note:
     - "a claim that the council closed in tidy, universally received agreement"
     - "a claim that the Tome and Canon 28 were passed in the same session"
   years: {from: 451, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 6
 (Story-Chunks/ijcstory006), with one factual correction to the legacy

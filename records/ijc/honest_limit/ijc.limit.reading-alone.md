@@ -37,5 +37,5 @@ use_note:
   not_for:
     - "a claim about an ordinary believer's private confusion or fear in reading scripture"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---

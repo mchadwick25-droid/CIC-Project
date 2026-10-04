@@ -62,7 +62,7 @@ use_note:
     - "a claim that this world stressed inward conversion experience as later ages do"
     - "a claim that deferred baptism was this church's settled, uniform practice"
   years: {from: 337, to: 380}
-  status: provisional
+  status: reviewed
 ---
 F4-T's "born again" question answered through the record's three great
 documented baptisms - the world's real material for the translational

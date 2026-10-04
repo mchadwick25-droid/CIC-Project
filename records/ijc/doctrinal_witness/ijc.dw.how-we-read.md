@@ -63,7 +63,7 @@ use_note:
     - "a claim that only one side of the Nicene dispute argued from scripture"
     - "a claim about how the unlettered received scripture beyond the channels the record shows"
   years: {from: 325, to: 451}
-  status: provisional
+  status: reviewed
 ---
 F2-I answered from the world's documented interpretive habit (Doc_05
 SS8's finding, grounded here on vendored instances: Leo's Petrine

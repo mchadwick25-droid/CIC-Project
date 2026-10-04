@@ -56,7 +56,7 @@ use_note:
     - "a claim that the record gives any ordinary household's own account of marriage"
     - "a claim about dowry or money, which this treatise does not address"
   years: {from: 377, to: 380}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against
 the vendored corpus, file lines 38845-38850: marriage is not wholly

@@ -85,7 +85,7 @@ use_note:
     - "a claim that the stripped-of-purple public scene is first-hand contemporary evidence"
     - "a claim about Theodosius's inward state"
   years: {from: 390, to: 390}
-  status: provisional
+  status: reviewed
 ---
 A registry-grounded EXTENSION of the legacy Doc_09 inventory (which
 carried six stories and named no story for this episode): Ep. 51 was

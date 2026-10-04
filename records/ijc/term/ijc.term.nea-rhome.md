@@ -53,7 +53,7 @@ use_note:
     - "a claim that the name was honorific flattery with no operative claim behind it"
     - "a claim that the canons ranked Constantinople over old Rome rather than after it"
   years: {from: 381, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 2;
 Lexicon-Chunks/ijclex010_nea_rhome.md). canon_cells deliberately empty:

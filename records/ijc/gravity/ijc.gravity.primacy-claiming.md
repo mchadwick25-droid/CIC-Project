@@ -50,8 +50,8 @@ description: 'The drive to fix a see''s standing as a matter of enforceable righ
   Caesarea the historian) judgment against Alexandria''s own bishop (341), Damasus building the claim
   into stone at the martyr shrines, Leo stating
   it fully in Tome and letter, and the same underlying drive organizing the rival Constantinopolitan claim
-  (Canon 3 of 381, Canon 28 of 451) on a different ground. Cross-strand: it holds in Strand A directly
-  and, in a structurally parallel but substantively rival form, in Strand B - the divergence in grounding
+  (Canon 3 of 381, Canon 28 of 451) on a different ground. Cross-strand: it holds in the Roman apostolic-primacy strand directly
+  and, in a structurally parallel but substantively rival form, in the Constantinopolitan imperial-proximity strand - the divergence in grounding
   (apostolic succession versus imperial proximity) is itself part of the finding, never flattened. The
   world''s own closing event, Leo''s rejection of Canon 28, is this gravity''s final documented collision.'
 manifestations:
@@ -65,7 +65,7 @@ use_note:
   not_for:
     - "a claim that the Roman and Constantinopolitan claims rested on the same ground"
   years: {from: 341, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed Doc_04 Candidate 1 (Primary; passes all six
 tests; Confidence/Gravity Cross-Check: no divergence - Documented for

@@ -91,7 +91,7 @@ use_note:
     - "a claim that a persecuted minority resisted a secular or pagan state"
     - "a claim that the court acted with force and no legal pretext"
   years: {from: 386, to: 386}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 4
 (Story-Chunks/ijcstory004) - the world's richest single narrative and

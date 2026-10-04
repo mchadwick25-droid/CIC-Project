@@ -36,7 +36,7 @@ description: 'The recurring drive to state the faith in words exact enough to bi
   driven to close what looser words left open. Real and recurring across every council of the window,
   but not independently organizing: precision matters here institutionally because primacy is asserted
   through doctrinal instruments and orthodoxy is enforced by law - this gravity is the vocabulary-level
-  instrument of those two, which is the Supporting classification''s own definition, not a demotion.'
+  instrument of those two, which is what a supporting gravity is, not a demotion.'
 manifestations:
 - Nicaea choosing the contested word over the scriptural-sounding looser one
 - the Definition of Chalcedon's four adverbs - without confusion, change, division, separation
@@ -46,7 +46,7 @@ use_note:
   not_for:
     - "a claim that precision-seeking was an independently organizing gravity of the world"
   years: {from: 325, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed Doc_04 Candidate 5 (Supporting - restored
 from the first draft's wrongful disqualification, an integrity

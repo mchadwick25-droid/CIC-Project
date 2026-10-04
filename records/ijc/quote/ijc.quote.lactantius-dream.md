@@ -44,7 +44,7 @@ use_note:
   not_for:
     - "a claim that Lactantius's dream and Eusebius's midday vision are one reconcilable account"
   years: {from: 313, to: 316}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file: the file prints the
 actual Greek letter chi (Χ, U+03A7), not a Latin "X", and this record

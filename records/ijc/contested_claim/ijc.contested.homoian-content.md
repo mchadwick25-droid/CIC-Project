@@ -47,8 +47,8 @@ use_note:
   not_for:
     - "a claim that Homoian belief is fully known from its own voice"
     - "a claim that Homoian belief was a caricature rather than a considered confession"
-  years: {from: 312, to: 451}
-  status: provisional
+  years: {from: 357, to: 451}
+  status: reviewed
 ---
 Derived from Doc_04 Candidate 3's Confidence/Gravity
 Cross-Check divergence (carried through Doc_05, Doc_08 SS7's

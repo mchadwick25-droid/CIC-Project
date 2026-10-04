@@ -41,7 +41,7 @@ use_note:
     - "a claim that the 'prerogative of honour' was merely ceremonial, with no operative rank behind it"
     - "a claim that turns on the singular 'prerogative', where other translations give 'prerogatives' or 'primacy of honor'"
   years: {from: 381, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file -
 Percival's rendering is the SINGULAR "prerogative of honour" (the

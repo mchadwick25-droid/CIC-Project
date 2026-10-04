@@ -77,7 +77,7 @@ use_note:
     - "a claim that these two cases establish a general pattern for women's authority"
     - "a claim that these women's motives are known as securely as their actions"
   years: {from: 386, to: 451}
-  status: provisional
+  status: reviewed
 ---
 This record gives F6-P's
 women's-authority question (f6-p-06) its own genuine substantive

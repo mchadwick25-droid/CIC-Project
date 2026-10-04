@@ -60,7 +60,7 @@ use_note:
     - "a claim that this is the church's own self-account rather than a hostile outsider's verdict"
     - "a claim that 'the everlasting Deity' shows Ammianus writing as a Christian believer"
   years: {from: 378, to: 391}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file, a
 raw djvu OCR scan, with one mechanical correction against a visible

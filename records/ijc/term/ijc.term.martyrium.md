@@ -51,7 +51,7 @@ use_note:
   not_for:
     - "a claim that martyr-cult here was itself the devotional center of the world"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 3;
 Lexicon-Chunks/ijclex012_martyrium.md). The deliberately narrowed scope

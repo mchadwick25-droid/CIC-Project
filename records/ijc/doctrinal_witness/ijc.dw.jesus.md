@@ -56,7 +56,7 @@ use_note:
     - "a claim that the confessed center went uncontested within the imperial church"
     - "a claim that the record shows what Jesus meant to ordinary believers' inner lives"
   years: {from: 325, to: 451}
-  status: provisional
+  status: reviewed
 ---
 The Center cell's composed answer-ground: who Jesus was TO THIS WORLD,
 answered in its own conciliar idiom rather than a borrowed devotional

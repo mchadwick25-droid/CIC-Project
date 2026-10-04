@@ -60,7 +60,7 @@ use_note:
   not_for:
     - "a claim that the alliance held in a stable form regardless of the reigning emperor"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_04 Candidate 2 (Primary; passes all six
 tests; Documented; the ONLY gravity confirmed cross-strand to all three

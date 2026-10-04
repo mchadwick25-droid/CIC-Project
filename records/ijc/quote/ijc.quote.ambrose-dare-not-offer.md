@@ -46,7 +46,7 @@ use_note:
     - "a claim that 'sacrifice' here means a pagan or violent rite rather than the Eucharist"
     - "a claim that Ambrose charges the emperor with contumacy, which the letter disclaims"
   years: {from: 390, to: 390}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. The
 exclusion after Thessalonica, in the letter's own words - written, as

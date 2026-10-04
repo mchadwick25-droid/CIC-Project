@@ -46,7 +46,7 @@ use_note:
     - "a claim that the authority appealed to is scripture or an apostolic grant"
     - "a claim that the canon's meaning was settled rather than argued over for centuries"
   years: {from: 325, to: 325}
-  status: provisional
+  status: reviewed
 ---
 Opened for F2-I, served by ijc.dw.how-we-read alone, which cites Canon 6 for
 "precedent read as law" and could not show it.

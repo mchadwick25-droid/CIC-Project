@@ -50,7 +50,7 @@ use_note:
     - "a claim that the singing described was antiphonal in form"
     - "a claim that the 'Thy servant' wording is this world's own chancery idiom rather than the translation's register for prayer to God"
   years: {from: 397, to: 400}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. The
 ellipsis marks one omitted sentence ("We, still unmelted by the heat of

@@ -57,7 +57,7 @@ use_note:
     - "a claim that this teaching was a contested position in its own century"
     - "a claim that De Mysteriis's authorship has never been questioned"
   years: {from: 385, to: 390}
-  status: provisional
+  status: reviewed
 ---
 De Mysteriis, addressed to the newly baptized, teaches a
 real change of nature in the elements at length and by name, verified

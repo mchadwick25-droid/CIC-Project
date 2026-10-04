@@ -60,8 +60,8 @@ use_note:
   not_for:
     - "a claim that a Tome is any long or weighty letter"
     - "a claim that a Tome is a work in multiple volumes"
-  years: {from: 451, to: 451}
-  status: provisional
+  years: {from: 449, to: 451}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 2;
 Lexicon-Chunks/ijclex009_tomus.md). The single-instance genre risk

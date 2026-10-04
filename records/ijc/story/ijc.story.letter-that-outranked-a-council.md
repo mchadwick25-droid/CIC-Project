@@ -67,7 +67,7 @@ use_note:
   not_for:
     - "a claim that Rome already held a settled, universally recognized supreme authority in 341"
   years: {from: 341, to: 341}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 5
 (Story-Chunks/ijcstory005); the custom sentence verified verbatim

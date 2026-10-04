@@ -41,7 +41,7 @@ use_note:
     - "a claim that Constantine claimed priestly or sacramental office"
     - "a claim that the saying's meaning is settled, when it rests on Eusebius's single report in a posthumous panegyric"
   years: {from: 337, to: 340}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. Reported
 by Eusebius from table-talk ("addressing them in my hearing") in a

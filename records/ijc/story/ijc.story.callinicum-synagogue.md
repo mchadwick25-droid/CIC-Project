@@ -66,7 +66,7 @@ use_note:
     - "a claim that Ambrose's resistance here was principled courage like his other standoffs"
     - "a claim that his version of events is independently corroborated"
   years: {from: 388, to: 388}
-  status: provisional
+  status: reviewed
 ---
 This record states what the command actually was and
 why it was reversed: the same leverage this world

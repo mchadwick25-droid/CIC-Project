@@ -45,7 +45,7 @@ use_note:
     - "a claim that Leo held scripture insufficient or subordinate"
     - "a claim that scripture and the creed were two competing authorities to be ranked"
   years: {from: 449, to: 449}
-  status: provisional
+  status: reviewed
 ---
 Opened for F2-T, served by ijc.term.tomus alone. The instrument ruled this NEEDS READING
 and was wrong: the record's locus is 'Ep. XXVIII (npnf212 line 5099)', which names a letter AND a line

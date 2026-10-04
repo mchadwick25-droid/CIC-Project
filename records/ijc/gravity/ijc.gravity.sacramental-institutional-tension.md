@@ -50,7 +50,7 @@ use_note:
   not_for:
     - "a claim that the tension between sacramental and positional authority was resolved"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed Doc_04 Candidate 6 (Tensional; passes all six
 tests as a persistent counter-force; no Cross-Check divergence).
@@ -61,8 +61,8 @@ independent of, and rival to, an office-grounded one), encoded as the
 tension-with relation to ijc.gravity.primacy-claiming; the Damasus
 material shows the same tension being MANAGED into Candidate 1's
 service, which is the associated evidence, not a resolution. Strand
-status per Doc_04 SS5: present in Strand C directly and Strand A in
-managed form; Strand B status genuinely open (Doc_04 Open Item 2) - no
+status: present in the Ambrosian sacramental-independence strand directly and in the Roman apostolic-primacy strand in
+managed form; its status in the Constantinopolitan imperial-proximity strand is open - no
 Native evidence either way, recorded rather than asserted. canon_cells:
 F6-I (what did your people never settle - this unresolved two-grounds
 question is among the window's most honest answers).

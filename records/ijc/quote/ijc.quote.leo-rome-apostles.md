@@ -44,8 +44,9 @@ use_note:
   not_for:
     - "a claim that the 'holy nation, chosen people, priestly and royal state' language is Leo's own political coinage rather than 1 Peter 2:9 applied"
     - "a claim that Leo grounds Rome's standing in its earthly government"
+    - "a claim that this sermon's date is fixed within the window, when the edition leaves it undated across Leo's episcopate (440-461)"
   years: {from: 440, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file (editorial
 notes stripped; addressed to Rome herself on the feast of Peter and

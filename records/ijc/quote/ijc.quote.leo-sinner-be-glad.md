@@ -39,8 +39,9 @@ use_note:
   not_for:
     - "a claim that such direct personal invitation is typical of this world's surviving record rather than its closest approach to it"
     - "a claim that 'gentile' carries a modern cultural sense rather than meaning non-Jew"
+    - "a claim that this sermon's date is fixed within the window, when the edition leaves it undated across Leo's episcopate (440-461)"
   years: {from: 440, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. Already
 named, but not previously given its own citable record, in

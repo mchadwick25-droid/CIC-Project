@@ -47,7 +47,7 @@ use_note:
     - "a claim that the 366 conflict was a dispute over doctrine"
     - "a claim that Damasus gained the see without violence by his partisans"
   years: {from: 378, to: 391}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file from a
 raw djvu OCR scan (two mechanical corrections made against the scan's

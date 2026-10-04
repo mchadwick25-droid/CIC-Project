@@ -53,7 +53,7 @@ use_note:
     - "a claim that this is the fuller 381 form of the creed"
     - "a claim that 'begotten' and 'made' mean the same thing"
   years: {from: 325, to: 325}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file - the
 Creed of 325 proper (not the fuller 381 form). The edition's own square

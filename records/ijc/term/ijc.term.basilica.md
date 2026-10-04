@@ -53,7 +53,7 @@ use_note:
   not_for:
     - "a claim that a basilica was a purely architectural term with no institutional weight"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 3;
 Lexicon-Chunks/ijclex011_basilica.md), widened per this build's step-4

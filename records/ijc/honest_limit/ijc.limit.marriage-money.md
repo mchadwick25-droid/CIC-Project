@@ -46,7 +46,7 @@ use_note:
     - "a claim about a wedding or a family's daily life from inside"
     - "a claim about what a poor believer's purse looked like from inside"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 F5-T held as an honest limit, narrowed: both halves of the cell have real
 material (a teacher's ranking of

@@ -79,7 +79,7 @@ use_note:
     - "a claim that Chrysostom taught that particular rulers are divinely chosen"
     - "a claim that clergy and monks were exempt from civil authority"
   years: {from: 390, to: 398}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at line 53993.
 DISCLOSED: the NPNF prints a variant note and a Greek gloss elsewhere in

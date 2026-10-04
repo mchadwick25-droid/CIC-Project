@@ -36,7 +36,7 @@ use_note:
     - "a claim that Ambrose's refusal involved armed resistance"
     - "a claim that Ambrose's own report is independent testimony to the standoff rather than self-report"
   years: {from: 386, to: 386}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. The
 crisis's whole shape in one sentence, from Ambrose's own report to his

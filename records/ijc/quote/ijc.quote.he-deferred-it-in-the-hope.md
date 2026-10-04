@@ -48,7 +48,7 @@ use_note:
     - "a claim that deferring baptism shows hypocrisy or indifference"
     - "a claim that Constantine was baptized, or even a catechumen, before his final illness"
   years: {from: 337, to: 340}
-  status: provisional
+  status: reviewed
 ---
 Opened for F4-T, served by ijc.dw.baptism-threshold alone, which cites this locus and
 could not show it. Verified by reading at the file line the record itself names.

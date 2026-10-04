@@ -42,7 +42,7 @@ use_note:
     - "a claim that this is Julius's text directly rather than through Athanasius's quotation"
     - "a claim that this is the earliest Roman primacy assertion ever made"
   years: {from: 341, to: 341}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file (the quoted
 sentence ends without terminal punctuation at the clause the edition's

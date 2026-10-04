@@ -44,7 +44,7 @@ use_note:
     - "a claim that Eusebius's vision and Lactantius's dream are one reconcilable account"
     - "a claim that this is a contemporary report rather than Constantine's telling long afterward"
   years: {from: 337, to: 340}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file (editorial
 footnotes stripped; the edition interleaves notes doubting this very

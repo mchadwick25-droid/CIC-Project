@@ -44,7 +44,7 @@ use_note:
   not_for:
     - "a claim about private prayer, silence in prayer, or inner struggle among believers"
   years: {from: 312, to: 451}
-  status: provisional
+  status: reviewed
 ---
 F4-P held as an honest limit with the record's two real gifts to the
 question named inside it (the sustaining singing; forgiveness's

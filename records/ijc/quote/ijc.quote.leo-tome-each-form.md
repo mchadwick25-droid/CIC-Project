@@ -46,7 +46,7 @@ use_note:
   not_for:
     - "a claim that 'form' means shape or outward appearance rather than the divine or human mode of being"
   years: {from: 449, to: 449}
-  status: provisional
+  status: reviewed
 ---
 Text verified verbatim against the vendored file (the
 edition's inline footnote markers stripped; "carrying out what

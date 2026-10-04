@@ -71,7 +71,7 @@ use_note:
     - "a claim that the Milan singing was antiphonal in form"
     - "a claim that custom-claims were neutral evidence rather than advocacy in live contests"
   years: {from: 325, to: 386}
-  status: provisional
+  status: reviewed
 ---
 F4-E answered with the world's own custom-apparatus AND its one
 honestly-dated innovation - the pairing that keeps the answer from

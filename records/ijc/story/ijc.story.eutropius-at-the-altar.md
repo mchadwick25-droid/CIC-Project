@@ -64,8 +64,8 @@ use_note:
   not_for:
     - "a claim that the bishop was defying the state's law rather than invoking a legal immunity"
     - "a claim that Chrysostom's mercy was of the modern kind"
-  years: {from: 312, to: 451}
-  status: provisional
+  years: {from: 399, to: 399}
+  status: reviewed
 ---
 Verified directly against the vendored file every element
 above at a named line: the office and the consulship in the section's

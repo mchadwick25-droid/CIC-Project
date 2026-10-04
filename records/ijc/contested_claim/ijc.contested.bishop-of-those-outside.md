@@ -39,8 +39,8 @@ use_note:
   not_for:
     - "a claim that the saying's meaning is recoverable from one reported sentence"
     - "a claim that the remark is independently attested beyond Eusebius"
-  years: {from: 312, to: 451}
-  status: provisional
+  years: {from: 312, to: 340}
+  status: reviewed
 ---
 Rebuilt from the approved Doc_01 SS4 (Strand B: "Documented as a
 textual claim; what it reveals about imperial self-understanding versus
