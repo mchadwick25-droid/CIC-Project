@@ -1328,3 +1328,17 @@ Carries out the free half of System Hub decision 46. Still switched off behind t
 - **Safety at the new limits.** The proof matrix now includes a fresh conversation refused because the free day is spent, and one refused after its free rounds: acute distress, an unclear turn and a failed safety check each get their Facilitator answer, and an ordinary message gets the pause with no voice call. The allowance's own file is checked never to log, persist or import anything beyond threading, datetime and typing. It resets on the UTC day, with the daily counters.
 - **Still soft:** the free day is memory only, so a restart gives everyone a fresh day, as the daily counters already do.
 - Tests: the allowance itself (hold, spend, give back, double settle, a new day, separate visitors); a free solo conversation stops after three rounds with the no-code line and the voice is not called for the fourth; three conversations exhaust the day and a code carries the fourth; a code carries round 4 at the later price; a failed voice call gives the free tokens back; Tables at two and three seats draw by seats and stop after three rounds; with the module off a fourth round still runs.
+
+## 2026-10-04 — Go Deeper S5a: the door's funds (how the week's gifts and purchases reach the app)
+
+**Ruled by Mark, 2026-10-04: Stripe plus my adjustments.** Gift payments and go-deeper purchases arrive by the signed webhook the codes already use and are counted over the last seven days; refunds and disputes subtract. Mark can also post a manual adjustment behind the admin login for friends-and-family gifts. No total to keep by hand.
+
+**What this slice builds (the door itself is S5b and S5c).**
+- A `funds` table in the meter's file (so the daily backup already covers it): the day, a kind (gift, purchase, adjustment), whole cents, the Stripe payment id for the two Stripe kinds, a note on an adjustment, and a reversed flag. The entry id is random, the table has no row order, and no time finer than a day is kept, in the same way as the rest of the meter. No code, buyer, session or visitor is anywhere in it. Rows are deleted 90 days on.
+- The webhook records a paid checkout's `amount_total` as a purchase (a go-deeper Payment Link) or a gift (a link named in `CIC_DEEPER_GIFT_LINKS`). A link cannot be both, so a purchase is never also a gift. A replayed event adds nothing; a payment refunded before its completion arrives adds nothing; an unpaid checkout, or one with no usable amount, adds nothing and logs the fact.
+- A refund or dispute reverses the payment's entry along with voiding its code.
+- Admin: `POST /api/admin/deeper/funds` (cents and a short note), `POST /api/admin/deeper/funds/{entry}/reverse`, `GET /api/admin/deeper/funds` (the seven-day sum by kind and the last fourteen days' entries, without payment ids). A reversed entry stays listed.
+
+**Added to the unverified Stripe facts for Mark:** that a completion event carries the amount paid as `amount_total` in cents, and that gifts go through their own Payment Links (S4).
+
+**Still to come:** S5b computes the week's priced spend from the usage log (the approved price tables in `engine/m8/price_tables.py`, times the measured invoice factor) against a ceiling of the base number plus a share of these funds; S5c lets admission narrow the free path in stages, failing closed to the last computed stage. The base number, the stage thresholds, the gift and purchase shares and the invoice factor are Mark's; each will ship in the operations file with a stated default.

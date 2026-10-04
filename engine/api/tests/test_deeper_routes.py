@@ -33,11 +33,11 @@ def sign(body: bytes, *, secret: str = SECRET, stamp: int | None = None) -> str:
     return f"t={stamp},v1={digest}"
 
 
-def completed(*, payment="pi_100", link=LINK_SINGLE, reference=REF, paid="paid", kind="checkout.session.completed"):
+def completed(*, payment="pi_100", link=LINK_SINGLE, reference=REF, paid="paid", kind="checkout.session.completed", amount=700):
     return {
         "id": "evt_1",
         "type": kind,
-        "data": {"object": {"id": "cs_1", "payment_link": link, "payment_status": paid, "payment_intent": payment, "client_reference_id": reference}},
+        "data": {"object": {"id": "cs_1", "payment_link": link, "payment_status": paid, "payment_intent": payment, "client_reference_id": reference, "amount_total": amount}},
     }
 
 
@@ -105,14 +105,16 @@ def test_flag_off_mounts_no_deeper_route(store, usage_store, world_loader, regis
     assert http.get("/api/deeper/balance").status_code == 404
     assert http.post("/api/admin/deeper/pause", json={"on": True}, headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/reconciliation", headers=admin()).status_code == 404
+    assert http.get("/api/admin/deeper/funds", headers=admin()).status_code == 404
 
 
-def test_flag_on_mounts_the_five_routes(store, usage_store, world_loader, registry, runtime):
+def test_flag_on_mounts_every_route(store, usage_store, world_loader, registry, runtime):
     app = make_app(store, usage_store, world_loader, registry, deeper=runtime)
     paths = {getattr(r, "path", "") for r in app.routes}
     assert {
         "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance",
         "/api/admin/deeper/pause", "/api/admin/deeper/reconciliation",
+        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse",
     } <= paths
 
 
@@ -563,3 +565,87 @@ def test_a_refunded_code_is_not_served_by_the_claim_route(http, runtime):
     assert claim(http).status_code == 200
     post_event(http, refunded())
     assert claim(http).status_code == 404
+
+
+# ---- the door's funds: gifts, purchases and adjustments ------------------------------
+
+@pytest.fixture
+def gift_runtime(runtime):
+    runtime.gift_links = frozenset({LINK_GIFT})
+    return runtime
+
+
+def test_a_paid_gift_is_counted_and_makes_no_code(http, gift_runtime):
+    assert post_event(http, completed(link=LINK_GIFT, payment="pi_g1", amount=2500)).status_code == 200
+    assert gift_runtime.meter.net_funds() == {"gift": 2500, "purchase": 0, "adjustment": 0}
+    assert claim(http).status_code == 404
+
+
+def test_a_go_deeper_purchase_counts_as_a_purchase_and_never_as_a_gift(http, gift_runtime):
+    post_event(http, completed(payment="pi_p1", amount=700))
+    assert gift_runtime.meter.net_funds() == {"gift": 0, "purchase": 700, "adjustment": 0}
+
+
+def test_a_replayed_event_adds_the_money_once(http, gift_runtime):
+    for _ in range(3):
+        post_event(http, completed(link=LINK_GIFT, payment="pi_g1", amount=2500))
+    assert gift_runtime.meter.net_funds()["gift"] == 2500
+
+
+def test_an_unpaid_checkout_counts_nothing(http, gift_runtime):
+    post_event(http, completed(link=LINK_GIFT, payment="pi_g2", amount=2500, paid="unpaid"))
+    assert gift_runtime.meter.net_funds() == {"gift": 0, "purchase": 0, "adjustment": 0}
+
+
+def test_a_refund_or_dispute_takes_a_gift_and_a_purchase_back_out(http, gift_runtime):
+    post_event(http, completed(link=LINK_GIFT, payment="pi_g1", amount=2500))
+    post_event(http, completed(payment="pi_p1", amount=700))
+    post_event(http, refunded("pi_g1"))
+    post_event(http, disputed("pi_p1"))
+    assert gift_runtime.meter.net_funds() == {"gift": 0, "purchase": 0, "adjustment": 0}
+
+
+def test_a_payment_refunded_before_its_completion_arrives_counts_nothing(http, gift_runtime):
+    post_event(http, refunded("pi_late"))
+    post_event(http, completed(link=LINK_GIFT, payment="pi_late", amount=2500))
+    assert gift_runtime.meter.net_funds()["gift"] == 0
+
+
+@pytest.mark.parametrize("amount", [None, 0, -5, "700", True, 10_000_001])
+def test_a_checkout_with_no_usable_amount_counts_nothing(http, gift_runtime, amount):
+    event = completed(link=LINK_GIFT, payment="pi_g3")
+    event["data"]["object"]["amount_total"] = amount
+    assert post_event(http, event).status_code == 200
+    assert gift_runtime.meter.net_funds()["gift"] == 0
+
+
+def test_the_admin_adds_lists_and_reverses_an_adjustment(http, runtime):
+    added = http.post("/api/admin/deeper/funds", json={"cents": 5000, "note": "church gift, cash"}, headers=admin())
+    assert added.status_code == 200
+    entry = added.json()["id"]
+    listing = http.get("/api/admin/deeper/funds", headers=admin()).json()
+    assert listing["net"]["adjustment"] == 5000
+    assert listing["entries"][0]["note"] == "church gift, cash" and "payment_id" not in listing["entries"][0]
+    assert http.post(f"/api/admin/deeper/funds/{entry}/reverse", headers=admin()).status_code == 200
+    assert http.get("/api/admin/deeper/funds", headers=admin()).json()["net"]["adjustment"] == 0
+    assert http.post(f"/api/admin/deeper/funds/{entry}/reverse", headers=admin()).status_code == 404
+
+
+@pytest.mark.parametrize("body", [{"cents": 0, "note": "x"}, {"cents": 5000, "note": ""}, {"cents": 5000}, {"note": "x"}, {"cents": 10_000_001, "note": "x"}])
+def test_a_bad_adjustment_is_refused(http, body):
+    assert http.post("/api/admin/deeper/funds", json=body, headers=admin()).status_code == 422
+
+
+def test_the_funds_routes_need_the_admin_credential(http):
+    assert http.get("/api/admin/deeper/funds").status_code == 404
+    assert http.post("/api/admin/deeper/funds", json={"cents": 1, "note": "x"}, headers=admin("wrong")).status_code == 404
+    assert http.post("/api/admin/deeper/funds/abc/reverse").status_code == 404
+
+
+def test_a_link_cannot_be_both_a_gift_and_a_product():
+    products = {LINK_SINGLE: Product("single", 25)}
+    assert deeper_routes.parse_gift_links(json.dumps([LINK_GIFT]), products) == frozenset({LINK_GIFT})
+    assert deeper_routes.parse_gift_links(None, products) == frozenset()
+    for bad in ("not json", "{}", json.dumps([1]), json.dumps([""]), json.dumps([LINK_SINGLE])):
+        with pytest.raises(DeeperConfigError):
+            deeper_routes.parse_gift_links(bad, products)
