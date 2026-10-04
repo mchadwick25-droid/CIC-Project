@@ -175,6 +175,7 @@ Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: packages/cappadocian/2026-
 Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: packages/cappadocian/2026-09-02T04-37-12Z
 Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: packages/cappadocian/2026-09-04T16-41-51Z
 Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: packages/cappadocian/2026-09-09T11-47-03Z
+Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: records/_fleet
 Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: records/cappadocian/world_core/cappadocian.core.nicene-cappadocian.md
 Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: records/worlds.yaml
 Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: worlds/Nicene-Cappadocian
