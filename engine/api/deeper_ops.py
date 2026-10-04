@@ -5,6 +5,7 @@ at startup, refuses to start on a bad one, and hands each part to whoever
 needs it as plain data."""
 import os
 from dataclasses import dataclass
+from datetime import date, datetime
 
 import yaml
 
@@ -22,6 +23,7 @@ MINIMUM_PACK_USD = 7
 LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
 DOOR_KEYS = ("observe", "base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
 PAID_KEYS = ("round_cap", "provisional")
+PILOT_KEYS = ("pilot_open", "pilot_cap", "pilot_end_date", "per_address", "pack_usd")
 ADMIN_KEYS = ("mint_max_tokens_per_request", "mint_max_tokens_per_day")
 STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_share", "free_voice", "paid_voice"}
 
@@ -46,6 +48,11 @@ class DeeperOps:
     paid_round_cap_provisional: bool
     admin_mint_max_tokens_per_request: int
     admin_mint_max_tokens_per_day: int
+    pilot_open: bool
+    pilot_cap: int
+    pilot_end_date: date
+    pilot_per_address: int
+    pilot_pack_usd: int
 
 
 def _section(data: dict, name: str, keys: tuple[str, ...]) -> dict:
@@ -163,8 +170,8 @@ def load_ops(path: str | None = None) -> DeeperOps:
             data = yaml.safe_load(handle)
     except (OSError, yaml.YAMLError) as exc:
         raise OpsFileError(f"cannot read {path}: {exc}") from exc
-    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "paid", "admin", "words"}:
-        raise OpsFileError("the file must hold exactly limits, tokens, door, paid, admin and words")
+    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "paid", "admin", "pilot", "words"}:
+        raise OpsFileError("the file must hold exactly limits, tokens, door, paid, admin, pilot and words")
     limits = _section(data, "limits", LIMIT_KEYS)
     for key, value in limits.items():
         if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
@@ -189,9 +196,23 @@ def load_ops(path: str | None = None) -> DeeperOps:
         _whole(value, f"admin.{key}")
     if admin["mint_max_tokens_per_request"] > admin["mint_max_tokens_per_day"]:
         raise OpsFileError("admin.mint_max_tokens_per_request cannot exceed admin.mint_max_tokens_per_day")
+    pilot = _section(data, "pilot", PILOT_KEYS)
+    if not isinstance(pilot["pilot_open"], bool):
+        raise OpsFileError("pilot.pilot_open must be true or false")
+    end = pilot["pilot_end_date"]
+    if isinstance(end, datetime):
+        raise OpsFileError("pilot.pilot_end_date must be a plain date")
+    if not isinstance(end, date):
+        raise OpsFileError("pilot.pilot_end_date must be a date")
+    for key in ("pilot_cap", "per_address", "pack_usd"):
+        _whole(pilot[key], f"pilot.{key}")
+    if pilot["pack_usd"] not in [p.price_usd for p in packs]:
+        raise OpsFileError("pilot.pack_usd must be one of the offer's packs")
     return DeeperOps(
         group_daily_ceiling=limits["group_daily_ceiling"],
         group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
         door_observe=data["door"]["observe"], paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
         admin_mint_max_tokens_per_request=admin["mint_max_tokens_per_request"], admin_mint_max_tokens_per_day=admin["mint_max_tokens_per_day"],
+        pilot_open=pilot["pilot_open"], pilot_cap=pilot["pilot_cap"], pilot_end_date=end, pilot_per_address=pilot["per_address"],
+        pilot_pack_usd=pilot["pack_usd"],
     )

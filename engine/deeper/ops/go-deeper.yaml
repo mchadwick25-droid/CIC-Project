@@ -39,6 +39,12 @@ paid:
 admin:
   mint_max_tokens_per_request: 6600
   mint_max_tokens_per_day: 13200
+pilot:
+  pilot_open: false
+  pilot_cap: 50
+  pilot_end_date: 2026-12-31
+  per_address: 2
+  pack_usd: 7
 words:
   limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
   notes:

@@ -34,9 +34,10 @@ from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
 from engine.deeper.config import DeeperConfig
 from engine.deeper import meter as meter_module
-from engine.deeper.meter import KINDS, AlreadyMinted, Meter, MintLimit, PaymentVoided, is_grant
+from engine.deeper.meter import KINDS, AlreadyMinted, Meter, MintLimit, PaymentVoided, PilotRefused, is_grant
 from engine.deeper.free import FreeAllowance
 from engine.deeper.tokens import TokenRates
+from engine.api.ratelimit import client_ip, network_of
 
 logger = logging.getLogger("cic.deeper")
 
@@ -460,6 +461,48 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         line = words["paused"] + (" " + words["code_still_works"] if state.paid_voice else "")
         return {"state": "paused", "line": line}
 
+    @app.options("/api/deeper/pilot-join")
+    def pilot_preflight(request: Request, response: Response):
+        if runtime.ops is None or not runtime.ops.pilot_open:
+            raise HTTPException(status_code=404)
+        _cors(request, response)
+        response.headers["Access-Control-Allow-Methods"] = "POST"
+        response.headers["Access-Control-Allow-Headers"] = "content-type"
+        response.headers["Access-Control-Max-Age"] = "600"
+        response.status_code = 204
+
+    @app.post("/api/deeper/pilot-join")
+    def pilot_join(request: Request, response: Response):
+        """The pilot's one free pack. A press of the page's button makes one
+        ordinary code with no payment, shown here once. Limited by the pilot's
+        open switch, end date, cap and a count per address, all in the operations
+        file; the address is kept only as a keyed hash. Counts toward the door as
+        a gift of the pack's price."""
+        _cors(request, response)
+        response.headers["Cache-Control"] = "no-store"
+        ops = runtime.ops
+        if ops is None:
+            raise HTTPException(status_code=404)
+        pack = next((p for p in ops.packs if p.price_usd == ops.pilot_pack_usd), None)
+        if pack is None:
+            raise HTTPException(status_code=404)
+        grant_id = "pilot_" + secrets.token_hex(12)
+        try:
+            code = runtime.meter.join_pilot(
+                network_of(client_ip(request)), pack.tokens, grant_id, open_=ops.pilot_open, end_date=ops.pilot_end_date,
+                cap=ops.pilot_cap, per_address=ops.pilot_per_address,
+            )
+        except PilotRefused as refused:
+            if refused.reason == "closed":
+                raise HTTPException(status_code=404)
+            response.status_code = 409
+            return {"joined": False, "reason": refused.reason}
+        try:
+            runtime.meter.add_funds("gift", pack.price_usd * 100, grant_id, "pilot grant")
+        except Exception:  # noqa: BLE001 - the code is made; a failed count must not take it from the visitor
+            logger.error("pilot grant made but its gift could not be counted toward the door")
+        return {"joined": True, "code": codes.display(code), "tokens": pack.tokens}
+
     @app.post("/api/admin/deeper/pause")
     def pause(req: PauseRequest, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
@@ -495,7 +538,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             raise HTTPException(status_code=422, detail=str(exc))
         try:
             runtime.meter.add_funds("gift", req.pack_usd * req.count * 100, grant_id, "admin grant")
-        except ValueError:
+        except Exception:  # noqa: BLE001 - the codes are made; a failed count must not hide them from the operator
             logger.error("admin grant made but its gift could not be counted toward the door")
         response.headers["Cache-Control"] = "no-store"
         return {"mint_id": grant_id, "tokens_each": tokens, "codes": [codes.display(c) for c in made]}
@@ -520,6 +563,10 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             "free_grant": {
                 "baseline_tokens": window, "window_days": runtime.token_rates.free_window_days,
                 "rounds_per_conversation": runtime.token_rates.free_rounds, "now_tokens": int(window * share),
+            },
+            "pilot": None if ops is None else {
+                "open": ops.pilot_open, "cap": ops.pilot_cap, "given": runtime.meter.pilot_total(),
+                "end_date": ops.pilot_end_date.isoformat(), "per_address": ops.pilot_per_address,
             },
             "packs": [{"price_usd": p.price_usd, "tokens": p.tokens} for p in ops.packs] if ops is not None else [],
             "mint_limits": None if ops is None else {
