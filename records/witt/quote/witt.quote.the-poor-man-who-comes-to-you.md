@@ -59,6 +59,15 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: witt.dw.the-poor-man-at-the-door
+use_note:
+  means: "The Large Catechism's Seventh Commandment (1529) warns the household that turning away a day-labourer with harshness and pride brings God's vengeance, as dangerous as the devil."
+  not_for:
+    - "a claim that the catechism names anyone among us as rich or condemns wealth as such"
+    - "a claim that this one locus represents a full survey of our teaching on money and poverty"
+    - "a claim that this is the sharpest warning in the whole household book, which no record has checked"
+    - "the marriage-as-estate material, which sits in witt.dw.the-poor-man-at-the-door and witt.term.marriage"
+  years: {from: 1529, to: 1529}
+  status: reviewed
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
 the vendored cic/texts/luther_large-catechism_bente-dau1921.txt. `grep -n "when the poor man comes to

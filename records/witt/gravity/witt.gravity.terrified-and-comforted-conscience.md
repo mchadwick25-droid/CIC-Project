@@ -130,5 +130,13 @@ manifestations:
   be referred to that conflict of the terrified conscience, neither can it be understood apart from that
   conflict" (AC 546-553)'
 - '"The Pope is a mere tormentor of the conscience" (TT 3083-3084, Contested as verbatim)'
+use_note:
+  means: "The terrified and comforted conscience names assurance against despair, the Law terrifying and the promise comforting, so that the believer 'cannot doubt I have a gracious God.'"
+  not_for:
+    - "conscience as a moral compass"
+    - "assurance as self-confidence or presumption"
+    - "the term definitions, which sit in witt.term.conscience and witt.term.assurance"
+  years: {from: 1517, to: 1531}
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G5 -> §3 G5 -> §7 row G5; PRIMARY). Interaction Matrix (Doc_04 §5, row/col G5): G1 (R), G2 (R), G3 (R), G4 (R), G6 (S), G7 (R(t)), G8 (R), G9 (R), G11 (R(t)), G12 (R), G13 (C) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: G10. Forces-connection (Doc_08 §5): witt.force.laitys-need-for-assurance (enabled-by), witt.force.friars-conviction (enabled-by), witt.force.papal-force-ongoing (associated-with), witt.force.internal-radical-force (associated-with), witt.force.imperial-force-ongoing (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.

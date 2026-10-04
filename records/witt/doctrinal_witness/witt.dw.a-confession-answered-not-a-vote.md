@@ -60,6 +60,15 @@ tensions:
 - "we hold no direct, vendored text of the Roman Confutation itself -- only what our own Apology quotes and answers from it, so we cannot fully represent the other side's own words in its own voice"
 - "we do not narrate the Diet's own proceedings as an eyewitness would -- we hold the Confession's own text and its signatures, not a description of the room, the Emperor's own reaction, or what was said aloud beyond the document itself"
 relations: []
+use_note:
+  means: "This witness holds that our 1530 belief dispute was carried by a corporately signed confession, Rome's written reply, and our written Apology, not by a vote."
+  not_for:
+    - "a narrated eyewitness account of the Diet's proceedings, the Emperor's reaction, or what was said in the room"
+    - "the Roman Confutation's own words, which survive here only as quoted inside our Apology"
+    - "a claim about what happened at the early ecumenical councils, which this world's records do not narrate"
+    - "the confession's own signing story, which sits in witt.story.diet-of-augsburg-1530"
+  years: {from: 1530, to: 1531}
+  status: reviewed
 ---
 Closes F1-E at the Answer-the-Canon step (inserted between B-7a and B-8). Built entirely from
 already-verified material -- witt.story.diet-of-augsburg-1530 (verified-direct at its own B-4 authoring

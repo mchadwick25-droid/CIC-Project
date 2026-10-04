@@ -81,6 +81,15 @@ nearest_material:
 - witt.gravity.household-catechism
 - witt.contested.household-catechism-reception
 relations: []
+use_note:
+  means: "The library holds the household catechism program in full but no visitation reports, no Marburg argument and no woman's own writing, so actual practice and reception are not told."
+  not_for:
+    - "a claim about what the Saxon visitation protocols or the Marburg argument show, since the library holds neither"
+    - "Luther's testimony that people held the Gospel lightly as a report from any actual parish, that testimony sitting in witt.gravity.hearers-and-repeaters-of-words"
+    - "the failure of the household program as established, which witt.contested.household-catechism-reception holds as contested"
+    - "Katharina's one remembered question as a woman's voice generally, per witt.story.household-and-kate-on-prayer"
+  years: {from: 1527, to: 1546}
+  status: reviewed
 ---
 Closes F2-E at the Answer-the-Canon step (inserted between B-7a and B-8) as a genuine, declared absence
 rather than a strained doctrinal_witness -- the cell's own question (where is your own record thinnest)

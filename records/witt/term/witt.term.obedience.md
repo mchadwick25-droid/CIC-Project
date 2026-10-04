@@ -67,6 +67,14 @@ senses:
     would mean sin.'
 quick_meaning: Obedience owed to parents and rulers, limited only when they command sin.
 distortion_risk: high
+use_note:
+  means: "Obedience meant what is owed to parents and rulers as to God, with the single limit that no one obeys a command to sin."
+  not_for:
+    - "obedience as servility"
+    - "the limit clause as a general right of resistance"
+    - "the civil ruler's institutional power, which sits in witt.term.the-sword"
+  years: {from: 1520, to: 1546}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 7.3 (obedience, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

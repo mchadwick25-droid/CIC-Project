@@ -110,6 +110,14 @@ modern_contrast: 'A modern reader most often knows this story as "Luther nailed 
   scene may or may not have happened alongside that letter; either way, it is not the act the letter itself
   records, and the letter''s own tone - careful, respectful, addressed upward - is not the tone of a public
   act of rebellion.'
+use_note:
+  means: "On 31 October 1517 Luther wrote respectfully to Archbishop Albrecht of Mainz, warning of the indulgence preaching and enclosing ninety-five statements for debate."
+  not_for:
+    - "the hammer-and-door posting as settled fact, which witt.contested.theses-door-posting holds as contested"
+    - "the Theses' theological content, which sits in witt.term.indulgence and witt.term.repentance"
+    - "the letter as mentioning a door or any public posting, which it does not"
+  years: {from: 1517, to: 1517}
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S01 (Doc_09 witt_Doc_09_Story_Inventory.md SS2, "The letter to
 Albrecht and the circulation of the Ninety-Five Theses"). Quotations carried from Doc_09's own text

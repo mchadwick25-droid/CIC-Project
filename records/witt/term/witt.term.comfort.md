@@ -83,6 +83,13 @@ senses:
     conscience by a promise -- the thing every sacrament and absolution exists to give.
 quick_meaning: What faith gives a troubled conscience. Never earned by works.
 distortion_risk: high
+use_note:
+  means: "Comfort meant the setting at rest of an accused conscience by faith in God's promise, which no amount of good works could give."
+  not_for:
+    - "comfort as mere reassurance or emotional support"
+    - "certainty specifically, which sits in witt.term.assurance"
+  years: {from: 1519, to: 1545}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 9.1 (comfort / consolation, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

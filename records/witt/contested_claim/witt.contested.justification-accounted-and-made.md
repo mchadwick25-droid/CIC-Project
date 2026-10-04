@@ -77,17 +77,24 @@ held_against:
   build's evidence base" (Doc_06 SS2) - and this record carries that same limit forward rather than
   quietly resolving it by choosing a reading.
 concedes: >-
-  Not contested: that both wordings genuinely occur in the world's own texts (AC 238-239; Ap 1080-1085,
-  1120-1122), that the confessional voice states them together in the same paragraph on purpose rather than
-  by inattention ("For Scripture speaks in both ways"), that justification in both wordings is by faith
-  alone and for Christ's sake alone, excluding confidence in works and love rather than works themselves
-  (Ap 1101-1103, 1384-1391), and that the doctrine is the confession's own named "chief topic of Christian
-  doctrine" (Ap 561-562). Documented, all of it. What cannot be settled from this record is which wording,
-  if either, is fundamental and which derivative, and how any present-day tradition reads the same two
-  Apology sentences - Contested, and left unresolved here on purpose, since the only basis this build has
-  for calling it a live scholarly contest at all is builder judgment on the in-text tension, not a rowed
-  secondary source.
+  Not contested: both wordings occur in the world's own texts (AC 238-239; Ap 1080-1085, 1120-1122). The
+  confessional voice states them together in the same paragraph on purpose, not by inattention: "For
+  Scripture speaks in both ways." Justification in both wordings is by faith alone and for Christ's sake
+  alone. It excludes confidence in works and love, not works themselves (Ap 1101-1103, 1384-1391). The
+  doctrine is the confession's own named "chief topic of Christian doctrine" (Ap 561-562). All of this is
+  documented. What cannot be settled from this record is which wording, if either, is fundamental and which
+  derivative. Nor can it settle how any present-day tradition reads the same two Apology sentences. These
+  points are contested. The only basis for calling this a live scholarly contest is this record's own
+  judgment about the tension in the text. No secondary source held in this library backs it.
 divergence_partners: []
+use_note:
+  means: "The claim that 'accounted righteous' controls the confessional doctrine of justification, with 'made righteous' a mere paraphrase, is contested, since the Apology states both as coordinate uses."
+  not_for:
+    - "either reading of 'accounted' and 'made' as the settled confessional position"
+    - "the two wordings as an unrelated pair of claims, when the text states them together in one paragraph"
+    - "the word's general meaning, which sits in witt.term.justification"
+  years: {from: 1530, to: 1531}
+  status: reviewed
 ---
 Unparked from Doc_06 SS2.1's own [CT] tagging of lexicon entry 2.2 (justification), contest types "Meaning
 within its historical context" and "Relationship to present-day traditions," carried forward provisional

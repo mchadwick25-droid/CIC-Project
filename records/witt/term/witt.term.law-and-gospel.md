@@ -92,6 +92,14 @@ senses:
     read in order on a single person -- first the illness, then the remedy.'
 quick_meaning: Scripture as command and promise. First the diagnosis, then the cure.
 distortion_risk: high
+use_note:
+  means: "Law and Gospel meant two kinds of scriptural speech, the Law commanding without giving power and the Gospel promising what the Law demands, diagnosis then cure."
+  not_for:
+    - "'Law and Gospel' as a labelled theological method or system"
+    - "the pairing as Old Testament against New Testament"
+    - "the Gospel's own content, which sits in witt.term.gospel"
+  years: {from: 1520, to: 1531}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.6 (Law and Gospel, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][TC][DR][RT]. Author Gravity: none -- both voices, 1520 and 1529 and 1531. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
