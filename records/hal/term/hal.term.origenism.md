@@ -50,6 +50,14 @@ distortion_risk: medium
 relations:
 - type: associated-with
   target: hal.gravity.controversy-pressure
+use_note:
+  means: "The 390s fight over Origen's teachings, which broke the friendship with Rufinus and was doctrinal, personal, and political at once."
+  not_for:
+    - "settling whether the quarrel was mainly doctrinal or mainly political"
+    - "favoring Rufinus's or Jerome's account of the dispute"
+    - "treating it as a purely abstract theological disagreement"
+  years: {from: 393, to: 403}
+  status: provisional
 ---
 Re-derived from cleared Doc_06 entry 8 (hal_lex08), the corpus's one
 CT-tagged term - Contest Type: Meaning (doctrinal-vs-political weight),

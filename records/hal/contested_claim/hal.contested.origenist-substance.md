@@ -40,6 +40,14 @@ divergence_partners:
 relations:
 - type: associated-with
   target: hal.source.origen-philocalia
+use_note:
+  means: "The claim that the Origenist controversy was in substance a serious doctrinal dispute is contested by readings that see personal and political conflict."
+  not_for:
+    - "resolving the quarrel as doctrinal or as merely political"
+    - "treating either man's account as neutral"
+    - "denying that the doctrinal positions were really named and renounced"
+  years: {from: 393, to: 403}
+  status: provisional
 ---
 The corpus's one CT-tagged contest (Doc_06 entry 8, Contest Type: Meaning),
 carried as a first-class record. Voice consequence: when this story is

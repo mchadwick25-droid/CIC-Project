@@ -47,6 +47,13 @@ senses:
     and since.'
 quick_meaning: Lifelong consecrated virginity. We held it as the highest calling for a woman.
 distortion_risk: high
+use_note:
+  means: "Lifelong consecrated virginity, ranked above marriage in an explicit hierarchy that Jerome argued severely and that drew criticism even from friends."
+  not_for:
+    - "treating Jerome's harshest rhetoric as the whole community's voice"
+    - "presenting the praise of celibacy as gentle or uncontroversial"
+  years: {from: 382, to: 420}
+  status: provisional
 ---
 Re-derived from cleared Doc_06 entry 4 (hal_lex04), with the
 Against-Jovinianus evidence (and the circulation-withdrawal episode, Epp.

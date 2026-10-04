@@ -49,6 +49,13 @@ manifestations:
 - the Bethlehem commentaries dedicated and dispatched to Rome, book by book
 - the Augustine dispute, conducted entirely by letter across the sea
 classification: supporting
+use_note:
+  means: "The letter served as a supporting medium that held a community split between Rome and Bethlehem together as one project."
+  not_for:
+    - "reading the abundance of letters as proof that letters drove formation"
+    - "treating the letter as an independent source of formation content"
+  years: {from: 385, to: 420}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (G4: passes all six tests; Supporting on
 the corrected rationale - the evidentiary-circularity flag plus its

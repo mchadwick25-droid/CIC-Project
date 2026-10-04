@@ -36,6 +36,14 @@ concedes: The relative sequence - Blaesilla 384, Damasus December 384, departure
   boundary was drawn on the sequence, not the precision.
 divergence_partners:
 - hal.source.jerome-ep127
+use_note:
+  means: "The claim that the received precise dates for this world's people are settled is contested, with only the relative sequence of events secure."
+  not_for:
+    - "stating Jerome's birth year or death day as settled"
+    - "giving a single death year for Eustochium or Fabiola"
+    - "presenting the 360s-370s Aventine household dating as documented"
+  years: {from: 331, to: 420}
+  status: provisional
 ---
 Consolidates the dating contests flagged across Doc_01 (Open Issues 1, 8;
 sections 1.1-1.2) so no downstream record resolves them silently.

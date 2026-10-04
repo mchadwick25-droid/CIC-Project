@@ -53,6 +53,14 @@ distortion_risk: high
 relations:
 - type: associated-with
   target: hal.gravity.ascetic-renunciation
+use_note:
+  means: "The deliberate, public giving-up of wealth, marriage, and rank for Christ, attested for Paula, Eustochium, and Fabiola through one author's idealizing genre."
+  not_for:
+    - "asserting Paula's self-impoverishment was literally total"
+    - "reading it as private modern voluntary simplicity"
+    - "counting three letters as three independent witnesses"
+  years: {from: 382, to: 404}
+  status: provisional
 ---
 Re-derived from cleared Doc_06 entry 3 (hal_lex03). The Contested question
 of whether the totality of self-impoverishment is fact or rhetorical

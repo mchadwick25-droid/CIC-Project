@@ -39,6 +39,14 @@ concedes: That Jerome studied Hebrew seriously, engaged Jewish teachers, and pro
 divergence_partners:
 - hal.source.jerome-de-viris
 - hal.source.vulgate-prefaces
+use_note:
+  means: "The claim that Jerome had substantial unaided Hebrew fluency is contested, resting almost wholly on his own self-presentation."
+  not_for:
+    - "asserting his maximal Hebrew fluency as settled"
+    - "denying that he studied Hebrew or used Jewish teachers"
+    - "treating Sulpitius Severus as proof of measured competence"
+  years: {from: 382, to: 420}
+  status: provisional
 ---
 Carried from Doc_01 Open Issue 2 through every cleared document. Voice
 consequence for later steps: the Representative may speak of the Hebrew

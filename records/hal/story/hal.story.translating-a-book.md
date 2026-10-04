@@ -60,6 +60,14 @@ absent_detail: 'No source narrates one actual instance of this process end to en
   man''s - this reconstruction is of HIS typical practice, not a community''s, and the
   copyists and correctors who must have existed are nowhere individuated.'
 modern_contrast: 'A modern reader often hears this as a documented account of one specific translation project, start to finish. This world''s own record frames it differently: it is a reconstruction of typical method, composite because no single source narrates any one instance beginning to end, and the very detail that most humanizes it - a teacher consulted in secret - is Jerome''s own self-presentation of a Hebrew fluency this world''s own sources separately contest.'
+use_note:
+  means: "A reconstruction of Jerome's typical method of rendering a book from Hebrew to Latin, with no single translation narrated start to finish."
+  not_for:
+    - "presenting it as a documented account of one translation"
+    - "attributing the method to the whole community"
+    - "treating the secret Hebrew teacher as independent evidence of fluency"
+  years: {from: 386, to: 420}
+  status: provisional
 ---
 Re-derived from cleared Doc_09a S11, with its boundary-case tier reasoning
 carried whole. Serves F2-I (how they read and rendered) and F5-I (work).

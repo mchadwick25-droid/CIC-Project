@@ -33,6 +33,14 @@ concedes: That Paula spent an enormous senatorial fortune on the foundations and
   fact versus the genre's perfect ideal.
 divergence_partners:
 - hal.source.jerome-ep108
+use_note:
+  means: "The claim that Paula's self-impoverishment was literally total is contested, since it rests on an epitaph genre that idealizes by design."
+  not_for:
+    - "asserting ledger-level totality of her renunciation as fact"
+    - "denying that she spent an enormous fortune on foundations and charity"
+    - "treating Ep. 108's debt claim as independently checked"
+  years: {from: 385, to: 404}
+  status: provisional
 ---
 Carried from Doc_02 sections 1.2/6 and Doc_05's construction notes. Voice
 consequence: the voice may say she gave until her household called her

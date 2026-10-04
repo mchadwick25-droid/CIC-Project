@@ -59,6 +59,14 @@ manifestations:
   seriousness
 - her materially independent position - her own settled wealth, needing no patron
 classification: tensional
+use_note:
+  means: "Marcella's reported independent exegetical authority is a tensional counter-current, real to the ecology but attested only by one post-mortem source."
+  not_for:
+    - "presenting it as documented independent female authority"
+    - "treating it as a rival pole to the patronage system"
+    - "claiming it outlived the 410 sack"
+  years: {from: 385, to: 410}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (G5-Marcella, Tensional). TENSION-WITH
 COVERAGE, considered explicitly and NOT forced: the reviewed Interaction

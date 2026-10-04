@@ -64,6 +64,14 @@ manifestations:
 - the Augustine correspondence and the Oea congregation's revolt over one changed word
 - Hebrew study under Jewish teachers, paid for by Paula's patronage
 classification: primary
+use_note:
+  means: "Hebrew-based textual authority organized the translation project and its running defense, and the separate contest over Jerome's fluency leaves its organizing strength intact."
+  not_for:
+    - "asserting Jerome's maximal Hebrew fluency as settled"
+    - "presenting the principle as uncontested in its own time"
+    - "treating a primary gravity as a settled consensus"
+  years: {from: 382, to: 420}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (G1: passes all six tests; bipolar
 geography holds - Rome origin and dispute-network, Bethlehem the sustained

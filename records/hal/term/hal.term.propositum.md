@@ -49,6 +49,13 @@ senses:
     so it is applied here by reasonable analogy, not direct attestation.
 quick_meaning: A vowed ascetic way of life - real period wording, not directly quoted for these women.
 distortion_risk: medium
+use_note:
+  means: "The vowed ascetic resolve, real period vocabulary that is not attested in surviving texts as applied to these four women."
+  not_for:
+    - "claiming Jerome or these women used this exact word"
+    - "reading it as a private informal intention"
+  years: {from: 382, to: 420}
+  status: provisional
 ---
 Imported from the old system's fuller lexicon development document (hal_Doc_06, Tier-3 entry 2,
 "Propositum") at Mark's direction, as a draft, not a final version. The old record's own caveat - that

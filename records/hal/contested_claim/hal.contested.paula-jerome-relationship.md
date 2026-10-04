@@ -46,6 +46,14 @@ relations:
   target: hal.source.palladius-paradise-syriac
 - type: associated-with
   target: hal.quote.paula-escaped-his-envy
+use_note:
+  means: "The claim that Paula and Jerome's relationship was the willing partnership Jerome presents is contested by Palladius's hostile account."
+  not_for:
+    - "presenting Jerome's account as the settled truth"
+    - "presenting Palladius's account as the settled truth"
+    - "denying that Paula founded, funded, and governed the foundations"
+  years: {from: 385, to: 404}
+  status: provisional
 ---
 A contest the prior build carried implicitly (Doc_02's Palladius entry and
 Author Gravity assessment) and this record makes first-class: the two

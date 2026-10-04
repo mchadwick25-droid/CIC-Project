@@ -48,6 +48,14 @@ senses:
     its role in his reputation was real and visible.
 quick_meaning: The books Jerome gathered and worked from, central to his reputation as a scholar.
 distortion_risk: medium
+use_note:
+  means: "The books Jerome gathered and worked from, which his scholarly reputation visibly rested on, though his own use of this word for his collection is unconfirmed."
+  not_for:
+    - "presenting bibliotheca as Jerome's own attested word for his Bethlehem collection"
+    - "picturing a large modern library or public institution"
+    - "stating the collection's size or holdings"
+  years: {from: 386, to: 420}
+  status: provisional
 ---
 Imported from the old system's fuller lexicon development document (hal_Doc_06, Tier-2 entry 6,
 "Bibliotheca") at Mark's direction, as a draft, not a final version. The old record's citation of a

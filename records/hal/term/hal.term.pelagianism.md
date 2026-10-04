@@ -42,6 +42,14 @@ senses:
 quick_meaning: The fight over grace and sinlessness that brought a mob to our own monastery
   in 416.
 distortion_risk: medium
+use_note:
+  means: "The dispute over grace and human capacity, which reached this community as a documented mob attack in 416."
+  not_for:
+    - "supplying precise casualties, attackers, or scene detail"
+    - "treating it as only an abstract debate"
+    - "quoting the women's lost report to Rome"
+  years: {from: 416, to: 416}
+  status: provisional
 ---
 Re-derived from cleared Doc_06 entry 9 (hal_lex09), with the source base
 sharpened on this branch (the five-letter cluster, and Innocent's Ep. 137
