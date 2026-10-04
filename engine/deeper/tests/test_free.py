@@ -92,3 +92,18 @@ def test_the_allowance_never_logs_or_stores_a_visitor_key():
     assert imported <= {"threading", "datetime", "typing"}
     called = {n.func.id for n in ast.walk(tree) if isinstance(n, ast.Call) and isinstance(n.func, ast.Name)}
     assert not called & {"print", "open"}
+
+
+def test_a_share_narrows_the_day(free):
+    assert free.reserve("v", 200, share=0.5) is None
+    held = free.reserve("v", 165, share=0.5)
+    assert held is not None
+    free.settle(held, True)
+    assert free.reserve("v", 1, share=0.5) is None
+    assert free.reserve("v", 1) is not None
+
+
+@pytest.mark.parametrize("share", [0, -0.5, 1.5])
+def test_a_share_outside_zero_to_one_is_refused(free, share):
+    with pytest.raises(ValueError):
+        free.reserve("v", 10, share=share)

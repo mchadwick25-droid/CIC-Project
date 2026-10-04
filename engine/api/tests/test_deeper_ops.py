@@ -153,6 +153,7 @@ def test_the_shipped_door_is_the_documented_default():
         lambda d: d["door"].update(stages=[{"at": 0.5, "solo_free_rounds": -1}]),
         lambda d: d["door"].update(stages=[{"at": 0.5, "solo_free_rounds": True}]),
         lambda d: d["door"].update(stages=[{"at": 0.5, "free_day_share": 2}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "free_day_share": 0}]),
     ],
 )
 def test_a_malformed_door_is_refused(tmp_path, change):

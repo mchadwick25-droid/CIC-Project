@@ -47,13 +47,16 @@ class DailyFreeAllowance:
         with self._lock:
             return max(0, self.daily_amount - self._used_today(key, today) - self._held.get(key, 0))
 
-    def reserve(self, key: str, amount: int) -> FreeReservation | None:
-        """Holds amount against today's allowance, or None when it does not fit."""
+    def reserve(self, key: str, amount: int, share: float = 1.0) -> FreeReservation | None:
+        """Holds amount against today's allowance, or None when it does not fit.
+        share narrows the day: 0.5 lets a visitor draw half of it."""
         if amount < 1:
             raise ValueError("amount must be at least 1")
+        if not 0 < share <= 1:
+            raise ValueError("share must be above 0 and at most 1")
         today = self._clock().isoformat()
         with self._lock:
-            if self._used_today(key, today) + self._held.get(key, 0) + amount > self.daily_amount:
+            if self._used_today(key, today) + self._held.get(key, 0) + amount > int(self.daily_amount * share):
                 return None
             self._held[key] = self._held.get(key, 0) + amount
             return FreeReservation(key, today, amount)
