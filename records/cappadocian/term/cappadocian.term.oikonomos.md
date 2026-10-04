@@ -46,6 +46,6 @@ use_note:
     - "oikonomia as pastoral reserve, which sits in cappadocian.term.theologia-oikonomia"
     - "a claim that a treatise on stewardship survives"
   years: {from: 370, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 38 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [] to other terms was a decision, not an oversight. B-4 (S2.4) added one cross-type relation, to cappadocian.story.poorhouse-famine-month, whose own text puts this office to the work its name describes; reciprocated on that story's own relations[].

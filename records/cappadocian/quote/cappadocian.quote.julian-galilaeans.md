@@ -52,7 +52,7 @@ use_note:
     - "the execution of Eupsychius under Julian, which sits in cappadocian.figure.eupsychius, not in this rescript"
     - "a ban on Christians attending school rather than a measure aimed at teachers"
   years: {from: 362, to: 362}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 julian_letters-1-73_wright1923.txt (Letter 36, the Rescript on Christian

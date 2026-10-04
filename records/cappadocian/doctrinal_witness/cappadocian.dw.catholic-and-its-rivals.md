@@ -79,7 +79,7 @@ use_note:
     - "a claim that any modern church is simply this world's church"
     - "the rivals' own self-description, which survives mostly through their opponents"
   years: {from: 360, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Closes F3-T. The closing tension deliberately imports
 cappadocian.contested.settlement-historiography's own held_against

@@ -86,7 +86,7 @@ use_note:
     - "an exact character match to the vendored scan, when the text corrects an OCR misreading"
     - "the ordered day of prayer and work, which sits in cappadocian.quote.basil-on-work-and-prayer"
   years: {from: 360, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 basil_ascetic-works-longer-shorter-rules_clarke1925.txt, Longer Rules,

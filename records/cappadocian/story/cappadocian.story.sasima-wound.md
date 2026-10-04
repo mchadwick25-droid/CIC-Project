@@ -69,7 +69,7 @@ use_note:
     - "a final end to the friendship"
     - "the Athens portrait of the friendship, which sits in cappadocian.story.athens-friendship"
   years: {from: 372, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #4 (Tier 1, one-sided). Critic Finding 7 is
 carried forward as Doc_09 itself requires: the power-politics reading (a

@@ -84,6 +84,6 @@ use_note:
     - "the lived interior of any one house, which the legislation does not describe"
     - "the brotherhood as an institution, which sits in cappadocian.term.adelphotes"
   years: {from: 340, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 6 (Tier 1). RECONCILIATION (this pass): the built deployment chunk cappadocianlex003_koinonia.md carries a stale Related-Terms line ('...hesychia, eusebeia') that Doc_06 itself flags as drifted from its own current entry (Master Index derivation note: 'lex003 has drifted... flagged for reconciliation at chunk production'). This record's relations[] are authored from Doc_06 Index E row 6's current, correct list -- adelphotes, askesis, philoptochia, hesychia, kanon-kanonikai (T3), eikon, Basileias -- not from the stale chunk.

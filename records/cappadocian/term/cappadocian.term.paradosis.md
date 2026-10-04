@@ -71,6 +71,6 @@ use_note:
     - "the argument as the era's common property, when it may be Basil's own forensic move"
     - "the teaching in full, which sits in cappadocian.dw.unwritten-carries-too"
   years: {from: 375, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 4 (Tier 1).

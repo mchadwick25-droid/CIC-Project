@@ -92,7 +92,7 @@ use_note:
     - "the household's conversion into a community, which sits in cappadocian.story.macrina-refusal"
     - "Macrina's own teaching, which reaches us only through her brother as in cappadocian.story.macrina-deathbed"
   years: {from: 327, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 5 -> final Gravity 6, per §4's concordance table). Interaction
 Matrix (§6, row/col 5): reinforcing (R) with Gravity 1, Gravity 4 (paideia), Gravity 5 (martyrs), Gravity 7

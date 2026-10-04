@@ -77,7 +77,7 @@ use_note:
     - "theosis as becoming equal to God"
     - "the Catechetical Oration's wording, which sits in cappadocian.quote.gregory-nyssa-on-becoming-god, as this witness's own"
   years: {from: 360, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Closes C-I. Recomposed, not copied, from the same ground the two existing
 demonstrations for this cell already stand on

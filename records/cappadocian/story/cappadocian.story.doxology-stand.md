@@ -84,7 +84,7 @@ use_note:
     - "the full argument from unwritten customs, which sits in cappadocian.term.paradosis"
     - "a verbatim phrase from the treatise, since no rendering was checked"
   years: {from: 375, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Derived fresh from Doc_09 entry #2 (Tier 1), checked against the legacy
 chunk cappadocianstory001_the-doxology-stand.md for content cross-check

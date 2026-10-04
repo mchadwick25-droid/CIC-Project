@@ -71,7 +71,7 @@ use_note:
     - "a Homoian account of the episode, which does not survive"
     - "his earlier trouble over Sasima, which sits in cappadocian.story.sasima-wound"
   years: {from: 379, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #10 (Tier 1). FLAGGED, NOT SILENTLY RECONCILED:
 Doc_09's own confidence column names this a "McGuckin-register caution,"

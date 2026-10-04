@@ -68,6 +68,6 @@ use_note:
     - "a settled verdict on Basil's reserve as wisdom or timidity"
     - "the tension as a gravity, which sits in cappadocian.gravity.precision-reserve"
   years: {from: 375, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 17 (Tier 2). Doc_06 itself resolves this term [CT]-adjacent, not [CT] (Index D) -- carried at Contested claim-level via divergence_note, not treated as a full CT.

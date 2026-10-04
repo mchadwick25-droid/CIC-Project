@@ -62,7 +62,7 @@ use_note:
     - "a claim that simony was widespread, when the letter answers one report"
     - "a general sermon against greed rather than a metropolitan's ruling to his own subordinates"
   years: {from: 370, to: 372}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. `grep -n 'id="ix\.liv"\|id="ix\.lv"'`

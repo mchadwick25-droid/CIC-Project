@@ -77,6 +77,6 @@ use_note:
     - "the sermon itself, which sits in cappadocian.story.slave-market-sermon"
     - "a general dignity slogan detached from God"
   years: {from: 372, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 8 (Tier 1).

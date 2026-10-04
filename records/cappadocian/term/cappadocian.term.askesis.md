@@ -67,6 +67,6 @@ use_note:
     - "the radicals' own account of their practice, which survives only through Gangra"
     - "the common life itself, which sits in cappadocian.term.koinonia"
   years: {from: 340, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 21 (Tier 2).

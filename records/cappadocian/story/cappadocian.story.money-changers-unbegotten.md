@@ -64,7 +64,7 @@ use_note:
     - "Eunomius as the named target, since the record does not name him"
     - "the agennetos argument itself, which sits in cappadocian.term.agennetos"
   years: {from: 372, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #15 (Tier 1, as the preacher's report). NOT
 LINKED TO EUNOMIUS: this entry's content is clearly Eunomian-adjacent

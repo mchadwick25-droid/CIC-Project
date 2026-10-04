@@ -63,7 +63,7 @@ use_note:
     - "the wording of her refusal, which sits in cappadocian.quote.macrina-refuses-remarriage"
     - "the deathbed scene, which sits in cappadocian.story.macrina-deathbed"
   years: {from: 327, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #7 (Tier 3). Same mediation caveat as entry #6
 applies and is not repeated in full here: this is Gregory's account of his

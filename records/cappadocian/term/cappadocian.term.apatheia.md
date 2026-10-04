@@ -60,6 +60,6 @@ use_note:
     - "the Desert's or Alexandria's use of the same word as identical"
     - "grief and consolation, which sit in cappadocian.term.penthos-paraklesis"
   years: {from: 325, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 27 (Tier 2).

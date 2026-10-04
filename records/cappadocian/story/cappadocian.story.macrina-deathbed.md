@@ -70,7 +70,7 @@ use_note:
     - "her refusal of remarriage, which sits in cappadocian.story.macrina-refusal"
     - "the ascetic community as a whole, which sits in cappadocian.term.adelphotes"
   years: {from: 379, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #6 (Tier 1, with literary frame). Critic Finding
 6 is carried forward exactly as Doc_09 states it: the mediation is told as

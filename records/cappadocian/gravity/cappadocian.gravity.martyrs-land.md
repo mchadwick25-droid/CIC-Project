@@ -77,7 +77,7 @@ use_note:
     - "the feast-day crowd and market, which sit in cappadocian.story.panegyris-shrine"
     - "the Forty's passion as eyewitness report, which cappadocian.story.forty-sebaste carries as tradition"
   years: {from: 320, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Reinforcing the triune-confession, ascetic-reordering, paideia-converted, household-lineage, bishop-patron,
 and contested-church gravities; reshaping the athens-fishermen gravity. Competing with the renunciation-order

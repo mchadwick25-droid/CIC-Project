@@ -86,7 +86,7 @@ use_note:
     - "Julian's edict as ordinary schooling practice, when it was a brief imperial measure of 361 to 363"
     - "the conversion of Greek schooling as a whole, which sits in cappadocian.gravity.paideia-converted"
   years: {from: 361, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 12, added and tested at Revision 1 -> final Gravity 11, per
 §4's concordance table). Interaction Matrix (§6, row/col 12): reshaping (S) with Gravity 1, Gravity 2,

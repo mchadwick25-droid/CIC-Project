@@ -77,7 +77,7 @@ use_note:
     - "the inner impatience with dialectic, which sits in cappadocian.gravity.athens-fishermen"
     - "Julian's edict itself, which sits in cappadocian.story.julian-schools"
   years: {from: 361, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 3 -> final Gravity 4, per §4's concordance table). Interaction
 Matrix (§6, row/col 3): reinforcing (R) with Gravity 5 (martyrs' land - "the learned panegyric serves the

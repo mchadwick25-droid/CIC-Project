@@ -52,6 +52,6 @@ use_note:
     - "one author's disgust as the view of the whole circle"
     - "the Sasima episode, which sits in cappadocian.story.sasima-wound"
   years: {from: 329, to: 390}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 36 (Tier 3). One of the four Tier 3 entries Doc_06 added compact Related-Terms lines to this revision (Index E.3): hesychia, paideia-philosophia, parrhesia -- all reciprocated here.

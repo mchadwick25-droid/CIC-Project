@@ -51,6 +51,6 @@ use_note:
     - "the word homoousios, which sits in cappadocian.term.homoousios"
     - "the teaching that confession is not a vote, which sits in cappadocian.dw.confession-not-a-vote"
   years: {from: 325, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 30 (Tier 3). Tier 3 per LDF carries no dedicated Key Sources section in Doc_06 itself; one clearly on-topic source is cited here rather than left empty, matching the depth of this world's own Tier-3 treatment, not manufactured beyond it.

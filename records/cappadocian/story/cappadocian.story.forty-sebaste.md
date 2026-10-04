@@ -68,7 +68,7 @@ use_note:
     - "the feast's crowd and market, which sit in cappadocian.story.panegyris-shrine"
     - "the meaning of martyr and shrine, which sits in cappadocian.term.martys-martyrion"
   years: {from: 320, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #11 (Tier 2). The family-relic thread (Emmelia)
 is included directly in the text per Doc_09's own explicit usage guidance

@@ -63,7 +63,7 @@ use_note:
     - "a factual account of his death beyond the family's memory as Gregory records it"
     - "ordered monastic rule as already available to him"
   years: {from: 351, to: 357}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #8 (Tier 3), with Doc_02 §8's own correction
 carried forward exactly: "Naucratius lived as a solitary ascetic, not in

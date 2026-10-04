@@ -83,6 +83,6 @@ use_note:
     - "the wording of Gregory of Nyssa's line, which sits in cappadocian.quote.gregory-nyssa-on-becoming-god"
     - "the noun's coinage by Gregory of Nazianzus as certain"
   years: {from: 375, to: 390}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 9 (Tier 1) and the built deployment chunk cappadocianlex002_theosis.md, cross-checked and found matching (Doc_06's own Master Index note).

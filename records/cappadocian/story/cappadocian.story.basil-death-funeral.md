@@ -68,7 +68,7 @@ use_note:
     - "a crowd count, which a funeral oration is not built to supply"
     - "Basil's life and work in full, which sits in cappadocian.figure.basil"
   years: {from: 377, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #9 (Tier 1). FLAGGED, NOT SILENTLY RECONCILED:
 Doc_09's own current text states this event as "Jan 379, or Sept 378...

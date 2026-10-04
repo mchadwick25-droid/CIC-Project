@@ -62,6 +62,6 @@ use_note:
     - "the fairness of that summary, which is contested in cappadocian.contested.agennetos-transmission"
     - "God's unknowability as taught, which sits in cappadocian.term.akatalepsia"
   years: {from: 335, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 16 (Tier 2), the CT-tagged adversarial-transmission entry.

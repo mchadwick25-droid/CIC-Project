@@ -68,7 +68,7 @@ use_note:
     - "Naucratius's wilderness life as typical lay practice"
     - "letters as the only bond, set against the psalms and customs other witnesses name"
   years: {from: 357, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Closes F5-P. The letters-as-what-held-us-together claim is drawn directly
 from cappadocian.core.cappadocian's own formation_logic

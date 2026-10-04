@@ -81,7 +81,7 @@ use_note:
     - "the dispute over how fairly Eunomius is represented, which sits in cappadocian.contested.agennetos-transmission"
     - "the dispute over whether the three teachers agreed, which sits in cappadocian.contested.settlement-historiography"
   years: {from: 325, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-I with the dedicated treatment cappadocian.demo.hardest-true-thing
 and cappadocian.demo.never-settled already point toward from a different

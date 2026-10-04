@@ -68,7 +68,7 @@ use_note:
     - "Basil as already bishop at the time"
     - "the exact wording of the homilies, which is not checked"
   years: {from: 368, to: 369}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #1 (Tier 1). SOURCING HONESTY CARRIED FORWARD:
 cappadocian.source.basil-moral-famine-homilies is one of the three sources

@@ -65,7 +65,7 @@ use_note:
     - "a claim that this world set tradition against scripture as rival authorities"
     - "unwritten tradition as licence to defend whatever a bishop preferred"
   years: {from: 375, to: 375}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 27, the

@@ -64,7 +64,7 @@ use_note:
     - "a claim that this world's discipline meant permanent excommunication"
     - "proof that discipline was always enforced as written, which a canon alone cannot show"
   years: {from: 375, to: 375}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (Letter CXCIX, headed in the file

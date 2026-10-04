@@ -84,7 +84,7 @@ use_note:
     - "a claim that the three teachers shared one agreed scheme"
     - "Letter XXXVIII as certainly Basil's, when cappadocian.quote.ousia-and-hypostasis carries its contested authorship"
   years: {from: 360, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Closes C-T, matching hal.dw.was-jesus-god's own worked structure (full
 answer across all three canon_question variants under this cell: Trinity,

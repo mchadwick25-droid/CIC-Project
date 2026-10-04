@@ -80,6 +80,6 @@ use_note:
     - "the teaching on love of the poor, which sits in cappadocian.term.philoptochia"
     - "the vice of grasping, which sits in cappadocian.term.pleonexia"
   years: {from: 325, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 5 (Tier 1).

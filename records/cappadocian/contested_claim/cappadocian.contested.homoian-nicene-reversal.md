@@ -84,7 +84,7 @@ use_note:
     - "the fifth-century church historians as this world's own witnesses"
     - "the classification of the contested church as a primary gravity, which sits in cappadocian.gravity.contested-church"
   years: {from: 360, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Unparked from Doc_02 §1.5 ("The Homoian establishment... its Cappadocian face survives almost solely
 in its opponents' accounts and in imperial acts... Adversarial transmission") and §9's Confidence Map

@@ -86,7 +86,7 @@ use_note:
     - "the poorhouse as already standing in the famine of 368/9, which came before it"
     - "the bishop's patronage as a primary gravity, since it is classed supporting"
   years: {from: 368, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 6 -> final Gravity 7, per §4's concordance table). Interaction
 Matrix (§6, row/col 6): reinforcing (R) with Gravity 1, Gravity 2, Gravity 4 (paideia), Gravity 5 (martyrs),

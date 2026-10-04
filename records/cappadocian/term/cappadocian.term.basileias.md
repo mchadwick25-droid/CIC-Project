@@ -70,6 +70,6 @@ use_note:
     - "a located or excavated site, when no remains are securely identified"
     - "the founding famine as the complex's setting, which is told in cappadocian.story.famine-open-barns"
   years: {from: 370, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 23 (Tier 2).

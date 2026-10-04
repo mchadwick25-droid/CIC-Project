@@ -53,6 +53,6 @@ use_note:
     - "the enrolled women's own voice, which does not survive"
     - "the Annisa sisterhood, which sits in cappadocian.term.adelphotes"
   years: {from: 340, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 32 (Tier 3). One of the four Tier 3 entries Doc_06 added compact Related-Terms lines to this revision (Index E.3): paradosis, eusebeia, koinonia, adelphotes -- all reciprocated here.

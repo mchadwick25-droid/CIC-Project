@@ -67,7 +67,7 @@ use_note:
     - "a neutral report, when Basil is answering critics and defending his own church"
     - "a claim that every church in the region kept the same night vigil in the same form"
   years: {from: 375, to: 375}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. `grep -n "antiphonal"

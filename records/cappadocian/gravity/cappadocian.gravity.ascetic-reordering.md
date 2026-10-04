@@ -99,7 +99,7 @@ use_note:
     - "the Rules as a record of any one house's actual daily life"
     - "the bishop's public patronage, which sits in cappadocian.gravity.bishop-patron"
   years: {from: 340, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 2 -> final Gravity 2). Interaction Matrix (§6, row/col 2):
 reinforcing (R) with Gravity 1, Gravity 5 (martyrs' land), Gravity 7 (patron); reshaping (S) with Gravity 6

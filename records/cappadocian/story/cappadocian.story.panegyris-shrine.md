@@ -73,7 +73,7 @@ use_note:
     - "the family's private estate chapel at Annisa, which sits in cappadocian.story.forty-sebaste"
     - "the meaning of the word panegyris, which sits in cappadocian.term.panegyris"
   years: {from: 325, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #18 (Tier 4 composite). SOURCING HONESTY CARRIED
 FORWARD, twice over: cappadocian.source.basil-martyr-homilies-forty-

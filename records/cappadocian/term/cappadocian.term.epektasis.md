@@ -62,6 +62,6 @@ use_note:
     - "the permanent gap behind it, which sits in cappadocian.term.diastema"
     - "the Life of Moses as a source this build holds"
   years: {from: 372, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 25 (Tier 2). Life of Moses is cited by Doc_06 as a Key Text here (and for akatalepsia) but has no source record anywhere in this project's manifest -- Doc_06's own footnote 4 flags this as a gap-list omission the build thread should fill; not fabricated a citation for it here.

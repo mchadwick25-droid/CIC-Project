@@ -76,7 +76,7 @@ use_note:
     - "a claim that this world baptized infants or did not, a question cappadocian.dw.baptism-and-new-birth says the record cannot settle"
     - "deathbed baptism as a fringe habit rather than a practice common enough to need a sermon"
   years: {from: 360, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Found by following the build brief's own trail. `grep -n "Homily
 XIII"` on `cic/texts/npnf208_basil-letters-select-works.xml` returns one

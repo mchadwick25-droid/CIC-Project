@@ -59,6 +59,6 @@ use_note:
     - "creedal boilerplate"
     - "the pair of words for one being and three persons, which sit in cappadocian.term.ousia-hypostasis"
   years: {from: 325, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 14 (Tier 2).

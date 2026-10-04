@@ -56,6 +56,6 @@ use_note:
     - "the teaching that the poor bear God's image, which sits in cappadocian.term.philoptochia"
     - "the poorhouse itself, which sits in cappadocian.term.basileias"
   years: {from: 325, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 22 (Tier 2).

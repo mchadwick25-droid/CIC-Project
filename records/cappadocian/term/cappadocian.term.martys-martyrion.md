@@ -74,6 +74,6 @@ use_note:
     - "the martyr homilies as checkable texts, since they are unacquired"
     - "the festival day itself, which sits in cappadocian.term.panegyris"
   years: {from: 320, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 12 (Tier 2), which itself carries a Reported-Experience Status flag for the shrine wonder-content, preserved here in senses.evidential rather than dropped.

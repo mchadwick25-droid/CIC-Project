@@ -45,6 +45,6 @@ use_note:
     - "a technical doctrine with a defining treatise, when none exists"
     - "the unwritten customs of worship, which sit in cappadocian.term.paradosis"
   years: {from: 325, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 34 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [], a decision, not an oversight.

@@ -50,7 +50,7 @@ use_note:
     - "a documentary chain proving these customs came from the apostles"
     - "a claim that worshippers generally understood why they faced east"
   years: {from: 375, to: 375}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 27, sec.

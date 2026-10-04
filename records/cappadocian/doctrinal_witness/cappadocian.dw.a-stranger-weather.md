@@ -80,7 +80,7 @@ use_note:
     - "the marketplace complaint as a census, when it is rhetorical exaggeration"
     - "Christians of this period hiding in catacombs"
   years: {from: 325, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Closes F3-E, backed by a directly verified quote from Julian's own
 rescript (cappadocian.quote.julian-galilaeans). Answers the cell's own

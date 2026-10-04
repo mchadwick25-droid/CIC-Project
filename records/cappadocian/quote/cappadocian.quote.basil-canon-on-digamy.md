@@ -59,7 +59,7 @@ use_note:
     - "a third marriage as permanent exclusion, when the canon still names a set term"
     - "these penance terms as uniform practice across every church of the era"
   years: {from: 374, to: 374}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (the div's own XML id is

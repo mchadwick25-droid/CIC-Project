@@ -61,6 +61,6 @@ use_note:
     - "the market detail as well attested, since it rests on thin sources"
     - "the reconstruction of a feast, which sits in cappadocian.story.panegyris-shrine"
   years: {from: 325, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 13 (Tier 2).

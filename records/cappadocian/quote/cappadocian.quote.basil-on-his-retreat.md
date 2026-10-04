@@ -63,8 +63,8 @@ use_note:
     - "the era's classic defence of fleeing church office, which is Gregory of Nazianzus's Oration 2, not this letter"
     - "proof that Basil found and kept a settled hermit's life"
     - "a method for quieting an anxious mind, which neither this letter nor cappadocian.dw.stillness-and-the-summons supplies"
-  years: {from: 360, to: 370}
-  status: provisional
+  years: {from: 358, to: 359}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. `grep -n "Calypso"` located the

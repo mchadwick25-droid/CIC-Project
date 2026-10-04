@@ -64,7 +64,7 @@ use_note:
     - "the Forty of Sebaste as martyred within this world's own span, when tradition places them before it"
     - "a claim that this world's members faced routine execution"
   years: {from: 320, to: 362}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-E on the martyrdom-death-wish variant, the strongest fit for
 this world's own real ground; the "clearest outside account came from

@@ -75,7 +75,7 @@ use_note:
     - "the simony letter as evidence of how the faith spread, when it only disciplines the chorepiscopi in cappadocian.quote.basil-to-the-chorepiscopi"
     - "one clean, regular process for making bishops"
   years: {from: 370, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Closes F3-I. The founding-legend material is used exactly at the strength
 cappadocian.story.thaumaturgus-legend's own narrative_tier_justification

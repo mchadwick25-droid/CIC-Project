@@ -68,7 +68,7 @@ use_note:
     - "mystery as an early form of transubstantiation"
     - "theosis as becoming God by nature, a misreading cappadocian.quote.gregory-nyssa-on-becoming-god guards against"
   years: {from: 360, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Closes F1-T using the translational discipline this build's own worked
 example models (hal.dw.was-jesus-god: name the later formula as later,

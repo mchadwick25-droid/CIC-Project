@@ -74,7 +74,7 @@ use_note:
     - "a claim that women held sees or pulpits in this world"
     - "her reasoning about the dead betrothed, which sits in cappadocian.quote.macrina-refuses-remarriage"
   years: {from: 327, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-P, recomposed as a witness statement in its own right from the
 same ground cappadocian.demo.woman-authority already stands on, consistent

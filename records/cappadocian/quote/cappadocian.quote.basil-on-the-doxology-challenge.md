@@ -68,7 +68,7 @@ use_note:
     - "a claim that one changed word alone, without the wider dispute over the Spirit, provoked the attack"
     - "the objectors' own words, which survive only in Basil's report"
   years: {from: 375, to: 375}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. Located via `grep -n 'div1'

@@ -72,7 +72,7 @@ use_note:
     - "the exact penance scale for third marriages, which sits in cappadocian.quote.basil-canon-on-digamy"
     - "an answer about whether outsiders to the faith were damned"
   years: {from: 360, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-T on the identity-collision-tagged divorce/remarriage variant,
 grounded in Basil's own First Canonical Letter to Amphilochius (Epistle

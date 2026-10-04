@@ -69,7 +69,7 @@ use_note:
     - "the deposit model as true of every believer, when Basil's own search for fathers in cappadocian.quote.macrina-the-elder-taught-me cuts against it"
     - "unwritten custom ranked above scripture"
   years: {from: 325, to: 375}
-  status: provisional
+  status: reviewed
 ---
 Closes C-E. Grounded in four already-registered term records rather than
 any new claim: cappadocian.term.paradosis (unwritten custom carrying

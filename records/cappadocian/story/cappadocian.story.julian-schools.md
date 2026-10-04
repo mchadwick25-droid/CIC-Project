@@ -81,7 +81,7 @@ use_note:
     - "the experience of ordinary Christian teachers, which does not survive"
     - "the church's inner tension over dialectic, which sits in cappadocian.gravity.athens-fishermen"
   years: {from: 361, to: 363}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #14 (Tier 1). Julian is this world's clearest
 outsider-witness figure (cappadocian.figure.julian carries register:

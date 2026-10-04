@@ -61,7 +61,7 @@ use_note:
     - "the rupture with Eustathius, which sits in cappadocian.quote.basil-on-eustathius-rupture"
     - "ranking as a matter of protocol or precedence"
   years: {from: 375, to: 375}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 10 -

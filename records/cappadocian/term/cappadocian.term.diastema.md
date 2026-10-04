@@ -49,6 +49,6 @@ use_note:
     - "the endless growth itself, which sits in cappadocian.term.epektasis"
     - "the incomprehensibility of God's being, which sits in cappadocian.term.akatalepsia"
   years: {from: 372, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 33 (Tier 3). Related-terms per Doc_06 Index E.3: epektasis only.

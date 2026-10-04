@@ -79,7 +79,7 @@ use_note:
     - "the radicals as merely disorderly, since the canons show a movement making structural claims"
     - "the ordering answer itself, which sits in cappadocian.gravity.ascetic-reordering"
   years: {from: 340, to: 377}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 11, added and tested at Revision 1 -> final Gravity 10, per
 §4's concordance table). Interaction Matrix (§6, row/col 11): reinforcing (R) with Gravity 8 (hēsychia -

@@ -46,7 +46,7 @@ use_note:
     - "belief judged by ritual compliance alone as Basil's meaning"
     - "Basil's argument as the settled view of every party to the doxology dispute"
   years: {from: 375, to: 375}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf208_basil-letters-select-works.xml. `grep -n "They must now
 instruct us"` returns one hit, line 14168, inside sec. 68 (`id="vii.xxviii-p29"`), within chapter 27

@@ -66,8 +66,8 @@ use_note:
     - "a method for quieting a busy mind, which the record says it lacks"
     - "apatheia as feeling nothing"
     - "stillness as an ideal held by plateau congregations beyond the literate core"
-  years: {from: 360, to: 379}
-  status: provisional
+  years: {from: 358, to: 381}
+  status: reviewed
 ---
 Closes F4-P honestly, offering hesychia's own genuine, unresolved tension
 (a real desire for quiet that kept yielding to duty) rather than

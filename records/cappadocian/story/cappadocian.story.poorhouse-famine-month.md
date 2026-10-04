@@ -90,7 +90,7 @@ use_note:
     - "Basil's famine homilies as preached at the complex, since they came before it existed"
     - "the complex as the first hospital anywhere"
   years: {from: 370, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #19 (Tier 4 composite). This record follows
 Doc_09's own current text, which places this scene after the poorhouse

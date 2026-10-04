@@ -74,6 +74,6 @@ use_note:
     - "the story of the challenge itself, which sits in cappadocian.story.doxology-stand"
     - "the unwritten customs, which sit in cappadocian.term.paradosis"
   years: {from: 375, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 3 (Tier 1). Related-terms per Doc_06 Index E row 3 (all mutual).

@@ -82,7 +82,7 @@ use_note:
     - "a chain of witnesses reaching back to Jesus, when it reaches only to Gregory Thaumaturgus"
     - "evidence that every believer received the faith as a finished deposit, a position cappadocian.dw.how-it-reached-us holds in tension with this letter"
   years: {from: 375, to: 375}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. The letter is headed "Letter CCIV." with

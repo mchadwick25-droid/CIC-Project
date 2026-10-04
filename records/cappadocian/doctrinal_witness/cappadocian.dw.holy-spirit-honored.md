@@ -75,7 +75,7 @@ use_note:
     - "a settled judgment on whether Basil's reserve was wisdom or timidity"
     - "the doxology challenge as the whole dispute, when cappadocian.quote.basil-on-the-doxology-challenge records only its occasion"
   years: {from: 375, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Closes F1-I, deliberately distinct from C-T (which covers the Trinity's
 general shape and Jesus's own divinity): this dw goes specifically to the

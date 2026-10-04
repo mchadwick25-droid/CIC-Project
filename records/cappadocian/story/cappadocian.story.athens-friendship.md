@@ -70,7 +70,7 @@ use_note:
     - "an independently corroborated report of what passed between the students at Athens"
     - "the argument for taking only the honey from pagan letters, which sits in cappadocian.term.paideia-philosophia"
   years: {from: 329, to: 390}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #5 (Tier 1). "As the survivor remembered it" is
 Doc_09's own usage-guidance phrase, carried here into the confidence block

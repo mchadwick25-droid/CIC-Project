@@ -60,6 +60,6 @@ use_note:
     - "the culture of grief and consolation, which sits in cappadocian.term.penthos-paraklesis"
     - "the martyr homilies as checkable texts, since they are unacquired"
   years: {from: 325, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 29 (Tier 2).

@@ -58,6 +58,6 @@ use_note:
     - "the deathbed dialogue as Macrina's own words, which sits in cappadocian.story.macrina-deathbed"
     - "the resurrection hope itself, which sits in cappadocian.term.anastasis"
   years: {from: 325, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 28 (Tier 2).

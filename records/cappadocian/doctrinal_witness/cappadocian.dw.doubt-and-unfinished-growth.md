@@ -65,7 +65,7 @@ use_note:
     - "the ant argument against Eunomius, which sits in cappadocian.quote.basil-against-eunomius-ant"
     - "doubt approved as a resting place"
   years: {from: 361, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Closes F1-P, pairing the doubt-as-epistemology material already used for
 C-P (akatalepsia) with a genuinely different angle - epektasis - to answer

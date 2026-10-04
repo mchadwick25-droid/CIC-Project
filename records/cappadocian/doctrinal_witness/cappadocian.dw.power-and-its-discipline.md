@@ -74,7 +74,7 @@ use_note:
     - "a claim that this world never shielded a wrongdoer, when the record is simply silent"
     - "the staged penance of one canon, which sits in cappadocian.quote.basil-canon-to-amphilochius, as the whole system"
   years: {from: 340, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Closes F3-P, the accountability cell, without either defending the 381
 communion law's coercion or inventing an unattested cover-up scandal to

@@ -70,7 +70,7 @@ use_note:
     - "Basil's account of the accusation itself, which sits in cappadocian.quote.basil-on-the-doxology-challenge"
     - "a claim that no one in the church held a different creed before 381"
   years: {from: 325, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Closes F1-E, the "voted Jesus into being God" cell, using the same
 doxology-stand material this world's own C-T dw draws on but turned to a

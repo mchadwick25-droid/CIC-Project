@@ -60,7 +60,7 @@ use_note:
     - "the psalms as the unlettered believer's education, which sits in cappadocian.dw.reading-scripture through cappadocian.term.psalmodia"
     - "this world's canon list, which the homily does not address"
   years: {from: 360, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. Located with `grep -n -i "if we

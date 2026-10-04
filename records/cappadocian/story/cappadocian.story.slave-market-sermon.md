@@ -67,7 +67,7 @@ use_note:
     - "a verbatim line, since the familiar quotation is a paraphrase"
     - "the image-of-God teaching in full, which sits in cappadocian.term.eikon"
   years: {from: 372, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #16 (Tier 1, as textual event). Critic Finding 5
 implemented here exactly as Doc_09's own validation cross-check records

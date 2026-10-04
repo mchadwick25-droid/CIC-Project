@@ -75,6 +75,6 @@ use_note:
     - "the plateau farmer's experience, since the tension belongs to the formed core"
     - "the teaching on stillness and the summons, which sits in cappadocian.dw.stillness-and-the-summons"
   years: {from: 329, to: 390}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 10 (Tier 1). Related-terms include a Doc_06-declared one-directional link to theosis (hesychia -> theosis, no return per Index E.2 #1); encoded here as reciprocal associated-with on both records since the schema's associated-with relation type is self-inverse -- Doc_06's editorial 'one-directional' note describes the lexicon document's own field, not a constraint the WRS relation type can express.

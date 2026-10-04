@@ -67,6 +67,6 @@ use_note:
     - "the teaching that people are made for shared life, which sits in cappadocian.term.koinonia"
     - "the radicals' own communities, which survive only through Gangra's censure"
   years: {from: 340, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 20 (Tier 2).

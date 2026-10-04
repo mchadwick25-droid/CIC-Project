@@ -44,6 +44,6 @@ use_note:
     - "the fifth-century church historians as this world's own voice"
     - "Gregory of Nyssa's exile as narrated, which sits in cappadocian.story.nyssa-exile"
   years: {from: 325, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 39 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [], a decision, not an oversight.

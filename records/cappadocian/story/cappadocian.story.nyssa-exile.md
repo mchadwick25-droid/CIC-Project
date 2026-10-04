@@ -64,7 +64,7 @@ use_note:
     - "a record of any audit or hearing"
     - "Valens's confrontation with Basil, which sits in cappadocian.story.valens-caesarea"
   years: {from: 376, to: 378}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #13 (Tier 1). Told, per Doc_09's own usage
 guidance, as this world's own shape of confessorship - exile suffered for

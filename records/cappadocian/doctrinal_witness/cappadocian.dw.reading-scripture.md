@@ -62,7 +62,7 @@ use_note:
     - "the Hexaemeron's close reading, which sits in cappadocian.quote.reading-scripture-hexaemeron, as how ordinary believers read"
     - "widespread literacy among this world's people"
   years: {from: 360, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Closes F2-I. Psalmody's own claim (psalms as the illiterate's real
 theological education) is the flagship citation; the Hexaemeron's own

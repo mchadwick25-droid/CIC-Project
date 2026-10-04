@@ -61,6 +61,6 @@ use_note:
     - "Oration 43's confrontation scenes as courtroom fact, since they are an encomium's telling"
     - "the Modestus story itself, which sits in cappadocian.story.valens-caesarea"
   years: {from: 371, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 26 (Tier 2).

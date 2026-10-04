@@ -82,7 +82,7 @@ use_note:
     - "her authority as head of the Annisa community, which sits in cappadocian.dw.macrina-and-its-cost"
     - "a rule this world imposed on all betrothed women"
   years: {from: 379, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 gregory-nyssa_life-of-macrina_clarke1916.txt, under its own section header

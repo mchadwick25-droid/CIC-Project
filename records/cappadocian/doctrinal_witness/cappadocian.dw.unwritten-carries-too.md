@@ -62,7 +62,7 @@ use_note:
     - "a settled answer on whether the argument was inherited conviction or Basil's own forensic invention"
     - "the catalogue of facing east and standing at prayer, which sits in cappadocian.quote.we-look-to-the-east"
   years: {from: 375, to: 375}
-  status: provisional
+  status: reviewed
 ---
 Closes F2-T, backed by a directly verified quote
 (cappadocian.quote.what-is-the-written-source) from the exact passage

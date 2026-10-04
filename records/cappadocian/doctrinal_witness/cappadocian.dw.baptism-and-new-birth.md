@@ -57,8 +57,9 @@ use_note:
     - "a settled claim about how common infant baptism was, which the record says it cannot supply"
     - "the preachers' warnings as proof that most people delayed"
     - "the modern evangelical sense of being born again"
+    - "Basil's own homily wording against delay, which sits in cappadocian.quote.basil-against-delaying-baptism"
   years: {from: 360, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Closes F4-T on the strongest-attested variant (baptism, adult and often
 delayed), honestly declining the tithe and end-times variants this

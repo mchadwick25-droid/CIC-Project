@@ -62,7 +62,7 @@ use_note:
     - "the poorhouse's staffing and purpose, which sit in cappadocian.term.basileias and cappadocian.story.poorhouse-famine-month"
     - "the shrine festival's crowd and calendar, which sit in cappadocian.term.panegyris"
   years: {from: 325, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Closes F5-E as a genuine, declared absence rather than a strained dw: this
 world's own registered material culture is real but entirely text-attested,

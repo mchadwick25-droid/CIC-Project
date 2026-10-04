@@ -79,7 +79,7 @@ use_note:
     - "a settled reading of the Sasima appointment, whose telling is Gregory's alone as set out in cappadocian.story.sasima-wound"
     - "the teaching on stillness and the summons, which sits in cappadocian.dw.stillness-and-the-summons"
   years: {from: 329, to: 390}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 7 -> final Gravity 8, per §4's concordance table). Interaction
 Matrix (§6, row/col 7): reshaping (S) with Gravity 1, Gravity 2, Gravity 4 (paideia), Gravity 6 (household),

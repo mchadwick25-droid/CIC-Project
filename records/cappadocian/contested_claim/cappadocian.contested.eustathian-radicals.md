@@ -65,14 +65,14 @@ relations:
 - type: associated-with
   target: cappadocian.gravity.ascetic-reordering
 use_note:
-  means: "This record holds that the Eustathian radicals censured at Gangra were not simply the disorderly opposite of Basil's brotherhoods, a picture contested because only their censors and critic describe them."
+  means: "This record holds that the picture of the Gangra radicals as the disorderly opposite of Basil's brotherhoods is contested, because only their censors and their critic describe them."
   not_for:
     - "the Gangra canons as a fair account of what the radicals themselves taught"
     - "a settled date for the council of Gangra, which is placed anywhere from the 340s to the 370s"
     - "Eustathius as a voice whose own works survive, when none do"
     - "the ordering of the brotherhoods itself, which sits in cappadocian.gravity.ascetic-reordering and cappadocian.term.adelphotes"
   years: {from: 340, to: 377}
-  status: provisional
+  status: reviewed
 ---
 Unparked from Doc_02 §1.5 ("The world's ascetic origins are thus transmitted by the movement's reformer
 and its censors... Adversarial transmission; flagged at every use") and §2's own instruction to read

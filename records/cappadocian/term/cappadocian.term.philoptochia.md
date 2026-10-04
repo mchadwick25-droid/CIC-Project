@@ -84,6 +84,6 @@ use_note:
     - "the poorhouse complex, which sits in cappadocian.term.basileias"
     - "the accusation of grasping, which sits in cappadocian.term.pleonexia"
   years: {from: 368, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 7 (Tier 1).

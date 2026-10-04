@@ -84,7 +84,7 @@ use_note:
     - "Ad Ablabium as a neutral exhibit for the settlement, when it is itself argued over"
     - "the meaning of the two words, which sits in cappadocian.term.ousia-hypostasis"
   years: {from: 360, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Unparked from Doc_06 Tier 1 entry 1 (ousia/hypostasis), the lexicon's own [CT]-tagged contest -
 "meaning and historical scope," stated at Index D as: the tidy "Cappadocian settlement" historiography

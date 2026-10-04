@@ -73,7 +73,7 @@ use_note:
     - "the refused remarriage as typical, when cappadocian.dw.macrina-and-its-cost treats it as one woman's resolve"
     - "the poorhouse as built during the famine rather than later"
   years: {from: 368, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Closes F5-T. Sourcing-honesty carried forward exactly as
 cappadocian.story.famine-open-barns and the philoptochia/pleonexia term

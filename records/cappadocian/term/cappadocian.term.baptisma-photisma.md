@@ -59,6 +59,6 @@ use_note:
     - "the teaching on baptism and new birth, which sits in cappadocian.dw.baptism-and-new-birth"
     - "Eunomian re-baptism as detailed practice"
   years: {from: 375, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 18 (Tier 2).

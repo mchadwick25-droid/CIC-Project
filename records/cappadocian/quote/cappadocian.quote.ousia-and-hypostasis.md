@@ -61,7 +61,7 @@ use_note:
     - "hypostasis in the modern sense of a distinct personality"
     - "proof that all three teachers shared one agreed technical scheme, a claim cappadocian.contested.settlement-historiography holds open"
   years: {from: 360, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (Letter XXXVIII, sec. 3, immediately

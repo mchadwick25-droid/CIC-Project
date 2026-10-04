@@ -67,8 +67,8 @@ use_note:
     - "the Rules' legislation as proof of how every house actually lived"
     - "the censured radicals' practice, which sits in cappadocian.contested.eustathian-radicals"
     - "women's houses as described here, which sit in cappadocian.term.adelphotes"
-  years: {from: 340, to: 379}
-  status: provisional
+  years: {from: 360, to: 379}
+  status: reviewed
 ---
 Derived fresh from Doc_09 entry #17 (Tier 4 composite), checked against
 the legacy chunk cappadocianstory002_a-day-at-the-brotherhood.md for

@@ -73,7 +73,7 @@ use_note:
     - "the brotherhood's entry terms as the life of every ordinary believer"
     - "the argument against solitary life, which sits in cappadocian.quote.basil-on-common-life"
   years: {from: 360, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Closes F4-I, walking through baptism, ascetic entry, fasting-as-discipline,
 and reconciliation in sequence (matching the cell's own "walk me through

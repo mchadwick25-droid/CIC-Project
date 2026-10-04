@@ -111,7 +111,7 @@ use_note:
     - "the argument over Basil's reserve about the Spirit, which sits in cappadocian.gravity.precision-reserve"
     - "a claim that the confession's militancy outlived the settlement of 381"
   years: {from: 325, to: 381}
-  status: provisional
+  status: reviewed
 ---
 This gravity has a demonstrated relationship with every other confirmed gravity in this world - the only
 one with no declared absence. It reinforces the ascetic-reordering gravity (the brotherhoods carry and

@@ -59,6 +59,6 @@ use_note:
     - "Julian's edict, which sits in cappadocian.story.julian-schools"
     - "faith and reason as opponents"
   years: {from: 361, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 11 (Tier 2).

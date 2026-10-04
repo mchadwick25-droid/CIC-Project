@@ -76,7 +76,7 @@ use_note:
     - "a claim that Basil held God to be unknowable altogether rather than never fully comprehended"
     - "a fair summary of Eunomius's own position, which this hostile letter does not give"
   years: {from: 361, to: 363}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml, Letter XVI ("Against Eunomius

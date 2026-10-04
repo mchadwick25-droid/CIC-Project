@@ -74,7 +74,7 @@ use_note:
     - "the meaning and use of the word itself, which sit in cappadocian.term.agennetos"
     - "the defeated Homoian court church's silence, which sits in cappadocian.contested.homoian-nicene-reversal"
   years: {from: 335, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Unparked from Doc_06 Tier 2 entry 16 (agennētos), the lexicon's own [CT]-tagged contest - stated at
 Index D as "adversarial transmission: beyond Eunomius' one surviving Apology, his position reaches us

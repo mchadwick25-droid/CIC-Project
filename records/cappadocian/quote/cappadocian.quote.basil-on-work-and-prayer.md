@@ -73,7 +73,7 @@ use_note:
     - "rhetoric about every time suiting prayer read as proof that every worker prayed unceasingly"
     - "a rule for lay households as well as ascetic communities"
   years: {from: 360, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 basil_ascetic-works-longer-shorter-rules_clarke1925.txt, Longer Rules,

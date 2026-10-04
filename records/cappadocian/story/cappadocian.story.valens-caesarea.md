@@ -73,7 +73,7 @@ use_note:
     - "the doctrinal content of the confession, which sits in cappadocian.story.doxology-stand"
     - "Valens's or Modestus's own side, which does not survive"
   years: {from: 371, to: 372}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #3 (Tier 1, "split entry"). CLARIFICATION ON
 THE SPLIT: Doc_09's own table treats this as ONE numbered entry with two

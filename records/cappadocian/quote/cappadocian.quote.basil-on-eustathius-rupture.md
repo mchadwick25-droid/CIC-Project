@@ -66,7 +66,7 @@ use_note:
     - "the rupture with Eustathius as a merely personal falling-out"
     - "Eustathius's own account of the break, which this one-sided letter does not supply"
   years: {from: 375, to: 375}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (Letter CCXXVI / traditional Ep.

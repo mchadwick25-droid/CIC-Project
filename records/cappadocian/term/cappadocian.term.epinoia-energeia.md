@@ -67,6 +67,6 @@ use_note:
     - "Basil's three-book Against Eunomius as a checked text"
     - "the claim that God's being exceeds every mind, which sits in cappadocian.term.akatalepsia"
   years: {from: 335, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 15 (Tier 2).

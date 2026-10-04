@@ -55,6 +55,6 @@ use_note:
     - "Basil's own wording, which sits in cappadocian.quote.basil-on-antiphonal-psalmody"
     - "the teaching on how psalms form the singer, which sits in cappadocian.dw.psalms-teach-the-singer"
   years: {from: 370, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 19 (Tier 2).

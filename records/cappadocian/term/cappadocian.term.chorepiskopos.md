@@ -44,6 +44,6 @@ use_note:
     - "Basil's own words to the country-bishops, which sit in cappadocian.quote.basil-to-the-chorepiscopi"
     - "the villagers' own voice, which does not survive"
   years: {from: 370, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 31 (Tier 3). Doc_06 itself declares no Related-Terms for this entry in either direction (Index E.3) -- carried here as relations: [], a decision, not an oversight.

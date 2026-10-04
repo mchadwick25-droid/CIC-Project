@@ -56,7 +56,7 @@ use_note:
     - "the Neocaesarean night vigil, which sits in cappadocian.quote.basil-on-antiphonal-psalmody, as every community's practice"
     - "psalmody as a lesser substitute for study"
   years: {from: 360, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Closes F2-P. The "reception before analysis, repetition before
 articulation" formulation is cappadocian.core.cappadocian's own

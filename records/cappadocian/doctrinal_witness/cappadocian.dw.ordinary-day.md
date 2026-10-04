@@ -74,7 +74,7 @@ use_note:
     - "a claim that this world had no enslaved members"
     - "brotherhood life as the routine of ordinary lay households"
   years: {from: 357, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Closes F5-I. Composited from four already-registered story records, each
 cited at the confidence its own narrative_tier_justification actually

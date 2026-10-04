@@ -67,7 +67,7 @@ use_note:
     - "the night vision of the creed as history"
     - "Basil's grandmother's teaching, which sits in cappadocian.quote.macrina-the-elder-taught-me"
   years: {from: 213, to: 275}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09 entry #12 (Tier 3). Told, per Doc_09's own usage
 guidance, as legend rather than chronicle: "the country tells it so."

@@ -46,6 +46,6 @@ use_note:
     - "anger, which sits in cappadocian.term.orge"
     - "greed, which sits in cappadocian.term.pleonexia"
   years: {from: 368, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 35 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [], a decision, not an oversight.

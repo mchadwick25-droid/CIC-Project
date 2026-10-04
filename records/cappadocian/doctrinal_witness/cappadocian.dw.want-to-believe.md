@@ -62,7 +62,7 @@ use_note:
     - "the sermon against delay, which sits in cappadocian.quote.basil-against-delaying-baptism, as an argument about doubt"
     - "doubt left unchallenged as this world's counsel"
   years: {from: 360, to: 379}
-  status: provisional
+  status: reviewed
 ---
 Closes C-P, drawing the same two-term ground as the existing
 cappadocian.demo.want-to-believe (akatalepsia, baptisma-photisma) but

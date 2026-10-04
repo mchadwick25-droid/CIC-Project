@@ -86,7 +86,7 @@ use_note:
     - "the fight over the doxology with outside objectors, which sits in cappadocian.story.doxology-stand"
     - "the impatient critics' own account, which survives only in the circle's telling"
   years: {from: 375, to: 381}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 10, added and tested at Revision 1 -> final Gravity 9, per
 §4's concordance table). Interaction Matrix (§6, row/col 10): reshaping (S) with Gravity 1, Gravity 2,

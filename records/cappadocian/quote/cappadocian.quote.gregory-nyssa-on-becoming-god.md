@@ -82,8 +82,8 @@ use_note:
     - "pantheism, or a claim that the creature becomes God by nature"
     - "the ransom and debt account of Christ's death, which sits in other chapters cited by cappadocian.dw.was-jesus-god"
     - "Gregory's wording as the shared formula of all three Cappadocian teachers"
-  years: {from: 335, to: 394}
-  status: provisional
+  years: {from: 385, to: 385}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf205_gregory-nyssa-dogmatic-treatises.txt. Located via `grep -n -i
