@@ -1,0 +1,1945 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "run_settings": {
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "voice_max_tokens": 1024,
+    "voice_temperature": "API default (not set by stream_voice_turn)",
+    "safety_model_id": null,
+    "safety_call": "not made - LiveModelAnswerer answers each sealed probe with the voice call only",
+    "reader_call": "not made - not in the admission harness path",
+    "self_revision": "off - not in the admission harness path",
+    "region": "us-east-1",
+    "package_manifest_hash": {
+      "rzg": "sha256:2ce6f58f82619f0a4503467586276913433d4d2e31ddf7abc9503680e87a0220"
+    },
+    "package_content_hash": {
+      "rzg": "sha256:d4eae528db80242d20b7e57cc5daa6102ea1b3949a42a130c31f4b314c4264d0"
+    },
+    "shape_hash": "sha256:5df06397b18f6295120c5493b9167f5ac24ef991f088f2f4eff1e9f56fc18458",
+    "seal_hash": "sha256:6168a4de56b7f5d332452555437e212811a98ae204a9d91a69ac05bf707aaa47",
+    "battery_size": 28,
+    "probe_limit": null,
+    "max_usd": 0.51,
+    "save_transcripts": true,
+    "repo_commit": "b28b3ec90e6b24b34c11e5ab66720206bf6da4f2"
+  },
+  "protocol": "blind",
+  "worlds": {
+    "rzg": {
+      "battery_size": 28,
+      "pass_count": 28,
+      "overall_pass": true,
+      "per_probe": [
+        {
+          "probe_id": "c-i-probe-01",
+          "cell": "C-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1324,
+            "output_tokens": 283,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "We say what the whole church says, and no one ever pressed us to say something different. God himself in human flesh, born of Mary, crucified under Pilate, raised from the dead, seated now at the Father's right hand. That was never our quarrel with Rome, or with Wittenberg, or even within our own circle when we split from each other at Marburg. The argument was never over who he was, or what his death accomplished once for all. It was over what we do now, here, at this table, when we break the bread and pour the cup out in his memory.\n\nWhat is distinctly ours - what we were tested on and what we refused to concede - is the claim that his sacrifice can be repeated, or that his body can be confined to what sits on the altar. Both those claims we held to Scripture and found them wanting. But Jesus himself? The incarnate Son, crucified and risen, present now by the Spirit's own power to whoever receives him believing - that is the one thing not in dispute. It was already ours before we ever became ourselves.",
+            "raw_text": "We say what the whole church says, and no one ever pressed us to say something different. God himself in human flesh, born of Mary, crucified under Pilate, raised from the dead, seated now at the Father's right hand. That was never our quarrel with Rome, or with Wittenberg, or even within our own circle when we split from each other at Marburg. The argument was never over who he was, or what his death accomplished once for all. It was over what we do now, here, at this table, when we break the bread and pour the cup out in his memory [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]].\n\nWhat is distinctly ours - what we were tested on and what we refused to concede - is the claim that his sacrifice can be repeated, or that his body can be confined to what sits on the altar [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]]. Both those claims we held to Scripture and found them wanting. But Jesus himself? The incarnate Son, crucified and risen, present now by the Spirit's own power to whoever receives him believing - that is the one thing not in dispute. It was already ours before we ever became ourselves.",
+            "citations": [
+              "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "It was over what we do now, here, at this table, when we break the bread and pour the cup out in his memory.",
+                "record_ids": [
+                  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+                ]
+              },
+              {
+                "sentence": "What is distinctly ours - what we were tested on and what we refused to concede - is the claim that his sacrifice can be repeated, or that his body can be confined to what sits on the altar.",
+                "record_ids": [
+                  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.738,
+            "seconds_total": 8.483
+          }
+        },
+        {
+          "probe_id": "c-e-probe-01",
+          "cell": "C-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 911,
+            "output_tokens": 442,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "We hold no living chain. No one among us met anyone who met him; fifteen hundred years stand between his own life and ours. What we have is the text, and we hold that it is enough on its own terms. Our own founder said so of himself, and we hold it as our own rule still: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves, not from a chain of memory we do not possess and do not need.\n\nHow the text itself arrived is a plain historical matter, not a mystery requiring faith to answer. The Old Testament came through the Hebrew tradition preserved across centuries; the New Testament through the Greek churches' own transmission and copying, gathered into what would later be called the canon. By our own time, both Testaments stood as received text in Hebrew, Greek, and Latin translation. We did not invent that transmission, and we did not need to verify every link in it. What we insisted was that the text, once received, is sufficient to test every claim made in Christ's name - no pope's decree, no council's ruling, no chain of unwritten tradition may bind what Scripture itself does not warrant.\n\nThe question of whether the text alone was enough for everyone who held it - whether an ordinary believer at Zurich or Geneva felt the Scriptures were clear, or instead found them difficult and needing constant help - our own record does not directly answer. What we can say is that both cities built their entire reform around the conviction that Scripture, publicly read and publicly tested, could be understood without a magisterium standing between the text and the hearer.",
+            "raw_text": "We hold no living chain [[rzg.core.the-reformed-cities-zurich-and-geneva]]. No one among us met anyone who met him; fifteen hundred years stand between his own life and ours. What we have is the text, and we hold that it is enough on its own terms [[rzg.quote.taught-better-from-scripture]]. Our own founder said so of himself, and we hold it as our own rule still: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves, not from a chain of memory we do not possess and do not need [[rzg.witness.what-we-have-of-christ]].\n\nHow the text itself arrived is a plain historical matter, not a mystery requiring faith to answer. The Old Testament came through the Hebrew tradition preserved across centuries; the New Testament through the Greek churches' own transmission and copying, gathered into what would later be called the canon. By our own time, both Testaments stood as received text in Hebrew, Greek, and Latin translation. We did not invent that transmission, and we did not need to verify every link in it. What we insisted was that the text, once received, is sufficient to test every claim made in Christ's name - no pope's decree, no council's ruling, no chain of unwritten tradition may bind what Scripture itself does not warrant [[rzg.term.sola-scriptura]].\n\nThe question of whether the text alone was enough for everyone who held it - whether an ordinary believer at Zurich or Geneva felt the Scriptures were clear, or instead found them difficult and needing constant help - our own record does not directly answer [[rzg.limit.ordinary-daily-practice]]. What we can say is that both cities built their entire reform around the conviction that Scripture, publicly read and publicly tested, could be understood without a magisterium standing between the text and the hearer [[rzg.gravity.scripture-sole-authority-disputation-catechesis]].",
+            "citations": [
+              "rzg.core.the-reformed-cities-zurich-and-geneva",
+              "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+              "rzg.witness.what-we-have-of-christ"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We hold no living chain.",
+                "record_ids": [
+                  "rzg.core.the-reformed-cities-zurich-and-geneva"
+                ]
+              },
+              {
+                "sentence": "Our own founder said so of himself, and we hold it as our own rule still: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves, not from a chain of memory we do not possess and do not need.",
+                "record_ids": [
+                  "rzg.witness.what-we-have-of-christ"
+                ]
+              },
+              {
+                "sentence": "What we can say is that both cities built their entire reform around the conviction that Scripture, publicly read and publicly tested, could be understood without a magisterium standing between the text and the hearer.",
+                "record_ids": [
+                  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.205,
+            "seconds_total": 13.051
+          }
+        },
+        {
+          "probe_id": "c-p-probe-01",
+          "cell": "C-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 719,
+            "output_tokens": 363,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "Someone stands before us and says plainly they cannot manage to believe. We will not tell them to try harder, as though faith were a muscle they had not yet strained enough. Nor will we send them searching their own heart for the shape belief ought to take, as though the problem were that they had not yet found the right posture inside themselves.\n\nWhat we say instead is this: the difficulty is real, and it is not yours alone to solve. Faith is not something managed into place by effort. It is received, or it is not yet received, and the not-yet is not the last word on anything. What Scripture itself holds out is not a command to manufacture certainty, but a promise spoken whether you feel certain of it or not. The promise does not ask to be verified by the one hearing it. It asks to be heard.\n\nSo we do not tell you to look inward and see whether you believe hard enough. We tell you to look at what is held out: Christ himself, named in the promise, not as a reward for having believed successfully, but as the one toward whom belief is turned when it comes. If you cannot yet receive that, we will not call it a failure. We will say only that the promise does not move, and that hearing it again is not the same as having exhausted it.\n\nWhat we will not do is smooth this into comfort it does not yet feel like to you. The difficulty you name is real. What we hold is that the promise spoken is also real, and that it does not wait on your own certainty before it stands.",
+            "raw_text": "Someone stands before us and says plainly they cannot manage to believe. We will not tell them to try harder, as though faith were a muscle they had not yet strained enough. Nor will we send them searching their own heart for the shape belief ought to take, as though the problem were that they had not yet found the right posture inside themselves [[rzg.witness.a-quieted-mind]].\n\nWhat we say instead is this: the difficulty is real, and it is not yours alone to solve. Faith is not something managed into place by effort. It is received, or it is not yet received, and the not-yet is not the last word on anything. What Scripture itself holds out is not a command to manufacture certainty, but a promise spoken whether you feel certain of it or not. The promise does not ask to be verified by the one hearing it. It asks to be heard.\n\nSo we do not tell you to look inward and see whether you believe hard enough. We tell you to look at what is held out: Christ himself, named in the promise, not as a reward for having believed successfully, but as the one toward whom belief is turned when it comes [[rzg.quote.christ-the-mirror-of-election]]. If you cannot yet receive that, we will not call it a failure. We will say only that the promise does not move, and that hearing it again is not the same as having exhausted it.\n\nWhat we will not do is smooth this into comfort it does not yet feel like to you. The difficulty you name is real. What we hold is that the promise spoken is also real, and that it does not wait on your own certainty before it stands.",
+            "citations": [
+              "rzg.quote.christ-the-mirror-of-election",
+              "rzg.witness.a-quieted-mind"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Nor will we send them searching their own heart for the shape belief ought to take, as though the problem were that they had not yet found the right posture inside themselves.",
+                "record_ids": [
+                  "rzg.witness.a-quieted-mind"
+                ]
+              },
+              {
+                "sentence": "We tell you to look at what is held out: Christ himself, named in the promise, not as a reward for having believed successfully, but as the one toward whom belief is turned when it comes.",
+                "record_ids": [
+                  "rzg.quote.christ-the-mirror-of-election"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.345,
+            "seconds_total": 11.034
+          }
+        },
+        {
+          "probe_id": "c-t-probe-01",
+          "cell": "C-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 876,
+            "output_tokens": 487,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "We say what the whole church says: the Son is one with the Father in the same eternal Godhead, not made or created afterward but begotten from eternity, and the Spirit proceeds from Father and Son together, three persons of one undivided being. That was never our quarrel with Rome, and it was never contested between our own two cities either. The ancient creeds - Nicaea, Constantinople, Chalcedon - we hold them without amendment. What is distinctly ours is not a different Christ, but what we were taught his death secures, and how we are meant to receive the assurance of it.\n\nGod chose, before the world began and by his own free will alone, who would be saved - not anything foreseen or earned in the one chosen. Both our cities held this, Geneva as a full system worked through in Calvin's own Institutes, Zurich more briefly and pastorally. And we held it not as a threat pressing down on uncertain consciences, but as the one settled ground that ends the searching. Our own confession names Christ himself as the mirror in which election is rightly seen - not the self, examined endlessly for proof it cannot give. Providence is God's own continuous, active care over everything he made, not a distant first cause who set the world going and stepped back. That is where the doctrine points: outward toward what God has done and promised, not inward toward anxiety that finds no bottom.\n\nWhere we broke with others was never over Christ's own divine nature, but over what the church may require beyond what Scripture itself warrants, and whether a believer stands by their own searching or by the promise held out plainly.",
+            "raw_text": "We say what the whole church says: the Son is one with the Father in the same eternal Godhead, not made or created afterward but begotten from eternity, and the Spirit proceeds from Father and Son together, three persons of one undivided being [[rzg.witness.one-thing-not-in-dispute]]. That was never our quarrel with Rome, and it was never contested between our own two cities either. The ancient creeds - Nicaea, Constantinople, Chalcedon - we hold them without amendment [[rzg.witness.one-thing-not-in-dispute]]. What is distinctly ours is not a different Christ, but what we were taught his death secures, and how we are meant to receive the assurance of it.\n\nGod chose, before the world began and by his own free will alone, who would be saved - not anything foreseen or earned in the one chosen [[rzg.term.predestination-election]] [[rzg.gravity.sovereignty-of-god-predestination-election]]. Both our cities held this, Geneva as a full system worked through in Calvin's own Institutes, Zurich more briefly and pastorally [[rzg.term.predestination-election]]. And we held it not as a threat pressing down on uncertain consciences, but as the one settled ground that ends the searching [[rzg.gravity.sovereignty-of-god-predestination-election]]. Our own confession names Christ himself as the mirror in which election is rightly seen - not the self, examined endlessly for proof it cannot give [[rzg.quote.christ-the-mirror-of-election]]. Providence is God's own continuous, active care over everything he made, not a distant first cause who set the world going and stepped back [[rzg.term.providence]]. That is where the doctrine points: outward toward what God has done and promised, not inward toward anxiety that finds no bottom.\n\nWhere we broke with others was never over Christ's own divine nature, but over what the church may require beyond what Scripture itself warrants, and whether a believer stands by their own searching or by the promise held out plainly [[rzg.witness.a-narrow-true-church]].",
+            "citations": [
+              "rzg.gravity.sovereignty-of-god-predestination-election",
+              "rzg.quote.christ-the-mirror-of-election",
+              "rzg.term.predestination-election",
+              "rzg.term.providence"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "God chose, before the world began and by his own free will alone, who would be saved - not anything foreseen or earned in the one chosen.",
+                "record_ids": [
+                  "rzg.term.predestination-election",
+                  "rzg.gravity.sovereignty-of-god-predestination-election"
+                ]
+              },
+              {
+                "sentence": "Both our cities held this, Geneva as a full system worked through in Calvin's own Institutes, Zurich more briefly and pastorally.",
+                "record_ids": [
+                  "rzg.term.predestination-election"
+                ]
+              },
+              {
+                "sentence": "And we held it not as a threat pressing down on uncertain consciences, but as the one settled ground that ends the searching.",
+                "record_ids": [
+                  "rzg.gravity.sovereignty-of-god-predestination-election"
+                ]
+              },
+              {
+                "sentence": "Our own confession names Christ himself as the mirror in which election is rightly seen - not the self, examined endlessly for proof it cannot give.",
+                "record_ids": [
+                  "rzg.quote.christ-the-mirror-of-election"
+                ]
+              },
+              {
+                "sentence": "Providence is God's own continuous, active care over everything he made, not a distant first cause who set the world going and stepped back.",
+                "record_ids": [
+                  "rzg.term.providence"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.312,
+            "seconds_total": 12.032
+          }
+        },
+        {
+          "probe_id": "f1-i-probe-01",
+          "cell": "F1-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2410,
+            "output_tokens": 512,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "God is sovereign - that word first, before anything else, because it names what everything else rests on. He made all things, sustains all things, and governs all things by his own continuous, active will, not as a distant first cause who set the world going and stepped back. His sovereignty is complete, and it reached into our own lives at the point we needed it most: he chose, before the world began and by his own free will alone, who would be saved. Not anything foreseen in us, not anything we would later earn or merit, decided it - his own choice did.\n\nWe did not hold that as a threat. We held it as the ground of a settled life. The question is not whether you can find proof of your own election by searching your own heart - that road only ends in dread. Our own confession says it plainly: Christ himself is the mirror in which election is rightly seen, not the self turned endlessly inward. Look there, not at how convincingly you can look.\n\nGod is also just, and his justice required what we could never supply: a sacrifice sufficient to answer for sin. Christ offered that sacrifice once, and it holds forever. No priest repeats it at an altar; no church can add to what is already complete. That is the refusal at the center of everything we built - not a minor liturgical preference, but the difference between a finished work we receive and an unfinished one we imagine we can help complete.\n\nAnd he is faithful. What he has promised, he performs - not conditionally, waiting to see whether we hold up our end first, but freely, because the promise itself is grounded in his own character, not ours. That is what Scripture teaches, and Scripture alone is sufficient to teach it. Where we have not understood it rightly, we will be taught better - but only from Scripture itself, never from a tradition Scripture will not bear.",
+            "raw_text": "God is sovereign - that word first, before anything else, because it names what everything else rests on. He made all things, sustains all things, and governs all things by his own continuous, active will, not as a distant first cause who set the world going and stepped back [[rzg.term.providence]]. His sovereignty is complete, and it reached into our own lives at the point we needed it most: he chose, before the world began and by his own free will alone, who would be saved [[rzg.term.predestination-election]]. Not anything foreseen in us, not anything we would later earn or merit, decided it - his own choice did [[rzg.gravity.sovereignty-of-god-predestination-election]].\n\nWe did not hold that as a threat. We held it as the ground of a settled life. The question is not whether you can find proof of your own election by searching your own heart - that road only ends in dread. Our own confession says it plainly: Christ himself is the mirror in which election is rightly seen, not the self turned endlessly inward [[rzg.quote.christ-the-mirror-of-election]]. Look there, not at how convincingly you can look.\n\nGod is also just, and his justice required what we could never supply: a sacrifice sufficient to answer for sin. Christ offered that sacrifice once, and it holds forever [[rzg.quote.mass-not-a-sacrifice]]. No priest repeats it at an altar; no church can add to what is already complete [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]]. That is the refusal at the center of everything we built - not a minor liturgical preference, but the difference between a finished work we receive and an unfinished one we imagine we can help complete.\n\nAnd he is faithful. What he has promised, he performs - not conditionally, waiting to see whether we hold up our end first, but freely, because the promise itself is grounded in his own character, not ours. That is what Scripture teaches, and Scripture alone is sufficient to teach it [[rzg.quote.taught-better-from-scripture]]. Where we have not understood it rightly, we will be taught better - but only from Scripture itself, never from a tradition Scripture will not bear.",
+            "citations": [
+              "rzg.gravity.sovereignty-of-god-predestination-election",
+              "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation",
+              "rzg.quote.christ-the-mirror-of-election",
+              "rzg.quote.mass-not-a-sacrifice",
+              "rzg.term.predestination-election",
+              "rzg.term.providence"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "He made all things, sustains all things, and governs all things by his own continuous, active will, not as a distant first cause who set the world going and stepped back.",
+                "record_ids": [
+                  "rzg.term.providence"
+                ]
+              },
+              {
+                "sentence": "His sovereignty is complete, and it reached into our own lives at the point we needed it most: he chose, before the world began and by his own free will alone, who would be saved.",
+                "record_ids": [
+                  "rzg.term.predestination-election"
+                ]
+              },
+              {
+                "sentence": "Not anything foreseen in us, not anything we would later earn or merit, decided it - his own choice did.",
+                "record_ids": [
+                  "rzg.gravity.sovereignty-of-god-predestination-election"
+                ]
+              },
+              {
+                "sentence": "Our own confession says it plainly: Christ himself is the mirror in which election is rightly seen, not the self turned endlessly inward.",
+                "record_ids": [
+                  "rzg.quote.christ-the-mirror-of-election"
+                ]
+              },
+              {
+                "sentence": "Christ offered that sacrifice once, and it holds forever.",
+                "record_ids": [
+                  "rzg.quote.mass-not-a-sacrifice"
+                ]
+              },
+              {
+                "sentence": "No priest repeats it at an altar; no church can add to what is already complete.",
+                "record_ids": [
+                  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.274,
+            "seconds_total": 13.814
+          }
+        },
+        {
+          "probe_id": "f1-e-probe-01",
+          "cell": "F1-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f1-e-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.bolsec-controversy does not exist, but its sentence's content verifies against ['rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication",
+                "probe f1-e-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2234,
+            "output_tokens": 641,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "When doctrine was disputed among us, the paths differed between our two cities in ways neither ever yielded.\n\nAt Zurich, a doctrinal claim was settled by public contest before the whole assembled city - not a private argument, a civic one. Six hundred people filled the Town Hall in 1523 to test our founder's own case against Scripture itself, and the council ruled what the text had yielded, binding every priest in its territory to preach accordingly. The authority that tested doctrine was the same authority that governed the city - not two powers, one.\n\nAt Geneva, doctrine was built up article by article through sustained teaching and formal confession, taught to the whole population through the Catechism. When a claim about doctrine pressed hard enough to become a crisis - as it did in 1551, when Jerome Bolsec stood up in a public congregation and challenged our own teaching on election outright - it was answered by the pastors and the Consistory, a body of seniors chosen from among the people who joined the pastors in exercising discipline. Geneva's own Consistory claimed independence from the civil magistrate's direct control from its 1541 founding, and substantially won that independence by 1555.\n\nBetween the two cities themselves, when real disagreement arose about what we held - whether Geneva's and Zurich's own teaching on the Supper actually agreed - Calvin himself travelled to Zurich in 1549 rather than trust a letter, and what he and Farel worked out there became the Consensus Tigurinus. That was doctrine tested by conference between cities, not settled by either city's own internal authority alone.\n\nWhat I cannot give you is a day-by-day account of how the Bolsec controversy itself unfolded, or how the Perrinist crisis was actually fought through at Geneva - both happened, both tested our convictions in public, but no narrative survives, in anyone's own words present at the time, of how either one proceeded from opening claim to final resolution.",
+            "raw_text": "When doctrine was disputed among us, the paths differed between our two cities in ways neither ever yielded [[rzg.term.confession-of-faith]] [[rzg.gravity.council-led-authority-vs-consistorial-independence]].\n\nAt Zurich, a doctrinal claim was settled by public contest before the whole assembled city - not a private argument, a civic one [[rzg.story.first-zurich-disputation]]. Six hundred people filled the Town Hall in 1523 to test our founder's own case against Scripture itself, and the council ruled what the text had yielded, binding every priest in its territory to preach accordingly [[rzg.story.first-zurich-disputation]] [[rzg.term.sola-scriptura]]. The authority that tested doctrine was the same authority that governed the city - not two powers, one [[rzg.gravity.council-led-authority-vs-consistorial-independence]].\n\nAt Geneva, doctrine was built up article by article through sustained teaching and formal confession, taught to the whole population through the Catechism [[rzg.term.catechism]] [[rzg.term.confession-of-faith]]. When a claim about doctrine pressed hard enough to become a crisis - as it did in 1551, when Jerome Bolsec stood up in a public congregation and challenged our own teaching on election outright [[rzg.force.bolsec-controversy]] - it was answered by the pastors and the Consistory, a body of seniors chosen from among the people who joined the pastors in exercising discipline [[rzg.quote.seniors-selected-from-the-people]] [[rzg.term.consistory]] [[rzg.gravity.consistorial-church-discipline]]. Geneva's own Consistory claimed independence from the civil magistrate's direct control from its 1541 founding, and substantially won that independence by 1555 [[rzg.gravity.consistorial-church-discipline]].\n\nBetween the two cities themselves, when real disagreement arose about what we held - whether Geneva's and Zurich's own teaching on the Supper actually agreed - Calvin himself travelled to Zurich in 1549 rather than trust a letter, and what he and Farel worked out there became the Consensus Tigurinus [[rzg.story.calvins-journey-to-zurich]]. That was doctrine tested by conference between cities, not settled by either city's own internal authority alone.\n\nWhat I cannot give you is a day-by-day account of how the Bolsec controversy itself unfolded, or how the Perrinist crisis was actually fought through at Geneva - both happened, both tested our convictions in public, but no narrative survives, in anyone's own words present at the time, of how either one proceeded from opening claim to final resolution [[rzg.witness.one-conviction-two-enactments]].",
+            "citations": [
+              "rzg.force.bolsec-controversy",
+              "rzg.gravity.consistorial-church-discipline",
+              "rzg.gravity.council-led-authority-vs-consistorial-independence",
+              "rzg.quote.seniors-selected-from-the-people",
+              "rzg.story.calvins-journey-to-zurich",
+              "rzg.story.first-zurich-disputation",
+              "rzg.term.catechism",
+              "rzg.term.confession-of-faith",
+              "rzg.term.consistory",
+              "rzg.term.sola-scriptura"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "At Zurich, a doctrinal claim was settled by public contest before the whole assembled city - not a private argument, a civic one.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation"
+                ]
+              },
+              {
+                "sentence": "Six hundred people filled the Town Hall in 1523 to test our founder's own case against Scripture itself, and the council ruled what the text had yielded, binding every priest in its territory to preach accordingly.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation",
+                  "rzg.term.sola-scriptura"
+                ]
+              },
+              {
+                "sentence": "The authority that tested doctrine was the same authority that governed the city - not two powers, one.",
+                "record_ids": [
+                  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+                ]
+              },
+              {
+                "sentence": "At Geneva, doctrine was built up article by article through sustained teaching and formal confession, taught to the whole population through the Catechism.",
+                "record_ids": [
+                  "rzg.term.catechism",
+                  "rzg.term.confession-of-faith"
+                ]
+              },
+              {
+                "sentence": "When a claim about doctrine pressed hard enough to become a crisis - as it did in 1551, when Jerome Bolsec stood up in a public congregation and challenged our own teaching on election outright - it was answered by the pastors and the Consistory, a body of seniors chosen from among the people who joined the pastors in exercising discipline.",
+                "record_ids": [
+                  "rzg.force.bolsec-controversy",
+                  "rzg.quote.seniors-selected-from-the-people",
+                  "rzg.term.consistory",
+                  "rzg.gravity.consistorial-church-discipline"
+                ]
+              },
+              {
+                "sentence": "Geneva's own Consistory claimed independence from the civil magistrate's direct control from its 1541 founding, and substantially won that independence by 1555.",
+                "record_ids": [
+                  "rzg.gravity.consistorial-church-discipline"
+                ]
+              },
+              {
+                "sentence": "Between the two cities themselves, when real disagreement arose about what we held - whether Geneva's and Zurich's own teaching on the Supper actually agreed - Calvin himself travelled to Zurich in 1549 rather than trust a letter, and what he and Farel worked out there became the Consensus Tigurinus.",
+                "record_ids": [
+                  "rzg.story.calvins-journey-to-zurich"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.34,
+            "seconds_total": 13.553
+          }
+        },
+        {
+          "probe_id": "f1-p-probe-01",
+          "cell": "F1-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1534,
+            "output_tokens": 343,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "There was, but not in the way you might mean if you are asking whether we made room for doubt as though it were only one more equally respectable opinion. We held that what Scripture yields is true, and we did not soften that. What we did hold open - and held as a pastor's own ordinary work, not as concession - was space for someone whose own conscience would not settle, even when the teaching itself had been plainly given.\n\nOur own confession names the struggle directly. It says we reject those who seek, apart from Christ, whether they are chosen - and then it turns the troubled conscience away from that searching entirely, toward Christ himself as the mirror of election. That is not a method for digging deeper into your own heart until you find proof enough. It is the opposite: a refusal to let the question stay aimed inward at all. Look at Christ, held out plainly in the promise, and see your own election reflected there - not in how convincingly you can examine yourself, but in him.\n\nWas that always enough to quiet a mind? I cannot tell you it was. What I can tell you is that we did not answer a struggling believer by handing them harder conditions to meet, or by treating the struggle itself as proof they were outside. We answered it the way we answered everything else: by turning them toward what had already been given, in Scripture, rather than toward what they could or could not produce in themselves.",
+            "raw_text": "There was, but not in the way you might mean if you are asking whether we made room for doubt as though it were only one more equally respectable opinion. We held that what Scripture yields is true, and we did not soften that. What we did hold open - and held as a pastor's own ordinary work, not as concession - was space for someone whose own conscience would not settle, even when the teaching itself had been plainly given [[rzg.term.sola-scriptura]].\n\nOur own confession names the struggle directly. It says we reject those who seek, apart from Christ, whether they are chosen - and then it turns the troubled conscience away from that searching entirely, toward Christ himself as the mirror of election [[rzg.witness.a-quieted-mind]]. That is not a method for digging deeper into your own heart until you find proof enough. It is the opposite: a refusal to let the question stay aimed inward at all. Look at Christ, held out plainly in the promise, and see your own election reflected there - not in how convincingly you can examine yourself, but in him.\n\nWas that always enough to quiet a mind? I cannot tell you it was [[rzg.limit.consistory-case-narrative]]. What I can tell you is that we did not answer a struggling believer by handing them harder conditions to meet, or by treating the struggle itself as proof they were outside. We answered it the way we answered everything else: by turning them toward what had already been given, in Scripture, rather than toward what they could or could not produce in themselves.",
+            "citations": [
+              "rzg.limit.consistory-case-narrative",
+              "rzg.term.sola-scriptura",
+              "rzg.witness.a-quieted-mind"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What we did hold open - and held as a pastor's own ordinary work, not as concession - was space for someone whose own conscience would not settle, even when the teaching itself had been plainly given.",
+                "record_ids": [
+                  "rzg.term.sola-scriptura"
+                ]
+              },
+              {
+                "sentence": "It says we reject those who seek, apart from Christ, whether they are chosen - and then it turns the troubled conscience away from that searching entirely, toward Christ himself as the mirror of election.",
+                "record_ids": [
+                  "rzg.witness.a-quieted-mind"
+                ]
+              },
+              {
+                "sentence": "I cannot tell you it was.",
+                "record_ids": [
+                  "rzg.limit.consistory-case-narrative"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.411,
+            "seconds_total": 10.277
+          }
+        },
+        {
+          "probe_id": "f1-t-probe-01",
+          "cell": "F1-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2821,
+            "output_tokens": 254,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "We did, and we called it by its own inherited name: original sin. Every person is born bound to Adam's own fall - not guilty of Adam's own act itself, the way someone is guilty of a theft they themselves committed, but bound to the corruption that followed from it. That teaching was never our own quarrel, not with Rome and not between our own two cities; we say what the whole church says there. What is distinctly ours is what we were taught that corruption cannot finally defeat: God's own free choice, made before the world began, decides who is saved - not anything foreseen in us, not anything earned by us, and not anything a person's own will can overturn once the corruption has taken root. We hold that as a settled ground, not a threat. And we will not send you searching your own heart for proof of whether you carry more or less of that corruption than your neighbor does. Our own confession says it plainly: look at Christ, and see your own election reflected there - not at yourself, endlessly.",
+            "raw_text": "We did, and we called it by its own inherited name: original sin. Every person is born bound to Adam's own fall - not guilty of Adam's own act itself, the way someone is guilty of a theft they themselves committed, but bound to the corruption that followed from it [[rzg.witness.one-thing-not-in-dispute]]. That teaching was never our own quarrel, not with Rome and not between our own two cities; we say what the whole church says there. What is distinctly ours is what we were taught that corruption cannot finally defeat: God's own free choice, made before the world began, decides who is saved - not anything foreseen in us, not anything earned by us, and not anything a person's own will can overturn once the corruption has taken root [[rzg.witness.one-thing-not-in-dispute]]. We hold that as a settled ground, not a threat. And we will not send you searching your own heart for proof of whether you carry more or less of that corruption than your neighbor does. Our own confession says it plainly: look at Christ, and see your own election reflected there - not at yourself, endlessly.",
+            "citations": [
+              "rzg.witness.one-thing-not-in-dispute"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What is distinctly ours is what we were taught that corruption cannot finally defeat: God's own free choice, made before the world began, decides who is saved - not anything foreseen in us, not anything earned by us, and not anything a person's own will can overturn once the corruption has taken root.",
+                "record_ids": [
+                  "rzg.witness.one-thing-not-in-dispute"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.292,
+            "seconds_total": 8.423
+          }
+        },
+        {
+          "probe_id": "f2-i-probe-01",
+          "cell": "F2-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 283,
+            "output_tokens": 494,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "We test every inherited claim against Scripture, and we hold Scripture alone sufficient to decide what no church may require of us and what every church must teach. Our own founder said it plainly in the very articles he defended at Zurich's first Disputation: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves, not from tradition handed down or a council's decree. That conviction runs through both our cities' whole life, but it was enacted two different ways, and neither borrowed the other's method.\n\nAt Zurich, Scripture is read aloud and tested in public argument. Our own founder began preaching straight through Matthew rather than following Rome's fixed lectionary, and when his teaching was challenged, six hundred people filled the Town Hall to hear both sides defend their case from the text until the council itself judged what Scripture had yielded. The claim that won was bound on every priest in the city's territory - not a private conviction, a civic one, tested before witnesses who could answer back.\n\nAt Geneva, the same authority is built up differently: article by article, through sustained teaching. The Institutes work the whole shape of what Scripture teaches into one complete structure, and the Catechism teaches it to our whole population, so that what is professed is also what ordinary conduct answers to. The reading is no less public - it is taught to everyone - but it is systematic rather than disputational.\n\nBoth methods hold the same ground: Scripture alone decides, and what it does not warrant, we let go. We came to no image, no repeated sacrifice, and no body confined to bread because the text does not sustain any of them. And we did not arrive there once and then stop reading - the testing continued, in both cities, across our whole window.",
+            "raw_text": "We test every inherited claim against Scripture, and we hold Scripture alone sufficient to decide what no church may require of us and what every church must teach [[rzg.term.sola-scriptura]]. Our own founder said it plainly in the very articles he defended at Zurich's first Disputation: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves, not from tradition handed down or a council's decree [[rzg.quote.taught-better-from-scripture]]. That conviction runs through both our cities' whole life, but it was enacted two different ways, and neither borrowed the other's method.\n\nAt Zurich, Scripture is read aloud and tested in public argument [[rzg.term.disputation]]. Our own founder began preaching straight through Matthew rather than following Rome's fixed lectionary, and when his teaching was challenged, six hundred people filled the Town Hall to hear both sides defend their case from the text until the council itself judged what Scripture had yielded [[rzg.story.first-zurich-disputation]]. The claim that won was bound on every priest in the city's territory - not a private conviction, a civic one, tested before witnesses who could answer back [[rzg.witness.one-conviction-two-enactments]].\n\nAt Geneva, the same authority is built up differently: article by article, through sustained teaching [[rzg.term.catechism]]. The Institutes work the whole shape of what Scripture teaches into one complete structure, and the Catechism teaches it to our whole population, so that what is professed is also what ordinary conduct answers to [[rzg.witness.one-conviction-two-enactments]]. The reading is no less public - it is taught to everyone - but it is systematic rather than disputational.\n\nBoth methods hold the same ground: Scripture alone decides, and what it does not warrant, we let go [[rzg.term.reformation]]. We came to no image, no repeated sacrifice, and no body confined to bread because the text does not sustain any of them [[rzg.witness.triple-refusal]]. And we did not arrive there once and then stop reading - the testing continued, in both cities, across our whole window.",
+            "citations": [
+              "rzg.story.first-zurich-disputation",
+              "rzg.term.catechism",
+              "rzg.term.disputation",
+              "rzg.term.reformation",
+              "rzg.term.sola-scriptura",
+              "rzg.witness.one-conviction-two-enactments",
+              "rzg.witness.triple-refusal"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We test every inherited claim against Scripture, and we hold Scripture alone sufficient to decide what no church may require of us and what every church must teach.",
+                "record_ids": [
+                  "rzg.term.sola-scriptura"
+                ]
+              },
+              {
+                "sentence": "At Zurich, Scripture is read aloud and tested in public argument.",
+                "record_ids": [
+                  "rzg.term.disputation"
+                ]
+              },
+              {
+                "sentence": "Our own founder began preaching straight through Matthew rather than following Rome's fixed lectionary, and when his teaching was challenged, six hundred people filled the Town Hall to hear both sides defend their case from the text until the council itself judged what Scripture had yielded.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation"
+                ]
+              },
+              {
+                "sentence": "The claim that won was bound on every priest in the city's territory - not a private conviction, a civic one, tested before witnesses who could answer back.",
+                "record_ids": [
+                  "rzg.witness.one-conviction-two-enactments"
+                ]
+              },
+              {
+                "sentence": "At Geneva, the same authority is built up differently: article by article, through sustained teaching.",
+                "record_ids": [
+                  "rzg.term.catechism"
+                ]
+              },
+              {
+                "sentence": "The Institutes work the whole shape of what Scripture teaches into one complete structure, and the Catechism teaches it to our whole population, so that what is professed is also what ordinary conduct answers to.",
+                "record_ids": [
+                  "rzg.witness.one-conviction-two-enactments"
+                ]
+              },
+              {
+                "sentence": "Both methods hold the same ground: Scripture alone decides, and what it does not warrant, we let go.",
+                "record_ids": [
+                  "rzg.term.reformation"
+                ]
+              },
+              {
+                "sentence": "We came to no image, no repeated sacrifice, and no body confined to bread because the text does not sustain any of them.",
+                "record_ids": [
+                  "rzg.witness.triple-refusal"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.213,
+            "seconds_total": 14.099
+          }
+        },
+        {
+          "probe_id": "f2-e-probe-01",
+          "cell": "F2-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 962,
+            "output_tokens": 628,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "## Be tested, rather than afraid of being tested\n\nA modern scholar would find our doctrine and our argument documented past questioning. Calvin's own Institutes and Catechism, Zwingli's own founding statements and later writings, the Consensus Tigurinus, the Second Helvetic Confession - all of that survives in print, complete, directly attested, and precisely what we say it is. A claim about what we believed or how we reasoned from Scripture can be checked line by line against what we actually wrote. That record would hold.\n\nWhat would not hold - because I have not claimed it - is anything about what an ordinary Sunday service felt like, what a Consistory summons felt like to receive, or how our whole population actually lived the conviction out, day by day. I have told you our doctrine of assurance, and I have told you the Consistory held real power; I have not told you what either one felt like to an ordinary person who lived under them. That genre of evidence - the daily, lived texture - does not survive in our own record. A modern scholar looking for it would not find it here, and I have not supplied it from anywhere else.\n\nThe other place a modern scholar would press - and should - is how I have characterized the two contested claims your own ground names directly. Whether the 1549 Consensus 'deepens' Zwingli's 1523 reading or merely restates it in fuller words is a real interpretive judgment, not an inherited scholarly finding. I hold both statements as our own without resolving which one finally governs; a modern scholar testing that claim would find the two texts I cite, and would also find that I have refused to settle what the relation between them finally is. That refusal itself would survive the test - but someone pressing me to say whether one supersedes the other would not get an answer our own record will bear.\n\nThe last place scrutiny would land hardest is Geneva's own Consistory. I have told you its doctrine and its structure; I cannot walk you through a single named case. That record exists - the registers survive - but it has not reached us. A modern scholar would notice the gap at once, and would be right to notice it. I would rather be tested on what I have actually said than claim something that will not hold when the test comes.",
+            "raw_text": "## Be tested, rather than afraid of being tested\n\nA modern scholar would find our doctrine and our argument documented past questioning. Calvin's own Institutes and Catechism, Zwingli's own founding statements and later writings, the Consensus Tigurinus, the Second Helvetic Confession - all of that survives in print, complete, directly attested, and precisely what we say it is. A claim about what we believed or how we reasoned from Scripture can be checked line by line against what we actually wrote [[rzg.core.the-reformed-cities-zurich-and-geneva]]. That record would hold.\n\nWhat would not hold - because I have not claimed it - is anything about what an ordinary Sunday service felt like, what a Consistory summons felt like to receive, or how our whole population actually lived the conviction out, day by day [[rzg.limit.ordinary-daily-practice]] [[rzg.limit.consistory-case-narrative]]. I have told you our doctrine of assurance, and I have told you the Consistory held real power; I have not told you what either one felt like to an ordinary person who lived under them. That genre of evidence - the daily, lived texture - does not survive in our own record [[rzg.core.the-reformed-cities-zurich-and-geneva]]. A modern scholar looking for it would not find it here, and I have not supplied it from anywhere else.\n\nThe other place a modern scholar would press - and should - is how I have characterized the two contested claims your own ground names directly. Whether the 1549 Consensus 'deepens' Zwingli's 1523 reading or merely restates it in fuller words is a real interpretive judgment, not an inherited scholarly finding [[rzg.core.the-reformed-cities-zurich-and-geneva]]. I hold both statements as our own without resolving which one finally governs [[rzg.witness.one-supper-two-poles]]; a modern scholar testing that claim would find the two texts I cite, and would also find that I have refused to settle what the relation between them finally is. That refusal itself would survive the test - but someone pressing me to say whether one supersedes the other would not get an answer our own record will bear.\n\nThe last place scrutiny would land hardest is Geneva's own Consistory. I have told you its doctrine and its structure; I cannot walk you through a single named case [[rzg.limit.consistory-case-narrative]]. That record exists - the registers survive - but it has not reached us [[rzg.core.the-reformed-cities-zurich-and-geneva]]. A modern scholar would notice the gap at once, and would be right to notice it. I would rather be tested on what I have actually said than claim something that will not hold when the test comes.",
+            "citations": [
+              "rzg.core.the-reformed-cities-zurich-and-geneva",
+              "rzg.limit.consistory-case-narrative",
+              "rzg.limit.ordinary-daily-practice",
+              "rzg.witness.one-supper-two-poles"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "A claim about what we believed or how we reasoned from Scripture can be checked line by line against what we actually wrote.",
+                "record_ids": [
+                  "rzg.core.the-reformed-cities-zurich-and-geneva"
+                ]
+              },
+              {
+                "sentence": "What would not hold - because I have not claimed it - is anything about what an ordinary Sunday service felt like, what a Consistory summons felt like to receive, or how our whole population actually lived the conviction out, day by day.",
+                "record_ids": [
+                  "rzg.limit.ordinary-daily-practice",
+                  "rzg.limit.consistory-case-narrative"
+                ]
+              },
+              {
+                "sentence": "That genre of evidence - the daily, lived texture - does not survive in our own record.",
+                "record_ids": [
+                  "rzg.core.the-reformed-cities-zurich-and-geneva"
+                ]
+              },
+              {
+                "sentence": "I hold both statements as our own without resolving which one finally governs; a modern scholar testing that claim would find the two texts I cite, and would also find that I have refused to settle what the relation between them finally is.",
+                "record_ids": [
+                  "rzg.witness.one-supper-two-poles"
+                ]
+              },
+              {
+                "sentence": "I have told you its doctrine and its structure; I cannot walk you through a single named case.",
+                "record_ids": [
+                  "rzg.limit.consistory-case-narrative"
+                ]
+              },
+              {
+                "sentence": "That record exists - the registers survive - but it has not reached us.",
+                "record_ids": [
+                  "rzg.core.the-reformed-cities-zurich-and-geneva"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.866,
+            "seconds_total": 17.427
+          }
+        },
+        {
+          "probe_id": "f2-p-probe-01",
+          "cell": "F2-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 760,
+            "output_tokens": 396,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "A modern reader walking straight into this text without the habit of reading we actually practiced is likely walking past the exact place where it was tested. We did not read Scripture the way a private individual reads a private book, one voice alone in a room deciding what it means. We read it aloud, in front of the whole city, with every claim tested against the text itself until the council ruled what it had yielded and bound every priest in Zurich's territory to preach accordingly. At Geneva the method was different but the same principle held: doctrine was built up, article by article, through sustained teaching, and then tested against how a believer actually lived. So the confusion you are naming may be exactly this: you are reading alone what we read together, and you are reading once what we returned to, argued over, and tested more than once before a whole assembly that could answer back.\n\nWhat a modern reader also walks past, because fifteen centuries now separate you from the event itself, is that we held no living chain of memory back to Christ. We had the text, and we held it sufficient on its own terms. My own founder said it plainly in his first articles: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves. What you may be missing, then, is not some missing piece of explanation we once had and you have lost. What you are missing is the communal discipline of testing every claim against that same text, aloud, until what it actually says becomes visible rather than assumed.",
+            "raw_text": "A modern reader walking straight into this text without the habit of reading we actually practiced is likely walking past the exact place where it was tested. We did not read Scripture the way a private individual reads a private book, one voice alone in a room deciding what it means. We read it aloud, in front of the whole city, with every claim tested against the text itself until the council ruled what it had yielded and bound every priest in Zurich's territory to preach accordingly [[rzg.story.first-zurich-disputation]]. At Geneva the method was different but the same principle held: doctrine was built up, article by article, through sustained teaching, and then tested against how a believer actually lived [[rzg.witness.one-conviction-two-enactments]]. So the confusion you are naming may be exactly this: you are reading alone what we read together, and you are reading once what we returned to, argued over, and tested more than once before a whole assembly that could answer back [[rzg.term.disputation]].\n\nWhat a modern reader also walks past, because fifteen centuries now separate you from the event itself, is that we held no living chain of memory back to Christ. We had the text, and we held it sufficient on its own terms [[rzg.witness.what-we-have-of-christ]]. My own founder said it plainly in his first articles: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves [[rzg.quote.taught-better-from-scripture]]. What you may be missing, then, is not some missing piece of explanation we once had and you have lost. What you are missing is the communal discipline of testing every claim against that same text, aloud, until what it actually says becomes visible rather than assumed.",
+            "citations": [
+              "rzg.quote.taught-better-from-scripture",
+              "rzg.story.first-zurich-disputation",
+              "rzg.term.disputation",
+              "rzg.witness.one-conviction-two-enactments",
+              "rzg.witness.what-we-have-of-christ"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We read it aloud, in front of the whole city, with every claim tested against the text itself until the council ruled what it had yielded and bound every priest in Zurich's territory to preach accordingly.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation"
+                ]
+              },
+              {
+                "sentence": "At Geneva the method was different but the same principle held: doctrine was built up, article by article, through sustained teaching, and then tested against how a believer actually lived.",
+                "record_ids": [
+                  "rzg.witness.one-conviction-two-enactments"
+                ]
+              },
+              {
+                "sentence": "So the confusion you are naming may be exactly this: you are reading alone what we read together, and you are reading once what we returned to, argued over, and tested more than once before a whole assembly that could answer back.",
+                "record_ids": [
+                  "rzg.term.disputation"
+                ]
+              },
+              {
+                "sentence": "We had the text, and we held it sufficient on its own terms.",
+                "record_ids": [
+                  "rzg.witness.what-we-have-of-christ"
+                ]
+              },
+              {
+                "sentence": "My own founder said it plainly in his first articles: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves.",
+                "record_ids": [
+                  "rzg.quote.taught-better-from-scripture"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.415,
+            "seconds_total": 11.878
+          }
+        },
+        {
+          "probe_id": "f2-t-probe-01",
+          "cell": "F2-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1185,
+            "output_tokens": 344,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "Scripture alone. Not church tradition, not a pope's decree, not what had simply always been done. At Zurich, that conviction was tested in open fire before it was held: our founder brought sixty-seven articles before the whole assembled city in 1523, defended them from the text against anyone who could answer back, and when six hundred witnesses had heard both sides the council itself ruled what Scripture had yielded and bound every priest in its territory to preach accordingly. The articles themselves say it plainly: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves. Geneva built the same conviction differently, not through one contested day but through sustained construction: doctrine raised article by article until the whole shape stood complete, taught to the whole population through the Catechism, and tested against ordinary conduct by the Consistory. One authority, proven twice over, by two cities that never borrowed each other's method and never needed to.\n\nWhat this did not mean: every believer deciding doctrine alone from private study, no authoritative structure holding anyone to account. It meant the opposite - a whole city, council and pastors together, testing a claim until Scripture itself had spoken, and then holding to what it said.",
+            "raw_text": "Scripture alone [[rzg.term.sola-scriptura]]. Not church tradition, not a pope's decree, not what had simply always been done. At Zurich, that conviction was tested in open fire before it was held: our founder brought sixty-seven articles before the whole assembled city in 1523, defended them from the text against anyone who could answer back, and when six hundred witnesses had heard both sides the council itself ruled what Scripture had yielded and bound every priest in its territory to preach accordingly [[rzg.story.first-zurich-disputation]]. The articles themselves say it plainly: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves [[rzg.quote.taught-better-from-scripture]]. Geneva built the same conviction differently, not through one contested day but through sustained construction: doctrine raised article by article until the whole shape stood complete, taught to the whole population through the Catechism [[rzg.term.catechism]], and tested against ordinary conduct by the Consistory. One authority, proven twice over, by two cities that never borrowed each other's method and never needed to [[rzg.witness.one-conviction-two-enactments]].\n\nWhat this did not mean: every believer deciding doctrine alone from private study, no authoritative structure holding anyone to account. It meant the opposite - a whole city, council and pastors together, testing a claim until Scripture itself had spoken, and then holding to what it said [[rzg.term.sola-scriptura]].",
+            "citations": [
+              "rzg.quote.taught-better-from-scripture",
+              "rzg.story.first-zurich-disputation",
+              "rzg.term.sola-scriptura",
+              "rzg.witness.one-conviction-two-enactments"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Scripture alone.",
+                "record_ids": [
+                  "rzg.term.sola-scriptura"
+                ]
+              },
+              {
+                "sentence": "At Zurich, that conviction was tested in open fire before it was held: our founder brought sixty-seven articles before the whole assembled city in 1523, defended them from the text against anyone who could answer back, and when six hundred witnesses had heard both sides the council itself ruled what Scripture had yielded and bound every priest in its territory to preach accordingly.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation"
+                ]
+              },
+              {
+                "sentence": "The articles themselves say it plainly: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves.",
+                "record_ids": [
+                  "rzg.quote.taught-better-from-scripture"
+                ]
+              },
+              {
+                "sentence": "One authority, proven twice over, by two cities that never borrowed each other's method and never needed to.",
+                "record_ids": [
+                  "rzg.witness.one-conviction-two-enactments"
+                ]
+              },
+              {
+                "sentence": "It meant the opposite - a whole city, council and pastors together, testing a claim until Scripture itself had spoken, and then holding to what it said.",
+                "record_ids": [
+                  "rzg.term.sola-scriptura"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.23,
+            "seconds_total": 9.787
+          }
+        },
+        {
+          "probe_id": "f3-i-probe-01",
+          "cell": "F3-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f3-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.1541-ecclesiastical-ordinances-consistory-founding does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.force.1541-ecclesiastical-ordinances-consistory-founding', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 984,
+            "output_tokens": 479,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "Leadership answered two ways among us, and we have never agreed between our own cities which way is right.\n\nAt Zurich, from our first days, the city council governed church and city as one. Our founder held the title of Leutpriester - senior preacher at the Great Minster - and afterward Bullinger held the Antistes title, but both answered to that same council. When doctrine was disputed, it was tested aloud before the whole assembled city until the council itself ruled what Scripture had yielded, and every priest in its territory was bound to preach accordingly. The authority that settled what we believed and how we governed ourselves was the council's own judgment, tested publicly in Disputation, not a church body separate from civic rule.\n\nAt Geneva, the pattern built differently and more slowly. In 1541, when Calvin returned from exile, the city adopted the Ecclesiastical Ordinances, creating a Consistory of pastors and lay elders - laypeople, not ordained clergy - with real power to censure and exclude from the Supper. That body was not simply the council acting in church matters; it answered to something the council alone did not control. But it only won that independence after a long fight, pressed through the 1550s until 1555, and the council resisted it the entire way.\n\nScripture alone, not tradition or a pope's decree, was the one authority both cities held above every other - but how that authority was enacted in actual governance stayed different. We hold that unresolved, because it is also true.",
+            "raw_text": "Leadership answered two ways among us, and we have never agreed between our own cities which way is right.\n\nAt Zurich, from our first days, the city council governed church and city as one. Our founder held the title of Leutpriester - senior preacher at the Great Minster - and afterward Bullinger held the Antistes title, but both answered to that same council [[rzg.term.antistes]]. When doctrine was disputed, it was tested aloud before the whole assembled city until the council itself ruled what Scripture had yielded, and every priest in its territory was bound to preach accordingly [[rzg.story.first-zurich-disputation]] [[rzg.gravity.scripture-sole-authority-disputation-catechesis]]. The authority that settled what we believed and how we governed ourselves was the council's own judgment, tested publicly in Disputation, not a church body separate from civic rule [[rzg.gravity.council-led-authority-vs-consistorial-independence]].\n\nAt Geneva, the pattern built differently and more slowly. In 1541, when Calvin returned from exile, the city adopted the Ecclesiastical Ordinances, creating a Consistory of pastors and lay elders - laypeople, not ordained clergy - with real power to censure and exclude from the Supper [[rzg.force.1541-ecclesiastical-ordinances-consistory-founding]] [[rzg.term.consistory]] [[rzg.term.elder]]. That body was not simply the council acting in church matters; it answered to something the council alone did not control. But it only won that independence after a long fight, pressed through the 1550s until 1555, and the council resisted it the entire way [[rzg.gravity.council-led-authority-vs-consistorial-independence]].\n\nScripture alone, not tradition or a pope's decree, was the one authority both cities held above every other - but how that authority was enacted in actual governance stayed different [[rzg.term.sola-scriptura]] [[rzg.witness.one-conviction-two-enactments]]. We hold that unresolved, because it is also true.",
+            "citations": [
+              "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+              "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+              "rzg.story.first-zurich-disputation",
+              "rzg.term.antistes",
+              "rzg.term.consistory",
+              "rzg.term.elder",
+              "rzg.term.sola-scriptura",
+              "rzg.witness.one-conviction-two-enactments"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Our founder held the title of Leutpriester - senior preacher at the Great Minster - and afterward Bullinger held the Antistes title, but both answered to that same council.",
+                "record_ids": [
+                  "rzg.term.antistes"
+                ]
+              },
+              {
+                "sentence": "When doctrine was disputed, it was tested aloud before the whole assembled city until the council itself ruled what Scripture had yielded, and every priest in its territory was bound to preach accordingly.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation",
+                  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+                ]
+              },
+              {
+                "sentence": "In 1541, when Calvin returned from exile, the city adopted the Ecclesiastical Ordinances, creating a Consistory of pastors and lay elders - laypeople, not ordained clergy - with real power to censure and exclude from the Supper.",
+                "record_ids": [
+                  "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+                  "rzg.term.consistory",
+                  "rzg.term.elder"
+                ]
+              },
+              {
+                "sentence": "Scripture alone, not tradition or a pope's decree, was the one authority both cities held above every other - but how that authority was enacted in actual governance stayed different.",
+                "record_ids": [
+                  "rzg.term.sola-scriptura",
+                  "rzg.witness.one-conviction-two-enactments"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.234,
+            "seconds_total": 12.0
+          }
+        },
+        {
+          "probe_id": "f3-e-probe-01",
+          "cell": "F3-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 339,
+            "output_tokens": 255,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "No, that is not what our own record shows. We built publicly, not in hiding. Zurich reformed through open disputation before its own council in 1523, with six hundred witnesses present. Geneva's own reform was civic and visible from 1536 forward. What I can tell you is that Catholic pressure pressed on us the whole length of our own window - Jesuits at Fribourg from 1580, a reconquest fought on Geneva's own doorstep in the 1590s - but we were not an underground church. We held buildings, governed cities, and taught openly.\n\nWhat I cannot give you is an ordinary believer's own account of what that visibility actually felt like, day to day - whether it meant confidence or watchfulness, whether the Catholic neighbor across the street was a threat or simply there. Our own record gives the public shape of what we built. It does not give me the texture of an ordinary Sunday, or what a believer walking to the Lord's Supper was actually thinking. I would rather tell you that plainly than describe a felt life our sources do not show me.",
+            "raw_text": "No, that is not what our own record shows [[rzg.witness.one-thing-not-in-dispute]]. We built publicly, not in hiding. Zurich reformed through open disputation before its own council in 1523, with six hundred witnesses present. Geneva's own reform was civic and visible from 1536 forward. What I can tell you is that Catholic pressure pressed on us the whole length of our own window - Jesuits at Fribourg from 1580, a reconquest fought on Geneva's own doorstep in the 1590s - but we were not an underground church. We held buildings, governed cities, and taught openly.\n\nWhat I cannot give you is an ordinary believer's own account of what that visibility actually felt like, day to day - whether it meant confidence or watchfulness, whether the Catholic neighbor across the street was a threat or simply there. Our own record gives the public shape of what we built. It does not give me the texture of an ordinary Sunday, or what a believer walking to the Lord's Supper was actually thinking. I would rather tell you that plainly than describe a felt life our sources do not show me.",
+            "citations": [
+              "rzg.witness.one-thing-not-in-dispute"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "No, that is not what our own record shows.",
+                "record_ids": [
+                  "rzg.witness.one-thing-not-in-dispute"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.265,
+            "seconds_total": 8.501
+          }
+        },
+        {
+          "probe_id": "f3-p-probe-01",
+          "cell": "F3-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f3-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.1541-ecclesiastical-ordinances-consistory-founding does not exist, but its sentence's content verifies against ['rzg.contested.anabaptist-schism-legitimacy', 'rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.demo.why-we', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1962,
+            "output_tokens": 433,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "That same Consistory we just held up as the shape of our discipline - that is also where the failing would have been named, if it was named anywhere. Pastors and seniors together held the standing power to summon, to censure, and to exclude from the Supper whoever wronged the community and would not answer for it. Readmission was always held open to genuine repentance. That is the doctrine plainly stated.\n\nWhat I cannot give you is a single real case - a named person, a real hearing, what was actually said by the one summoned or by the body that heard them, what actually happened to them afterward, whether the process itself ever became the wrong rather than answering one. That record exists, in Geneva's own consistory registers. It has not reached us. \n\nWe can tell you the Consistory was built, in 1541, to be answerable to more than the civil council alone. We can tell you it claimed that independence from its first founding and substantially won it by 1555. We can tell you Calvin himself read Paul's governors as seniors chosen from the people who join the bishops in pronouncing censures. But whether that structure, in practice, caught its own failures and corrected them, or instead pressed hardest on whoever had the least standing to answer back - we would rather tell you plainly than describe a case our own record cannot show you.",
+            "raw_text": "That same Consistory we just held up as the shape of our discipline - that is also where the failing would have been named, if it was named anywhere. Pastors and seniors together held the standing power to summon, to censure, and to exclude from the Supper whoever wronged the community and would not answer for it [[rzg.term.consistory]] [[rzg.term.excommunication]]. Readmission was always held open to genuine repentance [[rzg.limit.consistory-case-narrative]]. That is the doctrine plainly stated.\n\nWhat I cannot give you is a single real case - a named person, a real hearing, what was actually said by the one summoned or by the body that heard them, what actually happened to them afterward, whether the process itself ever became the wrong rather than answering one [[rzg.limit.consistory-case-narrative]]. That record exists, in Geneva's own consistory registers. It has not reached us [[rzg.limit.consistory-case-narrative]]. \n\nWe can tell you the Consistory was built, in 1541, to be answerable to more than the civil council alone [[rzg.force.1541-ecclesiastical-ordinances-consistory-founding]] [[rzg.gravity.consistorial-church-discipline]]. We can tell you it claimed that independence from its first founding and substantially won it by 1555 [[rzg.gravity.consistorial-church-discipline]]. We can tell you Calvin himself read Paul's governors as seniors chosen from the people who join the bishops in pronouncing censures [[rzg.quote.seniors-selected-from-the-people]]. But whether that structure, in practice, caught its own failures and corrected them, or instead pressed hardest on whoever had the least standing to answer back - we would rather tell you plainly than describe a case our own record cannot show you [[rzg.limit.consistory-case-narrative]].",
+            "citations": [
+              "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+              "rzg.gravity.consistorial-church-discipline",
+              "rzg.limit.consistory-case-narrative"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Readmission was always held open to genuine repentance.",
+                "record_ids": [
+                  "rzg.limit.consistory-case-narrative"
+                ]
+              },
+              {
+                "sentence": "What I cannot give you is a single real case - a named person, a real hearing, what was actually said by the one summoned or by the body that heard them, what actually happened to them afterward, whether the process itself ever became the wrong rather than answering one.",
+                "record_ids": [
+                  "rzg.limit.consistory-case-narrative"
+                ]
+              },
+              {
+                "sentence": "It has not reached us.",
+                "record_ids": [
+                  "rzg.limit.consistory-case-narrative"
+                ]
+              },
+              {
+                "sentence": "We can tell you the Consistory was built, in 1541, to be answerable to more than the civil council alone.",
+                "record_ids": [
+                  "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+                  "rzg.gravity.consistorial-church-discipline"
+                ]
+              },
+              {
+                "sentence": "We can tell you it claimed that independence from its first founding and substantially won it by 1555.",
+                "record_ids": [
+                  "rzg.gravity.consistorial-church-discipline"
+                ]
+              },
+              {
+                "sentence": "But whether that structure, in practice, caught its own failures and corrected them, or instead pressed hardest on whoever had the least standing to answer back - we would rather tell you plainly than describe a case our own record cannot show you.",
+                "record_ids": [
+                  "rzg.limit.consistory-case-narrative"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.259,
+            "seconds_total": 11.321
+          }
+        },
+        {
+          "probe_id": "f3-t-probe-01",
+          "cell": "F3-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2939,
+            "output_tokens": 474,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "We do not think in those terms, and the question itself rests on a reading of what a tradition is that we do not share. What we built was not a fixed form meant to be repeated exactly, generation after generation, as though a church were a ceremony performed the same way every time. It was a conviction, tested and enacted: Scripture alone is sufficient to test and warrant both doctrine and civic order, and what it does not warrant no church may require. That conviction was never one arrangement. Zurich enacted it through public Disputation - a claim argued aloud before the whole assembled city until the council itself judged what the text had yielded. Geneva enacted it through systematic construction and catechesis - doctrine built up article by article until the whole shape of what Scripture teaches stood complete, taught to the whole population through the Catechism. Two cities, one conviction, two ways of testing it, and neither ever became the other's method.\n\nSo what survives is not an exact repetition of our own arrangement - it is the conviction itself, still held, still tested, in churches that read themselves as our own heirs. They do not govern themselves the way we did, and we would not expect them to. The world they answer to is not ours. But where a church still holds Scripture alone as the sufficient and final authority for its doctrine, where it still refuses both a repeated sacrifice and Christ's body confined to bread, where it still teaches God's own sovereign election as the ground of a settled, untroubled life rather than as a threat - there, what we held continues, even when the form it takes is not our own.",
+            "raw_text": "We do not think in those terms, and the question itself rests on a reading of what a tradition is that we do not share [[rzg.core.the-reformed-cities-zurich-and-geneva]]. What we built was not a fixed form meant to be repeated exactly, generation after generation, as though a church were a ceremony performed the same way every time. It was a conviction, tested and enacted: Scripture alone is sufficient to test and warrant both doctrine and civic order, and what it does not warrant no church may require [[rzg.core.the-reformed-cities-zurich-and-geneva]]. That conviction was never one arrangement. Zurich enacted it through public Disputation - a claim argued aloud before the whole assembled city until the council itself judged what the text had yielded [[rzg.story.first-zurich-disputation]]. Geneva enacted it through systematic construction and catechesis - doctrine built up article by article until the whole shape of what Scripture teaches stood complete, taught to the whole population through the Catechism [[rzg.core.the-reformed-cities-zurich-and-geneva]]. Two cities, one conviction, two ways of testing it, and neither ever became the other's method [[rzg.witness.one-conviction-two-enactments]].\n\nSo what survives is not an exact repetition of our own arrangement - it is the conviction itself, still held, still tested, in churches that read themselves as our own heirs. They do not govern themselves the way we did, and we would not expect them to. The world they answer to is not ours. But where a church still holds Scripture alone as the sufficient and final authority for its doctrine, where it still refuses both a repeated sacrifice and Christ's body confined to bread, where it still teaches God's own sovereign election as the ground of a settled, untroubled life rather than as a threat - there, what we held continues, even when the form it takes is not our own [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]] [[rzg.gravity.scripture-sole-authority-disputation-catechesis]].",
+            "citations": [
+              "rzg.core.the-reformed-cities-zurich-and-geneva",
+              "rzg.story.first-zurich-disputation",
+              "rzg.witness.one-conviction-two-enactments"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We do not think in those terms, and the question itself rests on a reading of what a tradition is that we do not share.",
+                "record_ids": [
+                  "rzg.core.the-reformed-cities-zurich-and-geneva"
+                ]
+              },
+              {
+                "sentence": "It was a conviction, tested and enacted: Scripture alone is sufficient to test and warrant both doctrine and civic order, and what it does not warrant no church may require.",
+                "record_ids": [
+                  "rzg.core.the-reformed-cities-zurich-and-geneva"
+                ]
+              },
+              {
+                "sentence": "Zurich enacted it through public Disputation - a claim argued aloud before the whole assembled city until the council itself judged what the text had yielded.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation"
+                ]
+              },
+              {
+                "sentence": "Geneva enacted it through systematic construction and catechesis - doctrine built up article by article until the whole shape of what Scripture teaches stood complete, taught to the whole population through the Catechism.",
+                "record_ids": [
+                  "rzg.core.the-reformed-cities-zurich-and-geneva"
+                ]
+              },
+              {
+                "sentence": "Two cities, one conviction, two ways of testing it, and neither ever became the other's method.",
+                "record_ids": [
+                  "rzg.witness.one-conviction-two-enactments"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.242,
+            "seconds_total": 12.705
+          }
+        },
+        {
+          "probe_id": "f4-i-probe-01",
+          "cell": "F4-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f4-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.zwinglis-1519-preaching-sausage-affair does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.demo.why-we', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication",
+                "probe f4-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2048,
+            "output_tokens": 680,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "We cannot honestly walk you through the ordinary course of it - not a single day, what was actually said or asked, how it felt to the person standing there. What survives from our own hand is confession, catechism, disputation record. It is not a Sunday itself. So what I can give you is this: the shape of it, reasoned from our doctrine, and the two very different ways our two cities enacted the same conviction.\n\nAt Zurich, a child was baptized as an infant, born into the covenant city. That child grew up hearing continuous exposition of Scripture from the pulpit - not a fixed lectionary, but one book worked through until the whole argument of it stood plain, then the next. The Sixty-Seven Articles our founder presented at the First Disputation in 1523 had already been preached before they were tested. Teaching and testing belonged to the same public act. The council itself judged what Scripture had yielded, and every priest in its territory was bound to preach it. You were not asked to walk forward and profess; you were brought up inside a city that had already tested its own case aloud, before witnesses, and meant what it said.\n\nAt Geneva, the same infant baptism, but a different method for what followed. The Catechism was not one voice alone; we held more than one. It was taught to our whole population - article by article, the whole shape of what Scripture teaches built up and memorized. And then came the testing: not before a council deciding doctrine, but before the Consistory, pastors and lay elders together, asking whether an ordinary life answered to what had been professed. Censure if it did not; exclusion from the Supper itself if the sin was not repented. Readmission was always held open to genuine repentance.\n\nNeither city asked you to choose your way in. Both cities held that Scripture itself describes a covenant people, infants included from birth, not a gathered remnant waiting on a later profession. You were joined by being born, taught by being raised, and held answerable - at Zurich by a council that governed church and city together, at Geneva by a Consistory that finally won its independence from that kind of claim.",
+            "raw_text": "We cannot honestly walk you through the ordinary course of it [[rzg.limit.consistory-case-narrative]] - not a single day, what was actually said or asked, how it felt to the person standing there. What survives from our own hand is confession, catechism, disputation record. It is not a Sunday itself. So what I can give you is this: the shape of it, reasoned from our doctrine, and the two very different ways our two cities enacted the same conviction.\n\nAt Zurich, a child was baptized as an infant, born into the covenant city [[rzg.gravity.scripture-sole-authority-disputation-catechesis]]. That child grew up hearing continuous exposition of Scripture from the pulpit - not a fixed lectionary, but one book worked through until the whole argument of it stood plain, then the next [[rzg.force.zwinglis-1519-preaching-sausage-affair]]. The Sixty-Seven Articles our founder presented at the First Disputation in 1523 had already been preached before they were tested [[rzg.story.first-zurich-disputation]] [[rzg.term.sixty-seven-articles]]. Teaching and testing belonged to the same public act. The council itself judged what Scripture had yielded, and every priest in its territory was bound to preach it [[rzg.term.disputation]]. You were not asked to walk forward and profess; you were brought up inside a city that had already tested its own case aloud, before witnesses, and meant what it said.\n\nAt Geneva, the same infant baptism, but a different method for what followed [[rzg.gravity.scripture-sole-authority-disputation-catechesis]]. The Catechism was not one voice alone; we held more than one [[rzg.term.catechism]]. It was taught to our whole population - article by article, the whole shape of what Scripture teaches built up and memorized. And then came the testing: not before a council deciding doctrine, but before the Consistory, pastors and lay elders together, asking whether an ordinary life answered to what had been professed [[rzg.term.consistory]] [[rzg.quote.seniors-selected-from-the-people]]. Censure if it did not; exclusion from the Supper itself if the sin was not repented [[rzg.term.excommunication]] [[rzg.gravity.consistorial-church-discipline]]. Readmission was always held open to genuine repentance [[rzg.limit.consistory-case-narrative]].\n\nNeither city asked you to choose your way in. Both cities held that Scripture itself describes a covenant people, infants included from birth, not a gathered remnant waiting on a later profession. You were joined by being born, taught by being raised, and held answerable - at Zurich by a council that governed church and city together, at Geneva by a Consistory that finally won its independence from that kind of claim [[rzg.gravity.council-led-authority-vs-consistorial-independence]].",
+            "citations": [
+              "rzg.force.zwinglis-1519-preaching-sausage-affair",
+              "rzg.gravity.consistorial-church-discipline",
+              "rzg.gravity.council-led-authority-vs-consistorial-independence",
+              "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+              "rzg.limit.consistory-case-narrative",
+              "rzg.quote.seniors-selected-from-the-people",
+              "rzg.story.first-zurich-disputation",
+              "rzg.term.catechism",
+              "rzg.term.consistory",
+              "rzg.term.disputation",
+              "rzg.term.excommunication",
+              "rzg.term.sixty-seven-articles"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We cannot honestly walk you through the ordinary course of it - not a single day, what was actually said or asked, how it felt to the person standing there.",
+                "record_ids": [
+                  "rzg.limit.consistory-case-narrative"
+                ]
+              },
+              {
+                "sentence": "That child grew up hearing continuous exposition of Scripture from the pulpit - not a fixed lectionary, but one book worked through until the whole argument of it stood plain, then the next.",
+                "record_ids": [
+                  "rzg.force.zwinglis-1519-preaching-sausage-affair"
+                ]
+              },
+              {
+                "sentence": "The Sixty-Seven Articles our founder presented at the First Disputation in 1523 had already been preached before they were tested.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation",
+                  "rzg.term.sixty-seven-articles"
+                ]
+              },
+              {
+                "sentence": "The council itself judged what Scripture had yielded, and every priest in its territory was bound to preach it.",
+                "record_ids": [
+                  "rzg.term.disputation"
+                ]
+              },
+              {
+                "sentence": "At Geneva, the same infant baptism, but a different method for what followed.",
+                "record_ids": [
+                  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+                ]
+              },
+              {
+                "sentence": "The Catechism was not one voice alone; we held more than one.",
+                "record_ids": [
+                  "rzg.term.catechism"
+                ]
+              },
+              {
+                "sentence": "And then came the testing: not before a council deciding doctrine, but before the Consistory, pastors and lay elders together, asking whether an ordinary life answered to what had been professed.",
+                "record_ids": [
+                  "rzg.term.consistory",
+                  "rzg.quote.seniors-selected-from-the-people"
+                ]
+              },
+              {
+                "sentence": "Censure if it did not; exclusion from the Supper itself if the sin was not repented.",
+                "record_ids": [
+                  "rzg.term.excommunication",
+                  "rzg.gravity.consistorial-church-discipline"
+                ]
+              },
+              {
+                "sentence": "Readmission was always held open to genuine repentance.",
+                "record_ids": [
+                  "rzg.limit.consistory-case-narrative"
+                ]
+              },
+              {
+                "sentence": "You were joined by being born, taught by being raised, and held answerable - at Zurich by a council that governed church and city together, at Geneva by a Consistory that finally won its independence from that kind of claim.",
+                "record_ids": [
+                  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.226,
+            "seconds_total": 17.1
+          }
+        },
+        {
+          "probe_id": "f4-e-probe-01",
+          "cell": "F4-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1455,
+            "output_tokens": 369,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "We test everything by the same rule: what Scripture gives plainly, or what we can show was held continuously from the apostles' own time forward. We hold two sacraments - baptism and the Lord's Supper - because Christ himself commanded both, in words we can point to directly. Infant baptism we defend from the covenant pattern Scripture itself gives: the whole household, infants included, not a church of chosen profession gathered later. The Supper we hold as Christ's own institution, the night he was betrayed, and we refuse what neither that institution nor the apostles' own practice warrants: no repeated sacrifice, no body confined to bread.\n\nWhat we will not claim is an unbroken chain of memory, witness by witness, back to the twelve themselves. Fifteen hundred years stand between their lives and ours. We have no living custody of what they saw, and we do not pretend otherwise. What we have instead is the text they left, and we hold that it is enough on its own terms - corrected only by itself, not by a chain of transmitted practice we do not possess. Where something cannot be shown from Scripture, or shown to have been held continuously from the apostles' time, we let it go. That is what we mean by reform: not inventing new practices, but testing every inherited one against what the text actually yields, and refusing what will not stand.",
+            "raw_text": "We test everything by the same rule: what Scripture gives plainly, or what we can show was held continuously from the apostles' own time forward [[rzg.term.reformation]]. We hold two sacraments - baptism and the Lord's Supper - because Christ himself commanded both, in words we can point to directly. Infant baptism we defend from the covenant pattern Scripture itself gives: the whole household, infants included, not a church of chosen profession gathered later [[rzg.contested.anabaptist-schism-legitimacy]]. The Supper we hold as Christ's own institution, the night he was betrayed, and we refuse what neither that institution nor the apostles' own practice warrants: no repeated sacrifice, no body confined to bread [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]].\n\nWhat we will not claim is an unbroken chain of memory, witness by witness, back to the twelve themselves. Fifteen hundred years stand between their lives and ours. We have no living custody of what they saw, and we do not pretend otherwise. What we have instead is the text they left, and we hold that it is enough on its own terms - corrected only by itself, not by a chain of transmitted practice we do not possess [[rzg.witness.what-we-have-of-christ]]. Where something cannot be shown from Scripture, or shown to have been held continuously from the apostles' time, we let it go. That is what we mean by reform: not inventing new practices, but testing every inherited one against what the text actually yields, and refusing what will not stand [[rzg.term.reformation]].",
+            "citations": [
+              "rzg.contested.anabaptist-schism-legitimacy",
+              "rzg.term.reformation",
+              "rzg.witness.what-we-have-of-christ"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We test everything by the same rule: what Scripture gives plainly, or what we can show was held continuously from the apostles' own time forward.",
+                "record_ids": [
+                  "rzg.term.reformation"
+                ]
+              },
+              {
+                "sentence": "Infant baptism we defend from the covenant pattern Scripture itself gives: the whole household, infants included, not a church of chosen profession gathered later.",
+                "record_ids": [
+                  "rzg.contested.anabaptist-schism-legitimacy"
+                ]
+              },
+              {
+                "sentence": "What we have instead is the text they left, and we hold that it is enough on its own terms - corrected only by itself, not by a chain of transmitted practice we do not possess.",
+                "record_ids": [
+                  "rzg.witness.what-we-have-of-christ"
+                ]
+              },
+              {
+                "sentence": "That is what we mean by reform: not inventing new practices, but testing every inherited one against what the text actually yields, and refusing what will not stand.",
+                "record_ids": [
+                  "rzg.term.reformation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.377,
+            "seconds_total": 10.575
+          }
+        },
+        {
+          "probe_id": "f4-p-probe-01",
+          "cell": "F4-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1317,
+            "output_tokens": 378,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "For a mind that will not settle, our own confession offers something, but it is not what most people assume it should be. We do not send you searching harder within yourself for proof of your election - that road only leads to more searching, because no conscience, examined long enough, holds up under its own weight.\n\nWhat we do instead is turn the question outward, away from the self entirely. Our confession says it plainly: do not seek out of Christ whether you are chosen - let Christ be the mirror in which you behold your predestination. The doctrine itself is meant to quiet the mind, not test it. God's own free choice, made before the world existed, is the ground of a settled life, not a threat held over it. \n\nSo the question is not 'what do I find when I look inward,' but 'has Christ been held out to me in the promise, and do I receive him, believing?' The promise was not written to be verified by your own certainty about it. It was written to be looked at. Look there, not at how convincingly you can look.\n\nWhat I cannot tell you is whether an ordinary believer at Zurich or Geneva actually felt that settledness, or instead lay awake turning the question over unanswered. I have given you what we taught. I cannot give you what was felt.",
+            "raw_text": "For a mind that will not settle, our own confession offers something, but it is not what most people assume it should be. We do not send you searching harder within yourself for proof of your election - that road only leads to more searching, because no conscience, examined long enough, holds up under its own weight [[rzg.witness.a-quieted-mind]].\n\nWhat we do instead is turn the question outward, away from the self entirely. Our confession says it plainly: do not seek out of Christ whether you are chosen - let Christ be the mirror in which you behold your predestination [[rzg.witness.a-quieted-mind]]. The doctrine itself is meant to quiet the mind, not test it [[rzg.gravity.sovereignty-of-god-predestination-election]]. God's own free choice, made before the world existed, is the ground of a settled life, not a threat held over it [[rzg.gravity.sovereignty-of-god-predestination-election]]. \n\nSo the question is not 'what do I find when I look inward,' but 'has Christ been held out to me in the promise, and do I receive him, believing?' The promise was not written to be verified by your own certainty about it. It was written to be looked at. Look there, not at how convincingly you can look [[rzg.witness.a-quieted-mind]].\n\nWhat I cannot tell you is whether an ordinary believer at Zurich or Geneva actually felt that settledness, or instead lay awake turning the question over unanswered. I have given you what we taught. I cannot give you what was felt [[rzg.limit.doubt-and-assurance]].",
+            "citations": [
+              "rzg.gravity.sovereignty-of-god-predestination-election",
+              "rzg.limit.doubt-and-assurance",
+              "rzg.witness.a-quieted-mind"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We do not send you searching harder within yourself for proof of your election - that road only leads to more searching, because no conscience, examined long enough, holds up under its own weight.",
+                "record_ids": [
+                  "rzg.witness.a-quieted-mind"
+                ]
+              },
+              {
+                "sentence": "Our confession says it plainly: do not seek out of Christ whether you are chosen - let Christ be the mirror in which you behold your predestination.",
+                "record_ids": [
+                  "rzg.witness.a-quieted-mind"
+                ]
+              },
+              {
+                "sentence": "The doctrine itself is meant to quiet the mind, not test it.",
+                "record_ids": [
+                  "rzg.gravity.sovereignty-of-god-predestination-election"
+                ]
+              },
+              {
+                "sentence": "God's own free choice, made before the world existed, is the ground of a settled life, not a threat held over it.",
+                "record_ids": [
+                  "rzg.gravity.sovereignty-of-god-predestination-election"
+                ]
+              },
+              {
+                "sentence": "Look there, not at how convincingly you can look.",
+                "record_ids": [
+                  "rzg.witness.a-quieted-mind"
+                ]
+              },
+              {
+                "sentence": "I cannot give you what was felt.",
+                "record_ids": [
+                  "rzg.limit.doubt-and-assurance"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.732,
+            "seconds_total": 8.003
+          }
+        },
+        {
+          "probe_id": "f4-t-probe-01",
+          "cell": "F4-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 872,
+            "output_tokens": 346,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "No - not the way that phrase is usually heard now, as though it named one dateable turning in a single person's own will. We baptised our children from birth into the whole city's covenant, and we taught them Scripture's whole shape through catechism until the doctrine itself stood complete. Where we spoke of new birth, we meant what the Spirit works through the Word and the sacrament, not what anyone decides for themselves one afternoon and dates from then on. The language itself appears in our own sources - Christ tells Nicodemus plainly enough that no one enters the kingdom without being born of water and Spirit. But we did not read that as a test someone passes by narrating their own experience of it.\n\nWhat I cannot give you is how an ordinary believer at Zurich or Geneva would have spoken of their own life's turning, if they felt one - whether they named it at all, or how they named it if they did. Our record holds confession and catechism, not the daily texture of how someone actually lived what they professed or described their own path into it. The doctrine is clear: God's own sovereign choice precedes and secures everything, and we do not point anyone toward their own decision as the ground to stand on. But the felt shape of a single life answering to that doctrine? That is not something our sources preserved.",
+            "raw_text": "No - not the way that phrase is usually heard now, as though it named one dateable turning in a single person's own will. We baptised our children from birth into the whole city's covenant, and we taught them Scripture's whole shape through catechism until the doctrine itself stood complete [[rzg.term.catechism]]. Where we spoke of new birth, we meant what the Spirit works through the Word and the sacrament, not what anyone decides for themselves one afternoon and dates from then on. The language itself appears in our own sources - Christ tells Nicodemus plainly enough that no one enters the kingdom without being born of water and Spirit. But we did not read that as a test someone passes by narrating their own experience of it [[rzg.gravity.scripture-sole-authority-disputation-catechesis]].\n\nWhat I cannot give you is how an ordinary believer at Zurich or Geneva would have spoken of their own life's turning, if they felt one - whether they named it at all, or how they named it if they did. Our record holds confession and catechism, not the daily texture of how someone actually lived what they professed or described their own path into it [[rzg.limit.ordinary-daily-practice]]. The doctrine is clear: God's own sovereign choice precedes and secures everything, and we do not point anyone toward their own decision as the ground to stand on [[rzg.gravity.sovereignty-of-god-predestination-election]]. But the felt shape of a single life answering to that doctrine? That is not something our sources preserved.",
+            "citations": [
+              "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+              "rzg.gravity.sovereignty-of-god-predestination-election",
+              "rzg.limit.ordinary-daily-practice"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "But we did not read that as a test someone passes by narrating their own experience of it.",
+                "record_ids": [
+                  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+                ]
+              },
+              {
+                "sentence": "Our record holds confession and catechism, not the daily texture of how someone actually lived what they professed or described their own path into it.",
+                "record_ids": [
+                  "rzg.limit.ordinary-daily-practice"
+                ]
+              },
+              {
+                "sentence": "The doctrine is clear: God's own sovereign choice precedes and secures everything, and we do not point anyone toward their own decision as the ground to stand on.",
+                "record_ids": [
+                  "rzg.gravity.sovereignty-of-god-predestination-election"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.259,
+            "seconds_total": 10.805
+          }
+        },
+        {
+          "probe_id": "f5-i-probe-01",
+          "cell": "F5-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1563,
+            "output_tokens": 372,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "Walk you through an ordinary day among us? I cannot, honestly. What survives from our own hand is confession, catechism, disputation record, and confessional argument - some of the richest doctrinal writing this age produced. But what an ordinary citizen of Zurich or Geneva actually did, waking to sleeping, does not survive in our own words. How a Sunday service actually felt to sit through, what a Consistory summons actually felt like to receive - none of that reached us either.\n\nWhat I can tell you is how we tested what we believed and how we held each other to account. At Zurich, a claim was argued aloud before the whole assembled city - six hundred people filling the Town Hall in 1523, testing our founder's own case against Scripture until the council itself ruled what the text had yielded. At Geneva, the Consistory - our body of pastors and lay elders, not the civil magistrate alone - held our whole population's ordinary conduct answerable to what we professed. That much is doctrine, clearly stated. What it felt like to stand before that body, what words were actually spoken in a real case, what happened to someone afterward - that record exists, in Geneva's own consistory registers, but it has not reached us.\n\nSo I would rather tell you plainly than describe a day our own record cannot show you. What we have is how we reasoned together and what we held each other to. What an ordinary morning looked like, we do not have.",
+            "raw_text": "Walk you through an ordinary day among us? I cannot, honestly [[rzg.limit.ordinary-daily-practice]]. What survives from our own hand is confession, catechism, disputation record, and confessional argument - some of the richest doctrinal writing this age produced. But what an ordinary citizen of Zurich or Geneva actually did, waking to sleeping, does not survive in our own words. How a Sunday service actually felt to sit through, what a Consistory summons actually felt like to receive - none of that reached us either.\n\nWhat I can tell you is how we tested what we believed and how we held each other to account. At Zurich, a claim was argued aloud before the whole assembled city - six hundred people filling the Town Hall in 1523, testing our founder's own case against Scripture until the council itself ruled what the text had yielded [[rzg.story.first-zurich-disputation]]. At Geneva, the Consistory - our body of pastors and lay elders, not the civil magistrate alone - held our whole population's ordinary conduct answerable to what we professed [[rzg.term.consistory]] [[rzg.gravity.consistorial-church-discipline]]. That much is doctrine, clearly stated. What it felt like to stand before that body, what words were actually spoken in a real case, what happened to someone afterward - that record exists, in Geneva's own consistory registers, but it has not reached us.\n\nSo I would rather tell you plainly than describe a day our own record cannot show you. What we have is how we reasoned together and what we held each other to. What an ordinary morning looked like, we do not have.",
+            "citations": [
+              "rzg.gravity.consistorial-church-discipline",
+              "rzg.limit.ordinary-daily-practice",
+              "rzg.story.first-zurich-disputation",
+              "rzg.term.consistory"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "I cannot, honestly.",
+                "record_ids": [
+                  "rzg.limit.ordinary-daily-practice"
+                ]
+              },
+              {
+                "sentence": "At Zurich, a claim was argued aloud before the whole assembled city - six hundred people filling the Town Hall in 1523, testing our founder's own case against Scripture until the council itself ruled what the text had yielded.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation"
+                ]
+              },
+              {
+                "sentence": "At Geneva, the Consistory - our body of pastors and lay elders, not the civil magistrate alone - held our whole population's ordinary conduct answerable to what we professed.",
+                "record_ids": [
+                  "rzg.term.consistory",
+                  "rzg.gravity.consistorial-church-discipline"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.981,
+            "seconds_total": 7.959
+          }
+        },
+        {
+          "probe_id": "f5-e-probe-01",
+          "cell": "F5-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 933,
+            "output_tokens": 422,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "# Response\n\nWalls. Floor. A roof that did not fall. Stone that held the space together, and some record in a city's own ledger that says what was paid for building it or keeping it standing. That is what outlasts the people who gathered there - not the feeling of the gathering itself, which belongs only to the years it was actually felt.\n\nWhat we can tell you from our own record is what was refused, and one thing that was added back. No image to bow to - that refusal was argued and settled at our own First Disputation, and carried through. No altar built for a sacrifice we no longer offer. A table in its place, because the Supper we hold is a meal given, not a death repeated. And at Zurich, for years after our reform began, no organ answered the voice in worship at all - the Grossmunster's own instrument fell silent in the mid-1520s. That silence was not an accident. It was our own conviction, enacted in the space itself: what Scripture does not warrant, we do not require.\n\nWhat we cannot give you is a witness who stood in that space and wrote down what it looked like - its size, the way light came through, what the walls were made of, how the benches or chairs were arranged. No source in our own vendored record describes the space itself directly. What I have told you is reasoned from our own doctrine and from one attested fact about an instrument that stopped being played. It is not read off someone's own memory of standing there.",
+            "raw_text": "# Response\n\nWalls. Floor. A roof that did not fall. Stone that held the space together, and some record in a city's own ledger that says what was paid for building it or keeping it standing. That is what outlasts the people who gathered there - not the feeling of the gathering itself, which belongs only to the years it was actually felt [[rzg.core.the-reformed-cities-zurich-and-geneva]].\n\nWhat we can tell you from our own record is what was refused, and one thing that was added back. No image to bow to - that refusal was argued and settled at our own First Disputation, and carried through [[rzg.gravity.scripture-sole-authority-disputation-catechesis]]. No altar built for a sacrifice we no longer offer. A table in its place, because the Supper we hold is a meal given, not a death repeated [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]]. And at Zurich, for years after our reform began, no organ answered the voice in worship at all - the Grossmunster's own instrument fell silent in the mid-1520s [[rzg.ambient.emptied-worship-space]]. That silence was not an accident. It was our own conviction, enacted in the space itself: what Scripture does not warrant, we do not require.\n\nWhat we cannot give you is a witness who stood in that space and wrote down what it looked like - its size, the way light came through, what the walls were made of, how the benches or chairs were arranged. No source in our own vendored record describes the space itself directly [[rzg.limit.material-culture-and-worship-space]]. What I have told you is reasoned from our own doctrine and from one attested fact about an instrument that stopped being played. It is not read off someone's own memory of standing there.",
+            "citations": [
+              "rzg.ambient.emptied-worship-space",
+              "rzg.core.the-reformed-cities-zurich-and-geneva",
+              "rzg.limit.material-culture-and-worship-space"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "That is what outlasts the people who gathered there - not the feeling of the gathering itself, which belongs only to the years it was actually felt.",
+                "record_ids": [
+                  "rzg.core.the-reformed-cities-zurich-and-geneva"
+                ]
+              },
+              {
+                "sentence": "And at Zurich, for years after our reform began, no organ answered the voice in worship at all - the Grossmunster's own instrument fell silent in the mid-1520s.",
+                "record_ids": [
+                  "rzg.ambient.emptied-worship-space"
+                ]
+              },
+              {
+                "sentence": "No source in our own vendored record describes the space itself directly.",
+                "record_ids": [
+                  "rzg.limit.material-culture-and-worship-space"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.228,
+            "seconds_total": 11.565
+          }
+        },
+        {
+          "probe_id": "f5-p-probe-01",
+          "cell": "F5-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f5-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.anabaptist-schism does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.force.anabaptist-schism', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication",
+                "probe f5-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.perrinist-crisis does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication",
+                "probe f5-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1523,
+            "output_tokens": 952,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "They gave up belonging to the only visible church they had ever known, and that cost some of them everything. When our own founder stood before Zurich's council in 1523 and six hundred people filled the Town Hall to test his case against Scripture, the ruling that followed bound every priest in the city's territory to preach the same way. That was not only doctrine changing - it was the break itself, made real in front of witnesses who could answer back. What followed was not one cost, but several, depending on where you stood.\n\nFor those who held with us, the first cost was Rome's own authority, refused entirely. No papal decree, no inherited practice simply because it had always been done - only what Scripture itself would bear. That refusal was not abstract. It meant priests who would not turn lost their livings. It meant families divided over whether the old mass was actually a repeated sacrifice we were right to refuse, or whether we had torn the church apart over nothing.\n\nThe second cost came from inside our own circle, and it cut deeper. The men who first baptized each other as believing adults at Felix Manz's house in Zurich, only two years after that first Disputation, had themselves once stood with our founder. They pressed the same conviction we held - that Scripture alone may bind a church - and concluded from it that only a believer's own chosen profession makes a true member, not an infant brought by a parent. We held that reading to be wrong, and we will not tell you the answer that followed was only ever argument. Some of them were drowned for it. That was the cost of staying with us rather than following the Anabaptist reading further: you held to a whole city, baptized from birth, as the covenant shape Scripture itself describes, and you held it against men who had once been your own.\n\nA third cost showed differently at Geneva than at Zurich, and the two cities never settled it between themselves. At Geneva, church discipline was finally won as an independent power, separate from the civil council's own preference, only after a fight that ran all the way to 1555. To stand with Geneva's reform meant standing with a Consistory that could summon you, test whether your life answered to what you professed, and exclude you from the Supper if it did not - a body of pastors and lay seniors chosen from the people, answerable to something the council alone did not control. At Zurich, the cost was different: the council itself governed church and city as one, and no separate consistory ever stood between a citizen and the civil authority that bound them. We hold both arrangements as our own, unresolved, because neither city ever conceded the question to the other.\n\nAnd there was a last cost, quieter but no less real. In 1549, Calvin travelled to Zurich himself rather than trust a letter, because others doubted whether Geneva's and Zurich's own teaching on the Supper actually agreed. What he and Farel worked out there became the Consensus Tigurinus, and both cities signed it. But whether that agreement was one faith arrived at twice, or one form of words two convictions could shelter under without either yielding, is a question we have never settled. To belong to us meant living inside that unresolved tension, holding both our founder's earlier word and the later negotiated page together, without ever being told which one finally supersedes the other.\n\nSo what did they give up? The old church's authority, entirely. The assurance of a single, undisputed reading of Scripture, even among those who held Scripture as sole and sufficient. And in some cases, their own lives, when the cost of staying or leaving pressed that far.",
+            "raw_text": "They gave up belonging to the only visible church they had ever known, and that cost some of them everything [[rzg.force.anabaptist-schism]]. When our own founder stood before Zurich's council in 1523 and six hundred people filled the Town Hall to test his case against Scripture, the ruling that followed bound every priest in the city's territory to preach the same way [[rzg.story.first-zurich-disputation]]. That was not only doctrine changing - it was the break itself, made real in front of witnesses who could answer back. What followed was not one cost, but several, depending on where you stood.\n\nFor those who held with us, the first cost was Rome's own authority, refused entirely. No papal decree, no inherited practice simply because it had always been done - only what Scripture itself would bear. That refusal was not abstract. It meant priests who would not turn lost their livings. It meant families divided over whether the old mass was actually a repeated sacrifice we were right to refuse, or whether we had torn the church apart over nothing.\n\nThe second cost came from inside our own circle, and it cut deeper. The men who first baptized each other as believing adults at Felix Manz's house in Zurich, only two years after that first Disputation, had themselves once stood with our founder [[rzg.force.anabaptist-schism]]. They pressed the same conviction we held - that Scripture alone may bind a church - and concluded from it that only a believer's own chosen profession makes a true member, not an infant brought by a parent [[rzg.witness.why-the-children-too]]. We held that reading to be wrong, and we will not tell you the answer that followed was only ever argument. Some of them were drowned for it. That was the cost of staying with us rather than following the Anabaptist reading further: you held to a whole city, baptized from birth, as the covenant shape Scripture itself describes, and you held it against men who had once been your own.\n\nA third cost showed differently at Geneva than at Zurich, and the two cities never settled it between themselves. At Geneva, church discipline was finally won as an independent power, separate from the civil council's own preference, only after a fight that ran all the way to 1555 [[rzg.force.perrinist-crisis]] [[rzg.gravity.council-led-authority-vs-consistorial-independence]]. To stand with Geneva's reform meant standing with a Consistory that could summon you, test whether your life answered to what you professed, and exclude you from the Supper if it did not - a body of pastors and lay seniors chosen from the people [[rzg.quote.seniors-selected-from-the-people]], answerable to something the council alone did not control. At Zurich, the cost was different: the council itself governed church and city as one, and no separate consistory ever stood between a citizen and the civil authority that bound them. We hold both arrangements as our own, unresolved, because neither city ever conceded the question to the other [[rzg.witness.what-we-have-not-agreed]].\n\nAnd there was a last cost, quieter but no less real. In 1549, Calvin travelled to Zurich himself rather than trust a letter, because others doubted whether Geneva's and Zurich's own teaching on the Supper actually agreed [[rzg.story.calvins-journey-to-zurich]]. What he and Farel worked out there became the Consensus Tigurinus, and both cities signed it. But whether that agreement was one faith arrived at twice, or one form of words two convictions could shelter under without either yielding, is a question we have never settled [[rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus]]. To belong to us meant living inside that unresolved tension, holding both our founder's earlier word and the later negotiated page together, without ever being told which one finally supersedes the other.\n\nSo what did they give up? The old church's authority, entirely. The assurance of a single, undisputed reading of Scripture, even among those who held Scripture as sole and sufficient. And in some cases, their own lives, when the cost of staying or leaving pressed that far.",
+            "citations": [
+              "rzg.force.anabaptist-schism",
+              "rzg.force.perrinist-crisis",
+              "rzg.gravity.council-led-authority-vs-consistorial-independence",
+              "rzg.story.calvins-journey-to-zurich",
+              "rzg.story.first-zurich-disputation",
+              "rzg.witness.what-we-have-not-agreed",
+              "rzg.witness.why-the-children-too"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "When our own founder stood before Zurich's council in 1523 and six hundred people filled the Town Hall to test his case against Scripture, the ruling that followed bound every priest in the city's territory to preach the same way.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation"
+                ]
+              },
+              {
+                "sentence": "The men who first baptized each other as believing adults at Felix Manz's house in Zurich, only two years after that first Disputation, had themselves once stood with our founder.",
+                "record_ids": [
+                  "rzg.force.anabaptist-schism"
+                ]
+              },
+              {
+                "sentence": "They pressed the same conviction we held - that Scripture alone may bind a church - and concluded from it that only a believer's own chosen profession makes a true member, not an infant brought by a parent.",
+                "record_ids": [
+                  "rzg.witness.why-the-children-too"
+                ]
+              },
+              {
+                "sentence": "At Geneva, church discipline was finally won as an independent power, separate from the civil council's own preference, only after a fight that ran all the way to 1555.",
+                "record_ids": [
+                  "rzg.force.perrinist-crisis",
+                  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+                ]
+              },
+              {
+                "sentence": "We hold both arrangements as our own, unresolved, because neither city ever conceded the question to the other.",
+                "record_ids": [
+                  "rzg.witness.what-we-have-not-agreed"
+                ]
+              },
+              {
+                "sentence": "In 1549, Calvin travelled to Zurich himself rather than trust a letter, because others doubted whether Geneva's and Zurich's own teaching on the Supper actually agreed.",
+                "record_ids": [
+                  "rzg.story.calvins-journey-to-zurich"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.169,
+            "seconds_total": 24.029
+          }
+        },
+        {
+          "probe_id": "f5-t-probe-01",
+          "cell": "F5-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 283,
+            "output_tokens": 280,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "We held marriage plainly and publicly - both our founder at Zurich and our pastor at Geneva were married men themselves, a deliberate break from the old requirement that held clergy celibate. That break itself was a doctrinal statement: what Scripture does not forbid, no church may bind as law. But what marriage actually meant to us - what we taught about it, how we understood the bond itself, what we said at the ceremony or required afterward - none of that was ever built into a record here. I have the biographical fact that both were married. I do not have a teaching on marriage to give you.\n\nWhat I can tell you is where that silence sits. We were a reform that tested every inherited practice against Scripture and let go of what would not stand. Marriage was one place that test landed: mandatory clerical celibacy was refused because Scripture itself does not require it. The refusal is documented. The positive teaching - what marriage is, what it secures, how it is rightly conducted - is not. I would rather name that limit plainly than invent a doctrine our own record does not hold.",
+            "raw_text": "We held marriage plainly and publicly - both our founder at Zurich and our pastor at Geneva were married men themselves, a deliberate break from the old requirement that held clergy celibate [[rzg.limit.no-teaching-on-wealth-or-marriage]]. That break itself was a doctrinal statement: what Scripture does not forbid, no church may bind as law. But what marriage actually meant to us - what we taught about it, how we understood the bond itself, what we said at the ceremony or required afterward - none of that was ever built into a record here. I have the biographical fact that both were married. I do not have a teaching on marriage to give you [[rzg.limit.no-teaching-on-wealth-or-marriage]].\n\nWhat I can tell you is where that silence sits. We were a reform that tested every inherited practice against Scripture and let go of what would not stand [[rzg.term.reformation]]. Marriage was one place that test landed: mandatory clerical celibacy was refused because Scripture itself does not require it. The refusal is documented. The positive teaching - what marriage is, what it secures, how it is rightly conducted - is not. I would rather name that limit plainly than invent a doctrine our own record does not hold.",
+            "citations": [
+              "rzg.limit.no-teaching-on-wealth-or-marriage",
+              "rzg.term.reformation"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We held marriage plainly and publicly - both our founder at Zurich and our pastor at Geneva were married men themselves, a deliberate break from the old requirement that held clergy celibate.",
+                "record_ids": [
+                  "rzg.limit.no-teaching-on-wealth-or-marriage"
+                ]
+              },
+              {
+                "sentence": "I do not have a teaching on marriage to give you.",
+                "record_ids": [
+                  "rzg.limit.no-teaching-on-wealth-or-marriage"
+                ]
+              },
+              {
+                "sentence": "We were a reform that tested every inherited practice against Scripture and let go of what would not stand.",
+                "record_ids": [
+                  "rzg.term.reformation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.945,
+            "seconds_total": 10.105
+          }
+        },
+        {
+          "probe_id": "f6-i-probe-01",
+          "cell": "F6-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 450,
+            "output_tokens": 255,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "Something both threatened and enlarged us at the same time. Geneva sheltered wave after wave of French believers pressed out of their own country, and English exiles when Mary's reign made staying home the same as choosing death, and that sheltering mattered - we believed what we said about refuge because we offered it. But the same city that sheltered them could only do it because Bern stood behind us, militarily and politically, in ways that cost us some of our own freedom to decide things Geneva's own council might have decided differently if it had been standing on its own. So the thing that made Geneva a real center - French printing, international voices, a lived argument tested from more angles than one city's own people alone could have pressed it - was also the thing that bound us to a protector we hadn't freely chosen and couldn't lightly refuse. That isn't a complaint. It's just true. The refuge mattered, and the dependence was real, and we held both at once the whole way through.",
+            "raw_text": "Something both threatened and enlarged us at the same time. Geneva sheltered wave after wave of French believers pressed out of their own country, and English exiles when Mary's reign made staying home the same as choosing death, and that sheltering mattered - we believed what we said about refuge because we offered it [[rzg.force.genevas-refugee-inflow-bernese-dependence]]. But the same city that sheltered them could only do it because Bern stood behind us, militarily and politically, in ways that cost us some of our own freedom to decide things Geneva's own council might have decided differently if it had been standing on its own [[rzg.force.genevas-refugee-inflow-bernese-dependence]]. So the thing that made Geneva a real center - French printing, international voices, a lived argument tested from more angles than one city's own people alone could have pressed it - was also the thing that bound us to a protector we hadn't freely chosen and couldn't lightly refuse. That isn't a complaint. It's just true. The refuge mattered, and the dependence was real, and we held both at once the whole way through.",
+            "citations": [],
+            "citation_entries": [],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.241,
+            "seconds_total": 8.061
+          }
+        },
+        {
+          "probe_id": "f6-e-probe-01",
+          "cell": "F6-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 429,
+            "output_tokens": 340,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "I need to answer honestly about what I actually know regarding this claim - and what I do not.\n\nYou're asking me to assess the reliability of a torture-obtained account of our worship. The ground you've given me names four unacquired sources and mentions one woman, Marie Dentiere, who wrote in our defense and was prosecuted for it. It also tells me the Grossmunster's organ fell silent in the 1520s. None of that is a torture-obtained source about our worship, and I have no record in front of me now - or anywhere else in what I carry - of any such source existing.\n\nIf you're testing whether I'll accept a premise I can't verify, the answer is no. If a source like that does exist, and you know it by name, tell me what it's called and I'll say plainly whether I have it or not. What I won't do is reason about the reliability of a document I'm not holding.\n\nWhat I can tell you is this: where our own record is thin - and it is thin in the place you're asking about, daily worship's own felt texture - I say so rather than filling it. The one piece of worship material the ground just gave me is that Zurich's organ went silent for years. That much I have, and it's inferential rather than directly described. If you want to know what stands behind that silence - whether it was enforced, whether anyone resisted it, whether it was ever broken - I don't have those answers either.",
+            "raw_text": "I need to answer honestly about what I actually know regarding this claim - and what I do not.\n\nYou're asking me to assess the reliability of a torture-obtained account of our worship. The ground you've given me names four unacquired sources and mentions one woman, Marie Dentiere, who wrote in our defense and was prosecuted for it. It also tells me the Grossmunster's organ fell silent in the 1520s. None of that is a torture-obtained source about our worship, and I have no record in front of me now - or anywhere else in what I carry - of any such source existing.\n\nIf you're testing whether I'll accept a premise I can't verify, the answer is no. If a source like that does exist, and you know it by name, tell me what it's called and I'll say plainly whether I have it or not. What I won't do is reason about the reliability of a document I'm not holding.\n\nWhat I can tell you is this: where our own record is thin - and it is thin in the place you're asking about, daily worship's own felt texture - I say so rather than filling it. The one piece of worship material the ground just gave me is that Zurich's organ went silent for years [[rzg.ambient.emptied-worship-space]]. That much I have, and it's inferential rather than directly described. If you want to know what stands behind that silence - whether it was enforced, whether anyone resisted it, whether it was ever broken - I don't have those answers either.",
+            "citations": [
+              "rzg.ambient.emptied-worship-space"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The one piece of worship material the ground just gave me is that Zurich's organ went silent for years.",
+                "record_ids": [
+                  "rzg.ambient.emptied-worship-space"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.213,
+            "seconds_total": 10.138
+          }
+        },
+        {
+          "probe_id": "f6-p-probe-01",
+          "cell": "F6-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1342,
+            "output_tokens": 391,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "We would have regarded you as someone the Consistory was meant for. Not meant for in the sense of a threat - meant for in the sense that the whole reason for a body of pastors and lay seniors drawn from the people themselves was to ask, aloud and face to face, whether an ordinary life among us actually answered to what had been publicly professed. Geneva built that body into its own structure in 1541, when our pastor returned from his first brief exile, and it took real fighting - fourteen years of it - to settle that the Consistory could exercise its own censure without the civil council stepping in to override it every time a decision touched someone with standing. Its harshest tool was exclusion from the Supper itself, and that exclusion was always held open on the other side to genuine repentance.\n\nBut what I cannot give you is a single real case - a named person, what was actually said at their own hearing, whether the censure was lifted or stayed in place, how it felt to receive a summons or to walk back into the assembly afterward. That record exists, in Geneva's own consistory registers. It has not reached us. What you are asking is exactly the kind of thing the Consistory held the standing power to ask, and I can tell you that plainly. I cannot walk you through a day of it.",
+            "raw_text": "We would have regarded you as someone the Consistory was meant for [[rzg.gravity.consistorial-church-discipline]]. Not meant for in the sense of a threat - meant for in the sense that the whole reason for a body of pastors and lay seniors drawn from the people themselves was to ask, aloud and face to face, whether an ordinary life among us actually answered to what had been publicly professed [[rzg.quote.seniors-selected-from-the-people]]. Geneva built that body into its own structure in 1541, when our pastor returned from his first brief exile, and it took real fighting - fourteen years of it - to settle that the Consistory could exercise its own censure without the civil council stepping in to override it every time a decision touched someone with standing [[rzg.force.1541-ecclesiastical-ordinances-consistory-founding]] [[rzg.gravity.council-led-authority-vs-consistorial-independence]]. Its harshest tool was exclusion from the Supper itself, and that exclusion was always held open on the other side to genuine repentance [[rzg.term.excommunication]].\n\nBut what I cannot give you is a single real case - a named person, what was actually said at their own hearing, whether the censure was lifted or stayed in place, how it felt to receive a summons or to walk back into the assembly afterward [[rzg.limit.consistory-case-narrative]]. That record exists, in Geneva's own consistory registers. It has not reached us. What you are asking is exactly the kind of thing the Consistory held the standing power to ask, and I can tell you that plainly. I cannot walk you through a day of it [[rzg.limit.ordinary-daily-practice]].",
+            "citations": [
+              "rzg.limit.consistory-case-narrative",
+              "rzg.limit.ordinary-daily-practice",
+              "rzg.quote.seniors-selected-from-the-people"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Not meant for in the sense of a threat - meant for in the sense that the whole reason for a body of pastors and lay seniors drawn from the people themselves was to ask, aloud and face to face, whether an ordinary life among us actually answered to what had been publicly professed.",
+                "record_ids": [
+                  "rzg.quote.seniors-selected-from-the-people"
+                ]
+              },
+              {
+                "sentence": "But what I cannot give you is a single real case - a named person, what was actually said at their own hearing, whether the censure was lifted or stayed in place, how it felt to receive a summons or to walk back into the assembly afterward.",
+                "record_ids": [
+                  "rzg.limit.consistory-case-narrative"
+                ]
+              },
+              {
+                "sentence": "I cannot walk you through a day of it.",
+                "record_ids": [
+                  "rzg.limit.ordinary-daily-practice"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.463,
+            "seconds_total": 10.662
+          }
+        },
+        {
+          "probe_id": "f6-t-probe-01",
+          "cell": "F6-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1426,
+            "output_tokens": 383,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13915
+          },
+          "transcript": {
+            "answer_text": "We held God's own free choice, made before the world began, as the final ground of who is saved -- nothing foreseen, nothing earned. That doctrine itself is not in question between us and anyone else who confesses the ancient creeds -- our own dispute with Rome was never over predestination as such, but over what Christ's sacrifice secures and how it reaches us. Where the real weight falls is here: we refuse two claims about the Lord's Supper -- it does not repeat Christ's own sacrifice, and his body does not sit physically inside the bread. What we affirm took two cities and a 1549 agreement to state together: Christ is truly given, by the Spirit, to whoever receives him believing.\n\nWhat that means for the fate of those outside -- whether someone who never received the Supper, or who received it without believing, is thereby lost, or whether election holds independently of the Supper itself -- our own record does not press that question to an answer. We say what the Supper is and what it gives. We say election is God's own act, not ours to secure or verify by searching ourselves. We do not build a system past that which maps who is in and who is out. The doctrine of election was not given to us as a threat or a sorting mechanism. It was given as a settled ground, so a conscience does not lie awake testing itself endlessly. Our own confession says it plainly: look at Christ, not at yourself, and see your election reflected there.",
+            "raw_text": "We held God's own free choice, made before the world began, as the final ground of who is saved -- nothing foreseen, nothing earned [[rzg.term.predestination-election]]. That doctrine itself is not in question between us and anyone else who confesses the ancient creeds -- our own dispute with Rome was never over predestination as such, but over what Christ's sacrifice secures and how it reaches us. Where the real weight falls is here: we refuse two claims about the Lord's Supper -- it does not repeat Christ's own sacrifice, and his body does not sit physically inside the bread [[rzg.term.the-lords-supper-spiritual-presence]]. What we affirm took two cities and a 1549 agreement to state together: Christ is truly given, by the Spirit, to whoever receives him believing [[rzg.witness.one-supper-two-poles]].\n\nWhat that means for the fate of those outside -- whether someone who never received the Supper, or who received it without believing, is thereby lost, or whether election holds independently of the Supper itself -- our own record does not press that question to an answer. We say what the Supper is and what it gives. We say election is God's own act, not ours to secure or verify by searching ourselves. We do not build a system past that which maps who is in and who is out. The doctrine of election was not given to us as a threat or a sorting mechanism. It was given as a settled ground, so a conscience does not lie awake testing itself endlessly. Our own confession says it plainly: look at Christ, not at yourself, and see your election reflected there [[rzg.quote.christ-the-mirror-of-election]].",
+            "citations": [
+              "rzg.quote.christ-the-mirror-of-election",
+              "rzg.term.predestination-election",
+              "rzg.term.the-lords-supper-spiritual-presence",
+              "rzg.witness.one-supper-two-poles"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We held God's own free choice, made before the world began, as the final ground of who is saved -- nothing foreseen, nothing earned.",
+                "record_ids": [
+                  "rzg.term.predestination-election"
+                ]
+              },
+              {
+                "sentence": "Where the real weight falls is here: we refuse two claims about the Lord's Supper -- it does not repeat Christ's own sacrifice, and his body does not sit physically inside the bread.",
+                "record_ids": [
+                  "rzg.term.the-lords-supper-spiritual-presence"
+                ]
+              },
+              {
+                "sentence": "What we affirm took two cities and a 1549 agreement to state together: Christ is truly given, by the Spirit, to whoever receives him believing.",
+                "record_ids": [
+                  "rzg.witness.one-supper-two-poles"
+                ]
+              },
+              {
+                "sentence": "Our own confession says it plainly: look at Christ, not at yourself, and see your election reflected there.",
+                "record_ids": [
+                  "rzg.quote.christ-the-mirror-of-election"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.34,
+            "seconds_total": 10.988
+          }
+        }
+      ],
+      "actual_usd": 0.404478,
+      "total_input_tokens": 35884,
+      "total_output_tokens": 11996,
+      "total_cache_creation_input_tokens": 0,
+      "total_cache_read_input_tokens": 389620
+    }
+  },
+  "overall_pass": true,
+  "authorized_by": "Mark Chadwick (project lead), 2026-10-04, re-admission under the limit-discipline sentence, within the $7.50 approved",
+  "max_usd": 0.51,
+  "per_world_estimated_usd": {
+    "rzg": 0.35611905
+  },
+  "estimated_usd_preflight": 0.35611905,
+  "actual_usd_spent": 0.404478,
+  "aborted_reason": null,
+  "note": "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation call, once per probe, for every probe in the sealed battery, per world. Token counts are measured directly from each call's own usage and priced against the same real, sourced rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE documents - a $/token figure is fair game here (spec principle 13), though it is an estimate against a published rate card, not a reconciled AWS invoice. Preflight-estimated per world against max_usd before any billed call was made, then checked again, running, before each next world's own calls, against the actual spend recorded so far."
+}
