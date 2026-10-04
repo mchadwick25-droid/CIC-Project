@@ -34,7 +34,7 @@ def test_the_token_rates_and_packs_are_the_ruled_ones():
         solo_open=50, solo_round=20, solo_round_later=25,
         table_open_per_seat=50, table_round_two=60, table_round_three=100,
         table_round_two_later=75, table_round_three_later=125,
-        later_rounds_from=4, free_daily=330, free_rounds=3,
+        later_rounds_from=4, free_window=550, free_window_days=30, free_rounds=3,
     )
     assert ops.packs == (Pack(7, 1100), Pack(15, 2750), Pack(30, 6600))
 
@@ -63,6 +63,13 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["words"].pop("door"),
         lambda d: d["words"]["door"].pop("limited"),
         lambda d: d["words"]["door"].update(paused=" "),
+        lambda d: d.pop("paid"),
+        lambda d: d["paid"].update(round_cap=0),
+        lambda d: d["paid"].update(round_cap=True),
+        lambda d: d["paid"].update(provisional="yes"),
+        lambda d: d["paid"].pop("provisional"),
+        lambda d: d["door"].pop("observe"),
+        lambda d: d["door"].update(observe="yes"),
     ],
 )
 def test_a_malformed_file_is_refused(tmp_path, change):
@@ -116,7 +123,7 @@ def test_the_flag_on_refuses_to_start_on_a_bad_file(tmp_path, monkeypatch):
     monkeypatch.setenv("CIC_DEEPER_OPS_FILE", _write(tmp_path, data))
     config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
     with pytest.raises(OpsFileError):
-        deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1"})
+        deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": "k" * 40})
 
 
 def test_the_shipped_door_is_the_documented_default():
@@ -126,7 +133,7 @@ def test_the_shipped_door_is_the_documented_default():
     assert (door.base_usd, door.gift_share, door.purchase_share, door.invoice_factor) == (150.0, 0.8, 0.5, 1.35)
     assert door.stages == (
         Stage(at=0.66, table_free_rounds=1),
-        Stage(at=0.75, solo_free_rounds=2, free_day_share=0.5),
+        Stage(at=0.75, solo_free_rounds=2, free_share=0.5),
         Stage(at=0.90, table_free_rounds=0),
         Stage(at=0.95, free_voice=False),
         Stage(at=1.00, paid_voice=False),
@@ -152,11 +159,11 @@ def test_the_shipped_door_is_the_documented_default():
         lambda d: d["door"].update(stages=[{"at": 0.5, "free_voice": True}]),
         lambda d: d["door"].update(stages=[{"at": 0.5, "paid_voice": False}]),
         lambda d: d["door"].update(stages=[{"at": 0.5, "table_free_rounds": 1}, {"at": 0.6, "table_free_rounds": 2}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "free_day_share": 0.5}, {"at": 0.6, "free_day_share": 0.8}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "free_share": 0.5}, {"at": 0.6, "free_share": 0.8}]),
         lambda d: d["door"].update(stages=[{"at": 0.5, "solo_free_rounds": -1}]),
         lambda d: d["door"].update(stages=[{"at": 0.5, "solo_free_rounds": True}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "free_day_share": 2}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "free_day_share": 0}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "free_share": 2}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "free_share": 0}]),
     ],
 )
 def test_a_malformed_door_is_refused(tmp_path, change):
@@ -164,3 +171,61 @@ def test_a_malformed_door_is_refused(tmp_path, change):
     change(data)
     with pytest.raises(OpsFileError):
         load_ops(_write(tmp_path, data))
+
+
+def test_the_shipped_door_starts_in_observe_mode_and_the_paid_cap_is_provisional():
+    ops = load_ops()
+    assert ops.door_observe is True
+    assert (ops.paid_round_cap, ops.paid_round_cap_provisional) == (40, True)
+
+
+@pytest.mark.parametrize("key", [None, "", "short"])
+def test_the_flag_on_refuses_to_start_without_the_free_allowance_key(tmp_path, key):
+    from engine.api import deeper_routes
+    from engine.deeper.config import DeeperConfig
+
+    env = {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1"}
+    if key is not None:
+        env["CIC_DEEPER_FREE_KEY"] = key
+    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
+    with pytest.raises(deeper_routes.DeeperConfigError):
+        deeper_routes.build_runtime(config, env)
+
+
+def test_a_started_runtime_never_writes_the_free_allowance_key_to_the_meter_file(tmp_path):
+    from engine.api import deeper_routes
+    from engine.deeper.config import DeeperConfig
+
+    key = "the-free-allowance-secret-key-0123456789"
+    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
+    rt = deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": key})
+    try:
+        rt.free.settle(rt.free.reserve("ip:198.51.100.9", 110), True)
+        rt.meter.mint("single", 100, "pi_x")
+    finally:
+        rt.meter.close()
+        rt.claims.close()
+    for path in (tmp_path / "m.db", *tmp_path.glob("m.db-*")):
+        raw = path.read_bytes()
+        assert key.encode() not in raw and b"198.51.100.9" not in raw
+
+
+def test_a_real_runtime_rebuilt_on_the_same_file_and_key_does_not_refill_a_visitor(tmp_path):
+    from engine.api import deeper_routes
+    from engine.deeper.config import DeeperConfig
+
+    env = {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": "k" * 40}
+    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
+    first = deeper_routes.build_runtime(config, env)
+    try:
+        first.free.settle(first.free.reserve("ip:198.51.100.9", 110), True)
+        drawn = first.free.remaining("ip:198.51.100.9")
+    finally:
+        first.meter.close()
+        first.claims.close()
+    second = deeper_routes.build_runtime(config, env)
+    try:
+        assert second.free.remaining("ip:198.51.100.9") == drawn < second.token_rates.free_window
+    finally:
+        second.meter.close()
+        second.claims.close()

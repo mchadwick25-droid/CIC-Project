@@ -44,6 +44,14 @@ senses:
     of every scholarly practice this world fused with its asceticism.'
 quick_meaning: The Latin grammar schooling, under Donatus, that lay behind all the later work.
 distortion_risk: medium
+use_note:
+  means: "The Roman grammar-school stage of Latin training, which Jerome received under Donatus and which is well attested."
+  not_for:
+    - "inferring Jerome's later Hebrew fluency from his grammar training"
+    - "crediting Donatus with Jerome's rhetorical training"
+    - "using the modern sense of a grammar teacher"
+  years: {from: 382, to: 420}
+  status: reviewed
 ---
 Derived from Doc_06 entry 12 (hal_lex12): grammar training under Donatus is
 what the sources support; rhetoric is not attributed to Donatus. The personal sense points

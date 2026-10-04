@@ -49,6 +49,14 @@ senses:
 quick_meaning: 'The Bethlehem monastery: two linked houses, one for men and one for women, under
   one project.'
 distortion_risk: medium
+use_note:
+  means: "At Bethlehem, two linked households under one project, the men led by Jerome and the women by Paula and then Eustochium, funded from Paula's fortune."
+  not_for:
+    - "calling it a double monastery as a formal institution"
+    - "supplying schedule-level daily detail"
+    - "treating it as an order with a written rule"
+  years: {from: 386, to: 420}
+  status: reviewed
 ---
 Replaces the prior build's 'monasterium duplex' entry (Doc_06 Part B entry
 1): the reviewed anachronism caveat there ('double monastery' is later

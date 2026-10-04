@@ -359,6 +359,9 @@ class WorldSummary(BaseModel):
     horizon: str | None
     living_tradition_flag: bool
     starters: list[dict]
+    # The world's place in the app's list, portrait and accent colour
+    # (registry `app`).
+    app: dict | None = None
 
 
 class WorldListResponse(BaseModel):

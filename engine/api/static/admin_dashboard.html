@@ -153,6 +153,34 @@
 
     <div id="banners"></div>
 
+    <section id="deeper-section" class="hidden">
+      <h2>Go Deeper — daily totals</h2>
+      <div class="tiles">
+        <div class="tile">
+          <div class="label">Codes sold today</div>
+          <div class="value" id="t-deeper-codes">—</div>
+          <div class="caveat" id="t-deeper-codes-kinds"></div>
+        </div>
+        <div class="tile">
+          <div class="label">Tokens sold / spent today</div>
+          <div class="value" id="t-deeper-tokens">—</div>
+        </div>
+        <div class="tile">
+          <div class="label">Turns refused today</div>
+          <div class="value" id="t-deeper-refused">—</div>
+          <div class="caveat">Each refused turn still gets its safety check and the Facilitator's answer.</div>
+        </div>
+        <div class="tile">
+          <div class="label">Money not yet matched to codes</div>
+          <div class="value" id="t-deeper-gap">—</div>
+          <div class="caveat">Payments seen, minus codes made, minus refunds that came first. Today.</div>
+        </div>
+      </div>
+      <div class="caveat" id="deeper-observe-note" style="margin-top: 8px;"></div>
+      <div id="deeper-table-wrap" style="margin-top: 12px;"></div>
+      <div class="caveat" style="margin-top: 8px;">One number per measure per day. No code, visitor or time of day is kept. Crisis turns are not counted here: the Go Deeper module never sees what a message says.</div>
+    </section>
+
     <section>
       <h2>People and time — the headline numbers</h2>
       <div class="tiles">
@@ -376,6 +404,90 @@
     freshness.textContent = usage.asks_as_of_run
       ? "From the daily rollup run at " + usage.asks_as_of_run + " (generated " + (usage.asks_generated_at || "unknown") + ") — not live, updates once a day."
       : "No daily rollup has produced output yet.";
+    await loadDeeper();
+  }
+
+  const REFUSAL_LABELS = {
+    refused_no_code: "no code", refused_code_not_accepted: "code not accepted", refused_spent: "code spent",
+    refused_too_few: "too few tokens", refused_daily_ceiling: "group daily limit", refused_paused: "codes paused",
+    refused_in_use: "tokens in use", refused_free_rounds_done: "free rounds done", refused_free_allowance_spent: "free allowance spent",
+    refused_door_free_closed: "door closed to free", refused_door_paid_closed: "door closed to codes", refused_paid_round_cap: "paid conversation at its round cap",
+  };
+  function refusalTotal(row) {
+    return Object.keys(REFUSAL_LABELS).reduce((sum, key) => sum + (row[key] || 0), 0);
+  }
+  function refusalText(row) {
+    const parts = Object.keys(REFUSAL_LABELS).filter((key) => row[key]).map((key) => REFUSAL_LABELS[key] + " " + fmtNumber(row[key]));
+    return parts.length ? parts.join(" · ") : "—";
+  }
+  function renderDeeper(body) {
+    const section = document.getElementById("deeper-section");
+    section.classList.remove("hidden");
+    const rows = body.measures || [];
+    const gaps = {};
+    (body.reconciliation || []).forEach((r) => { gaps[r.day] = r.gap; });
+    const today = rows[0] || {};
+    const bought = (today.codes_single || 0) + (today.codes_batch || 0) + (today.codes_group || 0);
+    document.getElementById("t-deeper-codes").textContent = fmtNumber(bought);
+    document.getElementById("t-deeper-codes-kinds").textContent =
+      "single " + fmtNumber(today.codes_single || 0) + " · batch " + fmtNumber(today.codes_batch || 0) + " · group " + fmtNumber(today.codes_group || 0);
+    document.getElementById("t-deeper-tokens").textContent = fmtNumber(today.tokens_sold || 0) + " / " + fmtNumber(today.tokens_spent || 0);
+    document.getElementById("t-deeper-refused").textContent = fmtNumber(refusalTotal(today));
+    document.getElementById("t-deeper-gap").textContent = fmtNumber(gaps[today.day] || 0);
+    const wrap = document.getElementById("deeper-table-wrap");
+    wrap.innerHTML = "";
+    if (rows.length === 0) {
+      wrap.appendChild(el("div", { class: "empty", text: "Nothing recorded yet." }));
+      return;
+    }
+    const table = el("table", {});
+    table.appendChild(el("thead", {}, [el("tr", {}, [
+      el("th", { text: "Day" }), el("th", { class: "num", text: "Codes" }), el("th", { class: "num", text: "Tokens sold" }),
+      el("th", { class: "num", text: "Tokens spent" }), el("th", { class: "num", text: "Refused" }),
+      el("th", { text: "Why" }), el("th", { class: "num", text: "Door stage (peak)" }), el("th", { class: "num", text: "Of ceiling (peak)" }),
+      el("th", { class: "num", text: "Spend (peak)" }), el("th", { class: "num", text: "Would have refused: free" }),
+      el("th", { class: "num", text: "Would have refused: codes" }),
+    ])]));
+    const tbody = el("tbody", {});
+    rows.forEach((row) => {
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: row.day }),
+        el("td", { class: "num", text: fmtNumber((row.codes_single || 0) + (row.codes_batch || 0) + (row.codes_group || 0)) }),
+        el("td", { class: "num", text: fmtNumber(row.tokens_sold || 0) }),
+        el("td", { class: "num", text: fmtNumber(row.tokens_spent || 0) }),
+        el("td", { class: "num", text: fmtNumber(refusalTotal(row)) }),
+        el("td", { text: refusalText(row) }),
+        el("td", { class: "num", text: fmtNumber(row.door_stage || 0) }),
+        el("td", { class: "num", text: Math.round((row.door_ratio_permille || 0) / 10) + "%" }),
+        el("td", { class: "num", text: fmtDollars((row.door_spend_cents || 0) / 100) }),
+        el("td", { class: "num", text: fmtNumber(row.observed_free_refused || 0) }),
+        el("td", { class: "num", text: fmtNumber(row.observed_paid_refused || 0) }),
+      ]));
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+  }
+  function renderObserveNote(door) {
+    const note = document.getElementById("deeper-observe-note");
+    note.textContent = door && door.observe
+      ? "Observe mode: the door is worked out every minute but narrows nothing. The door columns show what it would have done each day, so the base number and thresholds can be set from them. They count turns the door would have refused outright; halving the free allowance at a stage is not counted, so read the peaks for how close the week came."
+      : "";
+  }
+  async function loadDeeper() {
+    // The route exists only when the Go Deeper module is on; without it the section stays hidden.
+    try {
+      const resp = await fetch("/api/admin/deeper/measures", { credentials: "same-origin" });
+      if (resp.ok) {
+        renderDeeper(await resp.json());
+        try {
+          const doorResp = await fetch("/api/admin/deeper/door", { credentials: "same-origin" });
+          if (doorResp.ok) renderObserveNote((await doorResp.json()).door);
+        } catch (e) { /* the note is optional */ }
+      }
+      else document.getElementById("deeper-section").classList.add("hidden");
+    } catch (e) {
+      document.getElementById("deeper-section").classList.add("hidden");
+    }
   }
 
   function validatePasswordPolicy(pw) {

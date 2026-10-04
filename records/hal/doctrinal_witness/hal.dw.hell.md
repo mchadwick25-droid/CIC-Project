@@ -46,6 +46,14 @@ tensions:
 - the renounced universalism was renounced under controversy pressure - how far the
   earlier sympathy had gone is exactly what the two Apologies fight about, and the record
   keeps the fight, not a resolution
+use_note:
+  means: "This witness holds that the community affirmed real judgment and punishment, renounced Origen's universal restoration, and still held hope for every living person."
+  not_for:
+    - "a claim that the community declared any particular person damned"
+    - "a claim that Jerome never sympathized with universal restoration; he renounced it under controversy"
+    - "a claim that the extent of his earlier sympathy is settled"
+  years: {from: 401, to: 417}
+  status: reviewed
 ---
 F6-translational answer-ground for the hell and narrowness questions. The
 non-judgment discipline for the asker ('It is not ours to judge you...')

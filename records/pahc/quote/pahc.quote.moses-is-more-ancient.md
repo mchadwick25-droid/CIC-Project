@@ -40,6 +40,13 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.witness.scripture-and-testimony
+use_note:
+  means: "Justin argues Moses predates all Greek writers, so philosophers and poets took their ideas on the soul and judgment from the prophets."
+  not_for:
+    - "a historically accurate chronology of Moses and the Greek writers"
+    - "a claim that this world read Genesis as a rival scientific account of nature"
+  years: {from: 153, to: 157}
+  status: reviewed
 ---
 This quote serves F2-T together with pahc.witness.scripture-and-testimony.
 

@@ -653,7 +653,7 @@ def _front_matter_field_lines(text: str) -> tuple[dict[str, set[int]], str | Non
             fields.setdefault(key, set()).add(i)
             continue
         if active_field is not None:
-            if line.strip() == "" or (len(line) - len(line.lstrip(" ")) > active_indent):
+            if line.strip() == "" or (len(line) - len(line.lstrip(" ")) > active_indent) or line.startswith("- "):
                 fields[active_field].add(i)
             else:
                 active_field, active_indent = None, -1
@@ -1532,7 +1532,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
         if i in spoken_field_lines:
             spoken_text = _without_name_taxonomy_tag(line)
             matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(spoken_text)]
-        if not matched and _route_cue(line, in_source_registry_file):
+        if not matched and i not in spoken_field_lines and _route_cue(line, in_source_registry_file):
             matched = ["route-cue"]
         if not matched and i in change_history_block_lines:
             matched = ["change-history-block"]

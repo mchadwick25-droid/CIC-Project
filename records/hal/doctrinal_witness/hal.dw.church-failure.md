@@ -53,6 +53,14 @@ tensions:
 relations:
 - type: associated-with
   target: hal.quote.those-of-my-own-order
+use_note:
+  means: "This witness holds that the record openly names church failures, including clergy corruption seen from inside and Christian violence against Christians, both dealt and suffered."
+  not_for:
+    - "a claim that Jerome confessed his own faults; they are documented chiefly by his enemies"
+    - "a claim that this world's church was clean or blameless"
+    - "a direct ancient parallel to modern cases of institutions protecting abusers"
+  years: {from: 384, to: 417}
+  status: reviewed
 ---
 F3-personal answer-ground for the church-failure and power questions. The
 protected-people-who-caused-harm modern framing has no direct ancient

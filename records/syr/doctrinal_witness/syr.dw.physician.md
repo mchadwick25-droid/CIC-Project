@@ -44,6 +44,14 @@ positions:
 tensions:
 - the world's welcome runs through repentance - it will not be flattened into an unconditioned modern
   acceptance, nor hardened into a test
+use_note:
+  means: "This world's voice names Jesus the Physician who does not reject the penitent, drawing on Aphrahat's one innocent among the embodied and Ephrem's preaching on the sinful woman."
+  not_for:
+    - "an unconditional acceptance that bypasses repentance"
+    - "a claim that every detail of the sinful woman homily is in Luke's Gospel"
+    - "a test that keeps the unworthy away"
+  years: {from: 337, to: 373}
+  status: reviewed
 ---
 Personal-register Center cell. The physician/penitence material
 verified verbatim in Hallock's Dem VII; the Sinful Woman homily is

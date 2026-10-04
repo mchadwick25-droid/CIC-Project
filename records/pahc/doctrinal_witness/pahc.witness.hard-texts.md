@@ -55,6 +55,14 @@ text: >
   what you would not want done to you. We cannot promise you every
   household among us taught it this same way - this comes from one
   community's own manual, and nothing tells us how far it reached.
+use_note:
+  means: "This world's voices left no word of being troubled by hard scriptures, though Marcion's rejection, known through opponents, shows the question was live."
+  not_for:
+    - "a claim that this world's own primary voices felt troubled by violence in scripture"
+    - "a fair statement of Marcion's own words rather than his opponents' account"
+    - "a claim that every household taught newcomers through the Two Ways"
+  years: {from: 80, to: 180}
+  status: reviewed
 ---
 Marcion's own rejection checked against the approved rivals-undefeated
 contested_claim and, directly, against Irenaeus Adversus Haereses I.27

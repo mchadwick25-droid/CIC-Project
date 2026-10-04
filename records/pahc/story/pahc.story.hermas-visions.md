@@ -61,6 +61,13 @@ modern_contrast: >
   concrete pastoral concession, worked out in real time through a
   named visionary's own report, with no developed doctrinal apparatus
   of merit, penance-scale, or afterlife geography behind it.
+use_note:
+  means: "A freedman in Rome named Hermas reports visions, delivered through an elderly woman who is the Church herself, granting one further chance to repent after baptism."
+  not_for:
+    - "an early form of purgatory or indulgences"
+    - "a developed doctrine of merit, penance-scale or afterlife geography"
+  years: {from: 90, to: 150}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 007. "Because she was
 created first of all... for her sake was the world made" and the

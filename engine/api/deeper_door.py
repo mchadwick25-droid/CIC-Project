@@ -97,6 +97,7 @@ class DoorMonitor:
         refresh_seconds: float = REFRESH_SECONDS,
         load: Callable[[], str | None] | None = None,
         save: Callable[[str], None] | None = None,
+        observe: Callable[[DoorState], None] | None = None,
     ):
         self._settings = settings
         self._usage_store = usage_store
@@ -105,6 +106,7 @@ class DoorMonitor:
         self._monotonic = monotonic
         self._refresh = refresh_seconds
         self._save = save
+        self._observe = observe
         kept = _decode(load()) if load is not None else None
         self._state: DoorState = kept or door_module.OPEN
         self._kept: DoorState | None = kept
@@ -126,7 +128,16 @@ class DoorMonitor:
         self._state = fresh
         self._computed_at = now
         self._keep(fresh)
+        self._watch(fresh)
         return fresh
+
+    def _watch(self, state: DoorState) -> None:
+        if self._observe is None:
+            return
+        try:
+            self._observe(state)
+        except Exception:  # noqa: BLE001 - a measure must never touch the door
+            logger.exception("the door's stage could not be counted")
 
     def _keep(self, state: DoorState) -> None:
         """Writes the state when its stage or what it narrows has changed, never every minute."""

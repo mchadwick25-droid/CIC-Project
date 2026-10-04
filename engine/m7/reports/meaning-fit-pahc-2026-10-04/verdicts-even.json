@@ -1,0 +1,898 @@
+{
+ "u0002": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0004": {
+  "verdict": "accepted",
+  "reason": "A hedge about how far the manual reached, matching the record's not_for."
+ },
+ "u0006": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0008": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0010": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0012": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0014": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0016": {
+  "verdict": "defensible",
+  "reason": "Extends the record's 'no gathering settled God's nature' to the Spirit specifically; fair but adds detail."
+ },
+ "u0018": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0020": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0022": {
+  "verdict": "defensible",
+  "reason": "Record says non-readers received scripture by hearing; 'most could not read' and 'left no account' come from other records."
+ },
+ "u0024": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0026": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0028": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0030": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0032": {
+  "verdict": "defensible",
+  "reason": "Eucharistia definition is right; the after-baptism prerequisite comes from the baptisma record."
+ },
+ "u0034": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0036": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0038": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0040": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0042": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0044": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0046": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0048": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0050": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0052": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0054": {
+  "verdict": "defensible",
+  "reason": "Record says the few writers were literate city voices; 'leadership-tier man' adds emphasis beyond it."
+ },
+ "u0056": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0058": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0060": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0062": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0064": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0066": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0068": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0070": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0072": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0074": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0076": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0078": {
+  "verdict": "defensible",
+  "reason": "Record covers unresolved leadership; the Corinth-correction letter is merged in from another record."
+ },
+ "u0080": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0082": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0084": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0086": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0088": {
+  "verdict": "defensible",
+  "reason": "Women's-voices record is cited for a broader claim about leaders writing about cost; consistent but merged."
+ },
+ "u0090": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0092": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0094": {
+  "verdict": "defensible",
+  "reason": "Literate voices supported; 'leadership-tier' is an added emphasis."
+ },
+ "u0096": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0098": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0100": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0102": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0104": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0106": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0108": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0110": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0112": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0114": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0116": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0118": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0120": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0122": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0124": {
+  "verdict": "defensible",
+  "reason": "Record supports only the unresolved-leadership item; network, legal exposure and worship texture are merged from elsewhere."
+ },
+ "u0126": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0128": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0130": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0132": {
+  "verdict": "defensible",
+  "reason": "Generalizes the record's silence of ordinary members to 'those failed by us'; a stretch, not a misreading."
+ },
+ "u0134": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0136": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0138": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0140": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0142": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0144": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0146": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0148": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0150": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0152": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0154": {
+  "verdict": "defensible",
+  "reason": "Doubt line belongs to the doubt-and-asking record; prayer record supports it only loosely (keep asking, do not give up)."
+ },
+ "u0156": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0158": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0160": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0162": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0164": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0166": {
+  "verdict": "defensible",
+  "reason": "Record's open question is about the manual's date and authorship; widening it to the chain's security is a mild stretch."
+ },
+ "u0168": {
+  "verdict": "defensible",
+  "reason": "Hermas record gives a freedman visionary; 'already trusted enough to receive visions' adds a status claim."
+ },
+ "u0170": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0172": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0174": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0176": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0178": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0180": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0182": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0184": {
+  "verdict": "defensible",
+  "reason": "Applies the poor/enslaved line to women and adds a causal 'never given the chance'; consistent but extended."
+ },
+ "u0186": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0188": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0190": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0192": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0194": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0196": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0198": {
+  "verdict": "defensible",
+  "reason": "Applies the Didache's pre-offering reconciliation to an unsettled mind; an extension beyond forgiving wrongs."
+ },
+ "u0200": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0202": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0204": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0206": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0208": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0210": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0212": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0214": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0216": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0218": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0220": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0222": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0224": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0226": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0228": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0230": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0232": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0234": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0236": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0238": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0240": {
+  "verdict": "defensible",
+  "reason": "Doubt line belongs to doubt-and-asking; prayer record supports it only loosely."
+ },
+ "u0242": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0244": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0246": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0248": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0250": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0252": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0254": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0256": {
+  "verdict": "defensible",
+  "reason": "Leadership dispute is cited to the letter-network record, which supports only that authority claims moved through letters."
+ },
+ "u0258": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0260": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0262": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0264": {
+  "verdict": "defensible",
+  "reason": "Common-property teaching is real Didache material but not in the cited Two Ways opening."
+ },
+ "u0266": {
+  "verdict": "defensible",
+  "reason": "Quote says Greeks took ideas on soul and judgment from the prophets; the creation-account detail comes from elsewhere in Justin."
+ },
+ "u0268": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0270": {
+  "verdict": "defensible",
+  "reason": "Ignatius's 'nothing without the bishop' is real but not in the cited gravity record; marriage is an approval, not a rite."
+ },
+ "u0272": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0274": {
+  "verdict": "defensible",
+  "reason": "Adds 'whether to receive movements' as a letter-after-letter argument; record mentions only the late Asian meetings."
+ },
+ "u0276": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0278": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0280": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0282": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0284": {
+  "verdict": "defensible",
+  "reason": "Presbyteros term is cited for a hedge about marriage approval reaching council churches; consistent but not its content."
+ },
+ "u0286": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0288": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0290": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0292": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0294": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0296": {
+  "verdict": "defensible",
+  "reason": "Record says almost none left words; 'most could not read' is a reasonable inference from it."
+ },
+ "u0298": {
+  "verdict": "defensible",
+  "reason": "Slow-answer teaching comes from later in the same Mandate, not this quoted passage about sin disqualifying asking."
+ },
+ "u0300": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0302": {
+  "verdict": "defensible",
+  "reason": "Women's-voices record cited for a claim about the poor and enslaved; consistent but merged."
+ },
+ "u0304": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0306": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0308": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0310": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0312": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0314": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0316": {
+  "verdict": "defensible",
+  "reason": "Eucharistia term defines the meal; the after-baptism prerequisite comes from the baptisma record."
+ },
+ "u0318": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0320": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0322": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0324": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0326": {
+  "verdict": "defensible",
+  "reason": "Liturgical record covers the table; 'joined to people you might never meet' merges in network and common-property material."
+ },
+ "u0328": {
+  "verdict": "defensible",
+  "reason": "Line belongs to how-we-know; consistent with this record's not_for, but not its content."
+ },
+ "u0330": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0332": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0334": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0336": {
+  "verdict": "defensible",
+  "reason": "Thanksgiving supported; the collection detail comes from Justin, not this record; sequence framed as Rome only."
+ },
+ "u0338": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0340": {
+  "verdict": "misread",
+  "reason": "The baptisma term (an entry rite after teaching) is made to support a daily ongoing choice between the two ways, which it does not contain."
+ },
+ "u0342": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0344": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0346": {
+  "verdict": "defensible",
+  "reason": "'Same bread, same cup' leans slightly toward uniformity, but means a shared table within one gathering."
+ },
+ "u0348": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0350": {
+  "verdict": "defensible",
+  "reason": "Overgeneralizes the silence of ordinary members to say nothing shows what belonging cost."
+ },
+ "u0352": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0354": {
+  "verdict": "defensible",
+  "reason": "This quote is one passing use; 'again and again, opening and closing letters' is true of Ignatius but not shown here."
+ },
+ "u0356": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0358": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0360": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0362": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0364": {
+  "verdict": "defensible",
+  "reason": "'The water was where that choice was made visible' is an interpretive addition to the record."
+ },
+ "u0366": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0368": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0370": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0372": {
+  "verdict": "defensible",
+  "reason": "Content of the way of life is accurate Didache but not in this story record, which only says Two Ways was taught."
+ },
+ "u0374": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0376": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0378": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0380": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0382": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0384": {
+  "verdict": "defensible",
+  "reason": "Still water, pouring and the triadic name are real Didache 7 but go beyond this record's running water."
+ },
+ "u0386": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0388": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0390": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0392": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0394": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0396": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0398": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0400": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0402": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0404": {
+  "verdict": "defensible",
+  "reason": "Reading-aloud content belongs to the reading-scripture record; consistent but not this record's content."
+ },
+ "u0406": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0408": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0410": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0412": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0414": {
+  "verdict": "defensible",
+  "reason": "Triadic baptismal name is real Didache 7 but not in the cited story record."
+ },
+ "u0416": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0418": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0420": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0422": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0424": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0426": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0428": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0430": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0432": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0434": {
+  "verdict": "defensible",
+  "reason": "Doubt line belongs to doubt-and-asking; prayer record supports it only loosely."
+ },
+ "u0436": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0438": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0440": {
+  "verdict": "defensible",
+  "reason": "Record says leadership shapes how lines are drawn; reading bishop's marriage approval as a belonging marker is an inference."
+ },
+ "u0442": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0444": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0446": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ },
+ "u0448": {
+  "verdict": "accepted",
+  "reason": "Sentence restates or closely paraphrases what the record says, within its note."
+ }
+}

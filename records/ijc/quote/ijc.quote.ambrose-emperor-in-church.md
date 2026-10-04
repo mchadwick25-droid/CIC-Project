@@ -37,6 +37,12 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
+use_note:
+  means: "Preaching during the 386 basilica crisis, Ambrose calls the emperor a son of the Church, within it and not above it."
+  not_for:
+    - "a claim that the formula states settled, uncontested practice rather than Ambrose's position preached under threat in a live standoff"
+  years: {from: 386, to: 386}
+  status: reviewed
 ---
 Text verified verbatim against the vendored file - the
 signature formula in its edition's actual wording: "the Emperor is

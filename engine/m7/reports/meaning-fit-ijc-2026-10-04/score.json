@@ -1,0 +1,18 @@
+{
+  "after": {
+    "uses": 295,
+    "ungraded": 0,
+    "accepted": 252,
+    "defensible": 34,
+    "misread": 9,
+    "misread_rate": 0.0305
+  },
+  "before": {
+    "uses": 291,
+    "ungraded": 0,
+    "accepted": 236,
+    "defensible": 39,
+    "misread": 16,
+    "misread_rate": 0.055
+  }
+}

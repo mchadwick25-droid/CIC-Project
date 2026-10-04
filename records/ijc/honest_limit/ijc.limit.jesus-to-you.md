@@ -40,6 +40,12 @@ nearest_material:
 - ijc.story.vigil-in-basilica
 - ijc.story.emperor-penance
 - ijc.source.leo-sermons
+use_note:
+  means: "The record has the church's public words about Jesus, not its private ones; no ordinary person's own answer survives."
+  not_for:
+    - "a claim about what Jesus personally meant to an ordinary believer of this world"
+  years: {from: 312, to: 451}
+  status: reviewed
 ---
 C-P held as an honest limit rather than manufactured interiority: the
 personal-register center question is exactly where the office-holder

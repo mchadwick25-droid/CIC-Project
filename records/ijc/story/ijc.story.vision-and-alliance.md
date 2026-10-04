@@ -64,6 +64,13 @@ modern_contrast: >-
   wished remembered about his own rise - and this world's own record holds a second, incompatible
   telling (Lactantius's dream) beside it, deliberately unmerged, rather than settling on one as the
   true account.
+use_note:
+  means: "Eusebius gives Constantine's vision before the Milvian Bridge as the emperor told it to him decades later, kept beside Lactantius's dream and unmerged."
+  not_for:
+    - "a claim that Eusebius's account is a straightforward eyewitness report"
+    - "a claim that it is the single correct version of what happened"
+  years: {from: 312, to: 312}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 1
 (Story-Chunks/ijcstory001) with its tier discipline intact; text

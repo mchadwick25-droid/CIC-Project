@@ -54,6 +54,14 @@ modern_contrast: >-
   world's own record complicates that on purpose. The very letter that honors Polycarp's death also
   names a man who sought the danger out and failed. It says plainly that seeking danger out was
   never the example to follow.
+use_note:
+  means: "Before praising Polycarp's courage, the letter names Quintus, who came forward for trial on his own and lost his nerve at the sight of the beasts."
+  not_for:
+    - "a call to imitate all-out courage"
+    - "seeking danger out as the example to follow"
+    - "Quintus's own account of his reasons"
+  years: {from: 155, to: 156}
+  status: reviewed
 ---
 `atlas-v3.html`'s own `documentedStories` array for
 post-apostolic-house-church names

@@ -54,6 +54,14 @@ absent_detail: 'Everything scene-level - her exact words, the completeness of he
   witness to her life read the whole relationship differently. The closing sentence of
   this telling is the record''s own honesty, and any use of this story should keep it.'
 modern_contrast: 'A modern reader often hears this as a straightforward biography of an admirable life. This world''s own record frames it differently: it is a memorial written to teach a formation ideal, in a genre that idealizes by design - the bare facts of her death and burial are better attested than any of the epitaph''s scene-level detail or quoted words.'
+use_note:
+  means: "The life of Paula as her community chose to remember it, an idealizing formation tradition and not scene-level biography."
+  not_for:
+    - "presenting scene-level detail or quoted words as historical"
+    - "asserting the completeness of her poverty as fact"
+    - "telling it without the closing acknowledgment that her own voice was not kept"
+  years: {from: 382, to: 404}
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S6. Formation-ideal usage only: told AS
 the community's ideal, never as scene-level biography. The

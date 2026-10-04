@@ -97,6 +97,13 @@ manifestations:
 - "'Stop your ears... when any one speaks to you at variance with Jesus Christ... He was truly persecuted under Pontius Pilate; He was truly crucified' (Ignatius, Trallians 9)"
 - "'They abstain from the Eucharist and from prayer, because they confess not the Eucharist to be the flesh of our Saviour Jesus Christ' (Ignatius, Smyrnaeans 7)"
 - "refusing a rival teacher's separate eucharist while holding to the one eucharist under the community's own bishop (Smyrnaeans 8)"
+use_note:
+  means: "The refusal of those who say the Lord's flesh was only appearance, pressed most sharply by Ignatius in communities with one overseer."
+  not_for:
+    - "a refusal held the same way in every household"
+    - "a second inside voice securely confirming the anti-docetic argument"
+  years: {from: 107, to: 180}
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (G05) - the least evidentially
 secured of this world's confirmed gravities, and for exactly that

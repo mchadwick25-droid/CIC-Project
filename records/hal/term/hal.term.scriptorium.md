@@ -48,6 +48,13 @@ senses:
     inference, not a documented fact.
 quick_meaning: A guessed space for copying books, never directly named.
 distortion_risk: high
+use_note:
+  means: "An inferred space for copying books at Bethlehem, never named in any surviving source."
+  not_for:
+    - "presenting a scriptorium as a documented, named institution"
+    - "describing a distinct building or office for copying"
+  years: {from: 386, to: 420}
+  status: reviewed
 ---
 Imported from the old system's fuller lexicon development document (hal_Doc_06, Tier-3 entry 1,
 "Scriptorium") at Mark's direction, as a draft, not a final version. The old record's own
