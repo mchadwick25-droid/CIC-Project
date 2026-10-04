@@ -16,20 +16,27 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.socrates-he
-  locus: IV.29 (npnf202 lines 14193-14218)
+  locus: IV.29 (npnf202 lines 14191-14218)
   license: public-domain
-text: This ordination was made, not in a church, but in a retired place called the Palace of Sicine,
-  whereupon dissension arose among the people; their disagreement being not about any article of faith
-  or heresy, but simply as to who should be bishop. Hence frequent conflicts arose, insomuch that many
-  lives were sacrificed in this contention; and many of the clergy as well as laity were punished on
-  that account by Maximin, the prefect of the city.
+text: >-
+  A certain Ursinus, a deacon of that church, had been nominated among others when the election of a
+  bishop took place; as Damasus was preferred, this Ursinus, unable to bear the disappointment of his
+  hopes, held schismatic assemblies apart from the church, and even induced certain bishops of little
+  distinction to ordain him in secret. This ordination was made, not in a church, but in a retired
+  place called the Palace of Sicine, whereupon dissension arose among the people; their disagreement
+  being not about any article of faith or heresy, but simply as to who should be bishop. Hence frequent
+  conflicts arose, insomuch that many lives were sacrificed in this contention; and many of the clergy
+  as well as laity were punished on that account by Maximin, the prefect of the city.
 modern_rendering: >-
-  This ordination took place, not in a church, but in a secluded place called the Palace
-  of Sicine. This led to conflict among the people. Their disagreement was not about any
-  article of faith or any heresy, but simply about who should be bishop. Because of this,
-  frequent clashes broke out, so many lives were lost in this struggle. Many of the
-  clergy, as well as ordinary people, were punished for this by Maximin, the prefect of
-  the city.
+  A man named Ursinus, a deacon of that church, had been one of the candidates when a
+  bishop was elected. Damasus was chosen instead, and Ursinus could not bear the
+  disappointment. He held rival meetings apart from the church. He even persuaded some
+  bishops of little standing to ordain him in secret. This ordination took place, not in a
+  church, but in a secluded place called the Palace of Sicine. This led to conflict among
+  the people. Their disagreement was not about any article of faith or any heresy, but
+  simply about who should be bishop. Clashes broke out again and again, and many lives were
+  lost in this struggle. Maximin, the prefect of the city, punished many of the clergy, as
+  well as ordinary people, for it.
 speaker_or_author: "Socrates Scholasticus, Ecclesiastical History IV.29"
 license: verbatim
 modern_lens_note: >-

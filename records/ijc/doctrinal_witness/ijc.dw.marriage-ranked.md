@@ -33,18 +33,17 @@ text: >-
   of an ordinary marriage from the inside. What we did leave is exactly where
   our teachers ranked the institution, and why.
 positions:
-- marriage is treated as fully licit, not merely tolerated - the treatise''s own argument depends on
-  conceding that remarriage after widowhood breaks no command
+- Marriage is fully lawful here, not just put up with. The treatise's own argument grants that a widow
+  who marries again breaks no command.
 - the same argument ranks it below chosen continence, "only in the Lord" marking the sole real
   restriction placed on it
-- this is preached/argued teaching about marriage''s standing, not a description of any actual couple''s
-  household life - the cell''s original absence-of-household-detail finding survives even where this
-  correction stands
+- This is teaching about where marriage stands, argued by a teacher. It does not describe any real
+  couple's home life, and no household's own account of marriage survives here.
 tensions:
 - the ranking is asymmetric and ascetic in its whole cast (a widows-and-virgins treatise, arguing
-  virginity''s superiority) - it is not a neutral treatment of marriage on its own terms
-- money and dowry, the cell''s other named concern, are not addressed here - this record answers only
-  the marriage half of F5-T''s question
+  virginity's superiority) - it is not a neutral treatment of marriage on its own terms
+- money and dowry, the cell's other named concern, are not addressed here - this record answers only
+  the marriage half of F5-T's question
 relations:
 - type: associated-with
   target: ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood

@@ -13,11 +13,11 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Ambrose's own teaching, in a treatise written to commend widowhood - so the ranking is the argument, not an aside. He is a bishop writing to persuade, and the marriage he ranks third is the state most of his hearers were in.
+    Documented as Ambrose's own teaching, in a letter of about 396 to the divided church at Vercellae, written against two monks who had abandoned the ascetic life - so the ranking is the argument, not an aside. He is a bishop writing to persuade, and the marriage he ranks third is the state most of his hearers were in.
 sources:
-- source_id: ijc.source.ambrose-concerning-widows
+- source_id: ijc.source.ambrose-epistles
   locus: >-
-    Concerning Widows, ch. IV.40-41 (npnf210_ambrose-select-works-letters.xml)
+    Ep. LXIII, To the Church at Vercellae, 40 (npnf210 lines 45069-45080)
   license: public-domain
 text: >-
   ...that of widowhood, not so difficult as the former, but being rocky and rough, it requires more cautious travellers. Good too is that of marriage; being smooth and even it reaches the camp of the saints by a longer circuit. This way is taken by most. There are then the rewards of virginity, there are the merits of widowhood, there is also a place for conjugal modesty.
@@ -27,7 +27,7 @@ modern_rendering: >-
   the camp of the saints by a longer route. Most people take this way. So there are the
   rewards of virginity; there are the merits of widowhood; and there is also a place for
   conjugal modesty.
-speaker_or_author: Ambrose of Milan, Concerning Widows
+speaker_or_author: Ambrose of Milan, Letter 63, to the Church at Vercellae
 license: verbatim
 modern_lens_note: >-
   The crucial words are 'Good too' and 'This way is taken by most'. Marriage is not condemned here - it reaches the same destination - but it is explicitly the longest road and the ordinary one. That is this world's answer about marriage: licit, honoured, and third. A reader who expects either condemnation or equality will misread it in opposite directions.
@@ -45,12 +45,12 @@ use_note:
   not_for:
     - "a claim that Ambrose condemns marriage"
     - "a claim that Ambrose treats marriage as equal to virginity or widowhood"
-    - "a claim that the ranking is neutral rather than the argument of a treatise commending widowhood"
-  years: {from: 377, to: 380}
+    - "a claim that the ranking is neutral rather than part of a letter urging the ascetic life on the church at Vercellae"
+  years: {from: 396, to: 396}
   status: reviewed
 ---
 Opened for F5-T, served by ijc.dw.marriage-ranked alone.
 
-The record cites ch. I.1-2; the ranking itself stands at ch. IV.40-41 and that is what is cited
-here, so the locus is corrected rather than copied. The opening ellipsis marks the excerpt starting
+The three ways are Ambrose's image in his letter to the church at Vercellae; the
+ranking of marriage below widowhood in Concerning Widows is ijc.dw.marriage-ranked's. The opening ellipsis marks the excerpt starting
 inside Ambrose's list of three ways, whose first term is virginity.

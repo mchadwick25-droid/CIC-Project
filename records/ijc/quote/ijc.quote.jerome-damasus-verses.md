@@ -33,6 +33,7 @@ retrieval:
   retrieve_when:
   - "participant asks how Rome advanced its own standing"
   - "participant asks what a bishop did with the tombs of the martyrs"
+  - "participant asks how the martyrs were remembered or marked"
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 use_note:
