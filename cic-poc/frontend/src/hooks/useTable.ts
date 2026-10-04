@@ -9,6 +9,7 @@
  */
 import { useCallback, useRef, useState } from 'react';
 import { ApiRequestError, continueRound, createTableSession, getTranscript, sendTableMessage } from '../lib/api';
+import { noteLimit } from '../lib/deeper';
 import { clearStored, readStored, writeStored } from '../lib/sessionStore';
 import type { StreamedSentence } from '../lib/streamedReply';
 import type { FacilitatorTurn, TableMessageResponse, VoiceTurn } from '../types/conversation';
@@ -72,6 +73,7 @@ export function useTable() {
   const loopingRef = useRef(false);
 
   const applyAdvance = useCallback((advance: TableMessageResponse) => {
+    if (advance.limit_note) noteLimit();
     setState((prev) => ({
       ...prev,
       turns: [...prev.turns, ...turnsFromAdvance(advance)],

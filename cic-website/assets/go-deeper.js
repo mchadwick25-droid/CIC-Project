@@ -71,7 +71,7 @@
         .then(function (response) {
           if (response.ok) {
             return response.json().then(function (body) {
-              return { status: "ready", codes: body.codes, exchanges: body.exchanges };
+              return { status: "ready", codes: body.codes, tokens: body.tokens };
             });
           }
           if ((response.status === 404 || response.status === 429) && tries < MAX_TRIES) {

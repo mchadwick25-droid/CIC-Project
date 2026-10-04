@@ -17,7 +17,7 @@ TABLE_KEYS = ("open_per_seat", "round_two_seats", "round_three_seats", "round_tw
 FREE_KEYS = ("daily", "rounds_per_conversation")
 LATER_ROUNDS_FROM = 4
 MINIMUM_PACK_USD = 7
-LIMIT_KEYS = ("group_daily_ceiling", "table_round_cost", "group_burst_multiplier", "low_balance_at")
+LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
 
 
 class OpsFileError(Exception):
@@ -27,7 +27,6 @@ class OpsFileError(Exception):
 @dataclass(frozen=True)
 class DeeperOps:
     group_daily_ceiling: int
-    table_round_cost: int
     group_burst_multiplier: int
     low_balance_at: int
     limit_text: str
@@ -107,6 +106,6 @@ def load_ops(path: str | None = None) -> DeeperOps:
             raise OpsFileError("every piece of wording must be a non-empty string")
     rates, packs = _tokens(data["tokens"])
     return DeeperOps(
-        group_daily_ceiling=limits["group_daily_ceiling"], table_round_cost=limits["table_round_cost"],
+        group_daily_ceiling=limits["group_daily_ceiling"],
         group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), rates=rates, packs=packs,
     )
