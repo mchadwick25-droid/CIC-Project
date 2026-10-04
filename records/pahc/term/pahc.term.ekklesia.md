@@ -64,6 +64,13 @@ senses:
     church, everywhere, not a denomination. No church body of any later name exists yet to join or
     to visit.'
 quick_meaning: The assembly - the gathered people, under whatever roof holds them. Letters and a shared table join them to every other assembly.
+use_note:
+  means: "The assembly: a called-out gathering of people, joined by letters and a shared table to every other such gathering."
+  not_for:
+    - "a church building"
+    - "a denomination or legal institution"
+  years: {from: 70, to: 200}
+  status: provisional
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 3, Tier 1,
 no CT tag - the world's most securely attested self-designation). The

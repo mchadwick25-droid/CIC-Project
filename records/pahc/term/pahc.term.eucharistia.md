@@ -69,6 +69,13 @@ senses:
     for life and knowledge. Between those two registers no single doctrine of the elements is yet
     settled.'
 quick_meaning: The thanksgiving - the bread-and-cup meal at the center of the community's life; its form varied from church to church.
+use_note:
+  means: "The thanksgiving: the meal of bread and cup over which thanks is given, to which the community returns to be formed again into one body."
+  not_for:
+    - "a uniform ritual with fixed prayers"
+    - "transubstantiation or later presence-theology"
+  years: {from: 70, to: 200}
+  status: provisional
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 4, Tier 1 -
 resolved from the borderline by G07's Primary classification; CT

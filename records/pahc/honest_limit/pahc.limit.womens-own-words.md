@@ -38,6 +38,13 @@ nearest_material:
 relations:
 - type: associated-with
   target: pahc.quote.two-female-slaves-who-were-called-deaconesses
+use_note:
+  means: "Women appear taught, greeted by name and remembered as household leaders, but never in a sentence of their own, only through men's writing."
+  not_for:
+    - "a sentence written or spoken by a woman in her own words"
+    - "how a woman would have told the story of the meal or the teaching"
+  years: {from: 70, to: 200}
+  status: provisional
 ---
 This is one of three honest_limit records that share a common basis -
 see pahc.limit.enslaved-voices' trailing note. It is celled

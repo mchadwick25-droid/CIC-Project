@@ -40,6 +40,13 @@ nearest_material:
 relations:
 - type: associated-with
   target: pahc.quote.two-female-slaves-who-were-called-deaconesses
+use_note:
+  means: "Enslaved people were among these communities and two enslaved women were tortured for answers, but nothing survives in an enslaved person's own voice."
+  not_for:
+    - "what an enslaved member made of the teaching or the meal"
+    - "words spoken or written by any enslaved person"
+  years: {from: 70, to: 200}
+  status: provisional
 ---
 This is one of three honest_limit records (enslaved-voices,
 womens-own-words, ordinary-majority) giving citable addresses to the

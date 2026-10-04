@@ -57,6 +57,13 @@ modern_contrast: >
   grounded in a shared apostolic inheritance and long-serving
   presbyters' own claim to blameless service, not a command backed by
   office.
+use_note:
+  means: "The church at Rome writes an unrequested letter to Corinth, which had removed several elders, arguing they served blamelessly and should be restored."
+  not_for:
+    - "a bishop exercising jurisdiction over a neighboring diocese"
+    - "Corinth's own side of the dispute"
+  years: {from: 96, to: 96}
+  status: provisional
 ---
 Re-derived from the approved Doc_09 Story 002. The "blamelessly and
 with honour" phrase checked directly against 1 Clement 44 (cic/texts/

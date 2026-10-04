@@ -67,6 +67,13 @@ modern_contrast: >
   authority. This world's own record frames it differently: this is a
   looser, community-specific, orally-given moral teaching, adaptable in
   its wording, with no diocese or curriculum board standing behind it.
+use_note:
+  means: "Before baptism one of us is taught the Two Ways, then baptized in running water where found, with fasting beforehand for baptizer and baptized."
+  not_for:
+    - "a fixed confirmation-class curriculum set by a central authority"
+    - "a record of one named person walking this path"
+  years: {from: 70, to: 200}
+  status: provisional
 ---
 Re-derived from the approved Doc_09 Story 009. Both quotations checked
 directly against cic/texts/anf07_lactantius-apostolic-constitutions-

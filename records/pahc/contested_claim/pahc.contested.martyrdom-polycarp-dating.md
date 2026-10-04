@@ -30,6 +30,14 @@ divergence_partners:
 - pahc.source.martyrdom-polycarp
 - pahc.source.eusebius-historia-ecclesiastica
 relations: []
+use_note:
+  means: "The Martyrdom of Polycarp records his death about 155 to 156, a date derived from the text's own internal details."
+  not_for:
+    - "Eusebius's date of 167 as settled or dismissed"
+    - "a single unified contemporaneous composition"
+    - "the narrative as documentary fact"
+  years: {from: 155, to: 156}
+  status: provisional
 ---
 Carries forward pahc.core.house-church's own caution 3 (DATING
 HUMILITY) into participant-facing form for this specific text, and

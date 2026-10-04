@@ -96,6 +96,13 @@ manifestations:
 - "Polycarp addressed as bishop by Ignatius, while his own letter opens 'Polycarp, and the presbyters
   with him, to the Church of God sojourning at Philippi' - naming himself alongside the presbyters,
   not with a bishop's title"
+use_note:
+  means: "The open question of who leads once those who walked with the Lord are gone, with one overseer in some households and a council of elders in others."
+  not_for:
+    - "one pattern of leadership being called wrong or settled"
+    - "a secured monarchical office everywhere"
+  years: {from: 70, to: 200}
+  status: provisional
 ---
 Re-derived from the approved Doc_04 (G01), reclassified Supporting at
 that document's own round-1 review after an initial Primary draft

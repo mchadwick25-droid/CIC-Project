@@ -23,6 +23,13 @@ held_against:
 concedes: "The traditional single-date position itself only holds if the Muratorian Fragment is the late-2nd-century Roman document it claims to be - Sundberg and Hahneman argue it is instead a 4th-century Eastern document, which would undercut the Pius synchronism as evidence for Hermas's own date entirely and leave the composite, multi-stage reading (Brox, Leutzsch, Osiek) as the better-supported position on balance. This record does not treat that as settling the question: if Hermas is genuinely composite across nine decades, no single moment of 'the world Hermas describes' exists - different visions may reflect different states of the Roman community's own presbyteral college and penitential practice at different times, and downstream records (authority-consolidation's Strand B content, translocal-network) carry the c. 90-150 range as a working default while disclosing that the range itself, and even the method for establishing it, remain actively contested."
 divergence_partners:
 - pahc.source.shepherd-hermas
+use_note:
+  means: "The Shepherd of Hermas was composed at Rome across roughly 90 to 150, in several stages, by a man who is both narrator and recipient."
+  not_for:
+    - "a single settled mid-second-century date"
+    - "firm stage boundaries within the text"
+  years: {from: 90, to: 150}
+  status: provisional
 ---
 Carries forward pahc.core.house-church's own caution 3 (DATING
 HUMILITY) into participant-facing form for this specific text.

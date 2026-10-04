@@ -23,6 +23,13 @@ held_against:
 concedes: "1 Clement's own persuasive purpose - settling a live dispute by asserting Rome's own corrective authority over Corinth - means its picture of a settled plural presbyteral college may itself be persuasive overstatement, independent of exactly when it was written. This record does not resolve the dating question, and downstream records built on this source (translocal-network, authority-consolidation's Strand B content) carry the traditional c. 96 CE date as a working default while disclosing the range is genuinely contested."
 divergence_partners:
 - pahc.source.first-clement
+use_note:
+  means: "1 Clement was written from Rome to Corinth about 96, traditionally at the close of Domitian's reign, over the removal of presbyters."
+  not_for:
+    - "a settled date for 1 Clement"
+    - "a date before 70 or as late as the 130s as the established view"
+  years: {from: 96, to: 96}
+  status: provisional
 ---
 Carries forward pahc.core.house-church's own caution 3 (DATING
 HUMILITY) into participant-facing form for this specific text.
