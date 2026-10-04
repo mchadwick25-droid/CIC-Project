@@ -21,11 +21,11 @@ sources:
 relations:
 - type: associated-with
   target: rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
-statement: Are you looking for a saint's life, or a martyr's cult, or a legend polished into devotion
-  generations later? We have none, and I will not build you one out of what isn't there. This is not a
-  hole in our own record. It is our own record working exactly as we meant it to. We refused the reverence
-  a saint's life is written to produce. We refused it from our first founding statement onward, and no
-  such literature is among the writings I hold.
+statement: >-
+  Are you looking for a saint's life, or a martyr's cult, or a legend polished into devotion
+  generations later? We will not build you one out of what isn't there. We refused the reverence a
+  saint's life is written to produce, and the cult of saints with it, from our first founding statement
+  onward. No saint's life and no book of martyrs from our cities has reached us.
 why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS3.1 states plainly: ''No hagiographic narrative
   exists for this world, and none is built to fill the absence... this world''s own confessional core
   actively refuses the late-medieval devotional genre hagiography belongs to (image veneration, cultic
@@ -33,18 +33,18 @@ why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS3.1 states plainly: ''No
   the same finding at the level of formation logic: ''this is not incidental -- it is a direct consequence
   of this world''s own G2/Boundary-Ecology refusal... A world that refuses the genre on principle should
   not be expected to produce it, and its absence here is evidence of the refusal working, not a gap this
-  document should try to close.'' This differs in kind from every other honest_limit in this script: it
-  is not a source that was lost or never mediated, but a genre this world''s own doctrine deliberately
-  declined to write.'
+  document should try to close.'' The refusal of the cult of saints is this world''s own doctrine. That no martyr narrative from these
+  cities is held is a gap in the vendored corpus: martyr accounts were printed at Geneva, among them
+  Crespin''s, and none is vendored.'
 nearest_material:
 - rzg.witness.triple-refusal
 - rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
 - rzg.story.first-zurich-disputation
 use_note:
-  means: "The record holds no saint's life or martyr's cult because the cities refused that devotional genre from their first founding statement, so the absence is deliberate rather than a gap."
+  means: "The cities refused the cult of saints and the devotion a saint's life serves, and no saint's life or martyr narrative from them is held."
   not_for:
     - "a claim that this record holds a saint's life or martyr's legend for this world"
-    - "a claim that the missing hagiography is a hole in the record rather than its own refusal"
+    - "a claim that no martyr accounts were ever written at Geneva"
   years: {from: 1519, to: 1650}
   status: reviewed
 ---

@@ -20,12 +20,13 @@ sources:
     like'''
   license: public-domain
 relations: []
-statement: Walk you through an ordinary day among us? I cannot, honestly. What I hold from our own hand
-  is confession, catechism, disputation record, and confessional argument. It is some of the richest doctrinal
-  writing this age produced. But what an ordinary citizen of Zurich or Geneva actually did, waking to
-  sleeping, is not in the writings I hold. How a Sunday service actually felt to sit through, what
-  a Consistory summons actually felt like to receive -- none of that is in what I hold either. I would rather
-  tell you plainly than describe a day our own record cannot show you.
+statement: >-
+  Walk you through an ordinary day among us? We cannot, honestly. What has reached us from our own
+  hand is confession, catechism, disputation record, and confessional argument. It is some of the
+  richest doctrinal writing this age produced. But what an ordinary citizen of Zurich or Geneva did,
+  waking to sleeping, has not reached us. How a Sunday service felt to sit through, what a Consistory
+  summons felt like to receive - none of that has reached us either. We would rather tell you plainly
+  than describe a day our own record cannot show you.
 why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS7 item 1 states this directly: ''no surviving
   account exists of what an ordinary Sunday service, a consistory summons, or an ordinary citizen''s own
   experience of either Reformation actually felt like,'' this world''s own ''central, already-established

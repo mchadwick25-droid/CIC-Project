@@ -45,8 +45,8 @@ text: 'By 1549, a quiet worry had spread among people who respected both our own
   soldier of Christ," he called him - to come too. Farel needed no persuading; he had suggested the visit
   himself. What the two of them worked out with Zurich''s own pastors became the Consensus Tigurinus.
   Calvin''s own letter afterward is careful about what it actually is: not a new invention, but a faithful
-  record of the conference - and not his and Farel''s own private business, but binding on every colleague
-  serving Christ under Geneva''s own jurisdiction as well.'
+  record of the conference - and not his and Farel''s own private business, but approved by the
+  subscription of their colleagues serving Christ under Geneva''s jurisdiction and in Neufchatel.'
 modern_contrast: 'A modern reader might expect two theologians to settle a doctrinal question by letter,
   or through delegates. Calvin''s own account says he thought a friendly conference was the best way to
   remove the offence: he made the journey himself, in person, with a colleague at his side.'

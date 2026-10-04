@@ -19,13 +19,14 @@ sources:
     outside the vendored corpus'
   license: public-domain
 relations: []
-statement: 'One woman in our own record wrote in public. Marie Dentiere wrote in defense of our own reform
-  at Geneva. A work of 1539 came out without her name, and in 1561 she signed a preface. What she actually
-  argued -- her own words, her own reasoning, in full -- has not reached us. I cannot tell you from my
-  own record what it cost her. I can tell you she wrote. I cannot yet show you what she said.'
+statement: >-
+  One woman in our own record wrote in public. Marie Dentiere wrote in defense of our own reform at
+  Geneva. A work of 1539 came out without her name, and in 1561 she signed a preface. What she
+  argued - her own words, her own reasoning, in full - has not reached us. We cannot tell you from our
+  own record what it cost her. We can tell you she wrote. We cannot yet show you what she said.
 why_sources_cannot_answer: 'Doc_02_Source_Ecology.md SS6 states this world''s own gender finding directly:
-  Marie Dentiere wrote and was prosecuted for it, but ''her own argument is not reconstructed beyond the bare fact of her having written and
-  been prosecuted for it'' -- her own works are Source_Registry.md row 17, outside the vendored corpus. Doc_07 SS7
+  Marie Dentiere published in 1539 (anonymously; the work was seized and its printer prosecuted) and
+  signed a preface in 1561, and her own argument cannot be reconstructed in her own words -- her own works are Source_Registry.md row 17, outside the vendored corpus. Doc_07 SS7
   carries this forward as a standing, disclosed gap: a genuine Article 20 marginalized-voice case, not
   merely an acquisition gap like an unvendored confession or catechism, since the person is
   named even though her own words are not.'
