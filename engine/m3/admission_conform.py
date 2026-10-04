@@ -33,6 +33,8 @@ def load_reports(reports_dir: Path = REPORTS_DIR) -> list[dict]:
     for path in sorted(reports_dir.rglob("live-admission-report*.json")):
         doc = json.loads(path.read_text())
         settings = doc.get("run_settings") or {}
+        if settings.get("probe_limit"):
+            continue
         hashes = settings.get("package_manifest_hash") or {}
         compiled = settings.get("package_content_hash") or {}
         for world, result in (doc.get("worlds") or {}).items():
