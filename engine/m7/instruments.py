@@ -427,18 +427,23 @@ def canon_candidate_asks(s: AuditSession) -> list[str]:
     return asks
 
 
-def run_all(s: AuditSession, names: dict[str, list[str]] | None = None) -> dict:
+def run_all(s: AuditSession, names: dict[str, list[str]] | None = None,
+            repositories: dict[str, dict[str, dict]] | None = None) -> dict:
     """Every phase-1 instrument over one session. The per-session audit
     document's content half (report.py owns the file shapes). `names` maps
     world_key -> that world's own names (representative, display, card)
-    for the register_frame self-reference detector; the CLI builds it from
-    the registry."""
+    for the register_frame self-reference detector; `repositories` maps
+    world_key -> its compiled records by id, for the report-only turn checks
+    run here after the conversation (engine.m7.offline_checks). The CLI
+    builds both from the registry."""
+    from engine.m7.offline_checks import offline_checks
+
     reg_findings, reg_metrics = register_mechanical(s)
     findings = (
         unread_outputs(s) + isolation(s) + reg_findings + ask_coverage(s)
         + repetition(s) + cross_voice_echo(s) + safety_review(s)
         + register_frame(s, names) + encounter_openings(s) + governance(s)
-        + guard_proximity(s)
+        + guard_proximity(s) + offline_checks(s, repositories or {})
     )
     return {
         "session_id": s.session_id,
