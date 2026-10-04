@@ -433,6 +433,8 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
     @app.post("/api/admin/deeper/void")
     def void_payment(req: VoidRequest, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
+        if not runtime.meter.payment_minted(req.payment_id):
+            raise HTTPException(status_code=404, detail="no codes were made for that payment; nothing was changed")
         return {"payment_id": req.payment_id, "voided": apply_refund(runtime, req.payment_id)}
 
     @app.post("/api/admin/deeper/funds")

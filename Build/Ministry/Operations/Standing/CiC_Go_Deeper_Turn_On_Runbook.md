@@ -117,9 +117,9 @@ Do the first step that stops the harm, then stop. The order is from the lightest
 1. **Stop selling, and pause codes.** For any doubt about money or codes, do both together: deactivate every Payment Link in Stripe (so nothing new is sold, even from an old link or bookmark), then pause codes (`POST /api/admin/deeper/pause`, admin login; effective on the next request). The free path is untouched; a participant with a code sees the paused line.
 2. **Close the site.** Set `enabled: false` in `go-deeper-config.js`, remove the Go Deeper link and clear `PAYMENT_LINK`, and merge to `main`. Payment Links must already be deactivated (step 1).
 3. **Turn the app off.** Rebuild with `VITE_DEEPER_ENABLED` unset and deploy. The panel and the code header go away.
-4. **Turn the engine module off.** Only with every Payment Link deactivated and any sale from the last hours reconciled (the daily reconciliation gap is zero). Unset `CIC_DEEPER_ENABLED` and deploy. Every deeper route is gone, no file is opened, and every conversation gets the free grant. The meter and claim files stay on disk; do not delete them.
+4. **Turn the engine module off.** Only with every Payment Link deactivated, any sale from the last hours reconciled (the daily reconciliation gap is zero), **and the owed snapshot exported and every refunded payment voided (Part 7)**, because both routes are gone afterwards. Unset `CIC_DEEPER_ENABLED` and deploy. Every deeper route is gone, no file is opened, and every conversation gets the free grant. The meter and claim files stay on disk; do not delete them.
 
-After any rollback past step 1, work out who is owed (Part 7) before closing the incident. Reverting the promotion PR with `git revert` is the permanent fix (`CiC_Incident_Rollback_Runbook.md`).
+Before step 4, work out who is owed (Part 7); do not leave it until after. Reverting the promotion PR with `git revert` is the permanent fix (`CiC_Incident_Rollback_Runbook.md`).
 
 ## Part 7 — Balances owed at a switch-off
 
@@ -132,19 +132,27 @@ What is refunded, and whether a refund is whole or partial, is the refund policy
 - **A partial refund is not seen.** The webhook ignores a partial refund (it counts it as `partial_refunds_ignored`) and the code stays live. A refund made while the module is off sends the module no event at all.
 - **A balance stays live until it is voided.** A refunded payment whose code was never voided still shows in the owed report, can still be spent, and could be refunded a second time. If the module is switched back on, the code works again.
 
-So at a switch-off: export the owed report as a snapshot before the engine goes off, settle every balance in Stripe against that snapshot (not against the live list afterwards), and for every refunded payment (whole or partial) void its codes with `POST /api/admin/deeper/void` and `{"payment_id": "pi_..."}`. That route does exactly what a full-refund event does: voids the codes, takes the money out of the door's sum, and counts it in the reconciliation. It is safe to repeat. Void before the engine is turned off, because the route does not exist afterwards.
+So at a switch-off, **before the engine goes off**:
 
-Until every refunded payment is voided, the written rule is that **the module stays off** and is not turned back on.
+1. Export the owed report as a snapshot.
+2. Settle every balance in Stripe against that snapshot, not against the live list afterwards.
+3. For a refund of the whole remaining balance, void the payment's codes with `POST /api/admin/deeper/void` and `{"payment_id": "pi_..."}`. The route does what a full-refund event does: voids the codes, takes the money out of the door's sum, and counts it in the reconciliation. It voids everything the payment made, so it is only for when the whole remaining balance is refunded. Any other partial refund is Mark's policy to decide; the module has no way to void part of a balance.
+4. Check each void against the snapshot. The route answers 404 for a payment that made no codes (a mistyped id changes nothing and records nothing), and `voided: 0` for one already voided. Confirm the payment's row is gone from `GET /api/admin/deeper/owed` afterwards.
+
+The routes do not exist once the engine module is off. If a void is found to be missing after that, switch the engine module on alone to do it: every Payment Link deactivated, the app and site flags off, codes paused, then void, then switch it off again.
+
+Until every refunded payment is voided, the written rule is that **the module is not turned back on for sales**. A switch-on only to void is allowed under the conditions above.
 
 ## Part 8 — Removal checklist (if Go Deeper is retired)
 
-1. Roll back through step 4 above and keep the module off.
-2. Export the owed report as a snapshot and settle every balance per the refund policy; void every refunded payment's codes (Part 7).
-3. Deactivate the Payment Links and delete the webhook endpoint in Stripe.
-4. Take a last backup of the meter file, and hold it for the retention period the privacy page states.
-5. Remove the secrets (`CIC_DEEPER_WEBHOOK_SECRET`) and the Go Deeper settings from Render.
-6. Remove the Go Deeper pages and the door line from the site, and the privacy page's Go Deeper paragraph.
-7. Only then delete the module's code in a reviewed pull request. The proofs in CI named for the module go with it.
+1. Roll back through step 3 above: Payment Links deactivated, codes paused, site and app off.
+2. Export the owed report as a snapshot, settle every balance per the refund policy, and void every wholly refunded payment's codes (Part 7).
+3. Roll back step 4 and keep the module off.
+4. Delete the webhook endpoint in Stripe.
+5. Take a last backup of the meter file, and hold it for the retention period the privacy page states.
+6. Remove the secrets (`CIC_DEEPER_WEBHOOK_SECRET`) and the Go Deeper settings from Render.
+7. Remove the Go Deeper pages and the door line from the site, and the privacy page's Go Deeper paragraph.
+8. Only then delete the module's code in a reviewed pull request. The proofs in CI named for the module go with it.
 
 ## Part 9 — What to watch in the first weeks
 

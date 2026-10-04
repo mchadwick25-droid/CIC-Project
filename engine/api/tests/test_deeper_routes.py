@@ -765,12 +765,21 @@ def test_the_void_route_voids_the_codes_the_money_and_the_balance_owed(http, run
     assert runtime.meter.reconciliation()[0]["refunds_applied"] == 1
 
 
-def test_a_voided_payment_is_not_voided_twice_and_a_late_completion_mints_nothing(http, runtime):
+def test_a_payment_with_no_codes_is_not_found_and_nothing_is_recorded(http, runtime):
+    body = http.post("/api/admin/deeper/void", json={"payment_id": "pi_mistyped"}, headers=admin())
+    assert body.status_code == 404
+    assert not runtime.meter.payment_voided("pi_mistyped")
+
+
+def test_a_repeated_void_changes_nothing_and_a_late_completion_mints_nothing(http, runtime):
     runtime.meter.mint("single", 25, "pi_twice")
-    http.post("/api/admin/deeper/void", json={"payment_id": "pi_twice"}, headers=admin())
+    first = http.post("/api/admin/deeper/void", json={"payment_id": "pi_twice"}, headers=admin()).json()
     again = http.post("/api/admin/deeper/void", json={"payment_id": "pi_twice"}, headers=admin()).json()
-    assert again["voided"] == 0
-    assert runtime.meter.payment_voided("pi_twice")
+    assert (first["voided"], again["voided"]) == (1, 0)
+    assert runtime.meter.owed() == []
+    assert post_event(http, completed(payment="pi_twice")).status_code == 200
+    assert runtime.meter.reconciliation()[0]["codes_minted"] == 1
+    assert runtime.meter.reconciliation()[0]["payments_voided_first"] == 1
 
 
 def test_the_webhook_refund_and_the_admin_void_do_the_same_thing(http, runtime):
