@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.socrates-he
-  locus: IV.29 (npnf202 lines 14191-14218)
+  locus: IV.29 (npnf202 lines 14193-14214)
   license: public-domain
 text: >-
   A certain Ursinus, a deacon of that church, had been nominated among others when the election of a

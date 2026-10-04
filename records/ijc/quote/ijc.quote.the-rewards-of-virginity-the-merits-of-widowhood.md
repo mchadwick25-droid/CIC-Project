@@ -13,7 +13,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Ambrose's own teaching, in a letter of about 396 to the divided church at Vercellae, written against two monks who had abandoned the ascetic life - so the ranking is the argument, not an aside. He is a bishop writing to persuade, and the marriage he ranks third is the state most of his hearers were in.
+    Documented as Ambrose's own teaching, in a letter of about 396 to the divided church at Vercellae, which also argues against two monks who had abandoned the ascetic life - so the ranking is the argument, not an aside. He is a bishop writing to persuade, and the marriage he ranks third is the state most of his hearers were in.
 sources:
 - source_id: ijc.source.ambrose-epistles
   locus: >-

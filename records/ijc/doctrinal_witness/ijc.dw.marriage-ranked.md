@@ -38,7 +38,7 @@ positions:
 - the same argument ranks it below chosen continence, "only in the Lord" marking the sole real
   restriction placed on it
 - This is teaching about where marriage stands, argued by a teacher. It does not describe any real
-  couple's home life, and no household's own account of marriage survives here.
+  couple's home life, and no household's own account of marriage survives in this world's record.
 tensions:
 - the ranking is asymmetric and ascetic in its whole cast (a widows-and-virgins treatise, arguing
   virginity's superiority) - it is not a neutral treatment of marriage on its own terms

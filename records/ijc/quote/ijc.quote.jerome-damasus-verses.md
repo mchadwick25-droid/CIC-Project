@@ -36,6 +36,8 @@ retrieval:
   - "participant asks how the martyrs were remembered or marked"
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
+- {type: associated-with, target: ijc.term.primatus}
+- {type: associated-with, target: ijc.term.martyrium}
 use_note:
   means: "Jerome, once Damasus's secretary, records that the Roman bishop was known for publishing many short works in verse and died under Theodosius near eighty."
   not_for:

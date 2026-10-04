@@ -26,7 +26,7 @@ retrieval:
   - the question is about martyr devotion broadly - a fuller devotional treatment belongs to another world's lexicon, not this one
 relations:
 - type: associated-with
-  target: ijc.quote.a-fine-talent-for-making-verses
+  target: ijc.quote.jerome-damasus-verses
 - {type: associated-with, target: ijc.term.primatus}
 plain_meaning: 'A martyr''s shrine: where the dead who kept faith under persecution are honored. In Rome''s hands in
   this window, that honor also spoke for the see''s own standing.'
