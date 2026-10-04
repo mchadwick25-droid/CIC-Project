@@ -122,6 +122,31 @@ describe('GoDeeperPanel', () => {
     expect(container.textContent).not.toContain('ABCD');
   });
 
+  it('does not bring a code back on screen when the panel opens itself after it was closed', async () => {
+    const { GoDeeperPanel, deeper } = await load(true);
+    deeper.saveCode(CODE);
+    const { container } = render(<GoDeeperPanel />);
+    openPanel();
+    fireEvent.click(screen.getByRole('button', { name: 'Show my code' }));
+    expect(container.textContent).toContain('ABCD 2345');
+    fireEvent.click(screen.getByRole('button', { name: 'Close' }));
+    act(() => deeper.noteLimit());
+    expect(screen.getByRole('complementary', { name: 'Go deeper' })).toBeInTheDocument();
+    expect(container.textContent).not.toContain('ABCD');
+    expect(screen.getByRole('button', { name: 'Show my code' })).toBeInTheDocument();
+  });
+
+  it('returns focus to the Go deeper control when the panel closes', async () => {
+    const { GoDeeperPanel } = await load(true);
+    render(<GoDeeperPanel />);
+    openPanel();
+    fireEvent.click(screen.getByRole('button', { name: 'Close' }));
+    expect(screen.getByRole('button', { name: 'Go deeper' })).toHaveFocus();
+    openPanel();
+    fireEvent.keyDown(window, { key: 'Escape' });
+    expect(screen.getByRole('button', { name: 'Go deeper' })).toHaveFocus();
+  });
+
   it('removes the code in use', async () => {
     const { GoDeeperPanel, deeper } = await load(true);
     deeper.saveCode(CODE);

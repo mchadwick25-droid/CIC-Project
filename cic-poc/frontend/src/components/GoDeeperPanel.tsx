@@ -4,7 +4,7 @@
  * when the person asks, never on its own. Shown only when the app is built
  * with the module on.
  */
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { acceptClaim, addCode, closePanel, declineClaim, deeperEnabled, formatCode, getCodeUrl, openGetCode, openPanel, removeCode, useDeeper } from '../lib/deeper';
 import { deeperCopy } from '../lib/deeperCopy';
 
@@ -15,6 +15,17 @@ export function GoDeeperPanel() {
   const [text, setText] = useState('');
   const [bad, setBad] = useState(false);
   const [revealed, setRevealed] = useState(false);
+  const toggleRef = useRef<HTMLButtonElement>(null);
+  const wasOpen = useRef(false);
+
+  // A code on screen never outlives the panel: closing hides it, so a panel that
+  // opens itself later at a limit starts with the code out of sight.
+  useEffect(() => {
+    if (!panelOpen) setRevealed(false);
+    // Closing returns the person to the control that opened it.
+    if (wasOpen.current && !panelOpen) toggleRef.current?.focus();
+    wasOpen.current = panelOpen;
+  }, [panelOpen]);
 
   useEffect(() => {
     if (!panelOpen) return undefined;
@@ -51,7 +62,7 @@ export function GoDeeperPanel() {
             {low ? ` ${deeperCopy.low}` : ''}
           </span>
         )}
-        <button type="button" aria-expanded={panelOpen} aria-controls="go-deeper-panel" onClick={panelOpen ? closePanel : openPanel}>
+        <button ref={toggleRef} type="button" aria-expanded={panelOpen} aria-controls="go-deeper-panel" onClick={panelOpen ? closePanel : openPanel}>
           {deeperCopy.open}
         </button>
       </div>

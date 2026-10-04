@@ -3,7 +3,9 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 const NOTE = { key: 'spent', text: 'A line.' };
 
-async function load() {
+type Reply = { facilitator: unknown; limit_note: unknown };
+
+async function load(interview: Reply = { facilitator: { kind: 'limit', text: 'Paused.' }, limit_note: NOTE }, table: Reply = { facilitator: [{ kind: 'limit', text: 'Paused.' }], limit_note: NOTE }) {
   vi.resetModules();
   vi.stubEnv('VITE_DEEPER_ENABLED', 'on');
   vi.doMock('../lib/api', async () => {
@@ -13,8 +15,8 @@ async function load() {
       createSession: vi.fn().mockResolvedValue({ session_id: 's', session_code: 'c' }),
       createTableSession: vi.fn().mockResolvedValue({ session_id: 's', session_code: 'c', world_keys: ['a', 'b'] }),
       getTranscript: vi.fn().mockResolvedValue({ transcript: [], closed: false, mode: 'interview', world_keys: null, round_open: false }),
-      sendMessage: vi.fn().mockResolvedValue({ facilitator: { kind: 'limit', text: 'Paused.' }, voice: null, limit_note: NOTE }),
-      sendTableMessage: vi.fn().mockResolvedValue({ facilitator: [{ kind: 'limit', text: 'Paused.' }], voice: null, limit_note: NOTE, round_open: false }),
+      sendMessage: vi.fn().mockResolvedValue({ ...interview, voice: null }),
+      sendTableMessage: vi.fn().mockResolvedValue({ ...table, voice: null, round_open: false }),
     };
   });
   const deeper = await import('../lib/deeper');
@@ -54,5 +56,29 @@ describe('the panel opens at a limit', () => {
       await result.current.send('hello');
     });
     expect(deeper.deeperSnapshot().panelOpen).toBe(true);
+  });
+
+  it('stays closed when an interview turn that is a safety check-in carries no limit note', async () => {
+    const { deeper, useConversation } = await load({ facilitator: { kind: 'check_in', text: 'Are you all right?' }, limit_note: null });
+    const { result } = renderHook(() => useConversation());
+    await act(async () => {
+      await result.current.begin('fix');
+    });
+    await act(async () => {
+      await result.current.send('hello');
+    });
+    expect(deeper.deeperSnapshot().panelOpen).toBe(false);
+  });
+
+  it('stays closed when a Table round that is a safety turn carries no limit note', async () => {
+    const { deeper, useTable } = await load(undefined, { facilitator: [{ kind: 'check_in', text: 'Are you all right?' }], limit_note: null });
+    const { result } = renderHook(() => useTable());
+    await act(async () => {
+      await result.current.convene(['a', 'b']);
+    });
+    await act(async () => {
+      await result.current.send('hello');
+    });
+    expect(deeper.deeperSnapshot().panelOpen).toBe(false);
   });
 });

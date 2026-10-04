@@ -1084,6 +1084,7 @@ button {
 }
 
 .go-deeper__form input {
+  min-height: 44px;
   min-width: 0;
   width: 15rem;
   max-width: 100%;
