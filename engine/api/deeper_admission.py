@@ -205,14 +205,22 @@ class Admission:
             if self._reservation is not None:
                 meter.settle(self._reservation, voiced)
                 self._reservation = None
-            if self._refusal is not None:
-                meter.measure(f"refused_{self._refusal}")
-                self._refusal = None
             info = meter.status(self._code) if self._code else None
             self.remaining = info.remaining if info is not None and info.status != "void" else None
         except Exception:  # noqa: BLE001
             logger.exception("deeper settle failed")
+        self._count_refusal()
         return self.remaining
+
+    def _count_refusal(self) -> None:
+        """Counts a refused turn once, after everything else has settled; a count that fails changes nothing."""
+        reason, self._refusal = self._refusal, None
+        if reason is None:
+            return
+        try:
+            self._runtime.meter.measure(f"refused_{reason}")
+        except Exception:  # noqa: BLE001
+            logger.exception("deeper refusal could not be counted")
 
 
 def new_admission(runtime: DeeperRuntime | None, request: Request, *, session_id: str, free_cap: int, seats: int = 1) -> Admission | None:

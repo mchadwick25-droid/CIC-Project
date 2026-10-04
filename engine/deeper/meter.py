@@ -240,8 +240,8 @@ class Meter:
                     " codes_minted = codes_minted + ? WHERE day = ?",
                     (count, today),
                 )
-                self._add(f"codes_{kind}", count, today)
-                self._add("tokens_sold", tokens * count, today)
+                self._count(f"codes_{kind}", count, today)
+                self._count("tokens_sold", tokens * count, today)
                 self._conn.execute("COMMIT")
             except BaseException:
                 self._conn.execute("ROLLBACK")
@@ -336,11 +336,11 @@ class Meter:
             ).rowcount
             if not updated:
                 return None
-            self._add("tokens_spent", reservation.count, today.isoformat())
             day, count = self._day_used.get(reservation.code_hash, (today.isoformat(), 0))
             self._day_used[reservation.code_hash] = (
                 (day, count + reservation.count) if day == today.isoformat() else (today.isoformat(), reservation.count)
             )
+            self._count("tokens_spent", reservation.count, today.isoformat())
             row = self._row(reservation.code_hash)
             return row[2] - row[3]
 
@@ -423,6 +423,13 @@ class Meter:
             " ON CONFLICT (day, measure) DO UPDATE SET total = total + excluded.total",
             (day, measure, amount),
         )
+
+    def _count(self, measure: str, amount: int, day: str) -> None:
+        """A measure written beside real work: if it fails, the work stands."""
+        try:
+            self._add(measure, amount, day)
+        except Exception:  # noqa: BLE001 - a count must never undo or block a purchase or a spend
+            logger.exception("could not count %s", measure)
 
     def measure(self, name: str, amount: int = 1) -> None:
         """Adds to today's total for one measure. The totals are one number per

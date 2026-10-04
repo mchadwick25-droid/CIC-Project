@@ -446,3 +446,30 @@ def test_purge_drops_measures_after_ninety_days(meter, clock):
     meter.measure("refused_spent")
     meter.purge()
     assert [row["day"] for row in meter.measures(400)] == ["2027-01-20"]
+
+
+def test_a_failing_measure_never_loosens_the_group_ceiling(meter, monkeypatch):
+    def down(*_a, **_k):
+        raise RuntimeError("daily table down")
+
+    monkeypatch.setattr(meter, "_add", down)
+    (code,) = meter.mint("group", 100, "pi_ceiling", daily_ceiling=3)
+    granted = 0
+    for _ in range(8):
+        admission = meter.reserve(code)
+        if admission.ok:
+            meter.settle(admission.reservation, True)
+            granted += 1
+    assert granted == 3
+    assert meter.status(code).remaining == 97
+
+
+def test_a_failing_measure_does_not_undo_a_purchase(meter, monkeypatch):
+    def down(*_a, **_k):
+        raise RuntimeError("daily table down")
+
+    monkeypatch.setattr(meter, "_add", down)
+    (code,) = meter.mint("single", 25, "pi_bought")
+    assert meter.status(code).remaining == 25
+    assert meter.payment_minted("pi_bought")
+    assert meter.reconciliation()[0]["codes_minted"] == 1

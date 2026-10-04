@@ -1344,3 +1344,16 @@ def test_a_turn_is_counted_when_it_ends_not_when_it_is_decided(runtime):
     admission.finish(False)
     admission.finish(False)
     assert _refusals(runtime) == {"free_rounds_done": 1}
+
+
+def test_a_refusal_that_cannot_be_counted_still_reports_what_the_code_has_left(runtime, monkeypatch):
+    from engine.api.deeper_admission import Admission
+
+    def down(*_a, **_k):
+        raise RuntimeError("daily table down")
+
+    monkeypatch.setattr(runtime.meter, "measure", down)
+    code = code_with(runtime, 5)
+    admission = Admission(runtime, code, session_id="s", free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
+    admission.provider(runtime.token_rates.free_rounds, False)
+    assert admission.finish(False) == 5
