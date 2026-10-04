@@ -51,6 +51,14 @@ tensions:
 relations:
 - type: associated-with
   target: hal.quote.a-follower-of-cicero-and-not-of-christ
+use_note:
+  means: "This witness holds that the restless mind was met with psalms, fixed prayer, work and study rather than promised calm, and that forgiveness often failed."
+  not_for:
+    - "a claim that Jerome reached inner peace or forgave his enemies"
+    - "a claim that the ascetic regimen was always safe; it is tied to Blaesilla's death"
+    - "a promise that prayer under grief brought answers"
+  years: {from: 384, to: 411}
+  status: provisional
 ---
 F4-personal answer-ground. The forgiveness answer deliberately leads with
 the world's own failure (the unrepaired Rufinus rupture) rather than

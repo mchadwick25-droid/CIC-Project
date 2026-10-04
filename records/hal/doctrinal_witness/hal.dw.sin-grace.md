@@ -54,6 +54,14 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.quote.let-her-be-brought-up-in-a-monastery
+use_note:
+  means: "This witness holds that no one lives without sin, that grace is needed in every act, that baptism washes inherited sin, and that grace and works belong together."
+  not_for:
+    - "a claim that this world held a finished doctrine of inherited guilt"
+    - "a claim that this world taught transubstantiation or any worked-out eucharistic theory"
+    - "a claim that this world taught salvation by faith alone or by works alone"
+  years: {from: 403, to: 417}
+  status: provisional
 ---
 F1-translational answer-ground. The eucharistic thinness is real and
 stated; no invented sacramental detail. The anti-Pelagian position is

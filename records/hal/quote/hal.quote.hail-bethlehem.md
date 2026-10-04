@@ -29,6 +29,14 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks why they settled where they did and what the place meant to them"
+use_note:
+  means: "Jerome's 404 epitaph for Paula puts in her mouth a greeting to Bethlehem as house of bread, where the Bread from heaven was born."
+  not_for:
+    - "Paula's exact words; they are Jerome's report of her cry"
+    - "a poetic coinage; 'house of bread' is the Hebrew meaning of the place name"
+    - "a claim that she spoke these words when dying; they belong to her arrival around 386"
+  years: {from: 386, to: 404}
+  status: provisional
 ---
 Verified verbatim against the vendored npnf206 (Ep. 108 sec. 10;
 the file's editorial footnote on the Hebrew meaning of Bethlehem elided

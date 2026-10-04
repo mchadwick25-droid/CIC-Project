@@ -39,6 +39,14 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.dw.sin-grace
+use_note:
+  means: "Jerome advises Laeta, around 403, to raise her infant daughter in a monastery among virgins, ignorant of the world and living the angelic life."
+  not_for:
+    - "a claim that this plan was carried out as written; it is prescription"
+    - "a claim that the girl chose this life; it was chosen for her as an infant"
+    - "a description of how all children in this world were raised"
+  years: {from: 403, to: 403}
+  status: provisional
 ---
 Opened for F1-T. hal.dw.sin-grace cites this letter for "a child raised toward
 baptism and consecration" and had nothing quotable behind it.

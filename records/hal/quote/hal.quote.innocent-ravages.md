@@ -35,6 +35,14 @@ retrieval:
   retrieve_when:
   - "participant asks whether they were ever attacked, and who intervened"
   - "participant asks what happened to the women of the household in a raid"
+use_note:
+  means: "Pope Innocent's letter to John of Jerusalem reports Eustochium and the younger Paula's complaint of murders, fires and outrages in their church's district, perpetrator unnamed."
+  not_for:
+    - "the women's own account; their letter is lost and survives only in Innocent's summary"
+    - "a claim identifying who led or carried out the attack"
+    - "a claim that this Paula is the elder Paula, who died in 404"
+  years: {from: 416, to: 417}
+  status: provisional
 ---
 Verified verbatim against the vendored npnf206 (Ep. 137, div
 v.CXXXVII; 'Paula' here is the younger Paula, Eustochium's niece, per the

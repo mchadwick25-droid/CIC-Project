@@ -51,6 +51,13 @@ tensions:
 relations:
 - type: associated-with
   target: hal.quote.i-gather-the-rose-from-the-thorns
+use_note:
+  means: "This witness holds that the community received its sacraments and scriptures as apostolic but defended its new ascetic life from scripture's patterns, admitting its novelty."
+  not_for:
+    - "a claim that monasticism descended institutionally from the apostles"
+    - "a claim that the scriptural defence of the ascetic ranking went uncontested in its own day"
+  years: {from: 384, to: 412}
+  status: provisional
 ---
 F4-evidential answer-ground. The novelty admission is Ep. 127 sec. 5's own
 testimony ('In those days no highborn lady at Rome had made profession of

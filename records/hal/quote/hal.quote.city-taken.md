@@ -32,6 +32,13 @@ retrieval:
   retrieve_when:
   - "participant asks what happened when Rome fell and how they took the news"
   - "participant asks how they wrote about catastrophe"
+use_note:
+  means: "Jerome, dictating in 412 at Bethlehem, grieves that Rome, which had taken the whole world, was itself taken in 410, with famine before the sword."
+  not_for:
+    - "an eyewitness account; Jerome heard of the sack second-hand in Bethlehem"
+    - "a precise historical account of the famine or the casualties of the sack"
+  years: {from: 410, to: 412}
+  status: provisional
 ---
 Verified verbatim against the vendored npnf206 (Ep. 127 sec.
 12, div v.CXXVII; one editorial footnote insertion in the file - 'By

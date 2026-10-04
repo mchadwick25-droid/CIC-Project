@@ -49,6 +49,14 @@ tensions:
 relations:
 - type: associated-with
   target: hal.quote.she-put-on-sackcloth
+use_note:
+  means: "This witness holds, through Fabiola's story, that separation was accepted, remarriage while a spouse lived was a fault for both sexes, and penance restored fully."
+  not_for:
+    - "a general canon or ruling rather than one remembered case"
+    - "a claim that those who questioned Fabiola's remarriage agreed with Jerome's account"
+    - "a claim that divorced people were excluded from the church"
+  years: {from: 382, to: 400}
+  status: provisional
 ---
 F6-translational identity-collision answer-ground (the marriage-ending
 question). The equal-law point is Ep. 77 sec. 3's own argument

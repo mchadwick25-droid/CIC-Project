@@ -60,6 +60,14 @@ relations:
   target: hal.figure.augustine
 - type: tension-with
   target: hal.gravity.hebraica-veritas
+use_note:
+  means: "Augustine, in the City of God, praises Jerome's translation from the Hebrew as learned and faithful yet holds that the churches prefer the Septuagint's authority."
+  not_for:
+    - "a claim that Jerome answered this; it was finished after his death"
+    - "evidence of what Jerome himself thought"
+    - "a verdict that Jerome's translation was inaccurate; Augustine concedes its fidelity"
+  years: {from: 390, to: 420}
+  status: provisional
 ---
 Verified verbatim against the vendored file at line 36715.
 DISCLOSED: the NPNF prints a bracketed editorial note by Philip Schaff

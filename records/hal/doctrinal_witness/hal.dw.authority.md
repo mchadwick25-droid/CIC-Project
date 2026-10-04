@@ -48,6 +48,14 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.quote.rufinus-writes-because-rome-is-where-the-news-is
+use_note:
+  means: "This witness holds that disputed belief here went before overlapping authorities with no single deciding court, and that Nicaea was received as settled faith."
+  not_for:
+    - "a claim that a council or the bishop of Rome simply decided doctrine"
+    - "eyewitness testimony about what happened inside the council of Nicaea"
+    - "a settled judgment on whether doctrine or personality decided the Origenist dispute"
+  years: {from: 393, to: 403}
+  status: provisional
 ---
 F1-evidential answer-ground. The how-do-we-know honesty for the world's
 own dispute lives at hal.contested.origenist-substance (related contest;

@@ -49,6 +49,13 @@ tensions:
   record (Paula at the manger reaches us in his hearing, his telling)
 - this world's Christ-devotion is inseparable from place in a way other worlds' is not -
   a strength of testimony and a limit of generality at once
+use_note:
+  means: "This witness holds that Jesus was God the Word made flesh at Bethlehem, near whose cave the community lived, and that his poverty called them to renunciation."
+  not_for:
+    - "a claim that Jerome's exhortations and epitaphs show the whole community's inner devotion"
+    - "a claim that this place-bound devotion was shared by all Christians of the period"
+  years: {from: 384, to: 404}
+  status: provisional
 ---
 The Center cell's answer-ground. Companion quotes: hal.quote.eyes-of-faith,
 hal.quote.hail-bethlehem (both Ep. 108 sec. 10, verified verbatim);
