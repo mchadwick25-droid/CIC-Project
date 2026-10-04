@@ -30,6 +30,7 @@ from engine.api.deeper_ops import DeeperOps, load_ops
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
 from engine.deeper.config import DeeperConfig
+from engine.deeper import meter as meter_module
 from engine.deeper.meter import KINDS, AlreadyMinted, Meter, PaymentVoided
 from engine.deeper.free import DailyFreeAllowance
 from engine.deeper.tokens import TokenRates
@@ -94,10 +95,28 @@ class DeeperRuntime:
     facilitator_only_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
     paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
     free: DailyFreeAllowance | None = None
+    gift_links: frozenset = frozenset()
 
     def __post_init__(self):
         if self.free is None:
             self.free = DailyFreeAllowance(self.token_rates.free_daily)
+
+
+def parse_gift_links(raw: str | None, products: dict[str, Product]) -> frozenset:
+    """CIC_DEEPER_GIFT_LINKS: a JSON list of Payment Link ids that take gifts. A
+    link is a gift or a go-deeper product, never both, so a purchase is never
+    counted twice."""
+    if not raw:
+        return frozenset()
+    try:
+        links = json.loads(raw)
+    except ValueError as exc:
+        raise DeeperConfigError("CIC_DEEPER_GIFT_LINKS is not valid JSON") from exc
+    if not isinstance(links, list) or not all(isinstance(link, str) and link for link in links):
+        raise DeeperConfigError("CIC_DEEPER_GIFT_LINKS must be a list of Payment Link ids")
+    if set(links) & set(products):
+        raise DeeperConfigError("a Payment Link cannot be both a gift link and a go-deeper product")
+    return frozenset(links)
 
 
 def parse_products(raw: str | None) -> dict[str, Product]:
@@ -160,15 +179,39 @@ def payment_id_of(event: dict) -> str | None:
     return value if isinstance(value, str) and value else None
 
 
+def _record_funds(runtime: DeeperRuntime, kind: str, session: dict) -> None:
+    """The money a paid checkout brought in, for the door's ceiling. Kept apart
+    from the codes: the amount and the payment id, nothing about the buyer."""
+    payment = payment_id_of({"data": {"object": session}})
+    cents = session.get("amount_total")
+    if session.get("currency") != "usd":
+        logger.error("paid checkout was not in US dollars; not counted toward the door")
+        return
+    if payment is None or isinstance(cents, bool) or not isinstance(cents, int) or cents <= 0:
+        logger.error("paid checkout carried no payment id or amount; not counted toward the door")
+        return
+    try:
+        runtime.meter.add_funds(kind, cents, payment)
+    except ValueError:
+        logger.error("paid checkout amount out of range; not counted toward the door")
+
+
 def handle_event(runtime: DeeperRuntime, event: dict) -> str:
     kind = event.get("type")
     obj = _object(event)
     if kind in COMPLETED_EVENTS:
-        product = runtime.products.get(obj.get("payment_link"))
+        link = obj.get("payment_link")
+        if link in runtime.gift_links:
+            if obj.get("payment_status") != "paid":
+                return "ignored_unpaid"
+            _record_funds(runtime, "gift", obj)
+            return "gift_counted"
+        product = runtime.products.get(link)
         if product is None:
             return "ignored_not_ours"
         if obj.get("payment_status") != "paid":
             return "ignored_unpaid"
+        _record_funds(runtime, "purchase", obj)
         return _mint_for(runtime, obj, product)
     if kind in (REFUND_EVENT, DISPUTE_EVENT):
         if kind == REFUND_EVENT and obj.get("refunded") is not True:
@@ -178,6 +221,7 @@ def handle_event(runtime: DeeperRuntime, event: dict) -> str:
         if payment is None:
             return "ignored_no_payment"
         voided = runtime.meter.void(payment)
+        runtime.meter.void_funds(payment)
         runtime.meter.tally("refunds_applied", voided)
         return "voided"
     return "ignored_type"
@@ -257,6 +301,11 @@ class BalanceResponse(BaseModel):
 
 class PauseRequest(BaseModel):
     on: bool
+
+
+class FundsRequest(BaseModel):
+    cents: int = Field(..., description="A whole number of cents; negative takes money out")
+    note: str = Field(..., min_length=1, max_length=meter_module.MAX_NOTE_CHARS)
 
 
 class AccessLogFilter(logging.Filter):
@@ -365,6 +414,27 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         runtime.meter.pause(req.on)
         return {"paused": runtime.meter.is_paused()}
 
+    @app.post("/api/admin/deeper/funds")
+    def add_funds(req: FundsRequest, request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        try:
+            entry = runtime.meter.add_funds("adjustment", req.cents, note=req.note)
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc))
+        return {"id": entry}
+
+    @app.post("/api/admin/deeper/funds/{entry_id}/reverse")
+    def reverse_funds(entry_id: str, request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        if not runtime.meter.reverse_funds(entry_id):
+            raise HTTPException(status_code=404, detail="no such entry, or already reversed")
+        return {"reversed": entry_id}
+
+    @app.get("/api/admin/deeper/funds")
+    def funds(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        return {"net": runtime.meter.net_funds(7), "entries": runtime.meter.list_funds(14)}
+
     @app.get("/api/admin/deeper/reconciliation")
     def reconciliation(request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
@@ -384,11 +454,13 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None)
             "and without the visitor cookie everyone behind one address would share it"
         )
     ops = ops or load_ops()
+    products = parse_products(env.get("CIC_DEEPER_PRODUCTS"))
     return DeeperRuntime(
         meter=Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling),
         claims=ClaimStore(config.claims_db_path),
         webhook_secret=secret,
-        products=parse_products(env.get("CIC_DEEPER_PRODUCTS")),
+        products=products,
+        gift_links=parse_gift_links(env.get("CIC_DEEPER_GIFT_LINKS"), products),
         site_origin=env.get("CIC_DEEPER_SITE_ORIGIN") or None,
         token_rates=ops.rates,
         group_burst_multiplier=ops.group_burst_multiplier,

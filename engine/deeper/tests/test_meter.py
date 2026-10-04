@@ -334,3 +334,59 @@ def test_reserve_refuses_a_count_below_one(meter):
     (code,) = meter.mint("single", 3, "pi_t4")
     with pytest.raises(ValueError):
         meter.reserve(code, 0)
+
+
+# ---- funds: what raises the door's ceiling ------------------------------------------
+
+def test_funds_add_by_kind_and_sum_over_the_last_seven_days(meter):
+    meter.add_funds("gift", 2500, "pi_a")
+    meter.add_funds("purchase", 700, "pi_b")
+    meter.add_funds("adjustment", 1000, note="friends and family")
+    meter.add_funds("adjustment", -200, note="correction")
+    assert meter.net_funds() == {"gift": 2500, "purchase": 700, "adjustment": 800}
+
+
+def test_a_payment_adds_once_and_a_voided_one_adds_nothing(meter):
+    assert meter.add_funds("gift", 2500, "pi_a") is not None
+    assert meter.add_funds("gift", 2500, "pi_a") is None
+    meter.void("pi_v")
+    assert meter.add_funds("gift", 2500, "pi_v") is None
+    assert meter.net_funds()["gift"] == 2500
+
+
+def test_voiding_a_payment_or_reversing_an_entry_takes_it_out_of_the_sum(meter):
+    meter.add_funds("gift", 2500, "pi_a")
+    entry = meter.add_funds("adjustment", 1000, note="x")
+    assert meter.void_funds("pi_a") == 1 and meter.void_funds("pi_a") == 0
+    assert meter.reverse_funds(entry) and not meter.reverse_funds(entry)
+    assert meter.net_funds() == {"gift": 0, "purchase": 0, "adjustment": 0}
+    assert all(row["reversed"] for row in meter.list_funds())
+
+
+@pytest.mark.parametrize(
+    "args",
+    [("grant", 5, "pi"), ("gift", 0, "pi"), ("gift", -5, "pi"), ("gift", 5, None), ("gift", 10_000_001, "pi"), ("gift", True, "pi"), ("gift", 5.5, "pi"), ("adjustment", 5, None, "x" * 201)],
+)
+def test_a_bad_entry_is_refused(meter, args):
+    with pytest.raises(ValueError):
+        meter.add_funds(*args)
+
+
+def test_funds_older_than_the_window_leave_the_sum_and_are_purged_later(tmp_path):
+    today = [date(2026, 10, 5)]
+    meter = Meter(str(tmp_path / "m.db"), clock=lambda: today[0])
+    meter.add_funds("gift", 2500, "pi_a")
+    today[0] = date(2026, 10, 11)
+    assert meter.net_funds()["gift"] == 2500
+    today[0] = date(2026, 10, 12)
+    assert meter.net_funds()["gift"] == 0
+    assert len(meter.list_funds(days=30)) == 1
+    today[0] = date(2027, 1, 5)
+    meter.purge()
+    assert meter.list_funds(days=365) == []
+    meter.close()
+
+
+def test_the_funds_table_holds_no_code_hash_and_no_note_of_a_buyer(meter):
+    columns = {row[1] for row in meter._conn.execute("PRAGMA table_info(funds)")}
+    assert columns == {"entry", "day", "kind", "cents", "payment_id", "note", "reversed"}
