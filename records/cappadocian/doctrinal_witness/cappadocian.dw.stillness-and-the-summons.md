@@ -33,11 +33,12 @@ retrieval:
     own head"
 text: >-
   We know that struggle by its opposite: some of our own greatest teachers
-  wanted stillness badly and rarely kept it for long. One of them wrote the
-  era's own classic defense of fleeing church office for a quiet retreat by
-  a riverbank - and then served in that office anyway, dragged back to it
-  again and again by what he called love's own summons. We do not think
-  his failure to keep the quiet was the point. We think the wanting itself
+  wanted stillness badly and rarely kept it for long. Gregory of Nazianzus
+  wrote the era's own classic defense of fleeing church office - and then
+  served in that office anyway. Basil praised a quiet retreat by a river in
+  Pontus, and later served as priest and bishop. We call what drew them back
+  love's own summons. We do not think his failure to keep the quiet was the
+  point. We think the wanting itself
   was real and holy, even unfinished. What we would offer you is not a
   method for silencing your own head completely; it is what ordered the
   reaching for us: fixed hours of prayer kept whether we felt like it or

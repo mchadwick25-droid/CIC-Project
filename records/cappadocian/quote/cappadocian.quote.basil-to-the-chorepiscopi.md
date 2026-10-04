@@ -43,7 +43,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks who held authority among this world's people, or how anyone came to have it"
-  - "participant asks how this world's faith first spread to the region"
   - "participant asks whether bishops were appointed, elected, or something else"
 relations:
 - type: associated-with

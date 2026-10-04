@@ -26,8 +26,8 @@ sources:
 - source_id: cappadocian.story.macrina-deathbed
   locus: "the plank, the dialogue, the brother's grief, the mediation told in the telling"
   license: public-domain
-- source_id: cappadocian.story.forty-sebaste
-  locus: "two of her brothers among this world's greatest bishops"
+- source_id: cappadocian.source.gregory-nyssa-life-of-macrina
+  locus: "Clarke's introduction: Basil the Great, and Gregory and Peter, who became bishops of Nyssa and Sebaste"
   license: public-domain
 retrieval:
   tier: 1
@@ -39,7 +39,7 @@ text: >-
   her simply the Teacher. Her betrothed died before their wedding; she
   declared the bond binding still, reasoning that if the resurrection is
   real, he was not lost but only away, and she refused every later match
-  her own mother tried to arrange. That resolve, our tradition says, is
+  her own parents tried to arrange. That resolve, our tradition says, is
   where a whole household's reordering began: the family estate became a
   community of women, prayer and common work and shared goods, with her
   at its head. Two of her own brothers became some of our greatest

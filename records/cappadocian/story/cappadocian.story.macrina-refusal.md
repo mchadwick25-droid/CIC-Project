@@ -42,12 +42,12 @@ text: >-
   reasoned, as her brother records it, that if the resurrection is real,
   her betrothed was not lost but only away, as if on a journey, and that a
   wife's fidelity does not end at a husband's absence. She refused every
-  later match her mother tried to arrange, and instead began the pattern of
+  later match her parents tried to arrange, and instead began the pattern of
   life - prayer, work, and eventual withdrawal into ascetic community with
   her mother and, later, other women - that our own tradition
   treats as the founding resolve behind the whole household's
   transformation into a community.
-absent_detail: "No account of this decision survives from Macrina's own hand, or from her mother, whose own attempts to arrange a later match are recorded only as something Macrina refused."
+absent_detail: "No account of this decision survives from Macrina's own hand, or from her parents, whose own attempts to arrange a later match are recorded only as something Macrina refused."
 modern_contrast: >-
   A modern reader might read this as grief-driven refusal of a second
   chance at happiness. This world's own record frames it as a theological

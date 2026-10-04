@@ -41,7 +41,7 @@ false_friend:
 senses:
   informational: Argued at deathbeds (the whole business of the Soul and Resurrection dialogue), preached
     at martyrs' feasts using the same 'birthday' logic the wider church shared, and lived ahead of time
-    in the sisterhood, which Gregory's own presentation calls anticipating 'the life of the angels.'
+    in the sisterhood, which Gregory's own presentation calls an imitation of 'the angelic life.'
   evidential: Documented via On the Soul and the Resurrection and the funeral orations; the martyr-homily
     material this claim also draws on carries the same unacquired-text caveat already named for martys/martyrion.
   personal: 'This hope was not abstract comfort. It reordered grief itself and gave the whole ascetic

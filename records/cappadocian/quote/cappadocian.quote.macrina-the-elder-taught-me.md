@@ -28,7 +28,7 @@ confidence:
     witness record carries the tension explicitly rather than resolving it by truncation.
 sources:
 - source_id: cappadocian.source.basil-macrina-the-elder-letters
-  locus: "Letter CCIV (printed heading; element id ix.ccv), section 6, npnf208_basil-letters-select-works.xml"
+  locus: "Letter CCIV (printed heading; element id ix.ccv), section 6, lines 37060-37069, npnf208_basil-letters-select-works.xml"
   license: public-domain
 text: >-
   What clearer evidence can there be of my faith, than that I was brought up
@@ -38,7 +38,8 @@ text: >-
   fashioned and formed me, while yet a child, upon the doctrines of piety.
   And when I gained the capacity of thought, my reason being matured by full
   age, I travelled over much sea and land, and whomsoever I found walking in
-  the rule of godliness delivered, those I set down as fathers,]
+  the rule of godliness delivered, those I set down as fathers,] and made them
+  my soul’s guides in my journey to God.
 speaker_or_author: cappadocian.figure.basil
 license: verbatim
 modern_lens_note: >-
@@ -73,7 +74,8 @@ modern_rendering: >-
   while I was still a child, in the teachings of true religion. Later, when I
   came of age and could reason for myself, I travelled over much sea and land.
   Wherever I found people walking by the rule of godliness that had been
-  handed down, those I took for my fathers.
+  handed down, those I took for my fathers. I made them my soul's guides on
+  my way to God.
 use_note:
   means: "Basil's Letter CCIV to the Neocaesareans defends his orthodoxy by naming his grandmother Macrina, who taught him Gregory Thaumaturgus's words, then describes seeking out fathers himself."
   not_for:
@@ -91,31 +93,26 @@ apparatus rather than as one printed line; its element id is "ix.ccv", one Roman
 numeral ahead of the printed number - the same off-by-one between printed
 heading and div id this build already recorded for
 cappadocian.quote.basil-canon-on-digamy, checked again here rather than assumed.
-The quoted sentences are at id "ix.ccv-p26", lines 37060-37068. Double-spacing in
+The quoted sentences are at id "ix.ccv-p26", lines 37060-37069. Double-spacing in
 the source file's own typesetting normalized to single spaces; no wording added,
 dropped, or reordered.
 
-The `text` field closes with the source's own punctuation, "those I set down as
-fathers,]" - a comma, then Newman's own closing bracket marking exactly where his
-translation ends (see below), not an invented full stop. This is not a
-restoration of the NPNF translator's continuation ("and made them my soul's
-guides in my journey to God") - that text is deliberately excluded, for the
-reason given below (mixing two translators inside one quotation would
-misrepresent both); only the punctuation marking Newman's own boundary is shown
-as the source actually prints it.
+The `text` field runs to the sentence's own full stop, "in my journey to God.",
+and keeps the source's closing bracket after "fathers," where it prints it. That
+bracket marks the point at which the volume's text passes from J. H. Newman's
+version to the NPNF translator's.
 
-WHERE THE QUOTATION STOPS, AND WHY EXACTLY THERE. This volume prints Letter CCIV
-as a braid of two English versions, and states in that letter's own prefatory
-note that "the passages in brackets are Newman's version." The quoted run falls
-wholly inside one such bracketed stretch, which opens before "If there be
-anything you do not understand" and closes immediately after "those I set down
-as fathers," - so the quotation ends at the bracket's own closing point. The
-sentence itself continues past it ("and made them my soul's guides in my journey
-to God"), but that continuation is the NPNF translator's rendering rather than
-Newman's, and mixing the two inside one quotation would misrepresent both. So:
-this is Basil's own text throughout, in J. H. Newman's rendering, and a later
-editor comparing translations should know that before treating the wording as
-NPNF's. A translation question, not an authenticity one.
+THE TWO TRANSLATORS INSIDE ONE QUOTATION. This volume prints Letter CCIV as a braid
+of two English versions, and states in that letter's own prefatory note that "the
+passages in brackets are Newman's version." The quoted run falls inside one such
+bracketed stretch, which opens before "If there be anything you do not understand"
+and closes immediately after "those I set down as fathers,". The sentence
+continues past it ("and made them my soul's guides in my journey to God"), and that
+continuation is the NPNF translator's rendering. The quotation keeps the whole
+sentence, because stopping at the bracket would end it mid-clause and drop the
+clause that completes Basil's thought. A later editor comparing translations should
+know that the wording changes hands at the bracket. A translation question, not an
+authenticity one.
 
 WHY C-E, STATED WITH THE OBJECTION RATHER THAN AROUND IT. C-E ("how it reached
 us") was one of the cells deliberately left without quote support in the two
@@ -132,7 +129,7 @@ unqualified line "not a personally gathered testimony," and the same Basilian
 sentence goes on to describe exactly that. An earlier draft of this record
 stopped the quotation one clause short, at "the doctrines of piety," which
 removed the difficulty instead of showing it. The quotation now runs to the
-bracket's end, and the witness record carries a matching tension line. The
+sentence's full stop, and the witness record carries a matching tension line. The
 pairing is the point: this world held an inherited deposit and a man who went
 looking, and said both in one sentence.
 

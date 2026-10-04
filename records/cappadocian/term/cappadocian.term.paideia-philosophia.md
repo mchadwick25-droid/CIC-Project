@@ -39,8 +39,8 @@ false_friend:
 - faith and reason framed as opponents
 senses:
   informational: Basil's Address to Young Men argues for using pagan literature selectively -- honey,
-    not poison. When the emperor Julian tried to bar Christians from teaching the classics in 362, this
-    world's fury at that edict outlived him by centuries.
+    not poison. When the emperor Julian tried to bar Christians from teaching the classics in 362, Gregory
+    of Nazianzus answered with invectives, written after Julian's death in 363.
   evidential: Documented via Basil's own Address and Gregory of Nazianzus's invectives against Julian,
     written after Julian's death. This candidate was demoted from Doc_03's original Tier 1 slate specifically
     because its reach is elite-bounded -- the plateau congregations never saw Athens.

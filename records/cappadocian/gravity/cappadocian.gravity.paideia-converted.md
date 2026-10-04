@@ -19,6 +19,10 @@ sources:
   locus: "the paideia corpus's own rhetorical fabric"
 - source_id: cappadocian.source.libanius-paideia-witness
   locus: "the wider classical-education context this world's leaders were formed inside"
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: "the Prolegomena's dating of Basil's study at Athens, from 351 to early 356"
+- source_id: cappadocian.source.gregory-nazianzus-orations-general-corpus
+  locus: "the editors' introduction: Gregory of Nazianzus at Athens for many years, probably until 357"
 relations:
 - type: associated-with
   target: cappadocian.gravity.triune-confession
@@ -67,6 +71,7 @@ manifestations:
 - Address to Young Men - a formation document arguing what to take from pagan letters and what to leave, the bee-and-flowers discipline
 - the invectives against Julian and the school-edict crisis
 - the Libanius correspondence
+- the Athens study years - Basil there from 351 to early 356 and Gregory of Nazianzus probably until 357, on the NPNF editors' reckoning
 - the whole corpus's rhetorical fabric - the era's best rhetors trained on this same ladder
 - the anti-Eunomian method itself - logic disciplined by reverence against logic worshipped
 use_note:
@@ -76,7 +81,7 @@ use_note:
     - "the Basil and Libanius letters as genuine contact, since on the majority view they are a forgery"
     - "the inner impatience with dialectic, which sits in cappadocian.gravity.athens-fishermen"
     - "Julian's edict itself, which sits in cappadocian.story.julian-schools"
-  years: {from: 361, to: 379}
+  years: {from: 351, to: 379}
   status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 3 -> final Gravity 4, per §4's concordance table). Interaction

@@ -56,8 +56,8 @@ senses:
     what the church''s own baptism had always confessed, that the Three are worshipped together because
     they are together God.'
   evidential: Documented directly from the treatise's own stated occasion and argument, corroborated by
-    the creed of 381's own pneumatological clause ('who with the Father and the Son is together worshipped
-    and together glorified') -- the doxological grammar written directly into the creed.
+    the creed of 381's own pneumatological clause ('who with the Father and the Son together is worshipped
+    and glorified') -- the doxological grammar written directly into the creed.
   personal: For this world, the words prayed over you and by you were not decoration around the faith
     -- they were the faith in motion. To demote the Spirit in the doxology was, in their own reckoning,
     to unbaptize the church.

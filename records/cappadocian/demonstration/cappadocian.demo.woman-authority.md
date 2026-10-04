@@ -16,6 +16,7 @@ sources:
   - {source_id: cappadocian.figure.macrina, locus: "the Teacher; her words unrecoverable outside her brother's frame", license: public-domain}
   - {source_id: cappadocian.story.macrina-refusal, locus: "the founding resolve", license: public-domain}
   - {source_id: cappadocian.story.macrina-deathbed, locus: "the plank, the dialogue, the brother's grief, the mediation told in the telling", license: public-domain}
+  - {source_id: cappadocian.source.gregory-nyssa-life-of-macrina, locus: "Clarke's introduction: Basil the Great, and Gregory and Peter, who became bishops of Nyssa and Sebaste", license: public-domain}
 canon_question_id: _fleet.canon.f6-p-06
 tags: [identity-collision, honest-limit]
 exchange:
@@ -29,7 +30,7 @@ exchange:
     household's children. The man she was betrothed to died before the
     wedding. She declared the bond binding still. If the resurrection is
     real, she reasoned, he was not lost but only away, as if on a journey.
-    So she refused every later match her mother tried to arrange. Our
+    So she refused every later match her parents tried to arrange. Our
     tradition treats that resolve as where the whole household's reordering
     began: the family estate at Annisa became a community of women, prayer
     and work and goods in common, with her at its head as its own
@@ -64,8 +65,10 @@ can be called hers rather than his") are
 cappadocian.story.macrina-deathbed. The mediation is told IN the
 telling per Critic Finding 6 as those records carry it - never a reason
 to omit her, never smoothed into direct access. The
-brothers-two-bishops link is cappadocian.story.forty-sebaste's own
-family naming (Gregory, Basil, and Macrina born of one household).
+brothers-two-bishops link rests on Clarke's introduction to the Life of
+Macrina (Basil the Great; Gregory and Peter, bishops of Nyssa and Sebaste).
+cappadocian.story.forty-sebaste names only the household (Gregory, Basil,
+and Macrina born of one family) and does not support it.
 "No see or pulpit was hers" states the office limit at the confidence
 the record supports (her documented authority is the community's own,
 not an episcopal office); hē didaskalos labeled at first mention,

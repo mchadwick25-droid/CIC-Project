@@ -64,7 +64,7 @@ description: >-
   parish. Across the radical and ascetic fracture, it is that fracture, tested. It crosses the registers,
   on the censures' own word.
 manifestations:
-- the Gangra censures (c. 340s) - twenty canons against radical ascetic practice, the era's best against-the-grain record
+- the Gangra censures (dated anywhere from the 340s to the 370s) - twenty canons against radical ascetic practice, the era's best against-the-grain record
 - the Asketikon's ordering answers - obedience against self-willed askesis, the slave-reception provisions
 - the Basil-Eustathius arc from collaboration to rupture
 - the canonical letters' discipline of ascetic irregulars

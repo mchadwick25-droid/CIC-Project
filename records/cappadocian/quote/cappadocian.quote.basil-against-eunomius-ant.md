@@ -41,7 +41,7 @@ modern_lens_note: >-
   to know God's own essence to be another, competing piece of
   theology - a counter-argument on the same technical ground. Basil's
   actual move is different and sharper: he does not out-argue
-  Eunumius's theology at all here, he undercuts the claim to
+  Eunomius's theology at all here, he undercuts the claim to
   comprehension itself by pointing at something absurdly small. If
   Eunomius cannot give a full physiological account of an ant, his
   claim to fully grasp the nature of God collapses on its own terms,
@@ -100,7 +100,6 @@ record identifies as the one genuinely vendored piece of Basil's
 anti-Eunomian corpus (the three-book treatise itself is not vendored;
 see that source record's own divergence_note). This quote backs the
 dw's epistemology claim specifically; the dw's separate delayed-baptism
-strand remains without its own quote in this batch - a real, honestly
-named remaining gap, not filled here.
+strand has its own quote in cappadocian.quote.basil-against-delaying-baptism.
 
 The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

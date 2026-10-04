@@ -101,17 +101,16 @@ own sake, whereas this later, shorter span is where Basil himself names
 what the place is actually for - not scenery, but "quietness," called
 outright the "sweetest produce of all" - and pairs that naming with the
 plainest statement of its seclusion ("rid of the bustle of the city...
-unfrequented by travellers, except a chance hunter"). That combination,
-in one contiguous, well-bounded span, is exactly what backs
-cappadocian.dw.stillness-and-the-summons's claim that one of this
-world's own teachers "wrote the era's own classic defense of fleeing
-church office for a quiet retreat by a riverbank" - here is that
-defense, in Basil's own words, at the moment he is choosing the retreat
-rather than being called back from it. The dw's own irony (that Basil
-"served in that office anyway, dragged back to it again and again") is
-carried in this record's modern_lens_note rather than in the quote
-itself, since the letter's own text is a portrait of the desire for
-stillness, not of its later, repeated failure.
+unfrequented by travellers, except a chance hunter"). That combination, in one contiguous, well-bounded span, is what backs
+cappadocian.dw.stillness-and-the-summons's claim that this world's teachers
+longed for stillness: here is Basil's own praise of the quiet he chose, at the
+moment he is choosing the retreat rather than being called back from it. The
+letter is not the era's classic defense of fleeing church office. That defense is
+Gregory of Nazianzus's Oration 2 (see cappadocian.term.hesychia), and this letter
+only praises the retreat's quiet. The dw's irony (that Basil served in office
+anyway, called back again and again) is carried in this record's modern_lens_note
+rather than in the quote itself, since the letter's own text is a portrait of the
+desire for stillness, not of its later, repeated failure.
 
 No source record in records/cappadocian/source/ specifically covers
 this individual letter; cappadocian.source.basil-letters-general-corpus

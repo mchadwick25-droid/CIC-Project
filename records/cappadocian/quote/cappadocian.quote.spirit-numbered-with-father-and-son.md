@@ -36,8 +36,8 @@ modern_lens_note: >-
   but still creaturely, still less than God. Basil's point is that
   ranking the Spirit with the Father is not a courtesy extended to a
   lesser being but a confession of undivided, shared Godhead - which
-  is exactly why he calls denying it a "necessary and saving
-  doctrine" to get right, not a matter of theological etiquette.
+  is exactly why he calls ranking the Spirit with the Father a "necessary
+  and saving doctrine", not a matter of theological etiquette.
 retrieval:
   tier: 1
   retrieve_when:

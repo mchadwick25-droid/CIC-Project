@@ -88,8 +88,9 @@ use_note:
   years: {from: 360, to: 379}
   status: reviewed
 ---
-Verified verbatim directly against the vendored
-basil_ascetic-works-longer-shorter-rules_clarke1925.txt, Longer Rules,
+Verified via authority against the vendored
+basil_ascetic-works-longer-shorter-rules_clarke1925.txt, with the scan
+corrections listed below. Passage: Longer Rules,
 Question VII ("That it is necessary, with a view to pleasing God, to
 live with like-minded persons, and that solitude is difficult and
 dangerous"), its opening paragraph, lines 13190-13208 (grep -n "I
