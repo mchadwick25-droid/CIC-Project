@@ -1280,7 +1280,7 @@ Mark's description of the product, 2026-10-03: the buying sits beside the conver
 
 **The cost the ruling accepts.** Without "show my code", a cleared browser or a second device loses the balance. A member enters a sponsor's code once. Nothing in the three stores, the meter or the tests changes.
 
-**Two Stripe facts for the build thread to verify before S6 and S7 ship.** Whether Stripe's return redirect can carry the participant back to the exact sitting. Whether in-page checkout exists on a Payment Link. Neither is assumed.
+**Two Stripe facts to verify before S6 and S7 ship.** The ruling named the build thread; Mark took them himself on 2026-10-04, since the sandbox blocks stripe.com. Whether Stripe's return redirect can carry the participant back to the exact sitting. Whether in-page checkout exists on a Payment Link. Neither is assumed.
 
 **What stays.** The claim route and its one-hour table, the meter, the operations file, sponsor codes, the stored list of codes, balances and the getting-low flag.
 
