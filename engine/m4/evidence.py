@@ -766,7 +766,10 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             "confidence": (record.get("confidence") or {}).get("formation_confidence"),
             "classification": record.get("classification"),
         }
-        guards = record.get("claim_guards")
+        note = record.get("use_note") or {}
+        if note.get("means"):
+            entry["means"] = note["means"]
+        guards = list(record.get("claim_guards") or []) + list(note.get("not_for") or [])
         if guards:
             entry["claim_guards"] = guards
         return entry
@@ -775,7 +778,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
         # The rider rides inside the same budget it's counted against -
         # Build-Plan.md Stage 4a's own "riders in render_evidence_block
         # inside existing budget_chars" - never a separate allowance.
-        return len(entry["head"]) + sum(len(g) for g in entry.get("claim_guards") or [])
+        return len(entry["head"]) + len(entry.get("means") or "") + sum(len(g) for g in entry.get("claim_guards") or [])
 
     for rid in coverage_entry.get("honest_limit") or []:
         entry = _entry(rid, "honest_limit", None)
@@ -1148,6 +1151,8 @@ def render_evidence_block(evidence: dict) -> str:
         if candidate.get("already_told_this_session"):
             descriptors.append("already told this session")
         line = f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}"
+        if candidate.get("means"):
+            line += f" | means: {candidate['means']}"
         guards = candidate.get("claim_guards")
         if guards:
             # The prefer_instead redirect rule's guard half, rendered as a

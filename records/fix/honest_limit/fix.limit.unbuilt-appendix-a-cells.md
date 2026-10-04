@@ -32,6 +32,12 @@ why_sources_cannot_answer: >
   actual reason (uniform: out of the fixture's deliberately narrow scope),
   not twenty near-duplicate files repeating it.
 nearest_material: [fix.core.fixture-world, fix.witness.who-is-jesus]
+use_note:
+  means: "The fixture record was never built to answer questions outside its eight cells."
+  not_for:
+    - "any substantive answer on the cells it names"
+  years: {from: 100, to: 100}
+  status: provisional
 ---
 Added at stage 3 alongside the full Appendix A canon seed
 (engine/canon/seed_appendix_a.py). Keeps records/fix/** truthfully

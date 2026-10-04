@@ -282,6 +282,18 @@ def _worked_line(records: dict) -> str | None:
     return f"'{_WORKED_LINE_SENTENCE} {' '.join(f'[[{i}]]' for i in ids)}.'"
 
 
+def _with_note(body: str | None, record: dict) -> str | None:
+    """A record's section body with its use note beside it, as data: what
+    the record means in our frame and the claims it is not a ground for."""
+    note = record.get("use_note") or {}
+    if not body or not note.get("means"):
+        return body
+    lines = [body.strip(), f"Means: {note['means'].strip()}"]
+    if note.get("not_for"):
+        lines.append("Not for: " + "; ".join(n.strip() for n in note["not_for"]))
+    return "\n".join(lines)
+
+
 def build_prompt(records: dict, registry_entry: dict) -> bytes:
     # Two lists, spliced at the end with _GROUND_LINE between them, so
     # instruction and record never interleave.
@@ -432,15 +444,15 @@ def build_prompt(records: dict, registry_entry: dict) -> bytes:
 
     for term in _by_type(records, "term"):
         body = "\n\n".join(filter(None, [term.get("plain_meaning"), term.get("quick_meaning")]))
-        emit(f"Term: {term.get('world_word', term['id'])}", body, term["id"])
+        emit(f"Term: {term.get('world_word', term['id'])}", _with_note(body, term), term["id"])
 
     for witness in _by_type(records, "doctrinal_witness"):
         cells = ",".join(witness.get("canon_cells") or [])
-        emit(f"Witness ({cells})", witness.get("text"), witness["id"])
+        emit(f"Witness ({cells})", _with_note(witness.get("text"), witness), witness["id"])
 
     for limit in _by_type(records, "honest_limit"):
         cells = ",".join(limit.get("canon_cells") or [])
-        emit(f"Honest limit ({cells})", limit.get("statement"), limit["id"])
+        emit(f"Honest limit ({cells})", _with_note(limit.get("statement"), limit), limit["id"])
 
     # Gravities carry their own id for the same measured reason every other
     # section now does. After the header change above, desert's fabrication
@@ -506,7 +518,7 @@ def build_prompt(records: dict, registry_entry: dict) -> bytes:
         if not tellable:
             raise ValueError(f"{story['id']}: story has no tellable_as - refusing to compile "
                              f"the source text, which is never voiced")
-        emit("Story", tellable, story["id"])
+        emit("Story", _with_note(tellable, story), story["id"])
 
     for demo in _by_type(records, "demonstration"):
         exchange = demo.get("exchange") or []

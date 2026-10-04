@@ -320,6 +320,26 @@ ENVELOPE_PROPERTIES = {
     # of every compiled/ file. Absent means voiced. The horizon gate passes a
     # post-window mention only on an analytic record.
     "voice": {"enum": ["voiced", "analytic"]},
+    # What the record means in the world's own frame, the claims it must not
+    # be made to support, and the years it speaks from. The cells it serves
+    # are its canon_cells. provisional until an Opus review against the
+    # vendored source marks it reviewed.
+    "use_note": {
+        "type": "object",
+        "additionalProperties": False,
+        "required": ["means", "years", "status"],
+        "properties": {
+            "means": {"type": "string"},
+            "not_for": {"type": "array", "items": {"type": "string"}, "maxItems": 4},
+            "years": {
+                "type": "object",
+                "additionalProperties": False,
+                "required": ["from", "to"],
+                "properties": {"from": {"type": "integer"}, "to": {"type": "integer"}},
+            },
+            "status": {"enum": ["provisional", "reviewed"]},
+        },
+    },
     "confidence": _CONFIDENCE_SCHEMA,
     "sources": {"type": "array", "items": _SOURCE_REF_SCHEMA},
     "retrieval": _RETRIEVAL_SCHEMA,
