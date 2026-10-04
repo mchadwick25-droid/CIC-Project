@@ -87,9 +87,9 @@ God's Church" - corrected from the Doc_09 chunk's own paraphrase
 vendored translation's actual wording ("boys and girls destitute of
 means and parents"; "drinking-bouts"), a real verbatim correction
 caught during this record's own direct re-verification. The Lucian
-material remains paraphrase throughout, per that source's own
-registered limit - no quotation marks are used for any Lucian-specific
-detail, unlike this story's Tertullian material. relations left empty:
+material is told in paraphrase, without quotation marks; Lucian's
+Peregrinus is vendored, and its own words are quoted in
+pahc.quote.lucian-orphans-and-widows and pahc.quote.lucian-all-brothers. relations left empty:
 Doc_09's own Section 2 states this story's gravity connection is
 "loosely G02/G03-adjacent... not classified as direct evidence for
 either named gravity" - this record does not manufacture a formal

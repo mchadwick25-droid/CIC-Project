@@ -620,3 +620,24 @@ Status: OPEN.
 Not fixed; content for this world's build thread. (1) `pahc.quote.jesus-christ-our-god`: locus and speaker say Ephesians VII, but the quoted text is Trallians VII (anf01 `v.iv.vii`, near line 6509) - a misattributed quote in a voiced record. (2) `pahc.quote.those-who-lived-reasonably-are-christians`: the body says "four figures from Daniel"; there are three (Elias is Elijah). (3) `pahc.story.nero-scapegoating` (body) and `pahc.story.mutual-aid-prisoner` (divergence_note and body) still say Tacitus and Lucian are not vendored; both now are, and are quoted. (4) `pahc.limit.womens-own-words` calls ministrae "a title of service, of office" and `pahc.limit.enslaved-voices` glosses it "deacons", against `pahc.term.ministrae`, which says the office is not established. (5) `pahc.limit.enslaved-voices` and `pahc.limit.womens-own-words` are still at record status draft. (6) `pahc.term.ministrae`'s body says it is "carried here as Contested at the record level", but its formation_confidence is Documented.
 
 Status: OPEN.
+
+### OG-24. The record defects in OG-22 and OG-23 (slice 6), worked by this world's build thread, 2026-10-04.
+
+Each item was checked against the vendored source, and an independent Opus review checked the changes.
+
+- **OG-22 (a).** `pahc.quote.the-memoirs-of-the-apostles-are-read`'s lens note now says Justin calls the memoirs Gospels in First Apology 66.
+- **OG-22 (b).** `pahc.witness.hard-texts` drops "after our own time in one case": its only cited opponent of Marcion, Irenaeus I.27, is inside the window.
+- **OG-22 (c), Justin pair.** The two Justin quotes are one sentence (First Apology 46). They are merged into `pahc.quote.justin-reasonable-livers`, which carries F6-T and F1-I. `pahc.quote.those-who-lived-reasonably-are-christians` moves to the archive, and `pahc.witness.god-and-argument` points at the kept record.
+- **OG-22 (c), Clement pair.** The two Clement quotes are separated. `pahc.quote.first-clement-apostolic-chain` now ends at "according to the will of God" (1 Clement 42), so the appointing of bishops and deacons sits only in `pahc.quote.they-appointed-the-first-fruits`.
+- **OG-22 (d).** `pahc.quote.appointed-to-be-read` (367) is `voice: analytic`. So is `pahc.force.selective-canonization`, the OG-19 force, under decision 17 and OG-21. The force's Hermas wording no longer says Athanasius excluded the book.
+- **OG-23 (1).** `pahc.quote.jesus-christ-our-god` now cites Ignatius to the Trallians VII (shorter version, anf01 line 6509), not Ephesians.
+- **OG-23 (2).** The Justin body names Abraham, Daniel's three companions and Elijah.
+- **OG-23 (3).** The two story records now say Tacitus and Lucian are vendored and name the quotes that carry them. `pahc.figure.tacitus` had the same stale claim, and it is fixed too.
+- **OG-23 (4) and (5).** `pahc.limit.womens-own-words` and `pahc.limit.enslaved-voices` say the two women "served the church in some recognized way". This matches `pahc.term.ministrae`, and they no longer call it an office or say deacons. Both limits are now status ready.
+- **OG-23 (6).** `pahc.term.ministrae`'s body matches its Documented confidence.
+
+Waivers move with the changes: horizon 6 to 5, readability 160 to 159, and the status-ready and use-note-present waivers are removed.
+
+Where each fix sits: branch `build/pahc-slice6-loci` holds OG-22 (a), (b) and OG-23 (2), (3) for the story bodies, and (6). Branch `build/pahc-slice6-voiced` holds the rest. Every record file is part of pahc's compiled package, so both branches need a package rebuild, a repin and a paid re-admission before they land (decision 36). They are meant to land together, in one admission.
+
+Status: OPEN until they land.

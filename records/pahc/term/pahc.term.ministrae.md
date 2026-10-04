@@ -71,6 +71,6 @@ use_note:
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 9, Tier 2,
 DR flag). The formation_confidence split per the chunk: Documented that
 the term and report exist; Inferential-Thin for everything about the
-role itself - carried here as Contested at the record level with the
-split stated. The no-invented-interiors rule (world_core caution;
+role itself. The record carries Documented, for the term and the report,
+and its divergence note states the split. The no-invented-interiors rule (world_core caution;
 pahc.figure.ministrae) governs every use.
