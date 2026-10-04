@@ -54,8 +54,8 @@ use_note:
     - "a claim that any present-day church is this world's heir"
     - "'catholic' as the name of a later denomination"
     - "a claim that boundaries with Gnostic and Arian communities were soft or unenforced"
-  years: {from: 190, to: 367}
-  status: provisional
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 The 'is there a church today I could visit' cell: answered to the
 window's edge and honestly no further; the heir question is doorway

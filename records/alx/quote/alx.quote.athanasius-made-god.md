@@ -42,8 +42,8 @@ use_note:
     - "a claim that humans become separate gods or divine in substance, rather than sharing in God's life"
     - "the full sentence, whose clauses on the unseen Father and inheriting immortality the record's ellipsis drops"
     - "a conciliar or creedal definition of Christ's divinity, which sits in alx.dw.was-jesus-god"
-  years: {from: 318, to: 337}
-  status: provisional
+  years: {from: 296, to: 373}
+  status: reviewed
 ---
 De incarnatione 54 - the charter line of the world's whole account of
 salvation as theosis (the Greek theopoiethomen stands in the edition's

@@ -62,13 +62,13 @@ senses:
 quick_meaning: Not an honor for closeness to God - Nicaea's claim that the Son is genuinely God.
 distortion_risk: high
 use_note:
-  means: "The Son as genuinely God, Nicaea's own claim, and neither an honorific for closeness to God nor the highest thing God made."
+  means: "Son of God, in Nicaea's claim, meant the Son is genuinely God, neither an honorific for closeness to God nor the highest thing God made."
   not_for:
     - "describing it as an honorific for someone unusually holy"
     - "calling the Son the highest creature"
     - "projecting Nicaea's settlement onto Origen's earlier language about the Son"
-  years: {from: 220, to: 373}
-  status: provisional
+  years: {from: 203, to: 373}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex023, "Son of God") at Mark's direction, as a
 draft, not a final version. The old record also carried the Homoousios contest (already governed at

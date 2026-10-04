@@ -53,8 +53,8 @@ use_note:
     - "a claim that Clement held philosophy sufficient for salvation apart from Christ"
     - "a claim that every Alexandrian Christian shared this view, when philosophy's standing was itself argued"
     - "'schoolmaster' as a teacher or headmaster, when paidagogos means a child's escort and custodian"
-  years: {from: 198, to: 203}
-  status: provisional
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 The charter line of the world's philosophy-and-faith posture: what the
 Greeks were given was real and was preparation. Serves F1-I (what they

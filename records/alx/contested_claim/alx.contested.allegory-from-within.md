@@ -42,8 +42,8 @@ use_note:
     - "presenting uniform allegorical reading across Egypt as settled"
     - "ignoring Nepos and the Arsinoite churches that followed him"
     - "denying that allegory dominated the literate Alexandrian tradition"
-  years: {from: 190, to: 265}
-  status: provisional
+  years: {from: 248, to: 265}
+  status: reviewed
 ---
 Sourced from the corpus scrub's lead (F14), re-verified by direct read
 of the vendored locus. Doubly valuable: it corrects a too-smooth

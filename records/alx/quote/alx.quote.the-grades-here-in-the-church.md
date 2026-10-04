@@ -50,8 +50,8 @@ use_note:
     - "a description of how the offices actually functioned in Alexandria"
     - "a claim that this church's three offices match a modern denomination's"
     - "Clement's speculation generalized as Alexandrian church order"
-  years: {from: 198, to: 215}
-  status: provisional
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 Opened for F3-T, served by alx.term.episkopos alone, which cites this exact section
 and had nothing quotable.

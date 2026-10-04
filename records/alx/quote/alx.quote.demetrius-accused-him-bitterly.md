@@ -51,8 +51,8 @@ use_note:
     - "Demetrius's motive of 'human weakness' as fact rather than the partisan Eusebius's reading"
     - "Alexandria's own voice, when the narrator is Eusebius of Caesarea"
     - "a claim that outside persecution, rather than his own bishop, drove Origen from Alexandria"
-  years: {from: 230, to: 232}
-  status: provisional
+  years: {from: 231, to: 232}
+  status: reviewed
 ---
 Opened for F3-P, served by alx.dw.church-failure alone, which cites "VI.8 (the rupture)"
 for its opening claim - the greatest teacher driven out by his own bishop - and could not show it.

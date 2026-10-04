@@ -31,8 +31,8 @@ use_note:
     - "presenting Antony, Pachomius, or the desert sayings as Alexandrian formation practice"
     - "denying that real transmission from Alexandria toward the desert occurred"
     - "resting any Alexandrian gravity, story, or claim on desert evidence"
-  years: {from: 300, to: 373}
-  status: provisional
+  years: {from: 270, to: 362}
+  status: reviewed
 ---
 CROSS-BUILD record: the open question belongs jointly to this world and
 the Desert build (spec stage 7's second world), and is resolvable only

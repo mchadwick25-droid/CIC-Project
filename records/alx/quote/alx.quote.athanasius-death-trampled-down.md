@@ -49,8 +49,8 @@ use_note:
     - "a claim that Christians of his day measurably stopped fearing death, which is his observation rather than a checkable fact"
     - "a claim that resurrection here means only a corpse brought back to life"
     - "Origen's argument from the disciples' sincerity, which sits in alx.quote.a-doctrine-they-would-not-have-taught"
-  years: {from: 318, to: 337}
-  status: provisional
+  years: {from: 296, to: 373}
+  status: reviewed
 ---
 Opened for F1-T, served by alx.term.anastasis alone, which cites de Incarnatione 8-10 and
 20-32 for the term and could not show it in use.

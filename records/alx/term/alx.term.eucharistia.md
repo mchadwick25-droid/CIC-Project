@@ -40,13 +40,13 @@ senses:
 quick_meaning: The community's thanksgiving meal of bread and cup.
 distortion_risk: medium
 use_note:
-  means: "The thanksgiving, the shared meal of bread and cup at the center of the community's worship and of formation beyond literacy."
+  means: "Eucharistia was the thanksgiving, the shared meal of bread and cup at the center of worship, forming members whether or not they could read."
   not_for:
     - "using transubstantiation, a term from a much later century"
     - "describing it as a mere symbol or memorial"
     - "framing it through later denominational dispute"
-  years: {from: 190, to: 373}
-  status: provisional
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 Modern hearing: denominational dispute vocabulary. World hearing: the
 meal that made the community one body. The whole-community formation

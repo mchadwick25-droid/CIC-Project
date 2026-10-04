@@ -53,12 +53,12 @@ senses:
 quick_meaning: Not just feeling sorry. Metanoia is the soul truly turning back to God.
 distortion_risk: high
 use_note:
-  means: "Repentance as a change of nous, the soul truly turned back toward God, not feeling sorry or resolving to behave better."
+  means: "Metanoia meant a change of nous, the soul truly turned back toward God, not feeling sorry or resolving to behave better."
   not_for:
     - "describing it as regret over wrong acts"
     - "treating it as better behavior while wanting the same things"
-  years: {from: 190, to: 254}
-  status: provisional
+  years: {from: 180, to: 254}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex032, "Repentance / Metanoia") at Mark's direction,
 as a draft, not a final version.

@@ -71,8 +71,8 @@ use_note:
     - "a claim that the council invented Jesus' divinity"
     - "a claim that this world held the later textbook doctrine of the Trinity"
     - "a claim that all pre-Nicene language was already Nicene, when some sounds subordinationist"
-  years: {from: 190, to: 369}
-  status: provisional
+  years: {from: 180, to: 369}
+  status: reviewed
 ---
 The was-Jesus-God translational cell, answered with the development
 honest and the homoousios term record alongside.

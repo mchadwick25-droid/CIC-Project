@@ -47,8 +47,9 @@ use_note:
     - "the Address's authorship and dating as settled, given the Nautin caveat its source record carries"
     - "a plain factual report, when the Address is epideictic praise"
     - "one student's experience generalized as how every pupil came to faith"
-  years: {from: 233, to: 245}
-  status: provisional
+    - "evidence for the school at Alexandria, when Gregory studied under Origen at Caesarea"
+  years: {from: 238, to: 238}
+  status: reviewed
 ---
 The one first-person account of what this formation FELT like from
 inside: love of the Word kindled through the love of a teacher. Serves

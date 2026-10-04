@@ -54,8 +54,8 @@ use_note:
     - "a claim that the church always chose well, when the record says it did not"
     - "the detail of the Demetrius-Origen rupture, which sits in alx.quote.demetrius-accused-him-bitterly"
     - "a claim that the empire alone bears the blame for post-Nicene coercion"
-  years: {from: 230, to: 373}
-  status: provisional
+  years: {from: 231, to: 373}
+  status: reviewed
 ---
 The church-failure cell: answered without defense-lawyering; the
 identity-collision-adjacent care lives in step-5 demonstrations.

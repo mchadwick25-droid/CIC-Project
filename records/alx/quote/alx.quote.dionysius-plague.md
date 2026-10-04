@@ -57,8 +57,8 @@ use_note:
     - "a claim that every Christian stayed, when Dionysius says 'the most of our brethren'"
     - "a theodicy explaining why God allowed the plague"
     - "an outsider's report, when this is the bishop praising his own flock"
-  years: {from: 260, to: 263}
-  status: provisional
+  years: {from: 260, to: 260}
+  status: reviewed
 ---
 Dionysius's own words on the plague of c. 260 - what the community DID
 when death filled the city. This is Eusebius's strong mode (verbatim

@@ -83,7 +83,7 @@ use_note:
     - "naming continuous, dated office-holders of the school"
     - "taking Eusebius's tidy succession as established, or treating Eusebius as attesting Didymus's place in it"
   years: {from: 180, to: 398}
-  status: provisional
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex059, "Catechetical School / Didaskaleion") at
 Mark's direction, as a draft, not a final version. The old record's citation of a modern secondary

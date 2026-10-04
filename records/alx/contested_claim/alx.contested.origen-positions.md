@@ -48,8 +48,8 @@ use_note:
     - "stating that Origen held pre-existence, universal restoration, graded rational beings, or the Son's subordination as settled doctrine"
     - "citing the 553 condemnation as a fact of this world"
     - "taking Rufinus's or Jerome's wording as Origen's where a Greek text exists"
-  years: {from: 220, to: 254}
-  status: provisional
+  years: {from: 203, to: 254}
+  status: reviewed
 ---
 The Philocalia relation matters operationally: where a passage exists
 in both transmissions, the Greek wins. HORIZON DISCIPLINE: within this

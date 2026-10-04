@@ -40,13 +40,13 @@ senses:
 quick_meaning: Knowing God in a way that changes the knower.
 distortion_risk: high
 use_note:
-  means: "Knowledge of God that changes the knower, a deliberate counter-claim by Clement against the Gnostic schools using their own word."
+  means: "Gnosis meant knowledge of God that changes the knower, Clement's deliberate counter-claim to the Gnostic schools using their own word."
   not_for:
     - "equating it with Gnosticism or with secret knowledge reserved for an elite"
     - "using the word without stating its distinction from the rival movement"
     - "generalizing Clement's true gnostic to all Alexandrian Christians"
-  years: {from: 190, to: 215}
-  status: provisional
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 CONTEST NOTE (the reason the false-friend list leads with Gnosticism):
 the word's modern hearing is captured by the rival movement; every use

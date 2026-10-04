@@ -50,12 +50,12 @@ senses:
 quick_meaning: The soul's separation from God, which physical death only seals.
 distortion_risk: high
 use_note:
-  means: "Death as the soul's separation from God caused by sin, with physical death a real but secondary outward sign."
+  means: "Thanatos meant the soul's separation from God caused by sin, with physical death a real but secondary outward sign."
   not_for:
     - "describing it as only a biological event"
     - "presenting it as a penalty imposed from outside by a judge"
-  years: {from: 190, to: 373}
-  status: provisional
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex018, "Death") at Mark's direction, as a draft, not
 a final version.

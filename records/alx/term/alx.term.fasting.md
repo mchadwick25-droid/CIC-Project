@@ -53,12 +53,12 @@ senses:
 quick_meaning: Not a diet - training the soul's own wanting, practiced through the body's hunger.
 distortion_risk: high
 use_note:
-  means: "Fasting as training the soul's wanting through the body's hunger, with the Paschal fast preparing the community for the feast that follows."
+  means: "Fasting meant training the soul's wanting through the body's hunger, with the Paschal fast preparing the community for the feast that follows."
   not_for:
     - "describing it as dieting or food restriction for health"
     - "presenting it as earning merit through hardship"
-  years: {from: 190, to: 373}
-  status: provisional
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex027, "Fasting") at Mark's direction, as a draft,
 not a final version.

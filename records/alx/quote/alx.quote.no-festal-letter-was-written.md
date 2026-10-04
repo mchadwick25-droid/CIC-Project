@@ -46,7 +46,7 @@ use_note:
     - "pagan persecution, when this happened under a Christian emperor"
     - "a claim that the festal letters stopped for good, rather than for this year"
   years: {from: 356, to: 357}
-  status: provisional
+  status: reviewed
 ---
 Opened for F3-E, served by alx.dw.empire alone, whose locus reads 'the exile-years
 letters' - a body of text rather than a place in one, which is why the instrument ruled this cell

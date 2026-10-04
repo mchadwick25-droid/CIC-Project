@@ -42,8 +42,8 @@ use_note:
     - "a claim that Clement names Pantaenus here, when that identification comes only through Eusebius"
     - "a literal or belittling comparison rather than a classical praise-epithet for wide, digested reading"
     - "evidence of how a catechetical school was formally organized or run"
-  years: {from: 180, to: 203}
-  status: provisional
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 Clement's tribute to his final teacher. PRECISION CAUTION (from the
 figure record): Clement does not name him; the identification with

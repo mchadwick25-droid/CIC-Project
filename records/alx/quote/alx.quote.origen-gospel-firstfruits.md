@@ -41,8 +41,8 @@ use_note:
   not_for:
     - "'firstfruits' as earliest written, when it is an offering term of consecration"
     - "a formal church ranking of the canon rather than one teacher's judgment"
-  years: {from: 229, to: 232}
-  status: provisional
+  years: {from: 203, to: 254}
+  status: reviewed
 ---
 How the tradition ranked what it read: all Scripture, the Gospels its
 firstfruits, John the firstfruits of the Gospels. Verified verbatim.

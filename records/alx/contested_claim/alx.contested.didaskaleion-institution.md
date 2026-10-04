@@ -37,7 +37,7 @@ use_note:
     - "speaking of the School as documented rather than of a teaching tradition"
     - "saying Clement headed a formal school"
   years: {from: 180, to: 265}
-  status: provisional
+  status: reviewed
 ---
 Carried from the prior build's Contested finding (its Doc_01/Doc_02
 line, cleared through review), re-anchored: the HIGH author-gravity

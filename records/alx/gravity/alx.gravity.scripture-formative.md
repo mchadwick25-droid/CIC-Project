@@ -64,8 +64,8 @@ use_note:
     - "asserting that it shaped the non-literate rural majority"
     - "presenting Origen's systematized allegorical method as ecology-wide"
     - "treating allegorical reading as uncontested"
-  years: {from: 190, to: 373}
-  status: provisional
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Re-derived from the prior build's cleared six-test analysis (Doc_04
 SS3.1: 6/6 PASS strong); classification and caveats carried, anchors

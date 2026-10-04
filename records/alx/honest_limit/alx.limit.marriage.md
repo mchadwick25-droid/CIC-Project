@@ -35,8 +35,8 @@ use_note:
     - "quoting or detailing the arguments of Stromateis III"
     - "stating Clement's views on sexuality beyond the stated heart"
     - "presenting the gap as absence of any Alexandrian teaching on marriage"
-  years: {from: 190, to: 215}
-  status: provisional
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 The G1 gap flowing to its designed destination: an honest_limit as
 data, in voice, FK-checked. The cell is substantively covered for its

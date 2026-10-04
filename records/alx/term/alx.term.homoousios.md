@@ -53,13 +53,13 @@ senses:
 quick_meaning: 'The Nicene word: the Son is fully God, not made.'
 distortion_risk: high
 use_note:
-  means: "The word the Nicene council used to say the Son is fully God and not a creature, contested in its own century as unscriptural."
+  means: "Homoousios was the Nicene council's word for the Son as fully God and not a creature, contested in its own century as unscriptural."
   not_for:
     - "projecting it into any period before 325"
     - "describing it as a word found in Scripture"
     - "saying the council voted Jesus into being God"
   years: {from: 325, to: 373}
-  status: provisional
+  status: reviewed
 ---
 CONTEST (stated): contested in its own century precisely for being
 non-scriptural - the objection is part of the record, and the term is

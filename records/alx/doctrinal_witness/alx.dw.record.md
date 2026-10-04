@@ -57,8 +57,8 @@ use_note:
     - "a claim that ancient testimony meets modern historians' standards"
     - "the voices of ordinary believers, which survive almost not at all"
     - "Dionysius's handling of the Apocalypse in his own words, which sits in alx.quote.dionysius-too-high-for-me-to-grasp"
-  years: {from: 200, to: 325}
-  status: provisional
+  years: {from: 180, to: 264}
+  status: reviewed
 ---
 The scholarly-scrutiny cell: answered by the world's own critical
 practices plus the build's honesty about its record.

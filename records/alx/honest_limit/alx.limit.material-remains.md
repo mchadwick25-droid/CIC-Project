@@ -37,7 +37,7 @@ use_note:
     - "claiming papyrological evidence from Oxyrhynchus, which is not yet curated"
     - "inferring layouts or locations from the rebuilt city"
   years: {from: 150, to: 400}
-  status: provisional
+  status: reviewed
 ---
 The archaeologists cell: an honest limit rather than borrowed
 generalities. If the Oxyrhynchus volumes are acquired and curated at a

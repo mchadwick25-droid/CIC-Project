@@ -62,13 +62,13 @@ senses:
 quick_meaning: What the image of God, given to us, grows into over a lifetime of formation.
 distortion_risk: medium
 use_note:
-  means: "Likeness to God as what the given image grows into through formation, visible in how a person loves and lives."
+  means: "Homoiosis meant likeness to God, what the given image grows into through formation, visible in how a person loves and lives."
   not_for:
     - "describing it as moral imitation copied from outside"
     - "claiming the likeness is already possessed and only needs noticing"
     - "treating it as a second gift separate from the image"
-  years: {from: 190, to: 373}
-  status: provisional
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex012, "Likeness of God") at Mark's direction, as a
 draft, not a final version.

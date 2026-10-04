@@ -43,7 +43,7 @@ use_note:
     - "the books read to newcomers outside the canon, which sit in alx.quote.appointed-by-the-fathers-to-be-read"
     - "a claim that this sentence itself lists which books were received"
   years: {from: 367, to: 367}
-  status: provisional
+  status: reviewed
 ---
 The canon list's own summation - the bishop telling all Egypt which
 books the church receives. Serves F2-I ('which writings did your people

@@ -50,12 +50,12 @@ senses:
 quick_meaning: Not a verdict of not-guilty - the soul's direction healed and turned back to God.
 distortion_risk: high
 use_note:
-  means: "Salvation as healing, the soul's direction turned back toward God by the Logos from within, not a not-guilty verdict."
+  means: "Salvation meant healing, the soul's direction turned back toward God by the Logos from within, not a not-guilty verdict."
   not_for:
     - "describing it as acquittal or a wiped legal record"
     - "adding Origen's universal-restoration reading"
-  years: {from: 190, to: 373}
-  status: provisional
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex036, "Salvation") at Mark's direction, as a draft,
 not a final version. The old record notes that Origen's specific universal-restoration reading of this

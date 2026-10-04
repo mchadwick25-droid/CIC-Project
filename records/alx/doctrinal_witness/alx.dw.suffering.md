@@ -53,10 +53,10 @@ use_note:
   means: "This witness answers suffering three ways: God's pain as a physician's remedy, the community's plague nursing as presence, and honest silence over particular griefs."
   not_for:
     - "a claim that particular griefs are explained or deserved"
-    - "the remedial frame offered to a mourner before witness and care"
+    - "a claim that the remedial frame is the first word owed a mourner, when the record puts witness before answer"
     - "settled universalism drawn from Origen's remedial-punishment line, which alx.quote.origen-punishment-heals carries as contested"
-  years: {from: 220, to: 263}
-  status: provisional
+  years: {from: 203, to: 260}
+  status: reviewed
 ---
 The suffering cell's answer-ground; companion quote origen-punishment-
 heals and story plague-nursing carry it in voice and narrative.

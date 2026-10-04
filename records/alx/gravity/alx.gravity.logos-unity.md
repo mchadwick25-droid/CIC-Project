@@ -60,8 +60,8 @@ use_note:
     - "presenting it as a Primary gravity"
     - "treating Origen's Logos cosmology as settled"
     - "projecting the homoousian settlement before 325"
-  years: {from: 190, to: 373}
-  status: provisional
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.4. Integrating-center function Widely
 Accepted across all three major figures; Origen's specific Logos

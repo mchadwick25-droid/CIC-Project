@@ -46,8 +46,8 @@ use_note:
     - "a hymn or piece of liturgical music, when the New Song is Christ himself"
     - "a literal cosmology rather than an image answering the Orpheus myth"
     - "this world's fuller account of who Jesus is, which sits in alx.dw.jesus"
-  years: {from: 190, to: 200}
-  status: provisional
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 The id matches the Artifact-1 SS5 worked example (alx.quote.clement-new-
 song), deliberately. Christ as the New Song who re-makes people and

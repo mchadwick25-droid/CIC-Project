@@ -56,13 +56,13 @@ senses:
 quick_meaning: The soul's real power to turn toward or away from God, which formation works with, never around.
 distortion_risk: high
 use_note:
-  means: "The soul's real power of self-determination, which God does not override, so that formation works through the soul's own turning."
+  means: "Autexousia meant the soul's real power of self-determination, which God does not compel, so that formation works through the soul's own turning."
   not_for:
     - "describing freedom as the bare power to choose anything at all"
     - "claiming that God's forming takes the soul's freedom away"
     - "presenting formation as a change imposed on the soul"
-  years: {from: 190, to: 254}
-  status: provisional
+  years: {from: 180, to: 254}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex013, "Freedom / Autexousia") at Mark's direction,
 as a draft, not a final version.

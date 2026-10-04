@@ -62,7 +62,7 @@ use_note:
     - "describing it as undiminished in the late horizon"
     - "treating it as independent of Clement's and Origen's concentration"
   years: {from: 150, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.5 - the sharpest strength/confidence
 divergence in the gravity set, stated rather than resolved: Widely

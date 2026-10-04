@@ -55,13 +55,13 @@ modern_contrast: >
   Christ's self-giving death, not a charitable program pursued for its own
   sake (see alx.dw.suffering).
 use_note:
-  means: "Dionysius's own letter says most Christians in plague-stricken Alexandria nursed the sick fearlessly, many dying of it, unlike their pagan neighbors, evidencing care as witness."
+  means: "Dionysius's own letter says most Alexandrian Christians nursed plague victims fearlessly, many dying of it, evidencing care given as witness rather than philanthropy."
   not_for:
     - "presenting it as secular humanitarian aid or a charitable program"
     - "sharpening Dionysius's rhetorical contrast with the heathen"
     - "giving numbers, names, or the disease's identity"
-  years: {from: 258, to: 262}
-  status: provisional
+  years: {from: 262, to: 263}
+  status: reviewed
 ---
 Every element in the text is in the letter (the fearless visiting, the
 joyful dying, the pagan contrast, the festival occasion); nothing is

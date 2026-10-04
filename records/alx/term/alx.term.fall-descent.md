@@ -68,8 +68,8 @@ use_note:
     - "presenting the pre-cosmic descent as settled or as Origen's certain position"
     - "calling it a heresy already condemned within this world's horizon"
     - "reducing the fall to the Eden narrative alone"
-  years: {from: 215, to: 254}
-  status: provisional
+  years: {from: 203, to: 254}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex074, "Fall / Descent") at Mark's explicit
 direction to state the contest framing explicitly, as a draft, not a final version.

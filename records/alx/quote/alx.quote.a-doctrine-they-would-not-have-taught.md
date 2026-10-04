@@ -47,8 +47,8 @@ use_note:
     - "a claim that Origen offers eyewitness or independent testimony to the resurrection rather than an inference from the disciples' conduct"
     - "a claim that the argument proves the resurrection happened, rather than that the disciples sincerely believed it"
     - "Athanasius's later argument from Christians' present fearlessness of death, which sits in alx.quote.athanasius-death-trampled-down"
-  years: {from: 246, to: 249}
-  status: provisional
+  years: {from: 248, to: 248}
+  status: reviewed
 ---
 alx.dw.resurrection has cited this argument since it was written and could
 not show it: C-E was served by that witness alone, with no quote and no story, which the Program

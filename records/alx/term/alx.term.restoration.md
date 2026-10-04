@@ -51,12 +51,12 @@ senses:
 quick_meaning: God's work repairing what sin damaged - and carrying it further, not just back to before.
 distortion_risk: high
 use_note:
-  means: "God's work as repair of what sin damaged, carried further than the starting point, not a reset or a return to a golden age."
+  means: "Restoration meant God's repair of what sin damaged, carried further than the starting point, not a reset or a return to a golden age."
   not_for:
     - "describing it as a return to a lost golden age"
     - "equating it with Origen's universalist apokatastasis"
-  years: {from: 190, to: 373}
-  status: provisional
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex020, "Restoration") at Mark's direction, as a
 draft, not a final version. The old record explicitly separates this broadly-held restorative conviction

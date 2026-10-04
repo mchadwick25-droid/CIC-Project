@@ -53,8 +53,8 @@ use_note:
     - "issuing a verdict on Origen as heretic or hero"
     - "citing the 553 condemnation as a fact of this world"
     - "treating the Origen-Demetrius rupture as the foundation of the tension"
-  years: {from: 215, to: 400}
-  status: provisional
+  years: {from: 203, to: 400}
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.6 T3 with its evidence-shift intact:
 confirmed on LATE-HORIZON, Eusebius-independent evidence (the

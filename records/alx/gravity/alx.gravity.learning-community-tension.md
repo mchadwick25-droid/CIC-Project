@@ -44,8 +44,8 @@ use_note:
     - "narrating the community pole's interior experience as if attested"
     - "resolving the tension toward either pole"
     - "treating the school's depth-formation as the whole community's"
-  years: {from: 190, to: 373}
-  status: provisional
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.6 T2. The community pole's interior is
 Inferential-Thin BY STRUCTURE (the stratum bias), so this record's

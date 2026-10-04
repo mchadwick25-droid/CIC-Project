@@ -48,8 +48,8 @@ use_note:
     - "a claim that Clement opposed martyrdom itself rather than volunteering for death"
     - "a neutral description of the groups he attacks, when the parenthesis is polemic against name-only rivals"
     - "a claim that 'banish themselves' means literal exile"
-  years: {from: 198, to: 215}
-  status: provisional
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 The world's own answer to the 'martyrdom is a death wish' charge (F6-E):
 its greatest teacher CENSURED rushing on death - witness is not

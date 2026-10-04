@@ -51,8 +51,8 @@ use_note:
     - "an objection from modern science, when his reasons are internal to the text"
     - "Origen's exact Greek wording, when the text survives in Rufinus's Latin"
     - "Origen's reading generalized to all Alexandrian Christians, when he argues against literalists in his own church"
-  years: {from: 220, to: 230}
-  status: provisional
+  years: {from: 203, to: 254}
+  status: reviewed
 ---
 Opened for F2-T, whose three serving terms (allegoria, interpretation, kanon-pisteos) all
 cite loci in vendored files and none could show a sentence.

@@ -40,8 +40,8 @@ use_note:
     - "the modern sense of passion as enthusiasm, when Clement means disordered appetites"
     - "a description of a practised therapeutic or disciplinary routine in the community"
     - "Clement's picture generalized as the teaching of all Alexandrian Christians"
-  years: {from: 190, to: 202}
-  status: provisional
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 The Paedagogus's picture of Christ as the soul's physician-teacher.
 Serves F4-I (how formation worked) and F4-P ('I can't quiet my own

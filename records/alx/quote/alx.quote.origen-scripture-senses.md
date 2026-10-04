@@ -44,8 +44,8 @@ use_note:
     - "the modern mind-body-spirit framing"
     - "a dismissal of the plain sense, when the doctrine meets simple readers at their own level"
     - "Origen's scheme generalized as every Alexandrian reader's method"
-  years: {from: 220, to: 230}
-  status: provisional
+  years: {from: 203, to: 254}
+  status: reviewed
 ---
 The multi-sense reading doctrine in the GREEK-derived transmission (the
 Philocalia), preferred over the Rufinus-mediated ANF text per the

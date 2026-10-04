@@ -53,9 +53,9 @@ use_note:
   not_for:
     - "documentary proof of unbroken practice for each rite back to the apostles"
     - "Athanasius's 367 book list as this world's own view of its scriptures"
-    - "Origen's exact Greek wording of the succession sentence, which survives in Rufinus's Latin"
-  years: {from: 220, to: 367}
-  status: provisional
+    - "Origen's succession sentence as his exact Greek wording, when it survives in Rufinus's Latin and is quoted in alx.quote.ecclesiastical-and-apostolical-tradition"
+  years: {from: 203, to: 367}
+  status: reviewed
 ---
 The apostolic-continuity cell: the world's claim AND its evidential
 limit, together.

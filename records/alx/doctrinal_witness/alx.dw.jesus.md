@@ -52,8 +52,8 @@ use_note:
     - "a claim that pre-Nicene writers spoke with later Nicene precision, when some sound subordinationist"
     - "the whole community's faith, when the surviving sources are intellectual"
     - "the Nicene question of whether Jesus was God, which sits in alx.dw.was-jesus-god"
-  years: {from: 190, to: 337}
-  status: provisional
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 The Center cell's answer-ground. Companion quotes: clement-new-song,
 athanasius-made-god.

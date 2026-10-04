@@ -52,13 +52,13 @@ senses:
 quick_meaning: Not a habit built by effort - the fruit of a soul truly changed.
 distortion_risk: high
 use_note:
-  means: "Virtue as something a soul receives, the visible fruit of desire reordered by formation, rather than a skill built by habituated practice."
+  means: "Arete meant virtue as something a soul receives, the visible fruit of desire reordered by formation, not a skill built by habituated practice."
   not_for:
     - "describing it as Aristotelian excellence built through repeated practice"
     - "presenting it as correct moral choices reached by good reasoning"
     - "treating Antony as plain evidence for Alexandrian virtue, since he sits at the boundary of the school and desert traditions"
-  years: {from: 190, to: 373}
-  status: provisional
+  years: {from: 180, to: 362}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex042, "Virtue / Arete") at Mark's direction, as a
 draft, not a final version. The old record notes Antony sits at the boundary of the school and desert

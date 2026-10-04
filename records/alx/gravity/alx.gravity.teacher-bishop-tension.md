@@ -52,8 +52,8 @@ use_note:
     - "resolving the tension by making either authority supreme"
     - "resting it on Eusebius's Origen-Demetrius particulars rather than on structural coexistence"
     - "presenting the post-Nicene tilt toward the office as ending the teacher's authority"
-  years: {from: 180, to: 373}
-  status: provisional
+  years: {from: 180, to: 398}
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.6 T1 with its Eusebius re-grounding intact:
 confirmation rests on the STRUCTURAL coexistence of teacher and bishop

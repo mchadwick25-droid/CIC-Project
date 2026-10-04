@@ -52,8 +52,8 @@ use_note:
     - "describing it as a written creed imposed by a council"
     - "setting it against the Bible as a rival authority"
     - "equating it with the later Nicene boundary"
-  years: {from: 215, to: 254}
-  status: provisional
+  years: {from: 203, to: 254}
+  status: reviewed
 ---
 Modern hearing: 'creed vs Bible' framings. World hearing: one
 inheritance with two forms. The speculative-doctrinal tension's early

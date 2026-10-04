@@ -58,8 +58,8 @@ use_note:
     - "unbounded inquiry, when questions stayed inside the rule of faith"
     - "ordinary doubters' own experience, which the teachers' sources barely show"
     - "post-Nicene practice, when the same tradition learned to anathematize"
-  years: {from: 190, to: 265}
-  status: provisional
+  years: {from: 180, to: 264}
+  status: reviewed
 ---
 Serves the 'I grew up being told doubt was sin' cell from the world's
 own practice, with the post-Nicene hardening stated as tension.

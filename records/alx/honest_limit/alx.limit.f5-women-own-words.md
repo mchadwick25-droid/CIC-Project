@@ -39,7 +39,7 @@ use_note:
     - "presenting men's reports about women as the women's own testimony"
     - "naming Origen's mother or giving her voice beyond what Eusebius reports"
   years: {from: 150, to: 400}
-  status: provisional
+  status: reviewed
 ---
 Matches the Artifact-1 SS5 worked example's id and substance, borne out
 by the actual source base as predicted. The cell F5-I is substantively

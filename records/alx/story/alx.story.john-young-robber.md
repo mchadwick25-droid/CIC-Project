@@ -59,13 +59,13 @@ modern_contrast: >
   story is about the weight of an unbroken formation relationship and what
   repairing it actually costs, not a redemption-arc morality tale.
 use_note:
-  means: "Clement relays a tradition he vouches as true, of the apostle John riding out to restore a young man who became a robber chief."
+  means: "Clement relays as true tradition how the aged apostle John rode out to restore a young man turned robber chief, evidencing costly restoration after falling."
   not_for:
     - "presenting the events as established history rather than as Clement's received tradition"
     - "reading it as a simple redemption arc that skips the bishop's relaxed watch and the cost of restoration"
     - "stating the city as Smyrna where Clement himself does not commit to it"
-  years: {from: 190, to: 215}
-  status: provisional
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 The world's best story for restoration-after-falling: serves F4-I (when
 someone wronged the community, could they come back?) and F6-P ('if

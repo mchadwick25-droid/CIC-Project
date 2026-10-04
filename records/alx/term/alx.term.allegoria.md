@@ -57,13 +57,13 @@ senses:
 quick_meaning: Reading Scripture for its deeper senses as well as the plain one.
 distortion_risk: high
 use_note:
-  means: "Reading Scripture at several levels, a plain sense plus deeper senses about Christ and the soul, a method contested from within Egypt itself."
+  means: "Allegoria meant reading Scripture at several levels, a plain sense plus deeper senses about Christ and the soul, a method contested within Egypt itself."
   not_for:
     - "presenting allegorical reading as the uncontested practice of all Egyptian Christians"
     - "equating it with making the text mean anything or with denying that events happened"
     - "treating the systematized method as common to every Alexandrian teacher rather than concentrated in Origen"
-  years: {from: 190, to: 300}
-  status: provisional
+  years: {from: 180, to: 265}
+  status: reviewed
 ---
 CONTEST (stated, per the lexicon discipline): contested from WITHIN
 Egyptian Christianity (alx.contested.allegory-from-within - Nepos) and

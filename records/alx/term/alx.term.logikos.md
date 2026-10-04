@@ -69,8 +69,8 @@ use_note:
     - "describing it as cleverness or raw intelligence"
     - "presenting Origen's rational-natures cosmology as settled or shared by all Alexandrian teachers"
     - "treating the link to later condemned propositions as established"
-  years: {from: 190, to: 254}
-  status: provisional
+  years: {from: 180, to: 254}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex090, "Logikos / Rational Nature") at Mark's
 explicit direction to state the contest framing explicitly, as a draft, not a final version. The old

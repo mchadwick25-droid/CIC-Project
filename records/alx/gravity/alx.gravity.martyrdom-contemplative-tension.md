@@ -52,7 +52,7 @@ use_note:
     - "narrating martyrs' inner life as attested beyond saints' lives and martyr records"
     - "describing martyrs and contemplatives as the same people practicing one path"
   years: {from: 202, to: 313}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.6 T4. The martyr pole's cross-stratum reach
 is this world's one gravity-level bridge past the literate sources; its

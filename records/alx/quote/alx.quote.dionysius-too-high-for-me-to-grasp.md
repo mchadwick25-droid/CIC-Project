@@ -50,7 +50,7 @@ use_note:
     - "the stylistic authorship argument itself, which precedes this passage rather than appearing in it"
     - "the full treatise On Promises, which is lost and known only through Eusebius's selection"
   years: {from: 248, to: 264}
-  status: provisional
+  status: reviewed
 ---
 Opened for F2-E, served by alx.dw.record alone, which cites VII.25 for "Dionysius weighed
 the Apocalypse's authorship by style, like a critic" and could not show it.

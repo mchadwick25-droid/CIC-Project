@@ -58,8 +58,9 @@ use_note:
     - "a claim that the Nicene council voted Jesus into being God"
     - "a claim that Dionysius's patient persuasion was the world's only or usual way of deciding"
     - "the Nepos exchange in Dionysius's own words, which sits in alx.quote.dionysius-nepos"
-  years: {from: 190, to: 356}
-  status: provisional
+    - "a claim that Demetrius ruled on a doctrine, when what he condemned was Origen's ordination"
+  years: {from: 180, to: 352}
+  status: reviewed
 ---
 The councils cell, grounded in the world's own decision-practice range.
 

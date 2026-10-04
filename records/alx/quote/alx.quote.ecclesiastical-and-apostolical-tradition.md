@@ -47,8 +47,8 @@ use_note:
     - "Origen's exact Greek wording, when the text survives in Rufinus's Latin"
     - "a claim that the rule meant a council, an office or a fixed book"
     - "a claim that scripture lacked authority, rather than being read inside the rule"
-  years: {from: 220, to: 230}
-  status: provisional
+  years: {from: 203, to: 254}
+  status: reviewed
 ---
 The cell carries two quite different questions and
 three serving terms, and one sentence could not honestly answer both.

@@ -53,13 +53,13 @@ modern_contrast: >
   story shows both the wound of persecution and the community's own check
   against zeal outrunning itself.
 use_note:
-  means: "Eusebius reports that in about 202 Leonides was arrested and beheaded while his teenage son Origen was kept home by his mother."
+  means: "Eusebius reports that in about 202 Leonides was beheaded while Origen's mother kept her teenage son from joining him, evidencing persecution's cost and a check on zeal."
   not_for:
     - "presenting the boy's wish to die beside his father as admired rather than prevented"
     - "naming the mother or supplying the prison letter beyond its one quoted line"
     - "treating Eusebius's report as first-person testimony"
   years: {from: 202, to: 203}
-  status: provisional
+  status: reviewed
 ---
 Serves F5-P (did belonging cost you - family, standing: it cost this
 family a father and its property) and F3-I (was it actually dangerous:
