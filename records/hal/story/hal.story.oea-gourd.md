@@ -52,6 +52,14 @@ absent_detail: 'The incident reaches us only through Augustine''s summary (and J
   bishop''s report - with Augustine''s own aside (''whether from ignorance or spite'')
   showing the layers of hearsay even the ancient account admits.'
 modern_contrast: 'A modern reader often hears this as a quaint, minor pedantic squabble over one word of translation. This world''s own record frames it differently: changing a word a congregation had prayed for generations threatened real trust and unity, nearly cost a bishop his people, and produced a years-long, unresolved argument between two of this world''s most serious minds - both of whom, in their own ways, this record holds to be right.'
+use_note:
+  means: "The uproar at Oea over one word in Jonah, which sharpened the unresolved argument between Augustine and Jerome over the new translation."
+  not_for:
+    - "dismissing it as a pedantic squabble"
+    - "casting Augustine as a foil or declaring either man the winner"
+    - "naming the bishop of Oea"
+  years: {from: 403, to: 405}
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S3. The closing both-right note carries
 the record set's discipline on Augustine (a serious objection, never a

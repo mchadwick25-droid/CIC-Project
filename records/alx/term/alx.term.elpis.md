@@ -52,6 +52,13 @@ senses:
     already accomplished, not a feeling about the future - a real destination, genuinely not yet reached.
 quick_meaning: Not optimism. It is staying turned toward a life not yet fully reached.
 distortion_risk: high
+use_note:
+  means: "Elpis meant the soul's steady orientation toward a life not yet fully reached, grounded in an accomplished resurrection rather than in optimism or mood."
+  not_for:
+    - "describing it as optimism that things will turn out well"
+    - "treating it as a mood that rises and falls with circumstances"
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex045, "Hope / Elpis") at Mark's direction, as a
 draft, not a final version.

@@ -1419,8 +1419,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # narration of this project's internal review process - the same
     # `reviewer`-pattern gap already hand-labelled for reference/ above.
     # Refreshed 2026-10-03: the public-page cleanup (commit 6a42ed96) moved
-    # this same line from 127 to 108. Same text, same label.
-    ("cic-website/support.html", 108, "KEEP"),
+    # this same line from 127 to 108; refreshed 2026-10-04: Go Deeper S5d
+    # (commit a5df3f70) added a line above it, so it is now 109. Same text,
+    # same label.
+    ("cic-website/support.html", 109, "KEEP"),
     ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
     # the original _cross-world example was cleaned by that effort.
@@ -1976,3 +1978,38 @@ def test_the_same_words_in_a_note_field_are_still_flagged(tmp_path):
     text = 'sources:\n  - title: "Epistulae"\n    note: "Caught by adversarial review on 2026-09-02"\n'
     hits = _hits_for(text, tmp_path, "records/w/source/w.source.x.yaml")
     assert any(h.category == "REWRITE" for h in hits)
+
+
+def test_a_spoken_field_describing_the_period_is_not_a_route_cue(tmp_path):
+    """A voiced sentence can say a thing was 'not yet fixed' in the world's own
+    time; that is history, not an open item."""
+    text = ("---\nid: x.dw.a\nrecord_type: doctrinal_witness\n"
+            "positions:\n- \"Apostolic writing was not yet fixed into one settled list.\"\n"
+            "why: \"This build has an open item here.\"\n---\n")
+    hits = {h.line for h in _hits_for(text, tmp_path, "records/x/doctrinal_witness/x.dw.a.md") if "route-cue" in h.patterns}
+    lines = text.splitlines()
+    assert lines.index("- \"Apostolic writing was not yet fixed into one settled list.\"") + 1 not in hits
+    assert lines.index("why: \"This build has an open item here.\"") + 1 in hits
+
+
+def test_a_source_locus_in_a_spoken_sources_list_is_not_a_section_ref(tmp_path):
+    """A quote's sources list is a participant label; its locus names the
+    section of the source, so a section sign there is the citation itself."""
+    text = ("---\nid: x.quote.a\nrecord_type: quote\n"
+            "sources:\n- source_id: x.source.vita\n  locus: \"SS19 - from the discourse to the brothers\"\n"
+            "  license: public-domain\n"
+            "- source_id: x.source.vita\n  locus: >-\n    Vita Antonii SS3 (npnf204.xml)\n---\n")
+    hits = [h for h in _hits_for(text, tmp_path, "records/x/quote/x.quote.a.md") if "section-ref" in h.patterns]
+    assert hits == []
+
+
+def test_a_work_citation_in_a_spoken_field_is_not_a_section_ref_but_a_build_reference_is(tmp_path):
+    text = ("---\nid: x.dw.a\nrecord_type: doctrinal_witness\n"
+            "positions:\n- \"the war normal rather than a sign of failure (Homily XXVI SS18)\"\n"
+            "- \"Christ as presently working (Vita SS80, SS84)\"\n"
+            "- \"settled in SS3 of the build notes\"\n---\n")
+    lines = text.splitlines()
+    hits = {h.line for h in _hits_for(text, tmp_path, "records/x/doctrinal_witness/x.dw.a.md") if "section-ref" in h.patterns}
+    assert lines.index("- \"the war normal rather than a sign of failure (Homily XXVI SS18)\"") + 1 not in hits
+    assert lines.index("- \"Christ as presently working (Vita SS80, SS84)\"") + 1 not in hits
+    assert lines.index("- \"settled in SS3 of the build notes\"") + 1 in hits

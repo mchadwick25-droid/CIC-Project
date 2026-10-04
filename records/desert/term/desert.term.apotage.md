@@ -43,6 +43,13 @@ senses:
   translational: "Closer to a divestment that keeps costing than to a pledge or a resolution. The modern picture of a single dramatic gesture misses that the tradition treated the ongoing practice, not the moment, as the real renunciation."
 quick_meaning: "Giving up property and standing to enter this life - and keeping it given up."
 distortion_risk: medium
+use_note:
+  means: "Apotage meant giving up property, family claims, and standing at the threshold of ascetic life, and the tradition counted the ongoing practice as the real renunciation."
+  not_for:
+    - "Hearing it as a one-time vow after which ordinary attachments resume"
+    - "Presenting the formal Pachomian entry condition as the form it took among solitary monks"
+  years: {from: 270, to: 430}
+  status: reviewed
 ---
 Re-derived from Doc_06 SS1.2 (Tier 1 there on the central-conceptual-
 clusters criterion, not a gravity anchor - Doc_06's Tier-composition

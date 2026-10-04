@@ -20,6 +20,7 @@ doorway_description: >-
   how much is his own effort. The story closes around the year 450,
   before that argument hardened into fixed positions on either side.
 card_name: "The Monk-Bishops of Gaul"
+app: {order: 8, accent_color: "#798D97", portrait: "/images/portraits/thumb/gallic.webp"}
 representative: {name: Renatus, role_label: Bishop}
 state: admitted
 census_id: "gallic-monastic-ascetic-christianity"

@@ -66,6 +66,14 @@ manifestations:
 - "Kellia's excavated commercial center, showing trade actually running alongside the ascetic settlement"
 - "the Nepheros archive's ordinary monastic business letters, Melitian and caveated - its own editors also read the community as organizationally intermediary, no clean fit to this world's three strands - corroborating a similar pattern at one remove"
 - "cheironaxia's own hand-work, sustaining the ascetics and funding alms beyond the settlements - the same practice read on the discipline side by gravity 4"
+use_note:
+  means: "The settlements' real economic ties to villages run against withdrawal's rhetoric of total separation, qualifying it without eliminating it."
+  not_for:
+    - "Presenting the monks as fully cut off from village economies"
+    - "Presenting the ties as proof that withdrawal was insincere"
+    - "Presenting the Nepheros community as representative of Nitria, Kellia, or Scetis"
+  years: {from: 320, to: 430}
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 8, SS2
 row 8, SS3, SS4, SS5 row 8, SS6 (gravity 8). Doc_04 SS6 itself states

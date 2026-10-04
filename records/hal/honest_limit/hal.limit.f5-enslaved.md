@@ -30,6 +30,14 @@ why_sources_cannot_answer: 'The senatorial households at the center of this worl
 nearest_material:
 - hal.term.matrona
 - hal.story.paula-epitaph
+use_note:
+  means: "The sources are silent on the enslaved and dependent people in the great households, never naming or voicing a single one."
+  not_for:
+    - "narrating the experience of enslaved people in these households"
+    - "inferring how a mistress's conversion affected those she owned"
+    - "treating the silence as an archival accident"
+  years: {from: 382, to: 420}
+  status: reviewed
 ---
 Part of the Absent-Stories answer carried from the prior build (Doc_02
 section 7.2, Doc_09a section 4 item 5): named explicitly, never filled by

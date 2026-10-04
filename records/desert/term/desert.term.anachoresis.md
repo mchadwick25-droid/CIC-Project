@@ -64,6 +64,14 @@ senses:
   translational: "'Withdrawal' or 'retreat' in the modern sense - a break to recharge, an escape from responsibility - reverses the meaning. This was permanent, bodily, and itself the point; the desert was the arena, not the exit."
 quick_meaning: "Leaving settled life for the desert, as the work of formation itself."
 distortion_risk: high
+use_note:
+  means: "Anachoresis meant leaving village life for the desert as the whole work of formation, a staged and lasting deepening, not a change of address."
+  not_for:
+    - "Hearing it as retreat, escape, or a temporary getaway in the modern sense"
+    - "Presenting desert settlements as cut off from villages, when they sat on marginal land with real trade ties"
+    - "Citing the Goehring embeddedness thesis alone, or treating the Nepheros community as representative of this world's mainstream"
+  years: {from: 270, to: 430}
+  status: reviewed
 ---
 Re-derived from Doc_06 SS1.1 (Tier 1; tags AS TC RT DR; anchors gravity
 1 per Doc_04). The Goehring embeddedness qualification is in the

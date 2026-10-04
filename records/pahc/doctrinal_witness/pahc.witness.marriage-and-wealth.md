@@ -42,6 +42,14 @@ text: >-
   the poor among us. The rich man's giving feeds the poor man's prayer. And
   the poor man's prayer, offered for the one who helped him, is itself a
   wealth the rich man needs. Neither one stood alone.
+use_note:
+  means: "Marriage here was communal, made with the bishop's approval, and rich and poor were bound together like Hermas's vine on an elm."
+  not_for:
+    - "a claim that every household actually sought the bishop's approval before marrying"
+    - "a claim that Hermas's rich-and-poor image describes lived practice rather than teaching"
+    - "a claim that a bishop or presbyter performed a marriage rite"
+  years: {from: 90, to: 180}
+  status: reviewed
 ---
 Ignatius To Polycarp 5 checked directly against cic/texts/anf01_
 apostolic-fathers-justin-irenaeus.xml, div1 v (v.viii.v, shorter

@@ -29,6 +29,14 @@ retrieval:
   retrieve_when:
   - "participant asks what they sang and whether the tunes survived"
   - "participant asks what actually happened when they gathered to worship"
+use_note:
+  means: "Sozomen, describing Ephrem's answer to Harmonius's hymns, reports that in his own day Syrians still often sang Harmonius's melodies, though not his exact words."
+  not_for:
+    - "evidence that the melodies survive today or can be reconstructed"
+    - "testimony from inside this world rather than a fifth-century Greek historian's notice"
+    - "a claim that Ephrem invented Syriac hymnody"
+  years: {from: 200, to: 373}
+  status: reviewed
 ---
 Verified verbatim. The genre-contest witness: Bardaisanite song answered in kind; grounds syr.term.madrasha's evidential sense.
 

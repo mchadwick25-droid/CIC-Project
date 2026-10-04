@@ -51,6 +51,15 @@ tensions:
   tenth codified as due
 - only two sermons on this theme survive in this build's licensed corpus; how widely or how literally
   the preached standard was kept is not something the sermons themselves can tell us
+use_note:
+  means: "Leo preached giving to the poor as a binding duty, proportioned to each person's means and judged by God, tied to a yearly collection day."
+  not_for:
+    - "a claim that this world imposed a fixed tithe of a tenth as law"
+    - "a claim that Leo himself dated the collection day to early July"
+    - "a claim about how widely or literally the preached standard was kept"
+    - "a claim that these sermons' dates are fixed within the window, when the edition leaves them undated across Leo's episcopate (440-461)"
+  years: {from: 440, to: 451}
+  status: reviewed
 ---
 Verified directly against the
 vendored corpus, file lines 13503 and 13707 - Leo's own preached corpus

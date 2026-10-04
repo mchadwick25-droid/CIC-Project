@@ -45,6 +45,14 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.limit.material-remains
+use_note:
+  means: "Clement, in Paedagogus II.3, lists costly vessels, couches and furnishings that Christians must give up as proofs of tasteless luxury."
+  not_for:
+    - "a description of where the community met or what a church building contained"
+    - "a claim that most Alexandrian Christians owned such goods, beyond the wealthy audience Clement addresses"
+    - "certain identification of every named vessel, several of which the translation only transliterates"
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 alx.limit.material-remains is the cell's only serving record, and it cites a specific locus - Paedagogus
 II-III - so the limit can be voiced by the passage it points at, the same move as ijc F6-E and desert F2-E.

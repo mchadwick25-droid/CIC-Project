@@ -44,16 +44,25 @@ relations:
 - type: associated-with
   target: alx.term.homoousios
 name: Logos-Centered Unity [SUPPORTING - integrating center]
-description: 'The Logos - the Word through whom all was made, who became flesh - is the single center
-  that makes Scripture, learning, worship, and transformation one movement toward one God rather than
-  four activities. Passes all six tests yet classified Supporting on the principled criterion: it produces
-  no distinct practice-cluster of its own; it is the theological center the other gravities cohere around.'
+description: >-
+  The Logos is the Word through whom everything was made, and who became flesh. He is the one center
+  of this world. Through him, Scripture, learning, worship and the remaking of a person become one
+  movement toward one God, not four separate tasks. This gravity creates no practices of its own.
+  It is the center that the other gravities gather around.
 manifestations:
 - the New Song opening of the Protrepticus - the Logos composing the universe and re-making people (anf02
   line 15213, verified)
 - the Johannine architecture of the Commentary on John ('the Gospel as first fruits')
 - the homoousian defense as the late-horizon form of the same center (De Decretis; Contra Arianos)
 classification: supporting
+use_note:
+  means: "The Logos is the single center that makes Scripture, learning, worship, and transformation one movement, Supporting because it forms no practice cluster of its own."
+  not_for:
+    - "presenting it as a Primary gravity"
+    - "treating Origen's Logos cosmology as settled"
+    - "projecting the homoousian settlement before 325"
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.4. Integrating-center function Widely
 Accepted across all three major figures; Origen's specific Logos

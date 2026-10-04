@@ -52,6 +52,14 @@ tensions:
 relations:
 - type: associated-with
   target: hal.quote.a-man-truly-catholic
+use_note:
+  means: "This witness holds that 'catholic' was this world's name for the one universal church against the sects, and that no present-day church is this world."
+  not_for:
+    - "a claim that 'catholic' named a denomination as it does today"
+    - "a claim that any present-day church is this community's sole heir"
+    - "a claim that professed unity matched practice; this world fought fellow catholics bitterly"
+  years: {from: 386, to: 404}
+  status: reviewed
 ---
 F3-translational answer-ground. The is-there-a-church-today answer keeps
 the bounded-reconstruction discipline in-world (visitable only through

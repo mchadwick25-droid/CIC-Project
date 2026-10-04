@@ -57,6 +57,14 @@ divergence_partners:
 - syr.source.possekel-bardaisan
 - syr.source.ramelli-bardaisan
 - syr.source.drijvers-bardaisan
+use_note:
+  means: "The claim that Bardaisan's theology lands inside the creed's content is contested: his free-will argument and institutional standing are real, but resurrection and pre-existent elements diverge."
+  not_for:
+    - "a claim that Bardaisan's cosmology is this world's own teaching"
+    - "a claim that Bardaisan is simply a heretic or a docetist"
+    - "a claim that his own voice survives unmediated"
+  years: {from: 200, to: 373}
+  status: reviewed
 ---
 THE discharged Step 0 Section A task (Doc_01 SS5, three review rounds;
 determination SS5.6): excluded as a founding voice at Contested

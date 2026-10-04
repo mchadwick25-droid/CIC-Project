@@ -70,6 +70,15 @@ relations:
   target: pahc.force.neronian-persecution
 - type: illustrates
   target: pahc.gravity.state-pressure
+use_note:
+  means: "Tacitus, writing about fifty years later, says Nero blamed Christians for Rome's fire and convicted many less for arson than for hatred of mankind."
+  not_for:
+    - "proof that a discrete, fire-linked persecution of Christians as a named group happened in 64"
+    - "a claim that Tacitus says Christians set the fire"
+    - "a claim that Christians were personally malicious rather than charged with withdrawal from civic religion"
+    - "a claim about what Romans called the group, resting on this translation's spelling"
+  years: {from: 110, to: 120}
+  status: reviewed
 ---
 Text is verified verbatim against the vendored file.
 

@@ -45,6 +45,14 @@ positions:
 tensions:
 - speculative freedom vs the drawn boundary - the world's own standing tension (T3)
 - apophatic reserve (God beyond speech) vs the confidence of its own vast talk about God
+use_note:
+  means: "This witness describes one good creator God beyond every image, whose Word and Spirit are his own, and who teaches through his whole creation."
+  not_for:
+    - "a claim that the Word's and Spirit's full divinity was stated with clarity before Nicaea"
+    - "a claim that teachers' speculations on the soul's origin or the end were fixed doctrine"
+    - "the dedicated answer on doubt, which sits in alx.dw.doubt"
+  years: {from: 180, to: 254}
+  status: reviewed
 ---
 Also tagged F1-P: the fixed-vs-open distinction IS the world's answer
 to 'was there room for doubt?' - inquiry inside the rule was not sin

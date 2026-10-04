@@ -51,6 +51,12 @@ senses:
     This world''s record refuses it: the categories were improvised, the enforcement local, and even
     the enforcer wrote to ask what the rules were.'
 quick_meaning: The Roman suspicion-word for a forbidden club - one frame the law reached for when it looked at Christian gatherings.
+use_note:
+  means: "What Romans suspected the Christians might be, an illegal club or forbidden association, though that charge was never the whole of what they faced."
+  not_for:
+    - "the settled explanation of the persecutions"
+  years: {from: 111, to: 113}
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 12, Tier 3 -
 the Framework's own minimal Tier 3 structure expanded to this record

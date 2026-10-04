@@ -45,6 +45,14 @@ positions:
 tensions:
 - techniques for quieting the mind are not this world's own idiom - its gifts here are the physician's
   mercy and the long endurance, offered as what they are
+use_note:
+  means: "Aphrahat teaches penitence as medicine, confession as showing a wound to a physician bound to mercy and secrecy, and unanswered prayer under persecution as endured, not explained."
+  not_for:
+    - "techniques for quieting the mind, which are not this world's idiom"
+    - "a claim that prayer was believed to have stopped the persecution"
+    - "a fixed sacramental rite of private confession"
+  years: {from: 337, to: 344}
+  status: reviewed
 ---
 F4-P: Dem VII's penitence teaching verified verbatim (the wound,
 the physician, the no-publishing rule, the return to battle);

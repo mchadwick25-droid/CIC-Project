@@ -49,12 +49,33 @@ relations:
 - type: illustrated-by
   target: desert.quote.no-one-seize-the-hand
 name: "Spiritual combat against tempting thoughts, general form [PRIMARY]"
-description: "The struggle against logismoi - tempting or distracting thoughts - as this world's ordinary, cross-strand subject matter, tested here in its general form and separately from its later Evagrian systematization (gravity 9), which carries materially different single-author-concentrated evidential risk. Independently attested in Athanasius's narrative, the sayings tradition, and Evagrius's own general framing. Strong on all six tests: repeated across every stream, shapes both teaching content and the terse-saying genre itself, directly formative, explanatory of why so much surviving material takes the form it does, persistent across all three strands (most elaborated in Strand C, but present in A and B), and reinforcing of diakrisis and elder authority. Widely Accepted confidence, no discrepancy against organizing strength. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
+description: >-
+  This is the struggle against logismoi, the tempting or distracting thoughts.
+  It was the ordinary subject of this world in every strand. Here it is taken
+  in its general form. That is apart from the later Evagrian systematization,
+  which rests on one author, so its evidence carries a different risk. The
+  general struggle is attested separately in Athanasius's account, in the
+  sayings, and in Evagrius's own outline. It recurs in every kind of source.
+  It shapes what the teaching says and the short form of the sayings. It
+  formed monks, and it explains why so much of what survives looks this way.
+  It runs through all three strands. It is most developed in the
+  semi-anchoritic one, but it is found in the anchoritic and cenobitic ones
+  too. It backs up discernment and elder authority. Scholars widely accept all
+  of this. It answers one historical pressure, the end of martyrdom, and it
+  grew stronger under that pressure.
 classification: primary
 manifestations:
 - "Antony's demonic assaults at the tombs (Vita SS8-9) and in the fort (SS12-13)"
 - "the logismoi as the most common subject of the sayings tradition, recurring across named elders and settlements alike - though how far that cross-settlement pattern reflects the settlements themselves and how far it reflects the sayings' later compilers' own arrangement is not settled"
 - "the terse apophthegm form itself read as a combat technique - answer, don't dwell"
+use_note:
+  means: "The struggle against tempting thoughts was this world's ordinary, cross-strand subject, broader than and prior to Evagrius's single-author systematization of it."
+  not_for:
+    - "Presenting Evagrius's eight-fold scheme as the general form of the combat"
+    - "Hearing the thoughts as clinical symptoms"
+    - "Presenting the tomb demons as a neutral incident report"
+  years: {from: 270, to: 430}
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 2, SS2
 row 2, SS3, SS4, SS5 row 2, SS6 (gravity 2). Deliberately tested apart

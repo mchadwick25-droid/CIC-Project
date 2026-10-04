@@ -36,6 +36,14 @@ relations:
   target: alx.term.allegoria
 - type: associated-with
   target: alx.story.arsinoite-conference
+use_note:
+  means: "The claim that all Egyptian Christians read Scripture allegorically with no dispute is contested, since Nepos attacked the allegorists from within Egypt."
+  not_for:
+    - "presenting uniform allegorical reading across Egypt as settled"
+    - "ignoring Nepos and the Arsinoite churches that followed him"
+    - "denying that allegory dominated the literate Alexandrian tradition"
+  years: {from: 248, to: 265}
+  status: reviewed
 ---
 Sourced from the corpus scrub's lead (F14), re-verified by direct read
 of the vendored locus. Doubly valuable: it corrects a too-smooth
