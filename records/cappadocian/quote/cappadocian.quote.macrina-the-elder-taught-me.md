@@ -115,9 +115,7 @@ know that the wording changes hands at the bracket. A translation question, not 
 authenticity one.
 
 WHY C-E, STATED WITH THE OBJECTION RATHER THAN AROUND IT. C-E ("how it reached
-us") was one of the cells deliberately left without quote support in the two
-earlier quote batches, set aside on redundancy and fit grounds. This passage
-answers the fit objection on one side and raises a real one on the other, and
+us") is the cell this passage supports. The passage answers the fit objection on one side and raises a real one on the other, and
 both belong on the record. On the first side: the cell's own text says what
 reached this world was "a finished deposit" rather than "a chain of memory
 handed hand to hand," and names as its tension that no living chain back to an
@@ -126,10 +124,10 @@ short, regional, ending at Gregory Thaumaturgus rather than at an apostle, and
 running through a woman - which specifies that qualified claim rather than
 contradicting it. On the second: the witness's `positions` field carries the
 unqualified line "not a personally gathered testimony," and the same Basilian
-sentence goes on to describe exactly that. An earlier draft of this record
-stopped the quotation one clause short, at "the doctrines of piety," which
-removed the difficulty instead of showing it. The quotation now runs to the
-sentence's full stop, and the witness record carries a matching tension line. The
+sentence goes on to describe exactly that. The quotation runs to the
+sentence's full stop, because stopping at "the doctrines of piety," would remove
+the difficulty instead of showing it. The witness record carries a matching
+tension line. The
 pairing is the point: this world held an inherited deposit and a man who went
 looking, and said both in one sentence.
 
@@ -137,11 +135,10 @@ WHY IT MATTERS THAT THIS IS MACRINA THE ELDER. Doc_02 SS1.4 calls this world's
 Macrina-the-Elder material "this world's single most valuable non-male-mediated
 female datum" - a documented female formation-agent attested in Basil's own
 letters rather than reconstructed through Gregory of Nyssa's literary frame, as
-everything about her granddaughter is. Until now that datum lived only in
-Doc_02's prose and in two records' reasoning
-(cappadocian.gravity.household-lineage, cappadocian.force.gentry-household); no
-quote carried it, so the compiled voice could reason from it but never show it.
-This record is the datum in Basil's own words. She is not given her own figure
+everything about her granddaughter is. Doc_02's prose and two records'
+reasoning (cappadocian.gravity.household-lineage,
+cappadocian.force.gentry-household) also carry that datum.
+This record is the datum in Basil's own words, which lets the compiled voice show it. She is not given her own figure
 record here: cappadocian.figure.macrina already states, deliberately and on the
 record, that Macrina the Elder has no figure record because no Doc_09 story
 entry narrates her, and this quote does not change that - a quote is not a

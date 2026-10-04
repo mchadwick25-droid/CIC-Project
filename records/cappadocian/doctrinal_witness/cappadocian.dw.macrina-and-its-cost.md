@@ -27,7 +27,7 @@ sources:
   locus: "the plank, the dialogue, the brother's grief, the mediation told in the telling"
   license: public-domain
 - source_id: cappadocian.source.gregory-nyssa-life-of-macrina
-  locus: "Clarke's introduction: Basil the Great, and Gregory and Peter, who became bishops of Nyssa and Sebaste"
+  locus: "Clarke's introduction: Gregory and Peter, who became bishops of Nyssa and Sebaste (line 44), and Basil, bishop of Caesarea from 370 (line 50)"
   license: public-domain
 retrieval:
   tier: 1

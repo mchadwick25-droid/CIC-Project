@@ -37,15 +37,15 @@ text: >-
   wrote the era's own classic defense of fleeing church office - and then
   served in that office anyway. Basil praised a quiet retreat by a river in
   Pontus, and later served as priest and bishop. We call what drew them back
-  love's own summons. We do not think his failure to keep the quiet was the
+  love's own summons. We do not think their failure to keep the quiet was the
   point. We think the wanting itself
   was real and holy, even unfinished. What we would offer you is not a
   method for silencing your own head completely; it is what ordered the
   reaching for us: fixed hours of prayer kept whether we felt like it or
   not, and passions treated not as things to erase but as things to be
   ordered, so that love, rather than impulse, was what actually moved us.
-  That discipline did not mean feeling nothing - the same writers who
-  pursued it wept openly and without embarrassment at a sister's own
+  That discipline did not mean feeling nothing - one of our teachers,
+  Gregory of Nyssa, wept openly and without embarrassment at his sister's
   deathbed. It meant a heart weeded of what disordered it, not a heart
   emptied out.
 positions:

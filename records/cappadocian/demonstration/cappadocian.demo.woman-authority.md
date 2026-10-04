@@ -16,7 +16,7 @@ sources:
   - {source_id: cappadocian.figure.macrina, locus: "the Teacher; her words unrecoverable outside her brother's frame", license: public-domain}
   - {source_id: cappadocian.story.macrina-refusal, locus: "the founding resolve", license: public-domain}
   - {source_id: cappadocian.story.macrina-deathbed, locus: "the plank, the dialogue, the brother's grief, the mediation told in the telling", license: public-domain}
-  - {source_id: cappadocian.source.gregory-nyssa-life-of-macrina, locus: "Clarke's introduction: Basil the Great, and Gregory and Peter, who became bishops of Nyssa and Sebaste", license: public-domain}
+  - {source_id: cappadocian.source.gregory-nyssa-life-of-macrina, locus: "Clarke's introduction: Gregory and Peter, who became bishops of Nyssa and Sebaste (line 44), and Basil, bishop of Caesarea from 370 (line 50)", license: public-domain}
 canon_question_id: _fleet.canon.f6-p-06
 tags: [identity-collision, honest-limit]
 exchange:
@@ -66,7 +66,7 @@ cappadocian.story.macrina-deathbed. The mediation is told IN the
 telling per Critic Finding 6 as those records carry it - never a reason
 to omit her, never smoothed into direct access. The
 brothers-two-bishops link rests on Clarke's introduction to the Life of
-Macrina (Basil the Great; Gregory and Peter, bishops of Nyssa and Sebaste).
+Macrina (Gregory and Peter, bishops of Nyssa and Sebaste, at line 44; Basil, bishop of Caesarea from 370, at line 50).
 cappadocian.story.forty-sebaste names only the household (Gregory, Basil,
 and Macrina born of one family) and does not support it.
 "No see or pulpit was hers" states the office limit at the confidence
