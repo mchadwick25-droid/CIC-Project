@@ -30,7 +30,7 @@ All of these must be true. The build thread checks the first group; Mark confirm
 - Prices, packs and the sponsor pack (ruled: $7 = 1,100 tokens, $15 = 2,750, $30 = 6,600; nothing under $7; the sponsor pack shape is open).
 - The door's numbers: the base number and thresholds are set from the observe week (Part 5, step 2). The gift and purchase shares (0.8, 0.5), the invoice factor (1.35) and the five stages ship as stated defaults in `engine/deeper/ops/go-deeper.yaml`. Change them by pull request.
 - The converted numbers: group daily ceiling 6000 tokens, low-balance warning at 100 tokens.
-- The free allowance, ruled 2026-10-04: 550 tokens in a window of 30 days that starts at a visitor's first use and refills 30 days after it (rolling, not calendar), five solo conversations of three rounds. It is kept in the meter file (a salted hash of the visitor key, a day and a number), so a deploy does not refill it. The old daily 330 is withdrawn.
+- The free allowance, ruled 2026-10-04: 550 tokens in a window of 30 days that starts at a visitor's first use and refills 30 days after it (rolling, not calendar), five solo conversations of three rounds. It is kept in the meter file (a keyed hash of the visitor key, a day and a number; the key is `CIC_DEEPER_FREE_KEY`, which is not in the file), so a deploy does not refill it. The old daily 330 is withdrawn.
 - Words: the free-allowance count line, "beside" or "under" the message box, the last-stage public line, "give at Get Involved" showing on Get Involved itself, and a line for the paid round-cap stop that says the participant's code still holds tokens.
 - Expiry, refund and lost-code policy, after a professional answers the stored-value, gift-card, unclaimed-property, sales-tax and minors questions.
 - **The minors question, answered before the first group code is sold.**
@@ -52,6 +52,7 @@ All of these must be true. The build thread checks the first group; Mark confirm
 | `CIC_API_ANON_CAP_ENABLED` | engine | `1` (`true` or `yes` also work; `on` does not and stops the start) | **Required.** The engine refuses to start with the module on and this off. |
 | `CIC_DEEPER_WEBHOOK_SECRET` | engine, secret | from Stripe | Never in the repo. |
 | `CIC_DEEPER_PRODUCTS` | engine | JSON keyed by Payment Link id | One entry per pack: kind, tokens, optional count and daily ceiling. A link not listed here mints nothing. |
+| `CIC_DEEPER_FREE_KEY` | engine, secret | at least 32 random characters | **Required.** Keys the free allowance's rows. Never written to disk or the repo. The engine refuses to start without it. Rotating or losing it refills every visitor's free window, so keep it. |
 | `CIC_DEEPER_GIFT_LINKS` | engine | JSON list of Payment Link ids | Gifts count toward the door; a link cannot be both a product and a gift. |
 | `CIC_DEEPER_SITE_ORIGIN` | engine | the site's exact origin, no `www`, no wildcard | The claim route answers only this origin. |
 | `CIC_DEEPER_OPS_FILE` | engine | optional | Defaults to `engine/deeper/ops/go-deeper.yaml`. A bad file stops the start. |

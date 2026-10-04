@@ -1527,7 +1527,7 @@ def test_a_fault_in_noting_what_the_door_would_have_done_never_changes_the_grant
 def test_what_a_visitor_has_drawn_survives_a_deploy_so_the_window_is_not_refilled(tmp_path, store, usage_store, world_loader, registry, shipped_caps):
     path = str(tmp_path / "persist.db")
     first = DeeperRuntime(
-        meter=Meter(path, clock=lambda: date(2026, 10, 5)), claims=ClaimStore(str(tmp_path / "c1.db")),
+        meter=Meter(path, clock=lambda: date(2026, 10, 5), free_key=b"k" * 32), claims=ClaimStore(str(tmp_path / "c1.db")),
         webhook_secret="whsec_x", products={}, miss_delay_seconds=0.0, ops=load_ops(),
     )
     try:
@@ -1539,7 +1539,7 @@ def test_what_a_visitor_has_drawn_survives_a_deploy_so_the_window_is_not_refille
         first.meter.close()
         first.claims.close()
     second = DeeperRuntime(
-        meter=Meter(path, clock=lambda: date(2026, 10, 5)), claims=ClaimStore(str(tmp_path / "c2.db")),
+        meter=Meter(path, clock=lambda: date(2026, 10, 5), free_key=b"k" * 32), claims=ClaimStore(str(tmp_path / "c2.db")),
         webhook_secret="whsec_x", products={}, miss_delay_seconds=0.0, ops=load_ops(),
     )
     try:

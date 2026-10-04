@@ -511,10 +511,16 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
 def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None, usage_store=None) -> DeeperRuntime:
     """The runtime for a deploy with the flag on. A missing webhook secret
     refuses to start rather than leaving the webhook open, and so does a
-    deploy without the visitor cap, which the free allowance depends on."""
+    deploy without the visitor cap or the free-allowance key, which the free allowance depends on."""
     secret = env.get("CIC_DEEPER_WEBHOOK_SECRET")
     if not secret:
         raise DeeperConfigError("CIC_DEEPER_ENABLED is on but CIC_DEEPER_WEBHOOK_SECRET is unset")
+    free_key = env.get("CIC_DEEPER_FREE_KEY")
+    if not free_key or len(free_key) < 32:
+        raise DeeperConfigError(
+            "CIC_DEEPER_ENABLED is on but CIC_DEEPER_FREE_KEY is unset or shorter than 32 characters: "
+            "the free allowance is keyed by it, and it is never written to disk"
+        )
     if env.get("CIC_API_ANON_CAP_ENABLED", "") not in ("1", "true", "yes"):
         raise DeeperConfigError(
             "CIC_DEEPER_ENABLED is on but CIC_API_ANON_CAP_ENABLED is off: the free allowance is kept per visitor, "
@@ -522,7 +528,10 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None,
         )
     ops = ops or load_ops()
     products = parse_products(env.get("CIC_DEEPER_PRODUCTS"))
-    meter = Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling, free_window_days=ops.rates.free_window_days)
+    meter = Meter(
+        config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling,
+        free_window_days=ops.rates.free_window_days, free_key=free_key.encode("utf-8"),
+    )
     door = None
     if usage_store is not None:
         door = DoorMonitor(

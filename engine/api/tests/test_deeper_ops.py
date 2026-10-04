@@ -123,7 +123,7 @@ def test_the_flag_on_refuses_to_start_on_a_bad_file(tmp_path, monkeypatch):
     monkeypatch.setenv("CIC_DEEPER_OPS_FILE", _write(tmp_path, data))
     config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
     with pytest.raises(OpsFileError):
-        deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1"})
+        deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": "k" * 40})
 
 
 def test_the_shipped_door_is_the_documented_default():
@@ -177,3 +177,34 @@ def test_the_shipped_door_starts_in_observe_mode_and_the_paid_cap_is_provisional
     ops = load_ops()
     assert ops.door_observe is True
     assert (ops.paid_round_cap, ops.paid_round_cap_provisional) == (40, True)
+
+
+@pytest.mark.parametrize("key", [None, "", "short"])
+def test_the_flag_on_refuses_to_start_without_the_free_allowance_key(tmp_path, key):
+    from engine.api import deeper_routes
+    from engine.deeper.config import DeeperConfig
+
+    env = {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1"}
+    if key is not None:
+        env["CIC_DEEPER_FREE_KEY"] = key
+    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
+    with pytest.raises(deeper_routes.DeeperConfigError):
+        deeper_routes.build_runtime(config, env)
+
+
+def test_a_started_runtime_never_writes_the_free_allowance_key_to_the_meter_file(tmp_path):
+    from engine.api import deeper_routes
+    from engine.deeper.config import DeeperConfig
+
+    key = "the-free-allowance-secret-key-0123456789"
+    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
+    rt = deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": key})
+    try:
+        rt.free.settle(rt.free.reserve("ip:198.51.100.9", 110), True)
+        rt.meter.mint("single", 100, "pi_x")
+    finally:
+        rt.meter.close()
+        rt.claims.close()
+    for path in (tmp_path / "m.db", *tmp_path.glob("m.db-*")):
+        raw = path.read_bytes()
+        assert key.encode() not in raw and b"198.51.100.9" not in raw

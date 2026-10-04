@@ -6,6 +6,12 @@ than a day: the day a code was made and the week it was last used. It keeps
 the Stripe payment id, so a refund or dispute can void a code and a sponsor's
 batch can be voided in one step.
 
+One table holds a visitor-derived value by ruling: the free allowance keeps,
+for each visitor in a free window, a keyed hash of the visitor key, the day the
+window began and the amount drawn. The key for that hash comes from the
+server's environment and is never written to this file, so the file alone
+cannot be matched to a visitor and an address cannot be recovered from it.
+
 Admission reserves a turn's tokens before the voice speaks; settling spends them,
 releasing returns them. Reservations live in memory only, so a restart gives
 every in-flight reservation back and nobody pays for a turn that never
@@ -172,8 +178,10 @@ class Meter:
         clock: Callable[[], date] = _utc_today,
         group_daily_ceiling: int = DEFAULT_GROUP_DAILY_CEILING,
         free_window_days: int = DEFAULT_FREE_WINDOW_DAYS,
+        free_key: bytes | None = None,
     ):
         self._clock = clock
+        self._free_secret = free_key if free_key is not None else secrets.token_bytes(32)
         self._free_window_days = free_window_days
         self._group_daily_ceiling = group_daily_ceiling
         self._lock = threading.RLock()
@@ -432,15 +440,11 @@ class Meter:
         return self._clock()
 
     def free_key(self, visitor: str) -> str:
-        """The free allowance's row key for a visitor key: a keyed hash, with a
-        salt made at random the first time and kept in this file. The raw key
-        is never stored."""
-        with self._lock:
-            salt = self.get_state("free_salt")
-            if salt is None:
-                salt = secrets.token_hex(32)
-                self.set_state("free_salt", salt)
-        return hmac.new(bytes.fromhex(salt), visitor.encode("utf-8"), hashlib.sha256).hexdigest()[:32]
+        """The free allowance's row key for a visitor key: a keyed hash under a
+        secret that comes from the server's environment and is never written to
+        this file. Without a secret given, one is made for this process only, so
+        what was drawn is not remembered across a restart (tests and local use)."""
+        return hmac.new(self._free_secret, visitor.encode("utf-8"), hashlib.sha256).hexdigest()[:32]
 
     def free_window_spent(self, key_hash: str) -> int:
         """What this key has drawn in its current window; 0 once the window has ended."""

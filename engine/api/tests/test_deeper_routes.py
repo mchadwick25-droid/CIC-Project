@@ -19,6 +19,7 @@ from engine.deeper.claims import ClaimStore
 from engine.deeper.config import DeeperConfig
 from engine.deeper.meter import Meter
 
+FREE_KEY = "k" * 40
 SECRET = "whsec_test_secret"
 REF = "browser-made-reference-0001"
 LINK_SINGLE = "plink_single"
@@ -479,7 +480,7 @@ def test_the_flag_on_refuses_to_start_without_a_webhook_secret(tmp_path):
     with pytest.raises(DeeperConfigError):
         deeper_routes.build_runtime(config, {})
     runtime = deeper_routes.build_runtime(
-        config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_DEEPER_SITE_ORIGIN": "https://site.example", "CIC_API_ANON_CAP_ENABLED": "1"}
+        config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_DEEPER_SITE_ORIGIN": "https://site.example", "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}
     )
     assert runtime.site_origin == "https://site.example" and runtime.products == {}
     runtime.meter.close()
@@ -702,7 +703,7 @@ def test_the_runtime_gets_a_door_only_when_given_the_usage_log(tmp_path):
     from engine.m8.log_store import UsageLogStore
 
     config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
-    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1"}
+    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}
     without = deeper_routes.build_runtime(config, env)
     assert without.door is None
     without.meter.close()
@@ -729,7 +730,7 @@ def test_a_restart_with_the_usage_log_down_still_finds_the_door_where_it_was_lef
             raise RuntimeError("usage log down")
 
     config = DeeperConfig(True, meter_path, str(tmp_path / "c.db"))
-    runtime = deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1"}, usage_store=Broken())
+    runtime = deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}, usage_store=Broken())
     state = runtime.door.state()
     assert (state.stage, state.free_voice, state.table_free_rounds) == (4, False, 0)
     runtime.meter.close()
@@ -932,7 +933,7 @@ def test_a_runtime_built_for_real_keeps_the_doors_peaks_as_the_door_is_read(tmp_
     from engine.m8.log_store import UsageLogStore
 
     config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
-    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1"}
+    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}
     rt = deeper_routes.build_runtime(config, env, usage_store=UsageLogStore(tmp_path / "usage.db"))
     try:
         assert rt.door_observe is True and rt.paid_round_cap == 40

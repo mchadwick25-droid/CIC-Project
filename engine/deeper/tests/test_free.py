@@ -7,6 +7,7 @@ from engine.deeper.free import FreeAllowance
 from engine.deeper.meter import Meter
 
 WINDOW = 550
+KEY = b"k" * 32
 
 
 class Clock:
@@ -24,7 +25,7 @@ def clock():
 
 @pytest.fixture
 def meter(tmp_path, clock):
-    m = Meter(str(tmp_path / "meter.db"), clock=clock, free_window_days=30)
+    m = Meter(str(tmp_path / "meter.db"), clock=clock, free_window_days=30, free_key=KEY)
     yield m
     m.close()
 
@@ -118,10 +119,10 @@ def test_a_reservation_alone_does_not_start_a_window(free, clock):
 
 def test_what_a_visitor_has_drawn_survives_a_restart(tmp_path, clock):
     path = str(tmp_path / "m.db")
-    first = Meter(path, clock=clock)
+    first = Meter(path, clock=clock, free_key=KEY)
     draw(FreeAllowance(first, WINDOW), "v", 400)
     first.close()
-    second = Meter(path, clock=clock)
+    second = Meter(path, clock=clock, free_key=KEY)
     try:
         assert FreeAllowance(second, WINDOW).remaining("v") == WINDOW - 400
     finally:
@@ -130,7 +131,7 @@ def test_what_a_visitor_has_drawn_survives_a_restart(tmp_path, clock):
 
 def test_the_visitor_key_is_never_written_to_the_file(tmp_path, clock):
     path = tmp_path / "m.db"
-    m = Meter(str(path), clock=clock)
+    m = Meter(str(path), clock=clock, free_key=KEY)
     draw(FreeAllowance(m, WINDOW), "ip:203.0.113.77", 100)
     draw(FreeAllowance(m, WINDOW), "visitor-cookie-abcdef", 100)
     m.close()
@@ -138,14 +139,45 @@ def test_the_visitor_key_is_never_written_to_the_file(tmp_path, clock):
     assert b"203.0.113.77" not in raw and b"visitor-cookie-abcdef" not in raw
 
 
-def test_the_same_visitor_gets_the_same_row_after_a_restart_and_two_files_do_not_agree(tmp_path, clock):
-    a, b = Meter(str(tmp_path / "a.db"), clock=clock), Meter(str(tmp_path / "b.db"), clock=clock)
+def test_the_row_key_depends_on_the_server_secret_and_nothing_stored(tmp_path, clock):
+    a = Meter(str(tmp_path / "a.db"), clock=clock, free_key=b"a" * 32)
+    b = Meter(str(tmp_path / "b.db"), clock=clock, free_key=b"b" * 32)
+    c = Meter(str(tmp_path / "c.db"), clock=clock, free_key=b"a" * 32)
     try:
-        assert a.free_key("v") == a.free_key("v")
-        assert a.free_key("v") != b.free_key("v"), "each file has its own salt, so a key means nothing outside it"
+        assert a.free_key("v") == c.free_key("v"), "the same secret gives the same row after a restart or on another file"
+        assert a.free_key("v") != b.free_key("v"), "a different secret means nothing to a file made under this one"
     finally:
         a.close()
         b.close()
+        c.close()
+
+
+def test_the_secret_is_never_written_to_the_file_and_no_salt_is_kept(tmp_path, clock):
+    import sqlite3
+
+    secret = b"super-secret-free-allowance-key!!"
+    path = tmp_path / "m.db"
+    m = Meter(str(path), clock=clock, free_key=secret)
+    draw(FreeAllowance(m, WINDOW), "v", 100)
+    m.pause(True)
+    m.close()
+    assert secret not in path.read_bytes() and secret.hex().encode() not in path.read_bytes()
+    conn = sqlite3.connect(str(path))
+    keys = [r[0] for r in conn.execute("SELECT key FROM state")]
+    conn.close()
+    assert not any("salt" in k or "free" in k for k in keys), keys
+
+
+def test_without_a_secret_a_meter_makes_one_for_the_process_only(tmp_path, clock):
+    path = str(tmp_path / "m.db")
+    first = Meter(path, clock=clock)
+    draw(FreeAllowance(first, WINDOW), "v", 400)
+    first.close()
+    second = Meter(path, clock=clock)
+    try:
+        assert FreeAllowance(second, WINDOW).remaining("v") == WINDOW, "a process-only key remembers nothing across a restart"
+    finally:
+        second.close()
 
 
 def test_a_window_that_has_ended_is_deleted_by_the_purge(free, meter, clock):
