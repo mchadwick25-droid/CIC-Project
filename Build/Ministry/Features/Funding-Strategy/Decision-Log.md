@@ -1274,15 +1274,18 @@ Mark's description of the product, 2026-10-03: the buying sits beside the conver
 - #745 notes: a, the same origin point; b, a blocked popup now opens the page in the same tab; c, the app answers the popup on every screen, not only where the code field shows.
 - New participant words from these fixes, for Mark's approval: "A code came with this link. Use it?", "You already have a code. Using this one will replace it.", "Use it", "Not now", "We couldn't get that code. Try the page where you paid."
 
-## 2026-10-03 — Go Deeper: the offer is a panel beside the conversation (Mark's second ruling)
+## 2026-10-03 — Go Deeper: the offer is a panel beside the conversation (Mark's second ruling, a named change order on S6 and S7 as built in #743, #744 and #745)
 
 **Ruling.** The offer is a panel beside the conversation. It opens at a limit or when the participant asks, never on its own. The participant pays on Stripe and returns to the same sitting. The app claims the code from the purchase reference behind the scenes and keeps it in the browser, and the sitting carries on from the pause. The participant sees a token count and nothing to copy. One opt-in line, "show my code", reveals the code for use on another device. Sponsors still hand out codes. Full text: the second ruling block on the Handoff page.
 
-**Two Stripe facts to verify before S6 and S7 ship (Mark's hands).** Whether Stripe's return redirect can carry the participant back to the exact sitting. Whether in-page checkout exists on a Payment Link. Neither is assumed.
+**The cost the ruling accepts.** Without "show my code", a cleared browser or a second device loses the balance. A member enters a sponsor's code once. Nothing in the three stores, the meter or the tests changes.
+
+**Two Stripe facts for the build thread to verify before S6 and S7 ship.** Whether Stripe's return redirect can carry the participant back to the exact sitting. Whether in-page checkout exists on a Payment Link. Neither is assumed.
 
 **What stays.** The claim route and its one-hour table, the meter, the operations file, sponsor codes, the stored list of codes, balances and the getting-low flag.
 
 **What this reshapes, one slice each, nothing built yet.**
 - The popup "Get a code" and the return page with its Copy button give way to a panel and a return to the same sitting. The return reference travels back to the app, which claims the code without showing it.
 - The "I have a code" entry stays for sponsors and for a code used on another device. The code field and the "show my code" line sit inside the panel.
+- No sitting or session id goes into any Stripe-bound URL or field (success_url parameter, client_reference_id, metadata). The return reaches the app by the purchase reference alone, and the app's own browser state finds the sitting.
 - The balance line becomes a token count. The words for the panel, the count and "show my code" are Mark's: one question when the slice is ready.
