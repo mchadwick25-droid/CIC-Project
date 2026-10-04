@@ -59,7 +59,7 @@ use_note:
     - "dismissing it as merely informal influence"
     - "generalizing from Marcella to women in this world at large"
   years: {from: 385, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Imported from the old system's fuller lexicon development document (hal_Doc_06, entry 11, "Exegesis as
 practiced authority") at Mark's direction, as a draft, not a final version. This is the single most

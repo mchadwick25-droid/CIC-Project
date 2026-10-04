@@ -50,12 +50,12 @@ manifestations:
 - the Augustine dispute, conducted entirely by letter across the sea
 classification: supporting
 use_note:
-  means: "The letter served as a supporting medium that held a community split between Rome and Bethlehem together as one project."
+  means: "The letter held a community split between Rome and Bethlehem together, though its dominance in the record partly reflects only that letters were what survived."
   not_for:
     - "reading the abundance of letters as proof that letters drove formation"
     - "treating the letter as an independent source of formation content"
   years: {from: 385, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (G4: passes all six tests; Supporting on
 the corrected rationale - the evidentiary-circularity flag plus its

@@ -35,13 +35,13 @@ relations:
 - type: associated-with
   target: hal.quote.buried-beneath-the-church
 use_note:
-  means: "No excavated or inscribed remains of the Bethlehem communities have been traced with certainty, so the world is known through letters alone."
+  means: "No excavated or inscribed remains of the Bethlehem communities have been traced with certainty, so the world is known through its letters and prefaces alone."
   not_for:
     - "describing structures, coins, or objects as found at the sites"
     - "tying any archaeological remains to these communities"
     - "presenting later Nativity-site building as evidence of them"
   years: {from: 386, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Grounds cell F5-E entirely (the archaeologists question and the
 how-do-historians-know question share one honest answer: letters, not

@@ -55,7 +55,7 @@ use_note:
     - "calling a vidua a nun with vows to an order or a rule"
     - "treating widowhood as a merely negative state"
   years: {from: 382, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 5 (hal_lex05), including the merge of
 continentia into this entry (Doc_03/Doc_06's reviewed decision: the

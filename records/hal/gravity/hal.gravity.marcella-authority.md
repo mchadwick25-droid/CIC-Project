@@ -66,7 +66,7 @@ use_note:
     - "treating it as a rival pole to the patronage system"
     - "claiming it outlived the 410 sack"
   years: {from: 385, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (G5-Marcella, Tensional). TENSION-WITH
 COVERAGE, considered explicitly and NOT forced: the reviewed Interaction

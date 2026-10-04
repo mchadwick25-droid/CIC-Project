@@ -64,7 +64,7 @@ use_note:
     - "treating the crowd's words as independently recorded"
     - "giving Blaesilla a voice or a certain cause of death"
   years: {from: 384, to: 385}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S2, told with the record's own hardest
 edge kept (the fasting-death accusation preserved by its target). Serves

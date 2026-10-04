@@ -56,7 +56,7 @@ use_note:
     - "supplying schedule-level daily detail"
     - "treating it as an order with a written rule"
   years: {from: 386, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Replaces the prior build's 'monasterium duplex' entry (Doc_06 Part B entry
 1): the reviewed anachronism caveat there ('double monastery' is later

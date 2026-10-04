@@ -49,8 +49,8 @@ use_note:
   not_for:
     - "presenting Jerome's use of praeceptor for his Bethlehem teaching as documented"
     - "reading it as a vague mentor or modern classroom teacher"
-  years: {from: 331, to: 420}
-  status: provisional
+  years: {from: 382, to: 420}
+  status: reviewed
 ---
 Imported from the old system's fuller lexicon development document (Doc_06, Tier-2 entry 3,
 "Praeceptor / teacher-disciple formation bond") at Mark's direction, as a draft, not a final version.

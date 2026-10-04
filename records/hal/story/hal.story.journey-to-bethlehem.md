@@ -62,7 +62,7 @@ use_note:
     - "treating the list of desert fathers at Nitria as a documented reception"
     - "adding dates, ship, or route detail beyond the letter"
   years: {from: 385, to: 386}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S1, with Doc_01's twice-corrected Nitria
 finding carried in absent_detail. Serves C-E (the places as tangible

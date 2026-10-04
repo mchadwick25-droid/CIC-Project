@@ -66,7 +66,7 @@ use_note:
     - "equating it with an ordained or institutional role"
     - "resolving her deference-form as her own choice"
   years: {from: 382, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S7. The refusal-of-Cerealis line is Ep.
 127 sec. 2's reported speech (verified in the vendored text: had she

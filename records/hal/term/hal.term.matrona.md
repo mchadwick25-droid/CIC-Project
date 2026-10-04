@@ -53,7 +53,7 @@ use_note:
     - "reading it as housewife or as an empty title of nobility"
     - "presenting Paula's ancestry as independently confirmed"
   years: {from: 382, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 10 (hal_lex10). The
 no-flattening caution is carried in false_friend.

@@ -45,7 +45,7 @@ use_note:
     - "presenting Ep. 46 as the women's own composition"
     - "treating the absence as a fact about the women"
   years: {from: 382, to: 420}
-  status: provisional
+  status: reviewed
 ---
 The single most consequential constraint on how this world's Representative
 can ever speak (carried from Doc_01 Open Issue 3 and Step 0's own binding

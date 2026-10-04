@@ -58,8 +58,8 @@ use_note:
     - "dismissing it as a pedantic squabble"
     - "casting Augustine as a foil or declaring either man the winner"
     - "naming the bishop of Oea"
-  years: {from: 382, to: 420}
-  status: provisional
+  years: {from: 403, to: 405}
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S3. The closing both-right note carries
 the record set's discipline on Augustine (a serious objection, never a

@@ -56,7 +56,7 @@ use_note:
     - "treating her composure and thanksgiving as documented fact"
     - "quoting her words as preserved"
   years: {from: 410, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S5. The 'be it mine to say what I have
 heard' distancing is the letter's own and is kept audible. Serves F6-P.

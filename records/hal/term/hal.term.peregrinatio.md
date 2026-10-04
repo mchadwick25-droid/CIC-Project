@@ -47,6 +47,6 @@ use_note:
     - "equating it with tourism or modern mass pilgrimage"
     - "presenting the devotional scene detail in Paula's journey as documented"
   years: {from: 385, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 Part B entry 4.

@@ -37,7 +37,7 @@ use_note:
     - "inferring how a mistress's conversion affected those she owned"
     - "treating the silence as an archival accident"
   years: {from: 382, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Part of the Absent-Stories answer carried from the prior build (Doc_02
 section 7.2, Doc_09a section 4 item 5): named explicitly, never filled by

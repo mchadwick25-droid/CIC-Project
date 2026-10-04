@@ -47,7 +47,7 @@ use_note:
     - "treating either man's account as neutral"
     - "denying that the doctrinal positions were really named and renounced"
   years: {from: 393, to: 403}
-  status: provisional
+  status: reviewed
 ---
 The corpus's one CT-tagged contest (Doc_06 entry 8, Contest Type: Meaning),
 carried as a first-class record. Voice consequence: when this story is

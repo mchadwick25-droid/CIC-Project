@@ -58,7 +58,7 @@ use_note:
     - "reading epistula as casual modern correspondence"
     - "treating a letter as mere secondary reporting on community life"
   years: {from: 385, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 7 (hal_lex07). The
 evidentiary-circularity caution from Doc_04 (G4) is carried in the

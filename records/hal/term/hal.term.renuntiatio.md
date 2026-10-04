@@ -60,7 +60,7 @@ use_note:
     - "reading it as private modern voluntary simplicity"
     - "counting three letters as three independent witnesses"
   years: {from: 382, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 3 (hal_lex03). The Contested question
 of whether the totality of self-impoverishment is fact or rhetorical

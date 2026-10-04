@@ -53,7 +53,7 @@ use_note:
     - "treating Jerome's harshest rhetoric as the whole community's voice"
     - "presenting the praise of celibacy as gentle or uncontroversial"
   years: {from: 382, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 4 (hal_lex04), with the
 Against-Jovinianus evidence (and the circulation-withdrawal episode, Epp.

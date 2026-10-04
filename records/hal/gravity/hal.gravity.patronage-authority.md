@@ -64,7 +64,7 @@ use_note:
     - "treating patronage as a minor funding detail"
     - "presenting Jerome's account of the financial mechanics as independently confirmed"
   years: {from: 382, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (G3: strongest overall, strongest
 bipolar-holding candidate; the interpretive frame independently supported

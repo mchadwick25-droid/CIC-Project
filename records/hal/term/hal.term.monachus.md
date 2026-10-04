@@ -37,12 +37,12 @@ senses:
 quick_meaning: A monk - the ordinary word for a male ascetic.
 distortion_risk: low
 use_note:
-  means: "The ordinary word for a male ascetic, mapping onto the modern word monk, for men who are never individually named in surviving sources."
+  means: "The ordinary word for a male ascetic, close to the modern monk, used of the Bethlehem men's community, whose members no surviving source names."
   not_for:
     - "supplying names or individual stories for the Bethlehem men"
     - "claiming a documented inner life for the men's community"
-  years: {from: 382, to: 420}
-  status: provisional
+  years: {from: 385, to: 420}
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 15 (hal_lex15). Retrieval tier 3
 (ambient vocabulary): low distortion risk, names the structurally present

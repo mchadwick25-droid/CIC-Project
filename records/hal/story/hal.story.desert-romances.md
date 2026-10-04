@@ -57,8 +57,8 @@ use_note:
   not_for:
     - "presenting the adventures as biography or history"
     - "treating Malchus or Hilarion's deeds as documented"
-  years: {from: 386, to: 420}
-  status: provisional
+  years: {from: 390, to: 391}
+  status: reviewed
 ---
 Derived from Doc_09a S9 (Tier 3 on the named-individual
 criterion). Serves F4-I as formation-ideal

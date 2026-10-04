@@ -42,8 +42,8 @@ use_note:
     - "stating Jerome's birth year or death day as settled"
     - "giving a single death year for Eustochium or Fabiola"
     - "presenting the 360s-370s Aventine household dating as documented"
-  years: {from: 331, to: 420}
-  status: provisional
+  years: {from: 384, to: 420}
+  status: reviewed
 ---
 Consolidates the dating contests flagged across Doc_01 (Open Issues 1, 8;
 sections 1.1-1.2) so no downstream record resolves them silently.

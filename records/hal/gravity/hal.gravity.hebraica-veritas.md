@@ -69,9 +69,9 @@ use_note:
   not_for:
     - "asserting Jerome's maximal Hebrew fluency as settled"
     - "presenting the principle as uncontested in its own time"
-    - "treating a primary gravity as a settled consensus"
+    - "taking the fluency contest as undoing the principle's organizing role in the translation project"
   years: {from: 382, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (G1: passes all six tests; bipolar
 geography holds - Rome origin and dispute-network, Bethlehem the sustained

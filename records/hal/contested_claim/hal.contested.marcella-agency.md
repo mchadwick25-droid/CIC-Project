@@ -41,7 +41,7 @@ use_note:
     - "denying her scriptural learning, which his letters independently show"
     - "generalizing from Marcella to women's authority in this world"
   years: {from: 385, to: 410}
-  status: provisional
+  status: reviewed
 ---
 The single most consequential Author Gravity constraint in this world: the
 strongest attested instance of the women's independent agency is also

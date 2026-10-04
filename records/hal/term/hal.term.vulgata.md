@@ -49,7 +49,7 @@ use_note:
     - "presenting the Vulgate as an already-standard church-wide text"
     - "using the later name Vulgata as this world's own word"
   years: {from: 382, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 2 (hal_lex02). The anachronism
 discipline (Doc_01 section 7's corrected reception finding) is carried in

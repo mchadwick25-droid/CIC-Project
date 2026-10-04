@@ -66,7 +66,7 @@ use_note:
     - "narrating it as a documented specific day"
     - "inventing names or lives for the unnamed members"
   years: {from: 386, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S10 (composite of attested elements; the
 horarium discipline carried - the closing sentence of the text keeps the

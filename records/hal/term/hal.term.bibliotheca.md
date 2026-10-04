@@ -55,7 +55,7 @@ use_note:
     - "picturing a large modern library or public institution"
     - "stating the collection's size or holdings"
   years: {from: 386, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Imported from the old system's fuller lexicon development document (hal_Doc_06, Tier-2 entry 6,
 "Bibliotheca") at Mark's direction, as a draft, not a final version. The old record's citation of a

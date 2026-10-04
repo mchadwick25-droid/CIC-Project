@@ -57,7 +57,7 @@ use_note:
     - "attributing this world's authority to ordained office"
     - "presenting Jerome's account of the financial mechanics as independently confirmed"
   years: {from: 382, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 6 (hal_lex06). Anchors
 hal.gravity.patronage-authority (Primary). The Doc_01 section 8.1

@@ -57,7 +57,7 @@ use_note:
     - "imagining modern hospital scale or staffing"
     - "treating the foundation as independently attested"
   years: {from: 382, to: 399}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_06 entry 14 (hal_lex14). The Latin-text
 verification (Ep. 77.6: 'Et primo omnium nosokomeion instituit, in quo

@@ -53,13 +53,13 @@ manifestations:
 - Jerome's combative self-presentation, formed by and forming the disputes
 classification: supporting
 use_note:
-  means: "Doctrinal and textual dispute was a supporting pressure across the span, from the Origenist rupture through the Augustine contest to the 416 attack."
+  means: "Dispute, from the Origenist rupture to the 416 attack, pressed on the world's primary commitments and shaped it, without being a formation practice of its own."
   not_for:
     - "treating controversy as an independent formation practice"
     - "resolving the doctrinal-versus-political weight of the disputes"
     - "naming the 416 attackers"
   years: {from: 393, to: 416}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_04 (G6, Supporting - classification settled there and
 not reopened by the forces notation). Confidence split carried: events Documented, the substance of

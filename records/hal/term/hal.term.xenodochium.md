@@ -56,7 +56,7 @@ use_note:
     - "stating the hostels' scale"
     - "merging the Bethlehem and Portus foundations"
   years: {from: 386, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 Part B entry 2, carrying the addendum's
 cross-reference discipline (the Bethlehem and Portus foundations kept

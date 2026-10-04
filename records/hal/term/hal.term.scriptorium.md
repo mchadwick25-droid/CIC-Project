@@ -54,7 +54,7 @@ use_note:
     - "presenting a scriptorium as a documented, named institution"
     - "describing a distinct building or office for copying"
   years: {from: 386, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Imported from the old system's fuller lexicon development document (hal_Doc_06, Tier-3 entry 1,
 "Scriptorium") at Mark's direction, as a draft, not a final version. The old record's own

@@ -38,13 +38,14 @@ relations:
 - type: associated-with
   target: hal.quote.they-have-left-untold-the-name
 use_note:
-  means: "This world falls after the persecutions and has no martyr stories of its own, only the unnamed dead of the 416 attack."
+  means: "This world falls after the persecutions and holds no martyr stories of its own, its only violent deaths being the unnamed victims of the 416 attack by fellow Christians."
   not_for:
     - "claiming martyrs or martyr-acts for this world"
     - "speaking of martyrdom from lived experience"
     - "treating the 416 dead as sought martyrs"
+    - "telling Pliny's account of the tortured enslaved women as this world's own story"
   years: {from: 382, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Grounds cell F6-E entirely. The one-honest-limit-per-cell rule applies (no
 other record claims F6-E). The Pliny-derived canon question is answered by

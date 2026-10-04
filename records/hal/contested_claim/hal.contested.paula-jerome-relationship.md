@@ -53,7 +53,7 @@ use_note:
     - "presenting Palladius's account as the settled truth"
     - "denying that Paula founded, funded, and governed the foundations"
   years: {from: 385, to: 404}
-  status: provisional
+  status: reviewed
 ---
 A contest the prior build carried implicitly (Doc_02's Palladius entry and
 Author Gravity assessment) and this record makes first-class: the two

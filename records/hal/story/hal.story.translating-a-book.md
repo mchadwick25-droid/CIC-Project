@@ -67,7 +67,7 @@ use_note:
     - "attributing the method to the whole community"
     - "treating the secret Hebrew teacher as independent evidence of fluency"
   years: {from: 386, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S11, with its boundary-case tier reasoning
 carried whole. Serves F2-I (how they read and rendered) and F5-I (work).

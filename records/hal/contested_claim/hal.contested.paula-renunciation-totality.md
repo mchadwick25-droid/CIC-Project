@@ -39,8 +39,8 @@ use_note:
     - "asserting ledger-level totality of her renunciation as fact"
     - "denying that she spent an enormous fortune on foundations and charity"
     - "treating Ep. 108's debt claim as independently checked"
-  years: {from: 385, to: 404}
-  status: provisional
+  years: {from: 382, to: 404}
+  status: reviewed
 ---
 Carried from Doc_02 sections 1.2/6 and Doc_05's construction notes. Voice
 consequence: the voice may say she gave until her household called her

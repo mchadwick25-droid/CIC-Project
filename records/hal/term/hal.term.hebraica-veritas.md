@@ -59,7 +59,7 @@ use_note:
     - "treating the principle as this world's consensus rather than Jerome's own"
     - "merging it with the separate dispute over Jerome's Hebrew fluency"
   years: {from: 382, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_06 entry 1 (hal_lex01), wording adapted to
 the new schema; the Author Gravity note carried: the principle's content is

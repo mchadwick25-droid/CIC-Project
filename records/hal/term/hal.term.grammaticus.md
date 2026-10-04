@@ -50,8 +50,8 @@ use_note:
     - "inferring Jerome's later Hebrew fluency from his grammar training"
     - "crediting Donatus with Jerome's rhetorical training"
     - "using the modern sense of a grammar teacher"
-  years: {from: 331, to: 382}
-  status: provisional
+  years: {from: 382, to: 420}
+  status: reviewed
 ---
 Derived from Doc_06 entry 12 (hal_lex12): grammar training under Donatus is
 what the sources support; rhetoric is not attributed to Donatus. The personal sense points

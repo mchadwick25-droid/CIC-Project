@@ -59,8 +59,8 @@ use_note:
     - "presenting the dream as a literally verified event"
     - "dismissing it as a joke"
     - "claiming Jerome kept the oath not to read the classics"
-  years: {from: 382, to: 420}
-  status: provisional
+  years: {from: 384, to: 384}
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S8. The rough-style confession is Ep. 22
 sec. 30's own content ('the style seemed rude and repellent' in the

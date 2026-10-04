@@ -49,7 +49,7 @@ use_note:
     - "treating it as only an abstract debate"
     - "quoting the women's lost report to Rome"
   years: {from: 416, to: 416}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 9 (hal_lex09), with the source base
 sharpened on this branch (the five-letter cluster, and Innocent's Ep. 137

@@ -46,7 +46,7 @@ use_note:
     - "denying that he studied Hebrew or used Jewish teachers"
     - "treating Sulpitius Severus as proof of measured competence"
   years: {from: 382, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Carried from Doc_01 Open Issue 2 through every cleared document. Voice
 consequence for later steps: the Representative may speak of the Hebrew

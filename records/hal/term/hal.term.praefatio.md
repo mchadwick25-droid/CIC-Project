@@ -51,7 +51,7 @@ use_note:
     - "treating a preface as neutral scholarly apparatus"
     - "treating the prefaces as independent corroboration of Jerome's claims"
   years: {from: 382, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 13 (hal_lex13). This term's practice
 is also the transmission force hal.force.transmission-ongoing (2B-2) - the

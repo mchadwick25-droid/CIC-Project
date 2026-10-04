@@ -57,7 +57,7 @@ use_note:
     - "favoring Rufinus's or Jerome's account of the dispute"
     - "treating it as a purely abstract theological disagreement"
   years: {from: 393, to: 403}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 8 (hal_lex08), the corpus's one
 CT-tagged term - Contest Type: Meaning (doctrinal-vs-political weight),

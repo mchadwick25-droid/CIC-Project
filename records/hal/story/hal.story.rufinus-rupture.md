@@ -62,7 +62,7 @@ use_note:
     - "presenting Jerome's account as the neutral one"
     - "giving Rufinus's lost letters to Jerome"
   years: {from: 393, to: 403}
-  status: provisional
+  status: reviewed
 ---
 Derived from Doc_09a S3a.
 The CT contest (hal.contested.origenist-substance) is stated inside

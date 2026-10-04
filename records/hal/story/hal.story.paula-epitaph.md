@@ -61,7 +61,7 @@ use_note:
     - "asserting the completeness of her poverty as fact"
     - "telling it without the closing acknowledgment that her own voice was not kept"
   years: {from: 382, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S6. Formation-ideal usage only: told AS
 the community's ideal, never as scene-level biography. The
