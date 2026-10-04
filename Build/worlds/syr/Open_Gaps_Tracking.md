@@ -80,7 +80,7 @@ Outstanding, unrelated to the above: project-lead confirmation of Living Traditi
 - 19(1). The defect claim was wrong. `syr.dw.born-again-endtimes` is right to cite Demonstration VI (Of Monks) for the second birth; the NPNF file has it at line 26174. The Demonstration VII.20 passage is in the Hallock file, which does not contain it. The wrong-locus sentence is removed from `syr.quote.warned-before-baptism`'s divergence note and body, and its quote locus now gives line 47.
 - 19(2). `syr.quote.warned-before-baptism` now says the passage speaks only to adult candidates and does not answer the infant-baptism question. Its infant trigger is replaced by one about what candidates were told.
 - 19(3). `syr.quote.blc-one-name` now quotes through "we abstain from taking sustenance" (lines 68966-68976), with a rendering that carries each clause. Its use note now says the passage gives abstaining on reading days.
-- 19(4). Socrates VII.8 mentions no synod and no close (lines 19172-19176). `syr.dw.decides` cites it only for the king's grant and now names `syr.source.gedsh` for the 410 synod. `syr.quote.permitted-to-erect-churches` drops the claim of a council with Maruthas present, and its triggers now fit the grant.
+- 19(4). Socrates VII.8 mentions no synod and no close (lines 19172-19176). `syr.dw.decides` cites it only for the king's grant and now names Bar Hebraeus (vendored) for the 410 synod. `syr.quote.permitted-to-erect-churches` drops the claim of a council with Maruthas present, and its triggers now fit the grant.
 - 19(5). The world ends at the 410 synod, so `syr.dw.unsettled` now says the synod came "at the very end" of our years, as `syr.dw.decides` does.
 - 19(6). `syr.dw.decides` trigger now reads "the head of the Persian church", not "the catholicos".
 - 19(7). The two baptism triggers in `syr.dw.was-jesus-god` are replaced by triggers on Jesus' divinity and the Trinity.
@@ -94,7 +94,7 @@ Outstanding, unrelated to the above: project-lead confirmation of Living Traditi
 - 19(15). `syr.gravity.diatessaron-normative` now points to `syr.force.transmission-ending`.
 
 Still open:
-- The 410 synod rests on GEDSH, which is consulted but not vendored. No vendored text confirms it.
+- The 410 synod rests on Bar Hebraeus, a 13th-century chronicle in a Latin translation whose footnote text is poorly scanned. It gives the 410 date only in the editor's footnote.
 - The Martyrologium Hieronymianum and the Chronicon Paschale, cited for Jacob's death year, are not vendored.
 - The 341 and 344 dates for Simeon rest on `syr.figure.simeon-bar-sabbae`, not on a vendored text.
 - No Doc_ file carries these errors, so none needs correction.

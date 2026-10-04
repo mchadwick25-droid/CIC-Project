@@ -49,8 +49,8 @@ use_note:
   status: reviewed
 ---
 This quote serves F1-E as the royal-permission strand. Socrates VII.8 reports the king's grant and
-mentions no synod. syr.dw.decides cites VII.8 for the grant only; the synod of 410 rests on the GEDSH
-entry named there.
+mentions no synod. syr.dw.decides cites VII.8 for the grant only; the synod of 410 rests on the
+Bar Hebraeus entry named there.
 
 Registered ETIC to match syr.source.socrates-historia-ecclesiastica: this is a Greek historian's notice
 about a Persian church, and the world's own voice is not in it. That is part of what the cell has to

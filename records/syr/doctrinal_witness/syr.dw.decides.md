@@ -23,9 +23,9 @@ sources:
 - source_id: syr.source.socrates-historia-ecclesiastica
   locus: VII.8 (the king lets Maruthas build churches)
   license: public-domain
-- source_id: syr.source.gedsh
-  locus: the synod of 410 and its settled order
-  license: in-copyright-consultation
+- source_id: syr.source.bar-hebraeus-chronicon-ecclesiasticum
+  locus: the synod under Isaac and Maruthas (cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt, lines 2962-2973; the editor's footnote dates it 410, lines 2991-2992)
+  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
