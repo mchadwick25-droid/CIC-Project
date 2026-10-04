@@ -36,6 +36,13 @@ concedes: 'What is Documented: the victory itself, the toleration that followed,
   Constantine''s alliance with the church is as well-attested as anything in this world; it is the inner
   experience behind it that the sources cannot settle.'
 divergence_partners: []
+use_note:
+  means: "On one reading, Constantine genuinely converted at the Milvian Bridge through a heaven-sent sign; the earliest accounts differ and his inner experience is unrecoverable."
+  not_for:
+    - "a claim that the two earliest accounts reconcile into one clean story"
+    - "a claim about what Constantine himself believed, and when"
+  years: {from: 312, to: 312}
+  status: provisional
 ---
 Rebuilt from the reviewed Doc_02 SS4/SS8 (Contested tier: "the exact
 content and intent behind Constantine's conversion vision"). Both

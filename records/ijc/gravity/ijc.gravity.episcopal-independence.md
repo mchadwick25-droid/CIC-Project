@@ -60,6 +60,13 @@ manifestations:
   of this gravity's own capacity for harm, not only for good
 - Thessalonica (390) - an emperor excluded from the offering until public penance, after a massacre
 - the demonstrated limit that Strand A's later confidence absorbs without adopting its ground
+use_note:
+  means: "A bishop's authority to refuse an emperor rests on sacramental and moral leverage, not his see's rank, and is bounded to one career."
+  not_for:
+    - "a claim that this leverage was uniformly a force for restraint"
+    - "a claim that a later actor in the window asserted authority on this same ground"
+  years: {from: 386, to: 390}
+  status: provisional
 ---
 Rebuilt from the reviewed Doc_04 Candidate 4 (Supporting; Repetition
 and Persistence fail at world level by Doc_01's own finding - Strand C

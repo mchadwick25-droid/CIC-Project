@@ -45,6 +45,12 @@ manifestations:
 - Ambrose's leverage over Theodosius - moral-sacramental authority outranking positional command, once
 - Damasus's epigraphy - sanctity converted into primacy-supporting institutional capital
 - Leo's preaching - the apostle-martyrs as the argument for the see's rank
+use_note:
+  means: "Authority from sanctity and sacrament and authority from office never merge in this record; the tension is managed, never resolved, under every force."
+  not_for:
+    - "a claim that the tension between sacramental and positional authority was resolved"
+  years: {from: 312, to: 451}
+  status: provisional
 ---
 Rebuilt from the reviewed Doc_04 Candidate 6 (Tensional; passes all six
 tests as a persistent counter-force; no Cross-Check divergence).

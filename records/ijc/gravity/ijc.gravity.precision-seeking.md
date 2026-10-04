@@ -41,6 +41,12 @@ manifestations:
 - Nicaea choosing the contested word over the scriptural-sounding looser one
 - the Definition of Chalcedon's four adverbs - without confusion, change, division, separation
 - the Tome arguing two natures with a jurist's care for what each phrase concedes
+use_note:
+  means: "A drive to state the faith in words exact enough to bind, from homoousios at Nicaea to two natures at Chalcedon, serving primacy and enforcement."
+  not_for:
+    - "a claim that precision-seeking was an independently organizing gravity of the world"
+  years: {from: 325, to: 451}
+  status: provisional
 ---
 Rebuilt from the reviewed Doc_04 Candidate 5 (Supporting - restored
 from the first draft's wrongful disqualification, an integrity

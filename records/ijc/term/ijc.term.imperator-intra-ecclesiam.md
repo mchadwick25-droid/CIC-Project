@@ -54,6 +54,13 @@ senses:
     the emperor INTO the Church''s own life and discipline; what it denies him is mastery over what belongs
     to God, not membership in the body that guards it.'
 quick_meaning: The emperor belongs inside the Church like any believer - he does not stand above it.
+use_note:
+  means: "\"The emperor is within the Church, not over it\" is Ambrose's basilica-crisis word: a ruler is under her discipline and cannot command the altar."
+  not_for:
+    - "a claim that this formula is the modern separation of church and state"
+    - "a claim that this formula is about which see outranks which"
+  years: {from: 386, to: 386}
+  status: provisional
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 1;
 Lexicon-Chunks/ijclex005_imperator_intra_ecclesiam.md). Strand C's

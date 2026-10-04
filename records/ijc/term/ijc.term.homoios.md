@@ -62,6 +62,13 @@ senses:
     word was argued, enforced, reversed, and re-enforced across half a century, in both directions, with
     the state''s weight behind whichever confession the reigning emperor held.'
 quick_meaning: The teaching that the Son is "like" the Father - for years the empire's own official faith.
+use_note:
+  means: "Homoios means \"like the Father\": the confession that the Son is like the Father, as scripture says, with no further word about shared being."
+  not_for:
+    - "a claim that \"Arian\" labels a fringe, always-defeated heresy"
+    - "a claim that the Homoian confession was a simple denial that the Son is divine"
+  years: {from: 312, to: 451}
+  status: provisional
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 1;
 Lexicon-Chunks/ijclex003_homoios.md) - the binding Homoian-recentering

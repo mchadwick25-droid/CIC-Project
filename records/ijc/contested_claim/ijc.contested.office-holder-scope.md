@@ -37,6 +37,12 @@ concedes: 'Confirmed for the office-holding, literate, urban actors the record a
   their interior lives is a fact about transmission, not about them. Held open, never filled by
   invention.'
 divergence_partners: []
+use_note:
+  means: "On one reading, the juridical, office-centered Christianity the record preserves was also what ordinary Christians lived; the record's silence on their lives leaves this open."
+  not_for:
+    - "a claim about how ordinary believers received the laws and canons addressed to them"
+  years: {from: 312, to: 451}
+  status: provisional
 ---
 The world's central honest limit made a first-class record - the ijc
 counterpart of Alexandria's ecology-wide-primacy claim, and the guard

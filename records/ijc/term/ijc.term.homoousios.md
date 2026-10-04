@@ -59,6 +59,13 @@ senses:
     Father and Son of one being, the Spirit worshiped with them; the century''s whole argument was over
     exactly this.'
 quick_meaning: The Nicene word saying the Son shares the Father's own being - truly God, not just like God.
+use_note:
+  means: "Homoousios means \"of one substance with the Father\": the Nicene word binding the Son to the Father as one and the same being."
+  not_for:
+    - "a claim that the formula was settled and uncontested from the moment Nicaea spoke it"
+    - "a claim that the word was taken directly from scripture"
+  years: {from: 325, to: 451}
+  status: provisional
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 2;
 Lexicon-Chunks/ijclex006_homoousios.md). The Eusebius hedged-subscription

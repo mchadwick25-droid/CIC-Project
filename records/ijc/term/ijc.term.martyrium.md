@@ -46,6 +46,12 @@ senses:
   translational: Not a relic-market superstition and not a private cemetery - closer to a public memorial
     landscape built to carry an institutional claim.
 quick_meaning: A shrine honoring a martyr - in Rome, also a public sign of the see's own long memory.
+use_note:
+  means: "A martyrium is a martyr's shrine honoring those who kept faith under persecution; in Rome's hands it also spoke for the see's standing."
+  not_for:
+    - "a claim that martyr-cult here was itself the devotional center of the world"
+  years: {from: 312, to: 451}
+  status: provisional
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 3;
 Lexicon-Chunks/ijclex012_martyrium.md). The deliberately narrowed scope

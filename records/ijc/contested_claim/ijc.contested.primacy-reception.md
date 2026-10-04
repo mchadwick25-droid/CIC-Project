@@ -48,6 +48,13 @@ divergence_partners:
 - the modern Roman Catholic papacy's own claimed unbroken lineage from this window's Petrine claim
 - modern historical scholarship reading the same window as a developing discourse, not yet settled papal
   authority (Demacopoulos 2013)
+use_note:
+  means: "On one reading, Rome's primacy claim was generally received as binding in this window; the record shows it contested, so this is disputed."
+  not_for:
+    - "a claim that Canon 28 or Julius's opponents accepted Rome's review"
+    - "a claim that the window's Roman claim is already the later papacy"
+  years: {from: 341, to: 451}
+  status: provisional
 ---
 Rebuilt from the reviewed Doc_06 SS3's primatus CT entry (Contest Type:
 Relationship to present-day traditions) plus Doc_02 SS2's Leo Author

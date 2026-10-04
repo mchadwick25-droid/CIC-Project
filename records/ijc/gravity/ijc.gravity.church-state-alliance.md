@@ -55,6 +55,12 @@ manifestations:
 - Constantine convening Nicaea and calling himself a bishop of those outside
 - the Thessalonica law making one confession the empire's own
 - Ambrose's confrontations - the alliance's limits asserted from inside it
+use_note:
+  means: "From Constantine's victory and the Milan agreement onward, church office is a form of state-adjacent power, patronized and legislated for, and never again simply private."
+  not_for:
+    - "a claim that the alliance held in a stable form regardless of the reigning emperor"
+  years: {from: 312, to: 451}
+  status: provisional
 ---
 Derived from Doc_04 Candidate 2 (Primary; passes all six
 tests; Documented; the ONLY gravity confirmed cross-strand to all three

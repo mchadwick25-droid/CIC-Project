@@ -60,6 +60,12 @@ manifestations:
 - Damasus's epigraphic program - primacy argued to pilgrims in stone
 - Leo's Tome received at Chalcedon as the see of Peter speaking
 - Canon 3 and Canon 28 - the same drive on the imperial-proximity ground, contested by Rome in writing
+use_note:
+  means: "A recurring drive to fix a see's standing as enforceable right: Rome on apostolic succession, Constantinople on imperial proximity, on different grounds."
+  not_for:
+    - "a claim that the Roman and Constantinopolitan claims rested on the same ground"
+  years: {from: 341, to: 451}
+  status: provisional
 ---
 Rebuilt from the reviewed Doc_04 Candidate 1 (Primary; passes all six
 tests; Confidence/Gravity Cross-Check: no divergence - Documented for

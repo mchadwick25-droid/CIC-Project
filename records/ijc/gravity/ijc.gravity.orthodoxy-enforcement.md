@@ -51,6 +51,12 @@ manifestations:
 - pro-Nicene bishops deposed and exiled under Constantius II and Valens
 - the Thessalonica law (380) reversing the direction with the same machinery
 - Chalcedon's settlement backed by imperial convening and enforcement
+use_note:
+  means: "State power recurrently polices the church's confessional boundary, a mechanism that outlives its content: Homoian under Constantius II and Valens, Nicene under Theodosius."
+  not_for:
+    - "a claim that the Ambrosian strand's orthodoxy-defense ran through imperial power"
+  years: {from: 312, to: 451}
+  status: provisional
 ---
 Derived from Doc_04 Candidate 3 (Primary; passes all six
 tests; the one gravity with a REAL Confidence/Gravity Cross-Check

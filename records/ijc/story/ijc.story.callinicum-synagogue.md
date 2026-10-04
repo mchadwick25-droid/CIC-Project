@@ -60,6 +60,13 @@ modern_contrast: >-
   shield arsonists from restitution and deny an already-wronged community any recourse; the moral
   valence inverts, and this record names that inversion rather than letting the leverage read as
   uniformly admirable.
+use_note:
+  means: "In 388 at Callinicum, Ambrose used his sacramental leverage to protect those who burned a synagogue; the Jewish community has no voice in the record."
+  not_for:
+    - "a claim that Ambrose's resistance here was principled courage like his other standoffs"
+    - "a claim that his version of events is independently corroborated"
+  years: {from: 388, to: 388}
+  status: provisional
 ---
 This record states what the command actually was and
 why it was reversed: the same leverage this world
