@@ -22,6 +22,7 @@ MINIMUM_PACK_USD = 7
 LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
 DOOR_KEYS = ("observe", "base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
 PAID_KEYS = ("round_cap", "provisional")
+ADMIN_KEYS = ("mint_max_tokens_per_request", "mint_max_tokens_per_day")
 STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_share", "free_voice", "paid_voice"}
 
 
@@ -43,6 +44,8 @@ class DeeperOps:
     door_observe: bool
     paid_round_cap: int
     paid_round_cap_provisional: bool
+    admin_mint_max_tokens_per_request: int
+    admin_mint_max_tokens_per_day: int
 
 
 def _section(data: dict, name: str, keys: tuple[str, ...]) -> dict:
@@ -160,8 +163,8 @@ def load_ops(path: str | None = None) -> DeeperOps:
             data = yaml.safe_load(handle)
     except (OSError, yaml.YAMLError) as exc:
         raise OpsFileError(f"cannot read {path}: {exc}") from exc
-    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "paid", "words"}:
-        raise OpsFileError("the file must hold exactly limits, tokens, door, paid and words")
+    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "paid", "admin", "words"}:
+        raise OpsFileError("the file must hold exactly limits, tokens, door, paid, admin and words")
     limits = _section(data, "limits", LIMIT_KEYS)
     for key, value in limits.items():
         if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
@@ -181,8 +184,14 @@ def load_ops(path: str | None = None) -> DeeperOps:
         raise OpsFileError("paid.round_cap must be a positive whole number")
     if not isinstance(paid["provisional"], bool):
         raise OpsFileError("paid.provisional must be true or false")
+    admin = _section(data, "admin", ADMIN_KEYS)
+    for key, value in admin.items():
+        _whole(value, f"admin.{key}")
+    if admin["mint_max_tokens_per_request"] > admin["mint_max_tokens_per_day"]:
+        raise OpsFileError("admin.mint_max_tokens_per_request cannot exceed admin.mint_max_tokens_per_day")
     return DeeperOps(
         group_daily_ceiling=limits["group_daily_ceiling"],
         group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
         door_observe=data["door"]["observe"], paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
+        admin_mint_max_tokens_per_request=admin["mint_max_tokens_per_request"], admin_mint_max_tokens_per_day=admin["mint_max_tokens_per_day"],
     )

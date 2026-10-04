@@ -15,6 +15,12 @@ If a change made while turning this on would break either sentence, stop and esc
 
 Mark owns every item marked **Mark**. The build thread does the rest and reports. Nothing marked **Mark** is done by the build thread, and nothing goes to production without Mark's promotion (`CiC_Promotion_Runbook.md`).
 
+## Where the module is run from
+
+Three places, one kind of control each. **Stripe** holds money: the pack links, the sponsor link and one-per-person discount codes. The **admin dashboard** (behind the admin login) holds the live day: the pause switch, the mint page, the door's current stage and the day's tiles, all with effect at once. The **operations file** (`engine/deeper/ops/go-deeper.yaml`, changed by pull request) holds the shape of the offer: token prices, pack sizes, the free grant, the door's base number and thresholds, and the admin mint limits. The free grant has no live dial: the door moves the free table by its stages, and the baseline stays a line in the file.
+
+The mint page makes codes with no payment. The codes show once on the page; copy them before leaving it. If a response is lost, cancel the mint id it showed in the dashboard's cancel box (it takes a mint id or a payment id) and make them again. Each grant counts toward the door as a gift of the packs' price.
+
 ## Part 1 — Before the staging rehearsal
 
 All of these must be true. The build thread checks the first group; Mark confirms the second.

@@ -36,6 +36,9 @@ door:
 paid:
   round_cap: 40
   provisional: true
+admin:
+  mint_max_tokens_per_request: 6600
+  mint_max_tokens_per_day: 13200
 words:
   limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
   notes:

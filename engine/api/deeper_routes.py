@@ -16,6 +16,7 @@ import hashlib
 import hmac
 import json
 import logging
+import secrets
 import threading
 import time
 from dataclasses import dataclass, field
@@ -33,7 +34,7 @@ from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
 from engine.deeper.config import DeeperConfig
 from engine.deeper import meter as meter_module
-from engine.deeper.meter import KINDS, AlreadyMinted, Meter, PaymentVoided
+from engine.deeper.meter import KINDS, AlreadyMinted, Meter, MintLimit, PaymentVoided, is_grant
 from engine.deeper.free import FreeAllowance
 from engine.deeper.tokens import TokenRates
 
@@ -245,7 +246,8 @@ def apply_refund(runtime: DeeperRuntime, payment: str) -> int:
     cannot report (a partial one, or any made while the module was off)."""
     voided = runtime.meter.void(payment)
     runtime.meter.void_funds(payment)
-    runtime.meter.tally("refunds_applied", voided)
+    if not is_grant(payment):
+        runtime.meter.tally("refunds_applied", voided)
     return voided
 
 
@@ -327,6 +329,15 @@ class PauseRequest(BaseModel):
 
 class VoidRequest(BaseModel):
     payment_id: str = Field(..., min_length=1, max_length=200)
+
+
+MINT_MODES = ("one_code", "separate")
+
+
+class MintRequest(BaseModel):
+    pack_usd: int = Field(..., description="The price of one of the offer's packs; its tokens are what each unit holds")
+    count: int = Field(..., ge=1, le=meter_module.MAX_BATCH_COUNT)
+    mode: str = Field(..., description="one_code: a single code holding count packs. separate: count codes of one pack each")
 
 
 class FundsRequest(BaseModel):
@@ -454,6 +465,67 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         authenticate_admin(request, authorization)
         runtime.meter.pause(req.on)
         return {"paused": runtime.meter.is_paused()}
+
+    @app.post("/api/admin/deeper/mint")
+    def mint_codes(req: MintRequest, request: Request, response: Response, authorization: str | None = Header(default=None)):
+        """Makes codes with no payment: the operator's own grant. The codes come
+        back in this response only; the meter keeps their hashes and nothing
+        else, so a lost response is voided by its mint id, never recovered. The
+        grant counts toward the door as a gift of the packs' price, never a sale."""
+        authenticate_admin(request, authorization)
+        if runtime.ops is None:
+            raise HTTPException(status_code=404)
+        if req.mode not in MINT_MODES:
+            raise HTTPException(status_code=422, detail=f"mode must be one of {list(MINT_MODES)}")
+        pack = next((p for p in runtime.ops.packs if p.price_usd == req.pack_usd), None)
+        if pack is None:
+            raise HTTPException(status_code=422, detail="that price is not one of the offer's packs")
+        total = pack.tokens * req.count
+        if total > runtime.ops.admin_mint_max_tokens_per_request:
+            raise HTTPException(status_code=422, detail=f"one request may grant at most {runtime.ops.admin_mint_max_tokens_per_request} tokens")
+        grant_id = "admin_" + secrets.token_hex(12)
+        kind, tokens, count = ("single", total, 1) if req.mode == "one_code" else ("batch", pack.tokens, req.count)
+        try:
+            made = runtime.meter.mint(
+                kind, tokens, grant_id, count, source="admin", daily_token_limit=runtime.ops.admin_mint_max_tokens_per_day,
+            )
+        except MintLimit:
+            raise HTTPException(status_code=429, detail="today's grant limit is reached; it resets tomorrow")
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc))
+        try:
+            runtime.meter.add_funds("gift", req.pack_usd * req.count * 100, grant_id, "admin grant")
+        except ValueError:
+            logger.error("admin grant made but its gift could not be counted toward the door")
+        response.headers["Cache-Control"] = "no-store"
+        return {"mint_id": grant_id, "tokens_each": tokens, "codes": [codes.display(c) for c in made]}
+
+    @app.get("/api/admin/deeper/grants")
+    def grants(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        return {"grants": runtime.meter.grants(2)}
+
+    @app.get("/api/admin/deeper/status")
+    def status(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        ops = runtime.ops
+        state = runtime.door.state() if runtime.door is not None else None
+        window = runtime.token_rates.free_window
+        share = state.free_share if state is not None and not runtime.door_observe else 1.0
+        return {
+            "paused": runtime.meter.is_paused(),
+            "door": None if state is None else {
+                "stage": state.stage, "observe": runtime.door_observe, "free_voice": state.free_voice, "paid_voice": state.paid_voice,
+            },
+            "free_grant": {
+                "baseline_tokens": window, "window_days": runtime.token_rates.free_window_days,
+                "rounds_per_conversation": runtime.token_rates.free_rounds, "now_tokens": int(window * share),
+            },
+            "packs": [{"price_usd": p.price_usd, "tokens": p.tokens} for p in ops.packs] if ops is not None else [],
+            "mint_limits": None if ops is None else {
+                "tokens_per_request": ops.admin_mint_max_tokens_per_request, "tokens_per_day": ops.admin_mint_max_tokens_per_day,
+            },
+        }
 
     @app.post("/api/admin/deeper/void")
     def void_payment(req: VoidRequest, request: Request, authorization: str | None = Header(default=None)):

@@ -70,6 +70,12 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["paid"].pop("provisional"),
         lambda d: d["door"].pop("observe"),
         lambda d: d["door"].update(observe="yes"),
+        lambda d: d.pop("admin"),
+        lambda d: d["admin"].pop("mint_max_tokens_per_day"),
+        lambda d: d["admin"].update(mint_max_tokens_per_request=0),
+        lambda d: d["admin"].update(mint_max_tokens_per_day=True),
+        lambda d: d["admin"].update(mint_max_tokens_per_request=99999),
+        lambda d: d["admin"].update(extra=1),
     ],
 )
 def test_a_malformed_file_is_refused(tmp_path, change):
@@ -177,6 +183,12 @@ def test_the_shipped_door_starts_in_observe_mode_and_the_paid_cap_is_provisional
     ops = load_ops()
     assert ops.door_observe is True
     assert (ops.paid_round_cap, ops.paid_round_cap_provisional) == (40, True)
+
+
+def test_the_shipped_mint_limits_hold_at_least_the_largest_pack():
+    ops = load_ops()
+    assert ops.admin_mint_max_tokens_per_request >= max(p.tokens for p in ops.packs)
+    assert ops.admin_mint_max_tokens_per_request <= ops.admin_mint_max_tokens_per_day
 
 
 @pytest.mark.parametrize("key", [None, "", "short"])

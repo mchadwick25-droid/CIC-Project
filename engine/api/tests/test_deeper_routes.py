@@ -13,6 +13,7 @@ from fastapi.testclient import TestClient
 
 from engine.api import deeper_routes
 from engine.api.app import create_app
+from engine.api.deeper_ops import load_ops
 from engine.api.deeper_routes import DeeperConfigError, DeeperRuntime, Product, parse_products, verify_signature
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore
@@ -943,3 +944,149 @@ def test_a_runtime_built_for_real_keeps_the_doors_peaks_as_the_door_is_read(tmp_
     finally:
         rt.meter.close()
         rt.claims.close()
+
+
+# ---- admin mint (S13) ----------------------------------------------------------
+
+@pytest.fixture
+def minting(runtime):
+    runtime.ops = load_ops()
+    return runtime
+
+
+def mint(http, pack_usd=7, count=1, mode="separate", headers=None):
+    return http.post("/api/admin/deeper/mint", json={"pack_usd": pack_usd, "count": count, "mode": mode}, headers=headers or admin())
+
+
+def test_mint_needs_the_admin_credential_and_a_json_body(http, minting):
+    body = {"pack_usd": 7, "count": 1, "mode": "separate"}
+    assert http.post("/api/admin/deeper/mint", json=body).status_code == 404
+    assert http.post("/api/admin/deeper/mint", json=body, headers=admin("wrong")).status_code == 404
+    refused = http.post("/api/admin/deeper/mint", content=json.dumps(body), headers={**admin(), "content-type": "text/plain"})
+    assert refused.status_code == 422
+    assert minting.meter.reconciliation(1) == []
+
+
+def test_mint_separate_makes_that_many_codes_of_one_pack_each(http, minting):
+    made = mint(http, count=3).json()
+    assert len(made["codes"]) == 3 and made["tokens_each"] == 1100
+    assert made["mint_id"].startswith("admin_")
+    for code in made["codes"]:
+        assert minting.meter.status(code).tokens_total == 1100
+        assert minting.meter.status(code).kind == "batch"
+
+
+def test_mint_one_code_holds_the_whole_amount(http, minting):
+    made = mint(http, pack_usd=15, count=2, mode="one_code").json()
+    assert len(made["codes"]) == 1 and made["tokens_each"] == 2750 * 2
+    assert minting.meter.status(made["codes"][0]).kind == "single"
+
+
+def test_mint_is_never_a_payment_or_a_sale(http, minting):
+    mint(http, count=2)
+    day = minting.meter.reconciliation(1)[0]
+    assert (day["payments_seen"], day["payments_minted"], day["codes_minted"], day["gap"]) == (0, 0, 0, 0)
+    assert (day["admin_codes_minted"], day["pilot_codes_minted"]) == (2, 0)
+    row = minting.meter.measures(1)[0]
+    assert (row["tokens_granted"], row["tokens_sold"], row["codes_batch"]) == (2200, 0, 0)
+    assert minting.meter.owed() == []
+
+
+def test_mint_counts_toward_the_door_as_a_gift_of_the_packs_price(http, minting):
+    mint(http, count=3)
+    assert minting.meter.net_funds(7)["gift"] == 2100
+
+
+def test_mint_refuses_what_is_not_a_pack_a_bad_mode_or_too_much(http, minting):
+    assert mint(http, pack_usd=9).status_code == 422
+    assert mint(http, mode="all").status_code == 422
+    assert mint(http, count=0).status_code == 422
+    assert mint(http, pack_usd=30, count=2).status_code == 422
+    assert minting.meter.reconciliation(1) == []
+
+
+def test_mint_stops_at_the_days_token_limit_and_resets_tomorrow(tmp_path, http, minting):
+    limit = minting.ops.admin_mint_max_tokens_per_day
+    per = minting.ops.admin_mint_max_tokens_per_request
+    assert mint(http, pack_usd=30, count=1).status_code == 200
+    assert mint(http, pack_usd=30, count=1).status_code == 200
+    assert 6600 * 2 == limit and per == 6600
+    refused = mint(http, count=1)
+    assert refused.status_code == 429
+    assert minting.meter.reconciliation(1)[0]["admin_codes_minted"] == 2
+    assert minting.meter.net_funds(7)["gift"] == 6000
+
+
+def test_a_mint_is_voided_by_its_id_and_its_gift_leaves_the_door(http, minting):
+    made = mint(http, count=2).json()
+    voided = http.post("/api/admin/deeper/void", json={"payment_id": made["mint_id"]}, headers=admin()).json()
+    assert voided["voided"] == 2
+    assert all(minting.meter.status(c).status == "void" for c in made["codes"])
+    assert minting.meter.net_funds(7).get("gift", 0) == 0
+    assert minting.meter.reconciliation(1)[0]["refunds_applied"] == 0
+
+
+def test_mint_never_logs_a_code(http, minting, caplog):
+    caplog.set_level(logging.DEBUG)
+    made = mint(http).json()
+    plain = made["codes"][0].replace(" ", "")
+    assert plain not in caplog.text and made["codes"][0] not in caplog.text
+    assert mint(http).headers["cache-control"] == "no-store"
+
+
+def test_a_grant_id_cannot_be_used_by_a_purchase_or_the_wrong_source(minting):
+    with pytest.raises(ValueError):
+        minting.meter.mint("single", 100, "admin_x")
+    with pytest.raises(ValueError):
+        minting.meter.mint("single", 100, "pi_x", source="admin")
+    with pytest.raises(ValueError):
+        minting.meter.mint("single", 100, "admin_x", source="pilot")
+
+
+def test_status_shows_the_live_day_read_only(http, minting):
+    body = http.get("/api/admin/deeper/status", headers=admin()).json()
+    assert body["paused"] is False and body["door"] is None
+    assert body["free_grant"] == {"baseline_tokens": 550, "window_days": 30, "rounds_per_conversation": 3, "now_tokens": 550}
+    assert [p["price_usd"] for p in body["packs"]] == [7, 15, 30]
+    assert body["mint_limits"] == {"tokens_per_request": 6600, "tokens_per_day": 13200}
+    assert http.get("/api/admin/deeper/status").status_code == 404
+
+
+def test_an_older_reconcile_table_gains_the_grant_columns(tmp_path):
+    import sqlite3
+    path = str(tmp_path / "old.db")
+    conn = sqlite3.connect(path)
+    conn.execute(
+        "CREATE TABLE reconcile (day TEXT PRIMARY KEY, payments_seen INTEGER NOT NULL DEFAULT 0, payments_minted INTEGER NOT NULL DEFAULT 0,"
+        " payments_voided_first INTEGER NOT NULL DEFAULT 0, codes_minted INTEGER NOT NULL DEFAULT 0, refunds_applied INTEGER NOT NULL DEFAULT 0,"
+        " partial_refunds_ignored INTEGER NOT NULL DEFAULT 0) WITHOUT ROWID"
+    )
+    conn.execute("INSERT INTO reconcile (day) VALUES (?)", (str(date(2026, 10, 4)),))
+    conn.commit()
+    conn.close()
+    meter = Meter(path, clock=lambda: date(2026, 10, 5))
+    meter.mint("single", 100, "admin_a", source="admin")
+    days = {d["day"]: d for d in meter.reconciliation(5)}
+    assert days[str(date(2026, 10, 4))]["admin_codes_minted"] == 0 and days[str(date(2026, 10, 5))]["admin_codes_minted"] == 1
+    meter.close()
+
+
+def test_a_voided_grant_still_counts_toward_the_days_limit(minting):
+    from engine.deeper.meter import MintLimit
+
+    meter = minting.meter
+    limit = minting.ops.admin_mint_max_tokens_per_day
+    meter.mint("single", limit, "admin_one", source="admin", daily_token_limit=limit)
+    meter.void("admin_one")
+    with pytest.raises(MintLimit):
+        meter.mint("single", 1, "admin_two", source="admin", daily_token_limit=limit)
+
+
+def test_the_grants_list_names_each_grant_without_its_codes(http, minting):
+    made = mint(http, count=2).json()
+    (row,) = http.get("/api/admin/deeper/grants", headers=admin()).json()["grants"]
+    assert row["grant_id"] == made["mint_id"] and row["codes"] == 2 and row["tokens"] == 2200 and row["codes_void"] == 0
+    assert not any(c.replace(" ", "") in json.dumps(row) for c in made["codes"])
+    http.post("/api/admin/deeper/void", json={"payment_id": made["mint_id"]}, headers=admin())
+    assert http.get("/api/admin/deeper/grants", headers=admin()).json()["grants"][0]["codes_void"] == 2
+    assert http.get("/api/admin/deeper/grants").status_code == 404
