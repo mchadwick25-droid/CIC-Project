@@ -123,9 +123,8 @@ one into the other.
 
 WHAT IS NOT CLAIMED ABOUT 411. The verdict is not carried here, in either direction. The numbered
 acts read for don.story.conference-of-carthage-411 break off before any sentence is pronounced, and
-this world makes no claim about how it received the verdict - Doc_08's own Open Item 1 stands
-unresolved, with the vendored Gesta transcript read only for the Donatist bishops' recorded
-interventions and not in full.
+this world makes no claim about how it received the verdict. The vendored Gesta transcript has been
+read only for the Donatist bishops' recorded interventions and not in full.
 
 AUGUSTINE'S LETTER 185 IS CARRIED AT WHAT THE COMPILED RECORDS ATTEST. That it defends compulsion,
 grounds the defence on Luke 14:23, is addressed to the tribune Boniface around 417, and records

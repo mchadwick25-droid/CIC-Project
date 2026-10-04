@@ -149,16 +149,15 @@ confirming this candidate's character. Both carried as associated-with, with SS6
 qualifier carried in the description above rather than dropped. NOT CARRIED: Doc_04 SS6's prose
 names no relationship between this candidate and G1, G2, G3, G4, or T1. Those pairs are absent from
 the prose summary rather than declared absent; none is manufactured here. FORCES-CONNECTION (Doc_08
-SS5, Force Index row D-A: 2A-1, 2B-4): both carried as associated-with. Doc_08 Open Item 2 reads the
+SS5, Force Index row D-A: 2A-1, 2B-4): both carried as associated-with. Doc_08 reads the
 narrowness of this count deliberately - two connections, narrower than every Primary or Supporting
 gravity's own count - as CONSISTENT WITH, not contradicting, Doc_04 SS3.5's finding that this
 candidate carries the sharpest confidence divergence in the whole gravity-discovery document, and
 explicitly declines to manufacture additional force connections to bring the count closer to its
-peers. This record makes the same refusal. STANDING OPEN ITEM CARRIED FORWARD, NOT RESOLVED (Doc_04
-SS7): whether this phenomenon's regional concentration in Numidia reflects a genuine sub-ecology
-worth its own dedicated treatment at a later construction stage, or is simply this world's own
-Numidian strength expressing itself in one further, evidentially thin way. Doc_04 names it for
-Doc_05's judgment and does not decide it. A SEPARATE, POPULATION-LEVEL LIMIT NAMED BY DOC_04 SS5 AND
+peers. This record makes the same refusal. UNDECIDED (Doc_04 SS7): whether this
+phenomenon's regional concentration in Numidia reflects a genuine sub-ecology worth its own
+dedicated treatment, or is simply this world's own Numidian strength expressing itself in one
+further, evidentially thin way. Doc_04 names the question and does not decide it. A SEPARATE, POPULATION-LEVEL LIMIT NAMED BY DOC_04 SS5 AND
 KEPT HERE: the Cross-Voice Test is a source-mediation test, not a population-mediation one, and
 Doc_04 does not claim it covers the question of whether a different population or sub-group might
 organise around different gravities. The one place genuine population or regional variation surfaces

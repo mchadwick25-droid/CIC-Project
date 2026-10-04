@@ -177,10 +177,9 @@ Force Index gives 1A-1 a single connected gravity, G3; Doc_08 SS5's own G1 entry
 among G1's connected forces; and Doc_04 SS3.1's own forces-connection for this gravity names Cells
 1B and 2B only. Two of the three synthesis statements exclude the link and one Layer-3 sentence
 asserts it. This record follows the two synthesis tables and does not carry a 1A-1 link, and the
-variance is recorded here rather than resolved. OPEN ITEM CARRIED FORWARD, NOT RESOLVED (Doc_04 SS7,
-standing item from Doc_02 SS9 item 14): whether the Psalmus contra Partem Donati's own full text
-(vendored, Registry row 37) contains verbatim further material bearing on this gravity's
-argumentative texture - the Maximianist-restoration rhetorical question currently sourced only to
-row 31's summary - remains unread. A future pass could strengthen or complicate the
-Confidence/Gravity Cross-Check above. Canon_cells left empty, matching this world's gravity and
+variance is recorded here. The Psalmus contra Partem Donati's own full text (vendored, Registry row
+37) is unread, so whether it contains verbatim further material bearing on this gravity's
+argumentative texture is not known (Doc_04 SS7, from Doc_02 SS9 item 14). The Maximianist-restoration
+rhetorical question is sourced only to row 31's summary. That material could strengthen or complicate
+the Confidence/Gravity Cross-Check above. Canon_cells left empty, matching this world's gravity and
 force records generally.

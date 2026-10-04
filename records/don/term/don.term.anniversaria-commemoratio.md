@@ -72,4 +72,4 @@ use_note:
   years: {from: 311, to: 439}
   status: reviewed
 ---
-Built from Doc_06 SS1 entry 014 (Tier 3, 'No change'). register is emic-unavailable because the naming phrase is Mabillon's editorial apparatus; Doc_03 SS6's open item on modern editorial mediation as a distinct risk class, which Doc_06 did not act on, is carried here.
+Built from Doc_06 SS1 entry 014 (Tier 3, 'No change'). register is emic-unavailable because the naming phrase is Mabillon's editorial apparatus; Doc_03 SS6 names modern editorial mediation as a distinct risk class, and Doc_06 did not act on it; this record holds that risk.

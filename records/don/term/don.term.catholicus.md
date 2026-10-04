@@ -74,4 +74,4 @@ use_note:
   years: {from: 311, to: 439}
   status: reviewed
 ---
-Built from Doc_06 SS1 entry 007 (Tier 2, no promotion forwarded). No deployment chunk built this cycle. Doc_03 SS6's open item on modern editorial mediation (Mabillon/Monceaux as a different kind of risk from ancient Author Gravity), which Doc_06 did not act on, is carried in divergence_note.
+Built from Doc_06 SS1 entry 007 (Tier 2, no promotion forwarded). No deployment chunk built this cycle. Doc_03 SS6 names modern editorial mediation (Mabillon/Monceaux as a different kind of risk from ancient Author Gravity), and Doc_06 did not act on it; divergence_note holds that risk.

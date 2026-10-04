@@ -18,9 +18,9 @@ confidence:
     turns a formal legal self-designation into an accusation -- the dominant Author-Gravity concentration for
     this naming material (Doc_03 Cluster 2). Two further qualifications are carried rather than hidden: this term
     was never run through Doc_04''s six-test gravity apparatus as an independent candidate (it carries no G-number
-    and no Cross-Check finding; Doc_06 SS3 corroborates it for Tier-1 lexicon purposes only), and Doc_03 SS6''s
-    open item -- whether Augustine says ''Donatist'' or ''the party of Donatus'', and in which contexts -- has
-    still not been checked.'
+    and no Cross-Check finding; Doc_06 SS3 corroborates it for Tier-1 lexicon purposes only), and whether
+    Augustine says ''Donatist'' or ''the party of Donatus'', and in which contexts (Doc_03 SS6), has not
+    been checked.'
 sources:
 - source_id: don.source.optatus-against-the-donatists
   locus: Book III -- the 313 petition text, 'of the party of Donatus', lines 1954-1958

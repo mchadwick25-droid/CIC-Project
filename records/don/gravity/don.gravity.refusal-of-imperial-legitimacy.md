@@ -188,11 +188,11 @@ feeding this gravity in Doc_08's own account. Doc_08 SS5 is careful about the su
 record repeats its care: the 'most direct forces-connection of any gravity' belongs to 3A-1 and 3A-2
 in COMBINATION, per Doc_04 SS3.7's own 'together' finding, not to either force alone - Doc_08's
 split of Doc_04's single Cell-3A finding into two distinct forces does not move the superlative onto
-either half. AN OPEN INTEGRATION TASK CARRIED FORWARD, NOT RESOLVED (Doc_08 SS5 'Where Forces
-Analysis Surfaced Gaps' and Open Item 1): this world's own Donatist-voiced reception of the 411
+either half. THE 411 VERDICT'S RECEPTION (Doc_08 SS5 'Where Forces
+Analysis Surfaced Gaps'): this world's own Donatist-voiced reception of the 411
 verdict is no longer referenced-only - the Gesta Collationis Carthaginiensis, which records Emeritus
 of Caesarea and the other Donatist bishops speaking at length on their own side of the exchange, is
-vendored (Registry row 55) - but reading that transcript for this specific claim has not been done,
+vendored (Registry row 55) - but that transcript has not been read for this specific claim,
 and Doc_08 declines to let the hostile record's account of the verdict stand in for it. This record
 makes no claim about how this world received the verdict. Canon_cells left empty, matching this
 world's gravity and force records generally.

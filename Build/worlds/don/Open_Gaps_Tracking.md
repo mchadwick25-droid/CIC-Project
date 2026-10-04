@@ -863,3 +863,16 @@ Not fixed; content for this world's build thread. Drafting found: (1) `don.quote
 The Opus review found: (7) both Macrobius stories and several witness texts call Macrobius bishop of the Carthage congregation; the vendored Mabillon note (monumenta-vetera-donatistarum_migne-pl8.txt near line 1496) makes him the Donatist bishop hidden at Rome, and Donatus held Carthage in 347. (8) `don.dw.older-than-the-schism` says nothing is traced before Cyprian, against Petilian's appeal to Agrippinus (c. 220; npnf104 near line 10587). (9) `don.limit.the-room-we-cannot-show-you` says "No one has dug it"; Numidian churches have been excavated (Timgad), and what is missing is a report in this world's source list. (10) `don.limit.theology-beyond-tyconius` says the council condemned Tyconius for the seven rules; the c. 380 condemnation concerned his ecclesiology, and the rules are probably later. (11) `don.story.lucilla-consecration-dispute` modern_contrast adopts Optatus's framing that doctrine came after the split, which the record's own caveat rejects. (12) `don.dw.the-creed-we-shared` and `who-jesus-was-among-us` say no one called the Donatists heretics; imperial law from 405 and Augustine did. (13) `don.contested.cirta-reserved-to-the-lord` says Optatus is the only account; Augustine preserves the Cirta acts (Contra Cresconium III.27), and the Donatists disputed their date in 411. (14) Five pairs of gravity records largely duplicate each other (martyrs, parallel hierarchy, rebaptism, refusal/recourse, rigor/reception).
 
 Status: OPEN.
+
+### OG-24. Open items moved out of record bodies (slice 6 live-surface rule), 2026-10-04.
+
+- `don.contested.refusal-of-imperial-legitimacy`: Doc_08 Open Item 1, how this world received the 411 verdict, is not settled; the Gesta transcript has been read only for the Donatist bishops' interventions and not in full.
+- `don.gravity.circumcellion-agonistici`: Doc_04 SS7 asks whether the phenomenon's regional concentration in Numidia reflects a genuine sub-ecology worth its own treatment or only this world's Numidian strength; Doc_04 names it for Doc_05 and nothing has decided it.
+- `don.gravity.ministerial-purity`: Doc_04 SS7 (from Doc_02 SS9 item 14) asks whether the full text of the Psalmus contra Partem Donati (Registry row 37) holds further verbatim material bearing on this gravity; it remains unread.
+- `don.gravity.refusal-of-imperial-legitimacy`: Doc_08 Open Item 1, integration of the Donatist-voiced reception of the 411 verdict, is not done; the Gesta Collationis Carthaginiensis (Registry row 55) has not been read for this claim.
+- `don.term.anniversaria-commemoratio`: Doc_03 SS6's item on modern editorial mediation as a distinct risk class was not acted on by Doc_06.
+- `don.term.catholicus`: Doc_03 SS6's item on modern editorial mediation (Mabillon/Monceaux) was not acted on by Doc_06.
+- `don.term.ecclesia`: Doc_03 SS6's item, whether Augustine says "Donatist" or "the party of Donatus" and in which contexts, has not been checked.
+- `don.term.pars-donati`: the same Doc_03 SS6 item on Augustine's usage has not been checked.
+
+Status: OPEN.

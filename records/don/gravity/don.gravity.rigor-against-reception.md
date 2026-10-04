@@ -136,7 +136,7 @@ here, deliberately. NOT CARRIED, AND DISTINCT FROM THE ABOVE: Doc_04 SS6's prose
 relationship between this tension and G3 or G5. Those pairs are absent from the prose summary rather
 than declared absent, and this record keeps that distinction rather than treating silence as a
 finding. FORCES-CONNECTION (Doc_08 SS5, Force Index row T2: 2B-4 alone): carried as enabled-by,
-because Doc_08's own verb is 'the direct engine of T2' and Doc_08 Open Item 2 states that this
+because Doc_08's own verb is 'the direct engine of T2' and Doc_08 states that this
 tension's entire evidentiary base IS the Maximianist affair - a founding relation, not a shaping
 one. Reciprocal precondition-for declared on don.force.maximianist-fracture. A HOMONYM HAZARD KEPT
 IN VIEW (world_core caution 7): the Maximian of this schism, a deposed deacon of 393, is a different
