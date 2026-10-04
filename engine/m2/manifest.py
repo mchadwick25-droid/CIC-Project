@@ -30,12 +30,26 @@ def build_manifest(
         "files": files,
         "coverage_summary": canon_summary.coverage_summary(records, fleet),
         "floors": canon_summary.declared_floors(records),
+        "use_notes": use_note_summary(records),
         "compat": {
             "min_runtime": None,
             "max_runtime": None,
             "note": "no runtime exists yet (M4 is stage 5); this package predates runtime versioning",
         },
     }
+
+
+def use_note_summary(records: dict) -> dict:
+    """How many of the package's voiced citable records carry a reviewed use
+    note, a provisional one, or none. A provisional note is unreviewed."""
+    from engine.m1.gates import USE_NOTE_TYPES
+    from engine.m1.loader import voiced_records
+
+    counts = {"reviewed": 0, "provisional": 0, "missing": 0}
+    for record in voiced_records(records).values():
+        if record.get("record_type") in USE_NOTE_TYPES:
+            counts[(record.get("use_note") or {}).get("status", "missing")] += 1
+    return counts
 
 
 def manifest_hash(manifest: dict) -> str:

@@ -282,6 +282,20 @@ defects:
     mutation: {op: set_field, path: text, value: "I did not see him. I only saw what his enemies could not stop telling."}
     expected_failure: "\"enemies\" for \"witnesses\" is a substituted word, not an allowed difference class (whitespace/case/punctuation/ellipsis/bracket/verse_number/apparatus) - verify_quote_text fails the segment"
 
+  - id: use-note-missing
+    gate: use-note-present
+    layer: M1
+    target_record: records/fix/term/fix.term.the-way.md
+    mutation: {op: delete_field, path: use_note}
+    expected_failure: "a voiced term with no use_note cannot carry its meaning beside it - the use-note gate must fail it"
+
+  - id: use-note-means-as-instruction
+    gate: use-note-shape
+    layer: M1
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: set_field, path: use_note.means, value: "Use this only when asked about eyewitnesses. It is about trust."}
+    expected_failure: "use_note.means is two sentences and opens as an instruction; a note describes what the record means in one sentence"
+
   - id: inertness-proof
     gate: inertness
     layer: M1
