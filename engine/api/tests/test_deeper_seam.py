@@ -369,6 +369,17 @@ def limit_setup(name, store, usage_store, world_loader, registry, runtime, clien
         runtime.door = StubDoor(free_voice=False, paid_voice=False)
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         session_id, auth = open_session(http, **{"X-Cic-Code": code_with(runtime, 500)})
+    elif name == "paid_round_cap":
+        runtime.token_rates = dataclasses.replace(runtime.token_rates, free_rounds=1)
+        runtime.paid_round_cap = 1
+        http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+        session_id, auth = open_session(http, **{"X-Cic-Code": code_with(runtime, 5000)})
+        assert say(http, session_id, auth, "q0").status_code == 200
+    elif name == "observe_closed":
+        runtime.door_observe = True
+        runtime.door = StubDoor(free_voice=False, paid_voice=False)
+        http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+        session_id, auth = open_session(http)
     elif name == "free_rounds_done":
         runtime.token_rates = dataclasses.replace(runtime.token_rates, free_rounds=1)
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
@@ -381,8 +392,9 @@ def limit_setup(name, store, usage_store, world_loader, registry, runtime, clien
 
 LIMITS = [
     "session_limit", "daily_limit", "free_cap", "zero_balance", "paused", "wrong_code", "module_error", "facilitator_only",
-    "free_day_spent", "free_rounds_done", "door_free_closed", "door_paid_closed",
+    "free_day_spent", "free_rounds_done", "door_free_closed", "door_paid_closed", "paid_round_cap",
 ]
+SAFETY_LIMITS = [*LIMITS, "observe_closed"]
 SAFETY = [
     ("acute", dict(safety=ACUTE), "safety_turn"),
     ("unclear", dict(safety=UNCLEAR), "check_in_turn"),
@@ -390,7 +402,7 @@ SAFETY = [
 ]
 
 
-@pytest.mark.parametrize("limit", LIMITS)
+@pytest.mark.parametrize("limit", SAFETY_LIMITS)
 @pytest.mark.parametrize("label,client_kwargs,expected", SAFETY, ids=[s[0] for s in SAFETY])
 def test_a_safety_route_is_answered_at_every_limit(
     limit, label, client_kwargs, expected, store, usage_store, world_loader, registry, runtime
@@ -1478,3 +1490,34 @@ def test_a_fault_in_observe_mode_still_leaves_the_free_grant(runtime, monkeypatc
 
     monkeypatch.setattr(runtime.free, "reserve", down)
     assert _grant_for(runtime, code=None, completed=1).cap >= 1
+
+
+def test_a_second_finish_does_not_count_an_observed_turn_again(runtime):
+    from engine.api.deeper_admission import Admission
+
+    _observing(runtime, free_voice=False)
+    admission = Admission(runtime, None, session_id="s", free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
+    admission.provider(0, False)
+    admission.finish(True)
+    admission.finish(True)
+    assert runtime.meter.measures(1)[0]["observed_free_refused"] == 1
+
+
+def test_a_turn_with_no_code_past_the_cap_is_not_counted_as_the_paid_cap(runtime):
+    runtime.paid_round_cap = 3
+    _turn(runtime, code=None, completed=runtime.token_rates.free_rounds + 5)
+    assert "paid_round_cap" not in _refusals(runtime)
+    assert sum(_refusals(runtime).values()) == 1
+
+
+def test_a_fault_in_noting_what_the_door_would_have_done_never_changes_the_grant(runtime, monkeypatch):
+    from engine.api.deeper_admission import Admission
+
+    _observing(runtime, free_voice=False)
+
+    def broken(*_a, **_k):
+        raise RuntimeError("note failed")
+
+    monkeypatch.setattr(Admission, "_observe", broken)
+    grant = _turn(runtime, code=None, completed=0)
+    assert grant.cap == 1 and grant.limit_text is None

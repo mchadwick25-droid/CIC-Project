@@ -123,12 +123,15 @@ class Admission:
         door = door_module.OPEN if self._runtime.door_observe else computed
         try:
             grant = self._decide(completed, limited, door)
-            if self._runtime.door_observe:
-                self._observe(completed, limited, computed)
-            return grant
         except Exception:  # noqa: BLE001 - a fault must never open what the door has closed
             logger.exception("deeper admission faulted; the grant keeps to the door")
             return self._grant_in_a_fault(completed, limited, door)
+        if self._runtime.door_observe:
+            try:
+                self._observe(completed, limited, computed)
+            except Exception:  # noqa: BLE001 - noting what the door would have done never changes the grant
+                logger.exception("deeper admission could not note what the door would have done")
+        return grant
 
     def _observe(self, completed: int, limited: bool, computed: door_module.DoorState) -> None:
         """Notes what the door would have refused, had it been narrowing, on a turn it let through."""

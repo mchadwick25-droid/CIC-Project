@@ -470,7 +470,7 @@
   function renderObserveNote(door) {
     const note = document.getElementById("deeper-observe-note");
     note.textContent = door && door.observe
-      ? "Observe mode: the door is worked out every minute but narrows nothing. The door columns show what it would have done each day, so the base number and thresholds can be set from them."
+      ? "Observe mode: the door is worked out every minute but narrows nothing. The door columns show what it would have done each day, so the base number and thresholds can be set from them. They count turns the door would have refused outright; halving the free day at a stage is not counted, so read the peaks for how close the week came."
       : "";
   }
   async function loadDeeper() {
