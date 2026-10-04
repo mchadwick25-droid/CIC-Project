@@ -114,12 +114,14 @@ def client_ip(request: Request) -> str:
 def network_of(address: str) -> str:
     """The key to count a visitor under when one person can hold many addresses:
     an IPv6 address becomes its /64, the block a single home or phone connection
-    is given; an IPv4 address, or anything that does not parse, is unchanged."""
+    is given, and an IPv4-mapped one becomes its IPv4 address; an IPv4 address, or anything that does not parse, is unchanged."""
     try:
         ip = ipaddress.ip_address(address)
     except ValueError:
         return address
     if isinstance(ip, ipaddress.IPv6Address):
+        if ip.ipv4_mapped is not None:
+            return str(ip.ipv4_mapped)
         return str(ipaddress.ip_network(f"{ip}/64", strict=False))
     return address
 

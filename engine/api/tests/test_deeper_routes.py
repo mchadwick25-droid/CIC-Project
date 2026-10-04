@@ -1219,3 +1219,13 @@ def test_an_address_row_is_kept_for_ninety_days_and_then_deleted(runtime):
         meter.purge()
         assert meter._conn.execute("SELECT COUNT(*) FROM pilot_joined").fetchone()[0] == kept
     assert meter.pilot_total() == 1
+
+
+def test_the_deeper_rate_limit_counts_one_ipv6_block_as_one_visitor(store, usage_store, world_loader, registry, runtime):
+    http = TestClient(make_app(store, usage_store, world_loader, registry, deeper=runtime, rate_limit=True))
+    statuses = [
+        http.get("/api/deeper/balance", headers={"x-forwarded-for": f"2001:db8:5:6::{n}"}).status_code for n in range(1, 61)
+    ]
+    assert 429 not in statuses
+    assert http.get("/api/deeper/balance", headers={"x-forwarded-for": "2001:db8:5:6:ffff::9"}).status_code == 429
+    assert http.get("/api/deeper/balance", headers={"x-forwarded-for": "2001:db8:5:7::1"}).status_code != 429
