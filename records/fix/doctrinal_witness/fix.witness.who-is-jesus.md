@@ -24,6 +24,13 @@ text: >
   We did not claim to have seen him ourselves. We claimed only that the ones who
   told us could not be talked out of what they had seen, and that this was worth
   our lives changing because of it.
+use_note:
+  means: "Testland's faith in Jesus rests on witnesses it trusted, not on its own sight."
+  not_for:
+    - "a claim that Testland saw Jesus"
+    - "a claim about Jesus beyond what the witnesses told"
+  years: {from: 100, to: 100}
+  status: provisional
 ---
 Substantive coverage for the CENTER cell C-I; the highest-priority cell per
 Appendix A canon maintenance rule 5 (tested first at every admission). Also the
