@@ -93,6 +93,17 @@ class UsageLogStore:
             ).fetchall()
         return [_row_to_record(r) for r in rows]
 
+    def read_since(self, since_iso: str) -> list[UsageRecord]:
+        """Every record written at or after an ISO UTC time, oldest first. The
+        one windowed read: the door's rolling week is built on it."""
+        with self._connect() as conn:
+            rows = conn.execute(
+                "SELECT trace_id, session_id, call_kind, model_id, provider, usage_json, created_at, world_key FROM usage_log "
+                "WHERE created_at >= ? ORDER BY created_at ASC",
+                (since_iso,),
+            ).fetchall()
+        return [_row_to_record(r) for r in rows]
+
     def read_for_session(self, session_id: str) -> list[UsageRecord]:
         with self._connect() as conn:
             rows = conn.execute(
