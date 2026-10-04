@@ -20,6 +20,9 @@ sources:
 - source_id: ijc.source.eusebius-vita-constantini
   locus: IV.61-64 (Constantine's deathbed baptism, npnf201 from line 67742)
   license: public-domain
+- source_id: ijc.source.paulinus-vita-ambrosii
+  locus: ch. 9 (Ambrose baptized, then consecrated bishop on the eighth day; Kaniecka 1928 lines 3324-3328)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
@@ -67,10 +70,5 @@ use_note:
 F4-T's "born again" question answered through the record's three great
 documented baptisms - the world's real material for the translational
 ask, with the inward-experience gap stated rather than filled.
-Leo's own Sermons IX-X preach a real
-proportional-giving discipline (see ijc.dw.collections-discipline).
-Only the end-times question remains genuinely thin: speculation about
-the end is not this record's genre, and no comparable material was
-found for it.
 
 The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.

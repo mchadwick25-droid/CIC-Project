@@ -13,8 +13,8 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources: []
-author: "Eusebius of Caesarea (c. 260-339 CE)"
-work: "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition"
+author: "Eusebius of Caesarea (c. 260 - late 339 or early 340 CE)"
+work: "Vita Constantini (The Life of Constantine), written after Constantine's death in 337 and before Eusebius's own, with the Oration of Constantine appended in this edition"
 edition: "Bagster translation revised by Ernest Cushing Richardson, Nicene and Post-Nicene Fathers series 2 vol. 1 (1890), vendored as cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
 kind: vendored
 rights_status: public-domain
