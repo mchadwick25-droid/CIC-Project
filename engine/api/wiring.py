@@ -386,8 +386,9 @@ def get_pilot_summary(store: Store, *, since: str | None = None) -> PilotSummary
         by_mode[session.mode] = by_mode.get(session.mode, 0) + 1
         if session.first_at and (earliest is None or session.first_at < earliest):
             earliest = session.first_at
-        if session.last_at and (latest is None or session.last_at > latest):
-            latest = session.last_at
+        last = session.last_activity_at or session.first_at
+        if last and (latest is None or last > latest):
+            latest = last
         if not session.closed:
             open_sessions += 1
             continue
@@ -441,10 +442,13 @@ class VisitorUsage:
     (visitor_total_seconds) - anon_cap allows several sessions a day, so
     these can genuinely differ. Median alongside average on both, since a
     few very long or very short sessions would otherwise skew the average
-    alone."""
+    alone. A session runs from its start to its last message, reply or
+    Facilitator turn; a session opened and left without a message is
+    counted on its own, not as a zero-length conversation."""
 
     unique_visitors: int
     sessions_with_visitor_id: int
+    sessions_without_a_message: int
     median_session_seconds: float | None
     average_session_seconds: float | None
     median_visitor_total_seconds: float | None
@@ -529,18 +533,23 @@ def get_usage_summary(
     session_ids = store.list_session_ids(since=since)
     visitor_ids: set[str] = set()
     sessions_with_visitor = 0
+    without_a_message = 0
     session_durations: list[float] = []
     visitor_totals: dict[str, float] = {}
 
     for session_id in session_ids:
         session = read_session(store, session_id)
-        if session is None or session.first_at is None or session.last_at is None:
+        if session is None or session.first_at is None:
             continue
-        duration = _seconds_between(session.first_at, session.last_at)
-        session_durations.append(duration)
         if session.visitor_id:
             visitor_ids.add(session.visitor_id)
             sessions_with_visitor += 1
+        if not session.participant_messages or session.last_activity_at is None:
+            without_a_message += 1
+            continue
+        duration = _seconds_between(session.first_at, session.last_activity_at)
+        session_durations.append(duration)
+        if session.visitor_id:
             visitor_totals[session.visitor_id] = visitor_totals.get(session.visitor_id, 0.0) + duration
 
     median_session, average_session = _median_and_average(session_durations)
@@ -548,6 +557,7 @@ def get_usage_summary(
     visitors = VisitorUsage(
         unique_visitors=len(visitor_ids),
         sessions_with_visitor_id=sessions_with_visitor,
+        sessions_without_a_message=without_a_message,
         median_session_seconds=median_session,
         average_session_seconds=average_session,
         median_visitor_total_seconds=median_visitor_total,
