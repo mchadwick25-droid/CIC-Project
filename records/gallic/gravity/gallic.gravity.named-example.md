@@ -95,37 +95,42 @@ relations:
 name: "Formation by named example and eyewitness authority [SUPPORTING]"
 classification: supporting
 description: >-
-  Authority to teach or narrate rests on having seen and heard a named master, and formation happens
-  by imitation of a named exemplar. Sulpitius writes 'the life of a most holy man, which shall serve
-  in future as an example to others' (Vita I); Marmoutier's disciples are 'disciplined after the
-  example of the saintly master' (Vita X); Martin's last saying is 'I have sinned if I leave you a
-  different example' (Ep. III); Gallus can say 'I myself am a witness' (Dial. II.4). Cassian: 'these
-  things cannot be taught save by one who has had experience of them' (Inst. Pref.); the Conferences
+  Authority to teach or narrate rests on having seen and heard a named master, and formation happens by
+  imitation of a named exemplar. Sulpitius writes 'the life of a most holy man, which shall serve in
+  future as an example to others' (Vita I), and Marmoutier's disciples are 'disciplined after the example
+  of the saintly master' (Vita X), and Martin's last saying is 'I have sinned if I leave you a different
+  example' (Ep. III), and Gallus can say 'I myself am a witness' (Dial. II.4). Cassian writes that 'these
+  things cannot be taught save by one who has had experience of them' (Inst. Pref.). The Conferences
   are reported speech of named elders whom God 'has deemed us worthy both to see ... and to dwell
-  with'; the novice takes his examples 'from a very few or indeed from one or two only' (Inst.
-  IV.40). At Lérins the value is present as writings collated (Comm. ch. 3, ch. 28) and as a
-  disciple's Life of his master (Hilary's Life of Honoratus, Gennadius ch. LXX). AUTHOR GRAVITY FLAG
-  AT GENERATION (Doc_04 §2.1): none as to attestation; CONVENTION RISK - a shared late-antique
-  literary convention, which weakens what convergence proves. SIX-TEST SUMMARY (Doc_04 §3): passes
-  all six - Repetition (S, C, V, L by existence, F); Dependency (the FORM of both nodes' literature
-  depends on it - the Dialogues structured as eyewitness testimony, the Conferences as heard
-  conferences, each corpus defending its authority on that ground); Formation (imitation of a named
-  exemplar is the stated mechanism at both nodes); Explanatory (why Sulpitius writes a Life and
-  Hilary a Life, why Cassian writes reported speech, why this world's stories are almost entirely
-  first-person-attested); Persistence across nodes 'with Vincent transforming the value from heard
-  to read'; Interaction passes with one '-' cell. Doc_01 §11 item 6 answered as far as the evidence
-  allows: 'one value' in the sense the tests measure, AND a convention shared far beyond this world
-  - 'two unconnected Latin monastic communities in 400 could each have inherited it separately.'
-  CROSS-NODE: confirmed; discounted as unity evidence. CLASSIFICATION: SUPPORTING - it organizes the
-  literature's form and the formation mechanism but functions within the context G1 and G2 establish
-  (the exemplar is a monk-bishop or an Egyptian father), and the Primary bar is not met by a
-  convention the world shares with its neighbours. CONFIDENCE/GRAVITY CROSS-CHECK: no divergence.
-  FORCES NOTATION (Doc_04 §3; Doc_08 §5): held; fractured at the edge by transmission - under the
-  grace controversy it becomes a weapon (Cassian's authority is that he HEARD Chaeremon; Prosper
-  attacks 'a man of priestly rank' without naming him, and the eyewitness-teacher's standing
-  survives the attack); where it fractured is in transmission - the Conf. XII/XXII excision removed
-  two eyewitness conferences from this world's own English text, and Gennadius's 'two divisions'
-  against the vendored three Dialogues shows the eyewitness frame itself re-divided in copying.
+  with'. The novice takes his examples 'from a very few or indeed from one or two only' (Inst. IV.40).
+  At Lérins the value is present as writings collated (Comm. ch. 3, ch. 28). It is also present as a
+  disciple's Life of his master (Hilary's Life of Honoratus, Gennadius ch. LXX).
+
+  The texts raise no concern about attestation, but they do raise one about convention: a
+  shared late-antique literary convention, which weakens what convergence proves. The value passes
+  every test applied to it. It repeats across the kinds of evidence tested, one of them by existence alone. The
+  form of both nodes' literature depends on it. The Dialogues are built as eyewitness testimony, and
+  the Conferences are built as heard conferences, and each corpus defends its authority on that
+  ground, while imitation of a named exemplar is the stated way that formation works at both nodes. It
+  explains why Sulpitius writes a Life and why Hilary writes a Life, why Cassian writes
+  reported speech, and why this world's stories are almost entirely first-person-attested. The
+  value persists across nodes, 'with Vincent transforming the value from heard to read.' In the
+  interaction test it passes with one negative cell.
+
+  Is this one value? As far as the evidence allows, in the sense the tests measure, yes. It is also a convention shared far beyond
+  this world: 'two unconnected Latin monastic communities in 400 could each have inherited it
+  separately.' The link across nodes is confirmed, but it is discounted as evidence of unity. The value
+  is supporting, not primary. It organizes the literature's form and the formation mechanism, but it
+  works within the context that the monk-bishop and Egypt-as-measure gravities establish, since the
+  exemplar is a monk-bishop or an Egyptian father. A convention that the world shares with its neighbours
+  does not meet the primary bar. The record's confidence and its gravity standing agree.
+
+  It held, but it fractured at the edge through transmission. In the grace controversy it
+  becomes a weapon. Cassian's authority is that he heard Chaeremon. Prosper attacks 'a man of priestly
+  rank' without naming him. The eyewitness-teacher's standing survives the attack. The fracture came
+  in transmission, since the excision of Conferences XII and XXII removed two eyewitness conferences from
+  this world's own English text. Gennadius gives 'two divisions' against the three
+  Dialogues in this world's text. This shows that copying split the eyewitness frame itself again.
 manifestations:
 - "Vita ch. I: a Life written so that a man 'worthy of imitation' should not remain unknown, its readers 'roused to the pursuit of true knowledge, and heavenly warfare, and divine virtue'"
 - "Martin's dying 'I have sinned if I leave you a different example' (Ep. III); Gallus's 'I myself am a witness' (Dial. II.4); Ep. I defending the Vita's authority against a skeptic"
