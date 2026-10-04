@@ -1221,6 +1221,52 @@ S6 gives the app a way to hold a code and read what the server says. It ships sw
 - **Words.** The participant words are the set Mark approved on 2026-10-03, in one file, `cic-poc/frontend/src/lib/deeperCopy.ts`. The pause and its reason lines come from the operations file, not the app.
 - **Parked.** After a pause the participant sends their message again once the code is saved; the app does not resend it for them. The flag-on frontend build is checked in S11 with the rest of the turn-on.
 
+## 2026-10-03 — Go Deeper S6, balances: several codes, a getting-low line, Get more always
+
+Mark's description of the product, 2026-10-03: the buying sits beside the conversation; at any time a person can open the popup, buy, and the access updates without leaving; they are told how much they have, and told again when they are getting close to needing more. Mark also said the price will be worked out later, using a token system that balances opening new conversations and rounds. This slice builds only what does not depend on that.
+
+- **Several codes.** The app holds a short list of codes, each once, in the order they came. It sends the first one not known to be spent. When the one in use runs out the app moves to the next and drops the spent one; the last code is kept even when spent, so the server can say why it cannot carry on. A code added while one is held is added to it, not swapped, which also settles the review's note d on the popup. The balance line shows what the codes hold together, from each reply and from the server's own balance route, asked with no cookies.
+- **Getting low.** The server says when the code in use is at or below `low_balance_at` in the operations file (5 today, Mark's number to set). It sends `X-Cic-Low` on the reply and `low` in the stream's final event. The app shows its getting-low line only when no other code is held to carry on with.
+- **Get more is always there**, with a code held or not, beside the balance line.
+- **A typed code is checked on the spot** against the server's balance route, so a wrong one is refused in plain words instead of being saved; if the server cannot be reached the code is kept and the next reply says.
+- **Tokens.** The meter counts a plain whole number. A token system with different costs for opening a conversation and for a round changes what is charged at which step, not how a balance is held, so this slice does not stand in its way. The charge at opening a conversation is a separate change at the engine seam and waits for Mark's numbers.
+- **New participant words, for Mark:** "Get more", "Your code is running low.", and the changed line "You already have a code. This one will be added to it."
+- **Stale local build.** A frontend build left in `cic-poc/frontend/dist` makes the engine answer 405 where a test expects 404; the build output is derived and ignored, so nothing is committed.
+
+**Opus review of the balances (#747), round one.** One blocking finding and notes a to e.
+- Blocking: a reply's balance was credited to whichever code was in use when the reply arrived, not the code the request carried; a change made by another tab while the request was out could drop a live paid code. A reply is now credited to the code its request was sent with, and ignored if that code is no longer held.
+- a. Two tabs changing the list at once could lose a code. Every change now starts from what is stored, not from the tab's memory.
+- b. One tap removed every held code. "Remove code" now removes only the code in use.
+- c. An unknown balance counted as empty in the getting-low check. It now counts as possibly carrying on, so the line shows only when no other code might.
+- d. The balance fetch had no test for cookies; it has one.
+- e. Wording for Mark: the balance line says "on your code" while it adds several codes together, and "Remove code" now removes one at a time. Proposed: "N exchanges left" (no "on your code"), and keep "Remove code".
+
+## 2026-10-03 — Go Deeper: the unit is tokens (Mark's ruling, a named change order)
+
+**Ruling.** A code holds tokens, one currency for everything. This is a named change order on the 2026-10-03 ruling "a code holds exchanges". Basis: the Token Proportions Study (https://claude.ai/artifact/NHompAUFtzwLVXEBYgbjJ8), including the approved three-seat Table run of 2026-10-03 ($0.62 at the rate card). Full text: the ruling block on the Handoff page.
+
+| | Tokens |
+|---|---|
+| Solo: open a conversation | 50 |
+| Solo: a round, rounds 1 to 3 | 20 |
+| Solo: a round from round 4 | 25 |
+| Table: open | 50 a seat (100 at two seats, 150 at three) |
+| Table: a round at two seats / three seats | 60 / 100 |
+| Table: a round from round 4, two / three seats | 75 / 125 |
+| Free: a day | 330 |
+| Free: a conversation stops after | 3 rounds; a code lifts the cap |
+| Packs | $7 = 1,100, $15 = 2,750, $30 = 6,600; nothing under $7 |
+
+**What this slice does (T0, no behaviour change).** The numbers go into `engine/deeper/ops/go-deeper.yaml` under `tokens`, read and checked at startup (whole numbers; a later round never cheaper than an earlier one; three seats never cheaper than two; packs rise in price and tokens; none under $7). The arithmetic is a pure module, `engine/deeper/tokens.py`. Nothing yet draws tokens: the meter still counts exchanges until T1.
+
+**How I read the opening amount, for Mark to confirm.** A conversation draws its opening amount with its first admitted round, on top of that round's own amount: a solo conversation of three rounds draws 50 + 3 x 20 = 110. The basis page says the $7 pack is 10 conversations and the free day is three solo conversations of three rounds; only 110 a conversation makes both true (1,100 / 110 = 10; 330 / 110 = 3). A test holds those facts.
+
+**What the ruling changes next, one slice each, nothing built yet.**
+- T1, the meter: reserve and settle in tokens, by round number and seat count; `table_round_cost` and the exchange count in `X-Cic-Remaining` retire. N7 and decision 36 (a Table round costs 3 exchanges) are superseded by this ruling.
+- T2, the free path: a free conversation stops at three rounds and a free visitor has 330 tokens a day instead of 150 messages and five sittings. That touches the free allowance constants in the engine and `anon_cap.py`, which are the engine redesign's ground; coordinate before editing.
+- T3, the words: every "exchange" in the app, the site pages and the Facilitator's texts becomes tokens, and the pack page offers three packs. Words are Mark's.
+- T4, the door (S5): its priced sum and stages are in dollars already; the paid-voice-quality run (B5) is sized by the longest sitting a pack allows, now 60 conversations at the $30 pack.
+- `low_balance_at` becomes a token number; it is 5 today and must be reset by Mark.
 **Opus review of the popup, round one (#744 and #745).** Three blocking findings, notes a to d on the site and a to c on the app, all fixed.
 - #744 finding 1 and #745 finding 1: the address carried the code, and a link could plant or replace one. Now the address carries the reference, the app clears it at once and asks "A code came with this link. Use it?" and says when it would replace a code, and only a yes fetches the code.
 - #745 finding 2: a code saved in another tab never reached an open conversation. The app now follows the stored code across tabs.

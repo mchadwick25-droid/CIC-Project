@@ -2,6 +2,25 @@ limits:
   group_daily_ceiling: 300
   table_round_cost: 3
   group_burst_multiplier: 6
+  low_balance_at: 5
+tokens:
+  solo:
+    open: 50
+    round: 20
+    round_from_fourth: 25
+  table:
+    open_per_seat: 50
+    round_two_seats: 60
+    round_three_seats: 100
+    round_two_seats_from_fourth: 75
+    round_three_seats_from_fourth: 125
+  free:
+    daily: 330
+    rounds_per_conversation: 3
+  packs:
+    - {price_usd: 7, tokens: 1100}
+    - {price_usd: 15, tokens: 2750}
+    - {price_usd: 30, tokens: 6600}
 words:
   limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
   notes:

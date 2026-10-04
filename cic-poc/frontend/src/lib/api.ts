@@ -7,7 +7,7 @@
  * authoritative. A server that answers with plain JSON is handled the same
  * way, with no sentences.
  */
-import { codeHeaders, remainingFromHeader, setRemaining } from './deeper';
+import { codeHeaders, currentCode, remainingFromHeader, reportBalance } from './deeper';
 import type { CreateSessionResponse, MessageResponse, TableMessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
 import type { StreamedSentence } from './streamedReply';
 
@@ -136,14 +136,25 @@ export async function deleteSession(sessionId: string, sessionCode: string): Pro
 // turn-at-a-time transport) - called repeatedly while round_open is true,
 // so each voice's words reach the participant as they land rather than
 // after the whole round.
-export async function continueRound(sessionId: string, sessionCode: string): Promise<TableMessageResponse> {
+const STREAM_ACCEPT = { Accept: 'text/event-stream, application/json;q=0.9' };
+
+function isEventStream(response: Response): boolean {
+  return (response.headers.get('content-type') ?? '').startsWith('text/event-stream');
+}
+
+export async function continueRound(
+  sessionId: string,
+  sessionCode: string,
+  onSentence?: (sentence: StreamedSentence) => void
+): Promise<TableMessageResponse> {
   const response = await fetch(`${API_BASE}/session/${sessionId}/continue`, {
     method: 'POST',
-    headers: { ...authHeader(sessionCode), ...codeHeaders() },
+    headers: { ...(onSentence ? STREAM_ACCEPT : {}), ...authHeader(sessionCode), ...codeHeaders() },
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
+  if (onSentence && isEventStream(response)) return readMessageStream<TableMessageResponse>(response, onSentence, null);
   return response.json();
 }
 
@@ -151,17 +162,20 @@ export async function sendTableMessage(
   sessionId: string,
   sessionCode: string,
   text: string,
-  clientMsgId?: string
+  clientMsgId?: string,
+  onSentence?: (sentence: StreamedSentence) => void
 ): Promise<TableMessageResponse> {
+  const sentWith = currentCode();
   const response = await fetch(`${API_BASE}/session/${sessionId}/message`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', ...authHeader(sessionCode), ...codeHeaders() },
+    headers: { 'Content-Type': 'application/json', ...(onSentence ? STREAM_ACCEPT : {}), ...authHeader(sessionCode), ...codeHeaders() },
     body: JSON.stringify({ text, client_msg_id: clientMsgId }),
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
-  setRemaining(remainingFromHeader(response.headers.get('X-Cic-Remaining')));
+  if (onSentence && isEventStream(response)) return readMessageStream<TableMessageResponse>(response, onSentence, sentWith);
+  reportBalance(sentWith, remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
   return response.json();
 }
 
@@ -181,7 +195,7 @@ function parseStreamBlock(block: string): StreamEvent | null {
   return { event, data: JSON.parse(data.join('\n')) };
 }
 
-async function readMessageStream(response: Response, onSentence: (sentence: StreamedSentence) => void): Promise<MessageResponse> {
+async function readMessageStream<T = MessageResponse>(response: Response, onSentence: (sentence: StreamedSentence) => void, sentWith: string | null): Promise<T> {
   if (!response.body) throw new ApiRequestError(502, 'the reply stream had no body');
   const reader = response.body.getReader();
   const decoder = new TextDecoder();
@@ -195,8 +209,8 @@ async function readMessageStream(response: Response, onSentence: (sentence: Stre
       buffer = buffer.slice(boundary + 2);
       if (parsed?.event === 'sentence') onSentence(parsed.data as StreamedSentence);
       else if (parsed?.event === 'done') {
-        const done = parsed.data as MessageResponse & { remaining?: number };
-        setRemaining(typeof done.remaining === 'number' ? done.remaining : null);
+        const done = parsed.data as T & { remaining?: number; low?: boolean };
+        reportBalance(sentWith, typeof done.remaining === 'number' ? done.remaining : null, done.low === true);
         return done;
       }
       else if (parsed?.event === 'error') {
@@ -216,11 +230,12 @@ export async function sendMessage(
   clientMsgId?: string,
   onSentence?: (sentence: StreamedSentence) => void
 ): Promise<MessageResponse> {
+  const sentWith = currentCode();
   const response = await fetch(`${API_BASE}/session/${sessionId}/message`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      ...(onSentence ? { Accept: 'text/event-stream, application/json;q=0.9' } : {}),
+      ...(onSentence ? STREAM_ACCEPT : {}),
       ...authHeader(sessionCode),
       ...codeHeaders(),
     },
@@ -229,10 +244,10 @@ export async function sendMessage(
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
-  if (onSentence && (response.headers.get('content-type') ?? '').startsWith('text/event-stream')) {
-    return readMessageStream(response, onSentence);
+  if (onSentence && isEventStream(response)) {
+    return readMessageStream(response, onSentence, sentWith);
   }
-  setRemaining(remainingFromHeader(response.headers.get('X-Cic-Remaining')));
+  reportBalance(sentWith, remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
   return response.json();
 }
 

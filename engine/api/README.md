@@ -101,7 +101,7 @@ curl -s -X POST localhost:8000/api/session/<session_id>/message \
 curl -sN -X POST localhost:8000/api/session/<session_id>/message \
   -H "Authorization: Session <session_code>" -H "Content-Type: application/json" \
   -H "Accept: text/event-stream" -d '{"text": "Who was Jesus to your people?"}'
-# -> event: sentence / data: {"index", "lead", "text", "text_start", "text_end", "elements", "cards"}
+# -> event: sentence / data: {"index", "speaker", "lead", "text", "text_start", "text_end", "elements", "cards"}
 #    event: done     / data: {...}           (the finished turn)
 
 # Read the transcript so far
@@ -131,12 +131,16 @@ added by attachment arrive in `done`, whose plan is authoritative. A failure
 after the stream began is an `error` event: `{code, status, detail}`, where
 `detail` is the string the JSON response would carry and `code` is stable
 (`invalid_session`, `session_closed`, `message_too_long`, `round_open`,
-`advance_in_flight`, `duplicate_message`, `world_unavailable`,
+`advance_in_flight`, `no_open_round`, `duplicate_message`, `world_unavailable`,
 `provider_failed`, `internal`).
 
-Only interview turns answered by the voice stream. A Facilitator turn, a table
-session, a bridge turn, a first other-tradition ask with self-revision on, and
-any turn with an enforcement flag on return whole.
+Interview turns and Table seats stream, on `/message` and on `/continue`. On
+a Table seat the seat-identity guard reads each sentence before release: a
+catch in the first sentence shows nothing and regenerates the seat's turn as
+before; a catch after sentences were shown ends the turn at its last shown
+sentence, and the Facilitator's seat-correction line follows it. A
+Facilitator turn, a bridge turn, a first other-tradition ask with
+self-revision on, and any turn with an enforcement flag on return whole.
 
 ## What to know when testing
 

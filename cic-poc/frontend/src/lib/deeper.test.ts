@@ -46,10 +46,10 @@ describe('with the module on', () => {
   it('forgets the code and the balance when it is removed', async () => {
     const mod = await load(true);
     mod.saveCode(CODE);
-    mod.setRemaining(7);
+    mod.reportBalance(CODE, 7, false);
     mod.clearCode();
     expect(mod.codeHeaders()).toEqual({});
-    expect(localStorage.getItem('cic_code')).toBeNull();
+    expect(localStorage.getItem('cic_codes')).toBeNull();
   });
 
   it('reads the balance header as a whole number and nothing else', async () => {
@@ -74,7 +74,7 @@ describe('with the module on', () => {
 
 describe('with the module off', () => {
   it('sends nothing, even if a code was stored by an earlier build', async () => {
-    localStorage.setItem('cic_code', CODE);
+    localStorage.setItem('cic_codes', JSON.stringify([CODE]));
     const mod = await load(false);
     expect(mod.deeperEnabled).toBe(false);
     expect(mod.codeHeaders()).toEqual({});
@@ -141,7 +141,7 @@ describe('a purchase reference carried in the address', () => {
     expect(window.location.hash).toBe('');
     expect(window.location.search).toBe('?mode=table');
     expect(mod.codeHeaders()).toEqual({});
-    expect(localStorage.getItem('cic_code')).toBeNull();
+    expect(localStorage.getItem('cic_codes')).toBeNull();
   });
 
   it('is cleared from the address even when it is not a reference, and nothing is held', async () => {
@@ -218,20 +218,21 @@ describe('a code saved or removed in another tab', () => {
   it('is followed by this tab, so a conversation already open uses it', async () => {
     const mod = await load(true);
     expect(mod.codeHeaders()).toEqual({});
-    localStorage.setItem('cic_code', CODE);
-    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_code', newValue: CODE }));
+    const stored = JSON.stringify([CODE]);
+    localStorage.setItem('cic_codes', stored);
+    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_codes', newValue: stored }));
     expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
-    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_code', newValue: null }));
+    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_codes', newValue: null }));
     expect(mod.codeHeaders()).toEqual({});
   });
 
   it('ignores other keys and values that are not codes, and does nothing with the module off', async () => {
     const on = await load(true);
     window.dispatchEvent(new StorageEvent('storage', { key: 'something_else', newValue: CODE }));
-    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_code', newValue: 'nonsense' }));
+    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_codes', newValue: 'nonsense' }));
     expect(on.codeHeaders()).toEqual({});
     const off = await load(false);
-    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_code', newValue: CODE }));
+    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_codes', newValue: JSON.stringify([CODE]) }));
     expect(off.codeHeaders()).toEqual({});
   });
 });
@@ -241,5 +242,156 @@ describe('a message from the popup', () => {
     const mod = await load(true);
     window.dispatchEvent(new MessageEvent('message', { origin: 'https://churchinconversation.com', data: { type: 'cic-deeper-code', codes: [CODE] } }));
     expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
+  });
+});
+
+describe('several codes held together', () => {
+  const OTHER = 'BCDE2345EFGH6789JKLM';
+
+  afterEach(() => vi.unstubAllGlobals());
+
+  it('keeps each code once, in the order they came, and sends the first not known to be spent', async () => {
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.saveCode(OTHER);
+    mod.saveCode(CODE);
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([CODE, OTHER]);
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
+  });
+
+  it('moves to the next code when the one in use runs out, and drops the spent one', async () => {
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.saveCode(OTHER);
+    mod.reportBalance(CODE, 0, false);
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': OTHER });
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([OTHER]);
+  });
+
+  it('keeps the last code even when spent, so the server can say why it cannot carry on', async () => {
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.reportBalance(CODE, 0, false);
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
+  });
+
+  it('adds what each code holds, and says low only when nothing else is held to carry on with', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockImplementation(async (_url: string, init: RequestInit) => {
+      const code = (init.headers as Record<string, string>)['X-Cic-Code'];
+      return new Response(JSON.stringify({ kind: 'single', remaining: code === OTHER ? 30 : 4, paused: false }), { status: 200 });
+    }));
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.saveCode(OTHER);
+    await vi.waitFor(() => expect(mod.deeperSnapshot().remaining).toBe(34));
+    mod.reportBalance(CODE, 4, true);
+    expect(mod.deeperSnapshot().low).toBe(false);
+    mod.clearCode();
+    mod.saveCode(CODE);
+    mod.reportBalance(CODE, 4, true);
+    expect(mod.deeperSnapshot().low).toBe(true);
+    mod.reportBalance(CODE, 40, false);
+    expect(mod.deeperSnapshot().low).toBe(false);
+  });
+
+  it('refuses a typed code the server does not know, and keeps one when the server cannot be reached', async () => {
+    const mod = await load(true);
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response('{}', { status: 404 })));
+    expect(await mod.addCode(CODE)).toBe(false);
+    expect(mod.codeHeaders()).toEqual({});
+    vi.stubGlobal('fetch', vi.fn().mockRejectedValue(new Error('offline')));
+    expect(await mod.addCode(CODE)).toBe(true);
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
+  });
+
+  it('asks the balance endpoint with no cookies', async () => {
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ remaining: 3 }), { status: 200 }));
+    vi.stubGlobal('fetch', fetchMock);
+    const mod = await load(true);
+    await mod.addCode(CODE);
+    expect(fetchMock).toHaveBeenCalledWith('/api/deeper/balance', expect.objectContaining({ credentials: 'omit' }));
+  });
+});
+
+describe('a reply is credited to the code the request carried', () => {
+  const OTHER = 'BCDE2345EFGH6789JKLM';
+  const THIRD = 'CDEF2345GHJK6789LMNP';
+
+  afterEach(() => vi.unstubAllGlobals());
+
+  it('not to whichever code happens to be in use when the reply arrives', async () => {
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.saveCode(OTHER);
+    mod.saveCode(THIRD);
+    const sentWith = mod.currentCode();
+    expect(sentWith).toBe(CODE);
+    // while the request is in flight, another tab spends the first code to zero and drops it
+    const stored = JSON.stringify([OTHER, THIRD]);
+    localStorage.setItem('cic_codes', stored);
+    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_codes', newValue: stored }));
+    // the reply says the first code is at zero: the codes still held must not be touched
+    mod.reportBalance(sentWith, 0, false);
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([OTHER, THIRD]);
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': OTHER });
+  });
+
+  it('and a reply for a code no longer held is ignored', async () => {
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.reportBalance(OTHER, 0, true);
+    expect(mod.deeperSnapshot().remaining).toBeNull();
+    expect(mod.deeperSnapshot().low).toBe(false);
+  });
+});
+
+describe('two tabs changing the list at once', () => {
+  const OTHER = 'BCDE2345EFGH6789JKLM';
+
+  it('keep both codes: a change starts from what is stored, not from this tab\'s memory', async () => {
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    // another tab adds a code that this tab has not heard about yet
+    localStorage.setItem('cic_codes', JSON.stringify([CODE, OTHER]));
+    mod.saveCode('CDEF2345GHJK6789LMNP');
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([CODE, OTHER, 'CDEF2345GHJK6789LMNP']);
+  });
+});
+
+describe('removing a code', () => {
+  const OTHER = 'BCDE2345EFGH6789JKLM';
+
+  it('removes only the one in use, one tap at a time', async () => {
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.saveCode(OTHER);
+    mod.removeCode();
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([OTHER]);
+    mod.removeCode();
+    expect(localStorage.getItem('cic_codes')).toBeNull();
+  });
+});
+
+describe('the getting-low line and balances not yet known', () => {
+  const OTHER = 'BCDE2345EFGH6789JKLM';
+
+  it('is not shown while another held code has not reported, since it may carry on', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockReturnValue(new Promise(() => {})));
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.saveCode(OTHER);
+    mod.reportBalance(CODE, 4, true);
+    expect(mod.deeperSnapshot().low).toBe(false);
+    vi.unstubAllGlobals();
+  });
+
+  it('asks each code its balance with no cookies', async () => {
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ remaining: 3 }), { status: 200 }));
+    vi.stubGlobal('fetch', fetchMock);
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    await vi.waitFor(() => expect(fetchMock).toHaveBeenCalled());
+    expect(fetchMock).toHaveBeenCalledWith('/api/deeper/balance', expect.objectContaining({ credentials: 'omit', headers: { 'X-Cic-Code': CODE } }));
+    vi.unstubAllGlobals();
   });
 });

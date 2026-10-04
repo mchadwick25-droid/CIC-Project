@@ -12,7 +12,7 @@ const DONE = {
 };
 
 function sentence(index: number, lead: string, text: string, start: number): StreamedSentence {
-  return { index, lead, text, text_start: start, text_end: start + text.length, elements: [], cards: [] };
+  return { index, speaker: 'w', lead, text, text_start: start, text_end: start + text.length, elements: [], cards: [] };
 }
 
 const ONE = sentence(0, '', 'One.', 0);
@@ -156,5 +156,24 @@ describe('the code and the balance', () => {
     for (const call of fetchMock.mock.calls) {
       expect((call[1] as RequestInit).headers).not.toHaveProperty('X-Cic-Code');
     }
+  });
+
+  it('credits a reply to the code the request was sent with, even if the list changed while it was in flight', async () => {
+    const { deeper, api } = await loadApi(true);
+    const OTHER = 'BCDE2345EFGH6789JKLM';
+    const THIRD = 'CDEF2345GHJK6789LMNP';
+    deeper.saveCode(CODE);
+    deeper.saveCode(OTHER);
+    deeper.saveCode(THIRD);
+    vi.stubGlobal('fetch', vi.fn().mockImplementation(async () => {
+      // another tab drops the first code while this request is out
+      const stored = JSON.stringify([OTHER, THIRD]);
+      localStorage.setItem('cic_codes', stored);
+      window.dispatchEvent(new StorageEvent('storage', { key: 'cic_codes', newValue: stored }));
+      return new Response(JSON.stringify(DONE), { status: 200, headers: { 'Content-Type': 'application/json', 'X-Cic-Remaining': '0' } });
+    }));
+    await api.sendMessage('s', 'c', 'hello');
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([OTHER, THIRD]);
+    expect(deeper.codeHeaders()).toEqual({ 'X-Cic-Code': OTHER });
   });
 });
