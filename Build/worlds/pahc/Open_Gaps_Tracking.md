@@ -638,6 +638,6 @@ Each item was checked against the vendored source, and an independent Opus revie
 
 Waivers move with the changes: horizon 6 to 5, readability 160 to 159, and the status-ready and use-note-present waivers are removed.
 
-Where each fix sits: branch `build/pahc-slice6-loci` holds OG-22 (a), (b) and OG-23 (2), (3) for the story bodies, and (6). Branch `build/pahc-slice6-voiced` holds the rest. Every record file is part of pahc's compiled package, so both branches need a package rebuild, a repin and a paid re-admission before they land (decision 36). They are meant to land together, in one admission.
+All of it sits on branch `build/pahc-slice6`. Every record file is part of pahc's compiled package, so the branch lands with pahc's next package rebuild, repin and paid re-admission (decision 36). The project lead chose on 2026-10-04 that each world's record fixes land as one branch, with that world's next re-admission.
 
-Status: OPEN until they land.
+Status: OPEN until it lands.
