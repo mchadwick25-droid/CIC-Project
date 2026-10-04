@@ -49,6 +49,12 @@ relations:
   target: ijc.quote.no-power-but-of-god
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
+use_note:
+  means: "In 399, with Eutropius at the altar, Chrysostom grants he had cut off church asylum, yet urges forgiveness and calls his fall a warning."
+  not_for:
+    - "a claim that 'the right of refuge' means anything other than the church's legal right of asylum at the altar"
+  years: {from: 399, to: 399}
+  status: reviewed
 ---
 Text verified verbatim against the vendored file at
 npnf109 line 17739, with the scriptural citation marker ("Luke xxiii.

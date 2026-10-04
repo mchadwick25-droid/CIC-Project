@@ -72,6 +72,13 @@ modern_contrast: >-
   contested rank on different grounds Rome's own legates rejected. The doctrinal question closes;
   the authority question does not - and this record's own ending states both facts rather than
   smoothing the second into the first's success.
+use_note:
+  means: "At Chalcedon in 451 Leo's Tome was received and settled who Christ is, while Canon 28, which Rome rejected, left the authority question open."
+  not_for:
+    - "a claim that the council closed in tidy, universally received agreement"
+    - "a claim that the Tome and Canon 28 were passed in the same session"
+  years: {from: 451, to: 451}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 6
 (Story-Chunks/ijcstory006), with one factual correction to the legacy

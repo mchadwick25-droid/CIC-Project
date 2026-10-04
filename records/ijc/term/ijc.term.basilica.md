@@ -48,6 +48,12 @@ senses:
   translational: Not "basilica" in the modern honorific sense of a papally-designated church - here it
     is the ordinary word for the great hall where the church actually met.
 quick_meaning: Our great hall-style church building - and sometimes the prize fought over.
+use_note:
+  means: "A basilica is the great hall-style church built once emperors funded churches; at Milan in 386 one became the prize in a fight."
+  not_for:
+    - "a claim that a basilica was a purely architectural term with no institutional weight"
+  years: {from: 312, to: 451}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 3;
 Lexicon-Chunks/ijclex011_basilica.md), widened per this build's step-4

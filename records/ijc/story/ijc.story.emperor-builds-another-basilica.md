@@ -55,6 +55,13 @@ text: >-
   Catholic lower clergy out of should be restored. The most powerful man in
   the world, in a dispute he had summoned two councils to settle, in the end
   paid twice and let it lie.
+use_note:
+  means: "In 330 Constantine left the Donatists holding a basilica he had built and paid for another for the Catholics rather than send soldiers."
+  not_for:
+    - "a claim that the empire was gentle toward dissenters"
+    - "a claim that the story of Christian empire ran in only one direction"
+  years: {from: 330, to: 330}
+  status: reviewed
 ---
 Verified directly against the vendored file: the convening
 letter to Aelafius at line 7084 and its text from 7095 ("Already some

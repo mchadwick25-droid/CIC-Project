@@ -1447,3 +1447,7 @@ Ruling by Mark, 2026-10-04, amending the free grant: **550 tokens a month, five 
 - **Renames that follow from it:** the door's stage setting `free_day_share` is now `free_share`, the refusal reason `free_day_spent` is `free_allowance_spent`, and the dashboard says "free allowance". The numbers and behaviour of the door are unchanged.
 - **Words that are now untrue, for Mark:** the Go Deeper page says "each day has a free allowance". The page is unlinked and switched off, and the sentence needs Mark's replacement before the site goes on.
 - **Opus review of S2b, taken:** the key is now the server secret above (the blocking finding), the meter's own description says what the free window table holds, and the residuals are named.
+
+## 2026-10-04 — Go Deeper: the free allowance line on the Go Deeper page (words approved by Mark)
+
+Mark chose the recommended line to replace the sentence the 30-day window made untrue. The page now reads: "A free conversation lasts three rounds, and you get a free allowance each month." The number of rounds is still filled from the operations file. The page is unlinked and switched off until turn-on.
