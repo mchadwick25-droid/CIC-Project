@@ -424,6 +424,21 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         paused = await run_in_threadpool(runtime.meter.is_paused)
         return BalanceResponse(kind=info.kind, remaining=info.remaining, paused=paused)
 
+    @app.get("/api/deeper/door")
+    def public_door(request: Request, response: Response):
+        """The one public line about the free path this week: its words and
+        nothing else. No stage number, no ratio, no money."""
+        _cors(request, response)
+        response.headers["Cache-Control"] = "public, max-age=60"
+        words = runtime.ops.door_words if runtime.ops is not None else None
+        state = runtime.door.state() if runtime.door is not None else None
+        if words is None or state is None or state.stage == 0:
+            return {"state": "open", "line": None}
+        if state.free_voice:
+            return {"state": "limited", "line": words["limited"]}
+        line = words["paused"] + (" " + words["code_still_works"] if state.paid_voice else "")
+        return {"state": "paused", "line": line}
+
     @app.post("/api/admin/deeper/pause")
     def pause(req: PauseRequest, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
@@ -462,6 +477,11 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         return {"door": {"stage": state.stage, "ratio": round(state.ratio, 3), "ceiling_usd": round(state.ceiling_usd, 2),
                          "free_voice": state.free_voice, "paid_voice": state.paid_voice}}
 
+    @app.get("/api/admin/deeper/measures")
+    def measures(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        return {"measures": runtime.meter.measures(14), "reconciliation": runtime.meter.reconciliation(14)}
+
     @app.get("/api/admin/deeper/owed")
     def owed(request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
@@ -498,6 +518,7 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None,
         door = DoorMonitor(
             ops.door, usage_store, lambda: meter.net_funds(7),
             load=lambda: meter.get_state(DOOR_STATE_KEY), save=lambda raw: meter.set_state(DOOR_STATE_KEY, raw),
+            observe=lambda state: meter.measure_peak("door_stage", state.stage),
         )
     return DeeperRuntime(
         meter=meter,

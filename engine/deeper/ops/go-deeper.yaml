@@ -41,3 +41,7 @@ words:
     daily_ceiling: "Your code has reached its limit for today. It works again tomorrow."
     paused: "Codes are paused for now. Your code is safe."
     in_use: "Your tokens are in use by another conversation. Try again in a moment."
+  door:
+    limited: "Free conversations are limited this week. Gifts keep them open — give at Get Involved."
+    paused: "Free conversations are paused until the week turns."
+    code_still_works: "A code still works."

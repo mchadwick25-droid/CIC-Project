@@ -109,6 +109,7 @@ class Admission:
         self._paid_sitting = session_id in runtime.paid_sessions
         self._reservation = None
         self._note_key: str | None = None
+        self._refusal: str | None = None
         self.remaining: int | None = None
 
     def _limit_text(self) -> str | None:
@@ -145,7 +146,8 @@ class Admission:
         door_rounds = self._door_rounds(door)
         if door_rounds is not None:
             free_rounds = min(free_rounds, door_rounds)
-        if not limited and door.free_voice and completed < free_rounds:
+        free_open = not limited and door.free_voice and completed < free_rounds
+        if free_open:
             held = self._runtime.free.reserve(self._visitor, cost, door.free_day_share)
             if held is not None:
                 self._free_reservation = held
@@ -155,6 +157,7 @@ class Admission:
         refusal_cap = min(self._free_cap, completed)
         if self._code and not door.paid_voice:
             self._note_key = "paused"
+            self._refusal = "door_paid_closed"
             return free_grant(refusal_cap, limited, self._limit_text())
         if self._code:
             admission = self._runtime.meter.reserve(self._code, cost)
@@ -162,8 +165,17 @@ class Admission:
                 self._reservation = admission.reservation
                 return TurnGrant(cap=completed + 1, facilitator_only=False)
             self._note_key = _NOTE_FOR_REASON.get(admission.reason, "code_not_accepted")
+            self._refusal = self._note_key
             return free_grant(refusal_cap, limited, self._limit_text())
         self._note_key = "no_code"
+        if limited:
+            self._refusal = "no_code"
+        elif not door.free_voice:
+            self._refusal = "door_free_closed"
+        elif completed >= free_rounds:
+            self._refusal = "free_rounds_done"
+        else:
+            self._refusal = "free_day_spent"
         return free_grant(refusal_cap, limited, self._limit_text())
 
     @property
@@ -197,7 +209,18 @@ class Admission:
             self.remaining = info.remaining if info is not None and info.status != "void" else None
         except Exception:  # noqa: BLE001
             logger.exception("deeper settle failed")
+        self._count_refusal()
         return self.remaining
+
+    def _count_refusal(self) -> None:
+        """Counts a refused turn once, after everything else has settled; a count that fails changes nothing."""
+        reason, self._refusal = self._refusal, None
+        if reason is None:
+            return
+        try:
+            self._runtime.meter.measure(f"refused_{reason}")
+        except Exception:  # noqa: BLE001
+            logger.exception("deeper refusal could not be counted")
 
 
 def new_admission(runtime: DeeperRuntime | None, request: Request, *, session_id: str, free_cap: int, seats: int = 1) -> Admission | None:

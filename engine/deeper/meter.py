@@ -29,6 +29,16 @@ LIVE, SPENT, VOID = "live", "spent", "void"
 
 TALLY_FIELDS = ("payments_seen", "payments_minted", "payments_voided_first", "codes_minted", "refunds_applied", "partial_refunds_ignored")
 RECONCILE_RETENTION_DAYS = 90
+MEASURE_RETENTION_DAYS = 90
+REFUSAL_REASONS = (
+    "no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use",
+    "free_rounds_done", "free_day_spent", "door_free_closed", "door_paid_closed",
+)
+SUM_MEASURES = (
+    "codes_single", "codes_batch", "codes_group", "tokens_sold", "tokens_spent",
+    *(f"refused_{reason}" for reason in REFUSAL_REASONS),
+)
+MAX_MEASURES = ("door_stage",)
 FUNDS_KINDS = ("gift", "purchase", "adjustment")
 FUNDS_RETENTION_DAYS = 90
 MAX_FUNDS_CENTS = 10_000_000
@@ -72,6 +82,12 @@ CREATE TABLE IF NOT EXISTS funds (
     payment_id TEXT UNIQUE,
     note TEXT,
     reversed INTEGER NOT NULL DEFAULT 0
+) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS daily (
+    day TEXT NOT NULL,
+    measure TEXT NOT NULL,
+    total INTEGER NOT NULL,
+    PRIMARY KEY (day, measure)
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS state (
     key TEXT PRIMARY KEY,
@@ -224,6 +240,8 @@ class Meter:
                     " codes_minted = codes_minted + ? WHERE day = ?",
                     (count, today),
                 )
+                self._count(f"codes_{kind}", count, today)
+                self._count("tokens_sold", tokens * count, today)
                 self._conn.execute("COMMIT")
             except BaseException:
                 self._conn.execute("ROLLBACK")
@@ -322,6 +340,7 @@ class Meter:
             self._day_used[reservation.code_hash] = (
                 (day, count + reservation.count) if day == today.isoformat() else (today.isoformat(), reservation.count)
             )
+            self._count("tokens_spent", reservation.count, today.isoformat())
             row = self._row(reservation.code_hash)
             return row[2] - row[3]
 
@@ -413,6 +432,52 @@ class Meter:
             if total - used > 0
         ]
 
+    def _add(self, measure: str, amount: int, day: str) -> None:
+        self._conn.execute(
+            "INSERT INTO daily (day, measure, total) VALUES (?, ?, ?)"
+            " ON CONFLICT (day, measure) DO UPDATE SET total = total + excluded.total",
+            (day, measure, amount),
+        )
+
+    def _count(self, measure: str, amount: int, day: str) -> None:
+        """A measure written beside real work: if it fails, the work stands."""
+        try:
+            self._add(measure, amount, day)
+        except Exception:  # noqa: BLE001 - a count must never undo or block a purchase or a spend
+            logger.exception("could not count %s", measure)
+
+    def measure(self, name: str, amount: int = 1) -> None:
+        """Adds to today's total for one measure. The totals are one number per
+        measure per day: no code, no visitor, no time of day."""
+        if name not in SUM_MEASURES:
+            raise ValueError(f"unknown measure {name!r}")
+        with self._lock:
+            self._add(name, amount, self._clock().isoformat())
+
+    def measure_peak(self, name: str, value: int) -> None:
+        """Keeps today's highest value for a measure that is a level, not a count."""
+        if name not in MAX_MEASURES:
+            raise ValueError(f"unknown measure {name!r}")
+        with self._lock:
+            self._conn.execute(
+                "INSERT INTO daily (day, measure, total) VALUES (?, ?, ?)"
+                " ON CONFLICT (day, measure) DO UPDATE SET total = MAX(total, excluded.total)",
+                (self._clock().isoformat(), name, value),
+            )
+
+    def measures(self, days: int = 14) -> list[dict]:
+        """Daily totals, newest day first; a measure with nothing that day reads 0."""
+        since = (self._clock() - timedelta(days=days - 1)).isoformat()
+        with self._lock:
+            rows = self._conn.execute("SELECT day, measure, total FROM daily WHERE day >= ?", (since,)).fetchall()
+        by_day: dict[str, dict[str, int]] = {}
+        for day, name, total in rows:
+            by_day.setdefault(day, {})[name] = total
+        return [
+            {"day": day, **{name: by_day[day].get(name, 0) for name in (*SUM_MEASURES, *MAX_MEASURES)}}
+            for day in sorted(by_day, reverse=True)
+        ]
+
     def add_funds(self, kind: str, cents: int, payment_id: str | None = None, note: str | None = None) -> str | None:
         """Records money that raises the door's ceiling: a gift or a go-deeper
         purchase from Stripe (keyed by its payment id, so a replayed event adds
@@ -491,6 +556,9 @@ class Meter:
                         removed += 1
             removed += self._conn.execute(
                 "DELETE FROM reconcile WHERE day <= ?", ((today - timedelta(days=RECONCILE_RETENTION_DAYS)).isoformat(),)
+            ).rowcount
+            removed += self._conn.execute(
+                "DELETE FROM daily WHERE day <= ?", ((today - timedelta(days=MEASURE_RETENTION_DAYS)).isoformat(),)
             ).rowcount
             removed += self._conn.execute(
                 "DELETE FROM funds WHERE day <= ?", ((today - timedelta(days=FUNDS_RETENTION_DAYS)).isoformat(),)

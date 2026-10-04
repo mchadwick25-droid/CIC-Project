@@ -1387,6 +1387,31 @@ Still switched off behind the flag; with the module off nothing changes.
 - **Wiring.** The runtime builds the door when it is given the usage log (the real app is); tests without it have no door. `GET /api/admin/deeper/door` shows Mark the stage, ratio, ceiling and whether free and paid voice are open.
 - **Words:** a closed door shows existing lines only (no-code for a closed free path, the paused line for a closed paid path). A line of its own for a closed door is Mark's to approve; candidates when he wants them. The public one-line door state on the home and Get Involved pages is a later slice with Mark's words.
 
+## 2026-10-04 — Go Deeper S5d: the public line about the free conversations (words approved by Mark)
+
+Still switched off behind the flag. With the module off no route exists, so the pages show nothing and their one request gets a 404.
+
+- **Ruled by Mark, 2026-10-04: the line shows only when the door has narrowed.** Nothing shows while the door is wide open.
+- **His words, kept in the operations file** (`words.door`): "Free conversations are limited this week. Gifts keep them open — give at Get Involved." while the free path is narrowed; "Free conversations are paused until the week turns. A code still works." when free voice is closed. His second sentence is stored as its own line so it can be left off at the last stage, when codes are refused too and "a code still works" would be untrue. At that stage only the first sentence shows. If Mark wants a line of his own for that stage, it is a words change in the operations file.
+- **What the route sends:** `GET /api/deeper/door` returns the state name and the line, nothing else: no stage number, no ratio, no ceiling, no money. It may be kept for a minute.
+- **Where it shows:** a hidden line under the headline on the home page and on Get Involved, filled by `assets/door-line.js` only when the server sends one. Any failure leaves the page as it was.
+- **A test rule refined:** the page test that kept the site from linking to the Go Deeper pages now forbids links to those pages, not the shared address file the home and Get Involved pages also load.
+- **The site stays quiet until turn-on.** `go-deeper-config.js` carries `enabled: false`; the door line makes no request while it is false. S11 flips it with the module. The no-link test now catches an extensionless link such as `/go-deeper`, which the host serves.
+- **Raised for Mark with the next words question:** "give at Get Involved" also shows on the Get Involved page itself.
+
+## 2026-10-04 — Go Deeper S9: the standing measure (daily totals, no keys)
+
+Still switched off behind the flag. With the module off no route exists and the dashboard section stays hidden.
+
+- **What is kept:** one number per measure per day, in a new `daily` table in the meter file (no rowid; the key is the day and the measure name, nothing else). Codes minted by kind, tokens sold, tokens spent, the highest door stage reached, and refused turns by reason: no code, code not accepted, spent, too few, group daily limit, paused, in use, free rounds done, free day spent, door closed to free, door closed to codes. Ninety days, then dropped, like the reconciliation counts.
+- **Each refused turn counts once,** when the turn ends, by the reason admission gave, and a failed measure never changes a grant. This is the count the S5c note asked for: turns refused at a closed door, and what a visitor who keeps messaging at one adds up to.
+- **Where it shows:** `GET /api/admin/deeper/measures` (admin only) returns the last fourteen days and the reconciliation counts; a Go Deeper section on the existing admin dashboard shows today's tiles and a day-by-day table. The money not yet matched to codes is the reconciliation gap.
+- **One measure left out, stated:** crisis turns. The module never sees what a message says, so it cannot count them. A crisis count belongs on the engine's side, from the routing it already records; it is an open gap for the engine thread and for Mark to ask for.
+- **Still to come in S5:** the plan's week of observe mode (the door computing and showing its stage while narrowing nothing) is not built; the door narrows from the first week it is on. Mark decides whether to add it before turn-on (S11).
+- **A count never changes work.** Every measure is written best-effort: a failure is logged and the purchase, the spend, the grant and the door stand. The group daily ceiling's running total is updated before the spend's count is written, so a failed count cannot loosen it (a test makes the count fail and the ceiling still refuses at three).
+- **Stated over-count:** a refused turn is counted when the grant refuses, even if the safety check then lets the message through to the Facilitator for a check-in or distress answer. The count is of refusals, not of turns that went unanswered.
+- **A residual for the privacy page's list:** at pilot volume a day's refusal counts and tokens spent are small numbers, and someone holding the meter file and knowing when one person used the app could read that person's day from them. They hold no code, visitor, address or time of day.
+
 ## 2026-10-04 — Go Deeper S11: the turn-on and rollback runbook, and the balances-owed report
 
 Still switched off behind the flag.

@@ -12,6 +12,7 @@ from engine.deeper.door import DoorSettings, Stage
 from engine.deeper.tokens import Pack, TokenRates
 
 OPS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "deeper", "ops", "go-deeper.yaml")
+DOOR_WORD_KEYS = ("limited", "paused", "code_still_works")
 NOTE_KEYS = ("no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use")
 SOLO_KEYS = ("open", "round", "round_from_fourth")
 TABLE_KEYS = ("open_per_seat", "round_two_seats", "round_three_seats", "round_two_seats_from_fourth", "round_three_seats_from_fourth")
@@ -34,6 +35,7 @@ class DeeperOps:
     low_balance_at: int
     limit_text: str
     notes: dict
+    door_words: dict
     rates: TokenRates
     packs: tuple[Pack, ...]
     door: DoorSettings
@@ -159,15 +161,16 @@ def load_ops(path: str | None = None) -> DeeperOps:
         if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
             raise OpsFileError(f"limits.{key} must be a positive whole number")
     words = data["words"]
-    if not isinstance(words, dict) or set(words) != {"limit", "notes"}:
-        raise OpsFileError("words must hold exactly limit and notes")
+    if not isinstance(words, dict) or set(words) != {"limit", "notes", "door"}:
+        raise OpsFileError("words must hold exactly limit, notes and door")
     notes = _section(words, "notes", NOTE_KEYS)
-    for text in (words["limit"], *notes.values()):
+    door_words = _section(words, "door", DOOR_WORD_KEYS)
+    for text in (words["limit"], *notes.values(), *door_words.values()):
         if not isinstance(text, str) or not text.strip():
             raise OpsFileError("every piece of wording must be a non-empty string")
     rates, packs = _tokens(data["tokens"])
     door = _door(data["door"])
     return DeeperOps(
         group_daily_ceiling=limits["group_daily_ceiling"],
-        group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), rates=rates, packs=packs, door=door,
+        group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
     )

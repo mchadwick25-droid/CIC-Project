@@ -132,7 +132,8 @@ def test_nothing_on_the_site_links_to_the_go_deeper_pages_yet():
     for path in SITE.rglob("*.html"):
         if path.name in PAGES:
             continue
-        assert "go-deeper" not in path.read_text(errors="ignore"), path.name
+        text = path.read_text(errors="ignore")
+        assert not re.search(r"""href=["'][^"']*go-deeper(?!-config)""", text), path.name
 
 
 @pytest.mark.parametrize("page", PAGES)
@@ -241,3 +242,33 @@ def test_the_return_page_names_the_app_origin_and_no_wildcard():
     text = (SITE / "go-deeper-return.html").read_text()
     assert "appOrigin: APP" in text and "window.GoDeeper.deliver(result.codes" in text
     assert not re.search(r"postMessage\([^)]*['\"]\*['\"]", text + (SITE / "assets/go-deeper.js").read_text())
+
+
+def test_the_door_line_shows_only_what_the_server_sends():
+    out = _node("doorLine")
+    assert out["shown"] == {"hidden": False, "text": "Free conversations are limited this week."}
+    for quiet in ("open", "unreachable", "refused", "malformed"):
+        assert out[quiet] == {"hidden": True, "text": ""}, quiet
+    assert out["url"] == "https://api.test/api/deeper/door"
+    assert out["init"] == {"credentials": "omit", "referrerPolicy": "no-referrer"}
+
+
+@pytest.mark.parametrize("page", ["index.html", "support.html"])
+def test_the_door_line_sits_on_the_home_and_get_involved_pages_hidden(page):
+    html = (SITE / page).read_text()
+    assert '<p id="door-line" class="door-line" role="status" hidden></p>' in html
+    assert html.index("assets/go-deeper-config.js") < html.index("assets/door-line.js")
+
+
+def test_the_site_stays_quiet_until_the_config_says_go_deeper_is_on():
+    config = (SITE / "assets" / "go-deeper-config.js").read_text()
+    assert "enabled: false" in config
+    script = (SITE / "assets" / "door-line.js").read_text()
+    assert "GoDeeperConfig.enabled" in script
+
+
+def test_the_no_link_rule_catches_a_link_without_the_extension():
+    caught = re.compile(r"""href=["'][^"']*go-deeper(?!-config)""")
+    for link in ('<a href="/go-deeper">', '<a href="go-deeper.html">', "<a href='go-deeper-return.html'>"):
+        assert caught.search(link), link
+    assert not caught.search('<script src="assets/go-deeper-config.js"></script>')

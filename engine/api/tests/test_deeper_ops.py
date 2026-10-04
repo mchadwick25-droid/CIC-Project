@@ -41,7 +41,7 @@ def test_the_token_rates_and_packs_are_the_ruled_ones():
 
 def test_all_wording_reads_at_the_target_level():
     ops = load_ops()
-    for text in (ops.limit_text, *ops.notes.values()):
+    for text in (ops.limit_text, *ops.notes.values(), *ops.door_words.values()):
         assert score_turn(text).passed, text
 
 
@@ -60,6 +60,9 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["words"]["notes"].pop("spent"),
         lambda d: d["words"]["notes"].update(spent="  "),
         lambda d: d["words"].update(limit=""),
+        lambda d: d["words"].pop("door"),
+        lambda d: d["words"]["door"].pop("limited"),
+        lambda d: d["words"]["door"].update(paused=" "),
     ],
 )
 def test_a_malformed_file_is_refused(tmp_path, change):
