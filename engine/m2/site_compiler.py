@@ -316,12 +316,12 @@ def compile_world_front(
     same property engine/m2/compiler.py's own _stamp() already relies on)
     and carries three things, for the site-staleness CI check: this
     compiler's own version/commit, the records commit it read, and a
-    hash of the world_front record itself - so a change to any of the
-    three is independently visible in the compiled output's own header,
+    hash of the world_front record itself, without where its file lives -
+    so a change to any of the three is independently visible in the compiled output's own header,
     without having to diff the whole file to find out which one moved.
     """
     all_records = _by_id(fleet, records)
-    world_front_hash = sha256_prefixed(canonical_json(world_front))
+    world_front_hash = sha256_prefixed(canonical_json({k: v for k, v in world_front.items() if k != "_path"}))
     provenance = (
         f"cic-m2-site-compiler {compiler_version} from records_commit {records_commit}, "
         f"world_front {world_front.get('id')} {world_front_hash}"

@@ -18,7 +18,7 @@ representative: {name: Albina, role_label: "Widow of the Household"}
 state: admitted
 census_id: "hieronymian-ascetic-literary"
 package:
-  manifest_hash: "sha256:68175934d9c4686a1a103b7a7c86629fbf790d470dee1107105c011cc1aceb6a"
-  location: "packages/hal/2026-10-03T21-09-45Z"
+  manifest_hash: "sha256:e59db7372f347ed83bdbc5cb6d46963747d8c985588a218667058b0d97ce3b22"
+  location: "packages/hal/2026-10-04T00-55-35Z"
 thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
 living_tradition_flag: false

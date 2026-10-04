@@ -62,6 +62,9 @@ RUN pip install --no-cache-dir -r engine/api/requirements.txt -r engine/m1/requi
 
 COPY engine/ engine/
 COPY records/ records/
+# A world's search records and its site and Facilitator records; .dockerignore
+# admits only those two homes from Build/worlds/.
+COPY Build/worlds/ Build/worlds/
 COPY packages/ packages/
 # Two engine/m1/gates.py checks (gate_edition_rights_consistency, gate_
 # canonical_address) read cic/texts/<file> straight off disk to confirm a

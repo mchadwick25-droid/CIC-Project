@@ -1,0 +1,11 @@
+# Moves whose old paths older documents may still cite. tools/check_paths.py
+# accepts such a citation only while the file exists at its new home.
+# <code> stands for one path segment (a world's registry code).
+records/_fleet/fleet_voice                    engine/shape/records/fleet_voice
+records/_fleet/canon_question                 engine/canon/records/canon_question
+records/_fleet/modern_term                    engine/m5/records/modern_term
+records/_fleet/contested_claim                engine/m5/records/contested_claim
+records/_fleet/source                         engine/m5/records/source
+records/<code>/world_front                    Build/worlds/<code>/surface/world_front
+records/<code>/facilitator_brief              Build/worlds/<code>/surface/facilitator_brief
+records/<code>/search_record                  Build/worlds/<code>/build/records/search_record

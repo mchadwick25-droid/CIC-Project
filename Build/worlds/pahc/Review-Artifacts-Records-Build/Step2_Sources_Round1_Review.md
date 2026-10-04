@@ -2,7 +2,7 @@
 
 **Reviewer:** independent cold reviewer, no part in drafting the records under review.
 **Date:** 2026-08-21
-**Under review:** 18 source records (`records/pahc/source/*.md`), 9 search records (`records/pahc/search_record/*.md`), and `Build/worlds/pahc/build/SOURCE-REQUEST-MANIFEST.md`, on branch `claude/pahc-world-build-2oq764`.
+**Under review:** 18 source records (`records/pahc/source/*.md`), 9 search records (`Build/worlds/pahc/build/records/search_record/*.md`), and `Build/worlds/pahc/build/SOURCE-REQUEST-MANIFEST.md`, on branch `claude/pahc-world-build-2oq764`.
 **Checked against:** `CiC_W1_Doc01_World_Identification_FINAL.md` and `CiC_W1_Doc02_Source_Ecology_FINAL.md` (both approved 2026-07-07); the vendored XML volumes in `cic/texts/` (read directly with python/grep); `engine/m1/schemas.py` and `gates.py`; `CiC_W1_Source_Registry_FINAL_v2.xlsx` (all five sheets extracted directly from the workbook XML); Doc_03, Doc_04, Doc_08, Doc_09, the fleet canon records, `cic/texts/README.md`, and `cic/engine/texts_registry.py`.
 
 ---

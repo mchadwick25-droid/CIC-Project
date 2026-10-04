@@ -2,7 +2,7 @@
 
 **World #3: Desert Monasticism** — branch `world/desert`, commit 84a9a288 ("desert step 2, review round 1: apply 5 substantial + 10 cosmetic findings")
 
-**Reviewed:** the 24 source records in `records/desert/source/`, 10 search records in `records/desert/search_record/`, and `Build/worlds/desert/build/SOURCE-REQUEST-MANIFEST.md`, after the Round 1 revision.
+**Reviewed:** the 24 source records in `records/desert/source/`, 10 search records in `Build/worlds/desert/build/records/search_record/`, and `Build/worlds/desert/build/SOURCE-REQUEST-MANIFEST.md`, after the Round 1 revision.
 
 **Reviewer stance:** independent, adversarial, no drafting or Round 1 context. Per this project's discipline, no fix was accepted on the revision's say-so: every one of the fifteen findings was re-verified against primary ground truth — direct grep/read of the vendored files in `cic/texts/`, the cleared Doc_02 and approved Doc_01, the prior build's record store (`cic-poc/backend/wrs/records/desert_world/source/`), and a fresh run of the full M1 gate battery. All 34 records were read in full; the entire revision diff was walked to check for newly introduced errors.
 
