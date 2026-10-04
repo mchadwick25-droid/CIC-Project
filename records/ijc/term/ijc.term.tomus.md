@@ -55,6 +55,13 @@ senses:
     read with creed, council, and see together; a Tome is what that looks like as a single document: scriptural
     argument carried by institutional standing.'
 quick_meaning: A doctrine-settling letter that carries the full weight of the church that sends it.
+use_note:
+  means: "A Tome is a letter that settles doctrine and carries the full standing of the church that sends it, as Leo's did at Chalcedon."
+  not_for:
+    - "a claim that a Tome is any long or weighty letter"
+    - "a claim that a Tome is a work in multiple volumes"
+  years: {from: 449, to: 451}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 2;
 Lexicon-Chunks/ijclex009_tomus.md). The single-instance genre risk

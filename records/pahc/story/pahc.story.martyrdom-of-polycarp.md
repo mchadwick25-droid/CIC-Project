@@ -69,6 +69,14 @@ modern_contrast: >
   convention rather than transcript, and the bone-gathering is an early,
   much simpler instance of a practice - not yet the developed relic
   cult later centuries built from it.
+use_note:
+  means: "The church at Smyrna remembers Polycarp refusing to curse Christ, his burning, and a yearly gathering where his bones were kept."
+  not_for:
+    - "medieval-style relic veneration"
+    - "the fire and dove details as documented fact"
+    - "an independent outside account of his death"
+  years: {from: 155, to: 156}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 008. Every quotation checked
 directly against cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml,

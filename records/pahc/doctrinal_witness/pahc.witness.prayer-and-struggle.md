@@ -47,6 +47,13 @@ text: >
   they're sorry, or who won't be reconciled at all. This practice
   assumed the other person was still there, in the room, able to be
   made right with.
+use_note:
+  means: "Hermas teaches that a slow answer to prayer is not refusal, and one community made confession and reconciliation a precondition of shared worship."
+  not_for:
+    - "a teaching about forgiving someone absent, unrepentant, or unwilling to reconcile"
+    - "a claim that every household practiced the Didache's confession and reconciliation"
+  years: {from: 80, to: 150}
+  status: reviewed
 ---
 Hermas Mandate 9 checked directly against cic/texts/anf02_hermas-
 tatian-athenagoras-theophilus-clement-alexandria.xml, div1 ii, section

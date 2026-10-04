@@ -1976,3 +1976,15 @@ def test_the_same_words_in_a_note_field_are_still_flagged(tmp_path):
     text = 'sources:\n  - title: "Epistulae"\n    note: "Caught by adversarial review on 2026-09-02"\n'
     hits = _hits_for(text, tmp_path, "records/w/source/w.source.x.yaml")
     assert any(h.category == "REWRITE" for h in hits)
+
+
+def test_a_spoken_field_describing_the_period_is_not_a_route_cue(tmp_path):
+    """A voiced sentence can say a thing was 'not yet fixed' in the world's own
+    time; that is history, not an open item."""
+    text = ("---\nid: x.dw.a\nrecord_type: doctrinal_witness\n"
+            "positions:\n- \"Apostolic writing was not yet fixed into one settled list.\"\n"
+            "why: \"This build has an open item here.\"\n---\n")
+    hits = {h.line for h in _hits_for(text, tmp_path, "records/x/doctrinal_witness/x.dw.a.md") if "route-cue" in h.patterns}
+    lines = text.splitlines()
+    assert lines.index("- \"Apostolic writing was not yet fixed into one settled list.\"") + 1 not in hits
+    assert lines.index("why: \"This build has an open item here.\"") + 1 in hits

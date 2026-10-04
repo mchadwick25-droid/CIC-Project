@@ -7,7 +7,7 @@ RATES = TokenRates(
     solo_open=50, solo_round=20, solo_round_later=25,
     table_open_per_seat=50, table_round_two=60, table_round_three=100,
     table_round_two_later=75, table_round_three_later=125,
-    later_rounds_from=4, free_daily=330, free_rounds=3,
+    later_rounds_from=4, free_window=550, free_window_days=30, free_rounds=3,
 )
 
 
@@ -34,7 +34,7 @@ def test_the_opening_is_drawn_once_with_the_first_round_only():
 
 
 def test_the_free_grant_is_three_solo_conversations_of_three_rounds():
-    assert RATES.free_daily == 3 * conversation_cost(RATES, RATES.free_rounds)
+    assert RATES.free_window == 5 * conversation_cost(RATES, RATES.free_rounds)
 
 
 def test_the_packs_are_whole_numbers_of_those_conversations():

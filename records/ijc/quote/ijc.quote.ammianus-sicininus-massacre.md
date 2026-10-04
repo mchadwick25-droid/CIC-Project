@@ -41,6 +41,13 @@ modern_lens_note: >-
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 - {type: associated-with, target: ijc.quote.socrates-damasus-election}
+use_note:
+  means: "The pagan historian Ammianus reports that partisans of Damasus and Ursinus fought for Rome's bishopric, and 137 bodies were found one day in a church."
+  not_for:
+    - "a claim that the 366 conflict was a dispute over doctrine"
+    - "a claim that Damasus gained the see without violence by his partisans"
+  years: {from: 378, to: 391}
+  status: reviewed
 ---
 Text verified verbatim against the vendored file from a
 raw djvu OCR scan (two mechanical corrections made against the scan's

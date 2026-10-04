@@ -61,6 +61,14 @@ modern_contrast: 'A modern reader might picture this as the founding of a hospit
   famine, undertaken because the community trusted him personally rather than any
   institution - not an ongoing medical charity, and not repeated after the crisis
   passed.'
+use_note:
+  means: "Palladius and Sozomen report that in the famine of Ephrem's last year he nursed the starving in Edessa's public porches, dying soon after it ended."
+  not_for:
+    - "a claim that the account is eyewitness or Tier 1 evidence"
+    - "a claim that the three hundred beds and the dialogue with the rich are verified reporting"
+    - "a claim that Ephrem founded a lasting hospital or charitable institution"
+  years: {from: 372, to: 373}
+  status: reviewed
 ---
 Re-derived from syrstory001 (Tier 2 after the reviewed
 reclassification), re-anchored to the two VENDORED early witnesses

@@ -14,30 +14,39 @@ tokens:
     round_two_seats_from_fourth: 75
     round_three_seats_from_fourth: 125
   free:
-    daily: 330
+    window_tokens: 550
+    window_days: 30
     rounds_per_conversation: 3
   packs:
     - {price_usd: 7, tokens: 1100}
     - {price_usd: 15, tokens: 2750}
     - {price_usd: 30, tokens: 6600}
 door:
+  observe: true
   base_weekly_usd: 150
   gift_share: 0.8
   purchase_share: 0.5
   invoice_factor: 1.35
   stages:
     - {at: 0.66, table_free_rounds: 1}
-    - {at: 0.75, free_day_share: 0.5, solo_free_rounds: 2}
+    - {at: 0.75, free_share: 0.5, solo_free_rounds: 2}
     - {at: 0.90, table_free_rounds: 0}
     - {at: 0.95, free_voice: false}
     - {at: 1.00, paid_voice: false}
+paid:
+  round_cap: 40
+  provisional: true
 words:
   limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
   notes:
-    no_code: "If you hold a code, enter it to carry on in this conversation."
+    no_code: "To carry on in this conversation, add tokens or enter a code."
     code_not_accepted: "That code was not accepted. Check it and try again."
-    spent: "Your code has no exchanges left."
-    too_few: "Your code does not have enough exchanges left for a Table round."
+    spent: "Your tokens have run out. Add more to carry on."
+    too_few: "You do not have enough tokens left for a Table round. Add more to carry on."
     daily_ceiling: "Your code has reached its limit for today. It works again tomorrow."
     paused: "Codes are paused for now. Your code is safe."
-    in_use: "Your code is finishing another exchange. Try again in a moment."
+    in_use: "Your tokens are in use by another conversation. Try again in a moment."
+  door:
+    limited: "Free conversations are limited this week. Gifts keep them open — give at Get Involved."
+    paused: "Free conversations are paused until the week turns."
+    code_still_works: "A code still works."

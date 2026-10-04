@@ -26,13 +26,15 @@ from fastapi import FastAPI, Header, HTTPException, Request, Response
 from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
+from engine.api.deeper_door import STATE_KEY as DOOR_STATE_KEY
+from engine.api.deeper_door import DoorMonitor
 from engine.api.deeper_ops import DeeperOps, load_ops
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
 from engine.deeper.config import DeeperConfig
 from engine.deeper import meter as meter_module
 from engine.deeper.meter import KINDS, AlreadyMinted, Meter, PaymentVoided
-from engine.deeper.free import DailyFreeAllowance
+from engine.deeper.free import FreeAllowance
 from engine.deeper.tokens import TokenRates
 
 logger = logging.getLogger("cic.deeper")
@@ -94,12 +96,15 @@ class DeeperRuntime:
     ops: DeeperOps | None = None
     facilitator_only_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
     paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
-    free: DailyFreeAllowance | None = None
+    free: FreeAllowance | None = None
     gift_links: frozenset = frozenset()
+    door: "DoorMonitor | None" = None
+    door_observe: bool = False
+    paid_round_cap: int | None = None
 
     def __post_init__(self):
         if self.free is None:
-            self.free = DailyFreeAllowance(self.token_rates.free_daily)
+            self.free = FreeAllowance(self.meter, self.token_rates.free_window)
 
 
 def parse_gift_links(raw: str | None, products: dict[str, Product]) -> frozenset:
@@ -220,11 +225,28 @@ def handle_event(runtime: DeeperRuntime, event: dict) -> str:
         payment = payment_id_of(event)
         if payment is None:
             return "ignored_no_payment"
-        voided = runtime.meter.void(payment)
-        runtime.meter.void_funds(payment)
-        runtime.meter.tally("refunds_applied", voided)
+        apply_refund(runtime, payment)
         return "voided"
     return "ignored_type"
+
+
+def _count_door(meter: Meter, state) -> None:
+    """What the door computed, kept as the day's peaks. In observe mode this is
+    the whole report of what it would have done."""
+    meter.measure_peak("door_stage", state.stage)
+    meter.measure_peak("door_ratio_permille", round(state.ratio * 1000))
+    meter.measure_peak("door_spend_cents", round(state.ratio * state.ceiling_usd * 100))
+
+
+def apply_refund(runtime: DeeperRuntime, payment: str) -> int:
+    """Takes a payment back: its codes are void, its money leaves the door's
+    sum, and the reconciliation counts it. The webhook calls this for a full
+    refund or a dispute; the admin route calls it for a refund Stripe's event
+    cannot report (a partial one, or any made while the module was off)."""
+    voided = runtime.meter.void(payment)
+    runtime.meter.void_funds(payment)
+    runtime.meter.tally("refunds_applied", voided)
+    return voided
 
 
 def _mint_for(runtime: DeeperRuntime, session: dict, product: Product) -> str:
@@ -301,6 +323,10 @@ class BalanceResponse(BaseModel):
 
 class PauseRequest(BaseModel):
     on: bool
+
+
+class VoidRequest(BaseModel):
+    payment_id: str = Field(..., min_length=1, max_length=200)
 
 
 class FundsRequest(BaseModel):
@@ -408,11 +434,33 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         paused = await run_in_threadpool(runtime.meter.is_paused)
         return BalanceResponse(kind=info.kind, remaining=info.remaining, paused=paused)
 
+    @app.get("/api/deeper/door")
+    def public_door(request: Request, response: Response):
+        """The one public line about the free path this week: its words and
+        nothing else. No stage number, no ratio, no money."""
+        _cors(request, response)
+        response.headers["Cache-Control"] = "public, max-age=60"
+        words = runtime.ops.door_words if runtime.ops is not None else None
+        state = runtime.door.state() if runtime.door is not None and not runtime.door_observe else None
+        if words is None or state is None or state.stage == 0:
+            return {"state": "open", "line": None}
+        if state.free_voice:
+            return {"state": "limited", "line": words["limited"]}
+        line = words["paused"] + (" " + words["code_still_works"] if state.paid_voice else "")
+        return {"state": "paused", "line": line}
+
     @app.post("/api/admin/deeper/pause")
     def pause(req: PauseRequest, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
         runtime.meter.pause(req.on)
         return {"paused": runtime.meter.is_paused()}
+
+    @app.post("/api/admin/deeper/void")
+    def void_payment(req: VoidRequest, request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        if not runtime.meter.payment_minted(req.payment_id):
+            raise HTTPException(status_code=404, detail="no codes were made for that payment; nothing was changed")
+        return {"payment_id": req.payment_id, "voided": apply_refund(runtime, req.payment_id)}
 
     @app.post("/api/admin/deeper/funds")
     def add_funds(req: FundsRequest, request: Request, authorization: str | None = Header(default=None)):
@@ -430,6 +478,25 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             raise HTTPException(status_code=404, detail="no such entry, or already reversed")
         return {"reversed": entry_id}
 
+    @app.get("/api/admin/deeper/door")
+    def door_state(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        if runtime.door is None:
+            return {"door": None}
+        state = runtime.door.state()
+        return {"door": {"stage": state.stage, "ratio": round(state.ratio, 3), "ceiling_usd": round(state.ceiling_usd, 2),
+                         "free_voice": state.free_voice, "paid_voice": state.paid_voice, "observe": runtime.door_observe}}
+
+    @app.get("/api/admin/deeper/measures")
+    def measures(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        return {"measures": runtime.meter.measures(14), "reconciliation": runtime.meter.reconciliation(14)}
+
+    @app.get("/api/admin/deeper/owed")
+    def owed(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        return {"owed": runtime.meter.owed()}
+
     @app.get("/api/admin/deeper/funds")
     def funds(request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
@@ -441,22 +508,39 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         return {"days": runtime.meter.reconciliation(days=14)}
 
 
-def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None) -> DeeperRuntime:
+def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None, usage_store=None) -> DeeperRuntime:
     """The runtime for a deploy with the flag on. A missing webhook secret
     refuses to start rather than leaving the webhook open, and so does a
-    deploy without the visitor cap, which the free day depends on."""
+    deploy without the visitor cap or the free-allowance key, which the free allowance depends on."""
     secret = env.get("CIC_DEEPER_WEBHOOK_SECRET")
     if not secret:
         raise DeeperConfigError("CIC_DEEPER_ENABLED is on but CIC_DEEPER_WEBHOOK_SECRET is unset")
+    free_key = env.get("CIC_DEEPER_FREE_KEY")
+    if not free_key or len(free_key) < 32:
+        raise DeeperConfigError(
+            "CIC_DEEPER_ENABLED is on but CIC_DEEPER_FREE_KEY is unset or shorter than 32 characters: "
+            "the free allowance is keyed by it, and it is never written to disk"
+        )
     if env.get("CIC_API_ANON_CAP_ENABLED", "") not in ("1", "true", "yes"):
         raise DeeperConfigError(
-            "CIC_DEEPER_ENABLED is on but CIC_API_ANON_CAP_ENABLED is off: the free day is kept per visitor, "
+            "CIC_DEEPER_ENABLED is on but CIC_API_ANON_CAP_ENABLED is off: the free allowance is kept per visitor, "
             "and without the visitor cookie everyone behind one address would share it"
         )
     ops = ops or load_ops()
     products = parse_products(env.get("CIC_DEEPER_PRODUCTS"))
+    meter = Meter(
+        config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling,
+        free_window_days=ops.rates.free_window_days, free_key=free_key.encode("utf-8"),
+    )
+    door = None
+    if usage_store is not None:
+        door = DoorMonitor(
+            ops.door, usage_store, lambda: meter.net_funds(7),
+            load=lambda: meter.get_state(DOOR_STATE_KEY), save=lambda raw: meter.set_state(DOOR_STATE_KEY, raw),
+            observe=lambda state: _count_door(meter, state),
+        )
     return DeeperRuntime(
-        meter=Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling),
+        meter=meter,
         claims=ClaimStore(config.claims_db_path),
         webhook_secret=secret,
         products=products,
@@ -465,4 +549,7 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None)
         token_rates=ops.rates,
         group_burst_multiplier=ops.group_burst_multiplier,
         ops=ops,
+        door=door,
+        door_observe=ops.door_observe,
+        paid_round_cap=ops.paid_round_cap,
     )

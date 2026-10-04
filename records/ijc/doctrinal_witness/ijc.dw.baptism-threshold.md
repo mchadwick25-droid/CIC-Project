@@ -55,6 +55,14 @@ tensions:
 relations:
 - type: associated-with
   target: ijc.quote.he-deferred-it-in-the-hope
+use_note:
+  means: "Baptism was our decisive, unrepeatable threshold, weighty enough that men like Constantine deferred it, and it placed even emperors under church discipline."
+  not_for:
+    - "a claim that Eusebius's account of Constantine's motive for delay is established fact"
+    - "a claim that this world stressed inward conversion experience as later ages do"
+    - "a claim that deferred baptism was this church's settled, uniform practice"
+  years: {from: 337, to: 380}
+  status: reviewed
 ---
 F4-T's "born again" question answered through the record's three great
 documented baptisms - the world's real material for the translational

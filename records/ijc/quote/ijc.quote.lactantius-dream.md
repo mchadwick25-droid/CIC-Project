@@ -39,6 +39,12 @@ retrieval:
   - "participant asks whether the conversion story can be believed"
 relations:
 - {type: illustrates, target: ijc.story.dream-before-battle}
+use_note:
+  means: "Lactantius reports that a dream directed Constantine to mark the heavenly sign, Christ's monogram, on his soldiers' shields before going into battle."
+  not_for:
+    - "a claim that Lactantius's dream and Eusebius's midday vision are one reconcilable account"
+  years: {from: 313, to: 316}
+  status: reviewed
 ---
 Text verified verbatim against the vendored file: the file prints the
 actual Greek letter chi (Χ, U+03A7), not a Latin "X", and this record

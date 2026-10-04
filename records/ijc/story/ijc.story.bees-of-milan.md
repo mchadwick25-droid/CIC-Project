@@ -54,6 +54,13 @@ modern_contrast: >-
   uses it: it is a named, dated infancy-omen convention, told a generation after Ambrose's death to
   explain backward a life already known to be extraordinary - what it documents is this world's own
   memory-making practice, not an event.
+use_note:
+  means: "Paulinus told, after Ambrose's death, that bees settled at the infant Ambrose's mouth; the record names it as legend, documenting how memory read greatness backward."
+  not_for:
+    - "a claim that the bee omen is a verified event of Ambrose's infancy"
+    - "a claim that the legend has nothing to teach about this world's memory"
+  years: {from: 412, to: 413}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 3
 (Story-Chunks/ijcstory003), the inventory's one Tier 3 entry.

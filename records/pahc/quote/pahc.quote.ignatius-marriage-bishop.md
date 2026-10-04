@@ -36,6 +36,14 @@ retrieval:
   retrieve_when:
   - "participant asks what marriage meant to them and whether there were weddings"
   - "participant asks how far a leader's approval reached into private life"
+use_note:
+  means: "Ignatius tells Polycarp that people who marry should do so with the bishop's approval, so the marriage is according to God, not lust."
+  not_for:
+    - "a claim that a bishop or presbyter performed a marriage rite"
+    - "evidence of a developed sacramental theology of marriage"
+    - "a claim that every household actually sought the bishop's approval before marrying"
+  years: {from: 107, to: 180}
+  status: reviewed
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 v, To Polycarp ch. 5 (v.viii.v), shorter recension -
