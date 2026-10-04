@@ -35,6 +35,8 @@ def used_meter(tmp_path):
     m.mint("group", 9, "pi_c")
     m.void("pi_b")
     m.tally("payments_seen")
+    m.add_funds("gift", 2500, "pi_g")
+    m.add_funds("adjustment", 1000, note="a church gift")
     m.pause(True)
     m.close()
     return path
@@ -42,7 +44,7 @@ def used_meter(tmp_path):
 
 def test_meter_columns_name_nothing_personal_and_no_fine_time(used_meter):
     tables, _ = _tables(used_meter)
-    assert set(tables) == {"meter", "voided_payments", "state", "reconcile"}
+    assert set(tables) == {"meter", "voided_payments", "state", "reconcile", "funds"}
     for table, columns in tables.items():
         for _cid, name, ctype, *_ in columns:
             assert not BANNED_NAME.search(name), f"{table}.{name}"

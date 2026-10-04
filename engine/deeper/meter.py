@@ -12,6 +12,7 @@ every in-flight reservation back and nobody pays for a turn that never
 finished. One process serves all traffic, so the lock below is the arbiter.
 """
 import logging
+import secrets
 import sqlite3
 import threading
 from dataclasses import dataclass
@@ -28,6 +29,10 @@ LIVE, SPENT, VOID = "live", "spent", "void"
 
 TALLY_FIELDS = ("payments_seen", "payments_minted", "payments_voided_first", "codes_minted", "refunds_applied", "partial_refunds_ignored")
 RECONCILE_RETENTION_DAYS = 90
+FUNDS_KINDS = ("gift", "purchase", "adjustment")
+FUNDS_RETENTION_DAYS = 90
+MAX_FUNDS_CENTS = 10_000_000
+MAX_NOTE_CHARS = 200
 
 MAX_TOKENS_PER_CODE = 1_000_000
 MAX_BATCH_COUNT = 1_000
@@ -58,6 +63,15 @@ CREATE TABLE IF NOT EXISTS reconcile (
     codes_minted INTEGER NOT NULL DEFAULT 0,
     refunds_applied INTEGER NOT NULL DEFAULT 0,
     partial_refunds_ignored INTEGER NOT NULL DEFAULT 0
+) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS funds (
+    entry TEXT PRIMARY KEY,
+    day TEXT NOT NULL,
+    kind TEXT NOT NULL CHECK (kind IN ('gift', 'purchase', 'adjustment')),
+    cents INTEGER NOT NULL CHECK (cents != 0),
+    payment_id TEXT UNIQUE,
+    note TEXT,
+    reversed INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS state (
     key TEXT PRIMARY KEY,
@@ -372,6 +386,65 @@ class Meter:
             report.append(entry)
         return report
 
+    def add_funds(self, kind: str, cents: int, payment_id: str | None = None, note: str | None = None) -> str | None:
+        """Records money that raises the door's ceiling: a gift or a go-deeper
+        purchase from Stripe (keyed by its payment id, so a replayed event adds
+        nothing and a payment refunded first adds nothing), or an adjustment by
+        hand. Returns the entry's id (random, so the order entries were made in is
+        not kept), or None when nothing was added."""
+        if kind not in FUNDS_KINDS:
+            raise ValueError(f"unknown kind {kind!r}")
+        if isinstance(cents, bool) or not isinstance(cents, int) or cents == 0 or abs(cents) > MAX_FUNDS_CENTS:
+            raise ValueError("cents out of range")
+        if kind != "adjustment" and cents < 0:
+            raise ValueError("only an adjustment can be negative")
+        if kind != "adjustment" and not payment_id:
+            raise ValueError("a gift or purchase needs its payment id")
+        if note is not None and (not isinstance(note, str) or len(note) > MAX_NOTE_CHARS):
+            raise ValueError("note too long")
+        with self._lock:
+            if payment_id is not None:
+                if self._conn.execute("SELECT 1 FROM funds WHERE payment_id = ?", (payment_id,)).fetchone():
+                    return None
+                if self._conn.execute("SELECT 1 FROM voided_payments WHERE payment_id = ?", (payment_id,)).fetchone():
+                    return None
+            entry = secrets.token_hex(6)
+            self._conn.execute(
+                "INSERT INTO funds (entry, day, kind, cents, payment_id, note) VALUES (?, ?, ?, ?, ?, ?)",
+                (entry, self._clock().isoformat(), kind, cents, payment_id, note),
+            )
+            return entry
+
+    def reverse_funds(self, entry_id: str) -> bool:
+        """Takes one entry back out of the sum. It stays on the page as reversed."""
+        with self._lock:
+            return self._conn.execute("UPDATE funds SET reversed = 1 WHERE entry = ? AND reversed = 0", (entry_id,)).rowcount == 1
+
+    def void_funds(self, payment_id: str) -> int:
+        """A refund or dispute takes a payment's money back out of the sum."""
+        with self._lock:
+            return self._conn.execute("UPDATE funds SET reversed = 1 WHERE payment_id = ? AND reversed = 0", (payment_id,)).rowcount
+
+    def net_funds(self, days: int = 7) -> dict[str, int]:
+        """What came in over the last `days` days (today included), by kind, in cents."""
+        since = (self._clock() - timedelta(days=days - 1)).isoformat()
+        with self._lock:
+            rows = self._conn.execute(
+                "SELECT kind, SUM(cents) FROM funds WHERE reversed = 0 AND day >= ? GROUP BY kind", (since,)
+            ).fetchall()
+        totals = {kind: 0 for kind in FUNDS_KINDS}
+        totals.update({kind: total for kind, total in rows})
+        return totals
+
+    def list_funds(self, days: int = 14) -> list[dict]:
+        """The entries behind the sum, newest day first, for the one person who sets the base number."""
+        since = (self._clock() - timedelta(days=days - 1)).isoformat()
+        with self._lock:
+            rows = self._conn.execute(
+                "SELECT entry, day, kind, cents, note, reversed FROM funds WHERE day >= ? ORDER BY day DESC", (since,)
+            ).fetchall()
+        return [dict(zip(("id", "day", "kind", "cents", "note", "reversed"), row)) for row in rows]
+
     def purge(self) -> int:
         """Deletes spent and void rows 30 days after the end of the week they
         were last used, and the void memory on the same rule."""
@@ -391,5 +464,8 @@ class Meter:
                         removed += 1
             removed += self._conn.execute(
                 "DELETE FROM reconcile WHERE day <= ?", ((today - timedelta(days=RECONCILE_RETENTION_DAYS)).isoformat(),)
+            ).rowcount
+            removed += self._conn.execute(
+                "DELETE FROM funds WHERE day <= ?", ((today - timedelta(days=FUNDS_RETENTION_DAYS)).isoformat(),)
             ).rowcount
         return removed
