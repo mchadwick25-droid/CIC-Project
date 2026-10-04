@@ -18,7 +18,7 @@ confidence:
     its own continuity, addressed to the Emperor directly, not a later apologetic claim made about it.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: "Conclusion, following Article XXI (cic:melanchthon_augsburg-confession_anon-pg275.txt lines 1540-1550): 'nothing has been received on our part against Scripture or the Church Catholic'"
+  locus: "Conclusion, following Article XXVIII (cic:melanchthon_augsburg-confession_anon-pg275.txt lines 1543-1550): 'nothing has been received on our part against Scripture or the Church Catholic'"
   license: public-domain
 retrieval:
   tier: 1
@@ -64,19 +64,15 @@ use_note:
   years: {from: 1530, to: 1530}
   status: reviewed
 ---
-Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
-the vendored cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. `grep -n "nothing has been received
-on our part\|no new and\|Article XXI: Of the Worship"` returns the Article XXI heading at line 618 (the
-article this Conclusion immediately follows), "been received on our part against Scripture or the Church
-Catholic. For" at line 1548, and "it is manifest that we have taken most diligent care that no new and" at
-line 1549. `sed -n '1540,1550p'` confirms the passage read in its own paragraph: opening "right,
-confessions, burials, sermons on extraordinary occasions, and" at 1540 (the end of the prior sentence,
-left outside `text`) through "ungodly doctrine should creep into our churches." at 1550. The `text` field
-begins at "Nor has anything been here said" (line 1543) rather than at 1540, since 1540-1542 continue an
-unrelated prior sentence about specific abuses (confessions, burials, sermons) that is not part of the
-continuity claim itself; the quoted span runs from "Nor has anything" (1543) through "creep into our
-churches." (1550) as one continuous, self-contained paragraph. No word added, dropped, substituted, or
-reordered within that span.
+The quoted span is checked against cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. The Conclusion
+heading is at line 1531, after Article XXVIII (line 1271), the last article of the confession. The span runs
+from "Nor has anything been here said" (line 1543, mid-line) through "creep into our churches." (line 1550).
+Lines 1540-1542 end an earlier sentence about disputes between pastors and monks and are left outside `text`.
+No word is added, dropped, substituted or reordered within the span.
+
+The id is a historical label. The words "nothing that varies from the Scriptures, or from the Church
+Catholic" are from the end of Article XXI (line 632), a separate passage. This record quotes the Conclusion,
+which follows Article XXVIII.
 
 Ground for witt.dw.nothing-against-scripture-or-the-church-catholic (F4-E: how do you know your practices
 went back to the apostles and weren't later inventions). Kept distinct from

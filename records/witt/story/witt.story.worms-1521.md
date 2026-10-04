@@ -56,11 +56,10 @@ narrative_tier_justification: 'Tier 2, Collected and Traditional Material, on id
   event''s general shape (the summons, the Diet, the refusal to recant) is Widely Accepted; the specific
   wording, including the sentence popular memory most associates with this story, is Contested (Doc_09
   witt-S03).'
-tellable_as: Warned that he has already been condemned before he even arrives, and that the road to Worms
-  may end in fire, a young friar answers that he will go anyway - "though there were as many devils in
-  Worms as there are tiles on the houses" - and stands, the next day, before the Emperor and the assembled
-  princes of the Empire, refusing to take back what he has written unless he can be shown from Scripture
-  that he is wrong.
+tellable_as: A young friar is warned that he is already condemned and that the road to Worms may end in
+  fire. He answers that he will go anyway, "although in Worms there were as many devils as there are tiles
+  on the houses." The next day he stands before the Emperor and the princes of the Empire. He will not
+  take back what he has written unless he is shown from Scripture that he is wrong.
 text: 'This is how Luther himself told the story of Worms, years afterward, to the students gathered at
   his table.
 
@@ -124,24 +123,17 @@ use_note:
   years: {from: 1521, to: 1546}
   status: reviewed
 ---
-Converted at B-4 from Doc_09 witt-S03 (witt_Doc_09_Story_Inventory.md SS2), including that document's
-own handling of the "tiles"/"Here I stand" quotation question - carried forward
-exactly, not re-litigated. Quotations verified verbatim by this authoring pass directly against
-cic/texts/luther_table-talk_bell1886.txt, lines 3495-3593 ("Of Luther's Journey and Proceedings at the
-Imperial Diet at Worms"). Source Registry (Primary); (the "Here I stand" caution, Secondary, as
-embedded quotation only, per Registry row 69's own note: "Not licensed for the 'Here I stand' sentence"
-standing at Boundary-Status level).
+Quotations are checked against cic/texts/luther_table-talk_bell1886.txt, lines 3495-3593 ("Of Luther's
+Journey and Proceedings at the Imperial Diet at Worms"). The "Here I stand" sentence is cited only to
+disclose its weaker provenance; the Source Registry does not license it as Luther's own wording.
 
-`cic/texts/luther_table-talk_bell1886.txt`
-lines 3563-3593 hold a substantial, quotable, first-person exchange - "God's Word is not my word... I
-will show obedience," the refusal to refer the cause to the Emperor, the safe-conduct offer, the Bishops'
-false report and Luther's correction - none of it picked up by any other record in this world's own
-store (checked directly: no hit anywhere in records/witt/ for "God's Word is not my word"). The exchange
-is narrated in the same close-third-person, directly-quoted register the rest of this record
-uses, verified verbatim against the extended locus. The record's central claim - that "Here I
-stand, I cannot do otherwise" itself never appears in this library's own account, at this moment or any
-other - remains true.
+Lines 3563-3593 hold a first-person exchange: "God's Word is not my word... I will show obedience," the
+refusal to refer the cause to the Emperor, the safe-conduct offer, and the Bishops' false report with
+Luther's correction. The record narrates it in close third person with direct quotation. The record's central
+claim stands: "Here I stand, I cannot do otherwise" does not appear in this library's account, at this
+moment or any other.
 
 Register note: close-third-person throughout, never first-person "we."
 
-FEC / GRAVITY LINKAGE (closed at B-5): the connection this record's own Doc_09 entry named above is now a real relations[] entry in this file's frontmatter -- associated-with to G2 (The Word: Scripture's authority, and the agent that "must do it" [PRIMARY]), G6 (The two governments: the temporal sword, obedience, and the prince as addressee [SUPPORTING]) -- with the reciprocal edge declared on each gravity record itself (witt.gravity.*), exactly as this note said it would when B-5 ran. No longer parked.
+Gravity links: associated-with to witt.gravity.the-word and witt.gravity.two-governments, with the
+reciprocal edge declared on each gravity record.

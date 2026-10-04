@@ -46,7 +46,7 @@ text: >-
 
   Wanting to die as a martyr, and calling it faithfulness -- isn't that
   a death wish in religious language? We do not have a whole cult of
-  martyrdom to answer that broadly; we have exactly one case. On the
+  martyrdom to answer that broadly; our library holds one martyr-song. On the
   first of July, 1523, two young monks, John and Henry, were burned at
   Brussels after theologians from Louvain pressed them to take back a
   teaching they had come to hold, and they refused. Our founder, in
@@ -61,7 +61,7 @@ text: >-
   judged worth singing.
 positions:
 - "we hold no independent outside account of our own worship -- only Rome's own reply reaching us at one remove, quoted and answered inside our own Apology"
-- "two named men, John and Henry, were burned at Brussels in 1523 for refusing to recant -- the only case in our own record where the movement's teaching cost anyone their life"
+- "John and Henry were burned at Brussels in 1523 for refusing to recant. That is the one case our record tells of. The ballad about it is the only martyr-song our library holds"
 - "the ballad our founder wrote of their deaths names its own point plainly: by that refusal, they became true priests of God's own making, no ordination needed"
 - "we would not call that faithfulness a death wish -- we would call it a promise held at its real cost, though we do not claim our one ballad can settle the question for someone who doubts it"
 tensions:
@@ -78,22 +78,17 @@ use_note:
   years: {from: 1523, to: 1531}
   status: reviewed
 ---
-Closes F6-E at the Answer-the-Canon step (inserted between B-7a and B-8), answering the cell's own
-martyrdom question at real strength and naming the outside-account question as a genuine gap rather than
-forcing an answer from the Confutation material this library does not independently hold. Built entirely
-from already-verified material -- witt.story.brussels-martyrs and witt.term.martyr (both verified-direct
-at their own B-4/B-3 authoring passes, not re-opened against the vendored files by this record) and
-witt.source.roman-confutation-of-the-augsburg-confession (already carrying its own "(context)... available
-only at one remove" disclosure). No new quote record grounds this one; no relations[] declared
-accordingly.
+The outside-account question is a gap. The library holds no vendored outside account of Wittenberg worship.
+The Roman Confutation reaches it only as the Apology quotes and answers it, so
+witt.source.melanchthon-apology-of-the-augsburg-confession is the listed source. The Confutation's own
+record, witt.source.roman-confutation-of-the-augsburg-confession, marks the work as not vendored and
+available only at one remove.
 
-Kept genuinely distinct from witt.demo.true-priests-by-no-ordination, a B-7 demonstration turn on this
-same cell built from the same underlying story and term records: that record is a demonstration, and per
-canon.substantive_types() does not itself close canon-coverage cells, so this record's own authoring is
-what actually closes F6-E, not a duplicate of the demonstration's own content. This record additionally
-answers the cell's OTHER question (the outside account of worship) that the demonstration does not
-address at all, and states the martyrdom material at somewhat greater length and with the marketplace/no-
-ordination claim carried forward as a position rather than left implicit. No relations[] edge is declared
-toward the demonstration record, since demonstration/B-7 content is out of this authoring pass's own
-scope to touch, per this task's own file-discipline instruction; the connection is named here, in this
-body note, rather than as a frontmatter edge.
+The martyrdom answer rests on witt.story.brussels-martyrs and witt.term.martyr. That story says only that
+the ballad is the one martyr-song this library holds. It does not say that no one else lost their life for
+the movement's teaching, so this record does not say so either. No relations[] edge is declared.
+
+This record is separate from witt.demo.true-priests-by-no-ordination, a demonstration turn on the same
+story and term records. This record also answers the outside-account question, which the demonstration does
+not, and it states the no-ordination point as a position. The connection is named here, not as a
+frontmatter edge.

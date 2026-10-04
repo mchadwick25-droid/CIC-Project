@@ -16,8 +16,8 @@ confidence:
     specifically at the Eucharist'') is UNTAGGED -- it rests on the census and sibling documents, not
     on a rowed source, and is not imported into this record''s classification.'
 sources:
-- source_id: witt.source.luther-treatise-on-the-holy-sacrament
-  locus: 'v2 7143-7224: the 1520 treatise''s own ''simple faith,'' reason taken captive'
+- source_id: witt.source.luther-babylonian-captivity-of-the-church
+  locus: 'v2 7143-7224: the 1520 Babylonian Captivity''s own ''simple faith,'' reason taken captive'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: 'LC 4069-4079: ''in and under'''
@@ -60,7 +60,7 @@ description: '''It is the true body and blood of our Lord Jesus Christ, in and u
   Of all this world''s gravities, this one rests on the thinnest evidence. That is a warning sign, and this record
   shows it openly rather than smoothing it over.
 
-  The doctrine does recur: in the treatise of 1519/1520, in catechism teaching, in the Confession, and as one word
+  The doctrine does recur: in the Babylonian Captivity of 1520, in catechism teaching, in the Confession, and as one word
   in the Bondage of the Will. Yet other things depend on it only in part. This world''s boundary against the
   Reformed depends on it, and so does promise and sign for its content at the Supper. But nothing in the world''s
   program of formation depends on how Christ is present, as distinct from the promise.
@@ -69,7 +69,7 @@ description: '''It is the true body and blood of our Lord Jesus Christ, in and u
   edge: what it meant to hold this belief against neighbours who did not. It fully explains one thing, the
   world''s boundary, and beyond that it explains only in part.
 
-  It lasts only in part. The doctrine is stated unchanged in 1519, 1529, and 1530, but the controversy that made
+  It lasts only in part. The doctrine is stated unchanged in 1520, 1529, and 1530, but the controversy that made
   it this world''s boundary is missing from every text in the library. That is a limit on what can be shown, not a
   finding against it.
 

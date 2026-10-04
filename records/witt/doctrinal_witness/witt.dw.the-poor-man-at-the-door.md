@@ -47,17 +47,16 @@ text: >-
   the poor. When a poor man comes to your door -- someone who lives on
   his day's wage and nothing more -- and you treat him with contempt,
   and turn him away when you owed him help for nothing, our own book
-  says: beware, as of the devil himself. That is not gentle language; it
-  is the sharpest warning this household book gives anywhere. His own
+  says: beware, as of the devil himself. That is not gentle language. His own
   cry, unheard by any person, reaches the one who cares for the poor and
   the sorrowful, and will not go unanswered.
 positions:
 - "marriage was named our noblest and most common estate, ordained by God at creation, before which even church and civil authority had to bow"
 - "we do not name any of us as rich, but we hold a real, sharply worded warning against harshness toward the poor, aimed at the household's own conscience"
-- "a poor man turned away with contempt, when he was owed help for nothing, is answered, in our own words, 'beware... as of the devil himself' -- our sharpest warning against any sin named in this same household book"
+- "a poor man turned away with contempt, when he was owed help for nothing, is answered, in our own words, 'beware... as of the devil himself'"
 tensions:
 - "we hold no description of an actual wedding among us -- the rite itself, the celebration, what a wedding day looked like, is a real gap our doctrinal material on marriage as an estate does not fill"
-- "our library was searched, by this authoring pass, at only one locus for money and poverty -- one commandment's own explanation, not a fuller survey of every register we speak in"
+- "our record holds only one locus for money and poverty -- one commandment's own explanation, not a fuller survey of every register we speak in"
 relations:
 - type: associated-with
   target: witt.quote.the-poor-man-who-comes-to-you
@@ -65,21 +64,17 @@ use_note:
   means: "This witness holds that marriage was our noblest estate, ordained at creation, and that our catechism sharply warned households against harshness toward the poor, while naming no one rich."
   not_for:
     - "a description of an actual wedding rite or celebration among us"
-    - "a claim that this is the sharpest warning in the household book, which only one locus was searched to support"
+    - "a claim that this is the sharpest warning in the household book, which our record has not compared with other passages"
     - "a claim that our records name anyone among us as rich or condemn wealth as such"
     - "the full verbatim warning, which sits in witt.quote.the-poor-man-who-comes-to-you"
   years: {from: 1529, to: 1529}
   status: reviewed
 ---
-Closes F5-T at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's two questions are
-answered at genuinely different strengths: the money-and-poverty question is well grounded
-(witt.quote.the-poor-man-who-comes-to-you); the marriage question draws on already-verified doctrinal
-material (witt.term.marriage) but is honestly thinner for the "did you have weddings" half of the
-question, which asks for a rite or a celebration this world's library does not describe -- named directly
-in tensions rather than answered by inference from the doctrinal material alone.
+The cell's two questions are answered at different strengths. The money-and-poverty answer rests on
+witt.quote.the-poor-man-who-comes-to-you. The marriage answer draws on the doctrinal material in
+witt.term.marriage. It is thinner for the "did you have weddings" half, because the library describes no
+rite or celebration. That gap is named in tensions.
 
-witt.term.marriage is cited here as already-verified corroboration (verified-via-authority at its own B-3
-authoring pass, not re-opened against the vendored files by this record). Every direct quotation traces
-to witt.quote.the-poor-man-who-comes-to-you, independently re-verified at that record's own authoring pass
-against cic/texts/luther_large-catechism_bente-dau1921.txt lines 1946-1959. Reciprocal associated-with
-declared on that record.
+witt.term.marriage is cited as corroboration and is not re-checked here against the vendored files. Every
+direct quotation traces to witt.quote.the-poor-man-who-comes-to-you (cic/texts/luther_large-catechism_bente-dau1921.txt
+lines 1946-1956). The reciprocal associated-with edge is declared on that record.

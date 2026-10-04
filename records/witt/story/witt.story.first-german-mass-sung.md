@@ -15,7 +15,8 @@ confidence:
     Walter "in his old age," reaching this library through three transmitting hands (Walter, then Praetorius,
     then Rambach in 1813, then Bacon in 1883), laudatory in tone toward Luther throughout. This is Tier
     2''s own definition exactly - collected community memory, authentic as tradition even where wording
-    cannot be independently verified.'
+    cannot be independently verified. The letter itself is undated. The years field gives the mid-1520s events
+    Walter recalls, not the date of the letter.'
 sources:
 - source_id: witt.source.johann-letter-of-reminiscence-on-luther-as
   locus: Walter's own letter, as quoted in Bacon's Introduction - "he kept me three weeks long at Wittenberg...
@@ -94,12 +95,11 @@ use_note:
   years: {from: 1526, to: 1526}
   status: reviewed
 ---
-Converted at B-4 from Doc_09 witt-S07 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
-verbatim by this authoring pass directly against cic/texts/luther_hymns_bacon-allen.txt, lines 743-795
-(Walter's letter as quoted in Bacon's Introduction). Source Registry (Native; Primary as embedded,
-Secondary for the letter itself, not independently opened).
+Quotations are checked against cic/texts/luther_hymns_bacon-allen.txt, lines 743-795 (Walter's letter as
+quoted in Bacon's Introduction). The letter is undated and is not opened here as a document in its own right.
 
 Register note: close-third-person throughout; Walter's own remembered words are always attributed as
 his own recollection, never narrated as an independent transcript.
 
-FEC / GRAVITY LINKAGE (closed at B-5): the connection this record's own Doc_09 entry named above is now a real relations[] entry in this file's frontmatter -- associated-with to G11 (German for the people: vernacular teaching and singing, Latin retained for the learned [SUPPORTING]) -- with the reciprocal edge declared on each gravity record itself (witt.gravity.*), exactly as this note said it would when B-5 ran. No longer parked.
+Gravity links: associated-with to witt.gravity.german-for-the-people, with the reciprocal edge declared on
+that gravity record.

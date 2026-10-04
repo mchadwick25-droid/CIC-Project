@@ -70,16 +70,13 @@ use_note:
   years: {from: 1530, to: 1531}
   status: reviewed
 ---
-Closes F1-E at the Answer-the-Canon step (inserted between B-7a and B-8). Built entirely from
-already-verified material -- witt.story.diet-of-augsburg-1530 (verified-direct at its own B-4 authoring
-pass, quotations checked against cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 47-53 and
-1555-1568) and the two already-vetted source records for the Confutation and the Apology -- rather than
-opening a new quote record: the cell's own question (who had the right to decide, and how do we know that
-worked) is answered by the institutional SHAPE of the process the story record already establishes
-(confession, signed corporately; answered in writing; defended in writing), not by any single sentence
-that needed fresh verbatim verification. No new relations[] declared, since no new quote record grounds
-this one specifically and this record does not touch the existing story or source records' own relations
-fields.
+The institutional shape of the process comes from witt.story.diet-of-augsburg-1530 (its quotations are
+checked against cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 47-53 and 1555-1568) and from
+witt.source.melanchthon-apology-of-the-augsburg-confession, the two listed sources. The Apology answers the
+Roman Confutation point by point. The Confutation's own record,
+witt.source.roman-confutation-of-the-augsburg-confession, is named in the divergence_note only, because that
+work is not vendored and reaches the library only as the Apology quotes it. No quote record grounds this
+witness, so no relations[] edge is declared.
 
 The sub-question "I've heard a council basically voted Jesus into being God" is answered by naming the
 honest boundary rather than forcing an answer this world's own library cannot give: that question belongs

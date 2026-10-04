@@ -52,9 +52,9 @@ text: >-
   Were we born again -- is that how we would put what happened to us?
   In a sense, yes, though we locate the new birth differently than you
   may expect: at the font, not only at a later, felt moment. The same
-  sentence that names us "born with sin" names the remedy in the same
-  breath: brought to eternal death "until born again through Baptism and
-  the Holy Ghost." And baptism itself, our own catechism says, is a
+  sentence that says all of us are "born with sin" says that this sin
+  condemns "those not born again through Baptism and the Holy Ghost."
+  And baptism itself, our own catechism says, is a
   death begun that lasts a whole life -- the old self drowned, a new
   self rising, not once only, but daily.
 
@@ -96,17 +96,12 @@ use_note:
   years: {from: 1519, to: 1530}
   status: reviewed
 ---
-Closes F4-T at the Answer-the-Canon step (inserted between B-7a and B-8), answering three of the cell's
-four canon questions at real strength (infant baptism, born again, end of the world) and naming the
-fourth (tithing) as a genuine, undocumented gap rather than forcing an answer -- witt.voice.craft's own
-declined-cells list named all four of this cell's questions as plausibly groundable but not independently
-verified at B-7; this record is that independent verification, for three of the four, with the fourth
-left honestly open per its own single, thin locus (Augsburg Confession's passing mention of "tithes" as a
-civil-jurisdiction example, not a practice this library documents).
+The record answers three of F4-T's four questions at real strength: infant baptism, being born again, and
+the end of the world. It names the fourth, tithing, as a gap. The library mentions tithes once, in the
+Augsburg Confession, as a civil-jurisdiction example, and describes no practice.
 
-Every direct quotation traces to already-verified sources: witt.term.baptism (verified-via-authority at
-its own B-3 authoring pass, not re-opened against the vendored files by this record) and three quote
-records independently re-verified at this same authoring pass -- witt.quote.article-ix-of-baptism
-(cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 307-315), witt.quote.article-ii-of-original-sin
-(same file, lines 192-201), and witt.quote.christs-return-to-judgment (same file, lines 433-446).
-Reciprocal associated-with declared on all three quote records.
+The quotations trace to witt.quote.article-ix-of-baptism (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt
+lines 307-315), witt.quote.article-ii-of-original-sin (same file, lines 192-201) and
+witt.quote.christs-return-to-judgment (same file, lines 433-446). The passage from witt.term.baptism is cited
+through that record and is not re-checked here against the vendored files. The reciprocal associated-with
+edges are declared on the three quote records.

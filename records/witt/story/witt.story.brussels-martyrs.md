@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: 'Documented that two named Augustinian-house monks, John and Henry, were burned at
+  divergence_note: 'Documented that two named monks, John and Henry, were burned at
     Brussels on 1 July 1523 for their evangelical convictions - datable, attested by a near-contemporary
     author (Luther himself) writing within months of the event. Contested to Inferential-Thin for the
     ballad''s own telling of the martyrdom: the stanza form, the direct address to the reader, and the
@@ -59,9 +59,9 @@ narrative_tier_justification: 'Split, and carried at the tier of the story''s ow
   reportage - the same discipline Doc_09 witt-S04''s usage guidance states directly, and the same split
   this world''s own Doc_02 §10 first drew without yet naming the hagiographic-convention reason Doc_09
   supplied.'
-tellable_as: In July of 1523, two young Augustinian-house monks named John and Henry were burned at Brussels
-  for refusing to take back what they had come to believe - and within months, Luther, in Wittenberg,
-  wrote a ballad about it, the first and only martyr-song this library holds.
+tellable_as: In July of 1523, two young monks named John and Henry were burned at Brussels.
+  They refused to take back what they had come to believe. Within months, Luther wrote a ballad about
+  it in Wittenberg. It is the only martyr-song this library holds.
 text: 'On the first of July, 1523, two young monks - one named John, the other Henry - were burned at
   Brussels. They had been examined by theologians from Louvain, pressed to give up the evangelical teaching
   they had come to hold, and had refused. Word of their deaths reached Wittenberg quickly enough that
@@ -107,15 +107,11 @@ use_note:
   years: {from: 1523, to: 1523}
   status: reviewed
 ---
-Converted at B-4 from Doc_09 witt-S04 (witt_Doc_09_Story_Inventory.md SS2), including that document's
-own sharper hagiographic-convention justification (supplied at Doc_09 Discipline 4, not present in
-Doc_02 §10's earlier split). Quotations verified verbatim by this authoring pass directly against
-cic/texts/luther_hymns_bacon-allen.txt, lines 1741-1805 (Hymn V, stanzas 1-6). Names corrected per the
-Registry's own technical correction: "two young monks, named John and
-Henry," not "Augustinian friars" - the vendored text's own wording.
+Quotations are checked against cic/texts/luther_hymns_bacon-allen.txt, lines 1741-1805 (Hymn V, stanzas
+1-6). The vendored text calls the two men "John" and "Henry" and does not call them Augustinians.
 
 Register note: close-third-person throughout; reported ballad speech is always framed as "the ballad's
-own voice" or "the ballad's own telling," never narrated as independently verified reportage, per Doc_09
-witt-S04's usage guidance.
+own voice" or "the ballad's own telling," never narrated as independently verified reportage.
 
-FEC / GRAVITY LINKAGE (closed at B-5): the connection this record's own Doc_09 entry named above is now a real relations[] entry in this file's frontmatter -- associated-with to G1 (Justified by faith alone [PRIMARY]), G7 (Estate, office, and calling: "we are all priests" [SUPPORTING]) -- with the reciprocal edge declared on each gravity record itself (witt.gravity.*), exactly as this note said it would when B-5 ran. No longer parked.
+Gravity links: associated-with to witt.gravity.justified-by-faith-alone and
+witt.gravity.estate-office-and-calling, with the reciprocal edge declared on each gravity record.

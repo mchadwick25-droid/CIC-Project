@@ -88,8 +88,8 @@ reordered otherwise.
 
 Ground for witt.dw.one-holy-church-forever (F3-T: was your church "Catholic," is there a church today
 that's yours, did you have denominations). This is Article VII in full, distinct from the "nothing that
-varies from the Scriptures, or from the Church Catholic" language of the Confession's own Conclusion
-(witt.quote.nothing-that-varies, F4-E) -- the two loci are kept as separate quote records because they
+varies from the Scriptures, or from the Church Catholic" language that ends Article XXI, and from the
+Confession's own Conclusion, which follows Article XXVIII (witt.quote.nothing-that-varies, F4-E) -- the two loci are kept as separate quote records because they
 answer different canon questions: this one defines what a church IS, in our own voice; the Conclusion
 states that OUR OWN teaching does not depart from that universal Church or from Scripture. Reciprocal
 associated-with declared on witt.dw.one-holy-church-forever.

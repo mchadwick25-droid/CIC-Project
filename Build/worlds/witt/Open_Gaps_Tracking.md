@@ -2423,3 +2423,31 @@ Not fixed; content for this world's build thread. (1) `witt.quote.nothing-that-v
 Open questions left by three contested-claim records. `witt.contested.household-catechism-reception` cannot say whether the founder's testimony describes the real state of Saxon parishes, because the visitation protocols are not in the library. `witt.contested.justification-accounted-and-made` cannot say which wording is fundamental, because no rowed secondary source backs the contest. `witt.contested.two-governments-historical-scope` cannot say whether one coherent two-kingdoms doctrine spans both pairings and the founder's whole career.
 
 Status: OPEN.
+
+## OG-59. The record defects in OG-58 (slice 6), worked by this world's build thread, 2026-10-04.
+
+Each item was checked against the vendored source. Fixes:
+
+- OG-58 (1). `witt.quote.nothing-that-varies` quotes the Conclusion (heading at line 1531 of `melanchthon_augsburg-confession_anon-pg275.txt`), which follows Article XXVIII (line 1271), not Article XXI. Its locus now says so, with lines 1543-1550, and the body note says the same. The id is a historical label: the words "nothing that varies from the Scriptures, or from the Church Catholic" end Article XXI (line 632), a separate passage. The id is not renamed. `witt.quote.congregation-of-saints` had the same mix-up in its body note and now separates the two passages.
+- OG-58 (2). `witt.dw.a-death-begun-that-a-child-receives` no longer quotes "until born again". Article II (line 198) says original sin condemns "those not born again through Baptism and the Holy Ghost", and the text now says that.
+- OG-58 (3). `witt.dw.the-poor-man-at-the-door` drops "the sharpest warning this household book gives anywhere" from its text and third position. Its tension and use_note say only one locus is held.
+- OG-58 (4). `witt.quote.the-poor-man-who-comes-to-you` drops the same claim from its modern_lens_note. Its locus now ends at line 1956, where the quoted span ends, not 1959.
+- OG-58 (5). `witt.dw.true-priests-of-gods-own-making` no longer says Brussels is the only case where the movement's teaching cost a life. `witt.story.brussels-martyrs` says only that the ballad is the one martyr-song the library holds, and the position now says that. The body note names the Apology as the listed source and the Confutation record as context.
+- OG-58 (6). `witt.dw.a-confession-answered-not-a-vote` has a body note that now names its two listed sources, the Diet story and the Apology. The Confutation record is named in the divergence_note only.
+- OG-58 (7). `witt.story.worms-1521` has `tellable_as` quoting the Table Talk exactly: "although in Worms there were as many devils as there are tiles on the houses" (lines 3508-3509). The field is split into shorter sentences.
+- OG-58 (8). `witt.story.brussels-martyrs` no longer calls the two men Augustinian-house monks in `tellable_as` or in the divergence_note. The vendored ballad calls them John and Henry only. "First and only martyr-song" is now "only".
+- OG-58 (9). The Walter source record `witt.source.johann-letter-of-reminiscence-on-luther-as` no longer dates the letter 1526. The vendored text gives no date, only "written in his old age" and "some forty years ago" (`luther_hymns_bacon-allen.txt`, lines 741-742 and 752). The figure record already says the letter is undated. The story's years field gives the mid-1520s events, and its divergence_note says so.
+- OG-58 (10). `witt.gravity.bodily-presence` now cites `witt.source.luther-babylonian-captivity-of-the-church` for lines 7143-7224 of `luther_works-v2-selected_jacobs-spaeth1916.txt`, which are in the Babylonian Captivity (1520). Its description says the 1520 treatise and 1520, 1529 and 1530, not 1519.
+- OG-58 (11). `witt.contested.1543-treatise-later-effect` speaks of the treatise's reception in the 18th to 20th centuries, after the 1580 end of the window. It now carries `voice: analytic`. It was already `register: etic`. No voiced record points to it in a prefer_instead, so nothing is repointed.
+
+Body notes of the edited records that carried build narration are restated as plain present-tense reasons.
+
+Still open:
+
+- `witt.contested.1543-treatise-later-effect` has no use_note. Whether an analytic record gets one, and how its years are set, is not decided.
+- `witt_Doc_09_Story_Inventory.md` still dates witt-S07 "(1526)" in its index table and calls the Brussels monks "Augustinian-house monks" (line 105). Approved construction documents are not edited here, so the corrections belong to a later change order.
+- `witt.contested.household-catechism-reception` cannot say whether the founder's testimony describes the real state of Saxon parishes, because the visitation protocols are not in the library.
+- `witt.contested.justification-accounted-and-made` cannot say which wording is fundamental, because no rowed secondary source backs the contest.
+- `witt.contested.two-governments-historical-scope` cannot say whether one coherent two-kingdoms doctrine spans both pairings and the founder's whole career.
+
+Every fix sits on branch `build/witt-slice6`. Every record file is part of witt's compiled package, so the branch lands with witt's next package rebuild, repin and paid re-admission (decision 36). Status: OPEN until it lands.
