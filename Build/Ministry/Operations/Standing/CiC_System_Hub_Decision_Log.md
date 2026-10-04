@@ -6248,6 +6248,11 @@ The approved design called for a horizon gate (speaking only from inside a world
 Under decision 36 a world's admission evidence was bound to its whole package hash, so a new gate, which changes only the package's validation report, would force fresh admission runs for every world although nothing the voice reads had changed.
 
 41. Admission binds to the package's compiled content (every compiled/ file with its generated-by stamp removed, `engine.m2.manifest.compiled_content_hash`) and to the current shape hash. Admission reports record this content hash; the conform check requires a passing report on the pinned package's content hash and the current shape, and accepts a report written before content hashes were recorded when it ran on the pinned package itself. A change to what the voice reads, or to the shape, still forces re-admission; a change only to the validation report or the frozen record copy does not. The registry pin and load-time verification stay on the full manifest. The project lead chose this over keeping the whole-package hash and over exempting only the validation report.
+## 2026-10-03 - A streamed Table seat caught mid-reply ends at its last shown sentence (decision 42)
+
+Under decision 38 Table seats stream, with the seat-identity guard reading each sentence before release. A catch in a seat's first sentence shows nothing and regenerates the turn as before. A catch after sentences were shown cannot be regenerated without taking back text a participant has read.
+
+42. A streamed seat whose later sentence the guard catches ends at its last shown sentence; nothing from the caught sentence on is shown, and the Facilitator follows the seat's turn with its own line, in words the project lead approved: "This is the Facilitator, stepping in for a moment - {name} began speaking as if another voice at the Table, so I have stopped that answer there. What came before that point stands. Ask again, or bring another voice into it - the Table is still open." The existing seat-correction line was not reused, because it says the answer is set aside unshown. The project lead chose this over holding Table turns whole and over holding each seat's first paragraph.
 
 ## 2026-10-04 - Fleet records live with the engine modules that own them (decision 44)
 

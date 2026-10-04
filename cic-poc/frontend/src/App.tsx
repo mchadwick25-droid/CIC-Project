@@ -276,6 +276,7 @@ function App() {
         <TableRoom
           seatedWorlds={seatedWorlds}
           turns={table.turns}
+          streamed={table.streamed}
           sessionCode={table.sessionCode}
           closed={table.closed}
           roundOpen={table.roundOpen}
