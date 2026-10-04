@@ -133,7 +133,7 @@ def test_nothing_on_the_site_links_to_the_go_deeper_pages_yet():
         if path.name in PAGES:
             continue
         text = path.read_text(errors="ignore")
-        assert "go-deeper.html" not in text and "go-deeper-return" not in text, path.name
+        assert not re.search(r"""href=["'][^"']*go-deeper(?!-config)""", text), path.name
 
 
 @pytest.mark.parametrize("page", PAGES)
@@ -258,3 +258,17 @@ def test_the_door_line_sits_on_the_home_and_get_involved_pages_hidden(page):
     html = (SITE / page).read_text()
     assert '<p id="door-line" class="door-line" role="status" hidden></p>' in html
     assert html.index("assets/go-deeper-config.js") < html.index("assets/door-line.js")
+
+
+def test_the_site_stays_quiet_until_the_config_says_go_deeper_is_on():
+    config = (SITE / "assets" / "go-deeper-config.js").read_text()
+    assert "enabled: false" in config
+    script = (SITE / "assets" / "door-line.js").read_text()
+    assert "GoDeeperConfig.enabled" in script
+
+
+def test_the_no_link_rule_catches_a_link_without_the_extension():
+    caught = re.compile(r"""href=["'][^"']*go-deeper(?!-config)""")
+    for link in ('<a href="/go-deeper">', '<a href="go-deeper.html">', "<a href='go-deeper-return.html'>"):
+        assert caught.search(link), link
+    assert not caught.search('<script src="assets/go-deeper-config.js"></script>')

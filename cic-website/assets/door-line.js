@@ -29,6 +29,6 @@
   else {
     root.DoorLine = api;
     var target = root.document && root.document.getElementById("door-line");
-    if (target && root.GoDeeperConfig) load(target, { fetch: root.fetch.bind(root), apiBase: root.GoDeeperConfig.api });
+    if (target && root.GoDeeperConfig && root.GoDeeperConfig.enabled) load(target, { fetch: root.fetch.bind(root), apiBase: root.GoDeeperConfig.api });
   }
 })(typeof window !== "undefined" ? window : this);

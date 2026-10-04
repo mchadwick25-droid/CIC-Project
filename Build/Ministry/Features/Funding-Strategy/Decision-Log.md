@@ -1396,3 +1396,5 @@ Still switched off behind the flag. With the module off no route exists, so the 
 - **What the route sends:** `GET /api/deeper/door` returns the state name and the line, nothing else: no stage number, no ratio, no ceiling, no money. It may be kept for a minute.
 - **Where it shows:** a hidden line under the headline on the home page and on Get Involved, filled by `assets/door-line.js` only when the server sends one. Any failure leaves the page as it was.
 - **A test rule refined:** the page test that kept the site from linking to the Go Deeper pages now forbids links to those pages, not the shared address file the home and Get Involved pages also load.
+- **The site stays quiet until turn-on.** `go-deeper-config.js` carries `enabled: false`; the door line makes no request while it is false. S11 flips it with the module. The no-link test now catches an extensionless link such as `/go-deeper`, which the host serves.
+- **Raised for Mark with the next words question:** "give at Get Involved" also shows on the Get Involved page itself.
