@@ -26,6 +26,8 @@ from fastapi import FastAPI, Header, HTTPException, Request, Response
 from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
+from engine.api.deeper_door import STATE_KEY as DOOR_STATE_KEY
+from engine.api.deeper_door import DoorMonitor
 from engine.api.deeper_ops import DeeperOps, load_ops
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
@@ -96,6 +98,7 @@ class DeeperRuntime:
     paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
     free: DailyFreeAllowance | None = None
     gift_links: frozenset = frozenset()
+    door: "DoorMonitor | None" = None
 
     def __post_init__(self):
         if self.free is None:
@@ -430,6 +433,15 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             raise HTTPException(status_code=404, detail="no such entry, or already reversed")
         return {"reversed": entry_id}
 
+    @app.get("/api/admin/deeper/door")
+    def door_state(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        if runtime.door is None:
+            return {"door": None}
+        state = runtime.door.state()
+        return {"door": {"stage": state.stage, "ratio": round(state.ratio, 3), "ceiling_usd": round(state.ceiling_usd, 2),
+                         "free_voice": state.free_voice, "paid_voice": state.paid_voice}}
+
     @app.get("/api/admin/deeper/funds")
     def funds(request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
@@ -441,7 +453,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         return {"days": runtime.meter.reconciliation(days=14)}
 
 
-def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None) -> DeeperRuntime:
+def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None, usage_store=None) -> DeeperRuntime:
     """The runtime for a deploy with the flag on. A missing webhook secret
     refuses to start rather than leaving the webhook open, and so does a
     deploy without the visitor cap, which the free day depends on."""
@@ -455,8 +467,15 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None)
         )
     ops = ops or load_ops()
     products = parse_products(env.get("CIC_DEEPER_PRODUCTS"))
+    meter = Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling)
+    door = None
+    if usage_store is not None:
+        door = DoorMonitor(
+            ops.door, usage_store, lambda: meter.net_funds(7),
+            load=lambda: meter.get_state(DOOR_STATE_KEY), save=lambda raw: meter.set_state(DOOR_STATE_KEY, raw),
+        )
     return DeeperRuntime(
-        meter=Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling),
+        meter=meter,
         claims=ClaimStore(config.claims_db_path),
         webhook_secret=secret,
         products=products,
@@ -465,4 +484,5 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None)
         token_rates=ops.rates,
         group_burst_multiplier=ops.group_burst_multiplier,
         ops=ops,
+        door=door,
     )

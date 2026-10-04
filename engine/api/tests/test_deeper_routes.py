@@ -106,6 +106,7 @@ def test_flag_off_mounts_no_deeper_route(store, usage_store, world_loader, regis
     assert http.post("/api/admin/deeper/pause", json={"on": True}, headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/reconciliation", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/funds", headers=admin()).status_code == 404
+    assert http.get("/api/admin/deeper/door", headers=admin()).status_code == 404
 
 
 def test_flag_on_mounts_every_route(store, usage_store, world_loader, registry, runtime):
@@ -114,7 +115,7 @@ def test_flag_on_mounts_every_route(store, usage_store, world_loader, registry, 
     assert {
         "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance",
         "/api/admin/deeper/pause", "/api/admin/deeper/reconciliation",
-        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse",
+        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/door",
     } <= paths
 
 
@@ -670,3 +671,40 @@ def test_a_link_cannot_be_both_a_gift_and_a_product():
     for bad in ("not json", "{}", json.dumps([1]), json.dumps([""]), json.dumps([LINK_SINGLE])):
         with pytest.raises(DeeperConfigError):
             deeper_routes.parse_gift_links(bad, products)
+
+
+# ---- the door's route and its wiring --------------------------------------------------
+
+def test_the_door_route_reports_nothing_without_a_door_and_the_state_with_one(http, runtime, tmp_path):
+    assert http.get("/api/admin/deeper/door", headers=admin()).json() == {"door": None}
+    from engine.deeper import door as door_module
+
+    class Stub:
+        def state(self):
+            return door_module.DoorState(stage=3, ratio=0.91234, ceiling_usd=150.0, table_free_rounds=0, free_voice=True, paid_voice=True)
+
+    runtime.door = Stub()
+    assert http.get("/api/admin/deeper/door", headers=admin()).json() == {
+        "door": {"stage": 3, "ratio": 0.912, "ceiling_usd": 150.0, "free_voice": True, "paid_voice": True}
+    }
+
+
+def test_the_door_route_needs_the_admin_credential(http):
+    assert http.get("/api/admin/deeper/door").status_code == 404
+    assert http.get("/api/admin/deeper/door", headers=admin("wrong")).status_code == 404
+
+
+def test_the_runtime_gets_a_door_only_when_given_the_usage_log(tmp_path):
+    from engine.m8.log_store import UsageLogStore
+
+    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
+    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1"}
+    without = deeper_routes.build_runtime(config, env)
+    assert without.door is None
+    without.meter.close()
+    without.claims.close()
+    config = DeeperConfig(True, str(tmp_path / "m2.db"), str(tmp_path / "c2.db"))
+    with_log = deeper_routes.build_runtime(config, env, usage_store=UsageLogStore(tmp_path / "usage.db"))
+    assert with_log.door is not None and with_log.door.state().stage == 0
+    with_log.meter.close()
+    with_log.claims.close()

@@ -3,8 +3,11 @@
 The engine is handed a TurnGrant (a cap and a Facilitator-only flag) and never
 learns why. What a turn draws comes from the round it is and the seats at the
 table (engine.deeper.tokens). The free allowance covers a conversation's first
-rounds while the visitor's free day lasts; a valid code buys what it would
+rounds while the visitor's free day lasts, narrowed by the door's stage when
+the week's real spend nears its ceiling; a valid code buys what it would
 refuse: a round past the free rounds, or any turn once the free day is spent.
+At the door's last stage a code is refused too. The Facilitator is outside all
+of it: every refusal here is a grant the engine answers with the Facilitator.
 Admission reserves a turn's amount before the turn and settles it after it, so
 nothing is spent for a turn that was answered by the Facilitator alone, and
 nothing is left held when a turn fails.
@@ -19,6 +22,7 @@ from fastapi import Request
 from engine.api.deeper_routes import DeeperRuntime
 from engine.api.ratelimit import client_ip
 from engine.deeper import codes, tokens
+from engine.deeper import door as door_module
 from engine.m4.grants import TurnGrant, free_grant
 
 logger = logging.getLogger("cic.deeper")
@@ -114,15 +118,22 @@ class Admission:
         limited = daily_cap_reached or self._facilitator_only or self._paid_sitting
         rates = self._runtime.token_rates
         cost = tokens.charge(rates, completed + 1, self._seats)
+        door = self._runtime.door.state() if self._runtime.door is not None else door_module.OPEN
         free_rounds = min(self._free_cap, rates.free_rounds)
-        if not limited and completed < free_rounds:
-            held = self._runtime.free.reserve(self._visitor, cost)
+        door_rounds = door.table_free_rounds if self._seats > 1 else door.solo_free_rounds
+        if door_rounds is not None:
+            free_rounds = min(free_rounds, door_rounds)
+        if not limited and door.free_voice and completed < free_rounds:
+            held = self._runtime.free.reserve(self._visitor, cost, door.free_day_share)
             if held is not None:
                 self._free_reservation = held
                 return TurnGrant(cap=completed + 1, facilitator_only=False)
         # Past the free rounds, or the free day cannot cover this turn: the grant
         # that refuses has a cap no higher than the turns already done.
         refusal_cap = min(self._free_cap, completed)
+        if self._code and not door.paid_voice:
+            self._note_key = "paused"
+            return free_grant(refusal_cap, limited, self._limit_text())
         if self._code:
             admission = self._runtime.meter.reserve(self._code, cost)
             if admission.ok:
