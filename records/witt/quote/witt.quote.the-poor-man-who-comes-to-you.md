@@ -67,7 +67,7 @@ use_note:
     - "a claim that this is the sharpest warning in the whole household book, which no record has checked"
     - "the marriage-as-estate material, which sits in witt.dw.the-poor-man-at-the-door and witt.term.marriage"
   years: {from: 1529, to: 1529}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
 the vendored cic/texts/luther_large-catechism_bente-dau1921.txt. `grep -n "when the poor man comes to

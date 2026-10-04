@@ -78,7 +78,7 @@ use_note:
     - "a claim that Wittenberg abolished fasting, or made eating meat a badge of identity"
     - "Christian liberty broadly, which sits in witt.term.must-and-free"
   years: {from: 1522, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 8.6 (fasting / meats, Tier 2 ↑ from Doc_03's estimate of 3). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

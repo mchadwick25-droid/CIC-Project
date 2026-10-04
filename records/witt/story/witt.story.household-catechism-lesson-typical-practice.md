@@ -108,7 +108,7 @@ use_note:
     - "Luther's own table, which sits in witt.story.household-and-kate-on-prayer"
     - "the claim that the program failed, which witt.contested.household-catechism-reception holds as contested"
   years: {from: 1529, to: 1529}
-  status: provisional
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S11 (witt_Doc_09_Story_Inventory.md SS2). Every quoted phrase verified
 verbatim by this authoring pass directly against cic/texts/luther_small-catechism_smith1994.txt (lines

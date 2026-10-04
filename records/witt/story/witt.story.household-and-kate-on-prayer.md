@@ -91,8 +91,8 @@ use_note:
     - "a dated, verified transcript, since the exchange reaches the library through several hands"
     - "typical household practice, which sits in witt.story.household-catechism-lesson-typical-practice"
     - "the doctrine of prayer, which sits in witt.term.prayer"
-  years: {from: 1530, to: 1546}
-  status: provisional
+  years: {from: 1531, to: 1546}
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S08 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/luther_table-talk_bell1886.txt, lines

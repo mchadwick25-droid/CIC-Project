@@ -72,7 +72,7 @@ use_note:
     - "vows in general, which sit in witt.term.vows"
     - "marriage as the noblest estate, which sits in witt.term.marriage"
   years: {from: 1523, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 8.2 (chastity, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][DR][RT]. Author Gravity: none for the argument; Luther-only, single-register for the coinage. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

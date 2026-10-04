@@ -98,7 +98,7 @@ use_note:
     - "purgatory itself, which sits in witt.term.purgatory"
     - "a practice still live among the congregations"
   years: {from: 1517, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 1.1 (indulgence / pardon, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none -- both voices (Ap 5011-5019, 6365-6378, 10406-10409). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

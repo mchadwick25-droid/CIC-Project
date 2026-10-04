@@ -71,7 +71,7 @@ use_note:
     - "sin as a single wrongful act or a feeling of guilt"
     - "a particular wrongful act asked about morally rather than doctrinally"
   years: {from: 1529, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.10 (sin / original sin, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: Melanchthon-only as read; the founder's own texts use 'sin' constantly without a single defining locus found in what was read -- a coverage gap. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

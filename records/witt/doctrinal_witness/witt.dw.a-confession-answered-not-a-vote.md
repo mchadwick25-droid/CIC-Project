@@ -68,7 +68,7 @@ use_note:
     - "a claim about what happened at the early ecumenical councils, which this world's records do not narrate"
     - "the confession's own signing story, which sits in witt.story.diet-of-augsburg-1530"
   years: {from: 1530, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Closes F1-E at the Answer-the-Canon step (inserted between B-7a and B-8). Built entirely from
 already-verified material -- witt.story.diet-of-augsburg-1530 (verified-direct at its own B-4 authoring

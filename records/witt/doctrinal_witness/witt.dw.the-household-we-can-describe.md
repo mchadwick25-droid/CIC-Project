@@ -67,7 +67,7 @@ use_note:
     - "the prescribed household program as a description of what households actually did"
     - "the composite catechism scene as a single witnessed evening, when it sits as a Tier 4 reconstruction in witt.story.household-catechism-lesson-typical-practice"
   years: {from: 1529, to: 1546}
-  status: provisional
+  status: reviewed
 ---
 Closes F5-E at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's two questions are
 answered at genuinely different strengths, named honestly rather than smoothed together: F5-E-01

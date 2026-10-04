@@ -99,8 +99,8 @@ use_note:
     - "'Antichrist' as a fixed doctrine about the papal office as such"
     - "the confessional courtesy as a retreat from the sharper polemic"
     - "the devil generally, which sits in witt.term.the-devil"
-  years: {from: 1518, to: 1546}
-  status: provisional
+  years: {from: 1520, to: 1546}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 6.7 (pope / papacy / 'Antichrist', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][RT][PV]. Author Gravity: none -- every register, both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

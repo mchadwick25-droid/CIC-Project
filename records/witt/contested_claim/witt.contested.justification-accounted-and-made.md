@@ -95,7 +95,7 @@ use_note:
     - "the two wordings as an unrelated pair of claims, when the text states them together in one paragraph"
     - "the word's general meaning, which sits in witt.term.justification"
   years: {from: 1530, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Unparked from Doc_06 SS2.1's own [CT] tagging of lexicon entry 2.2 (justification), contest types "Meaning
 within its historical context" and "Relationship to present-day traditions," carried forward provisional

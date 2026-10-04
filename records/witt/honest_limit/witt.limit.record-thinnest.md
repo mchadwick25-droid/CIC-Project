@@ -89,7 +89,7 @@ use_note:
     - "the failure of the household program as established, which witt.contested.household-catechism-reception holds as contested"
     - "Katharina's one remembered question as a woman's voice generally, per witt.story.household-and-kate-on-prayer"
   years: {from: 1527, to: 1546}
-  status: provisional
+  status: reviewed
 ---
 Closes F2-E at the Answer-the-Canon step (inserted between B-7a and B-8) as a genuine, declared absence
 rather than a strained doctrinal_witness -- the cell's own question (where is your own record thinnest)

@@ -69,8 +69,8 @@ use_note:
   not_for:
     - "'god' as a being whose existence is at issue, or 'idol' as only a carved statue"
     - "faith broadly, which sits in witt.term.faith"
-  years: {from: 1518, to: 1546}
-  status: provisional
+  years: {from: 1529, to: 1546}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 4.4 ('to have a god is to trust', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [AS][DR][RT]. Author Gravity: Luther-only, cross-register -- confirmed. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

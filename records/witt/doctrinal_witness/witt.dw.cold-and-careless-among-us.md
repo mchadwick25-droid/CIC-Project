@@ -78,7 +78,7 @@ use_note:
     - "Katharina's table question as a general account of household piety, when the full exchange sits in witt.story.household-and-kate-on-prayer"
     - "the open scholarly question of whether the catechism program was received, which sits in witt.contested.household-catechism-reception"
   years: {from: 1522, to: 1546}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-P at the Answer-the-Canon step (inserted between B-7a and B-8) by answering the cell's
 hypocrisy sub-question at real strength, the one this world's own already-built force record

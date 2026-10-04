@@ -56,7 +56,7 @@ use_note:
     - "a martyr-cult, or a bare fact record, in place of the ballad's commemorative voice"
     - "the account of the burning itself, which sits in witt.story.brussels-martyrs"
   years: {from: 1523, to: 1523}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 9.6 (martyr, Tier 3, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: Luther-only, single-register (Hymn V), in a translator's English -- the weakest evidentiary base of any entry. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

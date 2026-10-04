@@ -152,8 +152,8 @@ use_note:
     - "the obedience limit as a general right of resistance"
     - "the 1525 Peasants' War as documented, which is a named absence in witt.force.absent-inputs-1525-and-1555"
     - "the term-level definition, which sits in witt.term.the-two-governments"
-  years: {from: 1518, to: 1546}
-  status: provisional
+  years: {from: 1520, to: 1531}
+  status: reviewed
 ---
 CONTESTED-CLAIM LINKAGE (closed at B-6): witt.contested.two-governments-historical-scope holds the term's
 own [CT] historical-scope contest against this gravity -- an extension to a Supporting gravity, argued

@@ -67,8 +67,8 @@ use_note:
     - "patience as mere temperament"
     - "bearing with the weak inside liberty, which sits in witt.term.must-and-free"
     - "Luther's remark as a first-hand record, since it reaches the library through Table Talk's collection history"
-  years: {from: 1518, to: 1546}
-  status: provisional
+  years: {from: 1522, to: 1546}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 9.7 (patience, Tier 3, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: none for the word; the household sentence is the founder's own. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

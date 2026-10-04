@@ -92,8 +92,8 @@ use_note:
   not_for:
     - "the pastor as a settled professional clergyman"
     - "calling as a general concept, which sits in witt.term.calling"
-  years: {from: 1518, to: 1546}
-  status: provisional
+  years: {from: 1522, to: 1546}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 6.5 (pastor / preacher, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

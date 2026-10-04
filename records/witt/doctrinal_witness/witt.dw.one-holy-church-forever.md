@@ -72,7 +72,7 @@ use_note:
     - "a claim about any church existing today or after 1580"
     - "the claim that our teaching departs from neither Scripture nor the ancient Church, which sits in witt.dw.nothing-against-scripture-or-the-church-catholic"
   years: {from: 1529, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Closes F3-T at the Answer-the-Canon step (inserted between B-7a and B-8). All three of the cell's own
 questions (was your church Catholic, a church today I could visit, did you have denominations) are

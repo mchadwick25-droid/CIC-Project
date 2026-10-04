@@ -94,7 +94,7 @@ use_note:
     - "being born again as a single felt conversion moment"
     - "the full judgment article with its endless-torment clause, which sits in witt.quote.christs-return-to-judgment"
   years: {from: 1519, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Closes F4-T at the Answer-the-Canon step (inserted between B-7a and B-8), answering three of the cell's
 four canon questions at real strength (infant baptism, born again, end of the world) and naming the

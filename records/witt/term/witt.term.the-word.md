@@ -130,7 +130,7 @@ use_note:
     - "'the Word did it all' as modesty rather than a claim about who acts"
     - "Scripture's authority against named traditions, which sits in witt.term.scripture-against-tradition"
   years: {from: 1520, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 3.1 (the Word / Word of God, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none -- both voices; the best-attested term in the lexicon. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

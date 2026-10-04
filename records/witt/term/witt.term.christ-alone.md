@@ -61,7 +61,7 @@ use_note:
     - "'solus Christus' as a bare slogan rather than a rule of hearing and a tone"
     - "the saints' own status and remembrance, which sit in witt.term.saints"
   years: {from: 1520, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 3.6 (Christ alone, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

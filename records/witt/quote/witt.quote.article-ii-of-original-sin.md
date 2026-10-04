@@ -70,7 +70,7 @@ use_note:
     - "the infant-baptism teaching and the Anabaptist condemnation, which sit in witt.quote.article-ix-of-baptism"
     - "a claim that this article states how the condition is remedied beyond its one clause on baptism and the Holy Ghost"
   years: {from: 1530, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
 the vendored cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. `grep -n "Article II: Of Original

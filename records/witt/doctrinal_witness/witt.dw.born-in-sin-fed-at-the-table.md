@@ -83,8 +83,8 @@ use_note:
     - "a claim that we offered a rival theory of how Christ is present"
     - "a claim that faith alone meant good works did not matter"
     - "the infant-baptism teaching, which sits in witt.dw.a-death-begun-that-a-child-receives"
-  years: {from: 1519, to: 1531}
-  status: provisional
+  years: {from: 1520, to: 1530}
+  status: reviewed
 ---
 Closes F1-T at the Answer-the-Canon step (inserted between B-7a and B-8), answering all three of the
 cell's own canon questions (original sin, the bread and cup, faith alone) rather than only one, since this

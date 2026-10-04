@@ -90,7 +90,7 @@ use_note:
     - "'absolution' as a word belonging only to the papacy"
     - "the keys' wider authority, which sits in witt.term.the-keys"
   years: {from: 1520, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 5.10 (confession / absolution, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

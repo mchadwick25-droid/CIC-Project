@@ -51,7 +51,7 @@ use_note:
     - "the question as a quiz to be passed"
     - "the catechism's content broadly, which sits in witt.term.catechism"
   years: {from: 1529, to: 1529}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 4.3 ('What does this mean?', Tier 3 ↓ from Doc_03's estimate of 2). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: Luther-only, single-register (catechesis). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

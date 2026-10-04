@@ -91,7 +91,7 @@ use_note:
     - "an ordinary parish Sunday, since this was a documented public event"
     - "Luther's exact words of prayer as certain"
   years: {from: 1532, to: 1532}
-  status: provisional
+  status: reviewed
 ---
 Grounded in a reading of TT lines 3154-3192 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim directly against cic/texts/luther_table-talk_bell1886.txt, lines 3150-3192 ("Of Luther's Prayer

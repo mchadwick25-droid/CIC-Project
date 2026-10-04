@@ -118,9 +118,9 @@ use_note:
   not_for:
     - "Christian liberty as autonomy, the right to do whatever Scripture permits"
     - "one specific 'free' matter on its own, such as fasting, which sits in witt.term.fasting"
-    - "the neighbour as the measure of liberty, which sits in witt.term.neighbor"
+    - "the neighbour whom the second table of the Commandments protects, which sits in witt.term.neighbor"
   years: {from: 1520, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 7.5 ('must' and 'free', Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][DR][TC][RT]. Author Gravity: none for 'liberty'; Luther-only, single-register (the Sermons) for the 'must'/'free' pairing itself. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

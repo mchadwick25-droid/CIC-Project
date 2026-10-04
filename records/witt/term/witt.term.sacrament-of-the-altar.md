@@ -111,7 +111,7 @@ use_note:
     - "the Marburg Colloquy or the Reformed controversy, which the library does not narrate"
     - "the thinness of the evidence for this doctrine's boundary role, which sits in witt.gravity.bodily-presence"
   years: {from: 1519, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 5.3 (the Sacrament of the Altar / Lord's Supper, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][TC][DR][RT]. Author Gravity: none -- both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

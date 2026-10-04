@@ -62,7 +62,7 @@ use_note:
     - "the definition of what a church is, which sits in witt.quote.congregation-of-saints"
     - "the Article XXI summary that our doctrine varies from neither Scripture, the Church Catholic, nor Rome's writers, a separate passage carried in witt.term.scripture-against-tradition"
   years: {from: 1530, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
 the vendored cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. `grep -n "nothing has been received

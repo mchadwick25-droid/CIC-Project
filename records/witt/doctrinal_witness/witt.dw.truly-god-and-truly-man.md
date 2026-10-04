@@ -81,7 +81,7 @@ use_note:
     - "a claim that our people settled Christ's divinity themselves, when they received it as inherited teaching"
     - "how we knew of Christ and the resurrection, which sits in witt.dw.how-the-promise-reached-us"
   years: {from: 1520, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Closes C-T at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's three canon questions
 (Was Jesus God, did Jesus die to take our punishment in our place, would we call him our personal Lord

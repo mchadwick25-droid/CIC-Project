@@ -70,7 +70,7 @@ use_note:
     - "the claim that our own teaching departs from neither Scripture nor the Church Catholic, which sits in witt.quote.nothing-that-varies"
     - "the boundary with the Reformed cities and Marburg, which sits in witt.force.reformed-rival-by-absence"
   years: {from: 1530, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
 the vendored cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. `grep -n "Article VII\|congregation

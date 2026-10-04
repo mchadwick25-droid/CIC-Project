@@ -86,7 +86,7 @@ use_note:
     - "the Magnificat's content as a woman's own voice, since it is Luther's exposition of Mary's song"
     - "a claim that Luther finished the exposition after Worms, which the record does not say"
   years: {from: 1520, to: 1521}
-  status: provisional
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S06 (witt_Doc_09_Story_Inventory.md SS2). Composition-history detail
 verified verbatim by this authoring pass directly against cic/texts/luther_works-v3-selected_

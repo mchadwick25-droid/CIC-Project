@@ -63,7 +63,7 @@ use_note:
     - "'theology of the cross' as a system, or the cross as a voluntary austerity"
     - "temptation broadly, which sits in witt.term.temptation"
   years: {from: 1517, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 1.7 (the cross, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

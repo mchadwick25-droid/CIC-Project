@@ -89,7 +89,7 @@ use_note:
     - "a claim that the singer was Speratus himself, since the text names only 'a wanderer from Prussia'"
     - "the hymn's vernacular purpose, which sits in witt.term.hymn"
   years: {from: 1524, to: 1546}
-  status: provisional
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S10 (witt_Doc_09_Story_Inventory.md SS2), with one disclosed
 refinement: Doc_09's own framing names Speratus as the wanderer under the window; this record's own

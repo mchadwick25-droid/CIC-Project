@@ -111,8 +111,8 @@ use_note:
     - "conscience as an inner voice telling right from wrong, to be followed"
     - "guilt as a feeling in general, outside this theological frame"
     - "the comfort given to a conscience, which sits in witt.term.comfort"
-  years: {from: 1518, to: 1546}
-  status: provisional
+  years: {from: 1520, to: 1546}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.8 (conscience, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none -- both voices; the Apology's most repeated adjective ('terrified,' 29 times). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

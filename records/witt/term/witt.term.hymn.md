@@ -108,7 +108,7 @@ use_note:
     - "the German hymn as a total break with Latin"
     - "a specific hymn's full text, since the library holds only openings and fragments"
   years: {from: 1523, to: 1545}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 4.9 (hymn / German singing, Tier 1 ↑ from Doc_03's estimate of 2). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none -- both voices, plus the fullest non-founder attestation in the build. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

@@ -161,8 +161,8 @@ use_note:
     - "a typical household's routine, which sits in witt.story.household-catechism-lesson-typical-practice"
     - "Luther's own table, which sits in witt.story.household-and-kate-on-prayer"
     - "the definitions of the catechism and the household, which sit in witt.term.catechism and witt.term.household"
-  years: {from: 1518, to: 1546}
-  status: provisional
+  years: {from: 1520, to: 1543}
+  status: reviewed
 ---
 CONTESTED-CLAIM LINKAGE (closed at B-6): witt.contested.household-catechism-reception holds the Strauss/
 Scribner/Kittelson/Karant-Nunn reception debate this record's own divergence_note and description already

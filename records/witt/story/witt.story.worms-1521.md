@@ -122,7 +122,7 @@ use_note:
     - "a contemporary transcript of the Diet, this being Luther's later retelling"
     - "the Table Talk chapter heading's 'Anno 1520' as the date of Worms"
   years: {from: 1521, to: 1546}
-  status: provisional
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S03 (witt_Doc_09_Story_Inventory.md SS2), including that document's
 own handling of the "tiles"/"Here I stand" quotation question - carried forward

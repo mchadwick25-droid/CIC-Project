@@ -79,7 +79,7 @@ use_note:
     - "an argued historical case for the resurrection addressed to a doubter"
     - "the teaching on who Christ is and what he did, which sits in witt.dw.truly-god-and-truly-man"
   years: {from: 1520, to: 1545}
-  status: provisional
+  status: reviewed
 ---
 Closes C-E at the Answer-the-Canon step (inserted between B-7a and B-8), on the same discipline
 gallic.limit.no-one-who-saw-him and cappadocian.dw.how-it-reached-us both used for this cell: say the

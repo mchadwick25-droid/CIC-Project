@@ -89,7 +89,7 @@ use_note:
     - "the keys as a papal or clerical power over people"
     - "confession's two parts, which sit in witt.term.confession-and-absolution"
   years: {from: 1517, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 1.6 (the keys / power of the keys, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][TC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

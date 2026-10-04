@@ -99,7 +99,7 @@ use_note:
     - "the pairing as Old Testament against New Testament"
     - "the Gospel's own content, which sits in witt.term.gospel"
   years: {from: 1520, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.6 (Law and Gospel, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][TC][DR][RT]. Author Gravity: none -- both voices, 1520 and 1529 and 1531. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

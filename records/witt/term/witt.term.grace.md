@@ -75,7 +75,7 @@ use_note:
     - "grace as a substance infused into us, or as mere leniency"
     - "justification's technical shape, which sits in witt.term.justification"
   years: {from: 1520, to: 1545}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.5 (grace / 'a gracious God', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

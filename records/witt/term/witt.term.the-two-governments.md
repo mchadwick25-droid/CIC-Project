@@ -117,7 +117,7 @@ use_note:
     - "the Christ-against-Satan pairing as the same doctrine, which witt.contested.two-governments-historical-scope holds as contested"
     - "a modern political-theology reading of 'two kingdoms'"
   years: {from: 1522, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 7.1 (the two governments, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][TC][DR][RT][CT]. Author Gravity: none -- both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

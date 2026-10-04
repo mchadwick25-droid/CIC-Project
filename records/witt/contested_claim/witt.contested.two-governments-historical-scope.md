@@ -109,7 +109,7 @@ use_note:
     - "the church-and-civil distinction itself, which is attested and sits in witt.term.the-two-governments"
     - "the Christ-against-Satan pairing of the Bondage of the Will as the same pairing as in Secular Authority"
   years: {from: 1522, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Unparked from Doc_06 SS2.2's own [CT] tagging of lexicon entry 7.1 (the two governments), contest type
 "Historical scope," carried forward provisional at witt.term.the-two-governments's own birth (B-4) with the

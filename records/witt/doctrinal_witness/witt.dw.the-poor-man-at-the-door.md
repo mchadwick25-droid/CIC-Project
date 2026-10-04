@@ -69,7 +69,7 @@ use_note:
     - "a claim that our records name anyone among us as rich or condemn wealth as such"
     - "the full verbatim warning, which sits in witt.quote.the-poor-man-who-comes-to-you"
   years: {from: 1529, to: 1529}
-  status: provisional
+  status: reviewed
 ---
 Closes F5-T at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's two questions are
 answered at genuinely different strengths: the money-and-poverty question is well grounded

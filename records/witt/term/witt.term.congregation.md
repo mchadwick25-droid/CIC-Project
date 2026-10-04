@@ -99,7 +99,7 @@ use_note:
     - "'church' as a building, a denomination or an institution with officers"
     - "Christendom's wider, inclusive extent, which sits in witt.term.christendom"
   years: {from: 1519, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 5.8 (fellowship / congregation of saints, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none -- both voices; the German glosses are the founder's own, in the text. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

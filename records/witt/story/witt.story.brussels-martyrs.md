@@ -105,7 +105,7 @@ use_note:
     - "the Peasants' War or any 1525 event, which no story covers"
     - "the sense of the word 'martyr' in this world, which sits in witt.term.martyr"
   years: {from: 1523, to: 1523}
-  status: provisional
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S04 (witt_Doc_09_Story_Inventory.md SS2), including that document's
 own sharper hagiographic-convention justification (supplied at Doc_09 Discipline 4, not present in

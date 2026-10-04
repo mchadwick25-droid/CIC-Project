@@ -81,7 +81,7 @@ use_note:
     - "'spiritual' as inward, devout or non-material"
     - "the structural pairing of estates, which sits in witt.term.spiritual-and-temporal-estate"
   years: {from: 1520, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 8.4 ('spiritual' / 'spirituality', Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][DR][TC]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

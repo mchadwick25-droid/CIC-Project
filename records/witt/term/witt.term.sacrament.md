@@ -105,7 +105,7 @@ use_note:
     - "a sacrament as a mere symbol with no promise attached"
     - "the Supper's own teaching, which sits in witt.term.sacrament-of-the-altar"
   years: {from: 1519, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 5.1 (sacrament, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR][RT]. Author Gravity: none -- both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

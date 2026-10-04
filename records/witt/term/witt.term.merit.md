@@ -79,7 +79,7 @@ use_note:
     - "'merit' as deserving in a general sense"
     - "satisfaction, which sits in witt.term.satisfaction"
   years: {from: 1517, to: 1545}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.4 (merit, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR]. Author Gravity: none; the Latin is the adversaries' as our confession quotes it. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

@@ -84,7 +84,7 @@ use_note:
     - "the dated letter to Albrecht, which is directly attested and sits in witt.story.letter-to-albrecht-and-theses-circulation"
     - "Iserloh's argument as read or weighed here, since the library holds only its title"
   years: {from: 1517, to: 1517}
-  status: provisional
+  status: reviewed
 ---
 Not unparked from a Doc_06 [CT] tag - Doc_06 tags only two terms (justification, the two governments; SS2)
 - but found by the check the process document's own B-6 row requires beyond those tags: whether Doc_04,

@@ -61,7 +61,7 @@ use_note:
     - "an answer on divorce and remarriage, which this record declines"
     - "the resurrection-and-end-of-the-world answer, which sits in witt.dw.a-death-begun-that-a-child-receives"
   years: {from: 1530, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-T at the Answer-the-Canon step (inserted between B-7a and B-8), answering the cell's outsiders-
 and-hell and too-narrow questions at full, unsoftened strength from Article XVII's own words, and

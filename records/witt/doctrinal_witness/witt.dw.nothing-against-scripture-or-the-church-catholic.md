@@ -71,7 +71,7 @@ use_note:
     - "a word-for-word quotation of the Article XXIII marriage passage, which this record paraphrases"
     - "the definition of the Church, which sits in witt.quote.congregation-of-saints"
   years: {from: 1530, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Closes F4-E at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's own question (how do
 you know your practices went back to the apostles and weren't later inventions) is answered at two levels:

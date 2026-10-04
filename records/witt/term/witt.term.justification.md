@@ -105,7 +105,7 @@ use_note:
     - "faith itself as trust, which sits in witt.term.faith"
     - "a modern denomination's own reading of justification"
   years: {from: 1520, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.2 (justification / to justify, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR][RT][CT]. Author Gravity: none by attestation; weighted to the Apology's technical development. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

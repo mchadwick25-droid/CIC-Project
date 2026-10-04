@@ -62,7 +62,7 @@ use_note:
     - "the household catechism's daily-drowning teaching on baptism, which sits in witt.term.baptism, not in this article"
     - "the inborn-sin doctrine behind the article, which sits in witt.quote.article-ii-of-original-sin"
   years: {from: 1530, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
 the vendored cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. `grep -n "Article IX: Of

@@ -90,7 +90,7 @@ use_note:
     - "a narration of the content or wording of the 1525 or 1543 writings"
     - "evidence that households did or did not keep the catechism program, which sits contested in witt.contested.household-catechism-reception"
   years: {from: 1517, to: 1543}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-I at the Answer-the-Canon step (inserted between B-7a and B-8), built entirely from this world's
 own four already-built contested_claim records plus witt.core.witt's own .thinness field -- none

@@ -99,7 +99,7 @@ use_note:
     - "the 1520 and 1530 statements as contradicting each other"
     - "the doctrine of Christ's presence, which sits in witt.term.sacrament-of-the-altar"
   years: {from: 1520, to: 1545}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 5.6 (the mass, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT][PV]. Author Gravity: none; the Apology XXIV's sacrifice argument read this pass. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

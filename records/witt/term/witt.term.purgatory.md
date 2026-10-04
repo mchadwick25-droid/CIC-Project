@@ -66,7 +66,7 @@ use_note:
     - "a claim that the word was never used, or that Luther denied it from his first day"
     - "indulgences themselves, which sit in witt.term.indulgence"
   years: {from: 1517, to: 1542}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 1.5 (purgatory, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none -- both voices (Ap 5003-5011, 6363-6365; Doc_03 had proposed 'Luther-only, cross-register'). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

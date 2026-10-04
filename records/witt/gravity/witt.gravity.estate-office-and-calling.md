@@ -135,6 +135,6 @@ use_note:
     - "the household catechism as a teaching mechanism, which sits in witt.gravity.household-catechism"
     - "the ideal of equal estates as ordinary social practice"
   years: {from: 1520, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G7 -> §3 G7 -> §7 row G7; SUPPORTING). Interaction Matrix (Doc_04 §5, row/col G7): G1 (S), G2 (R), G3 (S), G4 (R), G5 (R(t)), G6 (R), G8 (R), G9 (R), G11 (R(t)), G12 (R(t)), G13 (C) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: G10. Forces-connection (Doc_08 §5): witt.force.inheritance-refused (enabled-by), witt.force.papal-force-initiating (enabled-by), witt.force.internal-radical-force (associated-with), witt.force.internal-fracture-fenced (associated-with), witt.force.imperial-force-ongoing (associated-with), witt.force.confessional-territorial-transformation (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.

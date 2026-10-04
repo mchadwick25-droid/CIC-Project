@@ -95,8 +95,8 @@ use_note:
     - "prayer as spontaneous, private, optional devotion with set forms as lesser"
     - "temptation as the occasion for prayer, which sits in witt.term.temptation"
     - "the exchange about cold prayer at Luther's table, which sits in witt.story.household-and-kate-on-prayer"
-  years: {from: 1518, to: 1546}
-  status: provisional
+  years: {from: 1520, to: 1546}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 9.5 (prayer, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: none -- both voices; the one non-founder voice in the library is about this very practice. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

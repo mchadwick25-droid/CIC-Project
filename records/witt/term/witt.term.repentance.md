@@ -105,7 +105,7 @@ use_note:
     - "repentance as a single feeling of regret or a one-time conversion"
     - "contrition alone, which sits in witt.term.contrition"
   years: {from: 1517, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 1.2 (repentance / penance, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none -- both voices, every register from the first Thesis to the Apology. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

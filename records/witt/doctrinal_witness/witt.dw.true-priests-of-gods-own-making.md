@@ -76,7 +76,7 @@ use_note:
     - "the Roman Confutation as an outside account we hold in its own words"
     - "the event itself as told, which sits in witt.story.brussels-martyrs"
   years: {from: 1523, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-E at the Answer-the-Canon step (inserted between B-7a and B-8), answering the cell's own
 martyrdom question at real strength and naming the outside-account question as a genuine gap rather than

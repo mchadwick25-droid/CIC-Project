@@ -99,7 +99,7 @@ use_note:
     - "the Table Talk line about praying 'conditionaliter' as a settled verbatim quotation, since the record marks it Contested as verbatim"
     - "comfort for a troubled conscience in general, which sits in witt.term.comfort rather than here"
   years: {from: 1517, to: 1546}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 9.3 (assurance / 'sure' / 'certain', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

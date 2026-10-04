@@ -84,7 +84,7 @@ use_note:
     - "an eyewitness account of the reading, the room or the Emperor's reaction, none of which is held"
     - "a village congregation's own experience of the confession, which no record supplies"
   years: {from: 1530, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S09 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/melanchthon_augsburg-confession_anon-

@@ -79,7 +79,7 @@ use_note:
     - "a claim about the world's later history of resistance"
     - "the civil ruler's power, which sits in witt.term.the-sword"
   years: {from: 1520, to: 1522}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 7.4 (insurrection / 'the common man' (1522 only), Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT][PV]. Author Gravity: Luther-only, cross-register, period-bound to 1521-22 -- confirmed. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

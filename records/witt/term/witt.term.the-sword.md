@@ -72,7 +72,7 @@ use_note:
     - "the sword as religiously sanctioned violence, or 'secular' as non-religious"
     - "the two governments' whole doctrine, which sits in witt.term.the-two-governments"
   years: {from: 1520, to: 1530}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 7.2 (the sword / secular authority, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][TC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

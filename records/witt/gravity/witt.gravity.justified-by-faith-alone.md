@@ -165,7 +165,7 @@ use_note:
     - "the contest over 'accounted' and 'made', which sits in witt.contested.justification-accounted-and-made"
     - "the certainty of conscience, which sits in witt.gravity.terrified-and-comforted-conscience"
   years: {from: 1517, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 CONTESTED-CLAIM LINKAGE (closed at B-6): two records hold claims against this gravity --
 witt.contested.justification-accounted-and-made (the term's own [CT] meaning contest) and

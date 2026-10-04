@@ -117,7 +117,7 @@ use_note:
     - "the Theses' theological content, which sits in witt.term.indulgence and witt.term.repentance"
     - "the letter as mentioning a door or any public posting, which it does not"
   years: {from: 1517, to: 1517}
-  status: provisional
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S01 (Doc_09 witt_Doc_09_Story_Inventory.md SS2, "The letter to
 Albrecht and the circulation of the Ninety-Five Theses"). Quotations carried from Doc_09's own text

@@ -75,7 +75,7 @@ use_note:
     - "free will as a philosophical problem of determinism, or as denying all human choice"
     - "a developed doctrine of predestination, which the library does not carry"
   years: {from: 1520, to: 1545}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.9 (free will / bondage, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR]. Author Gravity: weighted to a single work (Bondage) whose OCR requires per-quotation re-check. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

@@ -68,7 +68,7 @@ use_note:
     - "a claim that every believer was left free to read the Bible alone without preaching and teaching"
     - "how the Word reached us through preaching and print, which sits in witt.dw.how-the-promise-reached-us"
   years: {from: 1520, to: 1545}
-  status: provisional
+  status: reviewed
 ---
 Closes F2-T at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's own two questions are
 answered at genuinely different strengths: Scripture's sole authority is well attested, in two distinct

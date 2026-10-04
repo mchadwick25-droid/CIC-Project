@@ -73,8 +73,8 @@ use_note:
     - "obedience as servility"
     - "the limit clause as a general right of resistance"
     - "the civil ruler's institutional power, which sits in witt.term.the-sword"
-  years: {from: 1518, to: 1546}
-  status: provisional
+  years: {from: 1520, to: 1546}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 7.3 (obedience, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

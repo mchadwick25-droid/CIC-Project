@@ -73,7 +73,7 @@ use_note:
     - "'daily bread' as simply food"
     - "the Lord's Prayer's full content, which sits in witt.term.prayer"
   years: {from: 1529, to: 1529}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 4.8 (daily, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: Luther-only, single-register (catechesis). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

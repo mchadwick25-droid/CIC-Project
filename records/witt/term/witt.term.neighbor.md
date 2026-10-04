@@ -74,8 +74,9 @@ use_note:
   not_for:
     - "'neighbor' as humanity in the abstract or the person next door"
     - "good works broadly, which sit in witt.term.good-works"
+    - "Christian liberty as a whole, the 'must' and 'free' distinction, which sits in witt.term.must-and-free"
   years: {from: 1520, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 4.6 (neighbor, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none for the word; the 1522 measure-of-liberty sense is the founder's own. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

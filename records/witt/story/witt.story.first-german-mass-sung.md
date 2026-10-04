@@ -92,7 +92,7 @@ use_note:
     - "a full order of service, none being vendored"
     - "the wider vernacular teaching, which sits in witt.gravity.german-for-the-people"
   years: {from: 1526, to: 1526}
-  status: provisional
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S07 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/luther_hymns_bacon-allen.txt, lines 743-795

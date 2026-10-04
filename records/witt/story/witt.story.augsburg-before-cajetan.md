@@ -85,7 +85,7 @@ use_note:
     - "the later confrontation at Worms, which sits in witt.story.worms-1521"
     - "a precise date for the meeting beyond the account's own 'the 9th of July'"
   years: {from: 1518, to: 1546}
-  status: provisional
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S02 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/luther_table-talk_bell1886.txt, lines
