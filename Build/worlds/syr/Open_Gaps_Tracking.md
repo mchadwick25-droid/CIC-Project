@@ -94,7 +94,7 @@ Outstanding, unrelated to the above: project-lead confirmation of Living Traditi
 - 19(15). `syr.gravity.diatessaron-normative` now points to `syr.force.transmission-ending`.
 
 Still open:
-- The 410 synod rests on Bar Hebraeus, a 13th-century chronicle in a Latin translation whose footnote text is poorly scanned. It gives the 410 date only in the editor's footnote.
+- The 410 synod rests on Bar Hebraeus, a 13th-century chronicle in a Latin translation whose footnote text is poorly scanned. It dates the synod to the eleventh year of Yazdgerd but sets it after the council of 381; the editor corrects the framing and gives 410 from Elias of Nisibis. `syr.dw.decides` now carries a divergence note saying so.
 - The Martyrologium Hieronymianum and the Chronicon Paschale, cited for Jacob's death year, are not vendored.
 - The 341 and 344 dates for Simeon rest on `syr.figure.simeon-bar-sabbae`, not on a vendored text.
 - No Doc_ file carries these errors, so none needs correction.

@@ -41,6 +41,7 @@ use_note:
     - "Bardaisan's own written words rather than his speech as recorded by his disciple Philip"
     - "a rule for how strictly the abstaining on reading days was kept, which the passage does not say"
     - "a claim that Christians in every country shared identical customs"
+    - "a firm sense of 'the readings', which is an editor's emendation of unclear meaning"
   years: {from: 200, to: 222}
   status: reviewed
 ---

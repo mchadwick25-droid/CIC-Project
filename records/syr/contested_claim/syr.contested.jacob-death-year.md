@@ -22,14 +22,14 @@ sources:
 relations:
 - type: associated-with
   target: syr.figure.jacob-of-nisibis
-claim: Jacob of Nisibis died in 338. The Chronicle of Edessa dates his death then, in the first Persian siege.
+claim: Jacob of Nisibis died in 338. The Chronicle of Edessa dates his death then.
 held_against:
 - the Chronicon Paschale is reported to have him defending Nisibis in 350, which cannot be squared with a 338 death - this text is not vendored, so the report is not rechecked here
 - Theodoret's account of Jacob on the wall gives no year, and the tradition blends the city's three sieges, so it cannot confirm 338 or settle on 350
 concedes: Jacob's episcopate from c. 309, his presence at Nicaea in 325, and his standing as the city's
   remembered intercessor are solid. The Chronicle of Edessa, which is vendored, records his death in the
   year 649 of the Greeks (337/338 CE). The Chronicon Paschale, which is not vendored, is reported to place
-  him at the siege of 350. The two dates are the only positions, and the question stays open on that
+  him at the siege of 350. The two dates are the two positions this record holds, and the question stays open on that
   ground alone - neither date is to be silently adopted.
 divergence_partners: []
 use_note:

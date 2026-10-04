@@ -12,7 +12,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: null
+  divergence_note: "The 410 synod is widely accepted, but the vendored witness to it is Bar Hebraeus, a thirteenth-century chronicle. It dates the synod to the eleventh year of Yazdgerd yet sets it right after the council of 381, a framing its editor corrects; the editor's note gives 410 from Elias of Nisibis. The synod's own acts are not vendored."
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
   locus: X (Of Pastors); the Demonstration 14 synodal-letter tradition
