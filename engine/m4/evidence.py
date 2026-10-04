@@ -469,7 +469,7 @@ def match_asks_to_cells(
     *, message: str, asks: list[dict] | None, canon_questions: dict[str, dict], repository_records: dict[str, dict] | None = None, top_n: int = 2
 ) -> list[dict]:
     """Stage A (design §3.2): asks -> canon cells. canon_questions is the
-    fleet's own canon_question records (records/_fleet/canon_question/),
+    fleet's own canon_question records (engine/canon/records/canon_question/),
     id -> record - the per-cell keyword corpus is derived live from their
     `text` fields (see module docstring on the canon-map.json cache this
     stands in for). Returns up to top_n {"cell", "score", "shared_words"}

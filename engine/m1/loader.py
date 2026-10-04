@@ -65,17 +65,28 @@ def load_world_records(world_key: str, records_root: Path = RECORDS_ROOT) -> dic
     return records
 
 
-@lru_cache(maxsize=4)
-def load_fleet_records(records_root: Path = RECORDS_ROOT) -> dict[str, dict]:
-    """Cached: parsing the ~95 fleet files
-    measures 57-63ms warm, and the turn path calls this THREE times per
-    participant message - ~190ms of GIL-held CPU per message re-parsing
-    identical, image-immutable files. The cache returns one shared dict:
-    callers treat it as read-only (every current caller does; the
-    selftest's seeded-defect mutation path goes through
-    load_world_records, which stays uncached for exactly that reason)."""
-    return load_world_records("_fleet", records_root=records_root)
+# The fleet's own records, kept with the engine module that owns each kind:
+# the shape's fleet_voice, the canon questions, and M5's modern terms with
+# the sources and contested claim their cards cite.
+FLEET_RECORD_ROOTS = (
+    REPO_ROOT / "engine" / "shape" / "records",
+    REPO_ROOT / "engine" / "canon" / "records",
+    REPO_ROOT / "engine" / "m5" / "records",
+)
 
+
+@lru_cache(maxsize=1)
+def load_fleet_records() -> dict[str, dict]:
+    """Every fleet record by id. Cached: the turn path reads it several
+    times per message and the files never change in a running image, so
+    callers treat the shared dict as read-only."""
+    records: dict[str, dict] = {}
+    for root in FLEET_RECORD_ROOTS:
+        for rid, record in load_world_records(root.name, records_root=root.parent).items():
+            if rid in records:
+                raise RecordParseError(f"duplicate record id {rid!r}: {record['_path']} and {records[rid]['_path']}")
+            records[rid] = record
+    return records
 
 
 def voiced_records(records: dict) -> dict:

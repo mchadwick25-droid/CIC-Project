@@ -54,7 +54,7 @@ of these tags. The tag travels with the line into the build.
 | `[LIVE — carried unchanged]` | Copy already public on the live site, carried without edit. Already approved once; carrying it into a new position is itself noted where it matters (ruling 20). |
 | `[CENSUS — verbatim]` | A field of `cic-website/data/world-census.json`, rendered as the data has it (verbatim-and-flag: seams are flagged in §11.3, never fixed on the page). |
 | `[RECORD — verbatim, status: draft in the store]` | A `records/<prefix>/*` field quoted exactly. The record itself is in draft in the store — ruling 4 governs whether it may appear publicly. |
-| `[CANON — verbatim, canon_status: seed]` | A `records/_fleet/canon_question/*` question, exact. Ruling 2. |
+| `[CANON — verbatim, canon_status: seed]` | A `engine/canon/records/canon_question/*` question, exact. Ruling 2. |
 | `[STARTERS — verbatim, W1 draft]` | An opening question from `CiC_W1_Guided_Starters_V0_1_DRAFT.md`, exact. Ruling 3. |
 | **`[DRAFT COPY — pending Mark's approval]`** | **Every sentence D3 (or the hybrid's author) wrote for a visitor. None of it is final until Mark approves the actual words.** |
 

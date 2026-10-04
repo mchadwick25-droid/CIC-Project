@@ -109,14 +109,10 @@ def test_the_lpc_unregistered_dir_is_caught():
         assert "unregistered-world-dir/lpc" in cross_world.ACCEPTED_OPEN
 
 
-def test_unregistered_world_dirs_excludes_fleet_and_the_registry_dir_itself(tmp_path, monkeypatch):
-    """_fleet is fleet-shared content with no registry entry of its own by
-    design, and `worlds` IS records/worlds/, the registry's own storage
-    location - neither is a world's own directory, so neither should ever
-    be flagged, registered or not. A synthetic tree, not the real one,
-    proves both the exclusion and the positive case independent of
-    whatever lpc's own real state happens to be at test time."""
-    (tmp_path / "_fleet").mkdir()
+def test_unregistered_world_dirs_excludes_the_registry_dir_itself(tmp_path, monkeypatch):
+    """`worlds` IS records/worlds/, the registry's own storage location, not
+    a world's own directory, so it is never flagged. A synthetic tree proves
+    the exclusion and the positive case independent of the real tree."""
     (tmp_path / "worlds").mkdir()
     (tmp_path / "known").mkdir()
     (tmp_path / "orphan").mkdir()
