@@ -14,13 +14,13 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    The Address itself covers the curriculum, the spark and the farewell. Gregory's homeland and his five years under Origen come from the ANF translator's introduction (Salmond, 1886), a modern summary, not from the Address.
+    The Address itself covers the curriculum, the spark and the farewell. Gregory's homeland comes from the ANF editor's Introductory Note and from the translator's notice (Salmond, 1886). His five years under Origen come from the translator's notice. Both are modern summaries, not the Address.
 sources:
 - source_id: alx.source.gregory-address-to-origen
   locus: VI-XVI (anf06 from line 2288)
   license: public-domain
 - source_id: alx.source.gregory-address-to-origen
-  locus: the translator's introduction (anf06 lines 631-632, 796-797 and 812)
+  locus: the ANF editor's Introductory Note (anf06 lines 631-632) and the translator's notice (lines 796-797 and 812)
   license: public-domain
 retrieval:
   tier: 1
@@ -62,7 +62,7 @@ use_note:
     - "relocating the account to Alexandria or treating it as the ordinary Alexandrian catechumen's experience"
     - "reading the love kindled as romantic attachment to a teacher"
     - "supplying logistics such as fees, rooms, or other students"
-    - "attributing the five-year stay or the Pontus homeland to the Address itself rather than to the editor's introduction"
+    - "attributing the five-year stay or the Pontus homeland to the Address itself rather than to the editor's introductory note and the translator's notice"
   years: {from: 233, to: 238}
   status: reviewed
 ---

@@ -32,8 +32,8 @@ text: >-
   authority was persuasion. After 325, the emperor called the council and the
   confession was enforced. The bishop of Alexandria became, among other
   things, a tool of order on an empire's scale. Athanasius is our own test
-  case, and he breaks the simple story both ways. The empire backed Nicaea,
-  and still sent its chief defender into exile five times between 335 and 366. Imperial favor built churches,
+  case, and he breaks the simple story both ways. Emperors backed Nicaea and
+  emperors turned on it. Between them they sent its chief defender into exile five times, from 335 to 366. Imperial favor built churches,
   and imperial politics filled them with rival bishops. The record does not
   show purity corrupted. It shows power arriving with both hands, protection
   and interference at once. And it shows a church that had chosen neither,

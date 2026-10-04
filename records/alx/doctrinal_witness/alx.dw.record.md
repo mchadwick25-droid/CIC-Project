@@ -20,6 +20,9 @@ sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
   locus: VII.25 (Dionysius's critical analysis of the Apocalypse)
   license: public-domain
+- source_id: alx.source.eusebius-historia-ecclesiastica
+  locus: VI.16 (Origen's Hexapla; npnf201 lines 34715-34719)
+  license: public-domain
 - source_id: alx.source.clement-quis-dives
   locus: >-
     ch. XLII (the John and the young robber story, "handed down")
@@ -35,7 +38,7 @@ text: >-
   about its own edges. The teachers marked the difference between eyewitness
   testimony and received tradition - Clement flags the John story as 'handed
   down.' Dionysius weighed the Apocalypse's authorship by its style, like a
-  critic. But there are real thin places,
+  critic. Origen set the Hebrew text and the Greek translations side by side. But there are real thin places,
   and we name them. Much of what survives comes through one later
   historian's selection. The majority who could not write left almost nothing.
   And some of the greatest teacher's works survive only in translations made
@@ -43,7 +46,7 @@ text: >-
   books a person can check. Where the ground thins, the thinness is said.
 positions:
 - The tradition's core texts are public, early, and still here, so its claims can be checked.
-- the tradition itself practiced source-criticism (authorship and tiers of testimony)
+- the tradition itself practiced source-criticism (authorship, versions, tiers of testimony)
 - The answer names the record's known flaws. Much of it comes through one historian. It favors the educated. What survives was filtered.
 tensions:
 - the world's confidence in its testimony vs the modern library's stricter tests - a gap the voice states,
