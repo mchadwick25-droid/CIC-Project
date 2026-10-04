@@ -127,6 +127,27 @@ const scenarios = {
     return out;
   },
   limits: () => ({ poll: GD.POLL_MS, tries: GD.MAX_TRIES }),
+  privacy: () => {
+    const PG = require("../../../cic-website/assets/privacy-go-deeper.js");
+    const page = () => {
+      const els = { "go-deeper": { hidden: true }, "cookie-one-job": { hidden: false }, "cookie-two-jobs": { hidden: true } };
+      return { els, getElementById: (id) => els[id] || null };
+    };
+    const state = (doc) => ({ section: doc.els["go-deeper"].hidden, one: doc.els["cookie-one-job"].hidden, two: doc.els["cookie-two-jobs"].hidden });
+    const run = (config) => {
+      const doc = page();
+      const applied = PG.apply(doc, config);
+      return { applied, ...state(doc) };
+    };
+    const missing = { getElementById: () => null };
+    return {
+      off: run({ enabled: false }),
+      absent: run(undefined),
+      notStrictlyTrue: run({ enabled: "yes" }),
+      on: run({ enabled: true }),
+      pageWithoutTheParts: PG.apply(missing, { enabled: true }),
+    };
+  },
   doorLine: async () => {
     const DL = require("../../../cic-website/assets/door-line.js");
     const run = async (step) => {
