@@ -58,5 +58,11 @@ modern_contrast: 'A modern reader may picture a staged event, decided before it 
   assume councils rarely reverse the powerful. We know it differently: the whole point of Hegenwald''s
   own account is to answer people who mocked the gathering in advance as certain to fail, and our own
   council''s judgment, reached that day, bound every priest in its territory from then on.'
+use_note:
+  means: "In 1523 six hundred people filled Zurich's Town Hall to test Zwingli's case against Scripture, and the council ruled for it, binding every priest in its territory."
+  not_for:
+    - "a claim that the Disputation was a staged event decided before it began"
+  years: {from: 1523, to: 1523}
+  status: reviewed
 ---
 Built from Story-Chunks/rzgstory001_first-zurich-disputation.md (Approved to proceed). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person register; tellable_as further compresses that into a single spoken-register sentence, a genuinely separate authored field, not a duplicate. modern_contrast draws on the chunk's own Usage Guidance and Doc_04's own Disputation-adjacent Distortion Risk framing.
