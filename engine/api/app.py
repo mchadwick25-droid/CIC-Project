@@ -598,7 +598,8 @@ def create_app(
         is_table = state.mode == "table"
         admission = deeper_admission.new_admission(
             deeper, request, session_id=session_id,
-            free_cap=round_module.TABLE_SESSION_ROUND_CAP if is_table else turn_module.SESSION_TURN_CAP, table=is_table,
+            free_cap=round_module.TABLE_SESSION_ROUND_CAP if is_table else turn_module.SESSION_TURN_CAP,
+            seats=len(state.world_keys) if is_table else 1,
         )
         call_kwargs = dict(
             store=deps.store,

@@ -15,6 +15,7 @@ from engine.api.tests.test_deeper_seam import (  # noqa: F401
     RecordingClient,
     capped_app,
     code_with,
+    solo_charge,
     open_session,
     runtime,
     say,
@@ -129,18 +130,19 @@ def test_a_paid_sitting_leaves_no_trace_of_the_code_or_the_payment_in_the_conver
     http = capped_app(store, usage_store, world_loader, registry, runtime, client)
     payment_id = "pi_PAYMENT_ID_MARKER_8431"
     reference = "claim-reference-MARKER-9921"
-    (code,) = runtime.meter.mint("single", 6, payment_id)
+    paid_cost = solo_charge(runtime, 3, 5)
+    (code,) = runtime.meter.mint("single", paid_cost + 30, payment_id)
     runtime.claims.put(reference, [code])
     session_id, auth = open_session(http, **{"X-Cic-Code": code})
     for i in range(5):
         assert say(http, session_id, auth, f"question {i}").status_code == 200
-    assert runtime.meter.status(code).remaining == 6 - 3
+    assert runtime.meter.status(code).remaining == 30
 
     events_text = "".join(_all_text(tmp_path / name) for name in ("events.db", "usage.db"))
     assert "question 4" in events_text
     for secret in (code, codes.display(code), codes.hash_code(code), payment_id, reference, "X-Cic-Code", "x-cic-code"):
         assert secret not in events_text, secret
-    for word in ("exchanges_total", "payment_id", "stripe"):
+    for word in ("tokens_total", "payment_id", "stripe"):
         assert word not in events_text.lower(), word
 
 
@@ -188,7 +190,7 @@ def test_a_sitting_driven_to_its_last_exchange_stores_no_code_or_balance_wording
     free_id, free_auth = open_session(free)
     for i in range(FREE_CAP + 1):
         say(free, free_id, free_auth, f"question {i}")
-    code = code_with(runtime, 2)
+    code = code_with(runtime, solo_charge(runtime, 3, 4))
     paid_id, paid_auth = open_session(free, **{"X-Cic-Code": code})
     for i in range(FREE_CAP + 3):
         say(free, paid_id, paid_auth, f"question {i}")

@@ -1273,3 +1273,15 @@ Mark's description of the product, 2026-10-03: the buying sits beside the conver
 - #744 notes: a, the local reference lasts three hours and the server's hour decides; b, a delivered single code is removed from the site's storage; c, the site's two addresses are in one file; d, the S11 checklist names `CIC_DEEPER_SITE_ORIGIN` and `VITE_DEEPER_SITE_ORIGIN`, which must both equal the site's exact origin.
 - #745 notes: a, the same origin point; b, a blocked popup now opens the page in the same tab; c, the app answers the popup on every screen, not only where the code field shows.
 - New participant words from these fixes, for Mark's approval: "A code came with this link. Use it?", "You already have a code. Using this one will replace it.", "Use it", "Not now", "We couldn't get that code. Try the page where you paid."
+
+## 2026-10-04 — Go Deeper T1: the meter draws tokens by round and seats
+
+Carries out System Hub decision 46 on the meter. Still switched off behind the flag.
+
+- **The meter counts tokens.** Its columns, status fields, the mint call and a purchase's product table say tokens, not exchanges. No meter file exists anywhere yet (the module has never been switched on), so the columns were renamed in place with no migration. The claim route answers with `tokens`.
+- **What a turn draws comes from the round and the seats.** Admission reserves `charge(round, seats)` from `engine/deeper/tokens.py` before the turn and settles it after: a solo round is 20 (25 from round 4), a Table round 60 or 100 by seats (75 or 125 from round 4), and the opening amount is added once, to the first admitted round of a sitting. A sitting that crosses from free into paid at round 4 draws no opening amount: the conversation was opened when it started. The engine still receives only a cap and a flag.
+- **`table_round_cost` is retired** from the operations file and the loader. A file that still carries it is refused.
+- **Two numbers converted, for Mark to set.** `group_daily_ceiling` 300 exchanges becomes 6,000 tokens and `low_balance_at` 5 becomes 100, both at one exchange = one 20-token round. These are conversions so the shipped file keeps its old meaning, not rulings.
+- **Words not yet changed.** The balance line, the refusal notes ("no exchanges left") and the site page still say exchanges. T3 rewrites them in tokens for Mark's approval. The sentence on the site page giving a Table round's cost is removed, since it no longer holds.
+- The free path (330 a day, three free rounds) is T2 and touches the engine redesign's constants; not in this slice.
+- A positive test through `api.ts` that a reply's balance reaches the code the request carried, plain and stream (the open note from the #747 review).

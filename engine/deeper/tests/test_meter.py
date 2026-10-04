@@ -47,10 +47,10 @@ def test_mint_refuses_wrong_counts(meter, kind, count):
         meter.mint(kind, 10, "pi_x", count=count)
 
 
-@pytest.mark.parametrize("exchanges", [0, -1, 10_001, 1.5])
-def test_mint_refuses_wrong_exchanges(meter, exchanges):
+@pytest.mark.parametrize("tokens", [0, -1, 100_001, 1.5])
+def test_mint_refuses_wrong_tokens(meter, tokens):
     with pytest.raises(ValueError):
-        meter.mint("single", exchanges, "pi_x")
+        meter.mint("single", tokens, "pi_x")
 
 
 def test_mint_refuses_unknown_kind_and_empty_payment(meter):
@@ -149,7 +149,7 @@ def test_concurrent_settles_never_overspend(meter):
     for t in threads:
         t.join()
     status = meter.status(code)
-    assert status.exchanges_used == 20 and status.status == "spent"
+    assert status.tokens_used == 20 and status.status == "spent"
 
 
 def test_wrong_code_reasons(meter):
@@ -206,7 +206,7 @@ def test_void_while_held_makes_settle_spend_nothing(meter):
     reservation = meter.reserve(code).reservation
     meter.void("pi_16")
     assert meter.settle(reservation, True) is None
-    assert meter.status(code).exchanges_used == 0
+    assert meter.status(code).tokens_used == 0
 
 
 def test_group_ceiling_limits_a_day_and_resets_the_next(meter, clock):
@@ -218,7 +218,7 @@ def test_group_ceiling_limits_a_day_and_resets_the_next(meter, clock):
     assert meter.reserve(code).ok
 
 
-def test_group_ceiling_counts_exchanges_in_flight(meter):
+def test_group_ceiling_counts_tokens_in_flight(meter):
     (code,) = meter.mint("group", 100, "pi_18")
     held = [meter.reserve(code) for _ in range(3)]
     assert all(h.ok for h in held)
@@ -304,7 +304,7 @@ def test_purge_drops_reconciliation_days_after_ninety(meter, clock):
     assert meter.reconciliation() == []
 
 
-def test_a_table_round_reserves_and_spends_several_exchanges_at_once(meter):
+def test_a_table_round_reserves_and_spends_several_tokens_at_once(meter):
     (code,) = meter.mint("single", 7, "pi_t1")
     first = meter.reserve(code, 3)
     assert first.ok
@@ -315,7 +315,7 @@ def test_a_table_round_reserves_and_spends_several_exchanges_at_once(meter):
     assert meter.reserve(code, 1).ok
 
 
-def test_a_released_round_returns_all_its_exchanges(meter):
+def test_a_released_round_returns_all_its_tokens(meter):
     (code,) = meter.mint("single", 3, "pi_t2")
     held = meter.reserve(code, 3)
     assert meter.reserve(code, 1).reason == "in_use"
