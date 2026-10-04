@@ -184,6 +184,9 @@ def main() -> int:
                         help="directory of the admission reports the per-world estimate is priced from")
     parser.add_argument("--label", required=True, help="report file name, e.g. sample or full")
     parser.add_argument("--settings-only", action="store_true", help="print settings and the estimate, make no call")
+    parser.add_argument("--until-cap", action="store_true",
+                        help="start even when the estimate exceeds --max-usd; worlds run in the order given and the "
+                             "run stops before the first turn the cap cannot cover")
     args = parser.parse_args()
 
     scenario_ids = args.scenario or list(SCENARIOS)
@@ -191,9 +194,9 @@ def main() -> int:
     settings = {"region": args.region, "voice_model_id": args.voice_model_id, "safety_model_id": args.safety_model_id,
                 "self_revision_enabled": False, "citation_attach_enabled": False, "worlds": args.world,
                 "scenarios": scenario_ids, "voice_turns_per_world": sum(len(SCENARIOS[s]) for s in scenario_ids if s != "distress"),
-                "max_usd": args.max_usd, "estimated_usd": round(estimate, 4)}
+                "max_usd": args.max_usd, "until_cap": args.until_cap, "estimated_usd": round(estimate, 4)}
     print(json.dumps(settings, indent=2), flush=True)
-    if estimate > args.max_usd:
+    if estimate > args.max_usd and not args.until_cap:
         print(f"estimate ${estimate:.2f} exceeds --max-usd ${args.max_usd:.2f}; no call made", file=sys.stderr)
         return 2
     if args.settings_only:
