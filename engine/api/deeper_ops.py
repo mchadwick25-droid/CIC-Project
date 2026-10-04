@@ -127,7 +127,7 @@ def _door(section) -> DoorSettings:
                 narrowest[key] = value
                 fields[key] = value
         if "free_day_share" in item:
-            share = _number(item["free_day_share"], "door stage free_day_share", low=0, high=1)
+            share = _number(item["free_day_share"], "door stage free_day_share", low=0, high=1, inclusive_low=False)
             if narrowest["free_day_share"] is not None and share > narrowest["free_day_share"]:
                 raise OpsFileError("door stages may only narrow: free_day_share cannot rise")
             narrowest["free_day_share"] = share

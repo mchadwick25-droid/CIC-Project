@@ -1245,3 +1245,42 @@ def test_overlapping_free_and_paid_sittings_hit_each_stage_in_order_and_spend_st
     distress = say(http, session_id, auth, "I do not know how to say this")
     assert distress.json()["routing_action"] == "safety_turn"
     assert runtime.meter.status(code).remaining > 0
+
+
+# ---- a fault in admission never reopens what the door has closed -----------------------
+
+def _grant_for(runtime, *, code, completed, seats=1, free_cap=SHIPPED_SESSION_TURN_CAP):
+    from engine.api.deeper_admission import Admission
+
+    admission = Admission(runtime, code, session_id="s", free_cap=free_cap, seats=seats, visitor="v")
+    return admission.provider(completed, False)
+
+
+def test_a_fault_at_a_door_closed_to_free_voice_still_refuses_even_with_a_code(runtime, monkeypatch):
+    runtime.door = StubDoor(free_voice=False)
+
+    def down(*_a, **_k):
+        raise RuntimeError("meter down")
+
+    monkeypatch.setattr(runtime.meter, "reserve", down)
+    grant = _grant_for(runtime, code=code_with(runtime, 500), completed=1)
+    assert grant.cap <= 1 and grant.limit_text is not None
+
+
+def test_a_fault_in_the_free_day_keeps_to_the_rounds_the_door_allows(runtime, monkeypatch):
+    runtime.door = StubDoor(solo_free_rounds=1, free_day_share=0.5)
+
+    def down(*_a, **_k):
+        raise ValueError("free day down")
+
+    monkeypatch.setattr(runtime.free, "reserve", down)
+    assert _grant_for(runtime, code=None, completed=1).cap == 1
+    assert _grant_for(runtime, code=None, completed=0).cap == 1
+
+
+def test_a_fault_with_the_door_open_leaves_the_free_grant_as_it_was(runtime, monkeypatch):
+    def down(*_a, **_k):
+        raise RuntimeError("free day down")
+
+    monkeypatch.setattr(runtime.free, "reserve", down)
+    assert _grant_for(runtime, code=None, completed=1).cap == SHIPPED_SESSION_TURN_CAP

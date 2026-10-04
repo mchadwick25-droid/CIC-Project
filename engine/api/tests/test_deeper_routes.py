@@ -708,3 +708,25 @@ def test_the_runtime_gets_a_door_only_when_given_the_usage_log(tmp_path):
     assert with_log.door is not None and with_log.door.state().stage == 0
     with_log.meter.close()
     with_log.claims.close()
+
+
+def test_a_restart_with_the_usage_log_down_still_finds_the_door_where_it_was_left(tmp_path):
+    from engine.api.deeper_door import STATE_KEY, _encode
+    from engine.deeper import door as door_module
+
+    meter_path = str(tmp_path / "m.db")
+    closed = door_module.DoorState(stage=4, ratio=0.97, ceiling_usd=150.0, table_free_rounds=0, free_voice=False)
+    first = Meter(meter_path)
+    first.set_state(STATE_KEY, _encode(closed))
+    first.close()
+
+    class Broken:
+        def read_since(self, _since):
+            raise RuntimeError("usage log down")
+
+    config = DeeperConfig(True, meter_path, str(tmp_path / "c.db"))
+    runtime = deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1"}, usage_store=Broken())
+    state = runtime.door.state()
+    assert (state.stage, state.free_voice, state.table_free_rounds) == (4, False, 0)
+    runtime.meter.close()
+    runtime.claims.close()

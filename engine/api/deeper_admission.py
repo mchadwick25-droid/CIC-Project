@@ -116,11 +116,31 @@ class Admission:
 
     def provider(self, completed: int, daily_cap_reached: bool) -> TurnGrant:
         limited = daily_cap_reached or self._facilitator_only or self._paid_sitting
+        door = self._runtime.door.state() if self._runtime.door is not None else door_module.OPEN
+        try:
+            return self._decide(completed, limited, door)
+        except Exception:  # noqa: BLE001 - a fault must never open what the door has closed
+            logger.exception("deeper admission faulted; the grant keeps to the door")
+            return self._grant_in_a_fault(completed, limited, door)
+
+    def _door_rounds(self, door: door_module.DoorState) -> int | None:
+        return door.table_free_rounds if self._seats > 1 else door.solo_free_rounds
+
+    def _grant_in_a_fault(self, completed: int, limited: bool, door: door_module.DoorState) -> TurnGrant:
+        """What the engine is handed when admission itself fails. With the door
+        closed to free voice (paid voice never closes first) it is a refusal; with
+        it open the free grant, no longer than the door lets a free conversation run."""
+        if not door.free_voice:
+            return free_grant(min(self._free_cap, completed), limited, self._limit_text())
+        door_rounds = self._door_rounds(door)
+        cap = self._free_cap if door_rounds is None else min(self._free_cap, door_rounds)
+        return free_grant(cap, limited)
+
+    def _decide(self, completed: int, limited: bool, door: door_module.DoorState) -> TurnGrant:
         rates = self._runtime.token_rates
         cost = tokens.charge(rates, completed + 1, self._seats)
-        door = self._runtime.door.state() if self._runtime.door is not None else door_module.OPEN
         free_rounds = min(self._free_cap, rates.free_rounds)
-        door_rounds = door.table_free_rounds if self._seats > 1 else door.solo_free_rounds
+        door_rounds = self._door_rounds(door)
         if door_rounds is not None:
             free_rounds = min(free_rounds, door_rounds)
         if not limited and door.free_voice and completed < free_rounds:
