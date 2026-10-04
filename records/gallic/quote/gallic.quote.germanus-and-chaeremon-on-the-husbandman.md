@@ -77,6 +77,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service
+use_note:
+  means: "Cassian records Germanus arguing that effort earns its fruit and Chaeremon answering that a husbandman's labour still needs rain and calm weather from God."
+  not_for:
+    - "a settled semi-Pelagian position, when its meaning is contested"
+    - "the night's scruple that prompted the question, which sits in gallic.quote.germanus-troubled-after-the-nights-teaching"
+    - "Germanus's objection as Chaeremon's own view"
+  years: {from: 426, to: 426}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. Germanus's chapter is `<div4 title="Chapter

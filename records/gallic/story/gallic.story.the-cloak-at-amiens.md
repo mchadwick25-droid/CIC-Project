@@ -118,6 +118,15 @@ modern_contrast: >-
   tradition presses is not the wonder but the humility that follows it: a catechumen with a sword does a
   material act of charity, Christ attests it, and the man is "not puffed up" - the point being that he
   went and was baptized and quietly served out his term, not that a relic was born.
+use_note:
+  means: "Sulpitius tells that Martin, a catechumen soldier, cut his cloak in two for a beggar at a city gate and that night saw Christ wearing the half he gave."
+  not_for:
+    - "evidence that the vision really happened, which the record does not assess"
+    - "the discharge scene, which sits in gallic.story.discharge-before-caesar"
+    - "a proof that anyone saw the Lord in the flesh, which gallic.limit.no-one-who-saw-him says is not held"
+    - "the rustics the saint's power was shown for, which sit in gallic.term.heathen-rustics"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 "The city of Amiens" is part of the translation's own main text (npnf211, the sentence naming where
 Martin met the beggar), not its endnote - it is quoted here in full, along with everything else the

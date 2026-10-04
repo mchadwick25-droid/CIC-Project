@@ -44,6 +44,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.soldier-of-christ
+use_note:
+  means: "Cassian writes in Institutes X.3 that accidie makes the soldier of Christ a runaway and deserter entangled in secular business."
+  not_for:
+    - "the Institutes' opening soldier image, which sits in gallic.quote.institutes-opening-soldier-of-christ"
+    - "Cassian's own coinage of the entanglement phrase, which he takes from Paul"
+    - "a description of literal military desertion"
+  years: {from: 415, to: 426}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "becomes a runaway from His service"` returns line 23522; read with `sed -n '23516,23524p'`, inside

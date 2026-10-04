@@ -142,6 +142,15 @@ manifestations:
 - "The clerical office as the devil's suggestion 'under the pretext of edifying many people' (Conf. I.20) and vainglory's desire (Inst. XI.14); Archebius counting his see an expulsion (Conf. XI.2)"
 - "Vincent's councils and Apostolic See as guarantors of antiquity (Comm. chs. 3, 6, 32) - and no bishop, confessor, or martyr exempt from the rule (ch. 28)"
 - "Celestine's letter to the Gallican bishops, 'Venerius of Marseilles' first, and the Massilians who 'clung to their views in spite of the authority of the Pope' (Gibson, editorial)"
+use_note:
+  means: "Bishops, synods and councils are honoured as guardians of the truth while Martin flees office and shuns synods after Trier, so authority is honoured and refused at once."
+  not_for:
+    - "anti-institutionalism, or rejection of bishops as such"
+    - "Martin's distrust of bishops or Vincent's reverence for councils as every voice's view, when each rests on one house, as in gallic.term.council-synod"
+    - "the pattern of monks seized into the see, which sits in gallic.gravity.monk-bishop"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
+  years: {from: 397, to: 434}
+  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus,
 Vincent of Lérins, John Cassian) and, for the Massilian episode, the same edition's own prolegomena

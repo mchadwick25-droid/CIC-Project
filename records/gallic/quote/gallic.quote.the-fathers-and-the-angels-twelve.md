@@ -81,6 +81,15 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.the-angel-and-the-twelve-psalms
+use_note:
+  means: "Cassian, in Institutes II, relates the Egyptian tradition that an angel chanting twelve psalms settled the fathers' dispute over how many psalms the offices should hold."
+  not_for:
+    - "an attested event, when Cassian names no witness and points to ecclesiastical history"
+    - "a custom already kept in Gaul, when Cassian writes it for Castor's new house"
+    - "the two added lessons as angelic, when the fathers added them by their own appointment"
+    - "a remark about this world's scholarly attribution, which the passage does not make"
+  years: {from: 415, to: 426}
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 The chapter divs are `<div4 title="Chapter V. How the fact that the number of the Psalms was to be

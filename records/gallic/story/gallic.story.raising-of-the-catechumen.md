@@ -113,6 +113,14 @@ modern_contrast: >-
   those as good monks ... who professed themselves exorcists," and Cassian refused to "weave a tale of
   God's miracles and signs." The two literatures are made of what the other refuses, and never
   addressed each other.
+use_note:
+  means: "Sulpitius reports that Martin found a catechumen dead unbaptized, stretched himself on the body, perceived power present, and saw the man revive to tell of the tribunal and the angels."
+  not_for:
+    - "evidence that the miracle really happened, which the record does not assess"
+    - "a proof that the Lord rose, which gallic.limit.no-one-who-saw-him says is not held"
+    - "Marseilles teaching, where Cassian declines such stories on principle, which sits in gallic.gravity.virtus"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 Neither "Ligugé" nor "Poitiers" appears in the narrative: Sulpitius names the monastery only as "not
 far from the town," and those identifications are editorial, not his own words (see absent_detail).

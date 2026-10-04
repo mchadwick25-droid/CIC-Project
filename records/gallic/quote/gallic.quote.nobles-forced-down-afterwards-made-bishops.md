@@ -47,6 +47,14 @@ relations:
   target: gallic.force.army-and-rank-before
 - type: associated-with
   target: gallic.gravity.monk-bishop
+use_note:
+  means: "Sulpitius records that noble-born disciples at Martin's monastery took up humble discipline and that he had seen many of them later made bishops."
+  not_for:
+    - "a count or list of bishops drawn from Martin's monastery, which the record does not give"
+    - "evidence that most Gallic bishops were monks"
+    - "Martin's own conduct as bishop, which sits in gallic.quote.martin-kept-the-virtues-of-a-monk"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "deemed of noble"` returns line 1153; read with `sed -n '1148,1157p'`, inside `<div3 title="Chapter

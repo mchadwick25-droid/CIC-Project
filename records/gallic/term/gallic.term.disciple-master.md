@@ -120,6 +120,15 @@ quick_meaning: >-
   A named master and the men formed by watching him. Even our great teacher calls himself a disciple,
   "not a leader but a follower."
 distortion_risk: medium
+use_note:
+  means: "Disciple and master named the bond between a named man and those formed by watching him, as Martin's eighty, which Vincent turned on doctrine: the Catholic is a disciple."
+  not_for:
+    - "a student and teacher of doctrine in the modern sense, or discipleship as a programme"
+    - "the mechanism of imitation, seen or read, which sits in gallic.term.example-imitation"
+    - "the senior's judgment of thoughts, which sits in gallic.term.elder-senior-abbot"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
+  years: {from: 397, to: 434}
+  status: reviewed
 ---
 Built from Doc_06 entry 026 (Tier 2; chunk galliclex026_disciple-master.md; Doc_03 3.1). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cell F2-I:

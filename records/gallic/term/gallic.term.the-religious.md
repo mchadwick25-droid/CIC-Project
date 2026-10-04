@@ -82,6 +82,15 @@ quick_meaning: >-
   Salvian's word for us, from the city: a class of people who chose to be lowly, poor, and
   unesteemed. His gloss on "the monks."
 distortion_risk: medium
+use_note:
+  means: "The religious was Salvian's plain name, from the city, for those who took the monastic way, a class who chose to be lowly and poor."
+  not_for:
+    - "religious as an adjective of general piety"
+    - "the monk seen from inside, which sits in gallic.term.monk-solitary"
+    - "a grace teaching, for which Salvian's text is not licensed"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
+  years: {from: 439, to: 450}
+  status: reviewed
 ---
 Built from Doc_06 entry 071 (`galliclex071_the-religious.md`, Tier 3, tags SC RT DR; Doc_03
 1.13). Kept thin at the Tier-3 floor; the DR tag (the adjective-of-piety hearing) is carried as

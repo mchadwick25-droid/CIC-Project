@@ -84,6 +84,15 @@ quick_meaning: >-
   Vincent's name for a Church teacher. Their agreement binds; one teacher alone, even a bishop or
   martyr, has only "a private fancy of his own."
 distortion_risk: low
+use_note:
+  means: "Doctor meant Vincent's authorized Church teacher, whose agreement binds, while one teacher alone, be he bishop or martyr, holds only a private fancy."
+  not_for:
+    - "Doctor of the Church as a later honorific for a fixed list of saints"
+    - "the Fathers as received authority in general, which sits in gallic.term.the-fathers-elders"
+    - "the monastic master, which sits in gallic.term.disciple-master"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
+  years: {from: 434, to: 434}
+  status: reviewed
 ---
 Built from Doc_06 entry 077 (`galliclex077_doctor-expositor.md`, Tier 3, tags SC TC; Doc_03
 7.7). Kept thin at the Tier-3 floor.

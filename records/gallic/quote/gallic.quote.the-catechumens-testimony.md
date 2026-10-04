@@ -61,6 +61,14 @@ relations:
   target: gallic.figure.sulpitius
 - type: associated-with
   target: gallic.quote.martin-raises-the-catechumen
+use_note:
+  means: "Sulpitius says the restored catechumen lived many years, became his first witness to Martin's powers, and that Martin's fame as holy and apostolic grew from then."
+  not_for:
+    - "an independently confirmed witness, when the man is unnamed and known only through Sulpitius"
+    - "the raising itself, which sits in gallic.quote.martin-raises-the-catechumen"
+    - "the catechumen's vision of the tribunal, which this excerpt omits"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, same chapter div
 `id="ii.ii.viii"` (line 971) as gallic.quote.martin-raises-the-catechumen. `grep -n "witness to their

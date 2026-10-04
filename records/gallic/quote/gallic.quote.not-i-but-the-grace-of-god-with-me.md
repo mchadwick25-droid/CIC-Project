@@ -50,6 +50,14 @@ relations:
   target: gallic.gravity.grace-and-effort
 - type: associated-with
   target: gallic.force.received-programs-logic
+use_note:
+  means: "Cassian, in Institutes XII, gives monks a remedy for pride: crediting every felt progress in virtue to God's grace in Paul's words."
+  not_for:
+    - "Cassian's stated position on effort and grace, which sits in gallic.quote.perfection-not-gained-without-grace"
+    - "an argument in the later grace controversy rather than a practical habit of speech"
+    - "evidence that Cassian taught grace alone without effort"
+  years: {from: 415, to: 426}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Not I, but the grace of God"` returns line 25041; `grep -n "worketh in us both to will"` returns

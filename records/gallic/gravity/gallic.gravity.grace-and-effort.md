@@ -161,6 +161,15 @@ manifestations:
 - "Vincent quoting Celestine's 'let novelty cease to assail antiquity' and reading it for his own side (Comm. ch. 32 [85]) - his participation Contested"
 - "Faustus's prologue: a council gathered 'for the condemning of the error of predestination,' the treatise written at its commission (row 24, rough OCR, Inferential/Thin wording; post-window)"
 - "Dionysius Carthusianus's fifteenth-century paraphrase cutting Conf. XIII 'to make Cassian orthodox' (Gibson, editorial) - the gravity's fracture in transmission"
+use_note:
+  means: "Human effort and free choice are held real while grace goes before and crowns them, argued under Augustine's pressure as a relation Cassian says reason cannot fully grasp."
+  not_for:
+    - "a settled semi-Pelagian position, when that label is contested in gallic.contested.massilian-label"
+    - "Cassian's target as Augustine's doctrine of predestination, when his intent is contested in gallic.contested.beginning-of-good-will"
+    - "Faustus's synodal commission, which falls after the window"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
+  years: {from: 415, to: 434}
+  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Vincent
 of Lérins) and, for Augustine's own report, cic/texts/npnf105_augustine-anti-pelagian-writings.xml

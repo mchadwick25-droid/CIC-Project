@@ -154,6 +154,15 @@ modern_contrast: >-
   begins in the same breath as his death: "Martin is praised with the divine psalms" in his own
   generation, a community that holds only the old to be legitimate memorializing itself in the present
   tense.
+use_note:
+  means: "Sulpitius tells Bassula that Martin, foreknowing his death, went to make peace at Condate, died refusing straw, and was buried by two thousand monks and a choir of virgins."
+  not_for:
+    - "an eyewitness account, when Sulpitius disclaims being present"
+    - "the later cult of Martin at Tours, which lies outside the window"
+    - "the south's teaching on death or judgment, which sits in gallic.term.fear-hope-love"
+    - "the funeral-as-triumph passage verbatim, which sits in gallic.quote.martin-funeral-triumph-contrast"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 Sourced from Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii), Sulpitius Severus's
 own account of Martin's death at Condate and burial, written within months of the event. This record

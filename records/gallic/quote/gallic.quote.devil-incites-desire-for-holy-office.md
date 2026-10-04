@@ -46,6 +46,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence
+use_note:
+  means: "Cassian reports Abbot Moses teaching that the devil can stir a monk's desire for clerical office under the pretext of edifying others."
+  not_for:
+    - "a claim that ordination itself is evil"
+    - "Cassian's own voice, when the teaching is Moses's as Cassian records it"
+    - "Archebius's lament over his own election, which sits in gallic.quote.archebius-carried-off-to-panephysis"
+  years: {from: 426, to: 426}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "edifying many people"` returns one hit, line 26946, inside `<div4 title="Chapter XX. About

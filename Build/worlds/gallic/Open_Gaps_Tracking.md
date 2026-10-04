@@ -666,3 +666,26 @@ Fourth batch of the workstream OG-13 opened, resumed after the weekly usage-cred
 **Two report-only fidelity tools this batch could not run:** `engine/m1/rendering_fidelity.py` (needs the `anthropic` package, not installed in this environment) and `engine/m1/sentence_completeness.py` (needs `spaCy`, not installed). Both are report-only, not registered in `engine.m1.gates.GATES`, and unavailable in every earlier batch of this workstream for the same reason - not a new gap.
 
 **Deferred, explicitly not this entry's work:** the remaining 53 gallic records `embedded_quotations` still flags (58 total minus this batch's 5) - a later batch of the same workstream, same discipline, when it's picked up.
+
+### OG-24. Record defects found while drafting and reviewing use notes (slice 6), 2026-10-04.
+
+Not fixed; content for this world's build thread.
+
+1. `gallic.quote.benjamin-relied-on-his-own-judgment` names the wrong speaker: `speaker_or_author` ("John Cassian, narrating") and `divergence_note` ("Cassian's own narration") are wrong, because in Conference II.24 (lines 28094-28110) the passage is Abbot Moses speaking to Cassian and Germanus ("your fellow citizen Benjamin").
+2. `gallic.quote.allegiance-to-antiquity-not-a-few` is a duplicate: its `text` is the identical Institutes I.2 sentence held in `gallic.quote.antiquity-and-the-fathers-unanimous-decision`.
+3. `gallic.quote.cassian-archebius-expelled-from-monastic-system` is a duplicate span: its text sits wholly inside `gallic.quote.archebius-carried-off-to-panephysis`.
+4. `gallic.quote.aloof-from-assemblies-of-bishops` is a duplicate span: its sentence is the closing sentence of `gallic.quote.gallus-on-the-forced-communion-and-the-angel`.
+5. `gallic.quote.chaeremon-grace-requires-our-effort` has a broken id: in its `divergence_note`, `gallic.quote.germanus-and-chaeremon-on-the-husbandman` is split by a line break and reads "on-the- husbandman".
+6. `gallic.quote.chaeremon-three-stages-of-grace` has the same broken id in its `divergence_note`.
+7. `gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause` duplicates `gallic.quote.secular-ruler-judge-in-ecclesiastical-cause`: same sentence, same locus (Sacred History II.50, lines 11655-11660), and only the speaker field differs.
+8. `gallic.quote.without-grievous-blasphemy-all-men-to-be-saved` duplicates `gallic.quote.grievous-blasphemy-not-all-men-to-be-saved`: same sentence from Conference XIII.7.
+9. `gallic.quote.private-fancy-be-he-a-bishop` is a near-duplicate: it is the opening of the sentence that `gallic.quote.private-fancy-of-his-own` carries in full (Commonitory ch. 28, lines 14271-14278).
+10. `gallic.term.commonitory-peregrinus` misquotes its source: `plain_meaning` and locus give "Peregrinus, the least of all the servants of God", where the source reads "I, Peregrinus, who am the least of all the servants of God".
+11. `gallic.term.monk-solitary` misquotes its source: `plain_meaning` puts "regarded as a monk" in quote marks, where Vita ch. II reads "regarded not so much as being a soldier as a monk".
+12. `gallic.term.virtus` misquotes its source: it quotes "power present", where Vita ch. VII reads "power was present".
+13. `gallic.term.monk-bishop` misquotes its source: `plain_meaning` quotes "escorted under guard", where Vita ch. IX reads "under a kind of guard escorted".
+14. `gallic.story.the-three-lentil-beans` has a broken id in its `text` field: "gallic.quote.weekly-service- and-sacred-vessels" where the id is `gallic.quote.weekly-service-and-sacred-vessels`.
+
+Seven quote records carry no use note because they speak from after the window (360-450): `gallic.quote.gennadius-grace-invites-precedes-and-helps`, `gallic.quote.gennadius-martin-famous-for-signs` and `gallic.quote.gennadius-on-the-dialogues-subject` (Gennadius, c. 495); `gallic.quote.gibson-priests-not-to-invade-episcopal-prerogative`, `gallic.quote.heurtley-celestines-letter-addressed-to-gaul` and `gallic.quote.heurtley-semipelagian-leaning-reading` (nineteenth-century editors); and `gallic.quote.massilians-clung-to-their-views` (the editor Gibson's prolegomena).
+
+**Status: OPEN.**

@@ -138,6 +138,15 @@ manifestations:
 - "Archebius, 'carried off from the assembly of anchorites and given as Bishop to the town of Panephysis,' who counted it expulsion (Conf. XI.2) - the Egyptian counter-case Cassian chose to carry west"
 - "Hilary of Arles on Honoratus: bound 'to the long-avoided office of the clergy'; 'he who had refused to go to the dignity - the dignity came to him' (row 27, Inferential/Thin wording)"
 - "Gennadius: 'a Life of the holy Martin, monk and bishop' (ch. XIX); Faustus 'first abbot of the monastery at Lerins, and then made bishop of Riez' (ch. LXXXVI)"
+use_note:
+  means: "Renunciation kept producing bishops, as Martin, many of Marmoutier's disciples and Honoratus passed from monk to bishop while keeping a monk's virtues inside the see."
+  not_for:
+    - "a bishop's career as promotion or sell-out"
+    - "reluctance as proven for every house, when it is contested in gallic.contested.election-as-capture"
+    - "the quarrel with bishops and synods at Tours, which sits in gallic.gravity.authority-ambivalence"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
+  years: {from: 397, to: 435}
+  status: reviewed
 ---
 DECLARED ABSENCE: no demonstrated relationship with G10 (judgment). Doc_04 gives no pair-specific
 reasoning for this cell beyond reading G10's row as the thinnest in the matrix (four "-" cells);

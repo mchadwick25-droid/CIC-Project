@@ -48,6 +48,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.monk-bishop
+use_note:
+  means: "Cassian reports that Archebius denied being fit for the episcopate and complained he had been expelled from the monastic life as unworthy after thirty-seven years."
+  not_for:
+    - "Archebius's own direct speech, when it is Cassian's indirect report"
+    - "a separate passage from gallic.quote.archebius-carried-off-to-panephysis, whose sentence already contains this parenthesis"
+    - "a claim that all monk-bishops felt their office as a loss"
+  years: {from: 426, to: 426}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "expelled from the monastic system"` returns line 36822; read with `sed -n '36805,36825p'`, inside

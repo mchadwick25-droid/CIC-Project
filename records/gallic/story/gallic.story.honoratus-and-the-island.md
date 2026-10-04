@@ -129,6 +129,15 @@ modern_contrast: >-
   serpents, a psalm carried in heart and mouth, and then the office that came for the man who had fled
   it. And it admits inside the south what Cassian refused in his own books - a wonder counted inter
   miracula ac merita - so that the refusal of wonder-stories was Cassian's, not the whole south's.
+use_note:
+  means: "Hilary of Arles preached that Honoratus went unafraid onto a serpent-shunned island carrying a psalm, the serpents gave way, and the priestly fillet fastened on its fugitive."
+  not_for:
+    - "daily life at Lerins, whose absence sits in gallic.limit.only-on-paper"
+    - "Honoratus's later episcopate at Arles as history, when the sermon is a disciple's eulogy that stops at the island"
+    - "an exact reading of Hilary's Latin, when the wording is rough OCR rendered only as far as it can be read"
+    - "Martin's election, which sits in gallic.story.election-at-tours"
+  years: {from: 429, to: 430}
+  status: reviewed
 ---
 Grounded in Hilary of Arles's Sermo de Vita Sancti Honorati (Migne PL 50, vendored file lines c.
 660-722, rough OCR); the disclosure of the wording's own Inferential-Thin status, the unrendered OCR

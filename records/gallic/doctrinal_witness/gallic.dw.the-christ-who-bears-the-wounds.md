@@ -107,6 +107,15 @@ relations:
   target: gallic.quote.martin-on-the-christ-with-wounds
 - type: associated-with
   target: gallic.quote.receiving-christ-in-you
+use_note:
+  means: "This witness says this world knew Jesus as the crucified one met in the poor, kept his death and rising at the hours, and preached grace drawing the unwilling."
+  not_for:
+    - "a Gallic treatise on the atonement, which no one in this world wrote"
+    - "the Christ with wounds as independently witnessed, when one author reports Martin's word"
+    - "the books read at the hours, which sit in gallic.limit.no-one-who-saw-him, or a reading of Scripture by Martin, which the witness lacks"
+    - "the question of Christ's divinity, which sits in gallic.dw.one-person-two-substances"
+  years: {from: 397, to: 426}
+  status: reviewed
 ---
 Closes C-I at the Answer-the-Canon step (inserted between B-7 and B-8),
 walking the cell's five canon questions in order - who he was, what he
