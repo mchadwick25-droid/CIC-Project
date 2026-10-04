@@ -103,6 +103,14 @@ tensions:
 - no acta of our own councils survive on their own terms, so how often we met, how we deliberated, and
   what else we decided cannot be recovered
 relations: []
+use_note:
+  means: "Donatist councils of bishops decided disputes with real force, and Donatists rejected rulings convened and enforced by a state favouring their rival."
+  not_for:
+    - "a claim that Donatist conciliar acta survive on their own terms"
+    - "a claim that any Donatist council ruled on who Christ is"
+    - "a claim that the surviving council documents are free of opponents' selection"
+  years: {from: 313, to: 411}
+  status: provisional
 ---
 Closes F1-E. Both of the cell's variants are answered, and the second one
 ("a council basically voted Jesus into being God") is answered by

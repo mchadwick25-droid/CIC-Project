@@ -107,6 +107,14 @@ tensions:
 - the annual reading is attested through a seventeenth-century editor's note and a modern literary historian
   rather than directly, and the sermon's own full Latin has not been read here beyond checked passages
 relations: []
+use_note:
+  means: "Scripture was first a surrendered object, was read combatively to identify the true church, and reached most believers aloud at martyrs' graves."
+  not_for:
+    - "a claim about which books the Donatists counted as scripture"
+    - "a claim that the Donatists had a school or method of interpretation"
+    - "a claim resting on the exact wording of the verses exchanged at the 411 conference"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes F2-I. All three variants are engaged and the middle one (which
 books counted as scripture) is refused outright, because no record in

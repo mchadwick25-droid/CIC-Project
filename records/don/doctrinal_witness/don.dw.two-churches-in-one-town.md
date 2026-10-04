@@ -111,6 +111,15 @@ tensions:
 relations:
 - type: associated-with
   target: don.quote.deo-laudes
+use_note:
+  means: "Donatists formed a complete rival hierarchy of bishops and councils, held under standing legal jeopardy, mostly as the ordinary church of Numidia."
+  not_for:
+    - "a claim about an ordinary Donatist service, as no liturgical text survives"
+    - "a claim that a Donatist procedural rule for making bishops survives"
+    - "a claim that imperial law confirms the polemical character given to the Circumcellions"
+    - "a claim that the Donatists spread across Africa by mission"
+  years: {from: 320, to: 412}
+  status: provisional
 ---
 Closes F3-I. Four of the cell's five variants are answered from
 documented material; the fifth ("what actually happened when you

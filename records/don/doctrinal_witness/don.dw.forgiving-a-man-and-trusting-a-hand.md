@@ -93,6 +93,14 @@ tensions:
   and none is supplied here
 - we left no rule for when a charge should stop being pressed, only two occasions on which it stopped
 relations: []
+use_note:
+  means: "The Donatist argument turned on whether a fallen bishop's hand could still give the sacraments, not on whether he was pardoned."
+  not_for:
+    - "a claim that a Donatist pastoral saying distinguished pardon from trust"
+    - "a claim about Donatist teaching on interior struggle or unanswered prayer"
+    - "a claim that the Donatists had a rule for when a charge should stop being pressed"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes F4-P. The cell's second variant ("how do I forgive someone who
 isn't sorry?") lands on this world's own nerve, and the answer is taken

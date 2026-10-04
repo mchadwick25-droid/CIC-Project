@@ -88,6 +88,13 @@ tensions:
 - nothing survives of what we thought about the violence in the scriptures, in either direction, and none
   is supplied here
 relations: []
+use_note:
+  means: "Donatists read scripture for a visible mark of the true church, finding it in the church the world hates."
+  not_for:
+    - "a claim about the whole community's habit of reading beyond the one 411 exchange"
+    - "a claim about what the Donatists thought of the violence in scripture"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes F2-P. The cell's first variant is answered from
 `don.story.conference-of-carthage-411`'s own reconstruction of Emeritus's

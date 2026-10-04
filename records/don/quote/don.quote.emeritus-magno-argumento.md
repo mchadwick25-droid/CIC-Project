@@ -51,5 +51,13 @@ modern_lens_note: 'A modern reader may hear a procedural objection like this as 
   keep hidden, not a distraction from it.'
 modern_rendering: Truth is hidden by a great argument. When, in response to our inquiry, only a small
   thing is brought forth from the other side, the rest is passed over in silence.
+use_note:
+  means: "At the 411 Carthage conference, Emeritus protested that truth was hidden while the other side withheld its envoys' names, rank and mandate."
+  not_for:
+    - "a claim that Emeritus was merely stalling to avoid the real question"
+    - "a claim about the outcome or scale of the whole 411 conference"
+    - "a claim resting on this Latin as a settled critical-edition text"
+  years: {from: 411, to: 411}
+  status: provisional
 ---
 Named directly in the Permanent Prompt's own Approved Source paragraph ('Emeritus of Caesarea's own plea before the tribunal at Carthage, that the truth was hidden by a great device'). This is the one quote record this script independently re-locates in the raw vendored file rather than only citing Doc_02's own prior finding of it, per this step's own discipline of re-opening a primary text directly wherever this build's own confidence rating depends on it.

@@ -105,6 +105,14 @@ tensions:
 - the condemnation of our dissenter carries our opponent's own hedge - it is reported, not witnessed -
   and we keep the hedge rather than smoothing it
 relations: []
+use_note:
+  means: "The Donatists left an unanswerable purity charge at Cirta to God, cut off Tyconius, and told visions in martyr texts as God's gift."
+  not_for:
+    - "a claim about the doubt or wavering of ordinary Donatist members"
+    - "a claim about what the bishops at Cirta thought they were doing, beyond Optatus's hostile telling"
+    - "a claim that the condemnation of Tyconius is directly witnessed rather than reported"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes F1-P. Three of the cell's four variants have real documented
 ground in this compilation, which is why this is a witness and not an

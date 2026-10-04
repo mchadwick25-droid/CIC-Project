@@ -103,6 +103,14 @@ tensions:
   infants; the record refuses to extend it
 - everything we can say about money among us is drawn from inquiries into its misuse
 relations: []
+use_note:
+  means: "Donatists counted the washing of those coming from the rival communion as a first baptism, a public act imperial law targeted."
+  not_for:
+    - "a claim that the Donatists baptized infants, or that they did not"
+    - "a claim about Donatist rules of giving or tithing"
+    - "a claim about Donatist teaching on the end of the world"
+  years: {from: 311, to: 412}
+  status: provisional
 ---
 Closes F4-T. The "born again" variant is answered from
 `don.term.rebaptism`, whose own framing supplies the answer's shape

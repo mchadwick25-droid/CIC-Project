@@ -88,6 +88,15 @@ tensions:
 - saying we wrote nothing about substitutionary atonement is a statement about a lost literature, not
   proof that nobody among us ever thought about it
 relations: []
+use_note:
+  means: "Donatists confessed the same Trinitarian faith as their Catholic rivals; the dispute was over who could rightly give the sacraments."
+  not_for:
+    - "a claim that the Donatists were heretics or held a different creed"
+    - "a claim about Donatist teaching on substitutionary atonement, for or against"
+    - "a claim that a Donatist creed survives as a separate document"
+    - "a claim that Donatists understood faith as a personal, private decision"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes C-T. The Trinity variant is answered flatly and positively because
 `don.core.donatism`'s own horizon states it outright ("This is not a

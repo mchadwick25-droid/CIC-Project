@@ -62,5 +62,14 @@ modern_lens_note: 'A modern reader may hear this as a general church-state-separ
   emperor''s machinery for its own advantage at three other named points across its own history, a qualification
   this record does not smooth away.'
 modern_rendering: What business does the emperor have with the church?
+use_note:
+  means: "Donatus, as reported by his opponent Optatus, denied the emperor any business in the church when imperial almoners came to Carthage."
+  not_for:
+    - "a claim that Donatus affirmed a general modern principle of church-state separation"
+    - "a claim that the Donatists never sought imperial help or judgment"
+    - "a claim that these words survive in Donatus's own hand or in a Donatist text"
+    - "a claim that the Council of Cirta shows Donatist rigor or resolve"
+  years: {from: 346, to: 348}
+  status: provisional
 ---
 Named directly in the Permanent Prompt's own Approved Source paragraph ('The retort Donatus himself is remembered to have given the emperor's own claim on the church'). Independently re-located this session at Optatus, Against the Donatists, Book III (line 1904) -- Optatus addresses the passage to Parmenian directly ('when they came to Donatus, your father...'), so the retort survives inside Optatus's own polemic against Donatus's own successor, not in Donatus's own hand. modern_rendering lightly modernizes Vassall-Phillips's own 1917 published translation, already close to plain modern English.

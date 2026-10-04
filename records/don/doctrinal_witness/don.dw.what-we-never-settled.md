@@ -109,6 +109,14 @@ tensions:
 relations:
 - type: associated-with
   target: don.quote.the-shores-are-covered
+use_note:
+  means: "Donatists suspended their own absolute rule at Bagai, left Cirta's purity question unanswered, and hushed a true charge against a bishop."
+  not_for:
+    - "a claim about the Donatists' own reasoning in any of these cases"
+    - "a claim that the Donatists described their own stance as a conviction held alongside an exception"
+    - "a claim that these failures are typical rather than preserved because opponents found them useful"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes F6-I, and this is the cell where this world is at its strongest -
 which is worth stating plainly, because the material that makes it strong

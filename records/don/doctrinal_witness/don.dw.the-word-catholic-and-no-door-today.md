@@ -100,6 +100,15 @@ tensions:
 - the absence of a documented descendant is a finding about the record rather than a demonstration that
   nothing survived
 relations: []
+use_note:
+  means: "Both African churches claimed the name catholic; imperial law gave it to the rival, and no traceable line of the Donatists survives today."
+  not_for:
+    - "a claim that any present-day church descends from the Donatists"
+    - "a claim that the absence of a documented descendant proves nothing survived"
+    - "a claim that the pun on catholicus is attested beyond a modern editor's annotation"
+    - "a claim that the Donatists treated rival bodies as parallel denominations"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Closes F3-T. The "is there a church today" variant is answered
 negatively and carefully: `don.core.donatism`'s own horizon states that

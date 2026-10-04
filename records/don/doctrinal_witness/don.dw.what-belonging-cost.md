@@ -127,6 +127,14 @@ tensions:
 relations:
 - type: associated-with
   target: don.story.passio-donati-sermon
+use_note:
+  means: "Belonging cost confiscation, exile, graded fines and sometimes death, while councils, letters and fixed commemorations held Donatists together."
+  not_for:
+    - "a claim that Donatist households were documented as split by the schism"
+    - "a claim that the legal record shows personal or family costs"
+    - "a claim resting on the commemorative sermon's family grief as a certified translation"
+  years: {from: 347, to: 412}
+  status: provisional
 ---
 Closes F5-P. The cell's first variant is answered from unusually clean
 evidence for this world: imperial legislation is non-adversarial in the

@@ -136,6 +136,15 @@ tensions:
 - everything hardest to admit here survives precisely because an opponent found it useful, so the record
   of our failures is better preserved than the record of anything else about us
 relations: []
+use_note:
+  means: "Donatist bishops hushed a true charge, and the movement used troops and anti-heretical law against its own breakaway party."
+  not_for:
+    - "a claim about the Donatists' own reasoning for the Bagai reception or the appeal to anti-heretical law"
+    - "a claim that the polemical portrait of Circumcellion conduct is established fact"
+    - "a claim about the baker's name, motive or fate"
+    - "a claim about what the Donatists did to pagan temples"
+  years: {from: 320, to: 403}
+  status: provisional
 ---
 Closes F3-P. All three variants are engaged and the answers deliberately
 run in different directions: accountability is admitted with a document

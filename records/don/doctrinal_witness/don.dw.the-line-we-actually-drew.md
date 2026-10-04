@@ -89,6 +89,14 @@ tensions:
 - a doctrine of sacramental nullity is easy to hear as a doctrine of damnation, and our own texts never
   make that step; the distinction is stated here rather than assumed
 relations: []
+use_note:
+  means: "Donatist exclusivity was aimed at the rival Christian communion and its sacraments, not at people outside the faith."
+  not_for:
+    - "a claim that the Donatists taught those baptized by the other party were damned"
+    - "a claim about Donatist views on whether Christianity is one way among many"
+    - "a claim about Donatist teaching on divorce and remarriage"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes F6-T. The cell's first two variants are answered by relocating the
 question: this communion's exclusivity is genuinely unusual in being

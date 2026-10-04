@@ -107,6 +107,14 @@ tensions:
 - our money record is a record of scandal, so it shows what money did among us and not what we taught
   about it
 relations: []
+use_note:
+  means: "What survives on Donatist money comes from inquiries into its misuse, where church property was called the goods of the poor."
+  not_for:
+    - "a claim that the Donatists were a social protest movement of the rural poor"
+    - "a claim about Donatist teaching on wealth beyond the court phrase 'the goods of the poor'"
+    - "a claim about Donatist marriage or weddings"
+  years: {from: 311, to: 412}
+  status: provisional
 ---
 Closes F5-T. The money variant is answered from
 `don.story.gesta-apud-zenophilum` and `don.story.lucilla-affair`, both of

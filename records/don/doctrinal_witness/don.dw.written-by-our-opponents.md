@@ -112,6 +112,14 @@ tensions:
 - the movement was for whole regions the numerically dominant church rather than an elite minority, so
   the silence of ordinary members is not a thin margin of the record but most of it
 relations: []
+use_note:
+  means: "Almost everything known of the Donatists was written by opponents; only a few texts and one two-word inscription speak as them."
+  not_for:
+    - "a claim that the martyr accounts should be weighed as reporting"
+    - "a claim that this self-assessment stands outside the corpus it describes"
+    - "a claim that the silence of ordinary members is a thin margin of the record"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes F2-E, the meta-honesty cell, and it is the cell this world's own
 `world_core` is best equipped to answer - `thinness` and `cautions`

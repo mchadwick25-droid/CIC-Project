@@ -97,6 +97,15 @@ tensions:
 - the two inquiries into who handed over the books survive because an opponent assembled and framed them
   as a dossier against us
 relations: []
+use_note:
+  means: "The Donatists traced themselves to the surrender of scripture under persecution and claimed descent through Cyprian's Carthage, not Rome."
+  not_for:
+    - "a claim about how the Donatists argued for the resurrection"
+    - "a claim that the Donatists appealed to eyewitness memory of Jesus"
+    - "a claim that the Abitinian martyr acts are cleanly Donatist"
+    - "a claim that the Donatist founding narrative reaches us unframed by an opponent"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes C-E. Answers the cell's three questions in the order asked and
 declines the third rather than filling it: the "how do you know the

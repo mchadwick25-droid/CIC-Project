@@ -162,6 +162,15 @@ relations:
   target: don.quote.petilian-conscience-of-the-giver
 - type: associated-with
   target: don.limit.bagai-violence-no-account
+use_note:
+  means: "Entry meant being washed on coming from the rival communion, counted as a first baptism, while discipline for wrongdoing followed no consistent rule."
+  not_for:
+    - "a claim about what undergoing the washing felt like to those who underwent it"
+    - "a claim that a Donatist liturgy, order of service, or rule of fasting survives"
+    - "a claim about the particulars of the forced-entry charges"
+    - "a claim that a surviving rule explains why some condemned clergy were received back and others not"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes F4-I. Two of the cell's five variants (how a person became one of
 us; how wrongdoing was handled and whether someone could return) are

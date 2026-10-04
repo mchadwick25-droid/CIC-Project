@@ -115,6 +115,15 @@ tensions:
 - our failures are the best-documented thing about us because opponents preserved what damaged us, which
   makes an honest answer here easier than an honest answer about almost anything else
 relations: []
+use_note:
+  means: "Donatist bishops' own letters hushed a true charge, leavers were treated inconsistently, and suffering was narrated rather than explained."
+  not_for:
+    - "a claim that any Donatist woman left a text or spoke in her own defence"
+    - "a claim about what Lucilla's authority cost her"
+    - "a claim that the Donatists worked out a teaching about suffering"
+    - "a claim about what the Donatists wished to tell the dissenter they cut off"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes F6-P. Five of the cell's six variants are answered from documented
 material; the sixth (a woman carrying authority, and what it cost her) is

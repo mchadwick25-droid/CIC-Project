@@ -95,6 +95,14 @@ tensions:
 relations:
 - type: associated-with
   target: don.quote.petilian-conscience-of-the-giver
+use_note:
+  means: "Coming to belong meant a public washing at the Donatist font, where the minister's conscience, not the comer's, was examined."
+  not_for:
+    - "a claim about what undergoing rebaptism felt like"
+    - "a claim that any ordinary Donatist left a statement of personal devotion"
+    - "a claim that the Donatist examination of the minister is a preserved pastoral saying"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes C-P. The cell's three variants get three different treatments on
 purpose. "How did you come to believe" is answered from the strongest

@@ -88,6 +88,14 @@ tensions:
 - nothing in our record traces any practice of ours past the middle of the third century, so an apostolic
   claim is not available to us even if we had wanted to make one
 relations: []
+use_note:
+  means: "Donatists claimed their rebaptism continued the African ruling of Cyprian's council of 256, not an unbroken apostolic custom."
+  not_for:
+    - "a claim that Donatists asserted an apostolic pedigree for their practice"
+    - "a claim that Cyprian broke communion over rebaptism"
+    - "a claim tracing any Donatist practice back before the mid-third century"
+  years: {from: 311, to: 411}
+  status: provisional
 ---
 Closes F4-E, the cell with a single question. The answer refuses the
 question's own framing rather than meeting it, because meeting it would
