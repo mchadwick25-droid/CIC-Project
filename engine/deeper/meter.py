@@ -6,9 +6,9 @@ than a day: the day a code was made and the week it was last used. It keeps
 the Stripe payment id, so a refund or dispute can void a code and a sponsor's
 batch can be voided in one step.
 
-Admission reserves an exchange before the voice speaks; settling spends it,
-releasing returns it. Reservations live in memory only, so a restart gives
-every in-flight reservation back and nobody pays for an exchange that never
+Admission reserves a turn's tokens before the voice speaks; settling spends them,
+releasing returns them. Reservations live in memory only, so a restart gives
+every in-flight reservation back and nobody pays for a turn that never
 finished. One process serves all traffic, so the lock below is the arbiter.
 """
 import logging
@@ -29,7 +29,7 @@ LIVE, SPENT, VOID = "live", "spent", "void"
 TALLY_FIELDS = ("payments_seen", "payments_minted", "payments_voided_first", "codes_minted", "refunds_applied", "partial_refunds_ignored")
 RECONCILE_RETENTION_DAYS = 90
 
-MAX_EXCHANGES_PER_CODE = 10_000
+MAX_TOKENS_PER_CODE = 1_000_000
 MAX_BATCH_COUNT = 1_000
 RETENTION_DAYS = 30
 
@@ -37,8 +37,8 @@ _SCHEMA = """
 CREATE TABLE IF NOT EXISTS meter (
     code_hash TEXT PRIMARY KEY,
     kind TEXT NOT NULL CHECK (kind IN ('single', 'batch', 'group')),
-    exchanges_total INTEGER NOT NULL CHECK (exchanges_total > 0),
-    exchanges_used INTEGER NOT NULL DEFAULT 0 CHECK (exchanges_used >= 0 AND exchanges_used <= exchanges_total),
+    tokens_total INTEGER NOT NULL CHECK (tokens_total > 0),
+    tokens_used INTEGER NOT NULL DEFAULT 0 CHECK (tokens_used >= 0 AND tokens_used <= tokens_total),
     payment_id TEXT NOT NULL,
     day_created TEXT NOT NULL,
     week_last_used TEXT,
@@ -82,17 +82,17 @@ class PaymentVoided(DeeperError):
 class CodeStatus:
     kind: str
     status: str
-    exchanges_total: int
-    exchanges_used: int
+    tokens_total: int
+    tokens_used: int
     daily_ceiling: int | None
 
     @property
     def remaining(self) -> int:
-        return 0 if self.status == VOID else self.exchanges_total - self.exchanges_used
+        return 0 if self.status == VOID else self.tokens_total - self.tokens_used
 
 
 class Reservation:
-    """One exchange held against a code. Carries the code's hash, never the code."""
+    """Tokens held against a code for one turn. Carries the code's hash, never the code."""
 
     __slots__ = ("code_hash", "day", "count", "done")
 
@@ -150,7 +150,7 @@ class Meter:
     def mint(
         self,
         kind: str,
-        exchanges: int,
+        tokens: int,
         payment_id: str,
         count: int = 1,
         *,
@@ -166,8 +166,8 @@ class Meter:
         reconciliation counts commit in the same transaction as its codes."""
         if kind not in KINDS:
             raise ValueError(f"unknown kind {kind!r}")
-        if not isinstance(exchanges, int) or not 0 < exchanges <= MAX_EXCHANGES_PER_CODE:
-            raise ValueError("exchanges out of range")
+        if not isinstance(tokens, int) or not 0 < tokens <= MAX_TOKENS_PER_CODE:
+            raise ValueError("tokens out of range")
         if not payment_id:
             raise ValueError("payment_id is required")
         if kind == "batch":
@@ -196,9 +196,9 @@ class Meter:
                 while len(made) < count:
                     code = prepared[len(made)] if prepared is not None else codes.generate()
                     inserted = self._conn.execute(
-                        "INSERT OR IGNORE INTO meter (code_hash, kind, exchanges_total, payment_id, day_created, daily_ceiling)"
+                        "INSERT OR IGNORE INTO meter (code_hash, kind, tokens_total, payment_id, day_created, daily_ceiling)"
                         " VALUES (?, ?, ?, ?, ?, ?)",
-                        (codes.hash_code(code), kind, exchanges, payment_id, today, ceiling),
+                        (codes.hash_code(code), kind, tokens, payment_id, today, ceiling),
                     ).rowcount
                     if inserted:
                         made.append(code)
@@ -214,12 +214,12 @@ class Meter:
             except BaseException:
                 self._conn.execute("ROLLBACK")
                 raise
-        logger.info("minted kind=%s codes=%d exchanges=%d", kind, len(made), exchanges)
+        logger.info("minted kind=%s codes=%d tokens=%d", kind, len(made), tokens)
         return made
 
     def _row(self, code_hash: str):
         return self._conn.execute(
-            "SELECT code_hash, kind, exchanges_total, exchanges_used, status, daily_ceiling FROM meter WHERE code_hash = ?",
+            "SELECT code_hash, kind, tokens_total, tokens_used, status, daily_ceiling FROM meter WHERE code_hash = ?",
             (code_hash,),
         ).fetchone()
 
@@ -245,10 +245,10 @@ class Meter:
             row = self._lookup(code)
         if row is None:
             return None
-        return CodeStatus(kind=row[1], status=row[4], exchanges_total=row[2], exchanges_used=row[3], daily_ceiling=row[5])
+        return CodeStatus(kind=row[1], status=row[4], tokens_total=row[2], tokens_used=row[3], daily_ceiling=row[5])
 
     def reserve(self, code: str | None, count: int = 1) -> Admission:
-        """Holds count exchanges (one for a solo turn, more for a Table round),
+        """Holds count tokens (what the turn would draw),
         or says why not. Reasons: paused, unknown, void, spent, insufficient
         (fewer than count remain), in_use (the rest are held by sittings in
         flight), daily_ceiling (a group code's day is full)."""
@@ -281,7 +281,7 @@ class Meter:
         return count if day == today else 0
 
     def settle(self, reservation: Reservation, ok: bool) -> int | None:
-        """Spends the held exchange when ok, returns it when not. Returns what
+        """Spends the held tokens when ok, returns it when not. Returns what
         the code has left, or None if the code was voided while held."""
         with self._lock:
             if reservation.done:
@@ -297,9 +297,9 @@ class Meter:
                 return None if row is None or row[4] == VOID else row[2] - row[3]
             today = self._clock()
             updated = self._conn.execute(
-                "UPDATE meter SET exchanges_used = exchanges_used + ?, week_last_used = ?,"
-                " status = CASE WHEN exchanges_used + ? >= exchanges_total THEN 'spent' ELSE status END"
-                " WHERE code_hash = ? AND status != 'void' AND exchanges_used + ? <= exchanges_total",
+                "UPDATE meter SET tokens_used = tokens_used + ?, week_last_used = ?,"
+                " status = CASE WHEN tokens_used + ? >= tokens_total THEN 'spent' ELSE status END"
+                " WHERE code_hash = ? AND status != 'void' AND tokens_used + ? <= tokens_total",
                 (reservation.count, week_of(today), reservation.count, reservation.code_hash, reservation.count),
             ).rowcount
             if not updated:

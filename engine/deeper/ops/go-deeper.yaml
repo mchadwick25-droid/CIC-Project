@@ -1,8 +1,7 @@
 limits:
-  group_daily_ceiling: 300
-  table_round_cost: 3
+  group_daily_ceiling: 6000
   group_burst_multiplier: 6
-  low_balance_at: 5
+  low_balance_at: 100
 tokens:
   solo:
     open: 50
