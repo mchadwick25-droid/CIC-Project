@@ -35,6 +35,13 @@ nearest_material:
 - pahc.witness.outside-our-community
 - pahc.limit.material-remains
 relations: []
+use_note:
+  means: "Most believers could not read and left no letters, so the surviving record is the voice of a few writers in the cities."
+  not_for:
+    - "a claim about what an ordinary village believer made of the teaching"
+    - "a claim about how the gospel traveled where no letters went"
+  years: {from: 70, to: 200}
+  status: reviewed
 ---
 This is one of three honest_limit records that share a common basis -
 see pahc.limit.enslaved-voices' trailing note. This record carries

@@ -23,6 +23,13 @@ held_against:
 concedes: "If Bagnall's own reading is wrong, or if Egyptian Christian communities existed within this window without leaving papyrological trace this survey could capture, the papyrological half of this exclusion's support would weaken - though the separate formation-logic distinction (Doc_01 SS8.2) and the Alexandrian tradition's own independently-dated later emergence (pahc.force.alexandria-emergence) would still stand on their own. This is named here as a load-bearing dependency on Bagnall specifically, per pahc.core.house-church's own caution 7's 'substantially' wording, not resolved - the exclusion is carried forward as this build's working scope, disclosed rather than defended as certain."
 divergence_partners:
 - pahc.force.alexandria-emergence
+use_note:
+  means: "Egypt and Alexandria sit outside this world's scope, mainly because one papyrological survey finds Egyptian Christian evidence essentially silent before Bishop Demetrius."
+  not_for:
+    - "documentary silence as proof that Egyptian Christianity did not exist"
+    - "a view resting on more than one scholar's survey"
+  years: {from: 70, to: 200}
+  status: reviewed
 ---
 Carries forward pahc.core.house-church's own caution 7 (EGYPT EXCLUDED)
 into participant-facing form. No pahc.source record exists for Bagnall's

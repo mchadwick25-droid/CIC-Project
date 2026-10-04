@@ -1,62 +1,59 @@
-"""The free day: what a visitor may draw each day without a code.
+"""The free allowance: what a visitor may draw without a code.
 
-One in-memory counter per visitor key and UTC day, in the same unit the meter
-counts. Admission reserves a turn's amount before the turn and settles it
-after, exactly as it does against a code, so a turn the Facilitator answers
-alone, a failed voice call and a failed stream draw nothing. A restart resets
-every visitor's day: this is a soft allowance, not a ledger, and it keeps no
-record of who drew what beyond the day's running number.
+A visitor's first draw starts a window (30 days in the operations file), and
+the window holds a fixed number of tokens in the unit the meter counts. When
+the window ends the next draw starts a new one: the refill rolls from a
+visitor's own first use, not the calendar. What a visitor has drawn is kept in
+the meter's file, so a restart or a deploy does not refill it. The row is keyed
+by a salted hash of the visitor key, holds a day and a number, and is deleted
+when its window ends.
+
+Admission reserves a turn's amount before the turn and settles it after, as it
+does against a code, so a turn the Facilitator answers alone, a failed voice
+call and a failed stream draw nothing. A reservation in flight is held in
+memory only; it is never spent until it settles.
 """
 import threading
-from datetime import date, datetime, timezone
-from typing import Callable
 
-MAX_VISITORS = 50_000
-
-
-def _utc_today() -> date:
-    return datetime.now(timezone.utc).date()
+from engine.deeper.meter import Meter
 
 
 class FreeReservation:
-    __slots__ = ("key", "day", "amount", "done")
+    __slots__ = ("key", "amount", "done")
 
-    def __init__(self, key: str, day: str, amount: int):
+    def __init__(self, key: str, amount: int):
         self.key = key
-        self.day = day
         self.amount = amount
         self.done = False
 
 
-class DailyFreeAllowance:
-    def __init__(self, daily_amount: int, clock: Callable[[], date] | None = None):
-        if daily_amount < 1:
-            raise ValueError("the free day must be at least 1")
-        self.daily_amount = daily_amount
-        self._clock = clock or _utc_today
-        self._used: dict[str, tuple[str, int]] = {}
+class FreeAllowance:
+    def __init__(self, meter: Meter, window_amount: int):
+        if window_amount < 1:
+            raise ValueError("the free allowance must be at least 1")
+        self.window_amount = window_amount
+        self._meter = meter
         self._held: dict[str, int] = {}
         self._lock = threading.Lock()
 
-    def _used_today(self, key: str, today: str) -> int:
-        day, used = self._used.get(key, (today, 0))
-        return used if day == today else 0
-
-    def remaining(self, key: str) -> int:
-        today = self._clock().isoformat()
+    def remaining(self, visitor: str) -> int:
+        key = self._meter.free_key(visitor)
         with self._lock:
-            return max(0, self.daily_amount - self._used_today(key, today) - self._held.get(key, 0))
+            return max(0, self.window_amount - self._meter.free_window_spent(key) - self._held.get(key, 0))
 
-    def reserve(self, key: str, amount: int) -> FreeReservation | None:
-        """Holds amount against today's allowance, or None when it does not fit."""
+    def reserve(self, visitor: str, amount: int, share: float = 1.0) -> FreeReservation | None:
+        """Holds amount against the visitor's window, or None when it does not fit.
+        share narrows the window: 0.5 lets a visitor draw half of it."""
         if amount < 1:
             raise ValueError("amount must be at least 1")
-        today = self._clock().isoformat()
+        if not 0 < share <= 1:
+            raise ValueError("share must be above 0 and at most 1")
+        key = self._meter.free_key(visitor)
         with self._lock:
-            if self._used_today(key, today) + self._held.get(key, 0) + amount > self.daily_amount:
+            if self._meter.free_window_spent(key) + self._held.get(key, 0) + amount > int(self.window_amount * share):
                 return None
             self._held[key] = self._held.get(key, 0) + amount
-            return FreeReservation(key, today, amount)
+            return FreeReservation(key, amount)
 
     def settle(self, reservation: FreeReservation, ok: bool) -> None:
         """Spends the held amount when ok, gives it back when not."""
@@ -69,11 +66,5 @@ class DailyFreeAllowance:
                 self._held[reservation.key] = held
             else:
                 self._held.pop(reservation.key, None)
-            if not ok:
-                return
-            used = self._used_today(reservation.key, reservation.day)
-            self._used[reservation.key] = (reservation.day, used + reservation.amount)
-            if len(self._used) > MAX_VISITORS:
-                stale = [k for k, (day, _) in self._used.items() if day != reservation.day]
-                for k in stale:
-                    del self._used[k]
+            if ok:
+                self._meter.free_window_spend(reservation.key, reservation.amount)
