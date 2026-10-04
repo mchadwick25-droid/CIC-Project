@@ -47,11 +47,5 @@ manifestations:
 - Geneva's own Consistory, founded 1541, fighting to stay independent of civil-council control
 - the Perrinist crisis (resolved 1555), the sharpest, most concentrated test of Geneva's own pole
 classification: tensional
-use_note:
-  means: "The two cities never agreed who holds the final word over church discipline: Zurich's council governed church and city as one, while Geneva's Consistory won independence only by 1555."
-  not_for:
-    - "a claim that Zurich and Geneva agreed on who governs church discipline"
-  years: {from: 1519, to: 1650}
-  status: reviewed
 ---
 `relations` mirrors the forces analysis's list of connected forces for this gravity. `sources` is empty on purpose: the gravity tests the tension against each pole's own institutional history (Zurich's council-led governance; Geneva's 1541 Ordinances and the Perrinist crisis), not against a quoted passage in a vendored primary text. Citing `rzg.source.ecclesiastical-ordinances-1541` here would present an unvendored source as licensing this record's claim.

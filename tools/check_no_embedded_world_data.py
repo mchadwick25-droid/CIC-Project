@@ -90,7 +90,7 @@ def main(argv: list[str] | None = None) -> int:
         for f in new_offenders:
             print(f"  {f}")
         print(
-            "\nParticipant-facing site data belongs in records/<code>/ (world_front), "
+            "\nParticipant-facing site data belongs in Build/worlds/<code>/surface/world_front/, "
             "compiled by engine.m2.site_compiler, fetched at runtime - not embedded "
             "directly in a page's own <script> block."
         )

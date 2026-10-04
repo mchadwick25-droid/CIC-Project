@@ -50,19 +50,53 @@ def parse_record_text(text: str, label: str) -> dict:
     return record
 
 
-def load_world_records(world_key: str, records_root: Path = RECORDS_ROOT) -> dict[str, dict]:
-    world_dir = records_root / world_key
-    records: dict[str, dict] = {}
-    for record_type_dir in sorted(p for p in world_dir.iterdir() if p.is_dir()):
-        for record_path in sorted(record_type_dir.glob("*.md")):
-            record = parse_record_file(record_path)
-            rid = record.get("id")
-            if not rid:
-                raise RecordParseError(f"{record_path}: record has no id")
-            if rid in records:
-                raise RecordParseError(f"duplicate record id {rid!r}: {record_path} and {records[rid]['_path']}")
-            records[rid] = record
+# A world's records outside records/<code>/: what the site and the
+# Facilitator read (Build/worlds/<code>/surface/) and the build's own search
+# log (Build/worlds/<code>/build/records/). Neither reaches a package.
+SURFACE_RECORD_TYPES = frozenset({"world_front", "facilitator_brief"})
+RESIDUE_RECORD_TYPES = frozenset({"search_record"})
+
+
+def world_record_homes(world_key: str, records_root: Path = RECORDS_ROOT) -> dict[str, Path]:
+    """Each home of a world's records by name: "world" (records/<code>/,
+    what the package carries), "surface" and "residue"."""
+    worlds = records_root.parent / "Build" / "worlds" / world_key
+    return {"world": records_root / world_key, "surface": worlds / "surface", "residue": worlds / "build" / "records"}
+
+
+def home_for_record_type(record_type: str | None) -> str:
+    if record_type in SURFACE_RECORD_TYPES:
+        return "surface"
+    if record_type in RESIDUE_RECORD_TYPES:
+        return "residue"
+    return "world"
+
+
+def _load_record_dirs(roots, records: dict[str, dict]) -> dict[str, dict]:
+    for root in roots:
+        if not root.is_dir():
+            continue
+        for record_type_dir in sorted(p for p in root.iterdir() if p.is_dir()):
+            for record_path in sorted(record_type_dir.glob("*.md")):
+                record = parse_record_file(record_path)
+                rid = record.get("id")
+                if not rid:
+                    raise RecordParseError(f"{record_path}: record has no id")
+                if rid in records:
+                    raise RecordParseError(f"duplicate record id {rid!r}: {record_path} and {records[rid]['_path']}")
+                records[rid] = record
     return records
+
+
+def load_world_records(world_key: str, records_root: Path = RECORDS_ROOT) -> dict[str, dict]:
+    """Every record of the world, from all its homes."""
+    return _load_record_dirs(world_record_homes(world_key, records_root).values(), {})
+
+
+def package_records(world_key: str, records: dict[str, dict], records_root: Path = RECORDS_ROOT) -> dict[str, dict]:
+    """The records that live in records/<code>/, the ones a package carries."""
+    world_dir = (records_root / world_key).resolve()
+    return {rid: r for rid, r in records.items() if (REPO_ROOT / r["_path"]).resolve().is_relative_to(world_dir)}
 
 
 # The fleet's own records, kept with the engine module that owns each kind:
@@ -80,13 +114,7 @@ def load_fleet_records() -> dict[str, dict]:
     """Every fleet record by id. Cached: the turn path reads it several
     times per message and the files never change in a running image, so
     callers treat the shared dict as read-only."""
-    records: dict[str, dict] = {}
-    for root in FLEET_RECORD_ROOTS:
-        for rid, record in load_world_records(root.name, records_root=root.parent).items():
-            if rid in records:
-                raise RecordParseError(f"duplicate record id {rid!r}: {record['_path']} and {records[rid]['_path']}")
-            records[rid] = record
-    return records
+    return _load_record_dirs(FLEET_RECORD_ROOTS, {})
 
 
 def voiced_records(records: dict) -> dict:

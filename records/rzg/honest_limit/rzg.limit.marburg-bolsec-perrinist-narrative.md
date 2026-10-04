@@ -48,11 +48,5 @@ nearest_material:
 - rzg.force.bolsec-controversy
 - rzg.force.perrinist-crisis
 - rzg.gravity.council-led-authority-vs-consistorial-independence
-use_note:
-  means: "The Marburg Colloquy, the Bolsec controversy and the Perrinist crisis are attested events, but the record holds no primary narrative of any of them."
-  not_for:
-    - "a claim that a detailed narrative of Marburg, Bolsec or the Perrinist crisis can be told from this record"
-  years: {from: 1529, to: 1555}
-  status: reviewed
 ---
 Celled to F1-E ('When belief was disputed, who had the right to decide -- and how do we know how that worked?') -- a strong, direct fit: Bolsec and the Perrinist crisis are both exactly this question (a predestination dispute; an authority dispute), and this record states honestly that the deciding is Documented as fact while the how-it-unfolded narrative is not. Distinguished from rzg.limit.ordinary-daily-practice (a population-scale absence) and from the already-built forces (which state each event as a Documented fact, register etic) -- this record's own limit is specifically the missing FIRST-PERSON NARRATIVE genre, not the underlying facts, which this world's own record does affirm. relations[] links to all three named forces (the specific events this limit names) -- reciprocal edges added directly to all three files after this script runs.

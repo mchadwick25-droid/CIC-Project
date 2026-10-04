@@ -51,11 +51,5 @@ text: 'By 1549, a quiet worry had spread among people who respected both our own
 modern_contrast: 'A modern reader might expect two theologians to settle a doctrinal question by letter,
   or through delegates. Calvin''s own account states plainly that he judged the matter too important for
   that: he made the journey himself, in person, with a colleague at his side.'
-use_note:
-  means: "In 1549, because others doubted that Geneva's and Zurich's teaching on the sacraments agreed, Calvin travelled to Zurich himself with Farel, and their conference there became the Consensus Tigurinus."
-  not_for:
-    - "a claim that the Consensus was reached without Calvin's in-person conference at Zurich"
-  years: {from: 1549, to: 1549}
-  status: reviewed
 ---
 Built from Story-Chunks/rzgstory002_calvins-journey-to-zurich.md (Approved to proceed). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person register; tellable_as further compresses that into a single spoken-register sentence, a genuinely separate authored field, not a duplicate. modern_contrast draws on the chunk's own Formation Ecology Connection (a specific human journey behind an abstract doctrinal convergence).

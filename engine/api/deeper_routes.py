@@ -31,6 +31,8 @@ from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
 from engine.deeper.config import DeeperConfig
 from engine.deeper.meter import KINDS, AlreadyMinted, Meter, PaymentVoided
+from engine.deeper.free import DailyFreeAllowance
+from engine.deeper.tokens import TokenRates
 
 logger = logging.getLogger("cic.deeper")
 
@@ -52,7 +54,7 @@ class DeeperConfigError(Exception):
 @dataclass(frozen=True)
 class Product:
     kind: str
-    exchanges: int
+    tokens: int
     count: int = 1
     daily_ceiling: int | None = None
 
@@ -86,15 +88,20 @@ class DeeperRuntime:
     site_origin: str | None = None
     miss_delay_seconds: float = MISS_DELAY_SECONDS
     clock: Callable[[], float] = field(default=time.time)
-    table_round_cost: int = field(default_factory=lambda: load_ops().table_round_cost)
+    token_rates: TokenRates = field(default_factory=lambda: load_ops().rates)
     group_burst_multiplier: int = field(default_factory=lambda: load_ops().group_burst_multiplier)
     ops: DeeperOps | None = None
     facilitator_only_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
     paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
+    free: DailyFreeAllowance | None = None
+
+    def __post_init__(self):
+        if self.free is None:
+            self.free = DailyFreeAllowance(self.token_rates.free_daily)
 
 
 def parse_products(raw: str | None) -> dict[str, Product]:
-    """CIC_DEEPER_PRODUCTS: {"<payment link id>": {"kind", "exchanges", "count"?, "daily_ceiling"?}}."""
+    """CIC_DEEPER_PRODUCTS: {"<payment link id>": {"kind", "tokens", "count"?, "daily_ceiling"?}}."""
     if not raw:
         return {}
     try:
@@ -107,13 +114,13 @@ def parse_products(raw: str | None) -> dict[str, Product]:
     for link, spec in data.items():
         try:
             product = Product(
-                kind=spec["kind"], exchanges=int(spec["exchanges"]), count=int(spec.get("count", 1)),
+                kind=spec["kind"], tokens=int(spec["tokens"]), count=int(spec.get("count", 1)),
                 daily_ceiling=int(spec["daily_ceiling"]) if spec.get("daily_ceiling") is not None else None,
             )
         except (KeyError, TypeError, ValueError) as exc:
             raise DeeperConfigError(f"CIC_DEEPER_PRODUCTS entry {link!r} is malformed: {exc!r}") from exc
-        if product.kind not in KINDS or product.exchanges <= 0 or product.count <= 0:
-            raise DeeperConfigError(f"CIC_DEEPER_PRODUCTS entry {link!r} has an invalid kind, exchanges or count")
+        if product.kind not in KINDS or product.tokens <= 0 or product.count <= 0:
+            raise DeeperConfigError(f"CIC_DEEPER_PRODUCTS entry {link!r} has an invalid kind, tokens or count")
         if product.kind != "batch" and product.count != 1:
             raise DeeperConfigError(f"CIC_DEEPER_PRODUCTS entry {link!r}: only a batch makes more than one code")
         products[link] = product
@@ -214,7 +221,7 @@ def _mint_for(runtime: DeeperRuntime, session: dict, product: Product) -> str:
             return "unmatched_claim_conflict"
         made_claim = True
     try:
-        meter.mint(product.kind, product.exchanges, payment, product.count, daily_ceiling=product.daily_ceiling, prepared=prepared)
+        meter.mint(product.kind, product.tokens, payment, product.count, daily_ceiling=product.daily_ceiling, prepared=prepared)
     except AlreadyMinted:
         return "replayed"
     except PaymentVoided:
@@ -239,7 +246,7 @@ class ClaimRequest(BaseModel):
 
 class ClaimResponse(BaseModel):
     codes: list[str]
-    exchanges: int
+    tokens: int
 
 
 class BalanceResponse(BaseModel):
@@ -342,7 +349,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         info = await run_in_threadpool(runtime.meter.status, made[0]) if made else None
         if info is None or info.status == "void":
             await _miss(404, "no codes yet")
-        return ClaimResponse(codes=[codes.display(c) for c in made], exchanges=info.exchanges_total)
+        return ClaimResponse(codes=[codes.display(c) for c in made], tokens=info.tokens_total)
 
     @app.get("/api/deeper/balance", response_model=BalanceResponse)
     async def balance(request: Request):
@@ -366,10 +373,16 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
 
 def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None) -> DeeperRuntime:
     """The runtime for a deploy with the flag on. A missing webhook secret
-    refuses to start rather than leaving the webhook open."""
+    refuses to start rather than leaving the webhook open, and so does a
+    deploy without the visitor cap, which the free day depends on."""
     secret = env.get("CIC_DEEPER_WEBHOOK_SECRET")
     if not secret:
         raise DeeperConfigError("CIC_DEEPER_ENABLED is on but CIC_DEEPER_WEBHOOK_SECRET is unset")
+    if env.get("CIC_API_ANON_CAP_ENABLED", "") not in ("1", "true", "yes"):
+        raise DeeperConfigError(
+            "CIC_DEEPER_ENABLED is on but CIC_API_ANON_CAP_ENABLED is off: the free day is kept per visitor, "
+            "and without the visitor cookie everyone behind one address would share it"
+        )
     ops = ops or load_ops()
     return DeeperRuntime(
         meter=Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling),
@@ -377,7 +390,7 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None)
         webhook_secret=secret,
         products=parse_products(env.get("CIC_DEEPER_PRODUCTS")),
         site_origin=env.get("CIC_DEEPER_SITE_ORIGIN") or None,
-        table_round_cost=ops.table_round_cost,
+        token_rates=ops.rates,
         group_burst_multiplier=ops.group_burst_multiplier,
         ops=ops,
     )

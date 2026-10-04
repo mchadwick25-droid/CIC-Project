@@ -26,12 +26,5 @@ modern_lens_note: 'A modern reader may assume church discipline was always a cle
   founder''s own words say otherwise: laypeople hold real standing in it.'
 modern_rendering: Seniors, chosen from the people, unite with the bishops. They pronounce censures
   and exercise discipline.
-use_note:
-  means: "Calvin reads Paul's governors as seniors chosen from the people who join the bishops in pronouncing censures and exercising discipline."
-  not_for:
-    - "a claim that church discipline in this world was a clergy-only affair"
-    - "a claim that these lay seniors exercised discipline apart from the bishops"
-  years: {from: 1559, to: 1559}
-  status: reviewed
 ---
 Independently re-verified, character-exact, against the vendored file this session, matching the already-established locus this world's own reviewed documents already cite for this exact quotation - not a fresh citation this script invents.

@@ -9,7 +9,7 @@ than what has already been done and settled.
 
 ## world_front record build — 2026-09-19/20
 
-**Record built:** `records/alx/world_front/alx.front.alexandria-catechetical.md`
+**Record built:** `Build/worlds/alx/surface/world_front/alx.front.alexandria-catechetical.md`
 (`skim`, `orientation`, and `narrative` only; `facilitator_brief` is a
 separate, later record this pass did not build). The fourth world in the
 fleet-wide `world_front` rollout, following the two-world pilot

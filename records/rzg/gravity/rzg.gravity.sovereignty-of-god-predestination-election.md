@@ -61,12 +61,5 @@ manifestations:
 - the Bolsec controversy (1551), where this doctrine was tested as a live pastoral question before the
   whole Geneva congregation
 classification: primary
-use_note:
-  means: "God's free choice before the world existed determines who is saved, held as the ground of a settled life, with true faith as the only evidence of election given."
-  not_for:
-    - "a claim that election rests on anything foreseen or earned in the one chosen"
-    - "a claim that the doctrine was held as a threat"
-  years: {from: 1527, to: 1650}
-  status: reviewed
 ---
 Built from Doc_04_Gravity_Discovery.md SS3 (Approved to proceed, Revision 2), carrying that document's own classification and reasoning directly. `relations` mirrors Doc_08 Section 5's own 'Connected forces' list for this gravity exactly, per that document's own explicit caution against force-fitting a connection its own words do not support.

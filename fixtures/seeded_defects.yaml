@@ -270,7 +270,7 @@ defects:
     gate: quote-mark-fidelity
     layer: M1
     note: "mirrors the real, already-shipped defect this gate exists to catch (commits fbb6557, 763c48d, 2026-09-19 - a tradition page rendered a clause in quotation marks that the records themselves declare unquotable). fix.quote.identity-collision-saying's own modern_rendering ('We never asked who you'd been before...') is what fix.front.fixture-synthetic's own clean tile already quotes (see that record's own body note); this mutation swaps in the same quote's archaic `text` field instead - Apparatus/Level-3-only, never quotable on a participant-facing surface, per Mark's standing quote ruling."
-    target_record: records/fix/world_front/fix.front.fixture-synthetic.md
+    target_record: Build/worlds/fix/surface/world_front/fix.front.fixture-synthetic.md
     mutation: {op: set_field, path: "skim.tile.text", value: "Testland's own record speaks for itself: \"We did not ask what a person had been before the water. We asked only what they carried after it.\""}
     expected_failure: "quotation-mark span matches fix.quote.identity-collision-saying's own `text` field verbatim - `text` is Apparatus/Level-3-only; the quoted form must come from `modern_rendering` (Mark's standing quote ruling)"
 
@@ -282,6 +282,12 @@ defects:
     mutation: {op: set_field, path: text, value: "I did not see him. I only saw what his enemies could not stop telling."}
     expected_failure: "\"enemies\" for \"witnesses\" is a substituted word, not an allowed difference class (whitespace/case/punctuation/ellipsis/bracket/verse_number/apparatus) - verify_quote_text fails the segment"
 
+  - id: record-home-search-record-in-old-place
+    gate: record-home
+    layer: M1
+    target_record: Build/worlds/fix/build/records/search_record/fix.search.lost-letters-search.md
+    mutation: {op: set_field, path: _path, value: records/fix/search_record/fix.search.lost-letters-search.md}
+    expected_failure: "a search record lives in Build/worlds/<code>/build/records/, not records/<code>/"
   - id: use-note-missing
     gate: use-note-present
     layer: M1

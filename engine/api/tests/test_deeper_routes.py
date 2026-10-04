@@ -166,7 +166,7 @@ def test_a_paid_checkout_mints_one_code_the_page_can_claim(http, runtime):
     got = claim(http)
     assert got.status_code == 200
     body = got.json()
-    assert body["exchanges"] == 25 and len(body["codes"]) == 1
+    assert body["tokens"] == 25 and len(body["codes"]) == 1
     assert runtime.meter.verify(body["codes"][0])
     assert runtime.meter.status(body["codes"][0]).remaining == 25
 
@@ -195,7 +195,7 @@ def test_a_replay_after_the_claim_expired_leaves_no_dead_claim(http, runtime):
 def test_a_sponsor_batch_gives_every_code_the_full_balance(http, runtime):
     post_event(http, completed(payment="pi_200", link=LINK_SPONSOR, reference="sponsor-reference-0001"))
     body = claim(http, "sponsor-reference-0001").json()
-    assert len(set(body["codes"])) == 3 and body["exchanges"] == 10
+    assert len(set(body["codes"])) == 3 and body["tokens"] == 10
     assert all(runtime.meter.status(c).remaining == 10 for c in body["codes"])
     (day,) = runtime.meter.reconciliation()
     assert day["codes_minted"] == 3 and day["payments_minted"] == 1
@@ -451,7 +451,7 @@ def test_no_code_reference_or_hash_reaches_the_logs(http, runtime, caplog):
 # ---- startup -----------------------------------------------------------------
 
 def test_parse_products_reads_the_deploy_setting():
-    parsed = parse_products(json.dumps({"p1": {"kind": "batch", "exchanges": 5, "count": 4}, "p2": {"kind": "group", "exchanges": 80, "daily_ceiling": 40}}))
+    parsed = parse_products(json.dumps({"p1": {"kind": "batch", "tokens": 5, "count": 4}, "p2": {"kind": "group", "tokens": 80, "daily_ceiling": 40}}))
     assert parsed["p1"] == Product("batch", 5, 4)
     assert parsed["p2"] == Product("group", 80, 1, 40)
     assert parse_products(None) == {} and parse_products("") == {}
@@ -459,8 +459,8 @@ def test_parse_products_reads_the_deploy_setting():
 
 @pytest.mark.parametrize(
     "raw",
-    ["not json", "[1]", json.dumps({"p": {"kind": "pack", "exchanges": 5}}), json.dumps({"p": {"kind": "single"}}),
-     json.dumps({"p": {"kind": "single", "exchanges": 0}}), json.dumps({"p": {"kind": "single", "exchanges": 5, "count": 2}})],
+    ["not json", "[1]", json.dumps({"p": {"kind": "pack", "tokens": 5}}), json.dumps({"p": {"kind": "single"}}),
+     json.dumps({"p": {"kind": "single", "tokens": 0}}), json.dumps({"p": {"kind": "single", "tokens": 5, "count": 2}})],
 )
 def test_parse_products_refuses_a_bad_setting(raw):
     with pytest.raises(DeeperConfigError):
@@ -471,10 +471,22 @@ def test_the_flag_on_refuses_to_start_without_a_webhook_secret(tmp_path):
     config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
     with pytest.raises(DeeperConfigError):
         deeper_routes.build_runtime(config, {})
-    runtime = deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_DEEPER_SITE_ORIGIN": "https://site.example"})
+    runtime = deeper_routes.build_runtime(
+        config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_DEEPER_SITE_ORIGIN": "https://site.example", "CIC_API_ANON_CAP_ENABLED": "1"}
+    )
     assert runtime.site_origin == "https://site.example" and runtime.products == {}
     runtime.meter.close()
     runtime.claims.close()
+
+
+@pytest.mark.parametrize("flag", [None, "", "0", "no"])
+def test_the_flag_on_refuses_to_start_without_the_visitor_cap(tmp_path, flag):
+    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
+    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET}
+    if flag is not None:
+        env["CIC_API_ANON_CAP_ENABLED"] = flag
+    with pytest.raises(DeeperConfigError):
+        deeper_routes.build_runtime(config, env)
 
 
 def test_the_config_defaults_to_the_data_directory(monkeypatch, tmp_path):

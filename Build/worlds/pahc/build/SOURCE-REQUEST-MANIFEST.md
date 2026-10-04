@@ -4,7 +4,7 @@
 **Produced at:** per-world build step 2, Source ecology (spec §4.3.2), 2026-08-21
 **For:** Mark, in his operational source-acquisition role (Build-Blueprint §7)
 **Scope authority:** Step 0 and Doc_01 (approved 2026-07-07) — settled, not restated here. Six primary voices (Didache, 1 Clement, Ignatius middle recension, Polycarp's Philippians, Hermas, Justin), plus the Martyrdom of Polycarp (P16) and four outside witnesses (Pliny, Tacitus, Suetonius, Lucian). The Pastorals are excluded from the Native base per Doc_02 §1.7; Egypt is excluded per Doc_01 §3 (the Bagnall dependency, carried at full flag strength).
-**Search basis:** every entry grounded in a search recorded in `records/pahc/search_record/` — including the two searches that came back empty, which shape the quote set more than any found-search does.
+**Search basis:** every entry grounded in a search recorded in `Build/worlds/pahc/build/records/search_record/` — including the two searches that came back empty, which shape the quote set more than any found-search does.
 
 ---
 
