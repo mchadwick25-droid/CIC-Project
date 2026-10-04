@@ -46,5 +46,13 @@ text: What did we never settle? Two things, honestly. Who holds the final word o
   own founder's earlier word called it chiefly a remembrance; both our cities signed a fuller word together
   in 1549. Whether that later word deepens the first or only restates it more carefully, we do not claim
   to know. We hold both unresolved, because that is what our own record actually shows.
+use_note:
+  means: "We never settled who holds final authority over church discipline, nor whether the 1549 Supper formula deepens or merely restates Zwingli's."
+  not_for:
+    - "a claim that Zurich and Geneva agreed on who holds final authority over discipline"
+    - "a claim that either city conceded the discipline question to the other"
+    - "a claim that the 1549 Consensus settled the Supper by superseding Zwingli's earlier reading"
+  years: {from: 1523, to: 1555}
+  status: reviewed
 ---
 Grounded in rzg.gravity.council-led-authority-vs-consistorial-independence (T1) and rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus (T2), both already-classified Tensional gravities -- stated here for the first time in first-person witness voice rather than the gravity records' own etic classification. Closes F6-I directly ('What did your people never settle?' / 'hardest true thing').

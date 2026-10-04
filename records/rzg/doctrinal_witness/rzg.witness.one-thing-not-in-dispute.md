@@ -48,5 +48,13 @@ text: 'Who was Jesus to us? On that question itself, we say what the whole churc
   send you searching your own heart for proof of it. Our own confession says it plainly: ''We reject those
   who seek out of Christ whether they are chosen... Let... Christ be the mirror in which we behold [our]
   predestination.'''
+use_note:
+  means: "We share the church's inherited teaching on Christ; what is ours is God's free election, assured by looking to Christ, not oneself."
+  not_for:
+    - "a claim that Zurich or Geneva taught a distinctive Christology"
+    - "a claim that election rests on anything foreseen or earned in the one chosen"
+    - "a claim that election doctrine sent believers searching themselves for proof"
+  years: {from: 1566, to: 1566}
+  status: reviewed
 ---
 Grounded in rzg.gravity.sovereignty-of-god-predestination-election's own description and rzg.quote.christ-the-mirror-of-election's own already-verified text (Second Helvetic Confession, ch. X, lines 667, 684-685), quoted here character-for-character, including its own ellipsis marks and bracketed [our], exactly as that record's own already-verified text field states it -- not spliced, paraphrased, or presented as continuous unbroken speech: the confession's own two sentences, 17 lines apart, are quoted exactly as the already-verified quote record discloses them, with the same ellipsis marking the gap, never blended into one continuous sentence. Closes C-I ('Who was Jesus, to you and your people?' / 'What is the good news?' / 'What did his death mean to you?' / resurrection), leading with the same honest disclosure don's own analogous C-I record uses: this world's core Christology is the shared, inherited orthodox one, not a distinctive claim this record should manufacture.

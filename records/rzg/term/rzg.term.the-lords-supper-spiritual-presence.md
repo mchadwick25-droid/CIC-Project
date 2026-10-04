@@ -77,6 +77,13 @@ quick_meaning: Our own sharpest boundary marker. No repeated sacrifice. No body 
   real internal difference, and a 1549 deal, we hold that Christ is truly given by the Spirit - not merely
   remembered, and not physically present.
 distortion_risk: medium
+use_note:
+  means: "The cities refuse both a repeated sacrifice and Christ's body sitting physically in the bread, affirming that Christ is truly given by the Spirit to believing recipients."
+  not_for:
+    - "a claim that the dispute over the Supper was a minor technicality"
+    - "a claim that the bread is merely symbolic, as modern habit assumes"
+  years: {from: 1519, to: 1650}
+  status: reviewed
 ---
 Built from Lexicon-Chunks/rzglex007_the-lords-supper-spiritual-presence.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /

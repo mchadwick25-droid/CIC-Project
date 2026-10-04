@@ -29,5 +29,12 @@ modern_rendering: The articles and opinions below, I, Ulrich Zwingli, confess to
   worthy city of Zurich. They are based on the Scriptures, which are called inspired by God. Where I
   have not now correctly understood these Scriptures, I will allow myself to be taught better. I will
   accept that correction only from these Scriptures themselves.
+use_note:
+  means: "Zwingli rests his preached articles on Scripture and will accept correction only from Scripture itself."
+  not_for:
+    - "a claim that Zwingli's offer was false modesty before a debate already decided"
+    - "a claim that Scripture alone meant each believer deciding doctrine privately"
+  years: {from: 1523, to: 1523}
+  status: reviewed
 ---
 Independently re-verified, character-exact, against the vendored file this session, matching the already-established locus this world's own reviewed documents already cite for this exact quotation - not a fresh citation this script invents.
