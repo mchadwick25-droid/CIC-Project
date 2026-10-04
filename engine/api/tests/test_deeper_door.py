@@ -1,5 +1,6 @@
 """The door's spend: what the usage log says the last seven days cost, at the
 approved prices, and a monitor that keeps its last state when it cannot tell."""
+import json
 import sqlite3
 from datetime import datetime, timedelta, timezone
 
@@ -94,10 +95,12 @@ class Clock:
         return self.now
 
 
-def make_monitor(usage_store, funds=None, clock=None, refresh=60.0):
+def make_monitor(usage_store, funds=None, clock=None, refresh=60.0, meter=None):
     return DoorMonitor(
         load_ops().door, usage_store, funds or (lambda: {"gift": 0, "purchase": 0, "adjustment": 0}),
         clock=lambda: NOW, monotonic=clock or Clock(), refresh_seconds=refresh,
+        load=(lambda: meter.get_state(deeper_door.STATE_KEY)) if meter else None,
+        save=(lambda raw: meter.set_state(deeper_door.STATE_KEY, raw)) if meter else None,
     )
 
 
@@ -163,8 +166,90 @@ def test_a_fault_keeps_the_last_state_and_never_opens_what_had_closed(usage_stor
     assert monitor.state() == closed
 
 
-def test_a_fault_before_the_first_state_leaves_the_door_open(usage_store):
+def test_a_fault_before_any_state_was_ever_worked_out_leaves_the_door_open(usage_store):
     def funds():
         raise RuntimeError("meter down")
 
     assert make_monitor(usage_store, funds=funds).state() == door_module.OPEN
+
+
+# ---- the last good state survives a restart -------------------------------------------
+
+@pytest.fixture
+def meter(tmp_path):
+    from engine.deeper.meter import Meter
+
+    m = Meter(str(tmp_path / "meter.db"))
+    yield m
+    m.close()
+
+
+def test_a_closed_stage_is_kept_and_a_restart_during_a_fault_does_not_reopen_it(usage_store, meter):
+    heavy(usage_store, 60)
+    first = make_monitor(usage_store, meter=meter)
+    closed = first.state()
+    assert not closed.free_voice and closed.stage > 0
+
+    class Broken:
+        def read_since(self, _since):
+            raise RuntimeError("usage log down")
+
+    restarted = DoorMonitor(
+        load_ops().door, Broken(), lambda: {"gift": 0, "purchase": 0, "adjustment": 0},
+        clock=lambda: NOW, monotonic=Clock(),
+        load=lambda: meter.get_state(deeper_door.STATE_KEY), save=lambda raw: meter.set_state(deeper_door.STATE_KEY, raw),
+    )
+    again = restarted.state()
+    assert (again.stage, again.free_voice, again.paid_voice, again.table_free_rounds, again.solo_free_rounds, again.free_day_share) == (
+        closed.stage, closed.free_voice, closed.paid_voice, closed.table_free_rounds, closed.solo_free_rounds, closed.free_day_share,
+    )
+
+
+def test_a_good_state_later_replaces_the_kept_one(usage_store, meter):
+    heavy(usage_store, 60)
+    clock = Clock()
+    funds = {"gift": 0, "purchase": 0, "adjustment": 0}
+    monitor = make_monitor(usage_store, funds=lambda: dict(funds), clock=clock, meter=meter)
+    assert monitor.state().stage > 0
+    funds["gift"] = 50_000_000
+    clock.now += 61
+    assert monitor.state().stage == 0
+
+    def down():
+        raise RuntimeError("meter down")
+
+    assert make_monitor(usage_store, funds=down, meter=meter).state().stage == 0
+
+
+def test_the_state_is_written_only_when_it_changes(usage_store):
+    heavy(usage_store, 60)
+    writes = []
+    clock = Clock()
+    monitor = DoorMonitor(
+        load_ops().door, usage_store, lambda: {"gift": 0, "purchase": 0, "adjustment": 0},
+        clock=lambda: NOW, monotonic=clock, refresh_seconds=60.0,
+        load=lambda: None, save=lambda raw: writes.append(raw),
+    )
+    for _ in range(4):
+        monitor.state()
+        clock.now += 61
+    assert len(writes) == 1
+
+
+@pytest.mark.parametrize("raw", ["not json", "[1]", json.dumps({"stage": "x"}), json.dumps({"nope": 1}), ""])
+def test_a_kept_state_that_cannot_be_read_starts_the_door_open(usage_store, meter, raw):
+    meter.set_state(deeper_door.STATE_KEY, raw)
+
+    def funds():
+        raise RuntimeError("down")
+
+    assert make_monitor(usage_store, funds=funds, meter=meter).state() == door_module.OPEN
+
+
+def test_the_kept_state_holds_no_key_and_nothing_finer_than_a_stage(usage_store, meter):
+    heavy(usage_store, 60)
+    make_monitor(usage_store, meter=meter).state()
+    kept = json.loads(meter.get_state(deeper_door.STATE_KEY))
+    assert set(kept) == {
+        "stage", "ratio", "ceiling_usd", "table_free_rounds", "solo_free_rounds", "free_day_share", "free_voice", "paid_voice",
+    }

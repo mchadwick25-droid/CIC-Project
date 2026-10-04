@@ -7,9 +7,13 @@ door's own arithmetic, in engine.deeper.door, takes only the two numbers.
 A call that ran on a model with no approved price is counted at the dearest
 approved price rather than left out, so an unpriced model can only make the
 door narrower. If the state cannot be worked out, the last good state stands:
-a fault never opens what had closed. Before the first good state the door is
-open; the Console spending ceiling is the backstop for that moment.
+a fault never opens what had closed. The last good state is kept in the meter's
+state table whenever it changes and read back at startup, so a restart during a
+fault does not open the door either. Only an install that has never worked a
+state out starts open.
 """
+import dataclasses
+import json
 import logging
 import time
 from datetime import datetime, timedelta, timezone
@@ -26,6 +30,7 @@ logger = logging.getLogger("cic.deeper")
 
 WINDOW_DAYS = 7
 REFRESH_SECONDS = 60.0
+STATE_KEY = "door"
 
 _APPROVED = (
     price_tables.SONNET_4_5_PRICE_TABLE,
@@ -55,6 +60,29 @@ def week_spend_usd(usage_store: UsageLogStore, now: datetime) -> float:
     return total
 
 
+def _same_stage(a: DoorState, b: DoorState) -> bool:
+    return dataclasses.replace(a, ratio=0.0, ceiling_usd=0.0) == dataclasses.replace(b, ratio=0.0, ceiling_usd=0.0)
+
+
+def _encode(state: DoorState) -> str:
+    return json.dumps(dataclasses.asdict(state))
+
+
+def _decode(raw: str | None) -> DoorState | None:
+    """The state kept last, or None when nothing usable is kept."""
+    if not raw:
+        return None
+    try:
+        values = json.loads(raw)
+        state = DoorState(**values)
+        if not (isinstance(state.stage, int) and isinstance(state.free_voice, bool) and isinstance(state.paid_voice, bool)):
+            return None
+        return state
+    except (ValueError, TypeError):
+        logger.error("the door's kept state could not be read; starting open")
+        return None
+
+
 class DoorMonitor:
     """The door's current state, refreshed at most once a minute."""
 
@@ -67,6 +95,8 @@ class DoorMonitor:
         clock: Callable[[], datetime] | None = None,
         monotonic: Callable[[], float] = time.monotonic,
         refresh_seconds: float = REFRESH_SECONDS,
+        load: Callable[[], str | None] | None = None,
+        save: Callable[[str], None] | None = None,
     ):
         self._settings = settings
         self._usage_store = usage_store
@@ -74,7 +104,10 @@ class DoorMonitor:
         self._clock = clock or (lambda: datetime.now(timezone.utc))
         self._monotonic = monotonic
         self._refresh = refresh_seconds
-        self._state: DoorState = door_module.OPEN
+        self._save = save
+        kept = _decode(load()) if load is not None else None
+        self._state: DoorState = kept or door_module.OPEN
+        self._kept: DoorState | None = kept
         self._computed_at: float | None = None
 
     def state(self) -> DoorState:
@@ -92,4 +125,17 @@ class DoorMonitor:
             logger.warning("door moved from stage %d to stage %d (ratio %.2f)", self._state.stage, fresh.stage, fresh.ratio)
         self._state = fresh
         self._computed_at = now
+        self._keep(fresh)
         return fresh
+
+    def _keep(self, state: DoorState) -> None:
+        """Writes the state when its stage or what it narrows has changed, never every minute."""
+        if self._save is None:
+            return
+        if self._kept is not None and _same_stage(state, self._kept):
+            return
+        try:
+            self._save(_encode(state))
+            self._kept = state
+        except Exception:  # noqa: BLE001 - the door still works from memory
+            logger.exception("the door's state could not be kept")

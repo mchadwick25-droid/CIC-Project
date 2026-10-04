@@ -357,6 +357,18 @@ class Meter:
             )
         logger.warning("codes %s", "paused" if on else "unpaused")
 
+    def set_state(self, key: str, value: str) -> None:
+        """Keeps one named value that must survive a restart (the pause, the door's last stage)."""
+        with self._lock:
+            self._conn.execute(
+                "INSERT INTO state (key, value) VALUES (?, ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value", (key, value)
+            )
+
+    def get_state(self, key: str) -> str | None:
+        with self._lock:
+            row = self._conn.execute("SELECT value FROM state WHERE key = ?", (key,)).fetchone()
+        return row[0] if row else None
+
     def is_paused(self) -> bool:
         with self._lock:
             row = self._conn.execute("SELECT value FROM state WHERE key = 'paused'").fetchone()
