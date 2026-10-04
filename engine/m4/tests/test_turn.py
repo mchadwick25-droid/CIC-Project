@@ -697,10 +697,9 @@ def test_the_word_in_the_message_does_not_bridge_a_world_it_is_not_anachronistic
     assert result.routing_action == "voice_with_directive"
 
 
-def test_the_gate_payload_shows_which_path_found_a_modern_term():
-    """The resolved list goes in the event, not the raw one: reader_term_id
-    and source are how an auditor sees which path found a term and what the
-    model called it before code renamed it."""
+def test_the_gate_payload_lists_the_modern_terms_the_dictionary_scan_found():
+    """Modern terms come from the dictionary scan of the message alone; what
+    the reader calls a term does not rename or add to it."""
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"),
         reader_response=_reader(modern_terms=[{"term_id": "trinity_doctrine", "display": "the Trinity"}]),
@@ -709,7 +708,7 @@ def test_the_gate_payload_shows_which_path_found_a_modern_term():
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="How did your community understand the Trinity?", pressed={}, anachronistic_term_ids=set())
     terms = result.gate["modern_terms"]
     assert [t["term_id"] for t in terms] == ["_fleet.modern.trinity"]
-    assert terms[0]["reader_term_id"] == "trinity_doctrine"
+    assert terms[0]["source"] == "message_scan"
 
 
 def test_a_failed_reader_is_visible_in_the_gate_payload():
@@ -1226,20 +1225,17 @@ def test_r27_enforce_passes_a_grounded_frame_sentence_inside_a_cited_paragraph_w
     assert voice_event["paragraph_offenses"] == []
 
 
-# sentence_enforce's own required test list - a second, independent
-# flag-gated enforcement from the uncited-claims enforcement above.
-# sentence_enforce=False (every existing test, including all of that
-# enforcement's own above) is already proven byte-identical by the full
-# suite passing unchanged;
-# these are the flag-ON cases. "Athanasius of Alexandria opposed the
-# council." is the fixture's own unsupported sentence throughout: _world()'s
-# only record never names either word, so engine.m4.sentence_fact_check.
-# find_unsupported_named_claims flags it regardless of citation tag.
+# sentence_enforce: "Athanasius of Alexandria opposed the council." is the
+# fixture's unsupported sentence throughout. _world()'s only record names
+# neither word, so engine.m4.sentence_fact_check.find_unsupported_named_claims
+# flags it whatever its citation tag.
 _UNSUPPORTED_SENTENCE = "Athanasius of Alexandria opposed the council."
 _GROUNDED_SENTENCE = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."
 
 
-def test_sentence_enforce_off_by_default_leaves_the_flag_report_only():
+def test_sentence_enforce_off_by_default_runs_no_live_fact_check():
+    """With both enforcement switches off the live turn acts on no fact
+    check, so it runs none; engine.m7.offline_checks runs it over the log."""
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[[_UNSUPPORTED_SENTENCE]],
@@ -1249,8 +1245,8 @@ def test_sentence_enforce_off_by_default_leaves_the_flag_report_only():
         participant_message="who was Jesus", directive=None, session_id="test-session",
     )
     assert len(client.messages.captured_stream_calls) == 1  # never regenerated - the flag is off
-    assert voice_event["text"] == _UNSUPPORTED_SENTENCE  # nothing edited, report-only
-    assert voice_event["fact_check_flags"] and voice_event["fact_check_flags"][0]["sentence"] == _UNSUPPORTED_SENTENCE
+    assert voice_event["text"] == _UNSUPPORTED_SENTENCE  # nothing edited
+    assert "fact_check_flags" not in voice_event
     assert voice_event["sentence_enforcement"] == {
         "flagged": [], "regenerated": False, "still_flagged": [], "sentences_dropped": [],
     }

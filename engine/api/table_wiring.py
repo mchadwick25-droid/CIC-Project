@@ -990,12 +990,10 @@ def _advance_open_round(
     events.validate("voice_turn", voice_event)
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="voice_turn", payload=voice_event)
 
-    # Uncited-claims check, report-only: same
-    # out_of_scope_class the caller already read off the opening gate_decision
-    # (or, on a continue, the round's last one) - not re-derived here. A
-    # voice_event with no "uncited_claims" key (a Facilitator-authored
-    # fallback never runs find_uncited_claims) is treated as clean, same as
-    # an empty list.
+    # Uncited-claims event: out_of_scope_class is the one the caller read off
+    # the opening gate_decision (or, on a continue, the round's last one). A
+    # voice_event without the check's keys (a Facilitator-authored fallback,
+    # or a turn run with enforcement off) writes no event.
     uncited_event = build_uncited_claims_event(
         voice_event,
         registry=registry,
