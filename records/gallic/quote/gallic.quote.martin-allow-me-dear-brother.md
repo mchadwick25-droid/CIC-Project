@@ -56,7 +56,7 @@ use_note:
     - "an eyewitness account, when Sulpitius relies on those present"
     - "the prayer about remaining necessary to his people, which sits in gallic.quote.martin-disciples-plea-and-his-reply"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "fix my looks rather on heaven"` returns line 2471. Read in context at lines 2468-2473: "And on being

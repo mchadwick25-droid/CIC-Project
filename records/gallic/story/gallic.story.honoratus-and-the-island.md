@@ -137,7 +137,7 @@ use_note:
     - "an exact reading of Hilary's Latin, when the wording is rough OCR rendered only as far as it can be read"
     - "Martin's election, which sits in gallic.story.election-at-tours"
   years: {from: 429, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Grounded in Hilary of Arles's Sermo de Vita Sancti Honorati (Migne PL 50, vendored file lines c.
 660-722, rough OCR); the disclosure of the wording's own Inferential-Thin status, the unrendered OCR

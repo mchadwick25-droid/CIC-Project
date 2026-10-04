@@ -119,7 +119,7 @@ use_note:
     - "the public discipline for a fault, which sits in gallic.term.penance-satisfaction"
     - "a widely attested northern term, when the one Tours use rests on a translator's word choice"
   years: {from: 404, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 040 (Tier 2, promoted from Doc_03's Tier 3 on Doc_05 §8's weighting; chunk
 galliclex040_compunction.md; Doc_03 4.8). Register emic. Quotations verified at locus by the build's

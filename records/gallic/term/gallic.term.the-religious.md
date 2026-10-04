@@ -89,7 +89,7 @@ use_note:
     - "the monk seen from inside, which sits in gallic.term.monk-solitary"
     - "a grace teaching, for which Salvian's text is not licensed"
   years: {from: 439, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 071 (`galliclex071_the-religious.md`, Tier 3, tags SC RT DR; Doc_03
 1.13). Kept thin at the Tier-3 floor; the DR tag (the adjective-of-piety hearing) is carried as

@@ -132,7 +132,7 @@ use_note:
     - "the act of leaving, which sits in gallic.term.renunciation"
     - "the Roman province and its ruin, which sit in gallic.term.gaul and gallic.term.government-of-god"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 022 (Tier 2; chunk galliclex022_the-world-secular.md; Doc_03 1.12). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Row 25 (De

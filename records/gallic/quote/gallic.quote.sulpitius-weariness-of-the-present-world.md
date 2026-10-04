@@ -57,7 +57,7 @@ use_note:
     - "Vincent's stated expectation of judgment, which sits in gallic.quote.vincent-awful-expectation-of-judgment"
     - "a mood shared by every Gallic ascetic"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "After you had departed"` returns line 2148; `grep -n "rendered me worn and miserable"` returns

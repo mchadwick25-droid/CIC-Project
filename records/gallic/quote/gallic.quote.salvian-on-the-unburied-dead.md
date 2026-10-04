@@ -71,7 +71,7 @@ use_note:
     - "the circus petition, which sits in gallic.quote.salvian-on-the-demand-for-circuses"
     - "a lament for the dead, when Salvian uses them as an indictment of the living"
   years: {from: 439, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Verified against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n "three times
 destroyed"` returns one hit, line 8242; `grep -n "torn and naked"` returns one hit, line 8255-8256;

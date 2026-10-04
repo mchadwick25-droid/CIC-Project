@@ -53,7 +53,7 @@ use_note:
     - "a teaching about food alone, when the fault named is obstinacy against tradition"
     - "a record of Benjamin's later life beyond this one report"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "relied on his own judgment"` returns one hit, line 28108, inside `<div4 title="Chapter XXIV. Of the

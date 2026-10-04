@@ -115,7 +115,7 @@ use_note:
     - "the Conferences as Cassian's own systematic theology"
     - "Vincent's collatio etymology of Symbolum, a different matter"
   years: {from: 415, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 028 (Tier 2; chunk galliclex028_conference.md; Doc_03 3.5). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The Latin-lemma trap

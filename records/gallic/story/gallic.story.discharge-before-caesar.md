@@ -120,7 +120,7 @@ use_note:
     - "the editors' identification of Julian and Worms as the text's own"
     - "a general Christian refusal of military service, when it is one saint's act"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 The ancient text's own "Julian Caesar" and "the city of the Vaugiones" are kept, not Roberts's
 editorial identification of the city as Worms.

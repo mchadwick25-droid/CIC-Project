@@ -130,7 +130,7 @@ use_note:
     - "monastic poverty or renunciation, which sits in gallic.term.renunciation"
     - "a Salvian view of the grace controversy, for which his text is not licensed"
   years: {from: 439, to: 450}
-  status: provisional
+  status: reviewed
 ---
 This term is not part of the original 81-term Doc_06 lexicon batch. Built directly
 from a direct read of Gov. V.4-6 (not secondhand from

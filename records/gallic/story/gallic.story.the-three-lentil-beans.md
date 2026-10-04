@@ -110,7 +110,7 @@ use_note:
     - "the sanction of suspension from prayer as doctrine, which sits in gallic.term.penance-satisfaction"
     - "a Gallic house's practice, when it describes the coenobia of the East"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 The setting is stated as Cassian himself states it - the coenobia of the East, not Egypt specifically.
 Illustrates gallic.gravity.interior-road (the reversal of accountability for matter between the two

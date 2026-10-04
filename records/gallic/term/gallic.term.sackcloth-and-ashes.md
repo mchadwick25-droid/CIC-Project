@@ -115,7 +115,7 @@ use_note:
     - "the monk's dress as a system, which sits in gallic.term.the-monks-dress"
     - "penance for a fault, which sits in gallic.term.penance-satisfaction"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 065 (`galliclex065_sackcloth-and-ashes.md`, Tier 2, tags SC DR PV;
 Doc_03 8.5), promoted from Tier 3 at Doc_06 section 2.4 as the ecology's second-best-documented

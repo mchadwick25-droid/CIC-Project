@@ -66,7 +66,7 @@ use_note:
     - "the courtyard tirade and Martin's restraint, which sit in gallic.quote.brictio-tirade-and-martins-restraint"
     - "Martin's saying as a verbatim transcript rather than words a narrator reports him repeating"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "And
 then the holy man explained"` returns line 5330; `grep -n "Brictio?"` returns line 5339, the chapter's

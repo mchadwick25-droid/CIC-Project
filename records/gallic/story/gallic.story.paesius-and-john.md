@@ -95,7 +95,7 @@ use_note:
     - "the doctrine of the eight faults as a system, which sits in gallic.term.eight-principal-faults"
     - "the desert as such, when it is an Egyptian saying received in Gaul"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Converted from the approved Doc_09 chunk gallicstory010_paesius-and-john.md (Tier 2, Marseilles
 node, received Egyptian material, Registry row 7). The quotation is carried verbatim including "said he";

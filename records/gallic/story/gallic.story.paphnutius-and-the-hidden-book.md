@@ -138,7 +138,7 @@ use_note:
     - "a Gallic event, when it is Piamun's Egyptian tale carried by Cassian"
     - "the exact words of the speakers, when Cassian's dialogue speeches are reconstructions"
   years: {from: 426, to: 435}
-  status: provisional
+  status: reviewed
 ---
 No separate figure records exist for Paphnutius, Piamun, or Isidore in this world's build: each appears
 only in this one story and is fully carried by it.

@@ -138,7 +138,7 @@ use_note:
     - "the discharge scene itself, which sits in gallic.story.discharge-before-caesar"
     - "the word's lexicon entry, which sits in gallic.term.soldier-of-christ"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus, John
 Cassian, Vincent of Lérins). This description paraphrases the primary sources in its own voice;

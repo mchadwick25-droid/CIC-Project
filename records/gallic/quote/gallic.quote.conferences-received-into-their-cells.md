@@ -69,7 +69,7 @@ use_note:
     - "a claim that Egyptian elders physically came to Gaul"
     - "a well-trodden anchorite path in Gaul, when Cassian calls the way almost unknown there"
   years: {from: 426, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "receiving into their cells the authors"` returns line 42316; read with `sed -n '42300,42326p'`,

@@ -89,7 +89,7 @@ use_note:
     - "the rule the book states, which sits in gallic.term.the-rule"
     - "the faith held in trust, which sits in gallic.term.the-deposit"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 079 (`galliclex079_commonitory-peregrinus.md`, Tier 3, tags AS TC;
 Doc_03 7.13). Kept thin at the Tier-3 floor; the memory content is carried by the rule and the

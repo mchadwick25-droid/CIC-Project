@@ -59,7 +59,7 @@ use_note:
     - "ordinary deathbed practice among Gallic Christians rather than one saint's example"
     - "the rebuke of the devil and the witnesses' report, which sit in gallic.quote.martin-rebukes-the-devil-and-dies"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "I
 have sinned if I leave you a different example"` returns line 2466. Read in context at lines

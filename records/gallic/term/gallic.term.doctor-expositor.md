@@ -91,7 +91,7 @@ use_note:
     - "the Fathers as received authority in general, which sits in gallic.term.the-fathers-elders"
     - "the monastic master, which sits in gallic.term.disciple-master"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 077 (`galliclex077_doctor-expositor.md`, Tier 3, tags SC TC; Doc_03
 7.7). Kept thin at the Tier-3 floor.

@@ -130,8 +130,8 @@ use_note:
     - "the rhetoric of a militant crusading Christianity"
     - "actual Roman military service as such"
     - "the numbered combat with the faults, which sits in gallic.term.combat-athlete"
-  years: {from: 397, to: 434}
-  status: provisional
+  years: {from: 397, to: 426}
+  status: reviewed
 ---
 Built from Doc_06 entry 002 (Tier 1; chunk galliclex002_soldier-of-christ.md; Doc_03 2.1). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read by this conversion pass.

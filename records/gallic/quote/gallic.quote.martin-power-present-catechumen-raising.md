@@ -58,7 +58,7 @@ use_note:
     - "the whole raising narrative, which sits in gallic.quote.martin-raises-the-catechumen"
     - "a verified miracle rather than the hagiographer's account of one"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "perceiving by"` returns line 995; `grep -n "he then rose up for a little"` returns line 998.

@@ -142,7 +142,7 @@ use_note:
     - "a survey of the whole city, when it is one presbyter's eyewitness indictment"
     - "Trier as named by Salvian, when the identification is his translator's"
   years: {from: 439, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Built from a direct read of Salvian's On the Government of God, VI.13 and VI.15. Deliberately does not
 claim this episode establishes the broader "ordinary Christians skip church for games" pattern

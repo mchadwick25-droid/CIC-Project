@@ -76,7 +76,7 @@ use_note:
     - "the cloak at Amiens, which sits in gallic.quote.the-cloak-divided-and-the-vision-of-christ"
     - "the discharge from the army, which sits in gallic.quote.martin-refuses-the-donative"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "generally
 acting the part of servant"` returns one hit, line 732; `grep -n "not so much as being a soldier as a

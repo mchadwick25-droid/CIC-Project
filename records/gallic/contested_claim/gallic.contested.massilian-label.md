@@ -129,7 +129,7 @@ use_note:
     - "the term's meaning, which sits in gallic.term.massilians"
     - "Faustus's later De gratia as this world's own voice, when its prologue falls after the window"
   years: {from: 426, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Unparked from Doc_06 section 3's own [CT] tagging - Contest Type "Application to this world" - of chunks
 008 (grace), 009 (free will), 044 (predestination), and 074 (Massilians): "whether 'semi-Pelagian' ...

@@ -123,7 +123,7 @@ use_note:
     - "the persons who hand down, which sit in gallic.term.the-fathers-elders"
     - "the formulated test, which sits in gallic.term.the-rule"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 027 (Tier 2; chunk galliclex027_tradition.md; Doc_03 3.4). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cells F2-T and

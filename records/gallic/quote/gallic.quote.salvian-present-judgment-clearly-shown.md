@@ -50,7 +50,7 @@ use_note:
     - "a judgment still to come, when Salvian calls it present"
     - "Vincent's expectation of coming judgment, which sits in gallic.quote.vincent-awful-expectation-of-judgment"
   years: {from: 439, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n
 "present judgment of God was clearly shown"` returns line 9010; read with `sed -n '8998,9011p'`.

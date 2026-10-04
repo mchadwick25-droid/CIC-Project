@@ -130,7 +130,7 @@ use_note:
     - "later canonical procedure for episcopal election"
     - "Martin's reluctance as proven fact, a claim contested in gallic.contested.election-as-capture"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 The cross-node pairing with gallic.story.bishop-archebius and gallic.story.honoratus-and-the-island,
 declared as story-to-story relations above, is a finding of the construction - the three capture

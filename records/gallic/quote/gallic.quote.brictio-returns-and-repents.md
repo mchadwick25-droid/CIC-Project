@@ -56,7 +56,7 @@ use_note:
     - "the demon's role as established fact, when Gallus offers it as his belief"
     - "the tirade itself, which sits in gallic.quote.brictio-tirade-and-martins-restraint"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "But
 with rapid steps"` returns line 5323; `grep -n "forgive the suppliant"` returns line 5330. Read with `sed

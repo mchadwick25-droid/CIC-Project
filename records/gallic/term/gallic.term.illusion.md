@@ -125,7 +125,7 @@ use_note:
     - "the faculty that detects it, which sits in gallic.term.discretion"
     - "the content of Conference XXII, which is absent from the vendored English"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 052 (`galliclex052_illusion.md`, Tier 2, tags SC DR TC; Doc_03 6.7). The
 Conf. XXII excision (Registry row 11) is this term's own coverage limit and is cited as a source

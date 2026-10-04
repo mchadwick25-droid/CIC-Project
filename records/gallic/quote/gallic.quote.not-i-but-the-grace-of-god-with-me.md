@@ -57,7 +57,7 @@ use_note:
     - "an argument in the later grace controversy rather than a practical habit of speech"
     - "evidence that Cassian taught grace alone without effort"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Not I, but the grace of God"` returns line 25041; `grep -n "worketh in us both to will"` returns

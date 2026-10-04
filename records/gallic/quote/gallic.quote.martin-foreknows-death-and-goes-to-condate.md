@@ -64,7 +64,7 @@ use_note:
     - "corroborated fact about the foreknowledge, which rests on Sulpitius alone"
     - "the deathbed scene, which sits in gallic.quote.martin-disciples-plea-and-his-reply"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "was aware of the period of his own death"` returns line 2380, opening the paragraph at

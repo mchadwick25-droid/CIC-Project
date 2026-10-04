@@ -62,7 +62,7 @@ use_note:
     - "a checked survey of all the East rather than Cassian's own generalization"
     - "the three lentils incident, which sits in gallic.quote.three-lentils-and-the-lords-things"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "Mesopotamia, Palestine"` returns one hit, line 19173. The chapter div is `<div4 title="Chapter

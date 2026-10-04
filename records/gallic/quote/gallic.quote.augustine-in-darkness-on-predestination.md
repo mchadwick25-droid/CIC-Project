@@ -55,7 +55,7 @@ use_note:
     - "Chaeremon's teaching on grace, which sits in gallic.quote.chaeremon-three-stages-of-grace"
     - "a condemnation of the brethren as heretics"
   years: {from: 428, to: 429}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml. `grep -n "For as
 yet they are in darkness"` returns line 20836; read with `sed -n '20828,20838p'`, inside `<div3

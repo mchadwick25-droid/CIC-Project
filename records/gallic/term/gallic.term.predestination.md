@@ -106,7 +106,7 @@ use_note:
     - "the grace teaching itself, which sits in gallic.term.grace"
     - "Augustine's own doctrine, for which his treatises are context only"
   years: {from: 426, to: 429}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 044 (`galliclex044_predestination.md`, Tier 2, tags SC TC DR CT; Doc_03
 5.5). The chunk's CT Contest Type (Application to this world) is carried into

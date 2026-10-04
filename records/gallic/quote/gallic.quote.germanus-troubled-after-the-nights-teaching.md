@@ -70,7 +70,7 @@ use_note:
     - "Chaeremon's answer, which sits in gallic.quote.germanus-and-chaeremon-on-the-husbandman"
     - "a reply to Augustine, when Cassian presents it as a monk's felt scruple"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "Chæremon"` locates Conference

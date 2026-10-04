@@ -54,7 +54,7 @@ use_note:
     - "Cassian's soldier-of-Christ opening, which sits in gallic.quote.institutes-opening-soldier-of-christ"
     - "a neutral history rather than an exemplary life written to form its readers"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "shall be roused to the pursuit of true"` returns line 597; read with `sed -n '592,599p'`, inside

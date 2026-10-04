@@ -65,7 +65,7 @@ use_note:
     - "the shining face and white limbs as Martin's own claim rather than the onlookers' report"
     - "the refusal of straw on the deathbed, which sits in gallic.quote.martin-sackcloth-and-ashes-reply"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Abraham's bosom is about to receive me"` returns line 2476; `grep -n "enveloped with ashes"` returns

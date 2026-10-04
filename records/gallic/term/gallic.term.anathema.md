@@ -82,7 +82,7 @@ use_note:
     - "the question of who counts as a heretic, which sits in gallic.term.heretic-heresy"
     - "the withholding of fellowship as such, which sits in gallic.term.communion"
   years: {from: 404, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 078 (`galliclex078_anathema.md`, Tier 3, tags SC TC; Doc_03 7.9). Kept
 thin at the Tier-3 floor.

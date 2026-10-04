@@ -118,7 +118,7 @@ use_note:
     - "the gravity itself, which sits in gallic.gravity.egypt-as-measure"
     - "a documented exchange between north and south, when the two literatures never cite each other"
   years: {from: 404, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Unparked, not invented. The contested content sits in Doc_04's own record of G2: the Author Gravity
 flag "split-mode risk - the receptive mode is Cassian's, the comparative mode is Sulpitius's ... confirmed

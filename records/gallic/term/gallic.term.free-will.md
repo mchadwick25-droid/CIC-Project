@@ -145,7 +145,7 @@ use_note:
     - "grace as such, which sits in gallic.term.grace"
     - "a Tours teaching, whose literature does not raise the matter"
   years: {from: 415, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 009 (Tier 1, [CT] Meaning and Application; chunk galliclex009_free-will.md;
 Doc_03 5.2). Register emic. Quotations verified at locus by the build's own Doc_06 pass (including the

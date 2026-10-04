@@ -51,7 +51,7 @@ use_note:
     - "a claim that Martin rejected bishops or the episcopate as such"
     - "a date for the Treves affair computed from Gallus's sixteen years"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "kept carefully aloof"` returns one hit, line 5218, inside `<div4 title="Chapter XIII." ...

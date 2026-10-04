@@ -146,7 +146,7 @@ use_note:
     - "bishops in general, when it concerns bishops who were monks"
     - "the quarrel with bishops and synods at Tours, which sits in gallic.gravity.authority-ambivalence"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 DECLARED ABSENCE: no demonstrated relationship with G10 (judgment). Doc_04 gives no pair-specific
 reasoning for this cell beyond reading G10's row as the thinnest in the matrix (four "-" cells);

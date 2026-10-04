@@ -55,7 +55,7 @@ use_note:
     - "a separate passage from gallic.quote.archebius-carried-off-to-panephysis, whose sentence already contains this parenthesis"
     - "a claim that all monk-bishops felt their office as a loss"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "expelled from the monastic system"` returns line 36822; read with `sed -n '36805,36825p'`, inside

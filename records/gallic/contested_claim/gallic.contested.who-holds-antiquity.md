@@ -131,7 +131,7 @@ use_note:
     - "the rule's later career in Anglican, Roman Catholic and Orthodox argument"
     - "the rule itself, which sits in gallic.term.the-rule"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Unparked from Doc_06 section 3's own [CT] tagging of chunk 011 (the rule) - Contest Type "Historical
 scope: whether the rule was ever applied as broadly or uniformly as its later use claims, and whether

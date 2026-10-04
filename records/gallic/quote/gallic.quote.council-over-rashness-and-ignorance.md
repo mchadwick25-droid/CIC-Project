@@ -50,7 +50,7 @@ use_note:
     - "the threefold everywhere-always-by-all test, which sits in gallic.quote.believed-everywhere-always-by-all"
     - "a view shared by the Tours tradition, whose withdrawal from synods sits in gallic.quote.aloof-from-assemblies-of-bishops"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "rashness and ignorance"` returns one hit, line 12220, inside `<div2 title="Chapter III. What is to

@@ -119,7 +119,7 @@ use_note:
     - "accidie in particular, which sits in gallic.term.accidie"
     - "the combat idiom as such, which sits in gallic.term.combat-athlete"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 037 (Tier 2; chunk galliclex037_eight-principal-faults.md; Doc_03 4.5).
 Register emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The

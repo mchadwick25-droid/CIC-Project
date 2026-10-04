@@ -112,7 +112,7 @@ use_note:
     - "the act of giving things up, which sits in gallic.term.renunciation"
     - "the mission to the countryside, which sits in gallic.term.heathen-rustics"
   years: {from: 397, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 020 (Tier 2; chunk galliclex020_conversion.md; Doc_03 1.10, carrying Doc_04
 §2.2's sense-disambiguation item). Register emic. Quotations verified at locus by the build's own

@@ -130,7 +130,7 @@ use_note:
     - "the Fathers as the source of teaching, which sits in gallic.term.the-fathers-elders"
     - "the bishop's office, which sits in gallic.term.monk-bishop"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 017 (Tier 2, on §2.5's list; chunk
 galliclex017_elder-senior-abbot.md; Doc_03 1.7). Register emic. Quotations verified at locus by the

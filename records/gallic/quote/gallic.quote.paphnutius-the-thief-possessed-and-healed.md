@@ -77,7 +77,7 @@ use_note:
     - "Isidore's healing gift as unreliable, when the passage says it had never failed before"
     - "Paphnutius's penance, which sits in gallic.quote.paphnutius-asks-for-a-plan-of-repentance"
   years: {from: 426, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "He,
 Who is the witness"` returns line 43058; `grep -n "from whose credit he had thought"` returns line

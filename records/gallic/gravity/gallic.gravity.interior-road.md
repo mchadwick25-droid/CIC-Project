@@ -123,7 +123,7 @@ use_note:
     - "the south's teaching on chastity, since Conferences XII and XXII are absent from the vendored English"
     - "the list of faults as psychology, when the faults themselves sit in gallic.term.eight-principal-faults"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G7 -> §3 G7 -> §8 row G7; Supporting).
 Interaction Matrix (Doc_04 §4, row/col G7) - no '-' cell, so no absence is declared: reinforcing (R)

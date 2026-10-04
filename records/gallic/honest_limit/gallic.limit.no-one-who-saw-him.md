@@ -89,7 +89,7 @@ use_note:
     - "the content of Cassian's seven books against Nestorius, which is unread"
     - "a chain of witnesses, when the world's floor stands more than three centuries after the events"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Closes C-E at the Answer-the-Canon step (inserted between B-7 and B-8)
 as a genuine, declared absence rather than a strained dw. The cell's

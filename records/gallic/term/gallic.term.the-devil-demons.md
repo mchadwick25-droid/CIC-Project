@@ -136,7 +136,7 @@ use_note:
     - "exorcism as a practice, which sits in gallic.term.possessed-exorcism"
     - "the devil's false appearances, which sit in gallic.term.illusion"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 050 (`galliclex050_the-devil-demons.md`, Tier 2, tags SC DR RT; Doc_03
 6.4). Pruned from Doc_03's Tier-1 estimate at Doc_06 section 2.3 (the object of the warfare, not a

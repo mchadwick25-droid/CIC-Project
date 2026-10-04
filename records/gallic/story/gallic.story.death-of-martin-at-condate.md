@@ -161,7 +161,7 @@ use_note:
     - "the later cult of Martin at Tours, which lies outside the window"
     - "the south's teaching on death or judgment, which sits in gallic.term.fear-hope-love"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Sourced from Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii), Sulpitius Severus's
 own account of Martin's death at Condate and burial, written within months of the event. This record

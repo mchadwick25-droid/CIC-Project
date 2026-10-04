@@ -54,7 +54,7 @@ use_note:
     - "evidence that most Gallic bishops were monks"
     - "Martin's own conduct as bishop, which sits in gallic.quote.martin-kept-the-virtues-of-a-monk"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "deemed of noble"` returns line 1153; read with `sed -n '1148,1157p'`, inside `<div3 title="Chapter

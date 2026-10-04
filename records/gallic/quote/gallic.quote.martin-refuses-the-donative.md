@@ -79,7 +79,7 @@ use_note:
     - "a verbatim record of the exchange rather than Sulpitius's report of it"
     - "a rule binding every Christian soldier of the time"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "began to
 distribute a donative"` returns one hit, line 834. The chapter div is `<div3 title="Chapter IV. Martin

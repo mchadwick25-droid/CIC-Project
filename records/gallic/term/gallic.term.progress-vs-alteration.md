@@ -111,7 +111,7 @@ use_note:
     - "what is kept, which sits in gallic.term.the-deposit"
     - "the test of the faith, which sits in gallic.term.the-rule"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 057 (`galliclex057_progress-vs-alteration.md`, Tier 2, tags AS TC DR CT;
 Doc_03 7.5). The CT (Relationship to present-day traditions) is carried in divergence_note;

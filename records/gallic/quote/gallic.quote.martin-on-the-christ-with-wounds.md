@@ -68,7 +68,7 @@ use_note:
     - "a doctrine of Christ's two natures, which sits in gallic.quote.one-substance-three-persons"
     - "the whole answer to who Christ was for this world, which sits in gallic.dw.the-christ-who-bears-the-wounds"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between
 B-7 and B-8) directly against the vendored

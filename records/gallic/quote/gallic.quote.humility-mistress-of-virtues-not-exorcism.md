@@ -88,7 +88,7 @@ use_note:
     - "Cassian's refusal to narrate miracles, which sits in gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles"
     - "a direct criticism of Martin, whose private exorcisms sit in gallic.quote.martin-exorcism-without-touch-or-reproach"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Humility therefore"` returns line 39884; `grep -n "which they had either obtained"` returns a hit

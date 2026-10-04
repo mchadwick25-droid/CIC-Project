@@ -67,7 +67,7 @@ use_note:
     - "the accuser's possession and Paphnutius's vindication, which sit in gallic.quote.paphnutius-the-thief-possessed-and-healed"
     - "Gallic communion practice, when the Saturday and Sunday detail is Egyptian"
   years: {from: 426, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "And
 when the inquisitors"` returns line 43039 (this quote's opening sentence begins there); `grep -n "humbly

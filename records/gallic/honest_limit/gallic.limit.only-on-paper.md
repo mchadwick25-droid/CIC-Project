@@ -82,10 +82,10 @@ use_note:
   not_for:
     - "a claim that nothing has ever been dug up, when the build has not searched that literature"
     - "what the island kept day by day, which the record does not hold"
-    - "Cassian's Egyptian customs as how Gallic houses lived, when he complains no one kept them for a year, as in gallic.term.customs-of-the-monasteries"
+    - "Cassian's Egyptian customs as how Gallic houses lived, when he admits no one in our monasteries kept Egypt's perseverance even for a year, as in gallic.term.customs-of-the-monasteries"
     - "the editorial place-names as the world's own words"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Closes F5-E at the Answer-the-Canon step (inserted between B-7 and B-8)
 as a genuine, declared absence, on the shape of

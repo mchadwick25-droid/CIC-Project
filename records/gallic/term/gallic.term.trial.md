@@ -109,7 +109,7 @@ use_note:
     - "a court trial, such as the Priscillianist one, whose heresy sits in gallic.term.heretic-heresy"
     - "the athlete's combat as such, which sits in gallic.term.combat-athlete"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 058 (`galliclex058_trial.md`, Tier 2, tags SC TC DR; Doc_03 7.6). The
 one-proof-text-two-ecologies finding (Doc_05 section 6C mode 5) is carried in divergence_note.

@@ -53,7 +53,7 @@ use_note:
     - "the refusal that grace follows desert, which sits in gallic.quote.profane-notion-attribute-everything-to-free-will"
     - "Cassian's own words rather than his report of Chaeremon"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "generally will"` returns line 37758, inside `<div4 title="Chapter VII. Of the main purpose of God

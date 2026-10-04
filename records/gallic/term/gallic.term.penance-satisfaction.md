@@ -119,7 +119,7 @@ use_note:
     - "the disclosure of thoughts before sin, which sits in gallic.term.disclosure-of-thoughts"
     - "documented Gallic practice, when whether any Gallic house kept the graded scale is not recorded"
   years: {from: 404, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 067 (`galliclex067_penance-satisfaction.md`, Tier 2, tags SC TC DR;
 Doc_03 8.7), promoted from Tier 3 at Doc_06 section 2.4 on Doc_05's organizational weight

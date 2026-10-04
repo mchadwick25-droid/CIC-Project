@@ -89,7 +89,7 @@ use_note:
     - "the claim that grace looks for human effort, which sits in gallic.quote.chaeremon-grace-requires-our-effort"
     - "a complete theory of how grace and free will fit together, when Chaeremon calls that beyond human grasp"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "cannot be fully grasped by the

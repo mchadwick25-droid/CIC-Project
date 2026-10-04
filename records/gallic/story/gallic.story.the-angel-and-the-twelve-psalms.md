@@ -128,7 +128,7 @@ use_note:
     - "Egypt's founding story presented as Gaul's own"
     - "the Divine Office as later codified"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 The origin - the tradition Cassian handed on to Gaul, from the fathers of Egypt - is disclosed in the
 telling itself. Illustrates gallic.gravity.received-not-invented most literally: on Cassian's own

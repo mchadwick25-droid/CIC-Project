@@ -141,7 +141,7 @@ use_note:
     - "the elder's disciplinary role over a junior, which sits in gallic.term.elder-senior-abbot"
     - "the three-part test of faith, which sits in gallic.term.the-rule"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 004 (Tier 1; chunk galliclex004_the-fathers-elders.md; Doc_03 3.3). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The chunk's

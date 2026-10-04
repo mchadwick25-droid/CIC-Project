@@ -157,7 +157,7 @@ use_note:
     - "Martin's rejection of synods as a general principle, when it follows one forced act"
     - "the earlier phase told in Sulpitius's own voice as one account with the Dialogues, when the two accounts remain distinct"
   years: {from: 397, to: 406}
-  status: provisional
+  status: reviewed
 ---
 The record id keeps the technical slug "trier-..." as a stable identifier, though the vendored volume's
 own spelling is "Treves," which every in-record use of the place name follows.

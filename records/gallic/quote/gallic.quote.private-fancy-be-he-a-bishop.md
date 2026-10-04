@@ -54,7 +54,7 @@ use_note:
     - "a rejection of bishops' authority in general, when the rule targets a lone opinion against consent"
     - "a rule aimed at a named opponent, which the passage does not name"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "But whatsoever a teacher holds"` returns line 14271; read with `sed -n '14260,14276p'`, inside

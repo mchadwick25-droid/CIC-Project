@@ -51,7 +51,7 @@ use_note:
     - "a measured comparison of Gaul and Egypt rather than partisan praise of Martin"
     - "the claim that Europe needs only Martin, which sits in gallic.quote.europe-will-not-yield-having-only-martin"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "all the eremites and anchorites"` returns line 4107. Read with `sed -n '4100,4108p'`, inside

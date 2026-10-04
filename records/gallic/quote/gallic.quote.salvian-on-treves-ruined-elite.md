@@ -68,7 +68,7 @@ use_note:
     - "a neutral report rather than a preacher's moral indictment"
     - "the demand for circuses, which sits in gallic.quote.salvian-on-the-demand-for-circuses"
   years: {from: 439, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Verified against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n "lofty birth and
 honor"` returns one hit, line 8093; `grep -n "taken by storm no less than four"` returns one hit, line

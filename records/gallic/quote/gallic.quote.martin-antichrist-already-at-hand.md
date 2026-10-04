@@ -49,7 +49,7 @@ use_note:
     - "Martin's own teaching, when the id names Martin but the inference is Sulpitius's"
     - "Martin's report that Antichrist was already born, which sits in gallic.quote.martin-antichrist-already-born"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "coming of Antichrist is at hand"` returns line 1786; read with `sed -n '1778,1789p'`, inside

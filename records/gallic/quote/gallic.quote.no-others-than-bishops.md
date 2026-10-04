@@ -54,7 +54,7 @@ use_note:
     - "the Gallic episcopate as a whole hostile to Martin, when Sulpitius says very few"
     - "the bishops' objections at the election, which sit in gallic.quote.ruricius-and-the-vote-for-tours"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "calumniators"` returns a hit at line 1939 inside the chapter div `<div3 title="Chapter XXVII.

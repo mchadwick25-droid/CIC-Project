@@ -123,7 +123,7 @@ use_note:
     - "the goal that precedes it, which sits in gallic.term.purity-of-heart"
     - "a claim to be without sin, since Conference XXIII on sinlessness is unread"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 035 (Tier 2; chunk galliclex035_perfection.md; Doc_03 4.3). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The two coverage limits

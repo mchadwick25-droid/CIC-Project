@@ -64,7 +64,7 @@ use_note:
     - "the captured general read as judgment, which sits in gallic.quote.salvian-present-judgment-clearly-shown"
     - "a date for each invasion, which the passage does not give"
   years: {from: 439, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n
 "ever-present judgment of God"` returns line 9144; `grep -n "country of the Belgae"` returns line

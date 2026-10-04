@@ -51,7 +51,7 @@ use_note:
     - "accidie's desertion from that service, which sits in gallic.quote.deserter-from-his-service"
     - "a reference to actual military service, such as Martin's own past"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "ought always to walk with his loins"` returns line 16572; read with `sed -n '16568,16574p'`, inside

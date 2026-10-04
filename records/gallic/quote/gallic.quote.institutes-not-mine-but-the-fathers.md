@@ -45,7 +45,7 @@ use_note:
     - "a modern disclaimer of authorship, when it disowns the teaching's origin rather than the writing"
     - "the Institutes' own text, which this phrase only names"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "may now by the reception of the Institutes"` returns one hit, line 25931, inside `<div3

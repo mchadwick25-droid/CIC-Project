@@ -63,7 +63,7 @@ use_note:
     - "anything drawn from Cassian's books against Nestorius, which this build has not read"
     - "the fuller answer on Christ's divinity and death, which sits in gallic.dw.one-person-two-substances"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between
 B-7 and B-8) directly against the vendored

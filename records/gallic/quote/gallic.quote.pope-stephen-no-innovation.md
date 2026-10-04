@@ -49,7 +49,7 @@ use_note:
     - "Pope Celestine's letter to Gaul, which sits in gallic.quote.vincent-celestines-letter-and-its-reading"
     - "Vincent's own keeper-not-author teaching, which sits in gallic.quote.not-an-author-but-a-keeper"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "no innovation"` returns a hit at line 12527, inside `<div2 title="Chapter VI. The example of Pope

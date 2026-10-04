@@ -64,7 +64,7 @@ use_note:
     - "the soldier-of-Christ idiom for ascetic life, which Vincent here reverses and which sits in gallic.quote.institutes-opening-soldier-of-christ"
     - "Vincent's reasons for writing, which sit in gallic.quote.vincent-awful-expectation-of-judgment"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "in the harbour of religion"` returns line 12115; read with `sed -n '12112,12120p'`, inside `<p

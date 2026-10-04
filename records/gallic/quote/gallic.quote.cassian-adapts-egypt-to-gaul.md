@@ -81,7 +81,7 @@ use_note:
     - "a licence for Gallic invention, when adaptation draws on other eastern custom"
     - "a description of how Gallic monasteries actually ran"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "fancy of any one who has founded"` returns line 16519; `grep -n "power may be unequal"` returns a

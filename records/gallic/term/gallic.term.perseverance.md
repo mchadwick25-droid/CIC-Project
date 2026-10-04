@@ -122,8 +122,8 @@ use_note:
     - "perseverance as sheer willpower"
     - "the first stage of grace, which sits in gallic.term.beginning-of-a-good-will"
     - "the cooling that is its failure, which sits in gallic.term.lukewarmness"
-  years: {from: 397, to: 429}
-  status: provisional
+  years: {from: 415, to: 429}
+  status: reviewed
 ---
 Built from Doc_06 entry 043 (`galliclex043_perseverance.md`, Tier 2, tags SC TC DR; Doc_03 5.4).
 CT tag not applied per Doc_06 section 3 (the "perseverance of the saints" gap is a distortion

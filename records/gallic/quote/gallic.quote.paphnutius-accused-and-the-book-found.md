@@ -68,7 +68,7 @@ use_note:
     - "the brother's scheme to plant the book, which sits in gallic.quote.paphnutius-the-brother-hides-his-own-book"
     - "a Gallic event, when the story is set in Egypt"
   years: {from: 426, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "And
 when the whole service"` returns line 43018; `grep -n "just as the plotter"` returns line 43038, `grep -n

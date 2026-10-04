@@ -173,8 +173,8 @@ use_note:
     - "semi-Pelagian as a settled verdict, a label whose fit is contested in gallic.contested.massilian-label"
     - "Martin's power to heal, which sits in gallic.term.grace-as-charism"
     - "Augustine's own doctrine, for which his treatises are context only"
-  years: {from: 397, to: 434}
-  status: provisional
+  years: {from: 415, to: 434}
+  status: reviewed
 ---
 Built from Doc_06 entry 008 (Tier 1, [CT] Meaning and Application; chunk galliclex008_grace.md;
 Doc_03 5.1). Register emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read

@@ -115,7 +115,7 @@ use_note:
     - "the resurrection as argued rather than confessed at the hours"
     - "the question of Christ's divinity, which sits in gallic.dw.one-person-two-substances"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Closes C-I at the Answer-the-Canon step (inserted between B-7 and B-8),
 walking the cell's five canon questions in order - who he was, what he

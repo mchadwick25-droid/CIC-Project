@@ -55,7 +55,7 @@ use_note:
     - "the Egyptian rejection of sackcloth itself, which sits in gallic.quote.egyptian-sackcloth-utterly-disapproved"
     - "Vincent's threefold rule of universality, antiquity and consent, which sits in gallic.quote.believed-everywhere-always-by-all"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "unhesitating allegiance and"` returns line 16668; read with `sed -n '16668,16672p'`, inside `<div4

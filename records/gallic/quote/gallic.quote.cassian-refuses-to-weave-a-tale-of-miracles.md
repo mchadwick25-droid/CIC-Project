@@ -70,7 +70,7 @@ use_note:
     - "Nesteros's teaching that humility outranks wonder-working, which sits in gallic.quote.humility-mistress-of-virtues-not-exorcism"
     - "an attack by name on Sulpitius or Martin"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "weave a tale"` returns line 16503; `grep -n "received from our elders"` returns line 16515. Read

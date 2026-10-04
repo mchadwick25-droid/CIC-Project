@@ -53,7 +53,7 @@ use_note:
     - "a fair report of every bishop at Maximus's court"
     - "the later Treves crisis over the tribunes, which sits in gallic.quote.gallus-on-the-tribunes-for-the-spains"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "apostolic authority continued to assert itself"` returns one hit, line 1565, inside `<div3

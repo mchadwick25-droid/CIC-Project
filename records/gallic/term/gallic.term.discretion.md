@@ -134,7 +134,7 @@ use_note:
     - "the practice of telling thoughts to the senior, which sits in gallic.term.disclosure-of-thoughts"
     - "a Tours teaching, where the practice appears without the word"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 029 (Tier 2, pruned from Doc_03's Tier-1 estimate as "the closest call in the
 document," Doc_06 §2.3; chunk galliclex029_discretion.md; Doc_03 3.7). Register emic. Quotations

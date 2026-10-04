@@ -133,7 +133,7 @@ use_note:
     - "the earlier petition at the palace over the tribunes, which sits in gallic.quote.gallus-on-the-tribunes-for-the-spains"
     - "a separate witness from gallic.quote.aloof-from-assemblies-of-bishops, whose sentence closes this passage"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "went in terror to the king"`

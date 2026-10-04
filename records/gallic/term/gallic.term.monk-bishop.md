@@ -177,7 +177,7 @@ use_note:
     - "the papacy or Rome, which sits in gallic.term.apostolic-see-pope"
     - "the reluctance as total fact in every house, which is contested in gallic.contested.election-as-capture"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 013 (Tier 1, [PV]; chunk galliclex013_monk-bishop.md; Doc_03 8.1). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Editorial

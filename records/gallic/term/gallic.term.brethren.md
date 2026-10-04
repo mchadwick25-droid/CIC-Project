@@ -98,7 +98,7 @@ use_note:
     - "the monk as such, which sits in gallic.term.monk-solitary"
     - "a Latin fratres confirmed in the sources, when it appears only in an editor's note"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 070 (`galliclex070_brethren.md`, Tier 3, tags SC RT; Doc_03 1.6). Kept
 thin at the Tier-3 floor; the chunk's only Distortion Risk is "generic churchy address," which

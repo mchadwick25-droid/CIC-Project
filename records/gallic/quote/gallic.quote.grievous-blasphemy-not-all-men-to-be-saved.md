@@ -50,8 +50,9 @@ use_note:
     - "a named reply to Augustine, when the text names no opponent"
     - "a teaching that all are in fact saved, when it concerns God's will"
     - "the three stages of grace, which sit in gallic.quote.chaeremon-three-stages-of-grace"
+    - "a separate witness from gallic.quote.without-grievous-blasphemy-all-men-to-be-saved, which carries the same sentence"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "how can we imagine without grievous"` returns line 37758; read with `sed -n '37756,37760p'`, inside

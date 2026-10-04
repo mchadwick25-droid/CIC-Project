@@ -115,7 +115,7 @@ use_note:
     - "a claim that Gallic monks called themselves anchorites, when no Gallic voice in the record does"
     - "the monk in general, which sits in gallic.term.monk-solitary"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 015 (Tier 2; chunk galliclex015_anchorite-hermit.md; Doc_03 1.3). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Row 4 (Dialogue

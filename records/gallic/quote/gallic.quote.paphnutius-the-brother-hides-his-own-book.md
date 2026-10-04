@@ -54,7 +54,7 @@ use_note:
     - "an independently attested event rather than the tradition's own telling"
     - "a Gallic incident, when the story is set in the Egyptian desert"
   years: {from: 426, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "just
 as the plotter"` (used to anchor the chapter generally) and manual read confirm "And this man wanting"

@@ -127,7 +127,7 @@ use_note:
     - "the term's meaning, which sits in gallic.term.beginning-of-a-good-will"
     - "Prosper's Contra Collatorem as read here, when it is unvendored and known through editors"
   years: {from: 426, to: 429}
-  status: provisional
+  status: reviewed
 ---
 Unparked from Doc_06 section 3's own [CT] tagging - Contest Type "Meaning" - of chunks 008 (grace), 009
 (free will), and 042 (beginning of a good will), the last stated there in exactly this record's terms:

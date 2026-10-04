@@ -115,7 +115,7 @@ use_note:
     - "the devil as such, which sits in gallic.term.the-devil-demons"
     - "a ruling on whether any given exorcism happened, which the record does not make"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 051 (`galliclex051_possessed-exorcism.md`, Tier 2, tags SC TC RT; Doc_03
 6.5). The Article 20 note (the possessed are the ministry's object, never its subject) is

@@ -119,7 +119,7 @@ use_note:
     - "a profession of faith as a creed, which sits in gallic.term.the-rule"
     - "the goal of the undertaking, which sits in gallic.term.goal-and-end"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 019 (Tier 2; chunk galliclex019_profession.md; Doc_03 1.9). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here.

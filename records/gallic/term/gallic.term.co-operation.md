@@ -107,7 +107,7 @@ use_note:
     - "the broader doctrine of grace, which sits in gallic.term.grace"
     - "the first beginning of a good will, which sits in gallic.term.beginning-of-a-good-will"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 045 (`galliclex045_co-operation.md`, Tier 2, tags SC TC DR; Doc_03 5.6).
 CT tag not applied per Doc_06 section 3 (the "synergism" gap is a distortion risk) - carried here as

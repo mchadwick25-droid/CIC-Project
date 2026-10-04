@@ -51,7 +51,7 @@ use_note:
     - "a claim that all Gaul lacked monasteries, when the text speaks of Castor's province"
     - "the clause on customs delivered by the Fathers, which sits in gallic.quote.customs-delivered-to-us-by-the-fathers"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "institutions of the East"` returns line 16434; read with `sed -n '16420,16436p'`, inside `<div2

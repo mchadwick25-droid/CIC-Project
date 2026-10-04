@@ -120,7 +120,7 @@ use_note:
     - "the public discipline for a fault, which sits in gallic.term.penance-satisfaction"
     - "documented Gallic eucharistic frequency, when that rests on an editor's footnote"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 061 (`galliclex061_communion.md`, Tier 2, tags SC DR TC RT; Doc_03
 7.11). The chunk's name-the-layer note on Gibson's daily-communion footnote (citing the omitted

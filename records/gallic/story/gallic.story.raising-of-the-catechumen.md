@@ -120,7 +120,7 @@ use_note:
     - "a proof that the Lord rose, which gallic.limit.no-one-who-saw-him says is not held"
     - "Marseilles teaching, where Cassian declines such stories on principle, which sits in gallic.gravity.virtus"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Neither "Ligugé" nor "Poitiers" appears in the narrative: Sulpitius names the monastery only as "not
 far from the town," and those identifications are editorial, not his own words (see absent_detail).

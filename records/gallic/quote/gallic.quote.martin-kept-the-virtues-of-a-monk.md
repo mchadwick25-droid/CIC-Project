@@ -52,7 +52,7 @@ use_note:
     - "the noble disciples later made bishops, which sit in gallic.quote.nobles-forced-down-afterwards-made-bishops"
     - "an independent report rather than an admiring biographer's summary judgment"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "objects and virtues of a monk"` returns one hit, line 1125. The chapter div is `<div3

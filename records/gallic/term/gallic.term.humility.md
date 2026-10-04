@@ -160,7 +160,7 @@ use_note:
     - "the regulating virtue that grows from it, which sits in gallic.term.discretion"
     - "pride as the eighth fault specifically, which sits in gallic.term.eight-principal-faults"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 032 (Tier 2; chunk galliclex032_humility.md; Doc_03 3.10). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Doc_06 §5 item 1

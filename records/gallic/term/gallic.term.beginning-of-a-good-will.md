@@ -127,7 +127,7 @@ use_note:
     - "the broader doctrine of grace, which sits in gallic.term.grace"
     - "the beginning of the monastic life, which sits in gallic.term.conversion"
   years: {from: 426, to: 429}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 042 (`galliclex042_beginning-of-a-good-will.md`, Tier 2, tags SC TC DR
 CT; Doc_03 5.3). Pruned from Doc_03's Tier-1 estimate at Doc_06 section 2.3: the crux of the grace

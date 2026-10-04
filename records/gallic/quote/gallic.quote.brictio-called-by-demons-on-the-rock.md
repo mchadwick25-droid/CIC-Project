@@ -62,7 +62,7 @@ use_note:
     - "the reproof over horses and slaves, which sits in gallic.quote.brictio-horses-and-slaves"
     - "Brictio's own side of the quarrel, which the record does not give"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "certain day, after he had sat down"` (via "certain day," anchor) returns line 5290, the opening of

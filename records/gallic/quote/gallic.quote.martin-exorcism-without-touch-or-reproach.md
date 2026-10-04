@@ -59,7 +59,7 @@ use_note:
     - "Nesteros's teaching against showy exorcists, which sits in gallic.quote.humility-mistress-of-virtues-not-exorcism"
     - "the ordinary practice of Gallic clergy, whom the text contrasts with Martin"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "touched no one with his hands"` returns line 4900; `grep -n "turned to prayer"` returns line

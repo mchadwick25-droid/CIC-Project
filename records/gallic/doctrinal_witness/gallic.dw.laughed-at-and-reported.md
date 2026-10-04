@@ -114,7 +114,7 @@ use_note:
     - "persecution or hiding in their own time, which the witness denies"
     - "the election as plainly a capture, which is weighed in gallic.contested.election-as-capture"
   years: {from: 397, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Closes F3-E at the Answer-the-Canon step (inserted between B-7 and B-8).
 gallic.voice.craft's B-7 note declined this cell as "an outsider's

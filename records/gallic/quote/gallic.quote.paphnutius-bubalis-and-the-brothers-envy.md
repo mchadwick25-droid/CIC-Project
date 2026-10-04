@@ -60,7 +60,7 @@ use_note:
     - "the plot the envious brother carried out, which sits in gallic.quote.paphnutius-the-brother-hides-his-own-book"
     - "a Gallic story rather than an Egyptian one Cassian carried west"
   years: {from: 426, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "because he always"` returns line 43004; `grep -n "burning and consuming jealousy"` returns line 43012,

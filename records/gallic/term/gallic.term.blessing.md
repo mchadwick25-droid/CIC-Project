@@ -109,7 +109,7 @@ use_note:
     - "the saint's power in general, which sits in gallic.term.virtus"
     - "the later cult of Martin's relics, which lies outside the window"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 049 (`galliclex049_blessing.md`, Tier 2, tags SC DR RT; Doc_03 6.3).
 Single-voice (Sulpitius) for the power sense, stated in divergence_note and senses.evidential

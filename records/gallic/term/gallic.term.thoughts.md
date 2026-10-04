@@ -119,7 +119,7 @@ use_note:
     - "the telling of thoughts to the senior, which sits in gallic.term.disclosure-of-thoughts"
     - "the judging faculty, which sits in gallic.term.discretion"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 036 (Tier 2; chunk galliclex036_thoughts.md; Doc_03 4.4). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cell F4-P: the

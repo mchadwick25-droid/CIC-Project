@@ -50,7 +50,7 @@ use_note:
     - "the events of the theft story, which sit in gallic.quote.paphnutius-accused-and-the-book-found and its neighbouring paphnutius records"
     - "a narrated event rather than the moral Piamun draws from the story"
   years: {from: 426, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "He
 then$"` returns line 43079 (among other unrelated hits elsewhere in the file); `grep -n "lay the same

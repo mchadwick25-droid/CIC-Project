@@ -64,7 +64,7 @@ use_note:
     - "the general rule on antiquity and consent, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
     - "an explicit criticism of Martin by name"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "disapproved"` returns line 16656; read with `sed -n '16648,16663p'`, inside the Institutes Book

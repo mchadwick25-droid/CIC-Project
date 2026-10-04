@@ -134,14 +134,14 @@ manifestations:
 - "Vincent's fathers received as writings to be collated (Comm. ch. 3 [8], ch. 28) - the heard->read shift"
 - "Hilary of Arles's Life of Saint Honoratus, 'his predecessor' (Gennadius ch. LXX) - the L\u00e9rins counterpart of the Vita Martini"
 use_note:
-  means: "Authority to teach rests on having seen and heard a named master, so formation is imitation of a named exemplar, straining against authority and books that carry an absent master."
+  means: "Authority to teach rests on having seen and heard a named master, so formation is imitation of a named exemplar, shifting at Lerins from men seen to writings read."
   not_for:
     - "Vincent's collated writings as men seen"
     - "an impersonal institution or rule as the carrier of formation"
     - "the two eyewitness conferences removed from the vendored edition, which are absent"
     - "imitation as a mechanism in itself, which sits in gallic.term.example-imitation"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G5 -> §3 G5 -> §8 row G5; Supporting).
 Interaction Matrix (Doc_04 §4, row/col G5): reinforcing (R) with G1 (Marmoutier's disciples formed

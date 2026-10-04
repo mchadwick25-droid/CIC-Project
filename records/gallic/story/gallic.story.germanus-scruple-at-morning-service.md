@@ -148,7 +148,7 @@ use_note:
     - "what Conference XII said on chastity, which is absent from the vendored edition"
     - "Cassian's own position on the beginning of a good will, which is contested in gallic.contested.beginning-of-good-will"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 "Chaeremon" is spelled without the ligature for plain ASCII; the vendored volume prints the ae ligature.
 Germanus here is Cassian's own companion, never Germanus of Auxerre.

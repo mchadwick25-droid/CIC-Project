@@ -67,7 +67,7 @@ use_note:
     - "the reproof that provoked the outburst, which sits in gallic.quote.brictio-horses-and-slaves"
     - "a claim that Martin argued back, when the text gives him only gentle restraint"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "The
 miserable man, moved with bitter rage"` returns line 5305; `grep -n "ridiculous fancies about visions"`

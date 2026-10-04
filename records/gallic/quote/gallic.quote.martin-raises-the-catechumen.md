@@ -93,8 +93,9 @@ use_note:
     - "an independently attested resurrection rather than the account of an author who was not present"
     - "the catechumen's later witness and Martin's growing fame, which sit in gallic.quote.the-catechumens-testimony"
     - "a display of commanding power, when the passage shows Martin waiting in prayer"
+    - "a separate witness from gallic.quote.martin-power-present-catechumen-raising, whose sentence sits inside this passage"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "As Hilarius
 had already"` returns one hit, line 977; `grep -n "power was present"` returns one hit, line 996-997

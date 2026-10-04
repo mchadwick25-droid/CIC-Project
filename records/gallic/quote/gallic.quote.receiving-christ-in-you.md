@@ -73,7 +73,7 @@ use_note:
     - "a Gallic teaching rather than Egypt's, received through Cassian's book"
     - "Christ shown in the beggar at Amiens, which sits in gallic.quote.the-cloak-divided-and-the-vision-of-christ"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between
 B-7 and B-8) directly against the vendored

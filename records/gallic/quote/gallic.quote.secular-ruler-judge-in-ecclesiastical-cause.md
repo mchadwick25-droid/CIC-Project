@@ -57,7 +57,7 @@ use_note:
     - "a separate witness from gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause, which carries the same sentence"
     - "Martin's later petition at the palace, which sits in gallic.quote.gallus-on-the-tribunes-for-the-spains"
   years: {from: 397, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "unheard-of indignity"` returns one hit, line 11659, inside `<div4 title="Chapter L." ...

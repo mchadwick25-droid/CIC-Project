@@ -95,7 +95,7 @@ use_note:
     - "the doctrine itself, which sits in gallic.term.grace"
     - "the contest over the label, which sits in gallic.contested.massilian-label"
   years: {from: 428, to: 429}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 074 (`galliclex074_massilians.md`, Tier 3, tags SC DR CT; Doc_03 5.8;
 Doc_06 section 2.5 kept it as the build's [CT]-tagged shorthand at Tier 3). Kept thin at the

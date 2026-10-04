@@ -111,7 +111,7 @@ use_note:
     - "the three senses as one doctrine, when the voices do not cite one another"
     - "white martyrdom as a later category read backward"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 025 (Tier 2; chunk galliclex025_bloodless-martyrdom-confessor.md; Doc_03
 2.4). Register emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here.

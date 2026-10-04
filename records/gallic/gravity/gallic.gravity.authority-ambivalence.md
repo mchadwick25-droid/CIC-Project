@@ -150,7 +150,7 @@ use_note:
     - "Vincent's reverence for councils as the whole teaching, when it opposes Tours, as in gallic.term.council-synod"
     - "the pattern of monks made bishops, which sits in gallic.gravity.monk-bishop"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus,
 Vincent of Lérins, John Cassian) and, for the Massilian episode, the same edition's own prolegomena

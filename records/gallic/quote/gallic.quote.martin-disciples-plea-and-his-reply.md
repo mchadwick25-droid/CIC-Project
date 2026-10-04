@@ -72,7 +72,7 @@ use_note:
     - "an eyewitness account, when Sulpitius was not present at the death"
     - "the refusal to turn on his side, which sits in gallic.quote.martin-allow-me-dear-brother"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "on the point of dissolution"` returns line 2414; `grep -n "thy will be done"` returns line 2430. Read

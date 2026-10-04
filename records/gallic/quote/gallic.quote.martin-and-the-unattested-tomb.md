@@ -62,8 +62,9 @@ use_note:
     - "Martin's direct words throughout, when only the reason is reported as his"
     - "the outcome of the test, which the quoted passage does not include"
     - "Cassian's rule on antiquity and consent, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
+    - "a separate witness from gallic.quote.no-steady-tradition-from-antiquity, whose sentence opens this passage"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "no
 steady tradition"` returns one hit, line 1177, and `grep -n "opinion of the multitude"` one hit, line

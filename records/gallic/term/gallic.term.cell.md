@@ -121,7 +121,7 @@ use_note:
     - "the desert hermit's cell as such, which sits in gallic.term.anchorite-hermit"
     - "Cassian's rule of never leaving the cell as proven Gallic practice, when whether any Gallic house kept it is not documented"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 016 (Tier 2, promoted from Doc_03's Tier 3 on Doc_05 §1.2; chunk
 galliclex016_cell.md; Doc_03 1.5). Register emic. Quotations verified at locus by the build's own

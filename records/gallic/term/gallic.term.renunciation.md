@@ -128,7 +128,7 @@ use_note:
     - "the day of entry, which sits in gallic.term.conversion"
     - "the baptismal renunciation of the devil, which is Salvian's referent"
   years: {from: 397, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 021 (Tier 2, pruned from Doc_03's Tier-1 estimate per Doc_04 §2.2; chunk
 galliclex021_renunciation.md; Doc_03 1.11). Register emic. Quotations verified at locus by the build's

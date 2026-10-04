@@ -77,7 +77,7 @@ use_note:
     - "the weekly rotation and handover of vessels, which sits in gallic.quote.weekly-service-and-sacred-vessels"
     - "routine cruelty rather than one example Cassian offers of reverence for sacred property"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "three$"` and a read of the surrounding lines locate the passage at the chapter div `<div4

@@ -102,7 +102,7 @@ use_note:
     - "Martin's wider conduct as a soldier, which sits in gallic.quote.the-soldier-who-served-his-servant"
     - "the guest received as Christ, which sits in gallic.quote.receiving-christ-in-you"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "meet at the
 gate of the city"` returns one hit, line 770; `grep -n "clothed me with this robe"` returns one hit,

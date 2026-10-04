@@ -72,7 +72,7 @@ use_note:
     - "the editor's note linking defensor and avenger as part of Sulpitius's text"
     - "the ruse and the vote, which sit in gallic.quote.ruricius-and-the-vote-for-tours"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml,
 same chapter as gallic.quote.ruricius-and-the-vote-for-tours (`ii.ii.x-p2`). `grep -n "Defensor"`

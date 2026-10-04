@@ -54,7 +54,7 @@ use_note:
     - "the threefold test of universality, antiquity and consent, which sits in gallic.quote.believed-everywhere-always-by-all"
     - "a description of how every Gallic teacher actually taught rather than Vincent's ideal"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "not an author but a keeper"` returns one hit, line 13773, inside `<div2 title="Chapter XXII. A more

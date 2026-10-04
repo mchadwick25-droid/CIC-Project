@@ -124,7 +124,7 @@ use_note:
     - "Salvian's present judgment as the monastic houses' teaching, when it is his own voice, as in gallic.term.government-of-god"
     - "an Antichrist teaching by Cassian, who has only the fear of hell in what was read"
   years: {from: 397, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus,
 Vincent of Lérins, John Cassian) and cic/texts/salvian_on-the-government-of-god_sanford1930.txt

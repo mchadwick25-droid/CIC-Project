@@ -57,7 +57,7 @@ use_note:
     - "the demonic framing of the outburst, which sits in gallic.quote.brictio-called-by-demons-on-the-rock"
     - "a claim that clergy in this world generally kept horses and slaves"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "For he
 had been reproved"` returns line 5299; `grep -n "comely$"` returns line 5304, continuing "appearance." on

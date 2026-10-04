@@ -128,7 +128,7 @@ use_note:
     - "the mechanism of imitation, which sits in gallic.term.example-imitation"
     - "the senior's judgment of thoughts, which sits in gallic.term.elder-senior-abbot"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 026 (Tier 2; chunk galliclex026_disciple-master.md; Doc_03 3.1). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cell F2-I:

@@ -134,7 +134,7 @@ use_note:
     - "a particular exemplar's deeds, which sit in gallic.term.virtus"
     - "the historicity of any one story, which the story records handle"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 003 (Tier 1; chunk galliclex003_example-imitation.md; Doc_03 3.2). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Doc_06 §2.2

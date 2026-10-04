@@ -64,8 +64,9 @@ use_note:
     - "Archebius's own words to the travellers, which sit in gallic.quote.archebius-see-the-old-men"
     - "a claim independently attested outside Cassian's own writings"
     - "a modesty formula, when Cassian presents the complaint as a real loss"
+    - "a separate witness from gallic.quote.cassian-archebius-expelled-from-monastic-system, whose parenthesis sits inside this sentence"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "Archebius"` locates the passage at `<div4 title="Chapter II. Of Bishop Archebius." ...

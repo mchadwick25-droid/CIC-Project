@@ -68,7 +68,7 @@ use_note:
     - "the disciples' plea and Martin's actual reply at his death, which sit in gallic.quote.martin-disciples-plea-and-his-reply"
     - "evidence that Martin called himself a soldier on his deathbed"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Terrible, indeed, Lord, is the struggle"` returns line 2438; `grep -n "guard over those for whose

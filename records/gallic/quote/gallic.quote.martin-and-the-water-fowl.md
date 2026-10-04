@@ -57,7 +57,7 @@ use_note:
     - "an eyewitness report, when Sulpitius says he was not present at Martin's death"
     - "the foreknowledge of death and journey to Condate, which sits in gallic.quote.martin-foreknows-death-and-goes-to-condate"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "put demons to flight"` returns line 2406. Read in context at lines 2400-2406: the sentence opens

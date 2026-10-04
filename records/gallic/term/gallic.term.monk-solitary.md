@@ -146,7 +146,7 @@ use_note:
     - "Benedictine or later medieval monasticism"
     - "why monks became bishops, which sits in gallic.term.monk-bishop"
   years: {from: 397, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 001 (Tier 1; chunk galliclex001_monk-solitary.md; Doc_03 1.1). Register set
 emic: the chunk's own voice note records a close-third-person lexicon device (naming Tours and

@@ -169,7 +169,7 @@ use_note:
     - "the Massilians as this world's name for itself, which is contested in gallic.contested.massilian-label"
     - "Faustus's synodal commission, which falls after the window"
   years: {from: 415, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Vincent
 of Lérins) and, for Augustine's own report, cic/texts/npnf105_augustine-anti-pelagian-writings.xml

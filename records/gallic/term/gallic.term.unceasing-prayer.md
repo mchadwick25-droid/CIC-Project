@@ -142,7 +142,7 @@ use_note:
     - "the eucharist as a rite, which sits in gallic.term.communion"
     - "later Benedictine or Roman hours, whose names Lauds, Prime and Compline are the editor's"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 007 (Tier 1, promoted from Doc_03's Tier 2 on Doc_05's Worship lens; chunk
 galliclex007_unceasing-prayer.md; Doc_03 4.11). Register emic. Quotations verified at locus by the

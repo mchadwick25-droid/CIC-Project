@@ -84,7 +84,7 @@ use_note:
     - "the night's scruple that prompted the question, which sits in gallic.quote.germanus-troubled-after-the-nights-teaching"
     - "Germanus's objection as Chaeremon's own view"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. Germanus's chapter is `<div4 title="Chapter

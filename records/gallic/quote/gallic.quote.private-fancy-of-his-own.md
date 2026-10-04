@@ -62,7 +62,7 @@ use_note:
     - "hostility to bishops as such, when the rule weighs every rank alike"
     - "Vincent's threefold test, which sits in gallic.quote.believed-everywhere-always-by-all"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "be he a bishop"` returns one hit, line 14272, inside `<div2 title="Chapter XXVIII. In what Way, on

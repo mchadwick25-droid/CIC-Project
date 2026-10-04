@@ -60,7 +60,7 @@ use_note:
     - "a verbatim transcript, when it is Cassian's later literary rendering"
     - "the account of Archebius's election, which sits in gallic.quote.archebius-carried-off-to-panephysis"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml,
 same paragraph as gallic.quote.archebius-carried-off-to-panephysis (`iv.v.ii.ii-p2`).

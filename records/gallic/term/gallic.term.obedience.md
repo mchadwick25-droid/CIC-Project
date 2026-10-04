@@ -114,7 +114,7 @@ use_note:
     - "whom one obeys as an office, which sits in gallic.term.elder-senior-abbot"
     - "a documented Gallic testing of juniors by contrary orders, which the record does not hold"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 031 (Tier 2; chunk galliclex031_obedience.md; Doc_03 3.9). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The relation to

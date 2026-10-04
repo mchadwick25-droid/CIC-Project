@@ -129,7 +129,7 @@ use_note:
     - "the scorning at the door as hazing or abuse"
     - "a Tours grade, where disciples appear but no probationary rank, which sits in gallic.term.disciple-master"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 018 (Tier 2, promoted from Doc_03's Tier 3 on Doc_05 §2.1; chunk
 galliclex018_junior-novice.md; Doc_03 1.8). Register emic. Quotations verified at locus by the build's

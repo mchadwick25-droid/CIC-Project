@@ -52,7 +52,7 @@ use_note:
     - "a denial of Egypt's holiness, when the text grants that Egypt is justly proud"
     - "Cassian's view of Egypt as the measure, which sits in gallic.quote.castor-anxious-for-egyptian-institutions"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "when you have come as far as Egypt"` returns line 5408; `grep -n "in having only Martin"` returns

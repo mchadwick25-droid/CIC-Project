@@ -144,7 +144,7 @@ use_note:
     - "the three-part procedure, which sits in gallic.term.the-rule"
     - "Vincent's growth analogy, which sits in gallic.term.progress-vs-alteration"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 012 (Tier 1; chunk galliclex012_novelty-antiquity.md; Doc_03 7.3). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Doc_06 considered

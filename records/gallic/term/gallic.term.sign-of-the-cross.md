@@ -106,7 +106,7 @@ use_note:
     - "the saint's power in general, which sits in gallic.term.virtus"
     - "blessed oil, threads and straw, which sit in gallic.term.blessing"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 024 (Tier 2; chunk galliclex024_sign-of-the-cross.md; Doc_03 2.3). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cell F1-P:

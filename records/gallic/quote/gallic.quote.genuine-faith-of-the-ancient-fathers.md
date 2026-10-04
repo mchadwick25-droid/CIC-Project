@@ -49,7 +49,7 @@ use_note:
     - "the Institutes' final sentence on grace, which sits in gallic.quote.institutes-closing-sentence-on-grace"
     - "a proof of unbroken continuity, when the claim of continuity is Cassian's own"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "still remains intact among their successors"` returns line 25394; read with `sed -n '25389,25395p'`,

@@ -95,7 +95,7 @@ use_note:
     - "the angel who fixed the twelve psalms, which sits in gallic.story.the-angel-and-the-twelve-psalms"
     - "angelology as doctrine, which the record does not hold"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 075 (`galliclex075_angels.md`, Tier 3, tags SC DR RT; Doc_03 6.6). Kept
 thin at the Tier-3 floor; the DR tag carried as distortion_risk: medium with the chunk's own two

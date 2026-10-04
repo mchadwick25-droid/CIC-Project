@@ -117,7 +117,7 @@ use_note:
     - "the act of giving things up, which sits in gallic.term.renunciation"
     - "Tours' sackcloth and ashes as practices named with this word, which sit in gallic.term.sackcloth-and-ashes"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 039 (Tier 2; chunk galliclex039_mortification.md; Doc_03 4.7). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cells left

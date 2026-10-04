@@ -121,7 +121,7 @@ use_note:
     - "the south's own teaching on chastity, which was cut from the vendored English edition"
     - "purity of heart as the monk's goal, which sits in gallic.term.purity-of-heart"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 064 (`galliclex064_virgin-virginity.md`, Tier 2, tags SC DR RT; Doc_03
 8.4). The row 11 excisions (Conf. XII, Conf. XXII, Inst. VI) and the Article 20 finding (no

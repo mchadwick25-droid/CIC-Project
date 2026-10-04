@@ -84,7 +84,7 @@ use_note:
     - "the last judgment as expectation, which sits in gallic.term.antichrist"
     - "a Gallic teaching, when it is Egypt's ladder received through Cassian"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 072 (`galliclex072_fear-hope-love.md`, Tier 3, tags SC TC; Doc_03 4.9).
 Kept thin at the Tier-3 floor; the chunk's Distortion Risk (fear read as the whole of ancient

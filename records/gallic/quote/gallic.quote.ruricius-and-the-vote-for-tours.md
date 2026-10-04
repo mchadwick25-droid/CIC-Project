@@ -75,7 +75,7 @@ use_note:
     - "the psalm that answered the bishop Defensor, which sits in gallic.quote.the-psalm-that-answered-defensor"
     - "a standard procedure for episcopal elections throughout Gaul"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "was called upon to undertake the episcopate"` returns one hit, line 1059. The chapter div is

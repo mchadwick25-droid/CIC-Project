@@ -131,7 +131,7 @@ use_note:
     - "the specific noonday assault on the cell, which sits in gallic.term.accidie"
     - "a word for monks only, when Salvian uses it of ordinary Christians"
   years: {from: 404, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 033 (Tier 2; chunk galliclex033_lukewarmness.md; Doc_03 3.11). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Conf. Pref. II's "cold of

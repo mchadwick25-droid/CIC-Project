@@ -58,7 +58,7 @@ use_note:
     - "Cassian's appeal to the antiquity of the many, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
     - "Vincent's rule on doctrine, which sits in gallic.quote.not-an-author-but-a-keeper"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "appoint ourselves Abbots before we have"` returns line 17095; read with `sed -n '17092,17098p'`,

@@ -68,7 +68,7 @@ use_note:
     - "the make-up and ranks of the funeral crowd, which sit in gallic.quote.martin-funeral-procession-ranks and gallic.quote.martin-funeral-crowd-and-monks"
     - "the death scene itself, which sits in gallic.quote.martin-rebukes-the-devil-and-dies"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "each single person preferred that he himself should grieve"` returns line 2506; `grep -n "Martin is

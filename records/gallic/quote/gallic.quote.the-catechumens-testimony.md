@@ -68,7 +68,7 @@ use_note:
     - "the raising itself, which sits in gallic.quote.martin-raises-the-catechumen"
     - "the catechumen's vision of the tribunal, which this excerpt omits"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, same chapter div
 `id="ii.ii.viii"` (line 971) as gallic.quote.martin-raises-the-catechumen. `grep -n "witness to their

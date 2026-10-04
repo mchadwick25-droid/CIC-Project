@@ -57,7 +57,7 @@ use_note:
     - "Salvian's present judgment in the invasions, which sits in gallic.quote.salvian-ever-present-judgment-gallic-provinces"
     - "Vincent's account of leaving secular life, which sits in gallic.quote.vincent-tempests-of-secular-warfare"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "By the consideration of time"` returns line 12086; `grep -n "no ordinary care"` returns a hit at

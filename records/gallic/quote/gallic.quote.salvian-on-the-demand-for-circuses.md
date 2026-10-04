@@ -71,7 +71,7 @@ use_note:
     - "the broader church-or-circus contrast, which sits in gallic.term.church-or-circus"
     - "the unburied dead of the sacked city, which sit in gallic.quote.salvian-on-the-unburied-dead"
   years: {from: 439, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Verified against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n "survived
 destruction demanded"` returns one hit, line 8264; `grep -n "citizens of Tr"` returns hits at lines

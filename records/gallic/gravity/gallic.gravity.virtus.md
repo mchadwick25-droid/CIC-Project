@@ -172,7 +172,7 @@ use_note:
     - "the grace of God in the grace argument, which sits in gallic.gravity.grace-and-effort"
     - "the word's lexicon entry, which sits in gallic.term.virtus"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus, John
 Cassian) and cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml (Gennadius). This description

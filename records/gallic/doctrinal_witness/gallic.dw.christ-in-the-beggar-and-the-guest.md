@@ -102,7 +102,7 @@ use_note:
     - "a settled reading of Conference XIII on grace, which is contested"
     - "who Christ was and what his death meant, which sit in gallic.dw.the-christ-who-bears-the-wounds"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Closes C-P at the Answer-the-Canon step (inserted between B-7 and B-8).
 The fleet has both precedents for this cell - ijc.limit.jesus-to-you (an

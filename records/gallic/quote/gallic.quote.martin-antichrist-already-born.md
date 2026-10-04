@@ -52,7 +52,7 @@ use_note:
     - "Martin's direct words, when Gallus reports them at one remove"
     - "Sulpitius's own inference from false prophets, which sits in gallic.quote.martin-antichrist-already-at-hand"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "reached the years of boyhood"` returns line 4606; read with `sed -n '4589,4608p'`, inside `<div4

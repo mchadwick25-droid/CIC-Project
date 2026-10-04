@@ -165,7 +165,7 @@ use_note:
     - "the grace of God in the Massilian argument, which sits in gallic.term.grace"
     - "a ruling that any particular miracle happened, since the record carries reported-experience status only"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 010 (Tier 1 attached to a Tensional gravity by Doc_06 §2.2's ruling; [PV];
 Reported-Experience Status; chunk galliclex010_virtus.md; Doc_03 6.1). Register emic. Quotations

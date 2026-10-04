@@ -134,7 +134,7 @@ use_note:
     - "the south's doctrine of demons, which sits in gallic.term.the-devil-demons"
     - "an Egyptian disciple turning on a master, which sits in gallic.story.paphnutius-and-the-hidden-book"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 No separate figure record exists for Brictio: he appears in this single story and nowhere else in the
 world's built evidence, and nothing may be asserted about him beyond this locus - he is fully carried

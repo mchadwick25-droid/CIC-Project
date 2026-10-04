@@ -145,9 +145,9 @@ use_note:
     - "a conservatism that forbids all growth"
     - "the test as consistently applied, when that is contested in gallic.contested.who-holds-antiquity"
     - "Cassian's customs as a written Rule"
-    - "Martin's refusal of an unattested tomb as Vincent's doctrine, which sits in gallic.term.the-rule"
+    - "Martin's refusal of an unattested tomb as an application of Vincent's formulated test, which sits in gallic.term.the-rule"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Vincent of
 Lérins, Sulpitius Severus) and, for the Massilian contest over antiquity, the same edition's own

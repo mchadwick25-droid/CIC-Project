@@ -97,8 +97,8 @@ use_note:
     - "anything from Cassian's books against Nestorius, which are unread"
     - "the bare formula, which sits in gallic.quote.one-substance-three-persons"
     - "a private confession of Jesus as personal Lord, which the record lacks"
-  years: {from: 415, to: 434}
-  status: provisional
+  years: {from: 397, to: 434}
+  status: reviewed
 ---
 Closes C-T at the Answer-the-Canon step (inserted between B-7 and B-8),
 matching cappadocian.dw.was-jesus-god's worked structure - a full answer

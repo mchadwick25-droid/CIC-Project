@@ -82,7 +82,7 @@ use_note:
     - "the content of Cassian's seven books on the Incarnation, which sit in unread gallic.source.cassian-de-incarnatione"
     - "the rule the example tests, which sits in gallic.term.the-rule"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 080 (`galliclex080_theotocos.md`, Tier 3, tags SC TC; Doc_03 7.14).
 Kept thin at the Tier-3 floor. The De Incarnatione coverage limit (Registry row 12, unread) is

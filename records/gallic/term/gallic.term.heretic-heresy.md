@@ -118,7 +118,7 @@ use_note:
     - "the rule that detects heresy, which sits in gallic.term.the-rule"
     - "the excommunication formula, which sits in gallic.term.anathema"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 060 (`galliclex060_heretic-heresy.md`, Tier 2, tags SC DR RT PV; Doc_03
 7.10). The [PV] (category / man / reading-hazard) is carried in divergence_note and every sense.

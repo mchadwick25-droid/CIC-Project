@@ -88,7 +88,7 @@ use_note:
     - "a custom already kept in Gaul, when Cassian writes it for Castor's new house"
     - "the two added lessons as angelic, when the fathers added them by their own appointment"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 The chapter divs are `<div4 title="Chapter V. How the fact that the number of the Psalms was to be

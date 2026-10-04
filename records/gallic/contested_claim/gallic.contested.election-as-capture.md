@@ -128,7 +128,7 @@ use_note:
     - "a neutral account of the objecting bishops"
     - "the pattern of monks becoming bishops, which sits in gallic.gravity.monk-bishop"
   years: {from: 397, to: 430}
-  status: provisional
+  status: reviewed
 ---
 Unparked, not invented. The contested content sits in three places in this world's own record: (1)
 gallic.story.election-at-tours's own confidence note and absent_detail ("The objecting bishops' own

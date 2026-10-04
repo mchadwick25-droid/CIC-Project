@@ -121,7 +121,7 @@ use_note:
     - "the Roman see, which sits in gallic.term.apostolic-see-pope"
     - "a later confessional identity"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 055 (`galliclex055_catholic.md`, Tier 2, tags SC DR TC RT; Doc_03 7.1).
 Pruned from Doc_03's Tier-1 estimate at Doc_06 section 2.3 (its defining content is the rule).

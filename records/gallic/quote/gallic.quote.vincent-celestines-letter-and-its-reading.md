@@ -77,7 +77,7 @@ use_note:
     - "Celestine's own interpretation rather than Vincent's reading of the letter"
     - "Pope Stephen's rule, which sits in gallic.quote.pope-stephen-no-innovation"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "85\.\] Holy Pope Celestine"` returns line 14615; read with `sed -n '14614,14632p'`, inside `<div2

@@ -132,7 +132,7 @@ use_note:
     - "the solitary's own dwelling, which sits in gallic.term.cell"
     - "the received customs kept inside the house, which sit in gallic.term.customs-of-the-monasteries"
   years: {from: 397, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 014 (Tier 2; chunk galliclex014_monastery-coenobium.md; Doc_03 1.2). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cells left

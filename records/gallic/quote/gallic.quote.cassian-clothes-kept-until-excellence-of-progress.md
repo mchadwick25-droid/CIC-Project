@@ -50,7 +50,7 @@ use_note:
     - "a claim that the clothes are kept permanently, when the chapter says they are given away once progress is proven"
     - "Gallic practice, when Cassian describes the Egyptian coenobia"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "excellence of his progress"` returns line 18681; read with `sed -n '18674,18684p'`, inside `<div4

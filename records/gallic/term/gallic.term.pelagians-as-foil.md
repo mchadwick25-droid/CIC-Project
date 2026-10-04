@@ -117,7 +117,7 @@ use_note:
     - "the Marseilles party itself, which sits in gallic.term.massilians"
     - "Pelagius's own writings, which the record does not hold"
   years: {from: 426, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 047 (`galliclex047_pelagians-as-foil.md`, Tier 2, tags SC TC RT; Doc_03
 5.9). CT tag not applied per Doc_06 section 3 - the Gennadius charge on Sulpitius attaches to a

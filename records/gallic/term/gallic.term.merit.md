@@ -109,7 +109,7 @@ use_note:
     - "the broader doctrine, which sits in gallic.term.grace"
     - "the saint's power as such, which sits in gallic.term.virtus"
   years: {from: 404, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 046 (`galliclex046_merit.md`, Tier 2, tags SC TC DR; Doc_03 5.7). The
 two referents are kept apart in every field, per the chunk's own voice note. CT tag not applied

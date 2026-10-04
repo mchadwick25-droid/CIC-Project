@@ -154,10 +154,10 @@ use_note:
   not_for:
     - "one Egypt shared by both houses, when that is contested in gallic.contested.egypt-two-measures"
     - "Egypt's own view of Martin"
-    - "the received customs as how Gaul actually lived, when Cassian admits no one kept them"
+    - "the received customs as how Gaul actually lived, when Cassian admits no one in our monasteries kept Egypt's perseverance even for a year"
     - "the rival wonders at Tours as Cassian's view, when he refuses wonders, as in gallic.gravity.virtus"
   years: {from: 404, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Sulpitius
 Severus), cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml (Gennadius), and, for the

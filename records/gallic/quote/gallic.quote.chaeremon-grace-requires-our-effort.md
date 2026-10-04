@@ -72,7 +72,7 @@ use_note:
     - "the three stages of grace, which sit in gallic.quote.chaeremon-three-stages-of-grace"
     - "a claim that effort earns grace outright"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "co-operates with our will"`

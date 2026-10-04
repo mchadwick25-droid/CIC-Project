@@ -52,7 +52,7 @@ use_note:
     - "a measured fiscal history rather than a preacher's indictment"
     - "flight to the barbarians, which sits in gallic.quote.salvian-free-men-in-seeming-captivity"
   years: {from: 439, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n
 "more wicked than the rich"` returns line 5064; read with `sed -n '5052,5067p'`, on the page

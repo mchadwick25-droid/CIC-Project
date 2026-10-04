@@ -90,7 +90,7 @@ use_note:
     - "Sulpitius's providential reading of the surrender as an established fact"
     - "a rule of nonviolence binding all Christians in this world"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, same chapter div
 `id="ii.ii.v"` (line 819) as gallic.quote.martin-refuses-the-donative. `grep -n "thrust back into

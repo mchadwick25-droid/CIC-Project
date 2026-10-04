@@ -113,8 +113,8 @@ use_note:
     - "politics or church-state theory"
     - "Salvian as a historian reporting the fall of Rome"
     - "a Salvian voice on grace and free will, for which his text is not licensed"
-  years: {from: 397, to: 450}
-  status: provisional
+  years: {from: 439, to: 450}
+  status: reviewed
 ---
 Built from Doc_06 entry 054 (`galliclex054_government-of-god.md`, Tier 2, tags SC DR TC; Doc_03
 6.10). G10's only Tier-2 term (Doc_06 section 5 item 4). The single-voice, fourth-voice status

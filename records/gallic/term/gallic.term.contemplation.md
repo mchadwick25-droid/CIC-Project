@@ -122,7 +122,7 @@ use_note:
     - "unceasing prayer as a practice, which sits in gallic.term.unceasing-prayer"
     - "the Martha and Mary figure as used at Tours, where it teaches hospitality"
   years: {from: 404, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 041 (Tier 2; chunk galliclex041_contemplation.md; Doc_03 4.10). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The Greek

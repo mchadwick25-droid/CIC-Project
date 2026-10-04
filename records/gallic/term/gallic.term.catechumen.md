@@ -83,7 +83,7 @@ use_note:
     - "the monastic sense of turning, which sits in gallic.term.conversion"
     - "later catechumenate rites"
   years: {from: 397, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 081 (`galliclex081_catechumen.md`, Tier 3, tags SC TC RT; Doc_03 8.3).
 Kept thin at the Tier-3 floor.

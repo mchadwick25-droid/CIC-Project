@@ -156,7 +156,7 @@ use_note:
     - "the end, the kingdom, which sits in gallic.term.goal-and-end"
     - "the south's own chastity teaching, since Conference XII is excised from the vendored edition"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 006 (Tier 1; chunk galliclex006_purity-of-heart.md; Doc_03 4.1). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass, including puritas

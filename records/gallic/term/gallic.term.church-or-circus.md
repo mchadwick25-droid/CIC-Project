@@ -112,7 +112,7 @@ use_note:
     - "a survey of how often worship lost to the games, when it is one presbyter's indictment"
     - "the Trier episode in particular, which sits in gallic.story.circuses-amid-the-ruins"
   years: {from: 439, to: 450}
-  status: provisional
+  status: reviewed
 ---
 This term is not part of the original 81-term Doc_06 lexicon batch. Built directly
 from a direct read of Gov. VI.5-7, alongside gallic.term.bagaudae and gallic.story.circuses-amid-the-

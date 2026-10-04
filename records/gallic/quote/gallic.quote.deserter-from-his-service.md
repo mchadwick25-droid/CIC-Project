@@ -51,7 +51,7 @@ use_note:
     - "Cassian's own coinage of the entanglement phrase, which he takes from Paul"
     - "a description of literal military desertion"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "becomes a runaway from His service"` returns line 23522; read with `sed -n '23516,23524p'`, inside

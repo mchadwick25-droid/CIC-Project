@@ -55,7 +55,7 @@ use_note:
     - "a rule Cassian applies only to clothing"
     - "a conciliar or episcopal rule, when it is a monastic writer's criterion for custom"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "unhesitating allegiance"` returns one hit, line 16668, inside `<div4 title="Chapter II. Of the

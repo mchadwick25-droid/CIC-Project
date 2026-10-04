@@ -98,7 +98,7 @@ use_note:
     - "the three-part test, which sits in gallic.term.the-rule"
     - "legitimate growth, which sits in gallic.term.progress-vs-alteration"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 056 (`galliclex056_the-deposit.md`, Tier 2, tags AS TC; Doc_03 7.4).
 Tagged [AS] in Doc_06 (not traceable to any reported Egyptian conference); the single-voice status

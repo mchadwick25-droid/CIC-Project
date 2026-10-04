@@ -53,7 +53,7 @@ use_note:
     - "Cassian's own voice, when the teaching is Moses's as Cassian records it"
     - "Archebius's lament over his own election, which sits in gallic.quote.archebius-carried-off-to-panephysis"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "edifying many people"` returns one hit, line 26946, inside `<div4 title="Chapter XX. About

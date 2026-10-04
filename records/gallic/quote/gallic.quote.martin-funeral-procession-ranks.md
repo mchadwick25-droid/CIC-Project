@@ -61,7 +61,7 @@ use_note:
     - "literal soldiers, when the oath of allegiance is to Christ"
     - "the crowd size and monk count, which sits in gallic.quote.martin-funeral-crowd-and-monks"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Undoubtedly the shepherd was then driving"` returns line 2495; `grep -n "abstaining out of modesty

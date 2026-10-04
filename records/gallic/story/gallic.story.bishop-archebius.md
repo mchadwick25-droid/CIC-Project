@@ -130,9 +130,9 @@ use_note:
     - "an independent witness to Archebius, when none survives outside Cassian"
     - "Gallic bishops as such, which sit in gallic.story.election-at-tours"
     - "Cassian's teaching that the wish for office is vainglory, which sits in gallic.term.monk-bishop"
-    - "the identification of the dedicatees as Honoratus and Eucherius as the text's own, when it is the editors'"
+    - "the identification of the holy brothers with Lerins and its abbot as the text's own, when it is the editors'"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 No separate figure record exists for Archebius or for Germanus (Cassian's travelling companion, not
 Germanus of Auxerre): each is fully carried by the story he appears in. Honoratus is related as a

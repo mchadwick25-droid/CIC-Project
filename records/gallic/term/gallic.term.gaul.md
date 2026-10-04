@@ -124,7 +124,7 @@ use_note:
     - "the received customs as such, which sit in gallic.term.customs-of-the-monasteries"
     - "the pagan countryside, which sits in gallic.term.heathen-rustics"
   years: {from: 404, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 068 (`galliclex068_gaul.md`, Tier 2, tags AS DR RT; Doc_03 8.8). Carries
 G2's comparative mode and local pole (Doc_06 section 2.2, section 2.5); tagged [AS] because

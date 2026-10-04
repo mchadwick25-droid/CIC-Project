@@ -58,7 +58,7 @@ use_note:
     - "the opposite refusal of a limited saving will, which sits in gallic.quote.without-grievous-blasphemy-all-men-to-be-saved"
     - "a resolution of the contested grace teaching of Conference XIII"
   years: {from: 426, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "let no one imagine" cic/texts/npnf211..."` matches two chapters; the one needed is line 38459,

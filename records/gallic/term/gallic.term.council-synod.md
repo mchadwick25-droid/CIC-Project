@@ -115,7 +115,7 @@ use_note:
     - "the bishop's office, which sits in gallic.term.monk-bishop"
     - "the three criteria of Vincent's test, which sit in gallic.term.the-rule"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 059 (`galliclex059_council-synod.md`, Tier 2, tags SC TC PV; Doc_03
 7.8). The [PV] is carried as the divergence_note's substance and in every sense: neither valence

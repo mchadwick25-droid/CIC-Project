@@ -118,7 +118,7 @@ use_note:
     - "the saint's power as such, which sits in gallic.term.virtus"
     - "one doctrine of grace common to Martin's healing and Cassian's argument"
   years: {from: 397, to: 435}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 048 (`galliclex048_grace-as-charism.md`, Tier 2, tags SC DR TC; Doc_03
 6.2). Doc_06 sections 2.2 and 2.5 require this term to be "developed alongside 008 and held

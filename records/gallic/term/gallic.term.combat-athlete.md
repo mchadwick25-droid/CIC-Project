@@ -116,7 +116,7 @@ use_note:
     - "the soldier image and its literal Tours origin, which sit in gallic.term.soldier-of-christ"
     - "a particular fault, which sits in gallic.term.eight-principal-faults"
   years: {from: 397, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 023 (Tier 2; chunk galliclex023_combat-athlete.md; Doc_03 2.2). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The Greek at

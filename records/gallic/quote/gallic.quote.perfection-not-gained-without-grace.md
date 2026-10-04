@@ -54,7 +54,7 @@ use_note:
     - "the habit of crediting progress to grace, which sits in gallic.quote.not-i-but-the-grace-of-god-with-me"
     - "Chaeremon's teaching that God wills all to be saved, which sits in gallic.quote.without-grievous-blasphemy-all-men-to-be-saved"
   years: {from: 415, to: 426}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "nobody can ever attain it"` returns line 25170; read with `sed -n '25163,25171p'`, inside `<div4

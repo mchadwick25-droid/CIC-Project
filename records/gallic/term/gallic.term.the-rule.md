@@ -142,8 +142,8 @@ use_note:
     - "a monastic Rule, whether Cassian's customs or Benedict's"
     - "a formula consistently applied, when its use in the live grace dispute is contested in gallic.contested.who-holds-antiquity"
     - "novelty as a value in itself, which sits in gallic.term.novelty-antiquity"
-  years: {from: 397, to: 434}
-  status: provisional
+  years: {from: 434, to: 434}
+  status: reviewed
 ---
 Built from Doc_06 entry 011 (Tier 1, [AS] [CT] Historical scope and Present-day; chunk
 galliclex011_the-rule.md; Doc_03 7.2). Register emic. Quotations verified at locus by the build's own

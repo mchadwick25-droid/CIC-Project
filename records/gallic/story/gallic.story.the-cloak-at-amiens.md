@@ -126,7 +126,7 @@ use_note:
     - "a proof that anyone saw the Lord in the flesh, which gallic.limit.no-one-who-saw-him says is not held"
     - "the editors' identification of Amiens as the text's own"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 "The city of Amiens" is part of the translation's own main text (npnf211, the sentence naming where
 Martin met the beggar), not its endnote - it is quoted here in full, along with everything else the

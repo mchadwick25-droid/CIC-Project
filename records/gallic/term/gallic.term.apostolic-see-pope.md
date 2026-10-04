@@ -118,7 +118,7 @@ use_note:
     - "the question of bishops in general, which sits in gallic.term.monk-bishop"
     - "the authority of councils, which sits in gallic.term.council-synod"
   years: {from: 397, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 entry 062 (`galliclex062_apostolic-see-pope.md`, Tier 2, tags SC DR TC; Doc_03
 7.12). The two referents are kept apart in every field per the chunk's voice note; the

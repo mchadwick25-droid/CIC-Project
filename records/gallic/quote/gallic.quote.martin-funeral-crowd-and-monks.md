@@ -58,7 +58,7 @@ use_note:
     - "an exact count of monks, when the number is given as report"
     - "the procession's ranks of old men, soldiers and virgins, which sit in gallic.quote.martin-funeral-procession-ranks"
   years: {from: 397, to: 397}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "hardly credible what a multitude"` returns line 2487; `grep -n "for the service of the Lord"` returns

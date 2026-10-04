@@ -50,7 +50,7 @@ use_note:
     - "the tax burden itself, which sits in gallic.quote.salvian-rich-murdering-the-poor"
     - "a view shared by the monastic writers of this world generally"
   years: {from: 439, to: 450}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n
 "free men"` and `grep -n "seeming captivity"` both return line 6458; read with `sed -n

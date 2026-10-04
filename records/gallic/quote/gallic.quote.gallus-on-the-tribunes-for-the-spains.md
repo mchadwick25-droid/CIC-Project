@@ -112,7 +112,7 @@ use_note:
     - "the forced communion and the angel, which sit in gallic.quote.gallus-on-the-forced-communion-and-the-angel"
     - "an event corroborated outside Sulpitius's own writings"
   years: {from: 404, to: 406}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "an event which he always

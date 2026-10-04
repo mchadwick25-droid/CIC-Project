@@ -55,7 +55,7 @@ use_note:
     - "Cassian's rule on monastic custom, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
     - "a bare slogan, when Vincent breaks it into three working tests"
   years: {from: 434, to: 434}
-  status: provisional
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "believed everywhere, always, by all"` returns one hit, line 12187, inside `<div2 title="Chapter II. A
