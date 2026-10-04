@@ -158,6 +158,28 @@ describe('the code and the balance', () => {
     }
   });
 
+  it('credits the balance a plain reply reports to the code the request carried', async () => {
+    const { deeper, api } = await loadApi(true);
+    deeper.saveCode(CODE);
+    let reported = '7';
+    vi.stubGlobal('fetch', vi.fn().mockImplementation(
+      async () => new Response(JSON.stringify(DONE), { status: 200, headers: { 'Content-Type': 'application/json', 'X-Cic-Remaining': reported } })
+    ));
+    await api.sendMessage('s', 'c', 'hello');
+    expect(deeper.deeperSnapshot().balances[CODE]).toBe(7);
+    reported = '5';
+    await api.sendTableMessage('s', 'c', 'hello');
+    expect(deeper.deeperSnapshot().balances[CODE]).toBe(5);
+  });
+
+  it('credits the balance a stream\'s final event reports to the code the request carried', async () => {
+    const { deeper, api } = await loadApi(true);
+    deeper.saveCode(CODE);
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(streamOf([sse('done', { ...DONE, remaining: 9 })])));
+    await api.sendMessage('s', 'c', 'hello', undefined, () => {});
+    expect(deeper.deeperSnapshot().balances[CODE]).toBe(9);
+  });
+
   it('credits a reply to the code the request was sent with, even if the list changed while it was in flight', async () => {
     const { deeper, api } = await loadApi(true);
     const OTHER = 'BCDE2345EFGH6789JKLM';
