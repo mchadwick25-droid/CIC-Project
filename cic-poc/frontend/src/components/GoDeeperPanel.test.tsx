@@ -192,3 +192,36 @@ describe('GoDeeperPanel', () => {
     expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([CODE]);
   });
 });
+
+describe('GoDeeperPanel, pilot', () => {
+  it('opens beside the conversation with the pack ready, in the approved words', async () => {
+    vi.resetModules();
+    vi.stubEnv('VITE_DEEPER_ENABLED', 'on');
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({ status: 200, ok: true, json: async () => ({ joined: true, code: 'ABCD 2345 EFGH 6789 JKLM', tokens: 1100, conversations: 10 }) })
+    );
+    window.history.replaceState(null, '', '/#cic-pilot=general');
+    const { GoDeeperPanel } = await import('./GoDeeperPanel');
+    render(<GoDeeperPanel />);
+    const panel = await screen.findByRole('complementary', { name: 'Go deeper' });
+    await vi.waitFor(() => expect(panel).toHaveTextContent('Your free pack is ready'));
+    expect(panel).toHaveTextContent('You have 1,100 tokens, about 10 conversations. They are saved in this browser, so there is nothing to copy.');
+    fireEvent.click(screen.getByRole('button', { name: 'Start a conversation' }));
+    expect(screen.queryByRole('complementary')).not.toBeInTheDocument();
+    vi.unstubAllGlobals();
+  });
+
+  it('says the pilot is full, and links the feedback form for a shared connection', async () => {
+    vi.resetModules();
+    vi.stubEnv('VITE_DEEPER_ENABLED', 'on');
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ status: 409, ok: false, json: async () => ({ joined: false, reason: 'address_limit' }) }));
+    window.history.replaceState(null, '', '/#cic-pilot=general');
+    const { GoDeeperPanel } = await import('./GoDeeperPanel');
+    render(<GoDeeperPanel />);
+    const link = await screen.findByRole('link', { name: 'feedback form' });
+    expect(link).toHaveAttribute('href', 'https://churchinconversation.com/pilot-feedback.html');
+    expect(screen.getByRole('complementary')).toHaveTextContent('This connection has already taken the free packs the pilot allows.');
+    vi.unstubAllGlobals();
+  });
+});

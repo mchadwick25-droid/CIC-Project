@@ -19,6 +19,7 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
   (one-time and monthly), both feeding that one fund, no server involved;
   see the page's own header comment for which link is which.
 
+- `pilot.html` — the pilot's offer and its "Get my free pack" link into the app. Unlisted, noindex, empty until `pilot: true` in `assets/go-deeper-config.js`; the audience comes from `?for=`. Script: `assets/pilot.js`.
 - `go-deeper.html` and `go-deeper-return.html` — Go Deeper: how a code lets a
   conversation carry on, and the page Stripe sends a buyer back to, which shows
   the code. Switched off: nothing links to them, they are marked noindex, and

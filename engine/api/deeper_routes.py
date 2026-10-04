@@ -37,7 +37,7 @@ from engine.deeper.config import DeeperConfig
 from engine.deeper import meter as meter_module
 from engine.deeper.meter import KINDS, AlreadyMinted, Meter, MintLimit, PaymentVoided, PilotRefused, is_grant
 from engine.deeper.free import FreeAllowance
-from engine.deeper.tokens import TokenRates
+from engine.deeper.tokens import TokenRates, conversation_cost
 from engine.api.ratelimit import client_ip, network_of
 
 logger = logging.getLogger("cic.deeper")
@@ -542,7 +542,8 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             runtime.meter.add_funds("gift", pack.price_usd * 100, grant_id, "pilot grant")
         except Exception:  # noqa: BLE001 - the code is made; a failed count must not take it from the visitor
             logger.error("pilot grant made but its gift could not be counted toward the door")
-        return {"joined": True, "code": codes.display(code), "tokens": pack.tokens}
+        solo = conversation_cost(runtime.token_rates, runtime.token_rates.free_rounds)
+        return {"joined": True, "code": codes.display(code), "tokens": pack.tokens, "conversations": pack.tokens // solo}
 
     @app.post("/api/admin/deeper/pause")
     def pause(req: PauseRequest, request: Request, authorization: str | None = Header(default=None)):

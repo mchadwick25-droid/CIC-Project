@@ -1125,6 +1125,7 @@ def test_a_press_gives_one_ordinary_pack_code_shown_once(http, runtime):
     made = join(http)
     body = made.json()
     assert made.status_code == 200 and body["joined"] is True and body["tokens"] == 1100
+    assert body["conversations"] == 10
     assert made.headers["cache-control"] == "no-store"
     assert runtime.meter.status(body["code"]).tokens_total == 1100
     assert runtime.meter.reserve(body["code"]).ok
@@ -1338,3 +1339,17 @@ def test_the_old_single_pilot_total_is_dropped_when_the_file_opens(tmp_path):
     meter = Meter(path, clock=lambda: date(2026, 10, 5))
     assert meter.get_state("pilot_total") is None
     meter.close()
+
+
+def test_a_link_key_equal_to_a_long_audience_name_is_refused_at_start():
+    import dataclasses
+
+    from engine.api.deeper_ops import PilotAudience
+    from engine.api.deeper_routes import parse_pilot_links
+
+    ops = load_ops()
+    name = "a-long-audience-name"
+    audiences = {**ops.pilot_audiences, name: PilotAudience(False, 5, 1, False)}
+    ops = dataclasses.replace(ops, pilot_audiences=audiences)
+    with pytest.raises(DeeperConfigError):
+        parse_pilot_links(json.dumps({name: name}), ops)
