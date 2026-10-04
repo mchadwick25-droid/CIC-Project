@@ -98,6 +98,13 @@ divergence_partners:
 relations:
 - type: associated-with
   target: don.gravity.refusal-of-imperial-legitimacy
+use_note:
+  means: "On the Donatist claim, the state cannot adjudicate which church is true, though the refusal was dominant rather than absolute given three documented turns to imperial power."
+  not_for:
+    - "a claim that the refusal was absolute"
+    - "a claim that the unifying frame of principled refusal is anything other than partly the compilers' own synthesis"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.7 (candidate G5, six of six PASS with
 Persistence qualified by T1, classified Primary at SS4, Confidence/Gravity Cross-Check divergence

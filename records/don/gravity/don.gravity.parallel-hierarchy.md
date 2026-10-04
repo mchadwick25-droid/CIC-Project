@@ -138,6 +138,13 @@ manifestations:
 - 279 Donatist against 286 Catholic bishops seated at the 411 Conference of Carthage
 - the property and basilica disputes that presuppose two complete rival institutional claimants
 - imperial legislation targeting an organised rival clergy and its property specifically
+use_note:
+  means: "Two complete rival churches, each with bishops, basilicas and councils, contested the same sees town by town, a supporting pattern whose bare existence even hostile sources do not dispute."
+  not_for:
+    - "a claim that the hierarchy was a central formative pattern equal to purity, rebaptism and the martyr cult"
+    - "a claim that individual bishops' conduct and motives are known beyond hostile sources"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (candidate G4, generated at SS1, tested at SS3.4, classified
 Supporting at SS4) and the cleared Doc_08 (SS5 and the Force Index's own G4 row). INTERACTION MATRIX

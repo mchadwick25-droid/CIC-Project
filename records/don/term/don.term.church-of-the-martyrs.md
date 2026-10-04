@@ -66,5 +66,13 @@ senses:
     doing.'
 quick_meaning: The Church of the Martyrs -- what we are, not merely what we left.
 distortion_risk: medium
+use_note:
+  means: "This is the Donatist self-understanding as the one communion that has truly suffered for the truth, rather than a group defined by what it left."
+  not_for:
+    - "a claim that it is a boast of spiritual superiority rather than a claim about what happened"
+    - "a claim that any persecuted church could take the title regardless of who did the persecuting"
+    - "a claim that it was a fixed formal Latin title or quoted slogan"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Built from Doc_06 SS1 entry 012 (Tier 2; full depth deliberately carried inside the Martyr/Martyrdom Tier-1 entry rather than promoted). Slug uses the Latin form for id stability; world_word keeps the English, since no fixed Latin title is quoted anywhere in the build.

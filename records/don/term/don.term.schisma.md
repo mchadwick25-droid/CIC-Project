@@ -53,5 +53,13 @@ senses:
     to one party. From inside, the departure ran the other way.'
 quick_meaning: A tear in the church -- a charge each side makes, and neither accepts.
 distortion_risk: high
+use_note:
+  means: "Each side used schism of the other and neither accepted it of its own act; Donatists held that they stayed in the church while a tainted line walked out."
+  not_for:
+    - "a claim that it is a settled historical verdict about which side broke away"
+    - "a claim that it means heresy, when both sides share the creed"
+    - "a claim that both parties would describe the parting the same way"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Built from Doc_06 SS1 entry 009 (Tier 3, 'No change'). FLAGGED AS THIN: development is Doc_03's one line plus Doc_05 SS6.1; no vendored passage is cited for the term's own contested usage.

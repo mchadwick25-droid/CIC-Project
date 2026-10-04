@@ -65,5 +65,13 @@ senses:
     dispute you stand on.'
 quick_meaning: Praise to God -- our cry, where our rival says thanks to God.
 distortion_risk: medium
+use_note:
+  means: "Deo laudes, 'praise to God', was the Donatist cry set against 'Deo gratias', a badge of who one is, cut in stone at Bagai and elsewhere in their own words."
+  not_for:
+    - "a claim that it was an ordinary liturgical response with no party meaning"
+    - "a claim that it was a doctrinal formula rather than a badge"
+    - "a claim that it was a private devotional phrase rather than a public act of identification"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Built from Doc_06 SS1 entry 013 (Tier 2; carried inside the Martyr/Martyrdom entry's Worship Ecology content, not separately promoted). No deployment chunk built this cycle. Doc_03 SS2's 'one clearly non-Augustine-mediated anchor' finding is carried into senses.evidential.

@@ -71,5 +71,13 @@ senses:
     the movement, and this record does not.'
 quick_meaning: Tyconius's seven rules for reading scripture -- one book, and its author condemned.
 distortion_risk: low
+use_note:
+  means: "Tyconius, a Donatist layman, wrote seven rules for reading scripture, the communion's one wholly original work of interpretation; his own council condemned him and he gathered almost no following."
+  not_for:
+    - "a claim that it represents how this communion read scripture, since its author was condemned by his own side"
+    - "a claim that it founded a school of interpretation, when no following is attested"
+    - "a claim that it is a systematic theology rather than a handbook of seven rules"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Built from Doc_06 SS1 entry 021 (Tier 2; Tyconius's hermeneutics tested at Doc_04 SS2 and not advanced as a gravity). FLAGGED: the vendored primary text has not been read in depth by this build (Doc_02 SS2), so content rests on Monceaux's secondary chapter. relations is deliberately empty -- Doc_05 SS6.5's finding is that this term stands outside the gravity spine, and a cross-term claim here would assert an integration the build explicitly did not find.

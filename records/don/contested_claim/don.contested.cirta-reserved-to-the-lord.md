@@ -55,5 +55,12 @@ concedes: 'The bare facts of what happened at Cirta are Documented and not in di
 divergence_partners:
 - don.source.optatus-against-donatists
 - don.source.optatus-appendix-of-documents
+use_note:
+  means: "Whether the 305 Cirta ruling to reserve the traditor question to the Lord was evasion, as Optatus tells it, or mercy or humility about what could be verified, is contested."
+  not_for:
+    - "a claim that the ruling was plainly an implicit admission of guilt"
+    - "a claim that the ruling is settled as an act of mercy or humility"
+  years: {from: 305, to: 305}
+  status: provisional
 ---
 Re-derived from Story-Chunks/donstory007_council-of-cirta.md, read in full this session -- its own Formation Ecology Connection section already ties this material directly to G1 ('Ministerial Purity / Traditor-Free Sacramental Validity... but as a complicating case rather than a simple illustration'), and its own Usage Guidance already states this exact contest ('Optatus's own characterization... should not be adopted uncritically... while being honest that no surviving Donatist-authored account of this specific council exists to confirm that alternative reading directly') -- this record gives that already-argued contest its own dedicated contested_claim treatment rather than leaving it inside a story chunk's own Usage Guidance prose, per this step's own launch brief. relations[] carries one gravity edge (G1) named in this script's own docstring under RECIPROCITY. Distinct from don.contested.circumcellion-character: a different council, a different sole source (Optatus alone, no CTh 16.5.52 or Registry-row-24 material involved), and a different kind of contest (what a specific ruling MEANT, not a group's own character and scale) -- not a duplicate treatment of the same underlying material. Does not touch Article 29 Limb 2: Optatus is not one of the two figures (Cyprian, Augustine) that gate names, and the ruling's own meaning is not a present-day-tradition-mediation question.

@@ -81,5 +81,13 @@ senses:
     decided the question, there would have been no reason to stand apart.'
 quick_meaning: The church -- the one word two whole rival hierarchies both claim, town by town.
 distortion_risk: high
+use_note:
+  means: "Two rival bodies claimed the word church town by town, so the word itself was the argument, and Donatists held that their rival's favour with the state settled nothing."
+  not_for:
+    - "a claim that the Donatists were a breakaway sect measured against a real mainstream church"
+    - "a claim that the two churches were denominations that could agree to differ and coexist"
+    - "a claim that the church was one settled institution whose identity nobody disputed"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Built from Doc_06 SS1 entry 008 (Tier 1, confirmed at Doc_04 SS7) and `Lexicon-Chunks/donlex008_church-ecclesia.md`. Doc_06 SS3's honest note -- that this term was never run through Doc_04's six-test apparatus and carries no Confidence/Gravity Cross-Check finding of its own -- is carried into the divergence_note rather than dropped.

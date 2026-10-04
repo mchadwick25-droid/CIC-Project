@@ -72,5 +72,13 @@ senses:
     story here; it is the story.'
 quick_meaning: 'Two persecutions, kept apart: one from the empire, one at our rival''s urging.'
 distortion_risk: medium
+use_note:
+  means: "Donatists remembered two persecutions and kept them distinct: the first from the empire, which their later rival suffered beside them, and the second at that rival's urging through the emperor."
+  not_for:
+    - "a claim that persecution here means only persecution by pagan Rome"
+    - "a claim that it was a single continuous experience of suffering"
+    - "a claim that the state repression was religious neutrality gone wrong rather than one church using the state on another"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Built from Doc_06 SS1 entry 020 (Tier 2; the dual-persecution content is carried inside the Martyr/Martyrdom and Refusal of Imperial Legitimacy Tier-1 entries). No deployment chunk built this cycle. Content drawn from Doc_05 SS6.2 (Memory Ecology) and Doc_01 SS5.

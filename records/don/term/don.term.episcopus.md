@@ -78,5 +78,13 @@ senses:
     was no neutral ground from which to ask who was right.'
 quick_meaning: Two bishops for one city. A whole rival church order, see for see.
 distortion_risk: high
+use_note:
+  means: "Donatists had a bishop wherever their rival did, a see-for-see church order across Roman North Africa, with 279 of their bishops facing 286 of the rivals' at the 411 Conference."
+  not_for:
+    - "a claim that the Donatists were a loose protest movement without institutional structure"
+    - "a claim that there was a single settled bishop of a city whom nobody contested"
+    - "a claim that the rival claimant was understood by all sides to be irregular or provisional"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Built from Doc_06 SS1 entry 015 (Tier 1, confirmed at Doc_04 SS7) and `Lexicon-Chunks/donlex015_bishop-episcopus.md`. NOTE: the chunk's World Meaning and Distortion Risk sections still carry the superseded 284 figure for Donatist bishops seated at the 411 Conference while its own Key Sources note records the correction to 279 (Doc_01 SS2, Doc_04 SS3.4, Doc_05 SS1). This record uses 279 and flags the chunk-internal inconsistency for a deployment-layer fix.

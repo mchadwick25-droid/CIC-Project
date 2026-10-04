@@ -170,6 +170,14 @@ modern_contrast: >-
   that a transcript this full settles what happened. It does not settle
   the argument - it records it, at length, in the losing side's own
   voice, which is a rarer thing and a different one.
+use_note:
+  means: "In 411, 279 Donatist bishops met 286 rivals before an imperial judge, refused the offered chairs, and argued three days that the court had already chosen a side."
+  not_for:
+    - "a claim that the conference was a meeting between equals who came to talk"
+    - "a claim that the transcript records the court's verdict"
+    - "a claim that a full transcript settles what happened"
+  years: {from: 411, to: 411}
+  status: provisional
 ---
 NEW AT B-4: this is the one story in this world's inventory that Doc_09
 did not build. Doc_09 Section 8 item 2 names it as an Absent Story and

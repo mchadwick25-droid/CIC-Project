@@ -93,6 +93,14 @@ divergence_partners:
 relations:
 - type: associated-with
   target: don.gravity.rebaptism-boundary
+use_note:
+  means: "On the Donatist claim, baptism outside the true church is no baptism, so a convert is baptised first and truly, as the African bishops under Cyprian already held in 256."
+  not_for:
+    - "a claim that Cyprian's Carthage of 256 is simply this rite's earlier self"
+    - "a claim that the rite was held without exception, since Maximianist clergy were received without repeated baptism"
+    - "a claim that the reasoning for suspending the rite for Maximianist clergy survives"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.2 (candidate G2, six of six PASS,
 classified Primary at SS4, Confidence/Gravity Cross-Check CONSISTENT with no significant divergence -

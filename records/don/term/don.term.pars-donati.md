@@ -68,5 +68,13 @@ senses:
     the only voice that preserved the phrase preserved it as an accusation.'
 quick_meaning: The party of Donatus -- the phrase our rival turned into a charge against us.
 distortion_risk: medium
+use_note:
+  means: "Donatist clergy signed a petition as bishops 'of the party of Donatus'; the rival read this as naming a man instead of Christ's church, which the Donatists did not accept."
+  not_for:
+    - "a claim that Donatist is a neutral scholarly label with no side taken"
+    - "a claim that it was a founder-centred personality cult in the modern sectarian sense"
+    - "a claim that it was the settled self-description, when the preferred self-naming appears to have run the other way"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Built from Doc_06 SS1 entry 005 (Tier 2, no promotion forwarded; naming-contest content carried at Doc_05 SS6.1). No deployment chunk built this cycle. Doc_03 SS6's open item on Augustine's own usage is carried unresolved into divergence_note.

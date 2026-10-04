@@ -128,6 +128,14 @@ manifestations:
 - the Maximianist suppression's reported Circumcellion involvement - itself hostile-mediated and not independently
   confirming character
 - the character-and-conduct portrait itself, which survives only in hostile polemic and is left contested
+use_note:
+  means: "Within Numidia only, the agonistici are a supporting pattern; their bare existence is independently attested, while their character and scale come largely through hostile sources."
+  not_for:
+    - "a claim that the agonistici are a supporting pattern for the Donatist world as a whole"
+    - "a claim that the group's character and scale are established by independent evidence"
+    - "a claim that the name agonistici is independently attested rather than reported by Augustine"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (candidate D-A, generated at SS1 with HIGH Author-Gravity risk
 flagged, tested at SS3.5, classified Supporting and scope-qualified at SS3.5's own Disposition and

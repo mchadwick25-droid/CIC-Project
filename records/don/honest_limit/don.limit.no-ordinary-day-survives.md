@@ -111,6 +111,13 @@ nearest_material:
 - don.source.lucilla-and-the-second-unnamed-woman
 - don.term.agonistici
 - don.figure.lucilla
+use_note:
+  means: "No Donatist account of an ordinary day survives, and the missing voices are most of the communion, including women, of whom only Lucilla is named."
+  not_for:
+    - "a claim that ordinary daily life, household or village religion is recoverable from the communion's own words"
+    - "a claim that the gap is a few marginal voices rather than most of the communion"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Closes F5-I as a declared absence. This is the cell the world's own
 `thin_topics` most directly forecloses: seven questions about food,

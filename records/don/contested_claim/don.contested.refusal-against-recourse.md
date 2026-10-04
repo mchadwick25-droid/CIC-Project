@@ -76,6 +76,14 @@ divergence_partners:
 relations:
 - type: associated-with
   target: don.gravity.refusal-against-recourse
+use_note:
+  means: "On the Donatist claim, the three turns to imperial machinery were named exceptions within a principled refusal, not opportunism; no Donatist account of how they saw it survives."
+  not_for:
+    - "a claim that the label 'principled refusal against pragmatic exception' comes from the Donatists rather than the build's own synthesis"
+    - "a claim that the three turns were opportunism all along"
+    - "a claim that the Donatists experienced the three instances as exceptions to a principle"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.6 (candidate T1, classified Tensional
 at SS4, its Repetition, Persistence and Interaction tests all PASS) and Doc_07 SS4 and SS6. Held for

@@ -43,6 +43,13 @@ why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS8 item 3 states this fin
 nearest_material:
 - don.gravity.circumcellion-agonistici
 - don.contested.circumcellion-character
+use_note:
+  means: "The Donatist side's own answer to specific, dated charges of violence, such as the near-fatal attack on a bishop at Bagai, does not survive, and none is supplied here."
+  not_for:
+    - "a claim that the charges of violence are vague rumours"
+    - "a claim that an account from inside the communion answering these charges survives"
+  years: {from: 311, to: 439}
+  status: provisional
 ---
 Celled to F3-P ('Did your churches ever fail to hold their own people accountable for real harm -- and if so, what happened?') -- a direct match for exactly the shape of question this world's own record cannot answer from the inside. Distinguished from don.contested.circumcellion-character (a genuine, already-built scholarly contest over the group's typical CHARACTER and SCALE, register etic) -- this record's own limit is narrower and different in kind: not whether the hostile portrait is overstated, but whether THIS WORLD'S OWN RECORD can speak, in its own voice, to these SPECIFIC, dated, named episodes at all. It cannot, on either question. Per Doc_09 SS8 item 3's own discipline (quoted above), this record's own statement does not itself narrate the specific allegations' content in a way that could be mistaken for this world confirming, denying, or minimizing them -- it names the limit, once, at the level of generality Doc_09 itself uses. relations[] carries one edge, to don.gravity.circumcellion-agonistici (the D-A gravity this limit's own subject matter falls under) -- reciprocal edge added directly to that file after this script runs. No relations[] edge to don.contested.circumcellion-character specifically (a different claim, sourced and reasoned differently); nearest_material lists it instead, per that field's own job.
 

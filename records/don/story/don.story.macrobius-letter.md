@@ -108,6 +108,13 @@ modern_contrast: >-
   the omen and the dream are how he told them what those deaths meant.
   The closing turn is the give-away: this is not a report filed for the
   record but a letter written to prepare its readers for the same thing.
+use_note:
+  means: "A bishop writes to his congregation about two of their members tortured to death, whose bodies the proconsul sank in the sea, and the sea gave them back."
+  not_for:
+    - "a claim that the letter is a report filed for the record rather than preparation of its readers for the same fate"
+    - "a claim that any proconsul-side or independent record of the deaths survives"
+  years: {from: 347, to: 348}
+  status: provisional
 ---
 Compiled from World-Builds/Donatism/Story-Chunks/donstory003_macrobius-
 letter-isaac-maximianus.md (Doc_09 story index row donstory003, Tier 1),
