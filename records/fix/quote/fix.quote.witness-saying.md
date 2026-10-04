@@ -20,6 +20,13 @@ modern_rendering: >-
 speaker_or_author: fix.figure.the-elder
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."
+use_note:
+  means: "The speaker did not see Jesus and trusts the persistence of those who did."
+  not_for:
+    - "a claim of eyewitness testimony"
+    - "a claim about what the witnesses saw"
+  years: {from: 100, to: 100}
+  status: provisional
 ---
 Clean, sourced, licensed quote covering C-P (the "I want to believe but I can't"
 personal cell). The M3-admission fabrication DEFECT (fixtures/seeded_defects.yaml)
