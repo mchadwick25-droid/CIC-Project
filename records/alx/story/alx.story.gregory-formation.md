@@ -13,10 +13,14 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: >-
+    The Address itself covers the curriculum, the spark and the farewell. Gregory's homeland and his five years under Origen come from the ANF translator's introduction (Salmond, 1886), a modern summary, not from the Address.
 sources:
 - source_id: alx.source.gregory-address-to-origen
   locus: VI-XVI (anf06 from line 2288)
+  license: public-domain
+- source_id: alx.source.gregory-address-to-origen
+  locus: the translator's introduction (anf06 lines 631-632, 796-797 and 812)
   license: public-domain
 retrieval:
   tier: 1
@@ -62,36 +66,3 @@ use_note:
   years: {from: 233, to: 238}
   status: reviewed
 ---
-Most elements are in the Address itself, within the stated VI-XVI locus
-(the soil-testing and curriculum sequence in Arguments VII-IX, the spark
-passage in Argument VI, the paradise lament in Argument XVI). Two facts
-in the opening sentence come instead from the vendored ANF06 volume's
-editorial introduction to Gregory (preceding the Address's own division
-at file line 2288), not from Arguments VI-XVI or the Address's own body
-text: (1) homeland - the introduction states Gregory "was a native of
-Neo-Cæsarea, the chief city of Pontus" (anf06 line 631-632; restated line
-796-797, "a native of Neo-Cæsareia... one of the most important towns of
-Pontus"), matching this world's own alx.figure.gregory-thaumaturgus
-("Gregory Thaumaturgus of Neocaesarea"). Cappadocia appears elsewhere in
-the vendored file - "Alexander of Cappadocia" as a distinct historical
-figure (lines 14688, 15623-15636) and Cappadocia in provincial lists
-(17325, 28982) - but none of these occurrences names Gregory's own
-homeland. (2) time under Origen - the introduction's own figure for the
-residence with Origen is "some five years" (anf06 line 812: "After a
-residence of some five years with the great Alexandrian, he returned to
-his native city"), matching alx.figure.gregory-thaumaturgus's "student
-under Origen at Caesarea c. 233-238." The Address's only "eight years" is
-Argument I's separate claim about giving up oratory ("it is now eight
-years since I chanced myself to utter or compose any speech," anf06 line
-2319), not the span of study with Origen.
-
-This record's only cited source locus is "VI-XVI" (Arguments VI through
-XVI of the Address proper), which is genuinely what the Address's own
-narrated content (soil-testing, curriculum, spark, paradise lament) rests
-on. The two introduction-sourced facts above (homeland, years with
-Origen) come from the ANF06 volume's editorial front matter (anf06 lines
-631-632, 796-797, 812), which nothing in sources: currently covers; they
-are disclosed here, in the body, consistent with how this record already
-discloses the distinction between the Address's own narration and its
-surrounding apparatus.
-Companion quote: alx.quote.gregory-spark.

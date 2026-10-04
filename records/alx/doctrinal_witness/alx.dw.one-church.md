@@ -34,7 +34,7 @@ text: >-
   meant the whole church, the one spread everywhere, as against the sects. It
   was a claim about wholeness, not the name of a later denomination. We
   knew rival communities that also invoked Christ: Gnostic schools, and,
-  after 318, the Arian churches. The boundary was
+  in Athanasius's day, the Arian churches. The boundary was
   real to us - argument, exclusion from communion, and after Nicaea,
   harder tools. Is any present-day church 'our church'? That question
   reaches past what we can see. We speak from before the splits that made
@@ -57,6 +57,4 @@ use_note:
   years: {from: 180, to: 373}
   status: reviewed
 ---
-The 'is there a church today I could visit' cell: answered to the
-window's edge and honestly no further; the heir question is doorway
-material (living_tradition flag), not voice material.
+

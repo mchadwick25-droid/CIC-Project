@@ -30,8 +30,8 @@ narrative_tier: 1
 narrative_tier_justification: 'Tier 1 (documented historical narrative) for the meeting itself: Palladius''s
   eyewitness testimony (''I met him four times in all''); the biographical details are what Didymus himself
   told him (''so he told me'').'
-tellable_as: the traveler Palladius's own account of meeting the blind master of the school
-text: 'Palladius came to Alexandria late in the fourth century and visited Didymus four times over ten years. The teacher was old, and blind, and had been blind since he was four - too young ever to have learned letters. He had never seen a written word of the Scripture he taught. What others took in with their eyes he had taken in through his ears and held: the whole of Scripture in memory, weighed and ordered. Jerome called him the seer, a name set against his blindness. He died at eighty-five. He told Palladius himself the age at which he was blinded.'
+tellable_as: the traveler Palladius's own account of meeting Didymus, the blind author
+text: 'Palladius came to Alexandria late in the fourth century and visited Didymus four times over ten years. The teacher was old, and blind, and had been blind since he was four - too young ever to have learned letters. He had never seen a written word of Scripture. Yet he interpreted the Old and New Testament word by word, and Palladius judged that he surpassed the ancients in knowledge. Later tradition called him the seer, a name set against his blindness. He died at eighty-five. He told Palladius himself the age at which he was blinded.'
 absent_detail: 'What Didymus''s lessons were actually like - his classroom, his methods hour to hour -
   Palladius does not record; and Didymus''s own books, which survived him, are lost to us except in fragments
   recovered centuries later (the sharpest source absence in this world - see the search record). The ''seer''
@@ -60,20 +60,3 @@ use_note:
   years: {from: 380, to: 398}
   status: reviewed
 ---
-Serves F4-P ('does your way of life have anything for someone like
-me?' - a man the world would have written off, taught and remembered
-anyway) and F5-I (sickness/disability in the community's life: not
-cured, not excluded - taught).
-
-Palladius line 211 reads 'He was 85 years old when he died. He was
-blind, having lost his sight at the age of four, so he told me' - 'so he
-told me' grammatically attaches to the age he was blinded, not his age
-at death (which Palladius, writing after Didymus's death, could not have
-learned from him directly); the text attributes to Palladius only the
-age of blinding. This record's own cited loci (Palladius IV, which calls
-him 'the blind author'; Jerome De Viris 109, a works-list plus an age
-notice) do not mention a school, a half-century span, or students coming
-from everywhere; the only vendored text calling him head of the school
-is an NPNF editor's introduction (npnf203, line ~44086), not
-primary-source text, and this record does not rest on it. The 'seer'
-epithet's citation is discussed in absent_detail.

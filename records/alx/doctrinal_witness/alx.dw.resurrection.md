@@ -29,7 +29,7 @@ text: >-
   and he pointed to the disciples themselves. Men who ran away at the arrest
   went to their deaths proclaiming what they said they saw, and gained nothing
   on earth by it. No made-up story produces that change - that was Origen's
-  argument. Athanasius, a century later, added the argument of present power:
+  argument. Athanasius, later still, added the argument of present power:
   the dead do not inspire the living to die without fear. The martyrs'
   contempt for death was, to him, the risen Christ's continuing signature.
   We did not have modern history-writing, and we did not pretend to.
@@ -42,7 +42,7 @@ positions:
 - The argument is public. It was made to a hostile critic. It was not whispered among believers.
 tensions:
 - ancient standards of testimony vs modern evidential expectations - the gap is stated, not hidden
-- 'Origen''s argument is apologetic literature: its force was contested by its first target and remains
+- 'Origen''s argument is apologetic literature: it answers Celsus''s charge that the story was invented, and it remains
   contestable'
 relations:
 - type: associated-with
@@ -51,10 +51,9 @@ use_note:
   means: "This witness says the resurrection was argued from lives: Origen's case from the disciples' fearless deaths and Athanasius's from the martyrs' contempt for death."
   not_for:
     - "modern historical proof, which the record says this world did not claim"
-    - "a claim that the argument settled the matter, when its first target, Celsus, contested it"
+    - "a claim that the argument settled the matter, when it answers a charge of invention and remains contestable"
     - "Origen's own wording, which sits in alx.quote.a-doctrine-they-would-not-have-taught"
   years: {from: 248, to: 373}
   status: reviewed
 ---
-The evidential Center cell: the world's own kind of evidence, honestly
-distinguished from modern kinds.
+

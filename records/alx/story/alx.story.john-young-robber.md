@@ -32,7 +32,7 @@ narrative_tier_justification: 'Tier 2 (collected traditional material): Clement 
   account, handed down and committed to memory, about the Apostle John'' - a tradition he received and
   vouched for, not an event he witnessed. The chain before Clement is unrecoverable.'
 tellable_as: a story Clement told as true tradition about the Apostle John and a young man who fell
-text: 'Clement told this as a story handed down about John. In a city near Ephesus, the aged apostle entrusted
+text: 'Clement told this as a story handed down about John. He set it in the apostle''s last years, long before his own day. In a city near Ephesus, the aged apostle entrusted
   a promising young man to the bishop''s care, to be raised in the faith. The bishop taught and baptized
   him - and then relaxed his watch. The young man fell in with idle companions, then with worse, until
   at last he ran to the hills and became chief of a band of robbers. Years later John returned and asked
@@ -59,29 +59,12 @@ modern_contrast: >
   story is about the weight of an unbroken formation relationship and what
   repairing it actually costs, not a redemption-arc morality tale.
 use_note:
-  means: "Clement relays as true tradition how the aged apostle John rode out to restore a young man turned robber chief, evidencing costly restoration after falling."
+  means: "Clement relays as true tradition how the aged apostle John, long before Clement's day, rode out to restore a young man turned robber chief, evidencing costly restoration after falling."
   not_for:
     - "presenting the events as established history rather than as Clement's received tradition"
     - "reading it as a simple redemption arc that skips the bishop's relaxed watch and the cost of restoration"
     - "stating the city as Smyrna where Clement himself does not commit to it"
+    - "placing the events inside this world's years, when only Clement's telling of them falls there"
   years: {from: 180, to: 215}
   status: reviewed
 ---
-The world's best story for restoration-after-falling: serves F4-I (when
-someone wronged the community, could they come back?) and F6-P ('if
-someone left your community for good, what would you have wanted them
-to know?'). Every narrative element above is in Clement's telling;
-the dialogue is condensed and modernized in wording, not invented (the vendored text (anf02, within div vi.v, lines 57244-57330)
-splits the bishop's speech and John's interjection into two separate
-speeches; renders "He is a robber on the mountain" as "now he has taken
-possession of the mountain in front of the church, along with a band
-like him"; and has John say "my son" (here "child"), "I will give
-account to Christ for thee" (here "I will answer for you to Christ"),
-and "Stand" (here "Stop"), while dropping "For thee I will surrender my
-life" entirely. See the vendored text at the cited lines for the
-original phrasing).
-
-CENTER-CELL MAPPING (V1.2 birth condition applied to the existing
-fleet - one story and one term per center cell where they genuinely
-belong, honest empties recorded). Added to C-P: "Would Jesus have wanted anything to do with someone like me?" - the apostle riding after the fallen young man to bring him back is this world's own handed-down answer. Content unchanged; the added
-cell and this note are the whole edit.

@@ -13,7 +13,8 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: >-
+    Eusebius quotes the letter but gives no year. The date, shortly before Easter 263, is the NPNF editor's inference in his note on VII.22.
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
   locus: VII.22 (npnf201 lines 41084-41090; Dionysius's festal letter quoted verbatim by Eusebius)
@@ -57,13 +58,6 @@ use_note:
     - "a claim that every Christian stayed, when Dionysius says 'the most of our brethren'"
     - "a theodicy explaining why God allowed the plague"
     - "an outsider's report, when this is the bishop praising his own flock"
-  years: {from: 260, to: 260}
+  years: {from: 262, to: 263}
   status: reviewed
 ---
-Dionysius's own words on the plague of c. 260 - what the community DID
-when death filled the city. This is Eusebius's strong mode (verbatim
-document quotation), so the HIGH-risk institutional screen does not
-apply; the double transmission (his letter, Eusebius's quotation) is
-carried on the sources. Serves F5-I (what did you do when someone was
-sick/dying) and F6-P (where was God in suffering - answered by witness,
-not theodicy). Verified verbatim.

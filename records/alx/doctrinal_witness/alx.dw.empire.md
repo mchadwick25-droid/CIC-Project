@@ -12,13 +12,14 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: null
+  divergence_note: >-
+    The count and dates of Athanasius's five exiles come from the NPNF editor's Prolegomena (Robertson, 1892), not from Athanasius's own letters. The emperors sent him away for different reasons, and the fourth exile came under Julian, who was no champion of Nicaea.
 sources:
 - source_id: alx.source.athanasius-festal-letters
-  locus: the exile-years letters
+  locus: Robertson's Prolegomena §§5-9 (the five exiles, 335-366)
   license: public-domain
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: the persecution books vs the Constantinian close
+  locus: VI.2 (Leonides beheaded), VIII.2 (churches destroyed), VIII-IX (the persecution), X (the Constantinian close)
   license: public-domain
 retrieval:
   tier: 1
@@ -32,7 +33,7 @@ text: >-
   confession was enforced. The bishop of Alexandria became, among other
   things, a tool of order on an empire's scale. Athanasius is our own test
   case, and he breaks the simple story both ways. The empire backed Nicaea,
-  and exiled him five times for defending it. Imperial favor built churches,
+  and still sent its chief defender into exile five times between 335 and 366. Imperial favor built churches,
   and imperial politics filled them with rival bishops. The record does not
   show purity corrupted. It shows power arriving with both hands, protection
   and interference at once. And it shows a church that had chosen neither,
@@ -48,7 +49,7 @@ relations:
 - type: associated-with
   target: alx.quote.no-festal-letter-was-written
 use_note:
-  means: "This witness says imperial favour after 325 brought the church protection and interference at once, shown in Athanasius, exiled five times for defending Nicaea."
+  means: "This witness says imperial favour after 325 brought the church protection and interference at once, shown in Athanasius, exiled five times between 335 and 366."
   not_for:
     - "a simple story of a pure church corrupted by Constantine"
     - "a claim that church and empire simply merged"
@@ -56,5 +57,4 @@ use_note:
   years: {from: 202, to: 373}
   status: reviewed
 ---
-The Constantine cell, answered from inside the one community that
-experienced both sides within living memory.
+

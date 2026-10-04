@@ -18,7 +18,7 @@ sources:
   locus: the lapsed letters
   license: public-domain
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: VI.8 (the rupture), VII (the lapsed controversy)
+  locus: VI.8 (the rupture), VI.41-46 (the lapsed controversy, with Serapion's deathbed restoration at VI.44)
   license: public-domain
 retrieval:
   tier: 1
@@ -31,16 +31,13 @@ text: >-
   gods. When peace came, the community fought
   bitterly over them. The strict party demanded they stay out. The tradition
   that won here brought the repentant back in, even at the deathbed, and
-  Dionysius defended doing so. After Nicaea, the church itself learned to use
-  exile and condemnation, and some of what was done with that power our own
-  sources report without pride. At our best, we refused the two easy
+  Dionysius defended doing so. At our best, we refused the two easy
   exits: we did not pretend the failure away, and we did not make the failed
-  unforgivable. At our worst, we did what churches with power do. That, too,
-  is in our record.
+  unforgivable. At our worst, we fought bitterly and cast out our own. That,
+  too, is in our record.
 positions:
 - The community's own writings record its failures. Its critics are not the only source.
 - restoration of the fallen prevailed over rigorism - with real struggle
-- The church owns the force it used after Nicaea as its own act. It does not blame the empire.
 tensions:
 - honoring the office vs telling the truth about its holders - the record does both, uncomfortably
 - the asker's wound (a church that protected harm-doers) meets a record of a church that fought about
@@ -49,13 +46,12 @@ relations:
 - type: associated-with
   target: alx.quote.demetrius-accused-him-bitterly
 use_note:
-  means: "This witness says the community's own record keeps its failures visible: Demetrius against Origen, the lapsed controversy, and post-Nicene exile and condemnation."
+  means: "This witness says the community's own record keeps its failures visible: Demetrius against Origen and the lapsed controversy."
   not_for:
     - "a claim that the church always chose well, when the record says it did not"
     - "the detail of the Demetrius-Origen rupture, which sits in alx.quote.demetrius-accused-him-bitterly"
-    - "a claim that the empire alone bears the blame for post-Nicene coercion"
-  years: {from: 231, to: 373}
+    - "the church's use of exile and condemnation after Nicaea, which this witness does not cover"
+  years: {from: 231, to: 264}
   status: reviewed
 ---
-The church-failure cell: answered without defense-lawyering; the
-identity-collision-adjacent care lives in step-5 demonstrations.
+

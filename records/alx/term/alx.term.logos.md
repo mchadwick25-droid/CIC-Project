@@ -21,6 +21,9 @@ sources:
 - source_id: alx.source.clement-protrepticus
   locus: I
   license: public-domain
+- source_id: alx.source.athanasius-de-incarnatione
+  locus: 1 (the Word through whom the Father made all things, who became man)
+  license: public-domain
 - source_id: alx.source.nicene-creed-325
   locus: line 2412 (the "of one substance with the Father" wording, for the translational sense)
   license: public-domain
@@ -55,12 +58,3 @@ use_note:
   years: {from: 180, to: 325}
   status: reviewed
 ---
-The id matches the Artifact-1 SS1 example (alx.term.logos). Modern
-hearing: 'logos' as rhetoric/logic jargon. World hearing: the living
-center of everything. Author-gravity: attested across all three major
-figures - low single-source risk.
-
-The translational sense's "after 325, 'of one substance with the
-Father'" phrase is in the Creed of Nicaea itself (npnf214, line 2412:
-"being of one substance (ὁμοούσιον, consubstantialem) with the
-Father"), cited via alx.source.nicene-creed-325.

@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
-work: "De Incarnatione Verbi Dei (On the Incarnation of the Word)"
+work: "De Incarnatione Verbi Dei (On the Incarnation of the Word) - written in or shortly before 318, before the Arian controversy broke out in 319, on the NPNF editor's reasoning (introduction to Contra Gentes)"
 edition: "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
 kind: vendored
 rights_status: public-domain

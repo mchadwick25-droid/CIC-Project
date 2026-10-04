@@ -17,7 +17,7 @@ confidence:
 sources:
 - source_id: alx.source.athanasius-festal-letters
   locus: >-
-    Festal Letter XXXIX, sec. 7, of 367 (npnf204_athanasius-select-works-letters.xml)
+    Festal Letter XXXIX, sec. 7, of 367 (npnf204 lines 68817-68823)
   license: public-domain
 text: >-
   But for greater exactness I add this also, writing of necessity; that there are other books besides these not indeed included in the Canon, but appointed by the Fathers to be read by those who newly join us, and who wish for instruction in the word of godliness. The Wisdom of Solomon, and the Wisdom of Sirach, and Esther, and Judith, and Tobit, and that which is called the Teaching of the Apostles, and the Shepherd.
@@ -41,6 +41,8 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.dw.apostolic
+- type: associated-with
+  target: alx.quote.athanasius-fountains
 use_note:
   means: "Athanasius's Festal Letter 39 of 367 names books outside the canon, such as Wisdom, Esther, the Teaching of the Apostles and the Shepherd, appointed for newcomers' instruction."
   not_for:
@@ -50,9 +52,3 @@ use_note:
   years: {from: 367, to: 367}
   status: reviewed
 ---
-Opened for F4-E, served by alx.dw.apostolic alone, which cites Letter 39 for "the
-received scriptures".
-
-The same passage is already opened in another world as pahc.quote.appointed-to-be-read, with a
-harder bound - for pahc the letter is 167 years past its closing edge. For alx it is late but
-in-tradition, and the divergence notes differ accordingly rather than being copied.

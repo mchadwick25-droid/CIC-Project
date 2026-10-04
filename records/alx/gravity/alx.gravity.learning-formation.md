@@ -43,7 +43,7 @@ relations:
   target: alx.force.knowing-impulse
 - type: illustrated-by
   target: alx.story.gregory-formation
-name: 'Learning-Formation Integration [SUPPORTING - temporally qualified: the school period, c. 150-254]'
+name: 'Learning-Formation Integration [SUPPORTING - temporally qualified: strongest in the school period, c. 150 to the 230s]'
 description: 'In the school tradition, learning IS formation - study, inquiry, and the teacher-student
   relationship as the very path of the soul''s transformation, not preparation for it. Strongly operative
   early/mid horizon; SIGNIFICANTLY ATTENUATED late (the persistence test''s partial failure is the classification''s
@@ -64,13 +64,3 @@ use_note:
   years: {from: 150, to: 373}
   status: reviewed
 ---
-Re-derived from Doc_04 SS3.5 - the sharpest strength/confidence
-divergence in the gravity set, stated rather than resolved: Widely
-Accepted for the school-period claim, DMR ecology-wide, Inferential-Thin
-beyond the literate stratum, and the most Clement/Origen-concentrated of
-all (highest author-gravity vulnerability). formation_confidence on this
-record is set to the ecology-wide DMR reading - the conservative value -
-with the school-period WA claim carried here. The one gravity notated
-as RECEDING under later forces (origen-demetrius-conflict begins the
-attenuation; post-nicene-authority-shift completes it - associated-with
-relations record both).

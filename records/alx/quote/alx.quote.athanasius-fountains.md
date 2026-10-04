@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.athanasius-festal-letters
-  locus: Letter 39, of 367 (npnf204 lines 68808-68812)
+  locus: Letter 39, sec. 6, of 367 (npnf204 lines 68808-68811)
   license: public-domain
 text: These are fountains of salvation, that they who thirst may be satisfied with the living words they
   contain. In these alone is proclaimed the doctrine of godliness. Let no man add to these, neither let
@@ -36,6 +36,9 @@ retrieval:
   retrieve_when:
   - "participant asks which books they treated as scripture and who decided"
   - "participant asks whether their Bible was the same as a modern one"
+relations:
+- type: associated-with
+  target: alx.quote.appointed-by-the-fathers-to-be-read
 use_note:
   means: "Athanasius's Festal Letter 39 of 367 calls the canonical books fountains of salvation, alone proclaiming godliness, to which nothing may be added or removed."
   not_for:
@@ -45,8 +48,4 @@ use_note:
   years: {from: 367, to: 367}
   status: reviewed
 ---
-The canon list's own summation - the bishop telling all Egypt which
-books the church receives. Serves F2-I ('which writings did your people
-treat as scripture - was your Bible the same as ours?'; the letter's
-list itself is the fuller answer and is in the same vendored locus).
-Post-325 location noted; the letter is 367. Verified verbatim.
+

@@ -55,10 +55,6 @@ use_note:
     - "a claim that particular griefs are explained or deserved"
     - "a claim that the remedial frame is the first word owed a mourner, when the record puts witness before answer"
     - "settled universalism drawn from Origen's remedial-punishment line, which alx.quote.origen-punishment-heals carries as contested"
-  years: {from: 203, to: 260}
+  years: {from: 203, to: 263}
   status: reviewed
 ---
-The suffering cell's answer-ground; companion quote origen-punishment-
-heals and story plague-nursing carry it in voice and narrative.
-
-REGISTER TRANSLATION: spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).

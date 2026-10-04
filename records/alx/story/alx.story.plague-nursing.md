@@ -13,7 +13,8 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: >-
+    Eusebius quotes the letter but gives no year. The date, shortly before Easter 263, is the NPNF editor's inference in his note on VII.22.
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
   locus: 'VII.22 (npnf201 lines 41084-41127, reaching ''buried its dead with open hands'' at line ~41112
@@ -36,8 +37,8 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): a conte
   festal letter, quoted verbatim by Eusebius (HE VII.22) - first-person community testimony from within
   the events, Eusebius''s strong mode (document quotation, not construction).'
 tellable_as: A true account from Bishop Dionysius's own letter. He wrote it while the plague was still raging.
-text: 'When the great sickness came to Alexandria, about the year 260, every house had its dead. Dionysius,
-  the bishop, wrote to the churches at festival time. He did not write of victory over the disease. He
+text: 'When the great sickness came to Alexandria, every house had its dead. Dionysius,
+  the bishop, wrote to the churches at festival time, probably shortly before Easter in 263. He did not write of victory over the disease. He
   wrote that most of the brothers and sisters had not run: they visited the sick without fear, tended
   them day after day, and served them in Christ. Many caught the sickness from those they nursed and died
   of it - and he wrote that they died most joyfully, as if drawing their neighbors'' pain onto themselves.
@@ -63,6 +64,3 @@ use_note:
   years: {from: 262, to: 263}
   status: reviewed
 ---
-Every element in the text is in the letter (the fearless visiting, the
-joyful dying, the pagan contrast, the festival occasion); nothing is
-invented. Companion quote: alx.quote.dionysius-plague.
