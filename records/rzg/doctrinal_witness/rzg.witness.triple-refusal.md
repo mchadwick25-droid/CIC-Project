@@ -61,5 +61,14 @@ text: 'Ask what we are, and part of the true answer is what we refused. We refus
   from within, and it cost us most because it came from our own. Nor will we tell you it was answered
   only with argument: our own council turned to civil force against that third refusal in the years that
   followed, and our own record does not hide that it did.'
+use_note:
+  means: "We defined ourselves partly by three different refusals: Rome's sacrifice and images, Wittenberg's body in the bread, and the Anabaptists' profession-only church."
+  not_for:
+    - "a claim that the three refusals were the same kind of act"
+    - "a claim that the Anabaptist refusal was carried out by argument alone"
+    - "a claim that the Anabaptists did not read Scripture"
+    - "a claim that this record narrates in detail how the civil suppression after 1525 was carried out"
+  years: {from: 1523, to: 1529}
+  status: reviewed
 ---
 Grounded in Doc_07_Integrated_Ecology_Analysis.md SS2H (Boundary Structures): 'this world knew itself through a triple refusal, a richer structure than a world defined against one rival' -- against Rome ('what it was responding to'), against Wittenberg ('what pressed from outside... the specific break at Marburg'), against the Anabaptists ('what fractured from within... the sharpest of the three refusals, because it answers a challenge from inside rather than outside'). No existing record states the triple-refusal CLAIM itself as one first-person position with its own tension; rzg.force.anabaptist-schism and rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation each carry one piece of it, register etic. The civil-suppression tension is carried directly from rzg.contested.anabaptist-schism-legitimacy's own concedes field ('this world's own build does not narrate the civil suppression that followed the 1525 baptisms in detail') -- named here in first-person voice at the same level of generality that contested record already uses, not narrated further. canon_cells=['F3-T'] ('Did you have denominations -- how did you handle other communities who called on Christ differently?') is a direct fit: Rome, Wittenberg, and the Anabaptists are exactly three communities that called on Christ differently, and this record states how this world handled each. relations[] links to the Anabaptist-schism force and the G2 gravity (Rome/Wittenberg refusal) -- reciprocal edges added directly to both files after this script runs.

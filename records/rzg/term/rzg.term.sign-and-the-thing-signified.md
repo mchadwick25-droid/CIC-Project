@@ -65,6 +65,12 @@ quick_meaning: The exact words both our cities agreed to in 1549. We distinguish
   it points to, but never separate the two. Whether this was real agreement or careful diplomacy is a
   live, unsettled question in our own record.
 distortion_risk: high
+use_note:
+  means: "In 1549 Zurich and Geneva agreed words for the Lord's Supper that distinguish the bread from the reality it points to without ever disjoining the two."
+  not_for:
+    - "a claim that the formula was only careful compromise language by parties more interested in signing than in agreeing"
+  years: {from: 1549, to: 1650}
+  status: reviewed
 ---
 Built from Lexicon-Chunks/rzglex008_sign-and-the-thing-signified.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /
