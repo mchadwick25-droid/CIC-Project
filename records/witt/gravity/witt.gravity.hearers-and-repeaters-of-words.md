@@ -72,7 +72,7 @@ relations:
 - type: associated-with
   target: witt.figure.luther
 name: '"Hearers and repeaters of words": the founder''s persistent testimony that the Gospel is taught
-  and not held [TENSIONAL]'
+  and not held'
 classification: tensional
 description: '''Let us beware lest Wittenberg become Capernaum. I notice that you have a great deal to say of the doctrine
   which is preached to you, of faith and of love. This is not surprising; an ass can almost intone the lessons...

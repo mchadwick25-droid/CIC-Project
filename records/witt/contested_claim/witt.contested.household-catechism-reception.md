@@ -91,16 +91,14 @@ held_against:
   that catechization was required and administered in both of this world's voices, which confines the actual
   contest to how well the program worked, not whether it was attempted at all.
 concedes: >-
-  Not contested: that the household catechism program itself - its content, its prescribed form, the
-  father's weekly examination, food withheld until the child repeated the parts, the printed corpus behind
-  it - is fully and directly attested in both voices (LC, SC, AC XXIV, Ap 6889-6901), and is this world's own
-  most fully specified formation mechanism; and that the founder's own testimony that pastors were negligent
-  and laypeople careless is itself Documented, as testimony. What is not, and cannot be, settled from this
-  library: whether that testimony describes the actual state of Saxon parishes, since the one body of
-  evidence that could show it directly - the visitation protocols themselves - is not vendored here, and the
-  scholarship that has read them disagrees, at the level of method, about what they show. Contested, at the
-  scholarly level, and left unresolved here on purpose (Doc_04 SS3 G4's own "build's highest-stakes"
-  Confidence/Gravity Cross-Check divergence).
+  Not contested: the household catechism program itself is fully and directly attested in both voices (LC,
+  SC, AC XXIV, Ap 6889-6901). That holds for its content and its set form. It holds for the father's weekly
+  examination and the food withheld until the child repeated the parts. It holds for the printed books
+  behind it. It is this world's most fully specified way of forming people. The founder's testimony that
+  pastors were negligent and laypeople careless is also documented, as testimony. This library cannot settle
+  one thing. Was that testimony true of the real state of Saxon parishes? Only the visitation protocols
+  could show that directly. They are not vendored here. Scholars who have read them differ on method, and so
+  on what they show. The question is contested at the scholarly level.
 divergence_partners: []
 use_note:
   means: "The claim that the household catechism program failed in Saxon parishes is contested, and the visitation records it rests on are held only as a named absence."
