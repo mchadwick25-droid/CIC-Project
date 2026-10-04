@@ -108,6 +108,7 @@ def test_flag_off_mounts_no_deeper_route(store, usage_store, world_loader, regis
     assert http.get("/api/admin/deeper/reconciliation", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/funds", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/door", headers=admin()).status_code == 404
+    assert http.get("/api/admin/deeper/measures", headers=admin()).status_code == 404
 
 
 def test_flag_on_mounts_every_route(store, usage_store, world_loader, registry, runtime):
@@ -116,7 +117,7 @@ def test_flag_on_mounts_every_route(store, usage_store, world_loader, registry, 
     assert {
         "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance", "/api/deeper/door",
         "/api/admin/deeper/pause", "/api/admin/deeper/reconciliation",
-        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/door",
+        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/door", "/api/admin/deeper/measures",
     } <= paths
 
 
@@ -731,6 +732,70 @@ def test_a_restart_with_the_usage_log_down_still_finds_the_door_where_it_was_lef
     assert (state.stage, state.free_voice, state.table_free_rounds) == (4, False, 0)
     runtime.meter.close()
     runtime.claims.close()
+
+
+# ---- the standing measure's route ------------------------------------------------------------
+
+def test_the_measures_route_needs_the_admin_credential(http):
+    assert http.get("/api/admin/deeper/measures").status_code == 404
+    assert http.get("/api/admin/deeper/measures", headers=admin("wrong")).status_code == 404
+
+
+def test_the_measures_route_shows_daily_totals_and_the_reconciliation_and_no_keys(http, runtime):
+    runtime.meter.mint("single", 1100, "pi_m")
+    runtime.meter.measure("refused_no_code")
+    body = http.get("/api/admin/deeper/measures", headers=admin()).json()
+    (today,) = body["measures"]
+    assert (today["codes_single"], today["tokens_sold"], today["refused_no_code"]) == (1, 1100, 1)
+    assert body["reconciliation"][0]["payments_minted"] == 1
+    assert not any(word in json.dumps(body).lower() for word in ("session", "visitor", "hash"))
+
+
+def test_the_door_monitor_reports_each_stage_it_reaches_to_be_counted(tmp_path):
+    from datetime import datetime, timezone
+
+    from engine.api.deeper_door import DoorMonitor
+    from engine.api.deeper_ops import load_ops
+    from engine.m8.log_store import UsageLogStore
+
+    seen = []
+    monitor = DoorMonitor(
+        load_ops().door, UsageLogStore(tmp_path / "usage.db"), lambda: {},
+        clock=lambda: datetime(2026, 10, 5, tzinfo=timezone.utc), observe=lambda state: seen.append(state.stage),
+    )
+    monitor.state()
+    assert seen == [0]
+
+
+def test_a_measure_that_fails_never_touches_the_door(tmp_path):
+    from datetime import datetime, timezone
+
+    from engine.api.deeper_door import DoorMonitor
+    from engine.api.deeper_ops import load_ops
+    from engine.m8.log_store import UsageLogStore
+
+    def broken(_state):
+        raise RuntimeError("meter down")
+
+    monitor = DoorMonitor(
+        load_ops().door, UsageLogStore(tmp_path / "usage.db"), lambda: {},
+        clock=lambda: datetime(2026, 10, 5, tzinfo=timezone.utc), observe=broken,
+    )
+    assert monitor.state().stage == 0
+
+
+def test_the_dashboard_section_is_hidden_until_the_route_answers_and_names_every_measure():
+    from pathlib import Path
+
+    from engine.deeper.meter import REFUSAL_REASONS, SUM_MEASURES
+
+    page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
+    assert '<section id="deeper-section" class="hidden">' in page
+    assert "/api/admin/deeper/measures" in page
+    for reason in REFUSAL_REASONS:
+        assert f"refused_{reason}:" in page, reason
+    for name in SUM_MEASURES:
+        assert name in page or name.startswith("refused_"), name
 
 
 # ---- the public door line ----------------------------------------------------------------
