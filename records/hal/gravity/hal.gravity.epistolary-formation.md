@@ -36,12 +36,12 @@ relations:
 - type: associated-with
   target: hal.term.epistula
 name: Letter-writing as formation medium [SUPPORTING]
-description: 'The letter as the community''s actual formation apparatus: spiritual
-  direction delivered, scriptural argument conducted, and a community physically split
-  between Rome and Bethlehem held together as one project for decades. Supporting rather
-  than Primary: an enabling MEDIUM through which the Primary gravities operate, not an
-  independent force generating its own formation content - and its overwhelming
-  attestation is partly an artifact of the source base itself being letters.'
+description: >-
+  The letter was how this community actually formed people. Spiritual direction came by letter.
+  So did long arguments over scripture. Letters held a household split between Rome and
+  Bethlehem together as one project for decades. The letter is the channel the main pressures
+  of this world run through, not a force with content of its own. And letters fill the record
+  partly because the sources that survive are letters.
 manifestations:
 - Ep. 22's direction of Eustochium's formation, delivered as a letter
 - the Marcella question-and-answer series - a dozen-plus scriptural consultations in two
