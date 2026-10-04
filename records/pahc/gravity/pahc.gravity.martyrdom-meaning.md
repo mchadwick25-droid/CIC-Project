@@ -78,6 +78,13 @@ manifestations:
 - "Ignatius's own sustained self-presentation as one eager to be 'food for wild beasts' (Romans 4)"
 - "the community at Smyrna collecting Polycarp's bones as 'more precious than the most exquisite jewels' and marking his dies natalis (Martyrdom of Polycarp 18)"
 - "Quintus, who volunteered for martyrdom and then recanted under threat - the community's own caution against 'those who give themselves up' (Martyrdom of Polycarp 4)"
+use_note:
+  means: "In some communities a death for the name is read as completing a person's formation and is remembered each year, though not everywhere."
+  not_for:
+    - "a pattern shared by every community"
+    - "a pattern backed by more than two inside witnesses"
+  years: {from: 107, to: 180}
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (G04). THE IGNATIUS VULNERABILITY:
 rests on Ignatius as Asia Minor's only evidentiary voice - the open

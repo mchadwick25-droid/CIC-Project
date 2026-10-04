@@ -1,0 +1,902 @@
+{
+ "u0001": {
+  "verdict": "accepted",
+  "reason": "Restates the record's sequence of teaching, fasting, then water."
+ },
+ "u0003": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's own statement that catacombs belong to a later world."
+ },
+ "u0005": {
+  "verdict": "accepted",
+  "reason": "Matches the record: surviving words come from the few literate writers."
+ },
+ "u0007": {
+  "verdict": "accepted",
+  "reason": "Record says the real argument was one bishop or council of elders."
+ },
+ "u0009": {
+  "verdict": "accepted",
+  "reason": "Record itself says nothing written survives on forgiving the unrepentant."
+ },
+ "u0011": {
+  "verdict": "accepted",
+  "reason": "Record notes no equivalent account survives from someone without Justin's means."
+ },
+ "u0013": {
+  "verdict": "accepted",
+  "reason": "Verbatim caveat from the record about Justin's time and learning."
+ },
+ "u0015": {
+  "verdict": "accepted",
+  "reason": "Faithful summary of the way of life in the quoted Didache passage."
+ },
+ "u0017": {
+  "verdict": "misread",
+  "reason": "Cited record concerns Jesus' true humanity and says nothing about calling Jesus God or its relation to the Father (that is a different record)."
+ },
+ "u0019": {
+  "verdict": "accepted",
+  "reason": "Fair paraphrase of 1 Clement's chain of apostolic appointment, without claiming fixed offices."
+ },
+ "u0021": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0023": {
+  "verdict": "misread",
+  "reason": "Record is Justin's Moses-predates-Greeks argument; it says nothing about baptism as illumination or 'children of choice and knowledge'."
+ },
+ "u0025": {
+  "verdict": "accepted",
+  "reason": "Verbatim from Hermas record."
+ },
+ "u0027": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on scripture and apostolic testimony."
+ },
+ "u0029": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on scripture and apostolic testimony."
+ },
+ "u0031": {
+  "verdict": "accepted",
+  "reason": "Record mentions the governor torturing two women."
+ },
+ "u0033": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0035": {
+  "verdict": "accepted",
+  "reason": "Record says the gathering was not about what God is."
+ },
+ "u0037": {
+  "verdict": "accepted",
+  "reason": "Record states almost none of the ordinary members could leave words."
+ },
+ "u0039": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0041": {
+  "verdict": "defensible",
+  "reason": "Sharing goods is in the Didache Two Ways, but the cited story record only names the Two Ways and baptism."
+ },
+ "u0043": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the quoted Didache opening."
+ },
+ "u0045": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0047": {
+  "verdict": "accepted",
+  "reason": "Verbatim caveat in the record about one community's manual."
+ },
+ "u0049": {
+  "verdict": "accepted",
+  "reason": "Matches the term record's two ways laid open to every person."
+ },
+ "u0051": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0053": {
+  "verdict": "accepted",
+  "reason": "Sentence explicitly respects the not_for about lived practice."
+ },
+ "u0055": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0057": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record, keeping the opponents' framing."
+ },
+ "u0059": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0061": {
+  "verdict": "defensible",
+  "reason": "Record has Hermas's keep-asking teaching but the doubt/scorekeeping content comes from a sibling record."
+ },
+ "u0063": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0065": {
+  "verdict": "accepted",
+  "reason": "Matches record: table only after the water."
+ },
+ "u0067": {
+  "verdict": "defensible",
+  "reason": "Record covers the non-literate majority; enslaved members and women's words are an extension."
+ },
+ "u0069": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0071": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0073": {
+  "verdict": "accepted",
+  "reason": "Matches record: no burial or building tied to them survives."
+ },
+ "u0075": {
+  "verdict": "accepted",
+  "reason": "Correctly notes the record gives no marriage rite, honoring the not_for."
+ },
+ "u0077": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of Justin on the Word in every race, Socrates and Abraham."
+ },
+ "u0079": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0081": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0083": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0085": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's caveat about one-sided evidence."
+ },
+ "u0087": {
+  "verdict": "defensible",
+  "reason": "Fasting by the baptizer is Didache 7.4, adjacent to but outside the quoted record."
+ },
+ "u0089": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0091": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's open-question caveat."
+ },
+ "u0093": {
+  "verdict": "accepted",
+  "reason": "Fits the record's statement that ordinary members' experience is not on the page."
+ },
+ "u0095": {
+  "verdict": "defensible",
+  "reason": "The collection is in the same Justin chapter but not in the quoted excerpt on readings."
+ },
+ "u0097": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0099": {
+  "verdict": "accepted",
+  "reason": "Matches record: exclusion rests substantially on Bagnall's argument from silence."
+ },
+ "u0101": {
+  "verdict": "accepted",
+  "reason": "Record names exactly these examples."
+ },
+ "u0103": {
+  "verdict": "defensible",
+  "reason": "Record concerns women's missing voices; generalizes its silence to the cost of joining."
+ },
+ "u0105": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0107": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the term record."
+ },
+ "u0109": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0111": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0113": {
+  "verdict": "accepted",
+  "reason": "Presents single overseer as one answer among two, consistent with the record."
+ },
+ "u0115": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0117": {
+  "verdict": "defensible",
+  "reason": "Record is about slow prayer; an unsettled mind is a loose extension."
+ },
+ "u0119": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0121": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0123": {
+  "verdict": "defensible",
+  "reason": "Record's silence of ordinary members stretched to the cost of conversion."
+ },
+ "u0125": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0127": {
+  "verdict": "defensible",
+  "reason": "Doubt-as-weakness belongs to the sibling Hermas doubt record; cited record only covers slow prayer."
+ },
+ "u0129": {
+  "verdict": "defensible",
+  "reason": "Record says no gathering settled God's nature; inborn sin is an added topic."
+ },
+ "u0131": {
+  "verdict": "defensible",
+  "reason": "Record supports few literate writers; 'mostly someone who already led' comes from elsewhere."
+ },
+ "u0133": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0135": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0137": {
+  "verdict": "accepted",
+  "reason": "Matches record: table only after the water."
+ },
+ "u0139": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0141": {
+  "verdict": "defensible",
+  "reason": "Generic framing loosely tied to the record's statement of what is missing."
+ },
+ "u0143": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0145": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0147": {
+  "verdict": "accepted",
+  "reason": "Matches record that catacombs belong to a later world."
+ },
+ "u0149": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0151": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0153": {
+  "verdict": "accepted",
+  "reason": "Record says leadership was the real fight, not God's nature."
+ },
+ "u0155": {
+  "verdict": "accepted",
+  "reason": "Matches the term record."
+ },
+ "u0157": {
+  "verdict": "defensible",
+  "reason": "Record has appointment of converts as bishops and deacons; 'when they were gone' adds the succession idea from elsewhere in 1 Clement."
+ },
+ "u0159": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0161": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0163": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0165": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0167": {
+  "verdict": "accepted",
+  "reason": "Fair summary of Clement's chain of sending and appointment."
+ },
+ "u0169": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0171": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0173": {
+  "verdict": "accepted",
+  "reason": "The Two Ways path is from the Didache, one community's manual."
+ },
+ "u0175": {
+  "verdict": "defensible",
+  "reason": "Same as u0157: generalizes Clement's appointment of bishops and deacons into succession."
+ },
+ "u0177": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0179": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0181": {
+  "verdict": "accepted",
+  "reason": "Faithful summary of the record's 'not invented out of an idea'."
+ },
+ "u0183": {
+  "verdict": "accepted",
+  "reason": "The women's-words part matches the record."
+ },
+ "u0185": {
+  "verdict": "misread",
+  "reason": "Record supports no claim that several households shared the cup words; it widens a single-community prayer into network practice."
+ },
+ "u0187": {
+  "verdict": "accepted",
+  "reason": "Matches Justin's Sunday gathering."
+ },
+ "u0189": {
+  "verdict": "accepted",
+  "reason": "Record says Ignatius presses the refusal of the phantom-flesh view."
+ },
+ "u0191": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0193": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0195": {
+  "verdict": "accepted",
+  "reason": "Fair paraphrase of Justin's memoirs or prophets read aloud."
+ },
+ "u0197": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0199": {
+  "verdict": "accepted",
+  "reason": "Record states fasting beforehand for baptizer and baptized."
+ },
+ "u0201": {
+  "verdict": "defensible",
+  "reason": "Record's silence of ordinary members is stretched to the wronged parties of community failures."
+ },
+ "u0203": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0205": {
+  "verdict": "defensible",
+  "reason": "Record gives the forwarding; reading it as authority handed on is interpretive but in line with the not_for."
+ },
+ "u0207": {
+  "verdict": "accepted",
+  "reason": "Matches record: no gathering met to decide God's nature."
+ },
+ "u0209": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0211": {
+  "verdict": "accepted",
+  "reason": "Matches the term record."
+ },
+ "u0213": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0215": {
+  "verdict": "accepted",
+  "reason": "Matches record's caveat about opponents' account."
+ },
+ "u0217": {
+  "verdict": "defensible",
+  "reason": "Cited record covers slow prayer; doubt teaching itself is in a sibling record."
+ },
+ "u0219": {
+  "verdict": "accepted",
+  "reason": "Matches the record's claim-versus-proof distinction."
+ },
+ "u0221": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0223": {
+  "verdict": "accepted",
+  "reason": "Record states truly raised by the same Father; Ignatius attribution matches the note."
+ },
+ "u0225": {
+  "verdict": "defensible",
+  "reason": "Record supports the shared apostolic claim; 'the only thing in common' overstates it."
+ },
+ "u0227": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0229": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity record on letters holding communities together."
+ },
+ "u0231": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0233": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0235": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0237": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0239": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the record's limit on village believers."
+ },
+ "u0241": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0243": {
+  "verdict": "accepted",
+  "reason": "Matches the term record."
+ },
+ "u0245": {
+  "verdict": "accepted",
+  "reason": "Record says nothing survives in an enslaved person's own voice."
+ },
+ "u0247": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0249": {
+  "verdict": "accepted",
+  "reason": "Matches the story record's Two Ways teaching."
+ },
+ "u0251": {
+  "verdict": "accepted",
+  "reason": "Record names Ignatius as pressing the refusal of the phantom-flesh view."
+ },
+ "u0253": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0255": {
+  "verdict": "accepted",
+  "reason": "Faithful to Justin's flame-kindled account in Dialogue 2-8."
+ },
+ "u0257": {
+  "verdict": "accepted",
+  "reason": "Faithful to Justin's flame-kindled account in Dialogue 2-8."
+ },
+ "u0259": {
+  "verdict": "accepted",
+  "reason": "Record says they did not argue about God's nature."
+ },
+ "u0261": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0263": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0265": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0267": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0269": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0271": {
+  "verdict": "defensible",
+  "reason": "Record lists building, burial and inscription; 'hiding place' is a small addition."
+ },
+ "u0273": {
+  "verdict": "accepted",
+  "reason": "Close to the record's account of Justin."
+ },
+ "u0275": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0277": {
+  "verdict": "accepted",
+  "reason": "Single overseer presented as one pattern in some towns, consistent with the record."
+ },
+ "u0279": {
+  "verdict": "accepted",
+  "reason": "Record says the question stayed open across the period."
+ },
+ "u0281": {
+  "verdict": "accepted",
+  "reason": "Matches record; Hermas as Roman freedman is standard background."
+ },
+ "u0283": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0285": {
+  "verdict": "accepted",
+  "reason": "Restates the term record."
+ },
+ "u0287": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0289": {
+  "verdict": "defensible",
+  "reason": "Work-against-doubt line belongs to the sibling Hermas doubt record, not the cited one."
+ },
+ "u0291": {
+  "verdict": "accepted",
+  "reason": "Record frames leadership as an open, unsettled question."
+ },
+ "u0293": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0295": {
+  "verdict": "defensible",
+  "reason": "Adds an interpretive gloss ('not something that replaced him') beyond the record."
+ },
+ "u0297": {
+  "verdict": "defensible",
+  "reason": "Record says authority claims travelled through letters; 'real proof' adds emphasis."
+ },
+ "u0299": {
+  "verdict": "defensible",
+  "reason": "Succession at the apostles' deaths comes from 1 Clement 44, beyond the quoted chain."
+ },
+ "u0301": {
+  "verdict": "accepted",
+  "reason": "Matches record's open question across the period."
+ },
+ "u0303": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0305": {
+  "verdict": "accepted",
+  "reason": "Matches record: no closed book as sole authority."
+ },
+ "u0307": {
+  "verdict": "accepted",
+  "reason": "Enslaved members named as missing voices, as the record says."
+ },
+ "u0309": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0311": {
+  "verdict": "accepted",
+  "reason": "Matches the term record."
+ },
+ "u0313": {
+  "verdict": "defensible",
+  "reason": "Doubt line belongs to the sibling Hermas doubt record; cited record covers slow prayer."
+ },
+ "u0315": {
+  "verdict": "accepted",
+  "reason": "Record says ordinary believers' view cannot be shown."
+ },
+ "u0317": {
+  "verdict": "defensible",
+  "reason": "Mode details come from Didache 7 rather than the term record, though they respect its not-one-fixed-mode caution."
+ },
+ "u0319": {
+  "verdict": "accepted",
+  "reason": "Matches the story record of Rome's letter to Corinth."
+ },
+ "u0321": {
+  "verdict": "accepted",
+  "reason": "Fair paraphrase of Justin's readings."
+ },
+ "u0323": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0325": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0327": {
+  "verdict": "accepted",
+  "reason": "Matches record's account of Justin on the Word in every people."
+ },
+ "u0329": {
+  "verdict": "misread",
+  "reason": "Cited record is the baptism prescription; it says nothing about holding everything in common."
+ },
+ "u0331": {
+  "verdict": "accepted",
+  "reason": "Consistent with the water as entry into the community."
+ },
+ "u0333": {
+  "verdict": "accepted",
+  "reason": "Story record lists thanksgiving and a collection."
+ },
+ "u0335": {
+  "verdict": "defensible",
+  "reason": "Standing prayer is in Justin 1 Apology 67 but not in the quoted excerpt."
+ },
+ "u0337": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0339": {
+  "verdict": "accepted",
+  "reason": "Record says three independent voices show the network."
+ },
+ "u0341": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0343": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0345": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0347": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the term record."
+ },
+ "u0349": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of Justin's quote."
+ },
+ "u0351": {
+  "verdict": "misread",
+  "reason": "Cited scripture record says nothing about the New Prophecy gathering (that is a different record)."
+ },
+ "u0353": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0355": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0357": {
+  "verdict": "accepted",
+  "reason": "Matches record's claim-not-proof caution."
+ },
+ "u0359": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0361": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0363": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0365": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0367": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0369": {
+  "verdict": "defensible",
+  "reason": "Record's pre-table confession of wrongs is applied to an unsettled mind."
+ },
+ "u0371": {
+  "verdict": "accepted",
+  "reason": "Introduces the record's Hermas prayer teaching."
+ },
+ "u0373": {
+  "verdict": "accepted",
+  "reason": "Didache title and Two Ways before the water fit the term record."
+ },
+ "u0375": {
+  "verdict": "defensible",
+  "reason": "Story record mentions running water only; the fallbacks come from the Didache text."
+ },
+ "u0377": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0379": {
+  "verdict": "accepted",
+  "reason": "Matches Justin's Roman Sunday gathering in the record."
+ },
+ "u0381": {
+  "verdict": "defensible",
+  "reason": "Sending the thanksgiving to absent members is in 1 Apology 67, not in the quoted excerpt."
+ },
+ "u0383": {
+  "verdict": "accepted",
+  "reason": "Matches the quoted way of life."
+ },
+ "u0385": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0387": {
+  "verdict": "accepted",
+  "reason": "Term record says some churches had elders hold the whole trust."
+ },
+ "u0389": {
+  "verdict": "accepted",
+  "reason": "Record says the exclusion rests substantially on one survey."
+ },
+ "u0391": {
+  "verdict": "accepted",
+  "reason": "Matches record that the claim is theirs."
+ },
+ "u0393": {
+  "verdict": "accepted",
+  "reason": "Matches the story record."
+ },
+ "u0395": {
+  "verdict": "accepted",
+  "reason": "Record says both patterns persisted unresolved."
+ },
+ "u0397": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0399": {
+  "verdict": "accepted",
+  "reason": "Matches Hermas's visions on repentance after baptism."
+ },
+ "u0401": {
+  "verdict": "accepted",
+  "reason": "Record states fasting for baptizer and baptized."
+ },
+ "u0403": {
+  "verdict": "accepted",
+  "reason": "Matches Justin's presider instructing after the reading."
+ },
+ "u0405": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0407": {
+  "verdict": "defensible",
+  "reason": "Inference about non-readers is drawn more from the reading record than the cited one."
+ },
+ "u0409": {
+  "verdict": "accepted",
+  "reason": "Record says most could not read and left no words."
+ },
+ "u0411": {
+  "verdict": "accepted",
+  "reason": "Record says Ignatius's dating is genuinely disputed."
+ },
+ "u0413": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0415": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0417": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0419": {
+  "verdict": "accepted",
+  "reason": "Record says nothing survives in the enslaved women's own voice."
+ },
+ "u0421": {
+  "verdict": "accepted",
+  "reason": "Record treats leadership as the live open question."
+ },
+ "u0423": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0425": {
+  "verdict": "accepted",
+  "reason": "Matches term record: water precedes the table."
+ },
+ "u0427": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0429": {
+  "verdict": "defensible",
+  "reason": "The daily-choice idea is in the Two Ways term record, not this story record."
+ },
+ "u0431": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0433": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0435": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0437": {
+  "verdict": "accepted",
+  "reason": "Consistent with record: one voice, no second witness or closure."
+ },
+ "u0439": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0441": {
+  "verdict": "defensible",
+  "reason": "The daily choice is in the term record, not this story record."
+ },
+ "u0443": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of Ignatius on marriage with the bishop's approval."
+ },
+ "u0445": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0447": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0449": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ }
+}

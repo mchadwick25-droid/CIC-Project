@@ -67,6 +67,13 @@ modern_contrast: >
   hoc, personal solidarity, funded and carried out by individuals, with
   no institution behind it, preserved only incidentally inside a hostile
   satirist's mockery of the man he considered its fraud.
+use_note:
+  means: "A hostile satirist, mocking a man he thought a fraud, preserves a picture of solidarity: widows and orphans at the prison gates and visitors sent at communal expense."
+  not_for:
+    - "organized institutional charity like a modern relief agency"
+    - "the imprisoned member's own experience"
+  years: {from: 160, to: 197}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 013. The Tertullian passage
 checked directly against cic/texts/anf03_tertullian.xml, Apologeticus

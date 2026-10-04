@@ -55,6 +55,13 @@ retrieval:
 relations:
 - {type: illustrates, target: pahc.gravity.translocal-network}
 - {type: illustrates, target: pahc.gravity.authority-consolidation}
+use_note:
+  means: "Polycrates tells Victor of Rome that Asia keeps the exact Passover day, as his bishop relatives did, and will not be frightened into changing."
+  not_for:
+    - "a claim that Rome's authority over other churches was accepted in this period"
+    - "a claim that churches everywhere kept the feast on the same day"
+  years: {from: 189, to: 199}
+  status: reviewed
 ---
 Text is verified verbatim against the vendored file at anf08 line
 72582. DISCLOSED, two elisions, both at clause or sentence boundaries:
