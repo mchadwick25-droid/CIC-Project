@@ -4,7 +4,7 @@
 **Produced at:** per-world build step 2, Source ecology (spec §4.3.2), 2026-08-21
 **For:** Mark, in his operational source-acquisition role (Build-Blueprint §7)
 **Status:** unlike Alexandria's first pass, this manifest starts from a corpus that is already almost entirely SUPPLIED — the vendored CCEL corpus (`cic/texts/`, supplied by Mark 2026-08-15–21, mirrored onto this branch from `world/alexandria`) covers every load-bearing primary source this world's cleared prior-build documents (Doc_01–Doc_09a, all Approved to proceed) actually cite. Rights for every SUPPLIED entry are **verified from the vendored file's own provenance header** (per spec §4.3.2 — never from this request). What remains OPEN below is contextual or apparatus-level, none of it blocking.
-**Search basis:** every entry is grounded in a real check run 2026-08-21, recorded in `records/hal/search_record/` — including the searches that came back empty (`womens-own-texts`, `latin-critical-texts`, `egeria-pilgrimage`, `prosper-chronicle`, `bethlehem-archaeology`).
+**Search basis:** every entry is grounded in a real check run 2026-08-21, recorded in `Build/worlds/hal/build/records/search_record/` — including the searches that came back empty (`womens-own-texts`, `latin-critical-texts`, `egeria-pilgrimage`, `prosper-chronicle`, `bethlehem-archaeology`).
 
 ---
 

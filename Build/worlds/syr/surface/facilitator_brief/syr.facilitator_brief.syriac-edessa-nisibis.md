@@ -246,7 +246,7 @@ redirect_notes:
   - syr.figure.bardaisan
 ---
 This record grounds directly in the real records under `records/syr/`,
-per the same discipline `records/syr/world_front/syr.front.syriac-edessa-nisibis.md`
+per the same discipline `Build/worlds/syr/surface/world_front/syr.front.syriac-edessa-nisibis.md`
 already established for this world's participant-facing counterpart.
 
 `redirect_notes` holds ordinary content-limit handoff guidance for this

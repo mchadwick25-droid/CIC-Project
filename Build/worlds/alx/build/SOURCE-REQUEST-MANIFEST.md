@@ -4,7 +4,7 @@
 **Produced at:** per-world build step 2, Source ecology (spec §4.3.2), 2026-08-20
 **For:** Mark, in his operational source-acquisition role (Build-Blueprint §7)
 **Status v2 (2026-08-20, same day):** the first version of this manifest went out as a pure REQUEST. The vendored public-domain corpus (`cic/texts/`, 38/38 ANF/NPNF volumes plus extras, supplied by Mark 2026-08-15–18) arrived on this branch hours later and **already covers seven of the eleven requests**. Those seven are now marked SUPPLIED, each with rights **verified from the vendored file's own provenance header** (per spec §4.3.2 — never from this request) and a created `alx.source.*` record. What remains below as OPEN is the true outstanding wantlist. The five decisions in §5 are still Mark's.
-**Search basis:** every entry is grounded in a real search run 2026-08-20, recorded in `records/alx/search_record/` (index at §9) — including the searches that came back empty. One first-pass error was found and corrected on arrival of the real files: *Quis dives salvetur* is in ANF 2 after all (the Loeb was never the only PD English; see `alx.search.clement-loeb-butterworth`'s correction note).
+**Search basis:** every entry is grounded in a real search run 2026-08-20, recorded in `Build/worlds/alx/build/records/search_record/` (index at §9) — including the searches that came back empty. One first-pass error was found and corrected on arrival of the real files: *Quis dives salvetur* is in ANF 2 after all (the Loeb was never the only PD English; see `alx.search.clement-loeb-butterworth`'s correction note).
 
 ---
 
@@ -143,7 +143,7 @@ All four textual gaps were **independently confirmed by the corpus scrub** (`Tex
 - **Nag Hammadi in English** (context-only if ever requested): not searched.
 - **Archaeology/epigraphy beyond Oxyrhynchus**: likely secondary-literature territory (Wipszycka, Bagnall) rather than vendorable texts.
 
-## 9. Search record index (`records/alx/search_record/`)
+## 9. Search record index (`Build/worlds/alx/build/records/search_record/`)
 
 Found, now SUPPLIED with source records: `clement-anf2` · `origen-anf` · `origen-philocalia-lewis` (supplied 2026-08-21) · `athanasius-npnf2-04` · `gregory-address-anf6` · `eusebius-npnf2-01` · `dionysius-feltoe` (via the ANF 6 fallback) · `palladius-lausiac-clarke`
 Found, still OPEN: `clement-loeb-butterworth` (P3, corrected) · `origen-on-prayer-curtis` (G5 decision) · `oxyrhynchus-grenfell-hunt` (P3, bounded)

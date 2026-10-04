@@ -906,7 +906,7 @@ re-verified against primary sources directly (Ignatius's 'ten leopards' in
 his own Letter to the Romans; Justin's exchange with the prefect Rusticus
 on living and teaching above a bath; the actual content of his First
 Apology 65-67)."* The repo has vendored texts under `cic/texts/` and
-`records/<code>/search_record/*.md` documents which volumes were swept —
+`Build/worlds/<code>/build/records/search_record/*.md` documents which volumes were swept —
 use them.
 
 ## 2.4 Sync every location, and know the list before you start
@@ -1382,7 +1382,7 @@ INPUTS
   Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md   (this doc)
   cic-website/atlas-v3.html — the shipped post-apostolic-house-church entry  (THE BAR)
   records/<code>/**                          (if it exists; else Job 2 rules apply)
-  cic/texts/**, records/<code>/search_record/*  (primary texts for verification)
+  cic/texts/**, Build/worlds/<code>/build/records/search_record/*  (primary texts for verification)
 
 1 TRUTH      Read world_core (horizon/formation_logic/thinness/cautions/thin_topics),
              every contested_claim, every honest_limit, voice_craft, figures named in

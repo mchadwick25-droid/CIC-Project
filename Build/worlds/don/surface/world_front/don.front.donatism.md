@@ -488,8 +488,8 @@ pahc, rzg, syr) already has a `world_front` record; `don` was the one
 exception, and its live tradition page (`cic-website/traditions/
 donatism.html`) was consequently missing the whole orientation module
 every other world's page carries. This record and its facilitator_brief
-sibling (`records/don/facilitator_brief/don.facilitator_brief.donatism.md`)
-close that gap, following the discipline `records/alx/world_front/
+sibling (`Build/worlds/don/surface/facilitator_brief/don.facilitator_brief.donatism.md`)
+close that gap, following the discipline `Build/worlds/alx/surface/world_front/
 alx.front.alexandria-catechetical.md` established for this record type
 (read first, both its structure and its own body note, before writing a
 line here).

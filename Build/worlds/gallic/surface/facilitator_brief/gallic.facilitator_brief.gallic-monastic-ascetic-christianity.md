@@ -299,7 +299,7 @@ redirect_notes:
   - gallic.contested.massilian-label
 ---
 This facilitator_brief record follows the shape
-`records/syr/facilitator_brief/syr.facilitator_brief.syriac-edessa-nisibis.md`
+`Build/worlds/syr/surface/facilitator_brief/syr.facilitator_brief.syriac-edessa-nisibis.md`
 established. Unlike syr and the alx/cappadocian/desert/hal/pahc
 facilitator_brief records, no hand-authored World Facilitation Brief
 exists for this world to migrate from - gallic never had a Phase Six
@@ -315,7 +315,7 @@ single `records/gallic/world_core/` and `records/gallic/voice_craft/`
 records, all nine `records/gallic/demonstration/` records (sources[] and
 divergence_note read for each), all four `records/gallic/doctrinal_witness/`
 records, all three `records/gallic/quote/` records,
-`records/gallic/world_front/gallic.front.gallic-monastic-ascetic-christianity.md`,
+`Build/worlds/gallic/surface/world_front/gallic.front.gallic-monastic-ascetic-christianity.md`,
 and `worlds/gallic/Open_Gaps_Tracking.md`.
 
 TWO DECISIONS FOLLOWED EXACTLY, NOT RE-DERIVED (per this task's own

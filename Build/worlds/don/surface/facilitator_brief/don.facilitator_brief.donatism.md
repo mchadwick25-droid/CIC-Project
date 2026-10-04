@@ -266,7 +266,7 @@ redirect_notes:
   - don.demo.woman-authority
 ---
 This record closes the don facilitator_brief gap alongside its
-world_front sibling (`records/don/world_front/don.front.donatism.md`).
+world_front sibling (`Build/worlds/don/surface/world_front/don.front.donatism.md`).
 It migrates the curatorial substance of this world's own hand-authored World
 Facilitation Brief (`worlds/don/don_Phase6_Facilitation_Brief_DRAFT.md`,
 Sections B1-B5 and B7) into this record-native type, but does NOT carry
@@ -275,7 +275,7 @@ Representative/don_Rep_PhaseN_*.md, don_Decision_Log.md, don_World_
 Profile.md, etc.) - none of those are M1 records this compiler can
 resolve. Every unit below is grounded instead in a real record under
 `records/don/` this session opened and read directly, matching the
-discipline `records/alx/facilitator_brief/alx.facilitator_brief.
+discipline `Build/worlds/alx/surface/facilitator_brief/alx.facilitator_brief.
 alexandria-catechetical.md` already established for this record type,
 and matching this world's own `world_front` record's identical discipline
 above it in this same pass.

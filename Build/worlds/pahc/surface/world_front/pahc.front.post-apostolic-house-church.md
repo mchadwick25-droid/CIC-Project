@@ -298,7 +298,7 @@ later record.
 
 BASE-FIX CONFIRMATION. This session's worktree initially cut from the
 wrong base (HEAD at `e2291dfb`, an unrelated PR merge, with
-`records/desert/world_front/desert.front.desert-monasticism.md` and this
+`Build/worlds/desert/surface/world_front/desert.front.desert-monasticism.md` and this
 world's own `records/pahc/` tree both absent). Per this task's own
 explicit instruction, the worktree was reset with `git reset --hard
 origin/claude/amazing-lovelace-coy644` before any other work began, and

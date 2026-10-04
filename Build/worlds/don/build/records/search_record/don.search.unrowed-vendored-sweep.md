@@ -257,11 +257,11 @@ note: "FIVE FINDINGS. This sweep did NOT come back clean, unlike Cappadocian's,
   sources; it is over-confident description of the sources it already has.
 
   METHODOLOGICAL NOTE FOR THIS WORLD SPECIFICALLY. This is the FIRST
-  records/don/search_record/ this world has ever had. The Source Registry's own
+  Build/worlds/don/build/records/search_record/ this world has ever had. The Source Registry's own
   Discovery methodology note states that no search record was kept during the
   build, that the Discovery column was reconstructed rather than logged
   contemporaneously, and that 'a future pass that wants that discipline for this
-  world would need to open records/don/search_record/ going forward, not back-fill
+  world would need to open Build/worlds/don/build/records/search_record/ going forward, not back-fill
   one for what has already happened.' This record opens it going forward and
   back-fills nothing.
 

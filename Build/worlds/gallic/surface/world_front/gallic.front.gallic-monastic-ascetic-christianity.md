@@ -366,7 +366,7 @@ narrative:
 ---
 BASE-FIX CONFIRMED FIRST. This worktree was found at session start on
 `e2291dfb` (origin/main), NOT a descendant of `claude/amazing-lovelace-
-coy644` - `records/desert/world_front/desert.front.desert-monasticism.md`
+coy644` - `Build/worlds/desert/surface/world_front/desert.front.desert-monasticism.md`
 did not exist. Per the task's explicit instruction, ran `git reset --hard
 origin/claude/amazing-lovelace-coy644` (working tree was already clean; no
 stash needed) rather than attempting to reconstruct anything by hand. HEAD

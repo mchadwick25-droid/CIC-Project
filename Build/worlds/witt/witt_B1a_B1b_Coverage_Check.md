@@ -181,7 +181,7 @@ act on directly, not acquired or rowed now, per this process step's own
 
 ---
 
-## B-1a — discovery sweep: full record at `records/witt/search_record/witt.search.unopened-volume-sweep.md`
+## B-1a — discovery sweep: full record at `Build/worlds/witt/build/records/search_record/witt.search.unopened-volume-sweep.md`
 
 **Scope, as this world's actual sourcing history requires:** the realistic
 discovery-sweep question is not "what does the wider literature contain"

@@ -5,7 +5,7 @@
 **For:** Mark, in his operational source-acquisition role (Build-Blueprint §7)
 **Status:** first version. The vendored public-domain corpus (`cic/texts/`, supplied by Mark 2026-08-15–18 for the Alexandria build, copied to this branch 2026-08-21) already covers this world's four strongest vendorable primaries; the true outstanding wantlist is §5. Rights on every SUPPLIED entry were **verified from the vendored file's own provenance header** (per spec §4.3.2 — never from this request).
 **Scope basis:** the approved Doc_01 (`Build/worlds/desert/CiC_W3_Doc01_World_Identification.md`, Approved to proceed, reviews on file): c. 320 floor (Pachomius at Tabennesi) with Antony's 270s–305 career as the movement's own pre-floor generative reference; close c. 430 (the least-confident boundary, held as directional); Lower Egypt (Nitria, Kellia, Scetis) + the Thebaid (Pachomian houses) + Antony's two mountains; three strands (A anchoritic, B cenobitic, C semi-anchoritic); Shenoute/White Monastery excluded; Melitian relationship unresolved.
-**Search basis:** every entry is grounded in a real search run 2026-08-21, recorded in `records/desert/search_record/` — including the searches that came back empty.
+**Search basis:** every entry is grounded in a real search run 2026-08-21, recorded in `Build/worlds/desert/build/records/search_record/` — including the searches that came back empty.
 
 ---
 
@@ -83,4 +83,4 @@ Confirm whether these are available to the build as consult-only research inputs
 
 ## 6. Search-record index
 
-`records/desert/search_record/`: `vita-antonii-npnf204` (found) · `cassian-npnf211` (found) · `lausiac-clarke1918` (found) · `apophthegmata-pd-english` (found, acquisition G1 fulfilled 2026-08-27) · `historia-monachorum-english-pd` (corrected to not_found 2026-09-13 - G1 fulfilled but neither volume was this work) · `pachomian-rule-english-pd` (not_found) · `pachomian-lives-english-pd` (not_found) · `antony-letters-english-pd` (not_found) · `evagrius-praktikos-english-pd` (not_found; Socrates IV.23 partial exception) · `white-martyrdom-citation` (found, resolved).
+`Build/worlds/desert/build/records/search_record/`: `vita-antonii-npnf204` (found) · `cassian-npnf211` (found) · `lausiac-clarke1918` (found) · `apophthegmata-pd-english` (found, acquisition G1 fulfilled 2026-08-27) · `historia-monachorum-english-pd` (corrected to not_found 2026-09-13 - G1 fulfilled but neither volume was this work) · `pachomian-rule-english-pd` (not_found) · `pachomian-lives-english-pd` (not_found) · `antony-letters-english-pd` (not_found) · `evagrius-praktikos-english-pd` (not_found; Socrates IV.23 partial exception) · `white-martyrdom-citation` (found, resolved).

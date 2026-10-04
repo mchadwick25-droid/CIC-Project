@@ -281,7 +281,7 @@ document's own citations (Doc_01, Doc_07, Integrated Ecology Analysis,
 Phase Five, Article 28/29/31, etc.) - none of those are M1 records this
 compiler can resolve. Every unit below is grounded instead in a real
 record under `records/alx/` that this session opened and read directly,
-matching the discipline `records/alx/world_front/
+matching the discipline `Build/worlds/alx/surface/world_front/
 alx.front.alexandria-catechetical.md` already established for this
 world's participant-facing counterpart.
 

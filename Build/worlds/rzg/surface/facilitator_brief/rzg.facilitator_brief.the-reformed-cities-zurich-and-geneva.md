@@ -10,7 +10,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
-  divergence_note: "This record is a compiled facilitator-only brief over this world's own already-rated records; the confidence of any individual claim lives in the record(s) named in that unit's own grounded_in, not in this envelope block. This block states only that the compilation itself was built by reading those records directly, alongside `records/rzg/world_front/rzg.front.the-reformed-cities-zurich-and-geneva.md`, which this record does not restate but is written to be consistent with."
+  divergence_note: "This record is a compiled facilitator-only brief over this world's own already-rated records; the confidence of any individual claim lives in the record(s) named in that unit's own grounded_in, not in this envelope block. This block states only that the compilation itself was built by reading those records directly, alongside `Build/worlds/rzg/surface/world_front/rzg.front.the-reformed-cities-zurich-and-geneva.md`, which this record does not restate but is written to be consistent with."
 audience: facilitator
 world_identity:
   text: >-
@@ -280,9 +280,9 @@ redirect_notes:
   - rzg.gravity.consistorial-church-discipline
 ---
 Built alongside
-`records/rzg/world_front/rzg.front.the-reformed-cities-zurich-and-geneva.md`,
+`Build/worlds/rzg/surface/world_front/rzg.front.the-reformed-cities-zurich-and-geneva.md`,
 closing rzg's own last remaining record-type gap in this fleet-wide
-rollout. Built from `records/alx/facilitator_brief/
+rollout. Built from `Build/worlds/alx/surface/facilitator_brief/
 alx.facilitator_brief.alexandria-catechetical.md` as template (schema:
 `engine/m1/schemas.py`'s `facilitator_brief` section), following the same
 discipline that record's own body note documents. Unlike alx's own build,

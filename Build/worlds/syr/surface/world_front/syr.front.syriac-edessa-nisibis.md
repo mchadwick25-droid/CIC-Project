@@ -237,7 +237,7 @@ narrative:
 This is the syriac-edessa-nisibis `world_front` record (Website V2
 world_front design), migrating this world's participant-facing
 overview content into the record-native `world_front` type, alongside
-desert-monasticism's own (`records/desert/world_front/desert.front.desert-monasticism.md`).
+desert-monasticism's own (`Build/worlds/desert/surface/world_front/desert.front.desert-monasticism.md`).
 It covers `skim`, `orientation`, and `narrative` only; `facilitator_brief`
 is a separate record.
 

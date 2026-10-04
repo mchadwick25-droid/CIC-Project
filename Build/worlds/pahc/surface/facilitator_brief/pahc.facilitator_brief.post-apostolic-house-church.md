@@ -261,7 +261,7 @@ redirect_notes:
   - pahc.demo.identity-collision-womens-authority
   - pahc.term.ministrae
 ---
-This record matches `records/syr/facilitator_brief/
+This record matches `Build/worlds/syr/surface/facilitator_brief/
 syr.facilitator_brief.syriac-edessa-nisibis.md` in field shape and
 grounding discipline, without copying its content. It migrates the
 curatorial substance of this world's own approved Phase Six
