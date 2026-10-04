@@ -2,10 +2,11 @@
 
 The engine is handed a TurnGrant (a cap and a Facilitator-only flag) and never
 learns why. What a turn draws comes from the round it is and the seats at the
-table (engine.deeper.tokens). The free allowance covers a conversation's first
-rounds while the visitor's free day lasts, narrowed by the door's stage when
-the week's real spend nears its ceiling; a valid code buys what it would
-refuse: a round past the free rounds, or any turn once the free day is spent.
+table (engine.deeper.tokens). The free allowance, a window of tokens a visitor
+draws from over thirty days, covers a conversation's first rounds, narrowed by
+the door's stage when the week's real spend nears its ceiling; a valid code buys
+what it would refuse: a round past the free rounds, or any turn once the free
+allowance is spent.
 At the door's last stage a code is refused too. The Facilitator is outside all
 of it: every refusal here is a grant the engine answers with the Facilitator.
 Admission reserves a turn's amount before the turn and settles it after it, so
@@ -176,11 +177,11 @@ class Admission:
             free_rounds = min(free_rounds, door_rounds)
         free_open = not limited and door.free_voice and completed < free_rounds
         if free_open:
-            held = self._runtime.free.reserve(self._visitor, cost, door.free_day_share)
+            held = self._runtime.free.reserve(self._visitor, cost, door.free_share)
             if held is not None:
                 self._free_reservation = held
                 return TurnGrant(cap=completed + 1, facilitator_only=False)
-        # Past the free rounds, or the free day cannot cover this turn: the grant
+        # Past the free rounds, or the free allowance cannot cover this turn: the grant
         # that refuses has a cap no higher than the turns already done.
         refusal_cap = min(self._free_cap, completed)
         cap = self._runtime.paid_round_cap
@@ -207,7 +208,7 @@ class Admission:
         elif completed >= free_rounds:
             self._refusal = "free_rounds_done"
         else:
-            self._refusal = "free_day_spent"
+            self._refusal = "free_allowance_spent"
         return free_grant(refusal_cap, limited, self._limit_text())
 
     @property

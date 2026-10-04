@@ -200,8 +200,8 @@ def test_a_closed_stage_is_kept_and_a_restart_during_a_fault_does_not_reopen_it(
         load=lambda: meter.get_state(deeper_door.STATE_KEY), save=lambda raw: meter.set_state(deeper_door.STATE_KEY, raw),
     )
     again = restarted.state()
-    assert (again.stage, again.free_voice, again.paid_voice, again.table_free_rounds, again.solo_free_rounds, again.free_day_share) == (
-        closed.stage, closed.free_voice, closed.paid_voice, closed.table_free_rounds, closed.solo_free_rounds, closed.free_day_share,
+    assert (again.stage, again.free_voice, again.paid_voice, again.table_free_rounds, again.solo_free_rounds, again.free_share) == (
+        closed.stage, closed.free_voice, closed.paid_voice, closed.table_free_rounds, closed.solo_free_rounds, closed.free_share,
     )
 
 
@@ -251,5 +251,5 @@ def test_the_kept_state_holds_no_key_and_nothing_finer_than_a_stage(usage_store,
     make_monitor(usage_store, meter=meter).state()
     kept = json.loads(meter.get_state(deeper_door.STATE_KEY))
     assert set(kept) == {
-        "stage", "ratio", "ceiling_usd", "table_free_rounds", "solo_free_rounds", "free_day_share", "free_voice", "paid_voice",
+        "stage", "ratio", "ceiling_usd", "table_free_rounds", "solo_free_rounds", "free_share", "free_voice", "paid_voice",
     }

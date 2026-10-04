@@ -6,11 +6,19 @@ than a day: the day a code was made and the week it was last used. It keeps
 the Stripe payment id, so a refund or dispute can void a code and a sponsor's
 batch can be voided in one step.
 
+One table holds a visitor-derived value by ruling: the free allowance keeps,
+for each visitor in a free window, a keyed hash of the visitor key, the day the
+window began and the amount drawn. The key for that hash comes from the
+server's environment and is never written to this file, so the file alone
+cannot be matched to a visitor and an address cannot be recovered from it.
+
 Admission reserves a turn's tokens before the voice speaks; settling spends them,
 releasing returns them. Reservations live in memory only, so a restart gives
 every in-flight reservation back and nobody pays for a turn that never
 finished. One process serves all traffic, so the lock below is the arbiter.
 """
+import hashlib
+import hmac
 import logging
 import secrets
 import sqlite3
@@ -32,7 +40,7 @@ RECONCILE_RETENTION_DAYS = 90
 MEASURE_RETENTION_DAYS = 90
 REFUSAL_REASONS = (
     "no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use",
-    "free_rounds_done", "free_day_spent", "door_free_closed", "door_paid_closed", "paid_round_cap",
+    "free_rounds_done", "free_allowance_spent", "door_free_closed", "door_paid_closed", "paid_round_cap",
 )
 SUM_MEASURES = (
     "codes_single", "codes_batch", "codes_group", "tokens_sold", "tokens_spent",
@@ -48,6 +56,7 @@ MAX_NOTE_CHARS = 200
 MAX_TOKENS_PER_CODE = 1_000_000
 MAX_BATCH_COUNT = 1_000
 RETENTION_DAYS = 30
+DEFAULT_FREE_WINDOW_DAYS = 30
 
 _SCHEMA = """
 CREATE TABLE IF NOT EXISTS meter (
@@ -89,6 +98,11 @@ CREATE TABLE IF NOT EXISTS daily (
     measure TEXT NOT NULL,
     total INTEGER NOT NULL,
     PRIMARY KEY (day, measure)
+) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS free_window (
+    key_hash TEXT PRIMARY KEY,
+    first_day TEXT NOT NULL,
+    spent INTEGER NOT NULL CHECK (spent >= 0)
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS state (
     key TEXT PRIMARY KEY,
@@ -163,8 +177,12 @@ class Meter:
         *,
         clock: Callable[[], date] = _utc_today,
         group_daily_ceiling: int = DEFAULT_GROUP_DAILY_CEILING,
+        free_window_days: int = DEFAULT_FREE_WINDOW_DAYS,
+        free_key: bytes | None = None,
     ):
         self._clock = clock
+        self._free_secret = free_key if free_key is not None else secrets.token_bytes(32)
+        self._free_window_days = free_window_days
         self._group_daily_ceiling = group_daily_ceiling
         self._lock = threading.RLock()
         self._reserved: dict[str, int] = {}
@@ -418,6 +436,42 @@ class Meter:
             report.append(entry)
         return report
 
+    def today(self) -> date:
+        return self._clock()
+
+    def free_key(self, visitor: str) -> str:
+        """The free allowance's row key for a visitor key: a keyed hash under a
+        secret that comes from the server's environment and is never written to
+        this file. Without a secret given, one is made for this process only, so
+        what was drawn is not remembered across a restart (tests and local use)."""
+        return hmac.new(self._free_secret, visitor.encode("utf-8"), hashlib.sha256).hexdigest()[:32]
+
+    def free_window_spent(self, key_hash: str) -> int:
+        """What this key has drawn in its current window; 0 once the window has ended."""
+        with self._lock:
+            row = self._conn.execute("SELECT first_day, spent FROM free_window WHERE key_hash = ?", (key_hash,)).fetchone()
+        if row is None or self._window_ended(row[0]):
+            return 0
+        return row[1]
+
+    def free_window_spend(self, key_hash: str, amount: int) -> None:
+        """Adds a settled draw. A key's first draw starts its window, and a
+        draw after the window has ended starts a new one."""
+        today = self._clock().isoformat()
+        with self._lock:
+            row = self._conn.execute("SELECT first_day, spent FROM free_window WHERE key_hash = ?", (key_hash,)).fetchone()
+            if row is None or self._window_ended(row[0]):
+                self._conn.execute(
+                    "INSERT INTO free_window (key_hash, first_day, spent) VALUES (?, ?, ?)"
+                    " ON CONFLICT (key_hash) DO UPDATE SET first_day = excluded.first_day, spent = excluded.spent",
+                    (key_hash, today, amount),
+                )
+            else:
+                self._conn.execute("UPDATE free_window SET spent = spent + ? WHERE key_hash = ?", (amount, key_hash))
+
+    def _window_ended(self, first_day: str) -> bool:
+        return self._clock() >= date.fromisoformat(first_day) + timedelta(days=self._free_window_days)
+
     def owed(self) -> list[dict]:
         """What each payment still holds in unspent tokens, for refunds at a
         switch-off. By Stripe payment id, which the meter already keeps; the
@@ -557,6 +611,9 @@ class Meter:
                         removed += 1
             removed += self._conn.execute(
                 "DELETE FROM reconcile WHERE day <= ?", ((today - timedelta(days=RECONCILE_RETENTION_DAYS)).isoformat(),)
+            ).rowcount
+            removed += self._conn.execute(
+                "DELETE FROM free_window WHERE first_day <= ?", ((today - timedelta(days=self._free_window_days)).isoformat(),)
             ).rowcount
             removed += self._conn.execute(
                 "DELETE FROM daily WHERE day <= ?", ((today - timedelta(days=MEASURE_RETENTION_DAYS)).isoformat(),)

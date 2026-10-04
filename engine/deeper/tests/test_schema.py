@@ -37,6 +37,7 @@ def used_meter(tmp_path):
     m.tally("payments_seen")
     m.add_funds("gift", 2500, "pi_g")
     m.add_funds("adjustment", 1000, note="a church gift")
+    m.free_window_spend(m.free_key("a-visitor"), 110)
     m.pause(True)
     m.close()
     return path
@@ -44,7 +45,7 @@ def used_meter(tmp_path):
 
 def test_meter_columns_name_nothing_personal_and_no_fine_time(used_meter):
     tables, _ = _tables(used_meter)
-    assert set(tables) == {"meter", "voided_payments", "state", "reconcile", "funds", "daily"}
+    assert set(tables) == {"meter", "voided_payments", "state", "reconcile", "funds", "daily", "free_window"}
     for table, columns in tables.items():
         for _cid, name, ctype, *_ in columns:
             assert not BANNED_NAME.search(name), f"{table}.{name}"
@@ -63,7 +64,7 @@ def test_meter_tables_have_no_rowid(used_meter):
 
 def test_meter_holds_no_time_finer_than_a_day(used_meter):
     conn = sqlite3.connect(used_meter)
-    for table in ("meter", "voided_payments", "state", "reconcile", "daily"):
+    for table in ("meter", "voided_payments", "state", "reconcile", "daily", "free_window"):
         for row in conn.execute(f"SELECT * FROM {table}"):
             for value in row:
                 text = str(value)
@@ -91,3 +92,12 @@ def test_the_meter_and_claim_files_share_no_column(used_meter, tmp_path):
     meter_cols = {c[1] for cols in _tables(used_meter)[0].values() for c in cols}
     claim_cols = {c[1] for cols in _tables(claims)[0].values() for c in cols}
     assert meter_cols.isdisjoint(claim_cols)
+
+
+def test_the_free_window_table_holds_a_salted_hash_a_day_and_a_number_and_nothing_else(used_meter):
+    tables, _ = _tables(used_meter)
+    assert [c[1] for c in tables["free_window"]] == ["key_hash", "first_day", "spent"]
+    conn = sqlite3.connect(used_meter)
+    (key_hash, first_day, spent) = conn.execute("SELECT key_hash, first_day, spent FROM free_window").fetchone()
+    conn.close()
+    assert re.fullmatch(r"[0-9a-f]{32}", key_hash) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", first_day) and spent == 110

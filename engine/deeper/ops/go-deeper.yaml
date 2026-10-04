@@ -14,7 +14,8 @@ tokens:
     round_two_seats_from_fourth: 75
     round_three_seats_from_fourth: 125
   free:
-    daily: 330
+    window_tokens: 550
+    window_days: 30
     rounds_per_conversation: 3
   packs:
     - {price_usd: 7, tokens: 1100}
@@ -28,7 +29,7 @@ door:
   invoice_factor: 1.35
   stages:
     - {at: 0.66, table_free_rounds: 1}
-    - {at: 0.75, free_day_share: 0.5, solo_free_rounds: 2}
+    - {at: 0.75, free_share: 0.5, solo_free_rounds: 2}
     - {at: 0.90, table_free_rounds: 0}
     - {at: 0.95, free_voice: false}
     - {at: 1.00, paid_voice: false}

@@ -410,7 +410,7 @@
   const REFUSAL_LABELS = {
     refused_no_code: "no code", refused_code_not_accepted: "code not accepted", refused_spent: "code spent",
     refused_too_few: "too few tokens", refused_daily_ceiling: "group daily limit", refused_paused: "codes paused",
-    refused_in_use: "tokens in use", refused_free_rounds_done: "free rounds done", refused_free_day_spent: "free day spent",
+    refused_in_use: "tokens in use", refused_free_rounds_done: "free rounds done", refused_free_allowance_spent: "free allowance spent",
     refused_door_free_closed: "door closed to free", refused_door_paid_closed: "door closed to codes", refused_paid_round_cap: "paid conversation at its round cap",
   };
   function refusalTotal(row) {
@@ -470,7 +470,7 @@
   function renderObserveNote(door) {
     const note = document.getElementById("deeper-observe-note");
     note.textContent = door && door.observe
-      ? "Observe mode: the door is worked out every minute but narrows nothing. The door columns show what it would have done each day, so the base number and thresholds can be set from them. They count turns the door would have refused outright; halving the free day at a stage is not counted, so read the peaks for how close the week came."
+      ? "Observe mode: the door is worked out every minute but narrows nothing. The door columns show what it would have done each day, so the base number and thresholds can be set from them. They count turns the door would have refused outright; halving the free allowance at a stage is not counted, so read the peaks for how close the week came."
       : "";
   }
   async function loadDeeper() {

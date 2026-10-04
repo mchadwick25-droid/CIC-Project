@@ -30,7 +30,8 @@ All of these must be true. The build thread checks the first group; Mark confirm
 - Prices, packs and the sponsor pack (ruled: $7 = 1,100 tokens, $15 = 2,750, $30 = 6,600; nothing under $7; the sponsor pack shape is open).
 - The door's numbers: the base number and thresholds are set from the observe week (Part 5, step 2). The gift and purchase shares (0.8, 0.5), the invoice factor (1.35) and the five stages ship as stated defaults in `engine/deeper/ops/go-deeper.yaml`. Change them by pull request.
 - The converted numbers: group daily ceiling 6000 tokens, low-balance warning at 100 tokens.
-- Words: the free-day count line, "beside" or "under" the message box, the last-stage public line, "give at Get Involved" showing on Get Involved itself, and a line for the paid round-cap stop that says the participant's code still holds tokens.
+- The free allowance, ruled 2026-10-04: 550 tokens in a window of 30 days that starts at a visitor's first use and refills 30 days after it (rolling, not calendar), five solo conversations of three rounds. It is kept in the meter file (a keyed hash of the visitor key, a day and a number; the key is `CIC_DEEPER_FREE_KEY`, which is not in the file), so a deploy does not refill it. The old daily 330 is withdrawn.
+- Words: the free-allowance count line, "beside" or "under" the message box, the last-stage public line, "give at Get Involved" showing on Get Involved itself, and a line for the paid round-cap stop that says the participant's code still holds tokens.
 - Expiry, refund and lost-code policy, after a professional answers the stored-value, gift-card, unclaimed-property, sales-tax and minors questions.
 - **The minors question, answered before the first group code is sold.**
 - Stripe: the written answer on stored value, the account set up, and each unverified Stripe fact checked before the slice that depends on it (below).
@@ -51,6 +52,7 @@ All of these must be true. The build thread checks the first group; Mark confirm
 | `CIC_API_ANON_CAP_ENABLED` | engine | `1` (`true` or `yes` also work; `on` does not and stops the start) | **Required.** The engine refuses to start with the module on and this off. |
 | `CIC_DEEPER_WEBHOOK_SECRET` | engine, secret | from Stripe | Never in the repo. |
 | `CIC_DEEPER_PRODUCTS` | engine | JSON keyed by Payment Link id | One entry per pack: kind, tokens, optional count and daily ceiling. A link not listed here mints nothing. |
+| `CIC_DEEPER_FREE_KEY` | engine, secret | at least 32 random characters | **Required.** Keys the free allowance's rows. Never written to disk or the repo. The engine refuses to start without it. Rotating or losing it refills every visitor's free window, so keep it. |
 | `CIC_DEEPER_GIFT_LINKS` | engine | JSON list of Payment Link ids | Gifts count toward the door; a link cannot be both a product and a gift. |
 | `CIC_DEEPER_SITE_ORIGIN` | engine | the site's exact origin, no `www`, no wildcard | The claim route answers only this origin. |
 | `CIC_DEEPER_OPS_FILE` | engine | optional | Defaults to `engine/deeper/ops/go-deeper.yaml`. A bad file stops the start. |
@@ -73,12 +75,12 @@ Staging is `cic-engine-staging`, which follows `main`. Use Stripe test mode.
 3. Run a test-mode purchase of each pack. Each must mint one code, shown on the return page, and the daily reconciliation count (`GET /api/admin/deeper/reconciliation`) must show the payment seen, the code made, and a gap of zero.
 4. Replay the same webhook. Nothing more is minted.
 5. Send a refund event for a purchase. Its code is void, and the reconciliation counts it.
-6. In the app, with no code, have a free conversation to its third round. The panel opens at the limit. Enter the code. The same sitting carries on, and the token count falls.
+6. In the app, with no code, have a free conversation to its third round, and note the free allowance falling by 110 tokens. Restart the staging engine and confirm the allowance did not refill. The panel opens at the limit. Enter the code. The same sitting carries on, and the token count falls.
 7. Pause codes (`POST /api/admin/deeper/pause` with `{"on": true}`). The next message with a code gets the paused line. Free conversations carry on. Unpause.
 8. Run each state on the Ledger page's list and read the words as a participant would: spent, too few, in use, group daily limit, code not accepted, paused.
-9. Send a message that reads as distress, one that is unclear, and one the safety check cannot read, at: the third free round, a spent code, a paused module, and each door stage. Each must get the Facilitator's answer and never the limit message.
+9. Send a message that reads as distress, one that is unclear, and one the safety check cannot read, at: the third free round, a spent code and a paused module. Each must get the Facilitator's answer and never the limit message. Run the same three messages again at each door stage during step 10, because the door narrows nothing until `observe` is false in the copy.
 10. Drive the door: copy the operations file, set a low base number in the copy, and point `CIC_DEEPER_OPS_FILE` at the copy on staging (never edit the shipped file for a test). In that copy set `door.observe` to false, because in observe mode the door narrows nothing. Run traffic until each stage is reached. Read `GET /api/admin/deeper/door` at each. Confirm the free path narrows in the order the operations file lists, free voice closes, and at the last stage a code is refused with nothing spent.
-11. Open the admin dashboard. The Go Deeper section shows the day's codes, tokens and refusals, and the "highest door stage" column moves with step 10.
+11. Open the admin dashboard. The Go Deeper section shows the day's codes, tokens and refusals, and the "Door stage (peak)" column moves with step 10.
 12. Take a backup and restore it to a scratch copy. The restored meter file has the same balances.
 13. Flip the module off (rollback step 4). Confirm the free path is unchanged and every deeper route returns 404.
 14. Mark signs the checklist, listing anything that did not behave and what was done about it.
@@ -149,7 +151,7 @@ Until every refunded payment is voided, the written rule is that **the module is
 3. Roll back step 4 and keep the module off.
 4. Delete the webhook endpoint in Stripe.
 5. Take a last backup of the meter file, and hold it for the retention period the privacy page states.
-6. Remove the secrets (`CIC_DEEPER_WEBHOOK_SECRET`) and the Go Deeper settings from Render.
+6. Remove the secrets (`CIC_DEEPER_WEBHOOK_SECRET` and `CIC_DEEPER_FREE_KEY`) and the Go Deeper settings from Render.
 7. Remove the Go Deeper pages and the door line from the site, and the privacy page's Go Deeper paragraph.
 8. Only then delete the module's code in a reviewed pull request. The proofs in CI named for the module go with it.
 
@@ -163,7 +165,7 @@ Until every refunded payment is voided, the written rule is that **the module is
 ## Known gaps, stated
 
 - The paid round cap of 40 is provisional and unmeasured. Its stop has no participant line of its own yet.
-- Observe mode does not count the halving of the free day as a refusal.
+- Observe mode does not count the halving of the free allowance as a refusal.
 - Crisis turns are not counted by the module, which never sees message content.
 - A refused message that the safety check then lets through to the Facilitator is counted as a refusal.
 - The go-deeper page carries one Payment Link; three packs need three.
