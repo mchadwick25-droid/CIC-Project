@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: "The figure and passage are documented; the source row is unvendored and paraphrase-only (see pahc.source.tacitus-annals)."
+  divergence_note: "The figure and passage are documented; Annals 15.44 is vendored and quoted in pahc.quote.tacitus-hatred-against-mankind."
 sources:
 - source_id: pahc.source.tacitus-annals
   locus: "15.44"

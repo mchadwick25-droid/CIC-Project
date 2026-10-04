@@ -13,7 +13,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: "Documented for the manuscript-survival facts (Codex Alexandrinus's inclusion of 1 Clement; Hermas's scriptural citation by Irenaeus, Clement of Alexandria, and Origen followed by later exclusion; the Didache's roughly eighteen-century disappearance; Ignatius's own two-century authentication dispute); Inferential-Thin on the specific causal claim that the later monepiscopal/apostolic-succession settlement itself drove these particular selection outcomes - this build's own synthesis from the survival pattern, not a claim Doc_02 itself states."
+  divergence_note: "Documented for the manuscript-survival facts (Codex Alexandrinus's inclusion of 1 Clement; Hermas's scriptural citation by Irenaeus, Clement of Alexandria, and Origen, and its later placement outside the canon among books to be read; the Didache's roughly eighteen-century disappearance; Ignatius's own two-century authentication dispute); Inferential-Thin on the specific causal claim that the later monepiscopal/apostolic-succession settlement itself drove these particular selection outcomes - this build's own synthesis from the survival pattern, not a claim Doc_02 itself states."
 sources:
 - source_id: pahc.source.ignatius-letters
   locus: "the manuscript transmission itself: preserved, cited, and eventually requiring a two-century critical-scholarship effort to authenticate, per this row's own transmission note"
@@ -22,7 +22,7 @@ sources:
   locus: "the manuscript transmission itself: folded into Codex Alexandrinus alongside the New Testament, per this row's own transmission note"
   license: public-domain
 - source_id: pahc.source.shepherd-hermas
-  locus: "the manuscript transmission itself: cited as scripture by Irenaeus, Clement of Alexandria, and Origen, included in Codex Sinaiticus, later excluded by Athanasius, per this row's own transmission note"
+  locus: "the manuscript transmission itself: cited as scripture by Irenaeus, Clement of Alexandria, and Origen, included in Codex Sinaiticus, later placed by Athanasius among books outside the canon that are to be read, per this row's own transmission note"
   license: public-domain
 - source_id: pahc.source.didache
   locus: "the manuscript transmission itself: disappeared from active circulation for roughly eighteen centuries, per this row's own transmission note"

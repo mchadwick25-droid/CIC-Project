@@ -17,7 +17,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.source.pliny-letters
-  locus: "10.96 (the two ministrae - women, named by office, speaking only through their interrogator)"
+  locus: "10.96 (the two ministrae - women called by a word for service, speaking only through their interrogator)"
   license: public-domain
 statement: >-
   Women were taught among us, greeted by name in our letters, and remembered
@@ -50,5 +50,5 @@ This is one of three honest_limit records that share a common basis -
 see pahc.limit.enslaved-voices' trailing note. It is celled
 to F6-P (the woman-authority canon question sits there verbatim) and
 F6-I (what-our-community-never-settled territory). The statement is
-deliberately narrower than "women are thin here": presence, office, and
+deliberately narrower than "women are thin here": presence, service, and
 memory are attested substance; the limit is authorship alone.
