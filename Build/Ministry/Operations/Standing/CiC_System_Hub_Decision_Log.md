@@ -6273,3 +6273,9 @@ The project lead ruled that a code holds tokens, one currency for conversations 
 Decision 8 moved the non-world kinds out of the worlds; the design left the one cross-world contested claim and the two fleet sources to the project lead.
 
 44. The fleet's records leave records/_fleet/ for the engine module that owns each kind: the fleet voice record to engine/shape/records/, the canon questions to engine/canon/records/, and the modern-term record to engine/m5/records/ together with the contested claim (Theophilus's triad) and the two sources (Theophilus, To Autolycus; Tertullian, Against Praxeas) that its card cites. They keep their ids and stay under the full gate battery, the fleet readability waiver included. The project lead chose this over keeping the claim and sources in records/_fleet and over parking all three.
+
+## 2026-10-04 - World fronts, briefs and search records leave records/<code>/; old paths map to new homes (decision 47)
+
+Decision 8 moves the non-world kinds out of the worlds. The world fronts and facilitator briefs are product surface and the search records are build residue; ten citations of their old paths sit in nine documents owned by other world threads, whose edit would bring each file's existing commentary into scope under the live-surface rule.
+
+47. World fronts and facilitator briefs move to Build/worlds/<code>/surface/ and search records to Build/worlds/<code>/build/records/, under a freeze window the project lead declared on 2026-10-04. Their sources stay out of cic-website/, which is served publicly; the site JSON compiled from them stays where it is. Old path prefixes are listed in tools/moved_paths.txt, and tools/check_paths.py accepts an older document's citation of an old path only while the file exists at its new home, so the path baseline does not grow and no other thread's document is edited. The project lead chose this over carrying the ten in the baseline and over editing the nine documents.

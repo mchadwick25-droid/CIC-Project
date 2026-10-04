@@ -415,7 +415,7 @@ archived file.
 
 ## OG-6. Diligence check for the Alexandria-OG-6-style "structural corpus gap" — run, closed clean.
 
-`records/hal/search_record/hal.search.unopened-volume-sweep.md` (2026-08-27) ran the same
+`Build/worlds/hal/build/records/search_record/hal.search.unopened-volume-sweep.md` (2026-08-27) ran the same
 class of check Alexandria's OG-6 finding named: every vendored volume whose principal
 author this world names while never opening that author's own work. Twelve candidates
 checked; three opened (Augustine's *City of God* XVIII.42–44 for the other side's case at

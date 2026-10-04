@@ -1500,7 +1500,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     # below for change-history widening, not only for records/'s own
     # PROTECTED-field/spoken-field logic.
     frontmatter_field_lines, record_type = _front_matter_field_lines(text)
-    if path.suffix == ".md" and rel.parts[0] == "records":
+    if path.suffix == ".md" and record_type is not None:
         protected_field_lines = _protected_record_field_lines(frontmatter_field_lines, record_type)
         spoken_field_lines = _spoken_field_lines(frontmatter_field_lines, record_type)
         source_record_body_lines = _source_record_body_lines(text, record_type)
@@ -1586,12 +1586,19 @@ def surface_of(rel: Path) -> str | None:
 
 def changed_files(repo: Path, base: str) -> list[Path]:
     """Files added or modified since the merge-base with `base`, working
-    tree included, plus untracked files. Deleted files carry no commentary."""
+    tree included, plus untracked files. Deleted files carry no commentary,
+    and a file moved unchanged from one live surface to another is not an
+    edit."""
     def git(*args: str) -> str:
         return subprocess.run(["git", *args], cwd=repo, check=True, capture_output=True, text=True).stdout
 
     merge_base = git("merge-base", base, "HEAD").strip()
-    names = git("diff", "--name-only", "--diff-filter=ACMR", merge_base).splitlines()
+    names = []
+    for line in git("diff", "--name-status", "-M", "--diff-filter=ACMR", merge_base).splitlines():
+        status, *paths = line.split("\t")
+        if status == "R100" and surface_of(Path(paths[0])) is not None:
+            continue
+        names.append(paths[-1])
     names += git("ls-files", "--others", "--exclude-standard").splitlines()
     return sorted({repo / n for n in names if n})
 

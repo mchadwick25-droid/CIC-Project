@@ -8,7 +8,7 @@ Simulated review — informational only, not an Article 31 substitute.
 - **Reviewer agent:** independent-review subagent, fresh context. It did not draft or revise either record, and it did not write the round-1 or round-2 review.
 - **Drafter agent:** withheld until the mapping is revealed
 - **Round:** 3 of the 3-round cap (final targeted recheck, lower effort)
-- **Revision under review:** commit `719a67489` against `1441f0dfe`. The diff is `git diff 1441f0dfe HEAD -- records/witt/world_front records/witt/facilitator_brief`. Formatting is stable, so the line diff shows only the changed units.
+- **Revision under review:** commit `719a67489` against `1441f0dfe`. The diff is `git diff 1441f0dfe HEAD -- Build/worlds/witt/surface/world_front Build/worlds/witt/surface/facilitator_brief`. Formatting is stable, so the line diff shows only the changed units.
 - **Truncation check, method 1:** structural parse. Both files load through `engine.m1.loader.load_world_records("witt")` as complete records and close on a `---` line. All 59 public fields come back from `engine.m10.regate.public_fields`, the same count as round 2. Every unit ends on a complete sentence.
 - **Truncation check, method 2:** byte and hash count at HEAD `719a67489`. Front: 322 lines, 20,815 bytes, `git hash-object` 8da03513. Brief: 235 lines, 15,375 bytes, `git hash-object` a982de84. The last bytes of each end in `]\n---\n`. The byte drops from round 2 (front −20, brief −14) match the shortened units in the diff.
 - **Date:** 2026-10-02

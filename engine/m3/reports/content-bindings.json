@@ -1,0 +1,64 @@
+{
+  "bindings": {
+    "sha256:13e7912a516c95e1f9a6c7f59ff010f0eae9c3cd24ba3534dce53973ac111dcc": {
+      "compiled": "sha256:cab58b8dae589b30c41fcc159b0f9b7f082cb1fc4c3d77c88ef5fc4127eb7a18",
+      "world": "witt",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    },
+    "sha256:24485e9730739e8dae240f738c83e25a15153dcd288c44909bd2bbe06d849210": {
+      "compiled": "sha256:172e5adc27fafbc83412ac26c64b40febf215a24f97e79d91c25cc9e2ee239dd",
+      "world": "syr",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    },
+    "sha256:2d47c4ac3b63b55641bed2bb388c2ae0e24cc9129ad7773684b38bb3863e2fbb": {
+      "compiled": "sha256:4f666736d6e8fb54b5472bce1899d3f3d06f35289d36627be686e34c000d1a54",
+      "world": "rzg",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    },
+    "sha256:64bccb4eaba8ea8566e0bb69e621c9ca865fcde0e4909f3dde60c7e87b17c9ad": {
+      "compiled": "sha256:26ff3c33ad0443baee9ca8cf4ca7480134b1fb1c5735cd48a346a02dd1748a1e",
+      "world": "fix",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    },
+    "sha256:68175934d9c4686a1a103b7a7c86629fbf790d470dee1107105c011cc1aceb6a": {
+      "compiled": "sha256:5cc52de41e51c31b0bfb18838523be6fddb34983ba000cd8eba5718fbb4c9d60",
+      "world": "hal",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    },
+    "sha256:6b996fabc73a5d363e226a7d05f542630729a3aec0d8c84a8fd5f7289bee7844": {
+      "compiled": "sha256:6ecb3d200ec78b1812043d37b1b892ddaa2e01316975fe9616435ced5976c84d",
+      "world": "pahc",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    },
+    "sha256:76e7311e214cab55059e202cedf1506ab31d1c37e5d40de22a0278737a688cab": {
+      "compiled": "sha256:27d8003314e478d2d3e16743d5e50bd33edf7de1007bf6f7a0ad024b24727154",
+      "world": "gallic",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    },
+    "sha256:a48244c219b1b843e6faba8a96132439d7d4823032c0a0c5a6a957ea7cb3b1ac": {
+      "compiled": "sha256:7d26c712e04779882c31ff8b5bb20b95e7844402e7fa125c4e4f7d0938646308",
+      "world": "cappadocian",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    },
+    "sha256:c5e4a3c043733078da09be11278249e80d1dbe62c84858a15736326835fb6378": {
+      "compiled": "sha256:10de0291c0195d4b145e064856a2c0332b2aa98f02b384ff01475eb5a2c6bbf4",
+      "world": "desert",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    },
+    "sha256:d1fb9e58e29c76722262ec46fc0229a1212b84c38afb25ae1e4379be12cf8a9e": {
+      "compiled": "sha256:8d7cbb868c01ed798a49071b88ba376eb860c035c50ae0b7817bd61487862c5a",
+      "world": "alx",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    },
+    "sha256:dffb549f394ec272019af06a5812c9230afaa65a25a7ab738db688f1de6789b2": {
+      "compiled": "sha256:96bcb205ab93814be7911a534b39411c3ac2ea0a343c72fb1f29862e1edd512e",
+      "world": "ijc",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    },
+    "sha256:fb545f9486ee858b0efa0e37f71a6136d7be94b9aeeda4b410b6f025215f9bef": {
+      "compiled": "sha256:8eb187eb3d9fedf4bbf66196efa7851352dbc6c7b8b73dc300c4783b96ecea5c",
+      "world": "don",
+      "restored_at": "2da5464cd77796291cb62ca09fef0b8fbc6abad6"
+    }
+  }
+}

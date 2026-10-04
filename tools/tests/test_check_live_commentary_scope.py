@@ -73,3 +73,33 @@ def test_without_enforce_the_scan_is_a_report_and_exits_zero(repo):
 def test_enforce_without_a_base_is_refused(repo):
     with pytest.raises(SystemExit):
         clc.main(["--enforce"])
+
+
+def test_a_file_moved_unchanged_between_live_surfaces_is_not_an_edit(repo):
+    _git(repo, "checkout", "-q", "-b", "work")
+    (repo / "records").mkdir()
+    _git(repo, "mv", "engine/untouched.py", "records/untouched.py")
+    _git(repo, "commit", "-q", "-m", "move")
+    assert clc.changed_files(repo, "main") == []
+    assert clc.main(["--base", "main", "--enforce"]) == 0
+
+
+def test_a_file_moved_and_edited_is_in_scope(repo):
+    _git(repo, "checkout", "-q", "-b", "work")
+    (repo / "records").mkdir()
+    _git(repo, "mv", "engine/untouched.py", "records/untouched.py")
+    (repo / "records" / "untouched.py").write_text(DIRTY + "x = 1\n", encoding="utf-8")
+    _git(repo, "commit", "-q", "-am", "move and edit")
+    assert {p.as_posix() for p in clc.changed_files(repo, "main")} == {(repo / "records" / "untouched.py").as_posix()}
+    assert clc.main(["--base", "main", "--enforce"]) == 1
+
+
+def test_a_file_moved_onto_a_live_surface_from_outside_is_in_scope(repo):
+    (repo / "notes").mkdir()
+    (repo / "notes" / "draft.py").write_text(DIRTY, encoding="utf-8")
+    _git(repo, "add", "-A")
+    _git(repo, "commit", "-q", "-m", "draft")
+    _git(repo, "checkout", "-q", "-b", "work")
+    _git(repo, "mv", "notes/draft.py", "engine/draft.py")
+    _git(repo, "commit", "-q", "-m", "promote")
+    assert {p.name for p in clc.changed_files(repo, "main")} == {"draft.py"}
