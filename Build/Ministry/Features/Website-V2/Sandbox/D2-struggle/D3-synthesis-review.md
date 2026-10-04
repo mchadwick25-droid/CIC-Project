@@ -10,7 +10,7 @@ struggle summary; the five D1 direction READMEs and their ten D2 files (targeted
 for the kill lists and the cited rows); the Brand Guidelines Consolidated V1.0 and
 the Logo Usage Sheet V1.0; `CiC_Full_UX_Design_V1_0.md`; the live `cic-website/`
 pages, `assets/style.css`, `_headers`, `data/world-census.json`; the `records/*`
-files the storyboard quotes; `records/_fleet/canon_question/*`; the W1 Guided
+files the storyboard quotes; `engine/canon/records/canon_question/*`; the W1 Guided
 Starters draft; and `cic-poc/frontend/src` (`App.tsx`, `Launch.tsx`,
 `Conversation.tsx`, `ChatInput.tsx`, `lib/sessionStore.ts`).
 
@@ -88,7 +88,7 @@ these I checked directly and every one is exact:
   are real; the Bethlehem `sourcing` really does still say "four built worlds";
   the census era heads really do carry hyphens.
 - All six homepage canon questions and both tradition-page canon questions are
-  **verbatim** in `records/_fleet/canon_question/`, and all 23 P-cell questions are
+  **verbatim** in `engine/canon/records/canon_question/`, and all 23 P-cell questions are
   `canon_status: seed`. All three W1 starters are verbatim, and that file's header
   really does say "DRAFT — awaiting Mark's review. Not deployed."
 - The PAHC `sourcing` line, `floorNote`, `voices` list and both `experienceToday`

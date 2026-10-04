@@ -93,7 +93,7 @@ def compile_world(
 ) -> dict[str, bytes]:
     registry = load_registry()
     registry_entry = get_world(world_key, registry)
-    fleet = load_fleet_records(records_root=records_root)
+    fleet = load_fleet_records()
     records = load_world_records(world_key, records_root=records_root)
     voiced = voiced_records(records)
 

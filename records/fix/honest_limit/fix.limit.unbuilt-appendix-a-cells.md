@@ -25,7 +25,7 @@ why_sources_cannot_answer: >
   eight of Canon v1's twenty-eight cells (see fixtures/README.md) so the
   coverage gate's two routes - substantive and honest_limit - could both be
   exercised without authoring a full synthetic canon. Once stage 3 grew the
-  fleet canon to its real twenty-eight cells (records/_fleet/canon_question/,
+  fleet canon to its real twenty-eight cells (engine/canon/records/canon_question/,
   Appendix A), the remaining twenty cells needed real coverage of their own
   to keep the fixture's own state=built claim (Artifact-1 SS2: gates green)
   honest. One record naming all twenty is the accurate statement of the

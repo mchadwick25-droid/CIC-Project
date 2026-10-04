@@ -11,7 +11,7 @@ READMEs; **all ten** D2 review/defense files; the struggle summary; the Brand
 Guidelines Consolidated V1.0 and the Logo Usage Sheet V1.0; `CiC_Full_UX_Design_V1_0.md`
 (§2.5a, §4.0, §5.1, §5.4, and the §3 state table's R.0–R.2c rows); and the live
 `cic-website/` pages, `assets/style.css`, `_headers`, `data/world-census.json`, the
-`records/pahc/*` and `records/_fleet/canon_question/*` records the mockups quote, the
+`records/pahc/*` and `engine/canon/records/canon_question/*` records the mockups quote, the
 World 1 Guided Starters draft, `cic-poc/frontend/src/App.tsx` and `screens/Launch.tsx`,
 and the `theon-confidence.png` capture itself.
 
@@ -132,7 +132,7 @@ reproduce:
 - **Print works.** Header, support block and skip link hidden; all six main sections
   present.
 - **Every quotation I could check is verbatim.** All six homepage canon questions and
-  all four on the tradition page match `records/_fleet/canon_question/*-p-*` word for
+  all four on the tradition page match `engine/canon/records/canon_question/*-p-*` word for
   word, and all 23 P-cell records are indeed `canon_status: seed`. The three starter
   questions match the "For the Wrestling" openers in
   `CiC_W1_Guided_Starters_V0_1_DRAFT.md` word for word, and that file's own header does

@@ -177,7 +177,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:readability/syr": Waiver(count=153, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
     "m1:readability/witt": Waiver(count=194, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
     # gate_readability_fleet's own findings (fleet_voice and modern_term
-    # spoken fields, records/_fleet/) - counted once against the
+    # spoken fields) - counted once against the
     # FLEET_PSEUDO_WORLD key, never against any single real world's own
     # count, for the reason gate_readability_fleet's own docstring gives.
     "m1:readability-fleet/_fleet": Waiver(count=7, deadline="2026-12-14", owner="pre-existing fleet_voice/modern_term spoken-field content exceeds the FK/FRE ceiling; fleet-content build thread"),
@@ -240,7 +240,7 @@ def collect_findings(registry: dict | None = None) -> dict[str, dict[str, list[s
         for name, findings in confinement_run_all(records, shelf).items():
             merged[f"m9:{name}"] = findings
         by_world[world_key] = merged
-    # gate_readability_fleet grades records/_fleet/ once, not once per
+    # gate_readability_fleet grades the fleet records once, not once per
     # world (see that function's own docstring) - collected here, outside
     # the per-world loop above, under FLEET_PSEUDO_WORLD's own key.
     by_world[FLEET_PSEUDO_WORLD] = {

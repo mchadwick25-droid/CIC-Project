@@ -902,7 +902,6 @@ engine/BASELINES.md: packages/hal/2026-08-24T00-43-34Z
 engine/BASELINES.md: packages/ijc/2026-08-24T00-43-35Z
 engine/BASELINES.md: packages/pahc/2026-08-24T00-43-36Z
 engine/BASELINES.md: packages/syr/2026-08-24T00-43-36Z
-records/_fleet/fleet_voice/_fleet.voice.fleet.md: Redesign-Spec/CiC-Program-Spec.md
 records/alx/facilitator_brief/alx.facilitator_brief.alexandria-catechetical.md: worlds/alx/Alexandria_Facilitation_Brief_v1_0.md
 records/alx/facilitator_brief/alx.facilitator_brief.alexandria-catechetical.md: worlds/alx/Open_Gaps_Tracking.md
 records/alx/search_record/alx.search.athanasius-npnf2-04.md: cic/texts/npnf204_...xml

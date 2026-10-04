@@ -126,7 +126,7 @@ buying real access. Taken from AAA cheaply: every new-tab link announces itself
 
 **Real, not written by me:** all Representative data (`world-census.json`); Chloe's
 doorway paragraph and thinness statement (`records/worlds.yaml`); the starter questions
-(`records/_fleet/canon_question/`); the captured exchange (`assets/tour-captures/`,
+(`engine/canon/records/canon_question/`); the captured exchange (`assets/tour-captures/`,
 already shipped by the site); the Table description (Launch.tsx); the "name is ours"
 line (Arrival.tsx); the pairings (pairings.ts); every protected brand line; the support
 copy and Stripe links (live `support.html`); the What's Next items; Chloe's source
