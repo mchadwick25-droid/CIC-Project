@@ -77,7 +77,7 @@ export function GoDeeperPanel() {
             </button>
           </div>
           {pilot.status && (
-            <div className="go-deeper__section" role="group" aria-label={pilotCopy.readyHeading}>
+            <div className="go-deeper__section" role="group" aria-label={pilotCopy.group}>
               {pilot.status === 'joining' && <p role="status">{pilotCopy.joining}</p>}
               {pilot.status === 'ready' && (
                 <>

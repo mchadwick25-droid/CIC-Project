@@ -22,12 +22,11 @@
 
   if (!root.document || !root.GoDeeperConfig) return;
   var config = root.GoDeeperConfig;
-  // Nothing shows until the pilot is opened in the site's config, so a link found early shows an empty page.
-  if (!config.pilot) return;
   var link = linkOf(root.location.search);
-  if (!link) return;
-  // A private audience's key is a password: take it out of the address bar and the history at once.
-  if (root.history && root.history.replaceState) root.history.replaceState(null, "", root.location.pathname);
+  // A private audience's key is a password: it leaves the address bar and the history at once, before anything else can return.
+  if (root.location.search && root.history && root.history.replaceState) root.history.replaceState(null, "", root.location.pathname);
+  // Nothing shows until the pilot is opened in the site's config, so a link found early shows an empty page.
+  if (!config.pilot || !link) return;
   root.document.getElementById("pilot-button").setAttribute("href", joinUrl(config.app, link));
   root.document.getElementById("pilot-offer").hidden = false;
 })(typeof window !== "undefined" ? window : this);

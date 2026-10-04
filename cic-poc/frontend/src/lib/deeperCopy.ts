@@ -23,6 +23,7 @@ export const deeperCopy = {
 };
 
 export const pilotCopy = {
+  group: 'Free pilot pack',
   joining: 'Getting your free pack.',
   readyHeading: 'Your free pack is ready',
   ready: (tokens: number, conversations: number) =>

@@ -53,7 +53,7 @@ export function feedbackFormUrl(): string {
 
 /** The link a fragment named, or null. The fragment is cleared whatever it holds. */
 export function takePilotFromAddress(): string | null {
-  if (!deeperEnabled || typeof window === 'undefined') return null;
+  if (typeof window === 'undefined') return null;
   const match = /^#cic-pilot=([^&]*)$/.exec(window.location.hash);
   if (!match) return null;
   window.history.replaceState(null, '', window.location.pathname + window.location.search);
@@ -121,7 +121,8 @@ export function usePilot(): PilotState {
   return useSyncExternalStore(subscribe, () => state);
 }
 
-if (deeperEnabled && typeof window !== 'undefined') {
+if (typeof window !== 'undefined') {
+  // The fragment is cleared whether or not the module is on: a key never stays in the address or the history.
   const link = takePilotFromAddress();
-  if (link) void joinPilot(link);
+  if (deeperEnabled && link) void joinPilot(link);
 }

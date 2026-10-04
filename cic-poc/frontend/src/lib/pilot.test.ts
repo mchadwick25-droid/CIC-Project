@@ -90,11 +90,11 @@ describe('the pilot join', () => {
     }
   );
 
-  it('does nothing at all with the module off', async () => {
+  it('asks nothing with the module off, and still takes the key out of the address', async () => {
     const fetchMock = answer(200, {});
     const { pilot } = await load(false, '#cic-pilot=general');
     expect(fetchMock).not.toHaveBeenCalled();
     expect(pilot.pilotSnapshot().status).toBeNull();
-    expect(window.location.hash).toBe('#cic-pilot=general');
+    expect(window.location.hash).toBe('');
   });
 });

@@ -97,7 +97,7 @@ def test_the_link_travels_in_the_fragment_never_the_query_to_the_app():
 def test_the_key_is_taken_out_of_the_address_sent_no_referrer_and_met_by_no_analytics():
     script = SCRIPT.read_text()
     assert "history.replaceState(null, \"\", root.location.pathname)" in script
-    assert script.index("replaceState") < script.index("pilot-offer")
+    assert script.index("replaceState") < script.index("config.pilot") < script.index("pilot-offer")
     html = PAGE.read_text()
     assert '<meta name="referrer" content="no-referrer">' in html
     assert not re.search(r"gtag|analytics|plausible|fathom|googletagmanager|<img[^>]+src=\"https?://", html + script, re.I)
