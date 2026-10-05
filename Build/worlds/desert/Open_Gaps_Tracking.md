@@ -645,7 +645,7 @@ Each item was checked against the vendored source before any edit. Where a claim
 Edited bodies also lost their change-history and build narration, restated as present-tense reasons or removed.
 
 Pending waiver changes named by `python -m engine.m9.cli check`, which this thread does not edit (`engine/m9/enforce.py`):
-- `engine/m9/enforce.py` line 170, `m1:readability/desert`: `Waiver(count=153, ...)` becomes `count=152`.
+- `engine/m9/enforce.py` line 170, `m1:readability/desert`: `Waiver(count=153, ...)` becomes `count=150`.
 - `engine/m9/enforce.py` line 210, `m1:use-note-present/desert`: `Waiver(count=3, ...)` is deleted, because the three post-window quotes are analytic and the finding no longer fires.
 Status of these two: pending, until the project lead edits `enforce.py`.
 
