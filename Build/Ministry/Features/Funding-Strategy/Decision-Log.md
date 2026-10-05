@@ -1582,7 +1582,7 @@ Plan: Accounts Build Plan (artifact). Analysis: Go Deeper Accounts Review
 (artifact). The Opus thread attacks the account store as a join before the
 shelf slice merges.
 
-A6 proofs added by these modifications: the account file's bytes hold no value that appears in a webhook payload other than the payment id; and the account file's bytes contain no meter code hash and no payment id. Both join the other named A6 proofs and are guarded the same way.
+A6 proofs added by these modifications: the account file's bytes hold no value that appears in a webhook payload; and the account file's bytes contain no meter code hash and no payment id. Both join the other named A6 proofs and are guarded the same way.
 
 Pages: Go Deeper Accounts Review, `https://claude.ai/artifact/NTTKUrGeKJ73nYkcPNfhjJ`; Accounts Build Plan, `https://claude.ai/artifact/GHerMTQjcKNkLKM1GrvK83`.
 
