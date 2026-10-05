@@ -14,6 +14,7 @@ connection; nothing here caches a session in memory between calls.
 """
 import json
 import sqlite3
+from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -131,15 +132,18 @@ class Store:
             conn.commit()
         return deleted
 
-    def purge_inactive(self, cutoff: str) -> int:
+    def purge_inactive(self, cutoff: str, is_exempt: Callable[[str], bool] = lambda _sid: False) -> int:
         """Delete every event of every session whose latest event is older
-        than `cutoff` (ISO-8601, compared as text like list_session_ids).
-        Returns the number of sessions deleted. The 90-day conversation
-        retention (System Hub decision 34) calls this daily."""
+        than `cutoff` (ISO-8601, compared as text like list_session_ids),
+        except a session `is_exempt` says to keep. Returns the number of
+        sessions deleted. The 90-day conversation retention (System Hub
+        decision 34) calls this daily; the edge supplies `is_exempt` for
+        conversations a signed-in person saved (accounts change order,
+        2026-10-05), and by default none is exempt."""
         with self._connect() as conn:
             stale = [sid for (sid,) in conn.execute(
                 "SELECT session_id FROM session_events GROUP BY session_id HAVING MAX(created_at) < ?", (cutoff,)
-            )]
+            ) if not is_exempt(sid)]
             for sid in stale:
                 conn.execute("DELETE FROM session_events WHERE session_id = ?", (sid,))
             conn.commit()
