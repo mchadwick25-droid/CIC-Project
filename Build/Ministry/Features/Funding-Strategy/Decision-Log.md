@@ -1520,3 +1520,7 @@ Found while walking the staging turn-on with Mark: the runbook says to build the
 ## 2026-10-05 — Go Deeper: a funds note is one of a fixed list (pre-turn-on item 7)
 
 The admin's funds route took a free-text note of up to 200 characters, so a donor's name typed there would have been stored in the meter's file. A note is now one of a fixed list, in the meter and at the route: "cash gift", "check gift", "other gift" and "correction" for an adjustment made by hand, and "pilot grant" and "admin grant" written by the app for the grants it counts. Anything else is refused (422 at the route). Rows already written keep what they hold; nothing is rewritten. The words are internal to the admin page and are not shown to participants. Tests pin that every listed kind is accepted and that a typed name, a different case, an empty string and an over-long string are refused.
+
+## 2026-10-05 — Go Deeper: two stale runbook lines corrected (pre-turn-on item 5)
+
+Two runbook lines said there is no way to hand-mint a code, which stopped being true with the admin mint page (S13). Both now say that free codes are made there and count as gifts, and that the first live proof of the purchase path is still a real smallest-pack purchase. A third line said the door "halves the free day"; the free allowance is a 30-day window, so it says "halving the free allowance". Nothing else in the runbook changes.
