@@ -138,8 +138,8 @@ class Store:
         except a session `is_exempt` says to keep. Returns the number of
         sessions deleted. The 90-day conversation retention (System Hub
         decision 34) calls this daily; the edge supplies `is_exempt` for
-        conversations a signed-in person saved (accounts change order,
-        2026-10-05), and by default none is exempt."""
+        conversations a signed-in person saved (the accounts change order),
+        and by default none is exempt."""
         with self._connect() as conn:
             stale = [sid for (sid,) in conn.execute(
                 "SELECT session_id FROM session_events GROUP BY session_id HAVING MAX(created_at) < ?", (cutoff,)

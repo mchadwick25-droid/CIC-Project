@@ -9,7 +9,7 @@ Questions and scores in the QC store are kept. The 14-day backup rotation
 (engine/api/db_backup.py) carries each deletion into the backups.
 
 A conversation a signed-in person saved to their account is exempt from the
-90 days (accounts change order, 2026-10-05). The engine never learns which
+90 days under the accounts change order. The engine never learns which
 sessions those are or why: the edge passes `is_exempt`, a callable from
 session id to bool, the way it passes a grant. The default exempts none.
 """
