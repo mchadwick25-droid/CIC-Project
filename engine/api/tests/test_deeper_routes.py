@@ -638,26 +638,26 @@ def test_a_working_purchase_and_a_full_refund_leave_no_log_line_but_a_stray_even
 
 
 def test_the_admin_adds_lists_and_reverses_an_adjustment(http, runtime):
-    added = http.post("/api/admin/deeper/funds", json={"cents": 5000, "note": "church gift, cash"}, headers=admin())
+    added = http.post("/api/admin/deeper/funds", json={"cents": 5000, "note": "cash gift"}, headers=admin())
     assert added.status_code == 200
     entry = added.json()["id"]
     listing = http.get("/api/admin/deeper/funds", headers=admin()).json()
     assert listing["net"]["adjustment"] == 5000
-    assert listing["entries"][0]["note"] == "church gift, cash" and "payment_id" not in listing["entries"][0]
+    assert listing["entries"][0]["note"] == "cash gift" and "payment_id" not in listing["entries"][0]
     assert http.post(f"/api/admin/deeper/funds/{entry}/reverse", headers=admin()).status_code == 200
     assert http.get("/api/admin/deeper/funds", headers=admin()).json()["net"]["adjustment"] == 0
     assert http.post(f"/api/admin/deeper/funds/{entry}/reverse", headers=admin()).status_code == 404
 
 
-@pytest.mark.parametrize("body", [{"cents": 0, "note": "x"}, {"cents": 5000, "note": ""}, {"cents": 5000}, {"note": "x"}, {"cents": 10_000_001, "note": "x"}])
+@pytest.mark.parametrize("body", [{"cents": 0, "note": "correction"}, {"cents": 5000, "note": ""}, {"cents": 5000}, {"note": "correction"}, {"cents": 10_000_001, "note": "correction"}, {"cents": 5000, "note": "Jane Doe"}, {"cents": 5000, "note": "church gift, cash"}])
 def test_a_bad_adjustment_is_refused(http, body):
     assert http.post("/api/admin/deeper/funds", json=body, headers=admin()).status_code == 422
 
 
 def test_the_funds_routes_need_the_admin_credential(http, runtime):
-    entry = runtime.meter.add_funds("adjustment", 500, note="kept")
+    entry = runtime.meter.add_funds("adjustment", 500, note="correction")
     assert http.get("/api/admin/deeper/funds").status_code == 404
-    assert http.post("/api/admin/deeper/funds", json={"cents": 1, "note": "x"}, headers=admin("wrong")).status_code == 404
+    assert http.post("/api/admin/deeper/funds", json={"cents": 1, "note": "correction"}, headers=admin("wrong")).status_code == 404
     assert http.post(f"/api/admin/deeper/funds/{entry}/reverse").status_code == 404
     assert http.post(f"/api/admin/deeper/funds/{entry}/reverse", headers=admin("wrong")).status_code == 404
     assert runtime.meter.net_funds()["adjustment"] == 500

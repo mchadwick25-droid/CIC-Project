@@ -68,6 +68,30 @@ def test_purge_deletes_only_conversations_inactive_past_the_cutoff(tmp_path):
     assert events.list_session_ids() == ["s-new"]
 
 
+def test_purge_keeps_a_session_the_edge_says_is_exempt(tmp_path):
+    events = Store(tmp_path / "events.db")
+    for sid, uuid in (("s-saved", "u1"), ("s-anon", "u2")):
+        events.append(session_id=sid, event_uuid=uuid, event_type="participant_message", payload={"text": "x"})
+    with sqlite3.connect(events.db_path) as conn:
+        conn.execute("UPDATE session_events SET created_at = '2026-01-01T00:00:00+00:00'")
+    assert events.purge_inactive("2026-06-01T00:00:00+00:00", lambda sid: sid == "s-saved") == 1
+    assert events.list_session_ids() == ["s-saved"]
+
+
+def test_retention_exempts_none_by_default_and_passes_the_edge_hook_through(tmp_path):
+    now = datetime(2026, 10, 3, tzinfo=timezone.utc)
+    events, qc = Store(tmp_path / "events.db"), QCStore(tmp_path / "qc.db")
+    for sid, uuid in (("s-saved", "u1"), ("s-anon", "u2")):
+        events.append(session_id=sid, event_uuid=uuid, event_type="participant_message", payload={"text": "x"})
+    with sqlite3.connect(events.db_path) as conn:
+        conn.execute("UPDATE session_events SET created_at = '2026-01-01T00:00:00+00:00'")
+    status = retention.run_once(events.db_path, qc.db_path, tmp_path / "status", now=now,
+                                is_exempt=lambda sid: sid == "s-saved")
+    assert status["conversations_deleted"] == 1 and events.list_session_ids() == ["s-saved"]
+    assert retention.run_once(events.db_path, qc.db_path, tmp_path / "status", now=now)["conversations_deleted"] == 1
+    assert events.list_session_ids() == []
+
+
 def test_retention_run_records_its_counts(tmp_path):
     events, qc = Store(tmp_path / "events.db"), QCStore(tmp_path / "qc.db")
     _row(qc, day=date(2026, 1, 5))

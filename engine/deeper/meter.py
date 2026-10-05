@@ -55,7 +55,10 @@ MAX_MEASURES = ("door_stage", "door_ratio_permille", "door_spend_cents")
 FUNDS_KINDS = ("gift", "purchase", "adjustment")
 FUNDS_RETENTION_DAYS = 90
 MAX_FUNDS_CENTS = 10_000_000
-MAX_NOTE_CHARS = 200
+# What a funds entry's note may say. A fixed list, so a name typed by hand can never land in the
+# meter's file. The first four are for an adjustment made by hand; the last two are written by the
+# app itself for the grants it counts.
+NOTE_KINDS = ("cash gift", "check gift", "other gift", "correction", "pilot grant", "admin grant")
 
 MAX_TOKENS_PER_CODE = 1_000_000
 MAX_BATCH_COUNT = 1_000
@@ -679,8 +682,8 @@ class Meter:
             raise ValueError("only an adjustment can be negative")
         if kind != "adjustment" and not payment_id:
             raise ValueError("a gift or purchase needs its payment id")
-        if note is not None and (not isinstance(note, str) or len(note) > MAX_NOTE_CHARS):
-            raise ValueError("note too long")
+        if note is not None and note not in NOTE_KINDS:
+            raise ValueError("a note is one of the listed kinds")
         with self._lock:
             if payment_id is not None:
                 if self._conn.execute("SELECT 1 FROM funds WHERE payment_id = ?", (payment_id,)).fetchone():

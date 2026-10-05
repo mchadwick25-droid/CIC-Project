@@ -22,7 +22,7 @@ import threading
 import time
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
-from typing import Callable
+from typing import Callable, Literal
 
 from fastapi import FastAPI, Header, HTTPException, Request, Response
 from pydantic import BaseModel, Field
@@ -386,7 +386,7 @@ class MintRequest(BaseModel):
 
 class FundsRequest(BaseModel):
     cents: int = Field(..., description="A whole number of cents; negative takes money out")
-    note: str = Field(..., min_length=1, max_length=meter_module.MAX_NOTE_CHARS)
+    note: Literal["cash gift", "check gift", "other gift", "correction"] = Field(..., description="What kind of adjustment this is. A fixed list: no name or text can be typed here")
 
 
 class AccessLogFilter(logging.Filter):
