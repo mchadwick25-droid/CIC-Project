@@ -31,6 +31,7 @@ logger = logging.getLogger("cic.deeper")
 CODE_HEADER = "x-cic-code"
 REMAINING_HEADER = "X-Cic-Remaining"
 LOW_HEADER = "X-Cic-Low"
+FREE_LEFT_HEADER = "X-Cic-Free-Left"
 
 
 def code_from(request: Request) -> str | None:
@@ -113,6 +114,8 @@ class Admission:
         self._refusal: str | None = None
         self._observed: str | None = None
         self.remaining: int | None = None
+        self.free_left: int | None = None
+        self._free_share: float | None = None
 
     def _limit_text(self) -> str | None:
         return self._runtime.ops.limit_text if self._runtime.ops is not None else None
@@ -175,6 +178,7 @@ class Admission:
         door_rounds = self._door_rounds(door)
         if door_rounds is not None:
             free_rounds = min(free_rounds, door_rounds)
+        self._free_share = door.free_share
         free_open = not limited and door.free_voice and completed < free_rounds
         if free_open:
             held = self._runtime.free.reserve(self._visitor, cost, door.free_share)
@@ -240,6 +244,8 @@ class Admission:
                 self._reservation = None
             info = meter.status(self._code) if self._code else None
             self.remaining = info.remaining if info is not None and info.status != "void" else None
+            if self._code is None and self._free_share is not None:
+                self.free_left = self._runtime.free.left(self._visitor, self._free_share)
         except Exception:  # noqa: BLE001
             logger.exception("deeper settle failed")
         self._count_refusal()

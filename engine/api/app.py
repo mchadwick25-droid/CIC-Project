@@ -640,6 +640,8 @@ def create_app(
                     done["remaining"] = admission.remaining
                     if admission.low:
                         done["low"] = True
+                if admission is not None and admission.free_left is not None:
+                    done["free_left"] = admission.free_left
                 if admission is not None:
                     done["limit_note"] = admission.limit_note(result.routing_action)
                 return done
@@ -677,6 +679,8 @@ def create_app(
                     response.headers[deeper_admission.REMAINING_HEADER] = str(remaining)
                     if admission.low:
                         response.headers[deeper_admission.LOW_HEADER] = "1"
+                if admission.free_left is not None:
+                    response.headers[deeper_admission.FREE_LEFT_HEADER] = str(admission.free_left)
         logger.info("message handled ms=%d", (time.monotonic() - started) * 1000)
         return MessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
 

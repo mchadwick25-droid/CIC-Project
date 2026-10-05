@@ -20,6 +20,7 @@ export const deeperCopy = {
   hideCode: 'Hide my code',
   yourCode: (code: string) => `Your code is ${code}. Keep it safe. Enter it on another device to use your tokens there.`,
   balance: (n: number) => `${n.toLocaleString('en-US')} tokens left.`,
+  freeLeft: (n: number) => `${n.toLocaleString('en-US')} free tokens left.`,
 };
 
 export const pilotCopy = {

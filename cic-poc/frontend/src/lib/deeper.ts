@@ -42,6 +42,8 @@ interface DeeperState {
   remaining: number | null;
   // The code in use is nearly spent and nothing else is held to carry on with.
   low: boolean;
+  // What a visitor holding no code may still draw free, as the server last said, or null.
+  freeLeft: number | null;
   claim: PendingClaim | null;
   // The panel beside the conversation: opened by a limit or by the person, never on its own.
   panelOpen: boolean;
@@ -94,7 +96,7 @@ function changeStoredCodes(change: (stored: string[]) => string[]): string[] {
   return next;
 }
 
-const emptyState = (codes: string[]): DeeperState => ({ codes, balances: {}, remaining: null, low: false, claim: null, panelOpen: false });
+const emptyState = (codes: string[]): DeeperState => ({ codes, balances: {}, remaining: null, low: false, freeLeft: null, claim: null, panelOpen: false });
 
 let state: DeeperState = emptyState(deeperEnabled ? readStoredCodes() : []);
 const listeners = new Set<() => void>();
@@ -210,6 +212,16 @@ export function reportBalance(sentWith: string | null, remaining: number | null,
   setBalanceOf(sentWith, remaining);
   const nextLow = low && !otherMayCarry;
   if (state.low !== nextLow) update({ ...state, low: nextLow });
+}
+
+/** The free tokens a visitor with no code has left, as the reply reported them. Not stored. */
+export function reportFreeLeft(freeLeft: number | null) {
+  if (!deeperEnabled || freeLeft === null || state.freeLeft === freeLeft) return;
+  update({ ...state, freeLeft });
+}
+
+export function freeLeftFromHeader(value: string | null): number | null {
+  return remainingFromHeader(value);
 }
 
 /** The header every request carries while a code is held. */

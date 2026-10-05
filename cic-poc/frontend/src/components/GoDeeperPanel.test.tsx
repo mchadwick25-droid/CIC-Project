@@ -84,6 +84,29 @@ describe('GoDeeperPanel', () => {
     expect(container.textContent).not.toMatch(/[$€£]|price|\bcost/i);
   });
 
+  it('shows a free visitor their free tokens left in the strip, and a code holder their code count instead', async () => {
+    const { GoDeeperPanel, deeper } = await load(true);
+    render(<GoDeeperPanel />);
+    expect(screen.queryByText(/free tokens left/)).not.toBeInTheDocument();
+    act(() => deeper.reportFreeLeft(1100));
+    expect(await screen.findByText('1,100 free tokens left.')).toBeInTheDocument();
+    act(() => deeper.reportFreeLeft(440));
+    expect(await screen.findByText('440 free tokens left.')).toBeInTheDocument();
+    act(() => {
+      deeper.saveCode(CODE);
+      deeper.reportBalance(CODE, 1100, false);
+    });
+    expect(await screen.findByText('1,100 tokens left.')).toBeInTheDocument();
+    expect(screen.queryByText(/free tokens left/)).not.toBeInTheDocument();
+  });
+
+  it('shows no free count while the module is off', async () => {
+    const { GoDeeperPanel, deeper } = await load(false);
+    const { container } = render(<GoDeeperPanel />);
+    act(() => deeper.reportFreeLeft(1100));
+    expect(container.textContent).toBe('');
+  });
+
   it('says tokens are running low, and always offers more', async () => {
     const open = vi.fn().mockReturnValue({});
     vi.stubGlobal('open', open);

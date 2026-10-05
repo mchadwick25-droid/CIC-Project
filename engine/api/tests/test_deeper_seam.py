@@ -570,6 +570,45 @@ def test_the_stream_says_low_in_its_final_event(store, usage_store, world_loader
     assert done["low"] is True and done["remaining"] == runtime.ops.low_balance_at - solo_charge(runtime, FREE_CAP + 1)
 
 
+# ---- the free count ----------------------------------------------------------------
+
+def test_a_free_visitor_is_told_their_free_tokens_left_and_a_code_holder_is_not(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    window = runtime.free.window_amount
+    session_id, auth = open_session(http)
+    first = say(http, session_id, auth, "hello")
+    assert first.headers["x-cic-free-left"] == str(window - solo_charge(runtime, 1))
+    assert "x-cic-remaining" not in first.headers
+    second = say(http, session_id, auth, "again")
+    assert second.headers["x-cic-free-left"] == str(window - solo_charge(runtime, 1) - solo_charge(runtime, 2))
+    code = code_with(runtime, 1000)
+    held_id, held_auth = open_session(http, **{"X-Cic-Code": code})
+    reply = say(http, held_id, held_auth, "hello")
+    assert "x-cic-free-left" not in reply.headers and "x-cic-remaining" in reply.headers
+
+
+def test_the_stream_gives_the_free_count_in_its_final_event(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime, streaming_enabled=True)
+    session_id, auth = open_session(http)
+    reply = http.post(f"/api/session/{session_id}/message", json={"text": "hello"}, headers={**auth, "Accept": "text/event-stream"})
+    done = parse_sse(reply.text)[-1][1]
+    assert done["free_left"] == runtime.free.window_amount - solo_charge(runtime, 1)
+    assert "remaining" not in done
+
+
+def test_the_free_count_respects_the_door_share(store, usage_store, world_loader, registry, runtime):
+    assert runtime.free.left("someone", 0.5) == runtime.free.window_amount // 2
+    assert runtime.free.left("someone", 1.0) == runtime.free.window_amount
+    runtime.free.reserve("someone", 10, 0.5)
+    assert runtime.free.left("someone", 0.5) == runtime.free.window_amount // 2 - 10
+
+
+def test_a_module_that_is_off_reports_no_free_count(store, usage_store, world_loader, registry):
+    http = build(store, usage_store, world_loader, registry, RecordingClient())
+    session_id, auth = open_session(http)
+    assert "x-cic-free-left" not in say(http, session_id, auth, "hello").headers
+
+
 # ---- never mid-answer ------------------------------------------------------------
 
 def test_admission_is_decided_before_the_voice_and_never_during_it(store, usage_store, world_loader, registry, runtime, monkeypatch):
