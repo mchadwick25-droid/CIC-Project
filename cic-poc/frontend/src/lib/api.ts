@@ -7,7 +7,7 @@
  * authoritative. A server that answers with plain JSON is handled the same
  * way, with no sentences.
  */
-import { codeHeaders, currentCode, remainingFromHeader, reportBalance } from './deeper';
+import { codeHeaders, currentCode, freeLeftFromHeader, remainingFromHeader, reportBalance, reportFreeLeft } from './deeper';
 import type { CreateSessionResponse, MessageResponse, TableMessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
 import type { StreamedSentence } from './streamedReply';
 
@@ -176,6 +176,7 @@ export async function sendTableMessage(
   }
   if (onSentence && isEventStream(response)) return readMessageStream<TableMessageResponse>(response, onSentence, sentWith);
   reportBalance(sentWith, remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
+  reportFreeLeft(freeLeftFromHeader(response.headers.get('X-Cic-Free-Left')));
   return response.json();
 }
 
@@ -209,8 +210,9 @@ async function readMessageStream<T = MessageResponse>(response: Response, onSent
       buffer = buffer.slice(boundary + 2);
       if (parsed?.event === 'sentence') onSentence(parsed.data as StreamedSentence);
       else if (parsed?.event === 'done') {
-        const done = parsed.data as T & { remaining?: number; low?: boolean };
+        const done = parsed.data as T & { remaining?: number; low?: boolean; free_left?: number };
         reportBalance(sentWith, typeof done.remaining === 'number' ? done.remaining : null, done.low === true);
+        reportFreeLeft(typeof done.free_left === 'number' ? done.free_left : null);
         return done;
       }
       else if (parsed?.event === 'error') {
@@ -248,6 +250,7 @@ export async function sendMessage(
     return readMessageStream(response, onSentence, sentWith);
   }
   reportBalance(sentWith, remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
+  reportFreeLeft(freeLeftFromHeader(response.headers.get('X-Cic-Free-Left')));
   return response.json();
 }
 

@@ -10,7 +10,7 @@ import { deeperCopy, pilotCopy } from '../lib/deeperCopy';
 import { dismissPilot, usePilot } from '../lib/pilot';
 
 export function GoDeeperPanel() {
-  const { codes, remaining, low, claim, panelOpen } = useDeeper();
+  const { codes, remaining, low, freeLeft, claim, panelOpen } = useDeeper();
   const pilot = usePilot();
   const held = codes.length > 0;
   const [entering, setEntering] = useState(false);
@@ -62,6 +62,11 @@ export function GoDeeperPanel() {
           <span className="go-deeper__count" role="status">
             {deeperCopy.balance(remaining)}
             {low ? ` ${deeperCopy.low}` : ''}
+          </span>
+        )}
+        {!held && freeLeft !== null && (
+          <span className="go-deeper__count" role="status">
+            {deeperCopy.freeLeft(freeLeft)}
           </span>
         )}
         <button ref={toggleRef} type="button" aria-expanded={panelOpen} aria-controls="go-deeper-panel" onClick={panelOpen ? closePanel : openPanel}>
@@ -124,6 +129,7 @@ export function GoDeeperPanel() {
                   {low ? ` ${deeperCopy.low}` : ''}
                 </p>
               )}
+              {!held && freeLeft !== null && <p className="go-deeper__count">{deeperCopy.freeLeft(freeLeft)}</p>}
               <div className="go-deeper__actions">
                 <button type="button" onClick={getMore}>
                   {deeperCopy.getMore}

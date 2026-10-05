@@ -1,3 +1,4 @@
+import { renderHook } from '@testing-library/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { ApiRequestError, sendMessage } from './api';
 import type { StreamedSentence } from './streamedReply';
@@ -109,6 +110,8 @@ describe('the code and the balance', () => {
 
   afterEach(() => vi.unstubAllEnvs());
 
+  const read = (deeper: typeof import('./deeper')) => renderHook(() => deeper.useDeeper()).result.current;
+
   it('sends the code with every request that starts or carries a conversation, and reports the balance header', async () => {
     const { deeper, api } = await loadApi(true);
     deeper.saveCode(CODE);
@@ -125,6 +128,23 @@ describe('the code and the balance', () => {
       expect((call[1] as RequestInit).headers).toMatchObject({ 'X-Cic-Code': CODE });
     }
     expect(deeper.remainingFromHeader('4')).toBe(4);
+  });
+
+  it('reports the free tokens left from the header and from the stream, and never when the module is off', async () => {
+    const { deeper, api } = await loadApi(true);
+    const fetchMock = vi.fn().mockImplementation(
+      async () => new Response(JSON.stringify(DONE), { status: 200, headers: { 'Content-Type': 'application/json', 'X-Cic-Free-Left': '440' } })
+    );
+    vi.stubGlobal('fetch', fetchMock);
+    await api.sendMessage('s', 'c', 'hello');
+    expect(read(deeper).freeLeft).toBe(440);
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(streamOf([sse('done', { ...DONE, free_left: 330 })])));
+    await api.sendMessage('s', 'c', 'hello', undefined, () => {});
+    expect(read(deeper).freeLeft).toBe(330);
+    const off = await loadApi(false);
+    vi.stubGlobal('fetch', fetchMock);
+    await off.api.sendMessage('s', 'c', 'hello');
+    expect(read(off.deeper).freeLeft).toBeNull();
   });
 
   it('reads the balance from the stream\'s final event', async () => {

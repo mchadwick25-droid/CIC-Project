@@ -1624,3 +1624,13 @@ Mark's words for the line in the Go deeper panel that explains signing up, recor
 "Signing up allows you to keep your conversation and to purchase more conversations. The tokens are held by the account, not by a code in one browser. Codes stay for anyone without an account and for sponsors."
 
 What the line settles: an account holder's tokens belong to the account and are not carried in one browser; a code remains the way anyone without an account holds tokens, and the way a sponsor hands tokens out. Nothing in the codes build changes.
+
+## 2026-10-05 — Go Deeper T3b: a free visitor sees their free tokens left (pre-turn-on item 3, words approved by Mark)
+
+Mark's 2026-10-04 ruling gave a free visitor a count of what they have left, as a code holder has. It was ruled and not built; the accounts review found the strip showed a count only for a code holder. This builds it, in Mark's wording A: "{n} free tokens left." (Chosen over a version with a refill sentence and one that said "this month", which would have been wrong: the window runs 30 days from a person's first use.)
+
+**Engine.** The free allowance can now say what a visitor may still draw under the share in force: the window narrowed by the door's stage, less what is spent and held, never below zero. Admission keeps the share it used and, when a turn is over and no code was in use, reports that number: a response header (`X-Cic-Free-Left`) and a `free_left` field in the stream's final event. Neither is stored, and a visitor holding a code gets the code's balance as before and no free count. With the module off nothing is reported. The count is measured against what the door lets a visitor draw, not the whole window, so a halved window at a stage shows half.
+
+**App.** The count is read from the header or the final event, held in memory only, and shown in the strip under the message box and in the Go deeper panel, in place of the code count when no code is held. It disappears once a code is held, and nothing shows with the module off.
+
+**Not changed.** The count appears after a visitor's first reply, not before. When accounts arrive, a signed-in person's allowance is the account's (the accounts change order), and this line is where it will show.
