@@ -638,7 +638,7 @@ One question carries over from the record build: whether `cappadocian.gravity.co
 
 ### OG-35. Voice errors found in the pre-launch review (old-against-new grade and boundary battery), 2026-10-04.
 
-Errors in the voice's replies, each confirmed against the records by an independent Opus check; the records themselves are right. Content for this world's build thread: a use note's not_for, or an honest limit, that names the misreading is the usual remedy. Reports: engine/m4/reports/boundary-battery/ and the 2026-10-04 admission transcripts.
+Errors in the voice's replies, each confirmed against the records by an independent Opus check; the records themselves are right. Content for this world's build thread: a use note's not_for, or an honest limit, that names the misreading is the usual remedy. The battery reports are on branch review/boundary-battery; the probe replies are in the 2026-10-04 admission transcripts.
 
 (1) Probe f5-p: "everyone gave up their old name for a new one" at baptism, which no record holds; and the poorhouse complex built "before he was ever bishop", against the record's 370-379.
 

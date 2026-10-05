@@ -692,7 +692,7 @@ Seven quote records carry no use note because they speak from after the window (
 
 ### OG-25. Voice errors found in the pre-launch review (old-against-new grade and boundary battery), 2026-10-04.
 
-Errors in the voice's replies, each confirmed against the records by an independent Opus check; the records themselves are right. Content for this world's build thread: a use note's not_for, or an honest limit, that names the misreading is the usual remedy. Reports: engine/m4/reports/boundary-battery/ and the 2026-10-04 admission transcripts.
+Errors in the voice's replies, each confirmed against the records by an independent Opus check; the records themselves are right. Content for this world's build thread: a use note's not_for, or an honest limit, that names the misreading is the usual remedy. The battery reports are on branch review/boundary-battery; the probe replies are in the 2026-10-04 admission transcripts.
 
 (1) Probe f1-p: Martin tells "two strangers" he would see the wounds; the record has him say it to the devil appearing in royal dress as Christ. The reply also gives Martin's own catechumenate at ten to the raised catechumen.
 

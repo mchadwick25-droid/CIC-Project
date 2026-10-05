@@ -496,7 +496,7 @@ All 8 spans were de-quoted and paraphrased in the Representative's own indirect 
 
 ## OG-13. **Voice errors found in the pre-launch review (old-against-new grade and boundary battery), 2026-10-04.**
 
-Errors in the voice's replies, each confirmed against the records by an independent Opus check; the records themselves are right. Content for this world's build thread: a use note's not_for, or an honest limit, that names the misreading is the usual remedy. Reports: engine/m4/reports/boundary-battery/ and the 2026-10-04 admission transcripts.
+Errors in the voice's replies, each confirmed against the records by an independent Opus check; the records themselves are right. Content for this world's build thread: a use note's not_for, or an honest limit, that names the misreading is the usual remedy. The battery reports are on branch review/boundary-battery; the probe replies are in the 2026-10-04 admission transcripts.
 
 (1) Probe f1-e: the Oea episode reversed - the reply says the town's Jews confirmed the Hebrew supported the new translation; `hal.story.oea-gourd` has them siding with the old reading and the bishop correcting it back. The same reply turns Augustine's "no one should be preferred to the Seventy" into "many preferred" Jerome's version.
 

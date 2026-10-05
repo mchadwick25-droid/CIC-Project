@@ -399,7 +399,7 @@ Not fixed; content for this world's build thread. (1) `alx.dw.church-failure`: i
 
 ### OG-16. Voice errors found in the pre-launch review (old-against-new grade and boundary battery), 2026-10-04.
 
-Errors in the voice's replies, each confirmed against the records by an independent Opus check; the records themselves are right. Content for this world's build thread: a use note's not_for, or an honest limit, that names the misreading is the usual remedy. Reports: engine/m4/reports/boundary-battery/ and the 2026-10-04 admission transcripts.
+Errors in the voice's replies, each confirmed against the records by an independent Opus check; the records themselves are right. Content for this world's build thread: a use note's not_for, or an honest limit, that names the misreading is the usual remedy. The battery reports are on branch review/boundary-battery; the probe replies are in the 2026-10-04 admission transcripts.
 
 (1) Sealed probe f6-i: the reply says "Demetrius had him ordained in another city without his consent"; `alx.story.origen-demetrius` has Palestinian bishops ordaining Origen without Demetrius's consent, and Demetrius condemning it.
 
