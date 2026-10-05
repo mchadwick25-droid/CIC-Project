@@ -27,9 +27,9 @@ VERIFY_MAX_TOKENS = 5
 # Load guards. Both calls run on the safety model and share its quota, so
 # the step yields under load rather than compete with the safety call: at
 # most MAX_CONCURRENT turns attach at once (a turn that finds no free slot
-# skips the step), any rate limit pauses the step server-wide for
-# COOLDOWN_SECONDS, and one turn makes at most MAX_CHECKS_PER_TURN check
-# calls.
+# skips the step), any rate limit on its own calls or on a gate call pauses
+# the step server-wide for COOLDOWN_SECONDS, and one turn makes at most
+# MAX_CHECKS_PER_TURN check calls.
 MAX_CONCURRENT = 2
 COOLDOWN_SECONDS = 60.0
 MAX_CHECKS_PER_TURN = 8
@@ -43,7 +43,9 @@ def _cooling_down() -> bool:
         return time.monotonic() < _cooldown_until
 
 
-def _start_cooldown() -> None:
+def start_cooldown() -> None:
+    """Pause the step server-wide; the gate calls this when its safety or
+    reader call is throttled, so attachment never takes quota they need."""
     global _cooldown_until
     with _cooldown_lock:
         _cooldown_until = time.monotonic() + COOLDOWN_SECONDS
@@ -169,7 +171,7 @@ def attach_citations(
         # Decoration only: a failed call ends attachment for this turn and
         # keeps what was already verified; the text is untouched either way.
         if isinstance(exc, anthropic.RateLimitError):
-            _start_cooldown()
+            start_cooldown()
         trail.append({"error": f"{type(exc).__name__}: {exc}"[:300]})
     finally:
         _slots.release()
