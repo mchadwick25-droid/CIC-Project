@@ -644,10 +644,10 @@ Each item was checked against the vendored source before any edit. Where a claim
 
 Edited bodies also lost their change-history and build narration, restated as present-tense reasons or removed.
 
-Pending waiver changes named by `python -m engine.m9.cli check`, which this thread does not edit (`engine/m9/enforce.py`):
+Waiver changes named by `python -m engine.m9.cli check`, made on this branch in `engine/m9/enforce.py` with the project lead's approval (2026-10-05):
 - `engine/m9/enforce.py` line 170, `m1:readability/desert`: `Waiver(count=153, ...)` becomes `count=150`.
 - `engine/m9/enforce.py` line 210, `m1:use-note-present/desert`: `Waiver(count=3, ...)` is deleted, because the three post-window quotes are analytic and the finding no longer fires.
-Status of these two: pending, until the project lead edits `enforce.py`.
+Both are made.
 
 Doc errors, not edited. `CiC_W3_Doc09a_Story_Inventory.md` stories 2.1, 2.2 and 2.3 still carry the jug, the court tutor and the visiting elders. `desert_World_Capsule_Core.md` still carries the jug.
 
