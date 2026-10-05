@@ -82,8 +82,8 @@ All of these must be true. The build thread checks the first group; Mark confirm
 | `CIC_DEEPER_SITE_ORIGIN` | engine | the site's exact origin, no `www`, no wildcard | The claim route answers only this origin. |
 | `CIC_DEEPER_OPS_FILE` | engine | optional | Defaults to `engine/deeper/ops/go-deeper.yaml`. A bad file stops the start. |
 | `CIC_DEEPER_METER_DB`, `CIC_DEEPER_CLAIMS_DB` | engine | optional | Default to the directory that holds the event store, so they sit on the backed-up disk. |
-| `VITE_DEEPER_ENABLED` | app build | `on` | Build-time. Off means no panel, no header, no change. Changing it needs a rebuild and deploy. |
-| `VITE_DEEPER_SITE_ORIGIN` | app build | the same exact origin | Must match `CIC_DEEPER_SITE_ORIGIN`. |
+| `VITE_DEEPER_ENABLED` | app build; set as an environment variable on the Render service | `on` | Build-time. The Dockerfile passes it to the frontend build. Off means no panel, no header, no change. Changing it needs a rebuild and deploy. |
+| `VITE_DEEPER_SITE_ORIGIN` | app build; set as an environment variable on the Render service | the same exact origin | Must match `CIC_DEEPER_SITE_ORIGIN`. |
 | `enabled` | `cic-website/assets/go-deeper-config.js` | `true` at step 4 | Until it is true the home and Get Involved pages make no door-line request. |
 | `PAYMENT_LINK` | `cic-website/go-deeper.html` | the Payment Link | The buy button stays off until one is set. The page carries one link today and the packs are three, so a link per pack is a change to make at step 4 once the S4 links exist. |
 

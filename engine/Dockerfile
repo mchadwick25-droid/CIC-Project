@@ -45,6 +45,12 @@ WORKDIR /frontend
 COPY cic-poc/frontend/package.json cic-poc/frontend/package-lock.json ./
 RUN npm ci
 COPY cic-poc/frontend/ ./
+# Go Deeper's two build-time switches. Render hands a service's environment
+# variables to a Docker build only as ARGs the Dockerfile declares. Unset, both
+# are empty and the app is built with the module off.
+ARG VITE_DEEPER_ENABLED=""
+ARG VITE_DEEPER_SITE_ORIGIN=""
+ENV VITE_DEEPER_ENABLED=$VITE_DEEPER_ENABLED VITE_DEEPER_SITE_ORIGIN=$VITE_DEEPER_SITE_ORIGIN
 RUN npm run build
 
 FROM python:3.11-slim
