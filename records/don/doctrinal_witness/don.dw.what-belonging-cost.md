@@ -36,8 +36,8 @@ sources:
   locus: XVI, 5, 52 (412 Ian. 30) - circumcelliones argenti pondo decem
   license: public-domain
 - source_id: don.source.passio-isaac-et-maximiani
-  locus: Macrobius writing to his own congregation at Carthage about two of their number, and closing
-    by telling them the same may be asked of any of them
+  locus: Macrobius writing to the church at Carthage about two of its martyrs, and closing by telling
+    the people the same may be asked of any of them
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
   locus: three hundred and ten bishops gathered at Bagai from across the African provinces
@@ -67,10 +67,11 @@ text: >-
   and the document survives.
 
 
-  And now and then it cost everything. A bishop of ours wrote to his own
-  congregation at Carthage about two of their number who had been
-  flogged to death and whose bodies the proconsul had weighted and sunk
-  in the sea so that nobody could venerate them. He did not end the
+  And now and then it cost everything. A letter went to the church at
+  Carthage from Macrobius, who is said to have been a bishop of ours,
+  hidden at Rome. It told of two martyrs flogged to death. The proconsul
+  had their bodies weighted and sunk in the sea, so that nobody could
+  venerate them. He did not end the
   letter with consolation. He ended it by telling the people reading it
   that what happened to those two might yet be asked of any of them.
 

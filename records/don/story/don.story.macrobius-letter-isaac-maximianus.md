@@ -11,8 +11,8 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: Widely Accepted to Documented at the narrative level (a named author, his own office,
-    a real congregation, close in time to the events); Widely Accepted to Contested for the supernatural
+  divergence_note: Widely Accepted to Documented at the narrative level (a named author, a named church at Carthage, close
+    in time to the events; his office as bishop rests on Mabillon's note in the edition); Widely Accepted to Contested for the supernatural
     framing elements specifically (the omen, the vision), consistent with Tier 1's own allowance for author-perspective
     caveats (Story-Chunks/donstory003, Tier Justification).
 sources:
@@ -41,16 +41,15 @@ relations:
 - type: associated-with
   target: don.figure.isaac-and-maximianus
 narrative_tier: 1
-narrative_tier_justification: 'Tier 1 (Doc_09 SS3): Macrobius names himself, identifies his own office
-  (bishop) and the specific congregation he addresses, and writes close in time (347-348) to the events
-  described -- every element Tier 1 requires, and the element that donstory001 and donstory002 both lack.
+narrative_tier_justification: 'Tier 1 (Doc_09 SS3): Macrobius is named in the manuscript title and the closing line, which also name the church at
+  Carthage he addresses; the edition''s note, not the letter, calls him a Donatist bishop hidden at Rome; and
+  he writes close in time (347-348) to the events described -- every element Tier 1 requires, and the element that donstory001 and donstory002 both lack.
   This is a disclosed departure from Doc_05 SS11''s own handoff, which grouped all three Macarian-persecution
   martyr texts together as ''Tier 2/3 material''; this text alone, of the three, carries a named author
   writing in his own voice to a real, identified audience (Story-Chunks/donstory003, Tier Justification).'
-tellable_as: Macrobius's own letter to his Carthage congregation, telling them what happened to Isaac
-  and Maximianus
-text: 'Macrobius wrote to his own congregation at Carthage as their bishop, in the aftermath of what he
-  had witnessed, to tell them what had happened to two of their own.
+tellable_as: Macrobius writes to the church at Carthage. He tells how Isaac and Maximianus died.
+text: 'Macrobius wrote to the church at Carthage, in the aftermath of what he had witnessed, to tell them
+  what had happened to two of their own. The editor''s note calls him a Donatist bishop, hidden at Rome.
 
 
   Maximianus, a soldier of Christ in the tradition''s own description, was chosen to face the Roman proconsul
@@ -74,14 +73,14 @@ text: 'Macrobius wrote to his own congregation at Carthage as their bishop, in t
   living.
 
 
-  Macrobius closes his letter by turning to his own congregation directly: what happened to Isaac and
+  Macrobius closes his letter by turning to the people of Carthage directly: what happened to Isaac and
   Maximianus, he tells them, is what may yet be asked of any of them.'
 absent_detail: 'The wine-cup omen and Maximianus''s combat-vision are Macrobius''s own reported interpretation
   of these events, not independently verified occurrences. Isaac''s own cry to his tormentors is rendered
   here as reported speech, not verbatim quotation: no established published English translation of this
   letter exists (it survives only in raw, uncorrected Latin OCR), and this record does not present an
   improvised rendering as a certified verbatim quotation.'
-modern_contrast: 'A modern reader may assume a bishop writing to comfort a grieving congregation would
+modern_contrast: 'A modern reader may assume a Donatist leader writing to comfort a grieving church would
   soften what happened. Macrobius''s letter does the opposite: it closes by telling the living that the
   same fate may be asked of any of them -- using a specific, recent death as a direct formation instrument
   for those still alive, not a private consolation kept separate from what it asks of them next.'
@@ -94,4 +93,3 @@ use_note:
   years: {from: 347, to: 348}
   status: reviewed
 ---
-Mapped directly from Story-Chunks/donstory003_macrobius-letter-isaac-maximianus.md. Slug shortened from the chunk's own filename stem (already matches).

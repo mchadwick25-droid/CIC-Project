@@ -50,8 +50,8 @@ text: >-
   against one of our bishops, and another bishop wrote to him privately -
   settle it quietly, before the flame breaks out - and in the same letter
   said he knew the accusation was true. A third wrote: let us not come
-  into a public court and be condemned by the gentiles. Every one of the
-  letters ends the same way. Let no one learn of it. We are the church
+  into a public court and be condemned by the gentiles. Several of the
+  letters end the same way. Let no one know about it. We are the church
   that said a man's own purity decides whether a sacrament is real, and
   those are our founding bishops in their own hand, arranging for a true
   charge to go quiet. If the people who taught you turned out to be
@@ -72,11 +72,11 @@ text: >-
 
 
   Where was God when it happened to us? Our own texts do not argue that
-  question. They tell it. A bishop wrote to his own people about two of
-  them beaten to death, and about the proconsul weighting the bodies so
-  the sea would keep them, and about the sea giving them back for six
-  days until the congregation could take them home and bury them. Nowhere
-  in that letter does he explain why any of it was allowed. What he does
+  question. They tell it. A letter went to the church at Carthage about two
+  of its martyrs beaten to death, and about the proconsul weighting the
+  bodies so the sea would keep them, and about the sea giving them back
+  for six days until the congregation could take them home and bury them.
+  Nowhere in that letter does the writer explain why any of it was allowed. What he does
   instead, at the end, is turn to the people reading and tell them that
   what happened to those two may yet be asked of any of them. That is the
   whole of the answer he gave. We would not press it on you. It is what

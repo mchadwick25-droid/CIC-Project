@@ -67,7 +67,7 @@ use_note:
     - "a claim that Caecilianist is a neutral historical label for the mainstream African church"
     - "a claim that it was a personal insult rather than a refusal to concede a contested title"
     - "a claim that its own bearers used it of themselves"
-    - "a claim about refusing the name as one act with refusing the rival's sacraments, which sits in don.witness.boundary-is-doctrine"
+    - "a claim that refusing the name and refusing the rival's sacraments were one act"
   years: {from: 311, to: 411}
   status: reviewed
 ---

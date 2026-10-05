@@ -4,6 +4,7 @@ world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
 status: draft
+voice: analytic
 register: emic
 canon_cells:
 - F3-T

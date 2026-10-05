@@ -14,14 +14,18 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Documented
   divergence_note: 'The two councils that matter most -- Cebarsussi (393) and Bagai (394) -- are Documented, and
-    their sentences are quoted directly in Augustine''s On Baptism and Answer to Petilian (Doc_04 SS3.6). That
-    is also the whole of the problem: no Donatist conciliar acta survive in their own right, so this communion''s
-    own conciliar life is known through an opponent''s selective quotation of two sentences he needed for an argument.
+    the Bagai sentence is quoted word for word in Augustine''s Answer to Petilian, and On Baptism names both councils
+    (Doc_04 SS3.6). That is also the whole of the problem: no Donatist conciliar acta survive in their own right,
+    so this communion''s own conciliar life is known through an opponent''s selective quotation of the sentences
+    he needed for an argument.
     Doc_06 SS1 records ''No change'' to the Tier-3 estimate and no chunk was built, so the term''s development
     here is modest by design.'
 sources:
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: the Bagai sentence quoted for Augustine's own argument
+  locus: "I.5.7 and II.12 - the Bagai council's own words, 'sacrilegiously' baptized in schism and 'the truthful voice of a plenary Council', quoted for Augustine's argument"
+  license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: "the Bagai decree quoted word for word, then Optatus Gildonianus advancing with a military force to bring Felicianus and Praetextatus back (Answer to the Letters of Petilian I.10, section 11; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml lines 15508-15513; a shorter rendering at II.7, line 15875)"
   license: public-domain
 - source_id: don.source.augustine-contra-cresconium
   locus: the Cebarsussi and Bagai proceedings

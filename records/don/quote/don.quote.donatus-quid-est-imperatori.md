@@ -3,34 +3,25 @@ id: don.quote.donatus-quid-est-imperatori
 world_id: donatism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
 confidence:
   citation_specificity: A
-  verification_state: verified-via-authority
+  verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: 'The Latin clause quoted in `text` is located at `cic/texts/optatus_libri-vii-critical_ziwsa1893.txt`,
-    line 6557 (the Ziwsa critical edition); `optatus-against-donatists`''s own line 1904 carries only the
-    Vassall-Phillips English translation. The Ziwsa file''s own
-    OCR is rough at this line (''qnid est imperatori cuni ecelesia?'' for ''quid est imperatori cum ecclesia?''),
-    a known artifact of that scan rather than a textual variant; the Latin above is given in its standard,
-    corrected orthography, not the raw OCR string. The corrected
-    Latin cannot verify character-for-character against either vendored file (one carries only the English,
-    the other only the OCR-corrupted scan), which is why verification_state is
-    verified-via-authority rather than verified-direct: the Latin rests on standard orthography rather than a direct
-    character match to a vendored file. No clean vendored transcription of this Latin
-    exists in the corpus to repoint to.'
+  divergence_note: >-
+    The quoted words are the Vassall-Phillips English translation, verbatim from the vendored Optatus, where
+    Optatus puts them in Donatus's mouth. The Latin original stands in the Ziwsa critical edition, but the scan
+    reads "qnid est imperatori cuni ecelesia?" at that line, so the Latin is not quoted here.
 sources:
 - source_id: don.source.optatus-against-donatists
-  locus: Book III -- the Vassall-Phillips English translation; cic/texts/optatus_against-the-donatists.txt,
-    line 1904
+  locus: "Book III, chapter 3 (The pride of Donatus); the Vassall-Phillips English translation, cic/texts/optatus_against-the-donatists.txt, line 1904"
   license: public-domain
 - source_id: don.source.ziwsa-critical-edition-optatus
-  locus: 'Book III -- the Latin original, corrupted by OCR at this line (''qnid est imperatori cuni ecelesia?'');
-    cic/texts/optatus_libri-vii-critical_ziwsa1893.txt, line 6557'
+  locus: "Book III, the Latin original, whose scan is corrupted at this line (qnid est imperatori cuni ecelesia?); cic/texts/optatus_libri-vii-critical_ziwsa1893.txt, line 6557"
   license: public-domain
 retrieval:
   tier: 1
@@ -52,7 +43,7 @@ relations:
   target: don.witness.refusal-and-recourse
 - type: associated-with
   target: don.dw.the-emperor-and-the-church
-text: '"Quid est imperatori cum ecclesia?" ("What has the Emperor to do with the Church?")'
+text: "What has the Emperor to do with the Church?"
 speaker_or_author: don.figure.donatus
 license: verbatim
 modern_lens_note: 'A modern reader may hear this as a general church-state-separation principle, the kind
@@ -72,4 +63,4 @@ use_note:
   years: {from: 346, to: 348}
   status: reviewed
 ---
-Named directly in the Permanent Prompt's own Approved Source paragraph ('The retort Donatus himself is remembered to have given the emperor's own claim on the church'). Independently re-located this session at Optatus, Against the Donatists, Book III (line 1904) -- Optatus addresses the passage to Parmenian directly ('when they came to Donatus, your father...'), so the retort survives inside Optatus's own polemic against Donatus's own successor, not in Donatus's own hand. modern_rendering lightly modernizes Vassall-Phillips's own 1917 published translation, already close to plain modern English.
+Optatus addresses the passage to Parmenian directly ("when they came to Donatus, your father"). The retort therefore survives inside Optatus's polemic against Donatus's own successor, not in Donatus's hand. The modern rendering lightly modernizes the 1917 translation, which is already close to plain English.

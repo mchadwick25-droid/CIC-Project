@@ -13,8 +13,10 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: 'Documented to Widely Accepted at the narrative level - Macrobius names himself, names
-    the congregation he is writing to, and writes close in time to what he describes. Widely Accepted to
+  divergence_note: 'Documented to Widely Accepted at the narrative level - the manuscript title and the
+    closing line name Macrobius and the church at Carthage, and the letter was written close in time to
+    what it describes. The letter does not give his office; Mabillon''s note in the edition calls him a
+    Donatist and the hidden bishop of his own people at Rome. Widely Accepted to
     Contested for the supernatural framing specifically (the wine-cup omen, Maximianus''s combat vision),
     which are Macrobius''s own reported understanding of what these events signified and are presented
     as his, not as independently verified occurrences. Tier 1''s own definition allows exactly this split.
@@ -25,6 +27,9 @@ sources:
 - source_id: don.source.passio-isaac-et-maximiani
   locus: cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 1367-2609 - Macrobius's own letter,
     preserved twice in this file from two manuscripts Mabillon consulted
+  license: public-domain
+- source_id: don.source.passio-isaac-et-maximiani
+  locus: "Mabillon's note on the author, cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 1496-1498 and 1509-1510; the closing line of the letter, lines 1930-1932"
   license: public-domain
 retrieval:
   tier: 1
@@ -48,20 +53,20 @@ narrative_tier: 1
 narrative_tier_justification: 'Tier 1, and worth saying plainly why this account earns a different tier
   from the outwardly similar Passio Marculi, since tiering by genre label rather than by evidentiary character
   is the error the governing method specifically warns against. Every element Tier 1 requires and the Passiones
-  lack is present: Macrobius is named; he identifies himself as bishop to the specific congregation he
-  addresses; the letter is datable to 347-348 with the persecution it reports; and it is a real occasional
+  lack is present: Macrobius is named in the manuscript title and the closing line, and the church he addresses is named
+  there too; the edition''s note, not the letter, calls him a Donatist bishop hidden at Rome; the letter is datable to 347-348 with the persecution it reports; and it is a real occasional
   letter to a real audience rather than a composition built from the outset for liturgical or hagiographic
   performance. This is a disclosed departure from Doc_05''s own grouping of all three Macarian martyr texts
   as Tier 2/3 material - a grouping followed for the other two and departed from here, because this text
   alone carries a named author writing in his own voice to an identified audience, a distinction a grouping-level
   treatment had no occasion to weigh. The omen and the vision do not pull the whole account down a tier;
   they carry the author''s own perspective, appropriately caveated, exactly as Tier 1 provides for.'
-tellable_as: A bishop writes to his own congregation about two of their number tortured to death, whose
-  bodies the proconsul sank in the sea so no one could venerate them - and the sea gave them back.
+tellable_as: A Donatist writes to the church at Carthage about two martyrs tortured to death. The proconsul
+  sank their bodies in the sea so no one could venerate them, and the sea gave them back.
 text: >-
-  Macrobius wrote to his own congregation at Carthage as their bishop, in
-  the aftermath of what he had seen, to tell them what had been done to
-  two of their own.
+  Macrobius wrote to the church at Carthage, in the aftermath of what he
+  had seen, to tell them what had been done to two of their own. The
+  editor's note calls him a Donatist bishop, hidden at Rome.
 
   Maximianus - a soldier of Christ, in the letter's own description,
   robust and unflinching - was chosen to face the Roman proconsul first.
@@ -93,7 +98,7 @@ text: >-
   them, who took them and buried them with the same rites and the same
   joy they would have given the living.
 
-  Macrobius closes by turning to his congregation directly: what happened
+  Macrobius closes by turning to the people of Carthage directly: what happened
   to Isaac and Maximianus, he tells them, is what may yet be asked of any
   of them.
 absent_detail: Nothing survives from the proconsul's side, or from anyone who was not already ours - no
@@ -116,10 +121,6 @@ use_note:
   years: {from: 347, to: 348}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory003_macrobius-
-letter-isaac-maximianus.md (Doc_09 story index row donstory003, Tier 1),
-whose narrative text is carried forward rather than re-derived.
-
 HOMONYM, LOAD-BEARING - don.core.donatism cautions item 7. The
 Maximianus of this letter is a martyr of the Macarian repression,
 347-348. He is NOT Maximian of Cebarsussi, the deacon deposed and made a

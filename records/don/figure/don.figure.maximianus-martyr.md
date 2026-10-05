@@ -11,8 +11,8 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: Documented at the narrative level - a named bishop writing to a named congregation in
-    the immediate aftermath. Widely Accepted to Contested for the supernatural framing specifically, the
+  divergence_note: Documented at the narrative level - a named writer, Macrobius, writing to the church at
+    Carthage in the immediate aftermath. Widely Accepted to Contested for the supernatural framing specifically, the
     wine-cup omen and the combat vision, which are Macrobius's own reported understanding of what these
     events signified and are presented as his rather than as independently verified occurrences. Macrobius
     does not say how he knew what Maximianus dreamed.

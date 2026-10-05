@@ -39,7 +39,7 @@ claim: >-
   the name they claim is an empty one; whoever is found to be a Christian will hold it at the end.
 held_against:
 - Optatus turned this communion's own legal self-designation into the charge against it. Donatist bishops
-  signing a formal petition to Constantine as "of the party of Donatus" is preserved by him precisely so
+  signing a formal petition to Constantine as "of the party of Donatus" is reported by him precisely so
   that he can argue they acknowledged belonging not to the Church of Christ but to a man's faction, and
   the rival's popular song names them the same way (don.term.pars-donati;
   don.source.augustine-psalmus-contra-partem-donati)

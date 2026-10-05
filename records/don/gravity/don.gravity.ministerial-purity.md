@@ -34,6 +34,9 @@ sources:
   locus: Petilian's own quoted rebaptism-theology arguments (Registry row 12) - the doctrine argued FOR in
     a Donatist voice, not merely characterised
   license: public-domain
+- source_id: don.source.augustine-psalmus-contra-partem-donati
+  locus: "the whole psalm, read through (cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 1293-1560 and following): it holds no Donatist-voiced text, only Augustine's own lines on the claim, for example 'men very proud who say they are the righteous' (line 1313), 'if only the holy baptize, rebaptize after those' (line 1852) and 'you cry that you alone are holy' (line 1930)"
+  license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
   locus: the Acta Purgationis Felicis (314) - the founding traditio accusation against Felix of Aptungi in
     its own documentary form

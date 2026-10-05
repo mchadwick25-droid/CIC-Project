@@ -62,7 +62,7 @@ text: >-
 
   Four things escape that, and only four, and each is short. A sermon
   preached at a martyr's grave. A passion of one of our bishops. One
-  bishop's own letter to his own congregation. And one book of
+  letter to the church at Carthage, from Macrobius, who is said to have been our bishop. And one book of
   interpretation by a man our own council condemned. Add to that the
   transcript of the great conference, where a notary took our bishops
   down verbatim with no adversary choosing which words to keep - and note

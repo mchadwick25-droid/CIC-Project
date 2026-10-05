@@ -19,7 +19,7 @@ confidence:
     good ground; the printing it reaches this compilation through carries the worst OCR damage of any
     text in this corpus, so the wording is carried as reported sense and not as a quotable clause. That
     we confessed the same creed as our opponents is not our own claim but a finding all sides agree on:
-    the division was never called a heresy by either party.
+    no opponent named a creed of ours that differed, though imperial law and Augustine used the word heretic of us.
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
   locus: the 411 acts - Petilian on standing before the governor; Emeritus answering Augustine verse against
@@ -46,9 +46,9 @@ retrieval:
   - participant asks what his death and resurrection meant to us
 text: >-
   Start with the part that will surprise you: on Christ himself we said
-  what our opponents said. Word for word, creed for creed. Nobody in
-  Africa called the other side heretics, because nobody could. The
-  quarrel was never about who Christ is. It was about who may hand on
+  what our opponents said. Word for word, creed for creed. The
+  emperors' law and Augustine did call us heretics, but nobody named a
+  creed of ours that differed. The quarrel was never about who Christ is. It was about who may hand on
   what he gave.
 
 
@@ -78,10 +78,10 @@ text: >-
   His death meant that the end of a faithful life is not an interruption
   of it. Our own martyr was shown a cup, a crown and a palm four days
   before he was thrown from a cliff - shown, in advance, what finishing
-  looked like. And a bishop writing to his own congregation about two of
-  their number tortured to death closed by telling them plainly that the
-  same might yet be asked of any of them. That is our gospel in its
-  working form: he stood, he was condemned, he was raised, and the day
+  looked like. And a letter to the church at Carthage about two of its
+  martyrs, tortured to death, closed by telling the people plainly that
+  the same might yet be asked of any of them. That is our gospel in its
+  working form: Christ stood, was condemned, was raised, and the day
   they come for you is not the day it all went wrong.
 positions:
 - our confession about Christ was identical with our opponents' and was never the matter in dispute; both

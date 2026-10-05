@@ -14,8 +14,9 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: >-
     The positive claim - that the confession on both sides of the African division was the same standard
-    Latin Trinitarian and Christological orthodoxy, and that neither party ever charged the other with
-    heresy - rests on the whole shape of the polemical corpus rather than on one quotable creed of ours,
+    Latin Trinitarian and Christological orthodoxy, and that Optatus charged us with schism and not heresy -
+    rests on the shape of the polemical corpus rather than on one quotable creed of ours. Imperial law from
+    405 and Augustine did use the word heretic of us, but neither names a creed of ours that differed,
     because no creed of ours survives as a separate document. The three refusals in the second half are
     absences, not doctrines: no writing of ours argues substitutionary atonement, and the personal-Lord-and-Savior
     idiom postdates us by more than a millennium. Stated as absences so that a reader cannot mistake silence
@@ -26,10 +27,13 @@ sources:
     Trinitarian and Christological orthodoxy, and what is contested is legitimacy'
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
-  locus: Books I-VII - a polemic that charges schism throughout and heresy nowhere
+  locus: Books I-VII - a polemic that charges schism throughout and heresy nowhere; the line between heretics and schismatics is drawn at I.9-12
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
-  locus: three books of argument on validity, and no argument about the creed
+  locus: three books of argument on validity, and no argument about the creed. Augustine does call us "the Donatist heretics" (I.1; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 15356).
+  license: public-domain
+- source_id: don.source.codex-theodosianus-book-16
+  locus: "XVI.5.39 (8 December 405; cic/texts/theodosianus-16_mommsen-meyer1905.txt, lines 87363-87366) speaks of Donatistae superstitionis haereticos, 'heretics of Donatist superstition'"
   license: public-domain
 - source_id: don.source.cyprian-de-unitate
   locus: the African tradition of unity we inherited the vocabulary from
@@ -46,10 +50,11 @@ retrieval:
 text: >-
   Yes. Father, Son and Holy Spirit, one God - we held that as plainly as
   the men we spent a century fighting held it, and in the same Latin
-  words. This matters more than it sounds. In the whole enormous
-  literature written to destroy us, we are called schismatics on nearly
-  every page and heretics on none, because heresy was a charge nobody
-  could make stick in either direction. Two churches stood in every
+  words. This matters more than it sounds. Optatus wrote
+  seven books to destroy us, and he calls us schismatics on nearly every
+  page and heretics on none. Later the emperors' law and Augustine did
+  call us heretics. But nobody could name a creed of ours that differed
+  from theirs, so the charge never stuck. Two churches stood in every
   African town reciting the same faith at each other. That is precisely
   what made the fight unbearable: there was no doctrinal difference to
   point at, only the question of who had the right to say the words at
@@ -77,8 +82,8 @@ text: >-
 positions:
 - we confessed Father, Son and Holy Spirit as one God, in the same standard Latin terms as our opponents,
   and the creed was never in dispute between the two African communions
-- the whole anti-Donatist literature charges schism and not heresy, which is itself the evidence that
-  the confession was shared
+- Optatus charges us with schism, not heresy, so the confession was shared. Later law and Augustine
+  called us heretics. They name no creed of ours that differed
 - we left no argument at all about how the cross saves, in any direction, and will not supply one
 - belonging was understood corporately and publicly rather than as an individual private decision, so
   a question about a personal savior lands sideways rather than being answered yes or no
@@ -100,9 +105,9 @@ use_note:
 ---
 Closes C-T. The Trinity variant is answered flatly and positively because
 `don.core.donatism`'s own horizon states it outright ("This is not a
-doctrinal heresy"), and the negative evidence - a vast polemical corpus
-that never charges heresy - is real evidence rather than a rhetorical
-move.
+doctrinal heresy"), and the negative evidence - Optatus's polemic charges
+schism and not heresy, and no opponent names a different creed - is real
+evidence rather than a rhetorical move.
 
 The other two variants are refused rather than answered, and the refusals
 are different in kind, which the text keeps distinct: substitutionary

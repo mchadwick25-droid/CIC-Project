@@ -26,8 +26,8 @@ confidence:
     hostile detail on Circumcellion conduct, was drafted and withdrawn - see the body note below.
 sources:
 - source_id: don.source.optatus-appendix-of-documents
-  locus: the Gesta apud Zenophilum (320) - Purpurius's, Fortis's and Sabinus's letters, each closing with
-    an instruction that no one is to learn of it
+  locus: the Gesta apud Zenophilum (320) - Purpurius's, Fortis's and Sabinus's letters; Fortis's first letter
+    and both of Sabinus's close by asking that no one know about it (cic/texts/optatus_against-the-donatists.txt, lines 6202-6224)
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
   locus: the Bagai reception of Felicianus and Praetextatus, and Optatus Gildonianus advancing with a
@@ -62,8 +62,8 @@ text: >-
   the record. One of them wrote to another urging him to settle a charge
   quietly, before the flame burst out - and said in the same letter that
   he knew the accusation was true. Another wrote: let us not come into a
-  public court and be condemned by the gentiles. Every one of those
-  letters ends the same way. Let no one learn of it. A deacon who had
+  public court and be condemned by the gentiles. Several of those
+  letters end the same way. Let no one know about it. A deacon who had
   been degraded made the complaint, and a witness testified that the
   people of the town had shouted against making that man bishop in the
   first place, and that he had been a betrayer. We are the church that

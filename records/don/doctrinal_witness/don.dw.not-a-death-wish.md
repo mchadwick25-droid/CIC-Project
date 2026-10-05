@@ -34,7 +34,7 @@ sources:
     underway
   license: public-domain
 - source_id: don.source.passio-isaac-et-maximiani
-  locus: Macrobius closing by telling his congregation the same may yet be asked of any of them
+  locus: Macrobius closing by telling the people of Carthage the same may yet be asked of any of them
   license: public-domain
 - source_id: don.core.donatism
   locus: 'formation_logic and cautions 4: the ideal is settled readiness rather than literal death; the
@@ -68,7 +68,7 @@ text: >-
   It is not the shape.
 
 
-  And the letter our own bishop wrote to his own congregation does not
+  And the letter sent to the church at Carthage does not
   say: go and seek this. It says the opposite kind of thing, and harder.
   It says that what was done to these two may yet be asked of any of you.
   That is a man preparing people who did not choose the situation for
@@ -88,8 +88,8 @@ positions:
   written to condemn it, and the other outside witness is imperial legislation'
 - our own martyr texts hold up a formed life rather than a death - the narrative weight falls on what
   the man already was, with the killing as the point where that becomes visible
-- the pastoral letter one of our bishops wrote about two martyrs prepares its readers for what may be
-  asked of them rather than urging them to seek it
+- the pastoral letter to the church at Carthage about two martyrs prepares its readers for what may be
+  asked of them. It does not urge them to seek it
 tensions:
 - the charge that some among us courted death attaches chiefly to our rural members, whose existence is
   independently attested and whose conduct is known almost entirely through polemic written to make them

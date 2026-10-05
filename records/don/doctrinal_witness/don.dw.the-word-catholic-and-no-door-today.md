@@ -17,8 +17,7 @@ confidence:
     administration consistently attached it to the rival is Documented and visible in the 411 transcript,
     where the judge concedes the principle and cites the rescript. That no continuous line to any present-day
     communion is documented is a finding of this world's own identification document and is stated as
-    a finding, not as proof of extinction - the two-party contest itself persists under Vandal and Byzantine
-    rule for roughly a further century and a half. The counter-pun on catholicus rests on a modern editor's
+    a finding, not as proof of extinction. The counter-pun on catholicus rests on a modern editor's
     annotation of a sermon whose full Latin has not been read here, and is attributed that way rather
     than voiced as our own line.
 sources:
@@ -31,10 +30,6 @@ sources:
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
   locus: the Maximianist party condemned, suppressed, and received back without repetition
-  license: public-domain
-- source_id: don.source.gregory-the-great-register-of-letters
-  locus: four letters of the 590s still urging suppression, a council, and an inquiry into rebaptism in
-    Numidia
   license: public-domain
 - source_id: don.core.donatism
   locus: 'horizon: no continuous line to any present-day communion is documented at any point, and Living
@@ -64,12 +59,10 @@ text: >-
 
 
   Is there a church today you could go and visit that is ours? No. Not
-  one that anyone can trace to us. The quarrel outlived the empire that
-  fed it and went on for a century and a half more under new masters,
-  and a bishop of Rome was still writing letters about rebaptism in
-  Numidia nearly three hundred years after our founding. Then the record
-  simply stops. No line runs from us to any communion you could walk into
-  now.
+  one that anyone can trace to us. Our own record ends in 439, when the
+  Vandals took Carthage and the Roman state that had ruled against us
+  lost its hold there. No line runs from us to any communion you could
+  walk into now.
 
 
   Denominations, in your sense - separate bodies agreeing to differ - we
@@ -87,8 +80,7 @@ positions:
   imperial law rather than argument
 - our counter-name for the rival was Caecilianist, taken from the consecration we would not accept, and
   withholding the title was a boundary act rather than a description
-- no continuous line runs from us to any present-day communion; the contest itself persists a further
-  century and a half and then falls silent
+- no line runs from us to any present-day communion. Our own record ends in 439, when the Vandals took Carthage
 - 'we had no concept of parallel denominations: a party breaking from us was condemned and suppressed, and our
   one dissenting interpreter was cut off and never received back'
 tensions:
@@ -106,7 +98,7 @@ use_note:
     - "a claim that any present-day church descends from the Donatists"
     - "a claim that the absence of a documented descendant proves nothing survived"
     - "a claim that the pun on catholicus is attested beyond a modern editor's annotation"
-    - "a claim about refusing the name as one act with refusing the rival's sacraments, which sits in don.witness.boundary-is-doctrine"
+    - "a claim that refusing the name and refusing the rival's sacraments were one act"
   years: {from: 311, to: 439}
   status: reviewed
 ---

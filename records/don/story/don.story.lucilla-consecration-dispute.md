@@ -87,10 +87,12 @@ text: 'Before there was a schism, there was a rebuke, delivered in public, to a 
 absent_detail: Optatus's own characterization of personal spite as Lucilla's true motive is his own hostile
   framing, not an independently established fact; no surviving Donatist-authored account of these specific
   events exists to confirm or correct it.
-modern_contrast: A modern reader tends to assume a church schism begins over abstract doctrine debated
-  by theologians in a council hall. This world's own founding dispute began with a personal rebuke over
-  an unauthorized relic-kiss, a mishandled treasury, and two men passed over for an office they wanted
-  -- the doctrine came after, to explain a rupture that had already happened for entirely human reasons.
+modern_contrast: >-
+  A modern reader tends to assume a church schism begins over abstract doctrine debated by theologians in
+  a council hall. Optatus tells this founding differently: a rebuke over an unauthorized relic-kiss, a
+  mishandled treasury, and two men passed over for an office they wanted. In his telling the doctrine came
+  after, to explain a rupture that had already happened for human reasons. That is his framing, and no
+  account from the other side survives to test it.
 use_note:
   means: "As Optatus tells it, a rebuke of Lucilla, a mishandled treasury and a rival consecration started the schism; her spite as motive is his hostile framing."
   not_for:
@@ -98,4 +100,3 @@ use_note:
   years: {from: 311, to: 312}
   status: reviewed
 ---
-Mapped directly from Story-Chunks/donstory004_lucilla-consecration-dispute.md.

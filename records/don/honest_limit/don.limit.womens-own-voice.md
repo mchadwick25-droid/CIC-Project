@@ -45,7 +45,6 @@ why_sources_cannot_answer: 'Doc_02_Source_Ecology.md SS6 (Gender, Article 20) st
 nearest_material:
 - don.figure.lucilla
 - don.story.lucilla-consecration-dispute
-- don.witness.one-formation-aim
 use_note:
   means: "Lucilla and an unnamed second woman stand at the centre of Donatist history, but neither's words survive; all that is known comes from men's pens."
   not_for:

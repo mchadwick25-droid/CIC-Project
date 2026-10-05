@@ -15,7 +15,7 @@ confidence:
 sources:
   - {source_id: don.dw.not-a-death-wish, locus: "the whole witness - readiness not appetite, and the refusal to win the argument about our own country members", license: public-domain}
   - {source_id: don.story.passio-marculi, locus: "the life given up before persecution came, the cup, crown and palm, the four days at the cliff", license: public-domain}
-  - {source_id: don.story.macrobius-letter, locus: "the closing turn to the congregation - the same may yet be asked of any of you", license: public-domain}
+  - {source_id: don.story.macrobius-letter, locus: "the closing turn to the people of Carthage - the same may yet be asked of any of you", license: public-domain}
   - {source_id: don.term.martyr-martyrdom, locus: "the martyr proved true by what was suffered", license: public-domain}
 canon_question_id: _fleet.canon.f6-e-02
 tags: [hard-places, contested]
@@ -40,8 +40,8 @@ exchange:
     becomes visible. It is not the shape.
 
 
-    And the letter one of our bishops wrote to his own congregation, about
-    two of their number beaten to death, does not say: go and seek this. It
+    And the letter sent to the church at Carthage, about two of its
+    martyrs beaten to death, does not say: go and seek this. It
     says something harder. It says that what was done to those two may yet be
     asked of any of you. That is a man preparing people who did not choose
     the situation for something they cannot avoid. Readiness, not appetite.

@@ -21,9 +21,8 @@ confidence:
     independent of Augustine preserves the decree, so what is verified is the wording he quotes rather
     than the wording that was voted.
 sources:
-- source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: Book III (the Bagai decree quoted, followed immediately by Optatus Gildonianus advancing with
-    a military force to bring Felicianus and Praetextatus back)
+- source_id: don.source.augustine-answer-to-petilian
+  locus: "Book I, ch. 10, section 11: the Bagai decree quoted, followed immediately by Optatus Gildonianus advancing with a military force to bring Felicianus and Praetextatus back; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml lines 15512-15513. A shorter rendering of the decree stands in Book II, ch. 7, line 15875."
   license: public-domain
 - source_id: don.source.augustine-contra-cresconium
   locus: the same decree quoted again in the later work, pressing the same contradiction

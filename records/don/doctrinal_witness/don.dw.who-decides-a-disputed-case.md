@@ -26,7 +26,10 @@ sources:
     Silvester
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: the Bagai sentence of 394, quoted at length against us
+  locus: "I.5.7 and II.12 - the Bagai council's own words, 'sacrilegiously' baptized in schism and 'the truthful voice of a plenary Council', quoted against us"
+  license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: "the Bagai decree quoted word for word, then Optatus Gildonianus advancing with a military force to bring Felicianus and Praetextatus back (Answer to the Letters of Petilian I.10, section 11; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml lines 15508-15513; a shorter rendering at II.7, line 15875)"
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
   locus: the 411 acts - Emeritus holding the court to the order of the day, the mandate, the persons,

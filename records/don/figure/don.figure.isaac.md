@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: Documented at the narrative level, on the best footing available for a martyr in this
-    record - a named bishop writing to a named congregation in the immediate aftermath of what he describes.
+    record - a named writer, Macrobius, writing to the church at Carthage in the immediate aftermath of what he describes.
     The interpretive framing is his and is marked as his; the reading of Isaac's own name as a sign is
     Macrobius's, not an independent fact about the man. The Latin of his cry to his floggers was checked
     against the vendored text but is rendered as indirect speech, not as a certified translation.

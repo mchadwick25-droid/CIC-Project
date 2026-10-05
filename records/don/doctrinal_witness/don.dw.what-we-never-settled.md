@@ -23,7 +23,10 @@ confidence:
     of the pattern rather than as something anyone among us said.
 sources:
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: the Bagai decree quoted at length, and Felicianus and Praetextatus received back without repetition
+  locus: "I.1.2 and I.5.7 - Felicianus and Praetextatus received back without repetition"
+  license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: "the Bagai decree quoted word for word, then Optatus Gildonianus advancing with a military force to bring Felicianus and Praetextatus back (Answer to the Letters of Petilian I.10, section 11; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml lines 15508-15513; a shorter rendering at II.7, line 15875)"
   license: public-domain
 - source_id: don.source.augustine-contra-cresconium
   locus: the same contradiction pressed again as the centre of the case against us
@@ -79,8 +82,8 @@ text: >-
   one of our bishops, another wrote urging him to settle it quietly
   before the flame burst out. He added, in the same letter, that he knew
   the accusation was true. Another wrote: let us not come into a public
-  court and be condemned by the gentiles. Every one of those letters ends
-  the same way. Let no one learn of it.
+  court and be condemned by the gentiles. Several of those letters end
+  the same way. Let no one know about it.
 
 
   And underneath all three: we produced one man who could think, and we

@@ -25,7 +25,10 @@ sources:
   locus: the 411 Conference -- 279 Donatist against 286 Catholic bishops seated
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: the Cebarsussi (393) and Bagai (394) council sentences, quoted directly
+  locus: "I.1.2 and I.5.7 - the Maximianist condemnation and the reception of Felicianus without repetition; the edition's note on I.1.2 names the 393 synod at Cebarsussi and the 394 council of Bagai, and I.5.7 quotes the council's own word 'sacrilegiously' for those baptized in schism. The decree itself is not quoted in On Baptism"
+  license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: "the Bagai decree quoted word for word, then Optatus Gildonianus advancing with a military force to bring Felicianus and Praetextatus back (Answer to the Letters of Petilian I.10, section 11; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml lines 15508-15513; a shorter rendering at II.7, line 15875)"
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
   locus: the rival consecration of Majorinus and the doubling of the see of Carthage

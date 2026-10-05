@@ -3,7 +3,7 @@ id: don.quote.emeritus-magno-argumento
 world_id: donatism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -12,20 +12,14 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: 'Widely Accepted rather than Documented: this world''s own build already names the
-    vendored Migne PL11 scan''s OCR quality as "notably poor even by this corpus''s own standards" (Doc_02
-    SS1). This record''s own Latin and English match Doc_02''s own already-published rendering exactly,
-    independently re-confirmed this session by reading the raw file directly at line 126834 (''Emeritus
-    episcopus dtxii. Magno irgnmento vc-rilas occullaiur...''), but the underlying scan should still be
-    treated as a careful reading of a difficult scan, not a settled critical-edition text, until visually
-    cross-checked, per Doc_02''s own standing caution. The corrected
-    Latin cannot verify character-for-character against the vendored scan''s OCR-corrupted text at this
-    locus, which is why verification_state is verified-via-authority rather than verified-direct.
-    No clean vendored transcription exists to repoint to.'
+  divergence_note: >-
+    Widely Accepted rather than Documented, because the vendored Migne PL11 scan is poor at this act. The Latin
+    here matches the cleaner Mansi facsimile, where the long s is scanned as f. It is given in corrected
+    spelling, so it cannot be matched character for character against either scan. That is why
+    verification_state is verified-via-authority. No clean vendored transcription exists.
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: act 50, 411 Conference of Carthage; independently re-read this session against cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt,
-    line 126834
+  locus: "Act 50 of the 411 Conference of Carthage; cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt, lines 126834-126837 (garbled OCR). The same sentence reads cleanly in cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt, lines 19492-19495."
   license: public-domain
 retrieval:
   tier: 2
@@ -60,4 +54,4 @@ use_note:
   years: {from: 411, to: 411}
   status: reviewed
 ---
-Named directly in the Permanent Prompt's own Approved Source paragraph ('Emeritus of Caesarea's own plea before the tribunal at Carthage, that the truth was hidden by a great device'). This is the one quote record this script independently re-locates in the raw vendored file rather than only citing Doc_02's own prior finding of it, per this step's own discipline of re-opening a primary text directly wherever this build's own confidence rating depends on it.
+Emeritus speaks at act 50 of the 411 Conference. His point is procedural: the other side has not named its envoys, their rank or their mandate. The Gesta reaches us in two vendored Latin scans, both rough, and the divergence note says how the quoted sentence relates to each.

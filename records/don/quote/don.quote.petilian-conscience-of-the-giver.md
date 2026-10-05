@@ -3,7 +3,7 @@ id: don.quote.petilian-conscience-of-the-giver
 world_id: donatism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -12,12 +12,12 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: >-
+    Petilian's letter survives only inside Augustine's Answer, and the words here are the English translation of
+    that edition. The first sentence is worded "what we look to is the conscience of the giver" at II.3.
 sources:
 - source_id: don.source.augustine-answer-to-letters-of-petilian
-  locus: 'Book II, Chapter 3, SS6 (''Petilianus said: ...''); independently re-located and re-read this
-    session against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 15788 -- distinct
-    from the Prolegomena''s own earlier summary of the same proposition at line 10280'
+  locus: "Answer to the Letters of Petilian I.2, section 2 (line 15368) and section 3 (line 15376), where Augustine quotes Petilian's letter; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml. The first sentence recurs at II.3, section 6 (line 15788)."
   license: public-domain
 retrieval:
   tier: 1
@@ -38,21 +38,20 @@ relations:
   target: don.dw.becoming-one-of-us
 - type: associated-with
   target: don.dw.walking-to-one-font
-text: '"Conscientia namque (sancte) dantis attenditur, quæ (qui) abluat accipientis." "Nam qui fidem
-  (sciens) a perfido sumpserit, non fidem percipit, sed reatum." "What we look for is the conscience of
-  the giver (him who gives in holiness), to cleanse that of the recipient." "For he who (wittingly) receives
-  faith from the faithless receives not faith, but guilt."'
+text: >-
+  "What we look for is the conscience of the giver to cleanse that of the recipient." ...
+  "For he who receives faith from the faithless receives not faith, but guilt."
 speaker_or_author: don.figure.petilian
 license: verbatim
 modern_lens_note: 'A modern reader may hear "the conscience of the giver" as a claim about the minister''s
   own private, subjective sincerity -- whether he personally feels holy. Petilian''s own argument is narrower
   and more structural than that: it is about whether the minister''s own hand was tainted by a specific,
   checkable act (surrendering scripture under persecution), not about an unknowable inner feeling.'
-modern_rendering: What we look for is the conscience of the giver - the one who gives in holiness - to
-  cleanse that of the recipient. Someone who knowingly takes faith from the faithless receives not faith,
-  but guilt.
+modern_rendering: >-
+  What we look for is the conscience of the giver, to cleanse the conscience of the one who receives. ... Whoever
+  takes faith from the faithless receives not faith, but guilt.
 use_note:
-  means: "Petilian held that the giver's holy conscience is what cleanses the recipient, so faith knowingly taken from the faithless brings guilt instead."
+  means: "Petilian held that the giver's conscience is what cleanses the recipient's, so faith taken from the faithless brings guilt instead."
   not_for:
     - "a claim that validity turned on the minister's private, subjective sincerity"
     - "a claim that these words survive in a Donatist text rather than inside Augustine's refutation"
@@ -61,4 +60,4 @@ use_note:
   years: {from: 395, to: 401}
   status: reviewed
 ---
-This proposition is named directly in the Permanent Prompt's own Approved Source paragraph ('What Petilian argued: that what is sought is the conscience of the giver, to cleanse that of the recipient'). Independently re-checked this session at its point of direct textual attribution within Augustine's own translated Answer (Book II, Chapter 3), not only at the Prolegomena's earlier summary of the same words (line 10280) -- the same proposition recurs at least a dozen further times across Books II-III as Augustine returns to it, confirming this is the argument's own settled, repeated form, not a one-off paraphrase. The Latin's own parenthetical variants ('sancte', 'sciens') are the NPNF edition's own bracketed textual-variant markers, reproduced here as found rather than silently resolved. modern_rendering is a light modernization of the NPNF's own published translation, not a fresh rendering from this session's own reading of the Latin. The record's Latin matches the vendored edition's own "quæ" ligature exactly; no wording changed.
+Petilian's words reach us only inside Augustine's Answer, in the English translation of the Nicene and Post-Nicene Fathers edition. The first sentence is quoted at I.2, section 2, and the second at I.2, section 3. The first returns at II.3, section 6, in the form "what we look to is the conscience of the giver", and Augustine comes back to it many times in Books II and III. The edition's introduction gives the Latin of both sentences (line 10280) with the editor's bracketed variant readings. Those variants are the editor's, so the Latin is not reproduced here.

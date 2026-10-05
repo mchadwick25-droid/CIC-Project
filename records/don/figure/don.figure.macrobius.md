@@ -11,8 +11,10 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: Documented as author, office and audience - he names himself, names the congregation
-    he is writing to, and writes close in time to what he describes. Beyond the letter itself almost nothing
+  divergence_note: >-
+    Documented as author and audience: the manuscript title and the closing line name Macrobius and the church
+    at Carthage, and the letter was written close in time to what it describes. His office rests on Mabillon's
+    note in the vendored edition, which calls him a Donatist and the hidden bishop of his own people at Rome. Beyond the letter itself almost nothing
     of his career is recorded here. The supernatural elements in his account are his own interpretation
     of the events and are marked as his throughout. The letter survives only in raw uncorrected Latin OCR
     and no established published English translation was consulted.
@@ -20,18 +22,21 @@ sources:
 - source_id: don.source.passio-isaac-et-maximiani
   locus: the letter entire, preserved twice in the vendored file from two manuscripts
   license: public-domain
+- source_id: don.source.passio-isaac-et-maximiani
+  locus: "Mabillon's note on the author, cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 1496-1498 and 1509-1510; the closing line of the letter, lines 1930-1932"
+  license: public-domain
 names:
-- name: Macrobius, our bishop, writing to his own people
+- name: Macrobius, writing to the church at Carthage
   tag: in-world
-- name: Macrobius, Donatist bishop (fl. c. 347/348; author of the letter preserved as the Passio Isaac
-    et Maximiani)
+- name: Macrobius, Donatist, called a bishop hidden at Rome in Mabillon's note (fl. c. 347/348; author of the
+    letter preserved as the Passio Isaac et Maximiani)
   tag: scholarly
 dates:
-  display: bishop over the Carthage congregation he addresses, writing in the immediate aftermath of the
+  display: writing to the church at Carthage in the immediate aftermath of the
     deaths of Isaac and Maximianus during the Macarian repression of 347-348
 narratable: true
-bridge_line: A bishop who wrote to his own congregation about two of their number tortured to death, and
-  ended by telling them the same might be asked of any of them.
+bridge_line: A Donatist wrote to the church at Carthage about two martyrs tortured to death. He ended by
+  telling the people the same might be asked of any of them.
 relations:
 - type: associated-with
   target: don.story.macrobius-letter

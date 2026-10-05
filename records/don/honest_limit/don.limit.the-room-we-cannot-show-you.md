@@ -38,8 +38,8 @@ sources:
     world knows its own acclamation far better than the room it was spoken in'
   license: public-domain
 statement: >-
-  If you dug where we met, we could not tell you what you would find. No
-  one has dug it and told us. Not one report of a Numidian church
+  If you dug where we met, we could not tell you what you would find. Whatever
+  has been dug, no report of it has reached us. Not one report of a Numidian church
   building is named anywhere in our own list of sources. There is no
   excavator, no site, no plan, no floor. What we do have is four stones.
   On two pillars near Bagai, twice over, someone cut two words: Deo
@@ -54,7 +54,12 @@ statement: >-
   is a room.
 why_sources_cannot_answer: >-
   This is a disclosed absence in the evidentiary base this compilation
-  inherited, not a search that could be closed by trying harder. The
+  inherited, not a search that could be closed by trying harder. Numidian
+  churches have been excavated: the vendored Mesnage gazetteer
+  (cic/texts/mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912.txt,
+  lines 24545-24560) counts ten at Thamugadi, whose Donatist bishop was
+  Optatus (line 24525). What is missing is a site report in this world's
+  own source list. The
   Registry row and source record for Numidian basilica archaeology name
   no author, no work, no publication and no site report at all -
   don.source.numidian-basilica-archaeology sets its own

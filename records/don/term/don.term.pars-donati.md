@@ -13,16 +13,20 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: The petition wording itself is verified directly (Optatus Book III, `optatus_against-the-donatists.txt`
-    lines 1954-1958). Two things are not settled and are carried as such. First, the wording survives only because
-    Optatus quoted it in order to attack it, so what a formal legal self-designation meant to its own signers
-    has to be read through a frame built to make it look like a confession. Second, Doc_03 SS6 and Doc_05 SS6.1
-    both leave open an unfinished check -- whether Augustine uses 'Donatist' of them, or 'the party of Donatus',
-    or something else, and in which contexts -- which would strengthen or complicate the plural-voices framing
-    here. It has still not been done, and this record does not pretend otherwise.
+  divergence_note: >-
+    The petition wording is read directly in Optatus (Book III, `optatus_against-the-donatists.txt` lines
+    1954-1958), and Optatus is the only voice that preserves it, quoting it in order to attack it. The edition's
+    own note (line 695) records that Duchesne and Du Pin suspect Optatus put "Donati" in place of "Maiorini",
+    and that the 411 Gesta call the petition "from the party of Majorinus". The translator judges it most
+    probable that Optatus's copy did read "Donati", or else that he slipped from memory. What the signers
+    wrote is therefore uncertain. Augustine uses both "the Donatists" and "the party of Donatus" of this communion. He uses
+    the second most when he presses that they belong to a man's faction and not to the unity of the Church.
 sources:
 - source_id: don.source.optatus-against-the-donatists
   locus: Book III -- 'Given by Capito and by Nasutius, Dignus, and the other Bishops of the party of Donatus'
+  license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: "Augustine's usage in the vendored NPNF volume (cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml): 'the Donatist heretics' (Answer to Petilian I.1, line 15356); 'it is ill to belong to the party of Donatus, and not to the unity of the Catholic Church' (On Baptism I, line 10890); 'because we say that you are of the party of Donatus' (Answer to Petilian II.39, line 16701)"
   license: public-domain
 - source_id: don.source.augustine-psalmus-contra-partem-donati
   locus: the rival's own naming of the group in a popular song
@@ -43,33 +47,34 @@ relations:
   target: don.term.ecclesia
 - type: associated-with
   target: don.term.caecilianist
-plain_meaning: Our clergy signed a formal petition as bishops 'of the party of Donatus'. Our rival seized on that
-  and said we had named a man instead of Christ's church. We do not read our own petition that way. A church may
-  be named for the man who led it back to purity.
+plain_meaning: Our rival says our clergy signed a formal petition as bishops 'of the party of Donatus'. Whether those
+  were their own words has been questioned. He seized on them and said we had named a man instead of Christ's church. A church
+  may be named for the man who led it back to purity.
 world_word: pars Donati
 false_friend:
 - '''Donatist'' as a neutral scholarly label with no side taken'
 - a personality cult built around a founder, in the modern sectarian sense
 - a settled self-description -- the preferred self-naming appears to have run the other way
 senses:
-  informational: 'Optatus preserves Donatist bishops signing a formal petition to Constantine as ''of the party
+  informational: 'Optatus says Donatist bishops signed a formal petition to Constantine as ''of the party
     of Donatus'', and turns that phrase into an accusation: that they acknowledged belonging not to the Church
-    of Christ but to a man''s faction. The phrase is a legal self-designation in a document addressed to an emperor,
+    of Christ but to a man''s faction. The edition''s note records a question whether these were the signers'' own words. If they were,
+    the phrase is a legal self-designation in a document addressed to an emperor,
     which is not the same thing as the name a community uses of itself in worship -- and Optatus''s own eagerness
     to make the point implies the ordinary self-description ran the other way.'
   evidential: 'Documented as text and checked directly; genuinely plural in voice, which is why Doc_03 tags it
     [PV]. What is thin is the other side of the pair: no vendored source gives this communion''s own everyday
-    self-naming in its own words. Augustine''s usage, named twice in the construction record, has not
-    been checked.'
+    self-naming in its own words. Augustine uses both ''the Donatists'' and ''the party of Donatus'', the second
+    when he presses that they belong to a man''s faction.'
   personal: The name a movement is remembered by was given to it by the people who defeated it. That is not an
     incidental irony here; it is the same asymmetry that governs almost everything else that survives.
-  translational: '''Didn''t they call themselves Donatists?'' -- in a legal petition, in a sense, once. Whether
+  translational: '''Didn''t they call themselves Donatists?'' -- in a legal petition, Optatus says, once. Whether
     that was how they named themselves among themselves is a question the surviving record cannot answer, because
     the only voice that preserved the phrase preserved it as an accusation.'
 quick_meaning: The party of Donatus -- the phrase our rival turned into a charge against us.
 distortion_risk: medium
 use_note:
-  means: "Donatist bishops signed a petition 'of the party of Donatus'; Optatus read it as naming a man instead of Christ's church, which Donatists did not accept."
+  means: "Optatus says Donatist bishops signed a petition 'of the party of Donatus' and read it as naming a man instead of Christ's church; the wording has been questioned and Donatists did not accept his reading."
   not_for:
     - "a claim that Donatist is a neutral scholarly label with no side taken"
     - "a claim that it was a founder-centred personality cult in the modern sectarian sense"
@@ -77,4 +82,4 @@ use_note:
   years: {from: 311, to: 439}
   status: reviewed
 ---
-Built from Doc_06 SS1 entry 005 (Tier 2, no promotion forwarded; naming-contest content carried at Doc_05 SS6.1). No deployment chunk built this cycle. Whether Augustine's own usage differs (Doc_03 SS6) is unchecked; divergence_note holds that point.
+The naming-contest content is also carried in Doc_05 SS6.1. Augustine's usage was checked in the vendored NPNF volume: "the Donatists" is his general name, and "the party of Donatus" is his phrase when he contrasts a man's faction with the unity of the Church.

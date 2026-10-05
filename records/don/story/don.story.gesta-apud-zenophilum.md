@@ -87,8 +87,8 @@ text: >-
   Cirta in the same terms, and closed by warning them to see that no one
   learned the story of this conspiracy. A bishop named Fortis wrote to
   Silvanus in the same vein: let us not come into a public court and be
-  condemned by the gentiles. A bishop named Sabinus wrote twice. Every
-  one of the letters ends the same way. Let no one know about it.
+  condemned by the gentiles. A bishop named Sabinus wrote twice. Several
+  of the letters end the same way. Let no one know about it.
 
   Then the witnesses were questioned directly, under record. Zenophilus
   said that from the acts and letters read aloud it was clear that

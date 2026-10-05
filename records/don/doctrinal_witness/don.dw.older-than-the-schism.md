@@ -18,8 +18,9 @@ confidence:
     to argue explicitly that Cyprian is not a canonical authority, which is negative attestation that
     the appeal was pressing. It is not an apostolic pedigree, and this record does not upgrade it into
     one: the counter-argument our opponents made, that Cyprian himself never broke communion over it,
-    is real and is carried in tensions rather than answered. Nothing in this compilation traces any practice
-    of ours past the mid-third century.
+    is real and is carried in tensions rather than answered. The earliest ruling this compilation traces is
+    an earlier African council under Agrippinus, dated in the edition to about 215-217 (some give 186-187).
+    Cyprian says he followed it, and nothing reaches back further.
 sources:
 - source_id: don.source.seventh-council-of-carthage-256-anf05
   locus: the Seventh Council of Carthage, September 256 - eighty-seven bishops on the baptism of heretics
@@ -35,6 +36,9 @@ sources:
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
   locus: seven books, much of them spent on why Cyprian does not license our practice
+  license: public-domain
+- source_id: don.source.augustine-on-baptism-against-the-donatists
+  locus: "II.9, section 14 (cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 11453): Cyprian's letter, quoted, says Agrippinus and the bishops with him confirmed the ruling in council. The edition's note on the earlier council of Agrippinus is at line 11443."
   license: public-domain
 retrieval:
   tier: 2
@@ -72,8 +76,9 @@ text: >-
   Here is the honest end of it. Cyprian ruled as we ruled and did not do
   what we did. He never broke communion over it. That is the strongest
   thing our opponents had, and we would not pretend it is weak. And
-  beyond him we cannot take you. We can show you an African council in
-  the middle of the third century. We cannot show you the apostles.
+  beyond him we cannot take you far. Cyprian himself said he followed an
+  older council, under Agrippinus, in the same province. We can show you
+  two African councils in the third century. We cannot show you the apostles.
 positions:
 - we did not claim an unbroken apostolic pedigree for our practice; the claim we made was that it was
   the settled African position, ruled on by eighty-seven bishops under Cyprian half a century before the
@@ -85,8 +90,8 @@ positions:
 tensions:
 - Cyprian ruled as we ruled and never broke communion over it, which is the strongest argument our opponents
   had and is not answered here
-- nothing in our record traces any practice of ours past the middle of the third century, so an apostolic
-  claim is not available to us even if we had wanted to make one
+- the earliest ruling our record shows is the council under Agrippinus in the early third century, so an
+  apostolic claim is not available to us even if we had wanted to make one
 relations: []
 use_note:
   means: "Donatists traced their rebaptism to the ruling of Cyprian's council of eighty-seven bishops at Carthage, an African rather than apostolic pedigree, while conceding Cyprian never broke communion over it."

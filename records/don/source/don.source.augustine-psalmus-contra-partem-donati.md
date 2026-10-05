@@ -11,14 +11,14 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: 'Confidence A reflects the poem''s own CONFIRMED PRESENCE AND IDENTITY -- the heading
-    ''PSALMUS CONTRA PARTEM DONATI'', the ''A'' stanza opening ''Abundantia peccatorum...'', the full
-    critical apparatus, and the closing ''EXPLICIT ABECEDARIUM AVGUSTINI... Amen'' at verse 288 -- NOT
-    a re-verification of the claims drawn from it. Specifically NOT yet checked: whether the poem contains,
-    verbatim, the Maximianist-restoration rhetorical question Doc_02 SS1 quotes via the NPNF Prolegomena
-    (Registry row 31). A targeted search found extensive rebaptism-rhetoric verses (e.g. ''ex quibus si
-    erat Macarius, nos quid uis rebaptizare?'', naming Macarius rather than the Maximianists) but did
-    not locate that exact question; Doc_02''s citation of it continues to rest on row 31.'
+  divergence_note: >-
+    Confidence A reflects the poem's own confirmed presence and identity: the heading, the opening stanza
+    "Abundantia peccatorum...", the full critical apparatus, and the closing "EXPLICIT ABECEDARIUM AVGUSTINI...
+    Amen" at verse 288. The poem has been read through. It holds no Donatist-voiced text; the purity claim
+    and the rebaptism practice appear only in Augustine's own lines. The Maximianist-restoration question that
+    Doc_02 SS1 quotes through the NPNF Prolegomena (Registry row 31) does not appear verbatim. The nearest
+    verse is "ex quibus si erat Macarius, nos quid uis rebaptizare?", which names Macarius rather than the
+    Maximianists. Doc_02's citation of that question continues to rest on row 31.
 sources: []
 relations: []
 author: Augustine of Hippo

@@ -17,7 +17,7 @@ sources:
   - {source_id: don.story.bagai-reconciliation, locus: "the council, the reception, and the general who enforced it with troops", license: public-domain}
   - {source_id: don.term.refusal-of-imperial-legitimacy, locus: "the machinery we denied had standing, used against our own dissidents", license: public-domain}
   - {source_id: don.contested.refusal-against-recourse, locus: "what is held and what is conceded on the three turns to imperial power", license: public-domain}
-  - {source_id: don.story.gesta-apud-zenophilum, locus: "the 320 inquiry, the four hundred pieces of silver, and the letters ending let no one learn of it", license: public-domain}
+  - {source_id: don.story.gesta-apud-zenophilum, locus: "the 320 inquiry, the four hundred pieces of silver, and several of the letters ending let no one know about it", license: public-domain}
 canon_question_id: _fleet.canon.f3-p-02
 tags: [hard-places]
 exchange:
@@ -51,8 +51,8 @@ exchange:
     One had written to another urging him to settle a charge quietly, before
     the flame burst out — and said in the same letter that he knew the
     accusation was true. Another wrote: let us not come into a public court
-    and be condemned by the gentiles. Every one of those letters ends the
-    same way. Let no one learn of it. We are the church that says a man's own
+    and be condemned by the gentiles. Several of those letters end the
+    same way. Let no one know about it. We are the church that says a man's own
     purity decides whether a sacrament is real, and that is what our founding
     generation was doing with an accusation it believed.
 ---

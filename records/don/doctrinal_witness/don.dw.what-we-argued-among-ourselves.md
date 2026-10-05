@@ -22,7 +22,10 @@ confidence:
     as a reading and not as a term of art we defined.
 sources:
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: the Maximianist affair and the Bagai decree, quoted repeatedly
+  locus: "I.1.2 and I.5.7 - the Maximianist affair and the reception of Felicianus without repetition"
+  license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: "the Bagai decree quoted word for word, then Optatus Gildonianus advancing with a military force to bring Felicianus and Praetextatus back (Answer to the Letters of Petilian I.10, section 11; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml lines 15508-15513; a shorter rendering at II.7, line 15875)"
   license: public-domain
 - source_id: don.source.augustine-contra-epistulam-parmeniani
   locus: I.1 - Parmenian's rebuke of Tyconius and the reported council condemnation
