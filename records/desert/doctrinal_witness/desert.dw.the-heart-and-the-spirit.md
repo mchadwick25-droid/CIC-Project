@@ -49,7 +49,7 @@ positions:
 - "at death, direction rather than quantity: where the mind aims and the love is, not which of the two holds more ground"
 tensions:
 - "this current and the Evagrian one are not one teaching. Evagrius has the nous behold its OWN proper radiance and treats the logismoi as observable arrivals to be caught early; this has the soul irradiated by Another, and locates the trouble beneath what watchfulness can reach. The corpus now carries both and does not harmonise them"
-- "desert.dw.god has this world knowing God by 'a long stilling of the passions' - an emptying. This is a filling, consciously felt. Both are registered; a participant should not be given either as the desert's single answer"
+- "desert.dw.god has this world knowing God by 'a long quieting of the passions' - an emptying. This is a filling, consciously felt. Both are registered; a participant should not be given either as the desert's single answer"
 - "the very claims that make this current distinctive - felt grace, sin persisting in the baptised - are the ones extracted from these Homilies and condemned as Messalian. Its interest and its jeopardy are the same sentences"
 relations:
 - type: associated-with

@@ -14,14 +14,14 @@ confidence:
   divergence_note: "Contested for incident-level attribution, matching desert.quote.antony-arians-serpents's own basis for material from the same Vita and the same episode - reported teaching within Athanasius's own narrative, written by a bishop with his own anti-Arian purposes. The words themselves are quoted verbatim from the vendored text."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS69 - Antony, summoned to Alexandria by the bishops, publicly teaching against the Arians"
+  locus: "SS69 (cic/texts/npnf204_athanasius-select-works-letters.xml lines 32931-32936) - the narrator, Athanasius, reporting what Antony taught the people of Alexandria against the Arians"
   license: public-domain
 text: "...the Son of God was not a created being, neither had He come into being from non-existence, but that He was the Eternal Word and Wisdom of the Essence of the Father. And therefore it was impious to say, 'there was a time when He was not,' for the Word was always co-existent with the Father."
 modern_rendering: >-
   ... the Son of God was not created. He did not come into being out of nothing. He was the eternal
   Word and Wisdom, from the Father's own Essence. So it was impious to say, "There was a time when
   he did not exist." The Word had always existed together with the Father.
-speaker_or_author: desert.figure.antony
+speaker_or_author: "Athanasius, narrating Antony's teaching in Life of Antony"
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified: the vocabulary here (Word, Essence, co-existent) is dense fourth-century Trinitarian argument, not language that has drifted meaning for a modern reader - it reads as unfamiliar and technical, not as something that misleadingly sounds familiar."
 retrieval:
@@ -47,7 +47,7 @@ use_note:
   years: {from: 356, to: 362}
   status: reviewed
 ---
-Verified verbatim against the vendored file, S69 - immediately
+Checked verbatim against the vendored file, S69, lines 32931-32936 - immediately
 following the S68 passage desert.quote.antony-arians-serpents cites (the
 two quotes are adjacent, not overlapping, and not the same division).
 This record supplies the positive Trinitarian formula §69 states in

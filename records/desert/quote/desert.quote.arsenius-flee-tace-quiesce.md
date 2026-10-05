@@ -17,7 +17,7 @@ confidence:
     of him.
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: §2, Chapter I (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt line 47) - Budge's Syriac
+  locus: §2, Chapter I (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt line 56) - Budge's Syriac
     recension; the Greek and Latin traditions render the triad as fuge, tace, quiesce
   license: public-domain
 text: Arsenius, flee, keep silence, and lead a life of silent contemplation, for these are the fundamental
@@ -51,35 +51,15 @@ use_note:
   years: {from: 320, to: 430}
   status: reviewed
 ---
-Verified against the vendored Budge at line 47, §2. These are the
-voice's words only - the file's
-framing ("And when Arsenius was living the ascetic life in the monastery,
-he prayed to God the same prayer, and again he heard a voice saying unto
-him") precedes them and is not quoted.
+Checked against the vendored Budge at line 56, §2. The text is the voice's words
+only. The framing sentence before them ("And when Arsenius was living the ascetic
+life in the monastery, he prayed to God the same prayer, and again he heard a voice
+saying unto him") is not quoted.
 
-THE PARAPHRASE IT REPLACES compressed TWO sayings into one. It read
-"Flee the company of men, and you will be saved... Flee, be silent, be
-still - these are the roots of a life without sin," joining §1 (the voice
-telling Arsenius to flee from men) to §2, in the clipped triad form -
-fuge, tace, quiesce - that the Latin tradition made famous. Budge's
-Syriac is longer, plainer and less epigrammatic. It is what this world
-can actually show, and §1 remains separately available at line 46 if the
-first half is ever wanted.
+The saying at §1 (line 54), where the voice tells Arsenius to flee from men, is a
+separate saying and is not part of this quote. Budge's Syriac is longer and plainer
+than the Latin three-word form (fuge, tace, quiesce), so this record keeps Budge's
+wording and does not use the Latin form.
 
-Paraphrase, not verbatim quotation, per desert.source.apophthegmata-
-patrum's own hard rule. The Latin systematic collection's own
-three-word form ("fuge, tace, quiesce") is well known outside this
-corpus but is not itself vendored or independently verified here; this
-record carries the saying in English paraphrase only, matching
-desert.story.arsenius-flee.
-
-divergence_note carries both halves of desert.source.apophthegmata-patrum's
-own confidence pairing, the "Widely Accepted" half and the unconditional
-Inferential-Thin bound. speaker_or_author carries no parenthetical
-provenance tag; the source is already carried in sources[] and
-divergence_note.
-
-`sources[].locus` also compiles into `quotes.json`
-(`build_quotes_json()` emits `sources` verbatim), so it is written as a
-plain description: it does not name a sibling record id, use
-build-process language, or carry a licence-mechanics gloss.
+The text is verbatim for Budge's edition. Whether the saying reaches back to
+Arsenius himself is the compilers' claim, not something the edition shows.

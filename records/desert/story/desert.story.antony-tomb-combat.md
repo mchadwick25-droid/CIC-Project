@@ -39,7 +39,8 @@ narrative_tier: 3
 narrative_tier_justification: "Tier 3 (Attributed Tradition): the tradition's own portrait of a formed life at its most extreme, not verified incident report, distinguished from Tier 1 material in the same Vita by its own hagiographic genre markers (physically embodied demons, a beast-form combat scene, a climactic vision of light)."
 tellable_as: "shut in a tomb, beaten by demons in the shape of beasts, and rising each time still standing"
 text: >-
-  The tradition shows Antony shutting himself inside an abandoned tomb, to
+  This happened in Antony's earlier life, before our years begin. The tradition
+  shows Antony shutting himself inside an abandoned tomb, to
   face what total combat against the interior enemy could mean at its furthest
   edge. Demons came to him there in the night, in a crowd, and beat him until
   he lay on the ground unable to speak. His friend found him and carried him
@@ -64,24 +65,13 @@ use_note:
   years: {from: 270, to: 286}
   status: reviewed
 ---
-Re-derived from the prior build's cleared Doc_09a Story 3.1. SS8-9 and
-SS12-13 are verified directly against the vendored file (the same
-passages desert.force.martyrdom-unavailable cites); S9 (the beast-form
-combat and Antony's own taunts to the demons) and S10 (the light
-vision's own exchange) are quoted here close to the vendored file's own
-wording rather than paraphrased from Doc_09a's own less specific
-telling.
+SS8-9 and SS12-13 are checked directly against the vendored file (the same passages
+desert.force.martyrdom-unavailable cites). Section 9 carries the beast-form combat and Antony's taunts
+to the demons, and section 10 carries the light vision and its exchange. Both are told close to the
+vendored wording.
 
-S9 carries the beast-form combat and Antony's own taunts; S10 carries
-the light vision.
-
-Formation significance: this world's own paradigmatic portrait of
-desert.gravity.spiritual-combat, and the concrete narrative form
-desert.force.martyrdom-unavailable's own vocabulary of "total
-confrontation relocated from an external persecutor to the interior
-life" takes. Answers F4-P-01 ("I can't quiet my own head. Does your way
-of life have anything for someone like me?") at its most extreme pitch
-- the promise this story makes is not that the struggle ends, but that
-help arrives once the struggle itself has been sufficiently borne.
-
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
+Formation significance: this world's paradigmatic portrait of desert.gravity.spiritual-combat, and the
+narrative form that desert.force.martyrdom-unavailable's "total confrontation relocated from an
+external persecutor to the interior life" takes. It answers F4-P-01 ("I can't quiet my own head. Does
+your way of life have anything for someone like me?") at its most extreme pitch. The promise this story
+makes is not that the struggle ends, but that help arrives once the struggle has been sufficiently borne.

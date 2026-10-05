@@ -18,7 +18,7 @@ confidence:
 sources:
 - source_id: desert.source.cassian-conferences
   locus: 'Conference XVIII (Conference of Abbot Piamun), ch. IV, Of the three sorts of monks which there
-    are in Egypt (npnf211 line 42454)'
+    are in Egypt (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml lines 42461-42470)'
   license: public-domain
 text: >-
   There are three kinds of monks in Egypt, of which two are admirable, the third is a poor sort of
@@ -60,27 +60,17 @@ use_note:
   years: {from: 385, to: 429}
   status: reviewed
 ---
-Verified verbatim against the vendored file at npnf211 line
-42454. The ANF's inline cross-reference "See the note on c.
-vii." follows "Sarabaites" and is excised; the ligature in "Coenobites" is
-rendered as "oe" throughout; and two colons are rendered as semicolons
-("a single Elder; and of this kind", "recesses of the desert; and in
-this order"), because a colon followed by a space is not legal inside a
-YAML plain scalar. That is the one punctuation substitution in this
-record; nothing else is altered.
+Checked verbatim against the vendored NPNF file at lines 42461-42470. The text keeps the
+ligature in "Cœnobites" and "Cœnobium" and the colons as the edition prints them. The edition's
+inline cross-reference "See the note on c. vii." follows "Sarabaites" and is left out. Nothing else
+is changed.
 
-THIS WORLD'S OWN THREE-STRAND STRUCTURE IS THIS PASSAGE. The build
-carries Strand A (anchoritic, Pispir and the inner mountain), Strand B
-(cenobitic, Tabennesi and the Pachomian federation) and Strand C
-(semi-anchoritic, Nitria, Kellia, Scetis). That division comes from
-here. It had been resting on an unreadable corpus and on modern
-scholarship; the sentence it derives from was vendored the whole time.
+This world's three strands follow this passage. Strand A is anchoritic (Pispir and the inner
+mountain), Strand B cenobitic (Tabennesi and the Pachomian federation) and Strand C
+semi-anchoritic (Nitria, Kellia, Scetis). The division comes from this sentence of the vendored
+Cassian, not only from modern scholarship.
 
-WHAT MAKES IT EVIDENCE RATHER THAN A DIAGRAM, and why the divergence
-note matters: Piamun is not neutral. He is an anchorite arguing that the
-anchoritic life is the higher one, to a listener who says openly that
-"in this order we also hope to gain a place." Cassian then went to Gaul
-and founded coenobia. The scheme survives because it is useful, but a
-world that presented it as a flat description would be repeating a
-recruitment argument as though it were a census.
-
+The divergence note matters because Piamun is not neutral. He is an anchorite arguing that the
+anchoritic life is the higher one, to a listener who says openly that "in this order we also
+hope to gain a place." Presented as a flat description, the scheme would repeat a recruitment
+argument as though it were a census.

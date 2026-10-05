@@ -42,7 +42,8 @@ narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative): named author (Athanasius), specific text and chapter reference, composed within a generation of the events it narrates. Held at Tier 1 for the narrative's existence and general content, not for a claim of verified interior experience."
 tellable_as: "Antony's own call - hearing the Gospel read aloud and taking it as spoken to him directly"
 text: >-
-  Not long after he lost his parents, still a young man, Antony went into
+  This happened in Antony's earlier life, before our years begin. Not long after
+  he lost his parents, still a young man, Antony went into
   church one day and heard the Gospel being read. It was the Lord telling the
   rich young man: if you would be perfect, go and sell what you have, give to
   the poor, and come follow me, and you will have treasure in heaven. Antony
@@ -65,35 +66,22 @@ use_note:
   years: {from: 268, to: 274}
   status: reviewed
 ---
-Re-derived from the prior build's cleared Doc_09a Story 1.1, re-verified
-directly against desert.source.athanasius-vita-antonii (Vita SS2-3,
-the same passage desert.force.scriptural-address and
-desert.force.village-ascetic-culture already cite and this build has
-independently verified twice). The second Gospel hearing ("do not be
-anxious about tomorrow") and the placement of Antony's sister are added
-here from the same passage (SS3), not present in Doc_09a's own telling,
-to keep the story's own closing action (entering formation near an old
-man already living that way nearby) connected to
-desert.force.village-ascetic-culture's own trace without introducing a
-second, separately-cited story.
+Checked directly against desert.source.athanasius-vita-antonii (Vita SS2-3), the same passage that
+desert.force.scriptural-address and desert.force.village-ascetic-culture cite. The second Gospel hearing
+("do not be anxious about tomorrow") and the placement of Antony's sister come from the same passage
+(SS3). They keep the story's closing action, entering formation near an old man already living that
+way, connected to desert.force.village-ascetic-culture without a second story.
 
-Formation significance: this is this world's own founding instance of
-the interpretive posture desert.gravity.scriptural-engagement's own
-description names - scripture heard as direct personal address, not
-general instruction - and the act that generates
-desert.gravity.withdrawal in its first, concrete form. F4-I ("How did a
-person actually become one of you? Walk me through it.") and F2-I ("How
-did you read your scriptures? What did you look for in them?") are both
-answered directly by this one narrated act.
+Formation significance: this is this world's founding instance of the posture that
+desert.gravity.scriptural-engagement names, scripture heard as direct personal address and not
+general instruction. It is also the act that generates desert.gravity.withdrawal in its first,
+concrete form. F4-I ("How did a person actually become one of you? Walk me through it.") and F2-I
+("How did you read your scriptures? What did you look for in them?") are both answered by this one
+narrated act.
 
-The text matches both the Vita ("imitated him in piety," SS3) and
-desert.force.village-ascetic-culture's own registered wording ("sought
-out and modeled himself on"). The Matthew 19:21 clause order matches
-the vendored Ellershaw text's own "...and come follow Me and thou
-shalt have treasure in heaven."
+The text matches the Vita ("imitated him in piety," SS3) and desert.force.village-ascetic-culture's
+registered wording ("sought out and modeled himself on"). The Matthew 19:21 clause order matches the
+vendored Ellershaw text: "...and come follow Me and thou shalt have treasure in heaven."
 
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
-
-This record answers C-P: "Who is Jesus to you - not to your church, to
-you?" - the Gospel heard as spoken straight to one man is this world's
-founding answer to exactly that question.
+This record answers C-P: "Who is Jesus to you - not to your church, to you?" The Gospel heard as spoken
+straight to one man is this world's founding answer to that question.

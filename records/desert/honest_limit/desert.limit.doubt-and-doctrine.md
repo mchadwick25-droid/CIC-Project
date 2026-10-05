@@ -31,40 +31,21 @@ use_note:
   years: {from: 320, to: 430}
   status: reviewed
 ---
-This record's canon_cells claim is narrowed to the atonement-mechanics
-and personal-Lord sub-questions specifically, which remain genuinely
-unanswered in this world's own voice: C-P is answered instead by
-desert.dw.someone-like-me; C-T for "was Jesus God" specifically is
-answered instead by desert.quote.antony-nicene-formula.
-desert.dw.god and desert.dw.jesus supply the nearest this
-corpus comes on the remaining ground - boundary-drawing and lived
-pattern, not argument or confession - and this record states plainly
-why that is not the same thing.
+This record's canon_cells claim is narrowed to the atonement-mechanics and personal-Lord
+sub-questions, which remain unanswered in this world's own voice. C-P is answered instead by
+desert.dw.someone-like-me, and C-T for "was Jesus God" by desert.quote.antony-nicene-formula.
+desert.dw.god and desert.dw.jesus supply the nearest this corpus comes on the remaining ground,
+boundary-drawing and lived pattern, not argument or confession. This record states plainly why that
+is not the same thing.
 
-The compiled statement says "in public, more than once, when we were
-pressed": Vita SS72-80 has Antony disputing publicly with Greek
-philosophers on more than one occasion, beyond the single Arian
-confrontation at SS69. The compiled statement opens "We do not have a
-good answer," matching the fleet's own strict we-voice discipline
-(fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in
-desert.voice.craft's own flavor_notes), which reserves "I" for a named,
-attributed figure's own quoted words or the one sanctioned self-naming
-exception, neither of which applies to an honest_limit's own admission
-of ignorance.
-
-The statement does not claim flatly that "how his death actually saves
-you... is not something we wrote down." Vita SS74 does say why he came,
-and gives a mechanism for it: the Word took a human body "for the
-salvation and well-being of man, that having shared in human birth He
-might make man partake in the divine and spiritual nature"
-(desert.quote.the-word-took-a-human-body). SS75 adds that the deeds of
+The statement does not claim flatly that how his death saves you is not something we wrote down.
+Vita SS74 says why he came and gives a mechanism for it: the Word took a human body "for the
+salvation and well-being of man, that having shared in human birth He might make man partake in the
+divine and spiritual nature" (desert.quote.the-word-took-a-human-body). SS75 adds that the deeds of
 Christ "prove Him to be God come upon earth for the salvation of men."
 
-That is a soteriology. It is not the one the question usually means,
-and the real gap is narrower than the old wording claimed: this world
-left no account of the transaction - substitution, penalty, imputed
-righteousness - that a participant asking "did Jesus die to take my
-punishment" is usually reaching for. The statement now says that, and
-says the positive thing first. The personal-Lord and cannot-believe
-halves of this record's claim are untouched; nothing in the Vita or the
-sayings answers either.
+That is a soteriology. It is not the one the question usually means. This world left no account of
+the transaction (substitution, penalty, imputed righteousness) that a participant asking "did Jesus
+die to take my punishment" is usually reaching for. The statement says that, and says the positive
+thing first. The personal-Lord and cannot-believe halves of the claim stand as written: nothing in the
+Vita or the sayings answers either.

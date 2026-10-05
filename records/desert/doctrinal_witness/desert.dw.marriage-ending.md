@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the narrated material this witness draws on - Palladius's own written account, composed within decades of the events, of a figure Antony himself is shown receiving, though the chapter is explicitly third-hand even within Palladius's own text (Cronius, Hierax, and others 'told me this tale also,' ch. XXII SS1) - Contested also for Palladius's own AUTHOR GRAVITY concern (a Greek-literate observer describing Paul, a Coptic-speaking rustic, Doc_01 SS4's load-bearing concern). This witness answers only the marriage-ending question within F6-T's own three-part cell; it does not address whether people outside the faith were held to be condemned, which remains an open, genuinely thin question, or whether this world held its own way to be one among many, which is answered substantively by desert.dw.only-true-religion."
+  divergence_note: "Widely Accepted for the narrated material this witness draws on - Palladius's own written account, composed within decades of the events, of a figure Antony himself is shown receiving, though the chapter is explicitly third-hand even within Palladius's own text (Cronius, Hierax, and others 'told me this tale also,' ch. XXII SS1) - Palladius's own AUTHOR GRAVITY concern also applies (a Greek-literate observer describing Paul, a Coptic-speaking rustic, Doc_01 SS4's load-bearing concern), and is carried as a bound on that rating, not as a second rating. This witness answers only the marriage-ending question within F6-T's own three-part cell; it does not address whether people outside the faith were held to be condemned, which remains an open, genuinely thin question, or whether this world held its own way to be one among many, which is answered substantively by desert.dw.only-true-religion."
 sources:
 - source_id: desert.source.palladius-lausiac-history
   locus: "ch. XXII - Paul, finding his wife with another man, leaving her and going to become a monk under Antony"
@@ -44,21 +44,14 @@ use_note:
   years: {from: 419, to: 420}
   status: reviewed
 ---
-Palladius ch. XXII (Paul the Simple), verified directly against the
-vendored file. This chapter falsifies a claim that "marriage is simply
-not a subject we speak to," checked against the whole vendored
-Palladius file at chs. VIII, XXII, XLIV, LXI and LXVI; this record
-answers the one sub-question (a marriage ending) the corpus can answer
-well, from the strongest single instance, and does not extend past it.
+Palladius ch. XXII (Paul the Simple), checked directly against the vendored file. The chapter shows
+that marriage is a subject this world's record speaks to, a claim checked against the whole vendored
+Palladius at chs. VIII, XXII, XLIV, LXI and LXVI. This record answers the one sub-question (a marriage
+ending) the corpus can answer well, from the strongest single instance, and does not extend past it.
 
-This cell's other two questions (born-again/outsiders framing) are
-carried in narrowed form, so this cell carries both a substantive
-answer and an honest limit. divergence_note states the third-hand
-chain explicitly: the chapter's own opening line names Cronius and
-Hierax as Palladius's informants, and Palladius's own AUTHOR GRAVITY
-caution is carried. The text uses the source's own words ("a perfect
-soul," "guileless and simple") rather than a comparative ch. XXII does
-not make. The honest_limit this record's own tensions field points to
-is split: the condemnation question is desert.limit.outsiders-condemned,
-and the one-true-way question is answered substantively by
-desert.dw.only-true-religion.
+The cell's other two questions are carried separately: the condemnation question by
+desert.limit.outsiders-condemned, and the one-true-way question by desert.dw.only-true-religion.
+
+The divergence note states the third-hand chain: the chapter's opening line names Cronius and Hierax as
+Palladius's informants, and Palladius's AUTHOR GRAVITY caution is carried. The text uses the source's
+own words ("a perfect soul," "guileless and simple") rather than a comparative ch. XXII does not make.

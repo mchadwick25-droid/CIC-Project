@@ -24,7 +24,7 @@ sources:
 - source_id: desert.source.pachomian-corpus
   locus: >-
     Ethiopic recension, Part II (the second word of the holy Pachomius), p. 685, in Schodde's
-    English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)
+    English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt line 206)
   license: public-domain
 text: >-
   And his sister in the flesh loved monasticism, and he cut her hair and put a girdle around her,
@@ -40,18 +40,17 @@ text: >-
 modern_rendering: >-
   His sister by blood loved the monastic life. He cut her hair, put a belt around her,
   and made a dwelling for her alone, on the other side of the river, a mile away. At her
-  instigation, virgins and widows collected together and became truly good. No one
-  crossed over to them, except those who had been ordained by Abba Pachomius, and chosen
-  ones, on the fixed festival days of our Lord.
+  urging, virgins and widows gathered together and became very good. No one went over,
+  except those ordained by Abba Pachomius and chosen ones, on the fixed festival days of
+  our Lord.
 
-  When one of these women went to her rest, the sisters sang psalms over her, adorned
-  her in holiness, and wrapped her in linen. And the brothers received her on a raft and
-  buried her in their own place.
+  When any one of them went to her rest, they sang psalms, adorned her in holiness, and
+  wrapped her in linen. The brothers received her on a raft and buried her in their place.
 
-  But the men never saw the women's faces, and the women never saw the men's faces. The
-  women reached the number of one hundred and eighty, and the men three hundred and
-  forty. He commanded them to take great care never to see the women's faces or hear
-  their voices.
+  But the men did not see the women's faces, and the women did not see the men's faces.
+  The women reached the number of one hundred and eighty, and the men three hundred and
+  forty. He commanded them to be very careful not to see the women's faces or hear their
+  voices.
 speaker_or_author: the Ethiopic recension of the Rule, Part II
 license: verbatim
 modern_lens_note: >-
@@ -82,16 +81,14 @@ use_note:
   years: {from: 320, to: 346}
   status: reviewed
 ---
-Verified verbatim against the vendored file, Part II, p. 685.
+Checked verbatim against the vendored file, Part II, p. 685 (line 206).
 
-THE FIRST PRIMARY TEXT ON WOMEN THIS WORLD HAS FOR STRAND B. Every prior
-claim about the women's houses here has run through Palladius, Sozomen or
-consult-only scholarship. This does not close the world's women's-own-
-words gap and must never be presented as doing so: it is legislation
-about women, by men, and no woman speaks in it. What it does close is
-narrower and real - the world can now quote a text of the federation's
-own about how the women's house stood to the men's, including the numbers
-and the burial, rather than reporting it at second hand.
+This is the first primary text this world holds on the women of Strand B. Every other claim about the
+women's houses here runs through Palladius, Sozomen or consult-only scholarship. It does not close the
+world's gap in women's own words and must never be presented as doing so: it is legislation about
+women, by men, and no woman speaks in it. What it does is narrower and real. The world can quote a
+text of the federation's own about how the women's house stood to the men's, including the numbers
+and the burial, instead of reporting it at second hand.
 
-The sister is unnamed here. The tradition calls her Mary or Maria; this
-text does not, and neither should a record citing this text.
+The sister is unnamed here. The tradition calls her Mary or Maria; this text does not, and neither
+should a record citing this text.

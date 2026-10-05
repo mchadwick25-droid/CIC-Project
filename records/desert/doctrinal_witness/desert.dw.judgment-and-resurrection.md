@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the material this witness draws on, all from Antony's own reported teaching and deathbed instruction within the Vita. This witness answers only the judgment/resurrection sub-question within F4-T's own three-part cell - it does not address whether this world would have called its own conversion being 'born again,' or how giving was proportioned as a tithe, both of which remain genuinely thin in this corpus's own voice and are named in this record's own tensions field rather than answered here."
+  divergence_note: "Widely Accepted for the material this witness draws on, all from Antony's own reported teaching and deathbed instruction within the Vita. This witness answers only the judgment/resurrection sub-question within F4-T's own three-part cell - it does not address whether this world would have called its own conversion being 'born again,' or how giving was proportioned as a tithe, the born-again question is answered by desert.dw.born-again, and the tithe question is an honest limit at desert.limit.tithe."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS16 - the shortness of this life measured against the ages to come and the promise of eternal life; SS19 - living as though dying daily, looking forward to the day of judgment; SS33 - being called to judgment for having kept the faith and the commandments; SS81 - Antony's own letter to the emperor Constantine and his co-emperor sons Constantius and Constans, counseling them to remember the coming judgment; SS91 - Antony's own deathbed words, expecting to receive his body back incorruptible at the resurrection of the dead"
@@ -54,7 +54,7 @@ teaching that Arianism was "the last of all and a forerunner of
 Antichrist," itself a claim about what precedes the end, so the closing
 sentence carries the same hedge positions[2] already states ("no
 developed sequence or shape") rather than an absolute. The record's own
-basis is the four cited passages, not a claim to exhaustiveness. This
-cell's other two questions (born-again framing; tithing) are carried in
-narrowed form as desert.limit.f4-t-born-again-and-tithe, so this cell
+basis is the five cited passages, not a claim to exhaustiveness. This
+cell's other two questions (born-again framing; tithing) are carried by
+desert.dw.born-again and desert.limit.tithe, so this cell
 carries both a substantive answer and an honest limit.

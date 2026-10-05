@@ -37,17 +37,12 @@ use_note:
   years: {from: 320, to: 430}
   status: reviewed
 ---
-Named rather than filled: this world's own confident claim to be the
-one true way (desert.dw.only-true-religion) is a different
-question from what that claim meant for the personal standing of
-someone who never held it - this record does not stretch one to answer
-the other.
+Named rather than filled: this world's own confident claim to be the one true way
+(desert.dw.only-true-religion) is a different question from what that claim meant for the personal
+standing of someone who never held it. This record does not stretch one to answer the other.
 
-This record's claim is narrowed to what a full-text search actually
-confirms is absent: the word "hell" does not occur in the Vita at all,
-and "condemn" occurs four times, none of them on this question; the
-one-true-way question, by contrast, is answered by
-desert.dw.only-true-religion, built from Vita SS72-80. The compiled
-statement opens "We do not have an honest answer," matching the
-fleet's own strict we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md
-v4, restated in desert.voice.craft's own flavor_notes).
+This record's claim is narrowed to what a full-text search confirms is absent: the word "hell" does not
+occur in the Vita at all, and "condemn" occurs four times, none of them on this question. The
+one-true-way question, by contrast, is answered by desert.dw.only-true-religion, built from Vita SS72-80.
+The statement opens with the question "Did we think people outside the faith were condemned" and
+answers in the strict we-voice (see desert.voice.craft's flavor_notes).

@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Widely Accepted for the narrated material (Antony's call, his own reported teaching) and its place in this world's own tradition. Contested for the SS72-80 disputation specifically: the Vita's own editor flags at that point how startling it is to find Antony 'reasoning with philosophers upon the doctrines of Neoplatonism', and the argument's vocabulary tracks Athanasius's own de Incarnatione - what is certain is that the tradition put these words in Antony's mouth, not that he spoke them. Each quote record carries that bound in its own divergence_note. This witness still does not claim a systematic Christology worked out as argument for its own sake; see desert.limit.doubt-and-doctrine for the narrowed bound."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King"
+  locus: "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King; SS84 - the narrator on Antony's healings, done by prayer and the name of Christ so that the Lord is seen to work"
   license: public-domain
 retrieval:
   tier: 1
@@ -78,8 +78,8 @@ use_note:
   status: reviewed
 ---
 Drawn from desert.story.antony-call and desert.quote.antony-dying-daily,
-both already independently verified, and from six quote records opened
-this pass (desert.quote.the-word-took-a-human-body,
+both already independently verified, and from six quote records
+(desert.quote.the-word-took-a-human-body,
 .the-deeds-of-christ-prove-him, .when-the-cross-of-christ-arose,
 .christ-worketh-them-not-we, .he-healed-by-the-name, and
 .the-coming-of-christ-made-thee-weak).
@@ -100,5 +100,3 @@ argued Christology really is concentrated in one episode against a much
 larger body of narrative - both stated as a shape in `tensions` rather
 than standing in for the whole. desert.limit.doubt-and-doctrine is
 narrowed to match.
-
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

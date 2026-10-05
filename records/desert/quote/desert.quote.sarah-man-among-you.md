@@ -17,7 +17,7 @@ confidence:
     of the Greek exists to check it against. Anything resting on that clause stays unquotable.'
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: §525 (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt line 2429) - Budge's Syriac recension
+  locus: §525 (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt line 2438) - Budge's Syriac recension
     of 'Anan-Isho', whose numbering and wording differ from the Greek alphabetical collection
   license: public-domain
 text: Mother Sarah used to say to her brethren, “It is I who am a man, and ye who are women.”
@@ -49,37 +49,19 @@ use_note:
   years: {from: 320, to: 430}
   status: reviewed
 ---
-Verified character for character against the vendored Budge at line
-2429, §525.
+Checked character for character against the vendored Budge at line 2438, §525.
 
-The fuller form of the saying - "By nature I am a woman, but not by my
-own thoughts. It is I who am the man here, and you who are the women" -
-belongs to the Greek alphabetical collection (Sarah 4), whose only
-English translations are in copyright and which this world therefore
-cannot vendor - see desert.search.greek-alphabetical-pd-english. This
-recension carries only the second sentence.
+The fuller form of the saying - "By nature I am a woman, but not by my own thoughts. It is I
+who am the man here, and you who are the women" - belongs to the Greek alphabetical collection.
+Its only English translations are in copyright, so this world cannot vendor them; see
+desert.search.greek-alphabetical-pd-english. This recension carries only the second sentence.
 
-The loss is real and is not smoothed over. The dropped sentence is the
-half that most clearly frames the saying as Sarah's own comment on her
-sex, rather than only a rebuke to the brothers. Without it the line is
-blunter and more ambiguous. That is what the Syriac says.
+The dropped sentence is the half that most clearly frames the saying as Sarah's own comment
+on her sex, rather than only a rebuke to the brothers. Without it the line is blunter and more
+ambiguous. That is what the Syriac says.
 
-The modern_lens_note stands unchanged: "man" and "women" are this world's
-gendered virtue-categories, not a claim about gender identity.
+The modern_lens_note stands: "man" and "women" are this world's gendered virtue-categories, not
+a claim about gender identity.
 
-Paraphrase, not verbatim quotation - desert.source.apophthegmata-patrum
-carries no vendored edition, and this build's own hard rule bars any
-verbatim-quote claim against it. The wording restates the saying's
-substance rather than reproducing a specific published translation's
-own English, consistent with desert.figure.sarah's own identical
-discipline for the same saying.
-
-divergence_note carries both halves of desert.source.apophthegmata-patrum's own confidence pairing,
-the "Widely Accepted" half and the unconditional Inferential-Thin bound, matching desert.figure.sarah's
-own full statement of it.
-
-`sources[].locus` compiles into `quotes.json` (`build_quotes_json()` emits `sources` verbatim), so it
-is written as a plain description: it does not name a sibling record id, use build-process language,
-or carry a licence-mechanics gloss.
-
-The modern_rendering is a modern-English translation of the text field, not a summary; the original wording stays as the text field, shown at Level 3. This desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+The text is verbatim for Budge's edition. The modern_rendering is a modern-English translation
+of the text field, not a summary.

@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for whether this represents the Egyptian elders' own teaching or Cassian's own: the Conferences are written up in Gaul, decades later, in Latin, by a participant with his own argument to make against Augustine's followers. The NPNF edition's own apparatus flags this Conference as semi-Pelagian and notes that Prosper of Aquitaine extracted passages from it as erroneous. The words are quoted verbatim from the vendored file; what they are evidence FOR is Cassian's own reporting, not an unmediated desert voice."
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: "Conference XIII (Third Conference of Abbot Chaeremon, On the Protection of God), ch. XVIII"
+  locus: "Conference XIII (Third Conference of Abbot Chaeremon, On the Protection of God), ch. XVIII (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml lines 38592-38593)"
   license: public-domain
 text: "...the main share in our salvation is to be ascribed not to the merit of our own works but to heavenly grace..."
 modern_rendering: >-
@@ -44,10 +44,10 @@ use_note:
 The nearest thing this world has to a direct answer to "are you saved by faith alone,
 not works", and it says neither of the things a modern participant expects. Not works,
 and not faith alone either: mainly grace, with a real share left to the person. The
-same chapter has God "assisting some who are already willing and running, while He
+same chapter has God "assists some who are already willing and running, while He
 draws others who are unwilling and resisting, and forces them to a good will."
 
-The text field marks its ending with a trailing ellipsis rather than a period: the source's sentence
+The text field ends with an ellipsis rather than a period. The source's sentence
 continues into Cassian's own framing clause introducing a separate scriptural quotation ("we are thus
 taught by the words of the Lord Himself: ..."), a separate citation this record isn't using. The
 record's own point is complete at "heavenly grace."

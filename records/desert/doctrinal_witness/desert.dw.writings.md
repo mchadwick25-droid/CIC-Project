@@ -26,8 +26,8 @@ retrieval:
   - "participant asks what writings or scriptures this world actually had"
   - "participant asks how scripture was used day to day - studied academically, or applied directly"
 text: >-
-  We had the same Scriptures the wider church had. Nothing more, and nothing
-  of our own alongside them. What made us look different was not what we held
+  We had the same Scriptures the wider church had. We kept rules and sayings of
+  our own, but we did not add them to Scripture. What made us look different was not what we held
   but how we used it. Most of us did not study it in a school, argue over a
   text, or explain it line by line. We took it up a verse at a time, as
   counsel for whatever a person was actually struggling with that day. Ask an
@@ -40,7 +40,7 @@ text: >-
   inside a small number of verses, returned to again and again, until they had
   shaped how we saw everything else.
 positions:
-- "no independent scripture or teaching beyond what the wider church already held"
+- "no scripture of its own beyond what the wider church already held; its rules and sayings were not added to Scripture"
 - "scripture used as direct, applied counsel for one person's one situation, not studied systematically"
 - "a smaller circle collected verses into a tool for answering tempting thoughts - applied use taken further, not commentary"
 - "a small number of verses (Matthew 19:21 chief among them) carried disproportionate formative weight"
@@ -68,9 +68,7 @@ The text acknowledges this corpus's own registered Evagrius material
 (the Antirrhetikos, scripture deployed against tempting thoughts) and
 desert.gravity.evagrian-systematization, this world's own
 systematic-author gravity, while keeping that exception applied rather
-than exegetical. The Apophthegmata locus is marked Inferential-Thin,
-per that source's own unconditional bound. desert.limit.f1-t-original-sin-
-eucharist-faith names this record in its own nearest_material and
+than exegetical. The divergence note carries the Apophthegmata source's
+own unconditional bound. desert.limit.original-sin-eucharist-faith names this record in its own nearest_material and
 why_sources_cannot_answer, with a reciprocal relation.
 
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

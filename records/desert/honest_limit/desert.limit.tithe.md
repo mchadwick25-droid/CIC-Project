@@ -45,9 +45,8 @@ support.
 This record's claim is narrowed to what a full-text search of both
 vendored files actually confirms is absent (tithing specifically), and
 states the search performed, matching the model
-desert.limit.f1-t-original-sin-eucharist-faith sets for this record
+desert.limit.original-sin-eucharist-faith sets for this record
 set; "born again" does occur, once, in vendored Palladius ch. XLV (see
-desert.dw.born-again, built from that material). The compiled
-statement opens "We do not have a clear answer," matching the fleet's
-own strict we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4,
-restated in desert.voice.craft's own flavor_notes).
+desert.dw.born-again, built from that material). The statement
+opens with the question "How did we decide what to give as a tithe?" and answers in the
+strict we-voice (see desert.voice.craft's flavor_notes).

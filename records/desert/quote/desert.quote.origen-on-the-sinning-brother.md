@@ -70,6 +70,6 @@ Verified verbatim against the vendored file at line 36205.
 The pairing is the point and is set out in
 desert.source.origen-commentary-matthew: Origen builds the procedure for
 correcting a brother and then flinches at its cost; a century later Abba
-Moses walks into the council with a leaking jug and will not use it at
+Moses walks into the gathering with a leaking basket of sand and will not use it at
 all. Two ends of one tradition on one problem. This world had only the
 desert end.

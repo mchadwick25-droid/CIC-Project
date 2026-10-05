@@ -17,7 +17,7 @@ confidence:
     written. It shows how this world read scripture, not what the books are.'
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: 'Conference III (Conference of Abbot Paphnutius), ch. VI (npnf211 line 28484)'
+  locus: 'Conference III (Conference of Abbot Paphnutius), ch. VI (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml lines 28479-28486)'
   license: public-domain
 text: >-
   To these three sorts of renunciations the three books of Solomon suitably correspond. For Proverbs
@@ -55,22 +55,13 @@ use_note:
   years: {from: 385, to: 429}
   status: reviewed
 ---
-Verified verbatim against the vendored file at npnf211 line
-28484; one continuous passage to the chapter break, unaltered.
+Checked verbatim against the vendored file at lines 28479-28486. It is one continuous passage to the
+chapter break, unaltered.
 
-WHAT THIS MOVES. desert.term.theoria rested on Evagrius ALONE, which has
-no vendored edition - so this world could not quote a single line about
-contemplation, the thing its whole interior discipline aims at. This is
-theoria named and placed: the third renunciation, the soul above
-everything visible, joined to the Word.
+This is theoria named and placed: the third renunciation, the soul above everything visible, joined to
+the Word. It gives the world one quotable line about contemplation, the thing its interior discipline
+aims at.
 
-IT ALSO SHOWS THE WORLD'S EXEGESIS WORKING. desert.gravity.scriptural-
-engagement is about how these monks read - and here is a reading:
-three books, three stages, the ascent mapped onto a shelf. A participant
-who wants to know what "reading scripture" meant in the desert can be
-shown this rather than told about it.
-
-THREE OF THE FOUR TERMS THAT RESTED ON UNREADABLE SOURCES ALONE ARE NOW
-COVERED - logismoi, penthos, theoria. The fourth, nepsis, is not, and
-xeniteia keeps only its Apophthegmata footing. Both are findable in
-Cassian and are the next pass, not a claim made here.
+It also shows the world's exegesis at work. desert.gravity.scriptural-engagement is about how these
+monks read, and here is a reading: three books, three stages, the ascent mapped onto a shelf. A
+participant who asks what "reading scripture" meant in the desert can be shown this.

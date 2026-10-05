@@ -18,8 +18,8 @@ confidence:
     argument of his own. Carried as Widely Accepted for the teaching, not as a transcript.'
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: 'Conference XXIV (Conference of Abbot Abraham), the Antony anecdote (npnf211 line 47578); the
-    temptation it answers is stated at line 47186'
+  locus: 'Conference XXIV (Conference of Abbot Abraham), the Antony anecdote (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml lines
+    47573-47587); the temptation it answers is stated at lines 47184-47193'
   license: public-domain
 text: >-
   When one came as I said to the aforesaid old man, and said that the anchorite system was not at all
@@ -65,20 +65,15 @@ use_note:
   years: {from: 385, to: 429}
   status: reviewed
 ---
-Verified verbatim against the vendored file at npnf211 line
-47578. The text field matches the source exactly, including "as I said" (the phrase points back to
-Abraham's own framing outside the excerpt, but is still part of the source's actual sentence), the
-"reading and prayer" clause, and the "said he" mid-quote interruption.
+Checked verbatim against the vendored file at lines 47573-47587. The text field matches the source
+exactly, including "as I said" (the phrase points back to Abraham's own framing outside the excerpt,
+but is still part of the source's sentence), the "reading and prayer" clause, and the "said he"
+mid-quote interruption.
 
-WHAT THIS MOVES, AND WHY IT IS THE SHARPEST OF THE FOUR.
-desert.term.xeniteia rested on the Apophthegmata ALONE. It is now
-grounded in a passage that is not an abstract definition but the exact
-temptation being lived: Cassian and Germanus had confessed to Abraham
-that they wanted to go home, and had told themselves their pious
-relatives would support them so they could pray without worrying about
-food (line 47186). Abraham answers with this. The world's own founder,
-quoted against the thing its own recorder was tempted to do.
+desert.term.xeniteia rests on a passage that is not an abstract definition but the exact temptation
+being lived. Cassian and Germanus confess to Abraham that they want to go home. They tell themselves
+their pious relatives would support them so they could pray without worrying about food (lines
+47184-47193). Abraham answers with this story of Antony.
 
-ALL FOUR TERMS THAT RESTED ON UNREADABLE SOURCES ALONE ARE NOW COVERED -
-logismoi, penthos, theoria, nepsis, xeniteia. What Cassian still cannot
-supply is any woman's voice; he records none.
+Five terms are covered by Cassian's vendored text: logismoi, penthos, theoria, nepsis and xeniteia.
+Cassian records no woman's voice.

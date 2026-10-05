@@ -14,9 +14,11 @@ confidence:
   divergence_note: "Widely Accepted, matching desert.gravity.authority-tension's own basis for both constituent bodies of evidence - Inferential/Thin for any claim about the Apophthegmata's own recurring emphasis beyond what desert.gravity.authority-tension's own registered evidence already establishes, per desert.source.apophthegmata-patrum's own unconditional bound."
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: "the Rule's own office-based model, as the Latin Rule tradition transmits it"
+  locus: "the Rule's own office-based model, as the vendored Ethiopic recension transmits it (cic/texts/pachomius_rules-ethiopic_schodde1885.txt lines 200-204, where no brother acts without the knowledge of the prior)"
+  license: public-domain
 - source_id: desert.source.apophthegmata-patrum
-  locus: "the elder-mediated model's own emphasis on personal obedience to a specific elder, per desert.gravity.elder-authority's own registered basis - no vendored edition of the collection exists, so this record does not claim to have verified the emphasis independently"
+  locus: "the elder-mediated model's own emphasis on personal obedience to a specific elder, per desert.gravity.elder-authority's own registered basis, and Budge's Syriac recension, Chapter VII, Of Obedience Towards God, And Towards Our Fathers And Brethren (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt lines 540-546, where disciples of Abba Paule and Abba Sylvanus are praised for obedience); this record does not claim the whole collection shares that emphasis"
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
@@ -34,22 +36,18 @@ use_note:
   not_for:
     - "a claim that the tension was resolved in favour of either model"
     - "a ranking of the rule above the elder or the elder above the rule"
-    - "the Apophthegmata's emphasis on obedience as independently verified here"
+    - "the Apophthegmata's emphasis on obedience beyond the Syriac recension's chapter on it"
   years: {from: 320, to: 430}
   status: reviewed
 ---
-Drawn from desert.gravity.authority-tension's own description for the
-first and third positions, and from that gravity record's own Step3c
-body note (itself drawing on Doc_07 SS3) for the second - "the founder
-of the office-based pole is himself remembered partly in the
-person-based idiom of the opposite pole."
+Drawn from desert.gravity.authority-tension's own description for the first and third positions, and
+from that record's body note (itself drawing on Doc_07 SS3) for the second: "the founder of the
+office-based pole is himself remembered partly in the person-based idiom of the opposite pole."
 
-The second position matches Doc_07 SS3's own wording: Pachomius is
-"remembered... in terms that borrow directly from elder-authority
-vocabulary (a father whose personal example, not merely his Rule,
-forms his community)." The Apophthegmata locus attributes the
-collection's own emphasis on personal obedience to
-desert.gravity.elder-authority's own already-registered basis, since
-this is an un-vendored collection this record cannot itself check, per
-that source's own unconditional Inferential-Thin bound, stated in
-divergence_note.
+The second position matches Doc_07 SS3's own wording: Pachomius is "remembered... in terms that
+borrow directly from elder-authority vocabulary (a father whose personal example, not merely his
+Rule, forms his community)."
+
+The Apophthegmata locus rests on desert.gravity.elder-authority's registered basis and on the
+obedience chapter of Budge's Syriac recension. The vendored rule is the Ethiopic recension, not a
+Latin Rule. The divergence note carries the Apophthegmata source's own unconditional bound.

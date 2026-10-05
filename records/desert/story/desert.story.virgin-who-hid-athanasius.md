@@ -14,18 +14,29 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Contested
   divergence_note: >-
-    CONTESTED, AND THE REASON IS IN THE TEXT ITSELF. Palladius says she hid him "for the whole
-    period of thirty years, that is to say, until the death of Constantine", and Budge's own
-    bracketed gloss corrects the emperor to Constantius. Athanasius' hidden years under Constantius
-    were about six, not thirty, and no other source knows this story. Either Palladius is repeating
-    an Alexandrian tradition that had already grown, or the figure is corrupt, or both. A record
-    may tell this as something the tradition remembered. No record may date it, count the years, or
-    present it as an established episode in Athanasius' life.
+    CONTESTED, AND THE REASON IS IN THE SOURCES. Budge's Syriac says the virgin hid Athanasius "for
+    the whole period of thirty years, that is to say, until the death of Constantine", and adds
+    "(i.e., Constantius)" after the emperor's name in two places. The vendored Greek Lausiac History
+    (Clarke, ch. LXIII, line 591) tells the same story with "six years, as long as Constantius
+    lived", and Clarke's footnote 352 calls the story as it stands unhistorical. The vendored
+    Athanasius (introduction, line 5889) gives six years and fourteen days out of public view, 356
+    to 362. A record may tell this as something the tradition remembered. No record may date it,
+    count the years, or present it as an established episode in Athanasius' life.
 sources:
 - source_id: desert.source.palladius-paradise-syriac
   locus: >-
     Book I, ch. xxxv, Of the Virgin of Alexandria who hid Athanasius, in Budge's English
     (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)
+  license: public-domain
+- source_id: desert.source.palladius-lausiac-history
+  locus: >-
+    ch. LXIII, The Virgin and Athanasius, in Clarke's translation of the Greek
+    (cic/texts/palladius_lausiac-history_clarke1918.txt line 591) - the Greek form, which gives six years
+  license: public-domain
+- source_id: desert.source.athanasius-vita-antonii
+  locus: >-
+    editor's introduction to Athanasius, The Third Exile (cic/texts/npnf204_athanasius-select-works-letters.xml
+    line 5889) - six years and fourteen days out of public view, 356 to 362
   license: public-domain
 retrieval:
   tier: 2
@@ -45,10 +56,10 @@ relations:
 narrative_tier: 2
 narrative_tier_justification: >-
   Tier 2 (Tradition's Own Telling). The people are historical and the conflict is documented, but
-  the episode is known from this text alone and its central figure - thirty years - cannot be
-  right. Not Tier 1, because nothing corroborates it and its own chronology fails; not Tier 3,
-  because it is not free-floating legend but a specific claim in a datable book by a named author
-  who says he had it from the Alexandrian clergy.
+  the episode is known from Palladius's book alone, in a Greek form that says six years and a Syriac
+  form that says thirty. Not Tier 1, because no independent source corroborates it and the Syriac
+  chronology fails; not Tier 3, because it is not free-floating legend but a specific claim in a
+  datable book by a named author who says he had it from the Alexandrian clergy.
 tellable_as: "the archbishop of Alexandria on the run, hidden by a woman nobody would think to suspect"
 text: >-
   Palladius says that among the chaste virgins he saw in Alexandria there was
@@ -72,10 +83,9 @@ text: >-
 absent_detail: >-
   She is not named, here or anywhere. Nothing is said about what she thought of the arrangement
   beyond that she was astonished and then joyful, and nothing about what it cost her to keep a
-  wanted man in her house. Athanasius' own writings do not mention it, and neither does any other
-  source. The "thirty years" cannot be right. Budge's own bracketed gloss silently corrects
-  Palladius' "Constantine" to Constantius, which means the received text was already confused about
-  which emperor's reign this was.
+  wanted man in her house. The story is known from Palladius alone among the sources this record cites. His Greek form
+  says six years, as long as Constantius lived. The Syriac form tells it with thirty years and the
+  name Constantine, with Budge's parenthetical "(i.e., Constantius)". The "thirty years" cannot be right.
 modern_contrast: >-
   A modern reader will hear a story about a woman being useful to a great man, and will notice that
   she is the only person in it without a name. Both are fair. But notice what the story takes for
@@ -87,7 +97,7 @@ modern_contrast: >-
   his hearers would have read as the point: he says he saved two lives, and puts hers second, but
   he puts it in.
 use_note:
-  means: "Palladius reports that an unnamed Alexandrian virgin hid Athanasius from his enemies, a story the tradition remembered but no other source confirms."
+  means: "Palladius reports that an unnamed Alexandrian virgin hid Athanasius from his enemies, a story whose years differ between Palladius's Greek and Syriac forms and that no independent source confirms."
   not_for:
     - "Dating it, counting its years, or presenting it as an established episode in Athanasius's life"
     - "Naming the woman, whom no source names"
@@ -95,20 +105,15 @@ use_note:
   years: {from: 388, to: 420}
   status: reviewed
 ---
-This record draws on cic/texts/palladius_paradise-v1-syriac_budge1907.txt.
+This record draws on cic/texts/palladius_paradise-v1-syriac_budge1907.txt, with the Greek form in
+cic/texts/palladius_lausiac-history_clarke1918.txt for comparison.
 
-WHY THIS AND NOT A LONGER, BETTER-ATTESTED CHAPTER. Melania the Great's
-chapter is longer and firmer, and desert.quote.melania-to-the-governor
-carries its sharpest moment. This one is told as a story instead because
-of what it does that no other passage in the file does: it puts an
-ascetic woman at the centre of the fourth century's defining
-ecclesiastical conflict, acting, deciding, and going unnamed - which is a
-truer picture of this world's record of its women than either the
-generous framing at chapter xxxv or the silence before it.
+Melania the Great's chapter is longer and firmer, and desert.quote.melania-to-the-governor carries its
+sharpest moment. This one is told as a story because of what it does that no other passage in the file
+does: it puts an ascetic woman at the centre of the fourth century's defining ecclesiastical conflict,
+acting, deciding, and going unnamed. That is a truer picture of this world's record of its women than
+either the generous framing at chapter xxxv or the silence before it.
 
-The chronology is broken and the record says so in three places rather
-than smoothing it, because a story this world tells with a known error
-inside it, marked, is worth more than one it tells cleanly and cannot
-defend.
-
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
+The chronology is broken, and the divergence note, the absent detail and the use note say so. A story
+this world tells with a known error inside it, marked, is worth more than one it tells cleanly and
+cannot defend.

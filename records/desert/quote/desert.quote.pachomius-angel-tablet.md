@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Widely Accepted for the vision's own place in this world's founding narrative, matching desert.story.pachomius-founding's own basis - vendored, hagiographic frame, per desert.source.pachomian-corpus's own standing channel-naming rule and desert.source.palladius-lausiac-history's own AUTHOR GRAVITY note (a hagiographic summary at one remove, not the Rule's own text)."
 sources:
 - source_id: desert.source.palladius-lausiac-history
-  locus: "ch. XXXII - the angel's own opening instruction, in Clarke's translation"
+  locus: "ch. XXXII, section 2 (cic/texts/palladius_lausiac-history_clarke1918.txt line 401) - the angel's own opening instruction, in Clarke's translation"
   license: public-domain
 text: "Thou shalt allow each man to eat and drink according to his strength; and proportionately to the strength of the eaters appoint to them their labours. And prevent no man either from fasting or eating..."
 modern_rendering: >-
@@ -45,23 +45,16 @@ use_note:
   years: {from: 318, to: 346}
   status: reviewed
 ---
-Verified verbatim against the vendored file (ch. XXXII, line
-397). desert.story.pachomius-founding cites this record for the
-tablet's own opening clause, which is verbatim-quotable and carried
-here in full.
+Checked verbatim against the vendored file, ch. XXXII, line 401. The chapter heading is at line 397.
+desert.story.pachomius-founding cites this record for the tablet's opening clause, which is
+carried here in full.
 
-speaker_or_author names only what the text itself supports: ch. XXXII
-narrates entirely in Palladius's own third person ("to him as he sat in
-his cave an angel appeared and said...") and names no informant, unlike
-ch. XXII, where Palladius explicitly names Cronius and Hierax as his
-sources. The angel is the speaker within Palladius's narration; this
-record does not attribute the account to Pachomius's own telling.
-`sources[].locus`, like `text`, compiles directly into `quotes.json`
-(`build_quotes_json()` emits `sources` as well).
+speaker_or_author names only what the text itself supports. Chapter XXXII narrates entirely in
+Palladius's own third person ("to him as he sat in his cave an angel appeared and said...") and
+names no informant, unlike ch. XXII, where Palladius names Cronius and Hierax as his sources.
+The angel is the speaker within Palladius's narration. This record does not attribute the account
+to Pachomius's own telling.
 
-This record carries only the tablet's own opening clause, marked with a
-trailing ellipsis; the tablet's own text continues with further
-instructions (task assignment, cell arrangements) not carried here.
-Verification cannot yet clear past "labours" partway through: the
-source has a page-break marker ("labours. |113 And prevent") that the
-automated verification gate does not strip.
+This record carries only the tablet's opening clause, marked with a trailing ellipsis. The tablet
+continues with further instructions (task assignment, cell arrangements) that are not carried
+here. The edition prints a page-break marker ("labours. |113 And prevent"), which the text leaves out.

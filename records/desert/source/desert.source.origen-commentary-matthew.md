@@ -46,9 +46,9 @@ brother at all, and then the objection he raises against his own
 conclusion, that treating a man as a Gentile and a publican after three
 censures for reviling or over-drinking "would seem to be very harsh".
 
-Set that beside desert.story.moses-leaking-jug, where the elders gather
-at Scetis to judge a brother and Abba Moses arrives carrying a leaking
-jug and will not do it. Origen builds the machinery of correction and
+Set that beside desert.story.moses-leaking-jug, where a gathering is called
+at Scetis to judge a brother and Abba Moses arrives carrying a basket of
+sand with a hole in it and will not do it. Origen builds the machinery of correction and
 then flinches at what it costs; a century later, in the same tradition,
 the desert's most repeated answer is to refuse the procedure outright.
 That is not a contradiction to be resolved. It is two parts of one

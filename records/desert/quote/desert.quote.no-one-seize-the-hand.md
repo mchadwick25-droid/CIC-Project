@@ -4,7 +4,8 @@ world_id: desert-monasticism
 record_type: quote
 schema_version: 2
 status: ready
-register: emic
+register: etic
+voice: analytic
 canon_cells:
 - F3-I
 confidence:

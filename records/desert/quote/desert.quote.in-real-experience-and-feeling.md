@@ -44,6 +44,6 @@ use_note:
   status: reviewed
 ---
 The claim that made the corpus suspect, kept because a world that holds it should be shown holding
-it. desert.dw.god has this world knowing God by 'a long stilling of the passions' - an emptying. This
+it. desert.dw.god has this world knowing God by 'a long quieting of the passions' - an emptying. This
 is the other half of the tradition: a filling, consciously felt. Both are in the corpus now and they
 are not the same claim.

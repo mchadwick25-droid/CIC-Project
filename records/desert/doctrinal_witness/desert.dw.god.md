@@ -17,7 +17,9 @@ sources:
   locus: "SS68 - Antony's own rejection of Arian teaching at his own mountain; SS69 - Antony summoned to Alexandria, publicly teaching the Nicene position"
   license: public-domain
 - source_id: desert.source.evagrius-praktikos
-  locus: "the praktike-apatheia-theoria scheme - the stilled soul's own seeing of God, consult-only"
+  locus: "Praktikos chs. 2 and 64, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt lines 174 and 443) - apatheia as the Kingdom of Heaven, and the nous beholding its own radiance"
+  address: "cic:evagrius_praktikos_dysinger.txt:2,64"
+  license: cc-by-4.0
 retrieval:
   tier: 1
   retrieve_when:
@@ -63,13 +65,13 @@ use_note:
   status: reviewed
 ---
 Joins desert.quote.antony-arians-serpents and desert.quote.antony-
-nicene-formula (the boundary-drawing and, now, the positive-formula
+nicene-formula (the boundary-drawing and the positive-formula
 halves) with desert.term.theoria and desert.term.apatheia (the
 contemplative half, Strand-C-concentrated per desert.gravity.evagrian-
 systematization's own scope). The tension field states plainly that the
 contemplative half is not generalized past its own registered scope.
 
-The text states both the ordinary refusal and the one recorded public
+The text states both the ordinary refusal and the clearest recorded public
 argument (SS69, at episcopal summons), and names
 desert.quote.antony-nicene-formula as this record's own source for the
 positive formula it quotes. positions[1] acknowledges the philosophical
@@ -77,7 +79,6 @@ disputations (SS72-79, SS80) alongside the Arian confrontation, all
 inside the same Vita this record's own sources[] cites, matching
 desert.dw.councils's own scope for the identical claim.
 
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
 
 apatheia is labeled at the quieting-of-passions line: plain meaning
 first, the world's own word after it as a label.

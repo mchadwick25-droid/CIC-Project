@@ -47,29 +47,15 @@ use_note:
   years: {from: 320, to: 430}
   status: reviewed
 ---
-Verified against the vendored Budge at
-line 1160, §542. The file prints "[The sands are]" in square
-brackets - the translator's supplement for an ellipsis in the Syriac; the
-supplement is Budge's, not this world's. The text field keeps those bracket marks, showing Budge's
-supplement exactly as flagged rather than blending it into the sentence.
+Checked against the vendored Budge at line 1160, §542. The file prints "[The sands are]"
+in square brackets. The brackets are the translator's supplement for a gap in the Syriac, so
+the words are Budge's and not Moses's. The text field keeps the brackets to show this.
 
-The narrative around it - a brother's offence at Scete, the summons Moses
-first refused and then obeyed, the basket of sand carried on his
-shoulders - stands at the same locus and is carried by
-desert.story.moses-leaking-jug, which can now be verified against it
-too.
+The narrative around the saying is at the same locus and is carried by
+desert.story.moses-leaking-jug: a brother's offence at Scete, the summons Moses first
+refused and then obeyed, and the basket with a hole in it, filled with sand and carried on his
+shoulders.
 
-Paraphrase, not verbatim quotation, per desert.source.apophthegmata-
-patrum's own hard rule - no vendored edition exists for this source.
-No figure record exists for Abba Moses in this corpus (no comparable
-individually-verified biographical basis to desert.figure.sarah's own),
-so speaker_or_author names him as a plain string rather than an id.
-
-divergence_note carries both halves of desert.source.apophthegmata-patrum's own confidence pairing,
-the "Widely Accepted" half and the unconditional Inferential-Thin bound, matching the standing
-discipline for this exact source. speaker_or_author carries no parenthetical provenance tag; the
-source is already carried in sources[] and divergence_note.
-
-`sources[].locus` also compiles into `quotes.json` (`build_quotes_json()` emits `sources` verbatim),
-so it is written as a plain description: it does not name a sibling record id or use build-process
-or licence-mechanics language.
+The text is verbatim for Budge's edition. Whether the saying reaches back to Moses himself is
+the compilers' claim, not something the edition shows. No figure record exists for Abba Moses
+in this corpus, so speaker_or_author names him as a plain string.

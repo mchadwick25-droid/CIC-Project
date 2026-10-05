@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the staged chronology as a general pattern, matching Doc_01 SS2.1's own treatment of it as well-established; Contested for incident-level detail, on the same basis as desert.story.antony-call. The specific dates below (c. 286 for the fort; c. 305 emerging; c. 311-313 to the inner mountain) and the inner mountain's own location (between the Nile and the Red Sea) are Doc_01 SS2.1's own claims, not independently re-derived from the Vita's own text, which does not itself supply calendar years or that geographic description - the Vita's own SS49-50 gives only a three-day journey, a lofty mountain, a spring, a plain and palm trees."
+  divergence_note: "Widely Accepted for the staged chronology as a general pattern, matching Doc_01 SS2.1's own treatment of it as well-established; Contested for incident-level detail, on the same basis as desert.story.antony-call. The story's text carries no calendar years. Doc_01 SS2.1 dates the fort to c. 286, the emergence to c. 305 and the move to the inner mountain to c. 311-313, and places the mountain between the Nile and the Red Sea. The Vita supplies none of these. Its SS49-50 gives only a three-day journey, a lofty mountain, a spring, a plain and palm trees."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS3-4 - the older ascetic near his own village; SS12-13 - crossing to the abandoned fort across the river and dwelling there, the crowds gathering outside; SS49-50 - the later withdrawal to the inner mountain, seeking greater solitude from those same crowds"
@@ -35,7 +35,8 @@ narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative), same basis as desert.story.antony-call: named author, contemporary-generation text. The staged pattern (village edge, then a place of greater withdrawal, then greater withdrawal again once the first place stopped being solitary) is the narrative's own repeated structure, not a single incident."
 tellable_as: "not a single departure but a lifelong deepening - each time solitude drew a crowd, going further"
 text: >-
-  Withdrawal was not one act for us. It was repeated. Antony began close to
+  Withdrawal was not one act for us. It was repeated. This happened in Antony's
+  earlier life, before our years begin. Antony began close to
   home, seeking out and copying an old man already living a solitary life near
   his village. From there he moved further, until he found an abandoned fort
   across the river, long deserted and overrun. He crossed over and shut
@@ -61,34 +62,19 @@ use_note:
   years: {from: 270, to: 313}
   status: reviewed
 ---
-Re-derived from the prior build's cleared Doc_09a Story 1.2. SS3-4 and
-SS12-13 verified directly against the vendored file this session
-(matching desert.force.village-ascetic-culture's own SS3-4 locus and
-the general topography narrated at SS12-13 - the abandoned fort, the
-crowds outside). SS49-50 (the inner mountain) was also opened directly
-this pass: it gives a three-day journey, a lofty mountain, a spring, a
-plain and palm trees, but no coastal or riverine placement and no
-calendar year - the "between the Nile and the Red Sea" description and
-the specific dates are Doc_01 SS2.1's own claims, now cited as such in
-divergence_note rather than left implied to come from the Vita itself.
+SS3-4 and SS12-13 are checked directly against the vendored file (they match
+desert.force.village-ascetic-culture's SS3-4 locus and the general topography narrated at SS12-13: the
+abandoned fort and the crowds outside). SS49-50, the inner mountain, gives a three-day journey, a lofty
+mountain, a spring, a plain and palm trees, but no coastal or riverine placement and no calendar year.
+The "between the Nile and the Red Sea" description and the dates are Doc_01 SS2.1's claims, as the
+divergence note says.
 
-The confidence block attributes "between the river and the sea" and
-the specific dates to Doc_01 SS2.1, not to Vita SS49-50, which does not
-carry them. The text matches both the Vita ("imitated him in piety,"
-Vita SS3) and desert.force.village-ascetic-culture's own wording
-("sought out and modeled himself on"). The compiled `text` field marks
-the placement as report rather than firsthand narration, and gives what
-the Vita itself actually supplies (the three-day journey, the mountain,
-the spring, the palms) alongside it, matching the standing rule that a
-source's or attribution's own caveat travels with the compiled field
-carrying the claim, not only with an uncompiled note. The F5-P-01 cost
-reading is stated in the compiled text field itself.
+The text matches the Vita ("imitated him in piety," Vita SS3) and desert.force.village-ascetic-culture's
+wording ("sought out and modeled himself on"). The text marks the placement of the mountain as later
+report and gives what the Vita itself supplies alongside it, so the caveat travels with the field that
+carries the claim. The cost of belonging (F5-P-01) is stated in the text itself.
 
-Formation significance: the paradigm instance of
-desert.gravity.withdrawal as an intensifying practice rather than a
-single decisive break - directly answering F4-I ("How did a person
-actually become one of you? Walk me through it.") with the process
-itself, and F5-P-01 ("Did belonging cost you anything - family,
-friends, standing?"), now answered in the compiled text directly.
-
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
+Formation significance: the paradigm instance of desert.gravity.withdrawal as an intensifying practice
+rather than a single decisive break. It answers F4-I ("How did a person actually become one of you?
+Walk me through it.") with the process itself, and F5-P-01 ("Did belonging cost you anything - family,
+friends, standing?").
