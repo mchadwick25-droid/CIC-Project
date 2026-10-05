@@ -7,6 +7,17 @@ name: CI
 # would have been caught by neither check on its own - that gap is real and
 # is Wave 3's Playwright-in-CI item (P1-8), not this workflow's job.
 
+# Minutes cut, 2026-10-05. Origin: about 17,700 billed minutes in the first
+# five days of October (runs API, 510 runs; mean full run 17 minutes, up
+# from 6.5 in September as the suite grew). Three changes, nothing dropped
+# from pull requests: (1) no run on push to main - every merge re-ran the
+# thirteen jobs the pull request had already passed, 32% of October's
+# minutes; the push to live (the promotion) still runs everything; (2) a
+# timeout on every job, since none had one and a hung job bills six hours;
+# (3) the engine suite's long pytest steps run on every runner core with
+# pytest-xdist. Render's staging service stops auto-deploying on every
+# merge in the same change (render.yaml).
+#
 # Job-count/draft-PR consolidation, 2026-09-23. Origin: real GitHub Actions
 # billing overage ($75 over the plan this cycle by 14:00Z), diagnosed via
 # the runs API against a real full run (main 9da9bec5): actual runner time
@@ -60,7 +71,7 @@ name: CI
 
 on:
   push:
-    branches: [main, live]
+    branches: [live]
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
 
@@ -113,6 +124,7 @@ jobs:
   changes:
     name: Detect changed paths
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     # dorny/paths-filter@v3 calls the GitHub API's listFiles on pull_request
     # events (not a local git diff), which needs pull-requests: read. An
     # explicit permissions: block REPLACES the default token grant entirely,
@@ -246,6 +258,7 @@ jobs:
     if: needs.changes.outputs.census == 'true'
     name: Validate world-census.json
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -267,6 +280,7 @@ jobs:
   check-paths:
     name: Cited paths resolve; retired paths absent
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -283,6 +297,7 @@ jobs:
   live-commentary:
     name: Live-surface commentary (files this PR edits)
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
@@ -304,6 +319,7 @@ jobs:
     if: github.event_name == 'pull_request' && needs.changes.outputs.worldgates == 'true'
     name: World gates (records, regate)
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -338,6 +354,7 @@ jobs:
     if: needs.changes.outputs.library == 'true' || needs.changes.outputs.engine == 'true'
     name: Library validators
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -374,6 +391,7 @@ jobs:
     if: needs.changes.outputs.engine == 'true' && (github.event_name != 'pull_request' || github.event.pull_request.draft == false || needs.changes.outputs.worldgates == 'true')
     name: Engine test suite (M1-M6, M8, provider, canon, prose, api)
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -395,6 +413,7 @@ jobs:
       - run: pip install -r engine/provider/requirements.txt
       - run: pip install -r engine/m8/requirements.txt
       - run: pip install -r engine/api/requirements.txt
+      - run: pip install pytest-xdist
       # Compiled packages are derived and not in git (see .gitignore);
       # rebuild the pinned ones from records once, up front - M3, M4, M2
       # compiler checks, and engine/api tests below all read package bytes
@@ -436,7 +455,7 @@ jobs:
       # deliberately left "deferred-to-stage-4". Runs on
       # FixtureRecordAnswerer (a deterministic, no-model stand-in) - no
       # live model call, no cost.
-      - run: python -m pytest engine/m3/tests -q
+      - run: python -m pytest engine/m3/tests -q -n auto
       # Every admitted or open world has a committed live admission report
       # on the package hash the registry pins, passing every sealed probe
       # or covered by a ruling in engine/m3/admission_rulings.yaml.
@@ -451,10 +470,10 @@ jobs:
       # though the modules under test make real Bedrock calls when
       # actually run; the real calls themselves are by-hand evidence
       # runs, never CI.
-      - run: python -m pytest engine/m4/tests -q
+      - run: python -m pytest engine/m4/tests -q -n auto
       # The engine shape segment: one segment for every world, pinned by
       # SHAPE_HASH; it refuses to load when the hash and the segment disagree.
-      - run: python -m pytest engine/shape/tests -q
+      - run: python -m pytest engine/shape/tests -q -n auto
 
       # M5 Facilitator gate routing + failure semantics. Added stage 5
       # (partial). The Facilitator gate's deterministic routing merge and
@@ -482,8 +501,8 @@ jobs:
       - run: python -m pytest "engine/api/tests/test_deeper_proofs.py::test_every_named_proof_exists_and_none_is_skipped_or_expected_to_fail" -q
 
       # M7 audit and per-turn readability; M10 build gates.
-      - run: python -m pytest engine/m7 -q
-      - run: python -m pytest engine/m10 -q
+      - run: python -m pytest engine/m7 -q -n auto
+      - run: python -m pytest engine/m10 -q -n auto
 
       # M2 compiler checks (determinism, stub loader). Added stage 2 (M2
       # compiler, Artifact-2). Covers two of the stage-2 gate's three legs
@@ -491,7 +510,7 @@ jobs:
       # verified by a stub loader". The third leg - staleness - needs a
       # real committed package to recompile against; see
       # staleness-and-confinement below.
-      - run: python -m pytest engine/m2/tests -q
+      - run: python -m pytest engine/m2/tests -q -n auto
 
       # M6 census sync check (Atlas connection). The Atlas connection
       # (Build-Blueprint.md row 8): world-census.json's registry-derivable
@@ -505,9 +524,9 @@ jobs:
       # engine/api tests (mocked Bedrock, fixture world). A fake Bedrock
       # client + the real committed fixture-world package, never a live
       # AWS call.
-      - run: python -m pytest engine/api/tests -q
+      - run: python -m pytest engine/api/tests -q -n auto
       # The same suite again with Go Deeper mounted on every test app.
-      - run: CIC_TEST_DEEPER=1 python -m pytest engine/api/tests -q
+      - run: CIC_TEST_DEEPER=1 python -m pytest engine/api/tests -q -n auto
 
   # M2 staleness and M9 confinement, merged 2026-09-23 (see top-of-file
   # comment). Deliberately kept separate from engine-tests above: both
@@ -521,6 +540,7 @@ jobs:
     if: (needs.changes.outputs.engine == 'true' || needs.changes.outputs.library == 'true' || needs.changes.outputs.worldgates == 'true') && (github.event_name != 'pull_request' || github.event.pull_request.draft == false || needs.changes.outputs.worldgates == 'true')
     name: M2 staleness + M9 confinement
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -575,6 +595,7 @@ jobs:
     if: needs.changes.outputs.crossworld == 'true'
     name: Cross-world needs-ruling generator tests
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -596,6 +617,7 @@ jobs:
     if: needs.changes.outputs.checkertests == 'true'
     name: Live-surface commentary checker tests
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -630,6 +652,7 @@ jobs:
     # `docker` filter above. On push (main/live): always.
     name: Docker build (engine/Dockerfile)
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: docker/setup-buildx-action@v3
@@ -665,6 +688,7 @@ jobs:
     # `draft` field to check.
     name: Frontend tests (vitest)
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: cic-poc/frontend
@@ -697,6 +721,7 @@ jobs:
     # moment the first world_front record and its compiled JSON both exist.
     name: Site staleness sweep (world_front-compiled JSON)
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -730,6 +755,7 @@ jobs:
     # uses), never on the one pre-existing, already-known instance.
     name: No new embedded-world-data anti-pattern (cic-website)
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

@@ -219,6 +219,9 @@ services:
   - type: web
     name: cic-engine-staging
     branch: main
+    # Deploys by a click or a deploy hook, not on every merge to main
+    # (2026-10-05: build minutes tracked the merge rate, about 280 a week).
+    autoDeploy: false
     runtime: docker
     dockerfilePath: ./engine/Dockerfile
     dockerContext: .
