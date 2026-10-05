@@ -237,9 +237,9 @@ def daily_cap_turn(limit_text: str | None = None) -> dict:
 
 # --- Table variants (Artifact-7 SS1-2; C1: fixed
 # templates parameterized by the seated worlds, never a live facilitator
-# generation). DRAFT TEXT, not yet approved. The interview
-# texts above are untouched; a table session simply calls these instead
-# where the interview's text names exactly one representative.
+# generation). The Table's turn cap shares the one approved line above; the
+# other Table texts here are DRAFT, not yet approved. A table session calls
+# these instead where the interview's text names exactly one representative.
 
 
 def names_or_phrase(names: list[str]) -> str:
