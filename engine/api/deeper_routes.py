@@ -235,6 +235,12 @@ def _record_funds(runtime: DeeperRuntime, kind: str, session: dict) -> None:
         logger.error("paid checkout amount out of range; not counted toward the door")
 
 
+# What a working purchase, replay, gift or full refund returns. These leave no log line: a
+# line for a purchase would carry the moment it was made beside a "session created" line in
+# the same stream. The day's counts live in the meter's own tallies, not in the log.
+ROUTINE_OUTCOMES = frozenset({"minted", "replayed", "gift_counted", "voided"})
+
+
 def handle_event(runtime: DeeperRuntime, event: dict) -> str:
     kind = event.get("type")
     obj = _object(event)
@@ -455,7 +461,8 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         if not isinstance(event, dict):
             raise HTTPException(status_code=400, detail="bad payload")
         outcome = await run_in_threadpool(handle_event, runtime, event)
-        logger.info("webhook handled type=%s outcome=%s", event.get("type"), outcome)
+        if outcome not in ROUTINE_OUTCOMES:
+            logger.info("webhook handled type=%s outcome=%s", event.get("type"), outcome)
         return {"received": True}
 
     @app.options("/api/deeper/claim")
