@@ -16,3 +16,8 @@ def test_both_build_switches_are_declared_and_exported_before_the_frontend_build
 
 def test_the_switches_default_to_off_so_an_unset_service_builds_the_module_dark():
     assert 'ARG VITE_DEEPER_ENABLED=""' in DOCKERFILE
+
+
+def test_the_build_log_prints_whether_the_switch_arrived_before_the_frontend_build():
+    echo = DOCKERFILE.index("RUN echo \"Go Deeper app build: VITE_DEEPER_ENABLED=")
+    assert DOCKERFILE.index('ARG VITE_DEEPER_ENABLED=""') < echo < DOCKERFILE.index("RUN npm run build")
