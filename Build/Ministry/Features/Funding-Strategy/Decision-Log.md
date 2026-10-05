@@ -1533,7 +1533,8 @@ conversation on. Free use without an account is unchanged.
 Ruled:
 - Sign-in is an emailed one-time code or link. No password exists.
 - The account store keeps a scrambled value of the address under a server
-  secret, never the address. No file on our disk names anyone. We cannot write
+  secret, never the address. We store no name or address of our own; what a
+  person types is kept as they typed it. We cannot write
   to an account holder; a closure refund goes through Stripe.
 - An account holds the codes that hold its tokens, the list of its
   conversations, and its allowance. Its free allowance is the visitor's
@@ -1581,7 +1582,7 @@ Plan: Accounts Build Plan (artifact). Analysis: Go Deeper Accounts Review
 (artifact). The Opus thread attacks the account store as a join before the
 shelf slice merges.
 
-A6 proofs added by these modifications: the account file's bytes hold no value that appears in a webhook payload other than the payment id; and the account file's bytes contain no meter code hash. Both join the other named A6 proofs and are guarded the same way.
+A6 proofs added by these modifications: the account file's bytes hold no value that appears in a webhook payload other than the payment id; and the account file's bytes contain no meter code hash and no payment id. Both join the other named A6 proofs and are guarded the same way.
 
 Pages: Go Deeper Accounts Review, `https://claude.ai/artifact/NTTKUrGeKJ73nYkcPNfhjJ`; Accounts Build Plan, `https://claude.ai/artifact/GHerMTQjcKNkLKM1GrvK83`.
 
