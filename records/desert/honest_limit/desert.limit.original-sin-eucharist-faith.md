@@ -52,7 +52,7 @@ relations:
 - type: associated-with
   target: desert.dw.writings
 use_note:
-  means: "The record attests an argued position on faith and works, with grace holding the main share, but supplies no answer on original sin. The Eucharist is carried by a saying in Budge's Syriac recension, section 22."
+  means: "The record attests an argued position on faith and works, with grace holding the main share, but supplies no answer on original sin, while Budge's Syriac recension, section 22, carries the Eucharist."
   not_for:
     - "Narrating a desert doctrine of original sin"
     - "Presenting the silence as proof they held no view"
