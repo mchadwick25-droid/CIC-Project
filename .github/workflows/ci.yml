@@ -15,7 +15,9 @@ name: CI
 # minutes; the push to live (the promotion) still runs everything; (2) a
 # timeout on every job, since none had one and a hung job bills six hours;
 # (3) the engine suite's long pytest steps run on every runner core with
-# pytest-xdist.
+# pytest-xdist. Same day, second cut: the compiled packages are cached
+# across runs; M9's tests run in parallel; the M9 command-line check is
+# its own job so it no longer waits behind the tests.
 #
 # Job-count/draft-PR consolidation, 2026-09-23. Origin: real GitHub Actions
 # billing overage ($75 over the plan this cycle by 14:00Z), diagnosed via
