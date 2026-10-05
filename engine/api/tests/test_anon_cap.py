@@ -5,6 +5,7 @@ and a default app doesn't - same shape as test_ratelimit.py."""
 import pytest
 
 from engine.api.anon_cap import COOKIE_NAME, DailyVisitorLimiter, issue_token, verify_token
+from engine.m4 import facilitator_turns
 
 
 def test_issued_token_verifies_with_the_right_secret():
@@ -280,7 +281,7 @@ def test_a_message_over_the_daily_cap_closes_the_session_through_the_facilitator
     assert resp.status_code == 200
     body = resp.json()
     assert body["routing_action"] == "session_cap_turn"
-    assert "today's limit" in body["facilitator"]["text"]
+    assert body["facilitator"]["text"] == facilitator_turns.CAP_CLOSE_TEXT
     assert _send(http, created).status_code == 409
 
 
