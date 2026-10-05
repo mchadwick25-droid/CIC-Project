@@ -149,5 +149,4 @@ because Doc_08's own verb is 'the direct engine of T2' and Doc_08 states that th
 tension's entire evidentiary base IS the Maximianist affair - a founding relation, not a shaping
 one. Reciprocal precondition-for declared on don.force.maximianist-fracture. A HOMONYM HAZARD KEPT
 IN VIEW (world_core caution 7): the Maximian of this schism, a deposed deacon of 393, is a different
-person from the martyr Maximian of the Passio Isaac et Maximiani. Canon_cells left empty, matching
-this world's gravity and force records generally.
+person from the martyr Maximian of the Passio Isaac et Maximiani. Canon cell F6-I, what troubled you about your own community: the record names a tension this community left unresolved.

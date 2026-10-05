@@ -32,7 +32,7 @@ sources:
   locus: Petilian's own quoted argument for the practice - Registry rows 4, 12
   license: public-domain
 - source_id: don.source.petilian-of-constantina-letters-quoted
-  locus: "npnf104_augustine-anti-manichaean-anti-donatist.xml, Answer to the Letters of Petilian I.1-2 (lines 15368 and 15376) - Petilian's own words, quoted by Augustine: the one baptized from a tainted hand receives nothing, so the Donatists confer what was wanting rather than repeat what was there"
+  locus: "npnf104_augustine-anti-manichaean-anti-donatist.xml, Answer to the Letters of Petilian I.1-2 - line 15368 is Augustine's paraphrase (the Donatists do not repeat baptism but confer what hitherto was wanting); line 15376 quotes Petilian's own words ("what we look for is the conscience of the giver"; "receives not faith, but guilt")"
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
   locus: successive edicts naming rebaptism of Catholics specifically as a legal offence
@@ -128,8 +128,8 @@ manifestations:
 - the enacted threshold crossed once and bodily - baptism given by a hand of unbroken standing, held to be
   the first true baptism a person ever received
 - On Baptism and Answer to the Letters of Petilian, both devoted substantially to this practice
-- Petilian of Constantina's own argument, quoted in Augustine's Answer - a baptism from a tainted hand gives no
-  baptism, so the one who comes over is given what was wanting, not a repetition
+- the practice as Petilian of Constantina argues it in Augustine's Answer - the one who comes over is given
+  baptism, not a repetition of it
 - successive imperial edicts naming rebaptism of Catholics specifically as a targeted legal offence
 - the Council of Carthage 419 canons on receiving Donatist clergy, whose content depends on this norm
 - the Maximianist clergy received back without repeated baptism - the exception that presupposes the norm
@@ -161,5 +161,4 @@ by (Doc_08's own verb is 'grounds ... G2 directly', with the explicit disambigua
 grounds the institutional form rather than this rite), reciprocal precondition-for declared on that
 force record; 2A-1 and 2B-1 as associated-with. Gregory's Register is partially vendored (Registry
 row 54). Doc_02 SS7's own current, narrower hedge is the operative restraint on what the 592-594
-letters may be used to claim. Canon_cells left empty, matching this world's gravity and force
-records generally.
+letters may be used to claim. Canon cell F4-I, how a person became one of you: the rite of entry is how a person crossed into this communion.

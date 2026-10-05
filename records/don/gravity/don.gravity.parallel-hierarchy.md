@@ -173,5 +173,4 @@ for G4'), reciprocal precondition-for declared on that force record; the other f
 with. Note that Doc_04 SS3.4's own forces-connection names Cells 1B, 2B and 3A; Doc_08 adds 3B-1,
 and does so with its own stated reason at SS5 - the attrition force names the specific limit on what
 this construction can claim about the hierarchy's later life - so the addition is Doc_08's own
-textually-grounded finding, not an inference made here. Canon_cells left empty, matching this
-world's gravity and force records generally.
+textually-grounded finding, not an inference made here. Canon cell F3-I, who held authority: the rival line of bishops is who held authority in this community.

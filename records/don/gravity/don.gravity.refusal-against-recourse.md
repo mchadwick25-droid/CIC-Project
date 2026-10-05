@@ -34,7 +34,7 @@ sources:
     the third instance
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
-  locus: "Answer to the Letters of Petilian II.92 (npnf104_augustine-anti-manichaean-anti-donatist.xml, line 17671) - Augustine holds the petition the Donatists' forebears presented to Julian, and (line 17431) names Julian's restoring the churches to them, the second instance"
+  locus: "Answer to the Letters of Petilian, chapter 93 (npnf104_augustine-anti-manichaean-anti-donatist.xml, line 17671) - Augustine holds the petition the Donatists' forebears presented to Julian; and chapter 84 (line 17431) - Augustine names Julian's restoring the churches to them. The second instance"
   license: public-domain
 - source_id: don.source.augustine-letter-51-to-crispinus
   locus: "Letter 51.3 (npnf101_augustine-confessions-letters.xml, lines 29536-29548) - the Maximianists driven from their buildings by judges, edicts and soldiers, the third instance"
@@ -141,5 +141,4 @@ precondition-for declared on that force record; 2A-1 and 2B-4 as associated-with
 of the two later instances. Doc_08 SS5's own 'What Forces Analysis Adds' records that laying the
 three instances across Cells 1B, 2A and 2B in sequence surfaces a pattern gravity discovery alone
 did not make as visible: each instance occurs exactly when the external force briefly offered
-something to gain. Canon_cells left empty, matching this world's gravity and force records
-generally.
+something to gain. Canon cell F6-I, what troubled you about your own community: the record names a tension this community left unresolved.

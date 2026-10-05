@@ -72,7 +72,7 @@ description: >-
   least at risk of reflecting a single author's concerns.
 
   It is the conviction of being the pure, persecuted, true church, proved true by what it has
-  suffered. It lives in yearly commemoration at the grave and in sermons preached on martyrs'
+  suffered. It lives in yearly commemoration in the basilica where they lie and in sermons preached on martyrs'
   anniversaries. It lives in the Passio literature and in the Deo laudes acclamation.
 
   The risk that this pattern reflects one author's view is low. It rests on the strongest evidence
@@ -135,7 +135,7 @@ description: >-
   Macarian repression produced two Passiones. The earlier, less-attested persecution under
   Leontius and Ursacius produced the sermon.
 manifestations:
-- the annual commemoration at the grave on the appointed day, the account read aloud - the anniversaria commemoratio
+- the annual commemoration in the basilica where the martyrs lie buried (PL8 lines 533-537), on the appointed day, the account read aloud - the anniversaria commemoratio
   the Passio Donati sermon's own admonitio describes, kept on the fourth day before the Ides of March, the twelfth
 - the Passio Marculi and the Passio Isaac et Maximiani, the two best-attested Passiones, following the Macarian
   repression of 347-348; in the Passio Marculi, Marculus tells the brothers with him of the cup, the crown and
@@ -146,7 +146,7 @@ manifestations:
 - the named martyred clergy - a bishop of Sicilibba wounded, the bishop of Advocata killed
 - new commemorative text production after each persecution episode, rather than a single founding memory
 use_note:
-  means: "The conviction of being the persecuted true church, proved by suffering, is a central pattern lived in yearly graveside commemoration, the Passio texts and the Deo laudes stones, resting on Donatist voice more than any other."
+  means: "The conviction of being the persecuted true church, proved by suffering, is a central pattern lived in yearly commemoration, the Passio texts and the Deo laudes stones, resting on Donatist voice more than any other."
   not_for:
     - "a claim that this pattern reaches us only through Augustine or other hostile sources"
     - "a claim about the refusal of the state's authority as such, which the martyrs died for but which sits in don.gravity.refusal-of-imperial-legitimacy"
@@ -182,5 +182,4 @@ Monceaux dates it to 12 March 317 with composition c. 320 and proposes an eyewit
 of Carthage as preacher - two vendored authorities disagreeing, neither adopted, so no settled date
 or author is cited for it anywhere in this record; and the Passiones do not date themselves, the
 Passio Marculi's own heading giving a day and no year, with the 347-348 Macarian dating resting on
-standard field literature rather than on the texts. Canon_cells left empty, matching this world's
-gravity and force records generally.
+standard field literature rather than on the texts. Canon cell F5-P, what belonging cost: the martyrs' deaths and their yearly commemoration are what this community paid and remembered.
