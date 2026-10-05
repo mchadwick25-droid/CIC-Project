@@ -2444,7 +2444,7 @@ Body notes of the edited records that carried build narration are restated as pl
 
 Still open:
 
-- Three witt waivers in `engine/m9/enforce.py` are stale, confirmed by running the gates, and the change is pending a decision by the project lead, not yet made: `m1:readability/witt` 194 to 188, `m1:cells-required/witt` 50 to 49, and `m1:use-note-present/witt` deleted.
+- Three witt waivers in `engine/m9/enforce.py` were stale, confirmed by running the gates, and are changed on this branch with the project lead's approval (2026-10-05): `m1:readability/witt` 194 to 188, `m1:cells-required/witt` 50 to 49, and `m1:use-note-present/witt` deleted.
 - `witt.contested.1543-treatise-later-effect` has no use_note. Whether an analytic record gets one, and how its years are set, is not decided.
 - `witt_Doc_09_Story_Inventory.md` still dates witt-S07 "(1526)" in its index table and calls the Brussels monks "Augustinian-house monks" (line 105). Approved construction documents are not edited here, so the corrections belong to a later change order.
 - `witt.contested.household-catechism-reception` cannot say whether the founder's testimony describes the real state of Saxon parishes, because the visitation protocols are not in the library.
