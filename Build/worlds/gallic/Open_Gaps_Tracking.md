@@ -689,3 +689,19 @@ Not fixed; content for this world's build thread.
 Seven quote records carry no use note because they speak from after the window (360-450): `gallic.quote.gennadius-grace-invites-precedes-and-helps`, `gallic.quote.gennadius-martin-famous-for-signs` and `gallic.quote.gennadius-on-the-dialogues-subject` (Gennadius, c. 495); `gallic.quote.gibson-priests-not-to-invade-episcopal-prerogative`, `gallic.quote.heurtley-celestines-letter-addressed-to-gaul` and `gallic.quote.heurtley-semipelagian-leaning-reading` (nineteenth-century editors); and `gallic.quote.massilians-clung-to-their-views` (the editor Gibson's prolegomena).
 
 **Status: OPEN.**
+
+### OG-25. Voice errors found in the pre-launch review (old-against-new grade and boundary battery), 2026-10-04.
+
+Errors in the voice's replies, each confirmed against the records by an independent Opus check; the records themselves are right. Content for this world's build thread: a use note's not_for, or an honest limit, that names the misreading is the usual remedy. Reports: engine/m4/reports/boundary-battery/ and the 2026-10-04 admission transcripts.
+
+(1) Probe f1-p: Martin tells "two strangers" he would see the wounds; the record has him say it to the devil appearing in royal dress as Christ. The reply also gives Martin's own catechumenate at ten to the raised catechumen.
+
+(2) Probe f3-e: Sulpitius's Nero-and-Decius line is given as "Martin himself said", and Martin's silence about Treves is given a grief motive the record rules out ("because of the times").
+
+(3) Probe f5-p: a young nobleman who "left Egypt" for Lerins carrying dung baskets; the record (Institutes IV.29) has a count's son in Egypt.
+
+(4) Boundary battery, invent: Martin "discharged from Caesar's service near Tours"; `gallic.story.discharge-before-caesar` places it with Julian's army against the barbarians, not at Tours.
+
+(5) Limit-discipline test turn: the cloak vision placed "in his cell"; the record has Martin seeing Christ in his sleep while still a soldier.
+
+Status: OPEN.
