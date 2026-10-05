@@ -4,7 +4,7 @@ from datetime import date
 import pytest
 
 from engine.deeper import codes
-from engine.deeper.meter import AlreadyMinted, Meter, PaymentVoided, week_of
+from engine.deeper.meter import NOTE_KINDS, AlreadyMinted, Meter, PaymentVoided, week_of
 
 
 class Clock:
@@ -341,7 +341,7 @@ def test_reserve_refuses_a_count_below_one(meter):
 def test_funds_add_by_kind_and_sum_over_the_last_seven_days(meter):
     meter.add_funds("gift", 2500, "pi_a")
     meter.add_funds("purchase", 700, "pi_b")
-    meter.add_funds("adjustment", 1000, note="friends and family")
+    meter.add_funds("adjustment", 1000, note="cash gift")
     meter.add_funds("adjustment", -200, note="correction")
     assert meter.net_funds() == {"gift": 2500, "purchase": 700, "adjustment": 800}
 
@@ -356,7 +356,7 @@ def test_a_payment_adds_once_and_a_voided_one_adds_nothing(meter):
 
 def test_voiding_a_payment_or_reversing_an_entry_takes_it_out_of_the_sum(meter):
     meter.add_funds("gift", 2500, "pi_a")
-    entry = meter.add_funds("adjustment", 1000, note="x")
+    entry = meter.add_funds("adjustment", 1000, note="correction")
     assert meter.void_funds("pi_a") == 1 and meter.void_funds("pi_a") == 0
     assert meter.reverse_funds(entry) and not meter.reverse_funds(entry)
     assert meter.net_funds() == {"gift": 0, "purchase": 0, "adjustment": 0}
@@ -385,6 +385,15 @@ def test_funds_older_than_the_window_leave_the_sum_and_are_purged_later(tmp_path
     meter.purge()
     assert meter.list_funds(days=365) == []
     meter.close()
+
+
+def test_a_funds_note_is_one_of_the_listed_kinds_and_a_typed_name_is_refused(meter):
+    for note in NOTE_KINDS:
+        assert meter.add_funds("adjustment", 100, note=note)
+    for typed in ("Jane Doe", "church gift, cash", "", "Cash Gift", "x" * 300):
+        with pytest.raises(ValueError):
+            meter.add_funds("adjustment", 100, note=typed)
+    assert {entry["note"] for entry in meter.list_funds(days=365)} == set(NOTE_KINDS)
 
 
 def test_the_funds_table_holds_no_code_hash_and_no_note_of_a_buyer(meter):
