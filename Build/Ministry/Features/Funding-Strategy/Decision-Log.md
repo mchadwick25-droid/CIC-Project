@@ -1553,9 +1553,13 @@ Ruled:
   case the project lead approves. Nothing is stated at purchase until checked.
 - Decision 19's three unjoinable stores stand for everyone without an account.
   For an account holder the account store is, by design, the join between
-  tokens and conversations. What remains unjoinable: the files at rest and
-  their backups hold no address and no name; joining an account to a person
-  needs the server's secret and Stripe together. The privacy page states this.
+  tokens and conversations. The account store never holds a value the meter
+  or Stripe also holds: a code is linked to an account only as a keyed
+  scramble of its hash under CIC_ACCOUNTS_KEY, so joining an account to a
+  person needs that secret as well as the payment id and Stripe. We store no
+  name or address of our own; what a person types in a conversation is kept as
+  they typed it. The privacy page states this in the same words.
+  (Modification by Mark, 2026-10-05, after Opus's read of this change order.)
 - Stripe's information stays with Stripe. The program keeps nothing Stripe
   holds about a buyer: no name, email, card, address or receipt detail. The
   webhook reads only the link, the paid status, the purchase reference, the
@@ -1577,7 +1581,7 @@ Plan: Accounts Build Plan (artifact). Analysis: Go Deeper Accounts Review
 (artifact). The Opus thread attacks the account store as a join before the
 shelf slice merges.
 
-A6 proof added by this modification: the account file's bytes hold no value that appears in a webhook payload other than the payment id. The proof joins the other named A6 proofs and is guarded the same way.
+A6 proofs added by these modifications: the account file's bytes hold no value that appears in a webhook payload other than the payment id; and the account file's bytes contain no meter code hash. Both join the other named A6 proofs and are guarded the same way.
 
 Pages: Go Deeper Accounts Review, `https://claude.ai/artifact/NTTKUrGeKJ73nYkcPNfhjJ`; Accounts Build Plan, `https://claude.ai/artifact/GHerMTQjcKNkLKM1GrvK83`.
 
