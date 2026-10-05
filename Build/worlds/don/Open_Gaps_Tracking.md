@@ -903,7 +903,7 @@ Still open:
 - OG-24, `don.gravity.circumcellion-agonistici`: whether the Numidian concentration is a sub-ecology is a Doc_05 classification question the sources cannot settle.
 - Doc_04 (line 173) says the Bagai and Cebarsussi sentences are "quoted directly in Augustine's primary text"; the vendored English quotes only the Bagai decree, and only in Answer to Petilian. Correcting it means clearing that document's open-item lines in the same change.
 
-Pending waiver changes in `engine/m9/enforce.py` (not edited here; the m9 run names them):
+Waiver changes in `engine/m9/enforce.py` named by the m9 run, made on this branch with the project lead's approval (2026-10-05):
 
 - Line 171, `m1:readability/don`: `count=330` becomes `count=313`.
 - Line 193, `m1:status-ready/don`: `count=25` becomes `count=21`.
