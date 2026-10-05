@@ -40,8 +40,8 @@ senses:
   informational: To call someone praeceptor was to name a specific, structured relationship - the
     particular person under whom one learned grammar, or Hebrew, or scriptural method - not a general
     influence but a named bond with a specific person.
-  evidential: Jerome refers to Donatus by name as his own master, in the Apology against Rufinus; the same
-    word praeceptor is applied, on weaker evidence, to his own later direction of study at Bethlehem.
+  evidential: Jerome refers to Donatus by name as his own master, in the Apology against Rufinus; the
+    term praeceptor is applied, on weaker evidence, to his own later direction of study at Bethlehem.
   personal: Someone formed under a praeceptor did not describe their education as self-taught - they
     named the person who taught them, decades later, by title.
   translational: "Roughly consistent with a modern \"teacher\" or \"mentor,\" though the bond named by\

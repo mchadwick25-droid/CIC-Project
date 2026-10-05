@@ -27,13 +27,13 @@ modern_rendering: >-
   seat of the Judge. The light was so bright, and the people standing
   around so radiant, that I threw myself on the ground and did not dare
   look up. I was asked who and what I was. I answered: 'I am a
-  Christian.' But the one presiding spoke. At once I went silent. And
-  amid the strokes of the lash, I was tortured more severely still by
-  the fire of conscience. He had ordered me to be scourged.
+  Christian.' But the one presiding said: ... At once I went silent.
+  Amid the strokes of the lash (he had ordered me to be scourged), I was
+  tortured more severely still by the fire of conscience...
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-
-  The accusation is not that reading Cicero is sinful. It is that a man may be able to say "I am a Christian" truthfully about his beliefs and untruthfully about where his attention actually lives - 'where thy treasure is'. That is a question about attention rather than doctrine, which is why it still reaches a modern reader who has never opened Cicero.
+  The scene is told from inside: the dreamer is dragged, questioned and scourged, and the words that condemn him are cut from this record and sit in hal.quote.dream-follower-of-cicero. What stays here is his silence and the fire of conscience, which hurts more than the lash.
 retrieval:
   tier: 1
   retrieve_when:

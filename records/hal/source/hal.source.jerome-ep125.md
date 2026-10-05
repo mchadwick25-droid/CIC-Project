@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources: []
 author: "Jerome (c. 331/347-420 CE)"
-work: "Epistula 125, to Rusticus (411): advice to a young monk of Toulouse to live in a community rather than alone, with rules for the monastic life, a portrait of the good and the bad monk, and a passage that names the dead Rufinus as 'the grunter'"
+work: "Epistula 125, to Rusticus (411): advice to a young monk of Toulouse to live in a community rather than alone, with rules for the monastic life, a portrait of the good and the bad monk, and a passage that mocks a dead opponent as 'the grunter' (identified as Rufinus by the edition)"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id v.CXXV"
 kind: vendored
 rights_status: public-domain

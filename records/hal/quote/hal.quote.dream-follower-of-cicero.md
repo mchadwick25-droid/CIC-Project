@@ -26,7 +26,8 @@ modern_rendering: >-
   treasure is, there will your heart be also.
 speaker_or_author: hal.figure.jerome
 license: verbatim
-modern_lens_note: '"Where thy treasure is, there will thy heart be also" is a direct scriptural citation (Matt. 6:21) placed in the Judge''s mouth, not the dream-vision''s own coinage - a modern reader unfamiliar with the verse may hear it as invented rhetoric.'
+modern_lens_note: >-
+  "Where thy treasure is, there will thy heart be also" is a direct scriptural citation (Matt. 6:21) placed in the Judge's mouth, not the dream-vision's own coinage - a modern reader unfamiliar with the verse may hear it as invented rhetoric. The accusation is not that reading Cicero is sinful. It is that a man may be able to say "I am a Christian" truthfully about his beliefs and untruthfully about where his attention actually lives. That is a question about attention rather than doctrine, which is why it still reaches a modern reader who has never opened Cicero.
 relations:
 - type: associated-with
   target: hal.quote.a-follower-of-cicero-and-not-of-christ

@@ -37,9 +37,9 @@ senses:
   informational: Before there was a translator of Hebrew, there was a schoolboy of Latin grammar
     and literature, trained under a teacher whose name he kept, decades later, calling him simply
     "my master."
-  evidential: The classical training is among the best-attested facts of Jerome's biography; his
-    rhetorical training is attributed by the standard accounts to Rome generally, not to Donatus
-    specifically.
+  evidential: The classical training is among the best-attested facts of Jerome's biography; the
+    vendored introduction says he studied rhetoric under Aelius Donatus. This record treats the grammar
+    training as the secure part.
   personal: The whole later labor - the ear for a word's exact weight, the instinct to defend a rendering
     letter by letter - was first formed on Virgil and Cicero, not on scripture. That debt became
     this world's own sharpest inner conflict.
@@ -51,11 +51,10 @@ use_note:
   means: "The Roman grammar-school stage of Latin training, which Jerome received under Donatus and which is well attested."
   not_for:
     - "inferring Jerome's later Hebrew fluency from his grammar training"
-    - "crediting Donatus with Jerome's rhetorical training"
     - "using the modern sense of a grammar teacher"
   years: {from: 382, to: 420}
   status: reviewed
 ---
 Derived from Doc_06 entry 12 (hal_lex12): grammar training under Donatus is
-what the sources support; rhetoric is not attributed to Donatus. The personal sense points
+what the sources support. The vendored introduction also says he studied rhetoric under Donatus; the grammar training is the secure part. The personal sense points
 toward the Ciceronian-dream story (hal.story.ciceronian-dream).

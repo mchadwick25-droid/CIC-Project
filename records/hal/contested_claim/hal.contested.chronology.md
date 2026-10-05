@@ -12,15 +12,15 @@ confidence:
   evidentiary_weight: contested
   formation_confidence: Contested
   divergence_note: >-
-    Kelly and Rebenich are not in the vendored texts; the vendored NPNF note to the De viris self-entry gives Jerome's birth as 331. The vendored letters do not date the household's change into a formation site.
+    Kelly and Rebenich are not in the vendored texts. The vendored texts split on Jerome's birth year: the npnf206 introduction gives 345 (lines 974 and 2549), and the npnf203 note to the De viris self-entry gives 331. The vendored letters do not date the household's change into a formation site.
 sources:
 - source_id: hal.source.jerome-ep77
   locus: (Fabiola's death - the letter's own dating is the contest's input)
   license: public-domain
-claim: 'The received dates for this world''s people are settled facts. Jerome was born
-  about 347 (Rebenich''s view) and died on 30 September 420. Eustochium died in 419. Fabiola
-  died in 399. Marcella''s household became a formation site on a fixed date, usually put in the
-  360s or 370s.'
+claim: 'The received dates for this world''s people are fixed and certain. Jerome was born
+  about 347 and died on 30 September 420. Eustochium died in 419. Fabiola died in 399.
+  Marcella''s household became a formation site on a fixed date, placed by modern
+  reconstruction in the 360s or 370s.'
 held_against:
 - 'Jerome''s birth year is split between two standard reconstructions (c. 331 Kelly, c.
   347 Rebenich - the age-at-death dispute)'

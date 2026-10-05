@@ -38,7 +38,7 @@ text: >-
   language without being identical to it; the precise formula belongs to a
   later age. Was he our personal Lord and Savior? That was not our phrase.
   But a virgin addressed him as her Bridegroom, a penitent as her physician,
-  and a pilgrim arriving in Bethlehem greeted his birthplace by name. The devotion those words
+  and a pilgrim arriving there greeted his birthplace by name. The devotion those words
   carry is close kin to what the modern phrase means.
 positions:
 - fully Nicene - Jesus is God the Son; the Trinity is the church's settled faith

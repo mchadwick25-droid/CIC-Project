@@ -18,7 +18,7 @@ confidence:
 sources:
 - source_id: hal.source.attack-letters-416
   locus: >-
-    Letter CXXXVII, Innocent of Rome to John of Jerusalem, a.d. 417 (npnf206_jerome-principal-works.xml)
+    Letter CXXXVII, Innocent of Rome to John of Jerusalem, a.d. 417 (npnf206_jerome-principal-works.xml, file lines 28468-28474)
   license: public-domain
 text: >-
   The holy virgins Eustochium and Paula have deplored to me the ravages, murders, fires and outrages of all kinds, which they say that the devil has perpetrated in the district belonging to their church; for with wonderful clemency and generosity they have left untold the name and motive of his human agent.
