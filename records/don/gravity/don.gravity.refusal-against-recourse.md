@@ -5,7 +5,8 @@ record_type: gravity
 schema_version: 2
 status: ready
 register: emic
-canon_cells: []
+canon_cells:
+- F6-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -32,7 +33,15 @@ sources:
   locus: the 390s invocation of existing imperial and proconsular anti-heretical legislation against the Maximianists,
     the third instance
   license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: "Answer to the Letters of Petilian II.92 (npnf104_augustine-anti-manichaean-anti-donatist.xml, line 17671) - Augustine holds the petition the Donatists' forebears presented to Julian, and (line 17431) names Julian's restoring the churches to them, the second instance"
+  license: public-domain
+- source_id: don.source.augustine-letter-51-to-crispinus
+  locus: "Letter 51.3 (npnf101_augustine-confessions-letters.xml, lines 29536-29548) - the Maximianists driven from their buildings by judges, edicts and soldiers, the third instance"
+  license: public-domain
 relations:
+- type: associated-with
+  target: don.witness.refusal-and-recourse
 - type: associated-with
   target: don.gravity.refusal-of-imperial-legitimacy
 - type: enabled-by

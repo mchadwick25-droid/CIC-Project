@@ -6,7 +6,7 @@
 
 **Code read directly at HEAD:** `engine/api/wiring.py` (`handle_message`, `history_from_transcript`, `replay_transcript`, `_replay_text`), `engine/m4/projection.py` (the event fold), `engine/m4/turn.py` (`run_gate`, `run_turn`, the `safety_turn`/`ACUTE_DISTRESS` branch, `SESSION_TURN_CAP`), `engine/m5/live_calls.py` (both sealed prompts, `call_safety`, `call_reader`, `_forced_tool_call`), `engine/m5/failure.py` (`resolve_gate` in full), `engine/m5/routing.py` (`route`), `engine/m4/store.py`.
 
-**Other primary sources checked:** `don_Rep_Phase6_Facilitator_Coordination_Round1.md` §6.5 (byte-compared), §8.1–§8.4; `Build/Ministry/Technology/Pass2/FLAGS.md` FLAG-008 (lines 62–71); `records/don/gravity/don.gravity.martyr-cult-identity.md`; `records/don/story/don.story.passio-marculi.md`; `records/don/story/don.story.bagai-reconciliation.md`; `records/don/ambient/don.ambient.bagai-gathering-scale.md`; `records/don/quote/don.quote.petilian-conscience-of-the-giver.md`; `don_Rep_Phase5_Boundary_Testing_Round1.md` §0 (Part Eight's quoted criteria); git history (`38acfba8`, `468e54a4`, `46dbc97b`, `3b669e89`).
+**Other primary sources checked:** `don_Rep_Phase6_Facilitator_Coordination_Round1.md` §6.5 (byte-compared), §8.1–§8.4; `Build/Ministry/Technology/Pass2/FLAGS.md` FLAG-008 (lines 62–71); `Archive/Superseded-Records/don/don.gravity.martyr-cult-identity.md`; `records/don/story/don.story.passio-marculi.md`; `records/don/story/don.story.bagai-reconciliation.md`; `records/don/ambient/don.ambient.bagai-gathering-scale.md`; `records/don/quote/don.quote.petilian-conscience-of-the-giver.md`; `don_Rep_Phase5_Boundary_Testing_Round1.md` §0 (Part Eight's quoted criteria); git history (`38acfba8`, `468e54a4`, `46dbc97b`, `3b669e89`).
 
 **Reviewer context:** cold. No drafting rationale seen. Every claim re-derived independently from the artifact, the raw JSON, or the running code.
 
@@ -133,7 +133,7 @@ That is exactly the characterization Round 1's F-3 asked for, including the half
 
 **The grounding is genuine, not invented.** Both records the follow-up names exist and both carry the content it draws on:
 
-- `records/don/gravity/don.gravity.martyr-cult-identity.md` — a PRIMARY gravity, 6/6 tests PASS, `formation_confidence: Documented`, sourced to the Passio Marculi, the Macrobius letter, the Passio Donati sermon and the *Deo laudes* epigraphy.
+- `Archive/Superseded-Records/don/don.gravity.martyr-cult-identity.md` — a PRIMARY gravity, 6/6 tests PASS, `formation_confidence: Documented`, sourced to the Passio Marculi, the Macrobius letter, the Passio Donati sermon and the *Deo laudes* epigraphy.
 - `records/don/story/don.story.passio-marculi.md` — carries Vegesela (line 65), the flogging, the four days, the cliff of Novapetra (line 67), Tier 3, with the visionary detail explicitly marked Inferential-Thin.
 
 Fidelis's answer cited five record clusters, including `don.story.passio-marculi` + `don.force.macarian-repression` on the Novapetra sentence, `don.quote.petilian-conscience-of-the-giver` + `don.gravity.ministerial-purity` on Petilian's line, and `don.term.anniversaria-commemoratio` + `don.gravity.martyr-cult-identity` on the annual commemoration. The two records the write-up names as grounding are both actually cited in the answer. Nothing invented.

@@ -23,7 +23,7 @@ sources:
   locus: the whole episode -- the 394 decree's own language, and the reception without rebaptism or reordination
     -- used directly for this exchange's own second turn
   license: public-domain
-- source_id: don.gravity.purity-rigor-vs-institutional-reception
+- source_id: don.gravity.rigor-against-reception
   locus: T2 itself, used directly for the first turn's own statement of the unresolved tension
   license: public-domain
 canon_question_id: _fleet.canon.f6-i-02
@@ -34,7 +34,7 @@ tags:
 - dev-battery-turn-4-confirmed-pass
 relations:
 - type: illustrates
-  target: don.gravity.purity-rigor-vs-institutional-reception
+  target: don.gravity.rigor-against-reception
 exchange:
 - speaker: participant
   text: What did your people never settle?

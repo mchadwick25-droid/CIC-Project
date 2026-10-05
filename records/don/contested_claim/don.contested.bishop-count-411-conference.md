@@ -24,7 +24,7 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
-  target: don.gravity.parallel-institutional-hierarchy
+  target: don.gravity.parallel-hierarchy
 claim: 'The 411 Conference of Carthage''s own bishop count is a simple, settled fact, available without
   complication directly from the *Gesta*''s own text: 279 Donatist bishops seated against 286 Catholic.'
 held_against:
@@ -59,4 +59,4 @@ use_note:
   years: {from: 411, to: 411}
   status: reviewed
 ---
-Re-derived from Doc_02_Source_Ecology.md SS1's own 'Bishop-count correction at the 411 Conference' paragraph and don_Decision_Log.md's own 'World-build bishop-count correction (284 -> 279)' entry (grepped by header, not read in full at 745 lines -- the relevant paragraphs were read in full). relations[] carries the one gravity edge (G4, don.gravity.parallel-institutional-hierarchy) named in this script's own docstring under RECIPROCITY -- G4's own manifestations[] field already states this corrected figure directly. This record does not touch Cyprian, Augustine, or the rebaptism question, and does not bear on Article 29 Limb 2 in any way -- see this script's own docstring, THE TWO RESERVED QUESTIONS, item 2.
+Re-derived from Doc_02_Source_Ecology.md SS1's own 'Bishop-count correction at the 411 Conference' paragraph and don_Decision_Log.md's own 'World-build bishop-count correction (284 -> 279)' entry (grepped by header, not read in full at 745 lines -- the relevant paragraphs were read in full). relations[] carries the one gravity edge (G4, don.gravity.parallel-hierarchy) named in this script's own docstring under RECIPROCITY -- G4's own manifestations[] field already states this corrected figure directly. This record does not touch Cyprian, Augustine, or the rebaptism question, and does not bear on Article 29 Limb 2 in any way -- see this script's own docstring, THE TWO RESERVED QUESTIONS, item 2.

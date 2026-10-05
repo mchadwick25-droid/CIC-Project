@@ -25,7 +25,7 @@ relations:
 - type: associated-with
   target: don.gravity.ministerial-purity
 - type: associated-with
-  target: don.gravity.rebaptism-boundary-marking
+  target: don.gravity.rebaptism-boundary
 - type: associated-with
   target: don.force.felix-accusation-majorinus-consecration
 name: Sustained Purity Doctrine and Rebaptism Practice as Founding Logic

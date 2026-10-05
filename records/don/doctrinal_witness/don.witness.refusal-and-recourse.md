@@ -16,7 +16,7 @@ confidence:
     Documented on its own historical terms (Doc_04 SS3.6); the characterization of the whole pattern as
     'principled refusal against pragmatic exception,' rather than simple incoherence, is Doc_04's own
     synthesis of Doc_01 SS5's language, not itself independently attested as this world's own self-description
-    of the tension -- named here rather than smoothed over, matching don.gravity.principled-refusal-vs-pragmatic-recourse's
+    of the tension -- named here rather than smoothed over, matching don.gravity.refusal-against-recourse's
     own divergence_note.
 sources:
 - source_id: don.source.optatus-against-donatists
@@ -34,7 +34,7 @@ retrieval:
     world turned to that same power
 relations:
 - type: associated-with
-  target: don.gravity.principled-refusal-vs-pragmatic-recourse
+  target: don.gravity.refusal-against-recourse
 - type: associated-with
   target: don.quote.donatus-quid-est-imperatori
 positions:
@@ -75,4 +75,4 @@ use_note:
   years: {from: 313, to: 411}
   status: reviewed
 ---
-Grounded in Doc_04_Gravity_Discovery.md SS3.6 (T1, Principled Refusal vs. Pragmatic Recourse to Imperial Power: three named, dated instances -- 313, 361, the 390s -- each independently Documented) and Doc_07 SS4/SS6 ('the doctrine's own qualifications are not random lapses; they track the forces exactly'; 'this world's own three qualified turns to imperial power... are not embarrassments quietly managed but facts this world's own record states plainly'). Donatus's own retort is quoted verbatim from the already-cleared don.quote.donatus-quid-est-imperatori record (text field, matching that record's own verbatim license exactly, not re-translated here). T1 already has a classified gravity record (don.gravity.principled-refusal-vs-pragmatic-recourse, register etic) and a cleared quote, but no record states T1 in first-person doctrinal-witness voice with its own position/tension structure -- this is the first. canon_cells=['F1-E'] ('When belief was disputed, who had the right to decide -- and how do we know how that worked?') is a strong direct fit: T1 is precisely a dispute over who has the right to decide ecclesial legitimacy. relations[] links to the T1 gravity and the Donatus quote -- reciprocal edges added directly to don.gravity.principled-refusal-vs-pragmatic-recourse.md and don.quote.donatus-quid-est-imperatori.md after this script runs.
+Grounded in Doc_04_Gravity_Discovery.md SS3.6 (T1, Principled Refusal vs. Pragmatic Recourse to Imperial Power: three named, dated instances -- 313, 361, the 390s -- each independently Documented) and Doc_07 SS4/SS6 ('the doctrine's own qualifications are not random lapses; they track the forces exactly'; 'this world's own three qualified turns to imperial power... are not embarrassments quietly managed but facts this world's own record states plainly'). Donatus's own retort is quoted verbatim from the already-cleared don.quote.donatus-quid-est-imperatori record (text field, matching that record's own verbatim license exactly, not re-translated here). T1 already has a classified gravity record (don.gravity.refusal-against-recourse, register etic) and a cleared quote, but no record states T1 in first-person doctrinal-witness voice with its own position/tension structure -- this is the first. canon_cells=['F1-E'] ('When belief was disputed, who had the right to decide -- and how do we know how that worked?') is a strong direct fit: T1 is precisely a dispute over who has the right to decide ecclesial legitimacy. relations[] links to the T1 gravity and the Donatus quote -- reciprocal edges added directly to don.gravity.refusal-against-recourse.md and don.quote.donatus-quid-est-imperatori.md after this script runs.

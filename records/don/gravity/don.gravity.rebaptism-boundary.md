@@ -5,7 +5,8 @@ record_type: gravity
 schema_version: 2
 status: ready
 register: emic
-canon_cells: []
+canon_cells:
+- F4-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -30,6 +31,9 @@ sources:
 - source_id: don.source.augustine-answer-to-petilian
   locus: Petilian's own quoted argument for the practice - Registry rows 4, 12
   license: public-domain
+- source_id: don.source.petilian-of-constantina-letters-quoted
+  locus: "npnf104_augustine-anti-manichaean-anti-donatist.xml, Answer to the Letters of Petilian I.1-2 (lines 15368 and 15376) - Petilian's own words, quoted by Augustine: the one baptized from a tainted hand receives nothing, so the Donatists confer what was wanting rather than repeat what was there"
+  license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
   locus: successive edicts naming rebaptism of Catholics specifically as a legal offence
   license: public-domain
@@ -42,6 +46,8 @@ sources:
     this practice - Registry row 13
   license: public-domain
 relations:
+- type: illustrated-by
+  target: don.demo.baptism-threshold
 - type: associated-with
   target: don.gravity.ministerial-purity
 - type: associated-with
@@ -58,6 +64,8 @@ relations:
   target: don.force.sustained-purity-and-rebaptism
 - type: associated-with
   target: don.contested.rebaptism-boundary
+- type: associated-with
+  target: don.contested.maximianist-reception
 name: Rebaptism as boundary-marking practice [PRIMARY]
 classification: primary
 description: >-
@@ -120,6 +128,8 @@ manifestations:
 - the enacted threshold crossed once and bodily - baptism given by a hand of unbroken standing, held to be
   the first true baptism a person ever received
 - On Baptism and Answer to the Letters of Petilian, both devoted substantially to this practice
+- Petilian of Constantina's own argument, quoted in Augustine's Answer - a baptism from a tainted hand gives no
+  baptism, so the one who comes over is given what was wanting, not a repetition
 - successive imperial edicts naming rebaptism of Catholics specifically as a targeted legal offence
 - the Council of Carthage 419 canons on receiving Donatist clergy, whose content depends on this norm
 - the Maximianist clergy received back without repeated baptism - the exception that presupposes the norm

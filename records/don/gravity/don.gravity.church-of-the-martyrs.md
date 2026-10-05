@@ -5,7 +5,8 @@ record_type: gravity
 schema_version: 2
 status: ready
 register: emic
-canon_cells: []
+canon_cells:
+- F5-P
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -42,7 +43,12 @@ sources:
 - source_id: don.source.cil-viii-supplementum-numidiae
   locus: the Numidian epigraphic corpus in which the acclamation is published
   license: public-domain
+- source_id: don.source.monceaux-histoire-litteraire-tome5
+  locus: "cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt, lines 3043-3048 (the sermon, the Passio Marculi and Macrobius's letter named as three closely related liturgical texts) and 3085-3137 (the sermon's feast day, 12 March, and Monceaux's dating of its events to 317 and its writing to about 320)"
+  license: public-domain
 relations:
+- type: associated-with
+  target: don.witness.one-formation-aim
 - type: associated-with
   target: don.gravity.ministerial-purity
 - type: associated-with
@@ -130,9 +136,10 @@ description: >-
   Leontius and Ursacius produced the sermon.
 manifestations:
 - the annual commemoration at the grave on the appointed day, the account read aloud - the anniversaria commemoratio
-  the Passio Donati sermon's own admonitio describes
+  the Passio Donati sermon's own admonitio describes, kept on the fourth day before the Ides of March, the twelfth
 - the Passio Marculi and the Passio Isaac et Maximiani, the two best-attested Passiones, following the Macarian
-  repression of 347-348
+  repression of 347-348; in the Passio Marculi, Marculus tells the brothers with him of the cup, the crown and
+  the palm shown to him before his death
 - Macrobius's own letter to the Carthage congregation on the deaths of Isaac and Maximianus
 - the Deo laudes acclamation cut in stone at Bagai and elsewhere - this world's strongest single anchor, because
   it was never textual to begin with

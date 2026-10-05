@@ -30,7 +30,7 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
-  target: don.gravity.martyr-cult-identity
+  target: don.gravity.church-of-the-martyrs
 - type: associated-with
   target: don.force.transmission-hostile-manuscript-tradition
 name: Transmission -- the Caecilianist Party's Own Institutional Victory Determines What Survives

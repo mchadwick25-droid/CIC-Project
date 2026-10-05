@@ -5,7 +5,8 @@ record_type: gravity
 schema_version: 2
 status: ready
 register: emic
-canon_cells: []
+canon_cells:
+- F6-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -32,7 +33,12 @@ sources:
 - source_id: don.source.augustine-contra-cresconium
   locus: the affair pressed again in a further work - Registry row 47
   license: public-domain
+- source_id: don.source.augustine-letter-51-to-crispinus
+  locus: "Letter 51.3 (npnf101_augustine-confessions-letters.xml, lines 29610-29617) - put to the Donatist bishop Crispinus of Calama: you restored some of them without re-ordination, and accepted their baptism as valid"
+  license: public-domain
 relations:
+- type: illustrated-by
+  target: don.demo.bagai-unresolved
 - type: associated-with
   target: don.gravity.ministerial-purity
 - type: associated-with
@@ -45,6 +51,8 @@ relations:
   target: don.force.maximianist-fracture
 - type: associated-with
   target: don.contested.rigor-against-reception
+- type: associated-with
+  target: don.contested.maximianist-reception
 name: Purity-rigor against institutional reception - the Maximianist precedent [TENSIONAL]
 classification: tensional
 description: >-
@@ -99,6 +107,8 @@ manifestations:
   a rival primate
 - the Bagai council of 394 and its condemnation of the Maximianists
 - the Maximianist clergy received back into office and communion without repeated ordination or baptism
+- the same reception put to Crispinus of Calama in Augustine's Letter 51 - some of them restored without re-ordination,
+  their baptism accepted as valid
 - the Bagai sentence, quoted directly rather than paraphrased in Augustine's own text
 - the same texts stating the doctrine at its most absolute also stating the exception plainly, without treating
   the two as cancelling each other

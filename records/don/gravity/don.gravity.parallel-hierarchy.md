@@ -5,7 +5,8 @@ record_type: gravity
 schema_version: 2
 status: ready
 register: emic
-canon_cells: []
+canon_cells:
+- F3-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -29,7 +30,10 @@ sources:
   locus: the 411 Conference acts and their precise bishop counts - Registry row 55
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: "I.1.2 and I.5.7 - the edition's note names the 393 synod at Cebarsussi and the 394 council of Bagai; I.5.7 and II.12 quote the Bagai council's own words. The Bagai shipwreck sentence is not quoted in On Baptism; it stands in Answer to Petilian I.10"
+  locus: "I.1.1 and I.1.2 - the edition's notes name Parmenian as Donatus's successor at Carthage and Primian as Parmenian's. I.1.2 and I.5.7 - the edition's note names the 393 synod at Cebarsussi and the 394 council of Bagai; I.5.7 and II.12 quote the Bagai council's own words. The Bagai shipwreck sentence is not quoted in On Baptism; it stands in Answer to Petilian I.10"
+  license: public-domain
+- source_id: don.source.optatus-appendix-of-documents
+  locus: "cic/texts/optatus_against-the-donatists.txt, lines 5933-5944 - the Gesta apud Zenophilum, in which Silvanus of Cirta is named among those who consecrated Majorinus, the predecessor of Donatus; lines 485-491, the translator's notes, give the Carthage line as Majorinus, Donatus, Parmenian"
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
   locus: the imperial legislative targeting of an organised rival clergy and its property
@@ -57,6 +61,8 @@ relations:
   target: don.force.institutional-attrition
 - type: associated-with
   target: don.contested.parallel-hierarchy
+- type: associated-with
+  target: don.contested.bishop-count-411-conference
 name: The parallel institutional hierarchy [SUPPORTING - integrating/institutional center]
 classification: supporting
 description: >-
@@ -131,7 +137,8 @@ description: >-
 manifestations:
 - two rival bishoprics at Carthage from the outset, the contest replicated town for town across Africa Proconsularis,
   Numidia, Byzacena and Mauretania
-- the rival consecration of Majorinus (311/312), succeeded from c. 313 by Donatus
+- the rival consecration of Majorinus (311/312), succeeded from c. 313 by Donatus, then by Parmenian and then
+  by Primian - four primates of Carthage in succession
 - a full conciliar system - the councils of Cebarsussi and Bagai, and the Bagai sentence, quoted directly in
   Augustine's own text
 - 279 Donatist against 286 Catholic bishops seated at the 411 Conference of Carthage

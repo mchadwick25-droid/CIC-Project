@@ -26,7 +26,7 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
-  target: don.gravity.parallel-institutional-hierarchy
+  target: don.gravity.parallel-hierarchy
 - type: associated-with
   target: don.gravity.refusal-of-imperial-legitimacy
 - type: associated-with

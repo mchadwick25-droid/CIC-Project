@@ -39,7 +39,7 @@ why_sources_cannot_answer: 'Doc_08_Forces_Document.md''s own governing-principle
   handled as ''THIN, redirection not information-dump,'' never filled with invented interior content.'
 nearest_material:
 - don.core.donatism
-- don.gravity.martyr-cult-identity
+- don.gravity.church-of-the-martyrs
 - don.gravity.refusal-of-imperial-legitimacy
 use_note:
   means: "The Donatist record does not preserve what wavering believers felt, or how people received the 411 ruling and the Vandal conquest."

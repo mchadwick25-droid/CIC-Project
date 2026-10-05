@@ -14,7 +14,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
-- source_id: don.gravity.rebaptism-boundary-marking
+- source_id: don.gravity.rebaptism-boundary
   locus: the enacted threshold rite itself, used directly for this exchange's own opening turn
   license: public-domain
 - source_id: don.gravity.ministerial-purity
@@ -28,7 +28,7 @@ tags:
 - probe-14-confirmed-pass
 relations:
 - type: illustrates
-  target: don.gravity.rebaptism-boundary-marking
+  target: don.gravity.rebaptism-boundary
 exchange:
 - speaker: participant
   text: How did a person actually become one of you? Walk me through it.

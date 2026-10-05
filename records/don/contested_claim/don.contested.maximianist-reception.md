@@ -34,11 +34,11 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
-  target: don.gravity.purity-rigor-vs-institutional-reception
+  target: don.gravity.rigor-against-reception
 - type: associated-with
   target: don.gravity.ministerial-purity
 - type: associated-with
-  target: don.gravity.rebaptism-boundary-marking
+  target: don.gravity.rebaptism-boundary
 claim: The mainstream (Primianist) Donatist party's own reception of returning Maximianist clergy without
   repeating either ordination or baptism is decisive evidence that the two Donatist bodies shared one
   formation pattern all along -- proof the two bodies were never truly distinct communions, not merely a
