@@ -24,7 +24,7 @@ confidence:
     inspection, not by an automated gate.
 sources:
 - source_id: hal.source.palladius-lausiac
-  locus: ch. 41 (file lines 473-475)
+  locus: ch. 41 sec. 2 (file line 475)
   license: public-domain
 text: 'Among them was the Roman lady Paula, mother of Toxotius, a woman of great
   distinction in the spiritual life. She was hindered by a certain Jerome from Dalmatia.
@@ -55,9 +55,11 @@ use_note:
   years: {from: 386, to: 420}
   status: reviewed
 ---
-Verified verbatim against the vendored Clarke translation (a
-footnote-number artifact in the raw file, 'Paula,276', is elided from the
-quoted text). THE COUNTER-WITNESS QUOTE: the one independent near-contemporary
+Read word for word against the vendored Clarke translation by direct
+inspection (a footnote number in the raw file, 'Paula,276', is left out of
+the quoted text). The state is verified-via-authority rather than
+verified-direct because the automated check does not pass a bare footnote
+number; the divergence note says so. THE COUNTER-WITNESS QUOTE: the one independent near-contemporary
 characterization of the world's central relationship, and it contradicts
 Jerome's own. Register etic - this is testimony ABOUT the world from
 outside and against it, never the world's own voice; its use is honesty

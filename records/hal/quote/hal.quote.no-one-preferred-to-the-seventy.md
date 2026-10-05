@@ -4,6 +4,7 @@ world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
 status: ready
+voice: analytic
 register: etic
 canon_cells:
 - F2-T

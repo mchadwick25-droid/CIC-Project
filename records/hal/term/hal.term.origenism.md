@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what this world argued about among itself
   - the broken friendship with Rufinus
-plain_meaning: The fight in the 390s over the teachings of Origen. It broke our oldest friendship
+plain_meaning: The fight from 393 to 403 over the teachings of Origen. It broke our oldest friendship
   and set us against our own bishop.
 world_word: the Origenist controversy
 false_friend:
@@ -45,13 +45,13 @@ senses:
   translational: Modern scholarship still disputes how doctrinally serious versus how personally
     and politically driven the quarrel was. This world's record does not settle it, and neither does
     this account.
-quick_meaning: The 390s fight over Origen's teachings that broke the friendship with Rufinus.
+quick_meaning: The fight from 393 to 403 over Origen's teachings that broke the friendship with Rufinus.
 distortion_risk: medium
 relations:
 - type: associated-with
   target: hal.gravity.controversy-pressure
 use_note:
-  means: "The 390s fight over Origen's teachings, which broke the friendship with Rufinus and was doctrinal, personal, and political at once."
+  means: "The fight from 393 to 403 over Origen's teachings, which broke the friendship with Rufinus and was doctrinal, personal, and political at once."
   not_for:
     - "settling whether the quarrel was mainly doctrinal or mainly political"
     - "favoring Rufinus's or Jerome's account of the dispute"

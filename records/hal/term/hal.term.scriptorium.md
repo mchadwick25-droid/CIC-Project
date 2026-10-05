@@ -56,7 +56,6 @@ use_note:
   years: {from: 386, to: 420}
   status: reviewed
 ---
-Imported from the old system's fuller lexicon development document (hal_Doc_06, Tier-3 entry 1,
-"Scriptorium") at Mark's direction, as a draft, not a final version. The old record's own
-"Thin-Evidence/Reconstruction Risk: High" flag and its instruction that this "must never be presented as
-Documented institutional fact" are carried forward here verbatim in spirit, not softened.
+Taken from the old system's fuller lexicon development document (hal_Doc_06, Tier-3 entry 1,
+"Scriptorium"). The old record's own "Thin-Evidence/Reconstruction Risk: High" flag and its instruction that
+this "must never be presented as Documented institutional fact" are kept in the same spirit, not softened.

@@ -13,11 +13,14 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: Documented via Jerome's own repeated references to Donatus as his teacher (verified
-    in the prior build's reviewed pass); not re-collated to a single locus on this branch.
+  divergence_note: Documented via Jerome's reference to "my master Donatus" in the Apology against Rufinus
+    (Book I, ch. 16); the De viris self-entry does not name Donatus.
 sources:
 - source_id: hal.source.jerome-de-viris
   locus: self-entry and the tradition of his training
+  license: public-domain
+- source_id: hal.source.jerome-apology-rufinus
+  locus: Book I, ch. 16 ("those of my master Donatus on Virgil", file line 51742)
   license: public-domain
 retrieval:
   tier: 2
@@ -33,7 +36,7 @@ false_friend:
 senses:
   informational: Before there was a translator of Hebrew, there was a schoolboy of Latin grammar
     and literature, trained under a teacher whose name he kept, decades later, calling him simply
-    "my teacher."
+    "my master."
   evidential: The classical training is among the best-attested facts of Jerome's biography; his
     rhetorical training is attributed by the standard accounts to Rome generally, not to Donatus
     specifically.

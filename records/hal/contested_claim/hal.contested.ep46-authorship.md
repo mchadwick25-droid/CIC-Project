@@ -13,7 +13,8 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: contested
   formation_confidence: Widely Accepted
-  divergence_note: null
+  divergence_note: >-
+    The grade of Widely Accepted belongs to the scholarly view that Jerome composed the letter in the women's names. The claim stated here, that the women wrote it, is the contested one, which is why the evidentiary weight reads contested. The vendored edition's own headnote says Jerome writes in the name of Paula and Eustochium; Nautin and Cain are not in the vendored texts.
 sources:
 - source_id: hal.source.jerome-ep46
   locus: whole letter (the contested text itself)

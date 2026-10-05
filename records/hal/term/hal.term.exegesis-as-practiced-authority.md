@@ -61,8 +61,7 @@ use_note:
   years: {from: 385, to: 410}
   status: reviewed
 ---
-Imported from the old system's fuller lexicon development document (hal_Doc_06, entry 11, "Exegesis as
-practiced authority") at Mark's direction, as a draft, not a final version. This is the single most
-Author-Gravity-constrained entry in the old lexicon, and that constraint is carried forward explicitly
-here rather than smoothed over - the sole source is Jerome's own account, written after Marcella's
+Taken from the old system's fuller lexicon development document (hal_Doc_06, entry 11, "Exegesis as
+practiced authority"). This is the single most Author-Gravity-constrained entry in the old lexicon, and
+that constraint is kept explicit here: the sole source is Jerome's own account, written after Marcella's
 death, in a genre with a partly self-vindicating purpose.

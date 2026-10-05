@@ -29,7 +29,7 @@ modern_rendering: >-
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-
-  \"Those of my own order\" is the load-bearing phrase: this is clergy corruption named by a cleric, from inside, in a document he circulated. It is also polemic by a man with enemies, and the specificity of the shoes is a satirist's touch rather than a report.
+  "Those of my own order" is the load-bearing phrase: this is clergy corruption named by a cleric, from inside, in a document he circulated. It is also polemic by a man with enemies, and the specificity of the shoes is a satirist's touch rather than a report.
 retrieval:
   tier: 1
   retrieve_when:

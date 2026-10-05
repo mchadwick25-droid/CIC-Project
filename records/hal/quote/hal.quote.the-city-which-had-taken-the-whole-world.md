@@ -7,6 +7,7 @@ status: ready
 register: emic
 canon_cells:
 - F4-T
+- F6-P
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -35,17 +36,27 @@ retrieval:
   - "participant asks whether there was a moment everything changed for these people"
   - "participant asks what the fall of Rome meant to this world"
   - "participant asks how this world would describe being made new"
+  - "participant asks what happened when Rome fell and how they took the news"
+  - "participant asks how they wrote about catastrophe"
 relations:
 - type: associated-with
   target: hal.dw.practices
+- type: associated-with
+  target: hal.dw.suffering
 use_note:
   means: "Jerome, dictating in 412 at Bethlehem, writes that the city which had taken the whole world was itself taken, with famine striking before the sword."
   not_for:
     - "an eyewitness account; Jerome wrote from news of a sack he did not see"
     - "a statement about individual conversion; the dated turn here is a city's fall, not a soul's"
+    - "a precise historical account of the famine or the casualties of the sack"
   years: {from: 410, to: 412}
   status: reviewed
 ---
+Verified verbatim against the vendored npnf206 (Ep. 127 sec. 12, div
+v.CXXVII); the file's one editorial footnote insertion in the span, 'By
+Alaric, 410 a.d.', is left out of the quoted text. Serves F6-P as well
+as F4-T: it is the world's own grief at the 410 sack in its own words.
+
 Opened for F4-T, served by hal.dw.practices alone, which cites this locus for "the
 fall of Rome heard as judgment" and had nothing quotable.
 

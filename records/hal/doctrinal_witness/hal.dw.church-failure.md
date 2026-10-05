@@ -23,6 +23,12 @@ sources:
 - source_id: hal.source.jerome-ep22
   locus: sec. 28 (clergy corruption named from inside)
   license: public-domain
+- source_id: hal.source.jerome-ep125
+  locus: sec. 18 (the dead grunter, named Rufinus by the edition's note)
+  license: public-domain
+- source_id: hal.source.vulgate-prefaces
+  locus: prefaces to the commentaries on Jeremiah and Ezekiel (Rufinus as "Grunnius" and "the scorpion", file lines 47898-47900 and 47988-47996; the edition's notes name him)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []

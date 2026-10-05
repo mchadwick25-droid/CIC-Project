@@ -7,6 +7,7 @@ status: ready
 register: emic
 canon_cells:
 - F6-E
+- F6-P
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -36,18 +37,30 @@ retrieval:
   - "participant asks whether anyone here was martyred, or died for the faith"
   - "participant asks about violence suffered by this community"
   - "participant asks how reliable this world's account of its own worst events is"
+  - "participant asks whether they were ever attacked, and who intervened"
+  - "participant asks what happened to the women of the household in a raid"
 relations:
 - type: associated-with
   target: hal.limit.martyrdom
+- type: associated-with
+  target: hal.limit.f5-women-own-words
 use_note:
   means: "Innocent's letter to John of Jerusalem records that Eustochium and the younger Paula reported murders and fires but chose not to name the man behind them."
   not_for:
     - "a claim that anyone in this world was martyred by a hostile state; the violence came from fellow Christians"
     - "a claim identifying the attackers or naming the dead"
     - "the women's own account; their letter is lost"
+    - "a claim that this Paula is the elder Paula, who died in 404"
   years: {from: 416, to: 417}
   status: reviewed
 ---
+Verified verbatim against the vendored npnf206 (Ep. 137, div
+v.CXXXVII); 'Paula' here is the younger Paula, Eustochium's niece, per the
+volume's own note. This is the trace of the women's lost letter: the
+fullest surviving account of the 416 attack is a pope's summary of the
+report they wrote, and his praise records their restraint. Serves F6-P as
+well as F6-E, and grounds hal.limit.f5-women-own-words's sharpest fact.
+
 Opened for F6-E, which the rewritten classifier moved out of LIMIT-ONLY: hal.limit.martyrdom
 is the cell's only serving record and cites Ep. 137 specifically, so the limit can be voiced by the
 passage it points at.

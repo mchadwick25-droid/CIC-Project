@@ -13,10 +13,11 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: illustrative
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: >-
+    Documented as words Jerome wrote in a letter he circulated. The dream itself is not independently attested, and hal.quote.a-follower-of-cicero-and-not-of-christ, which carries the scene around these words, is graded Contested for the event.
 sources:
 - source_id: hal.source.jerome-ep22
-  locus: sec. 30
+  locus: sec. 30 (file lines 6483-6486)
   license: public-domain
 text: 'Thou liest, thou art a follower of Cicero and not of Christ. For ''where thy
   treasure is, there will thy heart be also.'''
@@ -26,6 +27,9 @@ modern_rendering: >-
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Where thy treasure is, there will thy heart be also" is a direct scriptural citation (Matt. 6:21) placed in the Judge''s mouth, not the dream-vision''s own coinage - a modern reader unfamiliar with the verse may hear it as invented rhetoric.'
+relations:
+- type: associated-with
+  target: hal.quote.a-follower-of-cicero-and-not-of-christ
 retrieval:
   tier: 2
   retrieve_when:

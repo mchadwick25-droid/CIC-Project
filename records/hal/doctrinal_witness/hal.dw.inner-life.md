@@ -20,6 +20,9 @@ sources:
 - source_id: hal.source.jerome-ep39
   locus: whole letter (prayer under grief and silence)
   license: public-domain
+- source_id: hal.source.jerome-ep125
+  locus: sec. 11 (love the knowledge of scripture, and you will no longer love the sins of the flesh; file lines 25466-25467)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
@@ -66,9 +69,8 @@ importing counsel the sources don't contain. The desert-years material is
 narrated within Ep. 22 (a within-window text recounting earlier
 experience) and is used as teaching content, per the source record's
 caution. The love-the-knowledge-of-scripture counsel is Ep. 125 (To
-Rusticus, in the same vendored volume), wording verified against the text
-('love the knowledge of scripture, and you will no longer love the sins
-of the flesh') and carried as indirect paraphrase since Ep. 125 has no
-source record of its own yet.
+Rusticus, sec. 11, source record hal.source.jerome-ep125), wording verified
+against the text ('love the knowledge of scripture, and you will no longer
+love the sins of the flesh') and carried as indirect paraphrase.
 
 The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

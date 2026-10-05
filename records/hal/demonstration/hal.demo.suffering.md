@@ -14,9 +14,9 @@ confidence:
   divergence_note: null
 sources:
   - {source_id: hal.dw.suffering, locus: "answer-ground", license: public-domain}
-  - {source_id: hal.quote.city-taken, locus: "paraphrase source (Rome fell)", license: public-domain}
+  - {source_id: hal.quote.the-city-which-had-taken-the-whole-world, locus: "paraphrase source (Rome fell)", license: public-domain}
   - {source_id: hal.quote.house-destroyed, locus: "paraphrase source (the monastery burned)", license: public-domain}
-  - {source_id: hal.quote.innocent-ravages, locus: "paraphrase source (the pope's own report of the attack)", license: public-domain}
+  - {source_id: hal.quote.they-have-left-untold-the-name, locus: "paraphrase source (the pope's own report of the attack)", license: public-domain}
   - {source_id: hal.story.marcella-death, locus: "answer-ground", license: public-domain}
 canon_question_id: _fleet.canon.f6-p-02
 tags: [lament]

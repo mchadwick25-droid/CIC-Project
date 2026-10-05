@@ -18,20 +18,18 @@ confidence:
 sources:
 - source_id: hal.source.jerome-ep22
   locus: >-
-    Letter XXII (to Eustochium), sec. 30 - the dream at Antioch during the illness of 374 (npnf206_jerome-principal-works.xml)
+    Letter XXII (to Eustochium), sec. 30 - the dream at Antioch during the illness of 374 (npnf206_jerome-principal-works.xml, file lines 6479-6489)
   license: public-domain
 text: >-
-  Suddenly I was caught up in the spirit and dragged before the judgment seat of the Judge; and here the light was so bright, and those who stood around were so radiant, that I cast myself upon the ground and did not dare to look up. Asked who and what I was I replied: "I am a Christian." But He who presided said: "Thou liest, thou art a follower of Cicero and not of Christ. For 'where thy treasure is, there will thy heart be also.'" Instantly I became dumb, and amid the strokes of the lash—for He had ordered me to be scourged—I was tortured more severely still by the fire of conscience...
+  Suddenly I was caught up in the spirit and dragged before the judgment seat of the Judge; and here the light was so bright, and those who stood around were so radiant, that I cast myself upon the ground and did not dare to look up. Asked who and what I was I replied: "I am a Christian." But He who presided said: ... Instantly I became dumb, and amid the strokes of the lash—for He had ordered me to be scourged—I was tortured more severely still by the fire of conscience...
 modern_rendering: >-
   Suddenly I was caught up in the spirit and dragged before the judgment
   seat of the Judge. The light was so bright, and the people standing
   around so radiant, that I threw myself on the ground and did not dare
   look up. I was asked who and what I was. I answered: 'I am a
-  Christian.' But the one presiding said: 'You lie. You follow Cicero,
-  not Christ. For where your treasure is, there your heart will be
-  also.' I went silent. And amid the strokes of the lash - for he had
-  ordered me to be scourged - I was tortured more severely still by the
-  fire of conscience.
+  Christian.' But the one presiding spoke. At once I went silent. And
+  amid the strokes of the lash, I was tortured more severely still by
+  the fire of conscience. He had ordered me to be scourged.
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-
@@ -45,8 +43,10 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.dw.inner-life
+- type: associated-with
+  target: hal.quote.dream-follower-of-cicero
 use_note:
-  means: "Jerome, writing to Eustochium in 384, tells of a fever dream in which Christ the Judge accused him of following Cicero rather than Christ."
+  means: "Jerome, writing to Eustochium in 384, tells of a fever dream in which he is dragged before the Judge, goes silent and is scourged; the Judge's words are in hal.quote.dream-follower-of-cicero."
   not_for:
     - "a claim that the dream is a verified event rather than Jerome's own later, circulated telling of it"
     - "a claim that Jerome certainly kept the vow against worldly books; he was accused of breaking it and defended himself"
@@ -67,11 +67,15 @@ The spoken form is a modern-English translation, not a summary; the original wor
 
 The rendering is written at the register bar: short sentences, everyday words, translation fidelity kept; the original stays as text for Level 3.
 
-No stray literal backslash characters appear before quote marks in
-`text` or `modern_lens_note`. The quote ends at "fire of conscience"
+The quote ends at "fire of conscience"
 marked with a trailing ellipsis: the source's sentence continues with a
 comma into an extended repentance narrative (crying out for mercy, the
 bystanders pleading on the dreamer's behalf, mercy granted), which would
 change what this quote is being used to show, not just extend it - the
 record's gloss and retrieval framing are about the accusation-and-
 punishment moment, not its resolution.
+
+The Judge's own words, between "said:" and "Instantly", sit in
+hal.quote.dream-follower-of-cicero alone, so each sentence of the
+letter is in one record. This record carries the scene around them and
+the Contested grade for the dream as an event.

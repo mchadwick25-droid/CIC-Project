@@ -36,8 +36,11 @@ why_sources_cannot_answer: 'No text composed by Paula, Eustochium, Marcella, or 
 nearest_material:
 - hal.story.marcella-standing
 - hal.quote.dispute-to-learn
-- hal.quote.innocent-ravages
+- hal.quote.they-have-left-untold-the-name
 - hal.quote.paula-hebrew-psalms
+relations:
+- type: associated-with
+  target: hal.quote.they-have-left-untold-the-name
 use_note:
   means: "Nothing the four women wrote survives, though they demonstrably wrote, so what remains of them is what one man wrote about them."
   not_for:

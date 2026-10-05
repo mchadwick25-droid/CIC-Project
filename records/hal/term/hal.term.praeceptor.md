@@ -13,12 +13,16 @@ confidence:
   verification_state: named-not-rechecked
   evidentiary_weight: corroborating
   formation_confidence: Dominant Modern Reconstruction
-  divergence_note: The application to Jerome's own training under Donatus is well documented; the
-    extension of the same term to his later direction of the Bethlehem community's study is this
-    build's own reconstruction, not a documented self-application, per the old record's own caveat.
+  divergence_note: The application to Jerome's own training under Donatus is documented; the vendored
+    English reads "my master Donatus", and the Latin word is not in the vendored text. The extension of the
+    same term to his later direction of the Bethlehem community's study is a reconstruction, not a
+    documented self-application.
 sources:
 - source_id: hal.source.jerome-de-viris
   locus: self-entry and the tradition of his training
+  license: public-domain
+- source_id: hal.source.jerome-apology-rufinus
+  locus: Book I, ch. 16 ("those of my master Donatus on Virgil", file line 51742)
   license: public-domain
 retrieval:
   tier: 2
@@ -36,8 +40,8 @@ senses:
   informational: To call someone praeceptor was to name a specific, structured relationship - the
     particular person under whom one learned grammar, or Hebrew, or scriptural method - not a general
     influence but a named bond with a specific person.
-  evidential: Jerome refers to Donatus by name as his own praeceptor; the same word is applied, on
-    weaker evidence, to his own later direction of study at Bethlehem.
+  evidential: Jerome refers to Donatus by name as his own master, in the Apology against Rufinus; the same
+    word praeceptor is applied, on weaker evidence, to his own later direction of study at Bethlehem.
   personal: Someone formed under a praeceptor did not describe their education as self-taught - they
     named the person who taught them, decades later, by title.
   translational: "Roughly consistent with a modern \"teacher\" or \"mentor,\" though the bond named by\
@@ -52,10 +56,6 @@ use_note:
   years: {from: 382, to: 420}
   status: reviewed
 ---
-Imported from the old system's fuller lexicon development document (Doc_06, Tier-2 entry 3,
-"Praeceptor / teacher-disciple formation bond") at Mark's direction, as a draft, not a final version.
-This term had no standalone record in the new system though four other Tier-2/Tier-3 entries from the
-same document (Monasterium duplex, Xenodochium, Peregrinatio, Epitaphium) had already been migrated -
-its absence was not documented anywhere as a deliberate exclusion, unlike Exegesis-as-practiced-authority,
-Bibliotheca, Scriptorium, and Propositum, which remain excluded here pending Mark's judgment call on
-whether that earlier decision should stand.
+Taken from the old system's fuller lexicon development document (Doc_06, Tier-2 entry 3,
+"Praeceptor / teacher-disciple formation bond"). Bibliotheca, Scriptorium, Propositum and
+Exegesis-as-practiced-authority have their own records in this world.

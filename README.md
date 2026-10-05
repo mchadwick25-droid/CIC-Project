@@ -63,7 +63,7 @@ root `tools/`; everything else in `tools/` — scripts nothing in CI invokes —
 
 | entry | what it is |
 |---|---|
-| `Archive/` | everything superseded, by category and date: former versions, the Ministry-Early-Days-2026-07 strategy drafts, the Syriac-Build stratum of 2026-07, the Pass2 voice-rebuild evidence of 2026-08, the Tour-Experience-Module-Phase2, superseded housekeeping, superseded method documents, superseded engine code, superseded world drafts. Nothing here is current; nothing here is deleted without instruction |
+| `Archive/` | everything superseded, by category and date: former versions, the Ministry-Early-Days-2026-07 strategy drafts, the Syriac-Build stratum of 2026-07, the Pass2 voice-rebuild evidence of 2026-08, the Tour-Experience-Module-Phase2, superseded housekeeping, superseded method documents, superseded engine code, superseded world drafts, superseded records. Nothing here is current; nothing here is deleted without instruction |
 
 ## How a world is named
 

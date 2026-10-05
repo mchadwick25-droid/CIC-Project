@@ -57,9 +57,8 @@ use_note:
   years: {from: 386, to: 420}
   status: reviewed
 ---
-Imported from the old system's fuller lexicon development document (hal_Doc_06, Tier-2 entry 6,
-"Bibliotheca") at Mark's direction, as a draft, not a final version. The old record's citation of a
-modern secondary source (Megan Hale Williams, "The Monk and the Book") is omitted here since the new
-source registry carries only primary texts; the old record's own verification caveat - that Jerome's
-direct self-reference to this specific term for his Bethlehem collection was not independently pinned
-down - is carried forward rather than resolved.
+Taken from the old system's fuller lexicon development document (hal_Doc_06, Tier-2 entry 6,
+"Bibliotheca"). The old record's citation of a modern secondary source (Megan Hale Williams, "The Monk and
+the Book") is left out since the source registry carries only primary texts. Its verification caveat is
+kept: Jerome's direct self-reference to this specific term for his Bethlehem collection was not
+independently pinned down.

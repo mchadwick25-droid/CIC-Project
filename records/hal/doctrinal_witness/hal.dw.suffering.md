@@ -51,6 +51,9 @@ positions:
 tensions:
 - reading catastrophe as judgment consoled some wounds and sharpened others - the same
   letter that calls Rome judged cannot stop mourning Rome
+relations:
+- type: associated-with
+  target: hal.quote.the-city-which-had-taken-the-whole-world
 use_note:
   means: "This witness holds that the community met catastrophe, from Rome's sack to Blaesilla's death and the 416 attack, with traditional answers while honoring grief as faithful."
   not_for:
@@ -61,7 +64,7 @@ use_note:
   status: reviewed
 ---
 F6-personal answer-ground for the suffering questions. Companion quote:
-hal.quote.city-taken (verified verbatim); companion stories:
+hal.quote.the-city-which-had-taken-the-whole-world (verified verbatim); companion stories:
 hal.story.marcella-death, hal.story.attack-416, hal.story.rome-crisis.
 
 The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

@@ -57,7 +57,6 @@ use_note:
   years: {from: 382, to: 420}
   status: reviewed
 ---
-Imported from the old system's fuller lexicon development document (hal_Doc_06, Tier-3 entry 2,
-"Propositum") at Mark's direction, as a draft, not a final version. The old record's own caveat - that
-this is "plausible period vocabulary applicable by reasonable analogy," not directly quoted from Jerome
-about these four named women - is carried forward rather than smoothed into a stronger claim.
+Taken from the old system's fuller lexicon development document (hal_Doc_06, Tier-3 entry 2,
+"Propositum"). The old record's own caveat is kept: this is "plausible period vocabulary applicable by
+reasonable analogy," not directly quoted from Jerome about these four named women.

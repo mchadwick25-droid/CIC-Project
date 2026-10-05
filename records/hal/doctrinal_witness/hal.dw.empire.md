@@ -29,8 +29,8 @@ text: >-
   crossed the whole empire to visit famous monasteries. The hiding times were
   our grandparents' memory. Did the empire's embrace corrupt the church? We
   said yes, loudly - about everyone but ourselves. Our most famous letter
-  mocks clergy who curl their hair, chase inheritances from wealthy widows,
-  and get up before dawn to make social visits. It was written from inside the
+  mocks clergy who curl their hair, wear perfume,
+  and get up with the sun to make social visits. It was written from inside the
   capital by a man who watched it happen. Our own answer to that
   corruption was to leave: trade the comforts of the establishment for
   sackcloth, a monastery beside a cave, and a Bible. What would an outsider
