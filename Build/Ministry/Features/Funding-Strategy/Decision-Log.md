@@ -1595,3 +1595,11 @@ Pages: Go Deeper Accounts Review, `https://claude.ai/artifact/NTTKUrGeKJ73nYkcPN
 ## 2026-10-05 — Go Deeper: Render passes the app's build switches to the Docker build (proved on staging)
 
 The entry above of the same date left this unproved. On staging the first build with `VITE_DEEPER_ENABLED` set to `on` printed `Go Deeper app build: VITE_DEEPER_ENABLED='on'` in its log, and the Go deeper button appeared inside a conversation in the staging app. Render does pass a service's environment variable to the Docker build as the argument the Dockerfile declares.
+
+## 2026-10-05 — Accounts: the panel line, for A4's words list (Mark's words)
+
+Mark's words for the line in the Go deeper panel that explains signing up, recorded here as the first entry on A4's words list. They are his words as given; A4's pull request still brings every participant-facing line to him, with the readability check, before it merges.
+
+"Signing up allows you to keep your conversation and to purchase more conversations. The tokens are held by the account, not by a code in one browser. Codes stay for anyone without an account and for sponsors."
+
+What the line settles: an account holder's tokens belong to the account and are not carried in one browser; a code remains the way anyone without an account holds tokens, and the way a sponsor hands tokens out. Nothing in the codes build changes.
