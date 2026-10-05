@@ -194,5 +194,5 @@ Until every refunded payment is voided, the written rule is that **the module is
 - Crisis turns are not counted by the module, which never sees message content.
 - A refused message that the safety check then lets through to the Facilitator is counted as a refusal.
 - The go-deeper page carries one Payment Link; three packs need three.
-- A sponsor pack has no purchase path of its own. Free hand-outs are made on the admin mint page and are gifts, not sales. The first live codes from the purchase path are real smallest-pack purchases, refunded. A sponsor pack is its own slice if Mark wants one.
+- The shape of a sponsor pack is still open; the webhook can sell a batch product once one is listed in `CIC_DEEPER_PRODUCTS`. Free hand-outs are made on the admin mint page and are gifts, not sales. The first live codes from the purchase path are real smallest-pack purchases, refunded.
 - A partial refund is not reflected in a balance automatically. Use the admin void route.
