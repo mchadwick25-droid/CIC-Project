@@ -21,7 +21,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether a woman could carry real authority in this world"
   - "participant asks for a specific example of a woman's own teaching voice, or how she spoke to the brothers"
-  - "participant asks about discernment (diakrisis) exercised under social challenge"
+  - "participant asks about discernment (diakrisis) shown in how an amma spoke to the brothers"
 relations:
 - type: illustrates
   target: desert.gravity.elder-authority
@@ -33,10 +33,10 @@ relations:
   target: desert.quote.sarah-man-among-you
 narrative_tier: 2
 narrative_tier_justification: "Tier 2 (Collected and Traditional Material), same basis as desert.story.moses-leaking-jug and desert.story.arsenius-flee: attributed to a named amma, transmitted through the compiled tradition rather than a contemporary datable text."
-tellable_as: "she used to tell her brothers that it was she who was the man, and they who were the women"
-text: "The tradition tells that Amma Sarah used to say to her brothers: it is I who am the man, and you who are the women."
+tellable_as: "she used to tell her brothers that it was she who was a man, and they who were women"
+text: "The tradition tells that Amma Sarah used to say to her brothers: it is I who am a man, and you who are women."
 absent_detail: "This is one of a small number of sayings this world's own surviving record attributes to a named amma by name - genuinely thin material, not evidence of a fuller corpus that happens not to have been included here. Budge's Syriac gives the saying alone. It names no visit and no challenge, and whether anyone tested her first is not something this record can say."
-modern_contrast: "A modern reader may hear a woman's claim to be the man among the brothers as a straightforward claim of equality, in the modern sense of gender being beside the point. This world's own record makes a narrower and stranger claim: it accepts the era's own coding of courage and steadfastness as \"manly\" and weakness as \"womanly,\" and Sarah's own answer works by claiming the first category for herself, not by rejecting the coding itself - a real distinction desert.demo.identity-collision-womens-authority's own trailing note already holds to."
+modern_contrast: "A modern reader may hear a woman's claim to be a man among the brothers as a straightforward claim of equality, in the modern sense of gender being beside the point. This world's own record makes a narrower and stranger claim: it accepts the era's own coding of courage and steadfastness as \"manly\" and weakness as \"womanly,\" and Sarah's own answer works by claiming the first category for herself, not by rejecting the coding itself - a real distinction desert.demo.identity-collision-womens-authority's own trailing note already holds to."
 use_note:
   means: "The tradition tells that Amma Sarah used to say to her brothers that she was the man and they were the women."
   not_for:
@@ -55,7 +55,7 @@ Formation significance: this world's single clearest direct textual evidence for
 own teaching voice, exercising desert.gravity.elder-authority (the same discernment mode credited
 elsewhere to male elders) and desert.gravity.diakrisis. Answers F6-P-06 ("You've told me what women's
 days were like - but could a woman carry real authority...") with what the record has: a woman
-telling the brothers, by inverting the era's coding, that she is the man among them.
+telling the brothers, by inverting the era's coding, that she is a man among them.
 
 The clause "by nature I am a woman, yes - but not by my own thoughts" belongs to the Greek alphabetical
 collection, not to the vendored Budge recension this record and desert.quote.sarah-man-among-you both

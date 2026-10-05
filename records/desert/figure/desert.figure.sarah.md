@@ -32,9 +32,7 @@ names:
 - name: Amma Sarah (4th-early 5th c.)
   tag: scholarly
 narratable: true
-bridge_line: one of a small number of women remembered by name in this world's own teaching tradition
-  - six of her sayings survive, including the one where she told the brethren that she was the man among
-  them and they the women
+bridge_line: Sarah is one of a small number of women remembered by name in our teaching. Six of her sayings survive. In one she told the brethren that she was a man among them, and they were women.
 relations:
 - type: associated-with
   target: desert.term.geron-abba-amma
@@ -105,7 +103,7 @@ quote record citing either by name, independently verified) supplies
 the concrete basis this one currently has for Sarah.
 
 No verbatim quotation is made anywhere in this record: the paraphrase
-above ("she was the man among them, and they the women") restates the
+above ("she was a man among them, and they were women") restates the
 saying's substance in this record's own words rather than reproducing
 Doc_09a's quoted English, consistent with desert.source.apophthegmata-patrum's
 own hard rule that no vendored, machine-checkable file exists for this

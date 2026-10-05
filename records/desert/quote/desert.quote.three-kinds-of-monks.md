@@ -65,10 +65,11 @@ ligature in "Cœnobites" and "Cœnobium" and the colons as the edition prints th
 inline cross-reference "See the note on c. vii." follows "Sarabaites" and is left out. Nothing else
 is changed.
 
-This world's three strands follow this passage. Strand A is anchoritic (Pispir and the inner
-mountain), Strand B cenobitic (Tabennesi and the Pachomian federation) and Strand C
-semi-anchoritic (Nitria, Kellia, Scetis). The division comes from this sentence of the vendored
-Cassian, not only from modern scholarship.
+Two of this world's strands map onto this passage. Strand A is anchoritic (Pispir and the inner
+mountain) and Strand B cenobitic (Tabennesi and the Pachomian federation). Cassian's third kind is
+the Sarabaites, not the semi-anchoritic monks of Strand C (Nitria, Kellia, Scetis), so Strand C does
+not come from this sentence. The A and B division comes from this sentence of the vendored Cassian,
+not only from modern scholarship.
 
 The divergence note matters because Piamun is not neutral. He is an anchorite arguing that the
 anchoritic life is the higher one, to a listener who says openly that "in this order we also

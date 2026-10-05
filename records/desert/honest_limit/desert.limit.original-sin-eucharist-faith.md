@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Documented that this content gap exists in the Vita, matching desert.gravity.scriptural-engagement's own account of this world's practical, non-systematized engagement with scripture and doctrine - the gap itself, not a claim about what this world believed, is what this record documents. Documented also for Budge's Syriac recension of the Apophthegmata, checked by full-text search. Inferential/Thin for the Greek collections, which this record cannot check, per desert.source.apophthegmata-patrum's own unconditional Inferential/Thin bound for any claim beyond what the surviving sayings themselves state."
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "Budge's Syriac recension (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt), checked by full-text search: no occurrence of 'original sin', 'sin of Adam', 'faith alone' or any transubstantiation language. 'Body and Blood' occurs once, in a question-and-answer passage at line 2768, which links the daily taking of it to the Spirit given in baptism but does not say what the bread and cup are"
+  locus: "Budge's Syriac recension (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt), checked by full-text search: no occurrence of 'original sin', 'sin of Adam' or 'faith alone'; Adam appears only in passing (lines 2456, 2816). The Eucharist is not a gap here: section 22 (lines 1414-1416) has Abba Daniel tell of a man who held the bread to be a similitude, and the vision that taught him it is the Body of Christ in very truth; line 2552 says the body of our Lord is given to us"
   license: public-domain
 - source_id: desert.source.athanasius-vita-antonii
   locus: "the whole Vita, checked by full-text search: zero occurrences of Adam, eucharist, sacrament, baptism, body and blood, faith alone, original sin, or born again anywhere in the text"
@@ -23,17 +23,17 @@ sources:
   locus: "the whole vendored volume, checked by full-text search: zero occurrences of 'original sin', 'sin of Adam', or any transubstantiation language, which is why those two claims survive - but Conference XIII is entirely on grace and human effort, which is why the faith-and-works claim did not"
   license: public-domain
 statement: >-
-  Were people born already guilty, carrying Adam's sin? Was the bread and cup
-  at communion the very body and blood of Christ? On those two we have no
-  answer to give. No letter or story of ours teaches either one in so many
-  words. One saying of ours says the Spirit given in baptism is confirmed each
-  day by taking Christ's Body and Blood. It does not say what the bread and cup
-  are. Faith and works is different: we did argue that one out, at length,
-  though not in those words. One of us set it down as a whole conference. What
-  he concluded was that the main share in our salvation belongs not to the
-  merit of our own works but to heavenly grace - a share, not the whole of it.
-  Ask us that question and we will send you there rather than plead silence.
-why_sources_cannot_answer: "desert.gravity.scriptural-engagement's own registered evidence is practical and occasion-bound, not systematic - a verse taken up as counsel for one struggle, not a doctrine argued through. Original sin, eucharistic theology, and faith-versus-works are exactly the kind of systematic, school-level questions this world's own surviving voice does not engage; the one place this corpus does show doctrinal boundary-drawing (desert.dw.god, on the Trinity) answers a different question, forced on Antony by outside controversy rather than raised from within. This is a genuine gap in what survives in the Vita, checked directly by full-text search rather than asserted; the same check on Budge's Syriac recension of the Apophthegmata finds no teaching on original sin and none on what the bread and cup are, and the Greek collections are not checked here. Neither gap is evidence that these questions had no answer among desert participants."
+  Were people born already guilty, carrying Adam's sin? On that we have no
+  answer to give. No letter or story of ours teaches it in so many words. The
+  bread and cup of communion are different: one of us told of a man who held
+  the bread to be only a likeness, and of how he was shown that it is the Body
+  of Christ in very truth. Faith and works is also different: we did argue that
+  one out, at length, though not in those words. One of us set it down as a
+  whole conference. What he concluded was that the main share in our salvation
+  belongs not to the merit of our own works but to heavenly grace - a share,
+  not the whole of it. Ask us that question and we will send you there rather
+  than plead silence.
+why_sources_cannot_answer: "desert.gravity.scriptural-engagement's own registered evidence is practical and occasion-bound, not systematic - a verse taken up as counsel for one struggle, not a doctrine argued through. Original sin and faith-versus-works are the kind of systematic, school-level questions this world's own surviving voice does not engage; the one place this corpus does show doctrinal boundary-drawing (desert.dw.god, on the Trinity) answers a different question, forced on Antony by outside controversy rather than raised from within. This is a genuine gap in what survives in the Vita, checked directly by full-text search rather than asserted; the same check on Budge's Syriac recension of the Apophthegmata finds no teaching on original sin, and the Greek collections are not checked here. Neither gap is evidence that these questions had no answer among desert participants."
 nearest_material:
 - desert.dw.grace-and-effort
 - desert.dw.god
@@ -52,9 +52,9 @@ relations:
 - type: associated-with
   target: desert.dw.writings
 use_note:
-  means: "The record attests an argued position on faith and works, with grace holding the main share, but supplies no answer on original sin and no teaching on what the Eucharist is."
+  means: "The record attests an argued position on faith and works, with grace holding the main share, but supplies no answer on original sin. The Eucharist is carried by a saying in Budge's Syriac recension, section 22."
   not_for:
-    - "Narrating a desert doctrine of original sin or eucharistic presence"
+    - "Narrating a desert doctrine of original sin"
     - "Presenting the silence as proof they held no view"
     - "Presenting the faith-and-works conclusion as settled desert doctrine rather than one recorded argument"
   years: {from: 320, to: 430}
@@ -65,10 +65,11 @@ versus works. desert.quote.antony-arians-serpents carries only a
 genuine F3-T claim ("He drove them from the mountain, saying that
 their words were worse than the poison of serpents"), which answers
 none of F1-T's questions, so this record answers F1-T honestly: the
-corpus has nothing on original sin or the eucharist in the Vita
+corpus has nothing on original sin in the Vita
 (verified by full-text search) or in the whole vendored Cassian either
 (zero occurrences of "original sin", "sin of Adam", or any
-transubstantiation language). The Apophthegmata source is cited
+transubstantiation language). The eucharist is addressed by section 22 of
+Budge's Syriac recension, not by the Vita or Cassian. The Apophthegmata source is cited
 for what a full-text search of Budge's Syriac recension shows, with the unconditional
 Inferential-Thin bound for the Greek collections stated in divergence_note.
 

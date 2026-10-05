@@ -35,8 +35,8 @@ narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative), same basis as desert.story.antony-call: named author, contemporary-generation text. The staged pattern (village edge, then a place of greater withdrawal, then greater withdrawal again once the first place stopped being solitary) is the narrative's own repeated structure, not a single incident."
 tellable_as: "not a single departure but a lifelong deepening - each time solitude drew a crowd, going further"
 text: >-
-  Withdrawal was not one act for us. It was repeated. This happened in Antony's
-  earlier life, before our years begin. Antony began close to
+  Withdrawal was not one act for us. It was repeated. Antony's moves came early,
+  before our years begin. Antony began close to
   home, seeking out and copying an old man already living a solitary life near
   his village. From there he moved further, until he found an abandoned fort
   across the river, long deserted and overrun. He crossed over and shut

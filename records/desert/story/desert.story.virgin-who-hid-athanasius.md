@@ -18,9 +18,10 @@ confidence:
     the whole period of thirty years, that is to say, until the death of Constantine", and adds
     "(i.e., Constantius)" after the emperor's name in two places. The vendored Greek Lausiac History
     (Clarke, ch. LXIII, line 591) tells the same story with "six years, as long as Constantius
-    lived", and Clarke's footnote 352 calls the story as it stands unhistorical. The vendored
-    Athanasius (introduction, line 5889) gives six years and fourteen days out of public view, 356
-    to 362. A record may tell this as something the tradition remembered. No record may date it,
+    lived", and Clarke's footnote 352 calls the story as it stands unhistorical. The NPNF
+    editor's introduction to Athanasius (line 5889), citing the Historia Acephala, gives six years
+    and fourteen days out of public view, 356 to 362; Clarke's
+    footnote 350 reads "Cf. Soz. V. 6". A record may tell this as something the tradition remembered. No record may date it,
     count the years, or present it as an established episode in Athanasius' life.
 sources:
 - source_id: desert.source.palladius-paradise-syriac
@@ -35,8 +36,9 @@ sources:
   license: public-domain
 - source_id: desert.source.athanasius-vita-antonii
   locus: >-
-    editor's introduction to Athanasius, The Third Exile (cic/texts/npnf204_athanasius-select-works-letters.xml
-    line 5889) - six years and fourteen days out of public view, 356 to 362
+    the NPNF editor's introduction (not Athanasius's own words), section The Third Exile
+    (cic/texts/npnf204_athanasius-select-works-letters.xml line 5889), citing the Historia Acephala -
+    six years and fourteen days out of public view, 356 to 362
   license: public-domain
 retrieval:
   tier: 2
@@ -56,8 +58,8 @@ relations:
 narrative_tier: 2
 narrative_tier_justification: >-
   Tier 2 (Tradition's Own Telling). The people are historical and the conflict is documented, but
-  the episode is known from Palladius's book alone, in a Greek form that says six years and a Syriac
-  form that says thirty. Not Tier 1, because no independent source corroborates it and the Syriac
+  among the vendored sources the episode is known from Palladius's book alone (Clarke's footnote 350 reads "Cf. Soz. V. 6"), in a Greek form that says six years and a Syriac
+  form that says thirty. Not Tier 1, because no vendored source independently corroborates it and the Syriac
   chronology fails; not Tier 3, because it is not free-floating legend but a specific claim in a
   datable book by a named author who says he had it from the Alexandrian clergy.
 tellable_as: "the archbishop of Alexandria on the run, hidden by a woman nobody would think to suspect"
@@ -83,9 +85,9 @@ text: >-
 absent_detail: >-
   She is not named, here or anywhere. Nothing is said about what she thought of the arrangement
   beyond that she was astonished and then joyful, and nothing about what it cost her to keep a
-  wanted man in her house. The story is known from Palladius alone among the sources this record cites. His Greek form
+  wanted man in her house. Among the vendored sources the story is known from Palladius alone; Clarke's footnote 350 reads "Cf. Soz. V. 6". His Greek form
   says six years, as long as Constantius lived. The Syriac form tells it with thirty years and the
-  name Constantine, with Budge's parenthetical "(i.e., Constantius)". The "thirty years" cannot be right.
+  name Constantine, with Budge's parenthetical "(i.e., Constantius)". The "thirty years" cannot be right: the editor's introduction to Athanasius gives only 356 to 362 for his time out of public view.
 modern_contrast: >-
   A modern reader will hear a story about a woman being useful to a great man, and will notice that
   she is the only person in it without a name. Both are fair. But notice what the story takes for
@@ -97,7 +99,7 @@ modern_contrast: >-
   his hearers would have read as the point: he says he saved two lives, and puts hers second, but
   he puts it in.
 use_note:
-  means: "Palladius reports that an unnamed Alexandrian virgin hid Athanasius from his enemies, a story whose years differ between Palladius's Greek and Syriac forms and that no independent source confirms."
+  means: "Palladius reports that an unnamed Alexandrian virgin hid Athanasius from his enemies, a story whose years differ between Palladius's Greek and Syriac forms and that no vendored source independently confirms."
   not_for:
     - "Dating it, counting its years, or presenting it as an established episode in Athanasius's life"
     - "Naming the woman, whom no source names"

@@ -42,7 +42,7 @@ narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative): named author (Athanasius), specific text and chapter reference, composed within a generation of the events it narrates. Held at Tier 1 for the narrative's existence and general content, not for a claim of verified interior experience."
 tellable_as: "Antony's own call - hearing the Gospel read aloud and taking it as spoken to him directly"
 text: >-
-  This happened in Antony's earlier life, before our years begin. Not long after
+  Antony's call came in his youth, before our years begin. Not long after
   he lost his parents, still a young man, Antony went into
   church one day and heard the Gospel being read. It was the Lord telling the
   rich young man: if you would be perfect, go and sell what you have, give to

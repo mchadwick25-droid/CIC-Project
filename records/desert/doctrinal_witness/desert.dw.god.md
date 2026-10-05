@@ -17,8 +17,8 @@ sources:
   locus: "SS68 - Antony's own rejection of Arian teaching at his own mountain; SS69 - Antony summoned to Alexandria, publicly teaching the Nicene position"
   license: public-domain
 - source_id: desert.source.evagrius-praktikos
-  locus: "Praktikos chs. 2 and 64, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt lines 174 and 443) - apatheia as the Kingdom of Heaven, and the nous beholding its own radiance"
-  address: "cic:evagrius_praktikos_dysinger.txt:2,64"
+  locus: "Praktikos chs. 2 and 3, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt lines 174 and 177) - apatheia as the Kingdom of Heaven, and the Kingdom of God as knowledge of the Holy Trinity"
+  address: "cic:evagrius_praktikos_dysinger.txt:2-3"
   license: cc-by-4.0
 retrieval:
   tier: 1

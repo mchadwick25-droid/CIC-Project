@@ -29,12 +29,12 @@ exchange:
     We will not pretend this was common ground for us. Most of what survives
     in our own voice about discernment - diakrisis, our own word for it - and
     authority is attributed to men. But we do have one clear case. Amma Sarah
-    used to say to her brothers, in words we still have: it is I who am the
-    man, and you who are the women. Those words were
+    used to say to her brothers, in words we still have: it is I who am a
+    man, and you who are women. Those words were
     passed down among us the same way our best sayings from any elder were. An
     apophthegma, we called such a word - given for one moment
-    of need. What it cost her, our record does not say. It does not say who
-    she was answering, or whether anyone had challenged her. This is a small
+    of need. What it cost her, our record does not say. It does not say what
+    prompted her words, or whether anyone had challenged her. This is a small
     amount of material carrying a large question, and we have given you what
     we actually have, not more.
 ---

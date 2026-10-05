@@ -39,7 +39,7 @@ narrative_tier: 3
 narrative_tier_justification: "Tier 3 (Attributed Tradition): the tradition's own portrait of a formed life at its most extreme, not verified incident report, distinguished from Tier 1 material in the same Vita by its own hagiographic genre markers (physically embodied demons, a beast-form combat scene, a climactic vision of light)."
 tellable_as: "shut in a tomb, beaten by demons in the shape of beasts, and rising each time still standing"
 text: >-
-  This happened in Antony's earlier life, before our years begin. The tradition
+  The tombs came early in Antony's life, before our years begin. The tradition
   shows Antony shutting himself inside an abandoned tomb, to
   face what total combat against the interior enemy could mean at its furthest
   edge. Demons came to him there in the night, in a crowd, and beat him until
