@@ -23,7 +23,7 @@ sources:
     layer the narration in Book I draws on
   license: public-domain
 - source_id: don.source.augustine-contra-cresconium
-  locus: "Against Cresconius III.27, section 30: the Acts of the Council of Cirta, headed Diocletiano VIII et Maximiano VII conss. IIII Non. Mart.; cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 47517-47600"
+  locus: "Against Cresconius III.27, section 30: the Acts of the Council of Cirta, headed Diocletiano VIII et Maximiano VII conss. IIII Non. Mart. (the consuls of 303); cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 47517-47600"
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
   locus: "the 411 dispute over the date of the Cirta Acts: the Donatists held the persecution was not yet over on the consuls' day, and the Catholics answered from Augustine's Breviculus; cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt, editor's note, lines 81615-81630"
@@ -46,8 +46,8 @@ held_against:
   as with collective evasion by the interested parties themselves.'
 - Both surviving accounts come through opponents. Optatus tells the story (Against the Donatists I.14), telling
   it specifically to argue that the movement's founders were traditores absolving one another. Augustine
-  preserves the Acts themselves (Against Cresconius III.27), headed with a consul and the day 4 March 305.
-  In 411 the Donatists disputed that date, saying the persecution was not yet over on it. No Donatist-authored
+  preserves the Acts themselves (Against Cresconius III.27), headed with the consuls Diocletian VIII and Maximian VII, which is 303. In 411 the Donatists disputed that
+  date, saying the persecution was not yet over in that year. No Donatist-authored
   or Donatist-voiced account of this specific council survives to confirm any alternative reading of the
   ruling's own meaning directly.
 concedes: 'The bare facts of what happened at Cirta are Documented and not in dispute: the council met;

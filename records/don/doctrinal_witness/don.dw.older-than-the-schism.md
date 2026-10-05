@@ -78,7 +78,7 @@ text: >-
   thing our opponents had, and we would not pretend it is weak. And
   beyond him we cannot take you far. Cyprian himself said he followed an
   older council, under Agrippinus, in the same province. We can show you
-  two African councils in the third century. We cannot show you the apostles.
+  Cyprian's council, and an older one under Agrippinus. We cannot show you the apostles.
 positions:
 - we did not claim an unbroken apostolic pedigree for our practice; the claim we made was that it was
   the settled African position, ruled on by eighty-seven bishops under Cyprian half a century before the
@@ -90,7 +90,7 @@ positions:
 tensions:
 - Cyprian ruled as we ruled and never broke communion over it, which is the strongest argument our opponents
   had and is not answered here
-- the earliest ruling our record shows is the council under Agrippinus in the early third century, so an
+- the earliest ruling our record shows is the council under Agrippinus, about 215-217 by the usual date, so an
   apostolic claim is not available to us even if we had wanted to make one
 relations: []
 use_note:

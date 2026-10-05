@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as author and audience: the manuscript title and the closing line name Macrobius and the church
+    Documented as author and audience: the manuscript title and the scribe's closing line name Macrobius and the church
     at Carthage, and the letter was written close in time to what it describes. His office rests on Mabillon's
     note in the vendored edition, which calls him a Donatist and the hidden bishop of his own people at Rome. Beyond the letter itself almost nothing
     of his career is recorded here. The supernatural elements in his account are his own interpretation
@@ -23,7 +23,7 @@ sources:
   locus: the letter entire, preserved twice in the vendored file from two manuscripts
   license: public-domain
 - source_id: don.source.passio-isaac-et-maximiani
-  locus: "Mabillon's note on the author, cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 1496-1498 and 1509-1510; the closing line of the letter, lines 1930-1932"
+  locus: "Mabillon's note on the author, cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 1496-1498 and 1509-1510; the scribe's closing line, lines 1930-1932"
   license: public-domain
 names:
 - name: Macrobius, writing to the church at Carthage

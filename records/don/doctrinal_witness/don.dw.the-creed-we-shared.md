@@ -54,7 +54,7 @@ text: >-
   seven books to destroy us, and he calls us schismatics on nearly every
   page and heretics on none. Later the emperors' law and Augustine did
   call us heretics. But nobody could name a creed of ours that differed
-  from theirs, so the charge never stuck. Two churches stood in every
+  from theirs. The charge rested on the schism, not a creed. Two churches stood in every
   African town reciting the same faith at each other. That is precisely
   what made the fight unbearable: there was no doctrinal difference to
   point at, only the question of who had the right to say the words at

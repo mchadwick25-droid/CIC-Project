@@ -59,7 +59,7 @@ text: >-
 
 
   Is there a church today you could go and visit that is ours? No. Not
-  one that anyone can trace to us. Our own record ends in 439, when the
+  one that anyone can trace to us. We can speak only up to 439, when the
   Vandals took Carthage and the Roman state that had ruled against us
   lost its hold there. No line runs from us to any communion you could
   walk into now.
@@ -80,7 +80,7 @@ positions:
   imperial law rather than argument
 - our counter-name for the rival was Caecilianist, taken from the consecration we would not accept, and
   withholding the title was a boundary act rather than a description
-- no line runs from us to any present-day communion. Our own record ends in 439, when the Vandals took Carthage
+- no line runs from us to any present-day communion. We can speak only up to 439, when the Vandals took Carthage
 - 'we had no concept of parallel denominations: a party breaking from us was condemned and suppressed, and our
   one dissenting interpreter was cut off and never received back'
 tensions:

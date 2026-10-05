@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented, attested directly in Augustine's own quotation of the Cebarsussi and Bagai sentences, and
+    Documented, attested directly in Augustine's own quotation of the Bagai sentence, and
     carrying the longest and most detailed Layer 1 in Doc_08 - proportional, per Doc_08 SS8, to its status
     as this world's most richly and directly attested internal episode. The caveat is single and belongs on
     every statement of it: the whole affair reaches this record almost entirely through Augustine's own quotation,
@@ -23,7 +23,7 @@ confidence:
     at all.
 sources:
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: "I.1.2 and I.5.7 - the Maximianist condemnation and the reception of Felicianus without repetition; the edition's note on I.1.2 names the 393 synod at Cebarsussi and the 394 council of Bagai, and I.5.7 quotes the council's own word 'sacrilegiously' for those baptized in schism. The decree itself is not quoted in On Baptism"
+  locus: "I.1.2 and I.5.7 - the Maximianist condemnation and the reception of Felicianus without repetition; the edition's note on I.1.2 names the 393 synod at Cebarsussi and the 394 council of Bagai, and I.5.7 and II.12 quote the council's own words ('sacrilegiously' baptized in schism; 'the truthful voice of a plenary Council'). The shipwreck sentence is not quoted in On Baptism"
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
   locus: "the Bagai decree quoted word for word, then Optatus Gildonianus advancing with a military force to bring Felicianus and Praetextatus back (Answer to the Letters of Petilian I.10, section 11; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml lines 15508-15513; a shorter rendering at II.7, line 15875), and turned into the central argument against Donatist rebaptism logic"
@@ -51,8 +51,7 @@ name: The internal Maximianist fracture (393-398) [2B - ongoing/internal]
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  In 393 the deacon Maximian broke away from the mainstream Donatist hierarchy. His grievances
-  concerned discipline and procedure, and they were aimed at Primian, bishop of Carthage. A
+  In 393 the deacon Maximian broke away from the mainstream Donatist hierarchy. His grievances were about discipline and procedure. He aimed them at Primian, bishop of Carthage. A
   council at Cebarsussi then elected Maximian as a rival primate.
 
   In 394 the mainstream party held its own, much larger council at Bagai. That council condemned
@@ -62,28 +61,21 @@ description: >-
   Afterward the mainstream party received the Maximianist clergy back. It repeated neither their
   ordination nor their baptism.
 
-  The consequences were still live in Augustine's own writing as late as about 405-406, and they
-  were pressed again at the 411 Conference. This is attested directly in Augustine's own quotation
-  of the sentences passed at Cebarsussi and at Bagai.
+  Augustine was still writing about it in about 405-406. It was pressed again at the 411 Conference. Augustine quotes the
+  Bagai sentence directly.
 
-  This world's own councils judged its own dissidents. They used the same conciliar authority that
-  governed everything else in its institutional life. Yet when those councils took the Maximianist
+  This world's own councils judged its own dissidents. They used the same conciliar authority that governed everything else in its church life. Yet when those councils took the Maximianist
   clergy back, they did not repeat the rebaptism this world otherwise insists on.
 
-  The record states this plainly. It does so in the same texts that state the doctrine at its most
-  absolute. And it does not treat the two facts as cancelling each other out.
+  The record says this plainly. It does so in the same texts that state the doctrine most strictly. It does not treat the two facts as canceling each other.
 
   This affair is the direct engine of one of this world's central tensions. On one side stands
-  strict purity. On the other stands receiving people back into the institution. Of every internal
-  tension in this world's record, none is quoted directly so rigorously, or so often.
+  strict purity. On the other stands taking people back into the church. No other inner tension in this world is quoted so directly, or so often.
 
-  The affair reshapes how the doctrine of ministerial purity holds together. But it does not break
-  that doctrine apart.
+  The affair changes how the purity doctrine holds together. It does not break the doctrine apart.
 
-  It also supplies the third qualifying case of another tension. This world refuses state
-  authority on principle, yet turns to it in practice. Here the turn was the use of imperial law
-  against its own dissidents in the 390s. And this is the specific event the 411 Conference
-  presses again.
+  It also gives the third case of another tension. This world refuses state
+  authority on principle, yet turns to it in practice. Here that was imperial law used against its own dissidents in the 390s. And this is the very event the 411 Conference pressed again.
 manifestations:
 - the deacon Maximian's break from Primian of Carthage in 393 over disciplinary and procedural grievances
 - the council at Cebarsussi electing Maximian a rival primate, and the much larger council at Bagai (394)

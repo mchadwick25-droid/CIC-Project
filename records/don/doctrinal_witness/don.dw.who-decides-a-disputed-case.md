@@ -14,7 +14,7 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: >-
     Unusually well grounded for this world, because the deciding machinery is exactly what the documentary
-    record preserves: the Cirta acts, the Rome and Arles rulings, the Cebarsussi and Bagai sentences,
+    record preserves: the Cirta acts, the Rome and Arles rulings, the Bagai sentence,
     and the 411 conference transcript all survive in some form. Two hedges are kept. Every one of those
     documents reaches us either inside a Catholic polemicist's own appended dossier or inside a quotation
     made against us, so what survives is the machinery our opponents found it useful to show. And no acta
@@ -58,8 +58,8 @@ text: >-
 
 
   You can check almost all of it, which is rarer than you think. The
-  proceedings survive - the acts of the council at Cirta, the sentences
-  from Cebarsussi and Bagai, and above all the transcript of the great
+  proceedings survive - the acts of the council at Cirta, the sentence
+  from Bagai, and above all the transcript of the great
   conference at Carthage, where an imperial notary took down every word
   for three days. Read that one and you will see how we thought a case
   ought to be handled: our own bishop of Caesarea would not let the court
@@ -91,7 +91,7 @@ text: >-
 positions:
 - decision among us ran through councils of our own bishops, with real disciplinary force - deposition,
   condemnation and restoration
-- 'we know how it worked because the proceedings survive: the Cirta acts, the Cebarsussi and Bagai sentences,
+- 'we know how it worked because the proceedings survive. They are the Cirta acts, the Bagai sentence
   and the full 411 conference transcript'
 - our own procedural instinct, on the record, was to settle standing and warrant before merits - the day,
   the mandate, the persons, then the cause

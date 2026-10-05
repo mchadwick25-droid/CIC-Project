@@ -29,8 +29,7 @@ sources:
   locus: the 411 Conference acts and their precise bishop counts - Registry row 55
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: the Cebarsussi and Bagai sentences quoted directly - the conciliar machinery of this hierarchy in
-    its own words
+  locus: "I.1.2 and I.5.7 - the edition's note names the 393 synod at Cebarsussi and the 394 council of Bagai; I.5.7 and II.12 quote the Bagai council's own words. The Bagai shipwreck sentence is not quoted in On Baptism; it stands in Answer to Petilian I.10"
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
   locus: the imperial legislative targeting of an organised rival clergy and its property
@@ -133,7 +132,7 @@ manifestations:
 - two rival bishoprics at Carthage from the outset, the contest replicated town for town across Africa Proconsularis,
   Numidia, Byzacena and Mauretania
 - the rival consecration of Majorinus (311/312), succeeded from c. 313 by Donatus
-- a full conciliar system - the councils of Cebarsussi and Bagai, and their sentences, quoted directly in
+- a full conciliar system - the councils of Cebarsussi and Bagai, and the Bagai sentence, quoted directly in
   Augustine's own text
 - 279 Donatist against 286 Catholic bishops seated at the 411 Conference of Carthage
 - the property and basilica disputes that presuppose two complete rival institutional claimants

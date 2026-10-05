@@ -41,14 +41,14 @@ relations:
 - type: associated-with
   target: don.figure.isaac-and-maximianus
 narrative_tier: 1
-narrative_tier_justification: 'Tier 1 (Doc_09 SS3): Macrobius is named in the manuscript title and the closing line, which also name the church at
-  Carthage he addresses; the edition''s note, not the letter, calls him a Donatist bishop hidden at Rome; and
-  he writes close in time (347-348) to the events described -- every element Tier 1 requires, and the element that donstory001 and donstory002 both lack.
+narrative_tier_justification: 'Tier 1 (Doc_09 SS3): the letter is addressed to the people of Carthage and written close in time (347-348) to the events
+  described; the manuscript title and the scribe''s closing line, not the letter''s own words, name Macrobius;
+  and the edition''s note calls him a Donatist bishop hidden at Rome -- every element Tier 1 requires, and the element that donstory001 and donstory002 both lack.
   This is a disclosed departure from Doc_05 SS11''s own handoff, which grouped all three Macarian-persecution
   martyr texts together as ''Tier 2/3 material''; this text alone, of the three, carries a named author
-  writing in his own voice to a real, identified audience (Story-Chunks/donstory003, Tier Justification).'
+  writing to a real, identified audience (Story-Chunks/donstory003, Tier Justification).'
 tellable_as: Macrobius writes to the church at Carthage. He tells how Isaac and Maximianus died.
-text: 'Macrobius wrote to the church at Carthage, in the aftermath of what he had witnessed, to tell them
+text: 'Macrobius wrote to the church at Carthage, in the aftermath of the deaths, to tell them
   what had happened to two of their own. The editor''s note calls him a Donatist bishop, hidden at Rome.
 
 

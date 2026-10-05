@@ -42,34 +42,25 @@ relations:
   target: don.contested.maximianist-reception
 name: Purity-Rigor vs. Institutional Reception (the Maximianist precedent) [TENSIONAL]
 description: >-
-  This is a real, unresolved tension. It has two truly distinct poles, and they are separated in
-  actual institutions.
+  This is a real, unresolved tension. It has two distinct poles. They are kept apart in real institutions.
 
-  On one side stands the stated, absolute rule. Clergy who were schismatic or invalidly ordained
-  must be rebaptized and reordained. This rule comes from the purity doctrine and from rebaptism
+  On one side stands the stated, absolute rule. Clergy who were schismatic or wrongly ordained must be baptized and ordained again. This rule comes from the purity doctrine and from rebaptism
   as the rite that marks the boundary.
 
-  On the other side stands what the main Donatist party actually did. When the Maximianist clergy
-  returned, the party received them back into office and communion. It did not repeat their
+  On the other side stands what the main Donatist party actually did. When the Maximianist clergy came back, the party took them back into office and communion. It did not repeat their
   ordination or their baptism.
 
-  Augustine quotes this fact directly and repeatedly, from primary material close to the
-  Donatists. He turns it into his single central argument against their logic of rebaptism. This
+  Augustine quotes this fact directly and often, from sources close to the Donatists. He turns it into his single central argument against their logic of rebaptism. This
   has been checked against his On Baptism and Answer to the Letters of Petilian.
 
-  The separation is real. This is a specific, named episode with clear limits in time. It covers
-  the Maximianist schism of 393, its condemnation at Bagai in 394, and the reception that
-  followed. It has its own documents: the sentences of Bagai and Cebarsussi. It is not an abstract
-  inconsistency.
+  The separation is real. It is a named episode with clear limits in time. It covers the Maximianist schism of 393. It covers its condemnation at Bagai in 394, and the reception after. It has its own document, the Bagai sentence. It is not an abstract clash.
 
-  The pattern recurs in the record. What it tests, specifically, is the inner coherence of the
-  purity doctrine. And it directly reshapes that doctrine.
+  The pattern recurs in the record. It tests the inner coherence of the purity doctrine. And it directly reshapes that doctrine.
 
   Confidence is high, at this world's top evidentiary tier. Of all the tensions inside this world, this one is quoted directly
   most rigorously and most often across the texts we hold.
 
-  The pressure came from inside, not from any outside force. The Maximianist split (393-398) was
-  an ongoing strain within the councils of the movement's own parallel hierarchy.
+  The pressure came from inside, not from any outside force. The Maximianist split (393-398) was a lasting strain inside the councils of the movement's own parallel hierarchy.
 
   That split is the only force this tension connects to. It is the narrowest link of any
   pattern in this world's account. The narrowness is not a sign of doubt about our confidence.
@@ -78,25 +69,21 @@ description: >-
   This tension is tightly scoped to one episode. Its whole evidence base is the Maximianist
   affair. So one connected force is exactly what we should expect. It is not a gap.
 
-  It reshapes three patterns. First, it reshapes the purity doctrine. Receiving the Maximianists
-  without reordination strikes directly at the doctrine's inner consistency, and Augustine makes
-  that his central argument. Second, it tests and complicates rebaptism in the same direct way.
+  It reshapes three patterns. First, it reshapes the purity doctrine. Taking the Maximianists back without a new ordination strikes at the doctrine's inner consistency. Augustine makes that his central argument. Second, it tests and complicates rebaptism in the same direct way.
   Third, it reshapes the parallel hierarchy. The split happened inside the hierarchy's own
   councils. It could not have happened without an institution that complex to break apart.
 
-  It has a narrow reinforcing link to the Circumcellions. Circumcellions were reportedly involved
-  in suppressing the Maximianists. But that report comes through hostile sources. It is not
+  It has a narrow reinforcing link to the Circumcellions. The Circumcellions were reported to help suppress the Maximianists. But that report comes through hostile sources. It is not
   treated as independent proof of what the Circumcellions were like.
 
   It has no demonstrated link to this world's other tension: principled refusal of the state
   against pragmatic turns to it. The reason is the same one given there. The two work on different
-  axes. One concerns relations with the state. The other concerns consistency of discipline inside
-  the church. No evidence in this world's record connects them directly. Naming that absence is
+  axes. One concerns relations with the state. The other concerns how steady discipline was inside the church. No evidence in this world's record connects them directly. Naming that absence is
   itself a finding, not an oversight.
 manifestations:
 - the mainstream Donatist party's own council at Bagai (394) receiving the Maximianist clergy back without
   repeating either ordination or baptism
-- Augustine, quoting the Cebarsussi and Bagai sentences directly, turning the reception into his single
+- Augustine, quoting the Bagai sentence directly, turning the reception into his single
   central argument against Donatist rebaptism logic
 classification: tensional
 use_note:

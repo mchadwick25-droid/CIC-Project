@@ -55,8 +55,9 @@ exchange:
     The third we can show you in our own handwriting, because a court read it
     out. When a charge came against one of our bishops, another wrote urging
     him to settle it quietly before the flame burst out — and added, in the
-    same letter, that he knew the accusation was true. Several of those
-    letters end the same way. Let no one know about it.
+    same letter, that he knew the accusation was true. A court read out six
+    such letters from our bishops, and several end the same way. Let no one
+    know about it.
 
 
     And underneath all three: we produced one man who could think, and we

@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     Doc_04 SS3.6, T2: Documented - the most rigorously and repeatedly directly-quoted internal tension in
-    this world's entire vendored corpus (Registry rows 3, 4, 47), with the Bagai and Cebarsussi sentences
+    this world's entire vendored corpus (Registry rows 3, 4, 47), with the Bagai sentence
     quoted rather than paraphrased. The caveat is single, and belongs on every statement of this tension:
     the whole episode reaches this record through Augustine, who quotes the decree specifically in order to
     build his central argument against the rebaptism logic. His selection and framing serve that purpose.
@@ -23,7 +23,7 @@ confidence:
     independent corroboration.
 sources:
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: the Bagai and Cebarsussi sentences quoted directly - Registry row 3
+  locus: "I.1.2 and I.5.7 - the Maximianist condemnation and the reception of Felicianus without repetition; I.5.7 and II.12 quote the council's own words ('sacrilegiously' baptized in schism; 'the truthful voice of a plenary Council'). The Bagai shipwreck sentence is not quoted in On Baptism; it stands in Answer to Petilian I.10"
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
   locus: the Bagai decree quoted again, turned into the central argument against Donatist rebaptism logic
@@ -48,8 +48,7 @@ relations:
 name: Purity-rigor against institutional reception - the Maximianist precedent [TENSIONAL]
 classification: tensional
 description: >-
-  This is confirmed as a real, unresolved tension. Such a tension needs two truly distinct poles,
-  separated in actual institutions or practice. This one meets that bar through a specific, dated
+  This is confirmed as a real, unresolved tension. Such a tension needs two distinct poles, separated in real institutions or practice. This one meets that bar through a specific, dated
   episode with clear limits.
 
   The first pole is the stated, absolute rule. Clergy who were schismatic or invalidly ordained
@@ -63,9 +62,9 @@ description: >-
   Augustine quotes this fact directly and repeatedly, from primary material close to the
   Donatists. He turns it into his single central argument against their logic of rebaptism.
 
-  The separation is real. This is a specific, named episode with limits in time. It covers the
+  The separation is real. It is a named episode with limits in time. It covers the
   Maximianist schism of 393, its condemnation at Bagai in 394, and the reception that followed. It
-  has its own documents: the sentences of Bagai and Cebarsussi. It is not an abstract
+  has its own document, the Bagai sentence. It is not an abstract
   inconsistency.
 
   The pattern recurs in the record. What it tests, specifically, is the inner coherence of the
@@ -76,12 +75,10 @@ description: >-
   most rigorously and most often across the texts we hold.
 
   The evidence does not rest on hostile opinion alone. The episode is a specific, dated event with
-  its own documentary trace. Augustine's own writing quotes the sentences of Bagai and Cebarsussi
-  directly. So it does not rest purely on a hostile writer's interpretation.
+  its own documentary trace. Augustine quotes the Bagai sentence directly. So it does not rest only on a hostile writer's view.
 
-  The risk that it reflects one author's view is low. It is the most directly and repeatedly
-  quoted internal tension in the texts we hold. It does not rest on a single voice or a thin
-  stream of evidence.
+  The risk that it shows one author's view is low. It is the most directly and repeatedly
+  quoted internal tension in the texts we hold. It does not rest on one voice or thin evidence.
 
   We do not treat the Maximianists as a second tradition within this world. Theirs was a dispute
   over who should hold a bishop's see, not a distinct pattern of communal life. So this is a
@@ -94,7 +91,7 @@ description: >-
   pattern in this world's account. It is narrower even than the Circumcellions, who connect to
   two.
 
-  That narrowness is exactly what a tightly scoped, single-episode tension should show. It is not
+  That narrowness is just what a tight, one-episode tension should show. It is not
   a gap. It is not a sign of doubt about our confidence either. No extra links have been invented
   to bring it in line with the others.
 manifestations:
@@ -102,7 +99,7 @@ manifestations:
   a rival primate
 - the Bagai council of 394 and its condemnation of the Maximianists
 - the Maximianist clergy received back into office and communion without repeated ordination or baptism
-- the Bagai and Cebarsussi sentences, quoted directly rather than paraphrased in Augustine's own text
+- the Bagai sentence, quoted directly rather than paraphrased in Augustine's own text
 - the same texts stating the doctrine at its most absolute also stating the exception plainly, without treating
   the two as cancelling each other
 use_note:

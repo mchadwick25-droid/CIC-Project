@@ -28,7 +28,7 @@ sources:
   locus: Felicianus 'not held by the Donatists themselves to have lost either sacrament'
   license: public-domain
 - source_id: don.source.augustine-contra-cresconium
-  locus: the Cebarsussi and Bagai sentences quoted against the Donatist case
+  locus: the Bagai sentence quoted against the Donatist case
   license: public-domain
 retrieval:
   tier: 2

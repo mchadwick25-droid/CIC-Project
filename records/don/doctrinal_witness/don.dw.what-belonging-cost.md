@@ -68,10 +68,10 @@ text: >-
 
 
   And now and then it cost everything. A letter went to the church at
-  Carthage from Macrobius, who is said to have been a bishop of ours,
+  Carthage from Macrobius, whom the editor's note calls a bishop of ours,
   hidden at Rome. It told of two martyrs flogged to death. The proconsul
   had their bodies weighted and sunk in the sea, so that nobody could
-  venerate them. He did not end the
+  venerate them. Macrobius did not end the
   letter with consolation. He ended it by telling the people reading it
   that what happened to those two might yet be asked of any of them.
 

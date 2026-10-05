@@ -17,7 +17,7 @@ confidence:
     that edition. The first sentence is worded "what we look to is the conscience of the giver" at II.3.
 sources:
 - source_id: don.source.augustine-answer-to-letters-of-petilian
-  locus: "Answer to the Letters of Petilian I.2, section 2 (line 15368) and section 3 (line 15376), where Augustine quotes Petilian's letter; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml. The first sentence recurs at II.3, section 6 (line 15788)."
+  locus: "Answer to the Letters of Petilian I.1, section 2 (line 15368) and I.2, section 3 (line 15376), where Augustine quotes Petilian's letter; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml. The first sentence recurs at II.3, section 6 (line 15788)."
   license: public-domain
 retrieval:
   tier: 1
@@ -48,8 +48,8 @@ modern_lens_note: 'A modern reader may hear "the conscience of the giver" as a c
   and more structural than that: it is about whether the minister''s own hand was tainted by a specific,
   checkable act (surrendering scripture under persecution), not about an unknowable inner feeling.'
 modern_rendering: >-
-  What we look for is the conscience of the giver, to cleanse the conscience of the one who receives. ... Whoever
-  takes faith from the faithless receives not faith, but guilt.
+  What we look for is the conscience of the giver, to cleanse the conscience of the one receiving. ...
+  For anyone who receives faith from the faithless receives not faith, but guilt.
 use_note:
   means: "Petilian held that the giver's conscience is what cleanses the recipient's, so faith taken from the faithless brings guilt instead."
   not_for:
@@ -60,4 +60,4 @@ use_note:
   years: {from: 395, to: 401}
   status: reviewed
 ---
-Petilian's words reach us only inside Augustine's Answer, in the English translation of the Nicene and Post-Nicene Fathers edition. The first sentence is quoted at I.2, section 2, and the second at I.2, section 3. The first returns at II.3, section 6, in the form "what we look to is the conscience of the giver", and Augustine comes back to it many times in Books II and III. The edition's introduction gives the Latin of both sentences (line 10280) with the editor's bracketed variant readings. Those variants are the editor's, so the Latin is not reproduced here.
+Petilian's words reach us only inside Augustine's Answer, in the English translation of the Nicene and Post-Nicene Fathers edition. The first sentence is quoted at I.1, section 2, and the second at I.2, section 3. The first returns at II.3, section 6, in the form "what we look to is the conscience of the giver", and Augustine comes back to it many times in Books II and III. The edition's introduction gives the Latin of both sentences (line 10280) with the editor's bracketed variant readings. Those variants are the editor's, so the Latin is not reproduced here.
