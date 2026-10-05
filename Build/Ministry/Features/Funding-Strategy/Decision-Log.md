@@ -1556,6 +1556,13 @@ Ruled:
   tokens and conversations. What remains unjoinable: the files at rest and
   their backups hold no address and no name; joining an account to a person
   needs the server's secret and Stripe together. The privacy page states this.
+- Stripe's information stays with Stripe. The program keeps nothing Stripe
+  holds about a buyer: no name, email, card, address or receipt detail. The
+  webhook reads only the link, the paid status, the purchase reference, the
+  amount and the currency. The account store never receives anything from
+  Stripe; the sign-in address is the one the person types, used for one send
+  and not kept. The payment id alone stays, under decision 29, for refunds.
+  (Modification by Mark, 2026-10-05, after convergence.)
 - Accounts ship dark behind CIC_ACCOUNTS_ENABLED. Off, the product is the
   codes product exactly.
 - Order: codes launch first. Account slices start after the door's observe
@@ -1569,6 +1576,8 @@ withdrawal right at checkout.
 Plan: Accounts Build Plan (artifact). Analysis: Go Deeper Accounts Review
 (artifact). The Opus thread attacks the account store as a join before the
 shelf slice merges.
+
+A6 proof added by this modification: the account file's bytes hold no value that appears in a webhook payload other than the payment id. The proof joins the other named A6 proofs and is guarded the same way.
 
 Pages: Go Deeper Accounts Review, `https://claude.ai/artifact/NTTKUrGeKJ73nYkcPNfhjJ`; Accounts Build Plan, `https://claude.ai/artifact/GHerMTQjcKNkLKM1GrvK83`.
 
