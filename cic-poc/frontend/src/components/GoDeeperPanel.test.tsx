@@ -100,6 +100,19 @@ describe('GoDeeperPanel', () => {
     expect(screen.queryByText(/free tokens left/)).not.toBeInTheDocument();
   });
 
+  it('forgets a free count when a code is added or removed, so a stale one cannot come back', async () => {
+    const { GoDeeperPanel, deeper } = await load(true);
+    render(<GoDeeperPanel />);
+    act(() => deeper.reportFreeLeft(440));
+    expect(await screen.findByText('440 free tokens left.')).toBeInTheDocument();
+    act(() => {
+      deeper.saveCode(CODE);
+      deeper.reportBalance(CODE, 1100, false);
+    });
+    act(() => deeper.removeCode());
+    expect(screen.queryByText(/free tokens left/)).not.toBeInTheDocument();
+  });
+
   it('shows no free count while the module is off', async () => {
     const { GoDeeperPanel, deeper } = await load(false);
     const { container } = render(<GoDeeperPanel />);

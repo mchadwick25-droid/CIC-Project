@@ -154,7 +154,7 @@ function forget(code: string) {
   const codes = changeStoredCodes((stored) => stored.filter((c) => c !== code));
   const balances = { ...state.balances };
   delete balances[code];
-  update({ ...state, codes, balances, remaining: total(codes, balances), low: false });
+  update({ ...state, codes, balances, remaining: total(codes, balances), low: false, freeLeft: null });
 }
 
 /** Adds a code to the ones this browser holds. Returns false when the text is not a code. */
@@ -166,7 +166,7 @@ export function saveCode(raw: string): boolean {
     return true;
   }
   const codes = changeStoredCodes((stored) => (stored.includes(code) ? stored : [...stored, code]));
-  update({ ...state, codes, claim: null });
+  update({ ...state, codes, claim: null, freeLeft: null });
   void refreshBalance(code);
   return true;
 }

@@ -603,6 +603,17 @@ def test_the_free_count_respects_the_door_share(store, usage_store, world_loader
     assert runtime.free.left("someone", 0.5) == runtime.free.window_amount // 2 - 10
 
 
+def test_the_free_count_excludes_a_reservation_in_flight_and_gives_it_back(store, usage_store, world_loader, registry, runtime):
+    held = runtime.free.reserve("visitor-a", 25)
+    assert held is not None
+    assert runtime.free.left("visitor-a") == runtime.free.window_amount - 25
+    runtime.free.settle(held, False)
+    assert runtime.free.left("visitor-a") == runtime.free.window_amount
+    spent = runtime.free.reserve("visitor-a", 25)
+    runtime.free.settle(spent, True)
+    assert runtime.free.left("visitor-a") == runtime.free.window_amount - 25
+
+
 def test_a_module_that_is_off_reports_no_free_count(store, usage_store, world_loader, registry):
     http = build(store, usage_store, world_loader, registry, RecordingClient())
     session_id, auth = open_session(http)
