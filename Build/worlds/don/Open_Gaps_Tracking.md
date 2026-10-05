@@ -908,4 +908,12 @@ Waiver changes in `engine/m9/enforce.py` named by the m9 run, made on this branc
 - Line 171, `m1:readability/don`: `count=330` becomes `count=313`.
 - Line 193, `m1:status-ready/don`: `count=25` becomes `count=21`.
 
+Waiver changes the m9 run names after the item 14 merge, not yet made (`engine/m9/enforce.py` is not edited here; they need the project lead's approval):
+
+- Line 153, `m1:reciprocity/don`: `count=52` becomes `count=37`.
+- Line 171, `m1:readability/don`: `count=313` becomes `count=309`.
+- Line 193, `m1:status-ready/don`: `count=21` becomes `count=16`.
+- Line 194, `m1:cells-required/don`: `count=30` becomes `count=25`.
+- New, `m1:referential/don`: five unwaived findings, the `grounded_in` lines of `Build/worlds/don/surface/world_front/don.front.donatism.md` (lines 129, 152, 163, 184 and 213) that still name the archived gravity ids. Either those five lines are repointed at the kept records, or a waiver of `count=5` is added; both sit outside `records/`.
+
 Every fix sits on branch `build/don-slice6`. Every voiced record file is part of don's compiled package, so the branch lands with don's next package rebuild, repin and paid re-admission (decision 36). Status: OPEN until it lands.
