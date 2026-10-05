@@ -212,16 +212,15 @@ describe('GoDeeperPanel, pilot', () => {
     vi.unstubAllGlobals();
   });
 
-  it('says the pilot is full, and links the feedback form for a shared connection', async () => {
+  it('says a shared connection has taken its share, with no link to a form', async () => {
     vi.resetModules();
     vi.stubEnv('VITE_DEEPER_ENABLED', 'on');
     vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ status: 409, ok: false, json: async () => ({ joined: false, reason: 'address_limit' }) }));
     window.history.replaceState(null, '', '/#cic-pilot=general');
     const { GoDeeperPanel } = await import('./GoDeeperPanel');
     render(<GoDeeperPanel />);
-    const link = await screen.findByRole('link', { name: 'feedback form' });
-    expect(link).toHaveAttribute('href', 'https://churchinconversation.com/pilot-feedback.html');
-    expect(screen.getByRole('complementary')).toHaveTextContent('This connection has already taken the free packs the pilot allows.');
+    expect(await screen.findByText('This connection has already taken the free packs the pilot allows.')).toBeInTheDocument();
+    expect(screen.queryByRole('link')).not.toBeInTheDocument();
     vi.unstubAllGlobals();
   });
 });

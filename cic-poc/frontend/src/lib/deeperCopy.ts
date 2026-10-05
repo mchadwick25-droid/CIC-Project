@@ -32,7 +32,6 @@ export const pilotCopy = {
   already: 'You have joined the pilot. Your pack is in this browser.',
   full: 'The pilot is full. Thank you for your interest.',
   ended: 'The pilot has ended. Thank you.',
-  addressLimit: 'This connection has already taken the free packs the pilot allows. If that seems wrong, tell us through the',
-  feedbackForm: 'feedback form',
+  addressLimit: 'This connection has already taken the free packs the pilot allows.',
   failed: "We couldn't get your pack. Try again from the pilot page.",
 };
