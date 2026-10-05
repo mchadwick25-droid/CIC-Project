@@ -339,7 +339,7 @@ class Meter:
             except BaseException:
                 self._conn.execute("ROLLBACK")
                 raise
-        logger.info("minted kind=%s codes=%d tokens=%d", kind, len(made), tokens)
+        logger.debug("minted kind=%s codes=%d tokens=%d", kind, len(made), tokens)
         return made
 
     def _row(self, code_hash: str):
@@ -450,7 +450,7 @@ class Meter:
                 "UPDATE meter SET status = 'void', week_last_used = ? WHERE payment_id = ? AND status != 'void'",
                 (week, payment_id),
             ).rowcount
-        logger.info("voided codes=%d", changed)
+        logger.debug("voided codes=%d", changed)
         return changed
 
     def payment_minted(self, payment_id: str) -> bool:

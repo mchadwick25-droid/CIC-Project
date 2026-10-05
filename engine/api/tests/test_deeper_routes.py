@@ -626,11 +626,12 @@ def test_a_checkout_with_no_usable_amount_counts_nothing(http, gift_runtime, amo
     assert gift_runtime.meter.net_funds()["gift"] == 0
 
 
-def test_a_working_purchase_leaves_no_log_line_but_a_stray_event_does(http, runtime, caplog):
+def test_a_working_purchase_and_a_full_refund_leave_no_log_line_but_a_stray_event_does(http, runtime, caplog):
     caplog.set_level(logging.INFO)
     assert post_event(http, completed(payment="pi_logged")).status_code == 200
     assert post_event(http, completed(payment="pi_logged")).status_code == 200
-    assert not [r for r in caplog.records if "webhook handled" in r.getMessage()]
+    assert post_event(http, refunded(payment="pi_logged")).status_code == 200
+    assert not [r for r in caplog.records if r.name.startswith("cic.deeper")]
     assert post_event(http, completed(payment="pi_other", link="plink_not_ours")).status_code == 200
     handled = [r.getMessage() for r in caplog.records if "webhook handled" in r.getMessage()]
     assert handled == ["webhook handled type=checkout.session.completed outcome=ignored_not_ours"]
