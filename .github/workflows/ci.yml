@@ -413,11 +413,21 @@ jobs:
       - run: pip install -r engine/m8/requirements.txt
       - run: pip install -r engine/api/requirements.txt
       - run: pip install pytest-xdist
+      # The compiled packages are a deterministic function of the records,
+      # the pins and the compiler (M2's own gate: byte-identical twice), so
+      # a run whose inputs match a cached set skips the restore (about
+      # three minutes a run; 2026-10-05).
+      - uses: actions/cache@v4
+        id: packages-cache
+        with:
+          path: packages/*/*/compiled
+          key: compiled-packages-${{ hashFiles('records/**', 'packages/**/manifest.json', 'engine/m2/**', 'engine/m1/**', 'fixtures/**') }}
       # Compiled packages are derived and not in git (see .gitignore);
       # rebuild the pinned ones from records once, up front - M3, M4, M2
       # compiler checks, and engine/api tests below all read package bytes
       # and previously each ran this same deterministic step separately.
-      - run: python -m engine.m2.cli restore
+      - if: steps.packages-cache.outputs.cache-hit != 'true'
+        run: python -m engine.m2.cli restore
 
       # M1 gate battery selftest (fixture world). Added stage 1 of the
       # redesign build (Build-Blueprint.md, branch build/phase-1). The
