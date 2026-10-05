@@ -129,6 +129,7 @@ Weekly usage credits keep running out. To fix that without losing quality (and w
 - Batch related work into one longer session instead of many short restarted ones; short sessions lose the prompt cache and re-pay for context every time.
 - Spread heavy build/review days across the week instead of bursting most of a week's work into 1–2 days.
 - Use event-driven waits (PR/CI subscriptions) instead of manual polling loops.
+- Pull requests cost CI minutes and waiting time by the push, not by the size: batch related slices into one pull request, open it as a draft, push once after the local checks pass, then mark it ready. One full CI run per pull request is the target; three speculative pushes pay for three (ruled 2026-10-05).
 - Check `/usage` periodically to catch a runaway pattern before it costs the rest of the week.
 - Max-200 draws Claude chat, Claude Code, and Cowork from one shared usage pool — if more than one surface is in use, watch total burn across all of them, not just this session.
 - Confirm "extra usage" is OFF in Settings → Usage (or capped at $0). On a tight budget, hitting the weekly ceiling is a signal to spend less via the discipline above, not a cue to let paid overage kick in — don't leave it toggled on "just in case." A session's own internal cost telemetry (what work would have cost at raw API rates) is not a bill by itself; only actual overage usage is. If overage is ever needed for something genuinely unavoidable, turn it on deliberately, do the one thing, and turn it back off.
