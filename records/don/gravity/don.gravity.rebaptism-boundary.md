@@ -32,7 +32,7 @@ sources:
   locus: Petilian's own quoted argument for the practice - Registry rows 4, 12
   license: public-domain
 - source_id: don.source.petilian-of-constantina-letters-quoted
-  locus: "npnf104_augustine-anti-manichaean-anti-donatist.xml, Answer to the Letters of Petilian I.1-2 - line 15368 is Augustine's paraphrase (the Donatists do not repeat baptism but confer what hitherto was wanting); line 15376 quotes Petilian's own words ("what we look for is the conscience of the giver"; "receives not faith, but guilt")"
+  locus: "npnf104_augustine-anti-manichaean-anti-donatist.xml, Answer to the Letters of Petilian I.1-2 - line 15368 is Augustine's paraphrase (the Donatists do not repeat baptism but confer what hitherto was wanting); line 15376 quotes Petilian's own words ('what we look for is the conscience of the giver'; 'receives not faith, but guilt')"
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
   locus: successive edicts naming rebaptism of Catholics specifically as a legal offence

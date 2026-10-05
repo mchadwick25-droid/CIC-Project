@@ -72,7 +72,7 @@ description: >-
   least at risk of reflecting a single author's concerns.
 
   It is the conviction of being the pure, persecuted, true church, proved true by what it has
-  suffered. It lives in yearly commemoration in the basilica where they lie and in sermons preached on martyrs'
+  suffered. It lives in yearly commemoration at the grave and in sermons preached on martyrs'
   anniversaries. It lives in the Passio literature and in the Deo laudes acclamation.
 
   The risk that this pattern reflects one author's view is low. It rests on the strongest evidence
