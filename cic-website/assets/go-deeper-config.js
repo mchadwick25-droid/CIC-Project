@@ -7,10 +7,10 @@
   // Off until Go Deeper is turned on, so the home and Get Involved pages make no
   // request to a route that does not exist yet.
   root.GoDeeperConfig = {
-    enabled: false,
+    enabled: true,
     // On when a pilot audience is open; off, the pilot page shows nothing.
     pilot: false,
-    app: isLocal ? "http://localhost:5173" : "https://cic-engine.onrender.com",
-    api: isLocal ? "http://localhost:8000" : "https://cic-engine.onrender.com",
+    app: isLocal ? "http://localhost:5173" : "https://cic-engine-staging.onrender.com",
+    api: isLocal ? "http://localhost:8000" : "https://cic-engine-staging.onrender.com",
   };
 })(window);
