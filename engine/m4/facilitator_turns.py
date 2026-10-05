@@ -209,71 +209,27 @@ def limit_turn(text: str) -> dict:
     return {"kind": "limit", "text": text}
 
 
-SESSION_CAP = FacilitatorTurn(
-    kind="close",
-    text=(
-        "This is the Facilitator stepping in - we've reached the end of what one sitting with "
-        "{representative_name} is built to hold: ten exchanges.\n\n"
-        "I want to be honest with you about why there's a limit, not just that there is one. Every "
-        "exchange here is a real, billed call to the model speaking with you - it costs actual money to "
-        "run, every time, for every conversation. Ten is where we can hold that line honestly right now.\n\n"
-        "This conversation is closed, but nothing in it is lost - it stayed exactly what it was while it "
-        "lasted. If it was worth having, and you're able, this project runs on people who support it "
-        "directly - churchinconversation.com/support.html has more on that, and what the giving actually "
-        "goes toward. We're also working toward a paid option built specifically to let a conversation "
-        "like this run longer, for anyone who wants to go deeper than ten exchanges gives.\n\n"
-        "Either way, you're welcome to start fresh - with {representative_name} again, or with one of "
-        "this project's other worlds and voices."
-    ),
-)
+CAP_CLOSE_TEXT = "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
+
+SESSION_CAP = FacilitatorTurn(kind="close", text=CAP_CLOSE_TEXT)
 
 
 def session_cap_turn(representative_name: str, limit_text: str | None = None) -> dict:
-    """DRAFT TEXT, not yet approved - see this module's own note
-    on what that approval process looks like for every other facilitator
-    text here. Wired in now so the mechanism (Build/reference/Redesign-Spec/Artifact-6-
-    Operations.md's "per-session turn cap", DECIDABLE default 40, resolved
-    to 10) is complete and tested; the copy itself is
-    swappable without touching engine.m4.turn's routing.
-
-    Names its own cost honestly - honest about cost, each round adding to
-    the cost, still gracious but meant to inspire giving - rather than only
-    naming the limit, and points to
-    cic-website/support.html, the project's own already-published Get
-    Involved page (Faithways Studio, Inc.), rather than inventing new
-    giving mechanics here. Deliberately carries no specific dollar figure:
-    support.html's own published rate ($2-5/hour) was measured for the
-    multi-voice Table experience, not the single-Representative path this
-    turn cap governs (engine/m8/live_cost_run.py measured roughly $0.25/hour
-    for that path) - a real discrepancy to reconcile before either number
-    appears in participant-facing text, not something to paper over here by
-    picking one. Also names a future paid option for longer conversations -
-    not yet built, stated as a direction, not a
-    promise of a date or price.
-
-    representative_name comes from world.frame["representative"]["name"],
-    same source and same reason as dependency_check_turn above."""
+    """The sitting's turn cap, reached on a message that is not a crisis. One
+    plain line serves every limit. With the Go Deeper module on, limit_text is
+    the module's own line and the sitting stays open; without it the sitting
+    closes with this one. representative_name is kept so callers do not change."""
     if limit_text is not None:
         return limit_turn(limit_text)
-    text = SESSION_CAP.text.format(representative_name=representative_name)
-    return {"kind": SESSION_CAP.kind, "text": text}
+    return {"kind": SESSION_CAP.kind, "text": SESSION_CAP.text}
 
 
-DAILY_CAP = FacilitatorTurn(
-    kind="close",
-    text=(
-        "This is the Facilitator. You've reached today's limit for messages, so this conversation "
-        "closes here. Please come back tomorrow, or reach out if this doesn't seem right."
-    ),
-)
+DAILY_CAP = FacilitatorTurn(kind="close", text=CAP_CLOSE_TEXT)
 
 
 def daily_cap_turn(limit_text: str | None = None) -> dict:
     """The visitor's daily message cap, reached on a message that is not a
-    crisis. Same DRAFT status as session_cap_turn; the wording is the daily
-    cap's existing 429 text (engine.api.anon_cap.TURN_CAP_DETAIL), spoken
-    as the Facilitator. Serves the interview and the Table alike, since it
-    names no Representative."""
+    crisis. Names no Representative, so the interview and the Table share it."""
     if limit_text is not None:
         return limit_turn(limit_text)
     return {"kind": DAILY_CAP.kind, "text": DAILY_CAP.text}
@@ -281,8 +237,7 @@ def daily_cap_turn(limit_text: str | None = None) -> dict:
 
 # --- Table variants (Artifact-7 SS1-2; C1: fixed
 # templates parameterized by the seated worlds, never a live facilitator
-# generation). DRAFT TEXT, not yet approved - same wired-now/
-# swappable-copy discipline session_cap_turn documents. The interview
+# generation). DRAFT TEXT, not yet approved. The interview
 # texts above are untouched; a table session simply calls these instead
 # where the interview's text names exactly one representative.
 
@@ -356,35 +311,15 @@ def table_dependency_check_turn(representative_names: list[str]) -> dict:
     return {"kind": TABLE_DEPENDENCY_CHECK.kind, "text": text, "resources_appended": False}
 
 
-TABLE_SESSION_CAP = FacilitatorTurn(
-    kind="close",
-    text=(
-        "This is the Facilitator stepping in - we've reached the end of what one sitting at this Table "
-        "is built to hold.\n\n"
-        "I want to be honest with you about why there's a limit, not just that there is one. Every "
-        "turn here is a real, billed call to the model speaking with you - several voices at a Table "
-        "means several of them per exchange - and this is where we can hold that line honestly right "
-        "now.\n\n"
-        "This conversation is closed, but nothing in it is lost - it stayed exactly what it was while "
-        "it lasted. If it was worth having, and you're able, this project runs on people who support "
-        "it directly - churchinconversation.com/support.html has more on that, and what the giving "
-        "actually goes toward.\n\n"
-        "Either way, you're welcome to start fresh - at this Table again with {names_phrase}, with any "
-        "one of these voices on its own, or with one of this project's other worlds."
-    ),
-)
+TABLE_SESSION_CAP = FacilitatorTurn(kind="close", text=CAP_CLOSE_TEXT)
 
 
 def table_session_cap_turn(representative_names: list[str], limit_text: str | None = None) -> dict:
-    """Same DRAFT status, same honesty-about-cost direction, and the same
-    deliberate absence of a dollar figure as session_cap_turn - see its
-    docstring; the discrepancy it documents (support.html's published rate
-    was measured for the Table, the interview cap's for the single path)
-    cuts the other way here and is still unreconciled."""
+    """The Table's turn cap: the same one plain line as the interview's. The
+    names are kept so callers do not change."""
     if limit_text is not None:
         return limit_turn(limit_text)
-    text = TABLE_SESSION_CAP.text.format(names_phrase=names_or_phrase(representative_names))
-    return {"kind": TABLE_SESSION_CAP.kind, "text": text}
+    return {"kind": TABLE_SESSION_CAP.kind, "text": TABLE_SESSION_CAP.text}
 
 
 TABLE_SEAT_CORRECTION = FacilitatorTurn(

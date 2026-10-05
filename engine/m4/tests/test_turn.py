@@ -10,6 +10,7 @@ import threading
 from types import SimpleNamespace
 
 
+from engine.m4 import facilitator_turns
 from engine.m4 import turn as turn_module
 from engine.m4.turn import run_gate, run_turn, run_voice_turn_for_world
 from engine.m4.voice_request import DIRECTIVE_OPEN
@@ -973,14 +974,14 @@ def test_a_non_acute_signal_is_capped_like_any_other_ordinary_turn():
     assert result.voice_event is None
 
 
-def test_the_cap_names_the_representative_from_world_frame():
+def test_the_cap_closes_with_the_one_plain_line():
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=[])
     result = run_turn(
         session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
         world=_world(), participant_message="one more", pressed={}, anachronistic_term_ids=set(),
         history=_history_of(turn_module.SESSION_TURN_CAP),
     )
-    assert "Vera" in result.facilitator_events[0]["text"]
+    assert result.facilitator_events[0]["text"] == facilitator_turns.CAP_CLOSE_TEXT
 
 
 def test_a_capped_turn_still_attributes_its_gate_calls():
