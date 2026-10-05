@@ -1516,3 +1516,69 @@ Mark approved the Pilot Words Draft and asked for the join button. The words bel
 ## 2026-10-05 — Go Deeper: the app's build switches reach the Docker build
 
 Found while walking the staging turn-on with Mark: the runbook says to build the app with `VITE_DEEPER_ENABLED=on`, but the Dockerfile's frontend stage declared no such argument, so a Render service had no way to turn the panel on. The Dockerfile now declares `VITE_DEEPER_ENABLED` and `VITE_DEEPER_SITE_ORIGIN` as build arguments (both empty by default, so an unset service builds the module dark) and exports them before the frontend build. A test pins both. Render is expected to pass a service's environment variables to a Docker build as the arguments the Dockerfile declares; that is not yet proved. The build now prints the value it received into its log (`Go Deeper app build: VITE_DEEPER_ENABLED='...'`), so the first staging build with the variable set shows it, and the panel appears or it does not. The two switches are public: they end up in the built JavaScript, so no ARG named after a secret is ever declared. The runbook's settings table now says where each is set.
+
+## 2026-10-05 — Change order: accounts for conversations and tokens (ruled by Mark)
+
+System Hub decision 53.
+
+A named change order on the 2026-09-03 lock "no accounts for this launch" and on
+decision 19 as amended by decisions 26 and 29. It takes effect for the version
+after the codes launch; nothing in the codes build, its rulings or its runbook
+changes.
+
+An account is optional, open to anyone at any time, and exists so a person can
+keep a record of their conversations and their tokens from their first
+conversation on. Free use without an account is unchanged.
+
+Ruled:
+- Sign-in is an emailed one-time code or link. No password exists.
+- The account store keeps a scrambled value of the address under a server
+  secret, never the address. No file on our disk names anyone. We cannot write
+  to an account holder; a closure refund goes through Stripe.
+- An account holds the codes that hold its tokens, the list of its
+  conversations, and its allowance. Its free allowance is the visitor's
+  allowance carried by the account while signed in: 550 tokens a month,
+  refilling on the person's own day of the month (a day past a month's end
+  uses that month's last day), never accumulating, spent before purchased
+  tokens. Signed out, the cookie allowance applies.
+- Saved conversations are kept until the person deletes them or the account
+  has sat unused for two years. A delete control exists for each conversation
+  and for the whole account. Anonymous conversations keep the ninety-day rule.
+- A crisis turn is saved as it happened. Reopening a conversation that holds
+  one shows the Facilitator's resources line first, every time.
+- Thirteen and over. A parent confirms for anyone under eighteen. A
+  professional confirms the policy before accounts open.
+- Provisional, pending the treasurer and a professional: purchased tokens
+  lapse after two years of inactivity and are not refundable except in a rare
+  case the project lead approves. Nothing is stated at purchase until checked.
+- Decision 19's three unjoinable stores stand for everyone without an account.
+  For an account holder the account store is, by design, the join between
+  tokens and conversations. What remains unjoinable: the files at rest and
+  their backups hold no address and no name; joining an account to a person
+  needs the server's secret and Stripe together. The privacy page states this.
+- Accounts ship dark behind CIC_ACCOUNTS_ENABLED. Off, the product is the
+  codes product exactly.
+- Order: codes launch first. Account slices start after the door's observe
+  week. This record and the professional questions start now.
+
+Professional questions added to the register: the Article 9 condition and
+whether GDPR or UK GDPR applies; the age policy and the parent confirmation;
+the two-year lapse against gift-card and unclaimed-property rules; the EU
+withdrawal right at checkout.
+
+Plan: Accounts Build Plan (artifact). Analysis: Go Deeper Accounts Review
+(artifact). The Opus thread attacks the account store as a join before the
+shelf slice merges.
+
+Pages: Go Deeper Accounts Review, `https://claude.ai/artifact/NTTKUrGeKJ73nYkcPNfhjJ`; Accounts Build Plan, `https://claude.ai/artifact/GHerMTQjcKNkLKM1GrvK83`.
+
+**Questions for a professional, added to the register (none answered).** These sit beside the five registered on 2026-10-03.
+
+6. Article 9: which condition covers a conversation that reveals religious or philosophical belief when saving is the account's purpose, and whether GDPR or UK GDPR reaches CiC at all.
+7. Age: the policy of thirteen and over with a parent's confirmation under eighteen, and whether a one-time emailed confirmation to a parent address that is then not kept is enough.
+8. The two-year lapse of purchased tokens, checked against the gift-card five-year floor, California's rules and unclaimed-property reporting (it extends questions 2 and 3). Nothing about expiry is stated at purchase until this is answered.
+9. The EU withdrawal right at checkout for a digital purchase, and whether a waiver must be taken at the Stripe page.
+
+## 2026-10-05 — Go Deeper: Render passes the app's build switches to the Docker build (proved on staging)
+
+The entry above of the same date left this unproved. On staging the first build with `VITE_DEEPER_ENABLED` set to `on` printed `Go Deeper app build: VITE_DEEPER_ENABLED='on'` in its log, and the Go deeper button appeared inside a conversation in the staging app. Render does pass a service's environment variable to the Docker build as the argument the Dockerfile declares.
