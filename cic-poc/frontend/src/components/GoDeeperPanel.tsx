@@ -7,7 +7,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { acceptClaim, addCode, closePanel, declineClaim, deeperEnabled, formatCode, getCodeUrl, openGetCode, openPanel, removeCode, useDeeper } from '../lib/deeper';
 import { deeperCopy, pilotCopy } from '../lib/deeperCopy';
-import { dismissPilot, feedbackFormUrl, usePilot } from '../lib/pilot';
+import { dismissPilot, usePilot } from '../lib/pilot';
 
 export function GoDeeperPanel() {
   const { codes, remaining, low, claim, panelOpen } = useDeeper();
@@ -91,11 +91,7 @@ export function GoDeeperPanel() {
               {pilot.status === 'already' && <p>{pilotCopy.already}</p>}
               {pilot.status === 'full' && <p>{pilotCopy.full}</p>}
               {pilot.status === 'ended' && <p>{pilotCopy.ended}</p>}
-              {pilot.status === 'address_limit' && (
-                <p>
-                  {pilotCopy.addressLimit} <a href={feedbackFormUrl()}>{pilotCopy.feedbackForm}</a>.
-                </p>
-              )}
+              {pilot.status === 'address_limit' && <p>{pilotCopy.addressLimit}</p>}
               {pilot.status === 'failed' && <p role="alert">{pilotCopy.failed}</p>}
             </div>
           )}

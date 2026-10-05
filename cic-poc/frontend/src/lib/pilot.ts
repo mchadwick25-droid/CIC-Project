@@ -12,7 +12,6 @@ import { deeperEnabled, openPanel, saveCode } from './deeper';
 const MARKER_KEY = 'cic_pilot';
 // A public audience's name or a private audience's secret link key: letters, digits, hyphens, underscores.
 const LINK = /^[A-Za-z0-9_-]{1,64}$/;
-const SITE_ORIGIN = import.meta.env.VITE_DEEPER_SITE_ORIGIN || 'https://churchinconversation.com';
 
 export type PilotStatus = 'joining' | 'ready' | 'already' | 'full' | 'ended' | 'address_limit' | 'failed';
 
@@ -45,10 +44,6 @@ function setMarker() {
   } catch {
     // Storage blocked: the pack still works until the tab closes.
   }
-}
-
-export function feedbackFormUrl(): string {
-  return `${SITE_ORIGIN}/pilot-feedback.html`;
 }
 
 /** The link a fragment named, or null. The fragment is cleared whatever it holds. */
