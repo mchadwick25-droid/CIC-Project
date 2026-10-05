@@ -512,8 +512,8 @@ All 8 spans were de-quoted and paraphrased in the Representative's own indirect 
 - (15). `hal.term.origenism` says 393 to 403, as `hal.gravity.controversy-pressure` does and as the vendored NPNF introduction does.
 - (16). `hal.gravity.epistolary-formation` description reads "arguments over scripture" and "the group split between Rome and Bethlehem".
 
-Pending, in `engine/m9/enforce.py` (not made; the file is unchanged on this branch). These three hal waiver changes are still to make:
-- line 173, `m1:readability/hal`: `count=161` to `count=160`. The waiver is stale.
+Made on this branch in `engine/m9/enforce.py`, with the project lead's approval (2026-10-05). These three hal waiver changes:
+- line 173, `m1:readability/hal`: `count=161` to `count=159`. The waiver is stale.
 - line 212, `m1:use-note-present/hal`: delete the line. It names a finding that no longer fires.
 - line 146, `m9:shelf-row/hal`: `count=28` to `count=29`. The new source record `hal.source.jerome-ep125` has no `shelf_row`, like the other 28, and no row id exists until the corpus-map's CM-1 lands.
 
