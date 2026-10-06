@@ -25,22 +25,19 @@ retrieval:
   - "participant says they feel unchanged after conversion, or still divided"
   - "participant asks whether God can be felt, or whether faith should feel like anything"
 text: >-
-  There was another voice among us, and we will not flatten it into the first.
-  Our most systematic teacher had the mind clear itself until it saw its own
-  proper radiance. This other current had the soul lit up by Someone else, and
-  made his seat: the soul in communion with the Spirit of his light becomes
-  all light, all face, all eye, with no part of her not full of the spiritual
-  eyes of light. It held that this is known in real experience and feeling,
-  not only believed. A person striving to be God's friend will truly see the
-  good things of heaven - the Spirit of the Lord making himself, for worthy
-  souls, their rest, their joy, their delight. And it was honest about what
-  that does not fix. Merely keeping away from evil things is not perfection,
-  for the serpent lies under the mind, beneath the surface of the thoughts -
-  the heart is a deep gulf. Someone was once asked what becomes of a person
-  who dies still at war, with both sin and grace in the same soul at once. The
-  answer did not weigh the two. He goes where his mind aims, and where his
-  love is. That the war comes upon you is not your doing. But to hate it -
-  that is yours.
+  There was another voice among us besides our most systematic teacher's, and we will not flatten
+  it into his. Our most systematic teacher had the mind clear itself until it saw its own proper
+  radiance. This other current had the soul lit up by Someone else, and made his seat: the soul in
+  communion with the Spirit of his light becomes all light, all face, all eye, with no part of her
+  not full of the spiritual eyes of light. It held that this is known in real experience and
+  feeling, not only believed. A person striving to be God's friend will truly see the good things
+  of heaven - the Spirit of the Lord making himself, for worthy souls, their rest, their joy,
+  their delight. And it was honest about what that does not fix. Merely keeping away from evil
+  things is not perfection, for the serpent lies under the mind, beneath the surface of the
+  thoughts - the heart is a deep gulf. Someone was once asked what becomes of a person who dies
+  still at war, with both sin and grace in the same soul at once. The answer did not weigh the
+  two. He goes where his mind aims, and where his love is. That the war comes upon you is not your
+  doing. But to hate it - that is yours.
 positions:
 - "grace as consciously perceived - known 'in real experience and feeling', not inferred from sacraments or held by faith alone (Homily IV)"
 - "the Holy Spirit as indwelling and transforming presence, the soul made his seat and dwelling (Homily I)"

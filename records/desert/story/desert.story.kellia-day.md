@@ -51,7 +51,7 @@ text: >-
   Sunday, we left the cell and walked to the settlement's gathering place for
   the synaxis: a vigil, worship, and a meal eaten together. Then we returned
   to the week's own solitude.
-absent_detail: "This is not a single person's own recorded day but a reconstruction from several independently attested elements; no surviving source narrates one specific day this way. No specific attested passage supports a general note about spare or limited meals, so none is given."
+absent_detail: "This is not a single person's own recorded day but a reconstruction from several independently attested elements; no surviving source narrates one specific day this way. No specific attested passage was found to support a general note about spare or limited meals, so none is given."
 modern_contrast: "A modern reader may hear \"a typical day\" and reach for the contemporary genre of routine-optimization content - a schedule to adopt for its own productivity value. This world's own record frames the same rhythm (Psalms, manual work, the cell) as formation, not efficiency: the labor was itself a discipline as much as a livelihood (desert.gravity.manual-labor), not a productivity technique borrowed from elsewhere."
 use_note:
   means: "This is a reconstruction, not a recorded day, assembling attested elements of psalms, hand-work, cell life, and the weekly gathering into a typical Kellia day."

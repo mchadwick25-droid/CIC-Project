@@ -91,10 +91,8 @@ Pachomius's death) grammatically distinct from the death-time house
 count and membership estimate, which are attributed to Doc_01 SS2.1
 directly (in divergence_note, matching desert.story.antony-withdrawal's
 own convention for citing that document in a story record);
-desert.source.rousseau-pachomius is not cited here (koinonia's own
-citation is not duplicated). The text uses Palladius's own wording,
-"not allowed to enter the sanctuary." This body declares a relation to
-desert.gravity.authority-tension, which it invokes in prose. Doc_01
+The text uses Palladius's own wording,
+"not allowed to enter the sanctuary." Doc_01
 SS2.1's own hedge on the membership figure ("should be read as an
 order-of-magnitude indicator rather than a precise census") and
 Palladius's own AUTHOR GRAVITY caution on his population figures are

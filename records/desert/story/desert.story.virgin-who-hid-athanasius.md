@@ -96,16 +96,4 @@ use_note:
 ---
 This record draws on cic/texts/palladius_paradise-v1-syriac_budge1907.txt.
 
-WHY THIS AND NOT A LONGER, BETTER-ATTESTED CHAPTER. Melania the Great's
-chapter is longer and firmer, and desert.quote.melania-to-the-governor
-carries its sharpest moment. This one is told as a story instead because
-of what it does that no other passage in the file does: it puts an
-ascetic woman at the centre of the fourth century's defining
-ecclesiastical conflict, acting, deciding, and going unnamed - which is a
-truer picture of this world's record of its women than either the
-generous framing at chapter xxxv or the silence before it.
-
-The chronology is broken and the record says so in three places rather
-than smoothing it, because a story this world tells with a known error
-inside it, marked, is worth more than one it tells cleanly and cannot
-defend.
+The chronology is broken, and the record says so in three places.

@@ -97,7 +97,8 @@ cic/texts/pachomius_rules-ethiopic_schodde1885.txt.
 On the evidence of the Ethiopic recension, the angel-tablet frame opens
 the received legislation; it does not belong only to the reports of the
 rule, as a hagiographic frame attached by Palladius and Sozomen. The
-description is carried in desert.source.pachomian-corpus.
+correction, and the earlier description it replaces, are carried in
+desert.source.pachomian-corpus.
 
 Kept separate from desert.story.pachomius-founding rather than folded
 into it. That record tells the founding as history, from Palladius, at
