@@ -951,7 +951,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "latin-apologists",
    "atlasId": "I.43",
@@ -1028,7 +1028,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "apocryphal-and-pseudepigraphal-literature",
    "atlasId": "I.36",
@@ -1131,7 +1131,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "alexandria-catechetical",
    "atlasId": "I.2",
@@ -1346,7 +1346,7 @@
    "shortName": "Latin Pastoral",
    "informalName": "The Latin Pastoral Congregations",
    "dates": "c. 240s-430",
-   "start": 246,
+   "start": 240,
    "end": 430,
    "region": "Carthage, Hippo Regius",
    "regions": [
@@ -1470,7 +1470,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "tertullian-s-voice",
    "atlasId": "I.17",
@@ -1564,7 +1564,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "marcion-marcionism",
    "atlasId": "I.20",
@@ -1638,7 +1638,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "valentinian-and-other-gnostic-christianities",
    "atlasId": "I.21",
@@ -1760,7 +1760,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "ebionite-nazoraean-current",
    "atlasId": "I.24",
@@ -1888,7 +1888,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "novatianism",
    "atlasId": "I.26",
@@ -1989,7 +1989,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "anatolian-church-third-century",
    "atlasId": "I.38",
@@ -2058,7 +2058,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "antiochene-church-third-century",
    "atlasId": "I.42",
@@ -2134,7 +2134,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "palestinian-church-pre-constantinian",
    "atlasId": "I.39",
@@ -2257,7 +2257,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "roman-church-third-century",
    "atlasId": "I.33",
@@ -2359,7 +2359,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "danubian-latin-christianity",
    "atlasId": "I.40",
@@ -2434,7 +2434,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "desert-monasticism",
    "atlasId": "I.3",
@@ -2605,7 +2605,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "donatism",
    "atlasId": "I.4",
@@ -3084,7 +3084,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "aksumite-christianity-conversion-era",
    "atlasId": "I.11",
@@ -3162,7 +3162,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "persian-church-of-the-east-early",
    "atlasId": "I.12",
@@ -3258,7 +3258,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "antiochene-exegetical-christianity-chrysostom-ce",
    "atlasId": "I.13",
@@ -3365,7 +3365,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "cyrilline-miaphysite-egyptian-tradition",
    "atlasId": "I.14",
@@ -3506,7 +3506,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "jerusalem-liturgical-pilgrimage-christianity",
    "atlasId": "I.15",
@@ -3608,7 +3608,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "ambrosian-milan-standalone",
    "atlasId": "I.16",
@@ -3689,7 +3689,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "aquileian-christianity",
    "atlasId": "I.41",
@@ -3764,7 +3764,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "gallic-nicene-episcopate",
    "atlasId": "I.37",
@@ -3839,7 +3839,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "gallic-monastic-ascetic-christianity",
    "atlasId": "I.27",
@@ -3963,7 +3963,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "pelagianism",
    "atlasId": "I.19",
@@ -4037,7 +4037,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "homoian-arian-christianity",
    "atlasId": "I.23",
@@ -4154,7 +4154,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "anomoean-eunomian-christianity",
    "atlasId": "I.28",
@@ -4230,7 +4230,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "pneumatomachian-current",
    "atlasId": "I.29",
@@ -4305,7 +4305,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "apollinarian-christianity",
    "atlasId": "I.30",
@@ -4410,7 +4410,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "modalist-monarchianism",
    "atlasId": "I.31",
@@ -4486,7 +4486,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "bardaisanite-current",
    "atlasId": "I.32",
@@ -4559,7 +4559,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "cyrilline-miaphysite-egyptian-christianity",
    "atlasId": "II.1",
@@ -4741,7 +4741,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "syriac-orthodox-west-syriac-christianity",
    "atlasId": "II.2",
@@ -4886,7 +4886,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-church-of-the-east-under-persia",
    "atlasId": "II.3",
@@ -5032,7 +5032,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "armenian-christianity-after-avarayr",
    "atlasId": "II.4",
@@ -5171,7 +5171,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "chalcedonian-monasticism-judean-desert-and-gaza",
    "atlasId": "II.5",
@@ -5332,7 +5332,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "early-benedictine-italian-monasticism",
    "atlasId": "II.6",
@@ -5465,7 +5465,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "roman-church-gregorian",
    "atlasId": "II.18",
@@ -5597,7 +5597,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "merovingian-gallic-christianity",
    "atlasId": "II.7",
@@ -5779,7 +5779,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "insular-irish-monastic-christianity",
    "atlasId": "II.8",
@@ -5941,7 +5941,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "aksumite-christianity",
    "atlasId": "II.9",
@@ -6084,7 +6084,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "georgian-christianity",
    "atlasId": "II.10",
@@ -6219,7 +6219,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "nubian-christianity",
    "atlasId": "II.11",
@@ -6323,7 +6323,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "gothic-and-vandal-homoian-christianity",
    "atlasId": "II.12",
@@ -6465,7 +6465,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "byzantine-imperial-church-justinianic",
    "atlasId": "II.13",
@@ -6574,7 +6574,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "church-of-caucasian-albania",
    "atlasId": "II.14",
@@ -6646,7 +6646,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "latin-africa-under-byzantium",
    "atlasId": "II.15",
@@ -6728,7 +6728,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "nicene-visigothic-iberia",
    "atlasId": "II.16",
@@ -6842,7 +6842,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "british-welsh-christianity",
    "atlasId": "II.17",
@@ -6944,7 +6944,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-church-of-the-east-on-the-silk-road",
    "atlasId": "III.1",
@@ -7072,7 +7072,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "melkite-arabic-christianity",
    "atlasId": "III.2",
@@ -7199,7 +7199,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "coptic-christianity-under-early-islam",
    "atlasId": "III.3",
@@ -7350,7 +7350,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "anglo-saxon-christianity",
    "atlasId": "III.4",
@@ -7508,7 +7508,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "carolingian-reform-christianity",
    "atlasId": "III.5",
@@ -7643,7 +7643,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "iconophile-byzantine-monasticism",
    "atlasId": "III.6",
@@ -7781,7 +7781,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "cyrillo-methodian-slavic-christianity",
    "atlasId": "III.7",
@@ -7933,7 +7933,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "kievan-rus-christianity",
    "atlasId": "III.8",
@@ -8065,7 +8065,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "mozarabic-christianity",
    "atlasId": "III.9",
@@ -8199,7 +8199,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "cluniac-reform-monasticism",
    "atlasId": "III.10",
@@ -8329,7 +8329,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "st-thomas-christians-of-india",
    "atlasId": "III.11",
@@ -8446,7 +8446,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "paulicians",
    "atlasId": "III.12",
@@ -8552,7 +8552,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "bogomils",
    "atlasId": "III.13",
@@ -8759,7 +8759,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "byzantine-imperial-church-heraclian-iconoclast",
    "atlasId": "III.15",
@@ -8868,7 +8868,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "byzantine-imperial-church-macedonian",
    "atlasId": "III.22",
@@ -8977,7 +8977,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "bagratid-armenian-christianity",
    "atlasId": "III.16",
@@ -9081,7 +9081,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "syriac-orthodox-under-islam",
    "atlasId": "III.17",
@@ -9191,7 +9191,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "makurian-nubian-christianity",
    "atlasId": "III.18",
@@ -9291,7 +9291,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "late-anglo-saxon-christianity",
    "atlasId": "III.19",
@@ -9404,7 +9404,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "georgian-revival-tao-klarjeti",
    "atlasId": "III.20",
@@ -9513,7 +9513,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "post-aksumite-ethiopian-christianity",
    "atlasId": "III.21",
@@ -9708,7 +9708,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "carthusian-life",
    "atlasId": "IV.2",
@@ -9840,7 +9840,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "canons-regular-victorine-school",
    "atlasId": "IV.3",
@@ -9942,7 +9942,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-franciscan-movement",
    "atlasId": "IV.4",
@@ -10106,7 +10106,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-dominican-order",
    "atlasId": "IV.5",
@@ -10246,7 +10246,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "athonite-and-comnenian-byzantine-monasticism",
    "atlasId": "IV.6",
@@ -10398,7 +10398,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-beguines",
    "atlasId": "IV.7",
@@ -10537,7 +10537,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "the-waldensians",
    "atlasId": "IV.8",
@@ -10652,7 +10652,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "zagwe-and-early-solomonic-ethiopian-christianity",
    "atlasId": "IV.9",
@@ -10849,7 +10849,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "military-religious-orders-templars-hospitallers",
    "atlasId": "IV.11",
@@ -10982,7 +10982,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "cathars-albigensians",
    "atlasId": "IV.12",
@@ -11130,7 +11130,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "joachimite-current",
    "atlasId": "IV.13",
@@ -11237,7 +11237,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "free-spirit-heresy",
    "atlasId": "IV.14",
@@ -11416,7 +11416,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "serbian-and-bulgarian-medieval-monasticism",
    "atlasId": "IV.16",
@@ -11570,7 +11570,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "byzantine-church-after-1054",
    "atlasId": "IV.17",
@@ -11676,7 +11676,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "latin-papal-church-gregorian",
    "atlasId": "IV.18",
@@ -11784,7 +11784,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "kievan-rus-christianity-1054-1240",
    "atlasId": "IV.19",
@@ -11886,7 +11886,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "armenian-cilicia",
    "atlasId": "IV.20",
@@ -11965,7 +11965,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "syriac-renaissance",
    "atlasId": "IV.21",
@@ -12068,7 +12068,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "church-of-the-east-under-the-mongols",
    "atlasId": "IV.22",
@@ -12163,7 +12163,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-carmelites",
    "atlasId": "IV.23",
@@ -12278,7 +12278,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "latin-church-of-outremer",
    "atlasId": "IV.25",
@@ -12380,7 +12380,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "coptic-christianity-fatimid-to-mamluk",
    "atlasId": "IV.26",
@@ -12456,7 +12456,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-humiliati",
    "atlasId": "IV.27",
@@ -12636,7 +12636,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "rhineland-mysticism-and-the-friends-of-god",
    "atlasId": "V.2",
@@ -12763,7 +12763,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "devotio-moderna-brethren-of-the-common-life",
    "atlasId": "V.3",
@@ -12891,7 +12891,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "hesychasm-and-the-palamite-synthesis",
    "atlasId": "V.4",
@@ -13003,7 +13003,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "lollardy",
    "atlasId": "V.5",
@@ -13145,7 +13145,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-hussite-and-bohemian-brethren-movement",
    "atlasId": "V.6",
@@ -13153,8 +13153,8 @@
    "name": "The Hussite & Bohemian Brethren Movement",
    "shortName": "Hussites",
    "informalName": "The Hussites and the Bohemian Brethren",
-   "dates": "1402-1517",
-   "start": 1402,
+   "dates": "1415-1517",
+   "start": 1415,
    "end": 1517,
    "region": "Bohemia",
    "regions": [
@@ -13285,7 +13285,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "the-ethiopian-monastic-flowering",
    "atlasId": "V.7",
@@ -13415,7 +13415,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "muscovite-monastic-christianity",
    "atlasId": "V.8",
@@ -13554,7 +13554,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "observant-reform-and-popular-preaching",
    "atlasId": "V.9",
@@ -13693,7 +13693,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "late-medieval-lay-parish-piety",
    "atlasId": "V.10",
@@ -13804,7 +13804,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "taborite-radicalism",
    "atlasId": "V.11",
@@ -13905,7 +13905,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "fraticelli-spiritual-franciscan-rigorists",
    "atlasId": "V.12",
@@ -14020,7 +14020,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "inquisition-record-sects-adamites-and-kin",
    "atlasId": "V.13",
@@ -14193,7 +14193,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "byzantine-church-palaiologan",
    "atlasId": "V.15",
@@ -14303,7 +14303,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "waldensians-in-the-alps",
    "atlasId": "V.16",
@@ -14385,7 +14385,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "church-of-the-east-timur-to-hakkari",
    "atlasId": "V.17",
@@ -14545,7 +14545,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-bosnian-church",
    "atlasId": "V.20",
@@ -14619,7 +14619,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "armenian-cilicia-after-the-kingdom",
    "atlasId": "V.21",
@@ -14698,7 +14698,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "maronite-christianity-era-6",
    "atlasId": "V.22",
@@ -14815,7 +14815,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "lutheran-wittenberg-and-its-congregations",
    "atlasId": "VI.1",
@@ -14900,8 +14900,67 @@
      "text": "The Luther museums in Lutherstadt Wittenberg, Germany — Luther's own house and Melanchthon's, a UNESCO World Heritage site",
      "url": "https://lutherstadt-wittenberg.de/en/see-discover/sights/luthermuseums"
     }
+   ],
+   "documentedStories": [
+    {
+     "title": "‘Dear God, What Misery I Beheld’",
+     "when": "1528–1529",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "Luther rides out with the Saxon visitors to inspect the parishes his reform has held for a decade, and writes the preface to his catechism about what he found.",
+     "text": "In 1527 the Elector of Saxony sent commissions of theologians and jurists through the parishes of his territory to see what condition the churches were in after ten years of evangelical preaching, and Luther went with one of them. The preface he wrote to the Small Catechism in 1529 records the result. ‘The deplorable, miserable condition which I discovered lately when I, too, was a visitor, has forced and urged me to prepare this catechism in this small, plain, simple form. Dear God, what misery I beheld! The common people, especially in the villages, have no knowledge whatever of Christian doctrine, and, alas, many pastors are altogether incapable and incompetent to teach. Yet all maintain that they are Christians, have been baptised, and receive the holy sacraments. Yet they do not understand and cannot even recite the Lord’s Prayer, the Creed, or the Ten Commandments; they live like dumb brutes and irrational hogs.’ Luther’s answer was the two catechisms, the ordering of household instruction — the father to teach the children and servants — and the insistence, repeated across the later visitations, that the gospel had to be drilled. He also wrote, in the same years, that if he had known what would come of it he would have left the peasants under the pope. The catechism is still in use; the preface that explains why it was needed is printed with it.",
+     "caveat": "Luther’s preface is his own and rhetorical; the visitation protocols are official and unflattering, and Gerald Strauss’s reading of them as evidence of the Reformation’s pedagogical failure has been contested by Scribner and others. The scale of ignorance is documented; its interpretation is debated.",
+     "sources": [
+      {
+       "work": "Martin Luther, Preface to the Small Catechism (1529)",
+       "type": "primary",
+       "note": "Book of Concord text online; Luther’s Works (American Edition) vol. 53 for the hymns and liturgy."
+      },
+      {
+       "work": "Philipp Melanchthon, Instructions for the Visitors of Parish Pastors in Electoral Saxony (1528)",
+       "type": "primary",
+       "note": "English in Luther’s Works, vol. 40, pp. 263–320."
+      },
+      {
+       "work": "Gerald Strauss, Luther’s House of Learning: Indoctrination of the Young in the German Reformation (Johns Hopkins, 1978)",
+       "type": "reference",
+       "note": "On the visitation records and the ‘failure’ thesis."
+      },
+      {
+       "work": "Susan Karant-Nunn, ‘The Reality of Early Lutheran Education: The Electoral District of Saxony — A Case Study’, Lutherjahrbuch 57 (1990)",
+       "type": "reference",
+       "note": "A corrective built on the protocols."
+      }
+     ]
+    },
+    {
+     "title": "Argula von Grumbach Challenges the University of Ingolstadt",
+     "when": "September 1523",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "A Bavarian noblewoman with no Latin, reading of a young teacher forced to recant Lutheran opinions, writes an open letter to the university’s theologians offering to debate them in German, and it is printed fourteen times in a year.",
+     "text": "Arsacius Seehofer, an eighteen-year-old master at the university of Ingolstadt, had been arrested in 1523 for teaching from Melanchthon and Luther, and forced on his knees before the faculty to recant seventeen articles and be sent to a monastery. Argula von Grumbach, wife of a ducal official at Dietfurt, had read Luther since 1520 and had a German Bible. She wrote to the university. Her letter, dated 20 September 1523, is the first Protestant pamphlet by a woman: she tells the theologians that she has read the Scriptures and finds no word in them that a Christian should be forced to deny what they teach; she says she knows that Paul told women to be silent in church, but that when no man will speak she is bound by Christ’s word that whoever denies him before men will be denied; and she challenges the faculty to meet her in public disputation, in German, before the duke, promising to bring her Bible. ‘I do not intend to bury my talent.’ The university did not reply in writing. It had her husband dismissed from his office; her letter was printed in Nuremberg, Augsburg, Strasbourg and elsewhere, and she wrote seven more pamphlets within the year. Then she was silenced — not by argument but by the loss of her husband’s income and the Bavarian ban on evangelical printing. The evangelical movement’s first female voice in print was a laywoman defending a boy she had never met.",
+     "caveat": "Argula’s pamphlets are her own and were printed in her lifetime; the university’s response is known only from her side and from the dismissal of her husband. The print-run estimate is Matheson’s.",
+     "sources": [
+      {
+       "work": "Argula von Grumbach, Letter to the University of Ingolstadt (20 September 1523)",
+       "type": "primary",
+       "note": "English in Peter Matheson, Argula von Grumbach: A Woman’s Voice in the Reformation (T&T Clark, 1995), pp. 71–96."
+      },
+      {
+       "work": "Argula von Grumbach, Answer to a Student of Ingolstadt (1524)",
+       "type": "primary",
+       "note": "The verse reply; in Matheson (1995)."
+      },
+      {
+       "work": "Peter Matheson, Argula von Grumbach (1492–1554/7): A Woman before Her Time (Cascade, 2013)",
+       "type": "reference",
+       "note": "The biography."
+      }
+     ]
+    }
    ]
-  },
+},
   {
    "id": "the-reformed-cities-zurich-and-geneva",
    "atlasId": "VI.2",
@@ -15141,7 +15200,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "the-english-reformation-and-elizabethan-settleme",
    "atlasId": "VI.4",
@@ -15284,7 +15343,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-scottish-reformation-and-kirk",
    "atlasId": "VI.5",
@@ -15419,7 +15478,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-huguenots",
    "atlasId": "VI.6",
@@ -15555,7 +15614,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "recusant-english-catholicism",
    "atlasId": "VI.7",
@@ -15689,7 +15748,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "puritanism",
    "atlasId": "VI.8",
@@ -15838,7 +15897,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "dutch-further-reformation-and-refuge-culture",
    "atlasId": "VI.9",
@@ -15932,7 +15991,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-waldensian-reformed-union",
    "atlasId": "VI.10",
@@ -16041,7 +16100,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-society-of-jesus",
    "atlasId": "VI.11",
@@ -16174,7 +16233,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "tridentine-parish-renewal-borromean-milan",
    "atlasId": "VI.12",
@@ -16299,7 +16358,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "mission-born-christianities-kirishitan-japan-kon",
    "atlasId": "VI.13",
@@ -16467,7 +16526,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "anti-trinitarian-currents-servetus-polish-brethr",
    "atlasId": "VI.14",
@@ -16602,7 +16661,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "schwenckfelders",
    "atlasId": "VI.15",
@@ -16697,7 +16756,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "family-of-love-and-spiritualists-franck-niclaes",
    "atlasId": "VI.16",
@@ -16808,7 +16867,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
    "atlasId": "VI.17",
@@ -16957,7 +17016,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "st-thomas-christians-under-portuguese-pressure-d",
    "atlasId": "VI.18",
@@ -17103,7 +17162,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "philippine-catholicism",
    "atlasId": "VI.19",
@@ -17246,7 +17305,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-union-of-brest-and-ruthenian-greek-catholic-",
    "atlasId": "VI.20",
@@ -17387,7 +17446,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-kyiv-mohyla-orthodox-revival",
    "atlasId": "VI.21",
@@ -17513,7 +17572,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-tridentine-church",
    "atlasId": "VI.22",
@@ -17652,7 +17711,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "russian-church-stoglav-to-nikon",
    "atlasId": "VI.23",
@@ -17779,7 +17838,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "czech-churches-last-century",
    "atlasId": "VI.24",
@@ -17896,7 +17955,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "ethiopian-christianity-gragn-to-fasilides",
    "atlasId": "VI.25",
@@ -18005,7 +18064,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-remonstrants-and-dort",
    "atlasId": "VI.26",
@@ -18119,7 +18178,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "scandinavian-reformation-kingdoms",
    "atlasId": "VI.27",
@@ -18246,7 +18305,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "armenian-christianity-new-julfa",
    "atlasId": "VI.28",
@@ -18359,7 +18418,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "carmelite-reform-and-spanish-mystics",
    "atlasId": "VI.29",
@@ -18470,7 +18529,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "church-of-the-east-schism-of-1552",
    "atlasId": "VI.30",
@@ -18547,7 +18606,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-quakers-religious-society-of-friends",
    "atlasId": "VII.1",
@@ -18711,7 +18770,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "german-pietism-spener-francke-halle",
    "atlasId": "VII.2",
@@ -18848,7 +18907,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "radical-pietism-and-the-brethren-dunkers-ephrata",
    "atlasId": "VII.3",
@@ -19010,7 +19069,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-moravian-church-at-herrnhut",
    "atlasId": "VII.4",
@@ -19154,7 +19213,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-methodist-revival",
    "atlasId": "VII.5",
@@ -19328,7 +19387,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-evangelical-awakening-in-new-england",
    "atlasId": "VII.6",
@@ -19491,7 +19550,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "the-old-believers",
    "atlasId": "VII.7",
@@ -19660,7 +19719,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "the-hesychast-revival-paisius-and-the-philokalia",
    "atlasId": "VII.8",
@@ -19815,7 +19874,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "port-royal-jansenism",
    "atlasId": "VII.9",
@@ -19964,7 +20023,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-welsh-revival-tradition",
    "atlasId": "VII.10",
@@ -20109,7 +20168,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "the-antonian-movement-in-kongo",
    "atlasId": "VII.11",
@@ -20210,7 +20269,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "shakers",
    "atlasId": "VII.12",
@@ -20346,7 +20405,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "swedenborgian-new-church",
    "atlasId": "VII.13",
@@ -20477,7 +20536,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "quietist-controversy-molinos-guyon",
    "atlasId": "VII.14",
@@ -20609,7 +20668,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "camisard-prophetism",
    "atlasId": "VII.15",
@@ -20742,7 +20801,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-baptists",
    "atlasId": "VII.16",
@@ -20928,7 +20987,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "colonial-latin-american-devotional-catholicism",
    "atlasId": "VII.17",
@@ -21098,7 +21157,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "orthodoxy-under-the-ottomans-1650-1821",
    "atlasId": "VII.18",
@@ -21211,7 +21270,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "catholic-church-ancien-regime",
    "atlasId": "VII.19",
@@ -21344,7 +21403,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "restoration-georgian-church-of-england",
    "atlasId": "VII.20",
@@ -21480,7 +21539,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "russian-church-nikon-to-holy-synod",
    "atlasId": "VII.21",
@@ -21608,7 +21667,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "church-of-the-desert-huguenots",
    "atlasId": "VII.22",
@@ -21747,7 +21806,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "melkite-greek-catholic-church",
    "atlasId": "VII.23",
@@ -21823,7 +21882,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "armenian-christianity-era-8",
    "atlasId": "VII.24",
@@ -21935,7 +21994,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "church-of-utrecht",
    "atlasId": "VII.25",
@@ -22014,7 +22073,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "english-old-dissent",
    "atlasId": "VII.26",
@@ -22154,7 +22213,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "early-american-unitarians-universalists",
    "atlasId": "VII.27",
@@ -22263,7 +22322,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "ruthenian-uniate-18th-century",
    "atlasId": "VII.28",
@@ -22393,7 +22452,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "philippine-catholicism-era-8",
    "atlasId": "VII.29",
@@ -22504,7 +22563,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-black-church-in-america",
    "atlasId": "VIII.1",
@@ -22652,7 +22711,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-second-great-awakening-and-camp-meeting-worl",
    "atlasId": "VIII.2",
@@ -22792,7 +22851,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-stone-campbell-restoration-movement",
    "atlasId": "VIII.3",
@@ -22933,7 +22992,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "the-holiness-movement",
    "atlasId": "VIII.4",
@@ -23080,7 +23139,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-oxford-movement-and-anglo-catholic-revival",
    "atlasId": "VIII.5",
@@ -23247,7 +23306,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-salvation-army",
    "atlasId": "VIII.6",
@@ -23393,7 +23452,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-missionary-movement-s-native-churches-seramp",
    "atlasId": "VIII.7",
@@ -23564,7 +23623,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-haugean-awakening",
    "atlasId": "VIII.8",
@@ -23699,7 +23758,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "the-reveil-and-inner-mission-awakening",
    "atlasId": "VIII.9",
@@ -23843,7 +23902,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "restorationist-apocalyptic-ferment-and-adventism",
    "atlasId": "VIII.10",
@@ -23987,7 +24046,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-optina-elders-and-russian-ascetic-renewal",
    "atlasId": "VIII.11",
@@ -24128,7 +24187,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-kollyvades-and-greek-renewal",
    "atlasId": "VIII.12",
@@ -24259,7 +24318,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "coptic-revival-under-cyril-iv",
    "atlasId": "VIII.13",
@@ -24388,7 +24447,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "latter-day-saints-lds",
    "atlasId": "VIII.14",
@@ -24557,7 +24616,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "jehovah-s-witnesses-bible-students",
    "atlasId": "VIII.15",
@@ -24694,7 +24753,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "christian-science",
    "atlasId": "VIII.16",
@@ -24829,7 +24888,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "christadelphians",
    "atlasId": "VIII.17",
@@ -24950,7 +25009,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "catholic-apostolic-church-irvingites",
    "atlasId": "VIII.18",
@@ -25089,7 +25148,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "oneida-community",
    "atlasId": "VIII.19",
@@ -25224,7 +25283,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "spiritualism-new-thought",
    "atlasId": "VIII.20",
@@ -25433,7 +25492,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "laestadianism-and-the-nordic-revivals",
    "atlasId": "VIII.22",
@@ -25573,7 +25632,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "plymouth-brethren-and-dispensational-formation",
    "atlasId": "VIII.23",
@@ -25710,7 +25769,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-sunday-school-and-bible-institute-movement",
    "atlasId": "VIII.24",
@@ -25842,7 +25901,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "the-student-volunteer-movement-and-edinburgh-191",
    "atlasId": "VIII.25",
@@ -25971,7 +26030,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "indonesian-christianity",
    "atlasId": "VIII.26",
@@ -26115,7 +26174,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "northeast-india-revivals-and-the-mar-thoma-refor",
    "atlasId": "VIII.27",
@@ -26248,7 +26307,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "orthodoxy-after-1821-balkan-autocephalies",
    "atlasId": "VIII.28",
@@ -26354,7 +26413,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "catholic-church-long-nineteenth-century",
    "atlasId": "VIII.29",
@@ -26482,7 +26541,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "victorian-church-of-england",
    "atlasId": "VIII.30",
@@ -26592,7 +26651,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "russian-church-synodal-century",
    "atlasId": "VIII.31",
@@ -26693,7 +26752,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "armenian-christianity-zartonk",
    "atlasId": "VIII.32",
@@ -26801,7 +26860,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "old-catholic-churches-union-of-utrecht",
    "atlasId": "VIII.33",
@@ -26901,7 +26960,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "nineteenth-century-methodism",
    "atlasId": "VIII.34",
@@ -27011,7 +27070,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "nineteenth-century-baptists",
    "atlasId": "VIII.35",
@@ -27115,7 +27174,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "nineteenth-century-quakerism-separations",
    "atlasId": "VIII.36",
@@ -27217,7 +27276,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "american-unitarianism-universalism-consolidations",
    "atlasId": "VIII.37",
@@ -27319,7 +27378,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "ruthenian-greek-catholic-polotsk-to-galicia",
    "atlasId": "VIII.38",
@@ -27422,7 +27481,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "philippine-catholicism-gomburza-to-aglipay",
    "atlasId": "VIII.39",
@@ -27522,7 +27581,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "church-of-the-east-chaldean-consolidation",
    "atlasId": "VIII.40",
@@ -27629,7 +27688,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "confessional-lutheran-revival-emigrations",
    "atlasId": "VIII.41",
@@ -27737,7 +27796,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "malagasy-christianity",
    "atlasId": "VIII.42",
@@ -27838,7 +27897,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "east-african-christianity-uganda-martyrs",
    "atlasId": "VIII.43",
@@ -27951,7 +28010,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "taiping-heavenly-kingdom",
    "atlasId": "VIII.44",
@@ -28057,7 +28116,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "japanese-christianity-hidden-emergence-meiji",
    "atlasId": "VIII.45",
@@ -28172,7 +28231,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "haitian-church-rupture-to-concordat",
    "atlasId": "VIII.46",
@@ -28244,7 +28303,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "alaskan-mission-herman-veniaminov",
    "atlasId": "VIII.47",
@@ -28359,7 +28418,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "nineteenth-century-latin-american-catholicism",
    "atlasId": "VIII.48",
@@ -28464,7 +28523,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "ethiopian-christianity-tewodros-to-menelik",
    "atlasId": "VIII.49",
@@ -28574,7 +28633,7 @@
      "verification": "from reference summaries; primary text not yet read"
     }
    ]
-  },
+},
   {
    "id": "dutch-neo-calvinism-secession-churches",
    "atlasId": "VIII.50",
@@ -28684,7 +28743,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "russian-evangelicals-stundists",
    "atlasId": "VIII.51",
@@ -28793,7 +28852,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "azusa-street-and-early-pentecostalism",
    "atlasId": "IX.1",
@@ -28931,7 +28990,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-1904-07-revival-family-wales-mukti-india-pyo",
    "atlasId": "IX.2",
@@ -29067,7 +29126,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-east-african-revival-balokole",
    "atlasId": "IX.3",
@@ -29198,7 +29257,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "african-initiated-churches-harrist-aladura-zioni",
    "atlasId": "IX.4",
@@ -29335,7 +29394,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-chinese-church-indigenous-and-suffering",
    "atlasId": "IX.5",
@@ -29479,7 +29538,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-confessing-church",
    "atlasId": "IX.6",
@@ -29595,7 +29654,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "catholic-lay-renewal-worlds-catholic-worker-foco",
    "atlasId": "IX.7",
@@ -29734,7 +29793,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "latin-american-base-communities",
    "atlasId": "IX.8",
@@ -29865,7 +29924,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "emigre-orthodoxy-and-the-paris-school",
    "atlasId": "IX.9",
@@ -29995,7 +30054,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-coptic-monastic-and-sunday-school-revival",
    "atlasId": "IX.10",
@@ -30134,7 +30193,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "global-south-pentecostal-christianity",
    "atlasId": "IX.11",
@@ -30274,7 +30333,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "persecuted-church-worlds-of-the-communist-era-in",
    "atlasId": "IX.12",
@@ -30404,7 +30463,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "messianic-judaism",
    "atlasId": "IX.13",
@@ -30537,7 +30596,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "ecumenical-community-worlds-taize-and-iona",
    "atlasId": "IX.14",
@@ -30665,7 +30724,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "oneness-pentecostalism",
    "atlasId": "IX.15",
@@ -30806,7 +30865,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "iglesia-ni-cristo-the-way-international-unificat",
    "atlasId": "IX.16",
@@ -30943,7 +31002,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "branch-davidians-and-apocalyptic-splinters",
    "atlasId": "IX.17",
@@ -31038,7 +31097,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "progressive-christianity-a-broad-label-not-one-m",
    "atlasId": "IX.18",
@@ -31238,7 +31297,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "modern-ethiopian-and-eritrean-christianity",
    "atlasId": "IX.20",
@@ -31373,7 +31432,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-ukrainian-greek-catholic-underground",
    "atlasId": "IX.21",
@@ -31508,7 +31567,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-russian-new-martyrs-and-the-catacomb-church",
    "atlasId": "IX.22",
@@ -31643,7 +31702,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-post-vatican-ii-parish-world",
    "atlasId": "IX.23",
@@ -31774,7 +31833,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "lausanne-era-global-evangelicalism",
    "atlasId": "IX.24",
@@ -31910,7 +31969,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "african-diaspora-and-reverse-mission-churches-in",
    "atlasId": "IX.25",
@@ -32038,7 +32097,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "ratana-church-and-pacific-adjustment-movements",
    "atlasId": "IX.26",
@@ -32171,7 +32230,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-armenian-church-after-the-genocide-medz-yegh",
    "atlasId": "IX.27",
@@ -32306,7 +32365,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-emerging-church-and-post-evangelical-movemen",
    "atlasId": "IX.28",
@@ -32443,7 +32502,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "dispensational-prophecy-culture",
    "atlasId": "IX.29",
@@ -32578,7 +32637,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-megachurch-and-seeker-movement",
    "atlasId": "IX.30",
@@ -32719,7 +32778,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "deconstruction-and-ex-vangelical-communities",
    "atlasId": "IX.31",
@@ -32850,7 +32909,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-narrative-kingdom-renewal-the-bible-as-one-s",
    "atlasId": "IX.32",
@@ -33000,7 +33059,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "fundamentalism-1910-1970s",
    "atlasId": "IX.33",
@@ -33138,7 +33197,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-social-gospel",
    "atlasId": "IX.34",
@@ -33276,7 +33335,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-mainline-century-liberal-and-neo-orthodox",
    "atlasId": "IX.35",
@@ -33421,7 +33480,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "new-calvinism-young-restless-reformed",
    "atlasId": "IX.36",
@@ -33569,7 +33628,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "indonesian-christianity-the-independent-century",
    "atlasId": "IX.37",
@@ -33697,7 +33756,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "northeast-india-and-mar-thoma-twentieth-century",
    "atlasId": "IX.38",
@@ -33825,7 +33884,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-malankara-churches-orthodox-and-jacobite",
    "atlasId": "IX.39",
@@ -33953,7 +34012,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-georgian-orthodox-church-restored",
    "atlasId": "IX.40",
@@ -34071,7 +34130,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "churches-of-christ-twentieth-century",
    "atlasId": "IX.41",
@@ -34208,7 +34267,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "disciples-of-christ-and-independent-christian-churches",
    "atlasId": "IX.42",
@@ -34335,7 +34394,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-black-church-in-the-twentieth-century",
    "atlasId": "IX.43",
@@ -34463,7 +34522,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "seventh-day-adventist-church-twentieth-century",
    "atlasId": "IX.44",
@@ -34591,7 +34650,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "charismatic-renewal-and-the-jesus-movement",
    "atlasId": "IX.45",
@@ -34720,7 +34779,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-ecumenical-movement-and-the-wcc",
    "atlasId": "IX.46",
@@ -34848,7 +34907,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "the-catholic-church-pius-x-to-the-council",
    "atlasId": "IX.47",
@@ -34977,7 +35036,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "american-orthodoxy-autocephaly-and-the-convert-wave",
    "atlasId": "IX.48",
@@ -35115,7 +35174,7 @@
      ]
     }
    ]
-  },
+},
   {
    "id": "hebrew-roots-and-torah-observance-movements",
    "atlasId": "IX.49",
@@ -35248,6 +35307,6 @@
      ]
     }
    ]
-  }
+}
  ]
 }
