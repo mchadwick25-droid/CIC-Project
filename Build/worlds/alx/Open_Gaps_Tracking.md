@@ -436,4 +436,6 @@ Left alone. Terms and stories carry no scaffolding in their spoken fields. Story
 
 Gates, 2026-10-06 (after round 1 revisions). `engine.m10.cli records alx`: PASS. `engine.m10.cli regate alx --base origin/main`: PASS. `engine.m2.cli determinism-check alx`: PASS. `tools/check_live_commentary.py --base origin/main --enforce`: exit 0; package `2026-10-06T22-18-30Z`, manifest hash `sha256:09529d70c139d69a2ea3023652d58057676bdbccd0e8943012f224865ab21594`, pinned in `records/worlds/alx.yaml`.
 
+CI after the push: the embedded-quotation survey counted one fewer alx record (9 to 8) because the removed scaffolding in `alx.dw.was-jesus-god` quoted the question "Was Jesus God? Did you believe in the Trinity?"; the survey's alx baseline in `engine/m1/tests/test_embedded_quotations.py` moved to 8. The site JSON for alx (`cic-website/data/worlds/alexandria-catechetical.json`) was recompiled because its narrative was stale against the records.
+
 Status: round 2 (Opus, `Build/Ministry/Operations/Audits/alx_identity_scaffolding_review_round2_2026-10-06.md`) cleared the records and ruled the two kept body lines legitimate record notes. Approved to proceed.
