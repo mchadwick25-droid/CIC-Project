@@ -62,13 +62,6 @@ senses:
     but its holders did not experience political and religious standing as separable categories; treating
     them as separable is the modern assumption, not the world''s.'
 quick_meaning: Constantinople's claim to rank second of all the churches, because the emperor now reigns there.
-use_note:
-  means: "Presbeia is the \"prerogative of honor\": Constantinople's claim to rank second among the churches because the emperor reigns there, so that rank follows the throne."
-  not_for:
-    - "a claim that presbeia was a merely ceremonial honor with no operative claim behind it"
-    - "a claim that presbeia meant the presbyterate or office of elders"
-  years: {from: 381, to: 451}
-  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 1;
 Lexicon-Chunks/ijclex002_presbeia.md). Strand B's rival pole of the

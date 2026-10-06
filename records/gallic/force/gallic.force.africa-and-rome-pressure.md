@@ -21,7 +21,7 @@ confidence:
     on Augustine's name as evidence FOR the leaning, against Heurtley's own stated doubt two
     sentences earlier); and the identity of Augustine's correspondent Hilary (a Gallic lay monk vs.
     Hilary of Sicily per npnf105's own apparatus - not Hilary of Arles). Layer 2 carries two
-    disclosed analyst's-frame sentences at its edge and Reported-Experience Status for
+    disclosed analyst's-frame sentences at its edge (Doc_08 §8) and Reported-Experience Status for
     the Lérins sentences. Prosper's Ep. 225 reaches this build only as Heurtley's Latin quotation
     (row 31 unvendored).
 sources:
@@ -70,47 +70,43 @@ relations:
   target: gallic.gravity.authority-ambivalence
 - type: associated-with
   target: gallic.gravity.named-example
-- type: associated-with
-  target: gallic.quote.grievous-blasphemy-not-all-men-to-be-saved
-- type: associated-with
-  target: gallic.quote.profane-notion-attribute-everything-to-free-will
-- type: associated-with
-  target: gallic.quote.augustine-in-darkness-on-predestination
-- type: associated-with
-  target: gallic.quote.gibson-priests-not-to-invade-episcopal-prerogative
-- type: associated-with
-  target: gallic.quote.chaeremon-grace-requires-our-effort
-- type: associated-with
-  target: gallic.quote.perfection-not-gained-without-grace
-- type: associated-with
-  target: gallic.quote.massilians-clung-to-their-views
-- type: associated-with
-  target: gallic.quote.vincent-celestines-letter-and-its-reading
-name: "The pressure from Africa and Rome on the grace teaching (Lérins-Marseilles)"
+name: "The pressure from Africa and Rome on the grace teaching (L\u00e9rins-Marseilles) [2A - ongoing/external]"
 kind: ongoing
 matrix_cell: 2A
-description: |-
-  Two things made up the one sustained outside doctrinal pressure this world's texts record. They were Augustine's later teaching, reported from Gaul, and the response of the Roman see. The texts record it almost entirely through outside report and editors' notes, and not in the world's own name.
-
-  What the world held was Cassian's view. The grace of God always works together with our will, for its good (Conferences XIII.13). Cassian called it grievous blasphemy to say that God does not will all people generally to be saved, but only some (XIII.7). On the other side he rejected the profane notion of some who put everything down to free will (XIII.16).
-
-  What the outside reported was Augustine's view. Augustine wrote that these brethren were as yet in darkness. The question was the predestination of the saints (On the Predestination of the Saints, ch. 2).
-
-  What came back is known through Gibson's editorial introduction. Celestine wrote to the bishops of Gaul and named Venerius of Marseilles first. He warned that priests ought not to teach so as to invade the bishops' rights. The Massilians clung to their views despite the Pope's authority.
-
-  Gibson also reports Contra Collatorem, which examines the thirteenth Conference and never once names Cassian directly. Heurtley's appendices add Prosper's charge that they defended their obstinacy by antiquity. They also add Celestine's line that novelty should cease to assail antiquity, as Vincent quotes it. Gennadius independently attests the fight.
-
-  From within, the brethren were not answering a man. They were keeping the faith of the fathers, giving the elders' view and not their own (Institutes XII.14). They did not name the bishop across the sea, and the world's own text nowhere does.
-
-  They refused one error as blasphemy against God's will that all be saved. They refused it also as a taking away of the labor the fathers had commanded. On the other side they refused Pelagius. Vincent of Lérins, in his Commonitory, called such people an ephemeral, moribund set of frogs, fleas, and flies.
-
-  When the letter came from the Apostolic See, it said that novelty should cease to assail antiquity. Vincent, at Lérins, read it as written for his side. The name the reporters gave them, Massilians and remnants of the Pelagians, was not a name they used of themselves.
-
-  This pressure gave the grace argument its outside occasion and its fame. Part of that fame is an artifact of how it was reported. The position sat inside the formation manual as a remedy for pride before any report made it the Massilian position.
-
-  Under the pressure, the appeal to Egypt hardened into a plea of all the Catholic fathers. The appeal to received tradition hardened into a formal rule of antiquity in 434. Authority ambivalence took its southern form, defiance of the Apostolic See, on the editor's account.
-
-  It bore on the formation manual's own summit and not on a separable doctrine, so it pressed the whole southern program. It also started a loop. The world's own rule of antiquity was applied to it from outside, and the world's answer was to plead that rule harder. The Tours writings were finished before the question was asked.
+description: >-
+  Augustine's later teaching, reported from Gaul, and the Roman see's response constitute the one
+  sustained external doctrinal pressure this world's texts register - 'and they register it almost
+  entirely through outside report and editorial apparatus, not in the world's own name.' What the
+  world held is Cassian's: 'the grace of God always co-operates with our will for its advantage'
+  (Conf. XIII.13), the refusal as 'grievous blasphemy' of the view that God 'does not generally will
+  all men ... to be saved' (XIII.7), and on the other side 'the profane notion of some who attribute
+  everything to free will' (XIII.16). What the outside reported is Augustine's: the brethren 'as yet
+  ... in darkness on the question concerning the predestination of the saints' (Praed. ch. 2). What
+  came back is known through Gibson's editorial prolegomena - Celestine's letter to the Gallican
+  bishops with 'Venerius of Marseilles' first, warning that 'priests ought not to teach so as to
+  invade the episcopal prerogative'; the Massilians who 'clung to their views in spite of the
+  authority of the Pope'; Contra Collatorem, 'an examination of the thirteenth Conference,' whose
+  author 'never once names him directly' - and, new to the build through Heurtley's Appendices,
+  Prosper's own 'obstinationem suam vetustate defendunt' (they defend their obstinacy by antiquity)
+  and Celestine's 'let novelty cease to assail antiquity' as Vincent quotes it. Gennadius
+  independently attests the fight (Doc_08 Cell 2A, Force 2A-1). WORLD'S OWN EXPERIENCE (Layer 2):
+  from within, the brethren were not answering a man; they were keeping the faith of the fathers -
+  'not giving my own opinion, but that of the elders' (Inst. XII.14). They did not name the bishop
+  across the sea; the world's own text nowhere does. What they refused they refused as blasphemy
+  against God's will that all be saved and as a taking away of the labour the fathers had commanded;
+  what they refused on the other side was Pelagius, whose kind are 'an ephemeral, moribund set of
+  frogs, fleas, and flies.' And when the letter came from the Apostolic See saying 'let novelty
+  cease to assail antiquity,' the keeper at Lérins read it as written for his side. The name the
+  reporters gave them - Massilians, remnants of the Pelagians - was not a name they used of
+  themselves. FORMATION IMPACT (Layer 3): gave G3 its external occasion and its fame - 'partly an
+  artifact of how it was reported': the position sat inside the formation manual as a remedy for
+  pride (2B-1) before any report made it 'the Massilian position.' Under this pressure G2 hardened
+  (Egypt pleaded as 'all the Catholic fathers') and G4 hardened into a formal rule in 434; it
+  produced G9's southern valence - defiance of the Apostolic See on the editor's account; it bore on
+  the formation manual's own summit, not on a separable doctrine, and so pressed the whole southern
+  program; and it generated the loop in which the world's own boundary-instrument was applied to it
+  from outside and the world's response was to plead the instrument harder. Node-bound southern:
+  Tours's corpus was closed before the question was posed.
 manifestations:
 - "Conf. XIII's two-sided position - grace always co-operating with a will 'open to either side'; the refusal of limited saving will as 'grievous blasphemy'"
 - "Augustine's report that the brethren are 'in darkness' on predestination (Praed. ch. 2, context only); Warfield's editorial 'remnants of the Pelagians'"
@@ -119,6 +115,18 @@ manifestations:
 - "Prosper's 'they defend their obstinacy by antiquity' and Celestine's 'let novelty cease to assail antiquity' - Heurtley's Appendices II-III, editorial, Latin"
 - "Vincent reading Celestine's sentence for his own side: 'not that antiquity should cease to subvert novelty, but that novelty should cease to assail antiquity' (Comm. ch. 32 [85])"
 ---
-Node: S. The Contested chronology (Chadwick vs. Casiday) is carried in this record's divergence_note,
-not resolved; no contested_claim record is built at this step. Canon_cells left empty, matching
-fleet convention for gravity/force records.
+Re-derived from the approved Doc_08 (Cell 2A, Force 2A-1). Cross-cell connections (Section 4):
+Connection 2, '2B-1 -> 2A-1, reacted to: the external force acted on the internal one: what Prosper
+carried to Augustine and Celestine was a report of the teaching 2B-1 documents' - carried as
+enabled-by gallic.force.received-programs-logic; Connection 3's chain, '1A-1 -> 2A-1 -> 3B-3 ->
+3A-1' - enabled-by gallic.force.egyptian-standard and precondition-for
+gallic.force.contest-over-antiquity; Connection 7, 1B-2 -> 2A-1 - enabled-by
+gallic.force.legitimacy-by-reception; Connection 11, '2A-1 -> 2B-2 -> 3B-2, produced the selection:
+the controversy is the reason a fifteenth-century keeper cut Conf. XIII "to make Cassian orthodox"'
+- precondition-for gallic.force.transmission. Reciprocals declared on each. Gravity linkage (Doc_08
+§5, A.1 - five gravities): intensified and named G3, intensified and shifted G2, intensified G4 into
+a formal rule, produced G9's southern valence, and weaponized G5 - all carried as associated-with,
+this being an ongoing-cell force shaping rather than founding each gravity (G3's own founding force
+is 2B-1). Node: S. The Contested chronology (Chadwick vs. Casiday) is carried at Section 7 and in
+this record's divergence_note, not resolved; no contested_claim record is built at this step.
+Canon_cells left empty, matching fleet convention for gravity/force records.

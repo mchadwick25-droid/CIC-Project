@@ -67,14 +67,6 @@ modern_contrast: >
   neither: authority here worked by open, patient argument aimed at restored
   shared truth (see alx.dw.councils) - not suppression, and not an
   agreement to remain divided.
-use_note:
-  means: "Dionysius answered Nepos's book in the Arsinoite villages with three days of open argument until Coracion was persuaded, evidencing authority working by patient reasoning."
-  not_for:
-    - "presenting it as an inquisition or as a session that left the split open"
-    - "reporting the arguments exchanged, which survive only in Dionysius's summary"
-    - "describing Nepos's book or the villagers' own words as surviving"
-  years: {from: 248, to: 265}
-  status: reviewed
 ---
 Serves three cells honestly: F1-E (how disputed belief was actually
 decided - by patient open argument, here), F4-T (the end-times cell:

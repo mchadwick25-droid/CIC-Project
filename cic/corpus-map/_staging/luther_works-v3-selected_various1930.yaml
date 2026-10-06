@@ -3,8 +3,7 @@
 source_file: luther_works-v3-selected_various1930.txt
 
 assignments:
-  - row_id: luther_works-v3-selected_various1930--the-magnificat-translated-and-explained
-    work: "The Magnificat: Translated and Explained"
+  - work: "The Magnificat: Translated and Explained"
     author: luther
     locus: "lines ~6281-10440 (dedication to Duke John Frederick from
       6499; the full verse-by-verse commentary follows; the volume's next
@@ -19,8 +18,8 @@ assignments:
       young Duke John Frederick, including the devotional-exegetical
       register Doc_01/Doc_02 flagged as thin in this corpus and his ideal
       of a woman's life (Mary at household tasks) - usable only for that,
-      never as a woman's own voice. The witt source registry listed it as
-      "Not in the corpus-map"; the
+      never as a woman's own voice. Closes the gap witt_Source_Registry.md's
+      R18 flagged as "Not in the corpus-map" - the
       registry's own note identifies this as "the v3 work whose OCR title
       the intake header called unreadable." Confidence held at
       provisional, matching this file's sibling entries: the start (6281),
@@ -32,8 +31,7 @@ assignments:
       degradation as the rest of this volume (e.g. "SerRENE HIGHNESS,"
       "JoHN FREDERICK" in the dedication heading itself).
 
-  - row_id: luther_works-v3-selected_various1930--an-argument-in-defense-of-all-the-articles-of-dr-martin
-    work: "An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned in the Roman Bull"
+  - work: "An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned in the Roman Bull"
     author: luther
     locus: "see file's own Contents page (OCR-degraded, verify against section headings)"
     atlas_ids:
@@ -45,8 +43,7 @@ assignments:
       file's own Contents page is OCR-degraded, and exact locus
       boundaries for each of this volume's several works are not
       independently confirmed against the body text.
-  - row_id: luther_works-v3-selected_various1930--an-earnest-exhortation-for-all-christians-warning-them
-    work: "An Earnest Exhortation for All Christians, Warning Them Against Insurrection"
+  - work: "An Earnest Exhortation for All Christians, Warning Them Against Insurrection"
     author: luther
     locus: "see file's own Contents page (OCR-degraded, verify against section headings)"
     atlas_ids:
@@ -60,8 +57,7 @@ assignments:
       1525 "Against the Murderous, Thieving Hordes of Peasants" tract
       itself, which remains unvendored (see this world's own G1 manifest).
       Should not be conflated with that later, harsher text.
-  - row_id: luther_works-v3-selected_various1930--secular-authority-to-what-extent-it-should-be-obeyed
-    work: "Secular Authority: To What Extent It Should Be Obeyed"
+  - work: "Secular Authority: To What Extent It Should Be Obeyed"
     author: luther
     locus: "see file's own Contents page (OCR-degraded, verify against section headings)"
     atlas_ids:
@@ -71,8 +67,7 @@ assignments:
     note: >
       1523, trans. C. J. Schindel. Directly bears on this world's own
       territorial-authority settlement (Doc_01 §3, §5).
-  - row_id: luther_works-v3-selected_various1930--to-the-knights-of-the-teutonic-order
-    work: "To the Knights of the Teutonic Order"
+  - work: "To the Knights of the Teutonic Order"
     author: luther
     locus: "see file's own Contents page (OCR-degraded, verify against section headings)"
     atlas_ids:
@@ -81,8 +76,7 @@ assignments:
     confidence: provisional
     note: >
       1523, trans. W. A. Lambert.
-  - row_id: luther_works-v3-selected_various1930--reply-to-the-answer-of-the-leipzig-goat-answer-to-the
-    work: "Reply to the Answer of the Leipzig Goat (Answer to the Superchristian, Superspiritual, and Superlearned Book of Goat Emser)"
+  - work: "Reply to the Answer of the Leipzig Goat (Answer to the Superchristian, Superspiritual, and Superlearned Book of Goat Emser)"
     author: luther
     locus: "see file's own Contents page (OCR-degraded, verify against section headings)"
     atlas_ids:

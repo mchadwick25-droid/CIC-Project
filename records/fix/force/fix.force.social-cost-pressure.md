@@ -5,7 +5,7 @@ record_type: force
 schema_version: 2
 status: ready
 register: emic
-canon_cells: [F6-P]
+canon_cells: []
 confidence:
   citation_specificity: B
   verification_state: verified-direct

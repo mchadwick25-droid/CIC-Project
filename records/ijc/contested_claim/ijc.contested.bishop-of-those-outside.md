@@ -34,13 +34,6 @@ concedes: 'The saying''s textual existence in the Vita is Documented, and its af
   Constantinopolitan strand''s later conciliar claims make institutionally explicit. The record supports
   the seed''s existence; it does not settle the sower''s intent.'
 divergence_partners: []
-use_note:
-  means: "On one reading, Constantine's remark that he was a bishop over those outside the Church states a considered theory of imperial authority; this is unsettled."
-  not_for:
-    - "a claim that the saying's meaning is recoverable from one reported sentence"
-    - "a claim that the remark is independently attested beyond Eusebius"
-  years: {from: 312, to: 340}
-  status: reviewed
 ---
 Rebuilt from the approved Doc_01 SS4 (Strand B: "Documented as a
 textual claim; what it reveals about imperial self-understanding versus

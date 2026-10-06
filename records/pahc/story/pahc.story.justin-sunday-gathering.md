@@ -58,13 +58,6 @@ modern_contrast: >
   differently: Justin describes a modest, likely house-based gathering,
   defending its ordinariness to a hostile emperor precisely because
   nothing about its shape was yet settled or protected by law.
-use_note:
-  means: "Justin describes to the emperor what happens when his community gathers on the day of the sun: reading, sermon, prayer, thanksgiving over bread and wine, and a collection."
-  not_for:
-    - "an already institutional church service with clergy and a dedicated building"
-    - "the same order in Antioch or Asia Minor"
-  years: {from: 153, to: 157}
-  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 006. Quotations checked
 directly against cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml,

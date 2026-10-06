@@ -110,15 +110,6 @@ quick_meaning: >-
   bishops' sentence - never by an emperor's sword. Martin went to Trier to protect even
   heretics.
 distortion_risk: high
-use_note:
-  means: "A heretic was one who left the consent of the universal and ancient Church under his own name, to be cast out by bishops and never put to the sword."
-  not_for:
-    - "a slur for any dissenter, or the Inquisition's category"
-    - "Martin's defence of the Priscillianists as religious toleration"
-    - "the rule that detects heresy, which sits in gallic.term.the-rule"
-    - "the curse on such a man and the one sick sheep that must not infect the flock, which sit in gallic.term.anathema"
-  years: {from: 397, to: 434}
-  status: reviewed
 ---
 Built from Doc_06 entry 060 (`galliclex060_heretic-heresy.md`, Tier 2, tags SC DR RT PV; Doc_03
 7.10). The [PV] (category / man / reading-hazard) is carried in divergence_note and every sense.

@@ -1,8 +1,7 @@
 source_file: zerbolt_spiritual-ascent_arthur1908.txt
 
 assignments:
-  - row_id: zerbolt_spiritual-ascent_arthur1908--the-spiritual-ascent-a-devotional-treatise-de-spiritualibus
-    work: "The Spiritual Ascent: A Devotional Treatise (De Spiritualibus Ascensionibus)"
+  - work: "The Spiritual Ascent: A Devotional Treatise (De Spiritualibus Ascensionibus)"
     author: zerbolt
     locus: "whole volume"
     atlas_ids:

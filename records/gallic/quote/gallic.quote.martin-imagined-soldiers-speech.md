@@ -61,14 +61,6 @@ modern_rendering: >-
   you direct. Yes, release is sweet to an old man after long labor. Yet my mind has conquered my
   years, and I have no wish to give in to old age. But if you now take pity on my many years, your
   will for me is good, O Lord. You yourself will guard those whose safety I fear for.
-use_note:
-  means: "Sulpitius, in Letter III, composes a soldier's prayer in Martin's voice to express what Martin's dying words meant, and presents it as his own expansion."
-  not_for:
-    - "Martin's own recorded words, when Sulpitius frames the speech as his own composition"
-    - "the disciples' plea and Martin's actual reply at his death, which sit in gallic.quote.martin-disciples-plea-and-his-reply"
-    - "evidence that Martin called himself a soldier on his deathbed"
-  years: {from: 397, to: 397}
-  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Terrible, indeed, Lord, is the struggle"` returns line 2438; `grep -n "guard over those for whose

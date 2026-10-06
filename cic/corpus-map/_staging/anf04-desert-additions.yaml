@@ -2,8 +2,7 @@
 # already vendored and assigned elsewhere, and for exactly what.
 source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
 assignments:
-- row_id: anf04-desert-additions--de-principiis-on-first-principles-in-rufinus-latin
-  work: De Principiis (On First Principles), in Rufinus' Latin
+- work: De Principiis (On First Principles), in Rufinus' Latin
   author: origen
   locus: Book I ch. 1 sec. 6 on God's incorporeality, at file line 22800; Rufinus' prologue precedes
     the work

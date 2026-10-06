@@ -51,14 +51,5 @@ modern_lens_note: 'A modern reader may hear "the conscience of the giver" as a c
 modern_rendering: What we look for is the conscience of the giver - the one who gives in holiness - to
   cleanse that of the recipient. Someone who knowingly takes faith from the faithless receives not faith,
   but guilt.
-use_note:
-  means: "Petilian held that the giver's holy conscience is what cleanses the recipient, so faith knowingly taken from the faithless brings guilt instead."
-  not_for:
-    - "a claim that validity turned on the minister's private, subjective sincerity"
-    - "a claim that these words survive in a Donatist text rather than inside Augustine's refutation"
-    - "a claim about Augustine's counter-argument"
-    - "a claim about the doctrine as a central pattern of this world, which sits in don.gravity.ministerial-purity"
-  years: {from: 395, to: 401}
-  status: reviewed
 ---
 This proposition is named directly in the Permanent Prompt's own Approved Source paragraph ('What Petilian argued: that what is sought is the conscience of the giver, to cleanse that of the recipient'). Independently re-checked this session at its point of direct textual attribution within Augustine's own translated Answer (Book II, Chapter 3), not only at the Prolegomena's earlier summary of the same words (line 10280) -- the same proposition recurs at least a dozen further times across Books II-III as Augustine returns to it, confirming this is the argument's own settled, repeated form, not a one-off paraphrase. The Latin's own parenthetical variants ('sancte', 'sciens') are the NPNF edition's own bracketed textual-variant markers, reproduced here as found rather than silently resolved. modern_rendering is a light modernization of the NPNF's own published translation, not a fresh rendering from this session's own reading of the Latin. The record's Latin matches the vendored edition's own "quæ" ligature exactly; no wording changed.

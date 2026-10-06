@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: roman-church-gregorian
 works:
-- row_id: gregory-great_moralia-in-job-books-i-x_bliss1844--morals-on-the-book-of-job-moralia-in-job-books-i-x
-  work: Morals on the Book of Job (Moralia in Job), Books I-X
+- work: Morals on the Book of Job (Moralia in Job), Books I-X
   author: gregory
   locus: whole text - Vol. I, Parts I-II, Books I-X
   role: tradition
@@ -20,8 +19,7 @@ works:
 
     '
   source_file: gregory-great_moralia-in-job-books-i-x_bliss1844.txt
-- row_id: gregory-great_moralia-in-job-books-xi-xxii_bliss1845--morals-on-the-book-of-job-moralia-in-job-books-xi-xxii
-  work: Morals on the Book of Job (Moralia in Job), Books XI-XXII
+- work: Morals on the Book of Job (Moralia in Job), Books XI-XXII
   author: gregory
   locus: whole text - Vol. II, Parts III-IV, Books XI-XXII
   role: tradition
@@ -33,8 +31,7 @@ works:
 
     '
   source_file: gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt
-- row_id: gregory-great_moralia-in-job-books-xxiii-xxix_bliss1847--morals-on-the-book-of-job-moralia-in-job-books-xxiii-xxix
-  work: Morals on the Book of Job (Moralia in Job), Books XXIII-XXIX
+- work: Morals on the Book of Job (Moralia in Job), Books XXIII-XXIX
   author: gregory
   locus: whole text - Vol. III, First Part (Parts V-VI), Books XXIII-XXIX
   role: tradition
@@ -48,8 +45,7 @@ works:
 
     '
   source_file: gregory-great_moralia-in-job-books-xxiii-xxix_bliss1847.txt
-- row_id: gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850--morals-on-the-book-of-job-moralia-in-job-books-xxx-xxxv
-  work: Morals on the Book of Job (Moralia in Job), Books XXX-XXXV
+- work: Morals on the Book of Job (Moralia in Job), Books XXX-XXXV
   author: gregory
   locus: whole text - Vol. III, Second Part, Books XXX-XXXV (completing the work)
   role: tradition
@@ -61,8 +57,7 @@ works:
 
     '
   source_file: gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt
-- row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i
-  work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
+- work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
   role: tradition
@@ -73,8 +68,7 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--register-of-the-epistles-of-st-gregory-the-great-books-ix
-  work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
+- work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
   author: gregory
   locus: div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books
     I-VIII)
@@ -86,8 +80,7 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
-- row_id: npnf212_leo-great-gregory-great--the-book-of-pastoral-rule
-  work: The Book of Pastoral Rule
+- work: The Book of Pastoral Rule
   author: gregory
   locus: div2 3.4 — The Book of Pastoral Rule
   role: tradition
@@ -99,8 +92,7 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- row_id: gregory-great_dialogues_gardner1911--the-dialogues-of-saint-gregory-surnamed-the-great-all-four
-  work: The Dialogues of Saint Gregory, surnamed the Great (all four Books)
+- work: The Dialogues of Saint Gregory, surnamed the Great (all four Books)
   author: gregory
   locus: whole text - Book I (Italian abbots and monks), Book II (the Life of St. Benedict
     of Nursia), Book III (Italian bishops and martyrs), Book IV (the immortality of the soul)
@@ -117,7 +109,7 @@ works:
     real, not yet acted-on, potential cross-link to early-benedictine-italian-monasticism
     (whose own census entry names Gregory as the author of "the only life of Benedict there
     is"); left unassigned there because how these two census entries'' own coverage overlaps
-    stays unsettled (roman-church-gregorian_Source_Readiness_Dossier.md §5).
+    is not yet resolved (roman-church-gregorian_Source_Readiness_Dossier.md §5).
 
     '
   source_file: gregory-great_dialogues_gardner1911.txt

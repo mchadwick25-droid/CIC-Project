@@ -65,14 +65,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.election-at-tours
-use_note:
-  means: "Sulpitius narrates how a psalm verse read at random at Martin's election seemed to name the objecting bishop Defensor, which was believed to be divine ordination."
-  not_for:
-    - "Sulpitius's own proof, when he reports what was believed"
-    - "the editor's note linking defensor and avenger as part of Sulpitius's text"
-    - "the ruse and the vote, which sit in gallic.quote.ruricius-and-the-vote-for-tours"
-  years: {from: 397, to: 397}
-  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml,
 same chapter as gallic.quote.ruricius-and-the-vote-for-tours (`ii.ii.x-p2`). `grep -n "Defensor"`

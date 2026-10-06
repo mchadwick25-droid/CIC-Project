@@ -145,15 +145,6 @@ manifestations:
   the power of the Church and the power of the sword" (AC 1281-1285)'
 - the Augsburg Confession itself submitted by "the undersigned Elector and Princes" (AC 66), nine signatories
   (AC 1557-1567)
-use_note:
-  means: "The two governments names the temporal sword as God-ordained and to be obeyed save when commanded to sin, with the prince as the addressee of the teaching."
-  not_for:
-    - "the 'two kingdoms doctrine' as one settled system, which witt.contested.two-governments-historical-scope holds as contested"
-    - "the obedience limit as a general right of resistance"
-    - "the 1525 Peasants' War as documented, which is a named absence in witt.force.absent-inputs-1525-and-1555"
-    - "the term-level definition, which sits in witt.term.the-two-governments"
-  years: {from: 1520, to: 1531}
-  status: reviewed
 ---
 CONTESTED-CLAIM LINKAGE (closed at B-6): witt.contested.two-governments-historical-scope holds the term's
 own [CT] historical-scope contest against this gravity -- an extension to a Supporting gravity, argued

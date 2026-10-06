@@ -1,8 +1,7 @@
 source_file: fasciculi-zizaniorum_shirley1858.txt
 
 assignments:
-  - row_id: fasciculi-zizaniorum_shirley1858--fasciculi-zizaniorum-magistri-johannis-wyclif-cum-tritico
-    work: "Fasciculi Zizaniorum Magistri Johannis Wyclif cum Tritico (Rolls Series)"
+  - work: "Fasciculi Zizaniorum Magistri Johannis Wyclif cum Tritico (Rolls Series)"
     author: fasciculi-zizaniorum
     locus: "whole volume, esp. the Twelve Conclusions of the Lollards and the Sautre/Purvey trial records"
     atlas_ids:

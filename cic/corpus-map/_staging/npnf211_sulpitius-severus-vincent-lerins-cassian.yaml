@@ -14,8 +14,7 @@ authors_ruled:
 
       '
 assignments:
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin
-  work: On the Life of St. Martin
+- work: On the Life of St. Martin
   author: sulpiciusseverus
   locus: div2 2.2 — On the Life of St. Martin
   atlas_ids:
@@ -28,8 +27,7 @@ assignments:
     (Martin, Sulpitius, Lerins, Cassian''s Marseilles) rather than the later
     merovingian-gallic-christianity entry (c. 480-620) that the Martin cult founds but that
     this work antedates by nearly a century.'
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus
-  work: The Letters of Sulpitius Severus
+- work: The Letters of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.3 — The Letters of Sulpitius Severus
   atlas_ids:
@@ -39,8 +37,7 @@ assignments:
   note: 'Three letters on Martin''s death and glory, continuous with the Life. Same placement as
     the Life of St. Martin: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the
     pre-Merovingian Gaul entry rather than the later Merovingian entry this work antedates.'
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus
-  work: Dialogues of Sulpitius Severus
+- work: Dialogues of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.4 — Dialogues of Sulpitius Severus
   atlas_ids:
@@ -53,8 +50,7 @@ assignments:
     Dialogues II-III continue the Martin material and take the same placement as the Life:
     gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian Gaul entry
     rather than the later Merovingian entry this work antedates.'
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus-2
-  work: Dialogues of Sulpitius Severus
+- work: Dialogues of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.4 — Dialogues of Sulpitius Severus, Dialogue I.7-9 (Postumianus's account of
     visiting Bethlehem)
@@ -80,8 +76,7 @@ assignments:
     to I.7-9 specifically, the Bethlehem passage, for hal.
 
     '
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus
-  work: The Doubtful Letters of Sulpitius Severus
+- work: The Doubtful Letters of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.5 — The Doubtful Letters
   atlas_ids:
@@ -103,8 +98,7 @@ assignments:
     by definition. The two together say the whole truth - where it sits, and what it is - without
     re-attributing anything. This can be reversed in one pass if the spurious corpora should
     instead be detached from their attributed authors.'
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica
-  work: The Sacred History (Chronica)
+- work: The Sacred History (Chronica)
   author: sulpiciusseverus
   locus: div2 2.6 — The Sacred History of Sulpitius Severus
   atlas_ids:
@@ -122,8 +116,7 @@ assignments:
     counts this work in Sulpitius'' own 109,539-word figure.
 
     '
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica-2
-  work: The Sacred History (Chronica)
+- work: The Sacred History (Chronica)
   author: sulpiciusseverus
   locus: div2 2.6 — The Sacred History of Sulpitius Severus
   atlas_ids:
@@ -136,8 +129,7 @@ assignments:
     per target.
 
     '
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins
-  work: The Commonitory of Vincent of Lerins
+- work: The Commonitory of Vincent of Lerins
   author: vincent_lerins
   locus: div1 3 — The Commonitory
   atlas_ids:
@@ -151,8 +143,7 @@ assignments:
     rather than the later Merovingian entry this work antedates. A pelagianism context link
     (Vincent''s milieu was the Gallic critics of Augustine) is arguable but too thin to assert
     without reading beyond the file.'
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia
-  work: The Twelve Books on the Institutes of the Coenobia
+- work: The Twelve Books on the Institutes of the Coenobia
   author: cassian
   locus: div2 4.3 — The Institutes
   atlas_ids:
@@ -169,8 +160,7 @@ assignments:
     both postdate Cassian. Same placement as the Sulpitius works for the
     Gallic entry: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian
     Gaul entry rather than the later Merovingian entry this work antedates.'
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian
-  work: The Conferences of John Cassian
+- work: The Conferences of John Cassian
   author: cassian
   locus: div2 4.4-4.6 — Conferences I-XXIV (three parts, one work)
   atlas_ids:
@@ -187,8 +177,7 @@ assignments:
     placement as the Sulpitius works for the Gallic entry: gallic-monastic-ascetic-christianity
     (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian entry
     this work antedates.'
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de
-  work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
+- work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian
   locus: div2 4.7 — The Seven Books on the Incarnation
   atlas_ids:
@@ -209,8 +198,7 @@ assignments:
     (CASE-gallic-monasticism.md) counts this work in Cassian''s own 364,648-word figure.
 
     '
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de-2
-  work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
+- work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian
   locus: div2 4.7 — The Seven Books on the Incarnation
   atlas_ids:

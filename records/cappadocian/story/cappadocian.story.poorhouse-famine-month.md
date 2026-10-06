@@ -82,15 +82,6 @@ modern_contrast: >-
   recurring regional risk, but no specific later crisis it actually met -
   this scene is offered as what such a crisis would plausibly have found
   there, not as something known to have happened.
-use_note:
-  means: "This reconstruction imagines a later crisis meeting the poorhouse complex Basil built, with ascetic nurses and stewards, though no such famine is attested."
-  not_for:
-    - "a documented event"
-    - "the famine of 368/9, which is told in cappadocian.story.famine-open-barns"
-    - "Basil's famine homilies as preached at the complex, since they came before it existed"
-    - "the complex as the first hospital anywhere"
-  years: {from: 370, to: 379}
-  status: reviewed
 ---
 Derived from Doc_09 entry #19 (Tier 4 composite). This record follows
 Doc_09's own current text, which places this scene after the poorhouse

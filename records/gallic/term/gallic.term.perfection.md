@@ -115,15 +115,6 @@ quick_meaning: >-
   The summit of a graded ascent - fear, then hope, then love - with charity as its substance. Not
   flawlessness, and never reached without grace.
 distortion_risk: high
-use_note:
-  means: "Perfection meant the summit of a graded ascent from fear to hope to love, with charity as its substance, not flawlessness and never reached without grace."
-  not_for:
-    - "perfectionism, or sinlessness as an impossible standard"
-    - "the perfect as an elite class"
-    - "the goal that precedes it, which sits in gallic.term.purity-of-heart"
-    - "a claim to be without sin, since Conference XXIII on sinlessness is unread"
-  years: {from: 415, to: 426}
-  status: reviewed
 ---
 Built from Doc_06 entry 035 (Tier 2; chunk galliclex035_perfection.md; Doc_03 4.3). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The two coverage limits

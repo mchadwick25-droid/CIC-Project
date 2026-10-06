@@ -1,8 +1,7 @@
 source_file: augustine_oeuvres-completes-tome15-donatistes-slice-fra_raulx1870.txt
 
 assignments:
-  - row_id: augustine_oeuvres-completes-tome15-donatistes-slice-fra_raulx1870--augustine-on-the-donatists-french-raulx-tome-15-slice
-    work: "Augustine on the Donatists (French, Raulx, tome 15, slice)"
+  - work: "Augustine on the Donatists (French, Raulx, tome 15, slice)"
     author: augustine
     locus: "whole file; item lines 1-45985 of the source volume"
     atlas_ids:

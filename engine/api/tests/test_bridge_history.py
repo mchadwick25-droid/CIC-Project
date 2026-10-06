@@ -89,9 +89,6 @@ def test_table_round_replays_underlying_subject_to_every_voice(store, usage_stor
         # instruction that legitimately contains a double-quoted performed
         # sentence (the Table's "We know only..." line)
         # flips every inner apostrophe to \' and breaks substring checks.
-        rendered = " ".join(
-            m["content"] if isinstance(m["content"], str) else " ".join(block["text"] for block in m["content"])
-            for m in call["messages"]
-        )
+        rendered = " ".join(m["content"] for m in call["messages"] if isinstance(m.get("content"), str))
         assert TRINITY_QUESTION not in rendered
         assert underlying_subject in rendered

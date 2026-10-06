@@ -52,13 +52,6 @@ senses:
     meaning not in going without food, but in what that going-without trains: the soul's own wanting.
 quick_meaning: Not a diet - training the soul's own wanting, practiced through the body's hunger.
 distortion_risk: high
-use_note:
-  means: "Fasting meant training the soul's wanting through the body's hunger, with the Paschal fast preparing the community for the feast that follows."
-  not_for:
-    - "describing it as dieting or food restriction for health"
-    - "presenting it as earning merit through hardship"
-  years: {from: 180, to: 373}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex027, "Fasting") at Mark's direction, as a draft,
 not a final version.

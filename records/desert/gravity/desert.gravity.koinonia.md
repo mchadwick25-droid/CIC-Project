@@ -63,14 +63,6 @@ manifestations:
 - "nine men's houses and two women's houses under Pachomius by his death in 346 (federation history, via Rousseau - not carried by either vendored witness, which give population figures, not house counts)"
 - "the angel-tablet rule as Palladius and Sozomen both report it - food, labor, cells, dress, the twenty-four lettered sections, a three-year probation; Sozomen's own chapter draws on a range of sources including Palladius's Lausiac History itself (per the chapter's own editorial source-note), so the two are not fully independent witnesses - Palladius remains one of this world's two principal narrative-history sources (alongside the Historia Monachorum, the shallower of the two per both records' own account), Sozomen's account corroborating rather than independently confirming it"
 - "the Rule as a formal, written condition of membership - absent as such from the solitary and semi-solitary strands"
-use_note:
-  means: "The Pachomian federation's shared rule, property, and single head organized a major part of this world but never spread beyond its own houses."
-  not_for:
-    - "Applying koinonia to solitary or semi-solitary monks"
-    - "Presenting it as the organization of the whole world"
-    - "Presenting Rule detail as verified when it comes by consult-only scholarship"
-  years: {from: 318, to: 430}
-  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 6, SS2
 row 6, SS3, SS4, SS5 row 6, SS6 (gravity 6). Held at Supporting on the

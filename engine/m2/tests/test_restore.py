@@ -41,10 +41,9 @@ def test_a_checkout_with_only_manifests_can_rebuild_the_pinned_package(tmp_path)
 def test_the_staleness_guard_needs_no_package_bytes():
     """It compares a recompile against the committed manifest, so it still
     fires on a checkout that has never restored anything."""
-    entry = load_registry()["fix"]
-    location = pathlib.Path(entry["package"]["location"])
+    location = pathlib.Path(load_registry()["fix"]["package"]["location"])
     _strip_to_manifest(location)
-    results = staleness_sweep({"fix": entry})
+    results = staleness_sweep()
     assert results["fix"]["stale"] is False
     restore_package("fix")  # leave the tree as we found it
 

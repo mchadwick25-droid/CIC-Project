@@ -54,13 +54,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.bishop-archebius
-use_note:
-  means: "Cassian reports Bishop Archebius urging him and Germanus to visit nearby old monks, whose lives teach the holiness Archebius says he has lost."
-  not_for:
-    - "a verbatim transcript, when it is Cassian's later literary rendering"
-    - "the account of Archebius's election, which sits in gallic.quote.archebius-carried-off-to-panephysis"
-  years: {from: 426, to: 426}
-  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml,
 same paragraph as gallic.quote.archebius-carried-off-to-panephysis (`iv.v.ii.ii-p2`).

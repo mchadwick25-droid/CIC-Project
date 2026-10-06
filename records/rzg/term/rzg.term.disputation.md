@@ -58,13 +58,6 @@ senses:
 quick_meaning: A public, formal debate before Zurich's own city council. Our reforming side defended its
   scriptural case against the old church's defenders. This is how Zurich's reform was actually decided.
 distortion_risk: medium
-use_note:
-  means: "A Disputation was a public debate before Zurich's city council in which the reforming side defended its case from Scripture, and it was how Zurich decided to reform."
-  not_for:
-    - "a claim that a Disputation was merely a staged event whose outcome was settled beforehand"
-    - "a claim that a Disputation was a formal academic exercise"
-  years: {from: 1523, to: 1523}
-  status: reviewed
 ---
 Built from Lexicon-Chunks/rzglex004_disputation.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /

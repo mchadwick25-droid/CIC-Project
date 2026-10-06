@@ -140,15 +140,6 @@ manifestations:
   would concede the whole doctrine
 - the Maximianist reception-without-reordination precedent, which tests the doctrine's own internal consistency
 - 'the Tier-1 lexicon this doctrine generates: traditor/traditio, ministerial purity'
-use_note:
-  means: "The doctrine that a sacrament stands or falls on the giver's unbroken purity, which the traditio charge against Felix of Aptungi made the schism's founding question, is a central pattern attested in Petilian's words but argued mostly via Augustine."
-  not_for:
-    - "a claim about the enacted rite of washing those who came over, which is this doctrine put into practice and sits in don.gravity.rebaptism-boundary"
-    - "a claim about the Maximianist clergy received back without reordination, the test of this doctrine that sits in don.gravity.rigor-against-reception"
-    - "a claim that the doctrine's existence depends only on Optatus or Augustine"
-    - "a claim that its detailed argument is known independently of Augustine's refutation"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate G1, generated at SS1, tested at SS3.1, classified
 Primary at SS4) and the cleared Doc_08 (SS5's gravity-by-gravity connections and the Force Index's
@@ -179,9 +170,10 @@ Force Index gives 1A-1 a single connected gravity, G3; Doc_08 SS5's own G1 entry
 among G1's connected forces; and Doc_04 SS3.1's own forces-connection for this gravity names Cells
 1B and 2B only. Two of the three synthesis statements exclude the link and one Layer-3 sentence
 asserts it. This record follows the two synthesis tables and does not carry a 1A-1 link, and the
-variance is recorded here. The Psalmus contra Partem Donati's own full text (vendored, Registry row
-37) is unread, so whether it contains verbatim further material bearing on this gravity's
-argumentative texture is not known (Doc_04 SS7, from Doc_02 SS9 item 14). The Maximianist-restoration
-rhetorical question is sourced only to row 31's summary. That material could strengthen or complicate
-the Confidence/Gravity Cross-Check above. Canon_cells left empty, matching this world's gravity and
+variance is recorded here rather than resolved. OPEN ITEM CARRIED FORWARD, NOT RESOLVED (Doc_04 SS7,
+standing item from Doc_02 SS9 item 14): whether the Psalmus contra Partem Donati's own full text
+(vendored, Registry row 37) contains verbatim further material bearing on this gravity's
+argumentative texture - the Maximianist-restoration rhetorical question currently sourced only to
+row 31's summary - remains unread. A future pass could strengthen or complicate the
+Confidence/Gravity Cross-Check above. Canon_cells left empty, matching this world's gravity and
 force records generally.

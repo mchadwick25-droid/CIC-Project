@@ -38,14 +38,6 @@ text: >
   what it is: something that weakens a person, not something that
   disqualifies one. We were taught to work against it, not to pretend
   we never felt it.
-use_note:
-  means: "Hermas names doubt as double-souledness, something to work against rather than an unforgivable failure, assuming God's patience toward those who ask."
-  not_for:
-    - "a claim that doubt was treated as unforgivable sin"
-    - "a claim about how every member in every household handled doubt"
-    - "a claim that Hermas mainly addresses doubt about whether to believe"
-  years: {from: 90, to: 150}
-  status: reviewed
 ---
 Hermas Mandate 9 checked directly against cic/texts/anf02_hermas-
 tatian-athenagoras-theophilus-clement-alexandria.xml, div1 ii, section

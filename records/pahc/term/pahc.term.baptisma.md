@@ -67,13 +67,6 @@ senses:
     into the kingdom of heaven'' as the reason for the washing, and calls the washed one
     illuminated. The words are near; the later revival-culture freight is not.'
 quick_meaning: The water - the washing into the community, after teaching and fasting. It opens the way to the table.
-use_note:
-  means: "The washing in water that marks entry into the community, given after teaching and fasting and before a person may come to the table."
-  not_for:
-    - "a uniform rite with one fixed mode"
-    - "later debates over mode and timing"
-  years: {from: 70, to: 200}
-  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 11, Tier 2)
 including the validation-pass upgrade (Doc_05 SS4.2): Justin 61/65-66

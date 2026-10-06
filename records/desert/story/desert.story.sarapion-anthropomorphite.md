@@ -62,14 +62,6 @@ text: >-
   ask how such a thing could happen to a man like that.
 absent_detail: "What became of Sarapion afterward - whether he found a new way to pray, or whether he was still at Scete the following year when Theophilus reversed course and the community's own learned monks were driven out - is not recorded. Cassian's own account is shaped for a teaching purpose (Conference X's larger subject is the right way to pray), so the scene survives because it served that argument, not as a stand-alone report of Sarapion's own later life."
 modern_contrast: "A modern reader might treat this as a simple story of a man learning a truer idea - correction as pure improvement. This world's own record does not let the story land there. It shows the same correction as a real loss, felt in the body, in the middle of prayer itself. Removing a wrong idea does not always feel like gaining a right one; sometimes it feels like losing the one thing a person had to hold on to."
-use_note:
-  means: "In 399 the elder Sarapion at Scete could not accept Theophilus's letter that God has no body, and grieved when persuaded, as Cassian reports."
-  not_for:
-    - "Presenting Cassian's dialogue as a transcript, since the Conferences are a later literary reconstruction"
-    - "Conflating Sarapion with the Abbot Serapion of Conference V"
-    - "Saying what became of Sarapion afterward, which is not recorded"
-  years: {from: 399, to: 399}
-  status: reviewed
 ---
 Authored for the world_front pilot migration (Website V2
 world_front design, approved to proceed), reconciling

@@ -45,14 +45,6 @@ modern_rendering: >-
   But if they think those writers were wrong about the gods we honor most, let them go to
   the churches of the Galilaeans to expound Matthew and Luke. That is because you
   Galilaeans obey those books when you order people to stay away from temple worship.
-use_note:
-  means: "Julian's rescript of 362 tells Christian teachers who reject the gods of the classics to go and expound Matthew and Luke in their own churches."
-  not_for:
-    - "a neutral description of Christians, when the word Galilaeans is a deliberate slight"
-    - "the execution of Eupsychius under Julian, which sits in cappadocian.figure.eupsychius, not in this rescript"
-    - "a ban on Christians attending school rather than a measure aimed at teachers"
-  years: {from: 362, to: 362}
-  status: reviewed
 ---
 Verified verbatim directly against the vendored
 julian_letters-1-73_wright1923.txt (Letter 36, the Rescript on Christian

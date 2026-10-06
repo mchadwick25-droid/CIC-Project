@@ -122,14 +122,6 @@ modern_contrast: >-
   to keep a matter out of court because the accusation was true. Being
   able to say that plainly, from a transcript, is worth more than a
   cleaner story would be.
-use_note:
-  means: "In 320 sworn witnesses before Zenophilus were asked where four hundred pieces of silver went, and answers named the bishop of Cirta a betrayer."
-  not_for:
-    - "a claim that the document is a creed rather than an argument about a receipt"
-    - "a claim that Silvanus's own answer survives"
-    - "a claim that a Donatist account of what the money was for survives"
-  years: {from: 320, to: 320}
-  status: reviewed
 ---
 Compiled from World-Builds/Donatism/Story-Chunks/donstory005_gesta-apud-
 zenophilum.md (Doc_09 story index row donstory005, Tier 1). UNLIKE the

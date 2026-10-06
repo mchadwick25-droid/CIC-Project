@@ -20,13 +20,6 @@ statement: >
   written to answer this, and we will not invent one to sound complete.
 why_sources_cannot_answer: "Out of scope for the synthetic fixture source, by design; this cell is deliberately answered as an honest_limit rather than a doctrinal_witness so the coverage gate's second route (exactly one honest_limit) has a real test case at an F6-T translational cell, not only at C-T and F2-E."
 nearest_material: [fix.witness.who-is-jesus]
-use_note:
-  means: "Testland's sources give no settled answer on the fate of outsiders."
-  not_for:
-    - "a claim that outsiders are saved"
-    - "a claim that outsiders are condemned"
-  years: {from: 100, to: 100}
-  status: provisional
 ---
 Canon-coverage positive case #3 (honest_limit route). The canon-coverage DEFECT
 (fixtures/seeded_defects.yaml) removes this record from a mutated copy entirely,

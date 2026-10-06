@@ -57,14 +57,5 @@ text: 'Call yourself Catholic if you like; we will not grant it to you. You are 
   word back on you in the same breath. Nor will we tell you the line has always held even on our own side:
   we drew it against clergy who left us and then let some of them back in without asking them to cross
   it again. We say that too, because it is also true.'
-use_note:
-  means: "Donatists refused their rival the name Catholic and called it Caecilianist, presenting the naming boundary and the refusal of its sacraments as one line seen from two sides."
-  not_for:
-    - "a claim that the naming contest ran only one way"
-    - "a claim that the Donatist line held without exception, given the Maximianist clergy received back"
-    - "a claim that the pun on catholicus is attested beyond a modern editor's annotation"
-    - "a claim about how imperial law and the 411 judge assigned the name catholic, which sits in don.dw.the-word-catholic-and-no-door-today"
-  years: {from: 313, to: 411}
-  status: reviewed
 ---
 Grounded in Doc_07_Integrated_Ecology_Analysis.md SS2H (Boundary Structures): 'the boundary and the center are the same line, viewed from two directions'; 'Optatus's own quoted petition language shows Donatist clergy naming themselves "of the party of Donatus"... which Optatus turns into an accusation... while this world's own preacher... turns the word "catholic" itself back on the rival as a sarcastic pun on impunity.' Restated at don_World_Profile.md lines 225, 227 in near-identical language ('the boundary-work in this world is not a separate activity from its central doctrine -- it IS the doctrine, applied outward'). don.term.caecilianist already states the WORD's own plain/quick meaning (a term record's own job, Tier-3-minimum per that record's own confidence note); this record states the BOUNDARY-LOGIC claim itself, with its own internal tension (T2, the Maximianist reception, the one place the boundary this record states did not, in practice, hold) -- genuinely different content, not a restatement of the term entry. canon_cells=['F3-T'] ('Was your church "Catholic"? Is there a church today I could visit that's yours?') is a direct, strong fit: the fleet's own canon question asks exactly the naming question this record answers. relations[] links to don.term.caecilianist (the naming term itself) and don.gravity.refusal-of-imperial-legitimacy (Doc_07 SS2H's own forces-line: 'the Caecilianist/imperial alliance's own consistent legal recognition of the rival as "the" Catholic church is what this world's own naming strategy answers') -- reciprocal edges added directly to both files after this script runs.

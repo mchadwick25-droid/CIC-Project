@@ -68,14 +68,6 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.spirit-numbered-with-father-and-son
-use_note:
-  means: "This witness says the Spirit's worthiness of worship was this world's central argument, and that Basil's reserve about calling the Spirit God was disputed among allies."
-  not_for:
-    - "a claim that Basil plainly called the Spirit God"
-    - "a settled judgment on whether Basil's reserve was wisdom or timidity"
-    - "the doxology challenge as the whole dispute, when cappadocian.quote.basil-on-the-doxology-challenge records only its occasion"
-  years: {from: 375, to: 381}
-  status: reviewed
 ---
 Closes F1-I, deliberately distinct from C-T (which covers the Trinity's
 general shape and Jesus's own divinity): this dw goes specifically to the

@@ -1,8 +1,7 @@
 source_file: kempis_founders-of-the-new-devotion_arthur1905.txt
 
 assignments:
-  - row_id: kempis_founders-of-the-new-devotion_arthur1905--the-founders-of-the-new-devotion-being-the-lives-of-gerard
-    work: "The Founders of the New Devotion: Being the Lives of Gerard Groote, Florentius Radewin and Their Followers"
+  - work: "The Founders of the New Devotion: Being the Lives of Gerard Groote, Florentius Radewin and Their Followers"
     author: kempis
     locus: "whole text"
     atlas_ids:

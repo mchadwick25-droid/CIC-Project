@@ -54,14 +54,6 @@ modern_rendering: >-
   want to tear the Spirit away and demote him to the level of a mere
   ministering spirit. Isn't it obvious, then, that they are putting
   their own blasphemy above the law the Lord gave us?
-use_note:
-  means: "Basil, in On the Holy Spirit, calls ranking the Spirit with the Father saving doctrine and accuses opponents of demoting him to a ministering spirit."
-  not_for:
-    - "a plain statement that the Spirit is God, a phrase Basil withheld, as cappadocian.dw.holy-spirit-honored explains"
-    - "the rupture with Eustathius, which sits in cappadocian.quote.basil-on-eustathius-rupture"
-    - "ranking as a matter of protocol or precedence"
-  years: {from: 375, to: 375}
-  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 10 -

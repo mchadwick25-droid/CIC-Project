@@ -1,8 +1,7 @@
 source_file: turner_ecclesiae-occidentalis-monumenta-iuris-antiquissima-tom1-fasc1-lat_1899.txt
 
 assignments:
-  - row_id: turner_ecclesiae-occidentalis-monumenta-iuris-antiquissima-tom1-fasc1-lat_1899--turner-ecclesiae-occidentalis-monumenta-iuris-antiquissima
-    work: "Turner, Ecclesiae Occidentalis monumenta iuris antiquissima, tom. 1 fasc. 1: the Caeciliani text read at Carthage in 419"
+  - work: "Turner, Ecclesiae Occidentalis monumenta iuris antiquissima, tom. 1 fasc. 1: the Caeciliani text read at Carthage in 419"
     author: turner
     locus: "file lines 18788-18793"
     atlas_ids:

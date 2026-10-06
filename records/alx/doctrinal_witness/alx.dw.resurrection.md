@@ -47,14 +47,6 @@ tensions:
 relations:
 - type: associated-with
   target: alx.quote.a-doctrine-they-would-not-have-taught
-use_note:
-  means: "This witness says the resurrection was argued from lives: Origen's case from the disciples' fearless deaths and Athanasius's from the martyrs' contempt for death."
-  not_for:
-    - "modern historical proof, which the record says this world did not claim"
-    - "a claim that the argument settled the matter, when its first target, Celsus, contested it"
-    - "Origen's own wording, which sits in alx.quote.a-doctrine-they-would-not-have-taught"
-  years: {from: 248, to: 373}
-  status: reviewed
 ---
 The evidential Center cell: the world's own kind of evidence, honestly
 distinguished from modern kinds.

@@ -54,14 +54,5 @@ senses:
 quick_meaning: '''Unbegotten'': the opponents'' key word -- their claim that this one term names God''s
   whole essence.'
 distortion_risk: low
-use_note:
-  means: "Agennetos meant unbegotten, the word Eunomius claimed names God's whole essence and which this world granted of the Father alone."
-  not_for:
-    - "Eunomius' exact words, since this world's summary of him is hostile paraphrase"
-    - "a claim that the Cappadocians denied the Father is unbegotten"
-    - "the fairness of that summary, which is contested in cappadocian.contested.agennetos-transmission"
-    - "God's unknowability as taught, which sits in cappadocian.term.akatalepsia"
-  years: {from: 335, to: 394}
-  status: reviewed
 ---
 Built from Doc_06 entry 16 (Tier 2), the CT-tagged adversarial-transmission entry.

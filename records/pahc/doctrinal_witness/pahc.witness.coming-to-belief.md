@@ -40,13 +40,6 @@ text: >
   plainly, though: this is the account of
   a man with the time and learning to go looking for it. We do not have
   the same account from someone without what he had.
-use_note:
-  means: "Justin describes coming to belief as the end of a long philosophical search, kindled by an old man's words, not a sudden certainty."
-  not_for:
-    - "a claim that belief came as a sudden moment of certainty"
-    - "a claim that Justin's path was typical for those without his education or leisure"
-  years: {from: 150, to: 165}
-  status: reviewed
 ---
 Justin's account (Dialogue with Trypho 8) checked directly against
 cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, div1 viii,

@@ -51,13 +51,6 @@ senses:
     replacing.
 quick_meaning: Not agreeing with claims - the soul's first real turn toward God.
 distortion_risk: high
-use_note:
-  means: "Pistis meant the soul's first real turn toward God, the foundation gnosis builds on, compatible with unresolved questions."
-  not_for:
-    - "describing it as assent to a list of doctrines"
-    - "presenting it as certainty with no unresolved questions"
-  years: {from: 180, to: 248}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex037, "Faith / Pistis") at Mark's direction, as a
 draft, not a final version.

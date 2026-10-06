@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-tridentine-church
 works:
-- row_id: barlow_brutum-fulmen_1681--brutum-fulmen-pius-v-s-bull-regnans-in-excelsis-against
-  work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul
+- work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul
     III's bull against Henry VIII annexed)
   author: barlow
   locus: the two embedded bull texts only (Regnans in Excelsis in English/Latin parallel columns
@@ -27,8 +26,7 @@ works:
 
     '
   source_file: barlow_brutum-fulmen_1681.txt
-- row_id: barlow_brutum-fulmen_1681--brutum-fulmen-barlow-s-own-epistle-dedicatory-epistle-to-the
-  work: Brutum Fulmen - Barlow's own epistle dedicatory, epistle to the reader, and running
+- work: Brutum Fulmen - Barlow's own epistle dedicatory, epistle to the reader, and running
     commentary
   author: barlow
   locus: 'everything in the file outside the two embedded bull texts: Barlow''s own dedicatory
@@ -45,8 +43,7 @@ works:
 
     '
   source_file: barlow_brutum-fulmen_1681.txt
-- row_id: bellarmine_eternal-happiness-of-the-saints_dalton--the-eternal-happiness-of-the-saints
-  work: The Eternal Happiness of the Saints
+- work: The Eternal Happiness of the Saints
   author: bellarmine
   locus: whole volume
   role: tradition
@@ -55,8 +52,7 @@ works:
 
     '
   source_file: bellarmine_eternal-happiness-of-the-saints_dalton.txt
-- row_id: bellarmine_joys-of-the-blessed_foxton1722--the-joys-of-the-blessed
-  work: The Joys of the Blessed
+- work: The Joys of the Blessed
   author: bellarmine
   locus: whole volume (Addison's accompanying essay is not Bellarmine's own voice)
   role: tradition
@@ -66,8 +62,7 @@ works:
 
     '
   source_file: bellarmine_joys-of-the-blessed_foxton1722.txt
-- row_id: bellarmine_minds-ascent-to-god_1925--the-mind-s-ascent-to-god-by-a-ladder-of-created-things
-  work: The Mind's Ascent to God by a Ladder of Created Things
+- work: The Mind's Ascent to God by a Ladder of Created Things
   author: bellarmine
   locus: whole volume
   role: tradition
@@ -76,8 +71,7 @@ works:
 
     '
   source_file: bellarmine_minds-ascent-to-god_1925.txt
-- row_id: bellarmine_souls-ascension-to-god_hall1703--the-soul-s-ascension-to-god-by-the-steps-of-creation
-  work: The Soul's Ascension to God, by the Steps of Creation
+- work: The Soul's Ascension to God, by the Steps of Creation
   author: bellarmine
   locus: whole volume
   role: tradition
@@ -86,8 +80,7 @@ works:
 
     '
   source_file: bellarmine_souls-ascension-to-god_hall1703.txt
-- row_id: borromeo_acta-ecclesiae-mediolanensis-lat_1599--acta-ecclesiae-mediolanensis
-  work: Acta Ecclesiae Mediolanensis
+- work: Acta Ecclesiae Mediolanensis
   author: borromeo
   locus: whole volume, incl. the Instructiones Fabricae et Supellectilis Ecclesiasticae
   role: tradition
@@ -102,8 +95,7 @@ works:
 
     '
   source_file: borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt
-- row_id: bellarmine_notes-of-the-church_1688--the-notes-of-the-church-de-notis-ecclesiae-examined-a-church
-  work: The Notes of the Church (De Notis Ecclesiae) EXAMINED - a Church of England tract
+- work: The Notes of the Church (De Notis Ecclesiae) EXAMINED - a Church of England tract
     series refuting Bellarmine's own Notes of the Church
   author: church-of-england-anon-1687
   locus: whole volume
@@ -120,8 +112,7 @@ works:
 
     '
   source_file: bellarmine_notes-of-the-church_1688.txt
-- row_id: council-of-trent_roman-catechism_mchugh-callan1923--catechism-of-the-council-of-trent-for-parish-priests
-  work: Catechism of the Council of Trent for Parish Priests
+- work: Catechism of the Council of Trent for Parish Priests
   author: council-of-trent
   locus: whole text
   role: tradition
@@ -133,8 +124,7 @@ works:
 
     '
   source_file: council-of-trent_roman-catechism_mchugh-callan1923.txt
-- row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council-2
-  work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
+- work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
   author: council-of-trent
   locus: whole text
   role: tradition
@@ -147,8 +137,7 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
-- row_id: pius-v_apostolicarum-epistolarum-lat_1640--apostolicarum-pii-quinti-pont-max-epistolarum-libri-quinque
-  work: Apostolicarum Pii Quinti Pont. Max. Epistolarum Libri Quinque
+- work: Apostolicarum Pii Quinti Pont. Max. Epistolarum Libri Quinque
   author: pius-v
   locus: whole volume
   role: tradition
@@ -162,8 +151,7 @@ works:
 
     '
   source_file: pius-v_apostolicarum-epistolarum-lat_1640.txt
-- row_id: pole_seditious-oration_wythers1560--the-seditious-and-blasphemous-oration-of-cardinal-pole
-  work: The Seditious and Blasphemous Oration of Cardinal Pole
+- work: The Seditious and Blasphemous Oration of Cardinal Pole
   author: pole
   locus: whole volume
   role: tradition
@@ -177,8 +165,7 @@ works:
 
     '
   source_file: pole_seditious-oration_wythers1560.txt
-- row_id: roman-breviary_bute1908--the-roman-breviary-reformed-by-order-of-the-council-of-trent
-  work: The Roman Breviary (reformed by order of the Council of Trent; published by Pius V;
+- work: The Roman Breviary (reformed by order of the Council of Trent; published by Pius V;
     revised by Clement VIII, Urban VIII, and Leo XIII)
   author: roman-breviary
   locus: one seasonal volume of 4
@@ -190,8 +177,7 @@ works:
 
     '
   source_file: roman-breviary_bute1908.txt
-- row_id: roman-missal_england1843--the-roman-missal-translated-into-the-english-language-for
-  work: The Roman Missal, Translated into the English Language for the Use of the Laity
+- work: The Roman Missal, Translated into the English Language for the Use of the Laity
   author: roman-missal
   locus: whole volume
   role: tradition
@@ -200,8 +186,7 @@ works:
 
     '
   source_file: roman-missal_england1843.txt
-- row_id: sarpi_history-of-the-council-of-trent_brent1676--the-history-of-the-council-of-trent
-  work: The History of the Council of Trent
+- work: The History of the Council of Trent
   author: sarpi
   locus: whole text
   role: context

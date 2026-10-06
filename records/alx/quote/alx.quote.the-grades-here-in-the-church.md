@@ -44,14 +44,6 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.term.episkopos
-use_note:
-  means: "Clement, in Stromateis VI.13, offers his opinion that the church's bishops, presbyters and deacons imitate the angelic glory and a heavenly order of advance."
-  not_for:
-    - "a description of how the offices actually functioned in Alexandria"
-    - "a claim that this church's three offices match a modern denomination's"
-    - "Clement's speculation generalized as Alexandrian church order"
-  years: {from: 180, to: 215}
-  status: reviewed
 ---
 Opened for F3-T, served by alx.term.episkopos alone, which cites this exact section
 and had nothing quotable.

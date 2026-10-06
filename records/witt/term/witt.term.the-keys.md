@@ -83,13 +83,6 @@ senses:
     is comfort.
 quick_meaning: Christ's own words to forgive sin, held by the whole community, not by one man.
 distortion_risk: high
-use_note:
-  means: "The keys meant Christ's words to bind and loose sin, a ministry held by the whole community and used to comfort, not a power."
-  not_for:
-    - "the keys as a papal or clerical power over people"
-    - "confession's two parts, which sit in witt.term.confession-and-absolution"
-  years: {from: 1517, to: 1531}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 1.6 (the keys / power of the keys, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][TC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

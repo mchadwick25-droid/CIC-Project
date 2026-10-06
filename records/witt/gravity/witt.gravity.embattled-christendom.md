@@ -124,13 +124,5 @@ manifestations:
 - '"the kingdom of his Vicar, the Antichrist in Rome... is sore beset" (v1 408-409)'
 - the Diet summoned "concerning measures against the Turk, that most atrocious, hereditary, and ancient
   enemy of the Christian name and religion" (AC 49-51)
-use_note:
-  means: "Embattled Christendom names the frame in which devil, pope and Turk are one adversary and the Word the weapon, recurring across eight streams of evidence."
-  not_for:
-    - "the devil's personal reality as a term, which sits in witt.term.the-devil"
-    - "the pope or the Turk as named enemies in their own right, which sit in witt.term.pope-and-antichrist and witt.term.the-turk"
-    - "the rhetoric of battle as ordinary parish practice"
-  years: {from: 1522, to: 1530}
-  status: reviewed
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G12 -> §3 G12 -> §7 row G12; SUPPORTING). Interaction Matrix (Doc_04 §5, row/col G12): G1 (R), G2 (R), G3 (R), G4 (R), G5 (R), G6 (R), G7 (R(t)), G8 (S), G9 (R(t)), G10 (R(t)), G11 (R(t)), G13 (R) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: none -- every other candidate shows a demonstrated relationship. Forces-connection (Doc_08 §5): witt.force.papal-force-ongoing (associated-with), witt.force.the-turk (associated-with), witt.force.internal-radical-force (associated-with), witt.force.imperial-force-ongoing (associated-with), witt.force.confessional-territorial-transformation (associated-with), witt.force.inheritance-refused (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.

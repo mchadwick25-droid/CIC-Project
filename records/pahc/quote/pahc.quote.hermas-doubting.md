@@ -35,13 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether there was room for doubt among them"
   - "participant asks what someone did who could not believe what they were told"
-use_note:
-  means: "The Shepherd urges asking God without doubting, since God, unlike people, holds no grudges, while the double-souled receive nothing they ask."
-  not_for:
-    - "a claim that 'double-souled' names a clinical or dissociative condition"
-    - "a claim about how every household in this world handled doubt"
-  years: {from: 90, to: 150}
-  status: reviewed
 ---
 Checked directly against cic/texts/anf02_hermas-tatian-athenagoras-
 theophilus-clement-alexandria.xml, div1 ii, section iii (ii.iii.ix).

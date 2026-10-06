@@ -46,14 +46,6 @@ manifestations:
   screen)
 - Athanasius and Didymus holding the two kinds of authority simultaneously in the late horizon
 classification: tensional
-use_note:
-  means: "The teacher's authority of demonstrated wisdom and the bishop's authority of handed-down office are two real authorities that were never made one."
-  not_for:
-    - "resolving the tension by making either authority supreme"
-    - "resting it on Eusebius's Origen-Demetrius particulars rather than on structural coexistence"
-    - "presenting the post-Nicene tilt toward the office as ending the teacher's authority"
-  years: {from: 180, to: 398}
-  status: reviewed
 ---
 Re-derived from Doc_04 SS3.6 T1 with its Eusebius re-grounding intact:
 confirmation rests on the STRUCTURAL coexistence of teacher and bishop

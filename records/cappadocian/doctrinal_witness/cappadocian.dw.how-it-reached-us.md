@@ -62,14 +62,6 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.macrina-the-elder-taught-me
-use_note:
-  means: "This witness says the faith reached the community as a finished deposit of creed, baptismal formula, psalms and custom, not an eyewitness chain."
-  not_for:
-    - "any living chain back to an eyewitness of Jesus"
-    - "the deposit model as true of every believer, when Basil's own search for fathers in cappadocian.quote.macrina-the-elder-taught-me cuts against it"
-    - "unwritten custom ranked above scripture"
-  years: {from: 325, to: 375}
-  status: reviewed
 ---
 Closes C-E. Grounded in four already-registered term records rather than
 any new claim: cappadocian.term.paradosis (unwritten custom carrying

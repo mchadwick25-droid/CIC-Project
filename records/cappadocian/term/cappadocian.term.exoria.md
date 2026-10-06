@@ -37,13 +37,5 @@ senses:
     straightforward terms here, without a strong modern-mishearing risk.
 quick_meaning: Exile, or banishment. The tool used against bishops under a hostile ruler.
 distortion_risk: low
-use_note:
-  means: "Exoria meant banishment, the means by which bishops were sent from their sees under hostile rulers."
-  not_for:
-    - "a claim that every bishop suffered exile"
-    - "the fifth-century church historians as this world's own voice"
-    - "Gregory of Nyssa's exile as narrated, which sits in cappadocian.story.nyssa-exile"
-  years: {from: 325, to: 394}
-  status: reviewed
 ---
 Built from Doc_06 entry 39 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [], a decision, not an oversight.

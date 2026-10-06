@@ -1,8 +1,7 @@
 source_file: borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt
 
 assignments:
-  - row_id: borromeo_acta-ecclesiae-mediolanensis-lat_1599--acta-ecclesiae-mediolanensis
-    work: "Acta Ecclesiae Mediolanensis"
+  - work: "Acta Ecclesiae Mediolanensis"
     author: borromeo
     locus: "whole volume, incl. the Instructiones Fabricae et Supellectilis Ecclesiasticae"
     atlas_ids:

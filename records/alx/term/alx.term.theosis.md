@@ -44,14 +44,6 @@ senses:
     life.'
 quick_meaning: Sharing in God's own life - the goal of the whole path.
 distortion_risk: high
-use_note:
-  means: "Theosis meant becoming like God by sharing in God's own life as far as a creature can, a horizon on which the creature stays a creature."
-  not_for:
-    - "saying that humans become gods"
-    - "describing it as losing the self in God"
-    - "treating it as an organizing gravity rather than a horizon"
-  years: {from: 318, to: 373}
-  status: reviewed
 ---
 Horizon-concept, not an organizing gravity (the prior build's cleared
 distinction, kept). Modern hearing: blasphemous or New-Age. World

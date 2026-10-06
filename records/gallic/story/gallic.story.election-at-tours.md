@@ -122,15 +122,6 @@ modern_contrast: >-
   nobody in its stories wanted the see. And the objection the bishops raise is the ascetic body itself:
   mean clothes, disgusting hair. The south's formation teaching would have added the warning Tours
   never needed to state: vainglory "creates a wish to take holy orders."
-use_note:
-  means: "Sulpitius reports that Martin was lured from his monastery by a pretext, escorted under guard, and made bishop of Tours though some bishops objected to his mean clothes."
-  not_for:
-    - "a neutral account of the objecting bishops, when Sulpitius is hostile to them"
-    - "the southern counterpart, which sits in gallic.story.bishop-archebius"
-    - "later canonical procedure for episcopal election"
-    - "Martin's reluctance as proven fact, a claim contested in gallic.contested.election-as-capture"
-  years: {from: 397, to: 397}
-  status: reviewed
 ---
 The cross-node pairing with gallic.story.bishop-archebius and gallic.story.honoratus-and-the-island,
 declared as story-to-story relations above, is a finding of the construction - the three capture

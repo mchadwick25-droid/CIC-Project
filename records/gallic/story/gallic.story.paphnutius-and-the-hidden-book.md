@@ -130,15 +130,6 @@ modern_contrast: >-
   reserved to the wronged man's prayers, and he never "professed himself" anything. Set beside Tours,
   where Martin reproved Brictio and bore with him, the same wound - a community wronged from within -
   is answered at Scete by the accused's silence before the community.
-use_note:
-  means: "Abbot Piamun tells that Paphnutius, accused by a jealous brother who hid his own book in his cell, bore it silently until the possessed accuser confessed and was healed."
-  not_for:
-    - "a disciple turning on a master, which sits in gallic.story.brictio-in-the-courtyard"
-    - "exorcism as a practice, which sits in gallic.term.possessed-exorcism"
-    - "an angel answering Paphnutius, when his vindication comes through the accuser's possession and confession"
-    - "a Gallic event, when it is Piamun's Egyptian tale carried by Cassian"
-  years: {from: 426, to: 435}
-  status: reviewed
 ---
 No separate figure records exist for Paphnutius, Piamun, or Isidore in this world's build: each appears
 only in this one story and is fully carried by it.

@@ -1,8 +1,7 @@
 source_file: lauchert_kanones-altkirchlichen-concilien-lat-grc_1896.txt
 
 assignments:
-  - row_id: lauchert_kanones-altkirchlichen-concilien-lat-grc_1896--lauchert-die-kanones-der-wichtigsten-altkirchlichen
-    work: "Lauchert, Die Kanones der wichtigsten altkirchlichen Concilien: Carthage I-III (Latin and Greek)"
+  - work: "Lauchert, Die Kanones der wichtigsten altkirchlichen Concilien: Carthage I-III (Latin and Greek)"
     author: lauchert
     locus: "Carthage I line 10850, II line 11073, III line 11293"
     atlas_ids:

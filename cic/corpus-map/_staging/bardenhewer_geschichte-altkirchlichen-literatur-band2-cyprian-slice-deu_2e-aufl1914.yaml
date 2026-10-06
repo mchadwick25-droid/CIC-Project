@@ -1,8 +1,7 @@
 source_file: bardenhewer_geschichte-altkirchlichen-literatur-band2-cyprian-slice-deu_2e-aufl1914.txt
 
 assignments:
-  - row_id: bardenhewer_geschichte-altkirchlichen-literatur-band2-cyprian-slice-deu_2e-aufl1914--bardenhewer-geschichte-der-altkirchlichen-literatur-band-2
-    work: "Bardenhewer, Geschichte der altkirchlichen Literatur, Band 2: Cyprian (2nd ed., 1914, slice)"
+  - work: "Bardenhewer, Geschichte der altkirchlichen Literatur, Band 2: Cyprian (2nd ed., 1914, slice)"
     author: bardenhewer
     locus: "section 82; item lines 24362-28405"
     atlas_ids:

@@ -77,14 +77,6 @@ divergence_partners:
 relations:
 - type: associated-with
   target: don.gravity.rigor-against-reception
-use_note:
-  means: "On this record's contested reading, receiving Felicianus and Praetextatus back unrepeated did not overturn the purity doctrine, since the exception was never hidden."
-  not_for:
-    - "a claim that the open statement of the exception shows the doctrine survives it"
-    - "a claim that the Bagai council's own reasoning for the reception survives"
-    - "a claim that the reconciliation was a purely internal act carried out without force"
-  years: {from: 393, to: 398}
-  status: reviewed
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.6 (candidate T2, classified Tensional
 at SS4, Confidence Documented and named there the most rigorously and repeatedly directly-quoted

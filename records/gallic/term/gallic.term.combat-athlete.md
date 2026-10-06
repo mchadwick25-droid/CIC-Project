@@ -108,15 +108,6 @@ quick_meaning: >-
   The monk's inner life as single combats, numbered and fought in order, gluttony first. He fights
   like an athlete in the lists, and never wins alone.
 distortion_risk: medium
-use_note:
-  means: "The combat idiom meant the monk's inner life as numbered single combats fought in order, gluttony first, by an athlete who never wins alone."
-  not_for:
-    - "spiritual warfare as a loose metaphor for private struggle"
-    - "athlete as fitness or self-improvement"
-    - "the soldier image and its literal Tours origin, which sit in gallic.term.soldier-of-christ"
-    - "a particular fault, which sits in gallic.term.eight-principal-faults"
-  years: {from: 397, to: 426}
-  status: reviewed
 ---
 Built from Doc_06 entry 023 (Tier 2; chunk galliclex023_combat-athlete.md; Doc_03 2.2). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The Greek at

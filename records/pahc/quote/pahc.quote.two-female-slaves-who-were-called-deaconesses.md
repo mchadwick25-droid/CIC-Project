@@ -58,14 +58,6 @@ relations:
   target: pahc.term.ministrae
 - type: associated-with
   target: pahc.limit.material-remains
-use_note:
-  means: "Pliny reports torturing two enslaved women called ministrae, deaconesses, and finding nothing but a depraved and immoderate superstition."
-  not_for:
-    - "evidence for the women's office detached from the torture that produced it"
-    - "a claim that ministrae was the community's own word rather than Pliny's"
-    - "a neutral survey of Christian practice rather than findings from interrogation"
-  years: {from: 111, to: 113}
-  status: reviewed
 ---
 This quote serves three cells at once - F3-E, F5-E and F6-P - each of which cites this same
 letter: pahc.witness.outsider-view for Pliny's own report, pahc.limit.material-remains for the

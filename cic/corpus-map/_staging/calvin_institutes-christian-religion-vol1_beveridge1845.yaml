@@ -4,8 +4,7 @@
 source_file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
 
 assignments:
-  - row_id: calvin_institutes-christian-religion-vol1_beveridge1845--institutes-of-the-christian-religion-book-i-of-the-knowledge
-    work: "Institutes of the Christian Religion, Book I (Of the Knowledge
+  - work: "Institutes of the Christian Religion, Book I (Of the Knowledge
       of God the Creator)"
     author: calvin
     locus: "whole file - Book First"

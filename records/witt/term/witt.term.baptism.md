@@ -82,14 +82,6 @@ senses:
     every morning, the ground of every Christian''s priesthood, and a comfort for the deathbed.'
 quick_meaning: Water joined to God's word. A death begun once, renewed every day.
 distortion_risk: high
-use_note:
-  means: "Baptism meant water joined to God's command and word, a death begun that lasts a whole life, the old self drowned daily and a new one rising."
-  not_for:
-    - "baptism as a one-time naming rite or a personal decision made once"
-    - "the general definition of a sacrament, which sits in witt.term.sacrament"
-    - "the claim that every Christian is a priest, which sits in witt.term.we-are-all-priests"
-  years: {from: 1519, to: 1530}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 5.2 (baptism, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

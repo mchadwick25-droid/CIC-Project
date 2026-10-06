@@ -45,16 +45,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.received-programs-logic
-- type: associated-with
-  target: gallic.force.africa-and-rome-pressure
-use_note:
-  means: "Cassian, in Institutes XII, states as the elders' teaching that perfection needs human effort yet no one attains it by effort without God's grace."
-  not_for:
-    - "a settled verdict on Cassian's orthodoxy in the grace controversy"
-    - "the habit of crediting progress to grace, which sits in gallic.quote.not-i-but-the-grace-of-god-with-me"
-    - "Chaeremon's teaching that God wills all to be saved, which sits in gallic.quote.without-grievous-blasphemy-all-men-to-be-saved"
-  years: {from: 415, to: 426}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "nobody can ever attain it"` returns line 25170; read with `sed -n '25163,25171p'`, inside `<div4

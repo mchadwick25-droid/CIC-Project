@@ -1,8 +1,7 @@
 source_file: augustine_sermones-1-340-lat_migne-pl38.txt
 
 assignments:
-  - row_id: augustine_sermones-1-340-lat_migne-pl38--augustine-s-sermones-1-340-maurist-text-migne-pl-38
-    work: "Augustine's Sermones 1-340 (Maurist text, Migne PL 38)"
+  - work: "Augustine's Sermones 1-340 (Maurist text, Migne PL 38)"
     author: augustine
     locus: "whole file"
     atlas_ids:

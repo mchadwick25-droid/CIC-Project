@@ -1,8 +1,7 @@
 source_file: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt
 
 assignments:
-  - row_id: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901--histoire-litteraire-de-l-afrique-chretienne-tome-premier
-    work: "Histoire litteraire de l'Afrique chretienne, Tome Premier: Tertullien et les origines"
+  - work: "Histoire litteraire de l'Afrique chretienne, Tome Premier: Tertullien et les origines"
     author: monceaux
     locus: "whole file"
     atlas_ids:

@@ -74,14 +74,6 @@ manifestations:
 - "the Apophthegmata's entire structure as a record of elders who had withdrawn - itself the later compilers' own arrangement, not a transcript of withdrawal's own lived timeline"
 - "Palladius's settlement description of Nitria (ch. VII), and Kellia and Scetis in lived use (ch. XVIII)"
 - "Kellia's excavated settlement pattern - marginal-but-not-remote land, corroborating and complicating the withdrawal rhetoric at once"
-use_note:
-  means: "Leaving settled life for the desert was this world's generating act and the whole work of formation, though real village ties qualified its rhetoric."
-  not_for:
-    - "Hearing it as escape or a temporary retreat"
-    - "Presenting it as total separation from village life"
-    - "Presenting Antony's staged career as the template for every monk"
-  years: {from: 270, to: 430}
-  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 1, SS2
 row 1, SS3, SS4, SS5 row 1, SS6 (gravity 1) - six-test, Confidence/

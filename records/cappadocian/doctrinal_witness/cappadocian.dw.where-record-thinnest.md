@@ -61,14 +61,6 @@ positions:
 tensions:
 - naming these gaps does not close them; we state the thinness rather than claim a fuller record than
   we actually have
-use_note:
-  means: "This witness says the record comes mostly from one family circle, lacks women's and countryside voices, and holds a contested flagship letter."
-  not_for:
-    - "a claim that the record would pass unchallenged in a university library"
-    - "the losing side's views as fairly reported, when only Eunomius left checkable words of his own"
-    - "Letter XXXVIII as proof of shared agreement, when cappadocian.quote.ousia-and-hypostasis is disputed"
-  years: {from: 325, to: 394}
-  status: reviewed
 ---
 Closes F2-E, the meta-honesty cell, using this world's own registered
 thinness/cautions block (cappadocian.core.cappadocian) and three

@@ -5,8 +5,7 @@
 # epitomizer Photius is a transmitter, not the work's own voice).
 source_file: philostorgius_ecclesiastical-history_walford1855.txt
 assignments:
-- row_id: philostorgius_ecclesiastical-history_walford1855--ecclesiastical-history-surviving-only-as-photius-epitome
-  work: Ecclesiastical History (surviving only as Photius' Epitome)
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
   author: philostorgius
   locus: whole file - all twelve books
   atlas_ids:
@@ -20,8 +19,7 @@ assignments:
     than independently. The file's own vendoring note already frames
     it as "the world's one surviving Eunomian narrative voice," a
     caveat about mediation, not about whose voice it is.
-- row_id: philostorgius_ecclesiastical-history_walford1855--ecclesiastical-history-surviving-only-as-photius-epitome-2
-  work: Ecclesiastical History (surviving only as Photius' Epitome)
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
   author: philostorgius
   locus: whole file
   atlas_ids:
@@ -33,8 +31,7 @@ assignments:
     Cappadocian Fathers lived through and wrote against - a
     contemporary opponent's view (role: context per SS4/SS6.1b's
     four-way definition), not the Cappadocian world's own voice.
-- row_id: philostorgius_ecclesiastical-history_walford1855--ecclesiastical-history-surviving-only-as-photius-epitome-3
-  work: Ecclesiastical History (surviving only as Photius' Epitome)
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
   author: philostorgius
   locus: whole file - esp. Books IV-V (Rimini/Seleucia 359, Constantinople 360, the depositions under Constantius II)
   atlas_ids:

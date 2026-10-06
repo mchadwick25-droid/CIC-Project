@@ -54,14 +54,6 @@ senses:
     changed and raised into what formation had been preparing it for.
 quick_meaning: 'Death reversed: the soul rejoined to God, and the body truly changed.'
 distortion_risk: high
-use_note:
-  means: "Anastasis meant the reversal of death in both soul and body, begun by the Logos entering human nature, in Athanasius's account."
-  not_for:
-    - "attributing this account of resurrection to Clement, whose cited locus does not support it"
-    - "describing it as a corpse simply reanimated"
-    - "describing it as a soul surviving death while the body is left behind"
-  years: {from: 318, to: 373}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex019, "Resurrection") at Mark's direction, as a
 draft, not a final version.

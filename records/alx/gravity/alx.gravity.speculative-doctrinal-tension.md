@@ -47,14 +47,6 @@ manifestations:
 - the Rule of Faith as the early boundary practice (Stromateis)
 - the homoousian line and its enforcement as the late boundary pole (De Decretis; the post-Nicene reconfiguration)
 classification: tensional
-use_note:
-  means: "Origen's speculative freedom to explore what Scripture leaves open stands against the boundary-drawing of the rule of faith and later the homoousian line."
-  not_for:
-    - "issuing a verdict on Origen as heretic or hero"
-    - "citing the 553 condemnation as a fact of this world"
-    - "treating the Origen-Demetrius rupture as the foundation of the tension"
-  years: {from: 203, to: 400}
-  status: reviewed
 ---
 Re-derived from Doc_04 SS3.6 T3 with its evidence-shift intact:
 confirmed on LATE-HORIZON, Eusebius-independent evidence (the

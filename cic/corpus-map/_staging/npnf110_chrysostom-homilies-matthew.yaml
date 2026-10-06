@@ -5,8 +5,7 @@
 source_file: npnf110_chrysostom-homilies-matthew.xml
 
 assignments:
-  - row_id: npnf110_chrysostom-homilies-matthew--homilies-on-the-gospel-of-st-matthew
-    work: "Homilies on the Gospel of St. Matthew"
+  - work: "Homilies on the Gospel of St. Matthew"
     author: chrysostom
     locus: "div1 3 — the full series of ninety homilies (div2 3.4-3.89), assigned as one work"
     atlas_ids:

@@ -47,14 +47,6 @@ modern_rendering: >-
   crept into the cell in secret. Slyly, he hid his own book among the palm branches that Paphnutius used
   to weave. Sure that his trick was well planned, he went off to church himself, as if his conscience
   were pure and clean.
-use_note:
-  means: "Piamun, in Cassian's Conferences, narrates how an envious brother hid his own book among Paphnutius's palm boughs to frame him."
-  not_for:
-    - "the search and the finding of the book, which sit in gallic.quote.paphnutius-accused-and-the-book-found"
-    - "an independently attested event rather than the tradition's own telling"
-    - "a Gallic incident, when the story is set in the Egyptian desert"
-  years: {from: 426, to: 435}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "just
 as the plotter"` (used to anchor the chapter generally) and manual read confirm "And this man wanting"

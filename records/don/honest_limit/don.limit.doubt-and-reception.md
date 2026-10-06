@@ -41,12 +41,5 @@ nearest_material:
 - don.core.donatism
 - don.gravity.martyr-cult-identity
 - don.gravity.refusal-of-imperial-legitimacy
-use_note:
-  means: "The Donatist record does not preserve what wavering believers felt, or how people received the 411 ruling and the Vandal conquest."
-  not_for:
-    - "a claim that the inner doubts of ordinary believers survive in their own words"
-    - "a claim that the community's own reception of the 411 verdict survives"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Celled to F1-P ('Was there room among your people for doubt?') -- the fleet's own direct match for this exact absence. Folds together, as one honest_limit rather than two, both halves Phase One SS2's own Thinness Mapping and Phase Seven SS4 name under the same underlying cause (interior emotional experience unrecoverable from a hostile-mediated transmission channel): the GENERAL interior of doubt/fear/wavering, and the SPECIFIC, dated absence of any reflective community account of receiving the 411 verdict or the Vandal conquest (Doc_08 Forces 3A-1/3A-2/3B-2) -- both are the identical evidentiary fact (a hostile-mediated record structurally preserves only the vindicated register) stated at two different grains, per Phase One SS2's own account. Distinguished explicitly, per Phase Seven SS4/SS7.2's own repeated correction, from the 411 Conference's own STORY simply not having been written yet (Doc_09 SS8 item 2, 'an open integration task, not a source-availability absence') -- that is not an evidentiary gap and no honest_limit is built for it anywhere in this script. No relations[] edge: this is a blanket, multi-force absence with no single natural reciprocity target.

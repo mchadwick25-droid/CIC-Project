@@ -56,14 +56,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.dw.one-person-two-substances
-use_note:
-  means: "Vincent, in the Commonitory, states the Church's faith as one substance and three Persons in God, two substances and one Person in Christ."
-  not_for:
-    - "Christology as this world's main concern, when Vincent uses the formula as a proof-case for his rule"
-    - "anything drawn from Cassian's books against Nestorius, which this build has not read"
-    - "the reasons behind the formula, the unchanging Word and the Quaternity, which sit in gallic.dw.one-person-two-substances"
-  years: {from: 434, to: 434}
-  status: reviewed
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between
 B-7 and B-8) directly against the vendored

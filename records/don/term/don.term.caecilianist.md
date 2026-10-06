@@ -61,14 +61,5 @@ senses:
     in this build than the evidence for almost everything else in the same cluster.'
 quick_meaning: Our name for the other side, taken from Caecilian -- not 'the Catholics'.
 distortion_risk: medium
-use_note:
-  means: "Donatists called their rivals Caecilianists, after Caecilian, because using the rivals' own name 'Catholic' would have conceded the contested case before it was argued."
-  not_for:
-    - "a claim that Caecilianist is a neutral historical label for the mainstream African church"
-    - "a claim that it was a personal insult rather than a refusal to concede a contested title"
-    - "a claim that its own bearers used it of themselves"
-    - "a claim about refusing the name as one act with refusing the rival's sacraments, which sits in don.witness.boundary-is-doctrine"
-  years: {from: 311, to: 411}
-  status: reviewed
 ---
 Built from Doc_06 SS1 entry 006 (Tier 3, 'No change'). FLAGGED AS THIN: Doc_03 Cluster 2's one-line entry is the whole of this term's development anywhere in the construction record, and no vendored passage is cited for the naming practice itself. Compiled at that level deliberately rather than written up to the polish of the Tier-1 entries.

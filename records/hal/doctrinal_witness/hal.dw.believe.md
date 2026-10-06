@@ -46,14 +46,6 @@ tensions:
   the letters that scald the lax are by the same hand
 - every restoration story is told by the community's own advocate; the voices of those
   who came and were not restored, if any, were not kept
-use_note:
-  means: "This witness holds that people of divided or broken faith, such as Jerome in his dream and the remarried Fabiola, were received rather than turned away."
-  not_for:
-    - "a claim that this world was gentle in exhortation; the same hand scalded the lax"
-    - "a claim that everyone who sought restoration received it; only the advocate's success stories survive"
-    - "a claim that belief was not expected of those received"
-  years: {from: 384, to: 400}
-  status: reviewed
 ---
 Center-personal answer-ground. Grounded in the two attested arcs the world
 itself preserved (the dream, Fabiola's penance and reception) rather than

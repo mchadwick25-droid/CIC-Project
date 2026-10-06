@@ -44,14 +44,6 @@ relations:
   target: syr.dw.reading
 - type: associated-with
   target: syr.term.raza-shrara
-use_note:
-  means: "Ephrem, in his first Pearl hymn, turns a pearl on his palm, finds faces on every side, and concludes that the Son is incomprehensible because he is wholly Light."
-  not_for:
-    - "a proposition merely decorated with an image, as if the turning of the pearl were incidental"
-    - "a definition of the Son's nature that resolves what the hymn says cannot be grasped"
-    - "a claim that Morris's English reproduces Ephrem's Syriac verse exactly"
-  years: {from: 340, to: 373}
-  status: reviewed
 ---
 syr.dw.reading cites the Pearl as "the method performed" without a quotable line; F2-T is served by
 that witness alone, and syr.term.raza-shrara likewise cites these hymns for the razê account with no

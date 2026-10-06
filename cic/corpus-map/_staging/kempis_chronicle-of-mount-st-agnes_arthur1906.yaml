@@ -1,8 +1,7 @@
 source_file: kempis_chronicle-of-mount-st-agnes_arthur1906.txt
 
 assignments:
-  - row_id: kempis_chronicle-of-mount-st-agnes_arthur1906--the-chronicle-of-the-canons-regular-of-mount-st-agnes
-    work: "The Chronicle of the Canons Regular of Mount St. Agnes"
+  - work: "The Chronicle of the Canons Regular of Mount St. Agnes"
     author: kempis
     locus: "whole volume"
     atlas_ids:

@@ -30,16 +30,16 @@ relations:
   target: alx.force.transmission-ongoing
 name: Transmission [3B - ending/internal; named force]
 kind: ending
-description: |-
-  This force covers what passed beyond the horizon, what was lost, and what was transformed.
-
-  First, what passed on. The Nicene confession passed to Eastern Christianity broadly. So did the horizon of theosis. So did the habit of reading Scripture allegorically, with Christ at its center. The urge to know, and the model of climbing toward God in contemplation, passed toward the desert. Whether the desert's own way of forming came from Alexandria is left open. Alexandria passes them on without claiming the desert's own logic of formation. The Origen inheritance and the Nicene settlement passed to the Cappadocian synthesis.
-
-  Second, what was lost. The bond between teacher and student was no longer the main way formation worked. That was the greatest loss.
-
-  Third, what was transformed. The Origen inheritance itself was carried forward, loved, and contested. It set off the controversy that breaks out at the very edge of the horizon.
-
-  The community had built one thing most carefully: the opening of a student's sight through a long bond with a teacher. It could not promise that this would outlast it.
+description: 'What passed beyond the horizon, what was lost, and what was transformed. TRANSMITTED: the
+  Nicene confession, the theosis horizon, and the allegorical-Christological reading to Eastern Christianity
+  broadly; the knowing-impulse and contemplative-ascent model toward the desert (cross-build: attribution
+  held open - Alexandria transmits toward the desert without claiming its formation logic); the Origen
+  inheritance plus Nicene settlement to the Cappadocian synthesis. LOST: the teacher-student formation
+  relationship as primary mechanism - the most significant loss. TRANSFORMED: the Origen inheritance itself
+  - carried forward, loved, and contested, generating the controversy that erupts at the horizon''s very
+  edge. In the world''s own experience: what the community had built most carefully - the opening of a
+  student''s sight through the long relationship - was precisely what it could not guarantee would outlast
+  it.'
 manifestations:
 - the robust sacramental/creedal inheritance surviving
 - the fragile interpretive capacity as the great loss

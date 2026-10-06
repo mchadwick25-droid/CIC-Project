@@ -13,8 +13,7 @@ authors_ruled:
 
       '
 assignments:
-- row_id: npnf210_ambrose--on-the-duties-of-the-clergy-de-officiis-ministrorum
-  work: On the Duties of the Clergy (De Officiis Ministrorum)
+- work: On the Duties of the Clergy (De Officiis Ministrorum)
   author: ambrose
   locus: div2 4.1 — On the Duties of the Clergy
   atlas_ids:
@@ -25,8 +24,7 @@ assignments:
     Cicero''s De Officiis. The formation text of the Milan entry''s own pastoral world.
 
     '
-- row_id: npnf210_ambrose--on-the-holy-spirit-de-spiritu-sancto
-  work: On the Holy Spirit (De Spiritu Sancto)
+- work: On the Holy Spirit (De Spiritu Sancto)
   author: ambrose
   locus: div2 4.2 — On the Holy Spirit
   atlas_ids:
@@ -38,8 +36,7 @@ assignments:
     proper, so no homoian-arian-christianity id is asserted here; one could be added by
     analogy with De Fide. pneumatomachian-current holds this work alongside, for the party
     it argues with.'
-- row_id: npnf210_ambrose--on-the-holy-spirit-de-spiritu-sancto-2
-  work: On the Holy Spirit (De Spiritu Sancto)
+- work: On the Holy Spirit (De Spiritu Sancto)
   author: ambrose
   locus: div2 4.2 — On the Holy Spirit
   atlas_ids:
@@ -53,8 +50,7 @@ assignments:
     with. Role normalised to `context` for the doctrinal-floor entry: this work describes
     that movement from outside rather than speaking as it, and the brief allows a built world
     to draw on floor material only as `register: etic`.'
-- row_id: npnf210_ambrose--on-the-decease-of-his-brother-satyrus-de-excessu-fratris
-  work: On the Decease of His Brother Satyrus (De Excessu Fratris)
+- work: On the Decease of His Brother Satyrus (De Excessu Fratris)
   author: ambrose
   locus: div2 4.3 — On the Decease of His Brother Satyrus
   atlas_ids:
@@ -65,8 +61,7 @@ assignments:
     nothing here reaches beyond the Milan entry.
 
     '
-- row_id: npnf210_ambrose--exposition-of-the-christian-faith-de-fide
-  work: Exposition of the Christian Faith (De Fide)
+- work: Exposition of the Christian Faith (De Fide)
   author: ambrose
   locus: div2 4.4 — Exposition of the Christian Faith
   atlas_ids:
@@ -79,8 +74,7 @@ assignments:
     own. Its anti-Arian argument is carried as a separate context row below.
 
     '
-- row_id: npnf210_ambrose--exposition-of-the-christian-faith-de-fide-2
-  work: Exposition of the Christian Faith (De Fide)
+- work: Exposition of the Christian Faith (De Fide)
   author: ambrose
   locus: div2 4.4 — Exposition of the Christian Faith
   atlas_ids:
@@ -92,8 +86,7 @@ assignments:
     above - the role differs per target, so it is staged as two rows.
 
     '
-- row_id: npnf210_ambrose--on-the-mysteries-de-mysteriis
-  work: On the Mysteries (De Mysteriis)
+- work: On the Mysteries (De Mysteriis)
   author: ambrose
   locus: div2 4.5 — On the Mysteries
   atlas_ids:
@@ -104,8 +97,7 @@ assignments:
     own liturgy and mystagogy.
 
     '
-- row_id: npnf210_ambrose--concerning-repentance-de-paenitentia
-  work: Concerning Repentance (De Paenitentia)
+- work: Concerning Repentance (De Paenitentia)
   author: ambrose
   locus: div2 4.6 — Concerning Repentance
   atlas_ids:
@@ -116,8 +108,7 @@ assignments:
     argument is carried as a context row below.
 
     '
-- row_id: npnf210_ambrose--concerning-repentance-de-paenitentia-2
-  work: Concerning Repentance (De Paenitentia)
+- work: Concerning Repentance (De Paenitentia)
   author: ambrose
   locus: div2 4.6 — Concerning Repentance
   atlas_ids:
@@ -129,8 +120,7 @@ assignments:
     mostly to refute it.
 
     '
-- row_id: npnf210_ambrose--concerning-virgins-de-virginibus
-  work: Concerning Virgins (De Virginibus)
+- work: Concerning Virgins (De Virginibus)
   author: ambrose
   locus: div2 4.7 — Concerning Virgins
   atlas_ids:
@@ -142,8 +132,7 @@ assignments:
     is asserted.
 
     '
-- row_id: npnf210_ambrose--concerning-widows-de-viduis
-  work: Concerning Widows (De Viduis)
+- work: Concerning Widows (De Viduis)
   author: ambrose
   locus: div2 4.8 — Concerning Widows
   atlas_ids:
@@ -153,8 +142,7 @@ assignments:
   note: 'Companion piece to Concerning Virgins; same disposition.
 
     '
-- row_id: npnf210_ambrose--selections-from-the-letters-of-st-ambrose-with-the-sermon
-  work: Selections from the Letters of St. Ambrose (with the Sermon Against Auxentius)
+- work: Selections from the Letters of St. Ambrose (with the Sermon Against Auxentius)
   author: ambrose
   locus: div1 5, div2 5.2 and 5.4-5.15 (5.1/5.3, Symmachus' Memorial, split out below)
   atlas_ids:
@@ -169,8 +157,7 @@ assignments:
     rule; the volume''s own selection is already this coherent.
 
     '
-- row_id: npnf210_ambrose--memorial-relatio-of-symmachus-prefect-of-the-city
-  work: Memorial (Relatio) of Symmachus, Prefect of the City
+- work: Memorial (Relatio) of Symmachus, Prefect of the City
   author: symmachus
   locus: div2 5.1 and 5.3 — Memorial of Symmachus
   atlas_ids:

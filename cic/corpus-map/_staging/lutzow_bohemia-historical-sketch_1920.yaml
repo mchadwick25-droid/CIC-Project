@@ -1,8 +1,7 @@
 source_file: lutzow_bohemia-historical-sketch_1920.txt
 
 assignments:
-  - row_id: lutzow_bohemia-historical-sketch_1920--bohemia-an-historical-sketch
-    work: "Bohemia: An Historical Sketch"
+  - work: "Bohemia: An Historical Sketch"
     author: lutzow
     locus: "whole volume"
     atlas_ids:

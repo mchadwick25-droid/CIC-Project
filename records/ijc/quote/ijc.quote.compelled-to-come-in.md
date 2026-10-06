@@ -57,13 +57,6 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
-use_note:
-  means: "Augustine defends imperial laws compelling Donatists into Catholic communion by Luke's 'compel them to come in', while admitting he once opposed such laws."
-  not_for:
-    - "a claim that Augustine always favoured coercion"
-    - "a claim that the paraphrase 'it should be by other means' is Augustine's own wording"
-  years: {from: 416, to: 418}
-  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf104 line
 19617. The two sentences are consecutive in the file with one

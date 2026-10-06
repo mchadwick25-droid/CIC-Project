@@ -42,14 +42,6 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.limit.marriage
-use_note:
-  means: "Aphrahat, in Demonstration VI on the vowed, contrasts the seven-day wedding feast of the daughters of Eve with the Bridegroom who never departs from consecrated virgins."
-  not_for:
-    - "a full description of ordinary weddings or married life in this world"
-    - "married people's own view of marriage, which does not survive here"
-    - "a claim that most people in this world were celibate"
-  years: {from: 337, to: 337}
-  status: reviewed
 ---
 This quote serves F5-T: syr.limit.marriage cites Demonstration VI specifically, so the limit can be
 voiced by the passage it points at.

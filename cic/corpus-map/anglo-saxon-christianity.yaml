@@ -3,35 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: anglo-saxon-christianity
 works:
-- row_id: bede_ecclesiastical-history-english-people_giles1903--the-ecclesiastical-history-of-the-english-nation
-  work: The Ecclesiastical History of the English Nation
-  author: bede
-  locus: whole file
-  role: tradition
-  confidence: assigned
-  note: 'Bede''s own history of the English church to 731 CE - the central narrative source
-    for this atlas entry''s own time window (597-793). The "Sparrow" passage (Edwin''s council,
-    Book II ch.13) confirmed present in this file (raw-scan line 4884 before normalization).
-
-    '
-  source_file: bede_ecclesiastical-history-english-people_giles1903.txt
-- row_id: boniface_english-correspondence_kylie1911--the-english-correspondence-of-saint-boniface
-  work: The English Correspondence of Saint Boniface
-  author: boniface
-  locus: whole file
-  role: tradition
-  confidence: assigned
-  note: 'Boniface and his Anglo-Saxon correspondents'' own letters, including Lioba, abbess
-    of Tauberbischofsheim - direct evidence of English monastic culture and its continental
-    mission field. No separate atlas entry exists for the continental Anglo-Saxon mission
-    itself, so this is filed under the home tradition whose own people and formation it documents.
-    Lioba content confirmed present in this file (spelled "Lioba", not "Leoba" as in some
-    secondary sources).
-
-    '
-  source_file: boniface_english-correspondence_kylie1911.txt
-- row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i-2
-  work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
+- work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
   role: context
@@ -45,8 +17,7 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--register-of-the-epistles-of-st-gregory-the-great-books-ix-2
-  work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
+- work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
   author: gregory
   locus: div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books
     I-VIII)

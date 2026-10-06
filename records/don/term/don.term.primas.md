@@ -61,13 +61,5 @@ senses:
     communion, not a universal head, and his counterpart across the street claims exactly the same standing.'
 quick_meaning: Our senior bishop at Carthage -- with the rival's man claiming the same chair.
 distortion_risk: low
-use_note:
-  means: "The Donatist senior bishop sat at Carthage, Donatus then Parmenian then Primian, while the rival claimed the same see, so Carthage had two primates."
-  not_for:
-    - "a claim that a primate was a pope or patriarch with jurisdiction over a wider church"
-    - "a claim that the office was uncontested"
-    - "a claim that it was a purely honorary title, since the primate's rulings had real disciplinary force"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Built from Doc_06 SS1 entry 016 (Tier 2, no promotion forwarded). No deployment chunk built this cycle. Development is genuinely modest: Doc_03's one-line entry plus Doc_05 SS4's succession list is the whole of the source material, and the record says so rather than filling the office out.

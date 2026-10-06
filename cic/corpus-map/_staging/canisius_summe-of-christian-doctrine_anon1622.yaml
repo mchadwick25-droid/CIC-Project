@@ -1,8 +1,7 @@
 source_file: canisius_summe-of-christian-doctrine_anon1622.txt
 
 assignments:
-  - row_id: canisius_summe-of-christian-doctrine_anon1622--a-summe-of-christian-doctrine
-    work: "A Summe of Christian Doctrine"
+  - work: "A Summe of Christian Doctrine"
     author: canisius
     locus: "whole text"
     atlas_ids:

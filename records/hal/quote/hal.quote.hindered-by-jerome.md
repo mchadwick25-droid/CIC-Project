@@ -46,14 +46,6 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.quote.paula-escaped-his-envy
-use_note:
-  means: "Palladius's Lausiac History says Jerome's jealousy hindered Paula, who could have surpassed all, by inducing her to serve his own plan."
-  not_for:
-    - "a settled verdict on the Paula-Jerome relationship; Palladius wrote from a milieu hostile to Jerome"
-    - "this world's own voice; it is an outside, adverse witness"
-    - "a claim that 'jealousy' here means romantic jealousy"
-  years: {from: 386, to: 420}
-  status: reviewed
 ---
 Verified verbatim against the vendored Clarke translation (a
 footnote-number artifact in the raw file, 'Paula,276', is elided from the

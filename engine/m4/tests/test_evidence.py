@@ -205,20 +205,6 @@ def test_head_text_quote_with_no_modern_rendering_fails_loudly_not_silently_on_t
         _head_text(rec)
 
 
-def test_head_text_story_uses_tellable_as():
-    rec = {"id": "fix.story.has-tellable", "record_type": "story",
-           "text": "The source wording, never voiced.",
-           "tellable_as": "The story as it is told today."}
-    assert _head_text(rec) == "The story as it is told today."
-
-
-def test_head_text_story_with_no_tellable_as_fails_loudly_not_silently_on_text():
-    rec = {"id": "fix.story.no-tellable", "record_type": "story",
-           "text": "The source wording, never voiced.", "tellable_as": None}
-    with pytest.raises(ValueError, match="no tellable_as"):
-        _head_text(rec)
-
-
 # ---- Stage B2 (Build-Plan.md Stage 4c, part 2) -----------------------------
 
 

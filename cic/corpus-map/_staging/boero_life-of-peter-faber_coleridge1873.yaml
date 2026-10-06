@@ -1,8 +1,7 @@
 source_file: boero_life-of-peter-faber_coleridge1873.txt
 
 assignments:
-  - row_id: boero_life-of-peter-faber_coleridge1873--the-life-of-the-blessed-peter-favre-faber-of-the-society-of
-    work: "The Life of the Blessed Peter Favre (Faber), of the Society of Jesus"
+  - work: "The Life of the Blessed Peter Favre (Faber), of the Society of Jesus"
     author: boero
     locus: "whole text"
     atlas_ids:

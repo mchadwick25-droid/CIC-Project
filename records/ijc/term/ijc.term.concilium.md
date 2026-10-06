@@ -59,13 +59,6 @@ senses:
     was a separate act: a council''s authority was itself one of the things the councils kept having to
     contest.'
 quick_meaning: A gathering of bishops, called to settle what the whole church must hold.
-use_note:
-  means: "A council is bishops gathered, usually at the emperor's summons, to argue, vote and issue binding rules; decisions did not always hold."
-  not_for:
-    - "a claim that a council worked like a modern legislature whose majority vote all parties then accept"
-    - "a claim that a council was a merely advisory conference with no binding force claimed"
-  years: {from: 325, to: 451}
-  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 2;
 Lexicon-Chunks/ijclex007_concilium.md). canon_cells: F1-I (what did the

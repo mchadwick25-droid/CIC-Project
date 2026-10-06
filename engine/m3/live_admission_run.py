@@ -27,14 +27,6 @@ same check applies again against the actual spend recorded so far -
 real per-world costs vary enough (by system-prompt size and answer
 length) that the preflight total alone does not bound a many-world run.
 
-With --save-transcripts, every probe's entry also keeps its transcript:
-the reply as graded, the raw tagged reply the model returned, its
-citations, the request settings, the stop reason and the timings. The
-battery, masking and grading are unchanged by the flag; it only records
-what the run already produced, for the standing-measure suite to read.
---settings-only prints the run settings and the preflight estimate and
-exits before any billed call.
-
 Writes engine/m3/reports/live-admission-report.json - a by-hand report,
 same pattern as the three scripts above, not
 validation/admission/results.json (that path is M2's own compile-time
@@ -43,27 +35,20 @@ package; this script's job is to report a live result, not to replace
 that baked-in mock one).
 """
 import argparse
-import hashlib
-import inspect
 import json
 import re
-import subprocess
 import sys
-import time
 from dataclasses import asdict
 from pathlib import Path
 
 from engine.m1.loader import load_fleet_records, load_world_records
 from engine.m1.registry import formation_world_keys, load_registry
 from engine.m3 import harness, protocol, results
-from engine.m2.manifest import package_content_hash
 from engine.m3.generation import LiveModelAnswerer
-from engine.m4.generation import stream_voice_turn
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
 from engine.m8.live_cost_run import SONNET_4_5_PRICE_TABLE
 from engine.provider.bedrock import NormalizedUsage, make_client, normalize_usage, resolve_model_id
-from engine.shape import shape_hash, shape_text
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORTS_DIR = Path(__file__).resolve().parent / "reports"
@@ -77,8 +62,6 @@ REPORT_PATH = REPORTS_DIR / "live-admission-report.json"
 # report records which they were.
 DEFAULT_WORLD_KEYS = ["alx", "desert"]
 
-DEFAULT_VOICE_MODEL_PATTERN = "us.anthropic.claude-sonnet-4-5"
-
 # --max-usd defaults to this ceiling; going above it takes an explicit,
 # higher --max-usd on the command line - the default itself is the
 # ceiling, so nothing above it is ever silent. No weekly or aggregate cap:
@@ -89,7 +72,7 @@ DEFAULT_MAX_USD = 3.00
 # alx-2026-09-08-postfix.json: alx, 28 probes - protocol.battery()'s own
 # fixed size, one per sealed cell), priced against the same real, sourced
 # rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE already
-# documents (Anthropic's published API rate card) -
+# documents (Anthropic's published API rate card, fetched 2026-08-25) -
 # this module invents no price of its own, per spec principle 13. Used
 # only as estimate_world_cost_usd's own last-resort fallback, for the
 # case where no world anywhere has a real report yet.
@@ -166,44 +149,30 @@ def estimate_run_cost_usd(world_keys: list[str], real_costs: dict[str, float] | 
 
 class _UsageRecordingStream:
     """Wraps the real stream object just enough to intercept
-    get_final_message()'s usage, raw text and stop reason, and the time of
-    the first text chunk - text_stream yields exactly the inner chunks, so
-    stream_voice_turn (engine/m4/generation.py) sees nothing different
+    get_final_message()'s usage - text_stream passes through untouched,
+    so stream_voice_turn (engine/m4/generation.py) sees nothing different
     about the client it was handed."""
 
-    def __init__(self, inner, log, call):
+    def __init__(self, inner, log):
         self._inner = inner
         self._log = log
-        self._call = call
-        self.text_stream = self._timed(inner.text_stream)
-
-    def _timed(self, chunks):
-        for chunk in chunks:
-            if "seconds_to_first_text" not in self._call:
-                self._call["seconds_to_first_text"] = round(time.monotonic() - self._call["_started"], 3)
-            yield chunk
+        self.text_stream = inner.text_stream
 
     def get_final_message(self):
         message = self._inner.get_final_message()
         self._log.append(message.usage)
-        self._call["raw_text"] = "".join(
-            getattr(block, "text", "") for block in (message.content or []) if getattr(block, "type", None) == "text"
-        )
-        self._call["stop_reason"] = getattr(message, "stop_reason", None)
         return message
 
 
 class _UsageRecordingStreamCtx:
-    def __init__(self, inner_ctx, log, call):
+    def __init__(self, inner_ctx, log):
         self._inner_ctx = inner_ctx
         self._log = log
-        self._call = call
 
     def __enter__(self):
-        return _UsageRecordingStream(self._inner_ctx.__enter__(), self._log, self._call)
+        return _UsageRecordingStream(self._inner_ctx.__enter__(), self._log)
 
     def __exit__(self, *exc):
-        self._call["seconds_total"] = round(time.monotonic() - self._call.pop("_started"), 3)
         return self._inner_ctx.__exit__(*exc)
 
 
@@ -211,15 +180,9 @@ class _UsageRecordingMessages:
     def __init__(self, inner):
         self._inner = inner
         self.log: list = []
-        self.calls: list[dict] = []
 
     def stream(self, **kwargs):
-        call = {
-            "request": {"model": kwargs.get("model"), "max_tokens": kwargs.get("max_tokens")},
-            "_started": time.monotonic(),
-        }
-        self.calls.append(call)
-        return _UsageRecordingStreamCtx(self._inner.stream(**kwargs), self.log, call)
+        return _UsageRecordingStreamCtx(self._inner.stream(**kwargs), self.log)
 
 
 class _UsageRecordingClient:
@@ -233,75 +196,7 @@ class _UsageRecordingClient:
         self.messages = _UsageRecordingMessages(inner.messages)
 
 
-class _RecordingAnswerer:
-    """Passes every answer() call to the real answerer and keeps the
-    AnswerResult it returned, in call order, without changing it."""
-
-    def __init__(self, inner):
-        self._inner = inner
-        self.answers: list = []
-
-    def answer(self, cell: str, probe_text: str):
-        result = self._inner.answer(cell, probe_text)
-        self.answers.append(result)
-        return result
-
-
-def _transcript(answer, call: dict) -> dict:
-    return {
-        "answer_text": answer.text,
-        "raw_text": call.get("raw_text"),
-        "citations": list(answer.citations),
-        "citation_entries": answer.citation_entries,
-        "request": call["request"],
-        "stop_reason": call.get("stop_reason"),
-        "seconds_to_first_text": call.get("seconds_to_first_text"),
-        "seconds_total": call.get("seconds_total"),
-    }
-
-
-def seal_hash(seals_path: Path = protocol.SEALS_PATH) -> str:
-    """sha256 over the sealed battery's own seals file - the file that
-    names every probe and the hash of its plaintext."""
-    return "sha256:" + hashlib.sha256(seals_path.read_bytes()).hexdigest()
-
-
-def _repo_commit() -> str | None:
-    try:
-        return subprocess.run(
-            ["git", "rev-parse", "HEAD"], cwd=REPO_ROOT, capture_output=True, text=True, check=True
-        ).stdout.strip()
-    except (OSError, subprocess.CalledProcessError):
-        return None
-
-
-def run_settings(*, registry: dict, world_keys: list[str], region: str, voice_model_id: str, max_usd: float,
-                 save_transcripts: bool, probe_limit: int | None = None) -> dict:
-    """Every setting that decides what this paid run produces, printed
-    before the first billed call and kept in the report."""
-    return {
-        "voice_model_id": voice_model_id,
-        "voice_max_tokens": inspect.signature(stream_voice_turn).parameters["max_tokens"].default,
-        "voice_temperature": "API default (not set by stream_voice_turn)",
-        "safety_model_id": None,
-        "safety_call": "not made - LiveModelAnswerer answers each sealed probe with the voice call only",
-        "reader_call": "not made - not in the admission harness path",
-        "self_revision": "off - not in the admission harness path",
-        "region": region,
-        "package_manifest_hash": {w: registry[w]["package"]["manifest_hash"] for w in world_keys},
-        "package_content_hash": {w: package_content_hash(REPO_ROOT / registry[w]["package"]["location"]) for w in world_keys},
-        "shape_hash": shape_hash(shape_text()),
-        "seal_hash": seal_hash(),
-        "battery_size": len(protocol.battery()[:probe_limit]),
-        "probe_limit": probe_limit,
-        "max_usd": max_usd,
-        "save_transcripts": save_transcripts,
-        "repo_commit": _repo_commit(),
-    }
-
-
-def _run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, voice_model_id: str, region: str, canon_questions: dict,
-               save_transcripts: bool = False, probe_limit: int | None = None) -> dict:
+def _run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, voice_model_id: str, region: str, canon_questions: dict) -> dict:
     """One world's own full battery, against a real, billed streaming
     call per probe - battery size, pass count, per-probe detail, real
     token totals, and the real USD cost priced from them."""
@@ -312,11 +207,9 @@ def _run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, voice
     clean_records = load_world_records(world_key)
 
     recording_client = _UsageRecordingClient(make_client(region))
-    answerer = _RecordingAnswerer(
-        LiveModelAnswerer(world=world, canon_questions=canon_questions, client=recording_client, model_id=voice_model_id)
-    )
+    answerer = LiveModelAnswerer(world=world, canon_questions=canon_questions, client=recording_client, model_id=voice_model_id)
 
-    battery = harness.run_battery(world_key, clean_records, answerer=answerer, limit=probe_limit)
+    battery = harness.run_battery(world_key, clean_records, answerer=answerer)
     results_doc = results.build_results(world_key, battery, mock_harness=False)
 
     usage_log = recording_client.messages.log
@@ -326,12 +219,6 @@ def _run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, voice
             "expected exactly one streaming call per probe"
         )
     normalized = [normalize_usage(u) for u in usage_log]
-    calls = recording_client.messages.calls
-    if save_transcripts and not (len(calls) == len(answerer.answers) == len(battery)):
-        raise RuntimeError(
-            f"{world_key}: {len(calls)} calls and {len(answerer.answers)} answers for {len(battery)} probes - "
-            "expected exactly one of each per probe"
-        )
 
     per_probe = [
         {
@@ -346,9 +233,8 @@ def _run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, voice
             # probe text: an answer can paraphrase its sealed probe,
             # so the bound stays as tight as the read requires.
             **({"answer_text": r.answer_text} if not r.passed else {}),
-            **({"transcript": _transcript(answerer.answers[i], calls[i])} if save_transcripts else {}),
         }
-        for i, (r, u) in enumerate(zip(battery, normalized))
+        for r, u in zip(battery, normalized)
     ]
 
     world_usage = {
@@ -367,9 +253,7 @@ def _run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, voice
     }
 
 
-def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DEFAULT_MAX_USD, authorized_by: str,
-        voice_model_pattern: str = DEFAULT_VOICE_MODEL_PATTERN, save_transcripts: bool = False,
-        settings_only: bool = False, probe_limit: int | None = None) -> dict:
+def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DEFAULT_MAX_USD, authorized_by: str) -> dict:
     registry = load_registry()
     formation_keys = set(formation_world_keys(registry))
     requested = world_keys or DEFAULT_WORLD_KEYS
@@ -384,8 +268,7 @@ def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DE
     if not authorized_by.strip():
         raise SystemExit("--authorized-by is required and cannot be blank - every live-billed run names who authorized it")
     real_costs = real_world_costs()
-    share = len(protocol.battery()[:probe_limit]) / len(protocol.battery())
-    per_world_estimates = {w: estimate_world_cost_usd(w, real_costs) * share for w in requested}
+    per_world_estimates = {w: estimate_world_cost_usd(w, real_costs) for w in requested}
     preflight_total = sum(per_world_estimates.values())
     if preflight_total > max_usd:
         breakdown = ", ".join(f"{w}=${c:.2f}" for w, c in per_world_estimates.items())
@@ -395,16 +278,7 @@ def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DE
             f"if this spend is actually authorized, or narrow --worlds."
         )
     loader = LazyWorldLoader()
-    voice_model_id = resolve_model_id(voice_model_pattern, region)
-    settings = run_settings(
-        registry=registry, world_keys=requested, region=region, voice_model_id=voice_model_id, max_usd=max_usd,
-        save_transcripts=save_transcripts, probe_limit=probe_limit,
-    )
-    print(json.dumps({"run_settings": settings, "per_world_estimated_usd": per_world_estimates,
-                      "estimated_usd_preflight": preflight_total}, indent=2), file=sys.stderr, flush=True)
-    if settings_only:
-        return {"run_settings": settings, "per_world_estimated_usd": per_world_estimates,
-                "estimated_usd_preflight": preflight_total, "settings_only": True}
+    voice_model_id = resolve_model_id("us.anthropic.claude-sonnet-4-5", region)
 
     canon_questions = load_fleet_records()
     per_world = {}
@@ -421,15 +295,13 @@ def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DE
                 f"in this report's own worlds/actual_usd_spent fields."
             )
             break
-        world_result = _run_world(world_key, registry=registry, loader=loader, voice_model_id=voice_model_id, region=region,
-                                  canon_questions=canon_questions, save_transcripts=save_transcripts, probe_limit=probe_limit)
+        world_result = _run_world(world_key, registry=registry, loader=loader, voice_model_id=voice_model_id, region=region, canon_questions=canon_questions)
         spent_so_far += world_result["actual_usd"]
         per_world[world_key] = world_result
 
     report = {
         "voice_model_id": voice_model_id,
         "region": region,
-        "run_settings": settings,
         "protocol": "blind",
         "worlds": per_world,
         "overall_pass": aborted_reason is None and all(w["overall_pass"] for w in per_world.values()),
@@ -465,28 +337,12 @@ def main() -> int:
                              f"world's own estimate would; pass a higher value explicitly to authorize more")
     parser.add_argument("--authorized-by", required=True,
                         help="who authorized this specific live-billed run - recorded in the report, never blank")
-    parser.add_argument("--voice-model", default=DEFAULT_VOICE_MODEL_PATTERN,
-                        help="inference-profile pattern for the voice model; must match exactly one profile")
-    parser.add_argument("--save-transcripts", action="store_true",
-                        help="keep every probe's transcript (graded reply, raw reply, citations, request, stop reason, "
-                             "timings) in the report; grading is unchanged")
-    parser.add_argument("--settings-only", action="store_true",
-                        help="print the run settings and preflight estimate, then exit before any billed call")
-    parser.add_argument("--probe-limit", type=int, default=None,
-                        help="run only the battery's first N probes, as a sample before the paid run; a sample is "
-                             "never admission evidence and must be written outside engine/m3/reports")
     parser.add_argument("--out", default=str(REPORT_PATH),
                         help="report path - use a distinct file so prior runs' records survive")
     args = parser.parse_args()
 
     world_keys = [k.strip() for k in args.worlds.split(",") if k.strip()]
-    if args.probe_limit is not None and Path(args.out).resolve().is_relative_to(REPORTS_DIR.resolve()):
-        raise SystemExit("--probe-limit writes a sample, which is not admission evidence; pass --out outside engine/m3/reports")
-    report = run(args.region, world_keys=world_keys, max_usd=args.max_usd, authorized_by=args.authorized_by,
-                 voice_model_pattern=args.voice_model, save_transcripts=args.save_transcripts,
-                 settings_only=args.settings_only, probe_limit=args.probe_limit)
-    if report.get("settings_only"):
-        return 0
+    report = run(args.region, world_keys=world_keys, max_usd=args.max_usd, authorized_by=args.authorized_by)
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")

@@ -51,14 +51,6 @@ positions:
 tensions:
 - reading catastrophe as judgment consoled some wounds and sharpened others - the same
   letter that calls Rome judged cannot stop mourning Rome
-use_note:
-  means: "This witness holds that the community met catastrophe, from Rome's sack to Blaesilla's death and the 416 attack, with traditional answers while honoring grief as faithful."
-  not_for:
-    - "a claim that this world called grief a lack of faith"
-    - "a claim that its answers to suffering ended the mourning"
-    - "a claim that these losses came from pagan persecutors; the 416 attack came from fellow Christians"
-  years: {from: 384, to: 417}
-  status: reviewed
 ---
 F6-personal answer-ground for the suffering questions. Companion quote:
 hal.quote.city-taken (verified verbatim); companion stories:

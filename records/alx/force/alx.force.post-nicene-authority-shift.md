@@ -34,7 +34,11 @@ relations:
   target: alx.gravity.speculative-doctrinal-tension
 name: The Post-Nicene Authority Reconfiguration, c. 325-400 [3B - ending/internal]
 kind: ending
-description: 'The Nicene period made the bishop of Alexandria the enforcer of conciliar orthodoxy across Egypt. This was a new doctrinal-boundary scope. Its tools were exile, letter-networks, and synods. The Festal Letters are the paradigmatic case. Authority now meant more than the office handed down. It also meant the drawn confession. The office had to guard it. The teacher''s kind of standing gave way to it.'
+description: 'The Nicene period made the bishop of Alexandria the enforcer of conciliar orthodoxy across
+  Egypt - a new doctrinal-boundary scope, with exile, letter-networks, and synods as instruments; the
+  Festal Letters paradigmatic. In the world''s own experience: authority now meant not only the office
+  handed down but the drawn confession it was charged to guard; the teacher''s kind of standing receded
+  before it.'
 manifestations:
 - the Festal Letters as annual instruments of whole-Egypt governance and formation
 - the completion of the teacher-bishop and learning-community asymmetries

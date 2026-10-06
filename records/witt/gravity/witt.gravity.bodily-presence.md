@@ -117,14 +117,5 @@ manifestations:
 - '"I will take my reason captive to the obedience of Christ, and clinging simply to His word, firmly
   believe... the bread is the body of Christ" (v2 7185-7188)'
 - the one in-voice word, "Sacramentarians," among the tares (Bondage, 16090-16092)
-use_note:
-  means: "The bodily presence names a doctrine well attested in texts of 1520 to 1530 yet carrying more boundary weight against the Reformed than the library's evidence shows."
-  not_for:
-    - "the Marburg Colloquy or the Reformed controversy as documented, since the Marburg Articles are not vendored"
-    - "the doctrine's weight as the world's boundary as evidenced, which the library cannot show"
-    - "the doctrine's own wording as a term, which sits in witt.term.sacrament-of-the-altar"
-    - "the teaching on sacraments in general, which sits in witt.gravity.promise-and-sign"
-  years: {from: 1520, to: 1530}
-  status: reviewed
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G10 -> §3 G10 -> §7 row G10; SUPPORTING). Interaction Matrix (Doc_04 §5, row/col G10): G1 (R(t)), G2 (S), G3 (R), G4 (R(t)), G8 (C(t)), G11 (R(t)), G12 (R(t)) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: G5, G6, G7, G9, G13. Forces-connection (Doc_08 §5): witt.force.reformed-rival-by-absence (associated-with), witt.force.internal-radical-force (associated-with), witt.force.transmission-at-the-windows-edge (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.

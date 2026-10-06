@@ -44,14 +44,6 @@ relations:
   target: desert.dw.councils
 - type: associated-with
   target: desert.dw.melitian-power
-use_note:
-  means: "Athanasius states that Antony never held communion with the Melitian schismatics and dealt with Manichaeans and heretics only to urge them toward piety."
-  not_for:
-    - "a total refusal of all contact, when the source allows advice toward conversion"
-    - "a council or formal ruling rather than refusal of eucharistic fellowship"
-    - "Antony's stance as independent of Athanasius's own anti-Melitian purposes"
-  years: {from: 356, to: 362}
-  status: reviewed
 ---
 This record fills canon cells F1-E and F3-P together - one passage genuinely answers both.
 desert.dw.councils cites SS68 for Antony's rejection of Melitian and Arian teaching;

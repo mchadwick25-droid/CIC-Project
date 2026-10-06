@@ -40,14 +40,6 @@ relations:
   target: desert.story.sarah-answer
 - type: associated-with
   target: desert.gravity.elder-authority
-use_note:
-  means: "Budge's Syriac sayings collection preserves Mother Sarah telling her brethren that she is the man and they are the women."
-  not_for:
-    - "the fuller Greek form about being a woman by nature but not by thought, which this recension lacks"
-    - "man and woman as modern gender-identity claims rather than this world's virtue categories"
-    - "a precise date for the saying, when nothing dates Sarah individually and the collection was compiled after 430"
-  years: {from: 320, to: 430}
-  status: reviewed
 ---
 Verified character for character against the vendored Budge at line
 2429, §525.

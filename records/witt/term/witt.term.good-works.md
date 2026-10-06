@@ -74,14 +74,6 @@ senses:
     as a price.'
 quick_meaning: Ordinary life, done in faith. Commanded by God, never a way to earn favor.
 distortion_risk: high
-use_note:
-  means: "Good works meant everything God commands done in faith, from trade, walking and eating to prayer, done never to earn anything."
-  not_for:
-    - "good works as only charity or ritual"
-    - "'faith alone' as the abolition of works"
-    - "merit specifically, which sits in witt.term.merit"
-  years: {from: 1517, to: 1531}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.3 (good works, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

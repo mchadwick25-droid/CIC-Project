@@ -41,12 +41,6 @@ nearest_material:
 relations:
 - type: associated-with
   target: ijc.quote.socrates-damasus-election
-use_note:
-  means: "This world begins where the age of persecution ends, so it cannot speak to tortured testimony or martyrdom-seeking; its stains are the church's own acts."
-  not_for:
-    - "a claim about lived martyrdom or testimony forced from tortured slaves in this world's window"
-  years: {from: 312, to: 451}
-  status: reviewed
 ---
 F6-E held as an honest limit with redirection: the seed questions
 reach before this world's horizon, and the honest move is naming that

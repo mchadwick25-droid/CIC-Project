@@ -30,13 +30,6 @@ senses:
   translational: "Not the word 'Trinity' - that word is later. The subject underneath it is ours; the label is not."
 quick_meaning: "Father, Son, and Spirit, named together, before the later word for it."
 distortion_risk: medium
-use_note:
-  means: "The Three is how Testland named Father, Son and Spirit together."
-  not_for:
-    - "the later doctrine of the Trinity"
-    - "a claim that Testland defined how the three relate"
-  years: {from: 100, to: 100}
-  status: provisional
 ---
 Fleet bridge target for _fleet.modern.trinity (native_subject_map.fix). Also the
 positive-case reciprocal-relation partner for fix.term.the-way (associated-with is

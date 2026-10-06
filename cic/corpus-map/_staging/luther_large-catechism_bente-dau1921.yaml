@@ -3,8 +3,7 @@
 source_file: luther_large-catechism_bente-dau1921.txt
 
 assignments:
-  - row_id: luther_large-catechism_bente-dau1921--the-large-catechism-of-martin-luther
-    work: The Large Catechism of Martin Luther
+  - work: The Large Catechism of Martin Luther
     author: luther
     locus: "whole file"
     atlas_ids:

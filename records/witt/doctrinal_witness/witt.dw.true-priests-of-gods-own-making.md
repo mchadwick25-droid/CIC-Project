@@ -68,15 +68,6 @@ tensions:
 - "the outside-account question is a genuine gap, not a thin answer we are stretching -- we have nothing independently vendored in our own library that lets an outsider's own eyes describe our worship"
 - "the martyrdom itself is well documented (two names, one date, a near-contemporary author); the martyrs' own reported cheerfulness and exact words are the ballad's own commemorative voice, not an independent witness standing beside it, and we do not blur the two"
 relations: []
-use_note:
-  means: "This witness holds that we have no independent outside account of our worship, and that John and Henry were burned at Brussels in 1523, celebrated in our founder's ballad."
-  not_for:
-    - "the martyrs' reported words and cheerfulness as verified reportage rather than the ballad's commemorative voice"
-    - "a claim that we held a broad cult or theology of martyrdom"
-    - "the Roman Confutation as an outside account we hold in its own words"
-    - "the event itself as told, which sits in witt.story.brussels-martyrs"
-  years: {from: 1523, to: 1531}
-  status: reviewed
 ---
 Closes F6-E at the Answer-the-Canon step (inserted between B-7a and B-8), answering the cell's own
 martyrdom question at real strength and naming the outside-account question as a genuine gap rather than

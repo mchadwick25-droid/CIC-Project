@@ -12,8 +12,7 @@ authors_ruled:
     evidence: 'Gebhardt prints "Passio SS. Montani et Lucii" (XIV) with no named author; file line 6970.'
 
 assignments:
-  - row_id: acta-martyrum-selecta_gebhardt1902--acta-s-cypriani-episcopi-et-martyris
-    work: "Acta S. Cypriani episcopi et martyris"
+  - work: "Acta S. Cypriani episcopi et martyris"
     author: acta-cypriani
     locus: "running heads from file line 6038 (XI)"
     atlas_ids:
@@ -22,8 +21,7 @@ assignments:
     confidence: provisional
     note: >
       Latin acts of Cyprian's martyrdom in Gebhardt's 1902 edition. Registry row 222.
-  - row_id: acta-martyrum-selecta_gebhardt1902--passio-ss-mariani-et-iacobi
-    work: "Passio SS. Mariani et Iacobi"
+  - work: "Passio SS. Mariani et Iacobi"
     author: passio-mariani-et-iacobi
     locus: "file line 6377 (XIII)"
     atlas_ids:
@@ -32,8 +30,7 @@ assignments:
     confidence: provisional
     note: >
       Latin martyr acts of the Cyprianic period. Registry row 222.
-  - row_id: acta-martyrum-selecta_gebhardt1902--passio-ss-montani-et-lucii
-    work: "Passio SS. Montani et Lucii"
+  - work: "Passio SS. Montani et Lucii"
     author: passio-montani-et-lucii
     locus: "running heads from file line 6970 (XIV)"
     atlas_ids:

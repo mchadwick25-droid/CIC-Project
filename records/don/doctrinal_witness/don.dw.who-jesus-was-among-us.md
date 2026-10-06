@@ -99,15 +99,6 @@ tensions:
 - the transcript reaches this compilation through a printing whose scan is the most damaged in the corpus,
   so our own bishops' phrasing is carried as reported sense rather than as a quotable clause
 relations: []
-use_note:
-  means: "The Christ Donatists kept nearest stood condemned before the governor and was right, as their bishops said standing at the 411 conference, with the world's hatred the church's mark and death no interruption."
-  not_for:
-    - "a claim that a Donatist christological or soteriological treatise survives"
-    - "a claim resting on the exact wording of Donatist bishops at the 411 conference"
-    - "a claim that the Donatists held a distinct doctrine of Christ"
-    - "a claim about the shared Trinitarian creed or atonement, which sit in don.dw.the-creed-we-shared"
-  years: {from: 347, to: 411}
-  status: reviewed
 ---
 Closes C-I. The cell's five variants are answered in one voice, and the
 first move is the honest one this world's own `world_core` insists on:

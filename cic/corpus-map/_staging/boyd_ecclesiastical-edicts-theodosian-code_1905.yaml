@@ -3,8 +3,7 @@
 source_file: boyd_ecclesiastical-edicts-theodosian-code_1905.txt
 
 assignments:
-  - row_id: boyd_ecclesiastical-edicts-theodosian-code_1905--the-ecclesiastical-edicts-of-the-theodosian-code
-    work: "The Ecclesiastical Edicts of the Theodosian Code"
+  - work: "The Ecclesiastical Edicts of the Theodosian Code"
     author: boyd
     locus: "study 2 of 3 in this bound volume"
     atlas_ids:

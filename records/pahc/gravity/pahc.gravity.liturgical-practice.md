@@ -78,12 +78,6 @@ manifestations:
 - "the Didache's cup-before-bread thanksgiving, with no institution narrative at all ('We thank thee, our Father, for the holy vine of David Thy servant')"
 - "Ignatius's instruction that only the bishop-validated eucharist is proper (Smyrnaeans 8; Philadelphians 4's 'one eucharist')"
 - "Justin's fuller Roman account: reading, homily, common prayer, thanksgiving 'according to his ability,' distribution to the absent by deacons"
-use_note:
-  means: "Giving thanks over bread and cup forms these communities more than anything else they do, with the table constant and its order varying house to house."
-  not_for:
-    - "any one shape of the meal as the shape everywhere"
-  years: {from: 70, to: 200}
-  status: reviewed
 ---
 Re-derived from the approved Doc_04 (G07) - one of this world's two
 Primary gravities, both cross-strand confirmed and resting on

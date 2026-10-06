@@ -95,15 +95,6 @@ tensions:
 relations:
 - type: associated-with
   target: don.quote.petilian-conscience-of-the-giver
-use_note:
-  means: "Coming to believe meant publicly choosing one of two fonts, where the giver's conscience was examined and never the comer's record, so the door was wider than the reputation."
-  not_for:
-    - "a claim about what undergoing rebaptism felt like"
-    - "a claim that any ordinary Donatist left a statement of personal devotion"
-    - "a claim that the Donatist examination of the minister is a preserved pastoral saying"
-    - "a claim about the forced-entry charges or lay reluctance over rewashing, which sit in don.dw.becoming-one-of-us"
-  years: {from: 311, to: 411}
-  status: reviewed
 ---
 Closes C-P. The cell's three variants get three different treatments on
 purpose. "How did you come to believe" is answered from the strongest

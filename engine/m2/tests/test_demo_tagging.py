@@ -93,7 +93,7 @@ def test_tag_representative_text_empty_candidates_is_a_no_op():
 
 
 def test_build_prompt_tags_only_representative_turns_not_participant_turns():
-    prompt = build_prompt(REPOSITORY, {"display_name": "Fixture World"}).decode("utf-8")
+    prompt = build_prompt(REPOSITORY, {}, {"display_name": "Fixture World"}).decode("utf-8")
     idx = prompt.find("## Demonstration ")
     section = prompt[idx:]
     participant_line = next(line for line in section.splitlines() if line.startswith("participant:"))

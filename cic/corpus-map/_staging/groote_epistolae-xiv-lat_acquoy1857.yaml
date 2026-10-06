@@ -1,8 +1,7 @@
 source_file: groote_epistolae-xiv-lat_acquoy1857.txt
 
 assignments:
-  - row_id: groote_epistolae-xiv-lat_acquoy1857--gerardi-magni-epistolae-xiv-fourteen-letters-of-gerard
-    work: "Gerardi Magni Epistolae XIV (Fourteen Letters of Gerard Groote)"
+  - work: "Gerardi Magni Epistolae XIV (Fourteen Letters of Gerard Groote)"
     author: groote
     locus: "whole text (fourteen letters, Latin, with editor's scholarly introductions)"
     atlas_ids:

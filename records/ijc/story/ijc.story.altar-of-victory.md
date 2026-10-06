@@ -62,13 +62,6 @@ modern_contrast: >-
   was withholding. Ambrose's answer treats the question as belonging entirely inside that alliance's
   own logic (what an already-Christian state may fund), not as a debate between a neutral state and
   two private religions.
-use_note:
-  means: "In 384 Symmachus asked for the Altar of Victory's return and Ambrose answered twice; the altar stayed removed; both sides survive in their own words."
-  not_for:
-    - "a claim that this was a free-speech or minority-rights dispute against a neutral state"
-    - "a claim that Symmachus sought private toleration rather than restored state funding"
-  years: {from: 384, to: 384}
-  status: reviewed
 ---
 A registry-append story closing a flagged gap in this world's own
 Registry (no row for the Altar of Victory

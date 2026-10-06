@@ -52,14 +52,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.power-displayed-disowned
-use_note:
-  means: "Gallus describes Martin exorcising without touch or rebuke, sending others out, bolting the doors and praying prostrate in sackcloth and ashes."
-  not_for:
-    - "proof that any particular exorcism occurred"
-    - "Nesteros's teaching against showy exorcists, which sits in gallic.quote.humility-mistress-of-virtues-not-exorcism"
-    - "the ordinary practice of Gallic clergy, whom the text contrasts with Martin"
-  years: {from: 404, to: 406}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "touched no one with his hands"` returns line 4900; `grep -n "turned to prayer"` returns line

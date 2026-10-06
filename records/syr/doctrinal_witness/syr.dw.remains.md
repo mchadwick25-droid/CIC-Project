@@ -53,13 +53,6 @@ relations:
   target: syr.quote.the-scribes-and-the-prefects-over-the-archives
 - type: associated-with
   target: syr.quote.the-temple-of-the-church-of-the-christians
-use_note:
-  means: "This world's voice says the Nisibis baptistery is its only securely dated standing structure, Edessa's remains lie under the modern city, and its texts are what survive."
-  not_for:
-    - "a claim that the full Nisibis cathedral plan is a confirmed structure"
-    - "a claim that the Edessa church destroyed in the flood has been excavated"
-  years: {from: 201, to: 373}
-  status: reviewed
 ---
 F5-E: the Kayaalp discipline from Doc_02 SS6 (baptistery secure;
 five-aisled plan hypothetical) is carried into the tensions field

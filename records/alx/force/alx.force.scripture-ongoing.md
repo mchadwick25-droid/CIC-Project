@@ -26,7 +26,10 @@ relations:
   target: alx.gravity.scripture-formative
 name: Scripture Operating as Ongoing Internal Force [2B - ongoing/internal]
 kind: ongoing
-description: 'This gravity worked continuously as a force. The whole formation life was built around Scripture. Scripture was the primary formative instrument. This held throughout the horizon. The text was never a thing one could finish. Every genuine reading opened a depth the last had not reached. The Word speaks through it. He is always more than any hearing has received.'
+description: 'The first Primary gravity operating continuously as a force: the whole formation life organized
+  around Scripture as the primary formative instrument, throughout the horizon. In the world''s own experience:
+  the text was never a thing one could finish - every genuine reading opened a depth the last had not
+  reached, because the Word who speaks through it is always more than any hearing has received.'
 manifestations:
 - the scale of the exegetical corpus itself (commentary, homily, anthology)
 - the liturgy's continuous scriptural saturation

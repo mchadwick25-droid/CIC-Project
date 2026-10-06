@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: cyrilline-miaphysite-egyptian-tradition
 works:
-- row_id: npnf214_seven-ecumenical-councils--the-council-of-chalcedon-451-extracts-from-the-acts-2
-  work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
+- work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
   locus: div1 11
   role: context
@@ -14,8 +13,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-council-of-ephesus-431-extracts-from-the-acts-decree
-  work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
+- work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
   author: council-of-ephesus-431
   locus: div1 10 — acts extracts, decree against Nestorius 10.11, Coelestine's letter 10.13,
     canons 10.16 (Cyril's epistles split out below)
@@ -29,8 +27,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-epistles-of-cyril-of-alexandria-second-and-third-letters
-  work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
+- work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
     Anathematisms, and the Letter to John of Antioch)
   author: cyril_alexandria
   locus: div2 10.5, 10.8-10.9, 11.5 — split out of the Ephesus and Chalcedon acts as the works
@@ -44,8 +41,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-canonical-epistles-of-cyril-of-alexandria-on-the-hymns
-  work: The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya
+- work: The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya
     and Pentapolis)
   author: cyril_alexandria
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -58,8 +54,7 @@ works:
     share of it. Follows the placement already in the map: Cyril''s Epistles and XII Anathematisms
     sit in the Cyrilline entry, though he died in 444 and that entry opens at 451. Consistent
     with the precedent rather than newly stretched here.'
-- row_id: npnf212_leo-great-gregory-great--the-letters-of-leo-the-great-2
-  work: The Letters of Leo the Great
+- work: The Letters of Leo the Great
   author: leo
   locus: div2 2.4 — Letters
   role: context
@@ -72,8 +67,7 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- row_id: npnf203_theodoret-jerome-gennadius-rufinus--dialogues-eranistes-2
-  work: Dialogues (Eranistes)
+- work: Dialogues (Eranistes)
   author: theodoret
   locus: div2 3.9
   role: context
@@ -87,8 +81,7 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-anathemas-of-cyril-with-the-counter-statements-of
-  work: The Anathemas of Cyril with the Counter-statements of Theodoret
+- work: The Anathemas of Cyril with the Counter-statements of Theodoret
   author: theodoret
   locus: div2 3.6-3.7 — The Anathemas of Cyril in Opposition to Nestorius; Counter-statements
     of Theodoret

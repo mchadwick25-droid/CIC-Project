@@ -62,14 +62,6 @@ senses:
     speculation about what fell before the world began, held open rather than settled either way.
 quick_meaning: All confess that humanity has fallen. One teacher taught that the fall came before the world began. That is speculation, not settled teaching.
 distortion_risk: high
-use_note:
-  means: "The world's fallenness is confessed by all, while Origen's pre-cosmic descent of souls is a disputed speculation held open."
-  not_for:
-    - "presenting the pre-cosmic descent as settled or as Origen's certain position"
-    - "calling it a heresy already condemned within this world's horizon"
-    - "reducing the fall to the Eden narrative alone"
-  years: {from: 203, to: 254}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex074, "Fall / Descent") at Mark's explicit
 direction to state the contest framing explicitly, as a draft, not a final version.

@@ -41,14 +41,6 @@ retrieval:
 relations:
 - type: associated-with
   target: ijc.dw.baptism-threshold
-use_note:
-  means: "Eusebius says Constantine, convinced his life was ending, sought purification through baptism and only then first received the laying on of hands."
-  not_for:
-    - "a claim that Eusebius's pious account of the delay's motive is established fact"
-    - "a claim that deferring baptism shows hypocrisy or indifference"
-    - "a claim that Constantine was baptized, or even a catechumen, before his final illness"
-  years: {from: 337, to: 340}
-  status: reviewed
 ---
 Opened for F4-T, served by ijc.dw.baptism-threshold alone, which cites this locus and
 could not show it. Verified by reading at the file line the record itself names.

@@ -38,14 +38,6 @@ senses:
     of as new sight.'
 quick_meaning: 'The light of baptism: new birth spoken of as new sight.'
 distortion_risk: medium
-use_note:
-  means: "Photismos meant illumination, the light given at baptism, so that to be baptized was called being enlightened."
-  not_for:
-    - "describing it as a private mystical experience"
-    - "equating it with intellectual enlightenment"
-    - "separating it from baptism's communal, sacramental setting"
-  years: {from: 180, to: 215}
-  status: reviewed
 ---
 Modern hearing: enlightenment as private insight. World hearing: a
 communal, sacramental gift with a changed life attached.

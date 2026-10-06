@@ -56,15 +56,6 @@ modern_contrast: >-
   a stitched-together pretext - which may well be accurate, but is not
   independently checked against the accusation's own paperwork, because
   none survives.
-use_note:
-  means: "Gregory of Nyssa was deposed under Valens on financial charges, spent about two years in exile and returned, though the charges are known only through Basil's defense."
-  not_for:
-    - "the charges as proven or as plainly trumped up"
-    - "the accusers' account, which does not survive"
-    - "a record of any audit or hearing"
-    - "Valens's confrontation with Basil, which sits in cappadocian.story.valens-caesarea"
-  years: {from: 376, to: 378}
-  status: reviewed
 ---
 Derived from Doc_09 entry #13 (Tier 1). Told, per Doc_09's own usage
 guidance, as this world's own shape of confessorship - exile suffered for

@@ -29,14 +29,6 @@ relations:
   target: pahc.witness.scholarly-standing
 - type: associated-with
   target: pahc.witness.apostolic-practice
-use_note:
-  means: "The Didache reached its final form about 80 to 120, as a composite of older teaching on the Two Ways and later church-order material."
-  not_for:
-    - "a settled date for the Didache"
-    - "one unified composition as the established view"
-    - "the Didache as practice across the whole network"
-  years: {from: 80, to: 120}
-  status: reviewed
 ---
 Carries forward pahc.core.house-church's own caution 3 (DATING
 HUMILITY) and caution 5 (DIDACHE SCOPE) into participant-facing form,

@@ -3,8 +3,7 @@
 # desert-monasticism rows already staged.
 source_file: palladius_paradise-v1-syriac_budge1907.txt
 assignments:
-- row_id: fleet-sweep-additions-budge-v1--the-paradise-of-palladius-book-i-ch-lviij-of-the-blessed-man
-  work: The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)
+- work: The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)
   author: palladius
   locus: Chapter lviij - the angelic roll, the famine relief, and the vine growing from his tongue
   atlas_ids:
@@ -20,8 +19,7 @@ assignments:
     Registered ALONGSIDE the Clarke translation the entry already holds, never in place of it.
 
     '
-- row_id: fleet-sweep-additions-budge-v1--the-paradise-of-palladius-book-i-ch-l-of-the-blessed-man
-  work: The Paradise of Palladius, Book I, ch. l (Of the Blessed Man Possidonius)
+- work: The Paradise of Palladius, Book I, ch. l (Of the Blessed Man Possidonius)
   author: palladius
   locus: Chapter l - the Possidonius report about "Hieronymus" and Paula
   atlas_ids:

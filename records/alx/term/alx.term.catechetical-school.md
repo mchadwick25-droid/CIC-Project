@@ -76,14 +76,6 @@ senses:
     remembered line of names; the institutional form is a live historical question, not a settled fact.
 quick_meaning: Real teachers and real students - whether it was a formal school is disputed.
 distortion_risk: high
-use_note:
-  means: "What is well attested is a remembered line of teachers and students in Alexandria, while whether a formal school stood behind it is disputed."
-  not_for:
-    - "calling it a documented ancient university with a founding date or a faculty"
-    - "naming continuous, dated office-holders of the school"
-    - "taking Eusebius's tidy succession as established, or treating Eusebius as attesting Didymus's place in it"
-  years: {from: 180, to: 398}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex059, "Catechetical School / Didaskaleion") at
 Mark's direction, as a draft, not a final version. The old record's citation of a modern secondary

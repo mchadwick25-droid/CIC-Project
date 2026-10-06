@@ -46,14 +46,6 @@ relations:
   target: pahc.witness.what-we-never-settled
 - type: associated-with
   target: pahc.quote.first-clement-apostolic-chain
-use_note:
-  means: "Clement argues the apostles appointed Spirit-tested converts as bishops and deacons, citing an Isaiah text he has altered to fit."
-  not_for:
-    - "a neutral description of church order rather than advocacy in the Corinthian dispute"
-    - "a claim that Clement quotes Isaiah as the Septuagint reads it"
-    - "a claim that each church was led by a single bishop"
-  years: {from: 80, to: 140}
-  status: reviewed
 ---
 This quote serves F2-E, "how do you know" about this world's scriptures, together with
 pahc.witness.scholarly-standing.

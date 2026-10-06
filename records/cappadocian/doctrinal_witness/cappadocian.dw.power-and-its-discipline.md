@@ -67,14 +67,6 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-canon-to-amphilochius
-use_note:
-  means: "This witness admits the 381 law used state power against other Christians and says canonical letters built graded penance for wrongdoing."
-  not_for:
-    - "claims about what leaders did with power after 381, which the record says it cannot document"
-    - "a claim that this world never shielded a wrongdoer, when the record is simply silent"
-    - "the staged penance of one canon, which sits in cappadocian.quote.basil-canon-to-amphilochius, as the whole system"
-  years: {from: 340, to: 381}
-  status: reviewed
 ---
 Closes F3-P, the accountability cell, without either defending the 381
 communion law's coercion or inventing an unattested cover-up scandal to

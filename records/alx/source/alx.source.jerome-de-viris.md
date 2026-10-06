@@ -16,7 +16,8 @@ sources: []
 author: 'Jerome (c. 347-420 CE) - NOT an Alexandrian voice: a Latin secondary witness; his later anti-Origenist
   turn (post-393) colors retrospective treatment of Origen-associated figures, but the De viris chapters
   used here (written 392/3) predate the quarrel''s heat'
-work: De viris illustribus (Lives of Illustrious Men, 392/3 CE) - cited here only for facts about people (dates, lists of works, succession notices), not as a source of the world's teaching
+work: De viris illustribus (Lives of Illustrious Men, 392/3 CE) - used ONLY as figure testimonia (dates,
+  works-lists, succession notices), never as in-world voice
 edition: trans. Ernest Cushing Richardson, NPNF series 2 vol. 3 (1892), vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
 kind: vendored
 rights_status: public-domain

@@ -43,15 +43,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.soldier-of-christ
-- type: associated-with
-  target: gallic.force.army-and-rank-before
-use_note:
-  means: "Cassian opens the first chapter of the Institutes by calling the monk a soldier of Christ who must always walk with loins girded."
-  not_for:
-    - "accidie's desertion from that service, which sits in gallic.quote.deserter-from-his-service"
-    - "a reference to actual military service, such as Martin's own past"
-  years: {from: 415, to: 426}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "ought always to walk with his loins"` returns line 16572; read with `sed -n '16568,16574p'`, inside

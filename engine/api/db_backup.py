@@ -254,11 +254,8 @@ def run_backup_once(
     staging_dir: Path,
     *,
     service_label: str = "cic-engine",
-    qc_db_path: str | None = None,
-    extra_dbs: dict[str, str] | None = None,
 ) -> dict:
-    """One backup pass over both DBs, plus any extra_dbs (label -> path) the
-    caller names. Never raises: a failed pass becomes a
+    """One backup pass over both DBs. Never raises: a failed pass becomes a
     status entry (same convention as engine.m7.scheduler.run_once), so the
     daily thread survives a bad run and tries again tomorrow rather than
     dying silently. The local staging copy is always removed after the
@@ -270,11 +267,7 @@ def run_backup_once(
     staging_dir.mkdir(parents=True, exist_ok=True)
     status: dict = {"run_at": run_at.isoformat(), "results": {}}
 
-    sources = [("events", events_db_path), ("usage", usage_db_path)]
-    if qc_db_path:
-        sources.append(("qc", qc_db_path))
-    sources.extend((extra_dbs or {}).items())
-    for label, db_path in sources:
+    for label, db_path in (("events", events_db_path), ("usage", usage_db_path)):
         local_backup = staging_dir / f"{label}-{stamp}.db"
         try:
             if not Path(db_path).exists():
@@ -312,14 +305,7 @@ def _next_run_at(now: datetime, hour: int = _DEFAULT_HOUR, minute: int = _DEFAUL
     return candidate
 
 
-def start_background_scheduler(
-    events_db_path: str,
-    usage_db_path: str,
-    staging_dir: Path,
-    qc_db_path: str | None = None,
-    *,
-    extra_dbs: dict[str, str] | None = None,
-) -> None:
+def start_background_scheduler(events_db_path: str, usage_db_path: str, staging_dir: Path) -> None:
     """Starts a daemon thread that runs run_backup_once daily. Fire-and-
     forget, same lifecycle contract as engine.m7.scheduler and
     engine.m4.idle_close's own schedulers: exits with the process, no
@@ -330,7 +316,7 @@ def start_background_scheduler(
             now = datetime.now(timezone.utc)
             next_run = _next_run_at(now)
             time.sleep(max(0.0, (next_run - now).total_seconds()))
-            run_backup_once(events_db_path, usage_db_path, staging_dir, qc_db_path=qc_db_path, extra_dbs=extra_dbs)
+            run_backup_once(events_db_path, usage_db_path, staging_dir)
 
     threading.Thread(target=_loop, name="db-daily-backup", daemon=True).start()
 
@@ -350,10 +336,9 @@ def _cli(argv: list[str]) -> int:
     p_backup.add_argument("--events-db", default=os.environ.get("CIC_API_EVENTS_DB", "./cic_api_events.db"))
     p_backup.add_argument("--usage-db", default=os.environ.get("CIC_API_USAGE_DB", "./cic_api_usage.db"))
     p_backup.add_argument("--staging-dir", default="./backups-staging")
-    p_backup.add_argument("--meter-db", default=None, help="also back up the Go Deeper meter file")
 
-    p_list = sub.add_parser("list", help="list backups for one DB label (events|usage|meter)")
-    p_list.add_argument("label", choices=["events", "usage", "meter"])
+    p_list = sub.add_parser("list", help="list backups for one DB label (events|usage)")
+    p_list.add_argument("label", choices=["events", "usage"])
     p_list.add_argument("--service-label", default="cic-engine")
 
     p_restore = sub.add_parser("restore", help="restore one DB from a backup")
@@ -364,8 +349,7 @@ def _cli(argv: list[str]) -> int:
     args = parser.parse_args(argv)
 
     if args.command == "backup":
-        extra = {"meter": args.meter_db} if args.meter_db else None
-        result = run_backup_once(args.events_db, args.usage_db, Path(args.staging_dir), extra_dbs=extra)
+        result = run_backup_once(args.events_db, args.usage_db, Path(args.staging_dir))
         print(json.dumps(result, indent=2))
         return 0 if all(r.get("outcome") in ("ok", "backed_up_not_uploaded", "skipped") for r in result["results"].values()) else 1
 

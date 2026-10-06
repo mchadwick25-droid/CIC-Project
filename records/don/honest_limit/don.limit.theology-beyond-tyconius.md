@@ -44,12 +44,5 @@ nearest_material:
 - don.figure.tyconius
 - don.term.liber-regularum
 - don.story.tyconius-condemnation
-use_note:
-  means: "Beyond Tyconius, whom his own council condemned, the Donatists built no school or settled method of scriptural interpretation and argued well only one question."
-  not_for:
-    - "a claim that Donatists had a developed interpretive tradition beyond Tyconius"
-    - "a claim that Tyconius's rules represent a settled method of the communion"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Celled to F2-I ('How did you read your scriptures? What did you look for in them?') -- a direct hermeneutics-shaped question this world's own record can answer richly for exactly one figure and thinly for everyone else. Explicitly NOT a claim that Tyconius himself, his condemnation, or the Liber Regularum are thin -- all three are already well-attested and fully carried by don.figure.tyconius, don.term.liber-regularum, and don.story.tyconius-condemnation (Tier 1). The limit this record states is specifically BEYOND that one case: no broader school, method, or body of teachers, per Doc_07 SS2D/SS3B and Doc_05 SS6.5's own explicit disclosure. relations[] links to don.figure.tyconius (the one case this limit's own contrast depends on) -- reciprocal edge added directly to don.figure.tyconius.md after this script runs.

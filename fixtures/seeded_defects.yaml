@@ -30,7 +30,7 @@
 
 schema_version: 1
 fixture_world: fix
-clean_baseline: records/fix/**   # plus the fleet records (engine/*/records/) and records/worlds/
+clean_baseline: records/fix/**   # plus records/_fleet/** and records/worlds.yaml
 
 defects:
   - id: schema-unevaluated-property
@@ -205,27 +205,6 @@ defects:
     mutation: {op: remove_record}
     expected_failure: "canon cell F6-T now has neither a substantive record nor an honest_limit - blank cell, coverage gate must fail (Artifact-1 §6 coverage rule)"
 
-  - id: status-ready-draft-ships
-    gate: status-ready
-    layer: M1
-    target_record: records/fix/story/fix.story.the-long-road.md
-    mutation: {op: set_field, path: status, value: draft}
-    expected_failure: "a voiced story marked draft would compile into the package - the status gate must fail it"
-
-  - id: cells-required-term-unroutable
-    gate: cells-required
-    layer: M1
-    target_record: records/fix/term/fix.term.the-three.md
-    mutation: {op: set_field, path: canon_cells, value: []}
-    expected_failure: "a voiced term with no canon_cells cannot be reached by cell routing - the cells-required gate must fail it"
-
-  - id: horizon-post-window-event
-    gate: horizon
-    layer: M1
-    target_record: records/fix/doctrinal_witness/fix.witness.who-is-jesus.md
-    mutation: {op: set_field, path: text, value: "We did not claim to have seen him ourselves, and the Council of Chalcedon settled the rest."}
-    expected_failure: "the fixture's window closes in 100; a voiced witness naming the Council of Chalcedon (451) must fail the horizon gate"
-
   - id: id-convention-cell-code-in-slug
     gate: id-convention
     layer: M1
@@ -270,7 +249,7 @@ defects:
     gate: quote-mark-fidelity
     layer: M1
     note: "mirrors the real, already-shipped defect this gate exists to catch (commits fbb6557, 763c48d, 2026-09-19 - a tradition page rendered a clause in quotation marks that the records themselves declare unquotable). fix.quote.identity-collision-saying's own modern_rendering ('We never asked who you'd been before...') is what fix.front.fixture-synthetic's own clean tile already quotes (see that record's own body note); this mutation swaps in the same quote's archaic `text` field instead - Apparatus/Level-3-only, never quotable on a participant-facing surface, per Mark's standing quote ruling."
-    target_record: Build/worlds/fix/surface/world_front/fix.front.fixture-synthetic.md
+    target_record: records/fix/world_front/fix.front.fixture-synthetic.md
     mutation: {op: set_field, path: "skim.tile.text", value: "Testland's own record speaks for itself: \"We did not ask what a person had been before the water. We asked only what they carried after it.\""}
     expected_failure: "quotation-mark span matches fix.quote.identity-collision-saying's own `text` field verbatim - `text` is Apparatus/Level-3-only; the quoted form must come from `modern_rendering` (Mark's standing quote ruling)"
 
@@ -281,26 +260,6 @@ defects:
     target_record: records/fix/quote/fix.quote.witness-saying.md
     mutation: {op: set_field, path: text, value: "I did not see him. I only saw what his enemies could not stop telling."}
     expected_failure: "\"enemies\" for \"witnesses\" is a substituted word, not an allowed difference class (whitespace/case/punctuation/ellipsis/bracket/verse_number/apparatus) - verify_quote_text fails the segment"
-
-  - id: record-home-search-record-in-old-place
-    gate: record-home
-    layer: M1
-    target_record: Build/worlds/fix/build/records/search_record/fix.search.lost-letters-search.md
-    mutation: {op: set_field, path: _path, value: records/fix/search_record/fix.search.lost-letters-search.md}
-    expected_failure: "a search record lives in Build/worlds/<code>/build/records/, not records/<code>/"
-  - id: use-note-missing
-    gate: use-note-present
-    layer: M1
-    target_record: records/fix/term/fix.term.the-way.md
-    mutation: {op: delete_field, path: use_note}
-    expected_failure: "a voiced term with no use_note cannot carry its meaning beside it - the use-note gate must fail it"
-
-  - id: use-note-means-as-instruction
-    gate: use-note-shape
-    layer: M1
-    target_record: records/fix/quote/fix.quote.witness-saying.md
-    mutation: {op: set_field, path: use_note.means, value: "Use this only when asked about eyewitnesses. It is about trust."}
-    expected_failure: "use_note.means is two sentences and opens as an instruction; a note describes what the record means in one sentence"
 
   - id: inertness-proof
     gate: inertness

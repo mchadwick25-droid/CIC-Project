@@ -82,15 +82,6 @@ tensions:
 - "none of these four unsettled questions is something this record resolves -- naming them honestly is the whole of what this record does; a participant wanting a final answer to any one of them will not get one here"
 - "the 1525 and 1543 material is disclosed at existence only, per this world's own standing discipline; this record does not go further into either text's own argument or wording than our library allows"
 relations: []
-use_note:
-  means: "This witness holds that our records leave unsettled the catechism program's reception, justification's two wordings, the two-kingdoms scope, and the theses posting, and name 1525 and 1543 writings."
-  not_for:
-    - "any of the four contested questions as settled in either direction"
-    - "a claim that the theses were or were not nailed to the door as fact"
-    - "a narration of the content or wording of the 1525 or 1543 writings"
-    - "evidence that households did or did not keep the catechism program, which sits contested in witt.contested.household-catechism-reception"
-  years: {from: 1517, to: 1543}
-  status: reviewed
 ---
 Closes F6-I at the Answer-the-Canon step (inserted between B-7a and B-8), built entirely from this world's
 own four already-built contested_claim records plus witt.core.witt's own .thinness field -- none

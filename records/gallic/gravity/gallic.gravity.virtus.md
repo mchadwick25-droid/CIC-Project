@@ -164,15 +164,6 @@ manifestations:
 - "Ep. I's whole defense of the virtus against a skeptic; Brictio's 'ridiculous fancies about visions' policed from within (Dial. III.15)"
 - "Cassian's refusal: 'no instruction in the perfect life' (Inst. Pref.); 'never reckoned those as good monks ... who professed themselves exorcists'; 'Humility therefore is the mistress of all virtues' (Conf. XV.7)"
 - "Eucherius admiring the Egyptian fathers' grace 'in crying signs' (De Laude Eremi §27) - the south not of one mind; Honoratus's serpents counted inter miracula ac merita"
-use_note:
-  means: "Miracle, exorcism and blessed objects hold the northern literature together while Cassian refuses wonder-tales on principle, so the saint's power and the monk's humility pull against each other."
-  not_for:
-    - "historical proof that the miracles occurred"
-    - "Cassian as a witness to wonders, when he declines them, as in gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles"
-    - "the grace of the grace argument or the word's lexicon entry, which sit in gallic.gravity.grace-and-effort and gallic.term.virtus"
-    - "a remark about this record's own coverage, sources or scholarly attribution"
-  years: {from: 397, to: 435}
-  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus, John
 Cassian) and cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml (Gennadius). This description

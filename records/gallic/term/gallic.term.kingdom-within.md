@@ -79,15 +79,6 @@ quick_meaning: >-
   Christ, and no cell wall or desert can hold it for us. "No one is more my enemy than my own
   heart."
 distortion_risk: low
-use_note:
-  means: "The kingdom within meant Abbot Moses's reading that the kingdom of God is within you: a heart ruled by the devil or Christ, which no cell wall can guard."
-  not_for:
-    - "a comforting platitude that spirituality lives inside a person"
-    - "the pair of goal and end, which sits in gallic.term.goal-and-end"
-    - "the kingdom as the eschatological end only"
-    - "a Tours teaching, where the reading is not used"
-  years: {from: 426, to: 435}
-  status: reviewed
 ---
 Built from Doc_06 entry 073 (`galliclex073_kingdom-within.md`, Tier 3, tags SC TC; Doc_03 4.12).
 Kept thin at the Tier-3 floor. canon_cells: F4-P because Piamun's "no one is more my enemy than

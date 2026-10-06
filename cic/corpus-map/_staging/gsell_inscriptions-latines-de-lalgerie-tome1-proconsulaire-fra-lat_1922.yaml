@@ -1,8 +1,7 @@
 source_file: gsell_inscriptions-latines-de-lalgerie-tome1-proconsulaire-fra-lat_1922.txt
 
 assignments:
-  - row_id: gsell_inscriptions-latines-de-lalgerie-tome1-proconsulaire-fra-lat_1922--gsell-inscriptions-latines-de-l-algerie-vol-1-proconsulaire
-    work: "Gsell, Inscriptions latines de l'Algerie, vol. 1: Proconsulaire (1922), including Hippo Regius"
+  - work: "Gsell, Inscriptions latines de l'Algerie, vol. 1: Proconsulaire (1922), including Hippo Regius"
     author: gsell
     locus: "whole file; Hippone section near line 810 not confirmed"
     atlas_ids:

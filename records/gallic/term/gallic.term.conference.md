@@ -107,15 +107,6 @@ quick_meaning: >-
   An elder's after-supper answers to his disciples' questions, written down. For a Gallic monk, an
   elder who is a book, and who talks back.
 distortion_risk: medium
-use_note:
-  means: "A conference was an elder's discourse drawn out by disciples' questions, which Cassian wrote down so that Gallic monks might receive the fathers into their cells."
-  not_for:
-    - "a treatise, a lecture or a modern meeting"
-    - "a Church council, which sits in gallic.term.council-synod"
-    - "the Conferences as Cassian's own systematic theology"
-    - "Vincent's collatio etymology of Symbolum, a different matter"
-  years: {from: 415, to: 435}
-  status: reviewed
 ---
 Built from Doc_06 entry 028 (Tier 2; chunk galliclex028_conference.md; Doc_03 3.5). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The Latin-lemma trap

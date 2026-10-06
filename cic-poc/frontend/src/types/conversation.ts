@@ -17,7 +17,6 @@ export interface SourceReference {
   work: string | null;
   locus: string | null;
   rights_status: string | null;
-  edition?: string | null;
 }
 
 export interface SourceCard {
@@ -25,10 +24,11 @@ export interface SourceCard {
   record_type: string;
   label: string;
   sources: SourceReference[];
-  // Quote cards carry the modern rendering the voice speaks and the
-  // speaker; the source reference is in `sources`.
+  // Quote records spoken in a build-authored modern rendering carry both
+  // forms: what was said at the table and the original wording, shown on
+  // the click page.
   spoken_rendering?: string | null;
-  speaker?: string | null;
+  original_wording?: string | null;
   // engine/m4/citation_cards.py's own modern_term enrichment: present only
   // when record_type is "modern_term" - the plain-English sense of a
   // modern word the Facilitator bridged away from the voice, plus the
@@ -82,7 +82,7 @@ export interface GlossUsed {
 }
 
 export interface FacilitatorTurn {
-  kind: 'door' | 'threshold' | 'safety' | 'bridge' | 'close' | 'limit' | 'seat_correction' | 'grounding_correction';
+  kind: 'door' | 'threshold' | 'safety' | 'bridge' | 'close';
   text: string;
   // engine/m4/facilitator_turns.py's bridge_turn: present only on a
   // 'bridge' turn - one SourceCard per modern term the Facilitator just
@@ -165,13 +165,6 @@ export interface CreateSessionResponse {
   round_cap: number | null;
 }
 
-// Why the room paused at a limit, in the server's words. It is shown once and
-// never kept: a reload shows only the pause itself.
-export interface LimitNote {
-  key: string;
-  text: string;
-}
-
 export interface MessageResponse {
   turn_no: number;
   routing_action: string | null;
@@ -179,7 +172,6 @@ export interface MessageResponse {
   degraded: boolean;
   facilitator: FacilitatorTurn | null;
   voice: VoiceTurn | null;
-  limit_note?: LimitNote | null;
 }
 
 export type TranscriptEntry =
@@ -218,7 +210,6 @@ export interface TableMessageResponse {
   position: number | null;
   turn_no: number | null;
   session_closed: boolean;
-  limit_note?: LimitNote | null;
 }
 
 export interface ApiError {
@@ -253,8 +244,6 @@ export interface WorldSummary {
   horizon: string | null;
   living_tradition_flag: boolean;
   starters: WorldStarter[];
-  // The world's place in the list, portrait and accent colour (registry `app`).
-  app?: { order: number; accent_color: string; portrait: string } | null;
 }
 
 export interface WorldListResponse {

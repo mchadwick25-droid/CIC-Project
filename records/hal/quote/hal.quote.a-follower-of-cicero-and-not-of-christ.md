@@ -45,14 +45,6 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.dw.inner-life
-use_note:
-  means: "Jerome, writing to Eustochium in 384, tells of a fever dream in which Christ the Judge accused him of following Cicero rather than Christ."
-  not_for:
-    - "a claim that the dream is a verified event rather than Jerome's own later, circulated telling of it"
-    - "a claim that Jerome certainly kept the vow against worldly books; he was accused of breaking it and defended himself"
-    - "a claim that this world condemned all classical reading as sin"
-  years: {from: 374, to: 384}
-  status: reviewed
 ---
 hal.dw.inner-life cites Letter XXII for the restless mind and its discipline;
 this quote gives that witness its grounding for F4-P.

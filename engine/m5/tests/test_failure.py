@@ -35,6 +35,7 @@ def test_both_ok_routes_normally_not_degraded():
     )
     assert result.degraded is False
     assert result.routing.action == "voice_with_directive"
+    assert result.needs_async_safety_reclassification is False
 
 
 def test_reader_timeout_is_pass_through_and_degraded():
@@ -45,6 +46,7 @@ def test_reader_timeout_is_pass_through_and_degraded():
     assert result.routing.action == "voice_pass_through"
     assert result.routing.directive is None
     assert result.degraded is True
+    assert result.needs_async_safety_reclassification is False
 
 
 def test_reader_parse_failure_is_a_failure_not_salvaged():
@@ -56,14 +58,14 @@ def test_reader_parse_failure_is_a_failure_not_salvaged():
     assert result.degraded is True
 
 
-def test_safety_failure_goes_to_the_facilitator_check_in_never_the_voice():
-    for status in ("timeout", "error", "parse_failure"):
-        result = resolve_gate(
-            safety_outcome=CallOutcome(status=status), reader_outcome=READER_OK, pressed={}, anachronistic_term_ids=set(),
-            message="who was Jesus",
-        )
-        assert result.routing.action == "check_in_turn"
-        assert result.degraded is True
+def test_safety_failure_alone_fails_open_but_still_routes():
+    result = resolve_gate(
+        safety_outcome=CallOutcome(status="timeout"), reader_outcome=READER_OK, pressed={}, anachronistic_term_ids=set(),
+        message="who was Jesus",
+    )
+    assert result.routing.action == "voice_with_directive"  # reader-based routing still applies
+    assert result.degraded is True
+    assert result.needs_async_safety_reclassification is True
 
 
 def test_reader_timeout_never_discards_a_successful_acute_classification():
@@ -79,6 +81,7 @@ def test_reader_timeout_never_discards_a_successful_acute_classification():
     )
     assert result.routing.action == "safety_turn"
     assert result.degraded is True
+    assert result.needs_async_safety_reclassification is False
 
 
 def test_reader_timeout_never_discards_a_successful_harmful_dynamic_classification():
@@ -88,6 +91,7 @@ def test_reader_timeout_never_discards_a_successful_harmful_dynamic_classificati
     )
     assert result.routing.action == "safety_turn"
     assert result.degraded is True
+    assert result.needs_async_safety_reclassification is False
 
 
 def test_reader_timeout_still_routes_a_successful_ambiguous_classification():
@@ -97,6 +101,7 @@ def test_reader_timeout_still_routes_a_successful_ambiguous_classification():
     )
     assert result.routing.action == "check_in_turn"
     assert result.degraded is True
+    assert result.needs_async_safety_reclassification is False
 
 
 def test_reader_timeout_with_safety_no_signal_still_falls_to_pass_through():
@@ -109,15 +114,17 @@ def test_reader_timeout_with_safety_no_signal_still_falls_to_pass_through():
     )
     assert result.routing.action == "voice_pass_through"
     assert result.degraded is True
+    assert result.needs_async_safety_reclassification is False
 
 
-def test_both_fail_goes_to_the_facilitator_check_in():
+def test_both_fail_collapses_to_pass_through():
     result = resolve_gate(
         safety_outcome=CallOutcome(status="error"), reader_outcome=CallOutcome(status="timeout"), pressed={},
         anachronistic_term_ids=set(), message="who was Jesus",
     )
-    assert result.routing.action == "check_in_turn"
+    assert result.routing.action == "voice_pass_through"
     assert result.degraded is True
+    assert result.needs_async_safety_reclassification is True
 
 
 def test_should_page_on_two_consecutive_degraded_turns():

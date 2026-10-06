@@ -37,14 +37,6 @@ retrieval:
   - "participant asks what happened to someone who fell and wanted to come back"
   - "participant asks whether sin was treated as a wound to be healed or a crime to be punished"
   - "participant asks who a person confessed to and what followed"
-use_note:
-  means: "Aphrahat says in Demonstration VII that as skilled physicians find medicines for every disease, penitence is the medicine that heals those wounded in the spiritual conflict."
-  not_for:
-    - "a literal medical claim about remedies for bodily illness"
-    - "a description of a fixed sacramental rite of confession in this world"
-    - "proof that every fallen member was in fact restored"
-  years: {from: 337, to: 337}
-  status: reviewed
 ---
 Verified verbatim against the vendored Hallock text (Dem VII.2).
 

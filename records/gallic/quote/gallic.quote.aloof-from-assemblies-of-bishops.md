@@ -44,14 +44,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence
-use_note:
-  means: "Gallus says in the Dialogues that Martin lived sixteen years after the coerced communion and never again attended a synod or assembly of bishops."
-  not_for:
-    - "the coerced communion and the angel's rebuke themselves, which sit in gallic.quote.gallus-on-the-forced-communion-and-the-angel"
-    - "a claim that Martin rejected bishops or the episcopate as such"
-    - "a date for the Treves affair computed from Gallus's sixteen years"
-  years: {from: 404, to: 406}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "kept carefully aloof"` returns one hit, line 5218, inside `<div4 title="Chapter XIII." ...

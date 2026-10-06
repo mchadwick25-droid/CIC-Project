@@ -40,11 +40,5 @@ nearest_material:
 - rzg.core.the-reformed-cities-zurich-and-geneva
 - rzg.gravity.scripture-sole-authority-disputation-catechesis
 - rzg.witness.one-conviction-two-enactments
-use_note:
-  means: "The record holds confession, catechism, disputation record and doctrinal argument, not any account of how an ordinary citizen lived or felt a day, a service or a summons."
-  not_for:
-    - "a claim that an ordinary citizen's day or experience of a service or summons is documented here"
-  years: {from: 1519, to: 1650}
-  status: reviewed
 ---
 One of seven honest_limit records built together this step, per Doc_07 SS7/Doc_09 SS7's own direct cross-check. Celled to F5-I ('Walk me through an ordinary day among your people, from waking to sleeping') -- a direct match, the exact question this world's own record cannot answer. Distinguished explicitly from rzg.limit.doubt-and-assurance (the EMOTIONAL/interior register specifically, whether assurance doctrine was actually felt as comfort or as anxious self-examination) -- this record's own scope is the daily/practical routine, per Doc_09 SS7 item 1's own citation. No relations[] edge: no single existing record is the natural reciprocity target for a blanket population-scale absence, matching don.limit.ordinary-interior-life's own identical choice for the analogous finding.

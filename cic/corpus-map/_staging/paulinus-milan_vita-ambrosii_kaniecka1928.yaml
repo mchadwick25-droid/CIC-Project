@@ -1,7 +1,6 @@
 source_file: paulinus-milan_vita-ambrosii_kaniecka1928.txt
 assignments:
-- row_id: paulinus-milan_vita-ambrosii_kaniecka1928--vita-ambrosii-life-of-ambrose
-  work: Vita Ambrosii (Life of Ambrose)
+- work: Vita Ambrosii (Life of Ambrose)
   author: paulinus-milan
   locus: whole work (single-work volume); the infancy/bee-swarm legend at Chapter II (file line
     3006 onward)
@@ -27,8 +26,7 @@ assignments:
     anywhere in the corpus as of this pass.
 
     '
-- row_id: paulinus-milan_vita-ambrosii_kaniecka1928--vita-ambrosii-life-of-ambrose-2
-  work: Vita Ambrosii (Life of Ambrose)
+- work: Vita Ambrosii (Life of Ambrose)
   author: paulinus-milan
   locus: 'Chapter III (the ''Ambrose Bishop'' election, file line 3199) and Chapters IV-V (the
     Portian Basilica standoff and the discovery of Gervasius and Protasius, file lines 3516-3654)'

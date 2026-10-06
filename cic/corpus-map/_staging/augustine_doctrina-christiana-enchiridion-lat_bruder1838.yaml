@@ -3,8 +3,7 @@
 source_file: augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt
 
 assignments:
-  - row_id: augustine_doctrina-christiana-enchiridion-lat_bruder1838--on-christian-doctrine-de-doctrina-christiana-books-i-iv
-    work: "On Christian Doctrine (De Doctrina Christiana), Books I-IV"
+  - work: "On Christian Doctrine (De Doctrina Christiana), Books I-IV"
     author: augustine
     locus: "opening of file through Book IV c. XXXI's own close (this file's own header pins the exact boundary line before the Enchiridion begins)"
     atlas_ids:
@@ -18,8 +17,7 @@ assignments:
       header along with a standing warning that CSEL 80 itself is confirmed
       in copyright and must never be vendored.
 
-  - row_id: augustine_doctrina-christiana-enchiridion-lat_bruder1838--the-enchiridion-on-faith-hope-and-love
-    work: "The Enchiridion (On Faith, Hope, and Love)"
+  - work: "The Enchiridion (On Faith, Hope, and Love)"
     author: augustine
     locus: "from the Enchiridion's own title page ('S. AURELII AUGUSTINI ENCHIRIDION AD LAURENTIUM...') to its own close"
     atlas_ids:

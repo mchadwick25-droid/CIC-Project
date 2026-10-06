@@ -63,12 +63,6 @@ senses:
     calling, not a rung; where a woman''s service is glimpsed (the ministrae), the record''s honesty
     about what we cannot know matters as much as the glimpse.'
 quick_meaning: Those set apart to serve - carrying the community's help, and its meal, to the people who need them.
-use_note:
-  means: "Those set apart to serve, who carry help to the widow, the prisoner, and the stranger who cannot repay."
-  not_for:
-    - "a transitional junior rank on the way to higher office"
-  years: {from: 70, to: 200}
-  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 5, Tier 2).
 The women's-service link is held at the ministrae term's own

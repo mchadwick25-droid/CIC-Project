@@ -171,7 +171,6 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
             "rights_status": source_record.get("rights_status"),
         }
         if any(_printable(v) for v in candidate.values()):
-            candidate["edition"] = source_record.get("edition")
             sources.append(candidate)
     card = {
         "record_id": record_id,
@@ -179,9 +178,11 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         "label": _label(record, repository_records),
         "sources": sources,
     }
-    if record.get("record_type") == "quote":
+    if record.get("record_type") == "quote" and record.get("modern_rendering"):
+        # A quote spoken in its build-authored
+        # modern rendering carries its original wording on the click page.
+        card["original_wording"] = record.get("text")
         card["spoken_rendering"] = record.get("modern_rendering")
-        card["speaker"] = _quote_speaker_label(record, repository_records)
     if record.get("record_type") == "modern_term":
         # Carried onto the card the same way a quote's own modern_rendering
         # is above: verbatim, additive, never composed by this function -

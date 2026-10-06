@@ -121,15 +121,6 @@ quick_meaning: >-
   The newly received monk, as Egypt receives him - scorned at the door, searched, reclothed, taught to
   conquer his wishes. A standard our own houses admit they did not keep.
 distortion_risk: high
-use_note:
-  means: "The junior meant the newcomer as Egypt receives him, scorned at the door, then a year under the guest-Elder, a standard Cassian says Gallic houses did not keep."
-  not_for:
-    - "a Benedictine novitiate with a defined year and vows, or the scorning at the door as hazing"
-    - "a documented reception at Marseilles, when Cassian says no one there kept Egypt's perseverance even a year"
-    - "a forced turning to the monastic life, such as the murderer Moses of Calamus, which sits in gallic.term.conversion"
-    - "a Tours grade, where disciples appear but no probationary rank, which sits in gallic.term.disciple-master"
-  years: {from: 397, to: 426}
-  status: reviewed
 ---
 Built from Doc_06 entry 018 (Tier 2, promoted from Doc_03's Tier 3 on Doc_05 §2.1; chunk
 galliclex018_junior-novice.md; Doc_03 1.8). Register emic. Quotations verified at locus by the build's

@@ -41,14 +41,5 @@ senses:
     never has to run out.'
 quick_meaning: 'The interval: the permanent gap between the Creator and everything he made.'
 distortion_risk: low
-use_note:
-  means: "Diastema meant the permanent interval between uncreated God and everything created, the ground of God's incomprehensibility and of endless growth."
-  not_for:
-    - "the whole circle's shared vocabulary, when it is mainly Gregory of Nyssa's development"
-    - "distance or absence of God"
-    - "the endless growth itself, which sits in cappadocian.term.epektasis"
-    - "the incomprehensibility of God's being, which sits in cappadocian.term.akatalepsia"
-  years: {from: 372, to: 394}
-  status: reviewed
 ---
 Built from Doc_06 entry 33 (Tier 3). Related-terms per Doc_06 Index E.3: epektasis only.

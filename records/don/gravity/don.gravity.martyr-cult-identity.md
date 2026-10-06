@@ -110,13 +110,5 @@ manifestations:
 - Marculus's cliff-top vision of a cup, a crown, and a palm before his death at Novapetra (don.story.passio-marculi)
 - the annual reading, every twelfth of March, of the Passio Donati at the martyrs' own grave (don.story.passio-donati-sermon)
 classification: primary
-use_note:
-  means: "Donatist identity centred on the martyrs, lived in graveside commemoration and carried by three Donatist-voiced texts and the Deo laudes stones, with the claim to legitimacy and the worship calendar drawing on it."
-  not_for:
-    - "a claim that this pattern reaches us only through Augustine or other hostile sources"
-    - "a claim about the refusal of the state's authority as such, which the martyrs died for but which sits in don.gravity.refusal-of-imperial-legitimacy"
-    - "a claim about the purity doctrine itself, which suffering proves but which sits in don.gravity.ministerial-purity"
-  years: {from: 317, to: 348}
-  status: reviewed
 ---
 Re-derived from the approved Doc_04 SS3.3 (G3). relations[] carries the gravity<->gravity edges (G1, G4, G5) and gravity<->force edges (1A-1, 2A-2, 2B-3, 3B-2) named above.

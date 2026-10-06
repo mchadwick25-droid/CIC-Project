@@ -41,15 +41,6 @@ relations:
   target: desert.story.arsenius-flee
 - type: associated-with
   target: desert.gravity.withdrawal
-use_note:
-  means: "In Budge's Syriac Sayings, a voice tells Arsenius to flee, keep silence, and live in silent contemplation, as the causes that keep a man from sin."
-  not_for:
-    - "the Latin triad fuge, tace, quiesce as Arsenius's own words or as this text's wording"
-    - "fleeing as anxious avoidance rather than a chosen discipline"
-    - "the separate first saying, to flee from men, which stands at §1 and is not quoted here"
-    - "the saying as securely datable to Arsenius rather than transmitted in a collection compiled after 430"
-  years: {from: 320, to: 430}
-  status: reviewed
 ---
 Verified against the vendored Budge at line 47, §2. These are the
 voice's words only - the file's

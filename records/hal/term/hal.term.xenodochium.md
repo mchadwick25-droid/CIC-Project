@@ -49,14 +49,6 @@ senses:
 quick_meaning: A hostel for travelers. Paula ran one near Bethlehem; Fabiola helped found one at
   Rome's port.
 distortion_risk: medium
-use_note:
-  means: "A hostel for travelers, funded by Paula near Bethlehem and later by Fabiola and Pammachius at Portus."
-  not_for:
-    - "confusing it with Fabiola's hospital for the sick"
-    - "stating the hostels' scale"
-    - "merging the Bethlehem and Portus foundations"
-  years: {from: 386, to: 404}
-  status: reviewed
 ---
 Re-derived from cleared Doc_06 Part B entry 2, carrying the addendum's
 cross-reference discipline (the Bethlehem and Portus foundations kept

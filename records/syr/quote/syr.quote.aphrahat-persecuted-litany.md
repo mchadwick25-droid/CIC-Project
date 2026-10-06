@@ -36,13 +36,5 @@ modern_rendering: >-
 speaker_or_author: syr.figure.aphrahat
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
-use_note:
-  means: "Aphrahat, writing Demonstration XXI during the Persian persecution, opens a roll-call of the persecuted righteous of Scripture, from Abel's murder to Moses's flight to Midian."
-  not_for:
-    - "a claim that the litany ends with these four names, since it runs on through David to Jesus"
-    - "an account of particular Persian martyrdoms"
-    - "a claim that Aphrahat promised faith would spare believers from persecution"
-  years: {from: 344, to: 344}
-  status: reviewed
 ---
 Verified verbatim (Dem XXI.22). The litany continues through David to Jesus; composed during the persecution itself.

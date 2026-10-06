@@ -4,8 +4,7 @@
 source_file: npnf111_chrysostom-homilies-acts-romans.xml
 
 assignments:
-  - row_id: npnf111_chrysostom-homilies-acts-romans--homilies-on-the-acts-of-the-apostles
-    work: "Homilies on the Acts of the Apostles"
+  - work: "Homilies on the Acts of the Apostles"
     author: chrysostom
     locus: "div1 6 — 'A Commentary on the Acts of the Apostles', the full series of fifty-five homilies, assigned as one work"
     atlas_ids:
@@ -13,8 +12,7 @@ assignments:
     role: tradition
     confidence: assigned
 
-  - row_id: npnf111_chrysostom-homilies-acts-romans--homilies-on-the-epistle-to-the-romans
-    work: "Homilies on the Epistle to the Romans"
+  - work: "Homilies on the Epistle to the Romans"
     author: chrysostom
     locus: "div1 7 — the full Romans series, assigned as one work"
     atlas_ids:

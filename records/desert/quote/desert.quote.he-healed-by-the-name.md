@@ -34,13 +34,6 @@ relations:
   target: desert.dw.jesus
 - type: associated-with
   target: desert.quote.christ-worketh-them-not-we
-use_note:
-  means: "Athanasius, as narrator, states that Antony healed by prayer and the name of Christ, so that the Lord, not Antony, was seen to work."
-  not_for:
-    - "Antony's own words, which are carried by desert.quote.christ-worketh-them-not-we"
-    - "the healings as verified historical events"
-  years: {from: 356, to: 362}
-  status: reviewed
 ---
 Kept as the narrator's own gloss, and marked as such. It corroborates
 desert.quote.christ-worketh-them-not-we from outside Antony's own mouth, and it is the

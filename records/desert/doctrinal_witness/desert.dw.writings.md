@@ -49,14 +49,6 @@ tensions:
 relations:
 - type: associated-with
   target: desert.limit.original-sin-eucharist-faith
-use_note:
-  means: "This witness says desert monks held the common Scriptures and used single verses as applied counsel and as weapons against tempting thoughts, not commentary."
-  not_for:
-    - "a claim that desert monks wrote nothing of their own, given the rules, letters and Evagrius's works"
-    - "Evagrius's antirrhetic verse collections as the practice of most monks"
-    - "the monks as anti-learning, when the record frames applied reading as a choice"
-  years: {from: 270, to: 430}
-  status: reviewed
 ---
 Drawn from desert.gravity.scriptural-engagement's own description and
 desert.story.antony-call. Answers "what did your people actually have"

@@ -48,14 +48,6 @@ senses:
     else - the visible fruit of a soul genuinely changed by formation, not a feeling to be manufactured.
 quick_meaning: Not a feeling - the fruit of a soul truly formed.
 distortion_risk: high
-use_note:
-  means: "Agape meant love as the visible fruit of a soul genuinely reordered toward God and others by formation, not a feeling or an act of will."
-  not_for:
-    - "glossing it as warm feeling or affection"
-    - "describing love as something a person can produce by deciding to be more loving"
-    - "treating it as God's love for humanity rather than the soul's own love as a fruit of formation"
-  years: {from: 180, to: 373}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex038, "Love / Agape") at Mark's direction, as a
 draft, not a final version.

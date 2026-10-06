@@ -1,8 +1,7 @@
 source_file: wyclif_select-english-works-v1_arnold1869.txt
 
 assignments:
-  - row_id: wyclif_select-english-works-v1_arnold1869--select-english-works-of-john-wyclif-vol-i-sermons-on-the
-    work: "Select English Works of John Wyclif, Vol. I (Sermons on the Gospels for Sundays and Festivals)"
+  - work: "Select English Works of John Wyclif, Vol. I (Sermons on the Gospels for Sundays and Festivals)"
     author: wyclif
     locus: "whole volume"
     atlas_ids:

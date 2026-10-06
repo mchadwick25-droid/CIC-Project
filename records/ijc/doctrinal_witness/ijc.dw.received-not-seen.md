@@ -52,14 +52,6 @@ tensions:
 relations:
 - type: associated-with
   target: ijc.quote.nothing-further-can-it-add
-use_note:
-  means: "We knew Jesus by inheritance, through scripture, baptismal confession, and creed, which our councils guarded as received and claimed no power to add to."
-  not_for:
-    - "a claim that this world had living memory of eyewitnesses"
-    - "a claim that the councils independently verified the testimony they received"
-    - "a claim that the assembled bishops, rather than the Roman legate Paschasinus, recited the chain of faith at Chalcedon"
-  years: {from: 325, to: 451}
-  status: reviewed
 ---
 The C-E evidential cell answered in the world's own shape: its
 distinctive testimony about "what did you actually have" is inheritance

@@ -59,14 +59,6 @@ text: >
   many places - over a new prophetic movement spreading among them. But
   that gathering was about whether to receive a movement. It was not
   about what God is.
-use_note:
-  means: "This world believed in one Creator God, with Justin seeing the Word in every people, and argued mainly over leadership, not God's nature."
-  not_for:
-    - "a claim that any gathering in this world decided a question about God's nature"
-    - "a claim that this world's arguments resembled later Trinitarian or Christological debates"
-    - "a claim that this world held no gatherings at all"
-  years: {from: 80, to: 193}
-  status: reviewed
 ---
 Justin's "every race of men" claim checked directly against
 cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, div1 viii, ch. 46

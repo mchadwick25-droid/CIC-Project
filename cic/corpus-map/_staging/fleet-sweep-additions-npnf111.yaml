@@ -1,8 +1,7 @@
 # Fleet unopened-volume sweep.
 source_file: npnf111_chrysostom-homilies-acts-romans.xml
 assignments:
-- row_id: fleet-sweep-additions-npnf111--homilies-on-the-epistle-to-the-romans-homily-xxiii-on-romans
-  work: Homilies on the Epistle to the Romans, Homily XXIII (on Romans 13:1)
+- work: Homilies on the Epistle to the Romans, Homily XXIII (on Romans 13:1)
   author: chrysostom
   locus: Homily XXIII at file line 53993 - "Let every soul be subject unto the higher powers", and
     the distinction between authority as such and any particular ruler

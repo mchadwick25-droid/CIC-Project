@@ -115,26 +115,6 @@ def test_run_backup_once_reports_skipped_for_a_missing_source(tmp_path):
     assert status["results"]["usage"]["outcome"] == "skipped"
 
 
-def test_run_backup_once_backs_up_named_extra_dbs_and_nothing_else(tmp_path, monkeypatch):
-    monkeypatch.delenv(db_backup._ENV_BUCKET, raising=False)
-    events_db, usage_db, meter_db, claims_db = (tmp_path / n for n in ("e.db", "u.db", "m.db", "c.db"))
-    for db in (events_db, usage_db, meter_db, claims_db):
-        _make_db(db, [(1, "x")])
-    staging = tmp_path / "staging"
-
-    status = db_backup.run_backup_once(str(events_db), str(usage_db), staging, extra_dbs={"meter": str(meter_db)})
-
-    assert set(status["results"]) == {"events", "usage", "meter"}
-    assert status["results"]["meter"]["outcome"] == "backed_up_not_uploaded"
-    assert list(staging.glob("*.db")) == []
-
-
-def test_run_backup_once_without_extra_dbs_is_unchanged(tmp_path, monkeypatch):
-    monkeypatch.delenv(db_backup._ENV_BUCKET, raising=False)
-    status = db_backup.run_backup_once(str(tmp_path / "e.db"), str(tmp_path / "u.db"), tmp_path / "staging")
-    assert set(status["results"]) == {"events", "usage"}
-
-
 class _FakeS3Client:
     """Records calls in place of a real R2/boto3 client - no network call,
     matching this repo's own mocked-cloud-call test convention."""
@@ -203,10 +183,10 @@ def test_prune_remote_keeps_recent_and_deletes_old(monkeypatch):
 
 
 def test_next_run_at_picks_today_or_tomorrow():
-    from datetime import datetime, timedelta, timezone
+    from datetime import datetime, timezone
 
     before = datetime(2026, 9, 21, 1, 0, tzinfo=timezone.utc)
-    assert db_backup._next_run_at(before).date() == before.date()
+    assert db_backup._next_run_at(before).date().isoformat() == "2026-09-21"
 
     after = datetime(2026, 9, 21, 23, 0, tzinfo=timezone.utc)
-    assert db_backup._next_run_at(after).date() == (after + timedelta(days=1)).date()
+    assert db_backup._next_run_at(after).date().isoformat() == "2026-09-22"

@@ -66,13 +66,6 @@ senses:
     we mean God''s own ordinance for external peace, held by the temporal ruler alone.'
 quick_meaning: The ruler's power to punish evil. God's own gift, never the church's.
 distortion_risk: high
-use_note:
-  means: "The sword meant the civil ruler's God-given power to punish evil and protect the good, reaching the pope and monks as well."
-  not_for:
-    - "the sword as religiously sanctioned violence, or 'secular' as non-religious"
-    - "the two governments' whole doctrine, which sits in witt.term.the-two-governments"
-  years: {from: 1520, to: 1530}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 7.2 (the sword / secular authority, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][TC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

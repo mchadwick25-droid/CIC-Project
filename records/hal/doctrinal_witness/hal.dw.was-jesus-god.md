@@ -48,14 +48,6 @@ tensions:
 relations:
 - type: associated-with
   target: hal.quote.ever-let-the-bridegroom-sport-with-you
-use_note:
-  means: "This witness holds that the community confessed Jesus as God the Son and the Trinity as settled Nicene faith, understanding his death as redemption and healing."
-  not_for:
-    - "a claim that this world taught penal substitution in later formulas"
-    - "a claim that this world wrote its own treatise on the Trinity"
-    - "a claim that 'personal Lord and Savior' was this world's own phrase"
-  years: {from: 384, to: 403}
-  status: reviewed
 ---
 Center-translational answer-ground. The translational discipline: near
 answers marked as near ('close kin'), later formulas named as later, no

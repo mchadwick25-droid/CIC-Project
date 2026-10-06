@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: palestinian-ascetic-monasticism-early
 works:
-- row_id: npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk
-  work: The Life of Malchus, the Captive Monk
+- work: The Life of Malchus, the Captive Monk
   author: jerome
   locus: div2 6.3 (~3,513 words)
   role: tradition
@@ -13,8 +12,7 @@ works:
     for fourth-century Syrian monasticism outside the Edessa/ Nisibis entry (which this is
     not). palestinian-ascetic-monasticism-early, added for this movement, holds it directly.'
   source_file: npnf206_jerome-principal-works.xml
-- row_id: npnf206_jerome-principal-works--the-life-of-s-hilarion
-  work: The Life of S. Hilarion
+- work: The Life of S. Hilarion
   author: jerome
   locus: div2 6.2 (~11,619 words)
   role: tradition
@@ -24,8 +22,7 @@ works:
     Palestinian monasticism until palestinian-ascetic-monasticism-early was added for this
     movement; it holds it directly now.
   source_file: npnf206_jerome-principal-works.xml
-- row_id: palladius_lausiac-history--lausiac-history-2
-  work: Lausiac History
+- work: Lausiac History
   author: palladius
   locus: 'Chapters XLVIII-LIV: Elpidius, Sisinnius, Gaddanas, Elias, Sabas, Abramius, and
     the Elder Melania'

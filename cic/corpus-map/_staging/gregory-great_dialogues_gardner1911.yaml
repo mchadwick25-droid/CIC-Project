@@ -1,8 +1,7 @@
 source_file: gregory-great_dialogues_gardner1911.txt
 
 assignments:
-  - row_id: gregory-great_dialogues_gardner1911--the-dialogues-of-saint-gregory-surnamed-the-great-all-four
-    work: "The Dialogues of Saint Gregory, surnamed the Great (all four Books)"
+  - work: "The Dialogues of Saint Gregory, surnamed the Great (all four Books)"
     author: gregory
     locus: "whole text - Book I (Italian abbots and monks), Book II (the Life
       of St. Benedict of Nursia), Book III (Italian bishops and martyrs),
@@ -26,5 +25,5 @@ assignments:
       cross-link to early-benedictine-italian-monasticism (whose own census
       entry names Gregory as the author of "the only life of Benedict there
       is"); left unassigned there because how these two census entries'
-      own coverage overlaps stays unsettled
+      own coverage overlaps is not yet resolved
       (roman-church-gregorian_Source_Readiness_Dossier.md §5).

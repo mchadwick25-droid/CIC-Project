@@ -110,15 +110,6 @@ quick_meaning: >-
   "Pope" is how we honour any revered bishop - Cassian writes to Pope Castor of Provence. "The
   Apostolic See" is Vincent's Rome, weighty because it refused novelty. Two words, two relations.
 distortion_risk: high
-use_note:
-  means: "Pope meant a title of honour for any revered bishop, such as Cassian's Castor, while the Apostolic See meant Vincent's Rome, weighty because it refused novelty."
-  not_for:
-    - "Pope as the bishop of Rome only, with the later constitutional office read back"
-    - "Vincent as a proof-text for papal supremacy"
-    - "the question of bishops in general, which sits in gallic.term.monk-bishop"
-    - "the authority of councils, which sits in gallic.term.council-synod"
-  years: {from: 397, to: 434}
-  status: reviewed
 ---
 Built from Doc_06 entry 062 (`galliclex062_apostolic-see-pope.md`, Tier 2, tags SC DR TC; Doc_03
 7.12). The two referents are kept apart in every field per the chunk's voice note; the

@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: palestinian-church-pre-constantinian
 works:
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-alexander-of-cappadocia
-  work: Fragments of Alexander of Cappadocia
+- work: Fragments of Alexander of Cappadocia
   author: alexander_capp
   locus: div2 6.4
   role: tradition
@@ -17,8 +16,7 @@ works:
     piles turned out to be this one hole - Alexandria was standing in for it on the strength
     of correspondence with Origen, who himself moved to Caesarea around 231.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- row_id: npnf201_eusebius-church-history-life-of-constantine--martyrs-of-palestine
-  work: Martyrs of Palestine
+- work: Martyrs of Palestine
   author: eusebius
   locus: div2 3.14 — Martyrs of Palestine (between Books VIII and IX)
   role: context
@@ -32,8 +30,7 @@ works:
     it on the strength of correspondence with Origen, who himself moved to Caesarea around
     231.'
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-to-aristides
-  work: The Epistle to Aristides
+- work: The Epistle to Aristides
   author: juliusafricanus
   locus: div2 5.3
   role: tradition
@@ -46,8 +43,7 @@ works:
     one hole - Alexandria was standing in for it on the strength of correspondence with Origen,
     who himself moved to Caesarea around 231.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-extant-fragments-of-the-five-books-of-the-chronography
-  work: The Extant Fragments of the Five Books of the Chronography of Julius Africanus
+- work: The Extant Fragments of the Five Books of the Chronography of Julius Africanus
   author: juliusafricanus
   locus: div2 5.5
   role: tradition
@@ -58,8 +54,7 @@ works:
     piles turned out to be this one hole - Alexandria was standing in for it on the strength
     of correspondence with Origen, who himself moved to Caesarea around 231.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragment-of-maximus-of-jerusalem
-  work: Fragment of Maximus of Jerusalem
+- work: Fragment of Maximus of Jerusalem
   author: maximus-of-jerusalem
   locus: div2 10.9
   role: tradition

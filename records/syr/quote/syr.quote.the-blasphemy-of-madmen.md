@@ -40,14 +40,6 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.dw.failures
-use_note:
-  means: "Ephrem, in his First Discourse to Hypatius, defends arguing in seemingly blasphemous terms to refute the blasphemy of madmen, likening it to leaving the road to fetch a wanderer."
-  not_for:
-    - "a fair account of what Mani, Marcion, or Bardaisan actually taught"
-    - "evidence that opponents were met with courts or force"
-    - "a claim that the refutations were charitable because the method sounds gentle"
-  years: {from: 340, to: 373}
-  status: reviewed
 ---
 This quote serves F3-P; syr.dw.failures alone grounds that cell, and its one vendored locus reads
 'the polemic's own harshness' - a body of text that needed direct reading rather than citation alone.

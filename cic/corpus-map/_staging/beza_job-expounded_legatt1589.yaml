@@ -5,8 +5,7 @@
 source_file: beza_job-expounded_legatt1589.txt
 
 assignments:
-  - row_id: beza_job-expounded_legatt1589--job-expounded-by-theodore-beza-partly-in-manner-of-a
-    work: "Job Expounded by Theodore Beza: Partly in Manner of a Commentary,
+  - work: "Job Expounded by Theodore Beza: Partly in Manner of a Commentary,
       Partly in Manner of a Paraphrase; Faithfully Translated out of Latine
       into English"
     author: beza

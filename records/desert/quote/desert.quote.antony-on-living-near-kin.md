@@ -57,13 +57,6 @@ retrieval:
   - "participant asks what was owed to parents and kin"
 relations:
 - {type: illustrates, target: desert.gravity.withdrawal}
-use_note:
-  means: "Cassian records Abbot Abraham telling how Antony warned a man living on his relatives' support that he would be judged with those whose fortunes he shared."
-  not_for:
-    - "a transcript of Antony's words, which reach us at two removes through Abraham and Cassian"
-    - "a teaching that families were bad, rather than that a life supported by kin stays inside their fortunes"
-  years: {from: 385, to: 429}
-  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf211 line
 47578. The text field matches the source exactly, including "as I said" (the phrase points back to

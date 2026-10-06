@@ -1,8 +1,7 @@
 source_file: augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt
 
 assignments:
-  - row_id: augustine_civitate-dei-1-13-lat_hoffmann-csel40-1--augustine-s-city-of-god-books-i-xiii-hoffmann-s-critical
-    work: "Augustine's City of God, Books I-XIII (Hoffmann's critical edition, CSEL 40 Pars I)"
+  - work: "Augustine's City of God, Books I-XIII (Hoffmann's critical edition, CSEL 40 Pars I)"
     author: augustine
     locus: "whole file, Libri I-XIII"
     atlas_ids:

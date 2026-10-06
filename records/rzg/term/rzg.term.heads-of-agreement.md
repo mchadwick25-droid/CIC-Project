@@ -45,12 +45,6 @@ senses:
 quick_meaning: The Consensus Tigurinus's own name for its own twenty-six articles. A specific feature
   of that text, not a generic phrase.
 distortion_risk: low
-use_note:
-  means: "Heads of Agreement is the Consensus Tigurinus's own name for its twenty-six articles."
-  not_for:
-    - "a claim that the phrase is a generic label for any list of shared beliefs"
-  years: {from: 1549, to: 1650}
-  status: reviewed
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this

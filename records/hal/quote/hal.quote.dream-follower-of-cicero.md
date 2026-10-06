@@ -31,14 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they made of pagan books and classical learning"
   - "participant asks whether reading the wrong things troubled their conscience"
-use_note:
-  means: "Jerome's 384 letter to Eustochium reports the Judge in his dream telling him he lies, being a follower of Cicero and not of Christ."
-  not_for:
-    - "a claim that the dream literally happened as told; only Jerome's written account is documented"
-    - "a claim that the treasure saying is the dream's own coinage; it quotes Matthew 6:21"
-    - "a claim that this world forbade pagan learning outright"
-  years: {from: 374, to: 384}
-  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 22 sec. 30,
 div v.XXII). ATTRIBUTION SHAPE: these are the words of the Judge in

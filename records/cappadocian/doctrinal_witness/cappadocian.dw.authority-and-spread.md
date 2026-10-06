@@ -68,14 +68,6 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-to-the-chorepiscopi
-use_note:
-  means: "This witness says authority ran through sees with village bishops beneath them, that office was won and lost unevenly, and that the founding story is legend."
-  not_for:
-    - "the seventeen-believers story as checkable history rather than a legend told a century later"
-    - "the simony letter as evidence of how the faith spread, when it only disciplines the chorepiscopi in cappadocian.quote.basil-to-the-chorepiscopi"
-    - "one clean, regular process for making bishops"
-  years: {from: 370, to: 381}
-  status: reviewed
 ---
 Closes F3-I. The founding-legend material is used exactly at the strength
 cappadocian.story.thaumaturgus-legend's own narrative_tier_justification

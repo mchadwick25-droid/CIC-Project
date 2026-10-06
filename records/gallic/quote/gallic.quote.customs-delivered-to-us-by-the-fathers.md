@@ -44,13 +44,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.legitimacy-by-reception
-use_note:
-  means: "Cassian describes the monastic customs he saw observed in Egypt and Palestine as delivered to him there by the Fathers."
-  not_for:
-    - "Castor's request, which sits in the same sentence but in gallic.quote.castor-anxious-for-egyptian-institutions"
-    - "a claim that Cassian invented these customs or that Egypt originated them"
-  years: {from: 415, to: 426}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "the customs of the monasteries which we have seen observed"` returns line 16444; read with `sed -n

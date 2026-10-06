@@ -57,14 +57,6 @@ absent_detail: 'Every voice in this story is Jerome''s: the crowd''s words are h
   her own choice, her own words - is entirely silent in the record; even her death''s
   cause is the crowd''s accusation and the circle''s grief, not a physician''s account.'
 modern_contrast: 'A modern reader often hears this as a straightforward disgrace-and-exile narrative - a man driven out for scandal. This world''s own record frames it differently: it preserves the crowd''s hostile murmur rather than omitting it, though only because Jerome himself recorded it in his own rebuttal - every voice in this telling is his, the Roman clergy''s own side was never written down or does not survive, and the departure becomes, in the community''s own later telling, the founding of Bethlehem rather than only a disgrace.'
-use_note:
-  means: "The crisis that drove Jerome from Rome in 385, attested only in his own letters, which carry every voice in the story."
-  not_for:
-    - "asserting a formal church proceeding against Jerome"
-    - "treating the crowd's words as independently recorded"
-    - "giving Blaesilla a voice or a certain cause of death"
-  years: {from: 384, to: 385}
-  status: reviewed
 ---
 Re-derived from cleared Doc_09a S2, told with the record's own hardest
 edge kept (the fasting-death accusation preserved by its target). Serves

@@ -30,14 +30,6 @@ concedes: Confirmed for the literate-attested ecology. The majority reached the 
   same transformation through the sacramental whole-community channel - THAT channel is well-attested;
   the majority's interior formation is not, and is never narrated.
 divergence_partners: []
-use_note:
-  means: "The claim that Scripture and the soul's transformation shaped all Egypt, including the non-literate Coptic majority, is contested and confirmed only for the literate ecology."
-  not_for:
-    - "presenting the two Primary gravities as established for the whole population"
-    - "narrating the interior formation of the rural majority"
-    - "treating the Antony material as a settled bridge past the literate stratum"
-  years: {from: 180, to: 373}
-  status: reviewed
 ---
 THE CENTRAL HONEST LIMIT OF THE WORLD, held open - the prior build
 deferred it to external scholarly review, and this build carries it

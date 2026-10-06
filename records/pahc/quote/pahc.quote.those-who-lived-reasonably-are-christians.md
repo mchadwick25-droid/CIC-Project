@@ -39,13 +39,6 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.witness.god-and-argument
-use_note:
-  means: "Justin calls those who lived with reason, the Word, Christians before Christ, naming Socrates, Heraclitus, Abraham, and Daniel's three companions."
-  not_for:
-    - "a liberal pluralist gesture rather than a claim about the Word's reach"
-    - "a claim that sincere goodness of any kind makes someone Christian"
-  years: {from: 153, to: 157}
-  status: reviewed
 ---
 This quote serves F1-I together with pahc.witness.god-and-argument, which cites this exact
 chapter for "the Logos present in every race of men".

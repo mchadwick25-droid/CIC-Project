@@ -52,14 +52,5 @@ senses:
 quick_meaning: 'Resurrection: the hope that reorders grief and gives our renounced life its
   horizon.'
 distortion_risk: medium
-use_note:
-  means: "Anastasis meant the resurrection of bodies, argued at deathbeds, preached at martyrs' feasts and anticipated in ascetic life."
-  not_for:
-    - "vague modern talk of an afterlife"
-    - "the deathbed dialogue as Macrina's own speech, which sits in cappadocian.story.macrina-deathbed"
-    - "the culture of grief and consolation, which sits in cappadocian.term.penthos-paraklesis"
-    - "the martyr homilies as checkable texts, since they are unacquired"
-  years: {from: 325, to: 394}
-  status: reviewed
 ---
 Built from Doc_06 entry 29 (Tier 2).

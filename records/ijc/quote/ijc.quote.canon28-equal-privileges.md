@@ -41,13 +41,6 @@ retrieval:
   - "participant asks whether a council could raise one see over another"
 relations:
 - {type: illustrates, target: ijc.force.leo-rejects-canon-28}
-use_note:
-  means: "Chalcedon's Canon 28 grounds old Rome's privileges in its being the imperial city and grants New Rome equal privileges, ranking next after Rome."
-  not_for:
-    - "a claim that Canon 28 was received without contest, since Leo rejected its premise"
-    - "a claim that 'the Fathers' here means the later fixed canon of named Church Fathers rather than an earlier council's bishops"
-  years: {from: 451, to: 451}
-  status: reviewed
 ---
 Text verified verbatim against the vendored file (the
 edition's inline Greek gloss "(ἴσα πρεσβεῖα)" after "equal privileges"

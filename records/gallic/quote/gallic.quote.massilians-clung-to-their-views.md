@@ -47,8 +47,6 @@ relations:
   target: gallic.gravity.authority-ambivalence
 - type: associated-with
   target: gallic.gravity.grace-and-effort
-- type: associated-with
-  target: gallic.force.africa-and-rome-pressure
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "sturdy way"` returns one hit, line 15769, inside `<div3 title="Chapter I. The Life of Cassian." ...

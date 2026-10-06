@@ -56,14 +56,6 @@ relations:
   target: desert.figure.sarah
 - type: associated-with
   target: desert.story.virgin-who-hid-athanasius
-use_note:
-  means: "Palladius, opening his section on holy women in the Syriac Paradise, says God gave chosen women strength of will equal to men's for ascetic labour."
-  not_for:
-    - "a description of how women were actually treated or positioned in this world"
-    - "equality in any modern sense, when the sentence removes an excuse rather than conferring standing"
-    - "a woman's own voice, when it is a male author's editorial statement"
-  years: {from: 419, to: 420}
-  status: reviewed
 ---
 Verified verbatim against the vendored file.
 

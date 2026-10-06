@@ -1,16 +1,18 @@
 source_file: lainez_epistolae-et-acta-v1-lat_1912.txt
 
 assignments:
-  - row_id: lainez_epistolae-et-acta-v1-lat_1912--lainii-monumenta-epistolae-et-acta-patris-jacobi-lainii-vol
-    work: "Lainii Monumenta: Epistolae et Acta Patris Jacobi Lainii, Vol. I"
+  - work: "Lainii Monumenta: Epistolae et Acta Patris Jacobi Lainii, Vol. I"
     author: lainez
-    locus: "whole volume - Tomus I, covering 1536-1556 (title page: TOMUS PRIMUS 1536-1556); ends before Lainez's own generalate"
+    locus: "whole volume"
     atlas_ids:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
     note: >
-      Lainez's own letters and acts (Lainez was the 2nd Superior General; this first tomus covers 1536-1556, before his own generalate began in 1558). This Latin primary material is PD and available. Per the Library's non-English-primary-evidence rule
+      Lainez's own letters and acts (2nd Superior General). Corrects a
+      prior dossier "genuinely closed" verdict, which only checked for
+      an English translation - this Latin primary material is PD and
+      available. Per the Library's non-English-primary-evidence rule
       (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin
       text is primary evidence directly, verified against the vendored
       file, since it is primary to the movement regardless of language;

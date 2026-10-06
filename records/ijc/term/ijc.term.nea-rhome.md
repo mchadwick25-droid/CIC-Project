@@ -47,13 +47,6 @@ senses:
     and the name said so out loud.
   translational: Closer to a legal recital than a nickname - the "whereas" clause of a claim to rank.
 quick_meaning: Constantinople's name for itself - the empire's new capital, "New Rome."
-use_note:
-  means: "\"New Rome\" is Constantinople's name for itself as the empire's new seat, and the stated ground of its claim to rank among the churches."
-  not_for:
-    - "a claim that the name was honorific flattery with no operative claim behind it"
-    - "a claim that the canons ranked Constantinople over old Rome rather than after it"
-  years: {from: 381, to: 451}
-  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 2;
 Lexicon-Chunks/ijclex010_nea_rhome.md). canon_cells deliberately empty:

@@ -58,14 +58,6 @@ modern_rendering: >-
   object to our doxology on the ground that it lacks written authority, let them give us
   the written evidence for the confession of our faith, and for the other matters we have
   enumerated.
-use_note:
-  means: "Basil, in On the Holy Spirit, challenges critics who demand written authority for his doxology to produce written authority for the baptismal confession itself."
-  not_for:
-    - "the baptize-believe-glorify sequence argument, which sits in cappadocian.quote.baptize-believe-glorify-in-sequence"
-    - "a claim that this world set tradition against scripture as rival authorities"
-    - "unwritten tradition as licence to defend whatever a bishop preferred"
-  years: {from: 375, to: 375}
-  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 27, the

@@ -26,7 +26,7 @@ relations:
 - type: associated-with
   target: alx.source.palladius-lausiac-history
 author: "Athanasius of Alexandria (the attribution the Syriac carries); Ernest Alfred Wallis Budge, translator"
-work: "The Life of Saint Anthony by Athanasius, Archbishop of Alexandria, in the Syriac recension - printed as the first text of Budge's Paradise volume I, ahead of Palladius"
+work: "The Life of Saint Anthony by Athanasius, Archbishop of Alexandria, in the Syriac recension - printed as the first text of Budge's Paradise volume I, ahead of Palladius. About 14,800 words"
 edition: "trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), vendored as cic/texts/palladius_paradise-v1-syriac_budge1907.txt - from the thirteenth- or fourteenth-century Syriac manuscript Budge was shown at Mosul in 1888 and had copied, described in his own Preface"
 kind: vendored
 rights_status: "public-domain; 1907, long out of US copyright"

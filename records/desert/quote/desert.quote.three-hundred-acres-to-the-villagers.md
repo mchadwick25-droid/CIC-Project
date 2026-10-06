@@ -39,14 +39,6 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.dw.strangest
-use_note:
-  means: "Athanasius narrates that Antony, after hearing the Gospel read, left church and gave the villagers his family's three hundred fertile acres."
-  not_for:
-    - "Antony as a poor peasant fleeing poverty"
-    - "a pure gift, when the edition records an alternative reading that made it a transaction for tax immunity"
-    - "a verified incident rather than part of Athanasius's constructed exemplar"
-  years: {from: 269, to: 275}
-  status: reviewed
 ---
 This record fills canon cell F3-E. desert.dw.strangest alone serves this cell, citing SS2-3 for
 "giving away a substantial inheritance over two separate church visits" without a quotable line.

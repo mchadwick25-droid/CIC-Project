@@ -63,15 +63,6 @@ tensions:
 relations:
 - type: associated-with
   target: witt.quote.nothing-that-varies
-use_note:
-  means: "This witness holds that our continuity claim was agreement with Scripture and the ancient Church, argued in detail only for married clergy against later compulsory celibacy."
-  not_for:
-    - "a claim of apostolic succession by unbroken ordination"
-    - "a claim that every retained practice was argued historically as clerical marriage was"
-    - "a word-for-word quotation of the Article XXIII marriage passage, which this record paraphrases"
-    - "the definition of the Church, which sits in witt.quote.congregation-of-saints"
-  years: {from: 1530, to: 1530}
-  status: reviewed
 ---
 Closes F4-E at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's own question (how do
 you know your practices went back to the apostles and weren't later inventions) is answered at two levels:

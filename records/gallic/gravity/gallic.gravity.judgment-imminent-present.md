@@ -117,15 +117,6 @@ manifestations:
 - "Vincent's 'awful expectation of the approach of the divine judgment' as the Commonitory's stated occasion, paired with 'the subtle craftiness of new heretics' (Comm. ch. 1 [2])"
 - "Cassian's 'fear of hell' as the first of three restraints on the faults (Conf. XI.6) - judgment as the beginner's motive"
 - "Salvian's God who 'never takes his hand from the tiller' (Gov. I.1); 'the present judgment of God' (VII.10); the Belgae, Aquitaine, and 'the whole body of the Gallic provinces' burning as 'the ever-present judgment of God' (VII.12)"
-use_note:
-  means: "Three voices hold time running out in different ways: Antichrist at hand for Sulpitius, awful expectation of judgment for Vincent, and judgment already under way in Gaul's ruin for Salvian."
-  not_for:
-    - "one shared apocalyptic doctrine, when the three modes differ"
-    - "Salvian's present judgment as the monastic houses' teaching, when it is his own voice, as in gallic.term.government-of-god"
-    - "an Antichrist teaching by Cassian, who has only the fear of hell in what was read"
-    - "a remark about this record's own coverage, sources or scholarly attribution"
-  years: {from: 397, to: 450}
-  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus,
 Vincent of Lérins, John Cassian) and cic/texts/salvian_on-the-government-of-god_sanford1930.txt

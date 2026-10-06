@@ -55,14 +55,6 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-against-eunomius-ant
-use_note:
-  means: "This witness says not grasping God fully was never the same as not knowing him, and that delayed baptism from fear was a recorded struggle."
-  not_for:
-    - "a first-person account of doubt from an ordinary believer, which the record says does not survive"
-    - "the sermon against delay, which sits in cappadocian.quote.basil-against-delaying-baptism, as an argument about doubt"
-    - "doubt left unchallenged as this world's counsel"
-  years: {from: 360, to: 379}
-  status: reviewed
 ---
 Closes C-P, drawing the same two-term ground as the existing
 cappadocian.demo.want-to-believe (akatalepsia, baptisma-photisma) but

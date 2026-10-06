@@ -315,31 +315,6 @@ ENVELOPE_PROPERTIES = {
     # would silently do nothing, which is exactly the class of typo an
     # enum (rather than a bare string) catches at the schema layer.
     "demo_tag": {"enum": ["exclude"]},
-    # analytic: the record stays in the world for building and passes the
-    # gates, but the voice never speaks from it - the compiler leaves it out
-    # of every compiled/ file. Absent means voiced. The horizon gate passes a
-    # post-window mention only on an analytic record.
-    "voice": {"enum": ["voiced", "analytic"]},
-    # What the record means in the world's own frame, the claims it must not
-    # be made to support, and the years it speaks from. The cells it serves
-    # are its canon_cells. provisional until an Opus review against the
-    # vendored source marks it reviewed.
-    "use_note": {
-        "type": "object",
-        "additionalProperties": False,
-        "required": ["means", "years", "status"],
-        "properties": {
-            "means": {"type": "string"},
-            "not_for": {"type": "array", "items": {"type": "string"}, "maxItems": 4},
-            "years": {
-                "type": "object",
-                "additionalProperties": False,
-                "required": ["from", "to"],
-                "properties": {"from": {"type": "integer"}, "to": {"type": "integer"}},
-            },
-            "status": {"enum": ["provisional", "reviewed"]},
-        },
-    },
     "confidence": _CONFIDENCE_SCHEMA,
     "sources": {"type": "array", "items": _SOURCE_REF_SCHEMA},
     "retrieval": _RETRIEVAL_SCHEMA,
@@ -690,7 +665,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "distinguishing_claim": {"type": "string"},
         "native_subject_map": {"type": "object"},
     },
-    # A single fleet-owned record (engine/shape/records/fleet_voice/), versioned
+    # A single fleet-owned record (records/_fleet/fleet_voice/), versioned
     # like the canon - the compiler's source for the M4 Live-Generation
     # Design's one fleet preamble segment (§5.2): the seven register
     # statements, the pronoun rule, and the citation contract stated ONCE

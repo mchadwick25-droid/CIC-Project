@@ -64,23 +64,14 @@ def test_a_world_addressing_a_record_type_its_own_way_is_caught():
     assert "c address" in findings[0].message and "`<world>.dw.*`" in findings[0].message
 
 
-def test_a_world_without_its_app_block_is_caught():
-    """useWorlds() leaves a world without a registry `app` block off the list:
-    a world could be admitted and served by GET /api/worlds and never appear."""
-    registry = cross_world.load_registry()
-    worlds = cross_world.formation_world_keys(registry)
-    registry = {**registry, "w7": {"kind": "formation"}}
-    keys = {f.key for f in cross_world.check_app_world_assets(registry=registry, worlds=worlds + ["w7"])}
-    assert keys == {"app-world-assets/w7"}
-
-
-def test_an_app_block_with_a_shared_order_a_bad_colour_or_a_missing_portrait_is_caught():
-    registry = {
-        "a": {"app": {"order": 1, "accent_color": "#DE670B", "portrait": "/images/portraits/thumb/alexandria.webp"}},
-        "b": {"app": {"order": 1, "accent_color": "orange", "portrait": "/images/portraits/thumb/none.webp"}},
-    }
-    keys = {f.key for f in cross_world.check_app_world_assets(registry=registry, worlds=["a", "b"])}
-    assert keys == {"app-world-order/b", "app-world-colour/b", "app-world-portrait/b"}
+def test_a_world_left_out_of_the_frontend_asset_table_is_caught():
+    """useWorlds().toEntry returns null for a world with no WORLD_ASSETS
+    entry, which drops it from the world list with no error anywhere - a
+    seventh world could be built, compiled, admitted and served by
+    GET /api/worlds and simply never appear on screen."""
+    keys = {f.key for f in cross_world.check_app_world_assets(worlds=cross_world.formation_world_keys() + ["w7"])}
+    assert "app-world-assets/w7" in keys
+    assert "app-world-order/w7" in keys
 
 
 def test_a_world_missing_from_table_html_is_caught():
@@ -118,10 +109,14 @@ def test_the_lpc_unregistered_dir_is_caught():
         assert "unregistered-world-dir/lpc" in cross_world.ACCEPTED_OPEN
 
 
-def test_unregistered_world_dirs_excludes_the_registry_dir_itself(tmp_path, monkeypatch):
-    """`worlds` IS records/worlds/, the registry's own storage location, not
-    a world's own directory, so it is never flagged. A synthetic tree proves
-    the exclusion and the positive case independent of the real tree."""
+def test_unregistered_world_dirs_excludes_fleet_and_the_registry_dir_itself(tmp_path, monkeypatch):
+    """_fleet is fleet-shared content with no registry entry of its own by
+    design, and `worlds` IS records/worlds/, the registry's own storage
+    location - neither is a world's own directory, so neither should ever
+    be flagged, registered or not. A synthetic tree, not the real one,
+    proves both the exclusion and the positive case independent of
+    whatever lpc's own real state happens to be at test time."""
+    (tmp_path / "_fleet").mkdir()
     (tmp_path / "worlds").mkdir()
     (tmp_path / "known").mkdir()
     (tmp_path / "orphan").mkdir()

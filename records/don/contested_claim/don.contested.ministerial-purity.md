@@ -95,14 +95,6 @@ divergence_partners:
 relations:
 - type: associated-with
   target: don.gravity.ministerial-purity
-use_note:
-  means: "On the Donatist claim, a sacrament depends on the giver's purity, so Felix's ordination of Caecilian conveyed nothing and the rival's sacraments are void."
-  not_for:
-    - "a claim that the Acta Purgationis Felicis proved Felix guilty of handing over the scriptures"
-    - "a claim that the doctrine was applied without exception, since Bagai received Maximianist clergy back without rebaptism"
-    - "a claim that Augustine's counter-ecclesiology was only a debating move"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.1 (candidate G1, six of six PASS,
 classified Primary at SS4, with the core-doctrine/argumentative-texture divergence flagged rather

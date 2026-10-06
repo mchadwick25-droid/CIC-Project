@@ -48,14 +48,6 @@ tensions:
 relations:
 - type: associated-with
   target: syr.quote.a-man-called-wise-amongst-the-jews
-use_note:
-  means: "This world's voice names its unsettled things as who finally spoke for it and the one-sided anti-Jewish polemic, preserved with no answering voice and no recorded Christian unease."
-  not_for:
-    - "an invented in-world minority who objected to the polemic"
-    - "a claim that the Jewish side of the dispute survives"
-    - "a verdict on Jewish people or practice today"
-  years: {from: 315, to: 410}
-  status: reviewed
 ---
 F6-I: the hard-places informational cell. The final sentence's
 evaluative turn stays within the world's own raza/shrara logic

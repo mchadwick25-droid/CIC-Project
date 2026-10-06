@@ -98,13 +98,6 @@ divergence_partners:
 relations:
 - type: associated-with
   target: don.gravity.refusal-of-imperial-legitimacy
-use_note:
-  means: "On the Donatist claim, the state cannot judge which church is true, though three documented turns to imperial power make the refusal dominant, not absolute."
-  not_for:
-    - "a claim that the refusal was absolute"
-    - "a claim that the unifying frame of principled refusal is anything other than partly the compilers' own synthesis"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.7 (candidate G5, six of six PASS with
 Persistence qualified by T1, classified Primary at SS4, Confidence/Gravity Cross-Check divergence
@@ -123,8 +116,9 @@ one into the other.
 
 WHAT IS NOT CLAIMED ABOUT 411. The verdict is not carried here, in either direction. The numbered
 acts read for don.story.conference-of-carthage-411 break off before any sentence is pronounced, and
-this world makes no claim about how it received the verdict. The vendored Gesta transcript has been
-read only for the Donatist bishops' recorded interventions and not in full.
+this world makes no claim about how it received the verdict - Doc_08's own Open Item 1 stands
+unresolved, with the vendored Gesta transcript read only for the Donatist bishops' recorded
+interventions and not in full.
 
 AUGUSTINE'S LETTER 185 IS CARRIED AT WHAT THE COMPILED RECORDS ATTEST. That it defends compulsion,
 grounds the defence on Luke 14:23, is addressed to the tribune Boniface around 417, and records

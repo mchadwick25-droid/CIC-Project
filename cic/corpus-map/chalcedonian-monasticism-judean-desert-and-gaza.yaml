@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: chalcedonian-monasticism-judean-desert-and-gaza
 works:
-- row_id: npnf214_seven-ecumenical-councils--the-council-of-chalcedon-451-extracts-from-the-acts
-  work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
+- work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
   locus: div1 11 — acts extracts, Definition 11.13, canons 11.18 (the Tome split out below)
   role: tradition
@@ -16,46 +15,3 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681--vita-euthymii
-  work: Vita Euthymii
-  author: cyril-scythopolis
-  locus: confirmed present ('EUTHYMII VITA' header found)
-  role: context
-  confidence: provisional
-  note: 'Found alongside the Vita Sabae in the same volume while checking for the latter;
-    not itself the report''s cited target, but genuine primary material for the same tradition.
-    Same OCR-quality caution applies.
-
-    '
-  source_file: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt
-- row_id: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681--vita-sabae
-  work: Vita Sabae
-  author: cyril-scythopolis
-  locus: confirmed present; ch. 83-90 not individually pinpointed - see the file's own header
-  role: tradition
-  confidence: provisional
-  note: 'Cyril''s own life of Sabas, the founding figure of Judean desert monasticism - the
-    only public-domain edition (Schwartz''s 1939 critical edition is still in copyright).
-    SECOND WITNESS ONLY: Cyril wrote in Greek, and this scan''s OCR cannot read the Greek
-    at all (zero Greek-script characters recoverable) - only Cotelier''s Latin translation
-    is readable, so this is Latin apparatus, not Cyril''s own recovered voice. CAUTION: 17th-century
-    typeface scan with heavy OCR corruption beyond the Greek/Latin split. The specific ch.
-    83-90 "New Laura is emptied" passage was not pinpointed; confidence set to provisional
-    rather than assigned given both the unpinpointed passage and the source''s own poor OCR
-    quality.
-
-    '
-  source_file: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt
-- row_id: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88--doctrinae-diversae
-  work: Doctrinae Diversae
-  author: dorotheus-gaza
-  locus: whole file
-  role: tradition
-  confidence: assigned
-  note: 'Dorotheus''s own instructions - extensively confirmed present in this volume. This
-    entry covers Dorotheus''s own material only: this identifier is also associated elsewhere
-    with Barsanuphius and John''s Letters to Andrew, but that correspondence is not confirmed
-    present in this vendored copy (see the file''s own header), so it is not assigned here.
-
-    '
-  source_file: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt

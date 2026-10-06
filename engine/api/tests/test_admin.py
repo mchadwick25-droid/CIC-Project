@@ -24,11 +24,11 @@ def desert_world(world_loader, registry):
     return _load_world(world_loader, registry, "desert")
 
 
-def _http(*, store, usage_store, world_loader, registry, client, admin_token=None, **extra):
+def _http(*, store, usage_store, world_loader, registry, client, admin_token=None):
     app = create_app(
         voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
         store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
-        default_world_key="fix", admin_token=admin_token, **extra,
+        default_world_key="fix", admin_token=admin_token,
     )
     return TestClient(app)
 
@@ -62,7 +62,7 @@ def test_pilot_summary_counts_sessions_and_flags_the_cap_round(
     )
     http = _http(
         store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
-        admin_token="the-real-token", deeper=None,
+        admin_token="the-real-token",
     )
     admin_headers = {"Authorization": "Bearer the-real-token"}
 

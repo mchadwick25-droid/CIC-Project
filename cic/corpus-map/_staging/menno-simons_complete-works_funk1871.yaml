@@ -1,8 +1,7 @@
 source_file: menno-simons_complete-works_funk1871.txt
 
 assignments:
-  - row_id: menno-simons_complete-works_funk1871--the-complete-works-of-menno-simon-s
-    work: "The Complete Works of Menno Simon(s)"
+  - work: "The Complete Works of Menno Simon(s)"
     author: menno-simons
     locus: "whole text, 2 volumes in 1"
     atlas_ids:

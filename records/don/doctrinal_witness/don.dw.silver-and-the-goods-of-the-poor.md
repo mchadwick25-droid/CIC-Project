@@ -107,15 +107,6 @@ tensions:
 - our money record is a record of scandal, so it shows what money did among us and not what we taught
   about it
 relations: []
-use_note:
-  means: "What survives on Donatist money comes from inquiries into its misuse, Lucilla's four hundred pieces, a bought priesthood and a pilfered treasury, where church property was called the goods of the poor."
-  not_for:
-    - "a claim that the Donatists were a social protest movement of the rural poor"
-    - "a claim about Donatist teaching on wealth beyond the court phrase 'the goods of the poor'"
-    - "a claim about Donatist marriage or weddings"
-    - "a claim about the hushed letters of the 320 inquiry or the fines and exile of belonging, which sit in don.dw.what-we-did-with-the-power-we-had and don.dw.what-belonging-cost"
-  years: {from: 311, to: 412}
-  status: reviewed
 ---
 Closes F5-T. The money variant is answered from
 `don.story.gesta-apud-zenophilum` and `don.story.lucilla-affair`, both of

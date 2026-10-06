@@ -4,8 +4,7 @@
 source_file: npnf112_chrysostom-homilies-corinthians.xml
 
 assignments:
-  - row_id: npnf112_chrysostom-homilies-corinthians--homilies-on-first-corinthians
-    work: "Homilies on First Corinthians"
+  - work: "Homilies on First Corinthians"
     author: chrysostom
     locus: "div1 4 — the full 1 Corinthians series, assigned as one work"
     atlas_ids:
@@ -13,8 +12,7 @@ assignments:
     role: tradition
     confidence: assigned
 
-  - row_id: npnf112_chrysostom-homilies-corinthians--homilies-on-second-corinthians
-    work: "Homilies on Second Corinthians"
+  - work: "Homilies on Second Corinthians"
     author: chrysostom
     locus: "div1 5 — the full 2 Corinthians series, assigned as one work"
     atlas_ids:

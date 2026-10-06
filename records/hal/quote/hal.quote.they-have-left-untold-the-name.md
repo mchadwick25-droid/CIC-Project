@@ -39,14 +39,6 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.limit.martyrdom
-use_note:
-  means: "Innocent's letter to John of Jerusalem records that Eustochium and the younger Paula reported murders and fires but chose not to name the man behind them."
-  not_for:
-    - "a claim that anyone in this world was martyred by a hostile state; the violence came from fellow Christians"
-    - "a claim identifying the attackers or naming the dead"
-    - "the women's own account; their letter is lost"
-  years: {from: 416, to: 417}
-  status: reviewed
 ---
 Opened for F6-E, which the rewritten classifier moved out of LIMIT-ONLY: hal.limit.martyrdom
 is the cell's only serving record and cites Ep. 137 specifically, so the limit can be voiced by the

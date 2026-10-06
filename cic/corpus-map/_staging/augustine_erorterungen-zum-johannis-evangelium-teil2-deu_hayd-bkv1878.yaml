@@ -1,8 +1,7 @@
 source_file: augustine_erorterungen-zum-johannis-evangelium-teil2-deu_hayd-bkv1878.txt
 
 assignments:
-  - row_id: augustine_erorterungen-zum-johannis-evangelium-teil2-deu_hayd-bkv1878--augustine-tractatus-in-johannem-second-half-german-hayd-bkv
-    work: "Augustine, Tractatus in Johannem, second half (German, Hayd, BKV 1878)"
+  - work: "Augustine, Tractatus in Johannem, second half (German, Hayd, BKV 1878)"
     author: augustine
     locus: "whole file, from the 38th homily"
     atlas_ids:

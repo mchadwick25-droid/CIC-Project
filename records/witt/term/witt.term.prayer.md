@@ -89,14 +89,6 @@ senses:
     about ourselves.'
 quick_meaning: Commanded, not optional. God even gives us its own words.
 distortion_risk: medium
-use_note:
-  means: "Prayer meant what is commanded as strictly as any commandment, promised an answer and given its form in the Lord's Prayer, though often prayed too coldly."
-  not_for:
-    - "prayer as spontaneous, private, optional devotion with set forms as lesser"
-    - "temptation as the occasion for prayer, which sits in witt.term.temptation"
-    - "the exchange about cold prayer at Luther's table, which sits in witt.story.household-and-kate-on-prayer"
-  years: {from: 1520, to: 1546}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 9.5 (prayer, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: none -- both voices; the one non-founder voice in the library is about this very practice. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

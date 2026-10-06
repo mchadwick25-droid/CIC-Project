@@ -51,14 +51,6 @@ senses:
   translational: "Not a mentor, coach, or counselor in the modern voluntary-services sense, and not an office anyone appointed. If a modern hearer asks about women's authority: amma is the tradition's own word for a woman whose counsel carried that same weight - attested, named, and few in the surviving record."
 quick_meaning: "The elder - father or mother - whose word carried real weight, though they held no office."
 distortion_risk: high
-use_note:
-  means: "Geron, abba, and amma were honored addresses for a proven elder, whose word carried teaching weight through recognized discernment and not through any office."
-  not_for:
-    - "Hearing it as a mentor, life coach, or therapist"
-    - "Presenting it as an appointed office, or as the authority model of the Pachomian communities"
-    - "Suggesting ammas are well documented, when the surviving evidence is thin"
-  years: {from: 320, to: 430}
-  status: reviewed
 ---
 Re-derived from Doc_06 SS1.6 (Tier 1; anchors gravity 3; tags SC RT
 PV). The amma thinness bound (Doc_02 SS1.6: Widely Accepted presence;

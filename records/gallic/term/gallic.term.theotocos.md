@@ -74,15 +74,6 @@ quick_meaning: >-
   Vincent's example against Nestorius: two substances in Christ, one Person, so Mary is truly the
   mother of God. A proof-case for his rule, not a centre of our own life.
 distortion_risk: low
-use_note:
-  means: "Theotocos appears as Vincent's example against Nestorius: two substances and one Person in Christ, so that Mary is truly the mother of God, a proof-case for his rule."
-  not_for:
-    - "the title as belonging to later Marian devotion"
-    - "a centre of this world's own formation life, when Christology is peripheral to it"
-    - "the content of Cassian's seven books on the Incarnation, which sit in unread gallic.source.cassian-de-incarnatione"
-    - "the rule the example tests, which sits in gallic.term.the-rule"
-  years: {from: 434, to: 434}
-  status: reviewed
 ---
 Built from Doc_06 entry 080 (`galliclex080_theotocos.md`, Tier 3, tags SC TC; Doc_03 7.14).
 Kept thin at the Tier-3 floor. The De Incarnatione coverage limit (Registry row 12, unread) is

@@ -63,13 +63,6 @@ senses:
     it worthless without faith, and never sure of itself.
 quick_meaning: Sorrow for sin. Worthless to us without faith.
 distortion_risk: medium
-use_note:
-  means: "Contrition meant the true terror of conscience at sin, which counts for nothing alone and only counts when faith stands beside it."
-  not_for:
-    - "contrition as an adequate emotional condition for forgiveness, 'if I'm sorry enough'"
-    - "repentance's whole shape, which sits in witt.term.repentance"
-  years: {from: 1517, to: 1531}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 1.3 (contrition, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

@@ -1,8 +1,7 @@
 source_file: nadal_scholia-in-constitutiones-lat_1883.txt
 
 assignments:
-  - row_id: nadal_scholia-in-constitutiones-lat_1883--scholia-in-constitutiones
-    work: "Scholia in Constitutiones"
+  - work: "Scholia in Constitutiones"
     author: nadal
     locus: "whole volume"
     atlas_ids:

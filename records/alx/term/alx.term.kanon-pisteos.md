@@ -46,14 +46,6 @@ senses:
     within the rule the apostles handed down; the two were never rivals here.'
 quick_meaning: The handed-down summary of the faith that guided all reading.
 distortion_risk: medium
-use_note:
-  means: "The rule of faith, the short summary of what the apostles handed down, set the bounds within which inquiry into Scripture could range."
-  not_for:
-    - "describing it as a written creed imposed by a council"
-    - "setting it against the Bible as a rival authority"
-    - "equating it with the later Nicene boundary"
-  years: {from: 203, to: 254}
-  status: reviewed
 ---
 Modern hearing: 'creed vs Bible' framings. World hearing: one
 inheritance with two forms. The speculative-doctrinal tension's early

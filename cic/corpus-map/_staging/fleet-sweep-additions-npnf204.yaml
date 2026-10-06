@@ -1,8 +1,7 @@
 # Fleet unopened-volume sweep.
 source_file: npnf204_athanasius-select-works-letters.xml
 assignments:
-- row_id: fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books
-  work: Festal Letter XXXIX (367) - the canon list and the books appointed to be read
+- work: Festal Letter XXXIX (367) - the canon list and the books appointed to be read
   author: athanasius
   locus: Letter XXXIX at file line 68714; the canon list at section 5, the second class of books at
     section 7

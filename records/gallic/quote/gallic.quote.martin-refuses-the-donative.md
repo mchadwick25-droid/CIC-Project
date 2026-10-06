@@ -68,18 +68,7 @@ relations:
 - type: associated-with
   target: gallic.quote.martin-offers-to-stand-unarmed
 - type: associated-with
-  target: gallic.force.army-and-rank-before
-- type: associated-with
   target: gallic.gravity.soldier-of-christ
-use_note:
-  means: "Sulpitius narrates Martin refusing Julian's donative and asking discharge with the words 'I am the soldier of Christ: it is not lawful for me to fight.'"
-  not_for:
-    - "a refusal of pay on grounds of money, when the passage turns on a change of service"
-    - "the offer to stand unarmed and the enemy's surrender, which sit in gallic.quote.martin-offers-to-stand-unarmed"
-    - "a verbatim record of the exchange rather than Sulpitius's report of it"
-    - "a rule binding every Christian soldier of the time"
-  years: {from: 397, to: 397}
-  status: reviewed
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "began to
 distribute a donative"` returns one hit, line 834. The chapter div is `<div3 title="Chapter IV. Martin

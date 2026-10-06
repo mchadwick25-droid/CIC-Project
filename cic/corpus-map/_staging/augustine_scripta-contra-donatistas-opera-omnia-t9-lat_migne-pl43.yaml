@@ -1,8 +1,7 @@
 source_file: augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt
 
 assignments:
-  - row_id: augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43--augustine-s-anti-donatist-works-maurist-text-migne-pl-43
-    work: "Augustine's anti-Donatist works (Maurist text, Migne PL 43): Breviculus collationis, Ad Donatistas post collationem, Sermo ad Caesariensis, De gestis cum Emerito, Contra Gaudentium"
+  - work: "Augustine's anti-Donatist works (Maurist text, Migne PL 43): Breviculus collationis, Ad Donatistas post collationem, Sermo ad Caesariensis, De gestis cum Emerito, Contra Gaudentium"
     author: augustine
     locus: "whole file"
     atlas_ids:

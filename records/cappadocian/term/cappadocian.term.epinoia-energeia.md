@@ -59,14 +59,5 @@ senses:
 quick_meaning: 'The mind''s honest concepts, and God''s own workings: how the unknowable God is still
   truly known.'
 distortion_risk: medium
-use_note:
-  means: "Epinoia and energeia meant that human names for God arise by reflecting on his workings and reach him truly without capturing his essence."
-  not_for:
-    - "later Byzantine debates about divine energies"
-    - "concepts as human inventions with no tie to God"
-    - "Basil's three-book Against Eunomius as a checked text"
-    - "the claim that God's being exceeds every mind, which sits in cappadocian.term.akatalepsia"
-  years: {from: 335, to: 394}
-  status: reviewed
 ---
 Built from Doc_06 entry 15 (Tier 2).

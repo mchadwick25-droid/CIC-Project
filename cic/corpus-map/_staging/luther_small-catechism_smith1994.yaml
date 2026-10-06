@@ -3,8 +3,7 @@
 source_file: luther_small-catechism_smith1994.txt
 
 assignments:
-  - row_id: luther_small-catechism_smith1994--the-small-catechism-of-martin-luther
-    work: The Small Catechism of Martin Luther
+  - work: The Small Catechism of Martin Luther
     author: luther
     locus: "whole file"
     atlas_ids:

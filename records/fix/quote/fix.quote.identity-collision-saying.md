@@ -19,13 +19,6 @@ speaker_or_author: fix.figure.the-elder
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."
 modern_rendering: "We never asked who you'd been before. We only asked what you carried afterward."
-use_note:
-  means: "Testland judged a newcomer by what they carried after baptism, not by their past."
-  not_for:
-    - "a claim that Testland had no standards for members"
-    - "a statement about baptismal practice elsewhere"
-  years: {from: 100, to: 100}
-  status: provisional
 ---
 Substantive coverage for the identity-collision cell F6-P, paired with
 fix.demo.identity-collision for the voice-side spoken non-judgment requirement

@@ -82,15 +82,6 @@ relations:
   target: gallic.gravity.egypt-as-measure
 - type: associated-with
   target: gallic.gravity.grace-and-effort
-use_note:
-  means: "Cassian reports Chaeremon teaching that grace kindles desire, enables virtue and preserves it without destroying free will, and that their union exceeds human reason."
-  not_for:
-    - "a settled verdict that the teaching is semi-Pelagian, when that label is contested"
-    - "the claim that grace looks for human effort, which sits in gallic.quote.chaeremon-grace-requires-our-effort"
-    - "a complete theory of how grace and free will fit together, when Chaeremon calls that beyond human grasp"
-    - "a statement on infants or guilt inherited from birth, which this passage does not contain"
-  years: {from: 426, to: 426}
-  status: reviewed
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "cannot be fully grasped by the

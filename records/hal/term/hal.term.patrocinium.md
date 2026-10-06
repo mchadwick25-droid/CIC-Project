@@ -50,14 +50,6 @@ distortion_risk: high
 relations:
 - type: associated-with
   target: hal.gravity.patronage-authority
-use_note:
-  means: "The voluntary, wealth-based bond by which a patron sustained a scholar's work, standing where church office stands elsewhere."
-  not_for:
-    - "treating patronage as a minor financial detail behind real authority"
-    - "attributing this world's authority to ordained office"
-    - "presenting Jerome's account of the financial mechanics as independently confirmed"
-  years: {from: 382, to: 404}
-  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 6 (hal_lex06). Anchors
 hal.gravity.patronage-authority (Primary). The Doc_01 section 8.1

@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: syriac-edessa-nisibis
 works:
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--abgar-documents-story-concerning-the-king-of-edessa-extracts
-  work: Abgar documents (Story concerning the King of Edessa; extracts concerning Abgar and
+- work: Abgar documents (Story concerning the King of Edessa; extracts concerning Abgar and
     Addaeus)
   author: abgar-edessa-documents
   locus: div2 9.3, 9.5
@@ -16,8 +15,7 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-the-holy-apostle-thaddaeus
-  work: Acts of the Holy Apostle Thaddaeus
+- work: Acts of the Holy Apostle Thaddaeus
   author: acts-of-thaddaeus
   locus: div2 7.36
   role: tradition
@@ -27,8 +25,7 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-thomas-with-the-consummation-of-thomas
-  work: Acts of Thomas (with the Consummation of Thomas)
+- work: Acts of Thomas (with the Consummation of Thomas)
   author: acts-of-thomas
   locus: div2 7.33-7.34
   role: tradition
@@ -40,8 +37,7 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: addai_doctrine-of-addai--the-doctrine-of-addai
-  work: The Doctrine of Addai
+- work: The Doctrine of Addai
   author: addai
   locus: whole work (single-work volume, ~17,242 words; Phillips 1876 translation)
   role: tradition
@@ -54,8 +50,7 @@ works:
 
     '
   source_file: addai_doctrine-of-addai.txt
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-teaching-of-addaeus-the-apostle
-  work: The Teaching of Addaeus the Apostle
+- work: The Teaching of Addaeus the Apostle
   author: addai
   locus: div2 9.6
   role: tradition
@@ -68,8 +63,7 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--ambrose-a-memorial-hypomnemata-addressed-to-the-greeks-2
-  work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
+- work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
   author: ambrose-hypomnemata
   locus: div2 9.18
   role: transmission
@@ -87,8 +81,7 @@ works:
     says the original was Greek, because the Syriac mistranslates it in places. Syriac scribes
     are why it exists at all; the argument in it is not theirs.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: anan-isho_paradise-v2-sayings_budge1907--the-paradise-of-the-holy-fathers-volume-ii-the-sayings-of-2
-  work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
+- work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
   author: anan-isho
   locus: the recension itself, as a Syriac act of collection and preservation
   role: transmission
@@ -103,8 +96,7 @@ works:
 
     '
   source_file: anan-isho_paradise-v2-sayings_budge1907.txt
-- row_id: aphrahat_demonstrations-2-7_hallock1932--demonstration-ii-on-love
-  work: 'Demonstration II: On Love'
+- work: 'Demonstration II: On Love'
   author: aphrahat
   locus: 'second piece in file, heading "Aphrahat, Demonstration II: On Love. Journal of the
     Society of Oriental Research 14 (1930) pp. 18-31"
@@ -118,8 +110,7 @@ works:
 
     '
   source_file: aphrahat_demonstrations-2-7_hallock1932.txt
-- row_id: aphrahat_demonstrations-2-7_hallock1932--demonstration-vii-on-penitents
-  work: 'Demonstration VII: On Penitents'
+- work: 'Demonstration VII: On Penitents'
   author: aphrahat
   locus: 'first piece in file, heading "Aphrahat, Demonstration VII: On Penitents. Journal
     of the Society of Oriental Research 16 (1932) pp. 43-56"
@@ -134,8 +125,7 @@ works:
 
     '
   source_file: aphrahat_demonstrations-2-7_hallock1932.txt
-- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--select-demonstrations-of-aphrahat
-  work: Select Demonstrations of Aphrahat
+- work: Select Demonstrations of Aphrahat
   author: aphrahat
   locus: 'div2 3.9 — Aphrahat: Select Demonstrations'
   role: tradition
@@ -148,8 +138,7 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
-- row_id: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877--chronicon-ecclesiasticum-volume-iii-the-eastern-church
-  work: Chronicon Ecclesiasticum, Volume III (the Eastern Church / Nestorian Catholicoi section)
+- work: Chronicon Ecclesiasticum, Volume III (the Eastern Church / Nestorian Catholicoi section)
   author: bar-hebraeus
   locus: Sectio II (npnf-style locus not applicable - vendored as its own file), the Nestorian
     Catholicoi entries for Papa bar Aggai through Simeon bar Sabbae's martyrdom (file lines
@@ -168,8 +157,7 @@ works:
     rather than only a secondary encyclopedia. Volumes I-II (Western/Antiochene Patriarchs)
     not vendored - out of this world's own scope.
   source_file: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--bardesan-the-book-of-the-laws-of-divers-countries
-  work: 'Bardesan: The Book of the Laws of Divers Countries'
+- work: 'Bardesan: The Book of the Laws of Divers Countries'
   author: bardesan
   locus: div2 9.16
   role: tradition
@@ -181,8 +169,7 @@ works:
     bardaisanite-current is added alongside, since the party this work argues with now has
     an entry of its own.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: fleet-sweep-additions-npnf208--the-hexaemeron-homily-ii-on-genesis-1-2
-  work: The Hexaemeron, Homily II (on Genesis 1:2)
+- work: The Hexaemeron, Homily II (on Genesis 1:2)
   author: basil
   locus: the passage crediting an unnamed Syrian with the reading of Genesis 1:2, at file
     line 16729, with the NPNF's own endnote on his identity
@@ -200,8 +187,7 @@ works:
 
     '
   source_file: npnf208_basil-letters-select-works.xml
-- row_id: chronicle-of-edessa_cowper--the-chronicle-of-edessa
-  work: The Chronicle of Edessa
+- work: The Chronicle of Edessa
   author: chronicle-of-edessa
   locus: whole work (single-work volume, ~7,960 words; Cowper's JSL translation)
   role: context
@@ -216,8 +202,7 @@ works:
 
     '
   source_file: chronicle-of-edessa_cowper.txt
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-sharbil
-  work: Acts of Sharbil
+- work: Acts of Sharbil
   author: edessene-martyr-acts
   locus: div2 9.9
   role: tradition
@@ -227,16 +212,14 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--martyrdom-of-habib-the-deacon
-  work: Martyrdom of Habib the Deacon
+- work: Martyrdom of Habib the Deacon
   author: edessene-martyr-acts
   locus: div2 9.11
   role: tradition
   confidence: assigned
   note: Edessene martyr acta (Diocletianic era); syr's martyr memory.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--martyrdom-of-shamuna-guria-and-habib-from-simeon
-  work: Martyrdom of Shamuna, Guria, and Habib (from Simeon Metaphrastes)
+- work: Martyrdom of Shamuna, Guria, and Habib (from Simeon Metaphrastes)
   author: edessene-martyr-acts
   locus: div2 9.12
   role: tradition
@@ -246,20 +229,7 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: egeria_pilgrimage-of-etheria_mcclure-feltoe1919--peregrinatio-aetheriae-pilgrimage-of-etheria-2
-  work: Peregrinatio Aetheriae (Pilgrimage of Etheria)
-  author: egeria
-  locus: Edessa, Haran and the Abgar correspondence, file lines 3329-3522; the shrine of Thecla
-    at Seleucia, about line 3806
-  role: context
-  confidence: assigned
-  note: 'An outside witness to Edessa''s own traditions: the bishop shows her the Abgar correspondence
-    and the martyrion of Thomas. She is a Latin-speaking visitor, not a member of that church.
-
-    '
-  source_file: egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt
-- row_id: ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-a-discourse-against-bardaisan
-  work: Against Bardaisan (A Discourse Against Bardaisan)
+- work: Against Bardaisan (A Discourse Against Bardaisan)
   author: ephraim
   locus: Vol. II, heading "AGAINST BARDAISAN." - "A DISCOURSE AGAINST BARDAISAN"
   role: tradition
@@ -269,8 +239,7 @@ works:
 
     '
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt
-- row_id: ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-s-domnus
-  work: Against Bardaisan's 'Domnus'
+- work: Against Bardaisan's 'Domnus'
   author: ephraim
   locus: 'Vol. II, heading "AGAINST BARDAISAN''S \"DOMNUS\"" - "A DISCOURSE MADE BY THE BLESSED
     SAINT EPHRAIM AGAINST THE DISCOURSE WHICH IS CALLED ''OF DOMNUS,'' WHICH WAS COMPOSED
@@ -285,8 +254,7 @@ works:
 
     '
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt
-- row_id: ephraim_prose-refutations_mitchell1912-1921--against-mani
-  work: Against Mani
+- work: Against Mani
   author: ephraim
   locus: Vol. II, heading "AGAINST MANI."
   role: tradition
@@ -295,8 +263,7 @@ works:
 
     '
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt
-- row_id: ephraim_prose-refutations_mitchell1912-1921--against-marcion-discourses-i-iii
-  work: Against Marcion (Discourses I-III)
+- work: Against Marcion (Discourses I-III)
   author: ephraim
   locus: Vol. II, headings "AGAINST MARCION I.", "AGAINST MARCION II.", "AGAINST MARCION III."
   role: tradition
@@ -306,8 +273,7 @@ works:
 
     '
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt
-- row_id: ephraim_prose-refutations_mitchell1912-1921--discourses-to-hypatius-five-discourses-against-the-false
-  work: Discourses to Hypatius (Five Discourses Against the False Teachings)
+- work: Discourses to Hypatius (Five Discourses Against the False Teachings)
   author: ephraim
   locus: 'Vol. I, heading "THE DISCOURSES ADDRESSED TO HYPATIUS"; five discourses ending "THE
     END OF WRITING THE FIVE DISCOURSES TO HYPATIUS AGAINST FALSE DOCTRINES", incl. "A Refutatory
@@ -322,8 +288,7 @@ works:
 
     '
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt
-- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--fifteen-hymns-for-the-feast-of-the-epiphany
-  work: Fifteen Hymns for the Feast of the Epiphany
+- work: Fifteen Hymns for the Feast of the Epiphany
   author: ephraim
   locus: div2 3.6 — Hymns for the Feast of the Epiphany
   role: tradition
@@ -334,8 +299,7 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
-- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--nineteen-hymns-on-the-nativity-of-christ-in-the-flesh
-  work: Nineteen Hymns on the Nativity of Christ in the Flesh
+- work: Nineteen Hymns on the Nativity of Christ in the Flesh
   author: ephraim
   locus: div2 3.5 — Hymns on the Nativity
   role: tradition
@@ -345,8 +309,7 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
-- row_id: ephraim_prose-refutations_mitchell1912-1921--on-virginity-a-discourse-of-s-ephraim-on-virginity
-  work: On Virginity (A Discourse of S. Ephraim on Virginity)
+- work: On Virginity (A Discourse of S. Ephraim on Virginity)
   author: ephraim
   locus: Vol. II, heading "A DISCOURSE OF S. EPHRAIM ON VIRGINITY."
   role: tradition
@@ -356,8 +319,7 @@ works:
 
     '
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt
-- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--the-nisibene-hymns
-  work: The Nisibene Hymns
+- work: The Nisibene Hymns
   author: ephraim
   locus: 'div2 3.4 — Ephraim Syrus: The Nisibene Hymns'
   role: tradition
@@ -368,8 +330,7 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
-- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--the-pearl-seven-hymns-on-the-faith
-  work: 'The Pearl: Seven Hymns on the Faith'
+- work: 'The Pearl: Seven Hymns on the Faith'
   author: ephraim
   locus: div2 3.7 — The Pearl
   role: tradition
@@ -379,8 +340,7 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
-- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--three-homilies-on-our-lord-on-admonition-and-repentance-on
-  work: Three Homilies (On Our Lord; On Admonition and Repentance; On the Sinful Woman)
+- work: Three Homilies (On Our Lord; On Admonition and Repentance; On the Sinful Woman)
   author: ephraim
   locus: 'div2 3.8 — Ephraim Syrus: Three Homilies'
   role: tradition
@@ -390,8 +350,7 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
-- row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-3
-  work: The Church History of Eusebius (Historia Ecclesiastica)
+- work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — I.13 (the Abgar narrative), IV.29 (Tatian and the Diatessaron), IV.30 (Bardesanes
     the Syrian)
@@ -410,8 +369,7 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--a-canticle-of-mar-jacob-the-teacher-on-edessa
-  work: A Canticle of Mar Jacob the Teacher on Edessa
+- work: A Canticle of Mar Jacob the Teacher on Edessa
   author: jacob-of-sarug
   locus: div2 9.4
   role: tradition
@@ -421,8 +379,7 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus-2
-  work: Lives of Illustrious Men (De Viris Illustribus)
+- work: Lives of Illustrious Men (De Viris Illustribus)
   author: jerome
   locus: div2 4.3 — the 'Bardesanes the heresiarch' and 'Ephrem the deacon' chapters
   role: context
@@ -437,8 +394,7 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-liturgy-of-the-blessed-apostles-adaeus-and-maris
-  work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+- work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
   author: liturgy-of-addai-and-mari
   locus: div2 12.4
   role: tradition
@@ -454,8 +410,7 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--a-letter-of-mara-son-of-serapion
-  work: A Letter of Mara, Son of Serapion
+- work: A Letter of Mara, Son of Serapion
   author: mara-bar-serapion
   locus: div2 9.17
   role: context
@@ -466,8 +421,7 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--moses-of-chorene-history-of-armenia-extract
-  work: 'Moses of Chorene: History of Armenia (extract)'
+- work: 'Moses of Chorene: History of Armenia (extract)'
   author: moses-of-chorene
   locus: div2 9.13
   role: tradition
@@ -479,8 +433,7 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: harris_odes-and-psalms-of-solomon_harris1911--the-odes-and-psalms-of-solomon-published-from-the-syriac
-  work: The Odes and Psalms of Solomon, published from the Syriac Version (Harris, 2nd ed.
+- work: The Odes and Psalms of Solomon, published from the Syriac Version (Harris, 2nd ed.
     1911)
   author: odes-of-solomon
   locus: the English translation-with-commentary section, file lines 6520 onward
@@ -495,8 +448,7 @@ works:
     before any specific wording should be treated as verified-direct; tracked in syr.source.odes-of-solomon''s
     own trailing note.'
   source_file: harris_odes-and-psalms-of-solomon_harris1911.txt
-- row_id: palladius_lausiac-history--lausiac-history-4
-  work: Lausiac History
+- work: Lausiac History
   author: palladius
   locus: 'Chapter XL: Ephraim'
   role: context
@@ -515,8 +467,7 @@ works:
 
     '
   source_file: palladius_lausiac-history_clarke1918.txt
-- row_id: fleet-sweep-additions-budge-v1--the-paradise-of-palladius-book-i-ch-lviij-of-the-blessed-man
-  work: The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)
+- work: The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)
   author: palladius
   locus: Chapter lviij - the angelic roll, the famine relief, and the vine growing from his
     tongue
@@ -534,8 +485,7 @@ works:
 
     '
   source_file: palladius_paradise-v1-syriac_budge1907.txt
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-clementine-homilies-2
-  work: The Clementine Homilies
+- work: The Clementine Homilies
   author: pseudo-clement
   locus: div2 6.4
   role: transmission
@@ -552,8 +502,7 @@ works:
     `transmission` role - the fourth relation - marks CUSTODY: this tradition preserved a
     work that is not its own voice. As with the Recognitions: custody here, voice in ebionite-nazoraean-current.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-recognitions-of-clement-2
-  work: The Recognitions of Clement
+- work: The Recognitions of Clement
   author: pseudo-clement
   locus: div2 6.3
   role: transmission
@@ -575,8 +524,7 @@ works:
     which stays `tradition`. Custody here, voice there - which is what the role exists to
     say.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2
-  work: The Ecclesiastical History of Sozomen
+- work: The Ecclesiastical History of Sozomen
   author: sozomen
   locus: div1 3 — esp. I.12-14, III.14, VI.28-34 (monks); II.9-14 (Persian martyrs); III.16
     (Ephraim); Books I-IV (Arian controversy); VIII (Chrysostom)
@@ -592,42 +540,19 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--address-to-the-greeks
-  work: Address to the Greeks
+- work: Address to the Greeks
   author: tatian
   locus: div2 3.2 under div1 'TATIAN'
   role: tradition
   confidence: assigned
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
-    which the syr world already reaches through his Diatessaron in anf09. The row is `assigned`:
-    the Address is inside this entry''s window on every dating read (c. 150-172, Contested);
-    his later Encratite turn is reported by Irenaeus (Adv. haer. I.28.1) and is a disclosure
-    duty, not a reason to hold the row provisional. greek-apologists-second-century holds
-    this work alongside pahc, for the era''s outward-facing writing; pahc is kept because
-    the era and church-world are genuinely its.'
+    which the syr world already reaches through his Diatessaron in anf09. Provisional because
+    he was also later branded an Encratite. greek-apologists-second-century holds this work
+    alongside pahc, for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- row_id: tatian_oratio-ad-graecos-grc-lat_otto1851--address-to-the-greeks
-  work: Address to the Greeks
-  author: tatian
-  locus: file line 1660 (first running head 'TATIANI ORATIO AD GRAECOS' inside the text (the
-    title page and prolegomena come before))
-  role: tradition
-  confidence: assigned
-  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
-    anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml) in the bucket(s) named
-    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
-    6): the Greek layer of this Google scan is OCR at a measured accuracy of roughly three
-    in four Greek tokens on a comparable Otto volume, with accent, breathing and letter errors,
-    and no page-image check has been made. Not to be quoted as the original until a clean
-    witness is vendored or the page image is checked. Otto, Corpus apologetarum vol. VI (Jena,
-    1851) with Otto''s Latin translation and the Parisian scholia. The Greek layer is present
-    (about 309,000 Greek characters). Mirrors the English twin''s role and confidence exactly.
-
-    '
-  source_file: tatian_oratio-ad-graecos-grc-lat_otto1851.txt
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--fragments-tatian
-  work: Fragments (Tatian)
+- work: Fragments (Tatian)
   author: tatian
   locus: div2 3.3 under div1 'TATIAN'
   role: tradition
@@ -636,8 +561,7 @@ works:
 
     '
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-diatessaron-of-tatian
-  work: The Diatessaron of Tatian
+- work: The Diatessaron of Tatian
   author: tatian
   locus: div2 4.3 (with subscriptions, 4.4)
   role: tradition
@@ -649,16 +573,14 @@ works:
 
     '
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-teaching-of-simon-cephas-in-the-city-of-rome
-  work: The Teaching of Simon Cephas in the City of Rome
+- work: The Teaching of Simon Cephas in the City of Rome
   author: teaching-of-simon-cephas
   locus: div2 9.8
   role: tradition
   confidence: assigned
   note: Syriac doctrina from the same Edessene collection.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-teaching-of-the-apostles-syriac
-  work: The Teaching of the Apostles (Syriac)
+- work: The Teaching of the Apostles (Syriac)
   author: teaching-of-the-apostles-syriac
   locus: div2 9.7
   role: tradition
@@ -668,8 +590,7 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-3
-  work: The Ecclesiastical History of Theodoret
+- work: The Ecclesiastical History of Theodoret
   author: theodoret
   locus: div2 3.8 — II.26 (the siege of Nisibis and 'the apostolic conversation' of Bishop
     Jacobus), IV.26 (Of Didymus of Alexandria and Ephraim the Syrian)
@@ -686,8 +607,7 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--two-epistles-concerning-virginity-2
-  work: Two Epistles Concerning Virginity
+- work: Two Epistles Concerning Virginity
   author: two-epistles-on-virginity
   locus: div2 5.3-5.4
   role: transmission

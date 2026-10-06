@@ -10,8 +10,7 @@ authors_ruled:
       author; Mommsen and Meyer are its modern editors, not its authors.
 
 assignments:
-  - row_id: theodosianus-16_mommsen-meyer1905--theodosiani-libri-xvi-book-16-critical-latin-text
-    work: "Theodosiani Libri XVI (Book 16, critical Latin text)"
+  - work: "Theodosiani Libri XVI (Book 16, critical Latin text)"
     author: theodosian-code
     locus: "Book 16"
     atlas_ids:
@@ -26,8 +25,7 @@ assignments:
       movement from outside, same footing as the Council acts and
       Appendix of Documents already mapped for this entry.
 
-  - row_id: theodosianus-16_mommsen-meyer1905--theodosiani-libri-xvi-book-16-critical-latin-text-2
-    work: "Theodosiani Libri XVI (Book 16, critical Latin text)"
+  - work: "Theodosiani Libri XVI (Book 16, critical Latin text)"
     author: theodosian-code
     locus: "as above"
     atlas_ids:
@@ -42,8 +40,7 @@ assignments:
       entry's own confirmation, the same caveat the Appendix entry already
       carries.
 
-  - row_id: theodosianus-16_mommsen-meyer1905--the-imperial-communion-law-of-381-cth-16-1-3-30-july-381
-    work: "The imperial communion law of 381 (CTh 16.1.3, 30 July 381), naming Helladius, Otreius, Gregory of Nyssa, and Amphilochius"
+  - work: "The imperial communion law of 381 (CTh 16.1.3, 30 July 381), naming Helladius, Otreius, Gregory of Nyssa, and Amphilochius"
     author: theodosian-code
     locus: "Book 16, Title 1, Law 3"
     atlas_ids:
@@ -75,8 +72,7 @@ assignments:
       Doc_02, not resting solely on this text; that caveat in row 79
       and the record stands unchanged by this entry.
 
-  - row_id: theodosianus-16_mommsen-meyer1905--the-general-school-law-of-june-362-cth-13-3-5
-    work: "The general school law of June 362 (CTh 13.3.5)"
+  - work: "The general school law of June 362 (CTh 13.3.5)"
     author: theodosian-code
     locus: "Book 13, Title 3, Law 5 (\"Magistros studiorum doctoresque excellere oportet moribus primum, deinde facundia...\")"
     atlas_ids:

@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: danubian-latin-christianity
 works:
-- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--commentary-on-the-apocalypse-of-the-blessed-john
-  work: Commentary on the Apocalypse of the Blessed John
+- work: Commentary on the Apocalypse of the Blessed John
   author: victorinus
   locus: div2 6.2
   role: tradition
@@ -16,8 +15,7 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-the-creation-of-the-world
-  work: On the Creation of the World
+- work: On the Creation of the World
   author: victorinus
   locus: div2 6.1
   role: tradition

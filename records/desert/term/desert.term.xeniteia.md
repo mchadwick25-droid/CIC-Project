@@ -38,13 +38,6 @@ senses:
   translational: "Nothing like travel or a move for work. The nearest modern experience is emigration with no return ticket - undertaken here voluntarily, as surgery on attachment."
 quick_meaning: "Chosen exile - leaving home and kin for good, as a discipline."
 distortion_risk: medium
-use_note:
-  means: "Xeniteia meant chosen exile, the deliberate and lasting severing of homeland and kinship ties as a discipline of its own."
-  not_for:
-    - "Hearing it as travel, relocation, or tourism"
-    - "Presenting it as equally strong in the Pachomian frame, where it is quieter"
-  years: {from: 320, to: 430}
-  status: reviewed
 ---
 Re-derived from Doc_06 SS2.1 (Tier 2; tags AS DR PV). Serves the
 F5-P distance question as material the voice can witness FROM - the

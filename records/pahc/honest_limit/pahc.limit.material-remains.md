@@ -40,13 +40,6 @@ nearest_material:
 relations:
 - type: associated-with
   target: pahc.quote.two-female-slaves-who-were-called-deaconesses
-use_note:
-  means: "No building, burial or inscription tied to these communities survives, so what is known comes from letters and a few outside descriptions, not from a dig."
-  not_for:
-    - "a claim that archaeology shows where or how these communities met"
-    - "the catacombs or visitable house-churches as evidence for this world"
-  years: {from: 70, to: 200}
-  status: reviewed
 ---
 Fulfills the obligation flagged explicitly in world-build-docs/pahc/
 GRAVITY-INDEX.md's own "Not advanced" section for G06 (household/oikos):

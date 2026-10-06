@@ -11,8 +11,7 @@ authors_ruled:
       an author.
 
 assignments:
-  - row_id: cil8-supplementum-numidiae_cagnat-schmidt1894--corpus-inscriptionum-latinarum-viii-supplementum
-    work: "Corpus Inscriptionum Latinarum VIII, Supplementum: Inscriptiones
+  - work: "Corpus Inscriptionum Latinarum VIII, Supplementum: Inscriptiones
       Provinciae Numidiae"
     author: cil8-numidia
     locus: "whole volume"

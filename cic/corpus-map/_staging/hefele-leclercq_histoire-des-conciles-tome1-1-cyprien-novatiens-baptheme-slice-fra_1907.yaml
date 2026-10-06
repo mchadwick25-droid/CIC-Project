@@ -1,8 +1,7 @@
 source_file: hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt
 
 assignments:
-  - row_id: hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907--hefele-and-leclercq-histoire-des-conciles-tome-1-part-1
-    work: "Hefele and Leclercq, Histoire des conciles, tome 1 part 1: Cyprian, the Novatians, baptism (1907, slice)"
+  - work: "Hefele and Leclercq, Histoire des conciles, tome 1 part 1: Cyprian, the Novatians, baptism (1907, slice)"
     author: hefele-leclercq
     locus: "sections 5-6; item lines 9020-10431"
     atlas_ids:

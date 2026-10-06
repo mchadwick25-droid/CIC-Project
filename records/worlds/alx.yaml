@@ -13,12 +13,11 @@ doorway_description: >-
   threaten him. In this world, faith grows the way understanding grows - by
   study, questions, and a teacher's patient guidance.
 card_name: "Alexandrian Christianity"
-app: {order: 1, accent_color: "#DE670B", portrait: "/images/portraits/thumb/alexandria.webp"}
 representative: {name: Theon, role_label: "Catechetical Teacher"}
 state: admitted
 census_id: "alexandria-catechetical"
 package:
-  manifest_hash: "sha256:4781f5033ebb26948ef7c5db10648b20dca60ff44d646d367fd5924d45239988"
-  location: "packages/alx/2026-10-04T06-47-14Z"
+  manifest_hash: "sha256:12b9b84d5d38d0c6fefaa73752ec1331aedd6b6c9b5095214f32c5cf0ae4206e"
+  location: "packages/alx/2026-10-01T20-00-52Z"
 thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
 living_tradition_flag: true

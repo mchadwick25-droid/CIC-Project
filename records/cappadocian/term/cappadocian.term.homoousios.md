@@ -51,14 +51,5 @@ senses:
 quick_meaning: '''Of the same being'': Nicaea''s contested word, defended here as the faith of the 318
   fathers.'
 distortion_risk: medium
-use_note:
-  means: "Homoousios meant of the same being, Nicaea's word that the Son is what the Father is, inherited and defended though not found in Scripture."
-  not_for:
-    - "a word this world coined"
-    - "a word Basil applied plainly to the Spirit, as examined in cappadocian.gravity.precision-reserve"
-    - "creedal boilerplate"
-    - "the pair of words for one being and three persons, which sit in cappadocian.term.ousia-hypostasis"
-  years: {from: 325, to: 381}
-  status: reviewed
 ---
 Built from Doc_06 entry 14 (Tier 2).

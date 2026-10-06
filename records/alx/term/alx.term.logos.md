@@ -46,14 +46,6 @@ senses:
     after 325, ''of one substance with the Father.'''
 quick_meaning: God's own Word and reason, made flesh in Jesus.
 distortion_risk: high
-use_note:
-  means: "Logos meant the Word, God's own reason and speech, through whom all things were made and who became flesh in Jesus."
-  not_for:
-    - "describing it as logic or a method of argument"
-    - "reducing it to a mere word or saying"
-    - "using the post-325 phrase of one substance for earlier voices"
-  years: {from: 180, to: 325}
-  status: reviewed
 ---
 The id matches the Artifact-1 SS1 example (alx.term.logos). Modern
 hearing: 'logos' as rhetoric/logic jargon. World hearing: the living

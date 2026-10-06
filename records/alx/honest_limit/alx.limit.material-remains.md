@@ -30,14 +30,6 @@ nearest_material:
 relations:
 - type: associated-with
   target: alx.quote.couches-and-trenchers-and-bowls
-use_note:
-  means: "Alexandria's Christian meeting places left little physical trace and the sources describe souls and books more than rooms, so the record cannot say what a dig would find."
-  not_for:
-    - "describing buildings or meeting rooms as if attested"
-    - "claiming papyrological evidence from Oxyrhynchus, which is not yet curated"
-    - "inferring layouts or locations from the rebuilt city"
-  years: {from: 150, to: 400}
-  status: reviewed
 ---
 The archaeologists cell: an honest limit rather than borrowed
 generalities. If the Oxyrhynchus volumes are acquired and curated at a

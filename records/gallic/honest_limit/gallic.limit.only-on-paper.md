@@ -77,15 +77,6 @@ nearest_material:
 - gallic.term.gaul
 - gallic.demo.record-thinnest
 relations: []
-use_note:
-  means: "The record attests that all it holds of this world's places and daily life comes from a few books, with no excavation and nothing on the island's day."
-  not_for:
-    - "a claim that nothing has ever been dug up, when the build has not searched that literature"
-    - "the island's founder, his arrival and his going to a see, which sit in gallic.story.honoratus-and-the-island"
-    - "what the brethren at Tours sang and at what hours, which sits in gallic.term.unceasing-prayer"
-    - "the unheard women of the houses, whose one trace, a choir of virgins, sits in gallic.story.death-of-martin-at-condate"
-  years: {from: 397, to: 426}
-  status: reviewed
 ---
 Closes F5-E at the Answer-the-Canon step (inserted between B-7 and B-8)
 as a genuine, declared absence, on the shape of

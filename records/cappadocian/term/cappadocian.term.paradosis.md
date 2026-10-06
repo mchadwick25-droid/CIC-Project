@@ -63,14 +63,5 @@ senses:
     and owned by no one, which is exactly why no single person could invent or cancel them at will.'
 quick_meaning: 'The handed-down: unwritten customs of the churches, argued as carrying the faith too.'
 distortion_risk: high
-use_note:
-  means: "Paradosis meant the handed-down unwritten customs of the churches, which Basil argued carry the apostles' faith alongside Scripture."
-  not_for:
-    - "tradition set against Scripture as a rival authority"
-    - "an infallible authority equal to the Bible"
-    - "the argument as the era's common property, when it may be Basil's own forensic move"
-    - "the teaching in full, which sits in cappadocian.dw.unwritten-carries-too"
-  years: {from: 375, to: 379}
-  status: reviewed
 ---
 Built from Doc_06 entry 4 (Tier 1).

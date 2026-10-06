@@ -86,14 +86,6 @@ senses:
     given to people our own side helped suppress.'
 quick_meaning: Our own names for the radicals, charged with claiming the Spirit apart from the Word.
 distortion_risk: high
-use_note:
-  means: "Sects meant radicals called new spirits and fanatics, charged with claiming the Spirit apart from God's external Word, the Anabaptists being named in the Confession."
-  not_for:
-    - "'enthusiast' or 'fanatic' as temperament words"
-    - "'Anabaptist' as a neutral label"
-    - "the radicals' own account of themselves, which the library does not carry"
-  years: {from: 1520, to: 1545}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 6.8 (sects / 'new spirits' / Anabaptists, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

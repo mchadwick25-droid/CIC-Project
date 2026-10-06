@@ -3,8 +3,7 @@
 source_file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
 
 assignments:
-  - row_id: calvin_institutes-christian-religion-vol3_beveridge1845--institutes-of-the-christian-religion-book-iv-of-the-external
-    work: "Institutes of the Christian Religion, Book IV (Of the External
+  - work: "Institutes of the Christian Religion, Book IV (Of the External
       Means or Helps by Which God Invites Us into the Society of Christ,
       and Keeps Us in It)"
     author: calvin

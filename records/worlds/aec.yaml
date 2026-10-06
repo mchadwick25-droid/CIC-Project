@@ -1,7 +1,0 @@
-kind: formation
-world_id: antiochene-exegetical-christianity-chrysostom-ce
-display_name: "Antiochene Exegetical Christianity (Chrysostom-centered)"
-time_window: {start: 350, end: 430}
-place: "Antioch"
-state: candidate
-census_id: "antiochene-exegetical-christianity-chrysostom-ce"

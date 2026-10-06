@@ -1,8 +1,7 @@
 source_file: wyclif_de-ecclesia-lat_loserth1886.txt
 
 assignments:
-  - row_id: wyclif_de-ecclesia-lat_loserth1886--tractatus-de-ecclesia
-    work: "Tractatus de Ecclesia"
+  - work: "Tractatus de Ecclesia"
     author: wyclif
     locus: "whole volume"
     atlas_ids:

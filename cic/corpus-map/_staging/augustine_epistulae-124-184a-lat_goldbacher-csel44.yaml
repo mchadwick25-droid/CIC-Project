@@ -1,8 +1,7 @@
 source_file: augustine_epistulae-124-184a-lat_goldbacher-csel44.txt
 
 assignments:
-  - row_id: augustine_epistulae-124-184a-lat_goldbacher-csel44--augustine-s-epistulae-124-184a-goldbacher-s-critical-edition
-    work: "Augustine's Epistulae 124-184A (Goldbacher's critical edition)"
+  - work: "Augustine's Epistulae 124-184A (Goldbacher's critical edition)"
     author: augustine
     locus: "whole file, Ep. CXXIV-CLXXXIV A"
     atlas_ids:

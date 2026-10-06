@@ -49,13 +49,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.received-programs-logic
-use_note:
-  means: "Cassian closes the Institutes by teaching that no perfect virtue is possible without God's grace and that even knowing this is God's gift."
-  not_for:
-    - "the humility-faith sentence of Institutes XII.19, which sits in gallic.quote.genuine-faith-of-the-ancient-fathers"
-    - "a settled resolution of this world's contested grace question"
-  years: {from: 415, to: 426}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "is His own gift"` returns line 25860; read with `sed -n '25852,25860p'`, inside `<div4 title="Chapter

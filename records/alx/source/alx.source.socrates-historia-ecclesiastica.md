@@ -15,7 +15,8 @@ confidence:
 sources: []
 author: 'Socrates Scholasticus (c. 380 - after 439 CE) - a Constantinopolitan lawyer-historian writing
   c. 439: a LATER witness, the same class as Palladius (419-420), used only for figure testimonia'
-work: Historia Ecclesiastica (Church History) - cited here only for facts about people (Athanasius's death and 46-year episcopate, IV.20; the Didymus notice, IV.25), not as a source of the world's teaching
+work: Historia Ecclesiastica (Church History) - used ONLY as figure testimonia (Athanasius's death and
+  46-year episcopate, IV.20; the Didymus notice, IV.25), never as in-world voice
 edition: trans. A.C. Zenos, NPNF series 2 vol. 2 (1890), vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml
 kind: vendored
 rights_status: public-domain

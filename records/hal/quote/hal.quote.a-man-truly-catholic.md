@@ -38,14 +38,6 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.dw.one-church
-use_note:
-  means: "Sulpitius Severus, writing in Gaul around 404, calls Jerome truly Catholic and notes he had turned from reputed follower of Origen to condemning all his writings."
-  not_for:
-    - "a claim that 'Catholic' here names a denomination in the modern sense"
-    - "a claim that this is Jerome's own account of his orthodoxy rather than a distant admirer's view"
-    - "a claim that Jerome was never thought to follow Origen"
-  years: {from: 393, to: 404}
-  status: reviewed
 ---
 Opened for F3-T, served by hal.dw.one-church alone, which cites this dialogue for
 "a man truly Catholic" and could not show it.

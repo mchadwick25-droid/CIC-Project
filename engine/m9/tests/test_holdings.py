@@ -7,37 +7,12 @@ import pytest
 from engine.m9.holdings import DISPOSITIONS, holdings_for, report
 
 
-_GALLIC_NINETEEN = {
-    "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
-    "anf05_hippolytus-cyprian-caius-novatian.xml",
-    "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
-    "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
-    "npnf102_augustine-city-of-god-christian-doctrine.xml",
-    "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml",
-    "npnf104_augustine-anti-manichaean-anti-donatist.xml",
-    "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
-    "npnf107_augustine-homilies-john-soliloquies.xml",
-    "npnf108_augustine-exposition-psalms.xml",
-    "npnf201_eusebius-church-history-life-of-constantine.xml",
-    "npnf204_athanasius-select-works-letters.xml",
-    "npnf206_jerome-principal-works.xml",
-    "npnf208_basil-letters-select-works.xml",
-    "npnf209_hilary-poitiers-john-damascus.xml",
-    "origen_de-oratione-grc_koetschau1899.txt",
-    "origen_philocalia_lewis1911.txt",
-    "palladius_lausiac-history_clarke1918.txt",
-    "palladius_paradise-v1-syriac_budge1907.txt",
-}
-
-
 def test_gallic_shows_nineteen_not_yet_assessed():
     """The literal Done bar in Build-Plan.md Stage 2d: "gallic's 19
-    unopened volumes show not-yet-assessed" - the nineteen named above stay
-    not-yet-assessed; a volume vendored later and in scope adds to the
-    count, never subtracts."""
+    unopened volumes show not-yet-assessed" - a real, checkable number,
+    not an illustrative one."""
     rows = holdings_for("gallic")
-    unassessed = {r["file"] for r in rows if r["disposition"] == "not yet assessed"}
-    assert len(unassessed) >= 19 and _GALLIC_NINETEEN <= unassessed
+    assert sum(1 for r in rows if r["disposition"] == "not yet assessed") == 19
 
 
 def test_every_row_carries_a_closed_disposition():

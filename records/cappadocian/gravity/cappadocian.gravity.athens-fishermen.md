@@ -43,46 +43,41 @@ relations:
 name: "Athens against the fishermen [TENSIONAL]"
 classification: tensional
 description: >-
-  The learned instrument works against the simplicity it serves, and the tension is felt from both sides.
-  From outside, Julian claimed the classics for the gods. From inside, impatience with argument held that the
-  fishermen did not reason in syllogisms. Within the church, the fishermen are voiced almost only by
-  learned men who report their critics. The outside pole is the exception. Julian is documented in his own
-  voice. It is strong on repetition, but moderate on dependency. Within its own register it is moderate to
-  strong on formation, since the Address is itself a formation document. It teaches what to take, what to
-  leave, and the bees among the flowers as a practice. It is strong on explanation. It explains why the
-  Address exists. It explains why the world's best preachers keep praising plain simplicity in high style.
-  It explains why Julian's edict struck where it struck. It explains why Eunomius was read as the
-  instrument worshipped. It is moderate on persistence, bounded by the elite. It is strong on interaction.
-  It stands as a tension, but a narrower one than the first classification implied. This is the tension of
-  the formed and lettered world. It is real wherever the ladder reached, and it was lived out from both
-  sides. It is not a pull across the whole plateau. Folding it back into the paideia gravity as inner
-  texture was weighed with care. It was declined on two grounds, but that reading is kept open. This tension has its own history of
-  forces. Its pattern of interaction also differs. The paideia gravity competes with the ascetic
-  reordering at the same junction. This one only reshapes it. The evidence rates Documented across four
-  streams. Uniquely among this world's tensions, that includes the adversary's own voice. The elite limit
-  is a limit of breadth, not of confidence. There is no divergence beyond that limit. It was forced into
-  self-awareness twice, and both times by provocation. Julian's edict made the classics a battlefield.
-  Eunomius made dialectic a cautionary spectacle. That both crises were provocations confirms a real
-  standing force. It also explains the limit. The provocations reached the lettered. The plateau's
-  formation never depended on the answer. The see and the circle feel it strongly. The brotherhood is the
-  pole of simplicity, made into an institution. The congregation is the audience for the preaching, where
-  high style praises plain faith. The countryside feels it barely. It is weighted toward the elite, like
-  its parent, the paideia gravity, which is Supporting.
+  The learned instrument against the simplicity it serves, felt from both directions: Julian's
+  expropriation from without (the classics belong to the gods), anti-dialectical impatience from within (the
+  fishermen did not syllogize) (Doc_04 §1, §4). Generated at Revision 1, a split from candidate 3's evidence
+  field, tested to answer whether this is a gravity at all or merely candidate 3's (Gravity 4, paideia
+  converted's) interior texture - the original run split it out at classification without showing why
+  (Doc_04 §3.1). AG FLAG AT GENERATION (Doc_04 §1): the "fishermen" side inside the church is voiced almost
+  solely by the learned reporting their critics; the external pole (Julian) is the exception, documented in
+  his own voice. SIX-TEST SUMMARY (Doc_04 §3.1): strong on Repetition; MODERATE on Dependency; moderate-strong
+  within its register on Formation (the Address is literally a formation document - what to take, what to
+  leave, the bee-flowers discipline as taught practice); strong on Explanatory (explains why the Address
+  exists, why the world's most rhetorical preachers keep praising unlettered simplicity in high style, why
+  Julian's edict struck where it struck, why Eunomius was read as the instrument worshipped); MODERATE
+  (elite-bounded) on Persistence; strong on Interaction. Verdict: survives as Tensional - but narrower than
+  the original classification implied: this is the formed-and-lettered world's tension, real wherever the
+  ladder reached and enacted from both directions, not a plateau-wide pull. The fold-in alternative (folding
+  this back into Supporting 4/Gravity 4 as internal texture) was seriously considered at Revision 1 and
+  declined on two grounds: this tension has its own force-history distinct from Gravity 4's, and its
+  interaction row is distinct (Gravity 4 COMPETES with Gravity 2 at the same junction while this gravity only
+  RESHAPES it). The alternative is
+  recorded at Doc_04 §9 item 4 for the external reviewer, not erased. CONFIDENCE/GRAVITY CROSS-CHECK (Doc_04
+  §3.2): Documented across four streams, including - uniquely among this world's tensions - the adversary's
+  own voice; the elite-register boundary is a breadth limit, not a confidence limit. Tensional; no
+  divergence beyond that named boundary. FORCES TEST (Doc_04 §3.3): forced into self-consciousness twice,
+  both times by provocation - Julian's edict making the classics a battlefield, and Eunomius making dialectic
+  a cautionary spectacle. That its two crises are provocations confirms it as a real standing force while
+  explaining its boundary: the provocations reached the lettered; the plateau's formation never depended on
+  the answer. CROSS-REGISTER (Doc_04 §5): see and circle strongly; brotherhood as the institutionalized
+  simplicity-pole; congregation as the preaching's audience (high style praising plain faith); countryside
+  barely. Register-weighted (elite) - mirroring its parent Supporting 4 (Gravity 4).
 manifestations:
 - Address to Young Men - a defense that exists because live suspicion existed
 - Julian's own rescript and school edict (361-363) - the one pole of this tension in the adversary's own words
 - the dogmatic-polemical stream's double posture - dialectic wielded against Eunomius and dialectic-worship denounced
 - the money-changers complaint - hostile witness to marketplace dialectic
 - the Rules' own subordination of secular learning within the brotherhoods
-use_note:
-  means: "The learned instrument stands against the simplicity it serves, pressed from outside by Julian's edict and from inside by impatience with dialectic."
-  not_for:
-    - "a plateau-wide tension, when it was felt chiefly where the lettered ladder reached"
-    - "the fishermen's own voice, which survives only in the learned reports of their critics"
-    - "Julian's edict as ordinary schooling practice, when it was a brief imperial measure of 361 to 363"
-    - "the conversion of Greek schooling as a whole, which sits in cappadocian.gravity.paideia-converted"
-  years: {from: 361, to: 379}
-  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 12, added and tested at Revision 1 -> final Gravity 11, per
 §4's concordance table). Interaction Matrix (§6, row/col 12): reshaping (S) with Gravity 1, Gravity 2,

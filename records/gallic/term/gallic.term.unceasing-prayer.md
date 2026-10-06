@@ -134,15 +134,6 @@ quick_meaning: >-
   Prayer that never stops, the aim of every monk. At Marseilles, a received Egyptian system of twelve
   psalms at fixed hours built to serve that aim.
 distortion_risk: high
-use_note:
-  means: "Unceasing prayer meant the aim of every monk, attested at Tours only as that aim, and served at Marseilles by Cassian's received Egyptian system of twelve psalms at fixed hours."
-  not_for:
-    - "the Divine Office as one settled book, or later hours whose names Lauds, Prime and Compline are the editor's"
-    - "fixed hours or a sung office at Tours, where only the aim is attested"
-    - "the mill-wheel of thoughts fed by psalms learned by heart, which sits in gallic.term.thoughts"
-    - "reading of Scripture or lessons at the hours, which this record does not hold"
-  years: {from: 397, to: 426}
-  status: reviewed
 ---
 Built from Doc_06 entry 007 (Tier 1, promoted from Doc_03's Tier 2 on Doc_05's Worship lens; chunk
 galliclex007_unceasing-prayer.md; Doc_03 4.11). Register emic. Quotations verified at locus by the

@@ -91,13 +91,6 @@ divergence_partners:
 relations:
 - type: associated-with
   target: don.gravity.parallel-hierarchy
-use_note:
-  means: "Donatists claimed to be a complete church, not a faction, contesting the same sees, and held that the state's grant of catholicus settled nothing."
-  not_for:
-    - "a claim that the petition 'of the party of Donatus' showed they belonged to a man rather than to Christ's church"
-    - "a claim that the 411 figures of 279 and 286 are agreed, since the editorial summary and the roll-call differ"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.4 (candidate G4, six of six PASS with
 Dependency revealing Supporting rather than Primary status, classified Supporting - the integrating

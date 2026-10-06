@@ -3,8 +3,7 @@
 # `eunomius` entry.
 source_file: eunomius_first-apology_whiston1711.txt
 assignments:
-- row_id: eunomius_first-apology_whiston1711--the-first-apology-liber-apologeticus
-  work: The First Apology (Liber Apologeticus)
+- work: The First Apology (Liber Apologeticus)
   author: eunomius
   locus: whole file - chapters I-XXVIII (Whiston's numbering, Vaggione's
     re-numbering per Pearse's edition) plus 23 footnotes
@@ -21,8 +20,7 @@ assignments:
     not survive independently and is known only through hostile
     quotation inside Gregory of Nyssa's own refutation (npnf205,
     already vendored).
-- row_id: eunomius_first-apology_whiston1711--the-first-apology-liber-apologeticus-2
-  work: The First Apology (Liber Apologeticus)
+- work: The First Apology (Liber Apologeticus)
   author: eunomius
   locus: whole file - chapters I-XXVIII plus 23 footnotes
   atlas_ids:

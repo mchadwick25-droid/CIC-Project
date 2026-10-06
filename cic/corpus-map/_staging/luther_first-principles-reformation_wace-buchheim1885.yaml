@@ -6,8 +6,7 @@
 source_file: luther_first-principles-reformation_wace-buchheim1885.txt
 
 assignments:
-  - row_id: luther_first-principles-reformation_wace-buchheim1885--first-principles-of-the-reformation-the-ninety-five-theses
-    work: "First Principles of the Reformation: The Ninety-Five Theses,
+  - work: "First Principles of the Reformation: The Ninety-Five Theses,
       the Address to the Nobility of the German Nation, On Christian
       Liberty, and On the Babylonish Captivity of the Church"
     author: luther

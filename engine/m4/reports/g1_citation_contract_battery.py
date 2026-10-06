@@ -1,5 +1,5 @@
 """R39-audit G1/G2 (the reviewer's own retrofit brief, 2026-09-23): the
-fleet-wide `citation_contract` (engine/shape/records/fleet_voice/
+fleet-wide `citation_contract` (records/_fleet/fleet_voice/
 _fleet.voice.fleet.md) has no paragraph-level anchoring language (a
 paragraph's own interpretive/connective sentences ride on the same
 ground the paragraph opened with, but nothing says that explicitly -
@@ -28,7 +28,7 @@ immediately after the citation contract's own last sentence ("...only
 the sentence is."), a stable anchor present verbatim in every world's
 compiled prompt regardless of that world's own per-world example ids
 inside the contract's own worked example - the actual contract wording
-is fleet-wide (engine/shape/records/fleet_voice/_fleet.voice.fleet.md's own
+is fleet-wide (records/_fleet/fleet_voice/_fleet.voice.fleet.md's own
 `citation_contract` field), and only its two bracketed example ids get
 per-world substituted at compile time, so appending after this stable
 tail sentence is safe across every world without needing to match the

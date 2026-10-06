@@ -69,14 +69,6 @@ relations:
   target: desert.term.geron-abba-amma
 - type: associated-with
   target: desert.term.apatheia
-use_note:
-  means: "Palladius reports Mother Talida of Antinoe leading sixty virgins never deprived of the key, unlike other women's houses, and laying her hands on him from impassibility."
-  not_for:
-    - "the laying on of hands as mere warmth rather than a claim about her apatheia"
-    - "Palladius's aside that other women's houses took the key away as well-documented general practice"
-    - "Talida's house as typical of women's communities as a whole"
-  years: {from: 388, to: 420}
-  status: reviewed
 ---
 Verified verbatim against the vendored file.
 

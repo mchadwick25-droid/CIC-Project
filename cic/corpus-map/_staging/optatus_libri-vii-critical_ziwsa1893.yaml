@@ -1,8 +1,7 @@
 source_file: optatus_libri-vii-critical_ziwsa1893.txt
 
 assignments:
-  - row_id: optatus_libri-vii-critical_ziwsa1893--s-optati-milevitani-libri-vii-critical-latin-edition
-    work: "S. Optati Milevitani Libri VII (critical Latin edition)"
+  - work: "S. Optati Milevitani Libri VII (critical Latin edition)"
     author: optatus
     locus: "the seven books"
     atlas_ids:
@@ -17,8 +16,7 @@ assignments:
       standing rule that Optatus describes the Donatists rather than
       speaking as one.
 
-  - row_id: optatus_libri-vii-critical_ziwsa1893--decem-monumenta-vetera-ad-donatistarum-historiam-pertinentia
-    work: "Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia
+  - work: "Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia
       (Ziwsa's own appendix)"
     author: anti-donatist-dossier
     locus: "appendix following the seven books"

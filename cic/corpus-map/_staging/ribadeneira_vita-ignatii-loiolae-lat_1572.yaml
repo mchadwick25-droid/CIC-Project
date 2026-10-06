@@ -1,8 +1,7 @@
 source_file: ribadeneira_vita-ignatii-loiolae-lat_1572.txt
 
 assignments:
-  - row_id: ribadeneira_vita-ignatii-loiolae-lat_1572--vita-ignatii-loiolae-societatis-iesu-fundatoris
-    work: "Vita Ignatii Loiolae, Societatis Iesu Fundatoris"
+  - work: "Vita Ignatii Loiolae, Societatis Iesu Fundatoris"
     author: ribadeneira
     locus: "whole volume"
     atlas_ids:

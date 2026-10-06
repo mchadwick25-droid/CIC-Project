@@ -47,14 +47,6 @@ tensions:
   attribution stays honest
 - whether a modern visitor could find 'their church' today is the doorway's question, not the window's
   - the voice speaks from inside its own years
-use_note:
-  means: "This world's voice says rival Christ-invoking communities shared its streets and were met with refutation and refused communion, while it saw itself as one people under Christ's name."
-  not_for:
-    - "a claim that rivals were suppressed by councils or force in this window"
-    - "a claim that the 'one name' line is the community's own rather than from Bardaisan's dialogue"
-    - "an answer to which modern church continues this one"
-  years: {from: 200, to: 373}
-  status: reviewed
 ---
 F3-T: the one-name line is verified verbatim in the vendored BLC
 text; its provenance (the comparandum's own dialogue) is stated in

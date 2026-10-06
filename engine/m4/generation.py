@@ -19,11 +19,9 @@ exists to stop doing. engine.m4.grounding_net.check_turn is what reads the
 tags this call's own output carries.
 """
 from dataclasses import dataclass
-from typing import Callable
 
 from anthropic import APIError, APITimeoutError
 
-from engine.m4.voice_request import build_voice_request
 from engine.m5.failure import CallOutcome
 
 
@@ -36,7 +34,6 @@ class StreamResult:
 def stream_voice_turn(
     client, model_id: str, *, system_prompt: str, message: str, turn_directive: str | None = None,
     history: list[dict] | None = None, max_tokens: int = 1024, timeout: float = 90.0,
-    on_text: Callable[[str], None] | None = None,
 ) -> CallOutcome:
     """Returns a CallOutcome whose .value is a StreamResult on success. A
     stream that completes but yields zero text is still status='ok' (it's a
@@ -44,24 +41,38 @@ def stream_voice_turn(
     exactly the case the caller (engine.m4.turn) must handle without ever
     conditioning crisis-resource append on it.
 
-    The request is shaped by engine.m4.voice_request.build_voice_request: the
-    engine's shape segment and then the world's compiled prompt are the cached
-    system prefix, the session history carries the last cache breakpoint, and
-    the per-turn directive rides at the front of the final user message. A world's compiled prompt still has
-    to clear Anthropic's cache-eligibility floor (~1024 tokens for
-    Sonnet-class) to engage - a short prompt (like the fixture's) legitimately
-    shows cache_engaged=False, which is a different fact from "caching is
-    broken."
+    system is the structured cache-eligible shape (Program-Spec SS7: "keep
+    the Messages-API client shape... the static prefix is cached"), not a
+    plain string - a plain string never asks for a cache write in the first
+    place, so every cache field would read trivially zero. A world's
+    compiled prompt still has to clear
+    Anthropic's cache-eligibility floor (~1024 tokens for Sonnet-class) to
+    actually engage - a short prompt (like the fixture's) legitimately
+    shows cache_engaged=False, and that is a different, honest fact from
+    "caching is broken."
 
-    on_text receives each chunk of raw model text as it arrives, so a caller
-    can show a draft while the reply is still being written. It only observes:
-    the returned text and every check on it are unchanged.
-    """
+    system_prompt is the stable part (the world's compiled prompt, byte-
+    identical across every turn of a session) and carries the sole
+    cache_control breakpoint. turn_directive is the per-turn part, which
+    changes every turn by definition, and so goes in a SECOND block AFTER
+    that breakpoint, uncached. Concatenating the two into one cached block
+    is what the usage log caught: four consecutive turns of one world
+    wrote ~13,900 cache tokens each and read zero, because the directive's
+    first differing byte invalidated the whole prefix behind it. Splitting
+    them changes nothing the model sees - same bytes, same order - only
+    where the cache boundary falls.
+
+    history is the session so far, oldest first, as Messages-API turns -
+    Program-Spec M4's "full-session memory", which until now was simply
+    absent: every turn was sent as a single user message and the voice had
+    never heard the last thing it said. It rides in `messages`, after the
+    cached system prefix, so a growing conversation never disturbs the
+    world prompt's cache entry."""
     try:
         chunks = []
-        system, messages = build_voice_request(
-            system_prompt=system_prompt, message=message, turn_directive=turn_directive, history=history,
-        )
+        system = [{"type": "text", "text": system_prompt, "cache_control": {"type": "ephemeral"}}]
+        if turn_directive:
+            system.append({"type": "text", "text": turn_directive})
         # timeout: this is the one call that holds a participant's HTTP
         # request open. Unlike the cheap gate calls (bounded at 4s), it
         # would otherwise have no bound (SDK default: 600s read). 90s is
@@ -70,12 +81,11 @@ def stream_voice_turn(
         # answers short. The APITimeoutError catch below already handles
         # the outcome - the bound just makes it reachable.
         with client.messages.stream(
-            model=model_id, max_tokens=max_tokens, system=system, messages=messages, timeout=timeout,
+            model=model_id, max_tokens=max_tokens, system=system,
+            messages=[*(history or []), {"role": "user", "content": message}], timeout=timeout,
         ) as stream:
             for text in stream.text_stream:
                 chunks.append(text)
-                if on_text is not None:
-                    on_text(text)
             final_usage = stream.get_final_message().usage
     except APITimeoutError:
         return CallOutcome(status="timeout")

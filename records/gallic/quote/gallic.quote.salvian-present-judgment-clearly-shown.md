@@ -43,14 +43,6 @@ relations:
   target: gallic.force.barbarian-fiscal-ruin
 - type: associated-with
   target: gallic.gravity.judgment-imminent-present
-use_note:
-  means: "Salvian, in On the Government of God, reads a defeated Roman general's capture as clear evidence of God's present judgment."
-  not_for:
-    - "the regional sweep of invasion, which sits in gallic.quote.salvian-ever-present-judgment-gallic-provinces"
-    - "a judgment still to come, when Salvian calls it present"
-    - "Vincent's expectation of coming judgment, which sits in gallic.quote.vincent-awful-expectation-of-judgment"
-  years: {from: 439, to: 450}
-  status: reviewed
 ---
 Verified directly against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n
 "present judgment of God was clearly shown"` returns line 9010; read with `sed -n '8998,9011p'`.

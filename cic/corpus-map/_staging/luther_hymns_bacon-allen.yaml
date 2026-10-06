@@ -3,8 +3,7 @@
 source_file: luther_hymns_bacon-allen.txt
 
 assignments:
-  - row_id: luther_hymns_bacon-allen--dr-martin-luther-s-deutsche-geistliche-lieder-the-hymns-of
-    work: "Dr. Martin Luther's Deutsche Geistliche Lieder (The Hymns of Martin Luther)"
+  - work: "Dr. Martin Luther's Deutsche Geistliche Lieder (The Hymns of Martin Luther)"
     author: luther
     locus: "whole file"
     atlas_ids:

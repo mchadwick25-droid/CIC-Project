@@ -53,14 +53,6 @@ senses:
   translational: "Not a gut feeling and not private spiritual intuition. Closer to a trained clinical judgment, formed relationally, suspicious of its own confidence."
 quick_meaning: "Judging rightly - how much, for whom, and whether you are fooling yourself."
 distortion_risk: medium
-use_note:
-  means: "Diakrisis meant the trained skill of judging rightly between thoughts, practices, and counsels, and it did the work of a curriculum in this world."
-  not_for:
-    - "Hearing it as gut feeling or private spiritual intuition"
-    - "Attributing the phrase mother of all virtues to Cassian, a claim the record deliberately omits"
-    - "Presenting Cassian's Conference II as a transcript of what Egyptian elders said"
-  years: {from: 320, to: 430}
-  status: reviewed
 ---
 Re-derived from Doc_06 SS1.5 (Tier 1; anchors gravity 5) and Doc_05
 SS11's ecological-hub finding (diakrisis is the most cross-referenced

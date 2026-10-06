@@ -52,13 +52,6 @@ senses:
     became settled legal machinery all at once or only gradually across this window is a live scholarly
     question, held open.'
 quick_meaning: A teaching ruled outside the church - and, under our laws, outside legal standing too.
-use_note:
-  means: "Heresy is a teaching placed outside what the church would recognize and, increasingly, outside the law: one act, a judgment of faith with legal force."
-  not_for:
-    - "a claim that heresy was a purely doctrinal category with no legal consequence"
-    - "a claim that the boundary of heresy always pointed the same direction"
-  years: {from: 312, to: 451}
-  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 2;
 Lexicon-Chunks/ijclex008_haeresis.md). The legacy chunk's Key Source

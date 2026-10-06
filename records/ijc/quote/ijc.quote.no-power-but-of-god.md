@@ -72,14 +72,6 @@ relations:
   target: ijc.gravity.episcopal-independence
 - type: associated-with
   target: ijc.quote.eutropius-right-of-refuge
-use_note:
-  means: "Chrysostom reads Romans 13 as making rule itself God's ordering, binding clergy and monks too, while denying that every individual ruler is chosen by God."
-  not_for:
-    - "a claim that this is what the church as a whole taught rather than one preacher's reading"
-    - "a claim that Chrysostom taught that particular rulers are divinely chosen"
-    - "a claim that clergy and monks were exempt from civil authority"
-  years: {from: 390, to: 398}
-  status: reviewed
 ---
 Verified verbatim against the vendored file at line 53993.
 DISCLOSED: the NPNF prints a variant note and a Greek gloss elsewhere in

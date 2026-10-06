@@ -9,7 +9,7 @@ from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety
 from engine.api.wiring import history_from_transcript as _history_from
 
 
-def _client(*, store, usage_store, world_loader, registry, voice_client=None, safety_client=None, default_world_key="fix", r27_enforce=False, **extra):
+def _client(*, store, usage_store, world_loader, registry, voice_client=None, safety_client=None, default_world_key="fix", r27_enforce=False):
     client = voice_client or FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
     app = create_app(
         voice_client=client,
@@ -22,7 +22,6 @@ def _client(*, store, usage_store, world_loader, registry, voice_client=None, sa
         registry=registry,
         default_world_key=default_world_key,
         r27_enforce=r27_enforce,
-        **extra,
     )
     return TestClient(app)
 
@@ -40,13 +39,11 @@ def test_list_worlds(store, usage_store, world_loader, registry):
     assert resp.status_code == 200
     worlds = resp.json()["worlds"]
     assert "fix" not in {w["world_key"] for w in worlds}
-    assert len(worlds) == sum(1 for v in registry.values() if v.get("kind") == "formation" and v.get("package"))
+    assert len(worlds) == sum(1 for v in registry.values() if v.get("kind") == "formation")
     pahc = next(w for w in worlds if w["world_key"] == "pahc")
     assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"
     assert pahc["horizon"]
     assert pahc["starters"]
-    assert pahc["app"] == registry["pahc"]["app"]
-    assert {w["app"]["order"] for w in worlds} == set(range(1, len(worlds) + 1))
 
 
 def test_create_session_with_no_world_is_refused(store, usage_store, world_loader, registry):
@@ -94,39 +91,22 @@ def test_message_happy_path(store, usage_store, world_loader, registry):
     assert body["voice"]["text"] == "We did not claim to have seen him ourselves."
 
 
-def test_message_over_the_hard_bound_is_refused_before_any_provider_call(store, usage_store, world_loader, registry):
-    """The API's hard bound still stops a payload attack before the route
-    handler, and so before any provider call."""
-    from engine.api.app import _HARD_MAX_MESSAGE_LENGTH
+def test_message_over_the_length_cap_is_refused_before_any_provider_call(store, usage_store, world_loader, registry):
+    """Participant text has a length bound in the request path: unbounded
+    input would be forwarded to Bedrock twice per turn (safety gate +
+    voice). Pydantic's own validation rejects an over-length body before
+    the route handler (and so before any provider call) ever runs."""
+    from engine.api.app import _MAX_MESSAGE_LENGTH
 
-    client = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
-    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
+    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
     created = http.post("/api/session", json={"world_key": "fix"}).json()
+
     resp = http.post(
         f"/api/session/{created['session_id']}/message",
         headers={"Authorization": f"Session {created['session_code']}"},
-        json={"text": "x" * (_HARD_MAX_MESSAGE_LENGTH + 1)},
+        json={"text": "x" * (_MAX_MESSAGE_LENGTH + 1)},
     )
     assert resp.status_code == 422
-    assert client.messages.stream_calls == []
-
-
-def test_an_over_long_message_is_read_by_the_safety_call_then_refused_without_a_voice_call(store, usage_store, world_loader, registry):
-    """System Hub decision 35: between 4,000 characters and the hard bound,
-    the safety call reads the message first; with no safety route it is
-    refused as before, and the voice is never called."""
-    from engine.api.wiring import MAX_MESSAGE_LENGTH
-
-    client = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
-    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
-    created = http.post("/api/session", json={"world_key": "fix"}).json()
-    resp = http.post(
-        f"/api/session/{created['session_id']}/message",
-        headers={"Authorization": f"Session {created['session_code']}"},
-        json={"text": "x" * (MAX_MESSAGE_LENGTH + 1)},
-    )
-    assert resp.status_code == 422 and "too long" in resp.json()["detail"]
-    assert client.messages.stream_calls == []
 
 
 def test_message_wrong_code_and_missing_session_are_identical_401(store, usage_store, world_loader, registry):
@@ -318,8 +298,7 @@ def test_the_eleventh_message_closes_gracefully_and_a_twelfth_is_refused(store, 
         safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response(),
         stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
     )
-    # The close-for-good at the cap is the module-off contract; with the module on, a limit pauses.
-    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client, deeper=None)
+    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
     created = http.post("/api/session", json={"world_key": "fix"}).json()
     headers = {"Authorization": f"Session {created['session_code']}"}
 
@@ -340,7 +319,7 @@ def test_the_eleventh_message_closes_gracefully_and_a_twelfth_is_refused(store, 
 
 
 def test_r27_enforce_hands_a_twice_rejected_turn_to_the_facilitator_end_to_end(store, usage_store, world_loader, registry):
-    """Full wiring: create_app with uncited-claim enforcement on, through
+    """Full wiring: create_app(r27_enforce=True) through
     wiring.handle_message, not the unit-level engine.m4.turn test - the
     voice's raw answer hard-fails (a real wholly_uncited_paragraph
     offense - "Even a broken priest could not block his grace." carries

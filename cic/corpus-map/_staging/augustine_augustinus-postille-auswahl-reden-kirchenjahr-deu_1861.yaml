@@ -1,8 +1,7 @@
 source_file: augustine_augustinus-postille-auswahl-reden-kirchenjahr-deu_1861.txt
 
 assignments:
-  - row_id: augustine_augustinus-postille-auswahl-reden-kirchenjahr-deu_1861--augustinus-postille-a-german-selection-of-augustine-s
-    work: "Augustinus-Postille: a German selection of Augustine's sermons by church year (1861)"
+  - work: "Augustinus-Postille: a German selection of Augustine's sermons by church year (1861)"
     author: augustine
     locus: "whole file"
     atlas_ids:

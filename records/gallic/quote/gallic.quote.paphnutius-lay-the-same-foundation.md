@@ -44,13 +44,6 @@ modern_rendering: >-
   So even in his early youth he already showed these signs of the man he would become. Even as a boy, he drew
   the outline of the perfection that would grow in his adult years. If we want to reach his height of
   virtue, then we must lay the same foundation from the start.
-use_note:
-  means: "Piamun closes Paphnutius's story in Cassian's Conferences by saying his youth foreshadowed his perfection and that his hearers must lay the same foundation."
-  not_for:
-    - "the events of the theft story, which sit in gallic.quote.paphnutius-accused-and-the-book-found and its neighbouring paphnutius records"
-    - "a narrated event rather than the moral Piamun draws from the story"
-  years: {from: 426, to: 435}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "He
 then$"` returns line 43079 (among other unrelated hits elsewhere in the file); `grep -n "lay the same

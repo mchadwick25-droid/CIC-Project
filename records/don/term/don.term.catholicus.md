@@ -65,14 +65,5 @@ senses:
     law backing one of them.'
 quick_meaning: Universal -- the title our rival claims, the state grants, and we refuse to concede.
 distortion_risk: high
-use_note:
-  means: "Both sides claimed 'catholic', meaning universal; the state granted it to the rival, and a Donatist preacher reportedly turned the word back on them."
-  not_for:
-    - "a claim that catholic was an agreed and uncontested title in the fourth-century West"
-    - "a claim that it refers to the later, settled Roman Catholic Church"
-    - "a claim that the fight over the word was purely doctrinal rather than about legitimacy and law"
-    - "a claim about the 411 judge's ruling on the name, which sits in don.dw.the-word-catholic-and-no-door-today"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
-Built from Doc_06 SS1 entry 007 (Tier 2, no promotion forwarded). No deployment chunk built this cycle. Doc_03 SS6 names modern editorial mediation (Mabillon/Monceaux as a different kind of risk from ancient Author Gravity), and Doc_06 did not act on it; divergence_note holds that risk.
+Built from Doc_06 SS1 entry 007 (Tier 2, no promotion forwarded). No deployment chunk built this cycle. Doc_03 SS6's open item on modern editorial mediation (Mabillon/Monceaux as a different kind of risk from ancient Author Gravity), which Doc_06 did not act on, is carried in divergence_note.

@@ -74,15 +74,6 @@ quick_meaning: >-
   "Let him be accursed" - cut off, lest one sick sheep infect the flock. A permanent duty toward
   any who preach other than what was received.
 distortion_risk: low
-use_note:
-  means: "Anathema meant, in Vincent's reading of Paul, separation and exclusion so that one diseased sheep cannot infect the flock, owed to any who preach what was not received."
-  not_for:
-    - "a loose word for strong disapproval"
-    - "Vincent's standing duty generalized to every voice, when Sulpitius uses the word once and ironically"
-    - "the question of who counts as a heretic, which sits in gallic.term.heretic-heresy"
-    - "the withholding of fellowship as such, which sits in gallic.term.communion"
-  years: {from: 404, to: 434}
-  status: reviewed
 ---
 Built from Doc_06 entry 078 (`galliclex078_anathema.md`, Tier 3, tags SC TC; Doc_03 7.9). Kept
 thin at the Tier-3 floor.

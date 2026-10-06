@@ -37,13 +37,6 @@ retrieval:
   - "participant asks how much weight Rome's letter carried at a council"
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
-use_note:
-  means: "The session record reports bishops at Chalcedon acclaiming Leo's letter as the faith of the fathers and apostles, crying that Peter has spoken through Leo."
-  not_for:
-    - "a claim that the same council accepted Rome's standing without contest, when it also passed the canon Leo refused"
-    - "a claim that 'anathema' means merely something disliked rather than a formal curse and exclusion"
-  years: {from: 451, to: 451}
-  status: reviewed
 ---
 Text verified verbatim against the vendored file. The
 Tome's reception in the session record's own words - the acclamation

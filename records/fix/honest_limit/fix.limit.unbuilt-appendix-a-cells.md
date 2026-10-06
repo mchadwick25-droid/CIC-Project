@@ -25,19 +25,13 @@ why_sources_cannot_answer: >
   eight of Canon v1's twenty-eight cells (see fixtures/README.md) so the
   coverage gate's two routes - substantive and honest_limit - could both be
   exercised without authoring a full synthetic canon. Once stage 3 grew the
-  fleet canon to its real twenty-eight cells (engine/canon/records/canon_question/,
+  fleet canon to its real twenty-eight cells (records/_fleet/canon_question/,
   Appendix A), the remaining twenty cells needed real coverage of their own
   to keep the fixture's own state=built claim (Artifact-1 SS2: gates green)
   honest. One record naming all twenty is the accurate statement of the
   actual reason (uniform: out of the fixture's deliberately narrow scope),
   not twenty near-duplicate files repeating it.
 nearest_material: [fix.core.fixture-world, fix.witness.who-is-jesus]
-use_note:
-  means: "The fixture record was never built to answer questions outside its eight cells."
-  not_for:
-    - "any substantive answer on the cells it names"
-  years: {from: 100, to: 100}
-  status: provisional
 ---
 Added at stage 3 alongside the full Appendix A canon seed
 (engine/canon/seed_appendix_a.py). Keeps records/fix/** truthfully

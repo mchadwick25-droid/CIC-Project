@@ -1,8 +1,7 @@
 source_file: augustine_retractationes-lat_knoll-csel36.txt
 
 assignments:
-  - row_id: augustine_retractationes-lat_knoll-csel36--augustine-s-retractationum-libri-duo-knoll-s-critical
-    work: "Augustine's Retractationum Libri Duo (Knoll's critical edition, CSEL 36)"
+  - work: "Augustine's Retractationum Libri Duo (Knoll's critical edition, CSEL 36)"
     author: augustine
     locus: "whole file (Praefatio, both Books, closing indices)"
     atlas_ids:

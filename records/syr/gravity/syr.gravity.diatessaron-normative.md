@@ -48,14 +48,6 @@ manifestations:
 - Ephrem's dedicated commentary on the harmonized Gospel - an unusual textual investment
 - the harmony as the shared narrative spine of worship across both empires
 classification: supporting
-use_note:
-  means: "For the whole window the Gospel was one continuous woven story, Tatian's harmony, which Aphrahat quotes and Ephrem comments on; its displacement belongs to the world's closing edge."
-  not_for:
-    - "a claim that this world read four separate Gospels"
-    - "a claim that the Diatessaron's Syriac name is securely dated to the window"
-    - "a claim that the Peshitta was this world's normative text"
-  years: {from: 200, to: 410}
-  status: reviewed
 ---
 Re-derived from Doc_04 C5 (Supporting: world-spanning and Documented
 in use, but narrower in explanatory reach than C1/C2 - it organizes

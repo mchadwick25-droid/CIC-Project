@@ -7,7 +7,6 @@
  * and stays resumable by its code, so the label says what really happens.
  */
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { GoDeeperPanel } from './GoDeeperPanel';
 
 interface ChatInputProps {
   onSend: (message: string) => void;
@@ -74,7 +73,6 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false }: Chat
           Leave for now
         </button>
       </div>
-      <GoDeeperPanel />
     </div>
   );
 }

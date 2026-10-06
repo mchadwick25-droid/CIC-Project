@@ -9,136 +9,26 @@ than trying to resolve model IDs or make a real, credentialed Bedrock client.
 Tests import `create_app` directly and build their own app from fakes.
 """
 import hmac
-import json
 import logging
 import os
-import queue
-import threading
 import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
 from fastapi import FastAPI, Header, HTTPException, Request
-from fastapi.encoders import jsonable_encoder
-from fastapi.responses import FileResponse, JSONResponse, Response, StreamingResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, ratelimit, table_wiring, wiring
+from engine.api import admin_auth, anon_cap, db_backup, ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
-from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
 from engine.m4 import idle_close, session_code
-from engine.m4 import round as round_module
-from engine.m4 import turn as turn_module
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
-from engine.m7 import erase
-from engine.m7 import retention
 from engine.m7 import scheduler as m7_scheduler
-from engine.m7.qc_store import QCStore
-from engine.api.qc_recorder import QCRecorder
 from engine.m8.log_store import UsageLogStore
-
-def _message_failure(exc: Exception, session_id: str) -> HTTPException | None:
-    """The HTTP answer for each refusal a participant message can meet, or
-    None for anything else (a programming error stays a 500 and surfaces as
-    itself rather than being reported as a provider problem)."""
-    refusal = _refusal(exc, session_id)
-    return HTTPException(status_code=refusal[0], detail=refusal[1]) if refusal else None
-
-
-def _refusal(exc: Exception, session_id: str) -> tuple[int, str, str] | None:
-    """(status, detail, code) for a refusal. The detail strings are the ones
-    the plain endpoint has always returned; the code is the stable name a
-    stream's error event carries beside it."""
-    if isinstance(exc, wiring.SessionNotFound):
-        return 401, _INVALID_SESSION_DETAIL, "invalid_session"
-    if isinstance(exc, wiring.SessionClosed):
-        return 409, "session already closed", "session_closed"
-    if isinstance(exc, wiring.MessageTooLong):
-        return 422, f"message too long (at most {wiring.MAX_MESSAGE_LENGTH} characters)", "message_too_long"
-    if isinstance(exc, table_wiring.TableRoundStillOpen):
-        return 409, "round still open - continue it before the next message", "round_open"
-    if isinstance(exc, table_wiring.TableAdvanceInFlight):
-        return 409, "advance already in flight - the table is already speaking", "advance_in_flight"
-    if isinstance(exc, table_wiring.TableRoundNotOpen):
-        return 409, "no open round to continue", "no_open_round"
-    if isinstance(exc, wiring.DuplicateMessage):
-        return 409, "duplicate message - already received", "duplicate_message"
-    if isinstance(exc, PackageRefused):
-        logger.warning("message refused: package unavailable session=%s", session_id)
-        return 503, _WORLD_UNAVAILABLE_DETAIL, "world_unavailable"
-    if isinstance(exc, wiring.ProviderCallFailed):
-        # The bound exception carries the real Bedrock error - the one
-        # signal that tells throttling apart from credentials apart
-        # from a bug.
-        logger.error("provider call failed session=%s: %s", session_id, exc)
-        return 502, "provider call failed", "provider_failed"
-    return None
-
-
-def _sse(event: str, data: dict) -> str:
-    return f"event: {event}\ndata: {json.dumps(jsonable_encoder(data), ensure_ascii=False)}\n\n"
-
-
-def _spoke(voice) -> bool:
-    """Whether a voice turn carries words. A reply with none leaves no pair in
-    the memory the next turn counts from, so it is not charged either: the round
-    number and the opening amount stay in step with what the person was given."""
-    text = voice.get("text") if isinstance(voice, dict) else getattr(voice, "text", None)
-    return voice is not None and bool((text or "").strip())
-
-
-def _stream_turn(handle, done_body, voiced, session_id: str, started: float, admission=None) -> StreamingResponse:
-    """One turn answered as an event stream: a "sentence" event for each
-    sentence as the voice finishes writing it, with the marks the finished
-    plan gives it (engine.m4.sentence_stream), and a final "done" event
-    carrying the same body the plain endpoint returns, whose plan is
-    authoritative. `handle(on_sentence)` runs the turn, `done_body(result)`
-    builds the done body and `voiced(result)` says whether a voice spoke. A
-    refusal before the first event is the same HTTP status and detail as the
-    plain endpoint; a failure after the stream began is an "error" event
-    carrying {code, status, detail}. The turn runs to completion and is
-    recorded even if the reader disconnects."""
-    events: queue.Queue = queue.Queue()
-
-    def run() -> None:
-        try:
-            result = handle(lambda event: events.put(("sentence", event)))
-        except Exception as exc:
-            if admission is not None:
-                admission.finish(False)
-            events.put(("error", exc))
-        else:
-            if admission is not None:
-                admission.finish(voiced(result))
-            events.put(("done", result))
-
-    threading.Thread(target=run, daemon=True).start()
-    first = events.get()
-    if first[0] == "error":
-        failure = _message_failure(first[1], session_id)
-        raise failure if failure is not None else first[1]
-
-    def body():
-        kind, payload = first
-        while True:
-            if kind == "sentence":
-                yield _sse("sentence", payload)
-            elif kind == "done":
-                logger.info("turn handled ms=%d streamed=true", (time.monotonic() - started) * 1000)
-                yield _sse("done", done_body(payload))
-                return
-            else:
-                status, detail, code = _refusal(payload, session_id) or (500, "internal error", "internal")
-                yield _sse("error", {"code": code, "status": status, "detail": detail})
-                return
-            kind, payload = events.get()
-
-    return StreamingResponse(body(), media_type="text/event-stream", headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
-
 
 class MissingAnonCapSecret(Exception):
     """Raised at app construction when anon_cap_enabled=True but no secret
@@ -173,11 +63,6 @@ class Deps:
     package_cache_dir: Path | None = None
     r27_enforce: bool = False
     self_revision_enabled: bool = True
-    citation_attach_enabled: bool = False
-    qc_recorder: object | None = None
-    # Whether a client that asks for an event stream gets the reply sentence
-    # by sentence while it is written (the Accept header decides per request).
-    streaming_enabled: bool = False
     # Same directory m7_scheduler.start_background_scheduler already
     # writes to below - the usage-summary endpoint reads its
     # canon-candidates.json (last_run.json's own out_dir) rather than
@@ -210,10 +95,7 @@ class SessionCreateResponse(BaseModel):
     round_cap: int | None = None
 
 
-# The hard bound on what the API accepts at all, against a payload attack.
-# Anything over wiring.MAX_MESSAGE_LENGTH (4,000) is read by the safety call
-# and then refused unless it routes to safety (System Hub decision 35).
-_HARD_MAX_MESSAGE_LENGTH = 20000
+_MAX_MESSAGE_LENGTH = 4000  # ~800-1000 words - generous for a real participant turn, bounded against a payload attack
 
 
 class MessageRequest(BaseModel):
@@ -222,7 +104,7 @@ class MessageRequest(BaseModel):
     # stored verbatim, at up to 40 messages/min per IP. Output is bounded
     # by max_tokens on the generation call; this bounds input the same
     # way.
-    text: str = Field(max_length=_HARD_MAX_MESSAGE_LENGTH)
+    text: str = Field(max_length=_MAX_MESSAGE_LENGTH)
     client_msg_id: str | None = None
 
 
@@ -233,7 +115,6 @@ class MessageResponse(BaseModel):
     degraded: bool
     facilitator: dict | None
     voice: dict | None
-    limit_note: dict | None = None
 
 
 class TableMessageResponse(BaseModel):
@@ -251,7 +132,6 @@ class TableMessageResponse(BaseModel):
     position: int | None
     turn_no: int | None
     session_closed: bool
-    limit_note: dict | None = None
 
 
 class TranscriptResponse(BaseModel):
@@ -305,7 +185,6 @@ class VisitorUsageResponse(BaseModel):
     """See wiring.VisitorUsage's own docstring."""
     unique_visitors: int
     sessions_with_visitor_id: int
-    sessions_without_a_message: int
     median_session_seconds: float | None
     average_session_seconds: float | None
     median_visitor_total_seconds: float | None
@@ -359,9 +238,6 @@ class WorldSummary(BaseModel):
     horizon: str | None
     living_tradition_flag: bool
     starters: list[dict]
-    # The world's place in the app's list, portrait and accent colour
-    # (registry `app`).
-    app: dict | None = None
 
 
 class WorldListResponse(BaseModel):
@@ -439,12 +315,8 @@ def create_app(
     anon_daily_turn_limit: int = anon_cap.DEFAULT_DAILY_TURN_LIMIT,
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
-    citation_attach_enabled: bool = False,
-    qc_recorder=None,
-    streaming_enabled: bool = False,
     m7_audit_root: Path | None = None,
     admin_auth_store: admin_auth.AdminAuthStore | None = None,
-    deeper: deeper_routes.DeeperRuntime | None = None,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -476,20 +348,12 @@ def create_app(
     # meets (see anon_cap.install's own docstring for why that matters -
     # a burst-rejected request should never reach anon_cap's daily-quota
     # accounting at all).
-    app.state.deeper = deeper
     if anon_cap_enabled:
         anon_cap.install(
             app, secret=anon_visitor_secret, daily_session_limit=anon_daily_session_limit, daily_turn_limit=anon_daily_turn_limit,
-            exempt=(
-                (lambda request, is_create: deeper_admission.code_is_usable(deeper, request, strict=is_create))
-                if deeper is not None else None
-            ),
-            session_cap_facilitator_only=deeper is not None,
         )
     if rate_limit:
-        ratelimit.install(
-            app, bucket_for=(lambda request: deeper_admission.burst_key(deeper, request)) if deeper is not None else None
-        )
+        ratelimit.install(app)
     app.state.deps = Deps(
         voice_client=voice_client,
         voice_model_id=voice_model_id,
@@ -505,9 +369,6 @@ def create_app(
         package_cache_dir=package_cache_dir,
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
-        citation_attach_enabled=citation_attach_enabled,
-        qc_recorder=qc_recorder,
-        streaming_enabled=streaming_enabled,
         m7_audit_root=m7_audit_root,
         admin_auth_store=admin_auth_store,
     )
@@ -515,23 +376,6 @@ def create_app(
     @app.get("/health")
     def health():
         return {"status": "ok"}
-
-    def _note_facilitator_only(request: Request, session_id: str) -> None:
-        if deeper is None:
-            return
-        if getattr(request.state, "facilitator_only_session", False):
-            deeper.facilitator_only_sessions.add(session_id)
-        if getattr(request.state, "paid_session", False):
-            deeper.paid_sessions.add(session_id)
-
-    if deeper is not None:
-        def _admin_check(request: Request, authorization: str | None) -> None:
-            _authenticate_admin(
-                request.app.state.deps.admin_token, authorization,
-                session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME),
-            )
-
-        deeper_routes.install(app, deeper, authenticate_admin=_admin_check)
 
     @app.get("/api/worlds", response_model=WorldListResponse)
     def list_worlds_endpoint(request: Request):
@@ -572,7 +416,6 @@ def create_app(
             except PackageRefused:
                 logger.warning("table session refused: package unavailable worlds=%s", req.world_keys)
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
-            _note_facilitator_only(request, session_id)
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
             return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
         if req.world_key is None:
@@ -597,22 +440,13 @@ def create_app(
         except PackageRefused:
             logger.warning("session refused: package unavailable world=%s", world_key)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
-        _note_facilitator_only(request, session_id)
         logger.info("session created session=%s mode=interview world=%s", session_id, world_key)
         return SessionCreateResponse(session_id=session_id, session_code=code)
 
     @app.post("/api/session/{session_id}/message", response_model=MessageResponse | TableMessageResponse)
-    def send_message(
-        session_id: str, req: MessageRequest, request: Request, response: Response, authorization: str | None = Header(default=None)
-    ):
+    def send_message(session_id: str, req: MessageRequest, request: Request, authorization: str | None = Header(default=None)):
         deps: Deps = request.app.state.deps
         state = _authenticate(deps.store, session_id, authorization)
-        is_table = state.mode == "table"
-        admission = deeper_admission.new_admission(
-            deeper, request, session_id=session_id,
-            free_cap=round_module.TABLE_SESSION_ROUND_CAP if is_table else turn_module.SESSION_TURN_CAP,
-            seats=len(state.world_keys) if is_table else 1,
-        )
         call_kwargs = dict(
             store=deps.store,
             usage_store=deps.usage_store,
@@ -628,61 +462,35 @@ def create_app(
             package_cache_dir=deps.package_cache_dir,
             r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled,
-            citation_attach_enabled=deps.citation_attach_enabled,
-            qc_recorder=deps.qc_recorder,
-            daily_turn_cap_reached=getattr(request.state, "daily_turn_cap_reached", False),
-            grant_for=admission.provider if admission is not None else None,
         )
         started = time.monotonic()
-        if deps.streaming_enabled and "text/event-stream" in request.headers.get("accept", ""):
-            def with_balance(done: dict, result) -> dict:
-                if admission is not None and admission.remaining is not None:
-                    done["remaining"] = admission.remaining
-                    if admission.low:
-                        done["low"] = True
-                if admission is not None and admission.free_left is not None:
-                    done["free_left"] = admission.free_left
-                if admission is not None:
-                    done["limit_note"] = admission.limit_note(result.routing_action)
-                return done
-
-            if is_table:
-                return _stream_turn(
-                    lambda on_sentence: table_wiring.handle_table_message(**call_kwargs, on_sentence=on_sentence),
-                    lambda result: with_balance(TableMessageResponse(**asdict(result)).model_dump(), result),
-                    lambda result: result.round_open or result.voice is not None,
-                    session_id, started, admission,
-                )
-
-            return _stream_turn(
-                lambda on_sentence: wiring.handle_message(**call_kwargs, on_sentence=on_sentence),
-                lambda result: with_balance(MessageResponse(**asdict(result)).model_dump(), result), lambda result: _spoke(result.voice), session_id, started, admission,
-            )
-        voiced = False
         try:
-            if is_table:
+            if state.mode == "table":
                 result = table_wiring.handle_table_message(**call_kwargs)
-                voiced = result.round_open or result.voice is not None
-                logger.info("table message handled ms=%d", (time.monotonic() - started) * 1000)
-                return TableMessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
+                logger.info("table message handled session=%s round=%s ms=%d", session_id, result.round_no, (time.monotonic() - started) * 1000)
+                return TableMessageResponse(**asdict(result))
             result = wiring.handle_message(**call_kwargs)
-            voiced = _spoke(result.voice)
-        except Exception as exc:
-            failure = _message_failure(exc, session_id)
-            if failure is None:
-                raise
-            raise failure
-        finally:
-            if admission is not None:
-                remaining = admission.finish(voiced)
-                if remaining is not None:
-                    response.headers[deeper_admission.REMAINING_HEADER] = str(remaining)
-                    if admission.low:
-                        response.headers[deeper_admission.LOW_HEADER] = "1"
-                if admission.free_left is not None:
-                    response.headers[deeper_admission.FREE_LEFT_HEADER] = str(admission.free_left)
-        logger.info("message handled ms=%d", (time.monotonic() - started) * 1000)
-        return MessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
+        except wiring.SessionNotFound:
+            raise HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
+        except wiring.SessionClosed:
+            raise HTTPException(status_code=409, detail="session already closed")
+        except table_wiring.TableRoundStillOpen:
+            raise HTTPException(status_code=409, detail="round still open - continue it before the next message")
+        except table_wiring.TableAdvanceInFlight:
+            raise HTTPException(status_code=409, detail="advance already in flight - the table is already speaking")
+        except wiring.DuplicateMessage:
+            raise HTTPException(status_code=409, detail="duplicate message - already received")
+        except PackageRefused:
+            logger.warning("message refused: package unavailable session=%s", session_id)
+            raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
+        except wiring.ProviderCallFailed as exc:
+            # The bound exception carries the real Bedrock error - the one
+            # signal that tells throttling apart from credentials apart
+            # from a bug. The audit found it constructed and discarded.
+            logger.error("provider call failed session=%s: %s", session_id, exc)
+            raise HTTPException(status_code=502, detail="provider call failed")
+        logger.info("message handled session=%s turn=%s ms=%d", session_id, result.turn_no, (time.monotonic() - started) * 1000)
+        return MessageResponse(**asdict(result))
 
     @app.post("/api/session/{session_id}/continue", response_model=TableMessageResponse)
     def continue_round(session_id: str, request: Request, authorization: str | None = Header(default=None)):
@@ -691,27 +499,33 @@ def create_app(
         interview session, which never has one."""
         deps: Deps = request.app.state.deps
         _authenticate(deps.store, session_id, authorization)
-        continue_kwargs = dict(
-            store=deps.store, usage_store=deps.usage_store, world_loader=deps.world_loader, registry=deps.registry,
-            voice_client=deps.voice_client, voice_model_id=deps.voice_model_id,
-            safety_client=deps.safety_client, safety_model_id=deps.safety_model_id,
-            session_id=session_id, package_cache_dir=deps.package_cache_dir, r27_enforce=deps.r27_enforce,
-            self_revision_enabled=deps.self_revision_enabled, citation_attach_enabled=deps.citation_attach_enabled,
-            qc_recorder=deps.qc_recorder,
-        )
-        if deps.streaming_enabled and "text/event-stream" in request.headers.get("accept", ""):
-            return _stream_turn(
-                lambda on_sentence: table_wiring.continue_table_round(**continue_kwargs, on_sentence=on_sentence),
-                lambda result: TableMessageResponse(**asdict(result)).model_dump(),
-                lambda result: result.voice is not None, session_id, time.monotonic(),
-            )
         try:
-            result = table_wiring.continue_table_round(**continue_kwargs)
-        except Exception as exc:
-            failure = _message_failure(exc, session_id)
-            if failure is None:
-                raise
-            raise failure from exc
+            result = table_wiring.continue_table_round(
+                store=deps.store,
+                usage_store=deps.usage_store,
+                world_loader=deps.world_loader,
+                registry=deps.registry,
+                voice_client=deps.voice_client,
+                voice_model_id=deps.voice_model_id,
+                safety_client=deps.safety_client,
+                safety_model_id=deps.safety_model_id,
+                session_id=session_id,
+                package_cache_dir=deps.package_cache_dir,
+            )
+        except wiring.SessionNotFound:
+            raise HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
+        except wiring.SessionClosed:
+            raise HTTPException(status_code=409, detail="session already closed")
+        except table_wiring.TableRoundNotOpen:
+            raise HTTPException(status_code=409, detail="no open round to continue")
+        except table_wiring.TableAdvanceInFlight:
+            raise HTTPException(status_code=409, detail="advance already in flight - the table is already speaking")
+        except PackageRefused:
+            logger.warning("continue refused: package unavailable session=%s", session_id)
+            raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
+        except wiring.ProviderCallFailed as exc:
+            logger.error("provider call failed session=%s (continue): %s", session_id, exc)
+            raise HTTPException(status_code=502, detail="provider call failed")
         return TableMessageResponse(**asdict(result))
 
     @app.get("/api/session/{session_id}/transcript", response_model=TranscriptResponse)
@@ -724,19 +538,6 @@ def create_app(
             mode=state.mode, world_keys=state.world_keys, round_open=state.round_open,
             round_cap=table_wiring.round_cap_for(state.mode),
         )
-
-    @app.delete("/api/session/{session_id}", status_code=204)
-    def delete_session_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
-        """A participant's deletion request, authorised by the session's own
-        code: the conversation leaves the event log and the M7 audit files
-        now, and the daily backups within their 14-day rotation. The
-        anonymous quality-control store holds nothing that links to it."""
-        deps: Deps = request.app.state.deps
-        _authenticate(deps.store, session_id, authorization)
-        events_deleted = deps.store.delete_session(session_id)
-        audit_files = erase.erase_session(deps.m7_audit_root, session_id) if deps.m7_audit_root else 0
-        logger.info("session deleted session=%s events=%d audit_files=%d", session_id, events_deleted, audit_files)
-        return Response(status_code=204)
 
     @app.get("/api/session/{session_id}/round-close-reasons", response_model=RoundCloseReasonsResponse)
     def get_round_close_reasons_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
@@ -922,26 +723,8 @@ def _build_real_app() -> FastAPI:
     # fatal) until that bucket is configured (setup steps in
     # Build/Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md),
     # same deferred-until-configured pattern as CIC_API_PACKAGE_BUCKET.
-    data_dir = Path(settings.events_db_path).parent
-    deeper_config = DeeperConfig.from_env(str(data_dir))
-    deeper_runtime = None
-    if deeper_config.enabled:
-        deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ), usage_store=usage_store)
-        deeper_routes.install_access_log_filter()
-        deeper_routes.start_retention_thread(deeper_runtime)
     db_backup.start_background_scheduler(
-        settings.events_db_path, settings.usage_db_path, data_dir / "backups-staging",
-        qc_db_path=settings.qc_db_path,
-        extra_dbs={"meter": deeper_config.meter_db_path} if deeper_runtime is not None else None,
-    )
-
-    # The anonymous quality-control store and the daily retention job
-    # (System Hub decision 34): conversations inactive for 90 days leave
-    # the event log; QC answer text older than 90 days is deleted.
-    qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry)
-    retention.start_background_scheduler(
-        settings.events_db_path, settings.qc_db_path, Path(settings.events_db_path).parent / "retention",
-        audit_root=Path(settings.events_db_path).parent / "m7-audits",
+        settings.events_db_path, settings.usage_db_path, Path(settings.events_db_path).parent / "backups-staging"
     )
 
     return create_app(
@@ -963,11 +746,6 @@ def _build_real_app() -> FastAPI:
         anon_daily_session_limit=settings.anon_daily_session_limit,
         anon_daily_turn_limit=settings.anon_daily_turn_limit,
         r27_enforce=settings.r27_enforce,
-        self_revision_enabled=settings.self_revision_enabled,
-        citation_attach_enabled=settings.citation_attach_enabled,
-        qc_recorder=qc_recorder,
-        streaming_enabled=settings.streaming_enabled,
-        deeper=deeper_runtime,
         # Same path m7_scheduler.start_background_scheduler was already
         # given above - one directory, two readers (the daily job writes
         # it, the usage-summary endpoint reads it).

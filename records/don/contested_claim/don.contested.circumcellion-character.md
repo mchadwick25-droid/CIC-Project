@@ -60,13 +60,5 @@ concedes: 'The group''s bare existence, and the imperial state''s own targeted c
 divergence_partners:
 - don.source.codex-theodosianus-book-16
 - don.source.optatus-against-donatists
-use_note:
-  means: "Whether the hostile portrait of the Circumcellions as itinerant, marginal and violent is accurate is contested: Shaw reads it as overstated, Frend accepts more."
-  not_for:
-    - "a claim that the hostile portrait is settled as accurate"
-    - "a claim that Shaw's corrective reading is settled in its favour"
-    - "a claim that anything beyond the group's bare existence is independently corroborated"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Re-derived from Doc_03_Lexicon_Candidate_List.md SS4 (the one [CT]-tagged term in this world's 21-term roster) and Doc_04_Gravity_Discovery.md SS3.5 (D-A), both read in full this session. relations[] carries the one gravity edge (D-A, don.gravity.circumcellion-agonistici) named in this script's own docstring under RECIPROCITY -- not to G5, per this script's own docstring, PRIMARY-GRAVITY COVERAGE (the Frend/Shaw contest bears on D-A's own character, not on G5's own extent, dating, or character directly). **Axido/Fasir handling:** see this script's own docstring, THE TWO RESERVED QUESTIONS, item 1, in full -- this record was deliberately scoped at the group level throughout specifically so it would not need to touch that reserved question, and it does not.

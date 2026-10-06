@@ -1,8 +1,7 @@
 source_file: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt
 
 assignments:
-  - row_id: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922--histoire-litteraire-de-l-afrique-chretienne-tome-vi-la
-    work: "Histoire littéraire de l'Afrique chrétienne, Tome VI: La
+  - work: "Histoire littéraire de l'Afrique chrétienne, Tome VI: La
       Littérature Donatiste (au temps de saint Augustin)"
     author: monceaux
     locus: "whole volume"

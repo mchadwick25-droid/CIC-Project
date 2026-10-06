@@ -70,15 +70,6 @@ relations:
   target: witt.story.household-and-kate-on-prayer
 - type: associated-with
   target: witt.figure.katharina-von-bora
-use_note:
-  means: "This witness holds that our founder repeatedly complained that pastors were negligent and people cold, testimony that cannot show what any actual congregation was like."
-  not_for:
-    - "evidence that any actual Saxon congregation was in fact cold, ignorant, or negligent"
-    - "the founder's complaint as an ordinary parish report rather than his own testimony"
-    - "Katharina's table question as a general account of household piety, when the full exchange sits in witt.story.household-and-kate-on-prayer"
-    - "the open scholarly question of whether the catechism program was received, which sits in witt.contested.household-catechism-reception"
-  years: {from: 1522, to: 1546}
-  status: reviewed
 ---
 Closes F6-P at the Answer-the-Canon step (inserted between B-7a and B-8) by answering the cell's
 hypocrisy sub-question at real strength, the one this world's own already-built force record

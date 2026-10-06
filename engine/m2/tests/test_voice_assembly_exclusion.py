@@ -101,7 +101,7 @@ def test_build_chunks_emits_no_file_for_either_record():
 
 
 def test_build_prompt_never_contains_world_front_or_facilitator_brief_content():
-    prompt = build_prompt(RECORDS, REGISTRY_ENTRY).decode("utf-8")
+    prompt = build_prompt(RECORDS, {}, REGISTRY_ENTRY).decode("utf-8")
     for poison in POISON_STRINGS:
         assert poison not in prompt
     assert WORLD_FRONT["id"] not in prompt

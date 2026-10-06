@@ -41,13 +41,6 @@ relations:
   target: ijc.term.primatus
 - type: associated-with
   target: ijc.term.martyrium
-use_note:
-  means: "Jerome, once Damasus's secretary, records that the Roman bishop was known for publishing many short works in verse and died under Theodosius near eighty."
-  not_for:
-    - "a claim that this notice itself describes the verse inscriptions over the martyrs' tombs"
-    - "a claim that Jerome writes as a disinterested witness rather than an admiring former secretary of Damasus"
-  years: {from: 392, to: 393}
-  status: reviewed
 ---
 Opened for F3-T and F5-E together - both cells were served by a term record citing
 this same chapter, and one sentence honestly answers both. ijc.term.primatus cites it for "the

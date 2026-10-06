@@ -126,15 +126,6 @@ quick_meaning: >-
   Formation by copying a named man, seen or read - the method of every house we have, and the reason
   our books are Lives.
 distortion_risk: medium
-use_note:
-  means: "Example meant formation by copying a named man, seen or read, which is why the books of this world are Lives."
-  not_for:
-    - "an illustration in an argument"
-    - "a role model freely chosen and admired from a distance"
-    - "a particular exemplar's deeds, which sit in gallic.term.virtus"
-    - "the historicity of any one story, which the story records handle"
-  years: {from: 397, to: 434}
-  status: reviewed
 ---
 Built from Doc_06 entry 003 (Tier 1; chunk galliclex003_example-imitation.md; Doc_03 3.2). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Doc_06 §2.2

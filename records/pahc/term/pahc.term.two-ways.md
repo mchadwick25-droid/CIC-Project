@@ -56,12 +56,6 @@ senses:
     older and looser: a shared, adaptable moral teaching, given before baptism, with no diocese or
     curriculum board behind it.'
 quick_meaning: The teaching given before baptism - a way of life and a way of death lie open, and the choice between them is kept daily.
-use_note:
-  means: "The teaching given before the water that a way of life and a way of death lie open to every person, chosen daily."
-  not_for:
-    - "a philosophical dualism of two cosmic powers"
-  years: {from: 70, to: 200}
-  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 7, Tier 2,
 maximal author-gravity: Didache-only for the sequence; the Barnabas

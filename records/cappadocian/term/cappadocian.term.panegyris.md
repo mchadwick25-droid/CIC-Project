@@ -53,14 +53,5 @@ senses:
     not a sideline to it.'
 quick_meaning: 'The festival at a martyr''s shrine: vigil, preaching, and a market, all on one holy day.'
 distortion_risk: medium
-use_note:
-  means: "Panegyris meant the festival at a martyr's shrine, combining vigil, preaching and market on one holy day across the countryside."
-  not_for:
-    - "a minor church fair"
-    - "one dated festival at a named shrine"
-    - "the market detail as well attested, since it rests on thin sources"
-    - "the reconstruction of a feast, which sits in cappadocian.story.panegyris-shrine"
-  years: {from: 325, to: 394}
-  status: reviewed
 ---
 Built from Doc_06 entry 13 (Tier 2).

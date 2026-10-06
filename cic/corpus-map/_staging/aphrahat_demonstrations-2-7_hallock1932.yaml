@@ -6,8 +6,7 @@
 source_file: aphrahat_demonstrations-2-7_hallock1932.txt
 
 assignments:
-  - row_id: aphrahat_demonstrations-2-7_hallock1932--demonstration-vii-on-penitents
-    work: "Demonstration VII: On Penitents"
+  - work: "Demonstration VII: On Penitents"
     author: aphrahat
     locus: >
       first piece in file, heading "Aphrahat, Demonstration VII: On Penitents.
@@ -22,8 +21,7 @@ assignments:
       for the bnay qyama, central to that world. Hallock's translation,
       separate from the npnf213 Demonstrations held by another worker.
 
-  - row_id: aphrahat_demonstrations-2-7_hallock1932--demonstration-vii-on-penitents-2
-    work: "Demonstration VII: On Penitents"
+  - work: "Demonstration VII: On Penitents"
     author: aphrahat
     locus: "first piece in file (JSOR 16, 1932, pp. 43-56)"
     atlas_ids:
@@ -37,8 +35,7 @@ assignments:
       the placement rests on that epithet plus date, not on anything more in
       the file.
 
-  - row_id: aphrahat_demonstrations-2-7_hallock1932--demonstration-ii-on-love
-    work: "Demonstration II: On Love"
+  - work: "Demonstration II: On Love"
     author: aphrahat
     locus: >
       second piece in file, heading "Aphrahat, Demonstration II: On Love.
@@ -52,8 +49,7 @@ assignments:
       Same standing as Dem. VII above: core voice of the built Syriac world,
       in a translation npnf213 does not carry.
 
-  - row_id: aphrahat_demonstrations-2-7_hallock1932--demonstration-ii-on-love-2
-    work: "Demonstration II: On Love"
+  - work: "Demonstration II: On Love"
     author: aphrahat
     locus: "second piece in file (JSOR 14, 1930, pp. 18-31)"
     atlas_ids:

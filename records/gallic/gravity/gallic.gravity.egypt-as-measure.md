@@ -149,15 +149,6 @@ manifestations:
 - "Eucherius at L\u00e9rins naming John and Macarius as the pattern (De Laude Eremi \u00a727, row 26, Inferential/Thin wording)"
 - "Gennadius on the Dialogues: 'the manner of life of the oriental monks and of St. Martin' - the comparison as the work's own structure"
 - "Postumianus to Gallus, 'you have conquered all the eremites and anchorites' (Dial. II.5); 'Europe will not yield to it, or to all Asia, in having only Martin' (Dial. III.17); the Egyptian merchant's 'Save us, O God of Martin' (Dial. III.14)"
-use_note:
-  means: "Egypt stands as the measure of real monastic life, received in the south as a rule from the fathers and matched at Tours by a saint said to outdo it."
-  not_for:
-    - "one Egypt shared by both houses, when that is contested in gallic.contested.egypt-two-measures"
-    - "the received customs as how Gaul actually lived, when Cassian admits no one in our monasteries kept Egypt's perseverance even for a year"
-    - "the rival wonders at Tours as Cassian's view, when he refuses wonders, as in gallic.gravity.virtus"
-    - "a remark about this record's own coverage, sources or scholarly attribution"
-  years: {from: 404, to: 450}
-  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Sulpitius
 Severus), cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml (Gennadius), and, for the

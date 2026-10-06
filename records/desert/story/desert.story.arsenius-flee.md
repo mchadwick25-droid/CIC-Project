@@ -32,15 +32,6 @@ tellable_as: "flee, be silent, be still - the three words that turned a court of
 text: "The tradition tells that Arsenius, while still a tutor at the imperial court, prayed for a way forward. He heard a voice tell him: flee the company of men, and you will be saved. He withdrew to Egypt. Once there, he prayed again, and heard: flee, be silent, be still - these are the roots of a life without sin."
 absent_detail: "Arsenius's own imperial-court career is independently attested in the wider tradition beyond this saying, but this document does not extend its own verification to that fuller biography - only to the saying itself and its place in the collected tradition."
 modern_contrast: "\"Flee the company of men\" risks a modern misreading as social anxiety or avoidance - running from people rather than toward anything. In this world's own idiom, matching desert.term.anachoresis's own translational note for \"withdrawal,\" fleeing was a chosen strategy aimed at something (a life without sin), not an escape from something feared."
-use_note:
-  means: "The sayings report a voice telling Arsenius, at court and again as a monk, to flee and keep silence, evidencing withdrawal as a chosen strategy."
-  not_for:
-    - "Quoting the Latin triad flee, be silent, be still as Arsenius's own words or the vendored text's wording"
-    - "Merging the two separate sayings, flee from men and flee and keep silence, into one"
-    - "Presenting his wider court biography, such as the tutor role, as verified here"
-    - "Claiming more than the sayings themselves state"
-  years: {from: 320, to: 430}
-  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 2.2, itself
 independently web-verified during that build's own drafting - matching

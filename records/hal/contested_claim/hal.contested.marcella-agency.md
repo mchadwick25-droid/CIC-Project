@@ -34,14 +34,6 @@ concedes: Documented that Jerome makes this specific claim, in detail, about a w
   agency it reflects versus how much it serves its author.
 divergence_partners:
 - hal.source.jerome-ep127
-use_note:
-  means: "The claim that Marcella exercised independent female exegetical authority is contested, since only Jerome's post-mortem obituary attests it."
-  not_for:
-    - "presenting Marcella's consulted authority as documented fact"
-    - "denying her scriptural learning, which his letters independently show"
-    - "generalizing from Marcella to women's authority in this world"
-  years: {from: 385, to: 410}
-  status: reviewed
 ---
 The single most consequential Author Gravity constraint in this world: the
 strongest attested instance of the women's independent agency is also

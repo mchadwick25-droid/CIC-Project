@@ -75,13 +75,6 @@ senses:
     names a live question - some churches had such a figure, some did not, and whether every church
     should have one was exactly what the letters were arguing about.'
 quick_meaning: The overseer. He watches over a community's table and its unity, where there is one. Some churches were led by a council of elders instead.
-use_note:
-  means: "The overseer who watches over a community's table and unity, while whether every church has one such man is still argued."
-  not_for:
-    - "bishop as a settled office with defined powers and territory"
-    - "a rung on a hierarchy ladder"
-  years: {from: 70, to: 200}
-  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 1, Tier 1,
 CT contest: Meaning and Historical scope - secured office vs. argued

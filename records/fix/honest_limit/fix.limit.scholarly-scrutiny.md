@@ -21,12 +21,6 @@ statement: >
   as scholarship - only as a working example of how an honest limit is spoken.
 why_sources_cannot_answer: "The fixture world has no real source base by design; this record exists to exercise the coverage gate's honest_limit route and the register's honest-thinness rule, not to model a genuine scholarly-thinness case."
 nearest_material: [fix.source.witness-scroll, fix.source.secondary-summary]
-use_note:
-  means: "Testland is built from two short synthetic texts, so nothing it says carries scholarly weight."
-  not_for:
-    - "a claim about any real community's history"
-  years: {from: 100, to: 100}
-  status: provisional
 ---
 Deliberately the most self-aware honest_limit in the fixture set: it tells the
 truth about being a fixture. Also the canon-coverage DEFECT's most visible

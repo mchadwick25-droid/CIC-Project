@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: novatianism
 works:
-- row_id: npnf210_ambrose--concerning-repentance-de-paenitentia-2
-  work: Concerning Repentance (De Paenitentia)
+- work: Concerning Repentance (De Paenitentia)
   author: ambrose
   locus: div2 4.6 — Concerning Repentance
   role: context
@@ -15,8 +14,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-against-the-heretic-novatian
-  work: Anonymous Treatise Against the Heretic Novatian
+- work: Anonymous Treatise Against the Heretic Novatian
   author: anonymous-against-novatian
   locus: div2 7.3
   role: tradition
@@ -28,54 +26,7 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- row_id: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei--de-unitate-ecclesiae-catholicae-csel-3-latin-text-tei-3
-  work: De Unitate Ecclesiae Catholicae, CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 109 (first text of the TEI body, opening 'Cum moneat Dominus et dicat');
-    urn:cts:latinLit:stoa0104a.stoa010.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 7685-8633
-  role: context
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s treatise on the unity of the church. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    Hartel''s critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s
-    machine-corrected TEI (the project''s OCR correction of the printed edition, not a fresh
-    human edition). Ready to quote once each quote is verified verbatim against this file
-    (INTAKE section 6); the English a Representative speaks is rendered from it. Verify quotes
-    against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 7685-8633), which carries the manuscript sigla and the variant readings in
-    place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly.
-
-    '
-  source_file: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt
-- row_id: cyprian_epistulae-lat_hartel1871-csel3-tei--epistulae-hartel-s-81-letters-csel-3-pars-ii-csel-3-latin
-  work: Epistulae (Hartel's 81 letters, CSEL 3 Pars II), CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 116 (first text of the TEI body, opening 'Grauiter conmoti sumus ego et
-    collegae mei'); urn:cts:latinLit:stoa0104a.stoa012.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 16500-30929
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: the correspondence of Cyprian, including letters written to him. PRIMARY ORIGINAL
-    per cic/texts/INTAKE.md: Hartel''s critical text (Pars II, Vienna: Gerold, 1871), in the
-    University of Leipzig''s machine-corrected TEI (the project''s OCR correction of the printed
-    edition, not a fresh human edition). Ready to quote once each quote is verified verbatim
-    against this file (INTAKE section 6); the English a Representative speaks is rendered
-    from it. Verify quotes against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 16500-30929), which carries the manuscript sigla and the variant readings
-    in place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly. The corpus embeds letters by others (Cornelius,
-    the Roman clergy, Firmilian of Caesarea, the confessors) under Cyprian''s name, so author
-    cyprian is the corpus author of record.
-
-    '
-  source_file: cyprian_epistulae-lat_hartel1871-csel3-tei.txt
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-3
-  work: On the Unity of the Church (De Unitate)
+- work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
   role: context
@@ -86,8 +37,7 @@ works:
     is the authority Donatism claimed, and a contemporary opponent of the Novatian schism
     he lived through. One work, two relations, two rows.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- row_id: anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian
-  work: The Epistles of Cyprian
+- work: The Epistles of Cyprian
   author: cyprian
   locus: 'div2 4.4 - 82 epistles, assigned as one body (includes letters TO Cyprian: Roman
     clergy, Cornelius, the confessors, Firmilian)'
@@ -103,8 +53,7 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- row_id: anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on
-  work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
+- work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
     the Glory of Martyrdom; Of the Discipline and Advantage of Chastity; Exhortation to Repentance)
   author: cyprian
   locus: div2 4.7 - four pieces, assigned as one body
@@ -124,8 +73,7 @@ works:
     without re-attributing anything. The spurious corpora could instead be detached from their
     attributed authors in a future pass, if that reading is preferred.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--extant-fragments-of-dionysius-of-alexandria-works-and
-  work: Extant Fragments of Dionysius of Alexandria (works and epistles)
+- work: Extant Fragments of Dionysius of Alexandria (works and epistles)
   author: dionysius_gr
   locus: 'div2 4.3 - two div3 groups: sections of works (On Nature, against Sabellius) and
     epistles/fragments of epistles'
@@ -139,8 +87,7 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-2
-  work: The Church History of Eusebius (Historia Ecclesiastica)
+- work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — Books II-VII in particular
   role: context
@@ -162,8 +109,7 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- row_id: anf05_hippolytus-cyprian-caius-novatian--a-treatise-of-novatian-concerning-the-trinity
-  work: A Treatise of Novatian Concerning the Trinity
+- work: A Treatise of Novatian Concerning the Trinity
   author: novatian
   locus: div2 6.3
   role: tradition
@@ -176,8 +122,7 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-jewish-meats-de-cibis-judaicis
-  work: On the Jewish Meats (De Cibis Judaicis)
+- work: On the Jewish Meats (De Cibis Judaicis)
   author: novatian
   locus: div2 6.4
   role: tradition
@@ -186,8 +131,7 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
-  work: The Ecclesiastical History of Socrates Scholasticus
+- work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom),
     Novatianist notices throughout

@@ -36,14 +36,6 @@ tellable_as: "a jug leaking water behind him - my own sins run out behind me and
 text: "The tradition tells that a brother at Scetis had done wrong, and the elders were gathered to judge him. Abba Moses would not come at first. When they sent for him again, he came carrying a jug full of water with a hole in it, so that the water ran out behind him the whole way. When the others asked what it meant, he said: my own sins run out behind me the same way, and I do not see them. And today I am coming to judge another man's fault. Hearing this, the elders said nothing more to the brother, and let him go."
 absent_detail: "Whether this specific council and this specific exchange happened as narrated, or condenses a teaching Moses gave more generally into one memorable scene, is not something this world's own compiled tradition can settle - it is told as tradition, not as verified single-event history."
 modern_contrast: "No significant modern-misreading risk identified for this story. The image (a leaking jug, sins running out unseen behind you while you judge someone else's) is self-interpreting and reads plainly to a modern ear the same way it read then."
-use_note:
-  means: "Abba Moses, summoned to judge an erring brother at Scetis, carried a leaking load to picture his own unseen sins, and the elders released the brother."
-  not_for:
-    - "Presenting the council scene as verified single-event history"
-    - "Presenting the jug of water as the vendored text's image, when Budge's Syriac has a basket of sand"
-    - "Presenting it as a community making a wrong right, which desert.limit.communal-wrong-unrepaired says no account supplies"
-  years: {from: 320, to: 430}
-  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 2.1, itself
 independently web-verified during that build's own drafting (not

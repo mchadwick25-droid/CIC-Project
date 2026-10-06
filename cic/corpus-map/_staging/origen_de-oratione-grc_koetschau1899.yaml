@@ -1,8 +1,7 @@
 source_file: origen_de-oratione-grc_koetschau1899.txt
 
 assignments:
-  - row_id: origen_de-oratione-grc_koetschau1899--de-oratione-on-prayer
-    work: "De Oratione (Περὶ εὐχῆς, On Prayer)"
+  - work: "De Oratione (Περὶ εὐχῆς, On Prayer)"
     author: origen
     locus: >
       whole work, Koetschau's 34 chapters (GCS 3 pp. 295-403, the only part

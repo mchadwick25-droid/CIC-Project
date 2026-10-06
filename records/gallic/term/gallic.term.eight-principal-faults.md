@@ -111,15 +111,6 @@ quick_meaning: >-
   Eight named spirits fought in a fixed order - gluttony first, pride last - each with a book and a
   handed-down remedy. Not the later "seven deadly sins."
 distortion_risk: high
-use_note:
-  means: "The eight principal faults meant Cassian's fixed list of spirits that the monk fights in order, gluttony first and pride last, each with a book and a handed-down remedy."
-  not_for:
-    - "the later seven deadly sins"
-    - "vices as bad habits, or the faults as psychology rather than spirits to be fought"
-    - "accidie in particular, which sits in gallic.term.accidie"
-    - "the combat idiom as such, which sits in gallic.term.combat-athlete"
-  years: {from: 415, to: 426}
-  status: reviewed
 ---
 Built from Doc_06 entry 037 (Tier 2; chunk galliclex037_eight-principal-faults.md; Doc_03 4.5).
 Register emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The

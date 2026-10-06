@@ -1,8 +1,7 @@
 source_file: kempis_little-garden-of-roses-and-valley-of-lilies_1867.txt
 
 assignments:
-  - row_id: kempis_little-garden-of-roses-and-valley-of-lilies_1867--the-little-garden-of-roses-and-valley-of-lilies
-    work: "The Little Garden of Roses and Valley of Lilies"
+  - work: "The Little Garden of Roses and Valley of Lilies"
     author: kempis
     locus: "whole volume"
     atlas_ids:

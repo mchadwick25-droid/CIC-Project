@@ -36,13 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks what it was like to visit the holy places"
   - "participant asks how they imagined the events of the gospel"
-use_note:
-  means: "Jerome reports that Paula, at the Bethlehem cave around 386, declared she could see the Nativity scene with the eyes of faith."
-  not_for:
-    - "a claim that Paula reported a literal vision or physical sight of the Nativity"
-    - "Paula's own words; they reach us in Jerome's 404 epitaph, shaped by its genre"
-  years: {from: 386, to: 404}
-  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 108 sec. 10,
 div v.CVIII). ATTRIBUTION SHAPE: Jerome reporting Paula's protestation at

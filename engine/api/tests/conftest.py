@@ -7,12 +7,6 @@ compiled-prompt/repository shape is exercised, not a guess at one.
 """
 from types import SimpleNamespace
 
-import atexit
-import functools
-import os
-import shutil
-import tempfile
-
 import pytest
 
 from engine.api.config import REPO_ROOT
@@ -47,9 +41,10 @@ class _FakeMessages:
     def __init__(self, *, safety_response, reader_response, stream_chunks, stream_scripts=None):
         self._responses = {"submit_safety_classification": safety_response, "submit_reader_output": reader_response}
         self._stream_chunks = stream_chunks
-        # A retry needs a different raw answer than the first attempt: a list
-        # of chunk-lists, one per call, popped in order. None keeps one
-        # script for every call.
+        # r27_enforce's own retry tests need a different raw answer on the
+        # retry than on the raw attempt - a list of chunk-lists, one per
+        # call, popped in order; None (every other test's own default)
+        # keeps the original single-script behavior.
         self._stream_scripts = list(stream_scripts) if stream_scripts is not None else None
         # Every generation call's kwargs, recorded so a test can assert what
         # the voice was actually handed (system prefix, history, message).
@@ -122,37 +117,3 @@ def store(tmp_path):
 @pytest.fixture
 def usage_store(tmp_path):
     return UsageLogStore(tmp_path / "usage.db")
-
-
-def _install_deeper_default() -> None:
-    """With CIC_TEST_DEEPER=1 every test app that does not say otherwise is
-    built with Go Deeper mounted, so the whole suite runs with the flag on."""
-    from engine.api import app as app_module
-    from engine.api.deeper_ops import load_ops
-    from engine.api.deeper_routes import DeeperRuntime
-    from engine.deeper.claims import ClaimStore
-    from engine.deeper.meter import Meter
-
-    scratch = tempfile.mkdtemp(prefix="deeper-suite-")
-    atexit.register(shutil.rmtree, scratch, ignore_errors=True)
-    original = app_module.create_app
-    counter = iter(range(10**9))
-
-    @functools.wraps(original)
-    def create_app_with_deeper(*args, **kwargs):
-        if "deeper" not in kwargs:
-            n = next(counter)
-            kwargs["deeper"] = DeeperRuntime(
-                meter=Meter(os.path.join(scratch, f"meter-{n}.db")),
-                claims=ClaimStore(os.path.join(scratch, f"claims-{n}.db")),
-                webhook_secret="whsec_suite",
-                products={},
-                ops=load_ops(),
-            )
-        return original(*args, **kwargs)
-
-    app_module.create_app = create_app_with_deeper
-
-
-if os.environ.get("CIC_TEST_DEEPER") == "1":
-    _install_deeper_default()

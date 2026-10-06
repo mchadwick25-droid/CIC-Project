@@ -8,7 +8,6 @@ from types import SimpleNamespace
 
 from engine.m3.generation import LiveModelAnswerer
 from engine.m4.world_loader import LoadedWorld
-from engine.shape import shape_text
 
 _FAKE_USAGE = SimpleNamespace(input_tokens=100, output_tokens=50, cache_creation_input_tokens=0, cache_read_input_tokens=0)
 
@@ -76,7 +75,7 @@ def test_answer_assembles_evidence_and_returns_grounded_citations():
     assert result.source_record_type == "doctrinal_witness"
 
     system, messages = client.messages.captured_stream_calls[0]
-    assert [b["text"] for b in system] == [shape_text(), world.prompt_text]  # shape then world, untouched per turn
+    assert system[0]["text"] == world.prompt_text  # the compiled prompt stays the cached system prefix, untouched per turn
     assert "## Ground for this turn" in messages[0]["content"]
     assert "[[fix.witness.who-is-jesus]]" in messages[0]["content"]
     assert ASK_TEXT in messages[0]["content"]

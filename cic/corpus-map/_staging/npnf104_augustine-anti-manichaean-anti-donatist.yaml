@@ -1,8 +1,7 @@
 
 source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
 assignments:
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-catholic-church
-  work: On the Morals of the Catholic Church
+- work: On the Morals of the Catholic Church
   author: augustine
   locus: div2 4.4 — On the Morals of the Catholic Church
   atlas_ids:
@@ -14,8 +13,7 @@ assignments:
     polemic and grouped so by CCEL — dual assignment with its companion below.
 
     '
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-catholic-church-2
-  work: On the Morals of the Catholic Church
+- work: On the Morals of the Catholic Church
   author: augustine
   locus: div2 4.4 — On the Morals of the Catholic Church
   atlas_ids:
@@ -29,8 +27,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-manichaeans
-  work: On the Morals of the Manichaeans
+- work: On the Morals of the Manichaeans
   author: augustine
   locus: div2 4.5 — On the Morals of the Manichæans
   atlas_ids:
@@ -42,8 +39,7 @@ assignments:
     Latin sources on Manichaean practice.
 
     '
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-manichaeans-2
-  work: On the Morals of the Manichaeans
+- work: On the Morals of the Manichaeans
   author: augustine
   locus: div2 4.5 — On the Morals of the Manichæans
   atlas_ids:
@@ -57,8 +53,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-two-souls-against-the-manichaeans
-  work: On Two Souls, Against the Manichaeans
+- work: On Two Souls, Against the Manichaeans
   author: augustine
   locus: div2 4.6 — On Two Souls, Against the Manichæans
   atlas_ids:
@@ -69,8 +64,7 @@ assignments:
     in order to refute it.
 
     '
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-two-souls-against-the-manichaeans-2
-  work: On Two Souls, Against the Manichaeans
+- work: On Two Souls, Against the Manichaeans
   author: augustine
   locus: div2 4.6 — On Two Souls, Against the Manichæans
   atlas_ids:
@@ -83,8 +77,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean
-  work: Acts or Disputation Against Fortunatus the Manichaean
+- work: Acts or Disputation Against Fortunatus the Manichaean
   author: augustine
   locus: div2 4.7 — Acts or Disputation Against Fortunatus the Manichæan
   atlas_ids:
@@ -97,8 +90,7 @@ assignments:
     is Augustine''s.
 
     '
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean-2
-  work: Acts or Disputation Against Fortunatus the Manichaean
+- work: Acts or Disputation Against Fortunatus the Manichaean
   author: augustine
   locus: div2 4.7 — Acts or Disputation Against Fortunatus the Manichæan
   atlas_ids:
@@ -113,8 +105,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--against-the-epistle-of-manichaeus-called-fundamental
-  work: Against the Epistle of Manichaeus, Called Fundamental
+- work: Against the Epistle of Manichaeus, Called Fundamental
   author: augustine
   locus: div2 4.8 — Against the Epistle of Manichæus, Called Fundamental
   atlas_ids:
@@ -125,8 +116,7 @@ assignments:
     primary Manichaean text surviving in Latin only through this work''s quotations.
 
     '
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--against-the-epistle-of-manichaeus-called-fundamental-2
-  work: Against the Epistle of Manichaeus, Called Fundamental
+- work: Against the Epistle of Manichaeus, Called Fundamental
   author: augustine
   locus: div2 4.8 — Against the Epistle of Manichæus, Called Fundamental
   atlas_ids:
@@ -139,8 +129,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--reply-to-faustus-the-manichaean-contra-faustum
-  work: Reply to Faustus the Manichaean (Contra Faustum)
+- work: Reply to Faustus the Manichaean (Contra Faustum)
   author: augustine
   locus: div2 4.9 — Reply to Faustus the Manichæan (33 books, ~176k words)
   atlas_ids:
@@ -153,8 +142,7 @@ assignments:
     is preserved inside Augustine''s refutation.
 
     '
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--reply-to-faustus-the-manichaean-contra-faustum-2
-  work: Reply to Faustus the Manichaean (Contra Faustum)
+- work: Reply to Faustus the Manichaean (Contra Faustum)
   author: augustine
   locus: div2 4.9 — Reply to Faustus the Manichæan (33 books, ~176k words)
   atlas_ids:
@@ -169,8 +157,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--concerning-the-nature-of-good-against-the-manichaeans
-  work: Concerning the Nature of Good, Against the Manichaeans
+- work: Concerning the Nature of Good, Against the Manichaeans
   author: augustine
   locus: div2 4.10 — Concerning the Nature of Good, Against the Manichæans
   atlas_ids:
@@ -181,8 +168,7 @@ assignments:
     Mani''s Thesaurus and Fundamental Epistle.
 
     '
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--concerning-the-nature-of-good-against-the-manichaeans-2
-  work: Concerning the Nature of Good, Against the Manichaeans
+- work: Concerning the Nature of Good, Against the Manichaeans
   author: augustine
   locus: div2 4.10 — Concerning the Nature of Good, Against the Manichæans
   atlas_ids:
@@ -195,8 +181,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists
-  work: On Baptism, Against the Donatists
+- work: On Baptism, Against the Donatists
   author: augustine
   locus: div2 5.4 — On Baptism, Against the Donatists (7 books)
   atlas_ids:
@@ -210,8 +195,7 @@ assignments:
     both sides of that inheritance.
 
     '
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist
-  work: Answer to the Letters of Petilian, the Donatist
+- work: Answer to the Letters of Petilian, the Donatist
   author: augustine
   locus: div2 5.5 — Answer to the Letters of Petilian (3 books, ~102k words)
   atlas_ids:
@@ -225,8 +209,7 @@ assignments:
     on hand.
 
     '
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum
-  work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
+- work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
   author: augustine
   locus: div2 5.6 — The Correction of the Donatists
   atlas_ids:
@@ -239,8 +222,7 @@ assignments:
     schism ("compel them to come in"). Also assigned to imperial-juridical-christianity below.
 
     '
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum-2
-  work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
+- work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
   author: augustine
   locus: div2 5.6 — The Correction of the Donatists
   atlas_ids:

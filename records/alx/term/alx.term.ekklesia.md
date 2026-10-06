@@ -56,13 +56,6 @@ senses:
     names.
 quick_meaning: Not a building or a list of members. It is the assembly gathered around the Logos.
 distortion_risk: high
-use_note:
-  means: "Ekklesia meant the called-out assembly gathered around the Logos, not a building or a membership roll."
-  not_for:
-    - "describing the church as a building or an organization with members"
-    - "saying baptism alone settles belonging regardless of sharing the community's life"
-  years: {from: 180, to: 373}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex043, "Church / Ekklesia") at Mark's direction, as
 a draft, not a final version.

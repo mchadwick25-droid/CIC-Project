@@ -42,13 +42,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.bishop-archebius
-use_note:
-  means: "Cassian describes one of the two brothers he addresses in Conferences Part II as presiding over a large monastery of brethren."
-  not_for:
-    - "Cassian's own naming of Lerins, when that identification is the editors'"
-    - "a claim that Honoratus was already a bishop when addressed"
-  years: {from: 426, to: 426}
-  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "presiding as he does over a large"` returns one hit, line 36724. The div is `<div3

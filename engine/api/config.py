@@ -106,19 +106,10 @@ class Settings:
     # withhold, no Facilitator handoff.
     self_revision_enabled: bool
 
-    # Verified citation attachment after each voice turn (engine.m4.
-    # citation_attach): adds a citation to an uncited claim sentence only
-    # when a check call confirms the record carries it; never changes text.
-    # Default off.
-    citation_attach_enabled: bool
-
-    # The anonymous quality-control store (engine.m7.qc_store): a separate
-    # SQLite file, sharing no key with the event log or the usage log.
-    qc_db_path: str
-
-    # Lets a client that asks for an event stream (Accept: text/event-stream)
-    # read a reply, an interview's or a Table seat's, sentence by sentence while it is written
-    # (engine.api.app._stream_turn). Off by default.
+    # The engine's own sentence-buffered streaming module
+    # (engine.m4.streaming). Off by default. No code path reads this flag
+    # yet - it exists so the module can be built and tested against a
+    # real setting rather than a hypothetical one.
     streaming_enabled: bool
 
     @classmethod
@@ -156,7 +147,5 @@ class Settings:
             anon_daily_turn_limit=int(os.environ.get("CIC_API_ANON_DAILY_TURN_LIMIT", _DEFAULT_ANON_DAILY_TURN_LIMIT)),
             r27_enforce=os.environ.get("CIC_R27_ENFORCE", "") in ("1", "true", "yes"),
             self_revision_enabled=os.environ.get("CIC_SELF_REVISION", "1") not in ("0", "false", "no"),
-            citation_attach_enabled=os.environ.get("CIC_CITATION_ATTACH", "") in ("1", "true", "yes"),
-            qc_db_path=os.environ.get("CIC_API_QC_DB", "./cic_api_qc.db"),
             streaming_enabled=os.environ.get("CIC_API_STREAMING", "") in ("1", "true", "yes"),
         )

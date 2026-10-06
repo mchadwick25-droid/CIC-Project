@@ -142,37 +142,25 @@ def resolve_merge_base(root: Path, base: str | None) -> str:
     raise ValueError(f"cannot resolve a base ref from {', '.join(candidates)}: {last_error}")
 
 
-def record_prefixes(code: str) -> tuple[str, ...]:
-    """Every home of the world's records, as repo-relative directory prefixes."""
-    return (f"records/{code}/", f"Build/worlds/{code}/surface/", f"Build/worlds/{code}/build/records/")
-
-
 def changed_record_paths(root: Path, code: str, merge_base: str) -> set[str]:
-    """Record files added or edited since the merge-base. A file moved
-    without a change to its content is not an edit."""
-    prefixes = record_prefixes(code)
-    names = []
-    for line in _git(root, "diff", "--name-status", "-M", "--diff-filter=ACMR", merge_base, "--", *prefixes).splitlines():
-        status, *paths = line.split("\t")
-        if status != "R100":
-            names.append(paths[-1])
-    names += _git(root, "ls-files", "--others", "--exclude-standard", "--", *prefixes).splitlines()
-    return {n for n in names if n.endswith(".md") and n.startswith(prefixes)}
+    prefix = f"records/{code}/"
+    names = _git(root, "diff", "--name-only", "--diff-filter=ACMR", merge_base, "--", prefix).splitlines()
+    names += _git(root, "ls-files", "--others", "--exclude-standard", "--", prefix).splitlines()
+    return {n for n in names if n.endswith(".md")}
 
 
 def base_records(root: Path, code: str, merge_base: str) -> dict[str, dict]:
-    """The world's records as they stood at the merge-base, from every home."""
+    """The world's records as they stood at the merge-base."""
     out: dict[str, dict] = {}
-    for prefix in record_prefixes(code):
-        for name in _git(root, "ls-tree", "-r", "--name-only", merge_base, "--", prefix).splitlines():
-            if not name.endswith(".md") or name[len(prefix):].count("/") != 1:
-                continue
-            try:
-                rec = parse_record_text(_git(root, "show", f"{merge_base}:{name}"), f"{merge_base}:{name}")
-            except ValueError:
-                continue
-            if rec.get("id"):
-                out[rec["id"]] = rec
+    for name in _git(root, "ls-tree", "-r", "--name-only", merge_base, "--", f"records/{code}/").splitlines():
+        if not name.endswith(".md") or name.count("/") != 3:
+            continue
+        try:
+            rec = parse_record_text(_git(root, "show", f"{merge_base}:{name}"), f"{merge_base}:{name}")
+        except ValueError:
+            continue
+        if rec.get("id"):
+            out[rec["id"]] = rec
     return out
 
 

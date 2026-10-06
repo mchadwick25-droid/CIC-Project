@@ -55,14 +55,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.the-three-lentil-beans
-use_note:
-  means: "Cassian, in Institutes IV, describes Eastern monks serving in weekly turns and handing over vessels with care, believing they owe the Lord an account for them."
-  not_for:
-    - "a Gallic house's own practice, which the passage does not describe"
-    - "a checked survey of all the East rather than Cassian's own generalization"
-    - "the three lentils incident, which sits in gallic.quote.three-lentils-and-the-lords-things"
-  years: {from: 415, to: 426}
-  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "Mesopotamia, Palestine"` returns one hit, line 19173. The chapter div is `<div4 title="Chapter

@@ -43,13 +43,6 @@ text: >
   Old Testament. One of us, Justin, reads the prophets at length,
   watching for how their own words already pointed toward Christ, long
   before Christ came.
-use_note:
-  means: "Scripture was heard aloud at weekly gatherings, chiefly the prophets read as pointing to Christ, alongside apostolic memoirs, then explained by the presider."
-  not_for:
-    - "a claim that apostolic writings were already fixed into a settled list"
-    - "a claim that non-literate members had a separate mode of access to scripture"
-  years: {from: 153, to: 157}
-  status: reviewed
 ---
 Justin's reading practice checked directly against cic/texts/anf01_
 apostolic-fathers-justin-irenaeus.xml, div1 viii (viii.ii.lxvii): "the

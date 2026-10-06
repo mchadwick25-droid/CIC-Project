@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 from engine.m1.loader import REPO_ROOT as RECORDS_REPO_ROOT
-from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_records, package_records, voiced_records
+from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_records
 from engine.m1.registry import get_world, is_fixture, load_registry
 
 from . import builders, validation
@@ -36,12 +36,24 @@ _NO_STAMP_PREFIXES = ("compiled/prompt.txt", "compiled/capsule.md", "compiled/ch
 
 
 def _frozen_records_copy(world_key: str, records: dict[str, dict], records_root: Path = RECORDS_ROOT) -> dict[str, bytes]:
-    """The files of exactly the records given (each record's own _path),
-    never a fresh glob, so a stray non-record file beside them is never
-    copied."""
+    """Copies exactly the files load_world_records() actually parsed as
+    records (via each record's own _path) - never a fresh, independent
+    glob. A world directory can hold non-record files that aren't inside a
+    record_type/ subdirectory (e.g. a source-request manifest doc sitting
+    at records/<world_key>/ top level) - load_world_records() already
+    ignores those (it only iterates directories), but an independent
+    rglob("*.md") here previously swept them in anyway. Found for real: the
+    Alexandria source-ecology thread dropped exactly such a file and
+    flagged it rather than working around it - fixed here once, at the
+    root, instead of teaching every future stray top-level file to avoid
+    the compiler."""
     world_dir = records_root / world_key
     out = {}
     for record in records.values():
+        # _path (engine/m1/loader.py) is always relative to the real repo
+        # root, regardless of what records_root a caller passed in - true
+        # for every records_root this codebase actually uses today (none
+        # override it away from the real repo).
         path = RECORDS_REPO_ROOT / record["_path"]
         rel = f"records/{path.relative_to(world_dir).as_posix()}"
         out[rel] = path.read_bytes()
@@ -58,19 +70,6 @@ def _stamp(path: str, content: bytes, provenance: str) -> bytes:
     return canonical_json({"_generated_by": provenance, **obj})
 
 
-def unstamp(path: str, content: bytes) -> bytes:
-    """The inverse of _stamp: a compiled file's content without its
-    generated-by provenance."""
-    if path.startswith("records/") or path.startswith(_NO_STAMP_PREFIXES):
-        return content
-    if path.endswith(".svg"):
-        first, _, rest = content.partition(b"\n")
-        return rest if first.startswith(b"<!-- generated-by:") else content
-    obj = json.loads(content)
-    obj.pop("_generated_by", None)
-    return canonical_json(obj)
-
-
 def compile_world(
     *,
     world_key: str,
@@ -81,24 +80,23 @@ def compile_world(
 ) -> dict[str, bytes]:
     registry = load_registry()
     registry_entry = get_world(world_key, registry)
-    fleet = load_fleet_records()
+    fleet = load_fleet_records(records_root=records_root)
     records = load_world_records(world_key, records_root=records_root)
-    voiced = voiced_records(records)
 
     provenance = f"cic-m2-compiler {compiler_version} from records_commit {records_commit}"
 
     compiled: dict[str, bytes] = {
-        "compiled/prompt.txt": builders.build_prompt(voiced, registry_entry),
-        "compiled/capsule.md": builders.build_capsule(voiced, registry_entry),
-        "compiled/quotes.json": builders.build_quotes_json(voiced),
-        "compiled/figures.json": builders.build_figures_json(voiced),
-        "compiled/repository.json": builders.build_repository_json(voiced),
-        "compiled/coverage.json": builders.build_coverage_json(voiced, fleet),
-        "compiled/frame.json": builders.build_frame_json(voiced, fleet, registry_entry),
+        "compiled/prompt.txt": builders.build_prompt(records, fleet, registry_entry),
+        "compiled/capsule.md": builders.build_capsule(records, registry_entry),
+        "compiled/quotes.json": builders.build_quotes_json(records),
+        "compiled/figures.json": builders.build_figures_json(records),
+        "compiled/repository.json": builders.build_repository_json(records),
+        "compiled/coverage.json": builders.build_coverage_json(records, fleet),
+        "compiled/frame.json": builders.build_frame_json(records, fleet, registry_entry),
         "compiled/indexes/canon-map.json": builders.build_canon_map_json(fleet),
     }
-    compiled.update(builders.build_chunks(voiced))
-    compiled.update(builders.build_indexes(voiced))
+    compiled.update(builders.build_chunks(records))
+    compiled.update(builders.build_indexes(records))
     compiled.update(builders.build_media(registry_entry))
 
     validation_files = {
@@ -109,7 +107,7 @@ def compile_world(
         ),
     }
 
-    frozen_records = _frozen_records_copy(world_key, package_records(world_key, records, records_root), records_root=records_root)
+    frozen_records = _frozen_records_copy(world_key, records, records_root=records_root)
 
     other_files = {**compiled, **validation_files, **frozen_records}
     other_files = {path: _stamp(path, content, provenance) for path, content in other_files.items()}

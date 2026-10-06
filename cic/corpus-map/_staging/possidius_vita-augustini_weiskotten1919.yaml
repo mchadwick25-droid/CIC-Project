@@ -9,8 +9,7 @@
 source_file: possidius_vita-augustini_weiskotten1919.txt
 
 assignments:
-  - row_id: possidius_vita-augustini_weiskotten1919--sancti-augustini-vita-life-of-augustine
-    work: "Sancti Augustini Vita (Life of Augustine)"
+  - work: "Sancti Augustini Vita (Life of Augustine)"
     author: possidius
     locus: "whole text -- Weiskotten's own chapter numbering (i-xxxi) runs through both the Latin and the facing English translation"
     atlas_ids:

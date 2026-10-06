@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: early-benedictine-italian-monasticism
 works:
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian
-  work: The Conferences of John Cassian
+- work: The Conferences of John Cassian
   author: cassian
   locus: div2 4.4-4.6 — Conferences I-XXIV (three parts, one work)
   role: tradition
@@ -18,8 +17,7 @@ works:
     c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian entry this
     work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia
-  work: The Twelve Books on the Institutes of the Coenobia
+- work: The Twelve Books on the Institutes of the Coenobia
   author: cassian
   locus: div2 4.3 — The Institutes
   role: tradition
@@ -33,8 +31,7 @@ works:
     (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian
     entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i-2
-  work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
+- work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
   role: context
@@ -48,8 +45,7 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--register-of-the-epistles-of-st-gregory-the-great-books-ix-2
-  work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
+- work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
   author: gregory
   locus: div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books
     I-VIII)

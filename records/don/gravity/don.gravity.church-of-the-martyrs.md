@@ -138,14 +138,6 @@ manifestations:
   it was never textual to begin with
 - the named martyred clergy - a bishop of Sicilibba wounded, the bishop of Advocata killed
 - new commemorative text production after each persecution episode, rather than a single founding memory
-use_note:
-  means: "The conviction of being the persecuted true church, proved by suffering, is a central pattern lived in yearly graveside commemoration, the Passio texts and the Deo laudes stones, resting on Donatist voice more than any other."
-  not_for:
-    - "a claim that this pattern reaches us only through Augustine or other hostile sources"
-    - "a claim about the refusal of the state's authority as such, which the martyrs died for but which sits in don.gravity.refusal-of-imperial-legitimacy"
-    - "a claim about the purity doctrine itself, which suffering proves but which sits in don.gravity.ministerial-purity"
-  years: {from: 317, to: 348}
-  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate G3, generated at SS1, tested at SS3.3, classified
 Primary at SS4) and the cleared Doc_08 (SS5 and the Force Index's own G3 row). INTERACTION MATRIX

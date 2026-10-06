@@ -1,8 +1,7 @@
 # Fleet unopened-volume sweep.
 source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
 assignments:
-- row_id: fleet-sweep-additions-npnf102--the-city-of-god-book-xviii-chapters-42-44-the-authority-of
-  work: The City of God, Book XVIII, chapters 42-44 (the authority of the Septuagint)
+- work: The City of God, Book XVIII, chapters 42-44 (the authority of the Septuagint)
   author: augustine
   locus: XVIII.43 at file line 36715, naming Jerome; XVIII.42 at 36469; the Hebrew-versus-Septuagint
     chronology question at 28189

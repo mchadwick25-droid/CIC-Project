@@ -43,13 +43,6 @@ positions:
 tensions:
 - the record preserves the questions of the learned and the grief of the bereaved; the
   quieter unbelief of ordinary people, if it was there, left no trace
-use_note:
-  means: "This witness holds that hard questioning of teachers, like Marcella's, was honored, and that grief shaking faith was met with consolation, not condemnation."
-  not_for:
-    - "a claim that this world wrote any defence of unbelieving doubt"
-    - "a claim about the doubts of ordinary people, which left no trace"
-  years: {from: 382, to: 412}
-  status: reviewed
 ---
 F1-personal answer-ground. Marcella's disputing-to-learn is quoted
 verbatim at hal.quote.dispute-to-learn; the funeral material lives in

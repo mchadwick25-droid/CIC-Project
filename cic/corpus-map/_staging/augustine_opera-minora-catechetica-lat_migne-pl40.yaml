@@ -1,8 +1,7 @@
 source_file: augustine_opera-minora-catechetica-lat_migne-pl40.txt
 
 assignments:
-  - row_id: augustine_opera-minora-catechetica-lat_migne-pl40--augustine-s-opera-minora-migne-pl-40-including-de
-    work: "Augustine's opera minora (Migne PL 40), including De catechizandis rudibus and De symbolo ad catechumenos"
+  - work: "Augustine's opera minora (Migne PL 40), including De catechizandis rudibus and De symbolo ad catechumenos"
     author: augustine
     locus: "whole file; per-work loci not yet located"
     atlas_ids:

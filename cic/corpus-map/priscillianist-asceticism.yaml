@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: priscillianist-asceticism
 works:
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--against-lying-contra-mendacium-2
-  work: Against Lying (Contra Mendacium)
+- work: Against Lying (Contra Mendacium)
   author: augustine
   locus: div2 5.6 — Against Lying
   role: tradition
@@ -18,27 +17,7 @@ works:
 
     '
   source_file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
-- row_id: augustine_contra-mendacium-lat_zycha1900-csel41-tei--against-lying-contra-mendacium-csel-41-latin-text-tei-2
-  work: Against Lying (Contra Mendacium), CSEL 41 Latin text (TEI)
-  author: augustine
-  locus: file line 109 (first paragraph of the TEI body, opening 'Multa mihi legenda misisti,');
-    printed heading 'X. AD CONSENTIVM CONTRA MENDACIVM.' at file line 106; CSEL 41 work X,
-    printed pp. 467-528
-  role: tradition
-  confidence: provisional
-  note: 'Latin original of the ALREADY-PRESENT English co-assignment of ''Against Lying (Contra
-    Mendacium)'' (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml)
-    to this bucket. The treatise is addressed to Consentius about infiltrating the Priscillianists
-    by feigned apostasy; the word Priscillianistarum first appears at file line 197, and the
-    Priscillian stem occurs on 32 lines of the file. A hostile outside description by a Catholic
-    opponent, so a future Priscillianist world could use it only as etic material. Provisional
-    because the treatise''s subject is lying, not the movement. Primary original text as stated
-    on this file''s other assignment. Mirrors the English twin''s role and confidence exactly.
-
-    '
-  source_file: augustine_contra-mendacium-lat_zycha1900-csel41-tei.txt
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica-2
-  work: The Sacred History (Chronica)
+- work: The Sacred History (Chronica)
   author: sulpiciusseverus
   locus: div2 2.6 — The Sacred History of Sulpitius Severus
   role: context

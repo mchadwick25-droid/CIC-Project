@@ -33,13 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks why they left the city and what happened to their reputation"
   - "participant asks whether they were ever popular, and what changed"
-use_note:
-  means: "Jerome, leaving Rome in August 385, claims that before he knew Paula's family all Rome praised him and judged him worthy of the episcopate."
-  not_for:
-    - "a confirmed fact that Jerome was a candidate to become bishop of Rome"
-    - "a neutral account of why he left Rome rather than his aggrieved self-defence"
-  years: {from: 382, to: 385}
-  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 45 sec. 3,
 div v.XLV; the file's editorial footnote on the Latin elided). Written on

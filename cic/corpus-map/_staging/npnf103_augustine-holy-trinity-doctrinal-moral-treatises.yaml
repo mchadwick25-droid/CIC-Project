@@ -1,8 +1,7 @@
 
 source_file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
 assignments:
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-holy-trinity-de-trinitate
-  work: On the Holy Trinity (De Trinitate)
+- work: On the Holy Trinity (De Trinitate)
   author: augustine
   locus: div2 4.1 — On the Holy Trinity
   atlas_ids:
@@ -15,8 +14,7 @@ assignments:
     there.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--the-enchiridion-on-faith-hope-and-love
-  work: The Enchiridion (On Faith, Hope, and Love)
+- work: The Enchiridion (On Faith, Hope, and Love)
   author: augustine
   locus: div2 4.2 — The Enchiridion
   atlas_ids:
@@ -26,8 +24,7 @@ assignments:
   note: 'Handbook of the faith for the layman Laurentius — catechetical-pastoral by design.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-catechising-of-the-uninstructed
-  work: On the Catechising of the Uninstructed
+- work: On the Catechising of the Uninstructed
   author: augustine
   locus: div2 4.3 — On the Catechising of the Uninstructed
   atlas_ids:
@@ -38,8 +35,7 @@ assignments:
     formation practice itself, as near the center of this entry as a work can sit.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--a-treatise-on-faith-and-the-creed
-  work: A Treatise on Faith and the Creed
+- work: A Treatise on Faith and the Creed
   author: augustine
   locus: div2 4.4 — A Treatise on Faith and the Creed
   atlas_ids:
@@ -49,8 +45,7 @@ assignments:
   note: 'Exposition of the creed delivered to the North African bishops at Hippo in 393.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--concerning-faith-of-things-not-seen
-  work: Concerning Faith of Things Not Seen
+- work: Concerning Faith of Things Not Seen
   author: augustine
   locus: div2 4.5 — Concerning Faith of Things Not Seen
   atlas_ids:
@@ -60,8 +55,7 @@ assignments:
   note: 'Short apologetic-catechetical piece for his congregation.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-profit-of-believing-de-utilitate-credendi
-  work: On the Profit of Believing (De Utilitate Credendi)
+- work: On the Profit of Believing (De Utilitate Credendi)
   author: augustine
   locus: div2 4.6 — On the Profit of Believing
   atlas_ids:
@@ -74,8 +68,7 @@ assignments:
     so it goes to both his entry and the entry it argues against.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-profit-of-believing-de-utilitate-credendi-2
-  work: On the Profit of Believing (De Utilitate Credendi)
+- work: On the Profit of Believing (De Utilitate Credendi)
   author: augustine
   locus: div2 4.6 — On the Profit of Believing
   atlas_ids:
@@ -90,8 +83,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-creed-a-sermon-to-catechumens
-  work: 'On the Creed: A Sermon to Catechumens'
+- work: 'On the Creed: A Sermon to Catechumens'
   author: augustine
   locus: div2 4.7 — On the Creed
   atlas_ids:
@@ -101,8 +93,7 @@ assignments:
   note: 'Creedal instruction preached to catechumens.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-continence
-  work: On Continence
+- work: On Continence
   author: augustine
   locus: div2 5.1 — On Continence
   atlas_ids:
@@ -113,8 +104,7 @@ assignments:
     but is not primarily about the movement, so it is not double-assigned.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-good-of-marriage
-  work: On the Good of Marriage
+- work: On the Good of Marriage
   author: augustine
   locus: div2 5.2 — On the Good of Marriage
   atlas_ids:
@@ -126,8 +116,7 @@ assignments:
     an assignment.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--of-holy-virginity
-  work: Of Holy Virginity
+- work: Of Holy Virginity
   author: augustine
   locus: div2 5.3 — Of Holy Virginity
   atlas_ids:
@@ -137,8 +126,7 @@ assignments:
   note: 'Companion piece to On the Good of Marriage, same year and setting.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-good-of-widowhood
-  work: On the Good of Widowhood
+- work: On the Good of Widowhood
   author: augustine
   locus: div2 5.4 — On the Good of Widowhood
   atlas_ids:
@@ -148,8 +136,7 @@ assignments:
   note: 'Letter-treatise to the widow Juliana (mother of Demetrias); pastoral counsel.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-lying-de-mendacio
-  work: On Lying (De Mendacio)
+- work: On Lying (De Mendacio)
   author: augustine
   locus: div2 5.5 — On Lying
   atlas_ids:
@@ -160,8 +147,7 @@ assignments:
     Lying.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--against-lying-contra-mendacium
-  work: Against Lying (Contra Mendacium)
+- work: Against Lying (Contra Mendacium)
   author: augustine
   locus: div2 5.6 — Against Lying
   atlas_ids:
@@ -172,8 +158,7 @@ assignments:
     apostasy. Also assigned to priscillianist-asceticism below.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--against-lying-contra-mendacium-2
-  work: Against Lying (Contra Mendacium)
+- work: Against Lying (Contra Mendacium)
   author: augustine
   locus: div2 5.6 — Against Lying
   atlas_ids:
@@ -188,8 +173,7 @@ assignments:
     movement.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--of-the-work-of-monks-de-opere-monachorum
-  work: Of the Work of Monks (De Opere Monachorum)
+- work: Of the Work of Monks (De Opere Monachorum)
   author: augustine
   locus: div2 5.7 — Of the Work of Monks
   atlas_ids:
@@ -201,8 +185,7 @@ assignments:
     to desert-monasticism, whose world is Egyptian.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-patience
-  work: On Patience
+- work: On Patience
   author: augustine
   locus: div2 5.8 — On Patience
   atlas_ids:
@@ -212,8 +195,7 @@ assignments:
   note: 'Sermon-treatise on patience as gift of grace.
 
     '
-- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-care-to-be-had-for-the-dead
-  work: On Care to Be Had for the Dead
+- work: On Care to Be Had for the Dead
   author: augustine
   locus: div2 5.9 — On Care to Be Had for the Dead
   atlas_ids:

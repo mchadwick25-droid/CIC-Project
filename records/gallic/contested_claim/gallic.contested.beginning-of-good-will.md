@@ -119,15 +119,6 @@ divergence_partners:
 relations:
 - type: associated-with
   target: gallic.gravity.grace-and-effort
-use_note:
-  means: "The claim that Conference XIII states Cassian's own position against Augustine on a good will's beginning is contested, since his text says both things and Prosper's refutation read one."
-  not_for:
-    - "a settled finding that Cassian placed the beginning of faith on man's side"
-    - "either of Cassian's two phrasings as his only position"
-    - "the term's meaning, which sits in gallic.term.beginning-of-a-good-will"
-    - "Prosper's Contra Collatorem as read here, when it is unvendored and known through editors"
-  years: {from: 426, to: 429}
-  status: reviewed
 ---
 Unparked from Doc_06 section 3's own [CT] tagging - Contest Type "Meaning" - of chunks 008 (grace), 009
 (free will), and 042 (beginning of a good will), the last stated there in exactly this record's terms:

@@ -256,9 +256,8 @@ thinness: >-
 
   The recorded acts of the 411 Conference, the Gesta, remain largely untapped. They are a live,
   recorded route to Augustine's own voice among named Donatist bishops. He speaks in at least
-  thirteen numbered acts. In one more, he signs the mandate that sent the delegates. The Gesta sit
-  in this world's own collection, and they bear on the question of what councils can decide. We have
-  drawn on them for that one fact about his signature, and for nothing more.
+  fourteen numbered acts. The Gesta sit in this world's own collection, and they bear on the
+  question of what councils can decide. But we have not yet drawn on them.
 cautions: >-
   1) Resting on two bishops is a real limit, but it is not the Donatist problem. In the Donatist
   world, nearly the whole record comes through opponents; here, both bishops speak in this
@@ -323,11 +322,10 @@ cautions: >-
   is not a claim about which world he actually belongs to.
 
 
-  9) The rich record of the 411 Conference does not widen what it can support. In thirteen numbered
+  9) The rich record of the 411 Conference does not widen what it can support. In fourteen numbered
   acts, Augustine speaks among named Donatist bishops, and each act has been counted and quoted. But
   we still date the Conference by its ordinary, undisputed dating, not by any reading of those acts.
-  The acts are available for later use. We draw one fact from them: in a fourteenth act, he signs
-  the mandate that sent the delegates.
+  The acts are available for later use, but nothing here draws on them yet.
 
 
   10) The modern scholarly literature on this world has not been fully surveyed. Fourteen rounds of
@@ -383,7 +381,7 @@ thin_topics:
   - the nuns of Hippo's own grievance
   note: Albina, the Nuns of Hippo, and Sermons 280-281 on Perpetua and Felicitas are real, narratively
     weighty data points, but each reaches this world's own record through Augustine's own framing of it,
-    and the Affirmative Duty's own bounded-reconstruction test has not been run against any of them.
+    and the Affirmative Duty's own bounded-reconstruction test has not yet been run against any of them.
 - keywords:
   - basilica archaeology
   - excavation
@@ -425,6 +423,8 @@ thin_topics:
     finds reachable-but-unrun on its own premises: Cyprian''s own egalitarian, non-coercive theory against
     Augustine''s own hierarchical, correctable one.'
 ---
+Built from Doc_01_World_Identification_Boundaries_Orientation.md (SS1 identity and Living Tradition Status, SS2 the boundary dates and their own reasoning, SS4 the World Separation Criteria and the three named authority-structure axes, SS5 the Strand Determination and the Article 3 answer, SS7 the World #6/#9/#4 continuity-and-distinction discharge, SS8 open items), Doc_07_Integrated_Ecology_Analysis.md (SS2 the nine integration lenses, SS3A Memory Structures, SS5 Cross-Lens Synthesis, SS6 the Integrative Observation, SS7 Gaps and Limits), and Doc_02_Source_Ecology.md (SS2 Author Gravity Assessment, SS6 Source Asymmetries and Missing Voices, SS7 the century-gap disclosure, SS8 the Confidence Map, SS9 open items) together with Source_Registry.md's own named gaps, its Discovery-methodology and Saturation statements, and Source_Acquisition_Manifest.md's own G1-G9 record.
+
 WORLD_ID: `latin-pastoral-congregational-christianity`. This world has no entry in records/worlds.yaml at all, so no registry value is being contradicted; the slug matches cic/corpus-map/latin-pastoral-congregational-christianity.yaml's own `atlas_id`, which is the census movement id and the join key, so the record id prefix (`lpc`), the world_id, and the census join all read consistently. Registering the world in records/worlds.yaml is a later admission-track step, out of scope for this first record-authoring pass, exactly as it was for the sibling Donatism world compiled before this one.
 
 TIME_WINDOW: start 246, end 430. Doc_01's own beginning point is Cyprian's conversion and rise to the episcopate, "c. 246-249" as a single approximate range rather than don's own doubled 311/312 opening; the earlier boundary year is carried in the schema's own single integer, with the fuller two-to-three-year interval and the two bishops' own different conversion-to-office intervals stated in `horizon` instead of collapsed. The 430 close is Augustine's own death during the Vandal siege of Hippo -- Doc_01 SS2 argues it is a real ecological rupture of the same kind that opens this world, not merely a biographical endpoint, and `horizon` carries that argument rather than only the date.

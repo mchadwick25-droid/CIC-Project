@@ -170,9 +170,8 @@ def test_registry_without_the_living_flag_needs_no_living_traditions_text():
     assert check_prompt_content("w", _prompt(), _records(), {"living_tradition_flag": False}, "p")[0] == []
 
 
-def test_missing_self_reference_hardening_in_the_shape_segment_names_each_absent_rule(monkeypatch):
-    monkeypatch.setattr("engine.m10.deployed.shape_text", lambda: "## Pronoun rule\n\nStrict we-voice, always.\n")
-    findings, _ = check_prompt_content("w", _prompt(), _records(), {}, "p")
+def test_missing_self_reference_hardening_names_each_absent_rule():
+    findings, _ = check_prompt_content("w", _prompt(self_reference="Strict we-voice, always."), _records(), {}, "p")
     assert len(findings) == 4 and _ids(findings) == ["k:self-reference"]
 
 
@@ -246,17 +245,16 @@ def test_staleness_is_reported_from_the_m2_sweep(tmp_path, monkeypatch):
     assert _ids(check_deployed("w", root).findings) == ["k:stale"]
 
 
-def test_failure_messages_say_where_to_author_the_fix(monkeypatch):
+def test_failure_messages_say_where_to_author_the_fix():
     records = _records()
     craft_id = next(r["id"] for r in records.values() if r["record_type"] == "voice_craft")
     records[craft_id]["_path"] = "records/w/voice_craft/w.voice_craft.craft.md"
-    monkeypatch.setattr("engine.m10.deployed.shape_text", lambda: "No invented memory.")
-    findings, _ = check_prompt_content("w", _prompt(), records, {}, "pin")
+    findings, _ = check_prompt_content("w", _prompt(self_reference="No invented memory."), records, {}, "pin")
     reason = next(f.reason for f in findings if f.check == "k:self-reference")
-    assert "engine shape segment" in reason and "fleet_voice record's pronoun_rule" in reason
-    monkeypatch.undo()
+    assert "records/w/voice_craft/w.voice_craft.craft.md" in reason and "flavor_notes entry with segment 'self-reference'" in reason
     findings, _ = check_prompt_content("w", "## Quotes we hold\n", _records(anchor=None, quotes=0), {}, "pin")
     by_check = {f.check: f.reason for f in findings}
+    assert "no [self-reference] note; the [self-reference] note is compiled from" in by_check["k:self-reference"]
     assert "source_anchor and source_anchor_entries fields" in by_check["k:source-anchor"]
     thin = _records(entries=tuple(ENTRIES[:2]))
     findings, _ = check_prompt_content("w", _prompt(), thin, {}, "pin")
@@ -485,17 +483,18 @@ def test_every_anchor_entry_must_be_named_in_the_paragraph():
     findings, _ = check_prompt_content("w", _prompt(), _records(entries=tuple(ENTRIES[:5]) + ("the Cave of Treasures",)), {}, "p")
     assert _ids(findings) == ["k:source-anchor-entries"]
 
-def test_a_fixture_world_is_exempt_from_the_source_anchor_check():
+def test_a_fixture_world_is_exempt_from_the_source_anchor_and_self_reference_checks():
     prompt = _prompt(self_reference="Strict we-voice, always.", anchor=None)
     findings, notes = check_prompt_content("w", prompt, _records(anchor=None), {"kind": "fixture"}, "p")
     assert findings == []
     assert any(n.startswith("source_anchor:") and "fixture" in n for n in notes)
+    assert any(n.startswith("self-reference:") and "fixture" in n for n in notes)
 
 
 def test_the_same_prompt_fails_a_world_that_is_not_a_fixture():
     prompt = _prompt(self_reference="Strict we-voice, always.", anchor=None)
     findings, _ = check_prompt_content("w", prompt, _records(anchor=None), {}, "p")
-    assert set(_ids(findings)) == {"k:source-anchor"}
+    assert set(_ids(findings)) == {"k:self-reference", "k:source-anchor"}
 
 
 def test_a_fixture_world_still_gets_every_other_check():

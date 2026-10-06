@@ -48,14 +48,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.legitimacy-by-reception
-use_note:
-  means: "Cassian states in Institutes I.2 that obedience is owed to customs handed down by long antiquity and the fathers' consent, not to the inventions of a few."
-  not_for:
-    - "a separate witness from gallic.quote.antiquity-and-the-fathers-unanimous-decision, which carries the identical sentence"
-    - "the Egyptian rejection of sackcloth itself, which sits in gallic.quote.egyptian-sackcloth-utterly-disapproved"
-    - "Vincent's threefold rule of universality, antiquity and consent, which sits in gallic.quote.believed-everywhere-always-by-all"
-  years: {from: 415, to: 426}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "unhesitating allegiance and"` returns line 16668; read with `sed -n '16668,16672p'`, inside `<div4

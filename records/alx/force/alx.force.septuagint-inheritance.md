@@ -21,7 +21,10 @@ relations:
   target: alx.gravity.scripture-formative
 name: The Jewish Scriptural Inheritance - the Septuagint [1A - initiating/external]
 kind: initiating
-description: 'The Greek Old Testament was produced in Alexandria centuries before. It was the ecology''s primary formative text. It was received from outside, and it carried Jewish interpretive questions with it. The Scriptures were simply there, in the tongue the city spoke. They were already the place where God was to be met. They were not chosen but given. They were the ground under everything.'
+description: 'The Greek Old Testament, produced in Alexandria centuries before, was the ecology''s primary
+  formative text - received from outside, carrying Jewish interpretive questions with it. In the world''s
+  own experience: the Scriptures were simply there, in the tongue the city spoke, already the place where
+  God was to be met - not chosen but given, the ground under everything.'
 manifestations:
 - Scripture quoted as given authority across the whole corpus
 - the deep text existing before the way of reading it (the precondition of scripture-formative)

@@ -126,8 +126,7 @@ def cmd_restore(args: argparse.Namespace) -> int:
     from engine.m1.registry import load_registry, world_keys
 
     registry = load_registry()
-    # A world still at the Library stage has no compiled package to restore.
-    keys = [args.world_key] if args.world_key else [k for k in world_keys(registry) if registry[k].get("package")]
+    keys = [args.world_key] if args.world_key else world_keys(registry)
     results = [restore_package(k, registry=registry) for k in keys]
     ok = all(r["restored"] for r in results)
     print(json.dumps({"pass": ok, "worlds": results}, indent=2))

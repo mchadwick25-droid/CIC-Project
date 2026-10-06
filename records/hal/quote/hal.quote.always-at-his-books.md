@@ -31,13 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks what an ordinary day of work looked like"
   - "participant asks how a visitor described the household from outside"
-use_note:
-  means: "The traveller Postumianus, in Sulpitius Severus's Dialogues, describes Jerome at Bethlehem around 400 as constantly reading or writing, day and night."
-  not_for:
-    - "a literal timetable of Jerome's day rather than an admiring visitor's sketch"
-    - "a claim that the whole community, not Jerome alone, spent every hour at books"
-  years: {from: 400, to: 404}
-  status: reviewed
 ---
 Verified verbatim against the vendored npnf211. An outside
 visitor's eyewitness sketch of the Bethlehem scholar at work, c. 400 - the

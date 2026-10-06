@@ -162,8 +162,7 @@ authors_ruled:
       DELIBERATELY NOT the existing slug `gennadius`, which is Gennadius of MARSEILLES, who
       continued Jerome's catalogue - a different man.
 assignments:
-- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-nicaea-325-creed-canons-synodal-letter
-  work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
+- work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
   author: council-of-nicaea-325
   locus: div1 7 — creed 7.3, canons 7.6, synodal letter 7.9, Easter ruling 7.10 (excursuses
     are Percival's, skipped)
@@ -177,8 +176,7 @@ assignments:
     left to the note rather than asserted - the acts are the empire-church''s, not Alexandria''s.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-nicaea-325-creed-canons-synodal-letter-2
-  work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
+- work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
   author: council-of-nicaea-325
   locus: div1 7
   atlas_ids:
@@ -189,8 +187,7 @@ assignments:
     the doctrinal-floor entry names. Same work as the tradition row; role differs per target.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-ancyra
-  work: The Canons of the Council of Ancyra
+- work: The Canons of the Council of Ancyra
   author: council-of-ancyra
   locus: div2 8.3 — The Council of Ancyra
   atlas_ids:
@@ -202,8 +199,7 @@ assignments:
     councils received. A finer home may exist to move to once one is added to the census.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-neocaesarea
-  work: The Canons of the Council of Neocaesarea
+- work: The Canons of the Council of Neocaesarea
   author: council-of-neocaesarea
   locus: div2 8.4 — The Council of Neocaesarea
   atlas_ids:
@@ -213,8 +209,7 @@ assignments:
   note: 'Early 4th-c disciplinary canons; same placement reasoning as Ancyra.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-gangra
-  work: The Canons of the Council of Gangra
+- work: The Canons of the Council of Gangra
   author: council-of-gangra
   locus: div2 8.5 — The Council of Grangra (sic)
   atlas_ids:
@@ -225,8 +220,7 @@ assignments:
     placement as Ancyra, plus a context row below.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-gangra-2
-  work: The Canons of the Council of Gangra
+- work: The Canons of the Council of Gangra
   author: council-of-gangra
   locus: div2 8.5
   atlas_ids:
@@ -238,8 +232,7 @@ assignments:
     of Sebaste was Basil''s early mentor). Outside testimony to that entry''s background.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-synod-of-antioch-in-encaeniis
-  work: The Canons of the Synod of Antioch in Encaeniis
+- work: The Canons of the Synod of Antioch in Encaeniis
   author: synod-of-antioch-in-encaeniis
   locus: div2 8.6 — The Synod of Antioch in Encaeniis
   atlas_ids:
@@ -251,8 +244,7 @@ assignments:
     church-law placement as Ancyra.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-synod-of-laodicea
-  work: The Canons of the Synod of Laodicea
+- work: The Canons of the Synod of Laodicea
   author: synod-of-laodicea
   locus: div2 8.7 — Synod of Laodicea
   atlas_ids:
@@ -263,8 +255,7 @@ assignments:
     read in church. Same church-law placement as Ancyra.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons
-  work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
+- work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9 — creed 9.3, letter to Theodosius 9.6, canons 9.8, synodical letter 9.9
   atlas_ids:
@@ -277,8 +268,7 @@ assignments:
     ratifies the Cappadocian settlement - trim it if that reads as reception rather than tradition.
     Canon 1 condemns Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians as
     separate parties; each now has its own entry and this work is the record of all of them.'
-- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons-2
-  work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
+- work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9
   atlas_ids:
@@ -292,8 +282,7 @@ assignments:
     by name, as separate parties - the formal record of the parties each of these entries
     names, from their condemners. Each now has its own entry, and this work is the record of
     all of them.'
-- row_id: npnf214_seven-ecumenical-councils--the-council-of-ephesus-431-extracts-from-the-acts-decree
-  work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
+- work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
   author: council-of-ephesus-431
   locus: div1 10 — acts extracts, decree against Nestorius 10.11, Coelestine's letter 10.13,
     canons 10.16 (Cyril's epistles split out below)
@@ -309,8 +298,7 @@ assignments:
     settle this for every worker.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-council-of-ephesus-431-extracts-from-the-acts-decree-2
-  work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
+- work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
   author: council-of-ephesus-431
   locus: div1 10
   atlas_ids:
@@ -324,8 +312,7 @@ assignments:
     and the Persian entry''s own voice is elsewhere.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-epistles-of-cyril-of-alexandria-second-and-third-letters
-  work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
+- work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
     Anathematisms, and the Letter to John of Antioch)
   author: cyril_alexandria
   locus: div2 10.5, 10.8-10.9, 11.5 — split out of the Ephesus and Chalcedon acts as the works
@@ -341,8 +328,7 @@ assignments:
     div2 titles.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-epistles-of-cyril-of-alexandria-second-and-third-letters-2
-  work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
+- work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
     Anathematisms, and the Letter to John of Antioch)
   author: cyril_alexandria
   locus: div2 10.5, 10.8-10.9, 11.5
@@ -355,8 +341,7 @@ assignments:
     between the schools.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-council-of-chalcedon-451-extracts-from-the-acts
-  work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
+- work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
   locus: div1 11 — acts extracts, Definition 11.13, canons 11.18 (the Tome split out below)
   atlas_ids:
@@ -371,8 +356,7 @@ assignments:
     spent the next 160 years defending - trim if that reads as reception.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-council-of-chalcedon-451-extracts-from-the-acts-2
-  work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
+- work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
   locus: div1 11
   atlas_ids:
@@ -383,8 +367,7 @@ assignments:
     Dioscorus - its defining dispute, told by the winners.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-tome-of-st-leo-letter-xxviii
-  work: The Tome of St. Leo (Letter XXVIII)
+- work: The Tome of St. Leo (Letter XXVIII)
   author: leo
   locus: div2 11.7 — The Tome of St. Leo
   atlas_ids:
@@ -397,8 +380,7 @@ assignments:
     row above.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-second-council-of-constantinople-553-extracts-from-the
-  work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
+- work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
     Anathemas Against Origen'
   author: council-of-constantinople-553
   locus: div1 12 — sentence 12.6, capitula 12.7, anathemas 12.9-12.10, Vigilius' decretal
@@ -411,8 +393,7 @@ assignments:
     the Vigilius correspondence is church-and-empire material of that world.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-second-council-of-constantinople-553-extracts-from-the-2
-  work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
+- work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
     Anathemas Against Origen'
   author: council-of-constantinople-553
   locus: div1 12
@@ -430,8 +411,7 @@ assignments:
     a 553 council should carry for earlier entries.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-third-council-of-constantinople-680-681-extracts-from
-  work: 'The Third Council of Constantinople (680-681): Extracts from the Acts, Letters of
+- work: 'The Third Council of Constantinople (680-681): Extracts from the Acts, Letters of
     Agatho, Definition of Faith'
   author: council-of-constantinople-680
   locus: div1 13 — Agatho's letters 13.5-13.6, sentence 13.8, definition 13.10, prosphoneticus
@@ -447,8 +427,7 @@ assignments:
     rather than to a Roman bucket.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-in-trullo-quinisext-692
-  work: The Canons of the Council in Trullo (Quinisext, 692)
+- work: The Canons of the Council in Trullo (Quinisext, 692)
   author: council-in-trullo-692
   locus: div2 14.3 — The Canons of the Council in Trullo
   atlas_ids:
@@ -460,8 +439,7 @@ assignments:
     apparatus, which is skipped.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-sardica
-  work: The Canons of the Council of Sardica
+- work: The Canons of the Council of Sardica
   author: council-of-sardica
   locus: div2 15.3 — The Council of Sardica
   atlas_ids:
@@ -474,8 +452,7 @@ assignments:
     judged too thin, since the canons themselves are procedural.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-code-of-canons-of-the-african-church-council-of-carthage
-  work: The Code of Canons of the African Church (Council of Carthage, 419)
+- work: The Code of Canons of the African Church (Council of Carthage, 419)
   author: council-of-carthage-419
   locus: div2 15.4 — The Canons of the CCXVII Blessed Fathers who assembled at Carthage
   atlas_ids:
@@ -486,8 +463,7 @@ assignments:
     - the institutional skeleton of the Latin-pastoral entry''s world (Carthage/Hippo, 240s-430).
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-code-of-canons-of-the-african-church-council-of-carthage-2
-  work: The Code of Canons of the African Church (Council of Carthage, 419)
+- work: The Code of Canons of the African Church (Council of Carthage, 419)
   author: council-of-carthage-419
   locus: div2 15.4
   atlas_ids:
@@ -499,8 +475,7 @@ assignments:
     movement, hence context.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-constantinople-under-nectarius
-  work: The Canons of the Council of Constantinople under Nectarius (394)
+- work: The Canons of the Council of Constantinople under Nectarius (394)
   author: council-of-constantinople-394
   locus: div2 15.5 — Council of Constantinople held under Nectarius
   atlas_ids:
@@ -511,8 +486,7 @@ assignments:
     imperial-era church-law corpus like the div1 8 provincial synods.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-acts-of-the-council-of-carthage-under-cyprian-256-on
-  work: The Acts of the Council of Carthage under Cyprian (256, on baptism)
+- work: The Acts of the Council of Carthage under Cyprian (256, on baptism)
   author: council-of-carthage-under-cyprian
   locus: div2 15.6 — The Council of Carthage held under Cyprian
   atlas_ids:
@@ -526,8 +500,7 @@ assignments:
     claimed by both sides, not description of either. Provisional on that double placement.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-second-council-of-nicaea-787-extracts-from-the-acts
-  work: 'The Second Council of Nicaea (787): Extracts from the Acts, Decree, Canons'
+- work: 'The Second Council of Nicaea (787): Extracts from the Acts, Decree, Canons'
   author: council-of-nicaea-787
   locus: div1 16 — imperial sacra 16.3-16.4, acts extracts, iconoclast epitome 16.10, decree
     16.12, canons 16.14, letter to the emperors 16.15 (Caroline Books and Frankfort sections
@@ -544,8 +517,7 @@ assignments:
     for any future iconoclasm entry, of which the census currently has none.
 
     '
-- row_id: npnf214_seven-ecumenical-councils--the-apostolical-canons
-  work: The Apostolical Canons
+- work: The Apostolical Canons
   author: apostolic-canons
   locus: div2 17.3-17.4 — The Canons of the Holy and Altogether August Apostles
   atlas_ids:
@@ -561,8 +533,7 @@ assignments:
     apocryphal-and-pseudepigraphal-literature is added alongside for the pseudo-apostolic
     character. ijc is kept - these functioned as church law in the imperial-era East, which is
     what this entry is.'
-- row_id: npnf214_seven-ecumenical-councils--the-canonical-epistles-of-the-fathers-received-by-trullo
-  work: The Canonical Epistles of the Fathers received by Trullo Canon II
+- work: The Canonical Epistles of the Fathers received by Trullo Canon II
   author: canonical-epistles-fathers
   locus: div2 17.5-17.32 — Dionysius of Alexandria, Peter of Alexandria, Gregory Thaumaturgus,
     Athanasius, Basil (the canonical epistles to Amphilochius), Gregory of Nyssa, Gregory
@@ -590,8 +561,7 @@ assignments:
     rows a full per-father split of 17k words would otherwise cost. The per-father rows carry
     only their authors'' home entries - one row for what the East received, twelve for who
     wrote it.'
-- row_id: npnf214_seven-ecumenical-councils--the-canonical-letter-of-dionysius-of-alexandria-to-basilides
-  work: The canonical letter of Dionysius of Alexandria to Basilides
+- work: The canonical letter of Dionysius of Alexandria to Basilides
   author: dionysius_gr
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.5 (~490 words)
@@ -603,8 +573,7 @@ assignments:
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
     of it.
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-peter-of-alexandria-from-his-sermon-on
-  work: The canons of Peter of Alexandria, from his Sermon on Penitence
+- work: The canons of Peter of Alexandria, from his Sermon on Penitence
   author: peter_alexandria
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.6 (~551 words)
@@ -618,8 +587,7 @@ assignments:
     of it. A duplicate, as with Gregory Thaumaturgus: anf06 div2 9.4 carries ''The Canonical
     Epistle of Peter of Alexandria'' with Balsamon''s commentaries, already assigned to this
     entry. Two vendored witnesses to one text.'
-- row_id: npnf214_seven-ecumenical-councils--the-canonical-epistle-of-gregory-thaumaturgus-on-those-who
-  work: The Canonical Epistle of Gregory Thaumaturgus, on those who ate with the barbarians
+- work: The Canonical Epistle of Gregory Thaumaturgus, on those who ate with the barbarians
   author: gregory_thau
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.7 (~495 words)
@@ -632,8 +600,7 @@ assignments:
     already a separate work, so this split covers 17.5-17.32. This row is one father''s share
     of it. A duplicate: anf06 carries the same work, already assigned to this entry. Two
     vendored witnesses to one text, which is worth knowing before anyone counts words.'
-- row_id: npnf214_seven-ecumenical-councils--the-canonical-epistles-of-athanasius-to-ammus-from-the-xxxix
-  work: The canonical epistles of Athanasius (to Ammus; from the XXXIX Festal Epistle; to
+- work: The canonical epistles of Athanasius (to Ammus; from the XXXIX Festal Epistle; to
     Ruffinian)
   author: athanasius
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -646,8 +613,7 @@ assignments:
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
     of it.
-- row_id: npnf214_seven-ecumenical-councils--the-canonical-epistles-of-basil-to-amphilochius-and-others
-  work: The canonical epistles of Basil to Amphilochius and others
+- work: The canonical epistles of Basil to Amphilochius and others
   author: basil
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.11-17.20 (10 pieces, ~4,604 words)
@@ -661,8 +627,7 @@ assignments:
     of it. The largest part of the collection by a wide margin, and the reason the split is
     worth making: Basil''s canonical letters are a quarter of these canons and belong with
     Basil.'
-- row_id: npnf214_seven-ecumenical-councils--the-canonical-epistle-of-gregory-of-nyssa-to-letoius-of
-  work: The Canonical Epistle of Gregory of Nyssa to Letoius of Melitene
+- work: The Canonical Epistle of Gregory of Nyssa to Letoius of Melitene
   author: gregory_nyssa
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.21 (~503 words)
@@ -674,8 +639,7 @@ assignments:
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
     of it.
-- row_id: npnf214_seven-ecumenical-councils--from-the-metrical-poems-of-gregory-theologus-on-the-canon-of
-  work: From the metrical poems of Gregory Theologus, on the canon of Scripture
+- work: From the metrical poems of Gregory Theologus, on the canon of Scripture
   author: gregory_naz
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.22 (~196 words)
@@ -687,8 +651,7 @@ assignments:
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
     of it.
-- row_id: npnf214_seven-ecumenical-councils--from-the-iambics-of-amphilochius-to-seleucus-on-the-canon-of
-  work: From the Iambics of Amphilochius to Seleucus, on the canon of Scripture
+- work: From the Iambics of Amphilochius to Seleucus, on the canon of Scripture
   author: amphilochius
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.23 (~242 words)
@@ -700,8 +663,7 @@ assignments:
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
     of it.
-- row_id: npnf214_seven-ecumenical-councils--the-canonical-answers-of-timothy-of-alexandria
-  work: The Canonical Answers of Timothy of Alexandria
+- work: The Canonical Answers of Timothy of Alexandria
   author: timothy_alexandria
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.24 (~629 words)
@@ -713,8 +675,7 @@ assignments:
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
     of it.
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-theophilus-of-alexandria-prosphonesus
-  work: The canons of Theophilus of Alexandria (Prosphonesus; Commonitory; to Agatho; to Menas;
+- work: The canons of Theophilus of Alexandria (Prosphonesus; Commonitory; to Agatho; to Menas;
     on the Cathari)
   author: theophilus_alexandria
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -729,8 +690,7 @@ assignments:
     of it. `provisional` on the date, not the author: Theophilus died in 412 and
     alexandria-catechetical ends at 400, while cyrilline-miaphysite-egyptian-tradition does not
     begin until 451. He falls in the gap between them.'
-- row_id: npnf214_seven-ecumenical-councils--the-canonical-epistles-of-cyril-of-alexandria-on-the-hymns
-  work: The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya
+- work: The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya
     and Pentapolis)
   author: cyril_alexandria
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -745,8 +705,7 @@ assignments:
     of it. Follows the placement already in the map: Cyril''s Epistles and XII Anathematisms
     sit in the Cyrilline entry, though he died in 444 and that entry opens at 451. Consistent
     with the precedent rather than newly stretched here.'
-- row_id: npnf214_seven-ecumenical-councils--the-encyclical-letter-of-gennadius-of-constantinople-and-his
-  work: The Encyclical Letter of Gennadius of Constantinople and his synod
+- work: The Encyclical Letter of Gennadius of Constantinople and his synod
   author: gennadius_constantinople
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.32 (~179 words)

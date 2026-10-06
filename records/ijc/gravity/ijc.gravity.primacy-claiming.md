@@ -44,31 +44,22 @@ relations:
 - {type: associated-with, target: ijc.force.leo-rejects-canon-28}
 name: Juridical Primacy-Claiming [PRIMARY]
 classification: primary
-description: >-
-  This is the drive to fix a see's standing as an enforceable right, not a mere honor. It recurs in an
-  unbroken chain of evidence across the whole window. In 341 Julius claimed that Rome could review a
-  judgment against the bishop of Alexandria. The judgment came from the Eusebian party. That is the
-  anti-Nicene faction named for Eusebius of Nicomedia. It is not Eusebius of Caesarea, the historian.
-  Damasus built the claim into stone at the martyr shrines. Leo stated it fully in the Tome and in a
-  letter. The same drive shaped the rival Constantinopolitan claim, on a different ground. That claim
-  appears in Canon 3 of 381 and Canon 28 of 451. The gravity works across strands. It holds directly
-  in the Roman apostolic-primacy strand. It also holds in the Constantinopolitan imperial-proximity
-  strand, in a form that is parallel in structure but a rival in substance. The two strands rest their claims on different grounds. One
-  rests on apostolic succession. The other rests on imperial proximity. That difference is part of the
-  finding. It must not be flattened. The world's closing event is Leo's rejection of Canon 28. It is
-  the last documented collision of this gravity.
+description: 'The drive to fix a see''s standing as a matter of enforceable right, not mere honor - recurring
+  in an unbroken evidentiary chain across the whole window: Julius asserting Rome''s authority to review
+  the Eusebian party''s (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of
+  Caesarea the historian) judgment against Alexandria''s own bishop (341), Damasus building the claim
+  into stone at the martyr shrines, Leo stating
+  it fully in Tome and letter, and the same underlying drive organizing the rival Constantinopolitan claim
+  (Canon 3 of 381, Canon 28 of 451) on a different ground. Cross-strand: it holds in Strand A directly
+  and, in a structurally parallel but substantively rival form, in Strand B - the divergence in grounding
+  (apostolic succession versus imperial proximity) is itself part of the finding, never flattened. The
+  world''s own closing event, Leo''s rejection of Canon 28, is this gravity''s final documented collision.'
 manifestations:
 - Julius's letter (341) already assuming Rome's standing to review a judgment made against Alexandria's
   own bishop, not by him
 - Damasus's epigraphic program - primacy argued to pilgrims in stone
 - Leo's Tome received at Chalcedon as the see of Peter speaking
 - Canon 3 and Canon 28 - the same drive on the imperial-proximity ground, contested by Rome in writing
-use_note:
-  means: "A recurring drive to fix a see's standing as enforceable right: Rome on apostolic succession, Constantinople on imperial proximity, on different grounds."
-  not_for:
-    - "a claim that the Roman and Constantinopolitan claims rested on the same ground"
-  years: {from: 341, to: 451}
-  status: reviewed
 ---
 Rebuilt from the reviewed Doc_04 Candidate 1 (Primary; passes all six
 tests; Confidence/Gravity Cross-Check: no divergence - Documented for

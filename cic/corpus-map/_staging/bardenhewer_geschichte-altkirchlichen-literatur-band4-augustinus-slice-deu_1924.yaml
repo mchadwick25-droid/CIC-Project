@@ -1,8 +1,7 @@
 source_file: bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924.txt
 
 assignments:
-  - row_id: bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924--bardenhewer-geschichte-der-altkirchlichen-literatur-band-4
-    work: "Bardenhewer, Geschichte der altkirchlichen Literatur, Band 4: Augustine and his circle (1924, slice)"
+  - work: "Bardenhewer, Geschichte der altkirchlichen Literatur, Band 4: Augustine and his circle (1924, slice)"
     author: bardenhewer
     locus: "sections 73-75; item lines 24456-30686"
     atlas_ids:

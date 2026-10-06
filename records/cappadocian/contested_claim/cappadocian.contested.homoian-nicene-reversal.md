@@ -76,15 +76,6 @@ divergence_partners:
 relations:
 - type: associated-with
   target: cappadocian.gravity.contested-church
-use_note:
-  means: "This record holds that the Nicene account of long persecution and sudden vindication is contested, because the Homoian establishment's own voice does not survive."
-  not_for:
-    - "the Homoian court church's own reasons, which survive nowhere in its own words"
-    - "Philostorgius as a Homoian voice, when he is a Eunomian historian known only through a hostile epitome"
-    - "the fifth-century church historians as this world's own witnesses"
-    - "the classification of the contested church as a primary gravity, which sits in cappadocian.gravity.contested-church"
-  years: {from: 360, to: 381}
-  status: reviewed
 ---
 Unparked from Doc_02 §1.5 ("The Homoian establishment... its Cappadocian face survives almost solely
 in its opponents' accounts and in imperial acts... Adversarial transmission") and §9's Confidence Map

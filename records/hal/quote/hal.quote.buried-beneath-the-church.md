@@ -38,14 +38,6 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.limit.f5-material-remains
-use_note:
-  means: "Jerome's 404 memorial of Paula records psalms chanted in Greek, Latin and Syriac for a week and her burial beneath the church near the Nativity cave."
-  not_for:
-    - "a claim about what archaeology has found or would find at the site"
-    - "a claim that the community's ordinary daily worship was trilingual"
-    - "a neutral eyewitness report free of the memorial's persuasive shaping"
-  years: {from: 404, to: 404}
-  status: reviewed
 ---
 Opened for F5-E, which hal.limit.f5-material-remains served alone. The limit cites
 this letter for "the buildings named; the burial by the church" and had no quote.

@@ -83,14 +83,6 @@ senses:
     from the community.'
 quick_meaning: A God-given station. Father, ruler, or preacher. None holier than another.
 distortion_risk: high
-use_note:
-  means: "Calling meant any station God commands, such as father, mother, ruler or preacher, none holier than another, with a regular public call required for the pulpit."
-  not_for:
-    - "calling as a career one chooses or feels personally drawn to"
-    - "'vocation' as a religious profession specifically"
-    - "office as a structural term, which sits in witt.term.office"
-  years: {from: 1522, to: 1546}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 6.4 (calling / 'regularly called', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none by attestation, weighted to the confessional register. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

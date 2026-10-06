@@ -84,15 +84,6 @@ modern_contrast: A modern reader might expect a founder's household to be either
   their own household's own coldness in prayer, recorded because a student happened to write it down.
   It is real, and it is also nearly everything this library has of her own voice; the temptation to build
   more around it than it can bear is exactly what this record exists to resist.
-use_note:
-  means: "At table Luther said his whole life was patience, and Katharina von Bora is remembered asking why the old church prayed fervently while their own household prayed cold."
-  not_for:
-    - "Katharina's one remembered question as evidence of women's voices or prayer practice generally"
-    - "a dated, verified transcript, since the exchange reaches the library through several hands"
-    - "typical household practice, which sits in witt.story.household-catechism-lesson-typical-practice"
-    - "the doctrine of prayer, which sits in witt.term.prayer"
-  years: {from: 1531, to: 1546}
-  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S08 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/luther_table-talk_bell1886.txt, lines

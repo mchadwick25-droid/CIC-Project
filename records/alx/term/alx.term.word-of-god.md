@@ -60,13 +60,6 @@ senses:
     page, is what gives Scripture its power to change someone.
 quick_meaning: Not a name for the Bible - the eternal Word who speaks, including through Scripture.
 distortion_risk: high
-use_note:
-  means: "The Word of God meant the eternal Word who made everything and speaks to the soul through Scripture, not first a name for the Bible."
-  not_for:
-    - "treating it as a synonym for the Bible"
-    - "describing it as an ancient document with religious authority"
-  years: {from: 180, to: 373}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex024, "Word of God") at Mark's direction, as a
 draft, not a final version.

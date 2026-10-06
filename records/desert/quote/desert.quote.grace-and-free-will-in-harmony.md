@@ -33,14 +33,6 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.dw.grace-and-effort
-use_note:
-  means: "Cassian has Abbot Chaeremon say that God's grace and free will seem opposed but are really in harmony, so both are needed alike."
-  not_for:
-    - "an unmediated Egyptian desert teaching rather than Cassian's own position against Augustine's followers"
-    - "free will as modern personal autonomy"
-    - "settled church teaching, when Prosper of Aquitaine attacked this Conference as erroneous"
-  years: {from: 426, to: 429}
-  status: reviewed
 ---
 The desert answer to the effort question, stated as a refusal of the dichotomy rather
 than a choice between its horns. Chaeremon's own worked examples in this chapter are the

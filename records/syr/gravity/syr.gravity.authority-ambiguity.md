@@ -62,14 +62,6 @@ manifestations:
 - the covenant order's own standing as an authority pathway beside consecration
 - the succession's twenty-year vacancy under persecution - continuity itself fracturing
 classification: tensional
-use_note:
-  means: "Authority here never resolves into one pattern: covenant standing and episcopal office run alongside each other, Aphrahat's rank is unknown and Papa's primacy was contested."
-  not_for:
-    - "a claim that the ambiguity was lived in a particular way, for which no evidence was found"
-    - "a claim that authority was settled in either episcopal or covenant hands"
-    - "a claim that Aphrahat was or was not a bishop"
-  years: {from: 315, to: 410}
-  status: reviewed
 ---
 Classification (Doc_04 C4): Tensional. The honest test record is
 carried: FORMATION TEST FAIL (the evidence speaks to modern

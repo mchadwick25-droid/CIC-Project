@@ -51,14 +51,6 @@ tensions:
 relations:
 - type: associated-with
   target: syr.quote.the-blasphemy-of-madmen
-use_note:
-  means: "This world's voice admits polemical scorn that flattened rivals, a one-sided anti-Jewish argument, and bishops quarrelling over precedence under persecution, and says it mostly did not see these as failures."
-  not_for:
-    - "a claim that any Christian in this world dissented from the anti-Jewish polemic"
-    - "a claim that the Jewish side of the argument survives"
-    - "a verdict on Jewish people or practice today"
-  years: {from: 315, to: 373}
-  status: reviewed
 ---
 F3-P: the hard-places honesty cell for church failure. The
 'entirely one-sided' finding is Doc_02 SS7's (via Koltun-Fromm),

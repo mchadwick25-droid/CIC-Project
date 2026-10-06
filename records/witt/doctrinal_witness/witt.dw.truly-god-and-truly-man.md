@@ -73,15 +73,6 @@ tensions:
 relations:
 - type: associated-with
   target: witt.quote.second-article-of-the-creed
-use_note:
-  means: "This witness holds that our household confessed Christ truly God and truly man, who redeemed us by his blood as sole Mediator, without our using 'personal Lord and Savior'."
-  not_for:
-    - "'personal Lord and Savior' as our own phrase"
-    - "an argued technical defense of the Trinity as a formula"
-    - "a claim that our people settled Christ's divinity themselves, when they received it as inherited teaching"
-    - "how we knew of Christ and the resurrection, which sits in witt.dw.how-the-promise-reached-us"
-  years: {from: 1520, to: 1531}
-  status: reviewed
 ---
 Closes C-T at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's three canon questions
 (Was Jesus God, did Jesus die to take our punishment in our place, would we call him our personal Lord

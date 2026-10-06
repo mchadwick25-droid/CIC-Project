@@ -32,14 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks who people went to when they disagreed about a text"
   - "participant asks whether a woman held any recognised authority"
-use_note:
-  means: "Jerome's 412 memorial of Marcella says that after he left Rome, disputes about the testimony of scripture were brought to her to settle."
-  not_for:
-    - "a claim that Marcella held a formal or institutional teaching office"
-    - "a claim that she taught in her own name; Jerome adds she gave her opinions as from him or others"
-    - "an independently corroborated fact; Jerome's memorial is its sole attestation"
-  years: {from: 385, to: 410}
-  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 127 sec. 7).
 THE sole attestation of Marcella's post-385 standing - Documented as

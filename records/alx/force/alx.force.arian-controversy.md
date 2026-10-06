@@ -33,7 +33,11 @@ relations:
   target: alx.gravity.logos-unity
 name: The Arian Controversy, c. 318-381 [2A - ongoing/external; highest formation impact]
 kind: ongoing
-description: 'Arius taught the Son as the highest creature. The controversy produced Nicaea (325), the homoousios, and Athanasius''s decades of Nicene defense. This time the danger came not from outside but from within. Brothers contested the very confession of the Word. What had been held loosely now had to be held within a drawn line. The settlement was relief and burden at once.'
+description: 'Arius taught the Son as the highest creature; the controversy produced Nicaea (325), the
+  homoousios, and Athanasius''s decades of Nicene defense. In the world''s own experience: this time the
+  danger was not from outside but from within - brothers contesting the very confession of the Word, so
+  that what had been held loosely now had to be held within a drawn line; the settlement was relief and
+  burden at once. STRICTLY post-318: must not be smeared across the earlier horizon.'
 manifestations:
 - the homoousian settlement and its defense (De Decretis - what the council actually did and why)
 - the Incarnation-grounded configuration of transformation forced into dominance (De incarnatione's charter

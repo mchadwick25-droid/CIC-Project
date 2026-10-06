@@ -26,7 +26,13 @@ author: "Uncertain. Traditionally bound as an appendix to Clement of Alexandria'
   editor's own best guess is a Montanist compiler, not Clement -- though the editor does not rule out a
   Theodotus, only rules out identifying which one: 'it is hard to say precisely who of three or four
   named Theodotus (all heretics), may have made the compilation'."
-work: "Eclogae Propheticae (Selections from the Prophetic Scriptures) - a set of notes on scriptural texts, printed in this edition under the running title 'Excerpts of Theodotus; or, Selections from the Prophetic Scriptures' and often cited as 'the Eclogues.' This is NOT the genuine Excerpta ex Theodoto (the real Valentinian-teaching notebook of that name, which is not in this library). Despite the shared title, this text carries no Valentinian technical vocabulary and does not present itself as a record of Theodotus's teaching; 'our Pantænus' (one occurrence) is the only substantive link to Clement or to Alexandria at all."
+work: "Eclogae Propheticae (Selections from the Prophetic Scriptures) - a set of notes on scriptural
+  texts, printed in this edition under the running title 'Excerpts of Theodotus; or, Selections from
+  the Prophetic Scriptures' and often cited as 'the Eclogues.' This is NOT the genuine Excerpta ex
+  Theodoto (the real Valentinian-teaching notebook of that name, which is not vendored in this
+  corpus). Despite the shared title, the vendored text carries no Valentinian technical vocabulary
+  and does not present itself as a record of Theodotus's teaching; 'our Pantænus' (one occurrence) is
+  the only substantive link to Clement or to Alexandria at all."
 edition: "trans. Rev. William Wilson, M.A., Ante-Nicene Fathers vol. 8 (1886), vendored as cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml (div1 at line 3788)"
 kind: vendored
 rights_status: public-domain

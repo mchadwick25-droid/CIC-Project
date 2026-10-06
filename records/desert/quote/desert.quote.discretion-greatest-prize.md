@@ -45,13 +45,6 @@ retrieval:
   - "participant asks who decided how much was enough"
 relations:
 - {type: illustrates, target: desert.gravity.diakrisis}
-use_note:
-  means: "Cassian records Abbot Moses of Scetis calling discretion the greatest prize of grace, without which a monk errs even in plain matters."
-  not_for:
-    - "discretion in the modern sense of tact or reticence"
-    - "Moses's exact speech rather than Cassian's literary Latin composed decades later in Gaul"
-  years: {from: 385, to: 429}
-  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf211 line
 27181; one continuous passage, unaltered, ending at the chapter break.

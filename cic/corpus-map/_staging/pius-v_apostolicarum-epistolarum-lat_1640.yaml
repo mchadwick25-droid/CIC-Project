@@ -1,8 +1,7 @@
 source_file: pius-v_apostolicarum-epistolarum-lat_1640.txt
 
 assignments:
-  - row_id: pius-v_apostolicarum-epistolarum-lat_1640--apostolicarum-pii-quinti-pont-max-epistolarum-libri-quinque
-    work: "Apostolicarum Pii Quinti Pont. Max. Epistolarum Libri Quinque"
+  - work: "Apostolicarum Pii Quinti Pont. Max. Epistolarum Libri Quinque"
     author: pius-v
     locus: "whole volume"
     atlas_ids:

@@ -72,13 +72,6 @@ senses:
     by the weak neighbour.'
 quick_meaning: A free bodily discipline, kept freely; forced food-laws, refused.
 distortion_risk: high
-use_note:
-  means: "Fasting meant a free, useful bodily discipline, refused only as a law forcing particular foods on particular days, with love for the weak guiding its use."
-  not_for:
-    - "a claim that Wittenberg abolished fasting, or made eating meat a badge of identity"
-    - "Christian liberty broadly, which sits in witt.term.must-and-free"
-  years: {from: 1522, to: 1531}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 8.6 (fasting / meats, Tier 2 ↑ from Doc_03's estimate of 3). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

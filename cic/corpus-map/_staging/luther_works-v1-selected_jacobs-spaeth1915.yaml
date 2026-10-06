@@ -6,8 +6,7 @@
 source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
 
 assignments:
-  - row_id: luther_works-v1-selected_jacobs-spaeth1915--selections-from-luther-s-prefaces-to-his-works-1539-and-1545
-    work: "Selections from Luther's Prefaces to His Works, 1539 and 1545"
+  - work: "Selections from Luther's Prefaces to His Works, 1539 and 1545"
     author: luther
     locus: "lines ~250-432 (I. Preface to the First Part of His German
       Works, Edition of 1539; II. Dr. Martin Luther to the Christian
@@ -30,8 +29,7 @@ assignments:
       Stops before Luther's later "tower experience" passage - not
       present in this excerpt (Doc_02 §0 already notes this).
 
-  - row_id: luther_works-v1-selected_jacobs-spaeth1915--the-ninety-five-theses-disputation-on-the-power-and-efficacy
-    work: "The Ninety-Five Theses (Disputation on the Power and Efficacy of
+  - work: "The Ninety-Five Theses (Disputation on the Power and Efficacy of
       Indulgences), with the Letter to Archbishop Albrecht of Mainz"
     author: luther
     locus: "Letter to the Archbishop Albrecht of Mainz through the Disputation
@@ -45,8 +43,7 @@ assignments:
       own ninety-five theses against indulgence sales, with the covering
       letter that actually launched the controversy.
 
-  - row_id: luther_works-v1-selected_jacobs-spaeth1915--a-treatise-on-the-holy-sacrament-of-baptism
-    work: "A Treatise on the Holy Sacrament of Baptism"
+  - work: "A Treatise on the Holy Sacrament of Baptism"
     author: luther
     locus: "lines ~1957-2856"
     atlas_ids:
@@ -57,8 +54,7 @@ assignments:
       1519 sacramental treatise, an early statement of Luther's own baptismal
       theology predating the Small Catechism by a decade.
 
-  - row_id: luther_works-v1-selected_jacobs-spaeth1915--a-discussion-of-confession
-    work: "A Discussion of Confession"
+  - work: "A Discussion of Confession"
     author: luther
     locus: "lines ~2856-3994"
     atlas_ids:
@@ -69,8 +65,7 @@ assignments:
       1520 treatise on confession and absolution, part of Luther's own
       running argument against the sacramental system he was breaking from.
 
-  - row_id: luther_works-v1-selected_jacobs-spaeth1915--the-fourteen-of-consolation-for-such-as-labor-and-are-heavy
-    work: "The Fourteen of Consolation, for Such as Labor and Are Heavy Laden"
+  - work: "The Fourteen of Consolation, for Such as Labor and Are Heavy Laden"
     author: luther
     locus: "lines ~3994-6239"
     atlas_ids:
@@ -82,8 +77,7 @@ assignments:
       Wise - Luther's own pastoral, comfort-facing voice, distinct in
       register from the polemical works in this same volume.
 
-  - row_id: luther_works-v1-selected_jacobs-spaeth1915--a-treatise-on-good-works
-    work: "A Treatise on Good Works"
+  - work: "A Treatise on Good Works"
     author: luther
     locus: "lines ~6239-10629"
     atlas_ids:
@@ -95,8 +89,7 @@ assignments:
       works - one of Luther's own three great 1520 treatises alongside the
       Nobility and Babylonian Captivity (both in the companion Vol. II file).
 
-  - row_id: luther_works-v1-selected_jacobs-spaeth1915--a-treatise-on-the-new-testament-that-is-the-holy-mass
-    work: "A Treatise on the New Testament, That Is the Holy Mass"
+  - work: "A Treatise on the New Testament, That Is the Holy Mass"
     author: luther
     locus: "lines ~10629-12211"
     atlas_ids:
@@ -108,8 +101,7 @@ assignments:
       sacrifice - directly upstream of the eucharistic argument the Babylonian
       Captivity (Vol. II) develops at length.
 
-  - row_id: luther_works-v1-selected_jacobs-spaeth1915--to-the-papacy-at-rome-an-answer-to-the-celebrated-romanist
-    work: "To the Papacy at Rome, an Answer to the Celebrated Romanist at
+  - work: "To the Papacy at Rome, an Answer to the Celebrated Romanist at
       Leipzig"
     author: luther
     locus: "lines ~12211-end"

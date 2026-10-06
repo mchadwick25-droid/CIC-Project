@@ -74,14 +74,5 @@ senses:
     exception.'
 quick_meaning: Bagai took our own dissidents back without baptizing or ordaining them again.
 distortion_risk: low
-use_note:
-  means: "The Donatists took Maximianist clergy back after Bagai without rebaptizing or reordaining them, an open departure from the rule held against the rival."
-  not_for:
-    - "a claim that it proves the rebaptism doctrine was never seriously held"
-    - "a claim that it was a formal doctrinal exception written into the rule rather than one bounded historical decision"
-    - "a claim that it was modern ecumenical recognition of another church's orders"
-    - "a claim about the tension it sets against the stated rule as a pattern, which sits in don.gravity.rigor-against-reception"
-  years: {from: 393, to: 398}
-  status: reviewed
 ---
 Built from Doc_06 SS1 entry 003 (Tier 2, no promotion forwarded) with content from Doc_04 SS3.6 (T2) and Doc_05 SS2/SS4. No deployment chunk was built for this term this cycle (Doc_06 SS3, disclosed deferral). register is emic-unavailable: the term is a describing label, not an attested Donatist word.

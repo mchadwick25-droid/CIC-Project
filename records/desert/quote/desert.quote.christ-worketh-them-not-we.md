@@ -39,14 +39,6 @@ relations:
   target: desert.quote.he-healed-by-the-name
 - type: associated-with
   target: desert.gravity.spiritual-combat
-use_note:
-  means: "Athanasius has Antony tell the philosophers, after demoniacs were healed, that Christ works such things through believers and Antony himself does not."
-  not_for:
-    - "mere modesty rather than a claim that Christ is the agent of the healing"
-    - "the narrator's own SS84 gloss on Antony's healings, carried by desert.quote.he-healed-by-the-name"
-    - "the healing as a verified historical incident"
-  years: {from: 356, to: 362}
-  status: reviewed
 ---
 The operative Christology of this world, stated in one sentence: Christ is not a figure
 recalled but an agent presently working, and the monk is the means rather than the

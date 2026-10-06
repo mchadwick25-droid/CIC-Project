@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: ambrosian-milan-standalone
 works:
-- row_id: npnf210_ambrose--concerning-repentance-de-paenitentia
-  work: Concerning Repentance (De Paenitentia)
+- work: Concerning Repentance (De Paenitentia)
   author: ambrose
   locus: div2 4.6 — Concerning Repentance
   role: tradition
@@ -14,8 +13,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf210_ambrose--concerning-virgins-de-virginibus
-  work: Concerning Virgins (De Virginibus)
+- work: Concerning Virgins (De Virginibus)
   author: ambrose
   locus: div2 4.7 — Concerning Virgins
   role: tradition
@@ -26,8 +24,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf210_ambrose--concerning-widows-de-viduis
-  work: Concerning Widows (De Viduis)
+- work: Concerning Widows (De Viduis)
   author: ambrose
   locus: div2 4.8 — Concerning Widows
   role: tradition
@@ -36,8 +33,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf210_ambrose--exposition-of-the-christian-faith-de-fide
-  work: Exposition of the Christian Faith (De Fide)
+- work: Exposition of the Christian Faith (De Fide)
   author: ambrose
   locus: div2 4.4 — Exposition of the Christian Faith
   role: tradition
@@ -48,8 +44,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf210_ambrose--on-the-decease-of-his-brother-satyrus-de-excessu-fratris
-  work: On the Decease of His Brother Satyrus (De Excessu Fratris)
+- work: On the Decease of His Brother Satyrus (De Excessu Fratris)
   author: ambrose
   locus: div2 4.3 — On the Decease of His Brother Satyrus
   role: tradition
@@ -59,8 +54,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf210_ambrose--on-the-duties-of-the-clergy-de-officiis-ministrorum
-  work: On the Duties of the Clergy (De Officiis Ministrorum)
+- work: On the Duties of the Clergy (De Officiis Ministrorum)
   author: ambrose
   locus: div2 4.1 — On the Duties of the Clergy
   role: tradition
@@ -70,8 +64,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf210_ambrose--on-the-holy-spirit-de-spiritu-sancto
-  work: On the Holy Spirit (De Spiritu Sancto)
+- work: On the Holy Spirit (De Spiritu Sancto)
   author: ambrose
   locus: div2 4.2 — On the Holy Spirit
   role: tradition
@@ -82,8 +75,7 @@ works:
     with De Fide. pneumatomachian-current holds this work alongside, for the party it argues
     with.
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf210_ambrose--on-the-mysteries-de-mysteriis
-  work: On the Mysteries (De Mysteriis)
+- work: On the Mysteries (De Mysteriis)
   author: ambrose
   locus: div2 4.5 — On the Mysteries
   role: tradition
@@ -93,8 +85,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf210_ambrose--selections-from-the-letters-of-st-ambrose-with-the-sermon
-  work: Selections from the Letters of St. Ambrose (with the Sermon Against Auxentius)
+- work: Selections from the Letters of St. Ambrose (with the Sermon Against Auxentius)
   author: ambrose
   locus: div1 5, div2 5.2 and 5.4-5.15 (5.1/5.3, Symmachus' Memorial, split out below)
   role: tradition
@@ -107,8 +98,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf101_augustine-confessions-letters--the-confessions-3
-  work: The Confessions
+- work: The Confessions
   author: augustine
   locus: div1 6 — The Confessions, esp. Books V-IX
   role: tradition
@@ -121,8 +111,7 @@ works:
 
     '
   source_file: npnf101_augustine-confessions-letters.xml
-- row_id: paulinus-milan_vita-ambrosii_kaniecka1928--vita-ambrosii-life-of-ambrose-2
-  work: Vita Ambrosii (Life of Ambrose)
+- work: Vita Ambrosii (Life of Ambrose)
   author: paulinus-milan
   locus: Chapter III (the 'Ambrose Bishop' election, file line 3199) and Chapters IV-V (the
     Portian Basilica standoff and the discovery of Gervasius and Protasius, file lines 3516-3654)
@@ -151,8 +140,7 @@ works:
 
     '
   source_file: paulinus-milan_vita-ambrosii_kaniecka1928.txt
-- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-2
-  work: The Ecclesiastical History of Theodoret
+- work: The Ecclesiastical History of Theodoret
   author: theodoret
   locus: div2 3.8 — esp. Books I-II (Arian controversy), V (Ambrose and Theodosius)
   role: context

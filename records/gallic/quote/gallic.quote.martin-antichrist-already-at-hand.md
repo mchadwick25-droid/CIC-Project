@@ -43,13 +43,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.judgment-imminent-present
-use_note:
-  means: "Sulpitius infers in the Life of Martin that, since false prophets have appeared, the coming of Antichrist is at hand."
-  not_for:
-    - "Martin's own teaching, when the id names Martin but the inference is Sulpitius's"
-    - "Martin's report that Antichrist was already born, which sits in gallic.quote.martin-antichrist-already-born"
-  years: {from: 397, to: 397}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "coming of Antichrist is at hand"` returns line 1786; read with `sed -n '1778,1789p'`, inside

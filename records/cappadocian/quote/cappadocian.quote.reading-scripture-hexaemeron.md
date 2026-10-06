@@ -53,14 +53,6 @@ modern_rendering: >-
   heaven." But if we ask what these words mean, the great wonder of the Creator's wisdom
   appears. What a difference he foresaw among the winged creatures! How he divided them by
   kinds! How he marked each one with its own distinct qualities!
-use_note:
-  means: "Basil's eighth Hexaemeron homily says the few syllables about the creation of birds disclose the Creator's wisdom once their meaning is closely examined."
-  not_for:
-    - "licence for allegory or hidden codes, which Basil sets against plain attentive reading"
-    - "the psalms as the unlettered believer's education, which sits in cappadocian.dw.reading-scripture through cappadocian.term.psalmodia"
-    - "this world's canon list, which the homily does not address"
-  years: {from: 360, to: 379}
-  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. Located with `grep -n -i "if we

@@ -1,8 +1,7 @@
 source_file: kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918.txt
 
 assignments:
-  - row_id: kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918--opera-omnia-vallis-liliorum-and-further-minor-works
-    work: "Opera Omnia (Vallis Liliorum, and further minor works)"
+  - work: "Opera Omnia (Vallis Liliorum, and further minor works)"
     author: kempis
     locus: "Vallis Liliorum and following"
     atlas_ids:

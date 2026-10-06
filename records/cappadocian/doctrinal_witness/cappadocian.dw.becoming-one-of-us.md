@@ -66,14 +66,6 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-on-common-life
-use_note:
-  means: "This witness says belonging began at baptism, deepened in ascetic brotherhoods with common goods and fixed prayer, and allowed a graded penance path back."
-  not_for:
-    - "the shape of the shared Eucharistic meal, which the record says it does not supply"
-    - "the brotherhood's entry terms as the life of every ordinary believer"
-    - "the argument against solitary life, which sits in cappadocian.quote.basil-on-common-life"
-  years: {from: 360, to: 379}
-  status: reviewed
 ---
 Closes F4-I, walking through baptism, ascetic entry, fasting-as-discipline,
 and reconciliation in sequence (matching the cell's own "walk me through

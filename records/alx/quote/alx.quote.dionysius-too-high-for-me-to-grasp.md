@@ -43,14 +43,6 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.dw.record
-use_note:
-  means: "Dionysius, quoted by Eusebius at VII.25, declines to reject the Apocalypse although he cannot grasp it, suspecting a hidden, deeper meaning."
-  not_for:
-    - "a claim that Dionysius accepted the apostle John as its author, when the same chapter argues otherwise"
-    - "the stylistic authorship argument itself, which precedes this passage rather than appearing in it"
-    - "the full treatise On Promises, which is lost and known only through Eusebius's selection"
-  years: {from: 248, to: 264}
-  status: reviewed
 ---
 Opened for F2-E, served by alx.dw.record alone, which cites VII.25 for "Dionysius weighed
 the Apocalypse's authorship by style, like a critic" and could not show it.

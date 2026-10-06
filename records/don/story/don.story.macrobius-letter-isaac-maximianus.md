@@ -85,13 +85,5 @@ modern_contrast: 'A modern reader may assume a bishop writing to comfort a griev
   soften what happened. Macrobius''s letter does the opposite: it closes by telling the living that the
   same fate may be asked of any of them -- using a specific, recent death as a direct formation instrument
   for those still alive, not a private consolation kept separate from what it asks of them next.'
-use_note:
-  means: "Macrobius wrote to the Carthage congregation about the deaths of Isaac and Maximianus, including an omen and a vision that are his own interpretation."
-  not_for:
-    - "a claim that the wine-cup omen and the combat-vision are independently verified occurrences"
-    - "a claim that Isaac's cry is a verbatim quotation"
-    - "a claim that the letter comforts without asking anything of the living"
-  years: {from: 347, to: 348}
-  status: reviewed
 ---
 Mapped directly from Story-Chunks/donstory003_macrobius-letter-isaac-maximianus.md. Slug shortened from the chunk's own filename stem (already matches).

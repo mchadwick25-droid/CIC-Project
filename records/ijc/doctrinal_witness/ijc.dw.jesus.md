@@ -50,13 +50,6 @@ tensions:
   was chosen
 - the record answers who Jesus IS with precision and power, and answers what he meant to a single
   ordinary heart hardly at all - definitions survive where testimonies were not kept
-use_note:
-  means: "For us Jesus was truly God, of one being with the Father, and truly man, one Christ in two natures, confessed through exact conciliar definitions."
-  not_for:
-    - "a claim that the confessed center went uncontested within the imperial church"
-    - "a claim that the record shows what Jesus meant to ordinary believers' inner lives"
-  years: {from: 325, to: 451}
-  status: reviewed
 ---
 The Center cell's composed answer-ground: who Jesus was TO THIS WORLD,
 answered in its own conciliar idiom rather than a borrowed devotional

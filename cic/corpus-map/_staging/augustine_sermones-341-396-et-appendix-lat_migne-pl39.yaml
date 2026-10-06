@@ -1,8 +1,7 @@
 source_file: augustine_sermones-341-396-et-appendix-lat_migne-pl39.txt
 
 assignments:
-  - row_id: augustine_sermones-341-396-et-appendix-lat_migne-pl39--augustine-s-sermones-341-396-and-the-maurist-appendix-of
-    work: "Augustine's Sermones 341-396 and the Maurist Appendix of doubtful sermons (Migne PL 39)"
+  - work: "Augustine's Sermones 341-396 and the Maurist Appendix of doubtful sermons (Migne PL 39)"
     author: augustine
     locus: "whole file; the Appendix (Sermones suppositii) is doubtful or spurious material inside the same file"
     atlas_ids:

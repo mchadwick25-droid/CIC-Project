@@ -38,14 +38,6 @@ relations:
   target: desert.dw.the-heart-and-the-spirit
 - type: associated-with
   target: desert.dw.grace-and-effort
-use_note:
-  means: "A Macarian homily of uncertain authorship says a soul dying with both sin and grace in it goes where its mind aims and its love is."
-  not_for:
-    - "a desert elder's own words, when the Macarius ascription rests on no external evidence"
-    - "settled desert or church teaching, when propositions from these homilies were condemned as Messalian"
-    - "reassurance that the struggle does not matter, when it says hating the war is one's own part"
-  years: {from: 380, to: 430}
-  status: reviewed
 ---
 The doctrine that got this corpus into trouble, and the reason it matters here. The Latin West came
 to hold that baptism removes sin and grace displaces it; this says both are present in the same soul

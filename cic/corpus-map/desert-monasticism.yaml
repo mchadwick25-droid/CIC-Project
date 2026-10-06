@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: desert-monasticism
 works:
-- row_id: anan-isho_paradise-v2-sayings_budge1907--the-paradise-of-the-holy-fathers-volume-ii-the-sayings-of
-  work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
+- work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
   author: anan-isho
   locus: whole file; fourteen thematic chapters plus the Questions and Answers, sayings numbered
   role: tradition
@@ -18,8 +17,7 @@ works:
 
     '
   source_file: anan-isho_paradise-v2-sayings_budge1907.txt
-- row_id: npnf204_athanasius--personal-letters-of-athanasius
-  work: Personal Letters of Athanasius
+- work: Personal Letters of Athanasius
   author: athanasius
   locus: div3 under div2 25.3 — Personal Letters (Letters 46-64)
   role: tradition
@@ -31,8 +29,7 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: palladius_paradise-v1-syriac_budge1907--the-life-of-saint-anthony-by-athanasius-syriac-recension
-  work: The Life of Saint Anthony by Athanasius (Syriac recension)
+- work: The Life of Saint Anthony by Athanasius (Syriac recension)
   author: athanasius
   locus: from "The Life of Saint Anthony, by Athanasius, Archbishop of Alexandria"; about
     14,800 words
@@ -46,8 +43,7 @@ works:
 
     '
   source_file: palladius_paradise-v1-syriac_budge1907.txt
-- row_id: npnf204_athanasius--vita-antonii-life-of-antony
-  work: Vita Antonii (Life of Antony)
+- work: Vita Antonii (Life of Antony)
   author: athanasius
   locus: div1 'Life of Antony'
   role: tradition
@@ -59,8 +55,7 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: bell_jews-christians-egypt-meletian-papyri_1924--jews-and-christians-in-egypt-part-ii-the-meletian-schism-pp
-  work: 'Jews and Christians in Egypt, Part II: The Meletian Schism (pp. 38-99)'
+- work: 'Jews and Christians in Egypt, Part II: The Meletian Schism (pp. 38-99)'
   author: bell
   locus: Part II — the Pageus/Hathor archive, incl. the dated 334 CE deputy-appointment contract
     (P.Lond. 1918, Phamenoth 23)
@@ -79,13 +74,12 @@ works:
     on the same footing this build gives its other papyrus-archive evidence. `confidence:
     provisional`: the community is Melitian (schismatic), not Nicene-communion, and whether
     it is representative of this world''s mainstream ascetic strands is not established (see
-    Doc_01 and this world''s own Open_Gaps_Tracking.md). No quote, story, or doctrinal_witness
-    record cites it; it is registered as available only.
+    Doc_01, open item 1, and this world''s own Open_Gaps_Tracking.md). Not yet cited by any
+    quote, story, or doctrinal_witness record - registered as available only.
 
     '
   source_file: bell_jews-christians-egypt-meletian-papyri_1924.txt
-- row_id: palladius_paradise-v1-syriac_budge1907--budge-s-preface-and-introduction-to-the-paradise-1907
-  work: Budge's Preface and Introduction to the Paradise (1907)
+- work: Budge's Preface and Introduction to the Paradise (1907)
   author: budge
   locus: the opening front matter - the Mosul manuscript's discovery and contents, and Palladius'
     life and travels
@@ -98,8 +92,7 @@ works:
 
     '
   source_file: palladius_paradise-v1-syriac_budge1907.txt
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de
-  work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
+- work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian
   locus: div2 4.7 — The Seven Books on the Incarnation
   role: tradition
@@ -117,8 +110,7 @@ works:
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian
-  work: The Conferences of John Cassian
+- work: The Conferences of John Cassian
   author: cassian
   locus: div2 4.4-4.6 — Conferences I-XXIV (three parts, one work)
   role: tradition
@@ -132,8 +124,7 @@ works:
     c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian entry this
     work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia
-  work: The Twelve Books on the Institutes of the Coenobia
+- work: The Twelve Books on the Institutes of the Coenobia
   author: cassian
   locus: div2 4.3 — The Institutes
   role: tradition
@@ -147,21 +138,7 @@ works:
     (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian
     entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- row_id: egeria_pilgrimage-of-etheria_mcclure-feltoe1919--peregrinatio-aetheriae-pilgrimage-of-etheria-3
-  work: Peregrinatio Aetheriae (Pilgrimage of Etheria)
-  author: egeria
-  locus: her visits to monks in the Thebaid and Sinai; see the editors' introduction near
-    file lines 561 and 1095 for what survives of those sections
-  role: context
-  confidence: needs-ruling
-  note: 'The manuscript loses the start of the journey, so only fragments and the editors''
-    reconstruction speak to the Egyptian monks. Whether that thin material warrants a shelf
-    place is a ruling for the desert world''s own builders, not for this pass.
-
-    '
-  source_file: egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt
-- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-iii-the-symbolical-homily-on-the
-  work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
+- work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
   author: ethiopic_homily_on_the_ten_associations
   locus: pp. 685-689; "And again a third ordinance"; the five evil associations (hyenas, dogs,
     wolves, shakals, goats) and the five good (sheep, doves, turtle-doves, bees, deer)
@@ -177,8 +154,7 @@ works:
 
     '
   source_file: pachomius_rules-ethiopic_schodde1885.txt
-- row_id: evagrius_praktikos_dysinger--the-praktikos
-  work: The Praktikos
+- work: The Praktikos
   author: evagrius
   locus: whole file
   role: tradition
@@ -191,8 +167,7 @@ works:
 
     '
   source_file: evagrius_praktikos_dysinger.txt
-- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-ch-pachomius
-  work: Gennadius, Lives of Illustrious Men (continuation), ch. "Pachomius the presbyter-monk"
+- work: Gennadius, Lives of Illustrious Men (continuation), ch. "Pachomius the presbyter-monk"
     (file line 42250)
   author: gennadius
   locus: div2 4.4, Chapter VII "Pachomius the presbyter-monk"
@@ -209,8 +184,7 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- row_id: npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity
-  work: Letter XXII (To Eustochium, on virginity)
+- work: Letter XXII (To Eustochium, on virginity)
   author: jerome
   locus: div2 5.22 - 'To Eustochium', n=XXII, ~18,609 words
   role: tradition
@@ -223,8 +197,7 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- row_id: npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus-ch-antonius
-  work: Lives of Illustrious Men (De Viris Illustribus), ch. "Antonius the monk" (file line
+- work: Lives of Illustrious Men (De Viris Illustribus), ch. "Antonius the monk" (file line
     41173)
   author: jerome
   locus: div2 4.3, Chapter LXXXVIII "Antonius the monk"
@@ -244,8 +217,7 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- row_id: npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit
-  work: The Life of Paulus the First Hermit
+- work: The Life of Paulus the First Hermit
   author: jerome
   locus: div2 6.1 (~3,900 words)
   role: tradition
@@ -255,8 +227,7 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- row_id: macarius_fifty-spiritual-homilies_mason1921--fifty-spiritual-homilies-of-st-macarius-the-egyptian
-  work: Fifty Spiritual Homilies of St. Macarius the Egyptian
+- work: Fifty Spiritual Homilies of St. Macarius the Egyptian
   author: macarius
   locus: whole file
   role: tradition
@@ -273,8 +244,7 @@ works:
 
     '
   source_file: macarius_fifty-spiritual-homilies_mason1921.txt
-- row_id: anf09-desert-additions--commentary-on-the-gospel-of-matthew-books-i-ii-and-x-xiv
-  work: Commentary on the Gospel of Matthew, Books I-II and X-XIV
+- work: Commentary on the Gospel of Matthew, Books I-II and X-XIV
   author: origen
   locus: ch. 30, The Sinning Brother, on Matthew 18:15, at file line 36205
   role: antecedent
@@ -294,8 +264,7 @@ works:
 
     '
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- row_id: anf04-desert-additions--de-principiis-on-first-principles-in-rufinus-latin
-  work: De Principiis (On First Principles), in Rufinus' Latin
+- work: De Principiis (On First Principles), in Rufinus' Latin
   author: origen
   locus: Book I ch. 1 sec. 6 on God's incorporeality, at file line 22800; Rufinus' prologue
     precedes the work
@@ -312,8 +281,7 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- row_id: origen-desert-additions--the-philocalia-of-origen
-  work: The Philocalia of Origen
+- work: The Philocalia of Origen
   author: origen
   locus: twenty-seven chapters; I-XV on scriptural interpretation, XXI-XXVII on free will,
     fate and providence; ch. I drawn "From the work on Principles", ch. XIII the Letter to
@@ -333,8 +301,7 @@ works:
 
     '
   source_file: origen_philocalia_lewis1911.txt
-- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-i-the-angel-s-ordinance
-  work: The Rules of Pachomius, Part I (the angel's ordinance)
+- work: The Rules of Pachomius, Part I (the angel's ordinance)
   author: pachomius
   locus: pp. 681-683; "In the name of the holy Trinity. The ordinance which the angel of the
     Lord commanded to Abba Pachomius"
@@ -353,8 +320,7 @@ works:
 
     '
   source_file: pachomius_rules-ethiopic_schodde1885.txt
-- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-ii-the-second-word-of-the-holy
-  work: The Rules of Pachomius, Part II (the second word of the holy Pachomius)
+- work: The Rules of Pachomius, Part II (the second word of the holy Pachomius)
   author: pachomius
   locus: pp. 683-685; "In the name of the Father and of the Son and of the Holy Ghost. An
     ordinance and command of the holy Abba Pachomius"
@@ -371,8 +337,7 @@ works:
 
     '
   source_file: pachomius_rules-ethiopic_schodde1885.txt
-- row_id: palladius_lausiac-history--lausiac-history
-  work: Lausiac History
+- work: Lausiac History
   author: palladius
   locus: whole work (single-work volume)
   role: tradition
@@ -383,8 +348,7 @@ works:
 
     '
   source_file: palladius_lausiac-history_clarke1918.txt
-- row_id: palladius_paradise-v1-syriac_budge1907--the-paradise-of-palladius-book-i-syriac-recension
-  work: The Paradise of Palladius, Book I (Syriac recension)
+- work: The Paradise of Palladius, Book I (Syriac recension)
   author: palladius
   locus: from "The Paradise of Palladius"; sixty-six chapters, including Chapter xxxv "The
     Triumphant Deeds and Exploits and Histories of Holy Women"
@@ -402,8 +366,7 @@ works:
 
     '
   source_file: palladius_paradise-v1-syriac_budge1907.txt
-- row_id: pachomius_rules-ethiopic_schodde1885--schodde-s-introduction-to-the-rules-1885
-  work: Schodde's introduction to the Rules (1885)
+- work: Schodde's introduction to the Rules (1885)
   author: schodde
   locus: pp. 679-681, including Sozomen's summary in Valesius' Latin and the Acta Sanctorum
     notice
@@ -419,8 +382,7 @@ works:
 
     '
   source_file: pachomius_rules-ethiopic_schodde1885.txt
-- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
-  work: The Ecclesiastical History of Socrates Scholasticus
+- work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom),
     Novatianist notices throughout
@@ -437,8 +399,7 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2
-  work: The Ecclesiastical History of Sozomen
+- work: The Ecclesiastical History of Sozomen
   author: sozomen
   locus: div1 3 — esp. I.12-14, III.14, VI.28-34 (monks); II.9-14 (Persian martyrs); III.16
     (Ephraim); Books I-IV (Arian controversy); VIII (Chrysostom)
@@ -454,8 +415,7 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus
-  work: Dialogues of Sulpitius Severus
+- work: Dialogues of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.4 — Dialogues of Sulpitius Severus
   role: tradition

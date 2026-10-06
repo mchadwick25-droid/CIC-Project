@@ -44,14 +44,6 @@ text: >
   a text like our manual was actually written, and by whom - is a real,
   open question we cannot close for you, because we cannot close it for
   ourselves.
-use_note:
-  means: "This world openly claimed its practices came from the apostles, while admitting the claim is its own assertion, not proof."
-  not_for:
-    - "proof that this world's practices trace unbroken to the apostles"
-    - "a claim that the twelve apostles wrote the Didache"
-    - "a claim that the Didache's date and authorship are settled"
-  years: {from: 80, to: 150}
-  status: reviewed
 ---
 1 Clement 42/44's chain and the Didache's own title checked directly
 against the vendored corpus (cic/texts/anf01_apostolic-fathers-justin-

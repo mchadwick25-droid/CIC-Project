@@ -107,15 +107,6 @@ quick_meaning: >-
   People "laid hold of by a demon," and the office of freeing them. Martin's first church office
   and his daily work, done in silence and sackcloth. In the south, a fame a good monk must not seek.
 distortion_risk: medium
-use_note:
-  means: "The possessed were people laid hold of by a demon, and exorcism was Martin's first church office and daily work, done in silence, which Cassian warns monks not to seek."
-  not_for:
-    - "exorcism as a rite by a licensed priest under later ritual"
-    - "possession as mental illness misdescribed"
-    - "the devil as such, which sits in gallic.term.the-devil-demons"
-    - "a ruling on whether any given exorcism happened, which the record does not make"
-  years: {from: 397, to: 435}
-  status: reviewed
 ---
 Built from Doc_06 entry 051 (`galliclex051_possessed-exorcism.md`, Tier 2, tags SC TC RT; Doc_03
 6.5). The Article 20 note (the possessed are the ministry's object, never its subject) is

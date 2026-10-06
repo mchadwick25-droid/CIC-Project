@@ -88,15 +88,6 @@ tensions:
 - saying we wrote nothing about substitutionary atonement is a statement about a lost literature, not
   proof that nobody among us ever thought about it
 relations: []
-use_note:
-  means: "Donatists confessed the same Trinitarian faith as their rivals, left nothing on atonement, and understood belonging to Christ as belonging to a church rather than as a private decision."
-  not_for:
-    - "a claim that the Donatists were heretics or held a different creed"
-    - "a claim about Donatist teaching on substitutionary atonement, for or against"
-    - "a claim that a Donatist creed survives as a separate document"
-    - "a claim about the Christ Donatists kept nearest, condemned before lawful authority, which sits in don.dw.who-jesus-was-among-us"
-  years: {from: 311, to: 411}
-  status: reviewed
 ---
 Closes C-T. The Trinity variant is answered flatly and positively because
 `don.core.donatism`'s own horizon states it outright ("This is not a

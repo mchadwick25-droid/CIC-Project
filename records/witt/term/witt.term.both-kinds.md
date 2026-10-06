@@ -61,14 +61,6 @@ senses:
     and the test of whether even a right change may be compelled.
 quick_meaning: Bread and cup together for everyone. Christ's command, never a forced law.
 distortion_risk: high
-use_note:
-  means: "Both kinds meant bread and cup together for the laity as the Lord's own command, though the world would not force it on anyone by law."
-  not_for:
-    - "the cup as a minor liturgical detail rather than a test of how a right thing must be done"
-    - "the Supper's whole doctrine, which sits in witt.term.sacrament-of-the-altar"
-    - "a claim that Wittenberg compelled the cup by law"
-  years: {from: 1519, to: 1530}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 5.5 (both kinds / the cup, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

@@ -51,15 +51,6 @@ senses:
     clerical office nor merely informal influence.
 quick_meaning: A real say on hard Bible questions, earned by learning - no church office needed.
 distortion_risk: high
-use_note:
-  means: "Standing to be consulted on hard scriptural questions through learning rather than office, attested only in Jerome's obituary for Marcella and therefore contested."
-  not_for:
-    - "presenting Marcella's consulted standing as settled fact"
-    - "equating it with ordained clerical authority"
-    - "dismissing it as merely informal influence"
-    - "generalizing from Marcella to women in this world at large"
-  years: {from: 385, to: 410}
-  status: reviewed
 ---
 Imported from the old system's fuller lexicon development document (hal_Doc_06, entry 11, "Exegesis as
 practiced authority") at Mark's direction, as a draft, not a final version. This is the single most

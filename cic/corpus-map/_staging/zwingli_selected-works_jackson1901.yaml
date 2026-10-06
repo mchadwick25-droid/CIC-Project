@@ -4,8 +4,7 @@
 source_file: zwingli_selected-works_jackson1901.txt
 
 assignments:
-  - row_id: zwingli_selected-works_jackson1901--the-sixty-seven-articles-of-zwingli-1523
-    work: "The Sixty-Seven Articles of Zwingli (1523)"
+  - work: "The Sixty-Seven Articles of Zwingli (1523)"
     author: zwingli
     locus: "lines ~4485-4700, embedded within the Acts of the First
       Zurich Disputation"
@@ -19,8 +18,7 @@ assignments:
       flagged this work's presence in this volume as unconfirmed; directly
       verified this pass.
 
-  - row_id: zwingli_selected-works_jackson1901--selected-works-letter-to-erasmus-the-petition-to-the-bishop
-    work: "Selected Works (letter to Erasmus; the petition to the Bishop
+  - work: "Selected Works (letter to Erasmus; the petition to the Bishop
       of Constance on clerical marriage; the Acts of the First and Second
       Zurich Disputations; the 1527 Refutation of the Tricks of the
       Baptists; and other shorter writings)"

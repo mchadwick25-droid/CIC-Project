@@ -48,14 +48,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented
-use_note:
-  means: "Cassian lays down in Institutes I.2, on the monk's dress, that allegiance belongs to customs passed on by antiquity and the fathers' unanimous decision, not by a few."
-  not_for:
-    - "a separate witness from gallic.quote.allegiance-to-antiquity-not-a-few, which carries the identical sentence"
-    - "a rule Cassian applies only to clothing"
-    - "a conciliar or episcopal rule, when it is a monastic writer's criterion for custom"
-  years: {from: 415, to: 426}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "unhesitating allegiance"` returns one hit, line 16668, inside `<div4 title="Chapter II. Of the

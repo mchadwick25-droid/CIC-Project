@@ -50,14 +50,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.judgment-imminent-present
-use_note:
-  means: "Vincent gives as his reasons for writing the Commonitory the passing of time, an awful expectation of coming judgment, and the craft of new heretics."
-  not_for:
-    - "a dated prediction of the end"
-    - "Salvian's present judgment in the invasions, which sits in gallic.quote.salvian-ever-present-judgment-gallic-provinces"
-    - "Vincent's account of leaving secular life, which sits in gallic.quote.vincent-tempests-of-secular-warfare"
-  years: {from: 434, to: 434}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "By the consideration of time"` returns line 12086; `grep -n "no ordinary care"` returns a hit at

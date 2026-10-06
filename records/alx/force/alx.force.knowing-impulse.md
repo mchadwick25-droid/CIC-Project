@@ -33,7 +33,11 @@ relations:
   target: alx.gravity.divine-pedagogy
 name: The Impulse Toward Genuine Knowledge of God [1B - initiating/internal]
 kind: initiating
-description: 'This is the conviction that Christian life means genuinely KNOWING God, and being changed by that knowing. It is not merely holding right beliefs. To believe was only the beginning. The soul was made to know God and to go on being drawn deeper. The One it sought could not be exhausted. This is attested for the school tradition. Its presence in the broader community is a reconstruction, stated as such.'
+description: 'The conviction that Christian life means genuinely KNOWING God - being changed by that knowing
+  - not merely holding right beliefs. In the world''s own experience: to believe was only the beginning;
+  the soul was made to know God and to go on being drawn deeper, because the One it sought could not be
+  exhausted. Attested for the school tradition; its presence in the broader community is a reconstruction
+  (DMR), stated as such.'
 manifestations:
 - Clement's faith-to-knowledge-to-wisdom progression
 - Gregory's account of the love of the Word kindled by teaching

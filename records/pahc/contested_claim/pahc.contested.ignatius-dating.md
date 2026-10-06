@@ -28,14 +28,6 @@ divergence_partners:
 relations:
 - type: associated-with
   target: pahc.witness.scholarly-standing
-use_note:
-  means: "Ignatius's seven letters in the shorter recension are authentic, written under armed guard on the way to Rome, conventionally about 107 to 117."
-  not_for:
-    - "a settled Trajanic date"
-    - "authenticity as undisputed"
-    - "a redating to the 130s or 160s as settled"
-  years: {from: 107, to: 117}
-  status: reviewed
 ---
 Records, in participant-facing form, the single most load-bearing
 dating dispute in this world's entire evidentiary base - already

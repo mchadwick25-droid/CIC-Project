@@ -47,13 +47,6 @@ senses:
   translational: "Not mindfulness as a calm-inducing practice: the watching here is a sentry's, oriented to a real adversary, and what it feeds is discernment, not relaxation."
 quick_meaning: "Watching your own thoughts like a sentry - so you catch them early."
 distortion_risk: high
-use_note:
-  means: "Nepsis meant watchfulness, standing guard over one's own inner movements so a thought is caught early, and it fed discernment."
-  not_for:
-    - "Hearing it as generic mindfulness or a calm-inducing practice"
-    - "Importing the later Byzantine neptic apparatus into this world"
-  years: {from: 320, to: 430}
-  status: reviewed
 ---
 Re-derived from Doc_06 SS2.5 (Tier 2; tags AS TC DR PV). Feeds
 diakrisis directly (Doc_06's own ecological-function line); shares

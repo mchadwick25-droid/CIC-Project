@@ -40,14 +40,6 @@ relations:
   target: desert.story.angel-hands-the-tablet
 - type: associated-with
   target: desert.figure.pachomius
-use_note:
-  means: "The received Ethiopic recension of the Pachomian rules opens by calling itself the ordinance the angel of the Lord commanded to Abba Pachomius."
-  not_for:
-    - "a claim that an angel in fact dictated the rule"
-    - "the Ethiopic wording as Jerome's Latin Praecepta or a Coptic original"
-    - "the angel frame as only Palladius's or Sozomen's packaging, when it stands in the received rule text itself"
-  years: {from: 320, to: 346}
-  status: reviewed
 ---
 Verified directly against cic/texts/pachomius_rules-ethiopic_schodde1885.txt. `grep -n "In the name of
 the holy Trinity"` returns one hit, line 168, immediately following the translator's own bracketed

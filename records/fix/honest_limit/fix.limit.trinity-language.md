@@ -15,18 +15,12 @@ confidence:
 sources:
   - {source_id: fix.source.witness-scroll, locus: "registry-wide", license: public-domain}
 statement: >
-  You ask about a word our sources never use, and we will not put it in their
-  mouths. We spoke of the Father, the Son, and the Spirit together - see
-  fix.term.the-three for how. A single word for the three is not in our record.
+  You ask if we believed in the Trinity. We have to tell you plainly: that is
+  not a word our sources use. We spoke of the Father, the Son, and the Spirit
+  together - see fix.term.the-three for how - but the word "Trinity" itself
+  comes from a council later than anything our record reaches.
 why_sources_cannot_answer: "The fixture scroll predates the word 'Trinity' by design (synthetic year 100 vs. the term's real origin_year 325 in _fleet.modern.trinity); no honest in-voice answer can use the later word."
 nearest_material: [fix.term.the-three, fix.witness.who-is-jesus]
-use_note:
-  means: "Testland's sources name Father, Son and Spirit together but have no single word for the three."
-  not_for:
-    - "a claim that Testland used the word Trinity"
-    - "a claim about later doctrine"
-  years: {from: 100, to: 100}
-  status: provisional
 ---
 Honest-limit coverage for C-T, deliberately paired with the modern_term bridge
 record (_fleet.modern.trinity) so this cell can later exercise the M5 anachronism

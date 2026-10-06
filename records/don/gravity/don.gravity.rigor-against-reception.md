@@ -105,15 +105,6 @@ manifestations:
 - the Bagai and Cebarsussi sentences, quoted directly rather than paraphrased in Augustine's own text
 - the same texts stating the doctrine at its most absolute also stating the exception plainly, without treating
   the two as cancelling each other
-use_note:
-  means: "In one dated episode of 393 to 398, the stated rule that schismatic clergy be rebaptised and reordained stood against the mainstream's reception of returning Maximianist clergy without either, a tension internal to the movement."
-  not_for:
-    - "a claim about the purity doctrine or the rebaptism rite as standing patterns, which sit in don.gravity.ministerial-purity and don.gravity.rebaptism-boundary"
-    - "a claim about the appeal to imperial anti-heretical law against the Maximianists, which sits in don.gravity.refusal-against-recourse"
-    - "a claim that the tension is an abstract inconsistency rather than a specific dated episode"
-    - "a claim that the tension was driven by an outside imperial force"
-  years: {from: 393, to: 398}
-  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate T2, surfaced while testing G1's own internal
 consistency at SS3.1, entered into generation at SS1 per Framework discipline, tested at SS3.6,
@@ -138,7 +129,7 @@ here, deliberately. NOT CARRIED, AND DISTINCT FROM THE ABOVE: Doc_04 SS6's prose
 relationship between this tension and G3 or G5. Those pairs are absent from the prose summary rather
 than declared absent, and this record keeps that distinction rather than treating silence as a
 finding. FORCES-CONNECTION (Doc_08 SS5, Force Index row T2: 2B-4 alone): carried as enabled-by,
-because Doc_08's own verb is 'the direct engine of T2' and Doc_08 states that this
+because Doc_08's own verb is 'the direct engine of T2' and Doc_08 Open Item 2 states that this
 tension's entire evidentiary base IS the Maximianist affair - a founding relation, not a shaping
 one. Reciprocal precondition-for declared on don.force.maximianist-fracture. A HOMONYM HAZARD KEPT
 IN VIEW (world_core caution 7): the Maximian of this schism, a deposed deacon of 393, is a different

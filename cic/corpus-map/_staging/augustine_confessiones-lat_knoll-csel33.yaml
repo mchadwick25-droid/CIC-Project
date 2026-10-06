@@ -1,8 +1,7 @@
 source_file: augustine_confessiones-lat_knoll-csel33.txt
 
 assignments:
-  - row_id: augustine_confessiones-lat_knoll-csel33--augustine-s-confessions-knoll-s-critical-edition-csel-33
-    work: "Augustine's Confessions (Knoll's critical edition, CSEL 33)"
+  - work: "Augustine's Confessions (Knoll's critical edition, CSEL 33)"
     author: augustine
     locus: "whole file, Libri I-XIII"
     atlas_ids:

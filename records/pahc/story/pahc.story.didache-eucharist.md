@@ -68,13 +68,6 @@ modern_contrast: >
   vine, a scattered people gathered into one - genuinely different in
   kind from Justin's or Ignatius's own eucharistic material, not a
   partial copy of either.
-use_note:
-  means: "In a community following the Didache's order, thanks is given first over the cup, then the bread, with no story of a supper or betrayal."
-  not_for:
-    - "a defective or incomplete version of the real eucharist"
-    - "an order known or adopted outside the Didache's own community"
-  years: {from: 80, to: 150}
-  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 010. All quotations checked
 directly against cic/texts/anf07_lactantius-apostolic-constitutions-

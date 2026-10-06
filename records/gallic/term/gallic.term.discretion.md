@@ -126,15 +126,6 @@ quick_meaning: >-
   The virtue that keeps every other virtue from ruining itself. The royal road between excess and
   slackness, gained only by showing one's thoughts to the elders.
 distortion_risk: high
-use_note:
-  means: "Discretion meant, for Cassian, the virtue Antony's council made mother and regulator of all others, the royal road between excess and slackness, where extremes meet."
-  not_for:
-    - "tact, prudence or confidentiality, or a private intuition"
-    - "the practice of laying each thought bare to the senior, and the maxim that a hidden thought is the devil's, which sit in gallic.term.disclosure-of-thoughts"
-    - "a Tours teaching, where the practice appears without the word"
-    - "a remark about this record's own coverage, sources or scholarly attribution"
-  years: {from: 397, to: 426}
-  status: reviewed
 ---
 Built from Doc_06 entry 029 (Tier 2, pruned from Doc_03's Tier-1 estimate as "the closest call in the
 document," Doc_06 §2.3; chunk galliclex029_discretion.md; Doc_03 3.7). Register emic. Quotations

@@ -60,13 +60,6 @@ senses:
   translational: "Not a clinical symptom and not superstition about the weather of the mind: whatever a modern reader holds about where such thoughts come from, this world's practice was to take each one seriously as an event, name it, and answer it."
 quick_meaning: "The unwanted thoughts a person battles - our real battlefield."
 distortion_risk: medium
-use_note:
-  means: "Logismoi meant unwanted, intruding thoughts and urges, taken as the main battlefield of ascetic life and answered one by one."
-  not_for:
-    - "Hearing it as clinical intrusive thoughts or mere distractions"
-    - "Presenting Evagrius's eight-fold list as the whole movement's shared checklist"
-  years: {from: 270, to: 430}
-  status: reviewed
 ---
 Re-derived from Doc_06 SS1.4 (Tier 1; tags AS TC RT PV DR). The [PV]
 discipline is load-bearing: the eight-fold taxonomy is Evagrian/Strand C

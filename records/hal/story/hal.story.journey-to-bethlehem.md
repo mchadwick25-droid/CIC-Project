@@ -55,14 +55,6 @@ absent_detail: 'The telling is Jerome''s epitaph for Paula, written for her daug
   visit); only Bishop Isidore and an unnamed monastic multitude are attested as met. No
   itinerary date, ship, or route detail beyond the letter''s sequence is attested.'
 modern_contrast: 'A modern reader often hears the scene-level detail - dry eyes at the harbor, the famous desert fathers named as if lined up to receive her at Nitria - as precise eyewitness reportage. This world''s own record frames it differently: it is Jerome''s epitaph for Paula, idealizing by genre, and the named-individuals list at Nitria is a rhetorical flourish rather than a documented roster - one of the very men it names had not yet reached the desert when she visited; only Bishop Isidore and an unnamed monastic crowd are actually attested as met.'
-use_note:
-  means: "Paula's journey from Rome through the holy places and Egypt to a life at Bethlehem, as Jerome's idealizing epitaph for her tells it."
-  not_for:
-    - "presenting the dry eyes and her words at the manger as eyewitness reportage"
-    - "treating the list of desert fathers at Nitria as a documented reception"
-    - "adding dates, ship, or route detail beyond the letter"
-  years: {from: 385, to: 386}
-  status: reviewed
 ---
 Re-derived from cleared Doc_09a S1, with Doc_01's twice-corrected Nitria
 finding carried in absent_detail. Serves C-E (the places as tangible

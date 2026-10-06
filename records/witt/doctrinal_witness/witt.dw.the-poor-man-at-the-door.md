@@ -61,15 +61,6 @@ tensions:
 relations:
 - type: associated-with
   target: witt.quote.the-poor-man-who-comes-to-you
-use_note:
-  means: "This witness holds that marriage was our noblest estate, ordained at creation, and that our catechism sharply warned households against harshness toward the poor, while naming no one rich."
-  not_for:
-    - "a description of an actual wedding rite or celebration among us"
-    - "a claim that this is the sharpest warning in the household book, which only one locus was searched to support"
-    - "a claim that our records name anyone among us as rich or condemn wealth as such"
-    - "the full verbatim warning, which sits in witt.quote.the-poor-man-who-comes-to-you"
-  years: {from: 1529, to: 1529}
-  status: reviewed
 ---
 Closes F5-T at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's two questions are
 answered at genuinely different strengths: the money-and-poverty question is well grounded

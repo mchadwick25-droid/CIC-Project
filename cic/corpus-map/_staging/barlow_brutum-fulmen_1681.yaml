@@ -1,8 +1,7 @@
 source_file: barlow_brutum-fulmen_1681.txt
 
 assignments:
-  - row_id: barlow_brutum-fulmen_1681--brutum-fulmen-pius-v-s-bull-regnans-in-excelsis-against
-    work: "Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul III's bull against Henry VIII annexed)"
+  - work: "Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul III's bull against Henry VIII annexed)"
     author: barlow
     locus: "the two embedded bull texts only (Regnans in Excelsis in English/Latin parallel columns c. lines 2280-2330; the Paul III bull against Henry VIII in Latin only, with an English index-line summary but no full parallel translation, c. lines 28695-28710) - not Barlow's own surrounding epistle dedicatory, epistle to the reader, or running commentary"
     atlas_ids:
@@ -25,8 +24,7 @@ assignments:
       in. Narrow (two short bulls) but genuine primary-source window.
       Closes a gap identified in this world's own Source Readiness
       Dossier §3.
-  - row_id: barlow_brutum-fulmen_1681--brutum-fulmen-barlow-s-own-epistle-dedicatory-epistle-to-the
-    work: "Brutum Fulmen - Barlow's own epistle dedicatory, epistle to the reader, and running commentary"
+  - work: "Brutum Fulmen - Barlow's own epistle dedicatory, epistle to the reader, and running commentary"
     author: barlow
     locus: "everything in the file outside the two embedded bull texts: Barlow's own dedicatory epistle, his epistle to the reader, and his running marginal/textual commentary"
     atlas_ids:

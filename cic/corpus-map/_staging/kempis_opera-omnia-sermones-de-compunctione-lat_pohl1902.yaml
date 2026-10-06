@@ -1,8 +1,7 @@
 source_file: kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt
 
 assignments:
-  - row_id: kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902--opera-omnia-de-vera-compunctione-sermones
-    work: "Opera Omnia (De Vera Compunctione, Sermones)"
+  - work: "Opera Omnia (De Vera Compunctione, Sermones)"
     author: kempis
     locus: "De vera compunctione, Sermones IX, and further sermon material"
     atlas_ids:

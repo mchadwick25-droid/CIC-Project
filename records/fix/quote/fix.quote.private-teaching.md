@@ -5,7 +5,7 @@ record_type: quote
 schema_version: 2
 status: ready
 register: emic
-canon_cells: [C-P]
+canon_cells: []
 confidence:
   citation_specificity: C
   verification_state: named-not-rechecked
@@ -21,12 +21,6 @@ modern_rendering: >-
 speaker_or_author: fix.figure.the-elder
 license: paraphrase-only
 modern_lens_note: "No significant modern-lens risk identified for this quote."
-use_note:
-  means: "Testland held some teaching back for the initiated alone."
-  not_for:
-    - "the content of that private teaching"
-  years: {from: 100, to: 100}
-  status: provisional
 ---
 The paraphrase-only positive case: this record's own divergence_note names a
 genuinely fragile attribution (the secondary summary only; the primary scroll

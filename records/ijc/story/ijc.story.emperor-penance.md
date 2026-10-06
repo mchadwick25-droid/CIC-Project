@@ -79,13 +79,6 @@ modern_contrast: >-
   repentance, and the fact of the emperor's submission. The dramatic public scene is a later
   historians' telling, written a generation on to edify, and this record keeps that layer named as
   such rather than folding it into the earliest evidence.
-use_note:
-  means: "After the 390 Thessalonica massacre, Ambrose's own letter demanded the emperor's repentance and he submitted; the dramatic public scene is a later telling."
-  not_for:
-    - "a claim that the stripped-of-purple public scene is first-hand contemporary evidence"
-    - "a claim about Theodosius's inward state"
-  years: {from: 390, to: 390}
-  status: reviewed
 ---
 A registry-grounded EXTENSION of the legacy Doc_09 inventory (which
 carried six stories and named no story for this episode): Ep. 51 was

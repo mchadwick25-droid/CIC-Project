@@ -4,8 +4,7 @@
 source_file: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
 
 assignments:
-  - row_id: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--cyprian-s-opera-spuria-works-transmitted-under-cyprian-s
-    work: "Cyprian's Opera Spuria (works transmitted under Cyprian's name, of disputed authenticity)"
+  - work: "Cyprian's Opera Spuria (works transmitted under Cyprian's name, of disputed authenticity)"
     author: cyprian
     locus: "opening of file through the Vita's own preceding material"
     atlas_ids:
@@ -21,8 +20,7 @@ assignments:
       6). Provisional, matching that row's own confidence, not upgraded by
       this vendoring alone.
 
-  - row_id: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--vita-caecilii-cypriani-attributed-to-pontius-the-deacon
-    work: "Vita Caecilii Cypriani (attributed to Pontius the deacon)"
+  - work: "Vita Caecilii Cypriani (attributed to Pontius the deacon)"
     author: pontius
     locus: "pp. XC-CIX of the printed volume (this file's own header gives the exact line range)"
     atlas_ids:
@@ -35,8 +33,7 @@ assignments:
       own election and the Curubis exile passage this world's own Doc_01
       draws on directly are both in this Latin text.
 
-  - row_id: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--acta-proconsularia-sancti-cypriani-cyprian-s-own-trial-and
-    work: "Acta Proconsularia Sancti Cypriani (Cyprian's own trial and martyrdom record)"
+  - work: "Acta Proconsularia Sancti Cypriani (Cyprian's own trial and martyrdom record)"
     author: cyprian
     locus: "pp. CX-CXIV of the printed volume, immediately following the Vita"
     atlas_ids:

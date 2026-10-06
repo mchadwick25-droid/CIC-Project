@@ -621,7 +621,7 @@ def test_tradition_known_in_window_matches_r37_a_on_every_real_world_pair():
     # written out independently here: known iff the named world's start
     # is at or before the speaking world's end.
     registry = load_registry()
-    formation = {k: v for k, v in registry.items() if v.get("kind") == "formation" and v.get("package")}
+    formation = {k: v for k, v in registry.items() if v.get("kind") == "formation"}
     assert len(formation) == 11
     for speaking_key, speaking in formation.items():
         for named_key, named in formation.items():

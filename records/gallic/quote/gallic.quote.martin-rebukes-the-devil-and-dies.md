@@ -58,14 +58,6 @@ modern_rendering: >-
   were there have told us that they saw his face as if it were the face of an angel. His limbs, too,
   looked as white as snow. So people cried out, "Who would ever believe this man had been dressed in
   sackcloth? Who would imagine he had been wrapped in ashes?"
-use_note:
-  means: "Sulpitius, in Letter III, reports Martin's dying rebuke of the devil and the witnesses' testimony that his face then looked like an angel's."
-  not_for:
-    - "Sulpitius as an eyewitness, when he relies on those who were present"
-    - "the shining face and white limbs as Martin's own claim rather than the onlookers' report"
-    - "the refusal of straw on the deathbed, which sits in gallic.quote.martin-sackcloth-and-ashes-reply"
-  years: {from: 397, to: 397}
-  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Abraham's bosom is about to receive me"` returns line 2476; `grep -n "enveloped with ashes"` returns

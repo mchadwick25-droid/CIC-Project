@@ -91,13 +91,5 @@ senses:
     general piety; it is the central argument, made at a graveside.'
 quick_meaning: Our dead, killed for the true faith -- and the word our rival will not grant them.
 distortion_risk: high
-use_note:
-  means: "Donatists' best-known martyrs died for the true faith at the hands of imperial troops sent at the rival church's urging, which never granted them the title."
-  not_for:
-    - "a claim that these were generic early-church martyrs killed by pagan Rome"
-    - "a claim that martyrdom here is a modern 'martyr complex'"
-    - "a claim that martyr was a settled category both sides recognised"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Built from Doc_06 SS1 entry 010 (Tier 1, confirmed at Doc_04 SS7) and `Lexicon-Chunks/donlex010_martyr-martyrdom.md`. Doc_02 SS4's Contested dating of the commemorative sermon (Mabillon vs Monceaux) is carried in the divergence_note rather than resolved, per Doc_02 SS8.

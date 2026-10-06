@@ -9,8 +9,7 @@ authors_ruled:
     evidence: 'Mansi tom. 4 prints "Hippo-Regiense" as a council text (file line 44098); no individual author is named.'
 
 assignments:
-  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901--gesta-collationis-carthaginensis-acts-of-the-411-conference
-    work: "Gesta Collationis Carthaginensis (Acts of the 411 Conference of Carthage), in Mansi tom. 4"
+  - work: "Gesta Collationis Carthaginensis (Acts of the 411 Conference of Carthage), in Mansi tom. 4"
     author: gesta-collationis-carthaginensis
     locus: "file line 1382"
     atlas_ids:
@@ -20,8 +19,7 @@ assignments:
     note: >
       A second Latin printing of the acts beside the Migne PL 11 printing already in the map
       as context. Registry row 229.
-  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901--augustine-sermo-post-collationem-in-mansi-tom-4
-    work: "Augustine, Sermo post collationem, in Mansi tom. 4"
+  - work: "Augustine, Sermo post collationem, in Mansi tom. 4"
     author: augustine
     locus: "file line 27825"
     atlas_ids:
@@ -30,8 +28,7 @@ assignments:
     confidence: provisional
     note: >
       Augustine's sermon after the conference of 411. Registry row 229.
-  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901--hippo-regiense-council-in-mansi-tom-4
-    work: "Hippo-Regiense council, in Mansi tom. 4"
+  - work: "Hippo-Regiense council, in Mansi tom. 4"
     author: council-of-hippo
     locus: "file line 44098"
     atlas_ids:

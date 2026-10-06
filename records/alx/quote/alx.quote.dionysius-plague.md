@@ -51,14 +51,6 @@ modern_lens_note: >
   Mild risk: 'brethren' is this translation's period-standard rendering for
   the whole community, not a claim that only men are in view - the same
   translation-convention note as dionysius-nepos.
-use_note:
-  means: "Dionysius's festal letter, quoted by Eusebius at VII.22, says most Christians fearlessly nursed the plague-sick and died with them, taking on their sickness."
-  not_for:
-    - "a claim that every Christian stayed, when Dionysius says 'the most of our brethren'"
-    - "a theodicy explaining why God allowed the plague"
-    - "an outsider's report, when this is the bishop praising his own flock"
-  years: {from: 260, to: 260}
-  status: reviewed
 ---
 Dionysius's own words on the plague of c. 260 - what the community DID
 when death filled the city. This is Eusebius's strong mode (verbatim

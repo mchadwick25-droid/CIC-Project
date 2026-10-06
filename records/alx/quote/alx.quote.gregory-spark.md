@@ -41,15 +41,6 @@ modern_lens_note: >
   No significant modern-lens risk identified for this quote - the
   spark/kindled-flame image for a sudden love of learning is a live metaphor
   in modern English as well.
-use_note:
-  means: "The Address to Origen, ascribed to Gregory Thaumaturgus, describes love kindled at once for the Holy Word and for Origen, his teacher."
-  not_for:
-    - "the Address's authorship and dating as settled, given the Nautin caveat its source record carries"
-    - "a plain factual report, when the Address is epideictic praise"
-    - "one student's experience generalized as how every pupil came to faith"
-    - "evidence for the school at Alexandria, when Gregory studied under Origen at Caesarea"
-  years: {from: 238, to: 238}
-  status: reviewed
 ---
 The one first-person account of what this formation FELT like from
 inside: love of the Word kindled through the love of a teacher. Serves

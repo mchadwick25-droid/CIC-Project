@@ -40,13 +40,6 @@ nearest_material:
 - ijc.limit.f5-ordinary-day
 - ijc.dw.marriage-ranked
 - ijc.dw.collections-discipline
-use_note:
-  means: "Marriage appears as real but ranked below chosen continence, and money appears from above as imperial wealth; a wedding or a poor purse does not."
-  not_for:
-    - "a claim about a wedding or a family's daily life from inside"
-    - "a claim about what a poor believer's purse looked like from inside"
-  years: {from: 312, to: 451}
-  status: reviewed
 ---
 F5-T held as an honest limit, narrowed: both halves of the cell have real
 material (a teacher's ranking of

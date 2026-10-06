@@ -46,14 +46,6 @@ relations:
   target: desert.core.desert
 - type: associated-with
   target: desert.contested.alexandria-continuity
-use_note:
-  means: "The claim that Antony was the unlettered rustic Athanasius portrays is contested, since the Letters, if authentic, and the Vita's own motives cut against it."
-  not_for:
-    - "Presenting Antony as either unlettered or philosophically trained as settled"
-    - "Quoting Gould's critique directly, since its venue is not pinned"
-    - "Presenting withdrawal or elder authority as depending on resolving it"
-  years: {from: 251, to: 356}
-  status: reviewed
 ---
 Re-derived from Doc_01 SS10, SS11 item 4 (source-level flag) and Doc_04
 SS3 (the Confidence/Gravity Cross-Check treatment, routed specifically

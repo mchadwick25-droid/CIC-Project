@@ -49,15 +49,6 @@ text: >-
   what he learned came from two enslaved women he had tortured to get it -
   ministrae, his own word for them, not ours. Call it an honest account, not a
   kind one.
-use_note:
-  means: "The clearest outsider account is Pliny's report of what informants told him: pre-dawn hymns to Christ as God, an oath, a harmless meal."
-  not_for:
-    - "a claim that this world hid in catacombs or left securely identified buildings or inscriptions"
-    - "a claim about Constantine, who reigned long after this world closed"
-    - "an eyewitness account by Pliny rather than his informants' testimony"
-    - "a claim that the worship details came from the tortured ministrae"
-  years: {from: 111, to: 113}
-  status: reviewed
 ---
 Pliny 10.96 checked directly against cic/texts/npnf201_eusebius-
 church-history-life-of-constantine.xml (McGiffert's editorial note to

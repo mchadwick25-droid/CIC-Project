@@ -56,15 +56,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented
-use_note:
-  means: "Sulpitius relates that Martin kept away from a reputed martyr's tomb because no steady tradition about it came from antiquity, then went to test it."
-  not_for:
-    - "Martin's direct words throughout, when only the reason is reported as his"
-    - "the outcome of the test, which the quoted passage does not include"
-    - "Cassian's rule on antiquity and consent, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
-    - "a separate witness from gallic.quote.no-steady-tradition-from-antiquity, whose sentence opens this passage"
-  years: {from: 397, to: 397}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "no
 steady tradition"` returns one hit, line 1177, and `grep -n "opinion of the multitude"` one hit, line

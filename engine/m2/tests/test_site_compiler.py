@@ -103,7 +103,7 @@ WORLD_FRONT = {
                 "text": "still practiced",
                 "url": "https://example.org",
                 "grounded_in": [TERM["id"]],
-                "verified_on": "a date",
+                "verified_on": "2026-09-19",
             }
         ],
         "relations_summary": {"text": "r", "grounded_in": [DOCTRINAL_WITNESS["id"]]},
@@ -151,15 +151,13 @@ def test_skim_tile_resolves_mode1_unit():
     assert out["skim"]["tile"] == {"text": "A tile.", "grounded_in": [QUOTE["id"]]}
 
 
-def test_documented_story_pulls_its_own_curated_fields_and_the_story_records_tellable_as():
+def test_documented_story_pulls_its_own_curated_fields_and_the_story_records_text():
     out = _compile()
     entry = out["orientation"]["documented_stories"][0]
     assert entry["title"] == "The long road"
     assert entry["teaser"] == "a teaser"
-    assert entry["tellable_as"] == STORY["tellable_as"]
-    assert "text" not in entry
+    assert entry["text"] == STORY["text"]
     assert entry["confidence"] == "Widely Accepted"
-    assert STORY["text"] not in json.dumps(out)
 
 
 def test_floor_note_mode3_unit_resolves_from_into_grounded_in():
@@ -243,8 +241,7 @@ def test_cite_resolves_non_doctrinal_witness_types_by_their_own_content_field():
     by_id = {c["id"]: c for c in q["cite"]}
     assert by_id[DOCTRINAL_WITNESS["id"]]["text"] == DOCTRINAL_WITNESS["text"]
     assert by_id[contested_claim["id"]]["text"] == contested_claim["claim"]
-    assert by_id[STORY["id"]]["text"] == STORY["tellable_as"]
-    assert STORY["text"] not in payload.decode("utf-8")
+    assert by_id[STORY["id"]]["text"] == STORY["text"]
     assert len(q["cite"]) == 3, "no entry should carry a null text"
 
 

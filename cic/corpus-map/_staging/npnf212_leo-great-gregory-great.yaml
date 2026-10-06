@@ -13,8 +13,7 @@ authors_ruled:
       Gregory the Great; the slug is CCEL's own.
 
 assignments:
-  - row_id: npnf212_leo-great-gregory-great--the-letters-of-leo-the-great
-    work: "The Letters of Leo the Great"
+  - work: "The Letters of Leo the Great"
     author: leo
     locus: "div2 2.4 — Letters (including Letter XXVIII, the Tome)"
     atlas_ids:
@@ -32,8 +31,7 @@ assignments:
       split-by-era question, not on the material's importance. Note the Tome
       is also carried in npnf214 (Chalcedon, div2 11.7).
 
-  - row_id: npnf212_leo-great-gregory-great--the-letters-of-leo-the-great-2
-    work: "The Letters of Leo the Great"
+  - work: "The Letters of Leo the Great"
     author: leo
     locus: "div2 2.4 — Letters"
     atlas_ids:
@@ -49,8 +47,7 @@ assignments:
       Step-0 deferred entry is used here - a ruling on which of the two
       carries corpus is still needed.
 
-  - row_id: npnf212_leo-great-gregory-great--the-sermons-of-leo-the-great
-    work: "The Sermons of Leo the Great"
+  - work: "The Sermons of Leo the Great"
     author: leo
     locus: "div2 2.5 — Sermons"
     atlas_ids:
@@ -64,8 +61,7 @@ assignments:
       statement of the Roman see's self-understanding. Runs slightly past
       ijc's 451 boundary; kept whole as one body per the granularity rule.
 
-  - row_id: npnf212_leo-great-gregory-great--the-book-of-pastoral-rule
-    work: The Book of Pastoral Rule
+  - work: The Book of Pastoral Rule
     author: gregory
     locus: div2 3.4 — The Book of Pastoral Rule
     atlas_ids:
@@ -79,8 +75,7 @@ assignments:
 
       '
 
-  - row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i
-    work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
+  - work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
     author: gregory
     locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
     atlas_ids:
@@ -93,8 +88,7 @@ assignments:
       keep their rows, as `context`.
 
       '
-  - row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i-2
-    work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
+  - work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
     author: gregory
     locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
     atlas_ids:

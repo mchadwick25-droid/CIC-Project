@@ -28,8 +28,7 @@ authors_ruled:
 
       '
 assignments:
-- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-i-the-angel-s-ordinance
-  work: The Rules of Pachomius, Part I (the angel's ordinance)
+- work: The Rules of Pachomius, Part I (the angel's ordinance)
   author: pachomius
   locus: pp. 681-683; "In the name of the holy Trinity. The ordinance which the angel of the Lord
     commanded to Abba Pachomius"
@@ -49,8 +48,7 @@ assignments:
     itself, not merely in Palladius'' and Sozomen''s framing of it.
 
     '
-- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-ii-the-second-word-of-the-holy
-  work: The Rules of Pachomius, Part II (the second word of the holy Pachomius)
+- work: The Rules of Pachomius, Part II (the second word of the holy Pachomius)
   author: pachomius
   locus: pp. 683-685; "In the name of the Father and of the Son and of the Holy Ghost. An ordinance
     and command of the holy Abba Pachomius"
@@ -68,8 +66,7 @@ assignments:
     face nor hear the other''s voice.
 
     '
-- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-iii-the-symbolical-homily-on-the
-  work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
+- work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
   author: ethiopic_homily_on_the_ten_associations
   locus: pp. 685-689; "And again a third ordinance"; the five evil associations (hyenas, dogs,
     wolves, shakals, goats) and the five good (sheep, doves, turtle-doves, bees, deer)
@@ -85,8 +82,7 @@ assignments:
     preserved it. Cite it as the late Ethiopic homily, never as Pachomian legislation.
 
     '
-- row_id: pachomius_rules-ethiopic_schodde1885--schodde-s-introduction-to-the-rules-1885
-  work: Schodde's introduction to the Rules (1885)
+- work: Schodde's introduction to the Rules (1885)
   author: schodde
   locus: pp. 679-681, including Sozomen's summary in Valesius' Latin and the Acta Sanctorum notice
   atlas_ids:

@@ -90,15 +90,6 @@ tensions:
 relations:
 - type: associated-with
   target: gallic.quote.one-substance-three-persons
-use_note:
-  means: "This witness affirms Jesus as God through Vincent's formula of one substance in three Persons and two substances in one Person, adding Cassian's sixth-hour atonement sentence."
-  not_for:
-    - "a penal substitution doctrine, when the sixth-hour sentence is near it but not the same"
-    - "anything from Cassian's books against Nestorius, which are unread"
-    - "the saying that denying God wills all to be saved is grievous blasphemy, which sits in gallic.quote.grievous-blasphemy-not-all-men-to-be-saved"
-    - "a private confession of Jesus as personal Lord, which the record lacks"
-  years: {from: 397, to: 434}
-  status: reviewed
 ---
 Closes C-T at the Answer-the-Canon step (inserted between B-7 and B-8),
 matching cappadocian.dw.was-jesus-god's worked structure - a full answer

@@ -1,8 +1,7 @@
 source_file: busch_chronicon-windeshemense-lat_grube1886.txt
 
 assignments:
-  - row_id: busch_chronicon-windeshemense-lat_grube1886--chronicon-windeshemense-und-liber-de-reformatione
-    work: "Chronicon Windeshemense und Liber de Reformatione Monasteriorum"
+  - work: "Chronicon Windeshemense und Liber de Reformatione Monasteriorum"
     author: busch
     locus: "whole volume"
     atlas_ids:

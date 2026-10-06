@@ -58,14 +58,6 @@ senses:
 quick_meaning: 'The madrasha is the teaching hymn: a sung poem with a refrain. Among us, doctrine
   was taught by singing it.'
 distortion_risk: low
-use_note:
-  means: "The madrasha is the stanzaic teaching hymn with refrain, Ephrem's chief vehicle for theological argument, sung by choirs rather than read, in which doctrine was taught as song."
-  not_for:
-    - "a claim that the hymn was mere decoration beside the real teaching"
-    - "a claim that Ephrem matched a specific rival's meter"
-    - "a claim that madrasha means the later Islamic school"
-  years: {from: 200, to: 373}
-  status: reviewed
 ---
 Re-derived from syrlex004 (Tier 1) and Doc_04 C1/C3. The
 Bardaisan-first genre point is carried at genre level only, per the

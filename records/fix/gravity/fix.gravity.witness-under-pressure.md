@@ -5,7 +5,7 @@ record_type: gravity
 schema_version: 2
 status: ready
 register: emic
-canon_cells: [F6-P]
+canon_cells: []
 confidence:
   citation_specificity: B
   verification_state: verified-direct
@@ -18,12 +18,6 @@ name: "Witness under social cost"
 description: "This is this world's center of gravity. Belonging is proven by what it costs, not by what it gives. This group organizes its identity around staying, not around gaining."
 manifestations: [fix.story.the-long-road]
 classification: primary
-use_note:
-  means: "Testland measures belonging by the cost of staying, not by what membership gives."
-  not_for:
-    - "a claim that the community sought hardship for its own sake"
-  years: {from: 100, to: 100}
-  status: provisional
 ---
 Note (honest about scope, not a spec ruling): Artifact-1 does not fully specify
 gravity/force's internal field shape beyond what contested_claim gets (claim,

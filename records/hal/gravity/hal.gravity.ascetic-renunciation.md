@@ -56,14 +56,6 @@ manifestations:
 - the family resistance and public judgment the choice provoked - and, in Blaesilla's death, its
   most terrible cost
 classification: primary
-use_note:
-  means: "Deliberately unmaking wealth, marriage, and rank was itself the women's formation, yet that same unmade wealth was the material source of everything the world built."
-  not_for:
-    - "treating three letters by one author as independent attestation"
-    - "asserting Paula's total impoverishment as fact"
-    - "treating renunciation as preparation for formation rather than formation itself"
-  years: {from: 382, to: 404}
-  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (G2: passes all six tests; bipolar
 geography holds). The corrected evidentiary basis is carried: the three

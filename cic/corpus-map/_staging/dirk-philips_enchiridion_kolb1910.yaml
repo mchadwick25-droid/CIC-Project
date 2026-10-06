@@ -1,8 +1,7 @@
 source_file: dirk-philips_enchiridion_kolb1910.txt
 
 assignments:
-  - row_id: dirk-philips_enchiridion_kolb1910--enchiridion-or-hand-book-a-hand-book-of-the-christian
-    work: "Enchiridion, or Hand Book: A Hand Book of the Christian Doctrine and Religion"
+  - work: "Enchiridion, or Hand Book: A Hand Book of the Christian Doctrine and Religion"
     author: dirk-philips
     locus: "whole text"
     atlas_ids:

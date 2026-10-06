@@ -25,12 +25,12 @@ relations:
   target: alx.quote.clement-schoolmaster
 name: The Middle Platonist Philosophical Environment [1A - initiating/external]
 kind: initiating
-description: |-
-  When the world began, the serious philosophy around it was Middle Platonism. Its voices were Numenius, Albinus, and Ammonius Saccas, the shared Alexandrian teacher. It gave an account of the soul's graduated ascent. The school formed itself alongside that account and against it.
-
-  The same current grew into Plotinian Neoplatonism. That became the school's ongoing rival.
-
-  Here were others who took the soul's ascent with full seriousness. They were close enough to be fellow-seekers. Yet their ascent had no Word made flesh at its end.
+description: 'At the world''s initiating moment the serious philosophical environment was Middle Platonism
+  (Numenius, Albinus, the shared Alexandrian teacher Ammonius Saccas) - an account of the soul''s graduated
+  ascent that the school tradition formed itself alongside and against. This same current MATURES into
+  Plotinian Neoplatonism, which becomes the ongoing rival (precondition-for relation to the neoplatonic-challenge
+  force). In the world''s own experience: here were others who took the soul''s ascent with full seriousness
+  - close enough to be fellow-seekers, yet reaching an ascent with no Word made flesh at its end.'
 manifestations:
 - philosophy as preparation, never destination (Stromateis I.5's schoolmaster line, anf02 lines 27890-27894,
   verified)

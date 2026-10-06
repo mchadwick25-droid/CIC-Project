@@ -166,15 +166,6 @@ quick_meaning: >-
   God's help, without which no effort reaches its goal - going before the will, working with it, and
   requiring it. Held on both sides at once, by design.
 distortion_risk: high
-use_note:
-  means: "Grace meant, for Cassian's Marseilles, God's help going before, working with and crowning the will, held on purpose with a free will in a relation beyond reason's grasp."
-  not_for:
-    - "a binary of grace alone against works, or semi-Pelagian as a settled verdict, a label contested in gallic.contested.massilian-label"
-    - "Martin's power to heal, which sits in gallic.term.grace-as-charism"
-    - "the full saying that denying God wills all to be saved is grievous blasphemy, which sits in gallic.quote.grievous-blasphemy-not-all-men-to-be-saved"
-    - "a teaching on guilt inherited from birth, which this record does not hold"
-  years: {from: 415, to: 434}
-  status: reviewed
 ---
 Built from Doc_06 entry 008 (Tier 1, [CT] Meaning and Application; chunk galliclex008_grace.md;
 Doc_03 5.1). Register emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read

@@ -44,23 +44,6 @@ const baseProps = {
 };
 
 describe('Conversation', () => {
-  it('shows the reply so far while the voice is still writing, and drops the waiting note', () => {
-    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
-    const { container, queryByText } = render(
-      <Conversation {...baseProps} turns={turns} isLoading streamed={[{ index: 0, speaker: 'w', lead: '', text: 'We told what we had been told.', text_start: 0, text_end: 30, elements: [], cards: [] }]} />
-    );
-    expect(container.querySelectorAll('.turn--voice')).toHaveLength(1);
-    expect(container.querySelector('.turn--voice')?.textContent).toContain('We told what we had been told.');
-    expect(queryByText(/is considering/)).toBeNull();
-  });
-
-  it('keeps the waiting note until the first sentence of the reply arrives', () => {
-    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
-    const { container, queryByText } = render(<Conversation {...baseProps} turns={turns} isLoading streamed={[]} />);
-    expect(container.querySelectorAll('.turn--voice')).toHaveLength(0);
-    expect(queryByText(/is considering/)).not.toBeNull();
-  });
-
   it('does not render a modern-term mark for a facilitator turn with no cards', () => {
     const turns: ConversationTurn[] = [{ speaker: 'facilitator', text: 'Welcome.', kind: 'door' }];
     const { container } = render(<Conversation {...baseProps} turns={turns} />);
@@ -104,26 +87,5 @@ describe('Conversation', () => {
     ];
     const { container } = render(<Conversation {...baseProps} turns={turns} />);
     expect(container.querySelectorAll('.modern-term-mark')).toHaveLength(0);
-  });
-
-  it('states that the voice is AI before the first message, and not after', () => {
-    const { container, rerender } = render(<Conversation {...baseProps} turns={[]} />);
-    expect(container.querySelector('.ai-note')?.textContent).toContain('Vera is an AI voice');
-    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Hello' }];
-    rerender(<Conversation {...baseProps} turns={turns} />);
-    expect(container.querySelector('.ai-note')).toBeNull();
-  });
-});
-
-describe('Conversation - a pause at a limit', () => {
-  it('shows the Facilitator\'s pause with the reason beneath it and keeps the room open for another message', () => {
-    const turns: ConversationTurn[] = [
-      { speaker: 'participant', text: 'May I go on?' },
-      { speaker: 'facilitator', kind: 'limit', text: 'This sitting has reached its limit for now.', note: 'Your tokens have run out. Add more to carry on.' },
-    ];
-    const { container, queryByText } = render(<Conversation {...baseProps} turns={turns} />);
-    expect(container.querySelector('.turn__note')?.textContent).toBe('Your tokens have run out. Add more to carry on.');
-    expect(container.querySelector('textarea')).not.toBeDisabled();
-    expect(queryByText('Meet another world')).toBeNull();
   });
 });

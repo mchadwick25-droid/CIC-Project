@@ -1,8 +1,7 @@
 source_file: wyclif_tracts-and-treatises_vaughan1845.txt
 
 assignments:
-  - row_id: wyclif_tracts-and-treatises_vaughan1845--tracts-and-treatises-of-john-de-wycliffe-with-selections-and
-    work: "Tracts and Treatises of John de Wycliffe, with Selections and Translations from His Manuscripts, and Latin Works"
+  - work: "Tracts and Treatises of John de Wycliffe, with Selections and Translations from His Manuscripts, and Latin Works"
     author: wyclif
     locus: "whole volume"
     atlas_ids:

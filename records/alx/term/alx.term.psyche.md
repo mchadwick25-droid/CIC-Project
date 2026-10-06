@@ -54,13 +54,6 @@ senses:
     directly. The soul is not caged in the body, it lives and acts through it.'
 quick_meaning: The whole person made for God, alive and acting through the body, not a spirit trapped inside it.
 distortion_risk: high
-use_note:
-  means: "Psyche meant the whole human person made for God, alive and acting through the body, not a ghost caged in flesh."
-  not_for:
-    - "describing the soul as an inner spirit freed from a material prison"
-    - "folding Origen's pre-existence speculation into this core meaning"
-  years: {from: 180, to: 373}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex010, "Soul / Psyche") at Mark's direction, as a
 draft, not a final version. Origen's more speculative tripartite/pre-existence material is left to the

@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: homoian-arian-christianity
 works:
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--epistles-on-the-arian-heresy-and-the-deposition-of-arius-2
-  work: Epistles on the Arian Heresy and the Deposition of Arius
+- work: Epistles on the Arian Heresy and the Deposition of Arius
   author: alexander_alexandria
   locus: div2 10.3
   role: context
@@ -20,8 +19,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- row_id: npnf210_ambrose--exposition-of-the-christian-faith-de-fide-2
-  work: Exposition of the Christian Faith (De Fide)
+- work: Exposition of the Christian Faith (De Fide)
   author: ambrose
   locus: div2 4.4 — Exposition of the Christian Faith
   role: context
@@ -32,8 +30,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf204_athanasius--arian-history-historia-arianorum-ad-monachos-2
-  work: Arian History (Historia Arianorum ad Monachos)
+- work: Arian History (Historia Arianorum ad Monachos)
   author: athanasius
   locus: div1 20 — Historia Arianorum (358)
   role: context
@@ -48,8 +45,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf204_athanasius--defence-against-the-arians-apologia-contra-arianos-2
-  work: Defence Against the Arians (Apologia Contra Arianos)
+- work: Defence Against the Arians (Apologia Contra Arianos)
   author: athanasius
   locus: div1 13 — Apologia Contra Arianos
   role: context
@@ -62,8 +58,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf204_athanasius--defence-of-his-flight-apologia-de-fuga-2
-  work: Defence of His Flight (Apologia de Fuga)
+- work: Defence of His Flight (Apologia de Fuga)
   author: athanasius
   locus: div1 19 — Apologia de Fuga (357-8)
   role: context
@@ -75,8 +70,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf204_athanasius--defence-of-the-nicene-definition-de-decretis-2
-  work: Defence of the Nicene Definition (De Decretis)
+- work: Defence of the Nicene Definition (De Decretis)
   author: athanasius
   locus: div1 14 — De Decretis
   role: context
@@ -88,8 +82,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf204_athanasius--deposition-of-arius-depositio-arii-with-alexander-s-2
-  work: Deposition of Arius (Depositio Arii, with Alexander's Encyclical)
+- work: Deposition of Arius (Depositio Arii, with Alexander's Encyclical)
   author: athanasius
   locus: div1 8 — Deposition of Arius
   role: context
@@ -105,8 +98,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf204_athanasius--encyclical-letter-epistola-encyclica-2
-  work: Encyclical Letter (Epistola Encyclica)
+- work: Encyclical Letter (Epistola Encyclica)
   author: athanasius
   locus: div1 12 — Epistola Encyclica (339)
   role: context
@@ -118,8 +110,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf204_athanasius--four-discourses-against-the-arians-orationes-contra-arianos-2
-  work: Four Discourses Against the Arians (Orationes contra Arianos IV)
+- work: Four Discourses Against the Arians (Orationes contra Arianos IV)
   author: athanasius
   locus: div1 21 — Against the Arians, Discourses I-IV
   role: context
@@ -134,8 +125,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf204_athanasius--on-the-councils-of-ariminum-and-seleucia-de-synodis-2
-  work: On the Councils of Ariminum and Seleucia (De Synodis)
+- work: On the Councils of Ariminum and Seleucia (De Synodis)
   author: athanasius
   locus: div1 22 — De Synodis (359-361)
   role: context
@@ -149,8 +139,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf204_athanasius--synodal-letter-to-the-bishops-of-africa-ad-afros-epistola-2
-  work: Synodal Letter to the Bishops of Africa (Ad Afros Epistola Synodica)
+- work: Synodal Letter to the Bishops of Africa (Ad Afros Epistola Synodica)
   author: athanasius
   locus: div1 24 — Ad Afros
   role: context
@@ -162,8 +151,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf204_athanasius--to-the-bishops-of-egypt-ad-episcopos-aegypti-et-libyae-2
-  work: To the Bishops of Egypt (Ad Episcopos Aegypti et Libyae)
+- work: To the Bishops of Egypt (Ad Episcopos Aegypti et Libyae)
   author: athanasius
   locus: div1 17 — Circular to Bishops of Egypt and Libya (356)
   role: context
@@ -175,21 +163,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899--epistula-de-fide-vita-et-obitu-wulfilae
-  work: Epistula de Fide, Vita et Obitu Wulfilae
-  author: auxentius-durostorum
-  locus: whole file
-  role: tradition
-  confidence: assigned
-  note: 'A disciple''s own eyewitness confession of Ulfila''s Homoian faith - the closest
-    thing to a first-person Homoian Gothic confessional statement in the corpus. Confirmed
-    genuinely legible despite the supplying report''s own (incorrect) flag that no plain-text
-    derivative existed.
-
-    '
-  source_file: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt
-- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons-2
-  work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
+- work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9
   role: context
@@ -199,8 +173,7 @@ works:
     names, from their condemners. Each now has its own entry, and this work is the record
     of all of them.
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-nicaea-325-creed-canons-synodal-letter-2
-  work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
+- work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
   author: council-of-nicaea-325
   locus: div1 7
   role: context
@@ -210,8 +183,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf204_athanasius--letter-of-eusebius-of-caesarea-to-his-flock-epistola-eusebii
-  work: Letter of Eusebius of Caesarea to his flock (Epistola Eusebii)
+- work: Letter of Eusebius of Caesarea to his flock (Epistola Eusebii)
   author: eusebius
   locus: div1 9 — Letter of Eusebius
   role: context
@@ -226,8 +198,7 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils-2
-  work: De Synodis (On the Councils)
+- work: De Synodis (On the Councils)
   author: hilary_poit
   locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
   role: context
@@ -243,8 +214,7 @@ works:
     floor material only as `register: etic`. The homoian context assignment is the firm half
     throughout.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
-- row_id: npnf209_hilary-poitiers-john-damascus--de-trinitate-on-the-trinity-2
-  work: De Trinitate (On the Trinity)
+- work: De Trinitate (On the Trinity)
   author: hilary_poit
   locus: div2 2.5 (~190,221 words, twelve books), nested under the apparatus-flagged div1
     2
@@ -264,8 +234,7 @@ works:
     floor material only as `register: etic`. The context relation to the Arian party stands
     unchanged.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
-- row_id: npnf206_jerome-principal-works--the-dialogue-against-the-luciferians-2
-  work: The Dialogue Against the Luciferians
+- work: The Dialogue Against the Luciferians
   author: jerome
   locus: div2 6.4 (~16,292 words)
   role: context
@@ -280,8 +249,7 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf206_jerome-principal-works.xml
-- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
-  work: The Ecclesiastical History of Socrates Scholasticus
+- work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom),
     Novatianist notices throughout
@@ -298,8 +266,7 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2
-  work: The Ecclesiastical History of Sozomen
+- work: The Ecclesiastical History of Sozomen
   author: sozomen
   locus: div1 3 — esp. I.12-14, III.14, VI.28-34 (monks); II.9-14 (Persian martyrs); III.16
     (Ephraim); Books I-IV (Arian controversy); VIII (Chrysostom)
@@ -315,8 +282,7 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-2
-  work: The Ecclesiastical History of Theodoret
+- work: The Ecclesiastical History of Theodoret
   author: theodoret
   locus: div2 3.8 — esp. Books I-II (Arian controversy), V (Ambrose and Theodosius)
   role: context

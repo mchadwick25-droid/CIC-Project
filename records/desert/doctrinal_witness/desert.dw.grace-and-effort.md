@@ -26,7 +26,7 @@ retrieval:
 text: "It is not effort alone, and we said so at length. The question was put to us directly: if a man strives with all his might for a good result, can he become master of what is good? The answer that started the argument was no - not unless he has it as a gift. Grace and free will look opposed to each other, but really are in harmony; we thought we ought to have both alike. We argued it from cases rather than from principles. Paul was drawn to salvation while he was eager for bloodshed, and Matthew while he was at his taking of taxes - neither was reaching for it. But Zacchaeus, and the thief on the cross, by their own desires brought violence to bear on the kingdom of heaven. Neither pattern was made to govern the other. What we would say plainly is this: the main share in our salvation belongs not to the merit of our own works but to heavenly grace. Sometimes he puts into us the very beginnings of salvation, and gives a person the zeal of his own will. Sometimes he grants the carrying out of the work. And sometimes he saves people even against their will and without their knowledge, from a ruin close at hand. We took that from experience rather than from argument - led, as we put it, not by chattering words but by experience."
 positions:
 - "grace and free will held together as in harmony rather than ranked, and the dichotomy itself refused (Conference XIII.11)"
-- "the main share in salvation ascribed to grace, not to the merit of works - but a share, not the whole (XIII.18)"
+- "the main share in salvation ascribed to grace, not to the merit of works - but a share, not the whole, which is what later Western theology condemned in it (XIII.18)"
 - "God observed acting differently on different people: beginning the willing in some, completing the work in others, rescuing some who were not willing at all (XIII.18)"
 - "the method is case-by-case induction from what was seen to happen, led by experience, not deduction from a doctrine of God"
 tensions:
@@ -49,14 +49,6 @@ relations:
   target: desert.limit.original-sin-eucharist-faith
 - type: associated-with
   target: desert.gravity.diakrisis
-use_note:
-  means: "This witness reports Cassian's Abbot Chaeremon holding grace and free will in harmony, giving grace the main share in salvation and effort a real share."
-  not_for:
-    - "the Egyptian elders' unmediated teaching rather than Cassian's Latin written in Gaul"
-    - "an answer to the faith-alone-versus-works debate"
-    - "accepted Western doctrine, when Prosper attacked it and later theology called it semi-Pelagian"
-  years: {from: 385, to: 429}
-  status: reviewed
 ---
 Opened from a volume this world already had on disk and had
 already opened for something else. desert.source.cassian-conferences was

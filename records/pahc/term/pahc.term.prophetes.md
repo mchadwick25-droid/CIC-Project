@@ -57,13 +57,6 @@ senses:
     practice: not a council, not yet everywhere a bishop - a community testing the speaker''s own
     conduct against what it had already received.'
 quick_meaning: One who speaks as the Spirit prompts - still met at the door, and carefully tested. Settled offices are slowly taking the prophet's place.
-use_note:
-  means: "One who speaks as the Spirit prompts, welcomed where genuine and tested where doubtful, while settled offices are in places taking the prophet's role."
-  not_for:
-    - "a predictor of the future"
-    - "a figure already extinct by this period"
-  years: {from: 70, to: 200}
-  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 8, Tier 2,
 maximal author-gravity: Didache-only). The tension-with episkopos

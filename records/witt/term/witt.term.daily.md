@@ -66,14 +66,6 @@ senses:
     rule.'
 quick_meaning: 'The rhythm our catechism sets: prayer at rising, at meals, at night. Renewed every day.'
 distortion_risk: medium
-use_note:
-  means: "Daily meant the rhythm the catechism imposes on a household: daily bread, the old self drowned daily in baptism, forgiveness renewed daily, and three set prayers."
-  not_for:
-    - "'daily' as a devotional habit chosen by the pious rather than a rule of the house"
-    - "'daily bread' as simply food"
-    - "the Lord's Prayer's full content, which sits in witt.term.prayer"
-  years: {from: 1529, to: 1529}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 4.8 (daily, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: Luther-only, single-register (catechesis). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

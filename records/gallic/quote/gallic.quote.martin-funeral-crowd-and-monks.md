@@ -52,13 +52,6 @@ modern_rendering: >-
   nearby cities too. Oh, how great was everyone's grief! How deep were the laments of the mourning
   monks above all! It is said that almost two thousand of them gathered that day. This was a special
   glory of Martin's. Through his example, so many plants had sprung up to serve the Lord.
-use_note:
-  means: "Sulpitius describes a vast crowd at Martin's funeral and reports that almost two thousand monks were said to have gathered."
-  not_for:
-    - "an exact count of monks, when the number is given as report"
-    - "the procession's ranks of old men, soldiers and virgins, which sit in gallic.quote.martin-funeral-procession-ranks"
-  years: {from: 397, to: 397}
-  status: reviewed
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "hardly credible what a multitude"` returns line 2487; `grep -n "for the service of the Lord"` returns

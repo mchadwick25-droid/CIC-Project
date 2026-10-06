@@ -30,14 +30,6 @@ concedes: The letter is real, early, and genuinely from the Bethlehem circle; as
   women's own surviving voice.
 divergence_partners:
 - hal.source.jerome-ep46
-use_note:
-  means: "The claim that Epistula 46 is the authentic composition of Paula and Eustochium is contested, since scholarship assigns it to Jerome."
-  not_for:
-    - "quoting Ep. 46 as the women's own words"
-    - "presenting its authorship as settled in either direction"
-    - "dismissing it as worthless as evidence"
-  years: {from: 386, to: 404}
-  status: reviewed
 ---
 Doc_01 Open Issue 3, formalized at Doc_02 and carried at full strength: the
 one text under the women's names is the one scholarship assigns to Jerome.

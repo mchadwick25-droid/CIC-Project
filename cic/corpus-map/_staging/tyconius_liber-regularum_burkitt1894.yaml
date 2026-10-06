@@ -1,8 +1,7 @@
 source_file: tyconius_liber-regularum_burkitt1894.txt
 
 assignments:
-  - row_id: tyconius_liber-regularum_burkitt1894--the-book-of-rules-liber-regularum
-    work: "The Book of Rules (Liber Regularum)"
+  - work: "The Book of Rules (Liber Regularum)"
     author: tyconius
     locus: "whole work"
     atlas_ids:

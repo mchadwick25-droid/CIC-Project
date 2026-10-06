@@ -22,8 +22,7 @@ authors_ruled:
       to anyone by name.
 
 assignments:
-  - row_id: monumenta-vetera-donatistarum_migne-pl8--sermo-donatistae-cujusdam-de-vexatione-donatistarum
-    work: "Sermo Donatistae cujusdam de vexatione Donatistarum temporibus
+  - work: "Sermo Donatistae cujusdam de vexatione Donatistarum temporibus
       Leontii et Ursatii (MS title: De passione sanctorum Donati et
       Advocati)"
     author: donatist-anonymous
@@ -40,8 +39,7 @@ assignments:
       rarest category this entry has and one this construction should
       weigh heavily precisely because it is so scarce.
 
-  - row_id: monumenta-vetera-donatistarum_migne-pl8--passio-benedicti-martyris-marculi
-    work: "Passio Benedicti Martyris Marculi"
+  - work: "Passio Benedicti Martyris Marculi"
     author: donatist-anonymous-passio-authors
     locus: "item 2 of 3"
     atlas_ids:
@@ -54,8 +52,7 @@ assignments:
       community's own hagiographic voice, distinct in kind from the
       documentary/legal material already mapped from the Optatus appendix.
 
-  - row_id: monumenta-vetera-donatistarum_migne-pl8--passio-ss-martyrum-isaac-et-maximiani-cum-epistula-macrobii
-    work: "Passio SS. Martyrum Isaac et Maximiani, cum epistula Macrobii ad
+  - work: "Passio SS. Martyrum Isaac et Maximiani, cum epistula Macrobii ad
       ecclesiam Carthaginiensem"
     author: donatist-anonymous-passio-authors
     locus: "item 3 of 3, with the appended letter of the martyr Macrobius"

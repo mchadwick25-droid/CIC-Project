@@ -98,15 +98,6 @@ quick_meaning: >-
   Not our word - Augustine's, for what he said we were "in darkness" about. Our own teacher only
   said this: God wills all to be saved, and to think otherwise is blasphemy.
 distortion_risk: high
-use_note:
-  means: "Predestination was Augustine's word, not Cassian's, for what the Gallic brethren were in darkness on, though Cassian called it blasphemy to say God wills only some saved."
-  not_for:
-    - "a doctrine the Gallic monks opposed, as Calvinism against Arminianism"
-    - "a metaphysical puzzle about foreknowledge"
-    - "the grace teaching itself, which sits in gallic.term.grace"
-    - "Augustine's own doctrine, for which his treatises are context only"
-  years: {from: 426, to: 429}
-  status: reviewed
 ---
 Built from Doc_06 entry 044 (`galliclex044_predestination.md`, Tier 2, tags SC TC DR CT; Doc_03
 5.5). The chunk's CT Contest Type (Application to this world) is carried into

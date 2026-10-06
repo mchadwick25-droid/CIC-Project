@@ -89,15 +89,6 @@ tensions:
 - a doctrine of sacramental nullity is easy to hear as a doctrine of damnation, and our own texts never
   make that step; the distinction is stated here rather than assumed
 relations: []
-use_note:
-  means: "Donatist exclusivity ran through the middle of the church, at the rival communion's bishops, orders and font, not around it at outsiders, and claimed nothing about anyone's fate after death."
-  not_for:
-    - "a claim that the Donatists taught those baptized by the other party were damned"
-    - "a claim about Donatist views on whether Christianity is one way among many"
-    - "a claim about Donatist teaching on divorce and remarriage"
-    - "a claim about the washing as the rite of entry, which sits in don.dw.washed-for-the-first-time"
-  years: {from: 311, to: 411}
-  status: reviewed
 ---
 Closes F6-T. The cell's first two variants are answered by relocating the
 question: this communion's exclusivity is genuinely unusual in being

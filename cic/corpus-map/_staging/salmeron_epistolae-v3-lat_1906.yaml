@@ -1,8 +1,7 @@
 source_file: salmeron_epistolae-v3-lat_1906.txt
 
 assignments:
-  - row_id: salmeron_epistolae-v3-lat_1906--epistolae-p-alphonsi-salmeronis-tomus-secundus-1565-1585
-    work: "Epistolae P. Alphonsi Salmeronis, Tomus Secundus (1565-1585)"
+  - work: "Epistolae P. Alphonsi Salmeronis, Tomus Secundus (1565-1585)"
     author: salmeron
     locus: "whole volume - Tomus Secundus, covering 1565-1585; not Vol. III as the filename suggests"
     atlas_ids:

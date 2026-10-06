@@ -59,14 +59,5 @@ senses:
 quick_meaning: Training. The athlete's word, turned to the whole Christian life -- renunciation aimed
   at love.
 distortion_risk: high
-use_note:
-  means: "Askesis meant athletic training applied to fasting, vigil, poverty and obedience, valued only when it served love and was disciplined by the church."
-  not_for:
-    - "a self-improvement regimen"
-    - "extreme practice as admired for its own sake"
-    - "the radicals' own account of their practice, which survives only through Gangra"
-    - "the common life itself, which sits in cappadocian.term.koinonia"
-  years: {from: 340, to: 379}
-  status: reviewed
 ---
 Built from Doc_06 entry 21 (Tier 2).

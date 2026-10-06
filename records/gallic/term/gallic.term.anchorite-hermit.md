@@ -107,15 +107,6 @@ quick_meaning: >-
   The monk who goes out to the desert after training in community, to fight the devils in the open.
   In Gaul, a grade tried a short way from the house, and claimed by no one.
 distortion_risk: medium
-use_note:
-  means: "An anchorite was, in Cassian's report of Egypt's order, a monk first trained in community who then fights demons in the open desert, a grade no Gallic voice claims."
-  not_for:
-    - "a recluse as the purest original monk, with community life as a dilution"
-    - "a medieval anchorhold walled into a church"
-    - "a claim that Gallic monks called themselves anchorites, when no Gallic voice in the record does"
-    - "the monk in general, which sits in gallic.term.monk-solitary"
-  years: {from: 397, to: 435}
-  status: reviewed
 ---
 Built from Doc_06 entry 015 (Tier 2; chunk galliclex015_anchorite-hermit.md; Doc_03 1.3). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Row 4 (Dialogue

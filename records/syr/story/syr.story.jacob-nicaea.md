@@ -54,14 +54,6 @@ modern_contrast: 'A modern reader might assume a bishop''s attendance at so famo
   it directly - this is the community''s own later, collected memory of its own
   bishop''s place at Nicaea, reasonably secure but resting on later sources and
   reconstructed lists, not eyewitness record.'
-use_note:
-  means: "Later sources and reconstructed subscription lists place Jacob of Nisibis among the bishops at Nicaea in 325, a collected tradition not independently confirmed by any contemporary document."
-  not_for:
-    - "a claim that Jacob's attendance is confirmed by a fourth-century document"
-    - "a claim that blends the Nicaea tradition with the siege miracle legend"
-    - "a claim that Jacob's Nicaea attendance speaks for all Syriac Christianity"
-  years: {from: 325, to: 325}
-  status: reviewed
 ---
 Re-derived from syrstory003 (Tier 2; kept deliberately distinct
 from the Tier 3 siege legend so a well-attested institutional fact

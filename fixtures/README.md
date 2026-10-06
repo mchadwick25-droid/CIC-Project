@@ -3,9 +3,9 @@
 Build-Blueprint.md §5, stage 0.6: *"Fixture world (synthetic, exercises every
 gate + admission + safety script) — seeded defects enumerated and mapped to
 the gates that must catch them; the firing and harness proofs land in stages
-1 and 4."* This directory plus `records/fix/**`, `engine/canon/records/canon_question/
+1 and 4."* This directory plus `records/fix/**`, `records/_fleet/canon_question/
 _fleet.canon.{c-i,c-p,c-t,f1-i,f2-e,f5-p,f6-p,f6-t}-01.md`, and
-`engine/m5/records/modern_term/_fleet.modern.trinity.md` are that deliverable.
+`records/_fleet/modern_term/_fleet.modern.trinity.md` are that deliverable.
 
 ## What's here
 
@@ -34,7 +34,7 @@ _fleet.canon.{c-i,c-p,c-t,f1-i,f2-e,f5-p,f6-p,f6-t}-01.md`, and
   world_front yet; content migration is a separate, later stage.
 - **A fixture-scope canon subset**, 8 of the real 28 Appendix A cells (C-I,
   C-P, C-T, F1-I, F2-E, F5-P, F6-P/identity-collision, F6-T), seeded here (at
-  stage 0.6) under `engine/canon/records/canon_question/` using the *real* Appendix
+  stage 0.6) under `records/_fleet/canon_question/` using the *real* Appendix
   A question text and ids for those cells — enough to unblock fixture testing
   before the full canon existed. **Stage 3 has since seeded the other 20**
   (`engine/canon/seed_appendix_a.py`, all 86 questions across all 28 cells,

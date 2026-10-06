@@ -38,12 +38,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether people outside the community were lost"
   - "participant asks what they made of good people who had never heard of Christ"
-use_note:
-  means: "Justin argues that every race shares in the Word, so those who lived by reason, like Socrates and Abraham, were Christians."
-  not_for:
-    - "a pluralist claim that sincere goodness of any kind earns the name Christian"
-  years: {from: 153, to: 157}
-  status: reviewed
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, ch. 46 (viii.ii.xlvi). Direct textual ground

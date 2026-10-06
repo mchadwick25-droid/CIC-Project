@@ -63,15 +63,6 @@ tensions:
 relations:
 - type: associated-with
   target: ijc.quote.hymns-and-psalms-should-be-sung
-use_note:
-  means: "We validated practice and office by appeal to ancient custom, yet our record also openly dates some practices, like Milan's 386 hymn-singing, as new."
-  not_for:
-    - "a claim that every practice claimed as ancient custom was provably apostolic"
-    - "a claim that Milan's 386 singing was the first Latin hymnody"
-    - "a claim that the Milan singing was antiphonal in form"
-    - "a claim that custom-claims were neutral evidence rather than advocacy in live contests"
-  years: {from: 325, to: 386}
-  status: reviewed
 ---
 F4-E answered with the world's own custom-apparatus AND its one
 honestly-dated innovation - the pairing that keeps the answer from

@@ -1,8 +1,7 @@
 source_file: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt
 
 assignments:
-  - row_id: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902--histoire-litteraire-de-l-afrique-chretienne-tome-deuxieme
-    work: "Histoire litteraire de l'Afrique chretienne, Tome Deuxieme: Saint Cyprien et son temps"
+  - work: "Histoire litteraire de l'Afrique chretienne, Tome Deuxieme: Saint Cyprien et son temps"
     author: monceaux
     locus: "whole file"
     atlas_ids:

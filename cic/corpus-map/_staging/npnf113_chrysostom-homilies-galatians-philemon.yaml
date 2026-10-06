@@ -7,8 +7,7 @@
 source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
 
 assignments:
-  - row_id: npnf113_chrysostom-homilies-galatians-philemon--commentary-on-galatians
-    work: "Commentary on Galatians"
+  - work: "Commentary on Galatians"
     author: chrysostom
     locus: "div1 3, div2 3.3 — Commentary on Galatians (continuous commentary, not a homily series)"
     atlas_ids:
@@ -16,8 +15,7 @@ assignments:
     role: tradition
     confidence: assigned
 
-  - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-ephesians
-    work: "Homilies on Ephesians"
+  - work: "Homilies on Ephesians"
     author: chrysostom
     locus: "div1 3, div2 3.4 — the full Ephesians series, assigned as one work"
     atlas_ids:
@@ -25,8 +23,7 @@ assignments:
     role: tradition
     confidence: assigned
 
-  - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-philippians
-    work: "Homilies on Philippians"
+  - work: "Homilies on Philippians"
     author: chrysostom
     locus: "div1 4, div2 4.3 — the full Philippians series, assigned as one work"
     atlas_ids:
@@ -34,8 +31,7 @@ assignments:
     role: tradition
     confidence: assigned
 
-  - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-colossians
-    work: "Homilies on Colossians"
+  - work: "Homilies on Colossians"
     author: chrysostom
     locus: "div1 4, div2 4.4 — the full Colossians series, assigned as one work"
     atlas_ids:
@@ -43,8 +39,7 @@ assignments:
     role: tradition
     confidence: assigned
 
-  - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-thessalonians
-    work: "Homilies on First Thessalonians"
+  - work: "Homilies on First Thessalonians"
     author: chrysostom
     locus: "div1 4, div2 4.5 — the full 1 Thessalonians series, assigned as one work"
     atlas_ids:
@@ -52,8 +47,7 @@ assignments:
     role: tradition
     confidence: assigned
 
-  - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-thessalonians
-    work: "Homilies on Second Thessalonians"
+  - work: "Homilies on Second Thessalonians"
     author: chrysostom
     locus: "div1 4, div2 4.6 — the full 2 Thessalonians series, assigned as one work"
     atlas_ids:
@@ -61,8 +55,7 @@ assignments:
     role: tradition
     confidence: assigned
 
-  - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-timothy
-    work: "Homilies on First Timothy"
+  - work: "Homilies on First Timothy"
     author: chrysostom
     locus: "div1 5, div2 5.3 — the full 1 Timothy series, assigned as one work"
     atlas_ids:
@@ -70,8 +63,7 @@ assignments:
     role: tradition
     confidence: assigned
 
-  - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-timothy
-    work: "Homilies on Second Timothy"
+  - work: "Homilies on Second Timothy"
     author: chrysostom
     locus: "div1 5, div2 5.4 — the full 2 Timothy series, assigned as one work"
     atlas_ids:
@@ -79,8 +71,7 @@ assignments:
     role: tradition
     confidence: assigned
 
-  - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-titus
-    work: "Homilies on Titus"
+  - work: "Homilies on Titus"
     author: chrysostom
     locus: "div1 5, div2 5.5 — the full Titus series, assigned as one work"
     atlas_ids:
@@ -88,8 +79,7 @@ assignments:
     role: tradition
     confidence: assigned
 
-  - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-philemon
-    work: "Homilies on Philemon"
+  - work: "Homilies on Philemon"
     author: chrysostom
     locus: "div1 5, div2 5.6 — the full Philemon series, assigned as one work"
     atlas_ids:

@@ -115,15 +115,6 @@ manifestations:
 - "Vainglory's suggestion of holy orders (Inst. XI.14) and the devil's incitement to the clerical office 'under the pretext of edifying many people' (Conf. I.20)"
 - "The three lentil beans; Paesius and John; Paphnutius's humility - the south's exempla teaching a virtue rather than displaying a power"
 - "Martin's discernment of the false Christ (Vita XXIV) - the practice without the program, in Tours"
-use_note:
-  means: "Purity of heart as goal, discretion as regulator and the eight faults as combats together form the southern formation program, which pulls against office and against the saint's wonders."
-  not_for:
-    - "the program as documented Gallic practice or as Tours vocabulary, when it is Egypt's teaching received through Cassian"
-    - "the faults, discretion or purity of heart taken singly, which sit in gallic.term.eight-principal-faults, gallic.term.discretion and gallic.term.purity-of-heart"
-    - "the south's teaching on chastity, since Conferences XII and XXII are absent from the vendored English"
-    - "a remark about this record's own coverage, sources or scholarly attribution"
-  years: {from: 397, to: 435}
-  status: reviewed
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G7 -> §3 G7 -> §8 row G7; Supporting).
 Interaction Matrix (Doc_04 §4, row/col G7) - no '-' cell, so no absence is declared: reinforcing (R)

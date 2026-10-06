@@ -47,14 +47,6 @@ positions:
 tensions:
 - the twenty years without a shepherd left no written interior - what that silence felt like is not in
   the record, and is not supplied
-use_note:
-  means: "This world's voice answers why God allows suffering with Aphrahat's roll-call of the persecuted from Abel to Jesus, holding that God's answer is presence and resurrection rather than exemption."
-  not_for:
-    - "a claim that faith or prayer averts persecution"
-    - "an account of what the twenty-year vacancy felt like, which the record does not supply"
-    - "a reasoned theodicy explaining why God permits suffering"
-  years: {from: 338, to: 363}
-  status: reviewed
 ---
 F6-P: the litany verified verbatim (Dem XXI.22). The stated-absence
 discipline for the vacancy's interior (Doc_08 2A-1 Layer 2) is

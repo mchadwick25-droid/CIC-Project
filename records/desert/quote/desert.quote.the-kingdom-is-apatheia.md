@@ -37,14 +37,6 @@ relations:
   target: desert.term.apatheia
 - type: associated-with
   target: desert.dw.god
-use_note:
-  means: "Evagrius's Praktikos defines the Kingdom of Heaven as the soul's apatheia with true knowledge of beings, and the Kingdom of God as knowledge of the Trinity."
-  not_for:
-    - "apatheia as apathy, or the Kingdom as only a future place"
-    - "a single definition, when the two chapters define the Kingdom of Heaven and the Kingdom of God separately"
-    - "what the desert generally believed, when it is Evagrius's own system"
-  years: {from: 385, to: 399}
-  status: reviewed
 ---
 Two consecutive chapters kept together because separating them loses the distinction they are drawn
 to make. This is also the sharpest instance of what desert.voice.craft's own thinness note warns

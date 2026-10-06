@@ -1,8 +1,7 @@
 source_file: augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt
 
 assignments:
-  - row_id: augustine_civitate-dei-14-22-lat_hoffmann-csel40-2--augustine-s-city-of-god-books-xiv-xxii-hoffmann-s-critical
-    work: "Augustine's City of God, Books XIV-XXII (Hoffmann's critical edition, CSEL 40 Pars II)"
+  - work: "Augustine's City of God, Books XIV-XXII (Hoffmann's critical edition, CSEL 40 Pars II)"
     author: augustine
     locus: "whole file, Libri XIIII-XXII, plus the work's own closing indices"
     atlas_ids:

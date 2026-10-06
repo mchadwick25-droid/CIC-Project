@@ -66,15 +66,6 @@ relations:
   target: desert.gravity.economic-embeddedness
 - type: associated-with
   target: desert.force.village-ascetic-culture
-use_note:
-  means: "Palladius reports village elders begging the virgin Piamon to meet attackers in a dispute over Nile water, and her all-night rooftop prayer instead."
-  not_for:
-    - "the miracle that follows as historical fact"
-    - "Piamon as a desert solitary, when she was a village ascetic living with her mother"
-    - "a claim that she obeyed the elders, when she refused to go out to the attackers"
-    - "her own written words, when this is speech reported by Palladius"
-  years: {from: 419, to: 420}
-  status: reviewed
 ---
 Verified verbatim against the vendored file.
 

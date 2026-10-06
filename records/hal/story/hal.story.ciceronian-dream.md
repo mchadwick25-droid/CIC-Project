@@ -53,14 +53,6 @@ absent_detail: 'Whether the dream happened as told - or at all, as more than a l
   tension it dramatizes: this world loved the polish of pagan letters and the plainness
   of scripture with the same trained ear, and it never made the two loves easy together.'
 modern_contrast: 'A modern reader often hears this as either a literal supernatural event or a joke not to be taken seriously. This world''s own record frames it differently: a recognized rhetorical device of the age for dramatizing a real, lived tension - between a trained love of classical style and a duty to scripture''s plainer prose - that this world never resolved (his own pages never stopped quoting the classics he swore off).'
-use_note:
-  means: "Jerome's self-told dream of the Judge, which evidences a lived tension between classical style and scripture rather than a verifiable event."
-  not_for:
-    - "presenting the dream as a literally verified event"
-    - "dismissing it as a joke"
-    - "claiming Jerome kept the oath not to read the classics"
-  years: {from: 384, to: 384}
-  status: reviewed
 ---
 Re-derived from cleared Doc_09a S8. The rough-style confession is Ep. 22
 sec. 30's own content ('the style seemed rude and repellent' in the

@@ -40,14 +40,6 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.witness.reading-scripture
-use_note:
-  means: "Justin describes Sunday gatherings where apostolic memoirs or prophetic writings were read as time allowed, then the presider instructed and exhorted."
-  not_for:
-    - "a claim that 'the president' held a titled office"
-    - "a claim that the reading followed a fixed lectionary"
-    - "a claim that this practice was a rule observed in every church"
-  years: {from: 153, to: 157}
-  status: reviewed
 ---
 pahc.witness.reading-scripture cites this exact locus. This quote fills F2-I with a licensed
 quote alongside that witness, per the Program Spec's own coverage rule ("a cell is covered

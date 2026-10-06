@@ -59,15 +59,6 @@ modern_contrast: >-
   throughout its own span and whose own ascetic legislation counsels
   returning runaways rather than freeing them - both facts must travel
   together, per Doc_09's own usage guidance, or not at all.
-use_note:
-  means: "Gregory of Nyssa preached that no one can price a human being who bears God's image, which evidences a lone protest in a world that kept slaves."
-  not_for:
-    - "this world's general practice or self-image on slavery"
-    - "any reception or reform that followed the sermon, since none is attested"
-    - "a verbatim line, since the familiar quotation is a paraphrase"
-    - "the image-of-God teaching in full, which sits in cappadocian.term.eikon"
-  years: {from: 372, to: 394}
-  status: reviewed
 ---
 Derived from Doc_09 entry #16 (Tier 1, as textual event). Critic Finding 5
 implemented here exactly as Doc_09's own validation cross-check records

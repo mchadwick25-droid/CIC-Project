@@ -1,8 +1,7 @@
 source_file: vedder_balthasar-hubmaier_1905.txt
 
 assignments:
-  - row_id: vedder_balthasar-hubmaier_1905--balthasar-hubmaier-the-leader-of-the-anabaptists-incl
-    work: "Balthasar Hubmaier: The Leader of the Anabaptists (incl. Appendix: full translation of Hubmaier's 'On the Sword,' 1527)"
+  - work: "Balthasar Hubmaier: The Leader of the Anabaptists (incl. Appendix: full translation of Hubmaier's 'On the Sword,' 1527)"
     author: vedder
     locus: "Appendix, pp. 273-322 (Hubmaier's own primary voice)"
     atlas_ids:

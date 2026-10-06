@@ -49,13 +49,6 @@ senses:
     something that does not dissolve when explained - a depth entered further, not a problem solved once.
 quick_meaning: Not a puzzle to solve - a depth known only from inside.
 distortion_risk: high
-use_note:
-  means: "Mysterion meant a depth known only from inside through formation, neither an unsolved puzzle nor a secret reserved for an inner circle."
-  not_for:
-    - "describing it as a puzzle that explanation will eventually dissolve"
-    - "presenting it as secret teaching reserved for insiders"
-  years: {from: 180, to: 254}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex040, "Mystery / Mysterion") at Mark's direction,
 as a draft, not a final version. The old record's citation of Ignatius of Antioch is omitted here since

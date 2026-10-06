@@ -128,15 +128,6 @@ manifestations:
 - the Maximianist suppression's reported Circumcellion involvement - itself hostile-mediated and not independently
   confirming character
 - the character-and-conduct portrait itself, which survives only in hostile polemic and is left contested
-use_note:
-  means: "Within Numidia only, the agonistici are a supporting pattern whose bare existence imperial law attests, whose name comes only through Augustine, and whose character and scale come through hostile sources."
-  not_for:
-    - "a claim that the agonistici are a supporting pattern for the Donatist world as a whole"
-    - "a claim that the group's character and scale are established by independent evidence"
-    - "a claim that the name agonistici is independently attested rather than reported by Augustine"
-    - "a claim about the Maximianist reception itself, which sits in don.gravity.rigor-against-reception; only the group's reported part in the suppression belongs here"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate D-A, generated at SS1 with HIGH Author-Gravity risk
 flagged, tested at SS3.5, classified Supporting and scope-qualified at SS3.5's own Disposition and
@@ -150,15 +141,16 @@ confirming this candidate's character. Both carried as associated-with, with SS6
 qualifier carried in the description above rather than dropped. NOT CARRIED: Doc_04 SS6's prose
 names no relationship between this candidate and G1, G2, G3, G4, or T1. Those pairs are absent from
 the prose summary rather than declared absent; none is manufactured here. FORCES-CONNECTION (Doc_08
-SS5, Force Index row D-A: 2A-1, 2B-4): both carried as associated-with. Doc_08 reads the
+SS5, Force Index row D-A: 2A-1, 2B-4): both carried as associated-with. Doc_08 Open Item 2 reads the
 narrowness of this count deliberately - two connections, narrower than every Primary or Supporting
 gravity's own count - as CONSISTENT WITH, not contradicting, Doc_04 SS3.5's finding that this
 candidate carries the sharpest confidence divergence in the whole gravity-discovery document, and
 explicitly declines to manufacture additional force connections to bring the count closer to its
-peers. This record makes the same refusal. UNDECIDED (Doc_04 SS7): whether this
-phenomenon's regional concentration in Numidia reflects a genuine sub-ecology worth its own
-dedicated treatment, or is simply this world's own Numidian strength expressing itself in one
-further, evidentially thin way. Doc_04 names the question and does not decide it. A SEPARATE, POPULATION-LEVEL LIMIT NAMED BY DOC_04 SS5 AND
+peers. This record makes the same refusal. STANDING OPEN ITEM CARRIED FORWARD, NOT RESOLVED (Doc_04
+SS7): whether this phenomenon's regional concentration in Numidia reflects a genuine sub-ecology
+worth its own dedicated treatment at a later construction stage, or is simply this world's own
+Numidian strength expressing itself in one further, evidentially thin way. Doc_04 names it for
+Doc_05's judgment and does not decide it. A SEPARATE, POPULATION-LEVEL LIMIT NAMED BY DOC_04 SS5 AND
 KEPT HERE: the Cross-Voice Test is a source-mediation test, not a population-mediation one, and
 Doc_04 does not claim it covers the question of whether a different population or sub-group might
 organise around different gravities. The one place genuine population or regional variation surfaces

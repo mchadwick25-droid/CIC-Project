@@ -1,7 +1,7 @@
 """Hermetic tests for engine.m1.gates.gate_readability / gate_readability_fleet:
 the facilitator-spoken role (modern_term.modern_sense/distinguishing_claim,
 spoken by the Facilitator, never the world's own voice) and the fleet/world
-split (fleet_voice and modern_term are fleet records, never
+split (fleet_voice and modern_term both live under records/_fleet/, never
 inside any world's own records dict - gate_readability stays world-scoped,
 gate_readability_fleet is its dedicated fleet-scoped twin, so fleet content
 is graded exactly once rather than once per world)."""

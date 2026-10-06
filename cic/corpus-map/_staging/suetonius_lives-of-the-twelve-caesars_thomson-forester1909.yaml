@@ -1,8 +1,7 @@
 source_file: suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt
 
 assignments:
-  - row_id: suetonius_lives-of-the-twelve-caesars_thomson-forester1909--the-lives-of-the-twelve-caesars
-    work: "The Lives of the Twelve Caesars"
+  - work: "The Lives of the Twelve Caesars"
     author: suetonius
     locus: "Life of Claudius 25.4 (the 'Chrestus' expulsion notice, c. 49 CE) and Life of Nero 16.2 (Christians
       punished, listed among public-order measures)"

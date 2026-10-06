@@ -30,14 +30,6 @@ concedes: A real tradition of learned Christian teaching in Alexandria across th
   continuity before Origen's era. The world is therefore anchored on the tradition, not the institution.
 divergence_partners:
 - alx.source.eusebius-historia-ecclesiastica
-use_note:
-  means: "The claim of a formal Alexandrian school with an unbroken line of heads from Pantaenus onward is contested, resting almost entirely on Eusebius."
-  not_for:
-    - "presenting a continuous school as an established institution"
-    - "speaking of the School as documented rather than of a teaching tradition"
-    - "saying Clement headed a formal school"
-  years: {from: 180, to: 265}
-  status: reviewed
 ---
 Carried from the prior build's Contested finding (its Doc_01/Doc_02
 line, cleared through review), re-anchored: the HIGH author-gravity

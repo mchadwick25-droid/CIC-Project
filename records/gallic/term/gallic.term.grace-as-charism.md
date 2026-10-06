@@ -110,15 +110,6 @@ quick_meaning: >-
   Our other sense of "grace" - a gift or power a saint holds, more or less. Martin's cures, a
   father's prophecy. It can be lost and repaired. Not the grace that saves.
 distortion_risk: high
-use_note:
-  means: "Grace as charism meant a bestowed power, such as healing or prophecy, that a saint holds more or less of and can lose and repair, not saving grace."
-  not_for:
-    - "the grace of the Massilian argument, which sits in gallic.term.grace"
-    - "charisma, or modern charismatic gifts"
-    - "the saint's power as such, which sits in gallic.term.virtus"
-    - "one doctrine of grace common to Martin's healing and Cassian's argument"
-  years: {from: 397, to: 435}
-  status: reviewed
 ---
 Built from Doc_06 entry 048 (`galliclex048_grace-as-charism.md`, Tier 2, tags SC DR TC; Doc_03
 6.2). Doc_06 sections 2.2 and 2.5 require this term to be "developed alongside 008 and held

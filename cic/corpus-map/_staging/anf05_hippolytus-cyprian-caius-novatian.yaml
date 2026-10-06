@@ -38,8 +38,7 @@ authors_ruled:
 
       '
 assignments:
-- row_id: anf05_hippolytus-cyprian-caius-novatian--the-refutation-of-all-heresies-philosophumena
-  work: The Refutation of All Heresies (Philosophumena)
+- work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
   locus: div2 3.3 - Books I, IV-X (II-III lost)
   atlas_ids:
@@ -56,8 +55,7 @@ assignments:
     row.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--the-refutation-of-all-heresies-philosophumena-2
-  work: The Refutation of All Heresies (Philosophumena)
+- work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
   locus: div2 3.3 - Books I, IV-X (II-III lost)
   atlas_ids:
@@ -76,8 +74,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: anf05_hippolytus-cyprian-caius-novatian--the-refutation-of-all-heresies-philosophumena-3
-  work: The Refutation of All Heresies (Philosophumena)
+- work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
   locus: div2 3.3
   atlas_ids:
@@ -89,8 +86,7 @@ assignments:
     before he wrote. Needs a ruling on where the early 3rd-c. Roman church files - the same
     gap affects Caius and (differently) Novatian. Points to the census entry added for this
     movement in the meantime.
-- row_id: anf05_hippolytus-cyprian-caius-novatian--treatise-on-christ-and-antichrist
-  work: Treatise on Christ and Antichrist
+- work: Treatise on Christ and Antichrist
   author: hippolytus
   locus: div2 3.4, 'Dogmatical and Historical' - Treatise on Christ and Antichrist
   atlas_ids:
@@ -100,8 +96,7 @@ assignments:
   note: The one complete treatise in the extant-works section; early Christian eschatology
     from Rome, c. 200. needs-ruling only for the shelf - no census home for Hippolytus (see
     Refutation row). Points to the census entry added for this movement in the meantime.
-- row_id: anf05_hippolytus-cyprian-caius-novatian--against-the-heresy-of-one-noetus
-  work: Against the Heresy of One Noetus
+- work: Against the Heresy of One Noetus
   author: hippolytus
   locus: div2 3.4, 'Dogmatical and Historical' - Against the Heresy of One Noetus
   atlas_ids:
@@ -112,8 +107,7 @@ assignments:
     (Noetians/Sabellians), so the work it argues against has no bucket either - flagged; shelved
     with its author's needs-ruling home. Points to the census entry added for this movement
     in the meantime.
-- row_id: anf05_hippolytus-cyprian-caius-novatian--exegetical-fragments-of-hippolytus
-  work: Exegetical fragments of Hippolytus
+- work: Exegetical fragments of Hippolytus
   author: hippolytus
   locus: div2 3.4, 'Exegetical' - fragments on Hexaemeron through Matthew and Luke (assigned
     as one body)
@@ -125,8 +119,7 @@ assignments:
     as one body per the granularity rule for fragment collections. Shelf needs-ruling as for
     all Hippolytus (no census home). Points to the census entry added for this movement in
     the meantime.
-- row_id: anf05_hippolytus-cyprian-caius-novatian--dogmatical-and-historical-fragments-of-hippolytus-incl
-  work: Dogmatical and historical fragments of Hippolytus (incl. Against Plato, Against Beron
+- work: Dogmatical and historical fragments of Hippolytus (incl. Against Plato, Against Beron
     and Helix, On the Holy Theophany, Expository Treatise Against the Jews)
   author: hippolytus
   locus: div2 3.4, 'Dogmatical and Historical' - remaining pieces, assigned as one body
@@ -138,8 +131,7 @@ assignments:
     Helix is generally held later; the Theophany discourse is questioned). One body per the
     fragment-collection rule; shelf needs-ruling as for all Hippolytus. Points to the census
     entry added for this movement in the meantime.
-- row_id: anf05_hippolytus-cyprian-caius-novatian--appendix-to-the-works-of-hippolytus-dubious-and-spurious
-  work: Appendix to the Works of Hippolytus (dubious and spurious pieces)
+- work: Appendix to the Works of Hippolytus (dubious and spurious pieces)
   author: hippolytus
   locus: div2 3.5 - incl. discourse on the end of the world, lists of the Twelve and Seventy
     Apostles, canons ascribed to Hippolytus
@@ -161,8 +153,7 @@ assignments:
     The two together say the whole truth - where it sits, and what it is - without re-attributing
     anything. The spurious corpora could instead be detached from their attributed authors
     in a future pass, if that reading is preferred.'
-- row_id: anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr
-  work: The Life and Passion of Cyprian, Bishop and Martyr
+- work: The Life and Passion of Cyprian, Bishop and Martyr
   author: pontius
   locus: div2 4.3
   atlas_ids:
@@ -174,8 +165,7 @@ assignments:
     entry''s Carthage 240s-430 range.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian
-  work: The Epistles of Cyprian
+- work: The Epistles of Cyprian
   author: cyprian
   locus: 'div2 4.4 - 82 epistles, assigned as one body (includes letters TO Cyprian: Roman
     clergy, Cornelius, the confessors, Firmilian)'
@@ -193,8 +183,7 @@ assignments:
     attributes the whole body to cyprian.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2
-  work: The Epistles of Cyprian
+- work: The Epistles of Cyprian
   author: cyprian
   locus: div2 4.4
   atlas_ids:
@@ -210,8 +199,7 @@ assignments:
     The rule the antecedent role carries: an antecedent assignment requires that the entry''s
     own vendored sources argue from the text. Measured here rather than asserted - Augustine''s
     On Baptism, Against the Donatists names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
-- row_id: anf05_hippolytus-cyprian-caius-novatian--epistle-lxxiv-anf-older-numbering-lxxv-modern-csel-hartel
-  work: 'Epistle LXXIV (ANF/older numbering) / LXXV (modern CSEL-Hartel numbering) - Firmilian,
+- work: 'Epistle LXXIV (ANF/older numbering) / LXXV (modern CSEL-Hartel numbering) - Firmilian,
     Bishop of Caesarea in Cappadocia, to Cyprian, Against the Letter of Stephen. A.D. 256'
   author: cyprian
   locus: div3 "Epistle LXXIV" (id iv.iv.lxxiv), inside the div2 4.4 Epistles-of-Cyprian body
@@ -233,8 +221,7 @@ assignments:
     under both numberings ("Epistle 74 in the ANF/older numbering, Epistle 75 in the modern
     CSEL/Hartel numbering; cite both forms") - both carried in `work:` above so a reader searching
     either number finds this row.'
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate
-  work: On the Unity of the Church (De Unitate)
+- work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
   atlas_ids:
@@ -245,8 +232,7 @@ assignments:
     and Felicissimus crises.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2
-  work: On the Unity of the Church (De Unitate)
+- work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
   atlas_ids:
@@ -257,8 +243,7 @@ assignments:
     text, and it was written against the Novatianist schism among others. `role: antecedent`
     for donatism: both sides of that controversy argued from this text and Augustine''s On
     Baptism works through it at length; Cyprian himself predates the schism by fifty years.'
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-3
-  work: On the Unity of the Church (De Unitate)
+- work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
   atlas_ids:
@@ -270,8 +255,7 @@ assignments:
     for novatianism. The two targets needed DIFFERENT relations, so the row is split - Cyprian
     is the authority Donatism claimed, and a contemporary opponent of the Novatian schism he
     lived through. One work, two relations, two rows.'
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-dress-of-virgins-de-habitu-virginum
-  work: On the Dress of Virgins (De Habitu Virginum)
+- work: On the Dress of Virgins (De Habitu Virginum)
   author: cyprian
   locus: div3 under 4.5 - Treatise II
   atlas_ids:
@@ -281,8 +265,7 @@ assignments:
   note: 'Pastoral discipline for consecrated virgins, following Tertullian''s dress treatises.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis
-  work: On the Lapsed (De Lapsis)
+- work: On the Lapsed (De Lapsis)
   author: cyprian
   locus: div3 under 4.5 - Treatise III
   atlas_ids:
@@ -293,8 +276,7 @@ assignments:
     document of the penitential controversy that runs through Novatianism and later Donatism.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2
-  work: On the Lapsed (De Lapsis)
+- work: On the Lapsed (De Lapsis)
   author: cyprian
   locus: div3 under 4.5 - Treatise III
   atlas_ids:
@@ -309,8 +291,7 @@ assignments:
     antecedent role carries: an antecedent assignment requires that the entry''s own vendored
     sources argue from the text. Measured here rather than asserted - Augustine''s On Baptism,
     Against the Donatists names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-lord-s-prayer-de-dominica-oratione
-  work: On the Lord's Prayer (De Dominica Oratione)
+- work: On the Lord's Prayer (De Dominica Oratione)
   author: cyprian
   locus: div3 under 4.5 - Treatise IV
   atlas_ids:
@@ -320,8 +301,7 @@ assignments:
   note: 'Catechetical-pastoral exposition, dependent on Tertullian''s De Oratione.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum
-  work: An Address to Demetrianus (Ad Demetrianum)
+- work: An Address to Demetrianus (Ad Demetrianum)
   author: cyprian
   locus: div3 under 4.5 - Treatise V
   atlas_ids:
@@ -332,8 +312,7 @@ assignments:
     from inside the Latin pastoral world.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum-2
-  work: An Address to Demetrianus (Ad Demetrianum)
+- work: An Address to Demetrianus (Ad Demetrianum)
   author: cyprian
   locus: div3 under 4.5 - Treatise V
   atlas_ids:
@@ -347,8 +326,7 @@ assignments:
     - squarely the genre this entry exists to hold, not merely an adjacent congregational text.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint
-  work: On the Vanity of Idols (Quod Idola Dii Non Sint)
+- work: On the Vanity of Idols (Quod Idola Dii Non Sint)
   author: cyprian
   locus: div3 under 4.5 - Treatise VI
   atlas_ids:
@@ -359,8 +337,7 @@ assignments:
     it is transmitted in the Cyprianic corpus and CCEL prints it among the genuine treatises.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint-2
-  work: On the Vanity of Idols (Quod Idola Dii Non Sint)
+- work: On the Vanity of Idols (Quod Idola Dii Non Sint)
   author: cyprian
   locus: div3 under 4.5 - Treatise VI
   atlas_ids:
@@ -374,8 +351,7 @@ assignments:
     its own authorship stays contested.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-mortality-de-mortalitate
-  work: On the Mortality (De Mortalitate)
+- work: On the Mortality (De Mortalitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise VII
   atlas_ids:
@@ -386,8 +362,7 @@ assignments:
     of epidemic, mortality and hope.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-works-and-alms-de-opere-et-eleemosynis
-  work: On Works and Alms (De Opere et Eleemosynis)
+- work: On Works and Alms (De Opere et Eleemosynis)
   author: cyprian
   locus: div3 under 4.5 - Treatise VIII
   atlas_ids:
@@ -397,8 +372,7 @@ assignments:
   note: 'Almsgiving as the congregation''s practical piety.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-advantage-of-patience-de-bono-patientiae
-  work: On the Advantage of Patience (De Bono Patientiae)
+- work: On the Advantage of Patience (De Bono Patientiae)
   author: cyprian
   locus: div3 under 4.5 - Treatise IX
   atlas_ids:
@@ -408,8 +382,7 @@ assignments:
   note: 'Written amid the baptismal controversy with Rome; reworks Tertullian''s De Patientia.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-jealousy-and-envy-de-zelo-et-livore
-  work: On Jealousy and Envy (De Zelo et Livore)
+- work: On Jealousy and Envy (De Zelo et Livore)
   author: cyprian
   locus: div3 under 4.5 - Treatise X
   atlas_ids:
@@ -419,8 +392,7 @@ assignments:
   note: 'Pastoral treatise against rivalry in the congregation.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--exhortation-to-martyrdom-addressed-to-fortunatus-ad
-  work: Exhortation to Martyrdom, Addressed to Fortunatus (Ad Fortunatum)
+- work: Exhortation to Martyrdom, Addressed to Fortunatus (Ad Fortunatum)
   author: cyprian
   locus: div3 under 4.5 - Treatise XI
   atlas_ids:
@@ -430,8 +402,7 @@ assignments:
   note: 'Scripture testimonies arming the congregation for the Valerianic persecution.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--three-books-of-testimonies-against-the-jews-ad-quirinum
-  work: Three Books of Testimonies Against the Jews (Ad Quirinum)
+- work: Three Books of Testimonies Against the Jews (Ad Quirinum)
   author: cyprian
   locus: div3 under 4.5 - Treatise XII
   atlas_ids:
@@ -442,8 +413,7 @@ assignments:
     method in 3rd-c. Africa. Adversus-Judaeos framing noted for later readers.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism
-  work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
+- work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
   author: cyprian
   locus: div2 4.6 - sententiae of the 87 bishops, September 256
   atlas_ids:
@@ -455,8 +425,7 @@ assignments:
     to him; noted here so the collective character is not lost.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2
-  work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
+- work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
   author: cyprian
   locus: div2 4.6
   atlas_ids:
@@ -472,8 +441,7 @@ assignments:
     assignment requires that the entry''s own vendored sources argue from the text. Measured
     here rather than asserted - Augustine''s On Baptism, Against the Donatists names Cyprian
     306 times, Agrippinus 28, in 92,000 words.'
-- row_id: anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on
-  work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
+- work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
     the Glory of Martyrdom; Of the Discipline and Advantage of Chastity; Exhortation to Repentance)
   author: cyprian
   locus: div2 4.7 - four pieces, assigned as one body
@@ -496,8 +464,7 @@ assignments:
     by definition. The two together say the whole truth - where it sits, and what it is -
     without re-attributing anything. The spurious corpora could instead be detached from their
     attributed authors in a future pass, if that reading is preferred.'
-- row_id: anf05_hippolytus-cyprian-caius-novatian--fragments-of-caius-dialogue-against-proclus-against-the
-  work: Fragments of Caius (Dialogue Against Proclus; Against the Heresy of Artemon; Canon
+- work: Fragments of Caius (Dialogue Against Proclus; Against the Heresy of Artemon; Canon
     Muratorianus)
   author: caius
   locus: div2 5.3 - three fragment groups, assigned as one body
@@ -512,8 +479,7 @@ assignments:
     targets adoptionist Monarchianism, which has no census entry. Shelf shares the Hippolytus
     problem (Rome just after pahc''s 200 CE line) - provisional. Caius is a Roman presbyter
     of exactly these decades, and roman-church-third-century holds them.'
-- row_id: anf05_hippolytus-cyprian-caius-novatian--a-treatise-of-novatian-concerning-the-trinity
-  work: A Treatise of Novatian Concerning the Trinity
+- work: A Treatise of Novatian Concerning the Trinity
   author: novatian
   locus: div2 6.3
   atlas_ids:
@@ -528,8 +494,7 @@ assignments:
     source-research pass on that world''s (I.33) sourcing gaps.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-jewish-meats-de-cibis-judaicis
-  work: On the Jewish Meats (De Cibis Judaicis)
+- work: On the Jewish Meats (De Cibis Judaicis)
   author: novatian
   locus: div2 6.4
   atlas_ids:
@@ -539,8 +504,7 @@ assignments:
   note: 'Pastoral letter on the food laws, written in retirement during persecution.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-against-the-heretic-novatian
-  work: Anonymous Treatise Against the Heretic Novatian
+- work: Anonymous Treatise Against the Heretic Novatian
   author: anonymous-against-novatian
   locus: div2 7.3
   atlas_ids:
@@ -554,8 +518,7 @@ assignments:
     marks apparatus, but is an ancient text, kept.
 
     '
-- row_id: anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-on-re-baptism-de-rebaptismate
-  work: Anonymous Treatise on Re-baptism (De Rebaptismate)
+- work: Anonymous Treatise on Re-baptism (De Rebaptismate)
   author: anonymous-on-rebaptism
   locus: div2 7.4
   atlas_ids:

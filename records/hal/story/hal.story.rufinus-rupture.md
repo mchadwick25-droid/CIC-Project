@@ -55,14 +55,6 @@ absent_detail: 'What the quarrel was REALLY about - doctrine, or wounded honor w
   not decide it. Rufinus''s side of the earlier friendship (his letters to Jerome) does
   not survive; the friendship itself is attested mostly in the record of its destruction.'
 modern_contrast: 'A modern reader often hears this as either a petty personal feud dressed up in theology or a purely abstract doctrinal dispute between scholars. This world''s own record frames it differently: doctrine, personal wound, and political stakes arrived inseparably at once, and the two surviving accounts fight over which weighed more - a contest this telling deliberately does not resolve.'
-use_note:
-  means: "The permanent break between Jerome and Rufinus over Origen, documented on both sides, with the weight of doctrine against personal motive left unresolved."
-  not_for:
-    - "declaring the quarrel essentially doctrinal or essentially personal"
-    - "presenting Jerome's account as the neutral one"
-    - "giving Rufinus's lost letters to Jerome"
-  years: {from: 393, to: 403}
-  status: reviewed
 ---
 Derived from Doc_09a S3a.
 The CT contest (hal.contested.origenist-substance) is stated inside

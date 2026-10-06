@@ -351,9 +351,7 @@ function renderLegacy({ text, citations, figuresUsed = [], glosses = [] }: Voice
 // drop first, then figures, then stories, newest first. Quote marks never
 // drop - a quote mark is the one mark saying "these exact words are a
 // source's". A dropped mark still reaches the end list: inline
-// prominence is lost, never disclosure. The engine applies the same rule
-// to the finished plan (engine/m4/transparency_plan.py), so there this
-// clamp changes nothing; it still bounds the reply while it streams.
+// prominence is lost, never disclosure.
 type ElementNode = { start: number; end: number; node: React.ReactNode };
 
 function renderFromElements({ text, figuresUsed = [], glosses = [], transparency }: VoiceTurnBodyProps & { transparency: TransparencyPlan }) {

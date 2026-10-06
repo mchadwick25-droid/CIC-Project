@@ -169,27 +169,6 @@ def test_changed_paths_and_base_records_come_from_git(tmp_path):
     assert before["zzz.term.a"]["plain_meaning"] == "one"
 
 
-def test_a_record_moved_unchanged_to_its_new_home_is_not_an_edit(tmp_path):
-    _git(tmp_path, "init", "-q", "-b", "main")
-    old = tmp_path / "records" / "zzz" / "search_record"
-    old.mkdir(parents=True)
-    body = "---\nid: zzz.search.{0}\nrecord_type: search_record\nquery: {0} query text long enough to be its own\n---\n"
-    (old / "zzz.search.a.md").write_text(body.format("a"), encoding="utf-8")
-    (old / "zzz.search.b.md").write_text(body.format("b"), encoding="utf-8")
-    _git(tmp_path, "add", "-A")
-    _git(tmp_path, "commit", "-q", "-m", "base")
-    _git(tmp_path, "checkout", "-q", "-b", "work")
-    new_home = tmp_path / "Build" / "worlds" / "zzz" / "build" / "records" / "search_record"
-    new_home.mkdir(parents=True)
-    _git(tmp_path, "mv", "records/zzz/search_record/zzz.search.a.md", "Build/worlds/zzz/build/records/search_record/zzz.search.a.md")
-    _git(tmp_path, "mv", "records/zzz/search_record/zzz.search.b.md", "Build/worlds/zzz/build/records/search_record/zzz.search.b.md")
-    (new_home / "zzz.search.b.md").write_text(body.format("b") + "edited: yes\n", encoding="utf-8")
-    _git(tmp_path, "commit", "-q", "-am", "move")
-    mb = regate.resolve_merge_base(tmp_path, "main")
-    assert regate.changed_record_paths(tmp_path, "zzz", mb) == {"Build/worlds/zzz/build/records/search_record/zzz.search.b.md"}
-    assert set(regate.base_records(tmp_path, "zzz", mb)) == {"zzz.search.a", "zzz.search.b"}
-
-
 def test_an_unresolvable_base_is_a_finding_not_a_pass():
     report = regate.run_regate("syr", "no-such-ref-anywhere")
     assert not report.ok and report.findings[0].check == "base"
@@ -241,22 +220,10 @@ def test_a_waiver_for_a_required_type_on_a_new_world_is_itself_a_failure(monkeyp
     assert any(f.check == "waiver-not-allowed" for f in report.findings)
 
 
-def test_a_grandfathered_world_with_a_live_waiver_reports_the_missing_type_without_failing(monkeypatch):
-    _stub_world(monkeypatch, "zzz", [])
-    monkeypatch.setattr(regate, "GRANDFATHERED_WORLDS", frozenset({*regate.GRANDFATHERED_WORLDS, "zzz"}))
-    waivers = {f"required-record-type/zzz/{t}": "owning finding" for t in ("world_front", "facilitator_brief", "search_record")}
-    waivers["required-site-json/zzz"] = "owning finding"
-    monkeypatch.setattr(cross_world, "ACCEPTED_OPEN", {**cross_world.ACCEPTED_OPEN, **waivers})
-    report = regate.run_records("zzz")
-    assert report.ok, [f.line() for f in report.findings]
-    assert sum("waived for a grandfathered world" in n for n in report.notes) == 4
-
-
-def test_a_grandfathered_world_without_a_waiver_still_fails_for_a_missing_type(monkeypatch):
-    _stub_world(monkeypatch, "zzz", ["world_front"])
-    monkeypatch.setattr(regate, "GRANDFATHERED_WORLDS", frozenset({*regate.GRANDFATHERED_WORLDS, "zzz"}))
-    report = regate.run_records("zzz")
-    assert any(f.check == "required-record-type" and "facilitator_brief" in f.reason for f in report.findings)
+def test_a_grandfathered_world_with_a_live_waiver_reports_the_missing_type_without_failing():
+    report = regate.run_records("witt")
+    assert report.ok
+    assert sum("waived for a grandfathered world" in n for n in report.notes) == 3
 
 
 def test_the_subcommands_register_and_dispatch():

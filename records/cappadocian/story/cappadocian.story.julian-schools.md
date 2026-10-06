@@ -73,15 +73,6 @@ modern_contrast: >-
   stated argument is that a nonbeliever teaching sacred texts commits a
   kind of fraud against the students - a framing neither side's modern
   equivalents typically use.
-use_note:
-  means: "Julian, once schooled in Cappadocia, barred Christian teachers from the classics as emperor, and Gregory of Nazianzus answered with invectives, both sides surviving in their own words."
-  not_for:
-    - "Julian's measures against Caesarea as firmly attested, since they rest on weak sources"
-    - "the school law and the rescript as one settled measure, when their relationship is debated"
-    - "the experience of ordinary Christian teachers, which does not survive"
-    - "the church's inner tension over dialectic, which sits in cappadocian.gravity.athens-fishermen"
-  years: {from: 361, to: 363}
-  status: reviewed
 ---
 Derived from Doc_09 entry #14 (Tier 1). Julian is this world's clearest
 outsider-witness figure (cappadocian.figure.julian carries register:

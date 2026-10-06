@@ -15,12 +15,11 @@ doorway_description: >-
   virtue they honored discernment: the skill of judging how much any one
   person can bear.
 card_name: "Desert Fathers and Mothers"
-app: {order: 3, accent_color: "#9D893B", portrait: "/images/portraits/thumb/desert.webp"}
 representative: {name: Papnoute, role_label: "Abba (Elder)"}
 state: admitted
 census_id: "desert-monasticism"
 package:
-  manifest_hash: "sha256:9a5b8fb2bc5286c98141e9e688403d546d7ef031c17efe172deafcaf670841f3"
-  location: "packages/desert/2026-10-04T07-09-48Z"
+  manifest_hash: "sha256:dfbcb46a2c71330188c1e09ccef0f3e9f80077cc6204b8501f07f2997c192a9c"
+  location: "packages/desert/2026-10-01T15-14-10Z"
 thinness_statement: "Richest in the Apophthegmata's own elder-and-disciple sayings tradition and Antony's own Vita; thinner on ordinary participants outside the collected-sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus)."
 living_tradition_flag: true

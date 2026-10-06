@@ -95,14 +95,5 @@ quick_meaning: Contestants -- our own name for the country strivers our opponent
 distortion_risk: high
 prior_sense: 'Agonistes is a contender at the games; agonistici carries that sense of one who strives in a contest.
   The opponents'' word runs the other way: circum cellas, those who linger around the shrines.'
-use_note:
-  means: "Agonistici, 'contestants', is the name Augustine reports for the rural Numidian group opponents called Circumcellions; its existence is certain, its character unsettled."
-  not_for:
-    - "a claim that 'Circumcellion' was an accepted self-description rather than the opponents' own label"
-    - "a claim that the vivid hostile portrait is reliable because it is detailed"
-    - "a claim that this group shows what ordinary members were like outside rural Numidia; its Numidian scope is set in don.gravity.circumcellion-agonistici"
-    - "a claim that the group was a modern revolutionary or class-war movement"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Built from Doc_06 SS1 entry 018 and SS2 (the roster's sole [CT] term; contest type Meaning + Historical scope) and `Lexicon-Chunks/donlex018_agonistici.md`. formation_confidence is set to Contested rather than to the Documented existence claim so the record does not read stronger than its weakest load-bearing component; the three-way split is stated in full in divergence_note and senses.evidential, per Doc_03 SS0 and Doc_04 SS3.5.

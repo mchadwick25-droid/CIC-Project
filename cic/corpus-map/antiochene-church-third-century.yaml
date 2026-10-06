@@ -3,22 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: antiochene-church-third-century
 works:
-- row_id: john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50--in-sanctum-lucianum-martyrem
-  work: In Sanctum Lucianum Martyrem
-  author: chrysostom
-  locus: whole file
-  role: tradition
-  confidence: assigned
-  note: 'Chrysostom''s own homily on the third-century Antiochene martyr Lucian, confirmed
-    present by exact Latin header ("IN S. MARTYREM LUCIANUM"). A first identifier for this
-    same PG volume (patrologiae_cursus_completus_gr_vol_050) was found completely unusable
-    - Greek-only OCR applied to the whole bilingual page, garbling both languages - do not
-    use that identifier; this file uses a different, legible scan (patrologicursusc0050unse).
-
-    '
-  source_file: john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt
-- row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-4
-  work: The Church History of Eusebius (Historia Ecclesiastica)
+- work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — Book VII, chapters 27-29 (Paul of Samosata's heresy, the bishops assembled
     against him, and Malchion's disputation); ch. 30's own extracts from the synodal epistle
@@ -49,8 +34,7 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-book
-  work: The Church History of Eusebius (Historia Ecclesiastica), Book VIII.13 and IX.6 (the
+- work: The Church History of Eusebius (Historia Ecclesiastica), Book VIII.13 and IX.6 (the
     martyrdom of Lucian of Antioch)
   author: eusebius
   locus: Book VIII, ch. 13.2 (line 44730) and Book IX, ch. 6.3 (line 48001) - Eusebius's own
@@ -75,8 +59,7 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- row_id: npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus-ch-lxxvii
-  work: Lives of Illustrious Men (De Viris Illustribus), ch. LXXVII "Lucianus the presbyter"
+- work: Lives of Illustrious Men (De Viris Illustribus), ch. LXXVII "Lucianus the presbyter"
     (file line 40990)
   author: jerome
   locus: div2 5.3, Chapter LXXVII "Lucianus the presbyter"
@@ -98,20 +81,7 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-clement
-  work: Liturgy of S. Clement
-  author: liturgy-of-st-clement
-  locus: file lines 4820-5400
-  role: context
-  confidence: needs-ruling
-  note: 'The Clementine liturgy is Book VIII of the Apostolic Constitutions, a late 4th-century
-    Syrian compilation; the Antiochene third-century entry is the nearest match by place,
-    but the work is later than that entry''s window and has not been ruled on.
-
-    '
-  source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-malchion-in-the-name-of-the-synod-of-antioch
-  work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata
+- work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata
     (with fragments of the disputation)
   author: malchion
   locus: div2 6.10

@@ -106,15 +106,6 @@ quick_meaning: >-
   The first of all virtues, learned by orders "contrary to his liking" - the conquest of one's own
   wishes, rewarded with grace. At Tours, an authority felt without any command.
 distortion_risk: high
-use_note:
-  means: "Obedience meant the virtue Egypt's fathers put before all others, proved by hard commands and learned first by the junior as conquering his own wishes."
-  not_for:
-    - "blind obedience as the suppression of conscience"
-    - "the dry stick and the river as abuse or cult control"
-    - "whom one obeys as an office, which sits in gallic.term.elder-senior-abbot"
-    - "a documented Gallic testing of juniors by contrary orders, which the record does not hold"
-  years: {from: 397, to: 426}
-  status: reviewed
 ---
 Built from Doc_06 entry 031 (Tier 2; chunk galliclex031_obedience.md; Doc_03 3.9). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The relation to

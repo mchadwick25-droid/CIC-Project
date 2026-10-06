@@ -45,13 +45,6 @@ distortion_risk: medium
 relations:
 - type: associated-with
   target: hal.force.transmission-ongoing
-use_note:
-  means: "Jerome's combative prefaces to his translations, in which he defended his method against named critics in a single self-justifying voice."
-  not_for:
-    - "treating a preface as neutral scholarly apparatus"
-    - "treating the prefaces as independent corroboration of Jerome's claims"
-  years: {from: 382, to: 420}
-  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 13 (hal_lex13). This term's practice
 is also the transmission force hal.force.transmission-ongoing (2B-2) - the

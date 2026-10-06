@@ -46,13 +46,6 @@ text: >-
   that thanksgiving - we call it the vine of David his servant, made known to
   us through Jesus. That is the shape of it for us: a real man, really killed,
   really raised, and now the one through whom we give thanks.
-use_note:
-  means: "This world held Jesus truly human, born of Mary, crucified under Pilate, and truly raised, the one through whom thanks are given."
-  not_for:
-    - "a claim that Ignatius's repeated 'truly' was a formula shared across the whole network"
-    - "a claim that this world's members witnessed Jesus eating and drinking"
-  years: {from: 80, to: 180}
-  status: reviewed
 ---
 Re-derived from source material verified directly against the vendored
 corpus. The "truly" chain follows Ignatius, Trallians 9, almost word

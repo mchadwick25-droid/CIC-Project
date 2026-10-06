@@ -3,8 +3,7 @@
 source_file: calvin_geneva-catechism_waterman1815.txt
 
 assignments:
-  - row_id: calvin_geneva-catechism_waterman1815--the-catechism-of-the-church-of-geneva
-    work: The Catechism of the Church of Geneva
+  - work: The Catechism of the Church of Geneva
     author: calvin
     locus: "whole file"
     atlas_ids:

@@ -94,13 +94,6 @@ senses:
     own bequest received by heirs, never a work rendered to God.'
 quick_meaning: God's word, given first. At the altar, a gift we receive, never a sacrifice we offer.
 distortion_risk: high
-use_note:
-  means: "Promise and testament meant God's word given first, which at the altar is a testament left by one about to die, received and never offered back as a sacrifice."
-  not_for:
-    - "'promise' as a hope for the future, or 'testament' as a book of the Bible"
-    - "the Supper's whole doctrine, which sits in witt.term.sacrament-of-the-altar"
-  years: {from: 1520, to: 1531}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.7 (promise / testament, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][TC][DR][RT]. Author Gravity: none -- the testament argument is the founder's own; 'promise' is confessional too. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

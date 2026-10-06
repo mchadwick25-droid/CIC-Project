@@ -41,14 +41,6 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.dw.death-wish
-use_note:
-  means: "Athanasius records that Antony longed for martyrdom under Maximinus, served confessors in mines and prisons, and stood conspicuously before the governor without giving himself up."
-  not_for:
-    - "simple heroism or a pathological death wish"
-    - "approval of volunteering for martyrdom, which Antony refused"
-    - "the SS8-9 tomb combat with demons, which is a different episode"
-  years: {from: 303, to: 311}
-  status: reviewed
 ---
 This record fills canon cell F6-E. desert.dw.death-wish alone serves this cell, citing the combat
 sections for spiritual-warfare vocabulary, with nothing quotable at the point the cell's own

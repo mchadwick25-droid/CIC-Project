@@ -41,14 +41,6 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.dw.was-jesus-god
-use_note:
-  means: "Jerome's 384 letter to the young Eustochium casts prayer and reading as conversation with Christ the Bridegroom, in imagery taken from the Song of Songs."
-  not_for:
-    - "a claim that 'sport' carries a sexual meaning in the modern sense"
-    - "a doctrinal definition of Christ rather than devotional exhortation"
-    - "a description of every member's prayer life rather than Jerome's counsel to one consecrated virgin"
-  years: {from: 384, to: 384}
-  status: reviewed
 ---
 Opened for C-T, which hal.dw.was-jesus-god served alone with no quote. That witness
 cites this exact locus for "devotion to Christ as Lord and Bridegroom" and could not show it.

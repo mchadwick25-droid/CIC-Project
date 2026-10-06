@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: imperial-juridical-christianity
 works:
-- row_id: npnf210_ambrose--exposition-of-the-christian-faith-de-fide
-  work: Exposition of the Christian Faith (De Fide)
+- work: Exposition of the Christian Faith (De Fide)
   author: ambrose
   locus: div2 4.4 — Exposition of the Christian Faith
   role: tradition
@@ -15,8 +14,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf210_ambrose--selections-from-the-letters-of-st-ambrose-with-the-sermon
-  work: Selections from the Letters of St. Ambrose (with the Sermon Against Auxentius)
+- work: Selections from the Letters of St. Ambrose (with the Sermon Against Auxentius)
   author: ambrose
   locus: div1 5, div2 5.2 and 5.4-5.15 (5.1/5.3, Symmachus' Memorial, split out below)
   role: tradition
@@ -29,8 +27,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: ammianus-marcellinus_roman-history_yonge1862--res-gestae-book-xxvii-3-the-366-basilica-election-riot
-  work: Res Gestae, Book XXVII.3 - the 366 basilica election riot between Damasus's and Ursinus's
+- work: Res Gestae, Book XXVII.3 - the 366 basilica election riot between Damasus's and Ursinus's
     parties
   author: ammianus-marcellinus
   locus: Res Gestae XXVII.3.12-13 (file lines 23186-23187 for the casualty figure; the whole
@@ -55,8 +52,7 @@ works:
 
     '
   source_file: ammianus-marcellinus_roman-history_yonge1862.txt
-- row_id: optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i-2
-  work: Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)
+- work: Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)
   author: anti-donatist-dossier
   locus: as above
   role: tradition
@@ -69,8 +65,7 @@ works:
 
     '
   source_file: optatus_against-the-donatists.txt
-- row_id: npnf214_seven-ecumenical-councils--the-apostolical-canons
-  work: The Apostolical Canons
+- work: The Apostolical Canons
   author: apostolic-canons
   locus: div2 17.3-17.4 — The Canons of the Holy and Altogether August Apostles
   role: tradition
@@ -83,8 +78,7 @@ works:
     is added alongside for the pseudo-apostolic character. ijc is kept - these functioned
     as church law in the imperial-era East, which is what this entry is.
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf204_athanasius--apology-to-the-emperor-apologia-ad-constantium
-  work: Apology to the Emperor (Apologia ad Constantium)
+- work: Apology to the Emperor (Apologia ad Constantium)
   author: athanasius
   locus: div1 18 — Apologia ad Constantium (357)
   role: tradition
@@ -95,8 +89,7 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf204_athanasius--arian-history-historia-arianorum-ad-monachos
-  work: Arian History (Historia Arianorum ad Monachos)
+- work: Arian History (Historia Arianorum ad Monachos)
   author: athanasius
   locus: div1 20 — Historia Arianorum (358)
   role: tradition
@@ -109,8 +102,7 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf102_augustine-city-of-god-christian-doctrine--city-of-god-2
-  work: City of God
+- work: City of God
   author: augustine
   locus: div1 4 — City of God, esp. Books I-V and XIX
   role: tradition
@@ -123,8 +115,7 @@ works:
 
     '
   source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
-- row_id: npnf101_augustine-confessions-letters--the-confessions-4
-  work: The Confessions
+- work: The Confessions
   author: augustine
   locus: div1 6 — The Confessions, Book IX ch. 7 ONLY
   role: context
@@ -147,8 +138,7 @@ works:
 
     '
   source_file: npnf101_augustine-confessions-letters.xml
-- row_id: npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum-2
-  work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
+- work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
   author: augustine
   locus: div2 5.6 — The Correction of the Donatists
   role: tradition
@@ -159,8 +149,7 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- row_id: npnf214_seven-ecumenical-councils--the-canonical-epistles-of-the-fathers-received-by-trullo
-  work: The Canonical Epistles of the Fathers received by Trullo Canon II
+- work: The Canonical Epistles of the Fathers received by Trullo Canon II
   author: canonical-epistles-fathers
   locus: div2 17.5-17.32 — Dionysius of Alexandria, Peter of Alexandria, Gregory Thaumaturgus,
     Athanasius, Basil (the canonical epistles to Amphilochius), Gregory of Nyssa, Gregory
@@ -187,8 +176,7 @@ works:
     only their authors'' home entries - one row for what the East received, twelve for who
     wrote it.'
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de
-  work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
+- work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian
   locus: div2 4.7 — The Seven Books on the Incarnation
   role: tradition
@@ -206,8 +194,7 @@ works:
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- row_id: fleet-sweep-additions-npnf111--homilies-on-the-epistle-to-the-romans-homily-xxiii-on-romans
-  work: Homilies on the Epistle to the Romans, Homily XXIII (on Romans 13:1)
+- work: Homilies on the Epistle to the Romans, Homily XXIII (on Romans 13:1)
   author: chrysostom
   locus: Homily XXIII at file line 53993 - "Let every soul be subject unto the higher powers",
     and the distinction between authority as such and any particular ruler
@@ -229,8 +216,7 @@ works:
 
     '
   source_file: npnf111_chrysostom-homilies-acts-romans.xml
-- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-st-chrysostom-to-innocent-bishop-of-rome
-  work: Letters of St. Chrysostom to Innocent, Bishop of Rome
+- work: Letters of St. Chrysostom to Innocent, Bishop of Rome
   author: chrysostom
   locus: div1 18, div2 18.3-18.4 — Chrysostom's two letters to Innocent
   role: tradition
@@ -240,8 +226,7 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-st-chrysostom-to-olympias-with-letter-to-the
-  work: Letters of St. Chrysostom to Olympias (with letter to the presbyters of Antioch)
+- work: Letters of St. Chrysostom to Olympias (with letter to the presbyters of Antioch)
   author: chrysostom
   locus: div1 17 — Letters to Olympias (div2 17.3-17.7) and to Castus, Valerius, Diophantus,
     Cyriacus, Presbyters of Antioch (17.8)
@@ -254,8 +239,7 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--the-homilies-on-the-statues-to-the-people-of-antioch
-  work: The Homilies on the Statues to the People of Antioch
+- work: The Homilies on the Statues to the People of Antioch
   author: chrysostom
   locus: div1 19 — Homilies I-XXI, one series preached at Antioch after the riot of 387; assigned
     as one work
@@ -269,8 +253,7 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--two-homilies-on-eutropius
-  work: Two Homilies on Eutropius
+- work: Two Homilies on Eutropius
   author: chrysostom
   locus: div1 15 — Homilies I-II on Eutropius
   role: tradition
@@ -283,8 +266,7 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- row_id: npnf201_eusebius-church-history-life-of-constantine--the-oration-of-constantine-to-the-assembly-of-the-saints
-  work: The Oration of Constantine to the Assembly of the Saints
+- work: The Oration of Constantine to the Assembly of the Saints
   author: constantine
   locus: div2 4.7 — The Oration of Constantine
   role: tradition
@@ -296,8 +278,7 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-ancyra
-  work: The Canons of the Council of Ancyra
+- work: The Canons of the Council of Ancyra
   author: council-of-ancyra
   locus: div2 8.3 — The Council of Ancyra
   role: tradition
@@ -308,8 +289,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-council-of-chalcedon-451-extracts-from-the-acts
-  work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
+- work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
   locus: div1 11 — acts extracts, Definition 11.13, canons 11.18 (the Tome split out below)
   role: tradition
@@ -321,8 +301,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons
-  work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
+- work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9 — creed 9.3, letter to Theodosius 9.6, canons 9.8, synodical letter 9.9
   role: tradition
@@ -333,8 +312,7 @@ works:
     Canon 1 condemns Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians as
     separate parties; each now has its own entry and this work is the record of all of them.'
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-constantinople-under-nectarius
-  work: The Canons of the Council of Constantinople under Nectarius (394)
+- work: The Canons of the Council of Constantinople under Nectarius (394)
   author: council-of-constantinople-394
   locus: div2 15.5 — Council of Constantinople held under Nectarius
   role: tradition
@@ -344,8 +322,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-council-of-ephesus-431-extracts-from-the-acts-decree
-  work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
+- work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
   author: council-of-ephesus-431
   locus: div1 10 — acts extracts, decree against Nestorius 10.11, Coelestine's letter 10.13,
     canons 10.16 (Cyril's epistles split out below)
@@ -359,8 +336,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-gangra
-  work: The Canons of the Council of Gangra
+- work: The Canons of the Council of Gangra
   author: council-of-gangra
   locus: div2 8.5 — The Council of Grangra (sic)
   role: tradition
@@ -370,8 +346,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-neocaesarea
-  work: The Canons of the Council of Neocaesarea
+- work: The Canons of the Council of Neocaesarea
   author: council-of-neocaesarea
   locus: div2 8.4 — The Council of Neocaesarea
   role: tradition
@@ -380,8 +355,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-nicaea-325-creed-canons-synodal-letter
-  work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
+- work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
   author: council-of-nicaea-325
   locus: div1 7 — creed 7.3, canons 7.6, synodal letter 7.9, Easter ruling 7.10 (excursuses
     are Percival's, skipped)
@@ -394,8 +368,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-sardica
-  work: The Canons of the Council of Sardica
+- work: The Canons of the Council of Sardica
   author: council-of-sardica
   locus: div2 15.3 — The Council of Sardica
   role: tradition
@@ -407,8 +380,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-epistles-of-cyril-of-alexandria-second-and-third-letters
-  work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
+- work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
     Anathematisms, and the Letter to John of Antioch)
   author: cyril_alexandria
   locus: div2 10.5, 10.8-10.9, 11.5 — split out of the Ephesus and Chalcedon acts as the works
@@ -422,8 +394,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf204_athanasius--letter-of-eusebius-of-caesarea-to-his-flock-epistola-eusebii
-  work: Letter of Eusebius of Caesarea to his flock (Epistola Eusebii)
+- work: Letter of Eusebius of Caesarea to his flock (Epistola Eusebii)
   author: eusebius
   locus: div1 9 — Letter of Eusebius
   role: context
@@ -438,8 +409,7 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica
-  work: The Church History of Eusebius (Historia Ecclesiastica)
+- work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — The Church History of Eusebius (Books I-X)
   role: tradition
@@ -452,8 +422,7 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- row_id: npnf201_eusebius-church-history-life-of-constantine--the-life-of-constantine-vita-constantini
-  work: The Life of Constantine (Vita Constantini)
+- work: The Life of Constantine (Vita Constantini)
   author: eusebius
   locus: div2 4.6 — The Life of Constantine, Books I-IV
   role: tradition
@@ -464,8 +433,7 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- row_id: npnf201_eusebius-church-history-life-of-constantine--the-oration-of-eusebius-in-praise-of-constantine-de-laudibus
-  work: The Oration of Eusebius (In Praise of Constantine, De Laudibus Constantini)
+- work: The Oration of Eusebius (In Praise of Constantine, De Laudibus Constantini)
   author: eusebius
   locus: div2 4.8 — The Oration of Eusebius
   role: tradition
@@ -475,8 +443,7 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- row_id: npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils-3
-  work: De Synodis (On the Councils)
+- work: De Synodis (On the Councils)
   author: hilary_poit
   locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
   role: context
@@ -502,8 +469,7 @@ works:
 
     '
   source_file: npnf209_hilary-poitiers-john-damascus.xml
-- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-innocent-of-rome-concerning-chrysostom
-  work: Letters of Innocent of Rome concerning Chrysostom
+- work: Letters of Innocent of Rome concerning Chrysostom
   author: innocent_rome
   locus: div1 18, div2 18.5-18.6 — Innocent to John; Innocent to the clergy and people of
     Constantinople
@@ -517,8 +483,7 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- row_id: julian_letter-to-the-athenians_wright1913--letter-to-the-athenians-letter-to-the-senate-and-people-of
-  work: Letter to the Athenians (Letter to the Senate and People of Athens)
+- work: Letter to the Athenians (Letter to the Senate and People of Athens)
   author: julian
   locus: whole file (Loeb pp. 245-293)
   role: context
@@ -530,8 +495,7 @@ works:
 
     '
   source_file: julian_letter-to-the-athenians_wright1913.txt
-- row_id: julian_letters-1-73_wright1923--letters-1-73-incl-letter-36-rescript-on-christian-teachers
-  work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
+- work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
   author: julian
   locus: whole file (Loeb pp. 2-235); Letter 36 is the Rescript on Christian Teachers specifically
   role: context
@@ -542,8 +506,7 @@ works:
 
     '
   source_file: julian_letters-1-73_wright1923.txt
-- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--of-the-manner-in-which-the-persecutors-died
-  work: Of the Manner in Which the Persecutors Died
+- work: Of the Manner in Which the Persecutors Died
   author: lactantius
   locus: div2 3.5
   role: tradition
@@ -560,8 +523,7 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- row_id: npnf212_leo-great-gregory-great--the-letters-of-leo-the-great
-  work: The Letters of Leo the Great
+- work: The Letters of Leo the Great
   author: leo
   locus: div2 2.4 — Letters (including Letter XXVIII, the Tome)
   role: tradition
@@ -576,8 +538,7 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- row_id: npnf212_leo-great-gregory-great--the-sermons-of-leo-the-great
-  work: The Sermons of Leo the Great
+- work: The Sermons of Leo the Great
   author: leo
   locus: div2 2.5 — Sermons
   role: tradition
@@ -589,8 +550,7 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- row_id: npnf214_seven-ecumenical-councils--the-tome-of-st-leo-letter-xxviii
-  work: The Tome of St. Leo (Letter XXVIII)
+- work: The Tome of St. Leo (Letter XXVIII)
   author: leo
   locus: div2 11.7 — The Tome of St. Leo
   role: tradition
@@ -602,8 +562,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-nicene-creed
-  work: The Nicene Creed
+- work: The Nicene Creed
   author: nicene-creed
   locus: div1 11
   role: tradition
@@ -614,21 +573,7 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- row_id: palladius_dialogue-life-of-chrysostom_moore1921--dialogue-concerning-the-life-of-chrysostom-2
-  work: Dialogue Concerning the Life of Chrysostom
-  author: palladius
-  locus: Theophilus of Alexandria, the Tall Brothers and the Origenist quarrel, file lines
-    230-620 and 4114-4700
-  role: context
-  confidence: needs-ruling
-  note: 'Chrysostom''s deposition is a case of imperial power deciding a church quarrel, which
-    is what this entry studies, but the entry''s own window and focus have not been checked
-    against this work. Flagged, not forced.
-
-    '
-  source_file: palladius_dialogue-life-of-chrysostom_moore1921.txt
-- row_id: paulinus-milan_vita-ambrosii_kaniecka1928--vita-ambrosii-life-of-ambrose
-  work: Vita Ambrosii (Life of Ambrose)
+- work: Vita Ambrosii (Life of Ambrose)
   author: paulinus-milan
   locus: whole work (single-work volume); the infancy/bee-swarm legend at Chapter II (file
     line 3006 onward)
@@ -653,8 +598,7 @@ works:
 
     '
   source_file: paulinus-milan_vita-ambrosii_kaniecka1928.txt
-- row_id: philostorgius_ecclesiastical-history_walford1855--ecclesiastical-history-surviving-only-as-photius-epitome-3
-  work: Ecclesiastical History (surviving only as Photius' Epitome)
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
   author: philostorgius
   locus: whole file - esp. Books IV-V (Rimini/Seleucia 359, Constantinople 360, the depositions
     under Constantius II)
@@ -683,8 +627,7 @@ works:
 
     '
   source_file: philostorgius_ecclesiastical-history_walford1855.txt
-- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus
-  work: The Ecclesiastical History of Socrates Scholasticus
+- work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — Books I-VII, 305-439
   role: tradition
@@ -697,8 +640,7 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen
-  work: The Ecclesiastical History of Sozomen
+- work: The Ecclesiastical History of Sozomen
   author: sozomen
   locus: div1 3 — Books I-IX, 324-425, with the Address to Theodosius II (div2 3.5)
   role: tradition
@@ -709,8 +651,7 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica
-  work: The Sacred History (Chronica)
+- work: The Sacred History (Chronica)
   author: sulpiciusseverus
   locus: div2 2.6 — The Sacred History of Sulpitius Severus
   role: tradition
@@ -726,8 +667,7 @@ works:
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- row_id: npnf210_ambrose--memorial-relatio-of-symmachus-prefect-of-the-city
-  work: Memorial (Relatio) of Symmachus, Prefect of the City
+- work: Memorial (Relatio) of Symmachus, Prefect of the City
   author: symmachus
   locus: div2 5.1 and 5.3 — Memorial of Symmachus
   role: context
@@ -739,8 +679,7 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-synod-of-antioch-in-encaeniis
-  work: The Canons of the Synod of Antioch in Encaeniis
+- work: The Canons of the Synod of Antioch in Encaeniis
   author: synod-of-antioch-in-encaeniis
   locus: div2 8.6 — The Synod of Antioch in Encaeniis
   role: tradition
@@ -751,8 +690,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-synod-of-laodicea
-  work: The Canons of the Synod of Laodicea
+- work: The Canons of the Synod of Laodicea
   author: synod-of-laodicea
   locus: div2 8.7 — Synod of Laodicea
   role: tradition
@@ -762,8 +700,7 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-2
-  work: The Ecclesiastical History of Theodoret
+- work: The Ecclesiastical History of Theodoret
   author: theodoret
   locus: div2 3.8 — esp. Books I-II (Arian controversy), V (Ambrose and Theodosius)
   role: context
@@ -782,8 +719,7 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- row_id: theodosianus-16_mommsen-meyer1905--theodosiani-libri-xvi-book-16-critical-latin-text-2
-  work: Theodosiani Libri XVI (Book 16, critical Latin text)
+- work: Theodosiani Libri XVI (Book 16, critical Latin text)
   author: theodosian-code
   locus: as above
   role: tradition
@@ -795,8 +731,7 @@ works:
 
     '
   source_file: theodosianus-16_mommsen-meyer1905.txt
-- row_id: codex-theodosianus_latinlibrary--codex-theodosianus-imperatori-theodosiani-codex-full-text-3
-  work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
   author: theodosian-code-compilers
   locus: whole text
   role: context

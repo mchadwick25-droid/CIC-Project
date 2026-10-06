@@ -76,14 +76,6 @@ modern_contrast: >
   argument he is actively making because the "one bishop" unity he
   urges was itself still contested, not a settled teaching he is simply
   restating.
-use_note:
-  means: "A condemned bishop marched under armed guard toward Rome writes seven letters urging one-bishop unity and reading his coming death as the completion of his formation."
-  not_for:
-    - "a death wish or psychological warning sign"
-    - "one-bishop unity as a settled teaching he merely restates"
-    - "an account of his arrival or execution in Rome"
-  years: {from: 107, to: 117}
-  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 001 (World-Builds/01-Post-
 Apostolic-House-Church/CiC_W1_Doc09_Story_Inventory.md and its own

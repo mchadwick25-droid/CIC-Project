@@ -53,14 +53,6 @@ senses:
   translational: "Not 'going to church' as a routine among routines. For the semi-solitary majority it was the only routine that gathered them at all - the seam that kept solitude from becoming isolation."
 quick_meaning: "The weekly gathering - vigil, worship, and a shared meal after six days alone."
 distortion_risk: medium
-use_note:
-  means: "In the semi-solitary settlements, the synaxis was the weekly Saturday-to-Sunday gathering of monks who lived alone, for vigil, worship, and a shared meal."
-  not_for:
-    - "Hearing it as going to church as one routine among many"
-    - "Applying the name to Pachomian houses, whose common prayer ran daily on a different rhythm"
-    - "Presenting Cassian's liturgical details as independently confirmed for Nitria, Kellia, and Scetis"
-  years: {from: 320, to: 430}
-  status: reviewed
 ---
 Re-derived from Doc_06 SS2.6 (Tier 2; tags SC PV RT; retrieval tier 1
 here because the F3-I gathering question retrieves it directly).

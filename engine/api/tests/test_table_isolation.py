@@ -185,6 +185,10 @@ def test_no_foreknowledge_instruction_reaches_every_voice_after_the_first(
     opener = str(client.messages.stream_calls[0]["system"]) + str(client.messages.stream_calls[0]["messages"])
     assert "only through what they have said" not in opener and "no knowledge of their worlds" not in opener
 
+    # Bug fix for monologues on broad questions: the
+    # epistemic/engagement instruction rides in the directive channel
+    # (system), not the user message it lived in entirely before - see
+    # engine.m4.turn._build_turn_directive's own note on why.
     second = str(client.messages.stream_calls[1]["system"]) + str(client.messages.stream_calls[1]["messages"])
     assert "only through what they have said" in second
     assert "no knowledge of their worlds" in second

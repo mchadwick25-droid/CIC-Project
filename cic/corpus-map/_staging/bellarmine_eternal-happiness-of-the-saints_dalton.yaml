@@ -1,8 +1,7 @@
 source_file: bellarmine_eternal-happiness-of-the-saints_dalton.txt
 
 assignments:
-  - row_id: bellarmine_eternal-happiness-of-the-saints_dalton--the-eternal-happiness-of-the-saints
-    work: "The Eternal Happiness of the Saints"
+  - work: "The Eternal Happiness of the Saints"
     author: bellarmine
     locus: "whole volume"
     atlas_ids:

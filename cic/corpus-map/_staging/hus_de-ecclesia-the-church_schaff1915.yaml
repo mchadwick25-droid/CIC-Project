@@ -1,8 +1,7 @@
 source_file: hus_de-ecclesia-the-church_schaff1915.txt
 
 assignments:
-  - row_id: hus_de-ecclesia-the-church_schaff1915--de-ecclesia-the-church
-    work: "De Ecclesia. The Church"
+  - work: "De Ecclesia. The Church"
     author: hus
     locus: "whole volume"
     atlas_ids:

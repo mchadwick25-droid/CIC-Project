@@ -1,8 +1,7 @@
 source_file: monumenta-vetera-donatistarum-303-340_migne-pl8.txt
 
 assignments:
-  - row_id: monumenta-vetera-donatistarum-303-340_migne-pl8--monumenta-vetera-ad-donatistarum-historiam-pertinentia-303
-    work: "Monumenta vetera ad Donatistarum historiam pertinentia, 303-340 (Migne PL 8): Acta Felicis, Acta Saturnini, Gesta purgationis, Cirta"
+  - work: "Monumenta vetera ad Donatistarum historiam pertinentia, 303-340 (Migne PL 8): Acta Felicis, Acta Saturnini, Gesta purgationis, Cirta"
     author: donatist-anonymous
     locus: "whole file, a slice of PL 8"
     atlas_ids:

@@ -31,14 +31,6 @@ retrieval:
   - "participant asks how the gospel first reached this region and who brought it"
   - "participant asks whether their king was a Christian, and how early"
   - "participant asks whether the founding stories can be believed"
-use_note:
-  means: "The Doctrine of Addai, a legend written down around 400, has King Abgar praise Jesus by letter for healing by his word, not by medicines."
-  not_for:
-    - "a claim that Abgar actually wrote to Jesus or that the letter is authentic correspondence"
-    - "a historical date for the conversion of Edessa or its king"
-    - "evidence of what first-century Edessenes knew about Jesus"
-  years: {from: 380, to: 410}
-  status: reviewed
 ---
 Verified verbatim (Phillips's translation of the Doctrina Addai).
 LEGEND LICENSE: quotable only inside the told-as-legend frame

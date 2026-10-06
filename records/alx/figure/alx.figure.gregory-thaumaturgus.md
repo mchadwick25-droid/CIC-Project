@@ -22,9 +22,10 @@ names:
 - name: Gregory Thaumaturgus of Neocaesarea (c. 213-c. 270)
   tag: scholarly
 dates:
-  born: 'c. 213 (traditional date)'
-  died: 'c. 270 (traditional date)'
-  floruit: 'student under Origen at Caesarea c. 233-238; the Address of Thanksgiving delivered c. 238 (Nautin disputes its authorship and date; most scholars hold to them)'
+  born: c. 213 (scholarly convention)
+  died: c. 270 (convention)
+  floruit: student under Origen at Caesarea c. 233-238; the Address of Thanksgiving delivered c. 238 (Nautin's
+    authenticity/dating dispute noted; consensus reaffirms)
 narratable: true
 bridge_line: the student who told us, in his own voice, what it was to be taught - the one first-person
   account of this school's formation

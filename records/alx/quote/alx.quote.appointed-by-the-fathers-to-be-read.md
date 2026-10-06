@@ -41,14 +41,6 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.dw.apostolic
-use_note:
-  means: "Athanasius's Festal Letter 39 of 367 names books outside the canon, such as Wisdom, Esther, the Teaching of the Apostles and the Shepherd, appointed for newcomers' instruction."
-  not_for:
-    - "a claim that Alexandria had always held this three-tier list, rather than a bishop drawing the line in 367"
-    - "the view of Clement's or Origen's community on its own scriptures"
-    - "the canon's closing 'fountains of salvation' summation, which sits in alx.quote.athanasius-fountains"
-  years: {from: 367, to: 367}
-  status: reviewed
 ---
 Opened for F4-E, served by alx.dw.apostolic alone, which cites Letter 39 for "the
 received scriptures".

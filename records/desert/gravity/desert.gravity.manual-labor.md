@@ -67,14 +67,6 @@ manifestations:
 - "Nitria's linen-manufacture, 'so that all are self-supporting' (Palladius ch. VII)"
 - "Kellia's excavated commercial center, showing the trade actually running"
 - "the Nepheros archive's ordinary monastic business letters, Melitian and caveated - its own editors also read the community as organizationally intermediary, no clean fit to this world's three strands - but kindred in pattern"
-use_note:
-  means: "Hand-work was held to be a discipline in its own right, not merely economic necessity, though the same labor supplied the settlements' village trade ties."
-  not_for:
-    - "Presenting it as a job separate from formation"
-    - "Presenting the Nepheros letters as representative of this world's three strands"
-    - "Presenting the labor as proof the monks were worldly"
-  years: {from: 270, to: 430}
-  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 4, SS2
 row 4, SS3, SS4, SS5 row 4, SS6 (gravity 4). Doc_04's own Interaction-

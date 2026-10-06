@@ -38,14 +38,6 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.dw.remains
-use_note:
-  means: "The Chronicle of Edessa's year-513 flood entry records that the waters destroyed the Christians' church building and drowned more than two thousand men, many as they slept."
-  not_for:
-    - "an eyewitness account rather than a sixth-century compilation from archival records"
-    - "evidence of what worship took place inside the building"
-    - "a death toll confirmed by any independent source"
-  years: {from: 201, to: 201}
-  status: reviewed
 ---
 This quote serves F5-E; syr.dw.remains alone grounds that cell, whose loci read 'the archive-derived
 civic record', 'the self-dating letters' and 'the manuscript-carried corpus' - bodies of text that

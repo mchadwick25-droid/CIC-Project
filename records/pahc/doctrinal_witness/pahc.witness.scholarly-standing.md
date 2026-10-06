@@ -46,13 +46,6 @@ text: >-
   to correct the question first: we did not work from a closed list a book
   could be excluded from. We had no such fixed boundary. We read what the apostles wrote alongside the apostolic testimony
   still handed on among us - no settled edge yet.
-use_note:
-  means: "This world's record carries live scholarly caveats: Ignatius's letters are disputed in date and authorship, and the Didache survives almost entirely in one medieval copy."
-  not_for:
-    - "a claim that this world had a closed list from which gospels were suppressed"
-    - "a claim that the dating of Ignatius's letters or the Didache is settled"
-  years: {from: 80, to: 180}
-  status: reviewed
 ---
 Restates pahc.core.house-church's own thinness and cautions fields, and
 this batch's own contested_claim records (ignatius-dating, didache-

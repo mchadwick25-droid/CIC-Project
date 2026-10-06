@@ -1,8 +1,7 @@
 source_file: wyclif_select-english-works-v3_arnold1871.txt
 
 assignments:
-  - row_id: wyclif_select-english-works-v3_arnold1871--select-english-works-of-john-wyclif-vol-iii-miscellaneous
-    work: "Select English Works of John Wyclif, Vol. III (Miscellaneous Works)"
+  - work: "Select English Works of John Wyclif, Vol. III (Miscellaneous Works)"
     author: wyclif
     locus: "whole volume"
     atlas_ids:

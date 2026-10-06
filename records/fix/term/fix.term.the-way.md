@@ -5,7 +5,7 @@ record_type: term
 schema_version: 2
 status: ready
 register: emic
-canon_cells: [C-I]
+canon_cells: []
 confidence:
   citation_specificity: B
   verification_state: named-not-rechecked
@@ -30,13 +30,6 @@ senses:
   translational: "Not a physical road or trail. A name for a whole way of living."
 quick_meaning: "Our own name for our shared way of life together."
 distortion_risk: low
-use_note:
-  means: "The Way is Testland's name for its shared practice of life."
-  not_for:
-    - "a formal creed"
-    - "the name of a later movement"
-  years: {from: 100, to: 100}
-  status: provisional
 ---
 Positive-case: retrieve_when/do_not_retrieve_when are proper empty arrays (the
 sentinel rule - Artifact-1 §3 - forbids "n/a" or an em-dash here; the DEFECT

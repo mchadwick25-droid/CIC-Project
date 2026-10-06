@@ -17,8 +17,7 @@ authors_ruled:
 
       '
 assignments:
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius
-  work: Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)
+- work: Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)
   author: gregory_nyssa
   locus: 'txt heading "Gregory of Nyssa Against Eunomius" (line 2765), Books I-XII from line
     2885, "Answer to Eunomius'' Second Book" at line 22219; the volume''s own date table dates
@@ -36,8 +35,7 @@ assignments:
     with rather than the Homoian wing it split from in 360.
 
     '
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius-2
-  work: Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)
+- work: Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)
   author: gregory_nyssa
   locus: 'txt heading "Gregory of Nyssa Against Eunomius" (line 2765), Books I-XII from line
     2885, "Answer to Eunomius'' Second Book" at line 22219; the volume''s own date table dates
@@ -55,8 +53,7 @@ assignments:
     floor material only as `register: etic`. anomoean-eunomian-christianity (era 2, Floor
     Question) was added to the census so that anti-Eunomian material names the party it
     actually argues with rather than the Homoian wing it split from in 360.'
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius
-  work: On the Holy Spirit (Against the Followers of Macedonius)
+- work: On the Holy Spirit (Against the Followers of Macedonius)
   author: gregory_nyssa
   locus: txt heading at line 27918
   atlas_ids:
@@ -66,8 +63,7 @@ assignments:
   note: 'Anti-Pneumatomachian treatise. pneumatomachian-current has since been added to the
     census, giving the party this work argues with an entry of its own; that assignment is
     carried in the context row below.'
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius-2
-  work: On the Holy Spirit (Against the Followers of Macedonius)
+- work: On the Holy Spirit (Against the Followers of Macedonius)
   author: gregory_nyssa
   locus: txt heading at line 27918
   atlas_ids:
@@ -78,8 +74,7 @@ assignments:
     argues with an entry of its own. Role normalised to `context` for the doctrinal-floor
     entry: this work describes that movement from outside rather than speaking as it, and
     the brief allows a built world to draw on floor material only as `register: etic`.'
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to
-  work: On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)
+- work: On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)
   author: gregory_nyssa
   locus: txt heading at line 28938
   atlas_ids:
@@ -89,8 +84,7 @@ assignments:
   note: 'Trinitarian letter-treatise; printed with an extract of Basil''s Letter 189 immediately
     before it (line 29245), which some editors give to Nyssa - the volume flags the overlap
     itself. pneumatomachian-current holds this work alongside, for the party it argues with.'
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to-2
-  work: On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)
+- work: On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)
   author: gregory_nyssa
   locus: txt heading at line 28938
   atlas_ids:
@@ -103,8 +97,7 @@ assignments:
     normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius
-  work: On "Not Three Gods" (To Ablabius)
+- work: On "Not Three Gods" (To Ablabius)
   author: gregory_nyssa
   locus: txt heading at line 29315
   atlas_ids:
@@ -114,8 +107,7 @@ assignments:
   note: 'The classic Cappadocian statement on three hypostases and one nature.
 
     '
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius
-  work: On the Faith (To Simplicius)
+- work: On the Faith (To Simplicius)
   author: gregory_nyssa
   locus: txt heading at line 29843
   atlas_ids:
@@ -125,8 +117,7 @@ assignments:
   note: 'Short Nicene confessional treatise, dated 375 by the volume''s own table.
 
     '
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-virginity
-  work: On Virginity
+- work: On Virginity
   author: gregory_nyssa
   locus: txt part heading 'II.--Ascetic and Moral' (line 30060); work at line 30135
   atlas_ids:
@@ -137,8 +128,7 @@ assignments:
     works stay here rather than in desert-monasticism, whose census row is Egypt-specific.
 
     '
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths
-  work: On Infants' Early Deaths
+- work: On Infants' Early Deaths
   author: gregory_nyssa
   locus: txt heading at line 32849 (part II, Ascetic and Moral)
   atlas_ids:
@@ -148,8 +138,7 @@ assignments:
   note: 'Late treatise (the volume dates it 395) on the fate of infants who die unbaptized.
 
     '
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages
-  work: On Pilgrimages
+- work: On Pilgrimages
   author: gregory_nyssa
   locus: txt heading at line 33740 (part II, Ascetic and Moral)
   atlas_ids:
@@ -163,8 +152,7 @@ assignments:
     one, so `tradition` rather than `context` under Mark''s definition.
 
     '
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man
-  work: On the Making of Man
+- work: On the Making of Man
   author: gregory_nyssa
   locus: txt part heading 'III.--Philosophical Works' (line 33907); work at line 33984
   atlas_ids:
@@ -175,8 +163,7 @@ assignments:
     the two halves of one Cappadocian project.
 
     '
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection
-  work: On the Soul and the Resurrection
+- work: On the Soul and the Resurrection
   author: gregory_nyssa
   locus: txt heading at line 38083 (part III, Philosophical Works)
   atlas_ids:
@@ -188,8 +175,7 @@ assignments:
     (brief 11a). Worth remembering when the Cappadocian world is built.
 
     '
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism
-  work: The Great Catechism
+- work: The Great Catechism
   author: gregory_nyssa
   locus: txt part heading 'IV.--Apologetic Works' (line 42012); work at line 42016
   atlas_ids:
@@ -201,8 +187,7 @@ assignments:
     general.
 
     '
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius
-  work: Funeral Oration on Meletius
+- work: Funeral Oration on Meletius
   author: gregory_nyssa
   locus: txt part heading 'V.--Oratorical Works' (line 45708); work at line 45711
   atlas_ids:
@@ -213,8 +198,7 @@ assignments:
     Ecumenical Council; touches Antiochene and conciliar history but is a Cappadocian''s oration.
 
     '
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ
-  work: On the Baptism of Christ
+- work: On the Baptism of Christ
   author: gregory_nyssa
   locus: txt heading at line 46225 (part V, Oratorical Works)
   atlas_ids:
@@ -224,8 +208,7 @@ assignments:
   note: 'Sermon for the Feast of Lights on baptism, dated 376 by the volume''s table.
 
     '
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--letters
-  work: Letters
+- work: Letters
   author: gregory_nyssa
   locus: 'txt part heading "VI.--Letters" (line 46857); one body of 18 letters plus the letter
     to Flavian - assigned as one work, not per letter.

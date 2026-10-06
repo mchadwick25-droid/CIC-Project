@@ -34,25 +34,17 @@ relations:
 - type: illustrated-by
   target: alx.story.potamiaena
 name: Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation [TENSIONAL]
-description: |-
-  Two pictures of the fully formed life compete. One is the martyr's witness unto death. The other is the soul's long contemplative climb. They belonged to different practices and different groups of people.
-
-  Martyrdom is the one confirmed way of formation that did not stop at the literate. It reached everyone. But its inner life survives only in saints' lives and martyr records. So what we know of it is inferred and thin.
-
-  Once toleration came in 311 and 313, the martyr pole faded into memory. It anchors Coptic identity, through the Era of the Martyrs.
+description: 'Two competing pictures of the fully formed life: the martyr''s witness unto death, and the
+  soul''s long contemplative ascent. Practice- and population-separated. Martyrdom is the one confirmed
+  formation mode NOT limited to the literate stratum - the tradition that reached everyone - but its interior
+  is preserved in hagiography and martyrology only (Inferential-Thin). After the persecutions end (toleration
+  311/313), the martyr pole recedes to memory and anchors Coptic identity (the Era of the Martyrs).'
 manifestations:
 - Leonides's martyrdom and the young Origen restrained from joining him (HE VI.1-2 - story lead)
 - Origen's imprisonment and torture under Decius (HE VI.39)
 - Dionysius's persecution letters - flight, confession, the lapsed
 - 'the contemplative pole: the school''s ascent language (Stromateis; the Address)'
 classification: tensional
-use_note:
-  means: "Two pictures of the fully formed life compete, the martyr's witness unto death and the contemplative ascent, with the martyr pole's interior known only thinly."
-  not_for:
-    - "narrating martyrs' inner life as attested beyond saints' lives and martyr records"
-    - "describing martyrs and contemplatives as the same people practicing one path"
-  years: {from: 202, to: 313}
-  status: reviewed
 ---
 Re-derived from Doc_04 SS3.6 T4. The martyr pole's cross-stratum reach
 is this world's one gravity-level bridge past the literate sources; its

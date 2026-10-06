@@ -45,14 +45,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.barbarian-fiscal-ruin
-use_note:
-  means: "Salvian, in On the Government of God, calls the rich murderers of the poor because so-called tax remedies shifted the burden onto those least able to bear it."
-  not_for:
-    - "literal killing, when Salvian means the deadly effect of tax measures"
-    - "a measured fiscal history rather than a preacher's indictment"
-    - "flight to the barbarians, which sits in gallic.quote.salvian-free-men-in-seeming-captivity"
-  years: {from: 439, to: 450}
-  status: reviewed
 ---
 Verified directly against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n
 "more wicked than the rich"` returns line 5064; read with `sed -n '5052,5067p'`, on the page

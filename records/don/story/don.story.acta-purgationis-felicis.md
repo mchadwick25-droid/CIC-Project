@@ -92,13 +92,6 @@ modern_contrast: >-
   principle at stake did not stand or fall on one man's case. Both things
   can be said at once. What cannot honestly be said is that the inquiry
   found in our favour.
-use_note:
-  means: "The inquiry into whether Felix of Aptungi was a traditor ended with a notary confessing, under threatened torture, that he forged the letter for the Donatists."
-  not_for:
-    - "a claim that the inquiry settled the wider traditio dispute"
-    - "a claim that an account of the inquiry from the Donatist side survives"
-  years: {from: 314, to: 315}
-  status: reviewed
 ---
 Compiled from World-Builds/Donatism/Story-Chunks/donstory006_acta-
 purgationis-felicis.md (Doc_09 story index row donstory006, Tier 1),

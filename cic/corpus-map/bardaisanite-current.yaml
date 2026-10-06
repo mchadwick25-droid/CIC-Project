@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: bardaisanite-current
 works:
-- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--bardesan-the-book-of-the-laws-of-divers-countries
-  work: 'Bardesan: The Book of the Laws of Divers Countries'
+- work: 'Bardesan: The Book of the Laws of Divers Countries'
   author: bardesan
   locus: div2 9.16
   role: tradition
@@ -16,8 +15,7 @@ works:
     bardaisanite-current is added alongside, since the party this work argues with now has
     an entry of its own.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- row_id: ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-a-discourse-against-bardaisan-2
-  work: Against Bardaisan (A Discourse Against Bardaisan)
+- work: Against Bardaisan (A Discourse Against Bardaisan)
   author: ephraim
   locus: Vol. II, as above
   role: context
@@ -26,8 +24,7 @@ works:
     Christianity; this floor entry is a best guess that still needs a ruling. This entry points
     to the census entry added on record for this movement.'
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt
-- row_id: ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-s-domnus-2
-  work: Against Bardaisan's 'Domnus'
+- work: Against Bardaisan's 'Domnus'
   author: ephraim
   locus: Vol. II, as above
   role: context

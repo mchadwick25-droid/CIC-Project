@@ -46,13 +46,6 @@ divergence_partners:
   patriarchate, descending from this canon
 - the Roman Catholic position that ecclesiastical rank never followed civil rank, carried unbroken from
   Leo's own rejection
-use_note:
-  means: "On one reading, Canons 3 and 28 merely described Constantinople's already-accepted rank rather than inventing it; Rome's rejection and scholars dispute this."
-  not_for:
-    - "a claim that Rome accepted the premise that ecclesiastical rank follows civil rank"
-    - "a claim that the step from honor to jurisdiction was clearly continuous"
-  years: {from: 381, to: 451}
-  status: reviewed
 ---
 Rebuilt from the reviewed Doc_06 SS3's presbeia CT entry (Contest Type:
 Meaning) and Doc_02 SS8 (Contested tier). All three instruments

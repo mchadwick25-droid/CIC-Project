@@ -38,14 +38,6 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.witness.jesus-as-god
-use_note:
-  means: "Ignatius, warning against factions, calls Jesus Christ 'our God' in passing, as if no one needed convincing."
-  not_for:
-    - "an argued doctrine of Christ's divinity"
-    - "a claim that this world held a worked-out doctrine of the Trinity"
-    - "a claim that the exact wording of this clause is secure"
-  years: {from: 107, to: 180}
-  status: reviewed
 ---
 This quote serves C-T together with pahc.witness.jesus-as-god, which says Ignatius
 "calls Jesus Christ our God again and again - in how he opens his letters and in how he closes

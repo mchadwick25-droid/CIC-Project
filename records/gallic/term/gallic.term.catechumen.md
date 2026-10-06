@@ -75,15 +75,6 @@ quick_meaning: >-
   One enrolled but not yet baptized. Martin stayed one for years, into his soldiering. The first
   man he raised was one. He made a whole crowd catechumens with one hand.
 distortion_risk: low
-use_note:
-  means: "A catechumen was one enrolled but not yet baptized, as Martin stayed for years, as the first man he raised was, and as a whole crowd became by his hand."
-  not_for:
-    - "a brief administrative wait before an expected infant baptism"
-    - "the mission to the pagan countryside in general, which sits in gallic.term.heathen-rustics"
-    - "the monastic sense of turning, which sits in gallic.term.conversion"
-    - "later catechumenate rites"
-  years: {from: 397, to: 406}
-  status: reviewed
 ---
 Built from Doc_06 entry 081 (`galliclex081_catechumen.md`, Tier 3, tags SC TC RT; Doc_03 8.3).
 Kept thin at the Tier-3 floor.

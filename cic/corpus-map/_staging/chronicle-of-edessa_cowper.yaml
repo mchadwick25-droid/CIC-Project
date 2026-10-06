@@ -11,8 +11,7 @@ authors_ruled:
       DC.Creator in AUTHORS.md.
 
 assignments:
-  - row_id: chronicle-of-edessa_cowper--the-chronicle-of-edessa
-    work: "The Chronicle of Edessa"
+  - work: "The Chronicle of Edessa"
     author: chronicle-of-edessa
     locus: "whole work (single-work volume, ~7,960 words; Cowper's JSL translation)"
     atlas_ids:
@@ -30,8 +29,7 @@ assignments:
       annalistic and civil rather than a voice of the world's tradition, and
       composed c. 540s, outside the world's 200-410 frame.
 
-  - row_id: chronicle-of-edessa_cowper--the-chronicle-of-edessa-2
-    work: "The Chronicle of Edessa"
+  - work: "The Chronicle of Edessa"
     author: chronicle-of-edessa
     locus: "whole work (single-work volume)"
     atlas_ids:

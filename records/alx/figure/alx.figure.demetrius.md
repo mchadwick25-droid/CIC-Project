@@ -23,7 +23,8 @@ names:
   tag: scholarly
 dates:
   born: null
-  died: '232 (worked out from Eusebius: he took office in Commodus''s tenth year and ''held the office for forty-three full years''; one editor computes the start as 189)'
+  died: '232 (derived: accession under Commodus''s tenth year, HE V.22 - this edition''s editor computes
+    189 - plus ''held the office for forty-three full years'', HE VI.26, npnf201 line 36336, verified)'
   floruit: bishop of Alexandria 189-232; the bishop of the Origen rupture
 narratable: true
 bridge_line: the bishop of forty-three years whose office collided with the school's greatest teacher

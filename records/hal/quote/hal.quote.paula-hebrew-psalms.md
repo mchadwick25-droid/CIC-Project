@@ -32,13 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks what the women of the household actually did with their days"
   - "participant asks whether women learned the languages too"
-use_note:
-  means: "Jerome's 404 memorial says Paula learned Hebrew well enough to chant the psalms in it and speak it without a Latin accent."
-  not_for:
-    - "an independently verified measure of Paula's fluency; it is epitaph praise from one hand"
-    - "a claim that all the women of the community learned Hebrew"
-  years: {from: 386, to: 404}
-  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 108; the
 same passage carries the claim for Eustochium: 'The same accomplishment

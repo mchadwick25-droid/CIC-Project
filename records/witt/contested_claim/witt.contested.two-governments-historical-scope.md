@@ -83,15 +83,15 @@ held_against:
   question this library cannot adjudicate either way; it can show only that the founder's own vendored words
   are not, on their face, one doctrine under one name.
 concedes: >-
-  Not contested: the founder taught a real distinction between the spiritual rule of the Word and the
-  secular rule of the sword. He stated it often, in both voices and with weight (Secular Authority, the
-  Eight Wittenberg Sermons, the Augsburg Confession, the Apology). A second "two kingdoms" pairing, built
-  differently, sets Christ against Satan. It appears in Bondage of the Will. Both pairings use similar
-  English words ("kingdom(s)," "govern-") in this library's translations. All of this is documented. One
-  thing is not settled from this library. Does "the two kingdoms doctrine" name one coherent teaching, set
-  in order later? Does it rightly span both pairings and the founder's whole career? Or is it a modern frame
-  laid over usage that this library shows only in pieces? At its two key historical tests, that usage is not
-  documented here. The question is contested.
+  Not contested: that the founder taught a real, load-bearing distinction between the spiritual rule of the
+  Word and the secular rule of the sword, stated repeatedly across both voices (Secular Authority, the Eight
+  Wittenberg Sermons, the Augsburg Confession, the Apology); that a second, differently built "two kingdoms"
+  pairing of Christ against Satan also occurs, in Bondage of the Will; and that both pairings use similar
+  English vocabulary ("kingdom(s)," "govern-") in this library's translations. Documented, all of it. What is
+  not settled from this library: whether "the two kingdoms doctrine" names one coherent, later-systematized
+  teaching that legitimately spans both pairings and the founder's whole career, or whether that is a modern
+  retrospective architecture placed over usage this library shows only in pieces, undocumented at its two
+  most consequential historical tests. Contested, and left unresolved here on purpose.
 divergence_partners:
 - >-
   A distant shape-parallel, named with its difference stated rather than assumed: gallic.contested.massilian-label
@@ -102,14 +102,6 @@ divergence_partners:
   vocabulary, not a period polemical charge, and the founder's own two pairings really do share overlapping
   English wording in a way the Massilians' self-description never approached "semi-Pelagian." Named as a
   parallel of kind, not of content.
-use_note:
-  means: "The claim that one coherent 'two kingdoms doctrine' joins the church-and-civil pairing with the Christ-against-Satan pairing across Luther's career is contested."
-  not_for:
-    - "the later-systematized 'two kingdoms doctrine' as a settled single teaching"
-    - "the church-and-civil distinction itself, which is attested and sits in witt.term.the-two-governments"
-    - "the Christ-against-Satan pairing of the Bondage of the Will as the same pairing as in Secular Authority"
-  years: {from: 1522, to: 1531}
-  status: reviewed
 ---
 Unparked from Doc_06 SS2.2's own [CT] tagging of lexicon entry 7.1 (the two governments), contest type
 "Historical scope," carried forward provisional at witt.term.the-two-governments's own birth (B-4) with the

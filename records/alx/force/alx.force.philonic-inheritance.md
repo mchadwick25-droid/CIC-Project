@@ -21,7 +21,12 @@ relations:
   target: alx.gravity.logos-unity
 name: The Philonic Inheritance [1A - initiating/external]
 kind: initiating
-description: 'Philo of Alexandria (c. 20 BCE-50 CE) had already made a synthesis in this same city. It joined Jewish Scripture and Greek philosophy. It read allegorically through Platonic categories. It used a Logos as cosmic mediator. This was the standing setting of ideas the Christian ecology was born into. It was an inherited grammar. It was not an invention. The words for a Word who mediates between God and the world were already given. The community put them to a use they had never had. It named the Word who had become flesh.'
+description: 'Philo of Alexandria (c. 20 BCE-50 CE) had already produced, in this same city, a synthesis
+  of Jewish Scripture and Greek philosophy - allegorical reading through Platonic categories, a Logos
+  as cosmic mediator. The standing intellectual environment the Christian ecology was born into: an inherited
+  grammar, not an invention. In the world''s own experience: the words for a Word who mediates between
+  God and the world were already given - and were put to a use they had never had when the community named
+  the Word who had become flesh.'
 manifestations:
 - 'Clement''s demonstrated dependence on and reshaping of Philo (the specialist finding: van den Hoek
   1988, consult-only)'

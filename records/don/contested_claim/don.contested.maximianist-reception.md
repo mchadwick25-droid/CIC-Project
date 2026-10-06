@@ -76,12 +76,5 @@ concedes: 'The reception itself -- no reordination, no repeated baptism -- is no
 divergence_partners:
 - don.source.augustine-contra-cresconium
 - don.source.augustine-on-baptism-against-donatists
-use_note:
-  means: "Whether receiving Maximianist clergy without repeating ordination or baptism proves the two Donatist bodies were never distinct communions is contested; the reception itself is not."
-  not_for:
-    - "a claim that the reception proves the two bodies were never truly distinct communions"
-    - "a claim that a first-hand Maximianist or mainstream Donatist statement of the reception's justification survives"
-  years: {from: 393, to: 411}
-  status: reviewed
 ---
 Re-derived from Doc_01_World_Identification_Boundaries_Orientation.md SS4 (Strand Determination) and Doc_02_Source_Ecology.md SS1's own 'Maximianist schism's rebaptism-theology evidence' paragraph and its own following paragraph on the Cresconius-account apologia, both read in full this session. relations[] carries three gravity edges (T2, G1, G2) named in this script's own docstring under RECIPROCITY and PRIMARY-GRAVITY COVERAGE -- Doc_04 SS6's own Interaction Matrix names G1<->T2 and G2<->T2 as X (reshaping) specifically because this episode reshapes both Primaries' own internal consistency, not only T2's own standing as a Tensional gravity. **Article 29 Limb 2 handling:** this record's own extensive citation of Augustine's primary text is ordinary Author Gravity discipline (Doc_01 SS7 item 1), not a touch on Augustine's own standing as a source in the Article 29 Limb 2 sense -- see this script's own docstring, THE TWO RESERVED QUESTIONS, item 2, in full.

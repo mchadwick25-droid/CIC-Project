@@ -55,14 +55,6 @@ senses:
     at all.'
 quick_meaning: The mark God gave every person, which makes it possible to know God and be formed by God.
 distortion_risk: medium
-use_note:
-  means: "Eikon meant the image of God as a capacity given to every person at creation to know the Logos, damaged by sin but never destroyed."
-  not_for:
-    - "reducing it to human dignity or rights language"
-    - "describing it as a conferred status rather than a given capacity"
-    - "bringing in Origen's speculation about the image's pre-cosmic condition"
-  years: {from: 180, to: 373}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex009, "Image of God") at Mark's direction, as a
 draft, not a final version. Origen's speculative account of the image's pre-cosmic condition is deliberately

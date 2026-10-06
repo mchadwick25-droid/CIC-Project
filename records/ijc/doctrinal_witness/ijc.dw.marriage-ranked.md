@@ -48,15 +48,6 @@ tensions:
 relations:
 - type: associated-with
   target: ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood
-use_note:
-  means: "Our teachers held marriage lawful and real, remarriage after widowhood no sin, yet ranked it below chosen continence, as Ambrose argues from Paul."
-  not_for:
-    - "a claim that this world condemned marriage or remarriage"
-    - "a claim that this ascetic treatise treats marriage neutrally on its own terms"
-    - "a claim that the record gives any ordinary household's own account of marriage"
-    - "a claim about dowry or money, which this treatise does not address"
-  years: {from: 377, to: 380}
-  status: reviewed
 ---
 Verified directly against
 the vendored corpus, file lines 38845-38850: marriage is not wholly

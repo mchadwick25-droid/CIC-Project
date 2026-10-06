@@ -111,15 +111,6 @@ quick_meaning: >-
   The mind is a mill that cannot stop turning; the monk chooses the grain. Thoughts come from God,
   the devil, or ourselves, and we answer for which we admit.
 distortion_risk: medium
-use_note:
-  means: "Thoughts meant the raw material of the interior struggle, a mill-wheel that cannot stop turning, fed from God, the devil or ourselves, the monk answering for which he admits."
-  not_for:
-    - "intrusive thoughts as symptoms to be managed, or the mind as a private space where nothing is a fault"
-    - "the telling of thoughts to the senior, which sits in gallic.term.disclosure-of-thoughts"
-    - "the judging faculty, which sits in gallic.term.discretion"
-    - "the psalm system and fixed hours of prayer, which sit in gallic.term.unceasing-prayer"
-  years: {from: 415, to: 426}
-  status: reviewed
 ---
 Built from Doc_06 entry 036 (Tier 2; chunk galliclex036_thoughts.md; Doc_03 4.4). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cell F4-P: the

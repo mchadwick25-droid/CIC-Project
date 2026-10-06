@@ -1,8 +1,7 @@
 source_file: gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt
 
 assignments:
-  - row_id: gregory-great_moralia-in-job-books-xi-xxii_bliss1845--morals-on-the-book-of-job-moralia-in-job-books-xi-xxii
-    work: "Morals on the Book of Job (Moralia in Job), Books XI-XXII"
+  - work: "Morals on the Book of Job (Moralia in Job), Books XI-XXII"
     author: gregory
     locus: "whole text - Vol. II, Parts III-IV, Books XI-XXII"
     atlas_ids:

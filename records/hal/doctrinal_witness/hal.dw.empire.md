@@ -46,14 +46,6 @@ positions:
 tensions:
 - the fiercest critic of establishment comfort lived on a senatorial fortune - this world
   never fully resolved the difference between renouncing wealth and redirecting it
-use_note:
-  means: "This witness holds that this was an established, post-persecution church that condemned clerical worldliness, answered it with ascetic withdrawal, and struck outsiders as strange."
-  not_for:
-    - "a claim that Christians of this time hid in catacombs or faced persecution"
-    - "a claim that the community truly renounced wealth rather than redirecting a senatorial fortune"
-    - "a claim that Jerome's satire of Roman clergy is a neutral report"
-  years: {from: 384, to: 404}
-  status: reviewed
 ---
 F3-evidential answer-ground. The catacombs answer is period-honest (open
 churches, memory of persecution) without borrowing the famous

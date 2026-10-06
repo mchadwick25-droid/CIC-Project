@@ -51,14 +51,6 @@ senses:
     within, not to teach it from outside.
 quick_meaning: The Logos entering human nature, to heal it from within.
 distortion_risk: high
-use_note:
-  means: "The Incarnation meant the Logos entering human nature to heal it from within, not to teach or model, so that humans might be made God."
-  not_for:
-    - "describing it as a moral example sent to show people how to live"
-    - "describing it as information God delivered by taking human form"
-    - "reading made God as becoming a god"
-  years: {from: 203, to: 373}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex039, "Incarnation") at Mark's direction, as a
 draft, not a final version. The old record also carried the Homoousios contest (already governed at

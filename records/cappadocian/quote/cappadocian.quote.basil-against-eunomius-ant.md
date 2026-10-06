@@ -68,15 +68,6 @@ modern_rendering: >-
   that surpasses all human understanding. But if you can't even fully
   grasp the nature of a tiny ant, how can you possibly claim to have
   grasped the nature of the incomprehensible God?
-use_note:
-  means: "Basil's short Letter XVI mocks Eunomius's claim to know God's essence by asking him first to explain the nature of an ant."
-  not_for:
-    - "the three-book treatise Against Eunomius, which is not vendored and is not this letter"
-    - "the teaching of endless growth toward God, which belongs to Gregory of Nyssa and sits in cappadocian.dw.doubt-and-unfinished-growth"
-    - "a claim that Basil held God to be unknowable altogether rather than never fully comprehended"
-    - "a fair summary of Eunomius's own position, which this hostile letter does not give"
-  years: {from: 361, to: 363}
-  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml, Letter XVI ("Against Eunomius

@@ -58,14 +58,6 @@ manifestations:
 - commentary and homily as the teaching tradition's central acts (Comm. John, Comm. Matthew)
 - Festal Letter 39's canon list - which books the church receives (npnf204 ~line 68714)
 classification: primary
-use_note:
-  means: "Scripture read at depth is the primary instrument of formation, confirmed as Primary for the literate-attested ecology only, with wider primacy held open."
-  not_for:
-    - "asserting that it shaped the non-literate rural majority"
-    - "presenting Origen's systematized allegorical method as ecology-wide"
-    - "treating allegorical reading as uncontested"
-  years: {from: 180, to: 373}
-  status: reviewed
 ---
 Re-derived from the prior build's cleared six-test analysis (Doc_04
 SS3.1: 6/6 PASS strong); classification and caveats carried, anchors

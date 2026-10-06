@@ -52,13 +52,6 @@ senses:
     baptized.'
 quick_meaning: The long, staged teaching that led a person to baptism.
 distortion_risk: low
-use_note:
-  means: "Katechesis was the staged, tested teaching given over a long time to those preparing for baptism, the way a life was remade."
-  not_for:
-    - "describing it as Sunday school or a short membership class"
-    - "treating Clement's Paedagogus as pre-baptismal catechesis, since it addresses the already baptized"
-  years: {from: 180, to: 248}
-  status: reviewed
 ---
 Modern hearing: a class you take. World hearing: the way a life was
 re-made. The world's own name-anchor (the catechetical tradition).

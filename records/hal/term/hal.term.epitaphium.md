@@ -44,14 +44,6 @@ senses:
   translational: Between an obituary, a eulogy, and a saint's life - and ancestor to all three.
 quick_meaning: The commemorative letter for the dead - mourning and lesson fused in one form.
 distortion_risk: high
-use_note:
-  means: "The commemorative letter for the dead, which fused mourning with a lesson in holy living and survives mainly through Jerome's hand."
-  not_for:
-    - "treating an epitaphium as neutral biography"
-    - "quoting its scene-level detail or reported words as documented fact"
-    - "calling Ep. 127 formally titled an epitaphium"
-  years: {from: 404, to: 412}
-  status: reviewed
 ---
 Re-derived from cleared Doc_06 Part B entry 5, carrying its verification
 caveat as reviewed: the formal title Epitaphium is confirmed for Ep. 108;

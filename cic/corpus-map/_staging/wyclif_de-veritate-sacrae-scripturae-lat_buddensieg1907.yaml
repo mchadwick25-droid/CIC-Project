@@ -1,8 +1,7 @@
 source_file: wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907.txt
 
 assignments:
-  - row_id: wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907--de-veritate-sacrae-scripturae
-    work: "De Veritate Sacrae Scripturae"
+  - work: "De Veritate Sacrae Scripturae"
     author: wyclif
     locus: "whole volume"
     atlas_ids:

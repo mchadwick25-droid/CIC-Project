@@ -48,14 +48,6 @@ tensions:
 relations:
 - type: associated-with
   target: alx.quote.appointed-by-the-fathers-to-be-read
-use_note:
-  means: "This witness claims the community received baptism, eucharist, scripture and the rule of faith from the apostles, citing Origen, while conceding a documentary gap."
-  not_for:
-    - "documentary proof of unbroken practice for each rite back to the apostles"
-    - "Athanasius's 367 book list as this world's own view of its scriptures"
-    - "Origen's succession sentence as his exact Greek wording, when it survives in Rufinus's Latin and is quoted in alx.quote.ecclesiastical-and-apostolical-tradition"
-  years: {from: 203, to: 367}
-  status: reviewed
 ---
 The apostolic-continuity cell: the world's claim AND its evidential
 limit, together.

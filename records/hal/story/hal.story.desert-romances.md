@@ -52,13 +52,6 @@ absent_detail: 'Nearly everything, by design: these are consciously literary pro
   legendary elements; the historical reliability of the specific events is thin, and this
   telling frames them as the world''s own storytelling, never as biography.'
 modern_contrast: 'A modern reader often hears these as reported biography - real adventures that happened to real, named men. This world''s own record frames it differently: these are consciously literary hagiographic romances, this world''s own answer to the popular romance genre aimed instead at heaven, valuable as evidence of what formation could be imagined to look like, never as history.'
-use_note:
-  means: "Jerome's hagiographic romances of Malchus and Hilarion, evidence of what this world imagined formation could look like and not of events."
-  not_for:
-    - "presenting the adventures as biography or history"
-    - "treating Malchus or Hilarion's deeds as documented"
-  years: {from: 390, to: 391}
-  status: reviewed
 ---
 Derived from Doc_09a S9 (Tier 3 on the named-individual
 criterion). Serves F4-I as formation-ideal

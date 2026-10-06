@@ -46,12 +46,5 @@ text: 'What would a stranger find strangest? Walk in expecting Rome''s own churc
   of this as reform. Catholic pressure pressed on us the whole length of our own window -- Jesuits at
   Fribourg from 1580, a reconquest fought on Geneva''s own doorstep in the 1590s. We were watched the
   entire time, not left alone to build in peace.'
-use_note:
-  means: "Our doctrine implies worship marked by absence, no images and a table instead of an altar, watched throughout by Catholic neighbours."
-  not_for:
-    - "a claim that this record describes from firsthand witness what Reformed worship spaces looked like"
-    - "a claim that neighbours saw these changes as reform or restraint"
-  years: {from: 1523, to: 1599}
-  status: reviewed
 ---
 Grounded in Doc_07_Integrated_Ecology_Analysis.md SS2G (material subtraction, Inferential-Thin, carried at that confidence here) and SS2H/SS4 (the Counter-Reformation's sustained pressure, rzg.force.counter-reformation-sustained-pressure). Closes 2 of F3-E's 4 sub-questions ('what would an outsider have found strangest' and 'what did your neighbours say about you'); catacombs and 'did Constantine corrupt the church' are different-era questions this world's own record does not engage and this witness does not force an answer to.

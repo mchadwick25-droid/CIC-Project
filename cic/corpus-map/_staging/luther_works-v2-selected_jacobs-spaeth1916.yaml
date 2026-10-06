@@ -5,8 +5,7 @@
 source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
 
 assignments:
-  - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-treatise-concerning-the-blessed-sacrament-of-the-holy-and
-    work: "A Treatise Concerning the Blessed Sacrament of the Holy and True
+  - work: "A Treatise Concerning the Blessed Sacrament of the Holy and True
       Body of Christ, and Concerning the Brotherhoods"
     author: luther
     locus: "lines ~80-1040"
@@ -19,8 +18,7 @@ assignments:
       that predates the fuller argument in the Babylonian Captivity (this
       same volume).
 
-  - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-treatise-concerning-the-ban
-    work: "A Treatise Concerning the Ban"
+  - work: "A Treatise Concerning the Ban"
     author: luther
     locus: "lines ~1040-1787"
     atlas_ids:
@@ -31,8 +29,7 @@ assignments:
       1520 treatise on excommunication - Luther's own case against the
       papacy's use of the ban as a political weapon.
 
-  - row_id: luther_works-v2-selected_jacobs-spaeth1916--an-open-letter-to-the-christian-nobility-of-the-german
-    work: "An Open Letter to the Christian Nobility of the German Nation,
+  - work: "An Open Letter to the Christian Nobility of the German Nation,
       Concerning the Reform of the Christian Estate"
     author: luther
     locus: "lines ~1787-6323"
@@ -45,8 +42,7 @@ assignments:
       volume carries - the direct political/ecclesiological appeal to the
       German princes, addressed to Nicholas von Amsdorf.
 
-  - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-prelude-on-the-babylonian-captivity-of-the-church-incl-the
-    work: "A Prelude on the Babylonian Captivity of the Church (incl. the
+  - work: "A Prelude on the Babylonian Captivity of the Church (incl. the
       sections on the sacraments of the Bread, Baptism, Penance, and Extreme
       Unction)"
     author: luther
@@ -62,8 +58,7 @@ assignments:
       load-bearing doctrinal text in either volume for this world's own
       Eucharistic and sacramental register.
 
-  - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-treatise-on-christian-liberty-with-a-letter-to-pope-leo-x
-    work: "A Treatise on Christian Liberty, with a Letter to Pope Leo X"
+  - work: "A Treatise on Christian Liberty, with a Letter to Pope Leo X"
     author: luther
     locus: "lines ~11013-13100"
     atlas_ids:
@@ -76,8 +71,7 @@ assignments:
       own words, with the (by-then largely rhetorical) covering letter to
       Leo X.
 
-  - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-brief-explanation-of-the-ten-commandments-the-creed-and
-    work: "A Brief Explanation of the Ten Commandments, the Creed, and the
+  - work: "A Brief Explanation of the Ten Commandments, the Creed, and the
       Lord's Prayer"
     author: luther
     locus: "lines ~13133-14403"
@@ -91,8 +85,7 @@ assignments:
       catechism_smith1994.txt) - the same three-part structure a decade
       earlier and in Luther's own more discursive, pre-catechism voice.
 
-  - row_id: luther_works-v2-selected_jacobs-spaeth1916--the-eight-wittenberg-sermons
-    work: "The Eight Wittenberg Sermons"
+  - work: "The Eight Wittenberg Sermons"
     author: luther
     locus: "lines ~14403-15815"
     atlas_ids:
@@ -108,8 +101,7 @@ assignments:
       Rejected" (below) begins at line 15816 and runs to 16824, followed
       by an INDEX to true file end (16825-18280).
 
-  - row_id: luther_works-v2-selected_jacobs-spaeth1916--that-doctrines-of-men-are-to-be-rejected-together-with-a
-    work: "That Doctrines of Men Are to Be Rejected, together with a Reply
+  - work: "That Doctrines of Men Are to Be Rejected, together with a Reply
       to Texts Quoted in Defence of the Doctrines of Men"
     author: luther
     locus: "lines ~15816-16824"

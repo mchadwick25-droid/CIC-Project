@@ -60,15 +60,6 @@ modern_contrast: >-
   public shame and personal appeal - not a standing institution, and not
   (yet) the purpose-built poorhouse-hospital complex that came later under
   his own episcopate.
-use_note:
-  means: "Basil, then a priest, preached against grain-hoarding and usury in the drought of 368/9, and granaries opened, which evidences how this world expected wealth to serve the poor."
-  not_for:
-    - "the poorhouse complex, which was a later institution told in cappadocian.story.poorhouse-famine-month"
-    - "a standing relief charity, when it was one priest's preaching in one regional drought"
-    - "Basil as already bishop at the time"
-    - "the exact wording of the homilies, which is not checked"
-  years: {from: 368, to: 369}
-  status: reviewed
 ---
 Derived from Doc_09 entry #1 (Tier 1). SOURCING HONESTY CARRIED FORWARD:
 cappadocian.source.basil-moral-famine-homilies is one of the three sources

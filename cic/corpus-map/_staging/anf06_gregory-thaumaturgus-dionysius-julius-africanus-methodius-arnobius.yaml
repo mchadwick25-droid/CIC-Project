@@ -26,8 +26,7 @@
 # the indexes.
 source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 assignments:
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-oration-and-panegyric-addressed-to-origen
-  work: The Oration and Panegyric Addressed to Origen
+- work: The Oration and Panegyric Addressed to Origen
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   atlas_ids:
@@ -39,8 +38,7 @@ assignments:
     but the school is Origen''s). Pairs with Origen''s Letter to Gregory in anf04.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-oration-and-panegyric-addressed-to-origen-2
-  work: The Oration and Panegyric Addressed to Origen
+- work: The Oration and Panegyric Addressed to Origen
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   atlas_ids:
@@ -53,8 +51,7 @@ assignments:
     range by a century.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-oration-and-panegyric-addressed-to-origen-3
-  work: The Oration and Panegyric Addressed to Origen
+- work: The Oration and Panegyric Addressed to Origen
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   atlas_ids:
@@ -75,8 +72,7 @@ assignments:
     right at the edge of this world''s own window.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--a-declaration-of-faith
-  work: A Declaration of Faith
+- work: A Declaration of Faith
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   atlas_ids:
@@ -88,8 +84,7 @@ assignments:
     the Thaumaturge and the Cappadocians. No census entry for 3rd-c. Pontus itself.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--a-metaphrase-of-the-book-of-ecclesiastes
-  work: A Metaphrase of the Book of Ecclesiastes
+- work: A Metaphrase of the Book of Ecclesiastes
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   atlas_ids:
@@ -101,8 +96,7 @@ assignments:
     (era 1, c. 240-312) is the entry this note was asking for - the gap is regional, not per-author.
     post-apostolic-house-church ends at 200 and nothing catholic covers Asia Minor between
     there and Nicaea.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--canonical-epistle
-  work: Canonical Epistle
+- work: Canonical Epistle
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   atlas_ids:
@@ -114,8 +108,7 @@ assignments:
     problem as above. anatolian-church-third-century (era 1, c. 240-312) is the entry this
     note was asking for - the gap is regional, not per-author. post-apostolic-house-church
     ends at 200 and nothing catholic covers Asia Minor between there and Nicaea.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--canonical-epistle-2
-  work: Canonical Epistle
+- work: Canonical Epistle
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   atlas_ids:
@@ -134,8 +127,7 @@ assignments:
     anatolian-church-third-century row, not moved - non-exclusive by default per the corpus-map
     README.
 '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--dubious-or-spurious-writings-of-gregory-thaumaturgus
-  work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
+- work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
     On the Trinity; Twelve Topics on the Faith; On the Subject of the Soul; Four Homilies;
     On All the Saints; On the Gospel According to Matthew)
   author: gregory_thau
@@ -159,8 +151,7 @@ assignments:
     by definition. The two together say the whole truth - where it sits, and what it is -
     without re-attributing anything. The spurious corpora could instead be detached from their
     attributed authors in a future pass, if that reading is preferred.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--extant-fragments-of-dionysius-of-alexandria-works-and
-  work: Extant Fragments of Dionysius of Alexandria (works and epistles)
+- work: Extant Fragments of Dionysius of Alexandria (works and epistles)
   author: dionysius_gr
   locus: 'div2 4.3 - two div3 groups: sections of works (On Nature, against Sabellius) and
     epistles/fragments of epistles'
@@ -176,8 +167,7 @@ assignments:
     chiliast dispute in the Egyptian countryside.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--exegetical-fragments-of-dionysius-of-alexandria
-  work: Exegetical Fragments of Dionysius of Alexandria
+- work: Exegetical Fragments of Dionysius of Alexandria
   author: dionysius_gr
   locus: div2 4.4 - on Ecclesiastes, Luke, John; Of the One Substance; On the Reception of
     the Lapsed to Penitence
@@ -188,8 +178,7 @@ assignments:
   note: 'Exegetical and doctrinal fragments in the school''s manner.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-to-aristides
-  work: The Epistle to Aristides
+- work: The Epistle to Aristides
   author: juliusafricanus
   locus: div2 5.3
   atlas_ids:
@@ -203,8 +192,7 @@ assignments:
     this hole was asking for. Works flagged in THREE separate piles turned out to be this one
     hole - Alexandria was standing in for it on the strength of correspondence with Origen,
     who himself moved to Caesarea around 231.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-extant-fragments-of-the-five-books-of-the-chronography
-  work: The Extant Fragments of the Five Books of the Chronography of Julius Africanus
+- work: The Extant Fragments of the Five Books of the Chronography of Julius Africanus
   author: juliusafricanus
   locus: div2 5.5
   atlas_ids:
@@ -216,8 +204,7 @@ assignments:
     1, c. 185-312) is the entry this hole was asking for. Works flagged in THREE separate
     piles turned out to be this one hole - Alexandria was standing in for it on the strength
     of correspondence with Origen, who himself moved to Caesarea around 231.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--narrative-of-events-happening-in-persia-on-the-birth-of
-  work: Narrative of Events Happening in Persia on the Birth of Christ
+- work: Narrative of Events Happening in Persia on the Birth of Christ
   author: juliusafricanus
   locus: div2 5.4
   atlas_ids:
@@ -236,8 +223,7 @@ assignments:
     by definition. The two together say the whole truth - where it sits, and what it is -
     without re-attributing anything. The spurious corpora could instead be detached
     from their attributed authors.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-passion-of-st-symphorosa-and-her-seven-sons
-  work: The Passion of St. Symphorosa and Her Seven Sons
+- work: The Passion of St. Symphorosa and Her Seven Sons
   author: juliusafricanus
   locus: div2 5.6
   atlas_ids:
@@ -249,8 +235,7 @@ assignments:
     the shelf need a ruling.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-paschal-canon-of-anatolius-of-alexandria-with-fragments
-  work: The Paschal Canon of Anatolius of Alexandria, with fragments of the Books on Arithmetic
+- work: The Paschal Canon of Anatolius of Alexandria, with fragments of the Books on Arithmetic
   author: anatolius
   locus: div2 6.3 - two div3 pieces, assigned as one body
   atlas_ids:
@@ -262,8 +247,7 @@ assignments:
     Christian scholarship; provisional because his episcopate was Syrian.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-alexander-of-cappadocia
-  work: Fragments of Alexander of Cappadocia
+- work: Fragments of Alexander of Cappadocia
   author: alexander_capp
   locus: div2 6.4
   atlas_ids:
@@ -278,8 +262,7 @@ assignments:
     (era 1, c. 185-312) is the entry this hole was asking for. Works flagged in THREE separate
     piles turned out to be this one hole - Alexandria was standing in for it on the strength
     of correspondence with Origen, who himself moved to Caesarea around 231.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-theognostus-of-alexandria-from-the-hypotyposes
-  work: Fragments of Theognostus of Alexandria (from the Hypotyposes)
+- work: Fragments of Theognostus of Alexandria (from the Hypotyposes)
   author: theognostus
   locus: div2 6.5
   atlas_ids:
@@ -297,8 +280,7 @@ assignments:
     (ANF6, from Photius), so he cannot lift the Origen SYSTEMIC screen.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-pierus-of-alexandria
-  work: Fragments of Pierus of Alexandria
+- work: Fragments of Pierus of Alexandria
   author: pierus
   locus: div2 6.6
   atlas_ids:
@@ -313,8 +295,7 @@ assignments:
     in Jerome''s Ep. ad Pammachium, plus a hostile Photius summary (Bibl. cod. 119).
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-theonas-to-lucianus
-  work: The Epistle of Theonas to Lucianus
+- work: The Epistle of Theonas to Lucianus
   author: theonas
   locus: div2 6.7
   atlas_ids:
@@ -326,8 +307,7 @@ assignments:
     only through a later Latin transmission) - hence provisional.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-phileas-epistle-to-the-people-of-thmuis-on-the
-  work: Fragments of Phileas (Epistle to the People of Thmuis; on the martyrs of Alexandria)
+- work: Fragments of Phileas (Epistle to the People of Thmuis; on the martyrs of Alexandria)
   author: phileas
   locus: div2 6.8
   atlas_ids:
@@ -340,8 +320,7 @@ assignments:
     Melitian schism, which has no census entry; noted.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-pamphilus-exposition-on-the-acts-of-the
-  work: Fragments of Pamphilus (exposition on the Acts of the Apostles)
+- work: Fragments of Pamphilus (exposition on the Acts of the Apostles)
   author: pamphilus
   locus: div2 6.9
   atlas_ids:
@@ -354,8 +333,7 @@ assignments:
     he carried.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-malchion-in-the-name-of-the-synod-of-antioch
-  work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata (with fragments
+- work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata (with fragments
     of the disputation)
   author: malchion
   locus: div2 6.10
@@ -373,8 +351,7 @@ assignments:
 
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-acts-of-the-disputation-with-the-heresiarch-manes-with
-  work: The Acts of the Disputation with the Heresiarch Manes (with the fragment of the same
+- work: The Acts of the Disputation with the Heresiarch Manes (with the fragment of the same
     disputation)
   author: archelaus
   locus: div2 7.3-7.4 - the Acts and the appended fragment, assigned as one work
@@ -394,8 +371,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--of-the-manichaeans-alexander-of-lycopolis
-  work: Of the Manichaeans (Alexander of Lycopolis)
+- work: Of the Manichaeans (Alexander of Lycopolis)
   author: alexander_lyc
   locus: div2 8.3
   atlas_ids:
@@ -412,8 +388,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-genuine-acts-of-peter-of-alexandria
-  work: The Genuine Acts of Peter of Alexandria
+- work: The Genuine Acts of Peter of Alexandria
   author: peter_alexandria
   locus: div2 9.3
   atlas_ids:
@@ -425,8 +400,7 @@ assignments:
     caveat on record.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-canonical-epistle-of-peter-of-alexandria
-  work: The Canonical Epistle of Peter of Alexandria
+- work: The Canonical Epistle of Peter of Alexandria
   author: peter_alexandria
   locus: div2 9.4 - with the commentaries of Balsamon and Zonaras interleaved
   atlas_ids:
@@ -440,8 +414,7 @@ assignments:
     for extraction.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-from-the-writings-of-peter-of-alexandria-on-the
-  work: Fragments from the Writings of Peter of Alexandria (On the Godhead, On the Advent,
+- work: Fragments from the Writings of Peter of Alexandria (On the Godhead, On the Advent,
     On the Soul, and the Paschal fragments)
   author: peter_alexandria
   locus: div2 9.6
@@ -459,8 +432,7 @@ assignments:
     Sacra Parallela, a 7th-8th c. florilegium.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--epistles-on-the-arian-heresy-and-the-deposition-of-arius
-  work: Epistles on the Arian Heresy and the Deposition of Arius
+- work: Epistles on the Arian Heresy and the Deposition of Arius
   author: alexander_alexandria
   locus: div2 10.3
   atlas_ids:
@@ -475,8 +447,7 @@ assignments:
     Overlaps the Depositio Arii material assigned from npnf204.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--epistles-on-the-arian-heresy-and-the-deposition-of-arius-2
-  work: Epistles on the Arian Heresy and the Deposition of Arius
+- work: Epistles on the Arian Heresy and the Deposition of Arius
   author: alexander_alexandria
   locus: div2 10.3
   atlas_ids:
@@ -493,8 +464,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-banquet-of-the-ten-virgins-symposium-concerning-chastity
-  work: The Banquet of the Ten Virgins (Symposium; Concerning Chastity)
+- work: The Banquet of the Ten Virgins (Symposium; Concerning Chastity)
   author: methodius
   locus: div2 11.3
   atlas_ids:
@@ -508,8 +478,7 @@ assignments:
     guess. anatolian-church-third-century (era 1, c. 240-312) is the entry this note was asking
     for - the gap is regional, not per-author. post-apostolic-house-church ends at 200 and
     nothing catholic covers Asia Minor between there and Nicaea.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--concerning-free-will-de-autexousio
-  work: Concerning Free-Will (De Autexousio)
+- work: Concerning Free-Will (De Autexousio)
   author: methodius
   locus: div2 11.4
   atlas_ids:
@@ -523,8 +492,7 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--from-the-discourse-on-the-resurrection
-  work: From the Discourse on the Resurrection
+- work: From the Discourse on the Resurrection
   author: methodius
   locus: div2 11.5
   atlas_ids:
@@ -538,8 +506,7 @@ assignments:
     of it. Methodius'' own missing home flagged as above.
 
     '
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--oration-concerning-simeon-and-anna
-  work: Oration Concerning Simeon and Anna
+- work: Oration Concerning Simeon and Anna
   author: methodius
   locus: div2 11.8
   atlas_ids:
@@ -562,8 +529,7 @@ assignments:
     say the whole truth - where it sits, and what it is - without re-attributing anything.
     The spurious corpora could instead be detached from their attributed authors in a future
     pass, if that reading is preferred.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--oration-on-the-palms
-  work: Oration on the Palms
+- work: Oration on the Palms
   author: methodius
   locus: div2 11.9
   atlas_ids:
@@ -585,8 +551,7 @@ assignments:
     say the whole truth - where it sits, and what it is - without re-attributing anything.
     The spurious corpora could instead be detached from their attributed authors in a future
     pass, if that reading is preferred.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-methodius-general-fragments-on-the-cross-and
-  work: Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain
+- work: Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain
     fragments)
   author: methodius
   locus: div2 11.6, 11.10-11.12 - assigned as one body
@@ -597,8 +562,7 @@ assignments:
   note: 'Fragment collection including anti-Origenist and homiletic material; same shelf and
     same missing-home flag as the rest of Methodius. anatolian-church-third-century (era 1,
     c. 240-312) is the entry this note was asking for - the gap is regional, not per-author.'
-- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-seven-books-of-arnobius-against-the-heathen-adversus
-  work: The Seven Books of Arnobius Against the Heathen (Adversus Gentes)
+- work: The Seven Books of Arnobius Against the Heathen (Adversus Gentes)
   author: arnobius
   locus: div2 12.3
   atlas_ids:

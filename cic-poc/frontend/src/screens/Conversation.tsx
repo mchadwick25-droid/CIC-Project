@@ -1,14 +1,14 @@
 import { Arrival } from '../components/Arrival';
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
-import { DeleteConversation, DeletedNotice } from '../components/DeleteConversation';
-import { DoorNarration } from '../components/DoorNarration';
 import { ModernTermMark } from '../components/ModernTermMark';
+import { ReadAloudControl } from '../components/ReadAloudControl';
+import { ReadAloudDisclosure } from '../components/ReadAloudDisclosure';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
+import { useReadAloudAvailability } from '../hooks/useReadAloudAvailability';
 import type { ConversationTurn } from '../hooks/useConversation';
-import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import type { WorldEntry, WorldStarter } from '../data/worlds';
-import { useState } from 'react';
+import { readAloudEnabled } from '../lib/flags';
 
 // Up to 3 starters spanning distinct cell tags (basic/identity, personal,
 // critical/etic) rather than the first 3 alphabetically - carried from the
@@ -25,8 +25,6 @@ function sampleStarters(starters: WorldStarter[]): WorldStarter[] {
 interface ConversationProps {
   world: WorldEntry;
   turns: ConversationTurn[];
-  // The reply so far while the voice is still writing it; empty otherwise.
-  streamed?: StreamedSentence[];
   sessionCode: string | null;
   closed: boolean;
   isLoading: boolean;
@@ -35,21 +33,25 @@ interface ConversationProps {
   onSend: (text: string) => void;
   onEnd: () => void;
   onRestart: () => void;
-  onDelete?: () => Promise<void>;
 }
 
 function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
 
-export function Conversation({ world, turns, streamed = [], sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart, onDelete }: ConversationProps) {
-  const [deleted, setDeleted] = useState(false);
-  const handleDelete = async () => {
-    await onDelete?.();
-    setDeleted(true);
-  };
-  const participantTurns = turns.filter((t) => t.speaker === 'participant').length;
-  const reply = streamedReply(streamed, world.worldKey);
+// Read-aloud step 1 always targets the latest completed voice/Facilitator
+// turn - never the participant's own typed text (see ReadAloudControl's
+// own docstring for why this is one global control, not a per-turn one).
+function latestSpokenTurn(turns: ConversationTurn[]): { index: number; turn: ConversationTurn } | null {
+  for (let i = turns.length - 1; i >= 0; i--) {
+    if (turns[i].speaker !== 'participant') return { index: i, turn: turns[i] };
+  }
+  return null;
+}
+
+export function Conversation({ world, turns, sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart }: ConversationProps) {
+  const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
+  const readAloudAvailable = useReadAloudAvailability();
 
   return (
     <div className="conversation">
@@ -61,10 +63,16 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
               Not saved to an account — this conversation lives in this tab
             </div>
           )}
+          {readAloudAvailable && latestSpoken && (
+            <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} />
+          )}
         </div>
       </div>
+      {readAloudAvailable && latestSpoken && (
+        <ReadAloudDisclosure representativeName={world.representativeName} turnKey={latestSpoken.index} />
+      )}
 
-      <div className="conversation__transcript" role="log" aria-label="Conversation">
+      <div className="conversation__transcript">
         <Arrival world={world} />
         {turns.map((turn, i) => {
           if (turn.speaker === 'participant') {
@@ -84,8 +92,6 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
                     {j === 0 && turn.kind === 'bridge' && turn.modernTerms?.map((card) => <ModernTermMark key={card.record_id} card={card} />)}
                   </p>
                 ))}
-                {turn.note && <p className="turn__note sans">{turn.note}</p>}
-                {turn.kind === 'door' && <DoorNarration worldKey={world.worldKey} participantTurns={participantTurns} />}
               </div>
             );
           }
@@ -99,19 +105,10 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
             </div>
           );
         })}
-        {reply && (
-          <div className="turn turn--voice">
-            <div className="turn__speaker sans" style={{ color: world.accentColor }}>
-              <img className="turn__avatar" src={world.portraitImage} alt="" />
-              {world.representativeName} · {world.cardName}
-            </div>
-            <VoiceTurnBody text={reply.text} citations={[]} transparency={reply.transparency} />
-          </div>
-        )}
       </div>
 
-      {isLoading && !closed && !reply && (
-        <p className="waiting-note sans" role="status">
+      {isLoading && !closed && (
+        <p className="waiting-note sans">
           {world.representativeName} is considering
           <span className="typing-dots" aria-hidden="true">
             <span></span>
@@ -121,7 +118,7 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
         </p>
       )}
       {error && (
-        <div className="conversation__error" role="alert">
+        <div className="conversation__error">
           {error}
           {errorRecoverable && (
             <button type="button" className="error-restart sans" onClick={onRestart}>
@@ -131,9 +128,7 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
         </div>
       )}
 
-      {deleted ? (
-        <DeletedNotice onRestart={onRestart} restartLabel="Meet another world" />
-      ) : closed ? (
+      {closed ? (
         <div className="conversation__composer">
           <button type="button" className="doorway__begin" onClick={onRestart}>
             Meet another world
@@ -151,11 +146,6 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
               ))}
             </div>
           )}
-          {!turns.some((t) => t.speaker === 'participant') && (
-            <p className="ai-note sans">
-              {world.representativeName} is an AI voice built only from the surviving writings of this tradition. It is not a real person, and it does not speak for any church today.
-            </p>
-          )}
           <ChatInput
             onSend={onSend}
             onEnd={onEnd}
@@ -164,7 +154,6 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
           />
         </>
       )}
-      {!deleted && sessionCode && onDelete && <DeleteConversation onDelete={handleDelete} />}
     </div>
   );
 }

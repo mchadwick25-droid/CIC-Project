@@ -55,37 +55,29 @@ relations:
 name: "The bishop as public patron under famine and empire [SUPPORTING]"
 classification: supporting
 description: >-
-  The bishop acts as public patron. He deals in grain, tax appeals and the poorhouse. He faces the
-  prefect's bench and seeks the governor's mercy. The gravity is strong on repetition and persistence. It
-  is moderate on dependency, formation and explanation. Its pull is moderate to strong within its
-  register. The evidence rates Documented across separate streams. These are the famine homilies, the
-  letters to governors and prefects, and the governing side of the canonical letters. The encomium's
-  account of the public Basil is marked as genre and is not load-bearing. The letters document the
-  patronage apart from Oration 43's own staging. There is no divergence. Strength and evidence match at
-  Supporting. Famine made it stronger. Famine drew the see into relief work, and then into a lasting
-  institution, the complex later called the Basileias. The court drew it out as well. The prefect's bench
-  and the tax appeals made the state both counterpart and adversary. The plateau's standing need grounds
-  it. It held and grew stronger across the span. It survives the world's end only as an exported model,
-  the monk-bishop synthesis. That model is a Dominant Modern Reconstruction. It is marked as such and is
-  not asserted at full confidence. The gravity is anchored at the see, but its objects and effects cross
-  the registers. Famine relief reaches the city crowd and the countryside. The tax and liturgy appeals
-  serve the propertied. Canonical discipline reaches the village penitent. It is anchored in the see and
-  crosses the registers in effect.
+  Grain, tax appeals, the poorhouse, the prefect's bench, the governor's mercy sought (Doc_04 §1, §4).
+  SIX-TEST SUMMARY (Doc_04 §3.1): strong on Repetition and Persistence; MODERATE on Dependency, Formation,
+  and Explanatory. CONFIDENCE/GRAVITY CROSS-CHECK (Doc_04 §3.2, added at Revision 1 - the original run left
+  this candidate's Cross-Check unperformed): organizing strength moderate-strong within its register;
+  evidence Documented across independent streams - the famine homilies, the correspondence with governors
+  and prefects, the canonical letters' governance face - with the encomium's public-Basil narrative
+  genre-flagged and not load-bearing: the correspondence documents the patronage independently of Or. 43's
+  own staging. No divergence: strength and evidence align at Supporting. FORCES TEST (Doc_04 §3.3, notation
+  added at Revision 1): intensified under famine (2A-2 conscripts the see into relief and then into permanent
+  institution - the Basileias-later-named complex) and exercised against the court (2A-1: the prefect's
+  bench, the tax appeals - the state as counterpart and adversary), grounded in the plateau's standing need
+  (1A-3). Held and intensified across the span; survives the world's end only as exported model (the
+  monk-bishop synthesis - Dominant Modern Reconstruction, flagged as such rather than asserted at full
+  confidence). CROSS-REGISTER (Doc_04 §5, entry added at Revision 1): anchored at the see, but its objects
+  and effects run across registers - famine relief reaches city crowd and countryside; the tax and liturgy
+  appeals serve the propertied; the canonical discipline reaches the village penitent. Register-anchored
+  (see), cross-register in effect.
 manifestations:
 - famine homilies organizing relief - granaries opened, funded distribution for as long as the crisis lasted
 - correspondence with officials - tax appeals, the governor's mercy sought
 - Or. 43's public-Basil narrative - the Modestus confrontation, the Epiphany visitation
 - the canonical letters - discipline as governance
 - the poorhouse-hospital complex ("the new city") - permanent civic institution built from famine's occasion
-use_note:
-  means: "The bishop acted as public patron under famine and empire, handling grain, tax appeals, the poorhouse and the governor's mercy."
-  not_for:
-    - "Oration 43's Modestus and Epiphany scenes as courtroom fact, when they are an encomium's telling"
-    - "the whole of Basil's work, when the ascetic reordering sits in cappadocian.gravity.ascetic-reordering"
-    - "the poorhouse as already standing in the famine of 368/9, which came before it"
-    - "the bishop's patronage as a primary gravity, since it is classed supporting"
-  years: {from: 368, to: 379}
-  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 6 -> final Gravity 7, per §4's concordance table). Interaction
 Matrix (§6, row/col 6): reinforcing (R) with Gravity 1, Gravity 2, Gravity 4 (paideia), Gravity 5 (martyrs),

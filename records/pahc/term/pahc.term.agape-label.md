@@ -57,13 +57,6 @@ senses:
     agape?'' begins with which community you are asking about, and ends sooner than modern curiosity
     wants.'
 quick_meaning: The love-feast - a shared meal under love's own name. How it relates to the thanksgiving meal is genuinely unsettled.
-use_note:
-  means: "The love-feast: a shared meal that carries love's own name, whose relation to the thanksgiving meal is not settled."
-  not_for:
-    - "a settled two-meal system of agape versus eucharist"
-    - "a purely modern label with no ancient anchor"
-  years: {from: 70, to: 200}
-  status: reviewed
 ---
 This term is derived from the approved lexicon (Doc_03/Doc_06, term 10,
 Tier 2, CT contest: Historical scope), grounded in Smyrnaeans 8's

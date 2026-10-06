@@ -24,8 +24,8 @@ names:
   tag: scholarly
 dates:
   born: null
-  died: 'c. 247/8 (worked out from Eusebius; succeeded by Dionysius)'
-  floruit: 'Origen''s assistant, then successor in the school; succeeded Demetrius as bishop 232 (Eusebius)'
+  died: c. 247/8 (succeeded by Dionysius; Eusebius-derived)
+  floruit: Origen's assistant then successor in the school; succeeded Demetrius as bishop 232 (HE VI.26)
 narratable: false
 bridge_line: the pupil who took first the teacher's chair and then the bishop's - the school and the office
   joined in one man

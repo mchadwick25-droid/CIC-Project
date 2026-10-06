@@ -51,14 +51,6 @@ retrieval:
   - "participant asks whether some ways of living were looked down on"
 relations:
 - {type: illustrates, target: desert.gravity.withdrawal}
-use_note:
-  means: "Cassian's Abbot Piamun divides Egypt's monks into cenobites, anchorites trained first in community, and reprehensible Sarabaites."
-  not_for:
-    - "a neutral census, when it is an anchorite's argument for his own order"
-    - "a fact that every anchorite first trained in a cenobium, when it is Piamun's ideal"
-    - "Sarabaites as a fair description rather than a slur"
-  years: {from: 385, to: 429}
-  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf211 line
 42454. The ANF's inline cross-reference "See the note on c.

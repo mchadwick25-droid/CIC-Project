@@ -63,13 +63,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.egypt-as-measure
-use_note:
-  means: "Cassian writes in the Part III preface that Gallic monks may receive the Conferences' authors into their cells through the books and learn the anchorite's rule from them."
-  not_for:
-    - "a claim that Egyptian elders physically came to Gaul"
-    - "a well-trodden anchorite path in Gaul, when Cassian calls the way almost unknown there"
-  years: {from: 426, to: 435}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "receiving into their cells the authors"` returns line 42316; read with `sed -n '42300,42326p'`,

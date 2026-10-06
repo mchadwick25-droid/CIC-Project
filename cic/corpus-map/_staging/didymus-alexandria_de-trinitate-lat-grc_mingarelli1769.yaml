@@ -1,8 +1,7 @@
 source_file: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt
 
 assignments:
-  - row_id: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769--de-trinitate-on-the-trinity-three-books
-    work: "De Trinitate (On the Trinity, Three Books)"
+  - work: "De Trinitate (On the Trinity, Three Books)"
     author: didymus-alexandria
     locus: "Book I proper begins at line 7019 of the vendored file (the file's
       second 'LIBER PRIMUS' heading). Line 435's 'LIBER PRIMUS' heading is

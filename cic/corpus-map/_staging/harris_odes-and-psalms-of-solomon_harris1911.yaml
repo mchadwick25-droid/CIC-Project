@@ -12,8 +12,7 @@ authors_ruled:
       an attribution dispute.
 
 assignments:
-  - row_id: harris_odes-and-psalms-of-solomon_harris1911--the-odes-and-psalms-of-solomon-published-from-the-syriac
-    work: The Odes and Psalms of Solomon, published from the Syriac Version (Harris, 2nd ed. 1911)
+  - work: The Odes and Psalms of Solomon, published from the Syriac Version (Harris, 2nd ed. 1911)
     author: odes-of-solomon
     locus: "the English translation-with-commentary section, file lines 6520 onward"
     atlas_ids:

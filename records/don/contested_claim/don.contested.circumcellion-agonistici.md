@@ -85,14 +85,6 @@ divergence_partners:
 relations:
 - type: associated-with
   target: don.gravity.circumcellion-agonistici
-use_note:
-  means: "On the Donatist claim, the agonistici were their own contenders under a self-chosen name rather than lawless brigands, though only their existence is independently attested."
-  not_for:
-    - "a claim that the self-designation agonistici is independently attested"
-    - "a claim that the group's character, scale or conduct is known from non-hostile sources"
-    - "a claim that the hostile portrait is established fact"
-  years: {from: 311, to: 439}
-  status: reviewed
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.5 (candidate D-A, classified Supporting
 and scope-qualified to the Numidian regional sub-ecology at SS3.5's own Disposition and at SS4) and

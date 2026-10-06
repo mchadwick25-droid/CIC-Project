@@ -3,8 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: anomoean-eunomian-christianity
 works:
-- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-on-the-paralytic-let-down-through-the-roof-2
-  work: Homily on the Paralytic Let Down Through the Roof
+- work: Homily on the Paralytic Let Down Through the Roof
   author: chrysostom
   locus: div1 12 — Homily on the Paralytic; 'Concerning the Equality of the Divine Father
     and the Son'
@@ -20,8 +19,7 @@ works:
     Question) is on the census, so anti-Eunomian material names the party it actually argues
     with rather than the Homoian wing it split from in 360.'
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons-2
-  work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
+- work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9
   role: context
@@ -31,8 +29,7 @@ works:
     names, from their condemners. Each now has its own entry, and this work is the record
     of all of them.
   source_file: npnf214_seven-ecumenical-councils.xml
-- row_id: eunomius_first-apology_whiston1711--the-first-apology-liber-apologeticus
-  work: The First Apology (Liber Apologeticus)
+- work: The First Apology (Liber Apologeticus)
   author: eunomius
   locus: whole file - chapters I-XXVIII (Whiston's numbering, Vaggione's re-numbering per
     Pearse's edition) plus 23 footnotes
@@ -47,8 +44,7 @@ works:
 
     '
   source_file: eunomius_first-apology_whiston1711.txt
-- row_id: npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31-2
-  work: The Five Theological Orations (Orations 27-31)
+- work: The Five Theological Orations (Orations 27-31)
   author: gregory_naz
   locus: div2 3.13-3.17, with the editor's introduction at 3.12
   role: context
@@ -64,8 +60,7 @@ works:
     Question) is on the census, so anti-Eunomian material names the party it actually argues
     with rather than the Homoian wing it split from in 360.'
   source_file: npnf207_cyril-jerusalem-gregory-nazianzen.xml
-- row_id: npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius-2
-  work: Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)
+- work: Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)
   author: gregory_nyssa
   locus: 'txt heading "Gregory of Nyssa Against Eunomius" (line 2765), Books I-XII from line
     2885, "Answer to Eunomius'' Second Book" at line 22219; the volume''s own date table dates
@@ -82,8 +77,7 @@ works:
     Question) was added to the census so that anti-Eunomian material names the party it actually
     argues with rather than the Homoian wing it split from in 360.'
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
-- row_id: philostorgius_ecclesiastical-history_walford1855--ecclesiastical-history-surviving-only-as-photius-epitome
-  work: Ecclesiastical History (surviving only as Photius' Epitome)
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
   author: philostorgius
   locus: whole file - all twelve books
   role: tradition

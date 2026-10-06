@@ -46,14 +46,6 @@ retrieval:
   - "participant asks whether there were stages, and what the whole thing was aiming at"
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
-use_note:
-  means: "Cassian's Institutes sets out a sequence from the fear of the Lord through compunction, renunciation and humility to purity of heart and apostolic love."
-  not_for:
-    - "a transcript of the Egyptian elders' own words rather than Cassian's Latin summary written in Gaul"
-    - "compunction as mere guilt feeling"
-    - "Evagrius's chain from belief to charity, carried by desert.quote.charity-is-the-offspring-of-apatheia"
-  years: {from: 385, to: 429}
-  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf211 line
 20066. The passage is continuous to its end.

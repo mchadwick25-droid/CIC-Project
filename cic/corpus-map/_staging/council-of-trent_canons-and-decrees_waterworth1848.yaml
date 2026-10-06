@@ -1,8 +1,7 @@
 source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
 
 assignments:
-  - row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council
-    work: "The Canons and Decrees of the Sacred and Oecumenical Council of Trent"
+  - work: "The Canons and Decrees of the Sacred and Oecumenical Council of Trent"
     author: council-of-trent
     locus: "whole text"
     atlas_ids:
@@ -17,8 +16,7 @@ assignments:
       is not the Society's own composed voice. Double-placed to
       the-tridentine-church (VI.22), where the same text is role
       tradition instead: that world's own defining conciliar voice.
-  - row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council-2
-    work: "The Canons and Decrees of the Sacred and Oecumenical Council of Trent"
+  - work: "The Canons and Decrees of the Sacred and Oecumenical Council of Trent"
     author: council-of-trent
     locus: "whole text"
     atlas_ids:

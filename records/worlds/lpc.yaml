@@ -1,7 +1,0 @@
-kind: formation
-world_id: latin-pastoral-congregational-christianity
-display_name: "Latin Pastoral-Congregational Christianity"
-time_window: {start: 246, end: 430}
-place: "Carthage and Hippo Regius"
-state: building
-census_id: "latin-pastoral-congregational-christianity"

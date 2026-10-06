@@ -73,10 +73,8 @@ def seed_interview(store, sid):
           "record_ids": ["des.source.apophthegmata-1"]},
          {"sentence": "letters moved", "record_ids": ["hal.source.foreign-1"]}],  # isolation defect
         grounding={"sentences": [
-            {"sentence": "Some monks did leave their families to go into the desert, and some families followed them there.",
-             "verdict": "ok", "tags": []},
-            {"sentence": "The elders spoke of this parting as a wound that prayer carried, not one it erased, and letters still moved between the cells and the villages they had left behind.",
-             "verdict": "withheld", "tags": ["des.source.apophthegmata-9"]},
+            {"verdict": "ok", "tags": []},
+            {"verdict": "withheld", "tags": ["des.source.apophthegmata-9"]},
         ]},
         output_defects=["floor_line_missing"],
     ))

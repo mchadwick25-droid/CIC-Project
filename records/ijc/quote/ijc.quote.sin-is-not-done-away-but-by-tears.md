@@ -41,13 +41,6 @@ retrieval:
 relations:
 - type: associated-with
   target: ijc.limit.inner-life
-use_note:
-  means: "Ambrose urges Theodosius to humble himself, insisting sin is done away only by tears and penitence, and the Lord forgives only those who repent."
-  not_for:
-    - "a claim that this letter is a disinterested pastoral text rather than also a political act"
-    - "a claim that this world's record says what the wronged should do while awaiting repentance"
-  years: {from: 390, to: 390}
-  status: reviewed
 ---
 Opened for F4-P, which the rewritten classifier moved out of LIMIT-ONLY: ijc.limit.inner-life
 cites Ep. LI specifically, so the limit can be voiced by the passage it points at.

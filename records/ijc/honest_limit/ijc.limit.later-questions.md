@@ -37,12 +37,6 @@ nearest_material:
 - ijc.dw.jesus
 - ijc.dw.original-sin-transmitted
 - ijc.dw.bread-made-body
-use_note:
-  means: "The faith-alone-versus-works question comes from a later age and was never a live dispute in this record, though original sin and the eucharist are engaged."
-  not_for:
-    - "a claim that this world took a side in a faith-versus-works dispute"
-  years: {from: 312, to: 451}
-  status: reviewed
 ---
 F1-T held as an honest limit, narrowed to one question: the original-sin
 and eucharist questions have real substantive answers in the

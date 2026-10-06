@@ -17,11 +17,9 @@ Provenance note: Body text unaltered including its own OCR errors
   (Latin). Salmeron's own letters, Tomus Secundus (1565-1585),
   continuing Tomus Primus (1536-1565, vendored separately). Vendored
   2026-09-25 as part of a
-  post-Step0-Revision-2 PD source-acquisition pass. Per this project's own INTAKE.md rule (scan quality decides
-  quotability, not language), this Latin text is primary evidence
-  for the movement; the scan carries occasional letter-level
-  misreads, so any wording is verified against the page image before
-  it is quoted.
+  post-Step0-Revision-2 PD source-acquisition pass. Per this
+  project's own INTAKE.md rule, this Latin text is a second
+  witness, never primary evidence for a Representative.
 
 This  is  a  digitai  copy  of  a  book  that  was  preserved  for  generations  on  library  shelves  before  it  was  carefully  scanned  by  Google  as  part  of  a  project 
 to  make  the  world's  books  discoverable  online. 

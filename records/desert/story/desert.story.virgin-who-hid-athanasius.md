@@ -86,14 +86,6 @@ modern_contrast: >-
   And notice his closing line, which a modern reader is likely to read as self-serving and which
   his hearers would have read as the point: he says he saved two lives, and puts hers second, but
   he puts it in.
-use_note:
-  means: "Palladius reports that an unnamed Alexandrian virgin hid Athanasius from his enemies, a story the tradition remembered but no other source confirms."
-  not_for:
-    - "Dating it, counting its years, or presenting it as an established episode in Athanasius's life"
-    - "Naming the woman, whom no source names"
-    - "Repeating the thirty years, which the record says cannot be right"
-  years: {from: 388, to: 420}
-  status: reviewed
 ---
 This record draws on cic/texts/palladius_paradise-v1-syriac_budge1907.txt.
 

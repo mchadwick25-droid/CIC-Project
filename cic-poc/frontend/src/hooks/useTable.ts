@@ -9,24 +9,20 @@
  */
 import { useCallback, useRef, useState } from 'react';
 import { ApiRequestError, continueRound, createTableSession, getTranscript, sendTableMessage } from '../lib/api';
-import { noteLimit } from '../lib/deeper';
 import { clearStored, readStored, writeStored } from '../lib/sessionStore';
-import type { StreamedSentence } from '../lib/streamedReply';
 import type { FacilitatorTurn, TableMessageResponse, VoiceTurn } from '../types/conversation';
 import { toTurn, type ConversationTurn } from './useConversation';
 
-// A seat correction speaks about the seat's own turn, so it follows it.
 function turnsFromAdvance(advance: TableMessageResponse): ConversationTurn[] {
-  const facilitator = (f: FacilitatorTurn): ConversationTurn => ({
-    speaker: 'facilitator', text: f.text, kind: f.kind, modernTerms: f.modern_terms, note: f.kind === 'limit' ? advance.limit_note?.text : undefined,
-  });
-  const events = advance.facilitator as FacilitatorTurn[];
-  const appended: ConversationTurn[] = events.filter((f) => f.kind !== 'seat_correction').map(facilitator);
+  const appended: ConversationTurn[] = [];
+  for (const f of advance.facilitator as FacilitatorTurn[]) {
+    appended.push({ speaker: 'facilitator', text: f.text, kind: f.kind, modernTerms: f.modern_terms });
+  }
   const v = advance.voice as VoiceTurn | null;
   if (v) {
     appended.push({ speaker: v.speaker, text: v.text, citations: v.citations, figuresUsed: v.figures_used, glosses: v.glosses, transparency: v.transparency });
   }
-  return [...appended, ...events.filter((f) => f.kind === 'seat_correction').map(facilitator)];
+  return appended;
 }
 
 interface TableState {
@@ -34,9 +30,6 @@ interface TableState {
   sessionCode: string | null;
   worldKeys: string[];
   turns: ConversationTurn[];
-  // The speaking seat's sentences so far, each with its marks; replaced by
-  // the seat's finished turn. Empty whenever no seat is streaming.
-  streamed: StreamedSentence[];
   roundOpen: boolean;
   closed: boolean;
   isLoading: boolean;
@@ -52,7 +45,6 @@ const initialState: TableState = {
   sessionCode: null,
   worldKeys: [],
   turns: [],
-  streamed: [],
   roundOpen: false,
   closed: false,
   isLoading: false,
@@ -73,20 +65,14 @@ export function useTable() {
   const loopingRef = useRef(false);
 
   const applyAdvance = useCallback((advance: TableMessageResponse) => {
-    if (advance.limit_note) noteLimit();
     setState((prev) => ({
       ...prev,
       turns: [...prev.turns, ...turnsFromAdvance(advance)],
-      streamed: [],
       roundOpen: advance.round_open,
       closed: advance.session_closed || prev.closed,
       isLoading: advance.round_open,
     }));
     if (advance.session_closed) clearStored();
-  }, []);
-
-  const onSentence = useCallback((sentence: StreamedSentence) => {
-    setState((prev) => ({ ...prev, streamed: [...prev.streamed, sentence] }));
   }, []);
 
   const runRound = useCallback(
@@ -97,13 +83,13 @@ export function useTable() {
       let open = first.round_open && !first.session_closed;
       while (open && sessionRef.current) {
         try {
-          const next = await continueRound(sessionRef.current.sessionId, sessionRef.current.sessionCode, onSentence);
+          const next = await continueRound(sessionRef.current.sessionId, sessionRef.current.sessionCode);
           applyAdvance(next);
           open = next.round_open && !next.session_closed;
         } catch (error) {
           const message = error instanceof ApiRequestError ? error.message : 'The table lost its thread mid-round - you can pick the round back up below.';
           const recoverable = error instanceof ApiRequestError && error.recoverable;
-          setState((prev) => ({ ...prev, isLoading: false, streamed: [], error: message, errorRecoverable: recoverable }));
+          setState((prev) => ({ ...prev, isLoading: false, error: message, errorRecoverable: recoverable }));
           loopingRef.current = false;
           return;
         }
@@ -111,7 +97,7 @@ export function useTable() {
       loopingRef.current = false;
       setState((prev) => ({ ...prev, isLoading: false }));
     },
-    [applyAdvance, onSentence]
+    [applyAdvance]
   );
 
   const convene = useCallback(async (worldKeys: string[]) => {
@@ -128,7 +114,6 @@ export function useTable() {
         sessionCode: session_code,
         worldKeys,
         turns: transcript.transcript.map(toTurn),
-        streamed: [],
         roundOpen: transcript.round_open,
         closed: transcript.closed,
         isLoading: false,
@@ -156,17 +141,17 @@ export function useTable() {
       try {
         const attempt = lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
         lastAttemptRef.current = attempt;
-        const first = await sendTableMessage(session.sessionId, session.sessionCode, text, attempt.id, onSentence);
+        const first = await sendTableMessage(session.sessionId, session.sessionCode, text, attempt.id);
         await runRound(first);
         return true;
       } catch (error) {
         const message = error instanceof ApiRequestError ? error.message : 'That message didn\'t go through - check your connection and try again.';
         const recoverable = error instanceof ApiRequestError && error.recoverable;
-        setState((prev) => ({ ...prev, isLoading: false, streamed: [], error: message, errorRecoverable: recoverable }));
+        setState((prev) => ({ ...prev, isLoading: false, error: message, errorRecoverable: recoverable }));
         return false;
       }
     },
-    [runRound, onSentence]
+    [runRound]
   );
 
   const rehydrate = useCallback(async (): Promise<string[] | null> => {
@@ -184,7 +169,6 @@ export function useTable() {
         sessionCode: stored.sessionCode,
         worldKeys: transcript.world_keys ?? stored.worldKeys,
         turns: transcript.transcript.map(toTurn),
-        streamed: [],
         roundOpen: transcript.round_open,
         closed: transcript.closed,
         isLoading: false,
@@ -231,7 +215,6 @@ export function useTable() {
     sessionCode: state.sessionCode,
     worldKeys: state.worldKeys,
     turns: state.turns,
-    streamed: state.streamed,
     roundOpen: state.roundOpen,
     roundCap: state.roundCap,
     closed: state.closed,

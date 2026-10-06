@@ -124,15 +124,6 @@ modern_contrast: >-
   himself to old men who can teach "not so much by their words as by the actual example of their holy
   life." The southern node's own teaching that wanting office is vainglory is not contradicted by the
   one Egyptian bishop Cassian chose to carry west; he is its illustration.
-use_note:
-  means: "Cassian reports meeting Archebius, an Egyptian bishop taken from the anchorites, who called his consecration an expulsion from monastic life and sent the travellers to the old men."
-  not_for:
-    - "an independent witness to Archebius, when none survives outside Cassian"
-    - "Gallic bishops as such, which sit in gallic.story.election-at-tours"
-    - "Cassian's teaching that the wish for office is vainglory, which sits in gallic.term.monk-bishop"
-    - "the identification of the holy brothers with Lerins and its abbot as the text's own, when it is the editors'"
-  years: {from: 426, to: 426}
-  status: reviewed
 ---
 No separate figure record exists for Archebius or for Germanus (Cassian's travelling companion, not
 Germanus of Auxerre): each is fully carried by the story he appears in. Honoratus is related as a

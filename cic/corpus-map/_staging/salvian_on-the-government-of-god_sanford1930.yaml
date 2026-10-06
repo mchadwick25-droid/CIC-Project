@@ -1,8 +1,7 @@
 source_file: salvian_on-the-government-of-god_sanford1930.txt
 
 assignments:
-  - row_id: salvian_on-the-government-of-god_sanford1930--on-the-government-of-god-de-gubernatione-dei
-    work: "On the Government of God (De Gubernatione Dei)"
+  - work: "On the Government of God (De Gubernatione Dei)"
     author: salvian
     locus: "full work, tr. Sanford 1930 (all eight books, plus the dedicatory Preface)"
     atlas_ids:

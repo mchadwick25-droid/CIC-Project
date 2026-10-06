@@ -81,15 +81,6 @@ modern_contrast: >-
   words. The consequence is not that the vision is more likely true. It is that this federation
   wrote its legislation as something received rather than drafted, and a modern reader who takes
   the frame for later decoration will misread what kind of authority the house thought it had.
-use_note:
-  means: "The Ethiopic Pachomian rule opens with an angel handing Pachomius an iron tablet, which evidences how the text framed itself, not that a vision occurred."
-  not_for:
-    - "Presenting the vision or the tablet as an incident that happened to Pachomius"
-    - "Dating the framing relative to the provisions, or claiming the rule ever circulated without it"
-    - "Merging it with Palladius's brass-tablet account in desert.story.pachomius-founding"
-    - "Treating Jerome's Latin Praecepta as the text described"
-  years: {from: 318, to: 346}
-  status: reviewed
 ---
 Registered on the vendoring of
 cic/texts/pachomius_rules-ethiopic_schodde1885.txt.

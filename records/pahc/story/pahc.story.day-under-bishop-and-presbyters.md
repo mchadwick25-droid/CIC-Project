@@ -74,13 +74,6 @@ modern_contrast: >
   both patterns were live, unresolved answers inside the same still-
   forming movement, held by communities that considered themselves one
   people, not two settled churches choosing sides.
-use_note:
-  means: "A member's ordinary day differed by which answer to who leads their community held, one built around a named bishop, the other around a council of elders."
-  not_for:
-    - "two settled denominations of church government"
-    - "a documented person who lived under both patterns"
-  years: {from: 80, to: 180}
-  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 012. All quotations checked
 directly against the vendored corpus: Magnesians 6 ("your presbyters

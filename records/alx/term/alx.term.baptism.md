@@ -52,14 +52,6 @@ senses:
 quick_meaning: Not a ceremony marking a choice. A real crossing, in the body, into Christ's death and
   rising.
 distortion_risk: high
-use_note:
-  means: "Baptism, also called illumination, meant a real bodily crossing into Christ's death and rising, not a ceremony announcing a choice already made."
-  not_for:
-    - "describing it as a public statement of a private decision or as an empty symbol"
-    - "attributing this account to Athanasius, who is not cited for it"
-    - "saying the baptized come up from the water already fully formed"
-  years: {from: 180, to: 215}
-  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex025, "Baptism") at Mark's direction, as a draft,
 not a final version.

@@ -50,13 +50,6 @@ modern_contrast: >
   which "the church" existed as something larger than any one room -
   proof of a real, felt translocal identity, not administrative
   housekeeping.
-use_note:
-  means: "Polycarp of Smyrna forwards the collected copies of Ignatius's letters to the church at Philippi because the Philippians asked for them."
-  not_for:
-    - "routine secretarial record-keeping"
-    - "what the Philippians did with the letters"
-  years: {from: 107, to: 140}
-  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 003. Quote checked directly
 against cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, div1 iv,

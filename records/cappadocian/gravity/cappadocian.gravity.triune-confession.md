@@ -103,15 +103,6 @@ manifestations:
 - the money-changers complaint - the argument reaching the marketplace, hostile witness to how far it spread
 - Nicaea's defense, the 381 creed, and the communion law - the conciliar-credal stream
 - the Catechetical Oration and the baptismal orations forming new Christians directly in the confession
-use_note:
-  means: "The Triune God confessed with exactness at the edge of the knowable is this world's core gravity, formed in worship, baptism and the fight over a doxology."
-  not_for:
-    - "the Trinity as one agreed technical scheme, which is contested in cappadocian.contested.settlement-historiography"
-    - "Eunomius' position as fairly stated, which cappadocian.contested.agennetos-transmission shows reaches us through refuters"
-    - "the argument over Basil's reserve about the Spirit, which sits in cappadocian.gravity.precision-reserve"
-    - "a claim that the confession's militancy outlived the settlement of 381"
-  years: {from: 325, to: 381}
-  status: reviewed
 ---
 This gravity has a demonstrated relationship with every other confirmed gravity in this world - the only
 one with no declared absence. It reinforces the ascetic-reordering gravity (the brotherhoods carry and

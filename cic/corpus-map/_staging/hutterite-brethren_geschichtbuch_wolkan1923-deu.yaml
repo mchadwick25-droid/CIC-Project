@@ -1,8 +1,7 @@
 source_file: hutterite-brethren_geschichtbuch_wolkan1923-deu.txt
 
 assignments:
-  - row_id: hutterite-brethren_geschichtbuch_wolkan1923-deu--geschicht-buch-der-hutterischen-brueder-chronicle-of-the
-    work: "Geschicht-Buch der Hutterischen Brueder (Chronicle of the Hutterian Brethren)"
+  - work: "Geschicht-Buch der Hutterischen Brueder (Chronicle of the Hutterian Brethren)"
     author: hutterite-brethren
     locus: "whole text, 1517-1665"
     atlas_ids:

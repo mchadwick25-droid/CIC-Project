@@ -28,8 +28,7 @@ authors_ruled:
     from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
 
 assignments:
-  - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-second-helvetic-confession-1566
-    work: "The Second Helvetic Confession (1566)"
+  - work: "The Second Helvetic Confession (1566)"
     author: bullinger
     locus: "Sec. 55 of the source volume (original pp. 390-421)"
     atlas_ids:
@@ -43,8 +42,7 @@ assignments:
       XI (Christ's full deity and humanity) directly verified against
       this vendored text.
 
-  - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563
-    work: "The Heidelberg Catechism (1563)"
+  - work: "The Heidelberg Catechism (1563)"
     author: ursinus-olevianus
     locus: "Sec. 69 of the source volume (original pp. 529-554)"
     atlas_ids:

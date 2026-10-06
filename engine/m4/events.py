@@ -69,7 +69,7 @@ REQUIRED_KEYS: dict[str, set[str]] = {
 
 ENUMS: dict[tuple[str, str], set[str]] = {
     ("session_started", "mode"): {"interview", "table"},  # interview: Phase 1's single-voice mode; table: Artifact-7, the multi-voice extension spec O9 priced in
-    ("round_closed", "reason"): {"selector_closed", "cap", "floor_unmet_exhausted", "safety"},  # Artifact-7 SS2; "safety": a safety route mid-round (decision 35)
+    ("round_closed", "reason"): {"selector_closed", "cap", "floor_unmet_exhausted"},  # Artifact-7 SS2
     # seat_correction: the Facilitator taking a turn back after
     # the seat-identity guard exhausted its one regeneration - a distinct
     # kind from "safety" (TABLE_DEPENDENCY_CHECK's own kind), which is
@@ -81,11 +81,11 @@ ENUMS: dict[tuple[str, str], set[str]] = {
     # different (unsupported/uncited content, not identity impersonation),
     # even though the mechanism (regenerate once, then hand off) is the
     # same one reused.
-    ("facilitator_turn", "kind"): {"door", "threshold", "safety", "bridge", "close", "limit", "seat_correction", "grounding_correction"},
+    ("facilitator_turn", "kind"): {"door", "threshold", "safety", "bridge", "close", "seat_correction", "grounding_correction"},
     ("safety_state", "track"): {"A", "B"},
     ("escalation_pressed", "class"): {"later_age", "other_tradition"},
     ("session_closed", "reason"): {"participant", "idle", "cap"},
-    ("seat_identity_violation", "attempt"): {"first", "regenerated", "streamed", "shown"},
+    ("seat_identity_violation", "attempt"): {"first", "regenerated"},
 }
 
 

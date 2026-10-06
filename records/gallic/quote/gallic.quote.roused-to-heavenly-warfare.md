@@ -47,14 +47,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.soldier-of-christ
-use_note:
-  means: "Sulpitius states in the first chapter of the Life of Martin that he writes so readers will be roused to true knowledge, heavenly warfare and divine virtue."
-  not_for:
-    - "a call to physical combat, when the warfare sits in a list about right living"
-    - "Cassian's soldier-of-Christ opening, which sits in gallic.quote.institutes-opening-soldier-of-christ"
-    - "a neutral history rather than an exemplary life written to form its readers"
-  years: {from: 397, to: 397}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "shall be roused to the pursuit of true"` returns line 597; read with `sed -n '592,599p'`, inside

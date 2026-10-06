@@ -46,13 +46,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.judgment-imminent-present
-use_note:
-  means: "Gallus reports in the Dialogues that Martin taught Antichrist was already born, now a boy, and would take power at the proper age."
-  not_for:
-    - "Martin's direct words, when Gallus reports them at one remove"
-    - "Sulpitius's own inference from false prophets, which sits in gallic.quote.martin-antichrist-already-at-hand"
-  years: {from: 404, to: 406}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "reached the years of boyhood"` returns line 4606; read with `sed -n '4589,4608p'`, inside `<div4

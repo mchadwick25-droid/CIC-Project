@@ -34,14 +34,6 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.dw.grace-and-effort
-use_note:
-  means: "Cassian has Abbot Chaeremon list ways God acts: implanting salvation's beginnings, granting its completion, and sometimes saving people against their will."
-  not_for:
-    - "a systematic doctrine of irresistible grace"
-    - "an unmediated Egyptian teaching rather than Cassian's report shaped by his Gallic argument"
-    - "the ch. XI statement that grace and free will are in harmony, carried by desert.quote.grace-and-free-will-in-harmony"
-  years: {from: 426, to: 429}
-  status: reviewed
 ---
 Kept because it answers the pastoral version of the question, not the doctrinal one: a
 participant who cannot summon the wanting is told, from this world's own record, that

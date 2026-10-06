@@ -28,8 +28,11 @@ names:
 - name: Athanasius of Alexandria (c. 296-373, bishop 328-373)
   tag: scholarly
 dates:
-  born: 'c. 296-298 (traditional date)'
-  died: '373 (widely accepted). Socrates writes that he died ''in the second consulate of Gratian and Probus... having governed that church amidst the greatest perils forty-six years''. One modern editor reads that consulate as 371, and Jerome''s Chronicle differs too. The difference is stated here, not settled.'
+  born: c. 296-298 (scholarly convention)
+  died: '373 (consensus), ''in the second consulate of Gratian and Probus... having governed that church
+    amidst the greatest perils forty-six years'' (Socrates HE IV.20, npnf202 lines 13310-13322, verified;
+    NOTE: that edition''s own editor note reads the consulate as 371 and flags Jerome''s Chronicle as
+    discordant - the discrepancy is stated, not resolved)'
   floruit: bishop 328-373, exiled five times; the dominant late-horizon voice
 narratable: true
 bridge_line: the bishop who spent forty-six embattled years holding the line drawn at Nicaea - and who

@@ -2,8 +2,7 @@
 # AUTHORS.md's `gregory-nyssa`.
 source_file: gregory-nyssa_life-of-macrina_clarke1916.txt
 assignments:
-- row_id: gregory-nyssa_life-of-macrina_clarke1916--the-life-of-st-macrina-vita-macrinae-complete-introduction
-  work: The Life of St. Macrina (Vita Macrinae) - complete, introduction and
+- work: The Life of St. Macrina (Vita Macrinae) - complete, introduction and
     narrative
   author: gregory-nyssa
   locus: whole file

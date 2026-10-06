@@ -61,14 +61,6 @@ positions:
 tensions:
 - naming what we did not develop is itself part of this answer, not a way around it; this cell's specific
   later categories are simply not present in our own record to translate more precisely than this
-use_note:
-  means: "This witness says original sin, transubstantiation and faith alone were not this world's categories, and that salvation was a lifelong process of theosis."
-  not_for:
-    - "a Cappadocian position on inherited guilt, which the record does not develop"
-    - "mystery as an early form of transubstantiation"
-    - "theosis as becoming God by nature, a misreading cappadocian.quote.gregory-nyssa-on-becoming-god guards against"
-  years: {from: 360, to: 394}
-  status: reviewed
 ---
 Closes F1-T using the translational discipline this build's own worked
 example models (hal.dw.was-jesus-god: name the later formula as later,

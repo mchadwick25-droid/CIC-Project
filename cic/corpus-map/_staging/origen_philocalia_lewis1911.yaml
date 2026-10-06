@@ -1,8 +1,7 @@
 source_file: origen_philocalia_lewis1911.txt
 
 assignments:
-  - row_id: origen_philocalia_lewis1911--the-philocalia-of-origen
-    work: "The Philocalia of Origen"
+  - work: "The Philocalia of Origen"
     author: origen
     locus: >
       whole work (single-work volume, ~85,172 words): 27 chapters listed in
@@ -20,8 +19,7 @@ assignments:
       surviving Greek for those passages. Tradition for the world whose
       catechetical school he led. Lewis translation, T. & T. Clark 1911.
 
-  - row_id: origen_philocalia_lewis1911--the-philocalia-of-origen-2
-    work: "The Philocalia of Origen"
+  - work: "The Philocalia of Origen"
     author: origen
     locus: "whole work, as above"
     atlas_ids:
@@ -39,8 +37,7 @@ assignments:
       (Gregory Nazianzen, Ep. 115) outside the file, so it is stated here
       as transmission history, not derived from the markup.
 
-  - row_id: origen_philocalia_lewis1911--the-philocalia-of-origen-3
-    work: "The Philocalia of Origen"
+  - work: "The Philocalia of Origen"
     author: origen
     locus: >
       Chapter I, esp. its own self-description "From the work on
@@ -69,8 +66,7 @@ assignments:
       controversy was manufactured - hal.contested.origenist-substance
       holds that question open and this is evidence in it, not a verdict.
 
-  - row_id: origen_philocalia_lewis1911--the-philocalia-of-origen-4
-    work: "The Philocalia of Origen"
+  - work: "The Philocalia of Origen"
     author: origen
     locus: >
       Chapter XIII, "The letter to Gregory" (file lines 148-159, the full

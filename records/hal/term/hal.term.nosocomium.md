@@ -50,14 +50,6 @@ senses:
 quick_meaning: Fabiola's hospital in Rome - the sick gathered in from the streets and cared
   for.
 distortion_risk: medium
-use_note:
-  means: "Fabiola's hospital for the sick in Rome, attested only through Jerome's obituary for her."
-  not_for:
-    - "confusing it with the travelers' hospice at Bethlehem"
-    - "imagining modern hospital scale or staffing"
-    - "treating the foundation as independently attested"
-  years: {from: 382, to: 399}
-  status: reviewed
 ---
 Derived from Doc_06 entry 14 (hal_lex14). The Latin-text
 verification (Ep. 77.6: 'Et primo omnium nosokomeion instituit, in quo

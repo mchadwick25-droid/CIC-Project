@@ -13,8 +13,7 @@
 source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
 
 assignments:
-  - row_id: cyprian_opera-omnia-critical_hartel-csel3-pars1-2--s-thasci-caecili-cypriani-opera-omnia-hartel-s-critical
-    work: "S. Thasci Caecili Cypriani Opera omnia (Hartel's critical edition, CSEL 3, Pars I-II)"
+  - work: "S. Thasci Caecili Cypriani Opera omnia (Hartel's critical edition, CSEL 3, Pars I-II)"
     author: cyprian
     locus: "whole text; Pars I ends at the Sententiae Episcoporum, Pars II runs Epistulae I-LXXXI - see the file's own title-page and EPISTVLA headers for addressing a specific treatise or letter"
     atlas_ids:

@@ -66,15 +66,6 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-on-work-and-prayer
-use_note:
-  means: "This witness reconstructs a brotherhood day of fixed prayer, work, obedience and equal hospitality, alongside ascetic care for the sick and lepers."
-  not_for:
-    - "the reconstructed day as one person's eyewitness account"
-    - "the day's prayer-and-work rule as Basil's verbatim words, which sit in cappadocian.quote.basil-on-work-and-prayer"
-    - "a claim that this world had no enslaved members"
-    - "brotherhood life as the routine of ordinary lay households"
-  years: {from: 357, to: 379}
-  status: reviewed
 ---
 Closes F5-I. Composited from four already-registered story records, each
 cited at the confidence its own narrative_tier_justification actually

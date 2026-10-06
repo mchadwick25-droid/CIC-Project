@@ -172,28 +172,6 @@ def test_a_quote_with_sources_labels_source_first_speaker_as_attribution():
     assert card["sources"][0]["work"].startswith("The seven letters")  # full apparatus preserved below the headline
 
 
-def test_a_quote_card_carries_the_modern_rendering_and_source_reference_and_no_original_wording():
-    repo = _real_repository("pahc")
-    record = repo["pahc.quote.ignatius-truly-born"]
-    card = resolve_source_card("pahc.quote.ignatius-truly-born", repo)
-    assert "original_wording" not in card
-    assert card["spoken_rendering"] == record["modern_rendering"]
-    assert card["speaker"] == "Ignatius, bishop of Antioch"
-    source = card["sources"][0]
-    assert source["work"] and source["author"] and source["locus"]
-    assert "edition" in source
-    assert record["text"] not in json.dumps(card)
-
-
-def test_a_story_card_carries_no_source_wording():
-    repo = _real_repository("fix")
-    record = repo["fix.story.the-long-road"]
-    card = resolve_source_card("fix.story.the-long-road", repo)
-    assert "original_wording" not in card
-    assert card["label"] == record["tellable_as"]
-    assert record["text"] not in json.dumps(card)
-
-
 def test_a_quote_attributed_to_prose_passes_through_unchanged():
     repo = {"w.quote.x": {"id": "w.quote.x", "record_type": "quote", "speaker_or_author": "The Council of Chalcedon (451), Canon 28"}}
     assert resolve_source_card("w.quote.x", repo)["label"] == "The Council of Chalcedon (451), Canon 28"

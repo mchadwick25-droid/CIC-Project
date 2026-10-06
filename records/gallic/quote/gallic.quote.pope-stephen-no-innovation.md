@@ -42,15 +42,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented
-use_note:
-  means: "Vincent quotes Pope Stephen's rule, written to Africa in the dispute over rebaptism, that nothing be innovated beyond what has been handed down."
-  not_for:
-    - "a verified text of Stephen's letter, which survives only through Vincent's and Cyprian's citations"
-    - "Pope Celestine's letter to Gaul, which sits in gallic.quote.vincent-celestines-letter-and-its-reading"
-    - "Vincent's own keeper-not-author teaching, which sits in gallic.quote.not-an-author-but-a-keeper"
-    - "a rule widely repeated in this world, when Vincent's single citation is its only witness here"
-  years: {from: 434, to: 434}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "no innovation"` returns a hit at line 12527, inside `<div2 title="Chapter VI. The example of Pope

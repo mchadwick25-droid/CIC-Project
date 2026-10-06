@@ -104,15 +104,6 @@ quick_meaning: >-
   circus filled. The one place in our own record that shows what lay worship really looked like -
   and how often it lost.
 distortion_risk: medium
-use_note:
-  means: "Church or circus names Salvian's charge that Christians in his own cities left church mid-service, or skipped it, when the games were on."
-  not_for:
-    - "a complaint about monks, when it concerns lay people in the cities"
-    - "an exaggeration with nothing behind it, when Salvian names an observed repeated pattern"
-    - "a survey of how often worship lost to the games, when it is one presbyter's indictment"
-    - "the Trier episode in particular, which sits in gallic.story.circuses-amid-the-ruins"
-  years: {from: 439, to: 450}
-  status: reviewed
 ---
 This term is not part of the original 81-term Doc_06 lexicon batch. Built directly
 from a direct read of Gov. VI.5-7, alongside gallic.term.bagaudae and gallic.story.circuses-amid-the-

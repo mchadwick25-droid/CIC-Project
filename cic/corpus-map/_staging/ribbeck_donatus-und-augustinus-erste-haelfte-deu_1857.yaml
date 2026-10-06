@@ -1,8 +1,7 @@
 source_file: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt
 
 assignments:
-  - row_id: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857--ribbeck-donatus-und-augustinus-first-half-1857
-    work: "Ribbeck, Donatus und Augustinus, first half (1857)"
+  - work: "Ribbeck, Donatus und Augustinus, first half (1857)"
     author: ribbeck
     locus: "whole file"
     atlas_ids:

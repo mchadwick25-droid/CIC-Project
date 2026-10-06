@@ -63,7 +63,7 @@ def _transitive_source_ids(records: dict[str, dict]) -> set[str]:
     return direct | {record_id for record_id in records if resolves(record_id, frozenset())}
 
 
-def run_battery(world_key: str, records: dict[str, dict], *, answerer=None, limit: int | None = None) -> list[ProbeResult]:
+def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> list[ProbeResult]:
     """answerer defaults to FixtureRecordAnswerer(records) - the
     deterministic, no-model battery every existing caller (this module's
     own selftest included) still gets unchanged. Pass a real
@@ -71,9 +71,7 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None, limi
     battery/masking/grading pipeline against a real generation call
     instead - the caller who builds and passes that answerer is the one
     who holds the spend authorization, not this function; run_battery
-    itself makes no model-provider decision either way. limit runs only the
-    battery's first probes, for a sample before a paid run; a limited run is
-    never admission evidence."""
+    itself makes no model-provider decision either way."""
     if answerer is None:
         answerer = FixtureRecordAnswerer(records)
     known_source_ids = _transitive_source_ids(records)
@@ -81,7 +79,7 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None, limi
     known_quote_texts = {r["text"] for r in records.values() if r.get("record_type") == "quote" and r.get("text")}
 
     results = []
-    for seal in protocol.battery()[:limit]:
+    for seal in protocol.battery():
         probe_id, cell = seal["probe_id"], seal["cell"]
         probe = sealed_probes.read_probe(probe_id)
         try:

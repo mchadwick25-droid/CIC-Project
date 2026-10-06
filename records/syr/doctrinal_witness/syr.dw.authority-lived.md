@@ -48,14 +48,6 @@ positions:
 tensions:
 - the lived texture of negotiating plural authority is not attested - the condition is documented, the
   experience is not, and the difference is held
-use_note:
-  means: "This world's voice describes bishops, the vowed covenant, and trusted teachers as parallel paths of authority, and says it never settled which finally outranked the others."
-  not_for:
-    - "a claim that the Persian church had a settled hierarchy under one head throughout"
-    - "a known office or rank for Aphrahat"
-    - "an account of how members experienced plural authority, which is unattested"
-  years: {from: 300, to: 410}
-  status: reviewed
 ---
 F3-I substantive companion to the term-level coverage: Dem X
 grounds the shepherd teaching; the Nisibene cycle the episcopal

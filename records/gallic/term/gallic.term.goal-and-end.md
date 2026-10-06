@@ -100,15 +100,6 @@ quick_meaning: >-
   The pair Cassian begins with. The end is the kingdom; the goal is purity of heart. Every fast and
   vigil is judged by the mark it is aimed at.
 distortion_risk: medium
-use_note:
-  means: "Goal and end named Cassian's opening pair, the end being the kingdom of God and the goal purity of heart, by which every fast and vigil is judged."
-  not_for:
-    - "personal objectives or self-improvement targets"
-    - "the content of the goal, which sits in gallic.term.purity-of-heart"
-    - "the end as eschatology, which sits in gallic.term.antichrist"
-    - "a Tours teaching, where the pair is not used"
-  years: {from: 415, to: 426}
-  status: reviewed
 ---
 Built from Doc_06 entry 034 (Tier 2; chunk galliclex034_goal-and-end.md; Doc_03 4.2). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. purity of heart declares

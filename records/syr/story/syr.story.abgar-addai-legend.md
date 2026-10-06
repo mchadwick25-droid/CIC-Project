@@ -67,14 +67,6 @@ modern_contrast: 'A modern reader might hear this as a claim of literal historic
   it outright as a forgery. This world''s own record frames it differently: a cherished
   founding legend carrying the community''s own conviction of legitimate apostolic
   origin, told as its own story rather than offered as verified history.'
-use_note:
-  means: "The Abgar and Addai story is this world's own foundation legend, a king's letter to Jesus and Addai's mission to Edessa, evidencing its conviction of apostolic origin."
-  not_for:
-    - "a claim that the Abgar-Jesus correspondence or Addai's mission happened as history"
-    - "a claim that the image not made by hands belongs to this world's own telling"
-    - "a claim that the legend shows Edessa's actual Christianization route"
-  years: {from: 200, to: 410}
-  status: reviewed
 ---
 Re-derived from syrstory004 (Tier 3). The legend-license from the
 source record and world_core caution 2 is absolute: told AS the

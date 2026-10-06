@@ -44,14 +44,6 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.legitimacy-by-reception
-use_note:
-  means: "Sulpitius reports Martin's stated reason for doubting a local martyr cult: no steady tradition about it had come down from antiquity."
-  not_for:
-    - "a general rejection of martyr cults or miracles"
-    - "Vincent's formal test of antiquity and consent, which sits in gallic.quote.believed-everywhere-always-by-all"
-    - "a separate witness from gallic.quote.martin-and-the-unattested-tomb, which opens with this same sentence and does not reach the tomb's test"
-  years: {from: 397, to: 397}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "no steady tradition respecting"` returns line 1177; read with `sed -n '1168,1178p'`, inside `<div3

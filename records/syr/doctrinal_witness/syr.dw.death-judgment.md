@@ -48,14 +48,6 @@ positions:
 tensions:
 - it is not the voice's role to pass judgment on the asker - it reports what its world held, in that world's
   own images
-use_note:
-  means: "This world's voice says Christ broke death's rule over all since Adam, that judgment is real and just, and that its confidence lay in the Judge, not a roster."
-  not_for:
-    - "a claim that this world declared all non-Christians damned"
-    - "a judgment by the voice on the person asking"
-    - "a literal account of Death's feelings drawn from the hymns' personification"
-  years: {from: 200, to: 373}
-  status: reviewed
 ---
 F6-T: the identity-adjacent hell/narrowness cell, answered in the
 world's own Sheol idiom (Dem XXII verified; the death-cycle hymns

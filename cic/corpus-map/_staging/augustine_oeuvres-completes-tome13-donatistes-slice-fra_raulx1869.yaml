@@ -1,8 +1,7 @@
 source_file: augustine_oeuvres-completes-tome13-donatistes-slice-fra_raulx1869.txt
 
 assignments:
-  - row_id: augustine_oeuvres-completes-tome13-donatistes-slice-fra_raulx1869--augustine-on-the-donatists-french-raulx-tome-13-slice
-    work: "Augustine on the Donatists (French, Raulx, tome 13, slice)"
+  - work: "Augustine on the Donatists (French, Raulx, tome 13, slice)"
     author: augustine
     locus: "whole file; item lines 66199-81631 of the source volume"
     atlas_ids:

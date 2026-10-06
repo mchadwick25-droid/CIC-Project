@@ -10,8 +10,7 @@ authors_ruled:
 
       '
 assignments:
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-pastor-of-hermas
-  work: The Pastor of Hermas
+- work: The Pastor of Hermas
   author: hermas
   locus: div1 2 (Visions div2 2.2, Commandments 2.3, Similitudes 2.4)
   atlas_ids:
@@ -22,8 +21,7 @@ assignments:
     The pseudonymity ruling above covers how it is filed, not where it belongs.
 
     '
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--address-to-the-greeks
-  work: Address to the Greeks
+- work: Address to the Greeks
   author: tatian
   locus: div2 3.2 under div1 'TATIAN'
   atlas_ids:
@@ -34,11 +32,11 @@ assignments:
   confidence: assigned
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
-    which the syr world already reaches through his Diatessaron in anf09. The row is `assigned`: the Address is inside this entry''s window on every dating read (c. 150-172, Contested); his later Encratite turn is reported by Irenaeus (Adv. haer. I.28.1) and is a disclosure duty, not a reason to hold the row provisional. greek-apologists-second-century
+    which the syr world already reaches through his Diatessaron in anf09. Provisional because
+    he was also later branded an Encratite. greek-apologists-second-century
     holds this work alongside pahc, for the era''s outward-facing writing; pahc is kept because
     the era and church-world are genuinely its.'
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--fragments-tatian
-  work: Fragments (Tatian)
+- work: Fragments (Tatian)
   author: tatian
   locus: div2 3.3 under div1 'TATIAN'
   atlas_ids:
@@ -49,8 +47,7 @@ assignments:
   note: 'Same author-placement doubt as the Address to the Greeks.
 
     '
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--theophilus-to-autolycus
-  work: Theophilus to Autolycus
+- work: Theophilus to Autolycus
   author: theophilus
   locus: div2 4.2 under div1 'THEOPHILUS'
   atlas_ids:
@@ -61,8 +58,7 @@ assignments:
   note: 'Theophilus, bishop of Antioch, c. 180 - squarely in the entry''s window and named
     region. greek-apologists-second-century holds this work alongside pahc, for the era''s
     outward-facing writing; pahc is kept because the era and church-world are genuinely its.'
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--a-plea-for-the-christians
-  work: A Plea for the Christians
+- work: A Plea for the Christians
   author: athenagoras
   locus: div2 5.2 under div1 'ATHENAGORAS'
   atlas_ids:
@@ -75,8 +71,7 @@ assignments:
     home may appear in a later survey. greek-apologists-second-century holds this work alongside
     pahc, for the era''s outward-facing writing; pahc is kept because the era and church-world
     are genuinely its.'
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-resurrection-of-the-dead
-  work: The Resurrection of the Dead
+- work: The Resurrection of the Dead
   author: athenagoras
   locus: div2 5.3 under div1 'ATHENAGORAS'
   atlas_ids:
@@ -87,8 +82,7 @@ assignments:
   note: 'Same placement doubt as the Plea. greek-apologists-second-century holds this work
     alongside pahc, for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--exhortation-to-the-heathen-protrepticus
-  work: Exhortation to the Heathen (Protrepticus)
+- work: Exhortation to the Heathen (Protrepticus)
   author: clement_alex
   locus: div2 6.2 under div1 'CLEMENT OF ALEXANDRIA'
   atlas_ids:
@@ -98,8 +92,7 @@ assignments:
   note: 'Already cited by alx.source.clement-protrepticus.
 
     '
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-instructor-paedagogus
-  work: The Instructor (Paedagogus)
+- work: The Instructor (Paedagogus)
   author: clement_alex
   locus: div2 6.3 under div1 'CLEMENT OF ALEXANDRIA'
   atlas_ids:
@@ -109,8 +102,7 @@ assignments:
   note: 'Already cited by alx.source.clement-paidagogos.
 
     '
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-stromata-or-miscellanies
-  work: The Stromata, or Miscellanies
+- work: The Stromata, or Miscellanies
   author: clement_alex
   locus: div2 6.4 under div1 'CLEMENT OF ALEXANDRIA'
   atlas_ids:
@@ -121,8 +113,7 @@ assignments:
     teachers'' words is carried by a separate context entry below.
 
     '
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-stromata-or-miscellanies-2
-  work: The Stromata, or Miscellanies
+- work: The Stromata, or Miscellanies
   author: clement_alex
   locus: div2 6.4 under div1 'CLEMENT OF ALEXANDRIA'
   atlas_ids:
@@ -137,8 +128,7 @@ assignments:
     context assignment; that question is still open.
 
     '
-- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--who-is-the-rich-man-that-shall-be-saved
-  work: Who is the Rich Man that shall be saved?
+- work: Who is the Rich Man that shall be saved?
   author: clement_alex
   locus: div2 6.5 under div1 'CLEMENT OF ALEXANDRIA'
   atlas_ids:

@@ -85,15 +85,6 @@ modern_contrast: 'A modern reader might expect the founder of a reform movement 
   documented turning point: Luther returning, against his prince''s wishes, specifically to slow his own
   followers down, and rebuking his own congregation - not his enemies - for having learned to repeat doctrine
   without yet living it.'
-use_note:
-  means: "In March 1522 Luther returned unbidden from the Wartburg and preached eight days in disordered Wittenberg, saying they had reform's words but not its love."
-  not_for:
-    - "Karlstadt's own account or fuller trajectory, which the library holds only through an editor's characterization"
-    - "the printed sermon text as complete, since it begins mid-address"
-    - "the Peasants' War of 1525, a later and different episode"
-    - "the teaching on 'must' and 'free' in full, which sits in witt.term.must-and-free"
-  years: {from: 1522, to: 1522}
-  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S05 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/luther_works-v2-selected_jacobs-

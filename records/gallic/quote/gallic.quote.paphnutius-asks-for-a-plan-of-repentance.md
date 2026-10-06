@@ -60,14 +60,6 @@ modern_rendering: >-
   he lay face down, with complete humility of mind. For almost two weeks he humbled himself like this,
   in deep sorrow of body and spirit. Early on Saturday and Sunday mornings he came to church, but not to
   receive Holy Communion. He came to lie face down on its threshold and humbly ask for pardon.
-use_note:
-  means: "Piamun, in Cassian's Conferences, tells how the innocent Paphnutius accepted penance for the theft rather than defend himself, fearing to be called a liar."
-  not_for:
-    - "a rule that the falsely accused should always accept guilt, rather than one monk's choice"
-    - "the accuser's possession and Paphnutius's vindication, which sit in gallic.quote.paphnutius-the-thief-possessed-and-healed"
-    - "Gallic communion practice, when the Saturday and Sunday detail is Egyptian"
-  years: {from: 426, to: 435}
-  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "And
 when the inquisitors"` returns line 43039 (this quote's opening sentence begins there); `grep -n "humbly

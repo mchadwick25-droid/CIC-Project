@@ -85,13 +85,6 @@ modern_contrast: >-
   backed, not church against a secular or pagan state. It is also this record's richest direct
   evidence of ordinary lay participation, corroborated from outside by Augustine - not only a story
   about clergy and emperors.
-use_note:
-  means: "In 386 a congregation held its Milan basilica against the Homoian court singing through the night, in a dispute over which confession the state backed."
-  not_for:
-    - "a claim that a persecuted minority resisted a secular or pagan state"
-    - "a claim that the court acted with force and no legal pretext"
-  years: {from: 386, to: 386}
-  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 4
 (Story-Chunks/ijcstory004) - the world's richest single narrative and

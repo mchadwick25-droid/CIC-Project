@@ -61,14 +61,6 @@ tensions:
 - almost everything we know about these costs comes from the one side that survived to write about it;
   the friend appointed to the hard post, and the mother who grieved, both had a side of this we cannot
   fully hear
-use_note:
-  means: "This witness says belonging cost friendships and family peace, citing Sasima and Naucratius, and that letters held scattered communities together."
-  not_for:
-    - "the Sasima wound as a two-sided account, when only the wounded friend's side survives"
-    - "Naucratius's wilderness life as typical lay practice"
-    - "letters as the only bond, set against the psalms and customs other witnesses name"
-  years: {from: 357, to: 379}
-  status: reviewed
 ---
 Closes F5-P. The letters-as-what-held-us-together claim is drawn directly
 from cappadocian.core.cappadocian's own formation_logic

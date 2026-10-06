@@ -45,13 +45,6 @@ senses:
     to heal and to train, never to destroy.'
 quick_meaning: God's patient training of the soul, in all of life.
 distortion_risk: medium
-use_note:
-  means: "Paideia meant God's way of raising souls through Scripture, teachers, and even hardship, the shape of providence rather than classroom technique."
-  not_for:
-    - "describing it as punishment for its own sake"
-    - "treating it as classroom pedagogy"
-  years: {from: 180, to: 254}
-  status: reviewed
 ---
 Modern hearing: 'pedagogy' as classroom technique. World hearing: the
 shape of providence. Ties the divine-pedagogy gravity to the F6

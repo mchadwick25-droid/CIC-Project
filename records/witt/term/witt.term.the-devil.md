@@ -104,14 +104,6 @@ senses:
     we speak.
 quick_meaning: A real, personal enemy. Our Word, sacraments, and catechism are our daily defense.
 distortion_risk: high
-use_note:
-  means: "The devil meant a real, personal enemy named in sermon, hymn, prayer and confession, against whom Word, sacraments and catechism are daily defences."
-  not_for:
-    - "the devil as a metaphor or figure of speech for evil in general"
-    - "a scholarly apocalyptic reading of the whole movement as the world's own self-understanding"
-    - "the pope as one of his instruments, which sits in witt.term.pope-and-antichrist"
-  years: {from: 1522, to: 1546}
-  status: reviewed
 ---
 Built from Doc_06 §5 entry 4.7 (the devil, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none -- both voices, every register; the apocalyptic frame is unread and not built on here. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

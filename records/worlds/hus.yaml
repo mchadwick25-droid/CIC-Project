@@ -1,8 +1,0 @@
-kind: formation
-world_id: the-hussite-and-bohemian-brethren-movement
-display_name: "The Hussite and Bohemian Brethren Movement"
-time_window: {start: 1402, end: 1517}
-census_id: "the-hussite-and-bohemian-brethren-movement"
-state: candidate
-safety_adjacent: false
-living_tradition_flag: true

@@ -28,13 +28,6 @@ nearest_material:
 relations:
 - type: associated-with
   target: desert.dw.born-again
-use_note:
-  means: "The record attests giving away everything but names no tithe or fixed share, so it cannot say how proportional giving was decided."
-  not_for:
-    - "Narrating a rule or practice of tithing"
-    - "Presenting almsgiving as a fixed proportion"
-  years: {from: 320, to: 430}
-  status: reviewed
 ---
 Named rather than filled: this world's own logic of total renunciation
 (desert.story.antony-call) structurally excludes the proportional-

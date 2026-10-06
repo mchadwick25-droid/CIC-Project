@@ -1,4 +1,4 @@
-"""One-time (re-runnable) generator: Appendix A -> engine/canon/records/canon_question/*.md
+"""One-time (re-runnable) generator: Appendix A -> records/_fleet/canon_question/*.md
 (stage 3, Build-Blueprint.md SS5: "Canon v1 as records"). QUESTIONS below is a
 verbatim transcription of CiC-Program-Spec.md's Appendix A - every text string,
 cell, and source tag copied exactly, nothing paraphrased or invented. That
@@ -30,7 +30,7 @@ from pathlib import Path
 import yaml
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-OUT_DIR = REPO_ROOT / "engine" / "canon" / "records" / "canon_question"
+OUT_DIR = REPO_ROOT / "records" / "_fleet" / "canon_question"
 
 # (cell, text, source_tags, extra_tags) - source_tags per Appendix A's own
 # tag syntax: [corpus] / [ext] / [new] / [corpus+ext] / [ext+corpus] all

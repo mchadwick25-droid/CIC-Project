@@ -103,15 +103,6 @@ tensions:
 - no acta of our own councils survive on their own terms, so how often we met, how we deliberated, and
   what else we decided cannot be recovered
 relations: []
-use_note:
-  means: "Donatist councils of bishops governed with real force and insisted on order of procedure at 411, while Donatists rejected councils whose venue, rules and enforcement belonged to a state favouring their rival."
-  not_for:
-    - "a claim that Donatist conciliar acta survive on their own terms"
-    - "a claim that any Donatist council ruled on who Christ is"
-    - "a claim that the surviving council documents are free of opponents' selection"
-    - "a claim about persecution, petitions to the emperor or the three recourses, which sit in don.dw.the-emperor-and-the-church"
-  years: {from: 313, to: 411}
-  status: reviewed
 ---
 Closes F1-E. Both of the cell's variants are answered, and the second one
 ("a council basically voted Jesus into being God") is answered by

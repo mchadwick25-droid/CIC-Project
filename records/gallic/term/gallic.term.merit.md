@@ -101,15 +101,6 @@ quick_meaning: >-
   Two rooms, one word. At Marseilles, what our effort cannot claim against grace, which goes first.
   At Tours, the saint's standing by which we ask a miracle.
 distortion_risk: high
-use_note:
-  means: "Merit meant two things in two rooms: at Marseilles what effort cannot claim against grace, at Tours the saint's standing before God by which a miracle is asked."
-  not_for:
-    - "works-righteousness, or earning salvation"
-    - "merit in the later scholastic sense, or a treasury of saints' merits"
-    - "the broader doctrine, which sits in gallic.term.grace"
-    - "the saint's power as such, which sits in gallic.term.virtus"
-  years: {from: 404, to: 426}
-  status: reviewed
 ---
 Built from Doc_06 entry 046 (`galliclex046_merit.md`, Tier 2, tags SC TC DR; Doc_03 5.7). The
 two referents are kept apart in every field, per the chunk's own voice note. CT tag not applied
