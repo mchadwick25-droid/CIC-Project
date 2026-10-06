@@ -676,4 +676,4 @@ Gates: `records cappadocian` PASS; `regate cappadocian --base origin/main` PASS;
 
 Package: `packages/cappadocian/2026-10-06T23-00-29Z`, pinned in `records/worlds/cappadocian.yaml`.
 
-Status: OPEN.
+Status: round 2 (Opus, `Build/Ministry/Operations/Audits/cappadocian_identity_scaffolding_review_round2_2026-10-06.md`) cleared the records and OG-36. Approved to proceed.
