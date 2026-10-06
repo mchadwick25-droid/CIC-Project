@@ -404,3 +404,24 @@ Errors in the voice's replies, each confirmed against the records by an independ
 (1) Sealed probe f6-i: the reply says "Demetrius had him ordained in another city without his consent"; `alx.story.origen-demetrius` has Palestinian bishops ordaining Origen without Demetrius's consent, and Demetrius condemning it.
 
 Status: OPEN.
+
+### OG-17. Identity-and-scaffolding pass on alx witness text, 2026-10-06.
+Question-form openers and second-person stage directions removed from 12 doctrinal witnesses: `alx.dw.apostolic`, `alx.dw.church-failure`, `alx.dw.councils`, `alx.dw.doubt`, `alx.dw.empire`, `alx.dw.god`, `alx.dw.one-church`, `alx.dw.original-sin`, `alx.dw.record`, `alx.dw.resurrection`, `alx.dw.suffering`, `alx.dw.was-jesus-god`. Each now opens with the world's own first statement. Where a later sentence leaned on the removed question, the antecedent is now stated in the opening sentence ("when belief was disputed", "about why God allows it").
+
+What moved. `alx.dw.original-sin`: the closing clause "We did not speak of guilt at birth" moved to the opening, as the direct answer to the question it replaced. `alx.dw.suffering`: the second answer's rhetorical question became a statement ("in the plague, God was in the brothers and sisters who did not run"). `alx.dw.one-church`: the second-person question about a present-day church became "Whether any present-day church is 'our church' reaches past what we can see." `alx.dw.apostolic`: "You should hear that stated, not smoothed over" became "We say it plainly and do not smooth it over." `alx.dw.councils` and `alx.dw.empire`: some sentences were split to keep the readability floor after the question sentences were removed; no clause was added or dropped.
+
+Identity witness. `alx.dw.jesus` already opens with who ("To us Jesus is the Logos - God's own Word, through whom all things were made - come in flesh") and is unchanged. `alx.dw.was-jesus-god` now opens "From the beginning we worshiped Jesus as the Logos, God's own Word, and we baptized into Father, Son, and Holy Spirit." The sentence "Our answer moves across our own century" was dropped as scaffolding; the development across the century is still told in the sentences that follow.
+
+Wording that adds content. `alx.dw.empire` now opens "We lived Constantine's empire inside one lifetime. What we saw was double." The name Constantine came from the removed question and is now stated in the text; the sentence "Before 325 there were three centuries" is unchanged. `alx.dw.church-failure` now states "Our churches had failures", which the question implied and the rest of the paragraph already tells. `alx.dw.doubt` now opens "Our teachers left room for doubt", which the paragraph already holds ("Doubt aimed at understanding was not treated as sin").
+
+Quotes. No quoted passage was edited or reordered, so none was re-verified against `cic/texts/` in this pass. The quoted words in the changed paragraphs ('transmitted in orderly succession...', 'handed down', 'God the Word', 'Trinity', 'Catholic') are untouched except that the opening question that carried 'Catholic' was removed.
+
+Oblique. This world is not oblique: its witnesses answer directly, so every witness leads with who or what, in the kind asked.
+
+Known-wrong claims carried unchanged (see OG-15, 2026-10-04): the post-Nicene exile claim in `alx.dw.church-failure`; "Origen compared manuscript readings" in `alx.dw.record`; "exiled him five times for defending it" in `alx.dw.empire`; "after 318" in `alx.dw.one-church`. For the project lead; not fixed here.
+
+Left alone. Terms and stories carry no scaffolding in their spoken fields. `modern_contrast` and `absent_detail` on several stories carry record-voice directions to the teller ("a telling should say so", "the telling must keep 'the tradition says' audible") and record cross-references; they are not participant-question scaffolding, so were not touched. `alx.dw.jesus` keeps "Between those two sentences lies the whole answer"; the phrase refers to the two quoted sentences and was left for the reviewer. Term `translational` fields hold modern questions as keys and are out of scope. No demonstration records were examined.
+
+Gates, 2026-10-06. `engine.m10.cli records alx`: PASS. `engine.m10.cli regate alx --base origin/main`: PASS (after the `alx.dw.councils` and `alx.dw.empire` sentence splits). `engine.m2.cli determinism-check alx`: PASS. `engine.m10.cli deployed alx`: PASS. Package `2026-10-06T22-02-26Z`, manifest hash `sha256:60e7d99ccc676633b6c2930e99a2c04edbbc12009faaf498f40928273bdd2d50`; pin updated in `records/worlds/alx.yaml`.
+
+Status: OPEN.

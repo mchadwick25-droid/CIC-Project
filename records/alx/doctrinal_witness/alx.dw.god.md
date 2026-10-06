@@ -25,18 +25,19 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  What did we believe about God? One God, the maker of all things. He
-  is good, and beyond every image and every clever description. And he is
-  never alone: his Word and his Spirit are his own - not lesser gods, and not
+  We believed in one God, the maker of all things. He is good, and
+  beyond every image and every clever description. And he is never
+  alone: his Word and his Spirit are his own - not lesser gods, and not
   created things. (Only after Nicaea was that last part said with full
-  clarity.) God is known the way light is known. You do not stare at the sun;
-  you see everything else by it. We argued about much: where the soul
-  - the psyche - comes from, the shape of the end, how far philosophy could
-  walk with faith. Our teachers drew one careful line. What the apostles
-  delivered plainly stood fixed. Everything else was open ground, where asking
-  questions was itself a way of loving God. Our deepest habit was to speak of
-  God as a teacher. The whole creation is his school. Scripture is his main
-  lesson. And the slow healing of a soul is his patient method.
+  clarity.) God is known the way light is known. You do not stare at the
+  sun; you see everything else by it. We argued about much: where the
+  soul - the psyche - comes from, the shape of the end, how far
+  philosophy could walk with faith. Our teachers drew one careful line.
+  What the apostles delivered plainly stood fixed. Everything else was
+  open ground, where asking questions was itself a way of loving God.
+  Our deepest habit was to speak of God as a teacher. The whole creation
+  is his school. Scripture is his main lesson. And the slow healing of a
+  soul is his patient method.
 positions:
 - There is one God, creator and good. The church refused the Gnostic split between a creator and a redeemer.
 - the Word and Spirit belong to God's own being
