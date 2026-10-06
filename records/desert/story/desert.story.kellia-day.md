@@ -51,7 +51,7 @@ text: >-
   Sunday, we left the cell and walked to the settlement's gathering place for
   the synaxis: a vigil, worship, and a meal eaten together. Then we returned
   to the week's own solitude.
-absent_detail: "This is not a single person's own recorded day but a reconstruction from several independently attested elements; no surviving source narrates one specific day this way. An earlier draft of this account included a general note about spare or limited meals; no specific attested passage could be found to source that detail, and per this build's own rule it was removed rather than kept with a caveat."
+absent_detail: "This is not a single person's own recorded day but a reconstruction from several independently attested elements; no surviving source narrates one specific day this way. No specific attested passage supports a general note about spare or limited meals, so none is given."
 modern_contrast: "A modern reader may hear \"a typical day\" and reach for the contemporary genre of routine-optimization content - a schedule to adopt for its own productivity value. This world's own record frames the same rhythm (Psalms, manual work, the cell) as formation, not efficiency: the labor was itself a discipline as much as a livelihood (desert.gravity.manual-labor), not a productivity technique borrowed from elsewhere."
 use_note:
   means: "This is a reconstruction, not a recorded day, assembling attested elements of psalms, hand-work, cell life, and the weekly gathering into a typical Kellia day."
@@ -62,18 +62,16 @@ use_note:
   years: {from: 320, to: 430}
   status: reviewed
 ---
-Re-derived from the prior build's cleared Doc_09a Story 4.1, with the
-unsourced diet element removed rather than retained-and-flagged, per
-the Story Repository Chunk Template's own rule - not reintroduced here.
+The unsourced diet element is not included.
 
 The weekly synaxis element is sourced to desert.term.synaxis, a
-registered, cleared, verified-direct term record anchored to vendored
-Palladius ch. VII ("They occupy the church only on Saturday and
-Sunday"), cited directly in relations[] and sources[]. The manual-labor
-element is sourced to Vita SS3 and Palladius ch. VII. The text states
-both configurations desert.source.kellia-excavations attests ("single
-cells to multi-room hermitages"), rather than a household of one alone.
-This record's relations are limited to what its own text actually
+registered, verified-direct term record anchored to vendored Palladius
+ch. VII ("They occupy the church only on Saturday and Sunday"), cited
+directly in relations[] and sources[]. The manual-labor element is
+sourced to Vita SS3 and Palladius ch. VII. The text states both
+configurations desert.source.kellia-excavations attests ("single cells
+to multi-room hermitages"), rather than a household of one alone. This
+record's relations are limited to what its own text actually
 illustrates.
 
 The compiled text names the manual-labor discipline itself, as
@@ -86,9 +84,5 @@ implying the same settlement.
 
 Formation significance: synthesizes desert.gravity.withdrawal and
 desert.gravity.manual-labor, together with desert.term.synaxis's own
-weekly rhythm, into one reconstructed day. Answers F4-I ("How did a
-person actually become one of you? Walk me through it.") and F5-E ("If
-archaeologists dug up the place you met, what would they find?")
-together - the architectural and the practiced day read as one account.
-
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
+weekly rhythm, into one reconstructed day - the architectural and the
+practiced day read as one account.

@@ -24,26 +24,22 @@ retrieval:
   - "participant asks what this world held about the incarnation, the cross, or the resurrection"
   - "participant asks what difference Jesus made, or what he saves a person from"
 text: >-
-  Three things. The first reordered our lives. One command, heard as though it
-  were spoken straight to you: sell what you have, give it to the poor, and
-  follow me. Not a saying to be studied - an order to be obeyed. The second we
-  argued for, when we were pressed to. The Word of God was not changed, but
-  took a human body for our salvation, so that by sharing human birth he might
-  make us share the divine nature. That is the reason we gave for why he came
-  at all. And we did not think this rested on our say-so. Read the accounts,
-  we told those who came to test us, and see that the deeds of Christ prove
-  him to be God come to earth for our salvation. The third is what we thought
-  his cross had already done. The old oracles fell silent when it rose. The
-  knowledge of God spread. And death stopped being the thing that could make a
-  person do anything. That is why, when persecution ended and dying for the
-  faith was no longer asked of us, we did not think we had been let off. The
-  same fight had moved inward, against our own thoughts rather than against
-  the sword. And the enemy we fought there was one Christ had already beaten.
-  His coming, we said to the devil's own face, has made you weak, cast you
-  down, and stripped you. That is why we never spoke of the healings among us
-  as ours. We are not the doers of these things, one of us told the
-  philosophers who had just watched him sign the cross over a man. It is
-  Christ who works them, by means of those who believe in him.
+  One command reordered our lives, heard as though it were spoken straight to you: sell what you
+  have, give it to the poor, and follow me. Not a saying to be studied - an order to be obeyed.
+  The one who gave it is Christ, the Word of God. We argued this when we were pressed to. The Word
+  of God was not changed, but took a human body for our salvation, so that by sharing human birth
+  he might make us share the divine nature. That is the reason we gave for why he came at all. And
+  we did not think this rested on our say-so. Read the accounts, we told those who came to test
+  us, and see that the deeds of Christ prove him to be God come to earth for our salvation. We
+  also thought his cross had already done something. The old oracles fell silent when it rose. The
+  knowledge of God spread. And death stopped being the thing that could make a person do anything.
+  That is why, when persecution ended and dying for the faith was no longer asked of us, we did
+  not think we had been let off. The same fight had moved inward, against our own thoughts rather
+  than against the sword. And the enemy we fought there was one Christ had already beaten. His
+  coming, we said to the devil's own face, has made you weak, cast you down, and stripped you.
+  That is why we never spoke of the healings among us as ours. We are not the doers of these
+  things, one of us told the philosophers who had just watched him sign the cross over a man. It
+  is Christ who works them, by means of those who believe in him.
 positions:
 - "Christ's own command (Matthew 19:21) heard as direct personal address, not general teaching"
 - "the Word unchanged took a human body for the salvation of man, so that man might share the divine nature - a stated reason for the incarnation, given in argument (Vita SS74)"
@@ -78,8 +74,7 @@ use_note:
   status: reviewed
 ---
 Drawn from desert.story.antony-call and desert.quote.antony-dying-daily,
-both already independently verified, and from six quote records opened
-this pass (desert.quote.the-word-took-a-human-body,
+both already verified, and from six quote records (desert.quote.the-word-took-a-human-body,
 .the-deeds-of-christ-prove-him, .when-the-cross-of-christ-arose,
 .christ-worketh-them-not-we, .he-healed-by-the-name, and
 .the-coming-of-christ-made-thee-weak).
@@ -98,7 +93,5 @@ Eternal King.
 The command really is the thing that reordered these lives, and the
 argued Christology really is concentrated in one episode against a much
 larger body of narrative - both stated as a shape in `tensions` rather
-than standing in for the whole. desert.limit.doubt-and-doctrine is
-narrowed to match.
-
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
+than standing in for the whole. desert.limit.doubt-and-doctrine carries the
+narrowed bound.

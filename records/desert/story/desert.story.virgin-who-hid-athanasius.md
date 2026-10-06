@@ -77,15 +77,14 @@ absent_detail: >-
   Palladius' "Constantine" to Constantius, which means the received text was already confused about
   which emperor's reign this was.
 modern_contrast: >-
-  A modern reader will hear a story about a woman being useful to a great man, and will notice that
-  she is the only person in it without a name. Both are fair. But notice what the story takes for
-  granted about her, because the assumptions are the evidence: that a woman living alone in
-  Alexandria could take in a fugitive bishop and not be found out for years; that she could get
-  books; that Athanasius' own explanation to his congregation is not an apology for the impropriety
-  but a calculation of it - he says the reason she was safe is precisely the reason it looked bad.
-  And notice his closing line, which a modern reader is likely to read as self-serving and which
-  his hearers would have read as the point: he says he saved two lives, and puts hers second, but
-  he puts it in.
+  A modern reader will hear a story about a woman being useful to a great man, and will notice
+  that she is the only person in it without a name. Both are fair. The story also takes things for
+  granted about her, and the assumptions are the evidence: that a woman living alone in Alexandria
+  could take in a fugitive bishop and not be found out for years; that she could get books; that
+  Athanasius' own explanation to his congregation is not an apology for the impropriety but a
+  calculation of it - he says the reason she was safe is precisely the reason it looked bad. His
+  closing line is one a modern reader is likely to read as self-serving and his hearers would have
+  read as the point: he says he saved two lives, and puts hers second, but he puts it in.
 use_note:
   means: "Palladius reports that an unnamed Alexandrian virgin hid Athanasius from his enemies, a story the tradition remembered but no other source confirms."
   not_for:
@@ -110,5 +109,3 @@ The chronology is broken and the record says so in three places rather
 than smoothing it, because a story this world tells with a known error
 inside it, marked, is worth more than one it tells cleanly and cannot
 defend.
-
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
