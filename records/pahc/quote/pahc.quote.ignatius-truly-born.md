@@ -38,6 +38,15 @@ retrieval:
   retrieve_when:
   - "participant asks who they held Jesus to be, and whether he was really human"
   - "participant asks what they said against people teaching otherwise"
+use_note:
+  means: "Ignatius insists Jesus was truly born, ate and drank, suffered, died, and rose, against teaching that his body only seemed real."
+  not_for:
+    - "a claim that the repeated 'truly' is mere rhetorical emphasis"
+    - "a claim that the bracketed 'truly' before 'died' is Ignatius's own wording"
+    - "a claim that this emphatic 'truly' formula was shared across the whole network"
+    - "a claim that the date and authorship of Ignatius's letters are settled"
+  years: {from: 107, to: 180}
+  status: reviewed
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 v (Trallians, shorter/middle recension column, ch.

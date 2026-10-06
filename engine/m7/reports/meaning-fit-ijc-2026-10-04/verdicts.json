@@ -1,0 +1,2346 @@
+{
+ "u0001": {
+  "verdict": "accepted",
+  "reason": "Stays within the limit: the record has no wedding or account of how a marriage was made."
+ },
+ "u0005": {
+  "verdict": "accepted",
+  "reason": "Restates the record's claim that both sides argued from the same texts."
+ },
+ "u0009": {
+  "verdict": "misread",
+  "reason": "The record mentions only forgeries in Damasus's name, not his verse inscriptions or pilgrim access."
+ },
+ "u0013": {
+  "verdict": "accepted",
+  "reason": "Correctly gives the quote as a private letter after Thessalonica."
+ },
+ "u0017": {
+  "verdict": "misread",
+  "reason": "Nothing in the record about the documentary core supports this claim about buildings and words."
+ },
+ "u0021": {
+  "verdict": "accepted",
+  "reason": "Verbatim record detail on Theodosius's baptism."
+ },
+ "u0025": {
+  "verdict": "accepted",
+  "reason": "Matches the record's forgiveness-after-repentance point."
+ },
+ "u0029": {
+  "verdict": "defensible",
+  "reason": "Glosses 'built the claim into stone at the martyr shrines' as 'pilgrim roads of verse', a looser paraphrase."
+ },
+ "u0033": {
+  "verdict": "accepted",
+  "reason": "Matches the record's admission that it barely says how the unlettered received scripture."
+ },
+ "u0037": {
+  "verdict": "accepted",
+  "reason": "Exact definition of primatus."
+ },
+ "u0041": {
+  "verdict": "accepted",
+  "reason": "Leo's full statement of the Petrine succession claim is within the gravity record."
+ },
+ "u0045": {
+  "verdict": "accepted",
+  "reason": "Faithful to Ambrose's Pauline argument in the record."
+ },
+ "u0049": {
+  "verdict": "accepted",
+  "reason": "Matches the record: preached at least twice in the surviving sermons."
+ },
+ "u0053": {
+  "verdict": "accepted",
+  "reason": "Matches the record: the Jewish community has no voice."
+ },
+ "u0057": {
+  "verdict": "accepted",
+  "reason": "Restates the record's Petrine-verse-as-office claim."
+ },
+ "u0061": {
+  "verdict": "accepted",
+  "reason": "Singing through the night in the 386 vigil matches the story."
+ },
+ "u0065": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim that the record was kept by the winners."
+ },
+ "u0069": {
+  "verdict": "accepted",
+  "reason": "Verbatim honest-limit phrasing."
+ },
+ "u0073": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0077": {
+  "verdict": "accepted",
+  "reason": "Restates the record's description of baptism."
+ },
+ "u0081": {
+  "verdict": "accepted",
+  "reason": "Matches the record's point that the instruments can be cross-checked, showing both strength and limit."
+ },
+ "u0085": {
+  "verdict": "accepted",
+  "reason": "Quotes the 325 creed's content accurately; the paragraph notes the contest."
+ },
+ "u0089": {
+  "verdict": "accepted",
+  "reason": "Verbatim record content from Leo's letter."
+ },
+ "u0093": {
+  "verdict": "accepted",
+  "reason": "The besieged congregation singing psalms is the one attested scene."
+ },
+ "u0097": {
+  "verdict": "defensible",
+  "reason": "The record mentions willingness to face exile; the two-sided exile history goes beyond it."
+ },
+ "u0101": {
+  "verdict": "accepted",
+  "reason": "Verbatim record conclusion."
+ },
+ "u0105": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim of settled premise."
+ },
+ "u0109": {
+  "verdict": "misread",
+  "reason": "The record concerns church office as state-adjacent power, not basilicas converted from civic buildings."
+ },
+ "u0113": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0117": {
+  "verdict": "accepted",
+  "reason": "Correctly references the 386 basilica standoff."
+ },
+ "u0121": {
+  "verdict": "accepted",
+  "reason": "Verbatim record fact."
+ },
+ "u0125": {
+  "verdict": "accepted",
+  "reason": "Verbatim record conclusion."
+ },
+ "u0129": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0133": {
+  "verdict": "accepted",
+  "reason": "Baptism as the threshold, as in the record."
+ },
+ "u0137": {
+  "verdict": "accepted",
+  "reason": "Julius asserting Rome's authority to review judgments matches the record."
+ },
+ "u0141": {
+  "verdict": "accepted",
+  "reason": "Restates the honest limit."
+ },
+ "u0145": {
+  "verdict": "defensible",
+  "reason": "'Shut him out of the sacrament' overstates the letter's conditional refusal to offer the sacrifice in his presence."
+ },
+ "u0149": {
+  "verdict": "accepted",
+  "reason": "Accurate quotation, including the disclaimer about defiance."
+ },
+ "u0153": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0157": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim about Hilary and Ambrose."
+ },
+ "u0161": {
+  "verdict": "misread",
+  "reason": "The record says nothing about catacombs as burial places."
+ },
+ "u0165": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim about the Damasus forgeries."
+ },
+ "u0169": {
+  "verdict": "accepted",
+  "reason": "Verbatim record item."
+ },
+ "u0173": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0177": {
+  "verdict": "accepted",
+  "reason": "Restates scripture as binding authority for office, law, and boundary."
+ },
+ "u0181": {
+  "verdict": "misread",
+  "reason": "The Jesus record says nothing about deferring baptism."
+ },
+ "u0185": {
+  "verdict": "accepted",
+  "reason": "Public penance and submission are within the story's means."
+ },
+ "u0189": {
+  "verdict": "accepted",
+  "reason": "Verbatim record item, in the present-tense voice."
+ },
+ "u0193": {
+  "verdict": "defensible",
+  "reason": "Turns preached exhortation into a description of what the congregation actually did, which edges toward how widely the standard was kept."
+ },
+ "u0197": {
+  "verdict": "defensible",
+  "reason": "The Justina record supports a coercive basilica contest; the 'not to hide' framing is inference."
+ },
+ "u0201": {
+  "verdict": "defensible",
+  "reason": "Adds a general soteriological claim (salvation through Christ) beyond what the baptism record says."
+ },
+ "u0205": {
+  "verdict": "defensible",
+  "reason": "Treats a sermon on Peter and Paul as Leo's full primacy statement and adds 'graves Rome guards', which the text does not say."
+ },
+ "u0209": {
+  "verdict": "misread",
+  "reason": "Projects an unbroken succession to the present papacy, outside the window and beyond the record's evidentiary chain."
+ },
+ "u0213": {
+  "verdict": "defensible",
+  "reason": "The quote is accurate, but framed within the church-door scene, so a private letter is blended with the later dramatic telling."
+ },
+ "u0217": {
+  "verdict": "accepted",
+  "reason": "Accurately references barring the emperor from the altar after Thessalonica."
+ },
+ "u0221": {
+  "verdict": "accepted",
+  "reason": "The Julius custom appeal is in the record."
+ },
+ "u0225": {
+  "verdict": "accepted",
+  "reason": "Verbatim record detail."
+ },
+ "u0229": {
+  "verdict": "defensible",
+  "reason": "The Jerome part is accurate, but it is paired with the verse inscriptions, which this notice does not describe."
+ },
+ "u0233": {
+  "verdict": "accepted",
+  "reason": "Correctly identifies Paschasinus as the speaker."
+ },
+ "u0237": {
+  "verdict": "accepted",
+  "reason": "Restates the record's soteriological point."
+ },
+ "u0241": {
+  "verdict": "accepted",
+  "reason": "Summarises creed content faithfully."
+ },
+ "u0245": {
+  "verdict": "accepted",
+  "reason": "Matches the record: public words about Jesus, not private ones."
+ },
+ "u0249": {
+  "verdict": "defensible",
+  "reason": "Generalises 'no devotional memoirs about Jesus' to all devotional reflection on God."
+ },
+ "u0253": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0257": {
+  "verdict": "accepted",
+  "reason": "Restates the limit on private inner struggle."
+ },
+ "u0261": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0265": {
+  "verdict": "accepted",
+  "reason": "Consistent with the record's silence on private prayer."
+ },
+ "u0269": {
+  "verdict": "defensible",
+  "reason": "A conversational disclaimer the record does not itself supply, though it does not misstate the record."
+ },
+ "u0273": {
+  "verdict": "defensible",
+  "reason": "That hymns were sung is in the record, but it is wrongly inferred from the mother's prayer rather than from the custom statement."
+ },
+ "u0277": {
+  "verdict": "accepted",
+  "reason": "Correctly gives the assembly's acclamation after the legate's recitation."
+ },
+ "u0281": {
+  "verdict": "accepted",
+  "reason": "The emperor's remedy is implicit in Ambrose protecting the guilty; it fits the story."
+ },
+ "u0285": {
+  "verdict": "accepted",
+  "reason": "Christ's word and the non-metaphorical teaching to the newly baptized are in the record."
+ },
+ "u0289": {
+  "verdict": "accepted",
+  "reason": "Exact gloss of tomus."
+ },
+ "u0293": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0297": {
+  "verdict": "accepted",
+  "reason": "Homoousios and the long fight are within the record."
+ },
+ "u0301": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0305": {
+  "verdict": "defensible",
+  "reason": "The local bishop's urging is a detail beyond the story record and rests on Ambrose's uncorroborated account."
+ },
+ "u0309": {
+  "verdict": "accepted",
+  "reason": "Augustine's account of the people keeping watch, ready to die with their bishop."
+ },
+ "u0313": {
+  "verdict": "accepted",
+  "reason": "Within the term, with the contest acknowledged."
+ },
+ "u0317": {
+  "verdict": "accepted",
+  "reason": "Matches the vigil story's psalm-singing under siege."
+ },
+ "u0321": {
+  "verdict": "accepted",
+  "reason": "Verbatim term gloss."
+ },
+ "u0325": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0329": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0333": {
+  "verdict": "accepted",
+  "reason": "Verbatim record framing."
+ },
+ "u0337": {
+  "verdict": "accepted",
+  "reason": "Within the record: narrow coverage, interested framing, Damasus forgeries."
+ },
+ "u0341": {
+  "verdict": "accepted",
+  "reason": "Chalcedon's one person in two natures matches the record via Leo."
+ },
+ "u0345": {
+  "verdict": "accepted",
+  "reason": "Framing line from the record."
+ },
+ "u0349": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0353": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0357": {
+  "verdict": "defensible",
+  "reason": "Leo's specific reply is not in the brief story record, though it is consistent with his rejection of the canon."
+ },
+ "u0361": {
+  "verdict": "misread",
+  "reason": "The record does not address catacombs or hiding."
+ },
+ "u0365": {
+  "verdict": "accepted",
+  "reason": "Verbatim record conclusion."
+ },
+ "u0369": {
+  "verdict": "accepted",
+  "reason": "Consistent with the limit."
+ },
+ "u0373": {
+  "verdict": "defensible",
+  "reason": "'Never sole' adds a claim the record does not make, though it is consistent with council rulings being binding."
+ },
+ "u0377": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0381": {
+  "verdict": "defensible",
+  "reason": "The gravity record speaks of enforceable standing, not specifically of scripture used to assert it."
+ },
+ "u0385": {
+  "verdict": "defensible",
+  "reason": "Extends the drive beyond the record's 341-451 window into later continuation."
+ },
+ "u0389": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0393": {
+  "verdict": "defensible",
+  "reason": "Adds instruction in the creed, which this record does not mention."
+ },
+ "u0397": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0401": {
+  "verdict": "accepted",
+  "reason": "Restates the question, as the record frames it."
+ },
+ "u0405": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0409": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim, consistent with not_for."
+ },
+ "u0413": {
+  "verdict": "accepted",
+  "reason": "Proportional giving on a yearly day, as the record says, with no fixed tithe."
+ },
+ "u0417": {
+  "verdict": "defensible",
+  "reason": "Describes Julius treating Rome's review as settled custom without noting the dispute the record stresses."
+ },
+ "u0421": {
+  "verdict": "accepted",
+  "reason": "Exact term gloss."
+ },
+ "u0425": {
+  "verdict": "accepted",
+  "reason": "Matches the story: the authority question left open."
+ },
+ "u0429": {
+  "verdict": "misread",
+  "reason": "The Jesus record does not speak of giving up old gods or delaying baptism."
+ },
+ "u0433": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0437": {
+  "verdict": "accepted",
+  "reason": "Verbatim record item."
+ },
+ "u0441": {
+  "verdict": "accepted",
+  "reason": "Verbatim record phrase."
+ },
+ "u0445": {
+  "verdict": "accepted",
+  "reason": "Accurate paraphrase of the Tome and the tomus gloss."
+ },
+ "u0449": {
+  "verdict": "accepted",
+  "reason": "Exact term attribution."
+ },
+ "u0453": {
+  "verdict": "defensible",
+  "reason": "The record does not list three further authorities; this goes beyond its scope."
+ },
+ "u0457": {
+  "verdict": "accepted",
+  "reason": "Reception of the Tome at Chalcedon is in the story."
+ },
+ "u0461": {
+  "verdict": "accepted",
+  "reason": "Correctly flags Ammianus as a hostile outsider."
+ },
+ "u0465": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0469": {
+  "verdict": "defensible",
+  "reason": "The claim that the halls still stand today goes beyond the term record."
+ },
+ "u0473": {
+  "verdict": "misread",
+  "reason": "The Augustine quotation is not in this record, which says no such account of struggling with scripture survives."
+ },
+ "u0477": {
+  "verdict": "accepted",
+  "reason": "Faithful to the quote, and the paragraph notes Athanasius's mediation."
+ },
+ "u0481": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0485": {
+  "verdict": "defensible",
+  "reason": "Canon 28's content goes beyond the story label, though it is consistent with it."
+ },
+ "u0489": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0493": {
+  "verdict": "defensible",
+  "reason": "Applies presbeia to present-day Constantinopolitan self-understanding, outside the window."
+ },
+ "u0497": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0501": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0505": {
+  "verdict": "accepted",
+  "reason": "Consistent with the limit on ordinary voices."
+ },
+ "u0509": {
+  "verdict": "accepted",
+  "reason": "Council rulings as binding authority fall within the record's means."
+ },
+ "u0513": {
+  "verdict": "accepted",
+  "reason": "Summarises scripture as binding and contested, as the record says."
+ },
+ "u0517": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0521": {
+  "verdict": "accepted",
+  "reason": "Matches the not_for cautions (not scriptural, not settled)."
+ },
+ "u0525": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0529": {
+  "verdict": "accepted",
+  "reason": "Canon 6's appeal to ancient custom."
+ },
+ "u0533": {
+  "verdict": "defensible",
+  "reason": "Exile over definitions is in the record; standing in imperial law and loss of sees is an extension."
+ },
+ "u0537": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0541": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim."
+ },
+ "u0545": {
+  "verdict": "defensible",
+  "reason": "Loose paraphrase: 'fear God more than they fear their enemies' is not in the text."
+ },
+ "u0549": {
+  "verdict": "accepted",
+  "reason": "Correct attribution of the acclamation."
+ },
+ "u0553": {
+  "verdict": "accepted",
+  "reason": "Treats the contested reading as unsettled, as the record requires."
+ },
+ "u0557": {
+  "verdict": "accepted",
+  "reason": "Verbatim record item."
+ },
+ "u0561": {
+  "verdict": "accepted",
+  "reason": "Claim and contest both documented, as the story says."
+ },
+ "u0565": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0569": {
+  "verdict": "accepted",
+  "reason": "Verbatim record framing of the homoios/homoousios dispute."
+ },
+ "u0573": {
+  "verdict": "accepted",
+  "reason": "Correctly states that the record lacks inner-life material."
+ },
+ "u0577": {
+  "verdict": "accepted",
+  "reason": "Within the story's means."
+ },
+ "u0581": {
+  "verdict": "defensible",
+  "reason": "Calls Leo's Petrine succession ground 'entirely precedent', blurring the record's distinction between apostolic succession and custom."
+ },
+ "u0585": {
+  "verdict": "accepted",
+  "reason": "Verbatim record claim about emperors under church discipline."
+ },
+ "u0002": {
+  "verdict": "accepted",
+  "reason": "Paraphrases the record's point that this world begins where persecution ends."
+ },
+ "u0006": {
+  "verdict": "accepted",
+  "reason": "Matches the record's description of baptism."
+ },
+ "u0010": {
+  "verdict": "accepted",
+  "reason": "Exclusion from the altar until repentance fits the story as told from Ambrose's letter."
+ },
+ "u0014": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0018": {
+  "verdict": "defensible",
+  "reason": "The record shows the synod claiming it adds nothing; 'produce a definition' and 'spoke for the apostles' stretch it."
+ },
+ "u0022": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0026": {
+  "verdict": "defensible",
+  "reason": "Content matches the Tome, but saying Leo's 449 letter 'settled' the matter at Chalcedon goes beyond this quote record."
+ },
+ "u0030": {
+  "verdict": "defensible",
+  "reason": "Primatus is glossed correctly, but 'used scripture' adds a basis this term record does not state."
+ },
+ "u0034": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0038": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0042": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's framing of Leo's premise."
+ },
+ "u0046": {
+  "verdict": "accepted",
+  "reason": "Paraphrases the record's point that its sources come from courts and bishops."
+ },
+ "u0050": {
+  "verdict": "accepted",
+  "reason": "Matches the record's account of the Nicene word fight."
+ },
+ "u0054": {
+  "verdict": "accepted",
+  "reason": "Matches the record: leverage that restrained massacre here protected the guilty."
+ },
+ "u0058": {
+  "verdict": "accepted",
+  "reason": "The record says Rome rejected Canon 28."
+ },
+ "u0062": {
+  "verdict": "accepted",
+  "reason": "Matches the record: preserved by Athanasius and disputed by those addressed."
+ },
+ "u0066": {
+  "verdict": "accepted",
+  "reason": "Matches the record's two-natures confession and Leo's rationale."
+ },
+ "u0070": {
+  "verdict": "accepted",
+  "reason": "The record says both sides argued from scripture."
+ },
+ "u0074": {
+  "verdict": "accepted",
+  "reason": "The congregation keeping vigil, glossed from the eyewitness, fits the record."
+ },
+ "u0078": {
+  "verdict": "accepted",
+  "reason": "Correctly gives Constantinople's ground as imperial proximity."
+ },
+ "u0082": {
+  "verdict": "accepted",
+  "reason": "Matches the quote: sin done away only by tears and repentance."
+ },
+ "u0086": {
+  "verdict": "accepted",
+  "reason": "Summarizes the record's strong documentary spine and pairs it with its limits."
+ },
+ "u0090": {
+  "verdict": "accepted",
+  "reason": "Christological content matches the Tome received at Chalcedon."
+ },
+ "u0094": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0098": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0102": {
+  "verdict": "accepted",
+  "reason": "Repeats the record's own redirect to the church's own acts."
+ },
+ "u0106": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0110": {
+  "verdict": "accepted",
+  "reason": "Exact quotation."
+ },
+ "u0114": {
+  "verdict": "accepted",
+  "reason": "Matches the record: the authority question was left open by Canon 28 and Rome's rejection."
+ },
+ "u0118": {
+  "verdict": "accepted",
+  "reason": "Matches the record's congregation holding the basilica, singing."
+ },
+ "u0122": {
+  "verdict": "accepted",
+  "reason": "Same council, not same session; within the record."
+ },
+ "u0126": {
+  "verdict": "misread",
+  "reason": "The emperor turned away at the church door is the later dramatic scene, presented here as fact."
+ },
+ "u0130": {
+  "verdict": "accepted",
+  "reason": "Restates the record's limit on private prayer."
+ },
+ "u0134": {
+  "verdict": "defensible",
+  "reason": "Extends the term homoousios (Son-Father) to a full three-persons Trinitarian formula it does not define."
+ },
+ "u0138": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0142": {
+  "verdict": "accepted",
+  "reason": "Matches the record's sacramental ground as distinct from office."
+ },
+ "u0146": {
+  "verdict": "accepted",
+  "reason": "A reasonable framing of the vigil as costly holding against the court."
+ },
+ "u0150": {
+  "verdict": "accepted",
+  "reason": "Restates the record's meaning almost verbatim."
+ },
+ "u0154": {
+  "verdict": "accepted",
+  "reason": "Matches the record: no ordinary believer's account of struggling with scripture survives."
+ },
+ "u0158": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0162": {
+  "verdict": "defensible",
+  "reason": "An empty fragment with no claim of its own, so the use cannot be confirmed."
+ },
+ "u0166": {
+  "verdict": "accepted",
+  "reason": "Points to the record's silence without treating the contested claim as settled."
+ },
+ "u0170": {
+  "verdict": "accepted",
+  "reason": "Ambrose's Pauline premise as given in the record."
+ },
+ "u0174": {
+  "verdict": "accepted",
+  "reason": "Presented as an outsider's verdict on the fight for Rome's see, as the record means."
+ },
+ "u0178": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0182": {
+  "verdict": "accepted",
+  "reason": "Matches the record's closing claim."
+ },
+ "u0186": {
+  "verdict": "accepted",
+  "reason": "Defines the term and honors its contested history."
+ },
+ "u0190": {
+  "verdict": "accepted",
+  "reason": "Matches Augustine's dating and his claim of wide imitation."
+ },
+ "u0194": {
+  "verdict": "accepted",
+  "reason": "The Pauline line Leo cites, as given in the record."
+ },
+ "u0198": {
+  "verdict": "accepted",
+  "reason": "Paraphrases the record's 'no devotional memoirs'."
+ },
+ "u0202": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of the record's opening claim."
+ },
+ "u0206": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0210": {
+  "verdict": "defensible",
+  "reason": "Gives Ambrose's specific reasoning, which this one-line story record does not contain."
+ },
+ "u0214": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0218": {
+  "verdict": "accepted",
+  "reason": "Matches the record's closing claim."
+ },
+ "u0222": {
+  "verdict": "accepted",
+  "reason": "Verbatim teaching from the record."
+ },
+ "u0226": {
+  "verdict": "defensible",
+  "reason": "Gloss and content are right, but the Tome was not a letter to the council; the record says only that it went ahead to Chalcedon."
+ },
+ "u0230": {
+  "verdict": "accepted",
+  "reason": "Matches the record's description of Leo's letter."
+ },
+ "u0234": {
+  "verdict": "accepted",
+  "reason": "Fair paraphrase of Augustine's opening claim about the power given through kings."
+ },
+ "u0238": {
+  "verdict": "accepted",
+  "reason": "The record names the emperor's public penance."
+ },
+ "u0242": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0246": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0250": {
+  "verdict": "accepted",
+  "reason": "Defines the term as the record does."
+ },
+ "u0254": {
+  "verdict": "defensible",
+  "reason": "Says the record cannot say how to forgive the unrepentant, though the record offers the bishop's example as its answer."
+ },
+ "u0258": {
+  "verdict": "accepted",
+  "reason": "Conditional framing keeps authenticity open, as the record requires."
+ },
+ "u0262": {
+  "verdict": "accepted",
+  "reason": "Rewords 'born again' as joining but keeps the record's decisive-threshold point."
+ },
+ "u0266": {
+  "verdict": "accepted",
+  "reason": "The record names Damasus building the claim into stone at martyr shrines."
+ },
+ "u0270": {
+  "verdict": "accepted",
+  "reason": "Restates the record's three channels."
+ },
+ "u0274": {
+  "verdict": "accepted",
+  "reason": "Matches the record's 'inheritance, not memory'."
+ },
+ "u0278": {
+  "verdict": "accepted",
+  "reason": "Keeps to the record's limit on ordinary believers' inner experience."
+ },
+ "u0282": {
+  "verdict": "accepted",
+  "reason": "Communion as standing, as the term record defines it."
+ },
+ "u0286": {
+  "verdict": "accepted",
+  "reason": "Keeps to the record's limit on ordinary believers' inner experience."
+ },
+ "u0290": {
+  "verdict": "accepted",
+  "reason": "Keeps the record's caveat about Eusebius's motive claim."
+ },
+ "u0294": {
+  "verdict": "accepted",
+  "reason": "Correctly gives the acclamation to the bishops after Paschasinus's recitation."
+ },
+ "u0298": {
+  "verdict": "accepted",
+  "reason": "Matches the record's claim that the councils could not add."
+ },
+ "u0302": {
+  "verdict": "defensible",
+  "reason": "'Left open' is the record's; 'still unresolved' today goes beyond its window."
+ },
+ "u0306": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0310": {
+  "verdict": "accepted",
+  "reason": "Barring from communion pending repentance fits Ambrose's letter."
+ },
+ "u0314": {
+  "verdict": "accepted",
+  "reason": "Presents the claim as disputed, as the record says."
+ },
+ "u0318": {
+  "verdict": "accepted",
+  "reason": "Fact stated in the record, with no motive claimed."
+ },
+ "u0322": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0326": {
+  "verdict": "accepted",
+  "reason": "Accurate quotation used as Rome's appeal to custom."
+ },
+ "u0330": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0334": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0338": {
+  "verdict": "defensible",
+  "reason": "'Over any ruler' generalizes leverage the record bounds to Ambrose's career."
+ },
+ "u0342": {
+  "verdict": "accepted",
+  "reason": "Restates the record's claim that tortured testimony belongs to the earlier age."
+ },
+ "u0346": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0350": {
+  "verdict": "accepted",
+  "reason": "Keeps the record's caveat about Eusebius's motive claim."
+ },
+ "u0354": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0358": {
+  "verdict": "accepted",
+  "reason": "Keeps the record's caveat about Eusebius's motive claim."
+ },
+ "u0362": {
+  "verdict": "accepted",
+  "reason": "Follows from the record: the guilty were protected and the community has no voice."
+ },
+ "u0366": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0370": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0374": {
+  "verdict": "accepted",
+  "reason": "Correctly gives the recitation to Paschasinus."
+ },
+ "u0378": {
+  "verdict": "defensible",
+  "reason": "'Called it yearly' implies annual preaching; the record says it was preached at least twice and tied to a yearly day."
+ },
+ "u0382": {
+  "verdict": "accepted",
+  "reason": "Verbatim quotation from the record."
+ },
+ "u0386": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0390": {
+  "verdict": "accepted",
+  "reason": "Canon 28's content fits the record's rival Constantinopolitan claim."
+ },
+ "u0394": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0398": {
+  "verdict": "accepted",
+  "reason": "Introduces the record's Chalcedon example as told there."
+ },
+ "u0402": {
+  "verdict": "accepted",
+  "reason": "Paraphrases the record's point that the claim of age was a contested tool."
+ },
+ "u0406": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0410": {
+  "verdict": "accepted",
+  "reason": "Matches the record: the congregation held the basilica."
+ },
+ "u0414": {
+  "verdict": "accepted",
+  "reason": "Uses communio as standing at the altar, matching the term."
+ },
+ "u0418": {
+  "verdict": "accepted",
+  "reason": "Restates the record's framing of Callinicum."
+ },
+ "u0422": {
+  "verdict": "accepted",
+  "reason": "Proportional giving on a yearly day, no fixed tenth; within the record."
+ },
+ "u0426": {
+  "verdict": "defensible",
+  "reason": "Turns a contested claim about office-centered piety into a point about church buildings, a loose fit."
+ },
+ "u0430": {
+  "verdict": "defensible",
+  "reason": "The claim that these words are still said today goes past this record and its years."
+ },
+ "u0434": {
+  "verdict": "misread",
+  "reason": "Invents architectural details and identifies the building as Sant'Ambrogio, none of which the record supports."
+ },
+ "u0438": {
+  "verdict": "accepted",
+  "reason": "Keeps Eusebius's motive as his claim, not as fact."
+ },
+ "u0442": {
+  "verdict": "accepted",
+  "reason": "Frames the question as the record does."
+ },
+ "u0446": {
+  "verdict": "accepted",
+  "reason": "Correctly gives the opening recitation to the Roman legate."
+ },
+ "u0450": {
+  "verdict": "accepted",
+  "reason": "Fits the record's drive for exact binding words."
+ },
+ "u0454": {
+  "verdict": "accepted",
+  "reason": "Psalm-singing under siege steadying people fits the record."
+ },
+ "u0458": {
+  "verdict": "accepted",
+  "reason": "Verbatim limit from the record."
+ },
+ "u0462": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0466": {
+  "verdict": "accepted",
+  "reason": "The record states the basilica was never surrendered."
+ },
+ "u0470": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0474": {
+  "verdict": "misread",
+  "reason": "Says something about shared bread and cup that the basilica term record does not contain."
+ },
+ "u0478": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0482": {
+  "verdict": "accepted",
+  "reason": "Matches the record's proportional measure judged by God."
+ },
+ "u0486": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0490": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0494": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0498": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0502": {
+  "verdict": "accepted",
+  "reason": "Marks the claim as one reading only."
+ },
+ "u0506": {
+  "verdict": "accepted",
+  "reason": "Matches the term's definition."
+ },
+ "u0510": {
+  "verdict": "accepted",
+  "reason": "Leo's Tome, read at Chalcedon, faulting Eutyches on the creed; within the record."
+ },
+ "u0514": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0518": {
+  "verdict": "defensible",
+  "reason": "Adds a specific narrative sequence (refusal until an on-the-spot promise) that the record does not give."
+ },
+ "u0522": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0526": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0530": {
+  "verdict": "accepted",
+  "reason": "Matches the Tome's Christology as received at Chalcedon."
+ },
+ "u0534": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0538": {
+  "verdict": "accepted",
+  "reason": "Verbatim limit statement from the record."
+ },
+ "u0542": {
+  "verdict": "defensible",
+  "reason": "Extends the precedent habit past the record's window, into later continuity."
+ },
+ "u0546": {
+  "verdict": "accepted",
+  "reason": "Verbatim limit from the record."
+ },
+ "u0550": {
+  "verdict": "accepted",
+  "reason": "Matches the record's two grounds that never merge."
+ },
+ "u0554": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0558": {
+  "verdict": "defensible",
+  "reason": "Uses the Chalcedon Tome story record for Nicene creed wording it does not carry."
+ },
+ "u0562": {
+  "verdict": "accepted",
+  "reason": "Keeps Rome's ground (apostolic succession) distinct, as the record requires."
+ },
+ "u0566": {
+  "verdict": "accepted",
+  "reason": "Question taken from the record."
+ },
+ "u0570": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record: Theodosius placed under church discipline."
+ },
+ "u0574": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0578": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0582": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0586": {
+  "verdict": "accepted",
+  "reason": "Matches the term's definition."
+ },
+ "u0003": {
+  "verdict": "defensible",
+  "reason": "Paraphrases Ambrose's 386 formula as a general sacramental leverage that later continued, a generalization beyond the record."
+ },
+ "u0007": {
+  "verdict": "defensible",
+  "reason": "Tome's reception fits the record, but the quoted acclamation is not in the record text itself."
+ },
+ "u0011": {
+  "verdict": "accepted",
+  "reason": "Closely paraphrases the record's teaching on consecration changing bread and cup, not as metaphor."
+ },
+ "u0015": {
+  "verdict": "accepted",
+  "reason": "Matches Augustine's dating of Eastern-style hymnody to the vigil and its spread to nearly all congregations."
+ },
+ "u0019": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0023": {
+  "verdict": "defensible",
+  "reason": "Record supports hymn and psalm singing only; scripture reading and creed confession at ordinary gatherings are added generalizations."
+ },
+ "u0027": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's own statement."
+ },
+ "u0031": {
+  "verdict": "accepted",
+  "reason": "Correctly cites Nicaea Canon 6's appeal to ancient custom."
+ },
+ "u0035": {
+  "verdict": "accepted",
+  "reason": "Verbatim restatement of the limit record."
+ },
+ "u0039": {
+  "verdict": "accepted",
+  "reason": "Accurately paraphrases Canon 28's grounding in imperial-city status."
+ },
+ "u0043": {
+  "verdict": "accepted",
+  "reason": "Restates the limit that the record comes from doctrine and law, not households."
+ },
+ "u0047": {
+  "verdict": "accepted",
+  "reason": "Verbatim closing of the limit record."
+ },
+ "u0051": {
+  "verdict": "defensible",
+  "reason": "Record says Leo stated the claim fully, but 'Peter spoke through him' was the bishops' acclamation and the grave contrast is loose paraphrase."
+ },
+ "u0055": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0059": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0063": {
+  "verdict": "accepted",
+  "reason": "Quotes Leo's sermon accurately as a bishop's festal preaching."
+ },
+ "u0067": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0071": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's closing claim about the church's own stains."
+ },
+ "u0075": {
+  "verdict": "accepted",
+  "reason": "Verbatim summary line of the record."
+ },
+ "u0079": {
+  "verdict": "accepted",
+  "reason": "Matches the record's point that exact definitions were worth exile because the Son must be truly God."
+ },
+ "u0083": {
+  "verdict": "defensible",
+  "reason": "The tension record does not itself mention protecting the guilty, though the dual use is consistent with it."
+ },
+ "u0087": {
+  "verdict": "defensible",
+  "reason": "Keeps the authenticity question open but 'either way... forging' tilts toward the forgery reading."
+ },
+ "u0091": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0095": {
+  "verdict": "accepted",
+  "reason": "Quotes the Pauline line Leo uses in the record."
+ },
+ "u0099": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0103": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0107": {
+  "verdict": "misread",
+  "reason": "The record on source reliability says nothing about catacombs or basilica-building."
+ },
+ "u0111": {
+  "verdict": "defensible",
+  "reason": "Quote is accurate, but Augustine's presence 'years later as a bishop' and 'from his youth' garble the record's retrospective framing."
+ },
+ "u0115": {
+  "verdict": "accepted",
+  "reason": "Fits the Callinicum record of sacramental leverage protecting the guilty."
+ },
+ "u0119": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0123": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0127": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on Milan's new hymn custom."
+ },
+ "u0131": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0135": {
+  "verdict": "defensible",
+  "reason": "Record leaves the authority question open via Canon 28, but recasts it as council-versus-Roman-confirmation, a looser framing."
+ },
+ "u0139": {
+  "verdict": "accepted",
+  "reason": "Faithfully paraphrases Leo's yearly collection day and stewardship teaching."
+ },
+ "u0143": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0147": {
+  "verdict": "accepted",
+  "reason": "Record names the faith confessed at baptism."
+ },
+ "u0151": {
+  "verdict": "accepted",
+  "reason": "Matches the term's definition of a martyr's shrine."
+ },
+ "u0155": {
+  "verdict": "accepted",
+  "reason": "Fits the precision-seeking gravity's homoousios exactness."
+ },
+ "u0159": {
+  "verdict": "accepted",
+  "reason": "Correctly ties Canon 3's New Rome ground to rank after Rome."
+ },
+ "u0163": {
+  "verdict": "accepted",
+  "reason": "Matches presbeia as rank following the throne."
+ },
+ "u0167": {
+  "verdict": "accepted",
+  "reason": "Acclamation matches the session record; chain framing is within the record set."
+ },
+ "u0171": {
+  "verdict": "accepted",
+  "reason": "Keeps tortured testimony outside the window, as the limit record directs."
+ },
+ "u0175": {
+  "verdict": "accepted",
+  "reason": "Matches Callinicum as sacramental leverage protecting the guilty."
+ },
+ "u0179": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on remarriage as no sin."
+ },
+ "u0183": {
+  "verdict": "accepted",
+  "reason": "The formula fits the gravity's sacramental leverage against a ruler in 386."
+ },
+ "u0187": {
+  "verdict": "accepted",
+  "reason": "Near-verbatim from the record."
+ },
+ "u0191": {
+  "verdict": "misread",
+  "reason": "Ambrose's one-line refusal says nothing about barred doors, capacity, or wall thickness; the physical details are invented."
+ },
+ "u0195": {
+  "verdict": "defensible",
+  "reason": "The limit record concerns persecution-era questions; the ordinary believer's experience of the transition is an extrapolation, though consistent."
+ },
+ "u0199": {
+  "verdict": "accepted",
+  "reason": "Record treats past rulings as precedent alongside scripture as binding authority."
+ },
+ "u0203": {
+  "verdict": "accepted",
+  "reason": "Restates the limit that no ordinary believer's account survives."
+ },
+ "u0207": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the limit record."
+ },
+ "u0211": {
+  "verdict": "accepted",
+  "reason": "Quotes Canon 6 accurately as an appeal to custom."
+ },
+ "u0215": {
+  "verdict": "accepted",
+  "reason": "Correctly presents the Constantinopolitan imperial-city ground as distinct within the gravity."
+ },
+ "u0219": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0223": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0227": {
+  "verdict": "accepted",
+  "reason": "Accurate quotation of Augustine's retrospective with his mother present."
+ },
+ "u0231": {
+  "verdict": "accepted",
+  "reason": "Paraphrases the record's documentary spine of dated, signed instruments."
+ },
+ "u0235": {
+  "verdict": "accepted",
+  "reason": "Restates the gravity's two grounds of authority that never merge."
+ },
+ "u0239": {
+  "verdict": "accepted",
+  "reason": "Correctly marks the absence of any ordinary believer's account of struggling with scripture."
+ },
+ "u0243": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0247": {
+  "verdict": "accepted",
+  "reason": "Verbatim, correctly crediting Paschasinus."
+ },
+ "u0251": {
+  "verdict": "accepted",
+  "reason": "The record's 'at this time it was established' supports dating a new Eastern-style practice to the siege."
+ },
+ "u0255": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0259": {
+  "verdict": "accepted",
+  "reason": "Matches Augustine's mention of his mother among the watchers in 386."
+ },
+ "u0263": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0267": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0271": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0275": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0279": {
+  "verdict": "defensible",
+  "reason": "The limit record covers ordinary daily life, extended here to ordinary believers' inner sense of Jesus; consistent but a stretch."
+ },
+ "u0283": {
+  "verdict": "accepted",
+  "reason": "Matches the use note that the Jewish community has no voice and only Ambrose's account survives."
+ },
+ "u0287": {
+  "verdict": "accepted",
+  "reason": "Near-verbatim definition of communion as standing."
+ },
+ "u0291": {
+  "verdict": "accepted",
+  "reason": "Matches the record's communal psalm-singing under siege that steadied the people."
+ },
+ "u0295": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0299": {
+  "verdict": "accepted",
+  "reason": "Accurately quotes Ambrose's 390 letter on not offering the sacrifice."
+ },
+ "u0303": {
+  "verdict": "accepted",
+  "reason": "Matches the homoios definition and its imperial establishment."
+ },
+ "u0307": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0311": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0315": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0319": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0323": {
+  "verdict": "accepted",
+  "reason": "Matches the use note that only Ambrose's account survives."
+ },
+ "u0327": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0331": {
+  "verdict": "defensible",
+  "reason": "Paragraph flags the contest, but the sentence asserts the 'considered theory' reading of a single reported saying without hedging."
+ },
+ "u0335": {
+  "verdict": "accepted",
+  "reason": "Faithful to the limit and its one attested scene."
+ },
+ "u0339": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0343": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0347": {
+  "verdict": "accepted",
+  "reason": "Correctly rejects the contested 'generally received' reading in line with the use note."
+ },
+ "u0351": {
+  "verdict": "defensible",
+  "reason": "The emperor's rebuilding order is historically sound but goes beyond the record, which only names the affair and its meaning."
+ },
+ "u0355": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0359": {
+  "verdict": "accepted",
+  "reason": "Matches the vigil record of a congregation holding its basilica, singing."
+ },
+ "u0363": {
+  "verdict": "accepted",
+  "reason": "Accurate restatement of communion as standing."
+ },
+ "u0367": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0371": {
+  "verdict": "accepted",
+  "reason": "Quotes the Pauline line Leo uses in the record."
+ },
+ "u0375": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0379": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0383": {
+  "verdict": "accepted",
+  "reason": "Within the record's meaning that Ambrose's leverage protected the arsonists."
+ },
+ "u0387": {
+  "verdict": "misread",
+  "reason": "Attributes a seven-thousand death count to 'our record', which the record (built on Ambrose's own letter) does not carry."
+ },
+ "u0391": {
+  "verdict": "accepted",
+  "reason": "Matches the record's ranking of marriage below continence."
+ },
+ "u0395": {
+  "verdict": "defensible",
+  "reason": "Extends the window's Constantinopolitan claim into a present-day continuity the gravity record does not address."
+ },
+ "u0399": {
+  "verdict": "accepted",
+  "reason": "Fits the gravity's sacramental leverage over an emperor in 390."
+ },
+ "u0403": {
+  "verdict": "accepted",
+  "reason": "Matches the limit that no wedding is described."
+ },
+ "u0407": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0411": {
+  "verdict": "accepted",
+  "reason": "The Thessalonica restraint is the record's half of the paired account."
+ },
+ "u0415": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0419": {
+  "verdict": "accepted",
+  "reason": "Accurately quotes Canon 3."
+ },
+ "u0423": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0427": {
+  "verdict": "accepted",
+  "reason": "Verbatim framing from the limit record."
+ },
+ "u0431": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0435": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0439": {
+  "verdict": "defensible",
+  "reason": "Ties the present-day Roman claim to the window's primacy drive, a continuity the gravity record does not itself make."
+ },
+ "u0443": {
+  "verdict": "accepted",
+  "reason": "Within the record's meaning of Ambrose's leverage protecting the guilty, set against his other standoffs."
+ },
+ "u0447": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0451": {
+  "verdict": "accepted",
+  "reason": "Frames the limit consistently with the record."
+ },
+ "u0455": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the limit record."
+ },
+ "u0459": {
+  "verdict": "accepted",
+  "reason": "Faithfully paraphrases Ambrose's line on tears, repentance and forgiveness."
+ },
+ "u0463": {
+  "verdict": "accepted",
+  "reason": "Matches the record's point that custom-claims were advocacy in contests."
+ },
+ "u0467": {
+  "verdict": "defensible",
+  "reason": "The record names creed-confession as a channel but does not rank the conciliar creed as a first authority."
+ },
+ "u0471": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0475": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0479": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the limit record."
+ },
+ "u0483": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0487": {
+  "verdict": "accepted",
+  "reason": "Verbatim, with Eusebius kept as the sole interested source."
+ },
+ "u0491": {
+  "verdict": "defensible",
+  "reason": "Uses Canon 6's custom clause as a general rule that council rulings were read as precedent, broader than the canon itself."
+ },
+ "u0495": {
+  "verdict": "accepted",
+  "reason": "Restates the question framed by the limit record."
+ },
+ "u0499": {
+  "verdict": "misread",
+  "reason": "The limit record has no Augustine conversion anecdote and denies any record of private struggle with scripture; the content is unsupported by it."
+ },
+ "u0503": {
+  "verdict": "defensible",
+  "reason": "Ambrose not denying the burning is plausible but not stated in the record."
+ },
+ "u0507": {
+  "verdict": "accepted",
+  "reason": "Consistent with the limit that ordinary believers' own words were never written."
+ },
+ "u0511": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0515": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0519": {
+  "verdict": "accepted",
+  "reason": "Quotes the Pauline line Leo uses in the record."
+ },
+ "u0523": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0527": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0531": {
+  "verdict": "defensible",
+  "reason": "The precision gravity supports decades of conciliar argument, but exile and riot as its cost go beyond this record."
+ },
+ "u0535": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the term definition."
+ },
+ "u0539": {
+  "verdict": "defensible",
+  "reason": "The persecution-era boundary is in the record, but its use to debunk a catacomb-hiding picture goes beyond it."
+ },
+ "u0543": {
+  "verdict": "accepted",
+  "reason": "Matches the record's plain teaching to the newly baptized."
+ },
+ "u0547": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0551": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0555": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0559": {
+  "verdict": "accepted",
+  "reason": "Matches homoios as the imperial establishment's confession for a period."
+ },
+ "u0563": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0567": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the term definition."
+ },
+ "u0571": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the gravity record."
+ },
+ "u0575": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0579": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the gravity record."
+ },
+ "u0583": {
+  "verdict": "defensible",
+  "reason": "Emperor-funded basilicas match the term, but 'moved from catacombs' implies a catacomb-worship past the record does not state."
+ },
+ "u0004": {
+  "verdict": "accepted",
+  "reason": "Restates the limit's own statement about private prayer."
+ },
+ "u0008": {
+  "verdict": "accepted",
+  "reason": "Accurately describes the record's documentary spine of bishops, councils, laws and histories."
+ },
+ "u0012": {
+  "verdict": "accepted",
+  "reason": "Accurate quotation of Julius's 341 protest, with no claim of direct transmission."
+ },
+ "u0016": {
+  "verdict": "accepted",
+  "reason": "Fits the gravity's account of councils driven to exact wording."
+ },
+ "u0020": {
+  "verdict": "accepted",
+  "reason": "The record itself says the vision and dream accounts disagree."
+ },
+ "u0024": {
+  "verdict": "accepted",
+  "reason": "The record names the emperor's submission and public penance."
+ },
+ "u0028": {
+  "verdict": "accepted",
+  "reason": "Matches the record's account of Paschasinus reciting the chain."
+ },
+ "u0032": {
+  "verdict": "accepted",
+  "reason": "Within the record: no fixed tithe, conscience-proportioned stewardship."
+ },
+ "u0036": {
+  "verdict": "accepted",
+  "reason": "Respects the not_for by denying Milan was the first Latin hymnody."
+ },
+ "u0040": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's acknowledgement of winner-kept sources."
+ },
+ "u0044": {
+  "verdict": "accepted",
+  "reason": "Record states the Jewish community has no voice."
+ },
+ "u0048": {
+  "verdict": "defensible",
+  "reason": "The term defines primatus, but the 'unbroken chain' documentation claim comes from elsewhere, not this term."
+ },
+ "u0052": {
+  "verdict": "accepted",
+  "reason": "Matches the record's statement that giving was preached as required and matched to means."
+ },
+ "u0056": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0060": {
+  "verdict": "accepted",
+  "reason": "Record states Nicaea made law by appeal to ancient custom."
+ },
+ "u0064": {
+  "verdict": "accepted",
+  "reason": "Within the limit: no ordinary person's own account survives."
+ },
+ "u0068": {
+  "verdict": "accepted",
+  "reason": "Consistent with Ambrose using his leverage on behalf of the arsonists."
+ },
+ "u0072": {
+  "verdict": "accepted",
+  "reason": "Matches the record's account of the recited chain of faith."
+ },
+ "u0076": {
+  "verdict": "defensible",
+  "reason": "The letter quote is right, but the paragraph sets it in the later door scene the record marks as a later telling."
+ },
+ "u0080": {
+  "verdict": "accepted",
+  "reason": "Accurate quotation of the Chalcedonian definition."
+ },
+ "u0084": {
+  "verdict": "accepted",
+  "reason": "Raises the question the record answers only with channels."
+ },
+ "u0088": {
+  "verdict": "accepted",
+  "reason": "Record's own wording on inherited guilt as settled premise."
+ },
+ "u0092": {
+  "verdict": "accepted",
+  "reason": "Matches the limit's refusal to invent lived marriage."
+ },
+ "u0096": {
+  "verdict": "misread",
+  "reason": "Julius appealed to custom; the record does not say his custom claim was scripture read as office."
+ },
+ "u0100": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on cross-checkable instruments."
+ },
+ "u0104": {
+  "verdict": "misread",
+  "reason": "The church-state alliance record says nothing about the bread and cup set before converts."
+ },
+ "u0108": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0112": {
+  "verdict": "accepted",
+  "reason": "Presents Damasine decretal authenticity as disputed."
+ },
+ "u0116": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity's distinction between sacramental and positional authority."
+ },
+ "u0120": {
+  "verdict": "accepted",
+  "reason": "Matches the record's 386 vigil holding the basilica against the court."
+ },
+ "u0124": {
+  "verdict": "accepted",
+  "reason": "Restates the record's inheritance-not-memory claim."
+ },
+ "u0128": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on knowing the resurrection by received testimony."
+ },
+ "u0132": {
+  "verdict": "accepted",
+  "reason": "Accurately notes the secondhand transmission through Ambrose and Augustine."
+ },
+ "u0136": {
+  "verdict": "accepted",
+  "reason": "Faithful quotation of the 325 creed, not the 381 form."
+ },
+ "u0140": {
+  "verdict": "accepted",
+  "reason": "Record's own dating of Theodosius's baptism."
+ },
+ "u0144": {
+  "verdict": "accepted",
+  "reason": "Directly from the record's account of forgiveness following repentance."
+ },
+ "u0148": {
+  "verdict": "accepted",
+  "reason": "The record itself says the vision and dream accounts disagree."
+ },
+ "u0152": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on the 386 dated innovation."
+ },
+ "u0156": {
+  "verdict": "accepted",
+  "reason": "Directly from the record's sermon summary."
+ },
+ "u0160": {
+  "verdict": "accepted",
+  "reason": "Restates the record's opening."
+ },
+ "u0164": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on Homoian survival in enemies' histories."
+ },
+ "u0168": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on reading Matthew 16 as grant of office."
+ },
+ "u0172": {
+  "verdict": "accepted",
+  "reason": "The 386 standoff correctly precedes Callinicum."
+ },
+ "u0176": {
+  "verdict": "accepted",
+  "reason": "Record says it has the church's public words about Jesus."
+ },
+ "u0180": {
+  "verdict": "accepted",
+  "reason": "One of the record's three channels, stated as written."
+ },
+ "u0184": {
+  "verdict": "accepted",
+  "reason": "Matches the record's point that the same leverage protected the guilty."
+ },
+ "u0188": {
+  "verdict": "accepted",
+  "reason": "A faithful detail of the sacramental leverage the record describes."
+ },
+ "u0192": {
+  "verdict": "accepted",
+  "reason": "Record's own statement on proportion, not tithe."
+ },
+ "u0196": {
+  "verdict": "accepted",
+  "reason": "Fits the record's baptism-as-threshold meaning."
+ },
+ "u0200": {
+  "verdict": "accepted",
+  "reason": "Carries Eusebius's motive as his claim and our only source."
+ },
+ "u0204": {
+  "verdict": "accepted",
+  "reason": "Within the record's 'truly God' confession and begotten-not-made."
+ },
+ "u0208": {
+  "verdict": "accepted",
+  "reason": "Record's own statement on inward experience."
+ },
+ "u0212": {
+  "verdict": "accepted",
+  "reason": "Carries Eusebius's motive as his claim and our only source."
+ },
+ "u0216": {
+  "verdict": "accepted",
+  "reason": "Quotes the record's account of the bishop barring the emperor."
+ },
+ "u0220": {
+  "verdict": "misread",
+  "reason": "The Jesus record says nothing about baptism as the crossing; the claim is attributed to the wrong record."
+ },
+ "u0224": {
+  "verdict": "accepted",
+  "reason": "Record's own statement denying a fixed tithe law."
+ },
+ "u0228": {
+  "verdict": "defensible",
+  "reason": "The limit fits, but the record gives no account of catechumenal stages it claims it can describe."
+ },
+ "u0232": {
+  "verdict": "defensible",
+  "reason": "The gravity says Leo stated the claim, but the quoted sermon line on Peter and Paul is not in the record."
+ },
+ "u0236": {
+  "verdict": "accepted",
+  "reason": "Paraphrases Leo's 'each nature doing what belongs to it'."
+ },
+ "u0240": {
+  "verdict": "accepted",
+  "reason": "Matches the quoted custom claim for Rome."
+ },
+ "u0244": {
+  "verdict": "accepted",
+  "reason": "Accurate quotation of Ambrose's teaching."
+ },
+ "u0248": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0252": {
+  "verdict": "defensible",
+  "reason": "Uses the homoousios term for a broader three-persons formula the term does not state."
+ },
+ "u0256": {
+  "verdict": "accepted",
+  "reason": "Matches the record's meaning of leverage used to protect the guilty."
+ },
+ "u0260": {
+  "verdict": "defensible",
+  "reason": "Leo's position voiced as a settled verdict, where the story leaves the authority question open."
+ },
+ "u0264": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0268": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of reading scripture as binding authority."
+ },
+ "u0272": {
+  "verdict": "accepted",
+  "reason": "Names the subject of the limit."
+ },
+ "u0276": {
+  "verdict": "accepted",
+  "reason": "Correctly assigns the recitation to Paschasinus and the response to the bishops."
+ },
+ "u0280": {
+  "verdict": "accepted",
+  "reason": "Keeps the record's honest refusal to promise more than it gives."
+ },
+ "u0284": {
+  "verdict": "accepted",
+  "reason": "Accurate use of Leo's rebuke without ranking creed over scripture."
+ },
+ "u0288": {
+  "verdict": "defensible",
+  "reason": "The story is Julius's letter; the extension to Damasus, Leo and Chalcedon goes beyond it."
+ },
+ "u0292": {
+  "verdict": "accepted",
+  "reason": "Consistent with Augustine's account of the people keeping watch and singing."
+ },
+ "u0296": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on God judging each person's capacity."
+ },
+ "u0300": {
+  "verdict": "accepted",
+  "reason": "Record's own statement of the channels."
+ },
+ "u0304": {
+  "verdict": "accepted",
+  "reason": "Restates the limit's core claim."
+ },
+ "u0308": {
+  "verdict": "accepted",
+  "reason": "Record's own framing of three inherited channels."
+ },
+ "u0312": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0316": {
+  "verdict": "accepted",
+  "reason": "Reports Augustine's claim as his, per the record."
+ },
+ "u0320": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0324": {
+  "verdict": "accepted",
+  "reason": "Matches the term's definition of a council issuing binding rules."
+ },
+ "u0328": {
+  "verdict": "misread",
+  "reason": "Uses Jerome's notice for verse inscriptions in stone, which the not_for excludes."
+ },
+ "u0332": {
+  "verdict": "accepted",
+  "reason": "Keeps the claim conditional, as the contested record requires."
+ },
+ "u0336": {
+  "verdict": "accepted",
+  "reason": "Matches the term's definition."
+ },
+ "u0340": {
+  "verdict": "misread",
+  "reason": "Claims the leverage continued in later hands, though the record bounds it to Ambrose's career."
+ },
+ "u0344": {
+  "verdict": "accepted",
+  "reason": "Frames the question the record addresses."
+ },
+ "u0348": {
+  "verdict": "accepted",
+  "reason": "Record's own statement."
+ },
+ "u0352": {
+  "verdict": "accepted",
+  "reason": "Within the limit: no family's daily life is recorded."
+ },
+ "u0356": {
+  "verdict": "accepted",
+  "reason": "Respects the not_for on first Latin hymnody."
+ },
+ "u0360": {
+  "verdict": "accepted",
+  "reason": "Record's own statement; does not claim canon-fixing as this world's business."
+ },
+ "u0364": {
+  "verdict": "accepted",
+  "reason": "Record's own conclusion that some practices were known to be new."
+ },
+ "u0368": {
+  "verdict": "accepted",
+  "reason": "Accurate quotation of the sermon, presented as the closest approach to it."
+ },
+ "u0372": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0376": {
+  "verdict": "accepted",
+  "reason": "Record's own statement."
+ },
+ "u0380": {
+  "verdict": "accepted",
+  "reason": "Record's description of Leo's letter against Eutyches."
+ },
+ "u0384": {
+  "verdict": "misread",
+  "reason": "Places the 390 Thessalonica exclusion before the 388 Callinicum affair, reversing the record's chronology."
+ },
+ "u0388": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record on Homoian survival in enemies' histories."
+ },
+ "u0392": {
+  "verdict": "accepted",
+  "reason": "The term itself."
+ },
+ "u0396": {
+  "verdict": "misread",
+  "reason": "Augustine's passage concerns what makes emperors blessed, not doctrinal exclusivity of salvation."
+ },
+ "u0400": {
+  "verdict": "accepted",
+  "reason": "Matches communion as public standing at the altar, withheld as leverage."
+ },
+ "u0404": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0408": {
+  "verdict": "accepted",
+  "reason": "Record's own statement on the creed guarding the inheritance."
+ },
+ "u0412": {
+  "verdict": "accepted",
+  "reason": "Record's own conclusion that some practices were known to be new."
+ },
+ "u0416": {
+  "verdict": "accepted",
+  "reason": "Fits the term's note that the heresy boundary did not always point the same way."
+ },
+ "u0420": {
+  "verdict": "accepted",
+  "reason": "Record's own wording on deferral for seriousness."
+ },
+ "u0424": {
+  "verdict": "accepted",
+  "reason": "Matches the limit's placing of tortured testimony before the window."
+ },
+ "u0428": {
+  "verdict": "accepted",
+  "reason": "The record's one attested scene of psalm-singing under siege."
+ },
+ "u0432": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0436": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0440": {
+  "verdict": "accepted",
+  "reason": "Faithfully lists the record's three channels."
+ },
+ "u0444": {
+  "verdict": "defensible",
+  "reason": "Generalizes the Alexandria-specific custom claim to any disputed bishop."
+ },
+ "u0448": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity's imperial-proximity grounding for Constantinople."
+ },
+ "u0452": {
+  "verdict": "misread",
+  "reason": "The record concerns documentary coverage and framing; it says nothing about the church not being underground."
+ },
+ "u0456": {
+  "verdict": "accepted",
+  "reason": "Matches the story's framing of the claim as early and disputed."
+ },
+ "u0460": {
+  "verdict": "accepted",
+  "reason": "Accurately reports Canon 28's royal-city ground without claiming same session or tidy agreement."
+ },
+ "u0464": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0468": {
+  "verdict": "accepted",
+  "reason": "Accurate setup of the 388 affair the record names, with no claim of corroboration."
+ },
+ "u0472": {
+  "verdict": "accepted",
+  "reason": "Record's own dating."
+ },
+ "u0476": {
+  "verdict": "defensible",
+  "reason": "Extends 'binding authority' to creed and custom together as 'law', beyond what the record states."
+ },
+ "u0480": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0484": {
+  "verdict": "defensible",
+  "reason": "Loosely related to the record's shape, but the contested claim is about ordinary practice, not buildings."
+ },
+ "u0488": {
+  "verdict": "accepted",
+  "reason": "The term itself, used in its meaning."
+ },
+ "u0492": {
+  "verdict": "accepted",
+  "reason": "Raises the question the record answers only with channels."
+ },
+ "u0496": {
+  "verdict": "accepted",
+  "reason": "The record's own closing line, used in the same sense."
+ },
+ "u0500": {
+  "verdict": "defensible",
+  "reason": "Generalizes Julius's Alexandria-specific claim to any church disputing a bishop's standing."
+ },
+ "u0504": {
+  "verdict": "accepted",
+  "reason": "Reasonable application of the limit on household life to the catechumen's path."
+ },
+ "u0508": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0512": {
+  "verdict": "accepted",
+  "reason": "Record says Leo cites Paul twice."
+ },
+ "u0516": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0520": {
+  "verdict": "accepted",
+  "reason": "Record's own statement that the councils could not add to the testimony."
+ },
+ "u0524": {
+  "verdict": "accepted",
+  "reason": "The gravity asserts the unbroken evidentiary chain for Rome's claim."
+ },
+ "u0528": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0532": {
+  "verdict": "accepted",
+  "reason": "Correctly marks the text as Julius via Athanasius's quotation."
+ },
+ "u0536": {
+  "verdict": "accepted",
+  "reason": "Matches heresy as a judgment of faith with legal force."
+ },
+ "u0540": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0544": {
+  "verdict": "accepted",
+  "reason": "Fits the story of Leo refusing Canon 28."
+ },
+ "u0548": {
+  "verdict": "accepted",
+  "reason": "Restates the record's description of its documentary spine."
+ },
+ "u0552": {
+  "verdict": "accepted",
+  "reason": "Accurate quotation of the taught change by blessing."
+ },
+ "u0556": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0560": {
+  "verdict": "accepted",
+  "reason": "Record's own statement that baptism placed the emperor under church discipline."
+ },
+ "u0564": {
+  "verdict": "accepted",
+  "reason": "Basic fact of the affair the record names."
+ },
+ "u0568": {
+  "verdict": "accepted",
+  "reason": "Matches the record: 388, the same leverage used to reverse restitution."
+ },
+ "u0572": {
+  "verdict": "accepted",
+  "reason": "Matches the record's conclusion on giving."
+ },
+ "u0576": {
+  "verdict": "accepted",
+  "reason": "Restates the gravity's meaning."
+ },
+ "u0580": {
+  "verdict": "accepted",
+  "reason": "Record's own wording."
+ },
+ "u0584": {
+  "verdict": "misread",
+  "reason": "Treats Eusebius's single report as a settled 'considered theory', which the not_for excludes."
+ }
+}

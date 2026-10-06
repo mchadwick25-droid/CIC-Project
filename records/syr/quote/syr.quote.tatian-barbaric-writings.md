@@ -45,6 +45,14 @@ retrieval:
   - "participant asks how someone came to believe in the first place"
 relations:
 - {type: illustrates, target: syr.gravity.diatessaron-normative}
+use_note:
+  means: "Tatian, in his Address to the Greeks, says he came to faith after meeting ancient barbaric writings whose plain language, prophecy, precepts, and teaching of one God persuaded him."
+  not_for:
+    - "evidence about the Diatessaron itself, since the passage only illuminates its maker"
+    - "a text written inside this world's window, since Tatian wrote before 200"
+    - "a picture of how ordinary Syriac Christians came to faith"
+  years: {from: 160, to: 180}
+  status: reviewed
 ---
 Verified verbatim against the vendored file at anf02 line
 6972. DISCLOSED: the sentence beginning "Retiring by myself" is the

@@ -46,6 +46,14 @@ senses:
     who rushed on death ''banish themselves without being martyrs.'''
 quick_meaning: A witness who held fast under trial, even to death.
 distortion_risk: high
+use_note:
+  means: "Martys meant witness, one who held to Christ under trial even to death, and not a victim or a seeker of death."
+  not_for:
+    - "presenting the martyr as one who seeks death"
+    - "describing the martyr as a victim"
+    - "narrating martyrs' interior experience, which the sources attest only thinly"
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 Modern hearing: 'martyr complex', victimhood. World hearing: testimony.
 The one formation mode attested across every stratum (the T4 gravity's

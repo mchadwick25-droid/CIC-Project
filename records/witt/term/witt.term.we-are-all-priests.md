@@ -88,6 +88,13 @@ senses:
     the public office reserved to those regularly called -- one priesthood, many offices, no higher estate.'
 quick_meaning: Baptism makes every believer a priest. Public preaching still needs a proper call.
 distortion_risk: high
+use_note:
+  means: "'We are all priests' meant that baptism consecrates every Christian a priest with no rank among them, only different tasks, yet no public preaching without a call."
+  not_for:
+    - "'the priesthood of all believers' as religious individualism or lay preaching without any call"
+    - "the office's own definition apart from this claim, which sits in witt.term.office"
+  years: {from: 1520, to: 1531}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 6.2 ('we are all priests', Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none, weighted to Luther for the formula. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

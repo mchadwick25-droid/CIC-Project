@@ -99,6 +99,14 @@ senses:
     of formation, a public cause for which priests were killed.'
 quick_meaning: The most common and, we say, the noblest estate. Ordained by God at creation.
 distortion_risk: high
+use_note:
+  means: "Marriage meant the most common and noblest estate, ordained at creation before any vow, with pastors married and priests once put to death for marrying."
+  not_for:
+    - "marriage as a private romantic bond"
+    - "a woman's own voice on marriage, which the library does not hold"
+    - "vows, which sit in witt.term.vows"
+  years: {from: 1519, to: 1546}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 8.3 (marriage / matrimony, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none -- both voices, catechesis, exhortation, conversation, confession. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

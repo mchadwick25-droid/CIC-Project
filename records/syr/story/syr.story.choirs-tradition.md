@@ -52,6 +52,14 @@ modern_contrast: 'A modern reader is likely to take this as an in-window biograp
   marks it plainly as later memory instead - composed over a century after Ephrem''s
   death, telling what the next generation wanted to believe about how the hymns reached
   the people, not what this world''s own contemporary record attests.'
+use_note:
+  means: "The story that Ephrem founded the women's choirs first appears in Jacob of Serug around 500; in-window sources attest only that covenant daughters sang the madrashe."
+  not_for:
+    - "a claim that Ephrem founded or led the women's choirs as in-window fact"
+    - "a claim that the later tradition is this world's own testimony"
+    - "a claim that the covenant gravity rests on this story"
+  years: {from: 340, to: 373}
+  status: reviewed
 ---
 Re-derived from syrstory007 (Tier 3) - the material Doc_04's
 Revision Log forward-referenced for exactly this tiering.

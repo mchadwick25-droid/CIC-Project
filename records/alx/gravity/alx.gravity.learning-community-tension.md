@@ -30,11 +30,7 @@ relations:
   target: alx.gravity.learning-formation
 - {type: illustrated-by, target: alx.quote.timothy-ordinary-questions}
 name: Learning-Community (School-Breadth) Tension [TENSIONAL]
-description: 'The depth-formation the school could give the few, against the breadth-formation owed to
-  the whole worshipping community - population-separated poles, both real, neither surrendered. This is
-  the ecological form of the world''s own stratum problem: the ecology itself held the tension the surviving
-  evidence now makes hard to see from the community side (school pole Widely Accepted; community pole
-  Inferential-Thin).'
+description: 'One pole is the depth-formation the school could give the few. The other is the breadth-formation owed to the whole worshipping community. The poles are separated by population. Both are real. Neither is given up. This is the ecological form of the world''s own stratum problem. The ecology itself held the tension. The surviving evidence now makes it hard to see from the community side. The school side is well attested. The community side is thinly attested.'
 manifestations:
 - Clement's true-gnostic ideal against the Gnostic elite-knowing it refuses (knowledge for all, not a
   secret few)
@@ -42,6 +38,14 @@ manifestations:
   the calendar - no literacy required)'
 - the Festal Letters as the bishop's whole-community formation instrument
 classification: tensional
+use_note:
+  means: "The depth-formation the school gave the few and the breadth-formation owed the whole community are held together, the school side well attested and the community side thin."
+  not_for:
+    - "narrating the community pole's interior experience as if attested"
+    - "resolving the tension toward either pole"
+    - "treating the school's depth-formation as the whole community's"
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.6 T2. The community pole's interior is
 Inferential-Thin BY STRUCTURE (the stratum bias), so this record's

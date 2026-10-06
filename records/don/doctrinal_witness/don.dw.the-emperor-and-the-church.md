@@ -111,6 +111,15 @@ tensions:
 relations:
 - type: associated-with
   target: don.quote.donatus-quid-est-imperatori
+use_note:
+  means: "Donatists held that empire changed the church, met persecution as daylight seizures rather than catacombs, refused the Rome and Arles rulings, and owned three recourses to imperial power."
+  not_for:
+    - "a claim that Donatus's retort survives other than in Optatus's hostile framing"
+    - "a claim that the charges of Circumcellion violence are settled fact"
+    - "a claim that the Donatists never used imperial machinery"
+    - "a claim about how Donatist councils governed and judged their own cases, which sits in don.dw.who-decides-a-disputed-case"
+  years: {from: 313, to: 412}
+  status: reviewed
 ---
 Closes F3-E, the cell where this world is strongest, because the cell's
 central variant ("did Constantine corrupt the church - did the empire

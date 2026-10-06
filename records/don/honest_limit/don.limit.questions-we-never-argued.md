@@ -85,6 +85,13 @@ nearest_material:
 - don.story.lucilla-affair
 - don.term.liber-regularum
 - don.core.donatism
+use_note:
+  means: "Sharing their rivals' creed, Donatists argued only who may give the sacraments; nothing of theirs survives on inherited guilt, the bread, or faith against works."
+  not_for:
+    - "a claim that Donatists held a distinctive position on inherited guilt, the eucharistic bread, or faith against works"
+    - "a claim that the Donatist creed differed from the rival church's"
+  years: {from: 311, to: 439}
+  status: reviewed
 ---
 Closes F1-T as a declared absence rather than a strained witness. This is
 the cell the task's own guidance anticipates: a world whose

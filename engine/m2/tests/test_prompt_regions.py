@@ -1,8 +1,8 @@
 """The compiled prompt's two regions (engine/m2/builders.py::build_prompt).
 
-Above _GROUND_LINE: standing instruction - the fleet's own register/
-pronoun/citation/limit segment and this world's voice_craft. No ids, and
-none invented for it. Below: the world's own record, every section
+Above _GROUND_LINE: standing instruction - this world's voice_craft, beneath
+the engine's shape segment, which is sent ahead of the prompt as its own
+system block. No ids, and none invented for it. Below: the world's own record, every section
 addressed by an id in the [[id]] form the citation contract asks for.
 
 The thing actually under test is that voice_craft is never given the
@@ -15,17 +15,6 @@ discipline as test_demo_tagging.py's own.
 """
 from engine.m2.builders import _GROUND_LINE, build_prompt
 
-FLEET = {
-    "_fleet.voice.fleet": {
-        "id": "_fleet.voice.fleet",
-        "record_type": "fleet_voice",
-        "register_statements": [{"number": 1, "statement": "One idea per sentence."}],
-        "pronoun_rule": "Strict we-voice, always, for {world}.",
-        "citation_contract": "Every claim carries the id of the record it draws on.",
-        "limit_discipline": "What the ground does not support is spoken as our own limit.",
-    }
-}
-
 CRAFT = {
     "id": "fix.voice.craft",
     "record_type": "voice_craft",
@@ -33,7 +22,8 @@ CRAFT = {
     "identity": "Vera, Witness - a composite voice for the fixture world's two short sources.",
     "guard": "Honest thinness beats invented depth, absolutely.",
     "characteristic_concerns": ["what a short record can and cannot carry"],
-    "flavor_notes": [{"segment": "self-reference", "note": "Strict we-voice."}],
+    "flavor_notes": [{"segment": "place", "note": "The two sources stay concrete."},
+                     {"segment": "self-reference", "note": "Strict we-voice, restated."}],
 }
 
 CORE = {
@@ -57,7 +47,7 @@ REGISTRY_ENTRY = {"display_name": "Fixture World"}
 
 
 def _prompt() -> str:
-    return build_prompt(REPOSITORY, FLEET, REGISTRY_ENTRY).decode("utf-8")
+    return build_prompt(REPOSITORY, REGISTRY_ENTRY).decode("utf-8")
 
 
 def test_no_voice_craft_section_is_ever_addressed_by_an_id():
@@ -105,22 +95,26 @@ def test_the_ground_line_separates_the_untagged_half_from_the_addressed_half():
     assert "(cite as [[fix.witness.who-is-jesus]])" in below
 
 
-def test_the_fleet_preamble_stays_first_and_stays_untagged():
-    """It always was untagged, and it has never had an id invented for it -
-    that is the evidence the voice_craft move rests on."""
+def test_the_prompt_opens_with_who_we_are_naming_the_world():
+    """The shape segment's sanctioned "I am a representative of" points here
+    for the world's own name."""
     prompt = _prompt()
-    assert prompt.startswith("## Register")
-    assert prompt.index("## Register") < prompt.index("## Who we are") < prompt.index(_GROUND_LINE)
+    assert prompt.startswith("## Who we are\n\nOur world's name: Fixture World.\n\n" + CRAFT["identity"])
+    assert "## Register" not in prompt and "## Citation contract" not in prompt
 
 
-def test_a_prompt_with_no_standing_instruction_writes_no_boundary():
-    """A boundary needs two sides. Never a real compile - every world
-    loads the fleet record - but a bare-records unit fixture would
-    otherwise open with a paragraph about material above it that is not
-    there."""
-    prompt = build_prompt({WITNESS["id"]: WITNESS}, {}, REGISTRY_ENTRY).decode("utf-8")
-    assert _GROUND_LINE not in prompt
-    assert prompt.startswith("## Witness (C-I) (cite as [[fix.witness.who-is-jesus]])")
+def test_flavor_notes_that_restate_the_shape_segment_are_not_compiled():
+    prompt = _prompt()
+    assert "Strict we-voice, restated." not in prompt and "[self-reference]" not in prompt
+    assert "- [place] The two sources stay concrete." in prompt
+
+
+def test_records_with_no_voice_craft_still_sit_below_the_boundary():
+    """The shape segment always stands above the prompt, so the line is
+    written whenever there are records below it."""
+    prompt = build_prompt({WITNESS["id"]: WITNESS}, REGISTRY_ENTRY).decode("utf-8")
+    assert prompt.startswith("## Who we are\n\nOur world's name: Fixture World.\n")
+    assert prompt.index(_GROUND_LINE) < prompt.index("## Witness (C-I) (cite as [[fix.witness.who-is-jesus]])")
 
 
 def test_the_gravities_list_strips_the_build_taxonomy_bracket_not_the_name():
@@ -139,7 +133,7 @@ def test_the_gravities_list_strips_the_build_taxonomy_bracket_not_the_name():
         "name": "A Tension [TENSIONAL]",
         "description": "Two poles, both real, neither surrendered.",
     }
-    prompt = build_prompt({**REPOSITORY, gravity["id"]: gravity}, FLEET, REGISTRY_ENTRY).decode("utf-8")
+    prompt = build_prompt({**REPOSITORY, gravity["id"]: gravity}, REGISTRY_ENTRY).decode("utf-8")
     assert "- [[fix.gravity.a-tension]] A Tension" in prompt
     assert "[TENSIONAL]" not in prompt
 
@@ -156,6 +150,23 @@ def test_the_gravities_list_strips_a_leading_tag_too_and_leaves_real_parens_alon
         "name": "[TENSIONAL] Council-Led Civic Authority (Zurich) vs. Consistorial Independence from Civil Control (Geneva)",
         "description": "Two cities, two answers.",
     }
-    prompt = build_prompt({**REPOSITORY, gravity["id"]: gravity}, FLEET, REGISTRY_ENTRY).decode("utf-8")
+    prompt = build_prompt({**REPOSITORY, gravity["id"]: gravity}, REGISTRY_ENTRY).decode("utf-8")
     assert "- [[rzg.gravity.council-led-authority-vs-consistorial-independence]] Council-Led Civic Authority (Zurich) vs. Consistorial Independence from Civil Control (Geneva)" in prompt
     assert "[TENSIONAL]" not in prompt
+
+
+def test_the_worked_line_tags_the_world_s_own_first_term_and_gravity():
+    """The citation contract in the shape segment points to this line, so the
+    voice sees the [[id]] form in its own namespace. A world whose
+    demonstrations carry no tags (rzg) otherwise had no tagged example."""
+    term = {"id": "fix.term.bread", "record_type": "term", "quick_meaning": "Bread, daily."}
+    gravity = {"id": "fix.gravity.a-tension", "record_type": "gravity", "name": "A Tension"}
+    prompt = build_prompt({**REPOSITORY, term["id"]: term, gravity["id"]: gravity}, REGISTRY_ENTRY).decode("utf-8")
+    line = prompt.split("## Our worked line\n\n", 1)[1].split("\n", 1)[0]
+    assert line.endswith("[[fix.term.bread]] [[fix.gravity.a-tension]].'")
+    assert prompt.index("## Our worked line") < prompt.index(_GROUND_LINE)
+
+
+def test_a_world_with_no_term_or_gravity_tags_its_first_citable_record():
+    prompt = _prompt()
+    assert "## Our worked line\n\n'" in prompt and "[[fix.core.fix]].'" in prompt

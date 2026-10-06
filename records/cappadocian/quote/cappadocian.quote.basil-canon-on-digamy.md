@@ -51,6 +51,15 @@ modern_rendering: >-
   for three years, often four. And at that point, it isn't really
   called marriage anymore. It's polygamy - or really, just a limited,
   tolerated form of fornication.
+use_note:
+  means: "Canon IV of Basil's First Canonical Letter sets a graded penance of one or two years for a second marriage and three or four for a third."
+  not_for:
+    - "the unequal blame of husbands and wives after separation, which sits in cappadocian.dw.marriage-ending, not in this canon"
+    - "the four-stage penance for taking a wife by seduction or violence, which sits in cappadocian.quote.basil-canon-to-amphilochius"
+    - "a third marriage as permanent exclusion, when the canon still names a set term"
+    - "these penance terms as uniform practice across every church of the era"
+  years: {from: 374, to: 374}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (the div's own XML id is

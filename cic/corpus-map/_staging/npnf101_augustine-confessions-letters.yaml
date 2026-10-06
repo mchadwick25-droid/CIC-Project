@@ -1,7 +1,8 @@
 
 source_file: npnf101_augustine-confessions-letters.xml
 assignments:
-- work: The Confessions
+- row_id: npnf101_augustine-confessions-letters--the-confessions
+  work: The Confessions
   author: augustine
   locus: div1 6 — The Confessions
   atlas_ids:
@@ -13,7 +14,8 @@ assignments:
     primary evidence.
 
     '
-- work: The Confessions
+- row_id: npnf101_augustine-confessions-letters--the-confessions-2
+  work: The Confessions
   author: augustine
   locus: div1 6 — The Confessions, esp. Books III-V
   atlas_ids:
@@ -29,7 +31,8 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- work: The Confessions
+- row_id: npnf101_augustine-confessions-letters--the-confessions-3
+  work: The Confessions
   author: augustine
   locus: div1 6 — The Confessions, esp. Books V-IX
   atlas_ids:
@@ -43,7 +46,8 @@ assignments:
     not lose its best eyewitness while npnf210 carries only Ambrose''s own side.
 
     '
-- author: augustine
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence
+  author: augustine
   work: 'Letters of St. Augustin: the Augustine-Jerome correspondence'
   atlas_ids:
   - hieronymian-ascetic-literary
@@ -62,7 +66,8 @@ assignments:
     which are the Hieronymian world''s voice, and Augustine''s, which are the Latin pastoral
     world''s. A two-sided correspondence has voice on both sides. It is also the largest single
     thing in this volume after the Confessions.'
-- author: augustine
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-donatist-correspondence
+  author: augustine
   work: 'Letters of St. Augustin: the Donatist correspondence'
   atlas_ids:
   - donatism
@@ -82,7 +87,8 @@ assignments:
     words and carries 31 of the hits on its own. `context`, not `tradition`: Augustine is
     the Catholic opponent, per the role normalisation already applied to his anti-Donatist
     treatises.'
-- author: augustine
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-pelagian-correspondence
+  author: augustine
   work: 'Letters of St. Augustin: the Pelagian correspondence'
   atlas_ids:
   - pelagianism
@@ -103,7 +109,8 @@ assignments:
     a real body inside this volume; measured, they do not. The substance is in npnf105, which
     is where the anti-Pelagian treatises are and where pelagianism draws 15 works from. Recorded
     because an absence someone expected is worth as much as a presence.'
-- work: The Confessions
+- row_id: npnf101_augustine-confessions-letters--the-confessions-4
+  work: The Confessions
   author: augustine
   locus: div1 6 — The Confessions, Book IX ch. 7 ONLY
   atlas_ids:
@@ -126,7 +133,8 @@ assignments:
     own claims about his own confrontations" - not as a claim on the rest of the work.
 
     '
-- author: augustine
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence
+  author: augustine
   work: 'Letters of St. Augustin: the general correspondence'
   atlas_ids:
   - latin-pastoral-congregational-christianity

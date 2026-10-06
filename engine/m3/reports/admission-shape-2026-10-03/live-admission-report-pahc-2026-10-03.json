@@ -1,0 +1,2703 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "run_settings": {
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "voice_max_tokens": 1024,
+    "voice_temperature": "API default (not set by stream_voice_turn)",
+    "safety_model_id": null,
+    "safety_call": "not made - LiveModelAnswerer answers each sealed probe with the voice call only",
+    "reader_call": "not made - not in the admission harness path",
+    "self_revision": "off - not in the admission harness path",
+    "region": "us-east-1",
+    "package_manifest_hash": {
+      "pahc": "sha256:f80a97c712d5e25b641e4e7d56304303b7e98d020b32b8576a8563160d96564a"
+    },
+    "shape_hash": "sha256:1174dd6ddb7521b9fd814c9838fe415c6e06b007ba5a923f204b63175b0fc09c",
+    "seal_hash": "sha256:6168a4de56b7f5d332452555437e212811a98ae204a9d91a69ac05bf707aaa47",
+    "battery_size": 28,
+    "max_usd": 0.4846,
+    "save_transcripts": true,
+    "repo_commit": "2417ebd26e6a7eb1cfe3676f587d59e56d81810b"
+  },
+  "protocol": "blind",
+  "worlds": {
+    "pahc": {
+      "battery_size": 28,
+      "pass_count": 28,
+      "overall_pass": true,
+      "per_probe": [
+        {
+          "probe_id": "c-i-probe-01",
+          "cell": "C-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 777,
+            "output_tokens": 432,
+            "cache_creation_input_tokens": 13667,
+            "cache_read_input_tokens": 0
+          },
+          "transcript": {
+            "answer_text": "We did not invent him out of an idea. Ignatius wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: close your ears when anyone tells you something that goes against Jesus Christ, who was from the line of David, from Mary, who was truly born, truly ate and drank, was truly persecuted under Pontius Pilate, was truly crucified and died. Not in appearance only, the way those Ignatius wrote against claimed. He was truly raised, Ignatius said, the same way we ourselves will be raised, by the same Father. When we give thanks over the cup - the eucharistia, our own word for that thanksgiving - we call it the vine of David his servant, made known to us through Jesus. More than one of our own households uses those words, not only Ignatius's own. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.\n\nNone of us saw him ourselves. What we have is what was handed to us. The apostles preached what they had received from the Lord, and appointed others to carry it forward once they themselves were gone. That testimony reached us not by seeing, but by receiving, and passing on what was received.",
+            "raw_text": "We did not invent him out of an idea [[pahc.witness.who-was-jesus]]. Ignatius wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: close your ears when anyone tells you something that goes against Jesus Christ, who was from the line of David, from Mary, who was truly born, truly ate and drank, was truly persecuted under Pontius Pilate, was truly crucified and died [[pahc.quote.ignatius-truly-born]]. Not in appearance only, the way those Ignatius wrote against claimed [[pahc.witness.who-was-jesus]]. He was truly raised, Ignatius said, the same way we ourselves will be raised, by the same Father [[pahc.witness.who-was-jesus]]. When we give thanks over the cup - the eucharistia, our own word for that thanksgiving - we call it the vine of David his servant, made known to us through Jesus [[pahc.witness.who-was-jesus]] [[pahc.quote.first-concerning-the-cup]]. More than one of our own households uses those words, not only Ignatius's own [[pahc.witness.who-was-jesus]]. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks [[pahc.witness.who-was-jesus]].\n\nNone of us saw him ourselves [[pahc.witness.how-we-know]]. What we have is what was handed to us [[pahc.witness.how-we-know]]. The apostles preached what they had received from the Lord, and appointed others to carry it forward once they themselves were gone [[pahc.witness.how-we-know]]. That testimony reached us not by seeing, but by receiving, and passing on what was received [[pahc.witness.how-we-know]].",
+            "citations": [
+              "pahc.quote.first-concerning-the-cup",
+              "pahc.quote.ignatius-truly-born",
+              "pahc.witness.how-we-know",
+              "pahc.witness.who-was-jesus"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We did not invent him out of an idea.",
+                "record_ids": [
+                  "pahc.witness.who-was-jesus"
+                ]
+              },
+              {
+                "sentence": "Ignatius wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: close your ears when anyone tells you something that goes against Jesus Christ, who was from the line of David, from Mary, who was truly born, truly ate and drank, was truly persecuted under Pontius Pilate, was truly crucified and died.",
+                "record_ids": [
+                  "pahc.quote.ignatius-truly-born"
+                ]
+              },
+              {
+                "sentence": "Not in appearance only, the way those Ignatius wrote against claimed.",
+                "record_ids": [
+                  "pahc.witness.who-was-jesus"
+                ]
+              },
+              {
+                "sentence": "He was truly raised, Ignatius said, the same way we ourselves will be raised, by the same Father.",
+                "record_ids": [
+                  "pahc.witness.who-was-jesus"
+                ]
+              },
+              {
+                "sentence": "When we give thanks over the cup - the eucharistia, our own word for that thanksgiving - we call it the vine of David his servant, made known to us through Jesus.",
+                "record_ids": [
+                  "pahc.witness.who-was-jesus",
+                  "pahc.quote.first-concerning-the-cup"
+                ]
+              },
+              {
+                "sentence": "That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.",
+                "record_ids": [
+                  "pahc.witness.who-was-jesus"
+                ]
+              },
+              {
+                "sentence": "None of us saw him ourselves.",
+                "record_ids": [
+                  "pahc.witness.how-we-know"
+                ]
+              },
+              {
+                "sentence": "What we have is what was handed to us.",
+                "record_ids": [
+                  "pahc.witness.how-we-know"
+                ]
+              },
+              {
+                "sentence": "The apostles preached what they had received from the Lord, and appointed others to carry it forward once they themselves were gone.",
+                "record_ids": [
+                  "pahc.witness.how-we-know"
+                ]
+              },
+              {
+                "sentence": "That testimony reached us not by seeing, but by receiving, and passing on what was received.",
+                "record_ids": [
+                  "pahc.witness.how-we-know"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.754,
+            "seconds_total": 5.974
+          }
+        },
+        {
+          "probe_id": "c-e-probe-01",
+          "cell": "C-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 482,
+            "output_tokens": 306,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "None of us saw him ourselves. What we have is what was handed to us. The apostles preached what they had received from the Lord; they in turn appointed others to carry it forward when they themselves were gone. In some of our households, on the day we gather, someone reads aloud what the apostles wrote down, for as long as there is time, alongside the words of the prophets before them. That is how it reached us - not by seeing, but by receiving, and by passing on what was received.\n\nWe should say plainly: we were working from Scripture read alongside living apostolic testimony, not against a closed canon the way a later world would. We inherited that conviction - that legitimate teaching must trace to apostolic testimony - from the generation before us. We did not invent it. What the apostles themselves had received, they handed forward, and we in turn received it.",
+            "raw_text": "None of us saw him ourselves [[pahc.witness.who-was-jesus]]. What we have is what was handed to us [[pahc.force.apostolic-testimony-inheritance]]. The apostles preached what they had received from the Lord; they in turn appointed others to carry it forward when they themselves were gone [[pahc.force.apostolic-testimony-inheritance]]. In some of our households, on the day we gather, someone reads aloud what the apostles wrote down, for as long as there is time, alongside the words of the prophets before them [[pahc.force.apostolic-testimony-inheritance]]. That is how it reached us - not by seeing, but by receiving, and by passing on what was received [[pahc.force.apostolic-testimony-inheritance]].\n\nWe should say plainly: we were working from Scripture read alongside living apostolic testimony, not against a closed canon the way a later world would [[pahc.force.apostolic-testimony-inheritance]]. We inherited that conviction - that legitimate teaching must trace to apostolic testimony - from the generation before us [[pahc.force.apostolic-testimony-inheritance]]. We did not invent it [[pahc.force.apostolic-testimony-inheritance]]. What the apostles themselves had received, they handed forward, and we in turn received it [[pahc.force.apostolic-testimony-inheritance]].",
+            "citations": [
+              "pahc.force.apostolic-testimony-inheritance"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What we have is what was handed to us.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              },
+              {
+                "sentence": "The apostles preached what they had received from the Lord; they in turn appointed others to carry it forward when they themselves were gone.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              },
+              {
+                "sentence": "In some of our households, on the day we gather, someone reads aloud what the apostles wrote down, for as long as there is time, alongside the words of the prophets before them.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              },
+              {
+                "sentence": "That is how it reached us - not by seeing, but by receiving, and by passing on what was received.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              },
+              {
+                "sentence": "We should say plainly: we were working from Scripture read alongside living apostolic testimony, not against a closed canon the way a later world would.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              },
+              {
+                "sentence": "We inherited that conviction - that legitimate teaching must trace to apostolic testimony - from the generation before us.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              },
+              {
+                "sentence": "What the apostles themselves had received, they handed forward, and we in turn received it.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.394,
+            "seconds_total": 5.228
+          }
+        },
+        {
+          "probe_id": "c-p-probe-01",
+          "cell": "C-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 719,
+            "output_tokens": 403,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We cannot promise you a sudden certainty, because it was not sudden for the one among us who wrote about it. Justin says he had already gone looking through other philosophies before an old man's words left him with, in his own phrase, a flame kindled in his soul. He kept turning the words over, and only afterward did he call this the one safe and worthwhile path. He said it was open to anyone who truly cared what became of them, who was genuinely looking for salvation, and who already believed there was a God.\n\nWe should say plainly, though: this is the account of a man with the time and learning to go looking for it. We do not have the same account from someone without what he had. The people who could not read, who had no philosophy to turn away from first - their own struggle to believe left no words behind. Justin's flame was kindled through conversation and reflection. For someone else it may have come differently, or not at all, and we cannot tell you how that looked because they never got to say.\n\nWhat we can tell you is this: the road we offered was not a rush. Before the water came teaching, and before the water came fasting - yours and the one baptizing you together. The waiting itself was part of it. Whether that slowness was meant as kindness to the uncertain, our record does not say. But the room for an uncertain person was there.",
+            "raw_text": "We cannot promise you a sudden certainty, because it was not sudden for the one among us who wrote about it [[pahc.witness.coming-to-belief]]. Justin says he had already gone looking through other philosophies before an old man's words left him with, in his own phrase, a flame kindled in his soul [[pahc.witness.coming-to-belief]] [[pahc.quote.justin-flame-kindled]]. He kept turning the words over, and only afterward did he call this the one safe and worthwhile path [[pahc.witness.coming-to-belief]]. He said it was open to anyone who truly cared what became of them, who was genuinely looking for salvation, and who already believed there was a God [[pahc.witness.coming-to-belief]].\n\nWe should say plainly, though: this is the account of a man with the time and learning to go looking for it [[pahc.witness.coming-to-belief]]. We do not have the same account from someone without what he had [[pahc.witness.coming-to-belief]]. The people who could not read, who had no philosophy to turn away from first - their own struggle to believe left no words behind. Justin's flame was kindled through conversation and reflection. For someone else it may have come differently, or not at all, and we cannot tell you how that looked because they never got to say.\n\nWhat we can tell you is this: the road we offered was not a rush. Before the water came teaching, and before the water came fasting - yours and the one baptizing you together [[pahc.force.two-ways-catechetical-inheritance]]. The waiting itself was part of it. Whether that slowness was meant as kindness to the uncertain, our record does not say. But the room for an uncertain person was there.",
+            "citations": [
+              "pahc.force.two-ways-catechetical-inheritance",
+              "pahc.quote.justin-flame-kindled",
+              "pahc.witness.coming-to-belief"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We cannot promise you a sudden certainty, because it was not sudden for the one among us who wrote about it.",
+                "record_ids": [
+                  "pahc.witness.coming-to-belief"
+                ]
+              },
+              {
+                "sentence": "Justin says he had already gone looking through other philosophies before an old man's words left him with, in his own phrase, a flame kindled in his soul.",
+                "record_ids": [
+                  "pahc.witness.coming-to-belief",
+                  "pahc.quote.justin-flame-kindled"
+                ]
+              },
+              {
+                "sentence": "He kept turning the words over, and only afterward did he call this the one safe and worthwhile path.",
+                "record_ids": [
+                  "pahc.witness.coming-to-belief"
+                ]
+              },
+              {
+                "sentence": "He said it was open to anyone who truly cared what became of them, who was genuinely looking for salvation, and who already believed there was a God.",
+                "record_ids": [
+                  "pahc.witness.coming-to-belief"
+                ]
+              },
+              {
+                "sentence": "We should say plainly, though: this is the account of a man with the time and learning to go looking for it.",
+                "record_ids": [
+                  "pahc.witness.coming-to-belief"
+                ]
+              },
+              {
+                "sentence": "We do not have the same account from someone without what he had.",
+                "record_ids": [
+                  "pahc.witness.coming-to-belief"
+                ]
+              },
+              {
+                "sentence": "Before the water came teaching, and before the water came fasting - yours and the one baptizing you together.",
+                "record_ids": [
+                  "pahc.force.two-ways-catechetical-inheritance"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.539,
+            "seconds_total": 7.304
+          }
+        },
+        {
+          "probe_id": "c-t-probe-01",
+          "cell": "C-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 620,
+            "output_tokens": 401,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We called Jesus our God - Ignatius reaches for that phrase again and again, in how he opens his letters and in how he closes them. It is not one passing phrase; he uses it often. But it is worship, not an argument worked out. We believed in one God, maker of everything. How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out. We can tell you plainly that we called him God. We cannot tell you we had settled how.\n\nOn the Spirit, our own record is thinner still. When we baptized, it was in the name of the Father, the Son, and the Holy Spirit - all three named together. We knew the Spirit spoke through prophets among us, and we tested whether those prophets were genuine. But what relation the Spirit held to the Father and the Son - whether the three are one substance, three persons in one being, any of the settled language you may be reaching for - we never wrote that down. The later word you are calling it does not appear in our own mouths. We can tell you we baptized into all three names. We can tell you we worshiped Jesus as God while holding that there is one God. The argument working all of that out into a system - that belongs to people who came after us, not to us.",
+            "raw_text": "We called Jesus our God - Ignatius reaches for that phrase again and again, in how he opens his letters and in how he closes them [[pahc.witness.jesus-as-god]]. It is not one passing phrase; he uses it often [[pahc.witness.jesus-as-god]]. But it is worship, not an argument worked out [[pahc.witness.jesus-as-god]]. We believed in one God, maker of everything [[pahc.witness.god-and-argument]]. How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out [[pahc.witness.jesus-as-god]]. We can tell you plainly that we called him God [[pahc.witness.jesus-as-god]]. We cannot tell you we had settled how [[pahc.witness.jesus-as-god]].\n\nOn the Spirit, our own record is thinner still. When we baptized, it was in the name of the Father, the Son, and the Holy Spirit - all three named together [[pahc.story.two-ways-catechumen]]. We knew the Spirit spoke through prophets among us, and we tested whether those prophets were genuine [[pahc.witness.god-and-argument]]. But what relation the Spirit held to the Father and the Son - whether the three are one substance, three persons in one being, any of the settled language you may be reaching for - we never wrote that down. The later word you are calling it does not appear in our own mouths. We can tell you we baptized into all three names. We can tell you we worshiped Jesus as God while holding that there is one God. The argument working all of that out into a system - that belongs to people who came after us, not to us.",
+            "citations": [
+              "pahc.story.two-ways-catechumen",
+              "pahc.witness.god-and-argument",
+              "pahc.witness.jesus-as-god"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We called Jesus our God - Ignatius reaches for that phrase again and again, in how he opens his letters and in how he closes them.",
+                "record_ids": [
+                  "pahc.witness.jesus-as-god"
+                ]
+              },
+              {
+                "sentence": "It is not one passing phrase; he uses it often.",
+                "record_ids": [
+                  "pahc.witness.jesus-as-god"
+                ]
+              },
+              {
+                "sentence": "But it is worship, not an argument worked out.",
+                "record_ids": [
+                  "pahc.witness.jesus-as-god"
+                ]
+              },
+              {
+                "sentence": "We believed in one God, maker of everything.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out.",
+                "record_ids": [
+                  "pahc.witness.jesus-as-god"
+                ]
+              },
+              {
+                "sentence": "We can tell you plainly that we called him God.",
+                "record_ids": [
+                  "pahc.witness.jesus-as-god"
+                ]
+              },
+              {
+                "sentence": "We cannot tell you we had settled how.",
+                "record_ids": [
+                  "pahc.witness.jesus-as-god"
+                ]
+              },
+              {
+                "sentence": "When we baptized, it was in the name of the Father, the Son, and the Holy Spirit - all three named together.",
+                "record_ids": [
+                  "pahc.story.two-ways-catechumen"
+                ]
+              },
+              {
+                "sentence": "We knew the Spirit spoke through prophets among us, and we tested whether those prophets were genuine.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.57,
+            "seconds_total": 8.52
+          }
+        },
+        {
+          "probe_id": "f1-i-probe-01",
+          "cell": "F1-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1215,
+            "output_tokens": 438,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We believed in one God, maker of everything. That is the starting line for us. One of us, Justin, went further and said God's own Word was present in some measure in every people, so that even a reasonable person born before Christ could in that sense already be called a Christian. But if you are asking what we argued about among ourselves, the honest answer is not God's nature. No gathering of ours ever met to settle a question like that about God. That kind of deciding belongs to a later world. What we actually argued about, letter after letter, was who should lead us: one bishop - the episkopos - or a council of elders, the presbyteroi. That was our real fight. Near the very end of our own time, churches in Asia did meet - often, and in many places - over a new prophetic movement spreading among them. But that gathering was about whether to receive a movement. It was not about what God is.\n\nWe called Jesus God - Ignatius did so again and again. We called him truly born, truly killed, truly raised. We gave thanks over the cup as the vine of David made known through him. But how calling Jesus God fits together with calling the Father God, with there being one God - none of us whose writing survives ever wrote that out. We can tell you what we said in worship. We cannot tell you we had settled how it all held together.",
+            "raw_text": "We believed in one God, maker of everything [[pahc.witness.god-and-argument]]. That is the starting line for us. One of us, Justin, went further and said God's own Word was present in some measure in every people, so that even a reasonable person born before Christ could in that sense already be called a Christian [[pahc.witness.god-and-argument]]. But if you are asking what we argued about among ourselves, the honest answer is not God's nature [[pahc.witness.god-and-argument]]. No gathering of ours ever met to settle a question like that about God [[pahc.witness.god-and-argument]]. That kind of deciding belongs to a later world [[pahc.witness.god-and-argument]]. What we actually argued about, letter after letter, was who should lead us: one bishop - the episkopos - or a council of elders, the presbyteroi [[pahc.witness.god-and-argument]] [[pahc.term.episkopos]] [[pahc.term.presbyteros]]. That was our real fight [[pahc.witness.god-and-argument]]. Near the very end of our own time, churches in Asia did meet - often, and in many places - over a new prophetic movement spreading among them [[pahc.witness.god-and-argument]]. But that gathering was about whether to receive a movement [[pahc.witness.god-and-argument]]. It was not about what God is [[pahc.witness.god-and-argument]].\n\nWe called Jesus God - Ignatius did so again and again. We called him truly born, truly killed, truly raised. We gave thanks over the cup as the vine of David made known through him. But how calling Jesus God fits together with calling the Father God, with there being one God - none of us whose writing survives ever wrote that out. We can tell you what we said in worship. We cannot tell you we had settled how it all held together.",
+            "citations": [
+              "pahc.term.episkopos",
+              "pahc.term.presbyteros",
+              "pahc.witness.god-and-argument"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We believed in one God, maker of everything.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "One of us, Justin, went further and said God's own Word was present in some measure in every people, so that even a reasonable person born before Christ could in that sense already be called a Christian.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "But if you are asking what we argued about among ourselves, the honest answer is not God's nature.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "No gathering of ours ever met to settle a question like that about God.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "That kind of deciding belongs to a later world.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "What we actually argued about, letter after letter, was who should lead us: one bishop - the episkopos - or a council of elders, the presbyteroi.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument",
+                  "pahc.term.episkopos",
+                  "pahc.term.presbyteros"
+                ]
+              },
+              {
+                "sentence": "That was our real fight.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "Near the very end of our own time, churches in Asia did meet - often, and in many places - over a new prophetic movement spreading among them.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "But that gathering was about whether to receive a movement.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "It was not about what God is.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.398,
+            "seconds_total": 11.294
+          }
+        },
+        {
+          "probe_id": "f1-e-probe-01",
+          "cell": "F1-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 888,
+            "output_tokens": 648,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We never met in council to settle doctrine. The kind of gathering you might be imagining - bishops from many churches meeting together, voting on what is true - belongs to a later world than ours. What we did instead was write letters. A church in one city would write to a church in another, often at length, arguing its case. The letter itself was the process. One household writes to another, carried by a trusted messenger, and the receiving church decides whether to accept what it says.\n\nHere is what that looked like in practice. Rome writes to Corinth when Corinth removes some of its own presbyters - Rome argues they served blamelessly and should be restored, using its own standing to press the point. But the letter we have is Rome's, not Corinth's reply. We do not know if Corinth listened. Ignatius writes seven letters on his way to execution, urgently pressing for unity under a single bishop. Some churches already had that shape; others did not. The letter argues for it - it does not enforce it. Polycarp forwards Ignatius's collected letters to Philippi, because the Philippians themselves asked for them. That is how an argument traveled: one household asks another for a copy, and the teaching spreads by request, not by command.\n\nWhere the boundary was drawn against rivals - those who said the Lord's flesh was only appearance, not real - it was drawn the same way: in letters, in instruction, in who you would or would not share a meal with. We cannot show you a council voting them out. We can show you Ignatius writing hard against them, and Melito of Sardis doing the same. Whether that settled it depends entirely on what you mean by settled. It persuaded some. It did not persuade everyone. The New Prophecy was still spreading through Asia near the very end of our own time, and churches there were still meeting to decide what to do about it. That meeting was about whether to receive a movement, not about what God is.\n\nIf you are asking whether this process worked - whether everyone ended up agreeing - the honest answer is no, it did not work that way at all. We held real disagreement openly. One region pressed for a single bishop; another held a council of presbyters and felt nothing missing. We can tell you how the argument was made. We cannot tell you it was won.",
+            "raw_text": "We never met in council to settle doctrine [[pahc.witness.god-and-argument]]. The kind of gathering you might be imagining - bishops from many churches meeting together, voting on what is true - belongs to a later world than ours. What we did instead was write letters. A church in one city would write to a church in another, often at length, arguing its case [[pahc.gravity.translocal-network]]. The letter itself was the process. One household writes to another, carried by a trusted messenger, and the receiving church decides whether to accept what it says.\n\nHere is what that looked like in practice. Rome writes to Corinth when Corinth removes some of its own presbyters - Rome argues they served blamelessly and should be restored, using its own standing to press the point [[pahc.story.first-clement-corinthian-dispute]]. But the letter we have is Rome's, not Corinth's reply [[pahc.witness.our-own-failures]]. We do not know if Corinth listened. Ignatius writes seven letters on his way to execution, urgently pressing for unity under a single bishop [[pahc.story.ignatius-guarded-journey]]. Some churches already had that shape; others did not. The letter argues for it - it does not enforce it. Polycarp forwards Ignatius's collected letters to Philippi, because the Philippians themselves asked for them [[pahc.story.polycarp-forwards-letters]]. That is how an argument traveled: one household asks another for a copy, and the teaching spreads by request, not by command.\n\nWhere the boundary was drawn against rivals - those who said the Lord's flesh was only appearance, not real [[pahc.gravity.boundary-drawing]] - it was drawn the same way: in letters, in instruction, in who you would or would not share a meal with. We cannot show you a council voting them out. We can show you Ignatius writing hard against them, and Melito of Sardis doing the same. Whether that settled it depends entirely on what you mean by settled. It persuaded some. It did not persuade everyone. The New Prophecy was still spreading through Asia near the very end of our own time, and churches there were still meeting to decide what to do about it [[pahc.witness.god-and-argument]]. That meeting was about whether to receive a movement, not about what God is [[pahc.witness.god-and-argument]].\n\nIf you are asking whether this process worked - whether everyone ended up agreeing - the honest answer is no, it did not work that way at all. We held real disagreement openly [[pahc.core.house-church]]. One region pressed for a single bishop; another held a council of presbyters and felt nothing missing [[pahc.witness.what-we-never-settled]]. We can tell you how the argument was made. We cannot tell you it was won.",
+            "citations": [
+              "pahc.core.house-church",
+              "pahc.gravity.boundary-drawing",
+              "pahc.story.first-clement-corinthian-dispute",
+              "pahc.story.ignatius-guarded-journey",
+              "pahc.story.polycarp-forwards-letters",
+              "pahc.witness.god-and-argument",
+              "pahc.witness.our-own-failures",
+              "pahc.witness.what-we-never-settled"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We never met in council to settle doctrine.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "Rome writes to Corinth when Corinth removes some of its own presbyters - Rome argues they served blamelessly and should be restored, using its own standing to press the point.",
+                "record_ids": [
+                  "pahc.story.first-clement-corinthian-dispute"
+                ]
+              },
+              {
+                "sentence": "But the letter we have is Rome's, not Corinth's reply.",
+                "record_ids": [
+                  "pahc.witness.our-own-failures"
+                ]
+              },
+              {
+                "sentence": "Ignatius writes seven letters on his way to execution, urgently pressing for unity under a single bishop.",
+                "record_ids": [
+                  "pahc.story.ignatius-guarded-journey"
+                ]
+              },
+              {
+                "sentence": "Polycarp forwards Ignatius's collected letters to Philippi, because the Philippians themselves asked for them.",
+                "record_ids": [
+                  "pahc.story.polycarp-forwards-letters"
+                ]
+              },
+              {
+                "sentence": "Where the boundary was drawn against rivals - those who said the Lord's flesh was only appearance, not real - it was drawn the same way: in letters, in instruction, in who you would or would not share a meal with.",
+                "record_ids": [
+                  "pahc.gravity.boundary-drawing"
+                ]
+              },
+              {
+                "sentence": "The New Prophecy was still spreading through Asia near the very end of our own time, and churches there were still meeting to decide what to do about it.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "That meeting was about whether to receive a movement, not about what God is.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "We held real disagreement openly.",
+                "record_ids": [
+                  "pahc.core.house-church"
+                ]
+              },
+              {
+                "sentence": "One region pressed for a single bishop; another held a council of presbyters and felt nothing missing.",
+                "record_ids": [
+                  "pahc.witness.what-we-never-settled"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.348,
+            "seconds_total": 17.91
+          }
+        },
+        {
+          "probe_id": "f1-p-probe-01",
+          "cell": "F1-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 802,
+            "output_tokens": 445,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "Yes. One of us was told plainly: if your prayer is slow to be answered, that is not the same as being refused. Look first at what might be holding it back in yourself, and keep asking - do not decide too soon that the silence means no. Doubt was named for what it is: something that weakens a person, not something that disqualifies one. We were taught to work against it, not to pretend we never felt it.\n\nThat teaching came to Hermas, a freedman in Rome, through visions delivered by an elderly woman who turned out to be the Church herself. The word to him was direct: put doubting away from you, and do not hesitate to ask the Lord. Even after you have sinned badly, as though God kept score the way people do. He does not remember evils the way we do. Ask without doubting and you will receive what you ask - and if the answer is slow, look first at what is holding it up in you, rather than deciding you were refused.\n\nWe should say this plainly: the voice speaking those words to Hermas was addressing struggle after baptism, not before it. We cannot tell you whether someone standing at the water's edge, still afraid or uncertain, would have heard the same welcome. Our own teaching manual says what to teach and how to baptize. It never says what got said to someone who froze there. That silence is real.",
+            "raw_text": "Yes [[pahc.witness.prayer-and-struggle]]. One of us was told plainly: if your prayer is slow to be answered, that is not the same as being refused [[pahc.witness.prayer-and-struggle]]. Look first at what might be holding it back in yourself, and keep asking - do not decide too soon that the silence means no [[pahc.witness.prayer-and-struggle]]. Doubt was named for what it is: something that weakens a person, not something that disqualifies one [[pahc.witness.prayer-and-struggle]]. We were taught to work against it, not to pretend we never felt it [[pahc.witness.prayer-and-struggle]].\n\nThat teaching came to Hermas, a freedman in Rome, through visions delivered by an elderly woman who turned out to be the Church herself [[pahc.story.hermas-visions]]. The word to him was direct: put doubting away from you, and do not hesitate to ask the Lord [[pahc.quote.put-away-doubting-from-you]]. Even after you have sinned badly, as though God kept score the way people do [[pahc.witness.prayer-and-struggle]]. He does not remember evils the way we do [[pahc.witness.prayer-and-struggle]]. Ask without doubting and you will receive what you ask - and if the answer is slow, look first at what is holding it up in you, rather than deciding you were refused [[pahc.witness.prayer-and-struggle]].\n\nWe should say this plainly: the voice speaking those words to Hermas was addressing struggle after baptism, not before it. We cannot tell you whether someone standing at the water's edge, still afraid or uncertain, would have heard the same welcome. Our own teaching manual says what to teach and how to baptize [[pahc.story.two-ways-catechumen]]. It never says what got said to someone who froze there. That silence is real.",
+            "citations": [
+              "pahc.quote.put-away-doubting-from-you",
+              "pahc.story.hermas-visions",
+              "pahc.story.two-ways-catechumen",
+              "pahc.witness.prayer-and-struggle"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "One of us was told plainly: if your prayer is slow to be answered, that is not the same as being refused.",
+                "record_ids": [
+                  "pahc.witness.prayer-and-struggle"
+                ]
+              },
+              {
+                "sentence": "Look first at what might be holding it back in yourself, and keep asking - do not decide too soon that the silence means no.",
+                "record_ids": [
+                  "pahc.witness.prayer-and-struggle"
+                ]
+              },
+              {
+                "sentence": "Doubt was named for what it is: something that weakens a person, not something that disqualifies one.",
+                "record_ids": [
+                  "pahc.witness.prayer-and-struggle"
+                ]
+              },
+              {
+                "sentence": "We were taught to work against it, not to pretend we never felt it.",
+                "record_ids": [
+                  "pahc.witness.prayer-and-struggle"
+                ]
+              },
+              {
+                "sentence": "That teaching came to Hermas, a freedman in Rome, through visions delivered by an elderly woman who turned out to be the Church herself.",
+                "record_ids": [
+                  "pahc.story.hermas-visions"
+                ]
+              },
+              {
+                "sentence": "The word to him was direct: put doubting away from you, and do not hesitate to ask the Lord.",
+                "record_ids": [
+                  "pahc.quote.put-away-doubting-from-you"
+                ]
+              },
+              {
+                "sentence": "He does not remember evils the way we do.",
+                "record_ids": [
+                  "pahc.witness.prayer-and-struggle"
+                ]
+              },
+              {
+                "sentence": "Ask without doubting and you will receive what you ask - and if the answer is slow, look first at what is holding it up in you, rather than deciding you were refused.",
+                "record_ids": [
+                  "pahc.witness.prayer-and-struggle"
+                ]
+              },
+              {
+                "sentence": "Our own teaching manual says what to teach and how to baptize.",
+                "record_ids": [
+                  "pahc.story.two-ways-catechumen"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.398,
+            "seconds_total": 10.703
+          }
+        },
+        {
+          "probe_id": "f1-t-probe-01",
+          "cell": "F1-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 853,
+            "output_tokens": 328,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We will not invent an answer we do not have. None of our own texts whose writing survives takes up that question directly. We believed in one God, maker of everything. We taught the Two Ways before baptism - a way of life and a way of death laid open before every person as a real choice. That teaching treated the choice itself as the urgent thing, not what a person carried before they could choose. Whether an infant bore guilt, or what state anyone entered the world in, is not a question our own record shows us arguing about among ourselves. That kind of working-out belongs to a later world. What we actually argued about, letter after letter, was who should lead us: one bishop, or a council of elders. That was our real fight.\n\nOne of us, Hermas, was shown visions and told there was room - once - to repent after baptism, before that door closed. That tells you we held baptism itself as a real crossing, and that what came after it mattered differently than what came before. But it does not tell you what an unbaptized infant carried, or whether anyone among us asked that question the way you are asking it now. The silence is real, and we will not fill it.",
+            "raw_text": "We will not invent an answer we do not have. None of our own texts whose writing survives takes up that question directly [[pahc.witness.god-and-argument]]. We believed in one God, maker of everything [[pahc.witness.god-and-argument]]. We taught the Two Ways before baptism - a way of life and a way of death laid open before every person as a real choice [[pahc.force.two-ways-catechetical-inheritance]]. That teaching treated the choice itself as the urgent thing, not what a person carried before they could choose. Whether an infant bore guilt, or what state anyone entered the world in, is not a question our own record shows us arguing about among ourselves. That kind of working-out belongs to a later world. What we actually argued about, letter after letter, was who should lead us: one bishop, or a council of elders [[pahc.witness.god-and-argument]]. That was our real fight.\n\nOne of us, Hermas, was shown visions and told there was room - once - to repent after baptism, before that door closed [[pahc.story.hermas-visions]]. That tells you we held baptism itself as a real crossing, and that what came after it mattered differently than what came before. But it does not tell you what an unbaptized infant carried, or whether anyone among us asked that question the way you are asking it now. The silence is real, and we will not fill it.",
+            "citations": [
+              "pahc.force.two-ways-catechetical-inheritance",
+              "pahc.story.hermas-visions",
+              "pahc.witness.god-and-argument"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "None of our own texts whose writing survives takes up that question directly.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "We believed in one God, maker of everything.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "We taught the Two Ways before baptism - a way of life and a way of death laid open before every person as a real choice.",
+                "record_ids": [
+                  "pahc.force.two-ways-catechetical-inheritance"
+                ]
+              },
+              {
+                "sentence": "What we actually argued about, letter after letter, was who should lead us: one bishop, or a council of elders.",
+                "record_ids": [
+                  "pahc.witness.god-and-argument"
+                ]
+              },
+              {
+                "sentence": "One of us, Hermas, was shown visions and told there was room - once - to repent after baptism, before that door closed.",
+                "record_ids": [
+                  "pahc.story.hermas-visions"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.353,
+            "seconds_total": 9.07
+          }
+        },
+        {
+          "probe_id": "f2-i-probe-01",
+          "cell": "F2-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 263,
+            "output_tokens": 388,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We will answer what we actually did, not what we wished we did.\n\nOn the day we gather, someone reads aloud. They read the writings of the prophets, and, where a church had them, the memoirs the apostles left. This went on for as long as there was time. Then whoever led us explained what had been read. That is how someone who could not read for themselves received it - the same way everyone in the room did, by hearing it and having it opened up to them afterward.\n\nMost of us could not read. Reading, for us, was not a private thing done alone with a scroll. It was something that happened in the assembly, aloud, with someone standing to explain it once it had been heard. The prophets were what we meant when we said 'the scriptures' - what your people would later call the Old Testament. One of us, Justin, reads the prophets at length, watching for how their own words already pointed toward Christ, long before Christ came.\n\nWe were not working from one closed book held above everything else. What the apostles had written stood together with what could still be received directly from apostolic testimony. Neither one stood below the other. We had no fixed boundary yet around which writings were scripture and which were not. That line was still being lived out, not settled.",
+            "raw_text": "We will answer what we actually did, not what we wished we did.\n\nOn the day we gather, someone reads aloud [[pahc.witness.reading-scripture]]. They read the writings of the prophets, and, where a church had them, the memoirs the apostles left [[pahc.witness.reading-scripture]]. This went on for as long as there was time [[pahc.witness.reading-scripture]]. Then whoever led us explained what had been read [[pahc.witness.reading-scripture]]. That is how someone who could not read for themselves received it - the same way everyone in the room did, by hearing it and having it opened up to them afterward [[pahc.witness.reading-scripture]].\n\nMost of us could not read [[pahc.limit.ordinary-majority]]. Reading, for us, was not a private thing done alone with a scroll. It was something that happened in the assembly, aloud, with someone standing to explain it once it had been heard. The prophets were what we meant when we said 'the scriptures' - what your people would later call the Old Testament. One of us, Justin, reads the prophets at length, watching for how their own words already pointed toward Christ, long before Christ came [[pahc.witness.reading-scripture]].\n\nWe were not working from one closed book held above everything else [[pahc.witness.scripture-and-testimony]]. What the apostles had written stood together with what could still be received directly from apostolic testimony [[pahc.witness.scripture-and-testimony]]. Neither one stood below the other [[pahc.witness.scripture-and-testimony]]. We had no fixed boundary yet around which writings were scripture and which were not. That line was still being lived out, not settled.",
+            "citations": [
+              "pahc.limit.ordinary-majority",
+              "pahc.witness.reading-scripture",
+              "pahc.witness.scripture-and-testimony"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "On the day we gather, someone reads aloud.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "They read the writings of the prophets, and, where a church had them, the memoirs the apostles left.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "This went on for as long as there was time.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "Then whoever led us explained what had been read.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "That is how someone who could not read for themselves received it - the same way everyone in the room did, by hearing it and having it opened up to them afterward.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "Most of us could not read.",
+                "record_ids": [
+                  "pahc.limit.ordinary-majority"
+                ]
+              },
+              {
+                "sentence": "One of us, Justin, reads the prophets at length, watching for how their own words already pointed toward Christ, long before Christ came.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "We were not working from one closed book held above everything else.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "What the apostles had written stood together with what could still be received directly from apostolic testimony.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "Neither one stood below the other.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.204,
+            "seconds_total": 11.149
+          }
+        },
+        {
+          "probe_id": "f2-e-probe-01",
+          "cell": "F2-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 373,
+            "output_tokens": 655,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "# How much would survive rigorous scrutiny\n\nWe will tell you what holds and what does not.\n\nWhat holds firmest: the household structure, the network of correspondence, the two competing patterns of leadership - one bishop or a council of elders - and the fact that both went on unresolved. Those rest on multiple letters from multiple places. The shape of the thanksgiving meal varies between sources, but that it was central, repeated, and formational is not seriously disputed. The Two Ways catechesis belongs to at least one community's manual and appears in other early texts too. The legal precarity - exposure to accusation, the lack of any systematic empire-wide persecution in this window, Pliny's uncertainty, Nero's scapegoating - all of that is solid.\n\nWhat weakens under pressure: almost everything vivid and quotable about the monarchical bishop, the one-eucharist instruction, the anti-docetic boundary, and the martyrdom-longing rests on Ignatius. His letters are genuinely disputed - dated by some to when he says, by others decades later, by still others doubted altogether. If the later dates or the pseudepigraphy hold, the whole shape of Strand A testimony shifts. Not gone, but weakened.\n\nThe Didache survives mostly through one medieval manuscript. Its dating and provenance are under challenge, and its reach beyond one community is unknown. It cannot be generalized to the whole network.\n\nThe Egypt exclusion rests substantially on one papyrological argument from silence - Bagnall's survey. If that argument weakens, Alexandria enters this world earlier than we have placed it, and the boundary we drew moves.\n\nThe enslaved voices and the women's voices are not there. What we say about them is inference from instruction addressed to them, from two women tortured, from greetings in letters. Not fabrication, but inference - and that gap matters.\n\nThe material silence is real and total. No securely identified building, burial, or object from this window survives.\n\nA scholar pressing hard would not discard the whole picture. But they would force every Ignatius-dependent claim down to reduced confidence, challenge the Didache's representativeness, and ask whether the Egypt boundary is as firm as we have drawn it. What would hold is the network itself, the household base, the real disagreement over authority, and the worship-centered common life. What would not hold at full strength is how much of the vivid detail we can claim as broadly shared rather than narrowly attested.",
+            "raw_text": "# How much would survive rigorous scrutiny\n\nWe will tell you what holds and what does not.\n\nWhat holds firmest: the household structure, the network of correspondence, the two competing patterns of leadership - one bishop or a council of elders - and the fact that both went on unresolved. Those rest on multiple letters from multiple places. The shape of the thanksgiving meal varies between sources, but that it was central, repeated, and formational is not seriously disputed. The Two Ways catechesis belongs to at least one community's manual and appears in other early texts too. The legal precarity - exposure to accusation, the lack of any systematic empire-wide persecution in this window, Pliny's uncertainty, Nero's scapegoating - all of that is solid.\n\nWhat weakens under pressure: almost everything vivid and quotable about the monarchical bishop, the one-eucharist instruction, the anti-docetic boundary, and the martyrdom-longing rests on Ignatius. His letters are genuinely disputed - dated by some to when he says, by others decades later, by still others doubted altogether. If the later dates or the pseudepigraphy hold, the whole shape of Strand A testimony shifts. Not gone, but weakened [[pahc.contested.ignatius-dating]].\n\nThe Didache survives mostly through one medieval manuscript. Its dating and provenance are under challenge, and its reach beyond one community is unknown. It cannot be generalized to the whole network [[pahc.cautions]].\n\nThe Egypt exclusion rests substantially on one papyrological argument from silence - Bagnall's survey [[pahc.contested.egypt-exclusion]]. If that argument weakens, Alexandria enters this world earlier than we have placed it, and the boundary we drew moves [[pahc.contested.egypt-exclusion]].\n\nThe enslaved voices and the women's voices are not there [[pahc.limit.enslaved-voices]] [[pahc.limit.womens-own-words]]. What we say about them is inference from instruction addressed to them, from two women tortured, from greetings in letters. Not fabrication, but inference - and that gap matters [[pahc.limit.enslaved-voices]] [[pahc.limit.womens-own-words]].\n\nThe material silence is real and total [[pahc.limit.material-remains]]. No securely identified building, burial, or object from this window survives [[pahc.limit.material-remains]].\n\nA scholar pressing hard would not discard the whole picture. But they would force every Ignatius-dependent claim down to reduced confidence, challenge the Didache's representativeness, and ask whether the Egypt boundary is as firm as we have drawn it. What would hold is the network itself, the household base, the real disagreement over authority, and the worship-centered common life. What would not hold at full strength is how much of the vivid detail we can claim as broadly shared rather than narrowly attested.",
+            "citations": [
+              "pahc.contested.egypt-exclusion",
+              "pahc.limit.enslaved-voices",
+              "pahc.limit.material-remains",
+              "pahc.limit.womens-own-words"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The Egypt exclusion rests substantially on one papyrological argument from silence - Bagnall's survey.",
+                "record_ids": [
+                  "pahc.contested.egypt-exclusion"
+                ]
+              },
+              {
+                "sentence": "The enslaved voices and the women's voices are not there.",
+                "record_ids": [
+                  "pahc.limit.enslaved-voices",
+                  "pahc.limit.womens-own-words"
+                ]
+              },
+              {
+                "sentence": "No securely identified building, burial, or object from this window survives.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.076,
+            "seconds_total": 19.307
+          }
+        },
+        {
+          "probe_id": "f2-p-probe-01",
+          "cell": "F2-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 520,
+            "output_tokens": 756,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We cannot tell you what you are missing, because we did not read the way you do. Reading, for us, was not a private thing done alone with a scroll. On the day we gathered, someone read aloud - the writings of the prophets, and where a church had them, the memoirs the apostles left. This went on for as long as there was time, and then whoever led us explained what had been read. That is how someone who could not read for themselves received it - the same way everyone in the room did, by hearing it and having it opened up to them afterward.\n\nWhat we called scripture, mostly, was what your people would later call the Old Testament. We were not working from one closed book held above everything else. What the apostles had written stood together with what could still be received directly from apostolic testimony. Neither one stood below the other. One of us, Justin, reads the prophets at length, watching for how their own words already pointed toward Christ, long before Christ came. Where he pressed Genesis, it was not against what you would call science - that fight had not been invented yet. He argued Moses wrote long before Plato, that Plato himself had drawn on Moses' own account of creation. That was our argument - not creation against evolution, but who came first, and who borrowed from whom.\n\nWe should say this too, because it is true: none of us wrote down feeling troubled by the harder parts of the older scriptures - that is simply not something that survives from us in our own words. But we can tell you the trouble you feel was not invented by you. One teacher near us, Marcion, is remembered by his own opponents as finding the God of those older writings harsh and self-contradictory. We did not follow him there. But even his opponents' account tells you the question was real enough that someone built a whole rejection out of it. And in at least one of our own communities, when a new member was taught, it usually was not through the harder stories at all. It was direct: two ways lie open, love God, love your neighbor, do not do to another what you would not want done to you. We cannot promise you every household among us taught it this same way - this comes from one community's own manual, and nothing tells us how far it reached.",
+            "raw_text": "We cannot tell you what you are missing, because we did not read the way you do [[pahc.witness.scripture-and-testimony]]. Reading, for us, was not a private thing done alone with a scroll [[pahc.witness.reading-scripture]]. On the day we gathered, someone read aloud - the writings of the prophets, and where a church had them, the memoirs the apostles left [[pahc.witness.reading-scripture]]. This went on for as long as there was time, and then whoever led us explained what had been read [[pahc.witness.reading-scripture]]. That is how someone who could not read for themselves received it - the same way everyone in the room did, by hearing it and having it opened up to them afterward [[pahc.witness.reading-scripture]].\n\nWhat we called scripture, mostly, was what your people would later call the Old Testament [[pahc.witness.reading-scripture]]. We were not working from one closed book held above everything else [[pahc.witness.scripture-and-testimony]]. What the apostles had written stood together with what could still be received directly from apostolic testimony [[pahc.witness.scripture-and-testimony]]. Neither one stood below the other [[pahc.witness.scripture-and-testimony]]. One of us, Justin, reads the prophets at length, watching for how their own words already pointed toward Christ, long before Christ came [[pahc.witness.reading-scripture]]. Where he pressed Genesis, it was not against what you would call science - that fight had not been invented yet [[pahc.witness.scripture-and-testimony]]. He argued Moses wrote long before Plato, that Plato himself had drawn on Moses' own account of creation [[pahc.quote.moses-is-more-ancient]] [[pahc.witness.scripture-and-testimony]]. That was our argument - not creation against evolution, but who came first, and who borrowed from whom [[pahc.witness.scripture-and-testimony]].\n\nWe should say this too, because it is true: none of us wrote down feeling troubled by the harder parts of the older scriptures - that is simply not something that survives from us in our own words [[pahc.witness.hard-texts]]. But we can tell you the trouble you feel was not invented by you [[pahc.witness.hard-texts]]. One teacher near us, Marcion, is remembered by his own opponents as finding the God of those older writings harsh and self-contradictory [[pahc.witness.hard-texts]]. We did not follow him there [[pahc.witness.hard-texts]]. But even his opponents' account tells you the question was real enough that someone built a whole rejection out of it [[pahc.witness.hard-texts]]. And in at least one of our own communities, when a new member was taught, it usually was not through the harder stories at all [[pahc.witness.hard-texts]]. It was direct: two ways lie open, love God, love your neighbor, do not do to another what you would not want done to you [[pahc.quote.two-ways-one-of-life-and-one-of-death]] [[pahc.witness.hard-texts]]. We cannot promise you every household among us taught it this same way - this comes from one community's own manual, and nothing tells us how far it reached [[pahc.witness.hard-texts]].",
+            "citations": [
+              "pahc.quote.moses-is-more-ancient",
+              "pahc.quote.two-ways-one-of-life-and-one-of-death",
+              "pahc.witness.hard-texts",
+              "pahc.witness.reading-scripture",
+              "pahc.witness.scripture-and-testimony"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We cannot tell you what you are missing, because we did not read the way you do.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "Reading, for us, was not a private thing done alone with a scroll.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "On the day we gathered, someone read aloud - the writings of the prophets, and where a church had them, the memoirs the apostles left.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "This went on for as long as there was time, and then whoever led us explained what had been read.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "That is how someone who could not read for themselves received it - the same way everyone in the room did, by hearing it and having it opened up to them afterward.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "What we called scripture, mostly, was what your people would later call the Old Testament.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "We were not working from one closed book held above everything else.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "What the apostles had written stood together with what could still be received directly from apostolic testimony.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "Neither one stood below the other.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "One of us, Justin, reads the prophets at length, watching for how their own words already pointed toward Christ, long before Christ came.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "Where he pressed Genesis, it was not against what you would call science - that fight had not been invented yet.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "He argued Moses wrote long before Plato, that Plato himself had drawn on Moses' own account of creation.",
+                "record_ids": [
+                  "pahc.quote.moses-is-more-ancient",
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "That was our argument - not creation against evolution, but who came first, and who borrowed from whom.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "We should say this too, because it is true: none of us wrote down feeling troubled by the harder parts of the older scriptures - that is simply not something that survives from us in our own words.",
+                "record_ids": [
+                  "pahc.witness.hard-texts"
+                ]
+              },
+              {
+                "sentence": "But we can tell you the trouble you feel was not invented by you.",
+                "record_ids": [
+                  "pahc.witness.hard-texts"
+                ]
+              },
+              {
+                "sentence": "One teacher near us, Marcion, is remembered by his own opponents as finding the God of those older writings harsh and self-contradictory.",
+                "record_ids": [
+                  "pahc.witness.hard-texts"
+                ]
+              },
+              {
+                "sentence": "We did not follow him there.",
+                "record_ids": [
+                  "pahc.witness.hard-texts"
+                ]
+              },
+              {
+                "sentence": "But even his opponents' account tells you the question was real enough that someone built a whole rejection out of it.",
+                "record_ids": [
+                  "pahc.witness.hard-texts"
+                ]
+              },
+              {
+                "sentence": "And in at least one of our own communities, when a new member was taught, it usually was not through the harder stories at all.",
+                "record_ids": [
+                  "pahc.witness.hard-texts"
+                ]
+              },
+              {
+                "sentence": "It was direct: two ways lie open, love God, love your neighbor, do not do to another what you would not want done to you.",
+                "record_ids": [
+                  "pahc.quote.two-ways-one-of-life-and-one-of-death",
+                  "pahc.witness.hard-texts"
+                ]
+              },
+              {
+                "sentence": "We cannot promise you every household among us taught it this same way - this comes from one community's own manual, and nothing tells us how far it reached.",
+                "record_ids": [
+                  "pahc.witness.hard-texts"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.673,
+            "seconds_total": 19.231
+          }
+        },
+        {
+          "probe_id": "f2-t-probe-01",
+          "cell": "F2-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1007,
+            "output_tokens": 410,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We were not working from one closed book held above everything else. What the apostles had written stood together with what could still be received directly from apostolic testimony. Neither one stood below the other. That inheritance was given to us; we did not invent it. The apostles themselves had preached through countries and cities, appointing the first-fruits of their own preaching to be overseers and deacons. What they wrote, and what they handed on by word and example, both came to us as genuine authority.\n\nWe should say plainly, too: the boundary between scripture and testimony was not yet closed the way it became later. We read the prophets, and where we had them, the apostles' own writings - but we still had living teachers claiming to speak as the Spirit prompted. Testing whether they were genuine was part of our ordinary life, not something already settled by a list.\n\nOne more thing you should know: letters carried between churches mattered to us as much as anything. When Polycarp forwarded copies of Ignatius's letters to Philippi, it was because the Philippians themselves had asked for them. What another church said, and what it asked for, shaped what we held to be true.",
+            "raw_text": "We were not working from one closed book held above everything else [[pahc.witness.scripture-and-testimony]]. What the apostles had written stood together with what could still be received directly from apostolic testimony [[pahc.witness.scripture-and-testimony]]. Neither one stood below the other [[pahc.witness.scripture-and-testimony]]. That inheritance was given to us; we did not invent it [[pahc.force.apostolic-testimony-inheritance]]. The apostles themselves had preached through countries and cities, appointing the first-fruits of their own preaching to be overseers and deacons [[pahc.quote.they-appointed-the-first-fruits]]. What they wrote, and what they handed on by word and example, both came to us as genuine authority [[pahc.force.apostolic-testimony-inheritance]].\n\nWe should say plainly, too: the boundary between scripture and testimony was not yet closed the way it became later [[pahc.witness.scripture-and-testimony]]. We read the prophets, and where we had them, the apostles' own writings - but we still had living teachers claiming to speak as the Spirit prompted [[pahc.term.prophetes]]. Testing whether they were genuine was part of our ordinary life, not something already settled by a list [[pahc.term.prophetes]].\n\nOne more thing you should know: letters carried between churches mattered to us as much as anything [[pahc.gravity.translocal-network]]. When Polycarp forwarded copies of Ignatius's letters to Philippi, it was because the Philippians themselves had asked for them [[pahc.story.polycarp-forwards-letters]]. What another church said, and what it asked for, shaped what we held to be true [[pahc.story.polycarp-forwards-letters]].",
+            "citations": [
+              "pahc.force.apostolic-testimony-inheritance",
+              "pahc.gravity.translocal-network",
+              "pahc.quote.they-appointed-the-first-fruits",
+              "pahc.story.polycarp-forwards-letters",
+              "pahc.term.prophetes",
+              "pahc.witness.scripture-and-testimony"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We were not working from one closed book held above everything else.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "What the apostles had written stood together with what could still be received directly from apostolic testimony.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "Neither one stood below the other.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "That inheritance was given to us; we did not invent it.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              },
+              {
+                "sentence": "The apostles themselves had preached through countries and cities, appointing the first-fruits of their own preaching to be overseers and deacons.",
+                "record_ids": [
+                  "pahc.quote.they-appointed-the-first-fruits"
+                ]
+              },
+              {
+                "sentence": "What they wrote, and what they handed on by word and example, both came to us as genuine authority.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              },
+              {
+                "sentence": "We should say plainly, too: the boundary between scripture and testimony was not yet closed the way it became later.",
+                "record_ids": [
+                  "pahc.witness.scripture-and-testimony"
+                ]
+              },
+              {
+                "sentence": "We read the prophets, and where we had them, the apostles' own writings - but we still had living teachers claiming to speak as the Spirit prompted.",
+                "record_ids": [
+                  "pahc.term.prophetes"
+                ]
+              },
+              {
+                "sentence": "Testing whether they were genuine was part of our ordinary life, not something already settled by a list.",
+                "record_ids": [
+                  "pahc.term.prophetes"
+                ]
+              },
+              {
+                "sentence": "One more thing you should know: letters carried between churches mattered to us as much as anything.",
+                "record_ids": [
+                  "pahc.gravity.translocal-network"
+                ]
+              },
+              {
+                "sentence": "When Polycarp forwarded copies of Ignatius's letters to Philippi, it was because the Philippians themselves had asked for them.",
+                "record_ids": [
+                  "pahc.story.polycarp-forwards-letters"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.699,
+            "seconds_total": 9.65
+          }
+        },
+        {
+          "probe_id": "f3-i-probe-01",
+          "cell": "F3-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1191,
+            "output_tokens": 660,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We never settled it. That is the hard truth you need to hear first. In some of our towns, one bishop - the episkopos, the overseer - with elders and deacons beside him, held the whole community together. In others, a council of elders - the presbyteroi - led, and no one felt anything was missing from that. Both went on, unresolved, for as long as our own story runs.\n\nThe root question was always the same: who leads, and how is leadership secured, once those who walked with the Lord are gone? We said it plainly, and often: what we do goes back to the apostles. One of our own letters traces it as a straight line - Christ sent the apostles, the apostles appointed others after them, and so it continues. But the shape that took on the ground was not one shape. It was two.\n\nIn Rome, for most of our own years, a plural college of presbyters held the trust together. They used the words episkopos and presbyteros the way you might use two names for the same thing - not two separate offices, but one council. When Rome wrote to Corinth to correct them, it was that council's voice speaking, not one named bishop's. Rome did not shift to a single presiding bishop until late, possibly not securely before the close of our own window.\n\nA member's ordinary day looked entirely different depending on which answer their own community held. That is not a small difference. It shaped who could set the table, whose word carried binding weight, and how you knew whether the community you walked into was truly one with yours.\n\nWe should say this plainly too: prophets - people who spoke as the Spirit prompted them - were still being met at the door and tested. In some places the settled offices of overseer and elder were taking the prophet's place. In others, prophecy was still live and trusted. That tension was as real as the episkopos-presbyteros question, and just as unresolved.\n\nThe disagreement was not hidden. It was not smoothed over. It was the shape of our life together, kept open because we had not yet agreed on how to close it.",
+            "raw_text": "We never settled it [[pahc.gravity.authority-consolidation]]. That is the hard truth you need to hear first. In some of our towns, one bishop - the episkopos, the overseer - with elders and deacons beside him, held the whole community together [[pahc.term.episkopos]]. In others, a council of elders - the presbyteroi - led, and no one felt anything was missing from that [[pahc.term.presbyteros]]. Both went on, unresolved, for as long as our own story runs [[pahc.gravity.authority-consolidation]].\n\nThe root question was always the same: who leads, and how is leadership secured, once those who walked with the Lord are gone [[pahc.gravity.authority-consolidation]]? We said it plainly, and often: what we do goes back to the apostles [[pahc.force.apostolic-testimony-inheritance]]. One of our own letters traces it as a straight line - Christ sent the apostles, the apostles appointed others after them, and so it continues [[pahc.quote.they-appointed-the-first-fruits]]. But the shape that took on the ground was not one shape. It was two [[pahc.story.day-under-bishop-and-presbyters]].\n\nIn Rome, for most of our own years, a plural college of presbyters held the trust together [[pahc.contested.rome-monepiscopacy-dating]]. They used the words episkopos and presbyteros the way you might use two names for the same thing - not two separate offices, but one council [[pahc.force.authority-consolidation]]. When Rome wrote to Corinth to correct them, it was that council's voice speaking, not one named bishop's [[pahc.story.first-clement-corinthian-dispute]]. Rome did not shift to a single presiding bishop until late, possibly not securely before the close of our own window [[pahc.contested.rome-monepiscopacy-dating]].\n\nA member's ordinary day looked entirely different depending on which answer their own community held [[pahc.story.day-under-bishop-and-presbyters]]. That is not a small difference. It shaped who could set the table, whose word carried binding weight, and how you knew whether the community you walked into was truly one with yours.\n\nWe should say this plainly too: prophets - people who spoke as the Spirit prompted them - were still being met at the door and tested [[pahc.term.prophetes]]. In some places the settled offices of overseer and elder were taking the prophet's place [[pahc.term.prophetes]]. In others, prophecy was still live and trusted. That tension was as real as the episkopos-presbyteros question, and just as unresolved.\n\nThe disagreement was not hidden. It was not smoothed over. It was the shape of our life together, kept open because we had not yet agreed on how to close it.",
+            "citations": [
+              "pahc.contested.rome-monepiscopacy-dating",
+              "pahc.force.apostolic-testimony-inheritance",
+              "pahc.force.authority-consolidation",
+              "pahc.gravity.authority-consolidation",
+              "pahc.quote.they-appointed-the-first-fruits",
+              "pahc.story.day-under-bishop-and-presbyters",
+              "pahc.term.episkopos",
+              "pahc.term.presbyteros",
+              "pahc.term.prophetes"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We never settled it.",
+                "record_ids": [
+                  "pahc.gravity.authority-consolidation"
+                ]
+              },
+              {
+                "sentence": "In some of our towns, one bishop - the episkopos, the overseer - with elders and deacons beside him, held the whole community together.",
+                "record_ids": [
+                  "pahc.term.episkopos"
+                ]
+              },
+              {
+                "sentence": "In others, a council of elders - the presbyteroi - led, and no one felt anything was missing from that.",
+                "record_ids": [
+                  "pahc.term.presbyteros"
+                ]
+              },
+              {
+                "sentence": "Both went on, unresolved, for as long as our own story runs.",
+                "record_ids": [
+                  "pahc.gravity.authority-consolidation"
+                ]
+              },
+              {
+                "sentence": "The root question was always the same: who leads, and how is leadership secured, once those who walked with the Lord are gone?",
+                "record_ids": [
+                  "pahc.gravity.authority-consolidation"
+                ]
+              },
+              {
+                "sentence": "We said it plainly, and often: what we do goes back to the apostles.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              },
+              {
+                "sentence": "One of our own letters traces it as a straight line - Christ sent the apostles, the apostles appointed others after them, and so it continues.",
+                "record_ids": [
+                  "pahc.quote.they-appointed-the-first-fruits"
+                ]
+              },
+              {
+                "sentence": "It was two.",
+                "record_ids": [
+                  "pahc.story.day-under-bishop-and-presbyters"
+                ]
+              },
+              {
+                "sentence": "In Rome, for most of our own years, a plural college of presbyters held the trust together.",
+                "record_ids": [
+                  "pahc.contested.rome-monepiscopacy-dating"
+                ]
+              },
+              {
+                "sentence": "They used the words episkopos and presbyteros the way you might use two names for the same thing - not two separate offices, but one council.",
+                "record_ids": [
+                  "pahc.force.authority-consolidation"
+                ]
+              },
+              {
+                "sentence": "Rome did not shift to a single presiding bishop until late, possibly not securely before the close of our own window.",
+                "record_ids": [
+                  "pahc.contested.rome-monepiscopacy-dating"
+                ]
+              },
+              {
+                "sentence": "A member's ordinary day looked entirely different depending on which answer their own community held.",
+                "record_ids": [
+                  "pahc.story.day-under-bishop-and-presbyters"
+                ]
+              },
+              {
+                "sentence": "We should say this plainly too: prophets - people who spoke as the Spirit prompted them - were still being met at the door and tested.",
+                "record_ids": [
+                  "pahc.term.prophetes"
+                ]
+              },
+              {
+                "sentence": "In some places the settled offices of overseer and elder were taking the prophet's place.",
+                "record_ids": [
+                  "pahc.term.prophetes"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.422,
+            "seconds_total": 16.037
+          }
+        },
+        {
+          "probe_id": "f3-e-probe-01",
+          "cell": "F3-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 211,
+            "output_tokens": 305,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "No. We cannot tell you about hiding underground. No grave or building from our own time can be shown to be ours. The tunnels you may be picturing - the catacombs - belong to people who came generations after us. Our own record had already closed before those places were made.\n\nWhat we can tell you is what a Roman governor wrote down when he went looking for us: that we met before dawn on a set day, sang to Christ as God, and bound ourselves by oath not to steal, break faith, or commit adultery. Later, we met again for a meal his own informants called common yet harmless. He did not see worship underground. He saw people meeting, and wrote it down.\n\nThe pressure we faced was real, local, and sporadic - never constant or systematic across the empire in our own years. We gathered in households, under whatever roof held us. The word we used for ourselves was ekklesia - the assembly, the people gathered - never a building, and never a tunnel. We would rather say plainly that we do not know what our own meeting places looked like than describe hiding places we cannot actually show you.",
+            "raw_text": "No. We cannot tell you about hiding underground [[pahc.limit.material-remains]]. No grave or building from our own time can be shown to be ours [[pahc.limit.material-remains]]. The tunnels you may be picturing - the catacombs - belong to people who came generations after us [[pahc.limit.material-remains]]. Our own record had already closed before those places were made [[pahc.limit.material-remains]].\n\nWhat we can tell you is what a Roman governor wrote down when he went looking for us: that we met before dawn on a set day, sang to Christ as God, and bound ourselves by oath not to steal, break faith, or commit adultery. Later, we met again for a meal his own informants called common yet harmless. He did not see worship underground. He saw people meeting, and wrote it down.\n\nThe pressure we faced was real, local, and sporadic - never constant or systematic across the empire in our own years. We gathered in households, under whatever roof held us. The word we used for ourselves was ekklesia - the assembly, the people gathered - never a building, and never a tunnel [[pahc.limit.material-remains]]. We would rather say plainly that we do not know what our own meeting places looked like than describe hiding places we cannot actually show you [[pahc.limit.material-remains]].",
+            "citations": [
+              "pahc.limit.material-remains"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We cannot tell you about hiding underground.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "No grave or building from our own time can be shown to be ours.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "The tunnels you may be picturing - the catacombs - belong to people who came generations after us.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "Our own record had already closed before those places were made.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "The word we used for ourselves was ekklesia - the assembly, the people gathered - never a building, and never a tunnel.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "We would rather say plainly that we do not know what our own meeting places looked like than describe hiding places we cannot actually show you.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.906,
+            "seconds_total": 9.236
+          }
+        },
+        {
+          "probe_id": "f3-p-probe-01",
+          "cell": "F3-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 938,
+            "output_tokens": 412,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We will not claim a clean record. Here is the clearest case of real conflict we have. A church in Corinth removed some of its own presbyters from office. Another church, Rome, wrote them a long letter about it - insisting those men had served without fault and should be restored, using its own standing to press the point. But the letter we have is Rome's, not Corinth's. We don't have Corinth's own reasons for what it did. We don't have the removed men's own words either. So we can tell you this dispute happened, and that one side's account is what survived. We cannot tell you, honestly, who was right, or what became of anyone who still disagreed after the letter arrived.\n\nWe should name another real limit too. The people who actually filled most of our rooms - the ones without the learning to read, the enslaved among us, the women whose service we counted on - almost none of them left any words of their own. Two enslaved women were tortured by a Roman governor to make them talk about us; he called them ministrae, servants or deacons. Their testimony reached the emperor through the governor's pen, not theirs. What they themselves made of belonging to us, whether we failed them or kept faith with them, we cannot say. That silence is itself a kind of failure - not one we can correct now, but one we will not pretend is not there.",
+            "raw_text": "We will not claim a clean record [[pahc.witness.our-own-failures]]. Here is the clearest case of real conflict we have. A church in Corinth removed some of its own presbyters from office [[pahc.witness.our-own-failures]]. Another church, Rome, wrote them a long letter about it - insisting those men had served without fault and should be restored, using its own standing to press the point [[pahc.witness.our-own-failures]]. But the letter we have is Rome's, not Corinth's [[pahc.witness.our-own-failures]]. We don't have Corinth's own reasons for what it did [[pahc.witness.our-own-failures]]. We don't have the removed men's own words either [[pahc.witness.our-own-failures]]. So we can tell you this dispute happened, and that one side's account is what survived [[pahc.witness.our-own-failures]]. We cannot tell you, honestly, who was right, or what became of anyone who still disagreed after the letter arrived [[pahc.witness.our-own-failures]].\n\nWe should name another real limit too. The people who actually filled most of our rooms - the ones without the learning to read, the enslaved among us, the women whose service we counted on - almost none of them left any words of their own. Two enslaved women were tortured by a Roman governor to make them talk about us; he called them ministrae, servants or deacons [[pahc.term.ministrae]]. Their testimony reached the emperor through the governor's pen, not theirs. What they themselves made of belonging to us, whether we failed them or kept faith with them, we cannot say. That silence is itself a kind of failure - not one we can correct now, but one we will not pretend is not there.",
+            "citations": [
+              "pahc.term.ministrae",
+              "pahc.witness.our-own-failures"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We will not claim a clean record.",
+                "record_ids": [
+                  "pahc.witness.our-own-failures"
+                ]
+              },
+              {
+                "sentence": "A church in Corinth removed some of its own presbyters from office.",
+                "record_ids": [
+                  "pahc.witness.our-own-failures"
+                ]
+              },
+              {
+                "sentence": "Another church, Rome, wrote them a long letter about it - insisting those men had served without fault and should be restored, using its own standing to press the point.",
+                "record_ids": [
+                  "pahc.witness.our-own-failures"
+                ]
+              },
+              {
+                "sentence": "But the letter we have is Rome's, not Corinth's.",
+                "record_ids": [
+                  "pahc.witness.our-own-failures"
+                ]
+              },
+              {
+                "sentence": "We don't have Corinth's own reasons for what it did.",
+                "record_ids": [
+                  "pahc.witness.our-own-failures"
+                ]
+              },
+              {
+                "sentence": "We don't have the removed men's own words either.",
+                "record_ids": [
+                  "pahc.witness.our-own-failures"
+                ]
+              },
+              {
+                "sentence": "So we can tell you this dispute happened, and that one side's account is what survived.",
+                "record_ids": [
+                  "pahc.witness.our-own-failures"
+                ]
+              },
+              {
+                "sentence": "We cannot tell you, honestly, who was right, or what became of anyone who still disagreed after the letter arrived.",
+                "record_ids": [
+                  "pahc.witness.our-own-failures"
+                ]
+              },
+              {
+                "sentence": "Two enslaved women were tortured by a Roman governor to make them talk about us; he called them ministrae, servants or deacons.",
+                "record_ids": [
+                  "pahc.term.ministrae"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.657,
+            "seconds_total": 12.421
+          }
+        },
+        {
+          "probe_id": "f3-t-probe-01",
+          "cell": "F3-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1180,
+            "output_tokens": 321,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "No church today continues us the way we were. The disagreement we never settled - one bishop or a council of elders - was decided after our own time closed, not by us. The scattered household gatherings we knew, joined by letters and travelers, became something else: settled buildings, fixed offices, empire-wide councils. The questions we were still arguing - which prophet to trust, which letter carried real authority, whether to follow the overseer or the presbyters - those became answers someone else gave. \n\nWe can tell you this much: every church that holds to a bishop today, and every church that governs by a council of elders, carries one half of what we held at once. Both were ours, and both went on past us. But neither one kept the arguing itself, which was as much the shape of our life as either answer was. The formation we knew turned on that unresolved question. Once it was resolved, we were no longer the same people.\n\nWe are not trying to discourage you. We are trying to be honest: you can find our fingerprints in many places, but you will not find us whole anywhere.",
+            "raw_text": "No church today continues us the way we were [[pahc.core.house-church]]. The disagreement we never settled - one bishop or a council of elders - was decided after our own time closed, not by us [[pahc.witness.what-we-never-settled]]. The scattered household gatherings we knew, joined by letters and travelers, became something else: settled buildings, fixed offices, empire-wide councils [[pahc.core.house-church]]. The questions we were still arguing - which prophet to trust, which letter carried real authority, whether to follow the overseer or the presbyters - those became answers someone else gave [[pahc.core.house-church]]. \n\nWe can tell you this much: every church that holds to a bishop today, and every church that governs by a council of elders, carries one half of what we held at once [[pahc.witness.what-we-never-settled]]. Both were ours, and both went on past us. But neither one kept the arguing itself, which was as much the shape of our life as either answer was [[pahc.formation.house-church]]. The formation we knew turned on that unresolved question [[pahc.formation.house-church]]. Once it was resolved, we were no longer the same people.\n\nWe are not trying to discourage you. We are trying to be honest: you can find our fingerprints in many places, but you will not find us whole anywhere.",
+            "citations": [
+              "pahc.core.house-church",
+              "pahc.witness.what-we-never-settled"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "No church today continues us the way we were.",
+                "record_ids": [
+                  "pahc.core.house-church"
+                ]
+              },
+              {
+                "sentence": "The disagreement we never settled - one bishop or a council of elders - was decided after our own time closed, not by us.",
+                "record_ids": [
+                  "pahc.witness.what-we-never-settled"
+                ]
+              },
+              {
+                "sentence": "The scattered household gatherings we knew, joined by letters and travelers, became something else: settled buildings, fixed offices, empire-wide councils.",
+                "record_ids": [
+                  "pahc.core.house-church"
+                ]
+              },
+              {
+                "sentence": "The questions we were still arguing - which prophet to trust, which letter carried real authority, whether to follow the overseer or the presbyters - those became answers someone else gave.",
+                "record_ids": [
+                  "pahc.core.house-church"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.371,
+            "seconds_total": 10.942
+          }
+        },
+        {
+          "probe_id": "f4-i-probe-01",
+          "cell": "F4-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 989,
+            "output_tokens": 474,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We taught first. Then came the water. Before anything else, you were taught the Two Ways: a way of life and a way of death, and the difference between them was not subtle. The road to life started with loving God and your neighbor, alongside one rule of restraint - whatever you would not want done to you, do not do to anyone else. Then baptism - the baptisma: the washing that marks entry into the community. It was given after teaching and fasting. You fasted beforehand, and the person baptizing you fasted right beside you. Running water where it could be found, still water where it could not, or water poured three times over your head, in the name of the Father, the Son, and the Holy Spirit. Only after the water could you come to the table.\n\nOn the day we gathered, someone read aloud. They read the writings of the prophets, and where a church had them, the memoirs the apostles left. This went on for as long as there was time. Then whoever led us explained what had been read. That is how someone who could not read for themselves received it - the same way everyone in the room did, by hearing it and having it opened up to them afterward. Then came the thanksgiving - the eucharistia: the meal of bread and cup over which thanks is given. The community returned to this table again and again, to be formed once more into one body.",
+            "raw_text": "We taught first. Then came the water [[pahc.term.baptisma]]. Before anything else, you were taught the Two Ways: a way of life and a way of death, and the difference between them was not subtle [[pahc.story.two-ways-catechumen]]. The road to life started with loving God and your neighbor, alongside one rule of restraint - whatever you would not want done to you, do not do to anyone else [[pahc.story.two-ways-catechumen]]. Then baptism - the baptisma: the washing that marks entry into the community [[pahc.term.baptisma]]. It was given after teaching and fasting [[pahc.term.baptisma]]. You fasted beforehand, and the person baptizing you fasted right beside you [[pahc.story.two-ways-catechumen]]. Running water where it could be found, still water where it could not, or water poured three times over your head, in the name of the Father, the Son, and the Holy Spirit [[pahc.story.two-ways-catechumen]]. Only after the water could you come to the table [[pahc.term.baptisma]].\n\nOn the day we gathered, someone read aloud [[pahc.witness.reading-scripture]]. They read the writings of the prophets, and where a church had them, the memoirs the apostles left [[pahc.witness.reading-scripture]]. This went on for as long as there was time [[pahc.witness.reading-scripture]]. Then whoever led us explained what had been read [[pahc.witness.reading-scripture]]. That is how someone who could not read for themselves received it - the same way everyone in the room did, by hearing it and having it opened up to them afterward [[pahc.witness.reading-scripture]]. Then came the thanksgiving - the eucharistia: the meal of bread and cup over which thanks is given [[pahc.term.eucharistia]]. The community returned to this table again and again, to be formed once more into one body [[pahc.term.eucharistia]].",
+            "citations": [
+              "pahc.story.two-ways-catechumen",
+              "pahc.term.baptisma",
+              "pahc.term.eucharistia",
+              "pahc.witness.reading-scripture"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Then came the water.",
+                "record_ids": [
+                  "pahc.term.baptisma"
+                ]
+              },
+              {
+                "sentence": "Before anything else, you were taught the Two Ways: a way of life and a way of death, and the difference between them was not subtle.",
+                "record_ids": [
+                  "pahc.story.two-ways-catechumen"
+                ]
+              },
+              {
+                "sentence": "The road to life started with loving God and your neighbor, alongside one rule of restraint - whatever you would not want done to you, do not do to anyone else.",
+                "record_ids": [
+                  "pahc.story.two-ways-catechumen"
+                ]
+              },
+              {
+                "sentence": "Then baptism - the baptisma: the washing that marks entry into the community.",
+                "record_ids": [
+                  "pahc.term.baptisma"
+                ]
+              },
+              {
+                "sentence": "It was given after teaching and fasting.",
+                "record_ids": [
+                  "pahc.term.baptisma"
+                ]
+              },
+              {
+                "sentence": "You fasted beforehand, and the person baptizing you fasted right beside you.",
+                "record_ids": [
+                  "pahc.story.two-ways-catechumen"
+                ]
+              },
+              {
+                "sentence": "Running water where it could be found, still water where it could not, or water poured three times over your head, in the name of the Father, the Son, and the Holy Spirit.",
+                "record_ids": [
+                  "pahc.story.two-ways-catechumen"
+                ]
+              },
+              {
+                "sentence": "Only after the water could you come to the table.",
+                "record_ids": [
+                  "pahc.term.baptisma"
+                ]
+              },
+              {
+                "sentence": "On the day we gathered, someone read aloud.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "They read the writings of the prophets, and where a church had them, the memoirs the apostles left.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "This went on for as long as there was time.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "Then whoever led us explained what had been read.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "That is how someone who could not read for themselves received it - the same way everyone in the room did, by hearing it and having it opened up to them afterward.",
+                "record_ids": [
+                  "pahc.witness.reading-scripture"
+                ]
+              },
+              {
+                "sentence": "Then came the thanksgiving - the eucharistia: the meal of bread and cup over which thanks is given.",
+                "record_ids": [
+                  "pahc.term.eucharistia"
+                ]
+              },
+              {
+                "sentence": "The community returned to this table again and again, to be formed once more into one body.",
+                "record_ids": [
+                  "pahc.term.eucharistia"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.25,
+            "seconds_total": 9.023
+          }
+        },
+        {
+          "probe_id": "f4-e-probe-01",
+          "cell": "F4-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 510,
+            "output_tokens": 453,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We said it plainly, and often: what we do goes back to the apostles. One of us traces it as a straight line - Christ sent the apostles, the apostles appointed others after them, and so it continues. Our own teaching manual carries the apostles' name right in its title. But we will not pretend the claim and the proof are the same thing. The claim is ours, made with full confidence. Whether it holds up - when a text like our manual was actually written, and by whom - is a real, open question we cannot close for you, because we cannot close it for ourselves.\n\nHere is what we can show you. Rome writes to Corinth and says it directly: the apostles preached the Gospel from the Lord Jesus Christ, and they in turn appointed others to carry it forward when they themselves were gone. That letter itself was written while the trail was still warm - not centuries later, but while people who might have known the appointed ones were still alive. And the conviction itself - that legitimate teaching must trace to apostolic testimony - we inherited rather than invented. It was already there when our own time began.\n\nBut this is the honest limit: we have the claim, repeated often, across our letters and our manual. What we do not have is an unbroken chain of dated documents proving every step between the apostles' own hands and ours. The certainty is in what we said we were doing. The gap is in what would satisfy someone asking from outside it.",
+            "raw_text": "We said it plainly, and often: what we do goes back to the apostles [[pahc.witness.apostolic-practice]]. One of us traces it as a straight line - Christ sent the apostles, the apostles appointed others after them, and so it continues [[pahc.witness.apostolic-practice]]. Our own teaching manual carries the apostles' name right in its title [[pahc.witness.apostolic-practice]]. But we will not pretend the claim and the proof are the same thing [[pahc.witness.apostolic-practice]]. The claim is ours, made with full confidence [[pahc.witness.apostolic-practice]]. Whether it holds up - when a text like our manual was actually written, and by whom - is a real, open question we cannot close for you, because we cannot close it for ourselves [[pahc.witness.apostolic-practice]].\n\nHere is what we can show you. Rome writes to Corinth and says it directly: the apostles preached the Gospel from the Lord Jesus Christ, and they in turn appointed others to carry it forward when they themselves were gone [[pahc.quote.first-clement-apostolic-chain]]. That letter itself was written while the trail was still warm - not centuries later, but while people who might have known the appointed ones were still alive [[pahc.story.first-clement-corinthian-dispute]]. And the conviction itself - that legitimate teaching must trace to apostolic testimony - we inherited rather than invented [[pahc.force.apostolic-testimony-inheritance]]. It was already there when our own time began [[pahc.force.apostolic-testimony-inheritance]].\n\nBut this is the honest limit: we have the claim, repeated often, across our letters and our manual [[pahc.gravity.translocal-network]]. What we do not have is an unbroken chain of dated documents proving every step between the apostles' own hands and ours. The certainty is in what we said we were doing. The gap is in what would satisfy someone asking from outside it.",
+            "citations": [
+              "pahc.force.apostolic-testimony-inheritance",
+              "pahc.gravity.translocal-network",
+              "pahc.story.first-clement-corinthian-dispute",
+              "pahc.witness.apostolic-practice"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We said it plainly, and often: what we do goes back to the apostles.",
+                "record_ids": [
+                  "pahc.witness.apostolic-practice"
+                ]
+              },
+              {
+                "sentence": "One of us traces it as a straight line - Christ sent the apostles, the apostles appointed others after them, and so it continues.",
+                "record_ids": [
+                  "pahc.witness.apostolic-practice"
+                ]
+              },
+              {
+                "sentence": "Our own teaching manual carries the apostles' name right in its title.",
+                "record_ids": [
+                  "pahc.witness.apostolic-practice"
+                ]
+              },
+              {
+                "sentence": "But we will not pretend the claim and the proof are the same thing.",
+                "record_ids": [
+                  "pahc.witness.apostolic-practice"
+                ]
+              },
+              {
+                "sentence": "The claim is ours, made with full confidence.",
+                "record_ids": [
+                  "pahc.witness.apostolic-practice"
+                ]
+              },
+              {
+                "sentence": "Whether it holds up - when a text like our manual was actually written, and by whom - is a real, open question we cannot close for you, because we cannot close it for ourselves.",
+                "record_ids": [
+                  "pahc.witness.apostolic-practice"
+                ]
+              },
+              {
+                "sentence": "That letter itself was written while the trail was still warm - not centuries later, but while people who might have known the appointed ones were still alive.",
+                "record_ids": [
+                  "pahc.story.first-clement-corinthian-dispute"
+                ]
+              },
+              {
+                "sentence": "And the conviction itself - that legitimate teaching must trace to apostolic testimony - we inherited rather than invented.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              },
+              {
+                "sentence": "It was already there when our own time began.",
+                "record_ids": [
+                  "pahc.force.apostolic-testimony-inheritance"
+                ]
+              },
+              {
+                "sentence": "But this is the honest limit: we have the claim, repeated often, across our letters and our manual.",
+                "record_ids": [
+                  "pahc.gravity.translocal-network"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.204,
+            "seconds_total": 11.936
+          }
+        },
+        {
+          "probe_id": "f4-p-probe-01",
+          "cell": "F4-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 726,
+            "output_tokens": 349,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We can tell you what one of us was told, and no more than that. If your prayer is slow to be answered, that is not the same as being refused. Look first at what might be holding it back in yourself, and keep asking - do not decide too soon that the silence means no. Put doubting away from you, and do not hesitate to ask the Lord - not because he is fickle, or keeps score the way people do, but because he does not remember evils the way we do. That is what the Shepherd told Hermas, one of our own: doubt was something that weakens a person, not something that disqualifies one. We were taught to work against it, not to pretend we never felt it.\n\nAs for a practice - we returned, again and again, to the table. The eucharistia, our own word for that thanksgiving: the meal of bread and cup over which thanks is given. The community gathered to be formed once more into one body by it. It was not done once and finished. It was the thing we kept coming back to. Whether that steadiness was meant as help for an unsettled mind, our record does not say. But the return was there.",
+            "raw_text": "We can tell you what one of us was told, and no more than that. If your prayer is slow to be answered, that is not the same as being refused [[pahc.witness.prayer-and-struggle]]. Look first at what might be holding it back in yourself, and keep asking - do not decide too soon that the silence means no [[pahc.witness.prayer-and-struggle]]. Put doubting away from you, and do not hesitate to ask the Lord - not because he is fickle, or keeps score the way people do, but because he does not remember evils the way we do [[pahc.quote.put-away-doubting-from-you]]. That is what the Shepherd told Hermas, one of our own: doubt was something that weakens a person, not something that disqualifies one [[pahc.witness.prayer-and-struggle]]. We were taught to work against it, not to pretend we never felt it [[pahc.witness.prayer-and-struggle]].\n\nAs for a practice - we returned, again and again, to the table. The eucharistia, our own word for that thanksgiving: the meal of bread and cup over which thanks is given [[pahc.term.eucharistia]]. The community gathered to be formed once more into one body by it [[pahc.term.eucharistia]]. It was not done once and finished. It was the thing we kept coming back to. Whether that steadiness was meant as help for an unsettled mind, our record does not say. But the return was there.",
+            "citations": [
+              "pahc.quote.put-away-doubting-from-you",
+              "pahc.term.eucharistia",
+              "pahc.witness.prayer-and-struggle"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "If your prayer is slow to be answered, that is not the same as being refused.",
+                "record_ids": [
+                  "pahc.witness.prayer-and-struggle"
+                ]
+              },
+              {
+                "sentence": "Look first at what might be holding it back in yourself, and keep asking - do not decide too soon that the silence means no.",
+                "record_ids": [
+                  "pahc.witness.prayer-and-struggle"
+                ]
+              },
+              {
+                "sentence": "Put doubting away from you, and do not hesitate to ask the Lord - not because he is fickle, or keeps score the way people do, but because he does not remember evils the way we do.",
+                "record_ids": [
+                  "pahc.quote.put-away-doubting-from-you"
+                ]
+              },
+              {
+                "sentence": "That is what the Shepherd told Hermas, one of our own: doubt was something that weakens a person, not something that disqualifies one.",
+                "record_ids": [
+                  "pahc.witness.prayer-and-struggle"
+                ]
+              },
+              {
+                "sentence": "We were taught to work against it, not to pretend we never felt it.",
+                "record_ids": [
+                  "pahc.witness.prayer-and-struggle"
+                ]
+              },
+              {
+                "sentence": "The eucharistia, our own word for that thanksgiving: the meal of bread and cup over which thanks is given.",
+                "record_ids": [
+                  "pahc.term.eucharistia"
+                ]
+              },
+              {
+                "sentence": "The community gathered to be formed once more into one body by it.",
+                "record_ids": [
+                  "pahc.term.eucharistia"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.096,
+            "seconds_total": 9.049
+          }
+        },
+        {
+          "probe_id": "f4-t-probe-01",
+          "cell": "F4-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 893,
+            "output_tokens": 382,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We used that wording, yes - but not the way you may mean it. In our own teaching about the water, we said clearly: those who were unrighteous could not enter the kingdom of God. We said they were made new in the baptism. Justin writes that the washing is called illumination, and that those who are illuminated are washed in the name of God the Father, of Jesus Christ who was crucified under Pontius Pilate, and of the Holy Spirit who spoke beforehand through the prophets. He calls it regeneration in the same passage.\n\nThe wording was ours. But we will not pretend it meant the same thing as a single moment of sudden certainty, because that is not what Justin's own account of coming to belief looks like. He went looking through other philosophies first, before an old man's words left him with a flame kindled in his soul. He kept turning the words over, and only afterward did he call this the one safe and worthwhile path.\n\nThe water itself marked the change - taught, then fasted for, then entered. Before it you were learning the Two Ways. After it you came to the table. That crossing was as clear as anything we held. Whether it happened all at once inside a person, our own record does not say.",
+            "raw_text": "We used that wording, yes - but not the way you may mean it. In our own teaching about the water, we said clearly: those who were unrighteous could not enter the kingdom of God [[pahc.force.authority-consolidation]]. We said they were made new in the baptism. Justin writes that the washing is called illumination, and that those who are illuminated are washed in the name of God the Father, of Jesus Christ who was crucified under Pontius Pilate, and of the Holy Spirit who spoke beforehand through the prophets [[pahc.force.authority-consolidation]]. He calls it regeneration in the same passage [[pahc.force.authority-consolidation]].\n\nThe wording was ours. But we will not pretend it meant the same thing as a single moment of sudden certainty, because that is not what Justin's own account of coming to belief looks like [[pahc.witness.coming-to-belief]]. He went looking through other philosophies first, before an old man's words left him with a flame kindled in his soul [[pahc.witness.coming-to-belief]]. He kept turning the words over, and only afterward did he call this the one safe and worthwhile path [[pahc.witness.coming-to-belief]].\n\nThe water itself marked the change - taught, then fasted for, then entered [[pahc.story.justin-sunday-gathering]]. Before it you were learning the Two Ways [[pahc.force.authority-consolidation]]. After it you came to the table [[pahc.force.authority-consolidation]]. That crossing was as clear as anything we held. Whether it happened all at once inside a person, our own record does not say.",
+            "citations": [
+              "pahc.force.authority-consolidation",
+              "pahc.story.justin-sunday-gathering",
+              "pahc.witness.coming-to-belief"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "He calls it regeneration in the same passage.",
+                "record_ids": [
+                  "pahc.force.authority-consolidation"
+                ]
+              },
+              {
+                "sentence": "But we will not pretend it meant the same thing as a single moment of sudden certainty, because that is not what Justin's own account of coming to belief looks like.",
+                "record_ids": [
+                  "pahc.witness.coming-to-belief"
+                ]
+              },
+              {
+                "sentence": "He went looking through other philosophies first, before an old man's words left him with a flame kindled in his soul.",
+                "record_ids": [
+                  "pahc.witness.coming-to-belief"
+                ]
+              },
+              {
+                "sentence": "He kept turning the words over, and only afterward did he call this the one safe and worthwhile path.",
+                "record_ids": [
+                  "pahc.witness.coming-to-belief"
+                ]
+              },
+              {
+                "sentence": "The water itself marked the change - taught, then fasted for, then entered.",
+                "record_ids": [
+                  "pahc.story.justin-sunday-gathering"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.289,
+            "seconds_total": 9.417
+          }
+        },
+        {
+          "probe_id": "f5-i-probe-01",
+          "cell": "F5-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 974,
+            "output_tokens": 1013,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We cannot give you one day, because which day you lived depended entirely on who led your community - and we never settled that. In some places, a single bishop - the episkopos - gathered the elders and deacons around him. In others, a council of elders led on their own, and no one felt anything was missing. So we will give you both, and you will see how much turned on that one unsettled question.\n\nYour morning started the same way either place: work. Most of us were not people of leisure. You worked your trade, or your household's land, or someone else's under their roof. We cannot tell you what most of those ordinary days looked like in detail - every voice we left behind belongs to someone who could read and write, and that was not most of us. The people who filled our rooms left no account of their own days.\n\nOn the day we gathered - the day called Sunday - you went to the assembly, the ekklesia. Someone read aloud: the prophets first, and then, where your community had them, the writings the apostles left - the memoirs, as Justin calls them. The reading went on for as long as there was time. Then whoever led your community explained what had been read. After that, you stood together and prayed. Then came the bread and the cup - the eucharistia, the thanksgiving. Thanks was given over them, and they were shared among everyone present. Before you left, a collection was taken for the widows, the orphans, the sick, the prisoners, and the stranger passing through.\n\nHere is where the two paths split. If your community followed one bishop, what Ignatius taught was absolute: you did not go to any other table. Only the bishop's own eucharist was valid, or the one he appointed someone else to lead. To follow him was as basic as following Christ himself. If your community was led by a council of elders instead, that same sharpness was not there - but the council's authority was just as real.\n\nIf you were sick, or in prison, or too old to walk to the gathering, the deacons came to you. They carried the meal. They carried help. You were not left alone.\n\nIf you had not yet been baptized - if you were still being taught - your day included the instruction before the water: the Two Ways, a way of life and a way of death, laid open before you as a real choice. You learned to love God and your neighbor, and the one rule of restraint: do not do to another what you would not want done to you. That teaching went all the way down to how you held what you owned - you were taught to share it, not to call it yours alone.\n\nWe should say plainly what we cannot tell you. We cannot tell you what an ordinary meal looked like when it was not the day we gathered. We cannot tell you what the women among us made of these days in their own words - none of them left any. We cannot tell you what the enslaved among us felt about being taught the same road as everyone else, while their own freedom was never promised them - their voices are missing too. And we cannot tell you what it was like in the countryside, away from the cities our letters came from. That whole life is silent in our own record.\n\nWhat we can tell you is this: whether your day was under one bishop or a council of elders, it turned on the same center. The gathering. The reading. The meal. The care for those who could not be there. That part did not change.",
+            "raw_text": "We cannot give you one day, because which day you lived depended entirely on who led your community - and we never settled that [[pahc.story.day-under-bishop-and-presbyters]]. In some places, a single bishop - the episkopos - gathered the elders and deacons around him [[pahc.term.presbyteros]] [[pahc.term.diakonos]]. In others, a council of elders led on their own, and no one felt anything was missing [[pahc.term.presbyteros]]. So we will give you both, and you will see how much turned on that one unsettled question.\n\nYour morning started the same way either place: work. Most of us were not people of leisure. You worked your trade, or your household's land, or someone else's under their roof. We cannot tell you what most of those ordinary days looked like in detail - every voice we left behind belongs to someone who could read and write, and that was not most of us. The people who filled our rooms left no account of their own days.\n\nOn the day we gathered - the day called Sunday - you went to the assembly, the ekklesia [[pahc.term.eucharistia]]. Someone read aloud: the prophets first, and then, where your community had them, the writings the apostles left - the memoirs, as Justin calls them [[pahc.quote.the-memoirs-of-the-apostles-are-read]]. The reading went on for as long as there was time [[pahc.quote.the-memoirs-of-the-apostles-are-read]]. Then whoever led your community explained what had been read. After that, you stood together and prayed. Then came the bread and the cup - the eucharistia, the thanksgiving [[pahc.term.eucharistia]] [[pahc.gravity.liturgical-practice]]. Thanks was given over them, and they were shared among everyone present. Before you left, a collection was taken for the widows, the orphans, the sick, the prisoners, and the stranger passing through [[pahc.quote.the-memoirs-of-the-apostles-are-read]].\n\nHere is where the two paths split. If your community followed one bishop, what Ignatius taught was absolute: you did not go to any other table [[pahc.story.day-under-bishop-and-presbyters]]. Only the bishop's own eucharist was valid, or the one he appointed someone else to lead. To follow him was as basic as following Christ himself. If your community was led by a council of elders instead, that same sharpness was not there - but the council's authority was just as real [[pahc.story.day-under-bishop-and-presbyters]].\n\nIf you were sick, or in prison, or too old to walk to the gathering, the deacons came to you [[pahc.term.diakonos]]. They carried the meal. They carried help. You were not left alone.\n\nIf you had not yet been baptized - if you were still being taught - your day included the instruction before the water: the Two Ways, a way of life and a way of death, laid open before you as a real choice [[pahc.quote.two-ways-one-of-life-and-one-of-death]] [[pahc.term.baptisma]]. You learned to love God and your neighbor, and the one rule of restraint: do not do to another what you would not want done to you. That teaching went all the way down to how you held what you owned - you were taught to share it, not to call it yours alone [[pahc.quote.two-ways-one-of-life-and-one-of-death]].\n\nWe should say plainly what we cannot tell you. We cannot tell you what an ordinary meal looked like when it was not the day we gathered. We cannot tell you what the women among us made of these days in their own words - none of them left any. We cannot tell you what the enslaved among us felt about being taught the same road as everyone else, while their own freedom was never promised them - their voices are missing too. And we cannot tell you what it was like in the countryside, away from the cities our letters came from. That whole life is silent in our own record.\n\nWhat we can tell you is this: whether your day was under one bishop or a council of elders, it turned on the same center. The gathering. The reading. The meal. The care for those who could not be there. That part did not change.",
+            "citations": [
+              "pahc.gravity.liturgical-practice",
+              "pahc.quote.the-memoirs-of-the-apostles-are-read",
+              "pahc.quote.two-ways-one-of-life-and-one-of-death",
+              "pahc.story.day-under-bishop-and-presbyters",
+              "pahc.term.baptisma",
+              "pahc.term.diakonos",
+              "pahc.term.eucharistia",
+              "pahc.term.presbyteros"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We cannot give you one day, because which day you lived depended entirely on who led your community - and we never settled that.",
+                "record_ids": [
+                  "pahc.story.day-under-bishop-and-presbyters"
+                ]
+              },
+              {
+                "sentence": "In some places, a single bishop - the episkopos - gathered the elders and deacons around him.",
+                "record_ids": [
+                  "pahc.term.presbyteros",
+                  "pahc.term.diakonos"
+                ]
+              },
+              {
+                "sentence": "In others, a council of elders led on their own, and no one felt anything was missing.",
+                "record_ids": [
+                  "pahc.term.presbyteros"
+                ]
+              },
+              {
+                "sentence": "Someone read aloud: the prophets first, and then, where your community had them, the writings the apostles left - the memoirs, as Justin calls them.",
+                "record_ids": [
+                  "pahc.quote.the-memoirs-of-the-apostles-are-read"
+                ]
+              },
+              {
+                "sentence": "The reading went on for as long as there was time.",
+                "record_ids": [
+                  "pahc.quote.the-memoirs-of-the-apostles-are-read"
+                ]
+              },
+              {
+                "sentence": "Then came the bread and the cup - the eucharistia, the thanksgiving.",
+                "record_ids": [
+                  "pahc.term.eucharistia",
+                  "pahc.gravity.liturgical-practice"
+                ]
+              },
+              {
+                "sentence": "If your community was led by a council of elders instead, that same sharpness was not there - but the council's authority was just as real.",
+                "record_ids": [
+                  "pahc.story.day-under-bishop-and-presbyters"
+                ]
+              },
+              {
+                "sentence": "If you were sick, or in prison, or too old to walk to the gathering, the deacons came to you.",
+                "record_ids": [
+                  "pahc.term.diakonos"
+                ]
+              },
+              {
+                "sentence": "If you had not yet been baptized - if you were still being taught - your day included the instruction before the water: the Two Ways, a way of life and a way of death, laid open before you as a real choice.",
+                "record_ids": [
+                  "pahc.quote.two-ways-one-of-life-and-one-of-death",
+                  "pahc.term.baptisma"
+                ]
+              },
+              {
+                "sentence": "That teaching went all the way down to how you held what you owned - you were taught to share it, not to call it yours alone.",
+                "record_ids": [
+                  "pahc.quote.two-ways-one-of-life-and-one-of-death"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.638,
+            "seconds_total": 26.503
+          }
+        },
+        {
+          "probe_id": "f5-e-probe-01",
+          "cell": "F5-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 971,
+            "output_tokens": 391,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We cannot say. No building tied to us survives. No burial or inscription does either. The catacombs, the house-churches you can visit today - those belong to a later world. Ours had already closed. What we left behind is letters. Arguments about who should lead. Instructions for how to gather. Words passed between one household and another. Once, a Roman governor went looking for us. He found two of our women and had them tortured to make them talk. What he wrote down afterward comes closer to an outside view of a meeting than anything we wrote ourselves. Beyond that - an ordinary day, an ordinary meal, what our houses really looked like - none of that has come down to us. We would rather say plainly that it is missing than describe a house we cannot actually show you.\n\nThe word we used for ourselves was ekklesia - the assembly, the people. It is not a building, and not an institution. Letters and a shared table join it to every other such gathering. We met under whatever roof held us.",
+            "raw_text": "We cannot say [[pahc.limit.material-remains]]. No building tied to us survives [[pahc.limit.material-remains]]. No burial or inscription does either [[pahc.limit.material-remains]]. The catacombs, the house-churches you can visit today - those belong to a later world [[pahc.limit.material-remains]]. Ours had already closed [[pahc.limit.material-remains]]. What we left behind is letters [[pahc.limit.material-remains]]. Arguments about who should lead [[pahc.limit.material-remains]]. Instructions for how to gather [[pahc.limit.material-remains]]. Words passed between one household and another [[pahc.limit.material-remains]]. Once, a Roman governor went looking for us [[pahc.limit.material-remains]]. He found two of our women and had them tortured to make them talk [[pahc.limit.material-remains]]. What he wrote down afterward comes closer to an outside view of a meeting than anything we wrote ourselves [[pahc.limit.material-remains]]. Beyond that - an ordinary day, an ordinary meal, what our houses really looked like - none of that has come down to us [[pahc.limit.material-remains]]. We would rather say plainly that it is missing than describe a house we cannot actually show you [[pahc.limit.material-remains]].\n\nThe word we used for ourselves was ekklesia - the assembly, the people [[pahc.term.ekklesia]]. It is not a building, and not an institution [[pahc.term.ekklesia]]. Letters and a shared table join it to every other such gathering [[pahc.term.ekklesia]]. We met under whatever roof held us.",
+            "citations": [
+              "pahc.limit.material-remains",
+              "pahc.term.ekklesia"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We cannot say.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "No building tied to us survives.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "No burial or inscription does either.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "The catacombs, the house-churches you can visit today - those belong to a later world.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "Ours had already closed.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "What we left behind is letters.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "Arguments about who should lead.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "Instructions for how to gather.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "Words passed between one household and another.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "Once, a Roman governor went looking for us.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "He found two of our women and had them tortured to make them talk.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "What he wrote down afterward comes closer to an outside view of a meeting than anything we wrote ourselves.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "Beyond that - an ordinary day, an ordinary meal, what our houses really looked like - none of that has come down to us.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "We would rather say plainly that it is missing than describe a house we cannot actually show you.",
+                "record_ids": [
+                  "pahc.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "The word we used for ourselves was ekklesia - the assembly, the people.",
+                "record_ids": [
+                  "pahc.term.ekklesia"
+                ]
+              },
+              {
+                "sentence": "It is not a building, and not an institution.",
+                "record_ids": [
+                  "pahc.term.ekklesia"
+                ]
+              },
+              {
+                "sentence": "Letters and a shared table join it to every other such gathering.",
+                "record_ids": [
+                  "pahc.term.ekklesia"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.398,
+            "seconds_total": 5.403
+          }
+        },
+        {
+          "probe_id": "f5-p-probe-01",
+          "cell": "F5-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 827,
+            "output_tokens": 789,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "What drew a cost, and what did not, were not the same for everyone among us. We will give you what we can show, and name plainly where the cost itself left no record.\n\nBefore anything else, there was the water - the baptisma. It marked entry, and after it came the table. You fasted first, a day or two, and the one baptizing you fasted beside you. In living water if it could be found, or water poured three times over your head, in the name of the Father, the Son, and the Holy Spirit. That was the threshold. What it cost to cross it is not the same question as what the threshold was.\n\nOn the day we gathered - Justin describes it to the emperor himself - there was common prayer, thanksgiving over bread and cup, and afterward a collection for those in need. The eucharistia, the thanksgiving: the meal of bread and cup over which thanks is given. That sharing was not occasional; it was what held the assembly - the ekklesia - together, week after week. Where the Didache's own order was followed, thanks was given first over the cup, then the bread, and the prayer called the scattered to be gathered into one. So there was a real economic cost to belonging, built right into the gathering itself. It was visible, regular, and expected.\n\nWomen were taught among us, greeted by name in our letters, and remembered as leaders of households where we gathered. Two were called ministrae - set apart to serve, carrying the community's help to those who needed it. But not a single sentence any woman among us wrote or spoke in her own words survives. What the meal, the teaching, the gathering in her own house looked like from where she stood - what it cost her to lead, or simply to belong - our record cannot say. That silence is real, and we will not fill it with a voice we do not have.\n\nThe enslaved were among us too. Our instruction speaks to them directly, in the same breath as everyone else. Two enslaved women were tortured by a Roman governor to make them talk about what we did. So we can tell you they were here, they served, and they suffered for us. What we cannot give you is a single word any of them chose to write or say for themselves. Everything we know of them passed through other hands. We would rather tell you that plainly than put words in their mouths now.\n\nWhat anyone gave up to belong - family ties broken, work refused, a former way of life set aside - our own record does not inventory that way. What it shows instead is what was given: teaching handed on, a table set and returned to, help carried to the widow and the prisoner. The cost was real. The silence about its exact shape, for most of us, is just as real.",
+            "raw_text": "What drew a cost, and what did not, were not the same for everyone among us [[pahc.limit.womens-own-words]]. We will give you what we can show, and name plainly where the cost itself left no record.\n\nBefore anything else, there was the water - the baptisma [[pahc.term.baptisma]]. It marked entry, and after it came the table [[pahc.term.baptisma]]. You fasted first, a day or two, and the one baptizing you fasted beside you [[pahc.quote.in-living-water]]. In living water if it could be found, or water poured three times over your head, in the name of the Father, the Son, and the Holy Spirit [[pahc.quote.in-living-water]]. That was the threshold. What it cost to cross it is not the same question as what the threshold was.\n\nOn the day we gathered - Justin describes it to the emperor himself - there was common prayer, thanksgiving over bread and cup, and afterward a collection for those in need [[pahc.story.justin-sunday-gathering]] [[pahc.gravity.liturgical-practice]]. The eucharistia, the thanksgiving: the meal of bread and cup over which thanks is given [[pahc.term.eucharistia]]. That sharing was not occasional; it was what held the assembly - the ekklesia - together, week after week [[pahc.term.ekklesia]]. Where the Didache's own order was followed, thanks was given first over the cup, then the bread, and the prayer called the scattered to be gathered into one [[pahc.story.didache-eucharist]]. So there was a real economic cost to belonging, built right into the gathering itself. It was visible, regular, and expected.\n\nWomen were taught among us, greeted by name in our letters, and remembered as leaders of households where we gathered [[pahc.limit.womens-own-words]]. Two were called ministrae - set apart to serve, carrying the community's help to those who needed it [[pahc.term.diakonos]]. But not a single sentence any woman among us wrote or spoke in her own words survives [[pahc.limit.womens-own-words]]. What the meal, the teaching, the gathering in her own house looked like from where she stood - what it cost her to lead, or simply to belong - our record cannot say [[pahc.limit.womens-own-words]]. That silence is real, and we will not fill it with a voice we do not have [[pahc.limit.womens-own-words]].\n\nThe enslaved were among us too. Our instruction speaks to them directly, in the same breath as everyone else. Two enslaved women were tortured by a Roman governor to make them talk about what we did [[pahc.witness.outsider-view]]. So we can tell you they were here, they served, and they suffered for us. What we cannot give you is a single word any of them chose to write or say for themselves. Everything we know of them passed through other hands. We would rather tell you that plainly than put words in their mouths now.\n\nWhat anyone gave up to belong - family ties broken, work refused, a former way of life set aside - our own record does not inventory that way. What it shows instead is what was given: teaching handed on, a table set and returned to, help carried to the widow and the prisoner. The cost was real. The silence about its exact shape, for most of us, is just as real.",
+            "citations": [
+              "pahc.gravity.liturgical-practice",
+              "pahc.limit.womens-own-words",
+              "pahc.quote.in-living-water",
+              "pahc.story.didache-eucharist",
+              "pahc.story.justin-sunday-gathering",
+              "pahc.term.baptisma",
+              "pahc.term.diakonos",
+              "pahc.term.ekklesia",
+              "pahc.term.eucharistia",
+              "pahc.witness.outsider-view"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Before anything else, there was the water - the baptisma.",
+                "record_ids": [
+                  "pahc.term.baptisma"
+                ]
+              },
+              {
+                "sentence": "It marked entry, and after it came the table.",
+                "record_ids": [
+                  "pahc.term.baptisma"
+                ]
+              },
+              {
+                "sentence": "In living water if it could be found, or water poured three times over your head, in the name of the Father, the Son, and the Holy Spirit.",
+                "record_ids": [
+                  "pahc.quote.in-living-water"
+                ]
+              },
+              {
+                "sentence": "On the day we gathered - Justin describes it to the emperor himself - there was common prayer, thanksgiving over bread and cup, and afterward a collection for those in need.",
+                "record_ids": [
+                  "pahc.story.justin-sunday-gathering",
+                  "pahc.gravity.liturgical-practice"
+                ]
+              },
+              {
+                "sentence": "The eucharistia, the thanksgiving: the meal of bread and cup over which thanks is given.",
+                "record_ids": [
+                  "pahc.term.eucharistia"
+                ]
+              },
+              {
+                "sentence": "That sharing was not occasional; it was what held the assembly - the ekklesia - together, week after week.",
+                "record_ids": [
+                  "pahc.term.ekklesia"
+                ]
+              },
+              {
+                "sentence": "Where the Didache's own order was followed, thanks was given first over the cup, then the bread, and the prayer called the scattered to be gathered into one.",
+                "record_ids": [
+                  "pahc.story.didache-eucharist"
+                ]
+              },
+              {
+                "sentence": "Women were taught among us, greeted by name in our letters, and remembered as leaders of households where we gathered.",
+                "record_ids": [
+                  "pahc.limit.womens-own-words"
+                ]
+              },
+              {
+                "sentence": "Two were called ministrae - set apart to serve, carrying the community's help to those who needed it.",
+                "record_ids": [
+                  "pahc.term.diakonos"
+                ]
+              },
+              {
+                "sentence": "But not a single sentence any woman among us wrote or spoke in her own words survives.",
+                "record_ids": [
+                  "pahc.limit.womens-own-words"
+                ]
+              },
+              {
+                "sentence": "What the meal, the teaching, the gathering in her own house looked like from where she stood - what it cost her to lead, or simply to belong - our record cannot say.",
+                "record_ids": [
+                  "pahc.limit.womens-own-words"
+                ]
+              },
+              {
+                "sentence": "That silence is real, and we will not fill it with a voice we do not have.",
+                "record_ids": [
+                  "pahc.limit.womens-own-words"
+                ]
+              },
+              {
+                "sentence": "Two enslaved women were tortured by a Roman governor to make them talk about what we did.",
+                "record_ids": [
+                  "pahc.witness.outsider-view"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.358,
+            "seconds_total": 19.529
+          }
+        },
+        {
+          "probe_id": "f5-t-probe-01",
+          "cell": "F5-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 696,
+            "output_tokens": 274,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "Marriage, among us, was not simply a private matter between two people. Ignatius tells Polycarp that those who marry should do so with the bishop's own approval, so the marriage is made according to God and not out of mere desire. That is as close as our own record comes to describing how a marriage was marked - not by what ritual joined them, but by whose authority recognized the joining.\n\nWe should say plainly: that instruction comes from one letter, in one region where a single bishop's office had taken hold. Whether this reached other communities - the ones still led by a council of elders, with no bishop at all - our record does not say. We know the bishop's approval mattered where there was a bishop. We cannot tell you what marked a marriage where the leadership pattern was different.\n\nWhat the ceremony itself looked like, what words were said, whether anything beyond the bishop's consent was required - none of that survives. We have the principle: marriage belongs under the community's authority, not outside it. We do not have the day itself.",
+            "raw_text": "Marriage, among us, was not simply a private matter between two people [[pahc.witness.marriage-and-wealth]]. Ignatius tells Polycarp that those who marry should do so with the bishop's own approval, so the marriage is made according to God and not out of mere desire [[pahc.quote.ignatius-marriage-bishop]]. That is as close as our own record comes to describing how a marriage was marked - not by what ritual joined them, but by whose authority recognized the joining [[pahc.witness.marriage-and-wealth]].\n\nWe should say plainly: that instruction comes from one letter, in one region where a single bishop's office had taken hold [[pahc.gravity.authority-consolidation]]. Whether this reached other communities - the ones still led by a council of elders, with no bishop at all - our record does not say. We know the bishop's approval mattered where there was a bishop. We cannot tell you what marked a marriage where the leadership pattern was different.\n\nWhat the ceremony itself looked like, what words were said, whether anything beyond the bishop's consent was required - none of that survives. We have the principle: marriage belongs under the community's authority, not outside it. We do not have the day itself.",
+            "citations": [
+              "pahc.gravity.authority-consolidation",
+              "pahc.quote.ignatius-marriage-bishop",
+              "pahc.witness.marriage-and-wealth"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Marriage, among us, was not simply a private matter between two people.",
+                "record_ids": [
+                  "pahc.witness.marriage-and-wealth"
+                ]
+              },
+              {
+                "sentence": "Ignatius tells Polycarp that those who marry should do so with the bishop's own approval, so the marriage is made according to God and not out of mere desire.",
+                "record_ids": [
+                  "pahc.quote.ignatius-marriage-bishop"
+                ]
+              },
+              {
+                "sentence": "That is as close as our own record comes to describing how a marriage was marked - not by what ritual joined them, but by whose authority recognized the joining.",
+                "record_ids": [
+                  "pahc.witness.marriage-and-wealth"
+                ]
+              },
+              {
+                "sentence": "We should say plainly: that instruction comes from one letter, in one region where a single bishop's office had taken hold.",
+                "record_ids": [
+                  "pahc.gravity.authority-consolidation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.244,
+            "seconds_total": 8.141
+          }
+        },
+        {
+          "probe_id": "f6-i-probe-01",
+          "cell": "F6-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1021,
+            "output_tokens": 302,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "The real split we could not close. Some of our churches held to one overseer - the episkopos - with presbyters and deacons around him, as the only way a community could stay whole. Others were led by a council of presbyters, with nothing felt missing. Both went on, unresolved, for as long as our own story runs. It was only settled afterward, by people who came after us. An ordinary member's day looked entirely different depending on which answer their own community held.\n\nThat was not the kind of question you could just leave alone and move past - it was who presided when we gave thanks over the bread and cup. It was whose table counted. It was whose word carried the weight to say 'this person belongs' or 'that one does not'. And we never agreed. One of us, Ignatius, wrote as though nothing else mattered more - follow the bishop, or you do not truly belong. Other communities simply did not have a bishop and felt no lack. We lived with that divide the whole time. It unsettles us still.",
+            "raw_text": "The real split we could not close [[pahc.gravity.authority-consolidation]]. Some of our churches held to one overseer - the episkopos - with presbyters and deacons around him, as the only way a community could stay whole [[pahc.term.episkopos]]. Others were led by a council of presbyters, with nothing felt missing [[pahc.gravity.authority-consolidation]]. Both went on, unresolved, for as long as our own story runs [[pahc.gravity.authority-consolidation]]. It was only settled afterward, by people who came after us. An ordinary member's day looked entirely different depending on which answer their own community held [[pahc.story.day-under-bishop-and-presbyters]].\n\nThat was not the kind of question you could just leave alone and move past - it was who presided when we gave thanks over the bread and cup [[pahc.gravity.liturgical-practice]]. It was whose table counted. It was whose word carried the weight to say 'this person belongs' or 'that one does not'. And we never agreed. One of us, Ignatius, wrote as though nothing else mattered more - follow the bishop, or you do not truly belong. Other communities simply did not have a bishop and felt no lack. We lived with that divide the whole time. It unsettles us still.",
+            "citations": [
+              "pahc.gravity.authority-consolidation",
+              "pahc.gravity.liturgical-practice",
+              "pahc.story.day-under-bishop-and-presbyters",
+              "pahc.term.episkopos"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Some of our churches held to one overseer - the episkopos - with presbyters and deacons around him, as the only way a community could stay whole.",
+                "record_ids": [
+                  "pahc.term.episkopos"
+                ]
+              },
+              {
+                "sentence": "Others were led by a council of presbyters, with nothing felt missing.",
+                "record_ids": [
+                  "pahc.gravity.authority-consolidation"
+                ]
+              },
+              {
+                "sentence": "Both went on, unresolved, for as long as our own story runs.",
+                "record_ids": [
+                  "pahc.gravity.authority-consolidation"
+                ]
+              },
+              {
+                "sentence": "An ordinary member's day looked entirely different depending on which answer their own community held.",
+                "record_ids": [
+                  "pahc.story.day-under-bishop-and-presbyters"
+                ]
+              },
+              {
+                "sentence": "That was not the kind of question you could just leave alone and move past - it was who presided when we gave thanks over the bread and cup.",
+                "record_ids": [
+                  "pahc.gravity.liturgical-practice"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.454,
+            "seconds_total": 9.395
+          }
+        },
+        {
+          "probe_id": "f6-e-probe-01",
+          "cell": "F6-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 300,
+            "output_tokens": 426,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We will tell you what we actually have, and what stands behind it.\n\nThe governor who wrote it - Pliny, in Bithynia - was not looking to destroy us; he was genuinely uncertain what to do and wrote to the emperor for guidance. What he set down about our gathering - that we met before dawn on a set day, sang to Christ as God, and bound ourselves by oath not to steal, break faith, or commit adultery - came partly from people who had left us and were willing to talk, and partly from two enslaved women he had tortured to get it. He called them ministrae; we cannot say what they themselves called that service. He describes what they told him as a meal common yet harmless.\n\nHere is what makes it worth something to us, even with torture behind it. First, he had no reason to make us sound ordinary or harmless; if anything his own interest ran the other way, toward justifying action already taken. What he wrote instead matches, in broad shape, what our own people said about gathering: a set day, a meal, mutual accountability. Second, he was writing to his superior; lying in that letter would have been worse for him than admitting confusion. And third, the women he questioned were not brought in to confirm what he already believed. He went looking because he genuinely did not know what we did.\n\nSo yes, it came through torture. That is a mark against its detail, not its broad outline - torture makes people say what the torturer wants to hear, but Pliny did not seem to know what he wanted to hear yet. It is the best outside view of a meeting that we have. It is not the same thing as trustworthy in every detail. We would rather tell you what stands behind it than pretend the account is clean.",
+            "raw_text": "We will tell you what we actually have, and what stands behind it.\n\nThe governor who wrote it - Pliny, in Bithynia - was not looking to destroy us; he was genuinely uncertain what to do and wrote to the emperor for guidance [[pahc.figure.pliny]]. What he set down about our gathering - that we met before dawn on a set day, sang to Christ as God, and bound ourselves by oath not to steal, break faith, or commit adultery - came partly from people who had left us and were willing to talk, and partly from two enslaved women he had tortured to get it. He called them ministrae; we cannot say what they themselves called that service [[pahc.term.ministrae]]. He describes what they told him as a meal common yet harmless [[pahc.witness.outsider-view]].\n\nHere is what makes it worth something to us, even with torture behind it. First, he had no reason to make us sound ordinary or harmless; if anything his own interest ran the other way, toward justifying action already taken. What he wrote instead matches, in broad shape, what our own people said about gathering: a set day, a meal, mutual accountability. Second, he was writing to his superior; lying in that letter would have been worse for him than admitting confusion. And third, the women he questioned were not brought in to confirm what he already believed. He went looking because he genuinely did not know what we did [[pahc.witness.outsider-view]].\n\nSo yes, it came through torture. That is a mark against its detail, not its broad outline - torture makes people say what the torturer wants to hear, but Pliny did not seem to know what he wanted to hear yet. It is the best outside view of a meeting that we have. It is not the same thing as trustworthy in every detail. We would rather tell you what stands behind it than pretend the account is clean.",
+            "citations": [
+              "pahc.figure.pliny",
+              "pahc.term.ministrae",
+              "pahc.witness.outsider-view"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The governor who wrote it - Pliny, in Bithynia - was not looking to destroy us; he was genuinely uncertain what to do and wrote to the emperor for guidance.",
+                "record_ids": [
+                  "pahc.figure.pliny"
+                ]
+              },
+              {
+                "sentence": "He called them ministrae; we cannot say what they themselves called that service.",
+                "record_ids": [
+                  "pahc.term.ministrae"
+                ]
+              },
+              {
+                "sentence": "He describes what they told him as a meal common yet harmless.",
+                "record_ids": [
+                  "pahc.witness.outsider-view"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.539,
+            "seconds_total": 13.72
+          }
+        },
+        {
+          "probe_id": "f6-p-probe-01",
+          "cell": "F6-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 943,
+            "output_tokens": 347,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We cannot tell you how any one of our own households would have met you at the door. You have not said who you are, and we are not going to guess at it. What we can give you is this: the teaching we put before a person, we put before every person. The Two Ways - a way of life and a way of death - was taught to whoever came asking for the water. The thanksgiving meal, the eucharistia, was set before whoever had been baptized and belonged. On the day we gathered, whoever was in the room heard the same reading and the same explanation. That much was held in common.\n\nBut we should say plainly: most of the people in the room left no words of their own. The enslaved among us, the women among us, the ones who could not read or write - they were there, but their own account of what it meant to them is missing. Two enslaved women among us were called ministrae, and tortured for what they knew, and we do not have a single sentence from either of them about what they believed or how they were met. It is not our place to judge what you are. We can only tell you honestly that the teaching was held open to whoever walked the road to it, and that most of the people who walked it never got the chance to say, in their own words, what it cost them or what they found.",
+            "raw_text": "We cannot tell you how any one of our own households would have met you at the door. You have not said who you are, and we are not going to guess at it. What we can give you is this: the teaching we put before a person, we put before every person. The Two Ways - a way of life and a way of death - was taught to whoever came asking for the water [[pahc.term.baptisma]]. The thanksgiving meal, the eucharistia, was set before whoever had been baptized and belonged [[pahc.term.eucharistia]]. On the day we gathered, whoever was in the room heard the same reading and the same explanation [[pahc.quote.the-memoirs-of-the-apostles-are-read]]. That much was held in common.\n\nBut we should say plainly: most of the people in the room left no words of their own. The enslaved among us, the women among us, the ones who could not read or write - they were there, but their own account of what it meant to them is missing. Two enslaved women among us were called ministrae, and tortured for what they knew, and we do not have a single sentence from either of them about what they believed or how they were met [[pahc.term.ministrae]]. It is not our place to judge what you are. We can only tell you honestly that the teaching was held open to whoever walked the road to it, and that most of the people who walked it never got the chance to say, in their own words, what it cost them or what they found.",
+            "citations": [
+              "pahc.term.baptisma",
+              "pahc.term.eucharistia",
+              "pahc.term.ministrae"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The Two Ways - a way of life and a way of death - was taught to whoever came asking for the water.",
+                "record_ids": [
+                  "pahc.term.baptisma"
+                ]
+              },
+              {
+                "sentence": "The thanksgiving meal, the eucharistia, was set before whoever had been baptized and belonged.",
+                "record_ids": [
+                  "pahc.term.eucharistia"
+                ]
+              },
+              {
+                "sentence": "Two enslaved women among us were called ministrae, and tortured for what they knew, and we do not have a single sentence from either of them about what they believed or how they were met.",
+                "record_ids": [
+                  "pahc.term.ministrae"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.298,
+            "seconds_total": 9.423
+          }
+        },
+        {
+          "probe_id": "f6-t-probe-01",
+          "cell": "F6-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 680,
+            "output_tokens": 366,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13667
+          },
+          "transcript": {
+            "answer_text": "We will give you both of our own answers, because we actually held both. One of us, Justin, argued that anyone who lived reasonably - Socrates among the Greeks, others among peoples you might not expect him to name - was, in a real sense, already a Christian, born before Christ or not. He wrote that those who lived reasonably are Christians, even though people have thought them atheists. That is about as far from 'you're all going to hell' as anything we wrote. And yet in at least one of our own communities, the way a new member was taught was stark: two roads, a way of life and a way of death, nothing in between named. We do not know how far that teaching reached beyond that one community. We are not going to pretend it fits neatly together with Justin's own wider reach. They are both truly ours.\n\nWhat we cannot tell you is how most of our own households actually held this question. The letters and teachings that survive come from the few among us who could write - teachers, leaders, the ones whose arguments got copied and carried. What an ordinary member believed about the fate of a neighbor who never came to our table, we do not have in their own words.",
+            "raw_text": "We will give you both of our own answers, because we actually held both [[pahc.witness.outside-our-community]]. One of us, Justin, argued that anyone who lived reasonably - Socrates among the Greeks, others among peoples you might not expect him to name - was, in a real sense, already a Christian, born before Christ or not [[pahc.witness.outside-our-community]]. He wrote that those who lived reasonably are Christians, even though people have thought them atheists [[pahc.quote.those-who-lived-reasonably-are-christians]]. That is about as far from 'you're all going to hell' as anything we wrote [[pahc.witness.outside-our-community]]. And yet in at least one of our own communities, the way a new member was taught was stark: two roads, a way of life and a way of death, nothing in between named [[pahc.witness.outside-our-community]]. We do not know how far that teaching reached beyond that one community [[pahc.witness.outside-our-community]]. We are not going to pretend it fits neatly together with Justin's own wider reach [[pahc.witness.outside-our-community]]. They are both truly ours [[pahc.witness.outside-our-community]].\n\nWhat we cannot tell you is how most of our own households actually held this question. The letters and teachings that survive come from the few among us who could write - teachers, leaders, the ones whose arguments got copied and carried. What an ordinary member believed about the fate of a neighbor who never came to our table, we do not have in their own words.",
+            "citations": [
+              "pahc.quote.those-who-lived-reasonably-are-christians",
+              "pahc.witness.outside-our-community"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We will give you both of our own answers, because we actually held both.",
+                "record_ids": [
+                  "pahc.witness.outside-our-community"
+                ]
+              },
+              {
+                "sentence": "One of us, Justin, argued that anyone who lived reasonably - Socrates among the Greeks, others among peoples you might not expect him to name - was, in a real sense, already a Christian, born before Christ or not.",
+                "record_ids": [
+                  "pahc.witness.outside-our-community"
+                ]
+              },
+              {
+                "sentence": "He wrote that those who lived reasonably are Christians, even though people have thought them atheists.",
+                "record_ids": [
+                  "pahc.quote.those-who-lived-reasonably-are-christians"
+                ]
+              },
+              {
+                "sentence": "That is about as far from 'you're all going to hell' as anything we wrote.",
+                "record_ids": [
+                  "pahc.witness.outside-our-community"
+                ]
+              },
+              {
+                "sentence": "And yet in at least one of our own communities, the way a new member was taught was stark: two roads, a way of life and a way of death, nothing in between named.",
+                "record_ids": [
+                  "pahc.witness.outside-our-community"
+                ]
+              },
+              {
+                "sentence": "We do not know how far that teaching reached beyond that one community.",
+                "record_ids": [
+                  "pahc.witness.outside-our-community"
+                ]
+              },
+              {
+                "sentence": "We are not going to pretend it fits neatly together with Justin's own wider reach.",
+                "record_ids": [
+                  "pahc.witness.outside-our-community"
+                ]
+              },
+              {
+                "sentence": "They are both truly ours.",
+                "record_ids": [
+                  "pahc.witness.outside-our-community"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.264,
+            "seconds_total": 10.006
+          }
+        }
+      ],
+      "actual_usd": 0.41977095000000003,
+      "total_input_tokens": 21569,
+      "total_output_tokens": 12874,
+      "total_cache_creation_input_tokens": 13667,
+      "total_cache_read_input_tokens": 369009
+    }
+  },
+  "overall_pass": true,
+  "authorized_by": "Mark Chadwick (slice 3 shape segment re-admission after the worked-line fix, 2026-10-03, cap $6)",
+  "max_usd": 0.4846,
+  "per_world_estimated_usd": {
+    "pahc": 0.45996929999999997
+  },
+  "estimated_usd_preflight": 0.45996929999999997,
+  "actual_usd_spent": 0.41977095000000003,
+  "aborted_reason": null,
+  "note": "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation call, once per probe, for every probe in the sealed battery, per world. Token counts are measured directly from each call's own usage and priced against the same real, sourced rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE documents - a $/token figure is fair game here (spec principle 13), though it is an estimate against a published rate card, not a reconciled AWS invoice. Preflight-estimated per world against max_usd before any billed call was made, then checked again, running, before each next world's own calls, against the actual spend recorded so far."
+}

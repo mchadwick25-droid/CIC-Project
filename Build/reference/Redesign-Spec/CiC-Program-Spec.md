@@ -44,7 +44,7 @@ These bind every module and every build decision. Violating one is a stop-and-as
 3. **Prompt = how to speak; records = what's true.** The per-world part of any prompt is a record, never code.
 4. **One registry; everything derived.** No world identifier in code or config; no hand-synced lists, anywhere.
 5. **Safety is sealed.** Its classifier shares nothing with iterated machinery; any change to it triggers the full live safety rerun (19/20 floor, any new failure halts). Crisis resources are appended by code.
-6. **Fail open toward the pre-guard state, with the direction stated per check — and never silently** (degraded flags; async re-classification for safety).
+6. **Fail open toward the pre-guard state, with the direction stated per check — and never silently** (degraded flags). The safety call is the one exception: it fails closed to the Facilitator check-in (Artifact 4 §4).
 7. **The participant's words are never rewritten**; private directives are assembled by code from structured output, never composed by a model.
 8. **Honest thinness beats invented depth, absolutely.** Honest-limit answers are the voice's own, in-world.
 9. **Every generated artifact verifies against its source**: deterministic builds proven twice, regenerate-and-diff staleness checks, load-time manifest-hash verification with refusal on mismatch.

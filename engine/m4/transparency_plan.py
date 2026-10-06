@@ -48,6 +48,15 @@ next sentence clears without that story, or at `finish()`. The
 whole-turn path below feeds the same builder, so a streamed reply and a
 whole reply produce the same elements for the same text.
 
+**Mark cap.** A word mark that overlaps an earlier word mark in the same
+sentence is not drawn. Then at most `mark_cap(len(sentences))` elements
+stay inline: max(3, min(8, ceil(sentences / 2))). Over the cap, term marks
+drop first, then figures, then stories, the latest first within each kind;
+quote marks never drop. A dropped element's record moves to
+`end_references`: its inline prominence is lost, never its disclosure. The
+app applies the same rule (VoiceTurnBody.tsx), so on a capped plan its clamp
+changes nothing.
+
 **Confidence.** Each element and reference carries the cited record's
 own `confidence` envelope verbatim; this module renders nothing.
 
@@ -61,10 +70,42 @@ output after the fact and feeds nothing upstream.
 """
 from __future__ import annotations
 
+import math
+
 from engine.m4.citation_cards import resolve_source_card
 from engine.m4.grounding_net import _span_in_records, quoted_span_positions
 
 INLINE_CITED_KINDS = {"quote": "quote", "story": "story"}
+MARK_CAP_FLOOR = 3
+MARK_CAP_CEILING = 8
+CAP_DROP_ORDER = ("term", "figure", "story")
+
+
+def mark_cap(sentence_count: int) -> int:
+    return max(MARK_CAP_FLOOR, min(MARK_CAP_CEILING, math.ceil(sentence_count / 2)))
+
+
+def _drawn_within_cap(elements: list[dict], sentence_count: int) -> list[dict]:
+    """The elements that render inline: overlapping word marks removed, then
+    the cap applied in CAP_DROP_ORDER, latest first. `elements` is in plan
+    order."""
+    last_word_end: dict[int, int] = {}
+    drawn = []
+    for element in elements:
+        if element["kind"] in ("term", "figure"):
+            if element["char_start"] < last_word_end.get(element["sentence_index"], 0):
+                continue
+            last_word_end[element["sentence_index"]] = element["char_end"]
+        drawn.append(element)
+    over = len(drawn) - mark_cap(sentence_count)
+    dropped: set[int] = set()
+    for kind in CAP_DROP_ORDER:
+        for i in reversed([i for i, e in enumerate(drawn) if e["kind"] == kind]):
+            if over <= 0:
+                break
+            dropped.add(i)
+            over -= 1
+    return [e for i, e in enumerate(drawn) if i not in dropped]
 
 
 class ElementBuilder:
@@ -201,6 +242,9 @@ def build_transparency_plan(
         if card is None:
             continue
         references.append({**card, "world_key": world_key, "confidence": (repository_records.get(record_id) or {}).get("confidence")})
+    carded = {card["record_id"] for card in references}
+    elements = [e for e in elements if e["kind"] in ("term", "figure") or e["record_id"] in carded]
+    elements = _drawn_within_cap(elements, len(sentences))
     inline_ids = {e["record_id"] for e in elements}
     end_references = [card for card in references if card["record_id"] not in inline_ids]
 

@@ -52,6 +52,14 @@ manifestations:
 - the 416 attack - argument arrived as fire
 - Jerome's combative self-presentation, formed by and forming the disputes
 classification: supporting
+use_note:
+  means: "Dispute, from the Origenist rupture to the 416 attack, pressed on the world's primary commitments and shaped it, without being a formation practice of its own."
+  not_for:
+    - "treating controversy as an independent formation practice"
+    - "resolving the doctrinal-versus-political weight of the disputes"
+    - "naming the 416 attackers"
+  years: {from: 393, to: 416}
+  status: reviewed
 ---
 Derived from Doc_04 (G6, Supporting - classification settled there and
 not reopened by the forces notation). Confidence split carried: events Documented, the substance of

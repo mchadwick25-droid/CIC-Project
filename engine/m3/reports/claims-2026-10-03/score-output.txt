@@ -1,0 +1,19 @@
+coverage problems: []
+             no_c supp stre unsu unci
+alx            12    9    8    1   20   claims   38  unsupported   2.6%  +uncited  55.3%  stretched  21.1%
+cappadocian     9    6    7    5   26   claims   44  unsupported  11.4%  +uncited  70.5%  stretched  15.9%
+desert          3   25    4    0   18   claims   47  unsupported   0.0%  +uncited  38.3%  stretched   8.5%
+don             6   31    3    0    6   claims   40  unsupported   0.0%  +uncited  15.0%  stretched   7.5%
+gallic         14   24    8    2   21   claims   55  unsupported   3.6%  +uncited  41.8%  stretched  14.5%
+hal             2   20    6    5    8   claims   39  unsupported  12.8%  +uncited  33.3%  stretched  15.4%
+ijc             6   33    3    0   17   claims   53  unsupported   0.0%  +uncited  32.1%  stretched   5.7%
+pahc            9   20    2    1   14   claims   37  unsupported   2.7%  +uncited  40.5%  stretched   5.4%
+rzg             5    4    4    0   22   claims   30  unsupported   0.0%  +uncited  73.3%  stretched  13.3%
+syr             9   19    7    3   20   claims   49  unsupported   6.1%  +uncited  46.9%  stretched  14.3%
+witt           11    7    1    0   21   claims   29  unsupported   0.0%  +uncited  72.4%  stretched   3.4%
+FLEET          86  198   53   17  193   claims  461  unsupported   3.7%  +uncited  45.6%  stretched  11.5%
+
+agreement all sentences 115/119 = 96.6%; on sentences either grader saw a claim 99/103 = 96.1%
+agreement on ok-vs-flag: 117/119 = 98.3%
+  primary stretched   second unsupported 2
+  primary stretched   second supported   2

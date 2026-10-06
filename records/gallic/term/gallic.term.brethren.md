@@ -91,6 +91,15 @@ quick_meaning: >-
   The monks of a house as one body, and how named friends address each other. Not Vincent's
   "holy brethren," which means all the faithful.
 distortion_risk: low
+use_note:
+  means: "Brethren meant the monks of a house or circle as one body, and the address between named friends, at both Tours and Marseilles."
+  not_for:
+    - "Vincent's holy brethren, which means the faithful at large"
+    - "the monk as such, which sits in gallic.term.monk-solitary"
+    - "a Latin fratres confirmed in the sources, when it appears only in an editor's note"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
+  years: {from: 397, to: 434}
+  status: reviewed
 ---
 Built from Doc_06 entry 070 (`galliclex070_brethren.md`, Tier 3, tags SC RT; Doc_03 1.6). Kept
 thin at the Tier-3 floor; the chunk's only Distortion Risk is "generic churchy address," which

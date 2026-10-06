@@ -63,6 +63,14 @@ senses:
     contested cosmology of rational natures.
 quick_meaning: Made for the Word and able to know God. One teacher stretched this into contested ground.
 distortion_risk: high
+use_note:
+  means: "Every being able to know God is logikos, made for the Word, within Origen's wider and contested cosmology of rational natures."
+  not_for:
+    - "describing it as cleverness or raw intelligence"
+    - "presenting Origen's rational-natures cosmology as settled or shared by all Alexandrian teachers"
+    - "treating the link to later condemned propositions as established"
+  years: {from: 180, to: 254}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex090, "Logikos / Rational Nature") at Mark's
 explicit direction to state the contest framing explicitly, as a draft, not a final version. The old

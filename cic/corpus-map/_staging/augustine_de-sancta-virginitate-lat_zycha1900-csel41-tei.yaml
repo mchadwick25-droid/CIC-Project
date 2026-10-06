@@ -1,0 +1,25 @@
+# Zycha's CSEL 41 (1900) text of Augustine's Of Holy Virginity, in the Open Greek and Latin
+# project's machine-corrected TEI. The same volume is vendored as a raw OCR scan (augustine_opera-
+# sect-v-pars-iii-lat_zycha1900-csel41.txt), staged separately.
+source_file: augustine_de-sancta-virginitate-lat_zycha1900-csel41-tei.txt
+
+assignments:
+  - row_id: augustine_de-sancta-virginitate-lat_zycha1900-csel41-tei--of-holy-virginity-de-sancta-virginitate-csel-41-latin-text
+    work: "Of Holy Virginity (De Sancta Virginitate), CSEL 41 Latin text (TEI)"
+    author: augustine
+    locus: "file line 110 (first paragraph of the TEI body, opening 'Librum de Bono Coniugali'); printed heading 'VI. DE SANCTA VIRGINITATE.' at file line 107; CSEL 41 work VI, printed pp. 233-302"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Companion to On the Good of Marriage. Latin original of the ALREADY-PRESENT English entry 'Of
+      Holy Virginity' (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in
+      the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Of Holy Virginity (De Sancta
+      Virginitate), Zycha, CSEL 41 (Vienna, 1900), in the University of Leipzig's machine-corrected
+      TEI (the project's OCR correction of the CSEL scan, not a fresh human edition). Ready to quote
+      once each quote is verified verbatim against this file (INTAKE section 6); the English a
+      Representative speaks is rendered from it. The scan of the whole volume (augustine_opera-sect-v-
+      pars-iii-lat_zycha1900-csel41.txt) is the check on the printed page and carries the Praefatio
+      and the manuscript sigla. CC BY-SA 4.0, so attribution and share-alike travel with any
+      quotation. Mirrors the English twin's role and confidence exactly.

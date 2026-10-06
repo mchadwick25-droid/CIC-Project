@@ -14,7 +14,8 @@ authors_ruled:
     from_file: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt
 
 assignments:
-  - work: "Ordonnances Ecclesiastiques de l'Eglise de Geneve (1576 revision)"
+  - row_id: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735--ordonnances-ecclesiastiques-de-l-eglise-de-geneve-1576
+    work: "Ordonnances Ecclesiastiques de l'Eglise de Geneve (1576 revision)"
     author: calvin
     locus: "whole file"
     atlas_ids:
@@ -30,5 +31,4 @@ assignments:
       genuine PD alternative after two other candidates (Schaff's HCC8
       paraphrase; a 1977 in-copyright translation) were checked and
       rejected by the build thread itself. Bears directly on Doc_04's
-      Consistorial Discipline gravity, currently classified Supporting
-      and flagged for re-test once this or a G3 source landed.
+      Consistorial Discipline gravity.

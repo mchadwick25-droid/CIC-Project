@@ -62,6 +62,13 @@ senses:
     about the sense we rest on (Christ's) has lost the argument entirely.
 quick_meaning: 'One word, two things: ours, refused; Christ''s, enough.'
 distortion_risk: high
+use_note:
+  means: "Satisfaction meant two different things, our own satisfaction for sin, which is refused, and Christ's satisfaction, which alone suffices."
+  not_for:
+    - "the two referents as one doctrine, or satisfaction as mere contentment"
+    - "merit generally, which sits in witt.term.merit"
+  years: {from: 1517, to: 1531}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 1.4 (satisfaction (two referents), Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR]. Author Gravity: cross-voice, one word, two referents (an alias problem, resolved here). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

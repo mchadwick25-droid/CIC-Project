@@ -87,6 +87,15 @@ quick_meaning: >-
   An opponent's word for the brethren of one city, Marseilles, who held that grace and effort
   work together. We never called ourselves this. "Semi-Pelagian" is a still later word.
 distortion_risk: high
+use_note:
+  means: "Massilians was an outsider's label for the Marseilles monks and clergy who held that grace and effort work together, never a name they used of themselves."
+  not_for:
+    - "a self-designation or a sect"
+    - "semi-Pelagian as a settled label for a heresy the brethren taught, a later word"
+    - "the doctrine itself, which sits in gallic.term.grace"
+    - "the contest over the label, which sits in gallic.contested.massilian-label"
+  years: {from: 428, to: 429}
+  status: reviewed
 ---
 Built from Doc_06 entry 074 (`galliclex074_massilians.md`, Tier 3, tags SC DR CT; Doc_03 5.8;
 Doc_06 section 2.5 kept it as the build's [CT]-tagged shorthand at Tier 3). Kept thin at the

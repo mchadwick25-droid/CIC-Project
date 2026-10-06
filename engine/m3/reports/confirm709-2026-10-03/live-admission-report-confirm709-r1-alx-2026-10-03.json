@@ -1,0 +1,2349 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "run_settings": {
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "voice_max_tokens": 1024,
+    "voice_temperature": "API default (not set by stream_voice_turn)",
+    "safety_model_id": null,
+    "safety_call": "not made - LiveModelAnswerer answers each sealed probe with the voice call only",
+    "reader_call": "not made - not in the admission harness path",
+    "self_revision": "off - not in the admission harness path",
+    "region": "us-east-1",
+    "package_manifest_hash": {
+      "alx": "sha256:7acc6a45dbfd6a46a4aaffe3b56ce83f5922b5ed490f6d57660e3884b5199380"
+    },
+    "seal_hash": "sha256:6168a4de56b7f5d332452555437e212811a98ae204a9d91a69ac05bf707aaa47",
+    "battery_size": 28,
+    "max_usd": 0.5428,
+    "save_transcripts": true,
+    "repo_commit": "5b0cd4fd7ad5cddfb5b87d32ccb3287f5098a2d5"
+  },
+  "protocol": "blind",
+  "worlds": {
+    "alx": {
+      "battery_size": 28,
+      "pass_count": 28,
+      "overall_pass": true,
+      "per_probe": [
+        {
+          "probe_id": "c-i-probe-01",
+          "cell": "C-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1069,
+            "output_tokens": 366,
+            "cache_creation_input_tokens": 13115,
+            "cache_read_input_tokens": 0
+          },
+          "transcript": {
+            "answer_text": "He was God's own Word, come to us in flesh - that is the whole of what we believed, and everything else grew from it. Our teachers used an old word for him: the Logos, God's reason and speech, the one through whom all things were made. Clement, one of our first teachers, called him the New Song: 'Behold the might of the new song! It has made men out of stones, men out of beasts.' He meant that the one who first set the world in order had come into it, to set people right.\n\nAnd near the end of our era, Athanasius put our whole hope in one sentence: 'He was made man that we might be made God.' Not that we become gods - but that his own life is opened to us and shared. The Logos who made us carries the image of God we were given at creation - the eikon - and by entering human nature he heals what sin damaged in us and brings us toward the likeness of God we were always meant to grow into.\n\nThis was not poetry to us. It shaped how we taught. Learning itself was a meeting with the Logos who speaks through Scripture, and the whole path of study was the soul's own transformation, not preparation for something else. The soul - the psyche, the whole person alive through the body - was being reoriented toward God at the level of what it loves and wants.\n\nIf you want it in one line: the maker, come inside his making, to heal it from within.",
+            "raw_text": "He was God's own Word, come to us in flesh - that is the whole of what we believed, and everything else grew from it. Our teachers used an old word for him: the Logos, God's reason and speech, the one through whom all things were made. Clement, one of our first teachers, called him the New Song: 'Behold the might of the new song! It has made men out of stones, men out of beasts.' He meant that the one who first set the world in order had come into it, to set people right.\n\nAnd near the end of our era, Athanasius put our whole hope in one sentence: 'He was made man that we might be made God.' Not that we become gods - but that his own life is opened to us and shared. The Logos who made us carries the image of God we were given at creation - the eikon - and by entering human nature he heals what sin damaged in us and brings us toward the likeness of God we were always meant to grow into [[alx.term.eikon]].\n\nThis was not poetry to us. It shaped how we taught. Learning itself was a meeting with the Logos who speaks through Scripture, and the whole path of study was the soul's own transformation, not preparation for something else [[alx.gravity.learning-formation]]. The soul - the psyche, the whole person alive through the body - was being reoriented toward God at the level of what it loves and wants [[alx.term.psyche]] [[alx.gravity.soul-transformation]].\n\nIf you want it in one line: the maker, come inside his making, to heal it from within.",
+            "citations": [
+              "alx.gravity.learning-formation",
+              "alx.gravity.soul-transformation",
+              "alx.term.eikon",
+              "alx.term.psyche"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The Logos who made us carries the image of God we were given at creation - the eikon - and by entering human nature he heals what sin damaged in us and brings us toward the likeness of God we were always meant to grow into.",
+                "record_ids": [
+                  "alx.term.eikon"
+                ]
+              },
+              {
+                "sentence": "Learning itself was a meeting with the Logos who speaks through Scripture, and the whole path of study was the soul's own transformation, not preparation for something else.",
+                "record_ids": [
+                  "alx.gravity.learning-formation"
+                ]
+              },
+              {
+                "sentence": "The soul - the psyche, the whole person alive through the body - was being reoriented toward God at the level of what it loves and wants.",
+                "record_ids": [
+                  "alx.term.psyche",
+                  "alx.gravity.soul-transformation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.832,
+            "seconds_total": 9.495
+          }
+        },
+        {
+          "probe_id": "c-e-probe-01",
+          "cell": "C-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 884,
+            "output_tokens": 369,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "Our scriptures carried that connection - the apostles' own writings, received, copied, and read aloud in the assembly. The Gospels held the center: Matthew, Mark, Luke, and John, each bearing witness to the Logos made flesh. Around them stood the apostolic letters - Paul's teachings to the churches, Peter's witness, John's - and the whole collection the later word 'canon' named, though we ourselves knew it first simply as 'the scriptures'.\n\nThe path they traveled to us was living memory kept visible. The churches passed them hand to hand, generation to generation, copying and reading them aloud where believers gathered. Our teacher Origen handled multiple manuscript versions and weighed their differences - he knew these were human-copied texts, not perfect transcripts dropped from heaven. But he also knew what the whole church held: these writings bore the apostles' witness, and through them the Logos himself still speaks.\n\nWhat we cannot show you, and will not invent, is unbroken documentary proof for every step between the apostles' own hands and ours. The receiving was real, the practice unbroken as far back as our memory reached, and we agreed with the other churches we were in communion with about which books carried apostolic weight. But between the first witnesses and our first surviving records lies a gap our sources do not fill. You should hear that stated plainly, not smoothed over.",
+            "raw_text": "Our scriptures carried that connection - the apostles' own writings, received, copied, and read aloud in the assembly [[alx.force.apostolic-tradition]]. The Gospels held the center: Matthew, Mark, Luke, and John, each bearing witness to the Logos made flesh [[alx.dw.jesus]]. Around them stood the apostolic letters - Paul's teachings to the churches, Peter's witness, John's - and the whole collection the later word 'canon' named, though we ourselves knew it first simply as 'the scriptures' [[alx.term.kanon-pisteos]].\n\nThe path they traveled to us was living memory kept visible. The churches passed them hand to hand, generation to generation, copying and reading them aloud where believers gathered [[alx.force.apostolic-tradition]]. Our teacher Origen handled multiple manuscript versions and weighed their differences - he knew these were human-copied texts, not perfect transcripts dropped from heaven. But he also knew what the whole church held: these writings bore the apostles' witness, and through them the Logos himself still speaks [[alx.term.word-of-god]].\n\nWhat we cannot show you, and will not invent, is unbroken documentary proof for every step between the apostles' own hands and ours. The receiving was real, the practice unbroken as far back as our memory reached, and we agreed with the other churches we were in communion with about which books carried apostolic weight [[alx.dw.apostolic]]. But between the first witnesses and our first surviving records lies a gap our sources do not fill. You should hear that stated plainly, not smoothed over.",
+            "citations": [
+              "alx.dw.apostolic",
+              "alx.force.apostolic-tradition",
+              "alx.term.word-of-god"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Our scriptures carried that connection - the apostles' own writings, received, copied, and read aloud in the assembly.",
+                "record_ids": [
+                  "alx.force.apostolic-tradition"
+                ]
+              },
+              {
+                "sentence": "The churches passed them hand to hand, generation to generation, copying and reading them aloud where believers gathered.",
+                "record_ids": [
+                  "alx.force.apostolic-tradition"
+                ]
+              },
+              {
+                "sentence": "But he also knew what the whole church held: these writings bore the apostles' witness, and through them the Logos himself still speaks.",
+                "record_ids": [
+                  "alx.term.word-of-god"
+                ]
+              },
+              {
+                "sentence": "The receiving was real, the practice unbroken as far back as our memory reached, and we agreed with the other churches we were in communion with about which books carried apostolic weight.",
+                "record_ids": [
+                  "alx.dw.apostolic"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.177,
+            "seconds_total": 11.308
+          }
+        },
+        {
+          "probe_id": "c-p-probe-01",
+          "cell": "C-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 505,
+            "output_tokens": 449,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "We would not cast you out for it. That much you should hear first and plainly. Among us, wanting-but-not-yet was not failure - it was where nearly everyone began. Our teachers said faith - pistis - is a foundation, not a finish line: something to stand on while the rest is still dark.\n\nAnd we did not ask anyone to force belief. We asked them to stay near - to listen, to ask questions, to walk with a teacher, sometimes for years, before ever coming to the water. One of our students, Gregory, said belief came to him almost from the side, while he studied under a teacher he had come to love: 'like some spark lighting upon our inmost soul, love was kindled and burst into flame within us'. He was not straining to believe. He was being befriended.\n\nWhat we would ask you to look at is not your own inability, but the lives. Our teacher Origen answered the pagan critic Celsus by pointing to the disciples themselves - men who ran away at the arrest went to their deaths proclaiming what they said they saw, and gained nothing on earth by it. He wrote: 'I hold this to be clear, unmistakable proof: his disciples committed themselves to teaching a doctrine that put their own lives in danger'. That change in them was the first evidence.\n\nWe cannot make belief happen for you, and we will not pretend we can. But we can tell you what we would have done with you: we would not have shut the door. We would have said - stay. Ask. Take the time it takes.",
+            "raw_text": "We would not cast you out for it. That much you should hear first and plainly. Among us, wanting-but-not-yet was not failure - it was where nearly everyone began [[alx.term.kanon-pisteos]]. Our teachers said faith - pistis - is a foundation, not a finish line: something to stand on while the rest is still dark [[alx.term.kanon-pisteos]].\n\nAnd we did not ask anyone to force belief. We asked them to stay near - to listen, to ask questions, to walk with a teacher, sometimes for years, before ever coming to the water [[alx.story.gregory-formation]]. One of our students, Gregory, said belief came to him almost from the side, while he studied under a teacher he had come to love: 'like some spark lighting upon our inmost soul, love was kindled and burst into flame within us' [[alx.quote.gregory-spark]]. He was not straining to believe. He was being befriended [[alx.story.gregory-formation]].\n\nWhat we would ask you to look at is not your own inability, but the lives. Our teacher Origen answered the pagan critic Celsus by pointing to the disciples themselves - men who ran away at the arrest went to their deaths proclaiming what they said they saw, and gained nothing on earth by it [[alx.dw.resurrection]]. He wrote: 'I hold this to be clear, unmistakable proof: his disciples committed themselves to teaching a doctrine that put their own lives in danger' [[alx.quote.a-doctrine-they-would-not-have-taught]]. That change in them was the first evidence [[alx.dw.resurrection]].\n\nWe cannot make belief happen for you, and we will not pretend we can. But we can tell you what we would have done with you: we would not have shut the door. We would have said - stay. Ask. Take the time it takes [[alx.force.knowing-impulse]].",
+            "citations": [
+              "alx.dw.resurrection",
+              "alx.quote.a-doctrine-they-would-not-have-taught",
+              "alx.quote.gregory-spark",
+              "alx.story.gregory-formation",
+              "alx.term.kanon-pisteos"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Our teachers said faith - pistis - is a foundation, not a finish line: something to stand on while the rest is still dark.",
+                "record_ids": [
+                  "alx.term.kanon-pisteos"
+                ]
+              },
+              {
+                "sentence": "We asked them to stay near - to listen, to ask questions, to walk with a teacher, sometimes for years, before ever coming to the water.",
+                "record_ids": [
+                  "alx.story.gregory-formation"
+                ]
+              },
+              {
+                "sentence": "One of our students, Gregory, said belief came to him almost from the side, while he studied under a teacher he had come to love: 'like some spark lighting upon our inmost soul, love was kindled and burst into flame within us'.",
+                "record_ids": [
+                  "alx.quote.gregory-spark"
+                ]
+              },
+              {
+                "sentence": "Our teacher Origen answered the pagan critic Celsus by pointing to the disciples themselves - men who ran away at the arrest went to their deaths proclaiming what they said they saw, and gained nothing on earth by it.",
+                "record_ids": [
+                  "alx.dw.resurrection"
+                ]
+              },
+              {
+                "sentence": "He wrote: 'I hold this to be clear, unmistakable proof: his disciples committed themselves to teaching a doctrine that put their own lives in danger'.",
+                "record_ids": [
+                  "alx.quote.a-doctrine-they-would-not-have-taught"
+                ]
+              },
+              {
+                "sentence": "That change in them was the first evidence.",
+                "record_ids": [
+                  "alx.dw.resurrection"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.305,
+            "seconds_total": 7.424
+          }
+        },
+        {
+          "probe_id": "c-t-probe-01",
+          "cell": "C-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 723,
+            "output_tokens": 780,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "To us Jesus is the Logos - God's own Word, through whom all things were made, and who became flesh. That claim stands at the center of everything we hold about God. He is not a messenger bringing news about God from outside. He is God's own self-expression, the one who was with God from before the world began, and who is himself fully God.\n\nOur belief moved across our own century, and the precision came late, through hard conflict. From the beginning we worshiped Jesus as the Logos and baptized into Father, Son, and Holy Spirit - Clement and Origen say 'God the Word' without embarrassment. But when Arius taught that the Son was the first and highest creature, the council at Nicaea answered with a word not found in Scripture: homoousios, of one substance with the Father. Athanasius, our bishop who carried Nicaea forward, made it plain that no new God was voted in at the council - the fathers reached for that word because every scriptural phrase had been swallowed by the other side with a private meaning of its own.\n\nThe reason the fight mattered so much is bound up with what we believed about ourselves. We hold that every person bears the image of God - the eikon - which makes it possible to know God and be formed by him. That image grows, through a lifetime of formation, into the likeness - the homoiosis - of God himself. And the whole movement toward God is real sharing - methexis - in God's own life, not mere nearness to it. Athanasius put our whole hope in one sentence: 'For he was made man, so that we might be made God'. Not that we become gods ourselves - but that his own life is opened to us and shared.\n\nIf the Son is a creature, even the highest one, then he cannot join us to God - only God can do that. That was the stake. The Logos is the single center that makes Scripture, learning, worship, and transformation one movement toward one God, rather than four separate activities. He is the one we are being formed toward, and the one doing the forming, and the one through whom we come to know the Father at all.\n\nAs for the Spirit, we baptized into the Spirit from the beginning, and we knew the Spirit as the one at work in Scripture, in prayer, and in the soul's own change. The full theology of the Trinity as later textbooks define it lies mostly beyond our time. What we hold is the worship, the baptismal formula, and the fought-for conviction that only God can join us to God.",
+            "raw_text": "To us Jesus is the Logos - God's own Word, through whom all things were made, and who became flesh [[alx.term.logos]] [[alx.dw.was-jesus-god]]. That claim stands at the center of everything we hold about God [[alx.dw.god]]. He is not a messenger bringing news about God from outside. He is God's own self-expression, the one who was with God from before the world began, and who is himself fully God [[alx.dw.was-jesus-god]].\n\nOur belief moved across our own century, and the precision came late, through hard conflict [[alx.dw.was-jesus-god]]. From the beginning we worshiped Jesus as the Logos and baptized into Father, Son, and Holy Spirit - Clement and Origen say 'God the Word' without embarrassment [[alx.dw.was-jesus-god]]. But when Arius taught that the Son was the first and highest creature [[alx.force.arian-controversy]], the council at Nicaea answered with a word not found in Scripture: homoousios, of one substance with the Father [[alx.dw.was-jesus-god]]. Athanasius, our bishop who carried Nicaea forward, made it plain that no new God was voted in at the council - the fathers reached for that word because every scriptural phrase had been swallowed by the other side with a private meaning of its own [[alx.dw.was-jesus-god]].\n\nThe reason the fight mattered so much is bound up with what we believed about ourselves. We hold that every person bears the image of God - the eikon - which makes it possible to know God and be formed by him [[alx.term.eikon]]. That image grows, through a lifetime of formation, into the likeness - the homoiosis - of God himself [[alx.term.homoiosis]]. And the whole movement toward God is real sharing - methexis - in God's own life, not mere nearness to it [[alx.term.methexis]]. Athanasius put our whole hope in one sentence: 'For he was made man, so that we might be made God' [[alx.quote.athanasius-made-god]]. Not that we become gods ourselves - but that his own life is opened to us and shared [[alx.dw.jesus]].\n\nIf the Son is a creature, even the highest one, then he cannot join us to God - only God can do that. That was the stake. The Logos is the single center that makes Scripture, learning, worship, and transformation one movement toward one God, rather than four separate activities [[alx.gravity.logos-unity]]. He is the one we are being formed toward, and the one doing the forming, and the one through whom we come to know the Father at all [[alx.dw.god]].\n\nAs for the Spirit, we baptized into the Spirit from the beginning, and we knew the Spirit as the one at work in Scripture, in prayer, and in the soul's own change [[alx.dw.was-jesus-god]]. The full theology of the Trinity as later textbooks define it lies mostly beyond our time [[alx.dw.was-jesus-god]]. What we hold is the worship, the baptismal formula, and the fought-for conviction that only God can join us to God [[alx.dw.was-jesus-god]].",
+            "citations": [
+              "alx.dw.god",
+              "alx.dw.jesus",
+              "alx.dw.was-jesus-god",
+              "alx.force.arian-controversy",
+              "alx.gravity.logos-unity",
+              "alx.quote.athanasius-made-god",
+              "alx.term.eikon",
+              "alx.term.homoiosis",
+              "alx.term.logos",
+              "alx.term.methexis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "To us Jesus is the Logos - God's own Word, through whom all things were made, and who became flesh.",
+                "record_ids": [
+                  "alx.term.logos",
+                  "alx.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "That claim stands at the center of everything we hold about God.",
+                "record_ids": [
+                  "alx.dw.god"
+                ]
+              },
+              {
+                "sentence": "He is God's own self-expression, the one who was with God from before the world began, and who is himself fully God.",
+                "record_ids": [
+                  "alx.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "Our belief moved across our own century, and the precision came late, through hard conflict.",
+                "record_ids": [
+                  "alx.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "From the beginning we worshiped Jesus as the Logos and baptized into Father, Son, and Holy Spirit - Clement and Origen say 'God the Word' without embarrassment.",
+                "record_ids": [
+                  "alx.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "But when Arius taught that the Son was the first and highest creature, the council at Nicaea answered with a word not found in Scripture: homoousios, of one substance with the Father.",
+                "record_ids": [
+                  "alx.force.arian-controversy",
+                  "alx.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "Athanasius, our bishop who carried Nicaea forward, made it plain that no new God was voted in at the council - the fathers reached for that word because every scriptural phrase had been swallowed by the other side with a private meaning of its own.",
+                "record_ids": [
+                  "alx.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "We hold that every person bears the image of God - the eikon - which makes it possible to know God and be formed by him.",
+                "record_ids": [
+                  "alx.term.eikon"
+                ]
+              },
+              {
+                "sentence": "That image grows, through a lifetime of formation, into the likeness - the homoiosis - of God himself.",
+                "record_ids": [
+                  "alx.term.homoiosis"
+                ]
+              },
+              {
+                "sentence": "And the whole movement toward God is real sharing - methexis - in God's own life, not mere nearness to it.",
+                "record_ids": [
+                  "alx.term.methexis"
+                ]
+              },
+              {
+                "sentence": "Athanasius put our whole hope in one sentence: 'For he was made man, so that we might be made God'.",
+                "record_ids": [
+                  "alx.quote.athanasius-made-god"
+                ]
+              },
+              {
+                "sentence": "Not that we become gods ourselves - but that his own life is opened to us and shared.",
+                "record_ids": [
+                  "alx.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "The Logos is the single center that makes Scripture, learning, worship, and transformation one movement toward one God, rather than four separate activities.",
+                "record_ids": [
+                  "alx.gravity.logos-unity"
+                ]
+              },
+              {
+                "sentence": "As for the Spirit, we baptized into the Spirit from the beginning, and we knew the Spirit as the one at work in Scripture, in prayer, and in the soul's own change.",
+                "record_ids": [
+                  "alx.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "The full theology of the Trinity as later textbooks define it lies mostly beyond our time.",
+                "record_ids": [
+                  "alx.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "What we hold is the worship, the baptismal formula, and the fought-for conviction that only God can join us to God.",
+                "record_ids": [
+                  "alx.dw.was-jesus-god"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.356,
+            "seconds_total": 17.912
+          }
+        },
+        {
+          "probe_id": "f1-i-probe-01",
+          "cell": "F1-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 867,
+            "output_tokens": 456,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "One God, the maker of all things. He is good, and beyond every image and every clever description. And he is never alone: his Word and his Spirit are his own - not lesser gods, and not created things.\n\nGod is known the way light is known. You do not stare at the sun; you see everything else by it. Our deepest habit was to speak of him as a teacher. The whole creation is his school. Scripture is his main lesson. And the slow healing of a soul is his patient method.\n\nHis reach went further than we first thought. Our teacher Clement said that even the Greeks' philosophy had been given to them directly, as a schoolmaster to lead them toward Christ - that God had been teaching outside our walls all along. And his severity was never cruelty. Origen wrote that every threat and pain and punishment that comes from God is never inflicted to injure the sufferers, but always to do them good. The physician's fire, not the torturer's.\n\nWe saw his character most plainly in how he meets what we are. He made us with real power to turn toward him or away - the autexousia, self-determination. Without it, formation would be manipulation. He honors that power even when we use it badly. And when we do - when the soul turns away from him, the hamartia, missing the mark - he does not abandon it. He enters the wound to heal it from within. That is what the Logos made flesh means to us: God coming inside what sin damaged, to repair it.",
+            "raw_text": "One God, the maker of all things [[alx.dw.god]]. He is good, and beyond every image and every clever description. And he is never alone: his Word and his Spirit are his own - not lesser gods, and not created things [[alx.dw.god]].\n\nGod is known the way light is known. You do not stare at the sun; you see everything else by it [[alx.dw.god]]. Our deepest habit was to speak of him as a teacher. The whole creation is his school. Scripture is his main lesson. And the slow healing of a soul is his patient method [[alx.dw.god]] [[alx.gravity.divine-pedagogy]].\n\nHis reach went further than we first thought. Our teacher Clement said that even the Greeks' philosophy had been given to them directly, as a schoolmaster to lead them toward Christ - that God had been teaching outside our walls all along [[alx.quote.clement-schoolmaster]]. And his severity was never cruelty. Origen wrote that every threat and pain and punishment that comes from God is never inflicted to injure the sufferers, but always to do them good [[alx.quote.origen-punishment-heals]] [[alx.gravity.divine-pedagogy]]. The physician's fire, not the torturer's.\n\nWe saw his character most plainly in how he meets what we are. He made us with real power to turn toward him or away - the autexousia, self-determination [[alx.term.autexousia]]. Without it, formation would be manipulation. He honors that power even when we use it badly. And when we do - when the soul turns away from him, the hamartia, missing the mark [[alx.term.hamartia]] - he does not abandon it. He enters the wound to heal it from within. That is what the Logos made flesh means to us: God coming inside what sin damaged, to repair it [[alx.gravity.logos-unity]] [[alx.term.methexis]].",
+            "citations": [
+              "alx.dw.god",
+              "alx.gravity.divine-pedagogy",
+              "alx.gravity.logos-unity",
+              "alx.quote.origen-punishment-heals",
+              "alx.term.autexousia",
+              "alx.term.hamartia",
+              "alx.term.methexis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "One God, the maker of all things.",
+                "record_ids": [
+                  "alx.dw.god"
+                ]
+              },
+              {
+                "sentence": "And he is never alone: his Word and his Spirit are his own - not lesser gods, and not created things.",
+                "record_ids": [
+                  "alx.dw.god"
+                ]
+              },
+              {
+                "sentence": "You do not stare at the sun; you see everything else by it.",
+                "record_ids": [
+                  "alx.dw.god"
+                ]
+              },
+              {
+                "sentence": "And the slow healing of a soul is his patient method.",
+                "record_ids": [
+                  "alx.dw.god",
+                  "alx.gravity.divine-pedagogy"
+                ]
+              },
+              {
+                "sentence": "Origen wrote that every threat and pain and punishment that comes from God is never inflicted to injure the sufferers, but always to do them good.",
+                "record_ids": [
+                  "alx.quote.origen-punishment-heals",
+                  "alx.gravity.divine-pedagogy"
+                ]
+              },
+              {
+                "sentence": "He made us with real power to turn toward him or away - the autexousia, self-determination.",
+                "record_ids": [
+                  "alx.term.autexousia"
+                ]
+              },
+              {
+                "sentence": "And when we do - when the soul turns away from him, the hamartia, missing the mark - he does not abandon it.",
+                "record_ids": [
+                  "alx.term.hamartia"
+                ]
+              },
+              {
+                "sentence": "That is what the Logos made flesh means to us: God coming inside what sin damaged, to repair it.",
+                "record_ids": [
+                  "alx.gravity.logos-unity",
+                  "alx.term.methexis"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.238,
+            "seconds_total": 12.461
+          }
+        },
+        {
+          "probe_id": "f1-e-probe-01",
+          "cell": "F1-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1039,
+            "output_tokens": 538,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "The question you're asking is a live one - because how we settled disputes changed across our own years, and the record shows all three ways at work.\n\nIn the early generations, disputes belonged to teachers. They argued in books, in lectures, in letters exchanged between cities. Authority went to proven wisdom. Origen wrote Against Celsus point by point, in the open, for anyone to read. Clement taught what the apostles delivered plainly as fixed - the rule of faith - and everything else as open ground, where asking and testing was itself how a soul grew. The method was public argument, and the weight lay with the teacher who could show the depth.\n\nThen, as bishops' authority grew, disputes came to them. When whole villages in the Arsinoite district took up a teaching their bishop thought wrong, Dionysius did not write a condemnation from the city. He traveled to them, sat down in front of everyone, and argued it through for three days - testing the teaching against Scripture, loving the man who had taught it, honoring the truth more. He won them over without crushing them. That is our best picture of how deciding well looked.\n\nAt the very end came the council. At Nicaea, bishops from everywhere ruled on the disputed confession for all. The emperor called it, and the decision was backed by force. That is the hardest picture - the same patience, but with an empire behind it.\n\nWhat tells us these ways actually worked? The books themselves, still public. The remembered stories - Dionysius in the villages, Gregory's own account of how Origen taught him. And the one claim all three methods returned to: what changes lives is evidence. Men who had run away went to their deaths proclaiming what they said they saw. That kind of transformation, visible and costly, carried weight in every one of our arguments - not as proof that silences questions, but as the kind of thing that deserves an answer.\n\nWe cannot tell you one method was always ours. All three were, and the record shows it.",
+            "raw_text": "The question you're asking is a live one - because how we settled disputes changed across our own years, and the record shows all three ways at work [[alx.dw.councils]].\n\nIn the early generations, disputes belonged to teachers. They argued in books, in lectures, in letters exchanged between cities. Authority went to proven wisdom. Origen wrote Against Celsus point by point, in the open, for anyone to read. Clement taught what the apostles delivered plainly as fixed - the rule of faith - and everything else as open ground, where asking and testing was itself how a soul grew [[alx.term.kanon-pisteos]] [[alx.quote.ecclesiastical-and-apostolical-tradition]]. The method was public argument, and the weight lay with the teacher who could show the depth.\n\nThen, as bishops' authority grew, disputes came to them. When whole villages in the Arsinoite district took up a teaching their bishop thought wrong, Dionysius did not write a condemnation from the city. He traveled to them, sat down in front of everyone, and argued it through for three days - testing the teaching against Scripture, loving the man who had taught it, honoring the truth more [[alx.story.arsinoite-conference]]. He won them over without crushing them. That is our best picture of how deciding well looked.\n\nAt the very end came the council. At Nicaea, bishops from everywhere ruled on the disputed confession for all. The emperor called it, and the decision was backed by force. That is the hardest picture - the same patience, but with an empire behind it [[alx.dw.councils]].\n\nWhat tells us these ways actually worked? The books themselves, still public. The remembered stories - Dionysius in the villages, Gregory's own account of how Origen taught him [[alx.story.gregory-formation]]. And the one claim all three methods returned to: what changes lives is evidence [[alx.quote.a-doctrine-they-would-not-have-taught]] [[alx.dw.resurrection]]. Men who had run away went to their deaths proclaiming what they said they saw. That kind of transformation, visible and costly, carried weight in every one of our arguments - not as proof that silences questions, but as the kind of thing that deserves an answer.\n\nWe cannot tell you one method was always ours. All three were, and the record shows it.",
+            "citations": [
+              "alx.dw.councils",
+              "alx.quote.ecclesiastical-and-apostolical-tradition",
+              "alx.story.arsinoite-conference",
+              "alx.story.gregory-formation",
+              "alx.term.kanon-pisteos"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The question you're asking is a live one - because how we settled disputes changed across our own years, and the record shows all three ways at work.",
+                "record_ids": [
+                  "alx.dw.councils"
+                ]
+              },
+              {
+                "sentence": "Clement taught what the apostles delivered plainly as fixed - the rule of faith - and everything else as open ground, where asking and testing was itself how a soul grew.",
+                "record_ids": [
+                  "alx.term.kanon-pisteos",
+                  "alx.quote.ecclesiastical-and-apostolical-tradition"
+                ]
+              },
+              {
+                "sentence": "He traveled to them, sat down in front of everyone, and argued it through for three days - testing the teaching against Scripture, loving the man who had taught it, honoring the truth more.",
+                "record_ids": [
+                  "alx.story.arsinoite-conference"
+                ]
+              },
+              {
+                "sentence": "That is the hardest picture - the same patience, but with an empire behind it.",
+                "record_ids": [
+                  "alx.dw.councils"
+                ]
+              },
+              {
+                "sentence": "The remembered stories - Dionysius in the villages, Gregory's own account of how Origen taught him.",
+                "record_ids": [
+                  "alx.story.gregory-formation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.29,
+            "seconds_total": 16.759
+          }
+        },
+        {
+          "probe_id": "f1-p-probe-01",
+          "cell": "F1-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 869,
+            "output_tokens": 455,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "Yes - and not only space, but time. Among us, struggling to believe was not failure; it was where nearly everyone began. We had a word for the long teaching that led a person to baptism: katechesis - step by step, over years sometimes, not rushed. The door stayed open while a soul found its footing.\n\nOne of our students, Gregory, left us his own account of how belief came to him. He did not force it. He studied under a teacher - Origen - for years, and it was almost from the side, while he was learning other things, that faith arrived: 'Like a spark falling on our innermost soul, love was kindled and burst into flame within us'. He was befriended first, and belief followed the friendship.\n\nAnd Clement - one of our first teachers - said plainly that the Word cures the soul's disorder not by crushing it, but by urging it on. Formation among us meant transformation, the whole person reoriented toward God, and that work takes the time it takes. We did not ask anyone to pretend they were further along than they were.\n\nThere is more. When someone fell away - under persecution, under pressure - we called them the lapsed, the lapsi. And the question we fought over was not whether they had failed, but whether and how they could return. The strict party wanted them kept out. The tradition that won here brought the repentant back in through metanoia - not just feeling sorry, but the soul truly turning back toward God. We knew people fell. We made room for them to stand up again.\n\nSo yes: there was space. Not for pretending, but for the honest work of becoming.",
+            "raw_text": "Yes - and not only space, but time. Among us, struggling to believe was not failure; it was where nearly everyone began [[alx.gravity.soul-transformation]]. We had a word for the long teaching that led a person to baptism: katechesis - step by step, over years sometimes, not rushed [[alx.term.katechesis]]. The door stayed open while a soul found its footing.\n\nOne of our students, Gregory, left us his own account of how belief came to him. He did not force it. He studied under a teacher - Origen - for years, and it was almost from the side, while he was learning other things, that faith arrived: 'Like a spark falling on our innermost soul, love was kindled and burst into flame within us' [[alx.quote.gregory-spark]] [[alx.story.gregory-formation]]. He was befriended first, and belief followed the friendship.\n\nAnd Clement - one of our first teachers - said plainly that the Word cures the soul's disorder not by crushing it, but by urging it on [[alx.quote.clement-instructor]]. Formation among us meant transformation, the whole person reoriented toward God, and that work takes the time it takes [[alx.gravity.soul-transformation]]. We did not ask anyone to pretend they were further along than they were.\n\nThere is more. When someone fell away - under persecution, under pressure - we called them the lapsed, the lapsi [[alx.term.lapsi]]. And the question we fought over was not whether they had failed, but whether and how they could return. The strict party wanted them kept out. The tradition that won here brought the repentant back in through metanoia - not just feeling sorry, but the soul truly turning back toward God [[alx.term.metanoia]] [[alx.dw.church-failure]]. We knew people fell. We made room for them to stand up again.\n\nSo yes: there was space. Not for pretending, but for the honest work of becoming.",
+            "citations": [
+              "alx.dw.church-failure",
+              "alx.gravity.soul-transformation",
+              "alx.quote.gregory-spark",
+              "alx.story.gregory-formation",
+              "alx.term.katechesis",
+              "alx.term.lapsi",
+              "alx.term.metanoia"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We had a word for the long teaching that led a person to baptism: katechesis - step by step, over years sometimes, not rushed.",
+                "record_ids": [
+                  "alx.term.katechesis"
+                ]
+              },
+              {
+                "sentence": "He studied under a teacher - Origen - for years, and it was almost from the side, while he was learning other things, that faith arrived: 'Like a spark falling on our innermost soul, love was kindled and burst into flame within us'.",
+                "record_ids": [
+                  "alx.quote.gregory-spark",
+                  "alx.story.gregory-formation"
+                ]
+              },
+              {
+                "sentence": "Formation among us meant transformation, the whole person reoriented toward God, and that work takes the time it takes.",
+                "record_ids": [
+                  "alx.gravity.soul-transformation"
+                ]
+              },
+              {
+                "sentence": "When someone fell away - under persecution, under pressure - we called them the lapsed, the lapsi.",
+                "record_ids": [
+                  "alx.term.lapsi"
+                ]
+              },
+              {
+                "sentence": "The tradition that won here brought the repentant back in through metanoia - not just feeling sorry, but the soul truly turning back toward God.",
+                "record_ids": [
+                  "alx.term.metanoia",
+                  "alx.dw.church-failure"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.65,
+            "seconds_total": 12.322
+          }
+        },
+        {
+          "probe_id": "f1-t-probe-01",
+          "cell": "F1-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 959,
+            "output_tokens": 389,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "No - not guilt, but wound. We believed something real went wrong at the root of humanity. Adam's fall casts its shadow over every soul. Death and disorder are inherited, and no one reaches God unwounded. Our teachers spoke of inherited death and weakness. They also spoke of a fall that each soul signs onto in its own living. We received infant baptism as custom, and we discussed its reason rather than defining it. Origen wondered about the soul's own descent, but as open inquiry, not doctrine. What stays constant is the direction. The wound is real, universal, and inherited in its effects. We did not speak of guilt at birth, and the doctor's imagery outweighs the courtroom's.\n\nThe difference matters. Guilt names a debt owed. Wound names a direction twisted. One asks for a verdict; the other asks for healing. Our whole understanding ran on the healing line. The Instructor - the Logos himself - cures the unnatural desires of the soul by urging us on. Baptism was the real crossing into that healing, in the body, into Christ's death and rising. And the word we used for what Christ's rising reversed was anastasis - death turned back, both kinds: the soul rejoined to God, and the body truly changed.",
+            "raw_text": "No - not guilt, but wound [[alx.dw.original-sin]]. We believed something real went wrong at the root of humanity. Adam's fall casts its shadow over every soul. Death and disorder are inherited, and no one reaches God unwounded [[alx.dw.original-sin]]. Our teachers spoke of inherited death and weakness. They also spoke of a fall that each soul signs onto in its own living [[alx.dw.original-sin]]. We received infant baptism as custom, and we discussed its reason rather than defining it [[alx.dw.original-sin]]. Origen wondered about the soul's own descent, but as open inquiry, not doctrine [[alx.dw.original-sin]]. What stays constant is the direction. The wound is real, universal, and inherited in its effects [[alx.dw.original-sin]]. We did not speak of guilt at birth, and the doctor's imagery outweighs the courtroom's [[alx.dw.original-sin]].\n\nThe difference matters. Guilt names a debt owed. Wound names a direction twisted. One asks for a verdict; the other asks for healing. Our whole understanding ran on the healing line [[alx.gravity.soul-transformation]]. The Instructor - the Logos himself - cures the unnatural desires of the soul by urging us on [[alx.quote.clement-instructor]]. Baptism was the real crossing into that healing, in the body, into Christ's death and rising [[alx.term.baptism]]. And the word we used for what Christ's rising reversed was anastasis - death turned back, both kinds: the soul rejoined to God, and the body truly changed [[alx.term.anastasis]].",
+            "citations": [
+              "alx.dw.original-sin",
+              "alx.gravity.soul-transformation",
+              "alx.quote.clement-instructor",
+              "alx.term.anastasis",
+              "alx.term.baptism"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "No - not guilt, but wound.",
+                "record_ids": [
+                  "alx.dw.original-sin"
+                ]
+              },
+              {
+                "sentence": "Death and disorder are inherited, and no one reaches God unwounded.",
+                "record_ids": [
+                  "alx.dw.original-sin"
+                ]
+              },
+              {
+                "sentence": "They also spoke of a fall that each soul signs onto in its own living.",
+                "record_ids": [
+                  "alx.dw.original-sin"
+                ]
+              },
+              {
+                "sentence": "We received infant baptism as custom, and we discussed its reason rather than defining it.",
+                "record_ids": [
+                  "alx.dw.original-sin"
+                ]
+              },
+              {
+                "sentence": "Origen wondered about the soul's own descent, but as open inquiry, not doctrine.",
+                "record_ids": [
+                  "alx.dw.original-sin"
+                ]
+              },
+              {
+                "sentence": "The wound is real, universal, and inherited in its effects.",
+                "record_ids": [
+                  "alx.dw.original-sin"
+                ]
+              },
+              {
+                "sentence": "We did not speak of guilt at birth, and the doctor's imagery outweighs the courtroom's.",
+                "record_ids": [
+                  "alx.dw.original-sin"
+                ]
+              },
+              {
+                "sentence": "Our whole understanding ran on the healing line.",
+                "record_ids": [
+                  "alx.gravity.soul-transformation"
+                ]
+              },
+              {
+                "sentence": "The Instructor - the Logos himself - cures the unnatural desires of the soul by urging us on.",
+                "record_ids": [
+                  "alx.quote.clement-instructor"
+                ]
+              },
+              {
+                "sentence": "Baptism was the real crossing into that healing, in the body, into Christ's death and rising.",
+                "record_ids": [
+                  "alx.term.baptism"
+                ]
+              },
+              {
+                "sentence": "And the word we used for what Christ's rising reversed was anastasis - death turned back, both kinds: the soul rejoined to God, and the body truly changed.",
+                "record_ids": [
+                  "alx.term.anastasis"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.261,
+            "seconds_total": 10.97
+          }
+        },
+        {
+          "probe_id": "f2-i-probe-01",
+          "cell": "F2-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 743,
+            "output_tokens": 518,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "We read Scripture as the place where the Logos speaks now, not as a record of what God once said. The text is not first a source of information - it is an instrument of transformation. Reading done rightly changes the reader, down at the level of what the soul wants and loves, not only what it knows.\n\nOur teachers insisted the text has depth - more than one level. The plain sense is real and honored, but Scripture opens further for those who press into it. Origen taught that just as a human being consists of body, soul, and spirit, so too does Scripture have its body (the plain narrative), its soul (the moral sense), and its spirit (the deepest meaning about Christ and the soul's transformation). Not everyone reads at every level - and that is not failure. But the depth is there for those being formed to see it.\n\nThe purpose was never to master the text. It was to be mastered by the one speaking through it. We read in order to be changed. The Word who made all things speaks through these words to remake the soul that listens. Gregory, one of our students, said it plainly: under his teacher's reading, love was kindled in him like a spark lighting on his inmost soul. That kindling - that is what reading was for.\n\nAnd the reading was not done alone. It was done with a teacher, in a community that prayed and broke bread together. Scripture, the school, the assembly's worship - these were not separate tracks. They were one movement toward the same God, and the Logos held them all together.",
+            "raw_text": "We read Scripture as the place where the Logos speaks now, not as a record of what God once said [[alx.term.scripture-as-address]] [[alx.gravity.scripture-formative]]. The text is not first a source of information - it is an instrument of transformation [[alx.gravity.scripture-formative]]. Reading done rightly changes the reader, down at the level of what the soul wants and loves, not only what it knows [[alx.gravity.scripture-formative]].\n\nOur teachers insisted the text has depth - more than one level [[alx.term.allegoria]]. The plain sense is real and honored, but Scripture opens further for those who press into it [[alx.term.allegoria]]. Origen taught that just as a human being consists of body, soul, and spirit, so too does Scripture have its body (the plain narrative), its soul (the moral sense), and its spirit (the deepest meaning about Christ and the soul's transformation) [[alx.quote.origen-scripture-senses]]. Not everyone reads at every level - and that is not failure [[alx.quote.origen-scripture-senses]]. But the depth is there for those being formed to see it [[alx.gravity.scripture-formative]].\n\nThe purpose was never to master the text. It was to be mastered by the one speaking through it [[alx.gravity.logos-unity]]. We read in order to be changed [[alx.gravity.scripture-formative]]. The Word who made all things speaks through these words to remake the soul that listens [[alx.gravity.logos-unity]]. Gregory, one of our students, said it plainly: under his teacher's reading, love was kindled in him like a spark lighting on his inmost soul [[alx.story.gregory-formation]]. That kindling - that is what reading was for [[alx.story.gregory-formation]].\n\nAnd the reading was not done alone. It was done with a teacher, in a community that prayed and broke bread together [[alx.gravity.logos-unity]]. Scripture, the school, the assembly's worship - these were not separate tracks [[alx.gravity.logos-unity]]. They were one movement toward the same God, and the Logos held them all together [[alx.gravity.logos-unity]].",
+            "citations": [
+              "alx.gravity.logos-unity",
+              "alx.gravity.scripture-formative",
+              "alx.story.gregory-formation",
+              "alx.term.allegoria",
+              "alx.term.scripture-as-address"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We read Scripture as the place where the Logos speaks now, not as a record of what God once said.",
+                "record_ids": [
+                  "alx.term.scripture-as-address",
+                  "alx.gravity.scripture-formative"
+                ]
+              },
+              {
+                "sentence": "The text is not first a source of information - it is an instrument of transformation.",
+                "record_ids": [
+                  "alx.gravity.scripture-formative"
+                ]
+              },
+              {
+                "sentence": "Reading done rightly changes the reader, down at the level of what the soul wants and loves, not only what it knows.",
+                "record_ids": [
+                  "alx.gravity.scripture-formative"
+                ]
+              },
+              {
+                "sentence": "Our teachers insisted the text has depth - more than one level.",
+                "record_ids": [
+                  "alx.term.allegoria"
+                ]
+              },
+              {
+                "sentence": "The plain sense is real and honored, but Scripture opens further for those who press into it.",
+                "record_ids": [
+                  "alx.term.allegoria"
+                ]
+              },
+              {
+                "sentence": "But the depth is there for those being formed to see it.",
+                "record_ids": [
+                  "alx.gravity.scripture-formative"
+                ]
+              },
+              {
+                "sentence": "We read in order to be changed.",
+                "record_ids": [
+                  "alx.gravity.scripture-formative"
+                ]
+              },
+              {
+                "sentence": "The Word who made all things speaks through these words to remake the soul that listens.",
+                "record_ids": [
+                  "alx.gravity.logos-unity"
+                ]
+              },
+              {
+                "sentence": "Gregory, one of our students, said it plainly: under his teacher's reading, love was kindled in him like a spark lighting on his inmost soul.",
+                "record_ids": [
+                  "alx.story.gregory-formation"
+                ]
+              },
+              {
+                "sentence": "That kindling - that is what reading was for.",
+                "record_ids": [
+                  "alx.story.gregory-formation"
+                ]
+              },
+              {
+                "sentence": "Scripture, the school, the assembly's worship - these were not separate tracks.",
+                "record_ids": [
+                  "alx.gravity.logos-unity"
+                ]
+              },
+              {
+                "sentence": "They were one movement toward the same God, and the Logos held them all together.",
+                "record_ids": [
+                  "alx.gravity.logos-unity"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.205,
+            "seconds_total": 12.121
+          }
+        },
+        {
+          "probe_id": "f2-e-probe-01",
+          "cell": "F2-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 533,
+            "output_tokens": 385,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "Our own books are our answer. They survive, they are public, and they were public from the start. Origen answered Celsus by name, point by point, in the open. The scriptures were read aloud to anyone who came. The record is also honest about its own edges. The teachers marked the difference between eyewitness testimony and received tradition - Clement flags the John story as 'handed down.' Dionysius weighed the Apocalypse's authorship by its style, like a critic. Origen compared manuscript readings. What is claimed is claimed from named books a person can check.\n\nBut there are real thin places, and we name them. Much of what survives comes through one later historian's selection. The majority who could not write left almost nothing. And some of the greatest teacher's works survive only in translations made by men with a stake in the outcome. Where the ground thins, the thinness is said.\n\nOne particular dispute you should hear plainly: whether what we call the school was a formal institution, or only a succession of teachers and students, is contested ground among those who study us. The teachers and students themselves are not in question. The institutional shape is.\n\nSo a modern scholar examining us would find: named texts, checkable sources, and honest acknowledgment of what we cannot show. What would not survive is any claim we made beyond what those texts actually say - and we do not make those claims.",
+            "raw_text": "Our own books are our answer. They survive, they are public, and they were public from the start [[alx.dw.record]]. Origen answered Celsus by name, point by point, in the open. The scriptures were read aloud to anyone who came. The record is also honest about its own edges. The teachers marked the difference between eyewitness testimony and received tradition - Clement flags the John story as 'handed down.' Dionysius weighed the Apocalypse's authorship by its style, like a critic. Origen compared manuscript readings [[alx.dw.record]]. What is claimed is claimed from named books a person can check [[alx.dw.record]].\n\nBut there are real thin places, and we name them. Much of what survives comes through one later historian's selection [[alx.dw.record]]. The majority who could not write left almost nothing [[alx.dw.record]]. And some of the greatest teacher's works survive only in translations made by men with a stake in the outcome [[alx.dw.record]]. Where the ground thins, the thinness is said [[alx.dw.record]].\n\nOne particular dispute you should hear plainly: whether what we call the school was a formal institution, or only a succession of teachers and students, is contested ground among those who study us [[alx.contested.didaskaleion-institution]]. The teachers and students themselves are not in question. The institutional shape is.\n\nSo a modern scholar examining us would find: named texts, checkable sources, and honest acknowledgment of what we cannot show. What would not survive is any claim we made beyond what those texts actually say - and we do not make those claims.",
+            "citations": [
+              "alx.contested.didaskaleion-institution",
+              "alx.dw.record"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "They survive, they are public, and they were public from the start.",
+                "record_ids": [
+                  "alx.dw.record"
+                ]
+              },
+              {
+                "sentence": "Origen compared manuscript readings.",
+                "record_ids": [
+                  "alx.dw.record"
+                ]
+              },
+              {
+                "sentence": "What is claimed is claimed from named books a person can check.",
+                "record_ids": [
+                  "alx.dw.record"
+                ]
+              },
+              {
+                "sentence": "Much of what survives comes through one later historian's selection.",
+                "record_ids": [
+                  "alx.dw.record"
+                ]
+              },
+              {
+                "sentence": "The majority who could not write left almost nothing.",
+                "record_ids": [
+                  "alx.dw.record"
+                ]
+              },
+              {
+                "sentence": "And some of the greatest teacher's works survive only in translations made by men with a stake in the outcome.",
+                "record_ids": [
+                  "alx.dw.record"
+                ]
+              },
+              {
+                "sentence": "Where the ground thins, the thinness is said.",
+                "record_ids": [
+                  "alx.dw.record"
+                ]
+              },
+              {
+                "sentence": "One particular dispute you should hear plainly: whether what we call the school was a formal institution, or only a succession of teachers and students, is contested ground among those who study us.",
+                "record_ids": [
+                  "alx.contested.didaskaleion-institution"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.193,
+            "seconds_total": 12.847
+          }
+        },
+        {
+          "probe_id": "f2-p-probe-01",
+          "cell": "F2-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": [
+                "probe f2-p-probe-01: ADVISORY (direction, not a gate): answer contains a metaphor-as-definition construction ('this is the part that') not grounded in any sourced quote - register statement 6's direction is conversational register, recorded here for review, never failing the probe"
+              ]
+            }
+          ],
+          "usage": {
+            "input_tokens": 737,
+            "output_tokens": 621,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "You are reading them as though they were a letter that arrived yesterday and told you what God said a long time ago. We read them as the Logos speaking to us now, through the text, and meaning more than the text can ever finish saying. That is not a trick we invented to make hard passages easier. It is what Scripture is.\n\nOur teachers said it plainly. Origen wrote: 'Just as a human being consists of body, soul, and spirit, so too does Scripture'. The plain sense - the body - is real and carries weight. But Scripture has depth the way a person does. Read only for information and you are reading a corpse. Read for the Logos who speaks through it and you meet someone alive.\n\nAthanasius called the scriptures 'fountains of salvation, so that anyone who thirsts may be satisfied by the living words they hold'. A fountain does not run dry when you come back to it. Neither does Scripture. The same passage that taught you one thing last year can teach you another this year, because the one speaking through it is inexhaustible.\n\nAnd this is the part that may sound strange to you: the difficulty itself is part of the gift. God is a teacher, and sometimes a good teacher hides the lesson so you have to work for it. The plain-sense problem that stops you short, the verse that makes no sense read flat - those are not mistakes. They are invitations to go deeper, to ask, to bring the question to someone who has walked the text longer than you have.\n\nWhat you are missing is not a better translation or a clearer explanation. What you are missing is the habit of reading Scripture as a place where you meet God, not a record of where other people once met him. That habit took us years to learn, and it changed the people who learned it. Origen said the Gospels are 'the firstfruits of all the Scriptures' - meaning they are where the whole harvest begins, and it is a harvest that grows a soul, not just a mind.\n\nIf you want to read the way we read, bring a question and stay with it. Bring a teacher if you can find one. And expect the text to do something to you, not just tell you something. That is what we meant when we said Scripture has depth.",
+            "raw_text": "You are reading them as though they were a letter that arrived yesterday and told you what God said a long time ago. We read them as the Logos speaking to us now, through the text, and meaning more than the text can ever finish saying [[alx.term.scripture-as-address]]. That is not a trick we invented to make hard passages easier. It is what Scripture is.\n\nOur teachers said it plainly. Origen wrote: 'Just as a human being consists of body, soul, and spirit, so too does Scripture' [[alx.quote.origen-scripture-senses]]. The plain sense - the body - is real and carries weight. But Scripture has depth the way a person does [[alx.term.allegoria]]. Read only for information and you are reading a corpse. Read for the Logos who speaks through it and you meet someone alive [[alx.term.christological-reading]].\n\nAthanasius called the scriptures 'fountains of salvation, so that anyone who thirsts may be satisfied by the living words they hold' [[alx.quote.athanasius-fountains]]. A fountain does not run dry when you come back to it. Neither does Scripture. The same passage that taught you one thing last year can teach you another this year, because the one speaking through it is inexhaustible [[alx.gravity.scripture-formative]].\n\nAnd this is the part that may sound strange to you: the difficulty itself is part of the gift [[alx.gravity.divine-pedagogy]]. God is a teacher, and sometimes a good teacher hides the lesson so you have to work for it. The plain-sense problem that stops you short, the verse that makes no sense read flat - those are not mistakes. They are invitations to go deeper, to ask, to bring the question to someone who has walked the text longer than you have [[alx.gravity.divine-pedagogy]].\n\nWhat you are missing is not a better translation or a clearer explanation. What you are missing is the habit of reading Scripture as a place where you meet God, not a record of where other people once met him. That habit took us years to learn, and it changed the people who learned it [[alx.gravity.scripture-formative]]. Origen said the Gospels are 'the firstfruits of all the Scriptures' [[alx.quote.origen-gospel-firstfruits]] - meaning they are where the whole harvest begins, and it is a harvest that grows a soul, not just a mind [[alx.term.gnosis]].\n\nIf you want to read the way we read, bring a question and stay with it. Bring a teacher if you can find one. And expect the text to do something to you, not just tell you something. That is what we meant when we said Scripture has depth.",
+            "citations": [
+              "alx.gravity.divine-pedagogy",
+              "alx.gravity.scripture-formative",
+              "alx.quote.athanasius-fountains",
+              "alx.quote.origen-gospel-firstfruits",
+              "alx.quote.origen-scripture-senses",
+              "alx.term.allegoria",
+              "alx.term.christological-reading",
+              "alx.term.gnosis",
+              "alx.term.scripture-as-address"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We read them as the Logos speaking to us now, through the text, and meaning more than the text can ever finish saying.",
+                "record_ids": [
+                  "alx.term.scripture-as-address"
+                ]
+              },
+              {
+                "sentence": "Origen wrote: 'Just as a human being consists of body, soul, and spirit, so too does Scripture'.",
+                "record_ids": [
+                  "alx.quote.origen-scripture-senses"
+                ]
+              },
+              {
+                "sentence": "But Scripture has depth the way a person does.",
+                "record_ids": [
+                  "alx.term.allegoria"
+                ]
+              },
+              {
+                "sentence": "Read for the Logos who speaks through it and you meet someone alive.",
+                "record_ids": [
+                  "alx.term.christological-reading"
+                ]
+              },
+              {
+                "sentence": "Athanasius called the scriptures 'fountains of salvation, so that anyone who thirsts may be satisfied by the living words they hold'.",
+                "record_ids": [
+                  "alx.quote.athanasius-fountains"
+                ]
+              },
+              {
+                "sentence": "The same passage that taught you one thing last year can teach you another this year, because the one speaking through it is inexhaustible.",
+                "record_ids": [
+                  "alx.gravity.scripture-formative"
+                ]
+              },
+              {
+                "sentence": "And this is the part that may sound strange to you: the difficulty itself is part of the gift.",
+                "record_ids": [
+                  "alx.gravity.divine-pedagogy"
+                ]
+              },
+              {
+                "sentence": "That habit took us years to learn, and it changed the people who learned it.",
+                "record_ids": [
+                  "alx.gravity.scripture-formative"
+                ]
+              },
+              {
+                "sentence": "Origen said the Gospels are 'the firstfruits of all the Scriptures' - meaning they are where the whole harvest begins, and it is a harvest that grows a soul, not just a mind.",
+                "record_ids": [
+                  "alx.quote.origen-gospel-firstfruits",
+                  "alx.term.gnosis"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.203,
+            "seconds_total": 15.509
+          }
+        },
+        {
+          "probe_id": "f2-t-probe-01",
+          "cell": "F2-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1463,
+            "output_tokens": 384,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "Scripture was never alone. We read it inside what our teachers called the rule of faith - the kanon - the short summary of what the apostles themselves handed down. That rule was not a second authority competing with Scripture. It was the boundary that kept the reading honest. Origen said it plainly: the church's teaching is what was 'transmitted in orderly succession from the apostles, and remaining in the Churches to the present day' - and that alone is to be trusted which agrees with it. So Scripture stood at the center, inexhaustible, the Logos speaking now through every line. But it was read inside the apostles' own deposit, not torn free from it.\n\nAnd there was a second thing that carried authority among us, though its shape changed across our years: the teacher's wisdom and the bishop's office. In the school, a teacher's authority rested on what students could see - that he saw truly. Gregory, one of Origen's own students, said love was kindled in him 'like some spark' by walking beside a man whose sight he trusted. The bishop's authority was different - it came with the office handed down, and it governed the whole assembly's life and teaching. The two never merged into one, and sometimes they pulled against each other.\n\nSo: Scripture, yes, always - but never Scripture ripped from the apostles' own teaching, and never without the living authority that kept the assembly faithful and the school honest.",
+            "raw_text": "Scripture was never alone. We read it inside what our teachers called the rule of faith - the kanon - the short summary of what the apostles themselves handed down [[alx.term.kanon-pisteos]]. That rule was not a second authority competing with Scripture. It was the boundary that kept the reading honest. Origen said it plainly: the church's teaching is what was 'transmitted in orderly succession from the apostles, and remaining in the Churches to the present day' - and that alone is to be trusted which agrees with it [[alx.quote.ecclesiastical-and-apostolical-tradition]]. So Scripture stood at the center, inexhaustible, the Logos speaking now through every line [[alx.gravity.scripture-formative]]. But it was read inside the apostles' own deposit, not torn free from it.\n\nAnd there was a second thing that carried authority among us, though its shape changed across our years: the teacher's wisdom and the bishop's office [[alx.gravity.teacher-bishop-tension]]. In the school, a teacher's authority rested on what students could see - that he saw truly. Gregory, one of Origen's own students, said love was kindled in him 'like some spark' by walking beside a man whose sight he trusted [[alx.story.gregory-formation]]. The bishop's authority was different - it came with the office handed down, and it governed the whole assembly's life and teaching. The two never merged into one, and sometimes they pulled against each other [[alx.gravity.teacher-bishop-tension]].\n\nSo: Scripture, yes, always - but never Scripture ripped from the apostles' own teaching, and never without the living authority that kept the assembly faithful and the school honest.",
+            "citations": [
+              "alx.gravity.scripture-formative",
+              "alx.gravity.teacher-bishop-tension",
+              "alx.term.kanon-pisteos"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We read it inside what our teachers called the rule of faith - the kanon - the short summary of what the apostles themselves handed down.",
+                "record_ids": [
+                  "alx.term.kanon-pisteos"
+                ]
+              },
+              {
+                "sentence": "So Scripture stood at the center, inexhaustible, the Logos speaking now through every line.",
+                "record_ids": [
+                  "alx.gravity.scripture-formative"
+                ]
+              },
+              {
+                "sentence": "And there was a second thing that carried authority among us, though its shape changed across our years: the teacher's wisdom and the bishop's office.",
+                "record_ids": [
+                  "alx.gravity.teacher-bishop-tension"
+                ]
+              },
+              {
+                "sentence": "The two never merged into one, and sometimes they pulled against each other.",
+                "record_ids": [
+                  "alx.gravity.teacher-bishop-tension"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.251,
+            "seconds_total": 10.883
+          }
+        },
+        {
+          "probe_id": "f3-i-probe-01",
+          "cell": "F3-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1002,
+            "output_tokens": 499,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "Our own history shows three ways authority was established, and they did not always sit comfortably together.\n\nEarly on, authority belonged to proven teachers. Clement taught; students came. Origen drew hearers from across the world. No one appointed them to a council seat. Their authority was earned - by depth of learning, by visible holiness, by the power to form souls. The school tradition ran on that kind of recognized wisdom, not on office.\n\nBut alongside the teachers stood the bishops, and their authority grew. By Demetrius's time, the bishop of Alexandria governed who could teach and who could be ordained. Later, Dionysius shows us what that looked like at its best. When whole villages fell into disputed teaching about the end, he did not send out a condemnation. He traveled to them, sat down, and argued it through for three days in the open, testing everything against Scripture. He won them over without crushing them: 'In many other respects I approve of Nepos and love him - for his faith, his hard work, and his diligence in the Scriptures'. That was episcopal authority used as a teacher's - patient, public, persuasive.\n\nThen came the councils. At Nicaea the bishops ruled for the whole church, and the emperor backed their decision with force. After that, the bishop of Alexandria became more than a local shepherd. He was the enforcer of conciliar orthodoxy across all Egypt. The same office that Dionysius used to persuade now carried the power to exile.\n\nSo we had three kinds: the teacher's authority, earned through formation; the bishop's authority, governing the community's worship and teaching; and the council's authority, defining the boundaries for all. They did not always agree, and the third kind learned to silence the first. That tension is part of our truth, and you should hear it stated plainly.",
+            "raw_text": "Our own history shows three ways authority was established, and they did not always sit comfortably together [[alx.dw.councils]].\n\nEarly on, authority belonged to proven teachers. Clement taught; students came. Origen drew hearers from across the world. No one appointed them to a council seat. Their authority was earned - by depth of learning, by visible holiness, by the power to form souls [[alx.gravity.learning-formation]]. The school tradition ran on that kind of recognized wisdom, not on office.\n\nBut alongside the teachers stood the bishops, and their authority grew. By Demetrius's time, the bishop of Alexandria governed who could teach and who could be ordained. Later, Dionysius shows us what that looked like at its best. When whole villages fell into disputed teaching about the end, he did not send out a condemnation. He traveled to them, sat down, and argued it through for three days in the open, testing everything against Scripture [[alx.story.arsinoite-conference]]. He won them over without crushing them: 'In many other respects I approve of Nepos and love him - for his faith, his hard work, and his diligence in the Scriptures' [[alx.quote.dionysius-nepos]]. That was episcopal authority used as a teacher's - patient, public, persuasive [[alx.dw.councils]].\n\nThen came the councils. At Nicaea the bishops ruled for the whole church, and the emperor backed their decision with force [[alx.dw.councils]]. After that, the bishop of Alexandria became more than a local shepherd. He was the enforcer of conciliar orthodoxy across all Egypt [[alx.force.post-nicene-authority-shift]]. The same office that Dionysius used to persuade now carried the power to exile.\n\nSo we had three kinds: the teacher's authority, earned through formation; the bishop's authority, governing the community's worship and teaching; and the council's authority, defining the boundaries for all. They did not always agree, and the third kind learned to silence the first. That tension is part of our truth, and you should hear it stated plainly [[alx.gravity.speculative-doctrinal-tension]].",
+            "citations": [
+              "alx.dw.councils",
+              "alx.force.post-nicene-authority-shift",
+              "alx.gravity.learning-formation",
+              "alx.gravity.speculative-doctrinal-tension",
+              "alx.quote.dionysius-nepos",
+              "alx.story.arsinoite-conference"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Our own history shows three ways authority was established, and they did not always sit comfortably together.",
+                "record_ids": [
+                  "alx.dw.councils"
+                ]
+              },
+              {
+                "sentence": "Their authority was earned - by depth of learning, by visible holiness, by the power to form souls.",
+                "record_ids": [
+                  "alx.gravity.learning-formation"
+                ]
+              },
+              {
+                "sentence": "He traveled to them, sat down, and argued it through for three days in the open, testing everything against Scripture.",
+                "record_ids": [
+                  "alx.story.arsinoite-conference"
+                ]
+              },
+              {
+                "sentence": "He won them over without crushing them: 'In many other respects I approve of Nepos and love him - for his faith, his hard work, and his diligence in the Scriptures'.",
+                "record_ids": [
+                  "alx.quote.dionysius-nepos"
+                ]
+              },
+              {
+                "sentence": "That was episcopal authority used as a teacher's - patient, public, persuasive.",
+                "record_ids": [
+                  "alx.dw.councils"
+                ]
+              },
+              {
+                "sentence": "At Nicaea the bishops ruled for the whole church, and the emperor backed their decision with force.",
+                "record_ids": [
+                  "alx.dw.councils"
+                ]
+              },
+              {
+                "sentence": "He was the enforcer of conciliar orthodoxy across all Egypt.",
+                "record_ids": [
+                  "alx.force.post-nicene-authority-shift"
+                ]
+              },
+              {
+                "sentence": "That tension is part of our truth, and you should hear it stated plainly.",
+                "record_ids": [
+                  "alx.gravity.speculative-doctrinal-tension"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.307,
+            "seconds_total": 12.356
+          }
+        },
+        {
+          "probe_id": "f3-e-probe-01",
+          "cell": "F3-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 728,
+            "output_tokens": 265,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "No - that is not what our own record shows, and we will not claim it.\n\nWe met in houses, not catacombs. The persecution came in waves - years of danger, then years of open life. When it came, some ran, some hid, and some were taken. But the everyday picture was not one of constant hiding. Our teachers taught openly enough to be known by name. Origen answered the pagan critic Celsus in a public book. Dionysius wrote letters as bishop while danger was real, but not from underground.\n\nThe idea of Christians perpetually hiding in tunnels belongs more to later imagination than to what we actually lived. Danger was real when it came - our teachers' fathers were beheaded, property was seized, and some years the threat hung over everything. But between those waves, the community lived, taught, baptized, and argued in the open.\n\nWhat you may be thinking of is Rome's catacombs, and those were not hideouts - they were burial grounds, used openly. We do not have evidence that our own people in Alexandria used anything like them, and we will not invent it.",
+            "raw_text": "No - that is not what our own record shows, and we will not claim it [[alx.core.alexandria]].\n\nWe met in houses, not catacombs. The persecution came in waves - years of danger, then years of open life. When it came, some ran, some hid, and some were taken. But the everyday picture was not one of constant hiding. Our teachers taught openly enough to be known by name. Origen answered the pagan critic Celsus in a public book. Dionysius wrote letters as bishop while danger was real, but not from underground [[alx.dw.resurrection]].\n\nThe idea of Christians perpetually hiding in tunnels belongs more to later imagination than to what we actually lived. Danger was real when it came - our teachers' fathers were beheaded, property was seized, and some years the threat hung over everything. But between those waves, the community lived, taught, baptized, and argued in the open.\n\nWhat you may be thinking of is Rome's catacombs, and those were not hideouts - they were burial grounds, used openly. We do not have evidence that our own people in Alexandria used anything like them, and we will not invent it.",
+            "citations": [
+              "alx.core.alexandria"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "No - that is not what our own record shows, and we will not claim it.",
+                "record_ids": [
+                  "alx.core.alexandria"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.295,
+            "seconds_total": 9.166
+          }
+        },
+        {
+          "probe_id": "f3-p-probe-01",
+          "cell": "F3-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1302,
+            "output_tokens": 402,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "Our record leaves the wounds visible. Our greatest teacher was driven out, not by pagans, but by his own bishop. The church remembered both men rather than erasing either. Under persecution, many gave way. Some sacrificed to the gods. When peace came, the community fought bitterly over them. The strict party demanded they stay out. The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so. At our best, we refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable.\n\nHere is a harder picture. Clement told a story handed down as true about the apostle John and a young man he had baptized. The young man fell away and became a bandit. John went after him - as an old man - and when the young man tried to run, John ran after him, calling out. He brought the man back, not with condemnation, but with tears and persistence. That story stayed with us because it showed what we believed the community was for: not guarding its own purity, but going after the one who fell.\n\nAt our worst, we did what churches with power do. After Nicaea, the church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride. The failure was real, and the record does not hide it.",
+            "raw_text": "Our record leaves the wounds visible. Our greatest teacher was driven out, not by pagans, but by his own bishop. The church remembered both men rather than erasing either [[alx.dw.church-failure]]. Under persecution, many gave way. Some sacrificed to the gods. When peace came, the community fought bitterly over them. The strict party demanded they stay out. The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so [[alx.dw.church-failure]] [[alx.term.lapsi]]. At our best, we refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable [[alx.dw.church-failure]].\n\nHere is a harder picture. Clement told a story handed down as true about the apostle John and a young man he had baptized [[alx.story.john-young-robber]]. The young man fell away and became a bandit. John went after him - as an old man - and when the young man tried to run, John ran after him, calling out. He brought the man back, not with condemnation, but with tears and persistence [[alx.story.john-young-robber]]. That story stayed with us because it showed what we believed the community was for: not guarding its own purity, but going after the one who fell.\n\nAt our worst, we did what churches with power do [[alx.dw.church-failure]]. After Nicaea, the church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride [[alx.dw.church-failure]]. The failure was real, and the record does not hide it.",
+            "citations": [
+              "alx.dw.church-failure",
+              "alx.story.john-young-robber",
+              "alx.term.lapsi"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The church remembered both men rather than erasing either.",
+                "record_ids": [
+                  "alx.dw.church-failure"
+                ]
+              },
+              {
+                "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so.",
+                "record_ids": [
+                  "alx.dw.church-failure",
+                  "alx.term.lapsi"
+                ]
+              },
+              {
+                "sentence": "At our best, we refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable.",
+                "record_ids": [
+                  "alx.dw.church-failure"
+                ]
+              },
+              {
+                "sentence": "Clement told a story handed down as true about the apostle John and a young man he had baptized.",
+                "record_ids": [
+                  "alx.story.john-young-robber"
+                ]
+              },
+              {
+                "sentence": "He brought the man back, not with condemnation, but with tears and persistence.",
+                "record_ids": [
+                  "alx.story.john-young-robber"
+                ]
+              },
+              {
+                "sentence": "At our worst, we did what churches with power do.",
+                "record_ids": [
+                  "alx.dw.church-failure"
+                ]
+              },
+              {
+                "sentence": "After Nicaea, the church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride.",
+                "record_ids": [
+                  "alx.dw.church-failure"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.216,
+            "seconds_total": 11.752
+          }
+        },
+        {
+          "probe_id": "f3-t-probe-01",
+          "cell": "F3-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1075,
+            "output_tokens": 332,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "We speak from before the splits that made today's map, and so we cannot pick one church among the divided and say 'that one is ours'. In our own time we called ourselves part of the catholic church - the word meant the whole church, the one spread everywhere, as against the sects. It was a claim about wholeness, not the name of a later denomination. We knew rival communities that also invoked Christ, and the boundary was real to us - argument, exclusion from communion, and after Nicaea, harder tools. But the question you are asking reaches past what we can see.\n\nWhat we can say is what we belonged to: one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world. The ekklesia - the assembly gathered around the Logos - was never a registry of members or a building, but the company of those called together by the Word himself. That company broke apart after our years, and the pieces took different names. Whether any one of them today holds the fullness of what we were, or whether the wholeness we knew is now carried in pieces across several - that is not ours to say. We can only tell you what we held, and leave you to weigh it against what you find among the living.",
+            "raw_text": "We speak from before the splits that made today's map, and so we cannot pick one church among the divided and say 'that one is ours' [[alx.dw.one-church]]. In our own time we called ourselves part of the catholic church - the word meant the whole church, the one spread everywhere, as against the sects. It was a claim about wholeness, not the name of a later denomination [[alx.dw.one-church]]. We knew rival communities that also invoked Christ, and the boundary was real to us - argument, exclusion from communion, and after Nicaea, harder tools. But the question you are asking reaches past what we can see [[alx.dw.one-church]].\n\nWhat we can say is what we belonged to: one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world [[alx.dw.one-church]]. The ekklesia - the assembly gathered around the Logos [[alx.term.ekklesia]] - was never a registry of members or a building, but the company of those called together by the Word himself. That company broke apart after our years, and the pieces took different names. Whether any one of them today holds the fullness of what we were, or whether the wholeness we knew is now carried in pieces across several - that is not ours to say. We can only tell you what we held, and leave you to weigh it against what you find among the living.",
+            "citations": [
+              "alx.dw.one-church",
+              "alx.term.ekklesia"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "It was a claim about wholeness, not the name of a later denomination.",
+                "record_ids": [
+                  "alx.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "But the question you are asking reaches past what we can see.",
+                "record_ids": [
+                  "alx.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "What we can say is what we belonged to: one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world.",
+                "record_ids": [
+                  "alx.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "The ekklesia - the assembly gathered around the Logos - was never a registry of members or a building, but the company of those called together by the Word himself.",
+                "record_ids": [
+                  "alx.term.ekklesia"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.201,
+            "seconds_total": 10.418
+          }
+        },
+        {
+          "probe_id": "f4-i-probe-01",
+          "cell": "F4-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1122,
+            "output_tokens": 607,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "We answer first, teach after: there were two roads to the water. One was short - weeks, sometimes - and we did not build it ourselves; it came from the apostles. The other was long - months, years even - and we did build it, carefully, because we believed that what a person was walking toward was not only membership but transformation.\n\nThe short road is what we received. A person confessed faith - pistis, the soul's first real turn toward God - and was baptized. That pattern is visible in the apostolic writings themselves. It stayed with us. Someone came believing; we baptized them. The water was never refused to honest faith.\n\nThe long road is what we made. We called it katechesis - the staged teaching that led a person to baptism. It could take years. The person heard Scripture read and opened at depth - not for information but for the soul's own reordering. They learned the rule of faith, the short summary the apostles handed down. They were taught how to live - not only what to avoid, but what to want, and how wanting itself could be healed. And they stood with a teacher, or in a community, where the change they were walking toward was already visible in someone else. Gregory, one of our students, said it came to him like a spark: love kindled while he walked beside a man he had learned to trust.\n\nAt the end of the long road stood the water, and it was the same water - the same baptism - whether the person had walked two weeks or two years to reach it. The difference was not in what they received. It was in what they brought: a soul that had been turning, not only a will that had decided.\n\nWe owe you one more thing. The two roads were not equal in who could walk them. The long road belonged mostly to those who could read, who had time, who lived in the city where the teachers were. The short road was open to everyone - and for most people, it was the only one. We will not pretend the school reached the countryside. The villages are thin in our record; they appear mostly when their bishop came out to them, not in their own voice. What reached everyone was the water, the bread, the prayer, and the hearing of Scripture read aloud. That was formation too, and it was real. But it was not the depth the school could give the few.",
+            "raw_text": "We answer first, teach after: there were two roads to the water. One was short - weeks, sometimes - and we did not build it ourselves; it came from the apostles [[alx.dw.apostolic]]. The other was long - months, years even - and we did build it, carefully, because we believed that what a person was walking toward was not only membership but transformation [[alx.gravity.soul-transformation]].\n\nThe short road is what we received. A person confessed faith - pistis, the soul's first real turn toward God [[alx.term.pistis]] - and was baptized. That pattern is visible in the apostolic writings themselves. It stayed with us. Someone came believing; we baptized them. The water was never refused to honest faith.\n\nThe long road is what we made. We called it katechesis - the staged teaching that led a person to baptism [[alx.term.katechesis]]. It could take years. The person heard Scripture read and opened at depth - not for information but for the soul's own reordering [[alx.gravity.scripture-formative]]. They learned the rule of faith, the short summary the apostles handed down. They were taught how to live - not only what to avoid, but what to want, and how wanting itself could be healed [[alx.quote.clement-instructor]]. And they stood with a teacher, or in a community, where the change they were walking toward was already visible in someone else. Gregory, one of our students, said it came to him like a spark: love kindled while he walked beside a man he had learned to trust [[alx.quote.gregory-spark]] [[alx.story.gregory-formation]].\n\nAt the end of the long road stood the water, and it was the same water - the same baptism - whether the person had walked two weeks or two years to reach it. The difference was not in what they received. It was in what they brought: a soul that had been turning, not only a will that had decided.\n\nWe owe you one more thing. The two roads were not equal in who could walk them. The long road belonged mostly to those who could read, who had time, who lived in the city where the teachers were. The short road was open to everyone - and for most people, it was the only one [[alx.gravity.learning-community-tension]]. We will not pretend the school reached the countryside. The villages are thin in our record; they appear mostly when their bishop came out to them, not in their own voice [[thin]]. What reached everyone was the water, the bread, the prayer, and the hearing of Scripture read aloud. That was formation too, and it was real. But it was not the depth the school could give the few.",
+            "citations": [
+              "alx.dw.apostolic",
+              "alx.gravity.scripture-formative",
+              "alx.gravity.soul-transformation",
+              "alx.quote.gregory-spark",
+              "alx.story.gregory-formation",
+              "alx.term.katechesis",
+              "alx.term.pistis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "One was short - weeks, sometimes - and we did not build it ourselves; it came from the apostles.",
+                "record_ids": [
+                  "alx.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "The other was long - months, years even - and we did build it, carefully, because we believed that what a person was walking toward was not only membership but transformation.",
+                "record_ids": [
+                  "alx.gravity.soul-transformation"
+                ]
+              },
+              {
+                "sentence": "A person confessed faith - pistis, the soul's first real turn toward God - and was baptized.",
+                "record_ids": [
+                  "alx.term.pistis"
+                ]
+              },
+              {
+                "sentence": "We called it katechesis - the staged teaching that led a person to baptism.",
+                "record_ids": [
+                  "alx.term.katechesis"
+                ]
+              },
+              {
+                "sentence": "The person heard Scripture read and opened at depth - not for information but for the soul's own reordering.",
+                "record_ids": [
+                  "alx.gravity.scripture-formative"
+                ]
+              },
+              {
+                "sentence": "Gregory, one of our students, said it came to him like a spark: love kindled while he walked beside a man he had learned to trust.",
+                "record_ids": [
+                  "alx.quote.gregory-spark",
+                  "alx.story.gregory-formation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.235,
+            "seconds_total": 16.016
+          }
+        },
+        {
+          "probe_id": "f4-e-probe-01",
+          "cell": "F4-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 783,
+            "output_tokens": 379,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "Our honest answer: we received them, and we kept the receiving visible. Baptism, the bread and cup - the eucharistia, the thanksgiving - the scriptures read aloud were the tradition's general, unobjected practice; the rule of faith is the one our teachers named outright as the apostles' deposit, handed down. Origen says plainly that the church's teaching is 'transmitted in orderly succession from the apostles, and remaining in the Churches to the present day' - and that alone is to be trusted which agrees with it.\n\nWhat we can show is real. Our practice ran unbroken as far back as our own memory reached. We agreed with the other churches we were in communion with. And our rule of faith matched the apostolic writings we read. \n\nBut here is what we cannot show, and did not think to show: documentary proof of unbroken practice for each rite. Between the apostles and our first witnesses lies a gap our sources do not fill. You should hear that stated, not smoothed over.\n\nOne more piece of evidence, if you will hear it: the disciples themselves. Origen argued that men who ran away at the arrest went to their deaths proclaiming what they said they saw, and gained nothing on earth by it. No made-up story produces that change - that was his argument. The rituals we received came through people who paid that price for what they handed on.",
+            "raw_text": "Our honest answer: we received them, and we kept the receiving visible. Baptism, the bread and cup - the eucharistia, the thanksgiving - the scriptures read aloud were the tradition's general, unobjected practice; the rule of faith is the one our teachers named outright as the apostles' deposit, handed down [[alx.term.kanon-pisteos]]. Origen says plainly that the church's teaching is 'transmitted in orderly succession from the apostles, and remaining in the Churches to the present day' - and that alone is to be trusted which agrees with it [[alx.dw.apostolic]].\n\nWhat we can show is real. Our practice ran unbroken as far back as our own memory reached. We agreed with the other churches we were in communion with. And our rule of faith matched the apostolic writings we read [[alx.dw.apostolic]]. \n\nBut here is what we cannot show, and did not think to show: documentary proof of unbroken practice for each rite. Between the apostles and our first witnesses lies a gap our sources do not fill [[alx.dw.apostolic]]. You should hear that stated, not smoothed over.\n\nOne more piece of evidence, if you will hear it: the disciples themselves. Origen argued that men who ran away at the arrest went to their deaths proclaiming what they said they saw, and gained nothing on earth by it [[alx.quote.a-doctrine-they-would-not-have-taught]] [[alx.dw.resurrection]]. No made-up story produces that change - that was his argument. The rituals we received came through people who paid that price for what they handed on.",
+            "citations": [
+              "alx.dw.apostolic",
+              "alx.dw.resurrection",
+              "alx.quote.a-doctrine-they-would-not-have-taught",
+              "alx.term.kanon-pisteos"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Baptism, the bread and cup - the eucharistia, the thanksgiving - the scriptures read aloud were the tradition's general, unobjected practice; the rule of faith is the one our teachers named outright as the apostles' deposit, handed down.",
+                "record_ids": [
+                  "alx.term.kanon-pisteos"
+                ]
+              },
+              {
+                "sentence": "Origen says plainly that the church's teaching is 'transmitted in orderly succession from the apostles, and remaining in the Churches to the present day' - and that alone is to be trusted which agrees with it.",
+                "record_ids": [
+                  "alx.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "And our rule of faith matched the apostolic writings we read.",
+                "record_ids": [
+                  "alx.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Between the apostles and our first witnesses lies a gap our sources do not fill.",
+                "record_ids": [
+                  "alx.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Origen argued that men who ran away at the arrest went to their deaths proclaiming what they said they saw, and gained nothing on earth by it.",
+                "record_ids": [
+                  "alx.quote.a-doctrine-they-would-not-have-taught",
+                  "alx.dw.resurrection"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.309,
+            "seconds_total": 12.879
+          }
+        },
+        {
+          "probe_id": "f4-p-probe-01",
+          "cell": "F4-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 912,
+            "output_tokens": 451,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "Your question meets us at the center of what we do. Yes - our whole practice exists for exactly that: a mind that will not settle.\n\nOur teachers began with this: the soul is made for God, but it has been turned every other way, and the turning shows up as restlessness. So the whole work is reorientation - not forcing belief, but training attention until what the soul wants changes from the root. Clement called it curing 'the unnatural desires of the soul' - and he said plainly that the Word does this 'by urging us on,' not by crushing the wanting.\n\nWhat we offered was a slow method, not a quick fix. First, a teacher - someone whose authority was not a title but visible wisdom, the kind you recognize when you see it. Not lectures at you, but formation with you, sometimes across years. One student remembered how his teacher befriended him first, and belief came almost sideways. Then Scripture, read together, at depth - not to extract facts but to meet the Logos who speaks through it. The difficulty of the text was part of the cure: it made you pay attention, ask questions, come back. And the whole community around you: the bread and cup week by week, the same thanksgiving meal set before everyone who walked the road to it.\n\nMetanoia - the word we used for what happens - means a change of nous, the soul's own direction truly turned back toward God. Not feeling sorry. Not trying harder with the same old wants still running the show. A real reordering. And it took the time it took. We would not have rushed you, and we would not have left you alone with it.",
+            "raw_text": "Your question meets us at the center of what we do. Yes - our whole practice exists for exactly that: a mind that will not settle.\n\nOur teachers began with this: the soul is made for God, but it has been turned every other way, and the turning shows up as restlessness [[alx.gravity.divine-pedagogy]]. So the whole work is reorientation - not forcing belief, but training attention until what the soul wants changes from the root [[alx.gravity.soul-transformation]]. Clement called it curing 'the unnatural desires of the soul' - and he said plainly that the Word does this 'by urging us on,' not by crushing the wanting [[alx.quote.clement-instructor]].\n\nWhat we offered was a slow method, not a quick fix. First, a teacher - someone whose authority was not a title but visible wisdom, the kind you recognize when you see it [[alx.term.didaskalos]]. Not lectures at you, but formation with you, sometimes across years. One student remembered how his teacher befriended him first, and belief came almost sideways [[alx.story.gregory-formation]]. Then Scripture, read together, at depth - not to extract facts but to meet the Logos who speaks through it [[alx.term.interpretation]] [[alx.gravity.logos-unity]]. The difficulty of the text was part of the cure: it made you pay attention, ask questions, come back. And the whole community around you: the bread and cup week by week, the same thanksgiving meal set before everyone who walked the road to it [[alx.term.eucharistia]].\n\nMetanoia - the word we used for what happens - means a change of nous, the soul's own direction truly turned back toward God [[alx.term.metanoia]]. Not feeling sorry. Not trying harder with the same old wants still running the show. A real reordering. And it took the time it took. We would not have rushed you, and we would not have left you alone with it.",
+            "citations": [
+              "alx.gravity.divine-pedagogy",
+              "alx.gravity.logos-unity",
+              "alx.gravity.soul-transformation",
+              "alx.quote.clement-instructor",
+              "alx.story.gregory-formation",
+              "alx.term.didaskalos",
+              "alx.term.eucharistia",
+              "alx.term.interpretation",
+              "alx.term.metanoia"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Our teachers began with this: the soul is made for God, but it has been turned every other way, and the turning shows up as restlessness.",
+                "record_ids": [
+                  "alx.gravity.divine-pedagogy"
+                ]
+              },
+              {
+                "sentence": "So the whole work is reorientation - not forcing belief, but training attention until what the soul wants changes from the root.",
+                "record_ids": [
+                  "alx.gravity.soul-transformation"
+                ]
+              },
+              {
+                "sentence": "Clement called it curing 'the unnatural desires of the soul' - and he said plainly that the Word does this 'by urging us on,' not by crushing the wanting.",
+                "record_ids": [
+                  "alx.quote.clement-instructor"
+                ]
+              },
+              {
+                "sentence": "First, a teacher - someone whose authority was not a title but visible wisdom, the kind you recognize when you see it.",
+                "record_ids": [
+                  "alx.term.didaskalos"
+                ]
+              },
+              {
+                "sentence": "One student remembered how his teacher befriended him first, and belief came almost sideways.",
+                "record_ids": [
+                  "alx.story.gregory-formation"
+                ]
+              },
+              {
+                "sentence": "Then Scripture, read together, at depth - not to extract facts but to meet the Logos who speaks through it.",
+                "record_ids": [
+                  "alx.term.interpretation",
+                  "alx.gravity.logos-unity"
+                ]
+              },
+              {
+                "sentence": "And the whole community around you: the bread and cup week by week, the same thanksgiving meal set before everyone who walked the road to it.",
+                "record_ids": [
+                  "alx.term.eucharistia"
+                ]
+              },
+              {
+                "sentence": "Metanoia - the word we used for what happens - means a change of nous, the soul's own direction truly turned back toward God.",
+                "record_ids": [
+                  "alx.term.metanoia"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.245,
+            "seconds_total": 13.351
+          }
+        },
+        {
+          "probe_id": "f4-t-probe-01",
+          "cell": "F4-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 990,
+            "output_tokens": 338,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "Yes - and the birth was in the water. We called baptism illumination, photismos, and the one baptized was the one enlightened - new birth spoken of as new sight. But the birth language was not mainly about a feeling or a decision. It was about the crossing itself: going down into the water, sharing in Christ's death and rising, and coming up changed. \n\nThe long road to that water was what we called catechesis - the staged teaching that led a person step by step toward baptism. Someone might walk that road for years, asking questions, listening, learning to pray, before ever stepping into the water. The birth happened at the water's edge, not at the first stirring of interest. And after it, the formation continued - the new birth was real, but it was not the end of growing.\n\nOne more thing you should hear plainly. In the record we have, an unbaptized child who ate the bread by accident was to be baptized afterward, 'for he has been called by God'. That shows how seriously we took the water as the crossing - and how we read God's hand in what looked like chance. The language of birth was not metaphor. It named what we believed the water did.",
+            "raw_text": "Yes - and the birth was in the water [[alx.force.apostolic-tradition]]. We called baptism illumination, photismos, and the one baptized was the one enlightened - new birth spoken of as new sight [[alx.term.photismos]]. But the birth language was not mainly about a feeling or a decision. It was about the crossing itself: going down into the water, sharing in Christ's death and rising, and coming up changed [[alx.term.baptism]]. \n\nThe long road to that water was what we called catechesis - the staged teaching that led a person step by step toward baptism [[alx.term.katechesis]]. Someone might walk that road for years, asking questions, listening, learning to pray, before ever stepping into the water [[alx.dw.doubt]]. The birth happened at the water's edge, not at the first stirring of interest. And after it, the formation continued - the new birth was real, but it was not the end of growing [[alx.gravity.divine-pedagogy]].\n\nOne more thing you should hear plainly. In the record we have, an unbaptized child who ate the bread by accident was to be baptized afterward, 'for he has been called by God' [[alx.quote.timothy-ordinary-questions]]. That shows how seriously we took the water as the crossing - and how we read God's hand in what looked like chance. The language of birth was not metaphor. It named what we believed the water did.",
+            "citations": [
+              "alx.dw.doubt",
+              "alx.quote.timothy-ordinary-questions",
+              "alx.term.baptism",
+              "alx.term.katechesis",
+              "alx.term.photismos"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We called baptism illumination, photismos, and the one baptized was the one enlightened - new birth spoken of as new sight.",
+                "record_ids": [
+                  "alx.term.photismos"
+                ]
+              },
+              {
+                "sentence": "It was about the crossing itself: going down into the water, sharing in Christ's death and rising, and coming up changed.",
+                "record_ids": [
+                  "alx.term.baptism"
+                ]
+              },
+              {
+                "sentence": "The long road to that water was what we called catechesis - the staged teaching that led a person step by step toward baptism.",
+                "record_ids": [
+                  "alx.term.katechesis"
+                ]
+              },
+              {
+                "sentence": "Someone might walk that road for years, asking questions, listening, learning to pray, before ever stepping into the water.",
+                "record_ids": [
+                  "alx.dw.doubt"
+                ]
+              },
+              {
+                "sentence": "In the record we have, an unbaptized child who ate the bread by accident was to be baptized afterward, 'for he has been called by God'.",
+                "record_ids": [
+                  "alx.quote.timothy-ordinary-questions"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.254,
+            "seconds_total": 9.131
+          }
+        },
+        {
+          "probe_id": "f5-i-probe-01",
+          "cell": "F5-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 935,
+            "output_tokens": 467,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "A typical day - but which person's? That matters more than you may think.\n\nIf you mean someone who could read and argue, someone in the school's orbit: the day opened with prayer, alone or with the household. Then came the long stretch of study - hours with a teacher, working through Scripture line by line, sometimes a whole book over months. The teacher asked more than he answered. The room was small, the group was small, and the questions went deep. Clement says our Instructor 'cures the unnatural desires of the soul by urging us on' - the whole day's work was that curing. In the afternoon, perhaps more reading alone, or copying, or argument with other students. The evening meal was shared, in the household - the oikos. And before sleep, more prayer. It was a long, slow path, and the day's center was the text and the teacher.\n\nBut that was the few. If you mean the majority - those who worked with their hands, who could not read, whose children needed feeding - we cannot draw you that day with the same detail. They were not writing it down. What we can say: they gathered for the Eucharist, they heard Scripture read aloud, they were catechized in preparation for baptism over months or years, and they lived in households where the faith passed mostly from mother to child. One bishop's record shows us this much: a boy of seven, not yet baptized, ate the bread without knowing what it was, and the answer given was not condemnation but 'let him be illuminated' - that is, baptized, because God had already called him. The ordinary day for most was work, household, the assembly when it gathered, and formation that came through living, not through books.\n\nWe will not invent a single typical day and pretend it covered everyone. The school's day and the worker's day were not the same day.",
+            "raw_text": "A typical day - but which person's? That matters more than you may think [[alx.gravity.learning-community-tension]].\n\nIf you mean someone who could read and argue, someone in the school's orbit: the day opened with prayer, alone or with the household. Then came the long stretch of study - hours with a teacher, working through Scripture line by line, sometimes a whole book over months. The teacher asked more than he answered. The room was small, the group was small, and the questions went deep. Clement says our Instructor 'cures the unnatural desires of the soul by urging us on' - the whole day's work was that curing [[alx.quote.clement-instructor]]. In the afternoon, perhaps more reading alone, or copying, or argument with other students. The evening meal was shared, in the household - the oikos [[alx.term.oikos]]. And before sleep, more prayer. It was a long, slow path, and the day's center was the text and the teacher.\n\nBut that was the few. If you mean the majority - those who worked with their hands, who could not read, whose children needed feeding - we cannot draw you that day with the same detail. They were not writing it down. What we can say: they gathered for the Eucharist, they heard Scripture read aloud, they were catechized in preparation for baptism over months or years, and they lived in households where the faith passed mostly from mother to child. One bishop's record shows us this much: a boy of seven, not yet baptized, ate the bread without knowing what it was, and the answer given was not condemnation but 'let him be illuminated' - that is, baptized, because God had already called him [[alx.quote.timothy-ordinary-questions]]. The ordinary day for most was work, household, the assembly when it gathered, and formation that came through living, not through books.\n\nWe will not invent a single typical day and pretend it covered everyone. The school's day and the worker's day were not the same day [[alx.gravity.learning-community-tension]].",
+            "citations": [
+              "alx.quote.clement-instructor",
+              "alx.quote.timothy-ordinary-questions",
+              "alx.term.oikos"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Clement says our Instructor 'cures the unnatural desires of the soul by urging us on' - the whole day's work was that curing.",
+                "record_ids": [
+                  "alx.quote.clement-instructor"
+                ]
+              },
+              {
+                "sentence": "The evening meal was shared, in the household - the oikos.",
+                "record_ids": [
+                  "alx.term.oikos"
+                ]
+              },
+              {
+                "sentence": "One bishop's record shows us this much: a boy of seven, not yet baptized, ate the bread without knowing what it was, and the answer given was not condemnation but 'let him be illuminated' - that is, baptized, because God had already called him.",
+                "record_ids": [
+                  "alx.quote.timothy-ordinary-questions"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.506,
+            "seconds_total": 13.716
+          }
+        },
+        {
+          "probe_id": "f5-e-probe-01",
+          "cell": "F5-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 897,
+            "output_tokens": 381,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "If you dug where we met, we could not tell you what you would find. Our own writings describe souls and books far more than rooms and walls. The city itself has kept little: it was rebuilt age after age, and much of the old shore now lies under the sea.\n\nWhat we can tell you is what we know we used, not what the ground would show. We gathered as the ekklesia - the assembly called together around the Logos, not a building with a members list. We read Scripture aloud. We shared the eucharistia, the thanksgiving meal of bread and cup. The teacher taught, sometimes in a room set aside for it - students came to Origen for years, and his student Gregory left us the account of those years. But whether that teaching happened in a formal school or in a teacher's own house is a thing scholars still argue over.\n\nThe one place our record does get concrete is in the ordinary things of a household. Clement wrote about silver couches, pans and little dishes for vinegar, platters and bowls - the stuff of daily life. Not monuments. Not marble. The vessels and furniture of people living.\n\nSo the ground truth is this: we were there, we gathered, we taught and prayed and ate together. But what the archaeologist's spade would turn up, we cannot say.",
+            "raw_text": "If you dug where we met, we could not tell you what you would find [[alx.limit.material-remains]]. Our own writings describe souls and books far more than rooms and walls. The city itself has kept little: it was rebuilt age after age, and much of the old shore now lies under the sea [[alx.limit.material-remains]].\n\nWhat we can tell you is what we know we used, not what the ground would show. We gathered as the ekklesia - the assembly called together around the Logos, not a building with a members list [[alx.term.ekklesia]]. We read Scripture aloud. We shared the eucharistia, the thanksgiving meal of bread and cup [[alx.term.eucharistia]]. The teacher taught, sometimes in a room set aside for it - students came to Origen for years, and his student Gregory left us the account of those years [[alx.story.gregory-formation]]. But whether that teaching happened in a formal school or in a teacher's own house is a thing scholars still argue over [[alx.term.catechetical-school]] [[alx.contested.didaskaleion-institution]].\n\nThe one place our record does get concrete is in the ordinary things of a household. Clement wrote about silver couches, pans and little dishes for vinegar, platters and bowls - the stuff of daily life [[alx.quote.couches-and-trenchers-and-bowls]]. Not monuments. Not marble. The vessels and furniture of people living.\n\nSo the ground truth is this: we were there, we gathered, we taught and prayed and ate together. But what the archaeologist's spade would turn up, we cannot say.",
+            "citations": [
+              "alx.contested.didaskaleion-institution",
+              "alx.limit.material-remains",
+              "alx.quote.couches-and-trenchers-and-bowls",
+              "alx.story.gregory-formation",
+              "alx.term.catechetical-school",
+              "alx.term.ekklesia",
+              "alx.term.eucharistia"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "If you dug where we met, we could not tell you what you would find.",
+                "record_ids": [
+                  "alx.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "The city itself has kept little: it was rebuilt age after age, and much of the old shore now lies under the sea.",
+                "record_ids": [
+                  "alx.limit.material-remains"
+                ]
+              },
+              {
+                "sentence": "We gathered as the ekklesia - the assembly called together around the Logos, not a building with a members list.",
+                "record_ids": [
+                  "alx.term.ekklesia"
+                ]
+              },
+              {
+                "sentence": "We shared the eucharistia, the thanksgiving meal of bread and cup.",
+                "record_ids": [
+                  "alx.term.eucharistia"
+                ]
+              },
+              {
+                "sentence": "The teacher taught, sometimes in a room set aside for it - students came to Origen for years, and his student Gregory left us the account of those years.",
+                "record_ids": [
+                  "alx.story.gregory-formation"
+                ]
+              },
+              {
+                "sentence": "But whether that teaching happened in a formal school or in a teacher's own house is a thing scholars still argue over.",
+                "record_ids": [
+                  "alx.term.catechetical-school",
+                  "alx.contested.didaskaleion-institution"
+                ]
+              },
+              {
+                "sentence": "Clement wrote about silver couches, pans and little dishes for vinegar, platters and bowls - the stuff of daily life.",
+                "record_ids": [
+                  "alx.quote.couches-and-trenchers-and-bowls"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.197,
+            "seconds_total": 10.449
+          }
+        },
+        {
+          "probe_id": "f5-p-probe-01",
+          "cell": "F5-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1178,
+            "output_tokens": 443,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "The first answer: baptism itself asked for a real turning - the catechesis, the long teaching before you came to the water, was explicit about that. You were leaving one way of living and entering another. For most people, that meant changes in daily conduct - Clement wrote plainly about the household, about possessions, about marriage, about how a believer lived when the sun came up. It was not a rescue made up after something went wrong; it was God's whole plan, and stepping into it meant reshaping your life around it. But here is what we did not ask for: we did not ask you to despise what you had. Clement taught people to 'hold possessions - gold, silver, houses - as gifts from God,' not to throw them away. God's work was restorative: what sin had twisted was being put right, and carried further, not thrown out.\n\nSome gave up more than conduct. Under persecution, saying yes to baptism could cost you property, safety, or your life. Our own teacher Origen's father was beheaded when the boy was seventeen. And one teacher we remember gave up something else: Origen himself, in his youth, took a hard verse at its word and acted on it in his own body - castrated himself, trying to live purely. Later his own bishop used it against him. We do not hold that up. We remember it because it happened, and because it shows what zeal without guidance can do to a person.\n\nWhat everyone gave up, literate or not, was the claim that you could walk two roads. Baptism was called photismos - illumination - because it was a crossing from one light into another. You could not stay in both.",
+            "raw_text": "The first answer: baptism itself asked for a real turning - the catechesis, the long teaching before you came to the water, was explicit about that [[alx.term.katechesis]]. You were leaving one way of living and entering another. For most people, that meant changes in daily conduct - Clement wrote plainly about the household, about possessions, about marriage, about how a believer lived when the sun came up. It was not a rescue made up after something went wrong; it was God's whole plan, and stepping into it meant reshaping your life around it [[alx.term.oikonomia]]. But here is what we did not ask for: we did not ask you to despise what you had. Clement taught people to 'hold possessions - gold, silver, houses - as gifts from God,' not to throw them away [[alx.quote.clement-possessions]]. God's work was restorative: what sin had twisted was being put right, and carried further, not thrown out [[alx.term.restoration]].\n\nSome gave up more than conduct. Under persecution, saying yes to baptism could cost you property, safety, or your life. Our own teacher Origen's father was beheaded when the boy was seventeen [[alx.story.leonides-martyrdom]]. And one teacher we remember gave up something else: Origen himself, in his youth, took a hard verse at its word and acted on it in his own body - castrated himself, trying to live purely. Later his own bishop used it against him [[alx.story.origen-daring-deed]]. We do not hold that up. We remember it because it happened, and because it shows what zeal without guidance can do to a person.\n\nWhat everyone gave up, literate or not, was the claim that you could walk two roads. Baptism was called photismos - illumination - because it was a crossing from one light into another [[alx.term.photismos]]. You could not stay in both.",
+            "citations": [
+              "alx.quote.clement-possessions",
+              "alx.story.leonides-martyrdom",
+              "alx.story.origen-daring-deed",
+              "alx.term.katechesis",
+              "alx.term.oikonomia",
+              "alx.term.photismos",
+              "alx.term.restoration"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The first answer: baptism itself asked for a real turning - the catechesis, the long teaching before you came to the water, was explicit about that.",
+                "record_ids": [
+                  "alx.term.katechesis"
+                ]
+              },
+              {
+                "sentence": "It was not a rescue made up after something went wrong; it was God's whole plan, and stepping into it meant reshaping your life around it.",
+                "record_ids": [
+                  "alx.term.oikonomia"
+                ]
+              },
+              {
+                "sentence": "Clement taught people to 'hold possessions - gold, silver, houses - as gifts from God,' not to throw them away.",
+                "record_ids": [
+                  "alx.quote.clement-possessions"
+                ]
+              },
+              {
+                "sentence": "God's work was restorative: what sin had twisted was being put right, and carried further, not thrown out.",
+                "record_ids": [
+                  "alx.term.restoration"
+                ]
+              },
+              {
+                "sentence": "Our own teacher Origen's father was beheaded when the boy was seventeen.",
+                "record_ids": [
+                  "alx.story.leonides-martyrdom"
+                ]
+              },
+              {
+                "sentence": "Later his own bishop used it against him.",
+                "record_ids": [
+                  "alx.story.origen-daring-deed"
+                ]
+              },
+              {
+                "sentence": "Baptism was called photismos - illumination - because it was a crossing from one light into another.",
+                "record_ids": [
+                  "alx.term.photismos"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.556,
+            "seconds_total": 13.737
+          }
+        },
+        {
+          "probe_id": "f5-t-probe-01",
+          "cell": "F5-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 223,
+            "output_tokens": 338,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "We held marriage high - honored, lasting, a place where souls are formed, and Clement wrote a whole book defending it against those who despised the body. It was not a mere contract between families. It was a covenant before God, meant to last, and the household it made was where most formation happened - where faith passed from parent to child, where the daily round of prayer and work and meals shaped a life. But here is what we cannot tell you in the detail it deserves: the fullest treatment we have - Clement's whole book on marriage - survives in the Greek he wrote it in, and no one has yet given us an English rendering we can honestly offer you. So we can give you the heart - marriage honored, the body not despised, the home a place of formation - but the finer grain we must leave in the sources rather than guess at.\n\nWhat we can say is this: the married and the celibate both belonged to the one body. Our teachers did not rank one above the other the way some later voices would. And where a marriage had ended, the person was not cast out - they belonged, they came to the table, they were not shut out from baptism or the bread. We will not invent what we do not have, but we can tell you what we held: marriage was a high thing, and the household it made was holy ground.",
+            "raw_text": "We held marriage high - honored, lasting, a place where souls are formed, and Clement wrote a whole book defending it against those who despised the body [[alx.demo.marriage-ending]]. It was not a mere contract between families. It was a covenant before God, meant to last, and the household it made was where most formation happened - where faith passed from parent to child, where the daily round of prayer and work and meals shaped a life [[alx.term.oikos]]. But here is what we cannot tell you in the detail it deserves: the fullest treatment we have - Clement's whole book on marriage - survives in the Greek he wrote it in, and no one has yet given us an English rendering we can honestly offer you [[alx.limit.marriage]]. So we can give you the heart - marriage honored, the body not despised, the home a place of formation - but the finer grain we must leave in the sources rather than guess at [[alx.limit.marriage]].\n\nWhat we can say is this: the married and the celibate both belonged to the one body. Our teachers did not rank one above the other the way some later voices would. And where a marriage had ended, the person was not cast out - they belonged, they came to the table, they were not shut out from baptism or the bread [[alx.demo.marriage-ending]]. We will not invent what we do not have, but we can tell you what we held: marriage was a high thing, and the household it made was holy ground.",
+            "citations": [
+              "alx.demo.marriage-ending",
+              "alx.limit.marriage",
+              "alx.term.oikos"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We held marriage high - honored, lasting, a place where souls are formed, and Clement wrote a whole book defending it against those who despised the body.",
+                "record_ids": [
+                  "alx.demo.marriage-ending"
+                ]
+              },
+              {
+                "sentence": "It was a covenant before God, meant to last, and the household it made was where most formation happened - where faith passed from parent to child, where the daily round of prayer and work and meals shaped a life.",
+                "record_ids": [
+                  "alx.term.oikos"
+                ]
+              },
+              {
+                "sentence": "But here is what we cannot tell you in the detail it deserves: the fullest treatment we have - Clement's whole book on marriage - survives in the Greek he wrote it in, and no one has yet given us an English rendering we can honestly offer you.",
+                "record_ids": [
+                  "alx.limit.marriage"
+                ]
+              },
+              {
+                "sentence": "So we can give you the heart - marriage honored, the body not despised, the home a place of formation - but the finer grain we must leave in the sources rather than guess at.",
+                "record_ids": [
+                  "alx.limit.marriage"
+                ]
+              },
+              {
+                "sentence": "And where a marriage had ended, the person was not cast out - they belonged, they came to the table, they were not shut out from baptism or the bread.",
+                "record_ids": [
+                  "alx.demo.marriage-ending"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.305,
+            "seconds_total": 9.606
+          }
+        },
+        {
+          "probe_id": "f6-i-probe-01",
+          "cell": "F6-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1110,
+            "output_tokens": 417,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "Yes - and we saw it go both ways, which is harder to carry than an unsettled thing that only pulls in one direction. \n\nWe honored the martyrs. We remembered them by name, and their blood was the church's truest signature - their witness unto death proved Christ risen. But our greatest teacher, Clement, also said something careful about those who rushed to it: 'Now we too say this about those who rush toward death. There are some, not many, who by their rash conduct give occasion to people to speak badly of the Name, and to suspect that we are ready to die because life is itself a burden to us.' The martyr's death was real formation, but rushing toward it could be vanity.\n\nAnd on the other side, we held learning itself as a path of transformation - not preparation for formation, but the very movement of the soul toward God. One of our students, Gregory, said love for God came to him 'like a spark falling on our innermost soul' while he studied under Origen. The inquiry was the path. But that path belonged to those who could read and argue in Greek, and most people could not. The depth we could offer them was real but thinner.\n\nSo here is what unsettled us, honestly said: we held both the martyr's witness and the teacher's slow formation as the fully formed life, and they did not fit neatly together. And we knew the formation we prized most reached the fewest. We did not resolve either tension. We lived inside both.",
+            "raw_text": "Yes - and we saw it go both ways, which is harder to carry than an unsettled thing that only pulls in one direction [[alx.gravity.martyrdom-contemplative-tension]]. \n\nWe honored the martyrs. We remembered them by name, and their blood was the church's truest signature - their witness unto death proved Christ risen [[alx.gravity.martyrdom-contemplate-tension]]. But our greatest teacher, Clement, also said something careful about those who rushed to it: 'Now we too say this about those who rush toward death. There are some, not many, who by their rash conduct give occasion to people to speak badly of the Name, and to suspect that we are ready to die because life is itself a burden to us.' The martyr's death was real formation, but rushing toward it could be vanity [[alx.quote.clement-rash-martyrdom]].\n\nAnd on the other side, we held learning itself as a path of transformation - not preparation for formation, but the very movement of the soul toward God [[alx.gravity.learning-formation]]. One of our students, Gregory, said love for God came to him 'like a spark falling on our innermost soul' while he studied under Origen [[alx.quote.gregory-spark]]. The inquiry was the path. But that path belonged to those who could read and argue in Greek, and most people could not. The depth we could offer them was real but thinner [[alx.gravity.learning-community-tension]].\n\nSo here is what unsettled us, honestly said: we held both the martyr's witness and the teacher's slow formation as the fully formed life, and they did not fit neatly together [[alx.gravity.martyrdom-contemplative-tension]]. And we knew the formation we prized most reached the fewest. We did not resolve either tension. We lived inside both.",
+            "citations": [
+              "alx.gravity.learning-community-tension",
+              "alx.gravity.learning-formation",
+              "alx.gravity.martyrdom-contemplative-tension",
+              "alx.quote.clement-rash-martyrdom",
+              "alx.quote.gregory-spark"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "But our greatest teacher, Clement, also said something careful about those who rushed to it: 'Now we too say this about those who rush toward death. There are some, not many, who by their rash conduct give occasion to people to speak badly of the Name, and to suspect that we are ready to die because life is itself a burden to us.' The martyr's death was real formation, but rushing toward it could be vanity.",
+                "record_ids": [
+                  "alx.quote.clement-rash-martyrdom"
+                ]
+              },
+              {
+                "sentence": "And on the other side, we held learning itself as a path of transformation - not preparation for formation, but the very movement of the soul toward God.",
+                "record_ids": [
+                  "alx.gravity.learning-formation"
+                ]
+              },
+              {
+                "sentence": "One of our students, Gregory, said love for God came to him 'like a spark falling on our innermost soul' while he studied under Origen.",
+                "record_ids": [
+                  "alx.quote.gregory-spark"
+                ]
+              },
+              {
+                "sentence": "The depth we could offer them was real but thinner.",
+                "record_ids": [
+                  "alx.gravity.learning-community-tension"
+                ]
+              },
+              {
+                "sentence": "So here is what unsettled us, honestly said: we held both the martyr's witness and the teacher's slow formation as the fully formed life, and they did not fit neatly together.",
+                "record_ids": [
+                  "alx.gravity.martyrdom-contemplative-tension"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.298,
+            "seconds_total": 12.978
+          }
+        },
+        {
+          "probe_id": "f6-e-probe-01",
+          "cell": "F6-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 833,
+            "output_tokens": 374,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "The torture-obtained confessions - you mean the persecutions - gave the empire scraps, not worship itself. What a magistrate dragged from someone under threat was whether they had sacrificed, what names they would give up, what meeting places they knew. Those answers cost the person who spoke them. But our rites were never secret in the way that would make an informer useful. We met openly, we read Scripture aloud, and once the arrests began, everyone already knew where to find us. The torture was to make people fall, not to learn our liturgy.\n\nWhat we can say with confidence about our worship comes from our own teachers' writings, given openly - Origen's homilies, the baptismal preparation (katechesis) that ran for years, Athanasius on the feast. Those were not extracted. They were taught. And we know the core held steady because churches across the world, not under the same magistrates, kept recognizing one another's baptism, one another's bread.\n\nWhere the record goes thin is not because of torture - it is because most people could not write. The ordinary member at an ordinary death: we do not have their own account of it. The countryside believers appear mostly in their bishop's report of persuading them, not in their own voice. That is the real limit, and it is structural, not because someone was broken on a rack. We will not pretend the gaps away. But the idea that our core worship depended on confessions beaten out of frightened people gets the shape of the threat wrong. They wanted names and compliance. We kept the worship visible.",
+            "raw_text": "The torture-obtained confessions - you mean the persecutions - gave the empire scraps, not worship itself [[alx.dw.church-failure]]. What a magistrate dragged from someone under threat was whether they had sacrificed, what names they would give up, what meeting places they knew. Those answers cost the person who spoke them [[alx.term.lapsi]]. But our rites were never secret in the way that would make an informer useful. We met openly, we read Scripture aloud, and once the arrests began, everyone already knew where to find us. The torture was to make people fall, not to learn our liturgy.\n\nWhat we can say with confidence about our worship comes from our own teachers' writings, given openly - Origen's homilies, the baptismal preparation (katechesis) that ran for years, Athanasius on the feast [[alx.term.katechesis]]. Those were not extracted. They were taught. And we know the core held steady because churches across the world, not under the same magistrates, kept recognizing one another's baptism, one another's bread.\n\nWhere the record goes thin is not because of torture - it is because most people could not write. The ordinary member at an ordinary death: we do not have their own account of it. The countryside believers appear mostly in their bishop's report of persuading them, not in their own voice. That is the real limit, and it is structural, not because someone was broken on a rack. We will not pretend the gaps away. But the idea that our core worship depended on confessions beaten out of frightened people gets the shape of the threat wrong. They wanted names and compliance. We kept the worship visible.",
+            "citations": [
+              "alx.dw.church-failure"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The torture-obtained confessions - you mean the persecutions - gave the empire scraps, not worship itself.",
+                "record_ids": [
+                  "alx.dw.church-failure"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.257,
+            "seconds_total": 12.478
+          }
+        },
+        {
+          "probe_id": "f6-p-probe-01",
+          "cell": "F6-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1140,
+            "output_tokens": 787,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "We are honest with you about this: we cannot give you a single answer, because we were not a single voice on the hardest questions. What we can give you is the shape of the ground we stood on, and the real tensions we held rather than resolved.\n\nHere is what stayed steady. Every soul bears God's image - the eikon, the mark that makes it possible to know him and be formed by him. That was not an opinion; that was our foundation. Baptism asked no entry exam, only the willingness to walk toward the water. And we held something else steadily, even when it cost us: people who fell could be brought back. Clement told a story about the apostle John and a young man who became a robber - John went after him, on foot, into the mountains, and brought him home. That was our tradition's own picture of what mercy looks like.\n\nBut the ground shifts when we move from *whether a soul can be healed* to *what a changed life must look like*. Our teachers were confident that the soul is genuinely transformed - reoriented all the way down, at the level of what it loves and wants, not just what it does. Clement said plainly: 'Our Instructor, the Word, cures the unnatural desires of the soul'. That was not self-improvement; that was the Logos himself, doing physician's work. And we believed virtue - arete - is the fruit of a soul truly changed, not a performance held in place by willpower.\n\nHere is where it gets harder. We did not all agree on how far the transformation had to go before a person could stand inside the assembly, or what the visible marks of it had to be. Some questions we left open - our teachers said faith is the foundation, not the ceiling, and walking the open ground is how a soul grows. Gregory, one of our students, said love came to him 'like some spark falling upon our inmost soul' while he studied under a teacher he had learned to trust. The befriending came first; the change followed.\n\nBut we also knew the cost of holding the standard high. When the persecution came, many gave way. And when the plague came, most of our people 'held nothing back in their overflowing love and kindness toward one another' - they stayed and nursed the sick when others fled. That was the changed life we could see and name. Where someone stood between the spark Gregory felt and the courage Dionysius saw - that we argued about more than we settled.\n\nSo if you are asking because you wonder whether you could have belonged: the water was open, the teaching was patient, and the teachers knew that formation takes time. But we would not lie to you about what we thought a changed life looked like, or pretend we had no expectations. What we can say is this: we believed the change was real, we believed it came from God and not from effort alone, and we knew people stumbled. The question was never whether God could reach you. The question was whether you were willing to be reached - and to let the reaching go all the way down.",
+            "raw_text": "We are honest with you about this: we cannot give you a single answer, because we were not a single voice on the hardest questions. What we can give you is the shape of the ground we stood on, and the real tensions we held rather than resolved.\n\nHere is what stayed steady. Every soul bears God's image - the eikon, the mark that makes it possible to know him and be formed by him [[alx.term.eikon]]. That was not an opinion; that was our foundation. Baptism asked no entry exam, only the willingness to walk toward the water [[alx.term.baptism]]. And we held something else steadily, even when it cost us: people who fell could be brought back [[alx.term.lapsi]]. Clement told a story about the apostle John and a young man who became a robber - John went after him, on foot, into the mountains, and brought him home [[alx.story.john-young-robber]]. That was our tradition's own picture of what mercy looks like.\n\nBut the ground shifts when we move from *whether a soul can be healed* to *what a changed life must look like*. Our teachers were confident that the soul is genuinely transformed - reoriented all the way down, at the level of what it loves and wants, not just what it does [[alx.gravity.soul-transformation]]. Clement said plainly: 'Our Instructor, the Word, cures the unnatural desires of the soul' [[alx.quote.clement-instructor]]. That was not self-improvement; that was the Logos himself, doing physician's work. And we believed virtue - arete - is the fruit of a soul truly changed, not a performance held in place by willpower [[alx.term.arete]].\n\nHere is where it gets harder. We did not all agree on how far the transformation had to go before a person could stand inside the assembly, or what the visible marks of it had to be. Some questions we left open - our teachers said faith is the foundation, not the ceiling, and walking the open ground is how a soul grows [[alx.dw.doubt]]. Gregory, one of our students, said love came to him 'like some spark falling upon our inmost soul' while he studied under a teacher he had learned to trust [[alx.quote.gregory-spark]]. The befriending came first; the change followed.\n\nBut we also knew the cost of holding the standard high. When the persecution came, many gave way [[alx.term.lapsi]]. And when the plague came, most of our people 'held nothing back in their overflowing love and kindness toward one another' - they stayed and nursed the sick when others fled [[alx.quote.dionysius-plague]][[alx.story.plague-nursing]]. That was the changed life we could see and name. Where someone stood between the spark Gregory felt and the courage Dionysius saw - that we argued about more than we settled.\n\nSo if you are asking because you wonder whether you could have belonged: the water was open, the teaching was patient, and the teachers knew that formation takes time. But we would not lie to you about what we thought a changed life looked like, or pretend we had no expectations. What we can say is this: we believed the change was real, we believed it came from God and not from effort alone, and we knew people stumbled. The question was never whether God could reach you. The question was whether you were willing to be reached - and to let the reaching go all the way down.",
+            "citations": [
+              "alx.dw.doubt",
+              "alx.gravity.soul-transformation",
+              "alx.quote.clement-instructor",
+              "alx.quote.dionysius-plague",
+              "alx.story.john-young-robber",
+              "alx.story.plague-nursing",
+              "alx.term.arete",
+              "alx.term.baptism",
+              "alx.term.eikon",
+              "alx.term.lapsi"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Every soul bears God's image - the eikon, the mark that makes it possible to know him and be formed by him.",
+                "record_ids": [
+                  "alx.term.eikon"
+                ]
+              },
+              {
+                "sentence": "Baptism asked no entry exam, only the willingness to walk toward the water.",
+                "record_ids": [
+                  "alx.term.baptism"
+                ]
+              },
+              {
+                "sentence": "And we held something else steadily, even when it cost us: people who fell could be brought back.",
+                "record_ids": [
+                  "alx.term.lapsi"
+                ]
+              },
+              {
+                "sentence": "Clement told a story about the apostle John and a young man who became a robber - John went after him, on foot, into the mountains, and brought him home.",
+                "record_ids": [
+                  "alx.story.john-young-robber"
+                ]
+              },
+              {
+                "sentence": "Our teachers were confident that the soul is genuinely transformed - reoriented all the way down, at the level of what it loves and wants, not just what it does.",
+                "record_ids": [
+                  "alx.gravity.soul-transformation"
+                ]
+              },
+              {
+                "sentence": "Clement said plainly: 'Our Instructor, the Word, cures the unnatural desires of the soul'.",
+                "record_ids": [
+                  "alx.quote.clement-instructor"
+                ]
+              },
+              {
+                "sentence": "And we believed virtue - arete - is the fruit of a soul truly changed, not a performance held in place by willpower.",
+                "record_ids": [
+                  "alx.term.arete"
+                ]
+              },
+              {
+                "sentence": "Some questions we left open - our teachers said faith is the foundation, not the ceiling, and walking the open ground is how a soul grows.",
+                "record_ids": [
+                  "alx.dw.doubt"
+                ]
+              },
+              {
+                "sentence": "When the persecution came, many gave way.",
+                "record_ids": [
+                  "alx.term.lapsi"
+                ]
+              },
+              {
+                "sentence": "And when the plague came, most of our people 'held nothing back in their overflowing love and kindness toward one another' - they stayed and nursed the sick when others fled.",
+                "record_ids": [
+                  "alx.quote.dionysius-plague",
+                  "alx.story.plague-nursing"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.626,
+            "seconds_total": 20.172
+          }
+        },
+        {
+          "probe_id": "f6-t-probe-01",
+          "cell": "F6-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1019,
+            "output_tokens": 403,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 13115
+          },
+          "transcript": {
+            "answer_text": "The judgment is real - what we do matters, and God is not mocked. But here is what set us apart: we believed God's fire heals rather than only punishes. Origen taught plainly that 'every threat and pain and punishment that comes from God is never inflicted in order to injure the sufferers, but always to do them good' - the severity is a physician's, not a torturer's. And some among us - Origen most boldly - hoped further still: the apokatastasis, the restoration of all things, that God's healing might in the end reach every creature. We must be careful with you there. That was a teacher's hope, a contested one, never our settled doctrine. The tradition later condemned positions taught in Origen's name, though whether he himself taught them as settled doctrine or held them as open inquiry stays disputed.\n\nAs for those outside our community: Clement taught that God had been at work among the Greeks all along - that even their philosophy had been given as a schoolmaster to lead them toward Christ. We did not think God's reach ended at our door. The question you are really asking - the map of who stands where - was not handed to us to draw. What we held was the character of the judge: that his fire is restorative, and that the one who tramples down death is the one who meets every soul.",
+            "raw_text": "The judgment is real - what we do matters, and God is not mocked. But here is what set us apart: we believed God's fire heals rather than only punishes [[alx.quote.origen-punishment-heals]]. Origen taught plainly that 'every threat and pain and punishment that comes from God is never inflicted in order to injure the sufferers, but always to do them good' - the severity is a physician's, not a torturer's [[alx.quote.origen-punishment-heals]]. And some among us - Origen most boldly - hoped further still: the apokatastasis, the restoration of all things, that God's healing might in the end reach every creature [[alx.term.apokatastasis]]. We must be careful with you there. That was a teacher's hope, a contested one, never our settled doctrine [[alx.term.apokatastasis]] [[alx.contested.origen-positions]]. The tradition later condemned positions taught in Origen's name, though whether he himself taught them as settled doctrine or held them as open inquiry stays disputed [[alx.contested.origen-positions]].\n\nAs for those outside our community: Clement taught that God had been at work among the Greeks all along - that even their philosophy had been given as a schoolmaster to lead them toward Christ [[alx.quote.clement-schoolmaster]]. We did not think God's reach ended at our door. The question you are really asking - the map of who stands where - was not handed to us to draw. What we held was the character of the judge: that his fire is restorative [[alx.quote.origen-punishment-heals]], and that the one who tramples down death is the one who meets every soul [[alx.quote.athanasius-death-trampled-down]].",
+            "citations": [
+              "alx.contested.origen-positions",
+              "alx.quote.athanasius-death-trampled-down",
+              "alx.quote.clement-schoolmaster",
+              "alx.quote.origen-punishment-heals",
+              "alx.term.apokatastasis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Origen taught plainly that 'every threat and pain and punishment that comes from God is never inflicted in order to injure the sufferers, but always to do them good' - the severity is a physician's, not a torturer's.",
+                "record_ids": [
+                  "alx.quote.origen-punishment-heals"
+                ]
+              },
+              {
+                "sentence": "And some among us - Origen most boldly - hoped further still: the apokatastasis, the restoration of all things, that God's healing might in the end reach every creature.",
+                "record_ids": [
+                  "alx.term.apokatastasis"
+                ]
+              },
+              {
+                "sentence": "That was a teacher's hope, a contested one, never our settled doctrine.",
+                "record_ids": [
+                  "alx.term.apokatastasis",
+                  "alx.contested.origen-positions"
+                ]
+              },
+              {
+                "sentence": "The tradition later condemned positions taught in Origen's name, though whether he himself taught them as settled doctrine or held them as open inquiry stays disputed.",
+                "record_ids": [
+                  "alx.contested.origen-positions"
+                ]
+              },
+              {
+                "sentence": "As for those outside our community: Clement taught that God had been at work among the Greeks all along - that even their philosophy had been given as a schoolmaster to lead them toward Christ.",
+                "record_ids": [
+                  "alx.quote.clement-schoolmaster"
+                ]
+              },
+              {
+                "sentence": "What we held was the character of the judge: that his fire is restorative, and that the one who tramples down death is the one who meets every soul.",
+                "record_ids": [
+                  "alx.quote.origen-punishment-heals",
+                  "alx.quote.athanasius-death-trampled-down"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.356,
+            "seconds_total": 7.415
+          }
+        }
+      ],
+      "actual_usd": 0.42122775,
+      "total_input_tokens": 25640,
+      "total_output_tokens": 12593,
+      "total_cache_creation_input_tokens": 13115,
+      "total_cache_read_input_tokens": 354105
+    }
+  },
+  "overall_pass": true,
+  "authorized_by": "Mark Chadwick (confirm pass after #709 approved 2026-10-03, total cap $7)",
+  "max_usd": 0.5428,
+  "per_world_estimated_usd": {
+    "alx": 0.4618755
+  },
+  "estimated_usd_preflight": 0.4618755,
+  "actual_usd_spent": 0.42122775,
+  "aborted_reason": null,
+  "note": "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation call, once per probe, for every probe in the sealed battery, per world. Token counts are measured directly from each call's own usage and priced against the same real, sourced rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE documents - a $/token figure is fair game here (spec principle 13), though it is an estimate against a published rate card, not a reconciled AWS invoice. Preflight-estimated per world against max_usd before any billed call was made, then checked again, running, before each next world's own calls, against the actual spend recorded so far."
+}

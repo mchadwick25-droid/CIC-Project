@@ -77,6 +77,14 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.ousia-and-hypostasis
+use_note:
+  means: "This witness says this world confessed one ousia and three hypostaseis, framed Christ's death as ransom and healing, and spoke of reverence rather than personal Lord."
+  not_for:
+    - "ransom language as the later penal substitution formula"
+    - "a claim that the three teachers shared one agreed scheme"
+    - "Letter XXXVIII as certainly Basil's, when cappadocian.quote.ousia-and-hypostasis carries its contested authorship"
+  years: {from: 360, to: 394}
+  status: reviewed
 ---
 Closes C-T, matching hal.dw.was-jesus-god's own worked structure (full
 answer across all three canon_question variants under this cell: Trinity,

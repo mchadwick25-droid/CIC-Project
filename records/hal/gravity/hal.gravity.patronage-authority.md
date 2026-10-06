@@ -57,6 +57,14 @@ manifestations:
 - the women as principals, not supporters - the funders, founders, and governors of the
   institutions
 classification: primary
+use_note:
+  means: "Authority ran through reputation, scholarly competence, and voluntary financial dependency rather than office, at the cost of structural fragility."
+  not_for:
+    - "attributing authority here to ordained office or territory"
+    - "treating patronage as a minor funding detail"
+    - "presenting Jerome's account of the financial mechanics as independently confirmed"
+  years: {from: 382, to: 404}
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (G3: strongest overall, strongest
 bipolar-holding candidate; the interpretive frame independently supported

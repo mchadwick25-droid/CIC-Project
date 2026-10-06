@@ -1,0 +1,203 @@
+{
+ "grader": "primary",
+ "replies": [
+  {
+   "reply": "hal:f5-i-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "stretched",
+     "note": "Record has rising before light for psalms; 'night office', oil lamps not carried."
+    },
+    {
+     "s": 3,
+     "label": "unsupported",
+     "note": "Record attests no morning office at dawn; it says hours were not written down."
+    },
+    {
+     "s": 4,
+     "label": "stretched",
+     "note": "Quote says reading or writing; 'copying' and 'for some' generalisation are added."
+    },
+    {
+     "s": 5,
+     "label": "stretched",
+     "note": "Hospice and nursing sick carried; garden is not in the record."
+    },
+    {
+     "s": 6,
+     "label": "stretched",
+     "note": "Record is Jerome's advice for one girl, explicitly prescription; generalised to the community's young."
+    },
+    {
+     "s": 7,
+     "label": "stretched",
+     "note": "Men's house's own round carried; 'one shared discipline' is not."
+    },
+    {
+     "s": 8,
+     "label": "unsupported",
+     "note": "Third, sixth, ninth hours not attested; record's claim_guard forbids schedule detail."
+    },
+    {
+     "s": 9,
+     "label": "unsupported",
+     "note": "Record says only they ate sparely; once or twice by season not carried."
+    },
+    {
+     "s": 10,
+     "label": "unsupported",
+     "note": "Bread, vegetables and water not in cited record."
+    },
+    {
+     "s": 11,
+     "label": "unsupported",
+     "note": "No evening office attested in cited record."
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Asserts reliability of reconstruction with no cited record."
+    },
+    {
+     "s": 14,
+     "label": "no_claim"
+    }
+   ]
+  },
+  {
+   "reply": "hal:f3-t-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Answer that no church today is theirs, no record cited."
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "supported"
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    }
+   ]
+  },
+  {
+   "reply": "hal:f3-e-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Factual answer with no record cited."
+    },
+    {
+     "s": 2,
+     "label": "no_claim"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 12,
+     "label": "stretched",
+     "note": "Record mentions 'our most famous letter' (sec. 28) without naming Jerome or a whole letter; widows and dawn visits merged."
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    }
+   ]
+  }
+ ]
+}

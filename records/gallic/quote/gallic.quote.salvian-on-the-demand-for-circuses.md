@@ -64,6 +64,14 @@ relations:
   target: gallic.quote.salvian-on-treves-ruined-elite
 - type: associated-with
   target: gallic.quote.salvian-on-the-unburied-dead
+use_note:
+  means: "Salvian, in On the Government of God, rebukes Trier's surviving men of rank for asking the emperors for circuses after repeated sacks of their city."
+  not_for:
+    - "the whole population of Trier demanding circuses, when Salvian names the few men of rank"
+    - "the broader church-or-circus contrast, which sits in gallic.term.church-or-circus"
+    - "the unburied dead of the sacked city, which sit in gallic.quote.salvian-on-the-unburied-dead"
+  years: {from: 439, to: 450}
+  status: reviewed
 ---
 Verified against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n "survived
 destruction demanded"` returns one hit, line 8264; `grep -n "citizens of Tr"` returns hits at lines

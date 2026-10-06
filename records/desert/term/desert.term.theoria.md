@@ -45,6 +45,13 @@ senses:
   translational: "'Theory' is the false friend: this is perception, not speculation - the trained sight of a life that has first been stilled."
 quick_meaning: "Contemplation - the trained seeing of God that a stilled life may reach."
 distortion_risk: high
+use_note:
+  means: "Theoria meant contemplation, in Evagrius's scheme the trained seeing of created things and of God that only a stilled soul reaches."
+  not_for:
+    - "Hearing it as theory or abstract speculation"
+    - "Presenting Evagrius's ladder as the whole movement's way of prayer, when the wider movement prayed the Psalter"
+  years: {from: 385, to: 399}
+  status: reviewed
 ---
 Re-derived from Doc_06 SS2.3 (Tier 2; tags AS TC DR PV;
 strand-C-bound, single-author-concentrated per Doc_03 SS1.7/Doc_04

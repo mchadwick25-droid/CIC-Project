@@ -39,6 +39,14 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.dw.empire
+use_note:
+  means: "The Festal Index for 356-7 records that George entered violently, Athanasius fled and was hunted, and so no Festal Letter was written."
+  not_for:
+    - "Athanasius's own words, when the Index is a later headnote series"
+    - "pagan persecution, when this happened under a Christian emperor"
+    - "a claim that the festal letters stopped for good, rather than for this year"
+  years: {from: 356, to: 357}
+  status: reviewed
 ---
 Opened for F3-E, served by alx.dw.empire alone, whose locus reads 'the exile-years
 letters' - a body of text rather than a place in one, which is why the instrument ruled this cell

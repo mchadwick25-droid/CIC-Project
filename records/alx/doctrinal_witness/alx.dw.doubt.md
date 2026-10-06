@@ -51,6 +51,15 @@ tensions:
 relations:
 - type: associated-with
   target: alx.quote.to-believe-or-disbelieve
+use_note:
+  means: "This witness says Alexandria's teachers treated doubt aimed at understanding as hunger, not sin, met within the rule of faith by teachers and open argument."
+  not_for:
+    - "the modern idea of a private crisis of faith, which this world lacked"
+    - "unbounded inquiry, when questions stayed inside the rule of faith"
+    - "ordinary doubters' own experience, which the teachers' sources barely show"
+    - "post-Nicene practice, when the same tradition learned to anathematize"
+  years: {from: 180, to: 264}
+  status: reviewed
 ---
 Serves the 'I grew up being told doubt was sin' cell from the world's
 own practice, with the post-Nicene hardening stated as tension.

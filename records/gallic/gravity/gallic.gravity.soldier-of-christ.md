@@ -130,6 +130,15 @@ manifestations:
 - "'Young soldiers who had just taken the oath of allegiance to Christ' walking in Martin's funeral procession (Ep. III); the soldier-monk of Dial. II.11"
 - "Job 'His well tried athlete, when the devil had challenged him to single combat' (Conf. XIII.14) - the idiom of the grace defense"
 - "Vincent's harbour reached out of 'the manifold and deplorable tempests of secular warfare' (Comm. ch. 1 [2]) - the antonym"
+use_note:
+  means: "The monk's life is military service and combat against the devil and the faults, literal in the north and figurative in the south."
+  not_for:
+    - "crusading militancy"
+    - "the discharge scene itself, which sits in gallic.story.discharge-before-caesar"
+    - "the word's lexicon entry, which sits in gallic.term.soldier-of-christ"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
+  years: {from: 397, to: 434}
+  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus, John
 Cassian, Vincent of Lérins). This description paraphrases the primary sources in its own voice;

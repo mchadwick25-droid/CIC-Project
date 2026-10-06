@@ -33,6 +33,14 @@ tensions:
 relations:
 - type: associated-with
   target: desert.quote.he-longed-to-suffer-martyrdom
+use_note:
+  means: "This witness holds that desert self-denial was total self-offering turned inward once martyrdom ended, drawing on Antony's combat vocabulary in the Vita."
+  not_for:
+    - "a pastoral reply to a participant's own present wish to die"
+    - "a claim that the monks sought death or self-destruction"
+    - "the inward redirection as documented motive rather than the world's own reported-experience framing"
+  years: {from: 303, to: 356}
+  status: reviewed
 ---
 Drawn directly from desert.force.martyrdom-unavailable, the deliberate
 answer this world's own vocabulary gives to exactly this challenge -

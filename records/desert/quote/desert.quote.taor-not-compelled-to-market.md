@@ -51,6 +51,14 @@ relations:
   target: desert.gravity.withdrawal
 - type: associated-with
   target: desert.term.anachoresis
+use_note:
+  means: "Palladius reports the virgin Taor of Antinoe refusing fine clothes, veil and sandals because she is not compelled to go down to the market."
+  not_for:
+    - "self-denial chosen for its own sake, when she ties the refusal to not going out"
+    - "Taor as typical of her house, whose other women went down to church each week"
+    - "an Apophthegmata saying, when it is speech reported inside Palladius's narrative"
+  years: {from: 388, to: 420}
+  status: reviewed
 ---
 Verified verbatim against the vendored file.
 

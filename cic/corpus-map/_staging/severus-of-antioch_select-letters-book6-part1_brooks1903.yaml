@@ -1,0 +1,19 @@
+source_file: severus-of-antioch_select-letters-book6-part1_brooks1903.txt
+
+assignments:
+  - row_id: severus-of-antioch_select-letters-book6-part1_brooks1903--the-sixth-book-of-the-select-letters-of-severus-of-antioch
+    work: "The Sixth Book of the Select Letters of Severus of Antioch"
+    author: severus-of-antioch
+    locus: "Part I (Text and Translation Society, 1903)"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Severus of Antioch (c. 459-538), patriarch of Antioch 512-518 and
+      the movement's foremost theologian, in his own words - real
+      administrative and pastoral correspondence from a working patriarch
+      and, after his 518 deposition, an exile writing to sustain a
+      scattered communion. This is only the Sixth Book of his letters
+      (123 letters survive of it); it is not his complete correspondence
+      - see REGISTRY.yaml for what else exists and is not yet vendored.

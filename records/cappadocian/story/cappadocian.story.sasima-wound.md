@@ -61,6 +61,15 @@ modern_contrast: >-
   record does not: it has only the wounded party's own account, argued in
   his own favor, and this story is told as exactly that - not as a
   balanced verdict on which of the two men was right.
+use_note:
+  means: "In 372 Basil made his friend Gregory of Nazianzus bishop of Sasima in a jurisdictional fight, and Gregory, feeling wounded, left, with only his side surviving."
+  not_for:
+    - "Basil's own motives or view, which are not recorded"
+    - "a balanced verdict on which man was right"
+    - "a final end to the friendship"
+    - "the Athens portrait of the friendship, which sits in cappadocian.story.athens-friendship"
+  years: {from: 372, to: 379}
+  status: reviewed
 ---
 Derived from Doc_09 entry #4 (Tier 1, one-sided). Critic Finding 7 is
 carried forward as Doc_09 itself requires: the power-politics reading (a

@@ -12,8 +12,10 @@ def test_the_fixture_is_not_counted_among_the_formation_worlds():
     reg = load_registry()
     fixture_keys = [k for k, v in reg.items() if is_fixture(v)]
     assert fixture_keys == ["fix"], "exactly one synthetic fixture, keyed 'fix'"
-    assert formation_world_keys(reg) == sorted(k for k in reg if k != "fix")
-    assert len(formation_world_keys(reg)) == len(reg) - 1
+    from engine.m1.registry import BUILT_STATES
+    assert formation_world_keys(reg) == sorted(k for k, v in reg.items() if k != "fix" and v.get("state") in BUILT_STATES)
+    assert all(reg[k].get("package") for k in formation_world_keys(reg)), "a participant-facing world has a compiled package"
+    assert all(reg[k].get("state") not in BUILT_STATES for k in reg if k != "fix" and k not in formation_world_keys(reg)), "only worlds not yet built are left out"
     assert "fix" not in formation_world_keys(reg)
     assert is_fixture(reg["fix"]) is True
     assert all(not is_fixture(reg[k]) for k in formation_world_keys(reg))

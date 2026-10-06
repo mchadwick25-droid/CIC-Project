@@ -1,6 +1,7 @@
 source_file: ammianus-marcellinus_roman-history_yonge1862.txt
 assignments:
-- work: Res Gestae, Book XXVII.3 - the 366 basilica election riot between Damasus's and Ursinus's
+- row_id: ammianus-marcellinus_roman-history_yonge1862--res-gestae-book-xxvii-3-the-366-basilica-election-riot
+  work: Res Gestae, Book XXVII.3 - the 366 basilica election riot between Damasus's and Ursinus's
     parties
   author: ammianus-marcellinus
   locus: Res Gestae XXVII.3.12-13 (file lines 23186-23187 for the casualty figure; the whole episode
@@ -26,7 +27,8 @@ assignments:
     used by anywhere in the corpus as of this pass.
 
     '
-- work: Res Gestae, Book XXII (this edition''s own Ch. XIII-XIV) - the burning of the temple of
+- row_id: ammianus-marcellinus_roman-history_yonge1862--res-gestae-book-xxii-this-edition-s-own-ch-xiii-xiv-the
+  work: Res Gestae, Book XXII (this edition''s own Ch. XIII-XIV) - the burning of the temple of
     Apollo at Daphne, the shutting of the great church of Antioch, and the Antiochenes'
     quarrel with Julian that produced the Misopogon
   author: ammianus-marcellinus

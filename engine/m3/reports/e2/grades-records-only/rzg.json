@@ -1,0 +1,846 @@
+{
+ "grader": "primary",
+ "replies": [
+  {
+   "reply": "rzg:Q01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 4,
+     "label": "stretched",
+     "note": "Record lacks the sixty-seven articles and 'no one could sustain a scriptural case'; rest carried."
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "unsupported",
+     "note": "Record gives Bolsec's 1551 challenge but says nothing about who tried the case, the sentence's main claim."
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "no_claim"
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 14,
+     "label": "no_claim"
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 16,
+     "label": "supported"
+    },
+    {
+     "s": 17,
+     "label": "no_claim"
+    }
+   ]
+  },
+  {
+   "reply": "rzg:Q02",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 3,
+     "label": "stretched",
+     "note": "Record supports settled-ground framing but not sovereignty as 'plain fact Scripture states' versus philosophy."
+    },
+    {
+     "s": 4,
+     "label": "stretched",
+     "note": "Election content carried; 'the doctrine we are known for' is an added generalisation."
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 11,
+     "label": "supported"
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 14,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 16,
+     "label": "unsupported",
+     "note": "Anabaptist force record says nothing of gathered church, infants or covenant shape of whole city."
+    },
+    {
+     "s": 17,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 18,
+     "label": "supported"
+    },
+    {
+     "s": 19,
+     "label": "supported"
+    },
+    {
+     "s": 20,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 21,
+     "label": "no_claim"
+    },
+    {
+     "s": 22,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 23,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    }
+   ]
+  },
+  {
+   "reply": "rzg:Q03",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 7,
+     "label": "stretched",
+     "note": "Record says Augustine primary authority next to Scripture; 'as much as on Scripture' overstates."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 9,
+     "label": "no_claim"
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    }
+   ]
+  },
+  {
+   "reply": "rzg:Q04",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "unsupported",
+     "note": "Cited witness is about refusing alternatives; it does not say 'what the whole church says' or 'never our quarrel'."
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 9,
+     "label": "stretched",
+     "note": "Quote matches but record places it in the preface, not 'the first article'."
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 14,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    }
+   ]
+  },
+  {
+   "reply": "rzg:Q05",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 4,
+     "label": "no_claim"
+    },
+    {
+     "s": 5,
+     "label": "no_claim"
+    },
+    {
+     "s": 6,
+     "label": "no_claim"
+    },
+    {
+     "s": 7,
+     "label": "no_claim"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 11,
+     "label": "no_claim"
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 13,
+     "label": "no_claim"
+    },
+    {
+     "s": 14,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 15,
+     "label": "no_claim"
+    },
+    {
+     "s": 16,
+     "label": "no_claim"
+    }
+   ]
+  },
+  {
+   "reply": "rzg:Q06",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    }
+   ]
+  },
+  {
+   "reply": "rzg:Q07",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 6,
+     "label": "no_claim"
+    },
+    {
+     "s": 7,
+     "label": "no_claim"
+    },
+    {
+     "s": 8,
+     "label": "no_claim"
+    },
+    {
+     "s": 9,
+     "label": "no_claim"
+    },
+    {
+     "s": 10,
+     "label": "no_claim"
+    },
+    {
+     "s": 11,
+     "label": "no_claim"
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "no_claim"
+    },
+    {
+     "s": 14,
+     "label": "no_claim"
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 16,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 17,
+     "label": "no_claim"
+    }
+   ]
+  },
+  {
+   "reply": "rzg:Q08",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 3,
+     "label": "stretched",
+     "note": "Record lacks 'article by article'; rest of disputation details carried."
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 6,
+     "label": "stretched",
+     "note": "Record gives Consistory authority over conduct/discipline, not over doctrine."
+    },
+    {
+     "s": 7,
+     "label": "stretched",
+     "note": "Quote is from Calvin's Institutes per record, not the Ordinances; 'pastors' replaces 'bishops'."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "no_claim"
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 13,
+     "label": "no_claim"
+    },
+    {
+     "s": 14,
+     "label": "stretched",
+     "note": "Record covers disagreement over church discipline; 'held preaching' to account is added."
+    }
+   ]
+  },
+  {
+   "reply": "rzg:Q09",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 2,
+     "label": "unsupported",
+     "note": "Witness says whole-church agreement on who Christ is, not on inherited corruption."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "no_claim"
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    }
+   ]
+  },
+  {
+   "reply": "rzg:Q10",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "stretched",
+     "note": "Record covers predestination; 'where we begin, shapes everything' is an added generalisation."
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 5,
+     "label": "stretched",
+     "note": "Record says Zurich stated it as pastoral comfort; 'always' is a stronger degree."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 7,
+     "label": "unsupported",
+     "note": "Quote concerns the Mass not being a sacrifice; says nothing of a holiness gap unclosable by effort or searching."
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "stretched",
+     "note": "Gravity refuses repeated sacrifice; 'God does not ask us to fill what Christ completed' generalises."
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 12,
+     "label": "stretched",
+     "note": "Record attributes the Christ-mirror teaching to the Second Helvetic Confession, not Scripture."
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 14,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 16,
+     "label": "supported"
+    },
+    {
+     "s": 17,
+     "label": "supported"
+    },
+    {
+     "s": 18,
+     "label": "stretched",
+     "note": "Core carried; 'bread that can be broken and stored' adds detail not in record."
+    },
+    {
+     "s": 19,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 20,
+     "label": "stretched",
+     "note": "Record covers repeated sacrifice and bread confinement, not election depending on earning."
+    }
+   ]
+  },
+  {
+   "reply": "rzg:Q11",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 4,
+     "label": "stretched",
+     "note": "Gravity covers repeated sacrifice; 'righteousness built by our own choosing' not carried."
+    },
+    {
+     "s": 5,
+     "label": "stretched",
+     "note": "Election part carried; Christ's death 'answering entirely' for inherited guilt is not in record."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    }
+   ]
+  },
+  {
+   "reply": "rzg:Q12",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "stretched",
+     "note": "Readmission carried; purpose 'spur toward reconciliation, not permanent casting out' is added."
+    },
+    {
+     "s": 4,
+     "label": "no_claim"
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 6,
+     "label": "no_claim"
+    },
+    {
+     "s": 7,
+     "label": "no_claim"
+    },
+    {
+     "s": 8,
+     "label": "no_claim"
+    }
+   ]
+  }
+ ]
+}

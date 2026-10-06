@@ -106,6 +106,15 @@ tensions:
 - the Carthage crowd is Salvian's report of Africa, in a preacher's indictment; no Gallic town's reaction to a monk survives in anyone's words
 - the reporters to Africa and Rome are heard from the other side, and what was said and done when our teaching was carried there no one among us wrote down as a story
 relations: []
+use_note:
+  means: "This witness says the Gallic monks met no persecution but faced derision at dress, hair and visions, and accusation by bishops and reporters to Africa."
+  not_for:
+    - "the Carthage crowd's derision as a Gallic town's reaction, when it is Salvian's report of Africa"
+    - "persecution or hiding in their own time, which the witness denies"
+    - "the luring of Martin from his monastery and the psalm at his election, which sit in gallic.story.election-at-tours"
+    - "the election as plainly a capture, which is weighed in gallic.contested.election-as-capture"
+  years: {from: 397, to: 450}
+  status: reviewed
 ---
 Closes F3-E at the Answer-the-Canon step (inserted between B-7 and B-8).
 gallic.voice.craft's B-7 note declined this cell as "an outsider's

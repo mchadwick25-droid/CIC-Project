@@ -38,6 +38,13 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.dw.practices
+use_note:
+  means: "Jerome, dictating in 412 at Bethlehem, writes that the city which had taken the whole world was itself taken, with famine striking before the sword."
+  not_for:
+    - "an eyewitness account; Jerome wrote from news of a sack he did not see"
+    - "a statement about individual conversion; the dated turn here is a city's fall, not a soul's"
+  years: {from: 410, to: 412}
+  status: reviewed
 ---
 Opened for F4-T, served by hal.dw.practices alone, which cites this locus for "the
 fall of Rome heard as judgment" and had nothing quotable.

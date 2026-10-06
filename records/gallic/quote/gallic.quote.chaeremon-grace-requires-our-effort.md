@@ -63,6 +63,16 @@ relations:
   target: gallic.story.germanus-scruple-at-morning-service
 - type: associated-with
   target: gallic.gravity.grace-and-effort
+- type: associated-with
+  target: gallic.force.africa-and-rome-pressure
+use_note:
+  means: "Cassian reports Abbot Chaeremon teaching that God's grace always cooperates with the will and sometimes looks for some effort of good will before giving."
+  not_for:
+    - "a settled verdict that the teaching is semi-Pelagian, when that label is contested"
+    - "the three stages of grace, which sit in gallic.quote.chaeremon-three-stages-of-grace"
+    - "a claim that effort earns grace outright"
+  years: {from: 426, to: 426}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "co-operates with our will"`

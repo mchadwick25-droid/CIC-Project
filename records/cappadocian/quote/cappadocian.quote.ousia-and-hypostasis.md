@@ -54,6 +54,14 @@ modern_rendering: >-
   strikes the ear only vaguely. It indicates the nature, but what subsists -- what is
   specially and particularly indicated by the name -- is not made plain. Suppose instead
   we say "Paul." By what the name indicates, we set forth the nature subsisting.
+use_note:
+  means: "Letter XXXVIII, transmitted as Basil's but reassigned by many scholars to Gregory of Nyssa, distinguishes hypostasis, the particular named one, from the shared nature."
+  not_for:
+    - "a claim that Basil certainly wrote this letter"
+    - "hypostasis in the modern sense of a distinct personality"
+    - "proof that all three teachers shared one agreed technical scheme, a claim cappadocian.contested.settlement-historiography holds open"
+  years: {from: 360, to: 394}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (Letter XXXVIII, sec. 3, immediately

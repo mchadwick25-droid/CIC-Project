@@ -109,6 +109,15 @@ tensions:
 relations:
 - type: associated-with
   target: don.quote.the-shores-are-covered
+use_note:
+  means: "Three things Donatists left unreconciled are set out: suspending their absolute rule for two condemned Maximianist bishops, Cirta's bishops finding the purity test unusable on themselves, and a bishop knowing a hushed charge was true."
+  not_for:
+    - "a claim about the Donatists' own reasoning in any of these cases"
+    - "a claim that the Donatists described their own stance as a conviction held alongside an exception"
+    - "a claim that these failures are typical rather than preserved because opponents found them useful"
+    - "a claim about what the Maximianist schism and the Tyconius affair were as internal quarrels, which sits in don.dw.what-we-argued-among-ourselves"
+  years: {from: 311, to: 411}
+  status: reviewed
 ---
 Closes F6-I, and this is the cell where this world is at its strongest -
 which is worth stating plainly, because the material that makes it strong

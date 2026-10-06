@@ -9,7 +9,7 @@
 
 ## 0. Why this document exists, and what it is not
 
-An external, read-only discovery pass this week asked a question this world's own 2026-08-31 sweep (`records/cappadocian/search_record/cappadocian.search.unopened-volume-sweep.md`) did not ask. That sweep asked whether any *vendored file* lacked a **Source Registry row**, and correctly found none. The new pass asked a different question — whether vendored, assigned source material had never been drawn into the world's own **records**, and whether any of it was structural rather than supplemental. Different question, so no contradiction between the two; both can be right.
+An external, read-only discovery pass this week asked a question this world's own 2026-08-31 sweep (`Build/worlds/cappadocian/build/records/search_record/cappadocian.search.unopened-volume-sweep.md`) did not ask. That sweep asked whether any *vendored file* lacked a **Source Registry row**, and correctly found none. The new pass asked a different question — whether vendored, assigned source material had never been drawn into the world's own **records**, and whether any of it was structural rather than supplemental. Different question, so no contradiction between the two; both can be right.
 
 This document records what an independent check of the five candidates actually found, against the primary texts and the files themselves rather than against the discovery pass's description of them. **Three of its five characterizations turned out to need correction**, one of them materially. That is recorded here in full rather than smoothed over, because a verification pass that only confirms what it was handed has not verified anything.
 

@@ -81,6 +81,15 @@ quick_meaning: >-
   Vincent's own name for his book - an aid to memory, against forgetting. And his name for
   himself: "Peregrinus," a pilgrim and a servant, who tells and does not invent.
 distortion_risk: low
+use_note:
+  means: "Commonitory was Vincent's own name for his book, an aid to memory against forgetting, and Peregrinus the pilgrim name under which he wrote it."
+  not_for:
+    - "Commonitory as the name of a doctrinal treatise"
+    - "Peregrinus as a dramatic literary device, or its motive as known, when the motive is unknown"
+    - "the rule the book states, which sits in gallic.term.the-rule"
+    - "the faith held in trust, which sits in gallic.term.the-deposit"
+  years: {from: 434, to: 434}
+  status: reviewed
 ---
 Built from Doc_06 entry 079 (`galliclex079_commonitory-peregrinus.md`, Tier 3, tags AS TC;
 Doc_03 7.13). Kept thin at the Tier-3 floor; the memory content is carried by the rule and the

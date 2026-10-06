@@ -1,7 +1,8 @@
 source_file: wyclif_polemical-works-lat-v2_buddensieg1883.txt
 
 assignments:
-  - work: "John Wiclif's Polemical Works in Latin, Vol. II (Wyclif Society)"
+  - row_id: wyclif_polemical-works-lat-v2_buddensieg1883--john-wiclif-s-polemical-works-in-latin-vol-ii-wyclif-society
+    work: "John Wiclif's Polemical Works in Latin, Vol. II (Wyclif Society)"
     author: wyclif
     locus: "whole volume"
     atlas_ids:

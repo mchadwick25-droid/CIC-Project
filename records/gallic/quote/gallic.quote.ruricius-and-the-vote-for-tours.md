@@ -67,6 +67,15 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.election-at-tours
+use_note:
+  means: "Sulpitius narrates how Martin was drawn to Tours by a ruse, acclaimed bishop by crowds, and opposed by some bishops who scorned his appearance."
+  not_for:
+    - "a neutral account of the objectors, when Sulpitius openly opposed them"
+    - "the election as uncontested in character, when that is weighed in gallic.contested.election-as-capture"
+    - "the psalm that answered the bishop Defensor, which sits in gallic.quote.the-psalm-that-answered-defensor"
+    - "a standard procedure for episcopal elections throughout Gaul"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "was called upon to undertake the episcopate"` returns one hit, line 1059. The chapter div is

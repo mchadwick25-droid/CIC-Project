@@ -874,3 +874,45 @@ documents, all dated) left unrewritten per the standing dated-history convention
 per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 
 **Path check:** 0 new unresolved, 1,040 total accepted.
+
+---
+
+## 2026-09-30 — Hussite and Bohemian Brethren Movement given the code `hus`
+
+**Context.** The world's Step 0 was cleared (Round 3) and the project lead asked for Steps 0–2 to be taken through.
+
+**Action.** `git mv Build/World-Builds/Hussite-and-Bohemian-Brethren-Movement` → `Build/worlds/hus`. Root `README.md` line for `Build/worlds/` now lists five not-yet-coded worlds. Nothing was added to `records/` or `packages/`; the code is not yet in `records/worlds.yaml`. `Build/World-Builds/Lollardy/Step0_Review_Round2.md` still cites the old path as dated history and is left unedited.
+
+---
+
+## 2026-09-30 — Society of Jesus given the code `jes`
+
+**Context.** The world's Step 0 was approved to proceed (Round 4 spot-check, clear) and the project lead assigned the file-code `jes`.
+
+**Action.** `git mv Build/World-Builds/Society-of-Jesus` → `Build/worlds/jes`. Root `README.md` line for `Build/worlds/` now lists four not-yet-coded worlds. Nothing was added to `records/` or `packages/`; the code is not yet registered in `records/worlds/`. Two dated audit documents (`Build/Ministry/Operations/Audits/SocietyOfJesus_Step0_Correction_2026-09-30.md`, `Build/Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md`), the review artifacts under `Build/worlds/witt/`, and `Build/worlds/jes/Step0_Review_Round4_SpotCheck.md` still cite the old path as dated history and are left unedited.
+
+---
+
+## 2026-10-02 — Sentence-gated streaming module archived
+
+**Context.** The engine's own sentence-gated streaming module (`engine/m4/streaming.py`) was built behind a flag that no code path read. It drops a sentence that fails the grounding check, which the whole-turn path measured and rejected (`apply_net`: the checks gate decoration, never the text). The project lead chose wiring streaming end to end with the failing sentence kept and only its decoration dropped, so the module's own design no longer applies.
+
+**Action.** `git mv engine/m4/streaming.py` and `engine/m4/tests/test_streaming.py` → `Archive/Superseded-Engine-Code/`. Root `README.md` line for `Archive/` now names the new category. The replacement is `engine/m4/draft_stream.py` plus the event-stream form of the message endpoint in `engine/api/app.py`.
+
+---
+
+## 2026-10-02 — Older Doc_01 drafts for hus and jes archived
+
+**Context.** The Doc_01 batch for six worlds (library-thread branch, PR 605) was written before `hus` and `jes` had registry codes. Both worlds have since been built further on `main`: `hus` Doc_01 is approved to proceed after five independent review rounds and `jes` after three. The project lead ruled that `main`'s versions stand.
+
+**Action.** The batch's older Doc_01 drafts and their review files for the two worlds moved to `Archive/Superseded-World-Drafts-PR605/hus/` and `.../jes/`. Nothing was deleted. Root `README.md` line for `Archive/` now names the category. The batch's other four worlds (Anabaptist, Devotio Moderna, Lollardy, Tridentine) landed under `Build/World-Builds/<name>/`.
+
+---
+
+## 2026-10-04 — Freeze window for slice 9: non-world record kinds leave the worlds
+
+**Context.** Decision 8 of the conversation-system design moves the record kinds that are not world material out of the worlds. `records/` and `Build/worlds/` are hot trees, so the project lead declared a freeze window for the moves on 2026-10-04.
+
+**Action.** Fleet records: `records/_fleet/` → `engine/shape/records/` (fleet voice), `engine/canon/records/` (canon questions), `engine/m5/records/` (modern term, its contested claim and two sources), System Hub decision 44. World fronts and facilitator briefs: `records/<code>/{world_front,facilitator_brief}/` → `Build/worlds/<code>/surface/`. Search records: `records/<code>/search_record/` → `Build/worlds/<code>/build/records/search_record/`. lpc and ambient records are parked and untouched. `records/_fleet` is in `tools/retired_paths.txt`. Each old prefix is in the new `tools/moved_paths.txt`, so an older document's citation of an old path stands only while the file exists at its new home. The M1 gate `record-home` fails any of these kinds written to its old place. Root `README.md` lines for `records/` and `Build/worlds/` updated.
+
+**Freeze window closed, 2026-10-04.** The slice 9 moves landed (PRs 753 and 758). Records written to an old place now fail the M1 `record-home` gate, which names the new home.

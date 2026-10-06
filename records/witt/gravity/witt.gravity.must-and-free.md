@@ -140,5 +140,14 @@ manifestations:
   14790-14796)'
 - '"no more of the Gospel than such a lazy, pernicious, shameful, carnal liberty" (LC 78-80)'
 - '"If you wish such liberty, you may just as well have the liberty to be no Christian" (LC 4250-4296)'
+use_note:
+  means: "'Must' and 'free' names the tension between Christian liberty and love for the weak, from the 1522 sermons on the pace of reform to the 1529 rebuke of lazy liberty."
+  not_for:
+    - "Christian liberty as autonomy"
+    - "the 'must' and 'free' wording as widespread, since it appears in only one kind of writing"
+    - "the term's definition, which sits in witt.term.must-and-free"
+    - "the return to Wittenberg as narrative, which sits in witt.story.return-and-the-eight-sermons"
+  years: {from: 1520, to: 1530}
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G8 -> §3 G8 -> §7 row G8; TENSIONAL). Interaction Matrix (Doc_04 §5, row/col G8): G1 (R), G2 (C), G3 (C), G4 (S), G5 (R), G6 (S), G7 (R), G9 (R), G10 (C(t)), G11 (R(t)), G12 (S), G13 (S) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: none -- every other candidate shows a demonstrated relationship. Forces-connection (Doc_08 §5): witt.force.internal-radical-force (enabled-by), witt.force.imperial-force-ongoing (enabled-by), witt.force.parishes-state-as-reported (associated-with), witt.force.confessional-territorial-transformation (associated-with), witt.force.popular-insurrectionary-force (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.

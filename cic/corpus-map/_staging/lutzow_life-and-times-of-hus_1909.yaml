@@ -1,7 +1,8 @@
 source_file: lutzow_life-and-times-of-hus_1909.txt
 
 assignments:
-  - work: "The Life & Times of Master John Hus"
+  - row_id: lutzow_life-and-times-of-hus_1909--the-life-times-of-master-john-hus
+    work: "The Life & Times of Master John Hus"
     author: lutzow
     locus: "whole volume"
     atlas_ids:

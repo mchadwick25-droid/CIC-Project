@@ -56,6 +56,15 @@ modern_contrast: >-
   aimed at making a rhetorical point about a real, live dispute - vivid
   testimony to how seriously the argument was taken by someone, not a
   survey of the whole city.
+use_note:
+  means: "Gregory of Nyssa complained that the argument over Father and Son had reached money-changers, bakers and bath attendants, which evidences how far it spread in his telling."
+  not_for:
+    - "a literal census of what tradespeople said"
+    - "ordinary laypeople as unusually theologically engaged"
+    - "Eunomius as the named target, since the record does not name him"
+    - "the agennetos argument itself, which sits in cappadocian.term.agennetos"
+  years: {from: 372, to: 394}
+  status: reviewed
 ---
 Derived from Doc_09 entry #15 (Tier 1, as the preacher's report). NOT
 LINKED TO EUNOMIUS: this entry's content is clearly Eunomian-adjacent

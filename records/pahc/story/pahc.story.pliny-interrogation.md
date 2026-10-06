@@ -64,6 +64,14 @@ modern_contrast: >
   was "nothing except a superstition depraved and immoderate" - banal,
   not criminal - and the ministrae's own exact role remains genuinely
   unclear, not a confirmed title.
+use_note:
+  means: "A Roman governor, unsure how to handle accusations against Christians, tortures two enslaved women to learn what the community did, then writes to the emperor."
+  not_for:
+    - "a sinister confession"
+    - "ministrae as a confirmed office of deaconess"
+    - "any words of the two women themselves"
+  years: {from: 111, to: 113}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 004. All quotations checked
 directly against cic/texts/npnf201_eusebius-church-history-life-of-

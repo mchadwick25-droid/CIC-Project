@@ -44,6 +44,13 @@ senses:
     to theorize the how at all.
 quick_meaning: A monstrous word, we say. We trust the presence; we do not explain it.
 distortion_risk: medium
+use_note:
+  means: "Transubstantiation meant a word called monstrous, refused without offering a theory of the alternative, the world declining to explain how Christ is present."
+  not_for:
+    - "the world's own presence doctrine as a rival theory of the same kind"
+    - "the presence doctrine generally, which sits in witt.term.sacrament-of-the-altar"
+  years: {from: 1520, to: 1520}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 5.7 (transubstantiation, Tier 3, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC]. Author Gravity: Luther-only, single-register (Babylonian Captivity). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

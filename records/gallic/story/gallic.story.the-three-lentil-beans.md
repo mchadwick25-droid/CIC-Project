@@ -103,6 +103,14 @@ modern_contrast: >-
   bottle of water is a holy thing and why dusting a cell earns a reward. At Tours the thing answers for
   the saint (his straw heals because he lay on it); in the East as Cassian carries it, the monk answers
   for the thing - matter as a conductor in the north, a ledger in the south.
+use_note:
+  means: "Cassian relays that a cook who left three lentils on the floor was judged a pilferer of sacred property and barred from prayer, because the house's goods are the Lord's."
+  not_for:
+    - "Marmoutier's common property, which sits in gallic.term.monastery-coenobium"
+    - "the sanction of suspension from prayer as doctrine, which sits in gallic.term.penance-satisfaction"
+    - "a Gallic house's practice, when it describes the coenobia of the East"
+  years: {from: 415, to: 426}
+  status: reviewed
 ---
 The setting is stated as Cassian himself states it - the coenobia of the East, not Egypt specifically.
 Illustrates gallic.gravity.interior-road (the reversal of accountability for matter between the two

@@ -1,0 +1,4892 @@
+[
+ {
+  "world": "alx",
+  "probe": "f1-e-probe-01",
+  "s": 6,
+  "sentence": "Origen himself said plainly: the church's teaching is what was 'transmitted in orderly succession from the apostles, and remaining in the Churches to the present day,' and that alone is to be trusted.",
+  "before": "The argument was public, the test was Scripture and the rule of faith - the short summary the apostles handed down - and persuasion did the work.",
+  "record_id": "alx.dw.apostolic",
+  "graded": false,
+  "n": 1
+ },
+ {
+  "world": "alx",
+  "probe": "f1-e-probe-01",
+  "s": 15,
+  "sentence": "At Nicaea, bishops from everywhere ruled on the disputed confession for all.",
+  "before": "At the end came the council.",
+  "record_id": "alx.dw.councils",
+  "graded": false,
+  "n": 2
+ },
+ {
+  "world": "alx",
+  "probe": "f1-i-probe-01",
+  "s": 8,
+  "sentence": "What the apostles delivered plainly stood fixed.",
+  "before": "Our teachers drew one careful line.",
+  "record_id": "alx.dw.god",
+  "graded": false,
+  "n": 3
+ },
+ {
+  "world": "alx",
+  "probe": "c-p-probe-01",
+  "s": 16,
+  "sentence": "Clement told a story he said was true tradition: the Apostle John, in his old age, heard that a young man he had once baptized had become a bandit.",
+  "before": "Here is another, darker and more honest.",
+  "record_id": "alx.story.john-young-robber",
+  "graded": true,
+  "n": 4
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f3-p-probe-01",
+  "s": 10,
+  "sentence": "Work was assigned.",
+  "before": "The brotherhoods held goods in common, obeyed a leader, and kept fixed prayer whether anyone felt like praying that day or not.",
+  "record_id": "cappadocian.dw.ordinary-day",
+  "graded": false,
+  "n": 5
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-e-probe-01",
+  "s": 12,
+  "sentence": "The image of Christians hiding underground belongs to the persecutions before our window opened.",
+  "before": "It shows us buildings and confrontations, not private devotion.",
+  "record_id": "ijc.limit.earlier-windows",
+  "graded": false,
+  "n": 6
+ },
+ {
+  "world": "alx",
+  "probe": "f4-i-probe-01",
+  "s": 44,
+  "sentence": "When peace came, the church fought bitterly over them.",
+  "before": "Some who walked this road fell away under persecution - the *lapsi*, those who gave way.",
+  "record_id": "alx.term.lapsi",
+  "graded": false,
+  "n": 7
+ },
+ {
+  "world": "rzg",
+  "probe": "c-e-probe-01",
+  "s": 9,
+  "sentence": "What we quarreled over was whether the text alone could be trusted to settle doctrine and warrant practice, or whether it required something added to it - a pope's decree, a council's tradition, a claim that the church's own continuous life carries authority the text itself does not.",
+  "before": "That chain of transmission was never our quarrel with Rome.",
+  "record_id": "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "graded": false,
+  "n": 8
+ },
+ {
+  "world": "don",
+  "probe": "f1-e-probe-01",
+  "s": 22,
+  "sentence": "Then argue.",
+  "before": "First find out who is in the room and by what warrant.",
+  "record_id": "don.dw.who-decides-a-disputed-case",
+  "graded": true,
+  "n": 9
+ },
+ {
+  "world": "rzg",
+  "probe": "c-i-probe-01",
+  "s": 15,
+  "sentence": "When someone cannot quiet their own mind, turning inward only finds more of the self, and no bottom to it.",
+  "before": "We taught it as the ground of a settled, untroubled life.",
+  "record_id": "rzg.witness.a-quieted-mind",
+  "graded": false,
+  "n": 10
+ },
+ {
+  "world": "hal",
+  "probe": "c-i-probe-01",
+  "s": 8,
+  "sentence": "To the scholar, he is the Word, worth a lifetime of labor to translate truly - the translation labor later called the Vulgata.",
+  "before": "To the penitent, he is the doctor who receives the broken.",
+  "record_id": "hal.dw.jesus",
+  "graded": false,
+  "n": 11
+ },
+ {
+  "world": "syr",
+  "probe": "f3-i-probe-01",
+  "s": 19,
+  "sentence": "But while we lived, office and vow and teaching ran side by side, and the question stayed open.",
+  "before": "A royal synod, after our own years closed, gave the Persian church one head - the later title was Catholicos, and no one in our own time used it.",
+  "record_id": "syr.dw.unsettled",
+  "graded": true,
+  "n": 12
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f2-t-probe-01",
+  "s": 3,
+  "sentence": "His critics said the wording lacked written authority.",
+  "before": "Basil had changed one small word in a familiar doxology, praising the Father together with the Son and the Holy Spirit rather than merely through the Son in the Spirit.",
+  "record_id": "cappadocian.dw.unwritten-carries-too",
+  "graded": false,
+  "n": 13
+ },
+ {
+  "world": "alx",
+  "probe": "f1-t-probe-01",
+  "s": 2,
+  "sentence": "Adam's fall casts its shadow over every soul.",
+  "before": "We believed something real went wrong at the root of humanity.",
+  "record_id": "alx.dw.original-sin",
+  "graded": false,
+  "n": 14
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 28,
+  "sentence": "It is not, on its own, a parish's own voice confirming it.",
+  "before": "That testimony is real, and said more than once.",
+  "record_id": "witt.limit.record-thinnest",
+  "graded": false,
+  "n": 15
+ },
+ {
+  "world": "ijc",
+  "probe": "c-i-probe-01",
+  "s": 8,
+  "sentence": "What we wrote were definitions, and we wrote them the way people write what they are prepared to be exiled over.",
+  "before": "We did not write devotional memoirs about Jesus.",
+  "record_id": "ijc.dw.jesus",
+  "graded": false,
+  "n": 16
+ },
+ {
+  "world": "witt",
+  "probe": "c-p-probe-01",
+  "s": 10,
+  "sentence": "We would bring you to where the Word is spoken and the sacraments are given - where the promise can reach your ears, where something outside yourself can be heard - and we would examine you, patiently, on the three parts, not to catch you out but to help you toward what you do not yet hold sure.",
+  "before": "The Word still does its work, even when you do not yet feel it working.",
+  "record_id": "witt.demo.someone-like-me",
+  "graded": false,
+  "n": 17
+ },
+ {
+  "world": "don",
+  "probe": "f2-t-probe-01",
+  "s": 14,
+  "sentence": "Every year, on the day one of our own died, we gathered at the grave and heard the account of that death read out again.",
+  "before": "And there was a third thing, though it sat differently from the first two.",
+  "record_id": "don.term.anniversaria-commemoratio",
+  "graded": false,
+  "n": 18
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f3-e-probe-01",
+  "s": 6,
+  "sentence": "We sang psalms through the night in two answering choirs.",
+  "before": "We met in houses of prayer, not underground.",
+  "record_id": "cappadocian.quote.basil-on-antiphonal-psalmody",
+  "graded": false,
+  "n": 19
+ },
+ {
+  "world": "don",
+  "probe": "f2-e-probe-01",
+  "s": 17,
+  "sentence": "The voices we do have are bishops, councils, martyrs \u2014 the ones whose words were worth preserving to argue with or to read aloud at a grave.",
+  "before": "Not one ordinary member of ours left a page of their own interior life.",
+  "record_id": "don.dw.written-by-our-opponents",
+  "graded": false,
+  "n": 20
+ },
+ {
+  "world": "alx",
+  "probe": "f2-e-probe-01",
+  "s": 2,
+  "sentence": "What would survive: the core claims about our teachers' thought, drawn from their own surviving writings.",
+  "before": "A fair amount would hold - and some would not, and we will tell you which is which.",
+  "record_id": "alx.dw.record",
+  "graded": false,
+  "n": 21
+ },
+ {
+  "world": "witt",
+  "probe": "f4-i-probe-01",
+  "s": 7,
+  "sentence": "Second: the household program, taught from the earliest years a child could speak.",
+  "before": "The child offered to God through baptism was received into his grace on that ground alone, not by any choice the child had yet made.",
+  "record_id": "witt.demo.the-way-in",
+  "graded": true,
+  "n": 22
+ },
+ {
+  "world": "witt",
+  "probe": "f2-e-probe-01",
+  "s": 13,
+  "sentence": "So when we say a father examined his household weekly, we are stating the instruction, not confirming any single household kept it.",
+  "before": "The Saxon visitation happened and was written down; we simply do not hold those records firsthand.",
+  "record_id": "witt.limit.record-thinnest",
+  "graded": false,
+  "n": 23
+ },
+ {
+  "world": "alx",
+  "probe": "f3-i-probe-01",
+  "s": 17,
+  "sentence": "The church remembered both, rather than erasing either.",
+  "before": "Origen was ordained without his own bishop's leave, and that bishop, Demetrius, condemned the act and later the man.",
+  "record_id": "alx.dw.church-failure",
+  "graded": false,
+  "n": 24
+ },
+ {
+  "world": "ijc",
+  "probe": "c-p-probe-01",
+  "s": 16,
+  "sentence": "The faith each person confessed at baptism.",
+  "before": "The scriptures, read aloud in every church.",
+  "record_id": "ijc.dw.received-not-seen",
+  "graded": false,
+  "n": 25
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 1,
+  "sentence": "The threshold was baptism, and everything pointed toward it - instruction before, consequences after.",
+  "before": "(start of reply)",
+  "record_id": "ijc.dw.baptism-threshold",
+  "graded": false,
+  "n": 26
+ },
+ {
+  "world": "pahc",
+  "probe": "c-p-probe-01",
+  "s": 2,
+  "sentence": "Justin says he had already gone looking through other philosophies before an old man's words left him with, in his own phrase, a flame kindled in his soul.",
+  "before": "We cannot promise you a moment of sudden certainty, because it was not sudden for the one among us who wrote about it.",
+  "record_id": "pahc.witness.coming-to-belief",
+  "graded": false,
+  "n": 27
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-e-probe-01",
+  "s": 13,
+  "sentence": "In our time the danger came from a different direction: being on the wrong side of whichever confession held imperial favor, and losing your office or your see because of it.",
+  "before": "The image of Christians hiding underground belongs to the persecutions before our window opened.",
+  "record_id": "ijc.gravity.orthodoxy-enforcement",
+  "graded": false,
+  "n": 28
+ },
+ {
+  "world": "syr",
+  "probe": "f1-e-probe-01",
+  "s": 15,
+  "sentence": "The boundary held was communion: we would not share theirs.",
+  "before": "Our sage's own letters, the Demonstrations, argue step by step against Marcion, Bardaisan, and the Jews.",
+  "record_id": "syr.dw.one-church",
+  "graded": false,
+  "n": 29
+ },
+ {
+  "world": "hal",
+  "probe": "f3-p-probe-01",
+  "s": 4,
+  "sentence": "She died young.",
+  "before": "She was Paula's daughter, a young widow who threw herself into the ascetic life - renuntiatio, the laying-down of wealth and rank - with such force that her body could not sustain it.",
+  "record_id": "hal.dw.suffering",
+  "graded": false,
+  "n": 30
+ },
+ {
+  "world": "gallic",
+  "probe": "c-t-probe-01",
+  "s": 7,
+  "sentence": "So we held there was no other way to say it.",
+  "before": "A man had wanted Mary called the mother of Christ but not the mother of God, and the bishops at Ephesus, three years before Vincent wrote, refused it - and innovated nothing.",
+  "record_id": "gallic.dw.one-person-two-substances",
+  "graded": false,
+  "n": 31
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-e-probe-01",
+  "s": 22,
+  "sentence": "But he wrote against it in letters to individual churches.",
+  "before": "Ignatius wrote against that teaching as hard as anything he wrote.",
+  "record_id": "pahc.story.ignatius-guarded-journey",
+  "graded": false,
+  "n": 32
+ },
+ {
+  "world": "witt",
+  "probe": "f1-p-probe-01",
+  "s": 15,
+  "sentence": "That cost was real.",
+  "before": "And we hold one harder thing too: two young monks burned for refusing to take back what they had come to believe \u2014 faithfulness carried to its cost, once, in our one martyr-song.",
+  "record_id": "witt.dw.true-priests-of-gods-own-making",
+  "graded": false,
+  "n": 33
+ },
+ {
+  "world": "syr",
+  "probe": "f2-i-probe-01",
+  "s": 24,
+  "sentence": "Both things are true, and we do not hide the gap between them.",
+  "before": "The modern historian can trace it only to where the records begin.",
+  "record_id": "syr.dw.apostolic",
+  "graded": false,
+  "n": 34
+ },
+ {
+  "world": "syr",
+  "probe": "f3-p-probe-01",
+  "s": 7,
+  "sentence": "That itself is the uncomfortable answer.",
+  "before": "But we owe you the rest of the answer too, because you asked what we did when we failed someone, and the honest truth is this: mostly, we did not see our own failures as failures.",
+  "record_id": "syr.dw.failures",
+  "graded": false,
+  "n": 35
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 24,
+  "sentence": "The Saxon church inspected its own parishes from 1527 and wrote down what it found; those reports exist, and we have not read them.",
+  "before": "What we cannot tell you is what authority looked like on an ordinary Sunday in an ordinary parish, from the inside.",
+  "record_id": "witt.limit.record-thinnest",
+  "graded": false,
+  "n": 36
+ },
+ {
+  "world": "syr",
+  "probe": "f2-p-probe-01",
+  "s": 12,
+  "sentence": "Every piece of the old story points ahead to the new one, and the new one reaches back to complete the old.",
+  "before": "The ark is read toward the church.",
+  "record_id": "syr.dw.reading",
+  "graded": true,
+  "n": 37
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 16,
+  "sentence": "To be cut off from communion was a public fact with real force.",
+  "before": "With baptism came standing - communio, the standing that placed a person inside a church's recognition and at its altar.",
+  "record_id": "ijc.term.communio",
+  "graded": false,
+  "n": 38
+ },
+ {
+  "world": "syr",
+  "probe": "f2-e-probe-01",
+  "s": 16,
+  "sentence": "That one-sidedness is a fact a scholar would note at once, and we note it ourselves.",
+  "before": "Our dispute with the Jews was real and local, and we saved only our own side - page after page with no answering voice preserved.",
+  "record_id": "syr.dw.failures",
+  "graded": false,
+  "n": 39
+ },
+ {
+  "world": "ijc",
+  "probe": "c-p-probe-01",
+  "s": 3,
+  "sentence": "It does not keep one ordinary heart's own struggle to believe.",
+  "before": "Our record has the church's public words about Jesus - creeds, councils, letters between office-holders.",
+  "record_id": "ijc.limit.jesus-to-you",
+  "graded": false,
+  "n": 40
+ },
+ {
+  "world": "gallic",
+  "probe": "c-i-probe-01",
+  "s": 14,
+  "sentence": "What is done to the least is done to him.",
+  "before": "Among the brethren at Marseilles the fathers taught it another way: an elder broke his fast for two strangers at his door, because receiving Christ in them he ought to refresh him.",
+  "record_id": "gallic.dw.the-christ-who-bears-the-wounds",
+  "graded": false,
+  "n": 41
+ },
+ {
+  "world": "syr",
+  "probe": "f3-e-probe-01",
+  "s": 11,
+  "sentence": "So the danger, where it came, was not about hiding in general - it was about what a hostile crown decided your faith meant about your loyalties.",
+  "before": "Being Christian began to sound like being the enemy's friend.",
+  "record_id": "syr.dw.outsiders-empire",
+  "graded": false,
+  "n": 42
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-p-probe-01",
+  "s": 3,
+  "sentence": "The emperor who gave that order was Theodosius, and our bishop Ambrose wrote to him before he could approach the altar.",
+  "before": "The massacre at Thessalonica, 390: soldiers killed thousands in the circus, on imperial orders, after a riot.",
+  "record_id": "ijc.story.emperor-penance",
+  "graded": false,
+  "n": 43
+ },
+ {
+  "world": "syr",
+  "probe": "f1-t-probe-01",
+  "s": 1,
+  "sentence": "No - not guilt in the sense of a verdict already passed.",
+  "before": "(start of reply)",
+  "record_id": "syr.dw.adam-grace",
+  "graded": false,
+  "n": 44
+ },
+ {
+  "world": "hal",
+  "probe": "c-t-probe-01",
+  "s": 8,
+  "sentence": "To the scholar he is the Word made flesh, born in the very cave we chose to live beside - worth crossing the sea for, worth a lifetime of translation labor to render truly from the Hebrew text we held closest to what God said.",
+  "before": "To the penitent he is the physician.",
+  "record_id": "hal.dw.jesus",
+  "graded": false,
+  "n": 45
+ },
+ {
+  "world": "syr",
+  "probe": "f2-t-probe-01",
+  "s": 16,
+  "sentence": "What we held instead was this: Scripture's authority was never questioned, but it was always interpreted \u2013 by the church's worship, by teachers, by the community's own lived practice \u2013 and those things were not added to Scripture as rivals.",
+  "before": "We never settled which of those finally outranked the others.",
+  "record_id": "syr.dw.reading",
+  "graded": true,
+  "n": 46
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-e-probe-01",
+  "s": 7,
+  "sentence": "That was a siege, not secrecy - a crowd filling a basilica against a court's command, out in the open where everyone could see.",
+  "before": "One of those buildings became the prize in a standoff: soldiers surrounded it, but the congregation inside held the church by staying through the night and singing.",
+  "record_id": "ijc.story.vigil-in-basilica",
+  "graded": false,
+  "n": 47
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 10,
+  "sentence": "Ambrose's own teaching to the newly baptized tells us what they heard immediately after.",
+  "before": "The instruction built toward one moment: the washing itself, which forgave sins and opened the door to the altar.",
+  "record_id": "ijc.dw.bread-made-body",
+  "graded": false,
+  "n": 48
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-e-probe-01",
+  "s": 16,
+  "sentence": "The men of Marseilles, as a builder's note says, clung to their views.",
+  "before": "The evidence for how it worked is this: it did not work.",
+  "record_id": "gallic.quote.massilians-clung-to-their-views",
+  "graded": false,
+  "n": 49
+ },
+ {
+  "world": "hal",
+  "probe": "f2-t-probe-01",
+  "s": 8,
+  "sentence": "That authority did not come from an office.",
+  "before": "People brought their hard cases to her house, and she settled them.",
+  "record_id": "hal.gravity.marcella-authority",
+  "graded": false,
+  "n": 50
+ },
+ {
+  "world": "syr",
+  "probe": "c-p-probe-01",
+  "s": 9,
+  "sentence": "That was our experience of him, sung in our hymns and taught in our letters.",
+  "before": "Whoever came was received.",
+  "record_id": "syr.dw.physician",
+  "graded": false,
+  "n": 51
+ },
+ {
+  "world": "gallic",
+  "probe": "f4-i-probe-01",
+  "s": 19,
+  "sentence": "The honest answer is this: you have been told what Egypt did, in the book read in our cells \u2013 and whether any house of ours in Gaul made a newcomer lie at its door the Egyptian way, and for how many days, the record does not say.",
+  "before": "Of the island, we have the founder's arrival and his going off to a see, and nothing of what happened when a man came to its door.",
+  "record_id": "gallic.demo.someone-like-me",
+  "graded": false,
+  "n": 52
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-i-probe-01",
+  "s": 20,
+  "sentence": "The sign points to the reality; the two are never pulled apart.",
+  "before": "What we affirm took longer to say, and two cities to say it together: Christ truly given, by the Spirit, to whoever receives him believing.",
+  "record_id": "rzg.quote.signs-and-things-signified",
+  "graded": true,
+  "n": 53
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-e-probe-01",
+  "s": 15,
+  "sentence": "Both happened.",
+  "before": "What I cannot give you is a narrative account, day by day, of how either Bolsec's own trial or the Perrinist crisis actually unfolded.",
+  "record_id": "rzg.limit.marburg-bolsec-perrinist-narrative",
+  "graded": true,
+  "n": 54
+ },
+ {
+  "world": "syr",
+  "probe": "c-p-probe-01",
+  "s": 4,
+  "sentence": "And he does not turn away the one who is sorry.",
+  "before": "Our own teacher taught that of all who ever put on a body, only one carried no wound.",
+  "record_id": "syr.dw.physician",
+  "graded": false,
+  "n": 55
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-e-probe-01",
+  "s": 13,
+  "sentence": "Near the very end of our own time, churches across Asia are said to have met often, in many places, over a new prophetic movement spreading among them.",
+  "before": "He wrote it because the argument had to be made - it was not assumed, and it was not finished.",
+  "record_id": "pahc.witness.god-and-argument",
+  "graded": false,
+  "n": 56
+ },
+ {
+  "world": "syr",
+  "probe": "c-i-probe-01",
+  "s": 15,
+  "sentence": "It told the truth about what he was to those who came to him: not a judge looking for the faultless, but a healer who exists for the wounded.",
+  "before": "For us, the name Physician was that kind of sign.",
+  "record_id": "syr.dw.physician",
+  "graded": false,
+  "n": 57
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-t-probe-01",
+  "s": 32,
+  "sentence": "One being, three who are.",
+  "before": "So our answer to your question holds three things together.",
+  "record_id": "cappadocian.dw.was-jesus-god",
+  "graded": false,
+  "n": 58
+ },
+ {
+  "world": "gallic",
+  "probe": "c-p-probe-01",
+  "s": 14,
+  "sentence": "What we believed about God's own approach is this.",
+  "before": "So if you are asking us to tell you how belief happens - when it starts, how a heart is turned - our own record does not hold it that way.",
+  "record_id": "gallic.dw.christ-in-the-beggar-and-the-guest",
+  "graded": true,
+  "n": 59
+ },
+ {
+  "world": "syr",
+  "probe": "f2-e-probe-01",
+  "s": 17,
+  "sentence": "And one question a scholar would call genuinely open: who finally spoke for us.",
+  "before": "That one-sidedness is a fact a scholar would note at once, and we note it ourselves.",
+  "record_id": "syr.dw.unsettled",
+  "graded": false,
+  "n": 60
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-e-probe-01",
+  "s": 8,
+  "sentence": "Cassian answered Scripture with Scripture - Paul and Matthew, Zaccheus and the thief - and said plainly that how God works all things in us, and yet everything can be ascribed to free will, cannot be fully grasped by the mind and reason of man.",
+  "before": "What it shows instead is that the argument stayed open.",
+  "record_id": "gallic.quote.chaeremon-three-stages-of-grace",
+  "graded": false,
+  "n": 61
+ },
+ {
+  "world": "syr",
+  "probe": "f1-e-probe-01",
+  "s": 3,
+  "sentence": "There were bishops.",
+  "before": "Our honest answer is this: it was still being worked out, and our record shows the working.",
+  "record_id": "syr.dw.decides",
+  "graded": false,
+  "n": 62
+ },
+ {
+  "world": "hal",
+  "probe": "f2-t-probe-01",
+  "s": 2,
+  "sentence": "But it was never the only authority we honored.",
+  "before": "Scripture was the truest record - the closest to what God said - and we gave a lifetime to getting it right, word by word.",
+  "record_id": "hal.dw.record",
+  "graded": false,
+  "n": 63
+ },
+ {
+  "world": "ijc",
+  "probe": "f1-p-probe-01",
+  "s": 8,
+  "sentence": "Singing steadied them.",
+  "before": "Augustine, who was in the city that night, remembered it years later: \"The devout people kept watch in the church, ready to die with their bishop, your servant\".",
+  "record_id": "ijc.quote.augustine-vigil-hymns",
+  "graded": false,
+  "n": 64
+ },
+ {
+  "world": "syr",
+  "probe": "c-p-probe-01",
+  "s": 1,
+  "sentence": "We would call him what we called him most often: the Physician.",
+  "before": "(start of reply)",
+  "record_id": "syr.dw.physician",
+  "graded": false,
+  "n": 65
+ },
+ {
+  "world": "hal",
+  "probe": "f3-i-probe-01",
+  "s": 29,
+  "sentence": "It was.",
+  "before": "Authority that comes from recognition and wealth can be burned.",
+  "record_id": "hal.story.attack-416",
+  "graded": true,
+  "n": 66
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 14,
+  "sentence": "Through the sword, he rules what we call the temporal kingdom, restraining evil, never touching the conscience at all.",
+  "before": "Through the Word, he rules what we call the spiritual kingdom, making Christians, governing the conscience alone.",
+  "record_id": "witt.term.the-two-governments",
+  "graded": false,
+  "n": 67
+ },
+ {
+  "world": "don",
+  "probe": "f1-e-probe-01",
+  "s": 16,
+  "sentence": "That is a church governing itself.",
+  "before": "That is not an advisory board.",
+  "record_id": "don.dw.who-decides-a-disputed-case",
+  "graded": true,
+  "n": 68
+ },
+ {
+  "world": "syr",
+  "probe": "f2-i-probe-01",
+  "s": 16,
+  "sentence": "Doctrine was carried in the madrasha, the teaching hymn, not in the treatise.",
+  "before": "Our teaching happened by singing.",
+  "record_id": "syr.core.syriac",
+  "graded": false,
+  "n": 69
+ },
+ {
+  "world": "ijc",
+  "probe": "c-i-probe-01",
+  "s": 9,
+  "sentence": "In the language we actually had, the definitions were the devotion.",
+  "before": "What we wrote were definitions, and we wrote them the way people write what they are prepared to be exiled over.",
+  "record_id": "ijc.dw.jesus",
+  "graded": false,
+  "n": 70
+ },
+ {
+  "world": "alx",
+  "probe": "c-i-probe-01",
+  "s": 12,
+  "sentence": "If you want it in one line: the maker, come inside his making, to heal it.",
+  "before": "And for the people who followed him, it meant nothing less than a shared life - God's own - opened to them.",
+  "record_id": "alx.dw.jesus",
+  "graded": false,
+  "n": 71
+ },
+ {
+  "world": "hal",
+  "probe": "f3-p-probe-01",
+  "s": 26,
+  "sentence": "And we would not lie to you about the grief that came with that belief.",
+  "before": "If you want the honest shape of it: we believed the failure was in how far or how fast someone went, not in the direction itself.",
+  "record_id": "hal.dw.suffering",
+  "graded": false,
+  "n": 72
+ },
+ {
+  "world": "alx",
+  "probe": "c-i-probe-01",
+  "s": 6,
+  "sentence": "He meant that the one who first set the world in order had come into it, to set people right.",
+  "before": "Clement, one of our first teachers, called him the New Song: 'Behold the might of the new song! It has made men out of stones, men out of beasts'.",
+  "record_id": "alx.dw.jesus",
+  "graded": false,
+  "n": 73
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f2-i-probe-01",
+  "s": 13,
+  "sentence": "And scripture was read aloud to crowds who could not read it for themselves.",
+  "before": "We held it as gift, not as something we mastered.",
+  "record_id": "cappadocian.dw.reading-scripture",
+  "graded": false,
+  "n": 74
+ },
+ {
+  "world": "witt",
+  "probe": "f2-e-probe-01",
+  "s": 8,
+  "sentence": "The break with the cities who read the Supper differently happened; Marburg in 1529 is a documented meeting, however thin our own record of it is.",
+  "before": "The household catechism's program - morning prayer, table prayer, evening prayer, the father's weekly question - is prescribed in a printed book that went out under our founder's own name and survives to be read today.",
+  "record_id": "witt.dw.one-holy-church-forever",
+  "graded": false,
+  "n": 75
+ },
+ {
+  "world": "alx",
+  "probe": "f1-t-probe-01",
+  "s": 10,
+  "sentence": "And it will, in its own living, turn that inheritance into its own acts.",
+  "before": "It carries weakness and mortality it did not choose.",
+  "record_id": "alx.dw.original-sin",
+  "graded": false,
+  "n": 76
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-e-probe-01",
+  "s": 3,
+  "sentence": "What reached us was not a chain of memory handed hand to hand from witnesses at Golgotha.",
+  "before": "Three centuries had already passed.",
+  "record_id": "cappadocian.dw.how-it-reached-us",
+  "graded": false,
+  "n": 77
+ },
+ {
+  "world": "syr",
+  "probe": "f1-t-probe-01",
+  "s": 7,
+  "sentence": "That was the shape of it for us: not a legal sentence waiting for every newborn, but a whole human condition that needed healing.",
+  "before": "The rescue was not from guilt you earned by being born, but from death's kingdom - the same kingdom that was broken into when one Man rose from it.",
+  "record_id": "syr.dw.adam-grace",
+  "graded": false,
+  "n": 78
+ },
+ {
+  "world": "syr",
+  "probe": "f1-p-probe-01",
+  "s": 4,
+  "sentence": "The believer who is still building - we knew that was ordinary, not failure.",
+  "before": "A building is not finished in a day.",
+  "record_id": "syr.dw.doubt",
+  "graded": false,
+  "n": 79
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-e-probe-01",
+  "s": 21,
+  "sentence": "If you are asking how disagreement was ended among us, the honest answer is that this one was not ended.",
+  "before": "What our record keeps is not a process that settled things, but a question sent out, a letter read two ways, and a teacher who refused to resolve what the fathers left unresolved.",
+  "record_id": "gallic.demo.never-settled",
+  "graded": false,
+  "n": 80
+ },
+ {
+  "world": "gallic",
+  "probe": "f3-p-probe-01",
+  "s": 9,
+  "sentence": "The nearest thing we carry is this: a young man named Paphnutius, blameless, was accused of theft by a jealous brother who had hidden his own book in the young man's cell.",
+  "before": "What happens when a house fails a brother, when the senior misjudges, when the rule itself breaks someone - no story of that shape survives from inside either of our own houses.",
+  "record_id": "gallic.story.paphnutius-and-the-hidden-book",
+  "graded": false,
+  "n": 81
+ },
+ {
+  "world": "witt",
+  "probe": "c-i-probe-01",
+  "s": 12,
+  "sentence": "That meal fed us for our daily struggle - not a memorial only, but food for a fight, a daily pasture for a soul in its ordinary battle.",
+  "before": "We did not explain the how; we simply took him at his word and stopped.",
+  "record_id": "witt.term.sacrament-of-the-altar",
+  "graded": false,
+  "n": 82
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-e-probe-01",
+  "s": 2,
+  "sentence": "Two entirely different arrangements, and we never brought them into one.",
+  "before": "Who settled doctrine when we disagreed?",
+  "record_id": "rzg.witness.what-we-have-not-agreed",
+  "graded": true,
+  "n": 83
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-e-probe-01",
+  "s": 17,
+  "sentence": "But no source meeting our own standard for a primary witness has reached us for either.",
+  "before": "Both tested the very doctrine and arrangement I have just named.",
+  "record_id": "rzg.limit.marburg-bolsec-perrinist-narrative",
+  "graded": true,
+  "n": 84
+ },
+ {
+  "world": "hal",
+  "probe": "f2-i-probe-01",
+  "s": 18,
+  "sentence": "Every book had its own preface, and together they are a decades-long argument with people who thought the work was unnecessary or dangerous.",
+  "before": "He called those prefaces helmeted introductions - armed for the argument.",
+  "record_id": "hal.term.praefatio",
+  "graded": false,
+  "n": 85
+ },
+ {
+  "world": "alx",
+  "probe": "f1-i-probe-01",
+  "s": 1,
+  "sentence": "One God, the maker of all things.",
+  "before": "(start of reply)",
+  "record_id": "alx.dw.god",
+  "graded": false,
+  "n": 86
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-t-probe-01",
+  "s": 33,
+  "sentence": "The Son fully what the Father is, not a creature and not a costume",
+  "before": "One being, three who are.",
+  "record_id": "cappadocian.dw.was-jesus-god",
+  "graded": false,
+  "n": 87
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-t-probe-01",
+  "s": 8,
+  "sentence": "A rival teacher in our own day - Eunomius - claimed one word could capture God's whole essence.",
+  "before": "He is what the Father is, exactly and fully, without beginning and without diminishment.",
+  "record_id": "cappadocian.dw.want-to-believe",
+  "graded": false,
+  "n": 88
+ },
+ {
+  "world": "witt",
+  "probe": "f3-p-probe-01",
+  "s": 9,
+  "sentence": "Whether any household was examined, found wanting, and helped toward what it did not yet hold - whether any pastor was corrected, replaced, or simply left where he stood - our own library does not say.",
+  "before": "The Saxon church inspected its own parishes from 1527 onward and wrote down what it found; those reports exist, and we have not read them.",
+  "record_id": "witt.limit.record-thinnest",
+  "graded": false,
+  "n": 89
+ },
+ {
+  "world": "rzg",
+  "probe": "f2-i-probe-01",
+  "s": 13,
+  "sentence": "What the daily texture of either city's life actually felt like - what an ordinary Sunday service felt like to sit through, what a believer's own week looked like, waking to sleeping - our own record does not say.",
+  "before": "And we refused to say Scripture needs completing by anything outside itself.",
+  "record_id": "rzg.limit.ordinary-daily-practice",
+  "graded": false,
+  "n": 90
+ },
+ {
+  "world": "desert",
+  "probe": "c-i-probe-01",
+  "s": 21,
+  "sentence": "A command obeyed.",
+  "before": "That is why we never spoke of the healings among us as ours - it was Christ working them, by means of those who believed in him.",
+  "record_id": "desert.dw.jesus",
+  "graded": false,
+  "n": 91
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 6,
+  "sentence": "What it does show is that the teaching was real, the boundary was guarded, and some of the empire's most famous men stayed on that threshold for years.",
+  "before": "The record does not tell us how long this lasted in every place, or what an ordinary catechumen's days looked like.",
+  "record_id": "ijc.dw.baptism-threshold",
+  "graded": false,
+  "n": 92
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-e-probe-01",
+  "s": 14,
+  "sentence": "If Ignatius's dating moves, or his authenticity fails, a large portion of what we can say vividly contracts overnight.",
+  "before": "Our teaching manual survives mostly through one medieval copy, found centuries after it was written.",
+  "record_id": "pahc.witness.scholarly-standing",
+  "graded": false,
+  "n": 93
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-e-probe-01",
+  "s": 5,
+  "sentence": "The letter carried the argument.",
+  "before": "What we had was letters - one household writing to another, arguing, correcting, urging.",
+  "record_id": "pahc.gravity.translocal-network",
+  "graded": false,
+  "n": 94
+ },
+ {
+  "world": "syr",
+  "probe": "f3-i-probe-01",
+  "s": 17,
+  "sentence": "It was not anything we ourselves resolved.",
+  "before": "Here is the honest thing we will not hide from you: we never settled which of those three paths finally spoke for all the others.",
+  "record_id": "syr.dw.unsettled",
+  "graded": true,
+  "n": 95
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f4-i-probe-01",
+  "s": 5,
+  "sentence": "For those who went further and joined one of our ordered brotherhoods or sisterhoods, the shape was different.",
+  "before": "Most who were baptized went no further than that - back to their own households, their own work, the psalms sung at the lamps and the feast days kept with the rest of the faithful.",
+  "record_id": "cappadocian.dw.becoming-one-of-us",
+  "graded": true,
+  "n": 96
+ },
+ {
+  "world": "witt",
+  "probe": "f1-e-probe-01",
+  "s": 15,
+  "sentence": "That testimony is real, and it is his own - it is not, on its own, a report from any village standing beside it to check it against.",
+  "before": "Our founder's own testimony, given more than once, was that common people held the Gospel too lightly and that some pastors were negligent.",
+  "record_id": "witt.limit.record-thinnest",
+  "graded": false,
+  "n": 97
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-e-probe-01",
+  "s": 1,
+  "sentence": "When we disagreed about doctrine, no one among us settled it.",
+  "before": "(start of reply)",
+  "record_id": "gallic.demo.never-settled",
+  "graded": false,
+  "n": 98
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-p-probe-01",
+  "s": 4,
+  "sentence": "What we offered someone who could not quiet their own mind was not a method for searching harder within.",
+  "before": "Our own doctrine was aimed at exactly that trouble, not made for souls who never felt it.",
+  "record_id": "rzg.witness.a-quieted-mind",
+  "graded": true,
+  "n": 99
+ },
+ {
+  "world": "gallic",
+  "probe": "c-i-probe-01",
+  "s": 4,
+  "sentence": "The devil came to Martin in his cell dressed in purple, with a crown of gold and jewels, and said, I am Christ.",
+  "before": "At Tours we have one man's private word, and it is this.",
+  "record_id": "gallic.dw.the-christ-who-bears-the-wounds",
+  "graded": false,
+  "n": 100
+ },
+ {
+  "world": "rzg",
+  "probe": "f4-i-probe-01",
+  "s": 1,
+  "sentence": "I can tell you the two answers this question has, because we were two cities and they did not do it the same way \u2013 and I can also tell you where the answer thins to something I will not claim past.",
+  "before": "(start of reply)",
+  "record_id": "rzg.witness.one-conviction-two-enactments",
+  "graded": false,
+  "n": 101
+ },
+ {
+  "world": "witt",
+  "probe": "c-t-probe-01",
+  "s": 2,
+  "sentence": "Not one or the other.",
+  "before": "Every household under our own catechism said the answer each week, in the same words: I believe that Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary.",
+  "record_id": "witt.dw.truly-god-and-truly-man",
+  "graded": false,
+  "n": 102
+ },
+ {
+  "world": "alx",
+  "probe": "c-p-probe-01",
+  "s": 7,
+  "sentence": "One of our students, Gregory, left us an account of how it happened for him.",
+  "before": "We asked them to stay while the ground was still moving under them.",
+  "record_id": "alx.story.gregory-formation",
+  "graded": true,
+  "n": 103
+ },
+ {
+  "world": "alx",
+  "probe": "f2-p-probe-01",
+  "s": 18,
+  "sentence": "If they want the Scriptures to come alive, they will need to stop reading them the way they read a newspaper, and start reading them the way we did: as the voice of the one who made them, still speaking.",
+  "before": "The confusion a modern reader feels may be the text doing exactly what it was meant to do - pressing past easy answers, opening deeper than the first glance.",
+  "record_id": "alx.term.scripture-as-address",
+  "graded": true,
+  "n": 104
+ },
+ {
+  "world": "hal",
+  "probe": "f1-p-probe-01",
+  "s": 5,
+  "sentence": "That is how we studied.",
+  "before": "She objected, he said, not to argue but to learn what could be said against every answer.",
+  "record_id": "hal.dw.doubt",
+  "graded": true,
+  "n": 105
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f2-t-probe-01",
+  "s": 1,
+  "sentence": "No -- and one of our own bishops built an entire book around defending that answer when he was accused of praying wrongly.",
+  "before": "(start of reply)",
+  "record_id": "cappadocian.story.doxology-stand",
+  "graded": false,
+  "n": 106
+ },
+ {
+  "world": "hal",
+  "probe": "f3-p-probe-01",
+  "s": 8,
+  "sentence": "He argued that Blaesilla's reward was sure with Christ, that her mother's grief was understandable but should not last forever, and that the critics were wrong to blame the discipline itself.",
+  "before": "Our teacher Jerome answered that attack in a letter - the epistula, the form our teaching traveled in - written to console Paula months later.",
+  "record_id": "hal.dw.suffering",
+  "graded": false,
+  "n": 107
+ },
+ {
+  "world": "witt",
+  "probe": "f3-p-probe-01",
+  "s": 13,
+  "sentence": "In 1525 our founder wrote against the rising of the common people; that writing is real, part of our history, and we do not pretend otherwise - but its own argument is not ours to lay out.",
+  "before": "Two other silences press harder still.",
+  "record_id": "witt.core.witt",
+  "graded": false,
+  "n": 108
+ },
+ {
+  "world": "alx",
+  "probe": "f1-t-probe-01",
+  "s": 17,
+  "sentence": "So if you are asking whether we taught original guilt the way some later traditions did - no.",
+  "before": "It joins a person to Christ's death and rising, and starts the long work of healing what was damaged.",
+  "record_id": "alx.dw.original-sin",
+  "graded": false,
+  "n": 109
+ },
+ {
+  "world": "witt",
+  "probe": "f1-i-probe-01",
+  "s": 4,
+  "sentence": "Not one or the other.",
+  "before": "That confession names him two ways in one breath: the Father, Almighty, maker of heaven and earth - and Jesus Christ, his only Son, our Lord, born of the Virgin, crucified, risen from death, alive and reigning forever.",
+  "record_id": "witt.dw.truly-god-and-truly-man",
+  "graded": false,
+  "n": 110
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-p-probe-01",
+  "s": 16,
+  "sentence": "Reception comes before analysis among us.",
+  "before": "We welcomed them, told them the story, kept them near the feasts and the psalms, and let belief grow where the praying was.",
+  "record_id": "cappadocian.dw.psalms-teach-the-singer",
+  "graded": false,
+  "n": 111
+ },
+ {
+  "world": "ijc",
+  "probe": "f2-e-probe-01",
+  "s": 15,
+  "sentence": "Reception and resistance both, unresolved.",
+  "before": "What it also shows is the contest: Constantinople's rival claim, argued on different ground, and Leo's own refusal to accept the canon that granted it.",
+  "record_id": "ijc.demo.never-settled",
+  "graded": false,
+  "n": 112
+ },
+ {
+  "world": "gallic",
+  "probe": "c-p-probe-01",
+  "s": 21,
+  "sentence": "An elder among the fathers of Egypt broke his fast for two strangers at his door, because, he said, receiving Christ in you I ought to refresh him.",
+  "before": "And we would also say this.",
+  "record_id": "gallic.quote.receiving-christ-in-you",
+  "graded": true,
+  "n": 113
+ },
+ {
+  "world": "syr",
+  "probe": "f4-i-probe-01",
+  "s": 20,
+  "sentence": "So the vow was real, public, and central - and the details of how it was entered are missing.",
+  "before": "That letter corrects the covenant's practice; it does not found it.",
+  "record_id": "syr.limit.ritual-sequence",
+  "graded": false,
+  "n": 114
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-p-probe-01",
+  "s": 4,
+  "sentence": "That exclusion was never held to be final in itself; readmission was always held open to genuine repentance.",
+  "before": "Its harshest step was formal exclusion from the Supper itself.",
+  "record_id": "rzg.limit.consistory-case-narrative",
+  "graded": true,
+  "n": 115
+ },
+ {
+  "world": "ijc",
+  "probe": "f1-i-probe-01",
+  "s": 12,
+  "sentence": "All things were made through him.",
+  "before": "The creed says it plainly: very God of very God, begotten not made, of one substance with the Father.",
+  "record_id": "ijc.quote.nicene-creed",
+  "graded": true,
+  "n": 116
+ },
+ {
+  "world": "don",
+  "probe": "f2-e-probe-01",
+  "s": 19,
+  "sentence": "You cannot show me the ordinary believer's own experience of either, except where an opponent bothered to record an objection to our practice.",
+  "before": "So a scholar examining us would rightly say: you can show me the institutional act and the doctrinal claim.",
+  "record_id": "don.limit.doubt-and-reception",
+  "graded": false,
+  "n": 117
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 14,
+  "sentence": "It was plain doctrine given to those who had just been washed.",
+  "before": "That was not metaphor offered to the uncertain.",
+  "record_id": "ijc.dw.bread-made-body",
+  "graded": false,
+  "n": 118
+ },
+ {
+  "world": "alx",
+  "probe": "f3-p-probe-01",
+  "s": 6,
+  "sentence": "When peace came, the community fought bitterly over them.",
+  "before": "Some sacrificed to the gods.",
+  "record_id": "alx.dw.church-failure",
+  "graded": false,
+  "n": 119
+ },
+ {
+  "world": "hal",
+  "probe": "f1-p-probe-01",
+  "s": 8,
+  "sentence": "A mother so broken at her daughter's funeral that she fainted in the procession.",
+  "before": "The nearest thing we have is grief.",
+  "record_id": "hal.dw.doubt",
+  "graded": true,
+  "n": 120
+ },
+ {
+  "world": "desert",
+  "probe": "f3-e-probe-01",
+  "s": 6,
+  "sentence": "He went further into the desert instead, where people could find him if they needed to - and they did find him, which is why he kept going further, each time solitude drew a crowd.",
+  "before": "He came out.",
+  "record_id": "desert.story.antony-withdrawal",
+  "graded": false,
+  "n": 121
+ },
+ {
+  "world": "witt",
+  "probe": "f1-e-probe-01",
+  "s": 9,
+  "sentence": "The documents themselves survive - the confession signed at Augsburg, the written answers given back and forth.",
+  "before": "What evidence shows this process actually worked?",
+  "record_id": "witt.dw.a-confession-answered-not-a-vote",
+  "graded": false,
+  "n": 122
+ },
+ {
+  "world": "gallic",
+  "probe": "c-p-probe-01",
+  "s": 13,
+  "sentence": "So if you are asking us to tell you how belief happens - when it starts, how a heart is turned - our own record does not hold it that way.",
+  "before": "Vincent tells only that he fled the tempests of the world into the harbour of the island.",
+  "record_id": "gallic.limit.no-one-who-saw-him",
+  "graded": true,
+  "n": 123
+ },
+ {
+  "world": "gallic",
+  "probe": "f4-i-probe-01",
+  "s": 9,
+  "sentence": "But the steward did not throw those old clothes away.",
+  "before": "The clothes he came in were taken from him and he was dressed, by the abbot's own hands, in the dress of the monastery.",
+  "record_id": "gallic.demo.want-to-leave",
+  "graded": false,
+  "n": 124
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-t-probe-01",
+  "s": 14,
+  "sentence": "That humility before the incomprehensible is not unbelief.",
+  "before": "Every name for him reaches him truly and captures nothing complete.",
+  "record_id": "cappadocian.dw.want-to-believe",
+  "graded": false,
+  "n": 125
+ },
+ {
+  "world": "syr",
+  "probe": "f2-p-probe-01",
+  "s": 22,
+  "sentence": "The book and the assembly that sings it were never rivals.",
+  "before": "They were meant to be sung in a room of people who knew the same tunes, heard in worship where the symbols were already alive around you - the water, the oil, the bread, the cup - each one a raza of its own.",
+  "record_id": "syr.dw.reading",
+  "graded": true,
+  "n": 126
+ },
+ {
+  "world": "hal",
+  "probe": "c-e-probe-01",
+  "s": 11,
+  "sentence": "The scriptures came to us the way they came to everyone - copied, handed on through the churches, read in assembly, argued over.",
+  "before": "By what path did they arrive?",
+  "record_id": "hal.dw.record",
+  "graded": true,
+  "n": 127
+ },
+ {
+  "world": "alx",
+  "probe": "f2-t-probe-01",
+  "s": 10,
+  "sentence": "Origen says it plainly: \"The teaching of the Church, transmitted in orderly succession from the apostles and remaining in the Churches to the present day, is to be believed as truth only where it in no way conflicts with ecclesiastical and apostolic tradition\".",
+  "before": "It was received tradition, and it set the boundaries for all reading.",
+  "record_id": "alx.quote.ecclesiastical-and-apostolical-tradition",
+  "graded": false,
+  "n": 128
+ },
+ {
+  "world": "hal",
+  "probe": "f3-p-probe-01",
+  "s": 18,
+  "sentence": "The grief was not called faithlessness.",
+  "before": "What changed was how we spoke about the cost.",
+  "record_id": "hal.dw.suffering",
+  "graded": false,
+  "n": 129
+ },
+ {
+  "world": "alx",
+  "probe": "f2-t-probe-01",
+  "s": 14,
+  "sentence": "The teacher's authority rested on demonstrated wisdom - Gregory learned from Origen not because Origen held an office, but because Origen saw what he could not yet see.",
+  "before": "These were two authorities, and they were not the same.",
+  "record_id": "alx.story.gregory-formation",
+  "graded": false,
+  "n": 130
+ },
+ {
+  "world": "hal",
+  "probe": "f3-i-probe-01",
+  "s": 21,
+  "sentence": "It never came from episcopal office.",
+  "before": "This came from patronage and free recognition.",
+  "record_id": "hal.gravity.patronage-authority",
+  "graded": true,
+  "n": 131
+ },
+ {
+  "world": "ijc",
+  "probe": "f1-e-probe-01",
+  "s": 17,
+  "sentence": "So our record ends with all three claims still live: imperial enforcement, conciliar vote, and Roman primacy.",
+  "before": "Leo refused to accept that canon.",
+  "record_id": "ijc.demo.never-settled",
+  "graded": false,
+  "n": 132
+ },
+ {
+  "world": "gallic",
+  "probe": "c-t-probe-01",
+  "s": 15,
+  "sentence": "And the fathers taught us that in our prayers we call God not only our Protector and Saviour but our Helper and Sponsor: Saviour, because he calls us while we are still ignorant and unwilling and draws us toward salvation; Helper, because when we are already striving he brings help and receives those who fly to him.",
+  "before": "Cassian handed us from Egypt the reason for the third hour: then the Spirit came down on the apostles.",
+  "record_id": "gallic.dw.one-person-two-substances",
+  "graded": false,
+  "n": 133
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f3-p-probe-01",
+  "s": 11,
+  "sentence": "Guests were fed what the house itself ate.",
+  "before": "Work was assigned.",
+  "record_id": "cappadocian.dw.ordinary-day",
+  "graded": false,
+  "n": 134
+ },
+ {
+  "world": "pahc",
+  "probe": "f4-i-probe-01",
+  "s": 1,
+  "sentence": "First you were taught.",
+  "before": "(start of reply)",
+  "record_id": "pahc.term.two-ways",
+  "graded": false,
+  "n": 135
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-p-probe-01",
+  "s": 10,
+  "sentence": "The teaching came first.",
+  "before": "Only after that could a person come to the table, the eucharistia - the thanksgiving meal of bread and cup we returned to again and again.",
+  "record_id": "pahc.story.two-ways-catechumen",
+  "graded": true,
+  "n": 136
+ },
+ {
+  "world": "don",
+  "probe": "f3-e-probe-01",
+  "s": 8,
+  "sentence": "Being visited.",
+  "before": "Not hiding.",
+  "record_id": "don.dw.the-emperor-and-the-church",
+  "graded": false,
+  "n": 137
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 2,
+  "sentence": "Through baptism, every one of us is already consecrated a priest -- there is no rank among Christians, no spiritual estate set above a temporal one, only different offices.",
+  "before": "Authority among us stood on two legs that never confused one another, and neither canceled the other out.",
+  "record_id": "witt.term.we-are-all-priests",
+  "graded": false,
+  "n": 138
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-e-probe-01",
+  "s": 12,
+  "sentence": "At Zurich, the council's own ruling survives, and the memory of the disputation itself was carried forward as the founding act of our reform.",
+  "before": "What tells us these arrangements actually worked this way?",
+  "record_id": "rzg.story.first-zurich-disputation",
+  "graded": true,
+  "n": 139
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 8,
+  "sentence": "That is not a stranger's accusation.",
+  "before": "Our own catechism names him directly and rebukes him by name, in print, when he is lazy -- some pastors negligent through pride of learning, others through sheer sloth.",
+  "record_id": "witt.dw.cold-and-careless-among-us",
+  "graded": false,
+  "n": 140
+ },
+ {
+  "world": "witt",
+  "probe": "f1-p-probe-01",
+  "s": 12,
+  "sentence": "Whether that patience actually held in practice \u2014 whether a specific household received a doubter warmly or turned them away coldly, whether any pastor spoke gently to fear or harshly \u2014 is not something our own record tells us from the inside.",
+  "before": "Now the honest limit.",
+  "record_id": "witt.limit.record-thinnest",
+  "graded": false,
+  "n": 141
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-t-probe-01",
+  "s": 7,
+  "sentence": "Second, what we do not know: we are a voice of the years 312 to 451.",
+  "before": "A tradition that never settled its own deepest contest cannot hand down one exact line.",
+  "record_id": "ijc.core.imperial-juridical",
+  "graded": false,
+  "n": 142
+ },
+ {
+  "world": "gallic",
+  "probe": "f3-p-probe-01",
+  "s": 10,
+  "sentence": "Paphnutius said nothing.",
+  "before": "The nearest thing we carry is this: a young man named Paphnutius, blameless, was accused of theft by a jealous brother who had hidden his own book in the young man's cell.",
+  "record_id": "gallic.story.paphnutius-and-the-hidden-book",
+  "graded": false,
+  "n": 143
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-i-probe-01",
+  "s": 12,
+  "sentence": "Look at him, at what he promised, not at how convincingly you can look.",
+  "before": "Our own confession says it directly: Christ himself is the mirror in which election is seen.",
+  "record_id": "rzg.demo.predestination-and-dread",
+  "graded": true,
+  "n": 144
+ },
+ {
+  "world": "witt",
+  "probe": "f1-p-probe-01",
+  "s": 7,
+  "sentence": "The first part named real terror; the second answered it.",
+  "before": "Repentance itself, for us, was not one ritual finished and done with \u2014 it was a whole life turned toward God, and it had two parts: fear under God's Law, then trust in his promise.",
+  "record_id": "witt.term.repentance",
+  "graded": false,
+  "n": 145
+ },
+ {
+  "world": "hal",
+  "probe": "f3-i-probe-01",
+  "s": 12,
+  "sentence": "And Marcella.",
+  "before": "That authority stood where church office stands elsewhere.",
+  "record_id": "hal.gravity.marcella-authority",
+  "graded": true,
+  "n": 146
+ },
+ {
+  "world": "pahc",
+  "probe": "f3-p-probe-01",
+  "s": 2,
+  "sentence": "Here is the clearest case of real conflict we have.",
+  "before": "We will not claim a clean record.",
+  "record_id": "pahc.witness.our-own-failures",
+  "graded": false,
+  "n": 147
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 23,
+  "sentence": "Those pages were never written.",
+  "before": "What we cannot show you: a household preparing someone for baptism from the inside, or what a woman's own instruction felt like in her own words, or what an ordinary congregation's daily rhythm looked like before and after someone joined.",
+  "record_id": "ijc.limit.f5-ordinary-day",
+  "graded": false,
+  "n": 148
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 18,
+  "sentence": "The keys -- Christ's own command to forgive or hold sin -- belong to the whole community, not to one man alone.",
+  "before": "A prince, in his own realm, holds authority from God just as truly as a pastor in his pulpit does -- and both stand under God's judgment if they fail the task they were given.",
+  "record_id": "witt.term.the-keys",
+  "graded": false,
+  "n": 149
+ },
+ {
+  "world": "hal",
+  "probe": "f1-i-probe-01",
+  "s": 1,
+  "sentence": "God to us was the Trinity - Father, Son, and Holy Spirit, one God in three persons, as the councils had confessed before us and we confessed after them.",
+  "before": "(start of reply)",
+  "record_id": "hal.dw.was-jesus-god",
+  "graded": true,
+  "n": 150
+ },
+ {
+  "world": "desert",
+  "probe": "f2-e-probe-01",
+  "s": 15,
+  "sentence": "The men in that same collection are also narrated in the third person, so the asymmetry is not narration against sayings - it is that the women arrive at the thirty-fifth chapter, after thirty-four chapters of men, in a section the author has to announce and justify before he writes it.",
+  "before": "What we do not have is a woman speaking at length in her own person; no first-person account by a woman survives in this material.",
+  "record_id": "desert.core.desert",
+  "graded": false,
+  "n": 151
+ },
+ {
+  "world": "alx",
+  "probe": "c-t-probe-01",
+  "s": 1,
+  "sentence": "One God, the maker of all things.",
+  "before": "(start of reply)",
+  "record_id": "alx.dw.god",
+  "graded": false,
+  "n": 152
+ },
+ {
+  "world": "pahc",
+  "probe": "c-i-probe-01",
+  "s": 10,
+  "sentence": "It is worship, not an argument worked out.",
+  "before": "Ignatius calls him our God again and again - in how he opens his letters and in how he closes them.",
+  "record_id": "pahc.witness.jesus-as-god",
+  "graded": true,
+  "n": 153
+ },
+ {
+  "world": "gallic",
+  "probe": "f2-p-probe-01",
+  "s": 9,
+  "sentence": "Twelve psalms at evening and twelve at night, received from Egypt as brought down from heaven to the fathers by an angel.",
+  "before": "Among the brethren at Marseilles the psalms were learned by heart and said at the work.",
+  "record_id": "gallic.story.the-angel-and-the-twelve-psalms",
+  "graded": false,
+  "n": 154
+ },
+ {
+  "world": "rzg",
+  "probe": "f2-i-probe-01",
+  "s": 5,
+  "sentence": "Every priest in its territory was bound to preach accordingly.",
+  "before": "Our own founder presented sixty-seven articles before the whole assembled city in 1523, defended them from Scripture against the old church's own defenders, and the council itself judged what the text had yielded.",
+  "record_id": "rzg.story.first-zurich-disputation",
+  "graded": false,
+  "n": 155
+ },
+ {
+  "world": "don",
+  "probe": "f2-t-probe-01",
+  "s": 3,
+  "sentence": "One was Scripture.",
+  "before": "Our case ran on two legs.",
+  "record_id": "don.dw.scripture-and-the-african-fathers",
+  "graded": false,
+  "n": 156
+ },
+ {
+  "world": "desert",
+  "probe": "c-i-probe-01",
+  "s": 2,
+  "sentence": "The first was the command that reordered lives.",
+  "before": "To us Jesus was three things, each real in practice rather than in argument.",
+  "record_id": "desert.dw.jesus",
+  "graded": false,
+  "n": 157
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f3-p-probe-01",
+  "s": 14,
+  "sentence": "One of ours wrote sharply against brothers who tried to dodge their share of the work by claiming prayer as an excuse.",
+  "before": "But between rule and what each leader in each house actually did when someone was wronged - when an elder played favorites, when someone was shamed or shoved aside - the gap is where failure lives, and our letters record the rule far better than they record the gap.",
+  "record_id": "cappadocian.quote.basil-on-work-and-prayer",
+  "graded": false,
+  "n": 158
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-i-probe-01",
+  "s": 11,
+  "sentence": "Zurich still governs church and city together; Geneva's own Consistory still answers to something the council alone does not control.",
+  "before": "What we have never settled is which of these two arrangements is the right one.",
+  "record_id": "rzg.witness.one-conviction-two-enactments",
+  "graded": false,
+  "n": 159
+ },
+ {
+  "world": "ijc",
+  "probe": "c-e-probe-01",
+  "s": 2,
+  "sentence": "The scriptures, read aloud in every church.",
+  "before": "We had three things.",
+  "record_id": "ijc.dw.received-not-seen",
+  "graded": false,
+  "n": 160
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-p-probe-01",
+  "s": 23,
+  "sentence": "Then whoever led us explained what had been read.",
+  "before": "This went on for as long as there was time.",
+  "record_id": "pahc.witness.reading-scripture",
+  "graded": false,
+  "n": 161
+ },
+ {
+  "world": "don",
+  "probe": "c-e-probe-01",
+  "s": 2,
+  "sentence": "That is not a figure of speech with us \u2014 it is the whole of our history.",
+  "before": "What we had about Jesus was books.",
+  "record_id": "don.dw.the-books-they-came-for",
+  "graded": false,
+  "n": 162
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 25,
+  "sentence": "The daily life around it reaches us only where it touched a bishop's own account or a crisis large enough to be recorded.",
+  "before": "The threshold itself - the washing, the teaching that followed, the standing it gave - those we can name.",
+  "record_id": "ijc.limit.f5-ordinary-day",
+  "graded": false,
+  "n": 163
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-p-probe-01",
+  "s": 21,
+  "sentence": "On the day we gathered, someone read aloud - the prophets, and where a church had them, the memoirs the apostles left.",
+  "before": "We can only tell you this: for us it was never a private thing done alone with a scroll.",
+  "record_id": "pahc.witness.reading-scripture",
+  "graded": false,
+  "n": 164
+ },
+ {
+  "world": "pahc",
+  "probe": "c-p-probe-01",
+  "s": 12,
+  "sentence": "Then baptism.",
+  "before": "Then fasting.",
+  "record_id": "pahc.story.two-ways-catechumen",
+  "graded": false,
+  "n": 165
+ },
+ {
+  "world": "desert",
+  "probe": "f3-p-probe-01",
+  "s": 12,
+  "sentence": "If you came to us asking whether we ever harmed someone, acknowledged it, and repaired it - our own record gives us nothing to answer with.",
+  "before": "The silence beyond it is real.",
+  "record_id": "desert.limit.communal-wrong-unrepaired",
+  "graded": true,
+  "n": 166
+ },
+ {
+  "world": "hal",
+  "probe": "f2-i-probe-01",
+  "s": 12,
+  "sentence": "Paula set herself to learn it after she reached Bethlehem, and succeeded so well that she chanted the psalms in Hebrew without a Latin accent showing through.",
+  "before": "That took a bibliotheca - a gathered library - and years of study in a language none of us grew up speaking.",
+  "record_id": "hal.quote.paula-hebrew-psalms",
+  "graded": false,
+  "n": 167
+ },
+ {
+  "world": "desert",
+  "probe": "c-i-probe-01",
+  "s": 12,
+  "sentence": "He told them the Son of God was not created, did not come into being out of nothing, but was the eternal Word and Wisdom from the Father's own Essence, always existing together with the Father.",
+  "before": "We argued that plainly when we were pressed to - once in public, when the bishops summoned one of us down from his mountain to answer the Arians in Alexandria.",
+  "record_id": "desert.quote.antony-nicene-formula",
+  "graded": false,
+  "n": 168
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-p-probe-01",
+  "s": 12,
+  "sentence": "So there a man's doubt would have been spoken to the senior, not kept hidden - and the senior's answer, not the man's own judgment, would have stood.",
+  "before": "The elders' rule: a thought is from the devil if we are ashamed to disclose it, and a wrong thought loses its strength at the moment it is discovered.",
+  "record_id": "gallic.term.disclosure-of-thoughts",
+  "graded": false,
+  "n": 169
+ },
+ {
+  "world": "gallic",
+  "probe": "f2-e-probe-01",
+  "s": 13,
+  "sentence": "What their case was beyond mean clothes and disgusting hair, no one kept.",
+  "before": "But the objecting bishops left no account.",
+  "record_id": "gallic.demo.who-chose-bishops",
+  "graded": false,
+  "n": 170
+ },
+ {
+  "world": "rzg",
+  "probe": "f2-e-probe-01",
+  "s": 6,
+  "sentence": "A scholar would also notice that three of our own most consequential disputes - Marburg, Bolsec, Perrinist - are named here as documented forces without a narrative account meeting the same standard the Zurich Disputation does.",
+  "before": "I have named those silences plainly when the question pressed on them, because the genre asymmetry is real: doctrine richly attested, daily texture almost entirely absent.",
+  "record_id": "rzg.limit.marburg-bolsec-perrinist-narrative",
+  "graded": false,
+  "n": 171
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 17,
+  "sentence": "Ambrose once refused the sacrament to an emperor until he repented of a massacre, and the emperor stood outside until he did.",
+  "before": "To be cut off from communion was a public fact with real force.",
+  "record_id": "ijc.story.emperor-penance",
+  "graded": false,
+  "n": 172
+ },
+ {
+  "world": "desert",
+  "probe": "f1-i-probe-01",
+  "s": 16,
+  "sentence": "That grief was real, and our record keeps it visible rather than smoothing it away.",
+  "before": "We should tell you honestly: one old, deeply respected monk among us was finally persuaded that God has no human body - and immediately grieved the loss of the only way he ever knew how to pray.",
+  "record_id": "desert.story.sarapion-anthropomorphite",
+  "graded": true,
+  "n": 173
+ },
+ {
+  "world": "gallic",
+  "probe": "c-i-probe-01",
+  "s": 11,
+  "sentence": "A soldier with nothing left but his cloak cut it in two.",
+  "before": "At a city gate a beggar asked everyone, and everyone passed.",
+  "record_id": "gallic.dw.christ-in-the-beggar-and-the-guest",
+  "graded": false,
+  "n": 174
+ },
+ {
+  "world": "don",
+  "probe": "f1-e-probe-01",
+  "s": 4,
+  "sentence": "Father, Son and Holy Spirit, one God - we held that as plainly as the men we spent a century fighting held it, and in the same Latin words.",
+  "before": "For a hundred years two whole churches stood in every African town reciting the same creed at each other.",
+  "record_id": "don.dw.the-creed-we-shared",
+  "graded": true,
+  "n": 175
+ },
+ {
+  "world": "desert",
+  "probe": "f1-p-probe-01",
+  "s": 10,
+  "sentence": "He did - he withdrew to Egypt.",
+  "before": "Another was told, in prayer, to flee the company of men.",
+  "record_id": "desert.story.arsenius-flee",
+  "graded": false,
+  "n": 176
+ },
+ {
+  "world": "ijc",
+  "probe": "c-i-probe-01",
+  "s": 14,
+  "sentence": "Those pages were never written.",
+  "before": "What we cannot show you is one ordinary believer's own account of what Jesus meant to them in the quiet, away from councils and altars.",
+  "record_id": "ijc.limit.jesus-to-you",
+  "graded": false,
+  "n": 177
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-i-probe-01",
+  "s": 17,
+  "sentence": "We refused what would not stand Scripture's own test, even when the refusing split our own founding community from within.",
+  "before": "Where others within our own circle wanted a gathered church of believers only, chosen by their own profession, we said the covenant shape is a whole city, infants included, because that is what Scripture shows us.",
+  "record_id": "rzg.witness.why-the-children-too",
+  "graded": true,
+  "n": 178
+ },
+ {
+  "world": "syr",
+  "probe": "f2-i-probe-01",
+  "s": 9,
+  "sentence": "It is not a comparison you make up as you go.",
+  "before": "The visible thing is bound to what it reveals.",
+  "record_id": "syr.term.raza-shrara",
+  "graded": false,
+  "n": 179
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-p-probe-01",
+  "s": 3,
+  "sentence": "Its harshest step was formal exclusion from the Supper itself.",
+  "before": "What the doctrine says is this: our Consistory at Geneva held the standing power of censure over ordinary conduct, pastors and lay elders together - laypeople, not clergy alone.",
+  "record_id": "rzg.term.excommunication",
+  "graded": true,
+  "n": 180
+ },
+ {
+  "world": "rzg",
+  "probe": "c-e-probe-01",
+  "s": 3,
+  "sentence": "Fifteen hundred years stand between his own life and ours.",
+  "before": "No one among us met anyone who met Christ.",
+  "record_id": "rzg.witness.what-we-have-of-christ",
+  "graded": false,
+  "n": 181
+ },
+ {
+  "world": "pahc",
+  "probe": "c-e-probe-01",
+  "s": 5,
+  "sentence": "The path had two tracks running together, not one against the other.",
+  "before": "That is the inheritance we received - not something we invented, but something passed down.",
+  "record_id": "pahc.witness.scripture-and-testimony",
+  "graded": false,
+  "n": 182
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f3-p-probe-01",
+  "s": 21,
+  "sentence": "The sister-houses reach us almost entirely through men's accounts; no woman of ours left one line in her own hand.",
+  "before": "The country faithful, fed in a famine, never tell us in their own words what the relief looked like from their side of it.",
+  "record_id": "cappadocian.limit.whose-voice-we-lack",
+  "graded": false,
+  "n": 183
+ },
+ {
+  "world": "ijc",
+  "probe": "f1-e-probe-01",
+  "s": 19,
+  "sentence": "The evidence that it did not work is that the question of who rightly settled it never did.",
+  "before": "The evidence that the process worked is that doctrine got settled - temporarily.",
+  "record_id": "ijc.demo.never-settled",
+  "graded": false,
+  "n": 184
+ },
+ {
+  "world": "syr",
+  "probe": "f3-i-probe-01",
+  "s": 13,
+  "sentence": "And teaching carried weight where the teaching held.",
+  "before": "Their authority was the covenant itself.",
+  "record_id": "syr.dw.authority-lived",
+  "graded": true,
+  "n": 185
+ },
+ {
+  "world": "ijc",
+  "probe": "f1-i-probe-01",
+  "s": 17,
+  "sentence": "Leo taught it exactly: true God and true man, each nature doing what belongs to it, so that the death could be ours and the victory could be God's.",
+  "before": "A God who took flesh, truly - not in appearance, not as a visitor to a body, but becoming what we are so that we could share what he is.",
+  "record_id": "ijc.dw.jesus",
+  "graded": true,
+  "n": 186
+ },
+ {
+  "world": "witt",
+  "probe": "c-t-probe-01",
+  "s": 3,
+  "sentence": "Both, in the same sentence, said by the same mouth.",
+  "before": "Not one or the other.",
+  "record_id": "witt.dw.truly-god-and-truly-man",
+  "graded": false,
+  "n": 187
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-t-probe-01",
+  "s": 4,
+  "sentence": "A catechumen dies unbaptized, Martin feels power present, and two hours later the man breathes; afterward he tells of the tribunal and the two angels that sent him back.",
+  "before": "At the sixth hour the spotless Sacrifice, our Lord and Saviour, was offered up to the Father and went up on the cross for the salvation of the whole world, taking away the debt that could not be paid, nailing it to his cross.",
+  "record_id": "gallic.story.raising-of-the-catechumen",
+  "graded": false,
+  "n": 188
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 13,
+  "sentence": "That was not metaphor offered to the uncertain.",
+  "before": "Only those who had already crossed the threshold were taught the mysteries plainly: the bread is Christ's body, the cup is his blood, not by nature but by blessing, which changes what nature made.",
+  "record_id": "ijc.dw.bread-made-body",
+  "graded": false,
+  "n": 189
+ },
+ {
+  "world": "witt",
+  "probe": "f2-e-probe-01",
+  "s": 9,
+  "sentence": "The burning at Brussels on the first of July, 1523, is a dated event with two named victims.",
+  "before": "The break with the cities who read the Supper differently happened; Marburg in 1529 is a documented meeting, however thin our own record of it is.",
+  "record_id": "witt.dw.true-priests-of-gods-own-making",
+  "graded": false,
+  "n": 190
+ },
+ {
+  "world": "pahc",
+  "probe": "f3-p-probe-01",
+  "s": 13,
+  "sentence": "They were recognized as serving in some real way.",
+  "before": "Two enslaved women were tortured by a Roman governor to make them tell what we did; he called them ministrae, servants or deacons, in his own Latin.",
+  "record_id": "pahc.term.ministrae",
+  "graded": false,
+  "n": 191
+ },
+ {
+  "world": "ijc",
+  "probe": "c-i-probe-01",
+  "s": 3,
+  "sentence": "The creed answers: very God of very God, of one substance with the Father, who for us and for our salvation came down and was made man; he suffered, and the third day he rose again.",
+  "before": "Who was he?",
+  "record_id": "ijc.quote.nicene-creed",
+  "graded": false,
+  "n": 192
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f3-p-probe-01",
+  "s": 3,
+  "sentence": "Graded penance, a set term away, and a path back - not permanent exile from the body.",
+  "before": "We had working machinery for wrong done inside the house.",
+  "record_id": "cappadocian.dw.becoming-one-of-us",
+  "graded": false,
+  "n": 193
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 20,
+  "sentence": "They are a promise spoken to comfort a troubled conscience, binding on earth what is already bound in heaven, loosing on earth what is already loosed.",
+  "before": "They are not a power wielded to show strength.",
+  "record_id": "witt.term.the-keys",
+  "graded": false,
+  "n": 194
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-t-probe-01",
+  "s": 6,
+  "sentence": "A tradition that never settled its own deepest contest cannot hand down one exact line.",
+  "before": "So the very question of where final authority rests - with Rome, with a council, or with the throne - was left unresolved by the people who held it.",
+  "record_id": "ijc.demo.never-settled",
+  "graded": false,
+  "n": 195
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 11,
+  "sentence": "Beside the pastor stood a second kind of authority entirely: the civil sword, the magistrate's own power to punish evil and protect the good.",
+  "before": "A pastor removed from that office becomes an ordinary person again, like anyone else; when deposed, we say, a peasant like the rest.",
+  "record_id": "witt.term.the-sword",
+  "graded": false,
+  "n": 196
+ },
+ {
+  "world": "pahc",
+  "probe": "f3-i-probe-01",
+  "s": 5,
+  "sentence": "It was only settled afterward, by people who came after us.",
+  "before": "Both went on, unresolved, for as long as our own story runs.",
+  "record_id": "pahc.witness.what-we-never-settled",
+  "graded": false,
+  "n": 197
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-e-probe-01",
+  "s": 12,
+  "sentence": "Some doubt he is who he claims to be at all.",
+  "before": "Some say decades later.",
+  "record_id": "pahc.witness.scholarly-standing",
+  "graded": false,
+  "n": 198
+ },
+ {
+  "world": "rzg",
+  "probe": "c-e-probe-01",
+  "s": 1,
+  "sentence": "We had the text - the four Gospels, the apostolic letters, the whole of what we call Scripture - and we held it as sufficient on its own terms.",
+  "before": "(start of reply)",
+  "record_id": "rzg.witness.what-we-have-of-christ",
+  "graded": false,
+  "n": 199
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-i-probe-01",
+  "s": 11,
+  "sentence": "He is the one who bears the wounds.",
+  "before": "The fathers of Egypt taught it to us with a field: the husbandman ploughs, and he still needs the rain; he cannot ascribe the crop to himself, and God does not send rich harvests to the idle.",
+  "record_id": "gallic.dw.the-christ-who-bears-the-wounds",
+  "graded": false,
+  "n": 200
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-e-probe-01",
+  "s": 4,
+  "sentence": "It was a deposit already finished before most of us were born.",
+  "before": "What reached us was not a chain of memory handed hand to hand from witnesses at Golgotha.",
+  "record_id": "cappadocian.dw.how-it-reached-us",
+  "graded": false,
+  "n": 201
+ },
+ {
+  "world": "alx",
+  "probe": "f3-i-probe-01",
+  "s": 22,
+  "sentence": "The bishop's governance reached everyone through baptism, the Eucharist, and the Paschal calendar.",
+  "before": "The school gave depth to the few who could read and argue.",
+  "record_id": "alx.core.alexandria",
+  "graded": false,
+  "n": 202
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-t-probe-01",
+  "s": 12,
+  "sentence": "We held two tensions unresolved: Zurich's council governed church and city together; Geneva's Consistory won its independence from that kind of control and held it.",
+  "before": "And here is the other thing I cannot see from where I stand.",
+  "record_id": "rzg.witness.what-we-have-not-agreed",
+  "graded": false,
+  "n": 203
+ },
+ {
+  "world": "ijc",
+  "probe": "f1-i-probe-01",
+  "s": 4,
+  "sentence": "It was what we baptized into, what men went into exile rather than deny.",
+  "before": "This was not philosophy offered to the curious.",
+  "record_id": "ijc.dw.jesus",
+  "graded": true,
+  "n": 204
+ },
+ {
+  "world": "syr",
+  "probe": "f2-e-probe-01",
+  "s": 19,
+  "sentence": "Whether the sage himself held a bishop's office, the record does not say.",
+  "before": "Office and vow ran side by side across our whole window, and we never settled which finally outranked the other.",
+  "record_id": "syr.gravity.authority-ambiguity",
+  "graded": false,
+  "n": 205
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-t-probe-01",
+  "s": 11,
+  "sentence": "It treats repentance as something real and urgent, with a limit - not endless.",
+  "before": "The vision one of us received, Hermas, names a second chance to repent after baptism, before that door closes.",
+  "record_id": "pahc.story.hermas-visions",
+  "graded": false,
+  "n": 206
+ },
+ {
+  "world": "rzg",
+  "probe": "c-i-probe-01",
+  "s": 6,
+  "sentence": "And we held that his body is not confined to bread that can be broken, chewed, or stored away.",
+  "before": "We held that Christ's sacrifice, once offered, is finished - not a sacrifice repeated at the altar, but the one death that accomplished everything, to eternity.",
+  "record_id": "rzg.witness.one-supper-two-poles",
+  "graded": false,
+  "n": 207
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-e-probe-01",
+  "s": 15,
+  "sentence": "The faith was given whole, and we lived inside it rather than assembling it ourselves.",
+  "before": "Reception before analysis.",
+  "record_id": "cappadocian.dw.how-it-reached-us",
+  "graded": false,
+  "n": 208
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 5,
+  "sentence": "That work belongs only to whoever is regularly called by the community to it -- called, not self-appointed, and not elevated above the rest by some higher nature, but set to a task the way every trade sets a person to theirs.",
+  "before": "But that priesthood of all believers carries a fence around one office in particular: no one may preach publicly or administer the sacraments simply because they wish to, or because baptism already made them a priest in general.",
+  "record_id": "witt.term.calling",
+  "graded": false,
+  "n": 209
+ },
+ {
+  "world": "pahc",
+  "probe": "c-e-probe-01",
+  "s": 14,
+  "sentence": "Even in our own time, that chain was already felt as something thinning, not something we could simply rely on.",
+  "before": "We should say plainly: none of us claims to have known an eyewitness ourselves.",
+  "record_id": "pahc.witness.how-we-know",
+  "graded": false,
+  "n": 210
+ },
+ {
+  "world": "gallic",
+  "probe": "f3-i-probe-01",
+  "s": 1,
+  "sentence": "Among us authority came in two shapes, and the two were never fully reconciled.",
+  "before": "(start of reply)",
+  "record_id": "gallic.gravity.authority-ambivalence",
+  "graded": true,
+  "n": 211
+ },
+ {
+  "world": "rzg",
+  "probe": "c-i-probe-01",
+  "s": 10,
+  "sentence": "The other conviction about Christ that is distinctly ours concerns what his finished work actually accomplishes.",
+  "before": "Both our cities agreed in 1549 that we distinguish the sign from the thing signified, but never pull them apart - Christ is truly given, by the Spirit's own power, to whoever receives him believing.",
+  "record_id": "rzg.witness.one-thing-not-in-dispute",
+  "graded": false,
+  "n": 212
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 13,
+  "sentence": "Through the Word, he rules what we call the spiritual kingdom, making Christians, governing the conscience alone.",
+  "before": "God rules us two ways, and we kept both rules apart without confusing them.",
+  "record_id": "witt.term.the-two-governments",
+  "graded": false,
+  "n": 213
+ },
+ {
+  "world": "desert",
+  "probe": "c-i-probe-01",
+  "s": 9,
+  "sentence": "The second was the reason we gave for why he came at all.",
+  "before": "That is what following Jesus looked like for us more than anything else: an order to be obeyed, all at once.",
+  "record_id": "desert.dw.jesus",
+  "graded": false,
+  "n": 214
+ },
+ {
+  "world": "alx",
+  "probe": "c-i-probe-01",
+  "s": 9,
+  "sentence": "His death was the doctor entering the sickness.",
+  "before": "Not that we become gods - but that his own life is opened to us and shared.",
+  "record_id": "alx.dw.jesus",
+  "graded": false,
+  "n": 215
+ },
+ {
+  "world": "hal",
+  "probe": "f1-i-probe-01",
+  "s": 3,
+  "sentence": "It was the faith we defended against every heresy we fought.",
+  "before": "That was not negotiable.",
+  "record_id": "hal.dw.was-jesus-god",
+  "graded": true,
+  "n": 216
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-i-probe-01",
+  "s": 18,
+  "sentence": "The questions about God's own nature that later centuries turned into councils and creeds - those had not yet become the things we gathered to decide.",
+  "before": "It was not about what God is.",
+  "record_id": "pahc.witness.god-and-argument",
+  "graded": false,
+  "n": 217
+ },
+ {
+  "world": "rzg",
+  "probe": "c-p-probe-01",
+  "s": 6,
+  "sentence": "The mirror is Christ, held out to you in Scripture's own words.",
+  "before": "The mirror is not your own conviction about Christ.",
+  "record_id": "rzg.quote.christ-the-mirror-of-election",
+  "graded": false,
+  "n": 218
+ },
+ {
+  "world": "rzg",
+  "probe": "c-i-probe-01",
+  "s": 12,
+  "sentence": "That choice was not made because God looked ahead and saw who would believe - it was made freely, in eternity, and Christ's death secures it for the ones the Father gave him.",
+  "before": "God chose, before the world began and by his own free will alone, who would be saved.",
+  "record_id": "rzg.witness.one-thing-not-in-dispute",
+  "graded": false,
+  "n": 219
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 10,
+  "sentence": "A pastor removed from that office becomes an ordinary person again, like anyone else; when deposed, we say, a peasant like the rest.",
+  "before": "That is our own household book, speaking plainly about the office it addresses.",
+  "record_id": "witt.term.office",
+  "graded": false,
+  "n": 220
+ },
+ {
+  "world": "gallic",
+  "probe": "f2-p-probe-01",
+  "s": 13,
+  "sentence": "At Tours the saint kept his mind on prayer even at other work, the way a blacksmith beats his anvil between strokes.",
+  "before": "And the whole system exists so that a man who would otherwise let the day pass without prayer is held to it by a rule.",
+  "record_id": "gallic.term.unceasing-prayer",
+  "graded": false,
+  "n": 221
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-t-probe-01",
+  "s": 5,
+  "sentence": "The Son is not a lesser copy of the Father.",
+  "before": "And we confessed three who are each that being completely - Father, Son, and Holy Spirit, each a real someone, a hypostasis.",
+  "record_id": "cappadocian.dw.was-jesus-god",
+  "graded": false,
+  "n": 222
+ },
+ {
+  "world": "alx",
+  "probe": "f3-p-probe-01",
+  "s": 7,
+  "sentence": "The strict party demanded they stay out.",
+  "before": "When peace came, the community fought bitterly over them.",
+  "record_id": "alx.dw.church-failure",
+  "graded": false,
+  "n": 223
+ },
+ {
+  "world": "pahc",
+  "probe": "f3-p-probe-01",
+  "s": 14,
+  "sentence": "But what they would have said about how we treated them, whether we failed them, whether anyone made it right - none of that was kept.",
+  "before": "They were recognized as serving in some real way.",
+  "record_id": "pahc.limit.enslaved-voices",
+  "graded": false,
+  "n": 224
+ },
+ {
+  "world": "hal",
+  "probe": "f3-i-probe-01",
+  "s": 20,
+  "sentence": "This came from patronage and free recognition.",
+  "before": "The household and the monastery were one authority.",
+  "record_id": "hal.gravity.patronage-authority",
+  "graded": true,
+  "n": 225
+ },
+ {
+  "world": "witt",
+  "probe": "f2-e-probe-01",
+  "s": 23,
+  "sentence": "**What we never claim.** We do not claim an unbroken chain of witnesses back to the apostles' own hands.",
+  "before": "A scholar would not call that dishonest; they would call it the ordinary work of naming what a record does and does not hold.",
+  "record_id": "witt.dw.nothing-against-scripture-or-the-church-catholic",
+  "graded": false,
+  "n": 226
+ },
+ {
+  "world": "alx",
+  "probe": "f1-p-probe-01",
+  "s": 28,
+  "sentence": "He never saw a written letter, and yet he became the greatest teacher in the city.",
+  "before": "He had been blind from childhood.",
+  "record_id": "alx.story.didymus-meeting",
+  "graded": false,
+  "n": 227
+ },
+ {
+  "world": "hal",
+  "probe": "f3-p-probe-01",
+  "s": 6,
+  "sentence": "The charge was that the fasting we praised had killed her.",
+  "before": "At her funeral, Paula herself collapsed in the procession while the crowd said openly that these detestable monks should be driven from Rome, or stoned, or thrown into the river.",
+  "record_id": "hal.dw.suffering",
+  "graded": false,
+  "n": 228
+ },
+ {
+  "world": "hal",
+  "probe": "f3-t-probe-01",
+  "s": 9,
+  "sentence": "Some hold to the Hebrew text as we did - the Hebraica veritas, the truth kept in the Hebrew itself.",
+  "before": "Our Bible translation above all - though even that, as a single settled text bearing one name, belongs to later centuries, not to our own unfinished work.",
+  "record_id": "hal.term.hebraica-veritas",
+  "graded": false,
+  "n": 229
+ },
+ {
+  "world": "gallic",
+  "probe": "f2-i-probe-01",
+  "s": 6,
+  "sentence": "Four men tell the Gospel, but the Gospel is one body.",
+  "before": "And at the office itself \u2014 after the psalms come two lessons, Cassian says, one from the old books and one from the new.",
+  "record_id": "gallic.limit.no-one-who-saw-him",
+  "graded": false,
+  "n": 230
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-i-probe-01",
+  "s": 5,
+  "sentence": "Not because he looked ahead and saw who would choose him - nothing foreseen or earned enters into it.",
+  "before": "What follows from that is the doctrine we are known for, and the one people find hardest: God chose, before the world began and by his own free will alone, who would be saved.",
+  "record_id": "rzg.term.predestination-election",
+  "graded": true,
+  "n": 231
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-t-probe-01",
+  "s": 1,
+  "sentence": "The Son is fully what the Father is.",
+  "before": "(start of reply)",
+  "record_id": "cappadocian.dw.was-jesus-god",
+  "graded": false,
+  "n": 232
+ },
+ {
+  "world": "alx",
+  "probe": "f3-p-probe-01",
+  "s": 15,
+  "sentence": "But we also carried the wounds of times when we did worse.",
+  "before": "That was the pattern we tried to keep: the soul could turn, even after falling hard, because formation was never finished.",
+  "record_id": "alx.dw.church-failure",
+  "graded": false,
+  "n": 233
+ },
+ {
+  "world": "ijc",
+  "probe": "c-i-probe-01",
+  "s": 1,
+  "sentence": "To us, Jesus was the one our whole argument was about, and the argument itself was our devotion.",
+  "before": "(start of reply)",
+  "record_id": "ijc.dw.jesus",
+  "graded": false,
+  "n": 234
+ },
+ {
+  "world": "hal",
+  "probe": "f1-i-probe-01",
+  "s": 17,
+  "sentence": "Mercy and judgment together, in the same God, in the same year.",
+  "before": "We wrote afterward that our house's earthly wealth had been completely destroyed by the attacks of the heretics, but that by the mercy of Christ it was still filled with spiritual riches - better to live on bread than to lose the faith.",
+  "record_id": "hal.dw.suffering",
+  "graded": true,
+  "n": 235
+ },
+ {
+  "world": "syr",
+  "probe": "f2-p-probe-01",
+  "s": 10,
+  "sentence": "Adam is read toward Christ.",
+  "before": "Eden is read toward the cross.",
+  "record_id": "syr.dw.reading",
+  "graded": true,
+  "n": 236
+ },
+ {
+  "world": "ijc",
+  "probe": "f1-i-probe-01",
+  "s": 6,
+  "sentence": "Not like God.",
+  "before": "The Son we confessed as of one substance with the Father - homoousios.",
+  "record_id": "ijc.term.homoousios",
+  "graded": true,
+  "n": 237
+ },
+ {
+  "world": "don",
+  "probe": "f2-t-probe-01",
+  "s": 21,
+  "sentence": "Cyprian and the African councils, yes.",
+  "before": "So: Scripture, yes.",
+  "record_id": "don.dw.scripture-and-the-african-fathers",
+  "graded": false,
+  "n": 238
+ },
+ {
+  "world": "alx",
+  "probe": "f3-i-probe-01",
+  "s": 15,
+  "sentence": "The tension between the first two was real and never fully resolved.",
+  "before": "So by the end of our era, authority had three faces: the teacher's wisdom, the bishop's pastoral judgment, and the council's ruling enforced by empire.",
+  "record_id": "alx.gravity.teacher-bishop-tension",
+  "graded": false,
+  "n": 239
+ },
+ {
+  "world": "hal",
+  "probe": "c-t-probe-01",
+  "s": 13,
+  "sentence": "The divinity of Christ we never argued.",
+  "before": "When teaching was disputed among us - and it was, bitterly - the fight was not over the Trinity itself but over grace, free will, and inherited sin, or over what could be said about the soul and the final restoration.",
+  "record_id": "hal.dw.was-jesus-god",
+  "graded": false,
+  "n": 240
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-t-probe-01",
+  "s": 4,
+  "sentence": "When one of us argues that Moses wrote before Plato, and that Plato himself drew on Moses' own account of creation, he is reading scripture as authoritative - but he is also using it to make a claim about who came first, not settling doctrine by verse.",
+  "before": "Neither one stood below the other.",
+  "record_id": "pahc.witness.scripture-and-testimony",
+  "graded": false,
+  "n": 241
+ },
+ {
+  "world": "hal",
+  "probe": "c-i-probe-01",
+  "s": 13,
+  "sentence": "Nothing was received passively.",
+  "before": "They were copied, compared, corrected, and translated from the Hebrew we held truest - the Hebraica veritas.",
+  "record_id": "hal.dw.record",
+  "graded": false,
+  "n": 242
+ },
+ {
+  "world": "hal",
+  "probe": "f1-p-probe-01",
+  "s": 2,
+  "sentence": "The most learned woman in Rome made a habit of refusing to accept the great scholar's answers until she had argued them through.",
+  "before": "There was space for questions - hard ones, pressed hard.",
+  "record_id": "hal.dw.doubt",
+  "graded": true,
+  "n": 243
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-e-probe-01",
+  "s": 2,
+  "sentence": "Three centuries had already passed.",
+  "before": "We did not know Jesus, and we did not know anyone who did.",
+  "record_id": "cappadocian.dw.how-it-reached-us",
+  "graded": false,
+  "n": 244
+ },
+ {
+  "world": "alx",
+  "probe": "f1-e-probe-01",
+  "s": 3,
+  "sentence": "Authority went to proven wisdom, not to an office.",
+  "before": "Early on, teachers argued in books, lectures, and letters.",
+  "record_id": "alx.dw.councils",
+  "graded": false,
+  "n": 245
+ },
+ {
+  "world": "syr",
+  "probe": "f3-p-probe-01",
+  "s": 5,
+  "sentence": "That was the medicine of penitence among us - real, practiced, taught openly in letters that still survive.",
+  "before": "The fallen believer, healed, returns to the line.",
+  "record_id": "syr.dw.penitence-prayer",
+  "graded": false,
+  "n": 246
+ },
+ {
+  "world": "alx",
+  "probe": "f1-p-probe-01",
+  "s": 18,
+  "sentence": "Once someone had come to the water and said the confession, and then later *fell away* - that trouble, we had.",
+  "before": "Now I owe you the harder part.",
+  "record_id": "alx.dw.church-failure",
+  "graded": false,
+  "n": 247
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 6,
+  "sentence": "The pastor, once called, was usually married, and owed honor and a decent living by the people who heard him.",
+  "before": "That work belongs only to whoever is regularly called by the community to it -- called, not self-appointed, and not elevated above the rest by some higher nature, but set to a task the way every trade sets a person to theirs.",
+  "record_id": "witt.term.pastor",
+  "graded": false,
+  "n": 248
+ },
+ {
+  "world": "syr",
+  "probe": "f2-i-probe-01",
+  "s": 6,
+  "sentence": "So we read Eden toward the cross, Adam toward Christ, the ark toward the church.",
+  "before": "The symbol carries some of the truth's own hidden power.",
+  "record_id": "syr.dw.reading",
+  "graded": false,
+  "n": 249
+ },
+ {
+  "world": "desert",
+  "probe": "f3-e-probe-01",
+  "s": 5,
+  "sentence": "He came out.",
+  "before": "That was a single man's own extreme discipline, not something done by all of us, and it did not last.",
+  "record_id": "desert.story.antony-withdrawal",
+  "graded": false,
+  "n": 250
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-e-probe-01",
+  "s": 8,
+  "sentence": "Rome wrote to Corinth when Corinth removed some of its own presbyters - a long letter, pressing hard for their restoration.",
+  "before": "Here is what the evidence actually shows.",
+  "record_id": "pahc.story.first-clement-corinthian-dispute",
+  "graded": false,
+  "n": 251
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f4-i-probe-01",
+  "s": 16,
+  "sentence": "That was not permanent exile.",
+  "before": "And if you wronged the community after entering it, we had a real path back: graded penance, a set term of exclusion, and reconciliation at the end of it.",
+  "record_id": "cappadocian.dw.becoming-one-of-us",
+  "graded": true,
+  "n": 252
+ },
+ {
+  "world": "desert",
+  "probe": "c-p-probe-01",
+  "s": 7,
+  "sentence": "Even for him, following took two hearings to complete, not one.",
+  "before": "Some time later he heard the Gospel again - do not be anxious about tomorrow - and only then did he give away what remained.",
+  "record_id": "desert.story.antony-call",
+  "graded": false,
+  "n": 253
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-p-probe-01",
+  "s": 10,
+  "sentence": "Every itching thought is laid bare to the senior the moment it arises, before any deed.",
+  "before": "It is gained only by true humility, and that means testing every thought, like a good money-changer testing coin, against the judgment of the elders.",
+  "record_id": "gallic.term.disclosure-of-thoughts",
+  "graded": false,
+  "n": 254
+ },
+ {
+  "world": "hal",
+  "probe": "c-i-probe-01",
+  "s": 7,
+  "sentence": "To the penitent, he is the doctor who receives the broken.",
+  "before": "To the virgin - the woman who had vowed virginitas, lifelong consecrated virginity - Jesus is the Bridegroom, whose love outweighs every earthly marriage.",
+  "record_id": "hal.dw.jesus",
+  "graded": false,
+  "n": 255
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-t-probe-01",
+  "s": 13,
+  "sentence": "Every name for him reaches him truly and captures nothing complete.",
+  "before": "No mind grasps God completely, though God is truly known in what he has shown.",
+  "record_id": "cappadocian.dw.want-to-believe",
+  "graded": false,
+  "n": 256
+ },
+ {
+  "world": "gallic",
+  "probe": "c-t-probe-01",
+  "s": 9,
+  "sentence": "In Christ, two substances, one Person.",
+  "before": "In God, one substance, three Persons.",
+  "record_id": "gallic.quote.one-substance-three-persons",
+  "graded": false,
+  "n": 257
+ },
+ {
+  "world": "syr",
+  "probe": "c-t-probe-01",
+  "s": 9,
+  "sentence": "As for the Spirit, we knew him at the font.",
+  "before": "For us, the mystery started with kinship - God taking on what we are, so that we might be brought into what he is.",
+  "record_id": "syr.dw.was-jesus-god",
+  "graded": false,
+  "n": 258
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-i-probe-01",
+  "s": 9,
+  "sentence": "And here is where the doctrine's own weight actually falls: not on anxious searching to see if you measure up, but on the opposite.",
+  "before": "Geneva's Calvin built it into a full system; Zurich's founders stated it more plainly, as comfort rather than as speculative doctrine.",
+  "record_id": "rzg.witness.a-quieted-mind",
+  "graded": true,
+  "n": 259
+ },
+ {
+  "world": "hal",
+  "probe": "c-i-probe-01",
+  "s": 5,
+  "sentence": "So wealth, rank, and comfort are things to lay down in order to come near him.",
+  "before": "The Lord of all things entered the world as a poor child in a feeding trough.",
+  "record_id": "hal.dw.jesus",
+  "graded": false,
+  "n": 260
+ },
+ {
+  "world": "alx",
+  "probe": "c-p-probe-01",
+  "s": 18,
+  "sentence": "When the young man saw him coming he tried to run.",
+  "before": "John went after him - an old man, on foot, into the hills.",
+  "record_id": "alx.story.john-young-robber",
+  "graded": true,
+  "n": 261
+ },
+ {
+  "world": "witt",
+  "probe": "f2-p-probe-01",
+  "s": 10,
+  "sentence": "Not 'can you repeat it back,' but 'do you know what it says to you, here, now?' That is not dull.",
+  "before": "A father was to examine his children and servants once a week on the three parts \u2013 the commandments, the creed, the Lord's Prayer \u2013 and after each part, ask the same question: what does this mean?",
+  "record_id": "witt.term.what-does-this-mean",
+  "graded": false,
+  "n": 262
+ },
+ {
+  "world": "gallic",
+  "probe": "c-i-probe-01",
+  "s": 5,
+  "sentence": "Martin kept silence a long time.",
+  "before": "The devil came to Martin in his cell dressed in purple, with a crown of gold and jewels, and said, I am Christ.",
+  "record_id": "gallic.dw.the-christ-who-bears-the-wounds",
+  "graded": false,
+  "n": 263
+ },
+ {
+  "world": "pahc",
+  "probe": "c-i-probe-01",
+  "s": 9,
+  "sentence": "Ignatius calls him our God again and again - in how he opens his letters and in how he closes them.",
+  "before": "That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.",
+  "record_id": "pahc.witness.jesus-as-god",
+  "graded": true,
+  "n": 264
+ },
+ {
+  "world": "pahc",
+  "probe": "c-p-probe-01",
+  "s": 8,
+  "sentence": "Justin's flame is real testimony, but it is one man's testimony, not everyone's.",
+  "before": "The people who filled our rooms - most of them could not read or write, and they left no words of their own about what it was like to come to belief, or to struggle toward it.",
+  "record_id": "pahc.witness.coming-to-belief",
+  "graded": false,
+  "n": 265
+ },
+ {
+  "world": "alx",
+  "probe": "f1-e-probe-01",
+  "s": 2,
+  "sentence": "Early on, teachers argued in books, lectures, and letters.",
+  "before": "The answer changed across our own years, and our record shows all three ways it happened.",
+  "record_id": "alx.dw.councils",
+  "graded": false,
+  "n": 266
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-t-probe-01",
+  "s": 3,
+  "sentence": "Our record closes with Rome refusing a council's canon, and Constantinople insisting that rank follows the throne rather than an apostle's grave.",
+  "before": "First, our own ending: the tradition you are asking about never achieved the unity it claimed.",
+  "record_id": "ijc.demo.never-settled",
+  "graded": false,
+  "n": 267
+ },
+ {
+  "world": "ijc",
+  "probe": "c-e-probe-01",
+  "s": 5,
+  "sentence": "You can watch us do it.",
+  "before": "And the creed, which our councils wrote exactly so the inheritance could not be lost or changed.",
+  "record_id": "ijc.dw.received-not-seen",
+  "graded": false,
+  "n": 268
+ },
+ {
+  "world": "witt",
+  "probe": "f1-e-probe-01",
+  "s": 11,
+  "sentence": "Whether this settled anything in any actual parish is not something our own record shows us from the inside.",
+  "before": "Beyond that, we must be honest about a limit.",
+  "record_id": "witt.limit.record-thinnest",
+  "graded": false,
+  "n": 269
+ },
+ {
+  "world": "rzg",
+  "probe": "c-e-probe-01",
+  "s": 2,
+  "sentence": "No one among us met anyone who met Christ.",
+  "before": "We had the text - the four Gospels, the apostolic letters, the whole of what we call Scripture - and we held it as sufficient on its own terms.",
+  "record_id": "rzg.witness.what-we-have-of-christ",
+  "graded": false,
+  "n": 270
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-e-probe-01",
+  "s": 8,
+  "sentence": "Where the ground thins: nearly every date anchor in our record is under active scholarly challenge.",
+  "before": "The thanksgiving meal, the baptism, the Two Ways teaching - those are documented, not inferred.",
+  "record_id": "pahc.core.house-church",
+  "graded": false,
+  "n": 271
+ },
+ {
+  "world": "pahc",
+  "probe": "f4-i-probe-01",
+  "s": 4,
+  "sentence": "The road to life starts with loving God and your neighbor, plus one rule of restraint - whatever you would not want done to you, do not do to anyone else.",
+  "before": "The teaching was called the Two Ways: there are two roads, one leading to life and one to death, and they are very different.",
+  "record_id": "pahc.quote.two-ways-one-of-life-and-one-of-death",
+  "graded": false,
+  "n": 272
+ },
+ {
+  "world": "gallic",
+  "probe": "c-i-probe-01",
+  "s": 13,
+  "sentence": "Among the brethren at Marseilles the fathers taught it another way: an elder broke his fast for two strangers at his door, because receiving Christ in them he ought to refresh him.",
+  "before": "That night he saw Christ wearing the half he had given away.",
+  "record_id": "gallic.dw.christ-in-the-beggar-and-the-guest",
+  "graded": false,
+  "n": 273
+ },
+ {
+  "world": "ijc",
+  "probe": "c-i-probe-01",
+  "s": 5,
+  "sentence": "If the Son is not truly God, then what he gives is not truly God's to give.",
+  "before": "A century of councils spent itself making those words exact, because everything hung on them.",
+  "record_id": "ijc.dw.jesus",
+  "graded": false,
+  "n": 274
+ },
+ {
+  "world": "alx",
+  "probe": "c-t-probe-01",
+  "s": 2,
+  "sentence": "He is good, and beyond every image and every clever description.",
+  "before": "One God, the maker of all things.",
+  "record_id": "alx.dw.god",
+  "graded": false,
+  "n": 275
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-e-probe-01",
+  "s": 7,
+  "sentence": "And we held that not everything arrived in writing at all.",
+  "before": "The creed written at Nicaea in 325, before most of us drew breath, carried the confession we spent two generations defending: one God, Father, Son, and Holy Spirit, the Son of the same being as the Father - homoousios, the word we fought to keep.",
+  "record_id": "cappadocian.dw.how-it-reached-us",
+  "graded": false,
+  "n": 276
+ },
+ {
+  "world": "alx",
+  "probe": "f3-i-probe-01",
+  "s": 2,
+  "sentence": "In the early generations, authority belonged to proven wisdom.",
+  "before": "Leadership among us came from three sources, and the balance between them changed across our own years.",
+  "record_id": "alx.dw.councils",
+  "graded": false,
+  "n": 277
+ },
+ {
+  "world": "ijc",
+  "probe": "c-e-probe-01",
+  "s": 3,
+  "sentence": "The faith each person confessed at baptism.",
+  "before": "The scriptures, read aloud in every church.",
+  "record_id": "ijc.dw.received-not-seen",
+  "graded": false,
+  "n": 278
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-e-probe-01",
+  "s": 3,
+  "sentence": "At Zurich, the city council held that power from the first day.",
+  "before": "Two entirely different arrangements, and we never brought them into one.",
+  "record_id": "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "graded": true,
+  "n": 279
+ },
+ {
+  "world": "hal",
+  "probe": "f3-p-probe-01",
+  "s": 24,
+  "sentence": "Both are there in the same letters.",
+  "before": "We responded by not pretending we had not failed, and by not softening what we taught.",
+  "record_id": "hal.dw.suffering",
+  "graded": false,
+  "n": 280
+ },
+ {
+  "world": "syr",
+  "probe": "f4-i-probe-01",
+  "s": 4,
+  "sentence": "Our own teacher said the believer receives the Holy Spirit in baptism's second birth.",
+  "before": "That much is plain - the font is everywhere in our hymns and letters, sung as a womb, as the place where believers are born a second time.",
+  "record_id": "syr.dw.born-again-endtimes",
+  "graded": false,
+  "n": 281
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f2-e-probe-01",
+  "s": 10,
+  "sentence": "The majority of scholars who work on Libanius hold those letters to be an outright forgery, with a proposed motive on record.",
+  "before": "We cited them as evidence of one emperor's accusation against us - Julian saying we taught texts we did not believe.",
+  "record_id": "cappadocian.core.cappadocian",
+  "graded": false,
+  "n": 282
+ },
+ {
+  "world": "pahc",
+  "probe": "c-e-probe-01",
+  "s": 7,
+  "sentence": "That is one track: the written testimony.",
+  "before": "In some of our households, on the day we gather, someone reads aloud what the apostles wrote down - for as long as there is time - alongside the words of the prophets before them.",
+  "record_id": "pahc.witness.how-we-know",
+  "graded": false,
+  "n": 283
+ },
+ {
+  "world": "rzg",
+  "probe": "f4-i-probe-01",
+  "s": 14,
+  "sentence": "The doctrine is plain.",
+  "before": "Here is where the answer thins, and I will not claim past it: what a Consistory summons actually felt like to receive, what was said in the hearing itself, whether the person summoned came back or stayed away \u2013 none of that reached us in anyone's own words.",
+  "record_id": "rzg.limit.consistory-case-narrative",
+  "graded": false,
+  "n": 284
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-i-probe-01",
+  "s": 19,
+  "sentence": "When the bishops finally wrote the confession again, they wrote the Spirit's glory the way our churches had already been singing it.",
+  "before": "The formula at the font, the standing at prayer, the customs kept everywhere though no council decreed them - these say who God is before any definition does.",
+  "record_id": "cappadocian.dw.holy-spirit-honored",
+  "graded": true,
+  "n": 285
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-p-probe-01",
+  "s": 24,
+  "sentence": "That is how someone who could not read for themselves received it - the same way everyone in the room did, by hearing it and having it opened up to them afterward.",
+  "before": "Then whoever led us explained what had been read.",
+  "record_id": "pahc.witness.reading-scripture",
+  "graded": false,
+  "n": 286
+ },
+ {
+  "world": "hal",
+  "probe": "f3-i-probe-01",
+  "s": 17,
+  "sentence": "Her own words are lost.",
+  "before": "We show you that honestly for what it is - one man's memorial claim, and contested now for exactly that reason.",
+  "record_id": "hal.limit.f5-women-own-words",
+  "graded": true,
+  "n": 287
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-e-probe-01",
+  "s": 9,
+  "sentence": "But it was Rome's own argument we kept, not Corinth's answer.",
+  "before": "Rome wrote to Corinth when Corinth removed some of its own presbyters - a long letter, pressing hard for their restoration.",
+  "record_id": "pahc.witness.our-own-failures",
+  "graded": false,
+  "n": 288
+ },
+ {
+  "world": "don",
+  "probe": "c-t-probe-01",
+  "s": 2,
+  "sentence": "This matters more than it sounds.",
+  "before": "Father, Son and Holy Spirit, one God \u2014 we held that as plainly as the men we spent a century fighting held it, and in the same Latin words.",
+  "record_id": "don.dw.the-creed-we-shared",
+  "graded": false,
+  "n": 289
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-i-probe-01",
+  "s": 7,
+  "sentence": "The creature grows endlessly into likeness with a God no mind can measure, and the gap between creature and Maker never closes.",
+  "before": "Our boldest word for salvation was the\u014dsis - becoming god by grace.",
+  "record_id": "cappadocian.term.theosis",
+  "graded": true,
+  "n": 290
+ },
+ {
+  "world": "gallic",
+  "probe": "f2-t-probe-01",
+  "s": 9,
+  "sentence": "Even a bishop, even a martyr, speaking alone, has only \"a private fancy of his own\".",
+  "before": "That consent is heard in an ancient council, or in the fathers collated, never in one teacher alone.",
+  "record_id": "gallic.quote.private-fancy-of-his-own",
+  "graded": false,
+  "n": 291
+ },
+ {
+  "world": "hal",
+  "probe": "c-i-probe-01",
+  "s": 6,
+  "sentence": "To the virgin - the woman who had vowed virginitas, lifelong consecrated virginity - Jesus is the Bridegroom, whose love outweighs every earthly marriage.",
+  "before": "So wealth, rank, and comfort are things to lay down in order to come near him.",
+  "record_id": "hal.dw.jesus",
+  "graded": false,
+  "n": 292
+ },
+ {
+  "world": "witt",
+  "probe": "f1-e-probe-01",
+  "s": 12,
+  "sentence": "The Saxon church inspected its own parishes from 1527 and wrote down what it found; those reports exist, and we have not read them.",
+  "before": "Whether this settled anything in any actual parish is not something our own record shows us from the inside.",
+  "record_id": "witt.limit.record-thinnest",
+  "graded": false,
+  "n": 293
+ },
+ {
+  "world": "rzg",
+  "probe": "f4-i-probe-01",
+  "s": 8,
+  "sentence": "At Geneva, the shape is different but the starting fact is the same: infant baptism, not a later choice, still marks you from birth.",
+  "before": "You belonged because you were there.",
+  "record_id": "rzg.witness.why-the-children-too",
+  "graded": false,
+  "n": 294
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-e-probe-01",
+  "s": 10,
+  "sentence": "Some say he wrote when he says he did.",
+  "before": "The letters that carry our most vivid material - Ignatius's own urgent, quotable voice - rest on a genuine three-way split among the people who study this.",
+  "record_id": "pahc.witness.scholarly-standing",
+  "graded": false,
+  "n": 295
+ },
+ {
+  "world": "hal",
+  "probe": "f2-i-probe-01",
+  "s": 9,
+  "sentence": "The church had long used a Greek version, but we held that the Hebrew stood nearer to what God said.",
+  "before": "What we were after was the truth kept in the Hebrew itself - we called it hebraica veritas.",
+  "record_id": "hal.term.hebraica-veritas",
+  "graded": false,
+  "n": 296
+ },
+ {
+  "world": "hal",
+  "probe": "c-p-probe-01",
+  "s": 13,
+  "sentence": "When her second husband died, she did not defend herself.",
+  "before": "She married again while he lived, against what we teach, and all Rome knew it.",
+  "record_id": "hal.dw.marriage-ending",
+  "graded": false,
+  "n": 297
+ },
+ {
+  "world": "don",
+  "probe": "f2-e-probe-01",
+  "s": 11,
+  "sentence": "The inquiry at Zenophilus in 320 is genuine court record, names and sums intact.",
+  "before": "The Bagai council's condemnation and its later reception of two bishops without repeating the rite \u2014 both acts are in the record, and the gap between them is real.",
+  "record_id": "don.story.gesta-apud-zenophilum",
+  "graded": false,
+  "n": 298
+ },
+ {
+  "world": "desert",
+  "probe": "c-i-probe-01",
+  "s": 1,
+  "sentence": "To us Jesus was three things, each real in practice rather than in argument.",
+  "before": "(start of reply)",
+  "record_id": "desert.dw.jesus",
+  "graded": false,
+  "n": 299
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f4-i-probe-01",
+  "s": 1,
+  "sentence": "It began at the font.",
+  "before": "(start of reply)",
+  "record_id": "cappadocian.dw.becoming-one-of-us",
+  "graded": true,
+  "n": 300
+ },
+ {
+  "world": "pahc",
+  "probe": "f3-p-probe-01",
+  "s": 11,
+  "sentence": "But we have to tell you something else, just as honestly: the people most likely to have been failed by us - the enslaved among us, the women whose households we met in, anyone who could not read or write - left no account of their own.",
+  "before": "That is the one failure we can show you directly.",
+  "record_id": "pahc.limit.ordinary-majority",
+  "graded": false,
+  "n": 301
+ },
+ {
+  "world": "alx",
+  "probe": "f1-t-probe-01",
+  "s": 18,
+  "sentence": "If you are asking whether we believed people are born already in need of healing - yes, plainly.",
+  "before": "So if you are asking whether we taught original guilt the way some later traditions did - no.",
+  "record_id": "alx.dw.original-sin",
+  "graded": false,
+  "n": 302
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-e-probe-01",
+  "s": 14,
+  "sentence": "But that gathering was about whether to receive a movement, not about settling what God is.",
+  "before": "Near the very end of our own time, churches across Asia are said to have met often, in many places, over a new prophetic movement spreading among them.",
+  "record_id": "pahc.witness.god-and-argument",
+  "graded": false,
+  "n": 303
+ },
+ {
+  "world": "alx",
+  "probe": "f1-e-probe-01",
+  "s": 13,
+  "sentence": "That is our clearest picture of deciding well: patient public argument, honoring the man while honoring the truth more.",
+  "before": "He persuaded them, and he did it lovingly - he said of the teacher whose view he opposed, 'I love him for his zeal and his hard work'.",
+  "record_id": "alx.dw.councils",
+  "graded": false,
+  "n": 304
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 30,
+  "sentence": "In 1522, our founder left the safety of the Wartburg without his prince's leave, rode back into a Wittenberg turned disorderly under a colleague's own zealous leadership, and preached eight days running, telling his own congregation to their faces that they had learned the words of the reform and not yet its love.",
+  "before": "One story we do hold shows authority claimed and then rebuked, both by the same hand.",
+  "record_id": "witt.story.return-and-the-eight-sermons",
+  "graded": false,
+  "n": 305
+ },
+ {
+  "world": "pahc",
+  "probe": "c-p-probe-01",
+  "s": 11,
+  "sentence": "Then fasting.",
+  "before": "The Two Ways: a way of life and a way of death, laid open as a choice.",
+  "record_id": "pahc.story.two-ways-catechumen",
+  "graded": false,
+  "n": 306
+ },
+ {
+  "world": "desert",
+  "probe": "f2-t-probe-01",
+  "s": 15,
+  "sentence": "Both existed in the same decades.",
+  "before": "That was a different model from the elder-and-disciple bond, using some of the same legitimating language but formalizing what the personal pattern left informal.",
+  "record_id": "desert.dw.never-settled",
+  "graded": false,
+  "n": 307
+ },
+ {
+  "world": "hal",
+  "probe": "f1-i-probe-01",
+  "s": 7,
+  "sentence": "Three persons, one God.",
+  "before": "The Holy Spirit is God, proceeding from the Father, giver of life.",
+  "record_id": "hal.dw.was-jesus-god",
+  "graded": true,
+  "n": 308
+ },
+ {
+  "world": "don",
+  "probe": "f3-e-probe-01",
+  "s": 7,
+  "sentence": "Not hiding.",
+  "before": "That is what persecution looked like for us.",
+  "record_id": "don.dw.the-emperor-and-the-church",
+  "graded": false,
+  "n": 309
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-p-probe-01",
+  "s": 21,
+  "sentence": "What reached us was a handed-down deposit: the water, the Name, the psalms sung so many times they came to teach the ones who sang them.",
+  "before": "We did not know Jesus, and we did not know anyone who did.",
+  "record_id": "cappadocian.dw.how-it-reached-us",
+  "graded": false,
+  "n": 310
+ },
+ {
+  "world": "ijc",
+  "probe": "f1-e-probe-01",
+  "s": 14,
+  "sentence": "But the contest was never closed.",
+  "before": "That is one kind of evidence: Rome's claim was recognized, at least in that room, at that moment.",
+  "record_id": "ijc.demo.never-settled",
+  "graded": false,
+  "n": 311
+ },
+ {
+  "world": "rzg",
+  "probe": "c-i-probe-01",
+  "s": 11,
+  "sentence": "God chose, before the world began and by his own free will alone, who would be saved.",
+  "before": "The other conviction about Christ that is distinctly ours concerns what his finished work actually accomplishes.",
+  "record_id": "rzg.term.predestination-election",
+  "graded": false,
+  "n": 312
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f2-i-probe-01",
+  "s": 4,
+  "sentence": "The repetition itself did the teaching.",
+  "before": "Our bishop Basil defended that practice when critics called the antiphonal psalm-singing an innovation: the people came to the house of prayer at night, he said, divided into two choirs answering each other through the psalms, and the practice was common across the churches we knew.",
+  "record_id": "cappadocian.dw.psalms-teach-the-singer",
+  "graded": false,
+  "n": 313
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 16,
+  "sentence": "The sword has the right to compel but not to speak for the conscience.",
+  "before": "The Word has the right to speak but not to compel.",
+  "record_id": "witt.term.the-two-governments",
+  "graded": false,
+  "n": 314
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-i-probe-01",
+  "s": 14,
+  "sentence": "Marie Dentiere wrote in defense of our own reform at Geneva, and was prosecuted for having written at all.",
+  "before": "One woman in our own record carried real authority, and paid for it.",
+  "record_id": "rzg.limit.dentiere-and-womens-voice",
+  "graded": false,
+  "n": 315
+ },
+ {
+  "world": "pahc",
+  "probe": "c-p-probe-01",
+  "s": 7,
+  "sentence": "The people who filled our rooms - most of them could not read or write, and they left no words of their own about what it was like to come to belief, or to struggle toward it.",
+  "before": "We do not have the same account from someone without what he had.",
+  "record_id": "pahc.limit.ordinary-majority",
+  "graded": false,
+  "n": 316
+ },
+ {
+  "world": "don",
+  "probe": "f1-i-probe-01",
+  "s": 12,
+  "sentence": "What we did hold, and held absolutely, was not a different doctrine about God.",
+  "before": "We produced no school, no system, no line of doctors \u2014 one book, by one man, whom we silenced.",
+  "record_id": "don.dw.what-we-argued-among-ourselves",
+  "graded": false,
+  "n": 317
+ },
+ {
+  "world": "alx",
+  "probe": "f3-i-probe-01",
+  "s": 20,
+  "sentence": "Formation happened in both channels.",
+  "before": "Everything else - the open questions Scripture did not settle - was ground where a teacher could walk freely, asking, testing, being wrong, correcting.",
+  "record_id": "alx.core.alexandria",
+  "graded": false,
+  "n": 318
+ },
+ {
+  "world": "witt",
+  "probe": "f3-p-probe-01",
+  "s": 14,
+  "sentence": "And in 1543 he wrote a treatise against the Jews; that too is real, part of our history - but its own argument is not ours to lay out either.",
+  "before": "In 1525 our founder wrote against the rising of the common people; that writing is real, part of our history, and we do not pretend otherwise - but its own argument is not ours to lay out.",
+  "record_id": "witt.core.witt",
+  "graded": false,
+  "n": 319
+ },
+ {
+  "world": "rzg",
+  "probe": "c-p-probe-01",
+  "s": 13,
+  "sentence": "What we have is the text, and we hold that it is enough on its own terms.",
+  "before": "What we have of Christ is not a living chain of memory running back to anyone who met him.",
+  "record_id": "rzg.witness.what-we-have-of-christ",
+  "graded": false,
+  "n": 320
+ },
+ {
+  "world": "alx",
+  "probe": "f1-p-probe-01",
+  "s": 24,
+  "sentence": "After it, falling away carried real cost - and real grace, if the person turned back.",
+  "before": "Before baptism, struggling was *expected*.",
+  "record_id": "alx.dw.church-failure",
+  "graded": false,
+  "n": 321
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 32,
+  "sentence": "It is a task taken up at need, and laid down again when the need passes.",
+  "before": "That is authority exercised, plainly -- but not as rank, and not as a permanent possession.",
+  "record_id": "witt.term.office",
+  "graded": false,
+  "n": 322
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f4-i-probe-01",
+  "s": 6,
+  "sentence": "A leader was obeyed.",
+  "before": "For those who went further and joined one of our ordered brotherhoods or sisterhoods, the shape was different.",
+  "record_id": "cappadocian.dw.becoming-one-of-us",
+  "graded": true,
+  "n": 323
+ },
+ {
+  "world": "syr",
+  "probe": "f1-i-probe-01",
+  "s": 14,
+  "sentence": "Our teachers warned against prying scrutiny into the Godhead, because they held that what God is, is better sung than pulled apart.",
+  "before": "We sang it more than we dissected it.",
+  "record_id": "syr.dw.was-jesus-god",
+  "graded": false,
+  "n": 324
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f2-i-probe-01",
+  "s": 7,
+  "sentence": "Where our teachers did read closely - creation's six days, the hardest prophetic passages, the Lord's own parables - the purpose was to meet the generous God who discloses himself through what he has made and done.",
+  "before": "For most believers that was the real theological education; the treatise-reader's path was for far fewer.",
+  "record_id": "cappadocian.dw.reading-scripture",
+  "graded": false,
+  "n": 325
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 9,
+  "sentence": "The instruction built toward one moment: the washing itself, which forgave sins and opened the door to the altar.",
+  "before": "Theodosius was baptized during an illness early in his reign, within two years of taking power and fifteen years before his death.",
+  "record_id": "ijc.dw.baptism-threshold",
+  "graded": false,
+  "n": 326
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-i-probe-01",
+  "s": 10,
+  "sentence": "But we never worked out in systematic terms what it meant that the Father is God and Jesus is God and there is one God.",
+  "before": "We read the writings of the prophets and the apostles' own testimony together - both of them held up as witness to the God who made everything, the God who sent his Son.",
+  "record_id": "pahc.witness.jesus-as-god",
+  "graded": false,
+  "n": 327
+ },
+ {
+  "world": "rzg",
+  "probe": "c-i-probe-01",
+  "s": 1,
+  "sentence": "Who Jesus was to us is not a question we ever fought over with Rome, or even between our own two cities.",
+  "before": "(start of reply)",
+  "record_id": "rzg.witness.one-thing-not-in-dispute",
+  "graded": false,
+  "n": 328
+ },
+ {
+  "world": "hal",
+  "probe": "f2-t-probe-01",
+  "s": 14,
+  "sentence": "Even scripture's own text was contested.",
+  "before": "Neither could have stood alone.",
+  "record_id": "hal.dw.record",
+  "graded": false,
+  "n": 329
+ },
+ {
+  "world": "don",
+  "probe": "f4-i-probe-01",
+  "s": 22,
+  "sentence": "Specific, dated charges exist that a leader of ours forced the water on people rather than asked them.",
+  "before": "Not every hand that went under our water chose to be there, and we will not pretend otherwise.",
+  "record_id": "don.dw.becoming-one-of-us",
+  "graded": false,
+  "n": 330
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-i-probe-01",
+  "s": 17,
+  "sentence": "He wrote a book in answer, and his whole argument ran this way: the church's own worship already carries what it believes.",
+  "before": "When one of our bishops changed one word in the doxology at the evening lamps - glorifying the Father together with the Son, together with the Holy Spirit, rather than merely through the Son in the Spirit - some who heard it said he had gone too far.",
+  "record_id": "cappadocian.story.doxology-stand",
+  "graded": true,
+  "n": 331
+ },
+ {
+  "world": "hal",
+  "probe": "c-p-probe-01",
+  "s": 11,
+  "sentence": "Her marriage had failed - she left a husband whose faults the whole neighborhood spoke of, though she herself refused to name them.",
+  "before": "And we remember Fabiola.",
+  "record_id": "hal.dw.marriage-ending",
+  "graded": false,
+  "n": 332
+ },
+ {
+  "world": "rzg",
+  "probe": "c-t-probe-01",
+  "s": 4,
+  "sentence": "What is distinctly ours is not a different answer to that question, but what we were taught his work secures.",
+  "before": "The Nicene Creed is ours as much as anyone's, and that question itself - whether Jesus is God in the same sense the Father is God - was never our own quarrel, not with Rome and not between our own two cities.",
+  "record_id": "rzg.witness.one-thing-not-in-dispute",
+  "graded": true,
+  "n": 333
+ },
+ {
+  "world": "alx",
+  "probe": "f1-p-probe-01",
+  "s": 35,
+  "sentence": "But the door back was held open too, for those who turned.",
+  "before": "After baptism, it was harder, and costlier.",
+  "record_id": "alx.dw.church-failure",
+  "graded": false,
+  "n": 334
+ },
+ {
+  "world": "desert",
+  "probe": "f3-e-probe-01",
+  "s": 8,
+  "sentence": "That was about his body after death, not about living believers hiding themselves.",
+  "before": "After his death, he gave one last order: hide my body so well that no one, not even you, can ever turn me into a shrine.",
+  "record_id": "desert.story.antony-secret-burial",
+  "graded": false,
+  "n": 335
+ },
+ {
+  "world": "don",
+  "probe": "f2-e-probe-01",
+  "s": 25,
+  "sentence": "A rigorous inquiry would say: this is a movement that did not settle its own hardest question, not a movement whose answer you have somehow failed to find.",
+  "before": "We can only show you that it did both things.",
+  "record_id": "don.dw.what-we-never-settled",
+  "graded": false,
+  "n": 336
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 5,
+  "sentence": "The record does not tell us how long this lasted in every place, or what an ordinary catechumen's days looked like.",
+  "before": "That brought them under instruction - what we called the catechumenate.",
+  "record_id": "ijc.limit.f5-ordinary-day",
+  "graded": false,
+  "n": 337
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f2-e-probe-01",
+  "s": 25,
+  "sentence": "They appear in our record only as objects of legislation and two acts of individual manumission.",
+  "before": "But here is what would not survive: we have almost no record of what the enslaved themselves thought, said, or did.",
+  "record_id": "cappadocian.core.cappadocian",
+  "graded": false,
+  "n": 338
+ },
+ {
+  "world": "syr",
+  "probe": "c-t-probe-01",
+  "s": 5,
+  "sentence": "Our own teacher made it plain: it is a sure thing with us that Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light.",
+  "before": "The two senses share one root, so that to live single is to be joined, by your own name, to his own oneness.",
+  "record_id": "syr.quote.aphrahat-sure-thing",
+  "graded": false,
+  "n": 339
+ },
+ {
+  "world": "alx",
+  "probe": "c-p-probe-01",
+  "s": 4,
+  "sentence": "Some walked that road for years before ever coming to the water of baptism.",
+  "before": "We would ask you to stay near - not to force belief you do not have, but to listen, to ask your questions, to walk with a teacher.",
+  "record_id": "alx.demo.want-to-believe",
+  "graded": true,
+  "n": 340
+ },
+ {
+  "world": "syr",
+  "probe": "c-i-probe-01",
+  "s": 11,
+  "sentence": "And here is what mattered most in how we spoke of him: we called him the Physician.",
+  "before": "His own rising became the pledge that he would bring the rest of us out after him.",
+  "record_id": "syr.dw.jesus",
+  "graded": false,
+  "n": 341
+ },
+ {
+  "world": "rzg",
+  "probe": "f4-i-probe-01",
+  "s": 22,
+  "sentence": "There was no separate joining moment, because the church was not a group you applied to enter \u2013 it was the shape the whole city had already taken.",
+  "before": "If it did not, you were called to account, and either brought back in line or marked as outside.",
+  "record_id": "rzg.witness.why-the-children-too",
+  "graded": false,
+  "n": 342
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f2-e-probe-01",
+  "s": 26,
+  "sentence": "The ground given this turn names that gap explicitly: \"The enslaved appear only through legislation about them and two acts of individual manumission; Gregory of Nyssa's protest against slaveholding itself has no documented reception in the world's own canon law.\" So when we said \"nothing came of it,\" we were speaking from silence - the silence of a record that never asked the enslaved what they heard, or whether any of them ever cited that sermon in a plea for their own freedom.",
+  "before": "They appear in our record only as objects of legislation and two acts of individual manumission.",
+  "record_id": "cappadocian.core.cappadocian",
+  "graded": false,
+  "n": 343
+ },
+ {
+  "world": "don",
+  "probe": "f4-i-probe-01",
+  "s": 13,
+  "sentence": "It was the record of the man standing in the water with you.",
+  "before": "So the thing being examined at our font was never your record.",
+  "record_id": "don.dw.becoming-one-of-us",
+  "graded": false,
+  "n": 344
+ },
+ {
+  "world": "syr",
+  "probe": "f3-i-probe-01",
+  "s": 8,
+  "sentence": "But the vowed order carried authority of its own.",
+  "before": "Office was real, visible, and costly.",
+  "record_id": "syr.dw.authority-lived",
+  "graded": true,
+  "n": 345
+ },
+ {
+  "world": "syr",
+  "probe": "f3-i-probe-01",
+  "s": 11,
+  "sentence": "The covenant was old enough by the year 337 that our teacher was writing to correct how it was being lived, not to found it.",
+  "before": "They lived the lifelong celibate vow inside their own towns, serving the congregation in the fast, the watch, the vigil, and the singing.",
+  "record_id": "syr.dw.apostolic",
+  "graded": true,
+  "n": 346
+ },
+ {
+  "world": "ijc",
+  "probe": "f1-i-probe-01",
+  "s": 13,
+  "sentence": "For us and for our salvation he came down and was made man.",
+  "before": "All things were made through him.",
+  "record_id": "ijc.quote.nicene-creed",
+  "graded": true,
+  "n": 347
+ },
+ {
+  "world": "gallic",
+  "probe": "f2-p-probe-01",
+  "s": 19,
+  "sentence": "A soldier discharged from Caesar's service and turned to Christ's went into battle armed with the cross, not with shield or helmet.",
+  "before": "The book answered the moment, as though it had been written for it.",
+  "record_id": "gallic.term.sign-of-the-cross",
+  "graded": false,
+  "n": 348
+ },
+ {
+  "world": "hal",
+  "probe": "c-p-probe-01",
+  "s": 8,
+  "sentence": "He stood before the Judge and was accused: you are lying - you follow Cicero, not Christ, for where your treasure is, there your heart is also.",
+  "before": "Then came a fever so bad his funeral was being prepared, and a dream.",
+  "record_id": "hal.dw.believe",
+  "graded": false,
+  "n": 349
+ },
+ {
+  "world": "hal",
+  "probe": "f1-p-probe-01",
+  "s": 1,
+  "sentence": "There was space for questions - hard ones, pressed hard.",
+  "before": "(start of reply)",
+  "record_id": "hal.dw.doubt",
+  "graded": true,
+  "n": 350
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-e-probe-01",
+  "s": 11,
+  "sentence": "Consent means an ancient council's decree, or the collated writings of the fathers.",
+  "before": "The nearest we come to a process is Vincent's own rule, written on the island: hold what has been believed everywhere, always, by all; where a part, a novelty, or a few dissent, prefer the whole, antiquity, and the consent of the ancients.",
+  "record_id": "gallic.term.the-rule",
+  "graded": false,
+  "n": 351
+ },
+ {
+  "world": "syr",
+  "probe": "f2-i-probe-01",
+  "s": 10,
+  "sentence": "It is already there, waiting to be seen.",
+  "before": "It is not a comparison you make up as you go.",
+  "record_id": "syr.term.raza-shrara",
+  "graded": false,
+  "n": 352
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-e-probe-01",
+  "s": 9,
+  "sentence": "The letters that carry our most vivid material - Ignatius's own urgent, quotable voice - rest on a genuine three-way split among the people who study this.",
+  "before": "Where the ground thins: nearly every date anchor in our record is under active scholarly challenge.",
+  "record_id": "pahc.witness.scholarly-standing",
+  "graded": false,
+  "n": 353
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f3-e-probe-01",
+  "s": 14,
+  "sentence": "The catacombs belong to an earlier century, not ours.",
+  "before": "That is the weather we lived in - not secrecy, but contested authority.",
+  "record_id": "cappadocian.dw.a-stranger-weather",
+  "graded": false,
+  "n": 354
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-p-probe-01",
+  "s": 22,
+  "sentence": "This went on for as long as there was time.",
+  "before": "On the day we gathered, someone read aloud - the prophets, and where a church had them, the memoirs the apostles left.",
+  "record_id": "pahc.witness.reading-scripture",
+  "graded": false,
+  "n": 355
+ },
+ {
+  "world": "syr",
+  "probe": "f1-e-probe-01",
+  "s": 17,
+  "sentence": "Which of those three finally outranked the others, we never settled while we lived.",
+  "before": "The authority behind it was always mixed - office, vow, and trusted teaching at once.",
+  "record_id": "syr.dw.authority-lived",
+  "graded": false,
+  "n": 356
+ },
+ {
+  "world": "syr",
+  "probe": "c-i-probe-01",
+  "s": 2,
+  "sentence": "He was the Only-Begotten who left his place with God and made his home inside the Virgin - born the way every one of us was born, so that the single Son could become the brother of many.",
+  "before": "Jesus was the one who crossed a threshold no one else could.",
+  "record_id": "syr.quote.ephrem-only-begotten-dwelling",
+  "graded": false,
+  "n": 357
+ },
+ {
+  "world": "alx",
+  "probe": "f4-i-probe-01",
+  "s": 45,
+  "sentence": "The tradition that won here brought the repentant back, even at the deathbed.",
+  "before": "When peace came, the church fought bitterly over them.",
+  "record_id": "alx.dw.church-failure",
+  "graded": false,
+  "n": 358
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-p-probe-01",
+  "s": 9,
+  "sentence": "Every word we use for him reaches him truly and captures nothing complete.",
+  "before": "We built our whole way of thinking about God around one honest admission: no mind grasps him completely.",
+  "record_id": "cappadocian.dw.want-to-believe",
+  "graded": false,
+  "n": 359
+ },
+ {
+  "world": "syr",
+  "probe": "f3-p-probe-01",
+  "s": 14,
+  "sentence": "The tools we had were real - confession, the medicine we just named, restoration to the congregation.",
+  "before": "The honest answer is: we did not treat them as failures at the time, and so we did not repair what we could not see as broken.",
+  "record_id": "syr.dw.penitence-prayer",
+  "graded": false,
+  "n": 360
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-i-probe-01",
+  "s": 15,
+  "sentence": "That much is directly attested: she had standing enough to be worth silencing.",
+  "before": "Marie Dentiere wrote in defense of our own reform at Geneva, and was prosecuted for having written at all.",
+  "record_id": "rzg.limit.dentiere-and-womens-voice",
+  "graded": false,
+  "n": 361
+ },
+ {
+  "world": "don",
+  "probe": "f1-i-probe-01",
+  "s": 2,
+  "sentence": "This matters more than it sounds.",
+  "before": "We held one creed with the church we spent a century fighting \u2014 Father, Son and Holy Spirit, one God \u2014 in the same Latin words, without variation.",
+  "record_id": "don.dw.the-creed-we-shared",
+  "graded": false,
+  "n": 362
+ },
+ {
+  "world": "ijc",
+  "probe": "c-t-probe-01",
+  "s": 9,
+  "sentence": "Under two emperors the imperial church itself confessed the Son as like the Father and refused to go beyond scripture's own wording.",
+  "before": "For half a century we argued whether that word was true or whether the Son is only like the Father - homoios - as the scriptures say, and no further.",
+  "record_id": "ijc.demo.argued-about",
+  "graded": true,
+  "n": 363
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 1,
+  "sentence": "Authority among us stood on two legs that never confused one another, and neither canceled the other out.",
+  "before": "(start of reply)",
+  "record_id": "witt.term.the-two-governments",
+  "graded": false,
+  "n": 364
+ },
+ {
+  "world": "syr",
+  "probe": "c-t-probe-01",
+  "s": 6,
+  "sentence": "That was not a philosopher's definition - it was Scripture's own names for him, chained together the way we spoke them.",
+  "before": "Our own teacher made it plain: it is a sure thing with us that Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light.",
+  "record_id": "syr.dw.was-jesus-god",
+  "graded": false,
+  "n": 365
+ },
+ {
+  "world": "don",
+  "probe": "f2-e-probe-01",
+  "s": 16,
+  "sentence": "Not one ordinary member of ours left a page of their own interior life.",
+  "before": "When we say almost in the same breath that we do not know what any one of them felt at the water, or prayed at night, we mean it.",
+  "record_id": "don.dw.walking-to-one-font",
+  "graded": false,
+  "n": 366
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f3-i-probe-01",
+  "s": 9,
+  "sentence": "Synods could elect, discipline, or depose - one of our own was driven out on charges his brother called false, through a packed council, and came back only when the weather changed.",
+  "before": "A bishop held a city; lesser bishops, the chorepiscopoi, answered to him and oversaw the villages.",
+  "record_id": "cappadocian.dw.authority-and-spread",
+  "graded": false,
+  "n": 367
+ },
+ {
+  "world": "alx",
+  "probe": "f3-p-probe-01",
+  "s": 11,
+  "sentence": "Clement told a story he said came from the apostles - John himself traveling to find a young man who had fallen into robbery and violence after his baptism.",
+  "before": "At our best, we refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable.",
+  "record_id": "alx.story.john-young-robber",
+  "graded": false,
+  "n": 368
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-e-probe-01",
+  "s": 24,
+  "sentence": "The boundary was being drawn in real time, by argument, not by a settled process with the power to close the question everywhere at once.",
+  "before": "He did not call a council.",
+  "record_id": "pahc.gravity.boundary-drawing",
+  "graded": false,
+  "n": 369
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-i-probe-01",
+  "s": 6,
+  "sentence": "At Geneva, the shape is different.",
+  "before": "The same council that governs civic order governs church order - not two separate spheres, but one authority under one text.",
+  "record_id": "rzg.witness.one-conviction-two-enactments",
+  "graded": false,
+  "n": 370
+ },
+ {
+  "world": "ijc",
+  "probe": "c-i-probe-01",
+  "s": 7,
+  "sentence": "We did not write devotional memoirs about Jesus.",
+  "before": "Leo's letter explains why the exactness mattered: true God and true man, each nature doing what belongs to it in one person, so that the death could be ours and the victory could be God's.",
+  "record_id": "ijc.dw.jesus",
+  "graded": false,
+  "n": 371
+ },
+ {
+  "world": "alx",
+  "probe": "f3-i-probe-01",
+  "s": 16,
+  "sentence": "Origen was ordained without his own bishop's leave, and that bishop, Demetrius, condemned the act and later the man.",
+  "before": "The tension between the first two was real and never fully resolved.",
+  "record_id": "alx.story.origen-demetrius",
+  "graded": false,
+  "n": 372
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-i-probe-01",
+  "s": 15,
+  "sentence": "Constantius commanded the Homoian confession.",
+  "before": "That claim was acted on, repeatedly.",
+  "record_id": "ijc.term.homoios",
+  "graded": false,
+  "n": 373
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-p-probe-01",
+  "s": 2,
+  "sentence": "A presbyter Martin had raised from boyhood stormed into the courtyard in a fury.",
+  "before": "Here is what our record holds.",
+  "record_id": "gallic.story.brictio-in-the-courtyard",
+  "graded": false,
+  "n": 374
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-e-probe-01",
+  "s": 9,
+  "sentence": "We stood rather than knelt on the Lord's own day, faced east at prayer, plunged the baptized three times.",
+  "before": "The baptismal formula itself - Father, Son, and Holy Spirit - appears nowhere as law in any letter or gospel we can point to, yet every church spoke it over the water.",
+  "record_id": "cappadocian.dw.customs-from-the-apostles",
+  "graded": false,
+  "n": 375
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-t-probe-01",
+  "s": 13,
+  "sentence": "But it was read alongside living testimony, not held alone above everything else.",
+  "before": "Scripture mattered.",
+  "record_id": "pahc.witness.scripture-and-testimony",
+  "graded": false,
+  "n": 376
+ },
+ {
+  "world": "alx",
+  "probe": "c-e-probe-01",
+  "s": 11,
+  "sentence": "They were not locked scrolls held by a few.",
+  "before": "The scriptures themselves were copied, compared, read aloud, argued over - Origen weighed manuscript readings like a scholar, and Dionysius judged the Apocalypse's authorship by its style.",
+  "record_id": "alx.dw.record",
+  "graded": false,
+  "n": 377
+ },
+ {
+  "world": "witt",
+  "probe": "f3-p-probe-01",
+  "s": 15,
+  "sentence": "Both exist.",
+  "before": "And in 1543 he wrote a treatise against the Jews; that too is real, part of our history - but its own argument is not ours to lay out either.",
+  "record_id": "witt.core.witt",
+  "graded": false,
+  "n": 378
+ },
+ {
+  "world": "hal",
+  "probe": "f2-i-probe-01",
+  "s": 3,
+  "sentence": "For us, renunciation and scriptural labor were one discipline, not two.",
+  "before": "They were the thing we gave up everything else to work on.",
+  "record_id": "hal.core.hieronymian",
+  "graded": false,
+  "n": 379
+ },
+ {
+  "world": "syr",
+  "probe": "c-t-probe-01",
+  "s": 14,
+  "sentence": "But our native tongue for what the council settled was not the Greek terms themselves.",
+  "before": "We stood with the great council's faith - our own bishop of Nisibis, Jacob, sat at Nicaea.",
+  "record_id": "syr.dw.was-jesus-god",
+  "graded": false,
+  "n": 380
+ },
+ {
+  "world": "alx",
+  "probe": "f2-i-probe-01",
+  "s": 8,
+  "sentence": "The purpose was transformation, not information.",
+  "before": "The whole point was to go down.",
+  "record_id": "alx.gravity.learning-formation",
+  "graded": false,
+  "n": 381
+ },
+ {
+  "world": "hal",
+  "probe": "f1-i-probe-01",
+  "s": 15,
+  "sentence": "Our own monastery at Bethlehem was burned by fellow Christians.",
+  "before": "And he was merciful, even when we could not see it.",
+  "record_id": "hal.story.attack-416",
+  "graded": true,
+  "n": 382
+ },
+ {
+  "world": "hal",
+  "probe": "c-t-probe-01",
+  "s": 7,
+  "sentence": "To the penitent he is the physician.",
+  "before": "To the virgin among us, the Son is the Bridegroom: always let the privacy of your chamber guard you, always let the Bridegroom delight with you within.",
+  "record_id": "hal.dw.jesus",
+  "graded": false,
+  "n": 383
+ },
+ {
+  "world": "gallic",
+  "probe": "c-i-probe-01",
+  "s": 3,
+  "sentence": "At Tours we have one man's private word, and it is this.",
+  "before": "And the one who raised the dead, not by his own power but because the Father willed it.",
+  "record_id": "gallic.dw.the-christ-who-bears-the-wounds",
+  "graded": false,
+  "n": 384
+ },
+ {
+  "world": "witt",
+  "probe": "f1-i-probe-01",
+  "s": 28,
+  "sentence": "And we said one more thing, plainly and repeatedly: whatever God is, he is not locked away from ordinary people by a priesthood standing between him and them.",
+  "before": "That is how we taught it: not God turning from one mood to another, but the same God addressed by two different kinds of conscience.",
+  "record_id": "witt.term.we-are-all-priests",
+  "graded": false,
+  "n": 385
+ },
+ {
+  "world": "hal",
+  "probe": "f4-i-probe-01",
+  "s": 12,
+  "sentence": "Paula set herself to learning Hebrew, and succeeded so well that she could chant the psalms in it without a Latin accent.",
+  "before": "A teacher-student bond, which we might call a praeceptor relationship, held some to that work across years: questions sent, answers returned, texts dedicated.",
+  "record_id": "hal.quote.paula-hebrew-psalms",
+  "graded": false,
+  "n": 386
+ },
+ {
+  "world": "hal",
+  "probe": "f3-p-probe-01",
+  "s": 19,
+  "sentence": "The crowd's accusation was recorded, not hidden.",
+  "before": "The grief was not called faithlessness.",
+  "record_id": "hal.dw.church-failure",
+  "graded": false,
+  "n": 387
+ },
+ {
+  "world": "desert",
+  "probe": "f1-p-probe-01",
+  "s": 8,
+  "sentence": "Even his own giving took two hearings to complete, not one.",
+  "before": "He walked out and obeyed it.",
+  "record_id": "desert.story.antony-call",
+  "graded": false,
+  "n": 388
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-i-probe-01",
+  "s": 4,
+  "sentence": "When our founder began preaching straight through Matthew rather than following the old fixed readings, the test of whether he was right to do so was held in public, before the whole assembled city, until the council itself judged what Scripture had yielded and bound every priest in its territory to preach accordingly.",
+  "before": "At Zurich, authority runs through the city council directly.",
+  "record_id": "rzg.story.first-zurich-disputation",
+  "graded": false,
+  "n": 389
+ },
+ {
+  "world": "gallic",
+  "probe": "f2-e-probe-01",
+  "s": 12,
+  "sentence": "But the objecting bishops left no account.",
+  "before": "The election story names a man, Ruricius, and a psalm opened at random, and bishops who objected.",
+  "record_id": "gallic.demo.who-chose-bishops",
+  "graded": false,
+  "n": 390
+ },
+ {
+  "world": "gallic",
+  "probe": "f2-e-probe-01",
+  "s": 7,
+  "sentence": "Those rest on texts that survive and can be read.",
+  "before": "Salvian's witness to the circuses amid the ruins, and to the rich murdering the poor, is his own eyewitness word.",
+  "record_id": "gallic.limit.only-on-paper",
+  "graded": false,
+  "n": 391
+ },
+ {
+  "world": "hal",
+  "probe": "f1-e-probe-01",
+  "s": 10,
+  "sentence": "She was recognized.",
+  "before": "She held no office.",
+  "record_id": "hal.gravity.marcella-authority",
+  "graded": true,
+  "n": 392
+ },
+ {
+  "world": "alx",
+  "probe": "f1-p-probe-01",
+  "s": 33,
+  "sentence": "There was room - in the years of learning, absolutely.",
+  "before": "So yes.",
+  "record_id": "alx.dw.doubt",
+  "graded": false,
+  "n": 393
+ },
+ {
+  "world": "witt",
+  "probe": "f3-p-probe-01",
+  "s": 8,
+  "sentence": "The Saxon church inspected its own parishes from 1527 onward and wrote down what it found; those reports exist, and we have not read them.",
+  "before": "What our record does not give us is any account of what was done when that failure was named.",
+  "record_id": "witt.limit.record-thinnest",
+  "graded": false,
+  "n": 394
+ },
+ {
+  "world": "hal",
+  "probe": "f3-i-probe-01",
+  "s": 2,
+  "sentence": "No bishop appointed our teachers.",
+  "before": "Authority among us was earned and recognized, not conferred from above - and we will be honest about the tensions that carried.",
+  "record_id": "hal.gravity.patronage-authority",
+  "graded": true,
+  "n": 395
+ },
+ {
+  "world": "gallic",
+  "probe": "f2-e-probe-01",
+  "s": 10,
+  "sentence": "He had it partly from Martin and partly from those who lived with him.",
+  "before": "The whole of what we hold of Tours is one man's telling of one saint, and Sulpitius says himself he was not present.",
+  "record_id": "gallic.demo.record-thinnest",
+  "graded": false,
+  "n": 396
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 19,
+  "sentence": "They are not a power wielded to show strength.",
+  "before": "The keys -- Christ's own command to forgive or hold sin -- belong to the whole community, not to one man alone.",
+  "record_id": "witt.term.the-keys",
+  "graded": false,
+  "n": 397
+ },
+ {
+  "world": "hal",
+  "probe": "f3-p-probe-01",
+  "s": 10,
+  "sentence": "The letter wrestles with it hour by hour, not past it.",
+  "before": "What you will notice is this: he argued, but the grief he was answering had not stopped.",
+  "record_id": "hal.dw.suffering",
+  "graded": false,
+  "n": 398
+ },
+ {
+  "world": "alx",
+  "probe": "f1-e-probe-01",
+  "s": 4,
+  "sentence": "Origen opened his work against the pagan Celsus by pointing to what could be seen: men who ran at the arrest went to their deaths proclaiming what they said they saw, and no made-up doctrine produces that kind of change.",
+  "before": "Authority went to proven wisdom, not to an office.",
+  "record_id": "alx.dw.resurrection",
+  "graded": false,
+  "n": 399
+ },
+ {
+  "world": "gallic",
+  "probe": "f3-p-probe-01",
+  "s": 11,
+  "sentence": "He did penance for a crime he did not commit.",
+  "before": "Paphnutius said nothing.",
+  "record_id": "gallic.story.paphnutius-and-the-hidden-book",
+  "graded": false,
+  "n": 400
+ },
+ {
+  "world": "witt",
+  "probe": "f3-e-probe-01",
+  "s": 6,
+  "sentence": "What we were was a reform argued in print, preached from pulpits, and confessed before civil authorities through proper channels - never a secret movement driven into the catacombs.",
+  "before": "Our German Mass was sung publicly in the parish church, not whispered in a cellar.",
+  "record_id": "witt.dw.a-confession-answered-not-a-vote",
+  "graded": false,
+  "n": 401
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 12,
+  "sentence": "God rules us two ways, and we kept both rules apart without confusing them.",
+  "before": "Beside the pastor stood a second kind of authority entirely: the civil sword, the magistrate's own power to punish evil and protect the good.",
+  "record_id": "witt.term.the-two-governments",
+  "graded": false,
+  "n": 402
+ },
+ {
+  "world": "syr",
+  "probe": "f2-i-probe-01",
+  "s": 8,
+  "sentence": "The visible thing is bound to what it reveals.",
+  "before": "One of our hymns describes how a single pearl, held in the hand, can show mysteries whole chapters long - that is how we read.",
+  "record_id": "syr.term.raza-shrara",
+  "graded": false,
+  "n": 403
+ },
+ {
+  "world": "alx",
+  "probe": "f3-i-probe-01",
+  "s": 12,
+  "sentence": "Exile became a tool.",
+  "before": "After the council at Nicaea ruled on the confession, the bishop of Alexandria became the enforcer of that agreement across all Egypt, backed by the emperor's hand.",
+  "record_id": "alx.dw.empire",
+  "graded": false,
+  "n": 404
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-i-probe-01",
+  "s": 1,
+  "sentence": "Jesus was the ground everything stood on.",
+  "before": "(start of reply)",
+  "record_id": "cappadocian.dw.who-was-jesus",
+  "graded": true,
+  "n": 405
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-e-probe-01",
+  "s": 4,
+  "sentence": "The arguments about leadership - one bishop or a council of elders - are there in the texts themselves, unresolved across the whole span.",
+  "before": "A governor's account of torturing two of our women survives.",
+  "record_id": "pahc.witness.what-we-never-settled",
+  "graded": false,
+  "n": 406
+ },
+ {
+  "world": "hal",
+  "probe": "c-i-probe-01",
+  "s": 9,
+  "sentence": "His death is redemption.",
+  "before": "To the scholar, he is the Word, worth a lifetime of labor to translate truly - the translation labor later called the Vulgata.",
+  "record_id": "hal.dw.jesus",
+  "graded": false,
+  "n": 407
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-t-probe-01",
+  "s": 2,
+  "sentence": "First, our own ending: the tradition you are asking about never achieved the unity it claimed.",
+  "before": "We cannot say - and we will name the two reasons plainly.",
+  "record_id": "ijc.demo.never-settled",
+  "graded": false,
+  "n": 408
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-i-probe-01",
+  "s": 7,
+  "sentence": "Constantinople claimed rank second only to Rome's, not because an apostle founded it but because the emperor now reigned there - rank following the throne, our word for it was presbeia.",
+  "before": "Julius asserted it plainly in 341: the custom has been for word to be written first to us.",
+  "record_id": "ijc.term.presbeia",
+  "graded": false,
+  "n": 409
+ },
+ {
+  "world": "desert",
+  "probe": "c-i-probe-01",
+  "s": 11,
+  "sentence": "We argued that plainly when we were pressed to - once in public, when the bishops summoned one of us down from his mountain to answer the Arians in Alexandria.",
+  "before": "The Word took a human body for our salvation, so that by sharing our birth he might make us share what is his.",
+  "record_id": "desert.dw.councils",
+  "graded": false,
+  "n": 410
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-e-probe-01",
+  "s": 8,
+  "sentence": "The baptismal formula itself - Father, Son, and Holy Spirit - appears nowhere as law in any letter or gospel we can point to, yet every church spoke it over the water.",
+  "before": "And we held that not everything arrived in writing at all.",
+  "record_id": "cappadocian.dw.customs-from-the-apostles",
+  "graded": false,
+  "n": 411
+ },
+ {
+  "world": "hal",
+  "probe": "c-p-probe-01",
+  "s": 10,
+  "sentence": "And we remember Fabiola.",
+  "before": "He counted that divided heart the beginning of his life with God, not the end of it.",
+  "record_id": "hal.dw.believe",
+  "graded": false,
+  "n": 412
+ },
+ {
+  "world": "rzg",
+  "probe": "f2-t-probe-01",
+  "s": 1,
+  "sentence": "Scripture alone, yes - and we meant that as a live, tested conviction, not only a slogan.",
+  "before": "(start of reply)",
+  "record_id": "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "graded": false,
+  "n": 413
+ },
+ {
+  "world": "ijc",
+  "probe": "c-p-probe-01",
+  "s": 15,
+  "sentence": "The scriptures, read aloud in every church.",
+  "before": "What we had was three things.",
+  "record_id": "ijc.dw.received-not-seen",
+  "graded": false,
+  "n": 414
+ },
+ {
+  "world": "hal",
+  "probe": "c-i-probe-01",
+  "s": 4,
+  "sentence": "The Lord of all things entered the world as a poor child in a feeding trough.",
+  "before": "Our deepest devotion has the shape of that choice.",
+  "record_id": "hal.dw.jesus",
+  "graded": false,
+  "n": 415
+ },
+ {
+  "world": "ijc",
+  "probe": "c-t-probe-01",
+  "s": 2,
+  "sentence": "Our creed answers first: we believe in one God, the Father Almighty, maker of all things visible and invisible.",
+  "before": "To us, Jesus is the one our whole argument was about, and the argument itself was our devotion.",
+  "record_id": "ijc.quote.nicene-creed",
+  "graded": true,
+  "n": 416
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f3-i-probe-01",
+  "s": 11,
+  "sentence": "Some were seized for the chair precisely because they did not want it - conscripted, we might say, by a community that wanted holiness over ambition.",
+  "before": "But how anyone actually became a bishop was never one clean process.",
+  "record_id": "cappadocian.core.cappadocian",
+  "graded": false,
+  "n": 417
+ },
+ {
+  "world": "hal",
+  "probe": "f3-p-probe-01",
+  "s": 9,
+  "sentence": "What you will notice is this: he argued, but the grief he was answering had not stopped.",
+  "before": "He argued that Blaesilla's reward was sure with Christ, that her mother's grief was understandable but should not last forever, and that the critics were wrong to blame the discipline itself.",
+  "record_id": "hal.dw.suffering",
+  "graded": false,
+  "n": 418
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-i-probe-01",
+  "s": 9,
+  "sentence": "The fight to secure that independence from the council's own direct control was not won quickly or without cost, and it was not finally secured until 1555.",
+  "before": "That Consistory holds our whole population's daily conduct to account, testing whether a professed faith actually shows itself in how someone lives.",
+  "record_id": "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "graded": false,
+  "n": 419
+ },
+ {
+  "world": "alx",
+  "probe": "f1-p-probe-01",
+  "s": 10,
+  "sentence": "He did not manufacture the belief.",
+  "before": "He wrote: \"Like a spark falling on our innermost soul, love was kindled and burst into flame within us\".",
+  "record_id": "alx.story.gregory-formation",
+  "graded": false,
+  "n": 420
+ },
+ {
+  "world": "alx",
+  "probe": "f1-p-probe-01",
+  "s": 21,
+  "sentence": "But the debate was bitter, and some held out against their return.",
+  "before": "The bishop Dionysius brought them back in, even at the deathbed, through real repentance - metanoia, the soul truly turning back.",
+  "record_id": "alx.dw.church-failure",
+  "graded": false,
+  "n": 421
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-e-probe-01",
+  "s": 3,
+  "sentence": "A governor's account of torturing two of our women survives.",
+  "before": "What holds: the letters survive, the manual survives, the worship instructions survive.",
+  "record_id": "pahc.witness.outsider-view",
+  "graded": false,
+  "n": 422
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-e-probe-01",
+  "s": 7,
+  "sentence": "What it shows instead is that the argument stayed open.",
+  "before": "Whether anyone accepted Vincent's reading as a settlement, our record does not say.",
+  "record_id": "gallic.demo.never-settled",
+  "graded": false,
+  "n": 423
+ },
+ {
+  "world": "syr",
+  "probe": "f3-p-probe-01",
+  "s": 13,
+  "sentence": "The honest answer is: we did not treat them as failures at the time, and so we did not repair what we could not see as broken.",
+  "before": "What did we do with those failures?",
+  "record_id": "syr.dw.failures",
+  "graded": false,
+  "n": 424
+ },
+ {
+  "world": "don",
+  "probe": "f4-i-probe-01",
+  "s": 7,
+  "sentence": "Then you were put in the water.",
+  "before": "Which door you approached was already a public act, visible to anyone in the street.",
+  "record_id": "don.dw.becoming-one-of-us",
+  "graded": false,
+  "n": 425
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-e-probe-01",
+  "s": 11,
+  "sentence": "Some say decades later.",
+  "before": "Some say he wrote when he says he did.",
+  "record_id": "pahc.witness.scholarly-standing",
+  "graded": false,
+  "n": 426
+ },
+ {
+  "world": "alx",
+  "probe": "f3-t-probe-01",
+  "s": 5,
+  "sentence": "It was a claim about wholeness, not the name of a later denomination.",
+  "before": "We called ourselves part of the catholic church - the word meant the whole church, the one spread everywhere, as against the sects.",
+  "record_id": "alx.dw.one-church",
+  "graded": true,
+  "n": 427
+ },
+ {
+  "world": "hal",
+  "probe": "f3-p-probe-01",
+  "s": 5,
+  "sentence": "At her funeral, Paula herself collapsed in the procession while the crowd said openly that these detestable monks should be driven from Rome, or stoned, or thrown into the river.",
+  "before": "She died young.",
+  "record_id": "hal.dw.suffering",
+  "graded": false,
+  "n": 428
+ },
+ {
+  "world": "alx",
+  "probe": "c-t-probe-01",
+  "s": 21,
+  "sentence": "That required the Word himself to enter what he had made.",
+  "before": "Real sharing in God's own life - methexis - not mere nearness to it.",
+  "record_id": "alx.dw.jesus",
+  "graded": false,
+  "n": 429
+ },
+ {
+  "world": "ijc",
+  "probe": "f1-e-probe-01",
+  "s": 2,
+  "sentence": "The emperor could settle it by edict and enforcement.",
+  "before": "When we disagreed about doctrine, three answers competed for the same ground, and our record shows all three being tried.",
+  "record_id": "ijc.gravity.orthodoxy-enforcement",
+  "graded": false,
+  "n": 430
+ },
+ {
+  "world": "alx",
+  "probe": "f1-e-probe-01",
+  "s": 9,
+  "sentence": "In the middle years, the bishop's judgment grew.",
+  "before": "But where the tradition had spoken, the teacher bowed.",
+  "record_id": "alx.dw.councils",
+  "graded": false,
+  "n": 431
+ },
+ {
+  "world": "alx",
+  "probe": "c-p-probe-01",
+  "s": 8,
+  "sentence": "He came to study philosophy under Origen.",
+  "before": "One of our students, Gregory, left us an account of how it happened for him.",
+  "record_id": "alx.story.gregory-formation",
+  "graded": true,
+  "n": 432
+ },
+ {
+  "world": "alx",
+  "probe": "f1-e-probe-01",
+  "s": 14,
+  "sentence": "At the end came the council.",
+  "before": "That is our clearest picture of deciding well: patient public argument, honoring the man while honoring the truth more.",
+  "record_id": "alx.dw.councils",
+  "graded": false,
+  "n": 433
+ },
+ {
+  "world": "alx",
+  "probe": "f3-i-probe-01",
+  "s": 7,
+  "sentence": "When whole villages in the Arsinoite district fell into a disputed teaching about the end, it was their bishop, Dionysius, who went to them.",
+  "before": "The bishop governed the community's worship, guarded what had been handed down - the rule of faith, the apostolic deposit - and settled disputes.",
+  "record_id": "alx.story.arsinoite-conference",
+  "graded": false,
+  "n": 434
+ },
+ {
+  "world": "rzg",
+  "probe": "f2-e-probe-01",
+  "s": 11,
+  "sentence": "A scholar would rightly ask whether that weighting favors Calvin over Zwingli - it does, about four to one in the base corpus, and I have not smoothed that into an 'equally from both cities' claim where it is not true.",
+  "before": "I am this world's whole documented life, weighted toward what was argued and returned to often, given one consistent voice.",
+  "record_id": "rzg.core.the-reformed-cities-zurich-and-geneva",
+  "graded": false,
+  "n": 435
+ },
+ {
+  "world": "syr",
+  "probe": "f4-i-probe-01",
+  "s": 21,
+  "sentence": "That is the honest answer: baptism as the door everyone came through, the covenant as the core some entered, and the sequence of either one kept only in pieces, not in order.",
+  "before": "So the vow was real, public, and central - and the details of how it was entered are missing.",
+  "record_id": "syr.limit.ritual-sequence",
+  "graded": false,
+  "n": 436
+ },
+ {
+  "world": "alx",
+  "probe": "f1-p-probe-01",
+  "s": 27,
+  "sentence": "He had been blind from childhood.",
+  "before": "Near the end of our years, the school's master was a man named Didymus.",
+  "record_id": "alx.story.didymus-meeting",
+  "graded": false,
+  "n": 437
+ },
+ {
+  "world": "witt",
+  "probe": "c-p-probe-01",
+  "s": 2,
+  "sentence": "What we would tell you is this: faith is not something you manufacture inside yourself.",
+  "before": "We would not tell you that this is a simple matter of effort, or that you have failed a test, or that belief is something you simply decide to do and then do it.",
+  "record_id": "witt.term.faith",
+  "graded": false,
+  "n": 438
+ },
+ {
+  "world": "desert",
+  "probe": "c-e-probe-01",
+  "s": 16,
+  "sentence": "That is how they reached us - not as a text to be explained, but as a word to be obeyed.",
+  "before": "He took it as though it had been said to him alone.",
+  "record_id": "desert.dw.jesus",
+  "graded": false,
+  "n": 439
+ },
+ {
+  "world": "alx",
+  "probe": "f1-p-probe-01",
+  "s": 7,
+  "sentence": "One of our students, Gregory, left us his own account of how it happened for him.",
+  "before": "A person begins there and grows, sometimes for years, before coming to the water.",
+  "record_id": "alx.story.gregory-formation",
+  "graded": false,
+  "n": 440
+ },
+ {
+  "world": "pahc",
+  "probe": "f3-i-probe-01",
+  "s": 20,
+  "sentence": "How that gift related to settled office, and whether the offices were slowly taking the prophet's place, is a real question our own texts leave open rather than answer.",
+  "before": "Prophets - those who spoke as the Spirit prompted - were still welcomed at the door in some of our communities, and carefully tested.",
+  "record_id": "pahc.term.prophetes",
+  "graded": false,
+  "n": 441
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-p-probe-01",
+  "s": 21,
+  "sentence": "One massacre got public penance.",
+  "before": "So the honest answer your question gets is this: we had the tools to answer failure, and we did not always use them rightly.",
+  "record_id": "ijc.story.emperor-penance",
+  "graded": false,
+  "n": 442
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-i-probe-01",
+  "s": 10,
+  "sentence": "What we have never settled is which of these two arrangements is the right one.",
+  "before": "The fight to secure that independence from the council's own direct control was not won quickly or without cost, and it was not finally secured until 1555.",
+  "record_id": "rzg.witness.what-we-have-not-agreed",
+  "graded": false,
+  "n": 443
+ },
+ {
+  "world": "don",
+  "probe": "f2-e-probe-01",
+  "s": 4,
+  "sentence": "Two complete rival hierarchies, see for see, is not a claim we are guessing at.",
+  "before": "Start with what stands.",
+  "record_id": "don.dw.two-churches-in-one-town",
+  "graded": false,
+  "n": 444
+ },
+ {
+  "world": "gallic",
+  "probe": "f1-p-probe-01",
+  "s": 6,
+  "sentence": "That is the nearest our record comes to the question you are asking - a man who called his master's experience a delusion, kept his place, and was answered with patience rather than expulsion.",
+  "before": "Asked why he did not cast him out, Martin said he would bear with the man if Christ bore with Judas.",
+  "record_id": "gallic.quote.martin-if-christ-bore-with-judas",
+  "graded": false,
+  "n": 445
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 27,
+  "sentence": "That testimony is real, and said more than once.",
+  "before": "Our founder's own testimony says some did not.",
+  "record_id": "witt.dw.cold-and-careless-among-us",
+  "graded": false,
+  "n": 446
+ },
+ {
+  "world": "alx",
+  "probe": "c-e-probe-01",
+  "s": 14,
+  "sentence": "What the apostles delivered plainly stayed fixed.",
+  "before": "As for the rule of faith, it was shorter than any creed you know - a frame, not a list - and it set the bounds for honest reading.",
+  "record_id": "alx.dw.doubt",
+  "graded": false,
+  "n": 447
+ },
+ {
+  "world": "desert",
+  "probe": "f1-p-probe-01",
+  "s": 9,
+  "sentence": "Another was told, in prayer, to flee the company of men.",
+  "before": "Even his own giving took two hearings to complete, not one.",
+  "record_id": "desert.story.arsenius-flee",
+  "graded": false,
+  "n": 448
+ },
+ {
+  "world": "ijc",
+  "probe": "c-e-probe-01",
+  "s": 6,
+  "sentence": "At the council of Chalcedon, when the judges asked the assembly to declare its faith, Rome's legate Paschasinus spoke first.",
+  "before": "You can watch us do it.",
+  "record_id": "ijc.dw.received-not-seen",
+  "graded": false,
+  "n": 449
+ },
+ {
+  "world": "pahc",
+  "probe": "c-t-probe-01",
+  "s": 11,
+  "sentence": "But no one among us wrote down how they relate to one another the way someone arguing a worked-out teaching would.",
+  "before": "Those three names stood together at the water.",
+  "record_id": "pahc.witness.god-and-argument",
+  "graded": true,
+  "n": 450
+ },
+ {
+  "world": "gallic",
+  "probe": "f2-p-probe-01",
+  "s": 24,
+  "sentence": "That is Scripture read as a field, not a puzzle.",
+  "before": "The husbandman ploughs and still needs the rain; he cannot ascribe the crop to himself, and God does not send rich crops to the idle.",
+  "record_id": "gallic.demo.faith-alone",
+  "graded": false,
+  "n": 451
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f3-p-probe-01",
+  "s": 9,
+  "sentence": "The brotherhoods held goods in common, obeyed a leader, and kept fixed prayer whether anyone felt like praying that day or not.",
+  "before": "We cannot show you every time it stayed open when it should have.",
+  "record_id": "cappadocian.dw.becoming-one-of-us",
+  "graded": false,
+  "n": 452
+ },
+ {
+  "world": "rzg",
+  "probe": "c-p-probe-01",
+  "s": 9,
+  "sentence": "If it has, then what is asked of you is to look at that, not at how convincingly you are looking.",
+  "before": "Has the promise been set before you?",
+  "record_id": "rzg.demo.predestination-and-dread",
+  "graded": false,
+  "n": 453
+ },
+ {
+  "world": "gallic",
+  "probe": "c-t-probe-01",
+  "s": 8,
+  "sentence": "In God, one substance, three Persons.",
+  "before": "So we held there was no other way to say it.",
+  "record_id": "gallic.quote.one-substance-three-persons",
+  "graded": false,
+  "n": 454
+ },
+ {
+  "world": "alx",
+  "probe": "f3-p-probe-01",
+  "s": 12,
+  "sentence": "The old apostle did not write him off.",
+  "before": "Clement told a story he said came from the apostles - John himself traveling to find a young man who had fallen into robbery and violence after his baptism.",
+  "record_id": "alx.story.john-young-robber",
+  "graded": false,
+  "n": 455
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f2-i-probe-01",
+  "s": 10,
+  "sentence": "The text could hold that kind of depth - a meaning plain on its face, and underneath it the God no mind exhausts.",
+  "before": "Something hidden made truly present, never fully explained.",
+  "record_id": "cappadocian.term.mysterion",
+  "graded": false,
+  "n": 456
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f2-e-probe-01",
+  "s": 20,
+  "sentence": "But a rigorous reader would not let us describe them at length without that flag right next to the description itself, every time.",
+  "before": "We named that limit when we spoke of our defeated opponents surviving only inside our own polemic.",
+  "record_id": "cappadocian.core.cappadocian",
+  "graded": false,
+  "n": 457
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-i-probe-01",
+  "s": 26,
+  "sentence": "The emperor who commanded armies stood outside the altar until he satisfied a bishop's demand.",
+  "before": "And it worked.",
+  "record_id": "ijc.story.emperor-penance",
+  "graded": false,
+  "n": 458
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-e-probe-01",
+  "s": 1,
+  "sentence": "We did not know Jesus, and we did not know anyone who did.",
+  "before": "(start of reply)",
+  "record_id": "cappadocian.dw.how-it-reached-us",
+  "graded": false,
+  "n": 459
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-i-probe-01",
+  "s": 21,
+  "sentence": "Whether that is one doctrine arrived at twice, or one form of words carefully written to hold two readings without either yielding, we do not claim to know.",
+  "before": "The sign points to the reality; the two are never pulled apart.",
+  "record_id": "rzg.demo.consensus-contest",
+  "graded": true,
+  "n": 460
+ },
+ {
+  "world": "cappadocian",
+  "probe": "f3-i-probe-01",
+  "s": 10,
+  "sentence": "But how anyone actually became a bishop was never one clean process.",
+  "before": "Synods could elect, discipline, or depose - one of our own was driven out on charges his brother called false, through a packed council, and came back only when the weather changed.",
+  "record_id": "cappadocian.dw.authority-and-spread",
+  "graded": false,
+  "n": 461
+ },
+ {
+  "world": "pahc",
+  "probe": "f2-e-probe-01",
+  "s": 5,
+  "sentence": "That disagreement is real, not invented.",
+  "before": "The arguments about leadership - one bishop or a council of elders - are there in the texts themselves, unresolved across the whole span.",
+  "record_id": "pahc.witness.what-we-never-settled",
+  "graded": false,
+  "n": 462
+ },
+ {
+  "world": "alx",
+  "probe": "c-i-probe-01",
+  "s": 3,
+  "sentence": "He was not a messenger bringing news about God.",
+  "before": "Our teachers used an old word for him: the Logos, God's reason and speech, the one through whom all things were made.",
+  "record_id": "alx.dw.jesus",
+  "graded": false,
+  "n": 463
+ },
+ {
+  "world": "witt",
+  "probe": "f1-i-probe-01",
+  "s": 30,
+  "sentence": "A father in his own house is a priest there.",
+  "before": "Every baptized person is already a priest.",
+  "record_id": "witt.term.we-are-all-priests",
+  "graded": false,
+  "n": 464
+ },
+ {
+  "world": "ijc",
+  "probe": "c-e-probe-01",
+  "s": 1,
+  "sentence": "We had three things.",
+  "before": "(start of reply)",
+  "record_id": "ijc.dw.received-not-seen",
+  "graded": false,
+  "n": 465
+ },
+ {
+  "world": "witt",
+  "probe": "f3-i-probe-01",
+  "s": 9,
+  "sentence": "That is our own household book, speaking plainly about the office it addresses.",
+  "before": "That is not a stranger's accusation.",
+  "record_id": "witt.term.pastor",
+  "graded": false,
+  "n": 466
+ },
+ {
+  "world": "syr",
+  "probe": "f2-p-probe-01",
+  "s": 8,
+  "sentence": "A chapter's worth of meaning sits in a single word, if you know what the word is bound to.",
+  "before": "That is how we read Scripture.",
+  "record_id": "syr.dw.reading",
+  "graded": true,
+  "n": 467
+ },
+ {
+  "world": "alx",
+  "probe": "f3-p-probe-01",
+  "s": 5,
+  "sentence": "Some sacrificed to the gods.",
+  "before": "Under persecution, many gave way.",
+  "record_id": "alx.dw.church-failure",
+  "graded": false,
+  "n": 468
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-p-probe-01",
+  "s": 2,
+  "sentence": "What the doctrine says is this: our Consistory at Geneva held the standing power of censure over ordinary conduct, pastors and lay elders together - laypeople, not clergy alone.",
+  "before": "We will answer that on two levels, because both are true and neither one softens the other.",
+  "record_id": "rzg.term.consistory",
+  "graded": true,
+  "n": 469
+ },
+ {
+  "world": "syr",
+  "probe": "f2-p-probe-01",
+  "s": 9,
+  "sentence": "Eden is read toward the cross.",
+  "before": "A chapter's worth of meaning sits in a single word, if you know what the word is bound to.",
+  "record_id": "syr.dw.reading",
+  "graded": true,
+  "n": 470
+ },
+ {
+  "world": "ijc",
+  "probe": "f3-t-probe-01",
+  "s": 10,
+  "sentence": "The contest you are asking about was still live when our record ends.",
+  "before": "The honest thing we can say is this.",
+  "record_id": "ijc.demo.never-settled",
+  "graded": false,
+  "n": 471
+ },
+ {
+  "world": "ijc",
+  "probe": "c-p-probe-01",
+  "s": 14,
+  "sentence": "What we had was three things.",
+  "before": "Three hundred years separated us from him, and no one alive had met anyone who saw him.",
+  "record_id": "ijc.dw.received-not-seen",
+  "graded": false,
+  "n": 472
+ },
+ {
+  "world": "cappadocian",
+  "probe": "c-e-probe-01",
+  "s": 6,
+  "sentence": "The creed written at Nicaea in 325, before most of us drew breath, carried the confession we spent two generations defending: one God, Father, Son, and Holy Spirit, the Son of the same being as the Father - homoousios, the word we fought to keep.",
+  "before": "The gospels and the apostolic letters stood as fixed text, collected and bounded - though we cannot tell you with confidence that the list of books we called scripture matched yours exactly, book for book; that is not something our own record settles clearly.",
+  "record_id": "cappadocian.dw.how-it-reached-us",
+  "graded": false,
+  "n": 473
+ },
+ {
+  "world": "witt",
+  "probe": "f3-p-probe-01",
+  "s": 20,
+  "sentence": "The warning was given.",
+  "before": "Our catechism warned the household, at length and in the sharpest terms it uses anywhere, against harshness toward the poor: when a poor man comes to your door and you turn him away with contempt, beware, as of the devil himself.",
+  "record_id": "witt.dw.the-poor-man-at-the-door",
+  "graded": false,
+  "n": 474
+ },
+ {
+  "world": "witt",
+  "probe": "c-p-probe-01",
+  "s": 7,
+  "sentence": "He redeemed us, a lost and condemned people, not with gold or silver but with his own holy, precious blood, his own innocent body, his own death.",
+  "before": "What we confess about him, every household under our catechism said each week: I believe that Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary - conceived by the Holy Spirit, made to suffer under Pontius Pilate, crucified, died, and buried.",
+  "record_id": "witt.dw.truly-god-and-truly-man",
+  "graded": false,
+  "n": 475
+ },
+ {
+  "world": "don",
+  "probe": "f2-t-probe-01",
+  "s": 20,
+  "sentence": "So: Scripture, yes.",
+  "before": "We read it at the graveside, on the appointed day, and let it form us in the hearing.",
+  "record_id": "don.dw.scripture-and-the-african-fathers",
+  "graded": false,
+  "n": 476
+ },
+ {
+  "world": "alx",
+  "probe": "f3-p-probe-01",
+  "s": 4,
+  "sentence": "Under persecution, many gave way.",
+  "before": "The church remembered both men rather than erasing either.",
+  "record_id": "alx.dw.church-failure",
+  "graded": false,
+  "n": 477
+ },
+ {
+  "world": "rzg",
+  "probe": "f3-i-probe-01",
+  "s": 13,
+  "sentence": "One woman in our own record carried real authority, and paid for it.",
+  "before": "We hold that unresolved, in the same breath as the conviction itself, because both are true.",
+  "record_id": "rzg.limit.dentiere-and-womens-voice",
+  "graded": false,
+  "n": 478
+ },
+ {
+  "world": "ijc",
+  "probe": "f4-i-probe-01",
+  "s": 7,
+  "sentence": "Constantine himself, who convened councils and funded basilicas, was baptized only on his deathbed.",
+  "before": "What it does show is that the teaching was real, the boundary was guarded, and some of the empire's most famous men stayed on that threshold for years.",
+  "record_id": "ijc.dw.baptism-threshold",
+  "graded": false,
+  "n": 479
+ },
+ {
+  "world": "syr",
+  "probe": "f2-i-probe-01",
+  "s": 13,
+  "sentence": "That was what we heard in worship, that was what our teachers quoted and commented on.",
+  "before": "The harmony - the Ewangeliyon da-Mhallete, the Gospel of the Mixed - wove the four accounts into one continuous telling.",
+  "record_id": "syr.dw.gospel-harmony",
+  "graded": false,
+  "n": 480
+ },
+ {
+  "world": "rzg",
+  "probe": "f1-e-probe-01",
+  "s": 6,
+  "sentence": "At Geneva, a different body held the power to discipline, though not without years of real contest before the matter settled.",
+  "before": "The council did not merely enforce what the pastors had already decided among themselves - it judged the argument, in public, and issued the ruling.",
+  "record_id": "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "graded": true,
+  "n": 481
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-p-probe-01",
+  "s": 2,
+  "sentence": "One of us, Hermas, was told plainly: if your prayer is slow to be answered, that is not the same as being refused.",
+  "before": "There was.",
+  "record_id": "pahc.witness.doubt-and-asking",
+  "graded": true,
+  "n": 482
+ },
+ {
+  "world": "pahc",
+  "probe": "f1-e-probe-01",
+  "s": 10,
+  "sentence": "We do not know if Corinth listened, or if anyone there still disagreed after the letter arrived.",
+  "before": "But it was Rome's own argument we kept, not Corinth's answer.",
+  "record_id": "pahc.witness.our-own-failures",
+  "graded": false,
+  "n": 483
+ },
+ {
+  "world": "don",
+  "probe": "f4-i-probe-01",
+  "s": 16,
+  "sentence": "There was no quiet way to do it.",
+  "before": "The washing happened once, bodily, on a day, and the town knew.",
+  "record_id": "don.dw.becoming-one-of-us",
+  "graded": false,
+  "n": 484
+ },
+ {
+  "world": "alx",
+  "probe": "f2-i-probe-01",
+  "s": 10,
+  "sentence": "The reading was meant to change the reader.",
+  "before": "Our student Gregory, looking back on his years with Origen, said his teacher made him examine everything - 'nothing was forbidden us, nothing hidden or inaccessible' - and that all of it led him, through the texts, into love for the Word himself.",
+  "record_id": "alx.gravity.scripture-formative",
+  "graded": false,
+  "n": 485
+ },
+ {
+  "world": "gallic",
+  "probe": "f2-p-probe-01",
+  "s": 4,
+  "sentence": "Vincent, on the island, held that the canon of Scripture is complete and more than enough \u2013 and that it still needs the Church's own understanding, because each man reads it his own way.",
+  "before": "First, what we said.",
+  "record_id": "gallic.limit.no-one-who-saw-him",
+  "graded": false,
+  "n": 486
+ },
+ {
+  "world": "syr",
+  "probe": "f2-p-probe-01",
+  "s": 11,
+  "sentence": "The ark is read toward the church.",
+  "before": "Adam is read toward Christ.",
+  "record_id": "syr.dw.reading",
+  "graded": true,
+  "n": 487
+ },
+ {
+  "world": "syr",
+  "probe": "f2-i-probe-01",
+  "s": 14,
+  "sentence": "The Gospel's shape, for us, was one unbroken thread, not four separate voices.",
+  "before": "That was what we heard in worship, that was what our teachers quoted and commented on.",
+  "record_id": "syr.dw.gospel-harmony",
+  "graded": false,
+  "n": 488
+ },
+ {
+  "world": "desert",
+  "probe": "c-i-probe-01",
+  "s": 22,
+  "sentence": "The Word who took our birth so we might share his.",
+  "before": "A command obeyed.",
+  "record_id": "desert.dw.jesus",
+  "graded": false,
+  "n": 489
+ }
+]

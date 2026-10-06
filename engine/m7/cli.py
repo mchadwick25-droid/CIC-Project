@@ -39,7 +39,7 @@ def _world_shelves(registry: dict) -> dict[str, dict]:
     from engine.api.config import REPO_ROOT
     shelves: dict[str, dict] = {}
     for key, entry in registry.items():
-        if not isinstance(entry, dict) or entry.get("kind") != "formation":
+        if not isinstance(entry, dict) or entry.get("kind") != "formation" or not entry.get("package"):
             continue
         repo_path = REPO_ROOT / entry["package"]["location"] / "compiled" / "repository.json"
         if not repo_path.exists():
@@ -54,6 +54,23 @@ def _world_shelves(registry: dict) -> dict[str, dict]:
             "by_type": by_type,
         }
     return shelves
+
+
+def _world_repositories(registry: dict) -> dict[str, dict[str, dict]]:
+    """world_key -> its pinned package's compiled records by id, for the
+    report-only turn checks (engine.m7.offline_checks). A world whose
+    package isn't on disk is omitted; its turns get the checks that need no
+    records."""
+    import json as _json
+    from engine.api.config import REPO_ROOT
+    repositories: dict[str, dict[str, dict]] = {}
+    for key, entry in registry.items():
+        if not isinstance(entry, dict) or not entry.get("package"):
+            continue
+        repo_path = REPO_ROOT / entry["package"]["location"] / "compiled" / "repository.json"
+        if repo_path.exists():
+            repositories[key] = {r["id"]: r for r in _json.loads(repo_path.read_text())["records"]}
+    return repositories
 
 
 def _world_names(registry: dict) -> dict[str, list[str]]:
@@ -74,13 +91,14 @@ def audit(events_db: str, out_dir: Path, since: str | None = None) -> dict:
     registry = load_registry()
     names = _world_names(registry)
     shelves = _world_shelves(registry)
+    repositories = _world_repositories(registry)
     session_ids = store.list_session_ids(since=since)
     audits = []
     for sid in session_ids:
         session = read_session(store, sid)
         if session is None:
             continue
-        a = run_all(session, names)
+        a = run_all(session, names, repositories)
         write_session_audit(out_dir, a)
         audits.append(a)
     rollup = build_rollup(audits, shelves)

@@ -1,0 +1,38 @@
+export const deeperCopy = {
+  heading: 'Go deeper',
+  intro: 'Tokens pay for each new conversation and each round. Add more any time. Your conversation stays open.',
+  open: 'Go deeper',
+  close: 'Close',
+  getMore: 'Get more tokens',
+  haveCode: 'I have a code',
+  low: 'Your tokens are running low.',
+  fieldLabel: 'Your code',
+  useCode: 'Use this code',
+  saved: 'Code saved on this device.',
+  removeCode: 'Remove code',
+  badCode: "That doesn't look like a code. Check it and try again.",
+  claimAsk: 'A code came with this link. Use it?',
+  claimReplace: 'You already have a code. This one will be added to it.',
+  claimUse: 'Use it',
+  claimLater: 'Not now',
+  claimFailed: "We couldn't get that code. Try the page where you paid.",
+  showCode: 'Show my code',
+  hideCode: 'Hide my code',
+  yourCode: (code: string) => `Your code is ${code}. Keep it safe. Enter it on another device to use your tokens there.`,
+  balance: (n: number) => `${n.toLocaleString('en-US')} tokens left.`,
+  freeLeft: (n: number) => `${n.toLocaleString('en-US')} free tokens left.`,
+};
+
+export const pilotCopy = {
+  group: 'Free pilot pack',
+  joining: 'Getting your free pack.',
+  readyHeading: 'Your free pack is ready',
+  ready: (tokens: number, conversations: number) =>
+    `You have ${tokens.toLocaleString('en-US')} tokens, about ${conversations} conversations. They are saved in this browser, so there is nothing to copy.`,
+  start: 'Start a conversation',
+  already: 'You have joined the pilot. Your pack is in this browser.',
+  full: 'The pilot is full. Thank you for your interest.',
+  ended: 'The pilot has ended. Thank you.',
+  addressLimit: 'This connection has already taken the free packs the pilot allows.',
+  failed: "We couldn't get your pack. Try again from the pilot page.",
+};

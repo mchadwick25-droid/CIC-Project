@@ -8,6 +8,7 @@ from types import SimpleNamespace
 
 import pytest
 
+from engine.m4 import facilitator_turns
 from engine.m4.round import (
     TABLE_SESSION_ROUND_CAP,
     RoundConfig,
@@ -54,13 +55,14 @@ def _gate_run(
     )
 
 
-def _open(gate_run, *, rounds_completed=0, track_a_last=None, anachronistic_term_ids=frozenset()):
+def _open(gate_run, *, rounds_completed=0, track_a_last=None, anachronistic_term_ids=frozenset(), daily_cap_reached=False):
     return open_table_round(
         gate_run=gate_run,
         representative_names=NAMES,
         track_a_last=track_a_last,
         rounds_completed=rounds_completed,
         anachronistic_term_ids=set(anachronistic_term_ids),
+        daily_cap_reached=daily_cap_reached,
     )
 
 
@@ -201,6 +203,23 @@ def test_acute_crisis_overrides_session_cap():
     assert not opening.session_capped
     assert opening.facilitator_events[0]["resources_appended"]
 
+
+
+def test_daily_cap_closes_the_table_with_the_daily_cap_text():
+    opening = _open(_gate_run(), daily_cap_reached=True)
+    assert opening.session_capped
+    assert not opening.voices_speak
+    assert opening.routing_action == "session_cap_turn"
+    assert opening.facilitator_events[0]["text"] == facilitator_turns.CAP_CLOSE_TEXT
+
+
+def test_acute_crisis_overrides_daily_cap():
+    opening = _open(
+        _gate_run(action="safety_turn", safety_value={"signal": "ACUTE_DISTRESS", "acute_level": "a2"}),
+        daily_cap_reached=True,
+    )
+    assert not opening.session_capped
+    assert opening.facilitator_events[0]["resources_appended"]
 
 # --- bridge and continue re-derivation ---
 

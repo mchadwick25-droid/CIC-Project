@@ -93,6 +93,15 @@ tensions:
   and none is supplied here
 - we left no rule for when a charge should stop being pressed, only two occasions on which it stopped
 relations: []
+use_note:
+  means: "Donatists split forgiveness in two, so a fallen bishop might be pardoned yet unable to ordain, because their argument turned on whether his hand could give the sacraments, not on his repentance."
+  not_for:
+    - "a claim that a Donatist pastoral saying distinguished pardon from trust"
+    - "a claim about Donatist teaching on interior struggle or unanswered prayer"
+    - "a claim that the Donatists had a rule for when a charge should stop being pressed"
+    - "a claim about the Bagai and Cirta episodes as the movement's unresolved contradiction, which sits in don.dw.what-we-never-settled"
+  years: {from: 311, to: 411}
+  status: reviewed
 ---
 Closes F4-P. The cell's second variant ("how do I forgive someone who
 isn't sorry?") lands on this world's own nerve, and the answer is taken

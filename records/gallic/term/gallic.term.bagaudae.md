@@ -122,6 +122,15 @@ quick_meaning: >-
   flee to the barbarians, or to revolt outright - and then they were blamed for it. The one place in
   our own record where the rural poor speak as a subject, not a mission field.
 distortion_risk: medium
+use_note:
+  means: "Bagaudae meant, in Salvian, Roman provincials driven by their own officials' greed to revolt or flee to the barbarians and then blamed as rebels."
+  not_for:
+    - "a barbarian people or invaders"
+    - "one presbyter's indictment taken as a survey of the Gallic poor"
+    - "monastic poverty or renunciation, which sits in gallic.term.renunciation"
+    - "a Salvian view of the grace controversy, for which his text is not licensed"
+  years: {from: 439, to: 450}
+  status: reviewed
 ---
 This term is not part of the original 81-term Doc_06 lexicon batch. Built directly
 from a direct read of Gov. V.4-6 (not secondhand from

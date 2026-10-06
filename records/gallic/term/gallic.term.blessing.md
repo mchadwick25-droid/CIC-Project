@@ -101,6 +101,15 @@ quick_meaning: >-
   At Tours, a power that passes from the saint into oil, thread, straw, a letter, even his name -
   asked on the knees and measured by what it heals. At Marseilles, only the ordinary word.
 distortion_risk: medium
+use_note:
+  means: "Blessing meant, at Tours, a power passing from the saint into oil, thread, straw and even his name so as to heal, while Marseilles has only the ordinary word."
+  not_for:
+    - "a wish, a prayer or a kindly word"
+    - "the Tours sense of power read into Cassian, whose uses are ordinary"
+    - "the saint's power in general, which sits in gallic.term.virtus"
+    - "the later cult of Martin's relics, which lies outside the window"
+  years: {from: 397, to: 426}
+  status: reviewed
 ---
 Built from Doc_06 entry 049 (`galliclex049_blessing.md`, Tier 2, tags SC DR RT; Doc_03 6.3).
 Single-voice (Sulpitius) for the power sense, stated in divergence_note and senses.evidential

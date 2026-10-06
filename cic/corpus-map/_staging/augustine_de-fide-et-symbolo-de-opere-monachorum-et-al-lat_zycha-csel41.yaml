@@ -1,7 +1,8 @@
 source_file: augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41.txt
 
 assignments:
-  - work: "Augustine's short pastoral and disciplinary works (CSEL 41: De fide et symbolo, De fide et operibus, De agone christiano, De continentia, De bono coniugali, De sancta virginitate, De bono viduitatis, De adulterinis coniugiis, De mendacio, Contra mendacium, De opere monachorum, De divinatione daemonum, De cura pro mortuis, De patientia)"
+  - row_id: augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41--augustine-s-short-pastoral-and-disciplinary-works-csel-41-de
+    work: "Augustine's short pastoral and disciplinary works (CSEL 41: De fide et symbolo, De fide et operibus, De agone christiano, De continentia, De bono coniugali, De sancta virginitate, De bono viduitatis, De adulterinis coniugiis, De mendacio, Contra mendacium, De opere monachorum, De divinatione daemonum, De cura pro mortuis, De patientia)"
     author: augustine
     locus: "whole file, fourteen works; per-work loci not yet located"
     atlas_ids:

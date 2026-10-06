@@ -1,10 +1,15 @@
 /**
- * Thin client for engine/api's three endpoints (engine/api/app.py). No
- * streaming - handle_message() is one blocking call per participant
- * message, so `sendMessage` resolves with the full MessageResponse rather
- * than emitting incremental events.
+ * Thin client for engine/api's endpoints (engine/api/app.py). `sendMessage`
+ * resolves with the full MessageResponse. Given an `onSentence` callback it
+ * also asks for the reply as an event stream: each "sentence" event is the
+ * next sentence of the reply, with its marks, as the voice finishes it, and
+ * the resolved MessageResponse is still the finished turn, whose plan is
+ * authoritative. A server that answers with plain JSON is handled the same
+ * way, with no sentences.
  */
+import { codeHeaders, currentCode, freeLeftFromHeader, remainingFromHeader, reportBalance, reportFreeLeft } from './deeper';
 import type { CreateSessionResponse, MessageResponse, TableMessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
+import type { StreamedSentence } from './streamedReply';
 
 const API_BASE = '/api';
 
@@ -92,7 +97,7 @@ function authHeader(sessionCode: string): Record<string, string> {
 export async function createSession(worldKey: string): Promise<CreateSessionResponse> {
   const response = await fetch(`${API_BASE}/session`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...codeHeaders() },
     body: JSON.stringify({ world_key: worldKey }),
   });
   if (!response.ok) {
@@ -106,7 +111,7 @@ export async function createSession(worldKey: string): Promise<CreateSessionResp
 export async function createTableSession(worldKeys: string[]): Promise<CreateSessionResponse> {
   const response = await fetch(`${API_BASE}/session`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...codeHeaders() },
     body: JSON.stringify({ world_keys: worldKeys }),
   });
   if (!response.ok) {
@@ -115,18 +120,41 @@ export async function createTableSession(worldKeys: string[]): Promise<CreateSes
   return response.json();
 }
 
-// Advance the open table round by one voice turn (Artifact-7 SS6's
-// turn-at-a-time transport) - called repeatedly while round_open is true,
-// so each voice's words reach the participant as they land rather than
-// after the whole round.
-export async function continueRound(sessionId: string, sessionCode: string): Promise<TableMessageResponse> {
-  const response = await fetch(`${API_BASE}/session/${sessionId}/continue`, {
-    method: 'POST',
+// The participant's own deletion request: the server removes the
+// conversation now (204), or refuses with the usual 401 for a wrong code.
+export async function deleteSession(sessionId: string, sessionCode: string): Promise<void> {
+  const response = await fetch(`${API_BASE}/session/${sessionId}`, {
+    method: 'DELETE',
     headers: { ...authHeader(sessionCode) },
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
+}
+
+// Advance the open table round by one voice turn (Artifact-7 SS6's
+// turn-at-a-time transport) - called repeatedly while round_open is true,
+// so each voice's words reach the participant as they land rather than
+// after the whole round.
+const STREAM_ACCEPT = { Accept: 'text/event-stream, application/json;q=0.9' };
+
+function isEventStream(response: Response): boolean {
+  return (response.headers.get('content-type') ?? '').startsWith('text/event-stream');
+}
+
+export async function continueRound(
+  sessionId: string,
+  sessionCode: string,
+  onSentence?: (sentence: StreamedSentence) => void
+): Promise<TableMessageResponse> {
+  const response = await fetch(`${API_BASE}/session/${sessionId}/continue`, {
+    method: 'POST',
+    headers: { ...(onSentence ? STREAM_ACCEPT : {}), ...authHeader(sessionCode), ...codeHeaders() },
+  });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+  if (onSentence && isEventStream(response)) return readMessageStream<TableMessageResponse>(response, onSentence, null);
   return response.json();
 }
 
@@ -134,33 +162,95 @@ export async function sendTableMessage(
   sessionId: string,
   sessionCode: string,
   text: string,
-  clientMsgId?: string
+  clientMsgId?: string,
+  onSentence?: (sentence: StreamedSentence) => void
 ): Promise<TableMessageResponse> {
+  const sentWith = currentCode();
   const response = await fetch(`${API_BASE}/session/${sessionId}/message`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', ...authHeader(sessionCode) },
+    headers: { 'Content-Type': 'application/json', ...(onSentence ? STREAM_ACCEPT : {}), ...authHeader(sessionCode), ...codeHeaders() },
     body: JSON.stringify({ text, client_msg_id: clientMsgId }),
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
+  if (onSentence && isEventStream(response)) return readMessageStream<TableMessageResponse>(response, onSentence, sentWith);
+  reportBalance(sentWith, remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
+  reportFreeLeft(freeLeftFromHeader(response.headers.get('X-Cic-Free-Left')));
   return response.json();
+}
+
+interface StreamEvent {
+  event: string;
+  data: unknown;
+}
+
+function parseStreamBlock(block: string): StreamEvent | null {
+  let event = 'message';
+  const data: string[] = [];
+  for (const line of block.split('\n')) {
+    if (line.startsWith('event:')) event = line.slice(6).trim();
+    else if (line.startsWith('data:')) data.push(line.slice(5).trimStart());
+  }
+  if (data.length === 0) return null;
+  return { event, data: JSON.parse(data.join('\n')) };
+}
+
+async function readMessageStream<T = MessageResponse>(response: Response, onSentence: (sentence: StreamedSentence) => void, sentWith: string | null): Promise<T> {
+  if (!response.body) throw new ApiRequestError(502, 'the reply stream had no body');
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = '';
+  for (;;) {
+    const { done, value } = await reader.read();
+    buffer += decoder.decode(value, { stream: !done });
+    let boundary = buffer.indexOf('\n\n');
+    while (boundary !== -1) {
+      const parsed = parseStreamBlock(buffer.slice(0, boundary));
+      buffer = buffer.slice(boundary + 2);
+      if (parsed?.event === 'sentence') onSentence(parsed.data as StreamedSentence);
+      else if (parsed?.event === 'done') {
+        const done = parsed.data as T & { remaining?: number; low?: boolean; free_left?: number };
+        reportBalance(sentWith, typeof done.remaining === 'number' ? done.remaining : null, done.low === true);
+        reportFreeLeft(typeof done.free_left === 'number' ? done.free_left : null);
+        return done;
+      }
+      else if (parsed?.event === 'error') {
+        const failure = parsed.data as { code: string; status: number; detail: string };
+        throw new ApiRequestError(failure.status, failure.detail);
+      }
+      boundary = buffer.indexOf('\n\n');
+    }
+    if (done) throw new ApiRequestError(502, 'the reply stream ended before the reply finished');
+  }
 }
 
 export async function sendMessage(
   sessionId: string,
   sessionCode: string,
   text: string,
-  clientMsgId?: string
+  clientMsgId?: string,
+  onSentence?: (sentence: StreamedSentence) => void
 ): Promise<MessageResponse> {
+  const sentWith = currentCode();
   const response = await fetch(`${API_BASE}/session/${sessionId}/message`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', ...authHeader(sessionCode) },
+    headers: {
+      'Content-Type': 'application/json',
+      ...(onSentence ? STREAM_ACCEPT : {}),
+      ...authHeader(sessionCode),
+      ...codeHeaders(),
+    },
     body: JSON.stringify({ text, client_msg_id: clientMsgId }),
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
+  if (onSentence && isEventStream(response)) {
+    return readMessageStream(response, onSentence, sentWith);
+  }
+  reportBalance(sentWith, remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
+  reportFreeLeft(freeLeftFromHeader(response.headers.get('X-Cic-Free-Left')));
   return response.json();
 }
 

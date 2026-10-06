@@ -1,7 +1,8 @@
 source_file: foxe_acts-and-monuments-v3_cattley-townsend1837.txt
 
 assignments:
-  - work: "The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition)"
+  - row_id: foxe_acts-and-monuments-v3_cattley-townsend1837--the-acts-and-monuments-of-john-foxe-vol-iii-cattley-townsend
+    work: "The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition)"
     author: foxe
     locus: "Lollard-era martyrology (William Thorpe's Examination, William Sautre, John Badby, Walter Brute, Sir John Oldcastle)"
     atlas_ids:
@@ -18,3 +19,21 @@ assignments:
       full-text search to contain Lollard-era content specifically; it
       was not checked for Hus/Bohemian content, so it is assigned only
       here, not to the-hussite-and-bohemian-brethren-movement.
+
+  - row_id: foxe_acts-and-monuments-v3_cattley-townsend1837--the-acts-and-monuments-of-john-foxe-vol-iii-cattley-townsend-2
+    work: "The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition), the Hus section"
+    author: foxe
+    locus: "the section on John Hus and the Council of Constance, file lines 30742-46807 (where the name Huss occurs; about 700 occurrences)"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: context
+    confidence: assigned
+    note: >
+      Foxe's 16th-century English account of Hus, printed with his
+      sources: a papal inquisitor's testimonial to Hus, the petitions
+      of the Bohemian nobles and the university, and Hus's answer on
+      De Ecclesia. It is an Elizabethan Protestant martyrologist's
+      compilation, a witness at second hand to Hus's trial and death,
+      not Hus's own voice. Placed here beside its Lollardy placement;
+      a placement of one text in two worlds records that each world
+      reads a different part of it.

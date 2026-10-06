@@ -86,8 +86,8 @@ def test_cross_world_participant_fields_are_all_declared():
 
 # Hand-verified against engine/m2/builders.py build_prompt() (voice_craft's
 # instruct() calls, world_core/term/doctrinal_witness/honest_limit/gravity/
-# quote/story's emit() calls) and build_fleet_preamble() (fleet_voice's own
-# six fields).
+# quote/story's emit() calls) and engine/shape build_shape() (fleet_voice's
+# own six fields).
 _BUILD_PROMPT_READS = {
     "voice_craft": ["identity", "guard", "characteristic_concerns", "source_anchor", "flavor_notes"],
     "world_core": ["horizon", "formation_logic", "thinness", "cautions", "living_traditions"],
@@ -95,7 +95,7 @@ _BUILD_PROMPT_READS = {
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],
     "gravity": ["name"],
-    "story": ["tellable_as", "text"],
+    "story": ["tellable_as"],
     "demonstration": ["exchange"],
     "fleet_voice": [
         "register_statements", "register_hold", "pronoun_rule",
@@ -106,7 +106,7 @@ _BUILD_PROMPT_READS = {
 # Hand-verified against engine/m2/builders.py _chunk_text().
 _CHUNK_TEXT_READS = {
     "term": ["plain_meaning", "world_word", "quick_meaning"],
-    "story": ["tellable_as", "text"],
+    "story": ["tellable_as"],
     "ambient": ["detail"],
     "doctrinal_witness": ["text"],
 }
@@ -114,8 +114,8 @@ _CHUNK_TEXT_READS = {
 # Hand-verified against engine/m4/evidence.py _head_text().
 _HEAD_TEXT_READS = {
     "term": ["plain_meaning"],
-    "story": ["tellable_as", "text"],
-    "quote": ["modern_rendering", "text"],
+    "story": ["tellable_as"],
+    "quote": ["modern_rendering"],
     "doctrinal_witness": ["text", "positions"],
     "honest_limit": ["statement"],
     "gravity": ["description"],
@@ -151,7 +151,7 @@ _MODERN_TERM_CARD_READS = {
 
 
 def test_build_prompt_reads_are_all_declared():
-    _assert_all_declared("builders.build_prompt/build_fleet_preamble", _BUILD_PROMPT_READS)
+    _assert_all_declared("builders.build_prompt/shape.build_shape", _BUILD_PROMPT_READS)
 
 
 def test_chunk_text_reads_are_all_declared():

@@ -50,6 +50,13 @@ modern_rendering: >-
   and throws himself at Martin's feet. He begs for pardon and confesses his error. At last restored to a
   better mind, he admits that a demon had been driving him. It was no hard thing for Martin to forgive
   the man who begged him.
+use_note:
+  means: "Gallus relates that Brictio rushed back, confessed at Martin's feet that a demon had driven him, and Martin readily forgave him."
+  not_for:
+    - "the demon's role as established fact, when Gallus offers it as his belief"
+    - "the tirade itself, which sits in gallic.quote.brictio-tirade-and-martins-restraint"
+  years: {from: 404, to: 406}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "But
 with rapid steps"` returns line 5323; `grep -n "forgive the suppliant"` returns line 5330. Read with `sed

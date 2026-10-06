@@ -31,12 +31,19 @@ class CallOutcome:
     def failed(self) -> bool:
         return self.status in FAILURE_STATUSES
 
+    @property
+    def rate_limited(self) -> bool:
+        """The call failed because the provider throttled it (HTTP 429)."""
+        return self.status == "error" and bool(self.value and self.value.get("rate_limited"))
+
 
 @dataclass(frozen=True)
 class GateResult:
     routing: RoutingDecision
     degraded: bool
-    needs_async_safety_reclassification: bool
+
+
+SAFETY_FAILED = RoutingDecision(action="check_in_turn", reason="safety call failed - Facilitator check-in, never the voice")
 
 
 def resolve_gate(
@@ -47,18 +54,19 @@ def resolve_gate(
     anachronistic_term_ids: set[str],
     message: str,
 ) -> GateResult:
+    # Safety fails or times out
+    # -> the Facilitator's check-in, whatever the reader said. A message no
+    # one has read for risk never reaches the voice; the participant sees a
+    # check-in, never a missed crisis.
+    if safety_outcome.failed:
+        return GateResult(routing=SAFETY_FAILED, degraded=True)
+
     if reader_outcome.failed:
-        # Reader fails/times out. A successful safety classification is NOT
-        # discarded just because the reader also failed: a reader timeout on
-        # the same turn a participant discloses real risk must never silently
-        # erase that finding: returning voice_pass_through unconditionally
-        # here would mean a correctly-
-        # classified ACUTE_DISTRESS turn could still reach the voice, live,
-        # if the unrelated reader call happened to time out the same turn.
-        # Only genuinely reader-dependent rules (system_nature/bridge/etic/
-        # ordinary) actually need a reader; safety_turn and check_in_turn do
-        # not, so routing on safety alone here is safe, not a guess.
-        if not safety_outcome.failed and safety_outcome.value["signal"] in _SAFETY_DECISIVE_SIGNALS:
+        # Reader fails/times out. A successful safety classification is never
+        # discarded because the reader failed on the same turn: safety_turn
+        # and check_in_turn do not need a reader, so routing on safety alone
+        # is safe for those signals.
+        if safety_outcome.value["signal"] in _SAFETY_DECISIVE_SIGNALS:
             routing = route(
                 safety=safety_outcome.value,
                 reader=None,
@@ -66,32 +74,19 @@ def resolve_gate(
                 anachronistic_term_ids=anachronistic_term_ids,
                 message=message,
             )
-            return GateResult(routing=routing, degraded=True, needs_async_safety_reclassification=False)
-        # Reader failed and safety has nothing decisive to say (safety also
-        # failed, or safety succeeded with NO_SIGNAL) -> pass-through: the
-        # voice answers the raw message with no directive (the pre-guard
-        # state).
+            return GateResult(routing=routing, degraded=True)
+        # Reader failed and safety found nothing -> pass-through: the voice
+        # answers the raw message with no directive.
         return GateResult(
             routing=RoutingDecision(action="voice_pass_through", reason="reader failed/timed out - pass-through"),
             degraded=True,
-            needs_async_safety_reclassification=safety_outcome.failed,
         )
 
-    reader = reader_outcome.value
-    if safety_outcome.failed:
-        # Safety fails/times out -> the turn proceeds (fail open toward the
-        # pre-guard state); routing still applies the reader's own rules
-        # (2-5), just without the safety-triggered rule 1. The caller is
-        # responsible for actually scheduling the async re-classification
-        # and, if it retroactively fires acute, interjecting on the next
-        # event with the safety turn.
-        routing = route(safety=None, reader=reader, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids, message=message)
-        return GateResult(routing=routing, degraded=True, needs_async_safety_reclassification=True)
-
     routing = route(
-        safety=safety_outcome.value, reader=reader, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids, message=message
+        safety=safety_outcome.value, reader=reader_outcome.value, pressed=pressed,
+        anachronistic_term_ids=anachronistic_term_ids, message=message,
     )
-    return GateResult(routing=routing, degraded=False, needs_async_safety_reclassification=False)
+    return GateResult(routing=routing, degraded=False)
 
 
 def should_page_operator(recent_degraded_flags: list[bool]) -> bool:

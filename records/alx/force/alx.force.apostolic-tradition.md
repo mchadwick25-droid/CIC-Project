@@ -27,12 +27,7 @@ relations:
   target: alx.gravity.learning-formation
 name: The Apostolic Formation Tradition [1B - initiating/internal]
 kind: initiating
-description: 'The inherited apostolic practices - baptism, Eucharist, catechesis, Scripture heard as formative
-  address, shared communal life - received as the deposit, not invented in Alexandria. In the world''s
-  own experience: these were what had been handed down - the washing that made new, the shared bread,
-  the teaching of those coming in - the faith received, to be kept and passed on whole. The initiating
-  ground of the whole-community formation channel: sacraments and shared life form before, and without,
-  any school.'
+description: 'The inherited apostolic practices were baptism, Eucharist, catechesis, Scripture heard as formative address, and shared communal life. The community received them as the deposit. It did not invent them in Alexandria. These were what had been handed down. One was the washing that made new. One was the shared bread. One was the teaching of those coming in. This was the faith received. It was to be kept and passed on whole. It is the initiating ground of the whole-community formation channel. Sacraments and shared life form people. They do so before any school, and without one.'
 manifestations:
 - the catechumenate as received structure (Paedagogus)
 - the whole-community channel that reaches the non-literate majority

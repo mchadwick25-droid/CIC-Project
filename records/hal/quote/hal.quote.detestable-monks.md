@@ -36,6 +36,14 @@ retrieval:
   - "participant asks what ordinary people thought of the ascetic life"
   - "participant asks whether the fasting went too far and whether anyone died of it"
   - "participant asks whether the neighbours were hostile"
+use_note:
+  means: "Jerome reports the Roman crowd at Blaesilla's funeral saying she was killed by fasting and calling for the monks to be driven from Rome."
+  not_for:
+    - "a verbatim record of what the crowd said rather than Jerome's reconstruction of it"
+    - "a medically established cause of Blaesilla's death"
+    - "a claim that Jerome himself accepted the crowd's charge"
+  years: {from: 384, to: 385}
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 39 sec. 6,
 div v.XXXIX). ATTRIBUTION SHAPE: the Roman funeral crowd's whispers as

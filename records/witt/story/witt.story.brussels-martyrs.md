@@ -97,6 +97,15 @@ modern_contrast: A modern reader may expect a martyr story to read as reportage 
   does not make the deaths themselves less real - the burning at Brussels is this library's most solidly
   documented single event of persecution - but it means the vivid details most likely to move a modern
   reader are exactly the details the ballad supplies rather than an independent record confirms.
+use_note:
+  means: "Two young monks named John and Henry were burned at Brussels on 1 July 1523, and Luther's ballad about them is the library's only account of it."
+  not_for:
+    - "the stake-side dialogue or last words as verified reportage rather than the ballad's commemorative voice"
+    - "the two men as named Augustinians, which the ballad's own text never says"
+    - "the Peasants' War or any 1525 event, which no story covers"
+    - "the sense of the word 'martyr' in this world, which sits in witt.term.martyr"
+  years: {from: 1523, to: 1523}
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S04 (witt_Doc_09_Story_Inventory.md SS2), including that document's
 own sharper hagiographic-convention justification (supplied at Doc_09 Discipline 4, not present in

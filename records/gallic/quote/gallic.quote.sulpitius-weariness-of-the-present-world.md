@@ -50,6 +50,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.judgment-imminent-present
+use_note:
+  means: "Sulpitius, in Letter II, describes sitting alone in his cell gripped by hope, weariness of the world and fear of judgment, all rooted in remembering his sins."
+  not_for:
+    - "a doctrine of judgment rather than one man's described state of mind"
+    - "Vincent's stated expectation of judgment, which sits in gallic.quote.vincent-awful-expectation-of-judgment"
+    - "a mood shared by every Gallic ascetic"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "After you had departed"` returns line 2148; `grep -n "rendered me worn and miserable"` returns

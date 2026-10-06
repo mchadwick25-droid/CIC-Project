@@ -46,5 +46,13 @@ senses:
 quick_meaning: 'The rule or canon, and the enrolled women: virgins and widows on the church''s own official
   list.'
 distortion_risk: low
+use_note:
+  means: "Kanon meant both the church's rule of discipline and, as kanonikai, the enrolled order of virgins and widows listed by the church."
+  not_for:
+    - "the two senses as one"
+    - "the enrolled women's own voice, which does not survive"
+    - "the Annisa sisterhood, which sits in cappadocian.term.adelphotes"
+  years: {from: 340, to: 379}
+  status: reviewed
 ---
 Built from Doc_06 entry 32 (Tier 3). One of the four Tier 3 entries Doc_06 added compact Related-Terms lines to this revision (Index E.3): paradosis, eusebeia, koinonia, adelphotes -- all reciprocated here.

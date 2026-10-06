@@ -79,7 +79,6 @@ def _resolve_story(story_id: str | None, records: dict) -> dict | None:
         return None
     return {
         "id": story_id,
-        "text": rec.get("text"),
         "tellable_as": rec.get("tellable_as"),
         "confidence": _confidence_label(rec),
     }
@@ -162,7 +161,7 @@ def _resolve_doctrinal_witness(dw_id: str | None, records: dict) -> dict | None:
 # rule) rather than here.
 _CITE_TEXT_FIELD_BY_TYPE = {
     "doctrinal_witness": "text",
-    "story": "text",
+    "story": "tellable_as",
     "honest_limit": "statement",
     "contested_claim": "claim",
     "gravity": "description",
@@ -214,11 +213,11 @@ def _orientation(world_front: dict, records: dict) -> dict:
                 "story_id": entry.get("story_id"),
                 # title/when/teaser are the world_front's OWN curated
                 # framing (the story record itself has no such fields) -
-                # text/confidence are pulled from the story record.
+                # tellable_as/confidence are pulled from the story record.
                 "title": entry.get("title"),
                 "when": entry.get("when"),
                 "teaser": entry.get("teaser"),
-                "text": story.get("text") if story else None,
+                "tellable_as": story.get("tellable_as") if story else None,
                 "confidence": story.get("confidence") if story else None,
             }
         )
@@ -317,12 +316,12 @@ def compile_world_front(
     same property engine/m2/compiler.py's own _stamp() already relies on)
     and carries three things, for the site-staleness CI check: this
     compiler's own version/commit, the records commit it read, and a
-    hash of the world_front record itself - so a change to any of the
-    three is independently visible in the compiled output's own header,
+    hash of the world_front record itself, without where its file lives -
+    so a change to any of the three is independently visible in the compiled output's own header,
     without having to diff the whole file to find out which one moved.
     """
     all_records = _by_id(fleet, records)
-    world_front_hash = sha256_prefixed(canonical_json(world_front))
+    world_front_hash = sha256_prefixed(canonical_json({k: v for k, v in world_front.items() if k != "_path"}))
     provenance = (
         f"cic-m2-site-compiler {compiler_version} from records_commit {records_commit}, "
         f"world_front {world_front.get('id')} {world_front_hash}"

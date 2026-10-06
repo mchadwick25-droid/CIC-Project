@@ -1,7 +1,8 @@
 source_file: roman-breviary_bute1908.txt
 
 assignments:
-  - work: "The Roman Breviary (reformed by order of the Council of Trent; published by Pius V; revised by Clement VIII, Urban VIII, and Leo XIII)"
+  - row_id: roman-breviary_bute1908--the-roman-breviary-reformed-by-order-of-the-council-of-trent
+    work: "The Roman Breviary (reformed by order of the Council of Trent; published by Pius V; revised by Clement VIII, Urban VIII, and Leo XIII)"
     author: roman-breviary
     locus: "one seasonal volume of 4"
     atlas_ids:

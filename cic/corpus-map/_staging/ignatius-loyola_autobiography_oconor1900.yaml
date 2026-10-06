@@ -1,7 +1,8 @@
 source_file: ignatius-loyola_autobiography_oconor1900.txt
 
 assignments:
-  - work: "The Autobiography of St. Ignatius"
+  - row_id: ignatius-loyola_autobiography_oconor1900--the-autobiography-of-st-ignatius
+    work: "The Autobiography of St. Ignatius"
     author: ignatius-loyola
     locus: "whole text"
     atlas_ids:

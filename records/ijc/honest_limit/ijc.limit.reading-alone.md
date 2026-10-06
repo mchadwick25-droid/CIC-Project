@@ -32,4 +32,10 @@ nearest_material:
 - ijc.story.vigil-in-basilica
 - ijc.dw.how-we-read
 relations: []
+use_note:
+  means: "No ordinary believer's own account of struggling with the Bible survives; the one attested scene is a besieged congregation singing psalms through the night."
+  not_for:
+    - "a claim about an ordinary believer's private confusion or fear in reading scripture"
+  years: {from: 312, to: 451}
+  status: reviewed
 ---

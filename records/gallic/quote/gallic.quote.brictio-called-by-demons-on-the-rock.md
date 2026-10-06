@@ -55,6 +55,14 @@ modern_rendering: >-
   here, Brictio.’ I believe they saw the wretched man coming from far off. They knew how great a frenzy
   of spirit they had stirred up in him. There is no delay. Brictio rushes in, in utter fury. There, full
   of madness, he spews out a thousand insults against Martin.
+use_note:
+  means: "Gallus tells in the Dialogues how Martin saw two demons on the rock calling Brictio, who then burst in and heaped reproaches on Martin."
+  not_for:
+    - "an independently attested event, when the demons rest on Gallus's account"
+    - "the reproof over horses and slaves, which sits in gallic.quote.brictio-horses-and-slaves"
+    - "Brictio's own side of the quarrel, which the record does not give"
+  years: {from: 404, to: 406}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "certain day, after he had sat down"` (via "certain day," anchor) returns line 5290, the opening of

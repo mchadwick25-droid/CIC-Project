@@ -30,5 +30,14 @@ retrieval:
   retrieve_when:
   - "participant asks whether their buildings survived and what happened to them"
   - "participant asks about disaster, flood, or destruction in their city"
+use_note:
+  means: "The Chronicle of Edessa's entry for the year 513 of the Greeks records that the flood destroyed the temple of the church of the Christians in Edessa."
+  not_for:
+    - "an eyewitness record rather than a sixth-century compilation from the city archives"
+    - "a claim that 'temple' here means a pagan shrine"
+    - "a claim that the entry's authenticity is uncontested, since an interpolation dispute exists"
+    - "evidence of what Christians did inside the building"
+  years: {from: 201, to: 201}
+  status: reviewed
 ---
 Verified verbatim (Cowper's translation). The oldest hard line of this world's existence; the interpolation dispute (Bauer vs Barnard) is carried in syr.story.edessa-flood-201.

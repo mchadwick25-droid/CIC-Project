@@ -59,6 +59,15 @@ modern_contrast: >-
   pagans" as an attempted historical statistic. This world's own record
   uses the number as legend's own arithmetic - a deliberate, symmetrical
   claim about total transformation, not a count anyone actually took.
+use_note:
+  means: "Gregory of Nyssa told, a century later, that Gregory Thaumaturgus found seventeen Christians in Pontus and left seventeen pagans, which evidences a founding legend."
+  not_for:
+    - "census data on conversion"
+    - "events in Thaumaturgus's own voice, since none survive"
+    - "the night vision of the creed as history"
+    - "Basil's grandmother's teaching, which sits in cappadocian.quote.macrina-the-elder-taught-me"
+  years: {from: 213, to: 275}
+  status: reviewed
 ---
 Derived from Doc_09 entry #12 (Tier 3). Told, per Doc_09's own usage
 guidance, as legend rather than chronicle: "the country tells it so."

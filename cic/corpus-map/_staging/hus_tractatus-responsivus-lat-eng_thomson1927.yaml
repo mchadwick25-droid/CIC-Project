@@ -1,0 +1,17 @@
+source_file: hus_tractatus-responsivus-lat-eng_thomson1927.txt
+assignments:
+- row_id: hus_tractatus-responsivus-lat-eng_thomson1927--tractatus-responsivus-latin-first-edition-by-s-h-thomson
+  work: Tractatus responsivus (Latin, first edition by S. H. Thomson)
+  author: hus
+  locus: the Latin text follows the editor's English introduction
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: provisional
+  note: A Latin tract on the sixteen articles condemned as Wyclif's, printed here for the first time.
+    The attribution to Hus rests on the editor's argument from tone, content and use of Wyclif, and the
+    editor states that no manuscript names Hus; the vendored file must not be quoted as Hus's own words
+    without saying so. The English introduction also treats Hus's borrowing from Wyclif. Latin text clean
+    (word-form coverage against a clean Latin vocabulary 0.83) and quotable once checked against the page
+    image, but the authorship is the editor's inference and not established by a manuscript ascription;
+    treat any quotation as 'the tract attributed to Hus by Thomson'. The front matter reads as noise.

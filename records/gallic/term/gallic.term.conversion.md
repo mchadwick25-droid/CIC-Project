@@ -104,6 +104,15 @@ quick_meaning: >-
   In the south, the day a man turned to the monastic life, not a change of religion. At Tours, a
   robber or a rustic turning to Christ.
 distortion_risk: high
+use_note:
+  means: "Conversion meant, at Marseilles, the act of turning to the monastic life and not a change of religion, while at Tours it meant turning to Christ."
+  not_for:
+    - "an inner born-again event of coming to faith"
+    - "a monk's conversion as his becoming a Christian"
+    - "the act of giving things up, which sits in gallic.term.renunciation"
+    - "the mission to the countryside, which sits in gallic.term.heathen-rustics"
+  years: {from: 397, to: 450}
+  status: reviewed
 ---
 Built from Doc_06 entry 020 (Tier 2; chunk galliclex020_conversion.md; Doc_03 1.10, carrying Doc_04
 §2.2's sense-disambiguation item). Register emic. Quotations verified at locus by the build's own

@@ -31,12 +31,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative) for the 
   eyewitness testimony (''I met him four times in all''); the biographical details are what Didymus himself
   told him (''so he told me'').'
 tellable_as: the traveler Palladius's own account of meeting the blind master of the school
-text: 'Palladius came to Alexandria late in the fourth century and visited Didymus four times over ten
-  years. The teacher was old, and blind, and had been blind since he was four - too young ever to have
-  learned letters. He had never seen a written word of the Scripture he taught. What others took in with
-  their eyes he had taken in through his ears and held: the whole of Scripture
-  in memory, weighed and ordered. Later tradition remembers Jerome calling him, in contrast to his blindness, the seer. He died at
-  eighty-five. He told Palladius himself the age at which he was blinded.'
+text: 'Palladius came to Alexandria late in the fourth century and visited Didymus four times over ten years. The teacher was old, and blind, and had been blind since he was four - too young ever to have learned letters. He had never seen a written word of the Scripture he taught. What others took in with their eyes he had taken in through his ears and held: the whole of Scripture in memory, weighed and ordered. Jerome called him the seer, a name set against his blindness. He died at eighty-five. He told Palladius himself the age at which he was blinded.'
 absent_detail: 'What Didymus''s lessons were actually like - his classroom, his methods hour to hour -
   Palladius does not record; and Didymus''s own books, which survived him, are lost to us except in fragments
   recovered centuries later (the sharpest source absence in this world - see the search record). The ''seer''
@@ -55,6 +50,15 @@ modern_contrast: >
   - see alx.term.photismos, alx.term.katechesis), so Didymus is not an
   exception proving a rule against blindness but ordinary evidence of how
   formation already worked for anyone, sighted or not.
+use_note:
+  means: "Palladius met Didymus four times over ten years: blind from four, he never learned to read yet interpreted Scripture word by word, evidencing formation without literacy."
+  not_for:
+    - "framing it as an overcoming-disability story"
+    - "describing Didymus's classroom or methods, which Palladius does not record"
+    - "attributing the seer epithet to Jerome's own De Viris 109"
+    - "claiming Didymus's own books survive"
+  years: {from: 380, to: 398}
+  status: reviewed
 ---
 Serves F4-P ('does your way of life have anything for someone like
 me?' - a man the world would have written off, taught and remembered

@@ -5,7 +5,8 @@ source_file: npnf108_augustine-exposition-psalms.xml
 # preface and advertisement inside div1 2 (paths 2.2-2.3), indexes (div1 3-4).
 
 assignments:
-  - work: "Expositions on the Book of Psalms (Enarrationes in Psalmos)"
+  - row_id: npnf108_augustine-exposition-psalms--expositions-on-the-book-of-psalms-enarrationes-in-psalmos
+    work: "Expositions on the Book of Psalms (Enarrationes in Psalmos)"
     author: augustine
     locus: "div1 2 — Expositions on the Book of Psalms; psalm-by-psalm expositions of the whole Psalter (~695,000 words, the largest single body in the vendored corpus) assigned as one work per the granularity rule, not one work per psalm"
     atlas_ids:

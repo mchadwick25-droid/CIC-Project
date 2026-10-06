@@ -1,7 +1,8 @@
 source_file: council-of-trent_roman-catechism_mchugh-callan1923.txt
 
 assignments:
-  - work: "Catechism of the Council of Trent for Parish Priests"
+  - row_id: council-of-trent_roman-catechism_mchugh-callan1923--catechism-of-the-council-of-trent-for-parish-priests
+    work: "Catechism of the Council of Trent for Parish Priests"
     author: council-of-trent
     locus: "whole text"
     atlas_ids:

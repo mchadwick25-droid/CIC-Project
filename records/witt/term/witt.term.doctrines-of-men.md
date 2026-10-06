@@ -82,6 +82,13 @@ senses:
     and cheerfully, refused only where it is made a mediator, a merit, or a 'must' on the conscience.
 quick_meaning: Human rules bound on the conscience. Rejected only when they claim to earn grace.
 distortion_risk: high
+use_note:
+  means: "Doctrines of men meant human traditions bound on the conscience, rejected only where they claimed to earn grace or compelled belief."
+  not_for:
+    - "a claim that Wittenberg rejected all tradition and ceremony"
+    - "one specific instance such as fasting, vows or images, which sit in witt.term.fasting, witt.term.vows and witt.term.images"
+  years: {from: 1517, to: 1531}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 3.4 (doctrines of men / human traditions, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][TC][DR][RT]. Author Gravity: none; the Apology XV read entire this pass. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

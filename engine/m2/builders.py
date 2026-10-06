@@ -37,91 +37,6 @@ def _one(records: dict, record_type: str) -> dict | None:
 
 # ---- compiled/prompt.txt ----------------------------------------------
 
-# LIVE-GENERATION-DESIGN.md §5.2: the fleet's one register/pronoun/
-# citation-contract/limit-discipline segment, compiled from the fleet's
-# own fleet_voice record (records/_fleet/fleet_voice/) rather than
-# hand-edited per world (principle 3: prompt content is records, never
-# code) - first in the file, so it reads as the voice's own standing
-# instruction, ahead of any one world's own identity.
-def _fleet_voice_record(fleet: dict) -> dict | None:
-    return _one(fleet, "fleet_voice")
-
-
-# The citation contract's worked example ships PLACEHOLDER ids, and the fleet
-# record says so itself: they exist "only so citation_contract is a complete,
-# self-explanatory paragraph on its own - never the line a model is actually
-# shown", with the per-world substitution named there as open M2 work. It was
-# never implemented, so all seven packages shipped the literal token `world`
-# into live model input - and a model reads that as the namespace, emitting
-# world.story.pliny-interrogation, world.term.hesychia: right shape, no such
-# record, sentence withheld. Filled from the world's own records, exactly as
-# `{world}` in pronoun_rule already is.
-def _fill_citation_example(contract: str, records: dict) -> str:
-    for placeholder in ("world.term.example", "world.gravity.example"):
-        if f"[[{placeholder}]]" not in contract:
-            continue
-        wanted = placeholder.split(".")[1]
-        ids = sorted(r["id"] for r in records.values() if r.get("record_type") == wanted) or sorted(
-            r["id"] for r in records.values() if r.get("record_type") != "demonstration"
-        )
-        real = next((i for i in ids if f"[[{i}]]" not in contract), None)
-        # A placeholder with no substitute is dropped, never shipped: an absent
-        # second tag still reads as a correct worked line; an unresolvable one
-        # teaches a fabrication.
-        contract = (contract.replace(f"[[{placeholder}]]", f"[[{real}]]") if real
-                    else contract.replace(f" [[{placeholder}]]", "").replace(f"[[{placeholder}]]", ""))
-    return contract
-
-
-def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None = None) -> list[str]:
-    """Returns the preamble's own emitted segments (already `## Header`-
-    formatted, same shape build_prompt's other segments use) - a list, not
-    bytes, so build_prompt can splice it in front of everything else with
-    no format translation. Empty list (not an error) when the fleet record
-    doesn't exist yet, or hasn't cleared its completion gate - a package
-    can still compile without it, same as any other not-yet-required field.
-
-    The pronoun rule's `{world}` placeholder is filled from this world's
-    own registry `display_name` - real, already-existing registry data,
-    never a fresh, hand-composed-per-world phrase (the fleet record's own
-    trailing body names this exact substitution as the compiler's call to
-    make; using the registry's own name field, rather than inventing a new
-    poetic epithet per world, keeps the fill mechanical and DECIDABLE)."""
-    record = _fleet_voice_record(fleet)
-    if record is None:
-        return []
-
-    segments: list[str] = []
-
-    def emit(header: str, body: str | None) -> None:
-        if body and body.strip():
-            segments.append(f"## {header}\n\n{body.strip()}\n")
-
-    statements = sorted(record.get("register_statements") or [], key=lambda s: s["number"])
-    if statements:
-        body = "\n".join(f"{s['number']}. {s['statement']}" for s in statements)
-        # register_hold: how the seven hold under load - emitted beneath the
-        # numbered statements, never as an eighth statement.
-        hold = (record.get("register_hold") or "").strip()
-        if hold:
-            body = f"{body}\n\n{hold}"
-        emit("Register", body)
-
-    world_name = registry_entry.get("display_name") or "this world"
-    pronoun_rule = record.get("pronoun_rule")
-    if pronoun_rule:
-        emit("Pronoun rule", pronoun_rule.replace("{world}", world_name))
-
-    emit("Citation contract", _fill_citation_example(record.get("citation_contract") or "", records or {}))
-    # Stories and quotes are never screened by the register:
-    # stories arrive through their own tellable_as retellings;
-    # quotes always speak their build-authored modern_rendering, never the
-    # original - originals stay reachable only on the click page.
-    emit("Stories and quotes", record.get("story_quote_reach"))
-    emit("Limit discipline", record.get("limit_discipline"))
-    return segments
-
-
 # Demonstration citation tagging (LIVE-GENERATION-DESIGN.md §5.3): demos
 # are rendered "with citation tags derived from the demonstration record's
 # own sources field" per the design's own words - but a real-record check
@@ -172,8 +87,10 @@ def _candidate_head_text(record: dict) -> str:
     if record_type == "term":
         return " ".join(filter(None, [record.get("plain_meaning"), record.get("quick_meaning")]))
     if record_type == "story":
-        return " ".join(filter(None, [record.get("tellable_as"), record.get("text")]))
-    if record_type in ("quote", "doctrinal_witness"):
+        return record.get("tellable_as") or ""
+    if record_type == "quote":
+        return record.get("modern_rendering") or ""
+    if record_type == "doctrinal_witness":
         return record.get("text") or ""
     if record_type == "honest_limit":
         return record.get("statement") or ""
@@ -300,26 +217,13 @@ def _quote_opening(quote: dict, width: int = 60) -> str:
     return f'"{text}"' if len(text) <= width else f'"{text[:width].rstrip()}..."'
 
 
-# THE PROMPT HAS TWO HALVES, and until now only one of them was named.
-#
-# One half is records of the world, each section addressed by an id the
-# voice copies when it draws on that section. The other is standing
-# instruction - the fleet's own register/pronoun/citation/limit segment -
-# which carries no ids, needs none, and has never had one invented for it:
-# nobody has ever seen [[fleet.voice.register]] in a live turn.
-#
-# Both regions existed already. What did not exist was any statement of
-# where one stopped and the other began: the boundary was wherever
-# build_fleet_preamble's output happened to end, and nothing on the page
-# said so. voice_craft - the voice's own identity, guard, concerns and
-# flavor notes, which are instruction about how we speak, not evidence
-# about the world - sat on the wrong side of that unnamed boundary, and was
-# given an id so the model would stop inventing one.
-#
-# This constant is the boundary, written out. It replaces the id that
-# voice_craft was carrying; see the fabrication history on emit() below for
-# what that id cost and why it was reached for, and instruct() for why
-# moving the content is a better answer than keeping the id.
+# THE PROMPT HAS TWO HALVES. Above the line is standing instruction: the
+# engine's shape segment (engine.shape, sent as its own system block ahead of
+# this prompt) and the world's voice_craft sections. It carries no ids. Below
+# the line are records of the world, each section addressed by the id the
+# voice copies when it draws on that section. voice_craft is instruction about
+# how we speak, not evidence about the world, so it sits above the line with
+# no id; see emit() below for what an id on it cost.
 #
 # The wording is the lesson of the adjacency failure, run the other way.
 # Printing an id beside a heading told a model the id existed without
@@ -349,18 +253,55 @@ ground, and it is that id which is copied.
 """
 
 
-def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
-    # Two lists, spliced at the end with _GROUND_LINE between them, because
-    # the halves are no longer interleaved: voice_craft's four sections used
-    # to be emitted around world_core's four, and a reader (or a model) had
-    # nothing to tell instruction from record but the prose itself.
-    standing: list[str] = build_fleet_preamble(fleet, registry_entry, records)
+# voice_craft flavor-note segments that only restate the shape segment's own
+# rules (the we-voice and its hardening, answer-first, limits spoken plainly).
+# The shape segment carries each once for every world, so they are not
+# compiled again here.
+SHAPE_RESTATED_SEGMENTS = frozenset({"self-reference", "openers", "honest-limits"})
+
+WORKED_LINE_HEADER = "Our worked line"
+_WORKED_LINE_SENTENCE = "...the same bread, the same cup, was set before whoever had walked the road to it"
+
+
+def _worked_line(records: dict) -> str | None:
+    """The citation contract's worked example, tagged with this world's own
+    first term and first gravity ids, so the voice sees the [[id]] form in
+    its own namespace. A world with neither falls back to its first citable
+    record; a world with none gets no line."""
+    ids = []
+    for wanted in ("term", "gravity"):
+        pool = sorted(r["id"] for r in records.values() if r.get("record_type") == wanted)
+        if pool:
+            ids.append(pool[0])
+    if not ids:
+        fallback = sorted(r["id"] for r in records.values()
+                          if r.get("record_type") not in ("demonstration", "voice_craft", None))
+        ids = fallback[:1]
+    if not ids:
+        return None
+    return f"'{_WORKED_LINE_SENTENCE} {' '.join(f'[[{i}]]' for i in ids)}.'"
+
+
+def _with_note(body: str | None, record: dict) -> str | None:
+    """A record's section body with its use note beside it, as data: what
+    the record means in our frame and the claims it is not a ground for."""
+    note = record.get("use_note") or {}
+    if not body or not note.get("means"):
+        return body
+    lines = [body.strip(), f"Means: {note['means'].strip()}"]
+    if note.get("not_for"):
+        lines.append("Not for: " + "; ".join(n.strip() for n in note["not_for"]))
+    return "\n".join(lines)
+
+
+def build_prompt(records: dict, registry_entry: dict) -> bytes:
+    # Two lists, spliced at the end with _GROUND_LINE between them, so
+    # instruction and record never interleave.
+    standing: list[str] = []
     ground: list[str] = []
 
-    # A STANDING-INSTRUCTION SECTION NEVER CARRIES AN ID. Same two-argument
-    # shape build_fleet_preamble's own emit() has always had, and for the
-    # same reason - there is no third argument to pass, because there is no
-    # address for content that is not a record of the world.
+    # A STANDING-INSTRUCTION SECTION NEVER CARRIES AN ID: there is no address
+    # for content that is not a record of the world.
     #
     # This is where voice_craft now compiles. Every voice_craft record in the
     # fleet carries `sources: []` on purpose (spec principle 14: a
@@ -466,15 +407,18 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     # point: four contiguous sections in the voice's own we-form, in the same
     # run as the register and the pronoun rule, read as one block of standing
     # instruction. Interleaved with Horizon and Cautions they read as content.
-    craft = _one(records, "voice_craft")
+    craft = _one(records, "voice_craft") or {}
+    world_name = registry_entry.get("display_name")
+    instruct("Who we are", "\n\n".join(p for p in (f"Our world's name: {world_name}." if world_name else None,
+                                                    craft.get("identity")) if p))
+    instruct(WORKED_LINE_HEADER, _worked_line(records))
     if craft:
-        instruct("Who we are", craft.get("identity"))
         instruct("What we hold ourselves to", craft.get("guard"))
         concerns = craft.get("characteristic_concerns") or []
         if concerns:
             instruct("What we keep returning to", "\n".join(f"- {c}" for c in concerns))
         instruct(SOURCE_ANCHOR_HEADER, craft.get("source_anchor"))
-        notes = craft.get("flavor_notes") or []
+        notes = [n for n in craft.get("flavor_notes") or [] if n.get("segment") not in SHAPE_RESTATED_SEGMENTS]
         if notes:
             instruct(
                 "How we word things",
@@ -500,15 +444,15 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
 
     for term in _by_type(records, "term"):
         body = "\n\n".join(filter(None, [term.get("plain_meaning"), term.get("quick_meaning")]))
-        emit(f"Term: {term.get('world_word', term['id'])}", body, term["id"])
+        emit(f"Term: {term.get('world_word', term['id'])}", _with_note(body, term), term["id"])
 
     for witness in _by_type(records, "doctrinal_witness"):
         cells = ",".join(witness.get("canon_cells") or [])
-        emit(f"Witness ({cells})", witness.get("text"), witness["id"])
+        emit(f"Witness ({cells})", _with_note(witness.get("text"), witness), witness["id"])
 
     for limit in _by_type(records, "honest_limit"):
         cells = ",".join(limit.get("canon_cells") or [])
-        emit(f"Honest limit ({cells})", limit.get("statement"), limit["id"])
+        emit(f"Honest limit ({cells})", _with_note(limit.get("statement"), limit), limit["id"])
 
     # Gravities carry their own id for the same measured reason every other
     # section now does. After the header change above, desert's fabrication
@@ -570,8 +514,11 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         )
 
     for story in _by_type(records, "story"):
-        body = "\n\n".join(filter(None, [story.get("tellable_as"), story.get("text")]))
-        emit("Story", body, story["id"])
+        tellable = story.get("tellable_as")
+        if not tellable:
+            raise ValueError(f"{story['id']}: story has no tellable_as - refusing to compile "
+                             f"the source text, which is never voiced")
+        emit("Story", _with_note(tellable, story), story["id"])
 
     for demo in _by_type(records, "demonstration"):
         exchange = demo.get("exchange") or []
@@ -584,12 +531,9 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
             lines.append(f"{turn['speaker']}: {text}")
         emit("Demonstration", "\n".join(lines), demo["id"])
 
-    # The line is a boundary, so it is only written where there are two sides
-    # to divide. A prompt with no standing instruction at all (a bare-records
-    # unit fixture, never a real compile - every world loads the fleet record)
-    # would otherwise open with a paragraph about material above it that is
-    # not there.
-    segments = standing + ([_GROUND_LINE] + ground if standing and ground else ground)
+    # The shape segment always stands above this prompt, so the line is
+    # written whenever there are records below it.
+    segments = standing + ([_GROUND_LINE] + ground if ground else [])
     return ("\n".join(segments) + "\n").encode("utf-8")
 
 
@@ -630,7 +574,7 @@ def _chunk_text(record: dict) -> str:
     if record_type == "term":
         lines += [record.get("plain_meaning", ""), "", f"world_word: {record.get('world_word', '')}", "", record.get("quick_meaning", "")]
     elif record_type == "story":
-        lines += [record.get("tellable_as", ""), "", record.get("text", "")]
+        lines += [record.get("tellable_as", "")]
     elif record_type == "ambient":
         lines += [record.get("detail", "")]
     elif record_type == "doctrinal_witness":
@@ -743,10 +687,8 @@ def build_quotes_json(records: dict) -> bytes:
         {
             "id": q["id"],
             "text": q.get("text"),
-            # Build-authored translation for archaic originals:
-            # the spoken form; text above stays the
-            # original for the click page. Absent when the original's
-            # English is already plain.
+            # The spoken form. `text` above is the verbatim source,
+            # kept for the citation net's verbatim check and never shown.
             "modern_rendering": q.get("modern_rendering"),
             "speaker_or_author": q.get("speaker_or_author"),
             "license": q.get("license"),

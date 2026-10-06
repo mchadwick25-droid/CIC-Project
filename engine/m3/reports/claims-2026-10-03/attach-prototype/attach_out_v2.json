@@ -1,0 +1,829 @@
+{
+ "alx": [
+  {
+   "id": "U01",
+   "record_id": "alx.dw.record"
+  },
+  {
+   "id": "U02",
+   "record_id": "alx.dw.apostolic"
+  },
+  {
+   "id": "U03",
+   "record_id": "alx.dw.apostolic"
+  },
+  {
+   "id": "U04",
+   "record_id": "alx.dw.record"
+  },
+  {
+   "id": "U05",
+   "record_id": "alx.term.baptism"
+  },
+  {
+   "id": "U06",
+   "record_id": "alx.term.baptism"
+  },
+  {
+   "id": "U07",
+   "record_id": "alx.term.baptism"
+  },
+  {
+   "id": "U08",
+   "record_id": "alx.gravity.learning-formation"
+  },
+  {
+   "id": "U09",
+   "record_id": "alx.term.baptism"
+  },
+  {
+   "id": "U10",
+   "record_id": "alx.term.baptism"
+  },
+  {
+   "id": "U11",
+   "record_id": "alx.term.baptism"
+  },
+  {
+   "id": "U12",
+   "record_id": "alx.term.allegoria"
+  },
+  {
+   "id": "U13",
+   "record_id": "alx.term.scripture-as-address"
+  },
+  {
+   "id": "U14",
+   "record_id": "alx.quote.origen-scripture-senses"
+  },
+  {
+   "id": "U15",
+   "record_id": "alx.term.allegoria"
+  },
+  {
+   "id": "U16",
+   "record_id": "alx.gravity.scripture-formative"
+  },
+  {
+   "id": "U17",
+   "record_id": "alx.gravity.divine-pedagogy"
+  },
+  {
+   "id": "U18",
+   "record_id": "alx.gravity.divine-pedagogy"
+  },
+  {
+   "id": "U19",
+   "record_id": "alx.gravity.divine-pedagogy"
+  },
+  {
+   "id": "U20",
+   "record_id": "alx.term.scripture-as-address"
+  }
+ ],
+ "cappadocian": [
+  {
+   "id": "U01",
+   "record_id": "cappadocian.demo.never-settled"
+  },
+  {
+   "id": "U02",
+   "record_id": "cappadocian.dw.confession-not-a-vote"
+  },
+  {
+   "id": "U03",
+   "record_id": "cappadocian.dw.confession-not-a-vote"
+  },
+  {
+   "id": "U04",
+   "record_id": "cappadocian.dw.confession-not-a-vote"
+  },
+  {
+   "id": "U05",
+   "record_id": "cappadocian.dw.confession-not-a-vote"
+  },
+  {
+   "id": "U06",
+   "record_id": "cappadocian.dw.a-stranger-weather"
+  },
+  {
+   "id": "U07",
+   "record_id": "cappadocian.dw.cost-and-the-letters-that-held-us"
+  },
+  {
+   "id": "U08",
+   "record_id": "cappadocian.demo.never-settled"
+  },
+  {
+   "id": "U09",
+   "record_id": "cappadocian.demo.never-settled"
+  },
+  {
+   "id": "U10",
+   "record_id": "cappadocian.dw.holy-spirit-honored"
+  },
+  {
+   "id": "U11",
+   "record_id": "cappadocian.dw.holy-spirit-honored"
+  },
+  {
+   "id": "U12",
+   "record_id": "cappadocian.dw.holy-spirit-honored"
+  },
+  {
+   "id": "U13",
+   "record_id": "cappadocian.dw.holy-spirit-honored"
+  },
+  {
+   "id": "U14",
+   "record_id": "cappadocian.dw.confession-not-a-vote"
+  },
+  {
+   "id": "U15",
+   "record_id": "cappadocian.dw.confession-not-a-vote"
+  },
+  {
+   "id": "U16",
+   "record_id": "cappadocian.demo.never-settled"
+  },
+  {
+   "id": "U17",
+   "record_id": "cappadocian.demo.never-settled"
+  },
+  {
+   "id": "U18",
+   "record_id": "cappadocian.term.eikon"
+  },
+  {
+   "id": "U19",
+   "record_id": "cappadocian.term.eikon"
+  },
+  {
+   "id": "U20",
+   "record_id": "cappadocian.dw.becoming-one-of-us"
+  },
+  {
+   "id": "U21",
+   "record_id": "cappadocian.term.koinonia"
+  },
+  {
+   "id": "U22",
+   "record_id": "cappadocian.demo.someone-like-me"
+  },
+  {
+   "id": "U23",
+   "record_id": "cappadocian.demo.someone-like-me"
+  },
+  {
+   "id": "U24",
+   "record_id": "cappadocian.core.cappadocian"
+  },
+  {
+   "id": "U25",
+   "record_id": "cappadocian.core.cappadocian"
+  },
+  {
+   "id": "U26",
+   "record_id": "cappadocian.core.cappadocian"
+  }
+ ],
+ "desert": [
+  {
+   "id": "U01",
+   "record_id": "desert.dw.writings"
+  },
+  {
+   "id": "U02",
+   "record_id": "desert.dw.writings"
+  },
+  {
+   "id": "U03",
+   "record_id": "desert.dw.writings"
+  },
+  {
+   "id": "U04",
+   "record_id": "desert.dw.writings"
+  },
+  {
+   "id": "U05",
+   "record_id": "desert.dw.writings"
+  },
+  {
+   "id": "U06",
+   "record_id": "desert.dw.writings"
+  },
+  {
+   "id": "U07",
+   "record_id": "desert.dw.writings"
+  },
+  {
+   "id": "U08",
+   "record_id": "desert.dw.writings"
+  },
+  {
+   "id": "U09",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U10",
+   "record_id": "desert.limit.f2-scripture-detail"
+  },
+  {
+   "id": "U11",
+   "record_id": "desert.quote.never-kneel-saturday-to-sunday"
+  },
+  {
+   "id": "U12",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U13",
+   "record_id": "desert.dw.apostolic"
+  },
+  {
+   "id": "U14",
+   "record_id": "desert.dw.jesus"
+  },
+  {
+   "id": "U15",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U16",
+   "record_id": "desert.limit.doubt-and-doctrine"
+  },
+  {
+   "id": "U17",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U18",
+   "record_id": null,
+   "rejected": null
+  }
+ ],
+ "don": [
+  {
+   "id": "U01",
+   "record_id": "don.dw.washed-for-the-first-time"
+  },
+  {
+   "id": "U02",
+   "record_id": "don.dw.washed-for-the-first-time"
+  },
+  {
+   "id": "U03",
+   "record_id": "don.dw.becoming-one-of-us"
+  },
+  {
+   "id": "U04",
+   "record_id": "don.dw.becoming-one-of-us"
+  },
+  {
+   "id": "U05",
+   "record_id": "don.dw.the-emperor-and-the-church"
+  },
+  {
+   "id": "U06",
+   "record_id": "don.dw.the-emperor-and-the-church"
+  }
+ ],
+ "gallic": [
+  {
+   "id": "U01",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U02",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U03",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U04",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U05",
+   "record_id": "gallic.quote.martin-and-the-unattested-tomb"
+  },
+  {
+   "id": "U06",
+   "record_id": "gallic.quote.the-fathers-and-the-angels-twelve"
+  },
+  {
+   "id": "U07",
+   "record_id": "gallic.quote.not-i-but-the-grace-of-god-with-me"
+  },
+  {
+   "id": "U08",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U09",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U10",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U11",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U12",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U13",
+   "record_id": "gallic.quote.martin-on-the-christ-with-wounds"
+  },
+  {
+   "id": "U14",
+   "record_id": "gallic.quote.martin-on-the-christ-with-wounds"
+  },
+  {
+   "id": "U15",
+   "record_id": "gallic.dw.the-christ-who-bears-the-wounds"
+  },
+  {
+   "id": "U16",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U17",
+   "record_id": "gallic.dw.one-person-two-substances"
+  },
+  {
+   "id": "U18",
+   "record_id": "gallic.quote.one-substance-three-persons"
+  },
+  {
+   "id": "U19",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U20",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U21",
+   "record_id": "gallic.gravity.named-example"
+  }
+ ],
+ "hal": [
+  {
+   "id": "U01",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U02",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U03",
+   "record_id": "hal.gravity.epistolary-formation"
+  },
+  {
+   "id": "U04",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U05",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U06",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U07",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U08",
+   "record_id": "hal.dw.empire"
+  }
+ ],
+ "ijc": [
+  {
+   "id": "U01",
+   "record_id": "ijc.term.homoios"
+  },
+  {
+   "id": "U02",
+   "record_id": "ijc.term.homoios"
+  },
+  {
+   "id": "U03",
+   "record_id": "ijc.demo.argued-about"
+  },
+  {
+   "id": "U04",
+   "record_id": "ijc.quote.canon3-new-rome"
+  },
+  {
+   "id": "U05",
+   "record_id": "ijc.quote.canon3-new-rome"
+  },
+  {
+   "id": "U06",
+   "record_id": "ijc.term.basilica"
+  },
+  {
+   "id": "U07",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U08",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U09",
+   "record_id": "ijc.story.vigil-in-basilica"
+  },
+  {
+   "id": "U10",
+   "record_id": "ijc.story.vigil-in-basilica"
+  },
+  {
+   "id": "U11",
+   "record_id": "ijc.dw.ancient-custom"
+  },
+  {
+   "id": "U12",
+   "record_id": "ijc.gravity.primacy-claiming"
+  },
+  {
+   "id": "U13",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U14",
+   "record_id": "ijc.limit.f5-ordinary-day"
+  },
+  {
+   "id": "U15",
+   "record_id": "ijc.limit.f5-ordinary-day"
+  },
+  {
+   "id": "U16",
+   "record_id": "ijc.dw.women-authority-cost"
+  },
+  {
+   "id": "U17",
+   "record_id": "ijc.dw.women-authority-cost"
+  }
+ ],
+ "pahc": [
+  {
+   "id": "U01",
+   "record_id": "pahc.witness.outsider-view"
+  },
+  {
+   "id": "U02",
+   "record_id": "pahc.witness.outsider-view"
+  },
+  {
+   "id": "U03",
+   "record_id": "pahc.witness.outsider-view"
+  },
+  {
+   "id": "U04",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U05",
+   "record_id": "pahc.witness.outsider-view"
+  },
+  {
+   "id": "U06",
+   "record_id": "pahc.witness.outsider-view"
+  },
+  {
+   "id": "U07",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U08",
+   "record_id": "pahc.witness.god-and-argument"
+  },
+  {
+   "id": "U09",
+   "record_id": "pahc.gravity.boundary-drawing"
+  },
+  {
+   "id": "U10",
+   "record_id": "pahc.witness.who-was-jesus"
+  },
+  {
+   "id": "U11",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U12",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U13",
+   "record_id": "pahc.gravity.translocal-network"
+  },
+  {
+   "id": "U14",
+   "record_id": "pahc.witness.outside-our-community"
+  }
+ ],
+ "rzg": [
+  {
+   "id": "U01",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U02",
+   "record_id": "rzg.quote.christ-the-mirror-of-election"
+  },
+  {
+   "id": "U03",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U04",
+   "record_id": "rzg.gravity.consistorial-church-discipline"
+  },
+  {
+   "id": "U05",
+   "record_id": "rzg.witness.what-we-have-of-christ"
+  },
+  {
+   "id": "U06",
+   "record_id": "rzg.witness.what-we-have-of-christ"
+  },
+  {
+   "id": "U07",
+   "record_id": "rzg.witness.what-we-have-of-christ"
+  },
+  {
+   "id": "U08",
+   "record_id": "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+  },
+  {
+   "id": "U09",
+   "record_id": "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+  },
+  {
+   "id": "U10",
+   "record_id": null,
+   "rejected": null
+  },
+  {
+   "id": "U11",
+   "record_id": "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+  },
+  {
+   "id": "U12",
+   "record_id": "rzg.witness.one-thing-not-in-dispute"
+  },
+  {
+   "id": "U13",
+   "record_id": "rzg.witness.one-thing-not-in-dispute"
+  },
+  {
+   "id": "U14",
+   "record_id": "rzg.witness.one-thing-not-in-dispute"
+  },
+  {
+   "id": "U15",
+   "record_id": "rzg.term.predestination-election"
+  },
+  {
+   "id": "U16",
+   "record_id": "rzg.quote.christ-the-mirror-of-election"
+  },
+  {
+   "id": "U17",
+   "record_id": "rzg.witness.a-quieted-mind"
+  },
+  {
+   "id": "U18",
+   "record_id": "rzg.witness.a-quieted-mind"
+  },
+  {
+   "id": "U19",
+   "record_id": "rzg.witness.what-we-have-of-christ"
+  },
+  {
+   "id": "U20",
+   "record_id": "rzg.witness.what-we-have-of-christ"
+  },
+  {
+   "id": "U21",
+   "record_id": "rzg.witness.what-we-have-of-christ"
+  },
+  {
+   "id": "U22",
+   "record_id": "rzg.quote.taught-better-from-scripture"
+  }
+ ],
+ "syr": [
+  {
+   "id": "U01",
+   "record_id": "syr.limit.ritual-sequence"
+  },
+  {
+   "id": "U02",
+   "record_id": "syr.term.ewangeliyon-da-mhallete"
+  },
+  {
+   "id": "U03",
+   "record_id": "syr.term.madrasha"
+  },
+  {
+   "id": "U04",
+   "record_id": "syr.limit.f5-women-own-words"
+  },
+  {
+   "id": "U05",
+   "record_id": "syr.dw.doubt"
+  },
+  {
+   "id": "U06",
+   "record_id": "syr.gravity.covenant-life"
+  },
+  {
+   "id": "U07",
+   "record_id": "syr.dw.cost-distance"
+  },
+  {
+   "id": "U08",
+   "record_id": "syr.dw.penitence-prayer"
+  },
+  {
+   "id": "U09",
+   "record_id": "syr.gravity.covenant-life"
+  },
+  {
+   "id": "U10",
+   "record_id": "syr.quote.warned-before-baptism"
+  },
+  {
+   "id": "U11",
+   "record_id": "syr.quote.warned-before-baptism"
+  },
+  {
+   "id": "U12",
+   "record_id": "syr.quote.warned-before-baptism"
+  },
+  {
+   "id": "U13",
+   "record_id": "syr.term.ewangeliyon-da-mhallete"
+  },
+  {
+   "id": "U14",
+   "record_id": "syr.limit.ritual-sequence"
+  },
+  {
+   "id": "U15",
+   "record_id": "syr.term.raza-shrara"
+  },
+  {
+   "id": "U16",
+   "record_id": "syr.dw.born-again-endtimes"
+  },
+  {
+   "id": "U17",
+   "record_id": "syr.dw.born-again-endtimes"
+  },
+  {
+   "id": "U18",
+   "record_id": "syr.gravity.covenant-life"
+  },
+  {
+   "id": "U19",
+   "record_id": "syr.gravity.covenant-life"
+  },
+  {
+   "id": "U20",
+   "record_id": "syr.dw.apostolic"
+  }
+ ],
+ "witt": [
+  {
+   "id": "U01",
+   "record_id": "witt.term.household"
+  },
+  {
+   "id": "U02",
+   "record_id": "witt.term.worthy-unworthy"
+  },
+  {
+   "id": "U03",
+   "record_id": "witt.term.catechism"
+  },
+  {
+   "id": "U04",
+   "record_id": "witt.term.what-does-this-mean"
+  },
+  {
+   "id": "U05",
+   "record_id": "witt.term.catechism"
+  },
+  {
+   "id": "U06",
+   "record_id": "witt.term.must-and-free"
+  },
+  {
+   "id": "U07",
+   "record_id": "witt.term.worthy-unworthy"
+  },
+  {
+   "id": "U08",
+   "record_id": "witt.term.patience"
+  },
+  {
+   "id": "U09",
+   "record_id": "witt.term.spiritual-and-temporal-estate"
+  },
+  {
+   "id": "U10",
+   "record_id": "witt.term.calling"
+  },
+  {
+   "id": "U11",
+   "record_id": "witt.term.we-are-all-priests"
+  },
+  {
+   "id": "U12",
+   "record_id": "witt.limit.record-thinnest"
+  },
+  {
+   "id": "U13",
+   "record_id": "witt.limit.record-thinnest"
+  },
+  {
+   "id": "U14",
+   "record_id": "witt.term.catechism"
+  },
+  {
+   "id": "U15",
+   "record_id": "witt.core.witt"
+  },
+  {
+   "id": "U16",
+   "record_id": "witt.core.witt"
+  },
+  {
+   "id": "U17",
+   "record_id": "witt.core.witt"
+  },
+  {
+   "id": "U18",
+   "record_id": "witt.term.congregation"
+  },
+  {
+   "id": "U19",
+   "record_id": "witt.limit.record-thinnest"
+  },
+  {
+   "id": "U20",
+   "record_id": "witt.dw.cold-and-careless-among-us"
+  },
+  {
+   "id": "U21",
+   "record_id": "witt.limit.record-thinnest"
+  }
+ ]
+}

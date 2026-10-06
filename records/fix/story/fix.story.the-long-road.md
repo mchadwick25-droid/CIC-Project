@@ -33,6 +33,13 @@ modern_contrast: >
   ordinary commerce simply followed ordinary suspicion of the gathering, with
   no organized campaign behind it - what the family paid was the market's plain
   reaction, not a deliberate punishment.
+use_note:
+  means: "A Testland family stays together after losing standing for the youngest son's faith."
+  not_for:
+    - "a claim that the family was persecuted by the state"
+    - "a historical event"
+  years: {from: 100, to: 100}
+  status: provisional
 ---
 Clean, complete story record: narrative_tier in range (1-4) with a real
 justification, tellable_as, text, and an absent_detail note. The narratability

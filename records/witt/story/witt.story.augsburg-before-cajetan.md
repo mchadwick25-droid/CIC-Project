@@ -77,6 +77,15 @@ modern_contrast: A modern reader may expect a formal hearing with recorded proce
   at a table among students, the same way any person remembers and retells the day they first stood up
   to someone far more powerful than themselves. The confrontation itself is not in serious doubt; the
   exact words are Luther's own memory of them, nothing more and nothing less.
+use_note:
+  means: "At his table Luther later told how he knelt before Cardinal Cajetan at Augsburg in 1518, would not say 'Revoco,' and answered 'Under Heaven.'"
+  not_for:
+    - "a verbatim transcript of 1518, since this is Luther's own later memory collected in Table Talk"
+    - "Cajetan's side of the exchange, which is given only as Luther remembered it"
+    - "the later confrontation at Worms, which sits in witt.story.worms-1521"
+    - "a precise date for the meeting beyond the account's own 'the 9th of July'"
+  years: {from: 1518, to: 1546}
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S02 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/luther_table-talk_bell1886.txt, lines

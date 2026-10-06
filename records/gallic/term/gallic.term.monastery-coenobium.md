@@ -124,6 +124,15 @@ quick_meaning: >-
   Simply where monks dwell - a wooden cell and caves, or a bishop's new house. The coenobium is the
   life kept there: one Elder over a congregation.
 distortion_risk: medium
+use_note:
+  means: "A monastery meant simply where monks dwell, and coenobium, Cassian's Egyptian word, the kind of life kept there, a congregation under one Elder."
+  not_for:
+    - "an abbey or cloister with a church, a written Rule and a charter"
+    - "a convent in the later sense"
+    - "the solitary's own dwelling, which sits in gallic.term.cell"
+    - "the received customs kept inside the house, which sit in gallic.term.customs-of-the-monasteries"
+  years: {from: 397, to: 450}
+  status: reviewed
 ---
 Built from Doc_06 entry 014 (Tier 2; chunk galliclex014_monastery-coenobium.md; Doc_03 1.2). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cells left

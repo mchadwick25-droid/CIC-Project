@@ -1,0 +1,186 @@
+{
+ "grader": "primary",
+ "replies": [
+  {
+   "reply": "rzg:f4-t-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Claim about use of the phrase in practice; no record cited."
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "stretched",
+     "note": "Record carries election before the world; contrast with a datable personal moment is the reply's addition."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Claim about 'born again' as a timed test; no record cited."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Profession, sacraments, Consistory discipline claims; no record cited."
+    },
+    {
+     "s": 7,
+     "label": "no_claim"
+    },
+    {
+     "s": 8,
+     "label": "no_claim"
+    },
+    {
+     "s": 9,
+     "label": "no_claim"
+    }
+   ]
+  },
+  {
+   "reply": "rzg:f4-e-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 6,
+     "label": "stretched",
+     "note": "Quote supports taught-better-only-from-Scripture; 'not from a chain of memory we do not need' is not in quote record."
+    },
+    {
+     "s": 7,
+     "label": "stretched",
+     "note": "Record: test inherited practice against Scripture in public; 'before witnesses who could answer back' added."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 10,
+     "label": "stretched",
+     "note": "Gravity carries Scripture-sole authority; claim about only connection to earliest church and rejecting succession not carried."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    }
+   ]
+  },
+  {
+   "reply": "rzg:c-i-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Creedal and ecumenical-consensus claims; no record cited."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Claim of what is distinctive to this world; no record cited."
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Text matches an uncited sentence; no record cited for it."
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Text matches an uncited sentence; no record cited for it."
+    },
+    {
+     "s": 10,
+     "label": "no_claim"
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    },
+    {
+     "s": 14,
+     "label": "uncited",
+     "note": "Specific claim with no cited record."
+    }
+   ]
+  }
+ ]
+}

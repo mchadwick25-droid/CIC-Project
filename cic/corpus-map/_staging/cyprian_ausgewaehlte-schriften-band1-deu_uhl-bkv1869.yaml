@@ -1,7 +1,8 @@
 source_file: cyprian_ausgewaehlte-schriften-band1-deu_uhl-bkv1869.txt
 
 assignments:
-  - work: "Cyprian, Ausgewaehlte Schriften, Band 1 (German, Uhl, BKV 1869)"
+  - row_id: cyprian_ausgewaehlte-schriften-band1-deu_uhl-bkv1869--cyprian-ausgewaehlte-schriften-band-1-german-uhl-bkv-1869
+    work: "Cyprian, Ausgewaehlte Schriften, Band 1 (German, Uhl, BKV 1869)"
     author: cyprian
     locus: "whole file"
     atlas_ids:

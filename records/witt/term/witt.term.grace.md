@@ -69,6 +69,13 @@ senses:
     received by faith, known as a gracious God -- a person, not a quantity.
 quick_meaning: God's free favor, not earned. Received by faith alone.
 distortion_risk: high
+use_note:
+  means: "Grace meant God's free favour toward the sinner, received by faith, so that the believer says 'I cannot doubt I have a gracious God.'"
+  not_for:
+    - "grace as a substance infused into us, or as mere leniency"
+    - "justification's technical shape, which sits in witt.term.justification"
+  years: {from: 1520, to: 1545}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.5 (grace / 'a gracious God', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

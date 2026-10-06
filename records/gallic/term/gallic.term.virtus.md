@@ -157,6 +157,15 @@ quick_meaning: >-
   At Tours, power - felt as present, measured, lost by a bad communion. At Marseilles, moral virtue,
   with the wonders set aside on purpose.
 distortion_risk: high
+use_note:
+  means: "Virtus meant, at Tours, effective power felt as present, measured and lost by a bad communion, while at Marseilles Cassian used the word for moral virtue and set wonders aside."
+  not_for:
+    - "virtue as moral excellence alone"
+    - "miracle as a suspension of natural law to be believed or disbelieved"
+    - "the grace of God in the Massilian argument, which sits in gallic.term.grace"
+    - "a ruling that any particular miracle happened, since the record carries reported-experience status only"
+  years: {from: 397, to: 435}
+  status: reviewed
 ---
 Built from Doc_06 entry 010 (Tier 1 attached to a Tensional gravity by Doc_06 §2.2's ruling; [PV];
 Reported-Experience Status; chunk galliclex010_virtus.md; Doc_03 6.1). Register emic. Quotations

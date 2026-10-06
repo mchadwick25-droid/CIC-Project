@@ -104,6 +104,15 @@ quick_meaning: >-
   facing an emperor. At Marseilles, the perfection of love, and the common life of the first
   Church.
 distortion_risk: medium
+use_note:
+  means: "Apostolic authority meant, at Tours, Martin's apostle-like power shown in raising the dead and facing an emperor, and at Marseilles the perfection of love and the first Church's common life."
+  not_for:
+    - "apostolic succession of validly ordained bishops, or Martin's apostolic authority as jurisdiction"
+    - "Rome as such, which sits in gallic.term.apostolic-see-pope"
+    - "the saint's power as such, which sits in gallic.term.virtus"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
+  years: {from: 397, to: 435}
+  status: reviewed
 ---
 Built from Doc_06 entry 063 (`galliclex063_apostolic-authority.md`, Tier 2, tags SC DR TC;
 Doc_03 8.2). The three referents are kept apart in every field per the chunk's voice note.

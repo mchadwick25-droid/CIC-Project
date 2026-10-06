@@ -1,0 +1,10 @@
+{"world": "hal", "items": [
+{"id": "U01", "label": "partly", "record_id": "hal.story.day-at-monastery", "note": "Record builds the day from attested elements but rates it Inferential-Thin; 'the shape is real' claims more certainty than that."},
+{"id": "U02", "label": "in_world", "record_id": "hal.dw.one-church", "note": "F3-T witness gives a direct 'No' (no denomination; no church today that is ours)."},
+{"id": "U03", "label": "in_world", "record_id": "hal.term.epistula", "note": "Verbatim: letter was how teaching, guidance, and belonging moved across distance."},
+{"id": "U04", "label": "in_world", "record_id": "hal.dw.empire", "note": "'Christians hiding in the catacombs? Not in our day.'"},
+{"id": "U05", "label": "outside", "record_id": null, "note": "No record says catacombs were burial places; dw.empire's own note says it deliberately avoids Jerome's catacomb passage."},
+{"id": "U06", "label": "in_world", "record_id": "hal.dw.empire", "note": "'Not in our day'; open, crowded churches."},
+{"id": "U07", "label": "in_world", "record_id": "hal.limit.martyrdom", "note": "'The great persecutions ended before our time'; dw.empire: hiding times were grandparents' memory."},
+{"id": "U08", "label": "in_world", "record_id": "hal.dw.empire", "note": "Empire's embrace corrupted; clergy chasing inheritances and social visits; also hal.dw.church-failure."}
+]}

@@ -74,7 +74,8 @@ authors_ruled:
 
       '
 assignments:
-- work: First Epistle to the Corinthians (1 Clement)
+- row_id: anf01_apostolic-fathers-justin-irenaeus--first-epistle-to-the-corinthians-1-clement
+  work: First Epistle to the Corinthians (1 Clement)
   author: clement_rome
   locus: div2 2.2 under div1 'CLEMENT OF ROME'
   atlas_ids:
@@ -85,7 +86,8 @@ assignments:
     cites this volume for it (pahc.source.first-clement).
 
     '
-- work: Epistle to Diognetus
+- row_id: anf01_apostolic-fathers-justin-irenaeus--epistle-to-diognetus
+  work: Epistle to Diognetus
   author: mathetes
   locus: div2 3.2 under div1 'MATHETES'
   atlas_ids:
@@ -95,10 +97,11 @@ assignments:
   confidence: assigned
   note: 'Anonymous apology of uncertain date and place (2nd-3rd c.). The census has no entry
     for the Greek apologists as such; placed with the era-1 mainstream entry the volume''s
-    other works belong to. Doubt is the date - some put it after the entry''s 200 CE close.
+    other works belong to. Doubt is the date: ANF gives c. 130 and ''not later than the beginning of the second century'', while Harnack 1897 and Puech put it at the end of the 2nd or in the 3rd century (Contested; the range falls on both sides of the entry''s 124-200 window).
     greek-apologists-second-century holds this work for the era''s outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.'
-- work: Epistle to the Philippians (Polycarp)
+- row_id: anf01_apostolic-fathers-justin-irenaeus--epistle-to-the-philippians-polycarp
+  work: Epistle to the Philippians (Polycarp)
   author: polycarp
   locus: div2 4.2 under div1 'POLYCARP'
   atlas_ids:
@@ -108,7 +111,8 @@ assignments:
   note: 'Smyrna, early 2nd c. Already cited by pahc.source.polycarp-philippians.
 
     '
-- work: The Martyrdom of Polycarp
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-martyrdom-of-polycarp
+  work: The Martyrdom of Polycarp
   author: martyrdom_of_polycarp
   locus: div2 4.4 under div1 'POLYCARP'
   atlas_ids:
@@ -119,7 +123,8 @@ assignments:
     anonymous work-entity rather than under Polycarp. Already cited by pahc.source.martyrdom-polycarp.
 
     '
-- work: Epistles of Ignatius (seven epistles; shorter, longer and Syriac recensions)
+- row_id: anf01_apostolic-fathers-justin-irenaeus--epistles-of-ignatius-seven-epistles-shorter-longer-and
+  work: Epistles of Ignatius (seven epistles; shorter, longer and Syriac recensions)
   author: ignatius
   locus: div2 5.2-5.8 (Greek recensions), 5.10-5.12 (Syriac versions) under div1 'IGNATIUS'
   atlas_ids:
@@ -130,7 +135,8 @@ assignments:
     as one work per the granularity rule. Antioch/Asia Minor, c. 107. Already cited by pahc.source.ignatius-letters.
 
     '
-- work: Spurious Epistles of Ignatius
+- row_id: anf01_apostolic-fathers-justin-irenaeus--spurious-epistles-of-ignatius
+  work: Spurious Epistles of Ignatius
   author: pseudo_ignatius
   locus: div2 5.14-5.23 under div1 'IGNATIUS'
   atlas_ids:
@@ -143,7 +149,8 @@ assignments:
     case exactly - a 4th-century forgery in a first-century figure''s name - and
     apocryphal-and-pseudepigraphal-literature holds that class. pahc is kept because the figure
     they impersonate is its.'
-- work: The Martyrdom of Ignatius
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-martyrdom-of-ignatius
+  work: The Martyrdom of Ignatius
   author: martyrdom_of_ignatius
   locus: div2 5.25 under div1 'IGNATIUS'
   atlas_ids:
@@ -154,7 +161,8 @@ assignments:
     doubt is its date, which may fall well after the entry''s window.
 
     '
-- work: The Epistle of Barnabas
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-epistle-of-barnabas
+  work: The Epistle of Barnabas
   author: barnabas
   locus: div2 6.2 under div1 'BARNABAS'
   atlas_ids:
@@ -166,7 +174,8 @@ assignments:
     added here.
 
     '
-- work: Fragments of Papias
+- row_id: anf01_apostolic-fathers-justin-irenaeus--fragments-of-papias
+  work: Fragments of Papias
   author: papias
   locus: div2 7.2 under div1 'PAPIAS'
   atlas_ids:
@@ -176,7 +185,8 @@ assignments:
   note: 'Papias of Hierapolis (Asia Minor), early 2nd c. - in window and region.
 
     '
-- work: The First Apology
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-first-apology
+  work: The First Apology
   author: justin_martyr
   locus: div2 8.2 under div1 'JUSTIN MARTYR'
   atlas_ids:
@@ -187,7 +197,8 @@ assignments:
   note: 'Rome, c. 155. Already cited by pahc.source.justin-first-apology. greek-apologists-second-century
     holds this work for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
-- work: The Second Apology
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-second-apology
+  work: The Second Apology
   author: justin_martyr
   locus: div2 8.3 under div1 'JUSTIN MARTYR'
   atlas_ids:
@@ -198,7 +209,8 @@ assignments:
   note: 'Companion piece to the First Apology, same setting and window. greek-apologists-second-century
     holds this work for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
-- work: Dialogue with Trypho
+- row_id: anf01_apostolic-fathers-justin-irenaeus--dialogue-with-trypho
+  work: Dialogue with Trypho
   author: justin_martyr
   locus: div2 8.4 under div1 'JUSTIN MARTYR'
   atlas_ids:
@@ -211,7 +223,8 @@ assignments:
     material - noted here rather than assigned, since it is a few chapters of a 75,000-word
     work. greek-apologists-second-century holds this work for the era''s outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.'
-- work: The Discourse to the Greeks
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-discourse-to-the-greeks
+  work: The Discourse to the Greeks
   author: justin_martyr
   locus: div2 8.5 under div1 'JUSTIN MARTYR'
   atlas_ids:
@@ -223,18 +236,30 @@ assignments:
     with its transmitted author per §6.2 - derive, don''t assert - with the doubt recorded.
     greek-apologists-second-century holds this work for the era''s outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.'
-- work: Hortatory Address to the Greeks
+- row_id: anf01_apostolic-fathers-justin-irenaeus--hortatory-address-to-the-greeks
+  work: Hortatory Address to the Greeks
   author: justin_martyr
   locus: div2 8.6 under div1 'JUSTIN MARTYR'
   atlas_ids:
   - post-apostolic-house-church
-  - greek-apologists-second-century
   role: tradition
   confidence: provisional
   note: 'Same position as the Discourse: transmitted under Justin, widely doubted.
-    greek-apologists-second-century holds this work for the era''s outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.'
-- work: On the Sole Government of God
+- row_id: anf01_apostolic-fathers-justin-irenaeus--hortatory-address-to-the-greeks-2
+  work: Hortatory Address to the Greeks
+  author: justin_martyr
+  locus: div2 8.6 under div1 'JUSTIN MARTYR'
+  atlas_ids:
+  - greek-apologists-second-century
+  role: context
+  confidence: provisional
+  note: 'Not Justin''s (Widely Accepted). Harnack 1904 dates it 221-302, probably the later half, and
+    other public-domain scholars put it at the end of the 2nd or early 3rd century, so it lies
+    mostly outside this entry''s window (124-200). Kept here as context, not as the world''s own
+    voice; the date dispute is Contested.'
+- row_id: anf01_apostolic-fathers-justin-irenaeus--on-the-sole-government-of-god
+  work: On the Sole Government of God
   author: justin_martyr
   locus: div2 8.7 under div1 'JUSTIN MARTYR'
   atlas_ids:
@@ -245,7 +270,8 @@ assignments:
   note: 'Same position as the Discourse: transmitted under Justin, widely doubted.
     greek-apologists-second-century holds this work for the era''s outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.'
-- work: On the Resurrection (fragments)
+- row_id: anf01_apostolic-fathers-justin-irenaeus--on-the-resurrection-fragments
+  work: On the Resurrection (fragments)
   author: justin_martyr
   locus: div2 8.8 under div1 'JUSTIN MARTYR'
   atlas_ids:
@@ -255,7 +281,8 @@ assignments:
   note: 'Fragments transmitted under Justin''s name; authenticity debated.
 
     '
-- work: Other Fragments from the Lost Writings of Justin
+- row_id: anf01_apostolic-fathers-justin-irenaeus--other-fragments-from-the-lost-writings-of-justin
+  work: Other Fragments from the Lost Writings of Justin
   author: justin_martyr
   locus: div2 8.9 under div1 'JUSTIN MARTYR'
   atlas_ids:
@@ -265,7 +292,8 @@ assignments:
   note: 'Miscellaneous fragments under Justin''s name, of mixed reliability.
 
     '
-- work: The Martyrdom of Justin Martyr
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-martyrdom-of-justin-martyr
+  work: The Martyrdom of Justin Martyr
   author: martyrdom_of_justin
   locus: div2 8.11 under div1 'JUSTIN MARTYR'
   atlas_ids:
@@ -276,7 +304,8 @@ assignments:
     Placed with the tradition of its subject.
 
     '
-- work: Against Heresies (Books I-V)
+- row_id: anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v
+  work: Against Heresies (Books I-V)
   author: irenaeus
   locus: div2 9.2-9.4, 9.6-9.7 under div1 'IRENAEUS'
   atlas_ids:
@@ -288,7 +317,8 @@ assignments:
     by separate context entries below; one work legitimately serves both (§6.1).
 
     '
-- work: Against Heresies (Books I-V)
+- row_id: anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v-2
+  work: Against Heresies (Books I-V)
   author: irenaeus
   locus: div2 9.2-9.4, 9.6-9.7 under div1 'IRENAEUS'
   atlas_ids:
@@ -303,7 +333,8 @@ assignments:
     as register: etic per brief §4.
 
     '
-- work: Against Heresies (Books I-V)
+- row_id: anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v-3
+  work: Against Heresies (Books I-V)
   author: irenaeus
   locus: div2 9.2-9.4, 9.6-9.7 under div1 'IRENAEUS'
   atlas_ids:
@@ -316,7 +347,8 @@ assignments:
     may be worth considering.
 
     '
-- work: Fragments from the Lost Writings of Irenaeus
+- row_id: anf01_apostolic-fathers-justin-irenaeus--fragments-from-the-lost-writings-of-irenaeus
+  work: Fragments from the Lost Writings of Irenaeus
   author: irenaeus
   locus: div2 9.8 under div1 'IRENAEUS'
   atlas_ids:

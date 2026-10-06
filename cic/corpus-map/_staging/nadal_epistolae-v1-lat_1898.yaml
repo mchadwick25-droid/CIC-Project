@@ -1,9 +1,10 @@
 source_file: nadal_epistolae-v1-lat_1898.txt
 
 assignments:
-  - work: "Epistolae P. Hieronymi Nadal Societatis Jesu, Vol. I"
+  - row_id: nadal_epistolae-v1-lat_1898--epistolae-p-hieronymi-nadal-societatis-jesu-vol-i
+    work: "Epistolae P. Hieronymi Nadal Societatis Jesu, Vol. I"
     author: nadal
-    locus: "whole volume"
+    locus: "whole volume - Tomus I, covering 1546-1562 (title page: TOMUS PRIMUS (1546-1562))"
     atlas_ids:
       - the-society-of-jesus
     role: tradition
