@@ -1366,7 +1366,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # sits inside this file's own "## Document Log" section - genuinely
     # load-bearing review-history content, now correctly PROTECTED.
     ("Build/worlds/pahc/CiC_W1_World_Profile.md", 562, "PROTECTED"),
-    ("Build/worlds/_cross-world/DOWNLOAD-QUEUE.md", 17, "REWRITE"),
+    ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("Build/worlds/ijc/Source_Registry.md", 25, "REWRITE"),
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit b9ad408c):
     # the original rzg example was cleaned by that effort. Re-pinned to a
@@ -1416,7 +1416,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # wanting an academic reviewer for the project's own scholarship, not
     # narration of this project's internal review process - the same
     # `reviewer`-pattern gap already hand-labelled for reference/ above.
-    ("cic-website/support.html", 127, "KEEP"),
+    ("cic-website/support.html", 109, "KEEP"),
     ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
     # the original _cross-world example was cleaned by that effort.
