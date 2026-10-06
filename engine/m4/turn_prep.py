@@ -216,6 +216,8 @@ def _other_tradition_directive(
 
 
 CONCISION_DIRECTIVE = (
+    "Opening: start with the answer itself. Never restate the question, and never answer a question "
+    "the participant did not ask. "
     "Length: answer first. Use the fewest sentences that carry the answer, its reason and one quote. "
     "Most replies run between 120 and 220 words. A question that earns more may take more."
 )

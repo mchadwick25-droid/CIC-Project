@@ -49,7 +49,11 @@ def test_only_the_last_history_block_carries_the_history_breakpoint():
 def test_the_history_prefix_is_byte_identical_across_turns_with_different_directives():
     first = build_voice_request(system_prompt="WORLD", message="q1", turn_directive="D1", history=HISTORY[:2])
     second = build_voice_request(system_prompt="WORLD", message="q2", turn_directive="D2", history=HISTORY)
-    assert first[0] == second[0]
+    # The two cached system blocks are the same bytes every turn; the
+    # directive sits behind them as an uncached third block.
+    assert first[0][:2] == second[0][:2]
+    assert first[0][2]["text"] == "D1" and second[0][2]["text"] == "D2"
+    assert "cache_control" not in first[0][2] and "cache_control" not in second[0][2]
     assert first[1][0] == second[1][0]
     assert first[1][1] == {"role": "assistant", "content": [{"type": "text", "text": "He was God's own Word.", "cache_control": EPHEMERAL}]}
     assert second[1][1] == HISTORY[1]
