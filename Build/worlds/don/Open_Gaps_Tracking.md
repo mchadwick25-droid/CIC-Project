@@ -891,4 +891,6 @@ Carried, not fixed: the claim "Nobody in Africa called the other side heretics" 
 
 Review: round 1 (Opus), `Build/Ministry/Operations/Audits/don_identity_scaffolding_review_round1_2026-10-06.md`, REVISE with six substantial findings, all applied. Package rebuilt and repinned (`packages/don/2026-10-06T21-54-53Z`); records gate and regate against origin/main pass. `deployed don` fails on the missing voice_craft `source_anchor`, which this pass does not touch.
 
+CI after the push: the fleet readability waiver for don in `engine/m9/enforce.py` moved from 330 to 329 (the pass removed one over-ceiling field), and the site JSON for don (`cic-website/data/worlds/`) was recompiled because its narrative was stale against the records. `engine.m3.admission_conform` fails on every records change until decision 58's promotion-gate change lands; it is not changed or paid around here.
+
 Status: round 2 (Opus, `Build/Ministry/Operations/Audits/don_identity_scaffolding_review_round2_2026-10-06.md`) cleared the records and found these two sentences inaccurate; both are corrected here as it specified. Approved to proceed.
