@@ -27,10 +27,10 @@ relations:
 - type: associated-with
   target: alx.term.paideia
 text: >-
-  We spoke about suffering from inside it, not from above it. Our own
-  years include plagues that emptied streets and persecutions that took
-  our teachers' fathers. We gave three answers we could stand behind
-  about why God allows it. First, the teacher's answer: God's hand in
+  We gave three answers we could stand behind about why God allows
+  suffering. We gave them from inside suffering, not from above it. Our
+  own years include plagues that emptied streets and persecutions that
+  took our teachers' fathers. First, the teacher's answer: God's hand in
   pain is a physician's. Every threat and pain and punishment that comes
   from him, Origen insists, is never inflicted to injure the sufferers
   but always to do them good; suffering is the school's hardest
@@ -60,5 +60,3 @@ use_note:
 ---
 The suffering cell's answer-ground; companion quote origen-punishment-
 heals and story plague-nursing carry it in voice and narrative.
-
-REGISTER TRANSLATION: spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).

@@ -58,12 +58,3 @@ use_note:
 Also tagged F1-P: the fixed-vs-open distinction IS the world's answer
 to 'was there room for doubt?' - inquiry inside the rule was not sin
 but devotion; see alx.dw.doubt for the dedicated ground.
-
-REGISTER TRANSLATION: spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
-
-BAR SWEEP: text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
-
-LEXICON LABEL PASS (plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). psyche labeled in the argued-questions list of the God witness. Claims unchanged; the label is the whole edit.

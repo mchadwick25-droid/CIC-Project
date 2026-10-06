@@ -53,7 +53,3 @@ use_note:
 The F1-T cell (original sin / bread-and-cup / faith-alone questions
 share the cell; eucharistia's senses carry the second, and the
 faith-works question is answered inside the faith-to-gnosis material).
-
-REGISTER TRANSLATION: spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
-
-BAR SWEEP: text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

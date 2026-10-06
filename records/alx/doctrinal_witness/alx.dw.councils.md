@@ -32,15 +32,16 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Disputed belief was decided in three ways in our own history. Early
-  on, teachers argued. They used books, lectures, and letters. Authority
+  Who decided disputed belief changed across our own history: first the
+  teachers, then the bishop, and at the end the council. Early on,
+  teachers argued. They used books, lectures, and letters. Authority
   went to proven wisdom. In the middle years, the bishop's judgment
   grew. Demetrius condemned Origen's ordination. Dionysius was a teacher
   who had become bishop. He settled the Arsinoite dispute with three
   days of public persuasion. The whole countryside listened. At the end
   came the council. At Nicaea, bishops from everywhere ruled on the
   disputed confession for all. The emperor called it. He backed it with
-  force. Our best picture of a good decision is Dionysius at Arsinoe. It
+  force. Our best picture of deciding well is Dionysius at Arsinoe. It
   was patient public argument. It loved the man, and it honored the
   truth more. Our harder picture is the same power with an empire behind
   it.
@@ -64,7 +65,3 @@ use_note:
   status: reviewed
 ---
 The councils cell, grounded in the world's own decision-practice range.
-
-REGISTER TRANSLATION: spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
-
-BAR SWEEP: text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
