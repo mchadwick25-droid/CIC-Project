@@ -16,6 +16,7 @@ import uuid
 from dataclasses import dataclass
 
 from engine.provider.bedrock import NormalizedUsage
+from engine.provider.route import active_route
 
 # Explicit tag for admin/evidence calls that are genuinely not part of a
 # participant session (preflight, this module's own re-measurement
@@ -52,11 +53,12 @@ def new_trace_id() -> str:
 
 
 def record_usage(
-    *, usage: NormalizedUsage, session_id: str, call_kind: str, model_id: str, provider: str = "bedrock", trace_id: str | None = None,
+    *, usage: NormalizedUsage, session_id: str, call_kind: str, model_id: str, provider: str | None = None, trace_id: str | None = None,
     world_key: str | None = None,
 ) -> UsageRecord:
     if not session_id:
         raise ValueError("session_id is required - use usage.SYSTEM_SESSION_ID for non-session calls, never blank")
+    provider = provider or active_route()
     return UsageRecord(
         trace_id=trace_id or new_trace_id(), session_id=session_id, call_kind=call_kind, model_id=model_id, provider=provider, usage=usage,
         world_key=world_key,

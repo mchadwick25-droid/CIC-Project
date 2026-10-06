@@ -49,7 +49,7 @@ from engine.m7.scheduler import STATUS_FILENAME
 from engine.m7.session_reader import read_session
 from engine.m8.cost import estimate_cost
 from engine.m8.log_store import UsageLogStore
-from engine.m8.price_tables import price_for_call
+from engine.m8.price_tables import price_for_route
 
 class UnknownWorldError(Exception):
     """world_key isn't in the registry (records/worlds.yaml)."""
@@ -472,6 +472,17 @@ class WorldUsage:
 
 
 @dataclass(frozen=True)
+class RouteUsage:
+    """What each model route's calls came to, priced as that route bills
+    (a Bedrock regional profile carries its premium; the Anthropic API bills
+    at list). unpriced_calls reads as in WorldUsage."""
+    route: str
+    calls: int
+    priced_dollars: float
+    unpriced_calls: int
+
+
+@dataclass(frozen=True)
 class AskCandidate:
     ask: str
     count: int
@@ -483,6 +494,7 @@ class UsageSummary:
     visitors: VisitorUsage
     by_world: list[WorldUsage]
     price_table_source: str | None
+    by_route: list[RouteUsage] = field(default_factory=list)
     top_asks: list[AskCandidate] = field(default_factory=list)
     asks_generated_at: str | None = None
     asks_as_of_run: str | None = None
@@ -564,6 +576,7 @@ def get_usage_summary(
         average_visitor_total_seconds=average_visitor_total,
     )
 
+    by_route: dict[str, dict] = {}
     by_world: dict[str, dict] = {}
     price_sources: set[str] = set()
     for record in usage_store.read_all():
@@ -580,11 +593,16 @@ def get_usage_summary(
         bucket["output_tokens"] += record.usage.output_tokens
         bucket["cache_creation_input_tokens"] += record.usage.cache_creation_input_tokens
         bucket["cache_read_input_tokens"] += record.usage.cache_read_input_tokens
-        price_table = price_for_call(record.call_kind, record.model_id)
+        route_bucket = by_route.setdefault(record.provider, {"calls": 0, "priced_dollars": 0.0, "unpriced_calls": 0})
+        route_bucket["calls"] += 1
+        price_table = price_for_route(record.call_kind, record.model_id, record.provider)
         if price_table is None:
             bucket["unpriced_calls"] += 1
+            route_bucket["unpriced_calls"] += 1
         else:
-            bucket["priced_dollars"] += estimate_cost(record.usage, price_table).dollars
+            dollars = estimate_cost(record.usage, price_table).dollars
+            bucket["priced_dollars"] += dollars
+            route_bucket["priced_dollars"] += dollars
             price_sources.add(price_table.source)
 
     by_world_list = [WorldUsage(world_key=k, **v) for k, v in sorted(by_world.items())]
@@ -598,6 +616,7 @@ def get_usage_summary(
     return UsageSummary(
         visitors=visitors,
         by_world=by_world_list,
+        by_route=[RouteUsage(route=k, **v) for k, v in sorted(by_route.items())],
         price_table_source=", ".join(sorted(price_sources)) or None,
         top_asks=top_asks,
         asks_generated_at=asks_generated_at,
