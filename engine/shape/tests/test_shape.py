@@ -35,7 +35,7 @@ def test_the_segment_carries_every_self_reference_hardening_rule():
 def test_the_segment_holds_the_fleet_sections_in_order():
     text = shape.build_shape(load_fleet_records())
     heads = [line for line in text.splitlines() if line.startswith("## ")]
-    assert heads == ["## Register", "## Pronoun rule", "## Citation contract", "## Limit discipline"]
+    assert heads == ["## Register", "## Pronoun rule", "## Citation contract", "## Stories and quotes", "## Limit discipline"]
 
 
 def test_no_fleet_voice_record_builds_an_empty_segment():
@@ -46,3 +46,10 @@ def test_every_voice_request_sends_the_segment_first_then_the_world_both_cached(
     system, _ = build_voice_request(system_prompt="WORLD", message="hi")
     assert [b["text"] for b in system] == [shape.shape_text(), "WORLD"]
     assert all(b["cache_control"] == {"type": "ephemeral"} for b in system)
+
+
+def test_the_stories_and_quotes_section_asks_for_a_full_quote_a_retelling_and_no_bare_names():
+    text = shape.shape_text()
+    section = text.split("## Stories and quotes", 1)[1].split("\n## ", 1)[0]
+    assert "one quote in full" in section and "modern rendering" in section
+    assert "retelling" in section and "never merely named" in section
