@@ -55,10 +55,10 @@ text: >-
   see for see, down to towns you have never heard of.
 
 
-  A man came to hold it by both together: the people and the bishops.
-  Here is what that looked like when it went wrong. At Cirta, when
-  Silvanus was being made bishop, the people shouted back - let it be
-  another; hear us, God - and he was made bishop anyway, and a court
+  A man came to hold that authority through the people and the bishops
+  together. Here is what that looked like when it went wrong. At Cirta,
+  when Silvanus was being made bishop, the people shouted back - let it
+  be another; hear us, God - and he was made bishop anyway, and a court
   heard about it years later from a man who said, I myself fought
   against his being made bishop. So a crowd could be overridden. It
   could not be ignored.

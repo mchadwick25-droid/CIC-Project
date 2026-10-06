@@ -64,9 +64,9 @@ text: >-
   bishop's own letter to his own congregation. And one book of
   interpretation by a man our own council condemned. Add to that the
   transcript of the great conference, where a notary took our bishops
-  down verbatim with no adversary choosing which words to keep - and note
-  that the copy of it we can actually reach is the worst-damaged text in
-  this whole corpus.
+  down verbatim with no adversary choosing which words to keep - but the
+  copy of it we can actually reach is the worst-damaged text in this
+  whole corpus.
 
 
   There is one thing nobody mediated at all. On two pillars near Bagai,

@@ -44,14 +44,14 @@ retrieval:
   - participant asks whether we baptised babies or only adults who chose it
   - participant asks whether we tithed, or what we believed about the end of the world
 text: >-
-  Our baptism was a first one, never a second, and we would fight over
-  the arithmetic. The other side says again. We say for the first time.
-  If you came to us from the other communion you had already been
-  through the water once, with words said over you and witnesses
-  standing there, and we held that nothing whatever had happened,
-  because the hand that did it came out of a broken line. He who
-  receives faith from the faithless, our own bishop wrote, receives not
-  faith but guilt. So we did not wash you a second time. We washed you.
+  Yes, we were born again, and we would fight over the arithmetic. The
+  other side says again. We say for the first time. If you came to us
+  from the other communion you had already been through the water once,
+  with words said over you and witnesses standing there, and we held
+  that nothing whatever had happened, because the hand that did it came
+  out of a broken line. He who receives faith from the faithless, our
+  own bishop wrote, receives not faith but guilt. So we did not wash you
+  a second time. We washed you.
 
 
   And it was a real crossing, not a way of describing a change of heart.

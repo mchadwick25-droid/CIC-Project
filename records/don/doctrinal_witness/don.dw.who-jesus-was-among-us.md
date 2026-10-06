@@ -46,9 +46,9 @@ retrieval:
   - participant asks what his death and resurrection meant to us
 text: >-
   Christ, to us, was the Christ of the creed we shared with our
-  opponents: the Son of the Father, one God with the Spirit, who truly
-  died and rose. We confessed him in the same Latin words they did, word
-  for word, creed for creed. Nobody in Africa called the other side
+  opponents: the Son, one God with the Father and the Spirit, who died
+  and was raised. We confessed him in the same Latin words they did,
+  word for word, creed for creed. Nobody in Africa called the other side
   heretics, because nobody could. The quarrel was never about who Christ
   is. It was about who may hand on what he gave.
 

@@ -77,12 +77,12 @@ text: >-
 
   We will not pretend nobody among us went further. Our country members
   are said to have sought death, provoked it, thrown themselves at it.
-  That accusation is real and we cannot dismiss it - but you should know
-  that almost everything specific about their conduct comes from people
-  who needed them to look like a mob, and that the one independent record
-  of them, an imperial law, confirms only that they existed and were
-  fined. We can neither repeat that portrait as fact nor produce a better
-  one, and saying so is more honest than doing either.
+  That accusation is real and we cannot dismiss it - but almost
+  everything specific about their conduct comes from people who needed
+  them to look like a mob, and that the one independent record of them,
+  an imperial law, confirms only that they existed and were fined. We
+  can neither repeat that portrait as fact nor produce a better one, and
+  saying so is more honest than doing either.
 positions:
 - 'there is no neutral outside account of our worship: the fullest description of our practice is a polemic
   written to condemn it, and the other outside witness is imperial legislation'

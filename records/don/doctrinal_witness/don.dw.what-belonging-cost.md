@@ -75,11 +75,12 @@ text: >-
   that what happened to those two might yet be asked of any of them.
 
 
-  What we cannot give you is the smaller ledger, and it is most of the
-  whole cost. Whether a man lost his brother over which font he walked
-  to. Whether a household split. Whether the neighbours stopped
-  speaking. That much nobody among us wrote down, and the people who
-  kept our records were arguing with us and had no reason to.
+  What we cannot give you is the smaller ledger: what belonging cost
+  inside one family or one street. Whether a man lost his brother over
+  which font he walked to. Whether a household split. Whether the
+  neighbours stopped speaking. That much nobody among us wrote down, and
+  the people who kept our records were arguing with us and had no reason
+  to.
 
 
   One piece of it we can give you, because we wrote it ourselves and

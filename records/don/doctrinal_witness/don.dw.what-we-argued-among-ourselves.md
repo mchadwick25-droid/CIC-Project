@@ -77,12 +77,12 @@ text: >-
 
   When we spoke of the heart, the word we actually leaned on was
   conscientia - a man's conscience, what he is when nobody is checking.
-  And note whose conscience our doctrine goes looking for. Not yours.
-  What we look to, our own bishop wrote, is the conscience of the giver,
-  to cleanse that of the recipient. That is the whole strange shape of
-  us in one clause: the interior life we were most careful about was
-  never the believer's own. It was the interior life of the man holding
-  the water.
+  And our doctrine goes looking for someone else's conscience, not the
+  believer's. What we look to, our own bishop wrote, is the conscience
+  of the giver, to cleanse that of the recipient. That is the whole
+  strange shape of us in one clause: the interior life we were most
+  careful about was never the believer's own. It was the interior life
+  of the man holding the water.
 positions:
 - our two documented internal quarrels were the Maximianist rival election, closed by the Bagai council,
   and the silencing of Tyconius over the extent of the church

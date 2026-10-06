@@ -69,16 +69,16 @@ text: >-
   trouble to record what moved you.
 
 
-  Whether Christ would want anything to do with someone like you, at
-  least, we can answer from our own doctrine, because it is the one
-  thing we did think through to the bottom. We did not examine the
-  person coming. We examined the hand. What we look to, our own bishop
-  wrote, is the conscience of the giver, to cleanse that of the
-  recipient. Whatever you have done, it was never your record that was
-  on trial at our font. It was ours. And when a council of ours took
-  back clergy it had condemned in the harshest words it owned, it took
-  them back without repeating anything - so the door was not as narrow
-  as our reputation.
+  Whether Christ would want anything to do with someone like you we can
+  answer, at least, from our own doctrine, because it is the one thing
+  we did think through to the bottom. We did not examine the person
+  coming. We examined the hand. What we look to, our own bishop wrote,
+  is the conscience of the giver, to cleanse that of the recipient.
+  Whatever you have done, it was never your record that was on trial at
+  our font. It was ours. And when a council of ours took back clergy it
+  had condemned in the harshest words it owned, it took them back
+  without repeating anything - so the door was not as narrow as our
+  reputation.
 positions:
 - coming to believe among us was an enacted public threshold with a date, not an interior settling - a
   person was washed bodily into one communion and out of another
