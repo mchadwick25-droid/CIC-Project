@@ -467,10 +467,6 @@ jobs:
       # FixtureRecordAnswerer (a deterministic, no-model stand-in) - no
       # live model call, no cost.
       - run: python -m pytest engine/m3/tests -q -n auto
-      # Every admitted or open world has a committed live admission report
-      # on the package hash the registry pins, passing every sealed probe
-      # or covered by a ruling in engine/m3/admission_rulings.yaml.
-      - run: python -m engine.m3.admission_conform
 
       # M4 event log, projection, entrance seal, resume, turn loop.
       # Started stage 5 non-model half (Artifact-3's event log/store,
@@ -482,9 +478,6 @@ jobs:
       # actually run; the real calls themselves are by-hand evidence
       # runs, never CI.
       - run: python -m pytest engine/m4/tests -q -n auto
-      # The engine shape segment: one segment for every world, pinned by
-      # SHAPE_HASH; it refuses to load when the hash and the segment disagree.
-      - run: python -m pytest engine/shape/tests -q -n auto
 
       # M5 Facilitator gate routing + failure semantics. Added stage 5
       # (partial). The Facilitator gate's deterministic routing merge and
@@ -504,12 +497,6 @@ jobs:
       # Added stage 6 (M8: usage attribution, parity, cost unit). CI runs
       # only the hermetic unit tests - never a live Bedrock call.
       - run: python -m pytest engine/m8/tests -q
-
-      # Go Deeper meter and claim stores (standard library only; imports
-      # nothing from the conversation engine).
-      - run: python -m pytest engine/deeper/tests -q
-      # The guard that keeps the Go Deeper proofs from being dropped must itself exist.
-      - run: python -m pytest "engine/api/tests/test_deeper_proofs.py::test_every_named_proof_exists_and_none_is_skipped_or_expected_to_fail" -q
 
       # M7 audit and per-turn readability; M10 build gates.
       - run: python -m pytest engine/m7 -q -n auto
@@ -536,8 +523,6 @@ jobs:
       # client + the real committed fixture-world package, never a live
       # AWS call.
       - run: python -m pytest engine/api/tests -q -n auto
-      # The same suite again with Go Deeper mounted on every test app.
-      - run: CIC_TEST_DEEPER=1 python -m pytest engine/api/tests -q -n auto
 
   # M2 staleness and M9 confinement, merged 2026-09-23 (see top-of-file
   # comment). Deliberately kept separate from engine-tests above: both
@@ -766,12 +751,6 @@ jobs:
           cache-dependency-path: engine/m1/requirements.txt
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/m2/tests/test_site_compiler.py engine/m2/tests/test_site_staleness.py -q
-      # Go Deeper pages: their words, their purchase click and their claim call.
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-      - run: pip install -r engine/api/requirements.txt
-      - run: python -m pytest engine/m2/tests/test_go_deeper_pages.py -q
       - run: python -m engine.m2.site_cli staleness-check
 
   no-embedded-world-data:

@@ -109,36 +109,7 @@ def in_package_manifest(tok: str) -> bool:
     return m.group(3) in files
 
 
-def moved_paths() -> list[tuple[re.Pattern, str]]:
-    """Old prefix -> new home, from tools/moved_paths.txt. A document written
-    before a move may keep citing the old path; the citation stands only while
-    the file exists at its new home. `<code>` stands for one path segment."""
-    listing = REPO / "tools" / "moved_paths.txt"
-    if not listing.exists():
-        return []
-    out = []
-    for line in listing.read_text(encoding="utf-8").splitlines():
-        line = line.split("#", 1)[0].strip()
-        if not line:
-            continue
-        old, new = line.split()
-        pattern = re.escape(old).replace(re.escape("<code>"), r"(?P<code>[^/]+)")
-        out.append((re.compile(rf"^{pattern}(?=/|$)"), new))
-    return out
-
-
 def resolves(tok: str) -> bool:
-    if resolves_here(tok):
-        return True
-    for pattern, new in moved_paths():
-        m = pattern.match(tok)
-        if m:
-            home = new.replace("<code>", m.groupdict().get("code") or "")
-            return resolves_here(home + tok[m.end():])
-    return False
-
-
-def resolves_here(tok: str) -> bool:
     target = REPO / tok.rstrip("/")
     if target.exists() or in_package_manifest(tok):
         return True

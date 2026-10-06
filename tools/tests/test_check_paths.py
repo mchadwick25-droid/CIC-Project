@@ -29,33 +29,3 @@ def test_unlisted_package_file_does_not_resolve(tmp_path, monkeypatch):
 def test_package_without_a_manifest_does_not_resolve(tmp_path, monkeypatch):
     monkeypatch.setattr(check_paths, "REPO", tmp_path)
     assert not check_paths.resolves("packages/w/2026-01-01T00-00-00Z/compiled/prompt.txt")
-
-
-def _moved(root: Path) -> None:
-    (root / "tools").mkdir(exist_ok=True)
-    (root / "tools" / "moved_paths.txt").write_text(
-        "records/<code>/world_front  Build/worlds/<code>/surface/world_front\n", encoding="utf-8")
-
-
-def test_an_old_path_resolves_while_the_file_exists_at_its_new_home(tmp_path, monkeypatch):
-    _moved(tmp_path)
-    home = tmp_path / "Build" / "worlds" / "alx" / "surface" / "world_front"
-    home.mkdir(parents=True)
-    (home / "alx.front.a.md").write_text("x", encoding="utf-8")
-    monkeypatch.setattr(check_paths, "REPO", tmp_path)
-    assert check_paths.resolves("records/alx/world_front/alx.front.a.md")
-    assert check_paths.resolves("records/alx/world_front")
-
-
-def test_an_old_path_whose_file_is_gone_from_the_new_home_does_not_resolve(tmp_path, monkeypatch):
-    _moved(tmp_path)
-    (tmp_path / "Build" / "worlds" / "alx" / "surface" / "world_front").mkdir(parents=True)
-    monkeypatch.setattr(check_paths, "REPO", tmp_path)
-    assert not check_paths.resolves("records/alx/world_front/alx.front.missing.md")
-
-
-def test_a_path_that_only_shares_the_moved_prefix_is_not_mapped(tmp_path, monkeypatch):
-    _moved(tmp_path)
-    (tmp_path / "Build" / "worlds" / "alx" / "surface" / "world_front_extra").mkdir(parents=True)
-    monkeypatch.setattr(check_paths, "REPO", tmp_path)
-    assert not check_paths.resolves("records/alx/world_front_extra")
