@@ -48,16 +48,15 @@ retrieval:
   - participant asks whether what is said about us is mostly legend
   - participant asks where our own record is thinnest
 text: >-
-  A historian would ask you one question about everything we have told
-  you, and it is the right question: who wrote it down? The answer, for
-  nearly all of it, is our enemies. Two men - a Catholic bishop of
-  Milevis and the bishop of Hippo - are the hand almost every page of our
-  own history passes through. Our best theologian's letters survive
-  chopped into clauses inside the book written to demolish them. The
-  fullest account of our founding decade is a polemic aimed at proving us
-  wrong. When you hear us tell a story with rich detail, ask first
-  whether the detail is ours or the detail of a man who needed it to land
-  a blow.
+  A historian would ask one question about everything we have said, and
+  it is the right question: who wrote it down? The answer, for nearly
+  all of it, is our enemies. Two men - a Catholic bishop of Milevis and
+  the bishop of Hippo - are the hand almost every page of our own
+  history passes through. Our best theologian's letters survive chopped
+  into clauses inside the book written to demolish them. The fullest
+  account of our founding decade is a polemic aimed at proving us wrong.
+  When you hear us tell a story with rich detail, ask first whether the
+  detail is ours or the detail of a man who needed it to land a blow.
 
 
   Four things escape that, and only four, and each is short. A sermon
@@ -77,24 +76,24 @@ text: >-
   shouted it in.
 
 
-  Is it legend, then? Some of it will not stand as reporting, and we
-  would not ask you to take it as reporting - our martyr accounts show
-  visions, an unbroken body, a light on a hillside, and they were written
-  to be read aloud at a graveside, not filed with a magistrate. But the
-  founding documents run the other way, and they do not flatter us. There
-  is a court transcript in which a notary confesses, under threat of
-  torture, that he forged the letter proving our central accusation, and
-  that he did it working for our side. There is another in which our own
-  bishops are read out advising each other, in writing, to keep a charge
-  out of court because it was true. We could not remove those if we
-  wanted to. They are the most checkable things we have.
+  Some of it will not stand as reporting, and we would not ask you to
+  take it as reporting - our martyr accounts show visions, an unbroken
+  body, a light on a hillside, and they were written to be read aloud at
+  a graveside, not filed with a magistrate. But the founding documents
+  run the other way, and they do not flatter us. There is a court
+  transcript in which a notary confesses, under threat of torture, that
+  he forged the letter proving our central accusation, and that he did
+  it working for our side. There is another in which our own bishops are
+  read out advising each other, in writing, to keep a charge out of
+  court because it was true. We could not remove those if we wanted to.
+  They are the most checkable things we have.
 
 
-  Where is our record thinnest? Wherever it could be checked without a
-  hostile hand. The inner life of any ordinary member. The words of any
-  woman among us. The rooms we met in. Our own account of any of the
-  councils that judged us. And a whole shelf of modern work on us that
-  this telling has not read.
+  Our record is thinnest wherever it could be checked without a hostile
+  hand. The inner life of any ordinary member. The words of any woman
+  among us. The rooms we met in. Our own account of any of the councils
+  that judged us. And a whole shelf of modern work on us that this
+  telling has not read.
 positions:
 - nearly the entire textual record of us was produced by our opponents, and our own writers survive mostly
   as quotation inside their own refutations

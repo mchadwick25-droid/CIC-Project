@@ -55,8 +55,8 @@ tensions:
   not really us.'' Both are true at once, plainly stated, in the same record: the emperor has no standing
   to judge us, and three times we asked him to rule in our favor anyway. We hold both, because our own
   record holds both, and we would rather you see the whole of it than a tidier half.'
-text: '"What has the emperor to do with the church?" That is our own primate''s answer to the question
-  of who may judge us, and we still give it. The state has ruled against us more than once, and a ruling
+text: 'The emperor has no standing to judge us. Our primate put it in one line: "What has the emperor to do with the church?" We still say it.
+  The state has ruled against us more than once, and a ruling
   from a power with no standing to judge the question is no verdict at all. But we will tell you plainly
   what our own record also holds: three times, we went to that same power ourselves, when it served our
   case to do so -- once petitioning the emperor himself for a hearing, once asking a different emperor

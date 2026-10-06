@@ -44,36 +44,33 @@ retrieval:
   - participant asks whether Jesus died in our place to take our punishment
   - participant asks whether we would call Jesus our personal Lord and Savior
 text: >-
-  Yes. Father, Son and Holy Spirit, one God - we held that as plainly as
-  the men we spent a century fighting held it, and in the same Latin
-  words. This matters more than it sounds. In the whole enormous
-  literature written to destroy us, we are called schismatics on nearly
-  every page and heretics on none, because heresy was a charge nobody
-  could make stick in either direction. Two churches stood in every
-  African town reciting the same faith at each other. That is precisely
-  what made the fight unbearable: there was no doctrinal difference to
-  point at, only the question of who had the right to say the words at
-  all.
+  Father, Son and Holy Spirit, one God - we held that as plainly as the
+  men we spent a century fighting held it, and in the same Latin words.
+  This matters more than it sounds. In the whole enormous literature
+  written to destroy us, we are called schismatics on nearly every page
+  and heretics on none, because heresy was a charge nobody could make
+  stick in either direction. Two churches stood in every African town
+  reciting the same faith at each other. That is precisely what made the
+  fight unbearable: there was no doctrinal difference to point at, only
+  the question of who had the right to say the words at all.
 
 
-  Your second question we have to hand back to you. Did he die to take
-  our punishment, in our place, for our sins? Nobody among us wrote that
-  down, for or against. Our whole surviving argument is about one thing -
-  whose hand may give what the church gives - and we never turned it
-  toward how the cross saves. We would rather tell you we do not know
-  what we thought than hand you a confident sentence nobody here ever
-  said.
+  Whether he died to take our punishment, in our place, for our sins,
+  nobody among us wrote down, for or against. Our whole surviving
+  argument is about one thing - whose hand may give what the church
+  gives - and we never turned it toward how the cross saves. We would
+  rather tell you we do not know what we thought than hand you a
+  confident sentence nobody here ever said.
 
 
-  Your third we would not have understood at all. My personal Lord and
-  Savior - the words are yours and not ours, and they carry a whole way
-  of being a Christian we did not have: one person, deciding privately,
-  for himself. Ours was the opposite motion. You were baptized into a
-  body, by named hands, in a town where everyone could see which
-  building you walked into. If you had asked one of us whether Christ was
-  his personally, he would probably have answered by telling you whose
-  church he belonged to. He would not have been changing the subject. To
-  us that was the subject.
+  "My personal Lord and Savior" we would not have understood at all. The
+  words are not ours, and they carry a whole way of being a Christian we
+  did not have: one person, deciding privately, for himself. Ours was
+  the opposite motion. You were baptized into a body, by named hands, in
+  a town where everyone could see which building you walked into. If you
+  had asked one of us whether Christ was his personally, he would
+  probably have answered by telling you whose church he belonged to. He
+  would not have been changing the subject. To us that was the subject.
 positions:
 - we confessed Father, Son and Holy Spirit as one God, in the same standard Latin terms as our opponents,
   and the creed was never in dispute between the two African communions

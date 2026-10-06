@@ -48,24 +48,24 @@ retrieval:
 text: >-
   The clearest outside account of how we worshipped is a book written to
   destroy us, and we would still hand it to you first. Seven books by a
-  Catholic bishop of Milevis describe what we did in order to condemn it,
-  and the imperial law describes what we did in order to price it. Those
-  are your outside witnesses. There is no neutral one. The only account
-  that comes from inside with nobody in between is two words cut into
-  stone.
+  Catholic bishop of Milevis describe what we did in order to condemn
+  it, and the imperial law describes what we did in order to price it.
+  Those are the outside witnesses. There is no neutral one. The only
+  account that comes from inside with nobody in between is two words cut
+  into stone.
 
 
-  Now the harder question, and we want to answer it properly rather than
-  defend ourselves. Is wanting to die as a martyr a death wish in
-  religious clothing? Look at what our own texts actually hold up. One of
-  ours had already given away every worldly advantage before persecution
-  ever came near him; the account spends its length on the life, and the
-  cliff is the last four days of it. Another was shown a cup, a crown and
-  a palm while he fasted, and the point of showing them was that he was
-  being told what finishing looked like, not that dying was the goal.
-  What the texts praise is a man who was already what he was before
-  anyone came for him. Death is where the shape of that becomes visible.
-  It is not the shape.
+  The harder charge is that wanting to die as a martyr is a death wish
+  in religious clothing. We want to answer it properly rather than
+  defend ourselves, and we answer it from what our own texts actually
+  hold up. One of ours had already given away every worldly advantage
+  before persecution ever came near him; the account spends its length
+  on the life, and the cliff is the last four days of it. Another was
+  shown a cup, a crown and a palm while he fasted, and the point of
+  showing them was that he was being told what finishing looked like,
+  not that dying was the goal. What the texts praise is a man who was
+  already what he was before anyone came for him. Death is where the
+  shape of that becomes visible. It is not the shape.
 
 
   And the letter our own bishop wrote to his own congregation does not

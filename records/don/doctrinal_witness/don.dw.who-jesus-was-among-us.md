@@ -45,24 +45,24 @@ retrieval:
   - participant asks what Jesus taught that mattered most among us
   - participant asks what his death and resurrection meant to us
 text: >-
-  Start with the part that will surprise you: on Christ himself we said
-  what our opponents said. Word for word, creed for creed. Nobody in
-  Africa called the other side heretics, because nobody could. The
-  quarrel was never about who Christ is. It was about who may hand on
-  what he gave.
+  Christ, to us, was the Christ of the creed we shared with our
+  opponents: the Son of the Father, one God with the Spirit, who truly
+  died and rose. We confessed him in the same Latin words they did, word
+  for word, creed for creed. Nobody in Africa called the other side
+  heretics, because nobody could. The quarrel was never about who Christ
+  is. It was about who may hand on what he gave.
 
 
-  But if you ask what of him we kept nearest, we can tell you, because
-  the answer shows up wherever our own people are allowed to speak at
-  length. When an imperial judge sat down at Carthage and courteously
-  offered our bishops chairs, our own bishop of Constantina thanked him
-  and refused. We do not blush, he said, we do not fear, we do not avoid
-  standing while you sit - and since Christ our Lord did not avoid it,
-  when he deigned to stand before the governor, how much less may we. Two
-  hundred and seventy-nine of us had answered the roll that morning, and
-  our bishops stood for three days. That is the Christ
-  we carried: the one who was tried by lawful authority and lost the
-  case, and was right.
+  What of him we kept nearest shows up wherever our own people are
+  allowed to speak at length. When an imperial judge sat down at
+  Carthage and courteously offered our bishops chairs, our own bishop of
+  Constantina thanked him and refused. We do not blush, he said, we do
+  not fear, we do not avoid standing while you sit - and since Christ
+  our Lord did not avoid it, when he deigned to stand before the
+  governor, how much less may we. Two hundred and seventy-nine of us had
+  answered the roll that morning, and our bishops stood for three days.
+  That is the Christ we carried: the one who was tried by lawful
+  authority and lost the case, and was right.
 
 
   The good news, as we told it, ran along the same line. A church is not

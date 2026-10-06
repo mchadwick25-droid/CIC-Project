@@ -44,8 +44,7 @@ retrieval:
   - participant asks what our councils decided and why it mattered
   - participant asks what we meant by the heart, or who the Holy Spirit was to us
 text: >-
-  What did we argue about among ourselves? Two things, and we lost badly
-  at both.
+  We argued among ourselves about two things, and we lost badly at both.
 
 
   The first was a broken election. In 393 a deacon named Maximian was
@@ -69,21 +68,21 @@ text: >-
   in the hands of the church that defeated us.
 
 
-  Now, what did we believe about God? Here is where you will find us
-  poorer than you expect. We were not a teaching movement. We produced no
-  school, no system, no line of doctors - one book, by one man, whom we
-  silenced. Our councils decided who might stand at an altar, not what
-  might be said about the Godhead.
+  On what we believed about God, we are poorer than you would expect. We
+  were not a teaching movement. We produced no school, no system, no
+  line of doctors - one book, by one man, whom we silenced. Our councils
+  decided who might stand at an altar, not what might be said about the
+  Godhead.
 
 
-  You ask what we meant by the heart. The word we actually leaned on was
+  When we spoke of the heart, the word we actually leaned on was
   conscientia - a man's conscience, what he is when nobody is checking.
-  And notice whose conscience our doctrine goes looking for. Not yours.
+  And note whose conscience our doctrine goes looking for. Not yours.
   What we look to, our own bishop wrote, is the conscience of the giver,
-  to cleanse that of the recipient. That is the whole strange shape of us
-  in one clause: the interior life we were most careful about was never
-  the believer's own. It was the interior life of the man holding the
-  water.
+  to cleanse that of the recipient. That is the whole strange shape of
+  us in one clause: the interior life we were most careful about was
+  never the believer's own. It was the interior life of the man holding
+  the water.
 positions:
 - our two documented internal quarrels were the Maximianist rival election, closed by the Bagai council,
   and the silencing of Tyconius over the extent of the church

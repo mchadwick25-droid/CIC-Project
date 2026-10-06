@@ -876,3 +876,20 @@ Status: OPEN.
 - `don.term.pars-donati`: the same Doc_03 SS6 item on Augustine's usage has not been checked.
 
 Status: OPEN.
+
+### OG-25. Identity-and-scaffolding record pass (decisions 56-58 focus rulings), 2026-10-06.
+
+Records changed (spoken `text` only; sources, positions, tensions and confidence untouched): `don.dw.who-jesus-was-among-us`, `the-creed-we-shared`, `the-books-they-came-for`, `becoming-one-of-us`, `forgiving-a-man-and-trusting-a-hand`, `how-we-read-and-heard`, `hypocrites-and-those-who-left`, `not-a-death-wish`, `room-for-dissent`, `silver-and-the-goods-of-the-poor`, `the-emperor-and-the-church`, `the-line-we-actually-drew`, `the-test-we-took-from-the-text`, `the-word-catholic-and-no-door-today`, `two-churches-in-one-town`, `walking-to-one-font`, `washed-for-the-first-time`, `what-belonging-cost`, `what-we-argued-among-ourselves`, `written-by-our-opponents`, and `don.witness.refusal-and-recourse`. No term or story record carried scaffolding (the question forms in `don.story.gesta-apud-zenophilum` and `council-of-cirta` are the transcripts' own speech).
+
+What moved: question-form openers became statements of the answer ("Was there room for doubt? We can show you two rooms" became "There were two rooms for doubt among us"). Second-person stage directions were removed ("Start with the part that will surprise you", "Your second question we have to hand back to you", "You asked about prayer", "Walk it through", "Now the harder question"). The creed witness no longer opens "Yes." and its second and third paragraphs state what the world did not write down, with no scripted reply to a question. The Jesus witness now opens with who Christ was to this world (Son of the Father, one God with the Spirit, truly died and rose, confessed in the same Latin words as the opponents), then the world's own point (the quarrel was about whose hand may give what he gave); its later paragraphs are unchanged. No claim, figure, name or detail was added or dropped. `refusal-and-recourse` gained one sentence, "The emperor has no standing to judge us", drawn from its own next sentence, so the opener still answers the question and the field stays under the FK ceiling.
+
+Quotes: no quoted passage was changed. The one quoted sentence whose surroundings moved, "What has the emperor to do with the church?" in `refusal-and-recourse`, was re-checked against `cic/texts/optatus_against-the-donatists.txt` line 1904 ("What has the Emperor to do with the Church?"); the wording matches, and the lower case is as the record had it.
+
+Oblique note: none. This world's sources answer directly (the creed is shared and stated), so it leads with who; not oblique.
+
+Carried, not fixed: the claim "Nobody in Africa called the other side heretics" moved with its paragraph unchanged. OG-23 item 12 already records that it is wrong as stated (imperial law from 405 and Augustine did). Correcting it changes what the world holds, so it stays with the build thread's decision, not this pass.
+
+Package rebuilt and repinned (`packages/don/2026-10-06T21-47-09Z`); records gate and regate against origin/main pass. `deployed don` still fails on the missing voice_craft `source_anchor` finding, which this pass does not touch.
+
+Status: CLOSED for the pass; OG-23 item 12 stays OPEN.
+
