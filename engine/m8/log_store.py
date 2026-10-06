@@ -104,6 +104,16 @@ class UsageLogStore:
             ).fetchall()
         return [_row_to_record(r) for r in rows]
 
+    def read_between(self, start_iso: str, end_iso: str) -> list[UsageRecord]:
+        """Records written from start (inclusive) to end (exclusive), oldest first."""
+        with self._connect() as conn:
+            rows = conn.execute(
+                "SELECT trace_id, session_id, call_kind, model_id, provider, usage_json, created_at, world_key FROM usage_log "
+                "WHERE created_at >= ? AND created_at < ? ORDER BY created_at ASC",
+                (start_iso, end_iso),
+            ).fetchall()
+        return [_row_to_record(r) for r in rows]
+
     def read_for_session(self, session_id: str) -> list[UsageRecord]:
         with self._connect() as conn:
             rows = conn.execute(
