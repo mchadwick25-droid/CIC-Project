@@ -42,6 +42,10 @@ AWS Billing, Budgets, Create budget, Customized, Cost budget.
 
 Action on Alert 3: Add action, role = the IAM user or role whose keys the engine uses on Render, policy = `CicBedrockInvokeDeny`, Run automatically.
 
+The action runs under a separate execution role that AWS Budgets assumes. Create it first: trusted by `budgets.amazonaws.com`, with `iam:AttachUserPolicy` and `iam:DetachUserPolicy` (or the `Role` equivalents) limited to the target identity. It must not be the target identity itself.
+
+While the deny is attached, the safety classifier is blocked along with the voice, so every message takes the check-in route and fails closed. Participants see the Facilitator's fixed text, never an unchecked reply.
+
 Billing data lags by hours, so this is a stop within a day, not a per-call cap. The door's weekly ceiling remains the fast control.
 
 ## 3. Lifting the stop

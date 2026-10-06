@@ -475,7 +475,8 @@ class WorldUsage:
 class RouteUsage:
     """What each model route's calls came to, priced as that route bills
     (a Bedrock regional profile carries its premium; the Anthropic API bills
-    at list). unpriced_calls reads as in WorldUsage."""
+    at list). The dollars are an estimate until the monthly reconciliation
+    confirms them against the invoice. unpriced_calls reads as in WorldUsage."""
     route: str
     calls: int
     priced_dollars: float

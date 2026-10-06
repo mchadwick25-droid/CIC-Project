@@ -26,13 +26,23 @@ def test_unknown_route_stops_the_start(monkeypatch):
 
 
 def test_anthropic_client_cannot_be_built_with_route_unset(monkeypatch):
+    monkeypatch.delenv("RENDER", raising=False)
     monkeypatch.delenv(route.ROUTE_ENV, raising=False)
     monkeypatch.setenv(anthropic_direct.KEY_ENV, "k")
     with pytest.raises(anthropic_direct.RouteNotEnabledError):
         anthropic_direct.make_client()
 
 
+def test_anthropic_client_is_never_built_on_render(monkeypatch):
+    monkeypatch.setenv("RENDER", "true")
+    monkeypatch.setenv(route.ROUTE_ENV, "anthropic")
+    monkeypatch.setenv(anthropic_direct.KEY_ENV, "k")
+    with pytest.raises(anthropic_direct.RouteNotEnabledError):
+        anthropic_direct.make_client()
+
+
 def test_anthropic_client_needs_a_key(monkeypatch):
+    monkeypatch.delenv("RENDER", raising=False)
     monkeypatch.setenv(route.ROUTE_ENV, "anthropic")
     monkeypatch.delenv(anthropic_direct.KEY_ENV, raising=False)
     with pytest.raises(anthropic_direct.RouteNotEnabledError):
@@ -40,6 +50,7 @@ def test_anthropic_client_needs_a_key(monkeypatch):
 
 
 def test_anthropic_resolution_requires_one_match(monkeypatch):
+    monkeypatch.delenv("RENDER", raising=False)
     monkeypatch.setenv(route.ROUTE_ENV, "anthropic")
     monkeypatch.setenv(anthropic_direct.KEY_ENV, "k")
     ids = ["claude-sonnet-4-5-20250929", "claude-haiku-4-5-20251001"]

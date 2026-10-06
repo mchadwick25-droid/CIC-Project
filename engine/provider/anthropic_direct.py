@@ -14,10 +14,13 @@ KEY_ENV = "CIC_ANTHROPIC_API_KEY"
 
 
 class RouteNotEnabledError(Exception):
-    """The Anthropic route was asked for without being chosen and keyed."""
+    """The Anthropic route was asked for without being chosen and keyed, or
+    from the Render deployment."""
 
 
 def make_client() -> Anthropic:
+    if os.environ.get("RENDER"):
+        raise RouteNotEnabledError("the Anthropic route is never built on Render, whatever the settings hold")
     if route.active_route() != route.ANTHROPIC:
         raise RouteNotEnabledError(f"the Anthropic client builds only when {route.ROUTE_ENV}={route.ANTHROPIC}")
     key = os.environ.get(KEY_ENV)
