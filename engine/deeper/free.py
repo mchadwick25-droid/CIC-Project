@@ -41,6 +41,13 @@ class FreeAllowance:
         with self._lock:
             return max(0, self.window_amount - self._meter.free_window_spent(key) - self._held.get(key, 0))
 
+    def left(self, visitor: str, share: float = 1.0) -> int:
+        """What the visitor may still draw under the share in force: the narrowed
+        window less what is spent and held. Never below zero."""
+        key = self._meter.free_key(visitor)
+        with self._lock:
+            return max(0, int(self.window_amount * share) - self._meter.free_window_spent(key) - self._held.get(key, 0))
+
     def reserve(self, visitor: str, amount: int, share: float = 1.0) -> FreeReservation | None:
         """Holds amount against the visitor's window, or None when it does not fit.
         share narrows the window: 0.5 lets a visitor draw half of it."""

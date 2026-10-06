@@ -1019,7 +1019,7 @@ def test_real_fleet_true_positives_still_match_on_main():
     # swapped for cappadocian's own matrix-cell-code example, a fleet-wide
     # leak (the bracketed build-taxonomy tag on every gravity/force `name`)
     # not yet remediated in any world.
-    assert _new_pattern_hits("records/alx/gravity/alx.gravity.logos-unity.md")
+    assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.capitals-gravity.md")
     assert _new_pattern_hits("records/pahc/world_core/pahc.core.house-church.md")
     assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.ascetic-ferment.md")
 
@@ -1474,8 +1474,12 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # change-history narration with no independent design reason once its
     # provenance was stripped, so it was deleted outright rather than
     # reworded - enforce.py now carries zero REWRITE hits. Re-pinned to a
-    # fresh REWRITE example elsewhere.
-    ("records/alx/gravity/alx.gravity.logos-unity.md", 49, "REWRITE"),
+    # fresh REWRITE example elsewhere. Re-pinned again 2026-10-05: the alx
+    # logos-unity description was rewritten in plain language on
+    # 2026-10-04 and no longer carries a hit (the intended outcome), so
+    # this entry moved to a cappadocian force record whose Doc_08 cell
+    # tag is still unremediated.
+    ("records/cappadocian/force/cappadocian.force.capitals-gravity.md", 25, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 272, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 162, "PROTECTED"),
