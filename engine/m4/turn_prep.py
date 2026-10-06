@@ -215,6 +215,12 @@ def _other_tradition_directive(
     return f"{text}\n{excerpts_block}" if excerpts_block else text
 
 
+CONCISION_DIRECTIVE = (
+    "Length: answer first. Use the fewest sentences that carry the answer, its reason and one quote. "
+    "Most replies run between 120 and 220 words. A question that earns more may take more."
+)
+
+
 def _build_turn_directive(
     directive: Directive | None,
     figures_already_named: list[str] | None = None,
@@ -278,6 +284,7 @@ def _build_turn_directive(
     if directive is not None:
         asks_text = "; ".join(a["text"] for a in directive.asks) if directive.asks else "(none extracted)"
         parts.append(f"Asks, in order: {asks_text}")
+        parts.append(CONCISION_DIRECTIVE)
         if directive.register_note:
             parts.append(f"Register note: {directive.register_note}")
         if directive.suspend_register_statement_1:

@@ -10,19 +10,28 @@ HISTORY = [
 ]
 
 
-def test_the_system_blocks_are_the_shape_segment_then_the_world_prompt_both_cached():
+def test_the_system_blocks_are_the_shape_segment_and_world_prompt_cached_then_the_directive_uncached():
     system, _ = build_voice_request(system_prompt="WORLD", message="hi", turn_directive="DIRECTIVE")
     assert system == [{"type": "text", "text": shape_text(), "cache_control": EPHEMERAL},
-                      {"type": "text", "text": "WORLD", "cache_control": EPHEMERAL}]
+                      {"type": "text", "text": "WORLD", "cache_control": EPHEMERAL},
+                      {"type": "text", "text": "DIRECTIVE"}]
 
 
-def test_no_directive_and_no_history_sends_the_bare_message():
-    _, messages = build_voice_request(system_prompt="WORLD", message="hi")
+def test_no_directive_and_no_history_sends_the_bare_message_and_two_system_blocks():
+    system, messages = build_voice_request(system_prompt="WORLD", message="hi")
     assert messages == [{"role": "user", "content": "hi"}]
+    assert len(system) == 2
 
 
-def test_the_directive_leads_the_final_user_message_in_a_framed_block():
+def test_the_directive_stays_out_of_the_user_message_by_default():
     _, messages = build_voice_request(system_prompt="WORLD", message="the question", turn_directive="Speak plainly.")
+    assert messages == [{"role": "user", "content": "the question"}]
+
+
+def test_under_the_flag_the_directive_leads_the_final_user_message_in_a_framed_block(monkeypatch):
+    monkeypatch.setenv("CIC_DIRECTIVE_IN_USER_MESSAGE", "1")
+    system, messages = build_voice_request(system_prompt="WORLD", message="the question", turn_directive="Speak plainly.")
+    assert [b["text"] for b in system] == [shape_text(), "WORLD"]
     assert messages == [{"role": "user", "content": [
         {"type": "text", "text": f"{DIRECTIVE_OPEN}\nSpeak plainly.\n{DIRECTIVE_CLOSE}"},
         {"type": "text", "text": "the question"},
@@ -34,8 +43,7 @@ def test_only_the_last_history_block_carries_the_history_breakpoint():
     assert [m["role"] for m in messages] == ["user", "assistant", "user", "assistant", "user"]
     assert messages[:3] == HISTORY[:3]
     assert messages[3]["content"] == [{"type": "text", "text": "He died and rose.", "cache_control": EPHEMERAL}]
-    final_blocks = messages[4]["content"]
-    assert all("cache_control" not in block for block in final_blocks)
+    assert messages[4]["content"] == "next"
 
 
 def test_the_history_prefix_is_byte_identical_across_turns_with_different_directives():

@@ -13,6 +13,7 @@ from types import SimpleNamespace
 from engine.m4 import facilitator_turns
 from engine.m4 import turn as turn_module
 from engine.m4.turn import run_gate, run_turn, run_voice_turn_for_world
+from engine.m4.turn_prep import CONCISION_DIRECTIVE
 from engine.m4.voice_request import DIRECTIVE_OPEN
 from engine.m4.world_loader import LoadedWorld
 from engine.shape import shape_text
@@ -283,8 +284,8 @@ def _participant_text(content) -> str:
     return content[-1]["text"] if isinstance(content, list) else content
 
 
-def _directive_text(content) -> str:
-    return content[0]["text"] if isinstance(content, list) else ""
+def _directive_text(system) -> str:
+    return "".join(block["text"] for block in system[2:])
 
 
 def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():
@@ -484,7 +485,7 @@ def test_already_bridged_figures_reach_the_voice_as_an_already_introduced_line()
     assert "Rhoda" not in user_message  # never introduced, so never listed
     # The per-turn directive (the channel measured to win - see
     # _build_turn_directive) carries the same state.
-    directive_text = _directive_text(messages[0]["content"])
+    directive_text = _directive_text(system)
     assert "Already introduced in this conversation: the Elder." in directive_text
     assert "Rhoda" not in directive_text
 
@@ -541,12 +542,11 @@ def test_already_told_ids_reaches_evidence_assembly_without_error():
     assert result.voice_event["degraded_by_net"] is False
 
 
-def test_the_per_turn_directive_rides_in_the_final_user_message_not_the_system_block():
-    # The system blocks are the shape segment and the world's compiled prompt,
-    # byte-identical to what was compiled, so the cached prefix holds across
-    # every turn.
-    # The directive differs every turn, so it leads the final user message,
-    # behind the cached history.
+def test_the_per_turn_directive_rides_in_the_system_block_behind_the_cached_prefix():
+    # The shape segment and the world's compiled prompt stay byte-identical
+    # and cached; the directive differs every turn, so it follows them
+    # uncached, and the user message carries only the evidence and the
+    # participant's words.
     world = _world()
     ask_text = "who is jesus"
     client = FakeBedrockClient(
@@ -557,13 +557,14 @@ def test_the_per_turn_directive_rides_in_the_final_user_message_not_the_system_b
     run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message=ask_text, pressed={}, anachronistic_term_ids=set())
 
     system, messages = client.messages.captured_stream_calls[0]
-    assert [b["text"] for b in system] == [shape_text(), world.prompt_text]
-    assert all(b["cache_control"] == {"type": "ephemeral"} for b in system)
-    directive_block, message_block = messages[-1]["content"]
-    assert directive_block["text"].startswith(DIRECTIVE_OPEN)
-    assert "This turn's private directive" in directive_block["text"]
-    assert "cache_control" not in directive_block
-    assert ask_text in message_block["text"]
+    assert [b["text"] for b in system[:2]] == [shape_text(), world.prompt_text]
+    assert all(b["cache_control"] == {"type": "ephemeral"} for b in system[:2])
+    assert len(system) == 3 and "cache_control" not in system[2]
+    assert "This turn's private directive" in system[2]["text"]
+    assert CONCISION_DIRECTIVE in system[2]["text"]
+    assert isinstance(messages[-1]["content"], str)
+    assert DIRECTIVE_OPEN not in messages[-1]["content"]
+    assert ask_text in messages[-1]["content"]
 
 
 def test_session_memory_rides_in_messages_and_leaves_the_cached_prefix_alone():
@@ -590,9 +591,9 @@ def test_session_memory_rides_in_messages_and_leaves_the_cached_prefix_alone():
     assert messages[1]["content"] == [
         {"type": "text", "text": "He was God's own Word, come to us in flesh.", "cache_control": {"type": "ephemeral"}}
     ]
-    assert "and what then" in messages[2]["content"][-1]["text"]  # this turn's own message, evidence block and all
-    assert [b["text"] for b in system] == [shape_text(), world.prompt_text]
-    assert all(b["cache_control"] == {"type": "ephemeral"} for b in system)
+    assert "and what then" in _participant_text(messages[2]["content"])  # this turn's own message, evidence block and all
+    assert [b["text"] for b in system[:2]] == [shape_text(), world.prompt_text]
+    assert all(b["cache_control"] == {"type": "ephemeral"} for b in system[:2])
 
 
 def test_a_turn_with_no_history_is_unchanged():
@@ -1064,7 +1065,7 @@ def test_correction_is_appended_to_the_turn_directive_the_model_actually_sees():
         participant_message="who was Jesus", directive=None, session_id="test-session",
         correction="\n## Correction\nCite everything, or say plainly your record is silent.",
     )
-    directive_text = _directive_text(client.messages.captured_stream_calls[0][1][-1]["content"])
+    directive_text = _directive_text(client.messages.captured_stream_calls[0][0])
     assert "Cite everything, or say plainly your record is silent." in directive_text
 
 
@@ -1379,8 +1380,8 @@ def test_sentence_retry_carries_the_r27_correction_forward():
         r27_enforce=True, known_tradition_names=[], sentence_enforce=True,
     )
     assert len(client.messages.captured_stream_calls) == 3
-    _system, sentence_retry_messages = client.messages.captured_stream_calls[2]
-    sentence_retry_text = _directive_text(sentence_retry_messages[-1]["content"])
+    sentence_retry_system, _messages = client.messages.captured_stream_calls[2]
+    sentence_retry_text = _directive_text(sentence_retry_system)
     assert "uncited claims" in sentence_retry_text  # _append_r27_correction's own heading, carried forward
     assert _UNSUPPORTED_SENTENCE in sentence_retry_text  # _append_sentence_fact_check_correction's own named sentence
 
