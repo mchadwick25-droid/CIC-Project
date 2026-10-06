@@ -645,3 +645,29 @@ Errors in the voice's replies, each confirmed against the records by an independ
 (2) Boundary battery, invent: Emmelia "arranged matches for her daughter"; `cappadocian.quote.macrina-refuses-remarriage` has Macrina's father arranging the marriage.
 
 Status: OPEN.
+
+### OG-36. Identity-and-scaffolding record pass (decisions 56-58 focus rulings), 2026-10-06.
+
+Records changed (spoken `text` only; sources, positions, tensions and confidence untouched): `cappadocian.dw.a-stranger-weather`, `authority-and-spread`, `baptism-and-new-birth`, `catholic-and-its-rivals`, `confession-not-a-vote`, `customs-from-the-apostles`, `doubt-and-unfinished-growth`, `how-it-reached-us`, `macrina-and-its-cost`, `marriage-ending`, `not-later-formulas`, `ordinary-day`, `power-and-its-discipline`, `psalms-teach-the-singer`, `stillness-and-the-summons`, `unwritten-carries-too`, `want-to-believe`, `was-jesus-god`, `wealth-answerable-to-the-poor`, `where-record-thinnest`, `who-was-jesus`. No term or story record carried scaffolding (the money-changer questions in `story.money-changers-unbegotten` are Gregory's reported speech).
+
+What moved: question-form openers and restated questions became statements ("Did the empire's arrival corrupt us?", "Was it dangerous...?", "Would you find a church today that is ours?", "how did it reach us?", "Where is our own record thinnest?"). Second-person stage directions were removed ("Picture one of our own brotherhoods", "Now the cost, told exactly", "We know that struggle by its opposite", "we would tell you that", "What we would offer you", "Our own answer to your question", "you may be asking about", "We will not soften this"). Leading "Yes"/"No" replies were turned into the statement they answered. Three records were reordered so the first sentence answers the first retrieval question: `baptism-and-new-birth` (new birth now first), `catholic-and-its-rivals` (the catholic confession now first, the question about churches today dropped), `customs-from-the-apostles` (the "evidence, not documentary chain" answer first). `psalms-teach-the-singer` and `want-to-believe` turned advice to the participant ("we would not tell you to try harder") into a statement of what worked or came first. Long sentences in the touched witnesses were split so each edited field clears FK 10 / FRE 60 (the regate checks edited fields absolutely); no wording was added for that.
+
+Identity witness `who-was-jesus` now opens: "Jesus was the Son, one being with the Father, and the ground everything else in our life stood on." "The Son" and "one being with the Father" are in the same record's text and in `cappadocian.term.homoousios` and the font formula; the phrase "one being" moved up from a later sentence. `was-jesus-god` now opens "Jesus was God: we confessed the Son as fully what the Father is, and for us the question was never open." That states the answer the old opener only implied ("strange only in being asked as open"); its sources are the same ousia/homoousios material.
+
+Wording changes to flag for the reviewer: `marriage-ending` first sentence now says a person whose first marriage had genuinely ended "could belong among us and could marry again" (old: "Yes", then the permission); `unwritten-carries-too` now says "Scripture was not our only authority" (old: "No"); `doubt-and-unfinished-growth` says "A person baptized years ago may still feel like the same person" in place of "If you were baptized years ago and feel like the same person still"; `wealth-answerable-to-the-poor` drops "Yes,".
+
+Quotes: none touched. The only quotation marks in edited text are the participant's own words ("voted", "Personal Lord and Savior"), not source quotes.
+
+Oblique note: none. This world's sources answer directly; it leads with who. `ordinary-day` first states that the day is a reconstruction, because its sources give no single day; that is a disclosure of what the record is, not a shape of the world's sources.
+
+Known-wrong claims carried unchanged: none found in this world's gap entries against these records.
+
+Commentary removed from the markdown body of the 21 edited witness records ("Closes F3-E...", matrix-cell codes, "directly checked this session", comparisons to `hal.dw.was-jesus-god`, build-practice narration). Kept: quote cross-reference lines, source and chapter notes, and the notes that carry caveats (thinness, single-author, unverified homilies). Doubtful lines for the reviewer: the `how-it-reached-us` body paragraph on the Epistle 204 tension and the `marriage-ending` note on the vendored Clarke text, both kept as genuine source notes.
+
+Demonstration records left untouched: `cappadocian.demo.*` (nine records) were not read for scaffolding.
+
+Gates: `records cappadocian` PASS; `regate cappadocian --base origin/main` PASS; `determinism-check` PASS; `check_live_commentary --base origin/main --enforce` exit 0; `deployed cappadocian` PASS (the missing voice_craft `source_anchor` is a note, not touched here); embedded-quotation baseline test passes with the existing cappadocian number unchanged. `site_cli staleness-check` showed cappadocian stale ("narrative") and the website JSON was recompiled at the records commit; no world is stale after. `engine.m9.cli check` fails on one finding: the `m1:readability/cappadocian` waiver says 302 and the run finds 274, because the edited fields now clear the readability gate. The waiver in `engine/m9/enforce.py` needs tightening to 274; the edit was blocked in this session and is left for the project lead or the orchestrator.
+
+Package: `packages/cappadocian/2026-10-06T22-28-44Z`, pinned in `records/worlds/cappadocian.yaml`.
+
+Status: OPEN.

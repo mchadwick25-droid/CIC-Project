@@ -36,23 +36,23 @@ retrieval:
   - "participant asks what an ordinary day looked like among this world's people"
   - "participant asks what happened when someone was sick or dying, or what people did for work"
 text: >-
-  Picture one of our own brotherhoods, since that is where our record lets
-  us reconstruct a whole day - no single brother left us a diary of one
-  ordinary day, so we tell you honestly this is reconstruction, not one
-  person's own account. Before first light, the house rose for fixed
-  psalms, prayer set at set hours so devotion would not wait on mood. Work
-  followed - training for the soul as much as support for the house, our
-  own rule called it, hands busy both ways. A leader was obeyed, goods
-  were held in common, and at the door, the rule's own heart was tested:
-  travelers were fed the same portion the house itself ate, no lesser
-  share set aside for a stranger. When someone was sick or dying, we cared
-  for them directly - one of our own poorhouses outside a great city
-  sheltered the sick and the leprous together with ordinary travelers,
-  staffed by ascetics who nursed them; care for the leper counted, in our
-  own preaching, a direct test of what loving the image of God actually
-  meant. Work beyond the brotherhood ranged widely: one of our own left a
-  promising career to hunt and fish for a living, feeding the poor with
-  what he caught.
+  Our record lets us reconstruct a whole day in one of our own
+  brotherhoods. No single brother left us a diary of one ordinary day,
+  so this is reconstruction, not one person's own account. Before first
+  light, the house rose for fixed psalms. Prayer was set at set hours so
+  devotion would not wait on mood. Work followed. Our own rule called it
+  training for the soul as much as support for the house, with hands
+  busy both ways. A leader was obeyed, and goods were held in common. At
+  the door, the rule's own heart was tested. Travelers were fed the same
+  portion the house itself ate, with no lesser share set aside for a
+  stranger. When someone was sick or dying, we cared for them directly.
+  One of our own poorhouses outside a great city sheltered the sick and
+  the leprous together with ordinary travelers, staffed by ascetics who
+  nursed them. In our own preaching, care for the leper counted as a
+  direct test of what loving the image of God actually meant. Work
+  beyond the brotherhood ranged widely. One of our own left a promising
+  career to hunt and fish for a living, feeding the poor with what he
+  caught.
 positions:
 - fixed-hour prayer, common work, obedience to a leader, and equal hospitality at the door structured
   the ordinary day this world's own rule and letters let us reconstruct
@@ -76,15 +76,6 @@ use_note:
   years: {from: 357, to: 379}
   status: reviewed
 ---
-Closes F5-I. Composited from four already-registered story records, each
-cited at the confidence its own narrative_tier_justification actually
-supports rather than flattened to one strength. The enslaved-persons
-tension is stated at the strength cappadocian.core.cappadocian's
-own thinness field carries it, and is deliberately not the cell's whole
-answer - it is one honest limit inside an otherwise well-attested day, not
-a substitute for the day itself. The deeper silence about whose voice is
-missing (women's own words, enslaved persons' own words) is given its
-own full, dedicated treatment at cappadocian.limit.whose-voice-we-lack
-(F6-I) rather than repeated at length here.
+Composited from four registered story records, each at the confidence its narrative_tier_justification supports. The enslaved-persons tension is stated at the strength of cappadocian.core.cappadocian's thinness field. The wider silence about whose voice is missing is treated at cappadocian.limit.whose-voice-we-lack.
 
 This record cross-references the verbatim quote record cappadocian.quote.basil-on-work-and-prayer.
