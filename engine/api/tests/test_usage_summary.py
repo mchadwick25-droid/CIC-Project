@@ -103,7 +103,10 @@ def test_priced_call_kinds_get_a_dollar_figure_unpriced_ones_dont(store, usage_s
     fix = summary.by_world[0]
     assert fix.calls == 2
     assert fix.unpriced_calls == 1
-    assert fix.priced_dollars == pytest.approx(3.00)  # 1M input tokens @ $3/M, Sonnet-class
+    assert fix.priced_dollars == pytest.approx(3.30)  # 1M input tokens @ $3/M, Sonnet-class, x1.10 Bedrock regional profile
+    bedrock = {r.route: r for r in summary.by_route}["bedrock"]
+    assert (bedrock.calls, bedrock.unpriced_calls) == (2, 1)
+    assert bedrock.priced_dollars == pytest.approx(3.30)
     assert summary.price_table_source is not None
 
 

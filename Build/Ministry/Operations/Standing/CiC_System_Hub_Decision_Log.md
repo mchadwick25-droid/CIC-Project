@@ -6330,6 +6330,15 @@ The billing audit of 2026-10-06 (artifact "CiC Billing Audit") found that the en
 
 55. Amazon Bedrock is the engine's primary model route and stays so after any credit runs out. The Anthropic API is a second, manual option for testing, on the credit the project lead holds there; its key lives only in the live-tests environment, never on Render. No charge reaches Bedrock other than the engine's own conversations and the live tests the project lead approves (decision 54). Two stops are built: the Go Deeper door, turned on at the engine per the turn-on runbook's step 2, as the weekly ceiling on the voice's priced spend; and an AWS Budget action that denies Bedrock invocation to the engine's user at a threshold, created by the project lead from settings the build thread supplies. Where a global inference profile exists for a model in use, the engine selects it; the voice's move to Sonnet 5.5 on a global profile is its own capped live test. The usage log records and prices each call by the route that served it, and the monthly reconciliation reads the Marketplace lines and the Anthropic console against it. The project lead checks the $140 credit's page and applies for a covering credit if one exists; nothing waits on that.
 
+## 2026-10-06 — Model route built (decision 55): what shipped, and what it leaves for Mark
+
+PR #807 built the second client behind the provider seam, the usage log and pricing by route, the profile listing, the Budget runbook and the monthly reconciliation. No model call was made (decision 54); Opus cleared it with no blocking finding.
+
+- The route is `CIC_MODEL_ROUTE`, default Bedrock. The Anthropic client builds only when the route is set and its key exists, and never when `RENDER` is set, so a dashboard setting cannot reach it from the deployed engine.
+- The 1.10 regional-profile premium sits in the usage summary only. The door still prices at list and applies its own 1.35 invoice factor; the first monthly reconciliation measures that factor against the invoice.
+- Global profiles are not selected automatically. A listed profile can still be denied, so moving to one is a setting change followed by the capped live test.
+- Left for Mark: creating the deny policy, the Budget and its execution role from `CiC_Model_Spend_Budget_Runbook.md`; confirming the Budget's scope wording against the invoice; approving the Sonnet 5.5 live test by name.
+
 ## 2026-10-06 - Conversations are the only model spend (decision 56, a named change order on decision 54)
 
 The project lead, reading the dated admission reports (seven fleet runs on 28 and 29 August, two full fleet runs and sixteen single-world runs on 3 October, four more on 4 October), ruled that he cannot afford the fleet battery on every small adjustment, and that removing the keys from the shared cloud environment, decision 54's physical control, would also block the test conversations he does want. He stated the rule in one line: the only thing that should charge is running conversations, to test or as a participant. The control moves into the engine.
