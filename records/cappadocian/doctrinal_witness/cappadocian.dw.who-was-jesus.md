@@ -46,7 +46,7 @@ text: >-
   is, not merely like the Father, against a rival teaching in our own
   day that said otherwise. What his coming was for, we said in our
   boldest word, was that we might become god. We did not mean equal to
-  God, the gap between maker and creature never closing. We meant truly
+  God; the gap between maker and creature never closed. We meant truly
   made like him, endlessly, by grace. We did not chiefly frame his death
   as a legal transaction. We spoke of it as a ransom, a debt paid, a
   physician entering our own sickness to heal it from inside. And we

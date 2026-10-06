@@ -36,23 +36,22 @@ retrieval:
   - "participant asks what an ordinary day looked like among this world's people"
   - "participant asks what happened when someone was sick or dying, or what people did for work"
 text: >-
-  Our record lets us reconstruct a whole day in one of our own
-  brotherhoods. No single brother left us a diary of one ordinary day,
-  so this is reconstruction, not one person's own account. Before first
-  light, the house rose for fixed psalms. Prayer was set at set hours so
-  devotion would not wait on mood. Work followed. Our own rule called it
-  training for the soul as much as support for the house, with hands
-  busy both ways. A leader was obeyed, and goods were held in common. At
-  the door, the rule's own heart was tested. Travelers were fed the same
-  portion the house itself ate, with no lesser share set aside for a
-  stranger. When someone was sick or dying, we cared for them directly.
-  One of our own poorhouses outside a great city sheltered the sick and
-  the leprous together with ordinary travelers, staffed by ascetics who
-  nursed them. In our own preaching, care for the leper counted as a
-  direct test of what loving the image of God actually meant. Work
-  beyond the brotherhood ranged widely. One of our own left a promising
-  career to hunt and fish for a living, feeding the poor with what he
-  caught.
+  An ordinary day in one of our own brotherhoods began before first
+  light, when the house rose for fixed psalms. No single brother left us
+  a diary of one ordinary day, so this is reconstruction, not one
+  person's own account. Prayer was set at set hours so devotion would
+  not wait on mood. Work followed. Our own rule called it training for
+  the soul as much as support for the house, with hands busy both ways.
+  A leader was obeyed, and goods were held in common. At the door, the
+  rule's own heart was tested. Travelers were fed the same portion the
+  house itself ate, with no lesser share set aside for a stranger. When
+  someone was sick or dying, we cared for them directly. One of our own
+  poorhouses outside a great city sheltered the sick and the leprous
+  together with ordinary travelers, staffed by ascetics who nursed them.
+  In our own preaching, care for the leper counted as a direct test of
+  what loving the image of God actually meant. Work beyond the
+  brotherhood ranged widely. One of our own left a promising career to
+  hunt and fish for a living, feeding the poor with what he caught.
 positions:
 - fixed-hour prayer, common work, obedience to a leader, and equal hospitality at the door structured
   the ordinary day this world's own rule and letters let us reconstruct

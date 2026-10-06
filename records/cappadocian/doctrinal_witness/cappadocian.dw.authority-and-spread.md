@@ -49,11 +49,12 @@ text: >-
   own election. The story we told ourselves about how the faith first
   reached our region credited one missionary, roughly a century back. He
   was sent to a province. It held, so the story runs, only seventeen
-  believers. By the time he died, it had only seventeen who still held
-  the old gods. Day to day it was mostly not dangerous to be one of us,
-  by our own span. The executions of our grandparents' era had passed.
-  But exile, deposition, and a hostile court's pressure on our own
-  leaders were real and recurring, right through most of our lifetime.
+  believers. By the time he died, so the story runs, only seventeen
+  still held the old gods. Day to day it was mostly not dangerous to be
+  one of us, by our own span. The executions of our grandparents' era
+  had passed. But exile, deposition, and a hostile court's pressure on
+  our own leaders were real and recurring, right through most of our
+  lifetime.
 positions:
 - authority ran through named sees with a two-level structure (metropolitan bishop, village
   chorepiscopos), disciplined directly in surviving letters

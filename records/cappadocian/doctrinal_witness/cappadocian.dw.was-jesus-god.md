@@ -60,11 +60,11 @@ text: >-
   is not quite how we put it. We spoke of a ransom paid, a debt settled,
   the physician entering our own sickness to heal it from inside. That
   language is near the later penal formula without being identical to
-  it, and we will not pretend otherwise. "Personal Lord and Savior" was
-  not our own phrase. But our own writers described a purified
-  conscience speaking to him as a friend speaks, and reverence - one
-  word covering both right confession and right living - as the whole
-  shape our lives took toward him.
+  it, and we will not pretend otherwise. As for a personal Lord and
+  Savior, that was not our own phrase. But our own writers described a
+  purified conscience speaking to him as a friend speaks, and reverence
+  - one word covering both right confession and right living - as the
+  whole shape our lives took toward him.
 positions:
 - one ousia, three hypostaseis - not merely like the Father, but fully what the Father is
 - his death was framed as ransom, debt, and healing, near the later substitutionary language without

@@ -45,7 +45,7 @@ text: >-
   at its head. Two of her own brothers became some of our greatest
   bishops. At the end, one of them found her dying on bare boards, and
   their last conversation became, in his hands, a whole book on the soul
-  and the resurrection. The cost, told exactly: no see, no pulpit, was
+  and the resurrection. Her authority had a cost. No see, no pulpit, was
   ever hers; her authority ran through household and community, not
   office. And every word attributed to her reaches you through that same
   brother's pen. He was there, and he grieved, and he wrote her life,

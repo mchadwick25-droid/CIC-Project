@@ -36,6 +36,12 @@ retrieval:
   - "participant asks whether this world's church protected people who caused harm"
   - "participant asks this world to defend using power against Christians who disagreed"
 text: >-
+  On wrongdoing inside our own communities, we built real, working
+  machinery, not a cover-up. Our own canonical letters graded penance by
+  the offense, set terms of exclusion, and set the path back into
+  communion. We cannot show you our own record handling a specific kind
+  of institutional cover-up. What we can show you is a real, if
+  incomplete, disciplinary practice, honestly disclosed as incomplete.
   The empire that had pressed a different creed on us finally backed our
   own instead. The law it wrote named our own bishops as the touchstones
   for who counted as in communion with the wider church. That meant
@@ -46,12 +52,7 @@ text: >-
   us for most of our own lifetime. What our own leaders actually did
   with that power in the years right after, our own record does not
   document well. We name that gap rather than fill it with confidence we
-  do not have. On wrongdoing inside our own communities, we built real,
-  working machinery, not a cover-up. Our own canonical letters graded
-  penance by the offense, set terms of exclusion, and set the path back
-  into communion. We cannot show you our own record handling a specific
-  kind of institutional cover-up. What we can show you is a real, if
-  incomplete, disciplinary practice, honestly disclosed as incomplete.
+  do not have.
 positions:
 - once establishment arrived under a friendly emperor, it used state power to enforce communion on this
   world's own terms, including against other Christians, and we do not deny that

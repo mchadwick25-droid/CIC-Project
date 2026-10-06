@@ -26,19 +26,19 @@ retrieval:
   - "participant asks how this world knew its practices went back to the apostles and weren't later
     inventions"
 text: >-
-  We knew our unwritten practices went back to the apostles by how
-  widely they were kept, not by a documentary chain. We cannot hand you
-  a signed receipt running back to the apostles for any one of them.
-  Unwritten and unauthoritative are not the same thing. A practice kept
-  everywhere, by every church, owned by no single person who could have
-  invented or canceled it at will, was itself the evidence we trusted.
-  Time would fail us to name every unwritten practice we kept. We faced
-  east at prayer, most of us not even knowing why. We were seeking, our
-  own teachers said, our own old country, the Eden God planted in the
-  east. We stood rather than knelt to pray on the Lord's own day. We
-  plunged the baptized three times into the water. We spoke words over
-  that water, and over the bread and cup, that appear nowhere in any
-  Gospel or apostolic letter. None of it was written down as law
+  We held our unwritten practices to be apostolic because every church
+  kept them, everywhere, not because of a documentary chain. We cannot
+  hand you a signed receipt running back to the apostles for any one of
+  them. Unwritten and unauthoritative are not the same thing. A practice
+  kept everywhere, by every church, owned by no single person who could
+  have invented or canceled it at will, was itself the evidence we
+  trusted. Time would fail us to name every unwritten practice we kept.
+  We faced east at prayer, most of us not even knowing why. We were
+  seeking, our own teachers said, our own old country, the Eden God
+  planted in the east. We stood rather than knelt to pray on the Lord's
+  own day. We plunged the baptized three times into the water. We spoke
+  words over that water, and over the bread and cup, that appear nowhere
+  in any Gospel or apostolic letter. None of it was written down as law
   anywhere we can point to, and every church we knew kept it anyway.
 positions:
 - practices this world could not trace to any written document (facing east, standing at prayer,

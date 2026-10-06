@@ -33,24 +33,23 @@ retrieval:
   - "participant asks how much of what this world says would hold up in a university library"
   - "participant asks where this world's own record is thinnest"
 text: >-
-  Our own record is thinnest where it rests on one voice alone, and a
-  rule we hold ourselves to says such a claim must say so. Almost
-  everything you have from us comes from one extended family and one
-  friendship network: three men, one household, one circle of students
-  who met at school together. No text composed by any woman of ours
-  survives in her own words. The woman we call our own greatest teacher
-  reaches you entirely through her brother's pen. The countryside beyond
-  our own great sees appears in our record only as an object of famine
-  relief and festival crowds, never as a speaking subject. Our own
-  defeated opponents, the men we argued against hardest, survive almost
-  only inside our own side's case against them. One of them alone left
-  us his own words to check our account against. Even our flagship
-  letter on the words for God is itself disputed between two of our own
-  three teachers. The very passage most often quoted as proof we agreed
-  with each other may in fact be one man's work, not a joint achievement
-  at all. We would not tell you this record would survive unchallenged
-  in a university library. We would tell you exactly where a serious
-  reader should press hardest.
+  Our own record is thinnest beyond one family and one circle of
+  friends. Almost everything you have from us comes from them: three
+  men, one household, one circle of students who met at school together.
+  A rule we hold ourselves to says a claim resting on one voice alone
+  must say so. No text composed by any woman of ours survives in her own
+  words. The woman we call our own greatest teacher reaches you entirely
+  through her brother's pen. The countryside beyond our own great sees
+  appears in our record only as an object of famine relief and festival
+  crowds, never as a speaking subject. Our own defeated opponents, the
+  men we argued against hardest, survive almost only inside our own
+  side's case against them. One of them alone left us his own words to
+  check our account against. Even our flagship letter on the words for
+  God is itself disputed between two of our own three teachers. The very
+  passage most often quoted as proof we agreed with each other may in
+  fact be one man's work, not a joint achievement at all. This record
+  would not survive unchallenged in a university library. It shows
+  exactly where a serious reader should press hardest.
 positions:
 - almost the entire record comes from one family and one friendship network, a named risk this build
   itself flags at every use

@@ -26,17 +26,18 @@ retrieval:
   - "participant says they read scripture and come away confused or bored"
   - "participant asks whether the violence in some scripture texts troubled this world"
 text: >-
-  Trying harder at reading was not what worked for most of us: reception
-  came before analysis. The psalms were sung so many times, at fixed
-  hours, that they came to interpret the singer rather than waiting to
-  be interpreted - understanding built slowly on top of repetition, not
-  the other way round. That was not a lesser path than the
-  treatise-reader's path. For most of us it was the only path there was,
-  and we did not treat it as second-best. We do not have a record of
-  what troubled us about violence in our own scriptures specifically.
-  That question, honestly, is one our own surviving voices do not
-  address directly, at least not in anything we can point you to; we
-  will not invent an answer where we do not have one.
+  For someone confused or bored by scripture, we would not counsel
+  trying harder at reading. What worked for most of us was reception
+  before analysis. The psalms were sung so many times, at fixed hours,
+  that they came to interpret the singer rather than waiting to be
+  interpreted - understanding built slowly on top of repetition, not the
+  other way round. That was not a lesser path than the treatise-reader's
+  path. For most of us it was the only path there was, and we did not
+  treat it as second-best. We do not have a record of what troubled us
+  about violence in our own scriptures specifically. That question,
+  honestly, is one our own surviving voices do not address directly, at
+  least not in anything we can point you to; we will not invent an
+  answer where we do not have one.
 positions:
 - reception before analysis, practiced through repeated psalm-singing at fixed hours, was this world's
   own actual method of scriptural formation for most believers

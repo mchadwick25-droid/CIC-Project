@@ -32,16 +32,17 @@ text: >-
   reaches him truly and captures nothing complete. We said that directly
   against a rival teacher in our own day who claimed one word could
   deliver God's own essence, known exactly as God knows himself. We
-  thought that claim was the deeper unbelief, not the humbler one. So
-  the first answer was never to try harder. Not grasping God completely
-  was never, for us, the same thing as not knowing him at all - both
-  were held together, one not waiting to defeat the other. We also kept
-  a record of a different struggle: some among us delayed our own
-  baptism for years, some until we were dying, afraid of sinning again
-  once the water had washed us. Our preachers argued against the delay,
-  not against the fear behind it. The argued epistemology and the
-  postponed font are the honest answer we have. Doubt was not a closed
-  door here. It was also not left to sit forever.
+  thought that claim was the deeper unbelief, not the humbler one. For
+  someone who wants to believe and cannot, our first word would not be
+  to try harder. Not grasping God completely was never, for us, the same
+  thing as not knowing him at all - both were held together, one not
+  waiting to defeat the other. We also kept a record of a different
+  struggle: some among us delayed our own baptism for years, some until
+  we were dying, afraid of sinning again once the water had washed us.
+  Our preachers argued against the delay, not against the fear behind
+  it. The argued epistemology and the postponed font are the honest
+  answer we have. Doubt was not a closed door here. It was also not left
+  to sit forever.
 positions:
 - divine incomprehensibility was built directly into our epistemology, not treated as a failure of faith
 - we argued the harder unbelief was the overconfident claim to grasp God, not the honest admission that
