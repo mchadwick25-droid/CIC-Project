@@ -17,7 +17,8 @@ def _store(tmp_path, when):
 
 
 def test_month_bounds_roll_over_the_year():
-    assert month_bounds("2026-12")[1].startswith("2027-01-01")
+    start, end = month_bounds("2026-12")
+    assert (start[:7], end[:7]) == ("2026-12", "2027-01")
 
 
 def test_invoice_matching_the_route_price_is_within_tolerance(tmp_path):

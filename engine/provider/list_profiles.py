@@ -2,7 +2,7 @@
 global counterpart exists for each configured model pattern. One control-plane
 call, no model spend; run it from the live-tests environment.
 
-A listed profile is not proof of invoke access (the 2026-09-24 report found
+A listed profile is not proof of invoke access (an earlier availability report found
 listed profiles that were denied), so selecting a global profile is a
 settings change (CIC_API_VOICE_MODEL_PATTERN / CIC_API_SAFETY_MODEL_PATTERN
 set to the global id) followed by the capped live test, never an automatic
