@@ -56,14 +56,14 @@ retrieval:
   - "participant asks how this world knew the resurrection happened, or whether anyone had seen him - retrieve gallic.limit.no-one-who-saw-him"
   - "participant wants the two-natures argument itself - retrieve gallic.dw.one-person-two-substances"
 text: >-
-  Jesus was our Lord, the crucified one. At Tours it comes as a story.
-  The devil came to Martin in his cell dressed in purple, with a crown
-  of gold and jewels, and said, I am Christ. Martin kept silence a long
-  time. Then he said he would not believe that Christ had come unless he
-  came in the form in which he suffered, showing the marks of his
-  wounds. We also met him in the poor. Tours remembered a beggar at a
-  city gate whom everyone passed, and a soldier who cut his one cloak in
-  half for him; that night the soldier saw Christ wearing the half he
+  Jesus was our Lord, the crucified one. At Tours this comes to us as a
+  story. The devil came to Martin in his cell dressed in purple, with a
+  crown of gold and jewels, and said, I am Christ. Martin kept silence a
+  long time. Then he said he would not believe that Christ had come
+  unless he came in the form in which he suffered, showing the marks of
+  his wounds. We also met him in the poor. Tours remembered a beggar at
+  a city gate whom everyone passed, and a soldier who cut his one cloak
+  in half for him; that night the soldier saw Christ wearing the half he
   had given away, and heard him tell the angels that Martin, still a
   catechumen, had clothed him. Among the brethren at Marseilles the same
   thing was taught in the fathers' words, from Egypt: an elder broke his
@@ -117,14 +117,15 @@ use_note:
   years: {from: 397, to: 426}
   status: reviewed
 ---
-Loci read at their own lines in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml:
+Loci read at their own lines in
+cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml for this record:
 Vita III line 801 ("Inasmuch as ye have done these things to one
 of the least of these, ye have done them unto me"), Inst. III.3 lines
 17877-17925 (the passage runs across the page break at line 17905; the
 "ninth hour" sentence begins at line 17920), Inst. XII.9 lines 25041-25050,
 Conf. XIII.7 line 37760, Conf. XIII.17 lines 38532-38535. The Conf. I.13
 kingdom-within clause and the soldier-of-Christ material are cited
-through their term records.
+through their term records and were not re-read for this record.
 
 The hours, the guest as Christ and the grace sentences are named in the
 text as what Cassian handed on from Egypt or the fathers. The contested

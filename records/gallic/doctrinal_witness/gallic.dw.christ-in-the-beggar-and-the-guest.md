@@ -55,28 +55,29 @@ retrieval:
   prefer_instead:
   - "participant asks what this world would have made of them at its own door - retrieve gallic.demo.someone-like-me"
 text: >-
-  Yes. At a city gate one winter a beggar with no clothes asked everyone
-  who passed, and everyone passed. A soldier with nothing left but his
-  cloak saw that this man, whom no one pitied, was left to him. He cut
-  the cloak in two. That night he saw Christ wearing the half he had
-  given away. The Lord chose the beggar's half of a soldier's cloak to
-  show himself in. Among the brethren at Marseilles the fathers of Egypt
-  taught the same thing in a different form. An elder broke his fast for
-  two strangers at his door, because, he said, receiving Christ in you I
-  ought to refresh him. He did not ask them what they were. And what we
-  believed about God's own approach is this: he calls us while we are
-  still ignorant and unwilling, and draws us toward salvation. He does
-  not will only some to be saved instead of all, and those who perish,
-  perish against his will. We have one story of coming to believe, and
-  it is one man's. Martin, at ten, against his parents' wish, went to
-  the church and begged to be made a catechumen. He stayed one for
-  years, into the army, until the night of the cloak; then he went and
-  was baptized. Cassian never told how he came to believe. Vincent tells
-  only that he fled the tempests of the world into the harbour of the
-  island. Only one man's private word about Christ survives. Martin,
-  alone in his cell, told a Christ in purple that he would believe only
-  in one who showed the wounds. The rest of us answer as houses answer -
-  in what we did at the gate, and at the hours.
+  Yes, he would have. At a city gate one winter a beggar with no clothes
+  asked everyone who passed, and everyone passed. A soldier with nothing
+  left but his cloak saw that this man, whom no one pitied, was left to
+  him. He cut the cloak in two. That night he saw Christ wearing the
+  half he had given away. The Lord chose the beggar's half of a
+  soldier's cloak to show himself in. Among the brethren at Marseilles
+  the fathers of Egypt taught the same thing in a different form. An
+  elder broke his fast for two strangers at his door, because, he said,
+  receiving Christ in you I ought to refresh him. He did not ask them
+  what they were. And what we believed about God's own approach is this:
+  he calls us while we are still ignorant and unwilling, and draws us
+  toward salvation. He does not will only some to be saved instead of
+  all, and those who perish, perish against his will. We have one story
+  of coming to believe, and it is one man's. Martin, at ten, against his
+  parents' wish, went to the church and begged to be made a catechumen.
+  He stayed one for years, into the army, until the night of the cloak;
+  then he went and was baptized. Cassian never told how he came to
+  believe. Vincent tells only that he fled the tempests of the world
+  into the harbour of the island. Only one man's private word about
+  Christ survives. Martin, alone in his cell, told a Christ in purple
+  that he would believe only in one who showed the wounds. The rest of
+  us answer as houses answer - in what we did at the gate, and at the
+  hours.
 positions:
 - Christ shows himself in the one no one pities - the beggar's half of the cloak at Tours; the guest received as Christ in Egypt's teaching, without being asked who he is
 - God's approach comes first - he calls the ignorant and unwilling and draws them; he wills all to be saved, and none perish by his will
@@ -102,7 +103,8 @@ use_note:
   years: {from: 397, to: 434}
   status: reviewed
 ---
-Loci read at their own lines in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml:
+Loci read at their own lines in
+cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml for this record:
 Vita II lines 710-712 ("when he was of the age of ten years, he
 betook himself, against the wish of his parents, to the Church, and
 begged that he might become a catechumen"); Conf. XIII.7 lines

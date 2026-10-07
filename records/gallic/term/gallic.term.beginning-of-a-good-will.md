@@ -78,8 +78,8 @@ relations:
 - type: presupposes
   target: gallic.term.free-will
 plain_meaning: >-
-  The one question our whole argument about grace turns on. It asks whether God has mercy on us
-  because we first showed a good will. Or whether our good will begins because God first had mercy.
+  The one question our whole argument about grace turns on. Does God have mercy on us because we
+  first showed a good will? Or does our good will begin because God first had mercy?
 world_word: the beginning of a good will
 false_friend:
 - a settled "semi-Pelagian" error - man makes the first move, God does the rest

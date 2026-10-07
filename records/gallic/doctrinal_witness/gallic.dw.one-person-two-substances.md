@@ -59,16 +59,16 @@ text: >-
   his example of the faith held everywhere, always, by all. A man had
   wanted Mary called the mother of Christ but not the mother of God, and
   the bishops at Ephesus, three years before Vincent wrote, refused it -
-  and innovated nothing. We held there was no other way to say it.
-  Cassian calls Jesus the author of our salvation. And in our prayers,
-  the fathers taught us, we call God not only our Protector and Saviour
-  but our Helper and Sponsor: Saviour, because he calls us while we are
-  still ignorant and unwilling and draws us toward salvation; Helper,
-  because when we are already striving he brings help and receives those
-  who fly to him. We did not put his death as taking our punishment in
-  our place. What we were taught, at the sixth hour, is that the
-  spotless Sacrifice, our Lord and Saviour, was offered up to the
-  Father, went up on the cross for the salvation of the whole world,
+  and innovated nothing. We held there was no other way to speak of the
+  Trinity. Cassian calls Jesus the author of our salvation. And in our
+  prayers, the fathers taught us, we call God not only our Protector and
+  Saviour but our Helper and Sponsor: Saviour, because he calls us while
+  we are still ignorant and unwilling and draws us toward salvation;
+  Helper, because when we are already striving he brings help and
+  receives those who fly to him. We never said that he died to take our
+  punishment in our place. What we were taught, at the sixth hour, is
+  that the spotless Sacrifice, our Lord and Saviour, was offered up to
+  the Father, went up on the cross for the salvation of the whole world,
   made atonement for the sins of mankind, and set free all of us who
   were bound by a debt that could not be paid, taking it out of the way
   and nailing it to his cross. That is close to taking our punishment in
@@ -101,13 +101,16 @@ use_note:
   years: {from: 397, to: 434}
   status: reviewed
 ---
-Loci read at their own lines in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml:
+Loci read at their own lines in
+cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml for this record:
 Comm. 13 [36] lines 13050-13054 and [37] lines 13059-13060; Inst.
 III.3 lines 17877-17883; Inst. XII.9 lines 25044-25047 ("As the author of
 our salvation Himself also says"); Conf. XIII.17 lines 38531-38536. The
 Ephesus/Christotocos material is cited through gallic.term.theotocos
 (Comm. 12 [35] is present at lines 13003-13005 and is not re-quoted).
 
+Not resolved here: whether Vincent held the brethren's position on grace
+(gallic.contested.massilian-label; gallic.contested.who-holds-antiquity).
 Vincent is used only for the confession he states as the Church's, never
 for the grace question. The Heurtley editorial paragraphs on Arianism and
 Constantius that sit inside the Commonitory's ch. 4 apparatus (file lines

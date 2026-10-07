@@ -80,21 +80,21 @@ text: >-
   submissiveness to the royal retinue, in Martin alone apostolic
   authority kept its place; he held it a foul and unheard-of thing that
   a secular ruler should judge a cause of the Church. He yielded there
-  once, to save lives, and never sat with bishops again. We can only
-  tell what was laughed at. Some bystanders at a city gate laughed at a
-  soldier walking in half a cloak. Bishops at the election said Martin's
-  person was despicable, his clothing mean, his hair disgusting. Cassian
-  says the Egyptians' sheepskin and little hoods would be a subject for
-  derision in Gaul, so we did not wear them. Our own presbyter, raging
-  in the courtyard, called the saint's visions ridiculous fancies.
-  Sulpitius says that some of Martin's calumniators, though very few,
-  were reported to be bishops. Others reported the brethren at
-  Marseilles to Africa and to Rome for what they held about grace. A man
-  of Marseilles wrote that at Carthage a monk, pale, with his hair
-  shaved to the skin, could hardly be looked at without curses, and that
-  servants of God from Egypt were met in the street with hissing. That
-  was Africa, not Gaul. But it is the nearest our record comes to a
-  crowd's own voice.
+  once, to save lives, and never sat with bishops again. What an
+  outsider found strangest, we can only tell from what was laughed at.
+  Some bystanders at a city gate laughed at a soldier walking in half a
+  cloak. Bishops at the election said Martin's person was despicable,
+  his clothing mean, his hair disgusting. Cassian says the Egyptians'
+  sheepskin and little hoods would be a subject for derision in Gaul, so
+  we did not wear them. Our own presbyter, raging in the courtyard,
+  called the saint's visions ridiculous fancies. Sulpitius says that
+  some of Martin's calumniators, though very few, were reported to be
+  bishops. Others reported the brethren at Marseilles to Africa and to
+  Rome for what they held about grace. A man of Marseilles wrote that at
+  Carthage a monk, pale, with his hair shaved to the skin, could hardly
+  be looked at without curses, and that servants of God from Egypt were
+  met in the street with hissing. That was Africa, not Gaul. But it is
+  the nearest our record comes to a crowd's own voice.
 positions:
 - there was no persecution in our span - the ascetic life was the martyrdom of a peaceful age, and no one among us hid from anything
 - the empire did not make us - leaving its service made Martin; heretics with the empire's backing scattered the Church before our founding; and the court judging a church's cause was the indignity we named at Treves
@@ -116,7 +116,7 @@ use_note:
   years: {from: 397, to: 450}
   status: reviewed
 ---
-Loci read at their own lines: Ep. II line 2249, Vita VI
+Loci read at their own lines for this record: Ep. II line 2249, Vita VI
 lines 948-950, Vita IX line 1080, Vita XX lines 1563-1565, Vita XXVII
 lines 1936-1940, Dial. III.15 line 5319, Inst. I.10 line 16919 (all in
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml); Salvian
@@ -124,7 +124,8 @@ VIII.4 lines 10248-10260 in
 cic/texts/salvian_on-the-government-of-god_sanford1930.txt. "I am the
 soldier of Christ" and Sacred History II.50's "secular ruler" sentence
 are cited through their story and force records; both phrases wrap
-across lines in the flattened file.
+across lines in the flattened file and were not confirmed at a single
+line for this record.
 
 The catacombs question is answered "no" on this world's own dating (its
 span opens c. 360) and on Sulpitius's own "without shedding his blood".
@@ -132,3 +133,5 @@ Salvian is used within his licence (forces, not grace) and named by place
 as Africa; his VIII.4 passage serves only as a crowd's reaction, not as
 evidence of Gaul's relation to Egypt. The Heurtley editorial paragraphs
 on Constantius inside the Commonitory's apparatus were not used.
+Nothing in gallic.contested.election-as-capture is resolved: the
+bishops' objection is given as Sulpitius reports it.
