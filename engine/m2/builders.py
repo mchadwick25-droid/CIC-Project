@@ -297,7 +297,16 @@ def _quote_opening(quote: dict, width: int = 60) -> str:
         raise ValueError(f"{quote.get('id')}: quote has no modern_rendering - "
                          f"refusing to fall back to text, which is never voiced")
     text = " ".join(rendering.split())
-    return f'"{text}"' if len(text) <= width else f'"{text[:width].rstrip()}..."'
+    if len(text) <= width:
+        return f'"{text}"'
+    # Cut on a word boundary at or before the width: a voice that quotes the
+    # opening as shown must be quoting words the record actually holds. Only
+    # a single word longer than the whole width falls back to a hard cut.
+    if text[width] == " ":
+        cut = text[:width]
+    else:
+        cut = text[:width].rsplit(" ", 1)[0] if " " in text[:width] else text[:width]
+    return f'"{cut.rstrip()}..."'
 
 
 # THE PROMPT HAS TWO HALVES, and until now only one of them was named.
