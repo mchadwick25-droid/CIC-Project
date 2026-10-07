@@ -114,13 +114,18 @@ def test_curly_quotation_marks_place_the_same_way():
 def test_a_quotation_the_splitter_re_merged_across_a_stop_is_one_element():
     """A stop inside the quotation does not end the sentence, so the
     quote's mark follows the whole quotation, not its first half."""
-    raw = f'Origen spoke. He wrote "{QUOTED_WORDS}. The disciples taught it." and kept to it [[{QUOTE_ID}]]. Then more.'
+    quotation = (
+        "his disciples committed themselves to teaching a doctrine that put their own lives in danger. "
+        "It was a doctrine they would not have taught with such courage"
+    )
+    assert quotation in REPO[QUOTE_ID]["modern_rendering"]
+    raw = f'Origen spoke. He wrote "{quotation}." and kept to it [[{QUOTE_ID}]]. Then more.'
     net_result = check_turn_with_paragraph_coverage(raw, REPO)
     text = strip_tags(raw)
     citations = [{"sentence": s["sentence"], "record_ids": s["tags"]} for s in net_result["sentences"] if s["verdict"] == "ok" and s["tags"]]
     plan = build_transparency_plan(citations=citations, net_result=net_result, repository_records=REPO, world_key="alx", text=text)
     [element] = _of(plan, QUOTE_ID)
-    assert element["surface"] == f'"{QUOTED_WORDS}. The disciples taught it."'
+    assert element["surface"] == f'"{quotation}."'
     span = plan["sentences"][element["sentence_index"]]
     sentence = text[span["text_start"]:span["text_end"]]
     assert sentence[element["char_end"]:] == " and kept to it."
