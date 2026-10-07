@@ -837,3 +837,24 @@ def test_shown_text_finds_a_sentence_the_splitter_rejoined_with_one_space():
     raw = 'He wrote, "Fabricated words go here!  More invented words follow." End.'
     result = check_turn(raw, QUOTE_REPOSITORY)
     assert shown_text(raw, result["sentences"]) == "He wrote, Fabricated words go here! More invented words follow. End."
+
+
+def test_a_single_quoted_span_ending_in_s_before_a_word_is_still_paired():
+    for text in (
+        "\u2018Behold the might of the new song and us\u2019 said Clement [[fix.quote.clement-song]].",
+        "'Behold the might of the new song and us' said Clement [[fix.quote.clement-song]].",
+    ):
+        assert _entry(text)["why"] == "quotation not in records", text
+
+
+def test_an_unpairable_opener_does_not_hide_a_later_quotation():
+    entry = _entry('\u2018Grace is ours wrote Paul, and "a line nobody wrote" [[fix.witness.who-is-jesus]].')
+    assert entry["why"] == "quotation not in records"
+
+
+def test_the_person_spoken_to_is_not_the_attributed_figure():
+    repository = {**QUOTE_REPOSITORY, "fix.figure.gregory": {"id": "fix.figure.gregory", "record_type": "figure", "names": [{"name": "Gregory", "tag": "in-world"}]}}
+    for lead in ("He wrote to Gregory:", "He told Gregory,", "The monk asked Gregory"):
+        entry = _entry(f'{lead} "{NEW_SONG}" [[fix.witness.who-is-jesus]].', repository)
+        assert entry["why"] != "words attributed without a quote record", lead
+    assert _entry(f'"{NEW_SONG}," said Gregory [[fix.witness.who-is-jesus]].', repository)["why"] == "words attributed without a quote record"

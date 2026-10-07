@@ -163,15 +163,17 @@ _PLURAL_POSSESSIVE = re.compile(r"s['\u2019]\s+[A-Za-z]")
 def _closing_mark(text: str, opener: str, start: int) -> int | None:
     """Index of the mark that closes a quotation opened by `opener`: a double
     opener closes only on a double mark; a single opener skips a plural
-    possessive (the apostles' teaching)."""
+    possessive (the apostles' teaching) unless nothing else closes it."""
     pos = start
+    skipped = None
     while True:
         match = _CLOSERS[opener].search(text, pos)
         if not match:
-            return None
+            return skipped
         index = match.end() - 1
         if opener in _DOUBLE_OPENERS or not _PLURAL_POSSESSIVE.match(text, index - 1):
             return index
+        skipped = index if skipped is None else skipped
         pos = match.end()
 
 
@@ -186,7 +188,8 @@ def _quote_pairs(text: str):
         open_i = open_m.end() - 1
         close_i = _closing_mark(text, text[open_i], open_m.end())
         if close_i is None:
-            return
+            pos = open_m.end()
+            continue
         yield open_i, close_i
         pos = close_i + 1
 
@@ -274,6 +277,9 @@ _ATTRIBUTION_VERBS = frozenset({
     "preached", "preaches", "preach", "told", "tells", "tell", "taught", "teaches", "teach",
     "asked", "answered", "replied", "insisted", "warned", "added", "urged",
 })
+# Verbs that take someone spoken to as their object: a name after one is the
+# addressee, never the speaker.
+_ADDRESSEE_VERBS = frozenset({"told", "tells", "tell", "asked", "answered", "replied", "urged", "warned"})
 _ATTRIBUTION_PHRASES = frozenset({
     ("put", "it"), ("puts", "it"), ("called", "it"), ("calls", "it"), ("according", "to"),
 })
@@ -391,7 +397,8 @@ class QuotationIndex:
         found = []
         for v_start, v_end in sorted(verbs):
             before = [n for n in names if 0 <= v_start - n[1] <= ATTRIBUTION_WINDOW]
-            after = [n for n in names if 0 <= n[0] - v_end <= 1]
+            addressed = tokens[v_start] in _ADDRESSEE_VERBS
+            after = [] if addressed else [n for n in names if n[0] == v_end]
             pool = [max(before, key=lambda n: n[1])] if before else after
             if pool:
                 nearest = max(n[1] - n[0] for n in pool)
