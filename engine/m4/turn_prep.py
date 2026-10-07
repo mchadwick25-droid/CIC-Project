@@ -7,11 +7,12 @@ produce byte-identical outputs.
 """
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 
 from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence
-from engine.m4.name_bridge import spoken_name
+from engine.m4.name_bridge import find_figures_used, spoken_name
+from engine.m4.rhythm import RhythmTally, asks_for_the_words
 from engine.m4.world_loader import LoadedWorld
 from engine.m5.routing import Directive
 
@@ -218,7 +219,7 @@ def _other_tradition_directive(
 CONCISION_DIRECTIVE = (
     "Opening: start with the answer itself. Never restate the question, and never answer a question "
     "the participant did not ask. "
-    "Length: answer first. Use the fewest sentences that carry the answer, its reason and one quote. "
+    "Length: answer first. Use the fewest sentences that carry the answer and its reason. "
     "Most replies run between 120 and 220 words. A question that earns more may take more."
 )
 
@@ -256,6 +257,15 @@ KIND_DIRECTIVES = {
 OBLIQUE_WHO_DIRECTIVE = (
     "The ask is who someone is. Your world's own sources answer this sideways: give that way first, "
     "then say who in the next breath."
+)
+
+
+QUOTE_LINE = "One quote in full, from the records in front of you, not one already voiced in this conversation."
+NO_NEW_FIGURE_LINE = "Speak of the people already named; introduce no new figure this turn."
+LEXICON_LINE = "Use the world's own words for what it held."
+REFER_BACK_LINE = (
+    "Where a record marked as already used bears on this answer, refer back to it in your own way "
+    "rather than repeating it."
 )
 
 
@@ -297,6 +307,9 @@ def _build_turn_directive(
     other_tradition_revealed: list[tuple[str, str]] | None = None,
     kind: str | None = None,
     oblique: bool = False,
+    rhythm: RhythmTally | None = None,
+    quote_asked: bool = False,
+    refer_back: bool = False,
 ) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
@@ -352,6 +365,13 @@ def _build_turn_directive(
         parts.append(CONCISION_DIRECTIVE)
         if kind_line := _kind_directive(kind, oblique):
             parts.append(kind_line)
+        if quote_asked or rhythm is None or rhythm.quote_due:
+            parts.append(QUOTE_LINE)
+        if rhythm is not None and rhythm.figure_gate_closed:
+            parts.append(NO_NEW_FIGURE_LINE)
+        parts.append(LEXICON_LINE)
+        if refer_back:
+            parts.append(REFER_BACK_LINE)
         if directive.register_note:
             parts.append(f"Register note: {directive.register_note}")
         if directive.suspend_register_statement_1:
@@ -449,6 +469,7 @@ def prepare_voice_turn_inputs(
     other_tradition_revealed: list[tuple[str, str]] | None = None,
     correction: str | None = None,
     previous_kind: str | None = None,
+    rhythm: RhythmTally | None = None,
 ) -> VoiceTurnInputs:
     """The setup every voice-generation call needs before the first model
     call: assemble this turn's evidence (design §3, engine.m4.evidence -
@@ -497,6 +518,10 @@ def prepare_voice_turn_inputs(
         canon_questions=canon_questions,
         repository_records=repository_records,
     )
+    quote_asked = asks_for_the_words(kind, participant_message)
+    if rhythm is not None:
+        asked = find_figures_used(participant_message, world.figures.get("figures") or [], already_bridged_ids=set(rhythm.figures_introduced))
+        rhythm = replace(rhythm, figures_asked=frozenset(f["id"] for f in asked))
     turn_evidence = evidence.assemble_evidence(
         message=participant_message,
         asks=directive.asks if directive else None,
@@ -509,6 +534,8 @@ def prepare_voice_turn_inputs(
         figures_already_named=figures_already_named,
         secondary_context=secondary_context,
         kind=kind,
+        rhythm=rhythm,
+        words_asked=quote_asked,
     )
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
@@ -526,6 +553,9 @@ def prepare_voice_turn_inputs(
         other_tradition_revealed=other_tradition_revealed,
         kind=kind,
         oblique=_lead_answers_obliquely(turn_evidence, repository_records),
+        rhythm=rhythm,
+        quote_asked=quote_asked,
+        refer_back=any(c.get("used_in_round") for c in turn_evidence["candidates"]),
     )
     if correction:
         turn_directive = (turn_directive or "") + correction

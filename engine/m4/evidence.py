@@ -42,6 +42,7 @@ from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
 from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
 from engine.m4.grounding_net import scope_completion
+from engine.m4.rhythm import RhythmTally
 from engine.m5.routing import QUESTION_KINDS
 
 __all__ = [
@@ -181,10 +182,14 @@ _FLOORS_BY_KIND = {
 }
 
 
-def floors_for_kind(kind: str | None) -> dict[str, int]:
+def floors_for_kind(kind: str | None, *, quote_floor: int | None = None) -> dict[str, int]:
     """The per-type floors for one question kind; an unknown or missing
-    kind reads as "other"."""
-    return dict(zip(_FLOOR_TYPES, _FLOORS_BY_KIND.get(kind or "other", _DEFAULT_FLOORS)))
+    kind reads as "other". quote_floor replaces the quote floor, for a turn
+    the conversation's rhythm does not ask a quote of."""
+    floors = dict(zip(_FLOOR_TYPES, _FLOORS_BY_KIND.get(kind or "other", _DEFAULT_FLOORS)))
+    if quote_floor is not None:
+        floors["quote"] = quote_floor
+    return floors
 
 
 _COVERAGE_KEY_BY_TYPE = {
@@ -750,7 +755,7 @@ def _retrieval_fill_scores(*, record_type: str, query_words: set[str], repositor
     return scored
 
 
-def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000, already_told_ids: set[str] | list[str] | None = None, kind: str | None = None) -> list[dict]:
+def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000, already_told_ids: set[str] | list[str] | None = None, kind: str | None = None, rhythm: RhythmTally | None = None, words_asked: bool = False) -> list[dict]:
     """Stage B (design §3.2): cell -> candidates -> rank. coverage_entry is
     compiled/coverage.json's own entry for this cell - the seed pool every
     candidate here is drawn from (see module docstring's named
@@ -766,10 +771,18 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
     also carries "claim_guards": [...] when the record has any - the
     prefer_instead redirect rule's guard half, rendered as a rider on this
     exact candidate's own line by render_evidence_block, not a separate section
-    - absent, not an empty list, on every record with none."""
+    - absent, not an empty list, on every record with none.
+
+    rhythm (decision 60) is the conversation's own tally. A quote the
+    conversation already voiced never fills the quote floor; where the
+    ranking would have chosen it, it still stands in the block, tagged by the
+    caller, for the voice to refer back to. Until three rounds have passed
+    since the last voiced quote, and unless words_asked, the quote floor is
+    one."""
     query_words = _query_words(message, asks)
     selected: list[dict] = []
     used_chars = 0
+    quote_floor = 1 if rhythm is not None and not rhythm.quote_due and not words_asked else None
 
     def _entry(rid: str, record_type: str, score: float | None) -> dict | None:
         record = repository_records.get(rid)
@@ -805,7 +818,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
         selected.append(entry)
         used_chars += _entry_chars(entry)
 
-    for record_type, floor in floors_for_kind(kind).items():
+    for record_type, floor in floors_for_kind(kind, quote_floor=quote_floor).items():
         cov_key = _COVERAGE_KEY_BY_TYPE[record_type]
         cov_ids = coverage_entry.get(cov_key) or []
         retrieval_fill = not cov_ids
@@ -827,7 +840,12 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             for rid in (already_told_ids or ())
             if rid in repository_records
         }
-        for rid, score in _diverse_take(scored, repository_records, floor, used_keys):
+        chosen = _diverse_take(scored, repository_records, floor, used_keys)
+        if rhythm is not None and record_type == "quote" and rhythm.quotes_voiced:
+            fresh = [t for t in scored if t[0] not in rhythm.quotes_voiced]
+            referred_back = [t for t in chosen if t[0] in rhythm.quotes_voiced]
+            chosen = _diverse_take(fresh, repository_records, floor, used_keys) + referred_back
+        for rid, score in chosen:
             entry = _entry(rid, record_type, score)
             if entry is None:
                 continue
@@ -1007,6 +1025,8 @@ def assemble_evidence(
     figures_already_named: list[str] | None = None,
     secondary_context: str | None = None,
     kind: str | None = None,
+    rhythm: RhythmTally | None = None,
+    words_asked: bool = False,
 ) -> dict:
     """The full pipeline, Stages A -> E, deterministic, no model call.
     Returns {"cells": [...Stage A...], "candidates": [...B+C+E...],
@@ -1071,7 +1091,7 @@ def assemble_evidence(
         coverage_entry = coverage.get(match["cell"]) or {}
         for candidate in select_cell_candidates(
             cell=match["cell"], coverage_entry=coverage_entry, repository_records=repository_records, message=message, asks=asks,
-            already_told_ids=already_told_ids, kind=kind,
+            already_told_ids=already_told_ids, kind=kind, rhythm=rhythm, words_asked=words_asked,
         ):
             if candidate["id"] in seen_ids:
                 continue
@@ -1122,6 +1142,11 @@ def assemble_evidence(
         )
 
     selected = apply_session_exclusion(selected=selected, already_told_ids=already_told_ids)
+    if rhythm is not None:
+        selected = [
+            {**c, "used_in_round": used} if (used := rhythm.used_round(c["id"])) else c
+            for c in selected
+        ]
     thin_ground = thin_topic_riders(message=message, asks=asks, selected=selected, thin_topics=thin_topics)
 
     return {
@@ -1193,7 +1218,10 @@ def render_evidence_block(evidence: dict) -> str:
             descriptors.append(candidate["confidence"])
         if candidate.get("scope_completion"):
             descriptors.append("scope completion")
-        if candidate.get("already_told_this_session"):
+        if candidate.get("used_in_round"):
+            how, round_no = candidate["used_in_round"]
+            descriptors.append(f"{how} in round {round_no}")
+        elif candidate.get("already_told_this_session"):
             descriptors.append("already told this session")
         line = f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}"
         if candidate.get("means"):

@@ -61,6 +61,7 @@ from engine.m4.named_claim_grounding import find_named_claim_flags
 from engine.m4.sentence_fact_check import find_unsupported_named_claims
 from engine.m4.uncited_claims import classify_neighbour_named, find_uncited_claims, find_uncited_paragraphs
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used
+from engine.m4.rhythm import RhythmTally
 from engine.m4.term_glosses import find_glosses_used
 from engine.m4.transparency_plan import build_transparency_plan
 from engine.m4.turn_prep import (
@@ -403,6 +404,7 @@ def _run_ordinary_voice_turn(
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
     previous_kind: str | None = None,
+    rhythm: RhythmTally | None = None,
     context_prefix: str | None = None,
     secondary_context: str | None = None,
     table_engagement: str | None = None,
@@ -622,6 +624,7 @@ def _run_ordinary_voice_turn(
         already_bridged_figure_ids=already_bridged_figure_ids,
         history=history,
         previous_kind=previous_kind,
+        rhythm=rhythm,
         context_prefix=context_prefix,
         secondary_context=secondary_context,
         table_engagement=table_engagement,
@@ -1181,6 +1184,7 @@ def run_turn(
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
     previous_kind: str | None = None,
+    rhythm: RhythmTally | None = None,
     r27_enforce: bool = False,
     known_tradition_names: list[str] | None = None,
     other_tradition_evidence_ids: list[str] | None = None,
@@ -1376,6 +1380,7 @@ def run_turn(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
             previous_kind=previous_kind,
+            rhythm=rhythm,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
             self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
             citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
@@ -1400,6 +1405,7 @@ def run_turn(
             already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
             previous_kind=previous_kind,
+            rhythm=rhythm,
             is_other_tradition_first_ask=(gate_result.routing.out_of_scope_class == "other_tradition"),
             other_tradition_evidence_ids=other_tradition_evidence_ids,
             other_tradition_known_in_window=other_tradition_known_in_window,
