@@ -876,3 +876,9 @@ Status: OPEN.
 - `don.term.pars-donati`: the same Doc_03 SS6 item on Augustine's usage has not been checked.
 
 Status: OPEN.
+
+### OG-25. Spoken text opens on a question or carries a stage direction, 2026-10-06.
+
+16 spoken field(s) across 15 record(s) in witness, term and story text have a first sentence that ends in a question mark, or carry "your second question", "start with the part", "you asked" or "as you asked". The voice answers in the kind the participant asked, so spoken text must start with the answer. Content for this world's record pass; the check is `spoken_scaffolding.scaffolding_hits`. Waived in `engine/m1/cross_world.py` as `spoken-scaffolding/don` until the pass lands; the pass removes the waiver. First record: `don.dw.becoming-one-of-us`.
+
+Status: OPEN.

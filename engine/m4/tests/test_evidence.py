@@ -250,7 +250,7 @@ def test_retrieval_fill_never_fires_for_a_type_the_coverage_list_already_has():
 
 
 def test_retrieval_fill_never_touches_honest_limit():
-    """honest_limit is never a key in _TYPE_FLOORS - a wholly empty
+    """honest_limit is never a key in _FLOORS_BY_KIND - a wholly empty
     coverage_entry["honest_limit"] must stay empty, never widened to the
     whole repository the way an ordinary type is (see the module comment
     on why that type is unconditional and cell-scoped only)."""

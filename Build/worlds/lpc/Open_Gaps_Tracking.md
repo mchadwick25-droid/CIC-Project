@@ -1524,3 +1524,9 @@ Logged 2026-09-30 by the Library thread. It updates the `records/lpc` bullet of 
 - **Corrected.** `source/lpc.source.lancel-actes-de-la-conference-de-carthage-411.md`: `rights_status` now says Lancel's edition is in copyright and consultation-only, and the *Gesta* text is public domain by date in the Migne PL 11 and Mansi tom. 4 printings; the act count is thirteen (act 158 is a subscription); and the record says Doc_04 relies on act 158. `honest_limit/lpc.limit.411-gesta-unread.md`: the source's `license` is `in-copyright-consultation`.
 - **World core corrected.** `world_core/lpc.core.latin-pastoral-congregational-christianity.md` (the horizon and caution 9) now says thirteen acts and names the one fact drawn from the *Gesta*, that act 158 is a signature on the mandate.
 - **Still open.** Three readability findings predate these edits and are unchanged: the 411-Gesta limit record's statement scores FRE 55.2, and the world core's horizon and formation_logic score FRE 55.1 and 56.4, against the floor of 60.
+
+### OG-28. Spoken text opens on a question or carries a stage direction, 2026-10-06.
+
+19 spoken field(s) across 14 record(s) in witness, term and story text have a first sentence that ends in a question mark, or carry "your second question", "start with the part", "you asked" or "as you asked". The voice answers in the kind the participant asked, so spoken text must start with the answer. Content for this world's record pass; the check is `spoken_scaffolding.scaffolding_hits`. No waiver: `lpc` is outside the grandfathered set, so `regate records lpc` fails until the pass lands or the project lead approves a waiver. First record: `lpc.witness.almsgiving-quenches-sin`.
+
+Status: OPEN.

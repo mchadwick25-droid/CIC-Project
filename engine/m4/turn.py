@@ -229,6 +229,7 @@ def _directive_payload(directive: Directive | None) -> dict | None:
         "register_note": directive.register_note,
         "suspend_register_statement_1": directive.suspend_register_statement_1,
         "ambiguity_options": list(directive.ambiguity_options),
+        "kind": directive.kind,
     }
 
 
@@ -393,6 +394,7 @@ def _run_ordinary_voice_turn(
     already_bridged_figure_ids: set[str] | None = None,
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
+    previous_kind: str | None = None,
     context_prefix: str | None = None,
     secondary_context: str | None = None,
     table_engagement: str | None = None,
@@ -611,6 +613,7 @@ def _run_ordinary_voice_turn(
         already_told_ids=already_told_ids,
         already_bridged_figure_ids=already_bridged_figure_ids,
         history=history,
+        previous_kind=previous_kind,
         context_prefix=context_prefix,
         secondary_context=secondary_context,
         table_engagement=table_engagement,
@@ -997,6 +1000,8 @@ def _run_ordinary_voice_turn(
         "glosses": glosses,
         "figures_used": figures_used,
         "quote_offers": [],
+        "kind": prepared.kind,
+        "offered_ids": prepared.offered_ids,
         # The regenerated flag: whether this enforcement attempted the one
         # allowed regeneration this turn - False when the enforce flag is off
         # (every real caller until the flag is flipped on) or when
@@ -1120,6 +1125,7 @@ def run_turn(
     already_bridged_figure_ids: set[str] | None = None,
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
+    previous_kind: str | None = None,
     r27_enforce: bool = False,
     known_tradition_names: list[str] | None = None,
     other_tradition_evidence_ids: list[str] | None = None,
@@ -1314,6 +1320,7 @@ def run_turn(
             session_id=session_id, already_told_ids=already_told_ids,
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
+            previous_kind=previous_kind,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
             self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
             citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
@@ -1337,6 +1344,7 @@ def run_turn(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
+            previous_kind=previous_kind,
             is_other_tradition_first_ask=(gate_result.routing.out_of_scope_class == "other_tradition"),
             other_tradition_evidence_ids=other_tradition_evidence_ids,
             other_tradition_known_in_window=other_tradition_known_in_window,

@@ -917,6 +917,7 @@ def handle_message(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
+            previous_kind=state.last_kind,
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=state.world_key) if r27_enforce else None,
             other_tradition_evidence_ids=other_tradition_evidence_ids,
