@@ -144,27 +144,34 @@ def strip_tags(text: str) -> str:
 # widening it to cover other malformed spellings would mean guessing at
 # text the model actually finished, which this module does not do.
 #
-# Reports, never edits. Rewriting a turn's text after the fact is the one
-# thing this whole design refuses to do (the fallback ladder appends, it
-# never revises), and a display defect is a signal that something upstream
-# is wrong, not something to paper over on the way out.
+# Reports, never edits, with one ruled exception: quotation marks around
+# words that are in no record come off (decision 59). Beyond that, rewriting
+# a turn's text after the fact is what this design refuses to do (the
+# fallback ladder appends, it never revises), and a display defect is a
+# signal that something upstream is wrong, not something to paper over on
+# the way out.
+def _quote_pairs(text: str):
+    """(open_index, close_index) of every paired quotation mark, left to
+    right."""
+    pos = 0
+    while True:
+        open_m = QUOTE_OPEN.search(text, pos)
+        if not open_m:
+            return
+        close_m = QUOTE_CLOSE.search(text, open_m.end())
+        if not close_m:
+            return
+        yield open_m.end() - 1, close_m.end() - 1
+        pos = close_m.end()
+
+
 def quoted_span_positions(text: str) -> list[tuple[int, int, str]]:
     """Every paired quotation in `text`, left to right: (start, end,
     inner) - `start` is the offset of the opening quotation mark, `end` is
     just past the closing quotation mark, `inner` is the quoted words
     between them. engine.m4.transparency_plan places a quote's marker at
     `end`: the marker follows the quoted words."""
-    spans = []
-    pos = 0
-    while True:
-        open_m = QUOTE_OPEN.search(text, pos)
-        if not open_m:
-            return spans
-        close_m = QUOTE_CLOSE.search(text, open_m.end())
-        if not close_m:
-            return spans
-        spans.append((open_m.end() - 1, close_m.end(), text[open_m.end() : close_m.start()]))
-        pos = close_m.end()
+    return [(open_i, close_i + 1, text[open_i + 1 : close_i]) for open_i, close_i in _quote_pairs(text)]
 
 
 def _quoted_spans(text: str) -> list[str]:
@@ -213,6 +220,216 @@ def _span_in_records(span: str, records: list[dict], *, window_words: int = 6) -
         else [" ".join(words[i : i + window_words]) for i in range(len(words) - window_words + 1)]
     )
     return any(w in h for h in haystacks for w in windows)
+
+
+# Decision 59, check 1: quotation marks claim verbatim words. A span is
+# checked when it is double-quoted, or single-quoted and at least this many
+# words long; shorter single-quoted spans are scare quotes and terms.
+SINGLE_QUOTE_MIN_WORDS = 4
+
+# Records that are not evidence of what the world said: the worked
+# demonstration exchanges and the voice-craft notes.
+_NOT_QUOTABLE_TYPES = frozenset({"demonstration", "voice_craft"})
+
+_ELLIPSIS = re.compile(r"\.{3}|\u2026")
+_WORD_TOKEN = re.compile(r"[a-z0-9]+")
+
+_TITLE_WORDS = frozenset({
+    "abba", "abbot", "amma", "bishop", "blessed", "brother", "father", "pope", "saint", "st",
+    "the", "and", "of", "in", "at", "on", "for", "to", "as", "from", "with", "our", "his", "her",
+})
+
+ATTRIBUTION_WINDOW = 4
+
+_ATTRIBUTION_VERBS = frozenset({
+    "said", "says", "say", "wrote", "writes", "write", "declared", "declares", "declare",
+    "preached", "preaches", "preach", "told", "tells", "tell", "taught", "teaches", "teach",
+})
+_ATTRIBUTION_PHRASES = frozenset({("put", "it"), ("puts", "it"), ("called", "it"), ("calls", "it")})
+
+REASON_QUOTATION_NOT_IN_RECORDS = "quotation not in records"
+REASON_WORDS_WITHOUT_QUOTE_RECORD = "words attributed without a quote record"
+
+
+def _alias_tokens(name: str) -> set[tuple[str, ...]]:
+    """The ways a sentence can name a figure called `name`: the whole name,
+    and each capitalised word of it that is not a title."""
+    aliases: set[tuple[str, ...]] = set()
+    whole = tuple(_WORD_TOKEN.findall(name.lower()))
+    if whole:
+        aliases.add(whole)
+    for word in name.split():
+        token = _WORD_TOKEN.findall(word.lower())
+        if len(token) == 1 and len(token[0]) > 2 and word[:1].isupper() and token[0] not in _TITLE_WORDS:
+            aliases.add((token[0],))
+    return aliases
+
+
+def _occurrences(tokens: list[str], needle: tuple[str, ...]) -> list[tuple[int, int]]:
+    size = len(needle)
+    return [(i, i + size) for i in range(len(tokens) - size + 1) if tuple(tokens[i : i + size]) == needle]
+
+
+class QuotationIndex:
+    """What decision 59's first two checks read, built once per turn and only
+    when a sentence carries quotation marks: the normalised text of every
+    quotable record, and the world's figures with the names that can stand for
+    them."""
+
+    def __init__(self, repository_records: dict[str, dict]):
+        self._records = repository_records
+        self._haystacks: list[str] | None = None
+        self._figures: dict[str, set[tuple[str, ...]]] | None = None
+
+    def _pool(self) -> list[str]:
+        if self._haystacks is None:
+            self._haystacks = [
+                f" {_normalize(all_text(rec))} "
+                for rec in self._records.values()
+                if rec.get("record_type") not in _NOT_QUOTABLE_TYPES
+            ]
+        return self._haystacks
+
+    def holds(self, span: str) -> bool:
+        """The span, normalised the way _span_in_records normalises, runs
+        word for word inside one record. A span with ellipses is checked
+        piece by piece. The whole piece must match: window matching passes a
+        long span as soon as one window of it matches."""
+        pieces = [" ".join(_normalize(piece).split()) for piece in _ELLIPSIS.split(span)]
+        pieces = [piece for piece in pieces if piece]
+        if not pieces:
+            return False
+        return all(any(f" {piece} " in haystack for haystack in self._pool()) for piece in pieces)
+
+    def _figure_aliases(self) -> dict[str, set[tuple[str, ...]]]:
+        if self._figures is None:
+            figures: dict[str, set[tuple[str, ...]]] = {}
+            for rec in self._records.values():
+                if rec.get("record_type") != "figure":
+                    continue
+                aliases: set[tuple[str, ...]] = set()
+                for entry in rec.get("names") or []:
+                    if isinstance(entry, dict) and entry.get("tag") == "in-world":
+                        aliases |= _alias_tokens(entry.get("name") or "")
+                figures[rec["id"]] = aliases
+            for rec in self._records.values():
+                speaker = rec.get("speaker_or_author") if rec.get("record_type") == "quote" else None
+                if speaker and speaker not in figures and not self._speaker_figures(speaker, figures):
+                    figures[_speaker_key(speaker)] = _alias_tokens(speaker.split(",")[0])
+            self._figures = figures
+        return self._figures
+
+    @staticmethod
+    def _speaker_figures(speaker: str, figures: dict[str, set[tuple[str, ...]]]) -> set[str]:
+        tokens = _WORD_TOKEN.findall(speaker.lower())
+        return {fid for fid, aliases in figures.items() if any(_occurrences(tokens, alias) for alias in aliases)}
+
+    def speaker_ids(self, quote_record: dict) -> set[str]:
+        """The figure ids a quote record's speaker field stands for."""
+        speaker = quote_record.get("speaker_or_author") or ""
+        figures = self._figure_aliases()
+        if speaker in figures:
+            return {speaker}
+        return self._speaker_figures(speaker, figures) or {_speaker_key(speaker)}
+
+    def attributed_figures(self, sentence: str) -> list[set[str]]:
+        """For each place the sentence puts an attribution verb beside a
+        figure's name: the figure ids that name can stand for."""
+        tokens = _WORD_TOKEN.findall(sentence.lower())
+        verbs = [(i, i + 1) for i, t in enumerate(tokens) if t in _ATTRIBUTION_VERBS]
+        verbs += [(i, i + 2) for i in range(len(tokens) - 1) if (tokens[i], tokens[i + 1]) in _ATTRIBUTION_PHRASES]
+        if not verbs:
+            return []
+        by_alias: dict[tuple[str, ...], set[str]] = {}
+        for fid, aliases in self._figure_aliases().items():
+            for alias in aliases:
+                by_alias.setdefault(alias, set()).add(fid)
+        found: dict[tuple[int, int], set[str]] = {}
+        for alias, fids in by_alias.items():
+            for start, end in _occurrences(tokens, alias):
+                beside = any(
+                    0 <= v_start - end <= ATTRIBUTION_WINDOW or 0 <= start - v_end <= ATTRIBUTION_WINDOW
+                    for v_start, v_end in verbs
+                )
+                if beside:
+                    found.setdefault((start, end), set()).update(fids)
+        return [found[key] for key in sorted(found)]
+
+
+def _speaker_key(speaker: str) -> str:
+    return "speaker:" + " ".join(_WORD_TOKEN.findall(speaker.split(",")[0].lower()))
+
+
+def _strip_pairs(text: str) -> str:
+    pieces, last = [], 0
+    for open_i, close_i in _quote_pairs(text):
+        pieces += [text[last:open_i], _strip_pairs(text[open_i + 1 : close_i])]
+        last = close_i + 1
+    return "".join(pieces) + text[last:]
+
+
+def _checked_pairs(text: str) -> list[tuple[int, int, str]]:
+    """The quotations of `text` that claim verbatim words: (open_index,
+    close_index, inner)."""
+    checked = []
+    for open_i, close_i in _quote_pairs(text):
+        inner = text[open_i + 1 : close_i]
+        if text[open_i] in "\"\u201c" or len(_normalize(inner).split()) >= SINGLE_QUOTE_MIN_WORDS:
+            checked.append((open_i, close_i, inner))
+    return checked
+
+
+def unquote_spans(text: str, spans: list[tuple[int, int, str]]) -> str:
+    """`text` with the marks of the given spans (and any quotation nested
+    inside them) taken off; every other character is kept."""
+    pieces, last = [], 0
+    for open_i, close_i, inner in sorted(spans):
+        pieces += [text[last:open_i], _strip_pairs(inner)]
+        last = close_i + 1
+    return "".join(pieces) + text[last:]
+
+
+def _quotation_verdict(text: str, tags: list[str], records: dict[str, dict], index: QuotationIndex) -> dict | None:
+    """Decision 59's checks 1 and 2 on one sentence: a withhold entry, or
+    None when the sentence has no quotation to answer for."""
+    checked = _checked_pairs(text)
+    if not checked:
+        return None
+    missing = [span for span in checked if not index.holds(span[2])]
+    if missing:
+        return {
+            "sentence": unquote_spans(text, missing), "source_sentence": text, "tags": tags, "verdict": "withhold",
+            "why": REASON_QUOTATION_NOT_IN_RECORDS, "quotations_not_in_records": [inner for _o, _c, inner in missing],
+        }
+    outside = text
+    for open_i, close_i, _inner in reversed(checked):
+        outside = outside[:open_i] + " " + outside[close_i + 1 :]
+    attributed = index.attributed_figures(outside)
+    if attributed:
+        speakers: set[str] = set()
+        for tag in tags:
+            rec = records.get(tag) or {}
+            if rec.get("record_type") == "quote":
+                speakers |= index.speaker_ids(rec)
+        if any(not (fids & speakers) for fids in attributed):
+            return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_WORDS_WITHOUT_QUOTE_RECORD}
+    return None
+
+
+def shown_text(raw_text: str, sentences: list[dict]) -> str:
+    """The reply a participant reads: the raw text with its tags stripped
+    and, in each sentence the net took the marks off, that sentence's own
+    marks-off text."""
+    shown = strip_tags(raw_text)
+    pieces, cursor = [], 0
+    for entry in sentences:
+        source = entry.get("source_sentence") or entry.get("sentence") or ""
+        position = shown.find(source, cursor) if source else -1
+        if position < 0:
+            continue
+        pieces += [shown[cursor:position], entry.get("sentence") or ""]
+        cursor = position + len(source)
+    return "".join(pieces) + shown[cursor:]
 
 
 def build_figure_lexicon(repository_records: dict[str, dict]) -> set[str]:
@@ -297,6 +514,7 @@ def verdict_for_sentence(
     figure_names: set[str],
     thin_topics: list[dict] | None,
     grounding_floor: float,
+    quotation_index: QuotationIndex | None = None,
 ) -> dict:
     """One sentence's verdict - check_turn()'s own per-sentence logic,
     factored out (Build-Plan.md Stage 1, D1 grounding measurement) so a
@@ -305,7 +523,16 @@ def verdict_for_sentence(
     extraction: no behavior change, verified against test_grounding_net.py
     unchanged. check_turn() below is now this function called once per
     parse_tagged() sentence; see its own docstring for the verdict
-    vocabulary and the fallback ladder this implements."""
+    vocabulary and the fallback ladder this implements.
+
+    A sentence whose quotation marks claim words found in no record, or
+    that attributes quoted words to a figure without citing that figure's
+    quote record, is withheld before any other check
+    (_quotation_verdict); the first case comes back with its marks off, in
+    "sentence", and the sentence as written in "source_sentence"."""
+    quotation = _quotation_verdict(text, tags, repository_records, quotation_index or QuotationIndex(repository_records))
+    if quotation is not None:
+        return quotation
     lower = text.lower()
     entry = {"sentence": text, "tags": tags, "verdict": "ok", "why": None}
 
@@ -433,6 +660,7 @@ def check_turn(
     """
     tagged_text, truncated = _drop_truncated_tail(tagged_text)
     figure_names = build_figure_lexicon(repository_records)
+    quotation_index = QuotationIndex(repository_records)
     results = [
         verdict_for_sentence(
             sent["text"], sent["tags"],
@@ -440,6 +668,7 @@ def check_turn(
             figure_names=figure_names,
             thin_topics=thin_topics,
             grounding_floor=grounding_floor,
+            quotation_index=quotation_index,
         )
         for sent in parse_tagged(tagged_text)
     ]
@@ -551,6 +780,7 @@ def check_turn_with_paragraph_coverage(
     """
     tagged_text, truncated = _drop_truncated_tail(tagged_text)
     figure_names = build_figure_lexicon(repository_records)
+    quotation_index = QuotationIndex(repository_records)
     paragraphs_raw = split_into_paragraphs(tagged_text)
 
     all_sentences: list[dict] = []
@@ -564,6 +794,7 @@ def check_turn_with_paragraph_coverage(
                 figure_names=figure_names,
                 thin_topics=thin_topics,
                 grounding_floor=grounding_floor,
+                quotation_index=quotation_index,
             )
             for sent in parsed
         ]
@@ -588,6 +819,7 @@ def check_turn_with_paragraph_coverage(
                     figure_names=figure_names,
                     thin_topics=thin_topics,
                     grounding_floor=grounding_floor,
+                    quotation_index=quotation_index,
                 )
 
         paragraph_coverage.append({

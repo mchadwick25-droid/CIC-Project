@@ -52,6 +52,7 @@ from engine.m4 import citation_attach
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_horizon
+from engine.m4.recitation import DIRECTIVE_LINE, DemonstrationIndex
 from engine.m4.seat_identity_guard import find_seat_identity_violation
 from engine.m4.sentence_stream import SentenceStream
 from engine.m4.self_revision import self_revise
@@ -363,7 +364,8 @@ def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics
     # THE CHECKS GATE DECORATION, NEVER THE TEXT. Program-Spec M4, and
     # again in Artifact-5 SS2 ("they gate decoration, not text"), and again
     # in SS5 ("never by editing a live response"). What the voice wrote is
-    # what the participant reads; only the tags come off.
+    # what the participant reads; only the tags come off, and the marks round
+    # words found in no record (decision 59).
     #
     # Deleting the failures was measured over 17 live turns: 25% of every
     # sentence generated, 39% of them on prose that invented nothing, and
@@ -372,7 +374,7 @@ def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics
     # sentence went. A sentence that fails verification loses its citation
     # and is carried on the event for the SS5 audit; it is not destroyed on
     # the way to the screen.
-    text = grounding_net.strip_tags(raw_text)
+    text = grounding_net.shown_text(raw_text, net_result["sentences"])
     citations = [
         {"sentence": s["sentence"], "record_ids": s["tags"]}
         for s in net_result["sentences"]
@@ -628,6 +630,7 @@ def _run_ordinary_voice_turn(
     figures_already_named = prepared.figures_already_named
     user_message = prepared.user_message
     turn_directive = prepared.turn_directive
+    demonstrations = DemonstrationIndex(repository_records)
     on_text = None
     sentences = None
     if on_sentence is not None and _draft_is_final_text(
@@ -637,6 +640,7 @@ def _run_ordinary_voice_turn(
         sentences = SentenceStream(
             repository_records=repository_records, world_key=world.world_key, thin_topics=thin_topics,
             guard=(lambda raw: find_seat_identity_violation(raw, guard_labels)) if guard_labels else None,
+            demonstrations=demonstrations,
         )
 
         def on_text(chunk: str) -> None:
@@ -738,6 +742,26 @@ def _run_ordinary_voice_turn(
             "fallback_reason": self_revision_result["fallback_reason"],
             "latency_seconds": round(self_revision_result["latency_seconds"], 3),
         }
+
+    # RECITATION (decision 59, check 3) - a reply that reads a demonstration
+    # out gets one regeneration, with the directive line appended, when
+    # nothing of it has been streamed yet. A second match is passed through
+    # and reported on voice_event["recited_demonstration"]; never a second
+    # regeneration.
+    recitation_regenerated = False
+    if raw_text and demonstrations.is_recited(raw_text) and (sentences is None or not sentences.released):
+        recitation_regenerated = True
+        retry_outcome = stream_voice_turn(
+            voice_client, voice_model_id, system_prompt=world.prompt_text,
+            turn_directive=(turn_directive or "") + "\n" + DIRECTIVE_LINE,
+            message=user_message, history=history,
+        )
+        if rec := _maybe_record_usage(
+            retry_outcome, session_id=session_id, call_kind="voice_generation_retry", model_id=voice_model_id, world_key=usage_world_key
+        ):
+            usage_records.append(rec)
+        if retry_outcome.status == "ok" and not (guard_labels and find_seat_identity_violation(retry_outcome.value.text, guard_labels)):
+            raw_text = retry_outcome.value.text
 
     if debug_capture is not None:
         # The raw, still-tagged, still-paragraphed answer - never
@@ -908,7 +932,11 @@ def _run_ordinary_voice_turn(
             if retry_fact_check_flags:
                 still_flagged = {f["sentence"] for f in retry_fact_check_flags}
                 sentence_enforcement["still_flagged"] = sorted(still_flagged)
-                dropped_raw_text = grounding_net.drop_flagged_sentences(retry_raw_text, still_flagged)
+                still_flagged_as_written = still_flagged | {
+                    entry["source_sentence"] for entry in retry_net_result["sentences"]
+                    if entry.get("source_sentence") and entry["sentence"] in still_flagged
+                }
+                dropped_raw_text = grounding_net.drop_flagged_sentences(retry_raw_text, still_flagged_as_written)
                 if dropped_raw_text.strip():
                     # Second failure: never blank the whole turn and
                     # never substitute the Facilitator (unlike the
@@ -1008,7 +1036,11 @@ def _run_ordinary_voice_turn(
             "empty_stream_retries": 0, "r27_regenerated": attempts_meta_r27_regenerated,
             "self_revision": self_revision_meta,
             "citation_attach": citation_attach_meta,
+            "recitation_regenerated": recitation_regenerated,
         },
+        # True when the reply a participant reads still runs 20 or more
+        # consecutive words of a demonstration record (engine.m4.recitation).
+        "recited_demonstration": bool(raw_text) and demonstrations.is_recited(raw_text),
         "grounding": net_result,
         "transparency": transparency,
         "degraded_by_net": degraded_by_net,
