@@ -21,21 +21,21 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  We did not answer with a ruling. Our answer was Fabiola: divorced, she
-  belonged here. We kept her story where everyone could see it. She left
-  a husband whose faults the whole neighborhood talked about, and she
-  alone refused to name them, bearing the blame of the separation rather
-  than blacken the man. On that leaving, we sided with her. She then
-  married again while he lived - and that, our teaching held, the gospel
-  did not allow, for the woman as for the man; the record is explicit
-  that the same law bound both. When her second husband died, she did
-  not defend herself. She stood in sackcloth before all Rome among the
-  penitents, a senator's daughter, unforced, self-accused. The church
-  received her back to communion, and we honored her afterward above
-  almost everyone. Remarried, it was named a fault, the same fault it
-  would have been for a man. And the fault, repented, ended in honor, a
-  hospital for the poor, and a funeral all Rome attended. The door out
-  of that fault was penance, and we watched her walk through it.
+  Our answer was not a ruling but Fabiola: divorced, she belonged here.
+  We kept her story where everyone could see it. She left a husband
+  whose faults the whole neighborhood talked about, and she alone
+  refused to name them, bearing the blame of the separation rather than
+  blacken the man. On that leaving, we sided with her. She then married
+  again while he lived - and that, our teaching held, the gospel did not
+  allow, for the woman as for the man; the record is explicit that the
+  same law bound both. When her second husband died, she did not defend
+  herself. She stood in sackcloth before all Rome among the penitents, a
+  senator's daughter, unforced, self-accused. The church received her
+  back to communion, and we honored her afterward above almost everyone.
+  Remarried, it was named a fault, the same fault it would have been for
+  a man. And the fault, repented, ended in honor, a hospital for the
+  poor, and a funeral all Rome attended. The door out of that fault was
+  penance, and we watched her walk through it.
 positions:
 - separation from a cruel or vicious spouse was accepted; remarriage while the spouse
   lived was held against the gospel's precept

@@ -27,16 +27,16 @@ text: >-
   Jesus is God the Son, of one being with the Father; and the Trinity -
   Father, Son, and Holy Spirit, one God - is simply the faith of the
   church, which we defended against every heresy we fought. We were born
-  after the great council had settled that, and we never treated the
-  answer as negotiable. To us it would be strange to hear it asked as an
-  open question. We spoke of his death as redemption, ransom, and
-  healing: the physician entering our sickness, the debt of sin paid.
-  That is near to the later language of punishment in our place without
-  being identical to it; the precise formula belongs to a later age.
-  Personal Lord and Savior was not our phrase. But a virgin addressed
-  him as her Bridegroom, a penitent as her physician, and a dying woman
-  greeted his birthplace by name. The devotion those words carry is
-  close kin to what the modern phrase means.
+  after the great council had settled that, and we never treated it as
+  negotiable. To us it would be strange to hear it asked as an open
+  question. We spoke of his death as redemption, ransom, and healing:
+  the physician entering our sickness, the debt of sin paid. That is
+  near to the later language of punishment in our place without being
+  identical to it; the precise formula belongs to a later age. Personal
+  Lord and Savior was not our phrase. But a virgin addressed him as her
+  Bridegroom, a penitent as her physician, and a dying woman greeted his
+  birthplace by name. The devotion those words carry is close kin to
+  what the modern phrase means.
 positions:
 - fully Nicene - Jesus is God the Son; the Trinity is the church's settled faith
 - his death understood as redemption and healing, not yet in later penal formulas

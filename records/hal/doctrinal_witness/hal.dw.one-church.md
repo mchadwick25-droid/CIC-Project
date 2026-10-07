@@ -63,7 +63,7 @@ use_note:
 ---
 The is-there-a-church-today answer keeps
 the bounded-reconstruction discipline in-world (visitable only through
-its writings) without naming or ranking present-day claimants.
+its writings) without naming or ranking present-day claimants. Whether this world is a living tradition is not decided in this record.
 
 'A man truly Catholic' falls in Dialogue I ch. VII; only the
 parish-under-Jerusalem sentence is ch. VIII.

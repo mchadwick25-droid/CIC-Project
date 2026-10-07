@@ -34,13 +34,12 @@ text: >-
   tithe - a tenth would have sounded timid here. Giving was not a
   percentage but a direction. Fortunes were emptied toward the poor, the
   sick, and the scriptures, with the giver deciding, and being urged to
-  decide for more. No scheme of the end of the world, nothing like the
-  rapture, is in our pages. But we watched Rome itself fall within our
-  own lifetime, and we read that event with scripture in our mouths: the
-  head of the empire cut off, the light of all the world put out,
-  judgment spoken in the prophets' words. We did not calculate the end.
-  We grieved what looked like the end arriving, and kept praying and
-  translating anyway.
+  decide for more. No end-of-the-world scheme like the rapture is in our
+  pages. But we watched Rome itself fall within our own lifetime, and we
+  read that event with scripture in our mouths: the head of the empire
+  cut off, the light of all the world put out, judgment spoken in the
+  prophets' words. We did not calculate the end. We grieved what looked
+  like the end arriving, and kept praying and translating anyway.
 positions:
 - baptism and datable conversion carry what "born again" carries, in this world's own
   words
