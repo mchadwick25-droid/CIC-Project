@@ -470,9 +470,12 @@ jobs:
       # FixtureRecordAnswerer (a deterministic, no-model stand-in) - no
       # live model call, no cost.
       - run: python -m pytest engine/m3/tests -q -n auto
-      # Every admitted or open world has a committed live admission report
-      # on the package hash the registry pins, passing every sealed probe
-      # or covered by a ruling in engine/m3/admission_rulings.yaml.
+      # Admission conformance is a promotion gate, not a merge gate
+      # (decision 58): here it reports which admitted worlds lack a live
+      # admission report on the pinned package under the current voice
+      # shape, and never fails the suite. The promotion runbook runs it
+      # with --enforce on a named, capped admission run before a
+      # promotion to live.
       - run: python -m engine.m3.admission_conform
 
       # M4 event log, projection, entrance seal, resume, turn loop.

@@ -810,11 +810,11 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             if rid in repository_records
         }
         for rid, score in _diverse_take(scored, repository_records, floor, used_keys):
-            if used_chars >= budget_chars:
-                break
             entry = _entry(rid, record_type, score)
             if entry is None:
                 continue
+            if used_chars + _entry_chars(entry) > budget_chars:
+                break
             if retrieval_fill:
                 entry["retrieval_fill"] = True
             selected.append(entry)
@@ -1140,7 +1140,7 @@ def render_evidence_block(evidence: dict) -> str:
             "## re-introduced as if new.",
         ]
     for candidate in evidence["candidates"]:
-        head = (candidate["head"] or "").strip().split(". ")[0].rstrip(".")
+        head = (candidate["head"] or "").strip()
         descriptors = [candidate["record_type"]]
         if candidate.get("classification"):
             descriptors.append(str(candidate["classification"]).upper())
