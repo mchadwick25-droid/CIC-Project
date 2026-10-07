@@ -876,3 +876,11 @@ Status: OPEN.
 - `don.term.pars-donati`: the same Doc_03 SS6 item on Augustine's usage has not been checked.
 
 Status: OPEN.
+
+### OG-25. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
+
+Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-don-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
+
+(1) (D) "What did he do?": "If you are asking how the cross saves, we cannot tell you" answers a question the participant did not ask. It reworks the scripted "Your second question we have to hand back to you" paragraph of `don.dw.the-creed-we-shared`, as that record stood at ccc0ae4e, lifting most of it almost word for word. The "who" reply no longer shows the 5 October deflection.
+
+Status: OPEN.

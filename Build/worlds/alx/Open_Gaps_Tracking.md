@@ -404,3 +404,17 @@ Errors in the voice's replies, each confirmed against the records by an independ
 (1) Sealed probe f6-i: the reply says "Demetrius had him ordained in another city without his consent"; `alx.story.origen-demetrius` has Palestinian bishops ordaining Origen without Demetrius's consent, and Demetrius condemning it.
 
 Status: OPEN.
+
+### OG-17. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
+
+Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-alx-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
+
+(1) (B) "Why did your people believe this?": John 1:1 and 1:14 are quoted ("In the beginning was the Word… And the Word became flesh and dwelt among us"). No alx record carries the text; `alx.term.logos` cites John 1:1-14 by reference only.
+
+(2) (C) "Who is Jesus?": the whole reply is `alx.demo.who-was-jesus` word for word (a 154-word shared run in a 152-word reply).
+
+(3) (E) "Why did your people believe this?": "Students like Gregory came in wanting philosophy", set under "we… in Alexandria". `alx.story.gregory-formation` has Gregory come to study law and meet Origen at Caesarea, and its not_for bars relocating the account to Alexandria.
+
+(4) (E) "What does Logos mean?": "The word came to us from the Greeks - they used it for the rational principle that holds the cosmos together." No record says this. `alx.force.philonic-inheritance` names Philo of Alexandria, and the reply reuses that record's own sentence with Philo removed.
+
+Status: OPEN.

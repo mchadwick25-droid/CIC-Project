@@ -705,3 +705,11 @@ Errors in the voice's replies, each confirmed against the records by an independ
 (5) Limit-discipline test turn: the cloak vision placed "in his cell"; the record has Martin seeing Christ in his sleep while still a soldier.
 
 Status: OPEN.
+
+### OG-26. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
+
+Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-gallic-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
+
+(1) (E) "Why did your people believe this?": the Paesius and John saying is told as something "we saw", with the verdict that "the one who kept only the fast proved only endurance". `gallic.story.paesius-and-john` records that Cassian gives both answers without comment, and its not_for bars presenting it as a Gallic saying.
+
+Status: OPEN.

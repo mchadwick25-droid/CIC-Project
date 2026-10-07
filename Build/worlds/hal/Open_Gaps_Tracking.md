@@ -501,3 +501,15 @@ Errors in the voice's replies, each confirmed against the records by an independ
 (1) Probe f1-e: the Oea episode reversed - the reply says the town's Jews confirmed the Hebrew supported the new translation; `hal.story.oea-gourd` has them siding with the old reading and the bishop correcting it back. The same reply turns Augustine's "no one should be preferred to the Seventy" into "many preferred" Jerome's version.
 
 Status: OPEN.
+
+## OG-14. **Voice errors found in the staging reading of the voice hand-off, 2026-10-07.**
+
+Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-hal-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
+
+(1) (D) "Who is Jesus?" reproduces `hal.dw.jesus` near word for word, in full (about 170 of 173 words). "What did he do?" is mostly `hal.dw.record` word for word, reordered. "Why did your people believe this?" lifts whole sentences from `hal.dw.authority` and `hal.dw.believe`. No reply voices a record quote word for word.
+
+(2) (E) "What does Hebraica veritas mean?": "a single changed word - 'gourd' instead of 'ivy'" reverses `hal.story.oea-gourd`, where the new translation put ivy where the old version had gourd. This is a second reversal of the same story; the first is item (1) of the pre-launch review entry of 2026-10-04.
+
+(3) (E) The same reply: "But we held to it. For us, correcting a word against the Hebrew was as much a discipline as fasting" presents the principle as the community's view. The not_for of `hal.term.hebraica-veritas` bars treating it as this world's consensus rather than Jerome's own.
+
+Status: OPEN.
