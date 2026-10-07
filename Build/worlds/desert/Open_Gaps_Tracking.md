@@ -648,4 +648,4 @@ Gates: `records desert` PASS; `regate desert --base origin/main` PASS (all liste
 
 Package: `packages/desert/2026-10-07T00-06-59Z`, pinned in `records/worlds/desert.yaml`.
 
-Status: OPEN.
+Status: the records were cleared at round 3 (Opus, `Build/Ministry/Operations/Audits/desert_identity_scaffolding_review_round3_2026-10-07.md`). OPEN: whether the oblique shape also covers `desert.dw.god` and `desert.dw.the-heart-and-the-spirit` is with the project lead.
