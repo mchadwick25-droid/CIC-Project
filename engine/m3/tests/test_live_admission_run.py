@@ -177,7 +177,7 @@ def test_save_transcripts_keeps_every_probe_and_leaves_grading_unchanged(monkeyp
 
     transcript = saved["per_probe"][0]["transcript"]
     assert transcript["raw_text"].endswith("]]")
-    assert transcript["request"] == {"model": "fake-model-id", "max_tokens": 1024}
+    assert transcript["request"] == {"model": "fake-model-id", "max_tokens": 2048}
     assert transcript["stop_reason"] == "end_turn"
     assert transcript["seconds_to_first_text"] is not None and transcript["seconds_total"] is not None
     assert isinstance(transcript["citations"], list) and transcript["answer_text"]
