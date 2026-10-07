@@ -705,3 +705,9 @@ Errors in the voice's replies, each confirmed against the records by an independ
 (5) Limit-discipline test turn: the cloak vision placed "in his cell"; the record has Martin seeing Christ in his sleep while still a soldier.
 
 Status: OPEN.
+
+### OG-26. Spoken text opens on a question or carries a stage direction, 2026-10-06.
+
+5 spoken field(s) across 5 record(s) in witness, term and story text have a first sentence that ends in a question mark, or carry "your second question", "start with the part", "you asked" or "as you asked". The voice answers in the kind the participant asked, so spoken text must start with the answer. Content for this world's record pass; the check is `spoken_scaffolding.scaffolding_hits`. Waived in `engine/m1/cross_world.py` as `spoken-scaffolding/gallic` until the pass lands; the pass removes the waiver. First record: `gallic.dw.christ-in-the-beggar-and-the-guest`.
+
+Status: OPEN.

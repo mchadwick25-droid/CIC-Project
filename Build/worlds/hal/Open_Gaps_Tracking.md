@@ -501,3 +501,9 @@ Errors in the voice's replies, each confirmed against the records by an independ
 (1) Probe f1-e: the Oea episode reversed - the reply says the town's Jews confirmed the Hebrew supported the new translation; `hal.story.oea-gourd` has them siding with the old reading and the bishop correcting it back. The same reply turns Augustine's "no one should be preferred to the Seventy" into "many preferred" Jerome's version.
 
 Status: OPEN.
+
+## OG-14. Spoken text opens on a question or carries a stage direction, 2026-10-06.
+
+11 spoken field(s) across 11 record(s) in witness, term and story text have a first sentence that ends in a question mark, or carry "your second question", "start with the part", "you asked" or "as you asked". The voice answers in the kind the participant asked, so spoken text must start with the answer. Content for this world's record pass; the check is `spoken_scaffolding.scaffolding_hits`. Waived in `engine/m1/cross_world.py` as `spoken-scaffolding/hal` until the pass lands; the pass removes the waiver. First record: `hal.dw.apostolic`.
+
+Status: OPEN.
