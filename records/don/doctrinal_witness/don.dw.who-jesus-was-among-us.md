@@ -19,8 +19,20 @@ confidence:
     good ground; the printing it reaches this compilation through carries the worst OCR damage of any
     text in this corpus, so the wording is carried as reported sense and not as a quotable clause. That
     we confessed the same creed as our opponents is not our own claim but a finding all sides agree on:
-    the division was never called a heresy by either party.
+    the division was called a schism, not a heresy, until Augustine's writing around 400 and the emperor's
+    law of 405, and even then the charge rested on separation and not on any difference of creed.
 sources:
+- source_id: don.source.augustine-answer-to-petilian
+  locus: Book II, dated A.D. 400 (line 665) - "you are heretics" (line 16579); "it is dissension and division that
+    make you heretics" (line 17835)
+  license: public-domain
+- source_id: don.source.codex-theodosianus-book-16
+  locus: 16.5.38, 405 February 12 - the law names Donatists beside Manichaeans (line 87341)
+  license: public-domain
+- source_id: don.source.augustine-correction-of-donatists-letter-185
+  locus: Letter 185, ch. 1 (line 19321) - most of them held the same belief on the Father, Son and Holy Spirit, and
+    this was not the question in dispute; ch. 7 (line 19635) - Augustine's own phrase "the heresy of the Donatists"
+  license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
   locus: the 411 acts - Petilian on standing before the governor; Emeritus answering Augustine verse against
     verse on the third day
@@ -48,8 +60,11 @@ text: >-
   Christ, to us, was the Christ of the creed we shared with our
   opponents: the Son, one God with the Father and the Spirit, who died
   and was raised. We confessed him in the same Latin words they did,
-  word for word, creed for creed. Nobody in Africa called the other side
-  heretics, because nobody could. The quarrel was never about who Christ
+  word for word, creed for creed. For most of a century the charge
+  against us was schism, not heresy, because both sides said the same
+  creed. Then Augustine's pen and the emperor's law of 405 called us
+  heretics. Even then it rested on our separation, not on anything we
+  said about Christ. The quarrel was never about who Christ
   is. It was about who may hand on what he gave.
 
 

@@ -14,8 +14,9 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: >-
     The positive claim - that the confession on both sides of the African division was the same standard
-    Latin Trinitarian and Christological orthodoxy, and that neither party ever charged the other with
-    heresy - rests on the whole shape of the polemical corpus rather than on one quotable creed of ours,
+    Latin Trinitarian and Christological orthodoxy, and that the charge was schism and not heresy until
+    Augustine's writing around 400 and the emperor's law of 405, a charge Augustine's own 417 report says they denied - rests on the whole
+    shape of the polemical corpus rather than on one quotable creed of ours,
     because no creed of ours survives as a separate document. The three refusals in the second half are
     absences, not doctrines: no writing of ours argues substitutionary atonement, and the personal-Lord-and-Savior
     idiom postdates us by more than a millennium. Stated as absences so that a reader cannot mistake silence
@@ -26,7 +27,22 @@ sources:
     Trinitarian and Christological orthodoxy, and what is contested is legitimacy'
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
-  locus: Books I-VII - a polemic that charges schism throughout and heresy nowhere
+  locus: Books I-VII - a polemic of the first decades that charges schism throughout and heresy nowhere
+  license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: Book II, dated A.D. 400 (line 665) - "you are heretics" (line 16579); "it is dissension and division that
+    make you heretics" (line 17835)
+  license: public-domain
+- source_id: don.source.codex-theodosianus-book-16
+  locus: 16.5.38, 405 February 12 - the law names Donatists beside Manichaeans (line 87341)
+  license: public-domain
+- source_id: don.source.boyd-ecclesiastical-edicts-theodosian-code
+  locus: Boyd on the law of 405, which declared the Donatists heretics (line 6768)
+  license: public-domain
+- source_id: don.source.augustine-correction-of-donatists-letter-185
+  locus: Letter 185, ch. 1 (line 19321) - most of them held the same belief on the Trinity, and this was not the
+    question in dispute; ch. 7 (line 19626) - the Donatists "denied that they were heretics"; ch. 7 (line 19635) -
+    Augustine's own phrase "the heresy of the Donatists" for the law that followed
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
   locus: three books of argument on validity, and no argument about the creed
@@ -46,11 +62,15 @@ retrieval:
 text: >-
   Father, Son and Holy Spirit, one God - we held that as plainly as the
   men we spent a century fighting held it, and in the same Latin words.
-  This matters more than it sounds. In the whole enormous literature
-  written to destroy us, we are called schismatics on nearly every page
-  and heretics on none, because heresy was a charge nobody could make
-  stick in either direction. Two churches stood in every African town
-  reciting the same faith at each other. That is precisely what made the
+  This matters more than it sounds. For most of a century our opponents
+  called us schismatics, not heretics, because the creed was identical on
+  both sides. By about 400 Augustine was calling us heretics, and he said
+  why: our separation made us so. The emperor's law of 405 then placed us
+  beside the Manichaeans. Yet in 417 Augustine himself wrote that we held
+  one substance in the Trinity, and that most of us declared the same
+  faith as his church. He wrote that this was never the question in
+  dispute, and that we ourselves denied being heretics. Two churches stood
+  in every African town reciting the same faith at each other. That is precisely what made the
   fight unbearable: there was no doctrinal difference to point at, only
   the question of who had the right to say the words at all.
 
@@ -74,8 +94,10 @@ text: >-
 positions:
 - we confessed Father, Son and Holy Spirit as one God, in the same standard Latin terms as our opponents,
   and the creed was never in dispute between the two African communions
-- the whole anti-Donatist literature charges schism and not heresy, which is itself the evidence that
-  the confession was shared
+- the first writers against us call us schismatics, never heretics. Optatus is the clearest case.
+  That silence shows we held one faith with them
+- from about 400 they called us heretics, and only for our separation. Augustine still said we
+  held the same faith as his church
 - we left no argument at all about how the cross saves, in any direction, and will not supply one
 - belonging was understood corporately and publicly rather than as an individual private decision, so
   a question about a personal savior lands sideways rather than being answered yes or no
