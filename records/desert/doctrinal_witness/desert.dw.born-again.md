@@ -54,5 +54,5 @@ file.
 
 The compiled text names Philoromus while carrying his own first-person
 words: a surviving "I" belongs to a named, sourced figure. The
-honest_limit for F4-T covers only the genuinely absent question
+honest_limit covers only the genuinely absent question
 (tithing) - see desert.limit.tithe.

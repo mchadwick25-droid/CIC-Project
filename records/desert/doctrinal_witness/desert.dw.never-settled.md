@@ -39,7 +39,7 @@ use_note:
   status: reviewed
 ---
 Drawn from desert.gravity.authority-tension's own description for the
-first and third positions, and from that gravity record's own Step3c
+first and third positions, and from that gravity record's own
 body note (itself drawing on Doc_07 SS3) for the second - "the founder
 of the office-based pole is himself remembered partly in the
 person-based idiom of the opposite pole."

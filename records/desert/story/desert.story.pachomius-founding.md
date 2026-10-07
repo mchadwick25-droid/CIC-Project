@@ -90,7 +90,7 @@ thousand men, thirteen hundred at the first house, written decades after
 Pachomius's death) grammatically distinct from the death-time house
 count and membership estimate, which are attributed to Doc_01 SS2.1
 directly (in divergence_note, matching desert.story.antony-withdrawal's
-own convention for citing that document in a story record);
+own convention for citing that document in a story record).
 The text uses Palladius's own wording,
 "not allowed to enter the sanctuary." Doc_01
 SS2.1's own hedge on the membership figure ("should be read as an
