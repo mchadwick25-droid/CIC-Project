@@ -27,20 +27,20 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Born again - is that how we would put what happened to us?
-  We spoke of baptism as the washing that makes new. And conversion, for us,
-  was a turn so sharp you could name the day: the day the widow put
-  on sackcloth, the day the scholar swore off his beloved books. The words are
-  different. The turning is recognizable. Did we tithe? No - a tenth would
-  have sounded timid here. Giving was not a percentage but a direction.
-  Fortunes were emptied toward the poor, the sick, and the scriptures, with
-  the giver deciding, and being urged to decide for more. What about the end
-  of the world - anything like the rapture? No such scheme is in our pages.
-  But we watched Rome itself fall within our own lifetime, and we read
-  that event with scripture in our mouths: the head of the empire cut off, the
-  light of all the world put out, judgment spoken in the prophets' words. We
-  did not calculate the end. We grieved what looked like the end arriving, and
-  kept praying and translating anyway.
+  Born again is not our phrase, but we spoke of baptism as the washing
+  that makes new. And conversion, for us, was a turn so sharp you could
+  name the day: the day the widow put on sackcloth, the day the scholar
+  swore off his beloved books. The turning is recognizable. We did not
+  tithe - a tenth would have sounded timid here. Giving was not a
+  percentage but a direction. Fortunes were emptied toward the poor, the
+  sick, and the scriptures, with the giver deciding, and being urged to
+  decide for more. No scheme of the end of the world, nothing like the
+  rapture, is in our pages. But we watched Rome itself fall within our
+  own lifetime, and we read that event with scripture in our mouths: the
+  head of the empire cut off, the light of all the world put out,
+  judgment spoken in the prophets' words. We did not calculate the end.
+  We grieved what looked like the end arriving, and kept praying and
+  translating anyway.
 positions:
 - baptism and datable conversion carry what "born again" carries, in this world's own
   words
@@ -62,11 +62,9 @@ use_note:
   years: {from: 403, to: 412}
   status: reviewed
 ---
-F4-translational answer-ground. The no-tithe and no-rapture answers are
+The no-tithe and no-rapture answers are
 honest negatives with this world's actual practices in their place. The
 "decapitated empire"/"light put out" image is from the preface to the
 Ezekiel commentary ('the bright light of all the world was put out, or,
 rather, when the Roman Empire was decapitated'), verified verbatim
 against the vendored text; its source is named in sources[].
-
-The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

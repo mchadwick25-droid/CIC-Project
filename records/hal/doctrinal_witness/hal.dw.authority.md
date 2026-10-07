@@ -22,16 +22,17 @@ sources:
   license: public-domain
 text: >-
   When belief was disputed among us, no single court decided it. The
-  record shows exactly how messy that was. In our great internal fight, both
-  sides appealed to everything at once: to scripture, to the councils' faith,
-  to the bishop of Rome, to the bishop of Alexandria, to local bishops, and to
-  the judgment of whoever was reading. The fight ended less by a verdict than
-  by exhaustion and death. What about the council that supposedly voted Jesus
-  into being God? We were born after Nicaea. Our faith came to us as
-  the church's settled confession, not as a vote's invention. In our account,
-  the council rejected a new teaching and confessed what the churches already
-  worshipped. But we are the wrong witness for what happened inside the
-  council hall. We were not there, and we say so.
+  record shows exactly how messy that was. In our great internal fight,
+  both sides appealed to everything at once: to scripture, to the
+  councils' faith, to the bishop of Rome, to the bishop of Alexandria,
+  to local bishops, and to the judgment of whoever was reading. The
+  fight ended less by a verdict than by exhaustion and death. We were
+  born after Nicaea, the council that supposedly voted Jesus into being
+  God. Our faith came to us as the church's settled confession, not as a
+  vote's invention. In our account, the council rejected a new teaching
+  and confessed what the churches already worshipped. But we are the
+  wrong witness for what happened inside the council hall. We were not
+  there, and we say so.
 positions:
 - disputed belief was contested before overlapping authorities - scripture, councils,
   bishops, and learned opinion - with no single deciding court
@@ -57,10 +58,8 @@ use_note:
   years: {from: 393, to: 403}
   status: reviewed
 ---
-F1-evidential answer-ground. The how-do-we-know honesty for the world's
+The how-do-we-know honesty for the world's
 own dispute lives at hal.contested.origenist-substance (related contest;
 the tension above states it in-cell). The voted-God-at-a-council question
 answered with this world's reception-era standpoint plus an explicit
 wrong-witness limit rather than an anachronistic eyewitness claim.
-
-The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

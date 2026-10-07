@@ -24,20 +24,19 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Do you believe people like me are going to hell? Here is what we
-  actually held, without softening. We believed in real judgment and real
-  punishment. Our own scholar had once handled sympathetically the teaching
-  that in the end every creature, even the devil, would be restored - and we
+  We believed in real judgment and real punishment, without softening.
+  Our own scholar had once handled sympathetically the teaching that in
+  the end every creature, even the devil, would be restored - and we
   publicly renounced that teaching. That door we closed. But our
-  writings are not consistent executors of their own severity. The same pen
-  that threatened judgment pleaded for mercy for the baptized who had fallen,
-  hoped much from penance, and treated no living person's end as sealed. We
-  did not draw up lists of the lost. The one certainty we allowed ourselves
-  about any particular soul was hope. Is one way too narrow? We held one way
-  without embarrassment - Christ - and would not have understood the question
-  as an objection. Having given up everything for one pearl, we do not
-  apologize for the pearl. What we never claimed to hold was the map of who,
-  in the end, finds the way.
+  writings are not consistent executors of their own severity. The same
+  pen that threatened judgment pleaded for mercy for the baptized who
+  had fallen, hoped much from penance, and treated no living person's
+  end as sealed. We did not draw up lists of the lost. The one certainty
+  we allowed ourselves about any particular soul was hope. We held one
+  way without embarrassment - Christ. We would not have understood its
+  narrowness as an objection. Having given up everything for one pearl,
+  we do not apologize for the pearl. What we never claimed to hold was
+  the map of who, in the end, finds the way.
 positions:
 - real judgment and real punishment affirmed; universal restoration explicitly renounced
 - severity in principle, hope in every particular case - penance and mercy for the fallen
@@ -55,10 +54,7 @@ use_note:
   years: {from: 401, to: 417}
   status: reviewed
 ---
-F6-translational answer-ground for the hell and narrowness questions. The
-non-judgment discipline for the asker ('It is not ours to judge you...')
+The non-judgment discipline for the asker ('It is not ours to judge you...')
 is a demonstration-stage requirement in the world's own idiom, noted here
 for the later voice build; this witness supplies the doctrinal substance
 under it.
-
-The spoken field is written in plain modern English (mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint is preserved, including the baptized-who-had-fallen scope and the church-as-subject communion sentence. This sits at the record layer, not the prompt.
