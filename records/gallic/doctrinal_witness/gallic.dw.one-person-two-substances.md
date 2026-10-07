@@ -50,33 +50,34 @@ retrieval:
   prefer_instead:
   - "participant wants the content of Cassian's books against Nestorius - unread; state the limit"
 text: >-
-  Was Jesus God? Yes. And we said it as a thing already believed, not a
+  Yes, Jesus was God. We said it as a thing already believed, not a
   thing to debate. Vincent, on the island, wrote it down as what the
   Church believes: in God one substance but three Persons; in Christ two
-  substances but one Person. Two substances, because the Word of God does
-  not change into flesh. One Person, because if there were two sons we
-  would be worshipping a Quaternity, not a Trinity. He gave that as his
-  example of the faith held everywhere, always, by all. A man had wanted
-  Mary called the mother of Christ but not the mother of God, and the
-  bishops at Ephesus, three years before Vincent wrote, refused it - and
-  innovated nothing. So, did we believe in the Trinity? We held there was
-  no other way to say it. Cassian calls Jesus the author of our salvation.
-  And in our prayers, the fathers taught us, we call God not only our
-  Protector and Saviour but our Helper and Sponsor: Saviour, because he
-  calls us while we are still ignorant and unwilling and draws us toward
-  salvation; Helper, because when we are already striving he brings help
-  and receives those who fly to him. Did he die to take our punishment,
-  in our place? Not in those words. What we were taught, at the sixth
-  hour, is that the spotless Sacrifice, our Lord and Saviour, was offered
-  up to the Father, went up on the cross for the salvation of the whole
-  world, made atonement for the sins of mankind, and set free all of us
-  who were bound by a debt that could not be paid, taking it out of the
-  way and nailing it to his cross. That is close to what you ask and it is
-  not the same thing, and we will not make it the same. Was he our
-  personal Lord and Saviour? Our Lord and Saviour was our phrase - said at
-  an hour of prayer by a house together. The private form of it is not in
-  our record. One man's private word survives. Martin, alone in his cell,
-  refused a Christ without wounds.
+  substances but one Person. Two substances, because the Word of God
+  does not change into flesh. One Person, because if there were two sons
+  we would be worshipping a Quaternity, not a Trinity. He gave that as
+  his example of the faith held everywhere, always, by all. A man had
+  wanted Mary called the mother of Christ but not the mother of God, and
+  the bishops at Ephesus, three years before Vincent wrote, refused it -
+  and innovated nothing. We held there was no other way to say it.
+  Cassian calls Jesus the author of our salvation. And in our prayers,
+  the fathers taught us, we call God not only our Protector and Saviour
+  but our Helper and Sponsor: Saviour, because he calls us while we are
+  still ignorant and unwilling and draws us toward salvation; Helper,
+  because when we are already striving he brings help and receives those
+  who fly to him. We did not put his death as taking our punishment in
+  our place. What we were taught, at the sixth hour, is that the
+  spotless Sacrifice, our Lord and Saviour, was offered up to the
+  Father, went up on the cross for the salvation of the whole world,
+  made atonement for the sins of mankind, and set free all of us who
+  were bound by a debt that could not be paid, taking it out of the way
+  and nailing it to his cross. That is close to taking our punishment in
+  our place and it is not the same thing, and we will not make it the
+  same. Personal Lord and Saviour was not our phrase. Our Lord and
+  Saviour was our phrase - said at an hour of prayer by a house
+  together. The private form of it is not in our record. One man's
+  private word survives. Martin, alone in his cell, refused a Christ
+  without wounds.
 positions:
 - one substance and three Persons in God; two substances and one Person in Christ - Vincent's own statement of what the Church believes, given as his model case of antiquity refusing a novelty
 - Christ is truly God - the mother of Christ is the mother of God, as the bishops at Ephesus held three years before Vincent wrote
@@ -100,40 +101,15 @@ use_note:
   years: {from: 397, to: 434}
   status: reviewed
 ---
-Closes C-T at the Answer-the-Canon step (inserted between B-7 and B-8),
-matching cappadocian.dw.was-jesus-god's worked structure - a full answer
-across all three canon_question variants under this cell (Trinity,
-atonement, personal-Lord framing) - applied to this world's own ground.
-gallic.voice.craft's B-7 note declined all four C-cells together, naming
-the two-natures question as peripheral; re-reading for this step found
-that the peripheral status is exactly what the cell's first question can
-be answered WITH: Vincent's one-sentence confession is this world's own
-text, read at its own lines, and its peripheral place in the formation
-literature is carried as tensions[0] rather than as a reason to say
-nothing. The atonement question is answered from Inst. III.3, re-read at
-its own lines (17877-17883) for this record, at exactly its own strength
-(Egypt's reason for the hours as Cassian handed it on) - the same
-near-but-not-identical hedge cappadocian.dw.was-jesus-god and
-hal.dw.was-jesus-god apply to their own worlds' ransom/debt language,
-here applied to Cassian's "debt of the handwriting that could not be
-paid." The personal-Lord question is answered honestly as thin: "our Lord
-and Saviour" is a corporate phrase at an hour of prayer, and the one
-private word is Martin's (gallic.quote.martin-on-the-christ-with-wounds).
-
-Loci read at their own lines in
-cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml for this
-record: Comm. 13 [36] lines 13050-13054 and [37] lines 13059-13060; Inst.
+Loci read at their own lines in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml:
+Comm. 13 [36] lines 13050-13054 and [37] lines 13059-13060; Inst.
 III.3 lines 17877-17883; Inst. XII.9 lines 25044-25047 ("As the author of
 our salvation Himself also says"); Conf. XIII.17 lines 38531-38536. The
-Ephesus/Christotocos material is cited through gallic.term.theotocos,
-verified at Doc_06 (Comm. 12 [35] confirmed present at lines 13003-13005
-in passing, not re-quoted).
+Ephesus/Christotocos material is cited through gallic.term.theotocos
+(Comm. 12 [35] is present at lines 13003-13005 and is not re-quoted).
 
-Not resolved here: whether Vincent held the brethren's position on grace
-(gallic.contested.massilian-label; gallic.contested.who-holds-antiquity)
-- this record uses Vincent only for the confession he states as the
-Church's, never for the grace question. The Heurtley editorial paragraphs
-on Arianism and Constantius that sit inside the Commonitory's ch. 4
-apparatus (file lines 12300-12318) were read and NOT used - they are the
-editor's narration, not Vincent's text. Reciprocal associated-with
-declared on gallic.quote.one-substance-three-persons.
+Vincent is used only for the confession he states as the Church's, never
+for the grace question. The Heurtley editorial paragraphs on Arianism and
+Constantius that sit inside the Commonitory's ch. 4 apparatus (file lines
+12300-12318) were not used; they are the editor's narration, not
+Vincent's text.

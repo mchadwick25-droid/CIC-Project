@@ -23,7 +23,7 @@ confidence:
     (unvendored) was written to settle, and the Chadwick/Casiday disagreement over whether Conf.
     XIII answers Augustine at all keeps it live. Faustus's De gratia, the in-window Lerins side,
     is unread beyond grep, so the Lerins position on this precise point cannot be stated in its
-    own words. CT tag (Meaning) carried from Doc_06 section 3.
+    own words.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
   locus: 'Conferences XIII.11 (the question, verbatim; Paul and Matthew; Zaccheus and the thief); XIII.3; XIII.7; XIII.8; XIII.9; XIII.18'
@@ -78,8 +78,8 @@ relations:
 - type: presupposes
   target: gallic.term.free-will
 plain_meaning: >-
-  The one question our whole argument about grace turns on. Does God have mercy on us because we
-  first showed a good will? Or does our good will begin because God first had mercy?
+  The one question our whole argument about grace turns on. It asks whether God has mercy on us
+  because we first showed a good will. Or whether our good will begins because God first had mercy.
 world_word: the beginning of a good will
 false_friend:
 - a settled "semi-Pelagian" error - man makes the first move, God does the rest
@@ -116,8 +116,8 @@ senses:
     said the question is beyond human reason. The later verdict "semi-Pelagian" is a name we never
     heard and would not have owned.
 quick_meaning: >-
-  The exact point at issue in our argument about grace. Does our good will begin with us, or with
-  God's mercy? Our teacher answered on both sides and said no one can fully grasp it.
+  The exact point at issue in our argument about grace: whether our good will begins with us or with
+  God's mercy. Our teacher answered on both sides and said no one can fully grasp it.
 distortion_risk: high
 use_note:
   means: "The beginning of a good will named the point at issue in the grace argument, whether the will starts with us or with God, which Cassian answered on both sides."
@@ -129,20 +129,10 @@ use_note:
   years: {from: 426, to: 429}
   status: reviewed
 ---
-Built from Doc_06 entry 042 (`galliclex042_beginning-of-a-good-will.md`, Tier 2, tags SC TC DR
-CT; Doc_03 5.3). Pruned from Doc_03's Tier-1 estimate at Doc_06 section 2.3: the crux of the grace
-argument, not a term that organizes beyond the point at issue between grace and free will. The
-chunk's CT Contest Type (Meaning) is carried into confidence.divergence_note and
-formation_confidence: Contested; evidentiary_weight: contested for the same reason.
+The Marseilles location is kept explicit ("at Marseilles our teacher
+Chaeremon") so that the southern, Cassian-only origin is not read as a
+whole-world claim.
 
-Voice: the chunk is written in close third person by node; this record renders it in the
-Representative's first-person "we" per the record-native brief, keeping the Marseilles location
-explicit ("at Marseilles our teacher Chaeremon") so that the southern, Cassian-only origin is not
-smoothed into a whole-world claim.
-
-Related-Terms also names grace (of God), free will, thoughts, compunction, and purity of heart -
-cross-batch at authoring time, added as relations (typed associated-with except as stated here) at
-the reconciliation pass once all 81 term records existed. Relation typing: `presupposes`
-gallic.term.grace and gallic.term.free-will - the chunk's Ecological Function makes this term "the
-crux of G3 ... the point at issue between grace (008) and free will (009)", a question that
-presupposes the two terms it is asked between.
+Relation typing: `presupposes` gallic.term.grace and gallic.term.free-will,
+because this term is the point at issue between grace and free will, a
+question that presupposes the two terms it is asked between.
