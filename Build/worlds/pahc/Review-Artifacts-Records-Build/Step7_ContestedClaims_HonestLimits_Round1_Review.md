@@ -136,7 +136,7 @@ Two further checks confirm the match rather than the exclusion:
 
 The martyrdom record's body compounds this: it justifies its own F2-E claim by ruling that the Ignatius, Didache, and 1 Clement disputes "are left uncovered by this cell rather than stretched to match it" — a judgement made entirely against f2-e-02 ("Isn't most of what's said about you legend…"), with f2-e-01 and f2-e-03 ("Where is your own record thinnest?") never considered.
 
-**What I checked:** read all four F2-E canon_question records in `records/_fleet/canon_question/`; confirmed via `canon.classify_cell` that F2-E is currently blank and that contested_claim membership does not close it (so this is a retrieval-grounding gain, not a coverage claim).
+**What I checked:** read all four F2-E canon_question records in `engine/canon/records/canon_question/`; confirmed via `canon.classify_cell` that F2-E is currently blank and that contested_claim membership does not close it (so this is a retrieval-grounding gain, not a coverage claim).
 
 **Fix:** add `F2-E` to `pahc.contested.ignatius-dating.canon_cells`, justified in the body against **f2-e-01** specifically; and amend the martyrdom record's body so its exclusion reasoning is scoped to f2-e-02 rather than asserting the other dating disputes are uncovered by the whole cell.
 

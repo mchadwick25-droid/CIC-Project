@@ -169,6 +169,15 @@ quick_meaning: >-
   The office our monks are seized into and must never seek. Fled, then overtaken; kept with a monk's
   humility; costing the saint some of his power.
 distortion_risk: high
+use_note:
+  means: "The monk-bishop meant the office monks are seized into and must never seek, whose wish is named vainglory, kept with a monk's humility and costing Martin some power."
+  not_for:
+    - "a bishop as administrator, or the office as a promotion or a sell-out"
+    - "the papacy or Rome, which sits in gallic.term.apostolic-see-pope"
+    - "the reluctance as total fact in every house, which is contested in gallic.contested.election-as-capture"
+    - "Martin at Treves and the forced communion with the Ithacians, which sit in gallic.story.trier-and-the-ithacian-communion"
+  years: {from: 397, to: 435}
+  status: reviewed
 ---
 Built from Doc_06 entry 013 (Tier 1, [PV]; chunk galliclex013_monk-bishop.md; Doc_03 8.1). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Editorial

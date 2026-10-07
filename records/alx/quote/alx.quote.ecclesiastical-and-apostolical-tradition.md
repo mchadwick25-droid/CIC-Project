@@ -41,6 +41,14 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.term.kanon-pisteos
+use_note:
+  means: "Origen, in On First Principles preface 2, holds that only teaching agreeing with tradition handed down from the apostles in the churches is truth."
+  not_for:
+    - "Origen's exact Greek wording, when the text survives in Rufinus's Latin"
+    - "a claim that the rule meant a council, an office or a fixed book"
+    - "a claim that scripture lacked authority, rather than being read inside the rule"
+  years: {from: 203, to: 254}
+  status: reviewed
 ---
 The cell carries two quite different questions and
 three serving terms, and one sentence could not honestly answer both.

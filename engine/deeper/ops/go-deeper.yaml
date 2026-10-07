@@ -1,0 +1,74 @@
+limits:
+  group_daily_ceiling: 6000
+  group_burst_multiplier: 6
+  low_balance_at: 100
+tokens:
+  solo:
+    open: 50
+    round: 20
+    round_from_fourth: 25
+  table:
+    open_per_seat: 50
+    round_two_seats: 60
+    round_three_seats: 100
+    round_two_seats_from_fourth: 75
+    round_three_seats_from_fourth: 125
+  free:
+    window_tokens: 550
+    window_days: 30
+    rounds_per_conversation: 3
+  packs:
+    - {price_usd: 7, tokens: 1100}
+    - {price_usd: 15, tokens: 2750}
+    - {price_usd: 30, tokens: 6600}
+door:
+  observe: true
+  base_weekly_usd: 150
+  gift_share: 0.8
+  purchase_share: 0.5
+  invoice_factor: 1.35
+  stages:
+    - {at: 0.66, table_free_rounds: 1}
+    - {at: 0.75, free_share: 0.5, solo_free_rounds: 2}
+    - {at: 0.90, table_free_rounds: 0}
+    - {at: 0.95, free_voice: false}
+    - {at: 1.00, paid_voice: false}
+paid:
+  round_cap: 40
+  provisional: true
+admin:
+  mint_max_tokens_per_request: 6600
+  mint_max_tokens_per_day: 13200
+pilot:
+  pack_usd: 7
+  pilot_end_date: 2026-12-31
+  audiences:
+    general:
+      pilot_open: false
+      pilot_cap: 50
+      per_address: 2
+      public: true
+    pastors:
+      pilot_open: false
+      pilot_cap: 25
+      per_address: 2
+      public: false
+    historians:
+      pilot_open: false
+      pilot_cap: 25
+      per_address: 2
+      public: false
+words:
+  limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
+  notes:
+    no_code: "To carry on in this conversation, add tokens or enter a code."
+    code_not_accepted: "That code was not accepted. Check it and try again."
+    spent: "Your tokens have run out. Add more to carry on."
+    too_few: "You do not have enough tokens left for a Table round. Add more to carry on."
+    daily_ceiling: "Your code has reached its limit for today. It works again tomorrow."
+    paused: "Codes are paused for now. Your code is safe."
+    in_use: "Your tokens are in use by another conversation. Try again in a moment."
+  door:
+    limited: "Free conversations are limited this week. Gifts keep them open — give at Get Involved."
+    paused: "Free conversations are paused until the week turns."
+    code_still_works: "A code still works."

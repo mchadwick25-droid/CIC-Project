@@ -38,6 +38,13 @@ relations:
   target: desert.quote.the-deeds-of-christ-prove-him
 - type: associated-with
   target: desert.figure.antony
+use_note:
+  means: "In the Life of Antony, Antony tells philosophers the unchanged Word took a human body for human salvation so humans might share the divine nature."
+  not_for:
+    - "words Antony certainly said, when the argument tracks Athanasius's own On the Incarnation"
+    - "a developed desert Christology, drawn from this one disputation"
+  years: {from: 313, to: 356}
+  status: reviewed
 ---
 The single fullest Christological statement this world's own corpus puts in a desert
 participant's own mouth. It matters for three reasons. It is an argument, not a

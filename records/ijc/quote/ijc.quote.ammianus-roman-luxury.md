@@ -54,6 +54,13 @@ modern_lens_note: >-
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
+use_note:
+  means: "The pagan historian Ammianus judges that Rome's bishopric was fought over for its wealth and luxury, and contrasts it with plainer, abstemious provincial clergy."
+  not_for:
+    - "a claim that this is the church's own self-account rather than a hostile outsider's verdict"
+    - "a claim that 'the everlasting Deity' shows Ammianus writing as a Christian believer"
+  years: {from: 378, to: 391}
+  status: reviewed
 ---
 Text verified verbatim against the vendored file, a
 raw djvu OCR scan, with one mechanical correction against a visible

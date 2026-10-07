@@ -54,6 +54,14 @@ tensions:
 relations:
 - type: associated-with
   target: witt.quote.christs-return-to-judgment
+use_note:
+  means: "This witness holds that our confession taught Christ will condemn the ungodly to endless torment and that we held one way, while naming no census of who is ungodly."
+  not_for:
+    - "a claim that our confession named particular people, nations, or living traditions as damned"
+    - "an answer on divorce and remarriage, which this record declines"
+    - "the resurrection-and-end-of-the-world answer, which sits in witt.dw.a-death-begun-that-a-child-receives"
+  years: {from: 1530, to: 1530}
+  status: reviewed
 ---
 Closes F6-T at the Answer-the-Canon step (inserted between B-7a and B-8), answering the cell's outsiders-
 and-hell and too-narrow questions at full, unsoftened strength from Article XVII's own words, and

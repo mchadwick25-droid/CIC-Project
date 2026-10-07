@@ -949,3 +949,69 @@ reading R37-A declined).
 Condition (b)'s sources are therefore three: the Facilitator's
 introduction, the participant, and another Representative - each only
 for what was actually said in this conversation.
+
+---
+
+## Change orders from the conversation system design (2026-10-02)
+
+The conversation system design was approved to proceed on 2026-10-02
+(System Hub Decision Log, "Conversation system design: approved to
+proceed, Design C"; design page
+`https://claude.ai/artifact/MBPbubWhcJrTddiEbte6P1`, section "Still
+yours to decide"). It names five change orders on the Program Spec. The
+first four wait on Mark's word. The fifth is ruled. Each is brought back
+to Mark one at a time as the slice that needs it is reached.
+
+### R43 — CO-1: the M5 two-call gate becomes one sealed call if E2 passes
+**Status:** RULED — 2026-10-03, (b), System Hub decision 43. The reader
+stays and E2 is not run; modern terms come from the dictionary scan alone.
+Mark's decision 6 had ordered the
+test: remove the reader call and keep the safety call sealed and
+blocking. E2 runs the reader on and off on three worlds against the
+sealed probes (cap about $6, sample first).
+(a) If E2 holds first-sentence answers and asks covered inside the
+band, the gate becomes one sealed Haiku call and the modern-term bridge
+becomes a dictionary lookup. (b) Keep both calls.
+**Recommend (a), decided by the test.** Lands in slice 8.
+
+### R44 — CO-2: R30's streaming granularity
+**Status:** RULED — 2026-10-03, (a), System Hub decision 38. Table turns
+included: the seat-identity guard runs on each sentence before release.
+(a) Release each sentence once its backstops have run, instead of
+holding the opening paragraph. (b) Keep R30's paragraph hold under
+streaming.
+**Recommend (a).** The paragraph hold guarded checks that now run per
+sentence, before each sentence is emitted; the final plan stays
+authoritative. Lands with the streaming route, slice 4.
+
+### R45 — CO-3: Artifact-5 and Artifact-7 rewritten to the code
+**Status:** PENDING.
+(a) Rewrite Artifact-5 (routes) and Artifact-7 (Table) to match the
+routes and Table rules the code actually has, plus the new streaming
+route. (b) Change the code to match the spec as written.
+**Recommend (a).** The spec and the code disagree on the Table's floor,
+cap and rounds; the code is the behaviour participants meet.
+
+### R46 — CO-4: the spec's module list gains M9 and M10
+**Status:** PENDING.
+M9 (confinement) and M10 (validation and handoff) exist in the code and
+not in the spec's module list. The change adds them as written.
+**Recommend adding them.**
+
+### R47 — CO-5: native API citations replace the hand-copied citation ids
+**Status:** CLOSED, NOT ADOPTED — 2026-10-02, Mark's decision 22, after
+E1 (Decision-Log Entry 89). The hand-copied id contract stays. The text
+below records the ruling as it stood before E1.
+
+**Ruled:** R9, R10, R17 and the R27 family keep their meaning, their
+marks, their placement and their cap. Only the mechanism changes. Today
+the voice copies a record id by hand into its reply. Under the change,
+each record in a dossier is a document block the API can cite, and the
+engine reads the citation blocks the API returns and maps each one to
+its record id. An invented id becomes impossible by construction.
+
+**The proof it waits on:** E1's third arm runs native citations against
+the id contract. The mechanism is trusted only if it lands inside the
+band or better on invented ids, citation count and meaning fit. Lands in
+slice 7. Field comparison:
+`https://claude.ai/artifact/Ae3eKobJ8v3CAvx2kj4icj`.

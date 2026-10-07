@@ -35,6 +35,13 @@ retrieval:
   retrieve_when:
   - "participant asks what they held about Jesus being God"
   - "participant asks how they said it in their own words rather than a council's"
+use_note:
+  means: "In Demonstration XVII Aphrahat affirms as sure among his people that Jesus is God and Son of God, adding a list of scriptural titles."
+  not_for:
+    - "a confession detached from its setting in a polemical reply to Jewish objections"
+    - "a claim that 'Light of light' quotes the Nicene Creed or that Aphrahat used Nicene essence-language"
+  years: {from: 344, to: 344}
+  status: reviewed
 ---
 Verified verbatim (Dem XVII.2). USE NOTE: the sentence stands inside
 a demonstration framed as a reply to Jewish objections - the

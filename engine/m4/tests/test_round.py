@@ -8,6 +8,7 @@ from types import SimpleNamespace
 
 import pytest
 
+from engine.m4 import facilitator_turns
 from engine.m4.round import (
     TABLE_SESSION_ROUND_CAP,
     RoundConfig,
@@ -209,7 +210,7 @@ def test_daily_cap_closes_the_table_with_the_daily_cap_text():
     assert opening.session_capped
     assert not opening.voices_speak
     assert opening.routing_action == "session_cap_turn"
-    assert "today's limit" in opening.facilitator_events[0]["text"]
+    assert opening.facilitator_events[0]["text"] == facilitator_turns.CAP_CLOSE_TEXT
 
 
 def test_acute_crisis_overrides_daily_cap():

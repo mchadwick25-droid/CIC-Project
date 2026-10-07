@@ -83,6 +83,14 @@ senses:
     from God Himself.'''
 quick_meaning: Admitting sin, then hearing forgiveness as though from God himself. A treasured comfort.
 distortion_risk: high
+use_note:
+  means: "Confession and absolution meant admitting sin and hearing forgiveness as from God himself, kept as a treasure, never compelled and never requiring a full list of sins."
+  not_for:
+    - "a claim that Wittenberg abolished confession"
+    - "'absolution' as a word belonging only to the papacy"
+    - "the keys' wider authority, which sits in witt.term.the-keys"
+  years: {from: 1520, to: 1531}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 5.10 (confession / absolution, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

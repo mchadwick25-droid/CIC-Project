@@ -60,6 +60,14 @@ senses:
 quick_meaning: The one woven Gospel story we read in worship. The four accounts were joined into
   a single telling, and people simply called it 'the Gospel'.
 distortion_risk: medium
+use_note:
+  means: "Ewangeliyon da-Mhallete, the Gospel of the Mixed, is Tatian's harmonized single-narrative Gospel, the standard Gospel text of Syriac-speaking churches throughout this world's window."
+  not_for:
+    - "a claim that this world read four separate Gospels or used the Peshitta"
+    - "a claim that the Syriac name da-Mhallete is securely attested within the window"
+    - "a claim that the harmony survives as an intact book"
+  years: {from: 200, to: 410}
+  status: reviewed
 ---
 A Tier 2, CT-tagged entry. The CT contest (the vernacular name's
 earliest secure attestation is unresolved - Theodoret's Greek account

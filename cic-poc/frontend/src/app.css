@@ -408,44 +408,58 @@ button {
   color: var(--color-text-muted);
 }
 
-/* Read-aloud step 1: BrandMark stays pinned left, the note and the
-   control (either or both may be absent) stay grouped on the right -
-   .conversation__bar's own space-between only handles two children
-   correctly, so a third one needs this wrapper rather than reflowing
-   however three flex items happen to land. */
+/* BrandMark stays pinned left; the not-saved note sits grouped on the right. */
 .conversation__bar-right {
   display: flex;
   align-items: center;
   gap: var(--spacing-sm);
 }
 
-.read-aloud-control {
+.door-narration {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-top: 8px;
+}
+
+.door-narration__play {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   min-height: 44px;
-  min-width: 44px;
-  padding: 6px 12px;
+  padding: 0;
   background: none;
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
-  color: var(--color-text-muted);
-  font-size: 0.72rem;
+  border: 0;
+  color: var(--color-mark-dot);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
-.read-aloud-control[aria-pressed='true'] {
-  border-color: var(--color-representative);
-  color: var(--color-representative);
-  background: var(--color-representative-bg);
+.door-narration__play:hover {
+  filter: brightness(1.15);
 }
 
-/* A visible line under the bar, not a tooltip - shown once, the first
-   time the control's own target turn is on screen (ReadAloudDisclosure.tsx). */
-.read-aloud-disclosure {
-  padding: 8px var(--spacing-lg);
-  background: var(--color-surface);
-  border-bottom: 1px solid var(--color-border);
+.door-narration__play:focus-visible {
+  outline: 2px solid var(--color-mark-dot);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.door-narration__icon {
+  width: 13px;
+  height: 13px;
+  fill: currentColor;
+  flex: none;
+}
+
+.door-narration__note {
   color: var(--color-text-muted);
-  font-size: 0.76rem;
-  line-height: 1.4;
+  font-size: 0.72rem;
 }
 
 .conversation__transcript {
@@ -622,23 +636,13 @@ button {
   color: var(--color-text-muted);
 }
 
-/* Original wording of a quote spoken in its modern rendering: the click
-   page carries both forms. */
-.story-mark__original {
+/* A quote's modern rendering on its click page, above the source
+   reference. */
+.story-mark__rendering {
   margin-top: 8px;
 }
 
-.story-mark__original-label {
-  margin: 0;
-  font-family: var(--font-family-ui);
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--color-text-muted);
-}
-
-.story-mark__original blockquote {
+.story-mark__rendering blockquote {
   margin: 4px 0 0;
   padding-left: 10px;
   border-left: 2px solid var(--color-border);
@@ -1000,6 +1004,109 @@ button {
   font-family: var(--font-family-ui);
   font-size: 0.72rem;
   cursor: pointer;
+}
+
+.go-deeper {
+  margin-top: var(--spacing-xs, 0.25rem);
+  font-size: 0.78rem;
+  color: var(--color-text-light);
+}
+
+.go-deeper__bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+}
+
+.go-deeper button {
+  background: none;
+  border: none;
+  min-height: 44px;
+  padding: 0 0.5rem;
+  color: var(--color-text-light);
+  font-family: var(--font-family-ui);
+  font-size: 0.78rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.go-deeper__panel {
+  position: fixed;
+  z-index: 20;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: var(--spacing-md);
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-text-light);
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+@media (min-width: 900px) {
+  .go-deeper__panel {
+    top: 0;
+    left: auto;
+    width: 22rem;
+    max-height: none;
+    border-top: none;
+    border-left: 1px solid var(--color-text-light);
+  }
+}
+
+.go-deeper__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.go-deeper__head h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.go-deeper__actions,
+.go-deeper__form,
+.go-deeper__section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.go-deeper__section {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.go-deeper__form input {
+  min-height: 44px;
+  min-width: 0;
+  width: 15rem;
+  max-width: 100%;
+  padding: 0.35rem 0.5rem;
+  font: inherit;
+  letter-spacing: 0.06em;
+}
+
+.go-deeper__code {
+  margin: 0;
+  word-break: break-word;
+}
+
+.go-deeper__error {
+  flex-basis: 100%;
+  margin: 0;
+  color: var(--color-error);
+}
+
+.turn--facilitator p.turn__note {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
 }
 
 .conversation__error {
@@ -1511,4 +1618,50 @@ button {
   font-size: 0.72rem;
   color: var(--color-text-muted);
   font-style: italic;
+}
+
+/* Deletion on request: a quiet link under the composer, a confirm step. */
+.delete-conversation {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg) var(--spacing-md);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.delete-conversation__link {
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  opacity: 0.7;
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;
+}
+
+.delete-conversation--confirm {
+  border-top: 1px solid currentColor;
+  padding-top: var(--spacing-sm);
+}
+
+.delete-conversation__title {
+  font-weight: 600;
+}
+
+.delete-conversation__actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-sm);
+}
+
+.delete-conversation__actions button {
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: var(--border-radius);
+  color: inherit;
+  padding: 0.35rem 0.9rem;
+  font: inherit;
+  cursor: pointer;
 }

@@ -4,7 +4,7 @@
 **Produced at:** per-world build step 2, Source ecology (spec §4.3.2), 2026-08-21
 **For:** Mark, in his operational source-acquisition role (Build-Blueprint §7)
 **Scope authority:** the approved Step 0 confirmation (2026-07-19) and Doc_01 (Approved to proceed) — settled, not reopened here. Window 312–451; Rome, Constantinople, Milan; three strands (Roman/Apostolic-Primacy; Constantinopolitan/Imperial-Proximity; Ambrosian/Sacramental-Independence); Homoian recentering binding (Step 0 §4.1).
-**Search basis:** every entry is grounded in a search recorded in `records/ijc/search_record/` — including the searches that came back empty. The vendored corpus (`cic/texts/`, supplied by Mark 2026-08-15) already covers the entire load-bearing primary base; what remains OPEN below is the true outstanding wantlist, none of it blocking.
+**Search basis:** every entry is grounded in a search recorded in `Build/worlds/ijc/build/records/search_record/` — including the searches that came back empty. The vendored corpus (`cic/texts/`, supplied by Mark 2026-08-15) already covers the entire load-bearing primary base; what remains OPEN below is the true outstanding wantlist, none of it blocking.
 
 ---
 

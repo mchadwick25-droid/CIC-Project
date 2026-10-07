@@ -244,6 +244,9 @@ nav.site-nav a[aria-current="page"] { color: var(--madder); }
 .btn.secondary:hover { background: rgba(161,62,43,0.07); }
 
 /* Sections */
+.narration { display: flex; align-items: center; gap: .55rem; flex-wrap: wrap; margin: .3rem 0 .8rem; }
+.narration audio { display: block; height: 1.9rem; max-width: 220px; width: 220px; flex: 0 0 auto; }
+.narration-disclosure { font-size: .78rem; color: var(--muted); margin: 0; }
 main { padding-bottom: 4rem; }
 section.page-section {
   max-width: 40rem;
@@ -445,3 +448,4 @@ ol.convictions li::before { border-color: #E08C74; }
   .feature-bar { gap: 0.5rem; }
   .feature-btn { font-size: 0.8rem; padding: 0.45rem 0.9rem; }
 }
+.door-line { max-width: 46rem; margin: 1rem auto 0; line-height: 1.5; text-align: center; }

@@ -24,10 +24,11 @@ fallback ladder appends, it never revises). A finding is a signal that
 something upstream is wrong, not something to paper over on the way out.
 So nothing here mutates text, and the findings ride on the voice event.
 
-FOUR FAMILIES, chosen because each is EXACTLY decidable on the finished
-text (given, for the fourth, the citations and records the turn already
-resolved). Register in general is not (engine/m3/grading.py says so about
-itself, and it is right); these four are.
+THE FAMILIES, chosen because each is EXACTLY decidable on the finished
+text (given, for guard_proximity, the citations and records the turn
+already resolved, and for horizon, the world's window). Register in general
+is not (engine/m3/grading.py says so about itself, and it is right); these
+are.
 
   display        markup that was never meant for a person. Residual
                  [[...]] in any spelling, literal asterisks, a markdown
@@ -52,6 +53,10 @@ itself, and it is right); these four are.
                  instrument at defect severity - reports
                  only, same as every family here, never removes a
                  sentence.
+  horizon        a mention of anything after the world's window closes:
+                 a gazetteer event, a modern term, a later year or century
+                 (engine.m1.horizon, the scanner the M1 horizon gate runs on
+                 the records). Its count is a defect signal in the QC store.
 
 WHAT IT DELIBERATELY DOES NOT DO: stop the model writing any of this. That
 is the prompt's job, and the prompt will sometimes fail. The value here is
@@ -59,6 +64,8 @@ that a failure becomes visible instead of silent.
 """
 import re
 
+from engine.m1.horizon import dated_terms, post_window_mentions
+from engine.m1.loader import load_fleet_records
 from engine.prose import GUARD_MARKERS, QUOTE_CLOSE, QUOTE_OPEN, SELF_NAMING_MARKER, content_words, is_guard_marker_line, sentences
 
 # Anything in tag position, however it is spelled. grounding_net.strip_tags
@@ -387,6 +394,27 @@ def _guard_proximity_findings(text: str, citations: list[dict] | None, repositor
     return out
 
 
+def _horizon_findings(text: str, window_end: int | None) -> list[dict]:
+    """Each sentence naming something after the world's window closes
+    (engine.m1.horizon, the scanner the M1 horizon gate runs on records)."""
+    if window_end is None:
+        return []
+    terms = dated_terms(load_fleet_records())
+    out = []
+    for sentence in sentences(text):
+        for mention in post_window_mentions(sentence, window_end, terms):
+            out.append(_finding("horizon", f"names {mention}, after the window closes in {window_end}", sentence))
+    return out
+
+
+def check_horizon(text: str, window_end: int | None) -> list[dict]:
+    """The live backstop: the horizon family alone, on the finished text.
+    The other families run after the conversation (engine.m7.offline_checks)."""
+    if not (text or "").strip():
+        return []
+    return _horizon_findings(text, window_end)
+
+
 def check_output(
     text: str,
     *,
@@ -394,6 +422,7 @@ def check_output(
     participant_message: str | None = None,
     citations: list[dict] | None = None,
     repository_records: dict[str, dict] | None = None,
+    window_end: int | None = None,
 ) -> list[dict]:
     """Every defect found on the finished text. Empty list is the clean case.
 
@@ -408,7 +437,8 @@ def check_output(
     world's own compiled records by id - both optional, both needed
     together for the guard_proximity family; a caller with neither (e.g.
     a bare-text check) gets the first three families only, exactly as
-    before this family existed.
+    before this family existed. `window_end` is the world's window close;
+    with it the horizon family reports each mention of something later.
     """
     if not (text or "").strip():
         return []
@@ -419,6 +449,7 @@ def check_output(
         + _premise_findings(text, participant_message, said)
         + _pronoun_findings(text)
         + _guard_proximity_findings(text, citations, repository_records)
+        + _horizon_findings(text, window_end)
     )
 
 

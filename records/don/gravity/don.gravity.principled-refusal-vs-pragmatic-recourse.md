@@ -92,5 +92,14 @@ manifestations:
 - the 390s invocation of existing imperial and proconsular anti-heretical legislation against the movement's
   own Maximianist dissidents
 classification: tensional
+use_note:
+  means: "The movement denied the state could judge the true church yet turned to imperial machinery at three dated points, 313, 361 and the 390s, a tension this record reads from three documented acts."
+  not_for:
+    - "a claim about the standing refusal on its own, such as the rejection of the Rome and Arles rulings, which sits in don.gravity.refusal-of-imperial-legitimacy"
+    - "a claim that the Donatists themselves described this as a tension"
+    - "a claim that the pattern shows simple incoherence rather than refusal under pressure"
+    - "a claim that the refusal held absolutely at every point"
+  years: {from: 313, to: 399}
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 SS3.6 (T1), tested surfacing G5's own Persistence per Doc_04 SS1's own generation note. relations[] carries the gravity<->gravity edge (G5) and gravity<->force edges (1B-2, 2A-1, 2B-4) named above. The explicit Doc_04 SS6 finding of NO demonstrated relationship with T2 is named in this record's own description and body text, not encoded as a relations[] entry -- see this script's own docstring.

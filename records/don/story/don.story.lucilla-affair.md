@@ -109,6 +109,13 @@ modern_contrast: >-
   her power was real - a household, a fortune, the standing to make or
   unmake a bishop. A hostile source that needs a woman's agency in order
   to blame her has recorded that agency, whatever it meant to do.
+use_note:
+  means: "As Optatus tells it, Lucilla, rebuked for kissing a martyr's bone, saw her rebuker made bishop of Carthage, and a rival was consecrated against him."
+  not_for:
+    - "a claim that the schism began from a rich woman's wounded pride, which is the opponent's explanation"
+    - "a claim that Lucilla's own account survives"
+  years: {from: 311, to: 312}
+  status: reviewed
 ---
 Compiled from World-Builds/Donatism/Story-Chunks/donstory004_lucilla-
 consecration-dispute.md (Doc_09 story index row donstory004, Tier 1),

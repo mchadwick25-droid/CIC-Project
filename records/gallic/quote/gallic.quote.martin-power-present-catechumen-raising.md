@@ -51,6 +51,14 @@ relations:
   target: gallic.force.power-displayed-disowned
 - type: associated-with
   target: gallic.gravity.virtus
+use_note:
+  means: "Sulpitius describes Martin praying over the dead catechumen, perceiving through the Spirit that divine power was present, and waiting for the outcome."
+  not_for:
+    - "a power Martin could command at will, when he perceives it and waits"
+    - "the whole raising narrative, which sits in gallic.quote.martin-raises-the-catechumen"
+    - "a verified miracle rather than the hagiographer's account of one"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "perceiving by"` returns line 995; `grep -n "he then rose up for a little"` returns line 998.

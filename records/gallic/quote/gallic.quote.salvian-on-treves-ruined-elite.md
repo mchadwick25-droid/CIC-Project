@@ -61,6 +61,14 @@ relations:
   target: gallic.quote.salvian-on-the-unburied-dead
 - type: associated-with
   target: gallic.quote.salvian-on-the-demand-for-circuses
+use_note:
+  means: "Salvian, in On the Government of God, says Trier's despoiled nobles lost more in character than in fortune and that the city was stormed four times."
+  not_for:
+    - "a settled number of sacks, when Salvian says three in gallic.quote.salvian-on-the-unburied-dead"
+    - "a neutral report rather than a preacher's moral indictment"
+    - "the demand for circuses, which sits in gallic.quote.salvian-on-the-demand-for-circuses"
+  years: {from: 439, to: 450}
+  status: reviewed
 ---
 Verified against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n "lofty birth and
 honor"` returns one hit, line 8093; `grep -n "taken by storm no less than four"` returns one hit, line

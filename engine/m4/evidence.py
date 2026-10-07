@@ -265,7 +265,11 @@ def _head_text(record: dict) -> str:
     if record_type == "term":
         return record.get("plain_meaning") or ""
     if record_type == "story":
-        return record.get("tellable_as") or record.get("text") or ""
+        tellable = record.get("tellable_as")
+        if not tellable:
+            raise ValueError(f"{record.get('id')}: story has no tellable_as - "
+                             f"refusing to fall back to text, which is never voiced")
+        return tellable
     if record_type in ("quote",):
         # The speakable form is ALWAYS modern_rendering, never `text` - a
         # non-English or archaic original is primary evidence (the library
@@ -465,7 +469,7 @@ def match_asks_to_cells(
     *, message: str, asks: list[dict] | None, canon_questions: dict[str, dict], repository_records: dict[str, dict] | None = None, top_n: int = 2
 ) -> list[dict]:
     """Stage A (design §3.2): asks -> canon cells. canon_questions is the
-    fleet's own canon_question records (records/_fleet/canon_question/),
+    fleet's own canon_question records (engine/canon/records/canon_question/),
     id -> record - the per-cell keyword corpus is derived live from their
     `text` fields (see module docstring on the canon-map.json cache this
     stands in for). Returns up to top_n {"cell", "score", "shared_words"}
@@ -762,7 +766,10 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             "confidence": (record.get("confidence") or {}).get("formation_confidence"),
             "classification": record.get("classification"),
         }
-        guards = record.get("claim_guards")
+        note = record.get("use_note") or {}
+        if note.get("means"):
+            entry["means"] = note["means"]
+        guards = list(record.get("claim_guards") or []) + list(note.get("not_for") or [])
         if guards:
             entry["claim_guards"] = guards
         return entry
@@ -771,7 +778,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
         # The rider rides inside the same budget it's counted against -
         # Build-Plan.md Stage 4a's own "riders in render_evidence_block
         # inside existing budget_chars" - never a separate allowance.
-        return len(entry["head"]) + sum(len(g) for g in entry.get("claim_guards") or [])
+        return len(entry["head"]) + len(entry.get("means") or "") + sum(len(g) for g in entry.get("claim_guards") or [])
 
     for rid in coverage_entry.get("honest_limit") or []:
         entry = _entry(rid, "honest_limit", None)
@@ -803,11 +810,11 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             if rid in repository_records
         }
         for rid, score in _diverse_take(scored, repository_records, floor, used_keys):
-            if used_chars >= budget_chars:
-                break
             entry = _entry(rid, record_type, score)
             if entry is None:
                 continue
+            if used_chars + _entry_chars(entry) > budget_chars:
+                break
             if retrieval_fill:
                 entry["retrieval_fill"] = True
             selected.append(entry)
@@ -1133,7 +1140,7 @@ def render_evidence_block(evidence: dict) -> str:
             "## re-introduced as if new.",
         ]
     for candidate in evidence["candidates"]:
-        head = (candidate["head"] or "").strip().split(". ")[0].rstrip(".")
+        head = (candidate["head"] or "").strip()
         descriptors = [candidate["record_type"]]
         if candidate.get("classification"):
             descriptors.append(str(candidate["classification"]).upper())
@@ -1144,6 +1151,8 @@ def render_evidence_block(evidence: dict) -> str:
         if candidate.get("already_told_this_session"):
             descriptors.append("already told this session")
         line = f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}"
+        if candidate.get("means"):
+            line += f" | means: {candidate['means']}"
         guards = candidate.get("claim_guards")
         if guards:
             # The prefer_instead redirect rule's guard half, rendered as a

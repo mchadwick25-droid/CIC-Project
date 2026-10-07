@@ -83,3 +83,49 @@ def test_build_provenance_never_ships_in_repository_json():
     assert any(r.get("record_type") == "search_record" for r in records.values())
     assert any("why_sources_cannot_answer" in r for r in records.values())
     assert any("modern_lens_note" in r for r in records.values())
+
+
+def test_prompt_carries_each_story_tellable_as_and_never_its_source_text():
+    from engine.m1.loader import load_world_records
+
+    package, _ = compile_and_hash(**FIXED_ARGS)
+    prompt = package["compiled/prompt.txt"].decode("utf-8")
+    stories = [r for r in load_world_records("fix").values() if r.get("record_type") == "story"]
+    assert stories
+    for story in stories:
+        assert story["text"] != story["tellable_as"]
+        assert story["tellable_as"] in prompt
+        assert story["text"] not in prompt
+        chunk = package[f"compiled/chunks/story/{story['id']}.md"].decode("utf-8")
+        assert story["text"] not in chunk
+
+
+def test_a_story_with_no_tellable_as_fails_compilation_instead_of_falling_back_to_text():
+    import pytest
+
+    from engine.m2.builders import build_prompt
+
+    records = {"fix.story.bare": {"id": "fix.story.bare", "record_type": "story", "canon_cells": [], "text": "Source wording."}}
+    with pytest.raises(ValueError, match="no tellable_as"):
+        build_prompt(records, {})
+
+
+def test_an_analytic_record_stays_out_of_every_compiled_file(monkeypatch):
+    import engine.m2.compiler as compiler
+
+    real = compiler.load_world_records
+
+    def with_analytic_story(world_key, **kwargs):
+        records = real(world_key, **kwargs)
+        records["fix.story.the-long-road"] = {**records["fix.story.the-long-road"], "voice": "analytic"}
+        return records
+
+    monkeypatch.setattr(compiler, "load_world_records", with_analytic_story)
+    package, _ = compile_and_hash(**FIXED_ARGS)
+    repository = json.loads(package["compiled/repository.json"])
+    records = repository.get("records", repository) if isinstance(repository, dict) else repository
+    ids = set(records) if isinstance(records, dict) else {r.get("id") for r in records}
+    assert "fix.story.the-long-road" not in ids
+    for path in ("compiled/prompt.txt", "compiled/quotes.json", "compiled/figures.json"):
+        assert b"fix.story.the-long-road" not in package[path]
+    assert not any(path.startswith("compiled/chunks/") and b"fix.story.the-long-road" in content for path, content in package.items())

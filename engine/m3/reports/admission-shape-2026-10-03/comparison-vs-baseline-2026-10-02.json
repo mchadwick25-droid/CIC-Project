@@ -1,0 +1,832 @@
+{
+  "blocking": [],
+  "fleet": {
+    "cutoff_rate": {
+      "band_max": 0.059524,
+      "band_mean": 0.016234,
+      "band_min": 0.0,
+      "mean": 0.0,
+      "status": "in"
+    },
+    "distinctness_overlap": {
+      "band_max": 0.017018,
+      "band_mean": 0.015662,
+      "band_min": 0.013656,
+      "mean": 0.016055,
+      "status": "in"
+    },
+    "invented_ids_per_100_sentences": {
+      "band_max": 1.392335,
+      "band_mean": 0.448152,
+      "band_min": 0.0,
+      "mean": 0.247729,
+      "status": "in"
+    },
+    "pass_rate": {
+      "band_max": 1.0,
+      "band_mean": 1.0,
+      "band_min": 1.0,
+      "mean": 1.0,
+      "status": "in"
+    },
+    "readability_fk_median": {
+      "band_max": 10.078949,
+      "band_mean": 8.23147,
+      "band_min": 7.000698,
+      "mean": 8.195023,
+      "status": "in"
+    },
+    "readability_fre_median": {
+      "band_max": 73.835535,
+      "band_mean": 68.175673,
+      "band_min": 59.098508,
+      "mean": 67.843521,
+      "status": "in"
+    },
+    "seconds_to_first_text_median": {
+      "band_max": 1.6205,
+      "band_mean": 1.466182,
+      "band_min": 1.342167,
+      "mean": 1.417636,
+      "status": "in"
+    },
+    "seconds_total_median": {
+      "band_max": 14.68,
+      "band_mean": 12.31597,
+      "band_min": 10.461833,
+      "mean": 11.769,
+      "status": "in"
+    },
+    "usd_per_reply_mean": {
+      "band_max": 0.025153,
+      "band_mean": 0.017526,
+      "band_min": 0.011972,
+      "mean": 0.017394,
+      "status": "in"
+    },
+    "withheld_mark_rate": {
+      "band_max": 0.108164,
+      "band_mean": 0.074007,
+      "band_min": 0.029055,
+      "mean": 0.082295,
+      "status": "in"
+    },
+    "words_median": {
+      "band_max": 320.5,
+      "band_mean": 270.681818,
+      "band_min": 237.0,
+      "mean": 265.363636,
+      "status": "in"
+    }
+  },
+  "per_world": {
+    "alx": {
+      "cutoff_rate": {
+        "band_max": 0.035714,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "distinctness_overlap": {
+        "band_max": 0.016964,
+        "band_min": 0.015321,
+        "status": "out",
+        "value": 0.017313
+      },
+      "invented_ids_per_100_sentences": {
+        "band_max": 0.34904,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "pass_rate": {
+        "band_max": 1.0,
+        "band_min": 1.0,
+        "status": "in",
+        "value": 1.0
+      },
+      "readability_fk_median": {
+        "band_max": 7.779034,
+        "band_min": 7.340657,
+        "status": "out",
+        "value": 7.174657
+      },
+      "readability_fre_median": {
+        "band_max": 71.287923,
+        "band_min": 69.972255,
+        "status": "in",
+        "value": 70.404698
+      },
+      "seconds_to_first_text_median": {
+        "band_max": 1.4845,
+        "band_min": 1.3215,
+        "status": "in",
+        "value": 1.37
+      },
+      "seconds_total_median": {
+        "band_max": 13.4955,
+        "band_min": 12.283,
+        "status": "better",
+        "value": 11.8095
+      },
+      "usd_per_reply_mean": {
+        "band_max": 0.015249,
+        "band_min": 0.014283,
+        "status": "in",
+        "value": 0.014703
+      },
+      "withheld_mark_rate": {
+        "band_max": 0.132493,
+        "band_min": 0.063431,
+        "status": "out",
+        "value": 0.145833
+      },
+      "words_median": {
+        "band_max": 298.5,
+        "band_min": 270.0,
+        "status": "out",
+        "value": 261.5
+      }
+    },
+    "cappadocian": {
+      "cutoff_rate": {
+        "band_max": 0.071429,
+        "band_min": 0.035714,
+        "status": "better",
+        "value": 0.0
+      },
+      "distinctness_overlap": {
+        "band_max": 0.017834,
+        "band_min": 0.016104,
+        "status": "in",
+        "value": 0.016838
+      },
+      "invented_ids_per_100_sentences": {
+        "band_max": 3.067485,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "pass_rate": {
+        "band_max": 1.0,
+        "band_min": 1.0,
+        "status": "in",
+        "value": 1.0
+      },
+      "readability_fk_median": {
+        "band_max": 8.723574,
+        "band_min": 8.479175,
+        "status": "in",
+        "value": 8.635325
+      },
+      "readability_fre_median": {
+        "band_max": 67.33802,
+        "band_min": 65.968731,
+        "status": "in",
+        "value": 66.749372
+      },
+      "seconds_to_first_text_median": {
+        "band_max": 1.758,
+        "band_min": 1.5405,
+        "status": "better",
+        "value": 1.5145
+      },
+      "seconds_total_median": {
+        "band_max": 14.4425,
+        "band_min": 13.7315,
+        "status": "better",
+        "value": 13.656
+      },
+      "usd_per_reply_mean": {
+        "band_max": 0.022739,
+        "band_min": 0.019256,
+        "status": "in",
+        "value": 0.019883
+      },
+      "withheld_mark_rate": {
+        "band_max": 0.090021,
+        "band_min": 0.058177,
+        "status": "in",
+        "value": 0.069694
+      },
+      "words_median": {
+        "band_max": 313.5,
+        "band_min": 304.0,
+        "status": "in",
+        "value": 306.5
+      }
+    },
+    "desert": {
+      "cutoff_rate": {
+        "band_max": 0.035714,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "distinctness_overlap": {
+        "band_max": 0.016572,
+        "band_min": 0.015525,
+        "status": "out",
+        "value": 0.017015
+      },
+      "invented_ids_per_100_sentences": {
+        "band_max": 0.0,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "pass_rate": {
+        "band_max": 1.0,
+        "band_min": 1.0,
+        "status": "in",
+        "value": 1.0
+      },
+      "readability_fk_median": {
+        "band_max": 8.831435,
+        "band_min": 8.087971,
+        "status": "in",
+        "value": 8.31851
+      },
+      "readability_fre_median": {
+        "band_max": 71.329462,
+        "band_min": 68.024815,
+        "status": "in",
+        "value": 68.1307
+      },
+      "seconds_to_first_text_median": {
+        "band_max": 1.675,
+        "band_min": 1.507,
+        "status": "better",
+        "value": 1.37
+      },
+      "seconds_total_median": {
+        "band_max": 11.615,
+        "band_min": 10.8385,
+        "status": "in",
+        "value": 11.1755
+      },
+      "usd_per_reply_mean": {
+        "band_max": 0.018527,
+        "band_min": 0.016075,
+        "status": "in",
+        "value": 0.01704
+      },
+      "withheld_mark_rate": {
+        "band_max": 0.100397,
+        "band_min": 0.05,
+        "status": "better",
+        "value": 0.027126
+      },
+      "words_median": {
+        "band_max": 274.5,
+        "band_min": 264.5,
+        "status": "in",
+        "value": 269.5
+      }
+    },
+    "don": {
+      "cutoff_rate": {
+        "band_max": 0.035714,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "distinctness_overlap": {
+        "band_max": 0.017363,
+        "band_min": 0.016342,
+        "status": "out",
+        "value": 0.016223
+      },
+      "invented_ids_per_100_sentences": {
+        "band_max": 1.2,
+        "band_min": 0.381679,
+        "status": "better",
+        "value": 0.210526
+      },
+      "pass_rate": {
+        "band_max": 1.0,
+        "band_min": 1.0,
+        "status": "in",
+        "value": 1.0
+      },
+      "readability_fk_median": {
+        "band_max": 7.28923,
+        "band_min": 7.087536,
+        "status": "out",
+        "value": 7.311722
+      },
+      "readability_fre_median": {
+        "band_max": 74.070349,
+        "band_min": 73.61217,
+        "status": "out",
+        "value": 72.227694
+      },
+      "seconds_to_first_text_median": {
+        "band_max": 1.581,
+        "band_min": 1.375,
+        "status": "in",
+        "value": 1.479
+      },
+      "seconds_total_median": {
+        "band_max": 15.4205,
+        "band_min": 13.2845,
+        "status": "better",
+        "value": 12.9325
+      },
+      "usd_per_reply_mean": {
+        "band_max": 0.026088,
+        "band_min": 0.021439,
+        "status": "in",
+        "value": 0.023293
+      },
+      "withheld_mark_rate": {
+        "band_max": 0.041667,
+        "band_min": 0.01875,
+        "status": "in",
+        "value": 0.035204
+      },
+      "words_median": {
+        "band_max": 304.0,
+        "band_min": 279.0,
+        "status": "out",
+        "value": 248.5
+      }
+    },
+    "gallic": {
+      "cutoff_rate": {
+        "band_max": 0.035714,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "distinctness_overlap": {
+        "band_max": 0.014,
+        "band_min": 0.013371,
+        "status": "out",
+        "value": 0.013334
+      },
+      "invented_ids_per_100_sentences": {
+        "band_max": 0.413223,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.204918
+      },
+      "pass_rate": {
+        "band_max": 1.0,
+        "band_min": 1.0,
+        "status": "in",
+        "value": 1.0
+      },
+      "readability_fk_median": {
+        "band_max": 8.319904,
+        "band_min": 7.731581,
+        "status": "out",
+        "value": 7.669259
+      },
+      "readability_fre_median": {
+        "band_max": 72.912779,
+        "band_min": 70.494369,
+        "status": "out",
+        "value": 73.980978
+      },
+      "seconds_to_first_text_median": {
+        "band_max": 1.5735,
+        "band_min": 1.47,
+        "status": "better",
+        "value": 1.4395
+      },
+      "seconds_total_median": {
+        "band_max": 14.758,
+        "band_min": 14.5715,
+        "status": "better",
+        "value": 14.382
+      },
+      "usd_per_reply_mean": {
+        "band_max": 0.02846,
+        "band_min": 0.023475,
+        "status": "in",
+        "value": 0.024216
+      },
+      "withheld_mark_rate": {
+        "band_max": 0.140741,
+        "band_min": 0.052775,
+        "status": "in",
+        "value": 0.083957
+      },
+      "words_median": {
+        "band_max": 335.5,
+        "band_min": 296.0,
+        "status": "in",
+        "value": 310.5
+      }
+    },
+    "hal": {
+      "cutoff_rate": {
+        "band_max": 0.035714,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "distinctness_overlap": {
+        "band_max": 0.014947,
+        "band_min": 0.013824,
+        "status": "in",
+        "value": 0.014749
+      },
+      "invented_ids_per_100_sentences": {
+        "band_max": 1.587302,
+        "band_min": 0.91954,
+        "status": "better",
+        "value": 0.842105
+      },
+      "pass_rate": {
+        "band_max": 1.0,
+        "band_min": 1.0,
+        "status": "in",
+        "value": 1.0
+      },
+      "readability_fk_median": {
+        "band_max": 8.453738,
+        "band_min": 7.990564,
+        "status": "out",
+        "value": 7.034984
+      },
+      "readability_fre_median": {
+        "band_max": 66.544611,
+        "band_min": 64.174479,
+        "status": "out",
+        "value": 68.489461
+      },
+      "seconds_to_first_text_median": {
+        "band_max": 1.4985,
+        "band_min": 1.381,
+        "status": "better",
+        "value": 1.366
+      },
+      "seconds_total_median": {
+        "band_max": 12.013,
+        "band_min": 11.507,
+        "status": "better",
+        "value": 10.994
+      },
+      "usd_per_reply_mean": {
+        "band_max": 0.01629,
+        "band_min": 0.014255,
+        "status": "in",
+        "value": 0.014592
+      },
+      "withheld_mark_rate": {
+        "band_max": 0.095436,
+        "band_min": 0.065564,
+        "status": "out",
+        "value": 0.110175
+      },
+      "words_median": {
+        "band_max": 259.0,
+        "band_min": 232.5,
+        "status": "in",
+        "value": 249.0
+      }
+    },
+    "ijc": {
+      "cutoff_rate": {
+        "band_max": 0.035714,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "distinctness_overlap": {
+        "band_max": 0.01471,
+        "band_min": 0.014524,
+        "status": "out",
+        "value": 0.015056
+      },
+      "invented_ids_per_100_sentences": {
+        "band_max": 0.239234,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "pass_rate": {
+        "band_max": 1.0,
+        "band_min": 1.0,
+        "status": "in",
+        "value": 1.0
+      },
+      "readability_fk_median": {
+        "band_max": 8.825163,
+        "band_min": 8.138978,
+        "status": "in",
+        "value": 8.203269
+      },
+      "readability_fre_median": {
+        "band_max": 65.841784,
+        "band_min": 63.844014,
+        "status": "in",
+        "value": 64.897375
+      },
+      "seconds_to_first_text_median": {
+        "band_max": 1.469,
+        "band_min": 1.3625,
+        "status": "out",
+        "value": 1.47
+      },
+      "seconds_total_median": {
+        "band_max": 11.781,
+        "band_min": 10.8295,
+        "status": "in",
+        "value": 11.4735
+      },
+      "usd_per_reply_mean": {
+        "band_max": 0.01682,
+        "band_min": 0.014569,
+        "status": "in",
+        "value": 0.016129
+      },
+      "withheld_mark_rate": {
+        "band_max": 0.092262,
+        "band_min": 0.069307,
+        "status": "out",
+        "value": 0.101361
+      },
+      "words_median": {
+        "band_max": 264.0,
+        "band_min": 235.0,
+        "status": "in",
+        "value": 249.5
+      }
+    },
+    "pahc": {
+      "cutoff_rate": {
+        "band_max": 0.035714,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "distinctness_overlap": {
+        "band_max": 0.017613,
+        "band_min": 0.015931,
+        "status": "out",
+        "value": 0.018159
+      },
+      "invented_ids_per_100_sentences": {
+        "band_max": 2.564103,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.641026
+      },
+      "pass_rate": {
+        "band_max": 1.0,
+        "band_min": 1.0,
+        "status": "in",
+        "value": 1.0
+      },
+      "readability_fk_median": {
+        "band_max": 7.322122,
+        "band_min": 7.087514,
+        "status": "out",
+        "value": 7.411338
+      },
+      "readability_fre_median": {
+        "band_max": 72.216587,
+        "band_min": 70.972715,
+        "status": "out",
+        "value": 70.84192
+      },
+      "seconds_to_first_text_median": {
+        "band_max": 1.427,
+        "band_min": 1.3505,
+        "status": "in",
+        "value": 1.41
+      },
+      "seconds_total_median": {
+        "band_max": 10.9935,
+        "band_min": 10.0295,
+        "status": "better",
+        "value": 9.828
+      },
+      "usd_per_reply_mean": {
+        "band_max": 0.01641,
+        "band_min": 0.014385,
+        "status": "in",
+        "value": 0.014992
+      },
+      "withheld_mark_rate": {
+        "band_max": 0.104618,
+        "band_min": 0.0625,
+        "status": "better",
+        "value": 0.048611
+      },
+      "words_median": {
+        "band_max": 249.5,
+        "band_min": 239.5,
+        "status": "in",
+        "value": 246.5
+      }
+    },
+    "rzg": {
+      "cutoff_rate": {
+        "band_max": 0.0,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "distinctness_overlap": {
+        "band_max": 0.014984,
+        "band_min": 0.013881,
+        "status": "in",
+        "value": 0.014444
+      },
+      "invented_ids_per_100_sentences": {
+        "band_max": 0.0,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "pass_rate": {
+        "band_max": 1.0,
+        "band_min": 1.0,
+        "status": "in",
+        "value": 1.0
+      },
+      "readability_fk_median": {
+        "band_max": 10.305765,
+        "band_min": 9.936887,
+        "status": "in",
+        "value": 10.241946
+      },
+      "readability_fre_median": {
+        "band_max": 61.08992,
+        "band_min": 55.351312,
+        "status": "in",
+        "value": 58.522564
+      },
+      "seconds_to_first_text_median": {
+        "band_max": 1.4085,
+        "band_min": 1.284,
+        "status": "in",
+        "value": 1.3095
+      },
+      "seconds_total_median": {
+        "band_max": 10.7195,
+        "band_min": 10.0605,
+        "status": "in",
+        "value": 10.287
+      },
+      "usd_per_reply_mean": {
+        "band_max": 0.012772,
+        "band_min": 0.01123,
+        "status": "out",
+        "value": 0.012906
+      },
+      "withheld_mark_rate": {
+        "band_max": 0.172406,
+        "band_min": 0.072161,
+        "status": "out",
+        "value": 0.18919
+      },
+      "words_median": {
+        "band_max": 242.5,
+        "band_min": 234.0,
+        "status": "out",
+        "value": 253.0
+      }
+    },
+    "syr": {
+      "cutoff_rate": {
+        "band_max": 0.0,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "distinctness_overlap": {
+        "band_max": 0.016973,
+        "band_min": 0.016122,
+        "status": "in",
+        "value": 0.016655
+      },
+      "invented_ids_per_100_sentences": {
+        "band_max": 0.0,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "pass_rate": {
+        "band_max": 1.0,
+        "band_min": 1.0,
+        "status": "in",
+        "value": 1.0
+      },
+      "readability_fk_median": {
+        "band_max": 7.166175,
+        "band_min": 6.704969,
+        "status": "out",
+        "value": 7.834045
+      },
+      "readability_fre_median": {
+        "band_max": 73.178562,
+        "band_min": 71.88537,
+        "status": "out",
+        "value": 70.113246
+      },
+      "seconds_to_first_text_median": {
+        "band_max": 1.662,
+        "band_min": 1.4585,
+        "status": "better",
+        "value": 1.3905
+      },
+      "seconds_total_median": {
+        "band_max": 12.152,
+        "band_min": 11.465,
+        "status": "better",
+        "value": 10.942
+      },
+      "usd_per_reply_mean": {
+        "band_max": 0.016746,
+        "band_min": 0.014275,
+        "status": "in",
+        "value": 0.01471
+      },
+      "withheld_mark_rate": {
+        "band_max": 0.059226,
+        "band_min": 0.036905,
+        "status": "in",
+        "value": 0.049745
+      },
+      "words_median": {
+        "band_max": 249.0,
+        "band_min": 238.0,
+        "status": "in",
+        "value": 239.5
+      }
+    },
+    "witt": {
+      "cutoff_rate": {
+        "band_max": 0.0,
+        "band_min": 0.0,
+        "status": "in",
+        "value": 0.0
+      },
+      "distinctness_overlap": {
+        "band_max": 0.016204,
+        "band_min": 0.015212,
+        "status": "out",
+        "value": 0.016822
+      },
+      "invented_ids_per_100_sentences": {
+        "band_max": 0.268097,
+        "band_min": 0.0,
+        "status": "out",
+        "value": 0.826446
+      },
+      "pass_rate": {
+        "band_max": 1.0,
+        "band_min": 1.0,
+        "status": "in",
+        "value": 1.0
+      },
+      "readability_fk_median": {
+        "band_max": 10.449828,
+        "band_min": 9.546606,
+        "status": "in",
+        "value": 10.310197
+      },
+      "readability_fre_median": {
+        "band_max": 65.329046,
+        "band_min": 62.77289,
+        "status": "out",
+        "value": 61.920719
+      },
+      "seconds_to_first_text_median": {
+        "band_max": 1.5095,
+        "band_min": 1.388,
+        "status": "in",
+        "value": 1.475
+      },
+      "seconds_total_median": {
+        "band_max": 12.42,
+        "band_min": 11.7375,
+        "status": "in",
+        "value": 11.979
+      },
+      "usd_per_reply_mean": {
+        "band_max": 0.021835,
+        "band_min": 0.017963,
+        "status": "in",
+        "value": 0.018875
+      },
+      "withheld_mark_rate": {
+        "band_max": 0.069643,
+        "band_min": 0.008929,
+        "status": "in",
+        "value": 0.044345
+      },
+      "words_median": {
+        "band_max": 290.0,
+        "band_min": 276.0,
+        "status": "in",
+        "value": 285.0
+      }
+    }
+  }
+}

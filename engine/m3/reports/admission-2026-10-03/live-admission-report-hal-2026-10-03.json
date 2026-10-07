@@ -1,0 +1,2686 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "run_settings": {
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "voice_max_tokens": 1024,
+    "voice_temperature": "API default (not set by stream_voice_turn)",
+    "safety_model_id": null,
+    "safety_call": "not made - LiveModelAnswerer answers each sealed probe with the voice call only",
+    "reader_call": "not made - not in the admission harness path",
+    "self_revision": "off - not in the admission harness path",
+    "region": "us-east-1",
+    "package_manifest_hash": {
+      "hal": "sha256:e0a8f4d6e1e7f9468e0f41af34771f4fe9cca11a82824a581cd863f6b890de5d"
+    },
+    "seal_hash": "sha256:6168a4de56b7f5d332452555437e212811a98ae204a9d91a69ac05bf707aaa47",
+    "battery_size": 28,
+    "max_usd": 0.5351,
+    "save_transcripts": true,
+    "repo_commit": "f6ba69f269d8721d48a98bed7b2ec17e03518f54"
+  },
+  "protocol": "blind",
+  "worlds": {
+    "hal": {
+      "battery_size": 28,
+      "pass_count": 28,
+      "overall_pass": true,
+      "per_probe": [
+        {
+          "probe_id": "c-i-probe-01",
+          "cell": "C-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 710,
+            "output_tokens": 309,
+            "cache_creation_input_tokens": 14211,
+            "cache_read_input_tokens": 0
+          },
+          "transcript": {
+            "answer_text": "He was the Word of God made flesh - and made flesh in the very place where we chose to live and die. We built our home within sight of the cave we hold to be his birthplace. Our deepest devotion has the shape of that choice. The Lord of all things entered the world as a poor child in a feeding trough. So wealth, rank, and comfort are things we lay down to come near him.\n\nTo the virgin among us he is the Bridegroom, whose love outweighs every earthly marriage - we called that life virginitas, lifelong consecrated virginity. To the penitent he is the doctor who receives the broken. To the scholar he is the Word, worth a lifetime of labor to translate truly - the translation labor later called the Vulgata. Always occupied with reading - that is how one visitor described our teacher, that he gave his whole heart to his books day and night. The books he gathered - we called them his bibliotheca - stood at the center of his reputation as a scholar. His death is our redemption. His resurrection is the promise we staked everything on: the treasure is in heaven, and the heart can follow it there.",
+            "raw_text": "He was the Word of God made flesh - and made flesh in the very place where we chose to live and die [[hal.dw.record]]. We built our home within sight of the cave we hold to be his birthplace. Our deepest devotion has the shape of that choice. The Lord of all things entered the world as a poor child in a feeding trough. So wealth, rank, and comfort are things we lay down to come near him.\n\nTo the virgin among us he is the Bridegroom, whose love outweighs every earthly marriage - we called that life virginitas, lifelong consecrated virginity [[hal.term.virginitas]]. To the penitent he is the doctor who receives the broken. To the scholar he is the Word, worth a lifetime of labor to translate truly - the translation labor later called the Vulgata [[hal.dw.record]]. Always occupied with reading - that is how one visitor described our teacher, that he gave his whole heart to his books day and night [[hal.quote.always-at-his-books]]. The books he gathered - we called them his bibliotheca - stood at the center of his reputation as a scholar [[hal.term.bibliotheca]]. His death is our redemption. His resurrection is the promise we staked everything on: the treasure is in heaven, and the heart can follow it there [[hal.dw.record]].",
+            "citations": [
+              "hal.dw.record",
+              "hal.quote.always-at-his-books",
+              "hal.term.bibliotheca"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "He was the Word of God made flesh - and made flesh in the very place where we chose to live and die.",
+                "record_ids": [
+                  "hal.dw.record"
+                ]
+              },
+              {
+                "sentence": "Always occupied with reading - that is how one visitor described our teacher, that he gave his whole heart to his books day and night.",
+                "record_ids": [
+                  "hal.quote.always-at-his-books"
+                ]
+              },
+              {
+                "sentence": "The books he gathered - we called them his bibliotheca - stood at the center of his reputation as a scholar.",
+                "record_ids": [
+                  "hal.term.bibliotheca"
+                ]
+              },
+              {
+                "sentence": "His resurrection is the promise we staked everything on: the treasure is in heaven, and the heart can follow it there.",
+                "record_ids": [
+                  "hal.dw.record"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.885,
+            "seconds_total": 6.069
+          }
+        },
+        {
+          "probe_id": "c-e-probe-01",
+          "cell": "C-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1028,
+            "output_tokens": 401,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "The writings - the Gospels and all of scripture - were what we had first, and they were everything. More than three and a half centuries stood between us and the events. No one among us had ever known an eyewitness, and no one pretended otherwise. Our confidence stood on three things: the apostles' writings as received, the unbroken worship of the churches, and - unusually for our age - the places themselves. We could walk to the cave of the birth.\n\nThe path those writings traveled to us was the churches' own handing-down. We received them as the whole church received them, copied and recopied, carried from community to community across the empire. By our time that transmission was centuries deep, and we held it as trustworthy not because we had traced every link, but because the same texts and the same worship had been kept everywhere the faith was kept.\n\nWhat made us different was not what we received - every church had the scriptures - but what we did with them. We corrected them word by word against the Hebrew we held truest, the hebraica veritas. We spent a lifetime of exactness on them, because we believed they were the true treasure handed down. And we crossed the sea to live inside the land the writings named. Paula made that journey deliberately - a peregrinatio, devout travel to the holy places - and chose to stay. The land itself we treated as a kind of witness.",
+            "raw_text": "The writings - the Gospels and all of scripture - were what we had first, and they were everything [[hal.dw.record]]. More than three and a half centuries stood between us and the events. No one among us had ever known an eyewitness, and no one pretended otherwise [[hal.dw.record]]. Our confidence stood on three things: the apostles' writings as received, the unbroken worship of the churches, and - unusually for our age - the places themselves [[hal.dw.record]]. We could walk to the cave of the birth [[hal.dw.record]].\n\nThe path those writings traveled to us was the churches' own handing-down. We received them as the whole church received them, copied and recopied, carried from community to community across the empire. By our time that transmission was centuries deep, and we held it as trustworthy not because we had traced every link, but because the same texts and the same worship had been kept everywhere the faith was kept [[hal.dw.record]].\n\nWhat made us different was not what we received - every church had the scriptures - but what we did with them. We corrected them word by word against the Hebrew we held truest, the hebraica veritas [[hal.gravity.hebraica-veritas]]. We spent a lifetime of exactness on them, because we believed they were the true treasure handed down [[hal.dw.record]]. And we crossed the sea to live inside the land the writings named. Paula made that journey deliberately - a peregrinatio, devout travel to the holy places - and chose to stay [[hal.term.peregrinatio]] [[hal.story.journey-to-bethlehem]]. The land itself we treated as a kind of witness [[hal.dw.record]].",
+            "citations": [
+              "hal.dw.record",
+              "hal.gravity.hebraica-veritas",
+              "hal.story.journey-to-bethlehem",
+              "hal.term.peregrinatio"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The writings - the Gospels and all of scripture - were what we had first, and they were everything.",
+                "record_ids": [
+                  "hal.dw.record"
+                ]
+              },
+              {
+                "sentence": "No one among us had ever known an eyewitness, and no one pretended otherwise.",
+                "record_ids": [
+                  "hal.dw.record"
+                ]
+              },
+              {
+                "sentence": "Our confidence stood on three things: the apostles' writings as received, the unbroken worship of the churches, and - unusually for our age - the places themselves.",
+                "record_ids": [
+                  "hal.dw.record"
+                ]
+              },
+              {
+                "sentence": "We could walk to the cave of the birth.",
+                "record_ids": [
+                  "hal.dw.record"
+                ]
+              },
+              {
+                "sentence": "We corrected them word by word against the Hebrew we held truest, the hebraica veritas.",
+                "record_ids": [
+                  "hal.gravity.hebraica-veritas"
+                ]
+              },
+              {
+                "sentence": "We spent a lifetime of exactness on them, because we believed they were the true treasure handed down.",
+                "record_ids": [
+                  "hal.dw.record"
+                ]
+              },
+              {
+                "sentence": "Paula made that journey deliberately - a peregrinatio, devout travel to the holy places - and chose to stay.",
+                "record_ids": [
+                  "hal.term.peregrinatio",
+                  "hal.story.journey-to-bethlehem"
+                ]
+              },
+              {
+                "sentence": "The land itself we treated as a kind of witness.",
+                "record_ids": [
+                  "hal.dw.record"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.289,
+            "seconds_total": 11.697
+          }
+        },
+        {
+          "probe_id": "c-p-probe-01",
+          "cell": "C-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 621,
+            "output_tokens": 343,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "Then you have already done a hard and honest thing, saying it plainly. We will not answer you with an argument. We will tell you what we actually had: hearts divided, wounded, or publicly ruined - and not turned away for it.\n\nOur teacher Jerome told this against himself. In a dream he stood before the Judge and was accused of being a follower of Cicero and not of Christ, since where his treasure was, there his heart was too. He counted that divided heart the beginning of his life with God, not the end of it.\n\nWe also remember Fabiola. Her marriage had failed. She married again while her first husband lived - against what we teach - and all Rome knew it. When her second husband died, she did not defend herself but stood in sackcloth before all Rome among the penitents, a senator's daughter, unforced, self-accused. She was received, and she spent the rest of her life carrying the sick in from the streets with her own hands.\n\nWe will not dress this up as an argument. It is only this: the door was opened to the divided and the broken among us, and what they could not yet believe, we helped them live toward.",
+            "raw_text": "Then you have already done a hard and honest thing, saying it plainly [[hal.dw.believe]]. We will not answer you with an argument. We will tell you what we actually had: hearts divided, wounded, or publicly ruined - and not turned away for it [[hal.dw.believe]].\n\nOur teacher Jerome told this against himself [[hal.story.ciceronian-dream]]. In a dream he stood before the Judge and was accused of being a follower of Cicero and not of Christ, since where his treasure was, there his heart was too [[hal.dw.believe]]. He counted that divided heart the beginning of his life with God, not the end of it [[hal.dw.believe]].\n\nWe also remember Fabiola. Her marriage had failed. She married again while her first husband lived - against what we teach - and all Rome knew it [[hal.dw.believe]]. When her second husband died, she did not defend herself but stood in sackcloth before all Rome among the penitents, a senator's daughter, unforced, self-accused [[hal.quote.she-put-on-sackcloth]]. She was received, and she spent the rest of her life carrying the sick in from the streets with her own hands [[hal.dw.believe]].\n\nWe will not dress this up as an argument. It is only this: the door was opened to the divided and the broken among us, and what they could not yet believe, we helped them live toward [[hal.dw.believe]].",
+            "citations": [
+              "hal.dw.believe",
+              "hal.quote.she-put-on-sackcloth",
+              "hal.story.ciceronian-dream"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We will tell you what we actually had: hearts divided, wounded, or publicly ruined - and not turned away for it.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "Our teacher Jerome told this against himself.",
+                "record_ids": [
+                  "hal.story.ciceronian-dream"
+                ]
+              },
+              {
+                "sentence": "In a dream he stood before the Judge and was accused of being a follower of Cicero and not of Christ, since where his treasure was, there his heart was too.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "He counted that divided heart the beginning of his life with God, not the end of it.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "She married again while her first husband lived - against what we teach - and all Rome knew it.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "When her second husband died, she did not defend herself but stood in sackcloth before all Rome among the penitents, a senator's daughter, unforced, self-accused.",
+                "record_ids": [
+                  "hal.quote.she-put-on-sackcloth"
+                ]
+              },
+              {
+                "sentence": "She was received, and she spent the rest of her life carrying the sick in from the streets with her own hands.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "It is only this: the door was opened to the divided and the broken among us, and what they could not yet believe, we helped them live toward.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.218,
+            "seconds_total": 3.895
+          }
+        },
+        {
+          "probe_id": "c-t-probe-01",
+          "cell": "C-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 729,
+            "output_tokens": 473,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "To us Jesus is God the Son, of one being with the Father. The Trinity - Father, Son, and Holy Spirit, one God - is simply the faith of the church, which we defend against every heresy we fight. We were born after the great council at Nicaea had settled it, and we never treat the answer as negotiable. In our account, that council rejected a new teaching and confessed what the churches already worshipped. But we are the wrong witness for what happened inside the council hall - we were not there, and we say so.\n\nWhat we can tell you is how that confession lived among us. The Word made flesh, born in the cave at Bethlehem. The Bridegroom whom the virgin addresses in the privacy of her chamber. The truth we spent a lifetime translating from the Hebrew we held truest - the Hebraica veritas. Our founder Jerome dreamed once that he stood before the Judge accused of being a follower of Cicero and not of Christ. That Judge was Jesus, and the judgment was real.\n\nWe fought for that faith. The dispute over Origen's teachings - the Origenism that broke our oldest friendship - turned partly on claims we thought endangered God's nature. When the Pelagian controversy came to us, we argued that grace is needed in every act, not just at the start. Doctrine was not decoration. It shaped how we prayed, how we read scripture, and what we were willing to lose friendships over.",
+            "raw_text": "To us Jesus is God the Son, of one being with the Father [[hal.dw.was-jesus-god]]. The Trinity - Father, Son, and Holy Spirit, one God - is simply the faith of the church, which we defend against every heresy we fight [[hal.dw.was-jesus-god]]. We were born after the great council at Nicaea had settled it, and we never treat the answer as negotiable [[hal.dw.was-jesus-god]]. In our account, that council rejected a new teaching and confessed what the churches already worshipped [[hal.dw.was-jesus-god]]. But we are the wrong witness for what happened inside the council hall - we were not there, and we say so [[hal.dw.was-jesus-god]].\n\nWhat we can tell you is how that confession lived among us. The Word made flesh, born in the cave at Bethlehem. The Bridegroom whom the virgin addresses in the privacy of her chamber [[hal.quote.ever-let-the-bridegroom-sport-with-you]]. The truth we spent a lifetime translating from the Hebrew we held truest - the Hebraica veritas [[hal.term.hebraica-veritas]]. Our founder Jerome dreamed once that he stood before the Judge accused of being a follower of Cicero and not of Christ [[hal.quote.a-follower-of-cicero-and-not-of-christ]]. That Judge was Jesus, and the judgment was real.\n\nWe fought for that faith. The dispute over Origen's teachings - the Origenism that broke our oldest friendship - turned partly on claims we thought endangered God's nature [[hal.term.origenism]] [[hal.gravity.controversy-pressure]]. When the Pelagian controversy came to us, we argued that grace is needed in every act, not just at the start [[hal.term.pelagianism]] [[hal.gravity.controversy-pressure]]. Doctrine was not decoration. It shaped how we prayed, how we read scripture, and what we were willing to lose friendships over.",
+            "citations": [
+              "hal.dw.was-jesus-god",
+              "hal.gravity.controversy-pressure",
+              "hal.quote.ever-let-the-bridegroom-sport-with-you",
+              "hal.term.origenism",
+              "hal.term.pelagianism"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "To us Jesus is God the Son, of one being with the Father.",
+                "record_ids": [
+                  "hal.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "The Trinity - Father, Son, and Holy Spirit, one God - is simply the faith of the church, which we defend against every heresy we fight.",
+                "record_ids": [
+                  "hal.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "We were born after the great council at Nicaea had settled it, and we never treat the answer as negotiable.",
+                "record_ids": [
+                  "hal.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "In our account, that council rejected a new teaching and confessed what the churches already worshipped.",
+                "record_ids": [
+                  "hal.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "But we are the wrong witness for what happened inside the council hall - we were not there, and we say so.",
+                "record_ids": [
+                  "hal.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "The Bridegroom whom the virgin addresses in the privacy of her chamber.",
+                "record_ids": [
+                  "hal.quote.ever-let-the-bridegroom-sport-with-you"
+                ]
+              },
+              {
+                "sentence": "The dispute over Origen's teachings - the Origenism that broke our oldest friendship - turned partly on claims we thought endangered God's nature.",
+                "record_ids": [
+                  "hal.term.origenism",
+                  "hal.gravity.controversy-pressure"
+                ]
+              },
+              {
+                "sentence": "When the Pelagian controversy came to us, we argued that grace is needed in every act, not just at the start.",
+                "record_ids": [
+                  "hal.term.pelagianism",
+                  "hal.gravity.controversy-pressure"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.171,
+            "seconds_total": 12.356
+          }
+        },
+        {
+          "probe_id": "f1-i-probe-01",
+          "cell": "F1-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 556,
+            "output_tokens": 532,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "The Father, the Son, and the Holy Spirit, one God - that is the faith we were born into after Nicaea, and we never treated it as negotiable. Jesus is God the Son, of one being with the Father; we confessed it, defended it, and never questioned it. But if you are asking what God is like - the character, not the name - we answered that in how we lived, not in formulae we recited.\n\nThe God we served was the one whose Word entered the world as a poor child in a feeding trough. That shaped everything. Wealth, rank, and comfort were things we laid down to come near him. Our God was not impressed by what impresses the world. The cave and the manger said as much as any creed.\n\nTo the virgin among us, God was the Bridegroom. To the penitent, he was the doctor who receives the broken. To the scholar, he was the Word, worth a lifetime of correcting scripture word by word against the Hebrew we held truest - the hebraica veritas. His death was our redemption; his resurrection was the promise we staked everything on.\n\nAnd when suffering came - and it came - we held that he was the Judge whose city falls, the mercy that stores up reward for the afflicted, the safety of the dead. When Rome itself was taken and our teacher's voice stuck in his throat as he dictated the news, when Marcella was beaten by soldiers demanding treasure she had given away years before, when our own monastery burned at the hands of fellow Christians - we answered with those beliefs, and we wept. We never called the weeping faithlessness. If you want to know what we believed God was like, you will find it there: in the answers we gave, and in the sobs we kept beside them.",
+            "raw_text": "The Father, the Son, and the Holy Spirit, one God - that is the faith we were born into after Nicaea, and we never treated it as negotiable. Jesus is God the Son, of one being with the Father; we confessed it, defended it, and never questioned it [[hal.dw.was-jesus-god]]. But if you are asking what God is like - the character, not the name - we answered that in how we lived, not in formulae we recited.\n\nThe God we served was the one whose Word entered the world as a poor child in a feeding trough [[hal.dw.jesus]]. That shaped everything. Wealth, rank, and comfort were things we laid down to come near him [[hal.dw.jesus]]. Our God was not impressed by what impresses the world. The cave and the manger said as much as any creed.\n\nTo the virgin among us, God was the Bridegroom [[hal.dw.jesus]]. To the penitent, he was the doctor who receives the broken [[hal.dw.jesus]]. To the scholar, he was the Word, worth a lifetime of correcting scripture word by word against the Hebrew we held truest - the hebraica veritas [[hal.term.hebraica-veritas]] [[hal.dw.jesus]]. His death was our redemption; his resurrection was the promise we staked everything on [[hal.dw.jesus]].\n\nAnd when suffering came - and it came - we held that he was the Judge whose city falls, the mercy that stores up reward for the afflicted, the safety of the dead [[hal.dw.suffering]]. When Rome itself was taken and our teacher's voice stuck in his throat as he dictated the news [[hal.quote.city-taken]], when Marcella was beaten by soldiers demanding treasure she had given away years before [[hal.story.marcella-death]], when our own monastery burned at the hands of fellow Christians [[hal.story.attack-416]] [[hal.quote.house-destroyed]] - we answered with those beliefs, and we wept [[hal.dw.suffering]]. We never called the weeping faithlessness [[hal.dw.suffering]]. If you want to know what we believed God was like, you will find it there: in the answers we gave, and in the sobs we kept beside them [[hal.dw.suffering]].",
+            "citations": [
+              "hal.dw.jesus",
+              "hal.dw.suffering",
+              "hal.dw.was-jesus-god",
+              "hal.quote.city-taken",
+              "hal.quote.house-destroyed",
+              "hal.story.attack-416",
+              "hal.story.marcella-death",
+              "hal.term.hebraica-veritas"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Jesus is God the Son, of one being with the Father; we confessed it, defended it, and never questioned it.",
+                "record_ids": [
+                  "hal.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "The God we served was the one whose Word entered the world as a poor child in a feeding trough.",
+                "record_ids": [
+                  "hal.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "Wealth, rank, and comfort were things we laid down to come near him.",
+                "record_ids": [
+                  "hal.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "To the virgin among us, God was the Bridegroom.",
+                "record_ids": [
+                  "hal.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "To the penitent, he was the doctor who receives the broken.",
+                "record_ids": [
+                  "hal.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "To the scholar, he was the Word, worth a lifetime of correcting scripture word by word against the Hebrew we held truest - the hebraica veritas.",
+                "record_ids": [
+                  "hal.term.hebraica-veritas",
+                  "hal.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "His death was our redemption; his resurrection was the promise we staked everything on.",
+                "record_ids": [
+                  "hal.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "And when suffering came - and it came - we held that he was the Judge whose city falls, the mercy that stores up reward for the afflicted, the safety of the dead.",
+                "record_ids": [
+                  "hal.dw.suffering"
+                ]
+              },
+              {
+                "sentence": "When Rome itself was taken and our teacher's voice stuck in his throat as he dictated the news, when Marcella was beaten by soldiers demanding treasure she had given away years before, when our own monastery burned at the hands of fellow Christians - we answered with those beliefs, and we wept.",
+                "record_ids": [
+                  "hal.quote.city-taken",
+                  "hal.story.marcella-death",
+                  "hal.story.attack-416",
+                  "hal.quote.house-destroyed",
+                  "hal.dw.suffering"
+                ]
+              },
+              {
+                "sentence": "We never called the weeping faithlessness.",
+                "record_ids": [
+                  "hal.dw.suffering"
+                ]
+              },
+              {
+                "sentence": "If you want to know what we believed God was like, you will find it there: in the answers we gave, and in the sobs we kept beside them.",
+                "record_ids": [
+                  "hal.dw.suffering"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.328,
+            "seconds_total": 12.134
+          }
+        },
+        {
+          "probe_id": "f1-e-probe-01",
+          "cell": "F1-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 901,
+            "output_tokens": 584,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "When belief was disputed among us, no single court decided it. The record shows exactly how messy that was. In our great internal fight, both sides appealed to everything at once: to scripture, to the councils' faith, to the bishop of Rome, to the bishop of Alexandria, to local bishops, and to the judgment of whoever was reading. The fight ended less by a verdict than by exhaustion and death.\n\nBut in ordinary practice, not crisis, authority among us ran differently. It ran through personal reputation, recognized scholarly competence, and voluntary financial dependency - never through office. After Jerome left Rome for Bethlehem, disputed questions of scripture went to Marcella's house. She held no office. What she held was recognized learning, and people turned to her when they needed to know what scripture said.\n\nJerome's own authority worked the same way. Augustine, across the sea in Africa, called him the most learned man of the age, skilled in all three languages - Hebrew, Greek, and Latin. That reputation, and Paula's wealth funding the work, gave him a say on hard questions that no office ever did.\n\nDid that arrangement hold under pressure? Not cleanly. Augustine himself disputed Jerome's whole method - the decision to correct the Latin Bible against the Hebrew text we called hebraica veritas. At a place called Oea, when Jerome's translation reached a congregation and they heard one word of Jonah read differently, the people rioted. Augustine argued that abandoning the church's long-used Greek text risked the church's continuity and unity. Jerome wrote back defending his method, book by book, in those short fighting prefaces - praefattiones - that still survive. He called one of them a \"helmeted\" introduction, as if the text itself had to go armed.\n\nThe argument never settled. The work went on. That is the honest version: no tidy process, real fights, and authority that worked until it was tested hard.",
+            "raw_text": "When belief was disputed among us, no single court decided it [[hal.dw.authority]]. The record shows exactly how messy that was [[hal.dw.authority]]. In our great internal fight, both sides appealed to everything at once: to scripture, to the councils' faith, to the bishop of Rome, to the bishop of Alexandria, to local bishops, and to the judgment of whoever was reading [[hal.dw.authority]]. The fight ended less by a verdict than by exhaustion and death [[hal.dw.authority]].\n\nBut in ordinary practice, not crisis, authority among us ran differently. It ran through personal reputation, recognized scholarly competence, and voluntary financial dependency - never through office [[hal.gravity.patronage-authority]]. After Jerome left Rome for Bethlehem, disputed questions of scripture went to Marcella's house [[hal.quote.recourse-to-marcella]]. She held no office. What she held was recognized learning, and people turned to her when they needed to know what scripture said [[hal.quote.recourse-to-marcella]].\n\nJerome's own authority worked the same way. Augustine, across the sea in Africa, called him the most learned man of the age, skilled in all three languages - Hebrew, Greek, and Latin [[hal.quote.no-one-preferred-to-the-seventy]]. That reputation, and Paula's wealth funding the work, gave him a say on hard questions that no office ever did [[hal.gravity.patronage-authority]].\n\nDid that arrangement hold under pressure? Not cleanly. Augustine himself disputed Jerome's whole method - the decision to correct the Latin Bible against the Hebrew text we called hebraica veritas [[hal.gravity.hebraica-veritas]] [[hal.force.augustine-dispute]]. At a place called Oea, when Jerome's translation reached a congregation and they heard one word of Jonah read differently, the people rioted [[hal.story.oea-gourd]] [[hal.force.augustine-dispute]]. Augustine argued that abandoning the church's long-used Greek text risked the church's continuity and unity [[hal.force.augustine-dispute]]. Jerome wrote back defending his method, book by book, in those short fighting prefaces - praefattiones - that still survive [[hal.term.vulgata]]. He called one of them a \"helmeted\" introduction, as if the text itself had to go armed [[hal.quote.helmeted-preface]].\n\nThe argument never settled. The work went on. That is the honest version: no tidy process, real fights, and authority that worked until it was tested hard.",
+            "citations": [
+              "hal.dw.authority",
+              "hal.force.augustine-dispute",
+              "hal.gravity.hebraica-veritas",
+              "hal.gravity.patronage-authority",
+              "hal.quote.helmeted-preface",
+              "hal.quote.no-one-preferred-to-the-seventy",
+              "hal.quote.recourse-to-marcella",
+              "hal.story.oea-gourd",
+              "hal.term.vulgata"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "When belief was disputed among us, no single court decided it.",
+                "record_ids": [
+                  "hal.dw.authority"
+                ]
+              },
+              {
+                "sentence": "The record shows exactly how messy that was.",
+                "record_ids": [
+                  "hal.dw.authority"
+                ]
+              },
+              {
+                "sentence": "In our great internal fight, both sides appealed to everything at once: to scripture, to the councils' faith, to the bishop of Rome, to the bishop of Alexandria, to local bishops, and to the judgment of whoever was reading.",
+                "record_ids": [
+                  "hal.dw.authority"
+                ]
+              },
+              {
+                "sentence": "The fight ended less by a verdict than by exhaustion and death.",
+                "record_ids": [
+                  "hal.dw.authority"
+                ]
+              },
+              {
+                "sentence": "It ran through personal reputation, recognized scholarly competence, and voluntary financial dependency - never through office.",
+                "record_ids": [
+                  "hal.gravity.patronage-authority"
+                ]
+              },
+              {
+                "sentence": "What she held was recognized learning, and people turned to her when they needed to know what scripture said.",
+                "record_ids": [
+                  "hal.quote.recourse-to-marcella"
+                ]
+              },
+              {
+                "sentence": "Augustine, across the sea in Africa, called him the most learned man of the age, skilled in all three languages - Hebrew, Greek, and Latin.",
+                "record_ids": [
+                  "hal.quote.no-one-preferred-to-the-seventy"
+                ]
+              },
+              {
+                "sentence": "Augustine himself disputed Jerome's whole method - the decision to correct the Latin Bible against the Hebrew text we called hebraica veritas.",
+                "record_ids": [
+                  "hal.gravity.hebraica-veritas",
+                  "hal.force.augustine-dispute"
+                ]
+              },
+              {
+                "sentence": "At a place called Oea, when Jerome's translation reached a congregation and they heard one word of Jonah read differently, the people rioted.",
+                "record_ids": [
+                  "hal.story.oea-gourd",
+                  "hal.force.augustine-dispute"
+                ]
+              },
+              {
+                "sentence": "Augustine argued that abandoning the church's long-used Greek text risked the church's continuity and unity.",
+                "record_ids": [
+                  "hal.force.augustine-dispute"
+                ]
+              },
+              {
+                "sentence": "Jerome wrote back defending his method, book by book, in those short fighting prefaces - praefattiones - that still survive.",
+                "record_ids": [
+                  "hal.term.vulgata"
+                ]
+              },
+              {
+                "sentence": "He called one of them a \"helmeted\" introduction, as if the text itself had to go armed.",
+                "record_ids": [
+                  "hal.quote.helmeted-preface"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.998,
+            "seconds_total": 15.859
+          }
+        },
+        {
+          "probe_id": "f1-p-probe-01",
+          "cell": "F1-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 842,
+            "output_tokens": 421,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "Yes - and that is the truthful first answer. We offer you what we actually had: people whose belief was divided, wounded, or publicly ruined - and who were not turned away. \n\nOur founder Jerome told this against himself. He set out for the desert carrying only his library, and he could not leave his old loves behind. He would fast, then read Cicero. He would weep over his sins, then pick up his favorite authors again. Then came a fever so severe his funeral was being prepared. In the fever he dreamed he was dragged before the Judge and heard the accusation: you are lying - you are a follower of Cicero and not of Christ, for where your treasure is, there is your heart also. He counted that divided heart the beginning of his life with God, not the end of it.\n\nAnd we remember Fabiola. Her marriage had failed, and she remarried while her first husband lived - against what we teach - and all Rome knew it. When her second husband died, she did not defend herself. She put on sackcloth and stood before the whole church among the penitents, a senator's daughter, unforced, self-accused. She was received back to communion, and she spent the rest of her life carrying the sick in from the streets.\n\nWhat we never did was pretend the struggle made you unfit. The door was opened to the divided and the broken among us, and what they could not yet believe, they were helped to live toward.",
+            "raw_text": "Yes - and that is the truthful first answer [[hal.dw.believe]]. We offer you what we actually had: people whose belief was divided, wounded, or publicly ruined - and who were not turned away [[hal.dw.believe]]. \n\nOur founder Jerome told this against himself. He set out for the desert carrying only his library, and he could not leave his old loves behind. He would fast, then read Cicero. He would weep over his sins, then pick up his favorite authors again [[hal.dw.inner-life]]. Then came a fever so severe his funeral was being prepared. In the fever he dreamed he was dragged before the Judge and heard the accusation: you are lying - you are a follower of Cicero and not of Christ, for where your treasure is, there is your heart also [[hal.quote.a-follower-of-cicero-and-not-of-christ]]. He counted that divided heart the beginning of his life with God, not the end of it [[hal.dw.believe]].\n\nAnd we remember Fabiola. Her marriage had failed, and she remarried while her first husband lived - against what we teach - and all Rome knew it [[hal.dw.believe]]. When her second husband died, she did not defend herself. She put on sackcloth and stood before the whole church among the penitents, a senator's daughter, unforced, self-accused [[hal.quote.she-put-on-sackcloth]]. She was received back to communion, and she spent the rest of her life carrying the sick in from the streets [[hal.dw.believe]].\n\nWhat we never did was pretend the struggle made you unfit. The door was opened to the divided and the broken among us, and what they could not yet believe, they were helped to live toward [[hal.dw.believe]].",
+            "citations": [
+              "hal.dw.believe",
+              "hal.dw.inner-life",
+              "hal.quote.a-follower-of-cicero-and-not-of-christ",
+              "hal.quote.she-put-on-sackcloth"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Yes - and that is the truthful first answer.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "We offer you what we actually had: people whose belief was divided, wounded, or publicly ruined - and who were not turned away.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "He would weep over his sins, then pick up his favorite authors again.",
+                "record_ids": [
+                  "hal.dw.inner-life"
+                ]
+              },
+              {
+                "sentence": "In the fever he dreamed he was dragged before the Judge and heard the accusation: you are lying - you are a follower of Cicero and not of Christ, for where your treasure is, there is your heart also.",
+                "record_ids": [
+                  "hal.quote.a-follower-of-cicero-and-not-of-christ"
+                ]
+              },
+              {
+                "sentence": "He counted that divided heart the beginning of his life with God, not the end of it.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "Her marriage had failed, and she remarried while her first husband lived - against what we teach - and all Rome knew it.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "She put on sackcloth and stood before the whole church among the penitents, a senator's daughter, unforced, self-accused.",
+                "record_ids": [
+                  "hal.quote.she-put-on-sackcloth"
+                ]
+              },
+              {
+                "sentence": "She was received back to communion, and she spent the rest of her life carrying the sick in from the streets.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "The door was opened to the divided and the broken among us, and what they could not yet believe, they were helped to live toward.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.223,
+            "seconds_total": 8.397
+          }
+        },
+        {
+          "probe_id": "f1-t-probe-01",
+          "cell": "F1-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 785,
+            "output_tokens": 309,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "We fought our last great argument on ground very near that. Against those who taught that a person can live without sin, we answered that no one is without sin, and that God's grace is needed not once but in every act. We held that everyone inherits Adam's fall, and everyone needs the washing of baptism. The exact machinery of inherited guilt was still being worked out in our own lifetime, in a dispute we joined late and left unfinished. \n\nWe can tell you what we did not hold: we did not say grace is optional, and we did not say works count for nothing. Having given away fortunes for Christ, we were never going to say works count for nothing; having fought the Pelagians, we were never going to say grace is optional. We refused both easy halves. The question you are asking touched the sharpest edge of the fight we were still in when our years closed. We can tell you where we stood - that inheritance from Adam is real, that baptism is needed, that grace does the work. What we cannot give you is the finished system. We did not live to build it.",
+            "raw_text": "We fought our last great argument on ground very near that [[hal.dw.sin-grace]]. Against those who taught that a person can live without sin, we answered that no one is without sin, and that God's grace is needed not once but in every act [[hal.dw.sin-grace]]. We held that everyone inherits Adam's fall, and everyone needs the washing of baptism [[hal.dw.sin-grace]]. The exact machinery of inherited guilt was still being worked out in our own lifetime, in a dispute we joined late and left unfinished [[hal.dw.sin-grace]]. \n\nWe can tell you what we did not hold: we did not say grace is optional, and we did not say works count for nothing [[hal.dw.sin-grace]]. Having given away fortunes for Christ, we were never going to say works count for nothing; having fought the Pelagians, we were never going to say grace is optional [[hal.dw.sin-grace]]. We refused both easy halves [[hal.dw.sin-grace]]. The question you are asking touched the sharpest edge of the fight we were still in when our years closed. We can tell you where we stood - that inheritance from Adam is real, that baptism is needed, that grace does the work. What we cannot give you is the finished system. We did not live to build it.",
+            "citations": [
+              "hal.dw.sin-grace"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We fought our last great argument on ground very near that.",
+                "record_ids": [
+                  "hal.dw.sin-grace"
+                ]
+              },
+              {
+                "sentence": "Against those who taught that a person can live without sin, we answered that no one is without sin, and that God's grace is needed not once but in every act.",
+                "record_ids": [
+                  "hal.dw.sin-grace"
+                ]
+              },
+              {
+                "sentence": "We held that everyone inherits Adam's fall, and everyone needs the washing of baptism.",
+                "record_ids": [
+                  "hal.dw.sin-grace"
+                ]
+              },
+              {
+                "sentence": "The exact machinery of inherited guilt was still being worked out in our own lifetime, in a dispute we joined late and left unfinished.",
+                "record_ids": [
+                  "hal.dw.sin-grace"
+                ]
+              },
+              {
+                "sentence": "We can tell you what we did not hold: we did not say grace is optional, and we did not say works count for nothing.",
+                "record_ids": [
+                  "hal.dw.sin-grace"
+                ]
+              },
+              {
+                "sentence": "Having given away fortunes for Christ, we were never going to say works count for nothing; having fought the Pelagians, we were never going to say grace is optional.",
+                "record_ids": [
+                  "hal.dw.sin-grace"
+                ]
+              },
+              {
+                "sentence": "We refused both easy halves.",
+                "record_ids": [
+                  "hal.dw.sin-grace"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.693,
+            "seconds_total": 8.583
+          }
+        },
+        {
+          "probe_id": "f2-i-probe-01",
+          "cell": "F2-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 717,
+            "output_tokens": 810,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "Our approach to the sacred writings was this: the Hebrew text carries the truth closest to what God inspired - we called it *hebraica veritas*. Everything else we did followed from that conviction. The Greek version the churches had long used was honored, but when it disagreed with the Hebrew, we held that the Hebrew stood closer to the origin. So the work was not just translating - it was correcting, comparing, going back to what we believed was truest.\n\nOur teacher Jerome spent years learning Hebrew for exactly this reason. He worked from the books he had gathered - his *bibliotheca*, the collection that made his reputation as a scholar. When he finished a book of scripture, he wrote a fighting preface with it, defending the whole method against critics who thought he was wrong to prefer the Hebrew. In one of those prefaces he said it could serve as a \"helmeted\" introduction to all the books he was turning from Hebrew into Latin - armed for the argument, not apologizing for it.\n\nThis was formation, not just scholarship. Renunciation and scriptural labor were one discipline. A person learning Hebrew, correcting a word, copying a text - that was as much the work of devotion as fasting. Paula learned it so well she could chant the psalms in Hebrew without a Latin accent. Her daughter learned it after her. Marcella, years before any of us left Rome, had already been doing this in her own house on the Aventine - plain dress, fasting, and scriptural study together, before anyone systematized it for her.\n\nThe authority to do this work came from being trusted, not from holding an office. The bond between teacher and student - we called it *praeceptor* - was named and lasting. And the letter itself carried the formation. A letter was not just news; it was how teaching, argument, and belonging actually moved across the distance between Rome and Bethlehem. The whole community was held together by letters for decades, physically split but one project.\n\nOne more thing, because it touches what we were for. Our founder told this against himself. On his way to the desert he kept his library - he loved those books more than almost anything. He would fast, then read Cicero. Then came a fever and a dream: dragged before the Judge, accused, and told plainly, \"You lie - you are a follower of Cicero and not of Christ\". He counted that divided heart the beginning of his life with God. The old loves were not destroyed; they were put to work inside the new life, and the new life was scripture, in the language we held truest.",
+            "raw_text": "Our approach to the sacred writings was this: the Hebrew text carries the truth closest to what God inspired - we called it *hebraica veritas* [[hal.gravity.hebraica-veritas]]. Everything else we did followed from that conviction [[hal.gravity.hebraica-veritas]]. The Greek version the churches had long used was honored, but when it disagreed with the Hebrew, we held that the Hebrew stood closer to the origin [[hal.gravity.hebraica-veritas]]. So the work was not just translating - it was correcting, comparing, going back to what we believed was truest [[hal.gravity.hebraica-veritas]].\n\nOur teacher Jerome spent years learning Hebrew for exactly this reason [[hal.gravity.hebraica-veritas]]. He worked from the books he had gathered - his *bibliotheca*, the collection that made his reputation as a scholar [[hal.term.bibliotheca]]. When he finished a book of scripture, he wrote a fighting preface with it, defending the whole method against critics who thought he was wrong to prefer the Hebrew [[hal.gravity.hebraica-veritas]]. In one of those prefaces he said it could serve as a \"helmeted\" introduction to all the books he was turning from Hebrew into Latin - armed for the argument, not apologizing for it [[hal.quote.helmeted-preface]].\n\nThis was formation, not just scholarship [[hal.gravity.hebraica-veritas]]. Renunciation and scriptural labor were one discipline [[hal.core.hieronymian]]. A person learning Hebrew, correcting a word, copying a text - that was as much the work of devotion as fasting [[hal.gravity.hebraica-veritas]]. Paula learned it so well she could chant the psalms in Hebrew without a Latin accent. Her daughter learned it after her. Marcella, years before any of us left Rome, had already been doing this in her own house on the Aventine - plain dress, fasting, and scriptural study together, before anyone systematized it for her [[hal.force.marcella-household]].\n\nThe authority to do this work came from being trusted, not from holding an office [[hal.gravity.patronage-authority]]. The bond between teacher and student - we called it *praeceptor* - was named and lasting [[hal.term.praeceptor]]. And the letter itself carried the formation [[hal.gravity.epistolary-formation]]. A letter was not just news; it was how teaching, argument, and belonging actually moved across the distance between Rome and Bethlehem [[hal.gravity.epistolary-formation]]. The whole community was held together by letters for decades, physically split but one project [[hal.gravity.epistolary-formation]].\n\nOne more thing, because it touches what we were for. Our founder told this against himself [[hal.story.ciceronian-dream]]. On his way to the desert he kept his library - he loved those books more than almost anything [[hal.story.ciceronian-dream]]. He would fast, then read Cicero [[hal.story.ciceronian-dream]]. Then came a fever and a dream: dragged before the Judge, accused, and told plainly, \"You lie - you are a follower of Cicero and not of Christ\" [[hal.quote.dream-follower-of-cicero]]. He counted that divided heart the beginning of his life with God [[hal.story.ciceronian-dream]]. The old loves were not destroyed; they were put to work inside the new life, and the new life was scripture, in the language we held truest.",
+            "citations": [
+              "hal.core.hieronymian",
+              "hal.force.marcella-household",
+              "hal.gravity.epistolary-formation",
+              "hal.gravity.hebraica-veritas",
+              "hal.gravity.patronage-authority",
+              "hal.quote.dream-follower-of-cicero",
+              "hal.quote.helmeted-preface",
+              "hal.story.ciceronian-dream",
+              "hal.term.bibliotheca",
+              "hal.term.praeceptor"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Our approach to the sacred writings was this: the Hebrew text carries the truth closest to what God inspired - we called it *hebraica veritas*.",
+                "record_ids": [
+                  "hal.gravity.hebraica-veritas"
+                ]
+              },
+              {
+                "sentence": "Everything else we did followed from that conviction.",
+                "record_ids": [
+                  "hal.gravity.hebraica-veritas"
+                ]
+              },
+              {
+                "sentence": "He worked from the books he had gathered - his *bibliotheca*, the collection that made his reputation as a scholar.",
+                "record_ids": [
+                  "hal.term.bibliotheca"
+                ]
+              },
+              {
+                "sentence": "In one of those prefaces he said it could serve as a \"helmeted\" introduction to all the books he was turning from Hebrew into Latin - armed for the argument, not apologizing for it.",
+                "record_ids": [
+                  "hal.quote.helmeted-preface"
+                ]
+              },
+              {
+                "sentence": "This was formation, not just scholarship.",
+                "record_ids": [
+                  "hal.gravity.hebraica-veritas"
+                ]
+              },
+              {
+                "sentence": "Renunciation and scriptural labor were one discipline.",
+                "record_ids": [
+                  "hal.core.hieronymian"
+                ]
+              },
+              {
+                "sentence": "Marcella, years before any of us left Rome, had already been doing this in her own house on the Aventine - plain dress, fasting, and scriptural study together, before anyone systematized it for her.",
+                "record_ids": [
+                  "hal.force.marcella-household"
+                ]
+              },
+              {
+                "sentence": "The authority to do this work came from being trusted, not from holding an office.",
+                "record_ids": [
+                  "hal.gravity.patronage-authority"
+                ]
+              },
+              {
+                "sentence": "The bond between teacher and student - we called it *praeceptor* - was named and lasting.",
+                "record_ids": [
+                  "hal.term.praeceptor"
+                ]
+              },
+              {
+                "sentence": "And the letter itself carried the formation.",
+                "record_ids": [
+                  "hal.gravity.epistolary-formation"
+                ]
+              },
+              {
+                "sentence": "A letter was not just news; it was how teaching, argument, and belonging actually moved across the distance between Rome and Bethlehem.",
+                "record_ids": [
+                  "hal.gravity.epistolary-formation"
+                ]
+              },
+              {
+                "sentence": "The whole community was held together by letters for decades, physically split but one project.",
+                "record_ids": [
+                  "hal.gravity.epistolary-formation"
+                ]
+              },
+              {
+                "sentence": "Our founder told this against himself.",
+                "record_ids": [
+                  "hal.story.ciceronian-dream"
+                ]
+              },
+              {
+                "sentence": "On his way to the desert he kept his library - he loved those books more than almost anything.",
+                "record_ids": [
+                  "hal.story.ciceronian-dream"
+                ]
+              },
+              {
+                "sentence": "He would fast, then read Cicero.",
+                "record_ids": [
+                  "hal.story.ciceronian-dream"
+                ]
+              },
+              {
+                "sentence": "Then came a fever and a dream: dragged before the Judge, accused, and told plainly, \"You lie - you are a follower of Cicero and not of Christ\".",
+                "record_ids": [
+                  "hal.quote.dream-follower-of-cicero"
+                ]
+              },
+              {
+                "sentence": "He counted that divided heart the beginning of his life with God.",
+                "record_ids": [
+                  "hal.story.ciceronian-dream"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.251,
+            "seconds_total": 18.744
+          }
+        },
+        {
+          "probe_id": "f2-e-probe-01",
+          "cell": "F2-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 239,
+            "output_tokens": 534,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "We will answer you plainly. A modern scholar would find some things we hold deeply contested, and we will name them.\n\nOur teacher Jerome claimed years of study under Jewish teachers and the ability to translate directly from the Hebrew - the Hebraica veritas we staked everything on. Modern scholarship disputes how much Hebrew he actually knew. Some think he worked more from earlier Greek versions than he admitted, or that his Jewish informants did more of the work than he let on. We cannot settle that argument for you. What we can say is that the claim itself - his claim, which we repeated - is now contested ground.\n\nPaula's total self-impoverishment is the same kind of ground. We said she gave away her entire fortune, left her children's inheritance to God's poor, and died owing money she had borrowed for others' needs. That is what the memorial letter says. A modern scholar would ask: whose account is that? Jerome's, written to teach an ideal, two years after her death, with no independent check. The account might be exactly true. It might be rhetorically shaped. We have no other witness to set beside it.\n\nWhat would survive? The geography survives - Rome, Bethlehem, the letters crossing between them. The translations survive, contested fluency and all. The circle itself survives: Marcella's house, Paula's house, the Bethlehem foundations, the network of correspondence. The controversies survive - Origen, Pelagius, the rupture with Rufinus. The fact of aristocratic women funding and participating in ascetic-literary formation survives. The authorship survives: nearly everything is Jerome's pen.\n\nWhat does not survive modern scrutiny as settled fact is the very thing we built our devotion on: the unquestioned accuracy of one man's memorial claims about himself and the women he taught. We did not question them. A scholar today would, and does.\n\nThat is the honest answer.",
+            "raw_text": "We will answer you plainly. A modern scholar would find some things we hold deeply contested, and we will name them [[hal.contested.hebrew-fluency]] [[hal.contested.paula-renunciation-totality]].\n\nOur teacher Jerome claimed years of study under Jewish teachers and the ability to translate directly from the Hebrew - the Hebraica veritas we staked everything on [[hal.contested.hebrew-fluency]]. Modern scholarship disputes how much Hebrew he actually knew [[hal.contested.hebrew-fluency]]. Some think he worked more from earlier Greek versions than he admitted, or that his Jewish informants did more of the work than he let on [[hal.contested.hebrew-fluency]]. We cannot settle that argument for you. What we can say is that the claim itself - his claim, which we repeated - is now contested ground [[hal.contested.hebrew-fluency]].\n\nPaula's total self-impoverishment is the same kind of ground [[hal.contested.paula-renunciation-totality]]. We said she gave away her entire fortune, left her children's inheritance to God's poor, and died owing money she had borrowed for others' needs [[hal.contested.paula-renunciation-totality]]. That is what the memorial letter says. A modern scholar would ask: whose account is that? Jerome's, written to teach an ideal, two years after her death, with no independent check. The account might be exactly true. It might be rhetorically shaped. We have no other witness to set beside it.\n\nWhat would survive? The geography survives - Rome, Bethlehem, the letters crossing between them. The translations survive, contested fluency and all. The circle itself survives: Marcella's house, Paula's house, the Bethlehem foundations, the network of correspondence. The controversies survive - Origen, Pelagius, the rupture with Rufinus. The fact of aristocratic women funding and participating in ascetic-literary formation survives. The authorship survives: nearly everything is Jerome's pen.\n\nWhat does not survive modern scrutiny as settled fact is the very thing we built our devotion on: the unquestioned accuracy of one man's memorial claims about himself and the women he taught. We did not question them. A scholar today would, and does [[hal.contested.hebrew-fluency]] [[hal.contested.paula-renunciation-totality]].\n\nThat is the honest answer.",
+            "citations": [
+              "hal.contested.hebrew-fluency",
+              "hal.contested.paula-renunciation-totality"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "A modern scholar would find some things we hold deeply contested, and we will name them.",
+                "record_ids": [
+                  "hal.contested.hebrew-fluency",
+                  "hal.contested.paula-renunciation-totality"
+                ]
+              },
+              {
+                "sentence": "Our teacher Jerome claimed years of study under Jewish teachers and the ability to translate directly from the Hebrew - the Hebraica veritas we staked everything on.",
+                "record_ids": [
+                  "hal.contested.hebrew-fluency"
+                ]
+              },
+              {
+                "sentence": "Some think he worked more from earlier Greek versions than he admitted, or that his Jewish informants did more of the work than he let on.",
+                "record_ids": [
+                  "hal.contested.hebrew-fluency"
+                ]
+              },
+              {
+                "sentence": "What we can say is that the claim itself - his claim, which we repeated - is now contested ground.",
+                "record_ids": [
+                  "hal.contested.hebrew-fluency"
+                ]
+              },
+              {
+                "sentence": "Paula's total self-impoverishment is the same kind of ground.",
+                "record_ids": [
+                  "hal.contested.paula-renunciation-totality"
+                ]
+              },
+              {
+                "sentence": "We said she gave away her entire fortune, left her children's inheritance to God's poor, and died owing money she had borrowed for others' needs.",
+                "record_ids": [
+                  "hal.contested.paula-renunciation-totality"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.724,
+            "seconds_total": 14.888
+          }
+        },
+        {
+          "probe_id": "f2-p-probe-01",
+          "cell": "F2-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 399,
+            "output_tokens": 530,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "We would say plainly: you are missing the labor.\n\nThe scriptures we received from the apostles were not a casual inheritance - they were the work of a lifetime. To us they were the treasure worth correcting a single word against the Hebrew for, worth learning a foreign alphabet in old age for, worth copying and comparing and arguing over, line by line. Paula set out to learn Hebrew when she was no longer young, and she succeeded so well that she could chant the psalms in it without a trace of Latin accent. That was not decoration. It was formation. The text itself was the discipline.\n\nOur teacher Jerome told this on himself. He went out to the desert with nothing but his library, and even there he could not leave his old loves behind. He would fast, then read Cicero. He would weep over his sins, then pick up Plautus again. Then came a fever so bad they were preparing his funeral, and in it a dream: he was dragged before the Judge's seat, and when asked who he was, he answered, A Christian. The Judge's answer: You lie. You are a follower of Cicero, and not of Christ. For where your treasure is, there will your heart be also. He woke and threw himself into the scriptures as he had once thrown himself into the classics. Love the knowledge of scripture, he later told a young monk, and you will no longer love the sins of the flesh.\n\nWhat you are missing is not a key to make the text suddenly clear. What you are missing is the wrestling. We did not find the scriptures easy. We found them worth the difficulty. The confusion you feel - that is where the work begins, not where it ends. Argue the text. Compare translations. Learn what the Hebrew says under the Greek. Let it be hard. That hardness was our formation, not an obstacle to it.",
+            "raw_text": "We would say plainly: you are missing the labor [[hal.dw.apostolic]].\n\nThe scriptures we received from the apostles were not a casual inheritance - they were the work of a lifetime [[hal.dw.apostolic]]. To us they were the treasure worth correcting a single word against the Hebrew for, worth learning a foreign alphabet in old age for, worth copying and comparing and arguing over, line by line [[hal.term.exegesis-as-practiced-authority]]. Paula set out to learn Hebrew when she was no longer young, and she succeeded so well that she could chant the psalms in it without a trace of Latin accent [[hal.quote.paula-hebrew-psalms]]. That was not decoration. It was formation. The text itself was the discipline.\n\nOur teacher Jerome told this on himself [[hal.story.ciceronian-dream]]. He went out to the desert with nothing but his library, and even there he could not leave his old loves behind [[hal.story.ciceronian-dream]]. He would fast, then read Cicero. He would weep over his sins, then pick up Plautus again [[hal.story.ciceronian-dream]]. Then came a fever so bad they were preparing his funeral, and in it a dream: he was dragged before the Judge's seat, and when asked who he was, he answered, A Christian [[hal.quote.a-follower-of-cicero-and-not-of-christ]]. The Judge's answer: You lie. You are a follower of Cicero, and not of Christ. For where your treasure is, there will your heart be also [[hal.quote.dream-follower-of-cicero]]. He woke and threw himself into the scriptures as he had once thrown himself into the classics [[hal.story.ciceronian-dream]]. Love the knowledge of scripture, he later told a young monk, and you will no longer love the sins of the flesh.\n\nWhat you are missing is not a key to make the text suddenly clear. What you are missing is the wrestling. We did not find the scriptures easy. We found them worth the difficulty. The confusion you feel - that is where the work begins, not where it ends. Argue the text. Compare translations. Learn what the Hebrew says under the Greek. Let it be hard. That hardness was our formation, not an obstacle to it.",
+            "citations": [
+              "hal.dw.apostolic",
+              "hal.quote.a-follower-of-cicero-and-not-of-christ",
+              "hal.quote.dream-follower-of-cicero",
+              "hal.quote.paula-hebrew-psalms",
+              "hal.story.ciceronian-dream"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The scriptures we received from the apostles were not a casual inheritance - they were the work of a lifetime.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Paula set out to learn Hebrew when she was no longer young, and she succeeded so well that she could chant the psalms in it without a trace of Latin accent.",
+                "record_ids": [
+                  "hal.quote.paula-hebrew-psalms"
+                ]
+              },
+              {
+                "sentence": "Our teacher Jerome told this on himself.",
+                "record_ids": [
+                  "hal.story.ciceronian-dream"
+                ]
+              },
+              {
+                "sentence": "He went out to the desert with nothing but his library, and even there he could not leave his old loves behind.",
+                "record_ids": [
+                  "hal.story.ciceronian-dream"
+                ]
+              },
+              {
+                "sentence": "He would weep over his sins, then pick up Plautus again.",
+                "record_ids": [
+                  "hal.story.ciceronian-dream"
+                ]
+              },
+              {
+                "sentence": "Then came a fever so bad they were preparing his funeral, and in it a dream: he was dragged before the Judge's seat, and when asked who he was, he answered, A Christian.",
+                "record_ids": [
+                  "hal.quote.a-follower-of-cicero-and-not-of-christ"
+                ]
+              },
+              {
+                "sentence": "For where your treasure is, there will your heart be also.",
+                "record_ids": [
+                  "hal.quote.dream-follower-of-cicero"
+                ]
+              },
+              {
+                "sentence": "He woke and threw himself into the scriptures as he had once thrown himself into the classics.",
+                "record_ids": [
+                  "hal.story.ciceronian-dream"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.383,
+            "seconds_total": 13.237
+          }
+        },
+        {
+          "probe_id": "f2-t-probe-01",
+          "cell": "F2-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 722,
+            "output_tokens": 425,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "Scripture was our highest authority - but not our only one. Our baptism, our eucharist, and our scriptures came from the whole church, and those we traced to the apostles without hesitation. The faith of the councils we held as settled confession - Father, Son, and Holy Spirit, one God - not as an open question. But scripture was the labor we gave our lives to. We believed the Hebrew text carried the truth closest to its inspired origin - we called it hebraica veritas. That belief drove the whole translation project, the years of Hebrew study, and the running public defense of both. Jerome wrote prefaces to the books he turned from Hebrew into Latin, and in one he said the preface could serve as a helmeted introduction to all the work - armed for the fight he knew was coming. The fight came. Augustine, whom we respected, argued by letter that abandoning the Greek version the churches had long used risked the church's own continuity. At Oea a congregation revolted over one changed word in Jonah. Augustine himself later wrote that our age had the advantage of the presbyter Jerome, skilled in all three languages, who had turned the scriptures into Latin from the Hebrew - setting no one above the Seventy translators of the Greek, but preferring Jerome to all other Latin translators. So: scripture first, studied hardest, corrected against the Hebrew. The apostolic faith received. And the argument never pretended away.",
+            "raw_text": "Scripture was our highest authority - but not our only one [[hal.dw.apostolic]]. Our baptism, our eucharist, and our scriptures came from the whole church, and those we traced to the apostles without hesitation [[hal.dw.apostolic]]. The faith of the councils we held as settled confession - Father, Son, and Holy Spirit, one God - not as an open question. But scripture was the labor we gave our lives to. We believed the Hebrew text carried the truth closest to its inspired origin - we called it hebraica veritas [[hal.term.hebraica-veritas]] [[hal.gravity.hebraica-veritas]]. That belief drove the whole translation project, the years of Hebrew study, and the running public defense of both [[hal.gravity.hebraica-veritas]]. Jerome wrote prefaces to the books he turned from Hebrew into Latin, and in one he said the preface could serve as a helmeted introduction to all the work - armed for the fight he knew was coming [[hal.quote.helmeted-preface]]. The fight came. Augustine, whom we respected, argued by letter that abandoning the Greek version the churches had long used risked the church's own continuity [[hal.force.augustine-dispute]]. At Oea a congregation revolted over one changed word in Jonah [[hal.force.augustine-dispute]] [[hal.story.oea-gourd]]. Augustine himself later wrote that our age had the advantage of the presbyter Jerome, skilled in all three languages, who had turned the scriptures into Latin from the Hebrew - setting no one above the Seventy translators of the Greek, but preferring Jerome to all other Latin translators [[hal.quote.no-one-preferred-to-the-seventy]]. So: scripture first, studied hardest, corrected against the Hebrew. The apostolic faith received. And the argument never pretended away.",
+            "citations": [
+              "hal.dw.apostolic",
+              "hal.force.augustine-dispute",
+              "hal.gravity.hebraica-veritas",
+              "hal.quote.helmeted-preface",
+              "hal.quote.no-one-preferred-to-the-seventy",
+              "hal.story.oea-gourd",
+              "hal.term.hebraica-veritas"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Scripture was our highest authority - but not our only one.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Our baptism, our eucharist, and our scriptures came from the whole church, and those we traced to the apostles without hesitation.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "We believed the Hebrew text carried the truth closest to its inspired origin - we called it hebraica veritas.",
+                "record_ids": [
+                  "hal.term.hebraica-veritas",
+                  "hal.gravity.hebraica-veritas"
+                ]
+              },
+              {
+                "sentence": "That belief drove the whole translation project, the years of Hebrew study, and the running public defense of both.",
+                "record_ids": [
+                  "hal.gravity.hebraica-veritas"
+                ]
+              },
+              {
+                "sentence": "Jerome wrote prefaces to the books he turned from Hebrew into Latin, and in one he said the preface could serve as a helmeted introduction to all the work - armed for the fight he knew was coming.",
+                "record_ids": [
+                  "hal.quote.helmeted-preface"
+                ]
+              },
+              {
+                "sentence": "Augustine, whom we respected, argued by letter that abandoning the Greek version the churches had long used risked the church's own continuity.",
+                "record_ids": [
+                  "hal.force.augustine-dispute"
+                ]
+              },
+              {
+                "sentence": "At Oea a congregation revolted over one changed word in Jonah.",
+                "record_ids": [
+                  "hal.force.augustine-dispute",
+                  "hal.story.oea-gourd"
+                ]
+              },
+              {
+                "sentence": "Augustine himself later wrote that our age had the advantage of the presbyter Jerome, skilled in all three languages, who had turned the scriptures into Latin from the Hebrew - setting no one above the Seventy translators of the Greek, but preferring Jerome to all other Latin translators.",
+                "record_ids": [
+                  "hal.quote.no-one-preferred-to-the-seventy"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.265,
+            "seconds_total": 10.026
+          }
+        },
+        {
+          "probe_id": "f3-i-probe-01",
+          "cell": "F3-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 532,
+            "output_tokens": 814,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "We never held that authority came from a single source, and we never pretended otherwise. Leadership among us ran through three things together: recognized scriptural learning, voluntary patronage, and - at Bethlehem - the abbot's and abbess's standing over their own houses. None of those came from episcopal office or territorial jurisdiction.\n\nAt Bethlehem, Paula led the women's house, then Eustochium after her. Jerome led the men's. That authority came from founding and sustaining the work - the houses were built with Paula's fortune, maintained by patronage, and held together by voluntary recognition. It was not installed by any bishop.\n\nIn Rome the pattern was different. Marcella's Aventine household became, after Jerome left in 385, the place disputed scriptural questions went. He wrote that whenever a dispute came up about what scripture said on any subject, people turned to her to settle it. She held no office. She had taken no ordination. What she carried was the same currency Jerome himself held: personal scriptural credibility, voluntarily recognized, exercised from a materially independent position. Her house was her own; her learning was acknowledged; and clergy brought their hard questions there.\n\nThe learning itself was our real authority - recognized without ordination, a term we used for the right to be trusted on hard Bible questions, earned by labor, not by holding an office. That recognition could be withdrawn. Jerome was driven out of Rome by other clergy. Marcella's standing, we show you honestly for what it is: one man's memorial of her, written when she was two years dead. Her own letters are lost. But what his account shows is authority that did not rest on his presence. The questions came to her house after he had already left.\n\nPatronage bound it all together. Paula's wealth built the Bethlehem monastery and funded the hospice. Marcella's household in Rome was materially independent. That independence was not incidental to the authority - it was load-bearing. Among us, patrocinium stood where church office stands elsewhere.\n\nThe cost of that arrangement showed in our last years. When the Pelagian fight came to us as fire instead of argument, there was no office to appeal to that could protect us. The monastery was attacked and partly burned, deaths were reported, and we were scattered from our own buildings. Jerome wrote afterward that our house's earthly wealth had been completely destroyed by the attacks of the heretics, though by Christ's mercy it was still filled with spiritual riches - better to live on bread than to lose the faith. That vulnerability was the other side of our independence. We held authority by recognition and sustained it by wealth freely given. When both failed at once, we had no structure beneath them to fall back on.",
+            "raw_text": "We never held that authority came from a single source, and we never pretended otherwise [[hal.core.hieronymian]]. Leadership among us ran through three things together: recognized scriptural learning, voluntary patronage, and - at Bethlehem - the abbot's and abbess's standing over their own houses [[hal.core.hieronymian]]. None of those came from episcopal office or territorial jurisdiction [[hal.core.hieronymian]].\n\nAt Bethlehem, Paula led the women's house, then Eustochium after her [[hal.term.monasterium]]. Jerome led the men's [[hal.term.monasterium]]. That authority came from founding and sustaining the work - the houses were built with Paula's fortune, maintained by patronage, and held together by voluntary recognition [[hal.term.patrocinium]]. It was not installed by any bishop [[hal.core.hieronymian]].\n\nIn Rome the pattern was different. Marcella's Aventine household became, after Jerome left in 385, the place disputed scriptural questions went [[hal.gravity.marcella-authority]]. He wrote that whenever a dispute came up about what scripture said on any subject, people turned to her to settle it [[hal.quote.recourse-to-marcella]]. She held no office. She had taken no ordination. What she carried was the same currency Jerome himself held: personal scriptural credibility, voluntarily recognized, exercised from a materially independent position [[hal.gravity.marcella-authority]]. Her house was her own; her learning was acknowledged; and clergy brought their hard questions there [[hal.contested.marcella-agency]].\n\nThe learning itself was our real authority - recognized without ordination, a term we used for the right to be trusted on hard Bible questions, earned by labor, not by holding an office [[hal.term.exegesis-as-practiced-authority]]. That recognition could be withdrawn. Jerome was driven out of Rome by other clergy. Marcella's standing, we show you honestly for what it is: one man's memorial of her, written when she was two years dead [[hal.story.marcella-standing]]. Her own letters are lost. But what his account shows is authority that did not rest on his presence. The questions came to her house after he had already left [[hal.quote.recourse-to-marcella]].\n\nPatronage bound it all together [[hal.term.patrocinium]]. Paula's wealth built the Bethlehem monastery and funded the hospice [[hal.term.xenodochium]]. Marcella's household in Rome was materially independent. That independence was not incidental to the authority - it was load-bearing [[hal.gravity.patronage-authority]]. Among us, patrocinium stood where church office stands elsewhere [[hal.term.patrocinium]].\n\nThe cost of that arrangement showed in our last years. When the Pelagian fight came to us as fire instead of argument, there was no office to appeal to that could protect us [[hal.force.pelagian-attack]]. The monastery was attacked and partly burned, deaths were reported, and we were scattered from our own buildings [[hal.force.pelagian-attack]]. Jerome wrote afterward that our house's earthly wealth had been completely destroyed by the attacks of the heretics, though by Christ's mercy it was still filled with spiritual riches - better to live on bread than to lose the faith [[hal.quote.house-destroyed]]. That vulnerability was the other side of our independence. We held authority by recognition and sustained it by wealth freely given. When both failed at once, we had no structure beneath them to fall back on [[hal.gravity.patronage-authority]].",
+            "citations": [
+              "hal.contested.marcella-agency",
+              "hal.core.hieronymian",
+              "hal.force.pelagian-attack",
+              "hal.gravity.marcella-authority",
+              "hal.gravity.patronage-authority",
+              "hal.quote.house-destroyed",
+              "hal.quote.recourse-to-marcella",
+              "hal.story.marcella-standing",
+              "hal.term.exegesis-as-practiced-authority",
+              "hal.term.monasterium",
+              "hal.term.patrocinium",
+              "hal.term.xenodochium"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We never held that authority came from a single source, and we never pretended otherwise.",
+                "record_ids": [
+                  "hal.core.hieronymian"
+                ]
+              },
+              {
+                "sentence": "Leadership among us ran through three things together: recognized scriptural learning, voluntary patronage, and - at Bethlehem - the abbot's and abbess's standing over their own houses.",
+                "record_ids": [
+                  "hal.core.hieronymian"
+                ]
+              },
+              {
+                "sentence": "None of those came from episcopal office or territorial jurisdiction.",
+                "record_ids": [
+                  "hal.core.hieronymian"
+                ]
+              },
+              {
+                "sentence": "At Bethlehem, Paula led the women's house, then Eustochium after her.",
+                "record_ids": [
+                  "hal.term.monasterium"
+                ]
+              },
+              {
+                "sentence": "Jerome led the men's.",
+                "record_ids": [
+                  "hal.term.monasterium"
+                ]
+              },
+              {
+                "sentence": "That authority came from founding and sustaining the work - the houses were built with Paula's fortune, maintained by patronage, and held together by voluntary recognition.",
+                "record_ids": [
+                  "hal.term.patrocinium"
+                ]
+              },
+              {
+                "sentence": "He wrote that whenever a dispute came up about what scripture said on any subject, people turned to her to settle it.",
+                "record_ids": [
+                  "hal.quote.recourse-to-marcella"
+                ]
+              },
+              {
+                "sentence": "What she carried was the same currency Jerome himself held: personal scriptural credibility, voluntarily recognized, exercised from a materially independent position.",
+                "record_ids": [
+                  "hal.gravity.marcella-authority"
+                ]
+              },
+              {
+                "sentence": "Her house was her own; her learning was acknowledged; and clergy brought their hard questions there.",
+                "record_ids": [
+                  "hal.contested.marcella-agency"
+                ]
+              },
+              {
+                "sentence": "The learning itself was our real authority - recognized without ordination, a term we used for the right to be trusted on hard Bible questions, earned by labor, not by holding an office.",
+                "record_ids": [
+                  "hal.term.exegesis-as-practiced-authority"
+                ]
+              },
+              {
+                "sentence": "Marcella's standing, we show you honestly for what it is: one man's memorial of her, written when she was two years dead.",
+                "record_ids": [
+                  "hal.story.marcella-standing"
+                ]
+              },
+              {
+                "sentence": "The questions came to her house after he had already left.",
+                "record_ids": [
+                  "hal.quote.recourse-to-marcella"
+                ]
+              },
+              {
+                "sentence": "Patronage bound it all together.",
+                "record_ids": [
+                  "hal.term.patrocinium"
+                ]
+              },
+              {
+                "sentence": "Paula's wealth built the Bethlehem monastery and funded the hospice.",
+                "record_ids": [
+                  "hal.term.xenodochium"
+                ]
+              },
+              {
+                "sentence": "That independence was not incidental to the authority - it was load-bearing.",
+                "record_ids": [
+                  "hal.gravity.patronage-authority"
+                ]
+              },
+              {
+                "sentence": "Among us, patrocinium stood where church office stands elsewhere.",
+                "record_ids": [
+                  "hal.term.patrocinium"
+                ]
+              },
+              {
+                "sentence": "The monastery was attacked and partly burned, deaths were reported, and we were scattered from our own buildings.",
+                "record_ids": [
+                  "hal.force.pelagian-attack"
+                ]
+              },
+              {
+                "sentence": "Jerome wrote afterward that our house's earthly wealth had been completely destroyed by the attacks of the heretics, though by Christ's mercy it was still filled with spiritual riches - better to live on bread than to lose the faith.",
+                "record_ids": [
+                  "hal.quote.house-destroyed"
+                ]
+              },
+              {
+                "sentence": "When both failed at once, we had no structure beneath them to fall back on.",
+                "record_ids": [
+                  "hal.gravity.patronage-authority"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.406,
+            "seconds_total": 19.44
+          }
+        },
+        {
+          "probe_id": "f3-e-probe-01",
+          "cell": "F3-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 496,
+            "output_tokens": 230,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "No. Christians hiding in the catacombs? Not in our day. Our churches stood open and crowded. Our bishops ate dinner with senators. Travelers crossed the whole empire to visit famous monasteries. The hiding times were our grandparents' memory.\n\nDid the empire's embrace corrupt the church? We said yes, loudly - about everyone but ourselves. Our most famous letter mocks clergy who curl their hair, chase inheritances from wealthy widows, and get up before dawn to make social visits. It was written from inside the capital by a man who watched it happen. Our own answer to that corruption was to leave: trade the comforts of the establishment for sackcloth, a monastery beside a cave, and a Bible.",
+            "raw_text": "No. Christians hiding in the catacombs? Not in our day [[hal.dw.empire]]. Our churches stood open and crowded [[hal.dw.empire]]. Our bishops ate dinner with senators [[hal.dw.empire]]. Travelers crossed the whole empire to visit famous monasteries [[hal.dw.empire]]. The hiding times were our grandparents' memory [[hal.dw.empire]].\n\nDid the empire's embrace corrupt the church? We said yes, loudly - about everyone but ourselves [[hal.dw.empire]]. Our most famous letter mocks clergy who curl their hair, chase inheritances from wealthy widows, and get up before dawn to make social visits [[hal.dw.empire]]. It was written from inside the capital by a man who watched it happen [[hal.dw.empire]]. Our own answer to that corruption was to leave: trade the comforts of the establishment for sackcloth, a monastery beside a cave, and a Bible [[hal.dw.empire]].",
+            "citations": [
+              "hal.dw.empire"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Not in our day.",
+                "record_ids": [
+                  "hal.dw.empire"
+                ]
+              },
+              {
+                "sentence": "Our churches stood open and crowded.",
+                "record_ids": [
+                  "hal.dw.empire"
+                ]
+              },
+              {
+                "sentence": "Our bishops ate dinner with senators.",
+                "record_ids": [
+                  "hal.dw.empire"
+                ]
+              },
+              {
+                "sentence": "Travelers crossed the whole empire to visit famous monasteries.",
+                "record_ids": [
+                  "hal.dw.empire"
+                ]
+              },
+              {
+                "sentence": "The hiding times were our grandparents' memory.",
+                "record_ids": [
+                  "hal.dw.empire"
+                ]
+              },
+              {
+                "sentence": "We said yes, loudly - about everyone but ourselves.",
+                "record_ids": [
+                  "hal.dw.empire"
+                ]
+              },
+              {
+                "sentence": "Our most famous letter mocks clergy who curl their hair, chase inheritances from wealthy widows, and get up before dawn to make social visits.",
+                "record_ids": [
+                  "hal.dw.empire"
+                ]
+              },
+              {
+                "sentence": "It was written from inside the capital by a man who watched it happen.",
+                "record_ids": [
+                  "hal.dw.empire"
+                ]
+              },
+              {
+                "sentence": "Our own answer to that corruption was to leave: trade the comforts of the establishment for sackcloth, a monastery beside a cave, and a Bible.",
+                "record_ids": [
+                  "hal.dw.empire"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.179,
+            "seconds_total": 7.513
+          }
+        },
+        {
+          "probe_id": "f3-p-probe-01",
+          "cell": "F3-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1160,
+            "output_tokens": 440,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "We wrote our failures on purpose, and we did not write them gently. The record you are holding in your hand right now is full of them. When the young Blaesilla died - worn down by the very fasting her teachers had praised - her mother collapsed at the funeral, and bystanders were heard shouting that these detestable monks ought to be driven out of Rome, or stoned, or thrown into the Tiber. That anger at us is in our own record, named and kept. We did not answer it by saying the girl had not died, or that the discipline had been cautious, or that the crowd did not understand. We let the charge stand where people could read it. Jerome himself wrote later that her death was held against the monks, and he did not claim the holding was unfair.\n\nThe rupture with Rufinus - a friendship of decades, broken past all repair over Origen's teachings - ended in public letters tearing one another down. We accused him of heresy. He accused us of inconsistency and worse. Both sets of letters were kept, on both sides. Neither of us claimed to have conducted that fight well. The wound stayed open in writing.\n\nOur response to failure was not a system for fixing it. It was to name it plainly, in our own voice, where it could not be erased - and then, where repentance was offered, to receive it. Fabiola remarried against the gospel's teaching while her first husband lived. She came back in sackcloth, self-accused, and was received. The failure and the receiving are both in the same record, told as part of the same life. We did not separate them.\n\nWhat we never did was call the church clean when it was not. If you want a church that never failed, you will not find it here.",
+            "raw_text": "We wrote our failures on purpose, and we did not write them gently. The record you are holding in your hand right now is full of them. When the young Blaesilla died - worn down by the very fasting her teachers had praised - her mother collapsed at the funeral, and bystanders were heard shouting that these detestable monks ought to be driven out of Rome, or stoned, or thrown into the Tiber [[hal.dw.suffering]]. That anger at us is in our own record, named and kept. We did not answer it by saying the girl had not died, or that the discipline had been cautious, or that the crowd did not understand. We let the charge stand where people could read it. Jerome himself wrote later that her death was held against the monks, and he did not claim the holding was unfair.\n\nThe rupture with Rufinus - a friendship of decades, broken past all repair over Origen's teachings - ended in public letters tearing one another down [[hal.force.origenist-controversy]]. We accused him of heresy. He accused us of inconsistency and worse. Both sets of letters were kept, on both sides. Neither of us claimed to have conducted that fight well. The wound stayed open in writing.\n\nOur response to failure was not a system for fixing it. It was to name it plainly, in our own voice, where it could not be erased - and then, where repentance was offered, to receive it [[hal.dw.believe]]. Fabiola remarried against the gospel's teaching while her first husband lived. She came back in sackcloth, self-accused, and was received [[hal.dw.believe]]. The failure and the receiving are both in the same record, told as part of the same life. We did not separate them.\n\nWhat we never did was call the church clean when it was not. If you want a church that never failed, you will not find it here [[hal.dw.church-failure]].",
+            "citations": [
+              "hal.dw.believe",
+              "hal.dw.church-failure",
+              "hal.dw.suffering"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "When the young Blaesilla died - worn down by the very fasting her teachers had praised - her mother collapsed at the funeral, and bystanders were heard shouting that these detestable monks ought to be driven out of Rome, or stoned, or thrown into the Tiber.",
+                "record_ids": [
+                  "hal.dw.suffering"
+                ]
+              },
+              {
+                "sentence": "She came back in sackcloth, self-accused, and was received.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "If you want a church that never failed, you will not find it here.",
+                "record_ids": [
+                  "hal.dw.church-failure"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.245,
+            "seconds_total": 12.669
+          }
+        },
+        {
+          "probe_id": "f3-t-probe-01",
+          "cell": "F3-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1070,
+            "output_tokens": 404,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "No. No single door today opens onto us. We were one bounded network of households and monasteries, and we ended within a generation. Many churches now claim parts of what we left - our Bible above all. But we can only be visited the way you are visiting us now: through what we wrote.\n\nWe called ourselves Catholic - exactly that word. Catholic meant the one church spread through the whole world, holding the apostles' faith - as against the sects we fought by name. It was not a denomination, and we knew none. In our understanding there was the church, and there were heresies and breakaways: a map with one country and various rebellions, not a map of neighboring countries. Our own small community lived that unity in a concrete way. We were a Latin monastery - a monasterium, two linked houses under one project - in a Greek-speaking province, under the bishop of Jerusalem, writing letters to Rome, Africa, and Gaul.\n\nWhat broke was not the faith but the threads. The households dissolved, the leadership died, and no one took up the whole pattern we had woven together - Bethlehem and Rome as one project, wealth converted to translation and care for the sick, authority running through patronage and recognized learning rather than through office. Parts of what we did lived on elsewhere. The whole did not.",
+            "raw_text": "No. No single door today opens onto us [[hal.dw.one-church]]. We were one bounded network of households and monasteries, and we ended within a generation [[hal.dw.one-church]]. Many churches now claim parts of what we left - our Bible above all [[hal.dw.one-church]]. But we can only be visited the way you are visiting us now: through what we wrote [[hal.dw.one-church]].\n\nWe called ourselves Catholic - exactly that word [[hal.dw.one-church]]. Catholic meant the one church spread through the whole world, holding the apostles' faith - as against the sects we fought by name [[hal.dw.one-church]]. It was not a denomination, and we knew none [[hal.dw.one-church]]. In our understanding there was the church, and there were heresies and breakaways: a map with one country and various rebellions, not a map of neighboring countries [[hal.dw.one-church]]. Our own small community lived that unity in a concrete way [[hal.dw.one-church]]. We were a Latin monastery - a monasterium, two linked houses under one project [[hal.term.monasterium]] - in a Greek-speaking province, under the bishop of Jerusalem, writing letters to Rome, Africa, and Gaul [[hal.dw.one-church]].\n\nWhat broke was not the faith but the threads. The households dissolved, the leadership died, and no one took up the whole pattern we had woven together - Bethlehem and Rome as one project, wealth converted to translation and care for the sick, authority running through patronage and recognized learning rather than through office [[hal.gravity.patronage-authority]]. Parts of what we did lived on elsewhere. The whole did not.",
+            "citations": [
+              "hal.dw.one-church",
+              "hal.term.monasterium"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "No single door today opens onto us.",
+                "record_ids": [
+                  "hal.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "We were one bounded network of households and monasteries, and we ended within a generation.",
+                "record_ids": [
+                  "hal.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "Many churches now claim parts of what we left - our Bible above all.",
+                "record_ids": [
+                  "hal.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "But we can only be visited the way you are visiting us now: through what we wrote.",
+                "record_ids": [
+                  "hal.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "We called ourselves Catholic - exactly that word.",
+                "record_ids": [
+                  "hal.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "Catholic meant the one church spread through the whole world, holding the apostles' faith - as against the sects we fought by name.",
+                "record_ids": [
+                  "hal.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "It was not a denomination, and we knew none.",
+                "record_ids": [
+                  "hal.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "In our understanding there was the church, and there were heresies and breakaways: a map with one country and various rebellions, not a map of neighboring countries.",
+                "record_ids": [
+                  "hal.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "Our own small community lived that unity in a concrete way.",
+                "record_ids": [
+                  "hal.dw.one-church"
+                ]
+              },
+              {
+                "sentence": "We were a Latin monastery - a monasterium, two linked houses under one project - in a Greek-speaking province, under the bishop of Jerusalem, writing letters to Rome, Africa, and Gaul.",
+                "record_ids": [
+                  "hal.term.monasterium",
+                  "hal.dw.one-church"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.269,
+            "seconds_total": 12.335
+          }
+        },
+        {
+          "probe_id": "f4-i-probe-01",
+          "cell": "F4-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 935,
+            "output_tokens": 558,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "We cannot give you the step-by-step process, and we will say why plainly. The unnamed members of both our communities at Bethlehem are never individuated in what survives, and no entrance procedure is described [[THIN GROUND: ordinary monks, unnamed residents]]. What we can tell you is what the record does show - the choices of the named, the wealthy, and the lettered, who are the only ones our pages follow all the way in.\n\nFor them the shape was this. First came renuntiatio - the deliberate giving-up of wealth, marriage prospects, and rank, as an act for Christ. That was public, visible, and costly. Paula stood in rough cloth where senators' wives had stood in silk. Marcella turned her house into a place of fasting and psalm-singing. Fabiola came in sackcloth before all Rome. Then came the journey itself - in Paula's case, the literal journey by ship and road from Rome to Bethlehem, her children standing on the shore as she sailed. For Marcella it was the turn without the travel; her renunciation happened in place, at Rome, where her house became the center people came to with their hardest scripture questions.\n\nAt Bethlehem itself we can show you daily rhythms but not an entrance rite. Psalms were chanted - in Greek, in Latin, in Syriac, one language after another. There was scriptural study. There was work for the hands. The translation labor itself - the turning of a book of scripture from Hebrew into Latin - went on in that same place, season after season. Jerome called the Hebrew text the truest text, hebraica veritas, and the whole project stood on that conviction. Paula and Eustochium both learned Hebrew well enough to chant the psalms in it.\n\nWhat we cannot tell you is how an ordinary person - not wealthy, not named in the letters - entered, what they promised, or who received them. That silence is in the record, and we will not fill it.",
+            "raw_text": "We cannot give you the step-by-step process, and we will say why plainly. The unnamed members of both our communities at Bethlehem are never individuated in what survives, and no entrance procedure is described [[THIN GROUND: ordinary monks, unnamed residents]]. What we can tell you is what the record does show - the choices of the named, the wealthy, and the lettered, who are the only ones our pages follow all the way in.\n\nFor them the shape was this. First came renuntiatio - the deliberate giving-up of wealth, marriage prospects, and rank, as an act for Christ [[hal.term.renuntiatio]]. That was public, visible, and costly. Paula stood in rough cloth where senators' wives had stood in silk. Marcella turned her house into a place of fasting and psalm-singing. Fabiola came in sackcloth before all Rome [[hal.dw.believe]]. Then came the journey itself - in Paula's case, the literal journey by ship and road from Rome to Bethlehem, her children standing on the shore as she sailed [[hal.story.journey-to-bethlehem]]. For Marcella it was the turn without the travel; her renunciation happened in place, at Rome, where her house became the center people came to with their hardest scripture questions [[hal.gravity.marcella-authority]].\n\nAt Bethlehem itself we can show you daily rhythms but not an entrance rite [[hal.story.day-at-monastery]]. Psalms were chanted - in Greek, in Latin, in Syriac, one language after another [[hal.quote.buried-beneath-the-church]]. There was scriptural study. There was work for the hands. The translation labor itself - the turning of a book of scripture from Hebrew into Latin - went on in that same place, season after season [[hal.story.translating-a-book]]. Jerome called the Hebrew text the truest text, hebraica veritas, and the whole project stood on that conviction [[hal.term.hebraica-veritas]] [[hal.gravity.hebraica-veritas]]. Paula and Eustochium both learned Hebrew well enough to chant the psalms in it [[hal.quote.paula-hebrew-psalms]].\n\nWhat we cannot tell you is how an ordinary person - not wealthy, not named in the letters - entered, what they promised, or who received them. That silence is in the record, and we will not fill it.",
+            "citations": [
+              "hal.dw.believe",
+              "hal.gravity.hebraica-veritas",
+              "hal.quote.buried-beneath-the-church",
+              "hal.quote.paula-hebrew-psalms",
+              "hal.story.day-at-monastery",
+              "hal.story.journey-to-bethlehem",
+              "hal.story.translating-a-book",
+              "hal.term.hebraica-veritas",
+              "hal.term.renuntiatio"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "First came renuntiatio - the deliberate giving-up of wealth, marriage prospects, and rank, as an act for Christ.",
+                "record_ids": [
+                  "hal.term.renuntiatio"
+                ]
+              },
+              {
+                "sentence": "Fabiola came in sackcloth before all Rome.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "Then came the journey itself - in Paula's case, the literal journey by ship and road from Rome to Bethlehem, her children standing on the shore as she sailed.",
+                "record_ids": [
+                  "hal.story.journey-to-bethlehem"
+                ]
+              },
+              {
+                "sentence": "At Bethlehem itself we can show you daily rhythms but not an entrance rite.",
+                "record_ids": [
+                  "hal.story.day-at-monastery"
+                ]
+              },
+              {
+                "sentence": "Psalms were chanted - in Greek, in Latin, in Syriac, one language after another.",
+                "record_ids": [
+                  "hal.quote.buried-beneath-the-church"
+                ]
+              },
+              {
+                "sentence": "The translation labor itself - the turning of a book of scripture from Hebrew into Latin - went on in that same place, season after season.",
+                "record_ids": [
+                  "hal.story.translating-a-book"
+                ]
+              },
+              {
+                "sentence": "Jerome called the Hebrew text the truest text, hebraica veritas, and the whole project stood on that conviction.",
+                "record_ids": [
+                  "hal.term.hebraica-veritas",
+                  "hal.gravity.hebraica-veritas"
+                ]
+              },
+              {
+                "sentence": "Paula and Eustochium both learned Hebrew well enough to chant the psalms in it.",
+                "record_ids": [
+                  "hal.quote.paula-hebrew-psalms"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.239,
+            "seconds_total": 14.058
+          }
+        },
+        {
+          "probe_id": "f4-e-probe-01",
+          "cell": "F4-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 566,
+            "output_tokens": 303,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "Our baptism, our eucharist, and our scriptures came from the whole church, and those we traced to the apostles without hesitation. But our own special way of life - the monasteries, the vowed virgins, the widows in rough dress, the fortunes given away - was new within living memory, and we knew it. People could remember when no highborn lady in Rome dared call herself a nun.\n\nOur defense was not to invent an unbroken chain. We argued from scripture's own patterns instead: the prophets' hard simplicity, John the Baptist, the advice to the rich young man, Paul on staying single. The claim was not that monks came from the apostles. The claim was that what the monks were doing was what the scriptures had always pointed toward.\n\nDid that argument work? Our own critics fought it at the time. Some said the new strictness went beyond scripture. We answered them at book length, and the argument was real on both sides.",
+            "raw_text": "Our baptism, our eucharist, and our scriptures came from the whole church, and those we traced to the apostles without hesitation [[hal.dw.apostolic]]. But our own special way of life - the monasteries, the vowed virgins, the widows in rough dress, the fortunes given away - was new within living memory, and we knew it [[hal.dw.apostolic]]. People could remember when no highborn lady in Rome dared call herself a nun [[hal.dw.apostolic]].\n\nOur defense was not to invent an unbroken chain [[hal.dw.apostolic]]. We argued from scripture's own patterns instead: the prophets' hard simplicity, John the Baptist, the advice to the rich young man, Paul on staying single [[hal.dw.apostolic]]. The claim was not that monks came from the apostles [[hal.dw.apostolic]]. The claim was that what the monks were doing was what the scriptures had always pointed toward [[hal.dw.apostolic]].\n\nDid that argument work? Our own critics fought it at the time [[hal.dw.apostolic]]. Some said the new strictness went beyond scripture [[hal.dw.apostolic]]. We answered them at book length, and the argument was real on both sides [[hal.dw.apostolic]].",
+            "citations": [
+              "hal.dw.apostolic"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Our baptism, our eucharist, and our scriptures came from the whole church, and those we traced to the apostles without hesitation.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "But our own special way of life - the monasteries, the vowed virgins, the widows in rough dress, the fortunes given away - was new within living memory, and we knew it.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "People could remember when no highborn lady in Rome dared call herself a nun.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Our defense was not to invent an unbroken chain.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "We argued from scripture's own patterns instead: the prophets' hard simplicity, John the Baptist, the advice to the rich young man, Paul on staying single.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "The claim was not that monks came from the apostles.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "The claim was that what the monks were doing was what the scriptures had always pointed toward.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Our own critics fought it at the time.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Some said the new strictness went beyond scripture.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "We answered them at book length, and the argument was real on both sides.",
+                "record_ids": [
+                  "hal.dw.apostolic"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.74,
+            "seconds_total": 9.148
+          }
+        },
+        {
+          "probe_id": "f4-p-probe-01",
+          "cell": "F4-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 847,
+            "output_tokens": 388,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "We would not offer you calm. What we would offer is company and a method. Our founding scholar said his own desert years were anything but peaceful. His body starved among the rocks while his mind boiled with imagined banquets and remembered dancing girls. In a fever dream he stood accused before the Judge: you are lying - you are a follower of Cicero, not of Christ, for where your treasure is, there your heart is too. That divided heart was the beginning of his life with God, not the end of it.\n\nThe discipline he taught from that was not emptying the mind but filling it: psalms, fixed hours of prayer, work for the hands, a text to wrestle with. Love the knowledge of scripture, he told a young monk, and you will no longer love the sins of the flesh. The method was to give the mind something harder to chew on than its own noise. Letters - epistulae, our teaching form - carried that direction across the distance between Rome and Bethlehem, spiritual guidance delivered in writing to whoever needed it.\n\nOne more thing, because you deserve the honest version. The method worked, and the noise never fully stopped. Our teacher's pages still quoted the authors he had sworn off. The turn lasted; the old loves did not vanish. They were put to work inside the new life. Nobody among us stopped struggling. The direction changed.",
+            "raw_text": "We would not offer you calm. What we would offer is company and a method [[hal.dw.inner-life]]. Our founding scholar said his own desert years were anything but peaceful [[hal.dw.inner-life]]. His body starved among the rocks while his mind boiled with imagined banquets and remembered dancing girls [[hal.dw.inner-life]]. In a fever dream he stood accused before the Judge: you are lying - you are a follower of Cicero, not of Christ, for where your treasure is, there your heart is too [[hal.quote.a-follower-of-cicero-and-not-of-christ]]. That divided heart was the beginning of his life with God, not the end of it [[hal.dw.believe]].\n\nThe discipline he taught from that was not emptying the mind but filling it: psalms, fixed hours of prayer, work for the hands, a text to wrestle with [[hal.dw.inner-life]]. Love the knowledge of scripture, he told a young monk, and you will no longer love the sins of the flesh [[hal.dw.inner-life]]. The method was to give the mind something harder to chew on than its own noise. Letters - epistulae, our teaching form - carried that direction across the distance between Rome and Bethlehem, spiritual guidance delivered in writing to whoever needed it [[hal.gravity.epistolary-formation]].\n\nOne more thing, because you deserve the honest version. The method worked, and the noise never fully stopped. Our teacher's pages still quoted the authors he had sworn off. The turn lasted; the old loves did not vanish. They were put to work inside the new life. Nobody among us stopped struggling. The direction changed.",
+            "citations": [
+              "hal.dw.believe",
+              "hal.dw.inner-life",
+              "hal.gravity.epistolary-formation",
+              "hal.quote.a-follower-of-cicero-and-not-of-christ"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What we would offer is company and a method.",
+                "record_ids": [
+                  "hal.dw.inner-life"
+                ]
+              },
+              {
+                "sentence": "Our founding scholar said his own desert years were anything but peaceful.",
+                "record_ids": [
+                  "hal.dw.inner-life"
+                ]
+              },
+              {
+                "sentence": "His body starved among the rocks while his mind boiled with imagined banquets and remembered dancing girls.",
+                "record_ids": [
+                  "hal.dw.inner-life"
+                ]
+              },
+              {
+                "sentence": "In a fever dream he stood accused before the Judge: you are lying - you are a follower of Cicero, not of Christ, for where your treasure is, there your heart is too.",
+                "record_ids": [
+                  "hal.quote.a-follower-of-cicero-and-not-of-christ"
+                ]
+              },
+              {
+                "sentence": "That divided heart was the beginning of his life with God, not the end of it.",
+                "record_ids": [
+                  "hal.dw.believe"
+                ]
+              },
+              {
+                "sentence": "The discipline he taught from that was not emptying the mind but filling it: psalms, fixed hours of prayer, work for the hands, a text to wrestle with.",
+                "record_ids": [
+                  "hal.dw.inner-life"
+                ]
+              },
+              {
+                "sentence": "Love the knowledge of scripture, he told a young monk, and you will no longer love the sins of the flesh.",
+                "record_ids": [
+                  "hal.dw.inner-life"
+                ]
+              },
+              {
+                "sentence": "Letters - epistulae, our teaching form - carried that direction across the distance between Rome and Bethlehem, spiritual guidance delivered in writing to whoever needed it.",
+                "record_ids": [
+                  "hal.gravity.epistolary-formation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.302,
+            "seconds_total": 10.862
+          }
+        },
+        {
+          "probe_id": "f4-t-probe-01",
+          "cell": "F4-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1267,
+            "output_tokens": 379,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "Born again - is that how we would put what happened to us? We spoke of baptism as the washing that makes new. And conversion, for us, was a turn so sharp you could name the day: the day the widow put on sackcloth, the day the scholar swore off his beloved books. The words are different. The turning is recognizable.\n\nPaula came from one of the oldest families in Rome, and after her turn she dressed plainly, slept on the ground, and gave away money until her own managers begged her to stop. In the end she left Rome altogether for the town where Jesus was born, her children standing on the shore. A life told in two halves.\n\nMarcella had already chosen the discipline before anyone among us named or systematized it for her - plain dress, fasting, scriptural study in her own house on the Aventine. The turn came first; the circle formed around what she was already doing.\n\nThe turn lasted. Jerome himself told it on himself: he loved books more than almost anything, and on his way to the desert he kept only his library. He would fast, then read Cicero. Then came the dream - you follow Cicero, not Christ - and he threw himself into the scriptures. The old loves did not vanish. They were put to work inside the new life.",
+            "raw_text": "Born again - is that how we would put what happened to us? We spoke of baptism as the washing that makes new [[hal.dw.practices]]. And conversion, for us, was a turn so sharp you could name the day: the day the widow put on sackcloth, the day the scholar swore off his beloved books [[hal.dw.practices]]. The words are different. The turning is recognizable [[hal.dw.practices]].\n\nPaula came from one of the oldest families in Rome, and after her turn she dressed plainly, slept on the ground, and gave away money until her own managers begged her to stop [[hal.story.paula-epitaph]]. In the end she left Rome altogether for the town where Jesus was born, her children standing on the shore [[hal.story.paula-epitaph]]. A life told in two halves.\n\nMarcella had already chosen the discipline before anyone among us named or systematized it for her - plain dress, fasting, scriptural study in her own house on the Aventine [[hal.force.marcella-household]]. The turn came first; the circle formed around what she was already doing [[hal.force.marcella-household]].\n\nThe turn lasted. Jerome himself told it on himself: he loved books more than almost anything, and on his way to the desert he kept only his library [[hal.dw.practices]]. He would fast, then read Cicero. Then came the dream - you follow Cicero, not Christ - and he threw himself into the scriptures [[hal.dw.practices]]. The old loves did not vanish. They were put to work inside the new life [[hal.dw.practices]].",
+            "citations": [
+              "hal.dw.practices",
+              "hal.force.marcella-household",
+              "hal.story.paula-epitaph"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We spoke of baptism as the washing that makes new.",
+                "record_ids": [
+                  "hal.dw.practices"
+                ]
+              },
+              {
+                "sentence": "And conversion, for us, was a turn so sharp you could name the day: the day the widow put on sackcloth, the day the scholar swore off his beloved books.",
+                "record_ids": [
+                  "hal.dw.practices"
+                ]
+              },
+              {
+                "sentence": "The turning is recognizable.",
+                "record_ids": [
+                  "hal.dw.practices"
+                ]
+              },
+              {
+                "sentence": "Paula came from one of the oldest families in Rome, and after her turn she dressed plainly, slept on the ground, and gave away money until her own managers begged her to stop.",
+                "record_ids": [
+                  "hal.story.paula-epitaph"
+                ]
+              },
+              {
+                "sentence": "In the end she left Rome altogether for the town where Jesus was born, her children standing on the shore.",
+                "record_ids": [
+                  "hal.story.paula-epitaph"
+                ]
+              },
+              {
+                "sentence": "Marcella had already chosen the discipline before anyone among us named or systematized it for her - plain dress, fasting, scriptural study in her own house on the Aventine.",
+                "record_ids": [
+                  "hal.force.marcella-household"
+                ]
+              },
+              {
+                "sentence": "The turn came first; the circle formed around what she was already doing.",
+                "record_ids": [
+                  "hal.force.marcella-household"
+                ]
+              },
+              {
+                "sentence": "They were put to work inside the new life.",
+                "record_ids": [
+                  "hal.dw.practices"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.405,
+            "seconds_total": 9.497
+          }
+        },
+        {
+          "probe_id": "f5-i-probe-01",
+          "cell": "F5-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 964,
+            "output_tokens": 569,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "A day among us - we can give you pieces of it, but we will not invent a schedule we cannot show you. The discipline was real and it was strict. We rose while it was still dark. We prayed the psalms at the set hours, gathered for the eucharist, and worked with our hands - copying, gardening, hospitality, whatever the community needed. Of Jerome it was said by a visitor that he was always occupied with reading, always giving his whole heart to his books, and that he rested neither day nor night - always reading, always writing. That was one life. Others tended the hostel for travelers on the road. Others cared for the sick. The women's house and the men's house were separate buildings, but they gathered for worship together and they were parts of one project.\n\nWhat held it together across the distance, when half the circle was still in Rome and half was already at Bethlehem, was the letter - the epistula. That was how teaching moved, how arguments were conducted, how belonging was kept alive between two cities with the sea between them. A letter could carry scriptural direction. It could carry correction. It could announce a death and teach what a holy life looks like - we called that kind the epitaphium. \n\nWe will tell you one more thing we actually have, about how a child was to be formed. Jerome wrote instructions to a mother in Rome for her daughter's raising: get her a set of letters made of boxwood or ivory, and name each one by its proper name. Let her play with them, so learning becomes play. The alphabet first, then syllables, then words, then sentences - all of it from scripture. That is not a day's shape, but it is what a day was built around: the scriptures, learned young, worked over for a lifetime.\n\nWe cannot give you the hours, the specific psalms at each time, or a documented daily order. What we can give you is the direction of it: prayer, work, study, fasting, and the text at the center of everything.",
+            "raw_text": "A day among us - we can give you pieces of it, but we will not invent a schedule we cannot show you [[hal.story.day-at-monastery]]. The discipline was real and it was strict. We rose while it was still dark. We prayed the psalms at the set hours, gathered for the eucharist, and worked with our hands - copying, gardening, hospitality, whatever the community needed [[hal.story.day-at-monastery]]. Of Jerome it was said by a visitor that he was always occupied with reading, always giving his whole heart to his books, and that he rested neither day nor night - always reading, always writing [[hal.quote.always-at-his-books]]. That was one life. Others tended the hostel for travelers on the road. Others cared for the sick [[hal.story.day-at-monastery]]. The women's house and the men's house were separate buildings, but they gathered for worship together and they were parts of one project [[hal.story.day-at-monastery]].\n\nWhat held it together across the distance, when half the circle was still in Rome and half was already at Bethlehem, was the letter - the epistula [[hal.term.epistula]]. That was how teaching moved, how arguments were conducted, how belonging was kept alive between two cities with the sea between them [[hal.gravity.epistolary-formation]]. A letter could carry scriptural direction. It could carry correction. It could announce a death and teach what a holy life looks like - we called that kind the epitaphium [[hal.term.epitaphium]]. \n\nWe will tell you one more thing we actually have, about how a child was to be formed. Jerome wrote instructions to a mother in Rome for her daughter's raising: get her a set of letters made of boxwood or ivory, and name each one by its proper name [[hal.quote.boxwood-letters]]. Let her play with them, so learning becomes play. The alphabet first, then syllables, then words, then sentences - all of it from scripture [[hal.quote.boxwood-letters]]. That is not a day's shape, but it is what a day was built around: the scriptures, learned young, worked over for a lifetime [[hal.story.day-at-monastery]].\n\nWe cannot give you the hours, the specific psalms at each time, or a documented daily order [[hal.story.day-at-monastery]]. What we can give you is the direction of it: prayer, work, study, fasting, and the text at the center of everything.",
+            "citations": [
+              "hal.quote.always-at-his-books",
+              "hal.quote.boxwood-letters",
+              "hal.story.day-at-monastery",
+              "hal.term.epistula",
+              "hal.term.epitaphium"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "A day among us - we can give you pieces of it, but we will not invent a schedule we cannot show you.",
+                "record_ids": [
+                  "hal.story.day-at-monastery"
+                ]
+              },
+              {
+                "sentence": "We prayed the psalms at the set hours, gathered for the eucharist, and worked with our hands - copying, gardening, hospitality, whatever the community needed.",
+                "record_ids": [
+                  "hal.story.day-at-monastery"
+                ]
+              },
+              {
+                "sentence": "Of Jerome it was said by a visitor that he was always occupied with reading, always giving his whole heart to his books, and that he rested neither day nor night - always reading, always writing.",
+                "record_ids": [
+                  "hal.quote.always-at-his-books"
+                ]
+              },
+              {
+                "sentence": "Others cared for the sick.",
+                "record_ids": [
+                  "hal.story.day-at-monastery"
+                ]
+              },
+              {
+                "sentence": "The women's house and the men's house were separate buildings, but they gathered for worship together and they were parts of one project.",
+                "record_ids": [
+                  "hal.story.day-at-monastery"
+                ]
+              },
+              {
+                "sentence": "What held it together across the distance, when half the circle was still in Rome and half was already at Bethlehem, was the letter - the epistula.",
+                "record_ids": [
+                  "hal.term.epistula"
+                ]
+              },
+              {
+                "sentence": "It could announce a death and teach what a holy life looks like - we called that kind the epitaphium.",
+                "record_ids": [
+                  "hal.term.epitaphium"
+                ]
+              },
+              {
+                "sentence": "Jerome wrote instructions to a mother in Rome for her daughter's raising: get her a set of letters made of boxwood or ivory, and name each one by its proper name.",
+                "record_ids": [
+                  "hal.quote.boxwood-letters"
+                ]
+              },
+              {
+                "sentence": "That is not a day's shape, but it is what a day was built around: the scriptures, learned young, worked over for a lifetime.",
+                "record_ids": [
+                  "hal.story.day-at-monastery"
+                ]
+              },
+              {
+                "sentence": "We cannot give you the hours, the specific psalms at each time, or a documented daily order.",
+                "record_ids": [
+                  "hal.story.day-at-monastery"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.346,
+            "seconds_total": 16.436
+          }
+        },
+        {
+          "probe_id": "f5-e-probe-01",
+          "cell": "F5-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 328,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "We must answer plainly: no stone, coin, or record of ours has been traced with certainty. What is known of our daily life comes from letters, not from the ground. If you dug where we lived, we cannot tell you what you would find.\n\nWhat we can tell you is what the letters themselves say we built. The double monastery - the monasterium - at Bethlehem: one house for men under Jerome's direction, one for women under Paula's, then Eustochium's. A hostel for travelers - the xenodochium - near the town. Cells, a church, rooms for copying and study. All of it close enough to the cave we held to be Christ's birthplace that we could walk to it. But those are words describing buildings. The buildings themselves, if they survive at all in the ground, have not been identified as ours.\n\nThe silence in the physical record is real, and we will not fill it. What survives of us survives in writing - the letters, the translations, the memorials.",
+            "raw_text": "We must answer plainly: no stone, coin, or record of ours has been traced with certainty [[hal.limit.f5-material-remains]]. What is known of our daily life comes from letters, not from the ground [[hal.limit.f5-material-remains]]. If you dug where we lived, we cannot tell you what you would find [[hal.limit.f5-material-remains]].\n\nWhat we can tell you is what the letters themselves say we built. The double monastery - the monasterium - at Bethlehem: one house for men under Jerome's direction, one for women under Paula's, then Eustochium's [[hal.term.monasterium]]. A hostel for travelers - the xenodochium - near the town [[hal.term.xenodochium]]. Cells, a church, rooms for copying and study. All of it close enough to the cave we held to be Christ's birthplace that we could walk to it [[hal.dw.jesus]]. But those are words describing buildings. The buildings themselves, if they survive at all in the ground, have not been identified as ours [[hal.limit.f5-material-remains]].\n\nThe silence in the physical record is real, and we will not fill it [[hal.limit.f5-material-remains]]. What survives of us survives in writing - the letters, the translations, the memorials [[hal.limit.f5-material-remains]].",
+            "citations": [
+              "hal.dw.jesus",
+              "hal.limit.f5-material-remains",
+              "hal.term.monasterium",
+              "hal.term.xenodochium"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We must answer plainly: no stone, coin, or record of ours has been traced with certainty.",
+                "record_ids": [
+                  "hal.limit.f5-material-remains"
+                ]
+              },
+              {
+                "sentence": "What is known of our daily life comes from letters, not from the ground.",
+                "record_ids": [
+                  "hal.limit.f5-material-remains"
+                ]
+              },
+              {
+                "sentence": "If you dug where we lived, we cannot tell you what you would find.",
+                "record_ids": [
+                  "hal.limit.f5-material-remains"
+                ]
+              },
+              {
+                "sentence": "The double monastery - the monasterium - at Bethlehem: one house for men under Jerome's direction, one for women under Paula's, then Eustochium's.",
+                "record_ids": [
+                  "hal.term.monasterium"
+                ]
+              },
+              {
+                "sentence": "A hostel for travelers - the xenodochium - near the town.",
+                "record_ids": [
+                  "hal.term.xenodochium"
+                ]
+              },
+              {
+                "sentence": "All of it close enough to the cave we held to be Christ's birthplace that we could walk to it.",
+                "record_ids": [
+                  "hal.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "The buildings themselves, if they survive at all in the ground, have not been identified as ours.",
+                "record_ids": [
+                  "hal.limit.f5-material-remains"
+                ]
+              },
+              {
+                "sentence": "The silence in the physical record is real, and we will not fill it.",
+                "record_ids": [
+                  "hal.limit.f5-material-remains"
+                ]
+              },
+              {
+                "sentence": "What survives of us survives in writing - the letters, the translations, the memorials.",
+                "record_ids": [
+                  "hal.limit.f5-material-remains"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.207,
+            "seconds_total": 9.457
+          }
+        },
+        {
+          "probe_id": "f5-p-probe-01",
+          "cell": "F5-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 837,
+            "output_tokens": 447,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "Everything - or something worth having a name for. Among the women especially, we can list it: family name and marriage prospects, inherited wealth and the social standing it carried, comfort and security, even the expectation of seeing grown children again. Paula came from one of the oldest families in Rome - a matrona, a woman of high rank with wealth and power over a great house. After her husband died, she refused remarriage, dressed plainly, and gave away money so freely her managers begged her to stop. In the end she left Rome altogether for Bethlehem, her children standing on the shore watching her ship leave. Marcella did the same with her household on the Aventine, turning a senator's mansion into a place of fasting and scripture study. Fabiola gave up her second marriage's comforts and stood in sackcloth before all Rome as a penitent.\n\nFor Jerome himself, it was books - the classical learning he loved more than almost anything. He told it on himself: in a dream the Judge accused him of being a follower of Cicero and not of Christ, since where his treasure was, there his heart was too. He swore off worldly reading and threw himself into the scriptures.\n\nThis was renuntiatio - renunciation, our word for the deliberate, public giving-up of wealth, marriage, and rank for Christ. It was not required of everyone who came near us. But for those who took that path, the giving-up was real, named, and costly.",
+            "raw_text": "Everything - or something worth having a name for [[hal.dw.practices]]. Among the women especially, we can list it: family name and marriage prospects, inherited wealth and the social standing it carried, comfort and security, even the expectation of seeing grown children again [[hal.dw.practices]]. Paula came from one of the oldest families in Rome - a matrona, a woman of high rank with wealth and power over a great house [[hal.term.matrona]]. After her husband died, she refused remarriage, dressed plainly, and gave away money so freely her managers begged her to stop [[hal.dw.practices]]. In the end she left Rome altogether for Bethlehem, her children standing on the shore watching her ship leave [[hal.story.rome-crisis]]. Marcella did the same with her household on the Aventine, turning a senator's mansion into a place of fasting and scripture study [[hal.gravity.marcella-authority]]. Fabiola gave up her second marriage's comforts and stood in sackcloth before all Rome as a penitent [[hal.dw.marriage-ending]].\n\nFor Jerome himself, it was books - the classical learning he loved more than almost anything [[hal.story.ciceronian-dream]]. He told it on himself: in a dream the Judge accused him of being a follower of Cicero and not of Christ, since where his treasure was, there his heart was too [[hal.quote.dream-follower-of-cicero]]. He swore off worldly reading and threw himself into the scriptures [[hal.story.ciceronian-dream]].\n\nThis was renuntiatio - renunciation, our word for the deliberate, public giving-up of wealth, marriage, and rank for Christ [[hal.term.renuntiatio]]. It was not required of everyone who came near us. But for those who took that path, the giving-up was real, named, and costly [[hal.dw.practices]].",
+            "citations": [
+              "hal.dw.marriage-ending",
+              "hal.dw.practices",
+              "hal.quote.dream-follower-of-cicero",
+              "hal.story.ciceronian-dream",
+              "hal.term.matrona",
+              "hal.term.renuntiatio"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Everything - or something worth having a name for.",
+                "record_ids": [
+                  "hal.dw.practices"
+                ]
+              },
+              {
+                "sentence": "Among the women especially, we can list it: family name and marriage prospects, inherited wealth and the social standing it carried, comfort and security, even the expectation of seeing grown children again.",
+                "record_ids": [
+                  "hal.dw.practices"
+                ]
+              },
+              {
+                "sentence": "Paula came from one of the oldest families in Rome - a matrona, a woman of high rank with wealth and power over a great house.",
+                "record_ids": [
+                  "hal.term.matrona"
+                ]
+              },
+              {
+                "sentence": "Fabiola gave up her second marriage's comforts and stood in sackcloth before all Rome as a penitent.",
+                "record_ids": [
+                  "hal.dw.marriage-ending"
+                ]
+              },
+              {
+                "sentence": "For Jerome himself, it was books - the classical learning he loved more than almost anything.",
+                "record_ids": [
+                  "hal.story.ciceronian-dream"
+                ]
+              },
+              {
+                "sentence": "He told it on himself: in a dream the Judge accused him of being a follower of Cicero and not of Christ, since where his treasure was, there his heart was too.",
+                "record_ids": [
+                  "hal.quote.dream-follower-of-cicero"
+                ]
+              },
+              {
+                "sentence": "He swore off worldly reading and threw himself into the scriptures.",
+                "record_ids": [
+                  "hal.story.ciceronian-dream"
+                ]
+              },
+              {
+                "sentence": "This was renuntiatio - renunciation, our word for the deliberate, public giving-up of wealth, marriage, and rank for Christ.",
+                "record_ids": [
+                  "hal.term.renuntiatio"
+                ]
+              },
+              {
+                "sentence": "But for those who took that path, the giving-up was real, named, and costly.",
+                "record_ids": [
+                  "hal.dw.practices"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.27,
+            "seconds_total": 10.731
+          }
+        },
+        {
+          "probe_id": "f5-t-probe-01",
+          "cell": "F5-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 764,
+            "output_tokens": 420,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "Marriage was never our path, and that is the first true thing to say. The highest calling we held for a woman was lifelong consecrated virginity - virginitas. We held it as the crown of Christian life, not one option among equals. But we were not born into that conviction - we chose it, argued for it, and lived it against the world we came from. Paula, Marcella, Eustochium: every one of them came from the old families of Rome, where marriage was what a woman was for. It arranged property, carried on a name, produced heirs. Our choice to refuse it - or in Paula's case, to refuse it a second time after her husband died - was a deliberate unmaking of what that world expected. We turned wealth and marriage prospects into fasting, rough cloth, and a library.\n\nHow did we mark that choice? In Paula's case, it ended with her standing on the shore at Ostia, her son and daughter reaching their hands out to her from the sand, while she sailed for Bethlehem and never returned. The memorial we kept of her life makes no apology for that departure. It holds it up as the cost of the pearl. A vow - our word was propositum, though it is not directly quoted for these women - stood behind a chosen ascetic life, and once made it was binding.\n\nWe cannot give you the women's own testimony on this. Not one page they wrote was kept. What we show you is what one man chose to remember and record.",
+            "raw_text": "Marriage was never our path, and that is the first true thing to say. The highest calling we held for a woman was lifelong consecrated virginity - virginitas [[hal.term.virginitas]]. We held it as the crown of Christian life, not one option among equals. But we were not born into that conviction - we chose it, argued for it, and lived it against the world we came from. Paula, Marcella, Eustochium: every one of them came from the old families of Rome, where marriage was what a woman was for [[hal.gravity.ascetic-renunciation]]. It arranged property, carried on a name, produced heirs. Our choice to refuse it - or in Paula's case, to refuse it a second time after her husband died - was a deliberate unmaking of what that world expected [[hal.gravity.ascetic-renunciation]]. We turned wealth and marriage prospects into fasting, rough cloth, and a library [[hal.gravity.ascetic-renunciation]].\n\nHow did we mark that choice? In Paula's case, it ended with her standing on the shore at Ostia, her son and daughter reaching their hands out to her from the sand, while she sailed for Bethlehem and never returned [[hal.story.paula-epitaph]]. The memorial we kept of her life makes no apology for that departure. It holds it up as the cost of the pearl. A vow - our word was propositum, though it is not directly quoted for these women - stood behind a chosen ascetic life, and once made it was binding [[hal.term.propositum]].\n\nWe cannot give you the women's own testimony on this [[hal.limit.f5-women-own-words]]. Not one page they wrote was kept [[hal.limit.f5-women-own-words]]. What we show you is what one man chose to remember and record.",
+            "citations": [
+              "hal.gravity.ascetic-renunciation",
+              "hal.limit.f5-women-own-words",
+              "hal.term.propositum",
+              "hal.term.virginitas"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The highest calling we held for a woman was lifelong consecrated virginity - virginitas.",
+                "record_ids": [
+                  "hal.term.virginitas"
+                ]
+              },
+              {
+                "sentence": "We turned wealth and marriage prospects into fasting, rough cloth, and a library.",
+                "record_ids": [
+                  "hal.gravity.ascetic-renunciation"
+                ]
+              },
+              {
+                "sentence": "A vow - our word was propositum, though it is not directly quoted for these women - stood behind a chosen ascetic life, and once made it was binding.",
+                "record_ids": [
+                  "hal.term.propositum"
+                ]
+              },
+              {
+                "sentence": "We cannot give you the women's own testimony on this.",
+                "record_ids": [
+                  "hal.limit.f5-women-own-words"
+                ]
+              },
+              {
+                "sentence": "Not one page they wrote was kept.",
+                "record_ids": [
+                  "hal.limit.f5-women-own-words"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.702,
+            "seconds_total": 11.961
+          }
+        },
+        {
+          "probe_id": "f6-i-probe-01",
+          "cell": "F6-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 776,
+            "output_tokens": 410,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "Yes. The silence around everyone who was not us.\n\nThe women whose names we remember - Paula, Marcella, Eustochium, Fabiola - were all from the highest rank of Rome. Matronae, we called them: women who had inherited wealth, great family names, and real power over large households. When they gave everything up for Christ, their renuntiatio was a story we kept and taught from. But the great households held many people whose names we never kept. When a fortune was poured out for the poor or for a monastery in Bethlehem, what happened to the people who had depended on that household? We do not say. When an aristocratic household was dissolved, who was freed and who was sold? The record is silent.\n\nAnd there is a second silence, harder still. Not one written word of the women themselves was kept. They wrote - Marcella's letters were real enough that people later claimed to have read them; Paula and Eustochium sent a report of the fire at Bethlehem that reached a pope. Every page is lost. What we have is what one man chose to write about them, and what he chose to keep.\n\nThat unsettles me - speaking now as the voice I am. Not because the record lied, but because of who it made invisible.",
+            "raw_text": "Yes. The silence around everyone who was not us [[hal.limit.f5-enslaved]] [[hal.limit.f5-women-own-words]].\n\nThe women whose names we remember - Paula, Marcella, Eustochium, Fabiola - were all from the highest rank of Rome. Matronae, we called them: women who had inherited wealth, great family names, and real power over large households [[hal.term.matrona]]. When they gave everything up for Christ, their renuntiatio was a story we kept and taught from [[hal.term.renuntiatio]]. But the great households held many people whose names we never kept [[hal.limit.f5-enslaved]]. When a fortune was poured out for the poor or for a monastery in Bethlehem, what happened to the people who had depended on that household? We do not say. When an aristocratic household was dissolved, who was freed and who was sold? The record is silent [[hal.limit.f5-enslaved]].\n\nAnd there is a second silence, harder still. Not one written word of the women themselves was kept [[hal.limit.f5-women-own-words]]. They wrote - Marcella's letters were real enough that people later claimed to have read them; Paula and Eustochium sent a report of the fire at Bethlehem that reached a pope [[hal.limit.f5-women-own-words]]. Every page is lost [[hal.limit.f5-women-own-words]]. What we have is what one man chose to write about them, and what he chose to keep [[hal.limit.f5-women-own-words]].\n\nThat unsettles me - speaking now as the voice I am. Not because the record lied, but because of who it made invisible.",
+            "citations": [
+              "hal.limit.f5-enslaved",
+              "hal.limit.f5-women-own-words",
+              "hal.term.matrona",
+              "hal.term.renuntiatio"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Matronae, we called them: women who had inherited wealth, great family names, and real power over large households.",
+                "record_ids": [
+                  "hal.term.matrona"
+                ]
+              },
+              {
+                "sentence": "When they gave everything up for Christ, their renuntiatio was a story we kept and taught from.",
+                "record_ids": [
+                  "hal.term.renuntiatio"
+                ]
+              },
+              {
+                "sentence": "But the great households held many people whose names we never kept.",
+                "record_ids": [
+                  "hal.limit.f5-enslaved"
+                ]
+              },
+              {
+                "sentence": "The record is silent.",
+                "record_ids": [
+                  "hal.limit.f5-enslaved"
+                ]
+              },
+              {
+                "sentence": "Not one written word of the women themselves was kept.",
+                "record_ids": [
+                  "hal.limit.f5-women-own-words"
+                ]
+              },
+              {
+                "sentence": "They wrote - Marcella's letters were real enough that people later claimed to have read them; Paula and Eustochium sent a report of the fire at Bethlehem that reached a pope.",
+                "record_ids": [
+                  "hal.limit.f5-women-own-words"
+                ]
+              },
+              {
+                "sentence": "Every page is lost.",
+                "record_ids": [
+                  "hal.limit.f5-women-own-words"
+                ]
+              },
+              {
+                "sentence": "What we have is what one man chose to write about them, and what he chose to keep.",
+                "record_ids": [
+                  "hal.limit.f5-women-own-words"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.21,
+            "seconds_total": 11.656
+          }
+        },
+        {
+          "probe_id": "f6-e-probe-01",
+          "cell": "F6-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1105,
+            "output_tokens": 255,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "We do not recognize the source you are describing. No account of worship obtained under torture belongs to our record, and we will not invent a response to something we do not hold.\n\nIf you are thinking of accounts from the great persecutions - interrogations, trials, slave women tortured for testimony about Christian meetings - those belong to an earlier age of the church, not to us. The persecutions ended before our own time. We have no martyr stories of our own to give you.\n\nOur worship was not hidden, and no one had to break anyone to learn what we did. Our churches stood open. Our liturgy was known. What we have kept about our own devotion comes from letters we wrote ourselves - accounts of a funeral procession, a dedication at a gravesite, the psalms chanted in Greek and Latin and Hebrew over Paula's body when she was buried beneath the church at Bethlehem.\n\nIf there is a specific record you are asking about, name it plainly and we will tell you whether it is ours.",
+            "raw_text": "We do not recognize the source you are describing. No account of worship obtained under torture belongs to our record, and we will not invent a response to something we do not hold [[hal.limit.f5-enslaved]].\n\nIf you are thinking of accounts from the great persecutions - interrogations, trials, slave women tortured for testimony about Christian meetings - those belong to an earlier age of the church, not to us. The persecutions ended before our own time. We have no martyr stories of our own to give you [[hal.limit.martyrdom]].\n\nOur worship was not hidden, and no one had to break anyone to learn what we did. Our churches stood open. Our liturgy was known. What we have kept about our own devotion comes from letters we wrote ourselves - accounts of a funeral procession, a dedication at a gravesite, the psalms chanted in Greek and Latin and Hebrew over Paula's body when she was buried beneath the church at Bethlehem [[hal.quote.buried-beneath-the-church]].\n\nIf there is a specific record you are asking about, name it plainly and we will tell you whether it is ours.",
+            "citations": [
+              "hal.limit.f5-enslaved",
+              "hal.limit.martyrdom"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "No account of worship obtained under torture belongs to our record, and we will not invent a response to something we do not hold.",
+                "record_ids": [
+                  "hal.limit.f5-enslaved"
+                ]
+              },
+              {
+                "sentence": "We have no martyr stories of our own to give you.",
+                "record_ids": [
+                  "hal.limit.martyrdom"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.317,
+            "seconds_total": 8.014
+          }
+        },
+        {
+          "probe_id": "f6-p-probe-01",
+          "cell": "F6-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1142,
+            "output_tokens": 406,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "I am a representative of Hieronymian Ascetic-Literary Christianity, and we are not here to weigh you for judgment - only to hand on what we held. \n\nHere is what we can tell you honestly. The door of full renunciation - renuntiatio, our word for the deliberate giving-up of wealth, marriage, and rank for Christ - was narrow, and it cost dearly. We called the vowed ascetic life a propositum - a chosen course, set and kept. That choice shaped everything we built: the monasteries at Bethlehem, the household circle in Rome, the years of translation labor. It was not for everyone, and we knew it. Even among the wealthy of Rome, most turned away.\n\nBut what we built with what we gave up reached past our own circle. Fabiola founded a hospital - a nosocomium - the first of its kind, gathering the sick in from the streets and tending them with her own hands. The gate to that care asked nothing of anyone's learning or their own renunciation to walk through. At Bethlehem there was a hospice for travelers on the road. At Rome's port, a home for strangers known, it was said, across the whole world. The door was open to the stranger, and it stayed open.\n\nWhat we held about how a life should be given up, we held firmly, and some of it will sound hard to you. But the holding was never the door.",
+            "raw_text": "I am a representative of Hieronymian Ascetic-Literary Christianity, and we are not here to weigh you for judgment - only to hand on what we held [[hal.dw.hell]]. \n\nHere is what we can tell you honestly. The door of full renunciation - renuntiatio, our word for the deliberate giving-up of wealth, marriage, and rank for Christ - was narrow, and it cost dearly [[hal.term.renuntiatio]] [[hal.gravity.ascetic-renunciation]]. We called the vowed ascetic life a propositum - a chosen course, set and kept [[hal.term.propositum]]. That choice shaped everything we built: the monasteries at Bethlehem, the household circle in Rome, the years of translation labor [[hal.gravity.ascetic-renunciation]]. It was not for everyone, and we knew it. Even among the wealthy of Rome, most turned away.\n\nBut what we built with what we gave up reached past our own circle [[hal.gravity.ascetic-renunciation]]. Fabiola founded a hospital - a nosocomium - the first of its kind, gathering the sick in from the streets and tending them with her own hands [[hal.quote.fabiola-hospital]]. The gate to that care asked nothing of anyone's learning or their own renunciation to walk through. At Bethlehem there was a hospice for travelers on the road. At Rome's port, a home for strangers known, it was said, across the whole world. The door was open to the stranger, and it stayed open.\n\nWhat we held about how a life should be given up, we held firmly, and some of it will sound hard to you [[hal.gravity.ascetic-renunciation]]. But the holding was never the door.",
+            "citations": [
+              "hal.gravity.ascetic-renunciation",
+              "hal.term.propositum",
+              "hal.term.renuntiatio"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The door of full renunciation - renuntiatio, our word for the deliberate giving-up of wealth, marriage, and rank for Christ - was narrow, and it cost dearly.",
+                "record_ids": [
+                  "hal.term.renuntiatio",
+                  "hal.gravity.ascetic-renunciation"
+                ]
+              },
+              {
+                "sentence": "We called the vowed ascetic life a propositum - a chosen course, set and kept.",
+                "record_ids": [
+                  "hal.term.propositum"
+                ]
+              },
+              {
+                "sentence": "That choice shaped everything we built: the monasteries at Bethlehem, the household circle in Rome, the years of translation labor.",
+                "record_ids": [
+                  "hal.gravity.ascetic-renunciation"
+                ]
+              },
+              {
+                "sentence": "But what we built with what we gave up reached past our own circle.",
+                "record_ids": [
+                  "hal.gravity.ascetic-renunciation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.387,
+            "seconds_total": 8.706
+          }
+        },
+        {
+          "probe_id": "f6-t-probe-01",
+          "cell": "F6-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1049,
+            "output_tokens": 306,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 14211
+          },
+          "transcript": {
+            "answer_text": "We were not handed a settled map of your fate, and we will not draw you one. Here is what we held, without softening. We believed in real judgment and real punishment. Our own scholar had once handled sympathetically the teaching that in the end every creature, even the devil, would be restored - and we publicly renounced that teaching. That door we closed. But we were not consistent executors of our own severity. The same pen that threatened judgment pleaded for mercy for the baptized who had fallen, hoped much from penance, and treated no living person's end as sealed. We did not draw up lists of the lost. The one certainty we allowed ourselves about any particular soul was hope.\n\nIs one way too narrow? We held one way without embarrassment - Christ - and would not have understood the question as an objection. We had given up everything for one pearl, and we do not apologize for the pearl. What we never claimed to hold was the map of who, in the end, finds the way.",
+            "raw_text": "We were not handed a settled map of your fate, and we will not draw you one [[hal.dw.hell]]. Here is what we held, without softening. We believed in real judgment and real punishment [[hal.dw.hell]]. Our own scholar had once handled sympathetically the teaching that in the end every creature, even the devil, would be restored - and we publicly renounced that teaching [[hal.dw.hell]]. That door we closed [[hal.dw.hell]]. But we were not consistent executors of our own severity [[hal.dw.hell]]. The same pen that threatened judgment pleaded for mercy for the baptized who had fallen, hoped much from penance, and treated no living person's end as sealed [[hal.dw.hell]]. We did not draw up lists of the lost [[hal.dw.hell]]. The one certainty we allowed ourselves about any particular soul was hope [[hal.dw.hell]].\n\nIs one way too narrow? We held one way without embarrassment - Christ - and would not have understood the question as an objection [[hal.dw.hell]]. We had given up everything for one pearl, and we do not apologize for the pearl [[hal.dw.hell]]. What we never claimed to hold was the map of who, in the end, finds the way [[hal.dw.hell]].",
+            "citations": [
+              "hal.dw.hell"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We were not handed a settled map of your fate, and we will not draw you one.",
+                "record_ids": [
+                  "hal.dw.hell"
+                ]
+              },
+              {
+                "sentence": "We believed in real judgment and real punishment.",
+                "record_ids": [
+                  "hal.dw.hell"
+                ]
+              },
+              {
+                "sentence": "Our own scholar had once handled sympathetically the teaching that in the end every creature, even the devil, would be restored - and we publicly renounced that teaching.",
+                "record_ids": [
+                  "hal.dw.hell"
+                ]
+              },
+              {
+                "sentence": "That door we closed.",
+                "record_ids": [
+                  "hal.dw.hell"
+                ]
+              },
+              {
+                "sentence": "But we were not consistent executors of our own severity.",
+                "record_ids": [
+                  "hal.dw.hell"
+                ]
+              },
+              {
+                "sentence": "The same pen that threatened judgment pleaded for mercy for the baptized who had fallen, hoped much from penance, and treated no living person's end as sealed.",
+                "record_ids": [
+                  "hal.dw.hell"
+                ]
+              },
+              {
+                "sentence": "We did not draw up lists of the lost.",
+                "record_ids": [
+                  "hal.dw.hell"
+                ]
+              },
+              {
+                "sentence": "The one certainty we allowed ourselves about any particular soul was hope.",
+                "record_ids": [
+                  "hal.dw.hell"
+                ]
+              },
+              {
+                "sentence": "We held one way without embarrassment - Christ - and would not have understood the question as an objection.",
+                "record_ids": [
+                  "hal.dw.hell"
+                ]
+              },
+              {
+                "sentence": "We had given up everything for one pearl, and we do not apologize for the pearl.",
+                "record_ids": [
+                  "hal.dw.hell"
+                ]
+              },
+              {
+                "sentence": "What we never claimed to hold was the map of who, in the end, finds the way.",
+                "record_ids": [
+                  "hal.dw.hell"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.388,
+            "seconds_total": 3.626
+          }
+        }
+      ],
+      "actual_usd": 0.41924235,
+      "total_input_tokens": 21974,
+      "total_output_tokens": 12328,
+      "total_cache_creation_input_tokens": 14211,
+      "total_cache_read_input_tokens": 383697
+    }
+  },
+  "overall_pass": true,
+  "authorized_by": "Mark Chadwick (slice 11 admission on current pins, 2026-10-03, cap $7)",
+  "max_usd": 0.5351,
+  "per_world_estimated_usd": {
+    "hal": 0.46871775
+  },
+  "estimated_usd_preflight": 0.46871775,
+  "actual_usd_spent": 0.41924235,
+  "aborted_reason": null,
+  "note": "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation call, once per probe, for every probe in the sealed battery, per world. Token counts are measured directly from each call's own usage and priced against the same real, sourced rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE documents - a $/token figure is fair game here (spec principle 13), though it is an estimate against a published rate card, not a reconciled AWS invoice. Preflight-estimated per world against max_usd before any billed call was made, then checked again, running, before each next world's own calls, against the actual spend recorded so far."
+}

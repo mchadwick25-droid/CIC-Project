@@ -69,6 +69,14 @@ relations:
   target: gallic.figure.sulpitius
 - type: associated-with
   target: gallic.quote.the-cloak-divided-and-the-vision-of-christ
+use_note:
+  means: "Sulpitius describes Martin as a soldier before baptism who served his own servant, kept free of soldiers' vices, and was regarded more as a monk."
+  not_for:
+    - "an eyewitness record, when Sulpitius had it from Martin and his companions years later"
+    - "the cloak at Amiens, which sits in gallic.quote.the-cloak-divided-and-the-vision-of-christ"
+    - "the discharge from the army, which sits in gallic.quote.martin-refuses-the-donative"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "generally
 acting the part of servant"` returns one hit, line 732; `grep -n "not so much as being a soldier as a

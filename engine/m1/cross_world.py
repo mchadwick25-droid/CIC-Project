@@ -44,7 +44,7 @@ from engine.m1.spoken_fields import PARTICIPANT_FIELDS, SPOKEN_FIELDS, fields_wi
 from engine.m7.instruments import _strip_quoted
 
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
-APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
+APP_PUBLIC_DIR = REPO_ROOT / "cic-poc" / "frontend" / "public"
 SITE_TRADITIONS_DIR = REPO_ROOT / "cic-website" / "traditions"
 SITE_TABLE_HTML = REPO_ROOT / "cic-website" / "table.html"
 SITE_DATA_DIR = REPO_ROOT / "cic-website" / "data" / "worlds"
@@ -74,24 +74,6 @@ ACCEPTED_OPEN: dict[str, str] = {
     # census-linked and frontend-wired in the same pass - real, disclosed,
     # and structurally expected while it awaits M3 admission, not a
     # build-thread task to close early.
-    # check_unregistered_world_dirs's own first real finding. records/lpc/
-    # exists but carries no records/worlds/lpc.yaml entry, so lpc is
-    # invisible to load_registry() and everything downstream of it, gates
-    # and checks alike. Belongs to lpc's own build thread; remove this
-    # entry once lpc is registered.
-    "unregistered-world-dir/lpc": "CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
-    #
-    # required-record-type/witt/* and required-site-json/witt:
-    # check_required_record_types_and_site_json's own findings, keyed per
-    # record type so a future loss of a DIFFERENT required type at witt
-    # can't hide under an already-waived key. witt is admitted but
-    # carries no world_front record and no facilitator_brief record, and
-    # has no compiled cic-website/data/worlds/lutheran-wittenberg-and-
-    # its-congregations.json - the Website V2 migration has not reached
-    # witt yet. Belongs to witt's own build thread.
-    "required-record-type/witt/world_front": "CI/tooling audit - witt (admitted) carries no world_front record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
-    "required-record-type/witt/facilitator_brief": "CI/tooling audit - witt (admitted) carries no facilitator_brief record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
-    "required-site-json/witt": "CI/tooling audit - witt (admitted) has no compiled cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json; downstream of the same missing world_front record above; belongs to a witt build thread",
     # required-record-type/rzg/search_record: rzg (admitted) carries a
     # world_front and a facilitator_brief record and its site JSON is
     # compiled and committed, but it has zero search_record records - the
@@ -629,11 +611,9 @@ def check_required_record_types_and_site_json(*, registry, records, worlds, **_)
 # stage 3: the records tree, world against world
 # --------------------------------------------------------------------------
 
-# Directories under records/ that are not a world's own: _fleet holds
-# fleet-shared content with no registry entry of its own by design, and
-# worlds IS records/worlds/, the registry's own storage location, not
-# something registered inside itself.
-_NON_WORLD_RECORD_DIRS = frozenset({"_fleet", "worlds"})
+# The one directory under records/ that is not a world's own: records/worlds/
+# is the registry's storage, not something registered inside itself.
+_NON_WORLD_RECORD_DIRS = frozenset({"worlds"})
 
 
 def check_unregistered_world_dirs(*, registry, **_) -> list[Finding]:
@@ -826,27 +806,29 @@ def check_quote_speaker_labels(*, records, worlds, **_) -> list[Finding]:
 # stage 5: the frontends
 # --------------------------------------------------------------------------
 
-def check_app_world_assets(*, worlds, **_) -> list[Finding]:
-    """cic-poc/frontend/src/data/worlds.ts holds the one thing about a world
-    the registry does not carry (portrait file, accent colour) - and
-    useWorlds.toEntry() returns null for a world with no entry there, which
-    DROPS it from the world list silently. A world can be built, compiled,
-    admitted and served by GET /api/worlds and still never appear."""
+def check_app_world_assets(*, registry, worlds, **_) -> list[Finding]:
+    """Each formation world's registry entry carries `app`: its place in the
+    app's world list, its accent colour and its portrait. useWorlds() leaves
+    a world without one off the list, so a world can be admitted and served
+    by GET /api/worlds and still never appear."""
     findings = []
-    if not APP_WORLDS_TS.is_file():
-        return [_defect("app-assets-file", "fleet", f"{APP_WORLDS_TS} not found")]
-    text = APP_WORLDS_TS.read_text(encoding="utf-8")
-    order_match = re.search(r"WORLD_ORDER\s*=\s*\[([^\]]*)\]", text)
-    order = set(re.findall(r"'([^']+)'", order_match.group(1))) if order_match else set()
-    assets_match = re.search(r"WORLD_ASSETS[^=]*=\s*\{(.*?)\n\}", text, re.S)
-    assets = set(re.findall(r"^\s*(\w+):\s*\{", assets_match.group(1), re.M)) if assets_match else set()
+    orders: dict[int, str] = {}
     for w in worlds:
-        if w not in assets:
-            findings.append(_defect("app-world-assets", w, "no WORLD_ASSETS entry - useWorlds() drops this world from the world list without an error"))
-        if w not in order:
-            findings.append(_defect("app-world-order", w, "not in WORLD_ORDER - indexOf returns -1, which sorts it ahead of every listed world"))
-    for extra in sorted((assets | order) - set(worlds)):
-        findings.append(_defect("app-world-unknown", extra, "named in the frontend's world tables but not a formation world in the registry"))
+        app = registry[w].get("app")
+        if not isinstance(app, dict):
+            findings.append(_defect("app-world-assets", w, "registry entry has no app block (order, accent_color, portrait); the app leaves this world off its list"))
+            continue
+        order, colour, portrait = app.get("order"), app.get("accent_color"), app.get("portrait")
+        if not isinstance(order, int):
+            findings.append(_defect("app-world-order", w, "app.order is not a whole number"))
+        elif order in orders:
+            findings.append(_defect("app-world-order", w, f"app.order {order} is also {orders[order]}'s"))
+        else:
+            orders[order] = w
+        if not (isinstance(colour, str) and re.fullmatch(r"#[0-9A-Fa-f]{6}", colour)):
+            findings.append(_defect("app-world-colour", w, f"app.accent_color {colour!r} is not a #RRGGBB colour"))
+        if not (isinstance(portrait, str) and (APP_PUBLIC_DIR / portrait.lstrip("/")).is_file()):
+            findings.append(_defect("app-world-portrait", w, f"app.portrait {portrait!r} is not a file under cic-poc/frontend/public"))
     return findings
 
 

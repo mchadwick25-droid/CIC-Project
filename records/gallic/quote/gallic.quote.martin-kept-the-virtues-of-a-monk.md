@@ -43,6 +43,16 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.election-at-tours
+- type: associated-with
+  target: gallic.gravity.monk-bishop
+use_note:
+  means: "Sulpitius, in the Life of Martin, judges that Martin kept a bishop's dignity at Tours without laying aside the aims and virtues of a monk."
+  not_for:
+    - "evidence that Gallic bishops in general combined the monk's life with the office"
+    - "the noble disciples later made bishops, which sit in gallic.quote.nobles-forced-down-afterwards-made-bishops"
+    - "an independent report rather than an admiring biographer's summary judgment"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "objects and virtues of a monk"` returns one hit, line 1125. The chapter div is `<div3

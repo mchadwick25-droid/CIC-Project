@@ -73,6 +73,14 @@ modern_rendering: >-
   grows heavier in death itself. This is because, after the avenging
   waters have squeezed the life out of them, they do not even find
   burial.
+use_note:
+  means: "The Bagai council of 394 condemned the Maximianist party in figurative language of shipwrecked, unburied bodies, as Augustine quotes it."
+  not_for:
+    - "a claim that anyone actually drowned or was physically killed"
+    - "a claim that the voted wording of the decree is attested independently of Augustine"
+    - "a claim that the condemned Maximianist bishops were never received back; their reception sits in don.term.reception-without-reordination"
+  years: {from: 394, to: 394}
+  status: reviewed
 ---
 Verified verbatim against the vendored
 `npnf104_augustine-anti-manichaean-anti-donatist.xml`, in the passage

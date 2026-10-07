@@ -69,6 +69,15 @@ manifestations:
 - the panēgyris calendar - fixed feast days kept year after year, market and liturgy sharing the same day
 - family relics - Emmelia acquiring and enshrining relics of the Forty at the family's own estate chapel at Annisa
 - festal homilies preached across multiple authors, generations after the events, on a real cult and calendar
+use_note:
+  means: "The martyrs of the last persecutions were remembered as patrons, with a fresh cult, a feast calendar and relics kept in the family's own estate chapel."
+  not_for:
+    - "martyr memory as distant legend, when it lay within the grandparents' generation"
+    - "a claim that the martyr cult shaped all of formation, when it shaped the calendar and countryside festival life"
+    - "the feast-day crowd and market, which sit in cappadocian.story.panegyris-shrine"
+    - "the Forty's passion as eyewitness report, which cappadocian.story.forty-sebaste carries as tradition"
+  years: {from: 320, to: 394}
+  status: reviewed
 ---
 Reinforcing the triune-confession, ascetic-reordering, paideia-converted, household-lineage, bishop-patron,
 and contested-church gravities; reshaping the athens-fishermen gravity. Competing with the renunciation-order

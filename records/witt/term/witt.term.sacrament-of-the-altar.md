@@ -103,6 +103,15 @@ senses:
     at the door.'
 quick_meaning: Christ's body and blood, truly present, given for us. Food for our daily struggle.
 distortion_risk: high
+use_note:
+  means: "The Sacrament of the Altar meant Christ's body and blood truly present in and under bread and wine, taken at his word without explaining how."
+  not_for:
+    - "the Supper as a memorial meal only"
+    - "'consubstantiation' as a word or theory the world used"
+    - "the Marburg Colloquy or the Reformed controversy, which the library does not narrate"
+    - "the thinness of the evidence for this doctrine's boundary role, which sits in witt.gravity.bodily-presence"
+  years: {from: 1519, to: 1531}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 5.3 (the Sacrament of the Altar / Lord's Supper, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][TC][DR][RT]. Author Gravity: none -- both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

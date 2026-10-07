@@ -133,6 +133,15 @@ quick_meaning: >-
   Those we receive from and never invent beyond. Living old men for Cassian; collated doctors for
   Vincent; for Martin, the clergy who remember.
 distortion_risk: medium
+use_note:
+  means: "The fathers meant the prior generations, as persons, from whom all legitimate teaching is received: living old men for Cassian, collated doctors for Vincent, remembering clergy for Martin."
+  not_for:
+    - "a settled patristic canon of authors, or elders as a modern church office"
+    - "the elder's disciplinary role over a junior, which sits in gallic.term.elder-senior-abbot"
+    - "the three-part test of faith, which sits in gallic.term.the-rule"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
+  years: {from: 397, to: 434}
+  status: reviewed
 ---
 Built from Doc_06 entry 004 (Tier 1; chunk galliclex004_the-fathers-elders.md; Doc_03 3.3). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The chunk's

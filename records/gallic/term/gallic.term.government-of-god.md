@@ -106,6 +106,15 @@ quick_meaning: >-
   provinces is a sentence on Christian sins, not an accident. The other voices expect judgment
   soon; he says it has begun.
 distortion_risk: medium
+use_note:
+  means: "The government of God meant Salvian's teaching that God never leaves the tiller and is judging the Roman provinces now, so that their ruin is a sentence, not an accident."
+  not_for:
+    - "the last judgment only, or Antichrist's nearness, which sits in gallic.term.antichrist"
+    - "politics or church-state theory"
+    - "Salvian as a historian reporting the fall of Rome"
+    - "a Salvian voice on grace and free will, for which his text is not licensed"
+  years: {from: 439, to: 450}
+  status: reviewed
 ---
 Built from Doc_06 entry 054 (`galliclex054_government-of-god.md`, Tier 2, tags SC DR TC; Doc_03
 6.10). G10's only Tier-2 term (Doc_06 section 5 item 4). The single-voice, fourth-voice status

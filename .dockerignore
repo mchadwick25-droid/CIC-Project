@@ -1,0 +1,3 @@
+Build/worlds/**
+!Build/worlds/*/surface/**
+!Build/worlds/*/build/records/**

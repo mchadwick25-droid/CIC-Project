@@ -72,7 +72,7 @@ relations:
 - type: associated-with
   target: witt.figure.luther
 name: '"Hearers and repeaters of words": the founder''s persistent testimony that the Gospel is taught
-  and not held [TENSIONAL]'
+  and not held'
 classification: tensional
 description: '''Let us beware lest Wittenberg become Capernaum. I notice that you have a great deal to say of the doctrine
   which is preached to you, of faith and of love. This is not surprising; an ass can almost intone the lessons...
@@ -155,5 +155,14 @@ manifestations:
 - 'Katharina von Bora: "Sir! how is it, that in Popedom they pray so often with great vehemence, but we
   are very cold and careless in praying?" -- answered, "the devil driveth on his servants continually;
   they are diligent... but we" (TT 3147-3150, Contested as verbatim)'
+use_note:
+  means: "Hearers and repeaters of words names the founder's persistent complaint that the Gospel is taught but not held, contested as a description of actual parish life."
+  not_for:
+    - "the founder's complaint as a measured finding about parish practice"
+    - "the failure of the program as established, which witt.contested.household-catechism-reception holds as contested"
+    - "the household catechism's prescribed form, which sits in witt.gravity.household-catechism"
+    - "the library's own admission of thinness on practice, which sits in witt.limit.record-thinnest"
+  years: {from: 1522, to: 1546}
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G13 -> §3 G13 -> §7 row G13; TENSIONAL). Interaction Matrix (Doc_04 §5, row/col G13): G1 (C), G2 (C), G3 (C), G4 (C), G5 (C), G6 (R(t)), G7 (C), G8 (S), G11 (S), G12 (R) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: G9, G10. Forces-connection (Doc_08 §5): witt.force.parishes-state-as-reported (associated-with), witt.force.territorial-princely-force (associated-with), witt.force.internal-radical-force (associated-with), witt.force.print-turned-inward (associated-with), witt.force.papal-force-ongoing (associated-with), witt.force.transmission-within-the-worlds-life (associated-with), witt.force.transmission-at-the-windows-edge (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.

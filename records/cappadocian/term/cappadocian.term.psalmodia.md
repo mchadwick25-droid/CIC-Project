@@ -48,5 +48,13 @@ senses:
 quick_meaning: Psalm-singing, including night vigils. The shared prayer that taught ordinary believers
   doctrine.
 distortion_risk: medium
+use_note:
+  means: "Psalmodia meant psalm-singing, including antiphonal night vigils that Basil defended as the churches' common custom against a charge of novelty."
+  not_for:
+    - "a modern preference about worship style"
+    - "Basil's own wording, which sits in cappadocian.quote.basil-on-antiphonal-psalmody"
+    - "the teaching on how psalms form the singer, which sits in cappadocian.dw.psalms-teach-the-singer"
+  years: {from: 370, to: 379}
+  status: reviewed
 ---
 Built from Doc_06 entry 19 (Tier 2).

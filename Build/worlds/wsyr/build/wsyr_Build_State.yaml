@@ -1,0 +1,38 @@
+world_code: wsyr
+process_version: V2.0
+completion_standard_version: V1.4
+started: 2026-09-25
+pilot_world: false
+current_step: Steps 0-2 approved to proceed, filed to the current gates; Doc_03 may start only after the handoff gate passes and the project lead sets safety_adjacent; Representative identity decided later, at Doc_10
+status: in_progress
+pause_point: none
+documents:
+  - id: Step_0
+    status: approved to proceed (project-lead-directed Round 4 correction after the Round 3 cap escalation)
+    rounds_used: 3
+    review_files: [Step0_Review_Round1.md, Step0_Review_Round2.md, Step0_Review_Round3.md]
+  - id: Doc_01
+    status: approved to proceed (project-lead-directed Round 4 correction after the Round 3 cap escalation)
+    rounds_used: 3
+    drafter_model: Sonnet 5.5
+    reviewer_model: Opus
+    review_files: [Review-Artifacts/Doc01_Round1_Review.md, Review-Artifacts/Doc01_Round2_Review.md, Review-Artifacts/Doc01_Round3_Review.md]
+    gates_result:
+  - id: Doc_02
+    status: approved to proceed (project-lead-directed Round 4 correction after the Round 3 cap escalation); the Source Registry is Doc_02 section 2
+    rounds_used: 3
+    drafter_model: Sonnet 5.5
+    reviewer_model: Opus
+    review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Doc02_Round2_Review.md, Review-Artifacts/Doc02_Round3_Review.md]
+    gates_result:
+  - id: Representative_identity
+    status: decided later in the build, at Doc_10
+    decided_by_mark:
+    decision_date:
+open_items_pointer: Open_Gaps_Tracking.md
+ledger_pointer:
+handoff_manifest_pointer: build/wsyr_Handoff_Manifest.md
+metered_ceiling:
+escalations:
+  - three-round review cap reached on Steps 0-2; the project lead authorized a Round 4 correction (Open_Gaps_Tracking.md item 18)
+freeze_package_pointer:

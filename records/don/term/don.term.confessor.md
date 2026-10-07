@@ -60,5 +60,13 @@ senses:
     helped define.'
 quick_meaning: One who stood firm under questioning and lived. The martyr's near neighbour.
 distortion_risk: medium
+use_note:
+  means: "A confessor stood firm under questioning and lived, a martyr stood firm and died; Donatist accounts of the dead centre on that standing firm."
+  not_for:
+    - "a claim that a confessor is a priest who hears confession"
+    - "a claim that a confessor is someone who admitted a crime"
+    - "a claim that a confessor is a lesser rank of martyr rather than a different outcome of the same test"
+  years: {from: 311, to: 439}
+  status: reviewed
 ---
 Built from Doc_06 SS1 entry 011 (Tier 3, 'No change'). FLAGGED AS THIN -- the thinnest entry on the roster. Doc_03's one-line claim about a confessor/martyr tension is carried as an unevidenced assertion and named as such in divergence_note and senses.evidential rather than developed.

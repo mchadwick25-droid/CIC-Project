@@ -38,6 +38,15 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.dw.decides
+use_note:
+  means: "Socrates, a Greek historian at Constantinople, reports that the Persian king had the magi decimated and then let Maruthas build churches anywhere, spreading Christianity among the Persians."
+  not_for:
+    - "a claim that a synod or church body, rather than the king, opened the door"
+    - "a claim that the miracle material in the same chapter is independently verified"
+    - "the Persian church's own account of how it was settled"
+    - "a permanent right rather than a revocable royal grant"
+  years: {from: 399, to: 410}
+  status: reviewed
 ---
 This quote serves F1-E; syr.dw.decides alone grounds that cell, citing "VII.8 (the synod's door opened
 at the close)" for its central admission - that no settled machinery stood over the whole world until

@@ -53,6 +53,14 @@ tensions:
 relations:
 - type: associated-with
   target: hal.quote.the-city-which-had-taken-the-whole-world
+use_note:
+  means: "This witness holds that baptism and sharp conversion parallel being born again, that giving was total rather than tithed, and that Rome's fall was read as judgment."
+  not_for:
+    - "a claim that this world practised tithing"
+    - "a claim that this world held a rapture or calculated end-times scheme"
+    - "a claim that reading Rome's fall as judgment excluded mourning it"
+  years: {from: 403, to: 412}
+  status: reviewed
 ---
 F4-translational answer-ground. The no-tithe and no-rapture answers are
 honest negatives with this world's actual practices in their place. The

@@ -5,7 +5,7 @@ from engine.m2 import cli
 from engine.m2.builders import SOURCE_ANCHOR_HEADER, _GROUND_LINE, build_prompt
 from engine.m2.profile import NOT_CARRIED, SECTION_TITLES, build_profile
 
-from .test_prompt_regions import CORE, CRAFT, FLEET, REGISTRY_ENTRY, REPOSITORY
+from .test_prompt_regions import CORE, CRAFT, REGISTRY_ENTRY, REPOSITORY
 
 OBSERVATION = "Worship and doctrine are one act here, and no single lens shows it."
 ANCHOR = "Our images come from the two letters we hold. When a fitting image does not come from them, we fall back to the plain shape of our own life."
@@ -99,17 +99,17 @@ def test_the_optional_fields_validate_in_the_record_schema():
 
 
 def test_the_prompt_is_byte_identical_when_the_optional_fields_are_absent_or_not_spoken():
-    base = build_prompt(REPOSITORY, FLEET, REGISTRY_ENTRY)
+    base = build_prompt(REPOSITORY, REGISTRY_ENTRY)
     observed = {**REPOSITORY, CORE["id"]: {**CORE, "integrative_observation": OBSERVATION}}
-    assert build_prompt(observed, FLEET, REGISTRY_ENTRY) == base
+    assert build_prompt(observed, REGISTRY_ENTRY) == base
     listed = {**REPOSITORY, CRAFT["id"]: {**CRAFT, "source_anchor_entries": ["a", "b", "c", "d", "e"]}}
-    assert build_prompt(listed, FLEET, REGISTRY_ENTRY) == base
+    assert build_prompt(listed, REGISTRY_ENTRY) == base
     assert SOURCE_ANCHOR_HEADER not in base.decode("utf-8")
 
 
 def test_a_source_anchor_compiles_as_its_own_section_above_the_ground_line():
     anchored = {**REPOSITORY, CRAFT["id"]: {**CRAFT, "source_anchor": ANCHOR}}
-    text = build_prompt(anchored, FLEET, REGISTRY_ENTRY).decode("utf-8")
+    text = build_prompt(anchored, REGISTRY_ENTRY).decode("utf-8")
     section = f"## {SOURCE_ANCHOR_HEADER}\n\n{ANCHOR}\n"
     assert section in text and text.index(section) < text.index(_GROUND_LINE)
     assert "[[" not in section

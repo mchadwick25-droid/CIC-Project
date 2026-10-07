@@ -1,0 +1,490 @@
+{
+ "grader": "primary",
+ "replies": [
+  {
+   "reply": "syr:Q01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "stretched",
+     "note": "Record says addressed as established; framing this as proof their standing was real is added causal link."
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "no_claim"
+    },
+    {
+     "s": 11,
+     "label": "supported"
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "no_claim"
+    }
+   ]
+  },
+  {
+   "reply": "syr:Q02",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 12,
+     "label": "stretched",
+     "note": "Harmony shaping the Gospel supported; hymns teaching how to hear it is added."
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Pastoral diagnosis of the reader, no record cited."
+    },
+    {
+     "s": 16,
+     "label": "no_claim"
+    },
+    {
+     "s": 17,
+     "label": "no_claim"
+    }
+   ]
+  },
+  {
+   "reply": "syr:Q03",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    }
+   ]
+  },
+  {
+   "reply": "syr:Q04",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "stretched",
+     "note": "Quote has pearl and mysteries; diver, merchant and king are not in it."
+    },
+    {
+     "s": 11,
+     "label": "supported"
+    },
+    {
+     "s": 12,
+     "label": "no_claim"
+    },
+    {
+     "s": 13,
+     "label": "stretched",
+     "note": "Record says authority generally unresolved; not specifically authority to interpret Scripture."
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 17,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    }
+   ]
+  },
+  {
+   "reply": "syr:Q05",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "stretched",
+     "note": "Quote says mysteries of the Kingdom; 'the whole story of the kingdom' is stronger."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 14,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 16,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 17,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 18,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 19,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 20,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 21,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 22,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 23,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    }
+   ]
+  },
+  {
+   "reply": "syr:Q06",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 4,
+     "label": "stretched",
+     "note": "Record calls bishops shepherds; standing over cities and answering for flocks is added."
+    },
+    {
+     "s": 5,
+     "label": "stretched",
+     "note": "Record has fathers who prayed for the city; standing on its walls is added."
+    },
+    {
+     "s": 6,
+     "label": "stretched",
+     "note": "Precedence quarrel supported; persecution falling on bishops first and hardest is not carried."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 14,
+     "label": "stretched",
+     "note": "Record speaks of 'the sage' unnamed in text; name Aphrahat and epithet 'Persian Sage' added."
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 16,
+     "label": "supported"
+    },
+    {
+     "s": 17,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 18,
+     "label": "supported"
+    },
+    {
+     "s": 19,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    }
+   ]
+  }
+ ]
+}

@@ -124,6 +124,15 @@ manifestations:
 - the Council of Carthage 419 canons on receiving Donatist clergy, whose content depends on this norm
 - the Maximianist clergy received back without repeated baptism - the exception that presupposes the norm
 - Gregory the Great's letters to Columbus (592) and Pantaleon (594), naming Donatist rebaptism in Numidia
+use_note:
+  means: "Rebaptism is the enacted rite by which a person crossed into the communion, counted as a first true baptism and named as an offence in imperial edicts, a central practice Augustine attests directly."
+  not_for:
+    - "a claim about the doctrine that a tainted hand confers nothing, the rite's doctrinal ground, which sits in don.gravity.ministerial-purity"
+    - "a claim about the Maximianist clergy received back without rebaptism, the exception that sits in don.gravity.rigor-against-reception"
+    - "a claim that the practice reflects only one author's view"
+    - "a claim that Gregory's letters of 592 to 594 show its scale or character at that date"
+  years: {from: 311, to: 439}
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate G2, generated at SS1, tested at SS3.2, classified
 Primary at SS4) and the cleared Doc_08 (SS5 and the Force Index's own G2 row). INTERACTION MATRIX

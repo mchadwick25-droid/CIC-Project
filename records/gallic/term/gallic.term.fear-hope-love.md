@@ -76,6 +76,15 @@ quick_meaning: >-
   Three restraints on our faults - fear of hell, hope of heaven, love of goodness itself. Slave,
   hireling, son. We start at fear and are meant to climb past it.
 distortion_risk: low
+use_note:
+  means: "Fear, hope and love named Chaeremon's ladder of three restraints on faults, from hell to the kingdom to goodness itself, as slave, hireling and son."
+  not_for:
+    - "perfection as a whole, which sits in gallic.term.perfection"
+    - "compunction specifically, which sits in gallic.term.compunction"
+    - "the last judgment as expectation, which sits in gallic.term.antichrist"
+    - "a Gallic teaching, when it is Egypt's ladder received through Cassian"
+  years: {from: 415, to: 426}
+  status: reviewed
 ---
 Built from Doc_06 entry 072 (`galliclex072_fear-hope-love.md`, Tier 3, tags SC TC; Doc_03 4.9).
 Kept thin at the Tier-3 floor; the chunk's Distortion Risk (fear read as the whole of ancient

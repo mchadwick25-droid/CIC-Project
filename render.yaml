@@ -34,10 +34,10 @@
 # AWS_SESSION_TOKEN if the identity uses temporary credentials).
 # PHASE-1-LAUNCH.md Stage 3's own caution still holds: cic-bedrock-dev is
 # a DEV identity - production wants its own, scoped to Bedrock invoke on
-# the models actually used. CIC_API_VOICE_MODEL_PATTERN is still left at
-# its code default; CIC_API_SAFETY_MODEL_PATTERN is pinned below (Stage
-# 0d, Build-Plan.md) to the exact profile id the safety battery was last
-# tallied against, not the loose pattern.
+# the models actually used. CIC_API_VOICE_MODEL_PATTERN and
+# CIC_API_SAFETY_MODEL_PATTERN are both pinned below to exact profile ids:
+# the voice to the one the standing-measure baseline was measured on, the
+# safety model to the one the safety battery was last tallied against.
 #
 # TWO SERVICES, one blueprint, D3's promotion model (Repo Structure
 # Cleanup phase 3, 2026-09-15 - Build/Ministry/Operations/Standing/
@@ -124,6 +124,8 @@ services:
         value: /data/cic_api_events.db
       - key: CIC_API_USAGE_DB
         value: /data/cic_api_usage.db
+      - key: CIC_API_QC_DB
+        value: /data/cic_api_qc.db
       # Stage 0d (Build-Plan.md): pinned to the EXACT profile id the safety
       # battery's last real tally ran against (engine/m5/reports/safety-
       # script-run-*.json), not left at the loose "us.anthropic.claude-
@@ -137,6 +139,11 @@ services:
       # (engine/api/README.md has the full rationale).
       - key: CIC_API_SAFETY_MODEL_PATTERN
         value: us.anthropic.claude-haiku-4-5-20251001-v1:0
+      # The exact voice profile the standing-measure baseline band was
+      # measured on (engine/m7/band/). A voice model change is admitted
+      # only through a run inside that band; repin alongside one.
+      - key: CIC_API_VOICE_MODEL_PATTERN
+        value: us.anthropic.claude-sonnet-4-5-20250929-v1:0
       # THE ADMISSION GATE - ON. The doors were opened by Mark, 2026-08-28,
       # in session ("open the doors, flip the switch"), the same day he
       # admitted all six worlds ("yes i admit all six worlds") on the
@@ -227,22 +234,31 @@ services:
         value: /data/cic_api_events.db
       - key: CIC_API_USAGE_DB
         value: /data/cic_api_usage.db
+      - key: CIC_API_QC_DB
+        value: /data/cic_api_qc.db
       - key: CIC_ENFORCE_ADMISSION
         value: "0"
       - key: CIC_SELF_REVISION
         value: "0"
-      # Read-aloud step 1/2 (Build/Ministry/Technology/CiC_ReadAloud_Step1_
-      # Design_Note.md), staging only, for a real-browser listen-through - cic-engine
-      # (prod) does not set this. Free browser speechSynthesis, no new
-      # backend, no recurring cost either way.
-      - key: VITE_READ_ALOUD
-        value: "on"
+      # Verified citation attachment (engine/m4/citation_attach.py): staging
+      # only; cic-engine (prod) does not set this.
+      - key: CIC_CITATION_ATTACH
+        value: "1"
+      # Reply streaming (engine/api/README.md, Streaming): staging only,
+      # cic-engine (prod) does not set this.
+      - key: CIC_API_STREAMING
+        value: "1"
       # Same pin, same reason, as cic-engine's own CIC_API_SAFETY_MODEL_
       # PATTERN comment above (Stage 0d, Build-Plan.md) - staging validates
       # against the same tallied model production runs, not a floating
       # pattern that could quietly diverge from it.
       - key: CIC_API_SAFETY_MODEL_PATTERN
         value: us.anthropic.claude-haiku-4-5-20251001-v1:0
+      # The exact voice profile the standing-measure baseline band was
+      # measured on (engine/m7/band/). A voice model change is admitted
+      # only through a run inside that band; repin alongside one.
+      - key: CIC_API_VOICE_MODEL_PATTERN
+        value: us.anthropic.claude-sonnet-4-5-20250929-v1:0
       # Own credentials, own scope - never the prod keys pointed at a
       # second service. PHASE-1-LAUNCH.md Stage 3's caution (a DEV
       # identity is not a production one) runs the other direction here:

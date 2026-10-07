@@ -53,6 +53,14 @@ relations:
   target: desert.quote.antony-nicene-formula
 - type: associated-with
   target: desert.limit.original-sin-eucharist-faith
+use_note:
+  means: "This witness pairs Antony's public Nicene confession and refusal of the Arians with the Evagrian teaching that God is seen through stilled passions."
+  not_for:
+    - "contemplative theoria as ordinary desert experience rather than that of a few"
+    - "a claim either source makes, when the joining is this record's own synthesis"
+    - "the desert's only answer, beside the Macarian current in desert.dw.the-heart-and-the-spirit"
+  years: {from: 313, to: 399}
+  status: reviewed
 ---
 Joins desert.quote.antony-arians-serpents and desert.quote.antony-
 nicene-formula (the boundary-drawing and, now, the positive-formula

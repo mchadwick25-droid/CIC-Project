@@ -1,0 +1,26 @@
+# Worker: Methodist Revival build thread (meth). Step 0/Doc_02
+# source-acquisition pass.
+source_file: asbury_journal-v1_1821.txt
+
+authors_ruled:
+  asbury-francis:
+    kind: metadata-omission
+    evidence: >
+      Plain-text intake file with no CCEL DC.Creator. Its header names
+      Francis Asbury as Creator of the Journal, in three volumes; the
+      slug covers all three vendored volumes.
+
+assignments:
+  - row_id: asbury_journal-v1_1821--the-journal-of-the-rev-francis-asbury-vol-i-1771-1786
+    work: "The Journal of the Rev. Francis Asbury, Vol. I (1771-1786)"
+    author: asbury-francis
+    locus: "whole volume; not individually itemized by entry this pass"
+    atlas_ids:
+      - the-methodist-revival
+    role: tradition
+    confidence: provisional
+    note: >
+      Covers Asbury's own arrival in America (1771) through 1786 - the
+      movement's own transatlantic extension and its earliest years as an
+      organized American connexion, in his own first-person voice.
+      Individual dated-entry loci are Doc_03+ scope.

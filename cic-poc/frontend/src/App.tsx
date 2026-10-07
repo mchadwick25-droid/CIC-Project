@@ -3,6 +3,7 @@ import { useConversation } from './hooks/useConversation';
 import { useTable } from './hooks/useTable';
 import { useWorlds } from './hooks/useWorlds';
 import { findWorld, findWorldByCensusId } from './data/worlds';
+import { deleteSession } from './lib/api';
 import { readStored } from './lib/sessionStore';
 import { Launch } from './screens/Launch';
 import { Conversation } from './screens/Conversation';
@@ -254,6 +255,7 @@ function App() {
         <Conversation
           world={world}
           turns={conversation.turns}
+          streamed={conversation.streamed}
           sessionCode={conversation.sessionCode}
           closed={conversation.closed}
           isLoading={conversation.isLoading}
@@ -262,6 +264,11 @@ function App() {
           onSend={conversation.send}
           onEnd={handleLeave}
           onRestart={handleLeave}
+          onDelete={async () => {
+            if (!conversation.sessionId || !conversation.sessionCode) return;
+            await deleteSession(conversation.sessionId, conversation.sessionCode);
+            conversation.reset();
+          }}
         />
       )}
 
@@ -269,6 +276,7 @@ function App() {
         <TableRoom
           seatedWorlds={seatedWorlds}
           turns={table.turns}
+          streamed={table.streamed}
           sessionCode={table.sessionCode}
           closed={table.closed}
           roundOpen={table.roundOpen}
@@ -280,6 +288,11 @@ function App() {
           onResumeRound={table.resumeRound}
           onEnd={handleLeave}
           onRestart={handleLeave}
+          onDelete={async () => {
+            if (!table.sessionId || !table.sessionCode) return;
+            await deleteSession(table.sessionId, table.sessionCode);
+            table.reset();
+          }}
         />
       )}
     </div>

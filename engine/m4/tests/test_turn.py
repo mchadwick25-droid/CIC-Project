@@ -10,10 +10,13 @@ import threading
 from types import SimpleNamespace
 
 
+from engine.m4 import facilitator_turns
 from engine.m4 import turn as turn_module
 from engine.m4.turn import run_gate, run_turn, run_voice_turn_for_world
+from engine.m4.turn_prep import CONCISION_DIRECTIVE
 from engine.m4.voice_request import DIRECTIVE_OPEN
 from engine.m4.world_loader import LoadedWorld
+from engine.shape import shape_text
 
 
 class _FakeToolUse:
@@ -281,8 +284,8 @@ def _participant_text(content) -> str:
     return content[-1]["text"] if isinstance(content, list) else content
 
 
-def _directive_text(content) -> str:
-    return content[0]["text"] if isinstance(content, list) else ""
+def _directive_text(system) -> str:
+    return "".join(block["text"] for block in system[2:])
 
 
 def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():
@@ -482,7 +485,7 @@ def test_already_bridged_figures_reach_the_voice_as_an_already_introduced_line()
     assert "Rhoda" not in user_message  # never introduced, so never listed
     # The per-turn directive (the channel measured to win - see
     # _build_turn_directive) carries the same state.
-    directive_text = _directive_text(messages[0]["content"])
+    directive_text = _directive_text(system)
     assert "Already introduced in this conversation: the Elder." in directive_text
     assert "Rhoda" not in directive_text
 
@@ -539,11 +542,11 @@ def test_already_told_ids_reaches_evidence_assembly_without_error():
     assert result.voice_event["degraded_by_net"] is False
 
 
-def test_the_per_turn_directive_rides_in_the_final_user_message_not_the_system_block():
-    # The system block is the world's compiled prompt alone, byte-identical
-    # to what was compiled, so the cached prefix holds across every turn.
-    # The directive differs every turn, so it leads the final user message,
-    # behind the cached history.
+def test_the_per_turn_directive_rides_in_the_system_block_behind_the_cached_prefix():
+    # The shape segment and the world's compiled prompt stay byte-identical
+    # and cached; the directive differs every turn, so it follows them
+    # uncached, and the user message carries only the evidence and the
+    # participant's words.
     world = _world()
     ask_text = "who is jesus"
     client = FakeBedrockClient(
@@ -554,14 +557,14 @@ def test_the_per_turn_directive_rides_in_the_final_user_message_not_the_system_b
     run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message=ask_text, pressed={}, anachronistic_term_ids=set())
 
     system, messages = client.messages.captured_stream_calls[0]
-    assert len(system) == 1
-    assert system[0]["text"] == world.prompt_text
-    assert system[0]["cache_control"] == {"type": "ephemeral"}
-    directive_block, message_block = messages[-1]["content"]
-    assert directive_block["text"].startswith(DIRECTIVE_OPEN)
-    assert "This turn's private directive" in directive_block["text"]
-    assert "cache_control" not in directive_block
-    assert ask_text in message_block["text"]
+    assert [b["text"] for b in system[:2]] == [shape_text(), world.prompt_text]
+    assert all(b["cache_control"] == {"type": "ephemeral"} for b in system[:2])
+    assert len(system) == 3 and "cache_control" not in system[2]
+    assert "This turn's private directive" in system[2]["text"]
+    assert CONCISION_DIRECTIVE in system[2]["text"]
+    assert isinstance(messages[-1]["content"], str)
+    assert DIRECTIVE_OPEN not in messages[-1]["content"]
+    assert ask_text in messages[-1]["content"]
 
 
 def test_session_memory_rides_in_messages_and_leaves_the_cached_prefix_alone():
@@ -588,9 +591,9 @@ def test_session_memory_rides_in_messages_and_leaves_the_cached_prefix_alone():
     assert messages[1]["content"] == [
         {"type": "text", "text": "He was God's own Word, come to us in flesh.", "cache_control": {"type": "ephemeral"}}
     ]
-    assert "and what then" in messages[2]["content"][-1]["text"]  # this turn's own message, evidence block and all
-    assert system[0]["text"] == world.prompt_text
-    assert system[0]["cache_control"] == {"type": "ephemeral"}
+    assert "and what then" in _participant_text(messages[2]["content"])  # this turn's own message, evidence block and all
+    assert [b["text"] for b in system[:2]] == [shape_text(), world.prompt_text]
+    assert all(b["cache_control"] == {"type": "ephemeral"} for b in system[:2])
 
 
 def test_a_turn_with_no_history_is_unchanged():
@@ -696,10 +699,9 @@ def test_the_word_in_the_message_does_not_bridge_a_world_it_is_not_anachronistic
     assert result.routing_action == "voice_with_directive"
 
 
-def test_the_gate_payload_shows_which_path_found_a_modern_term():
-    """The resolved list goes in the event, not the raw one: reader_term_id
-    and source are how an auditor sees which path found a term and what the
-    model called it before code renamed it."""
+def test_the_gate_payload_lists_the_modern_terms_the_dictionary_scan_found():
+    """Modern terms come from the dictionary scan of the message alone; what
+    the reader calls a term does not rename or add to it."""
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"),
         reader_response=_reader(modern_terms=[{"term_id": "trinity_doctrine", "display": "the Trinity"}]),
@@ -708,7 +710,7 @@ def test_the_gate_payload_shows_which_path_found_a_modern_term():
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="How did your community understand the Trinity?", pressed={}, anachronistic_term_ids=set())
     terms = result.gate["modern_terms"]
     assert [t["term_id"] for t in terms] == ["_fleet.modern.trinity"]
-    assert terms[0]["reader_term_id"] == "trinity_doctrine"
+    assert terms[0]["source"] == "message_scan"
 
 
 def test_a_failed_reader_is_visible_in_the_gate_payload():
@@ -973,14 +975,14 @@ def test_a_non_acute_signal_is_capped_like_any_other_ordinary_turn():
     assert result.voice_event is None
 
 
-def test_the_cap_names_the_representative_from_world_frame():
+def test_the_cap_closes_with_the_one_plain_line():
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=[])
     result = run_turn(
         session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
         world=_world(), participant_message="one more", pressed={}, anachronistic_term_ids=set(),
         history=_history_of(turn_module.SESSION_TURN_CAP),
     )
-    assert "Vera" in result.facilitator_events[0]["text"]
+    assert result.facilitator_events[0]["text"] == facilitator_turns.CAP_CLOSE_TEXT
 
 
 def test_a_capped_turn_still_attributes_its_gate_calls():
@@ -1063,7 +1065,7 @@ def test_correction_is_appended_to_the_turn_directive_the_model_actually_sees():
         participant_message="who was Jesus", directive=None, session_id="test-session",
         correction="\n## Correction\nCite everything, or say plainly your record is silent.",
     )
-    directive_text = _directive_text(client.messages.captured_stream_calls[0][1][-1]["content"])
+    directive_text = _directive_text(client.messages.captured_stream_calls[0][0])
     assert "Cite everything, or say plainly your record is silent." in directive_text
 
 
@@ -1225,20 +1227,17 @@ def test_r27_enforce_passes_a_grounded_frame_sentence_inside_a_cited_paragraph_w
     assert voice_event["paragraph_offenses"] == []
 
 
-# sentence_enforce's own required test list - a second, independent
-# flag-gated enforcement from the uncited-claims enforcement above.
-# sentence_enforce=False (every existing test, including all of that
-# enforcement's own above) is already proven byte-identical by the full
-# suite passing unchanged;
-# these are the flag-ON cases. "Athanasius of Alexandria opposed the
-# council." is the fixture's own unsupported sentence throughout: _world()'s
-# only record never names either word, so engine.m4.sentence_fact_check.
-# find_unsupported_named_claims flags it regardless of citation tag.
+# sentence_enforce: "Athanasius of Alexandria opposed the council." is the
+# fixture's unsupported sentence throughout. _world()'s only record names
+# neither word, so engine.m4.sentence_fact_check.find_unsupported_named_claims
+# flags it whatever its citation tag.
 _UNSUPPORTED_SENTENCE = "Athanasius of Alexandria opposed the council."
 _GROUNDED_SENTENCE = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."
 
 
-def test_sentence_enforce_off_by_default_leaves_the_flag_report_only():
+def test_sentence_enforce_off_by_default_runs_no_live_fact_check():
+    """With both enforcement switches off the live turn acts on no fact
+    check, so it runs none; engine.m7.offline_checks runs it over the log."""
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[[_UNSUPPORTED_SENTENCE]],
@@ -1248,8 +1247,8 @@ def test_sentence_enforce_off_by_default_leaves_the_flag_report_only():
         participant_message="who was Jesus", directive=None, session_id="test-session",
     )
     assert len(client.messages.captured_stream_calls) == 1  # never regenerated - the flag is off
-    assert voice_event["text"] == _UNSUPPORTED_SENTENCE  # nothing edited, report-only
-    assert voice_event["fact_check_flags"] and voice_event["fact_check_flags"][0]["sentence"] == _UNSUPPORTED_SENTENCE
+    assert voice_event["text"] == _UNSUPPORTED_SENTENCE  # nothing edited
+    assert "fact_check_flags" not in voice_event
     assert voice_event["sentence_enforcement"] == {
         "flagged": [], "regenerated": False, "still_flagged": [], "sentences_dropped": [],
     }
@@ -1381,8 +1380,8 @@ def test_sentence_retry_carries_the_r27_correction_forward():
         r27_enforce=True, known_tradition_names=[], sentence_enforce=True,
     )
     assert len(client.messages.captured_stream_calls) == 3
-    _system, sentence_retry_messages = client.messages.captured_stream_calls[2]
-    sentence_retry_text = _directive_text(sentence_retry_messages[-1]["content"])
+    sentence_retry_system, _messages = client.messages.captured_stream_calls[2]
+    sentence_retry_text = _directive_text(sentence_retry_system)
     assert "uncited claims" in sentence_retry_text  # _append_r27_correction's own heading, carried forward
     assert _UNSUPPORTED_SENTENCE in sentence_retry_text  # _append_sentence_fact_check_correction's own named sentence
 
@@ -1627,3 +1626,80 @@ def test_self_revision_a_draft_with_no_tags_never_spends_a_call():
     assert len(client.messages.captured_stream_calls) == 1
     assert voice_event["attempts_meta"]["self_revision"]["ran"] is False
     assert voice_event["attempts_meta"]["self_revision"]["fallback_reason"] == "no_tagged_records"
+
+
+def test_citation_attach_adds_verified_citations_without_touching_the_text(monkeypatch):
+    import engine.m4.turn as turn_module
+    seen = {}
+
+    def fake_attach(**kw):
+        seen.update(kw)
+        return [{"sentence": kw["net_result"]["sentences"][0]["sentence"], "record_ids": ["fix.witness.who-is-jesus"], "attached": True}], ["U"], [{"verdict": "carries"}]
+
+    monkeypatch.setattr(turn_module, "attach_citations", fake_attach)
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+                               stream_scripts=[["Even a broken priest could not block his grace."]])
+    voice_event, usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(), participant_message="who was Jesus",
+        directive=None, session_id="test-session", citation_attach_model_id="haiku",
+    )
+    assert seen["model_id"] == "haiku" and seen["client"] is client
+    assert voice_event["text"] == "Even a broken priest could not block his grace."
+    assert [c["record_ids"] for c in voice_event["citations"]] == [["fix.witness.who-is-jesus"]]
+    assert "U" in usage
+    assert voice_event["attempts_meta"]["citation_attach"]["added"] == ["Even a broken priest could not block his grace."]
+
+
+def test_citation_attach_is_never_called_when_off(monkeypatch):
+    import engine.m4.turn as turn_module
+    monkeypatch.setattr(turn_module, "attach_citations", lambda **kw: (_ for _ in ()).throw(AssertionError("called")))
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+                               stream_scripts=[["Even a broken priest could not block his grace."]])
+    voice_event, _ = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(), participant_message="who was Jesus",
+        directive=None, session_id="test-session",
+    )
+    assert voice_event["attempts_meta"]["citation_attach"] == {"enabled": False, "added": [], "trail": []}
+
+
+def _gate_with_safety_failure(exc, monkeypatch):
+    from engine.m4 import citation_attach
+
+    monkeypatch.setattr(citation_attach, "_cooldown_until", 0.0)
+
+    class _Messages:
+        def create(self, *, model, max_tokens, tools, tool_choice, messages, system=None, timeout=None):
+            if tool_choice["name"] == "submit_safety_classification":
+                raise exc
+            return SimpleNamespace(content=[_FakeToolUse("submit_reader_output", _reader())], usage=_FAKE_USAGE)
+
+    gate_run = run_gate(
+        session_id="test-session", safety_client=SimpleNamespace(messages=_Messages()), safety_model_id="m",
+        participant_message="who was Jesus", pressed={}, anachronistic_term_ids=set(),
+    )
+    return gate_run, citation_attach._cooling_down()
+
+
+def test_a_throttled_safety_call_pauses_citation_attachment(monkeypatch):
+    """Attachment shares the safety model's quota: a throttled safety call
+    fails closed, and attachment steps aside so the next turns' safety calls
+    get the headroom."""
+    import anthropic
+    import httpx
+
+    throttled = anthropic.RateLimitError(
+        "slow down", response=httpx.Response(429, request=httpx.Request("POST", "https://x")), body=None)
+    gate_run, cooling = _gate_with_safety_failure(throttled, monkeypatch)
+    assert gate_run.safety_outcome.failed and gate_run.safety_outcome.rate_limited
+    assert gate_run.gate_result.routing.action == "check_in_turn"
+    assert cooling
+
+
+def test_a_safety_call_that_fails_for_another_reason_leaves_attachment_running(monkeypatch):
+    import anthropic
+    import httpx
+
+    gate_run, cooling = _gate_with_safety_failure(
+        anthropic.APIConnectionError(request=httpx.Request("POST", "https://x")), monkeypatch)
+    assert gate_run.safety_outcome.failed and not gate_run.safety_outcome.rate_limited
+    assert not cooling

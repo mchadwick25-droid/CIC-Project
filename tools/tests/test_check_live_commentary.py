@@ -1019,7 +1019,7 @@ def test_real_fleet_true_positives_still_match_on_main():
     # swapped for cappadocian's own matrix-cell-code example, a fleet-wide
     # leak (the bracketed build-taxonomy tag on every gravity/force `name`)
     # not yet remediated in any world.
-    assert _new_pattern_hits("records/alx/gravity/alx.gravity.logos-unity.md")
+    assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.capitals-gravity.md")
     assert _new_pattern_hits("records/pahc/world_core/pahc.core.house-church.md")
     assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.ascetic-ferment.md")
 
@@ -1418,7 +1418,11 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # wanting an academic reviewer for the project's own scholarship, not
     # narration of this project's internal review process - the same
     # `reviewer`-pattern gap already hand-labelled for reference/ above.
-    ("cic-website/support.html", 127, "KEEP"),
+    # Refreshed 2026-10-03: the public-page cleanup (commit 6a42ed96) moved
+    # this same line from 127 to 108; refreshed 2026-10-04: Go Deeper S5d
+    # (commit a5df3f70) added a line above it, so it is now 109. Same text,
+    # same label.
+    ("cic-website/support.html", 109, "KEEP"),
     ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
     # the original _cross-world example was cleaned by that effort.
@@ -1458,7 +1462,11 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # Refreshed 2026-09-25: main's own sentence_enforce PR shifted this
     # file's lines by +7 above this point; re-pinned to the same
     # r27_regenerated assertion, now at 1131.
-    ("engine/api/tests/test_app.py", 322, "REWRITE"),
+    # Refreshed 2026-10-03: the docstring rewording in commit 30550bec
+    # stopped this line matching. Re-pinned to a "Drafted ... commit" line
+    # in a historical decision log under Build/reference/, a surface edited
+    # rarely and not part of any cleanup pass.
+    ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 29, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): the comment block this entry pinned ("the five
@@ -1466,13 +1474,17 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # change-history narration with no independent design reason once its
     # provenance was stripped, so it was deleted outright rather than
     # reworded - enforce.py now carries zero REWRITE hits. Re-pinned to a
-    # fresh REWRITE example elsewhere.
-    ("records/alx/gravity/alx.gravity.logos-unity.md", 49, "REWRITE"),
+    # fresh REWRITE example elsewhere. Re-pinned again 2026-10-05: the alx
+    # logos-unity description was rewritten in plain language on
+    # 2026-10-04 and no longer carries a hit (the intended outcome), so
+    # this entry moved to a cappadocian force record whose Doc_08 cell
+    # tag is still unremediated.
+    ("records/cappadocian/force/cappadocian.force.capitals-gravity.md", 25, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 251, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 272, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 162, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 259, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 221, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 280, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 242, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),
     ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 26, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
@@ -1487,7 +1499,9 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # removes the commentary already in it"). Re-pinned to a fresh
     # gravity-classification-label hit, not yet touched by any re-voicing
     # PR.
-    ("records/alx/force/alx.force.scripture-ongoing.md", 29, "REWRITE"),
+    # Refreshed 2026-10-03: the alx tag strip (commit 468d97ff) cleaned this
+    # line. Re-pinned to the same decision log as the row above.
+    ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 41, "REWRITE"),
     ("records/alx/source/alx.source.origen-comm-matthew.md", 22, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
     # 0cbe76d5..30b1cb93): the original hal.force.clerical-precarity.md:52
@@ -1968,3 +1982,38 @@ def test_the_same_words_in_a_note_field_are_still_flagged(tmp_path):
     text = 'sources:\n  - title: "Epistulae"\n    note: "Caught by adversarial review on 2026-09-02"\n'
     hits = _hits_for(text, tmp_path, "records/w/source/w.source.x.yaml")
     assert any(h.category == "REWRITE" for h in hits)
+
+
+def test_a_spoken_field_describing_the_period_is_not_a_route_cue(tmp_path):
+    """A voiced sentence can say a thing was 'not yet fixed' in the world's own
+    time; that is history, not an open item."""
+    text = ("---\nid: x.dw.a\nrecord_type: doctrinal_witness\n"
+            "positions:\n- \"Apostolic writing was not yet fixed into one settled list.\"\n"
+            "why: \"This build has an open item here.\"\n---\n")
+    hits = {h.line for h in _hits_for(text, tmp_path, "records/x/doctrinal_witness/x.dw.a.md") if "route-cue" in h.patterns}
+    lines = text.splitlines()
+    assert lines.index("- \"Apostolic writing was not yet fixed into one settled list.\"") + 1 not in hits
+    assert lines.index("why: \"This build has an open item here.\"") + 1 in hits
+
+
+def test_a_source_locus_in_a_spoken_sources_list_is_not_a_section_ref(tmp_path):
+    """A quote's sources list is a participant label; its locus names the
+    section of the source, so a section sign there is the citation itself."""
+    text = ("---\nid: x.quote.a\nrecord_type: quote\n"
+            "sources:\n- source_id: x.source.vita\n  locus: \"SS19 - from the discourse to the brothers\"\n"
+            "  license: public-domain\n"
+            "- source_id: x.source.vita\n  locus: >-\n    Vita Antonii SS3 (npnf204.xml)\n---\n")
+    hits = [h for h in _hits_for(text, tmp_path, "records/x/quote/x.quote.a.md") if "section-ref" in h.patterns]
+    assert hits == []
+
+
+def test_a_work_citation_in_a_spoken_field_is_not_a_section_ref_but_a_build_reference_is(tmp_path):
+    text = ("---\nid: x.dw.a\nrecord_type: doctrinal_witness\n"
+            "positions:\n- \"the war normal rather than a sign of failure (Homily XXVI SS18)\"\n"
+            "- \"Christ as presently working (Vita SS80, SS84)\"\n"
+            "- \"settled in SS3 of the build notes\"\n---\n")
+    lines = text.splitlines()
+    hits = {h.line for h in _hits_for(text, tmp_path, "records/x/doctrinal_witness/x.dw.a.md") if "section-ref" in h.patterns}
+    assert lines.index("- \"the war normal rather than a sign of failure (Homily XXVI SS18)\"") + 1 not in hits
+    assert lines.index("- \"Christ as presently working (Vita SS80, SS84)\"") + 1 not in hits
+    assert lines.index("- \"settled in SS3 of the build notes\"") + 1 in hits

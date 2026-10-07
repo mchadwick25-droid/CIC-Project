@@ -653,7 +653,7 @@ def _front_matter_field_lines(text: str) -> tuple[dict[str, set[int]], str | Non
             fields.setdefault(key, set()).add(i)
             continue
         if active_field is not None:
-            if line.strip() == "" or (len(line) - len(line.lstrip(" ")) > active_indent):
+            if line.strip() == "" or (len(line) - len(line.lstrip(" ")) > active_indent) or line.startswith("- "):
                 fields[active_field].add(i)
             else:
                 active_field, active_indent = None, -1
@@ -700,6 +700,41 @@ def _spoken_field_lines(field_lines: dict[str, set[int]], record_type: str | Non
         if key in spoken_names:
             lines |= key_lines
     return lines
+
+
+# A source citation names a work and the section of it a record draws on
+# ("Vita SS74", "Homily XXVI SS18", "Praktikos prologue SS8"). Inside a
+# spoken field it is evidence, not build indexing; section-ref is for
+# references into this project's own documents.
+_SOURCE_CITATION = re.compile(
+    r"\b[A-Z][A-Za-z]*(?:\s+[A-Z][A-Za-z]*)*(?:\s+(?:[IVXLC]+|prologue))?"
+    r"\s+(?:SS\d+[A-Za-z]?(?:\.\d+)?|§\s?\d+)(?:,\s*(?:SS\d+[A-Za-z]?|§\s?\d+))*"
+)
+
+
+def _locus_lines(text: str) -> set[int]:
+    """Front-matter lines holding a nested `locus:` value: the line that
+    names where in its source a record's material sits, and its folded
+    continuation lines. A locus is a section reference by design."""
+    lines = text.splitlines()
+    end = _yaml_frontmatter_end(lines)
+    if end is None:
+        return set()
+    found: set[int] = set()
+    locus_indent = None
+    for i in range(1, end + 1):
+        line = lines[i - 1] if i <= len(lines) else ""
+        indent = len(line) - len(line.lstrip(" "))
+        if locus_indent is not None:
+            if line.strip() and indent > locus_indent:
+                found.add(i)
+                continue
+            locus_indent = None
+        m = _YAML_KEY.match(line)
+        if m and m.group(2) == "locus" and len(m.group(1)) > 0:
+            found.add(i)
+            locus_indent = len(m.group(1))
+    return found
 
 
 def _paragraph_lines(lines: list[str], line_no: int) -> list[int]:
@@ -1494,15 +1529,17 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     provenance_date_lines, headed_table_lines = _source_registry_date_lines(raw_lines) if in_source_registry_file else (set(), set())
     protected_field_lines: set[int] = set()
     spoken_field_lines: set[int] = set()
+    locus_lines: set[int] = set()
     source_record_body_lines: set[int] = set()
     # Computed for every file, not just records/: cheap (an immediate
     # return when the file has no leading `---`), and needed fleet-wide
     # below for change-history widening, not only for records/'s own
     # PROTECTED-field/spoken-field logic.
     frontmatter_field_lines, record_type = _front_matter_field_lines(text)
-    if path.suffix == ".md" and rel.parts[0] == "records":
+    if path.suffix == ".md" and record_type is not None:
         protected_field_lines = _protected_record_field_lines(frontmatter_field_lines, record_type)
         spoken_field_lines = _spoken_field_lines(frontmatter_field_lines, record_type)
+        locus_lines = _locus_lines(text)
         source_record_body_lines = _source_record_body_lines(text, record_type)
     protected_field_lines |= _doc_construction_protected_lines(rel, text)
 
@@ -1531,8 +1568,10 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
             matched = [name for name in matched if name != "ruling-identifier"]
         if i in spoken_field_lines:
             spoken_text = _without_name_taxonomy_tag(line)
-            matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(spoken_text)]
-        if not matched and _route_cue(line, in_source_registry_file):
+            cited_text = "" if i in locus_lines else _SOURCE_CITATION.sub("", spoken_text)
+            matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items()
+                        if pat.search(cited_text if name == "section-ref" else spoken_text)]
+        if not matched and i not in spoken_field_lines and _route_cue(line, in_source_registry_file):
             matched = ["route-cue"]
         if not matched and i in change_history_block_lines:
             matched = ["change-history-block"]
@@ -1586,12 +1625,19 @@ def surface_of(rel: Path) -> str | None:
 
 def changed_files(repo: Path, base: str) -> list[Path]:
     """Files added or modified since the merge-base with `base`, working
-    tree included, plus untracked files. Deleted files carry no commentary."""
+    tree included, plus untracked files. Deleted files carry no commentary,
+    and a file moved unchanged from one live surface to another is not an
+    edit."""
     def git(*args: str) -> str:
         return subprocess.run(["git", *args], cwd=repo, check=True, capture_output=True, text=True).stdout
 
     merge_base = git("merge-base", base, "HEAD").strip()
-    names = git("diff", "--name-only", "--diff-filter=ACMR", merge_base).splitlines()
+    names = []
+    for line in git("diff", "--name-status", "-M", "--diff-filter=ACMR", merge_base).splitlines():
+        status, *paths = line.split("\t")
+        if status == "R100" and surface_of(Path(paths[0])) is not None:
+            continue
+        names.append(paths[-1])
     names += git("ls-files", "--others", "--exclude-standard").splitlines()
     return sorted({repo / n for n in names if n})
 

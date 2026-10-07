@@ -72,11 +72,11 @@ def test_one_visitor_two_sessions_counts_as_one_unique_visitor(store, usage_stor
 
 def test_usage_log_buckets_by_world_and_unattributed_separately(store, usage_store):
     usage_store.append(UsageRecord(
-        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="voice_generation", model_id="m",
+        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="voice_generation", model_id="us.anthropic.claude-sonnet-4-5-20250929-v1:0",
         provider="bedrock", usage=NormalizedUsage(100, 50, 0, 0), world_key="fix",
     ))
     usage_store.append(UsageRecord(
-        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="turn_selector", model_id="m",
+        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="turn_selector", model_id="us.anthropic.claude-haiku-4-5-20251001-v1:0",
         provider="bedrock", usage=NormalizedUsage(10, 2, 0, 0), world_key=None,
     ))
     summary = get_usage_summary(store, usage_store)
@@ -91,7 +91,7 @@ def test_usage_log_buckets_by_world_and_unattributed_separately(store, usage_sto
 
 def test_priced_call_kinds_get_a_dollar_figure_unpriced_ones_dont(store, usage_store):
     usage_store.append(UsageRecord(
-        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="voice_generation", model_id="m",
+        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="voice_generation", model_id="us.anthropic.claude-sonnet-4-5-20250929-v1:0",
         provider="bedrock", usage=NormalizedUsage(1_000_000, 0, 0, 0), world_key="fix",
     ))
     usage_store.append(UsageRecord(
@@ -103,7 +103,10 @@ def test_priced_call_kinds_get_a_dollar_figure_unpriced_ones_dont(store, usage_s
     fix = summary.by_world[0]
     assert fix.calls == 2
     assert fix.unpriced_calls == 1
-    assert fix.priced_dollars == pytest.approx(3.00)  # 1M input tokens @ $3/M, Sonnet-class
+    assert fix.priced_dollars == pytest.approx(3.30)  # 1M input tokens @ $3/M, Sonnet-class, x1.10 Bedrock regional profile
+    bedrock = {r.route: r for r in summary.by_route}["bedrock"]
+    assert (bedrock.calls, bedrock.unpriced_calls) == (2, 1)
+    assert bedrock.priced_dollars == pytest.approx(3.30)
     assert summary.price_table_source is not None
 
 
@@ -161,3 +164,31 @@ def test_dashboard_page_is_served(store, usage_store, world_loader, registry):
     resp = http.get("/admin/dashboard")
     assert resp.status_code == 200
     assert "text/html" in resp.headers["content-type"]
+
+
+def _event(store, session_id, event_type, payload):
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type=event_type, payload=payload)
+
+
+def test_an_idle_close_written_later_does_not_lengthen_the_session(store, usage_store, monkeypatch):
+    from engine.m7 import session_reader
+    sid = _open(store, visitor_id="visitor-a")
+    _touch(store, sid)
+    _event(store, sid, "session_closed", {"reason": "idle"})
+    events = store.read_events(sid)
+    stamps = ["2026-10-01T10:00:00+00:00", "2026-10-01T10:05:00+00:00", "2026-10-08T11:00:00+00:00"]
+    patched = [type(e)(**{**e.__dict__, "created_at": t}) for e, t in zip(events, stamps)]
+    monkeypatch.setattr(store, "read_events", lambda s: patched if s == sid else [])
+    summary = get_usage_summary(store, usage_store)
+    assert summary.visitors.median_session_seconds == 300
+    assert summary.visitors.median_visitor_total_seconds == 300
+
+
+def test_a_session_opened_without_a_message_is_counted_apart(store, usage_store):
+    _open(store, visitor_id="visitor-a")
+    b = _open(store, visitor_id="visitor-b")
+    _touch(store, b)
+    summary = get_usage_summary(store, usage_store)
+    assert summary.visitors.sessions_without_a_message == 1
+    assert summary.visitors.unique_visitors == 2
+    assert summary.visitors.sessions_with_visitor_id == 2

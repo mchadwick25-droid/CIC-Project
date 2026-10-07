@@ -29,6 +29,20 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--the-ecclesiastical-history-of-evagrius-a-d-431-594
+  work: The Ecclesiastical History of Evagrius (A.D. 431-594)
+  author: evagrius-scholasticus
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'A Chalcedonian Antiochene lawyer-historian''s own narrative of the imperial church,
+    431-594 CE - squarely inside the Justinianic atlas entry''s window (451-622), the entry''s
+    own voice. A separate 1898 Bidez-Parmentier edition (identifier ecclesiasticalhi00evag)
+    exists; its report-claimed "grc+eng" bilingual status was not independently verified,
+    so this confirmed 1846 all-English Walford translation is used instead.
+
+    '
+  source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
 - row_id: npnf214_seven-ecumenical-councils--the-encyclical-letter-of-gennadius-of-constantinople-and-his
   work: The Encyclical Letter of Gennadius of Constantinople and his synod
   author: gennadius_constantinople

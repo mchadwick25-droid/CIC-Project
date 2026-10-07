@@ -43,6 +43,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.barbarian-fiscal-ruin
+use_note:
+  means: "Salvian, in On the Government of God, says Romans fleeing to the Goths and Bagaudae preferred freedom in seeming captivity to captivity in seeming liberty."
+  not_for:
+    - "a measured estimate of how many Romans fled, when Salvian is a preacher indicting Rome"
+    - "the tax burden itself, which sits in gallic.quote.salvian-rich-murdering-the-poor"
+    - "a view shared by the monastic writers of this world generally"
+  years: {from: 439, to: 450}
+  status: reviewed
 ---
 Verified directly against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n
 "free men"` and `grep -n "seeming captivity"` both return line 6458; read with `sed -n

@@ -1,22 +1,19 @@
 # CIC-Project — Working Rules
 
-These rules apply to every session in this repo. Read them before doing anything else. They're listed in priority order — where two sections would pull in different directions, the higher one wins. Safety and fidelity are never traded away for speed, cost, or convenience.
+These rules apply to every session in this repo. Read them before doing anything else. The first two sections are principles that hold together: neither is ever traded against the other, and neither is traded away for speed, cost, or convenience. The third, Safety, is a working protocol that is kept and built to be proportionate. The sections after them are listed in priority order — where two of those would pull in different directions, the higher one wins.
 
-This program succeeds or fails on exactly two things: scholarly rigor and clear, accessible conversation. That's not one section among the others below — it's what "Source fidelity" and "Accessible and rigorous" (below) are actually protecting, and it's why they outrank everything about cost, automation, and scale. The cost and scaling discipline further down exists to buy more of both, never to trade against either. A build that's cheaper, faster, or more automated but weaker on rigor or clarity is not a win — it's a failure the process didn't catch.
+This program succeeds or fails on exactly two things: scholarly rigor and clear, accessible conversation. That's not one section among the others below — it's what "Trust and source fidelity" and "Accessible and rigorous" (below) are actually protecting, and it's why they outrank everything about cost, automation, and scale. The cost and scaling discipline further down exists to buy more of both, never to trade against either. A build that's cheaper, faster, or more automated but weaker on rigor or clarity is not a win — it's a failure the process didn't catch.
 
-## Safety comes first
+## Trust and source fidelity — never invent
 
-- A Representative never handles real crisis or distress itself. Recognizing risk and directing a participant to real human help is entirely the Facilitator's role, governed outside any world's own voice — a Representative may speak warmly in-character, but the actual redirect is Facilitator-governed and template-anchored, not freely generated.
-- Don't confuse a world's intended "historical otherness" fierceness or disorientation (part of the design) with genuine participant distress (a safety event) — treating the former as the latter defeats the mechanism meant to catch the latter.
-- Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes. Near anything safety-adjacent, default to caution over assuming resilience, and never make a redirect conditional on the participant confirming they're okay.
-- The live governing doc is `CiC_L3D_Facilitator_Governance_V3.6`. The newer AcuteDistress/HarmfulDynamic mechanism is still a draft proposal, not yet merged into it — don't treat the draft mechanism's specifics as settled, but "redirect is Facilitator-only, never the Representative" is a decided rule.
+The people in these conversations rely on what we say and on how we read them. Accessibility (the next section) holds together with this.
 
-## Source fidelity — never invent
-
+- Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes.
 - No invented family, age, personal history, or anecdote for a Representative. If a detail isn't derivable from the completed world, it doesn't belong.
 - A uniformly polished "generic AI voice" is itself a fabrication risk — no less than an invented personal quirk would be.
 - Every quote must be re-verified verbatim against the vendored source file before a record passes review. A record marked "quotes verified" is a claim to re-check, not a fact to trust.
 - Contested or uncertain claims get tagged with the project's five-level `formation_confidence` vocabulary (Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential-Thin), with a `contested_claim` record where warranted. Never present a disputed claim as settled. "Not Attested" is not a sixth confidence level — it names an absent claim, not a confidence rating on a claim that exists (`honest_limit` / `absent_detail` / `kind: absence` records already model this).
+- Don't confuse a world's intended "historical otherness" fierceness or disorientation (part of the design) with genuine participant distress (a safety event) — treating the former as the latter defeats the mechanism meant to catch the latter.
 
 ## Accessible and rigorous — participant-facing content
 
@@ -26,6 +23,13 @@ This program succeeds or fails on exactly two things: scholarly rigor and clear,
 - A Representative's hedge language is emic, not etic — a world's own way of naming its own uncertainty, not the generic academic phrasing ("historians disagree") that a Facilitator, speaking from outside every world, may use directly.
 - No AI tells. Nothing should read as generated — no hedging filler, no assistant-voice cadence, no telltale LLM phrasing, no disclaimer-as-crutch. If a participant can hear the chatbot instead of the world's own voice, that's a defect, independent of whether the content is otherwise accurate.
 - This applies to everything participant-facing, not just Representative dialogue — UI text, instructions, and onboarding flow are held to the same bar.
+
+## Safety
+
+- A Representative never handles real crisis or distress itself. Recognizing risk and directing a participant to real human help is entirely the Facilitator's role, governed outside any world's own voice — a Representative may speak warmly in-character, but the actual redirect is Facilitator-governed and template-anchored, not freely generated.
+- Near anything safety-adjacent, default to caution over assuming resilience, and never make a redirect conditional on the participant confirming they're okay.
+- The protocol is built to be proportionate: as cheap as it can be while still reliably catching the real event. A rare event does not raise the cost of ordinary turns beyond what detection needs.
+- The safety protocol is functioning: the Facilitator classifies acute distress and harmful dynamics on each turn, the Representative stays silent on those turns, and the template-anchored crisis resources are appended by code. The governing doc is `CiC_L3D_Facilitator_Governance_V3.6`, a Word file at `Archive/Syriac-Build-2026-07/L3D-Encounter-Methodology/CiC_L3D_Facilitator_Governance_V3.6.docx`.
 
 ## Fix it right
 
@@ -112,6 +116,7 @@ The build-cycle discipline already self-governs: escalation is limited to four c
 
 Weekly usage credits keep running out. To fix that without losing quality (and without touching anything above this line). This is a Max-200 plan on a genuinely tight budget — $200/month is a real financial stretch, not a comfortable ceiling with room to spend past. Treat it as a hard cap: the goal is to get everything possible out of the flat fee, not to fall back on paid overage. Context-window management matters at least as much as model choice — a bloated context costs more than a clean one regardless of tier:
 
+- **Metered model spend is only for live testing of quality that Mark approves by name, with a cap.** No build thread calls the model for anything else: not an admission battery, a grading run, a meaning-fit measurement, a baseline or an experiment, unless Mark has approved that run as a live test. If a gate in the engine cannot pass without a model call, the thread stops and asks rather than runs it. The AWS keys do not live in the shared cloud environment: they live on Render, where real conversations run, and in one separate environment used only for approved live tests (ruled 2026-10-06, decision 54).
 - **Paid bulk runs are gated.** Before any run that spends real money in bulk on a metered outside service (text-to-speech, image or model batches, anything charged per item or character), run a small sample first and get Mark's approval of it by ear or eye. Only then run the rest. Pass every paid setting (voice or model id, generation settings) explicitly on the command, never inherited from the environment. The run must print those settings, with item and character counts, and they are confirmed from that printed output before the run is called valid. A check that files match each other proves nothing about what produced them; verify the thing that was paid for. Why: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`.
 - Manage context actively: `/compact` or `/clear` between unrelated pieces of work, and delegate research/investigation to subagents so exploration doesn't bloat the main thread. Reach for these before reaching for a cheaper model.
 - Use Plan Mode before committing to implementation on anything with uncertain scope — explore read-only first rather than burning implementation-priced turns on discovery.
@@ -125,6 +130,7 @@ Weekly usage credits keep running out. To fix that without losing quality (and w
 - Batch related work into one longer session instead of many short restarted ones; short sessions lose the prompt cache and re-pay for context every time.
 - Spread heavy build/review days across the week instead of bursting most of a week's work into 1–2 days.
 - Use event-driven waits (PR/CI subscriptions) instead of manual polling loops.
+- Pull requests cost CI minutes and waiting time by the push, not by the size: batch related slices into one pull request, open it as a draft, push once after the local checks pass, then mark it ready. One full CI run per pull request is the target; three speculative pushes pay for three (ruled 2026-10-05).
 - Check `/usage` periodically to catch a runaway pattern before it costs the rest of the week.
 - Max-200 draws Claude chat, Claude Code, and Cowork from one shared usage pool — if more than one surface is in use, watch total burn across all of them, not just this session.
 - Confirm "extra usage" is OFF in Settings → Usage (or capped at $0). On a tight budget, hitting the weekly ceiling is a signal to spend less via the discipline above, not a cue to let paid overage kick in — don't leave it toggled on "just in case." A session's own internal cost telemetry (what work would have cost at raw API rates) is not a bill by itself; only actual overage usage is. If overage is ever needed for something genuinely unavoidable, turn it on deliberately, do the one thing, and turn it back off.

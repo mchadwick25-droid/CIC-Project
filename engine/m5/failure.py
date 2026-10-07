@@ -31,6 +31,11 @@ class CallOutcome:
     def failed(self) -> bool:
         return self.status in FAILURE_STATUSES
 
+    @property
+    def rate_limited(self) -> bool:
+        """The call failed because the provider throttled it (HTTP 429)."""
+        return self.status == "error" and bool(self.value and self.value.get("rate_limited"))
+
 
 @dataclass(frozen=True)
 class GateResult:

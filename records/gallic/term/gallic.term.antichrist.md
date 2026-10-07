@@ -86,6 +86,15 @@ quick_meaning: >-
   The end is near. Martin taught that Antichrist was already born, a boy, and counted the years;
   Vincent wrote in "awful expectation" of the judgment. Not a mood - a dated conviction.
 distortion_risk: medium
+use_note:
+  means: "Antichrist meant a near end: Sulpitius reports Martin teaching that he was already born and a boy, and Vincent wrote under awful expectation of judgment."
+  not_for:
+    - "apocalyptic expectation as fringe, metaphor or a vague background mood"
+    - "Salvian's teaching that judgment is already being executed, which sits in gallic.term.government-of-god"
+    - "an Antichrist teaching by Cassian, who has judgment and hell as motives but no Antichrist in what was read"
+    - "a later apocalyptic system"
+  years: {from: 397, to: 434}
+  status: reviewed
 ---
 Built from Doc_06 entry 076 (`galliclex076_antichrist.md`, Tier 3, tags SC DR; Doc_03 6.9).
 Kept thin at the Tier-3 floor; the DR tag carried as distortion_risk: medium. G10's Tier-3 form

@@ -65,6 +65,14 @@ manifestations:
 - "the Apophthegmata's entire organizing structure (by elder name) - itself the later compilers' own arrangement, not a transcript of authority's shape in real time - standing against the Pachomian Rule's formal offices, as the Latin Rule tradition transmits them (housemaster, steward; neither Palladius nor Sozomen supplies the office names directly)"
 - "geron/abba/amma as an address carrying earned, personal authority, held nowhere as a conferred office"
 - "the coexistence, never resolved within this world's own span, of both models operating in the same decades without either displacing the other"
+use_note:
+  means: "Two models of authority stood side by side unresolved, the elder's earned discernment against the written Rule and appointed office of the Pachomian federation."
+  not_for:
+    - "Presenting it as a separate force rather than the friction between the two models"
+    - "Presenting either model as having displaced the other within this world's span"
+    - "Presenting the elder model as the sole authority in the Pachomian houses"
+  years: {from: 320, to: 430}
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 10, SS2
 row 10, SS3, SS4, SS5 row 10, SS6 (gravity 10). Generated and tested as

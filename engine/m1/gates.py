@@ -14,6 +14,7 @@ from engine.prose import is_guard_marker_line, quote_aware_sentences
 
 from . import canon
 from .fk import fk_grade, fre_score
+from .loader import home_for_record_type, voiced_records
 from .quote_verbatim import gate_quote_verbatim
 from .schemas import RELATION_INVERSE, build_schema
 from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, fields_with_role
@@ -617,8 +618,8 @@ def gate_readability(records, fleet, registry) -> list[str]:
 
 def gate_readability_fleet(fleet) -> list[str]:
     """gate_readability's fleet-scoped twin: grades the cross-world
-    records under records/_fleet/ (fleet_voice, modern_term, and any
-    fleet-level contested_claim) - never reached by gate_readability
+    fleet records (fleet_voice, modern_term, and any fleet-level
+    contested_claim) - never reached by gate_readability
     itself, for the reason that function's own docstring gives. NOT
     registered in GATES: every GATES entry runs once per world via
     gates.run_all(), which would hit the same multiply-counting problem.
@@ -750,9 +751,11 @@ def gate_voice_craft_prompt_budget(records, fleet, registry) -> list[str]:
 
 
 def gate_canon_coverage(records, fleet, registry) -> list[str]:
+    # Only voiced records reach compiled/coverage.json, so only they cover a cell.
     findings = []
+    voiced = voiced_records(records)
     for cell in sorted(canon.valid_cells(fleet)):
-        classification = canon.classify_cell(cell, records)
+        classification = canon.classify_cell(cell, voiced)
         if classification["status"] == "multiple_honest_limit":
             n = len(classification["honest_limit"])
             findings.append(f"cell {cell}: {n} honest_limit records claim it - exactly one is allowed")
@@ -1435,6 +1438,161 @@ def check_mode3_claim_fidelity(source_text: str, adapted_text: str, *, source_fi
     )
 
 
+# Record types the compiler never ships to the voice (builders.py's
+# build_repository_json exclusions) plus source records, which are cited, not
+# spoken.
+_UNSHIPPED_TYPES = frozenset({"search_record", "world_front", "facilitator_brief", "source"})
+
+
+def _window_end(records, registry) -> int | None:
+    world_id = next((r.get("world_id") for r in records.values() if r.get("world_id")), None)
+    entry = next((e for e in registry.values() if e.get("world_id") == world_id), None)
+    return ((entry or {}).get("time_window") or {}).get("end")
+
+
+# The citable kinds a use note is written for (the design's order). Figures
+# feed cards and may carry a card-only note, which is not required.
+USE_NOTE_TYPES = frozenset({"quote", "doctrinal_witness", "term", "story", "honest_limit", "contested_claim", "gravity"})
+
+# A note describes; it never tells the voice what to do. A sentence or a
+# not-for line that opens with one of these reads as an instruction.
+_IMPERATIVE_OPENERS = frozenset({
+    "always", "answer", "avoid", "call", "cite", "consider", "describe", "do", "don't", "ensure", "explain",
+    "frame", "give", "keep", "make", "mention", "never", "note", "prefer", "present", "quote", "read",
+    "refer", "refuse", "remember", "say", "speak", "stop", "tell", "treat", "use",
+})
+
+
+def _opens_imperatively(text: str) -> bool:
+    first = re.match(r"\s*([A-Za-z']+)", text or "")
+    return bool(first) and first.group(1).lower() in _IMPERATIVE_OPENERS
+
+
+def gate_use_note_present(records, fleet, registry) -> list[str]:
+    """Every voiced citable record carries a use note."""
+    return [
+        f"{rid}: a voiced {r.get('record_type')} with no use_note (means, not_for, years)"
+        for rid, r in sorted(voiced_records(records).items())
+        if r.get("record_type") in USE_NOTE_TYPES and not r.get("use_note")
+    ]
+
+
+def gate_use_note_shape(records, fleet, registry) -> list[str]:
+    """A use note is one sentence of meaning, at most four not-for claims,
+    no instruction anywhere, and years that end inside the world's window."""
+    window_end = _window_end(records, registry)
+    out = []
+    for rid, r in sorted(records.items()):
+        note = r.get("use_note")
+        if not note:
+            continue
+        means = (note.get("means") or "").strip()
+        if len(quote_aware_sentences(means)) != 1:
+            out.append(f"{rid}: use_note.means is {len(quote_aware_sentences(means))} sentences; it is one")
+        if _opens_imperatively(means):
+            out.append(f"{rid}: use_note.means reads as an instruction ({means.split()[0]!r}); it describes what the record means")
+        for line in note.get("not_for") or []:
+            if _opens_imperatively(line):
+                out.append(f"{rid}: use_note.not_for line {line!r} reads as an instruction; it names a claim")
+        years = note.get("years") or {}
+        start, end = years.get("from"), years.get("to")
+        if isinstance(start, int) and isinstance(end, int):
+            if start > end:
+                out.append(f"{rid}: use_note.years runs backward ({start} to {end})")
+            if window_end is not None and end > window_end:
+                out.append(f"{rid}: use_note.years ends at {end}, after the world's window closes at {window_end}")
+    return out
+
+
+def gate_status_ready(records, fleet, registry) -> list[str]:
+    """A record the voice may speak from is finished: a draft record that
+    would compile into the package fails."""
+    return [
+        f"{rid}: status draft, but it compiles into the package; finish it and mark it ready, or mark it voice: analytic"
+        for rid, r in sorted(voiced_records(records).items())
+        if r.get("status") == "draft" and r.get("record_type") not in _UNSHIPPED_TYPES
+    ]
+
+
+def _home_of_path(path: str) -> str | None:
+    parts = Path(path).parts
+    if len(parts) >= 3 and parts[0] == "records":
+        return "world"
+    if len(parts) >= 5 and parts[:2] == ("Build", "worlds") and parts[3] == "surface":
+        return "surface"
+    if len(parts) >= 6 and parts[:2] == ("Build", "worlds") and parts[3:5] == ("build", "records"):
+        return "residue"
+    return None
+
+
+_HOME_DIRS = {"world": "records/<code>/", "surface": "Build/worlds/<code>/surface/", "residue": "Build/worlds/<code>/build/records/"}
+
+
+def gate_record_home(records, fleet, registry) -> list[str]:
+    """Each record lives in its kind's home: world material in records/<code>/,
+    world fronts and facilitator briefs in Build/worlds/<code>/surface/, and
+    search records in Build/worlds/<code>/build/records/."""
+    out = []
+    for rid, r in sorted(records.items()):
+        if "_path" not in r:
+            continue
+        actual, expected = _home_of_path(r["_path"]), home_for_record_type(r.get("record_type"))
+        if actual is not None and actual != expected:
+            out.append(f"{rid}: a {r.get('record_type')} record lives in {_HOME_DIRS[expected]}, not {r['_path']}")
+    return out
+
+
+# The voiced record types cell routing serves (compiled/coverage.json and the
+# evidence matcher read canon_cells). Figures feed cards, not cells, and
+# ambient records are parked (System Hub decision 8).
+CELLS_REQUIRED_TYPES = frozenset({
+    "term", "story", "quote", "doctrinal_witness", "honest_limit", "contested_claim", "gravity", "force", "demonstration",
+})
+
+
+def gate_cells_required(records, fleet, registry) -> list[str]:
+    """A voiced record that cell routing serves names at least one canon cell;
+    with none it is unreachable by routing."""
+    return [
+        f"{rid}: no canon_cells; name the canon cells it serves so routing can reach it, or mark it voice: analytic"
+        for rid, r in sorted(voiced_records(records).items())
+        if r.get("record_type") in CELLS_REQUIRED_TYPES and not r.get("canon_cells")
+    ]
+
+
+# world_core fields whose job is to name the world's edge; they may name the
+# later thing as the edge.
+_EDGE_FIELDS = {("world_core", "horizon"), ("world_core", "cautions")}
+# Fields the voice-facing roles declare that the voice never reads: the
+# source wording of a quote or story (decision 24).
+_UNVOICED_FIELDS = {("quote", "text"), ("story", "text")}
+
+
+def gate_horizon(records, fleet, registry) -> list[str]:
+    """A voiced record's voice-facing text stays inside the world's window:
+    no gazetteer event, modern term, explicit year or century after the
+    window's end (engine.m1.horizon)."""
+    from .horizon import dated_terms, post_window_mentions
+
+    end = _window_end(records, registry)
+    if end is None:
+        return []
+    terms = dated_terms(fleet)
+    findings = []
+    for rid, r in sorted(voiced_records(records).items()):
+        rtype = r.get("record_type")
+        for field in fields_with_role(rtype, "voice-diet", "evidence-head"):
+            if (rtype, field) in _EDGE_FIELDS or (rtype, field) in _UNVOICED_FIELDS:
+                continue
+            value = r.get(field)
+            texts = [value] if isinstance(value, str) else [v for v in value if isinstance(v, str)] if isinstance(value, list) else []
+            mentions = [m for text in texts for m in post_window_mentions(text, end, terms)]
+            if mentions:
+                findings.append(f"{rid}.{field}: names {', '.join(dict.fromkeys(mentions))}, after the window closes in {end}; "
+                                "rewrite it from inside the window, or mark the record voice: analytic")
+    return findings
+
+
 GATES = {
     "schema-validation": gate_schema_validation,
     "referential": gate_referential,
@@ -1453,6 +1611,12 @@ GATES = {
     "readability": gate_readability,
     "voice-craft-prompt-budget": gate_voice_craft_prompt_budget,
     "canon-coverage": gate_canon_coverage,
+    "status-ready": gate_status_ready,
+    "record-home": gate_record_home,
+    "use-note-present": gate_use_note_present,
+    "use-note-shape": gate_use_note_shape,
+    "cells-required": gate_cells_required,
+    "horizon": gate_horizon,
     "no-build-attribution": gate_no_build_attribution,
     "voice-perspective": gate_voice_perspective,
     "id-convention": gate_id_convention,

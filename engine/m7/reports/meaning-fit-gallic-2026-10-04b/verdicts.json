@@ -1,0 +1,2482 @@
+{
+ "u0001": {
+  "verdict": "misread",
+  "reason": "Attributes Martin's catechumenate at ten to the raised catechumen and treats a guest's later witness as held, both outside the record."
+ },
+ "u0005": {
+  "verdict": "misread",
+  "reason": "The monk record says nothing about the door or reception, which the note routes to junior-novice."
+ },
+ "u0009": {
+  "verdict": "defensible",
+  "reason": "Twelve psalms received from the fathers fits, but the rule holding a prayerless day is added and leans on the mill-wheel context."
+ },
+ "u0013": {
+  "verdict": "defensible",
+  "reason": "Loose summary of renunciation as 'everything' and claims proof by practice the record does not describe."
+ },
+ "u0017": {
+  "verdict": "accepted",
+  "reason": "Matches the record's statement that no proof of the resurrection for a doubter exists."
+ },
+ "u0021": {
+  "verdict": "defensible",
+  "reason": "Contentless transition tying marriage to renunciation, which the record does not name."
+ },
+ "u0025": {
+  "verdict": "defensible",
+  "reason": "Merges Martin's condition about the wounds into Christ actually coming with them, edging toward independent witness."
+ },
+ "u0029": {
+  "verdict": "defensible",
+  "reason": "Applies Vincent's test of doctrine to the books of Scripture, a loose extension of the rule."
+ },
+ "u0033": {
+  "verdict": "accepted",
+  "reason": "Matches the sixth-hour debt nailed to the cross."
+ },
+ "u0037": {
+  "verdict": "accepted",
+  "reason": "Matches the disciple-master bond around Martin."
+ },
+ "u0041": {
+  "verdict": "accepted",
+  "reason": "Maximus granted everything Martin asked."
+ },
+ "u0045": {
+  "verdict": "accepted",
+  "reason": "Matches grace calling the ignorant and unwilling."
+ },
+ "u0049": {
+  "verdict": "misread",
+  "reason": "The tiller image and God's hand on everything are not in this record."
+ },
+ "u0053": {
+  "verdict": "accepted",
+  "reason": "Matches the cloak vision as told."
+ },
+ "u0057": {
+  "verdict": "defensible",
+  "reason": "The fillet is in the record, but 'took him off to a see' reaches into the later episcopate the sermon does not cover."
+ },
+ "u0061": {
+  "verdict": "accepted",
+  "reason": "Consistent with the record's thin personal testimony beyond Martin."
+ },
+ "u0065": {
+  "verdict": "accepted",
+  "reason": "Matches the absence of an argument to the doubter."
+ },
+ "u0069": {
+  "verdict": "accepted",
+  "reason": "Matches 'truly his and truly required.'"
+ },
+ "u0073": {
+  "verdict": "defensible",
+  "reason": "Record includes the novice growing cold, so 'not a beginner's stumble' overstates."
+ },
+ "u0077": {
+  "verdict": "accepted",
+  "reason": "Matches the cloak vision."
+ },
+ "u0081": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0085": {
+  "verdict": "accepted",
+  "reason": "Royal road and testing against elders' judgment are in the record."
+ },
+ "u0089": {
+  "verdict": "misread",
+  "reason": "The grievous-blasphemy saying is listed under not_for for this record."
+ },
+ "u0093": {
+  "verdict": "accepted",
+  "reason": "Matches Martin's catechumenate and baptism after the cloak."
+ },
+ "u0097": {
+  "verdict": "accepted",
+  "reason": "Verbatim to the record."
+ },
+ "u0101": {
+  "verdict": "accepted",
+  "reason": "Matches Chaeremon's husbandman answer."
+ },
+ "u0105": {
+  "verdict": "misread",
+  "reason": "Asserts seizure as shared by both houses, the reluctance-for-every-house claim the note flags as contested."
+ },
+ "u0109": {
+  "verdict": "accepted",
+  "reason": "Matches the story's angel, lessened power and shunning of synods."
+ },
+ "u0113": {
+  "verdict": "misread",
+  "reason": "Vincent's reading of the papal letter is not in this record and its use in the grace dispute is routed as contested."
+ },
+ "u0117": {
+  "verdict": "accepted",
+  "reason": "Disclaims the historicity of Piamun's tale, consistent with the record."
+ },
+ "u0121": {
+  "verdict": "defensible",
+  "reason": "Matches the discipline, but presents it as kept practice where Gallic use is undocumented."
+ },
+ "u0125": {
+  "verdict": "defensible",
+  "reason": "Coin search is in the record; the halting of the reception is added detail."
+ },
+ "u0129": {
+  "verdict": "defensible",
+  "reason": "Angel fixing the number fits, but implies Gallic brethren sang it, which the story does not give."
+ },
+ "u0133": {
+  "verdict": "accepted",
+  "reason": "Accurate summary of Sulpitius's matter including the election."
+ },
+ "u0137": {
+  "verdict": "accepted",
+  "reason": "Matches stripping and reclothing by the abbot's hands."
+ },
+ "u0141": {
+  "verdict": "defensible",
+  "reason": "Generalizes the overtaking of monks into capture as such, a pattern the note keeps contested."
+ },
+ "u0145": {
+  "verdict": "accepted",
+  "reason": "Matches the two lessons after the psalms."
+ },
+ "u0149": {
+  "verdict": "defensible",
+  "reason": "Vague summary of the novelty-antiquity axis not stated in the record."
+ },
+ "u0153": {
+  "verdict": "misread",
+  "reason": "'Without whom we can do nothing' is not in this record."
+ },
+ "u0157": {
+  "verdict": "accepted",
+  "reason": "Matches the received canonical system brought by an angel."
+ },
+ "u0161": {
+  "verdict": "defensible",
+  "reason": "Funeral sermon is in the record, but the reading caveat comes from the Honoratus record."
+ },
+ "u0165": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0169": {
+  "verdict": "misread",
+  "reason": "Psalms learned by heart at work is the mill-wheel teaching routed to gallic.term.thoughts."
+ },
+ "u0173": {
+  "verdict": "accepted",
+  "reason": "Matches consent as council or collated ancients."
+ },
+ "u0177": {
+  "verdict": "accepted",
+  "reason": "Matches the cloak story."
+ },
+ "u0181": {
+  "verdict": "defensible",
+  "reason": "Bare affirmation leaning on the lessened power as a real price."
+ },
+ "u0185": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0189": {
+  "verdict": "accepted",
+  "reason": "Marseilles night office of twelve psalms fixed by an angel, framed as Cassian's Egyptian customs."
+ },
+ "u0193": {
+  "verdict": "defensible",
+  "reason": "The angel fixed the number of psalms, not 'the hours themselves.'"
+ },
+ "u0197": {
+  "verdict": "accepted",
+  "reason": "Matches the bond as a named man and those formed by him."
+ },
+ "u0201": {
+  "verdict": "accepted",
+  "reason": "Matches the hidden book."
+ },
+ "u0205": {
+  "verdict": "accepted",
+  "reason": "Matches Cassian calling blasphemy the view that God wills only some saved."
+ },
+ "u0209": {
+  "verdict": "misread",
+  "reason": "'Author of our salvation' is not in this record and is not attested as said at the hours."
+ },
+ "u0213": {
+  "verdict": "misread",
+  "reason": "Uses the monk term for monks being taken into the episcopate, routed to monk-bishop."
+ },
+ "u0217": {
+  "verdict": "misread",
+  "reason": "Equates renunciation with leaving marriage, the monk-solitary sense and the 'whole act' reading the note excludes."
+ },
+ "u0221": {
+  "verdict": "accepted",
+  "reason": "Matches the demons and the Judas saying."
+ },
+ "u0225": {
+  "verdict": "accepted",
+  "reason": "Matches disclosure before any deed."
+ },
+ "u0229": {
+  "verdict": "accepted",
+  "reason": "Matches the sixth-hour sentence."
+ },
+ "u0233": {
+  "verdict": "accepted",
+  "reason": "Matches the donative scene."
+ },
+ "u0237": {
+  "verdict": "misread",
+  "reason": "Three renunciations are not in this record of the three stages of grace."
+ },
+ "u0241": {
+  "verdict": "accepted",
+  "reason": "Matches grace as the help without which effort does not reach its goal."
+ },
+ "u0245": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0249": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0253": {
+  "verdict": "misread",
+  "reason": "'Not I, but the grace of God with me' is not in this record."
+ },
+ "u0257": {
+  "verdict": "misread",
+  "reason": "Adds grace asking real effort, routed to chaeremon-grace-requires-our-effort, and ties it to the morning scene."
+ },
+ "u0261": {
+  "verdict": "misread",
+  "reason": "Laying thoughts bare to the senior is under this record's not_for."
+ },
+ "u0265": {
+  "verdict": "misread",
+  "reason": "The wooden cell and caves are not in the Condate death story."
+ },
+ "u0269": {
+  "verdict": "defensible",
+  "reason": "Flags the lessened power as unverifiable claim, consistent but phrased as an assertion."
+ },
+ "u0273": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0277": {
+  "verdict": "accepted",
+  "reason": "Verbatim to the record."
+ },
+ "u0281": {
+  "verdict": "misread",
+  "reason": "Vincent on the canon's sufficiency is not in the rule record."
+ },
+ "u0285": {
+  "verdict": "defensible",
+  "reason": "Draws mostly on the wounds witness; only the unwilling clause sits in this record."
+ },
+ "u0289": {
+  "verdict": "accepted",
+  "reason": "Matches Pinufius's death to the world."
+ },
+ "u0293": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity's meaning."
+ },
+ "u0297": {
+  "verdict": "defensible",
+  "reason": "Fits the fathers as source of received tradition, but the angel clause is not in this record."
+ },
+ "u0301": {
+  "verdict": "misread",
+  "reason": "Attributes the mill-of-the-mind teaching, routed to gallic.term.thoughts."
+ },
+ "u0305": {
+  "verdict": "misread",
+  "reason": "The one-year admission is not in the preface quote, which is not to be used for Gallic practice."
+ },
+ "u0309": {
+  "verdict": "accepted",
+  "reason": "Matches Augustine's outsider word against Cassian's blasphemy claim."
+ },
+ "u0313": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0317": {
+  "verdict": "accepted",
+  "reason": "Matches Martin's apostle-like power."
+ },
+ "u0321": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0325": {
+  "verdict": "accepted",
+  "reason": "Matches Vincent preferring an ancient council."
+ },
+ "u0329": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0333": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0337": {
+  "verdict": "accepted",
+  "reason": "Matches virtue rather than succession."
+ },
+ "u0341": {
+  "verdict": "accepted",
+  "reason": "Verbatim to the record."
+ },
+ "u0345": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0349": {
+  "verdict": "accepted",
+  "reason": "Verbatim to the record."
+ },
+ "u0353": {
+  "verdict": "accepted",
+  "reason": "Verbatim to the record."
+ },
+ "u0357": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0361": {
+  "verdict": "misread",
+  "reason": "Presents Egypt's reception as the process at Marseilles, which the note says is not documented there."
+ },
+ "u0365": {
+  "verdict": "accepted",
+  "reason": "Matches disclosure as the alphabet and first syllables."
+ },
+ "u0369": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0373": {
+  "verdict": "defensible",
+  "reason": "Martin's part matches, but folds in Honoratus and Archebius and frames the election as capture."
+ },
+ "u0377": {
+  "verdict": "accepted",
+  "reason": "Matches Martin yielding to save those under the sword."
+ },
+ "u0381": {
+  "verdict": "accepted",
+  "reason": "Matches ten days at the door of set purpose scorned."
+ },
+ "u0385": {
+  "verdict": "accepted",
+  "reason": "Matches the remedy of staying."
+ },
+ "u0389": {
+  "verdict": "accepted",
+  "reason": "Matches the shortened office and husbandman answer."
+ },
+ "u0393": {
+  "verdict": "accepted",
+  "reason": "Matches the one story being Martin's."
+ },
+ "u0397": {
+  "verdict": "accepted",
+  "reason": "Matches Vincent's formula."
+ },
+ "u0401": {
+  "verdict": "defensible",
+  "reason": "A remark on the story's historical status, close to the record-coverage remark the note excludes."
+ },
+ "u0405": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0409": {
+  "verdict": "misread",
+  "reason": "Lessons at the hours are under this record's not_for."
+ },
+ "u0413": {
+  "verdict": "accepted",
+  "reason": "Matches the maxims."
+ },
+ "u0417": {
+  "verdict": "misread",
+  "reason": "The countryside people are not in the Condate story."
+ },
+ "u0421": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0425": {
+  "verdict": "defensible",
+  "reason": "Bearing with Brictio matches, but the return within the hour is not in this passage."
+ },
+ "u0429": {
+  "verdict": "accepted",
+  "reason": "Matches love as the apostolic at Marseilles."
+ },
+ "u0433": {
+  "verdict": "accepted",
+  "reason": "Matches purity of heart ranking every aid."
+ },
+ "u0437": {
+  "verdict": "defensible",
+  "reason": "Core rule matches; the bishop-confessor-martyr clause comes from elsewhere in Vincent."
+ },
+ "u0441": {
+  "verdict": "defensible",
+  "reason": "The hidden event fits, but the yielded communion belongs to the companion record."
+ },
+ "u0445": {
+  "verdict": "accepted",
+  "reason": "Matches Conf. XIII.7 as given in the gravity."
+ },
+ "u0449": {
+  "verdict": "accepted",
+  "reason": "Matches stopping at what reason cannot grasp."
+ },
+ "u0453": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0457": {
+  "verdict": "misread",
+  "reason": "Condemnation in absence is under not_for; the passage gives Maximus's claim of public trials."
+ },
+ "u0461": {
+  "verdict": "accepted",
+  "reason": "Matches three stages of renunciation."
+ },
+ "u0465": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0469": {
+  "verdict": "accepted",
+  "reason": "Verbatim to the record."
+ },
+ "u0473": {
+  "verdict": "accepted",
+  "reason": "Matches Martin's word to the Christ in purple."
+ },
+ "u0477": {
+  "verdict": "defensible",
+  "reason": "Gift of keeping matches; the three-stage frame is borrowed."
+ },
+ "u0481": {
+  "verdict": "accepted",
+  "reason": "Verbatim to the record."
+ },
+ "u0485": {
+  "verdict": "defensible",
+  "reason": "Received from Egypt fits, but 'among the brethren at Marseilles' implies practice the note calls undocumented."
+ },
+ "u0489": {
+  "verdict": "accepted",
+  "reason": "Matches the unconverted countryside as mission field."
+ },
+ "u0493": {
+  "verdict": "defensible",
+  "reason": "Protecting heretics matches; the secular-judge sentence is from Sacred History, not this passage."
+ },
+ "u0497": {
+  "verdict": "defensible",
+  "reason": "Generic lead-in to reception customs, unrelated to Archebius's account."
+ },
+ "u0501": {
+  "verdict": "accepted",
+  "reason": "Matches Martin's word on the wounds as quoted in this witness."
+ },
+ "u0505": {
+  "verdict": "accepted",
+  "reason": "Matches nothing on the island's day."
+ },
+ "u0509": {
+  "verdict": "accepted",
+  "reason": "Matches the system brought down by an angel."
+ },
+ "u0513": {
+  "verdict": "accepted",
+  "reason": "Matches the rule."
+ },
+ "u0517": {
+  "verdict": "accepted",
+  "reason": "Verbatim to the record."
+ },
+ "u0521": {
+  "verdict": "accepted",
+  "reason": "Matches cooling as the characteristic failure."
+ },
+ "u0525": {
+  "verdict": "accepted",
+  "reason": "Matches the note's caution on Cassian's admission."
+ },
+ "u0529": {
+  "verdict": "accepted",
+  "reason": "Matches grace as Cassian's teaching."
+ },
+ "u0533": {
+  "verdict": "defensible",
+  "reason": "Prayer in the cell fits, but the hut and blacksmith come from other records."
+ },
+ "u0537": {
+  "verdict": "accepted",
+  "reason": "Matches the rule."
+ },
+ "u0541": {
+  "verdict": "accepted",
+  "reason": "Matches the dean and the alphabet of disclosure."
+ },
+ "u0545": {
+  "verdict": "accepted",
+  "reason": "Matches the limit that Gallic practice rests only on Cassian's complaint."
+ },
+ "u0549": {
+  "verdict": "misread",
+  "reason": "A guest's later witness is under not_for and the raising is not in this record."
+ },
+ "u0553": {
+  "verdict": "misread",
+  "reason": "Gives a grief motive for the silence, which the note excludes since Gallus cites the times."
+ },
+ "u0557": {
+  "verdict": "accepted",
+  "reason": "Matches Egypt received as rule in the south."
+ },
+ "u0561": {
+  "verdict": "accepted",
+  "reason": "Matches the aim attested at Tours via the blacksmith image."
+ },
+ "u0565": {
+  "verdict": "accepted",
+  "reason": "Matches the petition against the tribunes."
+ },
+ "u0569": {
+  "verdict": "accepted",
+  "reason": "Matches the angel's twelve psalms."
+ },
+ "u0573": {
+  "verdict": "misread",
+  "reason": "The raised dead man is not in this record."
+ },
+ "u0577": {
+  "verdict": "accepted",
+  "reason": "Matches silent penance and vindication."
+ },
+ "u0581": {
+  "verdict": "misread",
+  "reason": "Christ's power in the raising is not in this record."
+ },
+ "u0585": {
+  "verdict": "accepted",
+  "reason": "Matches the night pledge at the palace."
+ },
+ "u0589": {
+  "verdict": "accepted",
+  "reason": "Matches the maxims."
+ },
+ "u0593": {
+  "verdict": "accepted",
+  "reason": "Matches the consecrated state and dress."
+ },
+ "u0597": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0601": {
+  "verdict": "accepted",
+  "reason": "Matches goal and end."
+ },
+ "u0605": {
+  "verdict": "accepted",
+  "reason": "Matches conquering one's wishes."
+ },
+ "u0609": {
+  "verdict": "accepted",
+  "reason": "Matches free will alongside grace."
+ },
+ "u0613": {
+  "verdict": "accepted",
+  "reason": "Matches the coin search."
+ },
+ "u0617": {
+  "verdict": "accepted",
+  "reason": "Matches the husbandman answer."
+ },
+ "u0002": {
+  "verdict": "accepted",
+  "reason": "Quotes the record's line that those who perish do so against his will."
+ },
+ "u0006": {
+  "verdict": "defensible",
+  "reason": "The record says nothing of certainty; obedience-before-certainty is an extrapolation."
+ },
+ "u0010": {
+  "verdict": "accepted",
+  "reason": "The record says executioners were appointed after the king grew furious."
+ },
+ "u0014": {
+  "verdict": "misread",
+  "reason": "Asserts God's initiative before any good will as settled, when the record notes grace sometimes waits on effort and the point is contested."
+ },
+ "u0018": {
+  "verdict": "accepted",
+  "reason": "Matches the record: received from the fathers, kept where Gaul's cold allows."
+ },
+ "u0022": {
+  "verdict": "misread",
+  "reason": "The officers meeting him on the road belongs to the tribunes passage, not this one."
+ },
+ "u0026": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's statement on God's universal saving will."
+ },
+ "u0030": {
+  "verdict": "accepted",
+  "reason": "The record says Martin was a catechumen for years as boy and soldier."
+ },
+ "u0034": {
+  "verdict": "misread",
+  "reason": "The mill image is explicitly not_for this record; it sits in the thoughts term."
+ },
+ "u0038": {
+  "verdict": "accepted",
+  "reason": "Close rendering of the passage's closing sentence."
+ },
+ "u0042": {
+  "verdict": "accepted",
+  "reason": "Accurate reference to Vincent's rule."
+ },
+ "u0046": {
+  "verdict": "accepted",
+  "reason": "Matches the record's real but weak will needing grace every day and hour."
+ },
+ "u0050": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's Quaternity argument."
+ },
+ "u0054": {
+  "verdict": "defensible",
+  "reason": "Scripture's completeness and sufficiency sit in another record; this one only supplies the rule."
+ },
+ "u0058": {
+  "verdict": "accepted",
+  "reason": "Keeps the lessened power as Martin's felt report and the synod avoidance is in the text."
+ },
+ "u0062": {
+  "verdict": "accepted",
+  "reason": "The record says we held there was no other way to say it."
+ },
+ "u0066": {
+  "verdict": "misread",
+  "reason": "The courtyard and the repentance within the hour are assigned to another record, and 'not removed' is not in this one."
+ },
+ "u0070": {
+  "verdict": "accepted",
+  "reason": "Matches the record's line on grace calling the ignorant and unwilling."
+ },
+ "u0074": {
+  "verdict": "accepted",
+  "reason": "The passage says he lived sixteen years and never again attended a synod."
+ },
+ "u0078": {
+  "verdict": "accepted",
+  "reason": "Directly from the witness's closing line."
+ },
+ "u0082": {
+  "verdict": "misread",
+  "reason": "The claim about thoughts arising is not in this witness; it belongs to the thoughts record."
+ },
+ "u0086": {
+  "verdict": "defensible",
+  "reason": "Grace being necessary fits, but the record frames the human side as charity, not labours."
+ },
+ "u0090": {
+  "verdict": "misread",
+  "reason": "Unceasing prayer and the smith image at Tours are not in this witness."
+ },
+ "u0094": {
+  "verdict": "accepted",
+  "reason": "Directly from the record's cloak narrative."
+ },
+ "u0098": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0102": {
+  "verdict": "accepted",
+  "reason": "Matches the record's changed service from Caesar's to Christ's."
+ },
+ "u0106": {
+  "verdict": "accepted",
+  "reason": "Close quotation of the record's definition of free will."
+ },
+ "u0110": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of the story's opening."
+ },
+ "u0114": {
+  "verdict": "accepted",
+  "reason": "Closely follows the record's limit on daily life."
+ },
+ "u0118": {
+  "verdict": "defensible",
+  "reason": "Extends lentils left by the week's cook to everything a cell holds, and frames it as a Marseilles day."
+ },
+ "u0122": {
+  "verdict": "misread",
+  "reason": "Uses the gravity for a remark about sources, which not_for excludes, and adds oil, threads and named demon not in the text."
+ },
+ "u0126": {
+  "verdict": "accepted",
+  "reason": "The record states Vincent tells only of fleeing into the harbour of the island."
+ },
+ "u0130": {
+  "verdict": "accepted",
+  "reason": "Matches the record's donative scene."
+ },
+ "u0134": {
+  "verdict": "accepted",
+  "reason": "The city gate reference fits the cloak story."
+ },
+ "u0138": {
+  "verdict": "accepted",
+  "reason": "Faithful to the record's deposit definition."
+ },
+ "u0142": {
+  "verdict": "accepted",
+  "reason": "Reflects the record's statement that reason cannot fully answer how grace and will fit."
+ },
+ "u0146": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0150": {
+  "verdict": "accepted",
+  "reason": "Matches the fathers' argument over fifty or sixty psalms."
+ },
+ "u0154": {
+  "verdict": "accepted",
+  "reason": "Captures the gravity's received-not-invented test across custom, doctrine and cult."
+ },
+ "u0158": {
+  "verdict": "accepted",
+  "reason": "Verbatim list of sources from the record."
+ },
+ "u0162": {
+  "verdict": "misread",
+  "reason": "The universal-saving-will saying is not in this witness and is assigned elsewhere by not_for."
+ },
+ "u0166": {
+  "verdict": "misread",
+  "reason": "Martin reading 'least of these' as the beggar is not in this witness."
+ },
+ "u0170": {
+  "verdict": "accepted",
+  "reason": "Correctly lists the rule's elements of whole, antiquity, consent and council."
+ },
+ "u0174": {
+  "verdict": "accepted",
+  "reason": "Close quotation of the record on Martin consulting his elders."
+ },
+ "u0178": {
+  "verdict": "accepted",
+  "reason": "Matches the record: fasts and vigils ranked as aids by the mark."
+ },
+ "u0182": {
+  "verdict": "accepted",
+  "reason": "Close quotation of the record's girdle sentence."
+ },
+ "u0186": {
+  "verdict": "misread",
+  "reason": "Psalms learned by heart and said at work belong to the thoughts record per not_for."
+ },
+ "u0190": {
+  "verdict": "misread",
+  "reason": "Attributes the grievous-blasphemy saying and the calling of the unwilling to this record, which holds neither."
+ },
+ "u0194": {
+  "verdict": "misread",
+  "reason": "Reading of Scripture at the hours is explicitly not held by this record."
+ },
+ "u0198": {
+  "verdict": "accepted",
+  "reason": "Matches the record's meaning of the cell holding the wandering heart still."
+ },
+ "u0202": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness's resurrection sentence."
+ },
+ "u0206": {
+  "verdict": "accepted",
+  "reason": "Consistent with the record that only the aim is attested at Tours."
+ },
+ "u0210": {
+  "verdict": "accepted",
+  "reason": "Directly from the record."
+ },
+ "u0214": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the record's quotation on thoughts."
+ },
+ "u0218": {
+  "verdict": "accepted",
+  "reason": "Matches Piamun's tale of the accusation."
+ },
+ "u0222": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of preferring whole, antiquity and consent."
+ },
+ "u0226": {
+  "verdict": "defensible",
+  "reason": "Junior's all-day work fits, but framed as a Marseilles day it edges toward proven Gallic practice."
+ },
+ "u0230": {
+  "verdict": "defensible",
+  "reason": "Expulsion and unworthiness fit; the thirty-seven years and the town are details beyond the record."
+ },
+ "u0234": {
+  "verdict": "accepted",
+  "reason": "Verbatim statement of the rule."
+ },
+ "u0238": {
+  "verdict": "accepted",
+  "reason": "Lure and guard match the record; crowd is a light gloss."
+ },
+ "u0242": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0246": {
+  "verdict": "accepted",
+  "reason": "The witness says Cassian sets this sentence under every virtue a monk feels gained."
+ },
+ "u0250": {
+  "verdict": "accepted",
+  "reason": "Consistent with formation by watching a named man."
+ },
+ "u0254": {
+  "verdict": "accepted",
+  "reason": "Verbatim quotation from the record."
+ },
+ "u0258": {
+  "verdict": "accepted",
+  "reason": "The record says Martin felt further loss after the forced communion."
+ },
+ "u0262": {
+  "verdict": "accepted",
+  "reason": "Consistent with the record that Gallic practice is known only from Cassian's description of Egypt and his complaint."
+ },
+ "u0266": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0270": {
+  "verdict": "accepted",
+  "reason": "The record states the two lessons after the psalms."
+ },
+ "u0274": {
+  "verdict": "accepted",
+  "reason": "Matches the record's blacksmith image of unceasing prayer, attested at Tours."
+ },
+ "u0278": {
+  "verdict": "defensible",
+  "reason": "Conquering one's wishes fits, but contrary orders, purity of heart and the eight faults go beyond this record."
+ },
+ "u0282": {
+  "verdict": "accepted",
+  "reason": "Reflects the record's relation beyond reason's grasp."
+ },
+ "u0286": {
+  "verdict": "misread",
+  "reason": "The Egyptian elder and guests episode is not in this witness."
+ },
+ "u0290": {
+  "verdict": "misread",
+  "reason": "Attributes to Martin's own speech what the record gives as Sulpitius's statement about him."
+ },
+ "u0294": {
+  "verdict": "accepted",
+  "reason": "Faithful rendering of the rule's preference clause."
+ },
+ "u0298": {
+  "verdict": "defensible",
+  "reason": "The record gives a definite mark but not the archer image."
+ },
+ "u0302": {
+  "verdict": "misread",
+  "reason": "The record does not contain Cassian calling Jesus the author of salvation."
+ },
+ "u0306": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0310": {
+  "verdict": "misread",
+  "reason": "The resurrection sentence is not in this witness; it belongs to the wounds witness."
+ },
+ "u0314": {
+  "verdict": "accepted",
+  "reason": "Matches the record's three stages with goods only the first."
+ },
+ "u0318": {
+  "verdict": "defensible",
+  "reason": "The record says he saw Christ that night; calling it a dream is a mild gloss."
+ },
+ "u0322": {
+  "verdict": "accepted",
+  "reason": "Uses the record's grace-calls-the-unwilling line as what was said instead."
+ },
+ "u0326": {
+  "verdict": "accepted",
+  "reason": "Exactly the record's point: aim at Tours, system not told."
+ },
+ "u0330": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the story."
+ },
+ "u0334": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0338": {
+  "verdict": "defensible",
+  "reason": "Archebius's expulsion fits, but 'unworthy of a see' shifts the record's sense, and the sentence mixes in other records."
+ },
+ "u0342": {
+  "verdict": "accepted",
+  "reason": "The record says after the night of the cloak he was baptized."
+ },
+ "u0346": {
+  "verdict": "defensible",
+  "reason": "The beyond-reason sentence is in the record, but answering on both sides with Scripture's cases is not."
+ },
+ "u0350": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity's statement that bishops and synods guard the truth."
+ },
+ "u0354": {
+  "verdict": "misread",
+  "reason": "Neither 'least of these' nor 'without him nothing' appears in this witness."
+ },
+ "u0358": {
+  "verdict": "accepted",
+  "reason": "Faithful retelling of the story, framed as a house's discipline."
+ },
+ "u0362": {
+  "verdict": "accepted",
+  "reason": "Faithful to the bishops' fear and plan to have officials meet him."
+ },
+ "u0366": {
+  "verdict": "defensible",
+  "reason": "Bishops bowing to the court fits; the secular judge clause is not in this quote."
+ },
+ "u0370": {
+  "verdict": "defensible",
+  "reason": "Links renunciation's stages to the interior road, which the record does not mention."
+ },
+ "u0374": {
+  "verdict": "misread",
+  "reason": "The mill-wheel feeding is explicitly assigned to the thoughts record."
+ },
+ "u0378": {
+  "verdict": "accepted",
+  "reason": "Matches the record's cut from marriage, kin, property and world."
+ },
+ "u0382": {
+  "verdict": "accepted",
+  "reason": "Matches the record on soldier and bishop bearing the name monk."
+ },
+ "u0386": {
+  "verdict": "defensible",
+  "reason": "Generic framing about reading leans on a record that excludes Scripture reading."
+ },
+ "u0390": {
+  "verdict": "accepted",
+  "reason": "Matches the record's tribunes, Trier and the bishops' daily communion with Ithacius."
+ },
+ "u0394": {
+  "verdict": "accepted",
+  "reason": "Faithful to Martin's reported saying."
+ },
+ "u0398": {
+  "verdict": "defensible",
+  "reason": "Treats a test of doctrine as a method of reading Scripture, a loose extension."
+ },
+ "u0402": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's Egyptian elder episode."
+ },
+ "u0406": {
+  "verdict": "misread",
+  "reason": "The little ones and perishing against his will are not in this record; that saying is assigned elsewhere."
+ },
+ "u0410": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's cloak narrative."
+ },
+ "u0414": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record's account of Martin at ten."
+ },
+ "u0418": {
+  "verdict": "accepted",
+  "reason": "Denial of a born-again moment fits the record's sense of conversion."
+ },
+ "u0422": {
+  "verdict": "accepted",
+  "reason": "Close to the record's list of what the world is."
+ },
+ "u0426": {
+  "verdict": "defensible",
+  "reason": "The deathbed fits, but flight from and seizure into office is assigned elsewhere and contested."
+ },
+ "u0430": {
+  "verdict": "accepted",
+  "reason": "Close quotation of the elders' rule."
+ },
+ "u0434": {
+  "verdict": "accepted",
+  "reason": "Fair framing of the courtyard story and Martin's reply."
+ },
+ "u0438": {
+  "verdict": "accepted",
+  "reason": "Accurate summary of Salvian's report."
+ },
+ "u0442": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of Martin's enrollment as catechumen."
+ },
+ "u0446": {
+  "verdict": "defensible",
+  "reason": "The record says goods are not enough for perfection, not that they fail to make a monk."
+ },
+ "u0450": {
+  "verdict": "accepted",
+  "reason": "Matches the record's vision of Christ wearing the half cloak."
+ },
+ "u0454": {
+  "verdict": "misread",
+  "reason": "Grace calling the ignorant and unwilling is not in the three-stages passage."
+ },
+ "u0458": {
+  "verdict": "accepted",
+  "reason": "Attributes the lessened power to Martin's tearful confession, as the text does."
+ },
+ "u0462": {
+  "verdict": "defensible",
+  "reason": "The many-not-one point fits, but council or collated writings comes from the rule record."
+ },
+ "u0466": {
+  "verdict": "accepted",
+  "reason": "Matches Gallus's opening that Martin hid it because of the times."
+ },
+ "u0470": {
+  "verdict": "accepted",
+  "reason": "The record states what Vincent alone tells."
+ },
+ "u0474": {
+  "verdict": "defensible",
+  "reason": "Customs set down for a bishop's house fit, but framing it as a day among the Marseilles brethren edges toward documented Gallic practice."
+ },
+ "u0478": {
+  "verdict": "accepted",
+  "reason": "Fits the record's public discipline for a fault."
+ },
+ "u0482": {
+  "verdict": "accepted",
+  "reason": "The record says there is one story and it is one man's."
+ },
+ "u0486": {
+  "verdict": "defensible",
+  "reason": "The record figures mortification, not renunciation, as crucifixion, and adds grace drawing the unwilling."
+ },
+ "u0490": {
+  "verdict": "defensible",
+  "reason": "A fair limit statement, but what Tours sang is assigned to another record."
+ },
+ "u0494": {
+  "verdict": "accepted",
+  "reason": "Matches the record's coin search, framed as Egypt."
+ },
+ "u0498": {
+  "verdict": "accepted",
+  "reason": "Correctly frames the lessened power as Martin's own confession about himself."
+ },
+ "u0502": {
+  "verdict": "defensible",
+  "reason": "The island's day fits, but Tours' singing and the cut conferences go beyond this record."
+ },
+ "u0506": {
+  "verdict": "misread",
+  "reason": "The executioners belong to the forced-communion passage, not this one."
+ },
+ "u0510": {
+  "verdict": "defensible",
+  "reason": "Record gives the Inst. XII.9 advice to credit progress to grace, but not the Apostle's quotation or fasting specifically."
+ },
+ "u0514": {
+  "verdict": "accepted",
+  "reason": "Fair summary of the record's point that Christ was met in the unpitied beggar and guests."
+ },
+ "u0518": {
+  "verdict": "misread",
+  "reason": "Grace calling the unwilling is not in this passage, which stresses grace looking for effort."
+ },
+ "u0522": {
+  "verdict": "accepted",
+  "reason": "Matches the record: turning to the monastic life, not an inner event."
+ },
+ "u0526": {
+  "verdict": "accepted",
+  "reason": "Accurately places the rule in Vincent's Commonitory."
+ },
+ "u0530": {
+  "verdict": "accepted",
+  "reason": "Faithful paraphrase of Chaeremon's husbandman answer."
+ },
+ "u0534": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0538": {
+  "verdict": "misread",
+  "reason": "Nothing about bishops' communion or silence over the poor is in this record."
+ },
+ "u0542": {
+  "verdict": "accepted",
+  "reason": "The record affirms Jesus is God."
+ },
+ "u0546": {
+  "verdict": "defensible",
+  "reason": "The mill fits, but psalms learned by heart at work go beyond the record's text."
+ },
+ "u0550": {
+  "verdict": "defensible",
+  "reason": "Cooling fits lukewarmness, but defining the word for turning to monastic life belongs to conversion."
+ },
+ "u0554": {
+  "verdict": "misread",
+  "reason": "The cloak story is not in this witness."
+ },
+ "u0558": {
+  "verdict": "defensible",
+  "reason": "Loose paraphrase extending the rule into a general principle about reading Scripture."
+ },
+ "u0562": {
+  "verdict": "accepted",
+  "reason": "Matches the story's yielding once, lessened power and shunning synods."
+ },
+ "u0566": {
+  "verdict": "defensible",
+  "reason": "The unstoppable wheel is in the record, but reading as its feed is an extension."
+ },
+ "u0570": {
+  "verdict": "accepted",
+  "reason": "Matches the catechumen soldier cutting his cloak at a city gate."
+ },
+ "u0574": {
+  "verdict": "defensible",
+  "reason": "Record implies thin testimony but does not itself address a particular phrase."
+ },
+ "u0578": {
+  "verdict": "accepted",
+  "reason": "The clothes handed to the steward to be kept fits the passage."
+ },
+ "u0582": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0586": {
+  "verdict": "defensible",
+  "reason": "The rule-held prayer fits, but psalms learned by heart at work belongs to another record."
+ },
+ "u0590": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the gravity's quoted Vita X."
+ },
+ "u0594": {
+  "verdict": "accepted",
+  "reason": "Matches the record: customs received from the fathers, not his own Rule."
+ },
+ "u0598": {
+  "verdict": "accepted",
+  "reason": "Correctly flags the Christ-with-wounds as one man's report."
+ },
+ "u0602": {
+  "verdict": "accepted",
+  "reason": "The twelve psalms fixed by an angel, attributed to Egypt, fits the story."
+ },
+ "u0606": {
+  "verdict": "accepted",
+  "reason": "Matches Castor wanting Egyptian customs in a province without monasteries."
+ },
+ "u0610": {
+  "verdict": "accepted",
+  "reason": "Matches the record's coin search and reclothing, framed as Egypt."
+ },
+ "u0614": {
+  "verdict": "defensible",
+  "reason": "The guarded escort is in the record; posted crowds are not."
+ },
+ "u0618": {
+  "verdict": "accepted",
+  "reason": "Trier reference fits the story."
+ },
+ "u0003": {
+  "verdict": "accepted",
+  "reason": "Fits the limit that daily life is known only as far as the pages say."
+ },
+ "u0007": {
+  "verdict": "accepted",
+  "reason": "Vincent's formula as given."
+ },
+ "u0011": {
+  "verdict": "accepted",
+  "reason": "Matches the test and how consent is defined."
+ },
+ "u0015": {
+  "verdict": "defensible",
+  "reason": "Frames the beginning of good will as the issue, a point the note marks as contested, though it states it only as a question."
+ },
+ "u0019": {
+  "verdict": "defensible",
+  "reason": "A loose gloss of the first stage kindling desire while free will stays open."
+ },
+ "u0023": {
+  "verdict": "defensible",
+  "reason": "Vincent puts tradition after Scripture as its interpreter; \"tested by\" stretches that toward the rival-authority sense the note excludes."
+ },
+ "u0027": {
+  "verdict": "accepted",
+  "reason": "Record says reason cannot fully grasp the relation."
+ },
+ "u0031": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0035": {
+  "verdict": "accepted",
+  "reason": "Matches Martin's catechumenate against his parents' wish."
+ },
+ "u0039": {
+  "verdict": "accepted",
+  "reason": "Matches the meaning for the south."
+ },
+ "u0043": {
+  "verdict": "defensible",
+  "reason": "Merges the cell's harbour image with disclosure of thoughts, which sits in another record."
+ },
+ "u0047": {
+  "verdict": "accepted",
+  "reason": "Record says nothing of the island's own day."
+ },
+ "u0051": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0055": {
+  "verdict": "misread",
+  "reason": "Presents Egypt's reception as Marseilles practice, which not_for excludes."
+ },
+ "u0059": {
+  "verdict": "accepted",
+  "reason": "Matches the elders' maxim."
+ },
+ "u0063": {
+  "verdict": "accepted",
+  "reason": "Matches the mill image of thoughts."
+ },
+ "u0067": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0071": {
+  "verdict": "defensible",
+  "reason": "Psalms learned by heart that feed the mind are placed in the thoughts record by not_for, though the ceaseless aim fits."
+ },
+ "u0075": {
+  "verdict": "accepted",
+  "reason": "Near-verbatim from the record."
+ },
+ "u0079": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0083": {
+  "verdict": "accepted",
+  "reason": "Framed as Egypt's practice, as the record gives it."
+ },
+ "u0087": {
+  "verdict": "defensible",
+  "reason": "Record makes giving up goods the first stage; adding family and honours to it stretches the record."
+ },
+ "u0091": {
+  "verdict": "accepted",
+  "reason": "Fits the fathers' warning against pushing argument past faith."
+ },
+ "u0095": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0099": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0103": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0107": {
+  "verdict": "accepted",
+  "reason": "Matches the mill-wheel that must turn."
+ },
+ "u0111": {
+  "verdict": "defensible",
+  "reason": "Sixth-hour content is in the record, but the ninth-hour descent and resurrection lines come from another record, and \"we kept\" claims Marseilles practice."
+ },
+ "u0115": {
+  "verdict": "accepted",
+  "reason": "Matches the Trinitarian formula."
+ },
+ "u0119": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the witness."
+ },
+ "u0123": {
+  "verdict": "accepted",
+  "reason": "Matches the twelve-psalm system."
+ },
+ "u0127": {
+  "verdict": "defensible",
+  "reason": "The purity-of-heart part fits; obedience and the eight faults come from other records."
+ },
+ "u0131": {
+  "verdict": "accepted",
+  "reason": "Matches Salvian's present judgment as one voice, not all."
+ },
+ "u0135": {
+  "verdict": "misread",
+  "reason": "The catechumen practice is not in the record, and it states as settled the beginning of every good thought, a point the record leaves contested."
+ },
+ "u0139": {
+  "verdict": "defensible",
+  "reason": "The least-of-these saying set by the cloak is not in this record; it comes from a sibling record."
+ },
+ "u0143": {
+  "verdict": "misread",
+  "reason": "Renouncing what we are belongs to renunciation teaching, not Chaeremon's three stages of grace."
+ },
+ "u0147": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0151": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0155": {
+  "verdict": "defensible",
+  "reason": "Atonement and nailing the debt to the cross come from the one-person witness; this record has only the debt taken away."
+ },
+ "u0159": {
+  "verdict": "accepted",
+  "reason": "Matches yielding to save lives and losing power."
+ },
+ "u0163": {
+  "verdict": "accepted",
+  "reason": "Matches the quote."
+ },
+ "u0167": {
+  "verdict": "defensible",
+  "reason": "Reframes antiquity as whose a practice is rather than its age, a loose gloss."
+ },
+ "u0171": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0175": {
+  "verdict": "accepted",
+  "reason": "Matches named-master literature: a disciple's Life, elders' words, collated faith."
+ },
+ "u0179": {
+  "verdict": "misread",
+  "reason": "Reading Scripture at the hours is explicitly not held by this record."
+ },
+ "u0183": {
+  "verdict": "misread",
+  "reason": "The book read at the hours is excluded by not_for."
+ },
+ "u0187": {
+  "verdict": "defensible",
+  "reason": "Record says grace inspires the first desire, but \"not ours\" sharpens a contested point."
+ },
+ "u0191": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0195": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0199": {
+  "verdict": "accepted",
+  "reason": "Matches the hours of the passion."
+ },
+ "u0203": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0207": {
+  "verdict": "defensible",
+  "reason": "Calling the unwilling is not in this record, and \"the one thing stated plainly\" overstates."
+ },
+ "u0211": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0215": {
+  "verdict": "accepted",
+  "reason": "Framed as Egypt's practice, near-verbatim."
+ },
+ "u0219": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0223": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0227": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0231": {
+  "verdict": "accepted",
+  "reason": "Matches allegiance owed only to what was handed down."
+ },
+ "u0235": {
+  "verdict": "misread",
+  "reason": "States Egyptian leadership as Marseilles practice; received customs as Gallic practice is under not_for, and the record says nothing of leadership."
+ },
+ "u0239": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0243": {
+  "verdict": "defensible",
+  "reason": "\"Among the brethren at Marseilles\" leans toward a Gallic teaching, though the fathers here are Egypt's."
+ },
+ "u0247": {
+  "verdict": "accepted",
+  "reason": "Matches the Marseilles sense of the cell holding the heart still by labour."
+ },
+ "u0251": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0255": {
+  "verdict": "accepted",
+  "reason": "Matches the fled-and-overtaken pattern."
+ },
+ "u0259": {
+  "verdict": "accepted",
+  "reason": "Matches received, not invented."
+ },
+ "u0263": {
+  "verdict": "misread",
+  "reason": "Framed as Marseilles practice, though the note says no Gallic house is documented keeping disclosure."
+ },
+ "u0267": {
+  "verdict": "accepted",
+  "reason": "Tradition and the threefold test fit the rule."
+ },
+ "u0271": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0275": {
+  "verdict": "accepted",
+  "reason": "Matches Cassian's admission."
+ },
+ "u0279": {
+  "verdict": "accepted",
+  "reason": "Matches grace going before and crowning, and sometimes waiting on effort."
+ },
+ "u0283": {
+  "verdict": "accepted",
+  "reason": "Paphnutius's failure was righted, and Piamun tells it, not the man wronged."
+ },
+ "u0287": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0291": {
+  "verdict": "defensible",
+  "reason": "Purity and the eight faults fit; obedience by contrary orders is not in this record."
+ },
+ "u0295": {
+  "verdict": "accepted",
+  "reason": "Matches the quote, framed as Egypt via Cassian."
+ },
+ "u0299": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0303": {
+  "verdict": "defensible",
+  "reason": "Ephesus refused the mother-of-Christ title; saying Ephesus refused Nestorius over the whole formula is loose."
+ },
+ "u0307": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0311": {
+  "verdict": "accepted",
+  "reason": "Matches the Marseilles sense."
+ },
+ "u0315": {
+  "verdict": "accepted",
+  "reason": "Matches conversion as an act, not an inner event."
+ },
+ "u0319": {
+  "verdict": "misread",
+  "reason": "The canon-sufficiency claim is not in this record; it belongs to gallic.limit.no-one-who-saw-him."
+ },
+ "u0323": {
+  "verdict": "defensible",
+  "reason": "The saying is not in this record, though it fits its meaning."
+ },
+ "u0327": {
+  "verdict": "defensible",
+  "reason": "Cooling sits in lukewarmness; noon desertion fits."
+ },
+ "u0331": {
+  "verdict": "accepted",
+  "reason": "Matches the crowned Christ illusion."
+ },
+ "u0335": {
+  "verdict": "misread",
+  "reason": "The murderer's forced conversion belongs to the conversion record, not virginity."
+ },
+ "u0339": {
+  "verdict": "defensible",
+  "reason": "Fits the note that Sulpitius is hostile; \"called them ridiculous\" is a loose paraphrase."
+ },
+ "u0343": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0347": {
+  "verdict": "accepted",
+  "reason": "Matches the quote."
+ },
+ "u0351": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0355": {
+  "verdict": "misread",
+  "reason": "Claims fixed hours kept at Tours, which no record attests; only the aim is attested there."
+ },
+ "u0359": {
+  "verdict": "defensible",
+  "reason": "The quote has the clothes kept until progress is proven; expulsion in them on cooling is not in this quote."
+ },
+ "u0363": {
+  "verdict": "misread",
+  "reason": "The canon-sufficiency claim is not in this record; it belongs to gallic.limit.no-one-who-saw-him."
+ },
+ "u0367": {
+  "verdict": "accepted",
+  "reason": "Matches the received angelic system."
+ },
+ "u0371": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0375": {
+  "verdict": "accepted",
+  "reason": "Matches the noon assault."
+ },
+ "u0379": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0383": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0387": {
+  "verdict": "defensible",
+  "reason": "\"An office he had not sought\" leans toward reluctance, which is contested."
+ },
+ "u0391": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0395": {
+  "verdict": "accepted",
+  "reason": "Matches fasts and vigils ranked as aids."
+ },
+ "u0399": {
+  "verdict": "misread",
+  "reason": "The canon reading claim is not in this record; it belongs elsewhere."
+ },
+ "u0403": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0407": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0411": {
+  "verdict": "accepted",
+  "reason": "Matches the definition of a monk."
+ },
+ "u0415": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0419": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0423": {
+  "verdict": "accepted",
+  "reason": "Matches the program as Cassian's text."
+ },
+ "u0427": {
+  "verdict": "accepted",
+  "reason": "Matches Cassian's admission."
+ },
+ "u0431": {
+  "verdict": "accepted",
+  "reason": "Matches the consecrated state and dress given by the bishop."
+ },
+ "u0435": {
+  "verdict": "defensible",
+  "reason": "The reasons for each hour are not in this record, though Cassian's Egyptian system is."
+ },
+ "u0439": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0443": {
+  "verdict": "accepted",
+  "reason": "Matches the husbandman exchange; the infant contrast is framing."
+ },
+ "u0447": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0451": {
+  "verdict": "defensible",
+  "reason": "The Ithacian communion fits, but silence over the poor is not in this record."
+ },
+ "u0455": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0459": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0463": {
+  "verdict": "accepted",
+  "reason": "Record says nothing of the island's own day."
+ },
+ "u0467": {
+  "verdict": "accepted",
+  "reason": "Matches the three senses of the fathers."
+ },
+ "u0471": {
+  "verdict": "accepted",
+  "reason": "A framing sentence that claims nothing beyond the record."
+ },
+ "u0475": {
+  "verdict": "accepted",
+  "reason": "Matches the lure by the feigned illness."
+ },
+ "u0479": {
+  "verdict": "accepted",
+  "reason": "Correctly flags the single sense of the fathers as open to question."
+ },
+ "u0483": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0487": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0491": {
+  "verdict": "accepted",
+  "reason": "Matches Martin keeping a monk's virtues in the see."
+ },
+ "u0495": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0499": {
+  "verdict": "defensible",
+  "reason": "\"Perish against his will\" is not in this quote, though it fits Chaeremon's argument."
+ },
+ "u0503": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0507": {
+  "verdict": "accepted",
+  "reason": "Matches the quote."
+ },
+ "u0511": {
+  "verdict": "accepted",
+  "reason": "Quotes the record."
+ },
+ "u0515": {
+  "verdict": "accepted",
+  "reason": "A fair limit statement; the story is Egyptian, not Gallic."
+ },
+ "u0519": {
+  "verdict": "defensible",
+  "reason": "\"Holier than his master\" and the claim to the episcopate are not in this quote."
+ },
+ "u0523": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0527": {
+  "verdict": "defensible",
+  "reason": "\"Holier than his master\" is not in this record."
+ },
+ "u0531": {
+  "verdict": "defensible",
+  "reason": "Office and vainglory fit; the discharge and first-cut lines come from other records."
+ },
+ "u0535": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0539": {
+  "verdict": "accepted",
+  "reason": "Matches the quote."
+ },
+ "u0543": {
+  "verdict": "defensible",
+  "reason": "Consent of predecessors fits; \"not one see's\" goes beyond the record."
+ },
+ "u0547": {
+  "verdict": "accepted",
+  "reason": "Record says Lord and Saviour was said as a thing already believed."
+ },
+ "u0551": {
+  "verdict": "defensible",
+  "reason": "Record has Martin refusing a Christ without wounds; the crucified-Lord framing comes from a sibling record."
+ },
+ "u0555": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0559": {
+  "verdict": "accepted",
+  "reason": "At Tours only the aim is attested, with the smith image."
+ },
+ "u0563": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0567": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0571": {
+  "verdict": "accepted",
+  "reason": "Near-verbatim from the limit."
+ },
+ "u0575": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0579": {
+  "verdict": "misread",
+  "reason": "The four-Gospels saying is not in this record."
+ },
+ "u0583": {
+  "verdict": "misread",
+  "reason": "Archebius does not appear in this record."
+ },
+ "u0587": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0591": {
+  "verdict": "defensible",
+  "reason": "The story fits, but the paragraph frames it as Gallic house practice, which not_for excludes."
+ },
+ "u0595": {
+  "verdict": "accepted",
+  "reason": "Matches grace as help without which no effort reaches its goal."
+ },
+ "u0599": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0603": {
+  "verdict": "misread",
+  "reason": "The Protector/Helper/Sponsor prayer and grace helping the striving are not in this quote; the effort side is in not_for."
+ },
+ "u0607": {
+  "verdict": "accepted",
+  "reason": "Verbatim from the record."
+ },
+ "u0611": {
+  "verdict": "misread",
+  "reason": "Places the procession between Tours and the monastery; the record names no route, and the death was at Condate."
+ },
+ "u0615": {
+  "verdict": "misread",
+  "reason": "Record does not define the second and third stages, and this version is not Cassian's, whose second stage is the vices."
+ },
+ "u0619": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0004": {
+  "verdict": "accepted",
+  "reason": "Matches the record's first stage of renunciation, goods only, insufficient for perfection."
+ },
+ "u0008": {
+  "verdict": "defensible",
+  "reason": "Calling the unwilling is in the record, but perishing against his will is not in this witness."
+ },
+ "u0012": {
+  "verdict": "accepted",
+  "reason": "Restates the record's closing line."
+ },
+ "u0016": {
+  "verdict": "accepted",
+  "reason": "Matches the record's Judas comparison."
+ },
+ "u0020": {
+  "verdict": "accepted",
+  "reason": "Directly stated in the record."
+ },
+ "u0024": {
+  "verdict": "accepted",
+  "reason": "Faithful to Gallus's narrative, including the confessed lessening of power as Martin's report."
+ },
+ "u0028": {
+  "verdict": "defensible",
+  "reason": "The specific psalm verse goes beyond the record's 'psalm opened at random'."
+ },
+ "u0032": {
+  "verdict": "defensible",
+  "reason": "Loose extrapolation from the rule to a claim that no one settled disputes."
+ },
+ "u0036": {
+  "verdict": "accepted",
+  "reason": "Restates the story."
+ },
+ "u0040": {
+  "verdict": "accepted",
+  "reason": "Matches the junior's not going out without leave, framed as Cassian's teaching."
+ },
+ "u0044": {
+  "verdict": "defensible",
+  "reason": "Core is in the record; the province-without-monastery detail comes from elsewhere."
+ },
+ "u0048": {
+  "verdict": "misread",
+  "reason": "This witness says nothing about Christ in the beggar or the cloak."
+ },
+ "u0052": {
+  "verdict": "accepted",
+  "reason": "Matches the record, framed within Cassian's received teaching."
+ },
+ "u0056": {
+  "verdict": "accepted",
+  "reason": "Matches both senses given in the record."
+ },
+ "u0060": {
+  "verdict": "accepted",
+  "reason": "Restates the record."
+ },
+ "u0064": {
+  "verdict": "misread",
+  "reason": "Disclosure of thoughts is not in this witness record."
+ },
+ "u0068": {
+  "verdict": "defensible",
+  "reason": "Record has one heathen crowd; 'crowds' slightly generalizes."
+ },
+ "u0072": {
+  "verdict": "defensible",
+  "reason": "Calls Martin already discharged when he was asking for release."
+ },
+ "u0076": {
+  "verdict": "accepted",
+  "reason": "Stated in the companion witness text."
+ },
+ "u0080": {
+  "verdict": "accepted",
+  "reason": "Matches Martin's promise in the passage."
+ },
+ "u0084": {
+  "verdict": "accepted",
+  "reason": "Correctly names the record's silence on the island's day."
+ },
+ "u0088": {
+  "verdict": "accepted",
+  "reason": "Within the record's grace inspiring the first desire and going before the will."
+ },
+ "u0092": {
+  "verdict": "defensible",
+  "reason": "Aid to memory is right; 'not a charter for successors' adds an unstated purpose."
+ },
+ "u0096": {
+  "verdict": "defensible",
+  "reason": "Work and prayer loosely fit, but the cell-as-harbour point belongs to the cell record."
+ },
+ "u0100": {
+  "verdict": "defensible",
+  "reason": "Record says God wills all saved; the 'grievous blasphemy' label is imported."
+ },
+ "u0104": {
+  "verdict": "accepted",
+  "reason": "Accurate reading of the courtyard story."
+ },
+ "u0108": {
+  "verdict": "defensible",
+  "reason": "Donative content fits, but leans on catechumen years assigned elsewhere."
+ },
+ "u0112": {
+  "verdict": "accepted",
+  "reason": "Matches the record's angelic canonical system of twelve psalms."
+ },
+ "u0116": {
+  "verdict": "defensible",
+  "reason": "Folds kin and worldly life into the first renunciation, which the record limits to goods."
+ },
+ "u0120": {
+  "verdict": "accepted",
+  "reason": "Matches the record's definition of the elder."
+ },
+ "u0124": {
+  "verdict": "misread",
+  "reason": "The raising of a dead man by Christ's power is not in this witness."
+ },
+ "u0128": {
+  "verdict": "defensible",
+  "reason": "Record names three stages but does not describe the third."
+ },
+ "u0132": {
+  "verdict": "defensible",
+  "reason": "Adds stripes and expulsion, though it rightly caveats Gallic practice as undocumented."
+ },
+ "u0136": {
+  "verdict": "accepted",
+  "reason": "Stated in the record."
+ },
+ "u0140": {
+  "verdict": "accepted",
+  "reason": "Within the record's grace calling the unwilling."
+ },
+ "u0144": {
+  "verdict": "defensible",
+  "reason": "Councils' legitimacy is an application not stated in the novelty-antiquity record."
+ },
+ "u0148": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity's core claim."
+ },
+ "u0152": {
+  "verdict": "accepted",
+  "reason": "Fits Egypt received as the fathers' witness."
+ },
+ "u0156": {
+  "verdict": "accepted",
+  "reason": "Stated in the record."
+ },
+ "u0160": {
+  "verdict": "accepted",
+  "reason": "Stated in the record."
+ },
+ "u0164": {
+  "verdict": "accepted",
+  "reason": "Stated in the record."
+ },
+ "u0168": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0172": {
+  "verdict": "accepted",
+  "reason": "Matches the emperor's fury and appointment of executioners."
+ },
+ "u0176": {
+  "verdict": "accepted",
+  "reason": "Matches the cell as labour holding the wandering heart still."
+ },
+ "u0180": {
+  "verdict": "defensible",
+  "reason": "Cooling fits, but the noon assault belongs to accidie."
+ },
+ "u0184": {
+  "verdict": "misread",
+  "reason": "Deans over ten are not in the elder record."
+ },
+ "u0188": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the record."
+ },
+ "u0192": {
+  "verdict": "accepted",
+  "reason": "Matches Chaeremon's beyond-reason statement in the gravity."
+ },
+ "u0196": {
+  "verdict": "accepted",
+  "reason": "Matches keeping customs as Gaul's cold allows and Cassian's admission."
+ },
+ "u0200": {
+  "verdict": "accepted",
+  "reason": "Close paraphrase of the rule."
+ },
+ "u0204": {
+  "verdict": "misread",
+  "reason": "Edition excision is not in this limit record and is a remark on sources."
+ },
+ "u0208": {
+  "verdict": "accepted",
+  "reason": "Close to Cassian's Inst. I.2 as given."
+ },
+ "u0212": {
+  "verdict": "accepted",
+  "reason": "Stated in the witness."
+ },
+ "u0216": {
+  "verdict": "misread",
+  "reason": "Lessons at the hours are explicitly not held by this record."
+ },
+ "u0220": {
+  "verdict": "accepted",
+  "reason": "Matches the elders' maxim."
+ },
+ "u0224": {
+  "verdict": "accepted",
+  "reason": "Faithful to Chaeremon's husbandman answer."
+ },
+ "u0228": {
+  "verdict": "defensible",
+  "reason": "Abbot's reclothing is in the record; no cell key is added."
+ },
+ "u0232": {
+  "verdict": "accepted",
+  "reason": "Stated in the record."
+ },
+ "u0236": {
+  "verdict": "accepted",
+  "reason": "Stated in the record."
+ },
+ "u0240": {
+  "verdict": "accepted",
+  "reason": "Matches the three stages of grace."
+ },
+ "u0244": {
+  "verdict": "misread",
+  "reason": "Martin said this to the devil in purple, not to two strangers."
+ },
+ "u0248": {
+  "verdict": "accepted",
+  "reason": "Matches the Tours sense of conversion."
+ },
+ "u0252": {
+  "verdict": "accepted",
+  "reason": "Accurate characterization of the house's discipline."
+ },
+ "u0256": {
+  "verdict": "misread",
+  "reason": "Wheel, cell and disclosure are not in this witness record."
+ },
+ "u0260": {
+  "verdict": "accepted",
+  "reason": "Matches the beggar and the guest in the witness."
+ },
+ "u0264": {
+  "verdict": "accepted",
+  "reason": "Within renunciation as death to the world beyond goods."
+ },
+ "u0268": {
+  "verdict": "defensible",
+  "reason": "Salvian writing from a Marseilles house is not in the record, which stresses the city's view."
+ },
+ "u0272": {
+  "verdict": "accepted",
+  "reason": "Matches the noonday assault."
+ },
+ "u0276": {
+  "verdict": "accepted",
+  "reason": "Fits monks taken into the episcopal office."
+ },
+ "u0280": {
+  "verdict": "accepted",
+  "reason": "Fits unceasing prayer as aim at Tours with the smith image."
+ },
+ "u0284": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0288": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity."
+ },
+ "u0292": {
+  "verdict": "misread",
+  "reason": "Perishing against his will is not in this witness."
+ },
+ "u0296": {
+  "verdict": "accepted",
+  "reason": "Fits the unconverted countryside as mission field."
+ },
+ "u0300": {
+  "verdict": "misread",
+  "reason": "Cassian's admission sits in other records, not monk-solitary."
+ },
+ "u0304": {
+  "verdict": "accepted",
+  "reason": "Stated in the witness."
+ },
+ "u0308": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0312": {
+  "verdict": "accepted",
+  "reason": "Quoted in the record."
+ },
+ "u0316": {
+  "verdict": "accepted",
+  "reason": "Stated in the record."
+ },
+ "u0320": {
+  "verdict": "defensible",
+  "reason": "Record does not attribute the calling of the unwilling to Egypt's fathers via Cassian."
+ },
+ "u0324": {
+  "verdict": "accepted",
+  "reason": "Matches the record, framed as Egypt's process."
+ },
+ "u0328": {
+  "verdict": "defensible",
+  "reason": "Cell-as-harbour and the senior holding him there stretch the disclosure record."
+ },
+ "u0332": {
+  "verdict": "defensible",
+  "reason": "Psalm verse and the people's verdict go beyond the record's summary."
+ },
+ "u0336": {
+  "verdict": "accepted",
+  "reason": "Matches camp of God and an unlived place."
+ },
+ "u0340": {
+  "verdict": "accepted",
+  "reason": "Stated in the witness."
+ },
+ "u0344": {
+  "verdict": "accepted",
+  "reason": "Stated in the witness."
+ },
+ "u0348": {
+  "verdict": "accepted",
+  "reason": "Stated in the witness."
+ },
+ "u0352": {
+  "verdict": "accepted",
+  "reason": "Matches the record's Marseilles examples."
+ },
+ "u0356": {
+  "verdict": "accepted",
+  "reason": "Matches customs delivered by the Fathers."
+ },
+ "u0360": {
+  "verdict": "misread",
+  "reason": "Presents Egypt's reception as Marseilles practice, against not_for."
+ },
+ "u0364": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0368": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0372": {
+  "verdict": "accepted",
+  "reason": "Within purity of heart as the mark."
+ },
+ "u0376": {
+  "verdict": "defensible",
+  "reason": "Dead to marriage and the steward's cupboard go beyond the record text."
+ },
+ "u0380": {
+  "verdict": "accepted",
+  "reason": "Flags the shared-definition claim as a query, not settling it."
+ },
+ "u0384": {
+  "verdict": "misread",
+  "reason": "The kept clothes are explicitly not_for lukewarmness."
+ },
+ "u0388": {
+  "verdict": "defensible",
+  "reason": "Reasonable inference from received customs, but goes beyond the record."
+ },
+ "u0392": {
+  "verdict": "misread",
+  "reason": "The Apostle's words are not in the beginning-of-good-will record."
+ },
+ "u0396": {
+  "verdict": "defensible",
+  "reason": "Psalms by heart at work stretches the record's fixed-hours system."
+ },
+ "u0400": {
+  "verdict": "accepted",
+  "reason": "Stated in the witness."
+ },
+ "u0404": {
+  "verdict": "accepted",
+  "reason": "Matches 'unless he stays'."
+ },
+ "u0408": {
+  "verdict": "accepted",
+  "reason": "Matches the not_for caveat on Gallic practice."
+ },
+ "u0412": {
+  "verdict": "accepted",
+  "reason": "Stated in the witness."
+ },
+ "u0416": {
+  "verdict": "defensible",
+  "reason": "Tomb refusal fits; consulting elders comes from another record."
+ },
+ "u0420": {
+  "verdict": "misread",
+  "reason": "Mill-wheel fed by the book is explicitly not_for this record."
+ },
+ "u0424": {
+  "verdict": "accepted",
+  "reason": "Matches Brictio's tirade."
+ },
+ "u0428": {
+  "verdict": "accepted",
+  "reason": "Within obedience before all virtues."
+ },
+ "u0432": {
+  "verdict": "accepted",
+  "reason": "Quoted from the record."
+ },
+ "u0436": {
+  "verdict": "accepted",
+  "reason": "Stated in the record."
+ },
+ "u0440": {
+  "verdict": "accepted",
+  "reason": "Stated in the record."
+ },
+ "u0444": {
+  "verdict": "accepted",
+  "reason": "Stated in the witness."
+ },
+ "u0448": {
+  "verdict": "accepted",
+  "reason": "Matches the mill-wheel teaching."
+ },
+ "u0452": {
+  "verdict": "accepted",
+  "reason": "Matches the passage."
+ },
+ "u0456": {
+  "verdict": "accepted",
+  "reason": "Faithful to the sixth-hour sentence without penal framing."
+ },
+ "u0460": {
+  "verdict": "accepted",
+  "reason": "Within the no-excavation limit."
+ },
+ "u0464": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0468": {
+  "verdict": "defensible",
+  "reason": "The stool detail is not in the record."
+ },
+ "u0472": {
+  "verdict": "defensible",
+  "reason": "Martin's view on secular judgment is not in this story record, though consistent."
+ },
+ "u0476": {
+  "verdict": "accepted",
+  "reason": "Matches the witness."
+ },
+ "u0480": {
+  "verdict": "accepted",
+  "reason": "Tradition as second criterion after Scripture, not a rival."
+ },
+ "u0484": {
+  "verdict": "accepted",
+  "reason": "Fits Chaeremon's answer within Conference XIII."
+ },
+ "u0488": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0492": {
+  "verdict": "accepted",
+  "reason": "Stated in the witness."
+ },
+ "u0496": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity."
+ },
+ "u0500": {
+  "verdict": "defensible",
+  "reason": "No treatise is in the record; grace drawing the unwilling is not."
+ },
+ "u0504": {
+  "verdict": "accepted",
+  "reason": "Quoted from the record."
+ },
+ "u0508": {
+  "verdict": "accepted",
+  "reason": "Matches the record, framed as Egypt's process."
+ },
+ "u0512": {
+  "verdict": "accepted",
+  "reason": "Matches the record."
+ },
+ "u0516": {
+  "verdict": "accepted",
+  "reason": "Stated in the passage."
+ },
+ "u0520": {
+  "verdict": "misread",
+  "reason": "Books read at the hours are not in this witness, which points elsewhere."
+ },
+ "u0524": {
+  "verdict": "defensible",
+  "reason": "Scripture's sufficiency is Vincent but sits outside the rule record."
+ },
+ "u0528": {
+  "verdict": "misread",
+  "reason": "Thoughts admitted or rejected are not in this witness."
+ },
+ "u0532": {
+  "verdict": "accepted",
+  "reason": "Close to Vincent's disciple-not-leader formula."
+ },
+ "u0536": {
+  "verdict": "accepted",
+  "reason": "Stated in the record."
+ },
+ "u0540": {
+  "verdict": "accepted",
+  "reason": "Stated in the story."
+ },
+ "u0544": {
+  "verdict": "accepted",
+  "reason": "Stated in the passage."
+ },
+ "u0548": {
+  "verdict": "accepted",
+  "reason": "Matches the passage."
+ },
+ "u0552": {
+  "verdict": "accepted",
+  "reason": "Stated in the witness."
+ },
+ "u0556": {
+  "verdict": "defensible",
+  "reason": "Frames the story as the beginning-of-good-will question, a contested reading."
+ },
+ "u0560": {
+  "verdict": "accepted",
+  "reason": "Flags the claim as one a scholar would query."
+ },
+ "u0564": {
+  "verdict": "accepted",
+  "reason": "Stated in the witness."
+ },
+ "u0568": {
+  "verdict": "misread",
+  "reason": "Books and practices are not in this witness."
+ },
+ "u0572": {
+  "verdict": "misread",
+  "reason": "Hilary's exile is not in the discharge story."
+ },
+ "u0576": {
+  "verdict": "accepted",
+  "reason": "Stated in the record."
+ },
+ "u0580": {
+  "verdict": "accepted",
+  "reason": "Matches goal versus end."
+ },
+ "u0584": {
+  "verdict": "accepted",
+  "reason": "Restates the story."
+ },
+ "u0588": {
+  "verdict": "defensible",
+  "reason": "Hypothetical extrapolation from discretion to handling doubt."
+ },
+ "u0592": {
+  "verdict": "defensible",
+  "reason": "Shifts the blasphemy from not willing all saved to the little ones."
+ },
+ "u0596": {
+  "verdict": "accepted",
+  "reason": "Matches the smith image."
+ },
+ "u0600": {
+  "verdict": "accepted",
+  "reason": "Matches the remedy for pride."
+ },
+ "u0604": {
+  "verdict": "defensible",
+  "reason": "Slogan goes beyond the Trier story, though consistent with it."
+ },
+ "u0608": {
+  "verdict": "accepted",
+  "reason": "Matches the passage."
+ },
+ "u0612": {
+  "verdict": "defensible",
+  "reason": "Inferred from Martin's demand for wounds rather than stated."
+ },
+ "u0616": {
+  "verdict": "accepted",
+  "reason": "Matches the story."
+ },
+ "u0620": {
+  "verdict": "accepted",
+  "reason": "Matches the quote."
+ }
+}

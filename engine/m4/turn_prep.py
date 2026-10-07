@@ -1,21 +1,9 @@
-"""The per-turn preparation shared by both voice-generation paths:
-engine.m4.turn._run_ordinary_voice_turn (the whole-turn path) and
-engine.m4.streaming.stream_voice_turn_sentences (the sentence-gated
-streaming path, Stage 7b). Both need the identical evidence-assembled
-user message and the identical private directive built for the same
-turn; before this module existed, only the whole-turn path built them,
-and any caller of the streaming path would otherwise have had to
-duplicate that assembly sequence itself rather than share it.
-
-Deliberately its own module rather than living in either caller: turn.py
-already carries the whole-turn path's own generation/net/guard logic
-(nothing here calls a model or touches TurnResult), and streaming.py's
-own module docstring commits to never importing from engine.m4.turn - a
-third module both depend on keeps that commitment intact while letting
-the two paths share this logic instead of one reimplementing the other's
-copy. Every function here is a pure transform over already-loaded world
-data and already-computed routing state - no model call, no store write,
-byte-identical inputs always produce byte-identical outputs.
+"""The per-turn preparation for a voice-generation call
+(engine.m4.turn._run_ordinary_voice_turn): the evidence-assembled user
+message and the private directive built for the turn. Every function here
+is a pure transform over already-loaded world data and already-computed
+routing state - no model call, no store write, byte-identical inputs always
+produce byte-identical outputs.
 """
 from __future__ import annotations
 
@@ -227,6 +215,14 @@ def _other_tradition_directive(
     return f"{text}\n{excerpts_block}" if excerpts_block else text
 
 
+CONCISION_DIRECTIVE = (
+    "Opening: start with the answer itself. Never restate the question, and never answer a question "
+    "the participant did not ask. "
+    "Length: answer first. Use the fewest sentences that carry the answer, its reason and one quote. "
+    "Most replies run between 120 and 220 words. A question that earns more may take more."
+)
+
+
 def _build_turn_directive(
     directive: Directive | None,
     figures_already_named: list[str] | None = None,
@@ -290,6 +286,7 @@ def _build_turn_directive(
     if directive is not None:
         asks_text = "; ".join(a["text"] for a in directive.asks) if directive.asks else "(none extracted)"
         parts.append(f"Asks, in order: {asks_text}")
+        parts.append(CONCISION_DIRECTIVE)
         if directive.register_note:
             parts.append(f"Register note: {directive.register_note}")
         if directive.suspend_register_statement_1:
@@ -390,12 +387,7 @@ def prepare_voice_turn_inputs(
     deterministic, no model call, rides in the per-turn user message,
     never the cached system prefix - §3.1/§5's own cache-conscious
     framing) and build this turn's own private directive
-    (_build_turn_directive). Extracted unchanged from
-    engine.m4.turn._run_ordinary_voice_turn, which called this exact
-    sequence inline before engine.m4.streaming (Stage 7b) needed the
-    identical sequence and had no way to reach it without either
-    duplicating it or importing turn.py directly (which streaming.py's own
-    module docstring commits not to do).
+    (_build_turn_directive).
 
     Every parameter here means exactly what the same-named parameter on
     _run_ordinary_voice_turn already documents - see that function's own

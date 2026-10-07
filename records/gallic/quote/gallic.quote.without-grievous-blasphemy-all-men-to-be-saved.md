@@ -45,6 +45,15 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.grace-and-effort
+use_note:
+  means: "Chaeremon, in Cassian's Conference XIII, argues it would be grievous blasphemy to imagine God wills only some, rather than all, to be saved."
+  not_for:
+    - "a separate witness from gallic.quote.grievous-blasphemy-not-all-men-to-be-saved, which carries the same sentence"
+    - "a resolution of the contested grace teaching of Conference XIII"
+    - "the refusal that grace follows desert, which sits in gallic.quote.profane-notion-attribute-everything-to-free-will"
+    - "Cassian's own words rather than his report of Chaeremon"
+  years: {from: 426, to: 426}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "generally will"` returns line 37758, inside `<div4 title="Chapter VII. Of the main purpose of God

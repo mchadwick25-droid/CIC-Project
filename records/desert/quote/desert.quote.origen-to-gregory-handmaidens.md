@@ -56,6 +56,14 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.gravity.scriptural-engagement
+use_note:
+  means: "Origen's Letter to Gregory, kept in the Philocalia, urges Greek philosophy and useful sciences as preparation for Christianity, calling philosophy Christianity's handmaiden."
+  not_for:
+    - "a desert monk's view, or a text the desert elders are shown reading"
+    - "a claim that the desert rejected learning outright, drawn from this contrast"
+    - "a date inside the 320-430 world, when the letter comes from the century before"
+  years: {from: 201, to: 253}
+  status: reviewed
 ---
 Verified verbatim against the vendored file at line 149.
 

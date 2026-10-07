@@ -42,6 +42,13 @@ concedes: 'What IS secure: the Homoian establishment''s institutional history (i
   the full interior CONTENT is reconstruction, and every ijc record touching Homoian belief carries that
   difference.'
 divergence_partners: []
+use_note:
+  means: "On one reading, Homoian belief can be stated with the same confidence as Nicene belief; the record survives mostly through opponents, so this is contested."
+  not_for:
+    - "a claim that Homoian belief is fully known from its own voice"
+    - "a claim that Homoian belief was a caricature rather than a considered confession"
+  years: {from: 357, to: 451}
+  status: reviewed
 ---
 Derived from Doc_04 Candidate 3's Confidence/Gravity
 Cross-Check divergence (carried through Doc_05, Doc_08 SS7's

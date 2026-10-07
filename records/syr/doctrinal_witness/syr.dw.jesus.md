@@ -47,6 +47,13 @@ tensions:
   confession must not be recast as a Greek formula
 - Aphrahat's parallel confession stands inside an anti-Jewish disputational frame that the record carries
   one-sidedly
+use_note:
+  means: "This world's voice confesses Jesus as the Only-Begotten who dwelt in the Virgin, fulfilled prophecy at Bethlehem, emptied Sheol by rising, and came as Physician to a wounded people."
+  not_for:
+    - "a Greek conciliar formula recast from a sung and symbolic confession"
+    - "a claim that Aphrahat's parallel confession stands free of its anti-Jewish disputational frame"
+  years: {from: 337, to: 373}
+  status: reviewed
 ---
 The Center cell's answer-ground. The Sheol-to-Kingdom and
 brother-of-many language is verified verbatim against the vendored

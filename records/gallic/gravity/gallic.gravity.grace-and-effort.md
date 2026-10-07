@@ -146,14 +146,13 @@ description: >-
   a real and disclosed tension in how this record is classified. A reader should not mistake the
   modest classification for any doubt about what Cassian and Chaeremon actually taught.
 
-  Under pressure from Rome, the argument grew stronger, and who carried it changed too. It began as
-  monks writing for other monks. It ended, a generation later, with a bishop, trained at Lérins,
-  writing at the order of a church council. Its own transmission then broke apart further. A later
-  medieval editor rewrote Cassian's thirteenth Conference, on purpose, to strip out anything that
-  looked heretical. So this teaching now reaches a modern reader through a text that one editor,
-  somewhere along the way, actually tried to cut it out of. Inside this world's own literature,
-  though, it began as something much simpler. It was a remedy for the pride of a monk who feels, at
-  last, that he is making progress - offered long before anyone outside gave it any name at all.
+  Under pressure from Rome, the argument grew stronger, and who carried it
+  changed too. It began as monks writing for other monks. It ended, a
+  generation later, with a bishop, trained at Lérins, writing at the order of
+  a church council. Inside this world's own literature, though, it began as
+  something much simpler. It was a remedy for the pride of a monk who feels,
+  at last, that he is making progress - offered long before anyone outside
+  gave it any name at all.
 manifestations:
 - "Conf. XIII: Germanus's scruple at morning service over whether effort accomplishes anything, and Chaeremon's two-sided answer ending in a declared limit of human reason (XIII.1, XIII.18)"
 - "Inst. XII.9-33: the monk who feels progress is to say 'Not I, but the grace of God with me'; 'not giving my own opinion, but that of the elders'; the work's closing sentence on grace"
@@ -162,6 +161,15 @@ manifestations:
 - "Vincent quoting Celestine's 'let novelty cease to assail antiquity' and reading it for his own side (Comm. ch. 32 [85]) - his participation Contested"
 - "Faustus's prologue: a council gathered 'for the condemning of the error of predestination,' the treatise written at its commission (row 24, rough OCR, Inferential/Thin wording; post-window)"
 - "Dionysius Carthusianus's fifteenth-century paraphrase cutting Conf. XIII 'to make Cassian orthodox' (Gibson, editorial) - the gravity's fracture in transmission"
+use_note:
+  means: "Human effort and free choice are held real while grace goes before and crowns them, argued under Augustine's pressure as a relation Cassian says reason cannot fully grasp."
+  not_for:
+    - "a settled semi-Pelagian position, when that label is contested in gallic.contested.massilian-label"
+    - "Cassian's target as Augustine's doctrine of predestination, when his intent is contested in gallic.contested.beginning-of-good-will"
+    - "Faustus's synodal commission, which falls after the window"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
+  years: {from: 415, to: 434}
+  status: reviewed
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Vincent
 of Lérins) and, for Augustine's own report, cic/texts/npnf105_augustine-anti-pelagian-writings.xml

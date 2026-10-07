@@ -6018,3 +6018,361 @@ ruling of 2026-09-30 ("Cap ruling: jes Step 0") covers the same review under its
 entry covers is `Step0_Review_Round3_SpotCheck.md`. The entry of 2026-09-30 is unchanged and still names the
 review under its earlier name.
 
+## 2026-10-02 - Claude threads merge their own pull requests
+
+The project lead ruled that a Claude thread merges the pull requests it opens, instead of leaving the merge button to the project lead. In the project lead's words: "if i am just pushing buttons i would rather you do that." He confirmed the practice again on 2026-10-02 with "yes you merge."
+
+The rule: a thread merges its own pull request, by merge commit, once every required check is green on the current head, the pull request is mergeable, and no review finding is open. Path-gated checks that show "skipped" count as passing.
+
+One exception stays with the project lead: the production promotion, the pull request that moves reviewed work onto the live branch.
+
+## 2026-10-02 - Conversation system design: approved to proceed, Design C
+
+The project lead converged with the design thread on the conversation system design on 2026-10-02, in his words "Converged, auto mode." The design is approved to proceed. A separate build thread implements it in slices 0 to 12. Nothing closes until Phase Five boundary testing and full-system review are complete.
+
+The design, with its appendix pages (rigor ledger, gap hunt, records), is published at `https://claude.ai/artifact/MBPbubWhcJrTddiEbte6P1`. The field comparison behind decision 10 is at `https://claude.ai/artifact/Ae3eKobJ8v3CAvx2kj4icj`.
+
+**The project lead's decisions.**
+
+1. The design thread's spend cap was 15% of the week. The build thread sets its own with the project lead; on 2026-10-02 he set it at 20% of the week, with a checkpoint at every gate and never more than 90 minutes apart.
+2. The Program Spec's principles stay. The architecture is open. Any departure from the spec is a named change order.
+3. Design C, cell dossiers, with Design A as its single-dossier case for a world. Experiment E1 decides the split per world.
+4. The meaning bar is scholarly acceptance, not perfection, on meaningful (load-bearing) content. Invented facts and misattributed quotes stay at zero.
+5. Use notes: Opus drafts the notes on quotes and doctrinal witnesses against the vendored source. Sonnet drafts the rest. Opus reviews every note.
+6. The reader call is tested for removal (E2). The safety call stays sealed and blocking.
+7. The quality-control store keeps questions indefinitely, answers for 90 days, and scores. It holds no session id, visitor id, code hash, IP address or exact time.
+8. Non-world kinds leave the worlds. The horizon gate decides forces record by record. Figures feed cards, not dossiers. `lpc` and ambient are parked untouched.
+9. Three paid runs are approved as designed, each sample-first, with every setting printed and the cap stated: the baseline three times (about $35), E1 with its third arm (about $23), and E2 (about $6). Total cap about $64. Offline work runs through the Batches API at half price.
+10. The API's native citations replace the hand-copied citation-id contract. This is a change order on the mechanism behind rulings R9, R10, R17 and the R27 family, and it is proven by E1's third arm before it is trusted.
+11. A world may move to Package v2 with provisional, unreviewed use notes, flagged as such in its manifest. The meaning dimension reports but does not block until the reviewed notes land.
+12. The Table stays at two or three seats. No design or build work accommodates more seats until participants ask for it.
+13. The build thread's first pull request, before any code, is this record.
+14. The self-revision wiring is fixed now, ahead of the baseline, as a mechanical fix. `engine/api/config.py` parses `CIC_SELF_REVISION`, but `_build_real_app` in `engine/api/app.py` never passes it to `create_app`, whose default is on. The deploy file's "0" therefore does nothing, against the ruling of 2026-09-30 in `Build/worlds/cappadocian/Open_Gaps_Tracking.md`, and every other-tradition first ask pays for a second Sonnet call.
+15. Nothing is sequenced around old dates. In the project lead's words: "nothing should be delayed, remove that, we want to build as we can, the old schedules are meaningless." Readability findings are fixed as worlds are touched and as capacity allows. The 14 December waiver deadline is not a planning constraint. The `ACCEPTED_OPEN` readability waivers in `engine/m9/enforce.py` are re-dated to the real per-world plan in the first change that touches them, not left to lapse.
+16. The privacy page is corrected now, in words the project lead approves: the visitor cookie, the backups, the quality-control rule, and deletion on request until the deletion feature ships.
+17. Draft PR #690 is closed with a note pointing to the design. pahc OG-19 closes under the horizon rule, as analytic, when slice 5 lands.
+18. A public methods page is drafted now (Sonnet drafts, Opus reviews, the project lead approves). It lands once the baseline numbers exist.
+19. Pay as you go, with conversations kept apart from identity and deleted after 90 days. In the project lead's words: "we are setting up a pay as you go with payment and tracking information, so we should be saying your name and information is never linked or in the same system as the recorded conversations. also after analysis of question and answer trends we delete the conversation (90) days automaticly, but keep the questions to track the most asked questions to better tune the system." Payment runs through the Stripe system already on the site for voluntary contributions, which participants will also use to buy more time; he confirmed this the same day. Name, email and payment details live only in Stripe, which never holds conversations, and the conversation store holds nothing that joins back to them. Conversations are deleted automatically after 90 days. The questions are kept, scrubbed and unlinked, to find the most-asked questions. He added the same day: "we have to track the ip or have a way to track time of users, but we won't connect the names and personal information with the actual questions and conversations. we will protect against the ability to say \"so and so said this or that\"". So three stores are kept that cannot be joined: Stripe (name, email, payment), a time meter (IP address or visitor cookie, time used and bought), and the conversation store (what was said, with no name, email, IP address, visitor id or key shared with the meter). The privacy page in these words goes live in the same change that makes it true; until then the site states today's facts (decision 16).
+
+**Change orders named on the design page.** These are departures from the Program Spec or from the approved design. They are recorded here as named; the first four still wait on the project lead's word, with the design's recommendation stated. Each is tracked in `Build/Ministry/Features/Conversation-Transparency-Engine/Rulings-Pending.md`.
+
+- CO-1. The M5 two-call gate becomes one sealed call if E2 passes. Recommended; decided by the test.
+- CO-2. R30's streaming granularity: release per sentence instead of holding the opening paragraph. Recommended; the paragraph hold guarded checks that now run per sentence.
+- CO-3. Artifact-5 and Artifact-7 are rewritten to match the routes and Table rules the code actually has, plus the new streaming route. Recommended; the alternative is changing the code to match the spec.
+- CO-4. The spec's module list gains M9 (confinement) and M10 (validation and handoff), which exist in the code and not in the spec.
+- CO-6, retention and identity (decision 19). Ruled. The approved design had no accounts, and its 90-day rule covered answers in the quality-control store only. Under decision 19 the 90-day deletion applies to whole conversations in the conversation store, and backups clear 14 days later (slices 2 and 12). The time meter and Stripe must share no key with the conversation store: no IP address, visitor id, session id or session-code hash beside conversation text, and no conversation key in the meter.
+- CO-5, the citation mechanism (decision 10). Ruled. R9, R10, R17 and the R27 family keep their meaning, marks, placement and cap. Only the mechanism changes, from ids the model copies by hand to the citation blocks the API returns. It is not trusted until E1's third arm shows it inside the band or better on invented ids, citation count and meaning fit.
+
+**The merge rule.** The design brief said the project lead's merge rule had never been logged. It was logged on 2026-10-02, in the entry "Claude threads merge their own pull requests" above: merge once every required check is green, except the production promotion, which stays with the project lead. Nothing further is added here.
+
+## 2026-10-02 - Conversation system design: dossiers carry witnesses and stories (decision 20, change order CO-7)
+
+Matcher recall was measured before E1, as the risk guard requires, and the guard tripped: a dossier holding only the matched cell's records would hold 30.7% of what baseline replies cite, and the matcher picks the right cell on 24.7% of probes. An Opus review of 110 out-of-cell citations found 48% load-bearing, chiefly doctrinal witnesses (71%) and stories (67%). The measurements are in the Conversation-Transparency-Engine Decision-Log, Entries 84 to 87.
+
+The project lead ruled on 2026-10-02:
+
+20. A cell's dossier holds the cell's own records plus all of the world's doctrinal witnesses and stories. Terms reach the voice through the index and the glosses. This is change order CO-7 on Design C's staging (decision 3), where a dossier held only the records whose notes name the cell. On the baseline it raises the share of cited records held from 30.7% to 54.3%. E1 is redesigned on this layout, and its settings come back to the project lead before it runs.
+
+He also ruled the same day that Bedrock spend is for generating conversation, and review and grading run inside the build session.
+
+## 2026-10-02 - Conversation system design: one whole-world prompt for every world (decision 21, change order CO-8)
+
+Under decision 20, a cell's dossier came to 74% to 95% of the whole-world prompt, because the world's doctrinal witnesses, stories and shared lists carry most of its text (Conversation-Transparency-Engine Decision-Log, Entry 88). The cost case for cell dossiers mostly went with it, while the wrong-cell risk stayed.
+
+21. Every world uses one whole-world prompt, the design's Design A, as change order CO-8 on decision 3 and superseding the layout in decision 20. The engine shape segment, caching, use notes and the gates stand. E1 narrows to native citations against the hand-copied citation ids on the whole-world prompt, under the cap already approved. The cross-cell questions drafted for the dossier test are shelved.
+
+The project lead also stated the voice's boundary in his words: "the representitive should always be bound by what the world would know. i dont know is better than stepping outside of the world sources", and "if pressure on the representitive is strong, the facilitator can step in and explain the boundry."
+
+## 2026-10-02 - Native citations not adopted (decision 22)
+
+E1 ran native API citations against the hand-copied citation ids on the whole-world prompt, all eleven worlds, for $7.97. A blind Opus review of 33 paired replies judged the hand-copied ids better grounded in 15 pairs and native citations in 7, with 11 ties. Claims not carried by a cited record: 19.9% against 23.9%. Native replies also cited fewer records and still carried hand-typed tags in five worlds. Details: Conversation-Transparency-Engine Decision-Log, Entry 89.
+
+22. Decision 10's change is not adopted. Change order CO-5 (R47) closes without adoption: R9, R10, R17 and the R27 family stay on the hand-copied citation-id contract. The native arm is shelved; a retry would first need an evidence block that prints no ids. Claim support against cited records becomes a measured dimension, reviewed internally by Opus, ahead of the use-note work.
+
+## 2026-10-02 - cic/texts size triggers raised (decision 23)
+
+`cic/texts/` holds 634 MB in 451 files, against a 700 MB planning trigger. The plan (`Build/worlds/_cross-world/PLAN-texts-store-scaling.md`) says to re-open it at that size, and it was re-read against current measurements. The whole repository packs to 2.22 GiB. The 875 MB of MP3 narration under `cic-website/` is larger than the texts and grows with the narration work. A 27-source vendoring in review adds about 37 MB to the texts.
+
+23. The planning triggers move to 1 GB (re-read the plan) and 1.5 GB (act on it), and `cic/texts/` stays in plain git. The project lead chose this over splitting the store into its own repository now and over moving the audio out first. A split still needs the rights gate to learn a "store not checked out" state, and it stays a later, separate sign-off. Where audio is stored is a separate decision and is not made here. The plan now asks for a measured fresh-session start time before the next trigger is set.
+
+## 2026-10-02 - Participant-facing content is modern English only (decision 24)
+
+The project lead ruled: "make sure everything that is participant facing is translated into modern english, we translate quotes and stories and use that in the conversation."
+
+24. Quotes reach the voice and the participant only as their `modern_rendering`, stories only as their `tellable_as`. The source wording never reaches the voice or the app. Asked what a quote's citation card should show at its deepest level, where it showed the original wording, he chose the modern rendering plus the source reference (author, work, section, edition), so anyone who wants the original can follow the reference. The fix and the repin of every world: Conversation-Transparency-Engine Decision-Log, Entry 90.
+
+## 2026-10-03 - Claim support becomes a gate: unsupported plus uncited (decision 25)
+
+The first claim-support measurement (Transparency Engine Decision-Log Entry 92) graded 33 confirm-pass replies, 461 specific claims, with internal Opus review: supported 43%, stretched 11.5%, unsupported 3.7%, uncited 42%. A blind second reviewer agreed on 96.6% of sentences, clearing the 85% bar set with the method.
+
+25. Claim support is a gate. A specific claim fails when the participant cannot trace it to a record that carries it: unsupported (its cited record does not carry it) or uncited (it cites nothing). Today's fleet figure is 45.6%. The threshold is set after the voice is changed to cite every specific claim, measured the same way. The project lead chose this over counting unsupported alone (3.7%, which leaves uncited claims unmeasured), over unsupported plus stretched, and over keeping it as a tracked measure only. It follows his rule that the Representative is bound by its world's sources.
+
+
+## 2026-10-03 - Go Deeper module: design, decision 19 as amended, and the carried review findings (decisions 26 to 31)
+
+The project lead ruled on the Go Deeper design, the module that sells more conversation through a code and Stripe. Decision 19's text above stands as written; decision 26 amends it as a named change order. Funding-Strategy Decision-Log (2026-10-03) holds the page links, the slice map and the professional questions.
+
+26. The design is codes, with the browser remembering. This amends decision 19. The time meter keys on a hash of the code, never on a visitor cookie or an IP address. Stripe, the meter and the conversation store share no key, with one exception, decision 29. The privacy page in these words goes live in the same change that makes it true (decision 16 still governs until then).
+27. The door holds the free path's ceiling. A weekly ceiling rises with net gifts and net purchases over a rolling seven days; as priced spend nears it, free caps narrow in stages, and paid codes are admitted while any headroom remains. The public sees the door's state, never dollars. The base number, stage thresholds, gift share and invoice factor are the project lead's.
+28. A code holds exchanges, the engine's own unit. Price, pack sizes, the sponsor pack and how many exchanges a Table round costs are the project lead's.
+29. The meter keeps the Stripe payment id, so a refund or dispute voids its code and a sponsor's batch can be voided in one step. Conversations share nothing with either store.
+30. All seven blocking findings (B1 to B7) and all thirteen notes (N1 to N13) from Opus round one carry into the build, each closed in the slice the review names. The smallest changes amend the Handoff slices; where they differ, the review and these rulings win.
+31. B3 ruling. At every limit the module adds (code run out, codes paused, each door stage, and the Facilitator-only sitting), a message the safety check reads as unclear, or one where the safety check failed, gets the Facilitator's check-in instead of the limit message. This is the same exemption acute distress already has. Today's two limits (ten exchanges a sitting, the daily cap) are not changed; the engine thread owns them (Conversation-Transparency-Engine Decision-Log, Entry 98).
+
+**Scope.** The conversation engine never learns that money exists, and the module never learns about worlds, records, voices or quotes. A pull request that breaks either sentence is wrong. The module ships switched off behind one flag, with a runtime pause behind the admin login and a written rollback (slice S11).
+
+**Parked items filed.** Engine items: Conversation-Transparency-Engine Decision-Log, Entry 98. The daily-cap record: P1-Security Decision-Log, entry 13. The marketplace statement: Marketplace Decision Log, 2026-10-03. The website items: Website Decision-Log, 2026-10-03. The report note: below. The missing study, the AWS alarm and the network policy: Funding-Strategy Decision-Log, 2026-10-03.
+
+Report hygiene, parked and not touched here: the note in `engine/m8/reports/live-memory-growth-report.json` says six turns, and the file holds ten. The engine reports are the System Health owner's to correct.
+
+Network policy: the sandbox blocks stripe.com, docs.stripe.com, ecfr.gov, consumerfinance.gov, ftc.gov, mullvad.net, meta.wikimedia.org and render.com. Widening it is the project lead's, and is the open item already named under source acquisition in CLAUDE.md.
+
+
+## 2026-10-03 - Go Deeper: what a Table round costs against a code (decision 45)
+
+The Go Deeper build asked the project lead for the one number slice S2 needed (review note N7).
+
+45. A Table round costs 3 exchanges against a code, paid once when the round opens; the voices that follow in the round cost nothing more. The project lead chose this over 1 and over 2. It matches the measured cost of a round, about 2.5 to 3 times a solo turn, and it is easy to say to a participant. The number is a setting (`CIC_DEEPER_TABLE_ROUND_COST`), so a later change is one value. A code is spent only on turns the free allowance would refuse: past the free cap, or once today's allowance is used. It is never spent on a turn the Facilitator answers alone.
+
+Number corrected 2026-10-03: this entry was first numbered 36, which "Admission is bound to the registry pin" also carries. Decision 36 now means the admission decision; this one is decision 45. The substance of both entries is unchanged.
+
+---
+
+## 2026-09-26 — Escalation does not park the document: a named escalated item waits, the document proceeds
+
+**Ruling.** Mark, 2026-09-26: "The document can proceed; only the named item waits. It goes
+to NEEDS-RULING or the world's Open_Gaps file, as long as it doesn't change the document's
+own conclusions. If it does change them (a Representative's identity, the world's boundary,
+the core classification), the document waits."
+
+So the `cic-build-cycle` gate — "If any apply, stop and escalate directly to the project
+lead — do not self-dispose, regardless of how clean the review came back" — is not a
+whole-document hold. It has two branches, and which one applies turns on a test the gate
+never stated:
+
+- **The escalated item does not change the document's own conclusions** → the document
+  proceeds to "Approved to proceed" on the build thread's own self-disposition under
+  CO-022, and the item is registered as a named open item in that world's
+  `Open_Gaps_Tracking.md`, or in `Build/worlds/_cross-world/NEEDS-RULING.md` where it is
+  cross-world. The item waits; the document does not.
+- **The escalated item does change them** — Mark's own three examples: a Representative's
+  identity, the world's boundary, the core classification → the document waits.
+
+**Why it was asked.** The `obel` (Old Believers) package raised it. Its Round 2 independent
+recheck flagged that Step 0 §5 and Doc_02 both named governance/methodology and
+portfolio-level escalations and then announced the thread would self-dispose anyway, which
+read against the gate's plain words; the build thread then parked all four documents on Mark
+rather than answer a question about its own package. Neither reading was obviously wrong,
+which is what made it a real escalation rather than a thread's uncertainty. `obel` is the
+only world that was parked this way — checked across `worlds/` — so there is no fleet-wide
+backlog of documents to release.
+
+**Applied to `obel` the same day.** Its one remaining escalation is the census's own
+`floorNote`/`statusDescription`, which carry an absolute "no question of doctrine arises
+here at all" that this world's own vendored primary source contradicts at p. 34 of the
+Avvakum *Zhitie*, and which were cited approvingly at a Frozen portfolio gate. Tested
+against the ruling: correcting the census moves the census *toward* what these documents
+already say. The documents' own conclusion — the world clears Constitution Article 4's
+floor comfortably, on the Creed's shared content, and the schism is ritual-and-textual
+rather than a rival confession — does not depend on how the census is worded, and no
+Representative identity, world boundary or core classification turns on it. First branch:
+Step 0, Doc_01, Doc_02 and the Source Registry proceed; the census item waits, registered
+in `Build/worlds/obel/Open_Gaps_Tracking.md` and, because it is portfolio-level and touches a
+Frozen gate artifact, also in `NEEDS-RULING.md`'s hand-maintained tail.
+
+**Still owed, and not done here.** The two-branch rule belongs in the governing process
+documents — `CiC_Record_Native_World_Build_Process_V1.8.md` and the
+`cic-build-cycle` skill's own Disposition and Escalation sections — so the next world does
+not re-derive it. Editing those is a coach thread's authority, not a build or review
+thread's; flagged here for one. Until it lands, this entry is the ruling of record.
+
+**Recorded by** the `obel` Round 2 review thread, which also applied it to that world's four
+documents. Worth naming for the audit trail: that thread reviewed the package it then
+dispositioned, so the disposition rests on Mark's ruling above plus the independent
+confirmation recorded at `Step0_Review_Round2.md` §10, not on the
+disposing thread's own view of the documents' quality.
+
+## 2026-10-03 - Verified citation attachment adopted behind a switch (decision 32, change order CO-9)
+
+An Opus diagnostic of 193 uncited claims found 74% carried by a record in the world and 3.6% from outside it: the gap is the citation, not the boundary. Asking the voice to cite more or to stay inside its records did not hold across the fleet. A second, checked step did: on 187 real drafts a Haiku call proposes the record that carries each uncited claim, a second Haiku call checks the proposal against that record's text, and only a confirmed citation is attached. Opus adjudicated all 489 added citations: 79.1% carry the claim, 19.4% partly, 1.4% wrong; on the graded replies the claim-support gate measure fell from 45.2% to 33.1% while the share of cited claims their record carries held at 78%. Details: Conversation-Transparency-Engine Decision-Log, Entries 95 to 97.
+
+32. Verified citation attachment is adopted as change order CO-9, alongside decision 22: the voice's hand-copied citation ids stay, and this adds a second, verified source of citations. The voice's text is never changed. The step is built behind a switch (`CIC_CITATION_ATTACH`), off in production, on in staging; the gate measure is re-run on the live turn path before the project lead decides on production. The project lead chose this over also pushing the voice to cite on its own, over gathering more evidence first, and over not adopting it.
+
+## 2026-10-03 - Citation attachment: production path (decision 33)
+
+On the live turn path (Conversation-Transparency-Engine Decision-Log, Entry 99) the step lowered uncited claim sentences from 37.5% to 24.2% over 186 turns, and Opus found 1.1% of its 460 added citations wrong. A parallel test showed the risk: the step runs on the same Haiku quota as the safety call, and rate limits pushed the safety call to fail closed into a Facilitator check-in on 57 probes.
+
+33. The project lead checks the account's Haiku 4.5 quota in the AWS console (raising it if it is low), then sets `CIC_CITATION_ATTACH=1` on the production service when he promotes. Before that, the step is guarded in code so it yields to the safety call under load: at most two turns attach at once, a rate limit pauses the step for a minute server-wide, and a turn makes at most eight check calls. He chose this over switching it on with the next promotion and over keeping it on staging only.
+
+## 2026-10-03 - Slice 2 scope: QC store and the 90-day purge now (decision 34)
+
+A read-only survey of the engine found that today's operational store (`session_events`) keeps every conversation's text indefinitely, in the same database as the session's visitor id and session-code hash, and that the usage log is keyed by session id and exact time, so it can be joined to it. Privacy page A says so plainly and says no automatic deletion date is set. Nothing deletes conversation text today.
+
+34. Slice 2 builds the anonymous quality-control store as designed (scrubbed questions kept, answers deleted at 90 days, no column that links to a person, no key shared with the usage log or the event log) and, with it, a daily job that deletes a conversation's events from the operational store once the conversation has been inactive for 90 days; the 14-day backup rotation carries the deletion into backups. A conversation older than 90 days can no longer be resumed. The visitor-id link and the usage-log key stay until pay-as-you-go goes live with privacy page B, as the project lead set earlier. Page A's retention sentence changes, in words the project lead approves, in the same release as the purge. He chose this over cutting the identity links now and over building the QC store alone.
+
+## 2026-10-03 - Every message reaches the safety call before any refusal (decision 35)
+
+The Go Deeper thread's Opus review found four places where a participant's message was refused before the safety call read it (Conversation-Transparency-Engine Decision-Log, Entry 98, items 1 to 4): a session already closed by its cap, a table round still open, today's session and daily limits (which exempted acute distress but turned away the check-in and the fail-closed route), and messages over 4,000 characters. A crisis typed in any of them got a refusal and no resources.
+
+35. Each of those messages now goes through the safety call first. When it routes to safety, the participant gets the Facilitator's safety turn exactly as an ordinary turn would give it: the crisis turn with resources for acute distress, the dependency check for a dependency dynamic, the check-in for an uncertain or failed safety call. An open table round is closed first (round reason "safety"); a closed session stays closed. Otherwise the refusal stands as before, and the voice is never called. Every safety route, not acute distress alone, is now exempt from both limits. The API's hard bound on message length is 20,000 characters, so the safety call can read an over-long message before it is refused at 4,000. The project lead chose all four over fixing only the closed session and the open round, and over leaving them for later.
+
+## 2026-10-03 - Admission is bound to the registry pin (decision 36)
+
+Slice 11 found that admission evidence was not tied to the package a world actually serves: most admitted worlds had been repinned since their last live admission run, so their 28/28 results described packages no longer in production.
+
+36. Every world in state admitted or open must have a committed live admission report run on the exact package hash the registry pins. The report must pass all 28 sealed probes, or the probes it failed must match a ruling recorded against that same hash in `engine/m3/admission_rulings.yaml`. `python -m engine.m3.admission_conform` checks this and runs in CI, so a repin without a fresh admission run fails the build. The project lead chose 28/28 or a recorded ruling over a pass threshold.
+
+## 2026-10-03 - The engine shape segment (decision 37, slice 3)
+
+Every world's prompt carried the same fleet rules (register, we-voice, citation contract, limit discipline, about 1,300 tokens), compiled into each package, and 11 worlds also restated the we-voice rule in their own voice notes. A change to how every Representative converses therefore meant a repin of every world.
+
+37. The fleet rules become one engine-owned shape segment (`engine/shape`), built from the fleet_voice record, identical for every world, and sent as the first cached system block of every voice call, ahead of the world's compiled prompt. `SHAPE_HASH` pins it: the segment refuses to load when the hash and the text disagree, so a change to it is a deliberate engine change, and admission now records the shape hash it ran under (decision 36's check requires the current one). The compiler stops compiling the voice notes that only restate the segment (self-reference, openers, honest-limits); identity, guard, concerns and the other flavour notes stay. The we-voice hardening lines move into the segment, the world's name moves to "Who we are", and each world keeps its own worked citation line, tagged with its own record ids, in its own prompt. The project lead chose this over a pure move that kept the repeated notes, and over adding the draft worked exemplar in the same change. Records are untouched apart from the fleet_voice record; removing the repeated notes from each world's records is that world's own cleanup. The worked exemplar waits for its own measured change.
+## 2026-10-03 - Streaming releases each sentence with its marks (decision 38, change order CO-2)
+
+Staging already streamed replies sentence by sentence, as text with no marks, with the marks arriving when the reply finished. Ruling R30 (2026-09-22) had held the opening paragraph back so that the checks could run on it before anything was shown. Those checks now run on each sentence, and since the ruling of 2026-10-02 no check removes a sentence: a sentence that fails verification only loses its mark.
+
+38. Under streaming, each sentence is released once its per-sentence checks have run, carrying the marks the finished plan gives it; the finished plan stays authoritative, and a mark the plan's cap demotes moves to the reference line, never taking a sentence back. This is change order CO-2 on R30 (R44, ruled (a)). Table turns are included: the seat-identity guard runs on each sentence before it is released. The project lead chose this over keeping R30's paragraph hold and over streaming interviews only.
+
+## 2026-10-03 - The R27 gate on streaming is retired (decision 39)
+
+The streaming design of 2026-09-22 (Conversation-Transparency-Engine Decision-Log, Entry 53) said streaming does not ship to participants before R27's own enforcement is on. R27 enforcement regenerates a turn, or hands it to the Facilitator, when a paragraph carries no citation; it has been off in both deploys since. A streamed sentence cannot be regenerated once read, so the two cannot coexist, and uncited claims are now handled without touching the text: verified citation attachment (decisions 32 and 33) and the claim-support gate at admission (decision 25).
+
+39. The Entry 53 condition is retired. Streaming may reach participants when the project lead promotes it, with R27 enforcement left off. Uncited claims are handled by verified citation attachment and by the claim-support gate, whose pass mark the project lead sets once the voice cites every specific claim. The project lead chose this over turning R27 enforcement on first (which would hold every streamed reply whole) and over keeping streaming in staging until the claim-support pass mark is met. Production promotion stays with the project lead.
+
+## 2026-10-03 - Horizon, status and cells gates; records may be analytic (decision 40, slice 5)
+
+The approved design called for a horizon gate (speaking only from inside a world's years, checked against a fleet gazetteer), a status gate (31 records marked draft compiled into live packages) and a cells-required gate (voiced records with no canon cell are unreachable by routing).
+
+40. A record may carry `voice: analytic`: it stays in the world and passes the gates, but the compiler leaves it out of every compiled file, so the voice never speaks from it. The project lead chose this over reusing draft status and over moving such records to build-only files. Three M1 gates are added and block from now on: status-ready (a voiced record of a shipped type may not be draft), cells-required (a voiced term, story, quote, witness, honest limit, contested claim, gravity, force or demonstration names at least one canon cell) and horizon (a voiced record's voice-facing text names no gazetteer event, fleet modern term, explicit year or century after the world's window, except in world_core's horizon and cautions, whose job is to name the edge). The project lead chose to block drafts with counted waivers over compiling drafts out and over promoting them now. Every finding on content that predates the gates carries a counted waiver in `engine/m9/enforce.py` (status 31, cells 347, horizon 23 across the eleven live worlds, deadline 2027-03-15), owned by each world's build thread. The gazetteer is fleet data at `engine/m1/data/gazetteer.yaml`, with the fleet modern_term origin years read alongside it. A report-only runtime backstop runs the same scanner on each reply, and its count goes to the quality-control store as `horizon_mentions`. The slice's re-admission measured time to first text outside the baseline band (1.91 s against 1.34 to 1.62 s) with the voice's input byte-identical to the afternoon's run; the project lead ruled it the provider's latency at a busier hour, not the change, and approved landing the slice with this recorded.
+
+## 2026-10-03 - Admission binds to what the voice reads (decision 41)
+
+Under decision 36 a world's admission evidence was bound to its whole package hash, so a new gate, which changes only the package's validation report, would force fresh admission runs for every world although nothing the voice reads had changed.
+
+41. Admission binds to the package's compiled content (every compiled/ file with its generated-by stamp removed, `engine.m2.manifest.compiled_content_hash`) and to the current shape hash. Admission reports record this content hash; the conform check requires a passing report on the pinned package's content hash and the current shape, and accepts a report written before content hashes were recorded when it ran on the pinned package itself. A change to what the voice reads, or to the shape, still forces re-admission; a change only to the validation report or the frozen record copy does not. The registry pin and load-time verification stay on the full manifest. The project lead chose this over keeping the whole-package hash and over exempting only the validation report.
+## 2026-10-03 - A streamed Table seat caught mid-reply ends at its last shown sentence (decision 42)
+
+Under decision 38 Table seats stream, with the seat-identity guard reading each sentence before release. A catch in a seat's first sentence shows nothing and regenerates the turn as before. A catch after sentences were shown cannot be regenerated without taking back text a participant has read.
+
+42. A streamed seat whose later sentence the guard catches ends at its last shown sentence; nothing from the caught sentence on is shown, and the Facilitator follows the seat's turn with its own line, in words the project lead approved: "This is the Facilitator, stepping in for a moment - {name} began speaking as if another voice at the Table, so I have stopped that answer there. What came before that point stands. Ask again, or bring another voice into it - the Table is still open." The existing seat-correction line was not reused, because it says the answer is set aside unshown. The project lead chose this over holding Table turns whole and over holding each seat's first paragraph.
+
+## 2026-10-03 - The live turn carries only what it acts on (decision 43)
+
+Decision 6 ordered a test of removing the reader call (R43, CO-1). The live turn also computed checks whose results nothing on the turn acts on unless enforcement is switched on.
+
+43. The reader call stays; E2 is not run. The modern-term bridge reads its terms from the fleet dictionary's scan of the participant's message alone: what the reader names no longer renames or adds to them. The checks that only report (uncited claims, paragraph coverage, named claims, the fact check and the output-check families) move to M7 (`engine/m7/offline_checks.py`), which re-runs them over logged turns; the live turn computes them only when the R27 or sentence-level enforcement switch is on, because only then does the turn act on them. The live output check keeps the horizon family only, the runtime backstop of decision 40. The project lead chose this over running E2 to decide whether to remove the reader.
+
+## 2026-10-03 - Go Deeper: the unit is tokens (decision 46, a named change order)
+
+The project lead ruled that a code holds tokens, one currency for conversations and rounds alike. Basis: the Token Proportions Study (https://claude.ai/artifact/NHompAUFtzwLVXEBYgbjJ8). The Funding-Strategy log carries the build entry.
+
+46. A code holds tokens. Solo: 50 to open a conversation, 20 a round for rounds 1 to 3, 25 a round from round 4. Table: 50 a seat to open (100 at two seats, 150 at three); a round costs 60 at two seats and 100 at three, and from round 4 it costs 75 and 125. The free allowance is 330 tokens a day, and a free conversation stops after 3 rounds; a code lifts that stop. Packs: $7 = 1,100 tokens, $15 = 2,750, $30 = 6,600; nothing is sold under $7. A conversation's opening amount is drawn with its first admitted round, on top of that round's own amount, so a three-round solo conversation draws 50 + 3 x 20 = 110: the $7 pack is 10 conversations and the free day is three. Nothing is drawn by opening a conversation and leaving without a message. This supersedes the 2026-10-03 ruling "a code holds exchanges" and decision 45 (a Table round costs 3 exchanges). The meter, the free path, the words and the door change in later slices, one each.
+
+## 2026-10-04 - Fleet records live with the engine modules that own them (decision 44)
+
+Decision 8 moved the non-world kinds out of the worlds; the design left the one cross-world contested claim and the two fleet sources to the project lead.
+
+44. The fleet's records leave records/_fleet/ for the engine module that owns each kind: the fleet voice record to engine/shape/records/, the canon questions to engine/canon/records/, and the modern-term record to engine/m5/records/ together with the contested claim (Theophilus's triad) and the two sources (Theophilus, To Autolycus; Tertullian, Against Praxeas) that its card cites. They keep their ids and stay under the full gate battery, the fleet readability waiver included. The project lead chose this over keeping the claim and sources in records/_fleet and over parking all three.
+
+## 2026-10-04 - World fronts, briefs and search records leave records/<code>/; old paths map to new homes (decision 47)
+
+Decision 8 moves the non-world kinds out of the worlds. The world fronts and facilitator briefs are product surface and the search records are build residue; ten citations of their old paths sit in nine documents owned by other world threads, whose edit would bring each file's existing commentary into scope under the live-surface rule.
+
+47. World fronts and facilitator briefs move to Build/worlds/<code>/surface/ and search records to Build/worlds/<code>/build/records/, under a freeze window the project lead declared on 2026-10-04. Their sources stay out of cic-website/, which is served publicly; the site JSON compiled from them stays where it is. Old path prefixes are listed in tools/moved_paths.txt, and tools/check_paths.py accepts an older document's citation of an old path only while the file exists at its new home, so the path baseline does not grow and no other thread's document is edited. The project lead chose this over carrying the ten in the baseline and over editing the nine documents.
+
+## 2026-10-04 - A use note's cells are the record's canon_cells (decision 48, a named change order)
+
+The design gives every citable record a use note of four fields: means, not_for, years and cells. Records already carry canon_cells, which the cells-required gate requires and which name exactly the cells a record may serve.
+
+48. A use note carries means (one sentence), not_for (at most four claims) and years (the span the record speaks from), with a status of provisional or reviewed. The cells it serves are the record's own canon_cells; the note holds no second list. This is a change order to the design's four-field note, chosen so dossiers (slice 7) are built from one source of truth. The project lead chose this over a separate note cells list kept in step by a gate. Two gates land with it: use-note-present (every voiced quote, witness, term, story, honest limit, contested claim and gravity carries a note; existing gaps carry counted waivers owned by each world's build thread, deadline 2027-03-15) and use-note-shape (one sentence of meaning, no instruction, at most four not-for claims, years ending inside the window; blocking).
+
+## 2026-10-04 - A world takes its use notes when its meaning grade improves (decision 49)
+
+rzg was the first world given use notes. With them it passed admission 28/28, its cost per reply rose about 9%, and a blind Opus grade of every load-bearing use in a run without notes and a run with them found 8 of 114 misread without (7.0%) and 4 of 121 with (3.3%), accepted 62% and 72%.
+
+49. rzg is pinned to its notes, and the rest of the fleet takes notes world by world in the design's order, gallic last. Each world's notes are drafted (Opus for quotes and witnesses, Sonnet for the rest) and reviewed by an independent Opus pass; the world is admitted with them on Bedrock (about $0.40 a world, cap stated each time, sample first); and a blind Opus meaning-fit grade compares its run without notes and its run with them (engine/m7/meaning_fit.py). A world is pinned to its notes only when that grade shows misreads falling. The project lead chose this over a second confirming run on rzg first and over pausing the fleet until dossiers (slice 7).
+
+## 2026-10-04 - Paid Bedrock runs frozen pending the AWS bill (decision 50)
+
+The project lead found that the Bedrock runs are billed through AWS Marketplace, which the project's credits do not cover, and that metered spend over the last two weeks has run to hundreds of dollars. The engine has called Claude through Amazon Bedrock (`engine/provider/bedrock.py`, `AnthropicBedrock`, `us.anthropic.claude-sonnet-4-5-20250929-v1:0`) since 2026-08-21; nothing switched recently, but no thread checked how Bedrock usage is billed, and per-run caps were treated as the only control. Committed run reports record $66.88 of metered spend for 2026-10-02 to 2026-10-04 (baseline $16.66, experiments E2-E4 $19.33, admission rounds $27.37, use-notes admissions $3.52), plus about $0.29 in unsaved samples and one aborted hal run whose cost was not recorded (at most about $0.55).
+
+50. No Bedrock call is made, by any thread, until the project lead has checked the AWS bill and decided how conversation generation is paid for. Unmetered work continues: drafting and Opus review of use notes, record-defect logging, CI fixes and pull requests. The slice 6 rollout pauses at its admission step: hal (notes reviewed, sample run, full admission not run) and alx (notes reviewed, not admitted) wait on branches, and desert, witt, cappadocian and gallic are not started past drafting. The open alternatives, an Anthropic API provider drawing on API credits or stopping the rollout, are the project lead's to choose.
+
+## 2026-10-04 - A world takes its use notes when its meaning grade holds and acceptance holds or rises (decision 51)
+
+The project lead set the bar for the use-note rollout at scholarly acceptance, not perfection. Under decision 49 a world took its notes only when its blind misread rate fell; alx's went from 4.5% to 4.7% (9 of 200, 11 of 232), a difference inside the run-to-run noise of a single run per condition, while its accepted share rose from 72% to 76%.
+
+51. Decision 49 is amended: a world is pinned to its use notes when its blind meaning-fit grade shows no real rise in misreads and its accepted share holds or rises. A rise beyond what one run per condition can separate from noise, as don's (1.1% to 3.6%), still holds a world. alx is pinned under this rule. Wording that a reviewer finds could be tighter, but that is not wrong, unsupported or misleading, does not hold a release or trigger a paid re-admission; it is logged in the world's Open_Gaps_Tracking.md for its next admission.
+
+## 2026-10-04 - Pre-launch review: spend kept low, a wrong fact does not stop launch (decision 52)
+
+The pre-launch review (plan at `https://claude.ai/artifact/3258m7Z3dgAXMNhWf6sJmN`; results in the Conversation-Transparency-Engine Decision-Log, Entry 124) found that the voice sometimes states a wrong or unrecorded detail: about one reply in forty in the old-against-new grade, at the same rate as the engine before use notes, and four of ten conversations baited for a teacher's family and last words. The plan's stop rule read "any safety-turn failure or any invented fact stops launch until fixed and re-run".
+
+The project lead ruled:
+
+52. Model spend stays on the Bedrock API and as low as possible; the build is over its spending. Each paid run needs its own cap from the project lead, as decision 50 requires, and a run stays inside it: a run that cannot finish inside its cap stops and reports. The stage 3 stop rule is adjusted: a safety failure (a crisis turn the Facilitator misses, a voice that speaks on a distress turn, crisis resources not appended) stops launch; an invented or wrong fact does not. It is logged in the world's Open_Gaps_Tracking.md for its build thread and put on the scholar spot-check list, and only a repeated pattern in one world holds that world. In the project lead's words: "we are not pursuing perfection". The extra limit-discipline sentence tested in the review is dropped, so every world stays on the shape segment it is admitted and running on.
+
+## 2026-10-05 - Go Deeper: accounts, a named change order for the version after the codes launch (decision 53)
+
+The project lead ruled, converged, auto mode, on an optional account for people who want to keep their conversations and tokens. The codes product launches as built and ruled; nothing in its build, its rulings or its runbook changes. The full text is the Funding-Strategy Decision-Log entry of the same date; the design is the page "Go Deeper Accounts Review" (`https://claude.ai/artifact/NTTKUrGeKJ73nYkcPNfhjJ`) and the slices are "Accounts Build Plan" (`https://claude.ai/artifact/GHerMTQjcKNkLKM1GrvK83`).
+
+53. Accounts are a named change order on the 2026-09-03 lock "no accounts for this launch" and on decision 19 as amended by decisions 26 and 29. An account is open to anyone at any time, signs in by an emailed one-time code, and holds a person's codes, the list of their conversations and an allowance. The account store keeps a scrambled value of the address under `CIC_ACCOUNTS_KEY`, never the address; we store no name or address of our own, and what a person types is kept as they typed it. Decision 19's three unjoinable stores stand for everyone without an account. For an account holder the account store is the join between tokens and conversations, by design. Saved conversations are kept until deleted or two years unused; anonymous conversations keep the ninety days. The account store never holds a value the meter or Stripe also holds; a code is linked only as a keyed scramble of its hash under `CIC_ACCOUNTS_KEY`. The program stores no name or address of its own, and what a person types in a conversation is kept as typed. Stripe's information stays with Stripe: the program keeps nothing Stripe holds about a buyer, the account store never receives anything from Stripe, and the payment id alone stays under decision 29. Everything ships dark behind `CIC_ACCOUNTS_ENABLED`, and off is the codes product exactly. Account slices A1 to A7 start after the door's observe week.
+
+## 2026-10-06 - Metered model spend is only for approved live testing (decision 54)
+
+The project lead found that build threads had been spending metered model time, billed through AWS Marketplace since the engine moved to Bedrock on 2026-08-21, on the new engine's own gates: re-admitting a world and re-grading its meaning fit whenever its records changed. He had approved live testing of quality, not program changes paying for model time. Decision 50 froze paid runs pending the bill; this decision replaces the freeze with a standing rule and a physical control.
+
+54. Metered model spend is only for live testing of quality that the project lead approves by name, with a cap. No build thread calls the model for any other purpose: not an admission battery, a grading run, a meaning-fit measurement, a baseline or an experiment, unless the project lead has approved that specific run as a live test. A gate in the engine that cannot pass without a model call stops and asks; it does not run. The AWS keys are removed from the shared Claude Code cloud environment, so no build thread can reach the model by accident; they stay on the Render services, where real conversations run, and in one separate environment used only for approved live tests. CLAUDE.md carries the rule under usage discipline.
+
+## 2026-10-06 - The model route: Bedrock primary, the Anthropic API a manual second (decision 55)
+
+The billing audit of 2026-10-06 (artifact "CiC Billing Audit") found that the engine's move to Amazon Bedrock on 2026-08-21, approved by the project lead to spend a $140 AWS credit, continued at full Marketplace rates once that credit stopped covering it in mid September, with no stop on the route and no alert on Marketplace lines. The token prices on Bedrock and on Anthropic's own API are the same; Bedrock's regional inference profiles, which the engine pins, carry a ten percent premium over global ones. The project lead ruled:
+
+55. Amazon Bedrock is the engine's primary model route and stays so after any credit runs out. The Anthropic API is a second, manual option for testing, on the credit the project lead holds there; its key lives only in the live-tests environment, never on Render. No charge reaches Bedrock other than the engine's own conversations and the live tests the project lead approves (decision 54). Two stops are built: the Go Deeper door, turned on at the engine per the turn-on runbook's step 2, as the weekly ceiling on the voice's priced spend; and an AWS Budget action that denies Bedrock invocation to the engine's user at a threshold, created by the project lead from settings the build thread supplies. Where a global inference profile exists for a model in use, the engine selects it; the voice's move to Sonnet 5.5 on a global profile is its own capped live test. The usage log records and prices each call by the route that served it, and the monthly reconciliation reads the Marketplace lines and the Anthropic console against it. The project lead checks the $140 credit's page and applies for a covering credit if one exists; nothing waits on that.
+
+## 2026-10-06 — Model route built (decision 55): what shipped, and what it leaves for Mark
+
+PR #807 built the second client behind the provider seam, the usage log and pricing by route, the profile listing, the Budget runbook and the monthly reconciliation. No model call was made (decision 54); Opus cleared it with no blocking finding.
+
+- The route is `CIC_MODEL_ROUTE`, default Bedrock. The Anthropic client builds only when the route is set and its key exists, and never when `RENDER` is set, so a dashboard setting cannot reach it from the deployed engine.
+- The 1.10 regional-profile premium sits in the usage summary only. The door still prices at list and applies its own 1.35 invoice factor; the first monthly reconciliation measures that factor against the invoice.
+- Global profiles are not selected automatically. A listed profile can still be denied, so moving to one is a setting change followed by the capped live test.
+- Left for Mark: creating the deny policy, the Budget and its execution role from `CiC_Model_Spend_Budget_Runbook.md`; confirming the Budget's scope wording against the invoice; approving the Sonnet 5.5 live test by name.
+
+## 2026-10-06 - Conversations are the only model spend (decision 56, a named change order on decision 54)
+
+The project lead, reading the dated admission reports (seven fleet runs on 28 and 29 August, two full fleet runs and sixteen single-world runs on 3 October, four more on 4 October), ruled that he cannot afford the fleet battery on every small adjustment, and that removing the keys from the shared cloud environment, decision 54's physical control, would also block the test conversations he does want. He stated the rule in one line: the only thing that should charge is running conversations, to test or as a participant. The control moves into the engine.
+
+56. The only model spend is conversations: a participant's conversation on the live engine, and a test conversation the project lead runs himself or approves by name with a dollar cap. No gate, admission battery, grading run, meaning-fit measurement, baseline or experiment calls the model on its own; a thread that believes one is needed asks the project lead, who may approve it as a named, capped test, once, in the step before a promotion to live. The engine enforces it: outside a participant conversation, a model call runs only when the command carries a live-test name and a cap; without both the command prints the rule and exits before any call. A run that is approved prints its name, cap, model ids and route before the first call, stops at the cap, and writes the name into the usage log, so the monthly reconciliation matches each charge to a named approval. Every other change is proven by the gates that need no model: record structure, package determinism, readability, library confinement, and the engine tests on the fixture answerer. The AWS keys may therefore stay in the shared Claude Code cloud environment. Render's keys are rotated so that live conversations and development never share a key. The rest of decision 54 stands. CLAUDE.md's usage-discipline bullet for decision 54 is updated to this by the build thread that builds the guard, as its own pull request ahead of other engine work.
+
+## 2026-10-06 - The voice sees all of it: the hand-off from choosing to speaking (decision 57)
+
+Design C aligned what the engine chooses: asks matched to canon cells, a meaning gloss on each candidate, a meaning-fit grade. It did not change the hand-off from choosing to speaking, and the project lead heard the result on 5 October: names instead of quotes and stories, questions left unanswered, length and focus varying turn to turn. Read from the 5 October engine: each chosen record reaches the voice as its id, type, gloss and first sentence only; no instruction asks for a quote or a story, because the voice shape's stories-and-quotes section is emitted only when the fleet voice record carries a field it lacks; the only length control is a 1,024-token ceiling that cuts a reply off; the per-turn directive moved from a system block, the channel the code names as measured to win, into the user message. Showing the voice everything it chose is cheap: a quote's full modern rendering is about 330 characters at the median, a story's retelling about 140, a term's plain meaning about 180, against a 9,000-character evidence budget. The project lead ruled, and took the recommendation on all four choices (artifact "Voice Hand-off Brief"):
+
+57. The voice sees all of it and produces a focused answer, never cut off for length, pressured to be concise, academically rigorous: not perfect, academic acceptance. Four changes to the Design C engine on main, one slice, one pull request, no model spend to build: (1) every chosen record reaches the voice in full, modern rendering, retelling and plain meaning, inside the existing 9,000-character budget, and an overflow drops the lowest-ranked candidate whole rather than cutting any record short; (2) the reply ceiling rises to 2,048 tokens so no reply is truncated, and the pressure to be concise goes into the per-turn directive: answer first, the fewest sentences that carry the answer, its reason and one quote, most replies between 120 and 220 words, a question that earns more may take more; (3) the fleet voice record gains the stories-and-quotes field so the section is emitted, asking for one quote in full in its modern rendering where the question touches a quoted record, a story told from its retelling when the question earns one, and every other record cited, never merely named; (4) the directive returns to the second system block, with the user-message form kept behind a flag for a staging comparison. Rigor is unchanged: every claim carries its record tag, the net checks it, hedges stay in the world's own words. The change is judged by the Opus analysis thread reading staging transcripts before and after, for whether the first sentence answered the question, whether the reply quoted or told where the records offered it, and whether the marks landed on quoted words rather than names; the gate numbers ride alongside with words-median and cut-off rate as guard rails. That reading is a named, capped live test under decision 56. Temperature, retrieval ranking, canon cells, use notes and the Facilitator gate are out of scope.
+
+## 2026-10-06 - Admission is a promotion gate, not a merge gate (decision 58)
+
+The voice hand-off build thread (decision 57) stopped at engine/m3/admission_conform, the gate added on 2026-10-03 as slice 11: every admitted world must hold a live admission report bound to the package content the registry pins and to the engine's current voice shape, so a change to the shape, or a rewrite of a world's records, fails the engine suite until the fleet is re-admitted with real model runs. That binding is the mechanism behind the 3 October spend (two full fleet runs and sixteen single-world runs in one day) and would have charged a fleet battery for the voice slice, for the focus slice, and for every record pass after them. The project lead, having read all eleven Representatives' answers to "who is Jesus" against the gate's own measures, ruled that the battery measures what passed Design C while his ear failed it, and that it cannot gate every change. He ruled:
+
+58. Admission conformance is a promotion gate, not a merge gate. In CI, engine/m3/admission_conform runs as a report: it lists each admitted world's latest report with the package content hash and shape hash it ran under, and marks which are stale against the current package or shape, and it never fails the engine suite. The binding itself is unchanged; what changes is when it is enforced. Before a promotion from main to live, the promotion runbook gains one step: the project lead approves one named, capped admission run under decision 56, for the whole fleet or for the worlds whose package or shape is stale, and its reports are committed with the promotion; admission_conform run with --enforce in that step must pass before the promotion pull request opens. Between promotions, changes to the voice shape and to records are judged by the staging reading (decision 57) and by the gates that need no model. The voice hand-off pull request carries this change as its own commit, ahead of its other changes, so the gate is changed at the source rather than paid around.
+
+## 2026-10-06 - Live test approved: voice hand-off staging reading, 7 October (record under decision 56)
+
+The reading thread stopped before its first model call because no log entry named this test or its cap, and asked. The project lead approved it twice in writing on 6 October, in the design thread and in the reading thread itself: name "voice hand-off staging reading, 7 October"; cap $5.00 of metered model spend; run without the engine guard, which decision 56 asks for and which is not yet built (the live-test guard slice follows the question-kind slice). Shape of the run: the engine's own live-turn runner (engine.m4.live_turn_run) in the thread's container against Bedrock, region us-east-1, on main at the #811 merge; eleven admitted worlds, four questions each (who is Jesus; what did he do; what does the world's central word mean; why did your people believe this); the thread prints the test name, cap, model ids, route and commit before the first call and keeps a running total that stops before the cap. Output: an Artifact page "Staging Reading, 7 October" with every reply and its five scores, and a reports-only pull request carrying the eleven live-turn reports. This entry is the record decision 56 requires; the usage log cannot carry the name until the guard lands.
+
+## 2026-10-06 - Three net checks: quotations, attributions, recitation (decision 59)
+
+The 7 October staging reading (44 replies, eleven worlds, on the merged voice hand-off) showed the directive working: no reply restated its question, every reply fell between 140 and 245 words, and every sentence carried a citation. It also showed what a citation does not prove: an audit of the Alexandrian replies against its 168 records found five claims cited to records that do not say them, five replies across the fleet carried quotation marks around words in no record (John 1:1 and 1:14; a Gregory line on "transfusion of the divine"; Alexandria's "physician enters the sickness" image spoken by the Cappadocian voice; a Nicaea line in Bethlehem), about eight sentences attributed words to a named figure while citing a witness record rather than a quote record, and three worlds answered "Who is Jesus?" by reciting a compiled demonstration record word for word. The project lead ruled the engine's share first, worlds after:
+
+59. Three mechanical checks in the voice net, no model call. (1) Quotation marks are a claim of verbatim words: a span inside quotation marks must be found word for word in a record of the world, with the net's own window matching; otherwise the marks come off and the sentence is withheld, reason named. (2) Attribution has two levels: a sentence that attributes words to a named figure (an attribution verb beside the figure's name, with quotation marks) must cite a quote record whose speaker is that figure, or it is withheld; a sentence that attributes a position without quotation marks may cite a witness, term or contested-claim record. (3) A reply that reproduces twenty or more consecutive words of a demonstration record triggers the net's one regeneration with the line "compose the answer from the records in front of you; do not reproduce a demonstration"; a second match passes through and is recorded on the voice event as recited_demonstration so the reading can count it. Built by a Sonnet thread as its own pull request, in engine/m4/grounding_net.py and engine/m4/turn.py, apart from the question-kind slice's files. The world-level findings (thin theosis records in Cappadocia, thin creed material in Bethlehem, the Donatist "why" circling the schism) go to the record pass after the engine checks land. Whether demonstrations stay in the prompt at all is a later decision, taken on the recitation count the check produces.
+
+## 2026-10-07 - Conversation rhythm: quotes and names paced, lexicon connected once, stories where the records hold them (decision 60)
+
+The 7 October staging reading showed the quote line working too well: the Alexandrian voice voiced the same Athanasius line in three of four replies because every turn was asked for a quote, and stories appeared in six of forty-four replies while the question that most invites one, "What did he do?", got a story in one world of eleven. The project lead ruled that none of these is a per-reply quota: a reply with a quote, a story and three glossed words every time would be formulaic and long, and the worlds differ in how many words and stories they hold.
+
+60. Rhythm across the conversation, not per reply. (1) Quotes: one voiced quote every three rounds; until three rounds have passed since the last, the directive's quote line is off and the quote floor drops to one record, in reach but not asked for; a question that asks for the words themselves ("what did he say", "how did they put it") earns a quote whatever the count; no line is voiced twice in one conversation. (2) Names: a new figure is introduced at most every three rounds; a figure already introduced may be spoken of freely; the bridge mark lands on the first introduction. (3) Lexicon: the voice uses as many of the world's own words as the reply naturally carries, and each is connected by its mark once per conversation, on first use; the per-reply mark cap no longer drops lexicon marks, and stays for figure and story marks. (4) Stories: where the records hold a story for the question, the voice tells it as the record tells it rather than summarising it; where they do not, it does not reach for one; the story floors by kind keep a story in front of the voice when one exists. The reading measures rhythm accordingly: a quote about every third round, no repeat, every world word connected on first use, a story wherever one existed for the question. The lexicon cap change rides with the decision 59 net-checks pull request; the quote and figure cadence is its own slice after the question-kind slice lands, in the same files.
+
+## 2026-10-07 - Referring back: a quote or story used again is recalled, not repeated (decision 60, refinement)
+
+Decision 60 says no line is voiced twice in one conversation. The project lead refined it the same day: a quote or story that bears on a later answer is not lost to the conversation; the voice refers back to it ("the idea is as I quoted earlier"; "this story applies here as well") rather than repeating it as if new. Ruling: (1) a quote or story record already used in the conversation stays in the evidence block, tagged with the round it was voiced or told in, instead of being dropped from the candidates; (2) the directive says that where such a record bears on this answer, the voice refers back to it in the world's own idiom rather than repeating it, and the phrasing is never scripted, so no Representative shares a stock line; (3) a referred-back record does not satisfy the quote floor, and the "one quote in full" line still asks for a new quote when three rounds have passed; (4) the sentence still cites the record, so its mark appears as now; the quotation and recitation checks of decision 59 are untouched, a back-reference carrying no quotation marks. Rides in the rhythm slice as its sixth scope item; the tally it needs (quote ids voiced, story ids told, by round) is the one the slice already builds from the transcript events.

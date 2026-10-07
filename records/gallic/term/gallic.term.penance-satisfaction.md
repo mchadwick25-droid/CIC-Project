@@ -111,6 +111,15 @@ quick_meaning: >-
   for more, barred from prayer with the brethren; for the worst, stripes or expulsion. At Tours,
   the master's prayer brings the sinner back.
 distortion_risk: high
+use_note:
+  means: "Penance meant the house's public discipline: lying on the ground until the Abbot bids rise, or barred from prayer, with no priest needed to restore the monk."
+  not_for:
+    - "sacramental penance as private confession with absolution by formula"
+    - "penance as self-punishment, or satisfaction as a scholastic category"
+    - "the disclosure of thoughts before sin, which sits in gallic.term.disclosure-of-thoughts"
+    - "documented Gallic practice, when whether any Gallic house kept the graded scale is not recorded"
+  years: {from: 404, to: 435}
+  status: reviewed
 ---
 Built from Doc_06 entry 067 (`galliclex067_penance-satisfaction.md`, Tier 2, tags SC TC DR;
 Doc_03 8.7), promoted from Tier 3 at Doc_06 section 2.4 on Doc_05's organizational weight

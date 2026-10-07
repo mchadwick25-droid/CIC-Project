@@ -5062,3 +5062,434 @@ and how the toggle sits on a small screen.
 
 1. Merge; Mark tries a card, a story inside it, and the checkbox on the live
    site, ideally also on a phone.
+
+## 2026-10-02 — Feedback on the live narration: iPhone silence, speed control, portrait as part of the launch target
+
+Three pieces of feedback from people using the live map.
+
+**1. iPhone: a world's narration plays but is silent until stopped and started.**
+Cause: for a built world the player did not exist when the card opened. The
+card's text arrives from a fetch, and narration was started when that fetch
+finished, outside the tap. iPhone Safari only produces sound when playback
+begins inside the tap itself; started later it advances with no voice, and a
+second, manual play (inside a tap) works. Fix: the list of which worlds have
+audio is read once at page load, so a built world's story player is drawn in
+the same tap that opens the card and started there. The fetched text then
+fills in below it without a second player and without restarting audio the
+reader has paused. A story opened with its arrow now starts inside the click
+as well, not from the later `toggle` event. **Not reproduced here:** there is
+no iPhone or WebKit in this environment. The sound problem is judged fixed by
+this cause, not confirmed; it needs a retest on an iPhone. If it recurs on
+iPhone, the fallback is to leave iPhone cards on tap-to-play.
+
+**2. Speed control.** A row of 1×, 1.25×, 1.5× and 2× buttons sits beside the
+"Start narration automatically" checkbox and applies to every player in the
+card, including stories opened later. The choice is remembered per browser
+(`cic.narration.rate`); pitch is preserved.
+
+**3. The portrait is part of the launch target.** On the map, a built world's
+portrait roundel was set to ignore clicks, so tapping the face did nothing
+and only the small dot beneath it opened the world. Measured before the fix:
+0 of 7 portraits opened their world; after: 7 of 7. One portrait (the
+Cappadocian world's) sat under the Forty Martyrs of Sebaste book mark, which
+is drawn above the nodes, so a tap on its face opened the story instead.
+Portrait placement now treats story marks as obstacles, for the face and for
+the name beneath it, and steps the portrait up until clear, the way it already
+does for other worlds' dots and portraits. Only the Cappadocian portrait
+moved.
+
+**Checked.** In a headless browser against the local site: a real click on a
+portrait opens its world; with the world's text delayed 2.5 seconds the story
+is already playing before it arrives, appears once, and a hand pause stays
+paused; each speed button sets every player and the choice carries to the next
+card; a story opened with its arrow starts at the chosen speed and pauses the
+rest; closing the card stops everything. No script errors.
+
+### Next action
+
+1. Merge; Mark or a tester tries a world card on an iPhone (sound from the
+   first second), the speed buttons, and tapping a portrait on the map.
+
+## 2026-10-02 — iPhone narration still silent after the tap fix: the audio host ignores Range requests
+
+**What happened.** The change that starts a built world's narration inside the
+tap (PR #692) did not stop the silence on Mark's iPhone: playback advances with
+no voice until it is stopped and started. Speed buttons and the portrait tap
+work. So the earlier diagnosis (playback started outside the tap) was incomplete;
+the in-tap start is kept, since iPhone Safari does require it, but it is not the
+whole cause.
+
+**Evidence for the cause.** A request with `Range: bytes=0-1` to any narration
+file on the live site returns **200 with the whole file** (12.8 MB for the
+Donatist story), no `Accept-Ranges`, no `Content-Range`. Cloudflare's static-asset
+serving ignores Range. iPhone Safari's first request for media is `bytes=0-1` and
+it only accepts a 206 answer; a server that ignores Range gives it a stream it
+cannot seek or treat as complete, which fits a first play that advances silently
+and a second play, served from the browser's cache, that works. Seeking on a
+phone needs the same support.
+
+**Not confirmed.** There is no iPhone or WebKit in this environment, so the link
+between this defect and the silence is judged from the evidence above and from
+published reports of Safari requiring byte ranges, not observed. A test that
+would confirm it on the phone: with "Start narration automatically" off, press
+play on a story that has never been played; if the first play is silent and a
+stop-and-start fixes it, the cause is the file load, not the autoplay.
+
+**Fix.** `cic-worker/worker.mjs`, a Cloudflare Worker that runs only for
+`/audio/*` (`run_worker_first` in `wrangler.jsonc`): it reads the asset, answers a
+single `bytes=` range with 206, `Content-Range` and `Accept-Ranges: bytes`, 416 for
+an unsatisfiable range, and advertises `Accept-Ranges` on full responses. Every
+other path is served straight from the assets as before.
+
+**Checked.** Eleven unit tests; and the real Workers runtime locally
+(`wrangler dev`): the Safari probe returns 206 with the right two bytes, middle
+and open-ended slices match the file byte for byte, full requests return 200 with
+`Accept-Ranges`, HEAD works, an out-of-range request returns 416, pages and JSON
+are unchanged, the site's security headers still apply to audio, and Chromium
+plays and seeks the file with 206 responses.
+
+**Risk.** This changes how production serves audio. The Worker adds an
+invocation per audio request and holds one file in memory per ranged request
+(up to about 13 MB). If it misbehaves, reverting `wrangler.jsonc` restores the
+previous behaviour.
+
+### Next action
+
+1. Merge only after the Cloudflare build for the PR succeeds; Mark retests a
+   world card and the first play of a never-played story on the iPhone.
+
+## 2026-10-02 — iPhone silent narration: root cause is the `<source>` child tag
+
+**Finding.** A diagnostic page on an iPhone (iOS 26 Safari) ran eight
+variants of the map's audio setup. Players built with a `<source>` child and
+`preload="none"` never loaded (readyState stayed 0 and no sound came out) even
+though `paused` read false. Players with `src` set on the `<audio>` element
+itself, and a detached `new Audio(url)`, played. The panel, the inert wrapper,
+the playback-rate code and the pause-the-others handler were all cleared.
+
+**Decision.** Every player now sets `src` on the `<audio>` element: the map
+(`atlas-v3.html`), the shared renderer (`orientation-render.mjs`), the tree page
+generator and the generated tree and tradition pages. The earlier
+tap-gesture change and the Range-aware Worker (PR #696) were not the cause; the
+Worker stays a separate decision for seeking support.
+
+### Next action
+
+1. Mark retests a world card and a story on the iPhone after the deploy.
+
+## 2026-10-02 — Ten superseded tree audio files removed
+
+**Decision.** The ten built-world files in `cic-website/audio/tree/` (the
+older recordings of text since replaced by each world's own story) are deleted.
+Mark ordered the deletion. A repository search found no page, script or record
+that points at any of them; the map plays each built world from
+`audio/worlds/`, and Wittenberg's own description file stays.
+
+### Next action
+
+1. Wittenberg's full world story and legacy still wait on its `world_front`
+   record, which is a world-build step, not a narration step.
+
+## 2026-10-02 — The site's own pages narrated in one American voice
+
+**Decision.** The Unfolding Story (the landing page section and `story.html`)
+and each section of the About page are narrated in one voice that belongs to no
+Representative. Mark did not want his own voice simulated and does not record
+well, so a library voice was chosen by ear. Mark heard six candidates (George,
+Alice, Brian, then Bill, Eric, Chris), wanted George without the British
+accent, first named Eric, then corrected himself and chose Bill. Eric's file
+was replaced before anything shipped.
+
+**Scope.** The Unfolding Story and the five About sections (mission, five
+convictions, how it works, safety, about us). Support, privacy, What's Next and
+Feedback are not narrated: the privacy text is legal, and What's Next and
+Support change often, so their audio would go stale or be misread.
+
+**Settings, as printed by the runs.** Voice `pqHfZKP75CvOlQylNhV4`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+64 kbps (`mp3_44100_64`).
+
+**Cost.** 6,172 characters in six pieces: 240 credits for the Unfolding Story
+(regenerated once after the voice change, so 480 spent on it) and 583 for the
+five About sections, plus 456 for the six samples. The text is read from the
+pages by `Build/tools/generate_site_narration.mjs`, which writes
+`audio/site/<piece>.mp3` and a manifest with each text fingerprint and the
+voice used, so an edit to a page shows its audio is stale.
+
+**Wired.** A player with the synthesized-voice note sits under the heading on
+the landing page, `story.html`, and under each About section heading. None
+starts by itself: a landing page that speaks unprompted is a different choice
+than a card the visitor opened.
+
+**Limit.** The library has no Colorado-labelled voice and the key cannot search
+voices; Bill is general American English.
+
+### Next action
+
+1. Mark listens on the live site.
+
+## 2026-10-02 — The Facilitator's welcome spoken in the one-to-one conversation
+
+**Decision.** The Facilitator's welcome for the conversation of one is spoken
+in a female host voice. Mark chose it by ear from four American female
+voices (Rachel, Sarah, Jessica, Laura). The multi-voice Table is left out for
+now: its welcome names whichever worlds are seated, so it cannot be recorded in
+advance the same way. Mark also asked that the welcome start by itself after a
+brief pause when the conversation page loads, and that it carry no speed control
+because it is short.
+
+**Settings, as printed by the run.** Voice `21m00Tcm4TlvDq8ikWAM`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+64 kbps (`mp3_44100_64`).
+
+**Cost.** 3,555 characters across the eleven admitted worlds, 476 credits,
+plus 168 for the four samples. The text is built by `door_turn` itself in
+`Build/tools/generate_door_narration.py`, so the audio cannot drift from the
+transcript. Files are `cic-poc/frontend/public/audio/door/<world-key>.mp3`
+with a manifest of each text's fingerprint, voice and settings.
+
+**Wired.** A `DoorNarration` control sits under the door turn in the
+conversation screen. It starts after 1.2 seconds. A browser that refuses
+unprompted sound leaves a plain "Hear the welcome" button instead. It stops
+when the participant sends a message or leaves the screen, shows nothing if the
+file is missing, and carries the synthesized-voice note. The browser
+read-aloud control is cancelled when it starts, so the two never overlap.
+
+**Checked.** Component tests, the frontend suite and typecheck pass. In
+Chromium with the strict autoplay policy and the API stubbed, the file was
+fetched and the welcome began after the pause. It was not checked against the
+real backend, whose packages in this checkout lack their compiled files, or on
+an iPhone.
+
+### Next action
+
+1. Mark listens on the live conversation page, including on an iPhone.
+2. A welcome for the Table, and a greeting in each Representative's own voice,
+   stay open as separate decisions.
+
+## 2026-10-02 — Wittenberg joins the built worlds: front door, site data and full narration
+
+**Decision.** Wittenberg's `world_front` and `facilitator_brief` were written,
+reviewed and compiled, so it now behaves like the other built worlds. Three
+independent Opus review rounds ran (round 1 substantial, round 2 substantial on
+one unit, round 3 cleared; the cap was not exceeded). The held "church today"
+question (OG-51 item 4) is neither settled nor hinted in either record. The
+Representative's name stays out of both, as the voice record requires.
+
+**Done.** The package was rebuilt and repinned; the site JSON
+`cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json` was
+compiled; the three Wittenberg waivers in `engine/m1/cross_world.py` were
+removed (OG-57); the tradition page was regenerated; Wittenberg was added to
+`BUILT_WORLD_IDS` in `atlas-v3.html`; its tree page no longer shows the older
+description recording, as for every built world. Its two embedded documented
+stories were removed from `world-census.json` and from the map data, because
+the world front now carries its own three (the letter to Albrecht, the eight
+sermons, the Diet of Augsburg). This matches how the other ten built worlds
+carry no embedded stories.
+
+**Narration.** Story, three documented stories and legacy, in the Representative's
+voice Mark approved for Wittenberg. Voice `40lgdJOC1ND7hPOQX92p`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+API speed 1, tempo 1. 13,443 characters, 1,793 credits, as printed by the run.
+
+**Left in place, now unreferenced.** `audio/tree/lutheran-wittenberg-and-its-congregations.mp3`
+and the two `audio/docstories/lutheran-wittenberg-and-its-congregations-{0,1}.mp3`
+files with their manifest entries. Nothing was deleted without instruction.
+
+**Checked.** Cross-world and waiver tests, `records witt`, `regate witt`,
+`deployed`, `integrity`, both staleness checks and the census and map sync
+checks pass. In Chromium the Wittenberg card starts its story, shows five
+players and one documented-stories section, with no page errors.
+
+**CI.** One test in `engine/m10/tests/test_regate.py` asserted that Wittenberg
+has three live waivers, so it broke when the waivers were removed. It now
+builds its own stub world and waivers, so no later fix to a real world can break
+it, and a second test covers a grandfathered world with no waiver.
+
+### Next action
+
+1. Mark listens to a Wittenberg card on the live site.
+2. Mark rules on deleting the three unreferenced Wittenberg audio files.
+
+## 2026-10-03 — Three superseded Wittenberg audio files removed
+
+**Decision.** Mark ordered deletion of the three Wittenberg recordings left over
+after the world joined the built worlds: the older description recording
+(`audio/tree/lutheran-wittenberg-and-its-congregations.mp3`) and the two older
+story recordings (`audio/docstories/lutheran-wittenberg-and-its-congregations-0.mp3`
+and `-1.mp3`). A search of the live surfaces found nothing that points at them
+except their two entries in `audio/docstories/manifest.json`, which are removed
+with them. The map now plays Wittenberg from `audio/worlds/`. The documented-story
+narration tool reports 515 stories, all up to date, so no entry is left stale.
+
+### Next action
+
+None.
+
+## 2026-10-03 — Representative greetings and voiced starter answers: not built
+
+**Decision.** No spoken Representative greeting and no recorded answers to the
+tradition pages' "Start with the hard one" questions. The Facilitator's welcome
+(2026-10-02) stays the only spoken opening in the one-to-one conversation.
+
+**Why.** A greeting that names the Representative conflicts with the voice
+records: every Representative speaks in a strict we-voice, and the name and role
+label are never used as the voice's own self-description. A recorded answer under
+each hard question was tried next. Mark ruled it out: those questions are prompts
+the visitor asks in the conversation, so a recorded answer beside them answers the
+question the page invites the visitor to ask. The starter questions also rarely
+match the approved answers' own questions (2 of 9 in the Syriac world).
+
+**Spent.** 286 credits on two sample clips (one Wittenberg, one Syriac), not
+added to the repository. Voiced approved answers elsewhere (36 of them, about
+5,760 credits) were not generated.
+
+### Next action
+
+None.
+## 2026-10-03 — One narration player across the site, with a speed choice
+
+**Decision.** Mark chose the quiet, typographic player (option C of three working
+mock-ups) to replace the browser's small default player: a small-caps "Listen"
+control, a seekable rail, the elapsed time, and four speeds (1x, 1.25x, 1.5x,
+2x). The speed is one setting for the whole site, kept in this browser
+(`cic.narration.rate`, the key the map already used). The Unfolding Story now
+has the speed choice too.
+
+**How.** `cic-website/assets/narration-player.js` draws the control over each
+page's own `<audio>` element, which stays in the page and does the playing. The
+map's autoplay, its pause-the-others rule and its start-when-opened stories
+therefore work unchanged, and a browser without JavaScript keeps the ordinary
+controls. The script is on the landing page, the Unfolding Story, About, the
+eleven tradition pages, the 281 tree pages that have narration (and in
+`Build/tools/generate_tree_pages.mjs` for future builds) and the map. The map's
+own speed buttons were removed so the choice appears once. The Facilitator's
+welcome in the conversation takes the same look with no speed choice.
+
+**Checked.** In Chromium: every page shows one player and no native player; speed
+changes the playback rate and is remembered on the next page; seeking works
+against a byte-range server; the map card starts its story and opening a
+documented story starts that one and pauses the first; no horizontal overflow at
+390 px; the frontend suite and typecheck pass. Not checked on an iPhone.
+
+### Next action
+
+1. Mark tries the player on the live site, including on the iPhone.
+
+## 2026-10-03 — Narration cleanup audit: stale and replaced material
+
+**Audit.** Every recording and its manifest were checked against what the pages
+and data actually use. All pass: 281 tree recordings (every one a non-built
+movement with a description), 515 documented-story recordings matching the 515
+census stories, 54 world recordings matching their manifest, 62 gap-story
+recordings each matching a story on the map, 6 site recordings and 11 welcome
+recordings, each with a manifest entry. No recording is unreferenced and no
+manifest entry lacks its file. The built-world set agrees between the map and the
+tree-page generator (11 worlds).
+
+**Fixed.**
+- Two comments said built worlds' narration was "not wired yet" and that their
+  recordings "still narrate the superseded text". Both are false since the world
+  recordings shipped and the old ones were deleted; they now describe what the
+  code does. The generator function `hasMismatchedNarration` is renamed
+  `hasOwnWorldStory`.
+- The tree-page generator wrote the description player on three lines; the
+  committed pages carry it on one. The generator now matches the pages, so a
+  rebuild no longer changes every narrated page.
+- Regenerating the tree pages with the aligned generator corrected one stale
+  page: the Hussite and Bohemian Brethren page showed 1415-1517 while the census
+  says 1402-1517. The Wittenberg tree page lost a stray blank line.
+
+**Not stale, kept on purpose.** Earlier decision-log entries (history), the
+`.narration audio` rules in the page stylesheets (the fallback when JavaScript is
+off), and the three-review-round files under `Build/worlds/witt/`.
+
+### Next action
+
+None.
+
+## 2026-10-03 — Narration audio converted to 64 kbps mono
+
+**Decision.** Mark asked about the audio folder (887 MB of the site's 916 MB) and
+chose to convert the files above 64 kbps after listening to three side-by-side
+samples (a world story, a tree description, a gap story) and hearing no
+difference.
+
+**What was found first.** The 62 gap stories, 281 tree descriptions and 54 world
+recordings were true 128 kbps files, because the world and tree tools did not ask
+ElevenLabs for a format and got its 128 kbps default. The 515 documented stories
+were already 64 kbps. An earlier statement that the world files were a doubled
+64 kbps was wrong and is corrected here.
+
+**Done.** The 397 files above 64 kbps were re-encoded to 64 kbps mono, 44.1 kHz,
+metadata stripped; 515 MB became 258 MB, and the audio folder 887 MB to 632 MB.
+Names, voices, speeds and lengths are unchanged, so no page, manifest or player
+needed an edit. Every converted file was checked two ways: its stored length
+against the original (0 mismatches) and a full decode (0 decoder errors, longest
+difference 0.085 s). A converted tree file and a converted world story play and
+seek in Chromium. `Build/tools/generate_world_narration.mjs` and
+`generate_tree_narration.mjs` now request `mp3_44100_64` and encode at 64 kbps
+mono, and the world manifest records `outputFormat` for newly generated pieces.
+
+**What this does not fix.** Git keeps the old 128 kbps files in history, and this
+commit adds the 258 MB of new files to it, so a fresh clone is larger until the
+history is cleaned or the audio moves out of git (an infrastructure decision for
+Mark). The working tree is smaller.
+
+### Next action
+
+None for the conversion. Moving the audio to object storage remains open.
+
+## 2026-10-03 — The free browser read-aloud is removed
+
+**Decision.** Mark ordered the free browser voice removed from the conversation:
+it sounds poor, and if the voice cannot be high quality it is not offered. This
+settles the open question from the voice handoff (keep the free browser read-aloud
+in live conversations or not). The conversation is text; the only spoken parts are
+the Facilitator's recorded welcome and the recorded narration elsewhere on the site.
+
+**What it was.** A "Read aloud" button in the one-to-one conversation and at the
+Table, using the browser's built-in speech synthesis, behind the `VITE_READ_ALOUD`
+flag. It was off in production and switched on only in the staging service.
+
+**Removed.** `ReadAloudControl`, `ReadAloudDisclosure`, `lib/readAloud`,
+`useReadAloudAvailability` with their tests; the flag in `lib/flags.ts`; their use
+in `Conversation.tsx`, `TableRoom.tsx` and `DoorNarration.tsx`; the button and
+disclosure styles; the `VITE_READ_ALOUD` build argument in `engine/Dockerfile`, its
+setting in `render.yaml`, and its note in `.env.example`; and the matching test in
+`TableRoom.test.tsx`. The design note
+`Build/Ministry/Technology/CiC_ReadAloud_Step1_Design_Note.md` stays as history.
+
+**Checked.** The frontend suite (53 tests), typecheck and build pass; a search of
+the live code finds no remaining reference; `render.yaml` still parses; the cited
+paths and commentary checks pass.
+
+### Next action
+
+None.
+
+## 2026-10-03 — Audio moves out of git to Cloudflare R2: code built
+
+**Decided (Mark, 2026-10-03).** Move the recordings out of the repository into object
+storage, behind the existing audio Worker, so no page, link or player changes.
+
+**Built.** The Worker reads the `AUDIO` R2 binding first and falls back to the
+repository copy; it answers byte ranges natively. `Build/tools/sync_audio_r2.mjs`
+uploads every recording and verifies size and MD5 (its signing is checked against the
+published AWS test vector). `audio/tree/manifest.json` is new, so the tree descriptions
+have a manifest like the other recordings. The generation tools now decide "already
+narrated" from the manifests, not from files on disk.
+
+**Not done.** The `r2_buckets` binding is not in `wrangler.jsonc`: a binding to a
+bucket that does not exist fails the deploy. Nothing is uploaded and no audio is
+removed from git. The step order is in `CiC_Audio_R2_Cutover_Runbook.md`.
+
+**Deviation from the plan as first stated.** New recordings are generated into the same
+`cic-website/audio/` folder, which becomes git-ignored at cutover, rather than into a
+folder outside the repository. The effect is the same and the tools keep one path.
+
+**Needs Mark.** Turn on R2, create the `cic-audio` bucket and an API token.
+
+### Next action
+
+Mark creates the bucket and token; then upload, verify, add the binding, check live.

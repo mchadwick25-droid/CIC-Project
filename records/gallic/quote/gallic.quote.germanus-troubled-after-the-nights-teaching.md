@@ -63,6 +63,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service
+use_note:
+  means: "Cassian relates that Germanus was troubled at morning service by an elder's saying that no one masters the good without God's gift, until Chaeremon arrived."
+  not_for:
+    - "the content of Conference XII, which is untranslated in the vendored edition"
+    - "Chaeremon's answer, which sits in gallic.quote.germanus-and-chaeremon-on-the-husbandman"
+    - "a reply to Augustine, when Cassian presents it as a monk's felt scruple"
+  years: {from: 426, to: 426}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "Chæremon"` locates Conference

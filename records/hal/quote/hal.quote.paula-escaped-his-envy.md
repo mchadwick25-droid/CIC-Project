@@ -65,6 +65,14 @@ relations:
   target: hal.contested.paula-jerome-relationship
 - type: associated-with
   target: hal.figure.paula
+use_note:
+  means: "The Syriac recension of Palladius reports Possidonius saying Paula died before her time to escape Jerome's envy and evil-eyedness, while conceding his great skill."
+  not_for:
+    - "a claim about how or why Paula actually died"
+    - "a claim that the Greek-based Palladius says the same; there it is a guarded prediction about temper"
+    - "an independent witness free of hostility to Jerome"
+  years: {from: 404, to: 420}
+  status: reviewed
 ---
 Verified verbatim against the vendored file, Book I, ch. l.
 

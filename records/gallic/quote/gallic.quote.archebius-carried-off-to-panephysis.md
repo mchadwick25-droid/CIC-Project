@@ -58,6 +58,15 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.bishop-archebius
+use_note:
+  means: "Cassian recounts meeting Bishop Archebius, taken from the anchorites to be bishop of Panephysis, who kept his solitary strictness and called his election an expulsion."
+  not_for:
+    - "Archebius's own words to the travellers, which sit in gallic.quote.archebius-see-the-old-men"
+    - "a claim independently attested outside Cassian's own writings"
+    - "a modesty formula, when Cassian presents the complaint as a real loss"
+    - "a separate witness from gallic.quote.cassian-archebius-expelled-from-monastic-system, whose parenthesis sits inside this sentence"
+  years: {from: 426, to: 426}
+  status: reviewed
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "Archebius"` locates the passage at `<div4 title="Chapter II. Of Bishop Archebius." ...

@@ -84,5 +84,14 @@ distortion_risk: high
 prior_sense: 'The word already had a history in Africa before the schism: Cyprian''s mid-third-century councils
   used it for receiving those baptized among heretics, against Rome''s contrary practice. What is new after 312
   is not the rite but its target -- another African church holding the same creed.'
+use_note:
+  means: "For Donatists it was no second baptism: a hand from a tainted line washes nothing, so those from the other church received their first real one."
+  not_for:
+    - "a claim that it was a modern adult rebaptism chosen for personal renewal"
+    - "a claim that it was a ritual scruple about repeating a sacrament"
+    - "a claim that it denied the first rite happened at all, rather than that it conferred anything"
+    - "a claim that it was a private opinion of a rigorist minority; its standing as the communion's enacted norm sits in don.gravity.rebaptism-boundary"
+  years: {from: 311, to: 439}
+  status: reviewed
 ---
 Built from Doc_06 SS1 entry 002 (Tier 1, confirmed) and `Lexicon-Chunks/donlex002_rebaptism.md`. The one-directional Related-Terms link Doc_06 SS4 flagged (Rebaptism -> Church/Ecclesia, not yet reciprocated) is completed here as a mutual `associated-with` pair, since both records are now built; Doc_06 SS5 names that completion as the open deployment-layer item.

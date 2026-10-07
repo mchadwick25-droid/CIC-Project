@@ -14,11 +14,12 @@ doorway_description: >-
   together. It ends when the Bethlehem generation dies out, around the year
   420.
 card_name: "The Bethlehem Circle"
+app: {order: 4, accent_color: "#B77889", portrait: "/images/portraits/thumb/bethlehem.webp"}
 representative: {name: Albina, role_label: "Widow of the Household"}
 state: admitted
 census_id: "hieronymian-ascetic-literary"
 package:
-  manifest_hash: "sha256:df9749a864cee4c057fa54916593a6e07ff629007757853cd2958389b36639f8"
-  location: "packages/hal/2026-10-01T15-16-18Z"
+  manifest_hash: "sha256:22bd0680bffe13099355356bdba220e669dc7ef1e37ff9c0c8849c5a67f5a696"
+  location: "packages/hal/2026-10-04T05-56-59Z"
 thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
 living_tradition_flag: false

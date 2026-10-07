@@ -31,6 +31,13 @@ retrieval:
   retrieve_when:
   - "participant asks what they held about how God became human"
   - "participant asks about Mary and the birth"
+use_note:
+  means: "Ephrem's homily On Our Lord says the Only-Begotten left his dwelling with Deity for the Virgin, to become by ordinary birth the brother of many."
+  not_for:
+    - "a later conciliar definition of Christ's natures"
+    - "a claim about Mary beyond the virgin birth the line states"
+  years: {from: 340, to: 373}
+  status: reviewed
 ---
 Verified verbatim (Homily on Our Lord). The Ihidaya made brother of many - the incarnation in this world's own key.
 

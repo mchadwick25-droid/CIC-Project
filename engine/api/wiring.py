@@ -12,16 +12,28 @@ import uuid
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
+from typing import Callable
 
 from engine.api.config import REPO_ROOT
 from engine.m1.loader import load_fleet_records
+from engine.m2.loader_stub import PackageRefused
 from engine.m4 import events, facilitator_turns, session_code
 from engine.m4.entrance import open_session
 from engine.m4.package_fetch import ensure_package_local
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.store import Store
 from engine.m4 import evidence as ev
-from engine.m4.turn import TurnResult, UnhandledRoutingAction, run_turn
+from engine.m4 import turn as turn_module
+from engine.m4.grants import GrantProvider
+from engine.m4.grants import resolve as resolve_grant
+from engine.m4.turn import (
+    SAFETY_ROUTES,
+    TurnResult,
+    UnhandledRoutingAction,
+    run_gate,
+    run_turn,
+    safety_route_facilitator_events,
+)
 from engine.m4.uncited_claims import (
     build_uncited_claims_event,
     conversation_revealed_excerpts,
@@ -37,7 +49,7 @@ from engine.m7.scheduler import STATUS_FILENAME
 from engine.m7.session_reader import read_session
 from engine.m8.cost import estimate_cost
 from engine.m8.log_store import UsageLogStore
-from engine.m8.price_tables import price_for_call_kind
+from engine.m8.price_tables import price_for_route
 
 class UnknownWorldError(Exception):
     """world_key isn't in the registry (records/worlds.yaml)."""
@@ -79,8 +91,72 @@ class SessionClosed(Exception):
     """A session_closed event is already on record (engine.m4.projection's
     SessionState.closed) - the session ended, most often via
     engine.m4.turn.SESSION_TURN_CAP's own graceful redirect, and no further
-    message is processed. Raised here, before run_turn is ever called, so a
-    closed session costs nothing to refuse."""
+    message is answered. The message is still read by the safety call
+    first (screen_refused_message), so a crisis typed into a closed session
+    gets the Facilitator's safety turn rather than this refusal."""
+
+
+class MessageTooLong(Exception):
+    """The message is longer than MAX_MESSAGE_LENGTH. Like SessionClosed,
+    raised only after the safety call has read it and found no safety route."""
+
+
+# The longest message answered. A longer one (up to the API's hard bound)
+# is still read by the safety call before it is refused.
+MAX_MESSAGE_LENGTH = 4000
+
+
+def screen_refused_message(
+    *,
+    store: Store,
+    usage_store: UsageLogStore,
+    state,
+    session_id: str,
+    text: str,
+    client_msg_id: str | None,
+    safety_client,
+    safety_model_id: str,
+    representative_name: str,
+) -> "MessageResult | None":
+    """System Hub decision 35: a message the service is about to refuse
+    unread (a closed session, an over-long message) goes through the safety
+    call first. When the safety call routes it to the Facilitator, the
+    message, the gate decision and the Facilitator's safety turn are
+    recorded and returned like any turn, and the session's state is
+    otherwise unchanged (a closed session stays closed). Otherwise None,
+    and the caller raises its refusal as before. The screen's own usage is
+    always recorded."""
+    gate_run = run_gate(
+        session_id=session_id, safety_client=safety_client, safety_model_id=safety_model_id,
+        participant_message=text, pressed=state.pressed, anachronistic_term_ids=set(),
+        track_b_accumulator=state.safety.track_b_accumulator,
+    )
+    for rec in gate_run.usage_records:
+        usage_store.append(rec)
+    action = gate_run.gate_result.routing.action
+    if action not in SAFETY_ROUTES:
+        return None
+    facilitator_events = safety_route_facilitator_events(
+        gate_run, representative_name=representative_name, track_a_last=state.safety.track_a_last,
+    )
+    msg_uuid = client_msg_id or str(uuid.uuid4())
+    participant_payload = {"text": text, "client_msg_id": msg_uuid}
+    events.validate("participant_message", participant_payload)
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="participant_message", payload=participant_payload)
+    events.validate("gate_decision", gate_run.gate)
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="gate_decision", payload=gate_run.gate)
+    for safety_state in gate_run.safety_state_events:
+        events.validate("safety_state", safety_state)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="safety_state", payload=safety_state)
+    for fe in facilitator_events:
+        events.validate("facilitator_turn", fe)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fe)
+    turn_no = state.turn_count + 1
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
+    return MessageResult(
+        turn_no=turn_no, routing_action=action, routing_reason=gate_run.gate_result.routing.reason,
+        degraded=gate_run.gate_result.degraded, facilitator=facilitator_events[-1], voice=None,
+    )
 
 
 class ProviderCallFailed(Exception):
@@ -253,6 +329,7 @@ def list_worlds(*, world_loader: LazyWorldLoader, registry: dict, require_admitt
                 "horizon": frame.get("horizon"),
                 "living_tradition_flag": frame.get("living_tradition_flag", False),
                 "starters": starters,
+                "app": entry.get("app"),
             }
         )
     return worlds
@@ -309,8 +386,9 @@ def get_pilot_summary(store: Store, *, since: str | None = None) -> PilotSummary
         by_mode[session.mode] = by_mode.get(session.mode, 0) + 1
         if session.first_at and (earliest is None or session.first_at < earliest):
             earliest = session.first_at
-        if session.last_at and (latest is None or session.last_at > latest):
-            latest = session.last_at
+        last = session.last_activity_at or session.first_at
+        if last and (latest is None or last > latest):
+            latest = last
         if not session.closed:
             open_sessions += 1
             continue
@@ -364,10 +442,13 @@ class VisitorUsage:
     (visitor_total_seconds) - anon_cap allows several sessions a day, so
     these can genuinely differ. Median alongside average on both, since a
     few very long or very short sessions would otherwise skew the average
-    alone."""
+    alone. A session runs from its start to its last message, reply or
+    Facilitator turn; a session opened and left without a message is
+    counted on its own, not as a zero-length conversation."""
 
     unique_visitors: int
     sessions_with_visitor_id: int
+    sessions_without_a_message: int
     median_session_seconds: float | None
     average_session_seconds: float | None
     median_visitor_total_seconds: float | None
@@ -382,10 +463,22 @@ class WorldUsage:
     output_tokens: int
     cache_creation_input_tokens: int
     cache_read_input_tokens: int
-    # Sum of only the calls engine.m8.price_tables.price_for_call_kind
+    # Sum of only the calls engine.m8.price_tables.price_for_call
     # could price - unpriced_calls says how many of `calls` are NOT
     # reflected in priced_dollars, so this never silently understates
     # itself as a complete total (spec principle 13: no guessed figure).
+    priced_dollars: float
+    unpriced_calls: int
+
+
+@dataclass(frozen=True)
+class RouteUsage:
+    """What each model route's calls came to, priced as that route bills
+    (a Bedrock regional profile carries its premium; the Anthropic API bills
+    at list). The dollars are an estimate until the monthly reconciliation
+    confirms them against the invoice. unpriced_calls reads as in WorldUsage."""
+    route: str
+    calls: int
     priced_dollars: float
     unpriced_calls: int
 
@@ -402,6 +495,7 @@ class UsageSummary:
     visitors: VisitorUsage
     by_world: list[WorldUsage]
     price_table_source: str | None
+    by_route: list[RouteUsage] = field(default_factory=list)
     top_asks: list[AskCandidate] = field(default_factory=list)
     asks_generated_at: str | None = None
     asks_as_of_run: str | None = None
@@ -452,18 +546,23 @@ def get_usage_summary(
     session_ids = store.list_session_ids(since=since)
     visitor_ids: set[str] = set()
     sessions_with_visitor = 0
+    without_a_message = 0
     session_durations: list[float] = []
     visitor_totals: dict[str, float] = {}
 
     for session_id in session_ids:
         session = read_session(store, session_id)
-        if session is None or session.first_at is None or session.last_at is None:
+        if session is None or session.first_at is None:
             continue
-        duration = _seconds_between(session.first_at, session.last_at)
-        session_durations.append(duration)
         if session.visitor_id:
             visitor_ids.add(session.visitor_id)
             sessions_with_visitor += 1
+        if not session.participant_messages or session.last_activity_at is None:
+            without_a_message += 1
+            continue
+        duration = _seconds_between(session.first_at, session.last_activity_at)
+        session_durations.append(duration)
+        if session.visitor_id:
             visitor_totals[session.visitor_id] = visitor_totals.get(session.visitor_id, 0.0) + duration
 
     median_session, average_session = _median_and_average(session_durations)
@@ -471,12 +570,14 @@ def get_usage_summary(
     visitors = VisitorUsage(
         unique_visitors=len(visitor_ids),
         sessions_with_visitor_id=sessions_with_visitor,
+        sessions_without_a_message=without_a_message,
         median_session_seconds=median_session,
         average_session_seconds=average_session,
         median_visitor_total_seconds=median_visitor_total,
         average_visitor_total_seconds=average_visitor_total,
     )
 
+    by_route: dict[str, dict] = {}
     by_world: dict[str, dict] = {}
     price_sources: set[str] = set()
     for record in usage_store.read_all():
@@ -493,11 +594,16 @@ def get_usage_summary(
         bucket["output_tokens"] += record.usage.output_tokens
         bucket["cache_creation_input_tokens"] += record.usage.cache_creation_input_tokens
         bucket["cache_read_input_tokens"] += record.usage.cache_read_input_tokens
-        price_table = price_for_call_kind(record.call_kind)
+        route_bucket = by_route.setdefault(record.provider, {"calls": 0, "priced_dollars": 0.0, "unpriced_calls": 0})
+        route_bucket["calls"] += 1
+        price_table = price_for_route(record.call_kind, record.model_id, record.provider)
         if price_table is None:
             bucket["unpriced_calls"] += 1
+            route_bucket["unpriced_calls"] += 1
         else:
-            bucket["priced_dollars"] += estimate_cost(record.usage, price_table).dollars
+            dollars = estimate_cost(record.usage, price_table).dollars
+            bucket["priced_dollars"] += dollars
+            route_bucket["priced_dollars"] += dollars
             price_sources.add(price_table.source)
 
     by_world_list = [WorldUsage(world_key=k, **v) for k, v in sorted(by_world.items())]
@@ -511,6 +617,7 @@ def get_usage_summary(
     return UsageSummary(
         visitors=visitors,
         by_world=by_world_list,
+        by_route=[RouteUsage(route=k, **v) for k, v in sorted(by_route.items())],
         price_table_source=", ".join(sorted(price_sources)) or None,
         top_asks=top_asks,
         asks_generated_at=asks_generated_at,
@@ -654,7 +761,11 @@ def handle_message(
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
+    citation_attach_enabled: bool = False,
     daily_turn_cap_reached: bool = False,
+    grant_for: GrantProvider | None = None,
+    on_sentence: Callable[[dict], None] | None = None,
+    qc_recorder=None,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
     if not state.exists:
@@ -664,8 +775,28 @@ def handle_message(
     # it, unlike a real (cap/participant) close. project_fresh's own fold
     # already reopens state.closed once this message lands, so this is
     # the one place that still needs to look past it before that happens.
+    refusal: Exception | None = None
     if state.closed and state.close_reason != "idle":
-        raise SessionClosed(session_id)
+        refusal = SessionClosed(session_id)
+    elif len(text) > MAX_MESSAGE_LENGTH:
+        refusal = MessageTooLong(session_id)
+    if refusal is not None:
+        try:
+            refused_world = _load_world(
+                world_loader, registry, state.world_key, expected_manifest_hash=state.package_manifest_hash,
+                package_location_override=state.package_location, package_cache_dir=package_cache_dir,
+            )
+            representative_name = refused_world.frame["representative"]["name"]
+        except PackageRefused:
+            representative_name = "the Representative"
+        screened = screen_refused_message(
+            store=store, usage_store=usage_store, state=state, session_id=session_id, text=text,
+            client_msg_id=client_msg_id, safety_client=safety_client, safety_model_id=safety_model_id,
+            representative_name=representative_name,
+        )
+        if screened is None:
+            raise refusal
+        return screened
 
     # The world pinned at session creation, not the registry's current value -
     # a mid-session recompile can't silently swap what serves an in-flight
@@ -766,6 +897,9 @@ def handle_message(
         if named_tradition_key else None
     )
 
+    grant = resolve_grant(
+        grant_for, completed=len(history) // 2, free_cap=turn_module.SESSION_TURN_CAP, daily_cap_reached=daily_turn_cap_reached
+    )
     try:
         result: TurnResult = run_turn(
             session_id=session_id,
@@ -789,7 +923,12 @@ def handle_message(
             other_tradition_known_in_window=other_tradition_known_in_window,
             other_tradition_revealed=other_tradition_revealed,
             self_revision_enabled=self_revision_enabled,
-            daily_cap_reached=daily_turn_cap_reached,
+            daily_cap_reached=False,
+            turn_cap=grant.cap,
+            facilitator_only=grant.facilitator_only,
+            limit_text=grant.limit_text,
+            on_sentence=on_sentence,
+            citation_attach_enabled=citation_attach_enabled,
         )
     except UnhandledRoutingAction:
         # Not caught and softened into a note about a test build: all seven
@@ -865,7 +1004,7 @@ def handle_message(
     # before this turn cap existed to fire it. Appended after the
     # facilitator_turn so a reader replaying the log sees the closing words
     # before the event that makes them final.
-    if result.routing_action == "session_cap_turn":
+    if result.routing_action == "session_cap_turn" and grant.limit_text is None:
         closed_payload = {"reason": "cap"}
         events.validate("session_closed", closed_payload)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="session_closed", payload=closed_payload)
@@ -909,6 +1048,16 @@ def handle_message(
 
     for rec in result.usage_records:
         usage_store.append(rec)
+
+    if qc_recorder is not None:
+        shown_voice = voice_payload if voice_payload and not voice_payload.get("r27_enforcement_exhausted") else None
+        qc_recorder.record_safely(
+            session_id=session_id, world_key=state.world_key, world=world,
+            package_hash=state.package_manifest_hash, model_id=voice_model_id if shown_voice else None,
+            question=text, routing_action=result.routing_action, safety=gate_payload.get("safety"),
+            voice_event=shown_voice,
+            answer_text=shown_voice["text"] if shown_voice else (facilitator_payload or {}).get("text"),
+        )
 
     return MessageResult(
         turn_no=turn_no,

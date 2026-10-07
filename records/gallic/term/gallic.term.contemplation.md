@@ -114,6 +114,15 @@ quick_meaning: >-
   The chief good - the seeing of God that only a heart purged of its faults can reach. Practical
   knowledge first, then the theoretical; Mary's part after Martha's.
 distortion_risk: high
+use_note:
+  means: "Contemplation meant, for Cassian, the chief good, Mary's part, the seeing of God reachable only after practical knowledge has purged the faults."
+  not_for:
+    - "reflection, mindfulness or a mystical technique open to anyone"
+    - "practical and theoretical as doing against thinking"
+    - "unceasing prayer as a practice, which sits in gallic.term.unceasing-prayer"
+    - "the Martha and Mary figure as used at Tours, where it teaches hospitality"
+  years: {from: 404, to: 426}
+  status: reviewed
 ---
 Built from Doc_06 entry 041 (Tier 2; chunk galliclex041_contemplation.md; Doc_03 4.10). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The Greek

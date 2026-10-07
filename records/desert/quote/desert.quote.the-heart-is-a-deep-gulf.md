@@ -38,6 +38,14 @@ relations:
   target: desert.dw.the-heart-and-the-spirit
 - type: associated-with
   target: desert.term.logismoi
+use_note:
+  means: "A Macarian homily teaches that abstaining from evil is not perfection until the serpent beneath the thoughts is slain, for the heart is a deep gulf."
+  not_for:
+    - "Macarius the Egyptian's own words, an ascription with no external evidence"
+    - "heart as feeling opposed to thinking rather than the whole interior person"
+    - "the same teaching as Evagrius's observable logismoi, which it sits against"
+  years: {from: 380, to: 430}
+  status: reviewed
 ---
 The Macarian answer to a discipline that could become mere abstention, and the sharpest statement in
 either vendored text that the interior life goes below what a person can see of themselves. It sits

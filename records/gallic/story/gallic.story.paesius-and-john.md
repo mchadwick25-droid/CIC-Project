@@ -88,6 +88,14 @@ modern_contrast: >-
   word of analysis: the fast is what the abbot has to show; the heart is what the hermit has to show.
   It is the shortest formation instrument the southern node received - offered whole in a single
   breath.
+use_note:
+  means: "Cassian relates two old men meeting after forty years, one saying the sun never saw him eating, the other never angry, an Egyptian saying carried to Gaul."
+  not_for:
+    - "a Gallic saying, when it is Egypt's carried west by Cassian"
+    - "the doctrine of the eight faults as a system, which sits in gallic.term.eight-principal-faults"
+    - "the desert as such, when it is an Egyptian saying received in Gaul"
+  years: {from: 415, to: 426}
+  status: reviewed
 ---
 Converted from the approved Doc_09 chunk gallicstory010_paesius-and-john.md (Tier 2, Marseilles
 node, received Egyptian material, Registry row 7). The quotation is carried verbatim including "said he";

@@ -59,5 +59,14 @@ senses:
 quick_meaning: The brotherhood or sisterhood. Our own name for our ascetic communities, still
   forming.
 distortion_risk: medium
+use_note:
+  means: "Adelphotes meant the brotherhood or sisterhood, the ascetic community still being worked out and ordered into common life in this era."
+  not_for:
+    - "settled medieval monasticism read back onto this era"
+    - "the Annisa sisterhood as independently seen, since Gregory of Nyssa's presentation shapes it"
+    - "the teaching that people are made for shared life, which sits in cappadocian.term.koinonia"
+    - "the radicals' own communities, which survive only through Gangra's censure"
+  years: {from: 340, to: 379}
+  status: reviewed
 ---
 Built from Doc_06 entry 20 (Tier 2).

@@ -74,6 +74,15 @@ nearest_material:
 - witt.dw.one-holy-church-forever
 - witt.dw.true-priests-of-gods-own-making
 relations: []
+use_note:
+  means: "No independent outsider account of the Wittenberg church survives in the library, only Rome's Confutation as quoted in the Apology, and the catacombs and Constantine predate its window."
+  not_for:
+    - "an outsider's voice manufactured from the Apology's own paraphrase of Rome's reply"
+    - "the catacombs or Constantine as events the world can narrate from inside"
+    - "the world's own self-definition of the Church, which sits in witt.dw.one-holy-church-forever"
+    - "Rome's Confutation as held in its own words, since it is unvendored"
+  years: {from: 1517, to: 1580}
+  status: reviewed
 ---
 Closes F3-E at the Answer-the-Canon step (inserted between B-7a and B-8), matching witt.voice.craft's own
 B-7 decline of this exact cell's F3-E-03/F3-E-04 sub-questions ("No outsider witness survives among this

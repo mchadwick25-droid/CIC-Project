@@ -27,7 +27,7 @@ import path from 'path';
 import os from 'os';
 import { execFileSync } from 'child_process';
 import { fileURLToPath } from 'url';
-import { requirePaidSettings, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
+import { NARRATION_BITRATE, NARRATION_OUTPUT_FORMAT, requirePaidSettings, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -86,7 +86,7 @@ function tempoFile(inFiles, outFile, tempo) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'wn-'));
   const list = path.join(dir, 'list.txt');
   fs.writeFileSync(list, inFiles.map((f) => `file '${f}'`).join('\n'));
-  execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', list, '-filter:a', `atempo=${tempo}`, '-b:a', '128k', outFile]);
+  execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', list, '-filter:a', `atempo=${tempo}`, '-ac', '1', '-ar', '44100', '-b:a', NARRATION_BITRATE, outFile]);
   fs.rmSync(dir, { recursive: true, force: true });
 }
 
@@ -113,17 +113,17 @@ async function run() {
   fs.mkdirSync(outDir, { recursive: true });
 
   console.log('=== PAID RUN, settings as actually used ===');
-  console.log(`voice id : ${opts.voiceId}\nmodel    : ${opts.model}\nsettings : ${JSON.stringify(settings)}\nprefix   : ${opts.prefix ? JSON.stringify(opts.prefix) : '(none)'}\ntempo    : ${opts.tempo}x after synthesis\nchars    : ${chars}`);
+  console.log(`voice id : ${opts.voiceId}\nmodel    : ${opts.model}\nsettings : ${JSON.stringify(settings)}\nprefix   : ${opts.prefix ? JSON.stringify(opts.prefix) : '(none)'}\nformat   : ${NARRATION_OUTPUT_FORMAT}, re-encoded at ${NARRATION_BITRATE} mono\ntempo    : ${opts.tempo}x after synthesis\nchars    : ${chars}`);
   console.log('===========================================');
 
   const entry = manifest[opts.world] || {};
   let credits = 0;
   for (const p of pieces) {
     const finalPath = path.join(outDir, `${p.key}.mp3`);
-    if (fs.existsSync(finalPath) && !opts.force) { console.log(`  skip (exists): ${p.key}`); continue; }
+    if (entry[p.key] && !opts.force) { console.log(`  skip (in manifest): ${p.key}`); continue; }
     const partFiles = [];
     for (const [i, text] of p.parts.entries()) {
-      const { audio, cost } = await synthesizeWithCost(opts.prefix + text, { apiKey, voiceId: opts.voiceId, modelId: opts.model, voiceSettings: settings });
+      const { audio, cost } = await synthesizeWithCost(opts.prefix + text, { apiKey, voiceId: opts.voiceId, modelId: opts.model, voiceSettings: settings, outputFormat: NARRATION_OUTPUT_FORMAT });
       const f = path.join(os.tmpdir(), `${opts.world}-${p.key}-${i}.mp3`);
       fs.writeFileSync(f, audio);
       partFiles.push(f);
@@ -132,7 +132,7 @@ async function run() {
     }
     tempoFile(partFiles, finalPath, opts.tempo);
     partFiles.forEach((f) => fs.rmSync(f, { force: true }));
-    entry[p.key] = { file: `${opts.world}/${p.key}.mp3`, chars: p.parts.reduce((n, t) => n + t.length, 0), voiceId: opts.voiceId, model: opts.model, apiSpeed: opts.apiSpeed, tempo: opts.tempo, prefix: opts.prefix || undefined, settings: JSON.parse(opts.settingsJson) };
+    entry[p.key] = { file: `${opts.world}/${p.key}.mp3`, chars: p.parts.reduce((n, t) => n + t.length, 0), voiceId: opts.voiceId, model: opts.model, apiSpeed: opts.apiSpeed, tempo: opts.tempo, outputFormat: NARRATION_OUTPUT_FORMAT, prefix: opts.prefix || undefined, settings: JSON.parse(opts.settingsJson) };
     manifest[opts.world] = entry;
     fs.writeFileSync(worldManifestPath, JSON.stringify(manifest, null, 1) + '\n');
   }

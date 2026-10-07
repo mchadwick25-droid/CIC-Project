@@ -30,6 +30,14 @@ retrieval:
   retrieve_when:
   - "participant asks what they did for travellers, pilgrims and the poor"
   - "participant asks how far their reputation reached"
+use_note:
+  means: "Jerome's letter on Fabiola says a home for strangers had been established at Portus and its fame had spread from Egypt and Parthia to Britain."
+  not_for:
+    - "a claim that this home was the same institution as Fabiola's hospital for the sick"
+    - "a literal measure of the hospice's fame rather than eulogy"
+    - "a claim that 'strangers' means the general public rather than travellers and pilgrims"
+  years: {from: 395, to: 400}
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 77, the
 Fabiola-and-Pammachius hospice at Rome's harbor). Note: the NPNF editor's

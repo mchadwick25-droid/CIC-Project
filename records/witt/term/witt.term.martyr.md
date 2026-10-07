@@ -49,6 +49,14 @@ senses:
     of faithfulness under ultimate pressure.
 quick_meaning: Two young monks burned for their faith, made priests by God alone.
 distortion_risk: medium
+use_note:
+  means: "Martyr meant the two young monks burned at Brussels, the world's one martyrology, remembered as 'true priests of God's own making' in a ballad."
+  not_for:
+    - "a broader account of persecution among the Wittenberg people, since only this one ballad is held"
+    - "a martyr-cult, or a bare fact record, in place of the ballad's commemorative voice"
+    - "the account of the burning itself, which sits in witt.story.brussels-martyrs"
+  years: {from: 1523, to: 1523}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 9.6 (martyr, Tier 3, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: Luther-only, single-register (Hymn V), in a translator's English -- the weakest evidentiary base of any entry. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

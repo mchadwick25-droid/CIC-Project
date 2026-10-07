@@ -59,6 +59,14 @@ senses:
     recognized service, held inside a report produced by torture, with everything modern curiosity
     wants to know unrecorded.'
 quick_meaning: A Roman magistrate's word for two enslaved Christian women he tortured. They served their church in some recognized way. Their own account of it was never kept.
+use_note:
+  means: "The Latin word a magistrate used for two enslaved women he tortured, Christians in some recognized service whose own name for it was not kept."
+  not_for:
+    - "deaconess as a settled office title"
+    - "evidence that the community was egalitarian in a modern sense"
+    - "evidence that women held nothing"
+  years: {from: 111, to: 113}
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 9, Tier 2,
 DR flag). The formation_confidence split per the chunk: Documented that

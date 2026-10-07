@@ -60,6 +60,15 @@ modern_rendering: >-
   by one. The priest gave this task to three of the Elders. They turned over everyone's sleeping
   quarters. At last they found the book hidden in Paphnutius's cell, among the palm branches they call
   seira. It was just where the plotter had hidden it.
+use_note:
+  means: "Piamun, in Cassian's Conferences, tells how a monk accused Paphnutius of theft and three elders found the hidden book in Paphnutius's cell."
+  not_for:
+    - "an eyewitness record, when Piamun tells events from Paphnutius's youth decades later"
+    - "theft as common in the desert, when the passage calls it unheard of"
+    - "the brother's scheme to plant the book, which sits in gallic.quote.paphnutius-the-brother-hides-his-own-book"
+    - "a Gallic event, when the story is set in Egypt"
+  years: {from: 426, to: 435}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "And
 when the whole service"` returns line 43018; `grep -n "just as the plotter"` returns line 43038, `grep -n

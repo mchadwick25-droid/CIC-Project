@@ -5,7 +5,7 @@ record_type: contested_claim
 schema_version: 2
 status: ready
 register: etic
-canon_cells: []
+canon_cells: [C-I]
 confidence:
   citation_specificity: C
   verification_state: named-not-rechecked
@@ -19,6 +19,13 @@ claim: "The Testland gathering began in the first year of the synthetic window (
 held_against: ["fix.source.secondary-summary places it a full season later than fix.source.witness-scroll does"]
 concedes: "The exact founding month is not recoverable from either fixture source."
 divergence_partners: [fix.source.witness-scroll, fix.source.secondary-summary]
+use_note:
+  means: "Testland's own record dates the gathering's start to year 100, and the claim is held as disputed."
+  not_for:
+    - "a settled founding date"
+    - "a date for any real church"
+  years: {from: 100, to: 100}
+  status: provisional
 ---
 Fixture contested_claim record - the one type whose field shape Artifact-1 §4
 does specify explicitly (claim, held_against[], concedes, divergence_partners[]).

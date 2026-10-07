@@ -53,6 +53,13 @@ senses:
     has opened, not settled once by the right technique.
 quick_meaning: Not textual analysis - meeting the Logos who speaks through Scripture.
 distortion_risk: high
+use_note:
+  means: "Interpretation meant a practice of formation, meeting the Logos who speaks through Scripture at the depth the reader's formation allows."
+  not_for:
+    - "describing it as expert method that settles a text's meaning"
+    - "treating any one determination as closing the question"
+  years: {from: 180, to: 254}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex035, "Interpretation") at Mark's direction, as a
 draft, not a final version.

@@ -37,7 +37,7 @@ license: verbatim
 modern_lens_note: >-
   'Illuminated' is the ordinary early word for baptized. 'The oblation' is the eucharist. A catechumen
   was someone under instruction who had not yet been baptized and so was not admitted to communion -
-  which is why a child eating the bread by mistake was a real problem needing a ruling.
+  which is why a child eating the bread by mistake was a real problem for the bishop to settle.
 retrieval:
   tier: 2
   retrieve_when:
@@ -46,6 +46,14 @@ retrieval:
   - "participant asks how rules met real situations that the rules did not anticipate"
 relations:
 - {type: illustrates, target: alx.gravity.learning-community-tension}
+use_note:
+  means: "Timothy, bishop of Alexandria, answers practical questions on a catechumen eating the oblation, Paschal fasting by new mothers and the sick, and incestuous marriages."
+  not_for:
+    - "a picture of the whole series, which omits other questions including rulings on women's bodies"
+    - "practice in Clement's or Origen's day, when Timothy answered in the 380s"
+    - "women's own words about their lives, which this world lacks"
+  years: {from: 381, to: 385}
+  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf214 line
 44104. DISCLOSED: these are Questions I, VIII, X and XI of a longer

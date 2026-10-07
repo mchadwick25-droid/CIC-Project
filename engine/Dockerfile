@@ -45,13 +45,15 @@ WORKDIR /frontend
 COPY cic-poc/frontend/package.json cic-poc/frontend/package-lock.json ./
 RUN npm ci
 COPY cic-poc/frontend/ ./
-# Render injects a service's own env vars as build args of the same name -
-# this ARG is how VITE_READ_ALOUD (unset by default, so every existing
-# deploy is unaffected) reaches `npm run build`'s Vite process; ARG alone
-# isn't visible to a RUN step's own environment, so it's forwarded to ENV
-# first. cic-poc/frontend/.env.example has the full flag rationale.
-ARG VITE_READ_ALOUD
-ENV VITE_READ_ALOUD=$VITE_READ_ALOUD
+# Go Deeper's two build-time switches. A Render service's environment variables
+# are expected to reach a Docker build only as ARGs the Dockerfile declares; the
+# line below prints the value into the build log, so a build shows whether the
+# switch arrived. Unset, both are empty and the app is built with the module off.
+# Declare no ARG named after a secret: both switches end up in the built JavaScript.
+ARG VITE_DEEPER_ENABLED=""
+ARG VITE_DEEPER_SITE_ORIGIN=""
+ENV VITE_DEEPER_ENABLED=$VITE_DEEPER_ENABLED VITE_DEEPER_SITE_ORIGIN=$VITE_DEEPER_SITE_ORIGIN
+RUN echo "Go Deeper app build: VITE_DEEPER_ENABLED='${VITE_DEEPER_ENABLED}'"
 RUN npm run build
 
 FROM python:3.11-slim
@@ -69,6 +71,9 @@ RUN pip install --no-cache-dir -r engine/api/requirements.txt -r engine/m1/requi
 
 COPY engine/ engine/
 COPY records/ records/
+# A world's search records and its site and Facilitator records; .dockerignore
+# admits only those two homes from Build/worlds/.
+COPY Build/worlds/ Build/worlds/
 COPY packages/ packages/
 # Two engine/m1/gates.py checks (gate_edition_rights_consistency, gate_
 # canonical_address) read cic/texts/<file> straight off disk to confirm a
@@ -123,4 +128,9 @@ EXPOSE 8000
 # everyone together. X-Forwarded-For is set by Render's edge, and the
 # proxy is the only thing that can reach this container, so trusting it
 # is trusting the platform we already run on.
-CMD ["sh", "-c", "uvicorn engine.api.app:app --host 0.0.0.0 --port ${PORT} --proxy-headers --forwarded-allow-ips='*'"]
+#
+# --no-access-log: uvicorn's access log writes each request's client IP
+# beside its path, and the path carries the session id, so it would join
+# an IP to a conversation (System Hub decisions 19 and 26). The app logs
+# each handled message itself, with the session id and never an IP.
+CMD ["sh", "-c", "uvicorn engine.api.app:app --host 0.0.0.0 --port ${PORT} --proxy-headers --forwarded-allow-ips='*' --no-access-log"]

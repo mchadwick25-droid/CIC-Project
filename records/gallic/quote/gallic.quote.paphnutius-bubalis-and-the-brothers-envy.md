@@ -53,6 +53,14 @@ modern_rendering: >-
   Yet out of respect for his virtues they ranked him with the Elders, and thought it right to admit him
   to their order. Then the same envy that once stirred up the brothers of the patriarch Joseph against
   him took hold of one of his fellow monks. It set that man on fire with a burning, consuming jealousy.
+use_note:
+  means: "Piamun, in Cassian's Conferences, describes the young Paphnutius admired by the elders and envied by one brother, as Joseph was envied by his brothers."
+  not_for:
+    - "a datable biography of Paphnutius rather than a tradition told decades later"
+    - "the plot the envious brother carried out, which sits in gallic.quote.paphnutius-the-brother-hides-his-own-book"
+    - "a Gallic story rather than an Egyptian one Cassian carried west"
+  years: {from: 426, to: 435}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "because he always"` returns line 43004; `grep -n "burning and consuming jealousy"` returns line 43012,

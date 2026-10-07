@@ -55,6 +55,14 @@ senses:
     credentials or a title.
 quick_meaning: A teacher whose authority rests on visible wisdom, not a title.
 distortion_risk: high
+use_note:
+  means: "A didaskalos was a teacher whose authority rested on the wisdom the community could see in them, not on appointment or title."
+  not_for:
+    - "describing a teacher as a credentialed expert or an appointed officeholder"
+    - "claiming the teacher outranked the bishop"
+    - "asserting a chartered school behind the title"
+  years: {from: 180, to: 238}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex029, "Teacher / Didaskalos") at Mark's direction,
 as a draft, not a final version. The old record notes that the Alexandrian catechetical school's exact

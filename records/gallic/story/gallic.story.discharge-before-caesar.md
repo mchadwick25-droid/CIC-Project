@@ -112,6 +112,15 @@ modern_contrast: >-
   refusal of service: a man who changes masters does not leave the ranks, and every later use of the
   idiom - Cassian's "a monk, then, as a soldier of Christ," the "young soldiers who had just taken the
   oath" at Martin's funeral - reads back to this donative, this Caesar, this prison.
+use_note:
+  means: "Sulpitius records Martin, at a donative before battle, telling Julian Caesar he is now Christ's soldier and offering to stand unarmed, whereupon the enemy surrenders without bloodshed."
+  not_for:
+    - "the cloak scene and Martin's years as an unbaptized catechumen, which sit in gallic.story.the-cloak-at-amiens and gallic.term.catechumen"
+    - "Cassian's dress-mysticism soldier, which sits in gallic.term.soldier-of-christ"
+    - "the editors' identification of Julian and Worms as the text's own"
+    - "a general Christian refusal of military service, when it is one saint's act"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 The ancient text's own "Julian Caesar" and "the city of the Vaugiones" are kept, not Roberts's
 editorial identification of the city as Worms.

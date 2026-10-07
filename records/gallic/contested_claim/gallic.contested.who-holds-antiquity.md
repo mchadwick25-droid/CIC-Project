@@ -123,6 +123,15 @@ divergence_partners:
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented
+use_note:
+  means: "The claim that Vincent's rule settled antiquity's side consistently is contested, since the Massilians also pleaded antiquity and who held the fathers' consent in the live dispute cannot be settled."
+  not_for:
+    - "the rule as a neutral instrument applied consistently"
+    - "Celestine's sentence as settling the grace dispute for Vincent's side"
+    - "the rule's later career in Anglican, Roman Catholic and Orthodox argument"
+    - "the rule itself, which sits in gallic.term.the-rule"
+  years: {from: 397, to: 434}
+  status: reviewed
 ---
 Unparked from Doc_06 section 3's own [CT] tagging of chunk 011 (the rule) - Contest Type "Historical
 scope: whether the rule was ever applied as broadly or uniformly as its later use claims, and whether

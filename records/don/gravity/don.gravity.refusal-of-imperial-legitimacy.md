@@ -157,6 +157,14 @@ manifestations:
 - Julian's toleration of 361 and the restoration of confiscated basilicas
 - the 405 Edict of Unity and the sustained legal suppression that followed it
 - the 411 Conference of Carthage and the penal legislation issuing from its verdict
+use_note:
+  means: "The lived stance that the state cannot judge the true church, shown in rejecting the Rome and Arles rulings of 313 and 314 and holding out under law through 411, is a central pattern whose unifying frame is partly the record's synthesis."
+  not_for:
+    - "a claim that this refusal is itself a tension; the three turns to imperial power in 313, 361 and the 390s sit in don.gravity.refusal-against-recourse"
+    - "a claim about the martyr commemorations and Passio texts themselves, which sit in don.gravity.church-of-the-martyrs"
+    - "a claim that the unifying frame is free of the compilers' own synthesis"
+  years: {from: 311, to: 439}
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate G5, generated at SS1, tested at SS3.7 after the two
 Tensional gravities for the reason SS3.7 itself states, classified Primary at SS4) and the cleared
@@ -181,11 +189,11 @@ feeding this gravity in Doc_08's own account. Doc_08 SS5 is careful about the su
 record repeats its care: the 'most direct forces-connection of any gravity' belongs to 3A-1 and 3A-2
 in COMBINATION, per Doc_04 SS3.7's own 'together' finding, not to either force alone - Doc_08's
 split of Doc_04's single Cell-3A finding into two distinct forces does not move the superlative onto
-either half. AN OPEN INTEGRATION TASK CARRIED FORWARD, NOT RESOLVED (Doc_08 SS5 'Where Forces
-Analysis Surfaced Gaps' and Open Item 1): this world's own Donatist-voiced reception of the 411
+either half. THE 411 VERDICT'S RECEPTION (Doc_08 SS5 'Where Forces
+Analysis Surfaced Gaps'): this world's own Donatist-voiced reception of the 411
 verdict is no longer referenced-only - the Gesta Collationis Carthaginiensis, which records Emeritus
 of Caesarea and the other Donatist bishops speaking at length on their own side of the exchange, is
-vendored (Registry row 55) - but reading that transcript for this specific claim has not been done,
+vendored (Registry row 55) - but that transcript has not been read for this specific claim,
 and Doc_08 declines to let the hostile record's account of the verdict stand in for it. This record
 makes no claim about how this world received the verdict. Canon_cells left empty, matching this
 world's gravity and force records generally.

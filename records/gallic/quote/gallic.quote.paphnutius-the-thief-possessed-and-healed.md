@@ -70,6 +70,14 @@ modern_rendering: >-
   one he had plotted against. The jealous enemy would be pardoned for his offence, and his present punishment ended,
   only by calling out Paphnutius's name. This was the man whose good name he had thought he could
   damage.
+use_note:
+  means: "Piamun tells, in Cassian's Conferences, that the accuser was possessed, confessed his plot, and was healed only through Paphnutius's prayers."
+  not_for:
+    - "a verified possession and cure rather than the tradition's own supernatural claim"
+    - "Isidore's healing gift as unreliable, when the passage says it had never failed before"
+    - "Paphnutius's penance, which sits in gallic.quote.paphnutius-asks-for-a-plan-of-repentance"
+  years: {from: 426, to: 435}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "He,
 Who is the witness"` returns line 43058; `grep -n "from whose credit he had thought"` returns line

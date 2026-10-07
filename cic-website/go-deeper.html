@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Go deeper — Church in Conversation</title>
+<meta name="description" content="How a code lets a conversation carry on past its free part, and what happens to your payment and your words.">
+<meta property="og:title" content="Go deeper — Church in Conversation">
+<meta property="og:description" content="How a code lets a conversation carry on past its free part, and what happens to your payment and your words.">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://churchinconversation.com/go-deeper.html">
+<meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Three figures from different centuries of Christian history talk around a wooden table with a scroll and books.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.fine-print{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;color:#B8AEA1}
+.code-list{list-style:none;margin:1.2rem 0;padding:0;display:grid;gap:.8rem}
+.code-list li{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem;min-width:0}
+.code-value{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:1.25rem;letter-spacing:.08em;overflow-wrap:anywhere}
+.state[hidden]{display:none}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="arriving-mark play" aria-hidden="true">
+        <svg viewBox="0 0 100 100">
+          <circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/>
+          <circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/>
+        </svg>
+      </span>
+      <span class="wordmark">Church in Conversation</span>
+    </a>
+    <nav class="feature-bar" aria-label="Main features">
+      <a class="feature-btn" href="atlas-v3.html">Church Family Tree</a>
+      <a class="feature-btn" href="index.html#who">Conversation with One</a>
+      <a class="feature-btn" href="table.html">Build a Table</a>
+    </nav>
+    <div class="menu">
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
+        Menu
+        <svg class="menu-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <nav class="site-nav" id="site-menu" aria-label="Site">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" style="padding-bottom:1rem;">
+    <p class="eyebrow">Go deeper</p>
+    <h1>Keep a conversation going</h1>
+    <p>Every conversation here starts free. A free conversation lasts <span data-ops="free-rounds">three</span> rounds, and you get a free allowance each month. When the free part ends, tokens let you carry on in the same conversation.</p>
+  </section>
+
+  <section class="page-section" id="how">
+    <p class="eyebrow">How it works</p>
+    <h2>Pay, get a code, use it</h2>
+    <p>You pay on Stripe's own pages. We never see your card details.</p>
+    <p>Stripe then sends you back here, and the next page shows your code.</p>
+    <p>In a conversation, open Go deeper beside the message box and enter your code. The conversation carries on from where it stopped.</p>
+  </section>
+
+  <section class="page-section" id="what-a-code-holds">
+    <p class="eyebrow">What tokens pay for</p>
+    <h2>Each new conversation and each round</h2>
+    <p>A new conversation uses <span data-ops="solo-open">50</span> tokens. Each round, one question from you and one answer, uses <span data-ops="solo-round">20</span> tokens, or <span data-ops="solo-round-later">25</span> after the third round. A Table uses more, by the number of voices. We show how many tokens you have left beside the message box.</p>
+  </section>
+
+  <section class="page-section" id="packs">
+    <p class="eyebrow">Three packs</p>
+    <h2>Choose how many tokens</h2>
+    <ul>
+      <li>$<span data-ops="pack-1-price">7</span>: <span data-ops="pack-1-tokens">1,100</span> tokens, about ten conversations of <span data-ops="free-rounds">three</span> rounds</li>
+      <li>$<span data-ops="pack-2-price">15</span>: <span data-ops="pack-2-tokens">2,750</span> tokens, about twenty-five</li>
+      <li>$<span data-ops="pack-3-price">30</span>: <span data-ops="pack-3-tokens">6,600</span> tokens, about sixty</li>
+    </ul>
+    <p>Stripe shows the amount before you pay.</p>
+  </section>
+
+  <section class="page-section" id="keep-it-safe">
+    <p class="eyebrow">Keep it safe</p>
+    <h2>A code works for whoever holds it</h2>
+    <p>A code is not tied to you or to your device. Anyone who has it can use it, so keep it as you would keep cash. If you lose it, we cannot find it again.</p>
+  </section>
+
+  <section class="page-section" id="kept-apart">
+    <p class="eyebrow">Kept apart</p>
+    <h2>What you say stays separate from what you paid</h2>
+    <p>Stripe knows who paid. What you say in a conversation is never stored with your code or your payment.</p>
+  </section>
+
+  <section class="page-section" id="buy">
+    <h2>Get a code</h2>
+    <div class="state" id="state-open" hidden>
+      <div class="hero-actions" style="margin:1.2rem 0 1rem;">
+        <button type="button" class="btn primary" id="buy-button">Get a code on Stripe</button>
+      </div>
+      <p class="fine-print">You will leave this site to pay. Stripe shows the amount before you pay.</p>
+    </div>
+    <div class="state" id="state-closed">
+      <p>Codes are not on sale yet.</p>
+    </div>
+    <noscript><p class="fine-print">Getting a code needs JavaScript.</p></noscript>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Church in Conversation. A ministry in formation.</span>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="pilot-feedback.html">Feedback</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/go-deeper.js"></script>
+<script>
+(function(){
+"use strict";
+// The Stripe Payment Link for a code is set here when sales open.
+var PAYMENT_LINK = "";
+var button = document.getElementById('buy-button');
+if (PAYMENT_LINK && button) {
+  document.getElementById('state-open').hidden = false;
+  document.getElementById('state-closed').hidden = true;
+  button.addEventListener('click', function(){
+    window.GoDeeper.startPurchase(PAYMENT_LINK, {
+      crypto: window.crypto,
+      storage: window.localStorage,
+      now: function(){ return Date.now(); },
+      go: function(url){ window.location.href = url; }
+    });
+  });
+}
+})();
+</script>
+<script>
+(function(){
+"use strict";
+var menu = document.querySelector('.menu');
+var menuToggle = document.getElementById('menu-toggle');
+if (menu && menuToggle) {
+  menuToggle.addEventListener('click', function(ev){
+    ev.stopPropagation();
+    var isOpen = menu.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.addEventListener('click', function(ev){
+    if (!menu.contains(ev.target)) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', function(ev){
+    if (ev.key === 'Escape' && menu.classList.contains('open')) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.focus();
+    }
+  });
+}
+})();
+</script>
+</body>
+</html>

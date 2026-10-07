@@ -111,15 +111,11 @@ svg#world{display:block;overflow:visible}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   user-select:none}
-/* Portrait plates -- one of the scope note's own "real proposed rules, just
-   not built here yet": a Built & Live world's actual Representative, framed
-   as a roundel set into the page rather than a photo dropped flat, per the
-   project's own Atlas storyboard draft. Same organic-only visibility as .lbl
-   (a face is a reward for zooming in to read a name, not clutter at full
-   extent), and pointer-events:none so the plate never competes with a
-   different, later-painted node for a click -- the existing dot underneath
-   already owns that job. */
-.portrait-plate{display:none;pointer-events:none}
+/* Portrait plates: a Built & Live world's Representative, framed as a roundel
+   above the world's dot. Shown only at organic (zoomed-in) detail, like .lbl.
+   The plate sits inside the node group, so tapping the face opens the world
+   exactly as tapping the dot does. */
+.portrait-plate{display:none;pointer-events:auto;cursor:pointer}
 /* Multiply, not stack: two opaque fills winding into the same space (rule 3 --
    they make room for neighbors, they don't stay in lanes) otherwise means
    whichever river paints last simply erases the other where they cross. Multiply
@@ -215,9 +211,9 @@ svg#world{display:block;overflow:visible}
 #panel .narration audio{display:block;height:1.9rem;max-width:180px;width:180px;flex:0 0 auto}
 #panel .narration-disclosure{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
   color:var(--ink-faded);margin:0}
-#panel .narration-auto{display:block;font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
-  color:var(--ink-faded);margin:.3rem 0 .2rem}
-#panel .narration-auto input{margin-right:.4rem}
+#panel .narration-opts{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1rem;
+  font-family:"Alegreya Sans",sans-serif;font-size:.78rem;color:var(--ink-faded);margin:.3rem 0 .4rem}
+#panel .narration-opts label{display:inline-flex;align-items:center;gap:.35rem;margin:0}
 #panel ul.voices,#panel ul.exptoday{margin:.3rem 0;padding-left:1.1rem}
 #panel ul.voices li,#panel ul.exptoday li{font-size:.88rem;line-height:1.5;margin:.25rem 0}
 #panel ul.exptoday a{color:var(--tyrian)}
@@ -3217,7 +3213,7 @@ const DATA = {
    "shortName": "Latin Pastoral",
    "informalName": "The Latin Pastoral Congregations",
    "dates": "c. 240s-430",
-   "start": 240,
+   "start": 246,
    "end": 430,
    "region": "Carthage, Hippo Regius",
    "regions": [
@@ -17594,65 +17590,6 @@ const DATA = {
   },
   {
    "id": "lutheran-wittenberg-and-its-congregations",
-   "documentedStories": [
-    {
-     "title": "‘Dear God, What Misery I Beheld’",
-     "when": "1528–1529",
-     "tier": "1",
-     "verification": "from reference summaries; primary text not yet read",
-     "teaser": "Luther rides out with the Saxon visitors to inspect the parishes his reform has held for a decade, and writes the preface to his catechism about what he found.",
-     "text": "In 1527 the Elector of Saxony sent commissions of theologians and jurists through the parishes of his territory to see what condition the churches were in after ten years of evangelical preaching, and Luther went with one of them. The preface he wrote to the Small Catechism in 1529 records the result. ‘The deplorable, miserable condition which I discovered lately when I, too, was a visitor, has forced and urged me to prepare this catechism in this small, plain, simple form. Dear God, what misery I beheld! The common people, especially in the villages, have no knowledge whatever of Christian doctrine, and, alas, many pastors are altogether incapable and incompetent to teach. Yet all maintain that they are Christians, have been baptised, and receive the holy sacraments. Yet they do not understand and cannot even recite the Lord’s Prayer, the Creed, or the Ten Commandments; they live like dumb brutes and irrational hogs.’ Luther’s answer was the two catechisms, the ordering of household instruction — the father to teach the children and servants — and the insistence, repeated across the later visitations, that the gospel had to be drilled. He also wrote, in the same years, that if he had known what would come of it he would have left the peasants under the pope. The catechism is still in use; the preface that explains why it was needed is printed with it.",
-     "caveat": "Luther’s preface is his own and rhetorical; the visitation protocols are official and unflattering, and Gerald Strauss’s reading of them as evidence of the Reformation’s pedagogical failure has been contested by Scribner and others. The scale of ignorance is documented; its interpretation is debated.",
-     "sources": [
-      {
-       "work": "Martin Luther, Preface to the Small Catechism (1529)",
-       "type": "primary",
-       "note": "Book of Concord text online; Luther’s Works (American Edition) vol. 53 for the hymns and liturgy."
-      },
-      {
-       "work": "Philipp Melanchthon, Instructions for the Visitors of Parish Pastors in Electoral Saxony (1528)",
-       "type": "primary",
-       "note": "English in Luther’s Works, vol. 40, pp. 263–320."
-      },
-      {
-       "work": "Gerald Strauss, Luther’s House of Learning: Indoctrination of the Young in the German Reformation (Johns Hopkins, 1978)",
-       "type": "reference",
-       "note": "On the visitation records and the ‘failure’ thesis."
-      },
-      {
-       "work": "Susan Karant-Nunn, ‘The Reality of Early Lutheran Education: The Electoral District of Saxony — A Case Study’, Lutherjahrbuch 57 (1990)",
-       "type": "reference",
-       "note": "A corrective built on the protocols."
-      }
-     ]
-    },
-    {
-     "title": "Argula von Grumbach Challenges the University of Ingolstadt",
-     "when": "September 1523",
-     "tier": "1",
-     "verification": "from reference summaries; primary text not yet read",
-     "teaser": "A Bavarian noblewoman with no Latin, reading of a young teacher forced to recant Lutheran opinions, writes an open letter to the university’s theologians offering to debate them in German, and it is printed fourteen times in a year.",
-     "text": "Arsacius Seehofer, an eighteen-year-old master at the university of Ingolstadt, had been arrested in 1523 for teaching from Melanchthon and Luther, and forced on his knees before the faculty to recant seventeen articles and be sent to a monastery. Argula von Grumbach, wife of a ducal official at Dietfurt, had read Luther since 1520 and had a German Bible. She wrote to the university. Her letter, dated 20 September 1523, is the first Protestant pamphlet by a woman: she tells the theologians that she has read the Scriptures and finds no word in them that a Christian should be forced to deny what they teach; she says she knows that Paul told women to be silent in church, but that when no man will speak she is bound by Christ’s word that whoever denies him before men will be denied; and she challenges the faculty to meet her in public disputation, in German, before the duke, promising to bring her Bible. ‘I do not intend to bury my talent.’ The university did not reply in writing. It had her husband dismissed from his office; her letter was printed in Nuremberg, Augsburg, Strasbourg and elsewhere, and she wrote seven more pamphlets within the year. Then she was silenced — not by argument but by the loss of her husband’s income and the Bavarian ban on evangelical printing. The evangelical movement’s first female voice in print was a laywoman defending a boy she had never met.",
-     "caveat": "Argula’s pamphlets are her own and were printed in her lifetime; the university’s response is known only from her side and from the dismissal of her husband. The print-run estimate is Matheson’s.",
-     "sources": [
-      {
-       "work": "Argula von Grumbach, Letter to the University of Ingolstadt (20 September 1523)",
-       "type": "primary",
-       "note": "English in Peter Matheson, Argula von Grumbach: A Woman’s Voice in the Reformation (T&T Clark, 1995), pp. 71–96."
-      },
-      {
-       "work": "Argula von Grumbach, Answer to a Student of Ingolstadt (1524)",
-       "type": "primary",
-       "note": "The verse reply; in Matheson (1995)."
-      },
-      {
-       "work": "Peter Matheson, Argula von Grumbach (1492–1554/7): A Woman before Her Time (Cascade, 2013)",
-       "type": "reference",
-       "note": "The biography."
-      }
-     ]
-    }
-   ],
    "atlasId": "VI.1",
    "era": 7,
    "name": "Lutheran Wittenberg & Its Congregations",
@@ -40877,6 +40814,11 @@ function render(){
   // movement's halo and every other already-placed portrait.
   const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;
   const portraitOffsetById={}, placedPortraits=[];
+  // Story book marks are drawn above the nodes, so a portrait that lands under
+  // one has its face covered and its click taken by the story. They count as
+  // obstacles like any other dot.
+  const storyMarks=(DATA.stories||[]).map(s=>{const y=yearToY(s.year);return {x:laneCenterX(s.laneOrder,y),y};});
+  const STORY_CLEAR=PORTRAIT_R+4+8;
   DATA.movements.filter(m=>m.status==='Built & Live' && PORTRAIT_DATA[m.id]).forEach(m=>{
     let offset=PORTRAIT_OFFSET, clear=false;
     while(offset<=PORTRAIT_MAX_OFFSET){
@@ -40885,7 +40827,16 @@ function render(){
         Math.hypot(other._x-m._x, other._y-py)>=PORTRAIT_CLEAR);
       const clearOfPortraits=placedPortraits.every(p=>
         Math.hypot(p.x-m._x, p.y-py)>=(PORTRAIT_R+4)*2+5);
-      if(clearOfDots&&clearOfPortraits){clear=true;break;}
+      // The world's name sits under its portrait, so a story mark must clear
+      // that box too, not only the face.
+      const lbX0=m._x+7, lbX1=lbX0+(m.shortName||m.name).length*7;
+      const lbY0=py+PORTRAIT_R+4, lbY1=lbY0+18;
+      const clearOfStories=storyMarks.every(sm=>{
+        if(Math.hypot(sm.x-m._x, sm.y-py)<STORY_CLEAR)return false;
+        const cx=Math.max(lbX0,Math.min(sm.x,lbX1)), cy=Math.max(lbY0,Math.min(sm.y,lbY1));
+        return Math.hypot(sm.x-cx, sm.y-cy)>=8;
+      });
+      if(clearOfDots&&clearOfPortraits&&clearOfStories){clear=true;break;}
       offset+=PORTRAIT_STEP;
     }
     // No tested step ever cleared everything -- an honest cap rather than an
@@ -41206,29 +41157,62 @@ function startNarration(a){
   const p=a.play();
   if(p&&p.catch)p.catch(()=>{});
 }
-function narrAddToggle(){
+// Which built worlds have narration, read once at load so a world card can draw
+// its story player in the same tap that opens it (see openPanel).
+let worldAudio=null;
+fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).then(j=>{worldAudio=j;}).catch(()=>{worldAudio={};});
+function narrPlayerHTML(url,attrs){
+  return '<div class="narration"'+(attrs||'')+'><audio controls preload="none" src="'+esc(url)+'"></audio>'
+    +'<p class="narration-disclosure">Synthesized voice \u2014 not a recording.</p></div>';
+}
+const NARR_RATE_KEY='cic.narration.rate';
+const NARR_RATES=[1,1.25,1.5,2];
+function narrRate(){
+  try{const r=parseFloat(localStorage.getItem(NARR_RATE_KEY));return NARR_RATES.includes(r)?r:1;}catch(e){return 1;}
+}
+function narrApplyRate(a){
+  const r=narrRate();
+  a.defaultPlaybackRate=r; a.playbackRate=r;
+  a.preservesPitch=true; a.webkitPreservesPitch=true;
+}
+function narrAddControls(){
   const first=panelBody.querySelector('.narration');
-  if(!first||panelBody.querySelector('.narration-auto'))return;
+  if(!first||panelBody.querySelector('.narration-opts'))return;
+  const wrap=document.createElement('div');
+  wrap.className='narration-opts';
   const label=document.createElement('label');
-  label.className='narration-auto';
   const box=document.createElement('input');
   box.type='checkbox'; box.checked=narrAuto();
   box.addEventListener('change',()=>narrSetAuto(box.checked));
   label.appendChild(box); label.appendChild(document.createTextNode('Start narration automatically'));
-  first.parentNode.insertBefore(label,first);
-}
-function narrCardReady(){narrAddToggle();startNarration(mainNarration());}
+  wrap.appendChild(label);
+  first.parentNode.insertBefore(wrap,first);
+  panelBody.querySelectorAll('audio').forEach(narrApplyRate);
+}function narrCardReady(){narrAddControls();startNarration(mainNarration());}
 // One voice at a time; opening a story inside a card starts it, closing stops it.
 panelBody.addEventListener('play',ev=>{
   if(!ev.target||ev.target.tagName!=='AUDIO')return;
+  narrApplyRate(ev.target);
   panelBody.querySelectorAll('audio').forEach(a=>{if(a!==ev.target)a.pause();});
+},true);
+panelBody.addEventListener('loadedmetadata',ev=>{
+  if(ev.target&&ev.target.tagName==='AUDIO')narrApplyRate(ev.target);
+},true);
+// A story opened with its arrow starts inside the click itself: iPhone Safari
+// plays sound only when playback begins in the tap, not a moment later.
+panelBody.addEventListener('click',ev=>{
+  const sum=ev.target.closest&&ev.target.closest('details.docstory-item>summary');
+  if(!sum)return;
+  const d=sum.parentElement, a=d.querySelector('audio');
+  if(!a)return;
+  if(d.open){a.pause();try{a.currentTime=0;}catch(e){}} else startNarration(a);
 },true);
 panelBody.addEventListener('toggle',ev=>{
   const d=ev.target;
   if(!d||!d.matches||!d.matches('details.docstory-item'))return;
   const a=d.querySelector('audio');
   if(!a)return;
-  if(d.open)startNarration(a); else {a.pause();try{a.currentTime=0;}catch(e){}}
+  if(!d.open){a.pause();try{a.currentTime=0;}catch(e){}}
 },true);
 // Live hand-off: the same isLocal/LIVE_APP_URL/?worlds=<id>&mode=interview
 // contract already shipping in atlas-v3.html and index.html -- reused, not
@@ -41270,7 +41254,7 @@ function sectionSources(list){
 // before </body>. Every id here is also that world's own census_id (the
 // compiled JSON's filename), verified 1:1 against world-census.json's own
 // `status === "Built & Live"` movements.
-const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","syriac-edessa-nisibis","desert-monasticism","cappadocian-nicene-pastoral-monastic-tradition","imperial-juridical-christianity","hieronymian-ascetic-literary","gallic-monastic-ascetic-christianity","the-reformed-cities-zurich-and-geneva","donatism"]);
+const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","syriac-edessa-nisibis","desert-monasticism","cappadocian-nicene-pastoral-monastic-tradition","imperial-juridical-christianity","hieronymian-ascetic-literary","gallic-monastic-ascetic-christianity","the-reformed-cities-zurich-and-geneva","donatism","lutheran-wittenberg-and-its-congregations"]);
 // This classic script runs immediately, as the parser reaches it - the
 // <script type="module"> importing orientation-render.mjs, further down
 // the document, is deferred by spec and has NOT necessarily run yet by
@@ -41309,9 +41293,11 @@ async function loadBuiltWorldOrientation(censusId){
     const wm=await fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
     const narr=window.OrientationNarrationUrls?window.OrientationNarrationUrls(wm[censusId],'audio/worlds/'):null;
     const nopts=narr?{narration:narr}:{};
+    const syncStory=!!document.querySelector('#panel [data-sync-story]');
+    const storyOpts=syncStory&&narr?{narration:{...narr,story:null}}:nopts;
     let h='';
     const o=compiled.orientation||{};
-    if(o.story&&o.story.length)h+='<h3>The Story</h3>'+R.story(compiled,nopts);
+    if(o.story&&o.story.length)h+=(syncStory?'':'<h3>The Story</h3>')+R.story(compiled,storyOpts);
     if(o.documented_stories&&o.documented_stories.length)h+='<h3>Documented stories</h3>'+R.documented_stories(compiled,{idPrefix:censusId,...nopts});
     if(o.voices&&o.voices.length)h+='<h3>Voices</h3>'+R.voices(compiled);
     if(o.floor_note&&o.floor_note.text)h+='<h3>Doctrinal floor note</h3>'+R.floor_note(compiled);
@@ -41321,7 +41307,8 @@ async function loadBuiltWorldOrientation(censusId){
     if(!h)h='<p class="meta">No further orientation content recorded for this world yet.</p>';
     slot.innerHTML=h;
     slot.classList.remove('orient-loading');
-    if(slot.isConnected&&panel.classList.contains('open'))narrCardReady();
+    panelBody.querySelectorAll('audio').forEach(narrApplyRate);
+    if(!syncStory&&slot.isConnected&&panel.classList.contains('open'))narrCardReady();
   }catch(err){
     slot.innerHTML='<p class="meta">This world’s fuller record could not be loaded right now. Try reopening this panel.</p>';
     slot.classList.remove('orient-loading');
@@ -41358,15 +41345,15 @@ function openPanel(m){
   // verifiedSources, why below) is unaffected: those fields are never
   // removed from DATA for a built world.
   if(isBuiltWorld){
+    const wa=worldAudio&&worldAudio[m.id]&&worldAudio[m.id].story;
+    if(wa)h+='<h3>The Story</h3>'+narrPlayerHTML('audio/worlds/'+wa.file,' data-sync-story="1"');
     h+='<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this world’s fuller record…</p></div>';
   }
-  // Narration: every non-built movement's own longDescription is already
-  // synthesized (cic-website/audio/tree/<id>.mp3) - the built worlds' own
-  // narration is deliberately not wired in here yet, since their audio
-  // still narrates the superseded longDescription text rather than their
-  // real, current orientation.story (see tools/generate_tree_narration.mjs).
+  // Narration: a non-built movement's longDescription is read from
+  // audio/tree/<id>.mp3. A built world's story, documented stories and legacy
+  // are read from audio/worlds/ (see worldAudio above).
   if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'
-    +'<div class="narration"><audio controls preload="none"><source src="audio/tree/'+esc(m.id)+'.mp3" type="audio/mpeg"></audio>'
+    +'<div class="narration"><audio controls preload="none" src="audio/tree/'+esc(m.id)+'.mp3"></audio>'
     +'<p class="narration-disclosure">Synthesized voice — not a recording.</p></div>'
     +m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
   // Documented stories: 1-3 real, individually sourced narrative episodes
@@ -41464,8 +41451,10 @@ function openPanel(m){
     docStoryAudioKeys().then(keys=>{
       const slot=item.querySelector('.docstory h4');
       if(keys.has(audioKey)&&slot&&!item.querySelector('.narration'))slot.insertAdjacentHTML('afterend',
-        '<div class="narration"><audio controls preload="none"><source src="audio/docstories/'+esc(audioKey)+'.mp3" type="audio/mpeg"></audio>'
+        '<div class="narration"><audio controls preload="none" src="audio/docstories/'+esc(audioKey)+'.mp3"></audio>'
         +'<p class="narration-disclosure">Synthesized voice — not a recording.</p></div>');
+      const na=item.querySelector('.narration audio');
+      if(na)narrApplyRate(na);
     });
     summary.addEventListener('mouseenter',ev=>showTip(ev,tipHtml));
     summary.addEventListener('mousemove',positionTip);
@@ -41488,7 +41477,7 @@ function openPanelStory(s){
     <p class="meta">${esc(String(s.year))} · ${esc(s.region||'')}</p>
     <span class="statuspill">${esc(s.confidence)} · a story, not a movement</span>`;
   if(s.teaser)h+=`<p class="teaser">${esc(s.teaser)}</p>`;
-  if(s.text)h+=`<h3>The Story</h3><div class="narration"><audio controls preload="none"><source src="audio/stories/${esc(s.id)}.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>${esc(s.text)}</p>`;
+  if(s.text)h+=`<h3>The Story</h3><div class="narration"><audio controls preload="none" src="audio/stories/${esc(s.id)}.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>${esc(s.text)}</p>`;
   if(s.caveat)h+=`<h3>What's solid, what's retold</h3><p>${esc(s.caveat)}</p>`;
   if(hasContent(s.relationsSummary))h+=`<h3>How it connects</h3><p><i>${esc(s.relationsSummary)}</i></p>`;
   const related=(s.relatedIds||[]).map(id=>byId[id]).filter(Boolean);
@@ -41935,5 +41924,6 @@ window.OrientationRender = RENDERERS;
 window.OrientationNarrationUrls = narrationUrls;
 if (window.__orientationRenderResolve) window.__orientationRenderResolve(RENDERERS);
 </script>
+<script src="assets/narration-player.js" defer></script>
 </body>
 </html>

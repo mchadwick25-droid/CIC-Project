@@ -49,5 +49,13 @@ senses:
     had already done for everyone.'
 quick_meaning: God's own love for humankind, and the virtue that copies it.
 distortion_risk: medium
+use_note:
+  means: "Philanthropia meant God's love for humankind shown in the incarnation and the virtue that copies it, a civic word claimed by the church."
+  not_for:
+    - "elite giving by the wealthy"
+    - "the teaching that the poor bear God's image, which sits in cappadocian.term.philoptochia"
+    - "the poorhouse itself, which sits in cappadocian.term.basileias"
+  years: {from: 325, to: 394}
+  status: reviewed
 ---
 Built from Doc_06 entry 22 (Tier 2).

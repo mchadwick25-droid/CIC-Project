@@ -75,5 +75,14 @@ senses:
 quick_meaning: Deification, or becoming god by grace. Our boldest word for what salvation finally
   is.
 distortion_risk: high
+use_note:
+  means: "Theosis meant becoming god by grace, a participation in God that never crosses the gap between creature and Creator."
+  not_for:
+    - "pantheism or self-divinization"
+    - "the endless stretching toward God as the whole circle's teaching, which sits in cappadocian.term.epektasis"
+    - "the wording of Gregory of Nyssa's line, which sits in cappadocian.quote.gregory-nyssa-on-becoming-god"
+    - "the noun's coinage by Gregory of Nazianzus as certain"
+  years: {from: 375, to: 390}
+  status: reviewed
 ---
 Built from Doc_06 entry 9 (Tier 1) and the built deployment chunk cappadocianlex002_theosis.md, cross-checked and found matching (Doc_06's own Master Index note).

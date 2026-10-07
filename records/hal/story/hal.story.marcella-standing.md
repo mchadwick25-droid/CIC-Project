@@ -59,6 +59,14 @@ absent_detail: 'The consultations, their frequency, the clergy''s deference, her
   documented fact about the extent of her authority - only as the world''s own
   remembered account of it, with the frame named.'
 modern_contrast: 'A modern reader often hears "clergy brought her their disputes" as documented institutional authority close to an ordained role. This world''s own record frames it differently: it is one man''s post-mortem memorial, and in his own account she gave her opinions "not as her own but as from me or some one else" - real standing, exercised inside a deference-form this telling does not resolve as her own choice, the age''s constraint, or his framing.'
+use_note:
+  means: "Marcella's reported standing as an arbiter of scriptural disputes in Rome, a contested claim resting on Jerome's post-mortem memorial alone."
+  not_for:
+    - "presenting the extent of her authority as documented fact"
+    - "equating it with an ordained or institutional role"
+    - "resolving her deference-form as her own choice"
+  years: {from: 382, to: 410}
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S7. The refusal-of-Cerealis line is Ep.
 127 sec. 2's reported speech (verified in the vendored text: had she

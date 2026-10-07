@@ -136,6 +136,15 @@ tensions:
 - everything hardest to admit here survives precisely because an opponent found it useful, so the record
   of our failures is better preserved than the record of anything else about us
 relations: []
+use_note:
+  means: "Donatist use of power is shown in the 320 inquiry where bishops hushed a true charge, in troops and anti-heretical law turned on the Maximianists, and in the baker of Hippo told not to bake for Catholics."
+  not_for:
+    - "a claim about the Donatists' own reasoning for the Bagai reception or the appeal to anti-heretical law"
+    - "a claim that the polemical portrait of Circumcellion conduct is established fact"
+    - "a claim about the baker's name, motive or fate, or about what the Donatists did to pagan temples"
+    - "a claim about the stance of refusing imperial judgment and its three recourses as a whole, which sits in don.witness.refusal-and-recourse"
+  years: {from: 320, to: 403}
+  status: reviewed
 ---
 Closes F3-P. All three variants are engaged and the answers deliberately
 run in different directions: accountability is admitted with a document

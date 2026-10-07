@@ -88,6 +88,14 @@ tensions:
 - nothing in our record traces any practice of ours past the middle of the third century, so an apostolic
   claim is not available to us even if we had wanted to make one
 relations: []
+use_note:
+  means: "Donatists traced their rebaptism to the ruling of Cyprian's council of eighty-seven bishops at Carthage, an African rather than apostolic pedigree, while conceding Cyprian never broke communion over it."
+  not_for:
+    - "a claim that Donatists asserted an apostolic pedigree for their practice"
+    - "a claim that Cyprian broke communion over rebaptism"
+    - "a claim that scripture alone could not settle the dispute, argued from the 411 conference in don.dw.scripture-and-the-african-fathers"
+  years: {from: 311, to: 411}
+  status: reviewed
 ---
 Closes F4-E, the cell with a single question. The answer refuses the
 question's own framing rather than meeting it, because meeting it would

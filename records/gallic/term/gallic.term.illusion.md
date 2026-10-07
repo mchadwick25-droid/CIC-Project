@@ -117,6 +117,15 @@ quick_meaning: >-
   A false show by which the devil ruins a monk - a robe "from heaven," a crowned Christ, a
   promise at a well. Tours brings it to the saint; Marseilles brings it to the elder.
 distortion_risk: medium
+use_note:
+  means: "Illusion meant a false show by which the devil ruins a monk, such as a robe from heaven or a crowned Christ, met by Martin and by Cassian's elders."
+  not_for:
+    - "hallucination or delusion as psychology"
+    - "Martin's refusal of the false Christ as skepticism about miracles in general"
+    - "the faculty that detects it, which sits in gallic.term.discretion"
+    - "the content of Conference XXII, which is absent from the vendored English"
+  years: {from: 397, to: 426}
+  status: reviewed
 ---
 Built from Doc_06 entry 052 (`galliclex052_illusion.md`, Tier 2, tags SC DR TC; Doc_03 6.7). The
 Conf. XXII excision (Registry row 11) is this term's own coverage limit and is cited as a source

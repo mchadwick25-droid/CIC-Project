@@ -7,6 +7,7 @@
  * sitting.
  */
 import { ArrivingLockup } from '../components/ArrivingLockup';
+import { GoDeeperPanel } from '../components/GoDeeperPanel';
 import { PAIRINGS, suggestionsFor } from '../data/pairings';
 import type { WorldEntry } from '../data/worlds';
 
@@ -139,6 +140,7 @@ export function Launch({
           </button>
         </div>
       </div>
+      <GoDeeperPanel />
     </div>
   );
 }

@@ -47,6 +47,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence
+use_note:
+  means: "Sulpitius, in the Life of Martin, laments that some of Martin's few slanderers were reported to be bishops."
+  not_for:
+    - "an identification of which bishops opposed Martin, which Sulpitius withholds"
+    - "the Gallic episcopate as a whole hostile to Martin, when Sulpitius says very few"
+    - "the bishops' objections at the election, which sit in gallic.quote.ruricius-and-the-vote-for-tours"
+  years: {from: 397, to: 397}
+  status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "calumniators"` returns a hit at line 1939 inside the chapter div `<div3 title="Chapter XXVII.

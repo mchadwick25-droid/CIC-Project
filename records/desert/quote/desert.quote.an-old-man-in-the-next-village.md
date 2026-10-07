@@ -39,6 +39,14 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.dw.apostolic
+use_note:
+  means: "Athanasius's Life of Antony records that when Antony began, monks practised discipline alone near their villages, and he imitated an unnamed old hermit nearby."
+  not_for:
+    - "Antony as the inventor or first practitioner of the monastic life"
+    - "the anonymous village hermit as a named or otherwise attested figure"
+    - "the episode as a verified incident rather than part of Athanasius's constructed portrait"
+  years: {from: 268, to: 275}
+  status: reviewed
 ---
 This quote fills canon cell F4-E. desert.dw.apostolic cites SS3-4 for "the older ascetic already
 living near the village before Antony withdrew," but has nothing quotable there; this record

@@ -57,6 +57,14 @@ relations:
   target: gallic.force.barbarian-fiscal-ruin
 - type: associated-with
   target: gallic.gravity.judgment-imminent-present
+use_note:
+  means: "Salvian, in On the Government of God, reads the barbarian sweep from Germany through the Belgae and Aquitaine into all Gaul as God's present judgment."
+  not_for:
+    - "an exact chronicle of the invasions rather than a preacher's indictment"
+    - "the captured general read as judgment, which sits in gallic.quote.salvian-present-judgment-clearly-shown"
+    - "a date for each invasion, which the passage does not give"
+  years: {from: 439, to: 450}
+  status: reviewed
 ---
 Verified directly against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n
 "ever-present judgment of God"` returns line 9144; `grep -n "country of the Belgae"` returns line

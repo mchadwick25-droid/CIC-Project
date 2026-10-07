@@ -49,6 +49,14 @@ senses:
     on its own.
 quick_meaning: The soul reordered by contact with God, not self-improvement.
 distortion_risk: high
+use_note:
+  means: "Transformation meant the soul reoriented by contact with God at the level of what it wants, not self-improvement or better behavior alone."
+  not_for:
+    - "describing it as self-help or personal development"
+    - "treating better behavior with an unchanged direction as transformation"
+    - "adding Origen's speculative final-restoration extension"
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex021, "Transformation") at Mark's direction, as a
 draft, not a final version. Origen's speculative final-restoration extension (the apokatastasis material)

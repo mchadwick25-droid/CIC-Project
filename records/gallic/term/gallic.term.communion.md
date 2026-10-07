@@ -112,6 +112,15 @@ quick_meaning: >-
   once on Martin and paid for in lost power; lost by a monk at fault until he does penance. The
   sacrament sits inside it.
 distortion_risk: high
+use_note:
+  means: "Communion meant chiefly the bond of fellowship, whose withholding was the Church's sharpest sanction and whose wrongful extension cost Martin power, with the sacrament inside it."
+  not_for:
+    - "communion as the eucharist alone"
+    - "a denominational body, or excommunication as a legal penalty"
+    - "the public discipline for a fault, which sits in gallic.term.penance-satisfaction"
+    - "documented Gallic eucharistic frequency, when that rests on an editor's footnote"
+  years: {from: 397, to: 435}
+  status: reviewed
 ---
 Built from Doc_06 entry 061 (`galliclex061_communion.md`, Tier 2, tags SC DR TC RT; Doc_03
 7.11). The chunk's name-the-layer note on Gibson's daily-communion footnote (citing the omitted

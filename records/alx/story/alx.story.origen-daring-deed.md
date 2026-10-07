@@ -65,4 +65,12 @@ modern_contrast: >
   that tension into one verdict: it keeps the admiration and the discomfort
   together, and it states plainly, on the strength of Origen's own later
   writing, that he came to judge the verse differently himself.
+use_note:
+  means: "Eusebius reports that young Origen acted on Matthew's eunuch verse literally, which Demetrius first admired and later denounced, evidencing the teacher-bishop tension."
+  not_for:
+    - "stating the act as established fact when only Eusebius reports it and its history is disputed"
+    - "presenting only the admiring reading or only the alarmed reading"
+    - "claiming Origen never revised his view of the verse"
+  years: {from: 203, to: 231}
+  status: reviewed
 ---

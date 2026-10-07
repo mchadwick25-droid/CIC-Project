@@ -101,6 +101,15 @@ quick_meaning: >-
   The noon assault on a monk in his cell. He hates the place, watches the sun, finds pious reasons to
   leave - and deserts unless he stays put.
 distortion_risk: high
+use_note:
+  means: "Accidie meant, for Cassian's Marseilles, the noonday weariness that assails a monk in his cell as the sixth fault and ends in desertion unless he stays."
+  not_for:
+    - "sloth as laziness, or depression and burnout as clinical conditions"
+    - "a Gallic coinage, when Cassian gives the name and the midday demon as the teaching of Egypt's elders"
+    - "the general cooling of fervour, which sits in gallic.term.lukewarmness"
+    - "the list of faults as a whole, which sits in gallic.term.eight-principal-faults"
+  years: {from: 415, to: 426}
+  status: reviewed
 ---
 Built from Doc_06 entry 038 (Tier 2; chunk galliclex038_accidie.md; Doc_03 4.6). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. The Greek at Inst. X.1
