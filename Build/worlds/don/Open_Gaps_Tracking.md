@@ -894,3 +894,9 @@ Review: round 1 (Opus), `Build/Ministry/Operations/Audits/don_identity_scaffoldi
 CI after the push: the fleet readability waiver for don in `engine/m9/enforce.py` moved from 330 to 327, the count the fleet check reports on this pass's final records, and the site JSON for don (`cic-website/data/worlds/`) was recompiled because its narrative was stale against the records. `engine.m3.admission_conform` fails on every records change until decision 58's promotion-gate change lands; it is not changed or paid around here.
 
 Status: round 2 (Opus, `Build/Ministry/Operations/Audits/don_identity_scaffolding_review_round2_2026-10-06.md`) cleared the records and found these two sentences inaccurate; both are corrected here as it specified. Approved to proceed.
+
+### OG-26. Spoken text opens on a question after the record pass, 2026-10-07.
+
+The question-kind slice's scaffolding check (`spoken_scaffolding.scaffolding_hits`) still finds 2 spoken fields in this world after the identity-and-scaffolding record pass (identity-and-scaffolding record pass, 2026-10-06): `don.dw.written-by-our-opponents` `text` (first sentence ends "who wrote it down?") and `don.witness.refusal-and-recourse` `positions[0]` (opens on the quoted question "What has the emperor to do with the church?"). The pass had reached its review cap, so neither was changed there. Waived in `engine/m1/cross_world.py` as `spoken-scaffolding/don`; whoever resolves them removes the waiver. The second opens on a quotation; whether a quoted question counts as scaffolding is for the record pass or the check's owner to decide.
+
+Status: OPEN.

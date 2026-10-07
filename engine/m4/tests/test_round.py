@@ -294,7 +294,7 @@ def test_directive_roundtrip_matches_turn_payload_shape():
 
     directive = Directive(
         asks=[{"order": 1, "text": "a"}], register_note="witness-before-answer licensed",
-        suspend_register_statement_1=True, ambiguity_options=["x", "y"],
+        suspend_register_statement_1=True, ambiguity_options=["x", "y"], kind="how",
     )
     assert round_payload(directive) == turn_payload(directive)
     assert directive_from_payload(round_payload(directive)) == directive

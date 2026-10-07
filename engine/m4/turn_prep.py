@@ -7,7 +7,7 @@ produce byte-identical outputs.
 """
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence
@@ -223,6 +223,67 @@ CONCISION_DIRECTIVE = (
 )
 
 
+KIND_DIRECTIVES = {
+    "who": (
+        "The ask is who someone is. Say who he, she or they are to your world, and bring in deeds "
+        "only as they show it."
+    ),
+    "what_is": (
+        "The ask is what something is. Say what it is to your world, in your world's own words, "
+        "then what it is for."
+    ),
+    "what_did": (
+        "The ask is what was done. Where the records hold a story for this question, tell it as the "
+        "record tells it rather than summarising it; where they do not, do not reach for one."
+    ),
+    "what_happened": (
+        "The ask is what happened. Where the records hold a story for this question, tell it as the "
+        "record tells it rather than summarising it; where they do not, do not reach for one."
+    ),
+    "what_means": (
+        "The ask is what a word means. Give your world's own meaning of the word, then where it came from."
+    ),
+    "why": (
+        "The ask is why. Give the reason your world gave, with its weight."
+    ),
+    "how": (
+        "The ask is how it was done. Give the practice."
+    ),
+    "did_it_happen": (
+        "The ask is whether it happened. Give the evidence and the honest limit."
+    ),
+}
+OBLIQUE_WHO_DIRECTIVE = (
+    "The ask is who someone is. Your world's own sources answer this sideways: give that way first, "
+    "then say who in the next breath."
+)
+
+
+def _kind_directive(kind: str | None, oblique: bool) -> str | None:
+    """The one line this turn's question kind adds to the directive; none
+    for "other", which keeps the opening line alone."""
+    if kind == "who" and oblique:
+        return OBLIQUE_WHO_DIRECTIVE
+    return KIND_DIRECTIVES.get(kind or "other")
+
+
+def _offered_ids(turn_evidence: dict) -> dict[str, list[str]]:
+    """The record ids this turn's evidence block offered the voice, by record type."""
+    offered: dict[str, list[str]] = {}
+    for candidate in turn_evidence["candidates"]:
+        offered.setdefault(candidate["record_type"], []).append(candidate["id"])
+    return offered
+
+
+def _lead_answers_obliquely(turn_evidence: dict, repository_records: dict[str, dict]) -> bool:
+    """True when the turn's lead witness record carries answers_obliquely.
+    The lead witness is the first witness candidate of the evidence block."""
+    for candidate in turn_evidence["candidates"]:
+        if candidate["record_type"] == "doctrinal_witness":
+            return bool((repository_records.get(candidate["id"]) or {}).get("answers_obliquely"))
+    return False
+
+
 def _build_turn_directive(
     directive: Directive | None,
     figures_already_named: list[str] | None = None,
@@ -234,6 +295,8 @@ def _build_turn_directive(
     other_tradition_repeat_turn: bool = False,
     other_tradition_known_in_window: bool | None = None,
     other_tradition_revealed: list[tuple[str, str]] | None = None,
+    kind: str | None = None,
+    oblique: bool = False,
 ) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
@@ -287,6 +350,8 @@ def _build_turn_directive(
         asks_text = "; ".join(a["text"] for a in directive.asks) if directive.asks else "(none extracted)"
         parts.append(f"Asks, in order: {asks_text}")
         parts.append(CONCISION_DIRECTIVE)
+        if kind_line := _kind_directive(kind, oblique):
+            parts.append(kind_line)
         if directive.register_note:
             parts.append(f"Register note: {directive.register_note}")
         if directive.suspend_register_statement_1:
@@ -360,6 +425,8 @@ class VoiceTurnInputs:
     figures_already_named: list[str]
     user_message: str
     turn_directive: str | None
+    kind: str = "other"
+    offered_ids: dict[str, list[str]] = field(default_factory=dict)
 
 
 def prepare_voice_turn_inputs(
@@ -381,6 +448,7 @@ def prepare_voice_turn_inputs(
     other_tradition_known_in_window: bool | None = None,
     other_tradition_revealed: list[tuple[str, str]] | None = None,
     correction: str | None = None,
+    previous_kind: str | None = None,
 ) -> VoiceTurnInputs:
     """The setup every voice-generation call needs before the first model
     call: assemble this turn's evidence (design §3, engine.m4.evidence -
@@ -420,6 +488,15 @@ def prepare_voice_turn_inputs(
         if figure.get("id") in (already_bridged_figure_ids or set())
         and (name := spoken_name(figure))
     ]
+    kind = evidence.resolve_kind(
+        directive.kind if directive else None,
+        message=participant_message,
+        asks=directive.asks if directive else None,
+        history=history,
+        previous_kind=previous_kind,
+        canon_questions=canon_questions,
+        repository_records=repository_records,
+    )
     turn_evidence = evidence.assemble_evidence(
         message=participant_message,
         asks=directive.asks if directive else None,
@@ -431,6 +508,7 @@ def prepare_voice_turn_inputs(
         history=history,
         figures_already_named=figures_already_named,
         secondary_context=secondary_context,
+        kind=kind,
     )
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
@@ -446,6 +524,8 @@ def prepare_voice_turn_inputs(
         other_tradition_repeat_turn=other_tradition_repeat_turn,
         other_tradition_known_in_window=other_tradition_known_in_window,
         other_tradition_revealed=other_tradition_revealed,
+        kind=kind,
+        oblique=_lead_answers_obliquely(turn_evidence, repository_records),
     )
     if correction:
         turn_directive = (turn_directive or "") + correction
@@ -456,4 +536,6 @@ def prepare_voice_turn_inputs(
         figures_already_named=figures_already_named,
         user_message=user_message,
         turn_directive=turn_directive,
+        kind=kind,
+        offered_ids=_offered_ids(turn_evidence),
     )

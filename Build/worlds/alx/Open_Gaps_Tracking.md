@@ -404,3 +404,9 @@ Errors in the voice's replies, each confirmed against the records by an independ
 (1) Sealed probe f6-i: the reply says "Demetrius had him ordained in another city without his consent"; `alx.story.origen-demetrius` has Palestinian bishops ordaining Origen without Demetrius's consent, and Demetrius condemning it.
 
 Status: OPEN.
+
+### OG-17. Spoken text opens on a question or carries a stage direction, 2026-10-06.
+
+12 spoken field(s) across 12 record(s) in witness, term and story text have a first sentence that ends in a question mark, or carry "your second question", "start with the part", "you asked" or "as you asked". The voice answers in the kind the participant asked, so spoken text must start with the answer. Content for this world's record pass; the check is `spoken_scaffolding.scaffolding_hits`. Waived in `engine/m1/cross_world.py` as `spoken-scaffolding/alx` until the pass lands; the pass removes the waiver. First record: `alx.dw.apostolic`.
+
+Status: OPEN.
