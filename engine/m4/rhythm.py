@@ -28,11 +28,6 @@ class RhythmTally:
     figures_asked: frozenset[str] = frozenset()
 
     @property
-    def known_figure_ids(self) -> set[str]:
-        """Figures the participant has met or just asked about; neither is new."""
-        return set(self.figures_introduced) | set(self.figures_asked)
-
-    @property
     def quote_due(self) -> bool:
         """Three or more rounds since the last voiced quote, or none yet."""
         if not self.quotes_voiced:

@@ -42,7 +42,6 @@ from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
 from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
 from engine.m4.grounding_net import scope_completion
-from engine.m4.name_bridge import find_figures_used
 from engine.m4.rhythm import RhythmTally
 from engine.m5.routing import QUESTION_KINDS
 
@@ -756,7 +755,7 @@ def _retrieval_fill_scores(*, record_type: str, query_words: set[str], repositor
     return scored
 
 
-def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000, already_told_ids: set[str] | list[str] | None = None, kind: str | None = None, rhythm: RhythmTally | None = None, words_asked: bool = False, figures: list[dict] | None = None) -> list[dict]:
+def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000, already_told_ids: set[str] | list[str] | None = None, kind: str | None = None, rhythm: RhythmTally | None = None, words_asked: bool = False) -> list[dict]:
     """Stage B (design §3.2): cell -> candidates -> rank. coverage_entry is
     compiled/coverage.json's own entry for this cell - the seed pool every
     candidate here is drawn from (see module docstring's named
@@ -779,23 +778,11 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
     ranking would have chosen it, it still stands in the block, tagged by the
     caller, for the voice to refer back to. Until three rounds have passed
     since the last voiced quote, and unless words_asked, the quote floor is
-    one. While a figure introduced within the last three rounds closes the
-    gate, a record whose text names a figure not yet introduced has no floor
-    of its own: it is chosen only after the records that do not, so the
-    ground does not push a new name into the reply. figures is the world's
-    figure list those names are read from."""
+    one."""
     query_words = _query_words(message, asks)
     selected: list[dict] = []
     used_chars = 0
     quote_floor = 1 if rhythm is not None and not rhythm.quote_due and not words_asked else None
-    figure_cache: dict[str, bool] = {}
-
-    def _names_a_new_figure(rid: str) -> bool:
-        if rid not in figure_cache:
-            record = repository_records.get(rid) or {}
-            text = f"{_head_text(record)} {record.get('speaker_or_author') or ''}"
-            figure_cache[rid] = bool(find_figures_used(text, figures or [], already_bridged_ids=rhythm.known_figure_ids))
-        return figure_cache[rid]
 
     def _entry(rid: str, record_type: str, score: float | None) -> dict | None:
         record = repository_records.get(rid)
@@ -853,8 +840,6 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             for rid in (already_told_ids or ())
             if rid in repository_records
         }
-        if rhythm is not None and rhythm.figure_gate_closed:
-            scored = [t for t in scored if not _names_a_new_figure(t[0])] + [t for t in scored if _names_a_new_figure(t[0])]
         chosen = _diverse_take(scored, repository_records, floor, used_keys)
         if rhythm is not None and record_type == "quote" and rhythm.quotes_voiced:
             fresh = [t for t in scored if t[0] not in rhythm.quotes_voiced]
@@ -1042,7 +1027,6 @@ def assemble_evidence(
     kind: str | None = None,
     rhythm: RhythmTally | None = None,
     words_asked: bool = False,
-    figures: list[dict] | None = None,
 ) -> dict:
     """The full pipeline, Stages A -> E, deterministic, no model call.
     Returns {"cells": [...Stage A...], "candidates": [...B+C+E...],
@@ -1107,7 +1091,7 @@ def assemble_evidence(
         coverage_entry = coverage.get(match["cell"]) or {}
         for candidate in select_cell_candidates(
             cell=match["cell"], coverage_entry=coverage_entry, repository_records=repository_records, message=message, asks=asks,
-            already_told_ids=already_told_ids, kind=kind, rhythm=rhythm, words_asked=words_asked, figures=figures,
+            already_told_ids=already_told_ids, kind=kind, rhythm=rhythm, words_asked=words_asked,
         ):
             if candidate["id"] in seen_ids:
                 continue

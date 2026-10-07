@@ -5,7 +5,7 @@ Everything here reads the transcript only; nothing is stored."""
 import pytest
 
 from engine.m4 import turn_prep
-from engine.m4.evidence import QUESTION_KINDS, assemble_evidence, render_evidence_block, select_cell_candidates
+from engine.m4.evidence import QUESTION_KINDS, assemble_evidence, render_evidence_block
 from engine.m4.rhythm import RhythmTally, asks_for_the_words, tally_from_transcript
 from engine.m4.turn_prep import (
     LEXICON_LINE,
@@ -205,15 +205,6 @@ def test_a_figure_introduced_last_round_closes_the_gate_and_the_floor_is_zero():
     assert NO_NEW_FIGURE_LINE in prepared.turn_directive
 
 
-def test_the_gate_closed_ground_names_no_new_figure_while_other_records_reach():
-    ground = select_cell_candidates(
-        cell="C-E", coverage_entry=_coverage()["C-E"], repository_records=_records(), message=MESSAGE, asks=None,
-        kind="who", rhythm=RhythmTally(round_no=2, figures_introduced={"fix.figure.other": 1}), figures=FIGURES,
-    )
-    quotes = [c["id"] for c in ground if c["record_type"] == "quote"]
-    assert quotes[0] == "fix.quote.c" and len(quotes) == 2
-
-
 def test_three_rounds_on_the_gate_opens_again():
     tally = tally_from_transcript(_transcript(_voice(figures=["fix.figure.ignatius"]), _voice(), _voice()))
     assert not tally.figure_gate_closed
@@ -221,22 +212,22 @@ def test_three_rounds_on_the_gate_opens_again():
 
 
 def test_a_figure_already_introduced_is_met_freely_and_never_triggers_the_gate():
-    transcript = _transcript(_voice(figures=["fix.figure.ignatius"]), _voice(), _voice(), _voice())
-    tally = tally_from_transcript(transcript)
+    tally = tally_from_transcript(_transcript(_voice(figures=["fix.figure.ignatius"]), _voice(), _voice(), _voice()))
     assert not tally.figure_gate_closed
-    ground = select_cell_candidates(
-        cell="C-E", coverage_entry=_coverage()["C-E"], repository_records=_records(), message=MESSAGE, asks=None,
-        kind="who", rhythm=RhythmTally(round_no=2, figures_introduced={"fix.figure.ignatius": 1}), figures=FIGURES,
-    )
-    quotes = [c["id"] for c in ground if c["record_type"] == "quote"]
-    assert quotes[0] == "fix.quote.a"
+
+
+def test_the_figure_gate_changes_no_evidence():
+    gated = tally_from_transcript(_transcript(_voice(figures=["fix.figure.polycarp"])))
+    open_ = tally_from_transcript([])
+    assert gated.figure_gate_closed and not open_.figure_gate_closed
+    args = dict(message=MESSAGE, asks=None, canon_questions=CANON, coverage=_coverage(), repository_records=_records(), kind="who")
+    assert assemble_evidence(**args, rhythm=gated)["candidates"] == assemble_evidence(**args, rhythm=RhythmTally(round_no=gated.round_no))["candidates"]
 
 
 def test_the_figure_the_question_asks_about_is_not_held_back_by_the_gate():
     transcript = _transcript(_voice(figures=["fix.figure.polycarp"]))
     prepared = _prepare(transcript, message="What did Ignatius say about the meal and the memory of Jesus?", kind="what_did")
     assert NO_NEW_FIGURE_LINE not in prepared.turn_directive
-    assert _quotes(prepared)[0]["id"] == "fix.quote.a"
 
 
 # ---- the lexicon line ---------------------------------------------------
@@ -272,7 +263,7 @@ def test_a_used_quote_is_tagged_in_the_rendered_block():
     tally = RhythmTally(round_no=3, quotes_voiced={"fix.quote.a": 1})
     result = assemble_evidence(
         message=MESSAGE, asks=None, canon_questions=CANON, coverage=_coverage(), repository_records=_records(),
-        kind="who", rhythm=tally, figures=FIGURES,
+        kind="who", rhythm=tally,
     )
     assert _tag("voiced", 1) in render_evidence_block(result)
 

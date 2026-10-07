@@ -536,7 +536,6 @@ def prepare_voice_turn_inputs(
         kind=kind,
         rhythm=rhythm,
         words_asked=quote_asked,
-        figures=world.figures.get("figures") or [],
     )
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
