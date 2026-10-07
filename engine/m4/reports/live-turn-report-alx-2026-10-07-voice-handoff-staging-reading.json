@@ -1,0 +1,2843 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "alx",
+  "manifest_hash": "sha256:4781f5033ebb26948ef7c5db10648b20dca60ff44d646d367fd5924d45239988",
+  "package": "packages/alx/2026-10-04T06-47-14Z",
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Who is Jesus?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "alx",
+          "text": "He was God's own Word, come to us in flesh - that is the whole of what we believed, and everything else grew from it. Our teachers used an old word for him: the Logos, God's reason and speech, the one through whom all things were made. Clement, one of our first teachers, called him the New Song: 'Behold the might of the new song! It has made men out of stones, men out of beasts'. He meant that the one who first set the world in order had come into it, to set people right. And near the end of our era, Athanasius put our whole hope in one sentence: 'He was made man that we might be made God'. Not that we become gods - but that his own life is opened to us and shared. If you want it in one line: the maker, come inside his making, to heal it.",
+          "citations": [
+            {
+              "sentence": "He was God's own Word, come to us in flesh - that is the whole of what we believed, and everything else grew from it.",
+              "record_ids": [
+                "alx.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To us Jesus is the Logos - God's own Word, through whom all things were made - come in fl…",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-protrepticus",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Protrepticus (Exhortation to the Heathen)",
+                      "locus": "I",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    },
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "8-10, 54",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                      "locus": "I",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Our teachers used an old word for him: the Logos, God's reason and speech, the one through whom all things were made.",
+              "record_ids": [
+                "alx.term.logos"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.term.logos",
+                  "record_type": "term",
+                  "label": "Logos",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                      "locus": "I-II",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                    },
+                    {
+                      "source_id": "alx.source.clement-protrepticus",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Protrepticus (Exhortation to the Heathen)",
+                      "locus": "I",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    },
+                    {
+                      "source_id": "alx.source.nicene-creed-325",
+                      "author": "The bishops assembled at the Council of Nicaea, 325 CE",
+                      "work": "The Creed of Nicaea (325) - the original, pre-Constantinopolitan creed text (as distinct from the expanded Niceno-Constantinopolitan Creed of 381), preserved in the Acts of the Ecumenical Councils of Ephesus and Chalcedon, in the Epistle of Eusebius of Caesarea to his own Church, in the Epistle of Athanasius Ad Jovianum, and in the Ecclesiastical Histories of Theodoret and Socrates",
+                      "locus": "line 2412 (the \"of one substance with the Father\" wording, for the translational sense)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml - creed text at div id=\"vii.iii\" (\"The Nicene Creed\"), paragraph vii.iii-p7, lines 2408-2429; the \"of one substance (homoousion, consubstantialem) with the Father\" formula spans lines 2412-2413"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Clement, one of our first teachers, called him the New Song: 'Behold the might of the new song! It has made men out of stones, men out of beasts'.",
+              "record_ids": [
+                "alx.quote.clement-new-song"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.quote.clement-new-song",
+                  "record_type": "quote",
+                  "label": "Protrepticus, I — Clement",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-protrepticus",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Protrepticus (Exhortation to the Heathen)",
+                      "locus": "I (anf02 lines 15211-15218)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    }
+                  ],
+                  "spoken_rendering": "See the power of the new song! It has made men out of stones, men out of wild beasts. And those who were as good as dead, having no share in true life, have come back to life simply by listening to this song. It has also arranged the universe into a melodious order, and tuned the discord of the elements into harmony, so that the whole world might become one harmony.",
+                  "speaker": "Clement"
+                }
+              ]
+            },
+            {
+              "sentence": "He meant that the one who first set the world in order had come into it, to set people right.",
+              "record_ids": [
+                "alx.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To us Jesus is the Logos - God's own Word, through whom all things were made - come in fl…",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-protrepticus",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Protrepticus (Exhortation to the Heathen)",
+                      "locus": "I",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    },
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "8-10, 54",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                      "locus": "I",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And near the end of our era, Athanasius put our whole hope in one sentence: 'He was made man that we might be made God'.",
+              "record_ids": [
+                "alx.quote.athanasius-made-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.quote.athanasius-made-god",
+                  "record_type": "quote",
+                  "label": "De Incarnatione Verbi Dei, 54 — Athanasius",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "54 (npnf204 line 18744)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    }
+                  ],
+                  "spoken_rendering": "For he was made man, so that we might be made God...",
+                  "speaker": "Athanasius"
+                }
+              ]
+            },
+            {
+              "sentence": "Not that we become gods - but that his own life is opened to us and shared.",
+              "record_ids": [
+                "alx.term.theosis"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.term.theosis",
+                  "record_type": "term",
+                  "label": "theosis",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "54",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "alx.term.logos",
+              "matched_name": "Logos",
+              "text_start": 161,
+              "plain_meaning": "The Word: God's own reason and speech, through whom all things were made, and who became flesh in Jesus.",
+              "quick_meaning": "God's own Word and reason, made flesh in Jesus.",
+              "translational_sense": "'Was Jesus God?' - this world answers through the Logos: God's own Word made flesh; after 325, 'of one substance with the Father.'",
+              "false_friend": [
+                "logic (it is not a method of argument)",
+                "a mere word or saying"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "alx.source.origen-comm-john",
+                  "author": "Origen (c. 185-254 CE)",
+                  "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                  "locus": "I-II",
+                  "rights_status": "public-domain",
+                  "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                },
+                {
+                  "source_id": "alx.source.clement-protrepticus",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Protrepticus (Exhortation to the Heathen)",
+                  "locus": "I",
+                  "rights_status": "public-domain",
+                  "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                },
+                {
+                  "source_id": "alx.source.nicene-creed-325",
+                  "author": "The bishops assembled at the Council of Nicaea, 325 CE",
+                  "work": "The Creed of Nicaea (325) - the original, pre-Constantinopolitan creed text (as distinct from the expanded Niceno-Constantinopolitan Creed of 381), preserved in the Acts of the Ecumenical Councils of Ephesus and Chalcedon, in the Epistle of Eusebius of Caesarea to his own Church, in the Epistle of Athanasius Ad Jovianum, and in the Ecclesiastical Histories of Theodoret and Socrates",
+                  "locus": "line 2412 (the \"of one substance with the Father\" wording, for the translational sense)",
+                  "rights_status": "public-domain",
+                  "edition": "trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml - creed text at div id=\"vii.iii\" (\"The Nicene Creed\"), paragraph vii.iii-p7, lines 2408-2429; the \"of one substance (homoousion, consubstantialem) with the Father\" formula spans lines 2412-2413"
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "alx.figure.clement",
+              "matched_name": "Clement",
+              "text_start": 236,
+              "names": [
+                {
+                  "name": "Clement",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Clement of Alexandria (Titus Flavius Clemens, c. 150-c. 215)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the teacher whose books survive where his life does not - his words are kept, his days are not",
+              "dates": {
+                "born": "c. 150 (traditional date; no ancient source states it)",
+                "died": "c. 215 (traditional date). A modern editor of Jerome's On Illustrious Men notes 'born about 160, died about 217'. That is the editor's note, not Jerome's text.",
+                "floruit": "c. 180-202/3 teaching in Alexandria (left during the Severan persecution); Jerome De viris 38: pupil of Pantaenus, led the school after his master's death"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "alx.source.clement-protrepticus",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Protrepticus (Exhortation to the Heathen)",
+                  "locus": "I (anf02 lines 15211-15218)",
+                  "rights_status": "public-domain",
+                  "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                }
+              ]
+            },
+            {
+              "id": "alx.figure.athanasius",
+              "matched_name": "Athanasius",
+              "text_start": 506,
+              "names": [
+                {
+                  "name": "Athanasius",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Athanasius of Alexandria (c. 296-373, bishop 328-373)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the bishop who spent forty-six embattled years holding the line drawn at Nicaea - and who wrote the treatise this world's Center answers from",
+              "dates": {
+                "born": "c. 296-298 (traditional date)",
+                "died": "373 (widely accepted). Socrates writes that he died 'in the second consulate of Gratian and Probus... having governed that church amidst the greatest perils forty-six years'. One modern editor reads that consulate as 371, and Jerome's Chronicle differs too. The difference is stated here, not settled.",
+                "floruit": "bishop 328-373, exiled five times; the dominant late-horizon voice"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "alx.source.athanasius-de-incarnatione",
+                  "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                  "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                  "locus": "54 (npnf204 line 18744)",
+                  "rights_status": "public-domain",
+                  "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "He was God's own Word, come to us in flesh - that is the whole of what we believed, and everything else grew from it.",
+                "tags": [
+                  "alx.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Our teachers used an old word for him: the Logos, God's reason and speech, the one through whom all things were made.",
+                "tags": [
+                  "alx.term.logos"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Clement, one of our first teachers, called him the New Song: 'Behold the might of the new song! It has made men out of stones, men out of beasts'.",
+                "tags": [
+                  "alx.quote.clement-new-song"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "He meant that the one who first set the world in order had come into it, to set people right.",
+                "tags": [
+                  "alx.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "And near the end of our era, Athanasius put our whole hope in one sentence: 'He was made man that we might be made God'.",
+                "tags": [
+                  "alx.quote.athanasius-made-god"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "Not that we become gods - but that his own life is opened to us and shared.",
+                "tags": [
+                  "alx.term.theosis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "If you want it in one line: the maker, come inside his making, to heal it.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "alx.dw.jesus",
+                  "alx.quote.athanasius-made-god",
+                  "alx.quote.clement-new-song",
+                  "alx.term.logos",
+                  "alx.term.theosis"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "6": {
+                    "sentence": "If you want it in one line: the maker, come inside his making, to heal it.",
+                    "tags": [
+                      "alx.dw.jesus",
+                      "alx.quote.athanasius-made-god",
+                      "alx.quote.clement-new-song",
+                      "alx.term.logos",
+                      "alx.term.theosis"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "alx",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 117
+              },
+              {
+                "index": 1,
+                "text_start": 118,
+                "text_end": 235
+              },
+              {
+                "index": 2,
+                "text_start": 236,
+                "text_end": 382
+              },
+              {
+                "index": 3,
+                "text_start": 383,
+                "text_end": 476
+              },
+              {
+                "index": 4,
+                "text_start": 477,
+                "text_end": 597
+              },
+              {
+                "index": 5,
+                "text_start": 598,
+                "text_end": 673
+              },
+              {
+                "index": 6,
+                "text_start": 674,
+                "text_end": 748
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "alx.figure.clement",
+                "record_type": "figure",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 2,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Clement"
+              },
+              {
+                "record_id": "alx.quote.clement-new-song",
+                "record_type": "quote",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 2,
+                "char_start": 61,
+                "char_end": 145,
+                "surface": "'Behold the might of the new song! It has made men out of stones, men out of beasts'"
+              },
+              {
+                "record_id": "alx.figure.athanasius",
+                "record_type": "figure",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 29,
+                "char_end": 39,
+                "surface": "Athanasius"
+              },
+              {
+                "record_id": "alx.quote.athanasius-made-god",
+                "record_type": "quote",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 4,
+                "char_start": 76,
+                "char_end": 119,
+                "surface": "'He was made man that we might be made God'"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "alx.dw.jesus",
+                "record_type": "doctrinal_witness",
+                "label": "To us Jesus is the Logos - God's own Word, through whom all things were made - come in fl…",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-protrepticus",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Protrepticus (Exhortation to the Heathen)",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  },
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "8-10, 54",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  },
+                  {
+                    "source_id": "alx.source.origen-comm-john",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "alx.term.logos",
+                "record_type": "term",
+                "label": "Logos",
+                "sources": [
+                  {
+                    "source_id": "alx.source.origen-comm-john",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                    "locus": "I-II",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                  },
+                  {
+                    "source_id": "alx.source.clement-protrepticus",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Protrepticus (Exhortation to the Heathen)",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  },
+                  {
+                    "source_id": "alx.source.nicene-creed-325",
+                    "author": "The bishops assembled at the Council of Nicaea, 325 CE",
+                    "work": "The Creed of Nicaea (325) - the original, pre-Constantinopolitan creed text (as distinct from the expanded Niceno-Constantinopolitan Creed of 381), preserved in the Acts of the Ecumenical Councils of Ephesus and Chalcedon, in the Epistle of Eusebius of Caesarea to his own Church, in the Epistle of Athanasius Ad Jovianum, and in the Ecclesiastical Histories of Theodoret and Socrates",
+                    "locus": "line 2412 (the \"of one substance with the Father\" wording, for the translational sense)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml - creed text at div id=\"vii.iii\" (\"The Nicene Creed\"), paragraph vii.iii-p7, lines 2408-2429; the \"of one substance (homoousion, consubstantialem) with the Father\" formula spans lines 2412-2413"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "alx.quote.clement-new-song",
+                "record_type": "quote",
+                "label": "Protrepticus, I — Clement",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-protrepticus",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Protrepticus (Exhortation to the Heathen)",
+                    "locus": "I (anf02 lines 15211-15218)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  }
+                ],
+                "spoken_rendering": "See the power of the new song! It has made men out of stones, men out of wild beasts. And those who were as good as dead, having no share in true life, have come back to life simply by listening to this song. It has also arranged the universe into a melodious order, and tuned the discord of the elements into harmony, so that the whole world might become one harmony.",
+                "speaker": "Clement",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "alx.quote.athanasius-made-god",
+                "record_type": "quote",
+                "label": "De Incarnatione Verbi Dei, 54 — Athanasius",
+                "sources": [
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "54 (npnf204 line 18744)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  }
+                ],
+                "spoken_rendering": "For he was made man, so that we might be made God...",
+                "speaker": "Athanasius",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "alx.term.theosis",
+                "record_type": "term",
+                "label": "theosis",
+                "sources": [
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "54",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "alx.dw.jesus",
+                "record_type": "doctrinal_witness",
+                "label": "To us Jesus is the Logos - God's own Word, through whom all things were made - come in fl…",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-protrepticus",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Protrepticus (Exhortation to the Heathen)",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  },
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "8-10, 54",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  },
+                  {
+                    "source_id": "alx.source.origen-comm-john",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "alx.term.logos",
+                "record_type": "term",
+                "label": "Logos",
+                "sources": [
+                  {
+                    "source_id": "alx.source.origen-comm-john",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                    "locus": "I-II",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                  },
+                  {
+                    "source_id": "alx.source.clement-protrepticus",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Protrepticus (Exhortation to the Heathen)",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  },
+                  {
+                    "source_id": "alx.source.nicene-creed-325",
+                    "author": "The bishops assembled at the Council of Nicaea, 325 CE",
+                    "work": "The Creed of Nicaea (325) - the original, pre-Constantinopolitan creed text (as distinct from the expanded Niceno-Constantinopolitan Creed of 381), preserved in the Acts of the Ecumenical Councils of Ephesus and Chalcedon, in the Epistle of Eusebius of Caesarea to his own Church, in the Epistle of Athanasius Ad Jovianum, and in the Ecclesiastical Histories of Theodoret and Socrates",
+                    "locus": "line 2412 (the \"of one substance with the Father\" wording, for the translational sense)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml - creed text at div id=\"vii.iii\" (\"The Nicene Creed\"), paragraph vii.iii-p7, lines 2408-2429; the \"of one substance (homoousion, consubstantialem) with the Father\" formula spans lines 2412-2413"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "alx.term.theosis",
+                "record_type": "term",
+                "label": "theosis",
+                "sources": [
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "54",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-2",
+      "message": "What did he do?",
+      "prior_turns_replayed": 1,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "alx",
+          "text": "He entered human nature to heal it from within - not to teach or model, but to remake what sin had damaged. Athanasius put it plainly: by taking on our flesh, he trampled death down and opened resurrection life inside humanity itself. The doctor entered the sickness, as we said it. His death was not payment to satisfy a judge - it was the point where unbreakable divine life met human death and broke its hold. And his rising was that life let loose in flesh, so that everyone joined to him by baptism could share it. This was restoration, not rescue from outside: he repaired what the fall had broken, and carried it further than where it started. 'He was made man that we might be made God' - Athanasius's line captures the whole movement. What he did was join God's life to ours, permanently.",
+          "citations": [
+            {
+              "sentence": "He entered human nature to heal it from within - not to teach or model, but to remake what sin had damaged.",
+              "record_ids": [
+                "alx.term.incarnation"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.term.incarnation",
+                  "record_type": "term",
+                  "label": "the Incarnation",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "(whole, formula at 54)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                      "locus": "I-II",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His death was not payment to satisfy a judge - it was the point where unbreakable divine life met human death and broke its hold.",
+              "record_ids": [
+                "alx.term.salvation"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.term.salvation",
+                  "record_type": "term",
+                  "label": "salvation (soteria)",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "(whole)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    },
+                    {
+                      "source_id": "alx.source.clement-paidagogos",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Paedagogus (The Instructor)",
+                      "locus": "I",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And his rising was that life let loose in flesh, so that everyone joined to him by baptism could share it.",
+              "record_ids": [
+                "alx.term.baptism"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.term.baptism",
+                  "record_type": "term",
+                  "label": "baptism, photismos (illumination)",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-paidagogos",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Paedagogus (The Instructor)",
+                      "locus": "I.6-7",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "This was restoration, not rescue from outside: he repaired what the fall had broken, and carried it further than where it started.",
+              "record_ids": [
+                "alx.term.restoration"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.term.restoration",
+                  "record_type": "term",
+                  "label": "restoration",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "3-20",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    },
+                    {
+                      "source_id": "alx.source.clement-stromateis",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                      "locus": "IV, VII",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "'He was made man that we might be made God' - Athanasius's line captures the whole movement.",
+              "record_ids": [
+                "alx.quote.athanasius-made-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.quote.athanasius-made-god",
+                  "record_type": "quote",
+                  "label": "De Incarnatione Verbi Dei, 54 — Athanasius",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "54 (npnf204 line 18744)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    }
+                  ],
+                  "spoken_rendering": "For he was made man, so that we might be made God...",
+                  "speaker": "Athanasius"
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "alx.term.baptism",
+              "matched_name": "baptism",
+              "text_start": 496,
+              "plain_meaning": "Not a ceremony announcing a choice already made. A real crossing - the body sharing in Christ's death and rising.",
+              "quick_meaning": "Not a ceremony marking a choice. A real crossing, in the body, into Christ's death and rising.",
+              "translational_sense": "Isn't baptism just a ceremony marking a faith someone already has? This world meant something that happens, not something that is only announced - a real change in the body and the soul together.",
+              "false_friend": [
+                "a public statement of a private decision already made",
+                "an empty ritual that only symbolizes something"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "alx.source.clement-paidagogos",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Paedagogus (The Instructor)",
+                  "locus": "I.6-7",
+                  "rights_status": "public-domain",
+                  "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                }
+              ]
+            },
+            {
+              "id": "alx.term.restoration",
+              "matched_name": "restoration",
+              "text_start": 529,
+              "plain_meaning": "God's work is restorative. What sin damaged is being repaired - and carried further than where it started, not just reset.",
+              "quick_meaning": "God's work repairing what sin damaged - and carrying it further, not just back to before.",
+              "translational_sense": "Isn't restoration just putting something back the way it was, like a cleaned painting? This world meant something that moves forward, not backward - completion, not a reset to a prior condition.",
+              "false_friend": [
+                "a return to a lost golden-age condition",
+                "a legal reinstatement, like a record wiped clean"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "alx.source.athanasius-de-incarnatione",
+                  "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                  "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                  "locus": "3-20",
+                  "rights_status": "public-domain",
+                  "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                },
+                {
+                  "source_id": "alx.source.clement-stromateis",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                  "locus": "IV, VII",
+                  "rights_status": "public-domain",
+                  "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                }
+              ]
+            }
+          ],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "He entered human nature to heal it from within - not to teach or model, but to remake what sin had damaged.",
+                "tags": [
+                  "alx.term.incarnation"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Athanasius put it plainly: by taking on our flesh, he trampled death down and opened resurrection life inside humanity itself.",
+                "tags": [
+                  "alx.quote.athanasius-death-trampled-down"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['athanasius']) only 15% grounded in its own tags",
+                "ratio": 0.15
+              },
+              {
+                "sentence": "The doctor entered the sickness, as we said it.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "His death was not payment to satisfy a judge - it was the point where unbreakable divine life met human death and broke its hold.",
+                "tags": [
+                  "alx.term.salvation"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "And his rising was that life let loose in flesh, so that everyone joined to him by baptism could share it.",
+                "tags": [
+                  "alx.term.baptism"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "This was restoration, not rescue from outside: he repaired what the fall had broken, and carried it further than where it started.",
+                "tags": [
+                  "alx.term.restoration"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "'He was made man that we might be made God' - Athanasius's line captures the whole movement.",
+                "tags": [
+                  "alx.quote.athanasius-made-god"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "What he did was join God's life to ours, permanently.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [
+                  "alx.quote.athanasius-death-trampled-down",
+                  "alx.quote.athanasius-made-god",
+                  "alx.term.baptism",
+                  "alx.term.incarnation",
+                  "alx.term.restoration",
+                  "alx.term.salvation"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "2": {
+                    "sentence": "The doctor entered the sickness, as we said it.",
+                    "tags": [
+                      "alx.quote.athanasius-death-trampled-down",
+                      "alx.quote.athanasius-made-god",
+                      "alx.term.baptism",
+                      "alx.term.incarnation",
+                      "alx.term.restoration",
+                      "alx.term.salvation"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "7": {
+                    "sentence": "What he did was join God's life to ours, permanently.",
+                    "tags": [
+                      "alx.quote.athanasius-death-trampled-down",
+                      "alx.quote.athanasius-made-god",
+                      "alx.term.baptism",
+                      "alx.term.incarnation",
+                      "alx.term.restoration",
+                      "alx.term.salvation"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "alx",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 107
+              },
+              {
+                "index": 1,
+                "text_start": 108,
+                "text_end": 234
+              },
+              {
+                "index": 2,
+                "text_start": 235,
+                "text_end": 282
+              },
+              {
+                "index": 3,
+                "text_start": 283,
+                "text_end": 412
+              },
+              {
+                "index": 4,
+                "text_start": 413,
+                "text_end": 519
+              },
+              {
+                "index": 5,
+                "text_start": 520,
+                "text_end": 650
+              },
+              {
+                "index": 6,
+                "text_start": 651,
+                "text_end": 743
+              },
+              {
+                "index": 7,
+                "text_start": 744,
+                "text_end": 797
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "alx.term.baptism",
+                "record_type": "term",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "named-not-rechecked"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 4,
+                "char_start": 83,
+                "char_end": 90,
+                "surface": "baptism"
+              },
+              {
+                "record_id": "alx.term.restoration",
+                "record_type": "term",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "named-not-rechecked"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 5,
+                "char_start": 9,
+                "char_end": 20,
+                "surface": "restoration"
+              },
+              {
+                "record_id": "alx.quote.athanasius-made-god",
+                "record_type": "quote",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 6,
+                "char_start": 0,
+                "char_end": 43,
+                "surface": "'He was made man that we might be made God'"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "alx.term.incarnation",
+                "record_type": "term",
+                "label": "the Incarnation",
+                "sources": [
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "(whole, formula at 54)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  },
+                  {
+                    "source_id": "alx.source.origen-comm-john",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                    "locus": "I-II",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "named-not-rechecked"
+                }
+              },
+              {
+                "record_id": "alx.term.salvation",
+                "record_type": "term",
+                "label": "salvation (soteria)",
+                "sources": [
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "(whole)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  },
+                  {
+                    "source_id": "alx.source.clement-paidagogos",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Paedagogus (The Instructor)",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "named-not-rechecked"
+                }
+              },
+              {
+                "record_id": "alx.term.baptism",
+                "record_type": "term",
+                "label": "baptism, photismos (illumination)",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-paidagogos",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Paedagogus (The Instructor)",
+                    "locus": "I.6-7",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "named-not-rechecked"
+                }
+              },
+              {
+                "record_id": "alx.term.restoration",
+                "record_type": "term",
+                "label": "restoration",
+                "sources": [
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "3-20",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  },
+                  {
+                    "source_id": "alx.source.clement-stromateis",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                    "locus": "IV, VII",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "named-not-rechecked"
+                }
+              },
+              {
+                "record_id": "alx.quote.athanasius-made-god",
+                "record_type": "quote",
+                "label": "De Incarnatione Verbi Dei, 54 — Athanasius",
+                "sources": [
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "54 (npnf204 line 18744)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  }
+                ],
+                "spoken_rendering": "For he was made man, so that we might be made God...",
+                "speaker": "Athanasius",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "alx.term.incarnation",
+                "record_type": "term",
+                "label": "the Incarnation",
+                "sources": [
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "(whole, formula at 54)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  },
+                  {
+                    "source_id": "alx.source.origen-comm-john",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                    "locus": "I-II",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "named-not-rechecked"
+                }
+              },
+              {
+                "record_id": "alx.term.salvation",
+                "record_type": "term",
+                "label": "salvation (soteria)",
+                "sources": [
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "(whole)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  },
+                  {
+                    "source_id": "alx.source.clement-paidagogos",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Paedagogus (The Instructor)",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "named-not-rechecked"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                1
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-3",
+      "message": "What does Logos mean?",
+      "prior_turns_replayed": 2,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "alx",
+          "text": "God's own Word and reason, through whom all things were made. The word came to us from the Greeks - they used it for the rational principle that holds the cosmos together - but we put it to a use it had never had. We named the Word who had become flesh. This was not wordplay. When we said Logos, we meant the one through whom the Father made everything, who is never separate from him, who speaks in Scripture, and who entered human nature in Jesus. Clement called him the New Song that set the world in tune. Athanasius said he was made man that we might be made God. The Logos is the center that makes Scripture, learning, worship, and the soul's own change one movement rather than four separate things. God's reason, God's speech, God himself - and ours, when we are joined to him.",
+          "citations": [
+            {
+              "sentence": "God's own Word and reason, through whom all things were made.",
+              "record_ids": [
+                "alx.term.logos"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.term.logos",
+                  "record_type": "term",
+                  "label": "Logos",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                      "locus": "I-II",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                    },
+                    {
+                      "source_id": "alx.source.clement-protrepticus",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Protrepticus (Exhortation to the Heathen)",
+                      "locus": "I",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    },
+                    {
+                      "source_id": "alx.source.nicene-creed-325",
+                      "author": "The bishops assembled at the Council of Nicaea, 325 CE",
+                      "work": "The Creed of Nicaea (325) - the original, pre-Constantinopolitan creed text (as distinct from the expanded Niceno-Constantinopolitan Creed of 381), preserved in the Acts of the Ecumenical Councils of Ephesus and Chalcedon, in the Epistle of Eusebius of Caesarea to his own Church, in the Epistle of Athanasius Ad Jovianum, and in the Ecclesiastical Histories of Theodoret and Socrates",
+                      "locus": "line 2412 (the \"of one substance with the Father\" wording, for the translational sense)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml - creed text at div id=\"vii.iii\" (\"The Nicene Creed\"), paragraph vii.iii-p7, lines 2408-2429; the \"of one substance (homoousion, consubstantialem) with the Father\" formula spans lines 2412-2413"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The word came to us from the Greeks - they used it for the rational principle that holds the cosmos together - but we put it to a use it had never had.",
+              "record_ids": [
+                "alx.force.philonic-inheritance"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.force.philonic-inheritance",
+                  "record_type": "force",
+                  "label": "The Philonic Inheritance",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-stromateis",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                      "locus": "I-II (the inherited reading practice at work)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "When we said Logos, we meant the one through whom the Father made everything, who is never separate from him, who speaks in Scripture, and who entered human nature in Jesus.",
+              "record_ids": [
+                "alx.term.word-of-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.term.word-of-god",
+                  "record_type": "term",
+                  "label": "the Word",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-protrepticus",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Protrepticus (Exhortation to the Heathen)",
+                      "locus": "I, VI",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                      "locus": "I-II",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                    },
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "1-5",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Clement called him the New Song that set the world in tune.",
+              "record_ids": [
+                "alx.quote.clement-new-song"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.quote.clement-new-song",
+                  "record_type": "quote",
+                  "label": "Protrepticus, I — Clement",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-protrepticus",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Protrepticus (Exhortation to the Heathen)",
+                      "locus": "I (anf02 lines 15211-15218)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    }
+                  ],
+                  "spoken_rendering": "See the power of the new song! It has made men out of stones, men out of wild beasts. And those who were as good as dead, having no share in true life, have come back to life simply by listening to this song. It has also arranged the universe into a melodious order, and tuned the discord of the elements into harmony, so that the whole world might become one harmony.",
+                  "speaker": "Clement"
+                }
+              ]
+            },
+            {
+              "sentence": "Athanasius said he was made man that we might be made God.",
+              "record_ids": [
+                "alx.quote.athanasius-made-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.quote.athanasius-made-god",
+                  "record_type": "quote",
+                  "label": "De Incarnatione Verbi Dei, 54 — Athanasius",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "54 (npnf204 line 18744)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    }
+                  ],
+                  "spoken_rendering": "For he was made man, so that we might be made God...",
+                  "speaker": "Athanasius"
+                }
+              ]
+            },
+            {
+              "sentence": "The Logos is the center that makes Scripture, learning, worship, and the soul's own change one movement rather than four separate things.",
+              "record_ids": [
+                "alx.gravity.logos-unity"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.gravity.logos-unity",
+                  "record_type": "gravity",
+                  "label": "Logos-Centered Unity",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-protrepticus",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Protrepticus (Exhortation to the Heathen)",
+                      "locus": "I (line 15213)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                      "locus": "I",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                    },
+                    {
+                      "source_id": "alx.source.athanasius-contra-arianos",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "Orationes contra Arianos (Four Discourses Against the Arians), written after Nicaea. Discourse IV carries a distinct authenticity caveat: this edition's own 'Excursus C' states it 'stands on a footing of its own... it is not quoted in antiquity, as the first three are, as part of the work of Ath. against the Arians,' casting doubt on its inclusion in the Pentabiblus. Any citation to Discourse IV specifically carries this caveat; Discourses I-III do not need it.",
+                      "locus": "I (post-325)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. John Henry Newman, revised Archibald Robertson, NPNF series 2 vol. 4 (1892) - the volume's known Newman/Robertson translator split; re-confirm per discourse at first quote; vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "alx.term.word-of-god",
+              "matched_name": "the Word",
+              "text_start": 223,
+              "plain_meaning": "Not first a name for the Bible. The eternal Word who speaks - who made everything, and now speaks to the soul through Scripture too.",
+              "quick_meaning": "Not a name for the Bible - the eternal Word who speaks, including through Scripture.",
+              "translational_sense": "Isn't \"the Word of God\" just another name for the Bible? This world heard something behind the book: the eternal Word who spoke creation into being and now speaks through this text - the person, not the page, is what gives Scripture its power to change someone.",
+              "false_friend": [
+                "a synonym for the Bible",
+                "an ancient document with religious authority"
+              ],
+              "sourced_by": []
+            },
+            {
+              "id": "alx.term.scripture-as-address",
+              "matched_name": "Scripture",
+              "text_start": 401,
+              "plain_meaning": "Scripture is not a historical record of what God once said - it is the Logos speaking now, through the text, to a soul formed to hear.",
+              "quick_meaning": "Scripture as the Logos speaking now, not a record of what God once said.",
+              "translational_sense": "'Isn't reading the Bible just interpreting an old text correctly?' - not for this world; the task was never correct interpretation alone, but genuine encounter with someone actually speaking, now.",
+              "false_friend": [
+                "a set of fixed propositions to be believed",
+                "a collection of ancient documents to be analyzed"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "alx.source.clement-protrepticus",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Protrepticus (Exhortation to the Heathen)",
+                  "locus": "I, VI",
+                  "rights_status": "public-domain",
+                  "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                },
+                {
+                  "source_id": "alx.source.origen-comm-john",
+                  "author": "Origen (c. 185-254 CE)",
+                  "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                  "locus": "I-II",
+                  "rights_status": "public-domain",
+                  "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                },
+                {
+                  "source_id": "alx.source.athanasius-de-incarnatione",
+                  "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                  "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                  "locus": "1-5",
+                  "rights_status": "public-domain",
+                  "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                }
+              ]
+            }
+          ],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "God's own Word and reason, through whom all things were made.",
+                "tags": [
+                  "alx.term.logos"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The word came to us from the Greeks - they used it for the rational principle that holds the cosmos together - but we put it to a use it had never had.",
+                "tags": [
+                  "alx.force.philonic-inheritance"
+                ],
+                "verdict": "ok",
+                "why": "grounded 42% in own tagged records",
+                "ratio": 0.42
+              },
+              {
+                "sentence": "We named the Word who had become flesh.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "This was not wordplay.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "When we said Logos, we meant the one through whom the Father made everything, who is never separate from him, who speaks in Scripture, and who entered human nature in Jesus.",
+                "tags": [
+                  "alx.term.word-of-god"
+                ],
+                "verdict": "ok",
+                "why": "grounded 40% in own tagged records",
+                "ratio": 0.4
+              },
+              {
+                "sentence": "Clement called him the New Song that set the world in tune.",
+                "tags": [
+                  "alx.quote.clement-new-song"
+                ],
+                "verdict": "ok",
+                "why": "grounded 43% in own tagged records",
+                "ratio": 0.43
+              },
+              {
+                "sentence": "Athanasius said he was made man that we might be made God.",
+                "tags": [
+                  "alx.quote.athanasius-made-god"
+                ],
+                "verdict": "ok",
+                "why": "grounded 67% in own tagged records",
+                "ratio": 0.67
+              },
+              {
+                "sentence": "The Logos is the center that makes Scripture, learning, worship, and the soul's own change one movement rather than four separate things.",
+                "tags": [
+                  "alx.gravity.logos-unity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 69% in own tagged records",
+                "ratio": 0.69
+              },
+              {
+                "sentence": "God's reason, God's speech, God himself - and ours, when we are joined to him.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 9,
+                "cited_record_ids": [
+                  "alx.force.philonic-inheritance",
+                  "alx.gravity.logos-unity",
+                  "alx.quote.athanasius-made-god",
+                  "alx.quote.clement-new-song",
+                  "alx.term.logos",
+                  "alx.term.word-of-god"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "2": {
+                    "sentence": "We named the Word who had become flesh.",
+                    "tags": [
+                      "alx.force.philonic-inheritance",
+                      "alx.gravity.logos-unity",
+                      "alx.quote.athanasius-made-god",
+                      "alx.quote.clement-new-song",
+                      "alx.term.logos",
+                      "alx.term.word-of-god"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "This was not wordplay.",
+                    "tags": [
+                      "alx.force.philonic-inheritance",
+                      "alx.gravity.logos-unity",
+                      "alx.quote.athanasius-made-god",
+                      "alx.quote.clement-new-song",
+                      "alx.term.logos",
+                      "alx.term.word-of-god"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "8": {
+                    "sentence": "God's reason, God's speech, God himself - and ours, when we are joined to him.",
+                    "tags": [
+                      "alx.force.philonic-inheritance",
+                      "alx.gravity.logos-unity",
+                      "alx.quote.athanasius-made-god",
+                      "alx.quote.clement-new-song",
+                      "alx.term.logos",
+                      "alx.term.word-of-god"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "alx",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 61
+              },
+              {
+                "index": 1,
+                "text_start": 62,
+                "text_end": 213
+              },
+              {
+                "index": 2,
+                "text_start": 214,
+                "text_end": 253
+              },
+              {
+                "index": 3,
+                "text_start": 254,
+                "text_end": 276
+              },
+              {
+                "index": 4,
+                "text_start": 277,
+                "text_end": 450
+              },
+              {
+                "index": 5,
+                "text_start": 451,
+                "text_end": 510
+              },
+              {
+                "index": 6,
+                "text_start": 511,
+                "text_end": 569
+              },
+              {
+                "index": 7,
+                "text_start": 570,
+                "text_end": 707
+              },
+              {
+                "index": 8,
+                "text_start": 708,
+                "text_end": 786
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "alx.term.word-of-god",
+                "record_type": "term",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "named-not-rechecked"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 2,
+                "char_start": 9,
+                "char_end": 17,
+                "surface": "the Word"
+              },
+              {
+                "record_id": "alx.term.scripture-as-address",
+                "record_type": "term",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "named-not-rechecked"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 4,
+                "char_start": 124,
+                "char_end": 133,
+                "surface": "Scripture"
+              },
+              {
+                "record_id": "alx.quote.clement-new-song",
+                "record_type": "quote",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 5,
+                "char_start": 0,
+                "char_end": 59,
+                "surface": "Clement called him the New Song that set the world in tune."
+              },
+              {
+                "record_id": "alx.quote.athanasius-made-god",
+                "record_type": "quote",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 6,
+                "char_start": 0,
+                "char_end": 58,
+                "surface": "Athanasius said he was made man that we might be made God."
+              }
+            ],
+            "references": [
+              {
+                "record_id": "alx.term.logos",
+                "record_type": "term",
+                "label": "Logos",
+                "sources": [
+                  {
+                    "source_id": "alx.source.origen-comm-john",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                    "locus": "I-II",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                  },
+                  {
+                    "source_id": "alx.source.clement-protrepticus",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Protrepticus (Exhortation to the Heathen)",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  },
+                  {
+                    "source_id": "alx.source.nicene-creed-325",
+                    "author": "The bishops assembled at the Council of Nicaea, 325 CE",
+                    "work": "The Creed of Nicaea (325) - the original, pre-Constantinopolitan creed text (as distinct from the expanded Niceno-Constantinopolitan Creed of 381), preserved in the Acts of the Ecumenical Councils of Ephesus and Chalcedon, in the Epistle of Eusebius of Caesarea to his own Church, in the Epistle of Athanasius Ad Jovianum, and in the Ecclesiastical Histories of Theodoret and Socrates",
+                    "locus": "line 2412 (the \"of one substance with the Father\" wording, for the translational sense)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml - creed text at div id=\"vii.iii\" (\"The Nicene Creed\"), paragraph vii.iii-p7, lines 2408-2429; the \"of one substance (homoousion, consubstantialem) with the Father\" formula spans lines 2412-2413"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "alx.force.philonic-inheritance",
+                "record_type": "force",
+                "label": "The Philonic Inheritance",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-stromateis",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                    "locus": "I-II (the inherited reading practice at work)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "alx.term.word-of-god",
+                "record_type": "term",
+                "label": "the Word",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-protrepticus",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Protrepticus (Exhortation to the Heathen)",
+                    "locus": "I, VI",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  },
+                  {
+                    "source_id": "alx.source.origen-comm-john",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                    "locus": "I-II",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                  },
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "1-5",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "named-not-rechecked"
+                }
+              },
+              {
+                "record_id": "alx.quote.clement-new-song",
+                "record_type": "quote",
+                "label": "Protrepticus, I — Clement",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-protrepticus",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Protrepticus (Exhortation to the Heathen)",
+                    "locus": "I (anf02 lines 15211-15218)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  }
+                ],
+                "spoken_rendering": "See the power of the new song! It has made men out of stones, men out of wild beasts. And those who were as good as dead, having no share in true life, have come back to life simply by listening to this song. It has also arranged the universe into a melodious order, and tuned the discord of the elements into harmony, so that the whole world might become one harmony.",
+                "speaker": "Clement",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "alx.quote.athanasius-made-god",
+                "record_type": "quote",
+                "label": "De Incarnatione Verbi Dei, 54 — Athanasius",
+                "sources": [
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "54 (npnf204 line 18744)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  }
+                ],
+                "spoken_rendering": "For he was made man, so that we might be made God...",
+                "speaker": "Athanasius",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "alx.gravity.logos-unity",
+                "record_type": "gravity",
+                "label": "Logos-Centered Unity",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-protrepticus",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Protrepticus (Exhortation to the Heathen)",
+                    "locus": "I (line 15213)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  },
+                  {
+                    "source_id": "alx.source.origen-comm-john",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                  },
+                  {
+                    "source_id": "alx.source.athanasius-contra-arianos",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "Orationes contra Arianos (Four Discourses Against the Arians), written after Nicaea. Discourse IV carries a distinct authenticity caveat: this edition's own 'Excursus C' states it 'stands on a footing of its own... it is not quoted in antiquity, as the first three are, as part of the work of Ath. against the Arians,' casting doubt on its inclusion in the Pentabiblus. Any citation to Discourse IV specifically carries this caveat; Discourses I-III do not need it.",
+                    "locus": "I (post-325)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. John Henry Newman, revised Archibald Robertson, NPNF series 2 vol. 4 (1892) - the volume's known Newman/Robertson translator split; re-confirm per discourse at first quote; vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "alx.term.logos",
+                "record_type": "term",
+                "label": "Logos",
+                "sources": [
+                  {
+                    "source_id": "alx.source.origen-comm-john",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                    "locus": "I-II",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                  },
+                  {
+                    "source_id": "alx.source.clement-protrepticus",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Protrepticus (Exhortation to the Heathen)",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  },
+                  {
+                    "source_id": "alx.source.nicene-creed-325",
+                    "author": "The bishops assembled at the Council of Nicaea, 325 CE",
+                    "work": "The Creed of Nicaea (325) - the original, pre-Constantinopolitan creed text (as distinct from the expanded Niceno-Constantinopolitan Creed of 381), preserved in the Acts of the Ecumenical Councils of Ephesus and Chalcedon, in the Epistle of Eusebius of Caesarea to his own Church, in the Epistle of Athanasius Ad Jovianum, and in the Ecclesiastical Histories of Theodoret and Socrates",
+                    "locus": "line 2412 (the \"of one substance with the Father\" wording, for the translational sense)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml - creed text at div id=\"vii.iii\" (\"The Nicene Creed\"), paragraph vii.iii-p7, lines 2408-2429; the \"of one substance (homoousion, consubstantialem) with the Father\" formula spans lines 2412-2413"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "alx.force.philonic-inheritance",
+                "record_type": "force",
+                "label": "The Philonic Inheritance",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-stromateis",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                    "locus": "I-II (the inherited reading practice at work)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "alx.gravity.logos-unity",
+                "record_type": "gravity",
+                "label": "Logos-Centered Unity",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-protrepticus",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Protrepticus (Exhortation to the Heathen)",
+                    "locus": "I (line 15213)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  },
+                  {
+                    "source_id": "alx.source.origen-comm-john",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive",
+                    "locus": "I",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+                  },
+                  {
+                    "source_id": "alx.source.athanasius-contra-arianos",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "Orationes contra Arianos (Four Discourses Against the Arians), written after Nicaea. Discourse IV carries a distinct authenticity caveat: this edition's own 'Excursus C' states it 'stands on a footing of its own... it is not quoted in antiquity, as the first three are, as part of the work of Ath. against the Arians,' casting doubt on its inclusion in the Pentabiblus. Any citation to Discourse IV specifically carries this caveat; Discourses I-III do not need it.",
+                    "locus": "I (post-325)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. John Henry Newman, revised Archibald Robertson, NPNF series 2 vol. 4 (1892) - the volume's known Newman/Robertson translator split; re-confirm per discourse at first quote; vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-4",
+      "message": "Why did your people believe this?",
+      "prior_turns_replayed": 3,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "alx",
+          "text": "We believed it because we heard it in Scripture, we received it from the apostles, and we saw it doing what it claimed to do. The first Christians handed down baptism, the bread and cup, the teaching, and the faith itself - we did not make these up in Alexandria, we kept what had been given. And Scripture itself named him the Word: 'In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh and dwelt among us.' That was not our invention; it was the text we read aloud every week. But there is a second reason, harder to prove and just as real. We saw lives changed. The martyrs went to their deaths without fear - Athanasius said their contempt for death was the risen Christ's continuing signature. Students like Gregory came in wanting philosophy and left with their whole direction turned toward God. We believed it because it worked: souls were actually remade, and we could see it.",
+          "citations": [
+            {
+              "sentence": "We believed it because we heard it in Scripture, we received it from the apostles, and we saw it doing what it claimed to do.",
+              "record_ids": [
+                "alx.force.apostolic-tradition"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.force.apostolic-tradition",
+                  "record_type": "force",
+                  "label": "The Apostolic Formation Tradition",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-paidagogos",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Paedagogus (The Instructor)",
+                      "locus": "I (catechetical formation as received practice)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The first Christians handed down baptism, the bread and cup, the teaching, and the faith itself - we did not make these up in Alexandria, we kept what had been given.",
+              "record_ids": [
+                "alx.force.apostolic-tradition"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.force.apostolic-tradition",
+                  "record_type": "force",
+                  "label": "The Apostolic Formation Tradition",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-paidagogos",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Paedagogus (The Instructor)",
+                      "locus": "I (catechetical formation as received practice)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The martyrs went to their deaths without fear - Athanasius said their contempt for death was the risen Christ's continuing signature.",
+              "record_ids": [
+                "alx.dw.resurrection"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.dw.resurrection",
+                  "record_type": "doctrinal_witness",
+                  "label": "How did we know the resurrection happened? We pointed first to what we could see: lives",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.origen-contra-celsum",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Contra Celsum (Against Celsus)",
+                      "locus": "II (the disciples' testimony argument)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Frederick Crombie (books VII-VIII with W.H. Cairns), Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                    },
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "27-32 (death's defeat shown in the martyrs)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Students like Gregory came in wanting philosophy and left with their whole direction turned toward God.",
+              "record_ids": [
+                "alx.story.gregory-formation"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.story.gregory-formation",
+                  "record_type": "story",
+                  "label": "The student Gregory's own account of how Origen taught him. He gave it at his farewell.",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.gregory-address-to-origen",
+                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - its authenticity and dating are doubted by Nautin, and later scholarship has reaffirmed the doubt",
+                      "locus": "VI-XVI (anf06 from line 2288)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "alx.figure.gregory-thaumaturgus",
+              "matched_name": "Gregory",
+              "text_start": 768,
+              "names": [
+                {
+                  "name": "Gregory",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Gregory Thaumaturgus of Neocaesarea (c. 213-c. 270)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the student who told us, in his own voice, what it was to be taught - the one first-person account of this school's formation",
+              "dates": {
+                "born": "c. 213 (traditional date)",
+                "died": "c. 270 (traditional date)",
+                "floruit": "student under Origen at Caesarea c. 233-238; the Address of Thanksgiving delivered c. 238 (Nautin disputes its authorship and date; most scholars hold to them)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "alx.source.gregory-address-to-origen",
+                  "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                  "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - its authenticity and dating are doubted by Nautin, and later scholarship has reaffirmed the doubt",
+                  "locus": "VI-XVI (anf06 from line 2288)",
+                  "rights_status": "public-domain",
+                  "edition": "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We believed it because we heard it in Scripture, we received it from the apostles, and we saw it doing what it claimed to do.",
+                "tags": [
+                  "alx.force.apostolic-tradition"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The first Christians handed down baptism, the bread and cup, the teaching, and the faith itself - we did not make these up in Alexandria, we kept what had been given.",
+                "tags": [
+                  "alx.force.apostolic-tradition"
+                ],
+                "verdict": "ok",
+                "why": "grounded 54% in own tagged records",
+                "ratio": 0.54
+              },
+              {
+                "sentence": "And Scripture itself named him the Word: 'In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh and dwelt among us.' That was not our invention; it was the text we read aloud every week.",
+                "tags": [
+                  "alx.term.word-of-god"
+                ],
+                "verdict": "withhold",
+                "why": "quoted span not found verbatim in any tagged record"
+              },
+              {
+                "sentence": "But there is a second reason, harder to prove and just as real.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We saw lives changed.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The martyrs went to their deaths without fear - Athanasius said their contempt for death was the risen Christ's continuing signature.",
+                "tags": [
+                  "alx.dw.resurrection"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "Students like Gregory came in wanting philosophy and left with their whole direction turned toward God.",
+                "tags": [
+                  "alx.story.gregory-formation"
+                ],
+                "verdict": "ok",
+                "why": "grounded 45% in own tagged records",
+                "ratio": 0.45
+              },
+              {
+                "sentence": "We believed it because it worked: souls were actually remade, and we could see it.",
+                "tags": [
+                  "alx.gravity.soul-transformation"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records"
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [
+                  "alx.dw.resurrection",
+                  "alx.force.apostolic-tradition",
+                  "alx.gravity.soul-transformation",
+                  "alx.story.gregory-formation",
+                  "alx.term.word-of-god"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "3": {
+                    "sentence": "But there is a second reason, harder to prove and just as real.",
+                    "tags": [
+                      "alx.dw.resurrection",
+                      "alx.force.apostolic-tradition",
+                      "alx.gravity.soul-transformation",
+                      "alx.story.gregory-formation",
+                      "alx.term.word-of-god"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "We saw lives changed.",
+                    "tags": [
+                      "alx.dw.resurrection",
+                      "alx.force.apostolic-tradition",
+                      "alx.gravity.soul-transformation",
+                      "alx.story.gregory-formation",
+                      "alx.term.word-of-god"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "alx",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 125
+              },
+              {
+                "index": 1,
+                "text_start": 126,
+                "text_end": 292
+              },
+              {
+                "index": 2,
+                "text_start": 293,
+                "text_end": 533
+              },
+              {
+                "index": 3,
+                "text_start": 534,
+                "text_end": 597
+              },
+              {
+                "index": 4,
+                "text_start": 598,
+                "text_end": 619
+              },
+              {
+                "index": 5,
+                "text_start": 620,
+                "text_end": 753
+              },
+              {
+                "index": 6,
+                "text_start": 754,
+                "text_end": 857
+              },
+              {
+                "index": 7,
+                "text_start": 858,
+                "text_end": 940
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "alx.figure.gregory-thaumaturgus",
+                "record_type": "figure",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 6,
+                "char_start": 14,
+                "char_end": 21,
+                "surface": "Gregory"
+              },
+              {
+                "record_id": "alx.story.gregory-formation",
+                "record_type": "story",
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "story",
+                "sentence_index": 6,
+                "char_start": 0,
+                "char_end": 103,
+                "surface": "Students like Gregory came in wanting philosophy and left with their whole direction turned toward God."
+              }
+            ],
+            "references": [
+              {
+                "record_id": "alx.force.apostolic-tradition",
+                "record_type": "force",
+                "label": "The Apostolic Formation Tradition",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-paidagogos",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Paedagogus (The Instructor)",
+                    "locus": "I (catechetical formation as received practice)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "alx.dw.resurrection",
+                "record_type": "doctrinal_witness",
+                "label": "How did we know the resurrection happened? We pointed first to what we could see: lives",
+                "sources": [
+                  {
+                    "source_id": "alx.source.origen-contra-celsum",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Contra Celsum (Against Celsus)",
+                    "locus": "II (the disciples' testimony argument)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Frederick Crombie (books VII-VIII with W.H. Cairns), Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                  },
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "27-32 (death's defeat shown in the martyrs)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "alx.story.gregory-formation",
+                "record_type": "story",
+                "label": "The student Gregory's own account of how Origen taught him. He gave it at his farewell.",
+                "sources": [
+                  {
+                    "source_id": "alx.source.gregory-address-to-origen",
+                    "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                    "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - its authenticity and dating are doubted by Nautin, and later scholarship has reaffirmed the doubt",
+                    "locus": "VI-XVI (anf06 from line 2288)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "alx.force.apostolic-tradition",
+                "record_type": "force",
+                "label": "The Apostolic Formation Tradition",
+                "sources": [
+                  {
+                    "source_id": "alx.source.clement-paidagogos",
+                    "author": "Clement of Alexandria (c. 150-215 CE)",
+                    "work": "Paedagogus (The Instructor)",
+                    "locus": "I (catechetical formation as received practice)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "alx.dw.resurrection",
+                "record_type": "doctrinal_witness",
+                "label": "How did we know the resurrection happened? We pointed first to what we could see: lives",
+                "sources": [
+                  {
+                    "source_id": "alx.source.origen-contra-celsum",
+                    "author": "Origen (c. 185-254 CE)",
+                    "work": "Contra Celsum (Against Celsus)",
+                    "locus": "II (the disciples' testimony argument)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Frederick Crombie (books VII-VIII with W.H. Cairns), Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                  },
+                  {
+                    "source_id": "alx.source.athanasius-de-incarnatione",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                    "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                    "locus": "27-32 (death's defeat shown in the martyrs)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                  }
+                ],
+                "world_key": "alx",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                2,
+                7
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "crisis_append_proven": null
+}

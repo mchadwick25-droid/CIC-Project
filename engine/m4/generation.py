@@ -35,7 +35,7 @@ class StreamResult:
 
 def stream_voice_turn(
     client, model_id: str, *, system_prompt: str, message: str, turn_directive: str | None = None,
-    history: list[dict] | None = None, max_tokens: int = 1024, timeout: float = 90.0,
+    history: list[dict] | None = None, max_tokens: int = 2048, timeout: float = 90.0,
     on_text: Callable[[str], None] | None = None,
 ) -> CallOutcome:
     """Returns a CallOutcome whose .value is a StreamResult on success. A
@@ -46,8 +46,8 @@ def stream_voice_turn(
 
     The request is shaped by engine.m4.voice_request.build_voice_request: the
     engine's shape segment and then the world's compiled prompt are the cached
-    system prefix, the session history carries the last cache breakpoint, and
-    the per-turn directive rides at the front of the final user message. A world's compiled prompt still has
+    system prefix, the per-turn directive follows them as an uncached system block, and the
+    session history carries the last cache breakpoint. A world's compiled prompt still has
     to clear Anthropic's cache-eligibility floor (~1024 tokens for
     Sonnet-class) to engage - a short prompt (like the fixture's) legitimately
     shows cache_engaged=False, which is a different fact from "caching is
