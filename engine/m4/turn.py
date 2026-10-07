@@ -676,6 +676,7 @@ def _run_ordinary_voice_turn(
         raw_text = kept
         seat_identity_cut = True
     offending = find_seat_identity_violation(raw_text, guard_labels) if guard_labels else None
+    seat_retry_directive: str | None = None
     if offending and sentences is not None and sentences.released:
         # Inside a sentence the splitter kept whole (a quotation spanning a
         # full stop), so the per-sentence check passed it and it is already
@@ -686,7 +687,7 @@ def _run_ordinary_voice_turn(
         seat_identity_violations.append({"world_key": world.world_key, "offending_prefix": offending, "attempt": "first"})
         retry_outcome = stream_voice_turn(
             voice_client, voice_model_id, system_prompt=world.prompt_text,
-            turn_directive=_append_seat_identity_correction(turn_directive, offending),
+            turn_directive=(seat_retry_directive := _append_seat_identity_correction(turn_directive, offending)),
             message=user_message, history=history,
         )
         if retry_outcome.status != "ok":
@@ -703,6 +704,32 @@ def _run_ordinary_voice_turn(
             raw_text = ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
         else:
             raw_text = retry_text
+
+    # RECITATION (decision 59, check 3) - a reply that reads a demonstration
+    # out gets one regeneration, with the directive line appended, when
+    # nothing of it has been streamed yet. A second match is passed through
+    # and reported on voice_event["recited_demonstration"]; never a second
+    # regeneration.
+    recitation_regenerated = False
+    recitation_retry_failed = False
+    if raw_text and demonstrations.is_recited(raw_text) and (sentences is None or not sentences.released):
+        retry_base = seat_retry_directive if seat_retry_directive is not None else (turn_directive or "")
+        retry_outcome = stream_voice_turn(
+            voice_client, voice_model_id, system_prompt=world.prompt_text,
+            turn_directive=retry_base + "\n" + DIRECTIVE_LINE,
+            message=user_message, history=history,
+        )
+        if rec := _maybe_record_usage(
+            retry_outcome, session_id=session_id, call_kind="voice_generation_retry", model_id=voice_model_id, world_key=usage_world_key
+        ):
+            usage_records.append(rec)
+        if retry_outcome.status == "ok" and not (guard_labels and find_seat_identity_violation(retry_outcome.value.text, guard_labels)):
+            raw_text = retry_outcome.value.text
+            recitation_regenerated = True
+            # later retries this turn carry the line too
+            turn_directive = retry_base + "\n" + DIRECTIVE_LINE
+        else:
+            recitation_retry_failed = True
 
     # SELF-REVISION - the generation-side
     # fix for a fabricated detail riding a real citation tag,
@@ -742,26 +769,6 @@ def _run_ordinary_voice_turn(
             "fallback_reason": self_revision_result["fallback_reason"],
             "latency_seconds": round(self_revision_result["latency_seconds"], 3),
         }
-
-    # RECITATION (decision 59, check 3) - a reply that reads a demonstration
-    # out gets one regeneration, with the directive line appended, when
-    # nothing of it has been streamed yet. A second match is passed through
-    # and reported on voice_event["recited_demonstration"]; never a second
-    # regeneration.
-    recitation_regenerated = False
-    if raw_text and demonstrations.is_recited(raw_text) and (sentences is None or not sentences.released):
-        recitation_regenerated = True
-        retry_outcome = stream_voice_turn(
-            voice_client, voice_model_id, system_prompt=world.prompt_text,
-            turn_directive=(turn_directive or "") + "\n" + DIRECTIVE_LINE,
-            message=user_message, history=history,
-        )
-        if rec := _maybe_record_usage(
-            retry_outcome, session_id=session_id, call_kind="voice_generation_retry", model_id=voice_model_id, world_key=usage_world_key
-        ):
-            usage_records.append(rec)
-        if retry_outcome.status == "ok" and not (guard_labels and find_seat_identity_violation(retry_outcome.value.text, guard_labels)):
-            raw_text = retry_outcome.value.text
 
     if debug_capture is not None:
         # The raw, still-tagged, still-paragraphed answer - never
@@ -1037,6 +1044,7 @@ def _run_ordinary_voice_turn(
             "self_revision": self_revision_meta,
             "citation_attach": citation_attach_meta,
             "recitation_regenerated": recitation_regenerated,
+            "recitation_retry_failed": recitation_retry_failed,
         },
         # True when the reply a participant reads still runs 20 or more
         # consecutive words of a demonstration record (engine.m4.recitation).

@@ -150,6 +150,31 @@ def strip_tags(text: str) -> str:
 # fallback ladder appends, it never revises), and a display defect is a
 # signal that something upstream is wrong, not something to paper over on
 # the way out.
+_DOUBLE_OPENERS = "\"\u201c"
+_CLOSERS = {
+    '"': re.compile(r"""(?<=\S)["\u201d](?=[\s.,;:!?)]|$)"""),
+    "\u201c": re.compile(r"""(?<=\S)[\"\u201d](?=[\s.,;:!?)]|$)"""),
+    "'": re.compile(r"""(?<=\S)['\u2019](?=[\s.,;:!?)]|$)"""),
+    "\u2018": re.compile(r"""(?<=\S)['\u2019](?=[\s.,;:!?)]|$)"""),
+}
+_PLURAL_POSSESSIVE = re.compile(r"s['\u2019]\s+[A-Za-z]")
+
+
+def _closing_mark(text: str, opener: str, start: int) -> int | None:
+    """Index of the mark that closes a quotation opened by `opener`: a double
+    opener closes only on a double mark; a single opener skips a plural
+    possessive (the apostles' teaching)."""
+    pos = start
+    while True:
+        match = _CLOSERS[opener].search(text, pos)
+        if not match:
+            return None
+        index = match.end() - 1
+        if opener in _DOUBLE_OPENERS or not _PLURAL_POSSESSIVE.match(text, index - 1):
+            return index
+        pos = match.end()
+
+
 def _quote_pairs(text: str):
     """(open_index, close_index) of every paired quotation mark, left to
     right."""
@@ -158,11 +183,12 @@ def _quote_pairs(text: str):
         open_m = QUOTE_OPEN.search(text, pos)
         if not open_m:
             return
-        close_m = QUOTE_CLOSE.search(text, open_m.end())
-        if not close_m:
+        open_i = open_m.end() - 1
+        close_i = _closing_mark(text, text[open_i], open_m.end())
+        if close_i is None:
             return
-        yield open_m.end() - 1, close_m.end() - 1
-        pos = close_m.end()
+        yield open_i, close_i
+        pos = close_i + 1
 
 
 def quoted_span_positions(text: str) -> list[tuple[int, int, str]]:
@@ -237,6 +263,8 @@ _WORD_TOKEN = re.compile(r"[a-z0-9]+")
 _TITLE_WORDS = frozenset({
     "abba", "abbot", "amma", "bishop", "blessed", "brother", "father", "pope", "saint", "st",
     "the", "and", "of", "in", "at", "on", "for", "to", "as", "from", "with", "our", "his", "her",
+    "god", "lord", "christ", "jesus", "spirit", "holy", "first", "second", "third", "forty",
+    "book", "rule", "king", "teacher", "chronicle", "index", "council", "persian", "alexandrian", "festal",
 })
 
 ATTRIBUTION_WINDOW = 4
@@ -244,17 +272,27 @@ ATTRIBUTION_WINDOW = 4
 _ATTRIBUTION_VERBS = frozenset({
     "said", "says", "say", "wrote", "writes", "write", "declared", "declares", "declare",
     "preached", "preaches", "preach", "told", "tells", "tell", "taught", "teaches", "teach",
+    "asked", "answered", "replied", "insisted", "warned", "added", "urged",
 })
-_ATTRIBUTION_PHRASES = frozenset({("put", "it"), ("puts", "it"), ("called", "it"), ("calls", "it")})
+_ATTRIBUTION_PHRASES = frozenset({
+    ("put", "it"), ("puts", "it"), ("called", "it"), ("calls", "it"), ("according", "to"),
+})
 
 REASON_QUOTATION_NOT_IN_RECORDS = "quotation not in records"
 REASON_WORDS_WITHOUT_QUOTE_RECORD = "words attributed without a quote record"
+
+
+def _name_head(name: str) -> str:
+    """The name itself, before any epithet or apparatus: 'Macrina, called the
+    Teacher' is Macrina."""
+    return re.split(r"[,(;]", name, maxsplit=1)[0].strip()
 
 
 def _alias_tokens(name: str) -> set[tuple[str, ...]]:
     """The ways a sentence can name a figure called `name`: the whole name,
     and each capitalised word of it that is not a title."""
     aliases: set[tuple[str, ...]] = set()
+    name = _name_head(name)
     whole = tuple(_WORD_TOKEN.findall(name.lower()))
     if whole:
         aliases.add(whole)
@@ -315,13 +353,13 @@ class QuotationIndex:
             for rec in self._records.values():
                 speaker = rec.get("speaker_or_author") if rec.get("record_type") == "quote" else None
                 if speaker and speaker not in figures and not self._speaker_figures(speaker, figures):
-                    figures[_speaker_key(speaker)] = _alias_tokens(speaker.split(",")[0])
+                    figures[_speaker_key(speaker)] = _alias_tokens(speaker)
             self._figures = figures
         return self._figures
 
     @staticmethod
     def _speaker_figures(speaker: str, figures: dict[str, set[tuple[str, ...]]]) -> set[str]:
-        tokens = _WORD_TOKEN.findall(speaker.lower())
+        tokens = _WORD_TOKEN.findall(_name_head(speaker).lower())
         return {fid for fid, aliases in figures.items() if any(_occurrences(tokens, alias) for alias in aliases)}
 
     def speaker_ids(self, quote_record: dict) -> set[str]:
@@ -333,31 +371,36 @@ class QuotationIndex:
         return self._speaker_figures(speaker, figures) or {_speaker_key(speaker)}
 
     def attributed_figures(self, sentence: str) -> list[set[str]]:
-        """For each place the sentence puts an attribution verb beside a
-        figure's name: the figure ids that name can stand for."""
+        """One entry per attribution verb that has a figure for its subject:
+        the figure ids that name can stand for. The subject is the nearest
+        name before the verb; a name after it counts only when none stands
+        before ("according to Ignatius", "said Basil"), never the person
+        written or spoken to."""
         tokens = _WORD_TOKEN.findall(sentence.lower())
         verbs = [(i, i + 1) for i, t in enumerate(tokens) if t in _ATTRIBUTION_VERBS]
         verbs += [(i, i + 2) for i in range(len(tokens) - 1) if (tokens[i], tokens[i + 1]) in _ATTRIBUTION_PHRASES]
         if not verbs:
             return []
+        names: list[tuple[int, int, set[str]]] = []
         by_alias: dict[tuple[str, ...], set[str]] = {}
         for fid, aliases in self._figure_aliases().items():
             for alias in aliases:
                 by_alias.setdefault(alias, set()).add(fid)
-        found: dict[tuple[int, int], set[str]] = {}
         for alias, fids in by_alias.items():
-            for start, end in _occurrences(tokens, alias):
-                beside = any(
-                    0 <= v_start - end <= ATTRIBUTION_WINDOW or 0 <= start - v_end <= ATTRIBUTION_WINDOW
-                    for v_start, v_end in verbs
-                )
-                if beside:
-                    found.setdefault((start, end), set()).update(fids)
-        return [found[key] for key in sorted(found)]
+            names += [(start, end, fids) for start, end in _occurrences(tokens, alias)]
+        found = []
+        for v_start, v_end in sorted(verbs):
+            before = [n for n in names if 0 <= v_start - n[1] <= ATTRIBUTION_WINDOW]
+            after = [n for n in names if 0 <= n[0] - v_end <= 1]
+            pool = [max(before, key=lambda n: n[1])] if before else after
+            if pool:
+                nearest = max(n[1] - n[0] for n in pool)
+                found.append(set().union(*(n[2] for n in pool if n[1] - n[0] == nearest)))
+        return found
 
 
 def _speaker_key(speaker: str) -> str:
-    return "speaker:" + " ".join(_WORD_TOKEN.findall(speaker.split(",")[0].lower()))
+    return "speaker:" + " ".join(_WORD_TOKEN.findall(_name_head(speaker).lower()))
 
 
 def _strip_pairs(text: str) -> str:
@@ -424,11 +467,14 @@ def shown_text(raw_text: str, sentences: list[dict]) -> str:
     pieces, cursor = [], 0
     for entry in sentences:
         source = entry.get("source_sentence") or entry.get("sentence") or ""
-        position = shown.find(source, cursor) if source else -1
+        position, length = shown.find(source, cursor) if source else -1, len(source)
+        if position < 0 and source:
+            found = re.compile(r"\s+".join(re.escape(w) for w in source.split())).search(shown, cursor)
+            position, length = (found.start(), found.end() - found.start()) if found else (-1, 0)
         if position < 0:
             continue
         pieces += [shown[cursor:position], entry.get("sentence") or ""]
-        cursor = position + len(source)
+        cursor = position + length
     return "".join(pieces) + shown[cursor:]
 
 

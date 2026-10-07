@@ -72,9 +72,27 @@ def test_a_streamed_recitation_is_held_back_from_its_first_sentence():
 
 def test_an_ordinary_reply_streams_when_demonstrations_exist():
     stream = SentenceStream(repository_records=RECORDS, world_key="fix")
-    raw = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. That is the whole of it. And more follows."
+    raw = (
+        "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. "
+        "That is the whole of it, and we hold to it still, as our elders did before us. And more follows."
+    )
     events = [e for i in range(0, len(raw), 6) for e in stream.feed(raw[i : i + 6])]
-    assert [e["text"] for e in events] == ["We did not claim to have seen him ourselves.", "That is the whole of it."]
+    assert [e["text"] for e in events] == [
+        "We did not claim to have seen him ourselves.",
+        "That is the whole of it, and we hold to it still, as our elders did before us.",
+    ]
+
+
+def test_nothing_streams_until_the_reply_could_hold_a_recitation():
+    stream = SentenceStream(repository_records=RECORDS, world_key="fix")
+    raw = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. That is all. And more follows."
+    assert [e for i in range(0, len(raw), 6) for e in stream.feed(raw[i : i + 6])] == []
+
+
+def test_a_world_without_demonstrations_streams_at_once():
+    stream = SentenceStream(repository_records={"fix.witness.who-is-jesus": WITNESS}, world_key="fix")
+    raw = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. That is all. And more follows."
+    assert len([e for i in range(0, len(raw), 6) for e in stream.feed(raw[i : i + 6])]) == 2
 
 
 def _recitation_world() -> LoadedWorld:
@@ -131,11 +149,14 @@ def test_twenty_matching_words_trigger_exactly_one_regeneration():
 
 def test_a_reply_already_streamed_is_never_regenerated_over():
     shown = []
-    first = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. " + DEMO_TEXT
+    first = (
+        "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]], and we have held to that word "
+        "for as long as any of us can remember. " + DEMO_TEXT
+    )
     event, client = _turn([[first]], on_sentence=shown.append)
     assert len(client.messages.captured_stream_calls) == 1
     assert event["recited_demonstration"] is True
-    assert [s["text"] for s in shown] == ["We did not claim to have seen him ourselves."]
+    assert len(shown) == 1
 
 
 def test_a_held_recitation_is_regenerated_before_anything_is_shown():

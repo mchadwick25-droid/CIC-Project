@@ -48,6 +48,10 @@ class DemonstrationIndex:
         self._evidence: str | None = None
         self._verdicts: dict[tuple[str, ...], bool] = {}
 
+    @property
+    def empty(self) -> bool:
+        return not self._recitation
+
     def _demonstration_only(self, gram: tuple[str, ...]) -> bool:
         """Whether no other record carries these words in a row. The records'
         text is joined and normalised only when a run first matches."""

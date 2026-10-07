@@ -22,7 +22,10 @@ line. A sentence whose quotation marks the net took off (decision 59) is
 released with them off, and offsets count the text as the finished reply
 has it. A sentence that touches a run of demonstration words
 (engine.m4.recitation) is held back while the run may still grow into a
-recitation, so a recited reply can be regenerated before any of it is shown.
+recitation, so a recited reply can be regenerated before any of it is shown;
+with demonstrations in play nothing is released before the finished
+sentences reach the recitation length, so a recitation that begins in the
+reply's first words is caught before any of it shows.
 No streamed sentence is ever taken back.
 """
 from engine.m4.citation_cards import resolve_source_card
@@ -35,7 +38,7 @@ from engine.m4.grounding_net import (
     strip_tags,
     verdict_for_sentence,
 )
-from engine.m4.recitation import DemonstrationIndex, reply_words
+from engine.m4.recitation import RECITATION_WORDS, DemonstrationIndex, reply_words
 from engine.m4.transparency_plan import ElementBuilder
 
 
@@ -121,7 +124,10 @@ class SentenceStream:
         first word of a run of demonstration words that is, or may still
         become, a recitation."""
         counts = [len(reply_words(sentence["text"])) for sentence in complete]
-        start = self._demonstrations.hold_start([w for sentence in complete for w in reply_words(sentence["text"])])
+        words = [w for sentence in complete for w in reply_words(sentence["text"])]
+        if not self._demonstrations.empty and len(words) < RECITATION_WORDS:
+            return 0
+        start = self._demonstrations.hold_start(words)
         if start is None:
             return None
         total = 0
