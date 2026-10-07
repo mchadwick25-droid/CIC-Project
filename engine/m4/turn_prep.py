@@ -7,11 +7,11 @@ produce byte-identical outputs.
 """
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 
 from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence
-from engine.m4.name_bridge import spoken_name
+from engine.m4.name_bridge import find_figures_used, spoken_name
 from engine.m4.rhythm import RhythmTally, asks_for_the_words
 from engine.m4.world_loader import LoadedWorld
 from engine.m5.routing import Directive
@@ -519,6 +519,9 @@ def prepare_voice_turn_inputs(
         repository_records=repository_records,
     )
     quote_asked = asks_for_the_words(kind, participant_message)
+    if rhythm is not None:
+        asked = find_figures_used(participant_message, world.figures.get("figures") or [], already_bridged_ids=set(rhythm.figures_introduced))
+        rhythm = replace(rhythm, figures_asked=frozenset(f["id"] for f in asked))
     turn_evidence = evidence.assemble_evidence(
         message=participant_message,
         asks=directive.asks if directive else None,

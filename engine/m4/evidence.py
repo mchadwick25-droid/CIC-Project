@@ -794,7 +794,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
         if rid not in figure_cache:
             record = repository_records.get(rid) or {}
             text = f"{_head_text(record)} {record.get('speaker_or_author') or ''}"
-            figure_cache[rid] = bool(find_figures_used(text, figures or [], already_bridged_ids=set(rhythm.figures_introduced)))
+            figure_cache[rid] = bool(find_figures_used(text, figures or [], already_bridged_ids=rhythm.known_figure_ids))
         return figure_cache[rid]
 
     def _entry(rid: str, record_type: str, score: float | None) -> dict | None:

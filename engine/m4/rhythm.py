@@ -25,6 +25,12 @@ class RhythmTally:
     quotes_voiced: dict[str, int] = field(default_factory=dict)
     stories_told: dict[str, int] = field(default_factory=dict)
     figures_introduced: dict[str, int] = field(default_factory=dict)
+    figures_asked: frozenset[str] = frozenset()
+
+    @property
+    def known_figure_ids(self) -> set[str]:
+        """Figures the participant has met or just asked about; neither is new."""
+        return set(self.figures_introduced) | set(self.figures_asked)
 
     @property
     def quote_due(self) -> bool:
@@ -35,13 +41,11 @@ class RhythmTally:
 
     @property
     def figure_gate_closed(self) -> bool:
-        """A figure was introduced within the last three rounds."""
+        """A figure was introduced within the last three rounds, and this
+        question is not itself about a figure not yet introduced."""
+        if self.figures_asked:
+            return False
         return any(self.round_no - r < FIGURE_INTERVAL for r in self.figures_introduced.values())
-
-    @property
-    def figure_floor(self) -> int | None:
-        """Zero new figures while the gate is closed; no limit otherwise."""
-        return 0 if self.figure_gate_closed else None
 
     def used_round(self, record_id: str) -> tuple[str, int] | None:
         """("voiced" | "told", round) for a quote or story the conversation already used."""
