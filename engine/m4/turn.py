@@ -41,6 +41,7 @@ stream of the reply's sentences while it is written (on_sentence,
 engine.m4.sentence_stream): each sentence carries the marks the finished
 plan gives it, and the finished reply's plan is authoritative.
 """
+import functools
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from typing import Callable
@@ -327,7 +328,10 @@ def _draft_is_final_text(
     return not ((is_other_tradition_first_ask and self_revision_enabled) or r27_enforce or sentence_enforce)
 
 
-def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> tuple[str, list[dict], dict]:
+def apply_net(
+    raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None,
+    quotable_texts: list[str] | None = None,
+) -> tuple[str, list[dict], dict]:
     """THE one owner of the voice text shape - everything a Representative
     says, in any mode AND in admission, is shaped by this function and only
     this function. The deterministic net (engine.m4.grounding_net.
@@ -360,7 +364,9 @@ def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics
     # making a second, independent check_turn_with_paragraph_coverage
     # call - a live turn now pays the net once, not twice, in both
     # report-only and enforced modes.
-    net_result = grounding_net.check_turn_with_paragraph_coverage(raw_text, repository_records, thin_topics=thin_topics)
+    net_result = grounding_net.check_turn_with_paragraph_coverage(
+        raw_text, repository_records, thin_topics=thin_topics, quotable_texts=quotable_texts,
+    )
     # THE CHECKS GATE DECORATION, NEVER THE TEXT. Program-Spec M4, and
     # again in Artifact-5 SS2 ("they gate decoration, not text"), and again
     # in SS5 ("never by editing a live response"). What the voice wrote is
@@ -630,6 +636,15 @@ def _run_ordinary_voice_turn(
     figures_already_named = prepared.figures_already_named
     user_message = prepared.user_message
     turn_directive = prepared.turn_directive
+    # Words said in this conversation may be quoted back: the participant's
+    # message, the replayed transcript, and the table's context.
+    echo_sources = [
+        text for text in (
+            participant_message, context_prefix, secondary_context,
+            *((turn.get("content") for turn in history or [])),
+        ) if isinstance(text, str) and text
+    ]
+    _net = functools.partial(apply_net, quotable_texts=echo_sources)
     demonstrations = DemonstrationIndex(repository_records)
     on_text = None
     sentences = None
@@ -640,7 +655,7 @@ def _run_ordinary_voice_turn(
         sentences = SentenceStream(
             repository_records=repository_records, world_key=world.world_key, thin_topics=thin_topics,
             guard=(lambda raw: find_seat_identity_violation(raw, guard_labels)) if guard_labels else None,
-            demonstrations=demonstrations,
+            demonstrations=demonstrations, quotable_texts=echo_sources,
         )
 
         def on_text(chunk: str) -> None:
@@ -782,7 +797,7 @@ def _run_ordinary_voice_turn(
         # re-derived.
         debug_capture["raw_tagged_text"] = raw_text
 
-    answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
+    answer_text, citations, net_result = _net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
 
     # The report-only turn checks (uncited claims, wholly uncited
     # paragraphs, named-claim grounding, the sentence fact check) run after
@@ -823,7 +838,7 @@ def _run_ordinary_voice_turn(
             ):
                 usage_records.append(rec)
             retry_raw_text = retry_outcome.value.text
-            retry_answer_text, retry_citations, retry_net_result = apply_net(
+            retry_answer_text, retry_citations, retry_net_result = _net(
                 retry_raw_text, repository_records=repository_records, thin_topics=thin_topics
             )
             retry_uncited_claims = find_uncited_claims(retry_net_result["sentences"])
@@ -846,7 +861,7 @@ def _run_ordinary_voice_turn(
             if retry_hard_offenses:
                 r27_enforcement_exhausted = True
                 raw_text = ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
-                answer_text, citations, net_result = apply_net("", repository_records=repository_records, thin_topics=thin_topics)
+                answer_text, citations, net_result = _net("", repository_records=repository_records, thin_topics=thin_topics)
                 uncited_claims = []
                 paragraph_offenses = []
                 named_claim_flags = []
@@ -899,7 +914,7 @@ def _run_ordinary_voice_turn(
         ):
             usage_records.append(rec)
         retry_raw_text = retry_outcome.value.text
-        retry_answer_text, retry_citations, retry_net_result = apply_net(
+        retry_answer_text, retry_citations, retry_net_result = _net(
             retry_raw_text, repository_records=repository_records, thin_topics=thin_topics
         )
 
@@ -929,7 +944,7 @@ def _run_ordinary_voice_turn(
         if retry_r27_hard_offenses:
             r27_enforcement_exhausted = True
             raw_text = ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
-            answer_text, citations, net_result = apply_net("", repository_records=repository_records, thin_topics=thin_topics)
+            answer_text, citations, net_result = _net("", repository_records=repository_records, thin_topics=thin_topics)
             uncited_claims = []
             paragraph_offenses = []
             named_claim_flags = []
@@ -964,7 +979,7 @@ def _run_ordinary_voice_turn(
                     raw_text = retry_raw_text
             else:
                 raw_text = retry_raw_text
-            answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
+            answer_text, citations, net_result = _net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
             uncited_claims = find_uncited_claims(net_result["sentences"])
             paragraph_offenses = find_uncited_paragraphs(net_result)
             named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)

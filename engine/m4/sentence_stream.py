@@ -48,10 +48,11 @@ def _sentences(raw: str) -> list[dict]:
 
 class SentenceStream:
     def __init__(self, *, repository_records: dict[str, dict], world_key: str, thin_topics: list[dict] | None = None,
-                 guard=None, demonstrations: DemonstrationIndex | None = None):
+                 guard=None, demonstrations: DemonstrationIndex | None = None,
+                 quotable_texts: list[str] | None = None):
         self._guard = guard
         self._demonstrations = demonstrations or DemonstrationIndex(repository_records)
-        self._quotation_index = QuotationIndex(repository_records)
+        self._quotation_index = QuotationIndex(repository_records, quotable_texts)
         self._shift = 0
         self._stopped = False
         self._records = repository_records

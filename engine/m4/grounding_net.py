@@ -317,11 +317,13 @@ def _occurrences(tokens: list[str], needle: tuple[str, ...]) -> list[tuple[int, 
 class QuotationIndex:
     """What decision 59's first two checks read, built once per turn and only
     when a sentence carries quotation marks: the normalised text of every
-    quotable record, and the world's figures with the names that can stand for
-    them."""
+    quotable record, plus `quotable_texts` (words said in this conversation:
+    the participant's message and the transcript), and the world's figures
+    with the names that can stand for them."""
 
-    def __init__(self, repository_records: dict[str, dict]):
+    def __init__(self, repository_records: dict[str, dict], quotable_texts: list[str] | None = None):
         self._records = repository_records
+        self._quotable_texts = quotable_texts or []
         self._haystacks: list[str] | None = None
         self._figures: dict[str, set[tuple[str, ...]]] | None = None
 
@@ -332,6 +334,7 @@ class QuotationIndex:
                 for rec in self._records.values()
                 if rec.get("record_type") not in _NOT_QUOTABLE_TYPES
             ]
+            self._haystacks += [f" {_normalize(strip_tags(text))} " for text in self._quotable_texts]
         return self._haystacks
 
     def holds(self, span: str) -> bool:
@@ -691,6 +694,7 @@ def check_turn(
     *,
     thin_topics: list[dict] | None = None,
     grounding_floor: float = WITHHOLD_FLOOR,
+    quotable_texts: list[str] | None = None,
 ) -> dict:
     """Per-sentence verdicts over one tagged turn.
 
@@ -713,7 +717,7 @@ def check_turn(
     """
     tagged_text, truncated = _drop_truncated_tail(tagged_text)
     figure_names = build_figure_lexicon(repository_records)
-    quotation_index = QuotationIndex(repository_records)
+    quotation_index = QuotationIndex(repository_records, quotable_texts)
     results = [
         verdict_for_sentence(
             sent["text"], sent["tags"],
@@ -784,6 +788,7 @@ def check_turn_with_paragraph_coverage(
     *,
     thin_topics: list[dict] | None = None,
     grounding_floor: float = WITHHOLD_FLOOR,
+    quotable_texts: list[str] | None = None,
 ) -> dict:
     """check_turn's own base per-sentence pass, reproduced exactly (same
     truncation backoff, same verdict_for_sentence calls, same sentence
@@ -833,7 +838,7 @@ def check_turn_with_paragraph_coverage(
     """
     tagged_text, truncated = _drop_truncated_tail(tagged_text)
     figure_names = build_figure_lexicon(repository_records)
-    quotation_index = QuotationIndex(repository_records)
+    quotation_index = QuotationIndex(repository_records, quotable_texts)
     paragraphs_raw = split_into_paragraphs(tagged_text)
 
     all_sentences: list[dict] = []

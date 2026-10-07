@@ -171,3 +171,13 @@ def _system_text(system) -> str:
     if isinstance(system, str):
         return system
     return "".join(block.get("text", "") for block in system)
+
+
+def test_the_participants_own_quoted_words_keep_their_marks_in_a_turn():
+    reply = 'You asked about "the door that was never opened" [[fix.witness.who-is-jesus]], and we hold to what we were told.'
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=[reply])
+    event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_recitation_world(),
+        participant_message="Tell me about the door that was never opened.", directive=None, session_id="test-session",
+    )
+    assert '"the door that was never opened"' in event["text"]

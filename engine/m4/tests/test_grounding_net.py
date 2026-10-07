@@ -858,3 +858,17 @@ def test_the_person_spoken_to_is_not_the_attributed_figure():
         entry = _entry(f'{lead} "{NEW_SONG}" [[fix.witness.who-is-jesus]].', repository)
         assert entry["why"] != "words attributed without a quote record", lead
     assert _entry(f'"{NEW_SONG}," said Gregory [[fix.witness.who-is-jesus]].', repository)["why"] == "words attributed without a quote record"
+
+
+def test_words_said_in_the_conversation_keep_their_quotation_marks():
+    text = 'You asked about "the door that was never opened" [[fix.witness.who-is-jesus]].'
+    assert check_turn(text, QUOTE_REPOSITORY)["sentences"][0]["why"] == "quotation not in records"
+    echoed = check_turn(text, QUOTE_REPOSITORY, quotable_texts=["Tell me about the door that was never opened, please."])["sentences"][0]
+    assert echoed["why"] != "quotation not in records"
+    assert "source_sentence" not in echoed
+
+
+def test_echoed_words_do_not_stand_in_for_a_quote_record_of_an_attributed_figure():
+    text = 'Clement wrote, "the door that was never opened" [[fix.witness.who-is-jesus]].'
+    entry = check_turn(text, QUOTE_REPOSITORY, quotable_texts=["the door that was never opened"])["sentences"][0]
+    assert entry["why"] == "words attributed without a quote record"
