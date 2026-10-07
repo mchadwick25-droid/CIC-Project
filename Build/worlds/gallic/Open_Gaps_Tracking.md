@@ -735,4 +735,4 @@ Restored after review round 1: "Not resolved here: whether Vincent held the bret
 
 **Gates (package `2026-10-07T00-52-09Z`, manifest `sha256:57e2e0a9175b6b8d08b7f7b4de27c7f3368db517b2e04f4e98235fb6826c715c`; the earlier package of this pass was deleted):** `engine.m10.cli records gallic` PASS; `regate gallic --base origin/main` PASS (restoring the original `plain_meaning` needed no sentence splitting); `engine.m2.cli determinism-check gallic` PASS; `tools/check_live_commentary.py --base origin/main --enforce` exit 0; `engine.m10.cli deployed gallic` PASS; embedded-quotation baseline test passes (gallic 53, unchanged); `engine.m9.cli check` clean (every waiver live and current; the `m1:readability/gallic` waiver stays at 101); `engine.m2.site_cli staleness-check` shows no stale world, so no site JSON recompile was needed. `engine.m3.admission_conform` not run (fails on any records change until the decision-58 gate change lands). No model call was made.
 
-**Status: OPEN.**
+**Status:** round 3 (Opus, `Build/Ministry/Operations/Audits/gallic_identity_scaffolding_review_round3_2026-10-07.md`) cleared the records and OG-26. Approved to proceed.
