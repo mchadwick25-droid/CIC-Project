@@ -80,6 +80,13 @@ ACCEPTED_OPEN: dict[str, str] = {
     # Search feature's own migration has not reached rzg yet. Belongs to
     # rzg's own build thread.
     "required-record-type/rzg/search_record": "CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
+    "spoken-scaffolding/don": "don OG-26 - two spoken fields still open on a question after the don record pass (don.dw.written-by-our-opponents text, don.witness.refusal-and-recourse positions[0]); owned by the don record pass",
+    "spoken-scaffolding/gallic": "gallic OG-29 - one spoken field still opens on a question after the gallic record pass (gallic.term.progress-vs-alteration plain_meaning, which quotes Vincent's own question); owned by the record pass",
+    "spoken-scaffolding/hal": "Question-kind slice - hal spoken text still opens on a question or carries a stage direction; removed by the hal record pass",
+    "spoken-scaffolding/ijc": "Question-kind slice - ijc spoken text still opens on a question or carries a stage direction; removed by the ijc record pass",
+    "spoken-scaffolding/rzg": "Question-kind slice - rzg spoken text still opens on a question or carries a stage direction; removed by the rzg record pass",
+    "spoken-scaffolding/syr": "Question-kind slice - syr spoken text still opens on a question or carries a stage direction; removed by the syr record pass",
+    "spoken-scaffolding/witt": "Question-kind slice - witt spoken text still opens on a question or carries a stage direction; removed by the witt record pass",
 }
 
 # A waiver above on a world outside engine.m9.enforce.GRANDFATHERED_WORLDS is
@@ -1223,6 +1230,21 @@ def observe_corpus_map(*, registry, worlds, **_) -> list[Finding]:
         + (", ".join(held) or "none")))
     return findings
 
+def check_spoken_scaffolding(*, records, worlds, **_) -> list[Finding]:
+    """Spoken text must start with the answer: no first sentence that ends in
+    a question mark, no second-person stage direction (see
+    engine.m1.spoken_scaffolding). One defect per world that still carries
+    it, waived until that world's record pass removes it."""
+    from engine.m1.spoken_scaffolding import scaffolding_hits
+
+    findings = []
+    for w in worlds:
+        hits = scaffolding_hits(records[w])
+        if hits:
+            findings.append(_defect("spoken-scaffolding", w, f"{len(hits)} spoken field(s) open on a question or carry a stage direction, e.g. {hits[0][0]}"))
+    return findings
+
+
 CHECKS = [
     check_registry_shape,
     check_unregistered_world_dirs,
@@ -1236,6 +1258,7 @@ CHECKS = [
     check_record_world_ids,
     check_figure_dates_keys,
     check_participant_field_leaks,
+    check_spoken_scaffolding,
     check_quote_speaker_labels,
     check_app_world_assets,
     check_site_portraits,

@@ -584,3 +584,23 @@ def test_what_the_participant_said_earlier_reaches_the_directive_verbatim(store,
     assert '- The participant: "My teacher spoke of the Donatists."' in directive_text
     assert "Who was Jesus?" not in directive_text
     assert "question's own words and the lines quoted below" in directive_text
+
+
+def test_an_interview_turn_reads_the_rhythm_from_its_own_transcript(store, usage_store, world_loader, registry):
+    """The turn after a figure's first mention carries the no-new-figure line
+    and a first turn does not, both read from the session's own events."""
+    from engine.m4.turn_prep import NO_NEW_FIGURE_LINE
+
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response(),
+        stream_chunks=["The Elder spoke for us, and we remembered it [[fix.witness.who-is-jesus]]."],
+    )
+    for i, text in enumerate(("who led you", "and after him")):
+        wiring.handle_message(
+            store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+            voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+            session_id=session_id, text=text, client_msg_id=f"msg-{i}",
+        )
+    assert NO_NEW_FIGURE_LINE not in _voice_directive_text(client, 0)
+    assert NO_NEW_FIGURE_LINE in _voice_directive_text(client, 1)

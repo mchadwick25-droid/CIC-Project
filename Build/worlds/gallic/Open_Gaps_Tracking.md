@@ -706,7 +706,19 @@ Errors in the voice's replies, each confirmed against the records by an independ
 
 Status: OPEN.
 
-### OG-26. Identity and scaffolding pass on witness, term and story spoken text (decisions 56-58), 2026-10-07.
+### OG-26. Spoken text opens on a question or carries a stage direction, 2026-10-06.
+
+5 spoken field(s) across 5 record(s) in witness, term and story text have a first sentence that ends in a question mark, or carry "your second question", "start with the part", "you asked" or "as you asked". The voice answers in the kind the participant asked, so spoken text must start with the answer. Content for this world's record pass; the check is `spoken_scaffolding.scaffolding_hits`. Waived in `engine/m1/cross_world.py` as `spoken-scaffolding/gallic` until the pass lands; the pass removes the waiver. First record: `gallic.dw.christ-in-the-beggar-and-the-guest`.
+
+### OG-27. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
+
+Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-gallic-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
+
+(1) (E) "Why did your people believe this?": the Paesius and John saying is told as something "we saw", with the verdict that "the one who kept only the fast proved only endurance". `gallic.story.paesius-and-john` records that Cassian gives both answers without comment, and its not_for bars presenting it as a Gallic saying.
+
+Status: OPEN.
+
+### OG-28. Identity and scaffolding pass on witness, term and story spoken text (decisions 56-58), 2026-10-07 — the record pass for "Spoken text opens on a question or carries a stage direction" (2026-10-06).
 
 **Records changed (5 records, plus the pin):** `gallic.dw.christ-in-the-beggar-and-the-guest`, `gallic.dw.laughed-at-and-reported`, `gallic.dw.one-person-two-substances`, `gallic.dw.the-christ-who-bears-the-wounds` (all `text`, and the markdown body), and `gallic.term.beginning-of-a-good-will` (`quick_meaning`, the markdown body, and one sentence of `divergence_note`). `records/worlds/gallic.yaml` is repinned to package `2026-10-07T00-52-09Z`. No story record changed: the 15 stories carry no participant-question scaffolding (the only question in `gallic.story.germanus-scruple-at-morning-service` is Germanus's own reported argument, and its "(See gallic.quote...)" pointers are record references).
 
@@ -735,4 +747,10 @@ Restored after review round 1: "Not resolved here: whether Vincent held the bret
 
 **Gates (package `2026-10-07T00-52-09Z`, manifest `sha256:57e2e0a9175b6b8d08b7f7b4de27c7f3368db517b2e04f4e98235fb6826c715c`; the earlier package of this pass was deleted):** `engine.m10.cli records gallic` PASS; `regate gallic --base origin/main` PASS (restoring the original `plain_meaning` needed no sentence splitting); `engine.m2.cli determinism-check gallic` PASS; `tools/check_live_commentary.py --base origin/main --enforce` exit 0; `engine.m10.cli deployed gallic` PASS; embedded-quotation baseline test passes (gallic 53, unchanged); `engine.m9.cli check` clean (every waiver live and current; the `m1:readability/gallic` waiver stays at 101); `engine.m2.site_cli staleness-check` shows no stale world, so no site JSON recompile was needed. `engine.m3.admission_conform` not run (fails on any records change until the decision-58 gate change lands). No model call was made.
 
-**Status:** round 3 (Opus, `Build/Ministry/Operations/Audits/gallic_identity_scaffolding_review_round3_2026-10-07.md`) cleared the records and OG-26. Approved to proceed.
+**Status:** round 3 (Opus, `Build/Ministry/Operations/Audits/gallic_identity_scaffolding_review_round3_2026-10-07.md`) cleared the records and this entry. Approved to proceed.
+
+### OG-29. Spoken text opens on a question after the record pass, 2026-10-08.
+
+The identity and scaffolding pass (2026-10-07) left `gallic.term.progress-vs-alteration` untouched. Its `plain_meaning` opens with a sentence that ends in Vincent's own question ("Vincent's answer to "Shall there be no progress in the Church?""), so `spoken_scaffolding.scaffolding_hits` still flags it and the `spoken-scaffolding/gallic` waiver in `engine/m1/cross_world.py` stays, re-owned to this entry. The same quotation does not match its source: Comm. 23 (file line 13802) reads "Shall there, then, be no progress in Christ's Church?". Both are for the record pass: correct the quotation against the vendored file, open the field with the answer, then remove the waiver.
+
+Status: OPEN.
