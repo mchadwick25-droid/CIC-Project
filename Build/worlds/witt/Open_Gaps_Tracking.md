@@ -2523,3 +2523,20 @@ Errors in the voice's replies in the named, capped live test "record pass stagin
 (15) (H) "What does justification mean?": "justification" and "faith" are used from this turn on and never get a lexicon mark (`witt.term.justification`, `witt.term.faith`), while the christ-alone mark in "Who is Jesus?" lands on the pronoun "him" (decision 60 (3): each world word marked on first use).
 
 Status: OPEN.
+
+## OG-64. Voice claim corrections after the record pass staging reading, 2026-10-09.
+
+Corrections to two items of "Voice errors found in the record pass staging reading, 9 October" (OG-63), kept apart from that entry, which is left as written. Review: `Build/Ministry/Operations/Audits/witt_voice_claim_corrections_review_2026-10-09.md` (Opus 5.5, one review).
+
+**Changed.**
+- `witt.core.witt` `thin_topics` (visitation topic) `note`: "those reports exist, and we have not read them" now reads "Those reports reached us only by name; none is in our hands." The old wording made the library's gap (the Saxon visitation protocols are not held in this library) the church's own claim not to have read its own visitations. The new wording matches the world's own `thinness`: the visitation "reached us only by reference, not in hand". Closes item (12) of the 9 October entry. The 1527 date stays: `witt.source.saxon-visitation-protocols` gives "(1527-28 ff.)", `witt.force.parishes-state-as-reported` and `witt.force.territorial-princely-force` say 1527-28, and `witt.limit.record-thinnest` and `witt.demo.record-thinnest` say "starting in 1527". The source is `named-not-rechecked` (Source Registry row 52) and no vendored text speaks to the date, so the date is carried at the source record's own Widely Accepted.
+- `witt.story.speratus-hymn-under-the-window` `tellable_as`: "though no vendored source says exactly when, or names the singer, or confirms the scene ever happened at all" now reads as three short sentences: "We have no word of when it happened. We do not know who the singer was. We cannot say the scene ever happened at all." Same meaning, in the world's own terms, and split to stay under the readability ceiling. Closes item (10) of the 9 October entry.
+- Same record, `text`: "What the vendored text does not do" now reads "What the account does not do"; "The story this library can honestly tell" now reads "The story we can honestly tell". Both are speakable and carried the same build vocabulary.
+
+**Not changed.** Build vocabulary stays in fields the compiler does not speak (`divergence_note`, `absent_detail`, `use_note`, `not_for`, `locus`, `prefer_instead`, record bodies), by `engine/m1/spoken_fields.py`. Other speakable fields that say "this library" (several `force.description` and `gravity.description` records, `witt.story.household-catechism-lesson-typical-practice`, `witt.story.first-german-mass-sung`, `witt.figure.speratus` names, others) were not part of items (10) or (12) and are left for the build thread. `witt.limit.record-thinnest` `statement` and `witt.demo.record-thinnest` say "Those reports exist. We do not hold them", which is the world's own wording and was not the source of the error. No `modern_rendering` was edited; none carries the phrase.
+
+**Gates.** `engine.m10.cli records witt` and `regate witt --base origin/main`: pass. Package rebuilt after the record edits: `records/worlds/witt.yaml` pins `packages/witt/2026-10-08T23-42-04Z`, `manifest_hash` `sha256:64f820e2176e2227cccb8149d068a8f7a470d0a785ff1279ffd2a2f67d3f961b`.
+
+The edits cut the witt readability findings from 188 to 186, so the `m1:readability/witt` waiver in `engine/m9/enforce.py` is tightened from 188 to 186 (its only change).
+
+Status: CLOSED for items (10) and (12) of the 9 October entry. The other items of that entry remain OPEN.
