@@ -1703,3 +1703,31 @@ def test_a_safety_call_that_fails_for_another_reason_leaves_attachment_running(m
         anthropic.APIConnectionError(request=httpx.Request("POST", "https://x")), monkeypatch)
     assert gate_run.safety_outcome.failed and not gate_run.safety_outcome.rate_limited
     assert not cooling
+
+
+def test_every_one_to_one_usage_record_carries_the_sessions_world():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="s-world", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="who was Jesus", pressed={}, anachronistic_term_ids=set())
+    assert {r.call_kind for r in result.usage_records} == {"safety_call", "reader_call", "voice_generation"}
+    assert all(r.world_key == "fix" for r in result.usage_records)
+
+
+def test_a_one_to_one_crisis_turns_gate_calls_carry_the_world_too():
+    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS"), reader_response=_reader(), stream_chunks=["I hear you."])
+    result = run_turn(session_id="s-crisis", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="I don't want to be here anymore.", pressed={}, anachronistic_term_ids=set())
+    assert {r.call_kind for r in result.usage_records} == {"safety_call", "reader_call"}
+    assert all(r.world_key == "fix" for r in result.usage_records)
+
+
+def test_a_gate_run_records_no_world_unless_it_is_given_one():
+    """The Table's gate call serves several worlds, so it passes none."""
+    def gate(**extra):
+        client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=[])
+        return run_gate(session_id="s", safety_client=client, safety_model_id="m", participant_message="who was Jesus", pressed={}, anachronistic_term_ids=set(), **extra)
+
+    assert [r.world_key for r in gate().usage_records] == [None, None]
+    assert [r.world_key for r in gate(world_key="fix").usage_records] == ["fix", "fix"]

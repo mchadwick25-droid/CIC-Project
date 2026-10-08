@@ -121,9 +121,12 @@ def run_gate(
     pressed: dict,
     anachronistic_term_ids: set,
     track_b_accumulator: dict | None = None,
+    world_key: str | None = None,
 ) -> GateRun:
     """The gate half of run_turn, verbatim - see run_turn's docstring for
-    the semantics of each input. The sealed safety call still gets an empty
+    the semantics of each input. world_key tags the two gate calls' usage
+    records: the one-to-one interview passes its world; the Table passes
+    None, since one gate call there serves several worlds. The sealed safety call still gets an empty
     window and an empty accumulator (the RECORDED, NOT CONSULTED discipline;
     engine.m5.safety_accumulation's own module docstring)."""
     usage_records: list[UsageRecord] = []
@@ -145,9 +148,9 @@ def run_gate(
     if safety_outcome.rate_limited or reader_outcome.rate_limited:
         citation_attach.start_cooldown()
 
-    if rec := _maybe_record_usage(safety_outcome, session_id=session_id, call_kind="safety_call", model_id=safety_model_id):
+    if rec := _maybe_record_usage(safety_outcome, session_id=session_id, call_kind="safety_call", model_id=safety_model_id, world_key=world_key):
         usage_records.append(rec)
-    if rec := _maybe_record_usage(reader_outcome, session_id=session_id, call_kind="reader_call", model_id=safety_model_id):
+    if rec := _maybe_record_usage(reader_outcome, session_id=session_id, call_kind="reader_call", model_id=safety_model_id, world_key=world_key):
         usage_records.append(rec)
 
     # The modern terms in play, settled once so routing and the bridge read
@@ -1273,6 +1276,7 @@ def run_turn(
         pressed=pressed,
         anachronistic_term_ids=anachronistic_term_ids,
         track_b_accumulator=track_b_accumulator,
+        world_key=world.world_key,
     )
     usage_records = list(gate_run.usage_records)
     safety_outcome = gate_run.safety_outcome
@@ -1384,6 +1388,7 @@ def run_turn(
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
             self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
             citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
+            usage_world_key=world.world_key,
         )
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
@@ -1414,6 +1419,7 @@ def run_turn(
             self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
             on_sentence=on_sentence,
             citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
+            usage_world_key=world.world_key,
         )
         return TurnResult(
             routing_action=action,
