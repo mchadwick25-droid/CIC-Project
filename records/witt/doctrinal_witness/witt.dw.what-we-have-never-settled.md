@@ -96,6 +96,6 @@ use_note:
   years: {from: 1517, to: 1543}
   status: reviewed
 ---
-Sources: witt.contested.household-catechism-reception, witt.contested.justification-accounted-and-made, witt.contested.two-governments-historical-scope, witt.contested.theses-door-posting, and witt.core.witt's thinness and cautions fields. Cited term, story and force records were not re-read for this record.
+Sources: witt.contested.household-catechism-reception, witt.contested.justification-accounted-and-made, witt.contested.two-governments-historical-scope, witt.contested.theses-door-posting, and witt.core.witt's thinness and cautions fields. Cited contested-claim and world-core records were not re-read for this record.
 
 The 1525 and 1543 writings are named at existence only. The record cannot say more of either text.

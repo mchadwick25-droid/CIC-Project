@@ -38,7 +38,7 @@ retrieval:
   prefer_instead:
   - "participant wants an argued, technical defense of the Trinity as a formula -- our library holds no such argument, only the creed's own confession"
 text: >-
-  Every household under our own catechism confessed each week that Jesus is God, in the same words. I believe that Jesus Christ is
+  Every household under our own catechism confessed each week that Jesus is God, in the same words. Each one said: I believe that Jesus Christ is
   truly God, born of the Father in eternity, and also truly man, born
   of the Virgin Mary. Not one or the other. Both, in the same
   sentence, said by the same mouth. We do not argue this out for you

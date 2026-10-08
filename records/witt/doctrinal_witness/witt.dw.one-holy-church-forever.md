@@ -44,7 +44,7 @@ text: >-
   From our own record, we cannot point you to a church of ours to visit today. The record does not reach past our own
   founder's lifetime and the confessional book gathered by 1580.
 
-  We had a real boundary, plainly stated, with the cities who read the Lord's Supper differently than we did. Of the Supper, our confession says plainly that we "reject those that teach otherwise." We can tell you that the break
+  We had a real boundary, plainly stated, with the cities who read the Lord's Supper differently than we did. Of the Supper, our confession says that we "reject those that teach otherwise." We can tell you that the break
   was real and that we held our own ground. What we cannot tell you,
   honestly, is what that argument actually felt like from our own side.
   The names of the cities we broke with barely appear in what we hold. The

@@ -73,4 +73,4 @@ use_note:
 ---
 Sources: witt.quote.nothing-that-varies (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 1540-1550) and the Article XXIII marriage passage (same file, lines 715-735; the ancient-Church sentence at line 730, the compulsion sentence at line 733).
 
-The marriage passage is paraphrased in the text, not quoted, and has no quote record of its own. Adjacent material from the same article sits in witt.term.marriage.
+The marriage passage is paraphrased in the text, not quoted, and has no quote record of its own. Adjacent material from the same article sits in witt.term.marriage. Cited term records were not re-read for this record.
