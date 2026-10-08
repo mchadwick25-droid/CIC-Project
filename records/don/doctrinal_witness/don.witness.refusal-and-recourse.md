@@ -20,7 +20,10 @@ confidence:
     own divergence_note.
 sources:
 - source_id: don.source.optatus-against-donatists
-  locus: Book III, line 1904, Donatus's own reported retort ('Quid est imperatori cum ecclesia?')
+  locus: Book III, line 1904 of cic/texts/optatus_against-the-donatists.txt (the English translation), Donatus's own reported retort ('What has the Emperor to do with the Church?')
+  license: public-domain
+- source_id: don.source.ziwsa-critical-edition-optatus
+  locus: Book III, line 6557 of cic/texts/optatus_libri-vii-critical_ziwsa1893.txt (the Latin original, corrupted by OCR at this line), the retort 'Quid est imperatori cum ecclesia?'
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
   locus: Anulinus's own relatio, the 313 petition to Constantine
