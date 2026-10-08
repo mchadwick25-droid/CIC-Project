@@ -659,3 +659,31 @@ Gates: `records desert` PASS; `regate desert --base origin/main` PASS (all liste
 Package: `packages/desert/2026-10-07T00-06-59Z`, pinned in `records/worlds/desert.yaml`.
 
 Status: the records were cleared at round 3 (Opus, `Build/Ministry/Operations/Audits/desert_identity_scaffolding_review_round3_2026-10-07.md`). OPEN: whether the oblique shape also covers `desert.dw.god` and `desert.dw.the-heart-and-the-spirit` is with the project lead.
+
+### OG-23. Voice errors found in the record pass staging reading, 9 October.
+
+Errors in the voice's replies in the named, capped live test "record pass staging reading, 9 October" (decision 56): six questions put to this world's Representative in one conversation on main at 691d2daa, after the identity-first, no-scaffolding record pass. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-desert-2026-10-09-record-pass-staging-reading.json`. Not fixed; content for this world's build thread. Items use the five defect classes of the voice-errors entry of 2026-10-07: (A) altered words inside quote marks or in a line given as a figure's own words; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) record text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record; and three more: (F) a question opener or stage direction; (G) the voice outside its own years or outside the we-voice; (H) rhythm against decision 60 (quote or name pacing, a quote or story repeated rather than referred back to, a lexicon mark repeated). A class not listed did not occur in this world. In this run 1 sentence(s) the grounding net marked "withhold" still reached the reply text: `grounding_net.shown_text` takes the quotation marks off but keeps the sentence, and `sentence_enforce` is off. Decision 59(1) says such a sentence is withheld. This is a fleet-level engine finding, raised with the project lead, not a record defect of this world.
+
+(1) (D) "Who is Jesus?": after a new opening sentence, the reply is `desert.dw.jesus` near word for word, reordered ("That is the reason we gave for why he came at all"; "The same fight had moved inward, against our own thoughts rather than against the sword"; "And the enemy we fought there was one Christ had already beaten"), so the 7 October item persists in reordered form.
+
+(2) (E) "What did he do?": "We said it to the devil's own face: your coming, Christ, has made you weak, cast you down, and stripped you" makes the coming the devil's own, with Christ addressed in the middle of a speech to the devil, where `desert.quote.the-coming-of-christ-made-thee-weak` reads "For the coming of Christ has made you weak" (the same wording stood in the 7 October replies to questions 2 and 4).
+
+(3) (E) "What does hesychia mean?": "One current among us spoke of what that stillness could become, for a few: the soul ... becomes all light, all face, all eye" still ties the Macarian quote `desert.quote.the-soul-becomes-all-eye` to hesychia; no record links that current to hesychia, and `desert.dw.the-heart-and-the-spirit` (tensions) sets its felt filling against the stilling (7 October item 2, narrowed but not gone).
+
+(4) (G) "What does hesychia mean?": "It is not relaxation or relief from stress" puts the etic false-friend note of `desert.term.hesychia` (translational sense: "Not mindfulness, not stress relief") in the Representative's own mouth, a modern frame outside the world's years (writing standard: inside its own years).
+
+(5) (E) "Why did your people believe this?": "Another current among us held the same thing in different words: a person striving to be God's friend will truly see the good things of heaven" merges the Macarian current with the Evagrian one, where `desert.dw.the-heart-and-the-spirit` says "this current and the Evagrian one are not one teaching" and its use_note rules out "a single desert teaching harmonized with Evagrius".
+
+(6) (E) "Tell me about someone who lived this out": "Moses had learned to see his own thoughts first, before he would weigh another man's" (cited to `desert.term.nepsis`) and "That is what Moses had become" (no tag; the net marked it withhold) have no record behind them, and `desert.story.moses-leaking-jug` has Moses say the opposite: "my own sins run out behind me ... and I do not see them".
+
+(7) (D) "What would you want me to understand that I haven't asked?": the reply is `desert.dw.the-heart-and-the-spirit` near word for word ("One current had the mind clear itself until it saw its own proper radiance"; "And it was honest about what that does not fix"; "He goes where his mind aims, and where his love is").
+
+(8) (H) "What would you want me to understand that I haven't asked?": "the soul in communion with the Spirit of his light becomes all light, all face, all eye" (`desert.quote.the-soul-becomes-all-eye`, voiced in full in round 3) and "the Spirit makes himself, for worthy souls, their rest, their joy, their delight" (`desert.quote.in-real-experience-and-feeling`, round 4) are voiced again in full instead of referred back (decision 60 (1), no line voiced twice; refinement of 7 October (2), refer back rather than repeat).
+
+(9) (H) "Why did your people believe this?": "The old oracles stopped speaking, death stopped being the threat it was, and the knowledge of God spread" is the third full telling of the `desert.quote.when-the-cross-of-christ-arose` material after rounds 1 and 2, repeated rather than referred back (decision 60, refinement of 7 October (2)).
+
+(10) (H) "Why did your people believe this?" and "Tell me about someone who lived this out": quote records are voiced in all six rounds, two each in round 4 (`desert.quote.the-kingdom-is-apatheia`, `desert.quote.in-real-experience-and-feeling`) and round 5 (`desert.quote.moses-sins-run-out`, `desert.quote.arch-drawn-from-the-centre`), against one voiced quote every three rounds (decision 60 (1)).
+
+(11) (H) "What would you want me to understand that I haven't asked?": "That was Evagrius" brings in a new named figure one round after Moses was brought in by name in round 5, against at most one new figure every three rounds (decision 60 (2)).
+
+Status: OPEN.

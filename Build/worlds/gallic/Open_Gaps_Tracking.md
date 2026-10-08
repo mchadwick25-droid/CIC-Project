@@ -768,3 +768,39 @@ Closes "Spoken text opens on a question after the record pass, 2026-10-08". `sca
 **Gates.** `engine.m10.cli records gallic` and `regate gallic --base origin/main`: pass. Package rebuilt after the record edit: `records/worlds/gallic.yaml` pins `packages/gallic/2026-10-08T16-43-02Z`, `manifest_hash` `sha256:8a3325814e38fba046b8161f36d838f294753286db1d63faa3bb6f671674fa92`.
 
 Status: CLOSED.
+
+### OG-31. Voice errors found in the record pass staging reading, 9 October.
+
+Errors in the voice's replies in the named, capped live test "record pass staging reading, 9 October" (decision 56): six questions put to this world's Representative in one conversation on main at 691d2daa, after the identity-first, no-scaffolding record pass. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-gallic-2026-10-09-record-pass-staging-reading.json`. Not fixed; content for this world's build thread. Items use the five defect classes of the voice-errors entry of 2026-10-07: (A) altered words inside quote marks or in a line given as a figure's own words; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) record text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record; and three more: (F) a question opener or stage direction; (G) the voice outside its own years or outside the we-voice; (H) rhythm against decision 60 (quote or name pacing, a quote or story repeated rather than referred back to, a lexicon mark repeated). A class not listed did not occur in this world. In this run 27 sentence(s) the grounding net marked "withhold" still reached the reply text: `grounding_net.shown_text` takes the quotation marks off but keeps the sentence, and `sentence_enforce` is off. Decision 59(1) says such a sentence is withheld. This is a fleet-level engine finding, raised with the project lead, not a record defect of this world.
+
+(1) (A) "Who is Jesus?": the closing block 'Cassian, Institutes V.26' gives 'When you have gone, I will be able to make up for this food I have taken by a stricter fast' and leaves out 'Charity is a command'. `gallic.quote.receiving-christ-in-you` renders it differently and places it at Institutes V.24.
+
+(2) (A) "Why did your people believe this?": the block 'Sulpitius Severus, Life of St. Martin III' changes the record's wording, for example 'his plain soldier's cloak' and 'Martin, still a catechumen, has covered me with this cloak'. `gallic.quote.the-cloak-divided-and-the-vision-of-christ` reads 'plain soldier's uniform' and 'Martin, who is still only a candidate for baptism, clothed me with this robe.'
+
+(3) (A) "Tell me about someone who lived this out.": the block 'Cassian, Institutes IV.30' blends the Paphnutius quote records and adds 'a book of the Gospels'. `gallic.quote.paphnutius-the-brother-hides-his-own-book` and its sibling records place the story at Conferences XVIII.15 and say only 'his own book'.
+
+(4) (A) "What would you want me to understand that I haven't asked?": the block 'Sulpitius Severus, Vita XX' adds sentences that appear in no record and not in Vita XX. One of them says apostolic authority would have been seen in Martin 'if the character and power of an Apostle had not been wanting in him'. `gallic.quote.apostolic-authority-in-martin-alone` carries only 'in Martin alone, apostolic authority continued to assert itself.'
+
+(5) (B) "What did he do?": the block 'Cassian, Institutes III.3' has no quote record behind it. It adds 'Peter went up to the higher parts of the house to pray' and 'he gave up his spirit', which Cassian's III.3 does not say. `gallic.dw.the-christ-who-bears-the-wounds` holds only paraphrase of the hours.
+
+(6) (B) "What does purity of heart mean?": the block 'Cassian, Conferences I.7' has no quote record behind it. Its farmer passage loosely renders Conferences I.2, a locus that `gallic.term.purity-of-heart` and `gallic.term.goal-and-end` cite only as phrases.
+
+(7) (D) "Who is Jesus?": the reply pastes `gallic.dw.the-christ-who-bears-the-wounds` near word for word, from 'At Tours this comes to us as a story. The devil came to Martin in his cell dressed in purple' through 'beside the Apostle's not I, but the grace of God with me'.
+
+(8) (D) "What did he do?": the reply pastes the hours and resurrection lines of `gallic.dw.the-christ-who-bears-the-wounds` near word for word, from 'Dead in the flesh, he was not dead in the spirit' through 'those who perish, perish against his will'.
+
+(9) (D) "Why did your people believe this?": the reply pastes `gallic.dw.christ-in-the-beggar-and-the-guest` ('Among the brethren at Marseilles the fathers of Egypt taught the same thing: an elder broke his fast ... He did not ask them what they were.') and `gallic.dw.the-christ-who-bears-the-wounds` ('what is done to the least of these is done to him - the words Sulpitius set beside the cloak').
+
+(10) (E) "Tell me about someone who lived this out.": 'raised in the desert from boyhood' and 'He asked the abbot for a plan of repentance' go beyond `gallic.story.paphnutius-and-the-hidden-book` and `gallic.quote.paphnutius-asks-for-a-plan-of-repentance`. Those records say he loved the desert and was grave even as a boy, and they name no abbot; the complaint went to the presbyter Isidore.
+
+(11) (E) "What would you want me to understand that I haven't asked?": 'The bishops who made him one had bowed to the emperor's court' is wrong. `gallic.gravity.authority-ambivalence` and `gallic.quote.apostolic-authority-in-martin-alone` set the bishops who resisted his election (Vita IX) apart from the bishops at Maximus's court (Vita XX).
+
+(12) (G) "What does purity of heart mean?": 'The whole southern formation program served it' speaks the analytic label of `gallic.gravity.interior-road`, not the world's own words.
+
+(13) (H) all six questions: every reply ends with a voiced quote block, six in six rounds, against decision 60 (1) 'one voiced quote every three rounds'.
+
+(14) (H) "Why did your people believe this?": the cloak story, Martin's answer to the devil in purple, and the elder's line 'receiving Christ in you I ought to refresh him' are all told again from turn 1, and the cloak is then voiced again as a block. Decision 60 (refinement, referring back) asks for a reference back, not a repeat.
+
+(15) (H) new names crowded: Martin and Cassian are both introduced in round 1, Sulpitius Severus in round 4, Paphnutius in round 5 and Vincent in round 6. Decision 60 (2) allows at most one new figure every three rounds.
+
+Status: OPEN.

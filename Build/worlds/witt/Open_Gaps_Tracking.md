@@ -2487,3 +2487,39 @@ Mark ruled on these in session (converged, auto mode, 2026-10-08). They are mean
 **Gates.** `engine.m10.cli records witt` and `regate witt --base origin/main`: pass. Package rebuilt after the record edits: `records/worlds/witt.yaml` pins `packages/witt/2026-10-08T19-54-22Z`, `manifest_hash` `sha256:8004238c53e09e763be3a28e1bde60d8eb951a0fc50214383b25153532e2943b`.
 
 Status: CLOSED, except the quote-record items above, which are OPEN.
+
+## OG-63. Voice errors found in the record pass staging reading, 9 October.
+
+Errors in the voice's replies in the named, capped live test "record pass staging reading, 9 October" (decision 56): six questions put to this world's Representative in one conversation on main at 691d2daa, after the identity-first, no-scaffolding record pass. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-witt-2026-10-09-record-pass-staging-reading.json`. Not fixed; content for this world's build thread. Items use the five defect classes of the voice-errors entry of 2026-10-07: (A) altered words inside quote marks or in a line given as a figure's own words; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) record text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record; and three more: (F) a question opener or stage direction; (G) the voice outside its own years or outside the we-voice; (H) rhythm against decision 60 (quote or name pacing, a quote or story repeated rather than referred back to, a lexicon mark repeated). A class not listed did not occur in this world. In this run 10 sentence(s) the grounding net marked "withhold" still reached the reply text: `grounding_net.shown_text` takes the quotation marks off but keeps the sentence, and `sentence_enforce` is off. Decision 59(1) says such a sentence is withheld. This is a fleet-level engine finding, raised with the project lead, not a record defect of this world.
+
+(1) (A) "Who is Jesus?": the block "Here is the Second Article as our households said it: And I believe in Jesus Christ, God's only Son... He descended into Hell... He is seated at the right hand of God, the Father Almighty" is offered as the households' own words, but it matches neither the text ("descended to Hell", "sat down at the right hand of God the Almighty Father") nor the modern_rendering ("He went down to the dead") of `witt.quote.second-article-of-the-creed`; it has no quotation marks, so decision 59 (1) never checked it.
+
+(2) (A) "What did he do?": the block introduced as "the Second Article's own explanation" reads "bought back and won me from all sins, from death, and from the power of the devil" and "serve Him in everlasting righteousness, innocence, and salvation", where `witt.quote.second-article-of-the-creed` has "bought and won me from all sins, death and the authority of the Devil" and "serve Him righteously, innocently and blessedly forever".
+
+(3) (B) "What does justification mean?": "Here is the article as our confession signed it before the Emperor" recites Augsburg Article IV whole, which no record of this world holds (only fragments in `witt.term.faith` and `witt.term.justification`), and alters it: "God counts this faith as righteousness in His sight" where the source and `witt.term.justification` have "This faith God imputes for righteousness in His sight".
+
+(4) (D) "Who is Jesus?" and "What did he do?": both reuse `witt.dw.truly-god-and-truly-man` near word for word ("He redeemed us, a lost and condemned people, and bought us back from sin, from death, and from the devil's own power"; "his own holy, precious blood, his own innocent body, his own death"; "no saint, no teacher, no priest"), and the second reply repeats the first reply's sentences.
+
+(5) (D) "What would you want me to understand that I haven't asked?": the first two paragraphs, from "In one parish he said flatly that a donkey could intone the lessons" to "only that he believed it and said so", are `witt.dw.cold-and-careless-among-us` near word for word.
+
+(6) (E) "What would you want me to understand that I haven't asked?": "our own founder said, more than once across a whole decade, that it did not work" — `witt.dw.cold-and-careless-among-us` says he said that hypocrisy and negligence "happened", and `witt.force.parishes-state-as-reported` bars using this testimony as evidence that the parishes failed.
+
+(7) (E) "Tell me about someone who lived this out": "That hymn carries exactly what we have been speaking of: that salvation comes not by merit or by works, but by grace, through faith" — `witt.story.speratus-hymn-under-the-window` and `witt.figure.speratus` hold only the hymn's title, none of its words.
+
+(8) (E) "Tell me about someone who lived this out": "the poor charity-scholars going door to door singing for their bread, until the day the first German Mass was sung" — `witt.story.first-german-mass-sung` ties "until the first German Mass was sung" to Walter's three-week stay, and records the scholars being set to sing Latin hymns as something remembered "besides the Mass itself".
+
+(9) (F) "Tell me about someone who lived this out": the reply opens "We hold one story that comes closest, though it is thin and we will not claim more for it than it can bear", which is framing, not the answer (writing standard: first sentence is the answer).
+
+(10) (G) "Tell me about someone who lived this out": "No vendored source says exactly when this happened" puts the library's build vocabulary in the world's mouth, out of its years.
+
+(11) (G) "What would you want me to understand that I haven't asked?": "Here is what I want you to understand" drops the we-voice for "I".
+
+(12) (G) "What would you want me to understand that I haven't asked?": "The Saxon church inspected its own parishes from 1527... those reports exist, and we have not read them" turns the library's gap (`witt.force.parishes-state-as-reported`: the 1527-28 visitation protocols are "not held in this library") into the world's own claim not to have read its own visitations.
+
+(13) (H) Turns 1-3: a quote is voiced in each of the first three rounds (the Second Article creed, its explanation, Article IV), and "He is my Lord! I am His very own" is voiced in both "Who is Jesus?" and "What did he do?" (decision 60 (1): one voiced quote every three rounds, no line voiced twice).
+
+(14) (H) Turns 4-6: a new figure arrives in three straight rounds (John and Henry, then Speratus and Johann Walter together, then Katharina), and Katharina gets no bridge mark though `witt.figure.katharina-von-bora` exists (decision 60 (2): at most one new figure every three rounds, bridge mark on first introduction).
+
+(15) (H) "What does justification mean?": "justification" and "faith" are used from this turn on and never get a lexicon mark (`witt.term.justification`, `witt.term.faith`), while the christ-alone mark in "Who is Jesus?" lands on the pronoun "him" (decision 60 (3): each world word marked on first use).
+
+Status: OPEN.
