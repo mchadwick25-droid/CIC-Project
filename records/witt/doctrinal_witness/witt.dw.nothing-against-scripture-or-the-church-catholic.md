@@ -35,8 +35,7 @@ retrieval:
   prefer_instead:
   - "participant wants an argument built on unbroken ordination back to the apostles -- our own claim is doctrinal continuity with Scripture and the ancient Church, not a chain of ordination"
 text: >-
-  We do not argue that our practices go back to the apostles the way you
-  might expect. We do not trace an unbroken chain of ordination, hand laid
+  We hold that our practices are not later inventions, but we do not argue it the way you might expect. We do not trace an unbroken chain of ordination, hand laid
   on hand, back to the apostles themselves. Our own claim is different and
   narrower. In what we teach and how we worship, nothing has been received
   on our part against Scripture or against the ancient, universal Church.

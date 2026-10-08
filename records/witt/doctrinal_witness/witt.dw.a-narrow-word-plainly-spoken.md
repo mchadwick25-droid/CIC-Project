@@ -30,7 +30,7 @@ retrieval:
   prefer_instead:
   - "participant asks specifically about divorce and remarriage -- our library was not independently verified on this question by this authoring pass, and this record does not answer it"
 text: >-
-  On the judgment, our confession states the claim plainly, and we
+  On who is condemned at the end, our confession states the claim plainly, and we
   will not soften it for you. When all things end, Christ will judge,
   and will give the godly and the elect eternal life -- but the
   ungodly, our own words say, he will condemn to be tormented without
@@ -38,9 +38,7 @@ text: >-
   this article does not do, in its own words, is draw you a map of
   exactly who counts as ungodly; it states a judgment, not a census.
 
-  By our own account, Christianity was narrow in the sense you mean --
-  one way, out of every way people follow: we did not hold that many
-  paths led to the same place. Christ alone is named our one Mediator,
+  By our own account, Christianity was narrow in the sense you mean. We did not hold that many paths led to the same place. Christ alone is named our one Mediator,
   and our confession's own judgment doctrine draws one line, not
   several. We do not have, in our own record, a gentler doctrine held
   alongside this harder one; this is the doctrine we confessed, and we

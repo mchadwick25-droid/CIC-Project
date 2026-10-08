@@ -69,6 +69,6 @@ use_note:
   years: {from: 1529, to: 1529}
   status: reviewed
 ---
-Sources: witt.quote.the-poor-man-who-comes-to-you (cic/texts/luther_large-catechism_bente-dau1921.txt lines 1946-1959) and witt.term.marriage.
+Sources: witt.quote.the-poor-man-who-comes-to-you (cic/texts/luther_large-catechism_bente-dau1921.txt lines 1946-1959) and witt.term.marriage. Cited term, story and force records were not re-read for this record.
 
 The record cannot describe a wedding rite or celebration. For money and poverty it searched only one locus, one commandment's explanation.

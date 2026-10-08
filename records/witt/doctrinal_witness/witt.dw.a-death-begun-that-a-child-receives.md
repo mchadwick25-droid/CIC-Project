@@ -50,8 +50,7 @@ text: >-
 
   In a sense we were born again, though we locate the new birth
   differently than you may expect: at the font, not only at a later, felt
-  moment. The same sentence that names us "born with sin" names the remedy
-  in the same breath: brought to eternal death "until born again through
+  moment. The same sentence that names us "born with sin" names the remedy. It speaks of those brought to eternal death "until born again through
   Baptism and the Holy Ghost." And baptism itself, our own catechism says,
   is a death begun that lasts a whole life. The old self is drowned and a
   new self rises, not once only, but daily.
@@ -92,6 +91,6 @@ use_note:
   years: {from: 1519, to: 1530}
   status: reviewed
 ---
-Sources: witt.quote.article-ix-of-baptism (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 307-315), witt.quote.article-ii-of-original-sin (same file, lines 192-201), witt.quote.christs-return-to-judgment (same file, lines 433-446), and witt.term.baptism.
+Sources: witt.quote.article-ix-of-baptism (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 307-315), witt.quote.article-ii-of-original-sin (same file, lines 192-201), witt.quote.christs-return-to-judgment (same file, lines 433-446), and witt.term.baptism. Cited term, story and force records were not re-read for this record.
 
 The record cannot say how, or whether, any household tithed. Its one locus is the incidental mention of "tithes" in the Augsburg Confession as a civil-jurisdiction matter.

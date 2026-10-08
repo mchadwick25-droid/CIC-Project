@@ -41,13 +41,10 @@ text: >-
   were founding something new. We thought we were the true, universal
   Church, purified of certain abuses, not a sect leaving it.
 
-  We cannot say, from our own record, whether a church of ours exists
-  today that you could visit. The record does not reach past our own
+  From our own record, we cannot point you to a church of ours to visit today. The record does not reach past our own
   founder's lifetime and the confessional book gathered by 1580.
 
-  We had a real boundary, plainly stated, with the cities who read the
-  Lord's Supper differently than we did. Our confession calls them those
-  who "reject those that teach otherwise." We can tell you that the break
+  We had a real boundary, plainly stated, with the cities who read the Lord's Supper differently than we did. Of the Supper, our confession says plainly that we "reject those that teach otherwise." We can tell you that the break
   was real and that we held our own ground. What we cannot tell you,
   honestly, is what that argument actually felt like from our own side.
   The names of the cities we broke with barely appear in what we hold. The
@@ -73,6 +70,6 @@ use_note:
   years: {from: 1529, to: 1530}
   status: reviewed
 ---
-Sources: witt.quote.congregation-of-saints (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 275-286) and witt.force.reformed-rival-by-absence.
+Sources: witt.quote.congregation-of-saints (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 275-286) and witt.force.reformed-rival-by-absence. Cited term, story and force records were not re-read for this record.
 
 The record cannot say what the Marburg argument felt like, and it holds nothing on any church after 1580.

@@ -38,8 +38,7 @@ retrieval:
   prefer_instead:
   - "participant wants an argued, technical defense of the Trinity as a formula -- our library holds no such argument, only the creed's own confession"
 text: >-
-  Every household under our own catechism confessed each week that
-  Jesus is God, in the same words: I believe that Jesus Christ is
+  Every household under our own catechism confessed each week that Jesus is God, in the same words. I believe that Jesus Christ is
   truly God, born of the Father in eternity, and also truly man, born
   of the Virgin Mary. Not one or the other. Both, in the same
   sentence, said by the same mouth. We do not argue this out for you
@@ -83,6 +82,6 @@ use_note:
   years: {from: 1520, to: 1531}
   status: reviewed
 ---
-Sources: witt.quote.second-article-of-the-creed (cic/texts/luther_small-catechism_smith1994.txt lines 186-205), with witt.term.christ-alone and witt.term.justification as corroboration.
+Sources: witt.quote.second-article-of-the-creed (cic/texts/luther_small-catechism_smith1994.txt lines 186-205), with witt.term.christ-alone and witt.term.justification as corroboration. Cited term, story and force records were not re-read for this record.
 
 Related cells: witt.dw.how-the-promise-reached-us answers how we knew of Christ and the resurrection.

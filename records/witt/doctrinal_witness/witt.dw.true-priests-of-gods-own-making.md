@@ -36,12 +36,10 @@ retrieval:
   prefer_instead:
   - "participant wants the martyrs' own reported last words treated as verified reportage rather than a ballad's own commemorative voice"
 text: >-
-  We must be honest about the clearest outside account we have of how
-  our people worshipped: we do not have one, independently in our own
-  hand. What comes closest is Rome's own reply to our confession, and
+  We have no outside account of how our people worshipped, not independently in our own hand. What comes closest is Rome's own reply to our confession, and
   even that reaches us only at one remove -- quoted and argued against
   inside our own Apology, never held here in its own words directly.
-  We cannot give you an outsider's own account of our worship.
+  We cannot give you an outsider's own account of our worship in that outsider's own words.
 
   We do not have a whole cult of martyrdom. So we cannot answer
   broadly whether wanting to die as a martyr, and calling it
@@ -77,6 +75,6 @@ use_note:
   years: {from: 1523, to: 1531}
   status: reviewed
 ---
-Sources: witt.story.brussels-martyrs, witt.term.martyr, and witt.source.roman-confutation-of-the-augsburg-confession (available only at one remove, through our Apology).
+Sources: witt.story.brussels-martyrs, witt.term.martyr, and witt.source.roman-confutation-of-the-augsburg-confession (available only at one remove, through our Apology). Cited term, story and force records were not re-read for this record.
 
 A related demonstration turn on the same cell is witt.demo.true-priests-by-no-ordination.

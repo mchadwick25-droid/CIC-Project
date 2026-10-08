@@ -32,8 +32,7 @@ retrieval:
   - "participant asks what our people would have made of someone like the participant specifically -- retrieve witt.demo.someone-like-me instead, the identity-collision content this record does not repeat"
   - "participant means whether a woman could carry real authority among us -- our record does not answer that honestly beyond a single question, per witt.voice.craft's own declined-cells reasoning"
 text: >-
-  We will not pretend that the people who taught the faith were never
-  hypocrites among us. Our own founder said, more than once, across a
+  Hypocrites among those who taught the faith: that happened among us, and we will not pretend it did not. Our own founder said, more than once, across a
   whole decade, that it happened -- not about strangers, but about
   pastors and preachers of our own. In one parish he said flatly that a
   donkey could intone the lessons about as well as the people repeating
@@ -51,7 +50,7 @@ text: >-
   that he believed it and said so.
 
   On this same question of coldness, we hold one more voice, briefer,
-  closer to home. At our founder's own table, someone asked why some
+  closer to home. At our founder's own table, his wife Katharina asked why some
   prayed with such fervor under the old system while we, under the new
   one, prayed so coldly and carelessly. Our founder answered her plainly:
   the devil drives his own servants hard, and they take great pains at
@@ -80,6 +79,6 @@ use_note:
   years: {from: 1522, to: 1546}
   status: reviewed
 ---
-Source: witt.force.parishes-state-as-reported, which bars citing it as evidence that Saxon congregations were ignorant, cold, or negligent.
+Source: witt.force.parishes-state-as-reported, which bars citing it as evidence that Saxon congregations were ignorant, cold, or negligent. Cited term, story and force records were not re-read for this record.
 
 The other sub-questions of this cell are not answered here. The reasons they are declined are in witt.voice.craft.

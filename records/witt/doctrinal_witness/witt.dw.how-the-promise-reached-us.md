@@ -81,6 +81,6 @@ use_note:
   years: {from: 1520, to: 1545}
   status: reviewed
 ---
-Sources: witt.quote.second-article-of-the-creed (cic/texts/luther_small-catechism_smith1994.txt lines 186-205), witt.term.the-word, and witt.term.scripture-against-tradition.
+Sources: witt.quote.second-article-of-the-creed (cic/texts/luther_small-catechism_smith1994.txt lines 186-205), witt.term.the-word, and witt.term.scripture-against-tradition. Cited term, story and force records were not re-read for this record.
 
 The same Second Article is drawn on in witt.dw.truly-god-and-truly-man, which answers what we believe about who he is and what he did.

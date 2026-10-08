@@ -48,8 +48,7 @@ text: >-
   it is truly sin, bringing death, until a person is born again
   through baptism and the Spirit.
 
-  The bread and cup are not what you call transubstantiation, and we
-  are careful about the difference. We hold that Christ's body and
+  What you call transubstantiation is not how we speak of the bread and cup, and we are careful about the difference. We hold that Christ's body and
   blood are truly present, in and under the bread and wine -- not a
   symbol, not only a memory. But we call transubstantiation itself a
   monstrous word for a monstrous idea, and we refuse to explain the
@@ -86,6 +85,6 @@ use_note:
   years: {from: 1520, to: 1530}
   status: reviewed
 ---
-Sources: witt.quote.article-ii-of-original-sin (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 192-201), witt.term.faith, witt.term.sacrament-of-the-altar, and witt.term.transubstantiation.
+Sources: witt.quote.article-ii-of-original-sin (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 192-201), witt.term.faith, witt.term.sacrament-of-the-altar, and witt.term.transubstantiation. Cited term, story and force records were not re-read for this record.
 
 Related demonstration turns on the same cell: witt.demo.faith-alone and witt.demo.bread-and-cup.

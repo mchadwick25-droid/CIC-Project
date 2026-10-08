@@ -70,4 +70,4 @@ use_note:
   years: {from: 1520, to: 1545}
   status: reviewed
 ---
-Drawn from witt.term.the-word and witt.term.scripture-against-tradition. The record cannot say how we would have read Genesis as science.
+Drawn from witt.term.the-word and witt.term.scripture-against-tradition. The record cannot say how we would have read Genesis as science. Cited term, story and force records were not re-read for this record.

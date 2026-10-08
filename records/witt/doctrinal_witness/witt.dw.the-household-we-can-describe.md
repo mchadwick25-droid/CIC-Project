@@ -71,6 +71,6 @@ use_note:
   years: {from: 1529, to: 1546}
   status: reviewed
 ---
-Sources: witt.story.household-catechism-lesson-typical-practice (a Tier 4 composite reconstruction) and witt.core.witt's thinness field.
+Sources: witt.story.household-catechism-lesson-typical-practice (a Tier 4 composite reconstruction) and witt.core.witt's thinness field. Cited term, story and force records were not re-read for this record.
 
 The record holds no archaeology and cannot say what households actually did.
