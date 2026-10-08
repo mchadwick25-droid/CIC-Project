@@ -2466,6 +2466,6 @@ Where a removed question carried the subject, the subject is restated and no cla
 
 **Outside the pass, not edited.** Demonstration records, honest limits and quote records still carry second-person or question forms; questions left in story text are quoted source speech (Cajetan, Katharina, Luther's prayers, `return-and-the-eight-sermons`). `witt.term.christ-alone` "We do not listen to saints" is content, not a direction.
 
-**Gates.** `engine.m10.cli records witt`: pass. `regate witt --base origin/main`: pass. The readability waiver `m1:readability/witt` in `engine/m9/enforce.py` is tightened from 194 to 188. Package rebuilt after the last record edit: `records/worlds/witt.yaml` pins `packages/witt/2026-10-08T14-49-50Z`, `manifest_hash` `sha256:fa31a02a374cd59403f40efbb56865725f462d75f9444fbe4b938403930fbb24`. Staleness check: no world stale.
+**Gates.** `engine.m10.cli records witt`: pass. `regate witt --base origin/main`: pass. The readability waiver `m1:readability/witt` in `engine/m9/enforce.py` is tightened from 194 to 188. Package rebuilt after the last record edit: `records/worlds/witt.yaml` pins `packages/witt/2026-10-08T15-21-34Z`, `manifest_hash` `sha256:788a5fa5a9bdab9b3f91d70287479714ecbd7ae70e49b4b65e96a740277ad49d`. Staleness check: no world stale.
 
 Status: CLOSED for the scaffolding pass; the carried defects above stay OPEN.
