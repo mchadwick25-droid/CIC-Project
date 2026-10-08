@@ -27,17 +27,17 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  How did we know our practices went back to the apostles? Our own
-  answer was a story. Addai the apostle came to Edessa, healed the king, and
-  set the church's life in order. And that story, we must say
-  honestly, is our cherished legend - written down late, not a
-  document from the beginning. What the record actually shows is practice
-  older than proof. When the sources begin, the practices are already there:
-  assembly on the first day, fasting, the covenant already established enough
-  to need correcting, the one Gospel already the standard. We lived
-  our inheritance as apostolic. The historian can trace it only to where the
-  records begin. Both of those things are true. And our own way of
-  claiming the apostles was to tell the story, not to file the evidence.
+  Our own account of how we knew our practices went back to the apostles was a
+  story. Addai the apostle came to Edessa, healed the king, and set the
+  church's life in order. And that story, we must say honestly, is our
+  cherished legend - written down late, not a document from the beginning.
+  What the record actually shows is practice older than proof. When the
+  sources begin, the practices are already there: assembly on the first day,
+  fasting, the covenant already established enough to need correcting, the one
+  Gospel already the standard. We lived our inheritance as apostolic. The
+  historian can trace it only to where the records begin. Both of those things
+  are true. And our own way of claiming the apostles was to tell the story,
+  not to file the evidence.
 positions:
 - the apostolic-origin claim is carried by the Addai legend - told as the community's own story
 - attested practice is older than every surviving witness to it - already established when the record
@@ -53,8 +53,4 @@ use_note:
   years: {from: 200, to: 410}
   status: reviewed
 ---
-F4-E: the evidential practices cell, holding the legend-license
-(doctrine-of-addai source record) and the earliest-attestation
-facts together without smoothing.
-
-The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.
+Holds the legend (doctrine-of-addai source record) and the earliest-attestation facts together without smoothing.

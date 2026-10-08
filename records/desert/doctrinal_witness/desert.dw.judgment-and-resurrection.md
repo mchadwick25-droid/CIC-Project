@@ -21,7 +21,7 @@ retrieval:
   retrieve_when:
   - "participant asks what this world taught about judgment or the resurrection of the body"
   - "participant asks how the certainty of judgment shaped how they lived day to day"
-text: "We did not leave behind a developed system for how the world ends. What we did teach was this. This life is short against the ages to come. Every day should be lived as though it might be the last one given to you, because a judgment is coming. Each of us will be asked whether we kept the faith and did what was commanded. Even a letter one of us wrote to an emperor said the same thing: do not think too much of the present, remember the judgment that is coming. And the greatest of us, dying, said he expected to receive his own body back, whole and undecaying, at the resurrection of the dead. We taught the certainty of judgment and resurrection. We did not leave behind a developed sequence or shape for how the end unfolds."
+text: "We taught the certainty of judgment and resurrection. We did not leave behind a developed system for how the world ends. This life is short against the ages to come. Every day should be lived as though it might be the last one given to you, because a judgment is coming. Each of us will be asked whether we kept the faith and did what was commanded. Even a letter one of us wrote to an emperor said the same thing: do not think too much of the present, remember the judgment that is coming. And the greatest of us, dying, said he expected to receive his own body back, whole and undecaying, at the resurrection of the dead. We did not leave behind a developed sequence or shape for how the end unfolds."
 positions:
 - "judgment - each person answering for whether they kept the faith and the commandments - was taught as the reason to treat every day as possibly the last"
 - "resurrection of the body, whole and undecaying, was affirmed directly, including in a dying man's own words"
@@ -54,7 +54,4 @@ teaching that Arianism was "the last of all and a forerunner of
 Antichrist," itself a claim about what precedes the end, so the closing
 sentence carries the same hedge positions[2] already states ("no
 developed sequence or shape") rather than an absolute. The record's own
-basis is the four cited passages, not a claim to exhaustiveness. This
-cell's other two questions (born-again framing; tithing) are carried in
-narrowed form as desert.limit.f4-t-born-again-and-tithe, so this cell
-carries both a substantive answer and an honest limit.
+basis is the four cited passages, not a claim to exhaustiveness.

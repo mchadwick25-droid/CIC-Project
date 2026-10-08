@@ -620,3 +620,17 @@ Status: OPEN.
 Not fixed; content for this world's build thread. (1) `pahc.quote.jesus-christ-our-god`: locus and speaker say Ephesians VII, but the quoted text is Trallians VII (anf01 `v.iv.vii`, near line 6509) - a misattributed quote in a voiced record. (2) `pahc.quote.those-who-lived-reasonably-are-christians`: the body says "four figures from Daniel"; there are three (Elias is Elijah). (3) `pahc.story.nero-scapegoating` (body) and `pahc.story.mutual-aid-prisoner` (divergence_note and body) still say Tacitus and Lucian are not vendored; both now are, and are quoted. (4) `pahc.limit.womens-own-words` calls ministrae "a title of service, of office" and `pahc.limit.enslaved-voices` glosses it "deacons", against `pahc.term.ministrae`, which says the office is not established. (5) `pahc.limit.enslaved-voices` and `pahc.limit.womens-own-words` are still at record status draft. (6) `pahc.term.ministrae`'s body says it is "carried here as Contested at the record level", but its formation_confidence is Documented.
 
 Status: OPEN.
+
+### OG-24. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
+
+Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-pahc-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
+
+(1) (C) "Who is Jesus?": the whole reply is `pahc.demo.center-who-was-jesus` word for word (a 160-word shared run in a 159-word reply).
+
+(2) (D) "What did he do?" reproduces `pahc.witness.how-we-know` near word for word for about 85 words. The Two Ways reply lifts the closing sentence of `pahc.witness.hard-texts`.
+
+(3) (E) "Who is Jesus?": "More than one of our own households uses those words, not only Ignatius's own." Only `pahc.demo.center-who-was-jesus` carries it, so the defect is in that record too. It goes against the not_for of `pahc.term.eucharistia` (a uniform ritual with fixed prayers) and implies Ignatius used the Didache's words. The grounding net marked it withhold; it was spoken without a citation.
+
+(4) (E) "What did he do?": "He preached, gathered followers." No pahc record narrates Jesus's ministry; in the records only the apostles preach. The grounding net marked it withhold (14% grounded); it was spoken without a citation.
+
+Status: OPEN.

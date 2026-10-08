@@ -410,3 +410,52 @@ Status: OPEN.
 12 spoken field(s) across 12 record(s) in witness, term and story text have a first sentence that ends in a question mark, or carry "your second question", "start with the part", "you asked" or "as you asked". The voice answers in the kind the participant asked, so spoken text must start with the answer. Content for this world's record pass; the check is `spoken_scaffolding.scaffolding_hits`. Waived in `engine/m1/cross_world.py` as `spoken-scaffolding/alx` until the pass lands; the pass removes the waiver. First record: `alx.dw.apostolic`.
 
 Status: OPEN.
+
+### OG-18. Identity-and-scaffolding pass on alx witness text, 2026-10-06 — the record pass for "Spoken text opens on a question or carries a stage direction" (2026-10-06).
+Question-form openers and second-person stage directions removed from 12 doctrinal witnesses: `alx.dw.apostolic`, `alx.dw.church-failure`, `alx.dw.councils`, `alx.dw.doubt`, `alx.dw.empire`, `alx.dw.god`, `alx.dw.one-church`, `alx.dw.original-sin`, `alx.dw.record`, `alx.dw.resurrection`, `alx.dw.suffering`, `alx.dw.was-jesus-god`. `alx.dw.jesus` also changed (one sentence, below). Round 1 review (2026-10-06) is applied.
+
+New openers and what they state.
+- `alx.dw.councils`: "Who decided disputed belief changed across our own history: first the teachers, then the bishop, and at the end the council." Sourced to the record's own `positions[0]` (teacher's argument, bishop's judgment, council's ruling) and to the three phases the paragraph already tells. "Our best picture of deciding well" is the original wording. Two sentences were split for the readability floor ("Early on, teachers argued. They used books, lectures, and letters."; "The emperor called it. He backed it with force."), and "It was patient public argument, loving the man while honoring the truth more" became two sentences with the same content.
+- `alx.dw.empire`: "Constantine's empire did not simply corrupt us. We lived both sides of that change inside one lifetime, and what we saw was double." The name Constantine comes from the removed question and the record's `use_note`; "both sides within living memory" is the record's own description. The paragraph's close ("The record does not show purity corrupted") is the old wording. To hold the readability floor, "a tool of order on an empire's scale" became "a tool of order. It was order on an empire's scale." and "power arriving with both hands, protection and interference at once" became two sentences ("It brought protection and interference at once.").
+- `alx.dw.suffering`: "We gave three answers we could stand behind about why God allows suffering. We gave them from inside suffering, not from above it." The old later sentence "We gave three answers we could stand behind." is not repeated. The second answer's rhetorical question became a statement ("in the plague, God was in the brothers and sisters who did not run"); "The community's conduct was its answer." replaces "...its answer to the question."
+- `alx.dw.original-sin`: "We did not speak of guilt at birth, but we believed something real went wrong at the root of humanity." The old closing clause "We did not speak of guilt at birth" moved here; the close is now "The doctor's imagery outweighs the courtroom's."
+- `alx.dw.church-failure`: "Our churches had failures, and our record leaves the wounds visible." The failures are told in the rest of the paragraph.
+- `alx.dw.doubt`: "Our teachers left room for doubt. They built their whole method on questions." The paragraph holds it ("Doubt aimed at understanding was not treated as sin").
+- `alx.dw.god`: "We believed in one God, the maker of all things."
+- `alx.dw.apostolic`: "We received our practices, and we kept the receiving visible." "But here is what we cannot show" became "What we cannot show, and did not think to show, is documentary proof"; "You should hear that stated, not smoothed over" became "We say it plainly and do not smooth it over."
+- `alx.dw.one-church`: the two opening questions were dropped; the paragraph opens "In our own time we called ourselves part of the catholic church." The mid-paragraph question became "Whether any present-day church is 'our church' reaches past what we can see."
+- `alx.dw.record`: "Our account stands on our own books."
+- `alx.dw.resurrection`: "For the resurrection, we pointed first to what we could see: lives."
+- `alx.dw.was-jesus-god`: opens "From the beginning we worshiped Jesus as the Logos, God's own Word, and we baptized into Father, Son, and Holy Spirit." The sentence "Our answer moves across our own century." was dropped.
+
+Identity witness. `alx.dw.jesus` already opened with who ("To us Jesus is the Logos - God's own Word, through whom all things were made - come in flesh"). Only "Between those two sentences lies the whole answer." changed, to "All we hold about him lies between those two sentences."
+
+Body commentary removed from the record files this pass edits: the "REGISTER TRANSLATION", "BAR SWEEP" and "LEXICON LABEL PASS" paragraphs in `alx.dw.councils`, `alx.dw.god`, `alx.dw.original-sin` and `alx.dw.suffering`. The one-line descriptions of each record stay. Kept and flagged for the project lead as possible process notes: the "answered without defense-lawyering; the identity-collision-adjacent care lives in step-5 demonstrations" line in `alx.dw.church-failure`, and the "Also tagged F1-P" note in `alx.dw.god`.
+
+Quotes. No quoted passage was edited or reordered. The Origen quote in `alx.dw.apostolic` ('transmitted in orderly succession ...') sits in an untouched sentence; the round 1 review checked it verbatim against `cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` lines 22435-22436.
+
+Oblique. Not oblique: the sources answer directly.
+
+Known-wrong claims carried unchanged (OG-15, 2026-10-04): the post-Nicene exile claim in `alx.dw.church-failure`; "Origen compared manuscript readings" in `alx.dw.record`; "exiled him five times for defending it" in `alx.dw.empire`; "after 318" in `alx.dw.one-church`. For the project lead; not fixed here.
+
+Left alone. Terms and stories carry no scaffolding in their spoken fields. Story `absent_detail` and `modern_contrast` fields carry teller directions and record cross-references written to the builder; they are not participant-question scaffolding. Demonstration records were looked at in round 1 and carry none. The commentary checker (`tools/check_live_commentary.py`) does not catch the process notes removed above; that is a checker gap outside this pass.
+
+Gates, 2026-10-06 (after round 1 revisions). `engine.m10.cli records alx`: PASS. `engine.m10.cli regate alx --base origin/main`: PASS. `engine.m2.cli determinism-check alx`: PASS. `tools/check_live_commentary.py --base origin/main --enforce`: exit 0; package `2026-10-06T22-18-30Z`, manifest hash `sha256:09529d70c139d69a2ea3023652d58057676bdbccd0e8943012f224865ab21594`, pinned in `records/worlds/alx.yaml`.
+
+CI after the push: the embedded-quotation survey counted one fewer alx record (9 to 8) because the removed scaffolding in `alx.dw.was-jesus-god` quoted the question "Was Jesus God? Did you believe in the Trinity?"; the survey's alx baseline in `engine/m1/tests/test_embedded_quotations.py` moved to 8. The site JSON for alx (`cic-website/data/worlds/alexandria-catechetical.json`) was recompiled because its narrative was stale against the records.
+
+Status: round 2 (Opus, `Build/Ministry/Operations/Audits/alx_identity_scaffolding_review_round2_2026-10-06.md`) cleared the records and ruled the two kept body lines legitimate record notes. Approved to proceed. On merging main (2026-10-07), the scaffolding check found no spoken field left to flag, so the `spoken-scaffolding/alx` waiver was removed from `engine/m1/cross_world.py`; this closes "Spoken text opens on a question or carries a stage direction" (2026-10-06).
+
+### OG-19. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
+
+Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-alx-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
+
+(1) (B) "Why did your people believe this?": John 1:1 and 1:14 are quoted ("In the beginning was the Word… And the Word became flesh and dwelt among us"). No alx record carries the text; `alx.term.logos` cites John 1:1-14 by reference only.
+
+(2) (C) "Who is Jesus?": the whole reply is `alx.demo.who-was-jesus` word for word (a 154-word shared run in a 152-word reply).
+
+(3) (E) "Why did your people believe this?": "Students like Gregory came in wanting philosophy", set under "we… in Alexandria". `alx.story.gregory-formation` has Gregory come to study law and meet Origen at Caesarea, and its not_for bars relocating the account to Alexandria.
+
+(4) (E) "What does Logos mean?": "The word came to us from the Greeks - they used it for the rational principle that holds the cosmos together." No record says this. `alx.force.philonic-inheritance` names Philo of Alexandria, and the reply reuses that record's own sentence with Philo removed.
+
+Status: OPEN.
