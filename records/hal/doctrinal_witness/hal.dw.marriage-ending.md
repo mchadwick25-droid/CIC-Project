@@ -21,7 +21,7 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Our answer was not a ruling but Fabiola: divorced, she belonged here.
+  Our answer was Fabiola rather than a ruling: divorced, she belonged here.
   We kept her story where everyone could see it. She left a husband
   whose faults the whole neighborhood talked about, and she alone
   refused to name them, bearing the blame of the separation rather than
