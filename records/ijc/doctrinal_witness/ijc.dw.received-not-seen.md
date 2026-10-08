@@ -24,19 +24,18 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  What did we actually have about Jesus? Inheritance, not memory.
+  What we had about Jesus was inheritance, not memory.
   Three hundred years separated us from Jesus, and no one alive
   had met anyone who saw him. What we had was three things. The scriptures,
   read aloud in every church. The faith each person confessed at baptism. And
   the creed, which our councils wrote exactly so that the inheritance could
-  not be lost or changed. You can watch us do it. At the council of
+  not be lost or changed. Chalcedon shows us doing it. At the council of
   Chalcedon, when the judges asked the assembly to declare its faith, Rome's
   legate Paschasinus spoke first. He recited the whole chain out loud: the
   rule of faith set out at Nicaea, confirmed at Constantinople, explained at
   Ephesus by Cyril, and shown in Leo's own writings. The assembled bishops
   then cried out their agreement together: so we all believe, so we were
-  baptized, so we baptize. How did we know the resurrection happened? The
-  same way: through the apostles' testimony, carried in scripture and
+  baptized, so we baptize. We knew the resurrection happened the same way: through the apostles' testimony, carried in scripture and
   confession, received and tested and held. We were honest about our
   own kind of knowing. We guarded the testimony we received, and could not
   add to it.
@@ -61,17 +60,9 @@ use_note:
   years: {from: 325, to: 451}
   status: reviewed
 ---
-The C-E evidential cell answered in the world's own shape: its
-distinctive testimony about "what did you actually have" is inheritance
-consciously received and juridically guarded - the honest, datable
-answer of a fourth-century establishment, offered without pretending
-to first-century proximity it did not have. Session IV's recital
-is verified in the vendored extract (npnf214 from line 20105). The
-chain-of-custody recital itself is Rome's own legate Paschasinus speaking
-first, not the assembled bishops collectively - they respond afterward
-with a shorter collective acclamation of assent. The text field
-attributes each part to its actual speaker.
 
-The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.
-
-The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.
+Session IV's recital is in the vendored extract (npnf214 from line
+20105). The chain-of-custody recital itself is Rome's own legate
+Paschasinus speaking first, not the assembled bishops collectively - they
+respond afterward with a shorter collective acclamation of assent. The
+text field attributes each part to its actual speaker.
