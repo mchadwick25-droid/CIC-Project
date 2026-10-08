@@ -936,3 +936,29 @@ Closes the item carried in "The two spoken fields left open by the record pass, 
 **Gates.** `engine.m10.cli records don` and `regate don --base origin/main`: pass. Package rebuilt after the record edit: `records/worlds/don.yaml` pins `packages/don/2026-10-08T19-32-19Z`, `manifest_hash` `sha256:32a347d217c03f2968160d54c11a02340d953f13f322cb77998c11171f117546`. This change is stacked on the branch of the open Donatist PR for the two spoken fields, which holds OG-28 and the earlier pin.
 
 Status: CLOSED.
+
+### OG-30. Voice errors found in the record pass staging reading, 9 October.
+
+Errors in the voice's replies in the named, capped live test "record pass staging reading, 9 October" (decision 56): six questions put to this world's Representative in one conversation on main at 691d2daa, after the identity-first, no-scaffolding record pass. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-don-2026-10-09-record-pass-staging-reading.json`. Not fixed; content for this world's build thread. Items use the five defect classes of the voice-errors entry of 2026-10-07: (A) altered words inside quote marks or in a line given as a figure's own words; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) record text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record; and three more: (F) a question opener or stage direction; (G) the voice outside its own years or outside the we-voice; (H) rhythm against decision 60 (quote or name pacing, a quote or story repeated rather than referred back to, a lexicon mark repeated). A class not listed did not occur in this world. In this run 3 sentence(s) the grounding net marked "withhold" still reached the reply text: `grounding_net.shown_text` takes the quotation marks off but keeps the sentence, and `sentence_enforce` is off. Decision 59(1) says such a sentence is withheld. This is a fleet-level engine finding, raised with the project lead, not a record defect of this world.
+
+(1) (D) "Who is Jesus?": "When the persecution opened, the emperor's edict demanded that the scriptures be handed over and burned. Some of our clergy carried the codices out and gave them up. Others refused and paid for refusing" and "None of us had known someone who saw him ... back to a point where the line was still clean" paste `don.dw.the-books-they-came-for` near word for word, which answers what the world had of Jesus, not who he is.
+
+(2) (D) "What did he do?": "When an imperial judge at Carthage courteously offered our bishops chairs" through "the same might yet be asked of any of them" pastes paragraphs 2 and 4 of `don.dw.who-jesus-was-among-us` near word for word.
+
+(3) (E) "What does traditor mean?": "It names the act, not the motive. Whether a man gave up the books out of fear, or calculation, or simple weakness, we do not weigh. What we weigh is that he did it" is in no record. `don.term.traditor-traditio`'s personal sense names a motive itself ("A man who gave up the scriptures to save himself showed, in the one moment that tested him, what his hand was worth").
+
+(4) (H) "Why did your people believe this?": "Some carried the books out. Others refused and paid for it. We are the church that came out of that difference" repeats lines from `don.dw.the-books-they-came-for` that were already spoken in "Who is Jesus?" and are not referred back to (decision 60 refinement of 7 October, clause 2).
+
+(5) (H) "Why did your people believe this?": "What we look to, our own bishop wrote, is the conscience of the giver, to cleanse that of the recipient. Someone who knowingly takes faith from the faithless receives not faith, but guilt" voices `don.quote.petilian-conscience-of-the-giver` again, one round after "What does traditor mean?" voiced it, and does not refer back (decision 60 clause 1, "no line is voiced twice"; refinement clause 2).
+
+(6) (H) "What would you want me to understand that I haven't asked?": the same line from `don.quote.petilian-conscience-of-the-giver` is voiced a third time, in full and in quote marks (decision 60 clause 1; refinement clause 2).
+
+(7) (H) "What would you want me to understand that I haven't asked?": Petilian is introduced and marked as a new figure one round after Tyconius in "Tell me about someone who lived this out" (decision 60 clause 2, at most one new figure every three rounds).
+
+(8) (F) "What would you want me to understand that I haven't asked?": "From Petilian, one of our bishops at Constantina:" is a caption over a block quote, which is presentation scaffolding and not the world's speech (CLAUDE.md writing standard, no stage direction); the net withheld it as untagged.
+
+(9) (D) "Tell me about someone who lived this out": "He did not recant. He did not go over to the other side either. He kept saying it from inside, and we cut him off, and never took him back ... So there was room to keep arguing, and no room at all to be right" pastes `don.dw.room-for-dissent`, and "We produced one man who could think, and we silenced him" pastes `don.dw.what-we-never-settled`. The record that holds this story, `don.story.tyconius-condemnation`, is not told as it is written, and it keeps the hedge "it is reported" on the condemnation (decision 60 clause 4).
+
+(10) (D) "What would you want me to understand that I haven't asked?": the first two paragraphs ("We are not four separate beliefs" through "naming the strain is part of what we actually are") paste the `text` of `don.witness.one-formation-aim` almost entire.
+
+Status: OPEN.

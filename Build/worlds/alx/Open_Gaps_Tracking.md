@@ -459,3 +459,31 @@ Errors in the voice's replies in the named, capped live test "voice hand-off sta
 (4) (E) "What does Logos mean?": "The word came to us from the Greeks - they used it for the rational principle that holds the cosmos together." No record says this. `alx.force.philonic-inheritance` names Philo of Alexandria, and the reply reuses that record's own sentence with Philo removed.
 
 Status: OPEN.
+
+### OG-20. Voice errors found in the record pass staging reading, 9 October.
+
+Errors in the voice's replies in the named, capped live test "record pass staging reading, 9 October" (decision 56): six questions put to this world's Representative in one conversation on main at 691d2daa, after the identity-first, no-scaffolding record pass. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-alx-2026-10-09-record-pass-staging-reading.json`. Not fixed; content for this world's build thread. Items use the five defect classes of the voice-errors entry of 2026-10-07: (A) altered words inside quote marks or in a line given as a figure's own words; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) record text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record; and three more: (F) a question opener or stage direction; (G) the voice outside its own years or outside the we-voice; (H) rhythm against decision 60 (quote or name pacing, a quote or story repeated rather than referred back to, a lexicon mark repeated). A class not listed did not occur in this world. In this run 17 sentence(s) the grounding net marked "withhold" still reached the reply text: `grounding_net.shown_text` takes the quotation marks off but keeps the sentence, and `sentence_enforce` is off. Decision 59(1) says such a sentence is withheld. This is a fleet-level engine finding, raised with the project lead, not a record defect of this world.
+
+(1) (A) "Who is Jesus?": the reply voices as Origen's own words, with no quote marks after 'Origen says it this way:', '...whose meaning no one can understand who has not leaned on Jesus' breast nor received Mary from Jesus to be his mother also'. `alx.quote.origen-gospel-firstfruits` ends at 'the Gospel of John is the firstfruits'. The added words are in the vendored anf09 text but in no record (decision 59(1)).
+
+(2) (A) "What did he do?": 'Athanasius says plainly:' introduces a passage that matches `alx.quote.athanasius-death-trampled-down` only in its first clause ('Now, faith in Christ and the sign of the cross trample death down'). The rest ('those who believe in Christ do not trample it down, but by dying trample on death... choose to die rather than deny the faith of Christ') is in no record and not in the vendored npnf204 text (decisions 59(1) and 59(2)).
+
+(3) (A) "Tell me about someone who lived this out.": 'Gregory himself said it this way' introduces `alx.quote.gregory-spark` with 'his friend and advocate' changed to 'his friend and prophet' and 'within us' changed to 'within me'. Both the record and anf06 line 3021 read 'advocate'.
+
+(4) (D) "Who is Jesus?": the first paragraph is `alx.dw.jesus` near word for word ('He is not a messenger bringing news about God; he is God's own self-expression'; 'His resurrection - the anastasis - is unbreakable life let loose in human flesh').
+
+(5) (D) "Why did your people believe this?": the reply pastes `alx.dw.apostolic` ('What we could show was real: our practice ran unbroken as far back as our own memory reached, we agreed with the other churches') and `alx.dw.resurrection` ('men who ran from the arrest went to their deaths proclaiming what they said they saw, and gained nothing on earth by it') near word for word.
+
+(6) (E) "What does Logos mean?": 'The word came from Greek thought, where it meant reason or order' is tagged to `alx.dw.jesus`, which says nothing about where the word came from. The record that does, `alx.force.philonic-inheritance`, names Philo and 'a Logos as cosmic mediator'. This repeats the 7 October finding on the same sentence.
+
+(7) (E) "Tell me about someone who lived this out.": 'beginning with logic and geometry, moving into ethics and natural philosophy' changes the order in `alx.story.gregory-formation`, which runs logic, then the natural world, geometry and the stars, then ethics, then theology.
+
+(8) (E) "Tell me about someone who lived this out.": 'Clement, his own teacher' states as settled that Clement taught Origen. No record says this, and `alx.contested.didaskaleion-institution` holds the Pantaenus-Clement-Origen succession as contested.
+
+(9) (E) "What would you want me to understand that I haven't asked?": 'the bishop rode out' adds a detail. `alx.story.arsinoite-conference` says only that Dionysius 'went out to the villages'.
+
+(10) (H) Quotes across the conversation: voiced quotes appear in turns 1 (Athanasius, Origen), 2 (Athanasius), 3 (Clement), 4 (Origen) and 5 (Gregory, Clement's 'Sicilian bee'). Decision 60(1) allows one every three rounds.
+
+(11) (H) "Tell me about someone who lived this out.": `alx.story.gregory-formation` is summarised, with its setting (law, Caesarea) and its close (theology, the paradise lament) dropped, rather than told as the record tells it (decision 60(4)). Gregory is also a new figure two rounds after Clement's introduction in turn 3 (decision 60(2)).
+
+Status: OPEN.

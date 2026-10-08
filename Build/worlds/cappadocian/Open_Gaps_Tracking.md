@@ -687,3 +687,37 @@ Errors in the voice's replies in the named, capped live test "voice hand-off sta
 (2) (C) "Who is Jesus?": the whole reply is `cappadocian.demo.who-was-jesus` word for word (a 216-word shared run in a 214-word reply).
 
 Status: OPEN.
+
+### OG-38. Voice errors found in the record pass staging reading, 9 October.
+
+Errors in the voice's replies in the named, capped live test "record pass staging reading, 9 October" (decision 56): six questions put to this world's Representative in one conversation on main at 691d2daa, after the identity-first, no-scaffolding record pass. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-cappadocian-2026-10-09-record-pass-staging-reading.json`. Not fixed; content for this world's build thread. Items use the five defect classes of the voice-errors entry of 2026-10-07: (A) altered words inside quote marks or in a line given as a figure's own words; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) record text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record; and three more: (F) a question opener or stage direction; (G) the voice outside its own years or outside the we-voice; (H) rhythm against decision 60 (quote or name pacing, a quote or story repeated rather than referred back to, a lexicon mark repeated). A class not listed did not occur in this world. In this run 10 sentence(s) the grounding net marked "withhold" still reached the reply text: `grounding_net.shown_text` takes the quotation marks off but keeps the sentence, and `sentence_enforce` is off. Decision 59(1) says such a sentence is withheld. This is a fleet-level engine finding, raised with the project lead, not a record defect of this world.
+
+(1) (A) "Who is Jesus?": the block credited to "one of our teachers" is a different translation of `cappadocian.quote.gregory-nyssa-on-becoming-god` ("too crude a view of reality", "seated in it... that same God whom we acknowledge already to be in mankind"); the record's rendering reads "too narrow a view of things" and "whom we are convinced is even now not outside mankind"; it breaks decision 59 clause (1). The net marked the block withhold, "quotation not in records", but the text was delivered unchanged.
+
+(2) (A) "What did he do?": the block "The sick man needed a physician; the fallen man, someone to raise him up... the man enslaved by sin for a liberator" renders Catechetical Oration ch. 15, which no record of this world holds; it is tagged to `cappadocian.quote.gregory-nyssa-on-becoming-god` (ch. 25); decision 59 clause (1). The net again marked it withhold and it was delivered.
+
+(3) (A) "What would you want me to understand that I haven't asked?": the ant block drops the "[...]" that `cappadocian.quote.basil-against-eunomius-ant` keeps between "explain the ant to us completely." and "Someone who takes pride", so a disclosed omission reads as one continuous passage.
+
+(4) (D) "Who is Jesus?": the first paragraph pastes `cappadocian.dw.who-was-jesus` near word for word ("the ground everything else in our life stood on", "The formula itself was our charter", "not merely like the Father, against a rival teaching in our own day that said otherwise", "We meant truly made like him, endlessly, by grace").
+
+(5) (D) "What would you want me to understand that I haven't asked?": the reply pastes `cappadocian.dw.want-to-believe` near word for word, from "Every word we use for him reaches him truly and captures nothing complete" through "Doubt was not a closed door here. It was also not left to sit forever.", and answers its retrieval cue ("participant says they want to believe and cannot") rather than the question asked.
+
+(6) (E) "What did he do?": "settling a debt we could not pay ourselves" adds to `cappadocian.dw.who-was-jesus`'s "a debt paid"; that record's use_note rules out "ransom language as the later penal substitution formula".
+
+(7) (E) "What does theosis mean?": "Gregory of Nyssa wrote:" is tagged in figures_used to `cappadocian.figure.gregory-of-nazianzus` (matched name "Gregory"), so the Nazianzen's bridge line is shown beside a quote from `cappadocian.quote.gregory-nyssa-on-becoming-god`, whose speaker is `cappadocian.figure.gregory-of-nyssa`.
+
+(8) (E) "Tell me about someone who lived this out.": "went to the wilderness by the Iris river", "an old family servant named Chrysapius" and "died suddenly, young, in a hunting accident" are not in `cappadocian.story.naucratius-wilderness`, which says "the wilderness", "a single household servant, Chrysapius" and "died suddenly in an accident".
+
+(9) (E) "Tell me about someone who lived this out.": "What reaches us is his sister's memory of him, written down by her brother years later" is not in `cappadocian.story.naucratius-wilderness`, which says both are "known only through the family's grief as Gregory records it".
+
+(10) (E) "What would you want me to understand that I haven't asked?": "Our preachers argued against the delay, not against the fear behind it. Basil wrote:" sets `cappadocian.quote.basil-against-eunomius-ant` up as the answer to delayed baptism; it is Basil's Letter XVI against Eunomius, and `cappadocian.dw.want-to-believe`'s use_note places the sermon against delay in `cappadocian.quote.basil-against-delaying-baptism`.
+
+(11) (G) "What would you want me to understand that I haven't asked?": "That is what I would want you to understand" leaves the we-voice for the first person singular.
+
+(12) (H) "Who is Jesus?", "What did he do?" and "What does theosis mean?": all three voice a block tagged to `cappadocian.quote.gregory-nyssa-on-becoming-god`, and turns 1 and 3 voice the same ch. 25 passage twice, against decision 60 clause (1) (no line voiced twice; one voiced quote every three rounds). In all, five of six turns voice a quote.
+
+(13) (H) "What does theosis mean?", "Why did your people believe this?" and "Tell me about someone who lived this out.": figures_used introduces a new figure in three rounds running (Gregory, Basil, Naucratius), against decision 60 clause (2).
+
+(14) (H) "What would you want me to understand that I haven't asked?": the rival teacher who "claimed one word could deliver God's whole essence" and "no mind grasps him completely" repeat turn 4's "A rival teacher claimed one word... no mind grasps God completely" as if new, with no reference back (decision 60 refinement of 7 October on referring back).
+
+Status: OPEN.

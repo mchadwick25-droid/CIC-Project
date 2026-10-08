@@ -556,3 +556,33 @@ Status: OPEN.
 **Merge with main and gate fix (2026-10-08):** main had taken OG-14 and OG-15 for the scaffolding-check and staging-reading entries, so this entry is OG-16. It resolves the hal scaffolding-check entry (Spoken text opens on a question or carries a stage direction, 2026-10-06). The `no-build-attribution` gate matched "not a ruling" in the `marriage-ending` opener written for review round 1; the opener now reads "Our answer was Fabiola rather than a ruling: divorced, she belonged here." Same claim, same order. The hal "spoken-scaffolding" waiver is removed from `engine/m1/cross_world.py`, because the scaffolding check finds nothing left for hal. Package `packages/hal/2026-10-08T05-12-13Z`, pinned in `records/worlds/hal.yaml` (manifest sha256:a41590ca7b9dd1ff2fc33b18bb9f08a4c6d2fa69807d7b9ff613264b60703610); site JSON recompiled.
 
 **Status:** the records were cleared at round 2 (Opus, `Build/Ministry/Operations/Audits/hal_identity_scaffolding_review_round2_2026-10-08.md`).
+
+## OG-17. **Voice errors found in the record pass staging reading, 9 October.**
+
+Errors in the voice's replies in the named, capped live test "record pass staging reading, 9 October" (decision 56): six questions put to this world's Representative in one conversation on main at 691d2daa, after the identity-first, no-scaffolding record pass. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-hal-2026-10-09-record-pass-staging-reading.json`. Not fixed; content for this world's build thread. Items use the five defect classes of the voice-errors entry of 2026-10-07: (A) altered words inside quote marks or in a line given as a figure's own words; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) record text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record; and three more: (F) a question opener or stage direction; (G) the voice outside its own years or outside the we-voice; (H) rhythm against decision 60 (quote or name pacing, a quote or story repeated rather than referred back to, a lexicon mark repeated). A class not listed did not occur in this world. In this run 16 sentence(s) the grounding net marked "withhold" still reached the reply text: `grounding_net.shown_text` takes the quotation marks off but keeps the sentence, and `sentence_enforce` is off. Decision 59(1) says such a sentence is withheld. This is a fleet-level engine finding, raised with the project lead, not a record defect of this world.
+
+(1) (A) "Who is Jesus?": the voiced greeting ends "where the Bread that came down from heaven was first born". `hal.quote.hail-bethlehem` reads "was born", so 'first' is added, and the reply cites only `hal.dw.jesus`, not the quote record (decision 59 clause 2).
+
+(2) (A) "Why did your people believe this?": the voiced quote reads "with much toil and effort I partially acquired a knowledge of Hebrew". `hal.quote.partially-acquired-hebrew` renders it "with much toil and effort partially acquired the Hebrew tongue".
+
+(3) (D) "Who is Jesus?": outside one inserted attribution sentence and the voiced quote, the reply is `hal.dw.jesus` near word for word. "What did he do?" repeats most of `hal.dw.record` word for word ("copied, compared, corrected, and translated from the Hebrew we held truest"; "Our confidence stood on three things..."). This is the 7 October item (D) unchanged.
+
+(4) (D) "Tell me about someone who lived this out": the reply closes with "Those are the answers we give, and our sobs come with them. We kept both on purpose.", pasted from the last lines of `hal.dw.suffering`, where 'those answers' refers to judgment, reward and the safety of the dead, none of which this reply names.
+
+(5) (D) "What would you want me to understand that I haven't asked?": "Our own prior position-taking is part of why this force found this target" copies the analytic description of `hal.force.pelagian-attack` into the voice.
+
+(6) (E) "What did he do?": "We were born more than three and a half centuries after the events" misstates `hal.dw.record`, which says "More than three and a half centuries stood between us and the events". Jerome (c. 331/347) and Paula (347) were born about three centuries after them (`hal.figure.jerome`, `hal.figure.paula`).
+
+(7) (E) "What does Hebraica veritas mean?": "He claimed he learned it as an older man, with great toil and effort" reverses `hal.quote.partially-acquired-hebrew`, where Jerome says he began "as a young man".
+
+(8) (E) "What does Hebraica veritas mean?": "His critics doubted that claim then" has no record behind it. `hal.contested.hebrew-fluency` names a modern scholar (Williams, 2006) as the doubter and cites a contemporary, Sulpitius Severus, only for Jerome's reputation.
+
+(9) (E) "Why did your people believe this?": "Out of that crucible... came a sharper insistence: the Hebrew stands closest to what was given" ties the Origenist quarrel to the Hebrew principle. Neither the cited `hal.story.rufinus-rupture` nor `hal.term.hebraica-veritas` says this.
+
+(10) (G) "What does Hebraica veritas mean?": "and scholars contest it still" speaks from the present, outside this world's years (382-420, `hal.core.hieronymian`).
+
+(11) (H) "Tell me about someone who lived this out": two new figures, Marcella and Eustochium, appear in one round, one round after Rufinus and two after Augustine. A voiced quote comes one round after the previous one (decision 60 clauses 1 and 2).
+
+(12) (H) "What would you want me to understand that I haven't asked?": the `hal.quote.house-destroyed` line voiced in the previous reply is voiced again in full, and the 416 fire is told again rather than referred back (decision 60 clause 1 and its 7 October referring-back refinement).
+
+Status: OPEN.
