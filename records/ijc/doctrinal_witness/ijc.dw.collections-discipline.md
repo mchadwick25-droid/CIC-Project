@@ -21,7 +21,7 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  We had a real giving discipline. It was preached at least twice in the sermons that
+  We had a real giving discipline, but not a fixed tenth. It was preached at least twice in the sermons that
   survive, tied to a yearly day Leo calls only 'the day of Apostolic
   institution.' That day, he says, had been cleansed of wicked superstitions
   and given instead to deeds of mercy. (The edition's editors identify it as
@@ -62,10 +62,7 @@ use_note:
 ---
 
 Leo's own preached corpus (file lines 13503 and 13707) states a real, if
-proportional rather than fixed, giving discipline, against
-ijc.dw.baptism-threshold's own closing note that "church funding
-in this record is imperial patronage and endowment, not
-tithe-discipline." The collection day is
+proportional rather than fixed, giving discipline. The collection day is
 the octave of SS. Peter and
 Paul (early July, a day repurposed from a pagan festival), per the
 file's own note (line ~13612), not the autumn fast (Sermons on "the Fast
