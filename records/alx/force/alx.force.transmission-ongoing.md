@@ -33,7 +33,7 @@ kind: ongoing
 description: |-
   This force is how the world passed itself on within the horizon. It worked through three mechanisms. They differed in how well they held up.
 
-  The first was the teacher-student formation relationship. The ability to perceive could be passed on only by accompaniment. It was the most valuable and the most fragile. Pantaenus carried it to Clement, and Clement to Origen, across three generations.
+  The first was the teacher-student formation relationship. The ability to perceive could be passed on only by accompaniment. It was the most valuable and the most fragile. The community remembered it passing from Pantaenus to Clement and on to Origen. That line rests almost entirely on Eusebius, and it is contested.
 
   The second was the sacramental practices: baptism, the Eucharist, and the calendar. They were more robust. They needed no teacher, and they reached everyone.
 

@@ -31,7 +31,7 @@ dates:
   born: 'c. 150 (traditional date; no ancient source states it)'
   died: 'c. 215 (traditional date). A modern editor of Jerome''s On Illustrious Men notes ''born about 160, died about 217''. That is the editor''s note, not Jerome''s text.'
   floruit: 'c. 180-202/3 teaching in Alexandria (left during the Severan persecution); Jerome De viris
-    38: pupil of Pantaenus, led the school after his master''s death'
+    38: pupil of Pantaenus, led the school after his master''s death (that the school was a formal institution is contested)'
 narratable: false
 bridge_line: the teacher whose books survive where his life does not - his words are kept, his days are
   not
