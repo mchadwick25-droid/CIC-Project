@@ -1082,7 +1082,7 @@ def _screen_refused_table_message(
     gate_run = run_gate(
         session_id=session_id, safety_client=safety_client, safety_model_id=safety_model_id,
         participant_message=text, pressed=state.pressed, anachronistic_term_ids=set(),
-        track_b_accumulator=state.safety.track_b_accumulator,
+        track_b_accumulator=state.safety.track_b_accumulator, world_key=None,
     )
     for rec in gate_run.usage_records:
         usage_store.append(rec)
@@ -1185,6 +1185,7 @@ def _handle_table_message_unlocked(
         pressed=state.pressed,
         anachronistic_term_ids=anachronistic_ids,
         track_b_accumulator=state.safety.track_b_accumulator,
+        world_key=None,
     )
     grant = resolve_grant(
         grant_for, completed=state.turn_count, free_cap=round_module.TABLE_SESSION_ROUND_CAP, daily_cap_reached=daily_turn_cap_reached

@@ -192,3 +192,82 @@ def test_a_session_opened_without_a_message_is_counted_apart(store, usage_store)
     assert summary.visitors.sessions_without_a_message == 1
     assert summary.visitors.unique_visitors == 2
     assert summary.visitors.sessions_with_visitor_id == 2
+
+
+def _record(**kw):
+    base = dict(
+        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="voice_generation", model_id="us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+        provider="bedrock", usage=NormalizedUsage(1_000_000, 0, 0, 0), world_key="fix",
+    )
+    base.update(kw)
+    return UsageRecord(**base)
+
+
+def _write_report(directory, name, doc):
+    directory.mkdir(exist_ok=True)
+    (directory / name).write_text(json.dumps(doc), encoding="utf-8")
+
+
+def test_a_named_test_report_is_listed_as_internal_with_its_spend(store, usage_store, tmp_path):
+    reports = tmp_path / "reports"
+    _write_report(reports, "live-turn-report-fix-2026-10-08.json", {
+        "world_key": "fix",
+        "live_test": {"name": "staging reading", "cap_usd": 5.0, "route": "Bedrock, regional inference profile, us-east-1", "priced_total_usd": 1.25},
+        "usage": [{"call_kind": "safety_call", "world_key": "fix"}, {"call_kind": "voice_generation", "world_key": "fix"}],
+    })
+    summary = get_usage_summary(store, usage_store, live_test_reports_dir=reports)
+    assert summary.named_tests.label == "internal"
+    (test,) = summary.named_tests.tests
+    assert (test.name, test.cap_usd, test.priced_total_usd, test.calls) == ("staging reading", 5.0, 1.25, 2)
+    assert test.route == "Bedrock, regional inference profile, us-east-1" and test.world_keys == ["fix"] and test.missing == []
+    assert summary.named_tests.recorded_priced_dollars == pytest.approx(1.25)
+    assert summary.named_tests.tests_with_gaps == 0
+
+
+def test_a_report_from_before_the_fields_existed_shows_not_recorded(store, usage_store, tmp_path):
+    reports = tmp_path / "reports"
+    _write_report(reports, "live-turn-report-alx.json", {"world_key": "alx", "results": [], "crisis_append_proven": None})
+    _write_report(reports, "live-turn-report-broken.json", {"live_test": "not an object", "usage": {"not": "a list"}})
+    (reports / "live-turn-report-unreadable.json").write_text("{not json", encoding="utf-8")
+    summary = get_usage_summary(store, usage_store, live_test_reports_dir=reports)
+    by_source = {t.source: t for t in summary.named_tests.tests}
+    old = by_source["live-turn-report-alx.json"]
+    assert (old.name, old.route) == ("not recorded", "not recorded")
+    assert (old.cap_usd, old.priced_total_usd, old.calls) == (None, None, None)
+    assert old.world_keys == ["alx"]
+    assert set(old.missing) == {"name", "cap_usd", "route", "priced_total_usd", "usage"}
+    assert by_source["live-turn-report-broken.json"].name == "not recorded"
+    assert by_source["live-turn-report-unreadable.json"].missing[-1] == "unreadable report"
+    assert summary.named_tests.recorded_priced_dollars == 0.0  # nothing guessed
+    assert summary.named_tests.tests_with_gaps == 3
+
+
+def test_live_use_is_one_unsplit_line_and_excludes_named_tests(store, usage_store, tmp_path):
+    usage_store.append(_record())
+    usage_store.append(_record(world_key="alx"))
+    usage_store.append(_record(live_test="logged test"))
+    summary = get_usage_summary(store, usage_store, live_test_reports_dir=tmp_path / "none")
+    assert summary.live_use.label == "live use, not yet split"
+    assert summary.live_use.calls == 2
+    assert summary.live_use.priced_dollars == pytest.approx(6.60)
+    (logged,) = summary.named_tests.tests
+    assert (logged.source, logged.name, logged.calls) == ("usage log", "logged test", 1)
+    assert logged.priced_total_usd == pytest.approx(3.30) and logged.cap_usd is None and "cap_usd" in logged.missing
+    assert sum(w.calls for w in summary.by_world) == 3  # the per-world table still counts every call
+
+
+def test_the_endpoint_carries_the_split(store, usage_store, world_loader, registry, monkeypatch, tmp_path):
+    from engine.api import wiring
+    _write_report(tmp_path / "reports", "live-turn-report-fix.json", {"world_key": "fix"})
+    monkeypatch.setattr(wiring, "LIVE_TEST_REPORTS_DIR", tmp_path / "reports")
+    usage_store.append(_record())
+    client = _table_client(selector_script=[], stream_scripts=[])
+    app = create_app(
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, default_world_key="fix",
+        admin_token="t",
+    )
+    body = TestClient(app).get("/api/admin/usage-summary", headers={"Authorization": "Bearer t"}).json()
+    assert body["live_use"] == {"label": "live use, not yet split", "calls": 1, "priced_dollars": pytest.approx(3.30), "unpriced_calls": 0}
+    assert body["named_tests"]["label"] == "internal"
+    assert body["named_tests"]["tests"][0]["name"] == "not recorded"

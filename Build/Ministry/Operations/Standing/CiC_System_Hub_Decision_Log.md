@@ -6380,3 +6380,15 @@ Decision 60 says no line is voiced twice in one conversation. The project lead r
 ## 2026-10-07 - Cap ruling: Donatist identity-and-scaffolding pass, round 3 applied without a fourth round
 
 The Donatist record pass (#812) reached three review files: round 1 and round 2 on the shape pass, and round 3, a targeted Opus recheck of the two records corrected under the project lead's option A ruling of the same day (`Build/Ministry/Operations/Audits/don_identity_scaffolding_review_round3_2026-10-07.md`). Round 3 returned REVISE with one substantial finding: the correction had dated the heresy charge to the imperial law of 405, and the vendored Answer to Petilian shows Augustine using the word by 400. The reviewer supplied the replacement wording and loci. The project lead ruled that the standard is scholarly acceptance, not perfection: the round 3 wording is applied as specified, verified mechanically (quotes verbatim against the vendored files, readability within the band, records gate and regate, commentary check, fleet M9), and the pass proceeds without a fourth review round. No further review on this pass counts toward or against the cap. The sentences the round 3 reviewer flagged outside the two records are carried to the world's gap file (OG-25).
+
+## 2026-10-07 - Rhythm slice rulings: one quote when the directive calls for one, no reordering, tally per seat (decision 60, refinement)
+
+The project lead ruled on three points the rhythm slice raised, merged in #825:
+
+60. (1) The fleet voice record asks for one quote in full only when the turn's directive calls for one. (2) The evidence reordering for figures not yet introduced was dropped; ranking stays out of scope. (3) The rhythm tally is kept per seat at the Table.
+
+## 2026-10-07 - Usage attribution folded into the live-test guard (decision 56, change order)
+
+The project lead folded the usage work into the live-test guard slice, one pull request, and moved the visitor cookie and internal marker to a follow-up.
+
+56. Change order, 7 October. (1) Every one-to-one call records the session's world: the safety and reader calls and the voice calls. The Table's gate call, which serves several worlds at once, records none. (2) The admin dashboard lists every named live test as internal, read from the committed live-turn reports, each with its name, cap, route, priced total and per-call usage; a report written before those fields existed shows the missing fields as "not recorded", never a guessed value. (3) Live conversations show as one line, "live use, not yet split". Nothing is inferred as internal from IP, device, time of day or anything else, and no write path reaches the production database from outside the engine. (4) The visitor cookie and the internal marker move to a follow-up slice, blocked on the app.churchinconversation.com subdomain and on the project lead's ruling on the free allowance and the caps.

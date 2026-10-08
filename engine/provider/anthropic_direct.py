@@ -7,7 +7,7 @@ import os
 
 from anthropic import Anthropic
 
-from engine.provider import route
+from engine.provider import guard, route
 from engine.provider.bedrock import ModelResolutionError, normalize_usage  # noqa: F401 - the one usage normalizer, shared by both routes
 
 KEY_ENV = "CIC_ANTHROPIC_API_KEY"
@@ -26,7 +26,8 @@ def make_client() -> Anthropic:
     key = os.environ.get(KEY_ENV)
     if not key:
         raise RouteNotEnabledError(f"{KEY_ENV} is not set")
-    return Anthropic(api_key=key)
+    live_test = guard.admit()
+    return guard.wrap(Anthropic(api_key=key), live_test, provider="anthropic")
 
 
 def resolve_model_id(pattern: str) -> str:
@@ -41,4 +42,5 @@ def resolve_model_id(pattern: str) -> str:
         raise ModelResolutionError(f"no Anthropic model matched pattern {pattern!r}")
     if len(matches) > 1:
         raise ModelResolutionError(f"pattern {pattern!r} matched {len(matches)} models, ambiguous: {', '.join(matches)}")
+    guard.note_model(matches[0])
     return matches[0]
