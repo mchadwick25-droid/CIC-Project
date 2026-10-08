@@ -56,40 +56,40 @@ retrieval:
   - "participant asks how this world knew the resurrection happened, or whether anyone had seen him - retrieve gallic.limit.no-one-who-saw-him"
   - "participant wants the two-natures argument itself - retrieve gallic.dw.one-person-two-substances"
 text: >-
-  Who was Jesus to us? At Tours the answer is a story. The devil came to
-  Martin in his cell dressed in purple, with a crown of gold and jewels,
-  and said, I am Christ. Martin kept silence a long time. Then he said he
-  would not believe that Christ had come unless he came in the form in
-  which he suffered, showing the marks of his wounds. The Lord we knew was
-  the crucified one. He was also the one we met in the poor. Tours
-  remembered a beggar at a city gate whom everyone passed, and a soldier
-  who cut his one cloak in half for him; that night the soldier saw Christ
-  wearing the half he had given away, and heard him tell the angels that
-  Martin, still a catechumen, had clothed him. Among the brethren at
-  Marseilles the same thing was taught in the fathers' words, from Egypt:
-  an elder broke his fast for two strangers at his door, because receiving
-  Christ in them he ought to refresh him. What did he teach that mattered
-  most among us? That what is done to the least of these is done to him -
-  the words Sulpitius set beside the cloak. And that without him we can do
+  Jesus was our Lord, the crucified one. At Tours this comes to us as a
+  story. The devil came to Martin in his cell dressed in purple, with a
+  crown of gold and jewels, and said, I am Christ. Martin kept silence a
+  long time. Then he said he would not believe that Christ had come
+  unless he came in the form in which he suffered, showing the marks of
+  his wounds. We also met him in the poor. Tours remembered a beggar at
+  a city gate whom everyone passed, and a soldier who cut his one cloak
+  in half for him; that night the soldier saw Christ wearing the half he
+  had given away, and heard him tell the angels that Martin, still a
+  catechumen, had clothed him. Among the brethren at Marseilles the same
+  thing was taught in the fathers' words, from Egypt: an elder broke his
+  fast for two strangers at his door, because receiving Christ in them
+  he ought to refresh him. What he taught that mattered most among us
+  was that what is done to the least of these is done to him - the words
+  Sulpitius set beside the cloak. And it was that without him we can do
   nothing - the sentence Cassian sets under every virtue a monk feels he
   has gained, beside the Apostle's not I, but the grace of God with me.
-  What did his death mean to us? We wrote no treatise on it. We kept its
-  hours. Cassian handed us from Egypt the reason for the hours of prayer:
-  at the third hour the Spirit came down on the apostles; at the sixth
-  the spotless Sacrifice, our Lord and Saviour, was offered up to the
-  Father and went up on the cross for the salvation of the whole world,
-  taking away the debt that could not be paid; at the ninth he went down
-  into hell and brought out the captive saints. What we believed about
-  the resurrection is held there too: dead in the flesh, he was not dead
-  in the spirit; his soul was not left in hell; no one took his life from
+  We wrote no treatise on his death. We kept its hours. Cassian handed
+  us from Egypt the reason for the hours of prayer: at the third hour
+  the Spirit came down on the apostles; at the sixth the spotless
+  Sacrifice, our Lord and Saviour, was offered up to the Father and went
+  up on the cross for the salvation of the whole world, taking away the
+  debt that could not be paid; at the ninth he went down into hell and
+  brought out the captive saints. What we believed about the
+  resurrection is held there too: dead in the flesh, he was not dead in
+  the spirit; his soul was not left in hell; no one took his life from
   him, he laid it down himself and took it again. The difference it made
   is the one our whole life stands on. A man who leaves Caesar's service
-  for Christ's fights the devil in his own heart, where a kingdom is being
-  made ready for the devil or for Christ. The power that raised a dead
-  catechumen at the saint's prayer was Christ's, not the saint's. And the
-  good news as we told it is this: he calls us to himself while we are
-  still ignorant and unwilling, and draws us toward salvation; and those
-  who perish, perish against his will.
+  for Christ's fights the devil in his own heart, where a kingdom is
+  being made ready for the devil or for Christ. The power that raised a
+  dead catechumen at the saint's prayer was Christ's, not the saint's.
+  And the good news as we told it is this: he calls us to himself while
+  we are still ignorant and unwilling, and draws us toward salvation;
+  and those who perish, perish against his will.
 positions:
 - the Christ we confessed is the crucified one - Martin would not own a Christ in purple and a crown, only one bearing the marks of his wounds (his own words as Sulpitius reports them from his lips)
 - Christ is met in the poor and the guest - the beggar's half of the cloak at Tours; the fast broken in Egypt because receiving Christ in the guest we ought to refresh him, carried to Gaul in Cassian's book
@@ -117,41 +117,17 @@ use_note:
   years: {from: 397, to: 426}
   status: reviewed
 ---
-Closes C-I at the Answer-the-Canon step (inserted between B-7 and B-8),
-walking the cell's five canon questions in order - who he was, what he
-taught, the good news, his death, the resurrection - on ground this
-world's own vendored texts and already-built records actually hold,
-rather than the stretched answer gallic.voice.craft's B-7 note declined
-to force. What changed since that note: the two grounded pieces it named
-for a later pass (the guest-as-Christ clause, Inst. V.24; the cloak
-vision) now each have a record, and a third piece already carried in
-gallic.term.illusion and gallic.gravity.interior-road at Doc_06 - Martin's
-refusal of a Christ without wounds (Vita XXIV) - was found on re-reading
-to be this world's own most direct statement of who Christ was to it,
-and is given its own verified quote record here. The hours-of-the-passion
-material (Inst. III.3) is the locus the approved prompt's own daily-life
-paragraph already compiles ("Tierce, Sext, and None for the hours the
-Spirit came, the Lord was offered, and He went down into hell"); it was
-re-read at its own lines for this record, and its atonement sentence is
-carried at exactly its own strength in tensions[0] rather than promoted
-into a Gallic doctrine of the cross.
-
-Every locus with a file line number was read at that line in
-cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml for this
-record: Vita III line 801 ("Inasmuch as ye have done these things to one
+Loci read at their own lines in
+cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml for this record:
+Vita III line 801 ("Inasmuch as ye have done these things to one
 of the least of these, ye have done them unto me"), Inst. III.3 lines
 17877-17925 (the passage runs across the page break at line 17905; the
 "ninth hour" sentence begins at line 17920), Inst. XII.9 lines 25041-25050,
 Conf. XIII.7 line 37760, Conf. XIII.17 lines 38532-38535. The Conf. I.13
 kingdom-within clause and the soldier-of-Christ material are cited
-through their term records, verified at Doc_06, not re-read here.
+through their term records and were not re-read for this record.
 
-Reception discipline held: the hours' meaning, the guest as Christ, and
-the grace sentences are all named in the text as what Cassian handed on
-from Egypt or the fathers, never as Gaul's own invention. Node discipline
-held: Tours and Marseilles are given by place, and no sentence has one
-house knowing of the other. The contested Conference XIII is used only
-for two sentences neither pole of the Meaning contest disputes (God draws
-the unwilling; none perish by his will), and tensions[4] names the
-contest rather than resolving it. Reciprocal associated-with declared on
-both quote records.
+The hours, the guest as Christ and the grace sentences are named in the
+text as what Cassian handed on from Egypt or the fathers. The contested
+Conference XIII is used only for two sentences neither side of its
+argument disputes (God draws the unwilling; none perish by his will).
