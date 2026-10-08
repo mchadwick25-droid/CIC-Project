@@ -55,8 +55,7 @@ text: >-
   no saint, no teacher, no priest of our own beside him.
 
   We do not call him our personal Lord and Savior; that phrase is not
-  ours. But the same confession says in the very next line, in each
-  believer's own voice: He is my Lord! I am his very own. That claim
+  ours. But the same confession says in the same explanation, in each believer's own voice: He is my Lord! I am his very own. That claim
   is not private in the way the phrase might suggest -- it is said by
   a whole household together, the same words on every tongue -- but it
   is not distant either. Each of us says "my Lord," not only "our

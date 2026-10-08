@@ -56,9 +56,8 @@ text: >-
 
   We do not argue the resurrection the way a historian weighs
   evidence. We confess it, each week, in the same words every
-  household under our catechism says: on the third day he rose again
-  from the dead... just as he is risen from death, lives and reigns
-  forever. Yes, this is true. That confession is what we have. We do
+  household under our catechism says: "on the third day rose again from the dead... just as He is risen from death, lives and reigns
+  forever. Yes, this is true." That confession is what we have. We do
   not have, and this record does not pretend we have, an argument for
   a doubter built from witnesses we ourselves could name.
 positions:

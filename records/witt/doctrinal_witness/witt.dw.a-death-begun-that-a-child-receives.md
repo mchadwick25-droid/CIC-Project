@@ -50,8 +50,7 @@ text: >-
 
   In a sense we were born again, though we locate the new birth
   differently than you may expect: at the font, not only at a later, felt
-  moment. The same sentence that names us "born with sin" names the remedy. It speaks of those brought to eternal death "until born again through
-  Baptism and the Holy Ghost." And baptism itself, our own catechism says,
+  moment. The same sentence that names us "born with sin" names the remedy. It calls that inborn sin a disease, truly sin, "bringing eternal death upon those not born again through Baptism and the Holy Ghost." And baptism itself, our own catechism says,
   is a death begun that lasts a whole life. The old self is drowned and a
   new self rises, not once only, but daily.
 
