@@ -133,3 +133,31 @@ def test_a_clean_guarded_reply_is_not_cut():
     for chunk in _chunked(RAW, 7):
         stream.feed(chunk)
     assert stream.cut(RAW) is None
+
+
+UNQUOTED_RAW = (
+    "We kept the bread together each week [[w.dw.bread]]. "
+    'Our teacher said "a line no record carries" [[w.quote.song]]. '
+    'He also said "Look, the new song" [[w.quote.song]]. That is what we remember.'
+)
+
+
+@pytest.mark.parametrize("size", [1, 3, 8, 1000])
+def test_a_sentence_whose_marks_came_off_streams_with_them_off_and_the_offsets_of_the_finished_reply(size):
+    events = _streamed(_chunked(UNQUOTED_RAW, size))
+    text, plan = _plan(UNQUOTED_RAW)
+    assert '"line' not in text and "a line no record carries" in text
+    assert [e["text"] for e in events][1] == "Our teacher said a line no record carries."
+    for e in events:
+        assert plan["sentences"][e["index"]] == {"index": e["index"], "text_start": e["text_start"], "text_end": e["text_end"]}
+        assert text[e["text_start"]:e["text_end"]] == e["text"]
+
+
+def test_apply_net_withholds_a_sentence_whose_marks_came_off_and_gives_it_no_citation():
+    text, citations, net = apply_net(UNQUOTED_RAW, repository_records=RECORDS, thin_topics=None)
+    assert text.startswith('We kept the bread together each week. Our teacher said a line no record carries. He also said "Look, the new song"')
+    assert [c["sentence"] for c in citations] == [
+        "We kept the bread together each week.",
+        'He also said "Look, the new song".',
+    ]
+    assert [s["why"] for s in net["sentences"]][1] == "quotation not in records"
