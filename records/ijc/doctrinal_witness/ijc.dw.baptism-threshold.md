@@ -24,7 +24,7 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Were we 'born again'? We would have pointed to baptism, and we took it so
+  We would have pointed to baptism as our 'born again,' and we took it so
   seriously that some of our most famous men put it off for years. Baptism
   here was the real threshold: the washing that
   forgave sins, admitted a person to the altar, and bound them. Constantine,
@@ -64,13 +64,8 @@ use_note:
   years: {from: 337, to: 380}
   status: reviewed
 ---
-F4-T's "born again" question answered through the record's three great
-documented baptisms - the world's real material for the translational
-ask, with the inward-experience gap stated rather than filled.
-Leo's own Sermons IX-X preach a real
-proportional-giving discipline (see ijc.dw.collections-discipline).
-Only the end-times question remains genuinely thin: speculation about
-the end is not this record's genre, and no comparable material was
-found for it.
 
-The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.
+Leo's own Sermons IX-X preach a real proportional-giving discipline (see
+ijc.dw.collections-discipline). The end-times question remains genuinely
+thin: speculation about the end is not this record's genre, and no
+comparable material was found for it.

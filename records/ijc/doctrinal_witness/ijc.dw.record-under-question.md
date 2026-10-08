@@ -24,8 +24,7 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  How much of our story would hold up in a library? More than most
-  ancient worlds, and the places where it would not are known by name. The
+  More of our story would hold up in a library than of most ancient worlds, and the places where it would not are known by name. The
   spine of it is documents: council acts with dates and signatures, church canons,
   imperial laws, and letters between named men about named disputes. A
   historian can cross-check those instruments, and historians do. That is the
@@ -59,11 +58,6 @@ use_note:
   years: {from: 325, to: 451}
   status: reviewed
 ---
-F2-E answered as the world's own honest self-audit - the cell's
-questions ("would it hold up," "isn't it legend," "where is it
-thinnest") each met with the record's real strengths and its named
-gaps. Grounds the same territory ijc.force.transmission-archival and
-ijc.contested.damasine-decretals cover at the mechanism level, here in
-answer-ground form.
 
-The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.
+The same territory is covered at the mechanism level by
+ijc.force.transmission-archival and ijc.contested.damasine-decretals.

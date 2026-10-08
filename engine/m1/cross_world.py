@@ -83,7 +83,6 @@ ACCEPTED_OPEN: dict[str, str] = {
     "spoken-scaffolding/don": "don OG-26 - two spoken fields still open on a question after the don record pass (don.dw.written-by-our-opponents text, don.witness.refusal-and-recourse positions[0]); owned by the don record pass",
     "spoken-scaffolding/gallic": "Question-kind slice - gallic spoken text still opens on a question or carries a stage direction; removed by the gallic record pass",
     "spoken-scaffolding/hal": "Question-kind slice - hal spoken text still opens on a question or carries a stage direction; removed by the hal record pass",
-    "spoken-scaffolding/ijc": "Question-kind slice - ijc spoken text still opens on a question or carries a stage direction; removed by the ijc record pass",
     "spoken-scaffolding/rzg": "Question-kind slice - rzg spoken text still opens on a question or carries a stage direction; removed by the rzg record pass",
     "spoken-scaffolding/syr": "Question-kind slice - syr spoken text still opens on a question or carries a stage direction; removed by the syr record pass",
     "spoken-scaffolding/witt": "Question-kind slice - witt spoken text still opens on a question or carries a stage direction; removed by the witt record pass",
