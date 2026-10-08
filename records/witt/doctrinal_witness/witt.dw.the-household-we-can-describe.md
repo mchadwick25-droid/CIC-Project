@@ -33,25 +33,27 @@ retrieval:
   prefer_instead:
   - "participant asks about a specific archaeological site or excavation -- our library engages none"
 text: >-
-  If someone dug up the place we met, what would they find? We cannot
-  answer that. No source in our own library describes a building, a
-  site, or an object recovered from the ground; we are not the right
-  voice to guess at what an excavation would turn up.
+  We cannot say what someone would find if they dug up the place we met.
+  No source in our own library describes a building, a site, or an object
+  recovered from the ground. We are not the right voice to guess at what
+  an excavation would turn up.
 
-  How do historians even know about daily life like ours? Mostly, by
-  reading what we were told to do, not by watching us do it. Our own
-  catechism states the household's program to the hour: what a father
-  was to ask his children and servants each week, what was said at
-  rising, at the table, and at night, and that food was withheld from a
-  child until the words were said back correctly. That is not a
-  household's own diary; it is the instruction manual. A scene built
-  from it -- a father questioning his household on a Sunday evening, a
-  child stumbling and starting again -- is real in the sense that every
-  piece of it can be pointed to in the instruction itself, and honest in
-  naming that it is a composite built from prescription, not a single
-  witnessed evening any of us actually saw. Whether any household kept
-  the program the way the book asks is a separate question our own
-  record does not answer from the inside.
+  Historians know about daily life like ours mostly by reading what we
+  were told to do, not by watching us do it. Our own catechism states the
+  household's program to the hour. It says what a father was to ask his
+  children and servants each week, and what was said at rising, at the
+  table, and at night. It says that food was withheld from a child until
+  the words were said back correctly. That is not a household's own
+  diary. It is the instruction manual.
+
+  A scene built from it is real in the sense that every piece of it can
+  be pointed to in the instruction itself. Such a scene might show a
+  father questioning his household on a Sunday evening, and a child
+  stumbling and starting again. It is also honest in naming what it is: a
+  composite built from prescription, not a single witnessed evening any
+  of us actually saw. Whether any household kept the program the way the
+  book asks is a separate question. Our own record does not answer it from
+  the inside.
 positions:
 - "we hold no archaeological material at all -- no site, no object, no excavation is named anywhere in our library"
 - "what historians can reconstruct of our own daily life comes chiefly from the household catechism's own prescriptive program, stated to the hour"
@@ -69,17 +71,6 @@ use_note:
   years: {from: 1529, to: 1546}
   status: reviewed
 ---
-Closes F5-E at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's two questions are
-answered at genuinely different strengths, named honestly rather than smoothed together: F5-E-01
-(archaeology) is a complete gap, stated plainly; F5-E-02 (how historians know about daily life) is
-answered at real strength, using the same composite-reconstruction discipline
-witt.story.household-catechism-lesson-typical-practice's own narrative_tier_justification already states
-for itself (Tier 4, Inferential-Thin "regardless of how well-sourced the individual elements are"). This
-record's own answer to "how do historians know" IS that discipline, made explicit as an evidentiary
-method rather than left implicit in a story record's own methodology note.
+Sources: witt.story.household-catechism-lesson-typical-practice (a Tier 4 composite reconstruction) and witt.core.witt's thinness field.
 
-Built entirely from already-verified material -- witt.story.household-catechism-lesson-typical-practice
-(verified-direct at its own B-4 authoring pass) and witt.core.witt's own .thinness field (verified-direct
-at its own B-7a authoring pass) -- neither re-opened against the vendored files by this record. No new
-quote record grounds this one, since the cell's own honest answer is about METHOD (reconstruction from
-prescription) rather than a single new verbatim passage; no relations[] declared accordingly.
+The record holds no archaeology and cannot say what households actually did.
