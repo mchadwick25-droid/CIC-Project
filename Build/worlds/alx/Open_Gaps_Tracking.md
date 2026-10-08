@@ -445,3 +445,17 @@ Gates, 2026-10-06 (after round 1 revisions). `engine.m10.cli records alx`: PASS.
 CI after the push: the embedded-quotation survey counted one fewer alx record (9 to 8) because the removed scaffolding in `alx.dw.was-jesus-god` quoted the question "Was Jesus God? Did you believe in the Trinity?"; the survey's alx baseline in `engine/m1/tests/test_embedded_quotations.py` moved to 8. The site JSON for alx (`cic-website/data/worlds/alexandria-catechetical.json`) was recompiled because its narrative was stale against the records.
 
 Status: round 2 (Opus, `Build/Ministry/Operations/Audits/alx_identity_scaffolding_review_round2_2026-10-06.md`) cleared the records and ruled the two kept body lines legitimate record notes. Approved to proceed. On merging main (2026-10-07), the scaffolding check found no spoken field left to flag, so the `spoken-scaffolding/alx` waiver was removed from `engine/m1/cross_world.py`; this closes "Spoken text opens on a question or carries a stage direction" (2026-10-06).
+
+### OG-19. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
+
+Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-alx-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
+
+(1) (B) "Why did your people believe this?": John 1:1 and 1:14 are quoted ("In the beginning was the Word… And the Word became flesh and dwelt among us"). No alx record carries the text; `alx.term.logos` cites John 1:1-14 by reference only.
+
+(2) (C) "Who is Jesus?": the whole reply is `alx.demo.who-was-jesus` word for word (a 154-word shared run in a 152-word reply).
+
+(3) (E) "Why did your people believe this?": "Students like Gregory came in wanting philosophy", set under "we… in Alexandria". `alx.story.gregory-formation` has Gregory come to study law and meet Origen at Caesarea, and its not_for bars relocating the account to Alexandria.
+
+(4) (E) "What does Logos mean?": "The word came to us from the Greeks - they used it for the rational principle that holds the cosmos together." No record says this. `alx.force.philonic-inheritance` names Philo of Alexandria, and the reply reuses that record's own sentence with Philo removed.
+
+Status: OPEN.

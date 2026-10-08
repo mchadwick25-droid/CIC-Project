@@ -677,3 +677,13 @@ Gates: `records cappadocian` PASS; `regate cappadocian --base origin/main` PASS;
 Package: `packages/cappadocian/2026-10-06T23-00-29Z`, pinned in `records/worlds/cappadocian.yaml`.
 
 Status: round 2 (Opus, `Build/Ministry/Operations/Audits/cappadocian_identity_scaffolding_review_round2_2026-10-06.md`) cleared the records and OG-36. Approved to proceed.
+
+### OG-37. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
+
+Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-cappadocian-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
+
+(1) (A) "What did he do?": the line credited to "one of our teachers" opens as `cappadocian.quote.gregory-nyssa-on-becoming-god` but ends "so that humanity, by its communion with the divine, might itself be made divine". The record reads "so that our nature, through this transfusion of the divine, might itself become divine". The grounding net passed the sentence; the next reply quotes the same record correctly.
+
+(2) (C) "Who is Jesus?": the whole reply is `cappadocian.demo.who-was-jesus` word for word (a 216-word shared run in a 214-word reply).
+
+Status: OPEN.
