@@ -81,8 +81,6 @@ ACCEPTED_OPEN: dict[str, str] = {
     # rzg's own build thread.
     "required-record-type/rzg/search_record": "CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
     "spoken-scaffolding/gallic": "gallic OG-29 - one spoken field still opens on a question after the gallic record pass (gallic.term.progress-vs-alteration plain_meaning, which quotes Vincent's own question); owned by the record pass",
-    "spoken-scaffolding/syr": "Question-kind slice - syr spoken text still opens on a question or carries a stage direction; removed by the syr record pass",
-    "spoken-scaffolding/witt": "Question-kind slice - witt spoken text still opens on a question or carries a stage direction; removed by the witt record pass",
 }
 
 # A waiver above on a world outside engine.m9.enforce.GRANDFATHERED_WORLDS is

@@ -20,6 +20,7 @@ import sys
 from pathlib import Path
 
 from engine.m8.parity import assert_parity
+from engine.provider import guard
 from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
 
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "cache-economics-report.json"
@@ -72,6 +73,7 @@ def run(region: str, samples: int = 3) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
+    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     parser.add_argument("--samples", type=int, default=3)
     args = parser.parse_args()
