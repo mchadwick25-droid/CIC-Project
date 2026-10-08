@@ -52,6 +52,7 @@ from engine.m4.entrance import open_session
 from engine.m4.grants import GrantProvider
 from engine.m4.grants import resolve as resolve_grant
 from engine.m4.projection import SessionState, project_fresh
+from engine.m4.rhythm import tally_from_transcript
 from engine.m4.round import (
     TABLE_SESSION_ROUND_CAP,
     RoundConfig,
@@ -932,6 +933,7 @@ def _advance_open_round(
             already_told_ids=already_told,
             already_bridged_figure_ids=already_figures,
             already_bridged_gloss_ids=already_glosses,
+            rhythm=tally_from_transcript(transcript, speaker=selection.world_key, question_recorded=True),
             history=history,
             context_prefix=_context_prefix(pending) if other_voice_has_spoken else None,
             secondary_context=_secondary_context_text(pending) if other_voice_has_spoken else None,

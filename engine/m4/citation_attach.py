@@ -16,7 +16,7 @@ import time
 
 import anthropic
 
-from engine.m4.grounding_net import _groundable_text
+from engine.m4.grounding_net import REASON_QUOTATION_NOT_IN_RECORDS, REASON_WORDS_WITHOUT_QUOTE_RECORD, _groundable_text
 from engine.m4.uncited_claims import find_uncited_claims
 from engine.m8.usage import UsageRecord, record_usage
 from engine.provider.bedrock import normalize_usage
@@ -115,7 +115,11 @@ def attach_citations(
     "attached": True. The trail records every proposal and its verdict for
     the turn's audit."""
     sentences = [s["sentence"] for s in net_result["sentences"]]
-    uncited = [o["sentence"] for o in find_uncited_claims(net_result["sentences"])]
+    quotation_withheld = {
+        s["sentence"] for s in net_result["sentences"]
+        if s.get("why") in (REASON_QUOTATION_NOT_IN_RECORDS, REASON_WORDS_WITHOUT_QUOTE_RECORD)
+    }
+    uncited = [o["sentence"] for o in find_uncited_claims(net_result["sentences"]) if o["sentence"] not in quotation_withheld]
     valid = citable_ids(prompt_text, repository_records)
     if not uncited or not valid:
         return [], [], []

@@ -114,13 +114,18 @@ def test_curly_quotation_marks_place_the_same_way():
 def test_a_quotation_the_splitter_re_merged_across_a_stop_is_one_element():
     """A stop inside the quotation does not end the sentence, so the
     quote's mark follows the whole quotation, not its first half."""
-    raw = f'Origen spoke. He wrote "{QUOTED_WORDS}. The disciples taught it." and kept to it [[{QUOTE_ID}]]. Then more.'
+    quotation = (
+        "his disciples committed themselves to teaching a doctrine that put their own lives in danger. "
+        "It was a doctrine they would not have taught with such courage"
+    )
+    assert quotation in REPO[QUOTE_ID]["modern_rendering"]
+    raw = f'Origen spoke. He wrote "{quotation}." and kept to it [[{QUOTE_ID}]]. Then more.'
     net_result = check_turn_with_paragraph_coverage(raw, REPO)
     text = strip_tags(raw)
     citations = [{"sentence": s["sentence"], "record_ids": s["tags"]} for s in net_result["sentences"] if s["verdict"] == "ok" and s["tags"]]
     plan = build_transparency_plan(citations=citations, net_result=net_result, repository_records=REPO, world_key="alx", text=text)
     [element] = _of(plan, QUOTE_ID)
-    assert element["surface"] == f'"{QUOTED_WORDS}. The disciples taught it."'
+    assert element["surface"] == f'"{quotation}."'
     span = plan["sentences"][element["sentence_index"]]
     sentence = text[span["text_start"]:span["text_end"]]
     assert sentence[element["char_end"]:] == " and kept to it."
@@ -315,14 +320,35 @@ def test_the_mark_cap_scales_with_sentence_count_between_three_and_eight():
     assert [mark_cap(n) for n in (1, 6, 8, 9, 16, 40)] == [3, 3, 4, 5, 8, 8]
 
 
-def test_over_the_cap_terms_then_figures_then_stories_drop_latest_first_and_quotes_never():
+def test_over_the_cap_figures_then_stories_drop_latest_first_and_quotes_and_terms_never():
     from engine.m4.transparency_plan import _drawn_within_cap
     elements = [_el("quote", 0), _el("story", 1), _el("term", 1, 0, 3), _el("figure", 2, 0, 3),
                 _el("term", 3, 0, 3), _el("quote", 4), _el("story", 5)]
     kept = _drawn_within_cap(elements, 6)
-    assert [e["kind"] for e in kept] == ["quote", "story", "quote"]
+    assert [e["kind"] for e in kept] == ["quote", "story", "term", "term", "quote"]
     kept = _drawn_within_cap(elements, 10)
-    assert [e["kind"] for e in kept] == ["quote", "story", "figure", "quote", "story"]
+    assert [e["kind"] for e in kept] == [e["kind"] for e in elements]
+
+
+def test_ten_glossed_words_and_two_figures_keep_every_gloss_mark_and_the_cap_bounds_the_figures():
+    from engine.m4.transparency_plan import _drawn_within_cap
+    glosses = [_el("term", i, 0, 3) for i in range(10)]
+    figures = [_el("figure", 10 + i, 0, 3) for i in range(2)]
+    kept = _drawn_within_cap(glosses + figures, 1)
+    assert [e for e in kept if e["kind"] == "term"] == glosses
+    assert [e["record_id"] for e in kept if e["kind"] == "figure"] == [f["record_id"] for f in figures]
+    kept = _drawn_within_cap(glosses + figures + [_el("figure", 12, 0, 3), _el("figure", 13, 0, 3)], 1)
+    assert [e["kind"] for e in kept].count("term") == 10
+    assert [e["kind"] for e in kept].count("figure") == 3
+
+
+def test_the_cap_order_for_figures_and_stories_is_unchanged_with_terms_present():
+    from engine.m4.transparency_plan import _drawn_within_cap
+    elements = [_el("term", 0, 0, 3), _el("figure", 1, 0, 3), _el("story", 2), _el("figure", 3, 0, 3), _el("story", 4), _el("quote", 5)]
+    kept = _drawn_within_cap(elements, 4)
+    assert [(e["kind"], e["sentence_index"]) for e in kept] == [("term", 0), ("story", 2), ("story", 4), ("quote", 5)]
+    kept = _drawn_within_cap(elements[:-1], 4)
+    assert [(e["kind"], e["sentence_index"]) for e in kept] == [("term", 0), ("figure", 1), ("story", 2), ("story", 4)]
 
 
 def test_an_overlapping_later_word_mark_is_not_drawn():

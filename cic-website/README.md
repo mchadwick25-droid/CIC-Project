@@ -11,7 +11,7 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 - `about.html` — Mission, the Five Convictions, How It Works, Safety & Disclosure, About Us
 - `support.html` — "Get Involved," rewritten with real cost figures; see its own
   header comment and the funding-strategy decision record under
-  `Build/Ministry/Features/Funding-Strategy/` for the full derivation. Currently
+  the project's private funding-strategy material for the full derivation. Currently
   unlinked from the site nav — needs a content refresh; the homepage's own
   "Keep the Door Open" section carries the real Stripe give links directly,
   so giving still works with this page unlinked. Names one fund,
@@ -25,7 +25,7 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
   the code. Switched off: nothing links to them, they are marked noindex, and
   the buy button stays hidden until a Payment Link is set in the page. The
   shared script is `assets/go-deeper.js`. Decision record under
-  `Build/Ministry/Features/Funding-Strategy/`.
+  the project's private funding-strategy material.
 
 Copy is pulled directly from `Vision, Mission, Convictions, and Foundational
 Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.
@@ -33,7 +33,7 @@ Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.
 Corporation, Entity ID 20261918758; not a nonprofit, no 501(c)(3),
 contributions are not tax-deductible). The Support page's giving mechanics
 (see the Pages section above) are built around the monetization ladder in
-`Build/Ministry/Funding/CiC_Go_Live_Cost_Model_V0_1.md`, not charitable-deductibility
+the project's private go-live cost model, not charitable-deductibility
 framing — see that file before changing the ask copy or amounts.
 
 ## Deploying (Cloudflare Pages — free tier, recommended)

@@ -2424,7 +2424,11 @@ Open questions left by three contested-claim records. `witt.contested.household-
 
 Status: OPEN.
 
-## OG-59. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
+## OG-59. Spoken text opens on a question or carries a stage direction, 2026-10-06.
+
+12 spoken field(s) across 12 record(s) in witness, term and story text have a first sentence that ends in a question mark, or carry "your second question", "start with the part", "you asked" or "as you asked". The voice answers in the kind the participant asked, so spoken text must start with the answer. Content for this world's record pass; the check is `spoken_scaffolding.scaffolding_hits`. Waived in `engine/m1/cross_world.py` as `spoken-scaffolding/witt` until the pass lands; the pass removes the waiver. First record: `witt.dw.a-death-begun-that-a-child-receives`.
+
+## OG-60. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
 
 Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-witt-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
 
