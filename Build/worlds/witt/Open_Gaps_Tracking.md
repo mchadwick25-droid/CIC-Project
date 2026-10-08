@@ -2484,6 +2484,6 @@ Mark ruled on these in session (converged, auto mode, 2026-10-08). They are mean
 
 **Not changed, flagged for Mark.** `witt.quote.the-poor-man-who-comes-to-you` still says "the sharpest language this household book uses anywhere" in `modern_lens_note` and "He will not let it go unanswered" in `modern_rendering`. This is the quote-record side of the same two claims (item (4) of the slice 6 entry). A `modern_rendering` is authored by Opus under the project rules, and editing a quote record was not in the ruling, so both stay until you decide. Until then the voice can still say them from that record.
 
-**Gates.** `engine.m10.cli records witt` and `regate witt --base origin/main`: pass. Package rebuilt after the record edits: `records/worlds/witt.yaml` pins `packages/witt/2026-10-08T19-30-45Z`, `manifest_hash` `sha256:ac378d165dc010800d5caee5e20a2f150960d7f5448d8f3c6263c856f86a8e84`.
+**Gates.** `engine.m10.cli records witt` and `regate witt --base origin/main`: pass. Package rebuilt after the record edits: `records/worlds/witt.yaml` pins `packages/witt/2026-10-08T19-54-22Z`, `manifest_hash` `sha256:8004238c53e09e763be3a28e1bde60d8eb951a0fc50214383b25153532e2943b`.
 
 Status: CLOSED, except the quote-record items above, which are OPEN.
