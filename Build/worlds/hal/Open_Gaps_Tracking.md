@@ -553,4 +553,6 @@ Status: OPEN.
 
 **Revision after review round 1 (2026-10-07):** `apostolic`, `marriage-ending`, `hell`, `practices` openers and the `one-church` and `hell` bodies were changed as described above; `was-jesus-god` "the answer" became "it". Package, pin and site JSON rebuilt.
 
-**Status:** OPEN. Awaiting independent review.
+**Merge with main and gate fix (2026-10-08):** main had taken OG-14 and OG-15 for the scaffolding-check and staging-reading entries, so this entry is OG-16. The `no-build-attribution` gate matched "not a ruling" in the `marriage-ending` opener written for review round 1; the opener now reads "Our answer was Fabiola rather than a ruling: divorced, she belonged here." Same claim, same order. The hal "spoken-scaffolding" waiver is removed from `engine/m1/cross_world.py`, because the scaffolding check finds nothing left for hal. Package `packages/hal/2026-10-08T05-12-13Z`, pinned in `records/worlds/hal.yaml`; site JSON recompiled.
+
+**Status:** OPEN. Awaiting the round 2 targeted recheck.
