@@ -85,7 +85,6 @@ ACCEPTED_OPEN: dict[str, str] = {
     "spoken-scaffolding/hal": "Question-kind slice - hal spoken text still opens on a question or carries a stage direction; removed by the hal record pass",
     "spoken-scaffolding/ijc": "Question-kind slice - ijc spoken text still opens on a question or carries a stage direction; removed by the ijc record pass",
     "spoken-scaffolding/rzg": "Question-kind slice - rzg spoken text still opens on a question or carries a stage direction; removed by the rzg record pass",
-    "spoken-scaffolding/syr": "Question-kind slice - syr spoken text still opens on a question or carries a stage direction; removed by the syr record pass",
     "spoken-scaffolding/witt": "Question-kind slice - witt spoken text still opens on a question or carries a stage direction; removed by the witt record pass",
 }
 
