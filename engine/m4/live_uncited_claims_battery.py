@@ -220,7 +220,7 @@ def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key
     paragraph-unit enforcement would name."""
     gate_run = run_gate(
         session_id=session_id, safety_client=client, safety_model_id=safety_model_id,
-        participant_message=message, pressed={}, anachronistic_term_ids=set(),
+        participant_message=message, pressed={}, anachronistic_term_ids=set(), world_key=world_key,
     )
     for rec in gate_run.usage_records:
         usage_store.append(rec)
@@ -562,7 +562,7 @@ def run_enforced(region: str, *, world_keys: list[str], table_world_keys: list[s
                 session_id = f"uncited-claims-enforced-battery-{world_key}-{probe_id}"
                 gate_run = run_gate(
                     session_id=session_id, safety_client=client, safety_model_id=safety_model_id,
-                    participant_message=message, pressed={}, anachronistic_term_ids=set(),
+                    participant_message=message, pressed={}, anachronistic_term_ids=set(), world_key=world_key,
                 )
                 for rec in gate_run.usage_records:
                     usage_store.append(rec)

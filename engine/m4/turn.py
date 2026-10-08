@@ -216,9 +216,9 @@ def _maybe_record_usage(outcome: CallOutcome, *, session_id: str, call_kind: str
     turn, not as a separate exercise run occasionally. A divergence raises
     loudly here rather than silently producing a wrong attributed number.
 
-    world_key (Artifact-7 SS7): set for table-mode voice/selector calls so
-    per-world cost at a shared table is answerable; None everywhere else -
-    an interview session's calls are attributable from session_id alone."""
+    world_key (Artifact-7 SS7): the world the call served, so per-world cost
+    is answerable; None only for the Table's gate calls, which serve several
+    worlds at once."""
     if outcome.raw_usage is None:
         return None
     from engine.m8.parity import assert_parity

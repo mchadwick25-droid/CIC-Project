@@ -373,3 +373,27 @@ def test_the_preflight_cli_runs_end_to_end_under_a_cap(seam, monkeypatch, tmp_pa
     preflight.main()
     kinds = [e[0] for e in seam.events]
     assert kinds[:3] == ["constructed", "header", "call"] and kinds.count("call") == 3
+
+
+def test_a_call_that_raises_is_charged_at_its_full_hold(seam, monkeypatch):
+    _approve(monkeypatch)
+    model_id = bedrock.resolve_model_id("haiku-4-5", "us-east-1")
+
+    def boom(**kw):
+        raise TimeoutError("timed out after the request was sent")
+
+    client = bedrock.make_client("us-east-1")
+    client.messages._inner.create = boom
+    with pytest.raises(TimeoutError):
+        client.messages.create(model=model_id, max_tokens=1000, system="s", messages=[])
+    assert guard.priced_total() > 0
+    assert guard._run.reserved == pytest.approx(0)
+
+
+def test_tools_count_toward_the_estimate(seam, monkeypatch):
+    monkeypatch.setattr(sys, "argv", ["prog", "--live-test", "t", "--cap-usd", "0.01"])
+    model_id = bedrock.resolve_model_id("haiku-4-5", "us-east-1")
+    client = bedrock.make_client("us-east-1")
+    with pytest.raises(guard.LiveTestCapReached):
+        client.messages.create(model=model_id, max_tokens=1, messages=[], tools=[{"description": "x" * 30_000}])
+    assert seam.calls == []

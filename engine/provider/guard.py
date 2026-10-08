@@ -179,6 +179,8 @@ def wrap(client, live_test: LiveTest | None, *, provider: str, region: str | Non
     global _run
     if live_test is None:
         return client
+    if hasattr(client, "with_options"):
+        client = client.with_options(max_retries=0)  # a retried request is billed again; the cap counts each request once
     with _state_lock:
         if _run is None or _run.live_test != live_test:
             _run = _Run(live_test, provider=provider, region=region)
@@ -238,7 +240,7 @@ class _Run:
                 self._announce(model_id)
             if model_id not in self.announced:
                 raise LiveTestGuardError(f"model {model_id!r} was not in the settings printed before the first call: {', '.join(self.announced)}")
-            input_tokens = len(json.dumps([kwargs.get("system"), kwargs.get("messages")], default=str)) / _CHARS_PER_TOKEN_FLOOR
+            input_tokens = len(json.dumps([kwargs.get("system"), kwargs.get("messages"), kwargs.get("tools")], default=str)) / _CHARS_PER_TOKEN_FLOOR
             ceiling = input_tokens * max(table.input_per_token, table.cache_write_per_token) + (kwargs.get("max_tokens") or _DEFAULT_MAX_TOKENS) * table.output_per_token
             if self.spent + self.reserved + ceiling > self.live_test.cap_usd:
                 if not self.cap_notice_given:
@@ -248,15 +250,16 @@ class _Run:
             self.reserved += ceiling
             return ceiling
 
-    def settle(self, hold: float, model_id: str, usage) -> None:
-        """Replaces the hold with the call's priced usage. No usage (a call
-        that raised before answering) releases the hold at no cost."""
+    def settle(self, hold: float, model_id: str, usage, *, failed: bool = False) -> None:
+        """Replaces the hold with the call's priced usage. A call that raised
+        may have been billed for work the client never saw, so it is charged
+        at its full hold; nothing is released as free."""
         from engine.m8.cost import estimate_cost
         from engine.provider.bedrock import normalize_usage
 
-        dollars = 0.0
-        entry = {"model_id": model_id, "priced_dollars": 0.0, "usage": None}
-        if usage is not None:
+        dollars = hold if failed else 0.0
+        entry = {"model_id": model_id, "priced_dollars": dollars, "usage": None, "failed": failed}
+        if usage is not None and not failed:
             normalized = normalize_usage(usage)
             dollars = estimate_cost(normalized, self._price(model_id)).dollars
             entry = {
@@ -284,21 +287,21 @@ class _GuardedStream:
         try:
             self._stream = self._manager.__enter__()
         except BaseException:
-            self._run.settle(self._hold, self._model_id, None)
+            self._run.settle(self._hold, self._model_id, None, failed=True)
             raise
         return self._stream
 
     def __exit__(self, exc_type, exc, tb):
         usage = None
-        if self._stream is not None:
+        if self._stream is not None and exc_type is None:
             try:
-                usage = self._stream.get_final_message().usage if exc_type is None else self._stream.current_message_snapshot.usage
+                usage = self._stream.get_final_message().usage
             except Exception:
                 usage = None
         try:
             return self._manager.__exit__(exc_type, exc, tb)
         finally:
-            self._run.settle(self._hold, self._model_id, usage)
+            self._run.settle(self._hold, self._model_id, usage, failed=usage is None)
 
 
 class _GuardedMessages:
@@ -311,9 +314,10 @@ class _GuardedMessages:
         try:
             response = self._inner.create(**kwargs)
         except BaseException:
-            self._run.settle(hold, kwargs["model"], None)
+            self._run.settle(hold, kwargs["model"], None, failed=True)
             raise
-        self._run.settle(hold, kwargs["model"], getattr(response, "usage", None))
+        usage = getattr(response, "usage", None)
+        self._run.settle(hold, kwargs["model"], usage, failed=usage is None)
         return response
 
     def stream(self, **kwargs):
@@ -321,7 +325,7 @@ class _GuardedMessages:
         try:
             manager = self._inner.stream(**kwargs)
         except BaseException:
-            self._run.settle(hold, kwargs["model"], None)
+            self._run.settle(hold, kwargs["model"], None, failed=True)
             raise
         return _GuardedStream(manager, self._run, hold, kwargs["model"])
 

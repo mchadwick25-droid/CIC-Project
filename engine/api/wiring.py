@@ -680,7 +680,7 @@ def get_usage_summary(
     for record in usage_store.read_all():
         key = record.world_key or _UNATTRIBUTED_WORLD_KEY
         test_bucket = (
-            logged_tests.setdefault(record.live_test, {"calls": 0, "priced_dollars": 0.0, "routes": set(), "worlds": set()})
+            logged_tests.setdefault(record.live_test, {"calls": 0, "priced_dollars": 0.0, "unpriced_calls": 0, "routes": set(), "worlds": set()})
             if record.live_test else None
         )
         use_bucket = test_bucket if test_bucket is not None else live_use
@@ -707,8 +707,7 @@ def get_usage_summary(
         if price_table is None:
             bucket["unpriced_calls"] += 1
             route_bucket["unpriced_calls"] += 1
-            if test_bucket is None:
-                live_use["unpriced_calls"] += 1
+            use_bucket["unpriced_calls"] += 1
         else:
             dollars = estimate_cost(record.usage, price_table).dollars
             use_bucket["priced_dollars"] += dollars
@@ -720,7 +719,8 @@ def get_usage_summary(
 
     named: list[NamedTest] = [
         NamedTest(
-            "usage log", name, None, ", ".join(sorted(b["routes"])), b["priced_dollars"], b["calls"], sorted(b["worlds"]), ["cap_usd"],
+            "usage log", name, None, ", ".join(sorted(b["routes"])), b["priced_dollars"], b["calls"], sorted(b["worlds"]),
+            ["cap_usd"] + (["priced_total_usd (some calls unpriced)"] if b["unpriced_calls"] else []),
         )
         for name, b in sorted(logged_tests.items())
     ]

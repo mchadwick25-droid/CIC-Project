@@ -7,7 +7,7 @@ import pytest
 
 from engine.m4 import live_turn_run
 from engine.m4.tests.test_turn import FakeBedrockClient, _reader, _safety
-from engine.provider import bedrock, guard
+from engine.provider import guard
 
 HAIKU = "us.anthropic.claude-haiku-4-5-20251001-v1:0"
 SONNET = "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
@@ -43,7 +43,6 @@ def test_the_report_carries_the_live_test_and_a_world_on_every_call(monkeypatch)
     assert 0 < summary["priced_total_usd"] <= 2.0
     assert {row["call_kind"] for row in report["usage"]} == {"safety_call", "reader_call", "voice_generation"}
     assert all(row["world_key"] == "fix" and row["live_test"] == "report proof" for row in report["usage"])
-    assert bedrock.__name__  # the seam, not a wrapper in the runner, did the work
 
 
 def test_a_report_made_outside_a_live_test_says_so(monkeypatch):
