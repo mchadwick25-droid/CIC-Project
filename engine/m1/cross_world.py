@@ -80,8 +80,6 @@ ACCEPTED_OPEN: dict[str, str] = {
     # Search feature's own migration has not reached rzg yet. Belongs to
     # rzg's own build thread.
     "required-record-type/rzg/search_record": "CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
-    "spoken-scaffolding/don": "don OG-26 - two spoken fields still open on a question after the don record pass (don.dw.written-by-our-opponents text, don.witness.refusal-and-recourse positions[0]); owned by the don record pass",
-    "spoken-scaffolding/witt": "Question-kind slice - witt spoken text still opens on a question or carries a stage direction; removed by the witt record pass",
 }
 
 # A waiver above on a world outside engine.m9.enforce.GRANDFATHERED_WORLDS is

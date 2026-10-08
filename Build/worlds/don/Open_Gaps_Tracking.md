@@ -906,3 +906,23 @@ Errors in the voice's replies in the named, capped live test "voice hand-off sta
 (1) (D) "What did he do?": "If you are asking how the cross saves, we cannot tell you" answers a question the participant did not ask. It reworks the scripted "Your second question we have to hand back to you" paragraph of `don.dw.the-creed-we-shared`, as that record stood at ccc0ae4e, lifting most of it almost word for word. The "who" reply no longer shows the 5 October deflection.
 
 Status: OPEN.
+
+### OG-28. The two spoken fields left open by the record pass, closed, 2026-10-08.
+
+Closes "Spoken text opens on a question after the record pass, 2026-10-07". This is new work on two fields, not a further round on the identity-and-scaffolding pass, whose review cap stands. `scaffolding_hits` now finds nothing for this world, and the `spoken-scaffolding/don` waiver is removed from `engine/m1/cross_world.py`. Review: `Build/Ministry/Operations/Audits/don_leftovers_scaffolding_review_2026-10-08.md` (Opus 5.5, one review).
+
+**Fields changed.**
+- `don.dw.written-by-our-opponents` `text`. Old first two sentences: "A historian would ask one question about everything we have said, and it is the right question: who wrote it down? The answer, for nearly all of it, is our enemies." New: "Almost everything we have said was written down by our enemies, and a historian is right to ask who wrote it down." The enemies claim is kept; the rest of the text is unchanged.
+- `don.witness.refusal-and-recourse` `positions[0]`. It now opens "We hold that the question of which church is the true one is not the emperor's to settle." The primate's line follows as a quotation, not as the opener. A quoted question counts as scaffolding when it is the first sentence; here it no longer is.
+
+**Quote corrected to its source.** `positions[0]` quoted the retort as "What has the emperor to do with the church?" with lower-case "emperor" and "church". `cic/texts/optatus_against-the-donatists.txt` line 1904 reads "What has the Emperor to do with the Church?", as does `don.quote.donatus-quid-est-imperatori`. The field now matches both. No other quote in either record was touched.
+
+**Commentary removed** from both bodies: "Closes F2-E ...", the "same discipline as cappadocian" note, "already-cleared", and "reciprocal edges added ... after this script runs". Also removed: "T1 already has ... this is the first", "which is a harder and truer thing to say", and the quotation marks around the inverse-proportion sentence, which `world_core` does not contain word for word. Kept: the source basis (`world_core` `thinness` and `cautions`), the two transcript record ids and the Doc_04/Doc_07 grounding. Added: the Optatus line pointer (from the record's own `sources` locus). Kept also: the fact that the fourth variant of cell F2-E has no ground in `records/don/`.
+
+**Not changed.** `don.dw.written-by-our-opponents` still tells the participant "ask first whether the detail is ours or the detail of a man who needed it to land a blow". That is advice inside the world's own claim about its sources, not a stage direction on the reply, and it is carried as is.
+
+**Carried, for the build thread.** `don.witness.refusal-and-recourse` `sources[0].locus` puts the Latin retort at Optatus line 1904, but that line holds only the English; the Latin is in `cic/texts/optatus_libri-vii-critical_ziwsa1893.txt` at line 6557.
+
+**Gates.** `engine.m10.cli records don`, `regate don --base origin/main` and `engine.m9.cli check`: pass. The readability waiver `m1:readability/don` in `engine/m9/enforce.py` is tightened from 327 to 326. Package rebuilt after the record edits: `records/worlds/don.yaml` pins `packages/don/2026-10-08T15-41-59Z`, `manifest_hash` `sha256:d98ede906cfba7b5afc451b6f6b70d5d8a09b000a2430b6102307fe3df93c227`.
+
+Status: CLOSED.
