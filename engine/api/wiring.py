@@ -21,6 +21,7 @@ from engine.m4 import events, facilitator_turns, session_code
 from engine.m4.entrance import open_session
 from engine.m4.package_fetch import ensure_package_local
 from engine.m4.projection import SessionState, project_fresh
+from engine.m4.rhythm import tally_from_transcript
 from engine.m4.store import Store
 from engine.m4 import evidence as ev
 from engine.m4 import turn as turn_module
@@ -917,6 +918,8 @@ def handle_message(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
+            previous_kind=state.last_kind,
+            rhythm=tally_from_transcript(state.transcript),
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=state.world_key) if r27_enforce else None,
             other_tradition_evidence_ids=other_tradition_evidence_ids,

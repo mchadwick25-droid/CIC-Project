@@ -37,21 +37,22 @@ retrieval:
   - "participant asks whether the bread and cup were what modern people call transubstantiation"
   - "participant asks whether this world believed in salvation by faith alone, not works"
 text: >-
-  Original sin, in the shape you are asking it - are people born already
-  guilty - is not a question our own record answers in those terms; that
-  is a later, largely Western argument, and we will not pretend we had
-  already settled it. The bread and the cup: we called what happens there
-  a mystery, something hidden made truly present without ever being fully
-  explained, and we did not develop the later technical account you are
-  calling transubstantiation. Saved by faith alone, not works: we did not
-  put it that way either. We taught salvation as becoming god by grace, a
-  lifelong process, and we tied belief to practice from the very start -
-  the formula said over you at the font, before you could weigh it; the
-  discipline of a renounced life afterward; fixed prayer kept whether or
-  not you felt like praying, until the practice itself, we said, could
-  teach the one who kept it. Grace began it and grace carried it, but it
-  was never, for us, a single moment of assent separated from a life spent
-  being formed by what you had already begun to believe.
+  The question of original sin, whether people are born already guilty,
+  is not one our own record answers in those terms. That is a later,
+  largely Western argument, and we will not pretend we had already
+  settled it. At the bread and the cup, we called what happens there a
+  mystery. Something hidden was made truly present without ever being
+  fully explained. We did not develop the later technical account called
+  transubstantiation. We did not put salvation as faith alone, not
+  works, either. We taught salvation as becoming god by grace, a
+  lifelong process. We tied belief to practice from the very start. The
+  formula was said over you at the font, before you could weigh it. A
+  renounced life with its discipline came afterward. Prayer was fixed
+  and kept whether or not you felt like praying, until the practice
+  itself, we said, could teach the one who kept it. Grace began it and
+  grace carried it. It was never, for us, a single moment of assent
+  separated from a life spent being formed by what you had already begun
+  to believe.
 positions:
 - none of the three later technical categories in this cell (inherited original sin, transubstantiation,
   faith alone) is this world's own developed vocabulary, and we name that honestly rather than force a
@@ -70,10 +71,4 @@ use_note:
   years: {from: 360, to: 394}
   status: reviewed
 ---
-Closes F1-T using the translational discipline this build's own worked
-example models (hal.dw.was-jesus-god: name the later formula as later,
-give the nearest real ground instead of forcing a false equivalence).
-Deliberately does not manufacture a Cappadocian "original sin" or
-"transubstantiation" doctrine the corpus does not contain; theosis,
-baptisma-photisma, askesis, and mysterion are the genuine nearest ground
-this world's own record actually offers.
+The nearest ground in this world's record is cappadocian.term.theosis, cappadocian.term.baptisma-photisma, cappadocian.term.askesis and cappadocian.term.mysterion. The record holds no "original sin" or "transubstantiation" doctrine, and none is supplied.

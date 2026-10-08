@@ -27,7 +27,7 @@ from dataclasses import dataclass
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns
 from engine.m4.turn import SAFETY_ROUTES, GateRun
-from engine.m5.routing import Directive, directive_without_terms
+from engine.m5.routing import QUESTION_KINDS, Directive, directive_without_terms
 
 
 @dataclass(frozen=True)
@@ -297,6 +297,7 @@ def _directive_payload(directive: Directive | None) -> dict | None:
         "register_note": directive.register_note,
         "suspend_register_statement_1": directive.suspend_register_statement_1,
         "ambiguity_options": list(directive.ambiguity_options),
+        "kind": directive.kind,
     }
 
 
@@ -311,6 +312,7 @@ def directive_from_payload(payload: dict | None) -> Directive | None:
         register_note=payload.get("register_note"),
         suspend_register_statement_1=bool(payload.get("suspend_register_statement_1")),
         ambiguity_options=list(payload.get("ambiguity_options") or []),
+        kind=payload.get("kind") if payload.get("kind") in QUESTION_KINDS else "other",
     )
 
 

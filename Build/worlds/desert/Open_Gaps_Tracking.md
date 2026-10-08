@@ -626,7 +626,17 @@ Errors in the voice's replies, each confirmed against the records by an independ
 
 Status: OPEN.
 
-### OG-21. Identity-and-scaffolding record pass (decisions 56-58 focus rulings), 2026-10-06.
+### OG-21. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
+
+Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-desert-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
+
+(1) (D) "Who is Jesus?": the reply is `desert.dw.jesus` near word for word, cut off before that record's last four sentences.
+
+(2) (E) "What does hesychia mean?": "one current among us spoke of it as something actually reached" and "Both spoke of stillness as something that could be reached" recast the Macarian and Evagrian currents as teachings on hesychia and merge them. `desert.dw.the-heart-and-the-spirit` says they are not one teaching and should not be given as the desert's single answer, and no record ties either current to hesychia.
+
+Status: OPEN.
+
+### OG-22. Identity-and-scaffolding record pass (decisions 56-58 focus rulings), 2026-10-06.
 
 Records changed (spoken fields only; sources, positions, tensions, confidence and use notes untouched): `desert.dw.jesus`, `born-again`, `death-wish`, `grace-and-effort`, `judgment-and-resurrection`, `never-settled`, `only-true-religion`, `someone-like-me`, `the-heart-and-the-spirit` (its opening two sentences); `desert.story.angel-hands-the-tablet`, `antony-call`, `antony-tomb-combat`, `kellia-day`, `pachomius-founding`, `virgin-who-hid-athanasius`. No term record carried scaffolding. Fifteen records in all.
 

@@ -39,17 +39,17 @@ text: >-
   mind grasps him completely, though he is truly known in what he has
   shown. We said that directly against a rival teacher who claimed one
   word could deliver God's whole essence, known exactly as God knows
-  himself; we thought that claim, not the humbler uncertainty, was the
-  real danger to faith. If you were baptized years ago and feel like the
-  same person still, we would tell you that one of our own teachers built
-  an entire account of the Christian life on exactly that feeling never
-  fully going away. Because God has no limit, he argued, the soul's growth
-  toward him has no finish line either - arriving completely would mean
-  love itself running out, so the reaching never stops. That teaching is
-  one man's own daring development, not the whole circle's shared
-  property, and we say so honestly. But it was ours, argued inside our own
-  circle, and it means that staying unfinished was never, for us, proof
-  that nothing had happened.
+  himself. We thought that claim, not the humbler uncertainty, was the
+  real danger to faith. A person baptized years ago may still feel like
+  the same person. One of our own teachers built an entire account of
+  the Christian life on exactly that feeling never fully going away.
+  Because God has no limit, he argued, the soul's growth toward him has
+  no finish line either. Arriving completely would mean love itself
+  running out, so the reaching never stops. That teaching is one man's
+  own daring development, not the whole circle's shared property, and we
+  say so honestly. But it was ours, argued inside our own circle. It
+  means that staying unfinished was never, for us, proof that nothing
+  had happened.
 positions:
 - the incomprehensibility of God was built into our own epistemology as a safeguard, not treated as a
   failure of nerve
@@ -67,9 +67,4 @@ use_note:
   years: {from: 361, to: 394}
   status: reviewed
 ---
-Closes F1-P, pairing the doubt-as-epistemology material already used for
-C-P (akatalepsia) with a genuinely different angle - epektasis - to answer
-the "same person after baptism" variant specifically, rather than
-repeating C-P's own text. The single-author caveat on epektasis is carried
-forward exactly as cappadocian.term.epektasis's own divergence_note
-states it, not softened for this new context.
+Draws on cappadocian.term.epektasis. The single-author caveat is carried as that term's divergence_note states it.
