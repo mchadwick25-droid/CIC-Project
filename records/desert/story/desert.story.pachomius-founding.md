@@ -67,7 +67,7 @@ text: >-
   in 346 stood at nine houses for men and two for women, with membership in
   the low thousands - likewise a rough estimate, not a precise count.
 absent_detail: "No account here claims the vision or the tablet as verified history rather than the tradition's own remembered founding story; Palladius's own text is a hagiographic summary at one remove from the Rule's own text, not the Rule itself, and the multiple, only partially overlapping recensions of the Lives carry a genuinely unresolved version-priority debate this document does not adjudicate."
-modern_contrast: "A modern reader may hear a founder receiving a revelation and scaling an organization and reach for the contemporary \"founder origin story\" genre - a visionary's master plan. This world's own record frames the angel and tablet as an answer to a real, specific problem this world faced (desert.force.formation-at-scale: how a formation demanding one extraordinary hermit's own intensity could work for many, not one man's ambition), and the vision itself carries Palladius's own hagiographic frame rather than neutral incident report, as this record's own tellable_as and text already mark."
+modern_contrast: "A modern reader may hear a founder receiving a revelation and scaling an organization and reach for the contemporary \"founder origin story\" genre - a visionary's master plan. This world's own record frames the angel and tablet as an answer to a real, specific problem this world faced (desert.force.formation-at-scale: how a formation demanding one extraordinary hermit's own intensity could work for many, not one man's ambition), and the vision itself carries Palladius's own hagiographic frame rather than neutral incident report."
 use_note:
   means: "The tradition tells that Pachomius, sent by an angel with a brass tablet to gather young monks, founded a rule-governed community that grew to thousands."
   not_for:
@@ -78,38 +78,29 @@ use_note:
   years: {from: 318, to: 346}
   status: reviewed
 ---
-Re-derived from the prior build's cleared Doc_09a Story 1.3. The
-vision/tablet material is newly and directly verified against the
-vendored Palladius file this session (cic/texts/palladius_lausiac-
-history_clarke1918.txt, ch. XXXII, line 397 - the same passage
-desert.force.formation-at-scale now cites), a genuine improvement on
-Doc_09a's own unattributed telling. The tablet's own content is
-paraphrased rather than quoted at length; desert.quote.pachomius-angel-
-tablet now carries the direct quotation of its opening clause.
+The vision/tablet material is verified directly against the vendored
+Palladius file (cic/texts/palladius_lausiac-history_clarke1918.txt,
+ch. XXXII, line 397 - the same passage desert.force.formation-at-scale
+cites). The tablet's own content is paraphrased rather than quoted at
+length; desert.quote.pachomius-angel-tablet carries the direct
+quotation of its opening clause.
 
-desert.quote.pachomius-angel-tablet carries the direct quotation this
-body cites. The closing sentence keeps Palladius's own present-tense
-report (seven thousand men, thirteen hundred at the first house,
-written decades after Pachomius's death) grammatically distinct from
-the death-time house count and membership estimate, which are
-attributed to Doc_01 SS2.1 directly (in divergence_note, matching
-desert.story.antony-withdrawal's own convention for citing that
-document in a story record); desert.source.rousseau-pachomius is not
-cited here (koinonia's own citation is not duplicated). The text uses
-Palladius's own wording, "not allowed to enter the sanctuary." This
-body declares a relation to desert.gravity.authority-tension, which it
-invokes in prose. Doc_01 SS2.1's own hedge on the membership figure
-("should be read as an order-of-magnitude indicator rather than a
-precise census") and Palladius's own AUTHOR GRAVITY caution on his
-population figures are both carried in the compiled text.
+The closing sentence keeps Palladius's own present-tense report (seven
+thousand men, thirteen hundred at the first house, written decades after
+Pachomius's death) grammatically distinct from the death-time house
+count and membership estimate, which are attributed to Doc_01 SS2.1
+directly (in divergence_note, matching desert.story.antony-withdrawal's
+own convention for citing that document in a story record).
+The text uses Palladius's own wording,
+"not allowed to enter the sanctuary." Doc_01
+SS2.1's own hedge on the membership figure ("should be read as an
+order-of-magnitude indicator rather than a precise census") and
+Palladius's own AUTHOR GRAVITY caution on his population figures are
+both carried in the compiled text.
 
 Formation significance: directly generates desert.gravity.koinonia
-(Supporting) and is the founding episode desert.force.formation-at-
-scale documents. Answers F4-I ("How did a person actually become one of
-you?") at the institutional register, and F3-I ("Who held authority
-among you, and how did anyone come to have it?") with the Rule's own
-origin story - authority here is given by vision and written down, not
-only earned through personal relationship, the same contrast
+(Supporting) and is the founding episode desert.force.formation-at-scale
+documents. At the institutional register it shows the Rule's own origin
+story: authority here is given by vision and written down, not only
+earned through personal relationship, the same contrast
 desert.gravity.authority-tension names.
-
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

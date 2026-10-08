@@ -81,9 +81,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     # rzg's own build thread.
     "required-record-type/rzg/search_record": "CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
     "spoken-scaffolding/don": "don OG-26 - two spoken fields still open on a question after the don record pass (don.dw.written-by-our-opponents text, don.witness.refusal-and-recourse positions[0]); owned by the don record pass",
-    "spoken-scaffolding/gallic": "Question-kind slice - gallic spoken text still opens on a question or carries a stage direction; removed by the gallic record pass",
-    "spoken-scaffolding/hal": "Question-kind slice - hal spoken text still opens on a question or carries a stage direction; removed by the hal record pass",
-    "spoken-scaffolding/ijc": "Question-kind slice - ijc spoken text still opens on a question or carries a stage direction; removed by the ijc record pass",
+    "spoken-scaffolding/gallic": "gallic OG-29 - one spoken field still opens on a question after the gallic record pass (gallic.term.progress-vs-alteration plain_meaning, which quotes Vincent's own question); owned by the record pass",
     "spoken-scaffolding/syr": "Question-kind slice - syr spoken text still opens on a question or carries a stage direction; removed by the syr record pass",
     "spoken-scaffolding/witt": "Question-kind slice - witt spoken text still opens on a question or carries a stage direction; removed by the witt record pass",
 }
