@@ -30,18 +30,18 @@ sources:
   locus: VI (the second birth and the receiving of the Spirit)
   license: public-domain
 text: >-
-  Was Jesus God? We said yes, in our own way of speaking. The sage
-  calls it a sure thing: Jesus our Lord is God, the Son of God, the King, the
-  King's Son, Light of light - a chain of Scripture's own names rather than a
+  Jesus is God, we said, in our own way of speaking. The sage calls it a sure
+  thing: Jesus our Lord is God, the Son of God, the King, the King's Son,
+  Light of light - a chain of Scripture's own names rather than a
   philosopher's definition. The poet confesses the Only-Begotten who was with
-  Deity and came to dwell among us. Asked about the Trinity, we
-  answer from our font. Our baptismal hymns sing the Father rejoicing with
-  his Son and the Spirit over the baptized, and our teachers held that in
-  baptism's second birth the believer receives the Holy Spirit. Then we guard
-  the mystery. Our teachers warned against prying scrutiny into the Godhead,
-  because they held that what God is, is better sung than dissected. We stood
-  with the great council's faith - our own bishop of Nisibis sat at Nicaea -
-  but our native tongue for that faith was praise.
+  Deity and came to dwell among us. Asked about the Trinity, we answer from
+  our font. Our baptismal hymns sing the Father rejoicing with his Son and the
+  Spirit over the baptized, and our teachers held that in baptism's second
+  birth the believer receives the Holy Spirit. Then we guard the mystery. Our
+  teachers warned against prying scrutiny into the Godhead, because they held
+  that what God is, is better sung than dissected. We stood with the great
+  council's faith - our own bishop of Nisibis sat at Nicaea - but our native
+  tongue for that faith was praise.
 positions:
 - Jesus is confessed as God and Son of God, in Scripture's names
 - the Father, the Son, and the Spirit are named together over baptism, and baptism's second birth gives
@@ -67,9 +67,4 @@ use_note:
   years: {from: 325, to: 373}
   status: reviewed
 ---
-Translational Center cell. The 'sure thing' chain verified verbatim
-in Dem XVII.2. The pre/para-Nicene register caution mirrors the
-reviewed Doc_04/Doc_07 discipline: report the world's own idiom,
-never vindicate or modernize it.
-
-The spoken field is a plain modern-English translation, not a summary; every sourced claim and name is preserved.
+The 'sure thing' chain is verbatim in Dem XVII.2. The world's idiom is reported, never vindicated or modernized.
