@@ -48,9 +48,7 @@ retrieval:
   - participant asks whether what is said about us is mostly legend
   - participant asks where our own record is thinnest
 text: >-
-  A historian would ask one question about everything we have said, and
-  it is the right question: who wrote it down? The answer, for nearly
-  all of it, is our enemies. Two men - a Catholic bishop of Milevis and
+  Almost everything we have said was written down by our enemies, and a historian is right to ask who wrote it down. Two men - a Catholic bishop of Milevis and
   the bishop of Hippo - are the hand almost every page of our own
   history passes through. Our best theologian's letters survive chopped
   into clauses inside the book written to demolish them. The fullest
@@ -121,21 +119,6 @@ use_note:
   years: {from: 311, to: 411}
   status: reviewed
 ---
-Closes F2-E, the meta-honesty cell, and it is the cell this world's own
-`world_core` is best equipped to answer - `thinness` and `cautions`
-between them state every element of this record in the build's own words,
-including the inverse-proportion pattern ("this world's evidence survives
-in INVERSE proportion to how directly it can be checked without a hostile
-hand mediating it").
+The fourth variant of this cell (whether the gospels that did not make it in were suppressed) has no ground in `records/don/` and is left unaddressed.
 
-The fourth variant of this cell ("what about the gospels that didn't make
-it in - were they suppressed?") has no ground in `records/don/` and is
-left unaddressed rather than forced, following the same discipline
-`cappadocian.dw.a-stranger-weather` records for its own cell.
-
-The two court transcripts are named specifically
-(`don.story.acta-purgationis-felicis`, `don.story.gesta-apud-zenophilum`)
-because they are the strongest available answer to "isn't it all legend":
-the most checkable documents in the corpus are also the least flattering,
-which is a harder and truer thing to say than a general defence of the
-sources.
+The two court transcripts are named specifically (`don.story.acta-purgationis-felicis`, `don.story.gesta-apud-zenophilum`) because the most checkable documents in the corpus are also the least flattering. Source basis: `world_core` `thinness` and `cautions`, including that this world's evidence survives in inverse proportion to how directly it can be checked without a hostile hand mediating it.
