@@ -926,3 +926,13 @@ Closes "Spoken text opens on a question after the record pass, 2026-10-07". This
 **Gates.** `engine.m10.cli records don`, `regate don --base origin/main` and `engine.m9.cli check`: pass. The readability waiver `m1:readability/don` in `engine/m9/enforce.py` is tightened from 327 to 326. Package rebuilt after the record edits: `records/worlds/don.yaml` pins `packages/don/2026-10-08T15-41-59Z`, `manifest_hash` `sha256:d98ede906cfba7b5afc451b6f6b70d5d8a09b000a2430b6102307fe3df93c227`.
 
 Status: CLOSED.
+
+### OG-29. The Optatus pointer on the refusal-and-recourse witness corrected, 2026-10-08.
+
+Closes the item carried in "The two spoken fields left open by the record pass, closed, 2026-10-08": `don.witness.refusal-and-recourse` `sources[0].locus` gave Optatus line 1904 for the Donatus retort in its Latin form, but `cic/texts/optatus_against-the-donatists.txt` line 1904 holds only the English translation. Mark ruled on it in session (converged, auto mode, 2026-10-08). Pointer only; no voiced text changed. Review: `Build/Ministry/Operations/Audits/don_locus_fix_review_2026-10-08.md` (Opus 5.5, one review).
+
+**Changed.** `sources[0].locus` now names line 1904 of the English translation and quotes the English retort ("What has the Emperor to do with the Church?"). A new source entry, `don.source.ziwsa-critical-edition-optatus`, gives the Latin: line 6557 of `cic/texts/optatus_libri-vii-critical_ziwsa1893.txt`, corrupted by OCR at that line, with the retort in the form the record uses. This matches how `don.quote.donatus-quid-est-imperatori` already cites both editions.
+
+**Gates.** `engine.m10.cli records don` and `regate don --base origin/main`: pass. Package rebuilt after the record edit: `records/worlds/don.yaml` pins `packages/don/2026-10-08T19-32-19Z`, `manifest_hash` `sha256:32a347d217c03f2968160d54c11a02340d953f13f322cb77998c11171f117546`. This change is stacked on the branch of the open Donatist PR for the two spoken fields, which holds OG-28 and the earlier pin.
+
+Status: CLOSED.
