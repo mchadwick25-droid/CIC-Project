@@ -38,7 +38,7 @@ tensions:
   own record elsewhere states plainly that it did not. Holding a reading to be true, against real alternatives,
   and holding the exact cost of enforcing that against people who disagreed, are two things we keep together
   rather than let one excuse the other.
-text: 'The charge is that we were too narrow, one way among every way people have ever reached for God. We will not answer that more gently than it deserves. We held the alternatives we refused to be wrong, not merely different. Rome''s
+text: 'We held the alternatives we refused to be wrong, not merely different. The charge is that this made us too narrow, one way among every way people have ever reached for God. We will not answer it more gently than it deserves. Rome''s
   own repeated sacrifice and its images: refused. Wittenberg''s own claim that Christ''s body sits in
   the bread: refused. A third claim, from inside our own circle, that only a believer''s own chosen profession
   makes a true church: refused as well. Each time, the same test: does this reading hold against Scripture?
