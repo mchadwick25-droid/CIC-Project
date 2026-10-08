@@ -754,3 +754,17 @@ Restored after review round 1: "Not resolved here: whether Vincent held the bret
 The identity and scaffolding pass (2026-10-07) left `gallic.term.progress-vs-alteration` untouched. Its `plain_meaning` opens with a sentence that ends in Vincent's own question ("Vincent's answer to "Shall there be no progress in the Church?""), so `spoken_scaffolding.scaffolding_hits` still flags it and the `spoken-scaffolding/gallic` waiver in `engine/m1/cross_world.py` stays, re-owned to this entry. The same quotation does not match its source: Comm. 23 (file line 13802) reads "Shall there, then, be no progress in Christ's Church?". Both are for the record pass: correct the quotation against the vendored file, open the field with the answer, then remove the waiver.
 
 Status: OPEN.
+
+### OG-30. `gallic.term.progress-vs-alteration` opened on the answer, quotation corrected, 2026-10-08.
+
+Closes "Spoken text opens on a question after the record pass, 2026-10-08". `scaffolding_hits` now finds nothing for this world, and the `spoken-scaffolding/gallic` waiver is removed from `engine/m1/cross_world.py`. Own change, one review: `Build/Ministry/Operations/Audits/gallic_progress_scaffolding_review_2026-10-08.md` (Opus 5.5). Its one substantial finding (a relation left out of the body note) is fixed.
+
+**Field changed.** `plain_meaning` of `gallic.term.progress-vs-alteration`. Old: "Vincent's answer to "Shall there be no progress in the Church?" All possible progress - but real progress, not alteration. The grown man has the same joints he had as a child." New: "All possible progress, but real progress, not alteration. That is Vincent's answer to the objection he raises himself, "Shall there, then, be no progress in Christ's Church?" The grown man has the same joints he had as a child." Every claim is kept and none is added.
+
+**Quotation corrected.** The old text quoted "Shall there be no progress in the Church?". The vendored file (`cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml`, Commonitory 23, line 13802) reads "Shall there, then, be no progress in Christ's Church?", which the `informational` sense of the same record already quoted correctly. The field now quotes it in full. Nothing else quoted in the record was touched.
+
+**Commentary removed** from the body: the tags "AS TC DR CT", the "Round-2 spot-check correction" note, the reconciliation-pass narration and the "cross-batch at authoring time" explanation. Kept: the Doc_06 and Doc_03 source pointers and Tier, why `formation_confidence` stays Documented, the typing of the `presupposes` and `illustrated-by` relations, and the list of associated-with relations.
+
+**Gates.** `engine.m10.cli records gallic` and `regate gallic --base origin/main`: pass. Package rebuilt after the record edit: `records/worlds/gallic.yaml` pins `packages/gallic/2026-10-08T16-43-02Z`, `manifest_hash` `sha256:8a3325814e38fba046b8161f36d838f294753286db1d63faa3bb6f671674fa92`.
+
+Status: CLOSED.
