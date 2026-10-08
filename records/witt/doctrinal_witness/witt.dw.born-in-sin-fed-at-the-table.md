@@ -45,8 +45,7 @@ text: >-
   with sin already in them -- not an act any infant has committed, but
   a condition: no fear of God, no trust in God, a desire turned toward
   itself instead. We call this a disease, a vice of origin, and we say
-  it is truly sin, bringing death, until a person is born again
-  through baptism and the Spirit.
+  it is truly sin, bringing death to those not born again through baptism and the Spirit.
 
   What you call transubstantiation is not how we speak of the bread and cup, and we are careful about the difference. We hold that Christ's body and
   blood are truly present, in and under the bread and wine -- not a

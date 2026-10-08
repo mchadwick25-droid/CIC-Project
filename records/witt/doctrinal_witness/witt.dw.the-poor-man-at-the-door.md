@@ -45,14 +45,13 @@ text: >-
   harshness toward the poor. A poor man may come to your door, someone
   who lives on his day's wage and nothing more. If you treat him with
   contempt, and turn him away when you owed him help for nothing, our own
-  book says: beware, as of the devil himself. That is not gentle
-  language. It is the sharpest warning this household book gives anywhere.
+  book says: beware, as of the devil himself. That is not gentle language.
   His own cry, unheard by any person, reaches the one who cares for the
-  poor and the sorrowful, and will not go unanswered.
+  poor and the sorrowful, and will not go unavenged.
 positions:
 - "marriage was named our noblest and most common estate, ordained by God at creation, before which even church and civil authority had to bow"
 - "we do not name any of us as rich, but we hold a real, sharply worded warning against harshness toward the poor, aimed at the household's own conscience"
-- "a poor man turned away with contempt, when he was owed help for nothing, is answered, in our own words, 'beware... as of the devil himself' -- our sharpest warning against any sin named in this same household book"
+- "a poor man turned away with contempt, when he was owed help for nothing, is answered, in our own words, 'beware... as of the devil himself'"
 tensions:
 - "we hold no description of an actual wedding among us -- the rite itself, the celebration, what a wedding day looked like, is a real gap our doctrinal material on marriage as an estate does not fill"
 - "our library was searched, by this authoring pass, at only one locus for money and poverty -- one commandment's own explanation, not a fuller survey of every register we speak in"

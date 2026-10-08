@@ -69,6 +69,6 @@ use_note:
   years: {from: 1530, to: 1531}
   status: reviewed
 ---
-Sources: witt.story.diet-of-augsburg-1530 (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 47-53 and 1555-1568), and the source records for the Roman Confutation and our Apology.
+Sources: witt.story.diet-of-augsburg-1530 (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 47-53 and 1555-1568), and the source records for the Roman Confutation and our Apology. Cited story and source records were not re-read for this record.
 
 The early ecumenical councils fall before this world's 1517 floor and are not narrated here. The same received-teaching point is made in witt.dw.truly-god-and-truly-man.
