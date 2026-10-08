@@ -33,24 +33,19 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  A woman could carry real authority among us - twice on the record's own terms - and both times the cost was steep. Justina
+  A woman could carry real authority among us. It happened twice on the record's own terms, and both times the cost was steep. Justina
   was the mother of a young emperor and the dominant influence over him; no
   formal regency is on record. What came down to us names her as the
-  one who turned the machinery of the state against Ambrose when he refused to
-  surrender a basilica. The penalties were real: the city's merchants were
-  ordered to pay two hundred pounds of gold within three days, innocent people
-  were chained during Lent, the prisons filled with tradespeople, and palace
-  officials were commanded to stand clear. Ambrose's own letter names the
+  one who turned the machinery of the state against Ambrose. He had refused to surrender a basilica. The penalties were real. The city's merchants were ordered to pay two hundred pounds of gold within three days. Innocent people were chained during Lent. The prisons filled with tradespeople. Palace officials were commanded to stand clear. Ambrose's own letter names the
   emperor as the one acting on his own power; it is the volume's own
   chronology that names Justina as the persecution's author. Either way, real
   coercive power moved through her court. The cost was total public failure.
-  The basilica was never surrendered, and everything the record says about her
+  The basilica was never surrendered. Everything the record says about her
   part reaches us through the account of the bishop who defeated her.
   Pulcheria carried authority long enough to help convene the council that
   closed our era. Leo himself records that she commanded the council
   to be held. She refused his request to hold it in Italy, and he answered by
-  sending his legates without protest. He also wrote congratulating her on a
-  synod already held, and none of this was mere courtesy. Her cost was
+  sending his legates without protest. He also wrote congratulating her on a synod already held. None of this was mere courtesy. Her cost was
   different. Real standing bought her a place in the correspondence of
   powerful men, and nothing beyond it in her own words. Both women held
   command. Neither left us her own voice.
