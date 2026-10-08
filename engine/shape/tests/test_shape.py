@@ -52,4 +52,5 @@ def test_the_stories_and_quotes_section_asks_for_a_full_quote_a_retelling_and_no
     text = shape.shape_text()
     section = text.split("## Stories and quotes", 1)[1].split("\n## ", 1)[0]
     assert "one quote in full" in section and "modern rendering" in section
+    assert "directive asks for a quote" in section
     assert "retelling" in section and "never merely named" in section

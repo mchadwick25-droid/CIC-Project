@@ -405,7 +405,13 @@ Errors in the voice's replies, each confirmed against the records by an independ
 
 Status: OPEN.
 
-### OG-17. Identity-and-scaffolding pass on alx witness text, 2026-10-06.
+### OG-17. Spoken text opens on a question or carries a stage direction, 2026-10-06.
+
+12 spoken field(s) across 12 record(s) in witness, term and story text have a first sentence that ends in a question mark, or carry "your second question", "start with the part", "you asked" or "as you asked". The voice answers in the kind the participant asked, so spoken text must start with the answer. Content for this world's record pass; the check is `spoken_scaffolding.scaffolding_hits`. Waived in `engine/m1/cross_world.py` as `spoken-scaffolding/alx` until the pass lands; the pass removes the waiver. First record: `alx.dw.apostolic`.
+
+Status: OPEN.
+
+### OG-18. Identity-and-scaffolding pass on alx witness text, 2026-10-06 — the record pass for "Spoken text opens on a question or carries a stage direction" (2026-10-06).
 Question-form openers and second-person stage directions removed from 12 doctrinal witnesses: `alx.dw.apostolic`, `alx.dw.church-failure`, `alx.dw.councils`, `alx.dw.doubt`, `alx.dw.empire`, `alx.dw.god`, `alx.dw.one-church`, `alx.dw.original-sin`, `alx.dw.record`, `alx.dw.resurrection`, `alx.dw.suffering`, `alx.dw.was-jesus-god`. `alx.dw.jesus` also changed (one sentence, below). Round 1 review (2026-10-06) is applied.
 
 New openers and what they state.
@@ -438,4 +444,4 @@ Gates, 2026-10-06 (after round 1 revisions). `engine.m10.cli records alx`: PASS.
 
 CI after the push: the embedded-quotation survey counted one fewer alx record (9 to 8) because the removed scaffolding in `alx.dw.was-jesus-god` quoted the question "Was Jesus God? Did you believe in the Trinity?"; the survey's alx baseline in `engine/m1/tests/test_embedded_quotations.py` moved to 8. The site JSON for alx (`cic-website/data/worlds/alexandria-catechetical.json`) was recompiled because its narrative was stale against the records.
 
-Status: round 2 (Opus, `Build/Ministry/Operations/Audits/alx_identity_scaffolding_review_round2_2026-10-06.md`) cleared the records and ruled the two kept body lines legitimate record notes. Approved to proceed.
+Status: round 2 (Opus, `Build/Ministry/Operations/Audits/alx_identity_scaffolding_review_round2_2026-10-06.md`) cleared the records and ruled the two kept body lines legitimate record notes. Approved to proceed. On merging main (2026-10-07), the scaffolding check found no spoken field left to flag, so the `spoken-scaffolding/alx` waiver was removed from `engine/m1/cross_world.py`; this closes "Spoken text opens on a question or carries a stage direction" (2026-10-06).

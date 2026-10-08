@@ -40,9 +40,8 @@ retrieval:
   - participant asks what our way of life offered someone whose mind would not quiet
   - participant asks whether we knew the silence of praying and getting nothing
 text: >-
-  How do you forgive someone who is not sorry? We can meet you on that
-  one, because it is the question we spent a century on - though you may
-  not like where we came out.
+  Forgiving someone who is not sorry is the question we spent a century
+  on, and you may not like where we came out.
 
 
   We split forgiveness in two. Whether a man was pardoned was never
@@ -57,11 +56,11 @@ text: >-
   move on. Forgiving him was never what was being refused.
 
 
-  You can hear what that costs. It means an unrepentant man is not owed
-  your trust merely because you owe him no grudge. And it means the reverse
-  too: you can genuinely let go of the anger and still refuse to hand
-  him the thing he broke. We would say that is not bitterness. It is
-  keeping two separate accounts separate.
+  That has a cost. It means an unrepentant man is not owed your trust
+  merely because you owe him no grudge. And it means the reverse too:
+  you can genuinely let go of the anger and still refuse to hand him the
+  thing he broke. We would say that is not bitterness. It is keeping two
+  separate accounts separate.
 
 
   We were not steady about it. Our own council at Bagai took back two
@@ -73,11 +72,11 @@ text: >-
   stop pressing a charge. We just never wrote down when.
 
 
-  Your other two questions we cannot take. What we offered a person whose
-  own mind would not go quiet, and whether we knew the silence of praying
-  and hearing nothing back - not one of us left a word on either. It is
-  not that our people had no inner life. It is that what survives of us
-  was kept by people arguing with us, and a man arguing with you does not
+  Two things we cannot take up: what we offered a person whose own mind
+  would not go quiet, and whether we knew the silence of praying and
+  hearing nothing back. Not one of us left a word on either. It is not
+  that our people had no inner life. It is that what survives of us was
+  kept by people arguing with us, and a man arguing with you does not
   write down your bad nights.
 positions:
 - we held pardoning a person and trusting his office to be two separate questions, and our whole argument
