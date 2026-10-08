@@ -34,8 +34,7 @@ positions:
 tensions:
 - This is what our own doctrine offers, stated plainly. Whether it actually quieted every mind that reached
   for it is a different question, one our own vendored record does not answer from the inside.
-text: 'What did we offer someone who could not quiet their own mind? Not a method for searching harder
-  within. Our own confession says it plainly: ''We reject those who seek out of Christ whether they are
+text: 'To someone who could not quiet their own mind, we offered no method for searching harder within. Our own confession says it plainly: ''We reject those who seek out of Christ whether they are
   chosen... Let... Christ be the mirror in which we behold [our] predestination.'' A mind turned only
   on itself finds more of itself, and no bottom to it. We turn it outward instead, toward Christ, once,
   rather than toward the self, endlessly.'
@@ -48,4 +47,4 @@ use_note:
   years: {from: 1566, to: 1566}
   status: reviewed
 ---
-Grounded in rzg.quote.christ-the-mirror-of-election's own already-verified text (Second Helvetic Confession, ch. X, lines 667, 684-685), quoted here character-for-character, including its own ellipsis marks and bracketed [our], exactly as that record's own already-verified text field states it -- not spliced, paraphrased, or presented as continuous unbroken speech. Applied here to F4-P's own distinct personal-register question ('What did your way of life offer someone who struggled to quiet their own mind?') rather than restating C-P/C-T's own identity-register use of the same quotation -- genuinely different content, not double-counted. 'Forgiving the unrepentant' and 'unanswered prayer' (this cell's other two sub-questions) are not claimed.
+Grounded in rzg.quote.christ-the-mirror-of-election (Second Helvetic Confession, ch. X, lines 667, 684-685), quoted character-for-character, including its ellipsis marks and bracketed [our]; not spliced, paraphrased, or presented as continuous speech. 'Forgiving the unrepentant' and 'unanswered prayer' are not claimed.
