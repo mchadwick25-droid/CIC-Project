@@ -27,5 +27,5 @@ census_id: "gallic-monastic-ascetic-christianity"
 thinness_statement: "Richest in the ascetic bishop's own hagiography and the received teaching of the Egyptian fathers as Cassian carried it west; thinner on the island's own daily customs, women's own words (none survive), and the sexual-discipline material a later editor removed from the one edition this build can read."
 living_tradition_flag: true
 package:
-  manifest_hash: "sha256:57e2e0a9175b6b8d08b7f7b4de27c7f3368db517b2e04f4e98235fb6826c715c"
-  location: "packages/gallic/2026-10-07T00-52-09Z"
+  manifest_hash: "sha256:8a3325814e38fba046b8161f36d838f294753286db1d63faa3bb6f671674fa92"
+  location: "packages/gallic/2026-10-08T16-43-02Z"
