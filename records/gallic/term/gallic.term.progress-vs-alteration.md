@@ -65,8 +65,8 @@ relations:
 - type: presupposes
   target: gallic.term.novelty-antiquity
 plain_meaning: >-
-  All possible progress, but real progress, not alteration. That is Vincent's answer to his own
-  question, "Shall there, then, be no progress in Christ's Church?" The grown man has the same
+  All possible progress, but real progress, not alteration. That is Vincent's answer to the
+  objection he raises himself, "Shall there, then, be no progress in Christ's Church?" The grown man has the same
   joints he had as a child.
 world_word: progress, not alteration
 false_friend:
@@ -114,6 +114,6 @@ use_note:
   years: {from: 434, to: 434}
   status: reviewed
 ---
-Source: Doc_06 entry 057 (`galliclex057_progress-vs-alteration.md`, Tier 2). The CT (Relationship to present-day traditions) is carried in divergence_note; formation_confidence stays Documented because the contest is over the passage's afterlife, not over what Vincent meant.
+Source: Doc_06 entry 057 (`galliclex057_progress-vs-alteration.md`, Tier 2; Doc_03 7.5). The CT (Relationship to present-day traditions) is carried in divergence_note; formation_confidence stays Documented because the contest is over the passage's afterlife, not over what Vincent meant.
 
-Relation typing: `presupposes` gallic.term.the-deposit (growth-form of the deposit); `illustrated-by` gallic.term.theotocos (one of the "new names" the passage has in view); `presupposes` gallic.term.novelty-antiquity (the positive face of novelty vs. antiquity). The rule, tradition, the Fathers / elders and the doctor-expositor are associated-with. The chunk also names Catholic and heretic / heresy; not made relations, since no dependency is stated.
+Relation typing: `presupposes` gallic.term.the-deposit (growth-form of the deposit); `illustrated-by` gallic.term.theotocos (one of the "new names" the passage has in view); `presupposes` gallic.term.novelty-antiquity (the positive face of novelty vs. antiquity). The rule, tradition, the Fathers / elders, council / synod and the doctor-expositor are associated-with. The chunk also names Catholic and heretic / heresy; not made relations, since no dependency is stated.
