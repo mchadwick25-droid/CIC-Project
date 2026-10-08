@@ -487,3 +487,20 @@ Errors in the voice's replies in the named, capped live test "record pass stagin
 (11) (H) "Tell me about someone who lived this out.": `alx.story.gregory-formation` is summarised, with its setting (law, Caesarea) and its close (theology, the paradise lament) dropped, rather than told as the record tells it (decision 60(4)). Gregory is also a new figure two rounds after Clement's introduction in turn 3 (decision 60(2)).
 
 Status: OPEN.
+
+### OG-21. Voice claim corrections after the record pass staging reading, 2026-10-09.
+
+Corrects the records behind two items of "Voice errors found in the record pass staging reading, 9 October": item (8), the voice's "Clement, his own teacher", and item (6), the voice's "The word came from Greek thought, where it meant reason or order". Review: `Build/Ministry/Operations/Audits/alx_voice_claim_corrections_review_2026-10-09.md` (Opus 5.5, one review).
+
+**Changed.** Item (8): `alx.contested.didaskaleion-institution` holds the Pantaenus, Clement, Origen succession as contested, but three other records still stated it as plain fact, which invited the voice to say it.
+- `alx.force.transmission-ongoing` `description`: "Pantaenus carried it to Clement, and Clement to Origen, across three generations." now reads "The community remembered it passing from Pantaenus to Clement and on to Origen. That line rests almost entirely on Eusebius, and it is contested."
+- `alx.gravity.learning-formation` `manifestations`: "the teacher-student succession itself (Pantaenus to Clement to Origen) as formation's chief channel" now reads "the remembered teacher-student succession (Pantaenus, Clement, Origen) as formation's chief channel; the line rests on Eusebius and is contested".
+- `alx.figure.clement` `dates.floruit`: Jerome's "led the school after his master's death" now ends "(that the school was a formal institution is contested)". Jerome's attribution is kept.
+
+**Not changed.** `alx.term.catechetical-school` already says the community "remembered a line of teachers" and that Eusebius is the main source, so it needed no edit. No record says Clement taught Origen, and none was changed to say so; the contest is carried, not settled. No quote text and no `modern_rendering` was touched.
+
+**An engine item for the fidelity slice (item 6).** No record holds the claim that the word Logos came from Greek thought, where it meant reason or order. `alx.dw.jesus` says only that Jesus is the Logos, "God's own Word, through whom all things were made", and does not invite an origin for the word. `alx.term.logos` says the tradition was "heir to a city where Logos already meant the divine mediator", and `alx.force.philonic-inheritance` names Philo and "a Logos as cosmic mediator"; neither gives a Greek-thought meaning of "reason or order". The sentence is the voice's own, and its tag to `alx.dw.jesus` was a mis-tag. No record is edited for it. It repeats the 7 October finding on the same sentence.
+
+**Gates.** `python -m engine.m10.cli records alx`: pass. `python -m engine.m10.cli regate alx --base origin/main`: pass. `python -m engine.m2.cli determinism-check alx`: pass. Package rebuilt after the last record edit (`python -m engine.m2.cli build alx`): `records/worlds/alx.yaml` pins `packages/alx/2026-10-08T23-42-06Z`, `manifest_hash` `sha256:b9c13e63070e86ddf68102094816f09b8664c91eb404ee2284186d23f6c77921`. `python -m engine.m2.cli staleness-check`, `python tools/check_paths.py --baseline tools/check_paths_baseline.txt` and `python tools/check_live_commentary.py --base origin/main --enforce`: pass. `python -m engine.m9.cli check`: pass (library access gate clean; no waiver changed).
+
+Status: CLOSED for item (8) of "Voice errors found in the record pass staging reading, 9 October"; item (6) of that entry is an engine item for the fidelity slice, no record to fix. The other items of the 9 October entry stay OPEN.
