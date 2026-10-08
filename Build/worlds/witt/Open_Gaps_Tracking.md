@@ -2469,3 +2469,21 @@ Where a removed question carried the subject, the subject is restated and no cla
 **Gates.** `engine.m10.cli records witt`: pass. `regate witt --base origin/main`: pass. The readability waiver `m1:readability/witt` in `engine/m9/enforce.py` is tightened from 194 to 188. Package rebuilt after the last record edit: `records/worlds/witt.yaml` pins `packages/witt/2026-10-08T15-21-34Z`, `manifest_hash` `sha256:788a5fa5a9bdab9b3f91d70287479714ecbd7ae70e49b4b65e96a740277ad49d`. Staleness check: no world stale.
 
 Status: CLOSED for the scaffolding pass; the carried defects above stay OPEN.
+
+## OG-62. Witt claim corrections after the scaffolding pass, 2026-10-08.
+
+Mark ruled on these in session (converged, auto mode, 2026-10-08). They are meaning corrections against sources, kept apart from the scaffolding pass (identity-first, no-scaffolding record pass for witt, 2026-10-08), which was left as reviewed. Closes the four carried items that pass listed for Mark. Review: `Build/Ministry/Operations/Audits/witt_claim_corrections_review_2026-10-08.md` (Opus 5.5, one review).
+
+**Changed.**
+- `witt.dw.a-death-begun-that-a-child-receives` `text`: the sentence quoting "until born again through Baptism and the Holy Ghost" now reads: 'It calls the disease truly sin, "bringing eternal death upon those not born again through Baptism and the Holy Ghost."' The quoted words match Article II (`cic/texts/melanchthon_augsburg-confession_anon-pg275.txt`, lines 195-196). Closes item (2) of "Record defects found while drafting and reviewing use notes (slice 6), 2026-10-04".
+- `witt.dw.born-in-sin-fed-at-the-table` `text`: the paraphrase "bringing death, until a person is born again through baptism and the Spirit" now reads "bringing death to those not born again through baptism and the Spirit."
+- `witt.dw.the-poor-man-at-the-door`: the sentence "It is the sharpest warning this household book gives anywhere" is removed from `text`, and " -- our sharpest warning against any sin named in this same household book" is removed from `positions[2]`. "Will not go unanswered" now reads "will not go unavenged" (Large Catechism, line 1956). Closes item (3) of the same slice 6 entry.
+- `witt.dw.how-the-promise-reached-us` `text`: "on the third day he rose again from the dead" now reads "on the third day rose again from the dead", as in the Small Catechism (line 192).
+- `witt.dw.truly-god-and-truly-man` `text`: "in the very next line" now reads "in the same explanation"; "I am His very own" comes three lines after "He is my Lord!" (Small Catechism, lines 197-203).
+- `witt.dw.a-confession-answered-not-a-vote` body: added "Cited story and source records were not re-read for this record." This was the one body that lacked the note.
+
+**Not changed, flagged for Mark.** `witt.quote.the-poor-man-who-comes-to-you` still says "the sharpest language this household book uses anywhere" in `modern_lens_note` and "He will not let it go unanswered" in `modern_rendering`. This is the quote-record side of the same two claims (item (4) of the slice 6 entry). A `modern_rendering` is authored by Opus under the project rules, and editing a quote record was not in the ruling, so both stay until you decide. Until then the voice can still say them from that record.
+
+**Gates.** `engine.m10.cli records witt` and `regate witt --base origin/main`: pass. Package rebuilt after the record edits: `records/worlds/witt.yaml` pins `packages/witt/2026-10-08T19-30-45Z`, `manifest_hash` `sha256:ac378d165dc010800d5caee5e20a2f150960d7f5448d8f3c6263c856f86a8e84`.
+
+Status: CLOSED, except the quote-record items above, which are OPEN.
