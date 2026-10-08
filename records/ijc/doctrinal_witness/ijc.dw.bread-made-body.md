@@ -23,7 +23,7 @@ retrieval:
 relations:
 - {type: illustrated-by, target: ijc.quote.ambrose-blessing-changes-nature}
 text: >-
-  We held what your age calls transubstantiation, though we would not have used your word. We taught the thing your word points to, plainly, to the newly baptized: this
+  We would not have used your age's word, transubstantiation. But we taught the thing that word points to, plainly, to the newly baptized: this
   is not what nature made, but what the blessing consecrated, and the power of
   blessing is greater than that of nature, because by blessing nature itself
   is changed. The Lord Jesus himself proclaims, 'This is My Body.' Before the
