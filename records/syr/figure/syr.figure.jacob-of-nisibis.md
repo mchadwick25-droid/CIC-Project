@@ -26,8 +26,8 @@ names:
     conflict)
   tag: scholarly
 dates:
-  floruit: bishop of Nisibis from c. 309; signatory at Nicaea (325); the city's intercessor in the Persian
-    sieges; traditionally Ephrem's own bishop and baptizer
+  floruit: bishop of Nisibis from c. 309; signatory at Nicaea (325); the city's remembered intercessor in
+    the Persian siege tradition (which siege is open); traditionally Ephrem's own bishop and baptizer
   died: 338 vs 350 - the Martyrologium Hieronymianum implies 338 (the first siege), the Chronicon Paschale
     has him defending Nisibis in 350; a genuine primary-source conflict, held open and never resolved
     either way
