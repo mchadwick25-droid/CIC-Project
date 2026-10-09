@@ -28,7 +28,7 @@ retrieval:
   retrieve_when: []
 text: >-
   To us, Jesus was the one the whole argument was about, and the
-  argument itself was our devotion. The creed answers who he was: very God
+  argument itself was our devotion. The creed of Nicaea, in 325, answers who he was: very God
   of very God, of one being with the Father, who for us and for our salvation
   came down, was made man, suffered, and rose on the third day. A century of
   councils spent itself making those words exact, because everything hung on
@@ -43,7 +43,7 @@ positions:
 - Jesus is truly God - of one and the same being with the Father, not a lesser or later being
 - he is truly man - born, suffering, dying; the manhood not swallowed by the Godhead
 - one and the same Christ in two natures, each real, neither confused with the other
-- his death and rising are for us men and for our salvation - the creed's own purpose clause
+- his death and rising are for us men and for our salvation - the 325 creed's own purpose clause
 tensions:
 - the confessed center was contested inside the establishment itself - for two reigns the empire's own
   church preferred "like the Father," and the word the creed chose was resisted by men present when it
