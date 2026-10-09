@@ -29,8 +29,8 @@ held_against:
   - a real, vendored witness for the 338 pole, distinct from the unvendored Martyrologium Hieronymianum
 - the Chronicon Paschale records him defending Nisibis again in 350, incompatible with a 338 death - a
   real, vendored-adjacent witness for the 350 pole
-- the siege's own hagiographic tradition (Theodoret) resists clean dating, and which siege Jacob lived
-  through is itself open (338, 346 and 350 are candidate years), so neither pole can be waved through
+- the siege's own hagiographic tradition (Theodoret) resists clean dating, and even which siege its story
+  belongs to is open (338, 346 and 350 are candidate years), so neither pole can be waved through
   on narrative grounds alone
 concedes: Jacob's episcopate from c. 309, his presence at Nicaea in 325, and his standing as the city's
   remembered intercessor are solid. Two named primary witnesses (the Chronicle of Edessa for 338; the
