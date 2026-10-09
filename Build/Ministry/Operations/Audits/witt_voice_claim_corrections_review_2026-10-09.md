@@ -55,3 +55,14 @@ Fix: add after that sentence: "`thin_topics.note` also reaches the voice, throug
 (c) `thin_topics.note` reaches every turn whose keywords match. It is not in `SPOKEN_FIELDS` or in the field lists `gate_no_build_attribution` and `gate_perspective_leak` scan. No gate reads it for readability, build vocabulary or perspective leak, and that gap is how item (12)'s wording got through. This is an engine-level gap across the fleet. It needs its own gap entry or `ACCEPTED_OPEN` registration by the engine thread, not a fix on this branch.
 
 Finding 1 blocks closure of item (12). It is one record field and a rebuild, and the next round needs only a targeted recheck of that field and OG-64. Findings 2 and 3 are corrections to OG-64. It has not merged yet, so they can be made in place.
+
+## Recheck (targeted, findings 1-3 only; commits 882f6da9 and 8065537a)
+
+Verdict: APPROVED TO PROCEED.
+
+- Finding 1: resolved. The `witt.core.witt` `thin_topics` visitation note now reads "The Saxon church inspected its own parishes from 1527 and wrote down what it found. Those reports exist, but we do not hold them." It says only what the record holds, in the same words as `witt.limit.record-thinnest` and `witt.demo.record-thinnest`. It makes no claim about what the church knew of its own reports, and "by name" is gone. The 1527 date and the inspection claim are kept. So is the sentence on what a household was examined on and what no parish's own record can tell. No true claim is lost.
+- Finding 2: resolved. OG-64 now says the story `text` is never voiced or shown, per `engine/m1/spoken_fields.py`, and that `tellable_as` is the compiled field.
+- Finding 3: resolved. OG-64 now states that `thin_topics` `note` reaches the voice through the "THIN GROUND" line and that no gate scans it, and it marks that as an engine item. It also lists as OPEN the two "vendored" labels and the `thinness` wording (observations (a)-(c)).
+- OG-64 is accurate against the diff. Against origin/main, `Open_Gaps_Tracking.md` has additions only; OG-63 is untouched.
+- Pin: `records/worlds/witt.yaml` and OG-64 both give `packages/witt/2026-10-09T00-15-03Z` and `sha256:0f45b98b7cd562b2c0464e014e041f0b6e18ada4b0a375f6324cd204755a865c`, which equals `sha256sum` of that `manifest.json`. All 364 manifest entries hash correctly. The 251 record entries match the 251 files in `records/witt/` byte for byte. Its `records_commit` is 882f6da9, and 8065537a changes no `records/witt` file.
+- Gates re-run on 8065537a. `records witt`: PASS. `regate witt --base origin/main`: PASS. `engine.m9.cli check`: clean. `engine.m2.cli staleness-check`: witt not stale. `engine.m2.site_cli staleness-check`: exit 0, with no world stale.
