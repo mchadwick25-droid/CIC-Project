@@ -509,23 +509,7 @@ def test_enforcement_is_on_by_default():
 
 # ---- every quote record in the fleet ------------------------------------------
 
-# The shared sentence splitter cannot keep these renderings in one sentence,
-# so a marker for one places nothing and removes its sentence.
-UNPLACEABLE = {
-    "cappadocian.quote.macrina-refuses-remarriage",
-    "gallic.quote.archebius-carried-off-to-panephysis",
-    "gallic.quote.archebius-see-the-old-men",
-    "gallic.quote.gallus-on-the-forced-communion-and-the-angel",
-    "gallic.quote.paphnutius-accused-and-the-book-found",
-    "gallic.quote.the-fathers-and-the-angels-twelve",
-    "ijc.quote.ammianus-sicininus-massacre",
-    "ijc.quote.lactantius-dream",
-    "syr.quote.palladius-hospitaller",
-    "syr.quote.warned-before-baptism",
-}
-
-
-def test_every_quote_record_in_the_fleet_places_word_for_word_except_the_registered_ten():
+def test_every_quote_record_in_the_fleet_places_word_for_word():
     from engine.m1.loader import RECORDS_ROOT, load_world_records
 
     unplaced = set()
@@ -539,7 +523,7 @@ def test_every_quote_record_in_the_fleet_places_word_for_word_except_the_registe
             rendering = " ".join(record["modern_rendering"].split())
             if net_result["reply_shape"]["placed"] != [record["id"]] or rendering not in " ".join(text.split()):
                 unplaced.add(record["id"])
-    assert unplaced == UNPLACEABLE
+    assert unplaced == set()
 
 
 def test_no_quote_records_gist_is_taken_for_its_words_anywhere_in_the_fleet():
