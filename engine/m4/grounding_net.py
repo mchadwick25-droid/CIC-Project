@@ -59,6 +59,7 @@ from engine.prose import (
     content_words,
     grounding_ratio,
     quote_aware_sentences,
+    quote_pairs,
 )
 
 # [[world.type.slug]] - record ids are dotted lowercase tokens; the tag
@@ -186,84 +187,7 @@ def strip_markdown(raw_text: str) -> str:
 # than a quote placed by code, is dropped (QUOTATION_DROP_REASONS). A
 # complete but malformed tag ([[THIN GROUND: ...]]) is not edited here;
 # engine.m4.output_check reports it.
-_DOUBLE_OPENERS = "\"\u201c"
-_CLOSERS = {
-    '"': re.compile(r"""(?<=\S)["\u201d](?=[\s.,;:!?)]|$)"""),
-    "\u201c": re.compile(r"""(?<=\S)[\"\u201d](?=[\s.,;:!?)]|$)"""),
-    "'": re.compile(r"""(?<=\S)['\u2019](?=[\s.,;:!?)]|$)"""),
-    "\u2018": re.compile(r"""(?<=\S)['\u2019](?=[\s.,;:!?)]|$)"""),
-    "\u00ab": re.compile("\u00bb"),
-    "\u2039": re.compile("\u203a"),
-    "\u300c": re.compile("\u300d"),
-    "\u300e": re.compile("\u300f"),
-    "\u201e": re.compile(r"""(?<=\S)[\u201c\u201d"](?=[\s.,;:!?)]|$)"""),
-}
-# Guillemets, the low opening mark and the corner brackets are never anything
-# but quotation marks in English prose; a guillemet may stand apart from its
-# words (« like this »), and a corner bracket may follow a word directly.
-_QUOTE_OPEN = re.compile(
-    r"""(?:(?:^|[\s:,\-(])(?:['"\u201c\u2018\u201e]|[\u00ab\u2039]\s?)|[\u300c\u300e]\s?)(?=\S)"""
-)
 FOREIGN_QUOTE_MARKS = "\u00ab\u00bb\u2039\u203a\u201e\u300c\u300d\u300e\u300f"
-_PLURAL_POSSESSIVE = re.compile(r"s['\u2019]\s+[A-Za-z]")
-
-
-def _closing_mark(text: str, opener: str, start: int) -> int | None:
-    """Index of the mark that closes a quotation opened by `opener`: a double
-    opener closes only on a double mark, skipping any complete double
-    quotation nested inside it; a single opener skips a plural possessive
-    (the apostles' teaching) unless nothing else closes it."""
-    if opener in _DOUBLE_OPENERS:
-        return _closing_double_mark(text, start)
-    pos = start
-    skipped = None
-    while True:
-        match = _CLOSERS[opener].search(text, pos)
-        if not match:
-            return skipped
-        index = match.end() - 1
-        if not _PLURAL_POSSESSIVE.match(text, index - 1):
-            return index
-        skipped = index if skipped is None else skipped
-        pos = match.end()
-
-
-def _closing_double_mark(text: str, start: int) -> int | None:
-    depth = 0
-    for index in range(start, len(text)):
-        mark = text[index]
-        if mark not in "\"\u201c\u201d":
-            continue
-        before = text[index - 1] if index else " "
-        after = text[index + 1] if index + 1 < len(text) else " "
-        opens = mark == "\u201c" or (mark == '"' and (before.isspace() or before in ":,-(\u201c\u2018") and not after.isspace())
-        closes = mark == "\u201d" or (mark == '"' and not before.isspace() and (after.isspace() or after in ".,;:!?)\u201d\u2019\"'"))
-        if closes and not (opens and mark == '"'):
-            if depth == 0:
-                return index
-            depth -= 1
-        elif opens:
-            depth += 1
-    return None
-
-
-def _quote_pairs(text: str):
-    """(open_index, close_index) of every paired quotation mark, left to
-    right."""
-    pos = 0
-    while True:
-        open_m = _QUOTE_OPEN.search(text, pos)
-        if not open_m:
-            return
-        open_i = open_m.end() - 1
-        if text[open_i].isspace():
-            open_i -= 1
-        close_i = _closing_mark(text, text[open_i], open_m.end())
-        if close_i is None:
-            pos = open_m.end()
-            continue
-        yield open_i, close_i
-        pos = close_i + 1
 
 
 def quoted_span_positions(text: str) -> list[tuple[int, int, str]]:
@@ -272,7 +196,7 @@ def quoted_span_positions(text: str) -> list[tuple[int, int, str]]:
     just past the closing quotation mark, `inner` is the quoted words
     between them. engine.m4.transparency_plan places a quote's marker at
     `end`: the marker follows the quoted words."""
-    return [(open_i, close_i + 1, text[open_i + 1 : close_i]) for open_i, close_i in _quote_pairs(text)]
+    return [(open_i, close_i + 1, text[open_i + 1 : close_i]) for open_i, close_i in quote_pairs(text)]
 
 
 def _quoted_spans(text: str) -> list[str]:
@@ -632,7 +556,7 @@ def _speaker_key(speaker: str) -> str:
 
 def _strip_pairs(text: str) -> str:
     pieces, last = [], 0
-    for open_i, close_i in _quote_pairs(text):
+    for open_i, close_i in quote_pairs(text):
         pieces += [text[last:open_i], _strip_pairs(text[open_i + 1 : close_i])]
         last = close_i + 1
     return "".join(pieces) + text[last:]
@@ -642,7 +566,7 @@ def _checked_pairs(text: str) -> list[tuple[int, int, str]]:
     """The quotations of `text` that claim verbatim words: (open_index,
     close_index, inner)."""
     checked = []
-    for open_i, close_i in _quote_pairs(text):
+    for open_i, close_i in quote_pairs(text):
         inner = text[open_i + 1 : close_i]
         if text[open_i] in "\"\u201c" or len(_normalize(inner).split()) >= SINGLE_QUOTE_MIN_WORDS:
             checked.append((open_i, close_i, inner))
@@ -1006,7 +930,7 @@ def _split_after_closed_quotations(sentence: str) -> list[str]:
     since it breaks at the full stop inside the marks; a quotation nested
     inside another is never split."""
     pieces, last = [], 0
-    for _open_i, close_i in _quote_pairs(sentence):
+    for _open_i, close_i in quote_pairs(sentence):
         if sentence[close_i - 1] in ".!?" and _NEXT_SENTENCE.match(sentence, close_i + 1):
             pieces.append(sentence[last : close_i + 1])
             last = close_i + 1

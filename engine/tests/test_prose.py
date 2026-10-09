@@ -241,6 +241,51 @@ def test_a_lone_closing_mark_cannot_force_a_merge():
     ]
 
 
+def test_a_plural_possessive_inside_a_quotation_does_not_close_it():
+    text = "He said: 'Hold to the apostles' teaching. Keep it,' and he left. He did not return."
+    assert prose.quote_aware_sentences(text) == [
+        "He said: 'Hold to the apostles' teaching. Keep it,' and he left.", "He did not return.",
+    ]
+
+
+def test_a_plural_possessive_inside_a_double_quotation_holds_it_together():
+    text = "“She would not break her parents' word. One marriage is all there is,” she said. So she stayed."
+    assert prose.quote_aware_sentences(text) == [
+        "“She would not break her parents' word. One marriage is all there is,” she said.", "So she stayed.",
+    ]
+
+
+def test_a_quotation_nested_at_the_opening_holds_the_whole_quotation():
+    text = '“"Then trust me," he said. "See, I appoint myself hospitaller."” He stayed. He ate.'
+    assert prose.quote_aware_sentences(text) == [
+        '“"Then trust me," he said. "See, I appoint myself hospitaller."” He stayed.', "He ate.",
+    ]
+
+
+def test_an_opener_nothing_closes_holds_nothing_together():
+    """The grounding net pairs an unclosed opener with nothing, and so does
+    the splitter."""
+    text = "He said: 'Go out. Sit in your cell."
+    assert prose.quote_aware_sentences(text) == ["He said: 'Go out.", "Sit in your cell."]
+
+
+def test_a_guillemet_quotation_holds_a_sentence_together():
+    text = "He wrote: « Go out. Sit in your cell » and left. Then he slept."
+    assert prose.quote_aware_sentences(text) == [
+        "He wrote: « Go out. Sit in your cell » and left.", "Then he slept.",
+    ]
+
+
+def test_the_splitter_keeps_together_exactly_the_quotations_the_net_pairs():
+    text = "The brothers' cells were searched. 'Look,' he said. 'It is here. Take it,' he said. They took it."
+    pieces = prose.quote_aware_sentences(text)
+    assert pieces == [
+        "The brothers' cells were searched.", "'Look,' he said.", "'It is here. Take it,' he said.", "They took it.",
+    ]
+    for open_i, close_i in prose.quote_pairs(text):
+        assert sum(text[open_i : close_i + 1] in piece for piece in pieces) == 1
+
+
 # ----------------------------------------------------- overlap_coefficient
 
 def test_overlap_is_over_the_smaller_side():
