@@ -69,8 +69,9 @@ text: >-
 
 
   On what we believed about God, we are poorer than you would expect. We
-  were not a teaching movement. We produced no school, no system, no
-  line of doctors - one book, by one man, whom we silenced. Our councils
+  were not a teaching movement. We can show you no school, no system, no
+  line of doctors - only one book of interpretation, by that same man.
+  Our councils
   decided who might stand at an altar, not what might be said about the
   Godhead.
 
@@ -88,8 +89,9 @@ positions:
   and the silencing of Tyconius over the extent of the church
 - at Bagai we condemned a breakaway party in the harshest terms we owned and then received two of its
   bishops back without repeating baptism or ordination, and left no explanation of the difference
-- 'we were not a teaching movement: one work of interpretation was produced among us, by a man our own
-  leadership silenced, and our councils ruled on standing rather than on doctrine'
+- 'we were not a teaching movement. One work of interpretation is attested among us, by Tyconius, whom
+  our bishop told to stop preaching that the church spans the earth. Our councils ruled on standing, not
+  on doctrine'
 - the interior word our doctrine actually turns on is conscientia, and the conscience it examines is the
   minister's rather than the believer's
 tensions:
