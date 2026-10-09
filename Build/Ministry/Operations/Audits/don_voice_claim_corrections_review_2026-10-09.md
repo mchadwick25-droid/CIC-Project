@@ -63,3 +63,18 @@ The "Changed" bullets for the two records, and the waiver count if the readabili
 - `don.limit.theology-beyond-tyconius` "condemned him for it" ties the condemnation to the seven rules; the sources tie it to his teaching on the church. Old content, an honest_limit in draft, for the build thread.
 
 Findings 1, 2 and 4 are record edits and need a package rebuild and repin. Finding 3 is an edit to OG-31. After them, a targeted recheck of only those lines is enough.
+
+## Recheck (2026-10-09): findings 1 to 5 only
+
+Scope: e50cb294 (records and OG-31) and 67f994fc (rebuild, repin, site JSON), checked against the fixes above. Only the changed lines were rechecked.
+
+- Finding 1: `don.dw.what-we-argued-among-ourselves` `text` now reads "We can show you no school, no system, no line of doctors - only one book of interpretation, by that same man." "That same man" refers back to "Tyconius, a layman of ours" in the paragraph just above. `positions[2]` now names Tyconius, "whom our bishop told to stop preaching that the church spans the earth". The rebuke is now tied to his teaching, as in c. Ep. Parm. I.1 ("quod ecclesiam praedicaret toto orbe diffusam"), and no longer to the book. The scholar's phrasing is gone from `text`. Nothing new is added. Resolved.
+- Finding 2: `don.dw.how-we-read-and-heard` `text` now reads "His book survives; we can show you no one who followed him." That is what the sources support, with no claim that a following existed or did not. Resolved.
+- Finding 4: `positions[2]` and `use_note.means` now say "told to stop preaching that the church spans the earth". This matches the source. Resolved.
+- Findings 3 and 5: OG-31's "Changed" bullets match the record diffs word for word. "Not changed" lists the unhedged condemnation in the two edited records and the five others, and notes that the world front is on the public site. The status line keeps those items and the world front OPEN. The Gates paragraph names the new pin and hash and the site staleness check. `git diff origin/main` on `Open_Gaps_Tracking.md` removes no line, so OG-30 is untouched. Resolved.
+- Pin: `records/worlds/don.yaml` pins `packages/don/2026-10-09T00-22-23Z`, `sha256:4db3b63e13e7c2eb41b355bdd479c81260d5de60d22621397f36954bb878d7f2`. This equals `sha256sum` of the manifest and matches OG-31. All 315 entries hash correctly. `diff -rq` of the package's `records/` against `records/don/` gives no output. `records_commit` is e50cb294, the last commit to touch `records/don`. The unmerged intermediate manifest `2026-10-08T23-41-55Z` was renamed away in git; it never reached main, so this is right. `2026-10-08T19-32-19Z` stays, as in the witt precedent. `cic-website/data/worlds/donatism.json` changes only its `records_commit` stamp.
+- Gates: `python -m engine.m10.cli records don`: PASS. `regate don --base origin/main`: PASS, and the notes on the two edited records concern unchanged base fields only. `python -m engine.m2.site_cli staleness-check` and `python -m engine.m2.cli staleness-check`: don is `stale: false`. `python -m engine.m9.cli check`: exit 0, library access gate clean, so the 320 waiver count still matches the live count. The engine diff against origin/main is still only `m1:readability/don` 326 to 320.
+
+### Recheck verdict: APPROVED TO PROCEED
+
+The observations above remain with the build thread through OG-31's OPEN items.
