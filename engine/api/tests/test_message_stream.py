@@ -22,7 +22,7 @@ def _http(store, usage_store, world_loader, registry, *, client=None, streaming_
     app = create_app(
         voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
         store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
-        default_world_key="fix", streaming_enabled=streaming_enabled, r27_enforce=r27_enforce,
+        default_world_key="fix", streaming_enabled=streaming_enabled, r27_enforce=r27_enforce, sentence_enforce=False,
     )
     return TestClient(app)
 

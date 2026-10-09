@@ -25,7 +25,7 @@ def test_the_report_carries_the_live_test_and_a_world_on_every_call(monkeypatch)
     monkeypatch.setattr(guard, "_emit", lines.append)
     monkeypatch.setattr(sys, "argv", ["prog", "--live-test", "report proof", "--cap-usd", "2.00"])
     fake = FakeBedrockClient(
-        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["We spoke of him as we were taught [[fix.witness.who-is-jesus]]."],
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
     )
     monkeypatch.setattr(
         live_turn_run, "resolve_model_id",

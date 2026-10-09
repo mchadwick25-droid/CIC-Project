@@ -74,7 +74,7 @@ def test_an_ordinary_reply_streams_when_demonstrations_exist():
     stream = SentenceStream(repository_records=RECORDS, world_key="fix")
     raw = (
         "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. "
-        "That is the whole of it, and we hold to it still, as our elders did before us. And more follows."
+        "That is the whole of it, and we hold to it still, as our elders did before us. And more follows. Then the end."
     )
     events = [e for i in range(0, len(raw), 6) for e in stream.feed(raw[i : i + 6])]
     assert [e["text"] for e in events] == [
@@ -91,7 +91,7 @@ def test_nothing_streams_until_the_reply_could_hold_a_recitation():
 
 def test_a_world_without_demonstrations_streams_at_once():
     stream = SentenceStream(repository_records={"fix.witness.who-is-jesus": WITNESS}, world_key="fix")
-    raw = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. That is all. And more follows."
+    raw = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. That is all. And more follows. Then the end."
     assert len([e for i in range(0, len(raw), 6) for e in stream.feed(raw[i : i + 6])]) == 2
 
 
@@ -101,10 +101,12 @@ def _recitation_world() -> LoadedWorld:
 
 
 def _turn(scripts, **kwargs):
+    # Recitation is proved on its own: sentence enforcement, which would
+    # regenerate the ungrounded demonstration text too, is off here.
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_scripts=scripts)
     event, _usage = run_voice_turn_for_world(
         voice_client=client, voice_model_id="m", world=_recitation_world(), participant_message="who was Jesus",
-        directive=None, session_id="test-session", **kwargs,
+        directive=None, session_id="test-session", sentence_enforce=False, **kwargs,
     )
     return event, client
 
@@ -151,7 +153,7 @@ def test_a_reply_already_streamed_is_never_regenerated_over():
     shown = []
     first = (
         "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]], and we have held to that word "
-        "for as long as any of us can remember. " + DEMO_TEXT
+        "for as long as any of us can remember. " + DEMO_TEXT + " Then it ended. And that was all."
     )
     event, client = _turn([[first]], on_sentence=shown.append)
     assert len(client.messages.captured_stream_calls) == 1
@@ -174,7 +176,7 @@ def _system_text(system) -> str:
 
 
 def test_the_participants_own_quoted_words_keep_their_marks_in_a_turn():
-    reply = 'You asked about "the door that was never opened" [[fix.witness.who-is-jesus]], and we hold to what we were told.'
+    reply = 'You asked about "the door that was never opened", and we did not claim to have seen him ourselves [[fix.witness.who-is-jesus]].'
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=[reply])
     event, _usage = run_voice_turn_for_world(
         voice_client=client, voice_model_id="m", world=_recitation_world(),

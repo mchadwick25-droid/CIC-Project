@@ -172,6 +172,7 @@ class Deps:
     admin_token: str | None = None
     package_cache_dir: Path | None = None
     r27_enforce: bool = False
+    sentence_enforce: bool = True
     self_revision_enabled: bool = True
     citation_attach_enabled: bool = False
     qc_recorder: object | None = None
@@ -473,6 +474,7 @@ def create_app(
     anon_daily_session_limit: int = anon_cap.DEFAULT_DAILY_SESSION_LIMIT,
     anon_daily_turn_limit: int = anon_cap.DEFAULT_DAILY_TURN_LIMIT,
     r27_enforce: bool = False,
+    sentence_enforce: bool = True,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
     qc_recorder=None,
@@ -539,6 +541,7 @@ def create_app(
         enforce_admission=enforce_admission,
         package_cache_dir=package_cache_dir,
         r27_enforce=r27_enforce,
+        sentence_enforce=sentence_enforce,
         self_revision_enabled=self_revision_enabled,
         citation_attach_enabled=citation_attach_enabled,
         qc_recorder=qc_recorder,
@@ -662,6 +665,7 @@ def create_app(
             client_msg_id=req.client_msg_id,
             package_cache_dir=deps.package_cache_dir,
             r27_enforce=deps.r27_enforce,
+            sentence_enforce=deps.sentence_enforce,
             self_revision_enabled=deps.self_revision_enabled,
             citation_attach_enabled=deps.citation_attach_enabled,
             qc_recorder=deps.qc_recorder,
@@ -731,6 +735,7 @@ def create_app(
             voice_client=deps.voice_client, voice_model_id=deps.voice_model_id,
             safety_client=deps.safety_client, safety_model_id=deps.safety_model_id,
             session_id=session_id, package_cache_dir=deps.package_cache_dir, r27_enforce=deps.r27_enforce,
+            sentence_enforce=deps.sentence_enforce,
             self_revision_enabled=deps.self_revision_enabled, citation_attach_enabled=deps.citation_attach_enabled,
             qc_recorder=deps.qc_recorder,
         )

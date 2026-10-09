@@ -885,6 +885,7 @@ def handle_message(
     client_msg_id: str | None = None,
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
+    sentence_enforce: bool = True,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
     daily_turn_cap_reached: bool = False,
@@ -1050,6 +1051,7 @@ def handle_message(
             other_tradition_known_in_window=other_tradition_known_in_window,
             other_tradition_revealed=other_tradition_revealed,
             self_revision_enabled=self_revision_enabled,
+            sentence_enforce=sentence_enforce,
             daily_cap_reached=False,
             turn_cap=grant.cap,
             facilitator_only=grant.facilitator_only,
@@ -1165,7 +1167,7 @@ def handle_message(
         # too: an r27-exhausted turn is a real generation failure for this
         # turn, which supersedes any other facilitator_event the same turn
         # produced.
-        if result.voice_event.get("r27_enforcement_exhausted"):
+        if result.voice_event.get("r27_enforcement_exhausted") or result.voice_event.get("sentence_enforcement_exhausted"):
             fallback_event = facilitator_turns.voice_rejected_turn(world.frame["representative"]["name"])
             events.validate("facilitator_turn", fallback_event)
             store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fallback_event)
@@ -1177,7 +1179,10 @@ def handle_message(
         usage_store.append(rec)
 
     if qc_recorder is not None:
-        shown_voice = voice_payload if voice_payload and not voice_payload.get("r27_enforcement_exhausted") else None
+        set_aside = voice_payload and (
+            voice_payload.get("r27_enforcement_exhausted") or voice_payload.get("sentence_enforcement_exhausted")
+        )
+        shown_voice = voice_payload if voice_payload and not set_aside else None
         qc_recorder.record_safely(
             session_id=session_id, world_key=state.world_key, world=world,
             package_hash=state.package_manifest_hash, model_id=voice_model_id if shown_voice else None,
