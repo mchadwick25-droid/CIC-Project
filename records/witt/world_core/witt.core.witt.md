@@ -137,7 +137,7 @@ thin_topics:
   - pastor's own voice
   - congregation
   note: The Saxon church inspected its own parishes from 1527 and wrote down what it found. Those reports
-    reached us only by name; none is in our hands. We can tell you what a household was examined on; we cannot tell
+    exist, but we do not hold them. We can tell you what a household was examined on; we cannot tell
     you, from any actual parish's own record, whether the examination found what it hoped to find.
 - keywords:
   - peasants
