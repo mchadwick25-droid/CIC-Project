@@ -979,6 +979,6 @@ The same overstatement (a flat "the only thinker we produced") stood in these th
 
 **Closes.** Item (9) of "Voice errors found in the record pass staging reading, 9 October" for its second claim. The first claim there (the paste of `don.dw.room-for-dissent`) and the other items stay with that entry.
 
-**Gates.** `engine.m10.cli records don` and `regate don --base origin/main`: pass. The readability waiver `m1:readability/don` in `engine/m9/enforce.py` is tightened from 326 to 320. Package rebuilt after the last record edit: `records/worlds/don.yaml` pins `packages/don/2026-10-08T23-41-55Z`, `manifest_hash` `sha256:f66caff120386273c04fb77eebc72a2aa51ef234cd6123ed6c0e20c34be84da8`.
+**Gates.** `engine.m10.cli records don` and `regate don --base origin/main`: pass. The readability waiver `m1:readability/don` in `engine/m9/enforce.py` is tightened from 326 to 320. Package rebuilt after the last record edit: `records/worlds/don.yaml` pins `packages/don/2026-10-09T00-22-23Z`, `manifest_hash` `sha256:4db3b63e13e7c2eb41b355bdd479c81260d5de60d22621397f36954bb878d7f2`. The site JSON was recompiled; `engine.m2.site_cli staleness-check`: pass.
 
 Status: CLOSED for item (9)'s second claim. The world front lines and the unhedged condemnation listed under "Not changed" stay OPEN for the build thread; the 9 October entry's other items stay OPEN.
