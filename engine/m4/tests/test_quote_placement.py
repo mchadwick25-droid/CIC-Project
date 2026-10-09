@@ -474,12 +474,12 @@ def test_a_typed_quotation_triggers_the_same_one_regeneration():
     assert "[[quote:" in str(client.messages.captured_stream_calls[1])
 
 
-def test_a_sentence_still_withheld_after_the_one_regeneration_is_dropped():
+def test_a_sentence_still_withheld_after_the_one_regeneration_sets_the_reply_aside():
     voice_event, client = _turn([[f"{_CLEAN} {_WITHHELD}"], [f"{_CLEAN} {_WITHHELD}"]], sentence_enforce=True)
     assert len(client.messages.captured_stream_calls) == 2
-    assert voice_event["text"] == _CLEAN_SHOWN
-    assert voice_event["sentence_enforcement"]["sentences_dropped"] == [_WITHHELD]
-    assert voice_event["sentence_enforcement_exhausted"] is False
+    assert voice_event["text"] == ""
+    assert voice_event["sentence_enforcement"]["still_flagged"] == [_WITHHELD]
+    assert voice_event["sentence_enforcement_exhausted"] is True
 
 
 def test_a_reply_in_which_every_sentence_is_still_withheld_is_set_aside_not_shown():

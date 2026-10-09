@@ -65,10 +65,11 @@ class PlacementContext:
 @dataclass
 class _Report:
     placed_sentences: dict[str, str] = field(default_factory=dict)
+    placed_drafts: dict[str, str] = field(default_factory=dict)
     removed: list[dict] = field(default_factory=list)
 
-    def drop(self, sentence: str, why: str) -> None:
-        self.removed.append({"sentence": strip_tags(sentence).strip(), "why": why})
+    def drop(self, sentence: str, why: str, *, draft: str | None = None) -> None:
+        self.removed.append({"sentence": strip_tags(sentence).strip(), "why": why, "draft": (draft or sentence).strip()})
 
 
 def _lead_for_quote(lead: str) -> str:
@@ -96,7 +97,9 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
     """The voice's tagged text with its quote markers placed, as the module
     docstring describes. Returns {"text", "placed" (record ids, in order),
     "placed_sentences" (each placed sentence's text, tags stripped and
-    whitespace collapsed, to its record id), "removed" (each sentence removed, with why)}."""
+    whitespace collapsed, to its record id), "placed_drafts" (the same keys,
+    to the sentence as the voice wrote it, marker included), "removed" (each
+    sentence removed, with why, and as the voice wrote it in "draft")}."""
     report = _Report()
     paragraphs_out: list[list[str]] = []
     story_seen: set[str] = set()
@@ -113,22 +116,27 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
             if marker:
                 lead = sentence[: marker.start()].strip()
                 rest = sentence[marker.end():]
+                drafted = sentence[: marker.end()].strip()
                 reason, record = _placement_verdict(marker.group(0), repository_records, context, len(report.placed_sentences))
                 composed = None
                 if reason is None:
                     if not lead:
                         lead = _take_lead_in(kept, paragraphs_out)
+                        drafted = f"{lead} {drafted}".strip()
                     rendering = record["modern_rendering"]
                     composed = f"{_lead_for_quote(lead)} “{rendering}” [[{record['id']}]]".strip()
                     if not _settable(composed, rendering):
                         reason, composed = REASON_NOT_SETTABLE, None
                 if composed is None:
-                    report.drop(f"{lead} {QUOTE_MARKER.sub('', sentence)}".strip() if lead else sentence, reason)
+                    report.drop(
+                        f"{lead} {QUOTE_MARKER.sub('', sentence)}".strip() if lead else sentence, reason, draft=drafted,
+                    )
                     if not lead and (previous := _take_lead_in(kept, paragraphs_out, only_if_lead=True)):
                         report.drop(previous, REASON_LEAD_IN)
                 else:
                     kept.append(composed)
                     report.placed_sentences[placed_key(strip_tags(composed))] = record["id"]
+                    report.placed_drafts[placed_key(strip_tags(composed))] = drafted
                     paragraphs_out.append(kept)
                     kept = []
                 tail = re.sub(r"^[\s.,;:!?]+", "", rest)
@@ -155,6 +163,7 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
         "text": "\n\n".join(" ".join(p) for p in paragraphs_out if p),
         "placed": list(report.placed_sentences.values()),
         "placed_sentences": report.placed_sentences,
+        "placed_drafts": report.placed_drafts,
         "removed": report.removed,
     }
 
