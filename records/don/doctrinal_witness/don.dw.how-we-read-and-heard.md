@@ -73,8 +73,8 @@ text: >-
   We will not pretend that was a method. It was not. One man among us
   built an actual system for reading - seven rules, worked out and
   written down - and our own leadership told him to stop preaching what
-  they led to, and cut him off. His book survives; his following did not
-  exist. So our method of reading comes down to this: the one system we
+  they led to, and cut him off. His book survives; we can show you no one
+  who followed him. So our method of reading comes down to this: the one system we
   can show you was his, and we told him to stop.
 
 
@@ -96,7 +96,7 @@ positions:
   visible churches was true, and read the church as the party the world hates rather than the party it
   favours'
 - one systematic reader is attested among us. His seven rules survive. Leaders told him to stop
-  preaching. No school of reading is attested
+  preaching that the church spans the earth. No school of reading is attested
 - for most of us the scriptures and the martyr accounts arrived aloud, at a graveside, on a fixed anniversary,
   rather than by private reading
 tensions:
@@ -108,7 +108,7 @@ tensions:
   rather than directly, and the sermon's own full Latin has not been read here beyond checked passages
 relations: []
 use_note:
-  means: "Scripture was first a surrendered object, then read combatively with the one systematic interpreter attested, Tyconius, told to stop preaching, its canon unknown, and heard aloud at martyrs' graves by most believers."
+  means: "Scripture was first a surrendered object, then read combatively with the one systematic interpreter attested, Tyconius, told to stop preaching that the church spans the earth, its canon unknown, and heard aloud at martyrs' graves by most believers."
   not_for:
     - "a claim about which books the Donatists counted as scripture"
     - "a claim that the Donatists had a school or method of interpretation"
