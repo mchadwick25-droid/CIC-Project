@@ -586,3 +586,25 @@ Errors in the voice's replies in the named, capped live test "record pass stagin
 (12) (H) "What would you want me to understand that I haven't asked?": the `hal.quote.house-destroyed` line voiced in the previous reply is voiced again in full, and the 416 fire is told again rather than referred back (decision 60 clause 1 and its 7 October referring-back refinement).
 
 Status: OPEN.
+
+## OG-18. Voice claim corrections after the record pass staging reading, 2026-10-09.
+
+Closes the Jerome item of "Voice errors found in the record pass staging reading, 9 October": items (7) and (10), the Hebrew claims in the reply to "What does Hebraica veritas mean?". Review: `Build/Ministry/Operations/Audits/hal_voice_claim_corrections_review_2026-10-09.md` (Opus 5.5, one review).
+
+**Changed.**
+- `hal.quote.partially-acquired-hebrew` `use_note.means`: now says Jerome "began Hebrew as a young man, had only partially acquired it through long toil, and kept studying it lest he lose it". Before, it said only that he "had only partially acquired Hebrew through long toil", with nothing on when he began. The quote `text` is untouched and already says "beginning as a young man". Item (7), "learned it as an older man", has no record behind it that says so; the use note gave the voice no start date, so it now states Jerome's own account.
+- `hal.core.hieronymian` `cautions`, caution 4: the phrase "contested in modern scholarship" is replaced by "an open question (hal.contested.hebrew-fluency). The Representative gives only his own words: he began as a young man and partly acquired it. Never state his fluency as settled. The modern dispute is for the Facilitator." The old phrase was outside-the-world scholarship in a record the Representative draws on, and it is the likely source of item (10), "scholars contest it still". The reply tagged this record for that sentence.
+- The same `cautions` field was reworded in full, same eight points and no new claim, in shorter sentences. The regate gate treats any edit to a field as a new field, and the old field was at FK 14.1 and FRE 32.1, so it could not be edited alone.
+
+**Not changed.**
+- `hal.contested.hebrew-fluency` stays in its etic register with formation_confidence Contested. The Facilitator may say the contest directly. No other record states the contest to the Representative.
+- `hal.term.grammaticus` carries "seriously contested" in `false_friend`, and `hal.figure.jerome` carries "per Williams" in its body. Both are for the builder and the Facilitator, not spoken text, and neither says "older man". Left as is.
+- Item (8), "His critics doubted that claim then", is a separate item and is not closed here; `hal.contested.hebrew-fluency` names only Williams (2006) and, for reputation, Sulpitius Severus.
+- Quote `text` and every `modern_rendering` are untouched. `hal.quote.partially-acquired-hebrew` `modern_rendering` ("I began as a young man and with much toil and effort partially acquired the Hebrew tongue...") agrees with the text; no change needed.
+- Items (1) to (6), (8), (9), (11), (12) of the 9 October entry are not touched by this entry.
+
+**Engine item for the fidelity slice.** The words "older man" come from no record, and the voice also altered the quoted line (item (2)). That is the voice's own error against a clear record. The sentence "scholars contest it still" was withheld by the grounding net but still reached the reply text (sentence_enforce is off); this is the fleet-level finding already raised in the 9 October entry.
+
+**Gates.** `python -m engine.m10.cli records hal` and `python -m engine.m10.cli regate hal --base origin/main`: pass. `python -m engine.m2.cli determinism-check hal`: pass. `python -m engine.m2.cli staleness-check`: no world stale. `python -m engine.m9.cli check`: clean after the hal readability waiver in `engine/m9/enforce.py` went stale and was tightened from 161 to 159 (the `cautions` rewrite cleared two failures); `python -m pytest engine/m9/tests`: pass. `tools/check_paths.py` against its baseline and `tools/check_live_commentary.py --base origin/main --enforce`: pass. Package rebuilt after the last record edit: `records/worlds/hal.yaml` pins `packages/hal/2026-10-09T00-26-08Z`, `manifest_hash` `sha256:3523f325311735e6882f19ae7032858aa660edee89ef8d848ca5d86a19ec226a`.
+
+Status: CLOSED for the Jerome item. The 9 October entry stays OPEN for its other items.
