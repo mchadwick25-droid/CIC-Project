@@ -19,8 +19,9 @@ and returns tagged text the net checks:
   sentence, as a reference back; later sentences tagged to it go.
 
 Every other quotation rule (a quotation the voice typed, words attributed
-without quotation marks, a quote record named under its speaker) is the
-grounding net's, which knows each placed sentence from `placed_sentences`.
+without quotation marks, a sentence tagged to a quote record not yet placed,
+or giving its words) is the grounding net's, which knows each placed
+sentence from `placed_sentences`.
 Deterministic string operations; no model call.
 """
 from __future__ import annotations

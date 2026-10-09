@@ -633,18 +633,24 @@ def test_a_quotation_of_four_words_or_more_is_withheld_whatever_record_holds_it(
         assert entry["why"] == TYPED, text
 
 
+# The quotation-mark checks below run on sentences referring back to a quote
+# already voiced, so that a tag to an unplaced quote record (refused whole)
+# does not decide them.
+SONG_VOICED = frozenset({"fix.quote.clement-song"})
+
+
 def test_a_short_quoted_span_found_in_no_record_loses_its_marks_and_is_withheld():
-    entry = _entry('We sang of "the mighty song" [[fix.quote.clement-song]].')
+    entry = _entry('We sang of "the mighty song" [[fix.quote.clement-song]].', voiced=SONG_VOICED)
     assert entry["why"] == "quotation not in records"
     assert entry["sentence"] == "We sang of the mighty song."
     assert entry["source_sentence"].count('"') == 2
     assert entry["quotations_not_in_records"] == ["the mighty song"]
-    curly = _entry("We sang of “the mighty song” [[fix.quote.clement-song]].")
+    curly = _entry("We sang of “the mighty song” [[fix.quote.clement-song]].", voiced=SONG_VOICED)
     assert "“" not in curly["sentence"] and "”" not in curly["sentence"]
 
 
 def test_a_short_quoted_span_found_in_a_record_keeps_its_marks():
-    entry = _entry('We sang of "the new song" [[fix.quote.clement-song]].')
+    entry = _entry('We sang of "the new song" [[fix.quote.clement-song]].', voiced=SONG_VOICED)
     assert entry["verdict"] == "ok"
     assert "source_sentence" not in entry
 
@@ -665,7 +671,7 @@ def test_possessives_and_contractions_are_never_quotations():
 
 
 def test_marks_come_off_only_the_failing_short_span():
-    entry = _entry('We sang of "the new song" and then "nobody wrote" [[fix.quote.clement-song]].')
+    entry = _entry('We sang of "the new song" and then "nobody wrote" [[fix.quote.clement-song]].', voiced=SONG_VOICED)
     assert entry["sentence"] == 'We sang of "the new song" and then nobody wrote.'
 
 
@@ -837,12 +843,22 @@ EPHREM_REPOSITORY = {r["id"]: r for r in (EPHREM, EPHREM_QUOTE, CHURCH_WITNESS)}
 CLEAN = "We hold that the Church is one body [[w.witness.church]]."
 
 
-def test_a_sentence_tagged_to_a_quote_record_that_names_its_speaker_is_refused_unless_placed():
-    text = "Ephrem says the Church is like a vessel crossing the wide sea [[w.quote.a]]."
-    entry = _entry(text, EPHREM_REPOSITORY)
+def test_a_sentence_tagged_to_a_quote_record_not_yet_voiced_is_refused_whether_or_not_it_names_the_speaker():
+    for text in (
+        "Ephrem says the Church is like a vessel crossing the wide sea [[w.quote.a]].",
+        "We speak of the Church as a ship on the wide sea [[w.quote.a]].",
+    ):
+        entry = _entry(text, EPHREM_REPOSITORY)
+        assert (entry["verdict"], entry["why"]) == ("withhold", "tagged to a quote record that has not been placed"), text
+
+
+def test_referring_back_to_a_voiced_quote_is_refused_only_when_it_names_the_speaker():
+    voiced = frozenset({"w.quote.a"})
+    entry = _entry("Ephrem says the Church is like a vessel crossing the wide sea [[w.quote.a]].", EPHREM_REPOSITORY, voiced=voiced)
     assert entry["verdict"] == "withhold"
     assert entry["why"] == "quote record's speaker named without its placed quote"
-    assert _entry("We speak of the Church as a ship on the wide sea [[w.quote.a]].", EPHREM_REPOSITORY)["verdict"] == "ok"
+    refer_back = _entry("We speak of the Church as a ship on the wide sea [[w.quote.a]].", EPHREM_REPOSITORY, voiced=voiced)
+    assert refer_back["verdict"] == "ok"
 
 
 def test_untagged_attribution_forms_are_refused():
@@ -891,6 +907,66 @@ def test_a_typed_quotation_standing_alone_takes_its_lead_in():
     whys = _whys(f'Ephrem answered the charge. "The Church is a ship on the wide sea." {CLEAN}', EPHREM_REPOSITORY)
     assert [w[2] for w in whys][:2] == ["lead-in to a quotation typed by the voice", TYPED]
     assert whys[2][1] == "ok"
+
+
+# --- a quote's words, by wording ---------------------------------------------------
+
+QUOTE_WORDS = "gives a quote record's words without placing it"
+SHIP_QUOTE = {
+    "id": "w.quote.ship", "record_type": "quote", "speaker_or_author": "w.figure.ephrem",
+    "text": "The Church is a ship that saileth upon the wide sea of this world.",
+    "modern_rendering": "The Church is a ship that sails the wide sea of this world. Her mast is the cross and her pilot is Christ, who brings her safe to harbour.",
+    "use_note": {"means": "Ephrem likens the Church to a ship crossing the sea of the world with the cross for its mast."},
+}
+SHIP_WITNESS = {
+    "id": "w.witness.ship", "record_type": "doctrinal_witness",
+    "text": "We speak of the Church as a ship whose mast is the cross and whose pilot is Christ, bringing her safe to harbour.",
+}
+SHIP_REPOSITORY = {r["id"]: r for r in (EPHREM, SHIP_QUOTE, SHIP_WITNESS)}
+SHIP_RETOLD = "the Church is a vessel on the wide sea of the world, the cross her mast and Christ her pilot"
+
+
+def test_a_quotes_words_in_other_words_are_refused_and_name_the_quote():
+    for text in (f"Ephrem sang: {SHIP_RETOLD}.", f"{SHIP_RETOLD[0].upper()}{SHIP_RETOLD[1:]}."):
+        entry = _entry(text, SHIP_REPOSITORY)
+        assert (entry["verdict"], entry["why"], entry["quote_words_of"]) == ("withhold", QUOTE_WORDS, "w.quote.ship"), text
+    assert QUOTE_WORDS in QUOTATION_DROP_REASONS
+
+
+def test_a_quotes_own_gist_is_not_its_words():
+    assert _entry(SHIP_QUOTE["use_note"]["means"], SHIP_REPOSITORY)["why"] != QUOTE_WORDS
+
+
+def test_a_record_the_sentence_is_tagged_to_may_hold_the_same_words_unless_the_speaker_is_named():
+    words = "the Church is a ship whose mast is the cross and whose pilot is Christ, safe to harbour"
+    assert _entry(f"For us, {words} [[w.witness.ship]].", SHIP_REPOSITORY)["verdict"] == "ok"
+    assert _entry(f"Ephrem sang that {words} [[w.witness.ship]].", SHIP_REPOSITORY)["why"] == QUOTE_WORDS
+
+
+def test_a_quote_already_voiced_is_not_checked_for_its_words():
+    sentence = f"Ephrem sang: {SHIP_RETOLD}."
+    assert _entry(sentence, SHIP_REPOSITORY, voiced=frozenset({"w.quote.ship"}))["why"] != QUOTE_WORDS
+
+
+def test_the_participants_own_words_are_not_a_quotes_words():
+    sentence = f"You asked whether {SHIP_RETOLD}."
+    asked = [f"Is it true that {SHIP_RETOLD}?"]
+    assert _entry(sentence, SHIP_REPOSITORY, quotable_texts=asked)["why"] != QUOTE_WORDS
+
+
+# --- quotation forms -------------------------------------------------------------
+
+
+def test_corner_brackets_are_quotation_marks():
+    assert [span for _s, _e, span in quoted_span_positions("He said 「no deception」 and『no mixture』.")] == [
+        "no deception", "no mixture",
+    ]
+    entry = _entry("Ephrem wrote 「the Church is a ship that crosses the wide sea」.", EPHREM_REPOSITORY)
+    assert entry["why"] == TYPED
+
+
+def test_a_speaker_named_in_lower_case_is_still_named():
+    assert _whys("ephrem says, the Church is a ship that crosses the wide sea.", EPHREM_REPOSITORY)[0][2] == ATTRIBUTED
 
 
 def test_an_unclosed_guillemet_takes_the_rest_of_its_paragraph():

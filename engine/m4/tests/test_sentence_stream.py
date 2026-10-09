@@ -4,6 +4,7 @@ plan gives it, tags never show, and the open sentence is held back."""
 import pytest
 
 from engine.m4.grounding_net import strip_tags
+from engine.m4.quote_placement import PlacementContext
 from engine.m4.sentence_stream import SentenceStream
 from engine.m4.transparency_plan import build_transparency_plan
 from engine.m4.turn import _draft_is_final_text, apply_net
@@ -18,19 +19,21 @@ RAW = (
     "They knew him in the bread [[w.story.road]]!\n\n"
     'Our teacher sang of "the new song" [[w.quote.song]]. That is what we remember. We hold it still.'
 )
+# The conversation voiced the quote earlier, so a sentence tagged to it refers back to it.
+VOICED = frozenset({"w.quote.song"})
 
 
 def _chunked(text, size):
     return [text[i : i + size] for i in range(0, len(text), size)]
 
 
-def _streamed(chunks):
-    stream = SentenceStream(repository_records=RECORDS, world_key="w")
+def _streamed(chunks, voiced=VOICED):
+    stream = SentenceStream(repository_records=RECORDS, world_key="w", voiced_quotes=voiced)
     return [event for chunk in chunks for event in stream.feed(chunk)]
 
 
-def _plan(raw):
-    text, citations, net = apply_net(raw, repository_records=RECORDS, thin_topics=None)
+def _plan(raw, voiced=VOICED):
+    text, citations, net = apply_net(raw, repository_records=RECORDS, thin_topics=None, placement=PlacementContext(voiced=voiced))
     return text, build_transparency_plan(citations=citations, net_result=net, repository_records=RECORDS, world_key="w", text=text)
 
 
@@ -156,7 +159,9 @@ def test_a_sentence_whose_marks_came_off_streams_with_them_off_and_the_offsets_o
 
 
 def test_apply_net_withholds_a_sentence_whose_marks_came_off_and_gives_it_no_citation():
-    text, citations, net = apply_net(UNQUOTED_RAW, repository_records=RECORDS, thin_topics=None)
+    text, citations, net = apply_net(
+        UNQUOTED_RAW, repository_records=RECORDS, thin_topics=None, placement=PlacementContext(voiced=VOICED),
+    )
     assert text.startswith('We kept the bread together each week. Our teacher sang of nobody\'s song. He also sang of "the new song"')
     assert [c["sentence"] for c in citations] == [
         "We kept the bread together each week.",
@@ -178,6 +183,13 @@ def test_the_stream_stops_before_a_sentence_the_finished_reply_may_reshape_and_h
     )
     texts = [e["text"] for e in _streamed(_chunked(raw, 5))]
     assert texts == ["We kept the bread together each week."]
+
+
+def test_a_sentence_tagged_to_a_quote_not_yet_voiced_stops_the_stream_and_leaves_the_reply():
+    texts = [e["text"] for e in _streamed(_chunked(RAW, 5), voiced=frozenset())]
+    assert texts == ["We kept the bread together each week.", "Two walked the road to Emmaus."]
+    text, _plan_ = _plan(RAW, voiced=frozenset())
+    assert "the new song" not in text and text.endswith("That is what we remember. We hold it still.")
 
 
 def test_a_retold_story_stops_the_stream():
