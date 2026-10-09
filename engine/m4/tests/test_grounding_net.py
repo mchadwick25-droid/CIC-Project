@@ -65,75 +65,64 @@ def test_invented_record_id_is_withheld_at_tag_resolution():
     assert "unresolvable record id" in entry["why"]
 
 
-def test_verbatim_quote_correctly_tagged_passes():
-    text = "As it was sung, 'Behold the might of the new song! It has made men out of stones, men out of beasts.' [[fix.quote.new-song]]"
-    result = check_turn(text, REPOSITORY)
-    entry = result["sentences"][0]
+NEW_SONG_FULL = "Behold the might of the new song! It has made men out of stones, men out of beasts."
+
+
+def _placed(lead, record):
+    sentence = f"{lead} “{record['modern_rendering']}” [[{record['id']}]]"
+    return sentence, {strip_tags(sentence).strip(): record["id"]}
+
+
+def test_a_quote_placed_by_code_passes_verbatim_to_its_record():
+    text, placed = _placed("As it was sung:", QUOTE_RECORD)
+    entry = check_turn(text, REPOSITORY, placed=placed)["sentences"][0]
     assert entry["verdict"] == "ok"
+    assert entry["placed_quote"] == "fix.quote.new-song"
     assert "verbatim" in entry["why"]
 
 
-def test_coined_quote_under_real_tag_is_withheld():
-    text = "As it was sung, 'Behold the wonder of the ancient hymn, made new for us.' [[fix.quote.new-song]]"
-    result = check_turn(text, REPOSITORY)
-    entry = result["sentences"][0]
+def test_the_same_words_typed_by_the_voice_are_withheld_even_when_verbatim():
+    for text in (
+        f"As it was sung, '{NEW_SONG_FULL}' [[fix.quote.new-song]]",
+        f"As it was sung, “{NEW_SONG_FULL}” [[fix.quote.new-song]]",
+        f"As it was sung, '{NEW_SONG_FULL}'",
+    ):
+        entry = check_turn(text, REPOSITORY)["sentences"][0]
+        assert entry["verdict"] == "withhold", text
+        assert entry["why"] == "quotation typed by the voice", text
+
+
+def test_a_coined_quote_under_a_real_tag_is_withheld():
+    for text in (
+        "As it was sung, 'Behold the wonder of the ancient hymn, made new for us.' [[fix.quote.new-song]]",
+        "As it was sung, “Behold the wonder of the ancient hymn, made new for us.” [[fix.quote.new-song]]",
+    ):
+        entry = check_turn(text, REPOSITORY)["sentences"][0]
+        assert entry["verdict"] == "withhold"
+        assert entry["why"] == "quotation typed by the voice"
+
+
+def test_a_placed_sentence_whose_quotation_is_not_its_records_rendering_is_withheld():
+    altered = {**QUOTE_RECORD, "modern_rendering": NEW_SONG_FULL.replace("might", "mighty")}
+    text, placed = _placed("As it was sung:", altered)
+    entry = check_turn(text, REPOSITORY, placed=placed)["sentences"][0]
     assert entry["verdict"] == "withhold"
-    assert entry["why"] == "quotation not in records"
+    assert entry["why"] == "placed quote does not match its record"
 
 
-def test_verbatim_quote_in_curly_marks_passes():
-    text = "As it was sung, “Behold the might of the new song! It has made men out of stones, men out of beasts.” [[fix.quote.new-song]]"
-    entry = check_turn(text, REPOSITORY)["sentences"][0]
-    assert entry["verdict"] == "ok"
-    assert "verbatim" in entry["why"]
-
-
-def test_coined_quote_in_curly_marks_is_withheld():
-    """Curly quotation marks are quotation marks: coined words inside them
-    get the same verbatim check as coined words inside straight ones."""
-    text = "As it was sung, “Behold the wonder of the ancient hymn, made new for us.” [[fix.quote.new-song]]"
-    entry = check_turn(text, REPOSITORY)["sentences"][0]
-    assert entry["verdict"] == "withhold"
-    assert entry["why"] == "quotation not in records"
-
-
-def test_archaic_letterform_in_the_generated_quote_still_matches_a_modern_record():
-    """Archaic letterform normalization, exercised through the real
-    check_turn path, not just _normalize() in isolation: a generated
-    turn quoting with the archaic letterform itself still verifies
-    against a record stored in modern spelling - the shared normalizer
-    m9's own verbatim-in-shelf check uses (_span_in_records -> _normalize)
-    is the same one this whole check runs through."""
-    text = "As it was sung, 'Behold þe might of þe new song! It has made men out of stones, men out of beasts.' [[fix.quote.new-song]]"
-    entry = check_turn(text, REPOSITORY)["sentences"][0]
-    assert entry["verdict"] == "ok"
-    assert "verbatim" in entry["why"]
-
-
-def test_archaic_letterform_in_the_record_still_matches_a_modern_generated_quote():
-    """The other direction: a record stored WITH the archaic letterform
-    (as a vendored source might carry it) still verifies against a
-    generated quote using modern spelling - genuinely symmetric, not just
-    one-directional tolerance."""
+def test_archaic_letterforms_match_both_ways_in_a_short_quoted_term():
     archaic_record = {
-        "id": "fix.quote.archaic-thorn",
-        "record_type": "quote",
-        "text": "Behold þe might of þe new song! It has made men out of stones.",
-        "modern_rendering": "Behold the might of the new song! It has made men out of stones.",
+        "id": "fix.term.archaic-thorn", "record_type": "term",
+        "plain_meaning": "Behold þe might of þe new song.",
     }
     repo = {**REPOSITORY, archaic_record["id"]: archaic_record}
-    text = "As it was sung, 'Behold the might of the new song! It has made men out of stones.' [[fix.quote.archaic-thorn]]"
-    entry = check_turn(text, repo)["sentences"][0]
-    assert entry["verdict"] == "ok"
-    assert "verbatim" in entry["why"]
-
-
-def test_quote_with_no_tag_is_withheld_even_if_verbatim():
-    text = "As it was sung, 'Behold the might of the new song! It has made men out of stones, men out of beasts.'"
-    result = check_turn(text, REPOSITORY)
-    entry = result["sentences"][0]
-    assert entry["verdict"] == "withhold"
-    assert "no citation tag" in entry["why"]
+    for text in (
+        "They sang of “þe new song” [[fix.quote.new-song]].",
+        "They sang of “the new song” [[fix.term.archaic-thorn]].",
+    ):
+        entry = check_turn(text, repo)["sentences"][0]
+        assert entry["why"] != "quotation not in records", text
+        assert "source_sentence" not in entry, text
 
 
 def test_sentence_initial_figure_name_is_caught_via_lexicon():
@@ -588,18 +577,21 @@ def test_a_generated_span_matching_only_the_archaic_text_does_not_ground():
     assert result["sentences"][0]["verdict"] == "withhold"
 
 
-def test_a_generated_span_matching_the_modern_rendering_grounds_normally():
+def test_a_placed_rendering_grounds_and_the_archaic_text_is_never_what_is_placed():
     quote = {"id": "fix.quote.rendering-match", "record_type": "quote",
              "text": "the elders spoke of paradise restored",
              "modern_rendering": "the elders talked about paradise being brought back"}
-    text = 'He said, "the elders talked about paradise being brought back." [[fix.quote.rendering-match]]'
-    result = check_turn(text, {"fix.quote.rendering-match": quote})
-    assert result["sentences"][0]["verdict"] == "ok"
+    text, placed = _placed("He said:", quote)
+    entry = check_turn(text, {"fix.quote.rendering-match": quote}, placed=placed)["sentences"][0]
+    assert entry["verdict"] == "ok"
+    archaic = 'He said: “the elders spoke of paradise restored” [[fix.quote.rendering-match]]'
+    entry = check_turn(archaic, {"fix.quote.rendering-match": quote}, placed={strip_tags(archaic).strip(): quote["id"]})["sentences"][0]
+    assert entry["why"] == "placed quote does not match its record"
 
 
-# --- quotation marks and attribution (decision 59, checks 1 and 2) -----------------
+# --- quotation marks and attribution -------------------------------------------
 
-from engine.m4.grounding_net import QuotationIndex, shown_text
+from engine.m4.grounding_net import QUOTATION_DROP_REASONS, QuotationIndex, quoted_span_positions, shown_text
 
 SPEAKER_QUOTE = {
     "id": "fix.quote.clement-song", "record_type": "quote", "speaker_or_author": "fix.figure.clement",
@@ -616,48 +608,45 @@ DEMO_RECORD = {
 }
 QUOTE_REPOSITORY = {r["id"]: r for r in (WITNESS_RECORD, FIGURE_RECORD, SPEAKER_QUOTE, OTHER_QUOTE, DEMO_RECORD)}
 NEW_SONG = "Behold the might of the new song! It has made men out of stones"
+TYPED = "quotation typed by the voice"
+ATTRIBUTED = "words attributed without a placed quote"
 
 
-def _entry(text, repository=QUOTE_REPOSITORY):
-    return check_turn(text, repository)["sentences"][0]
+def _entry(text, repository=QUOTE_REPOSITORY, **kwargs):
+    return check_turn(text, repository, **kwargs)["sentences"][0]
 
 
-def test_a_quoted_span_found_in_a_record_passes_unchanged():
-    text = f'Our teachers sang: "{NEW_SONG}" [[fix.quote.clement-song]].'
-    entry = _entry(text)
+def _whys(text, repository=QUOTE_REPOSITORY, **kwargs):
+    return [(s["sentence"], s["verdict"], s["why"]) for s in check_turn(text, repository, **kwargs)["sentences"]]
+
+
+def test_a_quotation_of_four_words_or_more_is_withheld_whatever_record_holds_it():
+    for text in (
+        f'Our teachers sang: "{NEW_SONG}" [[fix.quote.clement-song]].',
+        'We sang "Behold the might of the new song ... men out of beasts" [[fix.quote.clement-song]].',
+        "They said 'the sign was never shown to anyone' [[fix.witness.who-is-jesus]].",
+        'We kept "a secret sign that only the teachers ever knew about" [[fix.witness.who-is-jesus]].',
+        'We must be careful here, and honest about what we hold: "the door was never opened at all".',
+    ):
+        entry = _entry(text)
+        assert entry["verdict"] == "withhold", text
+        assert entry["why"] == TYPED, text
+
+
+def test_a_short_quoted_span_found_in_no_record_loses_its_marks_and_is_withheld():
+    entry = _entry('We sang of "the mighty song" [[fix.quote.clement-song]].')
+    assert entry["why"] == "quotation not in records"
+    assert entry["sentence"] == "We sang of the mighty song."
+    assert entry["source_sentence"].count('"') == 2
+    assert entry["quotations_not_in_records"] == ["the mighty song"]
+    curly = _entry("We sang of “the mighty song” [[fix.quote.clement-song]].")
+    assert "“" not in curly["sentence"] and "”" not in curly["sentence"]
+
+
+def test_a_short_quoted_span_found_in_a_record_keeps_its_marks():
+    entry = _entry('We sang of "the new song" [[fix.quote.clement-song]].')
     assert entry["verdict"] == "ok"
     assert "source_sentence" not in entry
-    assert entry["sentence"].count('"') == 2
-
-
-def test_the_same_span_with_one_word_altered_loses_its_marks_and_is_withheld():
-    text = f'Our teachers sang: "{NEW_SONG.replace("might", "mighty")}" [[fix.quote.clement-song]].'
-    entry = _entry(text)
-    assert entry["verdict"] == "withhold"
-    assert entry["why"] == "quotation not in records"
-    assert '"' not in entry["sentence"]
-    assert entry["sentence"] == "Our teachers sang: Behold the mighty of the new song! It has made men out of stones."
-    assert entry["source_sentence"].count('"') == 2
-    assert entry["quotations_not_in_records"] == [NEW_SONG.replace("might", "mighty")]
-
-
-def test_a_long_span_with_one_altered_word_is_not_saved_by_a_matching_window():
-    altered = "Behold the might of the new song! It has made men out of dust, men out of beasts"
-    entry = _entry(f'They said "{altered}" [[fix.quote.clement-song]].')
-    assert entry["why"] == "quotation not in records"
-
-
-def test_a_span_with_ellipses_is_checked_piece_by_piece():
-    ok = _entry('We sang "Behold the might of the new song ... men out of beasts" [[fix.quote.clement-song]].')
-    bad = _entry('We sang "Behold the might of the new song ... men out of dust" [[fix.quote.clement-song]].')
-    assert ok["verdict"] == "ok"
-    assert bad["why"] == "quotation not in records"
-
-
-def test_curly_double_quotes_are_checked_like_straight_ones():
-    entry = _entry("We sang “Behold the mighty song of the new age” [[fix.quote.clement-song]].")
-    assert entry["why"] == "quotation not in records"
-    assert "“" not in entry["sentence"] and "”" not in entry["sentence"]
 
 
 def test_a_short_single_quoted_term_is_not_a_claim_of_verbatim_words():
@@ -665,104 +654,65 @@ def test_a_short_single_quoted_term_is_not_a_claim_of_verbatim_words():
     assert entry["why"] != "quotation not in records"
 
 
-def test_a_longer_single_quoted_span_is_checked():
-    entry = _entry("They said 'the sign was never shown to anyone' [[fix.witness.who-is-jesus]].")
-    assert entry["why"] == "quotation not in records"
-
-
 def test_possessives_and_contractions_are_never_quotations():
     for text in (
         "The community's worship didn't change, and the teachers' rule held [[fix.term.eucharistia]].",
         "We don't claim what we haven't seen, and it's the elders' word we keep [[fix.witness.who-is-jesus]].",
     ):
-        assert _entry(text, {**QUOTE_REPOSITORY, "fix.term.eucharistia": TERM_RECORD})["why"] != "quotation not in records"
+        assert _entry(text, {**QUOTE_REPOSITORY, "fix.term.eucharistia": TERM_RECORD})["why"] not in (
+            "quotation not in records", TYPED,
+        )
 
 
-def test_words_found_only_in_a_demonstration_do_not_ground_a_quotation():
-    entry = _entry('We kept "a secret sign that only the teachers ever knew about" [[fix.witness.who-is-jesus]].')
-    assert entry["why"] == "quotation not in records"
-
-
-def test_a_quotation_is_checked_even_inside_a_sentence_with_honesty_scaffolding():
-    entry = _entry('We must be careful here, and honest about what we hold: "the door was never opened at all".')
-    assert entry["why"] == "quotation not in records"
-
-
-def test_marks_come_off_only_the_failing_span():
-    text = f'We sang "{NEW_SONG}" and then "a verse nobody wrote" [[fix.quote.clement-song]].'
-    entry = _entry(text)
-    assert entry["sentence"] == f'We sang "{NEW_SONG}" and then a verse nobody wrote.'
+def test_marks_come_off_only_the_failing_short_span():
+    entry = _entry('We sang of "the new song" and then "nobody wrote" [[fix.quote.clement-song]].')
+    assert entry["sentence"] == 'We sang of "the new song" and then nobody wrote.'
 
 
 def test_shown_text_carries_the_marks_off_sentence_and_keeps_the_rest():
     raw = (
         "We kept the bread each week [[fix.term.eucharistia]]. "
-        'Then he said "a line from nowhere at all" [[fix.witness.who-is-jesus]]. '
+        'Then we kept "nobody\'s line" [[fix.witness.who-is-jesus]]. '
         "That is all we hold."
     )
     repository = {**QUOTE_REPOSITORY, "fix.term.eucharistia": TERM_RECORD}
     result = check_turn(raw, repository)
-    assert shown_text(raw, result["sentences"]) == (
-        "We kept the bread each week. Then he said a line from nowhere at all. That is all we hold."
-    )
+    assert shown_text(raw, result["sentences"]) == "We kept the bread each week. Then we kept nobody's line. That is all we hold."
 
 
-def test_quoted_words_attributed_to_a_figure_pass_when_a_quote_record_of_that_figure_is_cited():
-    entry = _entry(f'Clement wrote: "{NEW_SONG}" [[fix.quote.clement-song]].')
-    assert entry["verdict"] == "ok"
-
-
-def test_quoted_words_attributed_to_a_figure_are_withheld_when_only_a_witness_is_cited():
+def test_a_short_quotation_attributed_to_a_figure_needs_that_figures_quote_record():
     repository = {**QUOTE_REPOSITORY, "fix.witness.songs": {
-        "id": "fix.witness.songs", "record_type": "doctrinal_witness", "text": f"Our people sang: {NEW_SONG}.",
+        "id": "fix.witness.songs", "record_type": "doctrinal_witness", "text": "Our people sang of the new song.",
     }}
-    entry = _entry(f'Clement wrote: "{NEW_SONG}" [[fix.witness.songs]].', repository)
-    assert entry["verdict"] == "withhold"
-    assert entry["why"] == "words attributed without a quote record"
-    assert entry["sentence"].count('"') == 2
-
-
-def test_quoted_words_attributed_to_a_figure_are_withheld_when_the_cited_quote_is_another_speakers():
-    entry = _entry('Clement put it plainly: "The door was open to everyone who asked" [[fix.quote.origen-door]].')
-    assert entry["why"] == "words attributed without a quote record"
-
-
-def test_a_free_text_speaker_field_matches_the_figure_it_names():
-    repository = {**QUOTE_REPOSITORY, "fix.figure.origen": {"id": "fix.figure.origen", "record_type": "figure", "names": [{"name": "Origen", "tag": "in-world"}]}}
-    entry = _entry('Origen said: "The door was open to everyone who asked" [[fix.quote.origen-door]].', repository)
-    assert entry["verdict"] == "ok"
+    assert _entry('Clement called it "the new song" [[fix.witness.songs]].', repository)["why"] == (
+        "words attributed without a quote record"
+    )
+    assert _entry('Clement put it plainly: "everyone who asked" [[fix.quote.origen-door]].')["why"] == (
+        "words attributed without a quote record"
+    )
+    assert _entry('According to Clement, "the new song" [[fix.witness.who-is-jesus]].')["why"] == (
+        "words attributed without a quote record"
+    )
 
 
 def test_a_speaker_without_a_figure_record_is_still_a_named_figure():
-    entry = _entry('Origen said: "The door was open to everyone who asked" [[fix.witness.who-is-jesus]].')
+    entry = _entry('Origen said: "everyone who asked" [[fix.witness.who-is-jesus]].')
     assert entry["why"] == "words attributed without a quote record"
-    assert _entry('Origen said: "The door was open to everyone who asked" [[fix.quote.origen-door]].')["verdict"] == "ok"
 
 
-def test_the_same_attribution_without_quotation_marks_may_cite_a_witness():
-    entry = _entry("Clement said we did not claim to have seen him ourselves [[fix.witness.who-is-jesus]].")
-    assert entry["verdict"] == "ok"
-
-
-def test_we_scripture_and_god_are_not_figure_attributions():
-    for lead in ("We said", "Scripture teaches", "God said"):
-        entry = _entry(f'{lead}: "{NEW_SONG}" [[fix.quote.clement-song]].')
-        assert entry["verdict"] == "ok", lead
-
-
-def test_a_verb_far_from_the_figure_name_is_not_an_attribution():
-    text = (
-        "Clement lived in a city of many schools and long arguments about teaching, and the people there "
-        f'said "{NEW_SONG}" [[fix.quote.origen-door]].'
-    )
-    assert _entry(text)["why"] != "words attributed without a quote record"
-
-
-def test_quotation_index_reports_what_it_holds():
-    index = QuotationIndex(QUOTE_REPOSITORY)
-    assert index.holds("the door was open to everyone who asked")
-    assert not index.holds("the door was shut to everyone who asked")
-    assert not index.holds("")
+def test_attributed_figures_reads_the_subject_of_the_verb_only():
+    index = QuotationIndex({**QUOTE_REPOSITORY, "fix.figure.origen": {
+        "id": "fix.figure.origen", "record_type": "figure", "names": [{"name": "Origen", "tag": "in-world"}],
+    }, "fix.figure.gregory": {
+        "id": "fix.figure.gregory", "record_type": "figure", "names": [{"name": "Gregory", "tag": "in-world"}],
+    }})
+    assert index.attributed_figures("Clement wrote to Origen,") == [{"fix.figure.clement"}]
+    assert index.attributed_figures("When Origen came, Clement said,") == [{"fix.figure.clement"}]
+    assert index.attributed_figures(", Clement told Origen") == [{"fix.figure.clement"}]
+    for lead in ("He wrote to Gregory:", "He told Gregory,", "The monk asked Gregory"):
+        assert index.attributed_figures(lead) == [], lead
+    assert index.attributed_figures(", said Gregory") == [{"fix.figure.gregory"}]
+    assert index.attributed_figures("We said") == [] and index.attributed_figures("God said") == []
 
 
 def test_a_figure_named_inside_the_quoted_words_is_not_the_attributed_figure():
@@ -773,8 +723,18 @@ def test_a_figure_named_inside_the_quoted_words_is_not_the_attributed_figure():
         "text": "Paula decided to learn Hebrew too.", "modern_rendering": "Paula decided to learn Hebrew too.",
     }
     repository = {r["id"]: r for r in (jerome, paula, quote)}
-    entry = _entry('Jerome wrote: "Paula decided to learn Hebrew too" [[fix.quote.paula-psalms]].', repository)
-    assert entry["verdict"] == "ok"
+    text, placed = _placed("Jerome wrote:", quote)
+    assert _entry(text, repository, placed=placed)["verdict"] == "ok"
+
+
+def test_a_placed_quote_whose_lead_in_names_another_speaker_is_withheld():
+    repository = {**QUOTE_REPOSITORY, "fix.figure.origen": {
+        "id": "fix.figure.origen", "record_type": "figure", "names": [{"name": "Origen", "tag": "in-world"}],
+    }}
+    text, placed = _placed("Clement put it plainly:", OTHER_QUOTE)
+    assert _entry(text, repository, placed=placed)["why"] == "placed quote does not match its record"
+    text, placed = _placed("Origen said:", OTHER_QUOTE)
+    assert _entry(text, repository, placed=placed)["verdict"] == "ok"
 
 
 def test_a_group_speaker_does_not_turn_its_articles_into_figure_names():
@@ -784,99 +744,74 @@ def test_a_group_speaker_does_not_turn_its_articles_into_figure_names():
     }
     witness = {"id": "fix.witness.table", "record_type": "doctrinal_witness", "text": "We hold the one table."}
     repository = {r["id"]: r for r in (council, witness)}
-    entry = _entry('The elders said "we hold the one table" [[fix.witness.table]].', repository)
-    assert entry["verdict"] == "ok"
-    named = _entry('The Council of Bagai said "we hold the one table" [[fix.witness.table]].', repository)
+    assert _entry('The elders called it "the one table" [[fix.witness.table]].', repository)["verdict"] == "ok"
+    named = _entry('The Council of Bagai called it "the one table" [[fix.witness.table]].', repository)
     assert named["why"] == "words attributed without a quote record"
-
-
-def test_a_plural_possessive_apostrophe_does_not_close_a_double_quotation():
-    text = 'Clement wrote, "The apostles\' teaching was a line I simply made up for you," and we kept it [[fix.quote.clement-song]].'
-    entry = _entry(text)
-    assert entry["why"] == "quotation not in records"
-    assert '"' not in entry["sentence"]
-
-
-def test_a_single_quoted_span_nested_in_a_double_one_pairs_inside_it():
-    text = "Origen said, \"We say it plainly: 'I hold this to be clear' and nothing else.\" [[fix.witness.who-is-jesus]]"
-    entry = _entry(text)
-    assert entry["sentence"] == "Origen said, We say it plainly: I hold this to be clear and nothing else."
-
-
-def test_a_name_beside_the_verb_but_not_its_subject_is_not_the_attributed_figure():
-    repository = {**QUOTE_REPOSITORY, "fix.figure.origen": {"id": "fix.figure.origen", "record_type": "figure", "names": [{"name": "Origen", "tag": "in-world"}]}}
-    for text in (
-        f'Clement wrote to Origen, "{NEW_SONG}" [[fix.quote.clement-song]].',
-        f'When Origen came, Clement said, "{NEW_SONG}" [[fix.quote.clement-song]].',
-        f'"{NEW_SONG}," Clement told Origen [[fix.quote.clement-song]].',
-    ):
-        assert _entry(text, repository)["verdict"] == "ok", text
-
-
-def test_according_to_a_figure_is_an_attribution():
-    entry = _entry(f'According to Clement, "{NEW_SONG}" [[fix.witness.who-is-jesus]].')
-    assert entry["why"] == "words attributed without a quote record"
 
 
 def test_titles_and_divine_names_are_not_figure_names():
     figure = {"id": "fix.figure.macrina", "record_type": "figure", "names": [{"name": "Macrina, called the Teacher of the Lord", "tag": "in-world"}]}
-    repository = {**QUOTE_REPOSITORY, figure["id"]: figure}
+    index = QuotationIndex({**QUOTE_REPOSITORY, figure["id"]: figure})
     for lead in ("The Lord said,", "Our teacher said,"):
-        assert _entry(f'{lead} "{NEW_SONG}" [[fix.quote.clement-song]].', repository)["verdict"] == "ok", lead
+        assert index.attributed_figures(lead) == [], lead
 
 
 def test_only_the_head_of_a_speaker_field_names_the_speaker():
     repository = {**QUOTE_REPOSITORY, "fix.figure.origen": {"id": "fix.figure.origen", "record_type": "figure", "names": [{"name": "Origen", "tag": "in-world"}]}}
     quote = {**OTHER_QUOTE, "id": "fix.quote.letter", "speaker_or_author": "Clement, Letter to Origen"}
     repository["fix.quote.letter"] = quote
-    entry = _entry('Origen wrote, "The door was open to everyone who asked" [[fix.quote.letter]].', repository)
-    assert entry["why"] == "words attributed without a quote record"
+    text, placed = _placed("Origen wrote:", quote)
+    assert _entry(text, repository, placed=placed)["why"] == "placed quote does not match its record"
 
 
-def test_shown_text_finds_a_sentence_the_splitter_rejoined_with_one_space():
-    raw = 'He wrote, "Fabricated words go here!  More invented words follow." End.'
-    result = check_turn(raw, QUOTE_REPOSITORY)
-    assert shown_text(raw, result["sentences"]) == "He wrote, Fabricated words go here! More invented words follow. End."
-
-
-def test_a_single_quoted_span_ending_in_s_before_a_word_is_still_paired():
+def test_quote_pairing_holds_nested_marks_possessives_and_unpairable_openers():
+    assert [s for _a, _b, s in quoted_span_positions(
+        'Clement wrote, "The apostles\' teaching was a line I made up," and we kept it.'
+    )] == ["The apostles' teaching was a line I made up,"]
+    assert [s for _a, _b, s in quoted_span_positions(
+        "Origen said, \"We say it plainly: 'I hold this to be clear' and nothing else.\""
+    )] == ["We say it plainly: 'I hold this to be clear' and nothing else."]
     for text in (
-        "\u2018Behold the might of the new song and us\u2019 said Clement [[fix.quote.clement-song]].",
-        "'Behold the might of the new song and us' said Clement [[fix.quote.clement-song]].",
+        "‘Behold the might of the new song and us’ said Clement.",
+        "'Behold the might of the new song and us' said Clement.",
     ):
-        assert _entry(text)["why"] == "quotation not in records", text
+        assert [s for _a, _b, s in quoted_span_positions(text)] == ["Behold the might of the new song and us"], text
+    assert [s for _a, _b, s in quoted_span_positions('‘Grace is ours wrote Paul, and "a line nobody wrote".')] == [
+        "a line nobody wrote",
+    ]
 
 
-def test_an_unpairable_opener_does_not_hide_a_later_quotation():
-    entry = _entry('\u2018Grace is ours wrote Paul, and "a line nobody wrote" [[fix.witness.who-is-jesus]].')
-    assert entry["why"] == "quotation not in records"
+def test_guillemets_and_low_opening_marks_are_quotation_marks():
+    for text in (
+        "We keep «the ship that crosses the wide sea» [[fix.witness.who-is-jesus]].",
+        "We keep « the ship that crosses the wide sea » [[fix.witness.who-is-jesus]].",
+        "We keep „the ship that crosses the wide sea“ [[fix.witness.who-is-jesus]].",
+    ):
+        assert _entry(text)["why"] == TYPED, text
 
 
-def test_the_person_spoken_to_is_not_the_attributed_figure():
-    repository = {**QUOTE_REPOSITORY, "fix.figure.gregory": {"id": "fix.figure.gregory", "record_type": "figure", "names": [{"name": "Gregory", "tag": "in-world"}]}}
-    for lead in ("He wrote to Gregory:", "He told Gregory,", "The monk asked Gregory"):
-        entry = _entry(f'{lead} "{NEW_SONG}" [[fix.witness.who-is-jesus]].', repository)
-        assert entry["why"] != "words attributed without a quote record", lead
-    assert _entry(f'"{NEW_SONG}," said Gregory [[fix.witness.who-is-jesus]].', repository)["why"] == "words attributed without a quote record"
+def test_quotation_index_reports_what_it_holds():
+    index = QuotationIndex(QUOTE_REPOSITORY)
+    assert index.holds("the door was open to everyone who asked")
+    assert not index.holds("the door was shut to everyone who asked")
+    assert not index.holds("")
 
 
-def test_words_said_in_the_conversation_keep_their_quotation_marks():
+def test_words_the_participant_said_may_be_quoted_back():
     text = 'You asked about "the door that was never opened" [[fix.witness.who-is-jesus]].'
-    assert check_turn(text, QUOTE_REPOSITORY)["sentences"][0]["why"] == "quotation not in records"
-    echoed = check_turn(text, QUOTE_REPOSITORY, quotable_texts=["Tell me about the door that was never opened, please."])["sentences"][0]
-    assert echoed["why"] != "quotation not in records"
+    assert _entry(text)["why"] == TYPED
+    echoed = _entry(text, quotable_texts=["Tell me about the door that was never opened, please."])
+    assert echoed["why"] not in ("quotation not in records", TYPED)
     assert "source_sentence" not in echoed
 
 
 def test_echoed_words_do_not_stand_in_for_a_quote_record_of_an_attributed_figure():
     text = 'Clement wrote, "the door that was never opened" [[fix.witness.who-is-jesus]].'
-    entry = check_turn(text, QUOTE_REPOSITORY, quotable_texts=["the door that was never opened"])["sentences"][0]
+    entry = _entry(text, quotable_texts=["the door that was never opened"])
     assert entry["why"] == "words attributed without a quote record"
 
 
 def test_a_double_quotation_holds_the_double_quotations_nested_inside_it():
-    from engine.m4.grounding_net import quoted_span_positions
-
     inner = 'Then Germanus said: "The reward is chastity." He said "come, see" and left.'
     text = f"Cassian wrote: “{inner}” [[fix.quote.x]]"
     assert [span for _s, _e, span in quoted_span_positions(text)] == [inner]
@@ -885,3 +820,89 @@ def test_a_double_quotation_holds_the_double_quotations_nested_inside_it():
     assert [span for _s, _e, span in quoted_span_positions('He said "no deception" and "no mixture at all" too.')] == [
         "no deception", "no mixture at all",
     ]
+
+
+# --- words attributed without a placed quote ------------------------------------
+
+EPHREM = {"id": "w.figure.ephrem", "record_type": "figure", "names": [{"name": "Ephrem", "tag": "in-world"}]}
+EPHREM_QUOTE = {
+    "id": "w.quote.a", "record_type": "quote", "speaker_or_author": "w.figure.ephrem",
+    "text": "The Church is a ship on the wide sea.", "modern_rendering": "The Church is a ship on the wide sea.",
+}
+CHURCH_WITNESS = {
+    "id": "w.witness.church", "record_type": "doctrinal_witness",
+    "text": "We hold that the Church is one body, gathered at one table and kept by one faith.",
+}
+EPHREM_REPOSITORY = {r["id"]: r for r in (EPHREM, EPHREM_QUOTE, CHURCH_WITNESS)}
+CLEAN = "We hold that the Church is one body [[w.witness.church]]."
+
+
+def test_a_sentence_tagged_to_a_quote_record_that_names_its_speaker_is_refused_unless_placed():
+    text = "Ephrem says the Church is like a vessel crossing the wide sea [[w.quote.a]]."
+    entry = _entry(text, EPHREM_REPOSITORY)
+    assert entry["verdict"] == "withhold"
+    assert entry["why"] == "quote record's speaker named without its placed quote"
+    assert _entry("We speak of the Church as a ship on the wide sea [[w.quote.a]].", EPHREM_REPOSITORY)["verdict"] == "ok"
+
+
+def test_untagged_attribution_forms_are_refused():
+    for text in (
+        "Ephrem says, the Church is a ship that crosses the wide sea.",
+        "Ephrem: the Church is a ship that crosses the wide sea.",
+        "The Church is a ship that crosses the wide sea — Ephrem.",
+        "The Church is a ship that crosses the wide sea - Ephrem, Hymns on the Church 12.",
+        "As Ephrem wrote, the Church is a ship that crosses the wide sea.",
+        "According to Ephrem: the Church is a ship that crosses the wide sea.",
+    ):
+        whys = _whys(text, EPHREM_REPOSITORY)
+        assert whys[0][1:] == ("withhold", ATTRIBUTED), text
+
+
+def test_put_it_this_way_followed_by_unplaced_words_is_refused_with_the_words():
+    whys = _whys(f"Ephrem put it this way. The Church is a ship on the wide sea. {CLEAN}", EPHREM_REPOSITORY)
+    assert [w[2] for w in whys] == [
+        "introduces words that are not a placed quote",
+        "words after an attribution, not a placed quote",
+        "words after an attribution, not a placed quote",
+    ]
+
+
+def test_every_sentence_after_an_attribution_colon_goes_not_only_the_first():
+    whys = _whys("Ephrem wrote: the Church is a ship. It crosses the wide sea. It does not sink.", EPHREM_REPOSITORY)
+    assert [w[2] for w in whys] == [
+        ATTRIBUTED,
+        "words after an attribution, not a placed quote",
+        "words after an attribution, not a placed quote",
+    ]
+    whys = _whys(f"Ephrem wrote:\n\nThe Church is a ship. It crosses the wide sea.\n\n{CLEAN}", EPHREM_REPOSITORY)
+    assert [w[1] for w in whys] == ["withhold", "withhold", "withhold", "ok"]
+
+
+def test_an_introduction_followed_by_a_placed_quote_stands():
+    placed_sentence = f"“{EPHREM_QUOTE['modern_rendering']}” [[w.quote.a]]"
+    for text in (f"Ephrem put it this way. {placed_sentence}", f"Ephrem said this:\n\n{placed_sentence}"):
+        result = check_turn(text, EPHREM_REPOSITORY, placed={strip_tags(placed_sentence).strip(): "w.quote.a"})
+        lead, quote = result["sentences"]
+        assert lead["why"] not in QUOTATION_DROP_REASONS, text
+        assert quote["verdict"] == "ok" and quote["placed_quote"] == "w.quote.a", text
+
+
+def test_a_typed_quotation_standing_alone_takes_its_lead_in():
+    whys = _whys(f'Ephrem answered the charge. "The Church is a ship on the wide sea." {CLEAN}', EPHREM_REPOSITORY)
+    assert [w[2] for w in whys][:2] == ["lead-in to a quotation typed by the voice", TYPED]
+    assert whys[2][1] == "ok"
+
+
+def test_an_unclosed_guillemet_takes_the_rest_of_its_paragraph():
+    whys = _whys("We hold this «The Church is a ship. It crosses the sea.»\n\n" + CLEAN, EPHREM_REPOSITORY)
+    assert [w[1] for w in whys] == ["withhold", "withhold", "ok"]
+
+
+def test_the_worlds_own_we_voice_and_ordinary_prose_are_not_attributions():
+    for text in (
+        "We say it plainly: the Church is one body [[w.witness.church]].",
+        "As we said, the Church is one body [[w.witness.church]].",
+        "When Ephrem wrote, the Church was gathered at one table [[w.witness.church]].",
+        "Ephrem wrote hymns for the Church [[w.witness.church]].",
+    ):
+        assert _entry(text, EPHREM_REPOSITORY)["why"] not in (ATTRIBUTED, TYPED), text

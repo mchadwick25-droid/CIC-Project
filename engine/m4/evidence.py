@@ -41,6 +41,7 @@ import re
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
 from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
+from engine.m4.citation_cards import _quote_speaker_label
 from engine.m4.grounding_net import scope_completion
 from engine.m4.rhythm import RhythmTally
 from engine.m5.routing import QUESTION_KINDS
@@ -1148,6 +1149,7 @@ def assemble_evidence(
             for c in selected
         ]
     thin_ground = thin_topic_riders(message=message, asks=asks, selected=selected, thin_topics=thin_topics)
+    selected = [_with_quote_index(c, repository_records) for c in selected]
 
     return {
         "cells": cell_matches,
@@ -1155,6 +1157,37 @@ def assemble_evidence(
         "thin_ground": thin_ground,
         "figures_already_named": list(figures_already_named or []),
     }
+
+
+def _with_quote_index(candidate: dict, repository_records: dict[str, dict]) -> dict:
+    """A quote candidate gains what the voice chooses it by: its speaker
+    and its gist (use_note.means). The block shows these, never the
+    quote's words: code places a quote, the voice only marks where."""
+    if candidate.get("record_type") != "quote":
+        return candidate
+    record = repository_records.get(candidate["id"]) or {}
+    gist = " ".join(((record.get("use_note") or {}).get("means") or "").split())
+    return {**candidate, "speaker": _quote_speaker_label(record, repository_records) or "unattributed", "gist": gist}
+
+
+def _quote_line(candidate: dict, descriptors: list[str]) -> str:
+    """A quote's line in the evidence block: id in the marker's own form,
+    speaker and gist for one not yet voiced; for one already voiced, no
+    marker and no words, only that it was given."""
+    speaker = candidate.get("speaker") or "unattributed"
+    used = candidate.get("used_in_round")
+    if used or candidate.get("already_told_this_session"):
+        when = f"in round {used[1]}" if used else "earlier in this conversation"
+        return (
+            f"- {candidate['id']} quote from {speaker}, already given {when}: it is not placed again; "
+            "refer back to it in our own words, without restating it or naming its speaker"
+        )
+    line = f"- [[quote:{candidate['id']}]] quote from {speaker}"
+    if len(descriptors) > 1:
+        line += ", " + ", ".join(descriptors[1:])
+    if candidate.get("gist"):
+        line += f" | means: {candidate['gist']}"
+    return line
 
 
 def render_evidence_block(evidence: dict) -> str:
@@ -1218,6 +1251,9 @@ def render_evidence_block(evidence: dict) -> str:
             descriptors.append(candidate["confidence"])
         if candidate.get("scope_completion"):
             descriptors.append("scope completion")
+        if candidate["record_type"] == "quote":
+            lines.append(_quote_line(candidate, descriptors))
+            continue
         if candidate.get("used_in_round"):
             how, round_no = candidate["used_in_round"]
             descriptors.append(f"{how} in round {round_no}")

@@ -1432,3 +1432,24 @@ Re-subscribed to every currently-open PR per step 2 (the roster changed substant
 ## 2026-10-07 - Open gap: the shared sentence splitter counts a plural possessive as a closing mark
 
 `engine/prose.py` `_quote_balance` (used by `quote_aware_sentences`) counts a closing single mark after a plural possessive ("the apostles' teaching") as closing a quotation. The voice net (`engine/m4/grounding_net.py`, decision 59) pairs marks correctly, so the two can disagree: a multi-sentence single-quoted quotation holding a plural possessive can be split in two, and neither piece then yields a span for the quotation check. Ruled 2026-10-07 to leave as is: the splitter is shared with compile-time demonstration tagging, so aligning it changes compiled packages and their hashes. Fixing it is a separate change that rebuilds and re-pins every world's package.
+
+## 2026-10-09 - Open gap: ten quote records cannot be placed by code
+
+Under decision 61 the voice writes `[[quote:<id>]]` and `engine/m4/quote_placement.py` sets the record's `modern_rendering` in place. A placed quote must be one sentence and one quotation to the net, so the net can re-verify it word for word. For 10 of the fleet's 374 quote records the shared sentence splitter (`engine/prose.py` `quote_aware_sentences`) cannot keep the rendering in one sentence: a plural possessive apostrophe or an unclosed inner quotation unbalances its count. These records are never placed; a marker for one removes its sentence, so nothing is misquoted, but the quote cannot be heard:
+
+- cappadocian.quote.macrina-refuses-remarriage
+- gallic.quote.archebius-carried-off-to-panephysis
+- gallic.quote.archebius-see-the-old-men
+- gallic.quote.gallus-on-the-forced-communion-and-the-angel
+- gallic.quote.paphnutius-accused-and-the-book-found
+- gallic.quote.the-fathers-and-the-angels-twelve
+- ijc.quote.ammianus-sicininus-massacre
+- ijc.quote.lactantius-dream
+- syr.quote.palladius-hospitaller
+- syr.quote.warned-before-baptism
+
+Root cause is the splitter defect already registered in "Open gap: the shared sentence splitter counts a plural possessive as a closing mark" (2026-10-07). The fix belongs with that one: it changes compile-time tagging, so it rebuilds and re-pins every world's package. `engine/m4/tests/test_quote_placement.py` pins this exact list, so a fix shows as a failing test until the list is emptied.
+
+## 2026-10-09 - Open gap: the compiled prompt's quote index still shows each quote's opening words
+
+The per-turn evidence block now offers a quote by its marker id, speaker and gist only, and an already voiced quote with no words at all (decision 61). The compiled prompt's "Quotes we hold" section (`engine/m2/builders.py`) still lists `[[<id>]] <speaker>: "<opening words>..."`. That models the "X: words" form the net refuses, uses the plain tag rather than the marker, and offers words to copy. The net refuses any quotation the voice types, so nothing reaches a participant from it, but it can cost a regeneration. Changing it changes `compiled/prompt.txt` for every built world, so every package is rebuilt and re-pinned and every admitted world needs re-admission, which is a live run. Needs the project lead's ruling on when to repackage the fleet; not done in PR #841.

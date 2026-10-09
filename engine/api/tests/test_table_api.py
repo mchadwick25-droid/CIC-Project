@@ -1199,7 +1199,7 @@ def test_a_streamed_table_seat_sends_its_sentences_then_the_turn(store, usage_st
     clean_sentence, rid = grounded_sentence(alx_world)
     client = _table_client(
         selector_script=[{"next": "alx", "reason": "opening"}],
-        stream_scripts=[[clean_sentence + " ", clean_sentence + " ", "That is what we hold."]],
+        stream_scripts=[[clean_sentence + " ", clean_sentence + " ", clean_sentence + " ", "That is what we hold."]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
                  streaming_enabled=True, sentence_enforce=False)
@@ -1260,7 +1260,7 @@ def test_continue_streams_the_next_seat(store, usage_store, world_loader, regist
     desert_sentence, _ = grounded_sentence(desert_world)
     client = _table_client(
         selector_script=[{"next": "alx", "reason": "opening"}, {"next": "desert", "reason": "second"}],
-        stream_scripts=[[alx_sentence], [desert_sentence + " ", desert_sentence + " ", "So we held."]],
+        stream_scripts=[[alx_sentence], [desert_sentence + " ", desert_sentence + " ", desert_sentence + " ", "So we held."]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
                  streaming_enabled=True, sentence_enforce=False)

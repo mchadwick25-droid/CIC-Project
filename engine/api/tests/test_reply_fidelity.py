@@ -59,12 +59,32 @@ def test_one_to_one_a_reply_with_nothing_left_is_set_aside_for_the_facilitators_
 
 
 def test_one_to_one_a_typed_quote_and_a_header_never_reach_the_participant(store, usage_store, world_loader, registry):
-    client = _one_to_one_client([[
-        '## Sources\n\n**Cassian, Institutes V.26**\n\nAthanasius wrote, "a thing found in no record that anyone ever read". ' + CLEAN
-    ]])
+    typed = '## Sources\n\n**Cassian, Institutes V.26**\n\nAthanasius wrote, "a thing found in no record that anyone ever read". ' + CLEAN
+    client = _one_to_one_client([[typed], [typed]])
+    result = _send(store, usage_store, world_loader, registry, client)
+    assert len(client.messages.stream_calls) == 2
+    assert result.voice["text"] == CLEAN_SHOWN
+
+
+def test_one_to_one_a_header_alone_costs_no_extra_call(store, usage_store, world_loader, registry):
+    client = _one_to_one_client([["## Sources\n\n**Cassian, Institutes V.26**\n\n" + CLEAN]])
     result = _send(store, usage_store, world_loader, registry, client)
     assert len(client.messages.stream_calls) == 1
     assert result.voice["text"] == CLEAN_SHOWN
+
+
+def test_one_to_one_untagged_attribution_forms_are_regenerated_once_then_dropped(store, usage_store, world_loader, registry):
+    for attributed in (
+        "Athanasius says, the elders never saw him with their own eyes.",
+        "The elders never saw him with their own eyes \u2014 Saint Athanasius.",
+        "Athanasius wrote: the elders never saw him. They only heard.",
+        "Athanasius put it this way. The elders never saw him.",
+    ):
+        reply = f"{CLEAN}\n\n{attributed}"
+        client = _one_to_one_client([[reply], [reply]])
+        result = _send(store, usage_store, world_loader, registry, client)
+        assert len(client.messages.stream_calls) == 2, attributed
+        assert result.voice["text"] == CLEAN_SHOWN, attributed
 
 
 def test_the_table_a_withheld_sentence_is_regenerated_once_then_dropped(

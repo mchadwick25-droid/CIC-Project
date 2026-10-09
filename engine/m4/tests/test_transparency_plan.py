@@ -111,24 +111,20 @@ def test_curly_quotation_marks_place_the_same_way():
     assert sentence[element["char_end"]:].startswith(" and kept")
 
 
-def test_a_quotation_the_splitter_re_merged_across_a_stop_is_one_element():
-    """A stop inside the quotation does not end the sentence, so the
+def test_a_placed_quote_with_a_stop_inside_it_is_one_element():
+    """A stop inside a placed quotation does not end the sentence, so the
     quote's mark follows the whole quotation, not its first half."""
-    quotation = (
-        "his disciples committed themselves to teaching a doctrine that put their own lives in danger. "
-        "It was a doctrine they would not have taught with such courage"
-    )
-    assert quotation in REPO[QUOTE_ID]["modern_rendering"]
-    raw = f'Origen spoke. He wrote "{quotation}." and kept to it [[{QUOTE_ID}]]. Then more.'
-    net_result = check_turn_with_paragraph_coverage(raw, REPO)
+    rendering = REPO[QUOTE_ID]["modern_rendering"]
+    placed = f"Origen wrote: \u201c{rendering}\u201d [[{QUOTE_ID}]]"
+    raw = f"We read Origen.\n\n{placed}\n\nThen more."
+    net_result = check_turn_with_paragraph_coverage(raw, REPO, placed={strip_tags(placed).strip(): QUOTE_ID})
     text = strip_tags(raw)
     citations = [{"sentence": s["sentence"], "record_ids": s["tags"]} for s in net_result["sentences"] if s["verdict"] == "ok" and s["tags"]]
     plan = build_transparency_plan(citations=citations, net_result=net_result, repository_records=REPO, world_key="alx", text=text)
     [element] = _of(plan, QUOTE_ID)
-    assert element["surface"] == f'"{quotation}."'
+    assert element["surface"] == f"\u201c{rendering}\u201d"
     span = plan["sentences"][element["sentence_index"]]
-    sentence = text[span["text_start"]:span["text_end"]]
-    assert sentence[element["char_end"]:] == " and kept to it."
+    assert text[span["text_start"]:span["text_end"]] == strip_tags(placed).strip()
 
 
 def test_a_quote_record_whose_words_are_not_quoted_ends_its_sentence():

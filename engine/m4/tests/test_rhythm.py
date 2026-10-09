@@ -2,6 +2,8 @@
 a new figure at most every third round, the world's own words for what it
 held, and a quote or story already used referred back to rather than repeated.
 Everything here reads the transcript only; nothing is stored."""
+import re
+
 import pytest
 
 from engine.m4 import turn_prep
@@ -100,12 +102,18 @@ def _quotes(prepared):
     return [c for c in prepared_candidates(prepared) if c["record_type"] == "quote"]
 
 
+_CANDIDATE_LINE = re.compile(r"^- (?:\[\[(?:quote:)?)?([a-z0-9_.-]+)(?:\]\])? (\w+)")
+
+
 def prepared_candidates(prepared):
-    block = prepared.user_message
     return [
-        {"id": line.split("[[")[1].split("]]")[0], "record_type": line.split("]] ")[1].split(",")[0].split(" ")[0], "line": line}
-        for line in block.splitlines() if line.startswith("- [[")
+        {"id": match.group(1), "record_type": match.group(2), "line": line}
+        for line in prepared.user_message.splitlines() if (match := _CANDIDATE_LINE.match(line))
     ]
+
+
+def _record_text(record_id):
+    return _records()[record_id]["modern_rendering"]
 
 
 def _tag(how, round_no):
@@ -247,7 +255,9 @@ def test_a_quote_voiced_in_round_one_and_a_story_told_in_round_two_are_still_lis
     transcript = _transcript(_voice(quotes=["fix.quote.a"]), _voice(stories=["fix.story.s"]), _voice())
     prepared = _prepare(transcript, kind="what_did")
     lines = {c["id"]: c["line"] for c in prepared_candidates(prepared)}
-    assert _tag("voiced", 1) in lines["fix.quote.a"]
+    assert _tag("already given", 1) in lines["fix.quote.a"]
+    assert "[[quote:fix.quote.a]]" not in lines["fix.quote.a"]
+    assert _record_text("fix.quote.a") not in lines["fix.quote.a"]
     assert _tag("told", 2) in lines["fix.story.s"]
     assert REFER_BACK_LINE in prepared.turn_directive
     assert QUOTE_LINE in prepared.turn_directive
@@ -265,7 +275,21 @@ def test_a_used_quote_is_tagged_in_the_rendered_block():
         message=MESSAGE, asks=None, canon_questions=CANON, coverage=_coverage(), repository_records=_records(),
         kind="who", rhythm=tally,
     )
-    assert _tag("voiced", 1) in render_evidence_block(result)
+    block = render_evidence_block(result)
+    assert "fix.quote.a quote from Ignatius, " + _tag("already given", 1) in block
+    assert _record_text("fix.quote.a") not in block
+
+
+def test_a_fresh_quote_is_offered_by_marker_speaker_and_gist_never_by_its_words():
+    records = _records()
+    records["fix.quote.b"] = {**records["fix.quote.b"], "use_note": {"means": "Polycarp ties the memory of Jesus to the meal."}}
+    result = assemble_evidence(
+        message=MESSAGE, asks=None, canon_questions=CANON, coverage=_coverage(), repository_records=records, kind="who",
+    )
+    line = next(ln for ln in render_evidence_block(result).splitlines() if "fix.quote.b" in ln)
+    assert line.startswith("- [[quote:fix.quote.b]] quote from Polycarp")
+    assert line.endswith("| means: Polycarp ties the memory of Jesus to the meal.")
+    assert _record_text("fix.quote.b") not in line
 
 
 # ---- nothing stored -----------------------------------------------------

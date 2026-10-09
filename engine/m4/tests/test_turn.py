@@ -517,7 +517,7 @@ def test_a_sentence_that_fails_verification_loses_its_citation_not_its_existence
         stream_chunks=["We received the community's own memory of Jesus [[fix.witness.who-is-jesus]]. "
                        "Athanasius said it plainly [[fix.nonexistent.record]]."],
     )
-    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message="who is jesus", pressed={}, anachronistic_term_ids=set())
+    result = run_turn(sentence_enforce=False, session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message="who is jesus", pressed={}, anachronistic_term_ids=set())
     text = result.voice_event["text"]
     assert "Athanasius said it plainly" in text          # still reaches the reader
     assert "[[" not in text                              # tags never do
@@ -815,7 +815,7 @@ def test_figures_used_is_populated_from_a_name_in_the_finished_answer():
         reader_response=_reader(),
         stream_chunks=["We were led by the Elder, who spoke for us [[fix.witness.who-is-jesus]]."],
     )
-    result = run_turn(
+    result = run_turn(sentence_enforce=False, 
         session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
         world=_world_with_figure(), participant_message="who led you", pressed={}, anachronistic_term_ids=set(),
     )
@@ -1235,14 +1235,14 @@ _UNSUPPORTED_SENTENCE = "Athanasius of Alexandria opposed the council."
 _GROUNDED_SENTENCE = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."
 
 
-def test_sentence_enforce_off_by_default_runs_no_live_fact_check():
+def test_sentence_enforce_off_runs_no_live_fact_check():
     """With both enforcement switches off the live turn acts on no fact
     check, so it runs none; engine.m7.offline_checks runs it over the log."""
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[[_UNSUPPORTED_SENTENCE]],
     )
-    voice_event, _usage = run_voice_turn_for_world(
+    voice_event, _usage = run_voice_turn_for_world(sentence_enforce=False, 
         voice_client=client, voice_model_id="m", world=_world(),
         participant_message="who was Jesus", directive=None, session_id="test-session",
     )
@@ -1548,7 +1548,7 @@ def test_self_revision_runs_only_on_other_tradition_first_asks():
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[[_DRAFT_WITH_A_TAG], ["We were told this by our elders [[fix.witness.who-is-jesus]]."]],
     )
-    voice_event, _usage = run_voice_turn_for_world(
+    voice_event, _usage = run_voice_turn_for_world(sentence_enforce=False, 
         voice_client=client, voice_model_id="m", world=_world(),
         participant_message="What was your relationship with the Donatists?", directive=None, session_id="test-session",
         is_other_tradition_first_ask=True,
@@ -1563,7 +1563,7 @@ def test_self_revision_never_runs_on_an_ordinary_turn():
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[[_DRAFT_WITH_A_TAG]],
     )
-    voice_event, _usage = run_voice_turn_for_world(
+    voice_event, _usage = run_voice_turn_for_world(sentence_enforce=False, 
         voice_client=client, voice_model_id="m", world=_world(),
         participant_message="who was Jesus", directive=None, session_id="test-session",
     )
@@ -1577,7 +1577,7 @@ def test_self_revision_kill_switch_bypasses_it_even_on_an_other_tradition_turn()
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[[_DRAFT_WITH_A_TAG]],
     )
-    voice_event, _usage = run_voice_turn_for_world(
+    voice_event, _usage = run_voice_turn_for_world(sentence_enforce=False, 
         voice_client=client, voice_model_id="m", world=_world(),
         participant_message="What was your relationship with the Donatists?", directive=None, session_id="test-session",
         is_other_tradition_first_ask=True, self_revision_enabled=False,
@@ -1592,7 +1592,7 @@ def test_self_revision_an_empty_response_falls_back_to_the_draft_not_a_blank_tur
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[[_DRAFT_WITH_A_TAG], [""]],
     )
-    voice_event, _usage = run_voice_turn_for_world(
+    voice_event, _usage = run_voice_turn_for_world(sentence_enforce=False, 
         voice_client=client, voice_model_id="m", world=_world(),
         participant_message="What was your relationship with the Donatists?", directive=None, session_id="test-session",
         is_other_tradition_first_ask=True,
