@@ -40,14 +40,10 @@ def test_all_text_drops_identifiers_so_slugs_never_become_keywords():
 
 
 def test_claim_guards_is_excluded_same_as_do_not_retrieve_when():
-    """Stage 4a (Build-Plan.md), R11's split: claim_guards is the
-    honesty-guard half do_not_retrieve_when is split into, and must be
-    excluded everywhere do_not_retrieve_when already is - a forbidding
-    sentence necessarily shares the forbidden claim's own vocabulary, the
-    same reasoning that put do_not_retrieve_when and formation_claim_barred
-    here. Landed before any real data exists in the field on purpose (the
-    stage's own "first" ordering): the exclusion has to be live before a
-    single claim_guards value is ever authored."""
+    """claim_guards is the honesty-guard half of do_not_retrieve_when and is
+    excluded everywhere do_not_retrieve_when is: a forbidding sentence
+    shares the forbidden claim's own vocabulary, the same reason
+    do_not_retrieve_when and formation_claim_barred are excluded."""
     assert "claim_guards" in prose.NON_PROSE_KEYS
     assert "claim_guards" in prose.FALLBACK_EXCLUDED_KEYS
     rec = {"claim_guards": ["Brictio did not succeed Martin as bishop"], "text": "real prose"}
@@ -384,12 +380,15 @@ def test_the_runtime_net_uses_the_shared_ratio_not_its_own_copy():
     Build-Plan.md Stage 1: check_turn()'s own per-sentence body (where this
     call originally lived) was factored out into verdict_for_sentence() -
     a pure extraction, so the one shared call moved with it rather than
-    being duplicated. check_turn() itself now just loops and delegates."""
+    being duplicated. check_turn() itself now just loops and delegates, and
+    verdict_for_sentence() hands claims to _claim_verdict(), which owns the
+    call."""
     import inspect
 
     from engine.m4 import grounding_net
 
-    source = inspect.getsource(grounding_net.verdict_for_sentence)
+    source = inspect.getsource(grounding_net._claim_verdict)
     assert "grounding_ratio(text, cited_words)" in source
+    assert "_claim_verdict(" in inspect.getsource(grounding_net.verdict_for_sentence)
     assert "/ len(words)" not in source
     assert "grounding_ratio(text, cited_words)" not in inspect.getsource(grounding_net.check_turn)
