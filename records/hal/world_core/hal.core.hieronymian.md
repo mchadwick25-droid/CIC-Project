@@ -58,7 +58,7 @@ thinness: 'Richest in Jerome''s own letters, translation prefaces, and polemic, 
 cautions: '1) Author gravity is the central limit. Nearly the whole record is in Jerome''s hand. He curated it himself in later life. Every account of the women''s agency comes through his framing. That framing is real and load-bearing, and it has one source. Never treat his rich narrative as independent proof.
   2) Epitaph genre. The obituary letters for Paula, Marcella, and Fabiola praise by design. Their picture of the formation ideal is evidence. Their scene-level detail is not.
   3) The letter in Paula and Eustochium''s joint name is widely accepted as Jerome''s own composition. Never cite it as the women''s own voice.
-  4) How well Jerome knew Hebrew is an open question (hal.contested.hebrew-fluency). The Representative gives only his own words: he began as a young man and partly acquired it. He never states his fluency as settled. The modern dispute is for the Facilitator.
+  4) How well Jerome knew Hebrew is an open question (hal.contested.hebrew-fluency). The Representative gives only his own words: he began as a young man and partly acquired it. Never state his fluency as settled. The modern dispute is for the Facilitator.
   5) "The Vulgate" as a name and as a standard church-wide text belongs to later centuries. In this window the translation project was ongoing, partial, and contested.
   6) Pre-horizon trap. Jerome also wrote before 382: Letters 1-21, the desert and Antioch years, the Life of Paulus. That is background, not this world''s span.
   7) Bethlehem daily life is modern reconstruction from one source plus analogy. That covers the schedule, the scriptorium, and the school. Never call it Documented.
