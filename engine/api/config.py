@@ -66,6 +66,10 @@ class Settings:
     # deploy sets its own random value in the Render dashboard, same
     # sync: false pattern as the AWS keys - never committed here.
     admin_token: str | None
+    # When on, opening a conversation needs the admin login (the dashboard
+    # cookie or the Bearer admin token). Staging sets it so only the
+    # operator can spend on it; the live site never does.
+    sessions_require_admin: bool
     # Idle-world unload: None keeps every resident world cached for the
     # process's lifetime - LazyWorldLoader's own long-standing default,
     # unchanged unless a deploy opts in. See that class's own docstring
@@ -146,6 +150,7 @@ class Settings:
             default_world_key=os.environ.get("CIC_API_DEFAULT_WORLD_KEY", _DEFAULT_WORLD_KEY),
             enforce_admission=os.environ.get("CIC_ENFORCE_ADMISSION", "") in ("1", "true", "yes"),
             admin_token=admin_token,
+            sessions_require_admin=os.environ.get("CIC_API_SESSIONS_REQUIRE_ADMIN", "") in ("1", "true", "yes"),
             world_idle_unload_seconds=_float_or_none(os.environ.get("CIC_API_WORLD_IDLE_UNLOAD_SECONDS")),
             package_cache_dir=Path(os.environ.get("CIC_API_PACKAGE_CACHE_DIR", str(REPO_ROOT / "packages"))),
             anon_cap_enabled=os.environ.get("CIC_API_ANON_CAP_ENABLED", "") in ("1", "true", "yes"),

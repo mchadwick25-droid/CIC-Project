@@ -34,6 +34,11 @@ _SALT_BYTES = 16
 _SYMBOLS = set(string.punctuation)
 
 SESSION_COOKIE_NAME = "cic_admin_session"
+# "/api" so the login also reaches session creation where that needs it
+# (sessions_require_admin). Logout clears the former "/api/admin" path too,
+# so a cookie issued under it cannot outlive a logout.
+SESSION_COOKIE_PATH = "/api"
+FORMER_SESSION_COOKIE_PATH = "/api/admin"
 _SESSION_SEPARATOR = "."
 DEFAULT_SESSION_TTL_SECONDS = 60 * 60 * 12  # 12 hours - long enough for one sitting, short enough that a stolen cookie doesn't stay valid indefinitely
 

@@ -271,6 +271,11 @@ services:
         sync: false
       - key: CIC_API_ADMIN_TOKEN
         sync: false
+      # Staging is a public address on real Bedrock: only the operator,
+      # logged in at /admin/dashboard, can open a conversation here.
+      # Needs CIC_API_ADMIN_TOKEN above; the live site never sets this.
+      - key: CIC_API_SESSIONS_REQUIRE_ADMIN
+        value: "1"
       # Same feature, own secret - see cic-engine's own comment above.
       - key: CIC_API_ANON_CAP_ENABLED
         value: "1"

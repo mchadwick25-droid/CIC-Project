@@ -35,6 +35,17 @@ doors-open switch (`"1"` = only admitted/open worlds are listed or seated;
 the config surface for the running service; it lives here so it stays
 documented.
 
+`CIC_API_SESSIONS_REQUIRE_ADMIN`: `"1"` means `POST /api/session` needs the
+admin login (the `/admin/dashboard` cookie, or `Authorization: Bearer` with
+`CIC_API_ADMIN_TOKEN`); anyone else gets a 403. `cic-engine-staging` sets
+it, so only the operator can open a conversation there; `cic-engine` never
+does. Turning it on without `CIC_API_ADMIN_TOKEN` makes `create_app` raise
+at construction.
+
+The real app's model client is built unguarded only on Render (where
+`RENDER` is set). Started anywhere else, `engine.api.app` needs
+`--live-test` and `--cap-usd`, like every other command that calls a model.
+
 `CIC_API_ANON_CAP_ENABLED` (`engine/api/anon_cap.py`'s own module
 docstring has the full rationale):
 `"1"` turns on a per-visitor daily cap on session creation and conversation
