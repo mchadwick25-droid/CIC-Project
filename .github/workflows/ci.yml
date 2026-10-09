@@ -537,6 +537,11 @@ jobs:
       # sync` locally and commit the result to fix.
       - run: python -m pytest engine/m6/tests -q
       - run: python -m engine.m6.cli check
+      # The Atlas page embeds a copy of the census; this fails if the
+      # embedded movements or edges have drifted from world-census.json
+      # (census authoritative). Fix: run `python -m engine.m6.cli atlas-sync`
+      # for movements; edge differences are fixed by hand in both files.
+      - run: python -m engine.m6.cli atlas-check
 
       # engine/api tests (mocked Bedrock, fixture world). A fake Bedrock
       # client + the real committed fixture-world package, never a live

@@ -399,14 +399,14 @@
    "to": "the-black-church-in-america",
    "type": "formed",
    "confidence": "Widely Accepted",
-   "note": "The Black Baptist congregations (Silver Bluff c. 1773-75, First African Savannah 1788) are the Baptist parent line of the Black Church.."
+   "note": "The Black Baptist congregations (Silver Bluff c. 1773-75, First African Savannah 1788) are the Baptist parent line of the Black Church."
   },
   {
    "from": "the-methodist-revival",
    "to": "the-black-church-in-america",
    "type": "formed",
    "confidence": "Widely Accepted",
-   "note": "Richard Allen’s AME (1816) and AME Zion (1821) are Methodist bodies — the Methodist parent line of the Black Church.."
+   "note": "Richard Allen's AME (1816) and AME Zion (1821) are Methodist bodies — the Methodist parent line of the Black Church."
   },
   {
    "from": "latin-pastoral-congregational-christianity",
@@ -420,7 +420,7 @@
    "to": "the-mainline-century-liberal-and-neo-orthodox",
    "type": "in tension with",
    "confidence": "Documented",
-   "note": "The census's second 'in tension with' edge — the Great Schism pattern run inside Protestantism, graded on both sides' own dated rupture texts: the five-point Doctrinal Deliverance (1910), Fosdick's 'Shall the Fundamentalists Win?' (21 May 1922), Machen's Christianity and Liberalism (1923) and the Auburn Affirmation (9 Jan 1924). The Social Gospel (IX.34) belongs inside this tension and is named here rather than given a second edge. Any present-day continuation of the argument is a matter for dated statements, not for this grade.."
+   "note": "The Great Schism pattern run inside Protestantism, graded on both sides' own dated rupture texts: the five-point Doctrinal Deliverance (1910), Fosdick's 'Shall the Fundamentalists Win?' (21 May 1922), Machen's Christianity and Liberalism (1923) and the Auburn Affirmation (9 Jan 1924). The Social Gospel belongs inside this same tension and is named here rather than given its own separate connection. Any present-day continuation of the argument is a matter for dated statements, not asserted here."
   },
   {
    "from": "the-stone-campbell-restoration-movement",
@@ -434,7 +434,7 @@
    "to": "disciples-of-christ-and-independent-christian-churches",
    "type": "formed",
    "confidence": "Documented",
-   "note": "The Disciples wing of the same 1906 division, on the same verified federal-census listing. No continuesAs write, for the same reason as its sibling edge.."
+   "note": "The Disciples wing of the same 1906 division, on the same verified federal census listing. This is shown as a formation, not a continuation, for the same reason as its sibling connection above."
   },
   {
    "from": "desert-monasticism",
