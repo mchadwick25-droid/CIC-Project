@@ -68,7 +68,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     "census-display-name/alx": "F-09 - alx alone sets display_name to the Atlas's friendly short name; the other five carry the census's formal name",
     "id-type-token/doctrinal_witness": "F-03 - pahc uses `pahc.witness.*` where the other five use `<world>.dw.*`; renaming 17 records re-hashes the package, so it belongs to a pahc build thread",
     "id-type-token/voice_craft": "F-03 - pahc uses `pahc.craft.chloe-voice` where the other five use `<world>.voice.craft`",
-    "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches the Level-3 card",
+    "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches the voice through the turn's evidence block and the participant through the Level-3 card",
     "ui-field-leak/desert": "F-10 - desert.figure.evagrius names a record id (desert.source.evagrius-praktikos) and a build document (Doc_01) inside figure.dates, and desert.figure.pachomius says 'not independently adjudicated by this build' - all three printed verbatim by the doorway's Level-3 panel",
     # A world can legitimately sit at state: built without also being
     # census-linked and frontend-wired in the same pass - real, disclosed,
