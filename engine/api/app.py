@@ -140,6 +140,11 @@ def _stream_turn(handle, done_body, voiced, session_id: str, started: float, adm
     return StreamingResponse(body(), media_type="text/event-stream", headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
 
 
+class MissingAdminTokenForSessions(Exception):
+    """Raised at app construction when sessions_require_admin=True but no
+    admin_token was given: no one could ever open a conversation."""
+
+
 class MissingAnonCapSecret(Exception):
     """Raised at app construction when anon_cap_enabled=True but no secret
     was given - same "never guess, fail loudly" posture as MissingConfigError
@@ -148,6 +153,7 @@ class MissingAnonCapSecret(Exception):
 
 _INVALID_SESSION_DETAIL = "invalid session"
 _WORLD_UNAVAILABLE_DETAIL = "world temporarily unavailable"
+_OPERATOR_ONLY_DETAIL = "This server is private. Log in at /admin/dashboard first."
 _AUTH_PREFIX = "Session "
 
 # The service's one logger. Bedrock errors are captured and logged bound
@@ -170,6 +176,7 @@ class Deps:
     default_world_key: str
     enforce_admission: bool
     admin_token: str | None = None
+    sessions_require_admin: bool = False
     package_cache_dir: Path | None = None
     r27_enforce: bool = False
     sentence_enforce: bool = True
@@ -468,6 +475,7 @@ def create_app(
     enforce_admission: bool = False,
     rate_limit: bool = False,
     admin_token: str | None = None,
+    sessions_require_admin: bool = False,
     package_cache_dir: Path | None = None,
     anon_cap_enabled: bool = False,
     anon_visitor_secret: str | None = None,
@@ -502,7 +510,13 @@ def create_app(
     on via render.yaml). Enabling it with
     no secret is refused loudly, not silently skipped - a caller opting in
     without providing the one thing that makes the token unforgeable is a
-    misconfiguration, not a valid "off" state."""
+    misconfiguration, not a valid "off" state.
+
+    sessions_require_admin defaults False. When True, opening a
+    conversation needs the admin login; enabling it with no admin_token
+    is refused loudly for the same reason."""
+    if sessions_require_admin and not admin_token:
+        raise MissingAdminTokenForSessions("CIC_API_SESSIONS_REQUIRE_ADMIN is on but CIC_API_ADMIN_TOKEN is unset")
     if anon_cap_enabled and not anon_visitor_secret:
         raise MissingAnonCapSecret("CIC_API_ANON_CAP_ENABLED is on but CIC_API_ANON_VISITOR_SECRET is unset")
     app = FastAPI(title="CiC engine/api (minimal test backend)")
@@ -537,6 +551,7 @@ def create_app(
         world_loader=world_loader,
         registry=registry,
         admin_token=admin_token,
+        sessions_require_admin=sessions_require_admin,
         default_world_key=default_world_key,
         enforce_admission=enforce_admission,
         package_cache_dir=package_cache_dir,
@@ -584,8 +599,13 @@ def create_app(
         return WorldListResponse(worlds=worlds)
 
     @app.post("/api/session", status_code=201, response_model=SessionCreateResponse)
-    def create_session_endpoint(req: SessionCreateRequest, request: Request):
+    def create_session_endpoint(req: SessionCreateRequest, request: Request, authorization: str | None = Header(default=None)):
         deps: Deps = request.app.state.deps
+        if deps.sessions_require_admin:
+            try:
+                _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
+            except HTTPException:
+                raise HTTPException(status_code=403, detail=_OPERATOR_ONLY_DETAIL)
         # Set only when anon_cap.install's middleware ran (CIC_API_ANON_CAP_ENABLED) -
         # absent otherwise, same as a pre-visitor-cookie session_started event.
         visitor_id = getattr(request.state, "visitor_id", None)
@@ -868,14 +888,15 @@ def create_app(
         response = JSONResponse({"status": "ok"})
         response.set_cookie(
             admin_auth.SESSION_COOKIE_NAME, token, max_age=admin_auth.DEFAULT_SESSION_TTL_SECONDS,
-            httponly=True, samesite="lax", secure=True, path="/api/admin",
+            httponly=True, samesite="lax", secure=True, path=admin_auth.SESSION_COOKIE_PATH,
         )
         return response
 
     @app.post("/api/admin/logout")
     def admin_logout():
         response = JSONResponse({"status": "ok"})
-        response.delete_cookie(admin_auth.SESSION_COOKIE_NAME, path="/api/admin")
+        response.delete_cookie(admin_auth.SESSION_COOKIE_NAME, path=admin_auth.SESSION_COOKIE_PATH)
+        response.delete_cookie(admin_auth.SESSION_COOKIE_NAME, path=admin_auth.FORMER_SESSION_COOKIE_PATH)
         return response
 
     _ADMIN_DASHBOARD_PATH = Path(__file__).resolve().parent / "static" / "admin_dashboard.html"
@@ -997,6 +1018,7 @@ def _build_real_app() -> FastAPI:
         enforce_admission=settings.enforce_admission,
         rate_limit=True,
         admin_token=settings.admin_token,
+        sessions_require_admin=settings.sessions_require_admin,
         package_cache_dir=settings.package_cache_dir,
         anon_cap_enabled=settings.anon_cap_enabled,
         anon_visitor_secret=settings.anon_visitor_secret,
