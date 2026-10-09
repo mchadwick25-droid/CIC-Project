@@ -721,3 +721,19 @@ Errors in the voice's replies in the named, capped live test "record pass stagin
 (14) (H) "What would you want me to understand that I haven't asked?": the rival teacher who "claimed one word could deliver God's whole essence" and "no mind grasps him completely" repeat turn 4's "A rival teacher claimed one word... no mind grasps God completely" as if new, with no reference back (decision 60 refinement of 7 October on referring back).
 
 Status: OPEN.
+
+### OG-39. Voice claim check after the record pass staging reading, 2026-10-09.
+
+Checks item (1) of "Voice errors found in the record pass staging reading, 9 October": the block credited to "one of our teachers" in turn 1 ("Who is Jesus?"), which is a translation of Gregory of Nyssa's Catechetical Oration ch. 25 found in no library source. Review: `Build/Ministry/Operations/Audits/cappadocian_voice_claim_check_review_2026-10-09.md` (Opus 5.5, one review).
+
+**Voiced wording.** From `engine/m4/reports/live-turn-report-cappadocian-2026-10-09-record-pass-staging-reading.json`, turn 1: "That God should be born in our nature ought not to seem strange or out of place to those who do not take too crude a view of reality. Who, after all, when he looks at the universe, is so simple as not to believe that the Divine exists in everything, pervading it, embracing it, and seated in it? For all things depend on Him who is, nor can there be anything which has not its being in Him who is. If, therefore, all things are in Him and He in all things, why are they scandalized at the plan of Revelation when it teaches that God was born among men, that same God whom we acknowledge already to be in mankind?"
+
+**Records.** No record in `records/cappadocian` holds this wording, or text it could be drawn from. The only record of ch. 25 is `cappadocian.quote.gregory-nyssa-on-becoming-god`. Its `text` and `modern_rendering` read "too narrow a view of things", "Deity in everything, penetrating it" and "whom we are convinced is even now not outside mankind". A search of `records/cappadocian` for "crude", "out of place", "pervading", "the Divine exists" and "whom we acknowledge" found no match outside that quote's own differing lines.
+
+**Library.** The only vendored translation of the Oration is `cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt`, Chapter XXV, lines 44317-44337. It reads "ought not reasonably to present any strangeness to the minds of those who do not take too narrow a view of things" and "that same God Whom we are convinced is even now not outside mankind". It matches the record's `text`. The voiced rendering appears in no file in `cic/texts`.
+
+**Result.** The record is correct and was not edited. No record holds or invites the voiced wording; the voice produced a translation outside the records and the library. No record, and no `modern_rendering`, was changed, so there is no package change: the package was not rebuilt and the pin was not changed.
+
+**Engine item for the fidelity slice.** The voice rendered a quote record's passage in its own wording, and the grounding net marked the block "withhold" ("quotation not in records") yet the text was delivered (see the net finding in the 9 October entry). Decision 59 clause (1) needs this block withheld, or the record's own rendering voiced.
+
+Status: item (1) of "Voice errors found in the record pass staging reading, 9 October" is CLOSED as to the record (no record defect); the voice-side item stays with the fidelity slice.
