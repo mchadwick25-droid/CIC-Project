@@ -392,7 +392,8 @@ def apply_net(
     has its tags stripped, and the marks come off a short quoted span found
     in no record.
 
-    placement says which quotes this turn may place; None places none, so
+    placement says which quotes this turn may place and which the
+    conversation has already voiced; None places none, so
     every marker is removed with its sentence. quotable_texts are the words
     the participant side said, which a reply may repeat in quotation marks.
     net_result carries "reply_shape": the quote records placed, and each
@@ -401,16 +402,16 @@ def apply_net(
 
     M3's LiveModelAnswerer calls this function too, so admission grades
     the text a participant would read."""
+    placement = placement or PlacementContext()
     shaped = place_quotes(
-        grounding_net.strip_markdown(raw_text), repository_records=repository_records,
-        context=placement or PlacementContext(),
+        grounding_net.strip_markdown(raw_text), repository_records=repository_records, context=placement,
     )
     tagged = shaped["text"]
     removed = list(shaped["removed"])
     while True:
         net_result = grounding_net.check_turn_with_paragraph_coverage(
             tagged, repository_records, thin_topics=thin_topics, quotable_texts=quotable_texts,
-            placed=shaped["placed_sentences"],
+            placed=shaped["placed_sentences"], voiced=placement.voiced,
         )
         going = [
             entry for entry in net_result["sentences"]
@@ -696,6 +697,7 @@ def _run_ordinary_voice_turn(
             repository_records=repository_records, world_key=world.world_key, thin_topics=thin_topics,
             guard=(lambda raw: find_seat_identity_violation(raw, guard_labels)) if guard_labels else None,
             demonstrations=demonstrations, quotable_texts=echo_sources, told_stories=placement.told_stories,
+            voiced_quotes=placement.voiced,
         )
 
         def on_text(chunk: str) -> None:

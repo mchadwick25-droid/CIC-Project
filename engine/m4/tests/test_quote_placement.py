@@ -186,6 +186,120 @@ def test_a_placed_quote_with_a_matching_lead_in_is_not_taken_for_an_attribution(
     assert text == f"Leo wrote: “{RENDERING}”"
 
 
+# ---- a quote's words reach a participant only as a placed quote: the syr world's own records ----
+
+EPHREM_QUOTE = "syr.quote.ephrem-only-begotten-dwelling"
+RETRANSLATED = "the Only-Begotten left his home with God and lived in the Virgin"
+SYR_CLEAN = "He is the Physician, and his coming is medicine for a wounded people [[syr.dw.jesus]]."
+SYR_CLEAN_SHOWN = "He is the Physician, and his coming is medicine for a wounded people."
+
+
+@pytest.fixture(scope="module")
+def syr_records():
+    from engine.m1.loader import load_world_records
+
+    return load_world_records("syr")
+
+
+def _syr(raw, records, voiced=frozenset()):
+    context = PlacementContext(offered=frozenset({EPHREM_QUOTE}), voiced=voiced)
+    text, citations, net_result = apply_net(raw, repository_records=records, thin_topics=None, placement=context)
+    return text, citations, net_result
+
+
+def test_a_sentence_tagged_to_a_quote_not_yet_placed_is_dropped_whether_or_not_it_names_the_speaker(syr_records):
+    for sentence in (
+        f"He sang that {RETRANSLATED} [[{EPHREM_QUOTE}]].",
+        f"The Syrian deacon taught that {RETRANSLATED} [[{EPHREM_QUOTE}]].",
+        f"Ephrem taught that {RETRANSLATED} [[{EPHREM_QUOTE}]].",
+    ):
+        text, citations, net_result = _syr(f"{sentence}\n\n{SYR_CLEAN}", syr_records)
+        assert text == SYR_CLEAN_SHOWN, sentence
+        assert all(EPHREM_QUOTE not in c["record_ids"] for c in citations), sentence
+        assert [r["why"] for r in net_result["reply_shape"]["removed"]] == ["tagged to a quote record that has not been placed"]
+
+
+def test_a_retranslation_of_a_quote_not_yet_placed_is_dropped_however_it_is_framed(syr_records):
+    for sentence in (
+        f"Ephrem sang: {RETRANSLATED}.",
+        f"Ephrem sings, {RETRANSLATED}.",
+        f"Ephrem chanted, {RETRANSLATED}.",
+        f"Ephrem proclaimed: {RETRANSLATED}.",
+        f"To quote Ephrem: {RETRANSLATED}.",
+        f"Ephrem's words: {RETRANSLATED}.",
+        f"Ephrem writes in his hymn on the Nativity: {RETRANSLATED}.",
+        f"Ephrem gives it like this: {RETRANSLATED}.",
+        f"Ephrem said — {RETRANSLATED}.",
+        "The Only-Begotten left his home with God and lived in the Virgin (Ephrem).",
+        "The Only-Begotten left his home with God and lived in the Virgin ~ Ephrem.",
+        f"ephrem wrote: {RETRANSLATED}.",
+        f"The hymn says: {RETRANSLATED}.",
+        f"Ephrem wrote *{RETRANSLATED}*.",
+        f"Ephrem wrote 「{RETRANSLATED}」.",
+        f"Ephrem wrote 『{RETRANSLATED}』.",
+    ):
+        assert _syr(f"{sentence}\n\n{SYR_CLEAN}", syr_records)[0] == SYR_CLEAN_SHOWN, sentence
+
+
+def test_a_retranslation_running_on_past_an_inline_attribution_into_the_next_paragraph_is_dropped(syr_records):
+    raw = (
+        "Ephrem wrote: the Only-Begotten left his home with God.\n\n"
+        "He came to live in the Virgin, so that by a shared manner of birth he might become brother to many.\n\n"
+        f"{SYR_CLEAN}"
+    )
+    assert _syr(raw, syr_records)[0] == SYR_CLEAN_SHOWN
+
+
+def test_lower_case_names_and_corner_brackets_are_read_as_what_they_are(syr_records):
+    _text, _c, net_result = _syr(f"ephrem wrote: {RETRANSLATED}.", syr_records)
+    assert net_result["reply_shape"]["removed"][0]["why"] == "words attributed without a placed quote"
+    _text, _c, net_result = _syr(f"Ephrem wrote 「{RETRANSLATED}」.", syr_records)
+    assert net_result["reply_shape"]["removed"][0]["why"] == "quotation typed by the voice"
+
+
+def test_the_placed_quote_and_a_refer_back_in_the_same_reply_both_stay(syr_records):
+    text, _c, net_result = _syr(
+        f"Ephrem put it plainly [[quote:{EPHREM_QUOTE}]].\n\nThat is how we sing of his coming [[{EPHREM_QUOTE}]]. {SYR_CLEAN}",
+        syr_records,
+    )
+    assert net_result["reply_shape"] == {"placed": [EPHREM_QUOTE], "removed": []}
+    assert syr_records[EPHREM_QUOTE]["modern_rendering"].split()[-1] in text
+    assert text.endswith(f"That is how we sing of his coming. {SYR_CLEAN_SHOWN}")
+
+
+def test_referring_back_to_a_quote_already_voiced_is_unchanged(syr_records):
+    voiced = frozenset({EPHREM_QUOTE})
+    text, citations, _r = _syr(f"We have sung already of the brother of many [[{EPHREM_QUOTE}]]. {SYR_CLEAN}", syr_records, voiced)
+    assert text == f"We have sung already of the brother of many. {SYR_CLEAN_SHOWN}"
+    assert citations[0]["record_ids"] == [EPHREM_QUOTE]
+    text, _c, net_result = _syr(f"Ephrem has sung already of the brother of many [[{EPHREM_QUOTE}]]. {SYR_CLEAN}", syr_records, voiced)
+    assert text == SYR_CLEAN_SHOWN
+    assert net_result["reply_shape"]["removed"][0]["why"] == "quote record's speaker named without its placed quote"
+
+
+# Re-translations of quotes from across the fleet, in the voice's own framing.
+FLEET_RETRANSLATIONS = (
+    ("pahc", "On the day named for the sun, all who live in town or country gather in one place, and the memoirs of the apostles or the prophets' writings are read as long as there is time."),
+    ("desert", "From the fear of the Lord comes compunction, from compunction renunciation, from owning nothing humility is born, and from humility the death of desires."),
+    ("alx", "These books are fountains of salvation, so whoever thirsts may be filled with the living words in them; let no one add to them or take anything from them."),
+    ("gallic", "The Lord Jesus never promised to return in purple with a shining crown; I will not believe Christ has come unless he shows the marks of his wounds from the cross."),
+    ("ijc", "I told them I cannot give up the basilica, but neither may I fight."),
+    ("cappadocian", "My grandmother, the well-known Macrina, raised me; she taught me the words of the blessed Gregory, which she had kept as memory carried them down to her day."),
+    ("witt", "Baptism is necessary for salvation; through it God offers grace, children should be baptized, and we reject the Anabaptists who say children are saved without it."),
+    ("hal", "You are lying: you follow Cicero, not Christ, for where your treasure is, your heart will be too."),
+)
+
+
+def test_retranslations_of_quotes_across_the_fleet_are_dropped():
+    from engine.m1.loader import load_world_records
+
+    for world, sentence in FLEET_RETRANSLATIONS:
+        records = load_world_records(world)
+        text, _c, net_result = apply_net(sentence, repository_records=records, thin_topics=None, placement=PlacementContext())
+        assert text == "", sentence
+        assert [r["why"] for r in net_result["reply_shape"]["removed"]] == ["gives a quote record's words without placing it"]
+
+
 # ---- spoken prose -----------------------------------------------------------
 
 
@@ -426,3 +540,23 @@ def test_every_quote_record_in_the_fleet_places_word_for_word_except_the_registe
             if net_result["reply_shape"]["placed"] != [record["id"]] or rendering not in " ".join(text.split()):
                 unplaced.add(record["id"])
     assert unplaced == UNPLACEABLE
+
+
+def test_no_quote_records_gist_is_taken_for_its_words_anywhere_in_the_fleet():
+    """The voice is shown each offered quote's gist (use_note.means) and may
+    echo it."""
+    from engine.m1.loader import RECORDS_ROOT, load_world_records
+
+    refused = []
+    for world_dir in sorted(p for p in RECORDS_ROOT.iterdir() if (p / "quote").is_dir()):
+        records = load_world_records(world_dir.name)
+        for record in (r for r in records.values() if r.get("record_type") == "quote"):
+            gist = (record.get("use_note") or {}).get("means")
+            if not gist:
+                continue
+            context = PlacementContext(offered=frozenset({record["id"]}))
+            _t, _c, net_result = apply_net(gist, repository_records=records, thin_topics=None, placement=context)
+            whys = {r["why"] for r in net_result["reply_shape"]["removed"]}
+            if whys & {"gives a quote record's words without placing it", "tagged to a quote record that has not been placed"}:
+                refused.append(record["id"])
+    assert refused == []

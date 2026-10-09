@@ -60,11 +60,12 @@ def _sentences(raw: str) -> list[dict]:
 class SentenceStream:
     def __init__(self, *, repository_records: dict[str, dict], world_key: str, thin_topics: list[dict] | None = None,
                  guard=None, demonstrations: DemonstrationIndex | None = None,
-                 quotable_texts: list[str] | None = None, told_stories: frozenset[str] = frozenset()):
+                 quotable_texts: list[str] | None = None, told_stories: frozenset[str] = frozenset(),
+                 voiced_quotes: frozenset[str] = frozenset()):
         self._guard = guard
         self._told_stories = told_stories
         self._demonstrations = demonstrations or DemonstrationIndex(repository_records)
-        self._quotation_index = QuotationIndex(repository_records, quotable_texts)
+        self._quotation_index = QuotationIndex(repository_records, quotable_texts, voiced=voiced_quotes)
         self._shift = 0
         self._stopped = False
         self._records = repository_records
