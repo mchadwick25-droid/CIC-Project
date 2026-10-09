@@ -676,6 +676,7 @@ def _advance_open_round(
     facilitator: list[dict],
     out_of_scope_class: str | None = None,
     r27_enforce: bool = False,
+    sentence_enforce: bool = True,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
     qc_recorder=None,
@@ -960,6 +961,7 @@ def _advance_open_round(
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=selection.world_key) if r27_enforce else None,
             self_revision_enabled=self_revision_enabled,
+            sentence_enforce=sentence_enforce,
             citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
             on_sentence=on_sentence,
         )
@@ -1024,7 +1026,7 @@ def _advance_open_round(
     # cause. Only interview mode needed new wording
     # (engine.m4.facilitator_turns.voice_rejected_turn) - see that
     # function's own docstring for why.
-    if voice_event.get("r27_enforcement_exhausted"):
+    if voice_event.get("r27_enforcement_exhausted") or voice_event.get("sentence_enforcement_exhausted"):
         fallback_event = facilitator_turns.table_seat_correction_turn(world.frame["representative"]["name"])
         events.validate("facilitator_turn", fallback_event)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fallback_event)
@@ -1034,7 +1036,10 @@ def _advance_open_round(
         usage_store.append(rec)
 
     if qc_recorder is not None:
-        set_aside = voice_event.get("seat_identity_guard_exhausted") or voice_event.get("r27_enforcement_exhausted")
+        set_aside = (
+            voice_event.get("seat_identity_guard_exhausted") or voice_event.get("r27_enforcement_exhausted")
+            or voice_event.get("sentence_enforcement_exhausted")
+        )
         qc_recorder.record_safely(
             session_id=session_id, world_key=selection.world_key, world=world,
             package_hash=(state.package_manifest_hashes or {}).get(selection.world_key),
@@ -1131,6 +1136,7 @@ def _handle_table_message_unlocked(
     config: RoundConfig | None = None,
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
+    sentence_enforce: bool = True,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
     qc_recorder=None,
@@ -1268,6 +1274,7 @@ def _handle_table_message_unlocked(
         degraded=opening.degraded, facilitator=opening.facilitator_events,
         out_of_scope_class=out_of_scope_class,
         r27_enforce=r27_enforce,
+        sentence_enforce=sentence_enforce,
         self_revision_enabled=self_revision_enabled,
         citation_attach_enabled=citation_attach_enabled,
         qc_recorder=qc_recorder,
@@ -1289,6 +1296,7 @@ def _continue_table_round_unlocked(
     config: RoundConfig | None = None,
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
+    sentence_enforce: bool = True,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
     qc_recorder=None,
@@ -1318,6 +1326,7 @@ def _continue_table_round_unlocked(
         facilitator=[],
         out_of_scope_class=(gate_payload.get("out_of_scope") or {}).get("class"),
         r27_enforce=r27_enforce,
+        sentence_enforce=sentence_enforce,
         self_revision_enabled=self_revision_enabled,
         citation_attach_enabled=citation_attach_enabled,
         qc_recorder=qc_recorder,

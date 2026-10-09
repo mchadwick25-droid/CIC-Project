@@ -872,3 +872,16 @@ def test_echoed_words_do_not_stand_in_for_a_quote_record_of_an_attributed_figure
     text = 'Clement wrote, "the door that was never opened" [[fix.witness.who-is-jesus]].'
     entry = check_turn(text, QUOTE_REPOSITORY, quotable_texts=["the door that was never opened"])["sentences"][0]
     assert entry["why"] == "words attributed without a quote record"
+
+
+def test_a_double_quotation_holds_the_double_quotations_nested_inside_it():
+    from engine.m4.grounding_net import quoted_span_positions
+
+    inner = 'Then Germanus said: "The reward is chastity." He said "come, see" and left.'
+    text = f"Cassian wrote: “{inner}” [[fix.quote.x]]"
+    assert [span for _s, _e, span in quoted_span_positions(text)] == [inner]
+    opening = '"Come," he said, "see the old men." We went.'
+    assert [span for _s, _e, span in quoted_span_positions(f"“{opening}”")] == [opening]
+    assert [span for _s, _e, span in quoted_span_positions('He said "no deception" and "no mixture at all" too.')] == [
+        "no deception", "no mixture at all",
+    ]

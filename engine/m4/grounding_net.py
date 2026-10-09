@@ -162,8 +162,11 @@ _PLURAL_POSSESSIVE = re.compile(r"s['\u2019]\s+[A-Za-z]")
 
 def _closing_mark(text: str, opener: str, start: int) -> int | None:
     """Index of the mark that closes a quotation opened by `opener`: a double
-    opener closes only on a double mark; a single opener skips a plural
-    possessive (the apostles' teaching) unless nothing else closes it."""
+    opener closes only on a double mark, skipping any complete double
+    quotation nested inside it; a single opener skips a plural possessive
+    (the apostles' teaching) unless nothing else closes it."""
+    if opener in _DOUBLE_OPENERS:
+        return _closing_double_mark(text, start)
     pos = start
     skipped = None
     while True:
@@ -171,10 +174,29 @@ def _closing_mark(text: str, opener: str, start: int) -> int | None:
         if not match:
             return skipped
         index = match.end() - 1
-        if opener in _DOUBLE_OPENERS or not _PLURAL_POSSESSIVE.match(text, index - 1):
+        if not _PLURAL_POSSESSIVE.match(text, index - 1):
             return index
         skipped = index if skipped is None else skipped
         pos = match.end()
+
+
+def _closing_double_mark(text: str, start: int) -> int | None:
+    depth = 0
+    for index in range(start, len(text)):
+        mark = text[index]
+        if mark not in "\"\u201c\u201d":
+            continue
+        before = text[index - 1] if index else " "
+        after = text[index + 1] if index + 1 < len(text) else " "
+        opens = mark == "\u201c" or (mark == '"' and (before.isspace() or before in ":,-(\u201c\u2018") and not after.isspace())
+        closes = mark == "\u201d" or (mark == '"' and not before.isspace() and (after.isspace() or after in ".,;:!?)\u201d\u2019\"'"))
+        if closes and not (opens and mark == '"'):
+            if depth == 0:
+                return index
+            depth -= 1
+        elif opens:
+            depth += 1
+    return None
 
 
 def _quote_pairs(text: str):

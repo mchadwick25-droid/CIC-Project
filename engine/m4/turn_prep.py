@@ -260,7 +260,7 @@ OBLIQUE_WHO_DIRECTIVE = (
 )
 
 
-QUOTE_LINE = "One quote in full, from the records in front of you, not one already voiced in this conversation."
+QUOTE_LINE = "One quote in full, placed with [[quote:id]] from the records in front of you, not one already voiced in this conversation."
 NO_NEW_FIGURE_LINE = "Speak of the people already named; introduce no new figure this turn."
 LEXICON_LINE = "Use the world's own words for what it held."
 REFER_BACK_LINE = (

@@ -1312,14 +1312,11 @@ def test_sentence_enforce_keeps_every_other_sentence_when_the_flagged_one_sits_i
     )
 
 
-def test_sentence_enforce_never_blanks_the_whole_turn_or_substitutes_the_facilitator():
-    # This mechanism never blanks the turn. Every sentence in this turn
-    # is the flagged one, so dropping it would leave nothing behind -
-    # instead of dropping (and instead of the whole-turn-blank/
-    # Facilitator-substitution fallback the uncited-claims enforcement's
-    # own exhaustion mechanism uses), the regenerated answer is kept
-    # exactly as it stands, flagged sentence and all, and that flag is
-    # recorded rather than silently lost.
+def test_sentence_enforce_sets_the_turn_aside_when_every_sentence_is_still_flagged():
+    # Every sentence in this turn is the flagged one, so dropping it leaves
+    # nothing: the voice's text is not shown and the caller substitutes a
+    # Facilitator turn, as it does for the uncited-claims enforcement's
+    # exhaustion. A flagged sentence is never kept to avoid an empty reply.
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[[_UNSUPPORTED_SENTENCE], [_UNSUPPORTED_SENTENCE]],
@@ -1329,11 +1326,12 @@ def test_sentence_enforce_never_blanks_the_whole_turn_or_substitutes_the_facilit
         participant_message="who was Jesus", directive=None, session_id="test-session",
         sentence_enforce=True,
     )
-    assert voice_event["text"] == _UNSUPPORTED_SENTENCE
+    assert len(client.messages.captured_stream_calls) == 2
+    assert voice_event["text"] == ""
+    assert voice_event["sentence_enforcement_exhausted"] is True
     assert voice_event["r27_enforcement_exhausted"] is False
-    assert voice_event["fact_check_flags"] and voice_event["fact_check_flags"][0]["sentence"] == _UNSUPPORTED_SENTENCE
-    assert voice_event["sentence_enforcement"]["sentences_dropped"] == []
     assert voice_event["sentence_enforcement"]["still_flagged"] == [_UNSUPPORTED_SENTENCE]
+    assert voice_event["sentence_enforcement"]["sentences_dropped"] == []
 
 
 def test_sentence_enforce_and_r27_enforce_compose_without_double_spending_a_call():
