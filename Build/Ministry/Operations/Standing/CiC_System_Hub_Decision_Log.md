@@ -6404,3 +6404,9 @@ The project lead ruled after the independent review of the 9 October staging rea
 The decision 61 rework (#841) left the compiled prompt's "Quotes we hold" section in place: each quote's id, speaker and opening words, in the plain tag and the "X: words" form the net now refuses. It was registered as an open gap pending a ruling on when to repackage the fleet. The project lead chose option A:
 
 61. (6) The compiled prompt carries no quote index. A quote reaches the voice only through the per-turn evidence block, by its marker, speaker and gist, because that is the only place a quote can be placed from. Removing it changes every world's compiled prompt, so every package is rebuilt and re-pinned and every admitted world needs re-admission; that is covered by the planned live admission run, which needs its own approval under decision 56.
+
+## 2026-10-09 - Refer-back and the backstop: a refer-back does not name the speaker (decision 61, refinement)
+
+The decision 61 rework (#841) left one question open: under 61(5) the voice may refer back to a quote it has already voiced, and the grounding net's backstop drops a sentence tagged to that quote record when it names the record's speaker. The project lead confirmed option A:
+
+61. (7) A refer-back sentence tagged to a quote record already voiced does not name that record's speaker, and the backstop that drops such a sentence stays as it is. The speaker was already named in the placed quote's lead-in. For a voiced quote the speaker's name is the only thing the net watches, because the wording check (#845) covers only quotes not yet voiced. Rejected: B, allowing the name and extending the wording check to voiced quotes; C, no refer-back citations at all. No code change.
