@@ -53,9 +53,9 @@ narrative_tier_justification: 'Tier 3, Attributed Tradition: Bacon''s own langua
   exactly CF V7.4''s Tier 3 definition. It is not hagiographic in witt-S04''s specific sense (no miracle
   sequence, no death-as- completion structure), but Doc_09 correctly places it in Tier 3 for a different
   reason within that tier''s scope: attribution without documentation (Doc_09 witt-S10).'
-tellable_as: Somewhere in Wittenberg, a wanderer down from Prussia is remembered to have sung Paul Speratus's
-  own hymn, "Es ist das Heil uns kommen her," beneath Luther's window - and the tradition says it moved
-  him deeply, though no vendored source says exactly when, or names the singer, or confirms the scene
+tellable_as: In Wittenberg, a wanderer down from Prussia is remembered to have sung Paul Speratus's own
+  hymn, "Es ist das Heil uns kommen her," beneath Luther's window. The tradition says it moved him deeply.
+  We have no word of when it happened. We do not know who the singer was. We cannot say the scene
   ever happened at all.
 text: 'Among the four hymns in Wittenberg''s very first hymn-book, printed in 1524, three were not Luther''s
   own but Paul Speratus''s - a fellow reformer whose hymn "Es ist das Heil uns kommen her" ("Salvation
@@ -68,9 +68,9 @@ text: 'Among the four hymns in Wittenberg''s very first hymn-book, printed in 15
   - Luther''s later use of the tune - as a kind of confirming trace, though it confirms only that Luther
   loved the tune, not that any particular singer ever stood beneath his window.
 
-  What the vendored text does not do, on a close reading, is say that Speratus himself was the wanderer.
+  What the account does not do, on a close reading, is say that Speratus himself was the wanderer.
   He is named only as the hymn''s own author. The singer beneath the window is given no name at all -
-  only a description, "a wanderer from Prussia." The story this library can honestly tell, then, is not
+  only a description, "a wanderer from Prussia." The story we can honestly tell, then, is not
   "Speratus sang under Luther''s window," but something a little smaller and a little stranger: someone
   unnamed, from somewhere far off, sang a hymn that was Speratus''s own, and the tradition remembers that
   it reached Luther.'
