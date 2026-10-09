@@ -12,14 +12,20 @@ integration branch checked out in its own sibling directory entirely outside the
 repo. See `Integration-Notes.md` for exactly what's live vs. unmerged.
 
 **Current state:** the map itself is live and working on the public site, at
-`cic-website/atlas-v3.html` — "Church in History." `atlas.html` and `world-atlas.html`
-are dead redirect stubs kept only for old bookmarks/links, from before the "Story"
-surface and the earlier Wall Chart + Research Table directions merged into this one
-page (2026-08-03 "ship flip"); `world-map.html`/`world-atlas-list.html` never shipped
-under those names. Deeper integration into the actual conversational app (`cic-poc/`)
-— letting the map hand a participant directly into a Table session — is built and
-tested but **not merged**, gated on an undecided Tier A/B scope question (does the map
-stay a secondary orientation view, or become the primary world-selector?).
+`cic-website/atlas-v3.html` — "Church Family Tree." Since 2026-09-03 the page is the
+river map (PRs #79-#82, `Build/Ministry/Technology/CiC_FrontEnd_Decision_Log.md`
+2026-09-03 entry), which replaced the August canvas; the August canvas's search, lane,
+region and built-worlds toggles, theme chip and filter deep-links did not carry over.
+`atlas.html` and `world-atlas.html` are dead redirect stubs kept only for old
+bookmarks/links; `world-map.html`/`world-atlas-list.html` never shipped under those
+names. The "Story" as a separate landing surface was superseded on 2026-08-02 ("only
+one atlas, done right"). The Tier A/B question was decided 2026-07-20: the website
+explores, and Choose a Tradition selects inside the conversational app (`cic-poc/`).
+The handoff between them is the deep-link grammar `?worlds=<id,id>&mode=<interview|table>`,
+live in `cic-poc/frontend/src/App.tsx`; the map suggests a world and never starts a
+session. The two integration branches described in `Integration-Notes.md` no longer
+exist on the remote. The 2026-10-09 `Decision-Log.md` entry holds the current design
+rulings for the upgrade.
 
 ## Module map (WO-3, 2026-09-16 — one home to find every real location from)
 
@@ -34,7 +40,7 @@ hunting: every real location, current as of the survey that produced it.
 | **Live page** | `cic-website/atlas-v3.html` | the whole thing: HTML/CSS/JS/SVG, no build step, committed as a finished static artifact |
 | Dead redirect stubs | `cic-website/atlas.html`, `cic-website/world-atlas.html` | keep old bookmarks working; not the real page |
 | Preview image | `cic-website/assets/atlas-preview.jpg` | OG/share preview |
-| **Census data** (hand-authored) | `cic-website/data/world-census.json` | loaded directly by the live page; the one file to hand-edit |
+| **Census data** (hand-authored) | `cic-website/data/world-census.json` | authoritative; the live page embeds a copy (`const DATA`) that `engine/m6/census_atlas_sync.py` mirrors from it and `python -m engine.m6.cli atlas-check` verifies; the one file to hand-edit |
 | Census → registry sync | `engine/m6/census_sync.py`, `engine/m6/cli.py` | "the Atlas connection" — copies a narrow field set from `records/worlds/<code>.yaml` into the census for Built-&-Live worlds only; `cli.py check` is the CI gate |
 | Corpus-assignment targets (generated) | `cic/corpus-map/ATLAS-TARGETS.md` | regenerated from the census by `cic/engine/atlas_targets.py` — do not hand-edit |
 | Adjacent, not the census | `cic-website/data/corpus-coverage.json` | corpus-coverage stats, produced by `cic/engine/corpus_coverage.py`; easy to confuse with the census, is not it. **Not yet wired into `atlas-v3.html`'s own rendering** (per `cic/corpus-map/README.md`'s own note) — generated and correct, but the live page does not read it yet; a future front-end task, not yet scoped or scheduled |

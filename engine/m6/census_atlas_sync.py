@@ -33,6 +33,12 @@ comes from a different pipeline entirely; syncing these fields from
 census.json would overwrite real Atlas content with an absent value on
 every movement that has any, which is the merge-logic/content-guess this
 module's own first paragraph rules out.
+
+Edges are compared, not written: compare_edges reports every way the Atlas's
+embedded edges differ from census.json's (an edge present on one side only,
+or a differing confidence or note), keyed by from, to and type. The check is
+the CI gate; a reported difference is fixed in census.json, the authoritative
+side, and in the Atlas's embedded copy to match it.
 """
 import copy
 
@@ -105,3 +111,37 @@ def sync_atlas(census: dict, atlas_movements: list[dict]) -> tuple[list[dict], l
                 m[field] = new_val
 
     return atlas_movements, changes
+
+
+def _edge_key(edge: dict) -> tuple:
+    return (edge.get("from"), edge.get("to"), edge.get("type"))
+
+
+def _edge_label(key: tuple) -> str:
+    return f"{key[0]} > {key[1]} ({key[2]})"
+
+
+def compare_edges(census: dict, atlas_edges: list[dict]) -> list[dict]:
+    """Returns changes as {id, field, old, new} records, the same shape
+    sync_atlas returns: old is the Atlas's value, new is census.json's. An
+    edge only in census.json reports field "edge" with old None; an edge
+    only in the Atlas reports field "edge" with new None. Empty means the
+    Atlas's edges agree with census.json everywhere this function looks."""
+    changes: list[dict] = []
+    census_edges = {_edge_key(e): e for e in census.get("edges", []) if isinstance(e, dict)}
+    atlas_by_key = {_edge_key(e): e for e in atlas_edges if isinstance(e, dict)}
+
+    for key, ce in census_edges.items():
+        ae = atlas_by_key.get(key)
+        if ae is None:
+            changes.append({"id": _edge_label(key), "field": "edge", "old": None, "new": ce})
+            continue
+        for field in sorted((set(ce) | set(ae)) - {"from", "to", "type"}):
+            if ae.get(field) != ce.get(field):
+                changes.append({"id": _edge_label(key), "field": field, "old": ae.get(field), "new": ce.get(field)})
+
+    for key, ae in atlas_by_key.items():
+        if key not in census_edges:
+            changes.append({"id": _edge_label(key), "field": "edge", "old": ae, "new": None})
+
+    return changes

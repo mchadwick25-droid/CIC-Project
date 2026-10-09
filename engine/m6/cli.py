@@ -9,7 +9,7 @@ from pathlib import Path
 from engine.m1.registry import load_registry
 
 from . import atlas_html
-from .census_atlas_sync import sync_atlas
+from .census_atlas_sync import compare_edges, sync_atlas
 from .census_sync import sync_census
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -71,14 +71,18 @@ def cmd_atlas_sync(args: argparse.Namespace) -> int:
         updates.setdefault(c["id"], {})[c["field"]] = c["new"]
     if updates:
         atlas_html.apply_movement_updates(ATLAS_PATH, updates)
-    print(json.dumps({"changed": bool(changes), "changes": _summarize_changes(changes)}, indent=2))
-    return 0
+    # Edges are compared, never written: a difference is fixed in census.json
+    # and in the Atlas's embedded copy by hand, so it must not pass silently.
+    edge_drift = compare_edges(census, atlas_html.read_edges(ATLAS_PATH))
+    print(json.dumps({"changed": bool(changes), "changes": _summarize_changes(changes), "edgeDrift": _summarize_changes(edge_drift)}, indent=2))
+    return 1 if edge_drift else 0
 
 
 def cmd_atlas_check(args: argparse.Namespace) -> int:
     census = _load_census()
     atlas_movements = atlas_html.read_movements(ATLAS_PATH)
     _, changes = sync_atlas(census, atlas_movements)
+    changes = changes + compare_edges(census, atlas_html.read_edges(ATLAS_PATH))
     passed = not changes
     print(json.dumps({"pass": passed, "changes": _summarize_changes(changes)}, indent=2))
     return 0 if passed else 1

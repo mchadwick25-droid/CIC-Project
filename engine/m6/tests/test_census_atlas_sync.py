@@ -1,4 +1,4 @@
-from engine.m6.census_atlas_sync import LIVE_STATUS, sync_atlas
+from engine.m6.census_atlas_sync import LIVE_STATUS, compare_edges, sync_atlas
 
 
 def _census():
@@ -135,3 +135,53 @@ def test_structural_fields_sync_for_a_built_world_too():
     assert m["sources"] == [{"work": "Built World Source", "type": "primary"}]
     # why (a NON_BUILT_WORLD_FIELDS-only field) still stays untouched
     assert m["why"] == "Built-world why - Atlas doesn't carry this field, must stay untouched."
+
+
+def _edge(**over):
+    base = {"from": "a", "to": "b", "type": "formed", "confidence": "Documented", "note": "A note."}
+    base.update(over)
+    return base
+
+
+def test_compare_edges_agrees_when_identical():
+    assert compare_edges({"edges": [_edge()]}, [_edge()]) == []
+
+
+def test_compare_edges_ignores_order():
+    other = _edge(**{"from": "c", "to": "d"})
+    assert compare_edges({"edges": [_edge(), other]}, [other, _edge()]) == []
+
+
+def test_compare_edges_reports_a_differing_note_with_atlas_value_as_old():
+    changes = compare_edges({"edges": [_edge(note="Census note.")]}, [_edge(note="Atlas note.")])
+    assert changes == [{"id": "a > b (formed)", "field": "note", "old": "Atlas note.", "new": "Census note."}]
+
+
+def test_compare_edges_reports_a_differing_confidence():
+    changes = compare_edges({"edges": [_edge(confidence="Contested")]}, [_edge()])
+    assert [(c["field"], c["old"], c["new"]) for c in changes] == [("confidence", "Documented", "Contested")]
+
+
+def test_compare_edges_reports_an_edge_only_in_the_census():
+    changes = compare_edges({"edges": [_edge()]}, [])
+    assert changes == [{"id": "a > b (formed)", "field": "edge", "old": None, "new": _edge()}]
+
+
+def test_compare_edges_reports_an_edge_only_in_the_atlas():
+    changes = compare_edges({"edges": []}, [_edge()])
+    assert changes == [{"id": "a > b (formed)", "field": "edge", "old": _edge(), "new": None}]
+
+
+def test_compare_edges_keys_on_type_so_two_types_between_one_pair_stay_distinct():
+    census = {"edges": [_edge(), _edge(type="argued against", note="Other.")]}
+    assert compare_edges(census, [_edge(), _edge(type="argued against", note="Other.")]) == []
+    changes = compare_edges(census, [_edge()])
+    assert [c["id"] for c in changes] == ["a > b (argued against)"]
+
+
+def test_compare_edges_does_not_mutate_inputs():
+    census = {"edges": [_edge(note="Census note.")]}
+    atlas_edges = [_edge(note="Atlas note.")]
+    compare_edges(census, atlas_edges)
+    assert atlas_edges == [_edge(note="Atlas note.")]
+    assert census == {"edges": [_edge(note="Census note.")]}

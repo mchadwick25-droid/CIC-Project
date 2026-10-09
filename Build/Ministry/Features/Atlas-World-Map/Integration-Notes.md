@@ -37,11 +37,12 @@ patching each stale copy again next time a world goes live. All in-site links
 
 7 site pages link to `atlas.html` in their nav bar only.
 
-`cic-poc/frontend` has **zero** references to "atlas" or "world-map" as of this
-writing — confirmed by direct search. The deep app-integration below has not reached
-`main`.
+As of 2026-10-09, `cic-poc/frontend/src/App.tsx` parses the deep-link grammar
+`?worlds=<id,id>&mode=<interview|table>` (lines 22-43), the one contract between the
+discovery surfaces and the app. The two branches below no longer exist on the remote
+(checked 2026-10-09); which of their other changes reached `main` was not checked.
 
-## Not merged — real, tested integration code exists on two branches
+## Historical — integration code that existed on two branches (2026-07-22; both gone from the remote by 2026-10-09)
 
 - **`claude/world-map-integration-exploration`** (tip `de11233`, 2026-07-16) —
   exploratory: map as a supplementary/optional selection view, plus a
@@ -68,7 +69,9 @@ becomes the primary world-selector, as an either/or. **That framing is stale.** 
 Part 6) reframed it as two linked surfaces rather than one either/or choice, and Mark
 ruled on it the same day (`Decision-Log.md`, 2026-07-20): **the Story is the website's
 exploration surface; Choose a Tradition is the in-app selection surface — neither
-replaces the other.** The `world-map-merge-into-main` branch's existing handoff
+replaces the other.** (The Story half was superseded 2026-08-02 by "only one atlas,
+done right", and the river map has been the website's one atlas since 2026-09-03; the
+two-surface split, website explores and app selects, stands.) The `world-map-merge-into-main` branch's existing handoff
 contract (`/?worlds=<id,id>&mode=<interview|table>`) is exactly what Choose a
 Tradition builds against, so that branch is not obsolete — it's one input to the
 now-decided design, not a proposal still waiting on the gating question.
