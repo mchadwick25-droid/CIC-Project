@@ -50,4 +50,4 @@ Cell 2B, transmission named as its own force per the transmission-
 specificity discipline (never folded into another entry). Its
 survivorship pattern becomes the ending-transmission force
 (precondition-for alx.force.transmission-ending). Mechanisms Widely
-Accepted; succession particulars DMR.
+Accepted; succession particulars Contested (alx.contested.didaskaleion-institution).
