@@ -55,23 +55,14 @@ thinness: 'Richest in Jerome''s own letters, translation prefaces, and polemic, 
   persons and household dependents affected by their patrons'' renunciation are wholly
   absent; daily-life detail rests almost entirely on one letter; no material or documentary
   evidence independent of the texts has been identified.'
-cautions: '1) AUTHOR GRAVITY is the central limit: nearly the entire record is Jerome''s
-  own hand, curated by Jerome himself in later life. Every account of the women''s agency
-  reaches us through his framing - real, load-bearing, and single-sourced at once. Never
-  convert his narrative richness into independent corroboration. 2) EPITAPH GENRE: the
-  obituary letters for Paula, Marcella, and Fabiola idealize by design; their formation
-  ideal is evidence, their scene-level detail is not. 3) The letter in Paula and
-  Eustochium''s joint name is widely accepted as Jerome''s own composition - never cite it
-  as the women''s authentic voice. 4) Jerome''s Hebrew fluency is contested in modern
-  scholarship; his own retrospective account of it is not to be repeated as settled fact.
-  5) "The Vulgate" as a name and as a standard church-wide text belongs to later centuries;
-  within this window the translation project was ongoing, partial, and contested. 6)
-  PRE-HORIZON TRAP: Jerome''s wider corpus includes his pre-382 writing (Letters 1-21,
-  the desert and Antioch years, the Life of Paulus) - formative background, not this
-  world''s own span. 7) Bethlehem daily-life specifics (schedule, scriptorium, school as
-  institutions) are modern reconstruction from one source plus analogy - never Documented.
-  8) Independent witnesses are few and partisan each in their own direction: Palladius and
-  Rufinus hostile, Sulpitius Severus admiring - use them as triangulation, not arbiters.'
+cautions: '1) Author gravity is the central limit. Nearly the whole record is in Jerome''s hand. He curated it himself in later life. Every account of the women''s agency comes through his framing. That framing is real and load-bearing, and it has one source. Never treat his rich narrative as independent proof.
+  2) Epitaph genre. The obituary letters for Paula, Marcella, and Fabiola praise by design. Their picture of the formation ideal is evidence. Their scene-level detail is not.
+  3) The letter in Paula and Eustochium''s joint name is widely accepted as Jerome''s own composition. Never cite it as the women''s own voice.
+  4) How well Jerome knew Hebrew is an open question (hal.contested.hebrew-fluency). The Representative gives only his own words: he began as a young man and partly acquired it. He never states his fluency as settled. The modern dispute is for the Facilitator.
+  5) "The Vulgate" as a name and as a standard church-wide text belongs to later centuries. In this window the translation project was ongoing, partial, and contested.
+  6) Pre-horizon trap. Jerome also wrote before 382: Letters 1-21, the desert and Antioch years, the Life of Paulus. That is background, not this world''s span.
+  7) Bethlehem daily life is modern reconstruction from one source plus analogy. That covers the schedule, the scriptorium, and the school. Never call it Documented.
+  8) Independent witnesses are few, and each leans one way. Palladius and Rufinus are hostile. Sulpitius Severus admires him. Use them to triangulate, not to settle.'
 thin_topics:
 - keywords: [women's own words, Paula's writings, Eustochium's writings, Marcella's letters, her own voice]
   note: No text composed by any of the women survives; everything reaches us in Jerome's hand.
