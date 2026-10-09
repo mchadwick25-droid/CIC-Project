@@ -94,6 +94,6 @@ Outstanding, unrelated to the above: project-lead confirmation of Living Traditi
 
 **Not changed.** `syr.story.jacob-deliverance` and `syr.quote.theodoret-gnats` already call 338, 346 and 350 candidate years for one siege and need no edit. `syr.figure.jacob-of-nisibis` `dates.died` still says the Martyrologium Hieronymianum "implies 338 (the first siege)"; that is the source's implication, attributed and held open. No `modern_rendering` and no quote text was touched. The other items of the 9 October entry are not addressed here.
 
-**Gates.** `python -m engine.m10.cli records syr` and `python -m engine.m10.cli regate syr --base origin/main`: pass. `python -m engine.m2.cli determinism-check syr`: pass. Package rebuilt after the last record edit: `records/worlds/syr.yaml` pins `packages/syr/2026-10-08T23-41-36Z`, `manifest_hash` `sha256:49d5785cbcc8b945053da82b860066a30d1e9986a2a3939a99dce63eed6883d7`.
+**Gates.** `python -m engine.m10.cli records syr` and `python -m engine.m10.cli regate syr --base origin/main`: pass. The site JSON was recompiled; `python -m engine.m2.site_cli staleness-check`: pass. `python -m engine.m2.cli determinism-check syr`: pass. Package rebuilt after the last record edit: `records/worlds/syr.yaml` pins `packages/syr/2026-10-09T00-09-50Z`, `manifest_hash` `sha256:77c3d16828529203709145b8fdc165eeec41a6e005f0b89fcb2ef33c7c983497`.
 
 Status: CLOSED for item (9); the other items of the 9 October entry stay OPEN.
