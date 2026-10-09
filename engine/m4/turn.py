@@ -53,6 +53,7 @@ from engine.m4 import citation_attach
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_horizon
+from engine.m4 import quote_placement
 from engine.m4.quote_placement import PlacementContext, place_quotes
 from engine.m4.recitation import DIRECTIVE_LINE, DemonstrationIndex
 from engine.m4.seat_identity_guard import find_seat_identity_violation
@@ -301,37 +302,99 @@ def _append_r27_correction(turn_directive: str | None, hard_offenses: list[dict]
     return (turn_directive or "") + correction
 
 
-def _append_sentence_fact_check_correction(turn_directive: str | None, flags: list[dict]) -> str:
-    """sentence_enforce's own one regeneration: the same append-not-
-    replace channel and shape as _append_r27_correction above, naming
-    only the sentence(s) engine.m4.sentence_fact_check.
-    find_unsupported_named_claims flagged this attempt - never the whole
-    turn, and never any other offense class this correction did not name.
-    Asks for exactly the two outcomes sentence_enforce is prepared to
-    accept: support the claim from the world's own sources, or take it
-    out, since a second failure sets the whole reply aside (see
-    _run_ordinary_voice_turn's own docstring, sentence_enforce)."""
-    named = "; ".join(f'"{f["sentence"]}"' for f in flags)
-    correction = (
-        "\n## Correction (your last answer named something your own sources do not support)\n"
-        f"These sentences from your last answer named a person, place, date, or number your own records do not "
-        f"give: {named} In your rewrite, support each named claim from your own sources with an inline "
-        "[[record.id]] tag, or take the unsupported name or number out entirely rather than stating it."
-    )
-    return (turn_directive or "") + correction
+_REMOVE_THE_MARKER = (
+    "Remove the [[quote:...]] marker and the lead-in that introduces it, or use instead a quote offered in this "
+    "turn's ground."
+)
+_WORDS_IN_A_MOUTH = (
+    "it puts words in someone's mouth that are not a quote placed by its marker. Remove those words and what "
+    "introduces them, or give a quote offered in this turn's ground by its own lead-in and [[quote:record.id]]."
+)
+_PLAIN_REASONS = {
+    quote_placement.REASON_NOT_OFFERED: (
+        "its quote marker names a quote that is not offered in this turn's ground. " + _REMOVE_THE_MARKER
+    ),
+    quote_placement.REASON_ALREADY_VOICED: (
+        "that quote was already given earlier in this conversation. Remove the marker and its lead-in; you may "
+        "refer back to the quote in your own words without naming who said it."
+    ),
+    quote_placement.REASON_SECOND_QUOTE: (
+        "a reply places one quote at most, and this is a second. Remove this marker and its lead-in."
+    ),
+    quote_placement.REASON_NOT_SETTABLE: (
+        "this quote cannot be set into that sentence. Remove the marker and its lead-in, or end a short lead-in "
+        "sentence of your own with the marker."
+    ),
+    quote_placement.REASON_LEAD_IN: "it introduces a quote that could not be placed. Remove it with that quote's marker.",
+    quote_placement.REASON_STORY_RETOLD: "that story was already told in this conversation. Remove it.",
+    grounding_net.REASON_QUOTE_RECORD_UNVOICED: (
+        "it carries a quote record's plain tag. A quote is given only as [[quote:record.id]] after your own "
+        "lead-in. Place it that way if it is offered in this turn's ground, or remove the sentence."
+    ),
+    grounding_net.REASON_QUOTE_RECORD_UNPLACED: (
+        "it names a quote's speaker without placing the quote. Remove the speaker's name, or place the quote by "
+        "its marker if it is offered in this turn's ground."
+    ),
+    grounding_net.REASON_QUOTE_WORDS: (
+        "it gives a quote's words without placing the quote. Place the quote by its marker if it is offered in "
+        "this turn's ground, or remove the sentence."
+    ),
+    grounding_net.REASON_PLACED_MISMATCH: (
+        "the quote placed in it was changed. Write only your own lead-in, then the marker."
+    ),
+    grounding_net.REASON_TYPED_QUOTATION: (
+        "it types a quotation itself. Remove the quotation; a quote is given only by its marker."
+    ),
+    grounding_net.REASON_QUOTATION_NOT_IN_RECORDS: (
+        "it puts words in quotation marks that no record of yours holds. Remove the quotation marks and those words."
+    ),
+    grounding_net.REASON_LEAD_IN: "it introduces a quotation you typed. Remove it with that quotation.",
+    grounding_net.REASON_ATTRIBUTION: _WORDS_IN_A_MOUTH,
+    grounding_net.REASON_ATTRIBUTION_LEAD: _WORDS_IN_A_MOUTH,
+    grounding_net.REASON_UNPLACED_WORDS: _WORDS_IN_A_MOUTH,
+    grounding_net.REASON_WORDS_WITHOUT_QUOTE_RECORD: _WORDS_IN_A_MOUTH,
+}
 
 
-def _append_withheld_correction(turn_directive: str | None, withheld: list[dict]) -> str:
-    """sentence_enforce's retry directive for sentences the grounding net
-    withheld: names them, and restates how a quote and a claim are given."""
-    named = "; ".join(f'"{w["sentence"]}"' for w in withheld)
+def _plain_reason(flag: dict) -> str:
+    """Why a flagged sentence cannot be shown, and what to change, in words
+    the voice can act on."""
+    if flag["class"] == "unsupported_named_claim":
+        named = ", ".join(str(m) for m in flag.get("missing") or []) or "a name or number"
+        return (
+            f"it names {named}, which your own records do not give. Tag it to a record that gives it, or take "
+            "that name or number out."
+        )
+    why = flag.get("why") or ""
+    if why in _PLAIN_REASONS:
+        return _PLAIN_REASONS[why]
+    if why.startswith("unresolvable record id"):
+        return "its tag is not the id of any record of yours. Tag it to a record in this turn's ground, or take the claim out."
+    if why.endswith("with no citation tag"):
+        return (
+            "it states a specific name, place, date or number with no tag. Tag it to the record that gives it, or "
+            "take the claim out."
+        )
+    if "grounded in its own tags" in why:
+        return "the record it is tagged to does not say this. Say only what that record gives, or take the claim out."
+    if why == "tagged claim sharing no content word with its own tagged records":
+        return "it is tagged to a record that says nothing it says. Say what that record gives, or remove the sentence and its tag."
+    return f"the system could not check it ({why}). Say only what your records give, or take it out."
+
+
+def _append_sentence_corrections(turn_directive: str | None, flags: list[dict]) -> str:
+    """sentence_enforce's retry directive: each flagged sentence exactly as
+    the voice wrote it, tags and quote markers included (never the shown
+    text, which for a marker standing alone is empty), with why it cannot be
+    shown and what to change. Same append-not-replace channel as
+    _append_r27_correction above."""
+    lines = "\n".join(f'- "{f["draft"]}" - {_plain_reason(f)}' for f in flags)
     correction = (
-        "\n## Correction (your last answer had sentences the system could not verify)\n"
-        f"These sentences from your last answer cannot be shown: {named} "
-        "In your rewrite, type no quotation and write no words after a name with 'said', 'wrote' or a colon. "
-        "To give a quote, write your own lead-in, then [[quote:record.id]] with the id of a quote record in this "
-        "turn's ground, as the last thing in that sentence. Tag every other specific claim with the record it "
-        "draws on, or leave it out."
+        "\n## Correction (your last answer had sentences that cannot be shown)\n"
+        f"These sentences from your last answer, as you wrote them, cannot be shown, each for the reason given:\n{lines}\n"
+        "Type no quotation and write no words after a name with 'said', 'wrote' or a colon. To give a quote, "
+        "write your own lead-in, then [[quote:record.id]] with the id of a quote record in this turn's ground, as "
+        "the last thing in that sentence. Tag every other specific claim with the record it draws on, or leave it out."
     )
     return (turn_directive or "") + correction
 
@@ -342,15 +405,20 @@ def _append_whole_reply_rewrite(turn_directive: str | None, last_answer: str) ->
     that name what cannot be shown. A sentence that introduced, pointed back
     to or counted on one taken out reads broken without it, and only the
     voice can tell which those are, so the voice takes the material out and
-    mends the answer around it."""
+    mends the answer around it. Like engine.m4.self_revision's
+    REVISION_INSTRUCTION, the rewrite is not addressed to the participant
+    and comes back as the answer alone."""
     correction = (
         "\n## Rewrite your last answer as one whole answer\n"
-        "Your last answer, exactly as you wrote it, is below. Rewrite it as one complete answer to the same "
-        "message. Take out or fix each sentence named above. Then mend every sentence that introduced, pointed "
-        "back to, counted on or finished what you took out, so nothing in the answer refers to something that "
-        "is no longer there. Keep every other sentence and its tags as they are. Add no person, place, date, "
-        "number or quotation your last answer did not already give. If any sentence still cannot be shown, "
-        "none of this answer is shown.\n\n"
+        "This is a revision of your last answer, not a new question, and this instruction is not from the "
+        "participant. Your last answer, exactly as you wrote it, is below. Rewrite it as one complete answer to the "
+        "same message. Change or remove each sentence named above as its reason says, with any tag or quote marker "
+        "in it that the reason names. Then mend every sentence that introduced, pointed back to, counted on or "
+        "finished what you took out, so nothing in the answer refers to something that is no longer there. Keep "
+        "every sentence not named above as it is, with its tags. Add nothing new: no person, place, date, number, "
+        "quotation or claim your last answer did not already give with a tag to a record that gives it. Return "
+        "only the complete revised answer, in the same tag format, with no preamble and nothing about what you "
+        "changed. If any sentence still cannot be shown, none of this answer is shown.\n\n"
         f"YOUR LAST ANSWER:\n{last_answer}"
     )
     return (turn_directive or "") + correction
@@ -360,20 +428,27 @@ def _enforcement_flags(net_result: dict, fact_check_flags: list[dict]) -> list[d
     """Every sentence sentence_enforce acts on: the fact check's flags, each
     sentence the grounding net withheld, and each sentence apply_net already
     removed from the reply (a quote it could not place, words attributed
-    without a placed quote), each named once."""
-    flags = list(fact_check_flags)
-    named = {f["sentence"] for f in flags}
+    without a placed quote), each named once. Every flag carries "draft",
+    the sentence as the voice wrote it, which apply_net records."""
+    drafts = {entry["sentence"]: entry.get("draft") or entry["sentence"] for entry in net_result["sentences"]}
+    flags = [{**f, "draft": drafts.get(f["sentence"], f["sentence"])} for f in fact_check_flags]
+    named = {f["draft"] for f in flags}
     for entry in net_result["sentences"]:
-        if entry["verdict"] == "withhold" and entry["sentence"] not in named:
-            named.add(entry["sentence"])
+        draft = entry.get("draft") or entry["sentence"]
+        if entry["verdict"] == "withhold" and draft not in named:
+            named.add(draft)
             flags.append({
-                "sentence": entry["sentence"], "tags": entry.get("tags") or [],
+                "sentence": entry["sentence"], "draft": draft, "tags": entry.get("tags") or [],
                 "class": "withheld_by_net", "why": entry.get("why"),
             })
     for entry in (net_result.get("reply_shape") or {}).get("removed") or []:
-        if entry["sentence"] not in named:
-            named.add(entry["sentence"])
-            flags.append({"sentence": entry["sentence"], "tags": [], "class": "removed_by_net", "why": entry["why"]})
+        draft = entry.get("draft") or entry["sentence"]
+        if draft not in named:
+            named.add(draft)
+            flags.append({
+                "sentence": entry["sentence"], "draft": draft, "tags": [t for sent in grounding_net.parse_tagged(draft) for t in sent["tags"]],
+                "class": "removed_by_net", "why": entry["why"],
+            })
     return flags
 
 
@@ -415,7 +490,9 @@ def apply_net(
     every marker is removed with its sentence. quotable_texts are the words
     the participant side said, which a reply may repeat in quotation marks.
     net_result carries "reply_shape": the quote records placed, and each
-    sentence removed with why. Only ok-verdict sentences' tags become
+    sentence removed with why. Each sentence verdict, and each sentence
+    removed, carries "draft": the sentence as the voice wrote it, tags and
+    quote marker included. Only ok-verdict sentences' tags become
     citations.
 
     M3's LiveModelAnswerer calls this function too, so admission grades
@@ -431,6 +508,10 @@ def apply_net(
             tagged, repository_records, thin_topics=thin_topics, quotable_texts=quotable_texts,
             placed=shaped["placed_sentences"], voiced=placement.voiced,
         )
+        spans = grounding_net.sentence_spans(tagged)
+        if len(spans) == len(net_result["sentences"]):
+            for entry, span in zip(net_result["sentences"], spans):
+                entry["draft"] = shaped["placed_drafts"].get(grounding_net.placed_key(grounding_net.strip_tags(span)), span)
         going = [
             entry for entry in net_result["sentences"]
             if entry["verdict"] == "withhold" and entry["why"] in grounding_net.QUOTATION_DROP_REASONS
@@ -442,7 +523,10 @@ def apply_net(
         )
         if shorter == tagged:
             break
-        removed += [{"sentence": entry["sentence"], "why": entry["why"]} for entry in going]
+        removed += [
+            {"sentence": entry["sentence"], "why": entry["why"], "draft": entry.get("draft") or entry["sentence"]}
+            for entry in going
+        ]
         tagged = shorter
     shown = {grounding_net.placed_key(entry["sentence"]) for entry in net_result["sentences"]}
     net_result["reply_shape"] = {
@@ -598,8 +682,8 @@ def _run_ordinary_voice_turn(
     words attributed without a placed quote), exactly one regeneration
     follows: a rewrite of the voice's own last answer, given back to it
     whole (_append_whole_reply_rewrite), with those sentences named in the
-    retry's directive (_append_sentence_fact_check_correction,
-    _append_withheld_correction). The voice takes them out and mends every
+    retry's directive as the voice wrote them, each with its reason
+    (_append_sentence_corrections). The voice takes them out and mends every
     sentence that leaned on them, so the reply reads whole without them.
     When the uncited-claims enforcement's own correction fired this turn,
     it rides forward into this retry's directive too, since a fresh
@@ -957,11 +1041,7 @@ def _run_ordinary_voice_turn(
         sentence_retry_directive = turn_directive
         if r27_enforce and hard_offenses:
             sentence_retry_directive = _append_r27_correction(sentence_retry_directive, hard_offenses)
-        if fact_check_flags:
-            sentence_retry_directive = _append_sentence_fact_check_correction(sentence_retry_directive, fact_check_flags)
-        withheld = [f for f in enforcement_flags if f["class"] in ("withheld_by_net", "removed_by_net")]
-        if withheld:
-            sentence_retry_directive = _append_withheld_correction(sentence_retry_directive, withheld)
+        sentence_retry_directive = _append_sentence_corrections(sentence_retry_directive, enforcement_flags)
         sentence_retry_directive = _append_whole_reply_rewrite(sentence_retry_directive, raw_text)
         retry_outcome = stream_voice_turn(
             voice_client, voice_model_id, system_prompt=world.prompt_text,

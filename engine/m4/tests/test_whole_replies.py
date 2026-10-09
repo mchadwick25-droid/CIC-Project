@@ -94,12 +94,17 @@ def _tagged(sentence, rid=RID):
     return f"{sentence[:-1]} [[{rid}]]{sentence[-1]}"
 
 
-def _draft(name):
-    kept, cut, at, _rewrite = CASES[name]
+def _cut_as_written(name):
+    cut = CASES[name][1]
     if name.startswith("ijc-t1"):
-        cut = _tagged(cut, QUOTE_RID)  # tagged to a quote record that is never placed
+        return _tagged(cut, QUOTE_RID)  # tagged to a quote record that is never placed
+    return cut
+
+
+def _draft(name):
+    kept, _cut, at, _rewrite = CASES[name]
     tagged = [_tagged(s) for s in kept]
-    return " ".join(tagged[:at] + [cut] + tagged[at:])
+    return " ".join(tagged[:at] + [_cut_as_written(name)] + tagged[at:])
 
 
 def _turn(name, scripts):
@@ -155,7 +160,7 @@ def test_the_one_regeneration_asks_for_a_whole_rewrite_of_the_voices_own_answer(
     _voice_event, client = _turn(name, [[draft], [rewrite]])
     retry_system, _messages = client.messages.captured_stream_calls[1]
     directive = _directive_text(retry_system)
-    assert f'"{cut}"' in directive  # the flagged sentence, named
+    assert f'"{_cut_as_written(name)}" - ' in directive  # the flagged sentence, as written, with its reason
     assert f"YOUR LAST ANSWER:\n{draft}" in directive  # the voice's own answer, given back whole, tags and all
     assert "mend every sentence that introduced, pointed back to, counted on or finished what you took out" in directive
     first_system, _m = client.messages.captured_stream_calls[0]
@@ -169,3 +174,91 @@ def test_a_clean_reply_makes_no_extra_call_and_is_shown_whole():
     assert len(client.messages.captured_stream_calls) == 1
     assert voice_event["sentence_enforcement"]["regenerated"] is False
     assert voice_event["text"] == " ".join(CASES[name][0])
+
+
+# Quote markers the turn did not offer. Each draft gives a quote marker the
+# way the voice wrote it: after its own lead-in, or standing alone in its
+# paragraph, where the sentence a participant would have seen is empty.
+# (kept sentences, tagged to the witness record; the marker as written;
+# the draft; a whole rewrite without the marker)
+QUOTE_CASES = {
+    "cappadocian-t1-lead-in-and-marker": (
+        ["We counted three: Father, Son, and Holy Spirit, each a real someone."],
+        "Our teachers said it this way: [[quote:cappadocian.quote.ousia-and-hypostasis]]",
+        "{kept0} Our teachers said it this way: [[quote:cappadocian.quote.ousia-and-hypostasis]]",
+        "We counted three: Father, Son, and Holy Spirit, each a real someone [[fix.witness.w]].",
+    ),
+    "cappadocian-t2-marker-alone": (
+        ["Our preaching held his words about the hungry and the naked at full strength."],
+        "[[quote:cappadocian.quote.basil-on-common-life]]",
+        "{kept0}\n\n[[quote:cappadocian.quote.basil-on-common-life]]",
+        "Our preaching held his words about the hungry and the naked at full strength [[fix.witness.w]].",
+    ),
+    "gallic-t1-lead-in-and-marker": (
+        ["At Tours he was the one who sought the unpitied."],
+        "Among the brethren at Marseilles the fathers of Egypt taught us this of him: "
+        "[[quote:gallic.quote.cassian-adapts-egypt-to-gaul]]",
+        "{kept0}\n\nAmong the brethren at Marseilles the fathers of Egypt taught us this of him: "
+        "[[quote:gallic.quote.cassian-adapts-egypt-to-gaul]]",
+        "At Tours he was the one who sought the unpitied [[fix.witness.w]].",
+    ),
+    "gallic-t2-marker-alone": (
+        ["He went among the poor and healed them."],
+        "[[quote:gallic.quote.gennadius-martin-famous-for-signs]]",
+        "{kept0}\n\n[[quote:gallic.quote.gennadius-martin-famous-for-signs]]",
+        "He went among the poor and healed them [[fix.witness.w]].",
+    ),
+    "ijc-t2-marker-alone": (
+        ["He came for us and for our salvation, and we held it as the ground of everything."],
+        "[[quote:ijc.quote.nicene-creed]]",
+        "{kept0}\n\n[[quote:ijc.quote.nicene-creed]]",
+        "He came for us and for our salvation, and we held it as the ground of everything [[fix.witness.w]].",
+    ),
+}
+
+
+def _quote_turn(name, scripts):
+    kept = QUOTE_CASES[name][0]
+    client = FakeBedrockClient(safety_response=_safety(), reader_response=_reader(), stream_scripts=scripts)
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(kept),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+    )
+    return voice_event, client
+
+
+def _quote_draft(name):
+    kept, _marker, template, _rewrite = QUOTE_CASES[name]
+    return template.format(kept0=_tagged(kept[0]))
+
+
+@pytest.mark.parametrize("name", list(QUOTE_CASES))
+def test_the_correction_names_an_unoffered_quote_marker_as_written_with_its_reason(name):
+    _kept, marker, _template, rewrite = QUOTE_CASES[name]
+    _voice_event, client = _quote_turn(name, [[_quote_draft(name)], [rewrite]])
+    assert len(client.messages.captured_stream_calls) == 2
+    directive = _directive_text(client.messages.captured_stream_calls[1][0])
+    named = directive.split("cannot be shown, each for the reason given:\n", 1)[1].split("\nType no quotation", 1)[0]
+    assert f'- "{marker}" - its quote marker names a quote that is not offered in this turn\'s ground.' in named
+    assert "Remove the [[quote:...]] marker and the lead-in that introduces it" in named
+    assert '- "" -' not in named and '- "." -' not in named  # never an empty stub
+    assert "Keep every sentence not named above as it is, with its tags." in directive
+    assert "not from the participant" in directive and "no preamble" in directive
+
+
+@pytest.mark.parametrize("name", list(QUOTE_CASES))
+def test_a_rewrite_that_removes_the_unoffered_marker_is_shown_clean(name):
+    _kept, _marker, _template, rewrite = QUOTE_CASES[name]
+    voice_event, _client = _quote_turn(name, [[_quote_draft(name)], [rewrite]])
+    assert voice_event["sentence_enforcement"]["still_flagged"] == []
+    assert voice_event["sentence_enforcement_exhausted"] is False
+    assert voice_event["reply_shape"]["removed"] == []
+    assert voice_event["text"] == grounding_net.strip_tags(rewrite)
+
+
+@pytest.mark.parametrize("name", list(QUOTE_CASES))
+def test_a_rewrite_that_keeps_the_unoffered_marker_is_set_aside(name):
+    draft = _quote_draft(name)
+    voice_event, _client = _quote_turn(name, [[draft], [draft]])
+    assert voice_event["sentence_enforcement_exhausted"] is True
+    assert voice_event["text"] == ""

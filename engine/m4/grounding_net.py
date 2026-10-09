@@ -1176,6 +1176,13 @@ def split_into_paragraphs(tagged_text: str) -> list[str]:
     return paragraphs or [tagged_text]
 
 
+def sentence_spans(tagged_text: str) -> list[str]:
+    """Each sentence of tagged_text as written, tags included, in the order
+    and number check_turn_with_paragraph_coverage gives its verdicts."""
+    tagged_text, _truncated = _drop_truncated_tail(tagged_text)
+    return [sent["raw"] for paragraph in split_into_paragraphs(tagged_text) for sent in parse_tagged(paragraph)]
+
+
 def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str]) -> str:
     """Removes each named sentence's own raw span - tag included - from
     tagged_text, whole, and rejoins what is left. The one enforcement

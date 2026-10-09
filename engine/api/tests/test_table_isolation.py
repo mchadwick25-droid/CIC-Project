@@ -43,7 +43,7 @@ def desert_world(world_loader, registry):
     return _load_world(world_loader, registry, "desert")
 
 
-def test_seeded_cross_world_leak_is_withheld_then_dropped(store, usage_store, world_loader, registry, alx_world, desert_world):
+def test_seeded_cross_world_leak_is_withheld_then_rewritten_out(store, usage_store, world_loader, registry, alx_world, desert_world):
     """(b) - alx's voice 'cites' a real desert record. desert's id resolves
     in desert's repository, so the ONLY thing keeping it out of alx's
     citations is that alx's net never sees desert's repository at all."""
