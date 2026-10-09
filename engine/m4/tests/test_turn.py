@@ -1250,7 +1250,7 @@ def test_sentence_enforce_off_runs_no_live_fact_check():
     assert voice_event["text"] == _UNSUPPORTED_SENTENCE  # nothing edited
     assert "fact_check_flags" not in voice_event
     assert voice_event["sentence_enforcement"] == {
-        "flagged": [], "regenerated": False, "still_flagged": [], "sentences_dropped": [],
+        "flagged": [], "regenerated": False, "still_flagged": [],
     }
 
 
@@ -1268,11 +1268,14 @@ def test_sentence_enforce_regenerates_and_clears_on_a_clean_retry():
     assert voice_event["text"] == "We did not claim to have seen him ourselves."
     assert voice_event["fact_check_flags"] == []
     assert voice_event["sentence_enforcement"] == {
-        "flagged": [_UNSUPPORTED_SENTENCE], "regenerated": True, "still_flagged": [], "sentences_dropped": [],
+        "flagged": [_UNSUPPORTED_SENTENCE], "regenerated": True, "still_flagged": [],
     }
 
 
-def test_sentence_enforce_drops_only_the_still_flagged_sentence_after_a_failed_retry():
+def test_sentence_enforce_sets_a_rewrite_still_flagged_aside_rather_than_cut_it():
+    # A rewrite with a sentence still flagged is not shown with that
+    # sentence cut out of it, because code cannot tell whether the
+    # sentences left lean on it. The Facilitator's line stands in.
     paragraph = f"{_GROUNDED_SENTENCE} {_UNSUPPORTED_SENTENCE}"
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
@@ -1284,19 +1287,16 @@ def test_sentence_enforce_drops_only_the_still_flagged_sentence_after_a_failed_r
         sentence_enforce=True,
     )
     assert len(client.messages.captured_stream_calls) == 2  # one attempt, one regeneration, never a third
-    # The grounded sentence survives, on its own, with no leftover
-    # citation tag, no doubled whitespace, and no trace of the dropped
-    # sentence - never the whole turn blanked, never a Facilitator swap.
-    assert voice_event["text"] == "We did not claim to have seen him ourselves."
-    assert voice_event["fact_check_flags"] == []
+    assert voice_event["text"] == ""
+    assert voice_event["citations"] == []
+    assert voice_event["sentence_enforcement_exhausted"] is True
     assert voice_event["r27_enforcement_exhausted"] is False
     assert voice_event["sentence_enforcement"] == {
-        "flagged": [_UNSUPPORTED_SENTENCE], "regenerated": True,
-        "still_flagged": [_UNSUPPORTED_SENTENCE], "sentences_dropped": [_UNSUPPORTED_SENTENCE],
+        "flagged": [_UNSUPPORTED_SENTENCE], "regenerated": True, "still_flagged": [_UNSUPPORTED_SENTENCE],
     }
 
 
-def test_sentence_enforce_keeps_every_other_sentence_when_the_flagged_one_sits_in_the_middle():
+def test_sentence_enforce_never_shows_the_neighbours_of_a_still_flagged_middle_sentence():
     paragraph = f"{_GROUNDED_SENTENCE} {_UNSUPPORTED_SENTENCE} {_GROUNDED_SENTENCE}"
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
@@ -1307,16 +1307,15 @@ def test_sentence_enforce_keeps_every_other_sentence_when_the_flagged_one_sits_i
         participant_message="who was Jesus", directive=None, session_id="test-session",
         sentence_enforce=True,
     )
-    assert voice_event["text"] == (
-        "We did not claim to have seen him ourselves. We did not claim to have seen him ourselves."
-    )
+    assert voice_event["text"] == ""
+    assert voice_event["sentence_enforcement_exhausted"] is True
 
 
 def test_sentence_enforce_sets_the_turn_aside_when_every_sentence_is_still_flagged():
-    # Every sentence in this turn is the flagged one, so dropping it leaves
-    # nothing: the voice's text is not shown and the caller substitutes a
-    # Facilitator turn, as it does for the uncited-claims enforcement's
-    # exhaustion. A flagged sentence is never kept to avoid an empty reply.
+    # Every sentence in this turn is the flagged one: the voice's text is
+    # not shown and the caller substitutes a Facilitator turn, as it does
+    # for the uncited-claims enforcement's exhaustion. A flagged sentence is
+    # never kept to avoid an empty reply.
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[[_UNSUPPORTED_SENTENCE], [_UNSUPPORTED_SENTENCE]],
@@ -1331,7 +1330,7 @@ def test_sentence_enforce_sets_the_turn_aside_when_every_sentence_is_still_flagg
     assert voice_event["sentence_enforcement_exhausted"] is True
     assert voice_event["r27_enforcement_exhausted"] is False
     assert voice_event["sentence_enforcement"]["still_flagged"] == [_UNSUPPORTED_SENTENCE]
-    assert voice_event["sentence_enforcement"]["sentences_dropped"] == []
+    assert set(voice_event["sentence_enforcement"]) == {"flagged", "regenerated", "still_flagged"}
 
 
 def test_sentence_enforce_and_r27_enforce_compose_without_double_spending_a_call():
