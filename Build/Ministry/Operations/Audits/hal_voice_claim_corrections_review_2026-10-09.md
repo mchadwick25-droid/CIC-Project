@@ -69,3 +69,13 @@ Fix: when rebuilding for finding 1, commit the record edit first, then build, so
 `hal.quote.partially-acquired-hebrew` and one other record cite this passage as Ep. 108 "sec. 27", and the citation card shows that label. The standard numbering, from memory, puts the Hebrew passage at §26. The vendored NPNF text has no section numbers, so I could not check this here. The branch does not touch the locus. If the build thread can reach a section-numbered edition, it should confirm the locus there.
 
 Finding 1 blocks the branch until it is fixed. It is one sentence, and the recheck needs only the changed sentence, its readability score and the rebuilt pin. Finding 2 is cleared by the same rebuild.
+
+## Recheck (targeted, findings 1 and 2 only)
+
+Scope: commits 83e71568 (record fix and OG-18 quote) and e5895585 (rebuild and repin) over b555c1ca. Opus 5.5, read-only apart from this section.
+
+- Finding 1, cleared. Caution 4 now ends "...partly acquired it. Never state his fluency as settled. The modern dispute is for the Facilitator." The sentence no longer reads as a claim about Jerome. 83e71568 changes only that one sentence in `hal.core.hieronymian` and the matching quote in OG-18. No other record changes. Scored with `grade_text`, `cautions` is FK 6.9 / FRE 60.24. `python -m engine.m10.cli regate hal --base origin/main`: PASS, and the field is not in the notes. `python -m engine.m10.cli records hal`: PASS. The new sentence is in the rebuilt `compiled/prompt.txt`.
+- Finding 2, cleared. `records/worlds/hal.yaml` pins `packages/hal/2026-10-09T00-26-08Z`, with `manifest_hash` `sha256:3523f325311735e6882f19ae7032858aa660edee89ef8d848ca5d86a19ec226a`. That equals the `sha256sum` of its `manifest.json`, and OG-18 states the same path and hash. The manifest's `records_commit` (and `built_by`) is 83e71568, the commit that holds the edit. All 228 entries hash correctly. Its 162 record files match the 162 files in `records/hal/` byte for byte. Git now tracks only the new manifest; the superseded `2026-10-08T23-42-37Z` manifest is removed. Its build directory remains on disk as untracked output.
+- `python -m engine.m2.site_cli staleness-check`: pass, and hal is `stale: false`. `python -m engine.m2.cli staleness-check`: hal is `stale: false`.
+
+Recheck verdict: APPROVED TO PROCEED. The observation on the Ep. 108 section number stays outside this branch.
