@@ -68,7 +68,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     "census-display-name/alx": "F-09 - alx alone sets display_name to the Atlas's friendly short name; the other five carry the census's formal name",
     "id-type-token/doctrinal_witness": "F-03 - pahc uses `pahc.witness.*` where the other five use `<world>.dw.*`; renaming 17 records re-hashes the package, so it belongs to a pahc build thread",
     "id-type-token/voice_craft": "F-03 - pahc uses `pahc.craft.chloe-voice` where the other five use `<world>.voice.craft`",
-    "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches both the Level-3 card and the compiled prompt's quote index",
+    "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches the Level-3 card",
     "ui-field-leak/desert": "F-10 - desert.figure.evagrius names a record id (desert.source.evagrius-praktikos) and a build document (Doc_01) inside figure.dates, and desert.figure.pachomius says 'not independently adjudicated by this build' - all three printed verbatim by the doorway's Level-3 panel",
     # A world can legitimately sit at state: built without also being
     # census-linked and frontend-wired in the same pass - real, disclosed,
@@ -744,9 +744,9 @@ _BUILD_REF = re.compile(
 )
 
 # Exactly the fields that reach a participant's screen, via
-# engine.m4.citation_cards' label table, engine.m4.name_bridge's figure card
-# and engine.m2.builders' compiled quote index. Deliberately narrower than
-# "every string on the record", for the same reason gates.gate_no_build_
+# engine.m4.citation_cards' label table and engine.m4.name_bridge's figure
+# card. Deliberately narrower than "every string on the record", for the
+# same reason gates.gate_no_build_
 # attribution scopes itself to build_prompt()'s own field contract:
 # commentary fields are a LEGITIMATE home for build language, and scanning
 # them would bury the real findings.
@@ -778,12 +778,10 @@ def check_participant_field_leaks(*, records, worlds, **_) -> list[Finding]:
 def check_quote_speaker_labels(*, records, worlds, **_) -> list[Finding]:
     """`speaker_or_author` is authored two ways across the corpus - a figure
     record id, or already-readable prose - and both are legitimate. What is
-    not legitimate is a third way that no resolver unwraps: the label
-    resolvers (engine.m4.citation_cards._quote_speaker_label for the Level-3
-    card, engine.m2.builders._quote_speaker for the compiled prompt's quote
-    index) both only look through a `figure` id, so anything else lands on a
-    participant's screen as a raw database key."""
-    from engine.m2.builders import _quote_speaker
+    not legitimate is a third way that no resolver unwraps: the Level-3
+    card's label resolver (engine.m4.citation_cards._label) only looks
+    through a `figure` id, so anything else lands on a participant's screen
+    as a raw database key."""
     from engine.m4.citation_cards import _label
 
     findings = []
@@ -793,10 +791,8 @@ def check_quote_speaker_labels(*, records, worlds, **_) -> list[Finding]:
         for rid, rec in sorted(repo.items()):
             if rec["record_type"] != "quote":
                 continue
-            for rendered in (_label(rec, repo), _quote_speaker(rec)):
-                if _RECORD_ID.search(rendered or ""):
-                    bad.append(rid)
-                    break
+            if _RECORD_ID.search(_label(rec, repo) or ""):
+                bad.append(rid)
         if bad:
             findings.append(_defect("quote-speaker-label", w, f"{len(bad)} quote(s) render a raw record id as the speaker a participant reads: {', '.join(bad[:4])}{' ...' if len(bad) > 4 else ''}"))
     return findings

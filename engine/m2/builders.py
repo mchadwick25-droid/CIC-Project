@@ -5,7 +5,6 @@ out, no wall clock, no randomness, no network. Content-only; the
 compiler.py, so it doesn't have to be threaded through every function here.
 """
 import hashlib
-import re
 
 from engine.m1 import canon
 from engine.prose import (
@@ -188,33 +187,6 @@ def _tag_representative_text(text: str, candidates: list[dict]) -> str:
         else:
             tagged.append(sentence)
     return " ".join(tagged)
-
-
-def _quote_speaker(quote: dict) -> str:
-    """speaker_or_author is sometimes a figure id and sometimes prose - the
-    corpus holds both alx.figure.athanasius and "The Council of Chalcedon
-    (451), Canon 28". Show the readable half of either."""
-    raw = (quote.get("speaker_or_author") or "").strip()
-    if not raw:
-        return "unattributed"
-    if re.fullmatch(r"[a-z0-9_]+\.[a-z0-9_]+\.[a-z0-9-]+", raw):
-        return raw.rsplit(".", 1)[-1].replace("-", " ")
-    return raw if len(raw) <= 70 else raw[:67].rstrip() + "..."
-
-
-def _quote_opening(quote: dict, width: int = 60) -> str:
-    # The opening words shown are ALWAYS the speakable form, modern_rendering
-    # - never `text`, which is never voiced (gate_quote_recording requires
-    # every quote to carry modern_rendering, so this should be unreachable;
-    # fail loudly at build time rather than silently index the archaic
-    # original if that invariant is ever broken) - so the index matches
-    # what the voice would actually say at the table.
-    rendering = quote.get("modern_rendering")
-    if not rendering:
-        raise ValueError(f"{quote.get('id')}: quote has no modern_rendering - "
-                         f"refusing to fall back to text, which is never voiced")
-    text = " ".join(rendering.split())
-    return f'"{text}"' if len(text) <= width else f'"{text[:width].rstrip()}..."'
 
 
 # THE PROMPT HAS TWO HALVES. Above the line is standing instruction: the
@@ -480,37 +452,6 @@ def build_prompt(records: dict, registry_entry: dict) -> bytes:
         emit(
             "Gravities",
             "\n".join(f"- [[{g['id']}]] {strip_name_taxonomy_tag(g.get('name') or '')}" for g in gravities),
-        )
-
-    # Quotes are indexed, not reproduced. Both fabrications in the last
-    # 36-turn fleet run were quote ids the voice invented while reaching for
-    # a real record - [[ijc.quote.leo-two-natures]] for the record actually
-    # named leo-tome-each-form ("He who is true God is also true man"), which
-    # IS Leo on the two natures. Right content, guessed slug, the same
-    # failure the section-naming and gravity-index changes already measured
-    # and closed for every other citable type. Quote was the last one left:
-    # 16 named of 87 across the fleet.
-    #
-    # An id and a speaker are not enough to pick one. 13 of alx's 14 quotes
-    # share a speaker with another, and 15 of hal's 19 - "jerome" names
-    # sixteen different records. So each entry carries its opening words,
-    # which is what makes the index usable and what costs it 1-4% of the
-    # prefix; reproducing every quote in full costs 4-16% (ijc 15.8%) and
-    # duplicates what the per-turn evidence block already delivers, with the
-    # full text, for the quotes a turn actually needs.
-    #
-    # The opening words are labelled as an opening. A voice that quotes
-    # beyond them trips the verbatim check the citation contract
-    # already runs ("a quote with no tag, or words not found in the tagged
-    # record, is not spoken") - so the cost of the excerpt is a withheld
-    # sentence, never a misquotation reaching a participant.
-    quotes = _by_type(records, "quote")
-    if quotes:
-        emit(
-            "Quotes we hold (opening words only - the full text arrives with the turn's ground)",
-            "\n".join(
-                f"- [[{q['id']}]] {_quote_speaker(q)}: {_quote_opening(q)}" for q in quotes
-            ),
         )
 
     for story in _by_type(records, "story"):

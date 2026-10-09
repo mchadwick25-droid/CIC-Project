@@ -1474,3 +1474,16 @@ Limits found by the independent review of PR #845, so the wording rule is not re
 ## 2026-10-09 - Open gap: a quote given in short sentences, or heavily reworded, can still reach a participant untagged
 
 The wording rule from the post-merge recheck of decision 61 (2026-10-09) checks each sentence on its own and needs at least 5 content words, so a quote retold in short sentences passes it: 21 of 366 fleet quotes pass in full when their own rendering is typed without a tag. A heavily reworded re-translation also passes, since it shares too few words with the record. Nothing misattributes or cites these words, but they are a figure's words the voice typed, which decision 61 rules out. A candidate fix is to check a window of neighbouring sentences against each quote rather than one sentence at a time; it needs its own calibration against the gists and the live-run sentences before it is chosen. Not fixed in PR #845.
+
+## 2026-10-09 - Closed: the compiled prompt's quote index is removed (ruling A)
+
+Closes the open gap "the compiled prompt's quote index still shows each quote's opening words" (2026-10-09). The project lead ruled option A: remove the index (System Hub Decision Log, 2026-10-09, decision 61 refinement). `build_prompt` (`engine/m2/builders.py`) no longer emits the "Quotes we hold" section, and its two helpers `_quote_opening` and `_quote_speaker` are gone. A quote now reaches the voice only through the per-turn evidence block, as `[[quote:<id>]] quote from <speaker> | means: <gist>`, the one place it can be placed from.
+
+What changed with it:
+
+- The deployed-prompt check (`engine/m10/deployed.py`) no longer requires a quote section; it still checks that the Gravities list names exactly the gravity records. Its tests now exercise the gravity index instead (`test_gravity_index_must_list_exactly_the_records`, and the integrity test that a fix described as applied must be in the deployed prompt).
+- `test_quote_opening.py` is deleted with the function it tested. A new test in `engine/m2/tests/test_prompt_regions.py` pins that a quote record adds nothing to the prompt.
+- The quote speaker-label check (`engine/m1/cross_world.py`) and the consistency-matrix generator now check only the Level-3 card's label, the one place a quote's speaker still renders. The syr waiver (F-05) stays, reworded to that one place.
+- The gallic and cappadocian voice_craft "quotation" notes said every quote "listed under Quotes we hold" qualifies; they now say every quote record in this turn's ground.
+
+All eleven formation worlds and the fixture world are rebuilt and re-pinned. `SHAPE_HASH` is unchanged; the fleet voice record never named the index. Every admitted world's package hash changed, so admission_conform reports them stale until the planned live admission run. No model call was made.
