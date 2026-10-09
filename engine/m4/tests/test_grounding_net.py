@@ -970,8 +970,16 @@ def test_a_speaker_named_in_lower_case_is_still_named():
 
 
 def test_an_unclosed_guillemet_takes_the_rest_of_its_paragraph():
-    whys = _whys("We hold this «The Church is a ship. It crosses the sea.»\n\n" + CLEAN, EPHREM_REPOSITORY)
+    whys = _whys("We hold this «The Church is a ship. It crosses the sea.\n\n" + CLEAN, EPHREM_REPOSITORY)
     assert [w[1] for w in whys] == ["withhold", "withhold", "ok"]
+
+
+def test_a_closed_guillemet_quotation_is_one_sentence_withheld_whole():
+    whys = _whys("We hold this «The Church is a ship. It crosses the sea.»\n\n" + CLEAN, EPHREM_REPOSITORY)
+    assert [(w[0], w[1]) for w in whys] == [
+        ("We hold this «The Church is a ship. It crosses the sea.»", "withhold"),
+        ("We hold that the Church is one body.", "ok"),
+    ]
 
 
 def test_the_worlds_own_we_voice_and_ordinary_prose_are_not_attributions():
