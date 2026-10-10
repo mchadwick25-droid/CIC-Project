@@ -33,19 +33,25 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  A woman could carry real authority among us. It happened twice on the record's own terms, and both times the cost was steep. Justina
+  Could a woman carry real authority among us, and what did it cost her? Yes,
+  twice on the record's own terms, and both times the cost was steep. Justina
   was the mother of a young emperor and the dominant influence over him; no
   formal regency is on record. What came down to us names her as the
-  one who turned the machinery of the state against Ambrose. He had refused to surrender a basilica. The penalties were real. The city's merchants were ordered to pay two hundred pounds of gold within three days. Innocent people were chained during Lent. The prisons filled with tradespeople. Palace officials were commanded to stand clear. Ambrose's own letter names the
+  one who turned the machinery of the state against Ambrose when he refused to
+  surrender a basilica. The penalties were real: the city's merchants were
+  ordered to pay two hundred pounds of gold within three days, innocent people
+  were chained during Lent, the prisons filled with tradespeople, and palace
+  officials were commanded to stand clear. Ambrose's own letter names the
   emperor as the one acting on his own power; it is the volume's own
   chronology that names Justina as the persecution's author. Either way, real
   coercive power moved through her court. The cost was total public failure.
-  The basilica was never surrendered. Everything the record says about her
+  The basilica was never surrendered, and everything the record says about her
   part reaches us through the account of the bishop who defeated her.
   Pulcheria carried authority long enough to help convene the council that
   closed our era. Leo himself records that she commanded the council
   to be held. She refused his request to hold it in Italy, and he answered by
-  sending his legates without protest. He also wrote congratulating her on a synod already held. None of this was mere courtesy. Her cost was
+  sending his legates without protest. He also wrote congratulating her on a
+  synod already held, and none of this was mere courtesy. Her cost was
   different. Real standing bought her a place in the correspondence of
   powerful men, and nothing beyond it in her own words. Both women held
   command. Neither left us her own voice.
@@ -73,19 +79,31 @@ use_note:
   years: {from: 386, to: 451}
   status: reviewed
 ---
-
-Justina: file lines 41434-41520. Pulcheria's role as Leo's direct
-addressee is established and sourced in ijc.figure.pulcheria. Ambrose's
-own text in Ep. XX.6-7 names the emperor, not Justina, as the actor for
-the coercive measures; the attribution to Justina rests on the volume's
-own chronology (line 704), cited as the actual warrant. Ep. CV's
-description is congratulation on a synod already held, protesting Canon
-28, not "the power that could make a new synod happen." Leo Ep. XCV is
-the actual primary warrant for Pulcheria's convening role. Leo's own text
-in Ep. XCV has him receiving her command and refusal "in a spirit so far
-removed from scorn as to" comply, thanking God rather than her; the
-record states this as "records her command... and answers by sending his
-legates without protest," which is what the letter actually supports. A
-divergence_note is carried, since the confidence block requires one where
-a Documented claim rests on sources that do not themselves agree on the
+This record gives F6-P's
+women's-authority question (f6-p-06) its own genuine substantive
+answer, rather than a stretched F6-P tag on ijc.story.emperor-penance
+that answers none of this cell's six questions. Verified directly
+against the vendored corpus, file lines 41434-41520 for Justina;
+Pulcheria's role as Leo's direct addressee is established and
+sourced in ijc.figure.pulcheria. canon_cells: F6-P (could a woman carry
+real authority among you, and what did it cost her). Ambrose's own text
+in Ep. XX.6-7 names the emperor, not Justina, as the actor for the
+coercive measures; the
+attribution to Justina rests on the volume's own chronology (line 704),
+cited as the actual warrant. Ep. CV's description is
+congratulation on a synod already
+held, protesting Canon 28, not "the power that could make a new synod
+happen." Leo Ep. XCV is the actual primary warrant for
+Pulcheria's convening role. Leo's own text in Ep. XCV has him receiving her
+command and refusal "in a spirit so far removed from scorn as to"
+comply, thanking God rather than her; the record states this as
+"records her
+command... and answers by sending his legates without protest," which
+is what the letter actually supports. A divergence_note is carried,
+since the confidence block requires one where a
+Documented claim rests on sources that do not themselves agree on the
 actor.
+
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.
+
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

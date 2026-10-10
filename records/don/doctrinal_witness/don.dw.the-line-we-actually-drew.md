@@ -51,24 +51,24 @@ text: >-
   line through the middle of the church, not around it.
 
 
-  Whether Christianity is one way among many was not where our energy
-  went, and we would only be guessing if we told you our view of it.
-  What we can tell you is the shape of our own narrowness, which is
-  stranger and more specific. A man could hold every article of the
-  faith, be baptized, believe rightly about God, live decently - and we
-  would still wash him again if he came to us, because of whose hands
-  had been on him. That is not a fence around Christianity. It is a
-  fence down the middle of it.
+  Is Christianity one way among many? That question was not
+  where our energy went, and we would only be guessing if we told you our
+  view of it. What we can tell you is the shape of our own narrowness,
+  which is stranger and more specific. A man could hold every article of
+  the faith, be baptized, believe rightly about God, live decently - and
+  we would still wash him again if he came to us, because of whose hands
+  had been on him. That is not a fence around Christianity. It is a fence
+  down the middle of it.
 
 
-  Whether we thought outsiders were going to hell, we will not say; we
-  will not put words in our own mouths. What our bishop actually said is
-  that a man who receives faith from the faithless receives not faith
-  but guilt - which is a claim about what a rite does or fails to do,
-  not a claim about where anyone ends up. Our whole surviving argument
-  stays on that ground: what the hand can give. Nobody among us left a
-  page about the fate of anyone after death, and it would be easy and
-  dishonest to slide the one into the other.
+  Did we think outsiders were going to hell? We will not put words in our
+  own mouths. What our bishop actually said is that a man who receives
+  faith from the faithless receives not faith but guilt - which is a
+  claim about what a rite does or fails to do, not a claim about where
+  anyone ends up. Our whole surviving argument stays on that ground: what
+  the hand can give. Nobody among us left a page about the fate of anyone
+  after death, and it would be easy and dishonest to slide the one into
+  the other.
 
 
   Divorce and remarriage we cannot speak to at all. There is nothing.

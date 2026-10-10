@@ -39,23 +39,22 @@ retrieval:
   - "participant asks how this world regarded money and poverty, or whether anyone among them was rich"
   - "participant asks what marriage meant to this world, or whether they had weddings"
 text: >-
-  Some among us were rich. Great landed estates were real here, and so
-  was a famine that struck while the barns of the wealthy stayed full
+  Yes, some among us were rich - great landed estates were real here, and
+  so was a famine that struck while the barns of the wealthy stayed full
   and shut. One of our own priests, before he ever became a bishop,
-  preached against the hoarders without softening the charge. Holding a
-  neighbor's bread back while the neighbor starves is theft, whatever
-  the law calls it. He preached against lending at interest for the same
-  reason. The preaching did not stay preaching. Granaries opened, and
-  relief was organized. Later, as bishop, he built a permanent
-  institution outside his own city's walls: a poorhouse, guest-house,
-  infirmary, and leprosarium together, admiringly nicknamed the new city
-  in its own day. We taught that the poor bear the image of God. We
-  taught that whatever surplus you keep beyond your own need already
-  belongs to them. On marriage: it was expected and arranged by
-  families. At least one of us treated a broken engagement, by death, as
-  still binding. She refused every later match, on the argument that if
-  the resurrection is real, the one she had been promised to was not
-  lost, only away.
+  preached against the hoarders without softening the charge: holding a
+  neighbor's bread back while the neighbor starves is theft, whatever the
+  law calls it, and he preached against lending at interest for the same
+  reason. The preaching did not stay preaching; granaries opened, relief
+  was organized. Later, as bishop, he built a permanent institution
+  outside his own city's walls - a poorhouse, guest-house, infirmary, and
+  leprosarium together, admiringly nicknamed the new city in its own day.
+  We taught that the poor bear the image of God, and that whatever surplus
+  you keep beyond your own need already belongs to them. On marriage: it
+  was expected and arranged by families, and at least one of us treated a
+  broken engagement, by death, as still binding - refusing every later
+  match, on the argument that if the resurrection is real, the one she
+  had been promised to was not lost, only away.
 positions:
 - real wealth (great estates) existed alongside real famine, and this world's own preaching named
   hoarding and usury directly, to the hoarders' own faces
@@ -76,4 +75,8 @@ use_note:
   years: {from: 368, to: 379}
   status: reviewed
 ---
-The famine homilies' own text is unverified in this world's Source Registry. This record does not upgrade that caveat or quote a phrase from them, as cappadocian.story.famine-open-barns and the philoptochia and pleonexia term records carry it.
+Closes F5-T. Sourcing-honesty carried forward exactly as
+cappadocian.story.famine-open-barns and the philoptochia/pleonexia term
+records already carry it: the famine homilies' own text is unverified in
+this world's Source Registry, and this dw does not upgrade that caveat or
+quote a phrase from them.

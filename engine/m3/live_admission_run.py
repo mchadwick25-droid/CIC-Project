@@ -62,7 +62,6 @@ from engine.m4.generation import stream_voice_turn
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
 from engine.m8.live_cost_run import SONNET_4_5_PRICE_TABLE
-from engine.provider import guard
 from engine.provider.bedrock import NormalizedUsage, make_client, normalize_usage, resolve_model_id
 from engine.shape import shape_hash, shape_text
 
@@ -456,7 +455,6 @@ def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DE
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     parser.add_argument("--worlds", default=",".join(DEFAULT_WORLD_KEYS),
                         help="comma-separated world keys, exactly as authorized for this run")

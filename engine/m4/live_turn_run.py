@@ -9,7 +9,6 @@ credentialed run, not a CI job.
 import argparse
 import json
 import sys
-from dataclasses import asdict
 from pathlib import Path
 
 from engine.api.wiring import history_from_transcript
@@ -18,7 +17,6 @@ from engine.m4.output_check import find_shipped_defects
 from engine.m4.turn import run_turn
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.usage import SYSTEM_SESSION_ID
-from engine.provider import guard
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -52,17 +50,6 @@ def _turn_result_to_dict(result) -> dict:
         "voice_event": result.voice_event,
         "degraded": result.degraded,
     }
-
-
-def _usage_rows(results) -> list[dict]:
-    """Every call's usage in turn order, each with the world it served."""
-    return [
-        {
-            "call_kind": rec.call_kind, "model_id": rec.model_id, "provider": rec.provider,
-            "world_key": rec.world_key, "live_test": rec.live_test, **asdict(rec.usage),
-        }
-        for result in results for rec in result.usage_records
-    ]
 
 
 def run(region: str, *, world_key: str = "fix", messages: list[str] | None = None) -> dict:
@@ -107,7 +94,6 @@ def run(region: str, *, world_key: str = "fix", messages: list[str] | None = Non
     carry_session = messages is not None
     transcript: list[dict] = []
     results = []
-    turn_results = []
     for scenario in scenarios:
         told = {
             rid for turn in transcript
@@ -132,7 +118,6 @@ def run(region: str, *, world_key: str = "fix", messages: list[str] | None = Non
             already_bridged_gloss_ids=bridged_glosses if carry_session else None,
             history=history,
         )
-        turn_results.append(result)
         transcript.append({"speaker": "participant", "text": scenario["message"]})
         if result.voice_event:
             transcript.append({"speaker": "representative", **result.voice_event})
@@ -151,8 +136,6 @@ def run(region: str, *, world_key: str = "fix", messages: list[str] | None = Non
         "world_key": world_key,
         "manifest_hash": entry["package"]["manifest_hash"],
         "package": entry["package"]["location"],
-        "live_test": guard.run_summary(),
-        "usage": _usage_rows(turn_results),
         "results": results,
         # Only the fixture scenarios can prove this - a formation-world run
         # asks a different question of the system and reports None rather
@@ -170,7 +153,6 @@ def run(region: str, *, world_key: str = "fix", messages: list[str] | None = Non
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     parser.add_argument("--world", default="fix", help="registry key; defaults to the fixture world")
     parser.add_argument("--message", action="append", help="put a real question to --world (repeatable); replaces the fixture scenarios")

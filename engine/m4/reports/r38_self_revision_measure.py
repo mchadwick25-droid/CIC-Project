@@ -53,7 +53,6 @@ from engine.m4.reports.r39_generation_side_measure import (
     PROPOSED_OTHER_TRADITION_DIRECTIVE,
     build_evidence_and_message,
 )
-from engine.provider import guard
 from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
 from engine.m8.cost import estimate_cost
 from engine.m8.live_cost_run import SONNET_4_5_PRICE_TABLE
@@ -179,7 +178,6 @@ def run(region: str, n: int = 20) -> dict:
 
 def main():
     parser = argparse.ArgumentParser()
-    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     parser.add_argument("--n", type=int, default=20)
     args = parser.parse_args()

@@ -37,24 +37,23 @@ retrieval:
   - "participant asks whether bishops were appointed, elected, or something else"
 text: >-
   Authority in our world ran through named sees. A bishop held a great
-  city. Lesser bishops, chorepiscopoi, oversaw the villages under him.
+  city; lesser bishops, chorepiscopoi, oversaw the villages under him, and
   Basil's own letters discipline that office directly, forbidding
-  ordinations sold for money. How anyone actually became a bishop was
-  not one clean process. Synods elected and could also depose. One of
-  our own was driven from his own see on charges his own brother called
-  trumped up. A synod did it, one he said was packed against him. He
-  returned only once the political weather changed. Another of us was
-  given a whole capital's own council chair and its bishopric. He
-  resigned it within months over a dispute about the legitimacy of his
-  own election. The story we told ourselves about how the faith first
-  reached our region credited one missionary, roughly a century back. He
-  was sent to a province. It held, so the story runs, only seventeen
-  believers. By the time he died, so the story runs, only seventeen
-  still held the old gods. Day to day it was mostly not dangerous to be
-  one of us, by our own span. The executions of our grandparents' era
-  had passed. But exile, deposition, and a hostile court's pressure on
-  our own leaders were real and recurring, right through most of our
-  lifetime.
+  ordinations sold for money. How anyone actually became a bishop was not
+  one clean process. Synods elected and could also depose - one of our own
+  was driven from his own see on charges his own brother called trumped
+  up, through a synod he said was packed against him, and only returned
+  once the political weather changed. Another of us was given a whole
+  capital's own council chair and its bishopric, then resigned it within
+  months over a dispute about the legitimacy of his own election. As for
+  how the faith first reached our own region at all: the story we told
+  ourselves credited one missionary, roughly a century back, sent to a
+  province that held, so the story runs, only seventeen believers - and
+  left it, by the time he died, with only seventeen who still held the old
+  gods. Was it dangerous, day to day, to be one of us? Mostly not, by our
+  own span; the executions of our grandparents' era had passed. But exile,
+  deposition, and a hostile court's pressure on our own leaders were real
+  and recurring, right through most of our lifetime.
 positions:
 - authority ran through named sees with a two-level structure (metropolitan bishop, village
   chorepiscopos), disciplined directly in surviving letters
@@ -78,8 +77,17 @@ use_note:
   years: {from: 370, to: 381}
   status: reviewed
 ---
-The founding legend is used at the strength cappadocian.story.thaumaturgus-legend's narrative_tier_justification gives it (Tier 3, hagiography, not checkable history); the tensions field states this.
+Closes F3-I. The founding-legend material is used exactly at the strength
+cappadocian.story.thaumaturgus-legend's own narrative_tier_justification
+gives it (Tier 3, hagiography, not checkable history) - the tensions
+field states this explicitly rather than letting the vivid seventeen/
+seventeen detail read as a census.
 
-Gregory Thaumaturgus (cappadocian.figure.gregory-thaumaturgus, c. 213 - c. 270/5) lived roughly a century before this world's horizon opens. That is a separate span from the three centuries in cappadocian.dw.how-it-reached-us, which run from Jesus's life to this world's c. 325-340 window.
+Gregory Thaumaturgus (cappadocian.figure.gregory-thaumaturgus, c. 213 -
+c. 270/5) sits roughly a century before this world's own horizon opens,
+not three centuries - a separate span from
+cappadocian.dw.how-it-reached-us's own "three centuries" figure, which
+covers the span between Jesus's life and this world's own c. 325-340
+window.
 
 This record cross-references the verbatim quote record cappadocian.quote.basil-to-the-chorepiscopi.

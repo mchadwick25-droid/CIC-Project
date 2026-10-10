@@ -24,7 +24,7 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  There is documented room for hesitation, at
+  Was there room for doubt here? There is documented room for hesitation, at
   the highest level, about the deepest things. Eusebius of Caesarea signed the
   creed at Nicaea and then wrote home to his own church. He explained,
   carefully, why he had hesitated over its defining word and what he
@@ -36,7 +36,8 @@ text: >-
   quiet doubt. Our doubters are bishops with pens. And what happened to doubt
   depended on whichever settlement was in power. Hesitation could be explained
   in a letter. But refusing the enforced confession could cost a man his
-  position, under any of this era's governments. So there was room for doubt - at a price that rose and fell with the law.
+  position, under any of this era's governments. So yes, there was room for
+  doubt - at a price that rose and fell with the law.
 positions:
 - hesitation about the church's defining word is documented at the founding council itself, in the
   hesitater's own letter
@@ -58,7 +59,13 @@ use_note:
   years: {from: 325, to: 359}
   status: reviewed
 ---
+F1-P answered from the record's one great documented hesitation
+(Eusebius's letter, preserved in Socrates I.8 and verified) rather
+than manufactured lay texture - with the enforcement counterweight
+stated, since a "room for doubt" answer without it would flatter the
+world. The office-holder scope limit
+(ijc.contested.office-holder-scope) applies and is audible in the text.
 
-Eusebius's letter is preserved in Socrates I.8. The office-holder scope
-limit (ijc.contested.office-holder-scope) applies and is audible in the
-text.
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.
+
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

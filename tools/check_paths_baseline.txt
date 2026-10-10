@@ -15,6 +15,11 @@ Build/Ministry/Features/Full-UX-Design/Design/CiC_Logo_and_Motion_Brief_V1_0.md:
 Build/Ministry/Features/Full-UX-Design/Design/CiC_UX_Design_Brand_Brief_V1_0.md: Archive/Ministry-Early-Days-2026-07/Communication/CiC_Logo_Motion_Study_V0_1.html
 Build/Ministry/Features/Full-UX-Design/Design/CiC_UX_Design_Brand_Brief_V1_0.md: Build/Ministry/Technology/CiC_FrontEnd_Brand_Alignment_Review_V0_1.md
 Build/Ministry/Features/Full-UX-Design/Design/CiC_UX_Design_Brand_Brief_V1_0.md: Build/Ministry/Technology/CiC_Logo_and_Motion_Brief_V1_0.md
+Build/Ministry/Features/Funding-Strategy/CiC_Stripe_Setup_Wording_Strategy_Logistics_V0_1.md: cic-poc/backend/app/config.py
+Build/Ministry/Features/Funding-Strategy/CiC_Stripe_Setup_Wording_Strategy_Logistics_V0_1.md: cic-poc/backend/app/giving.py
+Build/Ministry/Features/Funding-Strategy/CiC_Stripe_Setup_Wording_Strategy_Logistics_V0_1.md: cic-poc/backend/app/main.py
+Build/Ministry/Features/Funding-Strategy/CiC_Stripe_Setup_Wording_Strategy_Logistics_V0_1.md: cic-poc/backend/requirements.txt
+Build/Ministry/Features/Funding-Strategy/CiC_Stripe_Setup_Wording_Strategy_Logistics_V0_1.md: cic-poc/backend/scripts/giving_flow_check.py
 Build/Ministry/Features/Guided-Questions/CiC_Answer_Bank_SH11_V0_1.md: cic-poc/backend/data/answer_bank
 Build/Ministry/Features/Guided-Questions/Design/CiC_Guided_Questions_Design_Study_V0_1.md: cic-poc/backend/app/world_manifest.py
 Build/Ministry/Features/Guided-Questions/README.md: cic-poc/backend
@@ -978,4 +983,3 @@ records/syr/voice_craft/syr.voice.craft.md: records/worlds.yaml
 records/syr/world_core/syr.core.syriac.md: records/worlds.yaml
 records/witt/voice_craft/witt.voice.craft.md: World-Builds/Lutheran-Wittenberg/witt_Representative_Permanent_Prompt_Nikolaus.txt
 records/witt/voice_craft/witt.voice.craft.md: records/worlds.yaml
-Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md: Archive/Ministry-Early-Days-2026-07/Funding/CiC_Ministry_Funding_Strategy_v1_0.docx

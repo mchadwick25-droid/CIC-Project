@@ -16,8 +16,6 @@ import uuid
 from dataclasses import dataclass
 
 from engine.provider.bedrock import NormalizedUsage
-from engine.provider.guard import active_live_test_name
-from engine.provider.route import active_route
 
 # Explicit tag for admin/evidence calls that are genuinely not part of a
 # participant session (preflight, this module's own re-measurement
@@ -34,19 +32,15 @@ class UsageRecord:
     model_id: str
     provider: str
     usage: NormalizedUsage
-    # Which world this call belongs to (Artifact-7 SS7): at a table,
+    # Which world's voice this call belongs to (Artifact-7 SS7): at a table,
     # session_id alone no longer answers "which world cost what" - several
-    # voices share one session. Every one-to-one call carries its session's
-    # world: the gate calls (safety, reader), the voice calls and the
-    # citation calls. None only where no single world owns the call: the
-    # Table's gate call, which serves several worlds at once, preflight,
-    # and rows written before world_key existed. It is
-    # nullable rather than defaulted to a sentinel so an old row is never
-    # rewritten to claim a world it never carried.
+    # voices share one session. None for calls that belong to no single
+    # world (the gate calls, preflight, every interview-era record), which
+    # is why this is nullable rather than defaulted to a sentinel: an
+    # interview session's voice calls are attributable from session_id
+    # alone, and pretending they carry a world tag they never did would
+    # falsify old rows on read.
     world_key: str | None = None
-    # The approved live test this call ran under (decision 56); None for a
-    # conversation, which is not a test.
-    live_test: str | None = None
 
     @property
     def is_attributed(self) -> bool:
@@ -58,15 +52,14 @@ def new_trace_id() -> str:
 
 
 def record_usage(
-    *, usage: NormalizedUsage, session_id: str, call_kind: str, model_id: str, provider: str | None = None, trace_id: str | None = None,
+    *, usage: NormalizedUsage, session_id: str, call_kind: str, model_id: str, provider: str = "bedrock", trace_id: str | None = None,
     world_key: str | None = None,
 ) -> UsageRecord:
     if not session_id:
         raise ValueError("session_id is required - use usage.SYSTEM_SESSION_ID for non-session calls, never blank")
-    provider = provider or active_route()
     return UsageRecord(
         trace_id=trace_id or new_trace_id(), session_id=session_id, call_kind=call_kind, model_id=model_id, provider=provider, usage=usage,
-        world_key=world_key, live_test=active_live_test_name(),
+        world_key=world_key,
     )
 
 

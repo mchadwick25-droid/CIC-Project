@@ -30,16 +30,17 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  At Nisibis, archaeologists have already found something where we worshipped.
-  A baptistery still stands there, securely dated by its own inscription to
-  the very years of the bishop and the siege. It is the only stone of ours
-  that survives from our own years. At Edessa, almost nothing: the modern city
-  sits directly on the ancient one, and the church the flood destroyed lives
-  only in a chronicler's line. Historians know about us from letters that date
-  themselves to the year. They know from hymns copied by later hands into
-  books that still exist. They know from a short city chronicle drawn out of
-  real archives. And they know by carefully sorting legend from record. What
-  survives is narrow - and it is real.
+  If archaeologists dug where we worshipped, what would they find? At
+  Nisibis, they already have. A baptistery still stands there, securely dated
+  by its own inscription to the very years of the bishop and the siege. It is
+  the only stone of ours that survives from our own years. At
+  Edessa, almost nothing: the modern city sits directly on the ancient one,
+  and the church the flood destroyed lives only in a chronicler's line. How do
+  historians know about us at all? From letters that date
+  themselves to the year. From hymns copied by later hands into books that
+  still exist. From a short city chronicle drawn out of real archives. And
+  from carefully sorting legend from record. What survives is narrow - and it
+  is real.
 positions:
 - the Nisibis baptistery is the world's one securely dated standing structure
 - Edessa's in-window remains are effectively inaccessible beneath the living city
@@ -60,4 +61,8 @@ use_note:
   years: {from: 201, to: 373}
   status: reviewed
 ---
-Kayaalp discipline from Doc_02 SS6: the baptistery is secure; the five-aisled plan is hypothetical. Carried in tensions as a standing bound.
+F5-E: the Kayaalp discipline from Doc_02 SS6 (baptistery secure;
+five-aisled plan hypothetical) is carried into the tensions field
+as a standing bound.
+
+The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.

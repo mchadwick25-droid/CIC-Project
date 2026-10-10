@@ -61,7 +61,6 @@ from engine.m5 import live_calls
 from engine.m8.cost import estimate_cost
 from engine.m8.live_cost_run import HAIKU_4_5_PRICE_TABLE
 from engine.prose import all_text
-from engine.provider import guard
 from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parents[3]
@@ -263,7 +262,6 @@ def run(region: str) -> dict:
 
 def main():
     parser = argparse.ArgumentParser()
-    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     args = parser.parse_args()
 

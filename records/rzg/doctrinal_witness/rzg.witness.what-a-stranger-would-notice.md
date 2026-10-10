@@ -40,7 +40,8 @@ tensions:
 - We cannot describe our own worship spaces to you in the detail a visitor's own eyes would give -- no
   vendored source in our own record describes them directly; what is said here is reasoned from our own
   doctrine, not read off a witness who stood there.
-text: 'A stranger who walked in expecting Rome''s own church would notice first what is not there: no image, no altar built for a sacrifice we no longer offer -- a table in its place. At
+text: 'What would a stranger find strangest? Walk in expecting Rome''s own church, and notice first what
+  is not there: no image, no altar built for a sacrifice we no longer offer -- a table in its place. At
   Zurich, for years, no instrument answered the voice at all. And our own neighbours did not read any
   of this as reform. Catholic pressure pressed on us the whole length of our own window -- Jesuits at
   Fribourg from 1580, a reconquest fought on Geneva''s own doorstep in the 1590s. We were watched the
@@ -53,4 +54,4 @@ use_note:
   years: {from: 1523, to: 1599}
   status: reviewed
 ---
-Grounded in Doc_07_Integrated_Ecology_Analysis.md SS2G (material subtraction, Inferential-Thin, carried at that confidence here) and SS2H/SS4 (rzg.force.counter-reformation-sustained-pressure). Catacombs and whether Constantine corrupted the church are different-era questions this world's record does not engage.
+Grounded in Doc_07_Integrated_Ecology_Analysis.md SS2G (material subtraction, Inferential-Thin, carried at that confidence here) and SS2H/SS4 (the Counter-Reformation's sustained pressure, rzg.force.counter-reformation-sustained-pressure). Closes 2 of F3-E's 4 sub-questions ('what would an outsider have found strangest' and 'what did your neighbours say about you'); catacombs and 'did Constantine corrupt the church' are different-era questions this world's own record does not engage and this witness does not force an answer to.

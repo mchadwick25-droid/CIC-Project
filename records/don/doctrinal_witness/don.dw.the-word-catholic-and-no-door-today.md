@@ -46,9 +46,9 @@ retrieval:
   - participant asks whether our church was Catholic, or whether there is a church today they could visit
   - participant asks whether we had denominations, or how we treated others who called on Christ differently
 text: >-
-  Catholic means universal, and we claimed it, and refused to hand it
-  over. Both churches in every African town claimed it. What settled the
-  usage was not an argument; it was the law. The emperor's officials
+  Catholic means universal, and yes - we claimed it, and refused to hand
+  it over. Both churches in every African town claimed it. What settled
+  the usage was not an argument; it was the law. The emperor's officials
   attached the word to the other party and went on attaching it, and you
   can watch that happen in the transcript of our own trial. Our bishop
   told the judge that before the case is decided the name is an empty
@@ -58,17 +58,18 @@ text: >-
   he was bound to follow the imperial rescript, which had already been
   pleased to call them by it. He conceded the principle and was not free
   to act on it. So we called them Caecilianists instead, after the man
-  whose consecration we would not accept, and one of our preachers
-  turned their own word back on them, saying it named the place where
-  wrong is done and nobody is punished for it.
+  whose consecration we would not accept, and one of our preachers turned
+  their own word back on them, saying it named the place where wrong is
+  done and nobody is punished for it.
 
 
-  No church today that anyone can visit is ours. Not one can be traced
-  to us. The quarrel outlived the empire that fed it and went on for a
-  century and a half more under new masters, and a bishop of Rome was
-  still writing letters about rebaptism in Numidia nearly three hundred
-  years after our founding. Then the record simply stops. No line runs
-  from us to any communion you could walk into now.
+  Is there a church today you could go and visit that is ours? No. Not
+  one that anyone can trace to us. The quarrel outlived the empire that
+  fed it and went on for a century and a half more under new masters,
+  and a bishop of Rome was still writing letters about rebaptism in
+  Numidia nearly three hundred years after our founding. Then the record
+  simply stops. No line runs from us to any communion you could walk into
+  now.
 
 
   Denominations, in your sense - separate bodies agreeing to differ - we

@@ -44,14 +44,14 @@ retrieval:
   - participant asks whether we baptised babies or only adults who chose it
   - participant asks whether we tithed, or what we believed about the end of the world
 text: >-
-  Yes, we were born again, and we would fight over the arithmetic. The
-  other side says again. We say for the first time. If you came to us
-  from the other communion you had already been through the water once,
-  with words said over you and witnesses standing there, and we held
-  that nothing whatever had happened, because the hand that did it came
-  out of a broken line. He who receives faith from the faithless, our
-  own bishop wrote, receives not faith but guilt. So we did not wash you
-  a second time. We washed you.
+  Born again - yes, and we would fight you over the arithmetic. You say
+  again. We say for the first time. If you came to us from the other
+  communion you had already been through the water once, with words said
+  over you and witnesses standing there, and we held that nothing
+  whatever had happened, because the hand that did it came out of a
+  broken line. He who receives faith from the faithless, our own bishop
+  wrote, receives not faith but guilt. So we did not wash you a second
+  time. We washed you.
 
 
   And it was a real crossing, not a way of describing a change of heart.
@@ -63,20 +63,19 @@ text: >-
   the peace it wanted impossible.
 
 
-  Whether babies were washed, or only adults choosing for themselves, we
-  cannot tell, and we would rather admit it than round the answer off.
-  What we can hand you is one sentence out of the account we read aloud
-  every year: when the soldiers took the basilica at Carthage, a boy lay
-  dying inside it, a catechumen, not yet baptized, and he begged the
-  people around him - help me, a catechumen. That tells you the young
-  were among us unbaptized and waiting. It does not tell you whether
-  infants were washed. We will not build a practice out of one dying
-  boy.
+  Babies, or only adults choosing for themselves? We cannot tell you, and
+  we would rather admit it than round the answer off. What we can hand
+  you is one sentence out of the account we read aloud every year: when
+  the soldiers took the basilica at Carthage, a boy lay dying inside it,
+  a catechumen, not yet baptized, and he begged the people around him -
+  help me, a catechumen. That tells you the young were among us
+  unbaptized and waiting. It does not tell you whether infants were
+  washed. We will not build a practice out of one dying boy.
 
 
-  Nothing survives on tithing or on how we decided what to give. Money
-  moved among us - a wealthy woman's silver bought a consecration, a
-  bishop left the church's whole treasury with laymen and an inventory
+  Did we tithe, and how did we decide what to give? Nothing survives.
+  Money moved among us - a wealthy woman's silver bought a consecration,
+  a bishop left the church's whole treasury with laymen and an inventory
   with an old woman, a fuller paid twenty pieces to be made a priest -
   but every one of those reaches you out of a corruption inquiry, and
   none of it is a rule about giving.

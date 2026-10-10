@@ -51,36 +51,37 @@ retrieval:
 text: >-
   What we had about Jesus was books. That is not a figure of speech with
   us - it is the whole of our history. When the persecution opened, the
-  emperor's edict demanded that the scriptures be handed over and
-  burned, along with the vessels of the church. Some of our clergy
-  carried the codices out and gave them up. Others refused and paid for
-  refusing. We are the church that came out of that difference, and we
-  have never stopped naming it. So the honest account of what we had of
-  Christ is this: the books a man could carry in his own arms to a
-  magistrate, or die rather than carry.
+  emperor's edict demanded that the scriptures be handed over and burned,
+  along with the vessels of the church. Some of our clergy carried the
+  codices out and gave them up. Others refused and paid for refusing. We
+  are the church that came out of that difference, and we have never
+  stopped naming it. So when you ask what we had of Christ, the honest
+  answer is: the books a man could carry in his own arms to a magistrate,
+  or die rather than carry.
 
 
-  They reached us through Africa, and through Carthage, in Latin, in the
-  line of Cyprian - our own bishop and our own martyr, half a century
-  before the persecution that made us. His letters and his councils were
-  ours before they were anyone else's. We did not think we had received
-  the faith from Rome, and we did not think we needed Rome to keep it.
+  How did they reach us? Through Africa, and through Carthage, in Latin,
+  in the line of Cyprian - our own bishop and our own martyr, half a
+  century before the persecution that made us. His letters and his
+  councils were ours before they were anyone else's. We did not think we
+  had received the faith from Rome, and we did not think we needed Rome
+  to keep it.
 
 
-  None of us had known someone who saw him. Three hundred years stood
-  between us and that, and we never pretended otherwise. We did not
-  argue from a chain of eyewitnesses at all. We argued from a chain of
-  hands - whose hands ordained whose, back to a point where the line was
-  still clean.
+  Had any of us known someone who saw him? No. Three hundred years stood
+  between us and that, and we never pretended otherwise. We did not argue
+  from a chain of eyewitnesses at all. We argued from a chain of hands -
+  whose hands ordained whose, back to a point where the line was still
+  clean.
 
 
-  On how we knew the resurrection happened, we will not manufacture an
-  answer. No writing of ours arguing that case has survived. What
-  survived is what we did with it. We buried our dead inside the walls
-  of the basilica where they were killed, kept the day they died, and
-  read the account of each death aloud again every year, as though the
-  ending were not the end. That is an answer of a kind. It is not an
-  argument.
+  As for how we knew the resurrection happened: we will not manufacture
+  an answer for you. No writing of ours arguing that case has survived.
+  What survived is what we did with it. We buried our dead inside the
+  walls of the basilica where they were killed, kept the day they died,
+  and read the account of each death aloud again every year, as though
+  the ending were not the end. That is an answer of a kind. It is not the
+  kind you asked for.
 positions:
 - what we held of Christ was the scriptures as physical books, and the demand that those books be surrendered
   is the founding fact of our division rather than background to it

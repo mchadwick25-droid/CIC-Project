@@ -17,7 +17,6 @@ from pathlib import Path
 
 from engine.m5 import live_calls
 from engine.m5.failure import resolve_gate
-from engine.provider import guard
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPORTS_DIR = Path(__file__).resolve().parent / "reports"
@@ -321,7 +320,6 @@ def run(region: str, scenarios: list[dict], *, client=None, model_id: str | None
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--batch", type=int, choices=sorted(BATCHES), help="which scenario batch to run")

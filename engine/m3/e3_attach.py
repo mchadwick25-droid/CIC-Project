@@ -23,7 +23,6 @@ from engine.m4.grounding_net import _groundable_text
 from engine.m7.standing_measure import load_world_records, quote_aware_sentences
 from engine.m8.cost import estimate_cost
 from engine.m8.price_tables import price_for_model
-from engine.provider import guard
 from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -131,7 +130,6 @@ def attach(client, model: str, table, *, prompt_text: str, valid_ids: list[str],
 
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    guard.add_arguments(p)
     p.add_argument("--region", required=True)
     p.add_argument("--worlds", required=True)
     p.add_argument("--max-usd", type=float, required=True)

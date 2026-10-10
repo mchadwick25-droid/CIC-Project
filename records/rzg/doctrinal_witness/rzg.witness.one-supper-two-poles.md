@@ -56,7 +56,7 @@ tensions:
   certainty -- that calls the later one a fuller statement of the earlier rather than a different one.
   We carry both because both are true of what we actually hold, not because we have settled which one
   is the last word.
-text: 'To us the bread and cup were not a sacrifice repeated, and not Christ''s own body, confined
+text: 'What was the bread and cup to us? Not a sacrifice repeated, and not Christ''s own body, confined
   to what you can chew. Our own founder said this first: the mass is a remembrance, not a sacrifice. Twenty-six
   years later, both our cities said it again, together, in fuller words: we tell the sign apart from what
   it points to, but we never pull them apart -- Christ truly given, by the Spirit, to whoever receives
@@ -73,4 +73,4 @@ use_note:
   years: {from: 1523, to: 1549}
   status: reviewed
 ---
-Grounded in Doc_04_Gravity_Discovery.md SS3.5 and Doc_07 SS2D/SS2I (T2), quoting both poles verbatim at the same line ranges. The Consensus's 9th Head text is reused character-for-character from rzg.quote.signs-and-things-signified (text field). relations[] link to the T2 gravity and the sign/thing-signified term.
+Grounded in Doc_04_Gravity_Discovery.md SS3.5 and Doc_07 SS2D/SS2I (T2), quoting both poles verbatim at the same line ranges those documents independently re-verify. The Consensus's own 9th Head text is reused character-for-character from the already-cleared rzg.quote.signs-and-things-signified record (text field), not re-transcribed here, matching that record's own verbatim license exactly. T2 already has a classified gravity record (register etic) and a cleared contested_claim stating the same scholarly question from outside this world's own voice; no record states T2 in first-person doctrinal-witness voice with its own position/tension structure -- this is the first. canon_cells=['F1-T'] ('What was the bread and cup to you -- is that what we call transubstantiation?') is a strong direct fit: the fleet's own canon question asks exactly what this record answers, refusing both transubstantiation and a bare-memorial reading in the same breath. relations[] links to the T2 gravity and the sign/thing-signified term -- reciprocal edges added directly to both files after this script runs.

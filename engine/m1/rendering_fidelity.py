@@ -60,7 +60,6 @@ from anthropic import APIError, APITimeoutError, RateLimitError
 
 from engine.m1.loader import load_world_records
 from engine.m5.failure import CallOutcome
-from engine.provider import guard
 
 # A sequential fleet sweep of ~80 live calls ran into this account's real
 # Bedrock rate limit mid-run (21 of 100 calls hit a 429 with no retry, an
@@ -373,7 +372,6 @@ def cross_language_report(region: str) -> dict:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     parser.add_argument("--cross-language-only", action="store_true",
                         help="grade only quotes whose own source declares a non-English Language: header, "

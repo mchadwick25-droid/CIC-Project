@@ -43,7 +43,8 @@ tensions:
 - We will not claim this world built a cult of his death, because it did not -- we hold no hagiography
   anywhere in our own record, and this account is not an exception dressed up as one. It is a plain report
   of how our founder died, nothing more.
-text: 'Our own founder did not seek his own death, so it was no death wish dressed up as faithfulness. He rode out to the Second War of Kappel as a field chaplain, in a war neither
+text: 'Wanting to die as a martyr and calling it faithfulness -- isn''t that a death wish? Our own founder
+  did not seek his own death. He rode out to the Second War of Kappel as a field chaplain, in a war neither
   of our cities chose alone, and was killed that same afternoon. His own last reported words were not
   a wish for it: what evil is there in this? They are able, it is true, to kill the body but not the soul.
   That is resolve in front of a real risk he did not run from -- not a longing for the risk. We do not
@@ -57,4 +58,4 @@ use_note:
   years: {from: 1531, to: 1532}
   status: reviewed
 ---
-Grounded in rzg.story.myconius-account-of-zwinglis-death and rzg.quote.zwinglis-last-words (Myconius, 'Original Life of Zwingli' SS12, lines 1550-1613 and approx. 1592-1593). No outside account of how the world worshipped is claimed: this world built no comparable outside-observer worship account.
+Grounded in the already-cleared rzg.story.myconius-account-of-zwinglis-death and rzg.quote.zwinglis-last-words (Myconius, 'Original Life of Zwingli' SS12, lines 1550-1613 and approx. 1592-1593). Closes F6-E's own 'death wish' sub-question directly; 'clearest outside account of how you worshipped' is not claimed -- this world built no comparable outside-observer worship account, a genuine, checked difference from don's own epigraphic F6-E precedent.

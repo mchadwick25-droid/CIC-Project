@@ -21,7 +21,8 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Marriage among us was not nothing, and it was not first either. Our record says so directly, in a treatise that ranks
+  You ask what marriage meant among us. It was not nothing, and it was not
+  first either. Our record says so directly, in a treatise that ranks
   widowhood by exactly this measure. Ambrose argues straight from Paul. A wife
   is bound as long as her husband lives. If her husband dies, she is free to
   marry whom she will, only in the Lord - yet she will be happier if she
@@ -57,8 +58,15 @@ use_note:
   years: {from: 377, to: 380}
   status: reviewed
 ---
+Verified directly against
+the vendored corpus, file lines 38845-38850: marriage is not wholly
+absent from this world's record. ijc.limit.marriage-money's own
+honest_limit is
+narrowed to what genuinely remains absent: any account of marriage or
+money from an ordinary household's own perspective, rather than a
+teacher's ranking of the institution. canon_cells: F5-T (what did
+marriage mean among you, and how did you look at money and the poor).
 
-Marriage is not wholly absent from this world's record (file lines
-38845-38850). ijc.limit.marriage-money covers what remains absent: any
-account of marriage or money from an ordinary household's own
-perspective, rather than a teacher's ranking of the institution.
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.
+
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

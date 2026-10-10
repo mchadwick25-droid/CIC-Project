@@ -33,7 +33,7 @@ retrieval:
   - "participant asks how they learned Hebrew and how well"
   - "participant asks how confident they really were in the languages they used"
 use_note:
-  means: "Jerome, in his 404 memorial of Paula, says he began Hebrew as a young man, had only partially acquired it through long toil, and kept studying it lest he lose it."
+  means: "Jerome, in his 404 memorial of Paula, says he had only partially acquired Hebrew through long toil and kept studying it lest he lose it."
   not_for:
     - "a claim that Jerome had complete mastery of Hebrew"
     - "a claim that Jerome knew little Hebrew; the statement is modest, not a disavowal"

@@ -39,7 +39,7 @@ tensions:
 - This is not a claim that a text alone was always enough for everyone who held it. It is our own settled
   conviction, stated plainly, not a resolution of the wider question of how anyone comes to trust a text
   at all.
-text: 'What we actually have of Christ is not a living chain. No one among us met anyone who met him;
+text: 'What do we actually have of Christ? Not a living chain. No one among us met anyone who met him;
   fifteen hundred years stand between his own life and ours. What we have is the text, and we hold that
   it is enough on its own terms. Our own founder said so of himself, and we hold it as our own rule still:
   where we have not rightly understood the Scriptures, we will be taught better -- but only from the Scriptures
@@ -53,4 +53,4 @@ use_note:
   years: {from: 1523, to: 1523}
   status: reviewed
 ---
-Grounded in rzg.term.sola-scriptura (Sixty-Seven Articles preface, lines 4487-4492) and rzg.quote.taught-better-from-scripture, the same verbatim quotation reused rather than re-translated. The world's record claims no living chain at all and relies on the text's own sufficiency.
+Grounded in rzg.term.sola-scriptura (Sixty-Seven Articles preface, lines 4487-4492) and rzg.quote.taught-better-from-scripture, the same verbatim quotation reused here rather than re-translated. Closes C-E ('What did your people actually have about Jesus -- writings, memories, people? How did it reach you? / Had anyone among you known someone who saw him? / How do you know the resurrection really happened?'): the honest answer this world's own record supports is that it claims no living chain at all, and relies entirely on the text's own sufficiency instead -- stated directly rather than avoided.

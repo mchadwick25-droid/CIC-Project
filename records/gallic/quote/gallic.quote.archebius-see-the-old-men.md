@@ -35,7 +35,7 @@ text: >-
   by their words as by the actual example of their holy life, what I grieve that I have lost, and
   having lost cannot give to you. But I think that my poverty will be somewhat lessened by this zeal of
   mine, if when you are seeking that pearl of the Gospel which I have not, I at least provide where you
-  can conveniently procure it."
+  can conveniently procure it.
 speaker_or_author: "Bishop Archebius, as Cassian reports him (Conferences XI.2)"
 license: verbatim
 modern_lens_note: >-
@@ -50,7 +50,7 @@ modern_rendering: >-
   You will learn it less from their words than from the real example of their holy life. Having lost
   it, I cannot give it to you. But I think this eagerness of mine will ease my poverty a little. It
   will, if I at least show you where you can easily get that pearl of the Gospel. You are seeking it,
-  and I do not have it."
+  and I do not have it.
 relations:
 - type: associated-with
   target: gallic.story.bishop-archebius

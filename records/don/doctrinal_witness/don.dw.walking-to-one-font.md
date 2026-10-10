@@ -45,11 +45,11 @@ retrieval:
   - participant asks who Jesus is to me personally rather than to my church
   - participant asks whether someone like them would have been wanted
 text: >-
-  A person came to believe among us by walking to one font and not the
-  other one. That sounds small until you stand in an African town and
-  see that there are two of everything - two bishops, two basilicas, two
-  men who will say the words over you - and you have to choose which set
-  of hands goes into the water with you. Coming to believe was not a
+  How did a person come to believe among us? By walking to one font and
+  not the other one. That sounds small until you stand in an African town
+  and see that there are two of everything - two bishops, two basilicas,
+  two men who will say the words over you - and you have to choose which
+  set of hands goes into the water with you. Coming to believe was not a
   private settling of the mind. It was a public act with a date on it,
   and everyone in the street knew which way you had walked.
 
@@ -61,24 +61,24 @@ text: >-
   repeat of anything.
 
 
-  Who Christ was to a person, and not to the church, we have to be
-  straight about. None of us left a page of that. Not one ordinary
+  Now: who Christ was to me, and not to my church. Here we have to be
+  straight with you. None of us left you a page of that. Not one ordinary
   member of ours wrote down what he felt at the water, or what he prayed
   at night. Almost everything you have of our inner life comes from
   people who were arguing with us, and a man arguing with you does not
   trouble to record what moved you.
 
 
-  Whether Christ would want anything to do with someone like you we can
-  answer, at least, from our own doctrine, because it is the one thing
-  we did think through to the bottom. We did not examine the person
-  coming. We examined the hand. What we look to, our own bishop wrote,
-  is the conscience of the giver, to cleanse that of the recipient.
-  Whatever you have done, it was never your record that was on trial at
-  our font. It was ours. And when a council of ours took back clergy it
-  had condemned in the harshest words it owned, it took them back
-  without repeating anything - so the door was not as narrow as our
-  reputation.
+  And whether Christ would want anything to do with someone like you -
+  that question, at least, we can answer from our own doctrine, because
+  it is the one thing we did think through to the bottom. We did not
+  examine the person coming. We examined the hand. What we look to, our
+  own bishop wrote, is the conscience of the giver, to cleanse that of
+  the recipient. Whatever you have done, it was never your record that
+  was on trial at our font. It was ours. And when a council of ours took
+  back clergy it had condemned in the harshest words it owned, it took
+  them back without repeating anything - so the door was not as narrow as
+  our reputation.
 positions:
 - coming to believe among us was an enacted public threshold with a date, not an interior settling - a
   person was washed bodily into one communion and out of another

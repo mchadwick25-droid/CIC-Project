@@ -21,7 +21,6 @@ from engine.m4 import events, facilitator_turns, session_code
 from engine.m4.entrance import open_session
 from engine.m4.package_fetch import ensure_package_local
 from engine.m4.projection import SessionState, project_fresh
-from engine.m4.rhythm import tally_from_transcript
 from engine.m4.store import Store
 from engine.m4 import evidence as ev
 from engine.m4 import turn as turn_module
@@ -50,7 +49,7 @@ from engine.m7.scheduler import STATUS_FILENAME
 from engine.m7.session_reader import read_session
 from engine.m8.cost import estimate_cost
 from engine.m8.log_store import UsageLogStore
-from engine.m8.price_tables import price_for_route
+from engine.m8.price_tables import price_for_call
 
 class UnknownWorldError(Exception):
     """world_key isn't in the registry (records/worlds.yaml)."""
@@ -130,7 +129,7 @@ def screen_refused_message(
     gate_run = run_gate(
         session_id=session_id, safety_client=safety_client, safety_model_id=safety_model_id,
         participant_message=text, pressed=state.pressed, anachronistic_term_ids=set(),
-        track_b_accumulator=state.safety.track_b_accumulator, world_key=state.world_key,
+        track_b_accumulator=state.safety.track_b_accumulator,
     )
     for rec in gate_run.usage_records:
         usage_store.append(rec)
@@ -429,8 +428,7 @@ def _median_and_average(values: list[float]) -> tuple[float | None, float | None
 
 
 # usage.py: world_key is None for calls that belong to no single world
-# (the Table's gate and selector calls, preflight, rows written before
-# world_key existed) - bucketed here
+# (the gate calls, preflight, every interview-era record) - bucketed here
 # under an explicit key rather than dropped, so a reconciling total
 # (sum of by_world calls) still equals usage_log's own row count.
 _UNATTRIBUTED_WORLD_KEY = "_unattributed"
@@ -474,61 +472,6 @@ class WorldUsage:
 
 
 @dataclass(frozen=True)
-class RouteUsage:
-    """What each model route's calls came to, priced as that route bills
-    (a Bedrock regional profile carries its premium; the Anthropic API bills
-    at list). The dollars are an estimate until the monthly reconciliation
-    confirms them against the invoice. unpriced_calls reads as in WorldUsage."""
-    route: str
-    calls: int
-    priced_dollars: float
-    unpriced_calls: int
-
-
-NOT_RECORDED = "not recorded"
-LIVE_USE_LABEL = "live use, not yet split"
-NAMED_TESTS_LABEL = "internal"
-LIVE_TEST_REPORTS_DIR = Path(__file__).resolve().parents[1] / "m4" / "reports"
-LIVE_TEST_REPORT_GLOB = "live-turn-report*.json"
-
-
-@dataclass(frozen=True)
-class LiveUse:
-    """Every usage-log call that ran under no live-test name: participants'
-    conversations and test conversations alike. Nothing in the log says which
-    of the two a call was, and nothing here infers it, so the line stays
-    unsplit until a marker exists."""
-    label: str
-    calls: int
-    priced_dollars: float
-    unpriced_calls: int
-
-
-@dataclass(frozen=True)
-class NamedTest:
-    """One approved live test, counted as internal. name and route read
-    NOT_RECORDED, and the other figures None, where the source (a report
-    written before the fields existed) does not carry them; missing lists
-    those fields so a gap is never read as a zero."""
-    source: str
-    name: str
-    cap_usd: float | None
-    route: str
-    priced_total_usd: float | None
-    calls: int | None
-    world_keys: list[str]
-    missing: list[str]
-
-
-@dataclass(frozen=True)
-class NamedTests:
-    label: str
-    tests: list[NamedTest]
-    recorded_priced_dollars: float
-    tests_with_gaps: int
-
-
-@dataclass(frozen=True)
 class AskCandidate:
     ask: str
     count: int
@@ -540,12 +483,9 @@ class UsageSummary:
     visitors: VisitorUsage
     by_world: list[WorldUsage]
     price_table_source: str | None
-    by_route: list[RouteUsage] = field(default_factory=list)
     top_asks: list[AskCandidate] = field(default_factory=list)
     asks_generated_at: str | None = None
     asks_as_of_run: str | None = None
-    live_use: LiveUse = field(default_factory=lambda: LiveUse(LIVE_USE_LABEL, 0, 0.0, 0))
-    named_tests: NamedTests = field(default_factory=lambda: NamedTests(NAMED_TESTS_LABEL, [], 0.0, 0))
 
 
 def _latest_canon_candidates(m7_audit_root: Path) -> tuple[list[AskCandidate], str | None, str | None]:
@@ -572,51 +512,8 @@ def _latest_canon_candidates(m7_audit_root: Path) -> tuple[list[AskCandidate], s
     return asks, doc.get("generated_at"), status.get("run_at")
 
 
-def _read_named_test_report(path: Path) -> NamedTest:
-    """One committed live-turn report as a named test. Reports written before
-    the live_test and usage fields exist read as NOT_RECORDED field by field;
-    an unreadable file is listed, never dropped and never guessed at."""
-    try:
-        doc = json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, ValueError):
-        doc = None
-    if not isinstance(doc, dict):
-        return NamedTest(path.name, NOT_RECORDED, None, NOT_RECORDED, None, None, [], ["live_test", "usage", "unreadable report"])
-    missing: list[str] = []
-    live_test = doc.get("live_test") if isinstance(doc.get("live_test"), dict) else {}
-
-    def _text(key: str) -> str:
-        value = live_test.get(key)
-        if isinstance(value, str) and value.strip():
-            return value
-        missing.append(key)
-        return NOT_RECORDED
-
-    def _number(key: str) -> float | None:
-        value = live_test.get(key)
-        if isinstance(value, (int, float)) and not isinstance(value, bool):
-            return float(value)
-        missing.append(key)
-        return None
-
-    name = _text("name")
-    cap_usd = _number("cap_usd")
-    route = _text("route")
-    priced_total = _number("priced_total_usd")
-    usage = doc.get("usage")
-    if isinstance(usage, list):
-        calls: int | None = len(usage)
-        worlds = sorted({r["world_key"] for r in usage if isinstance(r, dict) and isinstance(r.get("world_key"), str)})
-    else:
-        missing.append("usage")
-        calls = None
-        worlds = [doc["world_key"]] if isinstance(doc.get("world_key"), str) else []
-    return NamedTest(path.name, name, cap_usd, route, priced_total, calls, worlds, missing)
-
-
 def get_usage_summary(
-    store: Store, usage_store: UsageLogStore, *, since: str | None = None, m7_audit_root: Path | None = None,
-    live_test_reports_dir: Path | None = None,
+    store: Store, usage_store: UsageLogStore, *, since: str | None = None, m7_audit_root: Path | None = None
 ) -> UsageSummary:
     """The usage dashboard's one aggregate:
     unique visitors and duration (the stated top priority), cost/tokens
@@ -632,12 +529,7 @@ def get_usage_summary(
     own `since` does. The cost/per-world half does NOT respect `since` yet -
     UsageLogStore.read_all() doesn't return created_at on its UsageRecord,
     so that half is always all-time until that's added - a disclosed scope
-    boundary, not a silent one.
-
-    One pass over the usage log and one over the committed live-test reports
-    (live_test_reports_dir, default engine/m4/reports): a call tagged with a
-    live-test name is counted as internal, every other call as live use,
-    which stays one line, not yet split."""
+    boundary, not a silent one."""
     session_ids = store.list_session_ids(since=since)
     visitor_ids: set[str] = set()
     sessions_with_visitor = 0
@@ -672,23 +564,10 @@ def get_usage_summary(
         average_visitor_total_seconds=average_visitor_total,
     )
 
-    by_route: dict[str, dict] = {}
     by_world: dict[str, dict] = {}
     price_sources: set[str] = set()
-    live_use = {"calls": 0, "priced_dollars": 0.0, "unpriced_calls": 0}
-    logged_tests: dict[str, dict] = {}
     for record in usage_store.read_all():
         key = record.world_key or _UNATTRIBUTED_WORLD_KEY
-        test_bucket = (
-            logged_tests.setdefault(record.live_test, {"calls": 0, "priced_dollars": 0.0, "unpriced_calls": 0, "routes": set(), "worlds": set()})
-            if record.live_test else None
-        )
-        use_bucket = test_bucket if test_bucket is not None else live_use
-        use_bucket["calls"] += 1
-        if test_bucket is not None:
-            test_bucket["routes"].add(record.provider)
-            if record.world_key:
-                test_bucket["worlds"].add(record.world_key)
         bucket = by_world.setdefault(
             key,
             {
@@ -701,31 +580,14 @@ def get_usage_summary(
         bucket["output_tokens"] += record.usage.output_tokens
         bucket["cache_creation_input_tokens"] += record.usage.cache_creation_input_tokens
         bucket["cache_read_input_tokens"] += record.usage.cache_read_input_tokens
-        route_bucket = by_route.setdefault(record.provider, {"calls": 0, "priced_dollars": 0.0, "unpriced_calls": 0})
-        route_bucket["calls"] += 1
-        price_table = price_for_route(record.call_kind, record.model_id, record.provider)
+        price_table = price_for_call(record.call_kind, record.model_id)
         if price_table is None:
             bucket["unpriced_calls"] += 1
-            route_bucket["unpriced_calls"] += 1
-            use_bucket["unpriced_calls"] += 1
         else:
-            dollars = estimate_cost(record.usage, price_table).dollars
-            use_bucket["priced_dollars"] += dollars
-            bucket["priced_dollars"] += dollars
-            route_bucket["priced_dollars"] += dollars
+            bucket["priced_dollars"] += estimate_cost(record.usage, price_table).dollars
             price_sources.add(price_table.source)
 
     by_world_list = [WorldUsage(world_key=k, **v) for k, v in sorted(by_world.items())]
-
-    named: list[NamedTest] = [
-        NamedTest(
-            "usage log", name, None, ", ".join(sorted(b["routes"])), b["priced_dollars"], b["calls"], sorted(b["worlds"]),
-            ["cap_usd"] + (["priced_total_usd (some calls unpriced)"] if b["unpriced_calls"] else []),
-        )
-        for name, b in sorted(logged_tests.items())
-    ]
-    reports_dir = LIVE_TEST_REPORTS_DIR if live_test_reports_dir is None else live_test_reports_dir
-    named += [_read_named_test_report(p) for p in sorted(reports_dir.glob(LIVE_TEST_REPORT_GLOB))] if reports_dir.is_dir() else []
 
     top_asks: list[AskCandidate] = []
     asks_generated_at: str | None = None
@@ -736,17 +598,10 @@ def get_usage_summary(
     return UsageSummary(
         visitors=visitors,
         by_world=by_world_list,
-        by_route=[RouteUsage(route=k, **v) for k, v in sorted(by_route.items())],
         price_table_source=", ".join(sorted(price_sources)) or None,
         top_asks=top_asks,
         asks_generated_at=asks_generated_at,
         asks_as_of_run=asks_as_of_run,
-        live_use=LiveUse(LIVE_USE_LABEL, **live_use),
-        named_tests=NamedTests(
-            NAMED_TESTS_LABEL, named,
-            recorded_priced_dollars=sum(t.priced_total_usd or 0.0 for t in named),
-            tests_with_gaps=sum(1 for t in named if t.missing),
-        ),
     )
 
 
@@ -885,7 +740,6 @@ def handle_message(
     client_msg_id: str | None = None,
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
-    sentence_enforce: bool = True,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
     daily_turn_cap_reached: bool = False,
@@ -1043,15 +897,12 @@ def handle_message(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
-            previous_kind=state.last_kind,
-            rhythm=tally_from_transcript(state.transcript),
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=state.world_key) if r27_enforce else None,
             other_tradition_evidence_ids=other_tradition_evidence_ids,
             other_tradition_known_in_window=other_tradition_known_in_window,
             other_tradition_revealed=other_tradition_revealed,
             self_revision_enabled=self_revision_enabled,
-            sentence_enforce=sentence_enforce,
             daily_cap_reached=False,
             turn_cap=grant.cap,
             facilitator_only=grant.facilitator_only,
@@ -1167,7 +1018,7 @@ def handle_message(
         # too: an r27-exhausted turn is a real generation failure for this
         # turn, which supersedes any other facilitator_event the same turn
         # produced.
-        if result.voice_event.get("r27_enforcement_exhausted") or result.voice_event.get("sentence_enforcement_exhausted"):
+        if result.voice_event.get("r27_enforcement_exhausted"):
             fallback_event = facilitator_turns.voice_rejected_turn(world.frame["representative"]["name"])
             events.validate("facilitator_turn", fallback_event)
             store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fallback_event)
@@ -1179,10 +1030,7 @@ def handle_message(
         usage_store.append(rec)
 
     if qc_recorder is not None:
-        set_aside = voice_payload and (
-            voice_payload.get("r27_enforcement_exhausted") or voice_payload.get("sentence_enforcement_exhausted")
-        )
-        shown_voice = voice_payload if voice_payload and not set_aside else None
+        shown_voice = voice_payload if voice_payload and not voice_payload.get("r27_enforcement_exhausted") else None
         qc_recorder.record_safely(
             session_id=session_id, world_key=state.world_key, world=world,
             package_hash=state.package_manifest_hash, model_id=voice_model_id if shown_voice else None,

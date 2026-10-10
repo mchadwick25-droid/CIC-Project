@@ -18,8 +18,6 @@ from dataclasses import dataclass
 import boto3
 from anthropic import AnthropicBedrock
 
-from engine.provider import guard
-
 
 class ModelResolutionError(Exception):
     """Raised on zero or ambiguous (>1) matches. Spec SS7: 'refuse to guess
@@ -49,9 +47,7 @@ def resolve_model_id(pattern: str, region: str) -> str:
     """Lists real inference profiles from the live account and requires
     the pattern to match EXACTLY one. Never falls back to a guessed or
     hand-typed model ID string - Bedrock inference-profile IDs are
-    date/version-suffixed in a way nobody should be typing from memory.
-    A control-plane listing, no model spend; the guard hears each id it
-    resolves so an approved run can name its models before its first call."""
+    date/version-suffixed in a way nobody should be typing from memory."""
     control_plane = boto3.client("bedrock", region_name=region)
     profiles = control_plane.list_inference_profiles(maxResults=1000)["inferenceProfileSummaries"]
     matches = [
@@ -64,17 +60,13 @@ def resolve_model_id(pattern: str, region: str) -> str:
     if len(matches) > 1:
         candidates = ", ".join(m["inferenceProfileId"] for m in matches)
         raise ModelResolutionError(f"pattern {pattern!r} matched {len(matches)} profiles, ambiguous: {candidates}")
-    guard.note_model(matches[0]["inferenceProfileId"])
     return matches[0]["inferenceProfileId"]
 
 
 def make_client(region: str) -> AnthropicBedrock:
     """No explicit aws_access_key/aws_secret_key passed - AnthropicBedrock
-    falls through to botocore's standard credential resolution chain. The
-    conversation path gets the SDK client itself; any other command gets one
-    only under an approved live test (engine.provider.guard)."""
-    live_test = guard.admit()
-    return guard.wrap(AnthropicBedrock(aws_region=region), live_test, provider="bedrock", region=region)
+    falls through to botocore's standard credential resolution chain."""
+    return AnthropicBedrock(aws_region=region)
 
 
 def normalize_usage(usage) -> NormalizedUsage:

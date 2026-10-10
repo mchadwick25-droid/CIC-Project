@@ -612,10 +612,6 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "text": {"type": "string"},
         "positions": {"type": "array", "items": {"type": "string"}},
         "tensions": {"type": "array", "items": {"type": "string"}},
-        # A world whose own sources answer a who-question sideways keeps
-        # that shape; the reviewed reason rides on the record.
-        "answers_obliquely": {"type": "boolean"},
-        "oblique_reason": {"type": "string", "pattern": "\\S"},
     },
     "honest_limit": {
         "statement": {"type": "string"},
@@ -807,18 +803,10 @@ def build_schema(record_type: str) -> dict:
     if record_type not in TYPE_PROPERTIES:
         raise KeyError(f"no schema registered for record_type {record_type!r}")
     properties = {**ENVELOPE_PROPERTIES, **TYPE_PROPERTIES[record_type]}
-    schema = {
+    return {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
         "type": "object",
         "properties": properties,
         "required": ENVELOPE_REQUIRED,
         "additionalProperties": False,
     }
-    if record_type == "doctrinal_witness":
-        schema["allOf"] = [
-            {
-                "if": {"properties": {"answers_obliquely": {"const": True}}, "required": ["answers_obliquely"]},
-                "then": {"required": ["oblique_reason"]},
-            }
-        ]
-    return schema

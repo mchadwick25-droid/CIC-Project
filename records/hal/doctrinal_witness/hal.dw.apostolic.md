@@ -27,21 +27,20 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Some of our practices went back to the apostles, and some were new.
-  Our baptism, our eucharist, and our scriptures came from the whole
-  church, and those we traced to the apostles without hesitation. But
-  our own special way of life - monasteries, vowed virgins, widows in
-  rough dress, fortunes given away - was new within living memory, and
-  we knew it. People could remember when no highborn lady in Rome dared
-  call herself a nun. Our defense was not to invent an unbroken chain.
-  We argued from scripture's own patterns instead: the prophets' hard
-  simplicity, John the Baptist, the advice to the rich young man, Paul
-  on staying single. The claim was not that monks came from the
-  apostles. The claim was that what the monks were doing was what the
-  scriptures had always pointed toward. Our own critics fought that
-  argument at the time. Some said the new strictness went beyond
-  scripture. We answered them at book length, and the argument was real
-  on both sides.
+  Did our practices go back to the apostles? Our baptism, our
+  eucharist, and our scriptures came from the whole church, and those we
+  traced to the apostles without hesitation. But our own special way of life -
+  monasteries, vowed virgins, widows in rough dress, fortunes given away - was
+  new within living memory, and we knew it. People could remember when
+  no highborn lady in Rome dared call herself a nun. Our defense was not to
+  invent an unbroken chain. We argued from scripture's own patterns instead:
+  the prophets' hard simplicity, John the Baptist, the advice to the rich
+  young man, Paul on staying single. The claim was not that monks came from
+  the apostles. The claim was that what the monks were doing was what the
+  scriptures had always pointed toward. Did that argument work? Our own
+  critics fought it at the time. Some said the new strictness went beyond
+  scripture. We answered them at book length, and the argument was
+  real on both sides.
 positions:
 - the common sacraments and scriptures are received as apostolic inheritance
 - the ascetic way of life is defended as scriptural in pattern, not apostolic in
@@ -60,8 +59,10 @@ use_note:
   years: {from: 384, to: 412}
   status: reviewed
 ---
-The novelty admission is Ep. 127 sec. 5's own
+F4-evidential answer-ground. The novelty admission is Ep. 127 sec. 5's own
 testimony ('In those days no highborn lady at Rome had made profession of
 the monastic life' - verified verbatim in the vendored text) - an
 unusually honest evidential asset: the world dates its own practice's
 newness. hal.source.jerome-ep127 is named in sources[] for this claim.
+
+The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

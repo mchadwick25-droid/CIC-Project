@@ -23,7 +23,9 @@ retrieval:
 relations:
 - {type: illustrated-by, target: ijc.quote.ambrose-blessing-changes-nature}
 text: >-
-  We would not have used your age's word, transubstantiation. But we taught the thing that word points to, plainly, to the newly baptized: this
+  You ask what the bread and cup were to us, and whether we already held what
+  your age calls transubstantiation. We would not have used your word. But we
+  taught the thing your word points to, plainly, to the newly baptized: this
   is not what nature made, but what the blessing consecrated, and the power of
   blessing is greater than that of nature, because by blessing nature itself
   is changed. The Lord Jesus himself proclaims, 'This is My Body.' Before the
@@ -57,8 +59,12 @@ use_note:
   years: {from: 385, to: 390}
   status: reviewed
 ---
+De Mysteriis, addressed to the newly baptized, teaches a
+real change of nature in the elements at length and by name, verified
+directly against the vendored corpus, file lines 33189-33271. The
+honest_limit for F1-T (ijc.limit.later-questions) is narrowed accordingly
+to the one F1-T question this
+record genuinely does not reach: sola fide as a Reformation-era
+formulation.
 
-De Mysteriis, addressed to the newly baptized, teaches a real change of
-nature in the elements at length and by name (file lines 33189-33271).
-ijc.limit.later-questions covers the one question this record does not
-reach: sola fide as a Reformation-era formulation.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

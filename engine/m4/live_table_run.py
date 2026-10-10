@@ -36,7 +36,6 @@ from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.log_store import UsageLogStore
-from engine.provider import guard
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -176,7 +175,6 @@ def run(region: str, *, world_keys: list[str], messages: list[str]) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     parser.add_argument("--worlds", default="alx,desert", help="2-3 comma-separated world keys (default alx,desert)")
     parser.add_argument("--message", action="append", help="participant message (repeatable); defaults to the two-message script")

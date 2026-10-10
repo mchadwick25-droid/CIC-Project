@@ -75,12 +75,12 @@ absent_detail: >-
   is not the text described.
 modern_contrast: >-
   A modern reader is used to the origin story being told ABOUT a document by other people - a
-  preface, a biography, a founder's myth that grew afterwards. Palladius and Sozomen can be read
-  as wrapping the angel and the tablet around a plain rule they knew from outside. The Ethiopic
-  text shows the frame inside the document, as its first words. The consequence is not that the
-  vision is more likely true. It is that this federation wrote its legislation as something
-  received rather than drafted, and a modern reader who takes the frame for later decoration will
-  misread what kind of authority the house thought it had.
+  preface, a biography, a founder's myth that grew afterwards. That is what this world had
+  previously assumed: that Palladius and Sozomen wrapped the angel and the tablet around a plain
+  rule they knew from outside. The Ethiopic text shows the frame inside the document, as its first
+  words. The consequence is not that the vision is more likely true. It is that this federation
+  wrote its legislation as something received rather than drafted, and a modern reader who takes
+  the frame for later decoration will misread what kind of authority the house thought it had.
 use_note:
   means: "The Ethiopic Pachomian rule opens with an angel handing Pachomius an iron tablet, which evidences how the text framed itself, not that a vision occurred."
   not_for:
@@ -91,14 +91,16 @@ use_note:
   years: {from: 318, to: 346}
   status: reviewed
 ---
-This record draws on
+Registered on the vendoring of
 cic/texts/pachomius_rules-ethiopic_schodde1885.txt.
 
-On the evidence of the Ethiopic recension, the angel-tablet frame opens
-the received legislation; it does not belong only to the reports of the
-rule, as a hagiographic frame attached by Palladius and Sozomen. The
-correction, and the earlier description it replaces, are carried in
-desert.source.pachomian-corpus.
+THIS RECORD EXISTS BECAUSE THIS WORLD WAS WRONG ABOUT SOMETHING. Records
+here had described the angel-tablet material as belonging to the reports
+of the rule rather than to its text - a hagiographic frame attached by
+Palladius and Sozomen. On the evidence of the Ethiopic recension that is
+not so; the frame opens the received legislation. The correction is
+carried in desert.source.pachomian-corpus and the mistaken description is
+named there rather than quietly deleted.
 
 Kept separate from desert.story.pachomius-founding rather than folded
 into it. That record tells the founding as history, from Palladius, at
