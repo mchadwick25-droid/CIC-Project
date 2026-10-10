@@ -55,29 +55,28 @@ retrieval:
   prefer_instead:
   - "participant asks what this world would have made of them at its own door - retrieve gallic.demo.someone-like-me"
 text: >-
-  Would Jesus have wanted anything to do with someone like you? Here is
-  what our record holds. At a city gate one winter a beggar with no
-  clothes asked everyone who passed, and everyone passed. A soldier with
-  nothing left but his cloak saw that this man, whom no one pitied, was
-  left to him. He cut the cloak in two. That night he saw Christ wearing
-  the half he had given away. The Lord chose the beggar's half of a
-  soldier's cloak to show himself in. Among the brethren at Marseilles the
-  fathers of Egypt taught the same thing in a different form. An elder
-  broke his fast for two strangers at his door, because, he said,
-  receiving Christ in you I ought to refresh him. He did not ask them what
-  they were. And what we believed about God's own approach is this: he
-  calls us while we are still ignorant and unwilling, and draws us toward
-  salvation. He does not will only some to be saved instead of all, and
-  those who perish, perish against his will. So, yes. How did we come to
-  believe? We have one story, and it is one man's. Martin, at ten, against
-  his parents' wish, went to the church and begged to be made a
-  catechumen. He stayed one for years, into the army, until the night of
-  the cloak; then he went and was baptized. Cassian never told how he came
-  to believe. Vincent tells only that he fled the tempests of the world
-  into the harbour of the island. Who is Jesus to you, not to your church?
-  One man's own word survives. Martin, alone in his cell, told a Christ in
-  purple that he would believe only in one who showed the wounds. The rest
-  of us answer as houses answer - in what we did at the gate, and at the
+  Yes, he would have. At a city gate one winter a beggar with no clothes
+  asked everyone who passed, and everyone passed. A soldier with nothing
+  left but his cloak saw that this man, whom no one pitied, was left to
+  him. He cut the cloak in two. That night he saw Christ wearing the
+  half he had given away. The Lord chose the beggar's half of a
+  soldier's cloak to show himself in. Among the brethren at Marseilles
+  the fathers of Egypt taught the same thing in a different form. An
+  elder broke his fast for two strangers at his door, because, he said,
+  receiving Christ in you I ought to refresh him. He did not ask them
+  what they were. And what we believed about God's own approach is this:
+  he calls us while we are still ignorant and unwilling, and draws us
+  toward salvation. He does not will only some to be saved instead of
+  all, and those who perish, perish against his will. We have one story
+  of coming to believe, and it is one man's. Martin, at ten, against his
+  parents' wish, went to the church and begged to be made a catechumen.
+  He stayed one for years, into the army, until the night of the cloak;
+  then he went and was baptized. Cassian never told how he came to
+  believe. Vincent tells only that he fled the tempests of the world
+  into the harbour of the island. Only one man's private word about
+  Christ survives. Martin, alone in his cell, told a Christ in purple
+  that he would believe only in one who showed the wounds. The rest of
+  us answer as houses answer - in what we did at the gate, and at the
   hours.
 positions:
 - Christ shows himself in the one no one pities - the beggar's half of the cloak at Tours; the guest received as Christ in Egypt's teaching, without being asked who he is
@@ -104,34 +103,11 @@ use_note:
   years: {from: 397, to: 434}
   status: reviewed
 ---
-Closes C-P at the Answer-the-Canon step (inserted between B-7 and B-8).
-The fleet has both precedents for this cell - ijc.limit.jesus-to-you (an
-honest_limit, because the office-holder record is thinnest exactly at the
-personal register) and desert.dw.someone-like-me (a dw, because the
-someone-like-me question had real material). This world falls on the dw
-side, and the reason is its own centre: the two grounded pieces
-gallic.voice.craft's B-7 note named for a future C-cell pass (the cloak,
-the guest) are both, at bottom, answers to "would he have wanted anything
-to do with someone like me" - Christ shown in a beggar no one pitied and
-in strangers not asked what they were - and the grace teaching's own
-"calls us while we are still ignorant and unwilling" is the same answer
-in the south's own words. The cell's other two questions are answered at
-their true thinness and the thinness is named in tensions[0-1] rather
-than filled: one conversion story, one man's, one author's; and no
-private voice beyond Martin's word to the devil.
-
 Loci read at their own lines in
-cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml for this
-record: Vita II lines 710-712 ("when he was of the age of ten years, he
+cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml for this record:
+Vita II lines 710-712 ("when he was of the age of ten years, he
 betook himself, against the wish of his parents, to the Church, and
 begged that he might become a catechumen"); Conf. XIII.7 lines
 37757-37761; Conf. XIII.17 lines 38532-38535; Comm. ch. 1 lines
 12114-12115. The cloak material is cited through
-gallic.story.the-cloak-at-amiens, verified at Doc_09.
-
-Kept distinct from gallic.demo.someone-like-me (F6-P), which answers what
-the HOUSES would have made of a newcomer at their door, with the same
-honest limit that no house in Gaul left an account; this record answers
-what the LORD would have made of him, on the world's own witness. The two
-share the cloak and Moses-the-murderer ground and do not contradict.
-Reciprocal associated-with declared on both quote records.
+gallic.story.the-cloak-at-amiens.

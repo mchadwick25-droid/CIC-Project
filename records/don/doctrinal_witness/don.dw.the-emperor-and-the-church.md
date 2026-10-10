@@ -44,8 +44,8 @@ retrieval:
   - participant asks whether Christians hid in the catacombs
   - participant asks what outsiders and neighbours said about us, or found strangest
 text: >-
-  Did the empire change what the church was? That is not a question to
-  us. That is our whole case, and we are the party that answered yes.
+  The empire changed what the church was. That is our whole case, and we
+  are the party that said so.
 
 
   Catacombs first, because it is the wrong picture. Nobody among us hid
@@ -59,19 +59,18 @@ text: >-
   persecution looked like for us. Not hiding. Being visited.
 
 
-  Now Constantine. We petitioned him, in the first year, through his own
-  governor - we asked him to take the matter up. He gave us a hearing at
-  Rome and
-  then a council at Arles, and both ruled against us, and we refused
-  both. Not because a council cannot rule. Because a court convened,
-  staffed and enforced by a power that has already decided which side is
-  the church is not the church judging itself. Our own bishop is
-  remembered putting it to the emperor's commissioners in five words:
-  what has the Emperor to do with the Church? You should know that the
-  only man who wrote that sentence down was one of our enemies, and he
-  set it in a paragraph about our bishop's pride and his fits of temper.
-  We would keep the sentence and drop the paragraph. He would say we are
-  being selective. We would say he was there to make us look mad.
+  Then Constantine. We petitioned him, in the first year, through his
+  own governor - we asked him to take the matter up. He gave us a
+  hearing at Rome and then a council at Arles, and both ruled against
+  us, and we refused both. Not because a council cannot rule. Because a
+  court convened, staffed and enforced by a power that has already
+  decided which side is the church is not the church judging itself. Our
+  own bishop is remembered putting it to the emperor's commissioners in
+  five words: what has the Emperor to do with the Church? The only man
+  who wrote that sentence down was one of our enemies, and he set it in
+  a paragraph about our bishop's pride and his fits of temper. We would
+  keep the sentence and drop the paragraph. He would say we are being
+  selective. We would say he was there to make us look mad.
 
 
   We will not pretend we were clean about this. Three times we used the
@@ -82,13 +81,13 @@ text: >-
   that state the doctrine at its hardest.
 
 
-  What did our neighbours say about us? That we washed people twice. That
-  our country members were violent wanderers. That we were the party of a
-  man rather than the church of Christ - and one of our own petitions,
-  signed by our own bishops, gave them that phrase to use. And to
-  outsiders, the strangest thing of all: two of every office in every
-  town, two bishops, two altars, two names for the same God, and not one
-  point of doctrine between them.
+  Our neighbours said we washed people twice, that our country members
+  were violent wanderers, and that we were the party of a man rather
+  than the church of Christ - and one of our own petitions, signed by
+  our own bishops, gave them that phrase to use. And to outsiders, the
+  strangest thing of all: two of every office in every town, two
+  bishops, two altars, two names for the same God, and not one point of
+  doctrine between them.
 positions:
 - the claim that the empire's arrival changed what the church was is not a charge we answer but the case
   we were founded to make
