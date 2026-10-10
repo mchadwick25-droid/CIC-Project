@@ -35,24 +35,22 @@ retrieval:
   prefer_instead:
   - "participant wants an argument built on unbroken ordination back to the apostles -- our own claim is doctrinal continuity with Scripture and the ancient Church, not a chain of ordination"
 text: >-
-  How do we know our practices went back to the apostles and weren't
-  later inventions? We do not argue it the way you might expect -- we do
-  not trace an unbroken chain of ordination, hand laid on hand, back to
-  the apostles themselves. Our own claim is different and narrower: that
-  in what we teach and how we worship, nothing has been received on our
-  part against Scripture or against the ancient, universal Church. We
-  say plainly that we took the greatest care to keep new and godless
+  We hold that our practices are not later inventions, but we do not argue it the way you might expect. We do not trace an unbroken chain of ordination, hand laid
+  on hand, back to the apostles themselves. Our own claim is different and
+  narrower. In what we teach and how we worship, nothing has been received
+  on our part against Scripture or against the ancient, universal Church.
+  We say plainly that we took the greatest care to keep new and godless
   teaching OUT, not to bring anything new in.
 
-  We can show you one example in real detail. Our priests married, and
-  we were accused of inventing something new. Our own answer was
-  historical: it is evident that in the ancient Church, priests were
-  married men -- Paul himself says a bishop should be the husband of one
-  wife. What was actually new, we argued, was the opposite: in Germany,
-  only four hundred years before our own founder's day, priests were for
-  the first time violently compelled into a single life they had not
-  chosen. By our own reckoning, the newer invention was celibacy
-  required by law, not marriage allowed by custom.
+  We can show you one example in real detail. Our priests married, and we
+  were accused of inventing something new. Our own answer was historical.
+  It is evident that in the ancient Church, priests were married men. Paul
+  himself says a bishop should be the husband of one wife. What was
+  actually new, we argued, was the opposite. In Germany, only four hundred
+  years before our own founder's day, priests were for the first time
+  violently compelled into a single life they had not chosen. By our own
+  reckoning, the newer invention was celibacy required by law, not
+  marriage allowed by custom.
 positions:
 - "our own claim to continuity is doctrinal agreement with Scripture and the ancient, universal Church -- not an unbroken chain of ordination traced back to the apostles"
 - "we state plainly that we took the greatest care to admit no new and godless teaching, rather than claiming credit for inventing anything"
@@ -73,20 +71,6 @@ use_note:
   years: {from: 1530, to: 1530}
   status: reviewed
 ---
-Closes F4-E at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's own question (how do
-you know your practices went back to the apostles and weren't later inventions) is answered at two levels:
-the Confession's own general continuity claim (witt.quote.nothing-that-varies) and one specific, argued
-historical case this world's library carries in real detail -- clerical marriage, defended in Article
-XXIII as the ancient custom against a four-centuries-old compulsory celibacy. That second locus
-(cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 715-735) was grep-verified directly at
-this authoring pass (`grep -n "ancient Church priests were married men\|four hundred years ago"` returns
-"It is also evident that in the ancient Church priests were married men." at line 730 and "first time, the
-priests were violently compelled to lead a single life," at line 733) but is paraphrased in this record's
-own `text` rather than quoted verbatim, and is accordingly cited directly to the source record rather than
-built out as its own separate quote record -- this world's already-verified witt.term.marriage carries
-adjacent material from the same article (the "open scandals" and "shall at some time lack pastors" clauses)
-and is cited here as corroboration, not re-opened against the vendored file by this record.
+Sources: witt.quote.nothing-that-varies (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines 1540-1550) and the Article XXIII marriage passage (same file, lines 715-735; the ancient-Church sentence at line 730, the compulsion sentence at line 733).
 
-Every direct quotation in `text` traces to witt.quote.nothing-that-varies, independently re-verified at
-that record's own authoring pass against cic/texts/melanchthon_augsburg-confession_anon-pg275.txt lines
-1540-1550. Reciprocal associated-with declared on that record.
+The marriage passage is paraphrased in the text, not quoted, and has no quote record of its own. Adjacent material from the same article sits in witt.term.marriage. Cited term records were not re-read for this record.

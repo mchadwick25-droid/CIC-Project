@@ -37,21 +37,22 @@ retrieval:
   retrieve_when:
   - "participant asks whether someone divorced could belong among this world's people, or marry again"
 text: >-
-  Yes - though we will be honest that our own practice here was a
-  concession, not an endorsement. A second marriage, after a first one had
-  genuinely ended, was permitted among us as a remedy against a worse
-  fall, not celebrated as an equal good to a first marriage kept whole. It
-  came with a real cost: a period of penance, roughly a year by our own
-  reckoning, sometimes longer, before full return to communion. After that
-  penance, the person belonged again, fully - this was not permanent
-  exclusion. We will also disclose a real unevenness in our own practice,
-  named honestly by our own bishop rather than hidden: custom, not equal
-  justice, decided in his own day whether a woman who left an unfaithful
-  husband, or a man who put away his wife, bore the greater blame - our
-  own earlier, stricter rule for ascetic households had actually held
-  husband and wife to the identical standard, and the later, more lenient
-  canonical practice did not simply repeat that equality. We name that
-  shift rather than smooth it into a single, tidy answer.
+  A person whose first marriage had genuinely ended could belong among
+  us and could marry again. Our own practice here was a concession, not
+  an endorsement. That second marriage was permitted as a remedy against
+  a worse fall. It was not celebrated as an equal good to a first
+  marriage kept whole. It came with a real cost. A period of penance
+  came first, roughly a year by our own reckoning, sometimes longer.
+  Then came full return to communion. After that penance, the person
+  belonged again, fully. This was not permanent exclusion. We also
+  disclose a real unevenness in our own practice. Our own bishop named
+  it honestly rather than hiding it. Custom, not equal justice, decided
+  in his own day whether a woman who left an unfaithful husband, or a
+  man who put away his wife, bore the greater blame. Our own earlier,
+  stricter rule for ascetic households had actually held husband and
+  wife to the identical standard. The later, more lenient canonical
+  practice did not simply repeat that equality. We name that shift. We
+  do not smooth it into a single, tidy answer.
 positions:
 - second marriage after a genuine ending was permitted as a tolerated concession, with a set penance and
   a real, documented path back into full communion
@@ -74,24 +75,8 @@ use_note:
   years: {from: 360, to: 379}
   status: reviewed
 ---
-Closes F6-T on the identity-collision-tagged divorce/remarriage variant,
-grounded in Basil's own First Canonical Letter to Amphilochius (Epistle
-188), directly checked this session against the vendored npnf208 text for
-its digamy provisions (a year or more of penance, then full return) and
-its own named asymmetry between the standard applied to a departing
-husband and a departing wife, set against the Asketikon's own earlier
-Moral Rules holding both to one standard - a genuine internal tension
-across two distinct works in Basil's own corpus, disclosed rather than
-smoothed. The "hell for outsiders" variant this cell also carries is
-honestly left unanswered here rather than forced onto unrelated
-material.
+Grounded in Basil's First Canonical Letter to Amphilochius (Epistle 188): its digamy provisions (a year or more of penance, then full return) and its named asymmetry between a departing husband and a departing wife, set against the Asketikon's earlier Moral Rules, which hold both to one standard.
 
-The "identical standard" claim (Moral Rule LXXIII and its rule 2) is
-directly checked against the vendored
-basil_ascetic-works-longer-shorter-rules_clarke1925.txt. The Moral Rules
-and Epistle 188 are two separate works within Basil's ascetic corpus,
-not one document with an earlier and later section; sources[] cites
-cappadocian.source.basil-asketikon-longer-shorter-rules directly for the
-Moral Rules.
+The "identical standard" claim (Moral Rule LXXIII and its rule 2) is checked against the vendored basil_ascetic-works-longer-shorter-rules_clarke1925.txt. The Moral Rules and Epistle 188 are two separate works, not one document with an earlier and later section; sources[] cites cappadocian.source.basil-asketikon-longer-shorter-rules for the Moral Rules.
 
 This record cross-references the verbatim quote record cappadocian.quote.basil-canon-on-digamy.

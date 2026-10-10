@@ -108,8 +108,9 @@ function isContested(confidence: Record<string, unknown> | null): boolean {
 // a small, capped number of inline Level-1 elements per turn, scaling
 // gently with sentence count - floor of 3 so even a short turn isn't
 // capped away entirely, ceiling of 8 regardless of length, roughly one
-// mark per two sentences in between. Over cap, drop order is glosses
-// first, then figures, then stories - quote marks (someone else's actual
+// mark per two sentences in between. Gloss marks are outside the cap: a
+// lexicon mark is a connection, never a decoration, so it is neither
+// counted nor dropped. Over cap, drop order is figures first, then stories - quote marks (someone else's actual
 // quoted words) NEVER drop, the highest-stakes case for silently losing a
 // citation. A dropped mark still reaches the participant via
 // the collapsed General References line below - only its inline
@@ -131,9 +132,9 @@ interface Candidate {
 // doesn't specify this tie-break; this file's own default.
 function selectDropped(candidates: Candidate[], cap: number): Set<string> {
   const dropped = new Set<string>();
-  let over = candidates.length - cap;
+  let over = candidates.filter((c) => c.kind !== 'gloss').length - cap;
   if (over <= 0) return dropped;
-  for (const kind of ['gloss', 'figure', 'story'] as const) {
+  for (const kind of ['figure', 'story'] as const) {
     if (over <= 0) break;
     const ofKind = candidates.filter((c) => c.kind === kind);
     for (let i = ofKind.length - 1; i >= 0 && over > 0; i--) {
@@ -347,8 +348,8 @@ function renderLegacy({ text, citations, figuresUsed = [], glosses = [] }: Voice
 // A repeat element (a record's later run) keeps its mark at reduced
 // opacity (.citation-mark--repeat). An element whose record reads
 // Contested or Inferential-Thin renders hollow (.citation-mark--contested).
-// The cap scales with the engine's own sentence count; over cap, glosses
-// drop first, then figures, then stories, newest first. Quote marks never
+// The cap scales with the engine's own sentence count; gloss marks sit
+// outside it. Over cap, figures drop first, then stories, newest first. Quote marks never
 // drop - a quote mark is the one mark saying "these exact words are a
 // source's". A dropped mark still reaches the end list: inline
 // prominence is lost, never disclosure. The engine applies the same rule

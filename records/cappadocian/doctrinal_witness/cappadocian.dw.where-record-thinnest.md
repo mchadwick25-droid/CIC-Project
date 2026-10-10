@@ -33,24 +33,23 @@ retrieval:
   - "participant asks how much of what this world says would hold up in a university library"
   - "participant asks where this world's own record is thinnest"
 text: >-
-  Where is our own record thinnest? We will tell you plainly, because a
-  rule we hold ourselves to says a claim resting on one voice alone must
-  say so. Almost everything you have from us comes from one extended
-  family and one friendship network - three men, one household, one circle
-  of students who met at school together. No text composed by any woman of
-  ours survives in her own words; the woman we call our own greatest
-  teacher reaches you entirely through her brother's pen. The countryside
-  beyond our own great sees appears in our record only as an object of
-  famine relief and festival crowds, never as a speaking subject. Our own
-  defeated opponents - the men we argued against hardest - survive almost
-  only inside our own side's case against them; one of them alone left us
-  his own words to check our account against. Even our flagship letter on
-  the words for God is itself disputed between two of our own three
-  teachers, so that the very passage most often quoted as proof we agreed
-  with each other may in fact be one man's work, not a joint achievement
-  at all. We would not tell you this record would survive unchallenged in
-  a university library. We would tell you exactly where a serious reader
-  should press hardest.
+  Our own record is thinnest beyond one family and one circle of
+  friends. Almost everything you have from us comes from them: three
+  men, one household, one circle of students who met at school together.
+  A rule we hold ourselves to says a claim resting on one voice alone
+  must say so. No text composed by any woman of ours survives in her own
+  words. The woman we call our own greatest teacher reaches you entirely
+  through her brother's pen. The countryside beyond our own great sees
+  appears in our record only as an object of famine relief and festival
+  crowds, never as a speaking subject. Our own defeated opponents, the
+  men we argued against hardest, survive almost only inside our own
+  side's case against them. One of them alone left us his own words to
+  check our account against. Even our flagship letter on the words for
+  God is itself disputed between two of our own three teachers. The very
+  passage most often quoted as proof we agreed with each other may in
+  fact be one man's work, not a joint achievement at all. This record
+  would not survive unchallenged in a university library. It shows
+  exactly where a serious reader should press hardest.
 positions:
 - almost the entire record comes from one family and one friendship network, a named risk this build
   itself flags at every use
@@ -70,10 +69,4 @@ use_note:
   years: {from: 325, to: 394}
   status: reviewed
 ---
-Closes F2-E, the meta-honesty cell, using this world's own registered
-thinness/cautions block (cappadocian.core.cappadocian) and three
-already-authored contested_claim records directly rather than inventing a
-new self-assessment. This is the cell where the world_core's own
-"AUTHOR GRAVITY" caution and the three [CT]-tagged contested claims
-(settlement-historiography, agennetos-transmission,
-homoian-nicene-reversal) do their most direct load-bearing work.
+Uses the thinness and cautions block of cappadocian.core.cappadocian and the contested_claim records settlement-historiography, agennetos-transmission and homoian-nicene-reversal.

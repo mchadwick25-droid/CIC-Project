@@ -323,6 +323,38 @@ class WorldUsageResponse(BaseModel):
     unpriced_calls: int
 
 
+class RouteUsageResponse(BaseModel):
+    route: str
+    calls: int
+    priced_dollars: float
+    unpriced_calls: int
+
+
+class LiveUseResponse(BaseModel):
+    label: str
+    calls: int
+    priced_dollars: float
+    unpriced_calls: int
+
+
+class NamedTestResponse(BaseModel):
+    source: str
+    name: str
+    cap_usd: float | None
+    route: str
+    priced_total_usd: float | None
+    calls: int | None
+    world_keys: list[str]
+    missing: list[str]
+
+
+class NamedTestsResponse(BaseModel):
+    label: str
+    tests: list[NamedTestResponse]
+    recorded_priced_dollars: float
+    tests_with_gaps: int
+
+
 class AskCandidateResponse(BaseModel):
     ask: str
     count: int
@@ -336,9 +368,12 @@ class UsageSummaryResponse(BaseModel):
     visitors: VisitorUsageResponse
     by_world: list[WorldUsageResponse]
     price_table_source: str | None
+    by_route: list[RouteUsageResponse] = []
     top_asks: list[AskCandidateResponse]
     asks_generated_at: str | None
     asks_as_of_run: str | None
+    live_use: LiveUseResponse
+    named_tests: NamedTestsResponse
 
 
 class WorldSummary(BaseModel):
@@ -881,7 +916,8 @@ def create_app(
 
 
 def _build_real_app() -> FastAPI:
-    from engine.provider.bedrock import make_client, resolve_model_id
+    from engine.provider import guard
+    from engine.provider.route import build_route
 
     # Make the module logger actually emit under uvicorn: uvicorn
     # configures its own loggers only, so without a root handler the
@@ -891,9 +927,8 @@ def _build_real_app() -> FastAPI:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
 
     settings = Settings.from_env()
-    voice_model_id = resolve_model_id(settings.voice_model_pattern, settings.region)
-    safety_model_id = resolve_model_id(settings.safety_model_pattern, settings.region)
-    client = make_client(settings.region)  # ONE client, reused for both roles - matches live_turn_run.py
+    with guard.conversation_scope():  # the conversation path: the one place a client is built unwrapped
+        client, voice_model_id, safety_model_id = build_route(settings.region, settings.voice_model_pattern, settings.safety_model_pattern)  # ONE client, reused for both roles
     store = Store(settings.events_db_path)
     usage_store = UsageLogStore(settings.usage_db_path)
     full_registry = load_registry(settings.worlds_yaml_path)
