@@ -40,14 +40,10 @@ def test_all_text_drops_identifiers_so_slugs_never_become_keywords():
 
 
 def test_claim_guards_is_excluded_same_as_do_not_retrieve_when():
-    """Stage 4a (Build-Plan.md), R11's split: claim_guards is the
-    honesty-guard half do_not_retrieve_when is split into, and must be
-    excluded everywhere do_not_retrieve_when already is - a forbidding
-    sentence necessarily shares the forbidden claim's own vocabulary, the
-    same reasoning that put do_not_retrieve_when and formation_claim_barred
-    here. Landed before any real data exists in the field on purpose (the
-    stage's own "first" ordering): the exclusion has to be live before a
-    single claim_guards value is ever authored."""
+    """claim_guards is the honesty-guard half of do_not_retrieve_when and is
+    excluded everywhere do_not_retrieve_when is: a forbidding sentence
+    shares the forbidden claim's own vocabulary, the same reason
+    do_not_retrieve_when and formation_claim_barred are excluded."""
     assert "claim_guards" in prose.NON_PROSE_KEYS
     assert "claim_guards" in prose.FALLBACK_EXCLUDED_KEYS
     rec = {"claim_guards": ["Brictio did not succeed Martin as bishop"], "text": "real prose"}
@@ -245,6 +241,51 @@ def test_a_lone_closing_mark_cannot_force_a_merge():
     ]
 
 
+def test_a_plural_possessive_inside_a_quotation_does_not_close_it():
+    text = "He said: 'Hold to the apostles' teaching. Keep it,' and he left. He did not return."
+    assert prose.quote_aware_sentences(text) == [
+        "He said: 'Hold to the apostles' teaching. Keep it,' and he left.", "He did not return.",
+    ]
+
+
+def test_a_plural_possessive_inside_a_double_quotation_holds_it_together():
+    text = "“She would not break her parents' word. One marriage is all there is,” she said. So she stayed."
+    assert prose.quote_aware_sentences(text) == [
+        "“She would not break her parents' word. One marriage is all there is,” she said.", "So she stayed.",
+    ]
+
+
+def test_a_quotation_nested_at_the_opening_holds_the_whole_quotation():
+    text = '“"Then trust me," he said. "See, I appoint myself hospitaller."” He stayed. He ate.'
+    assert prose.quote_aware_sentences(text) == [
+        '“"Then trust me," he said. "See, I appoint myself hospitaller."” He stayed.', "He ate.",
+    ]
+
+
+def test_an_opener_nothing_closes_holds_nothing_together():
+    """The grounding net pairs an unclosed opener with nothing, and so does
+    the splitter."""
+    text = "He said: 'Go out. Sit in your cell."
+    assert prose.quote_aware_sentences(text) == ["He said: 'Go out.", "Sit in your cell."]
+
+
+def test_a_guillemet_quotation_holds_a_sentence_together():
+    text = "He wrote: « Go out. Sit in your cell » and left. Then he slept."
+    assert prose.quote_aware_sentences(text) == [
+        "He wrote: « Go out. Sit in your cell » and left.", "Then he slept.",
+    ]
+
+
+def test_the_splitter_keeps_together_exactly_the_quotations_the_net_pairs():
+    text = "The brothers' cells were searched. 'Look,' he said. 'It is here. Take it,' he said. They took it."
+    pieces = prose.quote_aware_sentences(text)
+    assert pieces == [
+        "The brothers' cells were searched.", "'Look,' he said.", "'It is here. Take it,' he said.", "They took it.",
+    ]
+    for open_i, close_i in prose.quote_pairs(text):
+        assert sum(text[open_i : close_i + 1] in piece for piece in pieces) == 1
+
+
 # ----------------------------------------------------- overlap_coefficient
 
 def test_overlap_is_over_the_smaller_side():
@@ -384,12 +425,15 @@ def test_the_runtime_net_uses_the_shared_ratio_not_its_own_copy():
     Build-Plan.md Stage 1: check_turn()'s own per-sentence body (where this
     call originally lived) was factored out into verdict_for_sentence() -
     a pure extraction, so the one shared call moved with it rather than
-    being duplicated. check_turn() itself now just loops and delegates."""
+    being duplicated. check_turn() itself now just loops and delegates, and
+    verdict_for_sentence() hands claims to _claim_verdict(), which owns the
+    call."""
     import inspect
 
     from engine.m4 import grounding_net
 
-    source = inspect.getsource(grounding_net.verdict_for_sentence)
+    source = inspect.getsource(grounding_net._claim_verdict)
     assert "grounding_ratio(text, cited_words)" in source
+    assert "_claim_verdict(" in inspect.getsource(grounding_net.verdict_for_sentence)
     assert "/ len(words)" not in source
     assert "grounding_ratio(text, cited_words)" not in inspect.getsource(grounding_net.check_turn)

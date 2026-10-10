@@ -1144,8 +1144,8 @@ def gate_id_convention(records, fleet, registry) -> list[str]:
 # summary - original wording stays as text, shown at Level 3"). `text` is
 # the archaic original, Apparatus/Level-3-only; `modern_rendering` is the
 # only field ever meant to be voiced or quoted on a participant-facing
-# surface. engine.m2.builders already reads it this way in two places
-# (_quote_opening, build_quotes_json's own comment) - this gate is the
+# surface. engine.m2.builders.build_quotes_json already reads it this
+# way - this gate is the
 # missing mechanical check that a world_front record's own authored prose
 # actually followed that rule, rather than trusting review to catch it by
 # eye every time.

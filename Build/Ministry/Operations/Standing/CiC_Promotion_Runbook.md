@@ -54,16 +54,45 @@ step 2 actually flips it.
 
 1. Verify on staging first. `cic-engine-staging` already has `main`'s latest — read it,
    run whatever check the change calls for, on the real running service, not just CI.
-2. Open a PR from `main` into `live`. Title it plainly ("Promote: <one-line summary of
+2. Run the admission gate on a named, capped run. Admission conformance is a
+   promotion gate, not a merge gate (decision 58): in CI it only reports. Before
+   the promotion PR opens, Mark approves one named, capped admission run under
+   decision 56 (started as described under "A named, capped run" below), for the whole fleet or for the worlds
+   the report lists as stale; its reports are committed on `main`; then
+   `python -m engine.m3.admission_conform --enforce` must exit 0.
+3. Open a PR from `main` into `live`. Title it plainly ("Promote: <one-line summary of
    what's shipping>"). The diff is the promotion's own record — no separate log entry
    needed, the PR itself is the deliberate, logged act D3 asks for.
-3. Mark reviews and merges it himself. This is the verification step D3 names — not a
+4. Mark reviews and merges it himself. This is the verification step D3 names — not a
    formality, the actual gate between staging and participants.
-4. Render deploys `cic-engine` from the new `live` tip automatically on merge, the same
+5. Render deploys `cic-engine` from the new `live` tip automatically on merge, the same
    way `main` always deployed to prod before this file existed.
-5. Rollback, if ever needed: revert the promotion PR (a normal `git revert` PR into
+6. Rollback, if ever needed: revert the promotion PR (a normal `git revert` PR into
    `live`, reviewed the same way) rather than force-pushing or hand-editing `live`
    directly — `live`'s branch protection (setup step 1) blocks a direct push regardless.
+
+## A named, capped run (decision 56)
+
+The engine refuses any model call outside a conversation unless the command carries
+both `--live-test "<name>"` and `--cap-usd <dollars>`; without them it prints the rule
+and exits before a client exists. To get one:
+
+1. The thread that needs a run stops and asks Mark in the conversation, giving the
+   command, what it will measure, the models and the route (Bedrock regional or global
+   profile, or the Anthropic API), and a proposed cap.
+2. Mark approves it by name with a dollar cap, once. The approval is logged in the
+   System Hub Decision Log before the run starts, so the monthly reconciliation can
+   match each charge to it.
+3. The run starts from the live-tests environment, for example
+   `python -m engine.m3.live_admission_run --live-test "<name>" --cap-usd <n> ...` plus
+   the command's own arguments. Before its first call it prints the name, the cap,
+   every model id and the route. Check that print against the approval.
+4. It stops before any call that could carry the priced total past the cap, and writes
+   the name into every usage record. A live-turn report carries the name, cap, route,
+   priced total and per-call usage, and the admin dashboard lists it under named live
+   tests as internal.
+
+Test conversations on the live engine are conversations and need no flags.
 
 ## What does not go through this
 

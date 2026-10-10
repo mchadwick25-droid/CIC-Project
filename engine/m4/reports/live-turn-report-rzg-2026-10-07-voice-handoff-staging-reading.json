@@ -1,0 +1,2237 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "rzg",
+  "manifest_hash": "sha256:2ce6f58f82619f0a4503467586276913433d4d2e31ddf7abc9503680e87a0220",
+  "package": "packages/rzg/2026-10-04T03-43-48Z",
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Who is Jesus?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "rzg",
+          "text": "The Son of God, fully God and fully man, born of the Virgin Mary, crucified under Pontius Pilate, raised on the third day, ascended to the Father's right hand - we say what the whole church says. That was never our quarrel, not with Rome and not between our own two cities. What is distinctly ours is what we were taught his death secures: God's own free choice, made before the world began, decides who is saved - not anything foreseen or earned. We hold that as settled ground, not a threat, and we will not send you searching your own heart for proof of it. Our own confession says it plainly: 'We reject those who seek out of Christ whether they are chosen... Let... Christ be the mirror in which we behold [our] predestination'. No one among us met anyone who met him; fifteen hundred years stand between his life and ours. What we have is the text, and we hold that it is enough on its own terms.",
+          "citations": [
+            {
+              "sentence": "That was never our quarrel, not with Rome and not between our own two cities.",
+              "record_ids": [
+                "rzg.witness.one-thing-not-in-dispute"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.one-thing-not-in-dispute",
+                  "record_type": "doctrinal_witness",
+                  "label": "Who was Jesus to us? On that question itself, we say what the whole church says -- that w…",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.second-helvetic-confession",
+                      "author": "Heinrich Bullinger",
+                      "work": "The Second Helvetic Confession (1566)",
+                      "locus": "ch. X, lines 667, 684-685",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What is distinctly ours is what we were taught his death secures: God's own free choice, made before the world began, decides who is saved - not anything foreseen or earned.",
+              "record_ids": [
+                "rzg.witness.one-thing-not-in-dispute"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.one-thing-not-in-dispute",
+                  "record_type": "doctrinal_witness",
+                  "label": "Who was Jesus to us? On that question itself, we say what the whole church says -- that w…",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.second-helvetic-confession",
+                      "author": "Heinrich Bullinger",
+                      "work": "The Second Helvetic Confession (1566)",
+                      "locus": "ch. X, lines 667, 684-685",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We hold that as settled ground, not a threat, and we will not send you searching your own heart for proof of it.",
+              "record_ids": [
+                "rzg.witness.one-thing-not-in-dispute"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.one-thing-not-in-dispute",
+                  "record_type": "doctrinal_witness",
+                  "label": "Who was Jesus to us? On that question itself, we say what the whole church says -- that w…",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.second-helvetic-confession",
+                      "author": "Heinrich Bullinger",
+                      "work": "The Second Helvetic Confession (1566)",
+                      "locus": "ch. X, lines 667, 684-685",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Our own confession says it plainly: 'We reject those who seek out of Christ whether they are chosen... Let... Christ be the mirror in which we behold [our] predestination'.",
+              "record_ids": [
+                "rzg.witness.one-thing-not-in-dispute"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.one-thing-not-in-dispute",
+                  "record_type": "doctrinal_witness",
+                  "label": "Who was Jesus to us? On that question itself, we say what the whole church says -- that w…",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.second-helvetic-confession",
+                      "author": "Heinrich Bullinger",
+                      "work": "The Second Helvetic Confession (1566)",
+                      "locus": "ch. X, lines 667, 684-685",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "No one among us met anyone who met him; fifteen hundred years stand between his life and ours.",
+              "record_ids": [
+                "rzg.witness.what-we-have-of-christ"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.what-we-have-of-christ",
+                  "record_type": "doctrinal_witness",
+                  "label": "What do we actually have of Christ? Not a living chain",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                      "author": "Huldrych Zwingli",
+                      "work": "The Sixty-Seven Articles (1523)",
+                      "locus": "preface, lines 4487-4492",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What we have is the text, and we hold that it is enough on its own terms.",
+              "record_ids": [
+                "rzg.witness.what-we-have-of-christ"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.what-we-have-of-christ",
+                  "record_type": "doctrinal_witness",
+                  "label": "What do we actually have of Christ? Not a living chain",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                      "author": "Huldrych Zwingli",
+                      "work": "The Sixty-Seven Articles (1523)",
+                      "locus": "preface, lines 4487-4492",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "rzg.term.confession-of-faith",
+              "matched_name": "confession",
+              "text_start": 569,
+              "plain_meaning": "A confession is a formal, public statement of our own doctrine. The Second Helvetic Confession, from Zurich, is our own most mature example.",
+              "quick_meaning": "A formal, publicly adopted statement of our church's doctrine. The Second Helvetic Confession, from Zurich, is our own most mature example.",
+              "translational_sense": "This is not a creative theological essay. It is a settled, publicly adopted statement, meant to be taught and handed on without drift.",
+              "false_friend": [
+                "a personal statement of individual belief, rather than a formally adopted, publicly binding church document"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "rzg.source.second-helvetic-confession",
+                  "author": "Heinrich Bullinger",
+                  "work": "The Second Helvetic Confession (1566)",
+                  "locus": "ch. X, lines 667, 684-685",
+                  "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                  "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                }
+              ]
+            }
+          ],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "The Son of God, fully God and fully man, born of the Virgin Mary, crucified under Pontius Pilate, raised on the third day, ascended to the Father's right hand - we say what the whole church says.",
+                "tags": [
+                  "rzg.witness.one-thing-not-in-dispute"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:[\"father's\", 'mary', 'pilate', 'pontius', 'virgin']) only 19% grounded in its own tags",
+                "ratio": 0.19
+              },
+              {
+                "sentence": "That was never our quarrel, not with Rome and not between our own two cities.",
+                "tags": [
+                  "rzg.witness.one-thing-not-in-dispute"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "What is distinctly ours is what we were taught his death secures: God's own free choice, made before the world began, decides who is saved - not anything foreseen or earned.",
+                "tags": [
+                  "rzg.witness.one-thing-not-in-dispute"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We hold that as settled ground, not a threat, and we will not send you searching your own heart for proof of it.",
+                "tags": [
+                  "rzg.witness.one-thing-not-in-dispute"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Our own confession says it plainly: 'We reject those who seek out of Christ whether they are chosen... Let... Christ be the mirror in which we behold [our] predestination'.",
+                "tags": [
+                  "rzg.witness.one-thing-not-in-dispute"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "No one among us met anyone who met him; fifteen hundred years stand between his life and ours.",
+                "tags": [
+                  "rzg.witness.what-we-have-of-christ"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "What we have is the text, and we hold that it is enough on its own terms.",
+                "tags": [
+                  "rzg.witness.what-we-have-of-christ"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "rzg.witness.one-thing-not-in-dispute",
+                  "rzg.witness.what-we-have-of-christ"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "rzg",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 195
+              },
+              {
+                "index": 1,
+                "text_start": 196,
+                "text_end": 273
+              },
+              {
+                "index": 2,
+                "text_start": 274,
+                "text_end": 447
+              },
+              {
+                "index": 3,
+                "text_start": 448,
+                "text_end": 560
+              },
+              {
+                "index": 4,
+                "text_start": 561,
+                "text_end": 733
+              },
+              {
+                "index": 5,
+                "text_start": 734,
+                "text_end": 828
+              },
+              {
+                "index": 6,
+                "text_start": 829,
+                "text_end": 902
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "rzg.term.confession-of-faith",
+                "record_type": "term",
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Built from Doc_03's own candidate-roster entry, not from a dedicated per-term research pass at Doc_06 - this world's own disclosed deferral (Doc_06 SS0) for the eleven non-Tier-1 candidates. The underlying doctrine is Documented in the cited source, but this specific record's own citation was not independently re-verified against the vendored file this pass, hence verified-via-authority rather than verified-direct.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 4,
+                "char_start": 8,
+                "char_end": 18,
+                "surface": "confession"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "rzg.witness.one-thing-not-in-dispute",
+                "record_type": "doctrinal_witness",
+                "label": "Who was Jesus to us? On that question itself, we say what the whole church says -- that w…",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.second-helvetic-confession",
+                    "author": "Heinrich Bullinger",
+                    "work": "The Second Helvetic Confession (1566)",
+                    "locus": "ch. X, lines 667, 684-685",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.witness.what-we-have-of-christ",
+                "record_type": "doctrinal_witness",
+                "label": "What do we actually have of Christ? Not a living chain",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                    "author": "Huldrych Zwingli",
+                    "work": "The Sixty-Seven Articles (1523)",
+                    "locus": "preface, lines 4487-4492",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Synthesizes already-verified rzg.term.sola-scriptura and rzg.quote.taught-better-from-scripture content into first-person voice for this specific cell; no new primary-source claim is introduced beyond what those records already establish.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "rzg.witness.one-thing-not-in-dispute",
+                "record_type": "doctrinal_witness",
+                "label": "Who was Jesus to us? On that question itself, we say what the whole church says -- that w…",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.second-helvetic-confession",
+                    "author": "Heinrich Bullinger",
+                    "work": "The Second Helvetic Confession (1566)",
+                    "locus": "ch. X, lines 667, 684-685",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.witness.what-we-have-of-christ",
+                "record_type": "doctrinal_witness",
+                "label": "What do we actually have of Christ? Not a living chain",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                    "author": "Huldrych Zwingli",
+                    "work": "The Sixty-Seven Articles (1523)",
+                    "locus": "preface, lines 4487-4492",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Synthesizes already-verified rzg.term.sola-scriptura and rzg.quote.taught-better-from-scripture content into first-person voice for this specific cell; no new primary-source claim is introduced beyond what those records already establish.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                0
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-2",
+      "message": "What did he do?",
+      "prior_turns_replayed": 1,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "rzg",
+          "text": "He lived without sin, taught with authority, worked signs that showed who he was, and went to the cross willingly - the one sacrifice, offered once, sufficient for all who would ever believe. Our own founder said it plainly: 'Christ sacrificed himself once. That sacrifice is, to eternity, a valid and never-to-be-repeated ransom and redemption of all believers'. That is what his death accomplished - not a work we repeat at an altar, but a finished work we receive, believing. He rose on the third day, appeared to witnesses, ascended to the Father's right hand, and reigns now over everything he made. What he secures for whoever believes is not earned by anything foreseen in them, but rests entirely on God's own free choice, made before the world began. We do not hold that teaching as a threat - we hold it as the one ground steady enough to build a life on.",
+          "citations": [
+            {
+              "sentence": "He lived without sin, taught with authority, worked signs that showed who he was, and went to the cross willingly - the one sacrifice, offered once, sufficient for all who would ever believe.",
+              "record_ids": [
+                "rzg.quote.mass-not-a-sacrifice"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.quote.mass-not-a-sacrifice",
+                  "record_type": "quote",
+                  "label": "The Sixty-Seven Articles, Article XVIII, lines 4565-4569 — Huldrych Zwingli",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                      "author": "Huldrych Zwingli",
+                      "work": "The Sixty-Seven Articles (1523)",
+                      "locus": "Article XVIII, lines 4565-4569",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                    }
+                  ],
+                  "spoken_rendering": "Christ sacrificed himself once. That sacrifice is, to eternity, a certain and valid offering for the sins of all the faithful. From this it follows that the Mass is not a sacrifice. It is a remembrance of that sacrifice, and an assurance of the salvation Christ has given us.",
+                  "speaker": "Huldrych Zwingli"
+                }
+              ]
+            },
+            {
+              "sentence": "Our own founder said it plainly: 'Christ sacrificed himself once. That sacrifice is, to eternity, a valid and never-to-be-repeated ransom and redemption of all believers'.",
+              "record_ids": [
+                "rzg.quote.mass-not-a-sacrifice"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.quote.mass-not-a-sacrifice",
+                  "record_type": "quote",
+                  "label": "The Sixty-Seven Articles, Article XVIII, lines 4565-4569 — Huldrych Zwingli",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                      "author": "Huldrych Zwingli",
+                      "work": "The Sixty-Seven Articles (1523)",
+                      "locus": "Article XVIII, lines 4565-4569",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                    }
+                  ],
+                  "spoken_rendering": "Christ sacrificed himself once. That sacrifice is, to eternity, a certain and valid offering for the sins of all the faithful. From this it follows that the Mass is not a sacrifice. It is a remembrance of that sacrifice, and an assurance of the salvation Christ has given us.",
+                  "speaker": "Huldrych Zwingli"
+                }
+              ]
+            },
+            {
+              "sentence": "That is what his death accomplished - not a work we repeat at an altar, but a finished work we receive, believing.",
+              "record_ids": [
+                "rzg.term.the-lords-supper-spiritual-presence"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.term.the-lords-supper-spiritual-presence",
+                  "record_type": "term",
+                  "label": "The Lord's Supper and Spiritual Presence",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                      "author": "Huldrych Zwingli",
+                      "work": "The Sixty-Seven Articles (1523)",
+                      "locus": "Article XVIII, lines 4565-4569",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                    },
+                    {
+                      "source_id": "rzg.source.calvin-institutes-book4",
+                      "author": "John Calvin",
+                      "work": "Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the Society of Christ, and Keeps Us in It)",
+                      "locus": "e.g. lines 20735, 20812, 20934, 20943",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "English translation by Henry Beveridge (Edinburgh: Calvin Translation Society, 1845), vendored as cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt"
+                    },
+                    {
+                      "source_id": "rzg.source.consensus-tigurinus",
+                      "author": "John Calvin and the Zurich pastors (jointly negotiated and signed)",
+                      "work": "Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)",
+                      "locus": "9th Head of Agreement, lines 768-770",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "English translation by Henry Beveridge (1844), vendored as cic/texts/calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt (a bounded extract, pp. 195-244 of the printed volume - see the file's own intake header for the exact boundary against the volume's other, distinct contents)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What he secures for whoever believes is not earned by anything foreseen in them, but rests entirely on God's own free choice, made before the world began.",
+              "record_ids": [
+                "rzg.term.predestination-election"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.term.predestination-election",
+                  "record_type": "term",
+                  "label": "Predestination and Election",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-selected-works",
+                      "author": "Huldrych Zwingli",
+                      "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                      "locus": "the 1527 Refutation's own 'On Election' section, lines approx. 9591-9762",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                    },
+                    {
+                      "source_id": "rzg.source.second-helvetic-confession",
+                      "author": "Heinrich Bullinger",
+                      "work": "The Second Helvetic Confession (1566)",
+                      "locus": "ch. X",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                    },
+                    {
+                      "source_id": "rzg.source.calvin-institutes-books2-3",
+                      "author": "John Calvin",
+                      "work": "Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining the Grace of Christ)",
+                      "locus": "Books II-III",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "English translation by Henry Beveridge (Edinburgh: Calvin Translation Society, 1845), vendored as cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We do not hold that teaching as a threat - we hold it as the one ground steady enough to build a life on.",
+              "record_ids": [
+                "rzg.witness.a-quieted-mind"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.a-quieted-mind",
+                  "record_type": "doctrinal_witness",
+                  "label": "What did we offer someone who could not quiet their own mind? Not a method for searching…",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.second-helvetic-confession",
+                      "author": "Heinrich Bullinger",
+                      "work": "The Second Helvetic Confession (1566)",
+                      "locus": "ch. X, lines 667, 684-685",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "He lived without sin, taught with authority, worked signs that showed who he was, and went to the cross willingly - the one sacrifice, offered once, sufficient for all who would ever believe.",
+                "tags": [
+                  "rzg.quote.mass-not-a-sacrifice"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Our own founder said it plainly: 'Christ sacrificed himself once. That sacrifice is, to eternity, a valid and never-to-be-repeated ransom and redemption of all believers'.",
+                "tags": [
+                  "rzg.quote.mass-not-a-sacrifice"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "That is what his death accomplished - not a work we repeat at an altar, but a finished work we receive, believing.",
+                "tags": [
+                  "rzg.term.the-lords-supper-spiritual-presence"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "He rose on the third day, appeared to witnesses, ascended to the Father's right hand, and reigns now over everything he made.",
+                "tags": [
+                  "rzg.term.providence"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:[\"father's\"]) only 15% grounded in its own tags",
+                "ratio": 0.15
+              },
+              {
+                "sentence": "What he secures for whoever believes is not earned by anything foreseen in them, but rests entirely on God's own free choice, made before the world began.",
+                "tags": [
+                  "rzg.term.predestination-election"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We do not hold that teaching as a threat - we hold it as the one ground steady enough to build a life on.",
+                "tags": [
+                  "rzg.witness.a-quieted-mind"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 6,
+                "cited_record_ids": [
+                  "rzg.quote.mass-not-a-sacrifice",
+                  "rzg.term.predestination-election",
+                  "rzg.term.providence",
+                  "rzg.term.the-lords-supper-spiritual-presence",
+                  "rzg.witness.a-quieted-mind"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "rzg",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 191
+              },
+              {
+                "index": 1,
+                "text_start": 192,
+                "text_end": 363
+              },
+              {
+                "index": 2,
+                "text_start": 364,
+                "text_end": 478
+              },
+              {
+                "index": 3,
+                "text_start": 479,
+                "text_end": 604
+              },
+              {
+                "index": 4,
+                "text_start": 605,
+                "text_end": 759
+              },
+              {
+                "index": 5,
+                "text_start": 760,
+                "text_end": 865
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "rzg.quote.mass-not-a-sacrifice",
+                "record_type": "quote",
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 0,
+                "char_start": 0,
+                "char_end": 191,
+                "surface": "He lived without sin, taught with authority, worked signs that showed who he was, and went to the cross willingly - the one sacrifice, offered once, sufficient for all who would ever believe."
+              },
+              {
+                "record_id": "rzg.quote.mass-not-a-sacrifice",
+                "record_type": "quote",
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": true,
+                "kind": "quote",
+                "sentence_index": 1,
+                "char_start": 33,
+                "char_end": 170,
+                "surface": "'Christ sacrificed himself once. That sacrifice is, to eternity, a valid and never-to-be-repeated ransom and redemption of all believers'"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "rzg.quote.mass-not-a-sacrifice",
+                "record_type": "quote",
+                "label": "The Sixty-Seven Articles, Article XVIII, lines 4565-4569 — Huldrych Zwingli",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                    "author": "Huldrych Zwingli",
+                    "work": "The Sixty-Seven Articles (1523)",
+                    "locus": "Article XVIII, lines 4565-4569",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                  }
+                ],
+                "spoken_rendering": "Christ sacrificed himself once. That sacrifice is, to eternity, a certain and valid offering for the sins of all the faithful. From this it follows that the Mass is not a sacrifice. It is a remembrance of that sacrifice, and an assurance of the salvation Christ has given us.",
+                "speaker": "Huldrych Zwingli",
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.term.the-lords-supper-spiritual-presence",
+                "record_type": "term",
+                "label": "The Lord's Supper and Spiritual Presence",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                    "author": "Huldrych Zwingli",
+                    "work": "The Sixty-Seven Articles (1523)",
+                    "locus": "Article XVIII, lines 4565-4569",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                  },
+                  {
+                    "source_id": "rzg.source.calvin-institutes-book4",
+                    "author": "John Calvin",
+                    "work": "Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the Society of Christ, and Keeps Us in It)",
+                    "locus": "e.g. lines 20735, 20812, 20934, 20943",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Henry Beveridge (Edinburgh: Calvin Translation Society, 1845), vendored as cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt"
+                  },
+                  {
+                    "source_id": "rzg.source.consensus-tigurinus",
+                    "author": "John Calvin and the Zurich pastors (jointly negotiated and signed)",
+                    "work": "Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)",
+                    "locus": "9th Head of Agreement, lines 768-770",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Henry Beveridge (1844), vendored as cic/texts/calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt (a bounded extract, pp. 195-244 of the printed volume - see the file's own intake header for the exact boundary against the volume's other, distinct contents)"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.term.predestination-election",
+                "record_type": "term",
+                "label": "Predestination and Election",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-selected-works",
+                    "author": "Huldrych Zwingli",
+                    "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                    "locus": "the 1527 Refutation's own 'On Election' section, lines approx. 9591-9762",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                  },
+                  {
+                    "source_id": "rzg.source.second-helvetic-confession",
+                    "author": "Heinrich Bullinger",
+                    "work": "The Second Helvetic Confession (1566)",
+                    "locus": "ch. X",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                  },
+                  {
+                    "source_id": "rzg.source.calvin-institutes-books2-3",
+                    "author": "John Calvin",
+                    "work": "Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining the Grace of Christ)",
+                    "locus": "Books II-III",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Henry Beveridge (Edinburgh: Calvin Translation Society, 1845), vendored as cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.witness.a-quieted-mind",
+                "record_type": "doctrinal_witness",
+                "label": "What did we offer someone who could not quiet their own mind? Not a method for searching…",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.second-helvetic-confession",
+                    "author": "Heinrich Bullinger",
+                    "work": "The Second Helvetic Confession (1566)",
+                    "locus": "ch. X, lines 667, 684-685",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "rzg.term.the-lords-supper-spiritual-presence",
+                "record_type": "term",
+                "label": "The Lord's Supper and Spiritual Presence",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                    "author": "Huldrych Zwingli",
+                    "work": "The Sixty-Seven Articles (1523)",
+                    "locus": "Article XVIII, lines 4565-4569",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                  },
+                  {
+                    "source_id": "rzg.source.calvin-institutes-book4",
+                    "author": "John Calvin",
+                    "work": "Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the Society of Christ, and Keeps Us in It)",
+                    "locus": "e.g. lines 20735, 20812, 20934, 20943",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Henry Beveridge (Edinburgh: Calvin Translation Society, 1845), vendored as cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt"
+                  },
+                  {
+                    "source_id": "rzg.source.consensus-tigurinus",
+                    "author": "John Calvin and the Zurich pastors (jointly negotiated and signed)",
+                    "work": "Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)",
+                    "locus": "9th Head of Agreement, lines 768-770",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Henry Beveridge (1844), vendored as cic/texts/calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt (a bounded extract, pp. 195-244 of the printed volume - see the file's own intake header for the exact boundary against the volume's other, distinct contents)"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.term.predestination-election",
+                "record_type": "term",
+                "label": "Predestination and Election",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-selected-works",
+                    "author": "Huldrych Zwingli",
+                    "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                    "locus": "the 1527 Refutation's own 'On Election' section, lines approx. 9591-9762",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                  },
+                  {
+                    "source_id": "rzg.source.second-helvetic-confession",
+                    "author": "Heinrich Bullinger",
+                    "work": "The Second Helvetic Confession (1566)",
+                    "locus": "ch. X",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                  },
+                  {
+                    "source_id": "rzg.source.calvin-institutes-books2-3",
+                    "author": "John Calvin",
+                    "work": "Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining the Grace of Christ)",
+                    "locus": "Books II-III",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Henry Beveridge (Edinburgh: Calvin Translation Society, 1845), vendored as cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.witness.a-quieted-mind",
+                "record_type": "doctrinal_witness",
+                "label": "What did we offer someone who could not quiet their own mind? Not a method for searching…",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.second-helvetic-confession",
+                    "author": "Heinrich Bullinger",
+                    "work": "The Second Helvetic Confession (1566)",
+                    "locus": "ch. X, lines 667, 684-685",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55 (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                3
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-3",
+      "message": "What does sola scriptura mean?",
+      "prior_turns_replayed": 2,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "later_age, first ask - in-world answer",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "rzg",
+          "text": "Scripture alone, not church tradition or a pope's decree, is the final authority for our doctrine and our civic order. Zurich enacted this through public debate; Geneva enacted it through sustained teaching. Both cities hold the same conviction. Our own founder said so of himself, and we hold it as our own rule still: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves, not from a chain of memory we do not possess and do not need. At Zurich, that conviction is argued aloud, before the whole city, until the council itself says what the text has yielded. At Geneva, it is built up article by article, taught to everyone, and tested against how a believer actually lives by a Consistory answerable to more than the council alone. We do not read these as two churches that happen to agree - we read them as one authority, proven twice over by two cities that never borrowed each other's method and never needed to.",
+          "citations": [
+            {
+              "sentence": "Scripture alone, not church tradition or a pope's decree, is the final authority for our doctrine and our civic order.",
+              "record_ids": [
+                "rzg.term.sola-scriptura"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.term.sola-scriptura",
+                  "record_type": "term",
+                  "label": "Sola Scriptura",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-selected-works",
+                      "author": "Huldrych Zwingli",
+                      "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                      "locus": "the Sixty-Seven Articles' own preface, lines 4487-4492",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                    },
+                    {
+                      "source_id": "rzg.source.calvin-geneva-catechism",
+                      "author": "John Calvin",
+                      "work": "The Catechism of the Church of Geneva",
+                      "locus": "lines approx. 1639-1642",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Zurich enacted this through public debate; Geneva enacted it through sustained teaching.",
+              "record_ids": [
+                "rzg.term.sola-scriptura"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.term.sola-scriptura",
+                  "record_type": "term",
+                  "label": "Sola Scriptura",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-selected-works",
+                      "author": "Huldrych Zwingli",
+                      "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                      "locus": "the Sixty-Seven Articles' own preface, lines 4487-4492",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                    },
+                    {
+                      "source_id": "rzg.source.calvin-geneva-catechism",
+                      "author": "John Calvin",
+                      "work": "The Catechism of the Church of Geneva",
+                      "locus": "lines approx. 1639-1642",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Both cities hold the same conviction.",
+              "record_ids": [
+                "rzg.term.sola-scriptura"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.term.sola-scriptura",
+                  "record_type": "term",
+                  "label": "Sola Scriptura",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-selected-works",
+                      "author": "Huldrych Zwingli",
+                      "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                      "locus": "the Sixty-Seven Articles' own preface, lines 4487-4492",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                    },
+                    {
+                      "source_id": "rzg.source.calvin-geneva-catechism",
+                      "author": "John Calvin",
+                      "work": "The Catechism of the Church of Geneva",
+                      "locus": "lines approx. 1639-1642",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Our own founder said so of himself, and we hold it as our own rule still: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves, not from a chain of memory we do not possess and do not need.",
+              "record_ids": [
+                "rzg.witness.what-we-have-of-christ"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.what-we-have-of-christ",
+                  "record_type": "doctrinal_witness",
+                  "label": "What do we actually have of Christ? Not a living chain",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                      "author": "Huldrych Zwingli",
+                      "work": "The Sixty-Seven Articles (1523)",
+                      "locus": "preface, lines 4487-4492",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "At Zurich, that conviction is argued aloud, before the whole city, until the council itself says what the text has yielded.",
+              "record_ids": [
+                "rzg.witness.one-conviction-two-enactments"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.one-conviction-two-enactments",
+                  "record_type": "doctrinal_witness",
+                  "label": "We hold one conviction, tested two ways",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                      "author": "Huldrych Zwingli",
+                      "work": "The Sixty-Seven Articles (1523)",
+                      "locus": "the disputational method itself -- doctrine argued aloud, ratified by council vote",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                    },
+                    {
+                      "source_id": "rzg.source.calvin-geneva-catechism",
+                      "author": "John Calvin",
+                      "work": "The Catechism of the Church of Geneva",
+                      "locus": "the catechetical method itself -- doctrine built article by article, taught to the whole population",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "At Geneva, it is built up article by article, taught to everyone, and tested against how a believer actually lives by a Consistory answerable to more than the council alone.",
+              "record_ids": [
+                "rzg.witness.one-conviction-two-enactments"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.one-conviction-two-enactments",
+                  "record_type": "doctrinal_witness",
+                  "label": "We hold one conviction, tested two ways",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                      "author": "Huldrych Zwingli",
+                      "work": "The Sixty-Seven Articles (1523)",
+                      "locus": "the disputational method itself -- doctrine argued aloud, ratified by council vote",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                    },
+                    {
+                      "source_id": "rzg.source.calvin-geneva-catechism",
+                      "author": "John Calvin",
+                      "work": "The Catechism of the Church of Geneva",
+                      "locus": "the catechetical method itself -- doctrine built article by article, taught to the whole population",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We do not read these as two churches that happen to agree - we read them as one authority, proven twice over by two cities that never borrowed each other's method and never needed to.",
+              "record_ids": [
+                "rzg.witness.one-conviction-two-enactments"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.one-conviction-two-enactments",
+                  "record_type": "doctrinal_witness",
+                  "label": "We hold one conviction, tested two ways",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                      "author": "Huldrych Zwingli",
+                      "work": "The Sixty-Seven Articles (1523)",
+                      "locus": "the disputational method itself -- doctrine argued aloud, ratified by council vote",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                    },
+                    {
+                      "source_id": "rzg.source.calvin-geneva-catechism",
+                      "author": "John Calvin",
+                      "work": "The Catechism of the Church of Geneva",
+                      "locus": "the catechetical method itself -- doctrine built article by article, taught to the whole population",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "rzg.term.consistory",
+              "matched_name": "Consistory",
+              "text_start": 747,
+              "plain_meaning": "At Geneva, the Consistory is our body of pastors and lay elders. It holds our whole population's daily conduct to account. Zurich has no equivalent. Its council governs church and city directly.",
+              "quick_meaning": "Geneva's own body of pastors and lay elders. It holds our whole population's daily conduct to account. We can state the general doctrine plainly. Our own day-to-day case history is not yet something our sources can supply.",
+              "translational_sense": "What we cannot yet supply is our own day-to-day operation: the real case-by-case practice, what a summons before us actually involved. A vivid, specific picture of that daily operation is not something our own sources can currently support.",
+              "false_friend": [
+                "a harsh moral-surveillance body, imagined in vivid institutional detail - a court that summoned households, inspected private life, and enforced conformity street by street"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                  "author": "Huldrych Zwingli",
+                  "work": "The Sixty-Seven Articles (1523)",
+                  "locus": "the disputational method itself -- doctrine argued aloud, ratified by council vote",
+                  "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                  "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                },
+                {
+                  "source_id": "rzg.source.calvin-geneva-catechism",
+                  "author": "John Calvin",
+                  "work": "The Catechism of the Church of Geneva",
+                  "locus": "the catechetical method itself -- doctrine built article by article, taught to the whole population",
+                  "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                  "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                }
+              ]
+            }
+          ],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Scripture alone, not church tradition or a pope's decree, is the final authority for our doctrine and our civic order.",
+                "tags": [
+                  "rzg.term.sola-scriptura"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Zurich enacted this through public debate; Geneva enacted it through sustained teaching.",
+                "tags": [
+                  "rzg.term.sola-scriptura"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Both cities hold the same conviction.",
+                "tags": [
+                  "rzg.term.sola-scriptura"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Our own founder said so of himself, and we hold it as our own rule still: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves, not from a chain of memory we do not possess and do not need.",
+                "tags": [
+                  "rzg.witness.what-we-have-of-christ"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "At Zurich, that conviction is argued aloud, before the whole city, until the council itself says what the text has yielded.",
+                "tags": [
+                  "rzg.witness.one-conviction-two-enactments"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "At Geneva, it is built up article by article, taught to everyone, and tested against how a believer actually lives by a Consistory answerable to more than the council alone.",
+                "tags": [
+                  "rzg.witness.one-conviction-two-enactments"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "We do not read these as two churches that happen to agree - we read them as one authority, proven twice over by two cities that never borrowed each other's method and never needed to.",
+                "tags": [
+                  "rzg.witness.one-conviction-two-enactments"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "rzg.term.sola-scriptura",
+                  "rzg.witness.one-conviction-two-enactments",
+                  "rzg.witness.what-we-have-of-christ"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "rzg",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 118
+              },
+              {
+                "index": 1,
+                "text_start": 119,
+                "text_end": 207
+              },
+              {
+                "index": 2,
+                "text_start": 208,
+                "text_end": 245
+              },
+              {
+                "index": 3,
+                "text_start": 246,
+                "text_end": 502
+              },
+              {
+                "index": 4,
+                "text_start": 503,
+                "text_end": 626
+              },
+              {
+                "index": 5,
+                "text_start": 627,
+                "text_end": 800
+              },
+              {
+                "index": 6,
+                "text_start": 801,
+                "text_end": 984
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "rzg.term.consistory",
+                "record_type": "term",
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 5,
+                "char_start": 120,
+                "char_end": 130,
+                "surface": "Consistory"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "rzg.term.sola-scriptura",
+                "record_type": "term",
+                "label": "Sola Scriptura",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-selected-works",
+                    "author": "Huldrych Zwingli",
+                    "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                    "locus": "the Sixty-Seven Articles' own preface, lines 4487-4492",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                  },
+                  {
+                    "source_id": "rzg.source.calvin-geneva-catechism",
+                    "author": "John Calvin",
+                    "work": "The Catechism of the Church of Geneva",
+                    "locus": "lines approx. 1639-1642",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.witness.what-we-have-of-christ",
+                "record_type": "doctrinal_witness",
+                "label": "What do we actually have of Christ? Not a living chain",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                    "author": "Huldrych Zwingli",
+                    "work": "The Sixty-Seven Articles (1523)",
+                    "locus": "preface, lines 4487-4492",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Synthesizes already-verified rzg.term.sola-scriptura and rzg.quote.taught-better-from-scripture content into first-person voice for this specific cell; no new primary-source claim is introduced beyond what those records already establish.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "rzg.witness.one-conviction-two-enactments",
+                "record_type": "doctrinal_witness",
+                "label": "We hold one conviction, tested two ways",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                    "author": "Huldrych Zwingli",
+                    "work": "The Sixty-Seven Articles (1523)",
+                    "locus": "the disputational method itself -- doctrine argued aloud, ratified by council vote",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                  },
+                  {
+                    "source_id": "rzg.source.calvin-geneva-catechism",
+                    "author": "John Calvin",
+                    "work": "The Catechism of the Church of Geneva",
+                    "locus": "the catechetical method itself -- doctrine built article by article, taught to the whole population",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "G3's own core conviction (Scripture alone is sufficient to test and warrant doctrine and civic order) is independently Documented cross-strand at Doc_04's own per-gravity level; the claim that Disputation and catechesis are two ENACTMENTS OF ONE METHOD, rather than two separate practices that happen to share a scriptural warrant, is Doc_07 SS2I's own synthesis -- a defensible, well-argued reading, not an independently attested Reformed self-description of the unity as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "rzg.term.sola-scriptura",
+                "record_type": "term",
+                "label": "Sola Scriptura",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-selected-works",
+                    "author": "Huldrych Zwingli",
+                    "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                    "locus": "the Sixty-Seven Articles' own preface, lines 4487-4492",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                  },
+                  {
+                    "source_id": "rzg.source.calvin-geneva-catechism",
+                    "author": "John Calvin",
+                    "work": "The Catechism of the Church of Geneva",
+                    "locus": "lines approx. 1639-1642",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.witness.what-we-have-of-christ",
+                "record_type": "doctrinal_witness",
+                "label": "What do we actually have of Christ? Not a living chain",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                    "author": "Huldrych Zwingli",
+                    "work": "The Sixty-Seven Articles (1523)",
+                    "locus": "preface, lines 4487-4492",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Synthesizes already-verified rzg.term.sola-scriptura and rzg.quote.taught-better-from-scripture content into first-person voice for this specific cell; no new primary-source claim is introduced beyond what those records already establish.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "rzg.witness.one-conviction-two-enactments",
+                "record_type": "doctrinal_witness",
+                "label": "We hold one conviction, tested two ways",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                    "author": "Huldrych Zwingli",
+                    "work": "The Sixty-Seven Articles (1523)",
+                    "locus": "the disputational method itself -- doctrine argued aloud, ratified by council vote",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                  },
+                  {
+                    "source_id": "rzg.source.calvin-geneva-catechism",
+                    "author": "John Calvin",
+                    "work": "The Catechism of the Church of Geneva",
+                    "locus": "the catechetical method itself -- doctrine built article by article, taught to the whole population",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "G3's own core conviction (Scripture alone is sufficient to test and warrant doctrine and civic order) is independently Documented cross-strand at Doc_04's own per-gravity level; the claim that Disputation and catechesis are two ENACTMENTS OF ONE METHOD, rather than two separate practices that happen to share a scriptural warrant, is Doc_07 SS2I's own synthesis -- a defensible, well-argued reading, not an independently attested Reformed self-description of the unity as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-4",
+      "message": "Why did your people believe this?",
+      "prior_turns_replayed": 3,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "rzg",
+          "text": "Because it is what Scripture itself yields when tested openly, not inherited because it had always been done. In 1523, six hundred people filled Zurich's own Town Hall to test our founder's case against Scripture, and the council ruled for it, binding every priest in its territory to preach the same way. That is how we actually decided to reform - not a private conviction handed down, but a public argument tested until the city itself judged what the text had yielded. Geneva built the same conviction differently: doctrine worked out article by article until the whole shape of what Scripture teaches stood complete, taught to the whole population through the Catechism, and tested against ordinary conduct by seniors chosen from the people who unite with the pastors to pronounce censures and exercise discipline. Two cities, two methods, one conviction: whatever Scripture will not yield, we have no standing to require. We held the alternatives we refused to be wrong, not merely different - Rome's repeated sacrifice, Wittenberg's body confined to bread, and a third claim from inside our own circle that only a believer's chosen profession makes a true church. Each time, the same test: does this reading hold against Scripture?",
+          "citations": [
+            {
+              "sentence": "Because it is what Scripture itself yields when tested openly, not inherited because it had always been done.",
+              "record_ids": [
+                "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+                  "record_type": "gravity",
+                  "label": "Scripture as Sole and Sufficient Authority, Enacted Through Disputation and Catechesis",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-selected-works",
+                      "author": "Huldrych Zwingli",
+                      "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                      "locus": "the Acts of the First and Second Zurich Disputations (1523) - contemporary institutional record, not a later reconstruction",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                    },
+                    {
+                      "source_id": "rzg.source.calvin-geneva-catechism",
+                      "author": "John Calvin",
+                      "work": "The Catechism of the Church of Geneva",
+                      "locus": "whole file - Calvin's own catechetical enactment of the same conviction at Geneva",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                    },
+                    {
+                      "source_id": "rzg.source.heidelberg-catechism",
+                      "author": "Zacharias Ursinus and Caspar Olevianus (traditional joint attribution)",
+                      "work": "The Heidelberg Catechism (1563)",
+                      "locus": "whole file - a later, fixed statement of the same founding conviction",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 69 (original pp. 529-554), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "In 1523, six hundred people filled Zurich's own Town Hall to test our founder's case against Scripture, and the council ruled for it, binding every priest in its territory to preach the same way.",
+              "record_ids": [
+                "rzg.story.first-zurich-disputation"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.story.first-zurich-disputation",
+                  "record_type": "story",
+                  "label": "In 1523, six hundred people filled Zurich's own Town Hall to test our founder's own case against Scripture, and the council ruled for it, binding every priest in its territory to preach the same way.",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-selected-works",
+                      "author": "Huldrych Zwingli",
+                      "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                      "locus": "lines 1513-1654, 1665-1678",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That is how we actually decided to reform - not a private conviction handed down, but a public argument tested until the city itself judged what the text had yielded.",
+              "record_ids": [
+                "rzg.term.disputation"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.term.disputation",
+                  "record_type": "term",
+                  "label": "Disputation",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-selected-works",
+                      "author": "Huldrych Zwingli",
+                      "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                      "locus": "the Acts of the First and Second Zurich Disputations, lines approx. 4487-4700",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Two cities, two methods, one conviction: whatever Scripture will not yield, we have no standing to require.",
+              "record_ids": [
+                "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+                  "record_type": "gravity",
+                  "label": "Scripture as Sole and Sufficient Authority, Enacted Through Disputation and Catechesis",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-selected-works",
+                      "author": "Huldrych Zwingli",
+                      "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                      "locus": "the Acts of the First and Second Zurich Disputations (1523) - contemporary institutional record, not a later reconstruction",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                    },
+                    {
+                      "source_id": "rzg.source.calvin-geneva-catechism",
+                      "author": "John Calvin",
+                      "work": "The Catechism of the Church of Geneva",
+                      "locus": "whole file - Calvin's own catechetical enactment of the same conviction at Geneva",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                    },
+                    {
+                      "source_id": "rzg.source.heidelberg-catechism",
+                      "author": "Zacharias Ursinus and Caspar Olevianus (traditional joint attribution)",
+                      "work": "The Heidelberg Catechism (1563)",
+                      "locus": "whole file - a later, fixed statement of the same founding conviction",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 69 (original pp. 529-554), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We held the alternatives we refused to be wrong, not merely different - Rome's repeated sacrifice, Wittenberg's body confined to bread, and a third claim from inside our own circle that only a believer's chosen profession makes a true church.",
+              "record_ids": [
+                "rzg.witness.a-narrow-true-church"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.a-narrow-true-church",
+                  "record_type": "doctrinal_witness",
+                  "label": "Too narrow, one way among every way people have ever reached for God? We will not answer…",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                      "author": "Huldrych Zwingli",
+                      "work": "The Sixty-Seven Articles (1523)",
+                      "locus": "Article XVIII's own wider polemic",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Each time, the same test: does this reading hold against Scripture?",
+              "record_ids": [
+                "rzg.witness.a-narrow-true-church"
+              ],
+              "sources": [
+                {
+                  "record_id": "rzg.witness.a-narrow-true-church",
+                  "record_type": "doctrinal_witness",
+                  "label": "Too narrow, one way among every way people have ever reached for God? We will not answer…",
+                  "sources": [
+                    {
+                      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                      "author": "Huldrych Zwingli",
+                      "work": "The Sixty-Seven Articles (1523)",
+                      "locus": "Article XVIII's own wider polemic",
+                      "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                      "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "rzg.term.catechism",
+              "matched_name": "Catechism",
+              "text_start": 665,
+              "plain_meaning": "A catechism is a fixed, memorizable statement of doctrine. We teach it to our whole population. We hold more than one. They are not all the same voice.",
+              "quick_meaning": "A fixed statement of doctrine, taught to our whole population. We hold at least three distinct catechetical voices, not one.",
+              "translational_sense": "This is not a dry list of facts to memorize for its own sake. It is how we hand our own convictions on to those who come after us without letting them drift.",
+              "false_friend": [
+                "a single, uniform genre repeated identically across every Reformed city, rather than several distinct catechetical voices"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Because it is what Scripture itself yields when tested openly, not inherited because it had always been done.",
+                "tags": [
+                  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "In 1523, six hundred people filled Zurich's own Town Hall to test our founder's case against Scripture, and the council ruled for it, binding every priest in its territory to preach the same way.",
+                "tags": [
+                  "rzg.story.first-zurich-disputation"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "That is how we actually decided to reform - not a private conviction handed down, but a public argument tested until the city itself judged what the text had yielded.",
+                "tags": [
+                  "rzg.term.disputation"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Geneva built the same conviction differently: doctrine worked out article by article until the whole shape of what Scripture teaches stood complete, taught to the whole population through the Catechism, and tested against ordinary conduct by seniors chosen from the people who unite with the pastors to pronounce censures and exercise discipline.",
+                "tags": [
+                  "rzg.quote.seniors-selected-from-the-people"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['catechism']) only 27% grounded in its own tags; inside a named thin topic: ['ordinary'] (No surviving account of ordinary daily/lay religious practice at either city - the genre asymmetry Doc_05 SS0 item 4 and Doc_09 SS7 item 1 both name; doctrine and confession are richly vendored, daily texture is almost entirely absent.)",
+                "ratio": 0.27
+              },
+              {
+                "sentence": "Two cities, two methods, one conviction: whatever Scripture will not yield, we have no standing to require.",
+                "tags": [
+                  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "We held the alternatives we refused to be wrong, not merely different - Rome's repeated sacrifice, Wittenberg's body confined to bread, and a third claim from inside our own circle that only a believer's chosen profession makes a true church.",
+                "tags": [
+                  "rzg.witness.a-narrow-true-church"
+                ],
+                "verdict": "ok",
+                "why": "grounded 96% in own tagged records",
+                "ratio": 0.96
+              },
+              {
+                "sentence": "Each time, the same test: does this reading hold against Scripture?",
+                "tags": [
+                  "rzg.witness.a-narrow-true-church"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+                  "rzg.quote.seniors-selected-from-the-people",
+                  "rzg.story.first-zurich-disputation",
+                  "rzg.term.disputation",
+                  "rzg.witness.a-narrow-true-church"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "rzg",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 109
+              },
+              {
+                "index": 1,
+                "text_start": 110,
+                "text_end": 305
+              },
+              {
+                "index": 2,
+                "text_start": 306,
+                "text_end": 472
+              },
+              {
+                "index": 3,
+                "text_start": 473,
+                "text_end": 819
+              },
+              {
+                "index": 4,
+                "text_start": 820,
+                "text_end": 927
+              },
+              {
+                "index": 5,
+                "text_start": 928,
+                "text_end": 1170
+              },
+              {
+                "index": 6,
+                "text_start": 1171,
+                "text_end": 1238
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "rzg.story.first-zurich-disputation",
+                "record_type": "story",
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "story",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 195,
+                "surface": "In 1523, six hundred people filled Zurich's own Town Hall to test our founder's case against Scripture, and the council ruled for it, binding every priest in its territory to preach the same way."
+              },
+              {
+                "record_id": "rzg.term.catechism",
+                "record_type": "term",
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Built from Doc_03's own candidate-roster entry, not from a dedicated per-term research pass at Doc_06 - this world's own disclosed deferral (Doc_06 SS0) for the eleven non-Tier-1 candidates. The underlying doctrine is Documented in the cited source, but this specific record's own citation was not independently re-verified against the vendored file this pass, hence verified-via-authority rather than verified-direct.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 3,
+                "char_start": 192,
+                "char_end": 201,
+                "surface": "Catechism"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+                "record_type": "gravity",
+                "label": "Scripture as Sole and Sufficient Authority, Enacted Through Disputation and Catechesis",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-selected-works",
+                    "author": "Huldrych Zwingli",
+                    "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                    "locus": "the Acts of the First and Second Zurich Disputations (1523) - contemporary institutional record, not a later reconstruction",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                  },
+                  {
+                    "source_id": "rzg.source.calvin-geneva-catechism",
+                    "author": "John Calvin",
+                    "work": "The Catechism of the Church of Geneva",
+                    "locus": "whole file - Calvin's own catechetical enactment of the same conviction at Geneva",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                  },
+                  {
+                    "source_id": "rzg.source.heidelberg-catechism",
+                    "author": "Zacharias Ursinus and Caspar Olevianus (traditional joint attribution)",
+                    "work": "The Heidelberg Catechism (1563)",
+                    "locus": "whole file - a later, fixed statement of the same founding conviction",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 69 (original pp. 529-554), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.story.first-zurich-disputation",
+                "record_type": "story",
+                "label": "In 1523, six hundred people filled Zurich's own Town Hall to test our founder's own case against Scripture, and the council ruled for it, binding every priest in its territory to preach the same way.",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-selected-works",
+                    "author": "Huldrych Zwingli",
+                    "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                    "locus": "lines 1513-1654, 1665-1678",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.term.disputation",
+                "record_type": "term",
+                "label": "Disputation",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-selected-works",
+                    "author": "Huldrych Zwingli",
+                    "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                    "locus": "the Acts of the First and Second Zurich Disputations, lines approx. 4487-4700",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.witness.a-narrow-true-church",
+                "record_type": "doctrinal_witness",
+                "label": "Too narrow, one way among every way people have ever reached for God? We will not answer…",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                    "author": "Huldrych Zwingli",
+                    "work": "The Sixty-Seven Articles (1523)",
+                    "locus": "Article XVIII's own wider polemic",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+                "record_type": "gravity",
+                "label": "Scripture as Sole and Sufficient Authority, Enacted Through Disputation and Catechesis",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-selected-works",
+                    "author": "Huldrych Zwingli",
+                    "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                    "locus": "the Acts of the First and Second Zurich Disputations (1523) - contemporary institutional record, not a later reconstruction",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                  },
+                  {
+                    "source_id": "rzg.source.calvin-geneva-catechism",
+                    "author": "John Calvin",
+                    "work": "The Catechism of the Church of Geneva",
+                    "locus": "whole file - Calvin's own catechetical enactment of the same conviction at Geneva",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "English translation by Elijah Waterman (Hartford, 1815), vendored as cic/texts/calvin_geneva-catechism_waterman1815.txt"
+                  },
+                  {
+                    "source_id": "rzg.source.heidelberg-catechism",
+                    "author": "Zacharias Ursinus and Caspar Olevianus (traditional joint attribution)",
+                    "work": "The Heidelberg Catechism (1563)",
+                    "locus": "whole file - a later, fixed statement of the same founding conviction",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 69 (original pp. 529-554), within Philip Schaff's compiled Creeds of Christendom (1919 printing)"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.term.disputation",
+                "record_type": "term",
+                "label": "Disputation",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-selected-works",
+                    "author": "Huldrych Zwingli",
+                    "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                    "locus": "the Acts of the First and Second Zurich Disputations, lines approx. 4487-4700",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "rzg.witness.a-narrow-true-church",
+                "record_type": "doctrinal_witness",
+                "label": "Too narrow, one way among every way people have ever reached for God? We will not answer…",
+                "sources": [
+                  {
+                    "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                    "author": "Huldrych Zwingli",
+                    "work": "The Sixty-Seven Articles (1523)",
+                    "locus": "Article XVIII's own wider polemic",
+                    "rights_status": "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself",
+                    "edition": "Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt, lines approx. 4485-4700 within the Acts of the First Zurich Disputation"
+                  }
+                ],
+                "world_key": "rzg",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                3
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "crisis_append_proven": null
+}

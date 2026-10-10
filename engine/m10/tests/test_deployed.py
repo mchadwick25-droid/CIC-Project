@@ -48,12 +48,11 @@ def _records(quotes=3, living=None, anchor=ANCHOR, entries=tuple(ENTRIES)):
     return records
 
 
-def _prompt(quotes=3, living=None, self_reference=HARDENING, quotation="Every record listed under Quotes we hold qualifies.", anchor=ANCHOR):
+def _prompt(gravities=1, living=None, self_reference=HARDENING, quotation="Every quote record offered in this turn's ground qualifies.", anchor=ANCHOR):
     parts = ([f"## Where our images come from\n\n{anchor}\n"] if anchor else []) + ["## How we word things", f"- [self-reference] Strict we-voice. {self_reference}", f"- [quotation] {quotation}", "",
-             "## Gravities (cite as [[w.core.w]])", "- [[w.gravity.g1]] Name", ""]
+             "## Gravities (cite as [[w.core.w]])"] + [f"- [[w.gravity.g{i}]] Name" for i in range(1, gravities + 1)] + [""]
     if living:
         parts += ["## Living traditions (cite as [[w.core.w]])", "", living, ""]
-    parts += ["## Quotes we hold (opening words only)"] + [f"- [[w.quote.q{i}]] someone: words" for i in range(quotes)]
     return "\n".join(parts) + "\n"
 
 
@@ -177,13 +176,13 @@ def test_missing_self_reference_hardening_in_the_shape_segment_names_each_absent
 
 
 def test_stale_quotation_count_fails():
-    prompt = _prompt(quotes=5, quotation="Three exist. Martin's answer. The elder. Vincent's line.")
+    prompt = _prompt(quotation="Three exist. Martin's answer. The elder. Vincent's line.")
     findings, _ = check_prompt_content("w", prompt, _records(quotes=5), {}, "p")
     assert "k:quote-count" in _ids(findings)
 
 
 def test_correct_stated_quotation_count_passes():
-    prompt = _prompt(quotes=3, quotation="Three exist and all are quoted with marks.")
+    prompt = _prompt(quotation="Three exist and all are quoted with marks.")
     findings, _ = check_prompt_content("w", prompt, _records(quotes=3), {}, "p")
     assert findings == []
 
@@ -194,9 +193,9 @@ def test_stated_record_count_anywhere_in_the_prompt_must_match():
     assert "k:quote-count" in _ids(findings)
 
 
-def test_quote_index_must_list_exactly_the_records():
-    findings, _ = check_prompt_content("w", _prompt(quotes=2), _records(quotes=3), {}, "p")
-    assert _ids(findings) == ["k:quote-index"]
+def test_gravity_index_must_list_exactly_the_records():
+    findings, _ = check_prompt_content("w", _prompt(gravities=0), _records(), {}, "p")
+    assert _ids(findings) == ["k:gravity-index"]
 
 
 def _world_root(tmp_path, prompt, records, *, tamper=False):
@@ -255,7 +254,7 @@ def test_failure_messages_say_where_to_author_the_fix(monkeypatch):
     reason = next(f.reason for f in findings if f.check == "k:self-reference")
     assert "engine shape segment" in reason and "fleet_voice record's pronoun_rule" in reason
     monkeypatch.undo()
-    findings, _ = check_prompt_content("w", "## Quotes we hold\n", _records(anchor=None, quotes=0), {}, "pin")
+    findings, _ = check_prompt_content("w", "## Gravities\n", _records(anchor=None, quotes=0), {}, "pin")
     by_check = {f.check: f.reason for f in findings}
     assert "source_anchor and source_anchor_entries fields" in by_check["k:source-anchor"]
     thin = _records(entries=tuple(ENTRIES[:2]))
@@ -499,6 +498,6 @@ def test_the_same_prompt_fails_a_world_that_is_not_a_fixture():
 
 
 def test_a_fixture_world_still_gets_every_other_check():
-    prompt = _prompt(quotes=5, quotation="Three exist. Martin's answer. The elder. Vincent's line.", self_reference="Strict we-voice, always.", anchor=None)
+    prompt = _prompt(quotation="Three exist. Martin's answer. The elder. Vincent's line.", self_reference="Strict we-voice, always.", anchor=None)
     findings, _ = check_prompt_content("w", prompt, _records(quotes=5, anchor=None), {"kind": "fixture"}, "p")
     assert _ids(findings) == ["k:quote-count"]

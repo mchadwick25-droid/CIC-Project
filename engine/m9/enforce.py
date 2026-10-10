@@ -154,7 +154,6 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:reciprocity/gallic": Waiver(count=14, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; gallic's own build thread"),
     "m1:reciprocity/pahc": Waiver(count=2, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; pahc's own build thread"),
     "m1:voice-perspective/cappadocian": Waiver(count=1, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; cappadocian's own build thread"),
-    "m1:voice-perspective/syr": Waiver(count=1, deadline="2026-12-14", owner="D2 SS1.3(e) - syr's own known voice-perspective gap; syr's build thread"),
     "m9:shelf-row/rzg": Waiver(count=11, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:shelf-row/witt": Waiver(count=47, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m1:quote-verbatim/gallic": Waiver(count=1, deadline="2026-12-14", owner="gallic.quote.salvian-on-the-unburied-dead - one footnote-marker artifact in cic/texts/salvian_on-the-government-of-god_sanford1930.txt (a bare closing curly quote glued to \"captures,\" with no matching open, unlike this edition's other two now-registered apparatus patterns) isn't a safe edition-wide regex (41 real opening curly quotes and legitimate closing-quote usage elsewhere in this same file); needs a narrower, structurally-anchored rule, not a blanket strip - Decision 8B's own gallic thread"),
@@ -166,21 +165,21 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     # never graded, mostly concentrated in doctrinal_witness.positions
     # and gravity/force.description across the fleet.
     "m1:readability/alx": Waiver(count=20, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; alx's own build thread"),
-    "m1:readability/cappadocian": Waiver(count=302, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
+    "m1:readability/cappadocian": Waiver(count=274, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
     "m1:readability/desert": Waiver(count=153, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
-    "m1:readability/don": Waiver(count=330, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
+    "m1:readability/don": Waiver(count=320, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
     "m1:readability/gallic": Waiver(count=101, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; gallic's own build thread"),
-    "m1:readability/hal": Waiver(count=161, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
-    "m1:readability/ijc": Waiver(count=156, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
+    "m1:readability/hal": Waiver(count=159, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
+    "m1:readability/ijc": Waiver(count=155, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
     "m1:readability/pahc": Waiver(count=160, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; pahc's own build thread"),
-    "m1:readability/rzg": Waiver(count=134, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
+    "m1:readability/rzg": Waiver(count=131, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
     "m1:readability/syr": Waiver(count=153, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
-    "m1:readability/witt": Waiver(count=194, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
+    "m1:readability/witt": Waiver(count=186, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
     # gate_readability_fleet's own findings (fleet_voice and modern_term
     # spoken fields) - counted once against the
     # FLEET_PSEUDO_WORLD key, never against any single real world's own
     # count, for the reason gate_readability_fleet's own docstring gives.
-    "m1:readability-fleet/_fleet": Waiver(count=7, deadline="2026-12-14", owner="pre-existing fleet_voice/modern_term spoken-field content exceeds the FK/FRE ceiling; fleet-content build thread"),
+    "m1:readability-fleet/_fleet": Waiver(count=5, deadline="2026-12-14", owner="pre-existing fleet_voice/modern_term spoken-field content exceeds the FK/FRE ceiling; fleet-content build thread"),
     # Slice 5 (System Hub decision 40): the status, cells-required and horizon
     # gates' findings on content that predates them.
     "m1:cells-required/alx": Waiver(count=4, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; alx's own build thread"),

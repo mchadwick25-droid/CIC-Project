@@ -620,3 +620,47 @@ Status: OPEN.
 Not fixed; content for this world's build thread. (1) `pahc.quote.jesus-christ-our-god`: locus and speaker say Ephesians VII, but the quoted text is Trallians VII (anf01 `v.iv.vii`, near line 6509) - a misattributed quote in a voiced record. (2) `pahc.quote.those-who-lived-reasonably-are-christians`: the body says "four figures from Daniel"; there are three (Elias is Elijah). (3) `pahc.story.nero-scapegoating` (body) and `pahc.story.mutual-aid-prisoner` (divergence_note and body) still say Tacitus and Lucian are not vendored; both now are, and are quoted. (4) `pahc.limit.womens-own-words` calls ministrae "a title of service, of office" and `pahc.limit.enslaved-voices` glosses it "deacons", against `pahc.term.ministrae`, which says the office is not established. (5) `pahc.limit.enslaved-voices` and `pahc.limit.womens-own-words` are still at record status draft. (6) `pahc.term.ministrae`'s body says it is "carried here as Contested at the record level", but its formation_confidence is Documented.
 
 Status: OPEN.
+
+### OG-24. Voice errors found in the staging reading of the voice hand-off, 2026-10-07.
+
+Errors in the voice's replies in the named, capped live test "voice hand-off staging reading, 7 October" (decision 57): four questions put to this world's Representative on main at ccc0ae4e, the merge of #811. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-pahc-2026-10-07-voice-handoff-staging-reading.json` (#816). Not fixed; content for this world's build thread. Items are grouped by the reading's five defect classes: (A) altered words inside quote marks; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) doctrinal-witness text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record. A class not listed did not occur in this world.
+
+(1) (C) "Who is Jesus?": the whole reply is `pahc.demo.center-who-was-jesus` word for word (a 160-word shared run in a 159-word reply).
+
+(2) (D) "What did he do?" reproduces `pahc.witness.how-we-know` near word for word for about 85 words. The Two Ways reply lifts the closing sentence of `pahc.witness.hard-texts`.
+
+(3) (E) "Who is Jesus?": "More than one of our own households uses those words, not only Ignatius's own." Only `pahc.demo.center-who-was-jesus` carries it, so the defect is in that record too. It goes against the not_for of `pahc.term.eucharistia` (a uniform ritual with fixed prayers) and implies Ignatius used the Didache's words. The grounding net marked it withhold; it was spoken without a citation.
+
+(4) (E) "What did he do?": "He preached, gathered followers." No pahc record narrates Jesus's ministry; in the records only the apostles preach. The grounding net marked it withhold (14% grounded); it was spoken without a citation.
+
+Status: OPEN.
+
+### OG-25. Voice errors found in the record pass staging reading, 9 October.
+
+Errors in the voice's replies in the named, capped live test "record pass staging reading, 9 October" (decision 56): six questions put to this world's Representative in one conversation on main at 691d2daa, after the identity-first, no-scaffolding record pass. Each item was traced against this world's records by an independent Opus check. The replies are in `engine/m4/reports/live-turn-report-pahc-2026-10-09-record-pass-staging-reading.json`. Not fixed; content for this world's build thread. Items use the five defect classes of the voice-errors entry of 2026-10-07: (A) altered words inside quote marks or in a line given as a figure's own words; (B) scripture or creed quoted or listed with no record behind it; (C) a demonstration record recited word for word; (D) record text pasted near word for word, including a record's own scripted question; (E) a misstatement against a specific record; and three more: (F) a question opener or stage direction; (G) the voice outside its own years or outside the we-voice; (H) rhythm against decision 60 (quote or name pacing, a quote or story repeated rather than referred back to, a lexicon mark repeated). A class not listed did not occur in this world. In this run 9 sentence(s) the grounding net marked "withhold" still reached the reply text: `grounding_net.shown_text` takes the quotation marks off but keeps the sentence, and `sentence_enforce` is off. Decision 59(1) says such a sentence is withheld. This is a fleet-level engine finding, raised with the project lead, not a record defect of this world.
+
+(1) (A) "Who is Jesus?": "Here is Ignatius himself: So close your ears ... Jesus Christ was from the line of David. He was the son of Mary. He was truly born. He ate, and he drank ..." is spoken as Ignatius's own words, but `pahc.quote.ignatius-truly-born` renders it "He came from the family of David, and he was also Mary's son. He was truly born, and he ate and drank"; the net marked it withhold under decision 59(1), yet the sentence was still delivered with its marks removed.
+
+(2) (A) "Tell me about someone who lived this out.": the Shepherd's words "do not hesitate to ask the Lord for anything ... you will know his great compassion - that he will never abandon you, but will fulfill the request of your soul" do not match `pahc.quote.put-away-doubting-from-you`, which reads "do not hesitate to ask the Lord ... Then you will know the abundance of his tender mercies..." and stops there; the net marked it withhold, yet it was delivered.
+
+(3) (B) "Who is Jesus?": "To us Jesus is the Son of God" is a creedal title with no record behind it; neither tagged record (`pahc.witness.who-was-jesus`, `pahc.witness.jesus-as-god`) nor any other pahc record uses the phrase.
+
+(4) (D) "Who is Jesus?" reproduces `pahc.witness.who-was-jesus` (from "truly born of Mary" to "made known to us through Jesus") and the whole of `pahc.witness.jesus-as-god` ("Ignatius calls him our God again and again ... We cannot tell you we had settled how") near word for word.
+
+(5) (D) "What does the Two Ways mean?": "In at least one of our own communities ... We cannot promise you every household among us taught it this same way. This comes from one community's own manual, and nothing tells us how far it reached" is `pahc.witness.hard-texts` near word for word, the same lift OG-24 recorded on 7 October.
+
+(6) (D) "Why did your people believe this?": "Before the water, a person preparing for baptism was taught that two ways lay open ... adaptable to a community's own occasion rather than issued from a single central authority" is the etic description of `pahc.force.two-ways-catechetical-inheritance` pasted word for word into the we-voice.
+
+(7) (D) "Tell me about someone who lived this out.": "put doubting away from yourself. Do not hold back from asking, even after you have sinned badly, as though God kept score the way people do ..." is `pahc.witness.doubt-and-asking` near word for word.
+
+(8) (D) "What would you want me to understand that I haven't asked?": "Almost none of the people who actually gathered with us left any words of their own ... They were never given the chance to be heard in the first place" and the leadership paragraph are `pahc.witness.what-we-never-settled` near word for word, reordered.
+
+(9) (E) "What did he do?": "We have no stories of particular days with him" is uncited, and it goes against `pahc.witness.how-we-know` and `pahc.quote.the-memoirs-of-the-apostles-are-read`, which hold the apostles' memoirs of him read aloud; the net's inherited verdict marked it withhold.
+
+(10) (E) "What did he do?": "what the apostles wrote down and what they preached, read aloud in our gatherings" drops the scope of `pahc.witness.how-we-know` ("In some of our households"; "In Rome by the mid-2nd century"), against that record's not_for on network-wide claims.
+
+(11) (H) "Why did your people believe this?": the Didache opening "There are two ways: one of life and one of death ... you also must not do to another" (`pahc.quote.two-ways-one-of-life-and-one-of-death`) is voiced in full a second time, one round after the Two Ways reply, breaking decision 60(1) (no line voiced twice) and its 7 October refinement (refer back, do not repeat).
+
+(12) (H) "Tell me about someone who lived this out." and "What would you want me to understand that I haven't asked?": a voiced quote comes in turns 3, 4, 5 and 6 (Didache, Didache again, the Shepherd, Justin), against decision 60(1)'s one voiced quote every three rounds; and Justin is a new figure one round after Hermas, against decision 60(2).
+
+Status: OPEN.

@@ -65,15 +65,15 @@ replaces what runs on it.
 
 The flag-gated enforcement mode: `--enforce` runs a SEPARATE, simpler mode (run_enforced
 below) against the SAME probes, with the flag actually on
-(r27_enforce=True) - a real generation call, one regeneration if a
+(enforcement on) - a real generation call, one regeneration if a
 wholly_uncited_paragraph or neighbour_named offense fires, then the
 Facilitator if that survives, exactly as engine.m4.turn's own
 enforcement now runs for a real participant. No external correction
 loop here (unlike the report-only run() above) - the correction and
 the one retry are internal to _run_ordinary_voice_turn itself when
-r27_enforce=True, so this mode calls it once per probe, not twice, and
-reads the result's own attempts_meta["r27_regenerated"]/
-r27_enforcement_exhausted fields rather than re-deriving them.
+enforcement on, so this mode calls it once per probe, not twice, and
+reads the regeneration and exhaustion fields in the result's own
+attempts_meta rather than re-deriving them.
 
 Calls engine.m4.turn.run_gate and _run_ordinary_voice_turn directly
 (rather than the top-level run_turn) so this script can drive the exact
@@ -108,6 +108,7 @@ from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
 from engine.m8.live_cost_run import HAIKU_4_5_PRICE_TABLE, PRICE_TABLE_SOURCE, SONNET_4_5_PRICE_TABLE
 from engine.m8.log_store import UsageLogStore
+from engine.provider import guard
 from engine.provider.bedrock import make_client, resolve_model_id
 
 # The two closed paragraph-offense classes (engine.m4.uncited_claims'
@@ -219,7 +220,7 @@ def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key
     paragraph-unit enforcement would name."""
     gate_run = run_gate(
         session_id=session_id, safety_client=client, safety_model_id=safety_model_id,
-        participant_message=message, pressed={}, anachronistic_term_ids=set(),
+        participant_message=message, pressed={}, anachronistic_term_ids=set(), world_key=world_key,
     )
     for rec in gate_run.usage_records:
         usage_store.append(rec)
@@ -242,7 +243,7 @@ def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key
         voice_client=client, voice_model_id=voice_model_id, world=world,
         participant_message=message, directive=gate_run.gate_result.routing.directive,
         session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
-        debug_capture=raw_capture,
+        debug_capture=raw_capture, sentence_enforce=False,
     )
     for rec in usage_records:
         usage_store.append(rec)
@@ -264,6 +265,7 @@ def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key
             voice_client=client, voice_model_id=voice_model_id, world=world,
             participant_message=message, directive=gate_run.gate_result.routing.directive,
             session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
+            sentence_enforce=False,
             # `correction=` is appended onto _run_ordinary_voice_turn's own
             # turn_directive internally, so only the suffix is wanted here -
             # _append_r27_correction(None, ...) returns exactly that
@@ -531,9 +533,9 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
 def run_enforced(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> dict:
     """The flag-gated enforcement mode's own live run: the SAME probes as
     run() above,
-    with r27_enforce actually on - one real generation call per probe
+    with enforcement actually on - one real generation call per probe
     (not two; the one allowed regeneration is internal to
-    _run_ordinary_voice_turn when r27_enforce=True), reporting whether
+    _run_ordinary_voice_turn when enforcement on), reporting whether
     it regenerated, whether it reached the Facilitator, and cost. See
     this module's own docstring for the full shape."""
     registry = load_registry()
@@ -561,7 +563,7 @@ def run_enforced(region: str, *, world_keys: list[str], table_world_keys: list[s
                 session_id = f"uncited-claims-enforced-battery-{world_key}-{probe_id}"
                 gate_run = run_gate(
                     session_id=session_id, safety_client=client, safety_model_id=safety_model_id,
-                    participant_message=message, pressed={}, anachronistic_term_ids=set(),
+                    participant_message=message, pressed={}, anachronistic_term_ids=set(), world_key=world_key,
                 )
                 for rec in gate_run.usage_records:
                     usage_store.append(rec)
@@ -576,7 +578,7 @@ def run_enforced(region: str, *, world_keys: list[str], table_world_keys: list[s
                     voice_client=client, voice_model_id=voice_model_id, world=world,
                     participant_message=message, directive=gate_run.gate_result.routing.directive,
                     session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
-                    r27_enforce=True, known_tradition_names=names,
+                    r27_enforce=True, known_tradition_names=names, sentence_enforce=False,
                 )
                 for rec in usage_records:
                     usage_store.append(rec)
@@ -601,7 +603,7 @@ def run_enforced(region: str, *, world_keys: list[str], table_world_keys: list[s
                 "session_dollars": session_dollars,
             }
 
-        # The table path, r27_enforce=True threaded straight through the
+        # The table path, enforcement on threaded straight through the
         # same real caller signatures wiring.py/table_wiring.py now
         # accept - no battery-specific table code path, unlike the
         # interview loop above (which calls run_gate/_run_ordinary_voice_
@@ -666,6 +668,7 @@ def run_enforced(region: str, *, world_keys: list[str], table_world_keys: list[s
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
+    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     parser.add_argument(
         "--worlds", default="alx,cappadocian,desert,don,gallic,hal,ijc,pahc,rzg,syr,witt",

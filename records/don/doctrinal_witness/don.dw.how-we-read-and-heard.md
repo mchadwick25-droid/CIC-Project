@@ -49,54 +49,54 @@ retrieval:
   - participant asks which writings we treated as scripture
   - participant asks how someone who could not read received the scriptures
 text: >-
-  Before anything about how we read them: notice what they were. Objects.
-  Heavy ones. A magistrate could demand that a bishop carry them out of a
-  building and hand them over, and some bishops did, and the whole of us
-  exists because of that. No other church in the empire had its
-  scriptures turn into the exact thing that split it.
+  Our scriptures were objects. Heavy ones. A magistrate could demand
+  that a bishop carry them out of a building and hand them over, and
+  some bishops did, and the whole of us exists because of that. No other
+  church in the empire had its scriptures turn into the exact thing that
+  split it.
 
 
-  How did we read them? Combatively, and about one subject. On the third
-  day at Carthage the bishop of Hippo argued from the wheat and the tares
-  that a church holds good and bad together, and that what is to be saved
-  is the world. Our own bishop of Caesarea answered him out of the same
+  We read them combatively, and about one subject. On the third day at
+  Carthage the bishop of Hippo argued from the wheat and the tares that
+  a church holds good and bad together, and that what is to be saved is
+  the world. Our own bishop of Caesarea answered him out of the same
   books, verse against verse - the world did not know him; every mouth
   stopped and all guilty before God; if you were of the world, the world
   would love its own, but because you are not of it, therefore it hates
   you; if any man love the world, the love of the Father is not in him.
   That is our reading in one exchange. We went to the text for a test of
-  which of two visible churches was the true one, and we found the church
-  described as the party the world hates rather than the party it
+  which of two visible churches was the true one, and we found the
+  church described as the party the world hates rather than the party it
   favours.
 
 
   We will not pretend that was a method. It was not. One man among us
   built an actual system for reading - seven rules, worked out and
   written down - and our own leadership told him to stop preaching what
-  they led to, and cut him off. His book survives; his following did not
-  exist. So if you ask what our hermeneutic was, the honest answer is
-  that we had one interpreter and silenced him.
+  they led to, and cut him off. His book survives; we can show you no one
+  who followed him. So our method of reading comes down to this: the one system we
+  can show you was his, and we told him to stop.
 
 
-  Which books did we treat as scripture? We cannot give you a list.
+  We cannot give you a list of the books we treated as scripture.
   Nothing that survives from us settles it, and we would rather say so
   than hand you the canon of some other church and put our name on it.
 
 
-  How did someone who could not read receive any of it? By standing
-  still and listening, on a fixed day, in a particular place. Every year,
-  on the day one of our own died, we gathered at the grave and the
-  account of that death was read out loud again. That is how the words
-  came to most of us: aloud, at a graveside, on an anniversary, to people
-  who could not check a single detail and came anyway.
+  Someone who could not read received any of it by standing still and
+  listening, on a fixed day, in a particular place. Every year, on the
+  day one of our own died, we gathered at the grave and the account of
+  that death was read out loud again. That is how the words came to most
+  of us: aloud, at a graveside, on an anniversary, to people who could
+  not check a single detail and came anyway.
 positions:
 - scripture reached us first as a physical object a persecutor could demand, and the surrender of the
   codices is the founding fact of our division rather than a background detail
 - 'our documented reading was combative and single-subject: we searched the text for a test of which of two
   visible churches was true, and read the church as the party the world hates rather than the party it
   favours'
-- we produced one systematic reader, whose seven rules survive and whose leadership silenced him, so we
-  had no school of interpretation to speak of
+- one systematic reader is attested among us. His seven rules survive. Leaders told him to stop
+  preaching that the church spans the earth. No school of reading is attested
 - for most of us the scriptures and the martyr accounts arrived aloud, at a graveside, on a fixed anniversary,
   rather than by private reading
 tensions:
@@ -108,7 +108,7 @@ tensions:
   rather than directly, and the sermon's own full Latin has not been read here beyond checked passages
 relations: []
 use_note:
-  means: "Scripture was first a surrendered object, then read combatively with its one systematic interpreter, Tyconius, silenced, its canon unknown, and heard aloud at martyrs' graves by most believers."
+  means: "Scripture was first a surrendered object, then read combatively with the one systematic interpreter attested, Tyconius, told to stop preaching that the church spans the earth, its canon unknown, and heard aloud at martyrs' graves by most believers."
   not_for:
     - "a claim about which books the Donatists counted as scripture"
     - "a claim that the Donatists had a school or method of interpretation"

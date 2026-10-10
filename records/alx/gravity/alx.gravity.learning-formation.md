@@ -53,7 +53,7 @@ manifestations:
 - the curriculum Gregory describes (logic, physics, geometry, astronomy, ethics - Address VII-IX; theology
   - Address XIII)
 - Clement's faith-knowledge-wisdom progression (Stromateis)
-- the teacher-student succession itself (Pantaenus to Clement to Origen) as formation's chief channel
+- the remembered teacher-student succession (Pantaenus, Clement, Origen) as formation's chief channel; the line rests on Eusebius and is contested
 classification: supporting
 use_note:
   means: "In the school tradition learning was itself formation, strongly operative early and attenuating after the Origen rupture and the post-Nicene authority shift."

@@ -79,6 +79,7 @@ from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
 from engine.m8.live_cost_run import HAIKU_4_5_PRICE_TABLE, SONNET_4_5_PRICE_TABLE
 from engine.m8.log_store import UsageLogStore
+from engine.provider import guard
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPORT_PATH = pathlib.Path(__file__).resolve().parent / "table-other-tradition-battery-2026-09-23.json"
@@ -221,6 +222,7 @@ def run(region: str) -> dict:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    guard.add_arguments(parser)
     parser.add_argument("--region", default="us-east-1")
     args = parser.parse_args()
     start = time.monotonic()
