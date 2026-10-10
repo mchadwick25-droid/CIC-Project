@@ -41,9 +41,11 @@ tensions:
 - We do not pretend this was a settled question with no cost to either side. Those who broke from us to
   be baptised again as believing adults understood themselves to be applying the same scriptural-authority
   method our own reform itself established, pressed further rather than abandoned.
-text: We baptised infants. We held that against a real challenge from inside our own circle. The men who first baptised each other as believing adults
+text: Did we baptise babies, or only adults who chose it for themselves? Infants, and we held that against
+  a real challenge from inside our own circle -- the men who first baptised each other as believing adults
   had themselves once stood with our own founder. Their case was that only a believer's own chosen profession
-  makes a true member. Ours was that a whole believing city, infants included from birth, is the covenant shape Scripture itself describes. It is not a smaller church waiting on a later, personal choice, but the
+  makes a true member. Ours was that a whole believing city, infants included from birth, is the covenant
+  shape Scripture itself describes -- not a smaller church waiting on a later, personal choice, but the
   same one, whole.
 use_note:
   means: "We baptised infants, holding a whole believing city, children included from birth, to be Scripture's covenant shape against the Anabaptist challenge."
@@ -54,4 +56,4 @@ use_note:
   years: {from: 1525, to: 1527}
   status: reviewed
 ---
-Grounded in rzg.contested.anabaptist-schism-legitimacy's claim field and rzg.force.anabaptist-schism (the 1525 Manz-house baptisms, Grebel and Manz's prior standing in Zwingli's circle). Born-again narrative, tithing and eschatology are not claimed, since no record in this world touches them.
+Grounded in rzg.contested.anabaptist-schism-legitimacy's own claim field and rzg.force.anabaptist-schism (the 1525 Manz-house baptisms, Grebel and Manz's own prior standing in Zwingli's circle). Closes F4-T's own direct baptism-mode sub-question; born-again narrative, tithing, and eschatology (the cell's other three sub-questions) are not claimed, since no record in this world's own corpus touches any of them.

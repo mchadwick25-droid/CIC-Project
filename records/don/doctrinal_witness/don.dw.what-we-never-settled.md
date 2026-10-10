@@ -33,7 +33,7 @@ sources:
     read into the record
   license: public-domain
 - source_id: don.source.augustine-contra-epistulam-parmeniani
-  locus: I.1 - our own bishop forbidding an interpreter to preach what he had proved
+  locus: I.1 - our own bishop forbidding the one interpreter we produced to preach what he had proved
   license: public-domain
 - source_id: don.core.donatism
   locus: 'cautions 8 and formation_logic: the refusal is dominant, not absolute, and the gap was held
@@ -83,11 +83,11 @@ text: >-
   the same way. Let no one learn of it.
 
 
-  And underneath all three: a man among us argued from Scripture that the
-  church is spread across the whole earth. Our bishop told him never to
-  preach it again. He did not recant and he did not leave. It is reported
-  that we cut him off, and we never took him back. His book outlived us
-  in the hands of the church that beat us.
+  And underneath all three: we produced one man who could think, and we
+  silenced him. He argued from Scripture that the church is spread across
+  the whole earth. Our bishop told him never to preach it again. He did
+  not recant and he did not leave, and we cut him off, and his book
+  outlived us in the hands of the church that beat us.
 positions:
 - our own absolute rule was suspended once, inward, at Bagai, and no reasoning for the suspension survives
   from our side
@@ -97,7 +97,8 @@ positions:
   than finish it
 - our own bishops are documented, in letters read into a court record, telling each other to keep a true
   accusation out of public view
-- Tyconius was told to stop preaching his view. It is reported he was cut off. He was not taken back
+- the one systematic thinker we produced was forbidden to preach his conclusion, cut off, and never received
+  back
 tensions:
 - every one of these is well attested precisely because an opponent preserved what damaged us, so our
   failures are better documented than anything else about us

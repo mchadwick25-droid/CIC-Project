@@ -207,11 +207,11 @@ describe('VoiceTurnBody - element renderer', () => {
     expect(container.querySelector('.story-mark__confidence')).toBeNull();
   });
 
-  it('over the cap, figures drop before stories; gloss marks and quote marks never drop', () => {
+  it('over the cap, glosses drop before figures before stories; a quote mark never drops', () => {
     // One sentence -> cap = 3. Six candidates: Antony, Origen (figures),
-    // catechumens, baptism (glosses), a story, a quote. Glosses sit outside
-    // the cap, so four marks count against it and one is over: Origen drops.
-    // Antony, both glosses, the story and the quote survive.
+    // catechumens, baptism (glosses), a story, a quote. Three over cap:
+    // baptism, catechumens, then Origen drop. Antony, the story and the
+    // quote survive.
     const quoted = '"wash and be clean"';
     const sentence = `Antony taught Origen about catechumens and baptism, saying ${quoted} at the font.`;
     const { text, spans, sentences } = turn([sentence]);
@@ -240,39 +240,7 @@ describe('VoiceTurnBody - element renderer', () => {
       />
     );
 
-    expect(markedText(container)).toBe(`{Antony} taught Origen about {catechumens} and {baptism}, saying ${quoted}[*] at the font.[*]`);
-  });
-
-  it('ten glossed words and four figures keep all ten gloss marks; the cap bounds only the figures', () => {
-    const words = ['alpha', 'bravo', 'charlie', 'delta', 'echo', 'foxtrot', 'golf', 'hotel', 'india', 'juliet'];
-    const names = ['Antony', 'Origen', 'Basil', 'Cyril'];
-    const sentence = `${words.join(' ')} met ${names.join(', ')}.`;
-    const { text, spans, sentences } = turn([sentence, 'A second sentence follows.']);
-    const transparency = plan(
-      spans,
-      [
-        ...words.map((w) => el(sentences, 0, `fix.term.${w}`, 'term', w)),
-        ...names.map((n) => el(sentences, 0, `fix.figure.${n.toLowerCase()}`, 'figure', n)),
-      ],
-      []
-    );
-
-    const { container } = render(
-      <VoiceTurnBody
-        text={text}
-        citations={[]}
-        figuresUsed={names.map((n) => figure(`fix.figure.${n.toLowerCase()}`, n))}
-        glosses={words.map((w) => gloss(`fix.term.${w}`, w))}
-        transparency={transparency}
-      />
-    );
-
-    const marked = markedText(container);
-    for (const w of words) expect(marked).toContain(`{${w}}`);
-    expect(marked).toContain('{Antony}');
-    expect(marked).toContain('{Origen}');
-    expect(marked).toContain('{Basil}');
-    expect(marked).not.toContain('{Cyril}');
+    expect(markedText(container)).toBe(`{Antony} taught Origen about catechumens and baptism, saying ${quoted}[*] at the font.[*]`);
   });
 
   it('a dropped story mark reaches the end list and its sentence stays; quote marks are never the overflow', () => {

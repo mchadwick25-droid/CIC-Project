@@ -48,23 +48,22 @@ retrieval:
   - "participant asks whether this world believed Jesus died to take their punishment in their place"
   - "participant asks whether this world called Jesus their personal Lord and Savior"
 text: >-
-  Jesus was God: we confessed the Son as fully what the Father is, and
-  for us the question was never open. We were born after the great
-  council had already spoken, and we spent two generations defending,
-  not deciding, its answer. Ousia is what God is: one being. Hypostasis
-  is who God is: Father, Son, and Holy Spirit, each a real someone, none
-  a costume, none a creature. We fought a rival teaching that called the
-  Son merely like the Father, and a sharper one that claimed one word
-  could capture God's whole essence; against both we said the Son is
-  fully what the Father is. Dying to take our punishment, in our place,
-  is not quite how we put it. We spoke of a ransom paid, a debt settled,
-  the physician entering our own sickness to heal it from inside. That
-  language is near the later penal formula without being identical to
-  it, and we will not pretend otherwise. As for a personal Lord and
-  Savior, that was not our own phrase. But our own writers described a
-  purified conscience speaking to him as a friend speaks, and reverence
-  - one word covering both right confession and right living - as the
-  whole shape our lives took toward him.
+  Was Jesus God? We would find the question strange only in being asked as
+  open. We were born after the great council had already spoken, and we
+  spent two generations defending, not deciding, its answer. Ousia is what
+  God is: one being. Hypostasis is who God is: Father, Son, and Holy
+  Spirit, each a real someone, none a costume, none a creature. We fought a
+  rival teaching that called the Son merely like the Father, and a sharper
+  one that claimed one word could capture God's whole essence; against
+  both we said the Son is fully what the Father is. Did he die to take our
+  punishment, in our place? That is not quite how we put it. We spoke of a
+  ransom paid, a debt settled, the physician entering our own sickness to
+  heal it from inside. That language is near the later penal formula
+  without being identical to it, and we will not pretend otherwise. Was he
+  our personal Lord and Savior? Not our own phrase. But our own writers
+  described a purified conscience speaking to him as a friend speaks, and
+  reverence - one word covering both right confession and right living -
+  as the whole shape our lives took toward him.
 positions:
 - one ousia, three hypostaseis - not merely like the Father, but fully what the Father is
 - his death was framed as ransom, debt, and healing, near the later substitutionary language without
@@ -87,4 +86,20 @@ use_note:
   years: {from: 360, to: 394}
   status: reviewed
 ---
-Covers the Trinity, atonement and personal-Lord variants. The atonement claim is sourced to Gregory of Nyssa's Catechetical Oration. The text's paraphrase ("a ransom paid, a debt settled, the physician entering our own sickness to heal it from inside") draws on two separate movements: the ransom and debt argument at chs. 21-24, and the physician and healing argument at chs. 26-29. Both ranges are present in the vendored npnf205 text and cited separately. The reserve tension matches the standing, unresolved disagreement of cappadocian.gravity.precision-reserve. Reciprocal relation declared on cappadocian.quote.ousia-and-hypostasis.
+Closes C-T, matching hal.dw.was-jesus-god's own worked structure (full
+answer across all three canon_question variants under this cell: Trinity,
+atonement, personal-Lord framing) applied to this world's own real ground
+rather than borrowed content. The atonement claim is sourced directly to
+Gregory of Nyssa's Catechetical Oration's own ransom/debt argument
+(chs. 21-24, confirmed present in the vendored npnf205 text this session),
+not asserted from memory. Reserve tension matches
+cappadocian.gravity.precision-reserve's own standing, unresolved
+disagreement, carried here rather than smoothed into a single verdict.
+Reciprocal relation declared on cappadocian.quote.ousia-and-hypostasis.
+
+The text's atonement paraphrase ("a ransom paid, a debt settled, the
+physician entering our own sickness to heal it from inside") draws on
+two separate movements of Gregory's own text: the ransom/debt argument
+at chs. 21-24, and the physician/healing argument at chs. 26-29. Both
+ranges are confirmed present in the vendored npnf205 text, cited
+separately rather than as one contiguous four-chapter span.

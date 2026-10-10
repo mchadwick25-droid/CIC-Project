@@ -39,7 +39,8 @@ narrative_tier_justification: 'Direct, first-person textual attestation from a n
 tellable_as: In 1549, worried whether Geneva's and Zurich's own teaching on the Supper actually agreed,
   Calvin travelled to Zurich himself rather than trust a letter, and what he and Farel worked out there
   became the Consensus Tigurinus.
-text: 'By 1549, a quiet worry had spread among people who respected both our own churches: that Calvin''s own teaching on the Supper might not agree with what Zurich taught. Calvin heard the worry directly,
+text: 'By 1549, a quiet worry had spread among people who respected both our own churches: did Calvin''s
+  own teaching on the Supper actually agree with what Zurich taught? Calvin heard the worry directly,
   from people who revered both churches and did not want an appearance of disagreement to slow their own
   faith. A letter would not settle it. He went himself, and asked his own colleague William Farel - "indefatigable
   soldier of Christ," he called him - to come too. Farel needed no persuading; he had suggested the visit
@@ -57,4 +58,4 @@ use_note:
   years: {from: 1549, to: 1549}
   status: reviewed
 ---
-Source chunk: Story-Chunks/rzgstory002_calvins-journey-to-zurich.md. `text` recasts the chunk's Story Text into this world's first-person register; `tellable_as` compresses it into a single spoken-register sentence. modern_contrast draws on the chunk's Formation Ecology Connection (a specific human journey behind an abstract doctrinal convergence).
+Built from Story-Chunks/rzgstory002_calvins-journey-to-zurich.md (Approved to proceed). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person register; tellable_as further compresses that into a single spoken-register sentence, a genuinely separate authored field, not a duplicate. modern_contrast draws on the chunk's own Formation Ecology Connection (a specific human journey behind an abstract doctrinal convergence).

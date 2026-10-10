@@ -12,6 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 from engine.m1 import canon, cross_world, gates
 from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_records
 from engine.m1.registry import formation_world_keys, load_registry
+from engine.m2.builders import _quote_speaker
 from engine.m2.compiler import compile_world
 from engine.m4.citation_cards import _label
 
@@ -86,7 +87,7 @@ row(S, "`confidence` block complete on every record", OK,
 row(S, "`figure.dates` key vocabulary", "DRIFT",
     ["/".join(sorted({k for r in R[w].values() if r["record_type"] == "figure" for k in (r.get("dates") or {})})) for w in W])
 row(S, "quote speaker resolves to a readable label", "DRIFT",
-    [(lambda n: "yes" if n == 0 else f"**{n} raw ids**")(sum(1 for r in R[w].values() if r["record_type"] == "quote" and RID.search(_label(r, R[w])))) for w in W])
+    [(lambda n: "yes" if n == 0 else f"**{n} raw ids**")(sum(1 for r in R[w].values() if r["record_type"] == "quote" and (RID.search(_label(r, R[w])) or RID.search(_quote_speaker(r))))) for w in W])
 row(S, "no record id / build ref in participant-facing fields", "DRIFT",
     [(lambda n: "yes" if n == 0 else f"**{n} leaks**")(sum(1 for r in R[w].values() if r["record_type"] == "figure" for v in list((r.get("dates") or {}).values()) + [r.get("bridge_line")] if isinstance(v, str) and (RID.search(v) or BUILD_REF.search(v)))) for w in W])
 row(S, "`voice_craft.flavor_notes` segment vocabulary", "VARIES",

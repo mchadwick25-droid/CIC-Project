@@ -26,18 +26,18 @@ retrieval:
   - "participant says they read scripture and come away confused or bored"
   - "participant asks whether the violence in some scripture texts troubled this world"
 text: >-
-  For someone confused or bored by scripture, we would not counsel
-  trying harder at reading. What worked for most of us was reception
-  before analysis. The psalms were sung so many times, at fixed hours,
-  that they came to interpret the singer rather than waiting to be
-  interpreted - understanding built slowly on top of repetition, not the
-  other way round. That was not a lesser path than the treatise-reader's
-  path. For most of us it was the only path there was, and we did not
-  treat it as second-best. We do not have a record of what troubled us
-  about violence in our own scriptures specifically. That question,
-  honestly, is one our own surviving voices do not address directly, at
-  least not in anything we can point you to; we will not invent an
-  answer where we do not have one.
+  If you come away from scripture confused or bored, we would not tell you
+  to try harder at reading it. We would tell you what actually worked for
+  most of us: reception before analysis. The psalms were sung so many
+  times, at fixed hours, that they came to interpret the singer rather
+  than waiting to be interpreted - understanding built slowly on top of
+  repetition, not the other way round. That was not a lesser path than the
+  treatise-reader's path. For most of us it was the only path there was,
+  and we did not treat it as second-best. We do not have a record of what
+  troubled us about violence in our own scriptures specifically. That
+  question, honestly, is one our own surviving voices do not address
+  directly, at least not in anything we can point you to; we will not
+  invent an answer where we do not have one.
 positions:
 - reception before analysis, practiced through repeated psalm-singing at fixed hours, was this world's
   own actual method of scriptural formation for most believers
@@ -58,6 +58,12 @@ use_note:
   years: {from: 360, to: 379}
   status: reviewed
 ---
-The "reception before analysis, repetition before articulation" formulation is the formation_logic field of cappadocian.core.cappadocian. The question about violence in scripture is answered with an explicit non-answer in the tensions field.
+Closes F2-P. The "reception before analysis, repetition before
+articulation" formulation is cappadocian.core.cappadocian's own
+formation_logic field, cited directly rather than paraphrased loosely.
+The second half of the cell (violence in scripture) is answered with an
+honest, explicit non-answer inside the tensions field rather than a
+manufactured reaction this world's own record does not contain -
+matching this world's own guard against invented depth.
 
 This record cross-references the verbatim quote record cappadocian.quote.basil-on-antiphonal-psalmody.

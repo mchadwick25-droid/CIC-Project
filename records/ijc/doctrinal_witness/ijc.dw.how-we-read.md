@@ -40,7 +40,8 @@ text: >-
   were read the way a court reads precedent: 'let the ancient customs
   prevail.' As for which books counted as scripture, we inherited the
   list in nearly settled form. Our fights were about interpretation, not
-  contents. The record barely says how someone who could not read received all this. What it shows is the channels: hearing scripture read
+  contents. And how did someone who could not read receive all this? The
+  record barely says. What it shows is the channels: hearing scripture read
   aloud in the assembly, confessing the creed, and singing the psalms.
 positions:
 - scripture read juridically - for warrant, office, and boundary - is this world's characteristic habit
@@ -64,8 +65,11 @@ use_note:
   years: {from: 325, to: 451}
   status: reviewed
 ---
+F2-I answered from the world's documented interpretive habit (Doc_05
+SS8's finding, grounded here on vendored instances: Leo's Petrine
+reading, Hilary's both-sides scriptural argument, Canon 6's precedent
+language). The canon-list point is stated honestly: fixing the biblical
+canon is not this world's own documented business, and no claim about
+it is made beyond that.
 
-Grounded on vendored instances: Leo's Petrine reading, Hilary's both-sides
-scriptural argument, Canon 6's precedent language. The canon-list point
-is stated honestly: fixing the biblical canon is not this world's own
-documented business, and no claim about it is made beyond that.
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.

@@ -42,7 +42,7 @@ Never use the dashboard's cancel box for a goodwill refund: it cancels the codes
 
 All of these must be true. The build thread checks the first group; Mark confirms the second.
 
-**Built and merged on `main`** (check in `Build/Ministry/Features/Go-Deeper/Decision-Log.md`):
+**Built and merged on `main`** (check in the Funding-Strategy Decision-Log):
 
 - The meter, routes, admission seam, proofs in CI, app panel, site pages, Facilitator words, the door (computation, admission, public line), and the standing measure.
 - The token words (T3) are merged. No dollar figure appears in the conversation.

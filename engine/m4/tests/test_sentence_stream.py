@@ -4,7 +4,6 @@ plan gives it, tags never show, and the open sentence is held back."""
 import pytest
 
 from engine.m4.grounding_net import strip_tags
-from engine.m4.quote_placement import PlacementContext
 from engine.m4.sentence_stream import SentenceStream
 from engine.m4.transparency_plan import build_transparency_plan
 from engine.m4.turn import _draft_is_final_text, apply_net
@@ -17,23 +16,21 @@ RECORDS = {
 RAW = (
     "We kept the bread together each week [[w.dw.bread]]. Two walked the road to Emmaus [[w.story.road]]. "
     "They knew him in the bread [[w.story.road]]!\n\n"
-    'Our teacher sang of "the new song" [[w.quote.song]]. That is what we remember. We hold it still.'
+    'Our teacher said: "Look, the new song" [[w.quote.song]]. That is what we remember.'
 )
-# The conversation voiced the quote earlier, so a sentence tagged to it refers back to it.
-VOICED = frozenset({"w.quote.song"})
 
 
 def _chunked(text, size):
     return [text[i : i + size] for i in range(0, len(text), size)]
 
 
-def _streamed(chunks, voiced=VOICED):
-    stream = SentenceStream(repository_records=RECORDS, world_key="w", voiced_quotes=voiced)
+def _streamed(chunks):
+    stream = SentenceStream(repository_records=RECORDS, world_key="w")
     return [event for chunk in chunks for event in stream.feed(chunk)]
 
 
-def _plan(raw, voiced=VOICED):
-    text, citations, net = apply_net(raw, repository_records=RECORDS, thin_topics=None, placement=PlacementContext(voiced=voiced))
+def _plan(raw):
+    text, citations, net = apply_net(raw, repository_records=RECORDS, thin_topics=None)
     return text, build_transparency_plan(citations=citations, net_result=net, repository_records=RECORDS, world_key="w", text=text)
 
 
@@ -56,11 +53,10 @@ def test_leads_and_texts_rebuild_a_prefix_of_the_reply_with_its_paragraph_breaks
     assert "\n\n" in shown and "[[" not in shown
 
 
-def test_the_open_last_sentence_and_the_one_before_it_are_never_released():
+def test_the_open_last_sentence_is_never_released():
     texts = [e["text"] for e in _streamed(_chunked(RAW, 4))]
-    assert "We hold it still." not in texts
     assert "That is what we remember." not in texts
-    assert 'Our teacher sang of "the new song".' in texts
+    assert 'Our teacher said: "Look, the new song".' in texts
 
 
 def test_a_story_mark_arrives_when_its_telling_ends():
@@ -79,8 +75,7 @@ def test_a_quote_mark_arrives_with_its_own_sentence_and_its_card():
 def test_a_half_written_tag_is_never_released():
     stream = SentenceStream(repository_records=RECORDS, world_key="w")
     assert stream.feed("We kept the bread together each week [[w.dw.bre") == []
-    assert stream.feed("ad]]. Two walked") == []
-    events = stream.feed(" the road to Emmaus [[w.story.road]]. They")
+    events = stream.feed("ad]]. Two walked")
     assert [e["text"] for e in events] == ["We kept the bread together each week."]
 
 
@@ -129,7 +124,7 @@ def test_a_catch_in_the_last_sentence_is_found_when_the_reply_ends():
     raw = "We kept the bread together each week [[w.dw.bread]]. Two walked the road to Emmaus [[w.story.road]]. Facilitator: that is all."
     stream = _guarded()
     events = [e for chunk in _chunked(raw, 6) for e in stream.feed(chunk)]
-    assert len(events) == 1
+    assert len(events) == 2
     assert stream.cut(raw).endswith("Two walked the road to Emmaus [[w.story.road]].")
 
 
@@ -138,61 +133,3 @@ def test_a_clean_guarded_reply_is_not_cut():
     for chunk in _chunked(RAW, 7):
         stream.feed(chunk)
     assert stream.cut(RAW) is None
-
-
-UNQUOTED_RAW = (
-    "We kept the bread together each week [[w.dw.bread]]. "
-    'Our teacher sang of "nobody\'s song" [[w.quote.song]]. '
-    'He also sang of "the new song" [[w.quote.song]]. That is what we remember.'
-)
-
-
-@pytest.mark.parametrize("size", [1, 3, 8, 1000])
-def test_a_sentence_whose_marks_came_off_streams_with_them_off_and_the_offsets_of_the_finished_reply(size):
-    events = _streamed(_chunked(UNQUOTED_RAW, size))
-    text, plan = _plan(UNQUOTED_RAW)
-    assert '"nobody' not in text and "nobody's song" in text
-    assert [e["text"] for e in events][1] == "Our teacher sang of nobody's song."
-    for e in events:
-        assert plan["sentences"][e["index"]] == {"index": e["index"], "text_start": e["text_start"], "text_end": e["text_end"]}
-        assert text[e["text_start"]:e["text_end"]] == e["text"]
-
-
-def test_apply_net_withholds_a_sentence_whose_marks_came_off_and_gives_it_no_citation():
-    text, citations, net = apply_net(
-        UNQUOTED_RAW, repository_records=RECORDS, thin_topics=None, placement=PlacementContext(voiced=VOICED),
-    )
-    assert text.startswith('We kept the bread together each week. Our teacher sang of nobody\'s song. He also sang of "the new song"')
-    assert [c["sentence"] for c in citations] == [
-        "We kept the bread together each week.",
-        'He also sang of "the new song".',
-    ]
-    assert [s["why"] for s in net["sentences"]][1] == "quotation not in records"
-
-
-@pytest.mark.parametrize("later", [
-    "Our teacher put it plainly [[quote:w.quote.song]].",
-    'Our teacher wrote, "a line that no record of ours carries".',
-    "Ephrem wrote: the bread was never only bread.",
-    "## Sources",
-])
-def test_the_stream_stops_before_a_sentence_the_finished_reply_may_reshape_and_holds_the_one_before_it(later):
-    raw = (
-        "We kept the bread together each week [[w.dw.bread]]. Two walked the road to Emmaus [[w.story.road]]. "
-        f"{later} That is what we remember. We hold it still."
-    )
-    texts = [e["text"] for e in _streamed(_chunked(raw, 5))]
-    assert texts == ["We kept the bread together each week."]
-
-
-def test_a_sentence_tagged_to_a_quote_not_yet_voiced_stops_the_stream_and_leaves_the_reply():
-    texts = [e["text"] for e in _streamed(_chunked(RAW, 5), voiced=frozenset())]
-    assert texts == ["We kept the bread together each week.", "Two walked the road to Emmaus."]
-    text, _plan_ = _plan(RAW, voiced=frozenset())
-    assert "the new song" not in text and text.endswith("That is what we remember. We hold it still.")
-
-
-def test_a_retold_story_stops_the_stream():
-    stream = SentenceStream(repository_records=RECORDS, world_key="w", told_stories=frozenset({"w.story.road"}))
-    raw = "We kept the bread together each week [[w.dw.bread]]. Two walked the road to Emmaus [[w.story.road]]. Then more. And more."
-    assert [e["text"] for chunk in _chunked(raw, 5) for e in stream.feed(chunk)] == []

@@ -53,8 +53,8 @@ text: >-
   fear left him at once. He asked where the light had been at the start of his
   struggle. The answer: I was here, but I waited to see your fight through.
   Now that you have endured and were not overcome, I will always be your help.
-absent_detail: "The demons-as-beasts imagery is this world's own chosen register for representing interior struggle at its most extreme, not a claim about literal historical events - it is not a neutral incident report."
-modern_contrast: "A modern reader may hear a man alone in a tomb, beaten until he cannot speak, refusing care and returning to the same place, and reach for a mental-health frame (a psychiatric crisis, self-harm) rather than this world's own frame. This world's own record holds it as the most extreme instance of spiritual combat against the interior enemy (desert.gravity.spiritual-combat), the same struggle that replaced martyrdom once dying for the faith was no longer possible (desert.force.martyrdom-unavailable) - not a crisis to be treated, but total combat willingly sought. It is not a neutral incident report."
+absent_detail: "The demons-as-beasts imagery is this world's own chosen register for representing interior struggle at its most extreme, not a claim about literal historical events - this record does not present it as neutral incident report, and neither should a telling of it."
+modern_contrast: "A modern reader may hear a man alone in a tomb, beaten until he cannot speak, refusing care and returning to the same place, and reach for a mental-health frame (a psychiatric crisis, self-harm) rather than this world's own frame. This world's own record holds it as the most extreme instance of spiritual combat against the interior enemy (desert.gravity.spiritual-combat), the same struggle that replaced martyrdom once dying for the faith was no longer possible (desert.force.martyrdom-unavailable) - not a crisis to be treated, but total combat willingly sought. This record does not present it as neutral incident report, and neither should a telling of it."
 use_note:
   means: "The Vita portrays Antony shut in a tomb, beaten by demons in beast form, and relieved by a light, evidencing how this world pictured total combat."
   not_for:
@@ -64,16 +64,24 @@ use_note:
   years: {from: 270, to: 286}
   status: reviewed
 ---
-SS8-9 and SS12-13 are verified directly against the vendored file (the
-same passages desert.force.martyrdom-unavailable cites). S9 carries the
-beast-form combat and Antony's own taunts; S10 carries the light vision's
-own exchange; both are quoted here close to the vendored file's own
-wording.
+Re-derived from the prior build's cleared Doc_09a Story 3.1. SS8-9 and
+SS12-13 are verified directly against the vendored file (the same
+passages desert.force.martyrdom-unavailable cites); S9 (the beast-form
+combat and Antony's own taunts to the demons) and S10 (the light
+vision's own exchange) are quoted here close to the vendored file's own
+wording rather than paraphrased from Doc_09a's own less specific
+telling.
+
+S9 carries the beast-form combat and Antony's own taunts; S10 carries
+the light vision.
 
 Formation significance: this world's own paradigmatic portrait of
 desert.gravity.spiritual-combat, and the concrete narrative form
 desert.force.martyrdom-unavailable's own vocabulary of "total
 confrontation relocated from an external persecutor to the interior
-life" takes. The promise this story makes is not that the struggle ends,
-but that help arrives once the struggle itself has been sufficiently
-borne.
+life" takes. Answers F4-P-01 ("I can't quiet my own head. Does your way
+of life have anything for someone like me?") at its most extreme pitch
+- the promise this story makes is not that the struggle ends, but that
+help arrives once the struggle itself has been sufficiently borne.
+
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

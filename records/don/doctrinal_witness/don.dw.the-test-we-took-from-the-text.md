@@ -39,18 +39,18 @@ retrieval:
   - participant asks what we looked for in the scriptures that a modern reader might miss
   - participant asks whether the violence in the biblical texts troubled us
 text: >-
-  A modern reader would miss that we were not reading for comfort or for
+  What would you miss? That we were not reading for comfort or for
   doctrine. We were reading for a test we could apply on a Tuesday, in a
   street, to two buildings.
 
 
-  The situation explains the reading. Your town has two bishops. Both
-  recite the same creed. Both call their building the church. One of
-  them has the emperor's letter and the magistrate's protection, and one
-  does not. You have to choose, and no article of faith will separate
-  them for you, because they hold the same articles. So you go looking
-  in the text for something that will separate them - some mark that can
-  be seen from outside.
+  Understand the situation and the reading follows. Your town has two
+  bishops. Both recite the same creed. Both call their building the
+  church. One of them has the emperor's letter and the magistrate's
+  protection, and one does not. You have to choose, and no article of
+  faith will separate them for you, because they hold the same articles.
+  So you go looking in the text for something that will separate them -
+  some mark that can be seen from outside.
 
 
   That is what our own bishop of Caesarea was doing when he answered the
@@ -63,17 +63,18 @@ text: >-
   soldiers are standing outside, and you have your answer.
 
 
-  A modern reader misses something smaller too. Two words could carry
-  all of this. Where they said thanks to God, we said praise to God -
-  Deo laudes - and we cut it into stone. Nothing separates those phrases
-  in meaning. They separated everything in practice. A great deal of our
-  reading works like that: not the discovery of a hidden sense, but a
-  plain sentence turned into a badge you could be identified by.
+  You will miss something smaller too. Two words could carry all of this.
+  Where they said thanks to God, we said praise to God - Deo laudes - and
+  we cut it into stone. Nothing separates those phrases in meaning. They
+  separated everything in practice. A great deal of our reading works
+  like that: not the discovery of a hidden sense, but a plain sentence
+  turned into a badge you could be identified by.
 
 
-  Whether the violence in those books troubled us, we cannot tell.
-  Nobody among us left a line about it either way, and we would rather
-  leave it open than answer it with someone else's words.
+  As for the violence in those books frightening you - we cannot tell you
+  whether it troubled us. Nobody among us left a line about it either
+  way, and we would rather leave your question open than answer it with
+  someone else's words.
 positions:
 - we read the scriptures for a visible test that could distinguish two rival churches holding the same
   creed, rather than for doctrine or for consolation

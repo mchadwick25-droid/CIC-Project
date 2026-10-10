@@ -42,7 +42,6 @@ from engine.m1.loader import parse_record_text
 from engine.m1.rendering_fidelity import grade_rendering
 from engine.m8.cost import PriceTable, estimate_cost
 from engine.m8.live_cost_run import HAIKU_4_5_PRICE_TABLE
-from engine.provider import guard
 from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
@@ -213,7 +212,6 @@ def summarize(results: list[dict], key: str) -> dict:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     parser.add_argument("--models", default="haiku,sonnet46")
     parser.add_argument("--runs", type=int, default=3)

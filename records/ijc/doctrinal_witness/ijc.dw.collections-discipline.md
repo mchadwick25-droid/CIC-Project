@@ -21,7 +21,8 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  We had a real giving discipline, but not a fixed tenth. It was preached at least twice in the sermons that
+  Did we tithe, and how did we decide what to give? We had a real
+  giving discipline. It was preached at least twice in the sermons that
   survive, tied to a yearly day Leo calls only 'the day of Apostolic
   institution.' That day, he says, had been cleansed of wicked superstitions
   and given instead to deeds of mercy. (The edition's editors identify it as
@@ -60,9 +61,12 @@ use_note:
   years: {from: 440, to: 451}
   status: reviewed
 ---
-
-Leo's own preached corpus (file lines 13503 and 13707) states a real, if
-proportional rather than fixed, giving discipline. The collection day is
+Verified directly against the
+vendored corpus, file lines 13503 and 13707 - Leo's own preached corpus
+states a real, if proportional rather than fixed, giving discipline,
+against ijc.dw.baptism-threshold's own closing note that "church funding
+in this record is imperial patronage and endowment, not
+tithe-discipline." The collection day is
 the octave of SS. Peter and
 Paul (early July, a day repurposed from a pagan festival), per the
 file's own note (line ~13612), not the autumn fast (Sermons on "the Fast
@@ -73,3 +77,6 @@ link to the Ludi Apollinares are Feltoe's report of the Ballerini's
 scholarship, attributed as such in text and positions, rather than the
 edition's own hedged reconstruction ("probably
 began on the 6th of July," per note 6) stated as flat fact.
+canon_cells: F4-T (did you tithe, how did you decide what to give).
+
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

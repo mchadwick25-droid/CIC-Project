@@ -282,12 +282,6 @@
     </section>
 
     <section>
-      <h2>Live use and named live tests</h2>
-      <div id="spend-split-wrap"></div>
-      <div class="caveat" id="named-tests-note" style="margin-top: 8px;"></div>
-    </section>
-
-    <section>
       <h2>Questions people ask</h2>
       <div class="caveat" id="asks-freshness" style="margin-bottom: 8px;"></div>
       <div id="asks-table-wrap"></div>
@@ -385,50 +379,6 @@
     wrap.appendChild(table);
   }
 
-  function notRecorded(value, format) {
-    return value === null || value === undefined ? "not recorded" : (format ? format(value) : String(value));
-  }
-
-  function renderSpendSplit(liveUse, namedTests) {
-    const wrap = document.getElementById("spend-split-wrap");
-    wrap.innerHTML = "";
-    const table = el("table", {});
-    table.appendChild(el("thead", {}, [el("tr", {}, [
-      el("th", { text: "Kind" }),
-      el("th", { text: "Name" }),
-      el("th", { text: "Route" }),
-      el("th", { text: "Worlds" }),
-      el("th", { class: "num", text: "Calls" }),
-      el("th", { class: "num", text: "Cap" }),
-      el("th", { class: "num", text: "Cost" }),
-    ])]));
-    const tbody = el("tbody", {});
-    const liveCost = liveUse.priced_dollars > 0
-      ? fmtDollars(liveUse.priced_dollars) + (liveUse.unpriced_calls > 0 ? " *" : "")
-      : (liveUse.unpriced_calls > 0 ? "unpriced" : "$0.00");
-    tbody.appendChild(el("tr", {}, [
-      el("td", { text: liveUse.label }), el("td", { text: "—" }), el("td", { text: "—" }), el("td", { text: "—" }),
-      el("td", { class: "num", text: fmtNumber(liveUse.calls) }), el("td", { class: "num", text: "—" }), el("td", { class: "num", text: liveCost }),
-    ]));
-    namedTests.tests.forEach((t) => {
-      tbody.appendChild(el("tr", {}, [
-        el("td", { text: namedTests.label }),
-        el("td", { text: t.name }),
-        el("td", { text: t.route }),
-        el("td", { text: t.world_keys.length ? t.world_keys.join(", ") : "not recorded" }),
-        el("td", { class: "num", text: notRecorded(t.calls, fmtNumber) }),
-        el("td", { class: "num", text: notRecorded(t.cap_usd, fmtDollars) }),
-        el("td", { class: "num", text: notRecorded(t.priced_total_usd, fmtDollars) }),
-      ]));
-    });
-    table.appendChild(tbody);
-    wrap.appendChild(table);
-    document.getElementById("named-tests-note").textContent =
-      "Named live tests are counted as internal. Live use covers every other call, participants and test conversations together, and is not split." +
-      " Recorded named-test spend: " + fmtDollars(namedTests.recorded_priced_dollars) +
-      (namedTests.tests_with_gaps > 0 ? "; " + namedTests.tests_with_gaps + " test(s) have fields \"not recorded\" (reports written before those fields existed), so that sum is a floor." : ".");
-  }
-
   function renderAsksTable(topAsks) {
     const wrap = document.getElementById("asks-table-wrap");
     wrap.innerHTML = "";
@@ -498,7 +448,6 @@
       priceNote.textContent = "No calls could be priced yet.";
     }
 
-    renderSpendSplit(usage.live_use, usage.named_tests);
     renderAsksTable(usage.top_asks);
     const freshness = document.getElementById("asks-freshness");
     freshness.textContent = usage.asks_as_of_run

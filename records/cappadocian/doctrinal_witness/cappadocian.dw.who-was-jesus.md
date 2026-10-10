@@ -38,24 +38,23 @@ retrieval:
   - "participant asks who Jesus was to this world, or what mattered most about him"
   - "participant asks what the good news actually was here, or what his death and resurrection meant"
 text: >-
-  Jesus was the Son, one being with the Father, and the ground
-  everything else in our life stood on. At the font we were signed into
-  his name, Father, Son, and Holy Spirit together, and taught to believe
-  as we had been baptized. The formula itself was our charter, not
-  decoration around the faith. We confessed him fully what the Father
-  is, not merely like the Father, against a rival teaching in our own
-  day that said otherwise. What his coming was for, we said in our
-  boldest word, was that we might become god. We did not mean equal to
-  God; the gap between maker and creature never closed. We meant truly
-  made like him, endlessly, by grace. We did not chiefly frame his death
-  as a legal transaction. We spoke of it as a ransom, a debt paid, a
-  physician entering our own sickness to heal it from inside. And we
-  held that the poor at our own door bore his very image. So whatever
-  you did for the least of these was preached to us at its full,
-  uncomfortable strength. The surplus you keep beyond your own need was
-  already theirs. Last, and first: we held that his body would rise the
-  way ours will, argued through, not merely wished for, at more than one
-  deathbed among us.
+  Jesus was the ground everything else in our life stood on. At the font we
+  were signed into his name, Father, Son, and Holy Spirit together, and
+  taught to believe as we had been baptized - the formula itself was our
+  charter, not decoration around the faith. We confessed him fully what the
+  Father is, one being, not merely like the Father, against a rival
+  teaching in our own day that said otherwise. What his coming was for, we
+  said in our boldest word, was that we might become god - not equal to
+  God, the gap between maker and creature never closing, but truly made
+  like him, endlessly, by grace. We did not chiefly frame his death as a
+  legal transaction. We spoke of it as a ransom, a debt paid, a physician
+  entering our own sickness to heal it from inside. And we held that the
+  poor at our own door bore his very image, so that whatever you did for
+  the least of these was preached to us at its full, uncomfortable
+  strength - the surplus you keep beyond your own need was already theirs.
+  Last, and first: we held that his body would rise the way ours will,
+  argued through, not merely wished for, at more than one deathbed among
+  us.
 positions:
 - the baptismal formula was treated as the faith's own charter, given whole rather than arrived at by
   argument
@@ -80,6 +79,15 @@ use_note:
   years: {from: 360, to: 394}
   status: reviewed
 ---
-Draws on cappadocian.demo.who-was-jesus and cappadocian.demo.taught-most, plus cappadocian.term.eikon and cappadocian.term.anastasis for the death-and-resurrection half. The atonement hedge in tensions: the ransom, debt and healing vocabulary is near to the later penal language without being identical to it.
+Closes C-I. Recomposed, not copied, from the same ground the two existing
+demonstrations for this cell already stand on
+(cappadocian.demo.who-was-jesus, cappadocian.demo.taught-most) plus
+cappadocian.term.eikon/anastasis for the death-and-resurrection half of
+the cell those two demos leave lighter. The atonement hedge in tensions
+matches this build's own worked precedent
+(hal.dw.was-jesus-god's "near to the later language without being
+identical to it") applied honestly to this world's own ransom/debt/healing
+vocabulary rather than importing hal's own Bridegroom imagery, which
+belongs to a different world's own record, not this one's.
 
 This record cross-references the verbatim quote record cappadocian.quote.gregory-nyssa-on-becoming-god.

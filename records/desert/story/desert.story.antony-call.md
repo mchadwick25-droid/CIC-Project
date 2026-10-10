@@ -54,7 +54,7 @@ text: >-
   sister with women he trusted, women already given to a life of virginity.
   Then he began the discipline himself, close to home at first, seeking out
   and copying an old man who was already living that way nearby.
-absent_detail: "Antony's own interior experience of that moment - what he felt hearing the words, what settled the decision in him beyond the words themselves - is not recorded; Athanasius reports the act and its occasion, not Antony's own account of his own mind. Anything further would invent an interiority the source does not give."
+absent_detail: "Antony's own interior experience of that moment - what he felt hearing the words, what settled the decision in him beyond the words themselves - is not recorded; Athanasius reports the act and its occasion, not Antony's own account of his own mind. This world's evidence does not let a Representative go further than that without inventing an interiority the source does not give."
 modern_contrast: "A modern reader often hears \"sell what you have and give to the poor, follow me\" through the lens of contemporary minimalism or values-driven downsizing - a lifestyle choice, and typically a reversible one. This world's own record frames it as the opposite: a total, irrevocable renunciation taken as a direct personal address from Scripture (desert.gravity.scriptural-engagement), not a change of address but the whole work of formation (desert.gravity.withdrawal's own description) - Antony never went back for what he gave away."
 use_note:
   means: "Athanasius reports that Antony, hearing the Gospel read aloud, gave away his inheritance and began formation near home, evidencing scripture heard as personal address."
@@ -65,23 +65,35 @@ use_note:
   years: {from: 268, to: 274}
   status: reviewed
 ---
-Verified directly against desert.source.athanasius-vita-antonii (Vita
-SS2-3, the passage desert.force.scriptural-address and
-desert.force.village-ascetic-culture also cite). The second Gospel
-hearing ("do not be anxious about tomorrow") and the placement of
-Antony's sister come from the same passage (SS3); they keep the story's
-closing action (entering formation near an old man already living that
-way nearby) connected to desert.force.village-ascetic-culture's own
-trace.
+Re-derived from the prior build's cleared Doc_09a Story 1.1, re-verified
+directly against desert.source.athanasius-vita-antonii (Vita SS2-3,
+the same passage desert.force.scriptural-address and
+desert.force.village-ascetic-culture already cite and this build has
+independently verified twice). The second Gospel hearing ("do not be
+anxious about tomorrow") and the placement of Antony's sister are added
+here from the same passage (SS3), not present in Doc_09a's own telling,
+to keep the story's own closing action (entering formation near an old
+man already living that way nearby) connected to
+desert.force.village-ascetic-culture's own trace without introducing a
+second, separately-cited story.
 
 Formation significance: this is this world's own founding instance of
 the interpretive posture desert.gravity.scriptural-engagement's own
 description names - scripture heard as direct personal address, not
 general instruction - and the act that generates
-desert.gravity.withdrawal in its first, concrete form.
+desert.gravity.withdrawal in its first, concrete form. F4-I ("How did a
+person actually become one of you? Walk me through it.") and F2-I ("How
+did you read your scriptures? What did you look for in them?") are both
+answered directly by this one narrated act.
 
 The text matches both the Vita ("imitated him in piety," SS3) and
 desert.force.village-ascetic-culture's own registered wording ("sought
 out and modeled himself on"). The Matthew 19:21 clause order matches
 the vendored Ellershaw text's own "...and come follow Me and thou
 shalt have treasure in heaven."
+
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
+
+This record answers C-P: "Who is Jesus to you - not to your church, to
+you?" - the Gospel heard as spoken straight to one man is this world's
+founding answer to exactly that question.

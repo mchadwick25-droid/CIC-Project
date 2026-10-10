@@ -78,7 +78,7 @@ from engine.m4.grounding_net import _span_in_records, quoted_span_positions
 INLINE_CITED_KINDS = {"quote": "quote", "story": "story"}
 MARK_CAP_FLOOR = 3
 MARK_CAP_CEILING = 8
-CAP_DROP_ORDER = ("figure", "story")
+CAP_DROP_ORDER = ("term", "figure", "story")
 
 
 def mark_cap(sentence_count: int) -> int:
@@ -87,9 +87,8 @@ def mark_cap(sentence_count: int) -> int:
 
 def _drawn_within_cap(elements: list[dict], sentence_count: int) -> list[dict]:
     """The elements that render inline: overlapping word marks removed, then
-    the cap applied in CAP_DROP_ORDER, latest first. A term (lexicon) mark is
-    a connection, never a decoration: it is outside the cap, neither counted
-    nor dropped. Quotes are never dropped. `elements` is in plan order."""
+    the cap applied in CAP_DROP_ORDER, latest first. `elements` is in plan
+    order."""
     last_word_end: dict[int, int] = {}
     drawn = []
     for element in elements:
@@ -98,7 +97,7 @@ def _drawn_within_cap(elements: list[dict], sentence_count: int) -> list[dict]:
                 continue
             last_word_end[element["sentence_index"]] = element["char_end"]
         drawn.append(element)
-    over = sum(1 for e in drawn if e["kind"] != "term") - mark_cap(sentence_count)
+    over = len(drawn) - mark_cap(sentence_count)
     dropped: set[int] = set()
     for kind in CAP_DROP_ORDER:
         for i in reversed([i for i, e in enumerate(drawn) if e["kind"] == kind]):

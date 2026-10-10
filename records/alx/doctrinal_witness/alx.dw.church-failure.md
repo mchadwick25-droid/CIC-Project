@@ -24,19 +24,19 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Our churches had failures, and our record leaves the wounds visible.
-  Our greatest teacher was driven out, not by pagans, but by his own
-  bishop. The church remembered both men rather than erasing either.
-  Under persecution, many gave way. Some sacrificed to the gods. When
-  peace came, the community fought bitterly over them. The strict party
-  demanded they stay out. The tradition that won here brought the
-  repentant back in, even at the deathbed, and Dionysius defended doing
-  so. After Nicaea, the church itself learned to use exile and
-  condemnation, and some of what was done with that power our own
+  Your churches had failures too - what did you do with them? Our
+  record leaves the wounds visible. Our greatest teacher was driven out, not
+  by pagans, but by his own bishop. The church remembered both men rather than
+  erasing either. Under persecution, many gave way. Some sacrificed to the
+  gods. When peace came, the community fought
+  bitterly over them. The strict party demanded they stay out. The tradition
+  that won here brought the repentant back in, even at the deathbed, and
+  Dionysius defended doing so. After Nicaea, the church itself learned to use
+  exile and condemnation, and some of what was done with that power our own
   sources report without pride. At our best, we refused the two easy
-  exits: we did not pretend the failure away, and we did not make the
-  failed unforgivable. At our worst, we did what churches with power do.
-  That, too, is in our record.
+  exits: we did not pretend the failure away, and we did not make the failed
+  unforgivable. At our worst, we did what churches with power do. That, too,
+  is in our record.
 positions:
 - The community's own writings record its failures. Its critics are not the only source.
 - restoration of the fallen prevailed over rigorism - with real struggle

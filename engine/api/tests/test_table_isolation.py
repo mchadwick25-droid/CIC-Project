@@ -43,7 +43,7 @@ def desert_world(world_loader, registry):
     return _load_world(world_loader, registry, "desert")
 
 
-def test_seeded_cross_world_leak_is_withheld_then_rewritten_out(store, usage_store, world_loader, registry, alx_world, desert_world):
+def test_seeded_cross_world_leak_is_withheld(store, usage_store, world_loader, registry, alx_world, desert_world):
     """(b) - alx's voice 'cites' a real desert record. desert's id resolves
     in desert's repository, so the ONLY thing keeping it out of alx's
     citations is that alx's net never sees desert's repository at all."""
@@ -53,7 +53,7 @@ def test_seeded_cross_world_leak_is_withheld_then_rewritten_out(store, usage_sto
     leak_sentence = f"The desert elders taught silence above all things [[{desert_rid}]]."
     client = _table_client(
         selector_script=[{"next": "alx", "reason": "r"}],
-        stream_scripts=[[good_sentence, " ", leak_sentence], [good_sentence]],
+        stream_scripts=[[good_sentence, " ", leak_sentence]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
     session_id, auth = _create_table(http)
@@ -65,11 +65,14 @@ def test_seeded_cross_world_leak_is_withheld_then_rewritten_out(store, usage_sto
     cited = {rid for c in voice["citations"] for rid in c["record_ids"]}
     assert good_rid in cited
     assert desert_rid not in cited
-    # The net withheld the sentence (an id alx's world does not carry), and
-    # the one regeneration rewrote the reply without it.
-    assert voice["sentence_enforcement"]["flagged"] == [leak_sentence.replace(f" [[{desert_rid}]]", "")]
-    assert voice["sentence_enforcement"]["still_flagged"] == []
-    assert "silence above all things" not in voice["text"]
+    # And the withholding is visible in the turn's own grounding record -
+    # detected as an id alx's world simply does not carry.
+    leak_verdicts = [s for s in voice["grounding"]["sentences"] if desert_rid in (s.get("tags") or [])]
+    assert leak_verdicts, "the seeded sentence must appear in the net's per-sentence record"
+    assert all(s["verdict"] == "withhold" and "unresolvable" in s["why"] for s in leak_verdicts)
+    # The net gates decoration, never the text: the sentence itself still
+    # reached the participant, tags stripped - with no citation badge.
+    assert "silence above all things" in voice["text"]
     assert desert_rid not in voice["text"]
 
 

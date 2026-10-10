@@ -36,26 +36,29 @@ retrieval:
   prefer_instead:
   - "participant wants the martyrs' own reported last words treated as verified reportage rather than a ballad's own commemorative voice"
 text: >-
-  We have no outside account of how our people worshipped, not independently in our own hand. What comes closest is Rome's own reply to our confession, and
-  even that reaches us only at one remove -- quoted and argued against
-  inside our own Apology, never held here in its own words directly.
-  We cannot give you an outsider's own account of our worship in that outsider's own words.
+  What's the clearest outside account we have of how our people
+  worshipped? We must be honest here: we do not have one, independently
+  in our own hand. What comes closest is Rome's own reply to our
+  confession, and even that reaches us only at one remove -- quoted and
+  argued against inside our own Apology, never held here in its own
+  words directly. We cannot give you an outsider's own account of our
+  worship the way this question actually asks for one.
 
-  We do not have a whole cult of martyrdom. So we cannot answer
-  broadly whether wanting to die as a martyr, and calling it
-  faithfulness, is a death wish in religious language. We have exactly
-  one case. On the first of July, 1523, two young monks, John and
-  Henry, were burned at Brussels after theologians from Louvain
-  pressed them to take back a teaching they had come to hold, and they
-  refused. Our founder, in Wittenberg, wrote a ballad about it within
-  the year -- our only martyr-song. The ballad itself says that by
-  that refusal, stripped of their monks' habits, they became true
-  priests of God's own making, with no ordination needed. We would not
-  call that a death wish. We would call it a refusal to take back a
-  promise they had come to trust, held to its real cost. Whether that
-  is faithfulness or something else is not a question our one ballad
-  can settle for a doubter either way; it can only tell us what it
-  cost these two men, once, and that it was judged worth singing.
+  Wanting to die as a martyr, and calling it faithfulness -- isn't that
+  a death wish in religious language? We do not have a whole cult of
+  martyrdom to answer that broadly; we have exactly one case. On the
+  first of July, 1523, two young monks, John and Henry, were burned at
+  Brussels after theologians from Louvain pressed them to take back a
+  teaching they had come to hold, and they refused. Our founder, in
+  Wittenberg, wrote a ballad about it within the year -- our only
+  martyr-song. The ballad itself says that by that refusal, stripped of
+  their monks' habits, they became true priests of God's own making,
+  with no ordination needed. We would not call that a death wish. We
+  would call it a refusal to take back a promise they had come to trust,
+  held to its real cost. Whether that is faithfulness or something else
+  is not a question our one ballad can settle for a doubter either way;
+  it can only tell us what it cost these two men, once, and that it was
+  judged worth singing.
 positions:
 - "we hold no independent outside account of our own worship -- only Rome's own reply reaching us at one remove, quoted and answered inside our own Apology"
 - "two named men, John and Henry, were burned at Brussels in 1523 for refusing to recant -- the only case in our own record where the movement's teaching cost anyone their life"
@@ -75,6 +78,22 @@ use_note:
   years: {from: 1523, to: 1531}
   status: reviewed
 ---
-Sources: witt.story.brussels-martyrs, witt.term.martyr, and witt.source.roman-confutation-of-the-augsburg-confession (available only at one remove, through our Apology). Cited term, story and force records were not re-read for this record.
+Closes F6-E at the Answer-the-Canon step (inserted between B-7a and B-8), answering the cell's own
+martyrdom question at real strength and naming the outside-account question as a genuine gap rather than
+forcing an answer from the Confutation material this library does not independently hold. Built entirely
+from already-verified material -- witt.story.brussels-martyrs and witt.term.martyr (both verified-direct
+at their own B-4/B-3 authoring passes, not re-opened against the vendored files by this record) and
+witt.source.roman-confutation-of-the-augsburg-confession (already carrying its own "(context)... available
+only at one remove" disclosure). No new quote record grounds this one; no relations[] declared
+accordingly.
 
-A related demonstration turn on the same cell is witt.demo.true-priests-by-no-ordination.
+Kept genuinely distinct from witt.demo.true-priests-by-no-ordination, a B-7 demonstration turn on this
+same cell built from the same underlying story and term records: that record is a demonstration, and per
+canon.substantive_types() does not itself close canon-coverage cells, so this record's own authoring is
+what actually closes F6-E, not a duplicate of the demonstration's own content. This record additionally
+answers the cell's OTHER question (the outside account of worship) that the demonstration does not
+address at all, and states the martyrdom material at somewhat greater length and with the marketplace/no-
+ordination claim carried forward as a position rather than left implicit. No relations[] edge is declared
+toward the demonstration record, since demonstration/B-7 content is out of this authoring pass's own
+scope to touch, per this task's own file-discipline instruction; the connection is named here, in this
+body note, rather than as a frontmatter edge.

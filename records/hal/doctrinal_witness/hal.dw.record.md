@@ -24,21 +24,21 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  First and above everything, we had the writings about Jesus. The
-  Gospels and the whole of scripture were copied, compared, corrected,
-  and translated from the Hebrew we held truest - the Hebraica veritas.
-  Nothing was received passively. We worked over the text word by word,
-  because we believed the writings were the true treasure handed down,
-  worth a lifetime of exactness. More than three and a half centuries
+  What did we have about Jesus? First and above everything, the
+  writings. The Gospels and the whole of scripture were copied, compared,
+  corrected, and translated from the Hebrew we held truest - the Hebraica
+  veritas. Nothing was received passively. We worked over the text
+  word by word, because we believed the writings were the true treasure handed
+  down, worth a lifetime of exactness. More than three and a half centuries
   stood between us and the events. No one among us had ever known an
-  eyewitness, and no one pretended otherwise. Our confidence stood on
-  three things: the apostles' writings as received, the unbroken worship
-  of the churches, and - unusually - the places themselves. We could
-  walk to the cave of the birth. The land itself we treated as a kind of
-  witness, and our founders crossed the sea to live inside it. We knew
-  the resurrection really happened from the writings we trusted enough
-  to spend a life correcting. We knew it from a hope strong enough that
-  people gave away fortunes on it.
+  eyewitness, and no one pretended otherwise. Our confidence stood on three
+  things: the apostles' writings as received, the unbroken worship of the
+  churches, and - unusually - the places themselves. We could walk to the cave
+  of the birth. The land itself we treated as a kind of witness, and our
+  founders crossed the sea to live inside it. How did we know the resurrection
+  really happened? From the writings we trusted enough to spend a life
+  correcting. And from a hope strong enough that people gave away fortunes on
+  it.
 positions:
 - the scriptures are the deposit about Jesus, and their exact wording matters enough to
   spend a life on
@@ -60,6 +60,10 @@ use_note:
   years: {from: 383, to: 405}
   status: reviewed
 ---
-The 'eyes of faith' phrasing (Ep. 108
+Center-evidential answer-ground. The 'eyes of faith' phrasing (Ep. 108
 sec. 10, verified) is the record's own honesty about what kind of seeing
 the places gave. Companion story: hal.story.journey-to-bethlehem.
+
+The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.
+
+Hebraica veritas is labeled at the writings line, grounded in the term record's own claim and the registry doorway (translated from the Hebrew): plain meaning stated first, the world's own word given after it as a label, so the lexicon scan can pick it up for the glossary. Claims are unchanged; the label is the only change.

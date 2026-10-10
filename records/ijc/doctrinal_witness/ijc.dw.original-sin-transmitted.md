@@ -18,7 +18,7 @@ sources:
   locus: Ep. LIX.4 (to the clergy and people of Constantinople)
   license: public-domain
 text: >-
-  Yes, we thought people were born already guilty - and our
+  You ask whether we thought people were born already guilty. Yes - and our
   own record says so in plain words, in a letter written against a different
   error entirely. Writing to Constantinople against Eutyches, Leo states why
   the Word had to become flesh at all. The state of everyone descended from
@@ -55,9 +55,12 @@ use_note:
   years: {from: 449, to: 449}
   status: reviewed
 ---
+Leo's own anti-Eutychian correspondence states the doctrine of
+inherited guilt explicitly, in Pauline terms, as a premise the wider
+Christological argument depends on, verified directly against the
+vendored corpus, file line 7398. The honest_limit for F1-T
+(ijc.limit.later-questions) is narrowed
+accordingly to the one F1-T question this record genuinely does not
+reach: sola fide as a Reformation-era formulation.
 
-Leo's anti-Eutychian correspondence states the doctrine of inherited
-guilt explicitly, in Pauline terms, as a premise the wider Christological
-argument depends on (file line 7398). ijc.limit.later-questions covers
-the one question this record does not reach: sola fide as a
-Reformation-era formulation.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

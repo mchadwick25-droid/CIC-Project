@@ -24,16 +24,16 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  We did not speak of guilt at birth, but we believed something real
-  went wrong at the root of humanity. Adam's fall casts its shadow over
-  every soul. Death and disorder are inherited, and no one reaches God
-  unwounded. Our teachers spoke of inherited death and weakness. They
-  also spoke of a fall that each soul signs onto in its own living. They
-  received infant baptism as custom, and they discussed its reason
-  rather than defining it. Origen wondered about the soul's own descent,
-  but as open inquiry, not doctrine. What stays constant is the
-  direction. The wound is real, universal, and inherited in its effects.
-  The doctor's imagery outweighs the courtroom's.
+  Are people born already guilty? We believed something real went wrong at the
+  root of humanity. Adam's fall casts its shadow over every soul. Death and
+  disorder are inherited, and no one reaches God unwounded. Our teachers spoke
+  of inherited death and weakness. They also spoke of a fall that each soul
+  signs onto in its own living. They received infant baptism as custom, and
+  they discussed its reason rather than defining it. Origen wondered about the
+  soul's own descent, but as open inquiry, not doctrine. What stays constant
+  is the direction. The wound is real, universal, and inherited in its
+  effects. We did not speak of guilt at birth, and the doctor's imagery
+  outweighs the courtroom's.
 positions:
 - 'a real, universal fall: inherited mortality and disorder'
 - Each soul's own consent is involved. The fall is ratified, not just suffered.
@@ -53,3 +53,7 @@ use_note:
 The F1-T cell (original sin / bread-and-cup / faith-alone questions
 share the cell; eucharistia's senses carry the second, and the
 faith-works question is answered inside the faith-to-gnosis material).
+
+REGISTER TRANSLATION: spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
+
+BAR SWEEP: text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

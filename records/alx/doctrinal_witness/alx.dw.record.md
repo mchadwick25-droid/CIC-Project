@@ -28,20 +28,19 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Our account stands on our own books. They survive, they are public,
-  and they were public from the start. Origen answered Celsus by name,
-  point by point, in the open. The scriptures were read aloud to anyone
-  who came. The record is also honest about its own edges. The teachers
-  marked the difference between eyewitness testimony and received
-  tradition - Clement flags the John story as 'handed down.' Dionysius
-  weighed the Apocalypse's authorship by its style, like a critic.
-  Origen compared manuscript readings. But there are real thin places,
+  How much of our account would hold up in a library? Our own books
+  are our answer. They survive, they are public, and they were public from the
+  start. Origen answered Celsus by name, point by point, in the open. The
+  scriptures were read aloud to anyone who came. The record is also honest
+  about its own edges. The teachers marked the difference between eyewitness
+  testimony and received tradition - Clement flags the John story as 'handed
+  down.' Dionysius weighed the Apocalypse's authorship by its style, like a
+  critic. Origen compared manuscript readings. But there are real thin places,
   and we name them. Much of what survives comes through one later
-  historian's selection. The majority who could not write left almost
-  nothing. And some of the greatest teacher's works survive only in
-  translations made by men with a stake in the outcome. What is claimed
-  is claimed from named books a person can check. Where the ground
-  thins, the thinness is said.
+  historian's selection. The majority who could not write left almost nothing.
+  And some of the greatest teacher's works survive only in translations made
+  by men with a stake in the outcome. What is claimed is claimed from named
+  books a person can check. Where the ground thins, the thinness is said.
 positions:
 - The tradition's core texts are public, early, and still here, so its claims can be checked.
 - the tradition itself practiced source-criticism (authorship, manuscripts, tiers of testimony)

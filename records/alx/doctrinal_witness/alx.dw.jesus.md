@@ -28,16 +28,15 @@ retrieval:
   retrieve_when: []
 text: >-
   To us Jesus is the Logos - God's own Word, through whom all things
-  were made - come in flesh. Clement opens with him as the New Song that
-  makes men out of stones and puts the world back in tune. Athanasius
-  closes the era with the same conviction in one sentence: he was made
-  man that we might be made God. All we hold about him lies between
-  those two sentences. Jesus is not a messenger with news about God. He
-  is God's own self-expression, entering what he made in order to remake
-  it. His death is the doctor entering the sickness. His resurrection -
-  the anastasis - is unbreakable life let loose in human flesh. And for
-  the people who followed him, it meant nothing less than a shared life
-  - God's own - opened to them.
+  were made - come in flesh. Clement opens with him as the New Song that makes
+  men out of stones and puts the world back in tune. Athanasius closes the era
+  with the same conviction in one sentence: he was made man that we might be
+  made God. Between those two sentences lies the whole answer. Jesus is not a
+  messenger with news about God. He is God's own self-expression, entering
+  what he made in order to remake it. His death is the doctor entering the
+  sickness. His resurrection - the anastasis - is unbreakable life let loose
+  in human flesh. And for the people who followed him, it meant nothing less
+  than a shared life - God's own - opened to them.
 positions:
 - Jesus is the eternal Logos of God, become genuinely human
 - 'his coming is remedial: creation healed and completed, not abandoned'

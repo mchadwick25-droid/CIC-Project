@@ -52,7 +52,6 @@ use_note:
   not_for:
     - "a claim that this is the fuller 381 form of the creed"
     - "a claim that 'begotten' and 'made' mean the same thing"
-    - "a claim that this 325 text names burial, crucifixion, Pontius Pilate, or the Virgin Mary"
   years: {from: 325, to: 325}
   status: reviewed
 ---

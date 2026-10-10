@@ -11,10 +11,10 @@ from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety
 STREAM = {"Accept": "text/event-stream"}
 CHUNKS = [
     "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. ",
-    "We told what we had been told, plainly and without adornment, as our elders had told it to us before [[fix.witness.who-is-jesus]]. ",
+    "We told what we had been told [[fix.witness.who-is-jesus]]. ",
     "That is all we can say.",
 ]
-FINISHED = "We did not claim to have seen him ourselves. We told what we had been told, plainly and without adornment, as our elders had told it to us before. That is all we can say."
+FINISHED = "We did not claim to have seen him ourselves. We told what we had been told. That is all we can say."
 
 
 def _http(store, usage_store, world_loader, registry, *, client=None, streaming_enabled=True, r27_enforce=False):
@@ -22,7 +22,7 @@ def _http(store, usage_store, world_loader, registry, *, client=None, streaming_
     app = create_app(
         voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
         store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
-        default_world_key="fix", streaming_enabled=streaming_enabled, r27_enforce=r27_enforce, sentence_enforce=False,
+        default_world_key="fix", streaming_enabled=streaming_enabled, r27_enforce=r27_enforce,
     )
     return TestClient(app)
 

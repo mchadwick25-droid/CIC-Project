@@ -55,36 +55,37 @@ text: >-
   see for see, down to towns you have never heard of.
 
 
-  A man came to hold that authority through the people and the bishops
-  together. Here is what that looked like when it went wrong. At Cirta,
-  when Silvanus was being made bishop, the people shouted back - let it
-  be another; hear us, God - and he was made bishop anyway, and a court
-  heard about it years later from a man who said, I myself fought
-  against his being made bishop. So a crowd could be overridden. It
-  could not be ignored.
+  How did a man come to hold it? Both together: the people and the
+  bishops. We can show you what that looked like when it went wrong. At
+  Cirta, when Silvanus was being made bishop, the people shouted back -
+  let it be another; hear us, God - and he was made bishop anyway, and a
+  court heard about it years later from a man who said, I myself
+  fought against his being made bishop. So a crowd could be overridden.
+  It could not be ignored.
 
 
-  "Spread so far, so fast" is not what happened to us. We did not travel
-  out and win Africa. The split ran straight down through a church
-  already there. In Numidia we were not the minority meeting quietly; we
-  were simply the church of the village, and the other party was the
-  newcomer. Our own councils were large enough to be governments: three
-  hundred and ten bishops met at Bagai in one year, condemned a rival
-  primate, and later received two of his bishops back.
+  We would rather you did not hear "spread so far, so fast" about us at
+  all, because that is not what happened. We did not travel out and win
+  Africa. The split ran straight down through a church already there. In
+  Numidia we were not the minority meeting quietly; we were simply the
+  church of the village, and the other party was the newcomer. Our own
+  councils were large enough to be governments: three hundred and ten
+  bishops met at Bagai in one year, condemned a rival primate, and later
+  received two of his bishops back.
 
 
-  Less survives of our gatherings than you would think. We know the
-  sound of it: where the other church said thanks to God, we said praise
-  to God, and we cut those two words into stone near Bagai where anyone
-  could read them. We know one day of the year in detail - the day we
-  stood at a martyr's grave and heard the account of the death read out
-  again. And we know what a gathering looked like when it was
-  interrupted, because we read that aloud too: people on their knees
+  What happened when we gathered? Less survives than you would think. We
+  know the sound of it: where the other church said thanks to God, we
+  said praise to God, and we cut those two words into stone near Bagai
+  where anyone could read them. We know one day of the year in detail -
+  the day we stood at a martyr's grave and heard the account of the
+  death read out again. And we know what a gathering looked like when it
+  was interrupted, because we read that aloud too: people on their knees
   with their eyes closed, clubbed where they knelt. Of the ordinary
   Sunday between those things, we have almost nothing.
 
 
-  The danger was not a daily terror; it was a standing condition. Every
+  Was it dangerous? Not as a daily terror; as a standing condition. Every
   see we held was held under law that did not recognise it. Basilicas
   were confiscated, clergy exiled, our country members fined by name in
   imperial legislation, and every so often the pressure came to a point

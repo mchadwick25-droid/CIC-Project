@@ -33,7 +33,7 @@ kind: ongoing
 description: |-
   This force is how the world passed itself on within the horizon. It worked through three mechanisms. They differed in how well they held up.
 
-  The first was the teacher-student formation relationship. The ability to perceive could be passed on only by accompaniment. It was the most valuable and the most fragile. The community remembered it passing from Pantaenus to Clement and on to Origen. That line rests almost entirely on Eusebius, and it is contested.
+  The first was the teacher-student formation relationship. The ability to perceive could be passed on only by accompaniment. It was the most valuable and the most fragile. Pantaenus carried it to Clement, and Clement to Origen, across three generations.
 
   The second was the sacramental practices: baptism, the Eucharist, and the calendar. They were more robust. They needed no teacher, and they reached everyone.
 
@@ -50,4 +50,4 @@ Cell 2B, transmission named as its own force per the transmission-
 specificity discipline (never folded into another entry). Its
 survivorship pattern becomes the ending-transmission force
 (precondition-for alx.force.transmission-ending). Mechanisms Widely
-Accepted; succession particulars Contested (alx.contested.didaskaleion-institution).
+Accepted; succession particulars DMR.

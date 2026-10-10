@@ -93,9 +93,9 @@ def test_notes_marked_superseded_are_not_read_for_counts(tmp_path):
 
 
 def test_a_fix_described_as_applied_but_absent_from_the_deployed_prompt_fails(tmp_path):
-    root = _clean_world(tmp_path, prompt=_prompt(gravities=0))
+    root = _clean_world(tmp_path, prompt=_prompt(quotes=2))
     report = _by_name(check_integrity("w", root, check_stale=False))["integrity deployed artifact"]
-    assert _checks(report) == ["i:deployed:k:gravity-index"]
+    assert _checks(report) == ["i:deployed:k:quote-index"]
 
 
 def test_a_world_folder_that_does_not_exist_fails(tmp_path):

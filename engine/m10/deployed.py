@@ -313,14 +313,16 @@ def check_prompt_content(code: str, prompt: str, records: dict[str, dict], entry
         if not pattern.search(shape):
             findings.append(Finding(where, "k:self-reference", f"the engine shape segment lacks the hardening rule: {label}; it is built from the fleet_voice record's pronoun_rule (engine/shape), so add the rule there"))
 
-    actual = {r["id"] for r in _by_type(records, "gravity")}
-    body = _section(prompt, "Gravities")
-    listed = set(re.findall(r"\[\[([^\]]+)\]\]", body)) if body is not None else set()
-    if body is None and actual:
-        findings.append(Finding(where, "k:gravity-index", f"the prompt has no 'Gravities' section but the records hold {len(actual)} gravity records"))
-    elif listed != actual:
-        missing, extra = sorted(actual - listed), sorted(listed - actual)
-        findings.append(Finding(where, "k:gravity-index", f"'Gravities' lists {len(listed)} ids, records hold {len(actual)}; missing {missing[:3]}{'...' if len(missing) > 3 else ''}, unknown {extra[:3]}{'...' if len(extra) > 3 else ''}"))
+    for section_header, record_type in (("Quotes we hold", "quote"), ("Gravities", "gravity")):
+        actual = {r["id"] for r in _by_type(records, record_type)}
+        body = _section(prompt, section_header)
+        listed = set(re.findall(r"\[\[([^\]]+)\]\]", body)) if body is not None else set()
+        if body is None and actual:
+            findings.append(Finding(where, f"k:{record_type}-index", f"the prompt has no '{section_header}' section but the records hold {len(actual)} {record_type} records"))
+            continue
+        if listed != actual:
+            missing, extra = sorted(actual - listed), sorted(listed - actual)
+            findings.append(Finding(where, f"k:{record_type}-index", f"'{section_header}' lists {len(listed)} ids, records hold {len(actual)}; missing {missing[:3]}{'...' if len(missing) > 3 else ''}, unknown {extra[:3]}{'...' if len(extra) > 3 else ''}"))
 
     quote_total = len(_by_type(records, "quote"))
     quotation = next((ln for ln in prompt.splitlines() if ln.lstrip().startswith("- [quotation]")), "")

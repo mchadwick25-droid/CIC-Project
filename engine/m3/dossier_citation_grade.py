@@ -28,7 +28,6 @@ from engine.m1.loader import load_world_records
 from engine.m3.sealed_probes import read_probe
 from engine.m8 import price_tables
 from engine.m8.cost import PriceTable, estimate_cost
-from engine.provider import guard
 from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
 
 REPORTS_DIR = Path(__file__).resolve().parent / "reports"
@@ -287,7 +286,6 @@ def run(*, region: str, grader_model: str, per_world: int, seed: int, max_usd: f
 
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description=__doc__)
-    guard.add_arguments(p)
     p.add_argument("--region", required=True)
     p.add_argument("--grader-model", required=True, help="inference-profile pattern; must match exactly one profile")
     p.add_argument("--per-world", type=int, required=True)

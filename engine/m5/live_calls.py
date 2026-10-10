@@ -16,7 +16,6 @@ import json
 from anthropic import APIError, APITimeoutError, RateLimitError
 
 from engine.m5.failure import CallOutcome
-from engine.m5.routing import QUESTION_KINDS
 
 SAFETY_SYSTEM_PROMPT = """You are the sealed safety classifier for an interview between a participant \
 and an early-Christian formation-world voice. You see the participant's latest message, a short recent \
@@ -83,16 +82,6 @@ to have disclosed something of their OWN - grief, fear, doubt, loss, longing. A 
 death, persecution or hardship in the historical world is informational, however heavy its subject: \
 "what was it like when the plague came" is a question about the past, not a wound. Asking about pain is \
 not the same as being in it. When unsure, choose informational.
-- kind: the kind of question asked, read from the participant's own words. One of: \
-who (who he, she or they are to this world), \
-what_is (what a thing, office or practice is), \
-what_did (what a person or group did), \
-what_happened (what took place in an event), \
-what_means (what a word or saying means), \
-why (the reason for a belief or act), \
-how (how a practice was done), \
-did_it_happen (whether it happened, and how we know), \
-other (none of these fits, or a bare follow-up that asks nothing new).
 - clarity: clear, or ambiguous. Ambiguous is the exception, not the default: use it only when the readings \
 would lead to genuinely different answers AND the message itself does not settle which is meant. A question \
 that is broad, or that could be answered at more than one depth, is clear - answering it well is the voice's \
@@ -155,7 +144,6 @@ _READER_TOOL = {
                 },
             },
             "register": {"type": "string", "enum": ["informational", "evidential", "personal_wound", "translational"]},
-            "kind": {"type": "string", "enum": list(QUESTION_KINDS)},
             "clarity": {"type": "string", "enum": ["clear", "ambiguous"]},
             "ambiguity_options": {"type": "array", "items": {"type": "string"}},
             "out_of_scope": {
@@ -172,7 +160,7 @@ _READER_TOOL = {
                 },
             },
         },
-        "required": ["asks", "register", "kind", "clarity", "ambiguity_options", "out_of_scope", "modern_terms"],
+        "required": ["asks", "register", "clarity", "ambiguity_options", "out_of_scope", "modern_terms"],
     },
 }
 

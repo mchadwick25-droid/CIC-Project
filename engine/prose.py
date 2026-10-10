@@ -4,17 +4,28 @@ Tokenizing, sentence splitting, quote-aware splitting, lexical overlap,
 and the claim-marker rules. Nothing here decides policy; each caller
 decides what to do with the measurement.
 
-Production modules that depend on it:
+This code used to live in `gates_experimental.py`, whose own docstring
+said it was "NOT yet in gates.GATES / the accepted battery... candidates
+for human review, not a pass/fail verdict". That was true of the gates in
+that file, and it is still true - they remain there, and still do not run.
+It was never true of these primitives. Four production modules had reached
+across the boundary for them by their private names, because this was the
+only implementation of any of it in the codebase:
 
     engine/m1/canon.py          the cell keyword corpus - whether a
                                 question reaches any ground at all
     engine/m2/builders.py       compile-time demonstration tagging
     engine/m4/evidence.py       Stage A/B retrieval scoring
-    engine/m4/grounding_net.py  every per-sentence verdict, and the
-                                quotation pairing it checks
+    engine/m4/grounding_net.py  every per-sentence verdict
 
-DEMONSTRATION_TAG_FLOOR and WITHHOLD_FLOOR are separate constants, each
-documented against the measurement it gates. See their comment below.
+They are load-bearing, so they are public, named plainly, and live in a
+file whose name does not tell a reader they are experimental. The split is
+a move: not one character of behaviour changed with it.
+
+One constant, GROUNDING_FLOOR, was doing two unrelated jobs on two
+different metrics. It is now DEMONSTRATION_TAG_FLOOR and WITHHOLD_FLOOR -
+same value, separately settable, each documented against the measurement
+it actually gates. See their comment below.
 """
 import re
 
@@ -271,113 +282,41 @@ def sentences(text: str) -> list[str]:
     return [s.strip() for s in _SENTENCE_SPLIT.split(text or "") if s.strip()]
 
 
-# Used by engine.m4.output_check to find the offsets of quoted speech: an
-# opening quote is a straight or curly mark at start-of-text or after
-# space/colon/comma/dash/parenthesis; a closing one is followed by space,
-# punctuation, or end. Apostrophes inside words ("God's") match neither.
+# An opening quote is a straight single quote at start-of-text or after
+# space/colon/comma/dash; a closing one is followed by space, punctuation,
+# or end. Apostrophes inside words ("God's") match neither. A lone false
+# closer (teachers') can't force a merge because merging only triggers
+# while openers outnumber closers. Shared here (not left as an engine.m4-
+# only concern) because M2's compile-time demonstration tagging needs the
+# identical quote-aware split M4's live net uses - one splitter, owned
+# once, so a demo tagged at compile time and a live turn checked at
+# generation time can never silently disagree about where a sentence ends.
+# Straight and curly, single and double quotes. Double quotes were missing, and the
+# corpus already holds 249 paired double-quoted spans - so a sentence
+# quoting with " split inside the quotation and the orphan reached a
+# participant on its own. Seen live on alx: `It has made men out of stones,
+# men out of beasts".` was shown while its own opening clause, "Clement,
+# one of our first teachers, called him the New Song:", was withheld for
+# having no tag. A live model quotes with " far more readily than with ',
+# whatever the prompt around it does.
 QUOTE_OPEN = re.compile(r"""(?:^|[\s:,\-(])['"“‘](?=\S)""")
 
 
 QUOTE_CLOSE = re.compile(r"""(?<=\S)['"”’](?=[\s.,;:!?)]|$)""")
 
 
-# Quotation pairing: which mark closes which. engine.m4.grounding_net checks
-# every quotation it pairs here, and quote_aware_sentences keeps each paired
-# quotation inside one sentence, so a demonstration tagged at compile time
-# and a live turn checked at generation time agree on where a quotation
-# starts, where it ends, and so where a sentence ends.
-_DOUBLE_OPENERS = "\"\u201c"
-_CLOSERS = {
-    '"': re.compile(r"""(?<=\S)["\u201d](?=[\s.,;:!?)]|$)"""),
-    "\u201c": re.compile(r"""(?<=\S)[\"\u201d](?=[\s.,;:!?)]|$)"""),
-    "'": re.compile(r"""(?<=\S)['\u2019](?=[\s.,;:!?)]|$)"""),
-    "\u2018": re.compile(r"""(?<=\S)['\u2019](?=[\s.,;:!?)]|$)"""),
-    "\u00ab": re.compile("\u00bb"),
-    "\u2039": re.compile("\u203a"),
-    "\u300c": re.compile("\u300d"),
-    "\u300e": re.compile("\u300f"),
-    "\u201e": re.compile(r"""(?<=\S)[\u201c\u201d"](?=[\s.,;:!?)]|$)"""),
-}
-# Guillemets, the low opening mark and the corner brackets are never anything
-# but quotation marks in English prose; a guillemet may stand apart from its
-# words (« like this »), and a corner bracket may follow a word directly.
-_QUOTE_OPEN = re.compile(
-    r"""(?:(?:^|[\s:,\-(])(?:['"\u201c\u2018\u201e]|[\u00ab\u2039]\s?)|[\u300c\u300e]\s?)(?=\S)"""
-)
-_PLURAL_POSSESSIVE = re.compile(r"s['\u2019]\s+[A-Za-z]")
-
-
-def _closing_mark(text: str, opener: str, start: int) -> int | None:
-    """Index of the mark that closes a quotation opened by `opener`: a double
-    opener closes only on a double mark, skipping any complete double
-    quotation nested inside it; a single opener skips a plural possessive
-    (the apostles' teaching) unless nothing else closes it."""
-    if opener in _DOUBLE_OPENERS:
-        return _closing_double_mark(text, start)
-    pos = start
-    skipped = None
-    while True:
-        match = _CLOSERS[opener].search(text, pos)
-        if not match:
-            return skipped
-        index = match.end() - 1
-        if not _PLURAL_POSSESSIVE.match(text, index - 1):
-            return index
-        skipped = index if skipped is None else skipped
-        pos = match.end()
-
-
-def _closing_double_mark(text: str, start: int) -> int | None:
-    depth = 0
-    for index in range(start, len(text)):
-        mark = text[index]
-        if mark not in "\"\u201c\u201d":
-            continue
-        before = text[index - 1] if index else " "
-        after = text[index + 1] if index + 1 < len(text) else " "
-        opens = mark == "\u201c" or (mark == '"' and (before.isspace() or before in ":,-(\u201c\u2018") and not after.isspace())
-        closes = mark == "\u201d" or (mark == '"' and not before.isspace() and (after.isspace() or after in ".,;:!?)\u201d\u2019\"'"))
-        if closes and not (opens and mark == '"'):
-            if depth == 0:
-                return index
-            depth -= 1
-        elif opens:
-            depth += 1
-    return None
-
-
-def quote_pairs(text: str):
-    """(open_index, close_index) of every outermost paired quotation mark,
-    left to right. An opener nothing closes pairs with nothing."""
-    pos = 0
-    while True:
-        open_m = _QUOTE_OPEN.search(text, pos)
-        if not open_m:
-            return
-        open_i = open_m.end() - 1
-        if text[open_i].isspace():
-            open_i -= 1
-        close_i = _closing_mark(text, text[open_i], open_m.end())
-        if close_i is None:
-            pos = open_m.end()
-            continue
-        yield open_i, close_i
-        pos = close_i + 1
+def _quote_balance(text: str) -> int:
+    return len(QUOTE_OPEN.findall(text)) - len(QUOTE_CLOSE.findall(text))
 
 
 def quote_aware_sentences(text: str) -> list[str]:
     """The naive splitter above, then re-merge any split that landed inside
-    a paired quotation - 'Behold the might of the new song! It has made
+    an open quotation - 'Behold the might of the new song! It has made
     men...' is one quoted span, not two sentences, and splitting it
     orphans a tag (or a scoring pass) from half the claim it grounds."""
-    text = text or ""
-    pairs = list(quote_pairs(text))
     merged: list[str] = []
-    pos = 0
     for piece in sentences(text):
-        start = text.index(piece, pos)
-        pos = start + len(piece)
-        if merged and any(open_i < start <= close_i for open_i, close_i in pairs):
+        if merged and _quote_balance(merged[-1]) > 0:
             merged[-1] = merged[-1] + " " + piece
         else:
             merged.append(piece)

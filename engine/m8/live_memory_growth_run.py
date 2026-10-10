@@ -21,7 +21,6 @@ from engine.m4.turn import run_turn
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
 from engine.m8.live_cost_run import HAIKU_4_5_PRICE_TABLE, PRICE_TABLE_SOURCE, SONNET_4_5_PRICE_TABLE, _price_for_call_kind
-from engine.provider import guard
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -110,7 +109,6 @@ def run(region: str) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     args = parser.parse_args()
 

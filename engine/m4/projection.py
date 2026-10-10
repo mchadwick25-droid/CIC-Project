@@ -60,9 +60,6 @@ class SessionState:
     safety: SafetyState = field(default_factory=SafetyState)
     pressed: dict[str, bool] = field(default_factory=lambda: {"later_age": False, "other_tradition": False})
     degraded_turn_count: int = 0
-    # The kind the previous voice turn answered under, so a follow-up
-    # inherits how the previous question was asked.
-    last_kind: str | None = None
     resumed_count: int = 0
     closed: bool = False
     close_reason: str | None = None
@@ -148,7 +145,6 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
                     "transparency": payload.get("transparency"),
                 }
             )
-            state.last_kind = payload.get("kind") or state.last_kind
             if state.mode == "table" and state.round_open:
                 state.round_turns += 1
                 state.round_speakers.append(payload["speaker"])

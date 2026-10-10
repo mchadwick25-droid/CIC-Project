@@ -30,17 +30,17 @@ relations:
 - type: associated-with
   target: syr.gravity.authority-ambiguity
 text: >-
-  Authority among us lay first with shepherds - bishops. Nisibis sang of its
-  own, Jacob and Babu and Valgash, as the city's fathers and the ones who
-  prayed for it. The Persian church had its bishops too, enough of them to
-  quarrel over precedence. The sage wrote of pastors gently and sternly: the
-  good shepherd gives himself for the flock. But office was not the only path
-  a community's trust ran along. The covenant's vowed men and women carried a
-  standing of their own. And a teacher whose word held - like the sage
-  himself, whose rank no one now knows - could write to bishops in a synod's
-  name. Anyone came to have authority by being made a bishop, by taking the
-  vow, or by being found trustworthy over time. Which of these finally
-  outranked the others, we never settled in our own years.
+  Who held authority among us? Shepherds, first of all - bishops.
+  Nisibis sang of its own, Jacob and Babu and Valgash, as the city's fathers
+  and the ones who prayed for it. The Persian church had its bishops too,
+  enough of them to quarrel over precedence. The sage wrote of pastors gently
+  and sternly: the good shepherd gives himself for the flock. But office was
+  not the only path a community's trust ran along. The covenant's vowed men
+  and women carried a standing of their own. And a teacher whose word held -
+  like the sage himself, whose rank no one now knows - could write to bishops
+  in a synod's name. How did anyone come to have authority? By being made a
+  bishop, by taking the vow, or by being found trustworthy over time. Which of
+  these finally outranked the others, we never settled in our own years.
 positions:
 - bishops led and were beloved - the episcopal line is part of the community's own memory
 - the covenant order and received teachers were real authority pathways beside office
@@ -57,4 +57,8 @@ use_note:
   years: {from: 300, to: 410}
   status: reviewed
 ---
-Dem X grounds the shepherd teaching; the Nisibene cycle grounds the episcopal memory. The ambiguity over which path outranked the others is left open.
+F3-I substantive companion to the term-level coverage: Dem X
+grounds the shepherd teaching; the Nisibene cycle the episcopal
+memory; the ambiguity complex the honest edge.
+
+The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.

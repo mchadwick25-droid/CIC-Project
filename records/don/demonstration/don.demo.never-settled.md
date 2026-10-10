@@ -59,11 +59,11 @@ exchange:
     letters ends the same way. Let no one learn of it.
 
 
-    And underneath all three: a man among us argued from Scripture that the
-    church is spread across the whole earth. Our own bishop told him never to
-    preach it again. He did not recant and he did not leave. It is reported
-    that we cut him off, and we never took him back. His book outlived us in
-    the hands of the church that beat us.
+    And underneath all three: we produced one man who could think, and we
+    silenced him. He argued from Scripture that the church is spread across
+    the whole earth. Our own bishop told him never to preach it again. He did
+    not recant and he did not leave, and we cut him off, and his book
+    outlived us in the hands of the church that beat us.
 ---
 Worked exchange for F6-I, the cell this world answers most strongly - and
 worth saying why, since it is the opposite of the usual reason. This
