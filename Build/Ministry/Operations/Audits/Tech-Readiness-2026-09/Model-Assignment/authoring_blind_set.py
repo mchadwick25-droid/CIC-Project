@@ -35,6 +35,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[5]))
 from engine.m1.reports.rendering_grader_model_study import MODELS
 from engine.m1.rendering_fidelity import grade_rendering
 from engine.m8.cost import estimate_cost
+from engine.provider import guard
 from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
 
 BRIEF = Path(__file__).resolve().parent / "Authoring-Brief-12-Records.md"
@@ -164,6 +165,7 @@ def score(blind: Path, region: str, runs: int, model_keys: list[str]) -> dict:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    guard.add_arguments(parser)
     sub = parser.add_subparsers(dest="cmd", required=True)
     a = sub.add_parser("assemble")
     a.add_argument("--author-a-raw", type=Path, required=True)

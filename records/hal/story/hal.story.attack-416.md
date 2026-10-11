@@ -40,8 +40,7 @@ text: 'Near the end, the argument came to the doors. Men attacked the monasterie
   and told him what had been done. Writing on to the bishop of Jerusalem about it, Rome''s
   bishop marveled that the women, in their own report, had declined to name the man
   behind it. He also wrote his sympathy to Jerome directly, and a rebuke to the bishop
-  of Jerusalem for letting it happen. Who struck the blow, how many died,
-  what was lost - the community itself chose not to say, and its restraint is most of
+  of Jerusalem for letting it happen. The community itself chose not to say who struck the blow, how many died, or what was lost, and its restraint is most of
   what survives.'
 absent_detail: 'Nearly everything: the attackers'' identity and number (the community
   declined to name them - the pope''s letter praises the restraint), the casualties
@@ -59,6 +58,5 @@ use_note:
   years: {from: 416, to: 416}
   status: reviewed
 ---
-Re-derived from cleared Doc_09a S4, re-sourced on this branch to the full
-five-letter cluster. The women's lost letter and the community's own
-restraint are the story's honest center. Serves F6-P.
+The women's lost letter and the community's own
+restraint are the story's honest center.

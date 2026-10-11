@@ -24,19 +24,20 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Did Constantine corrupt the church? Did empire change what it was? We lived
-  that question inside one lifetime, and our answer is double. Before 325
-  there were three centuries of on-and-off danger. Property was seized.
-  Teachers' fathers were beheaded. Bishops fled. And the church's whole
-  authority was persuasion. After 325, the emperor called the council and the
-  confession was enforced. The bishop of Alexandria became, among other
-  things, a tool of order on an empire's scale. Athanasius is our own test
-  case, and he breaks the simple story both ways. The empire backed Nicaea,
-  and exiled him five times for defending it. Imperial favor built churches,
-  and imperial politics filled them with rival bishops. The record does not
-  show purity corrupted. It shows power arriving with both hands, protection
-  and interference at once. And it shows a church that had chosen neither,
-  learning to survive both.
+  Constantine's empire did not simply corrupt us. We lived both sides of
+  that change inside one lifetime, and what we saw was double. Before
+  325 there were three centuries of on-and-off danger. Property was
+  seized. Teachers' fathers were beheaded. Bishops fled. And the
+  church's whole authority was persuasion. After 325, the emperor called
+  the council and the confession was enforced. The bishop of Alexandria
+  became, among other things, a tool of order. It was order on an
+  empire's scale. Athanasius is our own test case, and he breaks the
+  simple story both ways. The empire backed Nicaea, and exiled him five
+  times for defending it. Imperial favor built churches, and imperial
+  politics filled them with rival bishops. The record does not show
+  purity corrupted. It shows power arriving with both hands. It brought
+  protection and interference at once. And it shows a church that had
+  chosen neither, learning to survive both.
 positions:
 - the pre-Constantinian church's authority was persuasion under intermittent lethal pressure
 - After 325 the church gained protection and lost its distance from power. Both are documented.

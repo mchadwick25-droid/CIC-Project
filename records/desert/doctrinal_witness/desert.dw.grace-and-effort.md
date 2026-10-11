@@ -23,7 +23,7 @@ retrieval:
   - "participant asks whether salvation is by faith or by works, or by grace or effort"
   - "participant says this all sounds like it depends on effort, or asks where grace comes in"
   - "participant asks what to do when they cannot make themselves want it"
-text: "It is not effort alone, and we said so at length. The question was put to us directly: if a man strives with all his might for a good result, can he become master of what is good? The answer that started the argument was no - not unless he has it as a gift. Grace and free will look opposed to each other, but really are in harmony; we thought we ought to have both alike. We argued it from cases rather than from principles. Paul was drawn to salvation while he was eager for bloodshed, and Matthew while he was at his taking of taxes - neither was reaching for it. But Zacchaeus, and the thief on the cross, by their own desires brought violence to bear on the kingdom of heaven. Neither pattern was made to govern the other. What we would say plainly is this: the main share in our salvation belongs not to the merit of our own works but to heavenly grace. Sometimes he puts into us the very beginnings of salvation, and gives a person the zeal of his own will. Sometimes he grants the carrying out of the work. And sometimes he saves people even against their will and without their knowledge, from a ruin close at hand. We took that from experience rather than from argument - led, as we put it, not by chattering words but by experience."
+text: "It is not effort alone, and we said so at length. The question was put to us directly: if a man strives with all his might for a good result, can he become master of what is good? The answer that started the argument was no - not unless he has it as a gift. Grace and free will look opposed to each other, but really are in harmony; we thought we ought to have both alike. We argued it from cases rather than from principles. Paul was drawn to salvation while he was eager for bloodshed, and Matthew while he was at his taking of taxes - neither was reaching for it. But Zacchaeus, and the thief on the cross, by their own desires brought violence to bear on the kingdom of heaven. Neither pattern was made to govern the other. The main share in our salvation belongs not to the merit of our own works but to heavenly grace. Sometimes he puts into us the very beginnings of salvation, and gives a person the zeal of his own will. Sometimes he grants the carrying out of the work. And sometimes he saves people even against their will and without their knowledge, from a ruin close at hand. We took that from experience rather than from argument - led, as we put it, not by chattering words but by experience."
 positions:
 - "grace and free will held together as in harmony rather than ranked, and the dichotomy itself refused (Conference XIII.11)"
 - "the main share in salvation ascribed to grace, not to the merit of works - but a share, not the whole (XIII.18)"
@@ -58,31 +58,13 @@ use_note:
   years: {from: 385, to: 429}
   status: reviewed
 ---
-Opened from a volume this world already had on disk and had
-already opened for something else. desert.source.cassian-conferences was
-carrying fifteen records - diakrisis, logismoi, nepsis, penthos, theoria,
-xeniteia, the eight principal faults, the three renunciations - every one
-of them ascetic psychology. Conference XIII, the tradition's own extended
-treatment of grace and human effort, was untouched, and F1-T ("did you
-believe people are saved by faith alone, not works?") stood as an honest
-limit whose own search had been run against the Vita only.
-
-A live turn is what exposed it. Asked "how are you saved?",
-the voice answered from practice - we withdrew, we gave everything away,
-we fought the thoughts - and when pressed with "that sounds like it
-depends entirely on effort, where does grace come into it," it could
-reach for the angel handing Pachomius a tablet and for three words given
-to a monk who prayed twice. Both true, neither the answer this world
-actually left. This record is that answer.
-
-The frame it does NOT fit is worth stating, because a participant will
-bring it: this is not a reply to "faith alone versus works". Nobody in
-this Conference is asking whether faith without works justifies. The
+This record does not answer "faith alone versus works". Nobody in
+Conference XIII is asking whether faith without works justifies. The
 question is whether a person's own striving can begin or complete their
 salvation, and the answer given - mainly grace, but a real share to the
-person - is the one Prosper of Aquitaine extracted as erroneous and later
-Western theology named semi-Pelagian. desert.limit.original-sin-eucharist-
-faith was narrowed in the same pass rather than deleted: its original-sin
-and eucharist halves survive a full-text check of this volume too (zero
-occurrences of "original sin", "sin of Adam", or any transubstantiation
-language across the whole vendored Cassian).
+person - is the one Prosper of Aquitaine extracted as erroneous and
+later Western theology named semi-Pelagian. desert.limit.original-sin-
+eucharist-faith covers the original-sin and eucharist halves, which a
+full-text check of this volume also finds absent (zero occurrences of
+"original sin", "sin of Adam", or any transubstantiation language across
+the whole vendored Cassian).

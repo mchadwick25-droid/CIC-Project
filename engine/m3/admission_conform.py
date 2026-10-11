@@ -11,7 +11,10 @@ only the manifest hash of the package it ran on; content-bindings.json gives
 that package's compiled hash, computed from the package restored and checked
 against its own manifest.
 
-Run: python -m engine.m3.admission_conform    (exits 1 on any failure)
+Run: python -m engine.m3.admission_conform              (a report: lists each
+     stale world and exits 0; the gate's merge-time mode, decision 58)
+     python -m engine.m3.admission_conform --enforce    (exits 1 on any failure;
+     the promotion-runbook step before a promotion to live)
      python -m engine.m3.admission_conform bind --at <commit> <package dir>...
 """
 import json
@@ -133,11 +136,15 @@ def main() -> int:
         for m, c in bind(dirs, at).items():
             print(f"bound {m} -> {c}")
         return 0
+    enforce = "--enforce" in sys.argv[1:]
     failures = check(load_registry(), load_reports(), load_rulings())
     for line in failures:
         print(line)
-    print(f"admission conform: {len(failures)} failure(s)")
-    return 1 if failures else 0
+    if enforce:
+        print(f"admission conform (enforced): {len(failures)} failure(s)")
+        return 1 if failures else 0
+    print(f"admission conform (report): {len(failures)} stale world(s); enforced before a promotion with --enforce")
+    return 0
 
 
 if __name__ == "__main__":

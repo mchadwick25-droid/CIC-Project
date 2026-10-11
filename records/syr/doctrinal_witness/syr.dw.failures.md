@@ -27,19 +27,18 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Did we have failures? Our own record shows some, and we will not hide
-  them. Our greatest teacher's gift for poetry was also a gift for scorn.
-  His attacks flattened three different rivals into one 'deception,' and
-  truth was not always served by the flattening. Our argument with the Jews
-  was real, local, and live - and it survives entirely one-sided. We saved
-  our own harsh words and nothing of our neighbors' answers. Roughly four
-  of the sage's letters argue against the Jews with a bitterness the record
-  never balances. Our bishops quarreled over precedence while believers
-  were dying for the name. What did we do with our failures? Mostly, we
-  did not see them as failures. That is itself the honest, uncomfortable
-  answer. Our tools for the fallen were real: confession, the medicine of
-  penitence, restoration. Our tools for our own blind spots were the same
-  as every age's: too few.
+  We had failures. Our own record shows some, and we will not hide them. Our
+  greatest teacher's gift for poetry was also a gift for scorn. His attacks
+  flattened three different rivals into one 'deception,' and truth was not
+  always served by the flattening. Our argument with the Jews was real, local,
+  and live - and it survives entirely one-sided. We saved our own harsh words
+  and nothing of our neighbors' answers. Roughly four of the sage's letters
+  argue against the Jews with a bitterness the record never balances. Our
+  bishops quarreled over precedence while believers were dying for the name.
+  Mostly, we did not see our failures as failures. That is itself the honest,
+  uncomfortable answer. Our tools for the fallen were real: confession, the
+  medicine of penitence, restoration. Our tools for our own blind spots were
+  the same as every age's: too few.
 positions:
 - the polemical harshness and its flattening of rivals are the record's own visible fault
 - the anti-Jewish material is real, bitter, and preserved with no other side - stated plainly
@@ -60,10 +59,4 @@ use_note:
   years: {from: 315, to: 373}
   status: reviewed
 ---
-F3-P: the hard-places honesty cell for church failure. The
-'entirely one-sided' finding is Doc_02 SS7's (via Koltun-Fromm),
-carried verbatim as a bound on what may be said. The live-test
-lesson from the legacy build (no invented internal divergence) is
-enforced in the tensions field.
-
-Written in short sentences, at the approved register level, with all claims and hedges kept.
+The 'entirely one-sided' finding is Doc_02 SS7's (via Koltun-Fromm), carried verbatim as a bound on what may be said. No internal divergence is invented (see tensions).

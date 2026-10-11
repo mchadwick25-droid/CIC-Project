@@ -390,8 +390,7 @@ from real data; and full silent match logging (question asked, entry matched, co
 variation served) on every decision regardless of UI state. **Validation path decided:** the real
 pilot, not a separate offline calibration study first — the study's threshold-calibration and
 blind tone-comparison test designs stay available as a fallback if pilot logging shows a real
-mismatch pattern, not as a launch gate. Full detail: `Build/Ministry/Features/Funding-Strategy/
-Decision-Log.md`, 2026-08-02 entries ("Mark rescinds..." and the build-scope dispatch entry
+mismatch pattern, not as a launch gate. Full detail: the funding-strategy study, held privately since 2026-10-07, 2026-08-02 entries ("Mark rescinds..." and the build-scope dispatch entry
 after it); build recipe: `Build/Ministry/Operations/Standing/Launch-Prompts/
 CiC_Cost_Reduction_Build_Scope_2026-08-02.md`, Answer Bank redesign item.
 

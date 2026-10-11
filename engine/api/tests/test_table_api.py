@@ -804,8 +804,8 @@ def test_seat_identity_guard_exhausted_hands_the_turn_to_the_facilitator(store, 
 
 
 def _other_tradition_directive_text(client, call_index=0):
-    content = client.messages.stream_calls[call_index]["messages"][-1]["content"]
-    return content[0]["text"] if isinstance(content, list) else ""
+    system = client.messages.stream_calls[call_index]["system"]
+    return "".join(block["text"] for block in system[2:])
 
 
 def test_a_table_turn_classified_other_tradition_gets_the_directive(store, usage_store, world_loader, registry, alx_world, desert_world):

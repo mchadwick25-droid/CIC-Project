@@ -32,9 +32,7 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  How did we know our practices went back to the apostles? We asked
-  that exact question about ourselves, constantly, because 'ancient custom' was
-  our strongest currency. Nicaea makes law with it: let the ancient customs
+  'Ancient custom' was our strongest currency, so we kept asking whether our own practices truly went back to the apostles. Nicaea makes law with it: let the ancient customs
   prevail. Julius claims Rome's standing with it: the custom has been for word
   to be written first to us. Damasus built pilgrim roads of verse to make his
   see's apostolic memory visible. But the record also lets us watch a custom
@@ -45,8 +43,7 @@ text: >-
   He claims a real beginning at Milan and a wide later imitation - not the
   first Latin hymn ever written. Hilary of Poitiers had already tried, a
   generation earlier, and our sources say he never got hymns into public
-  worship; that success belongs to Ambrose. So the honest answer our
-  own record gives is this. Some of our practices genuinely came down from
+  worship; that success belongs to Ambrose. Our own record gives this honest account. Some of our practices genuinely came down from
   before anyone could remember otherwise. Some were new, and known to be new.
   And the claim of apostolic age was itself a tool, used hardest exactly where
   it was most contested.
@@ -73,15 +70,10 @@ use_note:
   years: {from: 325, to: 386}
   status: reviewed
 ---
-F4-E answered with the world's own custom-apparatus AND its one
-honestly-dated innovation - the pairing that keeps the answer from
-being either triumphalist or debunking. All four instances verified
-in the vendored corpus (Canon 6 wording checked at the source record;
-Julius and Augustine at their quote records; Hilary at the volume's
-own introduction, npnf209:3707-3741). The Hilary hymn fragments share a manuscript with Hilary's own De
+
+The Hilary hymn fragments share a manuscript with Hilary's own De
 Mysteriis, not De Synodis (a separate work in the same volume). Hilary
 wrote hymns but never succeeded in bringing them into public worship, an
-honor the same source credits to Ambrose - this corroborates rather than
-complicates Augustine's claim.
-
-The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.
+honor the same source credits to Ambrose; this corroborates rather than
+complicates Augustine's claim. Source pointer: the volume's own
+introduction, npnf209:3707-3741.

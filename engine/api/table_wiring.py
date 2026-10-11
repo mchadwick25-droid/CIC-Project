@@ -52,6 +52,7 @@ from engine.m4.entrance import open_session
 from engine.m4.grants import GrantProvider
 from engine.m4.grants import resolve as resolve_grant
 from engine.m4.projection import SessionState, project_fresh
+from engine.m4.rhythm import tally_from_transcript
 from engine.m4.round import (
     TABLE_SESSION_ROUND_CAP,
     RoundConfig,
@@ -932,6 +933,7 @@ def _advance_open_round(
             already_told_ids=already_told,
             already_bridged_figure_ids=already_figures,
             already_bridged_gloss_ids=already_glosses,
+            rhythm=tally_from_transcript(transcript, speaker=selection.world_key, question_recorded=True),
             history=history,
             context_prefix=_context_prefix(pending) if other_voice_has_spoken else None,
             secondary_context=_secondary_context_text(pending) if other_voice_has_spoken else None,
@@ -1080,7 +1082,7 @@ def _screen_refused_table_message(
     gate_run = run_gate(
         session_id=session_id, safety_client=safety_client, safety_model_id=safety_model_id,
         participant_message=text, pressed=state.pressed, anachronistic_term_ids=set(),
-        track_b_accumulator=state.safety.track_b_accumulator,
+        track_b_accumulator=state.safety.track_b_accumulator, world_key=None,
     )
     for rec in gate_run.usage_records:
         usage_store.append(rec)
@@ -1183,6 +1185,7 @@ def _handle_table_message_unlocked(
         pressed=state.pressed,
         anachronistic_term_ids=anachronistic_ids,
         track_b_accumulator=state.safety.track_b_accumulator,
+        world_key=None,
     )
     grant = resolve_grant(
         grant_for, completed=state.turn_count, free_cap=round_module.TABLE_SESSION_ROUND_CAP, daily_cap_reached=daily_turn_cap_reached

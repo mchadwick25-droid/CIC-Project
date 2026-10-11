@@ -32,30 +32,29 @@ retrieval:
   - "participant asks what our people would have made of someone like the participant specifically -- retrieve witt.demo.someone-like-me instead, the identity-collision content this record does not repeat"
   - "participant means whether a woman could carry real authority among us -- our record does not answer that honestly beyond a single question, per witt.voice.craft's own declined-cells reasoning"
 text: >-
-  The people who taught you the faith turned out to be hypocrites. Did
-  that happen among us? We will not pretend it did not. Our own founder
-  said, more than once, across a whole decade, that it did -- not about
-  strangers, but about pastors and preachers of our own. In one parish
-  he said flatly that a donkey could intone the lessons about as well as
-  the people repeating them, because God wants doers, not repeaters of
-  words. Years later, writing for the whole territory, he said plainly
-  that many pastors were negligent, and that ordinary people held the
-  Gospel far too lightly. That is not a stranger's accusation; that is
-  our own founder's own complaint, said in his own voice, more than
-  once.
+  Hypocrites among those who taught the faith: that happened among us, and we will not pretend it did not. Our own founder said, more than once, across a
+  whole decade, that it happened -- not about strangers, but about
+  pastors and preachers of our own. In one parish he said flatly that a
+  donkey could intone the lessons about as well as the people repeating
+  them, because God wants doers, not repeaters of words. Years later,
+  writing for the whole territory, he said plainly that many pastors were
+  negligent, and that ordinary people held the Gospel far too lightly.
+  That is not a stranger's accusation. That is our own founder's own
+  complaint, said in his own voice, more than once.
 
   We must be careful here, and honest about the shape of what we
   actually hold. That testimony is his own -- real, and said more than
   once -- but it is testimony, not a report from any actual parish
-  standing beside it to check it against. We do not have the records
-  that would tell us whether he was right about how bad it really was,
-  only that he believed it and said so. And on this same question of
-  coldness, we hold one more voice, briefer, closer to home: a question
-  asked once at our founder's own table, why some prayed with such
-  fervor under the old system while we, under the new one, prayed so
-  coldly and carelessly. Our founder answered her plainly: the devil
-  drives his own servants hard, and they take great pains at their
-  false worship, while we, at the true one, grow ice-cold and
+  standing beside it to check it against. We do not have the records that
+  would tell us whether he was right about how bad it really was, only
+  that he believed it and said so.
+
+  On this same question of coldness, we hold one more voice, briefer,
+  closer to home. At our founder's own table, his wife Katharina asked why some
+  prayed with such fervor under the old system while we, under the new
+  one, prayed so coldly and carelessly. Our founder answered her plainly:
+  the devil drives his own servants hard, and they take great pains at
+  their false worship, while we, at the true one, grow ice-cold and
   negligent. That answer is real, given at his own table to someone who
   lived closest to him, and it was thought worth remembering.
 positions:
@@ -80,24 +79,6 @@ use_note:
   years: {from: 1522, to: 1546}
   status: reviewed
 ---
-Closes F6-P at the Answer-the-Canon step (inserted between B-7a and B-8) by answering the cell's
-hypocrisy sub-question at real strength, the one this world's own already-built force record
-(witt.force.parishes-state-as-reported) grounds most directly and honestly -- rather than force an answer
-to the cell's other five sub-questions (someone-like-me; suffering; wanting to leave; what to tell someone
-who left; women's authority), several of which witt.voice.craft's own B-7 body note already named as
-declined for good, stated reasons (identity-collision material confined to witt.demo.someone-like-me;
-women's-authority material would require inventing content this world's own Absent Stories finding
-refuses). Closing the CELL honestly, at its strongest real sub-question, is the discipline this record
-follows rather than attempting all six at partial strength; the tensions field names the scope directly
-rather than leaving a reader to assume this record answers more than it does.
+Source: witt.force.parishes-state-as-reported, which bars citing it as evidence that Saxon congregations were ignorant, cold, or negligent. Cited term, story and force records were not re-read for this record.
 
-Built entirely from witt.force.parishes-state-as-reported, already verified-via-authority at its own B-5
-authoring pass and carrying its own explicit bar ("no downstream record may cite this force... as
-evidence that Saxon congregations were ignorant, cold, or negligent") forward into this record's own
-confidence.divergence_note and text, exactly as that bar requires. Not re-opened against the vendored
-files by this record.
-
-The declined-cells reasoning for identity-collision and women's-authority material (why neither is
-re-attempted here) belongs to witt.voice.craft's own B-7 body note, cited by reference above rather than
-restated in a frontmatter field -- no frontmatter field is invented to hold that pointer, per this
-project's own file-discipline rule; it is carried in this body note only.
+The other sub-questions of this cell are not answered here. The reasons they are declined are in witt.voice.craft.

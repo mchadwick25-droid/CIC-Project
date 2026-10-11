@@ -33,23 +33,23 @@ retrieval:
   - "participant asks whether a council basically voted Jesus into being God"
   - "participant asks who had the authority to decide a disputed belief, and how that actually worked"
 text: >-
-  No - and we would push back hard on the word "voted." The council did not
-  invent what we already confessed. We were signed into the Name, Father,
-  Son, and Holy Spirit, at the font before any council met again in our own
-  lifetimes. We sang the Son's praise at evening prayer. We called him
-  fully what the Father is, not merely like him, decades before the
-  argument reached its final council. When one of our bishops changed one
-  small word in a familiar prayer - praising the Father together with the
-  Son and the Holy Spirit, rather than merely through the Son in the
-  Spirit - he was not asked to invent a new belief. He was accused of
-  going too far, and he answered by pointing to what the church already
-  did: the water, the standing at prayer, the words already sung. When the
-  bishops finally gathered and wrote it down, they wrote the Spirit's own
-  glory the way our churches had already been singing it. A vote settles a
-  question a room is free to answer either way. This was never that. It
-  was a council writing down, under real pressure and at real cost to some
-  of its own members, what the font and the prayer had already been
-  saying all along.
+  The council did not invent what we already confessed, and "voted" is
+  the wrong word for what it did. We were signed into the Name, Father,
+  Son, and Holy Spirit, at the font before any council met again in our
+  own lifetimes. We sang the Son's praise at evening prayer. We called
+  him fully what the Father is, not merely like him, decades before the
+  argument reached its final council. When one of our bishops changed
+  one small word in a familiar prayer - praising the Father together
+  with the Son and the Holy Spirit, rather than merely through the Son
+  in the Spirit - he was not asked to invent a new belief. He was
+  accused of going too far, and he answered by pointing to what the
+  church already did: the water, the standing at prayer, the words
+  already sung. When the bishops finally gathered and wrote it down,
+  they wrote the Spirit's own glory the way our churches had already
+  been singing it. A vote settles a question a room is free to answer
+  either way. This was never that. It was a council writing down, under
+  real pressure and at real cost to some of its own members, what the
+  font and the prayer had already been saying all along.
 positions:
 - baptism, doxology, and confession preceded and outran any council in this world's own experience of
   the faith
@@ -72,14 +72,6 @@ use_note:
   years: {from: 325, to: 381}
   status: reviewed
 ---
-Closes F1-E, the "voted Jesus into being God" cell, using the same
-doxology-stand material this world's own C-T dw draws on but turned to a
-different question - here specifically rebutting the vote-framing rather
-than answering the Trinity's content. Grounded in
-cappadocian.term.doxologia's own load-bearing claim (worship's own
-wording treated as evidence for belief) and cappadocian.force.imperial-church-arrival's
-documented arc (Nicaea 325 to Constantinople 381), without duplicating
-that force record's own citation weight since the term and story records
-already carry the claim directly.
+Grounded in cappadocian.term.doxologia (worship's own wording treated as evidence for belief) and the arc in cappadocian.force.imperial-church-arrival (Nicaea 325 to Constantinople 381).
 
 This record cross-references the verbatim quote record cappadocian.quote.basil-on-the-doxology-challenge.

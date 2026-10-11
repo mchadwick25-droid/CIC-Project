@@ -13,6 +13,8 @@ A model with no row here has no approved price and comes back unpriced
 (engine.m8.cost.estimate_cost's own contract with price_table=None) -
 never a guessed table for an unrecognized model.
 """
+import dataclasses
+
 from engine.m8.cost import PriceTable
 
 PRICE_TABLE_SOURCE = (
@@ -106,3 +108,33 @@ def price_for_call(call_kind: str, model_id: str) -> PriceTable | None:
         return None
     return price_for_model(model_id)
 
+
+
+# Bedrock's regional inference profiles (an id starting us., eu., ...) bill
+# about 10% above list; global. profiles and the Anthropic API bill at list.
+# The factor is the figure the Billing Audit measured, not a published rate.
+BEDROCK_REGIONAL_PREMIUM = 1.10
+_REGIONAL_PREFIXES = ("us.", "eu.", "apac.", "jp.", "au.", "ca.")
+
+
+def route_factor(provider: str, model_id: str) -> float:
+    if provider == "bedrock" and (model_id or "").lower().startswith(_REGIONAL_PREFIXES):
+        return BEDROCK_REGIONAL_PREMIUM
+    return 1.0
+
+
+def price_for_route(call_kind: str, model_id: str, provider: str) -> PriceTable | None:
+    """price_for_call scaled to what the route bills. The door keeps calling
+    price_for_call (list price) and applies its own invoice factor."""
+    table = price_for_call(call_kind, model_id)
+    factor = route_factor(provider, model_id)
+    if table is None or factor == 1.0:
+        return table
+    return dataclasses.replace(
+        table,
+        input_per_token=table.input_per_token * factor,
+        output_per_token=table.output_per_token * factor,
+        cache_write_per_token=table.cache_write_per_token * factor,
+        cache_read_per_token=table.cache_read_per_token * factor,
+        source=f"{table.source}; x{factor} Bedrock regional-profile premium (Billing Audit measurement)",
+    )

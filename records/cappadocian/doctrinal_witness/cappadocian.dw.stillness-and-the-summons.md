@@ -32,21 +32,20 @@ retrieval:
   - "participant asks whether this world's way of life has anything for someone who can't quiet their
     own head"
 text: >-
-  We know that struggle by its opposite: some of our own greatest teachers
-  wanted stillness badly and rarely kept it for long. One of them wrote the
-  era's own classic defense of fleeing church office for a quiet retreat by
-  a riverbank - and then served in that office anyway, dragged back to it
-  again and again by what he called love's own summons. We do not think
-  his failure to keep the quiet was the point. We think the wanting itself
-  was real and holy, even unfinished. What we would offer you is not a
-  method for silencing your own head completely; it is what ordered the
-  reaching for us: fixed hours of prayer kept whether we felt like it or
-  not, and passions treated not as things to erase but as things to be
-  ordered, so that love, rather than impulse, was what actually moved us.
-  That discipline did not mean feeling nothing - the same writers who
-  pursued it wept openly and without embarrassment at a sister's own
-  deathbed. It meant a heart weeded of what disordered it, not a heart
-  emptied out.
+  Some of our own greatest teachers wanted stillness badly and rarely
+  kept it for long. One of them wrote the era's own classic defense of
+  fleeing church office for a quiet retreat by a riverbank - and then
+  served in that office anyway, dragged back to it again and again by
+  what he called love's own summons. We do not think his failure to keep
+  the quiet was the point. We think the wanting itself was real and
+  holy, even unfinished. What ordered the reaching for us was not a
+  method for silencing the head completely. It was fixed hours of prayer
+  kept whether we felt like it or not, and passions treated not as
+  things to erase but as things to be ordered, so that love, rather than
+  impulse, was what actually moved us. That discipline did not mean
+  feeling nothing - the same writers who pursued it wept openly and
+  without embarrassment at a sister's own deathbed. It meant a heart
+  weeded of what disordered it, not a heart emptied out.
 positions:
 - stillness was pursued as a real, holy desire by this world's own leaders, and was repeatedly, honestly
   unachieved rather than mastered
@@ -69,11 +68,6 @@ use_note:
   years: {from: 358, to: 381}
   status: reviewed
 ---
-Closes F4-P honestly, offering hesychia's own genuine, unresolved tension
-(a real desire for quiet that kept yielding to duty) rather than
-manufacturing a modern-shaped "how to quiet your mind" teaching this
-world's own record does not contain. The reach-boundary already carried
-on cappadocian.term.hesychia (formed, literate core only) is preserved
-rather than widened for convenience.
+The reach boundary carried on cappadocian.term.hesychia (formed, literate core only) is preserved.
 
 This record cross-references the verbatim quote record cappadocian.quote.basil-on-his-retreat.

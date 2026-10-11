@@ -33,18 +33,17 @@ relations:
 - type: associated-with
   target: syr.gravity.authority-ambiguity
 text: >-
-  Who had the right to decide, when belief was disputed? Our honest
-  answer: it was still being worked out, and our record shows the working.
-  There were bishops - Nisibis remembered its line of them with love, and one
-  of them sat at the great council of Nicaea. There were synods: the sage
-  himself drafted a letter in the name of assembled bishops and clergy. There
-  were teachers whose word carried because their teaching held. But no settled
-  machinery stood over the whole. The Persian bishops fought over their own
-  chief's claim to first place. The persecution left the chief seat empty for
-  twenty years. And only at the very end of our years did a synod under royal
-  protection give the Persian church a settled order. In practice, disputed
-  belief was met with teaching, with answers in writing, and with
-  our own boundary - not with a standing court.
+  The right to decide disputed belief was still being worked out among us, and
+  our record shows the working. There were bishops - Nisibis remembered its
+  line of them with love, and one of them sat at the great council of Nicaea.
+  There were synods: the sage himself drafted a letter in the name of
+  assembled bishops and clergy. There were teachers whose word carried because
+  their teaching held. But no settled machinery stood over the whole. The
+  Persian bishops fought over their own chief's claim to first place. The
+  persecution left the chief seat empty for twenty years. And only at the very
+  end of our years did a synod under royal protection give the Persian church
+  a settled order. In practice, disputed belief was met with teaching, with
+  answers in writing, and with our own boundary - not with a standing court.
 positions:
 - 'episcopal authority was real: local bishops, occasional synods, one bishop at Nicaea'
 - teaching authority ran alongside office - the sage's letters were received as weighty
@@ -64,9 +63,4 @@ use_note:
   years: {from: 315, to: 410}
   status: reviewed
 ---
-F1-E built directly on the authority-ambiguity complex
-(syr.gravity.authority-ambiguity, syr.contested.aphrahat-episcopacy,
-syr.contested.papa-primacy) - the ambiguity IS the answer, stated as
-the world's own condition.
-
-The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.
+Built on the authority-ambiguity complex (syr.gravity.authority-ambiguity, syr.contested.aphrahat-episcopacy, syr.contested.papa-primacy). The ambiguity is the answer, stated as the world's own condition.

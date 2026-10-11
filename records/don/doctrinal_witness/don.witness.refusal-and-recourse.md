@@ -20,7 +20,10 @@ confidence:
     own divergence_note.
 sources:
 - source_id: don.source.optatus-against-donatists
-  locus: Book III, line 1904, Donatus's own reported retort ('Quid est imperatori cum ecclesia?')
+  locus: Book III, line 1904 of cic/texts/optatus_against-the-donatists.txt (the English translation), Donatus's own reported retort ('What has the Emperor to do with the Church?')
+  license: public-domain
+- source_id: don.source.ziwsa-critical-edition-optatus
+  locus: Book III, line 6557 of cic/texts/optatus_libri-vii-critical_ziwsa1893.txt (the Latin original, corrupted by OCR at this line), the retort 'Quid est imperatori cum ecclesia?'
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
   locus: Anulinus's own relatio, the 313 petition to Constantine
@@ -38,9 +41,9 @@ relations:
 - type: associated-with
   target: don.quote.donatus-quid-est-imperatori
 positions:
-- '"What has the emperor to do with the church?" One of our own primates is remembered to have said exactly
-  this, and we hold it still: the question of which church is the true one is not the emperor''s to settle.
-  He may rule, and has ruled, against us -- at Rome in 313, at Arles in 314, and again at Carthage in
+- 'We hold that the question of which church is the true one is not the emperor''s to settle. One of our
+  own primates is remembered to have put it in one line: "What has the Emperor to do with the Church?"
+  We hold it still. The emperor may rule, and has ruled, against us -- at Rome in 313, at Arles in 314, and again at Carthage in
   411 -- but a ruling from a power with no standing to judge the question is not a verdict we are bound
   to accept as one.'
 - 'And yet we will not pretend we never turned to that same power ourselves. In 313 we brought our own
@@ -55,8 +58,8 @@ tensions:
   not really us.'' Both are true at once, plainly stated, in the same record: the emperor has no standing
   to judge us, and three times we asked him to rule in our favor anyway. We hold both, because our own
   record holds both, and we would rather you see the whole of it than a tidier half.'
-text: '"What has the emperor to do with the church?" That is our own primate''s answer to the question
-  of who may judge us, and we still give it. The state has ruled against us more than once, and a ruling
+text: 'The emperor has no standing to judge us. Our primate put it in one line: "What has the Emperor to do with the Church?" We still say it.
+  The state has ruled against us more than once, and a ruling
   from a power with no standing to judge the question is no verdict at all. But we will tell you plainly
   what our own record also holds: three times, we went to that same power ourselves, when it served our
   case to do so -- once petitioning the emperor himself for a hearing, once asking a different emperor
@@ -75,4 +78,4 @@ use_note:
   years: {from: 313, to: 411}
   status: reviewed
 ---
-Grounded in Doc_04_Gravity_Discovery.md SS3.6 (T1, Principled Refusal vs. Pragmatic Recourse to Imperial Power: three named, dated instances -- 313, 361, the 390s -- each independently Documented) and Doc_07 SS4/SS6 ('the doctrine's own qualifications are not random lapses; they track the forces exactly'; 'this world's own three qualified turns to imperial power... are not embarrassments quietly managed but facts this world's own record states plainly'). Donatus's own retort is quoted verbatim from the already-cleared don.quote.donatus-quid-est-imperatori record (text field, matching that record's own verbatim license exactly, not re-translated here). T1 already has a classified gravity record (don.gravity.principled-refusal-vs-pragmatic-recourse, register etic) and a cleared quote, but no record states T1 in first-person doctrinal-witness voice with its own position/tension structure -- this is the first. canon_cells=['F1-E'] ('When belief was disputed, who had the right to decide -- and how do we know how that worked?') is a strong direct fit: T1 is precisely a dispute over who has the right to decide ecclesial legitimacy. relations[] links to the T1 gravity and the Donatus quote -- reciprocal edges added directly to don.gravity.principled-refusal-vs-pragmatic-recourse.md and don.quote.donatus-quid-est-imperatori.md after this script runs.
+Grounded in `don.gravity.principled-refusal-vs-pragmatic-recourse` (Doc_04 SS3.6: three named, dated instances -- 313, 361, the 390s -- each independently Documented) and in Doc_07 SS4/SS6, which hold that this world's three qualified turns to imperial power are facts its own record states plainly. Donatus's retort is the text of `don.quote.donatus-quid-est-imperatori` (Optatus, Against the Donatists, Book III, line 1904, `cic/texts/optatus_against-the-donatists.txt`). The fit to canon cell F1-E is direct: this is a dispute over who has the right to decide ecclesial legitimacy. Relations: the gravity record and the quote record above.

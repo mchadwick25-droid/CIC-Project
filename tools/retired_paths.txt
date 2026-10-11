@@ -85,3 +85,12 @@ Build/tools/moves-phase3-live-build-split.tsv
 # Fleet records moved to the engine modules that own them (slice 9, 2026-10-03):
 # engine/shape/records, engine/canon/records, engine/m5/records.
 records/_fleet
+
+# Organization and funding material moved out of the public repository (2026-10-07):
+# signed company documents, funding strategy, cost models, funder landscape. Held privately.
+Build/Ministry/Organization
+Build/Ministry/Funding
+Build/Ministry/Features/Funding-Strategy
+Archive/Ministry-Early-Days-2026-07/Funding
+Archive/Ministry-Early-Days-2026-07/Features/Funding-Strategy
+Archive/Ministry-Early-Days-2026-07/Organization

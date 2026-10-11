@@ -45,6 +45,7 @@ from engine.m4.uncited_claims import classify_neighbour_named, find_uncited_clai
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
 from engine.m8.price_tables import price_for_call
+from engine.provider import guard
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -190,6 +191,7 @@ def run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, client
 
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    guard.add_arguments(p)
     p.add_argument("--region", required=True)
     p.add_argument("--worlds", required=True)
     p.add_argument("--max-usd", type=float, required=True)

@@ -41,6 +41,7 @@ stream of the reply's sentences while it is written (on_sentence,
 engine.m4.sentence_stream): each sentence carries the marks the finished
 plan gives it, and the finished reply's plan is authoritative.
 """
+import functools
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from typing import Callable
@@ -52,6 +53,7 @@ from engine.m4 import citation_attach
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_horizon
+from engine.m4.recitation import DIRECTIVE_LINE, DemonstrationIndex
 from engine.m4.seat_identity_guard import find_seat_identity_violation
 from engine.m4.sentence_stream import SentenceStream
 from engine.m4.self_revision import self_revise
@@ -59,6 +61,7 @@ from engine.m4.named_claim_grounding import find_named_claim_flags
 from engine.m4.sentence_fact_check import find_unsupported_named_claims
 from engine.m4.uncited_claims import classify_neighbour_named, find_uncited_claims, find_uncited_paragraphs
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used
+from engine.m4.rhythm import RhythmTally
 from engine.m4.term_glosses import find_glosses_used
 from engine.m4.transparency_plan import build_transparency_plan
 from engine.m4.turn_prep import (
@@ -118,9 +121,12 @@ def run_gate(
     pressed: dict,
     anachronistic_term_ids: set,
     track_b_accumulator: dict | None = None,
+    world_key: str | None = None,
 ) -> GateRun:
     """The gate half of run_turn, verbatim - see run_turn's docstring for
-    the semantics of each input. The sealed safety call still gets an empty
+    the semantics of each input. world_key tags the two gate calls' usage
+    records: the one-to-one interview passes its world; the Table passes
+    None, since one gate call there serves several worlds. The sealed safety call still gets an empty
     window and an empty accumulator (the RECORDED, NOT CONSULTED discipline;
     engine.m5.safety_accumulation's own module docstring)."""
     usage_records: list[UsageRecord] = []
@@ -142,9 +148,9 @@ def run_gate(
     if safety_outcome.rate_limited or reader_outcome.rate_limited:
         citation_attach.start_cooldown()
 
-    if rec := _maybe_record_usage(safety_outcome, session_id=session_id, call_kind="safety_call", model_id=safety_model_id):
+    if rec := _maybe_record_usage(safety_outcome, session_id=session_id, call_kind="safety_call", model_id=safety_model_id, world_key=world_key):
         usage_records.append(rec)
-    if rec := _maybe_record_usage(reader_outcome, session_id=session_id, call_kind="reader_call", model_id=safety_model_id):
+    if rec := _maybe_record_usage(reader_outcome, session_id=session_id, call_kind="reader_call", model_id=safety_model_id, world_key=world_key):
         usage_records.append(rec)
 
     # The modern terms in play, settled once so routing and the bridge read
@@ -210,9 +216,9 @@ def _maybe_record_usage(outcome: CallOutcome, *, session_id: str, call_kind: str
     turn, not as a separate exercise run occasionally. A divergence raises
     loudly here rather than silently producing a wrong attributed number.
 
-    world_key (Artifact-7 SS7): set for table-mode voice/selector calls so
-    per-world cost at a shared table is answerable; None everywhere else -
-    an interview session's calls are attributable from session_id alone."""
+    world_key (Artifact-7 SS7): the world the call served, so per-world cost
+    is answerable; None only for the Table's gate calls, which serve several
+    worlds at once."""
     if outcome.raw_usage is None:
         return None
     from engine.m8.parity import assert_parity
@@ -229,6 +235,7 @@ def _directive_payload(directive: Directive | None) -> dict | None:
         "register_note": directive.register_note,
         "suspend_register_statement_1": directive.suspend_register_statement_1,
         "ambiguity_options": list(directive.ambiguity_options),
+        "kind": directive.kind,
     }
 
 
@@ -326,7 +333,10 @@ def _draft_is_final_text(
     return not ((is_other_tradition_first_ask and self_revision_enabled) or r27_enforce or sentence_enforce)
 
 
-def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> tuple[str, list[dict], dict]:
+def apply_net(
+    raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None,
+    quotable_texts: list[str] | None = None,
+) -> tuple[str, list[dict], dict]:
     """THE one owner of the voice text shape - everything a Representative
     says, in any mode AND in admission, is shaped by this function and only
     this function. The deterministic net (engine.m4.grounding_net.
@@ -359,11 +369,14 @@ def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics
     # making a second, independent check_turn_with_paragraph_coverage
     # call - a live turn now pays the net once, not twice, in both
     # report-only and enforced modes.
-    net_result = grounding_net.check_turn_with_paragraph_coverage(raw_text, repository_records, thin_topics=thin_topics)
+    net_result = grounding_net.check_turn_with_paragraph_coverage(
+        raw_text, repository_records, thin_topics=thin_topics, quotable_texts=quotable_texts,
+    )
     # THE CHECKS GATE DECORATION, NEVER THE TEXT. Program-Spec M4, and
     # again in Artifact-5 SS2 ("they gate decoration, not text"), and again
     # in SS5 ("never by editing a live response"). What the voice wrote is
-    # what the participant reads; only the tags come off.
+    # what the participant reads; only the tags come off, and the marks round
+    # words found in no record (decision 59).
     #
     # Deleting the failures was measured over 17 live turns: 25% of every
     # sentence generated, 39% of them on prose that invented nothing, and
@@ -372,7 +385,7 @@ def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics
     # sentence went. A sentence that fails verification loses its citation
     # and is carried on the event for the SS5 audit; it is not destroyed on
     # the way to the screen.
-    text = grounding_net.strip_tags(raw_text)
+    text = grounding_net.shown_text(raw_text, net_result["sentences"])
     citations = [
         {"sentence": s["sentence"], "record_ids": s["tags"]}
         for s in net_result["sentences"]
@@ -393,6 +406,8 @@ def _run_ordinary_voice_turn(
     already_bridged_figure_ids: set[str] | None = None,
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
+    previous_kind: str | None = None,
+    rhythm: RhythmTally | None = None,
     context_prefix: str | None = None,
     secondary_context: str | None = None,
     table_engagement: str | None = None,
@@ -611,6 +626,8 @@ def _run_ordinary_voice_turn(
         already_told_ids=already_told_ids,
         already_bridged_figure_ids=already_bridged_figure_ids,
         history=history,
+        previous_kind=previous_kind,
+        rhythm=rhythm,
         context_prefix=context_prefix,
         secondary_context=secondary_context,
         table_engagement=table_engagement,
@@ -628,6 +645,16 @@ def _run_ordinary_voice_turn(
     figures_already_named = prepared.figures_already_named
     user_message = prepared.user_message
     turn_directive = prepared.turn_directive
+    # Words said in this conversation may be quoted back: the participant's
+    # message, the replayed transcript, and the table's context.
+    echo_sources = [
+        text for text in (
+            participant_message, context_prefix, secondary_context,
+            *((turn.get("content") for turn in history or [])),
+        ) if isinstance(text, str) and text
+    ]
+    _net = functools.partial(apply_net, quotable_texts=echo_sources)
+    demonstrations = DemonstrationIndex(repository_records)
     on_text = None
     sentences = None
     if on_sentence is not None and _draft_is_final_text(
@@ -637,6 +664,7 @@ def _run_ordinary_voice_turn(
         sentences = SentenceStream(
             repository_records=repository_records, world_key=world.world_key, thin_topics=thin_topics,
             guard=(lambda raw: find_seat_identity_violation(raw, guard_labels)) if guard_labels else None,
+            demonstrations=demonstrations, quotable_texts=echo_sources,
         )
 
         def on_text(chunk: str) -> None:
@@ -672,6 +700,7 @@ def _run_ordinary_voice_turn(
         raw_text = kept
         seat_identity_cut = True
     offending = find_seat_identity_violation(raw_text, guard_labels) if guard_labels else None
+    seat_retry_directive: str | None = None
     if offending and sentences is not None and sentences.released:
         # Inside a sentence the splitter kept whole (a quotation spanning a
         # full stop), so the per-sentence check passed it and it is already
@@ -682,7 +711,7 @@ def _run_ordinary_voice_turn(
         seat_identity_violations.append({"world_key": world.world_key, "offending_prefix": offending, "attempt": "first"})
         retry_outcome = stream_voice_turn(
             voice_client, voice_model_id, system_prompt=world.prompt_text,
-            turn_directive=_append_seat_identity_correction(turn_directive, offending),
+            turn_directive=(seat_retry_directive := _append_seat_identity_correction(turn_directive, offending)),
             message=user_message, history=history,
         )
         if retry_outcome.status != "ok":
@@ -699,6 +728,32 @@ def _run_ordinary_voice_turn(
             raw_text = ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
         else:
             raw_text = retry_text
+
+    # RECITATION (decision 59, check 3) - a reply that reads a demonstration
+    # out gets one regeneration, with the directive line appended, when
+    # nothing of it has been streamed yet. A second match is passed through
+    # and reported on voice_event["recited_demonstration"]; never a second
+    # regeneration.
+    recitation_regenerated = False
+    recitation_retry_failed = False
+    if raw_text and demonstrations.is_recited(raw_text) and (sentences is None or not sentences.released):
+        retry_base = seat_retry_directive if seat_retry_directive is not None else (turn_directive or "")
+        retry_outcome = stream_voice_turn(
+            voice_client, voice_model_id, system_prompt=world.prompt_text,
+            turn_directive=retry_base + "\n" + DIRECTIVE_LINE,
+            message=user_message, history=history,
+        )
+        if rec := _maybe_record_usage(
+            retry_outcome, session_id=session_id, call_kind="voice_generation_retry", model_id=voice_model_id, world_key=usage_world_key
+        ):
+            usage_records.append(rec)
+        if retry_outcome.status == "ok" and not (guard_labels and find_seat_identity_violation(retry_outcome.value.text, guard_labels)):
+            raw_text = retry_outcome.value.text
+            recitation_regenerated = True
+            # later retries this turn carry the line too
+            turn_directive = retry_base + "\n" + DIRECTIVE_LINE
+        else:
+            recitation_retry_failed = True
 
     # SELF-REVISION - the generation-side
     # fix for a fabricated detail riding a real citation tag,
@@ -751,7 +806,7 @@ def _run_ordinary_voice_turn(
         # re-derived.
         debug_capture["raw_tagged_text"] = raw_text
 
-    answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
+    answer_text, citations, net_result = _net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
 
     # The report-only turn checks (uncited claims, wholly uncited
     # paragraphs, named-claim grounding, the sentence fact check) run after
@@ -792,7 +847,7 @@ def _run_ordinary_voice_turn(
             ):
                 usage_records.append(rec)
             retry_raw_text = retry_outcome.value.text
-            retry_answer_text, retry_citations, retry_net_result = apply_net(
+            retry_answer_text, retry_citations, retry_net_result = _net(
                 retry_raw_text, repository_records=repository_records, thin_topics=thin_topics
             )
             retry_uncited_claims = find_uncited_claims(retry_net_result["sentences"])
@@ -815,7 +870,7 @@ def _run_ordinary_voice_turn(
             if retry_hard_offenses:
                 r27_enforcement_exhausted = True
                 raw_text = ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
-                answer_text, citations, net_result = apply_net("", repository_records=repository_records, thin_topics=thin_topics)
+                answer_text, citations, net_result = _net("", repository_records=repository_records, thin_topics=thin_topics)
                 uncited_claims = []
                 paragraph_offenses = []
                 named_claim_flags = []
@@ -868,7 +923,7 @@ def _run_ordinary_voice_turn(
         ):
             usage_records.append(rec)
         retry_raw_text = retry_outcome.value.text
-        retry_answer_text, retry_citations, retry_net_result = apply_net(
+        retry_answer_text, retry_citations, retry_net_result = _net(
             retry_raw_text, repository_records=repository_records, thin_topics=thin_topics
         )
 
@@ -898,7 +953,7 @@ def _run_ordinary_voice_turn(
         if retry_r27_hard_offenses:
             r27_enforcement_exhausted = True
             raw_text = ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
-            answer_text, citations, net_result = apply_net("", repository_records=repository_records, thin_topics=thin_topics)
+            answer_text, citations, net_result = _net("", repository_records=repository_records, thin_topics=thin_topics)
             uncited_claims = []
             paragraph_offenses = []
             named_claim_flags = []
@@ -908,7 +963,11 @@ def _run_ordinary_voice_turn(
             if retry_fact_check_flags:
                 still_flagged = {f["sentence"] for f in retry_fact_check_flags}
                 sentence_enforcement["still_flagged"] = sorted(still_flagged)
-                dropped_raw_text = grounding_net.drop_flagged_sentences(retry_raw_text, still_flagged)
+                still_flagged_as_written = still_flagged | {
+                    entry["source_sentence"] for entry in retry_net_result["sentences"]
+                    if entry.get("source_sentence") and entry["sentence"] in still_flagged
+                }
+                dropped_raw_text = grounding_net.drop_flagged_sentences(retry_raw_text, still_flagged_as_written)
                 if dropped_raw_text.strip():
                     # Second failure: never blank the whole turn and
                     # never substitute the Facilitator (unlike the
@@ -929,7 +988,7 @@ def _run_ordinary_voice_turn(
                     raw_text = retry_raw_text
             else:
                 raw_text = retry_raw_text
-            answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
+            answer_text, citations, net_result = _net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
             uncited_claims = find_uncited_claims(net_result["sentences"])
             paragraph_offenses = find_uncited_paragraphs(net_result)
             named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
@@ -997,6 +1056,8 @@ def _run_ordinary_voice_turn(
         "glosses": glosses,
         "figures_used": figures_used,
         "quote_offers": [],
+        "kind": prepared.kind,
+        "offered_ids": prepared.offered_ids,
         # The regenerated flag: whether this enforcement attempted the one
         # allowed regeneration this turn - False when the enforce flag is off
         # (every real caller until the flag is flipped on) or when
@@ -1008,7 +1069,12 @@ def _run_ordinary_voice_turn(
             "empty_stream_retries": 0, "r27_regenerated": attempts_meta_r27_regenerated,
             "self_revision": self_revision_meta,
             "citation_attach": citation_attach_meta,
+            "recitation_regenerated": recitation_regenerated,
+            "recitation_retry_failed": recitation_retry_failed,
         },
+        # True when the reply a participant reads still runs 20 or more
+        # consecutive words of a demonstration record (engine.m4.recitation).
+        "recited_demonstration": bool(raw_text) and demonstrations.is_recited(raw_text),
         "grounding": net_result,
         "transparency": transparency,
         "degraded_by_net": degraded_by_net,
@@ -1120,6 +1186,8 @@ def run_turn(
     already_bridged_figure_ids: set[str] | None = None,
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
+    previous_kind: str | None = None,
+    rhythm: RhythmTally | None = None,
     r27_enforce: bool = False,
     known_tradition_names: list[str] | None = None,
     other_tradition_evidence_ids: list[str] | None = None,
@@ -1208,6 +1276,7 @@ def run_turn(
         pressed=pressed,
         anachronistic_term_ids=anachronistic_term_ids,
         track_b_accumulator=track_b_accumulator,
+        world_key=world.world_key,
     )
     usage_records = list(gate_run.usage_records)
     safety_outcome = gate_run.safety_outcome
@@ -1314,9 +1383,12 @@ def run_turn(
             session_id=session_id, already_told_ids=already_told_ids,
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
+            previous_kind=previous_kind,
+            rhythm=rhythm,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
             self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
             citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
+            usage_world_key=world.world_key,
         )
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
@@ -1337,6 +1409,8 @@ def run_turn(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
+            previous_kind=previous_kind,
+            rhythm=rhythm,
             is_other_tradition_first_ask=(gate_result.routing.out_of_scope_class == "other_tradition"),
             other_tradition_evidence_ids=other_tradition_evidence_ids,
             other_tradition_known_in_window=other_tradition_known_in_window,
@@ -1345,6 +1419,7 @@ def run_turn(
             self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
             on_sentence=on_sentence,
             citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
+            usage_world_key=world.world_key,
         )
         return TurnResult(
             routing_action=action,

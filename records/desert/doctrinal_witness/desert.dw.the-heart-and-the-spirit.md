@@ -25,21 +25,18 @@ retrieval:
   - "participant says they feel unchanged after conversion, or still divided"
   - "participant asks whether God can be felt, or whether faith should feel like anything"
 text: >-
-  There was another voice among us, and we will not flatten it into the first.
-  Our most systematic teacher had the mind clear itself until it saw its own
-  proper radiance. This other current had the soul lit up by Someone else, and
-  made his seat: the soul in communion with the Spirit of his light becomes
-  all light, all face, all eye, with no part of her not full of the spiritual
-  eyes of light. It held that this is known in real experience and feeling,
-  not only believed. A person striving to be God's friend will truly see the
-  good things of heaven - the Spirit of the Lord making himself, for worthy
-  souls, their rest, their joy, their delight. And it was honest about what
-  that does not fix. Merely keeping away from evil things is not perfection,
-  for the serpent lies under the mind, beneath the surface of the thoughts -
-  the heart is a deep gulf. Someone was once asked what becomes of a person
-  who dies still at war, with both sin and grace in the same soul at once. The
-  answer did not weigh the two. He goes where his mind aims, and where his
-  love is. That the war comes upon you is not your doing. But to hate it -
+  There was another voice among us besides our most systematic teacher's, and we will not flatten
+  it into his. That teacher had the mind clear itself until it saw its own proper radiance. This
+  other current had the soul lit up by Someone else, and made his seat: the soul in communion with
+  the Spirit of his light becomes all light, all face, all eye, with no part of her not full of
+  the spiritual eyes of light. It held that this is known in real experience and feeling, not only
+  believed. A person striving to be God's friend will truly see the good things of heaven - the
+  Spirit of the Lord making himself, for worthy souls, their rest, their joy, their delight. And
+  it was honest about what that does not fix. Merely keeping away from evil things is not
+  perfection, for the serpent lies under the mind, beneath the surface of the thoughts - the heart
+  is a deep gulf. Someone was once asked what becomes of a person who dies still at war, with both
+  sin and grace in the same soul at once. The answer did not weigh the two. He goes where his mind
+  aims, and where his love is. That the war comes upon you is not your doing. But to hate it -
   that is yours.
 positions:
 - "grace as consciously perceived - known 'in real experience and feeling', not inferred from sacraments or held by faith alone (Homily IV)"
@@ -73,36 +70,25 @@ use_note:
   years: {from: 380, to: 430}
   status: reviewed
 ---
-This record closes a gap that was total rather than partial: before
-it, no record in this world mentioned the Holy Spirit at all, while
-F1-I carries "Who or what is the Holy Spirit, to your people?" as a canon
-question. The cell was answered by desert.dw.god, which is about the Son
-and about knowing God by stilling the passions, and which says nothing
-about the Spirit.
+The tensions field above carries the disagreement between the two
+currents: about where God is met (a cleared mind, or an indwelt heart),
+about what the discipline reaches (observable thoughts, or a gulf beneath
+them), and about whether grace is felt. Every other interior term in this
+world is Evagrian and analytic - logismoi, apatheia, nepsis, diakrisis,
+theoria, penthos, and Cassian's puritas cordis. A voice that gave a
+participant either one as "what the desert believed" would be wrong twice
+over.
 
-WHY THIS IS A SECOND VOICE AND NOT MORE OF THE FIRST. Every interior term
-this world held before today was Evagrian and analytic - logismoi,
-apatheia, nepsis, diakrisis, theoria, penthos, and Cassian's puritas
-cordis. That is one tradition of ascetic psychology and it was the only
-one in the corpus. The tensions field above is therefore the load-bearing
-part of this record: the two currents disagree about where God is met
-(a cleared mind, or an indwelt heart), about what the discipline reaches
-(observable thoughts, or a gulf beneath them), and about whether grace is
-felt. A voice that gave a participant either one as "what the desert
-believed" would be wrong twice over.
+The distinctive claims are also the condemned ones. Villecourt and Wilmart
+argued in 1920-21 that these Homilies are a Messalian manual; Mason,
+translating them, set that case out in an Additional Note dated 11 June
+1921 and refused it; modern scholarship went the other way. So the
+register for this material is "a current the tradition carried and read",
+never "one of us said" - and desert.source.macarian-homilies states it in
+the same words.
 
-THE BOUND IS DOING REAL WORK HERE, not ritual hedging. The distinctive
-claims are also the condemned ones. Villecourt and Wilmart argued in 1920-21
-that these Homilies are a Messalian manual; Mason, translating them, set
-that case out in an Additional Note dated 11 June 1921 and refused it;
-modern scholarship went the other way. So the register for this material is
-"a current the tradition carried and read", never "one of us said" - and
-desert.source.macarian-homilies states it in the same words.
-
-WHAT IS NOT CLAIMED. Nothing here says the Egyptian elders held this. The
+What is not claimed: nothing here says the Egyptian elders held this. The
 Homilies are addressed to an Abbot Symeon of Mesopotamia, and their author
 is unknown. What is claimed is narrower and checkable: this teaching
 circulated under a desert elder's name, was read as desert teaching, and
 is part of what the tradition transmitted about the interior life.
-
-The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

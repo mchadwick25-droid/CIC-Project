@@ -58,6 +58,7 @@ from engine.m4.live_uncited_claims_battery import (
 from engine.m4.world_loader import LoadedWorld
 from engine.m8.cost import estimate_cost
 from engine.m8.log_store import UsageLogStore
+from engine.provider import guard
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
@@ -210,6 +211,7 @@ def run(region: str) -> dict:
 
 def main():
     parser = argparse.ArgumentParser()
+    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     args = parser.parse_args()
 

@@ -1223,6 +1223,21 @@ def observe_corpus_map(*, registry, worlds, **_) -> list[Finding]:
         + (", ".join(held) or "none")))
     return findings
 
+def check_spoken_scaffolding(*, records, worlds, **_) -> list[Finding]:
+    """Spoken text must start with the answer: no first sentence that ends in
+    a question mark, no second-person stage direction (see
+    engine.m1.spoken_scaffolding). One defect per world that still carries
+    it, waived until that world's record pass removes it."""
+    from engine.m1.spoken_scaffolding import scaffolding_hits
+
+    findings = []
+    for w in worlds:
+        hits = scaffolding_hits(records[w])
+        if hits:
+            findings.append(_defect("spoken-scaffolding", w, f"{len(hits)} spoken field(s) open on a question or carry a stage direction, e.g. {hits[0][0]}"))
+    return findings
+
+
 CHECKS = [
     check_registry_shape,
     check_unregistered_world_dirs,
@@ -1236,6 +1251,7 @@ CHECKS = [
     check_record_world_ids,
     check_figure_dates_keys,
     check_participant_field_leaks,
+    check_spoken_scaffolding,
     check_quote_speaker_labels,
     check_app_world_assets,
     check_site_portraits,

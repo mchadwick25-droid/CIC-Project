@@ -15,6 +15,13 @@ from .anachronism import mentions_term
 ACUTE_SIGNALS = {"ACUTE_DISTRESS", "HARMFUL_DYNAMIC_SIGNAL"}
 PRESSABLE_CLASSES = {"later_age", "other_tradition"}
 
+# The kinds of question the reader names; "other" is any question none of
+# the rest fits, and a bare follow-up that asks nothing new.
+QUESTION_KINDS = (
+    "who", "what_is", "what_did", "what_happened", "what_means",
+    "why", "how", "did_it_happen", "other",
+)
+
 # Reader-side classification of `system_nature` was found unreliable:
 # "What exactly did your
 # founder write in his 1543 book about Jewish people?" was classified
@@ -65,6 +72,7 @@ class Directive:
     register_note: str | None = None
     suspend_register_statement_1: bool = False
     ambiguity_options: list[str] = field(default_factory=list)
+    kind: str = "other"
 
 
 @dataclass(frozen=True)
@@ -88,6 +96,7 @@ def assemble_directive(reader: dict) -> Directive:
         register_note="witness-before-answer licensed" if personal_wound else None,
         suspend_register_statement_1=personal_wound,
         ambiguity_options=list(reader.get("ambiguity_options") or []),
+        kind=reader.get("kind") if reader.get("kind") in QUESTION_KINDS else "other",
     )
 
 

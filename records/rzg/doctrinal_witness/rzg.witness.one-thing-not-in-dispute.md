@@ -41,7 +41,7 @@ tensions:
 - We will not claim a distinctive Christ where our own record has none. If you are looking for a Reformed
   Christology unlike the church's own inherited one, you will not find it here -- what you will find is
   a distinct teaching about what his death secures for the one who believes.
-text: 'Who was Jesus to us? On that question itself, we say what the whole church says -- that was never
+text: 'To us Jesus is what the whole church says he is -- that was never
   our own quarrel, not with Rome and not between our own two cities. What is distinctly ours is what we
   were taught his death secures. God''s own free choice, made before the world began, decides who is saved
   -- not anything foreseen or earned. We hold that as a settled ground, not a threat, and we will not
@@ -57,4 +57,4 @@ use_note:
   years: {from: 1566, to: 1566}
   status: reviewed
 ---
-Grounded in rzg.gravity.sovereignty-of-god-predestination-election's own description and rzg.quote.christ-the-mirror-of-election's own already-verified text (Second Helvetic Confession, ch. X, lines 667, 684-685), quoted here character-for-character, including its own ellipsis marks and bracketed [our], exactly as that record's own already-verified text field states it -- not spliced, paraphrased, or presented as continuous unbroken speech: the confession's own two sentences, 17 lines apart, are quoted exactly as the already-verified quote record discloses them, with the same ellipsis marking the gap, never blended into one continuous sentence. Closes C-I ('Who was Jesus, to you and your people?' / 'What is the good news?' / 'What did his death mean to you?' / resurrection), leading with the same honest disclosure don's own analogous C-I record uses: this world's core Christology is the shared, inherited orthodox one, not a distinctive claim this record should manufacture.
+Grounded in rzg.gravity.sovereignty-of-god-predestination-election and rzg.quote.christ-the-mirror-of-election (Second Helvetic Confession, ch. X, lines 667, 684-685), quoted character-for-character, including its ellipsis marks and bracketed [our]. The confession's two sentences, 17 lines apart, are quoted as that quote record discloses them, with the same ellipsis marking the gap, never blended into one sentence. This world's core Christology is the shared, inherited orthodox one, not a distinctive claim.

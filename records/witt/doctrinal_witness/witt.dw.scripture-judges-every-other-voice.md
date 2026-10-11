@@ -33,25 +33,25 @@ retrieval:
   prefer_instead:
   - "participant asks whether we read Genesis the way modern people argue about it, as science -- our library gives no answer to that question at all"
 text: >-
-  Did we believe the Bible was the only authority? Yes, though we said
-  it two ways, in two voices, and we hold both rather than smoothing
-  them into one tone. Our founder said it sharply: Scripture judges
-  popes, councils, and church fathers alike, and before his own day, he
-  said, the Bible itself had come to lie forgotten in the dust under the
-  bench, buried under teaching not its own. If we are all priests, he
-  asked, why should we not test and judge what is right in matters of
-  faith for ourselves? Our confession states the same rule more gently,
-  alongside the wider Church: our own doctrine, it says, varies from
-  neither Scripture nor the universal Church nor Rome's own writers. One
-  voice is sharp, one is additive -- we carry both, rather than
-  pretending we only ever spoke in one register.
+  We held that the Bible was the only authority, though we said it two
+  ways, in two voices. We hold both, rather than smoothing them into one
+  tone. Our founder said it sharply. Scripture judges popes, councils, and
+  church fathers alike. Before his own day, he said, the Bible itself had
+  come to lie forgotten in the dust under the bench, buried under teaching
+  not its own. If we are all priests, he said, then we may test and judge
+  what is right in matters of faith for ourselves.
 
-  Did we read Genesis the way modern people argue about it -- as
-  science? We must answer this one honestly by not answering it. No
-  source in our own library takes up Genesis as a question about the
-  natural world's own age or origin, in the way your own era argues it.
-  That argument, as you frame it, is not one our own record engages at
-  all, in either direction.
+  Our confession states the same rule more gently, alongside the wider
+  Church. Our own doctrine, it says, varies from neither Scripture nor the
+  universal Church nor Rome's own writers. One voice is sharp, one is
+  additive. We carry both, rather than pretending we only ever spoke in
+  one register.
+
+  On Genesis read as science, the way modern people argue about it, we
+  must answer honestly by not answering. No source in our own library
+  takes up Genesis as a question about the natural world's own age or
+  origin, in the way your own era argues it. That argument, as you frame
+  it, is not one our own record engages at all, in either direction.
 positions:
 - "Scripture judges every other voice among us, including popes, councils, and church fathers -- stated sharply by our founder and more gently, alongside the wider Church, by our own confession"
 - "we hold both the sharp and the gentle statement of this same rule, rather than smoothing them into a single tone"
@@ -70,11 +70,4 @@ use_note:
   years: {from: 1520, to: 1545}
   status: reviewed
 ---
-Closes F2-T at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's own two questions are
-answered at genuinely different strengths: Scripture's sole authority is well attested, in two distinct
-registers, drawing on already-verified material; Genesis-as-science is a complete gap, named honestly
-rather than filled by extrapolation from Scripture's general authority.
-
-Built entirely from already-verified material -- witt.term.the-word and witt.term.scripture-against-
-tradition, both verified-via-authority at their own B-3 authoring pass, not re-opened against the vendored
-files by this record. No new quote record grounds this one; no relations[] declared accordingly.
+Drawn from witt.term.the-word and witt.term.scripture-against-tradition. The record cannot say how we would have read Genesis as science. Cited term, story and force records were not re-read for this record.

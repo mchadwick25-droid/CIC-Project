@@ -108,3 +108,20 @@ def test_bind_refuses_a_package_whose_files_do_not_match_its_manifest(tmp_path):
     (tmp_path / "old" / "compiled" / "prompt.txt").write_bytes(b"changed")
     with pytest.raises(ValueError):
         ac.bind([tmp_path / "old"], "abc123", path=tmp_path / "bindings.json")
+
+
+def test_the_command_reports_by_default_and_fails_only_when_enforced(monkeypatch, capsys):
+    import sys
+    from engine.m3 import admission_conform as ac
+    monkeypatch.setattr(ac, "load_registry", lambda: {})
+    monkeypatch.setattr(ac, "load_reports", lambda: [])
+    monkeypatch.setattr(ac, "load_rulings", lambda: [])
+    monkeypatch.setattr(ac, "check", lambda registry, reports, rulings: ["w: no live admission report"])
+    monkeypatch.setattr(sys, "argv", ["admission_conform"])
+    assert ac.main() == 0
+    assert "stale world(s)" in capsys.readouterr().out
+    monkeypatch.setattr(sys, "argv", ["admission_conform", "--enforce"])
+    assert ac.main() == 1
+    assert "enforced" in capsys.readouterr().out
+    monkeypatch.setattr(ac, "check", lambda registry, reports, rulings: [])
+    assert ac.main() == 0

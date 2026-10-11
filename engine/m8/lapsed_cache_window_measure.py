@@ -27,6 +27,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from engine.m8.parity import assert_parity
+from engine.provider import guard
 from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
 
 STATE_PATH = Path(__file__).resolve().parent / "reports" / "lapsed-cache-window-state.json"
@@ -90,6 +91,7 @@ def phase_check(region: str) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
+    guard.add_arguments(parser)
     parser.add_argument("--region", required=True)
     parser.add_argument("--phase", required=True, choices=["write", "check"])
     args = parser.parse_args()

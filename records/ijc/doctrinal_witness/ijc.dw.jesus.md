@@ -28,7 +28,7 @@ retrieval:
   retrieve_when: []
 text: >-
   To us, Jesus was the one the whole argument was about, and the
-  argument itself was our devotion. Who was he? The creed answers: very God
+  argument itself was our devotion. The creed answers who he was: very God
   of very God, of one being with the Father, who for us and for our salvation
   came down, was made man, suffered, and rose on the third day. A century of
   councils spent itself making those words exact, because everything hung on
@@ -58,10 +58,7 @@ use_note:
   years: {from: 325, to: 451}
   status: reviewed
 ---
-The Center cell's composed answer-ground: who Jesus was TO THIS WORLD,
-answered in its own conciliar idiom rather than a borrowed devotional
-one - with the honest note that its answer's genre is itself the
-world's signature. Companion quotes: ijc.quote.nicene-creed,
-ijc.quote.chalcedon-definition, ijc.quote.leo-tome-each-form.
 
-The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.
+Companion quotes: ijc.quote.nicene-creed, ijc.quote.chalcedon-definition,
+ijc.quote.leo-tome-each-form. The answer is given in the world's own
+conciliar idiom; its genre is itself the world's signature.

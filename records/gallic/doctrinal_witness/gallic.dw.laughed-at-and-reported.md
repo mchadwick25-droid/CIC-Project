@@ -67,34 +67,34 @@ retrieval:
   prefer_instead:
   - "participant asks about the grace controversy's own content - retrieve gallic.term.grace and gallic.story.germanus-scruple-at-morning-service"
 text: >-
-  Hiding in the catacombs? No. Our age had no persecutor. Sulpitius says of
-  Martin that in the times of Nero and Decius he would have gone gladly to
-  the rack; without them, he gained the honour of martyrdom without
-  shedding his blood - in hunger, in watchings, in nakedness, in fasting.
-  The empire was Christian in our day. That is where the trouble was. Did
-  it change what we were? Martin's road began by leaving Caesar's service
+  No, we did not hide in the catacombs. Our age had no persecutor.
+  Sulpitius says of Martin that in the times of Nero and Decius he would
+  have gone gladly to the rack; without them, he gained the honour of
+  martyrdom without shedding his blood - in hunger, in watchings, in
+  nakedness, in fasting. The empire was Christian in our day. That is
+  where the trouble was. Martin's road began by leaving Caesar's service
   at a donative: I am the soldier of Christ, it is not lawful for me to
   fight. Before he gathered his first brethren, the violence of heretics
   had driven the bishop Hilary into exile and left the Church in Gaul in
   disorder. And at Treves, where the bishops had bowed with degenerate
-  submissiveness to the royal retinue, in Martin alone apostolic authority
-  kept its place; he held it a foul and unheard-of thing that a secular
-  ruler should judge a cause of the Church. He yielded there once, to save
-  lives, and never sat with bishops again. What would an outsider have
-  found strangest? We can only tell you what they laughed at. Some
-  bystanders at a city gate laughed at a soldier walking in half a cloak.
-  Bishops at the election said Martin's person was despicable, his
-  clothing mean, his hair disgusting. Cassian says the Egyptians' sheepskin
-  and little hoods would be a subject for derision in Gaul, so we did not
-  wear them. Our own presbyter, raging in the courtyard, called the saint's
-  visions ridiculous fancies. And what were we accused of? Sulpitius says
-  that some of Martin's calumniators, though very few, were reported to be
+  submissiveness to the royal retinue, in Martin alone apostolic
+  authority kept its place; he held it a foul and unheard-of thing that
+  a secular ruler should judge a cause of the Church. He yielded there
+  once, to save lives, and never sat with bishops again. What an
+  outsider found strangest, we can only tell from what was laughed at.
+  Some bystanders at a city gate laughed at a soldier walking in half a
+  cloak. Bishops at the election said Martin's person was despicable,
+  his clothing mean, his hair disgusting. Cassian says the Egyptians'
+  sheepskin and little hoods would be a subject for derision in Gaul, so
+  we did not wear them. Our own presbyter, raging in the courtyard,
+  called the saint's visions ridiculous fancies. Sulpitius says that
+  some of Martin's calumniators, though very few, were reported to be
   bishops. Others reported the brethren at Marseilles to Africa and to
   Rome for what they held about grace. A man of Marseilles wrote that at
-  Carthage a monk, pale, with his hair shaved to the skin, could hardly be
-  looked at without curses, and that servants of God from Egypt were met
-  in the street with hissing. That was Africa, not Gaul. But it is the
-  nearest our record comes to a crowd's own voice.
+  Carthage a monk, pale, with his hair shaved to the skin, could hardly
+  be looked at without curses, and that servants of God from Egypt were
+  met in the street with hissing. That was Africa, not Gaul. But it is
+  the nearest our record comes to a crowd's own voice.
 positions:
 - there was no persecution in our span - the ascetic life was the martyrdom of a peaceful age, and no one among us hid from anything
 - the empire did not make us - leaving its service made Martin; heretics with the empire's backing scattered the Church before our founding; and the court judging a church's cause was the indignity we named at Treves
@@ -116,23 +116,6 @@ use_note:
   years: {from: 397, to: 450}
   status: reviewed
 ---
-Closes F3-E at the Answer-the-Canon step (inserted between B-7 and B-8).
-gallic.voice.craft's B-7 note declined this cell as "an outsider's
-account of worship; what an outsider found strangest" because no outside
-voice on worship survives and the derision material is "thin and all told
-from inside." Re-reading the cell's four canon questions rather than its
-worship framing changed the outcome: two of the four (the catacombs; the
-empire) are answered directly and at load-bearing strength by material
-already built for other cells (gallic.term.bloodless-martyrdom-confessor;
-gallic.story.discharge-before-caesar; gallic.force.arian-scattering;
-gallic.force.court-at-trier), and the other two (strangest; accused of)
-are answered honestly from the derision and accusation material this
-world does hold, with the B-7 note's own objection - all told from
-inside, no outsider's own voice - carried as tensions[0-2] rather than as
-a reason to say nothing. desert.dw.strangest is the fleet precedent for
-a dw on this cell built from inside-told material with the inside/outside
-gap named.
-
 Loci read at their own lines for this record: Ep. II line 2249, Vita VI
 lines 948-950, Vita IX line 1080, Vita XX lines 1563-1565, Vita XXVII
 lines 1936-1940, Dial. III.15 line 5319, Inst. I.10 line 16919 (all in
@@ -140,20 +123,15 @@ cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml); Salvian
 VIII.4 lines 10248-10260 in
 cic/texts/salvian_on-the-government-of-god_sanford1930.txt. "I am the
 soldier of Christ" and Sacred History II.50's "secular ruler" sentence
-are cited through their story/force records, verified at Doc_09/Doc_08
-(both phrases wrap across lines in the flattened file and did not hit a
-single-line grep at this step - the same behaviour Doc_09's own
-line-range disclosure records for fourteen phrases).
+are cited through their story and force records; both phrases wrap
+across lines in the flattened file and were not confirmed at a single
+line for this record.
 
-Judgment calls, flagged: (1) the catacombs question is answered "no" on
-this world's own dating (its span opens c. 360) and on Sulpitius's own
-"without shedding his blood" - not on general knowledge of the
-persecutions; (2) Salvian is used within his licence (forces, not grace)
-and named by place as Africa; Doc_04 §2 S6's finding that his VIII.4
-passage carries "the reference point, not the measuring relationship"
-is respected - it is used here only as a crowd's reaction, not as
-evidence of Gaul's relation to Egypt; (3) the Heurtley editorial
-paragraphs on Constantius inside the Commonitory's apparatus were read
-and not used. Nothing in gallic.contested.election-as-capture is
-resolved: the bishops' objection is given as Sulpitius reports it, and
-tensions[0] says whose report it is.
+The catacombs question is answered "no" on this world's own dating (its
+span opens c. 360) and on Sulpitius's own "without shedding his blood".
+Salvian is used within his licence (forces, not grace) and named by place
+as Africa; his VIII.4 passage serves only as a crowd's reaction, not as
+evidence of Gaul's relation to Egypt. The Heurtley editorial paragraphs
+on Constantius inside the Commonitory's apparatus were not used.
+Nothing in gallic.contested.election-as-capture is resolved: the
+bishops' objection is given as Sulpitius reports it.

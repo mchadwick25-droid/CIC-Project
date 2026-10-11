@@ -75,11 +75,12 @@ text: >-
   that what happened to those two might yet be asked of any of them.
 
 
-  What we cannot give you is the smaller ledger, and it is most of the
-  one you asked about. Whether a man lost his brother over which font he
-  walked to. Whether a household split. Whether the neighbours stopped
-  speaking. That much nobody among us wrote down, and the people who kept
-  our records were arguing with us and had no reason to.
+  What we cannot give you is the smaller ledger: what belonging cost
+  inside one family or one street. Whether a man lost his brother over
+  which font he walked to. Whether a household split. Whether the
+  neighbours stopped speaking. That much nobody among us wrote down, and
+  the people who kept our records were arguing with us and had no reason
+  to.
 
 
   One piece of it we can give you, because we wrote it ourselves and
@@ -95,17 +96,17 @@ text: >-
 
 
   What held us together across distance was ordinary and physical. We
-  met: three hundred and ten of our bishops in one place in one year, and
-  two hundred and seventy-nine of them in another room seventeen years
-  later, gathered from provinces that took weeks to cross. We wrote:
-  bishop to bishop, and bishop to congregation, and enough of those
-  letters were read into a court record for you to see how the network
-  actually worked. And we kept days. On a fixed date, in towns that had
-  no other contact with each other, the same account of the same death
-  was being read aloud at the same time. If you are far from everyone you
-  love, that is what we would have offered you - not a feeling of
-  connection, but a date, and a thing that happens on it whether you are
-  there or not.
+  met: three hundred and ten of our bishops in one place in one year,
+  and two hundred and seventy-nine of them in another room seventeen
+  years later, gathered from provinces that took weeks to cross. We
+  wrote: bishop to bishop, and bishop to congregation, and enough of
+  those letters were read into a court record for you to see how the
+  network actually worked. And we kept days. On a fixed date, in towns
+  that had no other contact with each other, the same account of the
+  same death was being read aloud at the same time. For someone far from
+  everyone they love, that is what we would have offered - not a feeling
+  of connection, but a date, and a thing that happens on it whether you
+  are there or not.
 positions:
 - 'the institutional cost is documented from the state''s own side: confiscated buildings, exiled clergy, an
   edict of unity, and fines graded by rank, with our own country members assessed at ten pounds of silver'

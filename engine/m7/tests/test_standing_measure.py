@@ -106,3 +106,20 @@ def test_compare_blocks_only_on_a_fleet_mean_outside_the_band(monkeypatch):
     real = sm.score_run
     monkeypatch.setattr(sm, "score_run", lambda r: {**real(r), "words_median": 900.0})
     assert sm.compare(reports, band)["blocking"] == ["words_median"]
+
+
+def test_a_sentence_withheld_for_a_quotation_counts_in_withheld_mark_rate():
+    from engine.m4.turn import apply_net
+
+    first, second = sorted(load_world_records(WORLD))[:2]
+    records = {
+        first: {"id": first, "record_type": "doctrinal_witness", "text": "We kept the bread together each week."},
+        second: {"id": second, "record_type": "doctrinal_witness", "text": "We shared the cup."},
+    }
+    raw = f'We kept the bread together each week [[{first}]]. He said "a line no record carries" [[{second}]].'
+    answer, citations, net = apply_net(raw, repository_records=records, thin_topics=None)
+    assert [s["verdict"] for s in net["sentences"]] == ["ok", "withhold"]
+    kept = [rid for c in citations for rid in c["record_ids"]]
+    assert kept == [first]
+    probe = _probe(raw, answer, kept)
+    assert sm.score_run(_report([probe]))["withheld_mark_rate"] == 0.5

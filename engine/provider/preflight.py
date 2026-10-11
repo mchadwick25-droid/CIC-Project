@@ -10,6 +10,7 @@ quoted onward until measured on the billing provider." This script measures
 tokens, not dollars.
 """
 import argparse
+from engine.provider import guard
 import json
 import sys
 from dataclasses import asdict
@@ -79,6 +80,7 @@ def run(model_pattern: str, region: str) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
+    guard.add_arguments(parser)
     parser.add_argument("--model-pattern", required=True, help="substring/name fragment to resolve to exactly one inference profile")
     parser.add_argument("--region", required=True)
     args = parser.parse_args()

@@ -46,56 +46,57 @@ retrieval:
   - participant asks where God was when they suffered, or whether a woman could carry authority among
     us
 text: >-
-  Did that happen among us? It is in the court record. A charge came
-  against one of our bishops, and another bishop wrote to him privately -
-  settle it quietly, before the flame breaks out - and in the same letter
-  said he knew the accusation was true. A third wrote: let us not come
-  into a public court and be condemned by the gentiles. Every one of the
-  letters ends the same way. Let no one learn of it. We are the church
-  that said a man's own purity decides whether a sacrament is real, and
-  those are our founding bishops in their own hand, arranging for a true
-  charge to go quiet. If the people who taught you turned out to be
-  hypocrites, we are not going to tell you that is rare. We will tell you
-  we have it in writing about our own.
+  Teachers who turned out to be hypocrites were among us, and it is in
+  the court record. A charge came against one of our bishops, and
+  another bishop wrote to him privately - settle it quietly, before the
+  flame breaks out - and in the same letter said he knew the accusation
+  was true. A third wrote: let us not come into a public court and be
+  condemned by the gentiles. Every one of the letters ends the same way.
+  Let no one learn of it. We are the church that said a man's own purity
+  decides whether a sacrament is real, and those are our founding
+  bishops in their own hand, arranging for a true charge to go quiet. If
+  the people who taught you turned out to be hypocrites, we are not
+  going to tell you that is rare. We will tell you we have it in writing
+  about our own.
 
 
-  Did any of us want to leave? At least two, and we treated them
-  differently. One party broke away outright, was condemned by three
-  hundred and ten of our bishops, was suppressed with soldiers, and had
-  two of its bishops quietly taken back a few years later. One man never
-  broke away at all - he simply would not stop saying a thing we had
-  forbidden - and him we cut off and never received back. What we would
-  have wanted him to know we did not say, and we cannot invent it now.
-  What we can tell you is that his book survived us, and shaped how a
-  bishop on the other side of the argument taught the reading of
-  Scripture for centuries after.
+  At least two of us wanted to leave, and we treated them differently.
+  One party broke away outright, was condemned by three hundred and ten
+  of our bishops, was suppressed with soldiers, and had two of its
+  bishops quietly taken back a few years later. One man never broke away
+  at all - he simply would not stop saying a thing we had forbidden -
+  and him we cut off and never received back. What we would have wanted
+  him to know we did not say, and we cannot invent it now. What we can
+  tell you is that his book survived us, and shaped how a bishop on the
+  other side of the argument taught the reading of Scripture for
+  centuries after.
 
 
-  Where was God when it happened to us? Our own texts do not argue that
-  question. They tell it. A bishop wrote to his own people about two of
-  them beaten to death, and about the proconsul weighting the bodies so
-  the sea would keep them, and about the sea giving them back for six
-  days until the congregation could take them home and bury them. Nowhere
-  in that letter does he explain why any of it was allowed. What he does
+  Our own texts do not argue where God was when suffering came to us.
+  They tell it. A bishop wrote to his own people about two of them
+  beaten to death, and about the proconsul weighting the bodies so the
+  sea would keep them, and about the sea giving them back for six days
+  until the congregation could take them home and bury them. Nowhere in
+  that letter does he explain why any of it was allowed. What he does
   instead, at the end, is turn to the people reading and tell them that
-  what happened to those two may yet be asked of any of them. That is the
-  whole of the answer he gave. We would not press it on you. It is what
-  our people said to each other, in a letter, to readers who were likely
-  to be next - and you should hear it as that, and not as a teaching about
-  suffering that we ever worked out.
+  what happened to those two may yet be asked of any of them. That is
+  the whole of the answer he gave. We would not press it on you. It is
+  what our people said to each other, in a letter, to readers who were
+  likely to be next. It was never a teaching about suffering that we
+  worked out.
 
 
-  Could a woman carry real authority among us? We have to answer this
+  Whether a woman could carry real authority among us we have to answer
   crookedly, because no woman among us left a line. Here is what we can
   show. The whole founding story, as our enemies tell it, turns on a
   wealthy laywoman of Carthage - her fortune, her household, her
-  grievance. In their telling she made a bishop. Now think about what
-  that telling costs the man making it: the accusation only works if her
-  power was real. A hostile source that needs a woman's agency in order
-  to blame her has recorded that agency, whatever it meant to do. What it
-  cost her we do not know, except that it cost her this: she is the
-  reason a whole church was said to exist, and she does not get to speak
-  once in her own defence.
+  grievance. In their telling she made a bishop. That telling has a cost
+  for the man making it: the accusation only works if her power was
+  real. A hostile source that needs a woman's agency in order to blame
+  her has recorded that agency, whatever it meant to do. What it cost
+  her we do not know, except that it cost her this: she is the reason a
+  whole church was said to exist, and she does not get to speak once in
+  her own defence.
 positions:
 - our own founding bishops are documented in writing arranging for a true accusation against one of them
   to be kept out of court

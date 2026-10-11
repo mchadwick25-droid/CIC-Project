@@ -42,6 +42,8 @@ from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
 from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
 from engine.m4.grounding_net import scope_completion
+from engine.m4.rhythm import RhythmTally
+from engine.m5.routing import QUESTION_KINDS
 
 __all__ = [
     "repository_records_by_id",
@@ -55,6 +57,9 @@ __all__ = [
     "render_evidence_block",
     "FLEET_FLOOR_LINE",
     "degradation_statement",
+    "QUESTION_KINDS",
+    "floors_for_kind",
+    "resolve_kind",
 ]
 
 # Fork 2 (LIVE-GENERATION-DESIGN.md §9.5: in-voice honest-limit
@@ -88,7 +93,7 @@ def thin_topics_for(repository_records: dict[str, dict]) -> list[dict] | None:
 def degradation_statement(turn_evidence: dict) -> str:
     """The matched cell's own honest_limit record - real, reviewed,
     already-compiled content, Stage B's own unconditional include (see
-    _TYPE_FLOORS below) - when this turn matched one, else the fleet
+    _FLOORS_BY_KIND below) - when this turn matched one, else the fleet
     floor line above."""
     for candidate in turn_evidence.get("candidates", []):
         if candidate["record_type"] == "honest_limit":
@@ -152,23 +157,41 @@ _MIN_ASK_MATCH_WORDS = 2
 _SHORT_QUERY_WORDS = 3
 _SHORT_QUERY_MAX_CELLS = 3
 
-# Per-type floors (design §3.2): "at minimum, when the cell has them" - a
+# Per-kind floors (design §3.2): "at minimum, when the cell has them" - a
 # guaranteed reachability budget, not a relevance cutoff, which is what
 # makes offerability (spec §4.2: stories/quotes must stay reachable in
-# conversation) a per-turn property instead of a compile-time hope.
-# honest_limit is handled separately below (unconditional, no floor cap -
-# see select_cell_candidates) because the §6.3 fallback ladder depends on
-# it being present whenever the ground runs thin, not just when it scores
+# conversation) a per-turn property instead of a compile-time hope. The
+# floors follow the kind of question asked: a who question wants witnesses
+# and terms, a what-did question wants the story. honest_limit is handled
+# separately below (unconditional, no floor cap - see
+# select_cell_candidates) because the §6.3 fallback ladder depends on it
+# being present whenever the ground runs thin, not just when it scores
 # well against this turn's message.
-_TYPE_FLOORS = {
-    "doctrinal_witness": 1,
-    "term": 3,
-    "story": 2,
-    "quote": 2,
-    "gravity": 2,
-    "force": 1,
-    "contested_claim": 1,
+_FLOOR_TYPES = ("doctrinal_witness", "term", "story", "quote", "gravity", "force", "contested_claim")
+_DEFAULT_FLOORS = (1, 3, 2, 2, 2, 1, 1)
+_FLOORS_BY_KIND = {
+    "who": (2, 2, 1, 2, 1, 0, 1),
+    "what_is": (2, 2, 1, 2, 1, 0, 1),
+    "what_did": (1, 1, 3, 2, 0, 1, 1),
+    "what_happened": (1, 1, 3, 2, 0, 1, 1),
+    "what_means": (1, 3, 1, 2, 1, 0, 1),
+    "why": (2, 1, 1, 2, 2, 1, 1),
+    "how": (1, 2, 2, 1, 1, 2, 0),
+    "did_it_happen": _DEFAULT_FLOORS,
+    "other": _DEFAULT_FLOORS,
 }
+
+
+def floors_for_kind(kind: str | None, *, quote_floor: int | None = None) -> dict[str, int]:
+    """The per-type floors for one question kind; an unknown or missing
+    kind reads as "other". quote_floor replaces the quote floor, for a turn
+    the conversation's rhythm does not ask a quote of."""
+    floors = dict(zip(_FLOOR_TYPES, _FLOORS_BY_KIND.get(kind or "other", _DEFAULT_FLOORS)))
+    if quote_floor is not None:
+        floors["quote"] = quote_floor
+    return floors
+
+
 _COVERAGE_KEY_BY_TYPE = {
     "doctrinal_witness": "doctrinal_witness",
     "term": "terms",
@@ -699,7 +722,7 @@ def _diverse_take(
 # already has something for (that is a relevance question Stage B's own
 # ranking already answers), and never for honest_limit (unconditional,
 # fed to the §6.3 fallback ladder by its own separate, cell-scoped
-# mechanism above - see _TYPE_FLOORS comment on why that type is never
+# mechanism above - see the _FLOORS_BY_KIND comment on why that type is never
 # ranked away or filled generically).
 #
 # Scored against engine.prose.retrieval_words, not all_text() - the same
@@ -732,14 +755,14 @@ def _retrieval_fill_scores(*, record_type: str, query_words: set[str], repositor
     return scored
 
 
-def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000, already_told_ids: set[str] | list[str] | None = None) -> list[dict]:
+def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000, already_told_ids: set[str] | list[str] | None = None, kind: str | None = None, rhythm: RhythmTally | None = None, words_asked: bool = False) -> list[dict]:
     """Stage B (design §3.2): cell -> candidates -> rank. coverage_entry is
     compiled/coverage.json's own entry for this cell - the seed pool every
     candidate here is drawn from (see module docstring's named
     simplification against the design's whole-world expansion prose).
     Returns an ordered list of {"id", "record_type", "score", "head",
     "confidence", "classification"} dicts; score is None for honest_limit
-    (unconditional, never ranked away - see _TYPE_FLOORS comment), else the
+    (unconditional, never ranked away - see the _FLOORS_BY_KIND comment), else the
     relevance score plus this record's own tier prior (see _tier_prior;
     Stage 4d). An entry also carries "retrieval_fill": True when the
     coverage entry had no candidates of that type at all and Stage B2
@@ -748,10 +771,18 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
     also carries "claim_guards": [...] when the record has any - the
     prefer_instead redirect rule's guard half, rendered as a rider on this
     exact candidate's own line by render_evidence_block, not a separate section
-    - absent, not an empty list, on every record with none."""
+    - absent, not an empty list, on every record with none.
+
+    rhythm (decision 60) is the conversation's own tally. A quote the
+    conversation already voiced never fills the quote floor; where the
+    ranking would have chosen it, it still stands in the block, tagged by the
+    caller, for the voice to refer back to. Until three rounds have passed
+    since the last voiced quote, and unless words_asked, the quote floor is
+    one."""
     query_words = _query_words(message, asks)
     selected: list[dict] = []
     used_chars = 0
+    quote_floor = 1 if rhythm is not None and not rhythm.quote_due and not words_asked else None
 
     def _entry(rid: str, record_type: str, score: float | None) -> dict | None:
         record = repository_records.get(rid)
@@ -787,7 +818,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
         selected.append(entry)
         used_chars += _entry_chars(entry)
 
-    for record_type, floor in _TYPE_FLOORS.items():
+    for record_type, floor in floors_for_kind(kind, quote_floor=quote_floor).items():
         cov_key = _COVERAGE_KEY_BY_TYPE[record_type]
         cov_ids = coverage_entry.get(cov_key) or []
         retrieval_fill = not cov_ids
@@ -809,12 +840,17 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             for rid in (already_told_ids or ())
             if rid in repository_records
         }
-        for rid, score in _diverse_take(scored, repository_records, floor, used_keys):
-            if used_chars >= budget_chars:
-                break
+        chosen = _diverse_take(scored, repository_records, floor, used_keys)
+        if rhythm is not None and record_type == "quote" and rhythm.quotes_voiced:
+            fresh = [t for t in scored if t[0] not in rhythm.quotes_voiced]
+            referred_back = [t for t in chosen if t[0] in rhythm.quotes_voiced]
+            chosen = _diverse_take(fresh, repository_records, floor, used_keys) + referred_back
+        for rid, score in chosen:
             entry = _entry(rid, record_type, score)
             if entry is None:
                 continue
+            if used_chars + _entry_chars(entry) > budget_chars:
+                break
             if retrieval_fill:
                 entry["retrieval_fill"] = True
             selected.append(entry)
@@ -949,6 +985,32 @@ def inherited_cells(history, *, canon_questions, repository_records, top_n) -> l
     return []
 
 
+def resolve_kind(
+    reader_kind: str | None,
+    *,
+    message: str,
+    asks: list[dict] | None,
+    history: list[dict] | None,
+    previous_kind: str | None,
+    canon_questions: dict[str, dict],
+    repository_records: dict[str, dict],
+) -> str:
+    """The question kind this turn answers. A follow-up inherits the
+    previous turn's kind (it is about the previous subject, asked the same
+    way) unless the message changes it: the reader returning anything but
+    "other" is the message changing it. A message that is not a follow-up,
+    or a session with no previous kind, reads as the reader's own kind."""
+    kind = reader_kind if reader_kind in QUESTION_KINDS else "other"
+    if (
+        kind == "other"
+        and previous_kind in QUESTION_KINDS
+        and history
+        and _looks_like_follow_up(message, asks, canon_questions, repository_records)
+    ):
+        return previous_kind
+    return kind
+
+
 def assemble_evidence(
     *,
     message: str,
@@ -962,6 +1024,9 @@ def assemble_evidence(
     history: list[dict] | None = None,
     figures_already_named: list[str] | None = None,
     secondary_context: str | None = None,
+    kind: str | None = None,
+    rhythm: RhythmTally | None = None,
+    words_asked: bool = False,
 ) -> dict:
     """The full pipeline, Stages A -> E, deterministic, no model call.
     Returns {"cells": [...Stage A...], "candidates": [...B+C+E...],
@@ -1026,7 +1091,7 @@ def assemble_evidence(
         coverage_entry = coverage.get(match["cell"]) or {}
         for candidate in select_cell_candidates(
             cell=match["cell"], coverage_entry=coverage_entry, repository_records=repository_records, message=message, asks=asks,
-            already_told_ids=already_told_ids,
+            already_told_ids=already_told_ids, kind=kind, rhythm=rhythm, words_asked=words_asked,
         ):
             if candidate["id"] in seen_ids:
                 continue
@@ -1077,6 +1142,11 @@ def assemble_evidence(
         )
 
     selected = apply_session_exclusion(selected=selected, already_told_ids=already_told_ids)
+    if rhythm is not None:
+        selected = [
+            {**c, "used_in_round": used} if (used := rhythm.used_round(c["id"])) else c
+            for c in selected
+        ]
     thin_ground = thin_topic_riders(message=message, asks=asks, selected=selected, thin_topics=thin_topics)
 
     return {
@@ -1140,7 +1210,7 @@ def render_evidence_block(evidence: dict) -> str:
             "## re-introduced as if new.",
         ]
     for candidate in evidence["candidates"]:
-        head = (candidate["head"] or "").strip().split(". ")[0].rstrip(".")
+        head = (candidate["head"] or "").strip()
         descriptors = [candidate["record_type"]]
         if candidate.get("classification"):
             descriptors.append(str(candidate["classification"]).upper())
@@ -1148,7 +1218,10 @@ def render_evidence_block(evidence: dict) -> str:
             descriptors.append(candidate["confidence"])
         if candidate.get("scope_completion"):
             descriptors.append("scope completion")
-        if candidate.get("already_told_this_session"):
+        if candidate.get("used_in_round"):
+            how, round_no = candidate["used_in_round"]
+            descriptors.append(f"{how} in round {round_no}")
+        elif candidate.get("already_told_this_session"):
             descriptors.append("already told this session")
         line = f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}"
         if candidate.get("means"):

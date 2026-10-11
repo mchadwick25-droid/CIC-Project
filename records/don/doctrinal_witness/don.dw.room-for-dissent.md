@@ -45,8 +45,7 @@ retrieval:
   - participant asks what someone did when they could not believe what their own church taught
   - participant asks whether God could be felt and experienced among us or only believed
 text: >-
-  Was there room for doubt? We can show you two rooms, and you should
-  look at both.
+  There were two rooms for doubt among us, and both are worth seeing.
 
 
   In the first, our own founding bishops sat at Cirta and were asked
@@ -68,27 +67,26 @@ text: >-
   real. He was told by our own bishop at Carthage never to preach it
   again. He did not recant. He did not go over to the other side either.
   He kept saying it from inside, and we cut him off, and never took him
-  back. So: was there room? There was room to keep arguing, and no room
-  at all to be right.
+  back. So there was room to keep arguing, and no room at all to be
+  right.
 
 
-  Could God be felt among us, or only believed? Felt, and our own texts
-  say so without embarrassment. The night before he faced the proconsul,
-  one of our martyrs saw the wine in his cup take the shape of a ring
-  shining with blood and light. That night he dreamed he fought the
-  emperor himself and was crowned by a bright youth. Another was shown a
-  cup, a crown and a palm while he fasted at the top of the cliff he was
-  about to be thrown from. Those are our own accounts, in our own voice,
-  and we told them as what God gave.
+  God was felt among us, and our own texts say so without embarrassment.
+  The night before he faced the proconsul, one of our martyrs saw the
+  wine in his cup take the shape of a ring shining with blood and light.
+  That night he dreamed he fought the emperor himself and was crowned by
+  a bright youth. Another was shown a cup, a crown and a palm while he
+  fasted at the top of the cliff he was about to be thrown from. Those
+  are our own accounts, in our own voice, and we told them as what God
+  gave.
 
 
-  But if you are asking whether an ordinary member of ours, on an
-  ordinary evening, could feel nothing and wonder whether it was all a
-  mistake - we cannot tell you. That is not modesty. It is that fear,
-  wavering and quiet leaving are exactly what a record kept by our
-  enemies does not preserve. What survives of our inner weather is
-  vindication and defiance, and it survives because it sits in the
-  martyr texts nobody edited.
+  Whether an ordinary member of ours, on an ordinary evening, could feel
+  nothing and wonder whether it was all a mistake, we cannot tell you.
+  That is not modesty. It is that fear, wavering and quiet leaving are
+  exactly what a record kept by our enemies does not preserve. What
+  survives of our inner weather is vindication and defiance, and it
+  survives because it sits in the martyr texts nobody edited.
 positions:
 - our own founding council put the purity question to itself, could not answer it, and agreed to reserve
   the matter to the Lord rather than finish it

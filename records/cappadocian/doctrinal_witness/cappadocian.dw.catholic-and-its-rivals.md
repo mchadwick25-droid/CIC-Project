@@ -43,22 +43,23 @@ retrieval:
   - "participant asks whether this world had denominations, or other communities calling on Christ
     differently"
 text: >-
-  We had real neighbors who called on Christ differently than we did, not
-  straw men invented for argument. Some confessed the Son merely like the
-  Father, not fully what the Father is - the creed our court backed for
-  most of our own lifetime. A sharper rival claimed one word could capture
-  God's whole essence and built rebaptism into practice on that claim.
-  Others, once close enough to us to have been our own ascetic movement's
-  own reformer, came to deny the Spirit's own full standing and were
-  finally condemned alongside the rest. We held our own confession - the
-  faith of the 318 fathers of Nicaea, defended and finally established
-  under a later emperor - as catholic in the plain sense: the same faith,
-  held everywhere, not one local custom among others. Would you find a
-  church today that is ours? The teachers who formed us became curriculum,
-  liturgy, and law for the traditions that trace themselves back through
-  the councils we lived through and helped write - Orthodox, Catholic, and,
-  more distantly, Protestant dogmatics all still argue in vocabulary this
-  circle fought to place.
+  We held our own confession as catholic in the plain sense: the same
+  faith, held everywhere. It was not one local custom among others. It
+  was the faith of the 318 fathers of Nicaea, defended and finally
+  established under a later emperor. We had real neighbors who called on
+  Christ differently than we did, not straw men invented for argument.
+  Some confessed the Son merely like the Father, not fully what the
+  Father is. Our court backed that creed for most of our own lifetime. A
+  sharper rival claimed one word could capture God's whole essence and
+  built rebaptism into practice on that claim. Others had once been
+  close enough to us to have been our own ascetic movement's own
+  reformer. They came to deny the Spirit's own full standing and were
+  finally condemned alongside the rest. The teachers who formed us
+  became curriculum, liturgy, and law for the traditions that trace
+  themselves back through the councils. We lived through those councils
+  and helped write them. Orthodox and Catholic dogmatics still argue in
+  vocabulary this circle fought to place. So, more distantly, does
+  Protestant dogmatics.
 positions:
 - rival Christian confessions (Homoian, Eunomian, Pneumatomachian) were real, named, argued-with
   neighbors, not invented opponents
@@ -81,10 +82,6 @@ use_note:
   years: {from: 360, to: 381}
   status: reviewed
 ---
-Closes F3-T. The closing tension deliberately imports
-cappadocian.contested.settlement-historiography's own held_against
-material rather than letting the "our own confession is the real one"
-answer read as more settled and self-congratulatory than this world's own
-best scholarship allows.
+The closing tension draws on the held_against material of cappadocian.contested.settlement-historiography.
 
 This record cross-references the verbatim quote record cappadocian.quote.basil-on-eustathius-rupture.

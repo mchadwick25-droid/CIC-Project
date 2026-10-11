@@ -65,8 +65,9 @@ relations:
 - type: presupposes
   target: gallic.term.novelty-antiquity
 plain_meaning: >-
-  Vincent's answer to "Shall there be no progress in the Church?" All possible progress - but real
-  progress, not alteration. The grown man has the same joints he had as a child.
+  All possible progress, but real progress, not alteration. That is Vincent's answer to the
+  objection he raises himself, "Shall there, then, be no progress in Christ's Church?" The grown man has the same
+  joints he had as a child.
 world_word: progress, not alteration
 false_friend:
 - '"development of doctrine" as Newman''s theory, or Vincent as a charter for change'
@@ -113,20 +114,6 @@ use_note:
   years: {from: 434, to: 434}
   status: reviewed
 ---
-Built from Doc_06 entry 057 (`galliclex057_progress-vs-alteration.md`, Tier 2, tags AS TC DR CT;
-Doc_03 7.5). The CT (Relationship to present-day traditions) is carried in divergence_note;
-formation_confidence stays Documented because the contest is over the passage's afterlife, not
-over what Vincent meant - the chunk's own CT section draws that line. The ch. 17 [44] footnote
-locus follows the Round-2 spot-check correction (it quotes Newman on Origen, not Vincent).
+Source: Doc_06 entry 057 (`galliclex057_progress-vs-alteration.md`, Tier 2; Doc_03 7.5). The CT (Relationship to present-day traditions) is carried in divergence_note; formation_confidence stays Documented because the contest is over the passage's afterlife, not over what Vincent meant.
 
-Relation typing: `presupposes` gallic.term.the-deposit (growth-form of the deposit);
-`illustrated-by` gallic.term.theotocos (one of the "new names" the passage has in view, per the
-chunk's Ecological Function).
-
-Related-Terms also names the rule, novelty vs. antiquity, tradition, and the Fathers / elders -
-cross-batch at authoring time, added as relations (typed associated-with except as stated here) at
-the reconciliation pass once all 81 term records existed. Relation typing: `presupposes`
-gallic.term.novelty-antiquity follows the chunk's own "the positive face of novelty vs. antiquity
-(012)" - the same shape as the rule's presupposes toward the axis (011: the procedure presupposes
-the value it runs on). The chunk also names Catholic and heretic / heresy (in-batch); not made
-relations, since no dependency is stated.
+Relation typing: `presupposes` gallic.term.the-deposit (growth-form of the deposit); `illustrated-by` gallic.term.theotocos (one of the "new names" the passage has in view); `presupposes` gallic.term.novelty-antiquity (the positive face of novelty vs. antiquity). The rule, tradition, the Fathers / elders, council / synod and the doctor-expositor are associated-with. The chunk also names Catholic and heretic / heresy; not made relations, since no dependency is stated.

@@ -21,22 +21,21 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Could someone divorced belong here? Could they marry again? We did
-  not answer with a ruling. Our answer was Fabiola, and we kept her story
-  where everyone could see it. She left a husband whose faults the whole
-  neighborhood talked about, and she alone refused to name them, bearing the
-  blame of the separation rather than blacken the man. On that leaving, we
-  sided with her. She then married again while he lived - and that, our
-  teaching held, the gospel did not allow, for the woman as for the man; the
-  record is explicit that the same law bound both. When her second husband
-  died, she did not defend herself. She stood in sackcloth before all Rome
-  among the penitents, a senator's daughter, unforced, self-accused. The
-  church received her back to communion, and we honored her afterward
-  above almost everyone. So: divorced, she belonged. Remarried, it was named a
-  fault, the same fault it would have been for a man. And the fault, repented,
-  ended in honor, a hospital for the poor, and a funeral all Rome attended.
-  The door out of that fault was penance, and we watched her walk
-  through it.
+  Our answer was Fabiola rather than a ruling: divorced, she belonged here.
+  We kept her story where everyone could see it. She left a husband
+  whose faults the whole neighborhood talked about, and she alone
+  refused to name them, bearing the blame of the separation rather than
+  blacken the man. On that leaving, we sided with her. She then married
+  again while he lived - and that, our teaching held, the gospel did not
+  allow, for the woman as for the man; the record is explicit that the
+  same law bound both. When her second husband died, she did not defend
+  herself. She stood in sackcloth before all Rome among the penitents, a
+  senator's daughter, unforced, self-accused. The church received her
+  back to communion, and we honored her afterward above almost everyone.
+  Remarried, it was named a fault, the same fault it would have been for
+  a man. And the fault, repented, ended in honor, a hospital for the
+  poor, and a funeral all Rome attended. The door out of that fault was
+  penance, and we watched her walk through it.
 positions:
 - separation from a cruel or vicious spouse was accepted; remarriage while the spouse
   lived was held against the gospel's precept
@@ -58,11 +57,8 @@ use_note:
   years: {from: 382, to: 400}
   status: reviewed
 ---
-F6-translational identity-collision answer-ground (the marriage-ending
-question). The equal-law point is Ep. 77 sec. 3's own argument
+The equal-law point is Ep. 77 sec. 3's own argument
 (cross-checked against the vendored text: the letter argues the Lord's
 command binds men and women equally). The non-judgment line in the
 world's idiom is a demonstration-stage deliverable; this witness is its
 substance.
-
-The spoken field is written in plain modern English (mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint is preserved, including the baptized-who-had-fallen scope and the church-as-subject communion sentence. This sits at the record layer, not the prompt.

@@ -1,0 +1,2217 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "desert",
+  "manifest_hash": "sha256:9a5b8fb2bc5286c98141e9e688403d546d7ef031c17efe172deafcaf670841f3",
+  "package": "packages/desert/2026-10-04T07-09-48Z",
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Who is Jesus?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "desert",
+          "text": "Three things. The first reordered our lives. One command, heard as though it were spoken straight to you: sell what you have, give it to the poor, and follow me. Not a saying to be studied - an order to be obeyed. The second we argued for, when we were pressed to. The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature. That is the reason we gave for why he came at all. And we did not think this rested on our say-so. Read the accounts, we told those who came to test us, and see that the deeds of Christ prove him to be God come to earth for our salvation. The third is what we thought his cross had already done. The old oracles fell silent when it rose. The knowledge of God spread. And death stopped being the thing that could make a person do anything. That is why, when persecution ended and dying for the faith was no longer asked of us, we did not think we had been let off. The same fight had moved inward, against our own thoughts rather than against the sword.",
+          "citations": [
+            {
+              "sentence": "One command, heard as though it were spoken straight to you: sell what you have, give it to the poor, and follow me.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Not a saying to be studied - an order to be obeyed.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That is the reason we gave for why he came at all.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Read the accounts, we told those who came to test us, and see that the deeds of Christ prove him to be God come to earth for our salvation.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The old oracles fell silent when it rose.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The knowledge of God spread.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And death stopped being the thing that could make a person do anything.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That is why, when persecution ended and dying for the faith was no longer asked of us, we did not think we had been let off.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The same fight had moved inward, against our own thoughts rather than against the sword.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Three things.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (number) with no citation tag"
+              },
+              {
+                "sentence": "The first reordered our lives.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "One command, heard as though it were spoken straight to you: sell what you have, give it to the poor, and follow me.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Not a saying to be studied - an order to be obeyed.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The second we argued for, when we were pressed to.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "That is the reason we gave for why he came at all.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "And we did not think this rested on our say-so.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Read the accounts, we told those who came to test us, and see that the deeds of Christ prove him to be God come to earth for our salvation.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The third is what we thought his cross had already done.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The old oracles fell silent when it rose.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The knowledge of God spread.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "And death stopped being the thing that could make a person do anything.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "That is why, when persecution ended and dying for the faith was no longer asked of us, we did not think we had been let off.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The same fight had moved inward, against our own thoughts rather than against the sword.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 15,
+                "cited_record_ids": [
+                  "desert.dw.jesus"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "Three things.",
+                    "tags": [
+                      "desert.dw.jesus"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  },
+                  "1": {
+                    "sentence": "The first reordered our lives.",
+                    "tags": [
+                      "desert.dw.jesus"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "The second we argued for, when we were pressed to.",
+                    "tags": [
+                      "desert.dw.jesus"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "7": {
+                    "sentence": "And we did not think this rested on our say-so.",
+                    "tags": [
+                      "desert.dw.jesus"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "9": {
+                    "sentence": "The third is what we thought his cross had already done.",
+                    "tags": [
+                      "desert.dw.jesus"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "desert",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 13
+              },
+              {
+                "index": 1,
+                "text_start": 14,
+                "text_end": 44
+              },
+              {
+                "index": 2,
+                "text_start": 45,
+                "text_end": 161
+              },
+              {
+                "index": 3,
+                "text_start": 162,
+                "text_end": 213
+              },
+              {
+                "index": 4,
+                "text_start": 214,
+                "text_end": 264
+              },
+              {
+                "index": 5,
+                "text_start": 265,
+                "text_end": 411
+              },
+              {
+                "index": 6,
+                "text_start": 412,
+                "text_end": 462
+              },
+              {
+                "index": 7,
+                "text_start": 463,
+                "text_end": 510
+              },
+              {
+                "index": 8,
+                "text_start": 511,
+                "text_end": 650
+              },
+              {
+                "index": 9,
+                "text_start": 651,
+                "text_end": 707
+              },
+              {
+                "index": 10,
+                "text_start": 708,
+                "text_end": 749
+              },
+              {
+                "index": 11,
+                "text_start": 750,
+                "text_end": 778
+              },
+              {
+                "index": 12,
+                "text_start": 779,
+                "text_end": 850
+              },
+              {
+                "index": 13,
+                "text_start": 851,
+                "text_end": 975
+              },
+              {
+                "index": 14,
+                "text_start": 976,
+                "text_end": 1064
+              }
+            ],
+            "elements": [],
+            "references": [
+              {
+                "record_id": "desert.dw.jesus",
+                "record_type": "doctrinal_witness",
+                "label": "Three things",
+                "sources": [
+                  {
+                    "source_id": "desert.source.athanasius-vita-antonii",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                    "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                    "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                    "rights_status": "public-domain",
+                    "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Widely Accepted for the narrated material (Antony's call, his own reported teaching) and its place in this world's own tradition. Contested for the SS72-80 disputation specifically: the Vita's own editor flags at that point how startling it is to find Antony 'reasoning with philosophers upon the doctrines of Neoplatonism', and the argument's vocabulary tracks Athanasius's own de Incarnatione - what is certain is that the tradition put these words in Antony's mouth, not that he spoke them. Each quote record carries that bound in its own divergence_note. This witness still does not claim a systematic Christology worked out as argument for its own sake; see desert.limit.doubt-and-doctrine for the narrowed bound.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "desert.dw.jesus",
+                "record_type": "doctrinal_witness",
+                "label": "Three things",
+                "sources": [
+                  {
+                    "source_id": "desert.source.athanasius-vita-antonii",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                    "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                    "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                    "rights_status": "public-domain",
+                    "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Widely Accepted for the narrated material (Antony's call, his own reported teaching) and its place in this world's own tradition. Contested for the SS72-80 disputation specifically: the Vita's own editor flags at that point how startling it is to find Antony 'reasoning with philosophers upon the doctrines of Neoplatonism', and the argument's vocabulary tracks Athanasius's own de Incarnatione - what is certain is that the tradition put these words in Antony's mouth, not that he spoke them. Each quote record carries that bound in its own divergence_note. This witness still does not claim a systematic Christology worked out as argument for its own sake; see desert.limit.doubt-and-doctrine for the narrowed bound.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                0
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-2",
+      "message": "What did he do?",
+      "prior_turns_replayed": 1,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "desert",
+          "text": "He took a human body for our salvation, so that by sharing our birth he might make us share what is his. That is the reason we gave for why he came at all. His cross made the old oracles fall silent, spread the knowledge of God, and broke death's power to make a person do anything. We said this to the devil's own face: your coming, Christ, has made you weak, cast you down, and stripped you. The healings that happened among us were not ours - we are not the doers of these things, one of us told the philosophers who had just watched him sign the cross over a man; it is Christ who works them, by means of those who believe in him. His deeds prove him to be God come to earth for our salvation, we told anyone who tested us. Read the accounts and see. Beyond that accounting - how his death reaches you in particular, a worked-out system of penalty and substitution - we did not write that down. What we have is what he did, not a theory of how it operates.",
+          "citations": [
+            {
+              "sentence": "He took a human body for our salvation, so that by sharing our birth he might make us share what is his.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That is the reason we gave for why he came at all.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His cross made the old oracles fall silent, spread the knowledge of God, and broke death's power to make a person do anything.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We said this to the devil's own face: your coming, Christ, has made you weak, cast you down, and stripped you.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The healings that happened among us were not ours - we are not the doers of these things, one of us told the philosophers who had just watched him sign the cross over a man; it is Christ who works them, by means of those who believe in him.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His deeds prove him to be God come to earth for our salvation, we told anyone who tested us.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Read the accounts and see.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Beyond that accounting - how his death reaches you in particular, a worked-out system of penalty and substitution - we did not write that down.",
+              "record_ids": [
+                "desert.limit.doubt-and-doctrine"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.limit.doubt-and-doctrine",
+                  "record_type": "honest_limit",
+                  "label": "Do you want to know how to speak of him as your own Lord? Or what to do when you cannot b…",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "the Vita's own hagiographic genre - an outside author's constructed exemplar, not first-person confession or systematic doctrinal exposition",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What we have is what he did, not a theory of how it operates.",
+              "record_ids": [
+                "desert.limit.doubt-and-doctrine"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.limit.doubt-and-doctrine",
+                  "record_type": "honest_limit",
+                  "label": "Do you want to know how to speak of him as your own Lord? Or what to do when you cannot b…",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "the Vita's own hagiographic genre - an outside author's constructed exemplar, not first-person confession or systematic doctrinal exposition",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "He took a human body for our salvation, so that by sharing our birth he might make us share what is his.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "That is the reason we gave for why he came at all.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "His cross made the old oracles fall silent, spread the knowledge of God, and broke death's power to make a person do anything.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We said this to the devil's own face: your coming, Christ, has made you weak, cast you down, and stripped you.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The healings that happened among us were not ours - we are not the doers of these things, one of us told the philosophers who had just watched him sign the cross over a man; it is Christ who works them, by means of those who believe in him.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "His deeds prove him to be God come to earth for our salvation, we told anyone who tested us.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Read the accounts and see.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Beyond that accounting - how his death reaches you in particular, a worked-out system of penalty and substitution - we did not write that down.",
+                "tags": [
+                  "desert.limit.doubt-and-doctrine"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "What we have is what he did, not a theory of how it operates.",
+                "tags": [
+                  "desert.limit.doubt-and-doctrine"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 9,
+                "cited_record_ids": [
+                  "desert.dw.jesus",
+                  "desert.limit.doubt-and-doctrine"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "desert",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 104
+              },
+              {
+                "index": 1,
+                "text_start": 105,
+                "text_end": 155
+              },
+              {
+                "index": 2,
+                "text_start": 156,
+                "text_end": 282
+              },
+              {
+                "index": 3,
+                "text_start": 283,
+                "text_end": 393
+              },
+              {
+                "index": 4,
+                "text_start": 394,
+                "text_end": 634
+              },
+              {
+                "index": 5,
+                "text_start": 635,
+                "text_end": 727
+              },
+              {
+                "index": 6,
+                "text_start": 728,
+                "text_end": 754
+              },
+              {
+                "index": 7,
+                "text_start": 755,
+                "text_end": 898
+              },
+              {
+                "index": 8,
+                "text_start": 899,
+                "text_end": 960
+              }
+            ],
+            "elements": [],
+            "references": [
+              {
+                "record_id": "desert.dw.jesus",
+                "record_type": "doctrinal_witness",
+                "label": "Three things",
+                "sources": [
+                  {
+                    "source_id": "desert.source.athanasius-vita-antonii",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                    "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                    "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                    "rights_status": "public-domain",
+                    "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Widely Accepted for the narrated material (Antony's call, his own reported teaching) and its place in this world's own tradition. Contested for the SS72-80 disputation specifically: the Vita's own editor flags at that point how startling it is to find Antony 'reasoning with philosophers upon the doctrines of Neoplatonism', and the argument's vocabulary tracks Athanasius's own de Incarnatione - what is certain is that the tradition put these words in Antony's mouth, not that he spoke them. Each quote record carries that bound in its own divergence_note. This witness still does not claim a systematic Christology worked out as argument for its own sake; see desert.limit.doubt-and-doctrine for the narrowed bound.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "desert.limit.doubt-and-doctrine",
+                "record_type": "honest_limit",
+                "label": "Do you want to know how to speak of him as your own Lord? Or what to do when you cannot b…",
+                "sources": [
+                  {
+                    "source_id": "desert.source.athanasius-vita-antonii",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                    "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                    "locus": "the Vita's own hagiographic genre - an outside author's constructed exemplar, not first-person confession or systematic doctrinal exposition",
+                    "rights_status": "public-domain",
+                    "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "C",
+                  "divergence_note": "Documented that this genre gap exists (the Vita is hagiography, composed by an outside bishop-author with his own theological agenda, not first-person confessional writing); the gap itself, not a doctrinal claim, is what this record documents.",
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "desert.dw.jesus",
+                "record_type": "doctrinal_witness",
+                "label": "Three things",
+                "sources": [
+                  {
+                    "source_id": "desert.source.athanasius-vita-antonii",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                    "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                    "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                    "rights_status": "public-domain",
+                    "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Widely Accepted for the narrated material (Antony's call, his own reported teaching) and its place in this world's own tradition. Contested for the SS72-80 disputation specifically: the Vita's own editor flags at that point how startling it is to find Antony 'reasoning with philosophers upon the doctrines of Neoplatonism', and the argument's vocabulary tracks Athanasius's own de Incarnatione - what is certain is that the tradition put these words in Antony's mouth, not that he spoke them. Each quote record carries that bound in its own divergence_note. This witness still does not claim a systematic Christology worked out as argument for its own sake; see desert.limit.doubt-and-doctrine for the narrowed bound.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "desert.limit.doubt-and-doctrine",
+                "record_type": "honest_limit",
+                "label": "Do you want to know how to speak of him as your own Lord? Or what to do when you cannot b…",
+                "sources": [
+                  {
+                    "source_id": "desert.source.athanasius-vita-antonii",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                    "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                    "locus": "the Vita's own hagiographic genre - an outside author's constructed exemplar, not first-person confession or systematic doctrinal exposition",
+                    "rights_status": "public-domain",
+                    "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "C",
+                  "divergence_note": "Documented that this genre gap exists (the Vita is hagiography, composed by an outside bishop-author with his own theological agenda, not first-person confessional writing); the gap itself, not a doctrinal claim, is what this record documents.",
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-3",
+      "message": "What does hesychia mean?",
+      "prior_turns_replayed": 2,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "desert",
+          "text": "Stillness: quiet of body and mind, sought as both the condition and the fruit of the ascetic life. It was not a technique we systematized, the way some later traditions did. What we can tell you is that one current among us spoke of it as something actually reached - a soul filled with light, made the Spirit's own seat, known in real experience and feeling, not only believed. The soul in communion with the Spirit of his light becomes all light, all face, all eye, with no part of her not full of the spiritual eyes of light. The Spirit of the Lord himself becomes, for souls that are worthy, their rest, their joy, their delight. Another of our teachers defined the kingdom itself as apatheia - freedom from the passions - together with true knowledge of beings. Both spoke of stillness as something that could be reached, not merely aimed at. We will not promise you that most of us reached it. What we can say is that it was named, taught, and held as real.",
+          "citations": [
+            {
+              "sentence": "Stillness: quiet of body and mind, sought as both the condition and the fruit of the ascetic life.",
+              "record_ids": [
+                "desert.term.hesychia"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.term.hesychia",
+                  "record_type": "term",
+                  "label": "hesychia",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "the withdrawal narrative (SS3-14)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    },
+                    {
+                      "source_id": "desert.source.apophthegmata-patrum",
+                      "author": "Anonymous compilers (5th-6th c.), collecting the oral sayings tradition of the desert elders and ammas of the 4th-early 5th c.",
+                      "work": "Apophthegmata Patrum (Sayings of the Desert Fathers) - the Alphabetical and Systematic collections; this world's central teaching corpus and the broadest witness to its named participants including the ammas (Syncletica, Theodora, Sarah). Compiled in surviving written form AFTER this world's c. 430 close, from oral material originating inside it: every citation carries the compiler screen (selection, arrangement, and possible cross-strand harmonization are the editors' work), and whether that overlap between strands reflects lived reality or later editorial arrangement remains a genuinely open question",
+                      "locus": "scattered sayings (e.g. the Arsenius tradition: flee, be silent, be still)",
+                      "rights_status": "ancient work public-domain; Budge 1907 English now vendored, public domain by date; modern translations copyrighted, consult-only",
+                      "edition": "VENDORED 2026-08-27: cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt - The Paradise or Garden of the Holy Fathers, Volume II, trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), the Syriac recension of 'Anan-Isho', supplied by Mark. 166,365 words, fourteen thematic chapters, sayings numbered. THIS IS THE SYRIAC, NOT THE GREEK ALPHABETICAL COLLECTION - numbering and often wording differ, so a quote verified here is verbatim FOR BUDGE and its locus says so. Greek: PG 65 (alphabetical), whose only English renderings are in copyright (Ward 1975; Wortley 2013/2014) - see desert.search.greek-alphabetical-pd-english. Modern English consult-only, never quotable: Benedicta Ward, The Sayings of the Desert Fathers (Mowbray, 1975)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "It was not a technique we systematized, the way some later traditions did.",
+              "record_ids": [
+                "desert.term.hesychia"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.term.hesychia",
+                  "record_type": "term",
+                  "label": "hesychia",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "the withdrawal narrative (SS3-14)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    },
+                    {
+                      "source_id": "desert.source.apophthegmata-patrum",
+                      "author": "Anonymous compilers (5th-6th c.), collecting the oral sayings tradition of the desert elders and ammas of the 4th-early 5th c.",
+                      "work": "Apophthegmata Patrum (Sayings of the Desert Fathers) - the Alphabetical and Systematic collections; this world's central teaching corpus and the broadest witness to its named participants including the ammas (Syncletica, Theodora, Sarah). Compiled in surviving written form AFTER this world's c. 430 close, from oral material originating inside it: every citation carries the compiler screen (selection, arrangement, and possible cross-strand harmonization are the editors' work), and whether that overlap between strands reflects lived reality or later editorial arrangement remains a genuinely open question",
+                      "locus": "scattered sayings (e.g. the Arsenius tradition: flee, be silent, be still)",
+                      "rights_status": "ancient work public-domain; Budge 1907 English now vendored, public domain by date; modern translations copyrighted, consult-only",
+                      "edition": "VENDORED 2026-08-27: cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt - The Paradise or Garden of the Holy Fathers, Volume II, trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), the Syriac recension of 'Anan-Isho', supplied by Mark. 166,365 words, fourteen thematic chapters, sayings numbered. THIS IS THE SYRIAC, NOT THE GREEK ALPHABETICAL COLLECTION - numbering and often wording differ, so a quote verified here is verbatim FOR BUDGE and its locus says so. Greek: PG 65 (alphabetical), whose only English renderings are in copyright (Ward 1975; Wortley 2013/2014) - see desert.search.greek-alphabetical-pd-english. Modern English consult-only, never quotable: Benedicta Ward, The Sayings of the Desert Fathers (Mowbray, 1975)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What we can tell you is that one current among us spoke of it as something actually reached - a soul filled with light, made the Spirit's own seat, known in real experience and feeling, not only believed.",
+              "record_ids": [
+                "desert.dw.the-heart-and-the-spirit"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.the-heart-and-the-spirit",
+                  "record_type": "doctrinal_witness",
+                  "label": "There was another voice among us, and we will not flatten it into the first",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.macarian-homilies",
+                      "author": "Pseudo-Macarius - the attribution the Internet Archive itself uses for this very item ('by Pseudo-Macarius; Macarius, the Egyptian, Saint, 4th cent; Mason, Arthur James, 1851-1928'), leading with the ascription Mason spent his Introduction arguing against. Ascribed traditionally to Macarius the Egyptian (c. 300-391 CE), the Scetis elder; that ascription rests on the manuscripts alone, and the Bodleian manuscript titles the collection an epistle 'to the Abbot Symeon of Mesopotamia of Syria'. Modern scholarship generally treats the corpus as pseudonymous - a Syrian or Mesopotamian author of the late fourth or early fifth century, with a disputed relation to the condemned Messalian current.",
+                      "work": "Fifty Spiritual Homilies - a connected body of ascetic teaching on the interior life: the indwelling of the Spirit, grace as something experienced rather than inferred, the coexistence of sin and grace in the baptised, the soul as the bride of Christ, and the long combat that continues after grace is received. The affective and experiential counterpart to the intellectualist psychology this world already holds from Evagrius and Cassian.",
+                      "locus": "Homily I (the soul as the chariot of Ezekiel's vision); Homily IV (grace known in real experience and feeling); Homily XVII (the heart as a deep gulf); Homily XXVI SS18 (sin and grace in the same soul); and Mason's Introduction SS3, HIS TEACHING, where the disputed doctrines are set out",
+                      "rights_status": "public-domain - published 1921 (pre-1929, clear in the United States); Mason lived 1851-1928, so also clear under life-plus-70. The Internet Archive made its own determination on the scan and recorded it on the item: 'no visible notice of copyright; stated date is 1921' (reported by andrea@archive.org, 2007-03-22, copyright-region US)",
+                      "edition": "trans. A. J. Mason, D.D., Translations of Christian Literature Series I: Greek Texts (SPCK / Macmillan, 1921), vendored as cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt. Two divisions, each opened by a [[...]] marker: Mason's Introduction at file line 116 (the authorship discussion at line 529, the ADDITIONAL NOTE at line 1421), and the Homilies themselves at line 1472 (Homily I at 1474, Homily XV at 4789, Homily L at 11186). Same series and the same general editor, W. K. Lowther Clarke, as the Lausiac History this corpus already vendors."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The soul in communion with the Spirit of his light becomes all light, all face, all eye, with no part of her not full of the spiritual eyes of light.",
+              "record_ids": [
+                "desert.dw.the-heart-and-the-spirit"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.the-heart-and-the-spirit",
+                  "record_type": "doctrinal_witness",
+                  "label": "There was another voice among us, and we will not flatten it into the first",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.macarian-homilies",
+                      "author": "Pseudo-Macarius - the attribution the Internet Archive itself uses for this very item ('by Pseudo-Macarius; Macarius, the Egyptian, Saint, 4th cent; Mason, Arthur James, 1851-1928'), leading with the ascription Mason spent his Introduction arguing against. Ascribed traditionally to Macarius the Egyptian (c. 300-391 CE), the Scetis elder; that ascription rests on the manuscripts alone, and the Bodleian manuscript titles the collection an epistle 'to the Abbot Symeon of Mesopotamia of Syria'. Modern scholarship generally treats the corpus as pseudonymous - a Syrian or Mesopotamian author of the late fourth or early fifth century, with a disputed relation to the condemned Messalian current.",
+                      "work": "Fifty Spiritual Homilies - a connected body of ascetic teaching on the interior life: the indwelling of the Spirit, grace as something experienced rather than inferred, the coexistence of sin and grace in the baptised, the soul as the bride of Christ, and the long combat that continues after grace is received. The affective and experiential counterpart to the intellectualist psychology this world already holds from Evagrius and Cassian.",
+                      "locus": "Homily I (the soul as the chariot of Ezekiel's vision); Homily IV (grace known in real experience and feeling); Homily XVII (the heart as a deep gulf); Homily XXVI SS18 (sin and grace in the same soul); and Mason's Introduction SS3, HIS TEACHING, where the disputed doctrines are set out",
+                      "rights_status": "public-domain - published 1921 (pre-1929, clear in the United States); Mason lived 1851-1928, so also clear under life-plus-70. The Internet Archive made its own determination on the scan and recorded it on the item: 'no visible notice of copyright; stated date is 1921' (reported by andrea@archive.org, 2007-03-22, copyright-region US)",
+                      "edition": "trans. A. J. Mason, D.D., Translations of Christian Literature Series I: Greek Texts (SPCK / Macmillan, 1921), vendored as cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt. Two divisions, each opened by a [[...]] marker: Mason's Introduction at file line 116 (the authorship discussion at line 529, the ADDITIONAL NOTE at line 1421), and the Homilies themselves at line 1472 (Homily I at 1474, Homily XV at 4789, Homily L at 11186). Same series and the same general editor, W. K. Lowther Clarke, as the Lausiac History this corpus already vendors."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The Spirit of the Lord himself becomes, for souls that are worthy, their rest, their joy, their delight.",
+              "record_ids": [
+                "desert.quote.in-real-experience-and-feeling"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.quote.in-real-experience-and-feeling",
+                  "record_type": "quote",
+                  "label": "Fifty Spiritual Homilies - a connected body of ascetic teaching on the interior life: the indwelling of the Spirit, grace as something experienced rather than inferred, the coexistence of sin and grace in the baptised, the soul as the bride of Christ, and the long combat that continues after grace is received. The affective and experiential counterpart to the intellectualist psychology this world already holds from Evagrius and Cassian., Homily IV, in Mason's English — the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.macarian-homilies",
+                      "author": "Pseudo-Macarius - the attribution the Internet Archive itself uses for this very item ('by Pseudo-Macarius; Macarius, the Egyptian, Saint, 4th cent; Mason, Arthur James, 1851-1928'), leading with the ascription Mason spent his Introduction arguing against. Ascribed traditionally to Macarius the Egyptian (c. 300-391 CE), the Scetis elder; that ascription rests on the manuscripts alone, and the Bodleian manuscript titles the collection an epistle 'to the Abbot Symeon of Mesopotamia of Syria'. Modern scholarship generally treats the corpus as pseudonymous - a Syrian or Mesopotamian author of the late fourth or early fifth century, with a disputed relation to the condemned Messalian current.",
+                      "work": "Fifty Spiritual Homilies - a connected body of ascetic teaching on the interior life: the indwelling of the Spirit, grace as something experienced rather than inferred, the coexistence of sin and grace in the baptised, the soul as the bride of Christ, and the long combat that continues after grace is received. The affective and experiential counterpart to the intellectualist psychology this world already holds from Evagrius and Cassian.",
+                      "locus": "Homily IV, in Mason's English",
+                      "rights_status": "public-domain - published 1921 (pre-1929, clear in the United States); Mason lived 1851-1928, so also clear under life-plus-70. The Internet Archive made its own determination on the scan and recorded it on the item: 'no visible notice of copyright; stated date is 1921' (reported by andrea@archive.org, 2007-03-22, copyright-region US)",
+                      "edition": "trans. A. J. Mason, D.D., Translations of Christian Literature Series I: Greek Texts (SPCK / Macmillan, 1921), vendored as cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt. Two divisions, each opened by a [[...]] marker: Mason's Introduction at file line 116 (the authorship discussion at line 529, the ADDITIONAL NOTE at line 1421), and the Homilies themselves at line 1472 (Homily I at 1474, Homily XV at 4789, Homily L at 11186). Same series and the same general editor, W. K. Lowther Clarke, as the Lausiac History this corpus already vendors."
+                    }
+                  ],
+                  "spoken_rendering": "Only let a person strive to be God's friend, and to be pleasing to him. Then, in real experience and feeling, that person will truly see the good things of heaven -- the delights too great for words, and the infinite riches of the Godhead. ... The Spirit of the Lord himself becomes, for souls that are worthy, their rest, their joy, their delight, and their eternal life.",
+                  "speaker": "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown"
+                }
+              ]
+            },
+            {
+              "sentence": "Another of our teachers defined the kingdom itself as apatheia - freedom from the passions - together with true knowledge of beings.",
+              "record_ids": [
+                "desert.quote.the-kingdom-is-apatheia"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.quote.the-kingdom-is-apatheia",
+                  "record_type": "quote",
+                  "label": "Praktikos, Praktikos chs. 2-3, in Luke Dysinger's English — Evagrius Ponticus, in the Praktikos",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.evagrius-praktikos",
+                      "author": "Evagrius Ponticus (c. 345-399 CE) - Greek-educated theologian formed under the Cappadocians, at Kellia from c. 385 to his death; this world's most systematic participant-author and its most atypical by education",
+                      "work": "Praktikos; Chapters on Prayer (De oratione); Antirrhetikos - the most systematic surviving interior psychology of the ascetic life produced inside this world (Strand C, Kellia): the eight logismoi, apatheia, the practice of talking back to thoughts with Scripture. Transmission is this world's starkest survival story: after the 553 condemnation (well outside this world's own window), the speculative works survive chiefly in Syriac and Armenian; in Greek, Chapters on Prayer transmits mostly under the name of Nilus of Ancyra, while the Praktikos generally transmits under Evagrius's own name",
+                      "locus": "Praktikos chs. 2-3, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)",
+                      "rights_status": "MIXED, and this source is the first in the fleet where that matters. The ancient works are public-domain in their surviving versions. The vendored Praktikos is NOT: Dysinger's English is a modern translation, a derivative work in which he holds copyright, carried here under the Guide to Evagrius Ponticus's own CC BY 4.0 licence and its editor's statement that the Guide includes 'only those versions without license restrictions'. CC BY is a grant with a condition: attribution must travel with anything quoted. The Guide's own Bridgeman/Droz reasoning covers the ANCIENT-LANGUAGE main texts of critical editions and does NOT reach an English translation - no record here may call this text public domain. Chapters on Prayer and the Antirrhetikos remain unvendored, their modern English copyrighted and consult-only.",
+                      "edition": "THE PRAKTIKOS IS NOW VENDORED, in Luke Dysinger's English, as cic/texts/evagrius_praktikos_dysinger.txt - prologue, 100 chapters and epilogue, from the Guide to Evagrius Ponticus (ed. Joel Kalvesmaki, 2026 edition, https://evagriusponticus.net), held under that site's CC BY 4.0 licence. Markers are square-bracketed on their own lines: [pr]/[pr 1]-[pr 9], [1]-[100], [ep]. STILL NOT VENDORED, and still consult-only: the Chapters on Prayer, the Antirrhetikos, and the printed English editions (Bamberger, Cistercian Studies 4, 1970 - a first draft misattributed this to ACW 1972, corrected per Step2 Review Round 1, Finding 10; Sinkewicz 2003; Guillaumont's critical editions). The Socrates HE IV.23 excerpts in the vendored npnf202 remain the corroborating second witness, and are still the only Evagrius text in this corpus that reaches it by expiry rather than by licence."
+                    }
+                  ],
+                  "spoken_rendering": "The Kingdom of Heaven is apatheia, dispassion of the soul, together with true knowledge of beings. ... The Kingdom of God is knowledge of the Holy Trinity. This knowledge is exercised according to the capacity of the nous, the mind, and bestows incorruption upon it.",
+                  "speaker": "Evagrius Ponticus, in the Praktikos"
+                }
+              ]
+            },
+            {
+              "sentence": "Both spoke of stillness as something that could be reached, not merely aimed at.",
+              "record_ids": [
+                "desert.term.hesychia"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.term.hesychia",
+                  "record_type": "term",
+                  "label": "hesychia",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "the withdrawal narrative (SS3-14)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    },
+                    {
+                      "source_id": "desert.source.apophthegmata-patrum",
+                      "author": "Anonymous compilers (5th-6th c.), collecting the oral sayings tradition of the desert elders and ammas of the 4th-early 5th c.",
+                      "work": "Apophthegmata Patrum (Sayings of the Desert Fathers) - the Alphabetical and Systematic collections; this world's central teaching corpus and the broadest witness to its named participants including the ammas (Syncletica, Theodora, Sarah). Compiled in surviving written form AFTER this world's c. 430 close, from oral material originating inside it: every citation carries the compiler screen (selection, arrangement, and possible cross-strand harmonization are the editors' work), and whether that overlap between strands reflects lived reality or later editorial arrangement remains a genuinely open question",
+                      "locus": "scattered sayings (e.g. the Arsenius tradition: flee, be silent, be still)",
+                      "rights_status": "ancient work public-domain; Budge 1907 English now vendored, public domain by date; modern translations copyrighted, consult-only",
+                      "edition": "VENDORED 2026-08-27: cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt - The Paradise or Garden of the Holy Fathers, Volume II, trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), the Syriac recension of 'Anan-Isho', supplied by Mark. 166,365 words, fourteen thematic chapters, sayings numbered. THIS IS THE SYRIAC, NOT THE GREEK ALPHABETICAL COLLECTION - numbering and often wording differ, so a quote verified here is verbatim FOR BUDGE and its locus says so. Greek: PG 65 (alphabetical), whose only English renderings are in copyright (Ward 1975; Wortley 2013/2014) - see desert.search.greek-alphabetical-pd-english. Modern English consult-only, never quotable: Benedicta Ward, The Sayings of the Desert Fathers (Mowbray, 1975)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What we can say is that it was named, taught, and held as real.",
+              "record_ids": [
+                "desert.term.hesychia"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.term.hesychia",
+                  "record_type": "term",
+                  "label": "hesychia",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "the withdrawal narrative (SS3-14)",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    },
+                    {
+                      "source_id": "desert.source.apophthegmata-patrum",
+                      "author": "Anonymous compilers (5th-6th c.), collecting the oral sayings tradition of the desert elders and ammas of the 4th-early 5th c.",
+                      "work": "Apophthegmata Patrum (Sayings of the Desert Fathers) - the Alphabetical and Systematic collections; this world's central teaching corpus and the broadest witness to its named participants including the ammas (Syncletica, Theodora, Sarah). Compiled in surviving written form AFTER this world's c. 430 close, from oral material originating inside it: every citation carries the compiler screen (selection, arrangement, and possible cross-strand harmonization are the editors' work), and whether that overlap between strands reflects lived reality or later editorial arrangement remains a genuinely open question",
+                      "locus": "scattered sayings (e.g. the Arsenius tradition: flee, be silent, be still)",
+                      "rights_status": "ancient work public-domain; Budge 1907 English now vendored, public domain by date; modern translations copyrighted, consult-only",
+                      "edition": "VENDORED 2026-08-27: cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt - The Paradise or Garden of the Holy Fathers, Volume II, trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), the Syriac recension of 'Anan-Isho', supplied by Mark. 166,365 words, fourteen thematic chapters, sayings numbered. THIS IS THE SYRIAC, NOT THE GREEK ALPHABETICAL COLLECTION - numbering and often wording differ, so a quote verified here is verbatim FOR BUDGE and its locus says so. Greek: PG 65 (alphabetical), whose only English renderings are in copyright (Ward 1975; Wortley 2013/2014) - see desert.search.greek-alphabetical-pd-english. Modern English consult-only, never quotable: Benedicta Ward, The Sayings of the Desert Fathers (Mowbray, 1975)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "desert.term.apatheia",
+              "matched_name": "apatheia",
+              "text_start": 688,
+              "plain_meaning": "Freedom from the passions that drive a person. In Evagrius's plan, the goal of the working stage of this life. Not apathy.",
+              "quick_meaning": "Freedom from the passions that drive you. Won slowly - and it is not apathy.",
+              "translational_sense": "Never translate as apathy. 'Freedom from compulsion' is closer; Cassian, translating for the West, deliberately replaced the word itself with 'purity of heart' to dodge exactly this misreading.",
+              "false_friend": [
+                "apathy (not caring)"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "desert.source.evagrius-praktikos",
+                  "author": "Evagrius Ponticus (c. 345-399 CE) - Greek-educated theologian formed under the Cappadocians, at Kellia from c. 385 to his death; this world's most systematic participant-author and its most atypical by education",
+                  "work": "Praktikos; Chapters on Prayer (De oratione); Antirrhetikos - the most systematic surviving interior psychology of the ascetic life produced inside this world (Strand C, Kellia): the eight logismoi, apatheia, the practice of talking back to thoughts with Scripture. Transmission is this world's starkest survival story: after the 553 condemnation (well outside this world's own window), the speculative works survive chiefly in Syriac and Armenian; in Greek, Chapters on Prayer transmits mostly under the name of Nilus of Ancyra, while the Praktikos generally transmits under Evagrius's own name",
+                  "locus": "Praktikos chs. 2-3, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)",
+                  "rights_status": "MIXED, and this source is the first in the fleet where that matters. The ancient works are public-domain in their surviving versions. The vendored Praktikos is NOT: Dysinger's English is a modern translation, a derivative work in which he holds copyright, carried here under the Guide to Evagrius Ponticus's own CC BY 4.0 licence and its editor's statement that the Guide includes 'only those versions without license restrictions'. CC BY is a grant with a condition: attribution must travel with anything quoted. The Guide's own Bridgeman/Droz reasoning covers the ANCIENT-LANGUAGE main texts of critical editions and does NOT reach an English translation - no record here may call this text public domain. Chapters on Prayer and the Antirrhetikos remain unvendored, their modern English copyrighted and consult-only.",
+                  "edition": "THE PRAKTIKOS IS NOW VENDORED, in Luke Dysinger's English, as cic/texts/evagrius_praktikos_dysinger.txt - prologue, 100 chapters and epilogue, from the Guide to Evagrius Ponticus (ed. Joel Kalvesmaki, 2026 edition, https://evagriusponticus.net), held under that site's CC BY 4.0 licence. Markers are square-bracketed on their own lines: [pr]/[pr 1]-[pr 9], [1]-[100], [ep]. STILL NOT VENDORED, and still consult-only: the Chapters on Prayer, the Antirrhetikos, and the printed English editions (Bamberger, Cistercian Studies 4, 1970 - a first draft misattributed this to ACW 1972, corrected per Step2 Review Round 1, Finding 10; Sinkewicz 2003; Guillaumont's critical editions). The Socrates HE IV.23 excerpts in the vendored npnf202 remain the corroborating second witness, and are still the only Evagrius text in this corpus that reaches it by expiry rather than by licence."
+                }
+              ]
+            }
+          ],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Stillness: quiet of body and mind, sought as both the condition and the fruit of the ascetic life.",
+                "tags": [
+                  "desert.term.hesychia"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "It was not a technique we systematized, the way some later traditions did.",
+                "tags": [
+                  "desert.term.hesychia"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "What we can tell you is that one current among us spoke of it as something actually reached - a soul filled with light, made the Spirit's own seat, known in real experience and feeling, not only believed.",
+                "tags": [
+                  "desert.dw.the-heart-and-the-spirit"
+                ],
+                "verdict": "ok",
+                "why": "grounded 59% in own tagged records",
+                "ratio": 0.59
+              },
+              {
+                "sentence": "The soul in communion with the Spirit of his light becomes all light, all face, all eye, with no part of her not full of the spiritual eyes of light.",
+                "tags": [
+                  "desert.dw.the-heart-and-the-spirit"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The Spirit of the Lord himself becomes, for souls that are worthy, their rest, their joy, their delight.",
+                "tags": [
+                  "desert.quote.in-real-experience-and-feeling"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Another of our teachers defined the kingdom itself as apatheia - freedom from the passions - together with true knowledge of beings.",
+                "tags": [
+                  "desert.quote.the-kingdom-is-apatheia"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Both spoke of stillness as something that could be reached, not merely aimed at.",
+                "tags": [
+                  "desert.term.hesychia"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We will not promise you that most of us reached it.",
+                "tags": [
+                  "desert.term.hesychia"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records"
+              },
+              {
+                "sentence": "What we can say is that it was named, taught, and held as real.",
+                "tags": [
+                  "desert.term.hesychia"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 9,
+                "cited_record_ids": [
+                  "desert.dw.the-heart-and-the-spirit",
+                  "desert.quote.in-real-experience-and-feeling",
+                  "desert.quote.the-kingdom-is-apatheia",
+                  "desert.term.hesychia"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "desert",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 98
+              },
+              {
+                "index": 1,
+                "text_start": 99,
+                "text_end": 173
+              },
+              {
+                "index": 2,
+                "text_start": 174,
+                "text_end": 378
+              },
+              {
+                "index": 3,
+                "text_start": 379,
+                "text_end": 528
+              },
+              {
+                "index": 4,
+                "text_start": 529,
+                "text_end": 633
+              },
+              {
+                "index": 5,
+                "text_start": 634,
+                "text_end": 766
+              },
+              {
+                "index": 6,
+                "text_start": 767,
+                "text_end": 847
+              },
+              {
+                "index": 7,
+                "text_start": 848,
+                "text_end": 899
+              },
+              {
+                "index": 8,
+                "text_start": 900,
+                "text_end": 963
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "desert.quote.in-real-experience-and-feeling",
+                "record_type": "quote",
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogues the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies.",
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 104,
+                "surface": "The Spirit of the Lord himself becomes, for souls that are worthy, their rest, their joy, their delight."
+              },
+              {
+                "record_id": "desert.term.apatheia",
+                "record_type": "term",
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 5,
+                "char_start": 54,
+                "char_end": 62,
+                "surface": "apatheia"
+              },
+              {
+                "record_id": "desert.quote.the-kingdom-is-apatheia",
+                "record_type": "quote",
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Contested. The Praktikos is securely Evagrius's own work and the wording is verbatim from the vendored file, but three bounds ride with it. Evagrius is this world's most atypical participant by education - a Cappadocian-formed theologian at Kellia, not a Coptic-speaking villager - so his system is the most systematic thing this world produced and the least representative of it. His speculative works were condemned in 553, well outside this world's own window, which shaped what survives and in which language. And the English is Luke Dysinger's, held under the Guide to Evagrius Ponticus's CC BY 4.0 licence, not a public-domain text - see desert.source.evagrius-praktikos.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 5,
+                "char_start": 0,
+                "char_end": 132,
+                "surface": "Another of our teachers defined the kingdom itself as apatheia - freedom from the passions - together with true knowledge of beings."
+              }
+            ],
+            "references": [
+              {
+                "record_id": "desert.term.hesychia",
+                "record_type": "term",
+                "label": "hesychia",
+                "sources": [
+                  {
+                    "source_id": "desert.source.athanasius-vita-antonii",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                    "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                    "locus": "the withdrawal narrative (SS3-14)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                  },
+                  {
+                    "source_id": "desert.source.apophthegmata-patrum",
+                    "author": "Anonymous compilers (5th-6th c.), collecting the oral sayings tradition of the desert elders and ammas of the 4th-early 5th c.",
+                    "work": "Apophthegmata Patrum (Sayings of the Desert Fathers) - the Alphabetical and Systematic collections; this world's central teaching corpus and the broadest witness to its named participants including the ammas (Syncletica, Theodora, Sarah). Compiled in surviving written form AFTER this world's c. 430 close, from oral material originating inside it: every citation carries the compiler screen (selection, arrangement, and possible cross-strand harmonization are the editors' work), and whether that overlap between strands reflects lived reality or later editorial arrangement remains a genuinely open question",
+                    "locus": "scattered sayings (e.g. the Arsenius tradition: flee, be silent, be still)",
+                    "rights_status": "ancient work public-domain; Budge 1907 English now vendored, public domain by date; modern translations copyrighted, consult-only",
+                    "edition": "VENDORED 2026-08-27: cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt - The Paradise or Garden of the Holy Fathers, Volume II, trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), the Syriac recension of 'Anan-Isho', supplied by Mark. 166,365 words, fourteen thematic chapters, sayings numbered. THIS IS THE SYRIAC, NOT THE GREEK ALPHABETICAL COLLECTION - numbering and often wording differ, so a quote verified here is verbatim FOR BUDGE and its locus says so. Greek: PG 65 (alphabetical), whose only English renderings are in copyright (Ward 1975; Wortley 2013/2014) - see desert.search.greek-alphabetical-pd-english. Modern English consult-only, never quotable: Benedicta Ward, The Sayings of the Desert Fathers (Mowbray, 1975)"
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "desert.dw.the-heart-and-the-spirit",
+                "record_type": "doctrinal_witness",
+                "label": "There was another voice among us, and we will not flatten it into the first",
+                "sources": [
+                  {
+                    "source_id": "desert.source.macarian-homilies",
+                    "author": "Pseudo-Macarius - the attribution the Internet Archive itself uses for this very item ('by Pseudo-Macarius; Macarius, the Egyptian, Saint, 4th cent; Mason, Arthur James, 1851-1928'), leading with the ascription Mason spent his Introduction arguing against. Ascribed traditionally to Macarius the Egyptian (c. 300-391 CE), the Scetis elder; that ascription rests on the manuscripts alone, and the Bodleian manuscript titles the collection an epistle 'to the Abbot Symeon of Mesopotamia of Syria'. Modern scholarship generally treats the corpus as pseudonymous - a Syrian or Mesopotamian author of the late fourth or early fifth century, with a disputed relation to the condemned Messalian current.",
+                    "work": "Fifty Spiritual Homilies - a connected body of ascetic teaching on the interior life: the indwelling of the Spirit, grace as something experienced rather than inferred, the coexistence of sin and grace in the baptised, the soul as the bride of Christ, and the long combat that continues after grace is received. The affective and experiential counterpart to the intellectualist psychology this world already holds from Evagrius and Cassian.",
+                    "locus": "Homily I (the soul as the chariot of Ezekiel's vision); Homily IV (grace known in real experience and feeling); Homily XVII (the heart as a deep gulf); Homily XXVI SS18 (sin and grace in the same soul); and Mason's Introduction SS3, HIS TEACHING, where the disputed doctrines are set out",
+                    "rights_status": "public-domain - published 1921 (pre-1929, clear in the United States); Mason lived 1851-1928, so also clear under life-plus-70. The Internet Archive made its own determination on the scan and recorded it on the item: 'no visible notice of copyright; stated date is 1921' (reported by andrea@archive.org, 2007-03-22, copyright-region US)",
+                    "edition": "trans. A. J. Mason, D.D., Translations of Christian Literature Series I: Greek Texts (SPCK / Macmillan, 1921), vendored as cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt. Two divisions, each opened by a [[...]] marker: Mason's Introduction at file line 116 (the authorship discussion at line 529, the ADDITIONAL NOTE at line 1421), and the Homilies themselves at line 1472 (Homily I at 1474, Homily XV at 4789, Homily L at 11186). Same series and the same general editor, W. K. Lowther Clarke, as the Lausiac History this corpus already vendors."
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Contested at the level of authorship, and the bound is not a formality. The Macarian Homilies are transmitted under the name of Macarius the Egyptian of Scetis, but the vendored edition's own translator states the ascription 'rests upon no external evidence', the Internet Archive catalogues the volume under Pseudo-Macarius, and the corpus is generally assigned to a Syrian or Mesopotamian author of the late fourth or early fifth century. Propositions taken from these Homilies were condemned as Messalian. So this witness reports a current the desert tradition carried, read and transmitted - not the settled teaching of the Egyptian elders, and never voiced as 'one of us said'.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "desert.quote.in-real-experience-and-feeling",
+                "record_type": "quote",
+                "label": "Fifty Spiritual Homilies - a connected body of ascetic teaching on the interior life: the indwelling of the Spirit, grace as something experienced rather than inferred, the coexistence of sin and grace in the baptised, the soul as the bride of Christ, and the long combat that continues after grace is received. The affective and experiential counterpart to the intellectualist psychology this world already holds from Evagrius and Cassian., Homily IV, in Mason's English — the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown",
+                "sources": [
+                  {
+                    "source_id": "desert.source.macarian-homilies",
+                    "author": "Pseudo-Macarius - the attribution the Internet Archive itself uses for this very item ('by Pseudo-Macarius; Macarius, the Egyptian, Saint, 4th cent; Mason, Arthur James, 1851-1928'), leading with the ascription Mason spent his Introduction arguing against. Ascribed traditionally to Macarius the Egyptian (c. 300-391 CE), the Scetis elder; that ascription rests on the manuscripts alone, and the Bodleian manuscript titles the collection an epistle 'to the Abbot Symeon of Mesopotamia of Syria'. Modern scholarship generally treats the corpus as pseudonymous - a Syrian or Mesopotamian author of the late fourth or early fifth century, with a disputed relation to the condemned Messalian current.",
+                    "work": "Fifty Spiritual Homilies - a connected body of ascetic teaching on the interior life: the indwelling of the Spirit, grace as something experienced rather than inferred, the coexistence of sin and grace in the baptised, the soul as the bride of Christ, and the long combat that continues after grace is received. The affective and experiential counterpart to the intellectualist psychology this world already holds from Evagrius and Cassian.",
+                    "locus": "Homily IV, in Mason's English",
+                    "rights_status": "public-domain - published 1921 (pre-1929, clear in the United States); Mason lived 1851-1928, so also clear under life-plus-70. The Internet Archive made its own determination on the scan and recorded it on the item: 'no visible notice of copyright; stated date is 1921' (reported by andrea@archive.org, 2007-03-22, copyright-region US)",
+                    "edition": "trans. A. J. Mason, D.D., Translations of Christian Literature Series I: Greek Texts (SPCK / Macmillan, 1921), vendored as cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt. Two divisions, each opened by a [[...]] marker: Mason's Introduction at file line 116 (the authorship discussion at line 529, the ADDITIONAL NOTE at line 1421), and the Homilies themselves at line 1472 (Homily I at 1474, Homily XV at 4789, Homily L at 11186). Same series and the same general editor, W. K. Lowther Clarke, as the Lausiac History this corpus already vendors."
+                  }
+                ],
+                "spoken_rendering": "Only let a person strive to be God's friend, and to be pleasing to him. Then, in real experience and feeling, that person will truly see the good things of heaven -- the delights too great for words, and the infinite riches of the Godhead. ... The Spirit of the Lord himself becomes, for souls that are worthy, their rest, their joy, their delight, and their eternal life.",
+                "speaker": "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown",
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogues the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies.",
+                  "evidentiary_weight": "illustrative",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "desert.quote.the-kingdom-is-apatheia",
+                "record_type": "quote",
+                "label": "Praktikos, Praktikos chs. 2-3, in Luke Dysinger's English — Evagrius Ponticus, in the Praktikos",
+                "sources": [
+                  {
+                    "source_id": "desert.source.evagrius-praktikos",
+                    "author": "Evagrius Ponticus (c. 345-399 CE) - Greek-educated theologian formed under the Cappadocians, at Kellia from c. 385 to his death; this world's most systematic participant-author and its most atypical by education",
+                    "work": "Praktikos; Chapters on Prayer (De oratione); Antirrhetikos - the most systematic surviving interior psychology of the ascetic life produced inside this world (Strand C, Kellia): the eight logismoi, apatheia, the practice of talking back to thoughts with Scripture. Transmission is this world's starkest survival story: after the 553 condemnation (well outside this world's own window), the speculative works survive chiefly in Syriac and Armenian; in Greek, Chapters on Prayer transmits mostly under the name of Nilus of Ancyra, while the Praktikos generally transmits under Evagrius's own name",
+                    "locus": "Praktikos chs. 2-3, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)",
+                    "rights_status": "MIXED, and this source is the first in the fleet where that matters. The ancient works are public-domain in their surviving versions. The vendored Praktikos is NOT: Dysinger's English is a modern translation, a derivative work in which he holds copyright, carried here under the Guide to Evagrius Ponticus's own CC BY 4.0 licence and its editor's statement that the Guide includes 'only those versions without license restrictions'. CC BY is a grant with a condition: attribution must travel with anything quoted. The Guide's own Bridgeman/Droz reasoning covers the ANCIENT-LANGUAGE main texts of critical editions and does NOT reach an English translation - no record here may call this text public domain. Chapters on Prayer and the Antirrhetikos remain unvendored, their modern English copyrighted and consult-only.",
+                    "edition": "THE PRAKTIKOS IS NOW VENDORED, in Luke Dysinger's English, as cic/texts/evagrius_praktikos_dysinger.txt - prologue, 100 chapters and epilogue, from the Guide to Evagrius Ponticus (ed. Joel Kalvesmaki, 2026 edition, https://evagriusponticus.net), held under that site's CC BY 4.0 licence. Markers are square-bracketed on their own lines: [pr]/[pr 1]-[pr 9], [1]-[100], [ep]. STILL NOT VENDORED, and still consult-only: the Chapters on Prayer, the Antirrhetikos, and the printed English editions (Bamberger, Cistercian Studies 4, 1970 - a first draft misattributed this to ACW 1972, corrected per Step2 Review Round 1, Finding 10; Sinkewicz 2003; Guillaumont's critical editions). The Socrates HE IV.23 excerpts in the vendored npnf202 remain the corroborating second witness, and are still the only Evagrius text in this corpus that reaches it by expiry rather than by licence."
+                  }
+                ],
+                "spoken_rendering": "The Kingdom of Heaven is apatheia, dispassion of the soul, together with true knowledge of beings. ... The Kingdom of God is knowledge of the Holy Trinity. This knowledge is exercised according to the capacity of the nous, the mind, and bestows incorruption upon it.",
+                "speaker": "Evagrius Ponticus, in the Praktikos",
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Contested. The Praktikos is securely Evagrius's own work and the wording is verbatim from the vendored file, but three bounds ride with it. Evagrius is this world's most atypical participant by education - a Cappadocian-formed theologian at Kellia, not a Coptic-speaking villager - so his system is the most systematic thing this world produced and the least representative of it. His speculative works were condemned in 553, well outside this world's own window, which shaped what survives and in which language. And the English is Luke Dysinger's, held under the Guide to Evagrius Ponticus's CC BY 4.0 licence, not a public-domain text - see desert.source.evagrius-praktikos.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "desert.term.hesychia",
+                "record_type": "term",
+                "label": "hesychia",
+                "sources": [
+                  {
+                    "source_id": "desert.source.athanasius-vita-antonii",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                    "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                    "locus": "the withdrawal narrative (SS3-14)",
+                    "rights_status": "public-domain",
+                    "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                  },
+                  {
+                    "source_id": "desert.source.apophthegmata-patrum",
+                    "author": "Anonymous compilers (5th-6th c.), collecting the oral sayings tradition of the desert elders and ammas of the 4th-early 5th c.",
+                    "work": "Apophthegmata Patrum (Sayings of the Desert Fathers) - the Alphabetical and Systematic collections; this world's central teaching corpus and the broadest witness to its named participants including the ammas (Syncletica, Theodora, Sarah). Compiled in surviving written form AFTER this world's c. 430 close, from oral material originating inside it: every citation carries the compiler screen (selection, arrangement, and possible cross-strand harmonization are the editors' work), and whether that overlap between strands reflects lived reality or later editorial arrangement remains a genuinely open question",
+                    "locus": "scattered sayings (e.g. the Arsenius tradition: flee, be silent, be still)",
+                    "rights_status": "ancient work public-domain; Budge 1907 English now vendored, public domain by date; modern translations copyrighted, consult-only",
+                    "edition": "VENDORED 2026-08-27: cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt - The Paradise or Garden of the Holy Fathers, Volume II, trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), the Syriac recension of 'Anan-Isho', supplied by Mark. 166,365 words, fourteen thematic chapters, sayings numbered. THIS IS THE SYRIAC, NOT THE GREEK ALPHABETICAL COLLECTION - numbering and often wording differ, so a quote verified here is verbatim FOR BUDGE and its locus says so. Greek: PG 65 (alphabetical), whose only English renderings are in copyright (Ward 1975; Wortley 2013/2014) - see desert.search.greek-alphabetical-pd-english. Modern English consult-only, never quotable: Benedicta Ward, The Sayings of the Desert Fathers (Mowbray, 1975)"
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "desert.dw.the-heart-and-the-spirit",
+                "record_type": "doctrinal_witness",
+                "label": "There was another voice among us, and we will not flatten it into the first",
+                "sources": [
+                  {
+                    "source_id": "desert.source.macarian-homilies",
+                    "author": "Pseudo-Macarius - the attribution the Internet Archive itself uses for this very item ('by Pseudo-Macarius; Macarius, the Egyptian, Saint, 4th cent; Mason, Arthur James, 1851-1928'), leading with the ascription Mason spent his Introduction arguing against. Ascribed traditionally to Macarius the Egyptian (c. 300-391 CE), the Scetis elder; that ascription rests on the manuscripts alone, and the Bodleian manuscript titles the collection an epistle 'to the Abbot Symeon of Mesopotamia of Syria'. Modern scholarship generally treats the corpus as pseudonymous - a Syrian or Mesopotamian author of the late fourth or early fifth century, with a disputed relation to the condemned Messalian current.",
+                    "work": "Fifty Spiritual Homilies - a connected body of ascetic teaching on the interior life: the indwelling of the Spirit, grace as something experienced rather than inferred, the coexistence of sin and grace in the baptised, the soul as the bride of Christ, and the long combat that continues after grace is received. The affective and experiential counterpart to the intellectualist psychology this world already holds from Evagrius and Cassian.",
+                    "locus": "Homily I (the soul as the chariot of Ezekiel's vision); Homily IV (grace known in real experience and feeling); Homily XVII (the heart as a deep gulf); Homily XXVI SS18 (sin and grace in the same soul); and Mason's Introduction SS3, HIS TEACHING, where the disputed doctrines are set out",
+                    "rights_status": "public-domain - published 1921 (pre-1929, clear in the United States); Mason lived 1851-1928, so also clear under life-plus-70. The Internet Archive made its own determination on the scan and recorded it on the item: 'no visible notice of copyright; stated date is 1921' (reported by andrea@archive.org, 2007-03-22, copyright-region US)",
+                    "edition": "trans. A. J. Mason, D.D., Translations of Christian Literature Series I: Greek Texts (SPCK / Macmillan, 1921), vendored as cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt. Two divisions, each opened by a [[...]] marker: Mason's Introduction at file line 116 (the authorship discussion at line 529, the ADDITIONAL NOTE at line 1421), and the Homilies themselves at line 1472 (Homily I at 1474, Homily XV at 4789, Homily L at 11186). Same series and the same general editor, W. K. Lowther Clarke, as the Lausiac History this corpus already vendors."
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Contested at the level of authorship, and the bound is not a formality. The Macarian Homilies are transmitted under the name of Macarius the Egyptian of Scetis, but the vendored edition's own translator states the ascription 'rests upon no external evidence', the Internet Archive catalogues the volume under Pseudo-Macarius, and the corpus is generally assigned to a Syrian or Mesopotamian author of the late fourth or early fifth century. Propositions taken from these Homilies were condemned as Messalian. So this witness reports a current the desert tradition carried, read and transmitted - not the settled teaching of the Egyptian elders, and never voiced as 'one of us said'.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                7
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-4",
+      "message": "Why did your people believe this?",
+      "prior_turns_replayed": 3,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "desert",
+          "text": "We believed it because we held it as the reason he came at all - the Word took a human body for our salvation, so that by sharing our birth he might make us share what is his. That was not a teaching we invented. We took it from the accounts themselves: read them, we told those who tested us, and see that the deeds of Christ prove him to be God come to earth for our salvation. The cross made the old oracles fall silent, spread the knowledge of God, and broke death's power. We saw that in our own time - people no longer feared death the way they had. When persecution ended and dying for the faith was no longer asked of anyone, we understood the same total struggle to have moved inward, against our own thoughts rather than against the sword. The enemy we fought there was one Christ had already beaten. That is why we said to the devil's own face: your coming, Christ, has made you weak, cast you down, and stripped you. We believed it because we had seen its effects, not only because we had been told it.",
+          "citations": [
+            {
+              "sentence": "We believed it because we held it as the reason he came at all - the Word took a human body for our salvation, so that by sharing our birth he might make us share what is his.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We took it from the accounts themselves: read them, we told those who tested us, and see that the deeds of Christ prove him to be God come to earth for our salvation.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The cross made the old oracles fall silent, spread the knowledge of God, and broke death's power.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We saw that in our own time - people no longer feared death the way they had.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "When persecution ended and dying for the faith was no longer asked of anyone, we understood the same total struggle to have moved inward, against our own thoughts rather than against the sword.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The enemy we fought there was one Christ had already beaten.",
+              "record_ids": [
+                "desert.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Three things",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That is why we said to the devil's own face: your coming, Christ, has made you weak, cast you down, and stripped you.",
+              "record_ids": [
+                "desert.quote.the-coming-of-christ-made-thee-weak"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.quote.the-coming-of-christ-made-thee-weak",
+                  "record_type": "quote",
+                  "label": "Vita Antonii, SS41 - Antony, in his own reported first-person account to the monks, answering the devil who had complained of losing his power — Antony",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS41 - Antony, in his own reported first-person account to the monks, answering the devil who had complained of losing his power",
+                      "rights_status": "public-domain",
+                      "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                    }
+                  ],
+                  "spoken_rendering": "You who are always a liar and never speak the truth - this, at last, even against your will, you have spoken truly. For the coming of Christ has made you weak. He has cast you down and stripped you.",
+                  "speaker": "Antony"
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            }
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We believed it because we held it as the reason he came at all - the Word took a human body for our salvation, so that by sharing our birth he might make us share what is his.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "That was not a teaching we invented.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We took it from the accounts themselves: read them, we told those who tested us, and see that the deeds of Christ prove him to be God come to earth for our salvation.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The cross made the old oracles fall silent, spread the knowledge of God, and broke death's power.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We saw that in our own time - people no longer feared death the way they had.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "When persecution ended and dying for the faith was no longer asked of anyone, we understood the same total struggle to have moved inward, against our own thoughts rather than against the sword.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The enemy we fought there was one Christ had already beaten.",
+                "tags": [
+                  "desert.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "That is why we said to the devil's own face: your coming, Christ, has made you weak, cast you down, and stripped you.",
+                "tags": [
+                  "desert.quote.the-coming-of-christ-made-thee-weak"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We believed it because we had seen its effects, not only because we had been told it.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 9,
+                "cited_record_ids": [
+                  "desert.dw.jesus",
+                  "desert.quote.the-coming-of-christ-made-thee-weak"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "That was not a teaching we invented.",
+                    "tags": [
+                      "desert.dw.jesus",
+                      "desert.quote.the-coming-of-christ-made-thee-weak"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "8": {
+                    "sentence": "We believed it because we had seen its effects, not only because we had been told it.",
+                    "tags": [
+                      "desert.dw.jesus",
+                      "desert.quote.the-coming-of-christ-made-thee-weak"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ]
+          },
+          "transparency": {
+            "world_key": "desert",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 175
+              },
+              {
+                "index": 1,
+                "text_start": 176,
+                "text_end": 212
+              },
+              {
+                "index": 2,
+                "text_start": 213,
+                "text_end": 379
+              },
+              {
+                "index": 3,
+                "text_start": 380,
+                "text_end": 477
+              },
+              {
+                "index": 4,
+                "text_start": 478,
+                "text_end": 555
+              },
+              {
+                "index": 5,
+                "text_start": 556,
+                "text_end": 749
+              },
+              {
+                "index": 6,
+                "text_start": 750,
+                "text_end": 810
+              },
+              {
+                "index": 7,
+                "text_start": 811,
+                "text_end": 928
+              },
+              {
+                "index": 8,
+                "text_start": 929,
+                "text_end": 1014
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "desert.quote.the-coming-of-christ-made-thee-weak",
+                "record_type": "quote",
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Contested for incident-level attribution, the same basis desert.quote.antony-nicene-formula carries for material from this Vita: reported speech inside a bishop-author's own constructed narrative, written for his own purposes. The words themselves are quoted verbatim from the vendored file.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 7,
+                "char_start": 0,
+                "char_end": 117,
+                "surface": "That is why we said to the devil's own face: your coming, Christ, has made you weak, cast you down, and stripped you."
+              }
+            ],
+            "references": [
+              {
+                "record_id": "desert.dw.jesus",
+                "record_type": "doctrinal_witness",
+                "label": "Three things",
+                "sources": [
+                  {
+                    "source_id": "desert.source.athanasius-vita-antonii",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                    "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                    "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                    "rights_status": "public-domain",
+                    "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Widely Accepted for the narrated material (Antony's call, his own reported teaching) and its place in this world's own tradition. Contested for the SS72-80 disputation specifically: the Vita's own editor flags at that point how startling it is to find Antony 'reasoning with philosophers upon the doctrines of Neoplatonism', and the argument's vocabulary tracks Athanasius's own de Incarnatione - what is certain is that the tradition put these words in Antony's mouth, not that he spoke them. Each quote record carries that bound in its own divergence_note. This witness still does not claim a systematic Christology worked out as argument for its own sake; see desert.limit.doubt-and-doctrine for the narrowed bound.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "desert.quote.the-coming-of-christ-made-thee-weak",
+                "record_type": "quote",
+                "label": "Vita Antonii, SS41 - Antony, in his own reported first-person account to the monks, answering the devil who had complained of losing his power — Antony",
+                "sources": [
+                  {
+                    "source_id": "desert.source.athanasius-vita-antonii",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                    "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                    "locus": "SS41 - Antony, in his own reported first-person account to the monks, answering the devil who had complained of losing his power",
+                    "rights_status": "public-domain",
+                    "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                  }
+                ],
+                "spoken_rendering": "You who are always a liar and never speak the truth - this, at last, even against your will, you have spoken truly. For the coming of Christ has made you weak. He has cast you down and stripped you.",
+                "speaker": "Antony",
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Contested for incident-level attribution, the same basis desert.quote.antony-nicene-formula carries for material from this Vita: reported speech inside a bishop-author's own constructed narrative, written for his own purposes. The words themselves are quoted verbatim from the vendored file.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "desert.dw.jesus",
+                "record_type": "doctrinal_witness",
+                "label": "Three things",
+                "sources": [
+                  {
+                    "source_id": "desert.source.athanasius-vita-antonii",
+                    "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                    "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                    "locus": "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily; SS41 - the coming of Christ having made the enemy weak; SS74-75 - the Word taking a human body for the salvation of man, and the deeds of Christ as proof; SS79-80 - what the Cross changed, and Christ as the one who works the healings; SS81 - Christ alone the true and Eternal King",
+                    "rights_status": "public-domain",
+                    "edition": "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"
+                  }
+                ],
+                "world_key": "desert",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Widely Accepted for the narrated material (Antony's call, his own reported teaching) and its place in this world's own tradition. Contested for the SS72-80 disputation specifically: the Vita's own editor flags at that point how startling it is to find Antony 'reasoning with philosophers upon the doctrines of Neoplatonism', and the argument's vocabulary tracks Athanasius's own de Incarnatione - what is certain is that the tradition put these words in Antony's mouth, not that he spoke them. Each quote record carries that bound in its own divergence_note. This witness still does not claim a systematic Christology worked out as argument for its own sake; see desert.limit.doubt-and-doctrine for the narrowed bound.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "sentence_enforcement": {
+            "flagged": [],
+            "regenerated": false,
+            "still_flagged": [],
+            "sentences_dropped": []
+          }
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "crisis_append_proven": null
+}

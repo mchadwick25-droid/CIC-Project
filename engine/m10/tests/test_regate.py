@@ -348,3 +348,42 @@ def test_records_and_regate_read_the_registry_and_records_of_the_root_they_are_g
     assert "no registry entry" not in out and "required-record-type" in out
     regate.run(parser.parse_args(["regate", "zw", "--base", "HEAD", "--root", str(tmp_path)]))
     assert "no registry entry" not in capsys.readouterr().out
+
+
+def _scaffold_world(monkeypatch, text):
+    records = {
+        "zzz.world_front.a": {"id": "zzz.world_front.a", "record_type": "world_front"},
+        "zzz.dw.a": {"id": "zzz.dw.a", "record_type": "doctrinal_witness", "text": text},
+    }
+    monkeypatch.setattr(regate, "load_world_records", lambda c, records_root=None: records)
+    monkeypatch.setattr(regate, "registry_entry", lambda c, root=REPO_ROOT: {"census_id": "zzz-census", "state": "built"})
+    monkeypatch.setattr(regate, "GRANDFATHERED_WORLDS", frozenset({*regate.GRANDFATHERED_WORLDS, "zzz"}))
+    from engine.m2 import builders
+
+    monkeypatch.setattr(builders, "build_capsule", lambda r, e: b"capsule")
+
+
+def test_records_fails_a_world_whose_spoken_text_opens_on_a_question(monkeypatch):
+    _scaffold_world(monkeypatch, "Was Jesus God? We said yes, in our own way.")
+    report = regate.run_records("zzz")
+    assert any(f.check == "spoken-scaffolding" for f in report.findings)
+
+
+def test_records_passes_the_clean_fixture(monkeypatch):
+    _scaffold_world(monkeypatch, "We said yes, in our own way. We did not argue about it.")
+    assert regate.run_records("zzz").ok
+
+
+def test_a_waived_world_that_still_carries_the_pattern_is_reported_not_failed(monkeypatch):
+    _scaffold_world(monkeypatch, "Was Jesus God? We said yes, in our own way.")
+    monkeypatch.setattr(cross_world, "ACCEPTED_OPEN", {**cross_world.ACCEPTED_OPEN, "spoken-scaffolding/zzz": "owning finding"})
+    report = regate.run_records("zzz")
+    assert report.ok, [f.line() for f in report.findings]
+    assert any("spoken-scaffolding/zzz" in n for n in report.notes)
+
+
+def test_a_waiver_on_a_clean_world_is_stale_and_fails(monkeypatch):
+    _scaffold_world(monkeypatch, "We said yes, in our own way.")
+    monkeypatch.setattr(cross_world, "ACCEPTED_OPEN", {**cross_world.ACCEPTED_OPEN, "spoken-scaffolding/zzz": "owning finding"})
+    report = regate.run_records("zzz")
+    assert any(f.check == "stale-waiver" for f in report.findings)

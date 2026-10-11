@@ -21,20 +21,21 @@ sources:
   locus: secs. 4-7 (a child raised toward baptism and consecration)
   license: public-domain
 text: >-
-  Were people born already guilty? Our last great argument came close
-  to that ground. Against those who taught that a person can live without sin,
-  we answered that no one is without sin, and that God's grace is needed not
-  once but in every act. We held that everyone inherits Adam's fall, and
-  everyone needs the washing of baptism. The exact machinery of inherited
-  guilt was still being worked out in our own lifetime, in a dispute we
-  joined late and left unfinished. What about the bread and cup? The
-  Lord's body and blood, received with fear and love - and that is nearly all
-  our record says. The later word transubstantiation and the later debates
-  belong to other centuries. Saved by faith alone? Not as we spoke. We
-  preached grace against the proud and works against the idle in the same
-  breath. Having given away fortunes for Christ, we were never going to say
-  works count for nothing; having fought the Pelagians, we were never
-  going to say grace is optional. We refused both easy halves.
+  We held that everyone inherits Adam's fall, and everyone needs the
+  washing of baptism. Our last great argument came close to that ground.
+  Against those who taught that a person can live without sin, we
+  answered that no one is without sin, and that God's grace is needed
+  not once but in every act. The exact machinery of inherited guilt was
+  still being worked out in our own lifetime, in a dispute we joined
+  late and left unfinished. The bread and cup were the Lord's body and
+  blood, received with fear and love - and that is nearly all our record
+  says. The later word transubstantiation and the later debates belong
+  to other centuries. We did not speak of being saved by faith alone. We
+  preached grace against the proud and works against the idle in the
+  same breath. Having given away fortunes for Christ, we were never
+  going to say works count for nothing; having fought the Pelagians, we
+  were never going to say grace is optional. We refused both easy
+  halves.
 positions:
 - no one lives without sin; grace is required in every act (the anti-Pelagian position)
 - baptism washes inherited sin; children were brought toward it from infancy
@@ -63,10 +64,6 @@ use_note:
   years: {from: 403, to: 417}
   status: reviewed
 ---
-F1-translational answer-ground. The eucharistic thinness is real and
+The eucharistic thinness is real and
 stated; no invented sacramental detail. The anti-Pelagian position is
 sourced to the Dialogue (417), this world's own late text.
-
-The spoken field is written in plain modern English (mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint is preserved.
-
-The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

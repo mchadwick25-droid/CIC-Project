@@ -775,7 +775,7 @@ def build_figures_json(records: dict) -> bytes:
 # voice assembly this record type must never have, so both types are
 # excluded here, not just left off the chunk/prompt/capsule allowlists.
 _PACKAGE_EXCLUDED_RECORD_TYPES = {"search_record", "world_front", "facilitator_brief"}
-_PACKAGE_STRIPPED_FIELDS = {"why_sources_cannot_answer", "modern_lens_note", "discovery_channel", "narrative_tier_justification"}
+_PACKAGE_STRIPPED_FIELDS = {"why_sources_cannot_answer", "modern_lens_note", "discovery_channel", "narrative_tier_justification", "oblique_reason"}
 
 
 def build_repository_json(records: dict) -> bytes:

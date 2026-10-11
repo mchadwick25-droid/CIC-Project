@@ -18,18 +18,27 @@ tag may be half written at the end of the buffer. On a Table turn a guard
 first sentence it catches is never released, and nothing after it either. Term and figure marks, the
 mark cap, and anything citation attachment adds arrive with the finished
 plan, which is authoritative; a mark the cap demotes moves to the reference
-line. Nothing here changes the text, and no streamed sentence is ever taken
-back.
+line. A sentence whose quotation marks the net took off (decision 59) is
+released with them off, and offsets count the text as the finished reply
+has it. A sentence that touches a run of demonstration words
+(engine.m4.recitation) is held back while the run may still grow into a
+recitation, so a recited reply can be regenerated before any of it is shown;
+with demonstrations in play nothing is released before the finished
+sentences reach the recitation length, so a recitation that begins in the
+reply's first words is caught before any of it shows.
+No streamed sentence is ever taken back.
 """
 from engine.m4.citation_cards import resolve_source_card
 from engine.m4.grounding_net import (
     WITHHOLD_FLOOR,
+    QuotationIndex,
     build_figure_lexicon,
     parse_tagged,
     split_into_paragraphs,
     strip_tags,
     verdict_for_sentence,
 )
+from engine.m4.recitation import RECITATION_WORDS, DemonstrationIndex, reply_words
 from engine.m4.transparency_plan import ElementBuilder
 
 
@@ -39,8 +48,12 @@ def _sentences(raw: str) -> list[dict]:
 
 class SentenceStream:
     def __init__(self, *, repository_records: dict[str, dict], world_key: str, thin_topics: list[dict] | None = None,
-                 guard=None):
+                 guard=None, demonstrations: DemonstrationIndex | None = None,
+                 quotable_texts: list[str] | None = None):
         self._guard = guard
+        self._demonstrations = demonstrations or DemonstrationIndex(repository_records)
+        self._quotation_index = QuotationIndex(repository_records, quotable_texts)
+        self._shift = 0
         self._stopped = False
         self._records = repository_records
         self._world_key = world_key
@@ -73,32 +86,57 @@ class SentenceStream:
         if len(complete) <= self._released:
             return []
         shown = strip_tags(self._buffer)
+        hold_from = self._hold_from(complete)
         events = []
         for index in range(self._released, len(complete)):
+            if hold_from is not None and index >= hold_from:
+                break
             sentence = complete[index]
             if self._guard is not None and self._guard(sentence["raw"]):
                 self._stopped = True
                 break
             verdict = verdict_for_sentence(
                 sentence["text"], sentence["tags"], repository_records=self._records, figure_names=self._figures,
-                thin_topics=self._thin_topics, grounding_floor=WITHHOLD_FLOOR,
+                thin_topics=self._thin_topics, grounding_floor=WITHHOLD_FLOOR, quotation_index=self._quotation_index,
             )
-            position = shown.find(sentence["text"], self._cursor) if sentence["text"] else -1
+            source = sentence["text"]
+            text = verdict["sentence"] if "source_sentence" in verdict else source
+            position = shown.find(source, self._cursor) if source else -1
             if position < 0:
                 lead, text_start, text_end = "", None, None
             else:
-                lead, text_start, text_end = shown[self._cursor:position], position, position + len(sentence["text"])
-                self._cursor = text_end
+                text_start = position - self._shift
+                lead, text_end = shown[self._cursor:position], text_start + len(text)
+                self._cursor = position + len(source)
+                self._shift += len(source) - len(text)
                 self._placed.add(index)
             completed = self._builder.add_sentence(
-                index=index, sentence=sentence["text"], tags=sentence["tags"], verdict=verdict["verdict"],
+                index=index, sentence=text, tags=sentence["tags"], verdict=verdict["verdict"],
             )
             elements = [e for e in completed if e["sentence_index"] in self._placed]
             cards = [c for c in (self._card(rid) for rid in dict.fromkeys(e["record_id"] for e in elements)) if c]
-            events.append({"index": index, "speaker": self._world_key, "lead": lead, "text": sentence["text"], "text_start": text_start,
+            events.append({"index": index, "speaker": self._world_key, "lead": lead, "text": text, "text_start": text_start,
                            "text_end": text_end, "elements": elements, "cards": cards})
             self._released = index + 1
         return events
+
+    def _hold_from(self, complete: list[dict]) -> int | None:
+        """The index of the first sentence to keep back: the one holding the
+        first word of a run of demonstration words that is, or may still
+        become, a recitation."""
+        counts = [len(reply_words(sentence["text"])) for sentence in complete]
+        words = [w for sentence in complete for w in reply_words(sentence["text"])]
+        if not self._demonstrations.empty and len(words) < RECITATION_WORDS:
+            return 0
+        start = self._demonstrations.hold_start(words)
+        if start is None:
+            return None
+        total = 0
+        for index, count in enumerate(counts):
+            total += count
+            if start < total:
+                return index
+        return None
 
     @property
     def released(self) -> int:

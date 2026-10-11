@@ -25,6 +25,7 @@ from pathlib import Path
 from engine.m1 import cross_world, gates, schemas
 from engine.m1.fk import fk_grade
 from engine.m1.loader import load_world_records, parse_record_text
+from engine.m1.spoken_scaffolding import scaffolding_hits
 from engine.m9.enforce import ACCEPTED_OPEN as M9_ACCEPTED_OPEN
 from engine.m9.enforce import GRANDFATHERED_WORLDS, PROJECT_LEAD, new_world_waiver_problem
 
@@ -265,6 +266,21 @@ def new_world_waiver_findings(code: str) -> list[Finding]:
     return out
 
 
+def scaffolding_findings(code: str, records: dict[str, dict], path: str, notes: list[str]) -> list[Finding]:
+    """Spoken text that opens on a question or carries a stage direction.
+    A world that still carries it is reported, not failed, while it holds a
+    spoken-scaffolding waiver; a waiver on a clean world is itself a failure."""
+    key = f"spoken-scaffolding/{code}"
+    hits = scaffolding_hits(records)
+    waived = key in cross_world.ACCEPTED_OPEN
+    if hits and waived:
+        notes.append(f"{key}: waived, {len(hits)} spoken field(s) still carry it")
+        return []
+    if not hits and waived:
+        return [Finding(path, "stale-waiver", f"{key}: no spoken field carries the pattern any more - remove the waiver")]
+    return [Finding(f"{path}/{rid}", "spoken-scaffolding", f"{label}: {reason}") for rid, label, reason in hits]
+
+
 def run_records(code: str, root: Path = REPO_ROOT, *, freeze: bool = False) -> Report:
     report = Report(f"records {code}")
     entry = registry_entry(code, root)
@@ -296,6 +312,7 @@ def run_records(code: str, root: Path = REPO_ROOT, *, freeze: bool = False) -> R
     else:
         report.notes.append(f"state {state!r}: required record types and the site JSON are checked from {'/'.join(cross_world.REQUIRED_TYPES_STATES)} or with --freeze")
     report.findings.extend(new_world_waiver_findings(code))
+    report.findings.extend(scaffolding_findings(code, records, path, report.notes))
     try:
         from engine.m2 import builders
 

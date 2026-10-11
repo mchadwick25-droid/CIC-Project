@@ -250,7 +250,7 @@ def test_retrieval_fill_never_fires_for_a_type_the_coverage_list_already_has():
 
 
 def test_retrieval_fill_never_touches_honest_limit():
-    """honest_limit is never a key in _TYPE_FLOORS - a wholly empty
+    """honest_limit is never a key in _FLOORS_BY_KIND - a wholly empty
     coverage_entry["honest_limit"] must stay empty, never widened to the
     whole repository the way an ordinary type is (see the module comment
     on why that type is unconditional and cell-scoped only)."""
@@ -530,6 +530,53 @@ def test_render_evidence_block_has_no_guard_marker_for_a_candidate_without_one()
     evidence = {"candidates": [{"id": "fix.term.plain", "record_type": "term", "head": "An ordinary term."}], "thin_ground": [], "figures_already_named": []}
     block = render_evidence_block(evidence)
     assert "MUST NOT ASSERT" not in block
+
+
+_LONG_STORY = ("A soldier shared his cloak with a beggar at the gate. He said nothing of it afterward. "
+               "That night he dreamed of the beggar wearing the cloak, and he asked to be baptized.")
+_LONG_RECORDS = {
+    f"fix.story.long-{n}": {"id": f"fix.story.long-{n}", "record_type": "story", "canon_cells": ["Z9-Q"],
+                            "tellable_as": f"{_LONG_STORY} Tale {n}."}
+    for n in range(1, 4)
+}
+_LONG_COVERAGE = {
+    "doctrinal_witness": [], "terms": [], "stories": list(_LONG_RECORDS), "quotes": [],
+    "honest_limit": [], "gravities": [], "forces": [], "contested_claims": [],
+}
+
+
+def test_the_evidence_block_carries_each_candidates_full_text_past_its_first_sentence():
+    record = _LONG_RECORDS["fix.story.long-1"]
+    evidence = {"candidates": [{"id": record["id"], "record_type": "story", "head": _head_text(record)}],
+                "thin_ground": [], "figures_already_named": []}
+    block = render_evidence_block(evidence)
+    assert record["tellable_as"] in block
+
+
+def test_a_candidate_that_overflows_the_budget_is_dropped_whole_from_the_bottom():
+    one = len(_LONG_RECORDS["fix.story.long-1"]["tellable_as"])
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=_LONG_COVERAGE, repository_records=_LONG_RECORDS,
+        message="tell me about the soldier", asks=None, budget_chars=one * 2 + one // 2,
+    )
+    assert len(selected) == 2
+    assert all(c["head"] == _LONG_RECORDS[c["id"]]["tellable_as"] for c in selected)
+    dropped = set(_LONG_RECORDS) - {c["id"] for c in selected}
+    assert len(dropped) == 1
+    block = render_evidence_block({"candidates": selected, "thin_ground": [], "figures_already_named": []})
+    assert all(_LONG_RECORDS[c["id"]]["tellable_as"] in block for c in selected)
+    assert not any(rid in block for rid in dropped)
+
+
+def test_the_rendered_evidence_never_ends_a_record_mid_sentence():
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=_LONG_COVERAGE, repository_records=_LONG_RECORDS,
+        message="tell me about the soldier", asks=None,
+    )
+    block = render_evidence_block({"candidates": selected, "thin_ground": [], "figures_already_named": []})
+    for line in (l for l in block.splitlines() if l.startswith("- [[")):
+        assert line.rstrip().endswith(".")
+        assert "asked to be baptized" in line
 
 
 # ---- Stage 4f: secondary-weight table context (Build-Plan.md) -------------
