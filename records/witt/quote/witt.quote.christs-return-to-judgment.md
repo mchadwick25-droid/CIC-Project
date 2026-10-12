@@ -61,11 +61,11 @@ modern_rendering: >-
   will give the godly and the chosen eternal life and everlasting joy. But the ungodly, and the devils with
   them, he will condemn to be tormented without end.
 
-  We reject the teaching of the Anabaptists, who think the punishment of the condemned will eventually
-  stop.
+  We reject the teaching of the Anabaptists, who think the punishments of condemned men and devils will
+  one day come to an end.
 
-  We also reject the teaching of others now spreading a view drawn from certain Jewish ideas -- that before
-  the dead are raised, the godly will take over rule of this present world, with the ungodly put down
+  We also reject others who are now spreading certain Jewish opinions. These hold that before the dead are
+  raised, the godly will take over the kingdom of the world. The ungodly, on this view, will be put down
   everywhere.
 relations:
 - type: associated-with
