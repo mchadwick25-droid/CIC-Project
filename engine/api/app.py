@@ -24,7 +24,7 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, ratelimit, table_wiring, wiring
+from engine.api import admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, quality_summary, ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
 from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
@@ -375,6 +375,36 @@ class UsageSummaryResponse(BaseModel):
     asks_as_of_run: str | None
     live_use: LiveUseResponse
     named_tests: NamedTestsResponse
+
+
+class QualityWorldResponse(BaseModel):
+    world: str
+    turns: int
+    conversations: int
+    text_free_turns: int
+    degraded_turns: int
+    cited_sentences: int
+    attached_sentences: int
+    horizon_mentions: int
+
+
+class QualityAuditResponse(BaseModel):
+    as_of_run: str | None
+    sessions_audited: int
+    findings_by_severity: dict[str, int]
+    findings_by_instrument: dict[str, int]
+    reading: dict
+
+
+class QualitySummaryResponse(BaseModel):
+    """Admin-only totals from the quality-control store and the latest daily
+    audit rollup. No participant text and no session id."""
+    turns: int
+    text_free_turns: int
+    weeks: list[str]
+    by_world: list[QualityWorldResponse]
+    by_routing: dict[str, int]
+    audit: QualityAuditResponse | None
 
 
 class WorldSummary(BaseModel):
@@ -817,6 +847,16 @@ def create_app(
         _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
         summary = wiring.get_usage_summary(deps.store, deps.usage_store, since=since, m7_audit_root=deps.m7_audit_root)
         return UsageSummaryResponse(**asdict(summary))
+
+    @app.get("/api/admin/quality-summary", response_model=QualitySummaryResponse)
+    def get_quality_summary_endpoint(request: Request, authorization: str | None = Header(default=None)):
+        """Operator-only, same gate as usage-summary: totals from the
+        quality-control store and the latest daily audit rollup. It returns
+        counts only, never a question, an answer or a session id."""
+        deps: Deps = request.app.state.deps
+        _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
+        qc_store = getattr(deps.qc_recorder, "store", None)
+        return QualitySummaryResponse(**quality_summary.get_quality_summary(qc_store, deps.m7_audit_root))
 
     @app.get("/api/admin/auth-status", response_model=AdminAuthStatusResponse)
     def get_admin_auth_status(request: Request):

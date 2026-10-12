@@ -288,6 +288,13 @@
     </section>
 
     <section>
+      <h2>Quality</h2>
+      <div class="caveat" id="quality-note" style="margin-bottom: 8px;"></div>
+      <div id="quality-audit-wrap"></div>
+      <div id="quality-world-wrap"></div>
+    </section>
+
+    <section>
       <h2>Questions people ask</h2>
       <div class="caveat" id="asks-freshness" style="margin-bottom: 8px;"></div>
       <div id="asks-table-wrap"></div>
@@ -429,6 +436,54 @@
       (namedTests.tests_with_gaps > 0 ? "; " + namedTests.tests_with_gaps + " test(s) have fields \"not recorded\" (reports written before those fields existed), so that sum is a floor." : ".");
   }
 
+  function renderQuality(q) {
+    const note = document.getElementById("quality-note");
+    const auditWrap = document.getElementById("quality-audit-wrap");
+    const worldWrap = document.getElementById("quality-world-wrap");
+    auditWrap.innerHTML = "";
+    worldWrap.innerHTML = "";
+    note.textContent = q.turns + " turn(s) in the quality store; " + q.text_free_turns +
+      " kept no text because the safety check flagged them. Totals only: no question or answer is shown here.";
+    if (q.audit) {
+      const reg = q.audit.reading || {};
+      const sev = Object.keys(q.audit.findings_by_severity).map((k) => k + ": " + q.audit.findings_by_severity[k]).join(", ") || "none";
+      auditWrap.appendChild(el("div", { class: "caveat", style: "margin-bottom: 8px;", text:
+        "Daily audit run at " + (q.audit.as_of_run || "unknown") + ": " + fmtNumber(q.audit.sessions_audited) + " session(s) audited; findings by severity: " + sev +
+        ". Reading level of scored turns: grade " + (reg.mean_fk_grade === null || reg.mean_fk_grade === undefined ? "not scored" : reg.mean_fk_grade) +
+        ", reading ease " + (reg.mean_fre === null || reg.mean_fre === undefined ? "not scored" : reg.mean_fre) + "." }));
+    } else {
+      auditWrap.appendChild(el("div", { class: "empty", text: "No daily audit has produced output yet." }));
+    }
+    if (!q.by_world.length) {
+      worldWrap.appendChild(el("div", { class: "empty", text: "No turns in the quality store yet." }));
+      return;
+    }
+    const table = el("table", {});
+    table.appendChild(el("thead", {}, [el("tr", {}, [
+      el("th", { text: "World" }),
+      el("th", { class: "num", text: "Turns" }),
+      el("th", { class: "num", text: "Conversations" }),
+      el("th", { class: "num", text: "Degraded replies" }),
+      el("th", { class: "num", text: "Cited sentences" }),
+      el("th", { class: "num", text: "Attached" }),
+      el("th", { class: "num", text: "No text kept" }),
+    ])]));
+    const tbody = el("tbody", {});
+    q.by_world.forEach((w) => {
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: w.world }),
+        el("td", { class: "num", text: fmtNumber(w.turns) }),
+        el("td", { class: "num", text: fmtNumber(w.conversations) }),
+        el("td", { class: "num", text: fmtNumber(w.degraded_turns) }),
+        el("td", { class: "num", text: fmtNumber(w.cited_sentences) }),
+        el("td", { class: "num", text: fmtNumber(w.attached_sentences) }),
+        el("td", { class: "num", text: fmtNumber(w.text_free_turns) }),
+      ]));
+    });
+    table.appendChild(tbody);
+    worldWrap.appendChild(table);
+  }
+
   function renderAsksTable(topAsks) {
     const wrap = document.getElementById("asks-table-wrap");
     wrap.innerHTML = "";
@@ -488,6 +543,12 @@
     document.getElementById("t-attribution-caveat").textContent = pct === null
       ? "No sessions yet."
       : pct + "% of sessions carry a visitor id (anon_cap must be on for a session to get one).";
+
+    try {
+      renderQuality(await fetchJSON("/api/admin/quality-summary"));
+    } catch (err) {
+      document.getElementById("quality-note").textContent = "The quality totals could not be loaded.";
+    }
 
     renderWorldTable(usage.by_world);
     const priceNote = document.getElementById("price-source-note");
