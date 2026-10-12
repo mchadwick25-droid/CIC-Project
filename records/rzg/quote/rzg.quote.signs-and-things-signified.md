@@ -27,7 +27,7 @@ modern_lens_note: A modern reader may hear careful, almost legal hedging. We hea
 modern_rendering: Therefore, though we distinguish signs from things signified, as we ought, we do
   not separate the reality from the signs...
 use_note:
-  means: "Zurich and Geneva jointly hold that the Supper's signs are distinct from what they signify, yet the reality is never separated from them."
+  means: "Zurich and Geneva jointly hold that the sacraments' signs are distinct from what they signify, yet the reality is never separated from them."
   not_for:
     - "a claim that the bread simply is Christ's body"
     - "a claim that the bread is a bare picture with nothing behind it"
