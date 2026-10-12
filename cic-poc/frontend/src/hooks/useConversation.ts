@@ -8,7 +8,7 @@
  * or persist past the tab's lifetime.
  */
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { ApiRequestError, createSession, getTranscript, sendMessage } from '../lib/api';
+import { ApiRequestError, createSession, getTranscript, isDuplicateMessage, sendMessage } from '../lib/api';
 import { noteLimit, useDeeper } from '../lib/deeper';
 import { clearStored, readStored, writeStored } from '../lib/sessionStore';
 import type { FacilitatorTurn, TranscriptEntry, VoiceTurn } from '../types/conversation';
@@ -37,6 +37,21 @@ export function toTurn(entry: TranscriptEntry): ConversationTurn {
     return { speaker: entry.speaker, text: entry.text, citations: entry.citations, figuresUsed: entry.figures_used, glosses: entry.glosses, transparency: entry.transparency };
   }
   return { speaker: 'participant', text: entry.text };
+}
+
+// A message the server refuses as a duplicate was already received. When its
+// turn finished after the reader left (a dropped stream), the reply is in the
+// transcript; this returns the transcript when a reply follows `text`.
+async function recordedReply(sessionId: string, sessionCode: string, text: string) {
+  try {
+    const transcript = await getTranscript(sessionId, sessionCode);
+    const entries = transcript.transcript;
+    const asked = entries.map((entry) => entry.speaker).lastIndexOf('participant');
+    if (asked < 0 || entries[asked].text !== text || asked === entries.length - 1) return null;
+    return { turns: entries.map(toTurn), closed: transcript.closed };
+  } catch {
+    return null;
+  }
 }
 
 interface ConversationState {
@@ -150,6 +165,15 @@ export function useConversation() {
         });
         return true;
       } catch (error) {
+        if (error instanceof ApiRequestError && isDuplicateMessage(error.status, error.detail)) {
+          const recorded = await recordedReply(sessionId, sessionCode, text);
+          if (recorded) {
+            lastAttemptRef.current = null;
+            if (recorded.closed) clearStored();
+            setState((prev) => ({ ...prev, isLoading: false, streamed: [], turns: recorded.turns, closed: recorded.closed || prev.closed, error: null, errorRecoverable: false }));
+            return true;
+          }
+        }
         const message = error instanceof ApiRequestError ? error.message : 'That message didn\'t go through - check your connection and try again.';
         const recoverable = error instanceof ApiRequestError && error.recoverable;
         setState((prev) => ({ ...prev, isLoading: false, streamed: [], error: message, errorRecoverable: recoverable }));
