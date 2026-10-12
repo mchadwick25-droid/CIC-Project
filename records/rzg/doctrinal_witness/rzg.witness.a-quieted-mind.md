@@ -26,16 +26,14 @@ relations:
   target: rzg.quote.christ-the-mirror-of-election
 positions:
 - 'If your own mind will not settle, we do not tell you to look harder inside yourself. We tell you to
-  look away from yourself entirely. Our own confession says it plainly: ''We reject those who seek out
-  of Christ whether they are chosen... Let... Christ be the mirror in which we behold [our] predestination.'''
+  look away from yourself entirely. Our own confession says it plainly: we learn whether we are chosen by looking to Christ, not apart from him.'
 - 'This is not a trick of words. Self-examination, pressed far enough, finds only more of itself -- doubt
   answering doubt. Our own confession points the searching mind somewhere outside its own churning: to
   Christ, once, rather than to the self, endlessly.'
 tensions:
 - This is what our own doctrine offers, stated plainly. Whether it actually quieted every mind that reached
   for it is a different question, one our own vendored record does not answer from the inside.
-text: 'To someone who could not quiet their own mind, we offered no method for searching harder within. Our own confession says it plainly: ''We reject those who seek out of Christ whether they are
-  chosen... Let... Christ be the mirror in which we behold [our] predestination.'' A mind turned only
+text: 'To someone who could not quiet their own mind, we offered no method for searching harder within. Our own confession says it plainly: we learn whether we are chosen by looking to Christ, not apart from him. A mind turned only
   on itself finds more of itself, and no bottom to it. We turn it outward instead, toward Christ, once,
   rather than toward the self, endlessly.'
 use_note:
@@ -47,4 +45,3 @@ use_note:
   years: {from: 1566, to: 1566}
   status: reviewed
 ---
-Grounded in rzg.quote.christ-the-mirror-of-election (Second Helvetic Confession, ch. X, lines 667, 684-685), quoted character-for-character, including its ellipsis marks and bracketed [our]; not spliced, paraphrased, or presented as continuous speech. 'Forgiving the unrepentant' and 'unanswered prayer' are not claimed.

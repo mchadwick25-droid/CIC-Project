@@ -35,9 +35,9 @@ text: >-
   knowledge of God spread. And death stopped being the thing that could make a person do anything.
   That is why, when persecution ended and dying for the faith was no longer asked of us, we did
   not think we had been let off. The same fight had moved inward, against our own thoughts rather
-  than against the sword. And the enemy we fought there was one Christ had already beaten. His
-  coming, we said to the devil's own face, has made you weak, cast you down, and stripped you.
-  That is why we never spoke of the healings among us as ours. We are not the doers of these
+  than against the sword. And the enemy we fought there was one Christ had already beaten.
+  Antony told the monks how Satan once came to his cell door. He told Satan that the coming of
+  Christ had made him weak, cast him down, and stripped him. That is why we never spoke of the healings among us as ours. We are not the doers of these
   things, one of us told the philosophers who had just watched him sign the cross over a man. It
   is Christ who works them, by means of those who believe in him.
 positions:
