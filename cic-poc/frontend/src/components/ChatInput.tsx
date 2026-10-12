@@ -8,17 +8,24 @@
  */
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { GoDeeperPanel } from './GoDeeperPanel';
+import { useAskAgain } from '../hooks/useAskAgain';
+import type { ConversationTurn } from '../hooks/useConversation';
+import { deeperEnabled } from '../lib/deeper';
+import { askAgainCopy } from '../lib/deeperCopy';
 
 interface ChatInputProps {
   onSend: (message: string) => void;
   onEnd: () => void;
   placeholder: string;
   disabled?: boolean;
+  turns?: ConversationTurn[];
 }
 
-export function ChatInput({ onSend, onEnd, placeholder, disabled = false }: ChatInputProps) {
+export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns = [] }: ChatInputProps) {
   const [message, setMessage] = useState('');
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const askAgainRef = useRef<HTMLButtonElement>(null);
+  const { pending, submit, confirm, decline } = useAskAgain(turns, onSend);
 
   useEffect(() => {
     const textarea = textareaRef.current;
@@ -33,12 +40,23 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false }: Chat
       e.preventDefault();
       const trimmed = message.trim();
       if (trimmed && !disabled) {
-        onSend(trimmed);
-        setMessage('');
+        if (submit(trimmed)) setMessage('');
       }
     },
-    [message, disabled, onSend]
+    [message, disabled, submit]
   );
+
+  const wasAsking = useRef(false);
+  useEffect(() => {
+    if (pending !== null) askAgainRef.current?.focus();
+    else if (wasAsking.current) textareaRef.current?.focus();
+    wasAsking.current = pending !== null;
+  }, [pending]);
+
+  const keepAsking = () => {
+    confirm();
+    setMessage('');
+  };
 
   const handleKeyDown = useCallback(
     (e: React.KeyboardEvent) => {
@@ -56,7 +74,10 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false }: Chat
         <textarea
           ref={textareaRef}
           value={message}
-          onChange={(e) => setMessage(e.target.value)}
+          onChange={(e) => {
+            setMessage(e.target.value);
+            decline();
+          }}
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
           disabled={disabled}
@@ -66,6 +87,19 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false }: Chat
           {disabled ? 'Sending…' : 'Send'}
         </button>
       </form>
+      {pending !== null && (
+        <div className="ask-again sans" role="group" aria-label={askAgainCopy.body}>
+          <p>{deeperEnabled ? askAgainCopy.body : askAgainCopy.bodyFree}</p>
+          <div className="ask-again__actions">
+            <button ref={askAgainRef} type="button" onClick={keepAsking} disabled={disabled}>
+              {askAgainCopy.ask}
+            </button>
+            <button type="button" onClick={decline}>
+              {askAgainCopy.decline}
+            </button>
+          </div>
+        </div>
+      )}
       <div className="conversation__end">
         {/* Stage 0b (Build-Plan.md): Leave never takes `disabled` - a
             participant mid-turn or inside an open Table round must still
