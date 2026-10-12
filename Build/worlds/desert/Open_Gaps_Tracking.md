@@ -687,3 +687,19 @@ Errors in the voice's replies in the named, capped live test "record pass stagin
 (11) (H) "What would you want me to understand that I haven't asked?": "That was Evagrius" brings in a new named figure one round after Moses was brought in by name in round 5, against at most one new figure every three rounds (decision 60 (2)).
 
 Status: OPEN.
+
+### OG-24. Record wording that invited voice errors in the record pass staging reading, 2026-10-12.
+
+Traces the voice errors logged under "Voice errors found in the record pass staging reading, 9 October" to the records. Most are the voice's own: near-verbatim pastes of sound witnesses, the Macarian tie to hesychia and the merge with Evagrius (ruled out by `desert.dw.the-heart-and-the-spirit` `tensions` and `use_note.not_for`), "learned to see" for Moses (the story says the opposite), and rhythm. Two records invited an error; one is corrected.
+
+**Changed.**
+- `desert.dw.jesus` `text`: it read "His coming, we said to the devil's own face, has made you weak, cast you down, and stripped you", which turned Antony's single report into "we said". The voice garbled it ("your coming, Christ, has made you weak"), and it recurred from 7 October. It now reads as Antony's report to the monks of what he told Satan at his cell door (Life of Antony, sec. 41). The dw stays Widely Accepted.
+- `desert.quote.the-coming-of-christ-made-thee-weak` `divergence_note`: now begins "Contested for incident-level attribution at SS41", so the incident-level attribution is marked Contested as well.
+
+**Not changed.**
+- `desert.term.hesychia` `use_note.not_for` ("mindfulness, relaxation, or stress relief") produced the voice's "not relaxation or relief from stress". It is a guard, not a claim. Rewording it from the term's own `senses` would loosen it, and the record's `distortion_risk` is high, so it stays.
+- The Contested bound at SS72-80 named in the dw's own note was not touched, so whether it should also mention SS41 is open.
+
+**Gates.** `records desert` and `regate desert --base origin/main`: pass. Package rebuilt and repinned; site JSON recompiled (one cited witness text on the public Desert page).
+
+Status: CLOSED for `desert.dw.jesus`. The hesychia guard and the voice-own errors stay OPEN under the 9 October entry.

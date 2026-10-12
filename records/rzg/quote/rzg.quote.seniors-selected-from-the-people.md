@@ -15,22 +15,22 @@ confidence:
   divergence_note: null
 sources:
 - source_id: rzg.source.calvin-institutes-book4
-  locus: IV.3.8, lines 2831-2832
+  locus: IV.3.8, lines 2830-2832
   license: public-domain
 relations: []
-text: seniors selected from the people to unite with the bishops in pronouncing censures and exercising
-  discipline
+text: By these governors I understand seniors selected from the people to unite with the bishops in pronouncing
+  censures and exercising discipline
 speaker_or_author: John Calvin
 license: verbatim
 modern_lens_note: 'A modern reader may assume church discipline was always a clergy-only affair. Our own
   founder''s own words say otherwise: laypeople hold real standing in it.'
-modern_rendering: Seniors, chosen from the people, unite with the bishops. They pronounce censures
-  and exercise discipline.
+modern_rendering: By these governors I mean elders chosen from the people. They join the pastors
+  to pass sentence and to carry out discipline.
 use_note:
-  means: "Calvin reads Paul's governors as seniors chosen from the people who join the bishops in pronouncing censures and exercising discipline."
+  means: "Calvin reads Paul's governors as elders chosen from the people who join the pastors, whom he also calls bishops, in pronouncing censures and exercising discipline."
   not_for:
     - "a claim that church discipline in this world was a clergy-only affair"
-    - "a claim that these lay seniors exercised discipline apart from the bishops"
+    - "a claim that these lay elders exercised discipline apart from the pastors"
   years: {from: 1559, to: 1559}
   status: reviewed
 ---

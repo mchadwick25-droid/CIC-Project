@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Contested
-  divergence_note: "Contested for incident-level attribution, the same basis desert.quote.antony-nicene-formula carries for material from this Vita: reported speech inside a bishop-author's own constructed narrative, written for his own purposes. The words themselves are quoted verbatim from the vendored file."
+  divergence_note: "Contested for incident-level attribution at SS41, the same basis desert.quote.antony-nicene-formula carries for material from this Vita: reported speech inside a bishop-author's own constructed narrative, written for his own purposes. The words themselves are quoted verbatim from the vendored file."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS41 - Antony, in his own reported first-person account to the monks, answering the devil who had complained of losing his power"

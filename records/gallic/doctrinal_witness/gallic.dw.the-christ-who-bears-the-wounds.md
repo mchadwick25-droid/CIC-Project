@@ -59,37 +59,38 @@ text: >-
   Jesus was our Lord, the crucified one. At Tours this comes to us as a
   story. The devil came to Martin in his cell dressed in purple, with a
   crown of gold and jewels, and said, I am Christ. Martin kept silence a
-  long time. Then he said he would not believe that Christ had come
-  unless he came in the form in which he suffered, showing the marks of
-  his wounds. We also met him in the poor. Tours remembered a beggar at
-  a city gate whom everyone passed, and a soldier who cut his one cloak
-  in half for him; that night the soldier saw Christ wearing the half he
-  had given away, and heard him tell the angels that Martin, still a
-  catechumen, had clothed him. Among the brethren at Marseilles the same
-  thing was taught in the fathers' words, from Egypt: an elder broke his
-  fast for two strangers at his door, because receiving Christ in them
-  he ought to refresh him. What he taught that mattered most among us
-  was that what is done to the least of these is done to him - the words
-  Sulpitius set beside the cloak. And it was that without him we can do
-  nothing - the sentence Cassian sets under every virtue a monk feels he
-  has gained, beside the Apostle's not I, but the grace of God with me.
-  We wrote no treatise on his death. We kept its hours. Cassian handed
-  us from Egypt the reason for the hours of prayer: at the third hour
-  the Spirit came down on the apostles; at the sixth the spotless
-  Sacrifice, our Lord and Saviour, was offered up to the Father and went
-  up on the cross for the salvation of the whole world, taking away the
-  debt that could not be paid; at the ninth he went down into hell and
-  brought out the captive saints. What we believed about the
-  resurrection is held there too: dead in the flesh, he was not dead in
-  the spirit; his soul was not left in hell; no one took his life from
-  him, he laid it down himself and took it again. The difference it made
-  is the one our whole life stands on. A man who leaves Caesar's service
-  for Christ's fights the devil in his own heart, where a kingdom is
-  being made ready for the devil or for Christ. The power that raised a
-  dead catechumen at the saint's prayer was Christ's, not the saint's.
-  And the good news as we told it is this: he calls us to himself while
-  we are still ignorant and unwilling, and draws us toward salvation;
-  and those who perish, perish against his will.
+  long time. Then he said he would not believe that Christ had come. He
+  would believe it only if Christ came in the form in which he suffered,
+  showing the marks of his wounds. We also met him in the poor. Tours
+  remembered a beggar at a city gate whom everyone passed. A soldier cut
+  his one cloak in half for him. That night the soldier saw Christ
+  wearing the half he had given away. He heard him tell the angels that
+  Martin, still a catechumen, had clothed him. Among the brethren at
+  Marseilles the same thing was taught in the fathers' words, from
+  Egypt. An elder broke his fast for two strangers at his door.
+  Receiving Christ in them, he ought to refresh him. What he taught that
+  mattered most among us was this: what is done to the least of these is
+  done to him. Sulpitius set those words beside the cloak. And it was
+  that without him we can do nothing. Cassian sets that sentence under
+  every virtue a monk feels he has gained. He sets it beside the
+  Apostle's not I, but the grace of God with me. We wrote no treatise on
+  his death. We kept its hours. Cassian handed us from Egypt the reason
+  for the hours of prayer. At the third hour the Spirit came down on the
+  apostles. At the sixth the spotless Sacrifice, our Lord and Saviour,
+  was offered up to the Father. He went up on the cross for the
+  salvation of the whole world, taking away the debt that could not be
+  paid. At the ninth he went down into hell and brought out the captive
+  saints. What we believed about the resurrection is held there too.
+  Dead in the flesh, he was not dead in the spirit. His soul was not
+  left in hell. No one took his life from him. He laid it down himself
+  and took it again. The difference it made is the one our whole life
+  stands on. A man who leaves Caesar's service for Christ's fights the
+  devil in his own heart. There a kingdom is being made ready for the
+  devil or for Christ. The power that raised a dead catechumen at the
+  saint's prayer was Christ's, not the saint's. And the good news as we
+  told it is this. He calls us to himself while we are still ignorant
+  and unwilling, and draws us toward salvation. Those who perish, perish
+  against his will.
 positions:
 - the Christ we confessed is the crucified one - Martin would not own a Christ in purple and a crown, only one bearing the marks of his wounds (his own words as Sulpitius reports them from his lips)
 - Christ is met in the poor and the guest - the beggar's half of the cloak at Tours; the fast broken in Egypt because receiving Christ in the guest we ought to refresh him, carried to Gaul in Cassian's book
