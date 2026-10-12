@@ -97,3 +97,31 @@ Outstanding, unrelated to the above: project-lead confirmation of Living Traditi
 **Gates.** `python -m engine.m10.cli records syr` and `python -m engine.m10.cli regate syr --base origin/main`: pass. The site JSON was recompiled; `python -m engine.m2.site_cli staleness-check`: pass. `python -m engine.m2.cli determinism-check syr`: pass. Package rebuilt after the last record edit: `records/worlds/syr.yaml` pins `packages/syr/2026-10-09T00-09-50Z`, `manifest_hash` `sha256:77c3d16828529203709145b8fdc165eeec41a6e005f0b89fcb2ef33c7c983497`.
 
 Status: CLOSED for item (9); the other items of the 9 October entry stay OPEN.
+
+26. **Quote renderings checked against the vendored text, 2026-10-12.** All 34 `records/syr/quote/` records were checked against the vendored sources in `cic/texts/`. Every `text` is word for word at its cited locus. All vendored Syriac-world sources are English translations; no Syriac original was checked. Five records had a real defect and are corrected; nine have minor drift and stay open.
+
+**Changed** (renderings authored by Opus).
+- `syr.quote.a-man-called-wise-amongst-the-jews`: "blaspheming" had become "mocking"; the distancing "who is called your Teacher" and "in that passage" were dropped; two sentences ran 27 and 33 words.
+- `syr.quote.as-a-stonecutter-i-have-brought-stones`: the passage closes Demonstration X (Of Pastors), sec. 9, not Demonstration I. `locus`, `speaker_or_author`, `divergence_note` and `use_note.means` corrected; the 337 date stands (Aphrahat dates the first ten together). Two long sentences split.
+- `syr.quote.blc-one-name`: `text` and rendering broke off before the fasting clause, so they read as gathering on reading days. Both now end at "we gather together", which keeps `use_note.not_for` true. The locus names the "new race of Christians" passage; the vendored file has no numbered sections to cite.
+- `syr.quote.nisibene-death-trembled`: "did likewise" had added a verb the source does not give for Satan. The rendering now keeps the gap.
+- `syr.quote.permitted-to-erect-churches`: "decimated" is rendered "one in every ten put to death", with `use_note.means` matching.
+
+**Open, not changed.**
+- `syr.quote.a-pearl-upon-the-palm` and `syr.quote.on-a-certain-day-a-pearl`: one shared 27-word sentence with two thoughts.
+- `syr.quote.basil-credits-a-syrian`: a 40-word final sentence; "He says" dropped.
+- `syr.quote.death-knew-his-kingdom-was-to-be-made-void`: "hidden" added to the poison.
+- `syr.quote.palladius-hospitaller`: `use_note.means` says Ephrem spoke to "citizens"; Clarke has him addressing the rich.
+- `syr.quote.tatian-barbaric-writings`: capital "Retiring" where the source has lower case after the dash; a 37-word sentence.
+- `syr.quote.the-blasphemy-of-madmen`: "blaspheme" rendered "insult"; a 30-word sentence; the page marker "[Ov. p. 53, l. 2.]" is left out of `text`.
+- `syr.quote.theodoret-gnats`: "no other curse" rendered "no worse curse".
+- `syr.quote.warned-before-baptism`: a 48-word opening sentence; "those who choose virginity" is rendered as an explanation of "everyone in God's covenant", but the source lists them as an additional group.
+
+**Open, needs a source not held.**
+- `syr.quote.ephrem-keeper-of-strangers`: Budge's vendored line is "O man, we know that thou art God"; Clarke's Greek-based Lausiac History has "We know you to be a man of God". The rendering carries Budge faithfully. It needs a check against the Syriac (Bedjan) before use, and the corpus holds only English.
+- `syr.dw.doubt` cites Demonstration I for faith as a building and relates to `syr.quote.as-a-stonecutter-i-have-brought-stones` (`records/syr/doctrinal_witness/syr.dw.doubt.md`, relation target), which is Demonstration X. Whether that witness needs a Demonstration X locus is not checked.
+- Dates and context in the `use_note` fields that come from outside the quoted text (Addai about 400, Demonstration XVII 344, Demonstration I 337, Sozomen 440s, Theodoret a century later) were not checked against sources.
+
+**Gates.** `engine.m10.cli records syr` and `regate syr --base origin/main`: pass. The package is rebuilt and `records/worlds/syr.yaml` pins `packages/syr/2026-10-12T14-47-29Z`. The edits cut the syr readability findings from 153 to 152, so the `m1:readability/syr` waiver in `engine/m9/enforce.py` is tightened to 152.
+
+Status: CLOSED for the five changed records. The minor and source items stay OPEN.
