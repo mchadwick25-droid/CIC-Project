@@ -6444,3 +6444,11 @@ The fidelity re-reading of 9 October ran four worlds (alx, cappadocian, gallic, 
 **No spend.** The project lead ruled that no admission run is made for this move. `python -m engine.m3.admission_conform` on the `8d7e0edc2` tree reports all eleven formation worlds stale: no live admission report exists on those packages under that shape. Live therefore runs without a passing admission gate, by the project lead's choice. Nothing on `main` changed. It still carries #836–#849.
 
 **Left for the project lead, not started:** what to do with #841 and #845–#848 on `main` before any next promotion; the recitation, r27 and seat-identity retries; the fresh admission the next promotion needs.
+
+## 2026-10-12 - Streaming the reply as it is written: left off for the pilot
+
+The project lead asked for the reply to show as it is written, to cut the wait. The code already streams one sentence at a time, behind `CIC_API_STREAMING`; the production service leaves it unset and staging sets it. On `main`, the sentence-enforcement retry from #841 is on by default and switches streaming off, so nothing would stream there. On `live` (`7cb773e0`) that retry does not exist, the uncited-claims enforcement is off, and `CIC_SELF_REVISION` is "0", so most turns would stream.
+
+A local test on the `live` code with a fake model and no spend found the streamed text identical to the final text, and quotes, citations, Go Deeper counts and the limit note identical to the plain path. Crisis and rewrite turns do not stream. One gap: a recitation of a demonstration answer that starts after sentences are already shown is not regenerated when streamed, so it reaches the participant and is only flagged. Time to first word was not measured, since that needs a paid call.
+
+**Ruling (12 October).** Leave streaming off for the pilot. The "is considering" wait indicator already shows. The recitation gap is the thing to design before streaming is turned on; any change is an engine change the project lead designs and approves. The dropped-connection fix (a retry after a dropped stream showed "give it a moment" instead of the reply) is separate and goes through its own pull request.
