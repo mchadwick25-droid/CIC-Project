@@ -7,9 +7,9 @@
  * survive a reload of the same tab, not follow the participant to a new tab
  * or persist past the tab's lifetime.
  */
-import { useCallback, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { ApiRequestError, createSession, getTranscript, sendMessage } from '../lib/api';
-import { noteLimit } from '../lib/deeper';
+import { noteLimit, useDeeper } from '../lib/deeper';
 import { clearStored, readStored, writeStored } from '../lib/sessionStore';
 import type { FacilitatorTurn, TranscriptEntry, VoiceTurn } from '../types/conversation';
 import type { StreamedSentence } from '../lib/streamedReply';
@@ -75,8 +75,15 @@ export function useConversation() {
   // the duplicate instead of double-answering and double-spending. New
   // text = new id = a genuinely new message.
   const lastAttemptRef = useRef<{ text: string; id: string } | null>(null);
+  // The question a limit turned away. The server keeps a refused message
+  // under its id, so once a code is accepted the same question goes again
+  // under a new one.
+  const refusedRef = useRef<string | null>(null);
+  const { codes } = useDeeper();
+  const heldCodesRef = useRef(codes);
 
   const begin = useCallback(async (worldKey: string) => {
+    refusedRef.current = null;
     setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false }));
     try {
       const { session_id, session_code } = await createSession(worldKey);
@@ -106,19 +113,23 @@ export function useConversation() {
     }
   }, []);
 
-  const send = useCallback(
-    async (text: string) => {
+  const deliver = useCallback(
+    async (text: string, resend: boolean) => {
       const { sessionId, sessionCode } = state;
       if (!sessionId || !sessionCode) {
         setState((prev) => ({ ...prev, error: 'No active session' }));
         return false;
       }
-      setState((prev) => ({ ...prev, isLoading: true, streamed: [], error: null, errorRecoverable: false, turns: [...prev.turns, { speaker: 'participant', text }] }));
+      refusedRef.current = null;
+      setState((prev) => ({ ...prev, isLoading: true, streamed: [], error: null, errorRecoverable: false, turns: resend ? prev.turns : [...prev.turns, { speaker: 'participant', text }] }));
       try {
-        const attempt = lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
+        const attempt = !resend && lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
         lastAttemptRef.current = attempt;
         const result = await sendMessage(sessionId, sessionCode, text, attempt.id, (sentence) => setState((prev) => ({ ...prev, streamed: [...prev.streamed, sentence] })));
-        if (result.limit_note) noteLimit();
+        if (result.limit_note) {
+          refusedRef.current = text;
+          noteLimit();
+        }
         setState((prev) => {
           const appended: ConversationTurn[] = [];
           if (result.facilitator) appended.push({ speaker: 'facilitator', text: result.facilitator.text, kind: result.facilitator.kind, modernTerms: result.facilitator.modern_terms, note: result.limit_note?.text });
@@ -146,6 +157,16 @@ export function useConversation() {
     },
     [state]
   );
+
+  const send = useCallback((text: string) => deliver(text, false), [deliver]);
+
+  useEffect(() => {
+    const held = heldCodesRef.current;
+    heldCodesRef.current = codes;
+    const refused = refusedRef.current;
+    if (refused === null || state.isLoading || !codes.some((code) => !held.includes(code))) return;
+    void deliver(refused, true);
+  }, [codes, state.isLoading, deliver]);
 
   const rehydrate = useCallback(async (): Promise<string | null> => {
     const stored = readStored();
@@ -175,6 +196,7 @@ export function useConversation() {
   }, []);
 
   const reset = useCallback(() => {
+    refusedRef.current = null;
     clearStored();
     setState(initialState);
   }, []);
