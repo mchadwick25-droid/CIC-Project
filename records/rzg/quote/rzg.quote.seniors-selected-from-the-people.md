@@ -25,7 +25,7 @@ license: verbatim
 modern_lens_note: 'A modern reader may assume church discipline was always a clergy-only affair. Our own
   founder''s own words say otherwise: laypeople hold real standing in it.'
 modern_rendering: By these governors I mean elders chosen from the people. They join the pastors
-  in pronouncing censures and exercising discipline.
+  to pass sentence and to carry out discipline.
 use_note:
   means: "Calvin reads Paul's governors as elders chosen from the people who join the pastors, whom he also calls bishops, in pronouncing censures and exercising discipline."
   not_for:
