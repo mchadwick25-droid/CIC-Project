@@ -4,7 +4,7 @@ import pytest
 from fastapi.testclient import TestClient
 
 from engine.api import dev_server
-from engine.api.app import MissingAnonCapSecret
+from engine.api.app import MissingAnonCapSecret, deeper_for_dev_server
 from engine.api.deeper_routes import DeeperConfigError
 
 SECRET = "whsec_test_secret"
@@ -32,19 +32,27 @@ def deeper_paths(app):
     return [p for p in (getattr(r, "path", "") for r in app.routes) if p.startswith(("/api/deeper", "/api/admin/deeper"))]
 
 
-def test_the_module_level_app_builds_with_the_flag_off():
+def test_the_module_level_app_builds_under_the_default_environment():
     assert callable(dev_server.app)
-    assert dev_server.app.state.deeper is None
 
 
-def test_flag_off_mounts_no_deeper_route_and_writes_nothing(dev_env, tmp_path):
-    app = dev_server.build_dev_app()
-    assert app.state.deeper is None
-    assert not deeper_paths(app)
-    http = TestClient(app)
-    assert http.post("/api/deeper/webhook", content=b"{}").status_code == 404
-    assert http.get("/api/deeper/balance").status_code == 404
+def test_flag_off_passes_no_deeper_argument_and_writes_nothing(dev_env, tmp_path):
+    seen = {}
+
+    def record(**kwargs):
+        seen.update(kwargs)
+        return object()
+
+    dev_env.setattr(dev_server, "create_app", record)
+    dev_server.build_dev_app()
+    assert "deeper" not in seen
+    assert "anon_cap_enabled" not in seen
     assert not (tmp_path / dev_server._DEV_DEEPER_DIR).exists()
+
+
+def test_the_helper_returns_nothing_with_the_flag_off(dev_env, tmp_path):
+    assert deeper_for_dev_server(tmp_path / "deeper", None, {}) is None
+    assert not (tmp_path / "deeper").exists()
 
 
 def test_flag_on_mounts_the_webhook_and_admin_routes(dev_env, tmp_path):
