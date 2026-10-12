@@ -193,3 +193,15 @@ Tracked per the same dated-entry, disclosed-recovery discipline used in `World-B
 **Gates.** `engine.m10.cli records rzg` and `regate rzg --base origin/main`: pass. The package is rebuilt and `records/worlds/rzg.yaml` pins `packages/rzg/2026-10-12T14-47-25Z`. The edits cut the rzg readability findings from 131 to 130, so the `m1:readability/rzg` waiver in `engine/m9/enforce.py` is tightened to 130. The check used the vendored English only; no Latin original was consulted.
 
 Status: CLOSED for the two changed records. The two minor items stay OPEN.
+
+64. **Record wording that invited the confession-quote splice, 2026-10-12.** Traces item (1) of "Voice errors found in the record pass staging reading, 9 October" to the records. The voice joined two separated sentences of the Second Helvetic Confession and said "our own election". Most other rzg errors are the voice's own (the altered "aforesaid" wording, invented claims about the slogan's history, pastes, rhythm) and have no record fix; `rzg.quote.mass-not-a-sacrifice` is faithful to Zwingli's Article XVIII.
+
+**Changed.**
+- `rzg.witness.one-thing-not-in-dispute` and `rzg.witness.a-quieted-mind` (`text` and `positions`): both embedded the quotation "We reject those who seek out of Christ whether they are chosen... Let... Christ be the mirror in which we behold [our] predestination." in spoken prose, the very splice the voice then reproduced. Each now says it in one plain sentence ("we learn whether we are chosen by looking to Christ, not apart from him"). The verbatim wording lives in the quote record. Both stay Documented. Their record bodies claimed the quote was reproduced character-for-character and are removed.
+- `rzg.quote.christ-the-mirror-of-election` `modern_rendering` and `use_note.means`: this closes the first minor item of the 2026-10-12 quote-rendering entry. "Own" is gone, "predestination" is back, and the two sentences are shown with the gap between them. The body note ("re-verified this session") is removed.
+
+**Not changed.** `rzg.gravity.sovereignty-of-god-predestination-election` quotes the wording in its `locus`, which the voice does not speak.
+
+**Gates.** `records rzg` and `regate rzg --base origin/main`: pass. Package rebuilt and repinned; site JSON recompiled (the Zurich and Geneva pull quote on the public page now carries the corrected rendering).
+
+Status: CLOSED for the splice. The voice-own errors stay OPEN under the 9 October entry; the `rzg.quote.taught-better-from-scripture` item of the 2026-10-12 quote-rendering entry stays OPEN.

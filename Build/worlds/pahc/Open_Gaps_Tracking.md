@@ -664,3 +664,16 @@ Errors in the voice's replies in the named, capped live test "record pass stagin
 (12) (H) "Tell me about someone who lived this out." and "What would you want me to understand that I haven't asked?": a voiced quote comes in turns 3, 4, 5 and 6 (Didache, Didache again, the Shepherd, Justin), against decision 60(1)'s one voiced quote every three rounds; and Justin is a new figure one round after Hermas, against decision 60(2).
 
 Status: OPEN.
+
+### OG-26. Record wording that invited a voice error in the record pass staging reading, 2026-10-12.
+
+Traces the voice errors logged under "Voice errors found in the record pass staging reading, 9 October" to the records. Most are the voice's own: the altered Ignatius wording, "Son of God" appearing in no record, pastes of sound text, "no stories of particular days with him" (which contradicts `pahc.dw.how-we-know`), the dropped scope "In some of our households", and rhythm. The Hermas words "never abandon... request of your soul" are in the vendored source (anf02, lines 2391-2392) beyond where the quote record stops; that is the voice's own and no record fix is proposed. One record cause is corrected.
+
+**Changed.** `pahc.force.two-ways-catechetical-inheritance`:
+- `description`: "adaptable to a community's own occasion rather than issued from a single central authority" is not in the Didache; the record's own note calls it a reasoned generalization, and the voice pasted this outside description into the we-voice. The clause is removed. The field was also rewritten in shorter sentences, same content, because a changed field must pass the readability gate (it now scores FRE 63, FK 8.3).
+- `manifestations`: "household by household... answering to no central office" is replaced with what the Didache says: teaching first, then baptism (Didache 7:1).
+- Formation confidence is unchanged (Dominant Modern Reconstruction).
+
+**Gates.** `records pahc` and `regate pahc --base origin/main`: pass. Package rebuilt and repinned. The two readability findings the rewrite removed cut the pahc count from 160 to 158, so the `m1:readability/pahc` waiver in `engine/m9/enforce.py` is tightened to 158.
+
+Status: CLOSED for the one record cause. The voice-own errors stay OPEN under the 9 October entry.
