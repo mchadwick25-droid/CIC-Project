@@ -158,6 +158,7 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
           )}
           <ChatInput
             onSend={onSend}
+            turns={turns}
             onEnd={onEnd}
             disabled={isLoading}
             placeholder={`Ask ${world.representativeName} anything…`}
