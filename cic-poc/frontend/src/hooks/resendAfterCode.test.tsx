@@ -126,8 +126,8 @@ describe('a question the limit turned away', () => {
   });
 });
 
-describe('a genuine double send', () => {
-  it('is still refused by the server and still shows its line', async () => {
+describe('a message sent again after it was answered', () => {
+  it('goes through under a new id', async () => {
     const { sent } = serverWith({ refuse: () => null });
     const { useConversation } = await load();
     const { result } = await started(useConversation);
@@ -138,7 +138,7 @@ describe('a genuine double send', () => {
       await result.current.send('Same words');
     });
     expect(sent).toHaveLength(2);
-    expect(sent[1].id).toBe(sent[0].id);
-    expect(result.current.error).toBe('That message already reached the room — give it a moment.');
+    expect(sent[1].id).not.toBe(sent[0].id);
+    expect(result.current.error).toBeNull();
   });
 });

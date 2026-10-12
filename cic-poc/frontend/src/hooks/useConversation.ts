@@ -72,8 +72,8 @@ export function useConversation() {
   const [state, setState] = useState<ConversationState>(initialState);
   // One client_msg_id per LOGICAL message: resending the same text after a
   // failure reuses the id, so the server's idempotency check can refuse
-  // the duplicate instead of double-answering and double-spending. New
-  // text = new id = a genuinely new message.
+  // the duplicate instead of double-answering and double-spending. A reply
+  // spends the id, so the next message, even the same words, gets a new one.
   const lastAttemptRef = useRef<{ text: string; id: string } | null>(null);
   // The question a limit turned away. The server keeps a refused message
   // under its id, so once a code is accepted the same question goes again
@@ -126,6 +126,7 @@ export function useConversation() {
         const attempt = !resend && lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
         lastAttemptRef.current = attempt;
         const result = await sendMessage(sessionId, sessionCode, text, attempt.id, (sentence) => setState((prev) => ({ ...prev, streamed: [...prev.streamed, sentence] })));
+        if (lastAttemptRef.current === attempt) lastAttemptRef.current = null;
         if (result.limit_note) {
           refusedRef.current = text;
           noteLimit();
