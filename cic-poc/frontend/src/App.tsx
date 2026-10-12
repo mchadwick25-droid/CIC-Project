@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
+import { FeedbackPopup } from './components/FeedbackPopup';
 import { useConversation } from './hooks/useConversation';
+import { useFeedbackPrompt } from './hooks/useFeedbackPrompt';
 import { useTable } from './hooks/useTable';
 import { useWorlds } from './hooks/useWorlds';
 import { findWorld, findWorldByCensusId } from './data/worlds';
@@ -79,6 +81,8 @@ function App() {
   // the stale query to re-fail on reload) - now it says so, once.
   const [launchNotice, setLaunchNotice] = useState<string | null>(null);
   const deepLinkFired = useRef(false);
+  const participantTurns = (screen === 'table' ? table.turns : conversation.turns).filter((t) => t.speaker === 'participant').length;
+  const feedback = useFeedbackPrompt(screen === 'launch', participantTurns);
 
   // Waits for the world list before deciding the first screen - a ?worlds=
   // deep link can't be matched against an empty list. Resuming a session
@@ -207,6 +211,7 @@ function App() {
   };
 
   const handleLeave = () => {
+    if (!isEmbedded && participantTurns > 0) feedback.showEnding();
     conversation.reset();
     table.reset();
     setSelectedWorldKey(null);
@@ -295,6 +300,7 @@ function App() {
           }}
         />
       )}
+      {feedback.popup && <FeedbackPopup variant={feedback.popup.variant} turns={feedback.popup.turns} onClose={feedback.dismiss} />}
     </div>
   );
 }

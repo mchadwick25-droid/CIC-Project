@@ -21,7 +21,6 @@ import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry } from '../data/worlds';
 import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import { useState } from 'react';
-import { FeedbackLink } from '../components/FeedbackLink';
 
 interface TableRoomProps {
   seatedWorlds: WorldEntry[];
@@ -67,7 +66,6 @@ export function TableRoom({
               Not saved to an account — this conversation lives in this tab
             </div>
           )}
-          <FeedbackLink />
         </div>
       </div>
 

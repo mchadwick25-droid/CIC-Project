@@ -9,7 +9,6 @@ import type { ConversationTurn } from '../hooks/useConversation';
 import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import type { WorldEntry, WorldStarter } from '../data/worlds';
 import { useState } from 'react';
-import { FeedbackLink } from '../components/FeedbackLink';
 
 // Up to 3 starters spanning distinct cell tags (basic/identity, personal,
 // critical/etic) rather than the first 3 alphabetically - carried from the
@@ -62,7 +61,6 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
               Not saved to an account — this conversation lives in this tab
             </div>
           )}
-          <FeedbackLink />
         </div>
       </div>
 
