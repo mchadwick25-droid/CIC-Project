@@ -2540,3 +2540,24 @@ Corrections to two items of "Voice errors found in the record pass staging readi
 The edits cut the witt readability findings from 188 to 186, so the `m1:readability/witt` waiver in `engine/m9/enforce.py` is tightened from 188 to 186 (its only change).
 
 Status: CLOSED for items (10) and (12) of the 9 October entry. The other items of that entry remain OPEN.
+
+## OG-65. Quote renderings checked against the vendored text, 2026-10-12.
+
+All seven `records/witt/quote/` records were checked against the vendored sources in `cic/texts/`: every `text` is word for word at its cited lines (one ends at "etc." without a marker; see below). Three records had real defects and are corrected; four have minor drift and stay open.
+
+**Changed** (renderings authored by Opus).
+- `witt.quote.second-article-of-the-creed`: "descended to Hell" had become "went down to the dead", a different and contested doctrine; "body" had become "life"; the manner of serving ("righteously, innocently and blessedly") had become a description of the believer; "sat down", "bought and won" and "suffered" had been changed. The rendering now follows the source, and `use_note.means` includes "and his death, and who rose from death".
+- `witt.quote.christs-return-to-judgment`: "and devils" had been dropped, "drawn from" added, and one sentence ran about 38 words. Restored, removed and split.
+- `witt.quote.the-poor-man-who-comes-to-you`: "unavenged" had become "unanswered", and "his daily bread", "only by your favor" and "no one else" were additions. The rendering now keeps the vengeance and the right subject ("them", the hearts). "For nothing" is rendered "free of charge", a reading of a passage about overcharging.
+
+**Open, not changed.**
+- `witt.quote.article-ii-of-original-sin` and `witt.quote.article-ix-of-baptism`: the source "condemn" is rendered "reject" (also in `christs-return-to-judgment`); Article II loses "disease, or vice of origin" and adds "already carrying".
+- `witt.quote.congregation-of-saints`: `text` ends at "etc." with no elision marker; the source continues "Eph. 4, 5. 6."
+- `witt.quote.nothing-that-varies`: the locus label says "following Article XXI", but CONCLUSION (line 1531) follows Article XXVIII; one rendering sentence runs about 40 words; `use_note.means` drops "ungodly" from "no new and ungodly doctrine".
+- `witt.quote.second-article-of-the-creed`: "before time began" for "in eternity" and "just as truly man" for "also truly man" remain.
+
+**Site.** The two `witt` pull quotes on the public Wittenberg page (creed and poor man) carried the old renderings; the site JSON is recompiled and `engine.m2.site_cli staleness-check` passes.
+
+**Gates.** `engine.m10.cli records witt` and `regate witt --base origin/main`: pass. The package is rebuilt and `records/worlds/witt.yaml` pins `packages/witt/2026-10-12T14-47-27Z`. The check used the vendored English only; no German or Latin original was consulted.
+
+Status: CLOSED for the three changed records. The minor items stay OPEN.
