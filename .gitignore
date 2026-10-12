@@ -26,6 +26,7 @@ haiku_enforced.log
 # engine/api local test-backend state (SQLite, default paths - see engine/api/README.md)
 cic_api_events.db*
 cic_api_usage.db*
+cic_dev_deeper/
 
 # The full-text search index over cic/texts/ - DERIVED, ~180MB, and
 # byte-different on every rebuild even with identical content (SQLite

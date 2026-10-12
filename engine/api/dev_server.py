@@ -10,18 +10,27 @@ Bedrock credentials (PHASE-1-LAUNCH.md standing rule 3) - this script exists
 so the frontend build itself can be clicked through before that spend, not
 instead of it.
 
+With CIC_DEEPER_ENABLED set, Go Deeper is mounted as on the real server, with its
+meter and claims databases under cic_dev_deeper/ and the same refusals to start
+(webhook secret, free key, visitor cap and its secret). Off by default.
+
 Run: uvicorn engine.api.dev_server:app --port 8000
 """
+import os
 from types import SimpleNamespace
 
 from fastapi import FastAPI
 
+from engine.api import deeper_routes
 from engine.api.app import create_app
 from engine.api.config import REPO_ROOT, _DEFAULT_EVENTS_DB, _DEFAULT_USAGE_DB
+from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.log_store import UsageLogStore
+
+_DEV_DEEPER_DIR = "cic_dev_deeper"
 
 _FAKE_USAGE = SimpleNamespace(input_tokens=100, output_tokens=50, cache_creation_input_tokens=0, cache_read_input_tokens=0)
 
@@ -112,16 +121,29 @@ class ReactiveFakeBedrockClient:
 def build_dev_app() -> FastAPI:
     registry = load_registry()
     client = ReactiveFakeBedrockClient()
+    usage_store = UsageLogStore(REPO_ROOT / _DEFAULT_USAGE_DB)
+    deeper_kwargs = {}
+    data_dir = REPO_ROOT / _DEV_DEEPER_DIR
+    deeper_config = DeeperConfig.from_env(str(data_dir))
+    if deeper_config.enabled:
+        data_dir.mkdir(exist_ok=True)
+        deeper_kwargs = {
+            "deeper": deeper_routes.build_runtime(deeper_config, dict(os.environ), usage_store=usage_store),
+            "anon_cap_enabled": True,
+            "anon_visitor_secret": os.environ.get("CIC_API_ANON_VISITOR_SECRET") or None,
+        }
+        deeper_routes.install_access_log_filter()
     return create_app(
         voice_client=client,
         voice_model_id="dev-fake-voice",
         safety_client=client,
         safety_model_id="dev-fake-safety",
         store=Store(REPO_ROOT / _DEFAULT_EVENTS_DB),
-        usage_store=UsageLogStore(REPO_ROOT / _DEFAULT_USAGE_DB),
+        usage_store=usage_store,
         world_loader=LazyWorldLoader(),
         registry=registry,
         default_world_key="alx",
+        **deeper_kwargs,
     )
 
 
