@@ -21,10 +21,8 @@ from types import SimpleNamespace
 
 from fastapi import FastAPI
 
-from engine.api import deeper_routes
-from engine.api.app import create_app
+from engine.api.app import create_app, deeper_for_dev_server
 from engine.api.config import REPO_ROOT, _DEFAULT_EVENTS_DB, _DEFAULT_USAGE_DB
-from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader
@@ -122,17 +120,7 @@ def build_dev_app() -> FastAPI:
     registry = load_registry()
     client = ReactiveFakeBedrockClient()
     usage_store = UsageLogStore(REPO_ROOT / _DEFAULT_USAGE_DB)
-    deeper_kwargs = {}
-    data_dir = REPO_ROOT / _DEV_DEEPER_DIR
-    deeper_config = DeeperConfig.from_env(str(data_dir))
-    if deeper_config.enabled:
-        data_dir.mkdir(exist_ok=True)
-        deeper_kwargs = {
-            "deeper": deeper_routes.build_runtime(deeper_config, dict(os.environ), usage_store=usage_store),
-            "anon_cap_enabled": True,
-            "anon_visitor_secret": os.environ.get("CIC_API_ANON_VISITOR_SECRET") or None,
-        }
-        deeper_routes.install_access_log_filter()
+    deeper_kwargs = deeper_for_dev_server(REPO_ROOT / _DEV_DEEPER_DIR, usage_store, os.environ) or {}
     return create_app(
         voice_client=client,
         voice_model_id="dev-fake-voice",
