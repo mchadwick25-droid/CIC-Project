@@ -408,6 +408,10 @@ button {
   color: var(--color-text-muted);
 }
 
+.conversation__bar-link {
+  text-decoration: underline;
+}
+
 /* BrandMark stays pinned left; the not-saved note sits grouped on the right. */
 .conversation__bar-right {
   display: flex;
