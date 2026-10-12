@@ -8,7 +8,7 @@
  * Same storage discipline as useConversation, through lib/sessionStore.
  */
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { ApiRequestError, continueRound, createTableSession, getTranscript, sendTableMessage } from '../lib/api';
+import { ApiRequestError, continueRound, createTableSession, getTranscript, isDuplicateMessage, sendTableMessage } from '../lib/api';
 import { noteLimit, useDeeper } from '../lib/deeper';
 import { clearStored, readStored, writeStored } from '../lib/sessionStore';
 import type { StreamedSentence } from '../lib/streamedReply';
@@ -60,6 +60,27 @@ const initialState: TableState = {
   errorRecoverable: false,
   roundCap: null,
 };
+
+const OPEN_ROUND: TableMessageResponse = {
+  round_no: 0, round_open: true, routing_action: null, routing_reason: '', degraded: false,
+  facilitator: [], turn_selected: null, voice: null, position: null, turn_no: null, session_closed: false,
+};
+
+// A message the server refuses as a duplicate was already received. When its
+// round ran on after the reader left (a dropped stream), the transcript holds
+// the room's turns and says whether the round is still open.
+async function recordedRound(sessionId: string, sessionCode: string, text: string) {
+  try {
+    const transcript = await getTranscript(sessionId, sessionCode);
+    const entries = transcript.transcript;
+    const asked = entries.map((entry) => entry.speaker).lastIndexOf('participant');
+    if (asked < 0 || entries[asked].text !== text) return null;
+    if (asked === entries.length - 1 && !transcript.round_open) return null;
+    return { turns: entries.map(toTurn), roundOpen: transcript.round_open, closed: transcript.closed };
+  } catch {
+    return null;
+  }
+}
 
 export function useTable() {
   const [state, setState] = useState<TableState>(initialState);
@@ -171,6 +192,16 @@ export function useTable() {
         await runRound(first);
         return true;
       } catch (error) {
+        if (error instanceof ApiRequestError && isDuplicateMessage(error.status, error.detail)) {
+          const recorded = await recordedRound(session.sessionId, session.sessionCode, text);
+          if (recorded) {
+            lastAttemptRef.current = null;
+            if (recorded.closed) clearStored();
+            setState((prev) => ({ ...prev, turns: recorded.turns, streamed: [], roundOpen: recorded.roundOpen, closed: recorded.closed || prev.closed, isLoading: recorded.roundOpen, error: null, errorRecoverable: false }));
+            if (recorded.roundOpen) await runRound(OPEN_ROUND);
+            return true;
+          }
+        }
         const message = error instanceof ApiRequestError ? error.message : 'That message didn\'t go through - check your connection and try again.';
         const recoverable = error instanceof ApiRequestError && error.recoverable;
         setState((prev) => ({ ...prev, isLoading: false, streamed: [], error: message, errorRecoverable: recoverable }));
