@@ -116,8 +116,8 @@ relations:
   target: gallic.term.merit
 plain_meaning: >-
   In Cassian's Marseilles, the help of God without which no effort reaches its goal. Grace "always
-  co-operates with our will"; it goes before the will and follows it; it inspires the first desire and
-  crowns the last perseverance. We hold it together, on purpose, with a will that stays free - in a
+  co-operates with our will," and "assists, protects, and defends it." Which one begins the good, grace
+  or the will, we leave open. We hold it together, on purpose, with a will that stays free - in a
   relation "that cannot be fully grasped by the mind and reason of man."
 world_word: grace (of God) / gratia
 false_friend:
@@ -160,14 +160,14 @@ senses:
   translational: >-
     'So were you on the side of grace or of works - were you semi-Pelagians?' - the label is a
     sixteenth-century coinage that appears in our own texts only in the editors' notes; what we held
-    was help that co-operates, precedes and requires labour, on both sides at once, declared beyond
+    was help that co-operates and requires labour, on both sides at once, declared beyond
     reason's grasp - and a Representative who resolves it either way has left us.
 quick_meaning: >-
-  God's help, without which no effort reaches its goal - going before the will, working with it, and
+  God's help, without which no effort reaches its goal - working with the will, helping it, and
   requiring it. Held on both sides at once, by design.
 distortion_risk: high
 use_note:
-  means: "Grace meant, for Cassian's Marseilles, God's help going before, working with and crowning the will, held on purpose with a free will in a relation beyond reason's grasp."
+  means: "Grace meant, for Cassian's Marseilles, God's help working with the will, assisting and defending it, held on purpose with a free will in a relation beyond reason's grasp."
   not_for:
     - "a binary of grace alone against works, or semi-Pelagian as a settled verdict, a label contested in gallic.contested.massilian-label"
     - "Martin's power to heal, which sits in gallic.term.grace-as-charism"

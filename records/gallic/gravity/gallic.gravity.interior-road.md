@@ -90,8 +90,8 @@ name: "The interior road: purity of heart, discretion, the faults [SUPPORTING]"
 classification: supporting
 description: >-
   Purity of heart as the goal, discretion as its regulator, the eight
-  faults as its combats - the whole southern formation program: 'the
-  immediate aim or goal, is purity of heart, without which no one can
+  faults as its combats - what Cassian wrote out for the monks of Gaul
+  from the Fathers: 'the immediate aim or goal, is purity of heart, without which no one can
   gain that end' (Conf. I.4); fastings, vigils, and renunciation 'are
   not perfection, but aids to perfection' (I.7); 'discretion is the
   mother of all virtues, as well as their guardian and regulator'

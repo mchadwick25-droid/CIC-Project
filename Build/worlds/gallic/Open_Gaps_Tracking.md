@@ -804,3 +804,19 @@ Errors in the voice's replies in the named, capped live test "record pass stagin
 (15) (H) new names crowded: Martin and Cassian are both introduced in round 1, Sulpitius Severus in round 4, Paphnutius in round 5 and Vincent in round 6. Decision 60 (2) allows at most one new figure every three rounds.
 
 Status: OPEN.
+
+### OG-32. Record wording that invited voice errors in the record pass staging reading, 2026-10-12.
+
+Traces the voice errors logged under "Voice errors found in the record pass staging reading, 9 October" back to the records, field by field, against the vendored text. Most gallic errors are the voice's own (typed block texts and loci, pastes, "abbot" for the presbyter Isidore, the Vita IX and XX bishops, rhythm) and have no record fix. Five record causes are corrected.
+
+**Changed.**
+- `gallic.term.co-operation` and `gallic.term.grace` (`plain_meaning`, `quick_meaning`, `senses`, `use_note.means`): grace was said to "go before" the will, inspire "the first desire" and "crown" the last perseverance. The voice repeated this as settled. The Conferences have no "crowns" (XIII.13 has grace that "co-operates... assists, protects, defends"), and which comes first is the point `gallic.contested.beginning-of-good-will` says Cassian leaves open (XIII.3 against XIII.8-9). The wording now follows the text and leaves the order open. Confidence is unchanged (Documented; the contested record stays Contested).
+- `gallic.gravity.interior-road` `description`: "the whole southern formation program" was an analytic label whose attribution to this world the record's own note calls Inferential. It now reads "what Cassian wrote out for the monks of Gaul from the Fathers" (Conferences, Preface to XVIII-XXIV). The line's later mention that the program came from Egypt stands.
+- `gallic.dw.laughed-at-and-reported` `text`: Martin's words were typed into prose, and the voice gave them without quotation marks. The sentence is now indirect speech; the exact words stay in `gallic.quote.martin-refuses-the-donative`.
+- `gallic.dw.the-christ-who-bears-the-wounds` `text`: sentences of 75, 50, 44, 37, 36 and 35 words, which the voice copied (FK 12.1 and 11.1). Split into sentences of 23 words or fewer, content and order unchanged.
+
+**Not changed.** The voice-own errors above. The Salvian quote placed against its lead-in on turn 6 came from the engine's placement, not from a record.
+
+**Gates.** `records gallic` and `regate gallic --base origin/main`: pass. Package rebuilt and repinned; site JSON recompiled (the glossary entry for grace and one question's cited text on the public Gallic page now carry the corrected wording).
+
+Status: CLOSED for the five record causes. The voice-own errors stay OPEN under the 9 October entry.

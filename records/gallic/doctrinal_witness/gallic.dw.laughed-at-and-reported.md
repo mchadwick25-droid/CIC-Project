@@ -73,8 +73,8 @@ text: >-
   martyrdom without shedding his blood - in hunger, in watchings, in
   nakedness, in fasting. The empire was Christian in our day. That is
   where the trouble was. Martin's road began by leaving Caesar's service
-  at a donative: I am the soldier of Christ, it is not lawful for me to
-  fight. Before he gathered his first brethren, the violence of heretics
+  at a donative. He told Caesar that he was now a soldier of Christ and
+  might not fight. Before he gathered his first brethren, the violence of heretics
   had driven the bishop Hilary into exile and left the Church in Gaul in
   disorder. And at Treves, where the bishops had bowed with degenerate
   submissiveness to the royal retinue, in Martin alone apostolic
