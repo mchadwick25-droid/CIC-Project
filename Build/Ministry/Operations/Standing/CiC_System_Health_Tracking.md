@@ -1554,3 +1554,15 @@ Under the System Hub Decision Log entry "Live rolled back: the 9 October promoti
 - Render did not deploy `cic-engine` on its own when `live` moved, either for #850 or for the rollbacks; each deploy was manual. Its branch and Auto-Deploy settings are unchecked from here, because the sandbox cannot reach Render.
 - The 9 October record pass staging reading's live-turn reports name each world's package but not the engine commit they ran on, so the version had to be matched through the package pins.
 - On a rollback PR into `live`, two non-required checks fail by design: Live-surface commentary and World gates. The restored files predate today's stricter checks, and fixing them would break the exact rollback.
+
+## 2026-10-12 - Set aside: removing the compiled prompt's quote index on the live version
+
+The project lead looked at this idea and set it aside, kept here as a possible improvement. It is not approved or scheduled. A branch from the live version was built and dropped without being pushed; nothing reached GitHub or live.
+
+- What it is: each world's compiled prompt carries "Quotes we hold" (`engine/m2/builders.py`, `build_prompt`). It lists every quote record's id, speaker and first few words, on every turn. A quote's full wording reaches the voice in the turn's evidence block.
+- Why it is there: the voice had invented quote ids when reaching for a quote it could not see, for example `ijc.quote.leo-two-natures` for `ijc.quote.leo-tome-each-form`.
+- For removing it, measured: the fleet's prompts get 5.3% smaller, from 1,029,600 to 974,662 characters (desert 12.2%, gallic 10.8%, ijc 8.4%). That is roughly 2-3% of conversation spend.
+- For removing it, not measured: the opening words may tempt the voice to finish quotes from memory. The 9 October record pass staging reading found 22 reworded quotes (gap class A).
+- Against: the invented ids it was added to stop may come back. On the live version these are shown as withheld sentences, not misquotes. No test costs nothing except the project lead's own conversations.
+- What a build would involve: the deletion of `aec3ab008` (PR #846) applied to the live tree without #841's quote placement; every package rebuilt and re-pinned, so every world's admission goes stale. The built prompts differed only by the removed section and the gallic and cappadocian quotation notes.
+- What would justify taking it up: evidence that reworded quotes match the index's opening words, rather than the voice's own habit.
