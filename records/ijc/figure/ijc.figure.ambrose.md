@@ -40,7 +40,7 @@ dates:
     enough to be recorded, not a general rule); the Altar of Victory exchange 384; the basilica standoff
     386; Callinicum 388; Thessalonica and the emperor''s penance 390'
 narratable: true
-bridge_line: "He went from governor to bishop in about a week, by his Vita's telling. Later, in a church the court wanted taken, he told the people: \"The Emperor is within the Church, not above it.\""
+bridge_line: "He went from governor to bishop in about a week, by his Vita's telling. Later, in a church the court wanted taken, he told the people that the emperor is within the Church, not above it."
 ---
 Strand C's whole documented substance. Author Gravity per the reviewed
 Doc_02 SS2, carried on every use: self-authored accounts of his own
