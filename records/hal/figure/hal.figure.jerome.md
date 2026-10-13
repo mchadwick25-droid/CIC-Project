@@ -38,9 +38,10 @@ dates:
   floruit: 'Rome 382-385 (secretary and scriptural adviser to Damasus; the Aventine circle);
     Bethlehem 386-420 (the monastery, the translation project, the controversies)'
 narratable: true
-bridge_line: the scholar at the world's center - translator, letter-writer, and fierce
-  disputant, whose authority rested on learning and patronage, never on office, and whose
-  hand wrote nearly everything this world left behind
+bridge_line: >-
+  the scholar at the center of it all: translator, letter-writer, and fierce
+  arguer. His authority rested on learning and patronage, never on a bishop's
+  seat. His hand wrote nearly all that survives of the circle
 ---
 SYSTEMIC AUTHOR-GRAVITY FLAG (operative through every later step, the hal
 counterpart of Alexandria's Origen flag): Jerome authored, or is the

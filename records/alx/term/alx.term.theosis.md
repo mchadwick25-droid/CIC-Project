@@ -28,8 +28,7 @@ relations:
   target: alx.gravity.soul-transformation
 - type: associated-with
   target: alx.quote.athanasius-made-god
-plain_meaning: 'Becoming like God: sharing in God''s own life, as far as a creature can. Not becoming
-  a god.'
+plain_meaning: "Becoming like God: sharing in God's own life, as far as a creature can. Athanasius wrote that the Word became man that we might be made God."
 world_word: theosis
 false_friend:
 - becoming a god (polytheism)
@@ -39,7 +38,7 @@ senses:
     we might be made God'' is its charter sentence.'
   evidential: Athanasius's De incarnatione 54 states it plainly (verified verbatim in the vendored edition);
     Clement and Origen carry the same horizon in ascent language.
-  personal: 'The promise is not self-improvement but transformation: God''s own life shared with you.'
+  personal: "The promise was not self-improvement but transformation. It was God's own life shared with you."
   translational: '''Saved'' in this world means more than pardoned - it means made alive with God''s own
     life.'
 quick_meaning: Sharing in God's own life - the goal of the whole path.

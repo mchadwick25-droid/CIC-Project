@@ -20,9 +20,7 @@ retrieval:
   tier: 3
   retrieve_when: []
 relations: []
-detail: 'At Bagai, in 394, more of our own bishops gathered in one place than most towns of Roman North
-  Africa saw in a generation: three hundred and ten of them, meeting as a single council in one place,
-  at one time.'
+detail: 'In 394, three hundred and ten of our own bishops met at Bagai. They sat as one council, in one place, at one time.'
 formation_claim_barred: true
 ---
 Doc_04_Gravity_Discovery.md SS3.6 and Doc_05 SS4 ('the party's own much larger council at Bagai (394)... 310 bishops strong' -- the specific numeral traced to Augustine's own primary text, the same source don.story.bagai-reconciliation cites). This record states only the bare physical/logistical scale of the gathering itself (this many people, in one place, at one time) -- the council's own verdict and T2's own doctrinal content (the Maximianist reception without rebaptism or reordination) are already fully stated at don.gravity.purity-rigor-vs-institutional-reception and don.story.bagai-reconciliation, and are not restated or re-argued here. canon_cells: [] and relations: [], matching the fixture precedent.

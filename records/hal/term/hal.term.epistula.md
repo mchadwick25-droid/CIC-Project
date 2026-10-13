@@ -40,13 +40,9 @@ senses:
     entirely letters because Jerome''s letters were kept. Its real formative role is independently
     supported by what the letters DO: answer questions, direct discipline, hold the two poles together
     for decades.'
-  personal: '"I am far from everyone I love" was this world''s ordinary condition after 385 - and
-    its answer was ink: the next letter, the next dedication, the next question sent across the sea.'
-  translational: Closer to spiritual direction and theological argument than to correspondence in
-    the casual modern sense - a letter here could run to a treatise, and was often written to be
-    copied and shared.
-quick_meaning: The letter as our lifeline - teaching, guidance, and belonging carried across
-  the sea.
+  personal: "After 385 the community lived far from many people it loved. Its answer was the next letter, the next dedication, the next question sent across the sea."
+  translational: "A letter here was closer to spiritual direction and theological argument than to casual mail today. It could run as long as a treatise."
+quick_meaning: "The letter. It carried teaching, guidance, and belonging across the sea."
 distortion_risk: medium
 relations:
 - type: associated-with

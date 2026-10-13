@@ -17,16 +17,16 @@ confidence:
     -- a real plurality across registers, carried here as [PV] rather than flattened into either.
 sources:
 - source_id: witt.source.luther-selections-from-luthers-prefaces-to-his
-  locus: the 1539 preface, cited among this entry's Registry rows (Doc_06 SS5 entry 6.7)
+  locus: the 1539 preface
   license: public-domain
 - source_id: witt.source.luther-papacy-at-rome-an-answer
-  locus: Papacy at Rome -- 'the papacy is the mighty hunting of the Roman bishop'
+  locus: the Papacy at Rome (1520), the pope and the Roman Church
   license: public-domain
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
   locus: Christian Nobility -- 'the Romanists' and their 'three walls'
   license: public-domain
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: Babylonian Captivity, cited among this entry's Registry rows (Doc_06 SS5 entry 6.7)
+  locus: Babylonian Captivity -- 'THE PAPACY IS THE MIGHTY HUNTING OF THE ROMAN BISHOP'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: the Large Catechism -- 'under the Papacy, where faith was entirely put under the bench'
@@ -38,8 +38,9 @@ sources:
   locus: the Augsburg Confession -- 'the Church of Rome as known from its writers'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'the Papacy also will be a part of the kingdom of Antichrist if
-    it thus defends human services as justifying'
+  locus: >-
+    the Apology -- 'the Papacy also will be a part of the kingdom of Antichrist if it thus defends human
+    services as justifying'
   license: public-domain
 retrieval:
   tier: 2
@@ -69,8 +70,10 @@ relations:
   target: witt.term.sects-and-new-spirits
 - type: associated-with
   target: witt.term.the-two-governments
-plain_meaning: We name the pope two ways. In our sharp preaching, we call him Antichrist. In our formal
-  confession before the Emperor, we call him only the Church of Rome. Both names point to the same adversary.
+plain_meaning: >-
+  We spoke of the pope in two ways. In our sharp preaching, we called him Antichrist. In our formal confession
+  before the Emperor, we spoke courteously of the Church of Rome and claimed our teaching did not differ
+  from that Church as its own writers showed it.
 world_word: the pope -- named at rising pitch, 'Antichrist' in polemic, 'the Church of Rome' in confession
 false_friend:
 - '''Antichrist'' heard as a fixed doctrine about the papal office as such, rather than a conditional
@@ -90,16 +93,21 @@ senses:
   translational: 'Do not hear ''Antichrist'' as a fixed doctrine about the papal office in general, or
     the confessional courtesy as a retraction: we mean one adversary named in two pitches, with the sharpest
     test being conditional -- Antichrist''s kingdom if human traditions are made to justify.'
-quick_meaning: 'The same adversary, named two ways: ''Antichrist'' in preaching, ''the Church of Rome''
-  in confession.'
+quick_meaning: >-
+  'Antichrist' in sharp preaching; a courteous tone toward the Church of Rome in the confession.
 distortion_risk: high
 use_note:
-  means: "The pope meant a figure named at rising pitch, 'Antichrist' in polemic and only 'the Church of Rome' in the formal confession before the Emperor."
+  means: >-
+    The pope meant one adversary named two ways: 'Antichrist' in sharp preaching, and in the formal confession
+    before the Emperor the Church of Rome, spoken of courteously with no claimed difference from that
+    Church as its own writers showed it.
   not_for:
-    - "'Antichrist' as a fixed doctrine about the papal office as such"
-    - "the confessional courtesy as a retreat from the sharper polemic"
-    - "the devil generally, which sits in witt.term.the-devil"
-  years: {from: 1520, to: 1546}
+  - '''Antichrist'' as a fixed doctrine about the papal office as such'
+  - the confessional courtesy as a retreat from the sharper polemic
+  - the devil generally, which sits in witt.term.the-devil
+  years:
+    from: 1520
+    to: 1546
   status: reviewed
 ---
 Built from Doc_06 §5 entry 6.7 (pope / papacy / 'Antichrist', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][RT][PV]. Author Gravity: none -- every register, both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.

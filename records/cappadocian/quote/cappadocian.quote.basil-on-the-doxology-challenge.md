@@ -118,8 +118,8 @@ argument from either scripture (ch. 10) or unwritten custom (ch. 27).
 
 This passage backs cappadocian.dw.confession-not-a-vote directly and
 narrows the association to a single specific claim within that dw: the
-dw states that when Basil "changed one small word in a familiar prayer
-... he was accused of going too far" - and this is Basil's own,
+dw states that when Basil used two forms of a familiar prayer side by
+side, he was accused of bringing in new words - and this is Basil's own,
 first-person account of exactly that accusation and exactly that
 occasion, in his own opening words to Amphilochius, rather than a later
 retelling. Where the dw's own cited story record and the already-quoted

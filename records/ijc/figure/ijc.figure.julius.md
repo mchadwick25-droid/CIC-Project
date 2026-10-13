@@ -27,9 +27,7 @@ dates:
   floruit: bishop of Rome 337-352; the letter to the Eusebian party (the anti-Nicene faction named for
     Eusebius of Nicomedia, not Eusebius of Caesarea the historian) 341
 narratable: true
-bridge_line: the bishop of Rome who wrote, a generation before Damasus, as though Rome's review of another
-  church's judgment were ancient custom - this world's own window's earliest surviving voice of the claim
-  (earlier Roman assertions exist outside it - Victor c.190, Stephen 256 - not this world's own material)
+bridge_line: "The bishop of Rome who wrote in 341 as if Rome's right to review another church's judgment were old custom. In our window, his is the earliest surviving voice of that claim. Earlier Roman claims (Victor, about 190; Stephen, 256) fall outside it."
 ---
 Strand A's earliest attested claimant. His one load-bearing document
 survives only inside Athanasius's Apologia (doubly mediated - Julius's

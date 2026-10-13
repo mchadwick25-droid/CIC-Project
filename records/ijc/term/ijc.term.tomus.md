@@ -35,8 +35,7 @@ relations:
 - {type: associated-with, target: ijc.term.homoousios}
 - {type: associated-with, target: ijc.term.communio}
 - {type: associated-with, target: ijc.term.concilium}
-plain_meaning: 'A Tome: a letter that settles doctrine, carrying the full standing of the church that sends it.
-  Leo''s went ahead of him to Chalcedon. Those who received it rightly heard the see of Peter speaking.'
+plain_meaning: "A Tome is a letter that settles doctrine and carries the full standing of the church that sends it. Leo's reached Chalcedon without him, and those who received it heard the see of Peter speaking."
 world_word: Tomus
 distortion_risk: low
 false_friend:
@@ -49,11 +48,8 @@ senses:
   evidential: 'The Tome''s text and its reception survive in the record. Honestly noted: it is the record''s
     only fully-realized example of its own genre in this world - one document serving as both the instance
     and the definition of what a Tome is.'
-  personal: For its bearers and defenders, the letter was the see made portable - Peter's voice traveling
-    where Peter's successor did not.
-  translational: '"Was the Bible your only authority?" - this world answered doctrine through scripture
-    read with creed, council, and see together; a Tome is what that looks like as a single document: scriptural
-    argument carried by institutional standing.'
+  personal: "For its bearers and defenders, the letter was the see made portable. Peter's voice reached a council where Peter's successor did not go."
+  translational: "\"Was the Bible your only authority?\" Doctrine was settled by scripture read together with creed, council, and see. A Tome shows that in one document: scriptural argument carried by the standing of a see."
 quick_meaning: A doctrine-settling letter that carries the full weight of the church that sends it.
 use_note:
   means: "A Tome is a letter that settles doctrine and carries the full standing of the church that sends it, as Leo's did at Chalcedon."

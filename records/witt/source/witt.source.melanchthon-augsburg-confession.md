@@ -17,6 +17,7 @@ relations: []
 author: Melanchthon (drafter)
 work: The Augsburg Confession
 edition: '(1530), Project Gutenberg #275, translator unconfirmed; vendored as cic/texts/melanchthon_augsburg-confession_anon-pg275.txt'
+citation: 'Melanchthon (drafter), The Augsburg Confession (1530), Project Gutenberg #275'
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

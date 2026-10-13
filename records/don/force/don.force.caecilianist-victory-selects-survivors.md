@@ -22,18 +22,16 @@ confidence:
     is explicitly not resolved.
 sources:
 - source_id: don.source.tyconius-liber-regularum
-  locus: the one substantial independently-surviving interpretive text, whose own survival mechanism Doc_02
-    SS2 declines to resolve
+  locus: 'the one substantial interpretive text of this world that survives on its own; how it survived is not known'
   license: public-domain
 - source_id: don.source.passio-marculi
-  locus: part of the small independently-surviving remainder, reaching this construction through Mabillon's
-    own editorial apparatus
+  locus: 'part of the small remainder that survives on its own, known through Mabillon''s edition'
   license: public-domain
 - source_id: don.source.deo-laudes-acclamation
   locus: the material record that survived largely because it was never textual to begin with
   license: public-domain
 - source_id: don.source.liber-genealogus
-  locus: a further item of the independently-surviving remainder, not yet inventoried when Doc_01 was drafted
+  locus: 'an anonymous African chronicle appendix of the early fifth century; its Donatist origin is assumed, not shown by the text'
   license: public-domain
 relations:
 - type: enabled-by
@@ -82,8 +80,7 @@ description: >-
 manifestations:
 - the victorious party's institutional dominance determining what got copied at all
 - Donatist literature surviving almost entirely as quotation inside its own refutations
-- the small independently-surviving remainder - Tyconius's Liber Regularum, the Passio Marculi, the Passio
-  Isaac et Maximiani, the commemorative sermon, the Liber genealogus
+- the small independently-surviving remainder - Tyconius's Liber Regularum, the Passio Marculi, the Passio Isaac et Maximiani, the commemorative sermon
 - the Deo laudes acclamation surviving because it was never textual to begin with
 - the martyr texts reaching this construction through Mabillon's own 17th-century editorial apparatus and
   Migne PL 8, a chain not traced further back

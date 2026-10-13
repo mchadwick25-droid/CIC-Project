@@ -8,10 +8,14 @@ register: emic
 canon_cells: []
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   evidentiary_weight: illustrative
   formation_confidence: Contested
-  divergence_note: "Contested/traditional for the popular legend (the conversion numbers, the night-vision creed) - a century-later hagiography, Tier 3 by this world's own standard. Documented and distinct from the legend: his own Canonical Epistle genuinely survives and is his (Doc_02 §1.6); the Address of Thanksgiving to Origen is traditionally his, with attribution questioned in recent scholarship (Contested)."
+  divergence_note: 'Contested/traditional for the popular legend (the conversion numbers, the night-vision
+    creed) - a century-later hagiography, Tier 3 by this world''s own standard. Documented and distinct
+    from the legend: his own Canonical Epistle genuinely survives and is his (Doc_02 §1.6); the Address
+    of Thanksgiving to Origen is traditionally his, with attribution questioned in recent scholarship
+    (Contested).'
 sources:
 - source_id: cappadocian.source.gregory-nyssa-life-of-gregory-thaumaturgus
   locus: "the conversion-numbers legend and the creed's night-vision origin"

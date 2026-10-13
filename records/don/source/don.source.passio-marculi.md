@@ -24,6 +24,7 @@ author: Anonymous (Donatist)
 work: Passio Marculi -- the passion of Marculus, killed under the imperial commissioner Macarius
 edition: J.-P. Migne (ed.), Patrologia Latina vol. 8, the Monumenta Vetera ad Donatistarum historiam pertinentia;
   vendored (relevant excerpt only) as cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt
+citation: Anonymous (Donatist), Passio Marculi, ed. J.-P. Migne, Monumenta Vetera ad Donatistarum historiam pertinentia, Patrologia Latina vol. 8
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: anonymous. The Donatist designation comes from Mabillon's and Migne's own descriptive

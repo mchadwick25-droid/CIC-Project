@@ -25,12 +25,10 @@ confidence:
     exists in the corpus to repoint to.'
 sources:
 - source_id: don.source.optatus-against-donatists
-  locus: Book III -- the Vassall-Phillips English translation; cic/texts/optatus_against-the-donatists.txt,
-    line 1904
+  locus: Book III, chapter 3 -- the Vassall-Phillips English translation
   license: public-domain
 - source_id: don.source.ziwsa-critical-edition-optatus
-  locus: 'Book III -- the Latin original, corrupted by OCR at this line (''qnid est imperatori cuni ecelesia?'');
-    cic/texts/optatus_libri-vii-critical_ziwsa1893.txt, line 6557'
+  locus: Book III, chapter 3 -- the Latin original, in Ziwsa's critical edition (CSEL 26)
   license: public-domain
 retrieval:
   tier: 1

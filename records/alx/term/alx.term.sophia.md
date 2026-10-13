@@ -43,10 +43,8 @@ senses:
   evidential: Clement's Stromateis gives the fullest portrait of the wise Christian - the gnostikos - as
     integrated knowledge, love, and transformed perception; the Protrepticus names the wisdom philosophy
     sought as found in Christ the Logos.
-  personal: A formed life is recognized less by its correct positions than by whether it loves well, perceives
-    clearly, and forgives without calculation.
-  translational: '''How do you know someone is spiritually mature?'' - not by checking their doctrine,
-    but by watching whether the quality of their life shows real contact with God.'
+  personal: "A formed life was known less by its correct positions than by whether it loved well, saw clearly and forgave freely."
+  translational: "'How do you know someone is spiritually mature?' - not by checking doctrine alone, but by watching whether the quality of their life shows real contact with God."
 quick_meaning: What formation grows in a soul, seen in how it loves and lives.
 distortion_risk: medium
 use_note:

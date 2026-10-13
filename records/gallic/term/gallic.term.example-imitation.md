@@ -127,7 +127,7 @@ quick_meaning: >-
   we wrote Lives, and why Cassian set down what the elders taught.
 distortion_risk: medium
 use_note:
-  means: "Example meant formation by copying a named man, seen or read, which is why the books of this world are Lives."
+  means: "Example meant formation by copying a named man, seen or read, which is why Lives were written and why Cassian set down what the elders taught."
   not_for:
     - "an illustration in an argument"
     - "a role model freely chosen and admired from a distance"

@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Epistula 45, to Asella (August 385): Jerome's farewell defense written as he left Rome under clerical hostility - his own account of the slander against him and of his relationship to Paula and the ascetic circle"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id v.XLV"
+citation: Jerome, Epistula 45, to Asella, trans. W.H. Fremantle, Nicene and Post-Nicene Fathers, 2nd series, vol. 6 (1893)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

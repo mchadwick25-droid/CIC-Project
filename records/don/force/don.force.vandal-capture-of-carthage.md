@@ -25,8 +25,7 @@ sources:
   locus: the Roman-imperial, Catholic-aligned adjudicating power whose removal in 439 closes this window
   license: public-domain
 - source_id: don.source.turchi-gregorii-magni-epistolae-selectae
-  locus: Gregory's 590s letters - the record's own far end, showing the contest continuing well past 439;
-    Registry row 54
+  locus: 'Gregory''s letters of the 590s, showing the contest still alive well after 439'
   license: public-domain
 relations:
 - type: precondition-for

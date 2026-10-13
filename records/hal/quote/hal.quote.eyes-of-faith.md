@@ -23,11 +23,10 @@ text: 'she protested in my hearing that she could behold with the eyes of faith 
   worshipping Him, the star shining overhead, the virgin mother, the attentive
   foster-father, the shepherds coming by night'
 modern_rendering: >-
-  She told me this herself, and I heard her say it. With the eyes of faith,
-  she said, she could see it all: the infant Lord wrapped in cloths and
-  crying in the manger, the wise men worshipping him, and the star shining
-  overhead. She could see the virgin mother and the watchful foster-father
-  too, and the shepherds coming by night.
+  In my hearing she declared that, with the eyes of faith, she could see the infant Lord
+  wrapped in cloths and crying in the manger. She could see the wise men worshipping him
+  and the star shining overhead. She could see the virgin mother, the watchful
+  foster-father, and the shepherds coming by night.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"The eyes of faith" names imaginative, devotional perception - not a claim to literal eyesight of the Nativity scene, which the surrounding text (a cave centuries later) rules out on its own.'

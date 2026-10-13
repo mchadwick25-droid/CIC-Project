@@ -27,8 +27,7 @@ dates:
   floruit: the emblem of the emerging desert movement, c. 270-356; known to this world chiefly through
     Athanasius's portrait (c. 356-362)
 narratable: true
-bridge_line: the farmer who gave everything away and went out - the figure through whom this city's church
-  told itself what the desert meant
+bridge_line: the landowner's son who gave his land away and went out - the man through whom this city's church saw what the desert meant
 ---
 CROSS-BUILD FLAG at full strength: Antony belongs at least as much to
 the Desert world (the planned second build) as to Alexandria, and the

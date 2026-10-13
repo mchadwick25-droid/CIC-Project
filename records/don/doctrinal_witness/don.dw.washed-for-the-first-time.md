@@ -19,7 +19,7 @@ confidence:
     a dying catechumen described as a boy, which establishes that unbaptized young people were among us
     and establishes nothing about whether infants were washed - the record says exactly that much and
     no more. On giving and on the end of the world, nothing whatever survives from us. The one man among
-    us reported to have expounded the Apocalypse is the man our own council condemned, and his commentary
+    us reported to have expounded the Apocalypse is the man our own council is reported to have condemned, and his commentary
     is not part of this compilation at all.
 sources:
 - source_id: don.source.augustine-on-baptism-against-the-donatists
@@ -35,7 +35,7 @@ sources:
   locus: a boy, a catechumen not yet baptized, dying inside the seized basilica and asking for help
   license: public-domain
 - source_id: don.source.tyconius-liber-regularum
-  locus: the one interpretive work produced among us, by the man our own council condemned
+  locus: the one interpretive work produced among us, by the man our own council is reported to have condemned
   license: public-domain
 retrieval:
   tier: 2
@@ -47,20 +47,20 @@ text: >-
   Yes, we were born again, and we would fight over the arithmetic. The
   other side says again. We say for the first time. If you came to us
   from the other communion you had already been through the water once,
-  with words said over you and witnesses standing there, and we held
-  that nothing whatever had happened, because the hand that did it came
-  out of a broken line. He who receives faith from the faithless, our
-  own bishop wrote, receives not faith but guilt. So we did not wash you
-  a second time. We washed you.
+  with words said over you, and we held that nothing whatever had
+  happened, because the hand that did it came out of a broken line. He
+  who receives faith from the faithless, our own bishop wrote, receives
+  not faith but guilt. So we did not wash you a second time. We washed
+  you.
 
 
   And it was a real crossing, not a way of describing a change of heart.
-  It happened once, on a day you could name, in front of people who could
-  see which building you had walked into, and afterwards you were in one
-  church and out of another. Whole imperial edicts were written against
-  that single act, which is a strange kind of compliment: the state
-  understood perfectly well that it was the one thing we did that made
-  the peace it wanted impossible.
+  It happened once, on a day you could name, in front of people who
+  could see which building you had walked into, and afterwards you were
+  in one church and out of another. Whole imperial edicts were written
+  against that single act, which is a strange kind of compliment: the
+  state understood perfectly well that it was our plainest refusal of
+  the peace it wanted.
 
 
   Whether babies were washed, or only adults choosing for themselves, we
@@ -75,19 +75,20 @@ text: >-
 
 
   Nothing survives on tithing or on how we decided what to give. Money
-  moved among us - a wealthy woman's silver bought a consecration, a
-  bishop left the church's whole treasury with laymen and an inventory
-  with an old woman, a fuller paid twenty pieces to be made a priest -
-  but every one of those reaches you out of a corruption inquiry, and
-  none of it is a rule about giving.
+  moved among us - a wealthy woman's silver is said to have bought a
+  consecration, a bishop left the church's whole treasury with laymen
+  and an inventory with an old woman, a fuller is said to have paid
+  twenty pieces to be made a priest - but every one of those reaches you
+  inside an accusation of corruption, and none of it is a rule about
+  giving.
 
 
   The end of the world we cannot speak to at all. One man among us is
   reported to have expounded the Apocalypse entire, taking nothing in it
-  in a bodily sense. He is the man our own council condemned, that
-  commentary is not among the things this telling has read, and it would
-  be dishonest to make him our voice on the last things when we would not
-  let him speak on anything else.
+  in a bodily sense. He is the man our own bishop told to stop
+  preaching, and our council is reported to have condemned him. That
+  commentary is not among the things this telling has read. It would be
+  dishonest to make him our voice on the last things.
 positions:
 - we would describe the washing as a first baptism rather than a second, on the ground that a rite from
   a broken line conferred nothing at all

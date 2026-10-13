@@ -732,3 +732,31 @@ Outside the spoken-field scope of OG-27, or left by choice. Each item names the 
 11. Cap-ruling recheck of the two rewritten force descriptions (`..._review_cap-ruling_2026-10-13.md`, PASS): remaining non-blocking wording, each of which would drop the field under FRE 60 if restored: "Christ came from God" where 1 Clement 42 has "sent"; "exactly" dropped; "drove the push" (a slightly stronger causal link); "specifically" became "above all". Separately, the sentence that Ignatius's anti-docetic argument answers rivals who came after his conventional date is copied word for word from the approved Doc_08 (l.127); the fix belongs in Doc_08.
 
 Status: OPEN.
+
+### OG-29. Use notes that contradicted the corrected wording, 2026-10-13.
+
+The record audit fixes (merged under the entry Record audit fixes: source drift, AI-tell wording and source citation lines, 2026-10-13) corrected the spoken fields but left `use_note.means`, which the evidence block gives the voice, unchanged. Mark ruled on 13 October that `means` changes only where it contradicts the record's own corrected fields or its vendored source. Eight records changed; `not_for`, `years`, `status` and every other field are untouched.
+
+- `pahc.story.first-clement-corinthian-dispute`: `means` said the letter was "unrequested" and argued the elders "should be restored"; `tellable_as` now says only that Rome argues men who served blamelessly should not have been removed.
+- `pahc.story.martyrdom-of-polycarp`: `means` said a "yearly gathering where his bones were kept"; `tellable_as` now says the church hoped to gather each year where his bones were laid.
+- `pahc.story.nero-scapegoating`: `means` said Tacitus calls them "Chrestiani"; the corrected text says the crowd called them Christians.
+- `pahc.story.one-eucharist-under-bishop`: `means` said only "the bishop's own eucharist" is valid and that members follow the bishop "as one follows Christ"; the corrected `tellable_as` says the eucharist the bishop led or allowed, and that the bishop is followed as Jesus Christ follows the Father.
+- `pahc.story.hermas-visions`: `means` said "a freedman"; the corrected text says Hermas says he was once sold as a slave.
+- `pahc.witness.reading-scripture`: `means` said "chiefly the prophets read as pointing to Christ, alongside apostolic memoirs"; the corrected text follows Justin: the memoirs of the apostles or the writings of the prophets, as time allowed.
+- `pahc.term.diakonos`: `means` said deacons carry help to the widow, the prisoner and the stranger; the corrected fields say only that in Justin's Rome they carried a share of the thanksgiving meal to members who could not come.
+- `pahc.term.two-ways`: `means` said the choice is "chosen daily"; the corrected fields drop that and say there are two ways, one of life and one of death, with a great difference between them.
+
+Checked and left alone: every other `means` in the records changed by the wording passes agrees with its corrected fields.
+
+Status: CLOSED.
+
+### OG-30. Correction to the use-note entry, 2026-10-13.
+
+The independent review of the entry Use notes that contradicted the corrected wording, 2026-10-13 required these changes, now applied to `use_note.means` only.
+
+- `pahc.story.nero-scapegoating`: the attribution is restored. `means` says Tacitus wrote that Nero blamed the group, since whether it happened is Contested.
+- `pahc.story.first-clement-corinthian-dispute` and `pahc.story.hermas-visions`: past tense ("wrote ... arguing", "reported").
+
+Still OPEN, not edited: the `senses.informational` text of `pahc.term.diakonos` gives deacons the work for the widow, the orphan and the prisoner, which Justin (First Apology 67) gives to the president; the deacons there carry the elements to the absent.
+
+Status: CLOSED for the `means` changes; OPEN for `pahc.term.diakonos` `senses.informational`.

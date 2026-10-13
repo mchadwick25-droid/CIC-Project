@@ -20,7 +20,9 @@ confidence:
     household under this program said these same words.
 sources:
 - source_id: witt.source.luther-small-catechism
-  locus: "The Second Article, On Redemption, and its own explanation (cic:luther_small-catechism_smith1994.txt lines 186-205): the creed's own confession and the household's own 'I believe that Jesus Christ is truly God... and also truly man'"
+  locus: >-
+    The Second Article, On Redemption, and its own explanation: the creed's own confession and the household's
+    own 'I believe that Jesus Christ is truly God... and also truly man'
   license: public-domain
 retrieval:
   tier: 1
@@ -62,19 +64,19 @@ modern_lens_note: >-
   "truly man" in the same sentence is not a philosophical puzzle to us; it is why the price could be paid
   at all.
 modern_rendering: >-
-  And I believe in Jesus Christ, God's only Son, our Lord. He was conceived by the Holy Spirit and born
-  of the Virgin Mary. He suffered under Pontius Pilate, was crucified, died, and was buried. He went down
-  to Hell. On the third day he rose again from the dead. He went up to heaven and sat down at the right
-  hand of God the Almighty Father. From there he will come to judge the living and the dead.
+  And in Jesus Christ, his only Son, our Lord. He was conceived by the Holy Spirit and born of the Virgin
+  Mary. He suffered under Pontius Pilate, was crucified, died and was buried. He descended to Hell. On
+  the third day he rose again from the dead. He ascended to Heaven and sat down at the right hand of God
+  the Almighty Father. From there he will come to judge the living and the dead.
 
   What does this mean?
 
-  I believe that Jesus Christ is truly God, born of the Father before time began, and just as truly man,
-  born of the Virgin Mary. He is my Lord. He redeemed me, a lost and condemned person. He bought me and
-  won me from every sin, from death, and from the devil's power. It did not cost him gold or silver. It
-  cost him his holy, precious blood, his innocent body -- his death. Because of this I am his very own. I
-  will live under him in his kingdom. I will serve him forever in righteousness, innocence, and
-  blessedness, just as he is risen from death and lives and reigns forever. Yes, this is true.
+  I believe that Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of
+  the Virgin Mary. He is my Lord! He redeemed me, a lost and condemned person. He bought me and won me
+  from all sins, from death and from the authority of the Devil. It did not cost him gold or silver, but
+  his holy, precious blood, his innocent body -- his death! Because of this, I am his very own. I will
+  live under him in his kingdom. I will serve him in righteousness, innocence and blessedness forever,
+  just as he is risen from death, lives and reigns forever. Yes, this is true.
 relations:
 - type: associated-with
   target: witt.dw.truly-god-and-truly-man

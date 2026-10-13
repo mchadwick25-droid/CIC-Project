@@ -37,8 +37,9 @@ text: >-
   teachers argued. They used books, lectures, and letters. Authority
   went to proven wisdom. In the middle years, the bishop's judgment
   grew. Demetrius condemned Origen's ordination. Dionysius was a teacher
-  who had become bishop. He settled the Arsinoite dispute with three
-  days of public persuasion. The whole countryside listened. At the end
+  who had become bishop. He settled the Arsinoite dispute by sitting
+  with the village presbyters and teachers, and any of the brethren who
+  wished to come, from morning to evening for three days. At the end
   came the council. At Nicaea, bishops from everywhere ruled on the
   disputed confession for all. The emperor called it. He backed it with
   force. Our best picture of deciding well is Dionysius at Arsinoe. It

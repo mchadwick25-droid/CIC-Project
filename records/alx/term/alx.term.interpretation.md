@@ -45,12 +45,8 @@ senses:
   evidential: Origen treats Scripture's depths as genuinely present but received only at the depth
     formation allows; Clement's mature reader perceives what years of formation have made perceptible in
     the very same text a beginner reads.
-  personal: The same passage read by a catechumen and by someone decades into formation is not read the
-    same way - not because the words changed, but because what each reader can receive has changed.
-  translational: >-
-    Isn't interpreting Scripture just applying the right method to figure out what it means? This world
-    located the change elsewhere - in the reader, met by the text at whatever depth their own formation
-    has opened, not settled once by the right technique.
+  personal: "The same passage read by a catechumen and by someone decades into formation was not read the same way. The words had not changed. What each reader could receive had."
+  translational: "Isn't interpreting Scripture just applying the right method to find what it means? This world located the change elsewhere: in the reader, met by the text at whatever depth formation had opened, not settled once by the right technique."
 quick_meaning: Not textual analysis - meeting the Logos who speaks through Scripture.
 distortion_risk: high
 use_note:

@@ -16,8 +16,8 @@ confidence:
     pass (LC 521-680); Luther-only, cross-register, confirmed.
 sources:
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, First Commandment, now read entire -- 'a god means that from which we are
-    to expect all good'
+  locus: >-
+    the Large Catechism, First Commandment -- 'a god means that from which we are to expect all good'
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism -- 'we must fear, love, and trust God more than anything else'

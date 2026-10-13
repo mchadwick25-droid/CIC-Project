@@ -20,9 +20,9 @@ confidence:
     inventory itself established and no further. The existence of the Circumcellions is independently settled
     by imperial legislation; their character is not, and the two must never be merged.'
 sources:
-- source_id: don.source.optatus-appendix-of-documents
-  locus: the Donatist petition against the Macarian persecution, at cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt
-    lines 1934-2195 - named but not read by this step
+- source_id: don.source.optatus-against-the-donatists
+  locus: Optatus, Against the Donatists III.4 - the passage naming Axido and Fasir, the killings at
+    Octavum and the priest Clarius
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
   locus: 16.5.52 - circumcelliones fined ten pounds of silver, the only rank in the schedule assessed in
@@ -38,8 +38,9 @@ dates:
     petition reproduced in Optatus's appendix material, alongside the Octavensis killings and a priest named
     Clarius
 narratable: false
-bridge_line: Two named leaders of the Circumcellions - called leaders of the saints in one text and marauders
-  in another, with nothing surviving that would let anyone settle which.
+bridge_line: Two named leaders of the Circumcellions. Their followers are said to have called them
+  captains of the saints. The hostile writer who names them describes a reign of terror. Nothing from
+  their own side survives to say which is true.
 relations: []
 ---
 narratable: false IS THE POINT OF THIS RECORD, and it is a deliberate

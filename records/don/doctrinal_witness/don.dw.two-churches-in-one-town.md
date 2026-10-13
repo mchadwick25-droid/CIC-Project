@@ -50,27 +50,27 @@ text: >-
   short answer, and the size of it is the part people get wrong. In the
   summer of 411 an imperial officer had both communions counted in one
   room, and the roll was read name by name: two hundred and seventy-nine
-  of ours stood up, against two hundred and eighty-six of theirs. That is
-  not a movement. That is one whole church facing another whole church,
-  see for see, down to towns you have never heard of.
+  of ours stood up, against two hundred and eighty-six of theirs. That
+  was one whole church facing another whole church, see for see, down to
+  towns you have never heard of.
 
 
-  A man came to hold that authority through the people and the bishops
-  together. Here is what that looked like when it went wrong. At Cirta,
-  when Silvanus was being made bishop, the people shouted back - let it
-  be another; hear us, God - and he was made bishop anyway, and a court
-  heard about it years later from a man who said, I myself fought
-  against his being made bishop. So a crowd could be overridden. It
-  could not be ignored.
+  Two scenes show how a man came to hold that authority, and in both the
+  people and the bishops took part. Here is one that went wrong. At
+  Cirta, when Silvanus was being made bishop, the people shouted back -
+  let it be another; hear us, God - and he was made bishop anyway, and a
+  court heard about it years later from a man who said, I myself fought
+  against his being made bishop. So a crowd could object, and still be
+  overridden.
 
 
   "Spread so far, so fast" is not what happened to us. We did not travel
   out and win Africa. The split ran straight down through a church
   already there. In Numidia we were not the minority meeting quietly; we
-  were simply the church of the village, and the other party was the
-  newcomer. Our own councils were large enough to be governments: three
-  hundred and ten bishops met at Bagai in one year, condemned a rival
-  primate, and later received two of his bishops back.
+  were simply the church of the village. Our own councils were large
+  enough to be governments: three hundred and ten bishops met at Bagai
+  in one year, condemned a rival primate, and later received two of his
+  bishops back.
 
 
   Less survives of our gatherings than you would think. We know the
@@ -84,12 +84,11 @@ text: >-
   Sunday between those things, we have almost nothing.
 
 
-  The danger was not a daily terror; it was a standing condition. Every
-  see we held was held under law that did not recognise it. Basilicas
-  were confiscated, clergy exiled, our country members fined by name in
-  imperial legislation, and every so often the pressure came to a point
-  and troops arrived. You did not live afraid every morning. You lived
-  knowing it could tip, because it had.
+  The danger was a standing condition. From 405 every see we held was
+  held under law that did not recognise it. Basilicas were confiscated,
+  clergy exiled, our country members fined by name in imperial
+  legislation, and every so often the pressure came to a point and
+  troops arrived. You lived knowing it could tip, because it had.
 positions:
 - 'authority ran through bishops and through councils with real disciplinary force, and the structure was a
   complete duplicate hierarchy: 279 of our bishops against 286 of theirs, counted by name in one room'

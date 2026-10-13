@@ -38,8 +38,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): both si
 tellable_as: the Altar of Victory debate of 384 - the old religion's most eloquent plea, and the
   church's answer, both in their own words
 text: >-
-  The altar of Victory had stood in the Senate house for centuries. The
-  emperors had it removed. In the year 384, Symmachus, prefect of Rome and the
+  The altar of Victory stood in the Senate house. Constantius had it removed, Julian put it back, and Gratian removed it again. In the year 384, Symmachus, prefect of Rome and the
   old religion's most eloquent voice, petitioned the young emperor to bring it
   back. His plea survives, grave and moving: Rome's ancient worship had
   guarded Rome's ancient greatness, and so great a secret could not be reached

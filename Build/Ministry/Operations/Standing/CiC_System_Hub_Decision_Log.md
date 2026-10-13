@@ -6490,3 +6490,18 @@ A local test on the `live` code with a fake model and no spend found the streame
 ## 2026-10-13 - Cap ruling: pahc record pass force descriptions
 
 The third review round on the pahc record pass failed two rewritten force descriptions (`pahc.force.apostolic-testimony-inheritance`, `pahc.force.contemporary-rival-movements`) with six blocking findings. The six fixes were applied. The project lead ordered one more targeted recheck of those two descriptions at the cap, run by a fresh Opus reviewer. It is `Build/Ministry/Operations/Audits/pahc_record_audit_fixes_review_cap-ruling_2026-10-13.md` (PASS, no blocking findings). By the cap rule it does not count toward the three review files.
+
+## 2026-10-13 - Change order: review files name the reviewer's generation, not only its tier
+
+**Ruling withdrawn.** Among the rulings on the Cappadocian record pass (Cappadocian Open Gaps, "Rulings on the findings left outside the record pass, 2026-10-13"), the project lead approved letting `engine/m10/reviewfile.py` accept a bare tier name, such as "Opus", in a review file's model fields. That ruling rested on a wrong premise: that a repository file cannot carry the model generation. The checker already accepts "Opus 5.5" and "Claude Opus 5.5", which name the generation without a model identifier string.
+
+**Ruling (13 October, the project lead, in the coordinating session).** The generation pin stays. A review file's reviewer model must name Opus 5.5. The checker is left as it is on `main`. The six Cappadocian review files that wrote a bare "Opus" now say "Opus 5.5", after checking that every review turn in each of them ran on that model.
+
+## 2026-10-13 - Cap ruling: ijc record pass
+
+The ijc record pass reached its three review files (`Build/Ministry/Operations/Audits/ijc_record_audit_fixes_review_round1_2026-10-13.md`, `..._round2_2026-10-13.md`, `..._round3_2026-10-13.md`). An independent review of the pass then asked for seven changes. They were applied, together with the project lead's rulings on the reading-confusion demonstration (its participant turn 2 rewritten) and on Ambrose Letter LXIII (added to the epistles source scope, dated 396). The project lead ordered one more targeted recheck at the cap, run by a fresh Opus reviewer. It is `Build/Ministry/Operations/Audits/ijc_record_audit_fixes_review_cap-ruling_2026-10-13.md`. By the cap rule it does not count toward the three review files.
+
+
+## 2026-10-13 - Cap ruling: don record pass
+
+The review rounds on the don record wording pass reached three files and a fourth was needed for the `use_note.means` pass and the later commits. The project lead ordered one more targeted recheck, run by a fresh Opus reviewer, of those commits (the means corrections, the commentary move and positions rewrite, the changes made after the independent review, and the revert of four build fields and one voice note). It is `Build/Ministry/Operations/Audits/don_record_audit_fixes_review_cap-ruling_2026-10-13.md` (BLOCKING, two findings, both fixed: the count of Gregory's letters that name rebaptism, and a build phrase in a source locus). By the cap rule it does not count toward the three review files. The project lead then ruled that the five reverted build fields be rewritten by Opus for readability with every fact, hedge and attribution kept, and that no further review round follow; the coordinating session checks those fields against the base wording and the sources (OG-36 in `Build/worlds/don/Open_Gaps_Tracking.md`).

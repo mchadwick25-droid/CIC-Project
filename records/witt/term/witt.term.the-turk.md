@@ -17,7 +17,7 @@ confidence:
     own.
 sources:
 - source_id: witt.source.luther-treatise-on-the-new-testament-that
-  locus: the New Testament preface, cited among this entry's Registry rows (Doc_06 SS5 entry 6.9)
+  locus: the New Testament preface
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: the Large Catechism -- 'vanquish the Turks and all enemies'
@@ -45,29 +45,37 @@ relations:
   target: witt.term.pope-and-antichrist
 - type: associated-with
   target: witt.term.prayer
-plain_meaning: We name the Turk as an outside enemy, alongside the pope and unbelief. Our household simply
-  prays against him. We give no other account of him.
+plain_meaning: >-
+  We named the Turk as an outside enemy. Our founder is reported to have said he would pray against the
+  pope and the Turk as long as he lived. Our household prayer asked that rulers vanquish him. We give
+  no other account of him.
 world_word: the Turk -- named with pope and Jews as outside Christianity, one of the devil's instruments
 false_friend:
 - '''the Turk'' heard as a political or ethnic enemy in the modern sense'
 senses:
-  informational: We name the Turk with 'heathen, Turks, Jews, or false Christians and hypocrites'; our
-    confession calls him the 'most atrocious, hereditary, and ancient enemy,' and our household prays
-    to 'vanquish the Turks and all enemies.'
+  informational: >-
+    We name the Turk with 'heathen, Turks, Jews, or false Christians and hypocrites'; our confession calls
+    him the 'most atrocious, hereditary, and ancient enemy,' and our household prays to 'vanquish the
+    Turks and all enemies.'
   evidential: A thin entry -- met in our library by a petition and nothing bodily.
-  personal: One of the devil's three instruments in our own frame, met by us with prayer, not with any
-    bodily account.
-  translational: Do not hear 'the Turk' as a political or ethnic category in the modern sense; we mean
-    one of the devil's instruments, met by a household petition.
-quick_meaning: An outside enemy we pray against, one of the devil's own instruments.
+  personal: >-
+    An outside enemy, named with the pope, and met by us with prayer, not with any bodily account.
+  translational: >-
+    Do not hear 'the Turk' as a political or ethnic category in the modern sense. We mean an outside enemy
+    named with the pope, met by a household petition.
+quick_meaning: An outside enemy we prayed against, named with the pope.
 distortion_risk: medium
 use_note:
-  means: "The Turk meant an outside enemy named alongside the pope and unbelief, one of the devil's instruments, against whom the household simply prays."
+  means: >-
+    The Turk meant an outside enemy we named, against whom the household's one answer in our texts is
+    a prayer that rulers vanquish him.
   not_for:
-    - "'the Turk' as a political or ethnic enemy in the modern sense"
-    - "the devil generally, which sits in witt.term.the-devil"
-    - "a developed account of the Turk, since the world gives none"
-  years: {from: 1520, to: 1546}
+  - '''the Turk'' as a political or ethnic enemy in the modern sense'
+  - the devil generally, which sits in witt.term.the-devil
+  - a developed account of the Turk, since the world gives none
+  years:
+    from: 1520
+    to: 1546
   status: reviewed
 ---
 Built from Doc_06 §5 entry 6.9 (the Turk, Tier 3, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.

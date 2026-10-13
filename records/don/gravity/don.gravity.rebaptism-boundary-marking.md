@@ -20,19 +20,19 @@ confidence:
     claim beyond the letters' own words (Doc_04 SS3.2's own Persistence-test discussion).
 sources:
 - source_id: don.source.augustine-on-baptism-against-donatists
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'On Baptism, Against the Donatists: seven books on the practice'
   license: public-domain
 - source_id: don.source.augustine-answer-to-letters-of-petilian
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Answer to the Letters of Petilian, largely given to the practice'
   license: public-domain
 - source_id: don.source.petilian-of-constantina-letters-quoted
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Petilian''s letters as Augustine quotes them in his reply'
   license: public-domain
 - source_id: don.source.gregory-great-epistolae-selectae-turchi
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Gregory''s letters of 592 and 594 on Donatist rebaptism: in Numidia in 592, in Africa in 594'
   license: public-domain
 - source_id: don.source.code-of-canons-african-church-419
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the canons of the Council of Carthage of 419 on receiving Donatist clergy'
   license: public-domain
 relations:
 - type: illustrated-by
@@ -105,8 +105,7 @@ description: >-
 manifestations:
 - Augustine, On Baptism, Against the Donatists -- seven books devoted substantially to this one practice
 - Petilian of Constantina's own quoted rebaptism-theology argument (Registry row 12)
-- Gregory the Great's letter to Columbus, bishop of Numidia (592), reporting an inquiry into a bishop
-  "corrupted" into permitting Donatist rebaptism
+- Gregory the Great's letter to Columbus, bishop of Numidia (592), ordering an inquiry into a bishop said to have been bribed to let a Donatist bishop be made, and reporting that Donatist rebaptism was spreading
 classification: primary
 use_note:
   means: "Rebaptism is the enacted rite of entry into the communion, marking who truly belongs, a central practice attested from the origin through 411 on which membership and the 419 canons depend."

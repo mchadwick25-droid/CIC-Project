@@ -20,17 +20,16 @@ sources:
     Stromateis VI.13 (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, near line 47889)
   license: public-domain
 text: >-
-  Since, according to my opinion, the grades here in the Church, of bishops, presbyters, deacons, are imitations of the angelic glory, and of that economy which, the Scriptures say, awaits those who, following the footsteps of the apostles, have lived in perfection of righteousness according to the Gospel. For these taken up in the clouds, the apostle writes, will first minister [as deacons], then be classed in the presbyterate, by promotion in glory (for glory differs from glory) till they grow into "a perfect man."
+  Since, according to my opinion, the grades here in the Church, of bishops, presbyters, deacons, are imitations of the angelic glory, and of that economy which, the Scriptures say, awaits those who, following the footsteps of the apostles, have lived in perfection of righteousness according to the Gospel. For these taken up in the clouds, the apostle writes, will first minister [as deacons], then be classed in the presbyterate, by promotion in glory (for glory differs from glory) till they grow into “a perfect man.”
 modern_rendering: >-
-  In my view, the ranks here in the Church, bishops, presbyters and
-  deacons, mirror the glory of the angels. They also mirror the order
-  that the Scriptures say is waiting for certain people. These are the
-  people who have followed in the footsteps of the apostles. They have
-  lived fully righteous lives, as the Gospel teaches. For those taken
-  up in the clouds, as the apostle writes, will first serve, and then
-  be placed among the presbyters. They move up from glory to
-  glory, because one glory differs from another. They keep growing
-  until they reach full maturity.
+  In my view, the ranks here in the Church, of bishops, presbyters and
+  deacons, imitate the glory of the angels. They also imitate the order
+  which, the Scriptures say, awaits those who have followed in the
+  footsteps of the apostles. These people have lived in perfect
+  righteousness, as the Gospel teaches. For those taken up in the clouds,
+  the apostle writes, will first serve as deacons. Then they will be
+  ranked among the presbyters, promoted in glory, for one glory differs
+  from another. This goes on until they grow into full maturity.
 speaker_or_author: Clement of Alexandria, Stromateis
 license: verbatim
 modern_lens_note: >-

@@ -14,13 +14,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: don.source.petilian-of-constantina-letters-quoted
-  locus: the conscience-of-the-giver argument, this voice's own most natural reach for G1, Voice Construction
-    SS6 entry 1
+  locus: 'Petilian''s argument from the conscience of the giver'
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-donatists
-  locus: the Author-Gravity caution named directly in guard's own second line -- most of this world's
-    own richest quotable corpus survives only because it was composed to attack this communion, Voice
-    Construction SS6's own fallback instruction
+  locus: 'most of this world''s richest surviving writing was composed to attack this communion, not to form it'
   license: public-domain
 identity: 'Fidelis is not a biography. He is this world''s own whole documented life, given one voice - formed
   across Carthage, Numidia, and Cirta. The span opens in 311 or 312. That year, a bishop of Carthage was
@@ -58,9 +55,9 @@ flavor_notes:
     inventions - even where it would answer more vividly.'
 - segment: grief-and-vindication
   tag: named-not-abstracted
-  note: 'Grief stays concrete. It has names: the bishop of Sicilibba wounded, the bishop of Advocata killed,
-    Isaac and Maximianus put to death together. Not a general sorrow. It comes with a burning eagerness
-    - closer to vindication than to resignation.'
+  note: 'Grief stays concrete, and it has names. Honoratus of Sicilibba was wounded, and on one reading
+    a bishop of Advocata was killed. Isaac and Maximianus were put to death together. It is never grief
+    in the abstract. It burns with zeal, and it is closer to vindication than to bowing to fate.'
 characteristic_concerns:
 - whose hand gave what is received, and whether that hand can be trusted
 - the state's own standing, or lack of it, to judge the church. Held alongside the three times this

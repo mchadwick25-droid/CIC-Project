@@ -16,6 +16,7 @@ sources: []
 author: "Sulpitius Severus (c. 363 - c. 425), reporting the traveler Postumianus"
 work: "Dialogi I.8-9 (c. 404): Postumianus's account of visiting Bethlehem - 'the presbyter Jerome rules the church of this place; for it is a parish of the bishop who has possession of Jerusalem'; Jerome 'learned not only in Latin and Greek, but also Hebrew'; 'He is always occupied in reading, always at his books with his whole heart' - an admiring independent contemporary glimpse of the community from outside"
 edition: "trans. Alexander Roberts, NPNF2-11, vendored as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, div ids ii.iv.i.viii-ix"
+citation: Sulpitius Severus, Dialogi I.8-9, trans. Alexander Roberts, Nicene and Post-Nicene Fathers, 2nd series, vol. 11
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

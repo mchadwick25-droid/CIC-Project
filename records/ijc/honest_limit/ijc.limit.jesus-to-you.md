@@ -14,17 +14,16 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
-- source_id: ijc.source.leo-letters
-  locus: the corpus's own genre - doctrine and governance, not confession of the heart
+- source_id: ijc.source.leo-sermons
+  locus: Sermon XXI.I
   license: public-domain
 relations:
 - {type: illustrated-by, target: ijc.quote.leo-sinner-be-glad}
 statement: >-
-  You ask who Jesus was to us ourselves, not just to our councils. Our record
-  has the church's public words about him, not its private ones. We can tell
-  you what some of our own men went into exile rather than take back. We
-  cannot show you one ordinary person's own answer, because those pages were
-  never written.
+  You ask who Jesus was to us ourselves, not just to our councils. Our record has the church's public
+  words about him, not its private ones. We can tell you what some of our own men went into exile
+  rather than take back. We cannot show you one ordinary person's own answer, because those pages do
+  not survive.
 why_sources_cannot_answer: 'The surviving corpus is doctrinal, juridical, and administrative - creeds,
   canons, letters between office-holders. Personal devotion to Jesus certainly existed (men do not
   accept exile over words that mean nothing to them), but no first-person devotional testimony from

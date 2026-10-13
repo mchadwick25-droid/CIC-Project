@@ -52,13 +52,17 @@ relations:
 - type: associated-with
   target: cappadocian.quote.basil-against-delaying-baptism
 use_note:
-  means: "This witness says baptism was mostly adult, often delayed until death against preachers' warnings, and was called illumination and new birth."
+  means: This witness says most documented baptisms were adult ones, many delayed on purpose and some
+    until death against preachers' warnings, that baptism was called illumination and new birth, and that
+    how common infant baptism was cannot be told.
   not_for:
-    - "a settled claim about how common infant baptism was, which the record says it cannot supply"
-    - "the preachers' warnings as proof that most people delayed"
-    - "the modern evangelical sense of being born again"
-    - "Basil's own homily wording against delay, which sits in cappadocian.quote.basil-against-delaying-baptism"
-  years: {from: 360, to: 379}
+  - a settled claim about how common infant baptism was, which the record says it cannot supply
+  - the preachers' warnings as proof that most people delayed
+  - the modern evangelical sense of being born again
+  - Basil's own homily wording against delay, which sits in cappadocian.quote.basil-against-delaying-baptism
+  years:
+    from: 360
+    to: 379
   status: reviewed
 ---
 This record cross-references the verbatim quote record cappadocian.quote.basil-against-delaying-baptism.

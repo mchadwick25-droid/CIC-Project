@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep108
-  locus: secs. 7-14
+  locus: secs. 6-14
   license: public-domain
 retrieval:
   tier: 2
@@ -34,20 +34,18 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): named a
   credible in broad outline - though single-sourced and authored by an interested party;
   scene-level details carry lower confidence than the narrative frame (the reviewed
   finding on the Nitria passage''s rhetorical name-list is carried in absent_detail).'
-tellable_as: the journey of Paula and Jerome from Rome to the Holy Land and Egypt, and the
-  choice to stay at Bethlehem, as the community itself recorded it
-text: 'In the year after the troubles in Rome, Paula went down to the harbor with her
-  children on the shore. The account says her eyes were dry, held toward heaven, as the
-  ship pulled out - her little son stretching out his hands from the beach. She sailed
-  east by way of Cyprus, where the bishop Epiphanius received her; then to Antioch; then
-  down the whole length of the holy places, scripture in hand at every stop - and at the
-  cave in Bethlehem she wept and greeted the town by name, the house of bread where the
-  Bread from heaven was born. She went on into Egypt, to Nitria, where the bishop Isidore
-  came out to meet her with a great crowd of monks. She wished to press deeper into the
-  desert and stay among the monastic settlements; instead she turned back to Bethlehem,
-  and there - in a small lodging at first, then in the monasteries her fortune built -
-  she stayed for the rest of her life. The journey ended not in seeing the places but in
-  never leaving them.'
+tellable_as: Paula's trip from Rome to the holy places and Egypt, and why she stayed at Bethlehem,
+  as her community wrote it down
+text: Paula went down to the harbor at Portus, with her children
+  on the shore. The account says her eyes were dry, held toward heaven, as the ship pulled
+  out. Her little son stretched out his hands from the beach. She sailed east by way of Cyprus,
+  where the bishop Epiphanius kept her ten days. She went on to Antioch, and then down the
+  whole length of the holy places, scripture in hand at every stop. At the cave in Bethlehem
+  she wept and greeted the town by name, the house of bread where the Bread from heaven was
+  born. She went on into Egypt, to Nitria, where the bishop Isidore came out to meet her with
+  a great crowd of monks. She wished to press deeper into the desert and stay among the monastic
+  settlements. Instead she turned back to Bethlehem. She lived there in a poor lodging at
+  first, then in the monasteries her fortune built, for the rest of her life.
 absent_detail: 'The telling is Jerome''s epitaph for Paula, written for her daughter -
   idealizing by genre; her dry eyes and her words at the manger are his report. The famous
   desert-father names invoked in the Nitria passage are a rhetorical flourish, not a

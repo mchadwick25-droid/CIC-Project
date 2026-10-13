@@ -11,12 +11,13 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: illustrative
   formation_confidence: Documented
-  divergence_note: 'Documented only as the named author of three of the four hymns in Wittenberg''s first
-    hymn-book (1524), per Bacon''s own bibliographic account, directly read and verified. Inferential-Thin
-    for everything else: the window anecdote itself is Tier 3, related rather than documented, and - on
-    this record''s own direct re-reading of the vendored text - does not actually name Speratus as the
-    anecdote''s own wanderer; only the hymn is his. No biographical detail about Speratus survives in
-    this library beyond his authorship of the hymns themselves.'
+  divergence_note: >-
+    Documented only as the named author of three of the eight hymns in Wittenberg's first hymn-book (1524),
+    per Bacon's own bibliographic account, directly read and verified. Inferential-Thin for everything
+    else: the window anecdote itself is Tier 3, related rather than documented, and - on this record's
+    own direct re-reading of the vendored text - does not actually name Speratus as the anecdote's own
+    wanderer; only the hymn is his. No biographical detail about Speratus survives in this library beyond
+    his authorship of the hymns themselves.
 sources:
 - source_id: witt.source.leonard-introduction-to-the-hymns-of-martin
   locus: Bacon's own bibliographic note naming "not less than three" of the 1524 hymn-book's four hymns
@@ -36,16 +37,17 @@ retrieval:
 names:
 - name: Paul Speratus, author of the hymn
   tag: in-world
-- name: Paul Speratus (attested in this library only as a named hymn-author, 1524)
+- name: Paul Speratus (named author of hymns in the 1524 Wittenberg hymn-book)
   tag: scholarly
 dates:
   display: Documented in this library only as one of the named authors of Wittenberg's first hymn-book,
     printed 1524; no birth or death date, and no other biographical detail, is given by any vendored source
     held here.
 narratable: true
-bridge_line: The author of three of the four hymns in Wittenberg's first hymn-book - a named voice this
-  library otherwise knows almost nothing about, except that one of his own hymns is remembered, by tradition
-  rather than direct report, to have reached Luther's own window, sung by someone else entirely.
+bridge_line: >-
+  Paul Speratus wrote at least three of the eight hymns in the first Wittenberg hymn-book, in 1524. We
+  know almost nothing else about him. One of his hymns is said to have delighted Luther when a traveler
+  from Prussia sang it beneath his window.
 relations:
 - type: associated-with
   target: witt.story.speratus-hymn-under-the-window
@@ -54,7 +56,7 @@ relations:
 ---
 Narratable: true, but at a boundary this record states with unusual care, because the temptation to
 overclaim is real and specific here. What is genuinely Documented is narrow and biographical almost not
-at all: Speratus is named as the author of three of the four hymns in Wittenberg's earliest hymn-book
+at all: Speratus is named as the author of at least three of the eight hymns in Wittenberg's earliest hymn-book
 (1524), a fact Bacon's Introduction states directly and this record has verified against the vendored
 text. Everything else commonly attached to this figure - that he personally sang under Luther's window,
 that the encounter is a verified historical meeting between the two men - is not what the vendored text

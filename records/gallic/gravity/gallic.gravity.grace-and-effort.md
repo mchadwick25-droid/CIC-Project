@@ -156,7 +156,7 @@ manifestations:
 - "Faustus's prologue: a council gathered 'for the condemning of the error of predestination,' the treatise written at its commission (row 24, rough OCR, Inferential/Thin wording; post-window)"
 - "Dionysius Carthusianus's fifteenth-century paraphrase cutting Conf. XIII 'to make Cassian orthodox' (Gibson, editorial) - the gravity's fracture in transmission"
 use_note:
-  means: "Human effort and free choice are held real while grace goes before and crowns them, argued under Augustine's pressure as a relation Cassian says reason cannot fully grasp."
+  means: "Human effort and free choice are held real while grace works with the will and sometimes waits on real effort, a relation Cassian says reason cannot fully grasp, and whether he argued it against Augustine is disputed."
   not_for:
     - "a settled semi-Pelagian position, when that label is contested in gallic.contested.massilian-label"
     - "Cassian's target as Augustine's doctrine of predestination, when his intent is contested in gallic.contested.beginning-of-good-will"

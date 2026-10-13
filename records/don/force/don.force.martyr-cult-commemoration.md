@@ -21,7 +21,7 @@ confidence:
     so this world knows its own acclamation far better than the room it was spoken in.
 sources:
 - source_id: don.source.passio-donati-sermon
-  locus: the admonitio describing an annual commemoration - the practice named in its own words
+  locus: 'the sermon''s own words on the anniversary day kept for the dead (IX), with Mabillon''s note on the yearly commemoration'
   license: public-domain
 - source_id: don.source.passio-marculi
   locus: whole work - commemorative text produced by the practice and feeding it
@@ -56,7 +56,7 @@ description: >-
   Through this ongoing practice, a single act of repression became a permanent fact of worship.
 manifestations:
 - the annual commemoration at the grave on the appointed day, the account read aloud
-- the anniversaria commemoratio the Passio Donati sermon's own admonitio describes
+- the anniversary day the Passio Donati sermon describes, kept "with devout observance" (anniversalis dies religiosa devotione celebratur)
 - the growing body of martyr texts the practice itself produced
 - the Deo laudes acclamation, cut in stone and requiring no manuscript custodian to survive
 - an acute persecution episode converted into a permanent liturgical fact

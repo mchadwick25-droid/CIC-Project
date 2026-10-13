@@ -24,6 +24,7 @@ author: Paul Monceaux
 work: 'Histoire litteraire de l''Afrique chretienne depuis les origines jusqu''a l''invasion arabe, Tome
   VI: La Litterature Donatiste au temps de saint Augustin'
 edition: 'Paris: Editions Ernest Leroux, 1922; vendored as cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt'
+citation: 'Paul Monceaux, Histoire litteraire de l''Afrique chretienne depuis les origines jusqu''a l''invasion arabe, Tome VI: La Litterature Donatiste au temps de saint Augustin (Paris: Editions Ernest Leroux, 1922)'
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed. Dated 1922 from the title page, with the same catalog-date caveat as Tome
@@ -33,4 +34,4 @@ discovery_channel: direct file check (title page and chapter-heading survey only
 external_ids:
   don_source_registry_row: 53
 ---
-The most directly on-topic unread volume this world holds: a chapter-by-chapter treatment of exactly the Donatist figures whose own voices this world's Registry is thinnest on. Named as an open item (Doc_02 SS9 item 1a(iii)), not integrated.
+The most directly on-topic unread volume this world holds: a chapter-by-chapter treatment of exactly the Donatist figures whose own voices this world's Registry is thinnest on.

@@ -17,15 +17,17 @@ confidence:
     in the prior build's reviewed pass); not re-collated to a single locus on this branch.
 sources:
 - source_id: hal.source.jerome-de-viris
-  locus: self-entry and the tradition of his training
+  locus: "ch. 135 (Jerome's own entry and works-list)"
+  license: public-domain
+- source_id: hal.source.jerome-apology-rufinus
+  locus: "Book I, ch. 16 ('my master Donatus' on Virgil)"
   license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
   - Jerome's education and what made the scholarship possible
   - children's schooling and classical training
-plain_meaning: The Roman grammar-school stage of training in Latin language and literature. Jerome
-  trained under the famous grammarian Donatus.
+plain_meaning: "The Roman school stage of Latin training in language and books. Jerome studied under a famous teacher, Donatus."
 world_word: grammaticus
 false_friend:
 - equal certainty about the grammar training and the later Hebrew mastery (the grammar training is
@@ -42,7 +44,7 @@ senses:
     this world's own sharpest inner conflict.
   translational: 'Roughly: elite secondary education in language and literature - the prerequisite
     of every scholarly practice this world fused with its asceticism.'
-quick_meaning: The Latin grammar schooling, under Donatus, that lay behind all the later work.
+quick_meaning: Latin school under Donatus, which was the base for all of Jerome's later work.
 distortion_risk: medium
 use_note:
   means: "The Roman grammar-school stage of Latin training, which Jerome received under Donatus and which is well attested."

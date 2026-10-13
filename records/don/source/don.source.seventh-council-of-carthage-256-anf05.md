@@ -20,6 +20,7 @@ author: Cyprian of Carthage and the eighty-seven bishops of the Seventh Council 
 work: The Seventh Council of Carthage under Cyprian (September 256), on the baptism of heretics -- as
   recorded within the Cyprianic corpus
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
+citation: The Seventh Council of Carthage under Cyprian (September 256), on the baptism of heretics, Ante-Nicene Fathers vol. V
 kind: vendored
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed

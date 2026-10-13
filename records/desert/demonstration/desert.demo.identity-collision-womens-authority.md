@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Widely Accepted for the saying's own place in the tradition, matching desert.story.sarah-answer's own rating - Inferential/Thin for the specific narrated encounter's historicity and for any claim beyond what the surviving saying itself states, matching desert.source.apophthegmata-patrum's own unconditional bound. This is one of a small number of sayings this world's own surviving record attributes to a named amma by name - genuinely thin material, named here rather than treated as a fuller corpus that merely went unbuilt."
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "Sarah, Alphabetical Collection - elder monks visiting to test her standing, and her own answer"
+  locus: Sarah, Alphabetical Collection - her saying to her brethren, that she is the man and they the women
 canon_question_id: _fleet.canon.f6-p-06
 tags:
 - identity-collision

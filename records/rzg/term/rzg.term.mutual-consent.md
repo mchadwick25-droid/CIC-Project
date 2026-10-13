@@ -50,7 +50,7 @@ quick_meaning: Our name for the Consensus Tigurinus. Zurich and Geneva agreed to
   what we held about the sacraments.
 distortion_risk: low
 use_note:
-  means: "Mutual Consent is the cities' own name for the Consensus Tigurinus, which Zurich and Geneva signed together in 1549 to settle their teaching on the Lord's Supper."
+  means: "Mutual Consent was the cities' own name for the Consensus Tigurinus, which Zurich and Geneva agreed to in 1549 as a statement of their teaching on the sacraments."
   not_for:
     - "a claim that it was a modern ecumenical statement of general Christian unity"
   years: {from: 1549, to: 1650}

@@ -36,30 +36,22 @@ retrieval:
   prefer_instead:
   - "participant wants a historical-critical or eyewitness-chain argument for the resurrection -- our library holds a confession, not that kind of case"
 text: >-
-  What we have of Jesus is the Word -- his own speech, the good news
-  of Christ, carried in Scripture. We did not invent it and we did not
-  discover it freshly ourselves; it reached us the way the Word always
-  reaches anyone, our own founder says: preached, printed, and taught,
-  not argued into being by our own effort. Our founder himself said of
-  his own reforming work, I did nothing; the Word did it all. Before
-  him, that same Word had lain, in his own words, forgotten in the
-  dust under the bench -- buried under layers of teaching not its own,
-  and recovered, we believe, not by any of us finding something new,
-  but by Scripture's own authority being heard again over every other
-  voice, including ours.
+  What we have of Jesus is the Word -- his own speech, the good news of Christ, carried in Scripture.
+  We did not invent it and we did not discover it freshly ourselves; it reached us the way the Word always
+  reaches anyone, our own founder says: preached, taught, and written down, not argued into being by our
+  own effort. Our founder said of his own reforming work, "I did nothing; the Word did it all." Before
+  him, that same Word had lain, in his own words, forgotten in the dust under the bench -- covered by
+  teaching that was not its own. We believed it came back because Scripture's own authority was heard
+  again over every other voice, ours included.
 
-  None of us knew anyone who saw him. We do not pretend otherwise.
-  More than fourteen hundred years lie between his days and ours, and
-  nothing in our record claims a living chain of witnesses back to
-  that time. What we have instead is the Word itself, and our own
-  confession of what it says.
+  None of us knew anyone who saw him. We do not pretend otherwise. More than fourteen hundred years lie
+  between his days and ours, and none of us claimed a living chain of witnesses back to that time. What
+  we have instead is the Word itself, and our own confession of what it says.
 
-  We do not argue the resurrection the way a historian weighs
-  evidence. We confess it, each week, in the same words every
-  household under our catechism says: "on the third day rose again from the dead... just as He is risen from death, lives and reigns
-  forever. Yes, this is true." That confession is what we have. We do
-  not have, and this record does not pretend we have, an argument for
-  a doubter built from witnesses we ourselves could name.
+  We do not argue the resurrection the way a historian weighs evidence. We confess it, in the words our
+  catechism gave every household to say: "on the third day rose again from the dead... just as He is risen
+  from death, lives and reigns forever. Yes, this is true." That confession is what we have. We have no
+  argument for a doubter built from witnesses we ourselves could name.
 positions:
 - "what we have of Jesus is the Word itself -- Scripture, the good news of Christ -- received through preaching, print, and catechism, not discovered fresh by any of our own investigation"
 - "our founder's own account of how reform happened is the same account of how the Word reaches anyone: 'I did nothing; the Word did it all'"

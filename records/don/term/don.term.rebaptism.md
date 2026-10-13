@@ -52,9 +52,9 @@ relations:
   target: don.term.reception-without-reordination
 - type: associated-with
   target: don.term.ecclesia
-plain_meaning: We do not think of this as baptizing twice. Nothing happened the first time. A hand from a tainted
-  line washes nothing. So when someone comes to us from the other church, we give the first real baptism they
-  have had.
+plain_meaning: We did not think of this as baptizing twice. Nothing happened the first time. A hand from
+  a tainted line washes nothing. So when someone came to us from the other church, we gave the first real
+  baptism they had had.
 world_word: rebaptizare
 false_friend:
 - a modern adult re-baptism chosen for personal renewal or a fresh start
@@ -72,9 +72,9 @@ senses:
     a hostile summary. Doc_04 SS3.2 rates the bare practice Documented; the qualification is that the voice reaches
     this record from inside the hostile corpus that preserved it, and that what a rebaptism actually felt like
     to undergo is nowhere recorded (Doc_05 SS2).
-  personal: This is the most concretely lived thing in the whole communion. A believer does not merely agree with
-    a teaching about tainted ordination; a believer is washed, bodily, into one church and out of another. The
-    doctrine becomes one person's own history on one datable day.
+  personal: This was the most lived thing in the communion. A believer did not merely agree with a teaching
+    about tainted ordination. A believer was washed into one church and out of another. The doctrine became
+    one person's own history on one datable day.
   translational: '''Isn''t baptizing someone twice just excessive?'' -- the answer from inside is that the count
     is wrong. There was no first baptism to repeat. And the cost of stopping is exact: to stop would be to concede
     that the rival''s ministers can baptize validly after all, and if theirs were real, this church never needed

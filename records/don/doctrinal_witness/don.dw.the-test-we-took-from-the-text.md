@@ -30,8 +30,7 @@ sources:
   locus: the acclamation cut in stone - what a two-word phrase was actually for
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'thin_topics: biblical interpretation beyond Tyconius; the ordinary believer''s own interior
-    life'
+  locus: 'no surviving account of our reading beyond Tyconius; the ordinary believer''s own interior life'
   license: public-domain
 retrieval:
   tier: 3
@@ -54,21 +53,20 @@ text: >-
 
 
   That is what our own bishop of Caesarea was doing when he answered the
-  bishop of Hippo verse against verse: the world did not know him; if you
-  were of the world, the world would love its own, but because you are
-  not of it, therefore it hates you; if any man love the world, the love
-  of the Father is not in him. In your hands those may be verses about
-  the soul's detachment. In ours they were an identification mark. The
-  true church is the one being hated. Look at which of the two doors the
-  soldiers are standing outside, and you have your answer.
+  bishop of Hippo verse against verse: the world did not know him; if
+  you were of the world, the world would love its own, but because you
+  are not of it, therefore it hates you; if any man love the world, the
+  love of the Father is not in him. In your hands those may be verses
+  about the soul's detachment. In ours they were an identification mark.
+  The true church, we held, was the one being hated.
 
 
   A modern reader misses something smaller too. Two words could carry
   all of this. Where they said thanks to God, we said praise to God -
-  Deo laudes - and we cut it into stone. Nothing separates those phrases
-  in meaning. They separated everything in practice. A great deal of our
-  reading works like that: not the discovery of a hidden sense, but a
-  plain sentence turned into a badge you could be identified by.
+  Deo laudes - and we cut it into stone. The two phrases differ very
+  little in meaning. In practice they separated everything. A great deal
+  of our reading worked like that: a plain sentence turned into a badge
+  you could be identified by.
 
 
   Whether the violence in those books troubled us, we cannot tell.

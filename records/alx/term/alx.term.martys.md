@@ -42,8 +42,7 @@ senses:
     on death (Clement, Stromateis IV) - witness was faithfulness under trial, not volunteering.
   personal: 'The martyr''s meaning for the living was not the dying but the holding fast: what formation
     had built was equal to the last test.'
-  translational: '''A death wish in religious language?'' - the tradition itself drew the line: those
-    who rushed on death ''banish themselves without being martyrs.'''
+  translational: "'A death wish in religious language?' Clement said that those who rushed on death \"banish themselves without being martyrs.\" He said it of heretics who hated the Creator."
 quick_meaning: A witness who held fast under trial, even to death.
 distortion_risk: high
 use_note:

@@ -52,14 +52,8 @@ senses:
     formation rhythm; his De Decretis shows the same office guarding the Nicene confession against the
     Arian alternative; Clement treats the bishop as a human participant in the community's divine
     governance.
-  personal: 'Clement''s Alexandrian voice grounds the office in the life, not the title: one is "not
-    regarded righteous because a presbyter, but enrolled in the presbyterate because righteous" - the
-    office does not confer the standing on its own; the person''s own righteousness is what the office
-    recognizes.'
-  translational: >-
-    Isn't a bishop just a church administrator, the executive of a diocese? This world located the
-    office somewhere else - the governor of the community's formation life, not a manager of an
-    institution.
+  personal: "Clement said of presbyters that one is \"not regarded righteous because a presbyter, but enrolled in the presbyterate because righteous.\" The office came after a good life. It did not make one."
+  translational: "Isn't a bishop just a church administrator, the head of a diocese? This world saw the office differently. The bishop guided how the community was formed. He was not the manager of an institution."
 quick_meaning: Not an administrator. The bishop governs formation, not budgets.
 distortion_risk: high
 use_note:

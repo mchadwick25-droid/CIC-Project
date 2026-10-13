@@ -141,8 +141,8 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m9:emic-vendored-only/don": Waiver(count=20, deadline="2026-12-14", owner="don's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
     "m9:shelf-row/gallic": Waiver(count=21, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/gallic": Waiver(count=10, deadline="2026-12-14", owner="gallic's own build thread - each emic force/term/limit record needs re-grounding in a vendored primary source or its citation removed"),
-    "m9:shelf-row/cappadocian": Waiver(count=54, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
-    "m9:emic-vendored-only/cappadocian": Waiver(count=62, deadline="2026-12-14", owner="cappadocian's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
+    "m9:shelf-row/cappadocian": Waiver(count=53, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:emic-vendored-only/cappadocian": Waiver(count=66, deadline="2026-12-14", owner="cappadocian's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed; this count includes the emic records that cite sources the Library does not hold"),
     "m9:shelf-row/hal": Waiver(count=28, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:shelf-row/ijc": Waiver(count=29, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/ijc": Waiver(count=2, deadline="2026-12-14", owner="ijc's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
@@ -164,17 +164,17 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     # new drift - every one is pre-existing content the narrower gate
     # never graded, mostly concentrated in doctrinal_witness.positions
     # and gravity/force.description across the fleet.
-    "m1:readability/alx": Waiver(count=20, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; alx's own build thread"),
-    "m1:readability/cappadocian": Waiver(count=228, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
+    "m1:readability/alx": Waiver(count=18, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; alx's own build thread"),
+    "m1:readability/cappadocian": Waiver(count=199, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
     "m1:readability/desert": Waiver(count=124, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
-    "m1:readability/don": Waiver(count=320, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
+    "m1:readability/don": Waiver(count=232, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
     "m1:readability/gallic": Waiver(count=46, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; gallic's own build thread"),
-    "m1:readability/hal": Waiver(count=159, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
-    "m1:readability/ijc": Waiver(count=155, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
+    "m1:readability/hal": Waiver(count=102, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
+    "m1:readability/ijc": Waiver(count=114, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
     "m1:readability/pahc": Waiver(count=113, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; pahc's own build thread"),
     "m1:readability/rzg": Waiver(count=88, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
     "m1:readability/syr": Waiver(count=135, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
-    "m1:readability/witt": Waiver(count=186, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
+    "m1:readability/witt": Waiver(count=117, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
     # gate_readability_fleet's own findings (fleet_voice and modern_term
     # spoken fields) - counted once against the
     # FLEET_PSEUDO_WORLD key, never against any single real world's own
@@ -212,11 +212,6 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:use-note-present/witt": Waiver(count=1, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; witt's own build thread"),
     # source-citation: each source record's participant-facing citation line,
     # added world by world with that world's record wording pass.
-    "m9:source-citation/alx": Waiver(count=25, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; alx's record wording pass"),
-    "m9:source-citation/don": Waiver(count=76, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; don's record wording pass"),
-    "m9:source-citation/hal": Waiver(count=28, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; hal's record wording pass"),
-    "m9:source-citation/ijc": Waiver(count=30, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; ijc's record wording pass"),
-    "m9:source-citation/witt": Waiver(count=89, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; witt's record wording pass"),
 }
 
 

@@ -33,14 +33,14 @@ text: >-
   and growing means asking. Origen's rule was blunter still. What the
   apostles delivered plainly is fixed. Everything else is open ground,
   and walking that ground - asking, testing, being wrong, correcting -
-  is how a soul is actually formed. Doubt aimed at understanding was not
-  treated as sin. It was treated as hunger. What we did not have is the
-  modern language of a private crisis of faith. Our doubters stood
-  inside a praying community. They questioned inside the rule of faith,
-  and they were expected to bring the question to a teacher rather than
-  carry it alone. And when whole congregations doubted the received
-  reading - the villages of the Arsinoite district - the bishop's answer
-  was three days of open argument, not a condemnation.
+  is how a soul is actually formed. We treated doubt aimed at
+  understanding as hunger, and did not count it as sin. What we did not
+  have is the modern language of a private crisis of faith. Our doubters
+  stood inside a praying community. They questioned inside the rule of
+  faith, and they were expected to bring the question to a teacher
+  rather than carry it alone. And when churches in the Arsinoite
+  villages split over Nepos's reading of the promises, the bishop's
+  answer was three days of open argument, not a condemnation.
 positions:
 - faith is the foundation for understanding, not its substitute
 - open questions are legitimately open; inquiry there is devotion

@@ -23,24 +23,25 @@ sources:
 - source_id: hal.source.jerome-ep22
   locus: sec. 28 (clergy corruption named from inside)
   license: public-domain
+- source_id: hal.source.vulgate-prefaces
+  locus: Preface to the Commentary on Ezekiel, Book I (the scorpion beneath the ground)
+  license: public-domain
+- source_id: hal.source.jerome-ep45
+  locus: Ep. 45 (Jerome's account of leaving Rome)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
-text: >-
-  Our failures are not hidden in our record. They are most of it.
-  Our churches had clergy who chased money and reputation, and we
-  said so in writing that still stings. Our own people used the church's
-  power against Christians who disagreed with them. Our scholar went after his
-  opponents with every weapon that reputation and connections could supply. He
-  cheered when heretics were driven out of Palestine. He mocked a dead former
-  friend. And he suffered the same in return: slandered out of Rome by fellow
-  clergy, and at the end burned out of his own buildings by a Christian mob.
-  Asked to defend all this, our honest answer is that we cannot. We
-  can only report that the wounds Christians dealt each other were real, that
-  we dealt some and took some, and that the one thing we never did was pretend
-  the church was clean. If you want a church that never failed, you will not
-  find it here. If you want a church that knew its treasure was carried in
-  clay jars, and said so - you will recognize us.
+text: 'Our failures are not hidden in our record. Our churches had clergy who chased fine clothes,
+  women''s company, and gifts, and we said so in writing that still stings. Our own people used
+  the church''s power against Christians who disagreed with them. Our scholar went after his
+  opponents in print without mercy. He told his critic to rejoice in his sharp attacks on heretics.
+  He wrote a preface that seems to mock a former friend after the man had died. And he suffered
+  the same in return: driven out of Rome by slander, as he told it, and at the end burned out
+  of his own buildings by other Christians. Asked to defend all this, we cannot. We can only
+  report that the wounds Christians dealt each other were real, that we dealt some and took
+  some, and that we never pretended the church was clean. If you want a church that never failed,
+  you will not find it here.'
 positions:
 - clergy corruption was named openly from inside, not concealed
 - this world both wielded and suffered Christian-against-Christian power, and its record
@@ -54,7 +55,7 @@ relations:
 - type: associated-with
   target: hal.quote.those-of-my-own-order
 use_note:
-  means: "This witness holds that the record openly names church failures, including clergy corruption seen from inside and Christian violence against Christians, both dealt and suffered."
+  means: "This witness holds that the record openly names church failures, including clergy corruption seen from inside and wounds Christians dealt one another, which the community both gave and took."
   not_for:
     - "a claim that Jerome confessed his own faults; they are documented chiefly by his enemies"
     - "a claim that this world's church was clean or blameless"

@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned in the Roman Bull
 edition: (1521), intro./trans. C. M. Jacobs, Philadelphia Ed. vol. III; vendored as cic/texts/luther_works-v3-selected_various1930.txt
+citation: Luther, An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned in the Roman Bull (1521), intro./trans. C. M. Jacobs, Philadelphia Ed. vol. III
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

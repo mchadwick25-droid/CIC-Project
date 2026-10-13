@@ -23,14 +23,13 @@ confidence:
     independent corroboration.
 sources:
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: the Bagai and Cebarsussi sentences quoted directly - Registry row 3
+  locus: 'the Bagai and Cebarsussi sentences quoted directly'
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
-  locus: the Bagai decree quoted again, turned into the central argument against Donatist rebaptism logic
-    - Registry row 4
+  locus: 'the Bagai decree quoted again, turned into the central argument against Donatist rebaptism logic'
   license: public-domain
 - source_id: don.source.augustine-contra-cresconium
-  locus: the affair pressed again in a further work - Registry row 47
+  locus: 'the affair pressed again in a further work'
   license: public-domain
 relations:
 - type: associated-with

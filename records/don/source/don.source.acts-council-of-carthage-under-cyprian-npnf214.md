@@ -23,6 +23,7 @@ author: The Council of Carthage under Cyprian (256), as transmitted in the seven
 work: The Acts of the Council of Carthage under Cyprian (256) -- the conciliar-history telling, distinct
   from the Cyprianic-corpus record at Registry row 10
 edition: Nicene and Post-Nicene Fathers, Series II, vol. XIV, vendored as cic/texts/npnf214_seven-ecumenical-councils.xml
+citation: The Acts of the Council of Carthage under Cyprian (256), Nicene and Post-Nicene Fathers, Series II, vol. XIV, The Seven Ecumenical Councils
 kind: vendored
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed

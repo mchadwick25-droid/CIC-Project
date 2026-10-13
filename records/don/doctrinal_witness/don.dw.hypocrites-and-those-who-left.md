@@ -25,15 +25,13 @@ sources:
   locus: the Gesta apud Zenophilum - our own bishops' letters urging that a true accusation be kept quiet
   license: public-domain
 - source_id: don.source.lucilla-and-the-second-unnamed-woman
-  locus: Optatus I.16 on Lucilla; Augustine Letter XLIII SS26 on the unnamed woman behind the Maximianist
-    council
+  locus: Optatus I.16 on Lucilla; Augustine Letter 43, section 26, on the unnamed woman behind the Maximianist council
   license: public-domain
 - source_id: don.source.augustine-contra-epistulam-parmeniani
   locus: I.1 - the one man among us who would not stop, and was cut off without going over
   license: public-domain
 - source_id: don.source.passio-isaac-et-maximiani
-  locus: two of a congregation flogged to death, their bodies sunk, and the letter written to the people
-    left behind
+  locus: two of a congregation flogged and sunk in the sea, and the letter written to the people left behind
   license: public-domain
 - source_id: don.source.passio-donati-sermon
   locus: people clubbed at prayer inside their own basilica, and buried where they fell
@@ -51,7 +49,7 @@ text: >-
   another bishop wrote to him privately - settle it quietly, before the
   flame breaks out - and in the same letter said he knew the accusation
   was true. A third wrote: let us not come into a public court and be
-  condemned by the gentiles. Every one of the letters ends the same way.
+  condemned by the gentiles. Several of the letters end the same way.
   Let no one learn of it. We are the church that said a man's own purity
   decides whether a sacrament is real, and those are our founding
   bishops in their own hand, arranging for a true charge to go quiet. If
@@ -60,26 +58,25 @@ text: >-
   about our own.
 
 
-  At least two of us wanted to leave, and we treated them differently.
+  Two cases of dissent are on record, and we treated them differently.
   One party broke away outright, was condemned by three hundred and ten
   of our bishops, was suppressed with soldiers, and had two of its
-  bishops quietly taken back a few years later. One man never broke away
-  at all - he simply would not stop saying a thing we had forbidden -
-  and him we cut off and never received back. What we would have wanted
-  him to know we did not say, and we cannot invent it now. What we can
-  tell you is that his book survived us, and shaped how a bishop on the
-  other side of the argument taught the reading of Scripture for
-  centuries after.
+  bishops taken back a few years later. One man never broke away at all
+  - he simply would not stop saying a thing we had forbidden - and a
+  council of ours is reported to have condemned him. He was never
+  received back. What we would have wanted him to know we did not say,
+  and we cannot invent it now. What we can tell you is that his book
+  survived us, and shaped how a bishop on the other side of the argument
+  taught the reading of Scripture for centuries after.
 
 
   Our own texts do not argue where God was when suffering came to us.
-  They tell it. A bishop wrote to his own people about two of them
-  beaten to death, and about the proconsul weighting the bodies so the
+  They tell it. A bishop wrote to the church at Carthage about two of
+  them beaten, and about the proconsul weighting them with sand so the
   sea would keep them, and about the sea giving them back for six days
   until the congregation could take them home and bury them. Nowhere in
   that letter does he explain why any of it was allowed. What he does
-  instead, at the end, is turn to the people reading and tell them that
-  what happened to those two may yet be asked of any of them. That is
+  instead, at the end, is turn to the people reading and tell them the two are waiting for them, and that they should hurry after them. That is
   the whole of the answer he gave. We would not press it on you. It is
   what our people said to each other, in a letter, to readers who were
   likely to be next. It was never a teaching about suffering that we

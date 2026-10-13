@@ -24,13 +24,10 @@ confidence:
     record states that plainly rather than leaving a reader to infer it (Doc_09 witt-S01).'
 sources:
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
-  locus: Letter to Archbishop Albrecht of Mainz, dated "the Vigil of All Saints, MDXVII" (31 October 1517),
+  locus: >-
+    Letter to Archbishop Albrecht of Mainz, dated "the Vigil of All Saints, MDXVII" (31 October 1517),
     full text; the Theses' own heading; the 1915 editor's introduction and its posting narrative ("It
-    was not night, but mid-day"), read and marked as the editor's own claim, not Luther's. The modern
-    historiographical dispute over whether any posting happened at all (Iserloh) is not independently
-    vendored anywhere in this library and was not independently read by this authoring pass -- only its
-    existence as a title was verified by search, disclosed in confidence.divergence_note and absent_detail
-    rather than cited here as a source
+    was not night, but mid-day"), which is the editor's own claim, not Luther's
   license: public-domain
 retrieval:
   tier: 1
@@ -63,40 +60,39 @@ narrative_tier_justification: 'Tier 1, Documented Historical Narrative, without 
   the narrative" carrying Contested confidence, exactly as the Tier 1 Cross-Walk allows (Doc_09 witt-S01).
   The tier is carried at the level Doc_09 itself assigns it - Tier 1, split by confidence rather than
   by tier - not re-derived here.'
-tellable_as: A young Augustinian friar teaching at Wittenberg's new university writes, in the most respectful
-  terms he can manage, to the very archbishop under whose name the indulgence preachers are working, warning
-  him that the people are being taught to believe things no theologian could defend - and encloses ninety-five
-  statements, offered for open debate, on what indulgences can and cannot do.
-text: 'On the last day of October, 1517, a friar of the Augustinian order named Martin Luther, who taught
-  theology at the young university in Wittenberg, sat down to write to a man very far above him in rank:
-  Albrecht, Archbishop of Magdeburg and Mainz, Primate of the German church. He addressed him with every
-  mark of deference the age required - "Most Reverend Father in Christ and Most Illustrious Prince" -
-  and named himself, in the same breath, "the dregs of humanity," astonished at his own boldness in writing
-  at all.
+tellable_as: >-
+  A friar at Wittenberg writes to Archbishop Albrecht of Mainz in the most respectful terms he can find.
+  The indulgence preachers work under the Archbishop's name. The friar warns that people are being taught
+  false beliefs, and he sends ninety-five statements for open debate.
+text: >-
+  On the last day of October, 1517, a friar of the Augustinian order named Martin Luther, who taught theology
+  at the university in Wittenberg, sat down to write to a man very far above him in rank: Albrecht, Archbishop
+  of Magdeburg and Mainz, Primate of the Church. He addressed him with every mark of deference the age
+  required - "Most Reverend Father in Christ and Most Illustrious Prince" - and named himself, in the
+  same breath, "the dregs of humanity," astonished at his own boldness in writing at all.
 
-  The reason he gave was plain. Indulgences for the building of St. Peter''s in Rome were being preached
-  under the Archbishop''s own name, and Luther did not attack the preaching itself, which he said he had
-  not heard - he grieved instead over what the people who heard it now believed. They believed, he wrote,
-  that a letter of indulgence made their salvation sure the moment it was purchased; that souls flew out
-  of purgatory the instant a coin struck the bottom of the collection box; that no sin was too great to
-  be absolved this way, "even, as they say - though the thing is impossible - if one had violated the
-  Mother of God"; and that the letters freed a person from guilt as well as penalty. "O God, most good!"
+  The reason he gave was plain. Indulgences for the building of St. Peter's in Rome were being preached
+  under the Archbishop's own name. Luther did not attack the preaching itself, which he said he had not
+  heard. He grieved over what the people who heard it now believed. They believed, he wrote, that a letter
+  of indulgence made their salvation sure once it was bought. They believed that souls flew out of purgatory
+  as soon as people put their gifts into the money-box. They believed that no sin was too great to be
+  absolved this way, "even, as they say - though the thing is impossible - if one had violated the Mother
+  of God". They believed that the letters freed a person from guilt as well as penalty. "O God, most good!"
   he wrote. "Thus souls committed to your care, good Father, are taught to their death." He asked the
   Archbishop, as a father would be asked, to look at the matter and withdraw the instruction the preachers
-  were working from, before someone else did it in public and to the Archbishop''s own shame. He closed
-  asking the Lord to keep "your Most Reverend Fatherhood eternally," signed himself simply "Brother Martin
-  Luther," and added one line more: if it pleased the Most Reverend Father, he might look over "these
-  my Disputations" - the ninety-five statements Luther had drawn up for university debate, sent along
-  with the letter, on how doubtful a thing the preachers'' confidence about indulgences really was.
+  were working from. Otherwise someone else might do it in public, to the Archbishop's own shame. He closed
+  by asking the Lord to keep "your Most Reverend Fatherhood eternally," and signed himself simply "Brother
+  Martin Luther." He added one line more. If it pleased the Most Reverend Father, he might look over "these
+  my Disputations." These were the ninety-five statements Luther had drawn up for university debate, sent
+  along with the letter, on how doubtful the preachers' confidence about indulgences really was.
 
-  That is the act this library can show directly, dated and in Luther''s own hand: a formal protest, addressed
-  upward through the church''s own channels, to a superior, asking for correction rather than announcing
-  a break. What happened to the Theses after that - whether they were also nailed, that same day or another,
-  to the door of Wittenberg''s Castle Church, the way announcements for university debate were customarily
-  posted - is a separate and much less certain question. The account of a door and a hammer that many
-  people know today comes from a much later editor''s own narrative telling, not from Luther''s own words,
-  and modern scholars have disputed whether it happened at all. The letter to Albrecht is not in question.
-  The door is.'
+  The letter shows this act directly, dated and in Luther's own words. It is a formal protest, addressed
+  upward through the church's own channels to a superior, asking for correction rather than announcing
+  a break. What happened to the Theses after that is a separate and much less certain question. Were they
+  also nailed, that same day or another, to the door of Wittenberg's Castle Church, as announcements for
+  university debate were customarily posted? The account of a door and a hammer that many people know
+  today comes from a much later editor's own telling, not from Luther's words. Modern scholars have disputed
+  whether it happened at all. The letter to Albrecht is certain. The door-posting is not.
 absent_detail: Luther's own letter says nothing about a door, a hammer, or a public posting of any kind
   - it is a private letter to one archbishop, enclosing the Theses for his own reading and for university
   debate. The door-posting narrative this library holds is a twentieth-century editor's own unsourced

@@ -17,29 +17,29 @@ confidence:
     is documented from the father's own side only, no woman's voice on this term is in our library.
 sources:
 - source_id: witt.source.luther-treatise-concerning-the-blessed-sacrament
-  locus: Concerning the Blessed Sacrament, cited among this entry's Registry rows (Doc_06 SS5 entry 8.3;
-    editorial-layer dedicatee)
+  locus: Concerning the Blessed Sacrament
   license: public-domain
 - source_id: witt.source.luther-to-the-knights-of-the-teutonic
-  locus: To the Knights of the Teutonic Order, cited among this entry's Registry rows (Doc_06 SS5 entry
-    8.3)
+  locus: To the Knights of the Teutonic Order
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism -- 'not a peculiar estate, but the most common and noblest estate, which
-    pervades all Christendom'
+  locus: >-
+    the Large Catechism -- 'not a peculiar estate, but the most common and noblest estate, which pervades
+    all Christendom'
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism -- the Sixth Commandment's household explanation
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: the Table Talk -- 'the patiences are so many, that my whole life is nothing but patience' (Contested
+  locus: >-
+    the Table Talk -- 'the patiences are so many, that my whole life is nothing but patience' (Contested
     as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: the Augsburg Confession -- 'God ordained marriage to be a help against human infirmity'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'the law of nature in men cannot be removed by vows or enactments'
+  locus: the Apology -- 'the law of nature in men cannot be removed by vows or enactments'
   license: public-domain
 retrieval:
   tier: 1

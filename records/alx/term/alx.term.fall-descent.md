@@ -39,8 +39,7 @@ relations:
   target: alx.term.apokatastasis
 - type: associated-with
   target: alx.term.logikos
-plain_meaning: The world is fallen - that much is confessed by all. One teacher went further, into
-  pre-cosmic speculation, held open, not settled.
+plain_meaning: "We confessed that humanity had fallen. Origen is credited with a further account of a fall before the world began. Whether he taught it as his own view is disputed, and it was held open."
 world_word: the Fall
 false_friend:
 - the Genesis Eden narrative as the whole of what is meant
@@ -53,17 +52,12 @@ senses:
   evidential: Origen's own De Principiis carries the pre-cosmic account; whether he held it as his
     considered position or it reflects a later systematization pressed onto him is a genuinely disputed
     question in the scholarship, unresolved either way.
-  personal: A person can hold the confessed fallenness without hesitation while still finding the
-    pre-cosmic account genuinely uncertain - the two are held at different levels of confidence, not
-    collapsed into one.
-  translational: >-
-    Isn't "the Fall" just the Genesis story, later codified as original sin? This world confessed
-    fallenness at that same depth, but also carried a bolder, contested reach behind it - one teacher's
-    speculation about what fell before the world began, held open rather than settled either way.
-quick_meaning: All confess that humanity has fallen. One teacher taught that the fall came before the world began. That is speculation, not settled teaching.
+  personal: "A person could hold the confessed fall without doubt and still find the account of a fall before the world began uncertain. The two were held with different degrees of confidence."
+  translational: "Isn't \"the Fall\" just the Genesis story, later made into original sin? This world confessed fallenness just as deeply. It also had a bolder, contested account of a fall before the world began, credited to one teacher. Whether he held it as his own is disputed, and it was left open."
+quick_meaning: "We confessed that humanity had fallen. Some credit Origen with an account of a fall before the world began. Whether it was his own view is disputed."
 distortion_risk: high
 use_note:
-  means: "The world's fallenness is confessed by all, while Origen's pre-cosmic descent of souls is a disputed speculation held open."
+  means: "We confessed that people had fallen, but it stayed open whether Origen taught a fall before the world as his own view."
   not_for:
     - "presenting the pre-cosmic descent as settled or as Origen's certain position"
     - "calling it a heresy already condemned within this world's horizon"

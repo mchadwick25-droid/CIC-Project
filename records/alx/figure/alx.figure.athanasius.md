@@ -32,8 +32,7 @@ dates:
   died: '373 (widely accepted). Socrates writes that he died ''in the second consulate of Gratian and Probus... having governed that church amidst the greatest perils forty-six years''. One modern editor reads that consulate as 371, and Jerome''s Chronicle differs too. The difference is stated here, not settled.'
   floruit: bishop 328-373, exiled five times; the dominant late-horizon voice
 narratable: true
-bridge_line: the bishop who spent forty-six embattled years holding the line drawn at Nicaea - and who
-  wrote the treatise this world's Center answers from
+bridge_line: the bishop who held the line drawn at Nicaea through some forty-five embattled years, and wrote the treatise our answer about Christ draws from
 ---
 Episcopal-perspective caution: a bishop addressing his community, not
 the community describing itself; his controversy concentration must not

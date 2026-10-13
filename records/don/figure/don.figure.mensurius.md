@@ -28,8 +28,9 @@ dates:
   display: bishop of Carthage through the Diocletianic persecution; left the city expecting exile and did
     not return; dead by 311 or 312, when the disputed election to replace him took place
 narratable: true
-bridge_line: The bishop of Carthage who hid a deacon in his own house, left the church's gold with laymen
-  he trusted and an inventory with an old woman, and never came back for either.
+bridge_line: The bishop of Carthage who, it is said, hid a deacon in his own house. He left the
+  church's gold with elders he trusted and an inventory with an old woman, and never came back for
+  either.
 relations:
 - type: associated-with
   target: don.story.lucilla-affair

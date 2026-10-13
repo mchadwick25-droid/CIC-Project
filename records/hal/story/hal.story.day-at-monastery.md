@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep108
-  locus: secs. 19-20 (the women's community's discipline)
+  locus: secs. 14, 20 (the women's community's discipline)
   license: public-domain
 - source_id: hal.source.sulpitius-dialogues
   locus: Dialogue I.8-9 (the scholar's regimen, seen from outside)
@@ -37,21 +37,20 @@ narrative_tier_justification: 'Tier 4 (historically grounded reconstruction): no
   attested elements only - the general fact of a structured common life, psalmody at set
   times, wool-work, the reading and copying labor, the hospice traffic - with no
   liturgical timetable supplied, because none is attested.'
-tellable_as: a typical day among the Bethlehem communities, offered openly as
-  reconstruction from the letters' scattered notices, never as a documented schedule
-text: 'Put together, from scattered notices, a typical day might be told like this - and
-  told only like this, as a putting-together. The women rose before light for psalms;
-  they met for the psalter at set times through the day and returned to their quarters
-  between, to prayer, to the scriptures each was required to learn, and to wool-work -
-  senators'' daughters at the distaff, dressed alike in coarse cloth. They ate sparely;
-  the sick among them were made to eat more, and were nursed. No man came among them; an
-  offending sister was corrected and, stubborn, prayed back into the fold. Across the
-  way, the men''s house kept its own round of prayer and labor - and at its center, by
-  every account, one old man was always at his books, day and night, reading or writing
-  something, dictating letters that would cross the sea, working through the prophets
-  with visitors from three provinces waiting. Pilgrims came and went at the hospice
-  below. What the bells and hours precisely were, no one wrote down - or nothing that
-  was written survived.'
+tellable_as: a day at Bethlehem, pieced together from small clues in the letters. It is a rebuilt
+  picture, not a timetable.
+text: 'Put together, from scattered notices, a typical day might be told like this, and told
+  only like this, as a putting-together. The women met for the psalter at set times through
+  the day and night, and between those times they went back to their work and to the portion
+  of scripture each one was required to learn. They made garments, for themselves and for others;
+  they were noble and humble together, and all were dressed alike. They ate and worked apart
+  in three companies, and met for psalms and prayer. The sick were nursed and allowed to eat
+  meat, and no man came among them. A sister who stayed stubborn after many warnings was set
+  apart: she prayed at the refectory door and ate alone, in the hope that shame would heal what
+  rebuke had not. The men lived in a house of their own, and at its center, by one visitor''s
+  account, an old man was always at his books, day and night, reading or writing something.
+  Pilgrims came and went at the guest house. Which psalms they sang, and how the two houses
+  shared their worship, no one wrote down, or nothing that was written survived.'
 absent_detail: 'The schedule itself: which hours, which psalms, how the men''s and
   women''s worship divided - not attested; the women''s regimen is one letter''s
   memorial summary, the men''s is a visitor''s sketch of one man. The unnamed members of

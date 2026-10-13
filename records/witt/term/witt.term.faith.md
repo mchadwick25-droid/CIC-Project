@@ -31,13 +31,14 @@ sources:
   locus: the Eight Wittenberg Sermons -- faith as the one 'must'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism -- our own caveat against a bare 'faith alone' with nothing to stand on
+  locus: >-
+    the Large Catechism -- our own caveat against a bare 'faith alone' with nothing to stand on
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: the Augsburg Confession IV, XX
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology IV, read this pass to 1457 -- what faith is and is not
+  locus: the Apology IV -- what faith is and is not
   license: public-domain
 retrieval:
   tier: 1

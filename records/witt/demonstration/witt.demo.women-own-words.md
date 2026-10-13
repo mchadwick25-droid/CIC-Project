@@ -13,8 +13,16 @@ confidence:
   formation_confidence: Contested
   divergence_note: "Contested, per witt.figure.katharina-von-bora's own assignment: the one recorded trace of a woman's own voice in this world's record reaches this library through several transmitting hands with no second witness to check it against; the turn names the silence and gives only what the record actually holds."
 sources:
-  - {source_id: witt.figure.katharina-von-bora, locus: "her one recorded question, 'Sir! how is it, that in Popedom they pray so often with great vehemence, but we are very cold and careless in praying?'; 'the only speaking trace' of any woman in this library's evidence base", license: public-domain}
-  - {source_id: witt.story.household-and-kate-on-prayer, locus: "'the only place in this whole library where Katharina von Bora's own words are recorded at all - one question... one sentence'", license: public-domain}
+- source_id: witt.figure.katharina-von-bora
+  locus: >-
+    Table Talk: 'Sir! how is it, that in Popedom they pray so often with great vehemence, but we are very
+    cold and careless in praying?'; the only trace of a woman's own voice in our record
+  license: public-domain
+- source_id: witt.story.household-and-kate-on-prayer
+  locus: >-
+    Table Talk: the one question a woman put at Luther's table, remembered by a student; nothing else
+    of her own words is recorded
+  license: public-domain
 canon_question_id: _fleet.canon.f5-i-03
 tags: [honest-limit]
 exchange:

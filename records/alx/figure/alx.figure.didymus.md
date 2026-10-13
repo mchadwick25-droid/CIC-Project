@@ -35,7 +35,7 @@ dates:
     by later tradition as heading the catechetical school in its final line (not itself stated by the
     three loci cited here); blind from age four (''so he told me'' - Palladius, eyewitness)'
 narratable: true
-bridge_line: A blind teacher whom later tradition remembers as the head of the Alexandrian school in its last line. He engaged Scripture through hearing and memory. He was the tradition's last great voice in this window, and time nearly erased his own books.
+bridge_line: A blind teacher whom later tradition remembers as heading the Alexandrian school. He took in Scripture through hearing and memory. He was among the last great voices of that tradition. Time nearly erased his own books.
 ---
 Three independent testimonia (Palladius eyewitness; Jerome, who studied
 under him briefly, pre-quarrel; Socrates later) replace the prior

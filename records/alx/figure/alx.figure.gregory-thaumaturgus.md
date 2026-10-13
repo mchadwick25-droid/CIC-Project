@@ -26,8 +26,7 @@ dates:
   died: 'c. 270 (traditional date)'
   floruit: 'student under Origen at Caesarea c. 233-238; the Address of Thanksgiving delivered c. 238 (Nautin disputes its authorship and date; most scholars hold to them)'
 narratable: true
-bridge_line: the student who told us, in his own voice, what it was to be taught - the one first-person
-  account of this school's formation
+bridge_line: the student who told us, in his own voice, what Origen's teaching was like at Caesarea - the one first-person account of it
 ---
 Not an Alexandrian resident - his formation under Origen happened at
 Caesarea after the rupture, which is itself evidence that the formation

@@ -14,11 +14,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: seven books answering this practice - the practice attested directly rather than merely characterised,
-    Registry row 3
+  locus: 'seven books answering this practice: the practice attested directly rather than merely described'
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
-  locus: Petilian's own quoted argument for the practice - Registry rows 4 and 12
+  locus: 'Petilian''s own quoted argument for the practice'
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
   locus: successive edicts naming rebaptism of Catholics specifically as a legal offence
@@ -31,8 +30,7 @@ sources:
     given outside the church
   license: public-domain
 - source_id: don.source.turchi-gregorii-magni-epistolae-selectae
-  locus: Gregory's letters to Columbus (592) and Pantaleon (594), naming rebaptism as a live Donatist practice
-    in Numidia - Registry row 54
+  locus: 'Gregory''s letters of 592 and 594, naming rebaptism as a live Donatist practice: in Numidia in 592, in Africa in 594'
   license: public-domain
 claim: >-
   Baptism given outside the true church is no baptism at all. A person who comes over to us is not
@@ -63,8 +61,7 @@ held_against:
   say
 concedes: >-
   The bare practice is not in dispute and this record does not pretend it is contested ground: it is
-  attested directly and repeatedly, argued for in a Donatist voice, legislated against by name, and still
-  live in Numidia two centuries after this world's window closes. What this communion's own record concedes
+  attested directly and repeatedly, argued for in a Donatist voice, legislated against by name, and still named as a live practice in Africa a century and a half after this world's window closes. What this communion's own record concedes
   is narrower and harder. The rite's own councils suspended it for the Maximianist clergy without saying
   why, and nothing of that reasoning survives. And the claim that Cyprian's Carthage of 256 is simply this
   rite's own earlier self is a claim about continuity that the rival communion contested from inside the
@@ -126,7 +123,6 @@ is respected here and named for the same reason it exists: Novatianist rebaptism
 genuine surface similarity to this rite and is NOT continuous with it, and nothing in this record
 treats it as a comparandum.
 
-GREGORY THE GREAT IS CARRIED AT DOC_02 SS7'S OWN NARROWER HEDGE, not extended. The 592-594 letters
-fix that rebaptism was named as a live Donatist practice in Numidia at that date and nothing else -
+GREGORY THE GREAT IS CARRIED AT DOC_02 SS7'S OWN NARROWER HEDGE, not extended. The 592-594 letters fix that rebaptism was named as a live Donatist practice at that date (in Numidia in 592, in Africa in 594) and nothing else -
 not its scale, not its doctrine, not how those who practiced it understood themselves. canon_cells
 left empty, matching this world's records generally.

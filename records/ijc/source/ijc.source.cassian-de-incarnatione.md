@@ -16,6 +16,7 @@ sources: []
 author: "John Cassian (c. 360-435), writing at Marseilles at the request of Leo, then archdeacon of Rome"
 work: "De Incarnatione Domini contra Nestorium (Seven Books on the Incarnation of the Lord, Against Nestorius), c. 430 - commissioned from Gaul by the Roman archdeaconate to answer the bishop of Constantinople, months before the Council of Ephesus"
 edition: "trans. Edgar C. S. Gibson, Nicene and Post-Nicene Fathers ser. 2 vol. 11 (1894), vendored as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (div2 at line 48459)"
+citation: John Cassian, De Incarnatione Domini contra Nestorium (Seven Books on the Incarnation of the Lord, Against Nestorius), trans. Edgar C. S. Gibson, Nicene and Post-Nicene Fathers, series 2, vol. 11 (1894)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

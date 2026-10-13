@@ -49,10 +49,10 @@ text: >-
   both to one standard. Neither the one who sent a spouse away nor the one
   sent away was to marry again.
 positions:
-- second marriage after a genuine ending was permitted as a tolerated concession, with a set penance and
-  a real, documented path back into full communion
-- this world's own canonical practice named an asymmetry between how husbands and wives who separated
-  were judged, and its own earlier ascetic rule had held a stricter, more equal standard
+- If a husband or wife died, the one left could marry again, as a concession. A set penance came first,
+  then a full return. Leaving a spouse to wed another was judged as adultery.
+- Basil said that custom did not judge husbands and wives alike when they split. Our moral rules had held
+  both to one rule.
 tensions:
 - we do not have this world's own developed answer to whether people outside the faith altogether are
   excluded from it; this record answers the marriage-and-belonging question specifically, not the wider
@@ -61,13 +61,17 @@ relations:
 - type: associated-with
   target: cappadocian.quote.basil-canon-on-digamy
 use_note:
-  means: "This witness says a second marriage was tolerated with a year or so of penance, and that Basil named custom's unequal blame of husbands and wives."
+  means: This witness says remarriage after a spouse's death was allowed with a year or two of penance,
+    that leaving a spouse and remarrying was judged as adultery, and that Basil named custom's unequal
+    blame of husbands and wives.
   not_for:
-    - "a second marriage as an equal good to the first"
-    - "the stricter equal standard of the Moral Rules as the canonical practice"
-    - "the exact penance scale for third marriages, which sits in cappadocian.quote.basil-canon-on-digamy"
-    - "an answer about whether outsiders to the faith were damned"
-  years: {from: 360, to: 379}
+  - a second marriage as an equal good to the first
+  - the Moral Rules' single standard for both as the canonical practice
+  - the exact penance scale for third marriages, which sits in cappadocian.quote.basil-canon-on-digamy
+  - an answer about whether outsiders to the faith were damned
+  years:
+    from: 360
+    to: 379
   status: reviewed
 ---
 Grounded in Basil's First Canonical Letter to Amphilochius (Epistle 188): its digamy provisions (a year or more of penance, then full return) and its named asymmetry between a departing husband and a departing wife, set against the Asketikon's earlier Moral Rules, which hold both to one standard.

@@ -283,7 +283,7 @@ FLEET_RETRANSLATIONS = (
     ("desert", "From the fear of the Lord comes compunction, from compunction renunciation, from owning nothing humility is born, and from humility the death of desires."),
     ("alx", "These books are fountains of salvation, so whoever thirsts may be filled with the living words in them; let no one add to them or take anything from them."),
     ("gallic", "The Lord Jesus never promised to return in purple with a shining crown; I will not believe Christ has come unless he shows the marks of his wounds from the cross."),
-    ("ijc", "I told them I cannot give up the basilica, but neither may I fight."),
+    ("ijc", "I said I cannot give up the basilica, but I must not fight."),
     ("cappadocian", "My grandmother, the well-known Macrina, raised me; she taught me the words of the blessed Gregory, which she had kept as memory carried them down to her day."),
     ("witt", "Baptism is necessary for salvation; through it God offers grace, children should be baptized, and we reject the Anabaptists who say children are saved without it."),
     ("hal", "You are lying: you follow Cicero, not Christ, for where your treasure is, your heart will be too."),

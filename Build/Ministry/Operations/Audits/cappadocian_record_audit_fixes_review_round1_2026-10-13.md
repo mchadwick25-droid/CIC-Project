@@ -2,9 +2,9 @@ Simulated review — informational only, not an Article 31 substitute.
 Review round 1, cappadocian record audit fixes, 2026-10-13, reviewer: independent Opus subagent
 
 Round: 1
-Reviewer model: Opus
+Reviewer model: Opus 5.5
 Reviewer agent: independent subagent, fresh context, read-only
-Drafter model: Opus
+Drafter model: Opus 5.5
 Drafter agent: the session's own Opus thread made the record edits; this reviewer did not draft them
 Truncation check, method 1: the file ends on the last bullet of 'Changes checked and found sound' (the Iconium / Doc_01 line), a complete sentence with its closing citation
 Truncation check, method 2: the saved file is 14,652 characters, the same length as the reviewer's returned message, counted separately before saving

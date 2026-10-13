@@ -22,6 +22,7 @@ work: 'Loca sanctorum Africae: le culte des martyrs en Afrique du IVe au VIIe si
   de l''Ecole francaise de Rome 58 (Rome, 1982)'
 edition: Ecole francaise de Rome, 1982 -- consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3)
+citation: 'Yvette Duval, Loca sanctorum Africae: le culte des martyrs en Afrique du IVe au VIIe siecle, 2 vols., Collection de l''Ecole francaise de Rome 58 (Ecole francaise de Rome, 1982)'
 kind: unvendored
 rights_status: "in-copyright modern scholarship; consultation-only, never vendored. Cited and paraphrased, never quoted as licensed vendored material - a bibliographic record only"
 attribution_status: attributed

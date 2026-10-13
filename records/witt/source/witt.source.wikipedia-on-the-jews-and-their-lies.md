@@ -18,6 +18,7 @@ author: Wikipedia
 work: On the Jews and Their Lies
 edition: and "Against the Murderous, Thieving Hordes of Peasants" — tertiary, used only as G1 Part B itself
   suggested for the content of two unvendored texts
+citation: Wikipedia, On the Jews and Their Lies and "Against the Murderous, Thieving Hordes of Peasants"
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

@@ -39,9 +39,7 @@ senses:
     to back him.'
   evidential: The interpretive frame is independently supported by modern scholarship on Jerome's
     career; the specific financial mechanics rest on Jerome's own account.
-  personal: This made even the most learned man genuinely vulnerable. When the pope who favored him
-    died and rumor turned, he had no office to fall back on - only reputation and a patron's continued
-    goodwill, and he left Rome within the year.
+  personal: "This left even the most learned man exposed. When the pope who favored him died and rumor turned, he had no bishop's seat to fall back on. He had his reputation and the goodwill of those who still trusted him, and he left Rome within the year."
   translational: '"Who held authority among you, and how did anyone come to have it?" - by demonstrated
     learning, voluntarily recognized, and by the wealth that chose to sustain it. Never by office
     or territory.'

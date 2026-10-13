@@ -20,24 +20,25 @@ sources:
   locus: Concerning Baptism -- 'a gracious covenant of comfort'
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons -- the 'many absolutions' for 'comfort or strengthening for our
-    conscience'
+  locus: >-
+    the Eight Wittenberg Sermons -- the 'many absolutions' for 'comfort or strengthening for our conscience'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: per Doc_06 §5 entry 9.1's own Key Sources line
+  locus: the Large Catechism
   license: public-domain
 - source_id: witt.source.luther-deutsche-geistliche-lieder-the-hymns
   locus: the hymns -- 'his precious word assureth me; my solace, my sure rock is he'
   license: public-domain
 - source_id: witt.source.luther-four-hymnal-prefaces-to-walters-gesangb
-  locus: the funeral preface, cited among this entry's Registry rows (Doc_06 SS5 entry 9.1)
+  locus: the funeral preface
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'consciences cannot be set at rest through any works, but only by
-    faith'
+  locus: >-
+    the Augsburg Confession -- 'consciences cannot be set at rest through any works, but only by faith'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, opening and closing its chief article -- 'this alone brings sure and firm consolation
+  locus: >-
+    the Apology, opening and closing its chief article -- 'this alone brings sure and firm consolation
     to pious minds'
   license: public-domain
 retrieval:

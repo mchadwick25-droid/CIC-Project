@@ -41,31 +41,25 @@ retrieval:
   prefer_instead:
   - "participant wants our own account of any household's actual giving -- our library does not hold one"
 text: >-
-  We baptized children, and we defended that plainly against those who
-  said we should not. Baptism, for us, is God offering grace, not a choice
-  a person makes for himself. A child offered to God through baptism is
-  received into his grace on exactly that ground. We named our opponents
-  directly -- those who reject infant baptism and say children are saved
-  without it -- and rejected their teaching in turn.
+  We baptized children, and we defended that plainly against those who said we should not. Baptism, for
+  us, was God offering grace, not a choice a person makes for himself. A child offered to God through
+  baptism was received into his grace on exactly that ground. We named our opponents directly -- those
+  who reject infant baptism and say children are saved without it -- and rejected their teaching in turn.
 
-  In a sense we were born again, though we locate the new birth
-  differently than you may expect: at the font, not only at a later, felt
-  moment. The same sentence that names us "born with sin" names the remedy. It calls that inborn sin a disease, truly sin, "bringing eternal death upon those not born again through Baptism and the Holy Ghost." And baptism itself, our own catechism says,
-  is a death begun that lasts a whole life. The old self is drowned and a
-  new self rises, not once only, but daily.
+  In a sense we were born again, though we locate the new birth differently than you may expect: at the
+  font, not only at a later, felt moment. The same sentence that names us "born with sin" names the remedy.
+  It calls that inborn sin a disease, truly sin, "bringing eternal death upon those not born again through
+  Baptism and the Holy Ghost." And baptism itself, our founder wrote, is a death begun that lasts a whole
+  life. Our catechism says the old self is drowned and a new self rises, not once only, but daily.
 
-  We taught that when all things end, Christ will appear to judge and will
-  raise all the dead. He will give the godly everlasting life and condemn
-  the ungodly. We do not hold that the godly would take over rule of this
-  present world before that resurrection came, and we named this directly
-  against others who did. What you call the rapture, in the shape most
-  familiar to you, is not a claim our own record makes.
+  We taught that when all things end, Christ will appear to judge and will raise all the dead. He will
+  give the godly everlasting life and condemn the ungodly. We did not hold that the godly would take over
+  rule of this present world before that resurrection came, and we named this directly against others
+  who did. What you call the rapture, in the form you know it, appears nowhere in our texts.
 
-  On tithing, we must be honest about a real gap. Our library names
-  "tithes" exactly once, and only as an example of a matter the civil
-  courts, not the Church, had jurisdiction over. Whether, or how, any
-  household among us actually tithed is not something our own record
-  tells us.
+  On tithing, we must be honest about a real gap. Our confession mentions tithes only in passing, as a
+  matter where a bishop's power rested on human right, not on God's command. Whether, or how, any household
+  among us actually tithed, we cannot say.
 positions:
 - "infant baptism was our own practice and our own defended position -- baptism is God's own gift offered, not a choice a person makes for himself, and we named and rejected the opposing Anabaptist position directly"
 - "we would locate 'being born again' at baptism itself, and as a daily event, not a single felt moment -- the old self drowned, a new self rising, every day"

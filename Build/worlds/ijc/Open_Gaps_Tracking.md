@@ -195,3 +195,172 @@ Parallel build threads are the failure case this rule has to survive, and it has
 **Gates.** `engine.m10.cli records ijc` and `regate ijc --base origin/main`: pass. `engine.m2.cli determinism-check ijc`: pass. The site JSON was recompiled; `engine.m2.site_cli staleness-check`: pass. Package rebuilt after the last record edit: `records/worlds/ijc.yaml` pins `packages/ijc/2026-10-08T23-42-04Z`, `manifest_hash` `sha256:9f1cc2d2ae7922681838b4c9b876ba74687ff20de8ee4762735ec8adf25a63d6`.
 
 Status: items (2), (3) and (6) CLOSED pending the review; the rest of entry 30 stays OPEN.
+
+32. **Record wording pass: audit fixes to spoken fields, loci and source citations, 2026-10-13.** An audit of every spoken field and locus in this world against the cited sources and the vendored text (the Artifact "ijc Record Audit" in the 13 October session) found source drift, tells, quote-rendering misses, wrong loci and readability failures. Review: `Build/Ministry/Operations/Audits/ijc_record_audit_fixes_review_round1_2026-10-13.md` and `..._round2_2026-10-13.md` (Opus 5.5; round 1 found six blocking items, all fixed before round 2). Quote renderings were written by Opus. No model or API spend.
+
+**Counts.** 100 records changed: 12 doctrinal witnesses, 7 honest limits, 11 stories, 9 demonstrations (Representative turns only), 36 quote renderings (plus 7 quote loci), 12 figure bridge lines, 12 terms, 1 contested claim (factual correction only), and 30 source records (one `citation:` line each). No quote `text` changed and no participant turn changed. The `m9:source-citation/ijc` waiver is deleted.
+
+**Changed, by record.** Fields listed are the ones that differ from main.
+
+- `ijc.contested.constantine-conversion`: held_against[0], sources[1].locus. 'the night before' removed (factual correction only; hedges kept).
+- `ijc.demo.argued-about`: exchange[1].text. tells.
+- `ijc.demo.bread-and-cup`: exchange[1].text. quoted Ambrose line now matches the corrected quote rendering.
+- `ijc.demo.hypocrisy`: exchange[1].text. penance (390) placed before Callinicum (388); 'worse than heathen' and 'withdraw' not Ambrose's words.
+- `ijc.demo.never-settled`: exchange[1].text. 'apostle's grave' put in Leo's mouth; 'merely recognised' is a contested reading.
+- `ijc.demo.ordinary-day`: exchange[1].text. tells.
+- `ijc.demo.reading-confusion`: exchange[1].text, exchange[3].text. Augustine passages outside the Book 9 ch. 7 licence and an invented farmer; turn 3 overclaimed 'most of our people'.
+- `ijc.demo.someone-like-me`: exchange[1].text. tells.
+- `ijc.demo.want-to-believe`: exchange[1].text. invented 'feast our whole city kept'; 'never written'; Leo lines now verbatim.
+- `ijc.demo.who-was-jesus`: exchange[1].text. 'very God of very God' misleads; coined closer.
+- `ijc.dw.ancient-custom`: sources, text. Hilary overstated ('never'); Damasus verse reading attributed to modern scholars.
+- `ijc.dw.baptism-threshold`: sources[0].locus, sources[1].locus, text. Eusebius given a motive that is only the edition editor's note; now attributed (Vita Constantini IV.61-62).
+- `ijc.dw.bread-made-body`: text. tells and sentence length.
+- `ijc.dw.collections-discipline`: text. coined phrase and 'public account owed to the poor' not in Leo Serm. X.
+- `ijc.dw.how-we-read`: sources, text. canon-list claim with no cited source, against the record's own not_for; unsourced 'read aloud'.
+- `ijc.dw.jesus`: text. 'the victory could be God's' is not in the Tome (Ep. XXVIII).
+- `ijc.dw.marriage-ranked`: sources, text. Ep. LXIII.40 cited for the three-paths passage; tells.
+- `ijc.dw.original-sin-transmitted`: text. 'guilt' where Leo writes original sin and condemnation (Ep. LIX.4).
+- `ijc.dw.received-not-seen`: sources[0].locus, sources[1].locus, text. 'three hundred years' and 'read aloud in every church' in no cited source.
+- `ijc.dw.record-under-question`: sources[0].locus, sources[1].locus, text. forgery stated as fact; the contested record says doubtful authenticity.
+- `ijc.dw.room-for-hesitation`: sources[0].locus, sources[1].locus, text. 'impugn his motives' is Socrates's phrase, not Eusebius's.
+- `ijc.dw.women-authority-cost`: sources[0].locus, sources[1].locus, text. tells and sentence length.
+- `ijc.figure.ambrose`: bridge_line. sermon is to the congregation, not the emperor; 'a week' attributed to the Vita.
+- `ijc.figure.constantine`: bridge_line. readability and tells.
+- `ijc.figure.constantius`: bridge_line. readability and tells.
+- `ijc.figure.damasus`: bridge_line. graves, pilgrims and primacy are not in Jerome ch. 103.
+- `ijc.figure.eusebius-caesarea`: bridge_line. readability and tells.
+- `ijc.figure.julius`: bridge_line. readability and tells.
+- `ijc.figure.justina`: bridge_line. readability and tells.
+- `ijc.figure.leo`: bridge_line. readability and tells.
+- `ijc.figure.marcian`: bridge_line. readability and tells.
+- `ijc.figure.pulcheria`: bridge_line. readability and tells.
+- `ijc.figure.theodosius`: bridge_line, sources[0].locus. unsourced motive; 'a city' for a crowd; Sozomen VII.25 added to the locus.
+- `ijc.figure.valens`: bridge_line. readability and tells.
+- `ijc.limit.earlier-windows`: sources[0].locus, statement. tells and locus.
+- `ijc.limit.f5-ordinary-day`: sources[0].locus, sources[1].locus, statement. 'only women' against Augustine's mother in its own cited passage; 'night' unsourced.
+- `ijc.limit.inner-life`: sources[0].locus, statement. same night-long singing claim; pivot.
+- `ijc.limit.jesus-to-you`: sources[0].locus, sources[0].source_id, statement. 'never written' against the record's own 'does not survive'; source changed to Leo Sermon XXI.
+- `ijc.limit.later-questions`: sources[0].locus, sources[0].source_id, statement. flat absence claim; source changed to Leo Sermon LXXIV.
+- `ijc.limit.marriage-money`: sources[0].locus, statement. wealth given as cause of the office fights; no cited source says so.
+- `ijc.limit.reading-alone`: sources[0].locus, statement. psalms 'all through the night' is not in Confessions IX.7.
+- `ijc.quote.a-fine-talent-for-making-verses`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.ambrose-blessing-changes-nature`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.ambrose-cannot-surrender`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.ambrose-dare-not-offer`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.ambrose-emperor-in-church`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.ammianus-roman-luxury`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.ammianus-sicininus-massacre`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.augustine-vigil-hymns`: modern_rendering, sources[0].locus. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.canon28-equal-privileges`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.canon3-new-rome`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.chalcedon-definition`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.compelled-to-come-in`: modern_rendering, sources[0].locus. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.eutropius-right-of-refuge`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.happy-christian-emperors`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.he-deferred-it-in-the-hope`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.hymns-and-psalms-should-be-sung`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.jerome-damasus-verses`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.julius-custom`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.lactantius-dream`: modern_rendering. rendering no longer says 'night before'.
+- `ijc.quote.leo-rome-apostles`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.leo-things-secular`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.leo-tome-each-form`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.let-the-ancient-customs-prevail`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.milan-edict`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.nicene-creed`: modern_rendering. editor's brackets kept; long sentence split.
+- `ijc.quote.no-power-but-of-god`: modern_rendering, sources[0].locus. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.nothing-further-can-it-add`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.peter-has-spoken`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.secular-ruler-ecclesiastical-cause`: modern_rendering, sources[0].locus. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.sin-is-not-done-away-but-by-tears`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.socrates-damasus-election`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.sozomen-thessalonica-law`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.the-reading-of-all-the-documents`: modern_rendering, sources[0].locus. 'Session I' in no vendored text; locus by section and lines.
+- `ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood`: modern_rendering, sources[0].locus, sources[0].source_id, speaker_or_author. passage is Ambrose Letter LXIII.40, not Concerning Widows IV.40-41; source and locus corrected; rendering added words.
+- `ijc.quote.the-rudiments-of-the-creed`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.quote.vc-conquer-by-this`: modern_rendering. rendering fidelity: clauses, added words, sentence length, misleading modern words.
+- `ijc.story.altar-of-victory`: text. 'for centuries' not in the edition's account.
+- `ijc.story.bees-of-milan`: tellable_as, text. wording, tells, readability.
+- `ijc.story.callinicum-synagogue`: tellable_as, text. 'worse than heathen', 'withdraw', bishop's role stated as fact.
+- `ijc.story.dream-before-battle`: tellable_as, text, use_note.means. 'the night before' is not in Lactantius ch. 44.
+- `ijc.story.emperor-builds-another-basilica`: text. 'tax breaks' for exemption from public service (Optatus App. X).
+- `ijc.story.emperor-penance`: tellable_as, text. denunciation and submission overclaimed against Ep. LI and the later historians.
+- `ijc.story.eutropius-at-the-altar`: text. wording, tells, readability.
+- `ijc.story.letter-that-outranked-a-council`: tellable_as, text. wording, tells, readability.
+- `ijc.story.tome-that-would-not-bend`: text. Leo's reasoning rewritten; legates went in his place.
+- `ijc.story.vigil-in-basilica`: tellable_as, text. claims what the people knew.
+- `ijc.story.vision-and-alliance`: absent_detail, tellable_as, text. vision placed at the bridge; 'the night before' removed from absent_detail.
+- `ijc.term.basilica`: senses.personal, senses.translational. readability, tells and tense.
+- `ijc.term.communio`: senses.personal, senses.translational. 'letter of communion ... hundreds of miles' in no source.
+- `ijc.term.concilium`: senses.personal, senses.translational. readability, tells and tense.
+- `ijc.term.haeresis`: plain_meaning, senses.personal, senses.translational, sources[0].locus. legal fusion stated as settled; locus line pointed at the chapter heading.
+- `ijc.term.homoios`: senses.personal, senses.translational, sources[0].locus, sources[2].locus. locus pointed to the Ancyra 'like in essence' anathema; now Ancyra and the Constantinople 360 creed.
+- `ijc.term.homoousios`: senses.personal. readability, tells and tense.
+- `ijc.term.imperator-intra-ecclesiam`: plain_meaning, quick_meaning, senses.personal, senses.translational. 'over' for 'above' misquote; 'discipline' not in the sermon.
+- `ijc.term.martyrium`: plain_meaning, quick_meaning, senses.personal, senses.translational, sources[0].locus. design and intent asserted with no vendored warrant; now attributed to modern scholars.
+- `ijc.term.nea-rhome`: plain_meaning, senses.personal. readability, tells and tense.
+- `ijc.term.presbeia`: plain_meaning, quick_meaning, senses.personal, senses.translational. readability, tells and tense.
+- `ijc.term.primatus`: plain_meaning, senses.personal, senses.translational, sources[3].locus. present tense for the community's past; coined closer; locus note.
+- `ijc.term.tomus`: plain_meaning, senses.personal, senses.translational. 'rightly' settled a reception the record holds contested.
+
+**Build fields touched, factual correction only.** `ijc.contested.constantine-conversion` (`held_against[0]`, `sources[1].locus`): "the night before" removed; Lactantius ch. 44 says only that Constantine was directed in a dream. `ijc.story.vision-and-alliance` `absent_detail` and `ijc.story.dream-before-battle` `use_note.means`: same removal. Every hedge and limit in those fields stays.
+
+**Commentary removed from a live record.** `ijc.source.sulpicius-chronica` body: the paragraph "This is the counter-case to the Correction of the Donatists" (a note on what the world now holds) is removed, as the live-surface rule requires for a file this pass edits. No other field of that record changed beyond the citation line.
+
+**Source changes made on spoken records.** `ijc.limit.jesus-to-you` and `ijc.limit.later-questions` named sources whose loci were not places; both now cite `ijc.source.leo-sermons` (Sermon XXI.I, Sermon LXXIV.I). `ijc.dw.how-we-read` gains `chalcedon-acts` (Session IV) and `augustine-confessions` (IX.7) for the two channels it still names; `ijc.dw.ancient-custom` gains `jerome-de-viris` (ch. 103, for "wrote verse" only); `ijc.dw.marriage-ranked` and `ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood` now cite `ijc.source.ambrose-epistles` for Letter LXIII.40.
+
+**Gates.** The readability waiver `m1:readability/ijc` is lowered from 155 to the new count in `engine/m9/enforce.py`; every remaining finding is a build field (doctrinal-witness `positions`, force and gravity descriptions, contested claims, world_core, voice_craft), which this pass does not rewrite for style. Package rebuilt after the last record edit; see the pin in `records/worlds/ijc.yaml`.
+
+Status: CLOSED pending the project lead's merge review. Out-of-scope findings are in entry 33.
+
+33. **Found in the 13 October audit and not fixed (out of scope for the wording pass), 2026-10-13.** Each item is open for this world's build thread or the project lead.
+
+(1) **Participant turn left dangling.** `ijc.demo.reading-confusion` Representative turn 1 no longer mentions Augustine (his Confessions III and VIII are outside the Book 9 ch. 7 licence in `ijc.source.augustine-confessions`), but the unchanged participant turn 2 still says "So even your most famous bishop struggled with it." Participant turns are not changed in this pass. The demonstration needs a new participant turn 2, or retiring; its body notes also still describe the removed Augustine story. Decision for the project lead.
+
+(2) **Letter LXIII is cited but not in a source record's scope.** The passage quoted in `ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood` is Ambrose Letter LXIII.40 (npnf210 lines 45069-45080), not Concerning Widows. `ijc.source.ambrose-epistles` lists only Ep. 17-18, 20-22, 40-41, 51 and 61-62. Add Ep. 63 to that record's work, or drop the citation. In the quote, `confidence.divergence_note`, `use_note.not_for[2]`, `use_note.years` (377-380; the letter dates to 396) and the body note still describe a treatise on widowhood. `ijc.dw.marriage-ranked` `use_note.years` has the same gap.
+
+(3) **Build fields that now disagree with corrected spoken text.** `ijc.dw.original-sin-transmitted` `positions`, `tensions` and body note, and `ijc.limit.later-questions` `why_sources_cannot_answer`, say "guilt" where Leo (Ep. LIX.4) writes original sin and condemnation. `ijc.limit.reading-alone` `use_note.means` says "through the night". `ijc.quote.lactantius-dream` body note and `ijc.source.lactantius-de-mortibus` body text still say the dream came "the night before". `ijc.story.emperor-penance` `use_note.means` says "he submitted", which only Sozomen and Theodoret say. `ijc.figure.damasus` body note calls Jerome a witness of the epigraphic program, which his notice does not support. `ijc.term.haeresis` `use_note.means` still says "one act, a judgment of faith with legal force". `ijc.demo.hypocrisy`, `ijc.demo.never-settled` and `ijc.dw.marriage-ranked` body notes describe the pre-edit wording. `ijc.source.hilary-de-synodis` repeats the wrong line pointer for the homoios locus.
+
+(4) **No source record behind a scholarly attribution.** The Damasus reading (verse as a claim to guard the martyrs' memory) is now credited to "modern scholars" in `ijc.dw.ancient-custom`, `ijc.figure.damasus` and `ijc.term.martyrium`. Its basis (Trout 2015) is referenced but has no source record, and nothing in the vendored text carries it.
+
+(5) **Locus convention.** Some loci carry file and line references (for example `npnf202 line 8557`) and others were cleaned to work and chapter only. Participants see loci on source cards. Pick one rule for the world; the audit left both as they were.
+
+(6) **Readability that stays on the waiver.** Build fields over the FK/FRE ceiling, not rewritten: doctrinal-witness `positions` (57), force descriptions (20), contested claims (12), gravity descriptions (6), voice_craft (11), world_core (8), and the `ijc.story.vision-and-alliance` `absent_detail` and `ijc.contested.constantine-conversion` `held_against[0]` fields.
+
+(7) **Demonstration loci.** Every demonstration `sources[].locus` is a usage note ("text used directly") pointing at a world record, not a place in a vendored text. A design question for the source-card rules.
+
+(8) **Duplicate quotes.** `ijc.quote.a-fine-talent-for-making-verses` and `ijc.quote.jerome-damasus-verses` carry the same sentence from Jerome ch. 103; `ijc.quote.augustine-vigil-hymns` and `ijc.quote.hymns-and-psalms-should-be-sung` overlap in Confessions IX.7. Their renderings now agree; whether to merge the records is a build decision.
+
+(9) **Unlisted `tome-that-would-not-bend` pivot.** `ijc.story.tome-that-would-not-bend` still has "Not because an apostle had ever taught there." Not in the audit's findings; left for the next pass.
+
+Status: OPEN.
+
+34. **`use_note.means` corrected where it contradicted the corrected fields or the source, 2026-10-13.** Scope addition from the project lead's ruling, relayed by the coordinating session: `engine/m4/evidence.py` puts every `use_note.means` into the evidence block the voice reads, so a stale `means` could carry a claim this pass corrected. All 93 `means` lines were compared with the corrected spoken fields and the vendored sources; 11 changed, only `means`, never `not_for` or `years`. Review: `Build/Ministry/Operations/Audits/ijc_record_audit_fixes_review_round3_2026-10-13.md` (Opus 5.5; two blocking items fixed, three non-blocking noted below).
+
+**Changed.** `ijc.limit.reading-alone` and `ijc.story.vigil-in-basilica`: "through the night" removed (Confessions IX.7 says hymns and psalms were sung, not that it lasted the night). `ijc.limit.f5-ordinary-day`: "lived, not written" now "lived and our record does not hold it". `ijc.limit.inner-life`: "psalm-singing" now "hymn and psalm singing". `ijc.story.emperor-penance`: "he submitted" removed; Ep. LI shows the demand, and Sozomen and Theodoret say Theodosius did penance. `ijc.dw.baptism-threshold`: Gibbon's "unrepeatable" and the awe motive removed; the sources do not always say why men delayed. `ijc.dw.how-we-read`: "both Nicene sides" now "both sides in the fight over the Son". `ijc.dw.women-authority-cost`: Justina's role is named in some accounts, not stated as fact. `ijc.term.haeresis`: the legal-fusion question is held open, as the record's own translational sense holds it. `ijc.term.martyrium`: the Rome standing reading is attributed to modern scholars. `ijc.term.imperator-intra-ecclesiam`: quotes "not above it" and drops "under her discipline", which comes from Ep. LI (390), not the 386 sermon.
+
+**Found and not fixed.** Fields outside `means` that still carry claims this pass corrected: `ijc.story.emperor-penance` `modern_contrast` puts the emperor's submission in the contemporary letter; `ijc.dw.baptism-threshold` `positions` gives the delay the Gibbon-note reason; two fields still say "night" (see entry 33 item 3); `senses.evidential` in `ijc.term.primatus` and `ijc.term.martyrium` says Jerome "worked in Damasus's own chancery", which no vendored text states. The 38 quote `means` lines were checked by the first pass only.
+
+Status: CLOSED pending the project lead's merge review; the out-of-scope fields stay OPEN.
+
+35. **Independent-review fixes and the project lead's rulings A, B and C, 2026-10-13.** An independent review of the ijc pass found it careful and mostly accurate, and asked for the changes below. The project lead then ruled on the cap (A), the dangling demonstration turn (B) and the Letter LXIII scope (C). Review: `Build/Ministry/Operations/Audits/ijc_record_audit_fixes_review_cap-ruling_2026-10-13.md` (Opus 5.5, one targeted recheck at the cap). This entry resolves items (1) and (2) of "Found in the 13 October audit and not fixed" (entry 33) by subject.
+
+**Changed.**
+1. Modern-scholar claims voiced by the community with no source are removed. `ijc.dw.baptism-threshold`: Gibbon's note is no longer retold. `ijc.dw.ancient-custom`, `ijc.figure.damasus` (`bridge_line`) and `ijc.term.martyrium` (`plain_meaning`, `quick_meaning`, `senses.personal`, `use_note.means`): the "modern scholars read" line is gone and Jerome's plain fact stays. `ijc.term.martyrium` `senses.translational` drops "built to carry the claim of an institution".
+2. `ijc.dw.ancient-custom`: the Hilary locus names the volume's own introduction again, and the doubt about Hilary's success is credited to that edition, not to "our sources".
+3. `ijc.figure.theodosius` `bridge_line` follows Ep. LI, which is conditional ("I dare not offer the sacrifice if you intend to be present"); the public penance is credited to later historians. `ijc.story.emperor-penance` `use_note.means` says the same.
+4. `ijc.story.emperor-penance` `text`: "within a generation" is now "decades later"; the closing line about a bishop with no soldiers is removed.
+5. Over-flattening: about 25 clipped fields are rejoined into connected sentences at FK 8-10 or nearer, among them `ijc.term.imperator-intra-ecclesiam` `senses.personal`, `ijc.demo.reading-confusion` turn 3, `ijc.figure.damasus` and several figure bridge lines. Ten touched fields stay below FK 6; all pass FRE 60.
+6. Quote renderings, by Opus: `ijc.quote.leo-tome-each-form` keeps "working together with the other"; `ijc.quote.julius-custom` is one question; `ijc.quote.chalcedon-definition` restores "[of God]" and keeps "one subsistence"; `ijc.quote.canon3-new-rome` restores "prerogative of honor".
+7. "Night": Ambrose Ep. XX.24 says the day was spent in sadness and psalms were repeated in the smaller basilica; it names no night. "Night" is removed from `ijc.demo.someone-like-me`, `ijc.demo.reading-confusion` (turns 1 and 3), `ijc.term.imperator-intra-ecclesiam` and the `ijc.story.vigil-in-basilica` retrieval line. The Constantine vision "that night, in his sleep" in `ijc.story.vision-and-alliance` stays; it is Eusebius and not the siege.
+8. The two round-3 `means` fixes, `ijc.term.imperator-intra-ecclesiam` ("not above it") and `ijc.limit.f5-ordinary-day` ("our record does not hold it"), are rechecked in the cap-ruling file.
+
+**Project lead's ruling B.** `ijc.demo.reading-confusion` participant turn 2 now follows the corrected turn 1: "But what about someone like me, who will never read it like an expert?" The record's body note no longer says the Augustine struggle is answered first.
+
+**Project lead's ruling C.** `ijc.source.ambrose-epistles` `work` now lists Ep. 63 (to the Church at Vercellae, with the three paths in section 40; npnf210 around line 44548). The volume's chronology dates Ep. 63 to 396 (npnf210 around line 773). `ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood`: `use_note.years` 396-396, `divergence_note`, `use_note.not_for[2]` and the body note now describe a letter to Vercellae, not a treatise on widowhood. `ijc.dw.marriage-ranked`: `use_note.years` 377-396, covering both the Widows citation and the letter. No waiver count changed (readability waiver stays 114; embedded-quotation count stays 7).
+
+**Small fixes after the cap recheck.** `ijc.figure.damasus` `bridge_line`, `ijc.term.imperator-intra-ecclesiam` `senses.personal` and `ijc.demo.reading-confusion` turn 3 are reworded as the recheck suggested (no new claim), and the `ijc.demo.someone-like-me` body note drops "that night".
+
+**Still open.** `ijc.term.primatus` `senses.evidential` ("Jerome, who worked in Damasus's chancery, records the verse inscriptions") and `senses.informational` ("built in stone under Damasus"), and `ijc.term.martyrium` `senses.informational`, state an inscription program that Jerome's notice does not carry. Re-source or attribute them in a later pass. `ijc.core.imperial-juridical` and `ijc.contested.damasine-decretals` mention modern scholars or Gibbon; `ijc.dw.original-sin-transmitted` positions and tensions still say "guilt"; `ijc.demo.reading-confusion` is otherwise coherent. See entry 33 items (3) to (9).
+
+Status: items (1) and (2) of entry 33 CLOSED by subject; the rest of entry 33 stays OPEN.

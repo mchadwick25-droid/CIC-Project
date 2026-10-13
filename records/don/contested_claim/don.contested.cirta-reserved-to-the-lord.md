@@ -15,8 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: don.source.optatus-against-donatists
-  locus: Against the Donatists I.14 (cic/texts/optatus_against-the-donatists.txt, lines 181-192) -- the
-    narrated account
+  locus: 'Against the Donatists I.14: the narrated account'
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
   locus: the Acts of the Council of Cirta (305) themselves, part of Optatus's own Appendix, the documentary

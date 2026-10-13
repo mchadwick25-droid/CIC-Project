@@ -35,8 +35,8 @@ sources:
     of the settlement
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'thin_topics: the ordinary believer''s own interior life, known mostly through what opponents
-    chose to argue against'
+  locus: the ordinary believer's own interior life, known mostly through what opponents chose
+    to argue against
   license: public-domain
 retrieval:
   tier: 1

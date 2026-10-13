@@ -24,11 +24,10 @@ relations:
   target: don.figure.lucilla
 statement: 'Two women stand at the center of our own history. One, Lucilla, a wealthy woman of Carthage,
   is named directly: her grievance and her money are said to have made the rival consecration happen that
-  gave us our first bishop. A second woman is named just as directly as having stirred up the schism inside
-  our own schism, years later -- but her own name is not given, even by the one source that draws the
-  comparison. Both women had real standing. Neither woman''s own words survive. Everything we know of
-  either of them, we know through a man''s pen, written to explain why something happened, not to let
-  her speak for herself.'
+  gave us our first bishop. A second woman is said to have stirred up the schism inside our own schism,
+  years later, but her name is not given, even by the one source that draws the comparison. Lucilla had
+  wealth and influence. Neither woman''s own words survive. Everything we know of either of them, we know
+  through a man''s pen, written to explain why something happened, not to let her speak for herself.'
 why_sources_cannot_answer: 'Doc_02_Source_Ecology.md SS6 (Gender, Article 20) states the vendored corpus''s
   own gender finding in full: Lucilla is reconstructed ''only to the bound Optatus''s own hostile text
   supports... a named woman of means with the standing to make a rival consecration happen, nothing beyond

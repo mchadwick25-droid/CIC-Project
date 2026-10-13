@@ -16,7 +16,7 @@ confidence:
     limit-clause.
 sources:
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
-  locus: Christian Nobility, cited among this entry's Registry rows (Doc_06 SS5 entry 7.3)
+  locus: Christian Nobility
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: the Large Catechism -- honour 'a far higher thing... than to love one'
@@ -28,7 +28,8 @@ sources:
   locus: the Table Talk -- 'all that govern are called Fathers' (Contested as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'bound to obey their own magistrates and laws save only when commanded
+  locus: >-
+    the Augsburg Confession -- 'bound to obey their own magistrates and laws save only when commanded
     to sin'
   license: public-domain
 retrieval:
@@ -65,7 +66,7 @@ senses:
   translational: 'Do not hear obedience as servility, and do not hear the limit-clause as a general right
     of resistance: we mean honour of a majesty hidden in ordinary people, limited only where obedience
     would mean sin.'
-quick_meaning: Obedience owed to parents and rulers, limited only when they command sin.
+quick_meaning: 'We owe honor to parents and rulers. One limit: we never obey an order to sin.'
 distortion_risk: high
 use_note:
   means: "Obedience meant what is owed to parents and rulers as to God, with the single limit that no one obeys a command to sin."
