@@ -28,8 +28,7 @@ retrieval:
 relations:
 - type: associated-with
   target: rzg.term.consistory
-plain_meaning: An elder at Geneva is a layperson, not an ordained pastor. An elder holds real power in
-  the Consistory.
+plain_meaning: An elder at Geneva was a layperson, not a pastor. An elder held real power on the Consistory.
 world_word: Elder (lay elder, Geneva)
 false_friend:
 - an honorary or ceremonial role with no real institutional authority
@@ -38,12 +37,12 @@ senses:
     seniors selected from our own people, to unite with the pastors in pronouncing censures and exercising
     discipline. This is what makes our own Geneva church government presbyterian, not purely clerical.'
   evidential: Calvin's Institutes, Book IV, chapter 3, states this general doctrine directly.
-  personal: We trust our elders because they come from among us, not because they hold ordained office
-    - the discipline they exercise is our own community's, not the clergy's alone.
-  translational: This is not an honorary title for a respected older member. It names a real office, with
-    real disciplinary standing, inside the Consistory itself.
-quick_meaning: A layperson at Geneva, not ordained clergy. An elder holds real power in the Consistory,
-  alongside the pastors.
+  personal: We trusted our elders because they came from among the people, not because they held ordained
+    office. Lay elders and pastors shared the discipline. It was not left to the clergy alone.
+  translational: This was not a title of honor for an older member. It was a real office with real power
+    on the Consistory.
+quick_meaning: A layperson at Geneva, not a pastor. An elder held real power on the Consistory, with the
+  pastors.
 distortion_risk: medium
 use_note:
   means: "An elder at Geneva is a layperson, not an ordained pastor, who holds real power in the Consistory."

@@ -64,14 +64,13 @@ senses:
     systematic theology allows. The difference is not a disagreement between our two cities - it is the
     same doctrine, held with the same seriousness, given two different registers by two reforms that never
     had the chance to compare notes on how to say it.'
-  personal: We do not hold this as a cold decree to fear. We hold it as the ground under a settled life
-    - the reason we need not examine our own conscience for proof of standing. Whoever is joined to Christ
-    by true faith already has, in that very faith, the only evidence of election anyone is given or needs.
-  translational: 'This is not a doctrine of doom but of comfort: since our salvation was never something
-    we could lose by our own failure, it was never something we earned by our own success either. Our
-    own confession states this pastoral intent directly. The doctrine''s own harder, more systematized
-    edges are a later, largely Calvin- and Beza-specific development, not the way either city''s founders
-    first stated the conviction.'
+  personal: We did not hold this as a cold decree to fear. We held it as the ground under a settled life.
+    It was the reason we did not look beyond Christ for proof of our standing. Whoever was joined to Christ
+    by true faith already had, in that faith, a sufficient and sure sign of election.
+  translational: For us this was a doctrine of comfort, not of doom. Our salvation was never something we
+    earned by our own success. It was never something we could lose by our own failure. Our confession states
+    this pastoral aim directly. The harder, more systematic edges of the doctrine are worked out most fully
+    in Calvin and Beza.
 quick_meaning: God has, from eternity and by his own free choice alone, decided who will be saved. Both
   Zurich and Geneva held this. Geneva's Calvin worked it into a full system. Zurich's founders stated
   it more briefly, and pastorally.

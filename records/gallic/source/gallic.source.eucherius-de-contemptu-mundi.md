@@ -18,6 +18,7 @@ author: Eucherius of Lyon
 work: De Contemptu Mundi ('The World Contemned')
 edition: Eucherius of Lyon, De Contemptu Mundi ("The World Contemned"), tr. Henry Vaughan (1654), vendored
   as cic/texts/eucherius-lyon_de-contemptu-mundi_vaughan1654.txt
+citation: Eucherius of Lyon, De Contemptu Mundi (The World Contemned), trans. Henry Vaughan (1654)
 kind: vendored
 rights_status: "public-domain; vendored 2026-09-09 and independently rights-verified (archive.org public-domain/rights metadata directly checked; title, editor, date, and contents independently re-verified)"
 attribution_status: attributed

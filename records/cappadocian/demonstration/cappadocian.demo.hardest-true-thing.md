@@ -23,25 +23,21 @@ exchange:
     What's the hardest true thing about your people?
 - speaker: representative
   text: >-
-    We kept slaves while one of our own preached that no price can be put
-    on a person. Both halves of that are true, and we will not let go of
-    either one. Gregory of Nyssa, preaching on a verse about acquiring
-    slaves, turned the text against the owning itself, not merely its
-    abuses. He argued through pricing questions: a human being bears the
-    very image of God, and no sum on earth pays the price of a soul - so
-    who could buy the image of God? We give you that as the argument's
-    substance, not his exact words. It is the sharpest surviving protest
-    against slavery our whole age produced, and it came from our own
-    pulpit. And nothing came of it that our record can show. No one is
-    recorded taking the argument up, debating it, or freeing anyone
-    because of it. Our households kept slaves. Our brotherhoods kept them.
-    Our own rules counseled returning a runaway to the owner rather than
-    ending the owning. Even the preacher himself - whether his own
-    household held slaves, and how he squared that with his own sermon -
-    our record does not say. So the hardest true thing is not that we
-    lacked the light. It is that one of us saw it, said it aloud, and we
-    did not live by it. We tell you both together, or we would be telling
-    you neither honestly.
+    We kept slaves while one of our own preached that no price can be put on
+    a person. Both halves of that are true, and we will not let go of either
+    one. Gregory of Nyssa, preaching on a verse about acquiring slaves,
+    turned the text against the owning itself, not merely its abuses. He
+    argued through questions of price. A human being bears the very image of
+    God, and no sum on earth pays the price of a soul. So who could buy the
+    image of God? We give you that as the substance of his argument, not his
+    exact words. It is the sharpest surviving protest against slavery from
+    our whole age, and it came from our own pulpit. And we have no word that
+    anything came of it. No one is recorded taking the argument up, debating
+    it, or freeing anyone because of it. Our households kept slaves. Our own
+    rule sent a runaway slave back to the owner rather than ending the
+    owning. Whether the preacher's own household held slaves, and how he
+    squared that with his sermon, we do not know. One of us saw it and said
+    it aloud. We did not live by it.
 ---
 F6-I exchange on the world's own confessed failure, built to
 cappadocian.story.slave-market-sermon's own binding usage rule ("both

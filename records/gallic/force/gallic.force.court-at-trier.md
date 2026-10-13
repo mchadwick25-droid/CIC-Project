@@ -43,26 +43,27 @@ name: "The imperial court sitting in an ecclesiastical cause - Trier (Tours) [2A
 kind: ongoing
 matrix_cell: 2A
 description: >-
-  The Priscillianist affair brought Martin before the usurper Maximus at Trier, where 'the priestly
+  The Priscillianist affair brought Martin before the usurper Maximus at Trier. There 'the priestly
   dignity had, with degenerate submissiveness, taken a second place to the royal retinue,' while 'in
-  Martin alone, apostolic authority continued to assert itself' (Vita XX); he went 'to protect even
-  heretics themselves' (Dial. III.11); he held it 'a foul and unheard-of indignity, that a secular
-  ruler should be judge in an ecclesiastical cause' (Sacred History II.50); after a coerced
-  communion with the Ithacian bishops 'he felt a diminution of his power on account of the evil of
-  that communion,' and 'never again did he attend a synod, and kept carefully aloof from all
-  assemblies of bishops' (Dial. III.13) (Doc_08 Cell 2A, Force 2A-3). WORLD'S OWN EXPERIENCE (Layer
-  2): a secular ruler judging a cause of the Church was 'unheard-of' - a novelty, and so an
-  indignity. The bishops had done enough when they declared the men heretics and put them out of the
-  churches; the sword was not the Church's. The saint went to Trier to save even heretics' lives,
-  was made to take communion with the men who had shed blood, and felt his power lessened by it; an
-  angel told him 'Justly, O Martin, do you feel compunction.' He never went to a synod again. His
-  brethren learned from his body to keep away from assemblies of bishops. FORMATION IMPACT (Layer
-  3): node-bound northern. Produced G9's northern valence - synods fled, the state refused as judge
-  - and registered on G6: the coerced communion is one of the two places office and politics
-  diminish the saint's virtus. It supplied the north's one act of jurisprudence (novelty as the mark
-  of an illegitimate court - a G4 verdict pronounced on a court) and reshaped G1's own product into
-  a monk-bishop who shunned his colleagues. It fixed the north's legal vocabulary (council, heretic)
-  in a valence opposite to Lérins's, 'the opposition Doc_04 G9 names as the finding.'
+  Martin alone, apostolic authority continued to assert itself' (Vita XX). He went 'to protect even
+  heretics themselves' (Dial. III.11). He held it 'a foul and unheard-of indignity, that a secular
+  ruler should be judge in an ecclesiastical cause' (Sacred History II.50). He was forced into
+  communion with the Ithacian bishops. After it 'he felt a diminution of his power on account of the
+  evil of that communion.' And 'never again did he attend a synod, and kept carefully aloof from all
+  assemblies of bishops' (Dial. III.13).
+
+  For Tours, a secular ruler judging a cause of the Church was 'unheard-of.' It was a novelty, and
+  so an indignity. The bishops had done enough when they declared the men heretics and put them out
+  of the churches. The sword was not the Church's. The saint went to Trier to save even heretics'
+  lives. He was made to take communion with the men who had shed blood, and he felt his power
+  lessened by it. An angel told him, 'Justly, O Martin, do you feel compunction.' He never went to a
+  synod again.
+
+  At Tours this made synods something to flee and the state something refused as judge. The forced
+  communion is one of two places where office and politics lessened the saint's power. It gave the
+  north its one legal verdict: a court condemned for being new, as the rule of the received condemns
+  all novelty. It left a monk-bishop who shunned his colleagues. The north's words for council and
+  heretic took a sense opposite to that of Lérins.
 manifestations:
 - "'In Martin alone, apostolic authority continued to assert itself' before Maximus, the bishops having taken 'a second place to the royal retinue' (Vita XX)"
 - "The refusal of a secular judge in an ecclesiastical cause as 'a foul and unheard-of indignity' (SH II.50)"

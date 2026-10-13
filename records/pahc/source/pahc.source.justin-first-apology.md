@@ -16,6 +16,7 @@ sources: []
 author: "Justin Martyr (writing in his own name to a named emperor)"
 work: "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set"
 edition: "Ante-Nicene Fathers vol. 1 (1885), trans. Marcus Dods per the standard ANF bibliography - the vendored file itself carries no translator credit at the head of this work (its in-file 'Translated by' credits cover only the minor Justin works); vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 viii, div2 viii.ii)"
+citation: Justin Martyr, The First Apology, trans. Marcus Dods, Ante-Nicene Fathers vol. 1 (1885)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed
@@ -36,6 +37,5 @@ elements to the absent, collection for the needy). BINDING CAVEAT
 this build): this is one Roman writer's own account, in an apologetic
 genre addressed to an outside imperial audience, and must never be
 silently generalized to Antioch or Asia Minor as a network-wide
-template. Chapters 26 and 58 (Marcion teaching "among every nation" at
-the time of writing) are this world's clearest inside evidence that the
+template. Chapters 26 and 58 (Marcion teaching at the time of writing, and in ch. 26 having led "many of every nation" to blasphemy) are this world's clearest inside evidence that the
 rival movements were live, contemporary, and undefeated.

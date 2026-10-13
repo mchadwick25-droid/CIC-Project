@@ -31,8 +31,8 @@ speaker_or_author: Heinrich Bullinger
 license: verbatim
 modern_lens_note: A modern reader may hear predestination as an invitation to anxious self-examination.
   Our own confession points the anxious soul away from themselves, toward Christ.
-modern_rendering: We reject those who ask, apart from Christ, whether they are chosen. ... Let Christ
-  be the mirror in which we see our predestination.
+modern_rendering: We reject those who try to find out, apart from Christ, whether they are chosen. ...
+  Let ... Christ be the mirror in which we look at our predestination.
 use_note:
   means: "Bullinger's confession turns those anxious about election away from self-scrutiny to Christ, the mirror in which believers see their predestination."
   not_for:

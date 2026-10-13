@@ -32,10 +32,8 @@ relations:
   target: pahc.gravity.boundary-drawing
 narrative_tier: 4
 narrative_tier_justification: "A composite reconstruction of a member attending the bishop's own eucharist and refusing any other, built from Ignatius's own instructions across two letters - not a single narrated event with a named participant. Carries the same authenticity/dating caveats as pahc.story.ignatius-guarded-journey, since it draws on the same contested source."
-tellable_as: >-
-  Under Ignatius's own instruction, a member of his community would recognize
-  only the bishop's own eucharist as valid. Following the bishop was as basic
-  as following Christ himself.
+tellable_as: Ignatius wrote to the churches that they should treat only the eucharist that the bishop
+  led, or allowed, as valid. He told them to follow the bishop as Jesus Christ follows the Father.
 text: >-
   This is how it would have been, in a community formed under Ignatius's own
   instruction. 'Take ye heed, then, to have but one Eucharist,' he writes.

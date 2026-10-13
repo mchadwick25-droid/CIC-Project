@@ -54,39 +54,37 @@ name: "The contest over who holds antiquity - the boundary-instrument turned bot
 kind: ending
 matrix_cell: 3B
 description: >-
-  Vincent's handling of a letter from Rome shows a strange reversal. The same rule that guarded
-  the south's position gets turned back against it.
+  Vincent's handling of a letter from Rome shows a strange reversal. The same rule that guarded the
+  south's position gets turned back against it.
 
-  Vincent quotes Pope Celestine's letter to the Gallican bishops. Celestine writes that these
-  men should be rebuked, and their freedom to preach restrained; if that is truly the case, he
-  says, then novelty should stop attacking antiquity. Vincent reads this as a verdict for his
-  side. Antiquity should not give way to novelty, he says.
-  Novelty should stop attacking antiquity instead. The volume's modern editor adds real context
-  here. Two of Augustine's allies, Prosper and Hilary, had gone to Rome to complain that certain
-  bishops of southern Gaul tolerated their clergy's unsound teaching. Celestine's letter was
-  directed at those bishops. Vincent's handling of it has commonly
-  been read as showing sympathy for the very position Rome was writing against. He repeats "if the
-  case be so" again and again. To this editor, that reads as an attempt to shift the blame for
-  novelty onto his opponents instead.
+  Vincent quotes Pope Celestine's letter to the Gallican bishops. Celestine writes that these men
+  should be rebuked, and their freedom to preach restrained. If that is truly the case, he says,
+  then novelty should stop attacking antiquity. Vincent reads this as a verdict for his side.
+  Antiquity should not give way to novelty, he says. Novelty should stop attacking antiquity
+  instead. The volume's modern editor adds real context here. Two of Augustine's allies, Prosper and
+  Hilary, had gone to Rome to complain. Certain bishops of southern Gaul, they said, tolerated their
+  clergy's unsound teaching. Celestine's letter was directed at those bishops. Vincent's handling of
+  it has commonly been read as showing sympathy for the very position Rome was writing against. He
+  repeats "if the case be so" again and again. To this editor, that reads as an attempt to shift the
+  blame for novelty onto his opponents instead.
 
-  So what does this show, at the strength of one editor's reading? The antiquity-versus-novelty
-  rule was first turned against the very clergy it was meant to protect, by Celestine's letter.
-  Then Vincent turned it back the other way, against Augustine's party. This is not a fracture
-  that appears only after this world's story ends. It is a real contest, inside Vincent's
-  text, over who actually holds the fathers' consent.
+  So what does this show, at the strength of one editor's reading? The antiquity-versus-novelty rule
+  was first turned against the very clergy it was meant to protect, by Celestine's letter. Then
+  Vincent turned it back the other way, against Augustine's party. This is not a fracture that
+  appears only after this world's story ends. It is a real contest, inside Vincent's text, over who
+  actually holds the fathers' consent.
 
   From inside Lérins, though, there was no contest over the rule itself. There was only its correct
   use. The keeper at Lérins heard Rome say that novelty must give way to antiquity. He knew which
   side was antiquity: his own. To him, the men who had complained to Rome were the real inventors of
-  novelty. The letter forbade their liberty to preach, not his. Vincent's text never records
-  that his opponents were saying the very same thing about him, in the very same words.
+  novelty. The letter forbade their liberty to preach, not his. Vincent's text does not record what
+  the other side said. Prosper charged the Massilians with defending their obstinacy by antiquity.
 
   This shaped what the rule of antiquity became afterward. Detached from any one side, it grew
   quotable by every later party in turn. The position itself went into the historical record under
-  its opponents' name for it. By the fifteenth century, an editor tried to cut it out of
-  Cassian's text, for the sake of orthodoxy. This world's boundary logic produced its
-  sharpest outside pressure. It shaped the very terms in which the world would later be remembered
-  by others.
+  its opponents' name for it. A later editor even tried to cut it out of Cassian's text, for the
+  sake of orthodoxy. This world's boundary logic produced its sharpest outside pressure. It shaped
+  the very terms in which others would later remember the world.
 manifestations:
 - "Celestine's letter as Vincent quotes it: 'Rebuke these people. Restrain their liberty of preaching'; 'let novelty cease to assail antiquity' (Comm. ch. 32 [85])"
 - "Vincent's reversal - 'not that antiquity should cease to subvert novelty, but that novelty should cease to assail antiquity' - read by his editor as 'an evident wish to shift the charge of novelty'"

@@ -17,6 +17,7 @@ relations: []
 author: Susan Holman
 work: The Hungry Are Dying
 edition: In-copyright modern scholarship, not vendored
+citation: Susan Holman, The Hungry Are Dying
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

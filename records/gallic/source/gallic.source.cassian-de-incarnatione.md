@@ -18,6 +18,7 @@ author: John Cassian
 work: The Seven Books on the Incarnation of the Lord, Against Nestorius
 edition: Corpus-map assigned; specific vendored file/edition not independently confirmed by this authoring
   pass (see body note).
+citation: John Cassian, The Seven Books on the Incarnation of the Lord, Against Nestorius
 kind: unvendored
 rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
 attribution_status: attributed

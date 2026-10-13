@@ -76,30 +76,29 @@ narrative_tier_justification: >-
   Widely Accepted rather than Documented because one ancient witness, however close, is not multiple
   independent sources.
 tellable_as: >-
-  At a donative on the eve of battle a soldier tells Caesar he is now the soldier of Christ and may not
-  fight, offers to stand unarmed before the enemy line - and the enemy surrenders before morning.
+  At a donative before a battle, a soldier tells Caesar he is now the soldier of Christ and may not
+  fight. He offers to stand unarmed before the enemy. The next day the enemy asks for peace.
 text: >-
-  In his Life of St. Martin, Sulpitius Severus records how Martin left the army - the scene the whole of
-  Tours's memory of him turns on.
+  In his Life of St. Martin, Sulpitius Severus records how Martin left the army.
 
-  As barbarian raiders pushed into both divisions of Gaul, Julian Caesar gathered an army at the city
-  of the Vaugiones and began handing a donative to his soldiers, calling them forward one by one. When
-  it came to Martin's turn, he judged it the moment to ask for his discharge: since he did not mean to
-  stay in the service, he did not think it right to take the money. He told Caesar he had served him as
-  a soldier long enough, and now asked to become a soldier to God instead - as the soldier of Christ, he
-  said, it was not lawful for him to fight (his exact words are kept in gallic.quote.martin-refuses-the-donative).
+  Barbarian raiders were pushing into both divisions of Gaul. Julian Caesar gathered an army at the
+  city of the Vaugiones. He began handing a donative to his soldiers, calling them forward one by one.
+  When it came to Martin's turn, he judged it the moment to ask for his discharge. He did not mean to
+  stay in the service, so he did not think it right to take the money. He told Caesar he had served
+  him as a soldier long enough. Now he asked to become a soldier to God instead. As the soldier of
+  Christ, he said, it was not lawful for him to fight.
 
-  Julian - "the tyrant," in Sulpitius's word - stormed, and accused Martin of withdrawing from fear of
-  the coming battle, not from faith. Martin, only the more resolute for the accusation, answered that if
-  his conduct were taken for cowardice rather than faith, he would stand unarmed before the enemy line
-  the next day, protected by nothing but the sign of the cross (his exact reply is kept in
-  gallic.quote.martin-offers-to-stand-unarmed). He was put back in prison, ready to prove his words true
-  by facing the barbarians unarmed.
+  Julian - "the tyrant," in Sulpitius's word - stormed. He accused Martin of withdrawing from fear of
+  the coming battle, not from faith. The accusation only made Martin more resolute. He answered that
+  if his conduct were taken for cowardice rather than faith, he would stand unarmed before the enemy
+  line. He would do it the next day, protected by nothing but the sign of the cross. He was put back
+  in prison, ready to prove his words true by facing the barbarians unarmed.
 
-  On the following day the enemy sent envoys to ask for peace, and surrendered themselves and everything
-  they had. There was no battle. Sulpitius does not leave the reader to draw the conclusion: he asks who
-  can doubt the victory was due to the saintly man, and reads it as the good Lord sparing Martin the
-  sight of others dying - the enemy yielded without bloodshed, and no one was killed.
+  On the following day the enemy sent envoys to ask for peace. They surrendered themselves and
+  everything they had. There was no battle. Sulpitius does not leave the reader to draw the
+  conclusion. He asks who can doubt the victory was due to the saintly man. He reads it as the good
+  Lord sparing Martin the sight of others dying. The enemy yielded without bloodshed, and no one was
+  killed.
 absent_detail: >-
   The text gives no year and names the emperor only as "Julian Caesar" and the place only as "the city
   of the Vaugiones"; Sulpitius was not present, and no witness to the scene other than his own Life

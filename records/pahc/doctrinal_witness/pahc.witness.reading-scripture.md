@@ -31,18 +31,13 @@ positions:
 - "This world's own 'scripture' was, above all, what later became the Old Testament, read the way Justin reads the prophets at length in his own First Apology - looking for how earlier words already pointed forward to Christ - alongside a widening body of apostolic writing not yet fixed into one settled list."
 tensions:
 - "A person who could not read received the scriptures the same way everyone else in the room did on that day: by hearing them read aloud and then explained. This world's texts do not distinguish a separate mode of access for the non-literate member - the gathering itself was the access."
-text: >
-  Reading, for us, was not a private thing done alone with a scroll. On
-  the day we gathered, someone read aloud. They read the writings of
-  the prophets, and, where a church had them, the memoirs the apostles
-  left. This went on for as long as there was time. Then whoever led us
-  explained what had been read. That is how someone who could not read
-  for themselves received it - the same way everyone in the room did,
-  by hearing it and having it opened up to them afterward. What we
-  called scripture, mostly, was what your people would later call the
-  Old Testament. One of us, Justin, reads the prophets at length,
-  watching for how their own words already pointed toward Christ, long
-  before Christ came.
+text: Reading, for us, was not a private thing done alone with a scroll. On the day we gathered, someone
+  read aloud. They read the memoirs the apostles left or the writings of the prophets. This went on for
+  as long as there was time. Then whoever led us explained what had been read. That is how someone who
+  could not read for themselves received it - the same way everyone in the room did, by hearing it and
+  having it opened up to them afterward. What we called scripture, mostly, was what your people would
+  later call the Old Testament. One of us, Justin, read the prophets at length, watching for how their
+  own words already pointed toward Christ, long before Christ came.
 use_note:
   means: "Scripture was heard aloud at weekly gatherings, chiefly the prophets read as pointing to Christ, alongside apostolic memoirs, then explained by the presider."
   not_for:

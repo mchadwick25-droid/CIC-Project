@@ -62,19 +62,18 @@ modern_lens_note: >-
   settles the question, and it warns against trusting "subtle inference" over what "all the Catholic
   fathers" have taught in practice.
 modern_rendering: >-
-  And so all the Catholic fathers have laid this down. They taught perfection of heart not by empty
-  arguments over words, but in deed and action. The first stage of God's gift is that each person is set
-  on fire with desire for everything good. But the choice of free will stays open to either side. The
-  second stage of God's grace is the power to carry out those practices of virtue. But what the will is
-  able to do is not destroyed. The third stage also belongs to God's gifts, so that it may be held
-  by the persistence of the goodness already gained. But freedom is not handed over, and it does not fall into
-  slavery. For the God of all must be understood to work in all. He works to stir up, protect, and
-  strengthen. But he does not take away the freedom of the will that he himself once gave. Some more
-  subtle conclusion of human argument and reasoning may seem to oppose this view. If so, it should be
-  avoided, not brought forward to destroy the faith. (For we do not gain faith from understanding. We gain
-  understanding from faith, as it is written: "Unless you believe, you will not understand.") For the
-  human mind and reason cannot fully grasp how God works all things in us, and yet everything can be
-  credited to free will.
+  And so this has been laid down by all the Catholic fathers who taught perfection of heart in deed and
+  action. They did not teach it by empty arguments over words. The first stage of God's gift is that each
+  person is set on fire with desire for everything good. But the choice of free will stays open to either
+  side. The second stage of God's grace is the power to carry out those practices of virtue. But what the will
+  is able to do is not destroyed. The third stage also belongs to God's gifts, so that it may be held by the
+  persistence of the goodness already gained. But freedom is not handed over, and it does not fall into
+  slavery. For the God of all must be understood to work in all. He works to stir up, protect, and strengthen.
+  But he does not take away the freedom of the will that he himself once gave. Some more subtle conclusion of
+  human argument and reasoning may seem to oppose this view. If so, it should be avoided, not brought forward
+  to destroy the faith. (For we do not gain faith from understanding. We gain understanding from faith, as it
+  is written: "Unless you believe, you will not understand.") For the human mind and reason cannot fully grasp
+  how God works all things in us, and yet everything can be credited to free will.
 relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service

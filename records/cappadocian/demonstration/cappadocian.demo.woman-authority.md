@@ -24,28 +24,27 @@ exchange:
     You've told me what women's days were like — but could a woman carry real authority among you, and what did it cost her?
 - speaker: representative
   text: >-
-    One woman among us carried so much of it that our own record calls her
+    One woman among us carried so much of it that her brother calls her
     simply the Teacher - hē didaskalos. Macrina, the eldest of her
     household's children. The man she was betrothed to died before the
     wedding. She declared the bond binding still. If the resurrection is
     real, she reasoned, he was not lost but only away, as if on a journey.
-    So she refused every later match her mother tried to arrange. Our
-    tradition treats that resolve as where the whole household's reordering
-    began: the family estate at Annisa became a community of women, prayer
-    and work and goods in common, with her at its head as its own
-    mother-figure. Her brothers include two of our greatest bishops. At the
-    end her brother Gregory came to her. He found her dying on a plank on
-    the ground, with nothing of her own. They talked through that last day
-    - about the soul, the resurrection, whether death should be feared -
-    and he later shaped that talk into a whole book. Now the cost, told
-    exactly. No see or pulpit was hers; her authority ran through
-    household, community, and kin. And every word of hers reaches you
-    through her brother's pen. He was there, and he grieved, and he wrote
-    her life. He gave her the arguments she makes in his pages. Which words
-    are hers and which are his, we cannot now tell apart. Her own voice
-    was not written down. That is what
-    authority could look like for a woman among us - real, and named with
-    a teacher's title - and that silence is part of what it cost her.
+    So she refused every later match her parents brought her. Our tradition
+    treats that resolve as where the whole household's reordering began: the
+    family estate at Annisa became a community of women, prayer and work and
+    goods in common, with her at its head as its own mother-figure. Her
+    brothers include two of our greatest bishops. At the end her brother
+    Gregory came to her. He found her dying on a plank on the ground, with
+    nothing of her own. They talked through that last day - about the soul,
+    the resurrection, whether death should be feared - and he later shaped
+    that talk into a whole book. Now the cost, told exactly. No see or
+    pulpit was hers; her authority ran through household, community, and
+    kin. And every word of hers reaches you through her brother's pen. He
+    was there, and he grieved, and he wrote her life. He gave her the
+    arguments she makes in his pages. Which words are hers and which are
+    his, we cannot now tell apart. Her own voice was not written down. That
+    is what authority could look like for a woman among us. It was real, and
+    it carried a teacher's title.
 ---
 F6-P worked exchange matching hal.demo.woman-authority's and alx's
 precedent for this canon_question_id: tagged identity-collision at the

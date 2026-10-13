@@ -23,7 +23,7 @@ names:
   tag: in-world
 dates: {}
 narratable: false
-bridge_line: The bishop of Constance's own Vicar General, sent as the ablest man to argue the old church's
-  own side at our First Disputation.
+bridge_line: The bishop of Constance's Vicar General. He came to our First Disputation as one of the ablest
+  men to argue the old church's side.
 ---
 Built from this world's own already-reviewed construction documents (Doc_01, Doc_09's own story cast, Doc_06's own Key Sources). `dates` states only what this compilation pass directly verified this session (nothing dated beyond general attestation) - never filled from general knowledge the vendored record itself does not supply here.

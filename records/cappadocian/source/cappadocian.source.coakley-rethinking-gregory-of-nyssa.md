@@ -17,6 +17,7 @@ relations: []
 author: Sarah Coakley, ed.
 work: Re-thinking Gregory of Nyssa (2003, an edited volume)
 edition: In-copyright modern scholarship, not vendored
+citation: Sarah Coakley, ed., Re-thinking Gregory of Nyssa (2003)
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

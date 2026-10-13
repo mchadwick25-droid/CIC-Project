@@ -18,6 +18,7 @@ author: Mark DelCogliano & Andrew Radde-Gallwitz (translators)
 work: Against Eunomius (Fathers of the Church 122, 2011) -- the only complete English translation of Basil's
   Against Eunomius
 edition: Fathers of the Church series, vol. 122, 2011 -- copyrighted, not vendored
+citation: Basil of Caesarea, Against Eunomius, trans. Mark DelCogliano and Andrew Radde-Gallwitz, Fathers of the Church, vol. 122 (2011)
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

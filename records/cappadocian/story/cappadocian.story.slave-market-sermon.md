@@ -28,7 +28,10 @@ relations:
   target: cappadocian.gravity.ascetic-reordering
 narrative_tier: 1
 narrative_tier_justification: "Tier 1, as a textual event: the sermon itself is a Documented, named, dated text making this specific argument. What is explicitly not Documented, per Critic Finding 5's own constraint, is any in-world reception of the argument - no other source shows anyone taking it up, debating it, or changing practice because of it. It is told as an outlier protest a single preacher dared to make, never as evidence of the world's own general self-image or practice."
-tellable_as: "One preacher looks at the slave market and asks who could possibly put a price on the image of God - and nothing in our own record shows anyone else taking up the argument."
+tellable_as: >-
+  One preacher, preaching on a verse about buying slaves, asks who could put
+  a price on the image of God. We have no word that anyone among us took up
+  his argument.
 text: >-
   In one of his homilies on Ecclesiastes, preaching on the verse about
   acquiring male and female slaves, Gregory of Nyssa turns the text

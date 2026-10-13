@@ -26,8 +26,8 @@ retrieval:
   retrieve_when:
   - participant asks about confession (of faith)
 relations: []
-plain_meaning: A confession is a formal, public statement of our own doctrine. The Second Helvetic Confession,
-  from Zurich, is our own most mature example.
+plain_meaning: A confession was a formal, public statement of what we taught. The Second Helvetic Confession,
+  from Zurich, is our most mature one.
 world_word: Confession (of Faith)
 false_friend:
 - a personal statement of individual belief, rather than a formally adopted, publicly binding church document
@@ -36,12 +36,12 @@ senses:
     vendored confessional statement, later adopted well beyond Zurich itself. We do not currently hold
     a comparable Geneva-side confessional document in our own vendored record.
   evidential: The Second Helvetic Confession survives in full in our own vendored record.
-  personal: We wrote our confessions not to say something new, but so that what we already believed could
-    survive the generation that first argued it out.
-  translational: This is not a creative theological essay. It is a settled, publicly adopted statement,
-    meant to be taught and handed on without drift.
-quick_meaning: A formal, publicly adopted statement of our church's doctrine. The Second Helvetic Confession,
-  from Zurich, is our own most mature example.
+  personal: We put our confessions in writing to state openly what our churches held. Bullinger wrote ours
+    in 1562 for his own use. Later it became public, and it was published in 1566.
+  translational: This is not a creative essay in theology. It is a settled, public statement, meant to be
+    taught and handed on without drift.
+quick_meaning: A public statement of our church's doctrine. The Second Helvetic Confession, from Zurich,
+  is our most mature one.
 distortion_risk: low
 use_note:
   means: "A confession is a formal, publicly adopted statement of the church's doctrine, of which the Second Helvetic Confession from Zurich is the most mature example."

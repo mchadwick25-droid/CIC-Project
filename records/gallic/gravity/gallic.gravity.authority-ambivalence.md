@@ -107,34 +107,36 @@ relations:
 name: "Ambivalence toward episcopal, synodal, and imperial authority [TENSIONAL]"
 classification: tensional
 description: >-
-  Bishops and synods guard the truth, yet the saint keeps fleeing them. The state, in this world's own
-  view, has no right to judge the Church's own causes.
+  Bishops and synods guard the truth, yet the saint keeps fleeing them. The state, in this world's
+  own view, has no right to judge the Church's own causes.
 
-  At Tours, the office is the thing fled. Bishops resist Martin's election (Vita IX). Some of Martin's
-  slanderers, Sulpitius says, turned out to be bishops themselves, though very few (Vita XXVII). Before
-  Maximus, Sulpitius writes, apostolic authority held its ground in Martin alone, while the priestly
-  dignity around him bowed to the emperor's court (Vita XX). After the forced communion at Trier,
-  Martin never again attended a synod, and stayed carefully away from every assembly of bishops for the
-  rest of his life (Dial. III.13). Sulpitius calls it a foul, unheard-of wrong for a secular ruler to
-  sit in judgment on a matter belonging to the Church (Sacred History II.50).
+  At Tours, the office is the thing fled. Bishops resist Martin's election (Vita IX). Some of
+  Martin's slanderers, Sulpitius says, turned out to be bishops themselves, though very few (Vita
+  XXVII). Before Maximus, Sulpitius writes, apostolic authority held its ground in Martin alone,
+  while the priestly dignity around him bowed to the emperor's court (Vita XX). After the forced
+  communion at Trier, Martin never again attended a synod, and stayed carefully away from every
+  assembly of bishops for the rest of his life (Dial. III.13). Sulpitius calls it a foul, unheard-of
+  wrong for a secular ruler to sit in judgment on a matter belonging to the Church (Sacred History
+  II.50).
 
-  At Marseilles, the office is both temptation and a defiance of the Pope. Cassian's Abbot Moses
-  teaches that the devil can push a man to want holy orders under the pretext of doing good for many
-  people (Conf. I.20). Vainglory brings a 'desire for the priesthood or diaconate' (Inst. XI.14).
-  Archebius was 'expelled.' And, as the editor tells it, the Massilians held to their own views even
-  against the authority of the Pope brought to bear on them.
+  At Marseilles, the office is a temptation. Cassian's Abbot Moses teaches that the devil can push a
+  man to want holy orders under the pretext of doing good for many people (Conf. I.20). Vainglory
+  brings a 'desire for the priesthood or diaconate' (Inst. XI.14). Archebius, made bishop against
+  his will, complained that he had been 'expelled' from the monastic life. And, as the editor tells
+  it, the Massilians held to their own views even against the authority of the Pope brought to bear
+  on them.
 
   At Lérins, the counter-current runs the other way. Vincent rules that an ancient General Council's
   decrees should be preferred over the rashness and ignorance of a few (Comm. ch. 3), and names 'the
   twofold authority of the Apostolic See' (ch. 32). Yet in the same voice, he holds that no rank
-  exempts a lone dissenter: whether a teacher is holy and learned, a bishop, a Confessor, or a martyr,
-  a view held against the consent of all is only his own private fancy (ch. 28).
+  exempts a lone dissenter: whether a teacher is holy and learned, a bishop, a Confessor, or a
+  martyr, a view held against the consent of all is only his own private fancy (ch. 28).
 
   This tension never resolves evenly. Guarding antiquity by councils while fleeing synods, and
-  producing bishops while distrusting the office, keeps this world from being reducible to a seminary
-  that looked like a monastery. Over time it tips one way: the Lérins network becomes the very
-  episcopate it once fled, and the argument over grace comes to be carried forward by a synodal
-  commission - a shift that marks this world's own ending.
+  producing bishops while distrusting the office, keeps this world from being simply a school for
+  bishops. Over time it tips one way: the Lérins network becomes the very episcopate it once fled,
+  and the argument over grace comes to be carried forward by a synodal commission - a shift that
+  marks this world's own ending.
 manifestations:
 - "Bishops 'impiously offering resistance' to Martin's election (Vita IX); calumniators 'no others than bishops!' (Vita XXVII)"
 - "At Trier, 'the priestly dignity had, with degenerate submissiveness, taken a second place to the royal retinue' (Vita XX); 'a secular ruler should be judge in an ecclesiastical cause' called 'a foul and unheard-of indignity' (SH II.50)"

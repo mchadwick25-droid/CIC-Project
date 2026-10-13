@@ -17,6 +17,7 @@ relations: []
 author: Stephen Mitchell
 work: Anatolia
 edition: In-copyright modern scholarship, not vendored
+citation: Stephen Mitchell, Anatolia
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

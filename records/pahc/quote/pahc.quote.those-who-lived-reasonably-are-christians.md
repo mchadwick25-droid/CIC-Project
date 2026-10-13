@@ -21,11 +21,9 @@ sources:
   license: public-domain
 text: >-
   ...and those who lived reasonably are Christians, even though they have been thought atheists; as, among the Greeks, Socrates and Heraclitus, and men like them; and among the barbarians, Abraham, and Ananias, and Azarias, and Mishael, and Elias, and many others...
-modern_rendering: >-
-  ...and those who lived reasonably are Christians, even though people have thought them
-  atheists. Among the Greeks, such people were Socrates and Heraclitus, and men like
-  them. Among non-Greeks, they were Abraham, Ananias, Azarias, Mishael, Elijah, and many
-  others...
+modern_rendering: '...and those who lived by reason are Christians, even though they were thought to be
+  atheists. Among the Greeks there were Socrates and Heraclitus and men like them. Among the non-Greeks
+  there were Abraham, Ananias, Azarias, Mishael, Elijah, and many more...'
 speaker_or_author: Justin Martyr, First Apology
 license: verbatim
 modern_lens_note: >-

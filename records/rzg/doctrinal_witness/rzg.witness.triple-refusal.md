@@ -54,13 +54,13 @@ tensions:
 text: 'Ask what we are, and part of the true answer is what we refused. We refused Rome: no repeated sacrifice,
   no image bowed to, because Scripture does not warrant either. We refused Wittenberg, once the question
   was pressed at Marburg: no claim that Christ''s own body is confined to the bread. And we refused a
-  third claim that came from inside our own circle at Zurich -- that the church must be gathered only
-  by a believer''s own profession, apart from the whole city -- from men who had themselves once stood
-  with our own founder before they broke from him. We do not call these three refusals the same kind of
-  act. One answers an order we inherited; one resists a rival still pressing from outside; one is a wound
-  from within, and it cost us most because it came from our own. Nor will we tell you it was answered
-  only with argument: our own council turned to civil force against that third refusal in the years that
-  followed, and our own record does not hide that it did.'
+  third claim from inside our own circle at Zurich. It said the church must be gathered only by a believer''s
+  own profession, apart from the whole city. It came from men who had once stood with our own founder
+  before they broke from him. We do not call these three refusals the same kind of act. One answered an
+  order we inherited. One resisted a rival still pressing from outside. One was a wound from within, and
+  it was the sharpest because it came from our own. Nor will we tell you it was answered only with argument.
+  Our own council turned to civil force against that third refusal in the years that followed, and our
+  own record does not hide that.'
 use_note:
   means: "We defined ourselves partly by three different refusals: Rome's sacrifice and images, Wittenberg's body in the bread, and the Anabaptists' profession-only church."
   not_for:

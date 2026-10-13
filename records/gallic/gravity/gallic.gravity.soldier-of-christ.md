@@ -97,32 +97,32 @@ description: >-
 
   Sulpitius states his purpose for writing at the outset: to rouse his readers to true knowledge,
   heavenly warfare, and divine virtue (Vita I). Martin himself supplies the founding scene. Before
-  Caesar, asking his discharge, he says he has served Caesar as a soldier until now, and asks
-  leave to become a soldier of God instead - he is Christ's soldier, and it is not lawful for him
-  to fight (Vita IV). At his funeral, young soldiers who had just sworn their oath of allegiance to Christ
+  Caesar, asking his discharge, he says he has served Caesar as a soldier until now, and asks leave
+  to become a soldier of God instead - he is Christ's soldier, and it is not lawful for him to fight
+  (Vita IV). At his funeral, young soldiers who had just sworn their oath of allegiance to Christ
   walk in the procession, alongside old men whose service was finished.
 
   In Book I, chapter 1, after one sentence of introduction, Cassian states the same idiom: a monk,
-  as a soldier of Christ always ready for battle, should keep his loins girded (Inst. I.1). The faults that follow are named as combats in sequence - a first
-  struggle, a sixth combat - and the monk worn down by accidie is said to become a runaway from
-  Christ's service, and a deserter (Inst. X.3). Job, tested by the devil, is Abbot Chaeremon's
-  picture, given in Cassian's Conferences, of God's well-tried athlete (Conf. XIII.14).
+  as a soldier of Christ always ready for battle, should keep his loins girded (Inst. I.1). The
+  faults that follow are named as combats in sequence - a first struggle, a sixth combat - and the
+  monk worn down by accidie is said to become a runaway from Christ's service, and a deserter (Inst.
+  X.3). Job, tested by the devil, is Abbot Chaeremon's picture, given in Cassian's Conferences, of
+  God's well-tried athlete (Conf. XIII.14).
 
   Vincent supplies the idiom's antonym. Before he entered the monastery, he says, he was caught up
   in the many deplorable storms of secular warfare himself - the life he left, not the one he
   entered (Comm. ch. 1).
 
-  This idiom runs evenly across both houses and both registers of this world's literature. It
-  shapes the Institutes' structure - dress read as armour, faults as combats - and the Vita's
-  turning point. It gives both houses a shared vocabulary for a novice's first step: an oath
-  sworn, a service entered.
+  This idiom runs evenly across both houses and both registers of this world's literature. It shapes
+  the Institutes' structure - dress read as armour, faults as combats - and the Vita's turning
+  point. It gives both houses a shared vocabulary for a novice's first step: an oath sworn, a
+  service entered.
 
-  For that same reason, though, it shapes formation's imagery rather than driving it. No other
-  part of this world depends on it alone. It is common Christian vocabulary, well attested
-  wherever it appears, not this world's own distinct organizing principle. It is the idiom that
-  carries the virtus and interior-road gravities, not a rival to either one. This record holds it
-  as a supporting gravity, not a primary one. Nothing in this world's literature contradicts it or
-  shifts it under pressure.
+  For that same reason, though, it shapes formation's imagery rather than driving it. No other part
+  of this world depends on it alone. It is common Christian vocabulary, well attested wherever it
+  appears, not this world's own distinct organizing principle. It is the idiom that carries the
+  virtus and interior-road gravities, not a rival to either one. It is a supporting gravity, not a
+  primary one. Nothing in this world's literature contradicts it or shifts it under pressure.
 manifestations:
 - "Martin's discharge: 'I am the soldier of Christ: it is not lawful for me to fight,' facing the enemy 'protected by the sign of the cross, and not by shield or helmet' (Vita IV)"
 - "Book I, ch. 1's second sentence: 'A monk, then, as a soldier of Christ ever ready for battle, ought always to walk with his loins girded' (I.1) - dress read as armour"

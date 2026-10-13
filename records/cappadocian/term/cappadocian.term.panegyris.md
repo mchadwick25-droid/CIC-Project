@@ -33,9 +33,11 @@ relations:
   target: cappadocian.term.philoptochia
 - type: associated-with
   target: cappadocian.term.psalmodia
-plain_meaning: On a martyr's feast day, the whole countryside walked to the shrine. The martyr's story
-  was retold, preachers worked the crowd, and merchants set up stalls -- worship and social life together
-  in one event.
+plain_meaning: >-
+  On a martyr's feast day, the whole countryside walked to the shrine. The
+  martyr's story was retold and preachers worked the crowd. Buying and
+  selling went on there too. Basil's rule told the brothers not to trade at
+  the martyrs' tombs.
 world_word: panēgyris
 false_friend:
 - a 'church fair' treated as a minor, trivial social event
@@ -51,7 +53,9 @@ senses:
   translational: '''Isn''t a ''church fair'' a pretty minor thing?'' -- here the fair and the faith were
     not two events but one: the holy day organized the whole social world of the countryside around it,
     not a sideline to it.'
-quick_meaning: 'The festival at a martyr''s shrine: vigil, preaching, and a market, all on one holy day.'
+quick_meaning: >-
+  The festival at a martyr's shrine: vigil, preaching, and a market, all on
+  one holy day.
 distortion_risk: medium
 use_note:
   means: "Panegyris meant the festival at a martyr's shrine, combining vigil, preaching and market on one holy day across the countryside."

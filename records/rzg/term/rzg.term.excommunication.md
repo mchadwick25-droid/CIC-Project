@@ -28,8 +28,8 @@ retrieval:
 relations:
 - type: associated-with
   target: rzg.term.consistory
-plain_meaning: Excommunication is formal exclusion from the sacraments and from our visible church. It
-  answers sin that is not repented. It is the Consistory's own most severe tool at Geneva.
+plain_meaning: Excommunication meant being shut out of the sacraments and the church. It answered sin
+  that was not repented. It was the harshest tool of the Consistory at Geneva.
 world_word: Excommunication
 false_friend:
 - a purely spiritual or symbolic gesture with no real consequence for the person excluded
@@ -39,12 +39,12 @@ senses:
     authority we fought to keep independent during the Perrinist crisis.
   evidential: Calvin's Institutes, Book IV, states the general doctrine of church discipline this tool
     serves.
-  personal: We do not treat this lightly, and we do not hand it to the magistrate, because a discipline
-    answerable to shifting politics is no discipline at all to us.
+  personal: We did not treat this lightly, and we did not hand it to the magistrate. A discipline that answered
+    to shifting politics was no discipline at all to us.
   translational: This is not a private grudge enforced by a religious court. It is our own church's own
     most serious answer to the question of whether a professed faith is being lived.
-quick_meaning: Formal exclusion from the sacraments, for sin that is not repented. It is the Consistory's
-  own most severe tool at Geneva.
+quick_meaning: Formally shut out of the sacraments for sin that was not repented. At Geneva it was the
+  Consistory's harshest tool.
 distortion_risk: medium
 use_note:
   means: "Excommunication is formal exclusion from the sacraments and the visible church answering unrepented sin, and it is the Consistory's most severe tool at Geneva."

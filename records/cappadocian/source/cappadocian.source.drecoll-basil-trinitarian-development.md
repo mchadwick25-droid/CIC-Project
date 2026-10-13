@@ -17,6 +17,7 @@ relations: []
 author: Volker Drecoll
 work: Standard scholarship on Basil's trinitarian development
 edition: In-copyright modern scholarship, not vendored
+citation: Volker Drecoll, scholarship on Basil's trinitarian development
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

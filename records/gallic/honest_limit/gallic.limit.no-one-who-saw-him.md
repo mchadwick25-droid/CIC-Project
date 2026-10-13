@@ -38,21 +38,22 @@ sources:
   locus: "present in the vendored volume and unread by this build - a coverage limit, stated"
   license: public-domain
 statement: >-
-  What did we have of Jesus? The books, read at the hours. After the
-  psalms come two lessons, one from the old books and one from the new.
-  Four men tell the Gospel, Cassian says, but the Gospel is one body. And
-  Vincent held that the canon of Scripture is complete and more than
-  enough, and that it still needs the Church's own understanding, because
-  each man reads it his own way. Had any of us known someone who saw him?
-  No. More than three hundred years lay between his days and ours. No one
-  in our record claims it. What we had instead was the saints. The Lord
-  was seen once in a soldier's dream at a city gate, wearing the half of a
-  cloak. How do we know the resurrection really happened? We did not ask
-  it that way. We confessed it at the hours: his soul was not left in
-  hell; no one took his life from him, he laid it down himself and took it
-  again. We saw a dead man breathe at the saint's prayer. But a proof that
-  the Lord rose, written by one of us for someone who doubts it - that is
-  not in our record.
+  What did we have of Jesus? The books, read at prayer. Cassian wrote down
+  how the fathers of Egypt did it. After the psalms, for those who wished,
+  they read two lessons, one from the old books and one from the new. Four men tell the Gospel,
+  Cassian says, but the Gospel is one body. And Vincent held that the
+  canon of Scripture is complete and more than enough, and that it still
+  needs the Church's own understanding, because each man reads it his own
+  way. Had any of us known someone who saw him? No. More than three
+  hundred years lay between his days and ours. No one in our record claims
+  it. What we had instead was the saints. The Lord was seen once in a
+  soldier's dream at a city gate, wearing the half of a cloak. How do we
+  know the resurrection really happened? We did not ask it that way. We
+  confessed it at the hours: his soul was not left in hell; no one took
+  his life from him, he laid it down himself and took it again. We saw a
+  dead man breathe at the saint's prayer. But a proof that the Lord rose,
+  written by one of us for someone who doubts it - that is not in our
+  record.
 why_sources_cannot_answer: >-
   This world's own read corpus contains no apologetic writing at all. The
   Institutes and Conferences are formation literature carrying Egypt's

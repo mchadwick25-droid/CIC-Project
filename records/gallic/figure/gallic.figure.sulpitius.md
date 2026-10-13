@@ -19,8 +19,9 @@ confidence:
     not a contest about anything Sulpitius wrote. His dates rest only on the two modern editors'
     disagreeing endnotes (Roberts; Richardson), not on any ancient text, and are not asserted here.
     "Of an illustrious family," by the vendored volume's own introduction; his own text says he had his
-    information "partly from himself ... and partly from those who had lived with him" (Vita ch. XXV)
-    and disclaims presence at every event he narrates that these records carry. The Doubtful Letters
+    information "partly from himself ... and partly from those who had lived with him" (Vita ch. XXV).
+    What these records carry of Tours he learned, by his own account, from Martin and from those
+    who lived with him. The Doubtful Letters
     to Claudia (row 5) are pseudepigraphal and are not drawn on. Every locus below read directly at
     Doc_09.
 sources:
@@ -48,9 +49,9 @@ dates:
   display: "writing c. 397 (the Life; Letter III within months of Martin's death) to c. 404-406 (the Dialogues); an Aquitanian 'of an illustrious family' who visited Martin at Tours; birth and death years rest only on the modern editors' disagreeing endnotes and are not asserted"
 narratable: true
 bridge_line: >-
-  The aristocrat who wrote Martin's life so that readers "shall be roused," who was not present at any
-  of it and says so, and who appears inside his own frame only as the friend Gallus talks to and the
-  son-in-law explaining himself to Bassula.
+  The aristocrat who wrote Martin's life so that readers "shall be roused." He visited Martin at
+  Tours, and had his facts partly from Martin and partly from those who lived with him. In the
+  Dialogues he is the friend Gallus talks to.
 relations:
 - type: associated-with
   target: gallic.story.the-cloak-at-amiens

@@ -20,17 +20,12 @@ sources:
 canon_question_id: _fleet.canon.c-t-01
 exchange:
 - speaker: participant
-  text: >-
-    Was Jesus God? Did you believe in the Trinity?
+  text: Was Jesus God? Did you believe in the Trinity?
 - speaker: representative
-  text: >-
-    Ignatius calls Jesus Christ our God again and again - in how he opens his
-    letters and in how he closes them. It is not one passing phrase; he
-    reaches for it often. But it is worship, not an argument worked out. That
-    word of yours is not one we ever used - what we can give you is our own.
-    How calling Jesus God fits together with calling the Father God, none of
-    us whose writing survives ever wrote out. We can tell you plainly that we
-    called him God. We cannot tell you we had settled how.
+  text: Ignatius called Jesus Christ our God again and again. He did it when he opened his letters and
+    when he closed them. It was a phrase of worship. That word of yours, Trinity, is not one we used.
+    How calling Jesus God fits with calling the Father God, none of us whose writing survives ever wrote
+    out. We did call him God, and we cannot tell you we had settled how.
 ---
 Worked exchange for the CENTER translational cell (C-T) - a period
 term ("Trinity") is named, then answered honestly about its absence

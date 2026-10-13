@@ -41,22 +41,22 @@ retrieval:
   - "participant asks whether Constantine's empire corrupted the church"
   - "participant asks what an outsider found strangest, or what this world's own neighbours accused them of"
 text: >-
-  We did not hide in catacombs. The storm of persecution had only just
-  ended when our own story opens. Our own grandparents' generation still
-  remembered it directly. One of our own bishops was executed under the
-  last persecuting emperor, well inside our own span, not before it. The
-  empire's arrival changed the weather rather than simply blessing us.
-  For most of our own lifetime, the same throne that had ended the old
-  persecutions backed a different creed than ours. Bishops of our own
-  were exiled, deposed, or watched their sees change hands with each new
-  reign. Perhaps an outsider would have found this strangest about us.
-  One of our own preachers complained, only half in jest, that he could
-  not ask a money-changer for his coins, or a baker for his bread,
-  without being told instead whether the Son was equal to the Father.
-  And one emperor who had himself been schooled among us as a boy, and
-  later turned back to the old gods, accused our own teachers of a kind
-  of dishonesty. He said they taught classical texts they did not, in
-  his own eyes, actually believe.
+  We did not hide in catacombs. The storm of persecution had only just ended
+  when our own story opens. Our grandparents' generation still remembered it
+  directly. Even so, one of our own, Eupsychius of Caesarea, was put to
+  death under the last persecuting emperor, well inside our own span. We
+  kept his feast every year. The empire's arrival changed the weather rather
+  than simply blessing us. For most of our own lifetime, the same throne
+  that had ended the old persecutions backed a different creed than ours.
+  Bishops of our own were exiled, deposed, or watched their sees change
+  hands with each new reign. Perhaps an outsider would have found this
+  strangest about us. One of our own preachers complained, only half in
+  jest, that he could not ask a money-changer for his coins, or a baker for
+  his bread, without being told instead whether the Son was equal to the
+  Father. And one emperor, who had been raised among us as a boy and later
+  turned back to the old gods, accused our own teachers of a kind of
+  dishonesty. He said they taught classical texts they did not, in his own
+  eyes, actually believe.
 positions:
 - catacombs and hiding belong to an earlier era than this world's own span; its own memory of
   persecution is a generation's distance, not this world's own daily condition

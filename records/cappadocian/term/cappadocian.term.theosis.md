@@ -49,9 +49,11 @@ relations:
   target: cappadocian.term.hesychia
 - type: associated-with
   target: cappadocian.term.philanthropia
-plain_meaning: We taught that salvation means becoming god by grace. A person grows endlessly
-  into likeness with a God no mind can measure. Becoming god by grace never meant becoming equal to God.
-  The creature never crosses the gap that separates it from its maker.
+plain_meaning: >-
+  We taught that salvation means becoming god by grace. Becoming god by
+  grace never meant becoming equal to God. The creature never crosses the
+  gap that separates it from its maker. Gregory of Nyssa added that this
+  growth into God never ends.
 world_word: theōsis
 false_friend:
 - '''becoming god'' as pantheism or self-divinization'

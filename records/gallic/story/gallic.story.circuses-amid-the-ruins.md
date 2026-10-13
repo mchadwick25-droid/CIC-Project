@@ -90,33 +90,31 @@ narrative_tier_justification: >-
   petitioning for games) are historically unremarkable and match the general pattern independently
   known for the period; the specific numbers and the moral reading are Salvian's own.
 tellable_as: >-
-  A presbyter of Marseilles, writing of a city he knew, describes what he himself saw after its
-  repeated sack by barbarian raiders - the dead left unburied in the streets - and then reports that
-  the city's own surviving notables, rather than mourning, petitioned the emperors for circus games.
+  A presbyter of Marseilles saw the greatest city of Gaul after it was sacked again and again. The
+  dead lay all about, unburied. Then, he says, the few men of rank who survived demanded circus games
+  of the emperors.
 text: >-
   Salvian of Marseilles did not write about the ruin of Roman Gaul as something reported to him. Of
-  one city's fate he says plainly that he had seen men of high birth and honor, already despoiled and
-  plundered, who were still more ruined in character than in fortune - stripped as they were, something
-  still remained of their property, but nothing of their character (his own words are kept in full in
-  gallic.quote.salvian-on-treves-ruined-elite). The city was, on his own account, the wealthiest in
-  Gaul - his translator identifies it as Trier, second only to Rome in the western provinces in its own
-  day - and it had been taken by storm no less than four times. Elsewhere in the same book he gives a
-  different count, three times; his own text does not agree with itself on the number, only on the
-  repetition.
+  one city's fate he speaks plainly. He had seen men of high birth and honor there, already despoiled
+  and plundered. They were still more ruined in character than in fortune. Stripped as they were,
+  something still remained of their property, but nothing of their character. The city was, on his own
+  account, the wealthiest in Gaul. His translator identifies it as Trier, second only to Rome in the
+  western provinces in its own day. It had been taken by storm no less than four times. Elsewhere in
+  the same book he gives a different count, three times; his own text does not agree with itself on
+  the number, only on the repetition.
 
   What Salvian says he saw with his own eyes was worse than a number. Naked, torn bodies of both sexes
-  lay everywhere, a sight he says he endured himself, picked at by birds and dogs; the stench of the
-  dead spread sickness among the living (gallic.quote.salvian-on-the-unburied-dead carries his own
-  words in full). Those the enemy had not killed in the sack itself did not all survive what followed -
-  some died slowly of wounds, some burned, some starved, some froze, and all alike, by different deaths,
-  came to the same end.
+  lay everywhere, picked at by birds and dogs. He says he endured the sight himself. The stench of the
+  dead spread sickness among the living. Those the enemy had not killed in the sack itself did not all
+  survive what followed. Some died slowly of wounds, some burned, some starved, some froze. All alike,
+  by different deaths, came to the same end.
 
   Then, Salvian says, came the thing he could barely find words for. The few men of rank who had
-  survived destruction demanded of the emperors circuses, as if that were the remedy a ruined city
-  needed (gallic.quote.salvian-on-the-demand-for-circuses carries his own address to the city in full).
-  He does not soften his own reaction: he asks the citizens of Trier how they can long for circuses
-  after slaughter, captivity, and the repeated destruction of their own city, and says that watching
-  them suffer the ruin itself was less pitiful than watching them demand public shows now.
+  survived destruction demanded circuses of the emperors. They asked as if that were the remedy a
+  ruined city needed. He does not soften his own reaction. He asks the citizens of Trier how they can
+  long for circuses after slaughter, captivity, and the repeated destruction of their own city.
+  Watching them suffer the ruin itself, he says, was less pitiful than watching them demand public
+  shows now.
 absent_detail: >-
   Salvian does not give a year, and his own two figures for the number of sacks (three, four) cannot
   both be right; modern historians remain divided on exactly which raids he means and when. He does
