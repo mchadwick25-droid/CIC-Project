@@ -17,10 +17,11 @@ confidence:
     rule of counting.
 sources:
 - source_id: witt.source.luther-treatise-on-the-holy-sacrament
-  locus: Concerning Baptism (1519), cited among this entry's Registry rows (Doc_06 SS5 entry 5.1)
+  locus: Concerning Baptism (1519)
   license: public-domain
 - source_id: witt.source.luther-treatise-concerning-the-blessed-sacrament
-  locus: Concerning the Blessed Sacrament (1519) -- the sign, its significance, and the faith required
+  locus: >-
+    Concerning the Blessed Sacrament (1519) -- the sign, its significance, and the faith required
   license: public-domain
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
   locus: Babylonian Captivity -- 'I must deny that there are seven sacraments'
@@ -32,8 +33,7 @@ sources:
   locus: the Augsburg Confession XIII -- sacraments 'instituted to awaken and confirm faith'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XIII, read entire this pass -- 'Baptism, the Lord's Supper, and Absolution... are
-    truly Sacraments'
+  locus: the Apology XIII -- 'Baptism, the Lord's Supper, and Absolution... are truly Sacraments'
   license: public-domain
 retrieval:
   tier: 1

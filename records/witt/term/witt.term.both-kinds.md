@@ -16,13 +16,14 @@ confidence:
     doctrine.
 sources:
 - source_id: witt.source.luther-treatise-concerning-the-blessed-sacrament
-  locus: Concerning the Blessed Sacrament, cited among this entry's Registry rows (Doc_06 SS5 entry 5.5)
+  locus: Concerning the Blessed Sacrament
   license: public-domain
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
   locus: Babylonian Captivity -- 'drink ye all of it' as 'not by way of permission but of command'
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons -- the cup 'necessary... nevertheless it must not be made compulsory'
+  locus: >-
+    the Eight Wittenberg Sermons -- the cup 'necessary... nevertheless it must not be made compulsory'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: the Augsburg Confession -- both kinds as 'the commandment of the Lord'

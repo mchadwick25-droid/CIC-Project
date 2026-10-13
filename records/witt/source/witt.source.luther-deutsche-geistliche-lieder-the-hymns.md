@@ -19,6 +19,7 @@ work: Deutsche Geistliche Lieder / The Hymns of Martin Luther, Set to Their Orig
   English Version
 edition: 'ed. Leonard Woolsey Bacon, assisted by Nathan H. Allen (New York: Charles Scribner''s Sons,
   1883) — the thirty-six hymn texts, German with Bacon''s composite English; vendored as cic/texts/luther_hymns_bacon-allen.txt'
+citation: 'Luther, Deutsche Geistliche Lieder / The Hymns of Martin Luther, Set to Their Original Melodies, with an English Version, ed. Leonard Woolsey Bacon, assisted by Nathan H. Allen (New York: Charles Scribner''s Sons, 1883)'
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

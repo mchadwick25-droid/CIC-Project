@@ -18,6 +18,7 @@ author: Luther
 work: Formula Missae
 edition: (1523) and Deutsche Messe und Ordnung des Gottesdiensts (1526) as service orders — NOT VENDORED
   (only the German Sanctus, hymn XXV, is in R27)
+citation: Luther, Formula Missae (1523) and Deutsche Messe und Ordnung des Gottesdiensts (1526)
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

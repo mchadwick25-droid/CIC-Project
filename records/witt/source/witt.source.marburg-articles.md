@@ -19,6 +19,7 @@ work: The Marburg Articles
 edition: (3 October 1529), signed by Luther, Melanchthon, Zwingli, Oecolampadius and others — English
   in German History in Documents and Images (GHDI) and Luther's Works vol. 38, pp. 85–89; German original
   PD — NOT VENDORED
+citation: The Marburg Articles (3 October 1529), signed by Luther, Melanchthon, Zwingli, Oecolampadius and others; English in German History in Documents and Images (GHDI) and Luther's Works vol. 38, pp. 85–89
 kind: unvendored
 rights_status: "In-copyright; not vendored - access blocked"
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)

@@ -18,6 +18,7 @@ author: Church in Conversation project (reference data layer)
 work: cic-website/data/world-census.json
 edition: entry VI.1 (lutheran-wittenberg-and-its-congregations) and the sibling entries VI.2, VI.3, VI.11,
   VI.22
+citation: Church in Conversation project (reference data layer), world census, entry VI.1 (lutheran-wittenberg-and-its-congregations) and the sibling entries VI.2, VI.3, VI.11, VI.22
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

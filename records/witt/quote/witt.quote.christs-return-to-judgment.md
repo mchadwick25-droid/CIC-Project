@@ -21,7 +21,9 @@ confidence:
     gentler than the source states.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: "Article XVII: Of Christ's Return to Judgment (cic:melanchthon_augsburg-confession_anon-pg275.txt lines 433-446): eternal life for the godly and elect, 'ungodly men and the devils He will condemn to be tormented without end'"
+  locus: >-
+    Article XVII: Of Christ's Return to Judgment: eternal life for the godly and elect, 'ungodly men and
+    the devils He will condemn to be tormented without end'
   license: public-domain
 retrieval:
   tier: 2
@@ -57,15 +59,15 @@ modern_lens_note: >-
   different question, argued elsewhere (witt.term.justification, witt.term.faith), not settled by this
   article's own words.
 modern_rendering: >-
-  We also teach that at the end of the world, Christ will appear to judge, and will raise all the dead. He
-  will give the godly and the chosen eternal life and everlasting joy. But the ungodly, and the devils with
-  them, he will condemn to be tormented without end.
+  They also teach that at the end of the world Christ will appear to judge, and will raise all the dead.
+  He will give the godly and the chosen eternal life and everlasting joys. But ungodly people and the
+  devils he will condemn to be tormented without end.
 
-  We reject the teaching of the Anabaptists, who think the punishments of condemned men and devils will
-  one day come to an end.
+  They condemn the Anabaptists, who think that the punishments of condemned people and devils will come
+  to an end.
 
-  We also reject others who are now spreading certain Jewish opinions. These hold that before the dead are
-  raised, the godly will take over the kingdom of the world. The ungodly, on this view, will be put down
+  They also condemn others who are now spreading certain Jewish opinions. These opinions hold that before
+  the dead are raised, the godly will take possession of the kingdom of the world, with the ungodly suppressed
   everywhere.
 relations:
 - type: associated-with

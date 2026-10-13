@@ -19,7 +19,7 @@ sources:
   locus: Answer to Emser, 'The Letter and the Spirit' section only
   license: public-domain
 - source_id: witt.source.philadelphia-vols-i-iii-general-introduction
-  locus: per Doc_06 §5 entry 3.5's own Key Sources line
+  locus: the Philadelphia Edition general introduction
   license: public-domain
 retrieval:
   tier: 2

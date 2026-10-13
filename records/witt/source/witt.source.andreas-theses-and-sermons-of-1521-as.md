@@ -17,6 +17,7 @@ relations: []
 author: Andreas Karlstadt
 work: theses and sermons of 1521 — as quoted in Steimle's introduction to R15
 edition: not independently vendored; embedded within "luther_works-v2-selected_jacobs-spaeth1916.txt" (see rights_status)
+citation: Andreas Karlstadt, theses and sermons of 1521
 kind: unvendored
 rights_status: "Not independently vendored; this work reaches the build only as quoted or embedded within a vendored text, marked (context)"
 attribution_status: attributed

@@ -19,9 +19,9 @@ confidence:
     this library through Table Talk's own compilers, into a contemporaneous document of the day itself.
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: '"Of Luther''s Prayer for a gracious Rain," TT lines 3154-3192: the 1532 drought, "Luther called
-    together the whole assembly into the church," the prayer''s own text, and the rain that followed "within
-    the space of half an hour," all read and verified verbatim'
+  locus: >-
+    "Of Luther's Prayer for a gracious Rain": the 1532 drought, "Luther called together the whole assembly
+    into the church," the prayer's own text, and the rain that followed "within the space of half an hour"
   license: public-domain
 retrieval:
   tier: 3
@@ -46,34 +46,35 @@ narrative_tier_justification: 'Tier 2, Collected and Traditional Material, the s
   document of 9 June 1532 itself. The passage''s own unusual internal precision of date does not, by CF
   V7.4''s own standard, convert Table Talk''s collection history into direct documentation - the account
   still reaches this library through the compilers, not through a record made on the day (Doc_09 witt-S12).'
-tellable_as: In a drought year, with the corn withering in the fields, Luther called the whole assembled
-  congregation into the church and prayed aloud that God would not let the covetousness of the rich punish
-  the whole town for it - and the tradition remembers rain falling within the half hour.
-text: 'In 1532, a great drought lay over Germany, and the corn in the fields, by this library''s own account,
-  had begun to wither. On the ninth of June that year, Luther called the whole assembly together into
-  the church, and prayed aloud before them, with what the account calls "deep sighs."
+tellable_as: >-
+  In a drought year, with the corn withering in the fields, Luther called the whole congregation into
+  the church and prayed aloud. He said the covetousness of the rich farmers hindered God's blessing. The
+  tradition remembers rain falling within half an hour.
+text: >-
+  In 1532, a great drought lay over Germany. The corn in the fields, as the account tells it, had begun
+  to wither. On the ninth of June that year, Luther called the whole assembly together into the church.
+  He prayed aloud before them, with what the account calls "deep sighs."
 
   He did not pray only for rain. "O Lord," he said, "behold our prayers for thy promise sake; we have
   prayed, and our hearts have sighed, but the covetousness of the rich farmers doth hinder and hem in
-  thy blessing." He named what he saw as the deeper trouble plainly: that the Gospel''s own liberty had
-  been taken by some as license - "they are unbridled, they think it free for them to live and do what
-  they please; they now fear neither death nor hell, but say, ''I believe, therefore I shall be saved.''"
-  He called such people "haughty spiteful Mammonists, and accursed covetous cut-throats, that suck out
-  land and people," and asked that God would not let the whole town suffer for their sake alone.
+  thy blessing." He named what he saw as the deeper trouble plainly. Some had taken the Gospel's liberty
+  as license: "they are unbridled, they think it free for them to live and do what they please; they now
+  fear neither death nor hell, but say, 'I believe, therefore I shall be saved.'" He called such people
+  "haughty spiteful Mammonists, and accursed covetous cut-throats, that suck out land and people." He
+  said that God still had ways to keep those who were his, even if no rain fell among the ungodly.
 
-  Then, the account says, he lifted his eyes and prayed again, pressing the same question a second time
-  - if God gave no rain, would the ungodly not say that Christ himself had lied, since Christ had promised
-  that whatever was asked in his name would be given? "I know, O Lord," Luther prayed, "that we do cry
-  unto thee from our hearts, with yearning and sighing, why then dost thou not hear us?"
+  Then, the account says, he lifted his eyes and prayed again. If God gave no rain, he asked, would the
+  ungodly not say that Christ himself had lied? Christ had promised that whatever was asked in his name
+  would be given. "I know, O Lord," Luther prayed, "that we do cry unto thee from our hearts, with yearning
+  and sighing, why then dost thou not hear us?"
 
-  The account closes with what the congregation itself is remembered to have experienced: that same day,
-  within half an hour of the people leaving the church, it began to rain - gently, the record says, and
-  steadily, for a fortnight afterward, "in a most miraculous manner."
+  The account closes with what the congregation is remembered to have seen. That same day, within half
+  an hour of the people leaving the church, it began to rain. The rain was gentle, the account says, and
+  it lasted a whole fortnight, so that the grounds were "changed and refreshed in a most miraculous manner."
 
-  This is the one story in this whole library where the people being formed are not Luther alone, and
-  not his students, but the gathered congregation itself - the whole assembly, called together and addressed,
-  even though the account still reaches this library only through Luther''s own recorded prayer, not through
-  any one congregant''s own voice.'
+  This is the one story here where the people being formed are not Luther alone, and not his students,
+  but the gathered congregation itself, called together and addressed. Even so, the account reaches us
+  only through Luther's own recorded prayer, not through any one congregant's voice.
 absent_detail: No vendored source independently confirms the drought's severity, the prayer's exact wording,
   or the rain's precise timing beyond this one Table Talk account - there is no second witness, and no
   weather record, to check any of it against. The account does not name a single member of the congregation

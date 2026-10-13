@@ -18,6 +18,7 @@ author: n/a -- no individual author named for this work in the Source Registry r
 work: Philadelphia Edition vols. IV
 edition: (1931), V (1931), VI (1932) — archive.org identifiers per G1 Part B — HELD BACK pending copyright-renewal
   check
+citation: Philadelphia Edition vols. IV (1931), V (1931), VI (1932)
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)

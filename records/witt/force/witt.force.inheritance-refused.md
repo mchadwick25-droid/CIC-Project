@@ -16,7 +16,7 @@ confidence:
     this vocabulary is this world''s own or the inheritance''s -- unanswerable from this library.'
 sources:
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: 'v2 6695-6701; v1 2271-2272: the reduction from seven sacraments'
+  locus: 'v2 6695-6701; 10362-10364: the reduction from seven sacraments'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: 'LC 71-72, 130-138, 451-455: the Hours refused; the saints replaced'
@@ -38,8 +38,8 @@ relations:
   target: witt.gravity.vows-chastity-and-marriage
 - type: associated-with
   target: witt.gravity.embattled-christendom
-name: 'The inheritance refused: the Augustinian seedbed, the seven-sacrament, monastic and penitential
-  apparatus [1B - initiating/internal]'
+name: >-
+  The inheritance refused: the Augustinian seedbed, the seven-sacrament, monastic and penitential apparatus
 kind: initiating
 matrix_cell: 1B
 description: '"The Augustinian Hermits are its seedbed (Luther''s own order)... their Reformation-lands houses dissolved into
@@ -65,12 +65,17 @@ description: '"The Augustinian Hermits are its seedbed (Luther''s own order)... 
   replaced, the saints. And it left the world its one martyr story: the Brussels monks stripped of "monkish
   garb... True priests of God''s own making" (Hy 1789-1800).'
 manifestations:
-- the reduction from seven sacraments "to but three" and then "but two" (v2 6695-6701; v1 2271-2272)
-- pastors "delivered from the unprofitable and burdensome babbling of the Seven Canonical Hours" (LC 71-72)
-- the saints replaced by the Word as "the true holy water and holy sign from which he flees" (LC 130-138)
-- '"particular holy-days, particular fasts, brotherhoods, pilgrimages, services in honor of saints, the
-  use of rosaries, monasticism, and such like" (AC 501-504)'
-- the Brussels martyrs, "Their monkish garb from them they take... True priests of God's own making" (Hy
+- >-
+  the reduction from seven sacraments "to but three" and then "but two" (v2 6695-6701; 10362-10364)
+- >-
+  pastors "delivered from the unprofitable and burdensome babbling of the Seven Canonical Hours" (LC 71-72)
+- >-
+  the saints replaced by the Word as "the true holy water and holy sign from which he flees" (LC 130-138)
+- >-
+  "particular holy-days, particular fasts, brotherhoods, pilgrimages, services in honor of saints, the
+  use of rosaries, monasticism, and such like" (AC 501-504)
+- >-
+  the Brussels martyrs, "Their monkish garb from them they take... True priests of God's own making" (Hy
   1789-1800)
 ---
 Re-derived from the approved Doc_08 (Cell 1B, Force 1B-3). Cross-cell connections (Doc_08 §4): witt.force.papal-force-ongoing (precondition-for). Gravity linkage (Doc_08 §5): witt.gravity.promise-and-sign (precondition-for), witt.gravity.estate-office-and-calling (precondition-for), witt.gravity.vows-chastity-and-marriage (precondition-for), witt.gravity.embattled-christendom (associated-with) -- precondition-for used exactly where Doc_08 §5's own text uses the verb 'generated' (or its own paraphrases, 'generated as the refusal of...', 'generated in response', 'generated from the inheritance refused') for this pair, associated-with for every other verb, matching Gallic's own precedent exactly (gallic.force.egyptian-standard: 'the founding relationship an initiating-cell force has to the gravity it originates'). Canon_cells left empty, matching fleet convention for gravity/force records.

@@ -26,17 +26,18 @@ sources:
   locus: Babylonian Captivity -- the sacrament as Christ's testament
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, entire -- 'in and under the bread and wine'; the examination gate and its
-    freedom
+  locus: >-
+    the Large Catechism, entire -- 'in and under the bread and wine'; the examination gate and its freedom
   license: public-domain
 - source_id: witt.source.luther-small-catechism
-  locus: the Small Catechism -- 'the true body and blood of our Lord Jesus Christ under bread and wine'
+  locus: >-
+    the Small Catechism -- 'the true body and blood of our Lord Jesus Christ under bread and wine'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: the Augsburg Confession X, XXIV -- 'the Body and Blood of Christ are truly present'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XXIV, cited among this entry's Registry rows (Doc_06 SS5 entry 5.3)
+  locus: the Apology XXIV
   license: public-domain
 retrieval:
   tier: 1

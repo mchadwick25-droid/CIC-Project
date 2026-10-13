@@ -17,6 +17,7 @@ relations: []
 author: Scott H. Hendrix
 work: 'Martin Luther: Visionary Reformer'
 edition: '(New Haven: Yale, 2015)'
+citation: 'Scott H. Hendrix, Martin Luther: Visionary Reformer (New Haven: Yale, 2015)'
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

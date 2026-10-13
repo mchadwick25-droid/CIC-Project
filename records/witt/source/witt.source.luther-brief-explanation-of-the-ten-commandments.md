@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: A Brief Explanation of the Ten Commandments, the Creed, and the Lord's Prayer
 edition: (Kurze Form, 1520), trans. C. M. Jacobs, vol. II; vendored as cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt
+citation: Luther, A Brief Explanation of the Ten Commandments, the Creed, and the Lord's Prayer (Kurze Form, 1520), trans. C. M. Jacobs, vol. II
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

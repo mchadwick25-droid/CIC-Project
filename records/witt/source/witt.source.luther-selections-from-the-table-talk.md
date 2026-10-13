@@ -18,6 +18,7 @@ author: Luther
 work: Selections from the Table Talk of Martin Luther
 edition: trans. Captain Henry Bell (1646), ed. Henry Morley, Cassell's National Library (1886) — a selection;
   vendored as cic/texts/luther_table-talk_bell1886.txt
+citation: Luther, Selections from the Table Talk of Martin Luther, trans. Captain Henry Bell (1646), ed. Henry Morley, Cassell's National Library (1886)
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

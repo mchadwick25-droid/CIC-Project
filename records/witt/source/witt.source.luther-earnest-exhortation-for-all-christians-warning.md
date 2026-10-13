@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: An Earnest Exhortation for All Christians, Warning Them Against Insurrection and Rebellion
 edition: (Dec. 1521 / Jan. 1522), intro./trans. Lambert, vol. III; vendored as cic/texts/luther_works-v3-selected_various1930.txt
+citation: Luther, An Earnest Exhortation for All Christians, Warning Them Against Insurrection and Rebellion (Dec. 1521 / Jan. 1522), intro./trans. Lambert, vol. III
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
