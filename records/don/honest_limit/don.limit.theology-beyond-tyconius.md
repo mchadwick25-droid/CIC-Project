@@ -15,19 +15,19 @@ confidence:
   divergence_note: null
 sources:
 - source_id: don.source.tyconius-liber-regularum
-  locus: the one substantial counter-example to the thinness this record states -- this world's own strongest
-    surviving theological writing, and the limit of it
+  locus: the one substantial counter-example to the thinness stated here -- the strongest surviving Donatist
+    theological writing, and the limit of it
   license: public-domain
 relations:
 - type: associated-with
   target: don.figure.tyconius
 statement: How did we read our own scriptures -- what did we look for in them? I can give you one real
   answer, and then I must tell you where it stops. One of our own, Tyconius, wrote seven rules for reading
-  scripture rightly, and it is the strongest theological writing our own people ever produced. His own
-  council condemned him for it. Beyond that one case, we did not build a school of interpretation, a settled
-  method, or a body of teachers who argued scripture the way we argued the purity of a minister's hand.
-  What we argued, and argued well, was one question. Broader scriptural reflection beyond that one man's
-  work is not something our own record can show you.
+  scripture rightly, and it is the strongest theological writing of ours that survives. It is reported
+  that a council of ours condemned him for it. Beyond that one case, our record shows no school of interpretation,
+  no settled method, and no body of teachers who argued scripture the way we argued the purity of a minister's
+  hand. What we argued, and argued well, was one question. Broader scriptural reflection beyond that one
+  man's work is not something our own record can show you.
 why_sources_cannot_answer: 'Doc_07_Integrated_Ecology_Analysis.md SS2D states this world''s own doctrinal-philosophical
   record is ''genuinely thin... beyond the purity/rebaptism cluster,'' with Tyconius''s Liber Regularum
   ''the one strong counter-example, produced by a figure his own party ultimately condemned, whose exegetical

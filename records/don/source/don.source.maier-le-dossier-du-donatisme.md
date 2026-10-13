@@ -20,6 +20,7 @@ author: Jean-Louis Maier
 work: 'Le Dossier du Donatisme, 2 vols., Texte und Untersuchungen 134/135 (Berlin: Akademie-Verlag, 1987/1989)'
 edition: Akademie-Verlag (now De Gruyter), 1987/1989 -- in copyright, recorded not requested (Source_Acquisition_Manifest.md
   SS2). Not vendored.
+citation: Jean-Louis Maier, Le Dossier du Donatisme, 2 vols., Texte und Untersuchungen 134/135 (Akademie-Verlag, 1987/1989)
 kind: unvendored
 rights_status: "in-copyright; confirmed unavailable in the public domain. Not vendored and not a vendoring candidate - committing it would be redistribution. Consultable through a library without being vendored"
 attribution_status: attributed

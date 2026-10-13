@@ -24,8 +24,8 @@ confidence:
     No clean vendored transcription exists to repoint to.'
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: act 50, 411 Conference of Carthage; independently re-read this session against cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt,
-    line 126834
+  locus: 'Gesta Collationis Carthaginiensis (the 411 Conference of Carthage), third session: Emeritus''s
+    objection that the other side would not name its envoys, their rank or their mandate'
   license: public-domain
 retrieval:
   tier: 2
@@ -49,8 +49,8 @@ modern_lens_note: 'A modern reader may hear a procedural objection like this as 
   case proceed to its substance at all until the opposing advocates disclose their own names, rank, and
   mandate to the court -- treating procedural standing itself as the truth the other side is trying to
   keep hidden, not a distraction from it.'
-modern_rendering: Truth is hidden by a great argument. When, in response to our inquiry, only a small
-  thing is brought forth from the other side, the rest is passed over in silence.
+modern_rendering: A great trick is hiding the truth. When we ask our questions, the other side puts
+  forward only a small part, so that the rest is kept silent.
 use_note:
   means: "At the 411 Carthage conference, Emeritus protested that truth was hidden while the other side withheld its envoys' names, rank and mandate."
   not_for:

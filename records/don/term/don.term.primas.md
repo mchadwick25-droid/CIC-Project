@@ -40,9 +40,9 @@ relations:
   target: don.term.episcopus
 - type: associated-with
   target: don.term.concilium
-plain_meaning: Our senior bishop sits at Carthage. Donatus held it, then Parmenian, then Primian. Our rival claims
-  the same see for its own man at the same time. So there are two primates in one city, as there are two bishops
-  in every town.
+plain_meaning: Our senior bishop sat at Carthage. Donatus held it, then Parmenian, then Primian. Our rival
+  claimed the same see for its own man at the same time. So there were two primates in one city, as there
+  were two bishops in every town.
 world_word: primas
 false_friend:
 - a pope or a patriarch with jurisdiction over a wider church
@@ -57,8 +57,9 @@ senses:
     the role, and this build did not develop the term beyond Doc_03''s one-line entry and Doc_05''s passing treatment.'
   personal: The primate is where the parallel hierarchy comes to a point. Two men hold the same chair in the same
     city, and each communion's whole claim is visible in which one it obeys.
-  translational: '''Was there a pope of this church?'' -- no. The primate is the senior African bishop of this
-    communion, not a universal head, and his counterpart across the street claims exactly the same standing.'
+  translational: '''Was there a pope of this church?'' -- no. The primate is the senior African bishop of
+    this communion, not a universal head, and his counterpart in the same city claimed exactly the same
+    standing.'
 quick_meaning: Our senior bishop at Carthage -- with the rival's man claiming the same chair.
 distortion_risk: low
 use_note:

@@ -23,10 +23,11 @@ confidence:
     field literature, not on the text.'
 sources:
 - source_id: don.source.passio-marculi
-  locus: cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 664-1359 (the Passio entire)
+  locus: Passio Marculi, the whole text, in Monumenta Vetera ad Donatistarum historiam
+    pertinentia (Migne, Patrologia Latina 8)
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
-  locus: cic/texts/optatus_against-the-donatists.txt, lines 2064-2096 - the argument against the alleged
+  locus: Optatus, Against the Donatists III.6, the argument against the alleged
     Donatist martyrs
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
@@ -63,33 +64,32 @@ narrative_tier_justification: 'Tier 3, and the closest thing in our corpus to th
   waived: the general portrait carries Contested confidence, corroborated even by hostile witnesses for
   the bare fact of the killing; the visionary and miraculous details carry Inferential-Thin confidence.
   The formation ideal is the evidence here. The cliff-top vision is not.'
-tellable_as: Marculus is shown a cup, a crown and a palm four days before he is thrown from a cliff - and
-  the tradition says his body came down gently and a light settled over the place until the brethren found
-  him.
+tellable_as: On the last night of his four days at Novapetra, after a day of fasting, Marculus is shown a cup, a
+  crown and a palm. Before dawn he is thrown from a cliff. The tradition says his
+  body came down gently, and a bright cloud showed the brethren where he lay.
 text: >-
   We remember Marculus as a man who had already given up what the world
   offers before persecution ever reached him - a life of unusual virtue, a
   refusal of worldly advancement, given instead to the church.
 
-  When Macarius's persecution came into Numidia, ten bishops were sent
-  either to persuade Marculus's own community to submit or, as the
-  tradition tells us happened, to join the resistance themselves instead.
-  Marculus was seized at a place called Vegesela. He was bound to columns
-  and flogged, and - so the account insists - bore it without visible
-  pain, praising God the whole time, as though the whips could not reach
-  the part of him that mattered. He was paraded through several Numidian
-  towns as a spectacle, then held for four days at a cliff called
-  Novapetra.
+  When Macarius's persecution came into Numidia, ten of our bishops were
+  sent to Macarius, either to turn him back from his crime or, as the
+  tradition tells us happened, to face the struggle before their flock
+  did. Marculus was among them. Marculus was seized at a place called
+  Vegesela. He was bound to columns and flogged, and - so the account
+  insists - bore it without visible pain, praising God the whole time, as
+  though the whips could not reach the part of him that mattered. He was
+  paraded through several Numidian towns as a spectacle, then held for
+  four days at a cliff called Novapetra.
 
   In that waiting, the account says, he fasted, and was given a vision: a
-  cup, a crown and a palm, shown to him together, the way we remember
-  such things being shown to those about to complete a formed life.
-  Before dawn he was thrown from the cliff. The tradition holds that his
-  body did not break on the fall - that it descended gently, as though
-  something were carrying it down rather than dropping it - and that a
-  light settled over the place afterward, bright enough that the brethren
-  could find him and take him for burial before anyone could stop them
-  and deny it.
+  cup, a crown and a palm, shown to him together, the way we remember such
+  things being shown to those about to complete a formed life. Before dawn
+  he was thrown from the cliff. The tradition holds that his body did not
+  break on the fall - that it descended gently, as though something were
+  carrying it down rather than dropping it - and that a bright cloud
+  covered his body, with flashes of light that showed the brethren where
+  he lay, so that they could take him for burial.
 
   This is how we remember Marculus: not as a man who died, but as a man
   shown, in advance, what completing his own formation would look like,

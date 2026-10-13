@@ -31,6 +31,7 @@ work: Anonymous Donatist sermon, manuscript title De passione sanctorum Donati e
 edition: Edited by Jean Mabillon in his Monumenta Vetera ad Donatistarum historiam pertinentia, printed
   in Migne, Patrologia Latina vol. 8; vendored (relevant excerpt only) as cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt.
   Treated at chapter length by Monceaux (Registry row 40).
+citation: Anonymous Donatist preacher, Passio Donati (De passione sanctorum Donati et Advocati), ed. Jean Mabillon, Monumenta Vetera ad Donatistarum historiam pertinentia, Patrologia Latina vol. 8
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: anonymous, and the title itself is contested. Mabillon judges 'Donati' in the manuscript

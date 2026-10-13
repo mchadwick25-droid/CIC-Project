@@ -18,6 +18,7 @@ author: Karl Ziwsa (ed.)
 work: S. Optati Milevitani libri VII, Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL) 26 (Prague/Vienna/Leipzig,
   1893)
 edition: cic/texts/optatus_libri-vii-critical_ziwsa1893.txt
+citation: S. Optati Milevitani libri VII, ed. Karl Ziwsa, Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL) 26 (Prague/Vienna/Leipzig, 1893)
 kind: vendored
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed

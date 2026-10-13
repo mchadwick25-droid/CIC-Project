@@ -21,7 +21,7 @@ confidence:
     our own side survives to set beside it.'
 sources:
 - source_id: don.source.optatus-against-the-donatists
-  locus: Against the Donatists I.16-20; cic/texts/optatus_against-the-donatists.txt, lines 197-237
+  locus: Optatus, Against the Donatists I.16-20
   license: public-domain
 - source_id: don.source.lucilla-and-the-second-unnamed-woman
   locus: the Lucilla material as such, and the against-the-grain reading of what Optatus's own accusation
@@ -61,42 +61,41 @@ narrative_tier_justification: 'Tier 1: direct textual attestation from within or
   roughly fifty years after the events. The bare sequence is treated as Documented; the motive he assigns
   is treated as his own interpretation. Tier 1 survives that split because the tier turns on attestation
   and specificity, not on the author''s sympathy.'
-tellable_as: A wealthy woman is publicly rebuked for kissing a martyr's bone before communion, and years
-  later the man who rebuked her is elected bishop of Carthage - and a rival bishop is consecrated against
-  him.
+tellable_as: A rich woman is rebuked for kissing a martyr's bone before communion.
+  Years later the man who rebuked her becomes bishop of Carthage. A rival bishop
+  is made against him.
 text: >-
-  Before there was a schism there was a rebuke, delivered in public, to a
+  Before there was a schism there was a rebuke, as Optatus tells it, to a
   woman who did not forget it.
 
   Lucilla, a wealthy laywoman of Carthage, had a habit before receiving
   the chalice: she would kiss the bone of a martyr she kept with her. The
-  archdeacon Caecilian rebuked her for it - the man had not yet even been
-  formally acknowledged as a martyr, he said, and the practice was
-  improper. Optatus records that she left full of wrath.
+  archdeacon Caecilian rebuked her for it. The dead man had not yet been
+  formally acknowledged as a martyr, Optatus adds, if he was one at all.
+  Optatus records that she left full of wrath.
 
-  Around the same time, persecution reached Carthage again. A deacon
-  named Felix went into hiding in the house of the bishop, Mensurius.
-  Mensurius, expecting his own exile, entrusted the church's gold and
-  silver - the whole treasury - to a group of respected laymen, the
-  seniors, and gave an old woman a written inventory of everything, for
-  safekeeping until it could be recovered.
+  Around the same time, persecution broke over Carthage. A deacon named
+  Felix went into hiding in the house of the bishop, Mensurius. Mensurius
+  was summoned to the imperial court. He entrusted the church's many gold
+  and silver ornaments to some of the seniors whom he believed worthy of
+  trust, and gave an old woman a written inventory. She was to hand it to
+  whoever she found sitting on the bishop's chair, if he did not come
+  home.
 
   When the persecution passed and Mensurius did not return, a new bishop
-  had to be chosen. Two candidates who had expected the office, Botrus
-  and Celestius, were passed over. Caecilian was elected instead. The
-  seniors who had quietly kept back more of the treasury than they
-  should have, the two men disappointed of the office they wanted, and
-  Lucilla, still carrying her grievance from the rebuke, found they had a
-  common cause.
+  had to be chosen. Two candidates who had expected the office, Botrus and
+  Celestius, were passed over. Caecilian was elected instead. The seniors
+  who had quietly kept back more of the treasury than they should have,
+  the two men disappointed of the office they wanted, and Lucilla, still
+  carrying her grievance from the rebuke, found they had a common cause.
 
-  At a crowded assembly in the Carthage basilica, Caecilian stood and
-  demanded that his accusers step forward and say plainly what they
-  charged him with. One of them, Purpurius, mocked him rather than
-  answer - let his head, he said, be well beaten in penance. No proof was
-  ever produced. What followed instead was a rival consecration:
-  Majorinus, a member of Lucilla's own household, was made bishop in
-  Caecilian's place - at her instigation, Optatus writes, and through her
-  bribes.
+  At a crowded assembly in the Carthage basilica, Caecilian demanded that
+  his accusers step forward and say plainly what they charged him with.
+  One of them, Purpurius, mocked him rather than answer - let his head, he
+  said, be well beaten in penance. No proof was ever produced. What
+  followed instead was a rival consecration: Majorinus, a member of
+  Lucilla's own household, was made bishop in Caecilian's place - at her
+  instigation, Optatus writes, and through her bribes.
 absent_detail: Lucilla left no text and no one asked her what she thought she was doing. Everything known
   about her reaches us inside the hostile narrative that blames her for the schism; her own account of
   the rebuke, of the money, and of Majorinus does not exist. Nor does any account of these events from

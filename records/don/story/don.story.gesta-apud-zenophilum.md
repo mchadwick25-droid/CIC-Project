@@ -14,18 +14,17 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: 'Documented, and unusually so for this corpus: a court transcript with named deponents,
-    independently corroborated on its central fact by a second primary source written on the opposing side
-    decades later with no evident coordination. The one thing that must not be forgotten is where the transcript
+    recalled on its central fact by a second source written on the opposing side
+    decades later, which drew on the Acts of the same inquiry and so is not independent of it. The one thing that must not be forgotten is where the transcript
     survives - inside Optatus''s own appendix of documents. The proceeding''s record is not his composition,
     but the selection of it for preservation is his act, and it is preserved because its findings tell
     against us.'
 sources:
 - source_id: don.source.optatus-appendix-of-documents
-  locus: Gesta apud Zenophilum (320); cic/texts/optatus_against-the-donatists.txt, lines 6194-6880, read
-    directly for this record
+  locus: Gesta apud Zenophilum (320), in the appendix to Optatus's Against the Donatists
   license: public-domain
 - source_id: don.source.augustine-donatist-correspondence
-  locus: Letter XLIII (397); cic/texts/npnf101_augustine-confessions-letters.xml, lines 28040-28069
+  locus: Augustine, Letter 43 (397), section 17
   license: public-domain
 retrieval:
   tier: 2
@@ -62,33 +61,34 @@ narrative_tier_justification: 'Among the strongest Tier 1 candidates in this cor
   source does, so the caveats Tier 1 asks for the author''s perspective sit lighter here than on don.story.lucilla-affair,
   which is Optatus''s own narration of the same broader affair. They do not vanish: the transcript reaches
   us inside his appendix, and it is there because it damages us.'
-tellable_as: A Roman official puts named witnesses on oath in 320 and asks where four hundred pieces of
-  silver went - and the answers name the bishop of Cirta a betrayer and the rival altar at Carthage as
-  what the money bought.
+tellable_as: In 320 a Roman official hears a case against Silvanus, bishop of Cirta.
+  A witness agrees that he was a betrayer, and letters from our own bishops beg
+  that no one find out. The charge also names four hundred pieces of silver from
+  Lucilla as the price of our rival bishop.
 text: >-
   In 320, before the consular official Zenophilus, a formal inquiry was
   opened into what had actually happened to the church's own money.
 
-  The complaint had been laid by Nundinarius, a deacon degraded by his
-  own bishop, and it named names. Silvanus of Cirta, it charged, was a
+  The complaint had been laid by Nundinarius, a deacon degraded by his own
+  bishop, and it named names. Silvanus of Cirta, it charged, was a
   betrayer and a thief of the goods of the poor - and all of them, the
-  bishops and priests and deacons and elders, knew it, because of the
-  four hundred pieces of silver given by the noble woman Lucilla, for the
-  sake of which they had conspired together that Majorinus should be made
+  bishops and priests and deacons and elders, knew it, because of the four
+  hundred pieces of silver given by the noble woman Lucilla, for the sake
+  of which they had conspired together that Majorinus should be made
   bishop, and out of which the schism came. Victor the fuller, it added,
   had paid twenty pieces to be made a priest.
 
   Letters were read into the record, and the letters are what a modern
   reader will find hardest. Purpurius, a bishop, had written to Silvanus
-  urging him to settle with the deacon quietly, before the flame burst
-  out that could not afterward be put out without spiritual bloodshed -
-  and adding, in the same letter, that he knew the things written in the
-  bill of accusation were true. He wrote to the clergy and elders of
-  Cirta in the same terms, and closed by warning them to see that no one
-  learned the story of this conspiracy. A bishop named Fortis wrote to
-  Silvanus in the same vein: let us not come into a public court and be
-  condemned by the gentiles. A bishop named Sabinus wrote twice. Every
-  one of the letters ends the same way. Let no one know about it.
+  urging him to settle with the deacon quietly, before the flame burst out
+  that could not afterward be put out without spiritual bloodshed - and
+  adding, in the same letter, that he knew the things written in the bill
+  of accusation were true. He wrote to the clergy and elders of Cirta in
+  the same terms, and warned them to see that no one learned the story of
+  this conspiracy. A bishop named Fortis wrote to Silvanus in the same
+  vein: let us not come into a public court and be condemned by the
+  gentiles. A bishop named Sabinus wrote twice. Several of the letters end
+  the same way. Let no one know about it.
 
   Then the witnesses were questioned directly, under record. Zenophilus
   said that from the acts and letters read aloud it was clear that
@@ -96,20 +96,21 @@ text: >-
   frankly whether you know he handed anything over. He handed it over,
   Victor said, but not in my presence. What office did he hold at the
   time? Sub-deacon, said Victor; the persecution broke out when Paul was
-  bishop. And when he came to be made bishop, Nundinarius said, the
-  people answered: let it be another - hear us, God. Did the people cry
-  out that Silvanus was a betrayer? I myself fought against his being
-  made bishop, Victor said. So you knew he was a betrayer - confess it.
-  He was a betrayer, Victor said. We wanted one of our own townsmen, a
-  man of integrity; I knew that if the office went to such as he, we
-  should end up before the emperor's court.
+  bishop. And when he came to be made bishop, Nundinarius said, the people
+  answered: let it be another - hear us, God. Did the people cry out that
+  Silvanus was a betrayer? I myself fought against his being made bishop,
+  Victor said. So you knew he was a betrayer - confess it. He was a
+  betrayer, Victor said. We wanted one of our own townsmen, a man of
+  integrity; I knew that if the office went to such as he, we should end
+  up before the emperor's court.
 
   Decades afterward Augustine, no friend to our cause, referred back to
-  this same episode in a letter of his own, recalling that Nundinarius,
-  in the heat of passion, revealed many secrets - among them that the
+  this same episode in a letter of his own, recalling that Nundinarius, in
+  the heat of passion, revealed many secrets - among them that the
   founding of a rival altar at Carthage had been made possible by money
-  that came from Lucilla. Two witnesses, on opposite sides of the schism
-  and decades apart, describe the same underlying fact.
+  that came from Lucilla. Augustine was drawing on the Acts of this same
+  inquiry, so his letter shows that the record was known. It is not a
+  second, independent source.
 absent_detail: Silvanus himself is questioned nowhere in what survives here; the proceeding is about him
   rather than with him, and no answer of his to any of it is on the record. Nor is there any account from
   our own side of what the money was for, what the seniors thought they were doing with it, or what Lucilla

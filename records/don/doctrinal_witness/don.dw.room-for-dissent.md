@@ -29,14 +29,13 @@ sources:
     reserve the matter to the Lord
   license: public-domain
 - source_id: don.source.passio-isaac-et-maximiani
-  locus: the ring of blood and light in the cup; the dream of combat and the crowning
+  locus: the crown of blood and light in the cup; the dream of combat and the crowning
   license: public-domain
 - source_id: don.source.passio-marculi
   locus: the cup, the crown and the palm shown in the fast at Novapetra
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'thin_topics: fear, doubt, wavering, quiet defection - a hostile-mediated record structurally
-    does not preserve these'
+  locus: 'fear, doubt, wavering, quiet defection - a record kept by opponents does not preserve these'
   license: public-domain
 retrieval:
   tier: 2
@@ -61,32 +60,31 @@ text: >-
   themselves, and stopped.
 
 
-  In the second room, a layman of ours named Tyconius worked out from
+  In the second room, a man of ours named Tyconius worked out from
   Scripture that the church is spread across the whole earth - which, if
   true, meant we were the ones who had cut ourselves off from something
   real. He was told by our own bishop at Carthage never to preach it
   again. He did not recant. He did not go over to the other side either.
-  He kept saying it from inside, and we cut him off, and never took him
-  back. So there was room to keep arguing, and no room at all to be
-  right.
+  He kept saying it from inside. It is reported that a council of ours
+  condemned him, and he was never taken back.
 
 
   God was felt among us, and our own texts say so without embarrassment.
   The night before he faced the proconsul, one of our martyrs saw the
-  wine in his cup take the shape of a ring shining with blood and light.
-  That night he dreamed he fought the emperor himself and was crowned by
-  a bright youth. Another was shown a cup, a crown and a palm while he
-  fasted at the top of the cliff he was about to be thrown from. Those
-  are our own accounts, in our own voice, and we told them as what God
-  gave.
+  wine in his cup take the shape of a crown shining with blood and light.
+  After the beating he dreamed he fought the emperor himself and was
+  crowned by a bright youth. Another was shown a cup, a crown and a palm
+  while he fasted at Novapetra, before he was thrown from the cliff.
+  Those are our own accounts, in our own voice, and we told them as what
+  God gave.
 
 
   Whether an ordinary member of ours, on an ordinary evening, could feel
-  nothing and wonder whether it was all a mistake, we cannot tell you.
-  That is not modesty. It is that fear, wavering and quiet leaving are
-  exactly what a record kept by our enemies does not preserve. What
-  survives of our inner weather is vindication and defiance, and it
-  survives because it sits in the martyr texts nobody edited.
+  nothing and wonder whether it was all a mistake, we cannot tell you. A
+  record kept by our enemies does not preserve fear, wavering or quiet
+  leaving. What survives of our inner weather is vindication and
+  defiance, and it survives because it sits in the martyr texts our own
+  people wrote.
 positions:
 - our own founding council put the purity question to itself, could not answer it, and agreed to reserve
   the matter to the Lord rather than finish it

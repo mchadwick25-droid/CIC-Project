@@ -23,6 +23,7 @@ author: Paul Monceaux
 work: 'Histoire litteraire de l''Afrique chretienne depuis les origines jusqu''a l''invasion arabe, Tome
   IV: Le Donatisme'
 edition: 'Paris: Ernest Leroux, 1912; vendored as cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt'
+citation: 'Paul Monceaux, Histoire litteraire de l''Afrique chretienne depuis les origines jusqu''a l''invasion arabe, Tome IV: Le Donatisme (Paris: Ernest Leroux, 1912)'
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: 'attributed. Dated 1912 from the TITLE PAGE, not from catalog metadata: the hosting

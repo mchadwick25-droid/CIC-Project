@@ -37,8 +37,7 @@ sources:
     Numidia
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'horizon: no continuous line to any present-day communion is documented at any point, and Living
-    Tradition Status is not confirmed'
+  locus: no continuous line to any present-day communion is documented at any point
   license: public-domain
 retrieval:
   tier: 2
@@ -47,40 +46,42 @@ retrieval:
   - participant asks whether we had denominations, or how we treated others who called on Christ differently
 text: >-
   Catholic means universal, and we claimed it, and refused to hand it
-  over. Both churches in every African town claimed it. What settled the
-  usage was not an argument; it was the law. The emperor's officials
-  attached the word to the other party and went on attaching it, and you
-  can watch that happen in the transcript of our own trial. Our bishop
-  told the judge that before the case is decided the name is an empty
-  one, and that whoever is found to be a Christian will hold it at the
-  end. The judge agreed - it is certain, he said, that after the contest
-  the name belongs to those with whom the truth is found - and then said
-  he was bound to follow the imperial rescript, which had already been
-  pleased to call them by it. He conceded the principle and was not free
-  to act on it. So we called them Caecilianists instead, after the man
-  whose consecration we would not accept, and one of our preachers
+  over. Both churches in every African town claimed it. The law settled
+  the usage. The emperor's officials attached the word to the other
+  party and went on attaching it, and you can watch that happen in the
+  transcript of our own trial. Our bishop told the judge that before the
+  case is decided the name is an empty one, and that whoever is found to
+  be a Christian will hold it at the end. The judge agreed - it is
+  certain, he said, that after the contest the name belongs to those
+  with whom the truth is found - and then said he was bound to follow
+  the imperial rescript, which had already been pleased to call them by
+  it. He conceded the principle and was not free to act on it. So we
+  called them Caecilianists instead, after the man whose consecration we
+  would not accept. A modern editor reports that one of our preachers
   turned their own word back on them, saying it named the place where
   wrong is done and nobody is punished for it.
 
 
-  No church today that anyone can visit is ours. Not one can be traced
-  to us. The quarrel outlived the empire that fed it and went on for a
-  century and a half more under new masters, and a bishop of Rome was
-  still writing letters about rebaptism in Numidia nearly three hundred
-  years after our founding. Then the record simply stops. No line runs
-  from us to any communion you could walk into now.
+  We cannot point you to a church today and call it ours. No line from
+  us to a living church is documented. The quarrel outlived the empire
+  that fed it and went on for a century and a half more under new
+  masters, and a bishop of Rome was still writing letters about
+  rebaptism in Numidia nearly three hundred years after our founding.
+  Then the record simply stops. That is a gap in the record. It does not
+  prove that nothing survived.
 
 
   Denominations, in your sense - separate bodies agreeing to differ - we
-  did not have and could not have had. There was one church, and the only
-  question was which building held it. When a party broke from us, we did
-  not treat it as another denomination. We condemned it in a council of
-  three hundred and ten bishops, suppressed it, and then took two of its
-  bishops back without redoing anything. When one man among us would not
-  stop preaching that the church was spread over the whole earth, we cut
-  him off and never received him back. That is what we did with people
-  who called on Christ differently from us: not co-existence, and not
-  quite consistency either.
+  did not have and could not have had. There was one church, and the
+  only question was which building held it. When a party broke from us,
+  we did not treat it as another denomination. We condemned it in a
+  council of three hundred and ten bishops, suppressed it, and then took
+  two of its bishops back without redoing anything. When one man among
+  us would not stop preaching that the church was spread over the whole
+  earth, it is reported that we cut him off, and we never received him
+  back. That is how we treated people who called on Christ differently
+  from us. We did not live beside them as equals, and we were not always
+  consistent.
 positions:
 - we claimed the title catholic and refused to concede it, and what settled the usage in practice was
   imperial law rather than argument

@@ -39,8 +39,7 @@ sources:
   locus: seven books on the washing, and the Bagai reception of Felicianus and Praetextatus
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: Book I, ch. 5, SS6 - Donatist laity's own reluctance to be rebaptized, and secret efforts to
-    be spared it
+  locus: Book I, ch. 5, section 6 - Donatist laity's own reluctance to be rebaptized, and secret efforts to be spared it
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
   locus: first cognitio, act 154 - the Donatist bishop Adeodatus, asked at Carthage in 411 whether his
@@ -50,10 +49,10 @@ sources:
   locus: Optatus I.16 - kissing a martyr's bone before receiving the chalice, and the rebuke for it
   license: public-domain
 - source_id: don.source.passio-donati-sermon
-  locus: people killed at prayer on their knees inside the basilica; a dying catechumen not yet baptized
+  locus: people killed at prayer inside the basilica; a dying catechumen not yet baptized
   license: public-domain
 - source_id: don.source.passio-marculi
-  locus: the four days of fasting at Novapetra before the cliff
+  locus: the fast that closed Marculus's four days at Novapetra, before the cliff
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
   locus: the Council of Cirta - a charge nobody could settle, reserved to the Lord
@@ -77,11 +76,10 @@ text: >-
   asked.
 
 
-  It happened once, bodily, on a day, and the town knew. There was no
-  quiet way to do it. Imperial edicts name the practice specifically,
-  which tells you how public it was: washing a Catholic again was the
-  plainest possible refusal of the settlement the state was trying to
-  impose.
+  It happened once, bodily, on a day. Imperial edicts name the practice
+  specifically, which tells you how public it was: washing a Catholic
+  again was the plainest possible refusal of the settlement the state
+  was trying to impose.
 
 
   Not every hand that went under our water chose to be there, and we
@@ -113,21 +111,23 @@ text: >-
   council at Bagai condemned a breakaway party in the fiercest language
   we owned - shipwrecked bodies that cannot find burial - and then took
   two of the condemned bishops back into office without baptizing or
-  ordaining either one again. And a layman of ours who would not stop
-  preaching a doctrine we had forbidden was cut off and never received
-  back at all. So: yes, you could come back. It depended who you were,
-  and no rule of ours survives that explains the difference.
+  ordaining either one again. And Tyconius, who would not stop preaching
+  a doctrine his bishop forbade, is reported to have been condemned by a
+  council of his own communion, and he was never received back at all.
+  So: yes, you could come back. It depended who you were, and no rule of
+  ours survives that explains the difference.
 
 
   On prayer, the meal and fasting, what we can show thins out. Nothing
-  liturgical of ours survives. We know people prayed kneeling with their
-  eyes closed, because that is how the account describes them when the
-  soldiers came in. We know there was a chalice, because an enemy wrote
-  down that a rich woman used to kiss a martyr's bone before she took it
-  and was rebuked for it. We know one man fasted four days on a cliff
-  before he was thrown off it. That is not a rule of fasting; it is one
-  man's last week. We would rather hand you those three fragments than a
-  plausible order of service nobody here ever used.
+  liturgical of ours survives. We know people prayed with their hands
+  stretched out to the Lord and their eyes closed, because that is how
+  the account describes them when the soldiers came in. We know there
+  was a chalice, because an enemy wrote down that a woman was said to
+  have kissed a martyr's bone before she took it, and was rebuked for
+  it. We know one man, held four days before he was thrown from a cliff,
+  ended his last day with a fast. That is not a rule of fasting; it is
+  one man's last days. We would rather hand you those three fragments
+  than a plausible order of service nobody here ever used.
 positions:
 - 'entry ran through one enacted bodily threshold: a person coming from the rival communion was washed, and we
   counted that as a first baptism rather than a repetition'

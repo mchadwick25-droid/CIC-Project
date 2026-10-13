@@ -61,9 +61,9 @@ relations:
   target: don.term.persecutio
 - type: illustrated-by
   target: don.term.anniversaria-commemoratio
-plain_meaning: A martyr dies for the true faith. But our best-known dead were not killed by pagans. They were
-  killed by imperial troops sent at the urging of a rival Christian party. That party has never once granted them
-  the word. We do not accept its account of our own dead.
+plain_meaning: A martyr dies for the true faith. But our best-known dead were not killed by pagans. They
+  were killed by imperial troops sent at the urging of a rival Christian party. That party did not grant
+  them the word. We did not accept its account of our own dead.
 world_word: martyr / martyrium
 false_friend:
 - a generic early-church martyr cult, killed by pagan Rome and admired by everyone since
@@ -82,13 +82,14 @@ senses:
     dating and authorship are genuinely contested between Mabillon and Monceaux, hagiographic idealisation is
     structural to the passio genre rather than incidental, and the ordinary mourner''s own experience at the graveside
     is nowhere recorded.'
-  personal: Commemoration here is not remembering something finished. The account is read at the grave so that
-    the same formation happens again in the hearing -- a people who suffer and go on suffering for the truth is
-    thereby shown to hold it. This is the ground of the communion's own positive name for itself.
-  translational: '''Wasn''t every ancient church proud of its martyrs?'' -- the difference here is who did the
-    killing. These dead were killed by a Christian emperor''s forces at a Christian rival''s urging, and that
-    rival called them not martyrs but merely dead men resisting correction. Commemorating them is therefore not
-    general piety; it is the central argument, made at a graveside.'
+  personal: Commemoration here was not remembering something finished. The account was read at the grave
+    so that the same formation happened again in the hearing. A people who suffered and went on suffering
+    for the truth was thereby shown to hold it. This was the ground of the communion's own positive name
+    for itself.
+  translational: '''Wasn''t every ancient church proud of its martyrs?'' The difference here is who did
+    the killing. These dead were killed by a Christian emperor''s forces at a Christian rival''s urging,
+    and that rival called them not martyrs but merely dead men resisting correction. Commemorating them
+    was not general piety. It was the central argument, made at a graveside.'
 quick_meaning: Our dead, killed for the true faith -- and the word our rival will not grant them.
 distortion_risk: high
 use_note:

@@ -41,9 +41,9 @@ relations:
   target: don.term.ecclesia
 - type: associated-with
   target: don.term.caecilianist
-plain_meaning: Both sides read 'catholic' -- universal -- as their own rightful title. The state grants it to
-  our rival; we do not. One of our own preachers turned the word back on them. He said it names the place where
-  wrong is done and no one is punished for it.
+plain_meaning: Both sides read 'catholic', meaning universal, as their own rightful title. The state granted
+  it to our rival, and we did not. One of our own preachers turned the word back on them. He said it named
+  the place where wrong is done and no one is punished for it.
 world_word: catholicus
 false_friend:
 - the Roman Catholic Church as a later, settled denominational body
@@ -58,8 +58,8 @@ senses:
     annotating a sermon whose own full Latin this build has not read, and Doc_02 SS9 item 12 names that gap explicitly.
     The contest over the word itself is not in doubt; this particular witticism rests on editorial mediation and
     should be attributed that way if it is used.
-  personal: Losing a word to one's opponents is a real loss when the state enforces the usage. The pun is what
-    refusal sounds like when the legal fact cannot be changed.
+  personal: Losing a word to one's opponents is a real loss when the state enforces the usage. The pun was
+    how we refused when the legal fact could not be changed.
   translational: '''Catholic just means the Roman Catholic Church, doesn''t it?'' -- not here, and not yet. In
     fourth-century Africa it is a contested adjective meaning universal, claimed by two rival bodies, with the
     law backing one of them.'

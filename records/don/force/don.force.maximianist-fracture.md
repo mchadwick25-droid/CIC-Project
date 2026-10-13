@@ -23,15 +23,13 @@ confidence:
     at all.
 sources:
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: the Cebarsussi and Bagai sentences quoted directly - Registry row 3
+  locus: 'On Baptism, Against the Donatists: the Cebarsussi and Bagai sentences quoted directly'
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
-  locus: the Bagai decree quoted again and turned into the central argument against Donatist rebaptism logic
-    - Registry row 4
+  locus: 'Answer to the Letters of Petilian: the Bagai decree quoted again and turned into the central argument against Donatist rebaptism'
   license: public-domain
 - source_id: don.source.augustine-contra-cresconium
-  locus: the affair pressed again, its consequences live in Augustine's writing as late as c. 405-406 - Registry
-    row 47
+  locus: 'Against Cresconius: the affair pressed again, its consequences still live in Augustine''s writing around 405 to 406'
   license: public-domain
 relations:
 - type: precondition-for

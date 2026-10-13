@@ -24,7 +24,9 @@ confidence:
     literal renderings, not certified translation.'
 sources:
 - source_id: don.source.passio-donati-sermon
-  locus: cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 88-664 (the sermon entire)
+  locus: The sermon on the passion of Donatus and Advocatus, the whole text, in
+    Monumenta Vetera ad Donatistarum historiam pertinentia (Migne, Patrologia Latina
+    8)
   license: public-domain
 - source_id: don.source.monceaux-histoire-litteraire-tome5
   locus: the dedicated chapter treatment - the 12 March 317 dating, the eyewitness finding, and the authorship
@@ -59,8 +61,9 @@ narrative_tier_justification: 'Tier 3, and the tier was argued rather than assum
   and bearing a formation ideal that is itself the evidence. The annual repetition is the point. Whatever
   the sermon''s authorship and date, its own text attests that it was preached at a solemn and yearly commemoration,
   and that repetition - not the verifiability of each detail inside it - is what this story actually shows.'
-tellable_as: Every twelfth of March we read aloud the account of a day soldiers took a basilica at Carthage
-  in the name of unity, and killed people at prayer inside it.
+tellable_as: Every twelfth of March we read aloud the story of a day when soldiers
+  took a basilica at Carthage in the name of unity. They killed people at prayer
+  inside it.
 text: >-
   Every year, on the twelfth of March - the fourth of the Ides of March,
   in the sermon's own reckoning - we gather to remember what was done at
@@ -68,24 +71,23 @@ text: >-
 
   The account we read is not softened. Imperial agents came under orders
   to enforce a single church: Leontius, a count, and Ursatius, a duke,
-  with the bishop Caecilian and a tribune named Marcellinus standing
-  behind them. Soldiers seized a basilica. What had been a house of
+  with a tribune named Marcellinus. The sermon says the bishop Caecilian
+  pressed them on. Soldiers seized a basilica. What had been a house of
   prayer became, in the sermon's own bitter phrase, a place of feasting
   and licence. A boy, a catechumen not yet baptized, lay dying inside it
-  and begged those around him - help me, a catechumen. Whether he
-  received what he asked is not what the sermon lingers over. That he
-  asked it, in that place, at that hour, is.
+  and begged those around him - help me, a catechumen. Whether he received
+  what he asked is not what the sermon lingers over. That he asked it, in
+  that place, at that hour, is.
 
   A bishop named Honoratus of Sicilibba felt a tribune's sword graze his
   throat and lived. Others did not. The sermon says they were killed
-  inside the basilica itself, not by the sword but with clubs, while they
-  knelt at prayer with their eyes closed, trusting the ground they stood
-  on. Every age, every sex, the account insists. They were buried where
-  they fell, within the building's own walls, because there was nowhere
-  else and no one to stop it. A bishop arriving from Advocata to see what
-  was happening was killed before he could so much as drink the water
-  offered him - the sermon calls this, with open irony, the hospitality
-  Carthage gave him, and says he paid for it with his own blood.
+  inside the basilica itself, not by the sword but with clubs, with their
+  hands stretched out to the Lord and their eyes closed. Every age, every
+  sex, the account insists. Many bodies were buried within the building's
+  own walls. A bishop arriving from Advocata to see what was happening was
+  killed before he could so much as drink the water offered him - the
+  sermon calls this, with open irony, the hospitality Carthage gave him,
+  and says he paid for it with his own blood.
 
   This is what is read aloud to us every twelfth of March: to a
   congregation that was not there and cannot check every particular, and

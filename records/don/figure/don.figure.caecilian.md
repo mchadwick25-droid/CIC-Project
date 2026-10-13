@@ -36,8 +36,8 @@ dates:
     support without deciding between them; still alive and polemicised against in the 320s; dead shortly
     after 325
 narratable: true
-bridge_line: The archdeacon who rebuked a wealthy woman for kissing a martyr's bone, was elected bishop
-  of Carthage, and was never accepted by us - because of who laid hands on him.
+bridge_line: The archdeacon who rebuked a wealthy woman for kissing a martyr's bone. He was elected
+  bishop of Carthage, and we never accepted him, because of who laid hands on him.
 relations:
 - type: associated-with
   target: don.story.passio-donati-sermon

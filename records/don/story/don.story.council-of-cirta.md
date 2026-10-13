@@ -25,7 +25,7 @@ sources:
   locus: the acts of the Council of Cirta, in the appendix dossier
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
-  locus: Against the Donatists I.14; cic/texts/optatus_against-the-donatists.txt, lines 181-192
+  locus: Optatus, Against the Donatists I.14
   license: public-domain
 retrieval:
   tier: 2
@@ -54,8 +54,9 @@ narrative_tier_justification: Tier 1 - a council proceeding with named, identifi
   exact year without falling out of Tier 1, provided the event's occurrence and substance are not themselves
   in serious doubt, and here they are not. What is genuinely contested is the meaning of the closing act,
   and that contest is carried in the confidence block rather than resolved in the narration.
-tellable_as: The bishops who would go on to make traditor status an absolute disqualification once faced
-  the same question about themselves in a room, and agreed to leave it to God rather than finish it.
+tellable_as: The bishops who later ruled that a traditor could never serve once
+  faced that same question about themselves. They agreed to leave it to God, and
+  sat down.
 text: >-
   Before Caecilian's consecration ever became the dispute it became, a
   council of Numidian bishops met at Cirta to consecrate a successor of

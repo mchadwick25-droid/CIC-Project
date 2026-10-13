@@ -36,8 +36,8 @@ sources:
   locus: the African conciliar canon tradition both communions worked inside
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'cautions 1 and 10: the documentary dossier sits inside the Author Gravity concentration, and
-    no acta of our own survive'
+  locus: the documentary dossier sits inside the concentration of opponent authorship, and no
+    acta of our own councils survive
   license: public-domain
 retrieval:
   tier: 2
@@ -50,19 +50,21 @@ text: >-
   Our councils deposed men, restored men, and shut down a rival primate.
   Three hundred and ten of our bishops sat at Bagai and condemned a
   breakaway party in one sentence, and the same body later took two of
-  the condemned back into office. That is not an advisory board. That is
-  a church governing itself.
+  the condemned back into office. That was not an advisory board. That
+  was a church governing itself.
 
 
-  You can check almost all of it, which is rarer than you think. The
-  proceedings survive - the acts of the council at Cirta, the sentences
-  from Cebarsussi and Bagai, and above all the transcript of the great
-  conference at Carthage, where an imperial notary took down every word
+  You can check a good deal of it, which is rarer than you think. Some
+  of the proceedings survive, though only as our opponents quoted or
+  kept them. No record of our own councils survives in our own keeping.
+  What survives is the acts of the council at Cirta, the sentences from
+  Cebarsussi and Bagai, and above all the transcript of the great
+  conference at Carthage, where imperial notaries took down every word
   for three days. Read that one and you will see how we thought a case
-  ought to be handled: our own bishop of Caesarea would not let the court
-  touch the merits until it had settled, in order, the day, the mandate,
-  the persons, and only then the cause. First find out who is in the
-  room and by what warrant. Then argue.
+  ought to be handled: our own bishop of Caesarea would not let the
+  court touch the merits until it had settled, in order, the day, the
+  mandate, the persons, and only then the cause. First find out who is
+  in the room and by what warrant. Then argue.
 
 
   What we would not accept was a council convened and enforced by a
@@ -70,21 +72,21 @@ text: >-
   ruled against us; so did the bishops at Arles. We rejected both, and
   not because a council cannot rule. A council whose venue, whose rules
   and whose enforcement all belong to a state that has already named the
-  other party the Catholic church is not the church judging itself. That
-  same thing happened again in front of us at Carthage: the judge agreed
-  out loud that the name Catholic ought to follow the truth, and then
-  said he was bound by the imperial rescript that had already awarded it.
-  He conceded the principle and was not free to act on it.
+  other party the Catholic church was not the church judging itself.
+  That same thing happened again in front of us at Carthage: the judge
+  agreed out loud that the name Catholic ought to follow the truth, and
+  then said he was bound by the imperial rescript that had already
+  awarded it. He conceded the principle and was not free to act on it.
 
 
   And no, no council voted Jesus into being God. Not among us. The great
-  eastern councils of that century are not our fight and do not appear in
-  our record; every council our own bishops sat in was about one question,
-  which was who the true church is, and none of them was about who Christ
-  is. What we would say is narrower and worse: councils in our own day
-  were used to settle which church the law would recognise, and we knew
-  from the inside how much that decision owed to who had the emperor's
-  ear.
+  eastern councils of that century are not our fight and do not appear
+  in our record; every council of ours that we can see was about one
+  question, which was who the true church is. None of them was about who
+  Christ is. What we would say is narrower and worse: councils in our
+  own day were used to settle which church the law would recognise, and
+  we knew from the inside how much that decision owed to who had the
+  emperor's ear.
 positions:
 - decision among us ran through councils of our own bishops, with real disciplinary force - deposition,
   condemnation and restoration

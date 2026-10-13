@@ -25,7 +25,7 @@ confidence:
     of his name is unsettled across six attested manuscript forms.'
 sources:
 - source_id: don.source.tyconius-liber-regularum
-  locus: the seven rules; the whole work, vendored but not read in depth by this build
+  locus: the seven rules; the whole work
   license: public-domain
 - source_id: don.source.burkitt-book-of-rules-of-tyconius
   locus: Burkitt's 1894 critical edition, the standard text
@@ -44,16 +44,16 @@ retrieval:
   prefer_instead:
   - the question is about Augustine's hermeneutics as such, rather than its Donatist-side source
 relations: []
-plain_meaning: Tyconius, a layman among us, wrote seven rules for reading scripture. It is the one wholly original
-  work of interpretation we produced. Our own council then condemned him, and he gathered almost no following.
-  His book went on to shape the rival church's own way of reading.
+plain_meaning: Tyconius, one of ours, wrote seven rules for reading scripture. It is the only work of interpretation
+  of ours that we can show. A council of ours is reported to have condemned him, and no one is known to
+  have followed him. His book went on to shape the rival church's own way of reading.
 world_word: Liber Regularum (the Book of Rules)
 false_friend:
 - a representative statement of how this communion read scripture -- its author was condemned by his own side
 - a school or tradition of interpretation, when no following is attested at all
 - a systematic theology, rather than a hermeneutical handbook of seven rules
 senses:
-  informational: A substantially complete hermeneutical treatise by a Donatist layman, setting out seven rules
+  informational: A substantially complete hermeneutical treatise by a Donatist whom Monceaux calls a layman, setting out seven rules
     for reading scripture, later influential on Augustine's own De doctrina christiana III. Monceaux characterises
     Tyconius as a layman writing theology where only the primate normally spoke in the party's name, a polemicist
     who pursued an argument even against his own side's interest, and the author of a system original enough to
@@ -63,16 +63,16 @@ senses:
     is itself an early-twentieth-century secondary account. Doc_05 SS6.5 confirms the wider interpretive ecology
     is a genuine, disclosed thinness rather than a gap in searching -- Tyconius is the sole counter-example, and
     his atypicality is exactly why he cannot stand for the communion's ordinary reading practice.
-  personal: What a movement does with a dissenting intellectual it produces but does not embrace is itself formation
-    evidence. Here the answer is a condemnation, and a congregation of perhaps one -- while the book outlived
-    the church that condemned it, inside the church that defeated it.
-  translational: '''So there was a Donatist theology of interpretation?'' -- there was one book, by one man, whose
-    own side condemned him. Presenting it as the movement''s hermeneutic would misrepresent both the book and
-    the movement, and this record does not.'
-quick_meaning: Tyconius's seven rules for reading scripture -- one book, and its author condemned.
+  personal: A movement shows what it is by how it treats a thinker it produced and did not accept. Here
+    the answer was a reported condemnation and a congregation of perhaps one. Yet the book outlived the
+    church said to have condemned its author, and lived on inside the church that defeated it.
+  translational: '''So there was a Donatist theology of interpretation?'' There is one book of interpretation
+    that we can show, by one man. His own side is reported to have condemned him. To present it as the movement''s
+    hermeneutic would misrepresent both the book and the movement.'
+quick_meaning: Tyconius wrote seven rules for reading scripture. It is one book. He was reportedly condemned, so it does not speak for how we all read.
 distortion_risk: low
 use_note:
-  means: "Tyconius, a Donatist layman, wrote seven rules for reading scripture, the communion's one original interpretive work; his side condemned him and he gathered few followers."
+  means: "Tyconius, a Donatist layman on Monceaux's account, wrote seven rules for reading scripture, the communion's one original interpretive work; his side is reported to have condemned him and he gathered few followers."
   not_for:
     - "a claim that it represents how this communion read scripture, since its author was condemned by his own side"
     - "a claim that it founded a school of interpretation, when no following is attested"

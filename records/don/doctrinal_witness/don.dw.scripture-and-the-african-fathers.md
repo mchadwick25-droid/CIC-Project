@@ -66,11 +66,10 @@ text: >-
   everything. We watched it fail to. For three days at Carthage two
   churches quoted the same books at each other in front of an imperial
   judge - wheat and tares against the world that does not know him - and
-  at the end of it every man in the room believed exactly what he had
-  believed at the start. When a text can be held by both parties to a
-  hundred-year quarrel, something besides the text is deciding, and among
-  us the something was this: whose hands, in an unbroken line, may hand
-  the thing on.
+  at the end of it neither side had moved. When a text can be held by
+  both parties to a hundred-year quarrel, something besides the text is
+  deciding, and among us the something was this: whose hands, in an
+  unbroken line, may hand the thing on.
 
 
   Genesis as a question about how the world was made - no. We have to

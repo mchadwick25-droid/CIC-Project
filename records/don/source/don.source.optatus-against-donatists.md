@@ -17,6 +17,7 @@ relations: []
 author: Optatus of Milevis
 work: Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)
 edition: English translation by O.R. Vassall-Phillips (Longmans, Green & Co., 1917), vendored as cic/texts/optatus_against-the-donatists.txt
+citation: Optatus of Milevis, Against the Donatists, trans. O.R. Vassall-Phillips (Longmans, Green & Co., 1917)
 kind: vendored
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed

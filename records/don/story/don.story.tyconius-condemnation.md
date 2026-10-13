@@ -21,12 +21,11 @@ confidence:
     communion is deliberately left open and is not settled by this story.'
 sources:
 - source_id: don.source.augustine-contra-epistulam-parmeniani
-  locus: Contra Epistulam Parmeniani I.1; cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt,
-    lines 2145-2200
+  locus: Augustine, Against the Letter of Parmenian I.1
   license: public-domain
 - source_id: don.source.monceaux-histoire-litteraire-tome5
-  locus: cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt, lines 8520-8570 - the
-    aftermath, and the footnote that quotes the same Augustine passage
+  locus: 'Monceaux, Histoire litteraire de l''Afrique chretienne, vol. 5, the chapter
+    on Tyconius: the aftermath, and the footnote quoting the same Augustine passage'
   license: public-domain
 retrieval:
   tier: 2
@@ -57,17 +56,18 @@ narrative_tier_justification: 'Tier 1, correcting an earlier judgement made duri
   Parmenian''s letter and its rebuke are stated by Augustine without a hedge and are treated as Documented;
   what followed carries his own "perhibent," and that hedge is kept, the same discipline don.story.council-of-cirta
   applies to its own disputed date.'
-tellable_as: A man argues from Scripture that the church is spread through the whole world, his own bishop
-  tells him never to preach it again, and he neither recants nor leaves.
+tellable_as: A man argues from Scripture that the church spreads across the whole
+  world. His own bishop tells him never to preach it again. He neither gives in
+  nor leaves.
 text: >-
   Tyconius made an argument from Scripture too well supported to simply
   dismiss, and it undid him from the inside.
 
   He argued, at length and with abundant scriptural support, that the
-  Christians of Africa belonged to a church spread across the whole
-  earth - connected not by anything peculiar to Africa but by communion
-  with that same body everywhere. Anyone actually listening to the case
-  he built from the text could see where it led: if that was true, the
+  Christians of Africa belonged to a church spread across the whole earth
+  - connected not by anything peculiar to Africa but by communion with
+  that same body everywhere. Anyone actually listening to the case he
+  built from the text could see where it led: if that was true, the
   African churches still in communion with the rest had not lost anything
   by staying there, and those who had cut themselves off from that
   communion - his own party among them - were the ones who had separated
@@ -77,17 +77,14 @@ text: >-
   exactly where the argument pointed, and they did not follow it.
   Parmenian wrote to Tyconius directly, rebuking him for preaching that
   the church extended across the whole earth, and warning him not to dare
-  do it again. Tyconius did not recant, and did not leave. He kept
-  arguing what he had argued, from inside the party that had told him to
-  stop.
+  do it again. Tyconius did not recant, and did not leave. He kept arguing
+  what he had argued, from inside the party that had told him to stop.
 
   What came after the letter is less certain, and the record itself marks
   it as less certain: it is reported - not witnessed outright, but
-  reported - that Tyconius was afterward condemned by a council of his
-  own communion. He was never received back. He did not go over to the
-  other side either. He simply remained, for whatever years he had left,
-  the head of a schismatic church so small that he may have been the only
-  one left in it.
+  reported - that Tyconius was afterward condemned by a council of his own
+  communion. He was never received back. He did not go over to the other
+  side either.
 absent_detail: Parmenian's letter itself does not survive; what survives is Augustine's report of it. No
   act of any council condemning Tyconius survives, which is why the report of one carries a hedge. Nothing
   survives of Tyconius's own answer to the rebuke, of who if anyone stood with him, or of how his book

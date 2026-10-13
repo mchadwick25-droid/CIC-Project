@@ -25,8 +25,7 @@ sources:
   locus: the sustained legal pressure and property confiscation of the ending phase
   license: public-domain
 - source_id: don.source.turchi-gregorii-magni-epistolae-selectae
-  locus: the record's own far end - the contest still live in Numidia in 592-594, then silence; Registry row
-    54
+  locus: 'Gregory''s letters of 592 to 594: the contest still alive in Africa, then silence'
   license: public-domain
 relations:
 - type: enabled-by

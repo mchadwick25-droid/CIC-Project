@@ -47,9 +47,9 @@ relations:
   target: don.term.rebaptism
 - type: tension-with
   target: don.term.reception-without-reordination
-plain_meaning: What makes a sacrament real is not the water alone. It is the conscience behind the hand. 'We look
-  to the conscience of the giver, to cleanse that of the receiver.' A hand that is not clean has nothing to give
-  away.
+plain_meaning: We held that the water alone did not make a sacrament real. The conscience behind the hand
+  mattered. 'What we look for is the conscience of the giver, to cleanse that of the recipient.' A hand
+  that was not clean had nothing to give away.
 world_word: conscientia dantis ("the conscience of the giver")
 false_friend:
 - personal moral purity in the modern devotional sense, a matter of private holiness
@@ -66,13 +66,12 @@ senses:
     against the vendored text, and the Maximianist affair presupposes the doctrine independently of anything Augustine
     says about it. Augustine-mediated in texture -- the full chain of reasoning as it can now be reconstructed
     comes through the refutation that preserved it.'
-  personal: This is what an ordinary believer is actually deciding when choosing whose hands to be baptized by.
-    The doctrine is not the property of theologians here; it is the reason a person walks to one font and not
-    another.
-  translational: '''Doesn''t a sacrament work regardless of the priest?'' -- that answer became the mainstream
-    one later, and it is exactly what was denied here. From inside, saying the minister does not matter makes
-    the surrender of the scriptures a private failing with no public consequence, and that is the concession this
-    communion existed to refuse.'
+  personal: An ordinary believer faced this choice when deciding whose hands to be baptized by. The doctrine
+    did not belong to theologians alone. It was the reason a person walked to one font and not another.
+  translational: '''Doesn''t a sacrament work regardless of the priest?'' That answer became the mainstream
+    one later, and it is exactly what was denied here. From inside, saying the minister does not matter
+    made the surrender of the scriptures a private failing with no public consequence. That was the concession
+    this communion existed to refuse.'
 quick_meaning: The conscience of the giver. A hand that is not clean has nothing to give.
 distortion_risk: high
 use_note:
