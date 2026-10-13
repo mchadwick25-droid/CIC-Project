@@ -65,7 +65,7 @@ senses:
 quick_meaning: Those set apart to serve - in Justin's Rome, carrying a share of the community's meal to
   members who could not come.
 use_note:
-  means: "Those set apart to serve, who carry help to the widow, the prisoner, and the stranger who cannot repay."
+  means: "Those set apart to serve, who in Justin's Rome carried a share of the thanksgiving meal to members who could not come."
   not_for:
     - "a transitional junior rank on the way to higher office"
   years: {from: 70, to: 200}

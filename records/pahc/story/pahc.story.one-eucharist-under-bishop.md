@@ -59,7 +59,7 @@ modern_contrast: >
   live rival threat in his own communities, not a description of a
   rule every community already agreed to.
 use_note:
-  means: "Under Ignatius's instruction, a member recognizes only the bishop's own eucharist as valid, and follows the bishop as one follows Christ."
+  means: "Ignatius wrote that only a eucharist the bishop led or allowed was valid, and that the churches should follow the bishop as Jesus Christ follows the Father."
   not_for:
     - "a settled doctrine of sacramental validity"
     - "a rule every community already agreed to"

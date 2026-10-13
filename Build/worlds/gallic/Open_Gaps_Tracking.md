@@ -1047,3 +1047,30 @@ An independent review of the record-wording pass (PR #865) found dropped hedges,
 - (1) `gallic.gravity.judgment-imminent-present` had closed on "the gravity that the passing of Roman order touches most", which changed the record's claim. The record's own wording, "the only gravity that the passing of Roman order touches at all", is restored, under the ruling that a build-record rewrite keeps its meaning.
 
 Status: CLOSED.
+
+### OG-37. Use notes that contradicted the corrected wording, 2026-10-13.
+
+The record audit fixes (merged under the entry Record audit fixes: source drift and AI-tell wording in spoken fields, 2026-10-13) and the later fixes corrected spoken fields but left `use_note.means`, which the evidence block gives the voice, unchanged. Mark ruled on 13 October that `means` changes only where it contradicts the record's own corrected fields or its vendored source. Nine records changed; `not_for`, `years`, `status` and every other field are untouched.
+
+- `gallic.story.brictio-in-the-courtyard`: `means` said Brictio "repented within the hour"; the corrected `tellable_as` has no "within the hour" (the entry Record audit fixes, 2026-10-13 lists it).
+- `gallic.story.death-of-martin-at-condate`: `means` said he "was buried by two thousand monks"; the corrected text says the monks gathered, "nearly two thousand", and did not carry him.
+- `gallic.story.honoratus-and-the-island`: `means` said the priestly fillet "fastened on its fugitive"; the corrected `tellable_as` and `absent_detail` hedge Hilary's rough Latin and say he was made a presbyter on the island.
+- `gallic.gravity.grace-and-effort`: `means` said grace "goes before and crowns" the will and was "argued under Augustine's pressure"; the corrected description says grace works with the will and sometimes waits on effort, and that whether Cassian wrote against Augustine is disputed.
+- `gallic.quote.apostolic-authority-in-martin-alone`: `means` said "bishops fawned"; the corrected rendering drops the added subject and follows the text: the priestly dignity took second place to the royal retinue.
+- `gallic.term.apostolic-see-pope`: `means` said the See was "weighty because it refused novelty"; the corrected fields say Rome's weight came from its place, and Vincent praised its bishop for being first in refusing novelty.
+- `gallic.term.example-imitation`: `means` said "the books of this world are Lives"; the corrected fields say not all our books are Lives.
+- `gallic.term.heathen-rustics`: `means` said Martin "halted idols"; the corrected fields drop it, because what he halted was a funeral, and say churches were built where the temples had stood.
+- `gallic.term.penance-satisfaction`: `means` said "the house's public discipline"; the corrected fields say it is the Egyptian houses' discipline as Cassian set it out, and the record does not say any Gallic house kept the scale.
+
+Checked and left alone: every other `means` in the records changed by the wording passes agrees with its corrected fields.
+
+Status: CLOSED.
+
+### OG-38. Correction to the use-note entry, 2026-10-13.
+
+The independent review of the entry Use notes that contradicted the corrected wording, 2026-10-13 required two changes, now applied.
+
+- `gallic.quote.apostolic-authority-in-martin-alone`: out of scope. Its `means` is restored exactly to the text on main, and the item in that entry is withdrawn. Nine records were listed there; eight stand.
+- `gallic.story.death-of-martin-at-condate`: the hedge is kept. `means` says that, it is said, nearly two thousand monks and a choir of virgins gathered at his funeral (the Life says "They are said to have assembled").
+
+Status: CLOSED.

@@ -39,7 +39,7 @@ text: Reading, for us, was not a private thing done alone with a scroll. On the 
   later call the Old Testament. One of us, Justin, read the prophets at length, watching for how their
   own words already pointed toward Christ, long before Christ came.
 use_note:
-  means: "Scripture was heard aloud at weekly gatherings, chiefly the prophets read as pointing to Christ, alongside apostolic memoirs, then explained by the presider."
+  means: "Scripture was heard aloud at the weekly gathering, the apostles' memoirs or the writings of the prophets read as time allowed, then explained by the presider."
   not_for:
     - "a claim that apostolic writings were already fixed into a settled list"
     - "a claim that non-literate members had a separate mode of access to scripture"

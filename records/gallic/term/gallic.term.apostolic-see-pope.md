@@ -113,7 +113,7 @@ quick_meaning: >-
   and Vincent praised him for being first in refusing anything new.
 distortion_risk: high
 use_note:
-  means: "Pope meant a title of honour for any revered bishop, such as Cassian's Castor, while the Apostolic See meant Vincent's Rome, weighty because it refused novelty."
+  means: "Pope meant a title of honour for any revered bishop, such as Cassian's Castor, while the Apostolic See meant Vincent's Rome, first in authority by its place and praised for being first in refusing novelty."
   not_for:
     - "Pope as the bishop of Rome only, with the later constitutional office read back"
     - "Vincent as a proof-text for papal supremacy"

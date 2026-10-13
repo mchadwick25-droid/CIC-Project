@@ -48,7 +48,7 @@ quick_meaning: Zwingli's own teaching, set out at the start of our reform. He br
   Zurich Disputation in 1523 and defended it there.
 distortion_risk: low
 use_note:
-  means: "The Sixty-Seven Articles are Zwingli's own founding statement of doctrine, presented at the First Zurich Disputation in 1523."
+  means: "The Sixty-Seven Articles set out Zwingli's teaching at the start of the reform, and he brought them to the First Zurich Disputation in 1523."
   not_for:
     - "a claim that the Articles were a later, polished confession comparable to the Second Helvetic Confession"
   years: {from: 1523, to: 1523}

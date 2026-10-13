@@ -35,7 +35,7 @@ nearest_material:
 - rzg.core.the-reformed-cities-zurich-and-geneva
 - rzg.gravity.consistorial-church-discipline
 use_note:
-  means: "The record attests that Marie Dentiere wrote in defense of Geneva's reform and that the authorities moved to silence her for it, but not what she actually argued."
+  means: "The record links the anonymous 1539 work defending women's voice to Marie Dentiere and says Geneva's authorities seized it and prosecuted its printer, but it does not hold what she argued."
   not_for:
     - "a claim that her arguments or reasoning can be reconstructed from this record"
   years: {from: 1519, to: 1650}
