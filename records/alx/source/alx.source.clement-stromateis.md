@@ -16,6 +16,7 @@ sources: []
 author: "Clement of Alexandria (c. 150-215 CE)"
 work: "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only"
 edition: "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+citation: Clement of Alexandria, Stromateis (Miscellanies), trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

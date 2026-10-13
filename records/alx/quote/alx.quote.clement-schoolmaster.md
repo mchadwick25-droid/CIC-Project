@@ -30,11 +30,11 @@ text: Perchance, too, philosophy was given to the Greeks directly and primarily,
   call the Greeks. For this was a schoolmaster to bring “the Hellenic mind,” as the law, the Hebrews,
   “to Christ.” Philosophy, therefore, was a preparation, paving the way for him who is perfected in Christ.
 modern_rendering: >-
-  Perhaps philosophy, too, was given to the Greeks directly, as their own
-  first gift, until the time the Lord would call the Greeks. For this was a
-  schoolmaster to bring the Hellenic mind to Christ, just as the law was
-  to the Hebrews. Philosophy, therefore, was a preparation - paving the
-  way for him who is perfected in Christ.
+  Perhaps, too, philosophy was given to the Greeks directly and in the
+  first place, until the Lord should call the Greeks. For philosophy was a
+  guardian to bring the Greek mind to Christ, as the law was for the
+  Hebrews. So philosophy was a preparation. It paved the way for the one
+  who is made perfect in Christ.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >

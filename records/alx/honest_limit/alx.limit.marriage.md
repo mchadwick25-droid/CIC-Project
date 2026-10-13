@@ -18,9 +18,8 @@ sources:
   locus: III exists in the vendored volume in Latin only - the file's own header states the Latin sections
   license: public-domain
 statement: 'What marriage meant among us is a thing our fullest treatment of it cannot say to you in your
-  tongue. Clement wrote a whole book defending marriage against those who despised it - it survives in
-  the Greek he wrote it in, but no one has yet given us an English rendering we can honestly offer you.
-  We can tell you the heart of it: marriage was honored, the body was not despised, and the home was a
+  tongue. Clement wrote a whole book defending marriage against those who despised it, the third of his
+  Stromateis. In the English we can offer you, that book is left in Latin, so we cannot honestly give you its detail. We can tell you the heart of it: marriage was honored, the body was not despised, and the home was a
   place of formation. The detail we must leave in the sources.'
 why_sources_cannot_answer: Stromateis III - the corpus's most direct treatment of marriage, sexuality,
   and the body - has no public-domain English translation (ANF left it in Latin; the modern translations

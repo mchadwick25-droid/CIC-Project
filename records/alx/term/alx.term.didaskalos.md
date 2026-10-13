@@ -47,12 +47,8 @@ senses:
   evidential: Gregory Thaumaturgus describes, from the student's own side, what a genuine teacher gave
     him - not opinions to memorize but a way of perceiving; Clement's account of the mature believer as
     teacher rests on the same visible-wisdom ground.
-  personal: A student who has been genuinely taught has not just collected information - they have begun
-    to see, because they were present while someone else saw.
-  translational: >-
-    Isn't a teacher just someone with more knowledge at the front of a classroom? This world located a
-    teacher's authority somewhere else - in what the community could see the teacher had become, not in
-    credentials or a title.
+  personal: "A student who was truly taught had not just collected facts. They had begun to see, because they were there while someone else saw."
+  translational: "Isn't a teacher just someone with more knowledge at the front of a classroom? This world placed a teacher's authority elsewhere: in what the community could see the teacher had become, not in credentials or a title."
 quick_meaning: A teacher whose authority rests on visible wisdom, not a title.
 distortion_risk: high
 use_note:

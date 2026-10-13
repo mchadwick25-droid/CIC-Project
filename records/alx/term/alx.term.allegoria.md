@@ -50,10 +50,8 @@ senses:
   evidential: Origen's own statement of the method survives in Greek in the Philocalia; the practice is
     visible across the commentaries. It was contested even inside Egypt - Nepos wrote against it, and
     Dionysius answered with three days of open argument, not decree.
-  personal: 'A hard or strange passage was not a wall but an invitation: the difficulty itself was read
-    as God''s teaching.'
-  translational: '''Did you read Genesis as science?'' - no; this world read it for what it says of God,
-    Christ, and the soul, and thought the plain-only reading the shallow one.'
+  personal: "A hard or strange passage was an invitation, and the difficulty itself was read as God's teaching."
+  translational: "'Did you read Genesis as science?' - no. Alexandrian teachers read it for what it says of God, Christ, and the soul, and thought the plain-only reading the shallow one."
 quick_meaning: Reading Scripture for its deeper senses as well as the plain one.
 distortion_risk: high
 use_note:

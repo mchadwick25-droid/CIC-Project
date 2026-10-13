@@ -38,13 +38,13 @@ narrative_tier: 1
 narrative_tier_justification: 'Tier 1 (documented historical narrative): Dionysius''s own first-person
   account from his book On the Promises, quoted by Eusebius (HE VII.24) - the participant''s own record
   of the event.'
-tellable_as: Bishop Dionysius's own account of the three days in the Arsinoite villages
+tellable_as: Bishop Dionysius's own account of three days spent with the village churches near Arsinoe
 text: >-
   In the villages of the Arsinoite district, the churches followed the
   teaching of Nepos, a bishop they loved. He had written a book against the
   allegorists. The promises in Scripture, he said, meant a thousand-year
   kingdom of plenty on this earth, plainly read. Nepos had died, and his book
-  ruled whole congregations. Dionysius did not send a condemnation. He went
+  ruled whole congregations. Dionysius went
   out to the villages. He called together the elders and the teachers, with
   any of the people who wished to come, and sat with them for three days,
   morning to evening, examining the book argument by argument. He wrote
@@ -54,8 +54,7 @@ text: >-
   willingness to reconsider, as they weighed the arguments together, point
   by point. The leader of the other side, Coracion, was persuaded, and said
   so in front of everyone. Some of the other brethren, the account says,
-  were glad at the spirit of agreement all had shown: it ended not in a
-  split, but in agreement reached in the open.
+  were glad at the spirit of agreement all had shown.
 absent_detail: The arguments exchanged across the three days are summarized by Dionysius, not transcribed;
   the villagers' own voices survive only in his report of their patience and honesty. Nepos's book itself
   is lost - it is known only through the man who refuted it, and a telling should say so.

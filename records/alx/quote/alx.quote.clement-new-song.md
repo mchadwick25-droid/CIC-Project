@@ -23,11 +23,11 @@ text: Behold the might of the new song! It has made men out of stones, men out o
   the elements to harmonious arrangement, so that the whole world might become harmony.
 modern_rendering: >-
   See the power of the new song! It has made men out of stones, men out of
-  wild beasts. And those who were as good as dead, having no share in true
-  life, have come back to life simply by listening to this song. It has
-  also arranged the universe into a melodious order, and tuned the discord
-  of the elements into harmony, so that the whole world might become one
-  harmony.
+  beasts. And those who were like the dead, with no share in the true
+  life, have come to life again, simply by listening to this song. It also
+  arranged the universe in melodious order. It tuned the discord of the
+  elements into harmonious arrangement, so that the whole world might
+  become harmony.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >

@@ -32,7 +32,7 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.term.elpis
-plain_meaning: Not feeling sorry. Metanoia - a change of nous - the soul truly turned back toward God.
+plain_meaning: "Not feeling sorry. Metanoia - a change of mind - the soul truly turned back toward God."
 world_word: metanoia
 false_friend:
 - feeling sorry or regretful about wrong acts
@@ -44,8 +44,7 @@ senses:
   evidential: Clement treats repentance as the foundational change that opens a person to formation;
     Origen grounds genuine repentance in the soul's own uncompelled freedom, the same freedom that
     turned away in the first place.
-  personal: A person can feel real grief about where their choices led without having turned - the grief
-    confirms a genuine turn when one has happened, but by itself it is only sorrow, not the turn itself.
+  personal: "A person could feel real grief over where their choices led and still not have turned. Grief could confirm a real turn, but by itself it was only sorrow."
   translational: >-
     Isn't repentance just feeling sorry for what you did? This world meant something the feeling can
     accompany but is not itself - an actual change of direction in what the soul wants, not the emotion

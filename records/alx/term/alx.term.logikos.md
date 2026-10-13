@@ -42,7 +42,7 @@ relations:
   target: alx.term.apokatastasis
 - type: associated-with
   target: alx.term.fall-descent
-plain_meaning: Every being that can know God is logikos, made for the Word. One teacher built this into a wider view of the cosmos, and that view is contested.
+plain_meaning: "Every being that could know God was logikos, made for the Word. One teacher built this into a wider view of the cosmos. That view is contested, and so is whether it was his own."
 world_word: logikos
 false_friend:
 - rational meant as cleverness or raw intelligence
@@ -55,13 +55,9 @@ senses:
   evidential: Clement carries the Logos-kinship register independent of any speculative cosmology;
     Origen's De Principiis develops the wider rational-natures framework, whose continuity with later
     condemned propositions is the same disputed question that runs through this whole cluster.
-  personal: A person can hold that they are made for God, capable of knowing him, without needing to
-    settle Origen's further speculation about where rational natures came from or where they are headed.
-  translational: >-
-    Isn't "rational" just IQ or the capacity to argue well? This world meant kinship with the Word -
-    knowing God as a creature's native calling - and behind that confessed core, one teacher's bolder,
-    contested cosmology of rational natures.
-quick_meaning: Made for the Word and able to know God. One teacher stretched this into contested ground.
+  personal: "A person could hold that they were made for God and able to know him. They did not have to settle Origen's further guesses about where rational natures came from or where they were headed."
+  translational: "Isn't \"rational\" just IQ or skill at argument? This world meant kinship with the Word. To know God was a creature's native calling. Behind that core stood one teacher's bolder, contested cosmology of rational natures."
+quick_meaning: "Made for the Word and able to know God. A wider view built on this is contested, and so is whether it was one teacher's own."
 distortion_risk: high
 use_note:
   means: "Every being able to know God is logikos, made for the Word, within Origen's wider and contested cosmology of rational natures."

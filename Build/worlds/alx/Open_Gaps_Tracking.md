@@ -506,3 +506,180 @@ Corrects the records behind two items of "Voice errors found in the record pass 
 **Gates.** The site JSON was recompiled; `python -m engine.m2.site_cli staleness-check`: pass. `python -m engine.m10.cli records alx`: pass. `python -m engine.m10.cli regate alx --base origin/main`: pass. `python -m engine.m2.cli determinism-check alx`: pass. Package rebuilt after the last record edit (`python -m engine.m2.cli build alx`): `records/worlds/alx.yaml` pins `packages/alx/2026-10-09T00-15-44Z`, `manifest_hash` `sha256:06b04ea471931ec448ce4fd48481ec4ef91a81157886b17a307a98c44b0e2206`. `python -m engine.m2.cli staleness-check`, `python tools/check_paths.py --baseline tools/check_paths_baseline.txt` and `python tools/check_live_commentary.py --base origin/main --enforce`: pass. `python -m engine.m9.cli check`: pass (library access gate clean; no waiver changed).
 
 Status: CLOSED for item (8) of "Voice errors found in the record pass staging reading, 9 October"; item (6) of that entry is an engine item for the fidelity slice, no record to fix. The other items of the 9 October entry stay OPEN.
+
+### OG-22. Record wording pass on alx spoken fields, 2026-10-13.
+
+The same method as the syr record wording pass (merged #863, #864, #869), reviewed in two rounds by Opus 5.5: `Build/Ministry/Operations/Audits/alx_record_audit_fixes_review_round1_2026-10-13.md` (one blocking finding, nine non-blocking, all applied) and `alx_record_audit_fixes_review_round2_2026-10-13.md`. Audit published for the project lead as the Artifact "alx Record Audit". Scope: spoken fields only, plus one `citation:` line on each of the 25 source records. No build record (force, gravity, voice_craft, world_core, contested_claim) was changed. No quote `text` changed except two typographic matches to the vendored file (below). No participant turn changed.
+
+**Source citations.** `citation:` added to all 25 records in `records/alx/source/`, using only words already in each record's author, work and edition fields. The `m9:source-citation/alx` waiver (count 25) is removed.
+
+**Doctrinal witness and honest limit.**
+- alx.dw.councils text: Arsinoe sentence now says he sat with village presbyters, teachers and willing brethren for three days; removed invented "whole countryside listened" | source: npnf201 Eusebius HE VII.24 (~41340-41366)
+- alx.dw.doubt text: Arsinoite villages "split over Nepos's reading" instead of "doubted the received reading"; "not sin... hunger" pivot reworded | source: npnf201 HE VII.24 (~41335)
+- alx.dw.resurrection text: "went to their deaths... gained nothing" softened to danger and courage; "a century later" to "in the next century" | source: anf04 Contra Celsum II (~41593-41600)
+- alx.dw.was-jesus-god text: removed unsupported "explicit that no new God was voted in"; kept source-backed sentence about scriptural phrases being evaded | source: npnf204 De Decretis 19-21
+- alx.dw.original-sin text: removed unsupported infant-baptism sentence; present tense changed to past for community belief | source: anf04 De Principiis I-III (no infant-baptism passage)
+- alx.dw.suffering text: removed invented "had found him most present"; closing now "Our martyrs and the nurses of the plague years are our evidence" | source: npnf201 HE VII.22; Philocalia XXVII
+- alx.dw.church-failure text: removed "not by pagans, but by" pivot (kept contrast as tail) and "At our best" coined pair lead-in | source: npnf201 HE VI.8, VI.44
+- alx.limit.marriage statement: false "survives in Greek / no one has given English" replaced with "English edition we hold leaves that book in Latin" | source: anf02 ~35134-35140 editors' note; record why_sources_cannot_answer
+- alx.dw.empire text: removed coined "power arriving with both hands" and unsupported "had chosen neither" | source: audit section 9 (tell only)
+- alx.dw.jesus text: removed "not a messenger... He is" pivot; kept self-expression claim | source: audit section 9
+- alx.dw.god text: three-beat school/lesson/method merged to two | source: audit section 9
+- alx.dw.apostolic text: removed coined closer "We say it plainly and do not smooth it over"; semicolon split into two sentences to keep FRE >= 60 | source: audit section 9
+- alx.dw.record text: removed coined closer "Where the ground thins, the thinness is said." | source: audit section 9
+
+**Stories, demonstrations (Representative turns only) and figures.**
+- alx.story.arsinoite-conference tellable_as: reworded to "three days spent with the village churches near Arsinoe" to pass FRE (65.7) | source: HE VII.24 ("district of Arsinoe")
+- alx.story.arsinoite-conference text: removed "Dionysius did not send a condemnation." and the "not in a split, but in agreement reached in the open" gloss; not in source | source: npnf201 HE VII.24 §7-9
+- alx.story.didymus-meeting tellable_as: dropped "master of the school"; now "Palladius's own account of meeting Didymus, the blind author of Alexandria" | source: palladius_lausiac-history_clarke1918.txt line 211
+- alx.story.didymus-meeting text: "Jerome called him the seer" -> "Later tradition called him the seer"; removed "late in the fourth century", "never seen a written word", and "whole of Scripture in memory, weighed and ordered" (unsupported) | source: palladius line 211; record absent_detail (npnf203 ~48652)
+- alx.story.origen-daring-deed tellable_as: added "as Eusebius tells it" and "Some scholars doubt the act ever happened" (Contested) | source: npnf201 HE VI.8 endnote line ~33144
+- alx.story.origen-daring-deed text: "Years later" -> "Soon afterward"; removed "given without Demetrius's own consent" (outside cited locus) | source: HE VI.8 §4
+- alx.story.potamiaena text: removed "The vendored source is explicit that" (process narration); "converted by her courage" -> "later a martyr"; "boiling" -> "burning" pitch; "she thanked him" -> "she bade him take courage" | source: HE VI.5 §5 (npnf201 from line 32928)
+- alx.story.plague-nursing text: removed "He did not write of victory over the disease." and the closing "That difference - not an argument, a practice - was what the city saw." | source: HE VII.22 §9-10
+- alx.story.origen-demetrius text: removed "whose like it never had again" and the closing "most fruitful period..." sentence | source: HE VI.8, VI.23, VI.26 (not in cited loci)
+- alx.story.gregory-formation text: "doing half the teaching" -> "teaching as well" ("half" invented) | source: Address Arg. XI-XII
+- alx.demo.marriage-ending rep turn: replaced positive belonging claim with absence-in-record wording, past tense, removed "divorced not cast out" | source: alx.limit.marriage; audit B1
+- alx.demo.woman-authority rep turn: removed Potamiaena courage-conversion, "for generations", "recognized standing", "exactly what you would guess", "everywhere ... ink" | source: HE VI.5; alx.limit.f5-women-own-words; audit B2
+- alx.demo.women-own-words rep turn: removed "for generations", "recognized standing", "faith passed from mother to child", "almost certainly"; household now Origen's father/mother | source: HE VI.2; alx.limit.f5-women-own-words
+- alx.demo.want-to-believe rep turn: removed assistant-validation opener, "belief came from the side", "befriended", triplet close; tense fixed; Gregory spark quote kept | source: Address Arg. VI
+- alx.demo.going-to-hell rep turn: past tense for community belief, removed dash chain and coined closer | source: Philocalia XXVII (quote unchanged)
+- alx.demo.couldnt-believe rep turns 1 and 3: "is" -> "was"; counterfactual replaced with "The account we have ends in agreement, so we cannot say..." | source: HE VII.24 §9
+- alx.demo.someone-like-me rep turn: last two sentences -> "We called Christ the door, and we kept it open." | source: audit B7
+- alx.demo.who-was-jesus rep turn: "He is God's own Word, who came to us in flesh"; removed not-X-but-Y pivot and coined closer | source: dw.jesus; Clement New Song; Athanasius De Inc. 54
+- alx.figure.origen bridge_line: removed unsupported "later condemned him" and "living memory of his chair" | source: record body; alx.contested.origen-positions
+- alx.figure.pantaenus bridge_line: bee tribute attributed to Clement's unnamed teacher, identified by scholars as Pantaenus | source: record body; HE V.11
+- alx.figure.gregory-thaumaturgus bridge_line: Caesarea, not "this school" | source: record body
+- alx.figure.athanasius bridge_line: "some forty-five" years, removed "this world's Center" | source: record dates block (328-373)
+- alx.figure.clement bridge_line: removed chiastic restatement | source: audit C5
+- alx.figure.didymus bridge_line: "heading the Alexandrian school" (later tradition kept), "among the last great voices of that tradition", removed "in this window" | source: record body
+- alx.figure.dionysius bridge_line: "open, patient argument" for "patient listening" | source: HE VII.24 §7
+- alx.figure.antony bridge_line: "landowner's son who gave his land away" for "farmer" | source: Vita Antonii (npnf204 ~31249)
+- alx.figure.heraclas bridge_line: avoids "chair/school and office" institution wording | source: HE VI.26; alx.contested.didaskaleion-institution
+
+**Quote `modern_rendering` (written by Opus).**
+- `alx.quote.a-doctrine-they-would-not-have-taught` modern_rendering: restored the dropped clause "of the fact" and "human life". Source: its `text` (Contra Celsum II).
+- `alx.quote.appointed-by-the-fathers-to-be-read`: "godly living" restored to "the teaching of godliness"; "those who newly join us".
+- `alx.quote.athanasius-death-trampled-down`: the two conditionals restored; "paraded" back to "displayed"; sentence over 25 words split.
+- `alx.quote.clement-instructor`: "desires" back to "passions".
+- `alx.quote.clement-new-song`: added "wild" and "one" removed; long sentence split.
+- `alx.quote.clement-possessions`: two sentences over 25 words split; "God-given task" corrected to the text's "divine work".
+- `alx.quote.clement-rash-martyrdom`: added "truly", "true", "for it" removed; long sentence split; "characteristic" restored. The lens note's reading of "banish themselves" is unchanged and still open.
+- `alx.quote.clement-schoolmaster`: invented "their own first gift" replaced by "directly and primarily"; "schoolmaster" rendered "guardian".
+- `alx.quote.dionysius-nepos`: 40-word sentence split.
+- `alx.quote.dionysius-too-high-for-me-to-grasp`: added "all the more" and "precisely" removed; 30-word sentence split.
+- `alx.quote.ecclesiastical-and-apostolical-tradition`: "careful succession" corrected to "orderly succession".
+- `alx.quote.no-sun-no-moon-no-sky`: two 27-word sentences split; "as it were" restored.
+- `alx.quote.origen-scripture-senses`: added "too" removed.
+- `alx.quote.the-grades-here-in-the-church`: "[as deacons]" restored; "from glory to glory" removed; quote `text` curly quotes set to match anf02.
+- `alx.quote.timothy-ordinary-questions`: "oblation" rendered as "Eucharistic offering"; "grown" and "still" removed; question numbers and the text's ellipses kept; quote `text` apostrophe set to match npnf214.
+
+**Terms, `agape` to `katechesis`.**
+- alx.term.agape senses.personal: removed "this world"/"performing" template (C1, C3), past tense, readability | source: Strom. VII (no change to claim)
+- alx.term.agape senses.translational: readability (FRE 47.8) | source: n/a (wording only)
+- alx.term.allegoria senses.translational: subject now "Alexandrian teachers" (allegory-from-within contested) | source: alx.contested.allegory-from-within; Eusebius HE VII.24
+- alx.term.allegoria senses.personal: removed "not a wall but" pivot | source: n/a
+- alx.term.anastasis senses.personal: dropped Eucharist (not in De Inc. 8-10, 20-32), readability | source: athanasius-de-incarnatione loci cited
+- alx.term.anastasis senses.translational: readability (FRE 48.5) | source: n/a
+- alx.term.apokatastasis plain_meaning: replaced "never a settled teaching" with open question, weight cannot be fixed (A5) | source: alx.contested.origen-positions; Philocalia XXVII
+- alx.term.apokatastasis senses.translational: readability + hedged "still disputed" | source: alx.contested.origen-positions
+- alx.term.arete plain_meaning, quick_meaning, senses.personal, senses.translational: Clement lets training and will have a part; virtue as fruit of changed soul; removed template/"this world" | source: anf02 Clement Strom. VII (virtue/habit passage), per audit A2
+- alx.term.autexousia senses.personal: removed modern addict example, readability | source: Clement Quis Dives X; Origen De Princ. III.1 (no addict example there)
+- alx.term.autexousia senses.translational: readability | source: n/a
+- alx.term.baptism plain_meaning, quick_meaning: dropped "Christ's death and rising" (not in Paed. I.6-7), now "into the new life" | source: anf02 Paed. I.6
+- alx.term.baptism senses.personal: replaced with Clement's regeneration-illumination line (contradiction of I.6 removed) | source: anf02 Paed. I.6 "we were illuminated, which is to know God"
+- alx.term.baptism senses.translational: readability | source: n/a
+- alx.term.catechetical-school senses.personal, senses.translational: readability only; contest and hedges kept | source: alx.contested.didaskaleion-institution
+- alx.term.christ plain_meaning, quick_meaning, senses.translational: removed priest-king-prophet formula and "commissioned to mediate, govern..." (not in cited loci) | source: Strom. I.5; Origen Comm. John I; De Inc. 1-3, 54 (audit A8 searched, none found)
+- alx.term.christ senses.personal: readability, past tense | source: n/a
+- alx.term.christological-reading senses.personal, senses.translational: readability, past tense in personal | source: n/a
+- alx.term.didaskalos senses.personal, senses.translational: readability, past tense in personal | source: n/a
+- alx.term.eikon senses.personal: past tense, readability-safe (was passing, touched for C2/FRE) | source: n/a
+- alx.term.ekklesia senses.personal: removed invented catechumen-over-baptized claim; Clement "assemblage of the elect ... holy through knowledge" | source: anf02 Strom. VII.5 (line 50447)
+- alx.term.ekklesia senses.translational: readability | source: n/a
+- alx.term.elpis senses.personal: removed "this world", past tense, readability | source: n/a
+- alx.term.elpis senses.translational: readability | source: n/a
+- alx.term.episkopos senses.personal: quote re-attributed to presbyters (C6), claim limited to what the quote says, readability | source: anf02 Strom. VI.13 (line 47865-47866); quote kept verbatim
+- alx.term.episkopos senses.translational: readability | source: n/a
+- alx.term.eucharistia senses.translational: removed "real participation" and "left the how in God's hands" (not in Paed. I.6); now Clement reads bread as the Word's flesh, nourishing toward immortality, no account of how | source: anf02 Paed. I.6 (line 19764-19780)
+- alx.term.fall-descent plain_meaning, quick_meaning: removed "all"/"world is fallen"; pre-cosmic account credited to Origen, attribution disputed (A6, C1, C2) | source: alx.contested.origen-positions; record divergence_note
+- alx.term.fall-descent senses.personal, senses.translational: readability; translational now says attribution is disputed | source: same
+- alx.term.fasting senses.personal: past tense, readability | source: n/a
+- alx.term.hamartia plain_meaning, quick_meaning: removed "Missing the mark" and exclusive "rather than debt/law" (A10) | source: De Inc. 3-6 (penalty of death real), Robertson intro per audit
+- alx.term.hamartia senses.personal: readability | source: n/a
+- alx.term.hamartia senses.translational: audit proposal (death penalty real, "not only forgiven") | source: De Inc. 3-6
+- alx.term.homoiosis senses.personal: replaced template-copied opening (C3), readability | source: Strom. II.19, 22; VII.1-3 (claim same as translational)
+- alx.term.homoousios senses.translational: "council's own participants" -> "Athanasius, writing decades later"; "always worshiped" -> "had received" | source: npnf204 De Decretis 25 ("spoke what they had received", line 28366)
+- alx.term.incarnation plain_meaning: "above all to heal it from within", removed "not to teach or model" (A9) | source: De Inc. 12, 54
+- alx.term.incarnation senses.personal: removed "what this world claims", readability | source: n/a
+- alx.term.incarnation senses.translational: "and not only to teach it from outside" (A9), readability | source: De Inc. 12, 54
+- alx.term.interpretation senses.personal, senses.translational: readability, past tense in personal | source: n/a
+- alx.term.katechesis senses.personal: removed coined closing "slowness was the point", past tense (C4) | source: n/a
+
+**Terms, `lapsi` to `word-of-god`.**
+- alx.term.lapsi senses.personal: dropped coined closer "question under the question"; readability | source: Dionysius letters (audit C4/D)
+- alx.term.lapsi senses.translational: "most documented" -> "well documented" (unsupported superlative) | source: audit B (Dionysius, ANF 6)
+- alx.term.logikos plain/quick: past tense; added that whether the wider view was the teacher's own is contested | source: audit B + divergence_note
+- alx.term.logikos senses.personal/translational: readability, hedges kept | source: Origen De Princ. I.5
+- alx.term.martys senses.translational: attributed the "banish themselves" line to Clement and to the heretics he spoke of | source: anf02 Strom. IV.4 ("not belonging to us ... dying through hatred to the Creator")
+- alx.term.metanoia plain: "change of nous" -> "change of mind" (standard gloss; nous not in cited loci) | source: audit B
+- alx.term.metanoia senses.personal: readability, past tense | source: Paid. I.8-9
+- alx.term.methexis senses.personal: removed Eucharist claim not in cited loci; readability | source: audit B (De Inc. 1-10, 54; Strom. VII)
+- alx.term.methexis senses.translational: removed vine/branch image (John 15 not cited) | source: audit C4
+- alx.term.mysterion senses.personal: readability, past tense | source: Strom. I, V
+- alx.term.nous senses.personal: readability, past tense | source: Strom. V-VII
+- alx.term.oikonomia senses.personal/translational: readability ("unimprovised" dropped for "never made up as he went") | source: De Inc. 1-5, C. Ar. II.75 per audit
+- alx.term.oikos plain/quick/personal/translational: removed "most people/most formation/reaching people the school could not" (contested, ecology-wide-primacy; school contested); past tense; used audit text | source: Paid. II-III; alx.contested.ecology-wide-primacy
+- alx.term.paideia senses.personal: removed coined closer and "this world's hearing" | source: Paid. I; Philocalia XXVII
+- alx.term.photismos plain/personal: readability; "the world after baptism" -> "life after baptism" | source: Paid. I.6
+- alx.term.photismos senses.translational: regeneration and illumination named together (as Paid. I.6) | source: Paid. I.6
+- alx.term.pistis senses.translational: readability | source: Strom. II.2-6
+- alx.term.pneuma-hagion senses.personal/translational: readability; past tense, "this world credits" -> "we credited" | source: audit D
+- alx.term.prayer plain/quick/personal/translational: restored Clement's "converse with God, spoken or silent"; removed invented "attending to what God is already saying" | source: anf02 Strom. VII.7, 12 (per audit A1)
+- alx.term.psyche senses.personal: readability, past tense | source: audit D
+- alx.term.restoration senses.personal/translational: readability, past tense | source: audit D
+- alx.term.salvation plain/quick/trans: "Not only a verdict, but healing" (De Inc. has restorative and penalty lines) | source: De Inc. 6-7, 20 per audit A10
+- alx.term.salvation senses.personal: "this world means" removed; readability | source: audit C1
+- alx.term.scripture-as-address senses.personal: "the school's" -> "the teachers'" (school contested); readability, past tense | source: alx.contested.didaskaleion-institution
+- alx.term.scripture-as-address senses.translational: readability | source: audit D
+- alx.term.son-of-god senses.personal/translational: readability; "the church confessed" past | source: audit D
+- alx.term.sophia senses.personal: readability, past tense | source: audit D
+- alx.term.sophia senses.translational: "doctrine" -> "doctrine alone" (Strom. VI-VII keep right knowledge) | source: audit B
+- alx.term.thanatos plain/quick/personal/translational: reordered to Athanasius (turn from God, loss of knowledge, then death and corruption); dropped "two deaths" martyr claim | source: npnf204 De Inc. 4-6 ("bereft even of being ... abide in death and corruption")
+- alx.term.theosis plain: dropped "Not becoming a god" gloss; cited Athanasius De Inc. 54 wording | source: npnf204 De Inc. 54 ("made man that we might be made God")
+- alx.term.theosis senses.personal: FRE 59.7 -> pass | source: audit D
+- alx.term.transformation senses.personal/translational: readability, past tense | source: audit D
+- alx.term.word-of-god senses.personal: readability, past tense | source: audit D
+
+**Review round 1 fixes.** `alx.demo.marriage-ending`: "So your second question, about marrying again, we cannot answer." now reads "So the full answer on marrying again we cannot give you from that book." (Stromateis II.23 and Origen on Matthew XIV speak to remarriage in English; the Stromateis III limit stays as accepted.) `alx.dw.church-failure`: "Where the restoring side won, we refused the two easy exits" (the strict party in the same field took the other exit). `alx.demo.who-was-jesus`: "By that we meant that his own life is opened to us and shared." `alx.term.baptism` senses.personal: Clement's "nothing lacking to that faith, though its end waited for the resurrection". `alx.term.arete` quick_meaning: training and will "playing a part". `alx.term.thanatos` plain_meaning: "where that loss leads". `alx.demo.women-own-words`: "kept from martyrdom". `alx.demo.want-to-believe`: Gregory's quote carries the claim. `alx.demo.going-to-hell`: "what we did mattered". `alx.term.anastasis` senses.personal: "at work in them".
+
+**Not changed.** What was found and not fixed is registered in the entry "Found in the alx wording pass and not fixed, 2026-10-13" below. Quote `text` of `alx.quote.clement-rash-martyrdom` is kept byte-for-byte: the verifier accepts the footnote seam as written, and removing the space made the segment fail.
+
+Status: CLOSED for the spoken fields named above.
+
+### OG-23. Found in the alx wording pass and not fixed, 2026-10-13.
+
+Out of scope for a spoken-field pass (build fields, evidence-block text, or a decision for the build thread). Each stays OPEN.
+
+1. **Stale `use_note.means` on corrected terms.** `use_note.means` reaches the model through the evidence block, and still carries claims removed from the spoken fields: `alx.term.baptism` ("Christ's death and rising"), `christ` ("priest, king, and prophet"), `hamartia` ("missing the mark ... rather than a debt owed or a law broken"), `prayer` ("attend to what God is already saying"), `thanatos` ("physical death a real but secondary outward sign"), `salvation` ("not a not-guilty verdict"), `oikos` ("where most people were formed"), `fall-descent` ("confessed by all"), `incarnation` ("not to teach or model") and `arete` (training and will). `alx.term.hamartia` `world_word` still reads "hamartia (missing the mark)". The term `senses.informational` and `senses.evidential` fields were not audited.
+2. **Source loci missing from `sources`.** `alx.dw.record` ("Origen compared manuscript readings", Comm. John VI, needs `alx.source.origen-comm-john`); `alx.dw.church-failure` (the deathbed readmission is HE VI.44, which `sources` does not list); `alx.term.oikonomia` (Contra Arianos II.75 would support it); `alx.demo.marriage-ending` (Stromateis II.23 on remarriage would need a locus if the turn is ever to answer it).
+3. **`alx.term.arete`** still cites `alx.source.athanasius-vita-antonii` "(whole)", which `alx.contested.desert-attribution` says no Alexandrian claim may rest on.
+4. **`alx.term.apokatastasis`** carries Widely Accepted while its content is the subject of `alx.contested.origen-positions`. Confidence is a build field.
+5. **`alx.figure.pantaenus`** The bee tribute is now attributed to Clement's unnamed teacher, whom scholars identify as Pantaenus. The same identification through Eusebius alone appears in other records and stays open (see "Voice claim corrections after the record pass staging reading, 2026-10-09").
+6. **`alx.quote.clement-rash-martyrdom`** `modern_lens_note` reads "banish themselves" as exclusion from martyrdom; the Greek usually means taking one's own life. The new rendering ("cast themselves out") leaves the question open. For the project lead.
+7. **Whether `alx.demo.marriage-ending` should answer the remarriage question** from Stromateis II.23 and Origen on Matthew XIV, which goes beyond the accepted Stromateis III limit. For the project lead.
+8. **Story and demo bodies** (for example the marriage-ending body note) still describe the old wording in places; they are not spoken fields.
+
+Status: OPEN.
+
+### OG-24. Fixes after the independent review of the alx wording pass, 2026-10-13.
+
+Five fixes from the independent review of the alx record wording pass (the entry "Record wording pass on alx spoken fields, 2026-10-13"). The stale `use_note` text stays open as item 1 of "Found in the alx wording pass and not fixed, 2026-10-13".
+
+- `alx.story.origen-daring-deed` text: the "Soon afterward" sentence split into three sentences, and the last sentence into two, so the field passes readability (FK 8.6, FRE 61.3). No fact added or dropped. The `m1:readability/alx` waiver stays at 18: the gate does not count story `text`, and the waiver check passes at that number.
+- `alx.quote.timothy-ordinary-questions` text: "men's" set to "men’s" as in npnf214 (xvii.xxiv-p36). The earlier log line that said this was done was wrong: the apostrophe changed in the rendering, not in `text`. The rendering now uses a straight apostrophe again.
+- `alx.quote.timothy-ordinary-questions` modern_rendering (Opus): "eucharistic offering" is now "the offering" in both places, since the text says only "the oblation".
+- `alx.demo.someone-like-me` Representative turn: the closer "We called Christ the door, and we kept it open." is now "We held that Christ was the door, and that it stood open." A plain statement of what the community held, without the coined line.
+- `alx.limit.marriage` statement: "The English edition we hold leaves that book in Latin" is now "In the English we can offer you, that book is left in Latin".
+
+Status: CLOSED.

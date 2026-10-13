@@ -52,8 +52,7 @@ senses:
     directly reaches.
   evidential: Clement's Stromateis develops the contemplative faculty at length; Athanasius's account is
     less speculative and more formation-focused than Origen's own systematic (and more contested) nous-cosmology.
-  personal: Formation, at its deepest, is the nous being turned back toward the God it was made to perceive
-    - a purification of perception, not an accumulation of learning.
+  personal: "Formation, at its deepest, was the nous turned back toward the God it was made to see. It was a purification of perception, not a gathering of learning."
   translational: '''So forming the mind means better arguments or more doctrine?'' - no; this world meant
     a different kind of seeing, more like sight or contact than argument.'
 quick_meaning: The soul's highest power - to see God directly, not to reason toward him.

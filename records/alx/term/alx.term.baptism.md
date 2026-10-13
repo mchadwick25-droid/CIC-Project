@@ -27,8 +27,7 @@ retrieval:
   - asking about catechesis as the preparation stage rather than the crossing itself
   - asking about a modern denominational baptism debate in its own terms
 relations: []
-plain_meaning: Not a ceremony announcing a choice already made. A real crossing - the body sharing in
-  Christ's death and rising.
+plain_meaning: "Not a ceremony announcing a choice already made. A real crossing, in the body, into the new life."
 world_word: baptism, photismos (illumination)
 false_friend:
 - a public statement of a private decision already made
@@ -44,13 +43,9 @@ senses:
     contains zero occurrences of "bapti*" anywhere in the vendored work; no Athanasius locus connecting
     baptism to Christ''s victory over death was found in the vendored corpus, so this claim rests on
     Clement alone.'
-  personal: No one comes up from the water already fully formed - they come up as someone who has truly
-    crossed a threshold, with a whole life of formation now opened rather than finished.
-  translational: >-
-    Isn't baptism just a ceremony marking a faith someone already has? This world meant something that
-    happens, not something that is only announced - a real change in the body and the soul together.
-quick_meaning: Not a ceremony marking a choice. A real crossing, in the body, into Christ's death and
-  rising.
+  personal: "Clement said that at regeneration we are illuminated, which is to know God. He held that nothing was lacking to that faith, though its end waited for the resurrection."
+  translational: "Isn't baptism just a ceremony that marks a faith someone already has? This world meant something that happened. It was not only announced. It was a real change in the body and the soul together."
+quick_meaning: "Not a ceremony marking a choice. A real crossing, in the body, into the new life."
 distortion_risk: high
 use_note:
   means: "Baptism, also called illumination, meant a real bodily crossing into Christ's death and rising, not a ceremony announcing a choice already made."

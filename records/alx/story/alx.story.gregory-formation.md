@@ -37,7 +37,7 @@ text: 'Gregory came from Neo-Caesarea, in Pontus, to study law, and met Origen a
   tells it himself: the teacher did not begin with doctrines. He began like a farmer testing soil - questioning,
   digging, watching what the young man''s mind did under pressure. Logic first, to make thinking honest.
   Then the natural world, geometry, the stars - until the students'' wonder was trained. Then ethics,
-  not as rules recited but as habits formed, the teacher''s own life doing half the teaching. Only then,
+  not as rules recited but as habits formed, the teacher''s own life teaching as well. Only then,
   theology - reading everything the philosophers and poets had said of God, with Scripture at the center.
   And under all of it, Gregory says, something else was happening: like a spark falling on his inmost
   soul, love was kindled - for the Word, and for this man who was the Word''s friend. He gave up law.
