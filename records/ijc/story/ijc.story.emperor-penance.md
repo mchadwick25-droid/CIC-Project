@@ -74,7 +74,7 @@ modern_contrast: >-
   historians' telling, written a generation on to edify, and this record keeps that layer named as
   such rather than folding it into the earliest evidence.
 use_note:
-  means: "After the 390 massacre at Thessalonica, Ambrose wrote that he dared not offer the sacrifice with the emperor present. Sozomen and Theodoret later say Theodosius did public penance."
+  means: "After the 390 massacre at Thessalonica, Ambrose wrote that he dared not offer the sacrifice with the emperor present, and Sozomen and Theodoret later say Theodosius did public penance."
   not_for:
     - "a claim that the stripped-of-purple public scene is first-hand contemporary evidence"
     - "a claim about Theodosius's inward state"
