@@ -29,7 +29,8 @@ citation: >-
   and On the Deity of the Son and the Holy Spirit
 kind: unvendored
 rights_status: >-
-  not independently verified; not yet acquired as an open text
+  On the Holy Spirit is held in npnf205, public domain; the sermon on the
+  Deity of the Son and the Holy Spirit is not acquired.
 attribution_status: attributed
 discovery_channel: >-
   builder-prior-knowledge; Source Registry row 43. On the Holy Spirit is in

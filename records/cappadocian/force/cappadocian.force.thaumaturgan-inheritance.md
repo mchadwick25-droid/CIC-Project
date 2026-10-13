@@ -24,14 +24,17 @@ name: "The Thaumaturgan inheritance [1B - initiating/internal]"
 kind: initiating
 matrix_cell: 1B
 description: >-
-  The third-century mission of Gregory Thaumaturgus in Pontus establishes the region's Christian
-  founding-memory: an episcopal lineage, liturgical customs, a creed-tradition, and a legend (Doc_08 Cell
-  1B, Force 1B-1). WORLD'S OWN EXPERIENCE (Layer 2): the faith did not arrive yesterday and did not arrive
-  anonymous: it came by named hands - the Wonderworker who found seventeen Christians and left seventeen
-  pagans, as the country tells it - and what he handed down, the churches kept. To keep the customs was to
-  stay in that grip of hands. FORMATION IMPACT (Layer 3): grounded the paradosis argument (unwritten
-  customs as carriers - Doc_06 §4) and the world's receiving self-understanding; gave regional practice a
-  warrant older than the current quarrels; fed the lineal-memory structure (Doc_07 2F).
+  In the third century, Gregory the Wonderworker led the mission in Pontus.
+  That mission gave the region its memory of how the faith began: a line of
+  bishops, customs of worship, a creed and a legend. The country told it
+  this way: the faith did not arrive yesterday, and it did not arrive
+  without names. It came by named hands. The Wonderworker, so the story
+  runs, found seventeen Christians in his city and left only seventeen
+  pagans. What he handed down, the churches kept. To keep the customs was to
+  stay in his line. This force grounded the argument that unwritten customs
+  carry the faith. It gave the region's practice a warrant older than the
+  quarrels of the day. It also fed the habit of remembering the faith
+  through named people and families.
 manifestations:
 - the mission narrative - a region holding only seventeen Christians turned, by the story's own arithmetic, to only seventeen pagans remaining
 - the creed received in a night-vision from the Virgin Mary and the apostle John, per the legend

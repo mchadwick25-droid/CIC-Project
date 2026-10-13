@@ -28,9 +28,8 @@ rights_status: >-
   not independently verified; not yet acquired as an open text
 attribution_status: attributed
 discovery_channel: >-
-  builder-prior-knowledge; Source Registry row 51. Earlier marked as held in
-  cic/texts/npnf205, but that volume only refers to it; the Life has not
-  been acquired.
+  builder-prior-knowledge; Source Registry row 51. npnf205 only refers to
+  the Life; it has not been acquired.
 external_ids:
   cappadocian_source_registry_row: 51
 ---
