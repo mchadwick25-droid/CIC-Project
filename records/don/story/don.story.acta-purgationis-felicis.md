@@ -21,8 +21,8 @@ confidence:
     reframed.'
 sources:
 - source_id: don.source.optatus-appendix-of-documents
-  locus: Acta Purgationis Felicis (314/315); cic/texts/optatus_against-the-donatists.txt, Appendix I, lines
-    5467-5585
+  locus: Acta Purgationis Felicis (314/315), Appendix I of Optatus's Against the
+    Donatists
   license: public-domain
 retrieval:
   tier: 1
@@ -56,29 +56,30 @@ narrative_tier_justification: Tier 1 of the strongest kind available in this cor
   under threat of torture is not the sort of detail a hostile compiler would need to invent, and its presence
   in the opponent's own dossier argues for its reliability rather than against it. What it does mean is
   that this is a documented setback, and a Representative carrying it should say so.
-tellable_as: An imperial inquiry into whether the bishop who consecrated Caecilian had handed over the
-  scriptures ends with a notary confessing, under threat of torture, that he forged the letter proving
-  it - and that he did it working for our side.
+tellable_as: The emperor orders an inquiry. Felix, who made Caecilian a bishop,
+  is said to have given up the scriptures. A town councillor admits, under threat of torture, that he added false lines to a letter against him. The inquiry clears Felix.
 text: >-
-  The whole schism turns, at its root, on a single accusation: that
-  Felix, the bishop of Aptungi who consecrated Caecilian as bishop of
-  Carthage, had himself been a traditor - that he had handed over the
-  scriptures during the persecution, and so had no standing to consecrate
-  anyone, which would make Caecilian's office invalid from its first day.
+  The whole schism turns, at its root, on a single accusation: that Felix,
+  the bishop of Aptungi who consecrated Caecilian as bishop of Carthage,
+  had himself been a traditor - that he had handed over the scriptures
+  during the persecution, and so had no standing to consecrate anyone,
+  which would make Caecilian's office invalid from its first day.
 
   Constantine ordered the matter investigated. The proconsul Aelianus
   opened a formal inquiry and took testimony on record from named
-  witnesses: Alfius Caecilianus, Maximus, Apronianus, Claudius
-  Saturianus, Superius, and a notary named Ingentius. At the centre of
-  the case was a letter, supposedly written by Felix himself and read
-  aloud in the proceeding, that seemed to prove the accusation.
+  witnesses: Alfius Caecilianus, Claudius Saturianus, Superius, and a
+  town councillor named Ingentius. At the centre of the case was a letter from the
+  magistrate Caecilianus to Felix, read aloud in the proceeding. Its
+  closing lines seemed to prove the accusation. Caecilianus said he had
+  never dictated them.
 
   Under questioning, and under the threat of torture, Ingentius broke. He
-  confessed that he had forged the letter himself, and that he had done
-  it as an agent working for our party, moving through Numidia and
-  Mauritania in that service. With the forgery exposed, the case against
-  Felix collapsed. The proceeding records his vindication as complete -
-  finally and triumphantly, in the text's own words.
+  admitted that he had added to the letter himself, out of grief over
+  Maurus, his guest. The counsel Apronianus charged that he had travelled
+  through Numidia and Mauritania as an agent of our party. Ingentius
+  denied that he had been to Numidia. With the forgery exposed, the case
+  against Felix collapsed. The proconsul ruled that nothing had been
+  proved against Felix, and cleared him.
 absent_detail: Nothing survives of what Felix himself said, or of what Ingentius said before the threat
   was made. No account of this inquiry from our own side exists at all - not a defence of the accusation,
   not a challenge to the proceeding, not an explanation of who sent Ingentius or on whose authority.
@@ -93,7 +94,7 @@ modern_contrast: >-
   can be said at once. What cannot honestly be said is that the inquiry
   found in our favour.
 use_note:
-  means: "The inquiry into whether Felix of Aptungi was a traditor ended with a notary confessing, under threatened torture, that he forged the letter for the Donatists."
+  means: "The inquiry into whether Felix of Aptungi was a traditor ended with a town councillor admitting, under threatened torture, that he added false lines to the letter."
   not_for:
     - "a claim that the inquiry settled the wider traditio dispute"
     - "a claim that an account of the inquiry from the Donatist side survives"

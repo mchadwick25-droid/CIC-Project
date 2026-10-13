@@ -16,10 +16,10 @@ confidence:
     and in Petilian's own quoted argument (Doc_08, Force 2B-1, Layer 1, citing Doc_04 SS3.1, SS3.2).
 sources:
 - source_id: don.source.augustine-on-baptism-against-donatists
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'On Baptism, Against the Donatists: seven books on the doctrine and the rite'
   license: public-domain
 - source_id: don.source.petilian-of-constantina-letters-quoted
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Petilian''s letters as Augustine quotes them in his reply'
   license: public-domain
 relations:
 - type: associated-with

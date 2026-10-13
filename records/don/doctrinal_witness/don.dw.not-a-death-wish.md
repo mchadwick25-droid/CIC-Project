@@ -34,11 +34,10 @@ sources:
     underway
   license: public-domain
 - source_id: don.source.passio-isaac-et-maximiani
-  locus: Macrobius closing by telling his congregation the same may yet be asked of any of them
+  locus: Macrobius's closing, where the two wait with arms stretched out from heaven and the readers are urged to hurry after them
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'formation_logic and cautions 4: the ideal is settled readiness rather than literal death; the
-    Circumcellion characterisation is shaped by polemic while its existence is not'
+  locus: 'the ideal is settled readiness rather than literal death; the Circumcellion portrait is shaped by polemic while their existence is not'
   license: public-domain
 retrieval:
   tier: 2
@@ -64,24 +63,20 @@ text: >-
   shown a cup, a crown and a palm while he fasted, and the point of
   showing them was that he was being told what finishing looked like,
   not that dying was the goal. What the texts praise is a man who was
-  already what he was before anyone came for him. Death is where the
-  shape of that becomes visible. It is not the shape.
+  already what he was before anyone came for him. Death is where that
+  becomes visible.
 
 
-  And the letter our own bishop wrote to his own congregation does not
-  say: go and seek this. It says the opposite kind of thing, and harder.
-  It says that what was done to these two may yet be asked of any of you.
-  That is a man preparing people who did not choose the situation for
-  something they cannot avoid. Readiness, not appetite.
+  And the letter one of our bishops wrote to the church at Carthage ends by calling the living to follow the two. It says they are waiting with their arms stretched out from heaven, and it tells the readers to hurry. We will not pretend that sounds like a man talking anyone out of dying.
 
 
   We will not pretend nobody among us went further. Our country members
   are said to have sought death, provoked it, thrown themselves at it.
   That accusation is real and we cannot dismiss it - but almost
   everything specific about their conduct comes from people who needed
-  them to look like a mob, and that the one independent record of them,
-  an imperial law, confirms only that they existed and were fined. We
-  can neither repeat that portrait as fact nor produce a better one, and
+  them to look like a mob, and the one independent record of them, an
+  imperial law, confirms only that they existed and were fined. We can
+  neither repeat that portrait as fact nor produce a better one, and
   saying so is more honest than doing either.
 positions:
 - 'there is no neutral outside account of our worship: the fullest description of our practice is a polemic

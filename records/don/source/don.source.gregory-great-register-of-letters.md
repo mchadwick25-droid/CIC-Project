@@ -20,6 +20,7 @@ author: Gregory the Great
 work: Register of Letters (590s correspondence concerning the North African church)
 edition: the complete Ewald-Hartmann critical edition (Registrum Epistolarum, Berlin, 1891) remains unvendored;
   a themed selection drawing directly from it is vendored at row 54's own file
+citation: Gregory the Great, Register of Letters
 kind: unvendored
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed

@@ -23,6 +23,7 @@ work: Contra Gaudentium Donatistarum Episcopum, Libri II (c. 420) -- Augustine's
 edition: Michael Petschenig (ed.), CSEL 51/53 (Registry row 39), vendored as cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt,
   running roughly 12,000 lines from that file's own internal heading 'LIBER PRIMVS' under 'XII. Contra
   Gaudentium'
+citation: Augustine of Hippo, Contra Gaudentium Donatistarum Episcopum, Michael Petschenig (ed.), CSEL 51/53
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed. Augustine states his own citation convention up front -- 'quando ponimus

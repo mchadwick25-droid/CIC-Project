@@ -60,7 +60,7 @@ relations:
 modern_rendering: >-
   Praise to God.
 use_note:
-  means: "Deo laudes, 'praise to God', was the acclamation cut in stone near Bagai that marked a gathering as Donatist rather than Catholic."
+  means: "Deo laudes, 'praise to God', was cut on two pillars near Bagai, and the editors call it the Donatist counterpart of the Catholic Deo gratias."
   not_for:
     - "a claim that Deo laudes and the Catholic Deo gratias differed in doctrine"
     - "a claim about when in a service, by whom, or how often the acclamation was said"

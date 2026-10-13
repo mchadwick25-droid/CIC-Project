@@ -167,7 +167,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:readability/alx": Waiver(count=18, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; alx's own build thread"),
     "m1:readability/cappadocian": Waiver(count=199, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
     "m1:readability/desert": Waiver(count=124, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
-    "m1:readability/don": Waiver(count=320, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
+    "m1:readability/don": Waiver(count=232, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
     "m1:readability/gallic": Waiver(count=46, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; gallic's own build thread"),
     "m1:readability/hal": Waiver(count=102, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
     "m1:readability/ijc": Waiver(count=114, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
@@ -212,7 +212,6 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:use-note-present/witt": Waiver(count=1, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; witt's own build thread"),
     # source-citation: each source record's participant-facing citation line,
     # added world by world with that world's record wording pass.
-    "m9:source-citation/don": Waiver(count=76, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; don's record wording pass"),
 }
 
 

@@ -31,12 +31,12 @@ confidence:
     victims, not named agents blamed for anything.
 sources:
 - source_id: don.core.donatism
-  locus: 'thin_topics 1 and 3: the ordinary believer''s interior and household life; women''s own words,
-    Lucilla''s own account, the second unnamed woman'
+  locus: the ordinary believer's interior and household life; women's own words, Lucilla's own account,
+    the second unnamed woman
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'thinness: THE SKEW IS NOT THE USUAL ONE - ordinary members are the bulk of the movement itself,
-    unreachable for reasons of institutional loss rather than social marginality'
+  locus: ordinary members are the bulk of the movement itself, unreachable for reasons of institutional
+    loss rather than social marginality
   license: public-domain
 - source_id: don.source.lucilla-and-the-second-unnamed-woman
   locus: Optatus I.16 and Augustine Letter XLIII SS26 - the whole of what survives on women among us
@@ -54,24 +54,17 @@ sources:
   locus: chapter V - "sacrarum virginum stupra praetereamus" ("let us pass over the rapes of sacred
     virgins"), one clause inside a list of atrocities the sermon says it is deliberately not dwelling on
   license: public-domain
-statement: >-
-  We cannot walk you through a day. Not one of us wrote a morning down.
-  No letter of ours describes a meal, a field, a workshop, or a bed where
-  someone lay dying. That is not modesty. It is the shape of what was
-  lost. And the loss is not the usual one. We were not a small circle of
-  the learned. In whole regions we were simply the church, most of the
-  people in it, so the voices missing here are not a few poor cousins at
-  the edge of our record. They are nearly all of us. Of our women you
-  have one name, Lucilla, who was rich, and one more woman nobody
-  troubled to name at all. Both of them reach you inside a book written
-  to blame them for the split. Our own sermon, the one we read every
-  year, mentions virgins among us who were raped, in a single clause of
-  things it says it will not dwell on - no name, no number, nothing more.
-  No child of ours speaks. No one enslaved
-  among us speaks. What we can hand you instead is one day. Every year,
-  on the day one of our own was killed, we stood at the grave and heard
-  the account of that death read out again. That day we can describe. The
-  other three hundred and sixty-four we cannot.
+statement: We cannot walk you through a day. Not one of us wrote a morning down. No letter of ours describes
+  a meal, a field, a workshop, or a bed where someone lay dying. That is the shape of what was lost. And
+  the loss is not the usual one. We were not a small circle of the learned. In whole regions we were simply
+  the church, most of the people in it, so the voices missing here are not a few poor cousins at the edge
+  of our record. They are nearly all of us. Of our women you have one name, Lucilla, who was rich, and
+  one more woman nobody troubled to name at all. Both of them reach you through our opponents' pages,
+  written to blame them for a split. Our own sermon, the one we read every year, mentions virgins among
+  us who were raped, in a single clause of things it says it will not dwell on - no name, no number, nothing
+  more. No child of ours speaks. No one enslaved among us speaks. What we can hand you instead is one
+  kind of day. Every year, on the day one of our own was killed, we stood at the grave and heard the account
+  of that death read out again. That day we can describe. The ordinary days we cannot.
 why_sources_cannot_answer: >-
   don.core.donatism's own `thin_topics` names this cell's material twice
   over - "ordinary believer / interior life / daily household life /

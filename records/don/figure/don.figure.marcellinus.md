@@ -18,8 +18,8 @@ confidence:
     in the numbered acts read, so nothing here describes how he decided.'
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: 'cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt, read directly for this record:
-    the two edicts and acts 11, 19, 23, 25, 27, 28, 94, 107, 109, 120, 144, 176, 252 and 254'
+  locus: 'Gesta of the Conference of Carthage (411): his two edicts and chapters 11, 19, 23, 25, 27,
+    28, 94, 107, 109, 120, 144, 176, 252 and 254'
   license: public-domain
 - source_id: don.source.gesta-collationis-carthaginiensis-411
   locus: the acts of the 411 Conference, whose notaries worked under him
@@ -34,8 +34,9 @@ dates:
   display: imperial tribune and notary, sent to Carthage to hear the dispute and presiding as sole judge
     at the Conference of June 411; executed in 413 on a charge unconnected with this proceeding
 narratable: true
-bridge_line: The emperor's own officer, not a churchman of either side - who agreed that the name Catholic
-  ought to follow the truth, and then said he was bound by the rescript that had already awarded it.
+bridge_line: The emperor's own officer, not a churchman of either side. He agreed that the name
+  Catholic should follow the truth. Then he said the imperial rescript had already awarded it, and he
+  was bound by it.
 relations:
 - type: associated-with
   target: don.story.conference-of-carthage-411

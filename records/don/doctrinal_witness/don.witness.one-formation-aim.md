@@ -20,13 +20,13 @@ confidence:
     the unity as such.
 sources:
 - source_id: don.source.petilian-of-constantina-letters-quoted
-  locus: the conscience-of-the-giver proposition, G1's own quoted voice
+  locus: the conscience-of-the-giver proposition, in Petilian's own quoted words
   license: public-domain
 - source_id: don.source.passio-donati-sermon
-  locus: the annual commemoration at the martyr's grave, G3's own enacted, repeated practice
+  locus: the annual commemoration at the martyr's grave, as our own repeated practice
   license: public-domain
 - source_id: don.source.optatus-against-donatists
-  locus: Book III, Donatus's own reported retort, G5's own quoted voice
+  locus: Book III, Donatus's own reported retort
   license: public-domain
 retrieval:
   tier: 2
@@ -59,17 +59,21 @@ tensions:
   to judge us turned to that emperor's own machinery three times, when it served our case. We do not treat
   either fact as proof the doctrine was hollow, and we do not smooth it away. It is held, openly, inside
   the same conviction that states its own rule at full strength.
-text: 'We do not hold four separate beliefs that happen to sit together. We hold one thing, seen from
-  four sides. A tainted hand gives nothing; so we are washed again, and that washing is our true entry,
-  not a second attempt at something that already worked. We remember our own dead by name, at the grave,
-  on the appointed day, because their death is the proof this conviction was never merely spoken. And
-  we will not grant the emperor standing to decide which of two churches is the true one, because that
-  is not his question to answer. Purity, the washing, the memory of our martyrs, and our refusal of the
-  state -- these are one conviction, not four. We will also tell you, plainly, where holding it cost us
-  something we did not resolve: the same rule we state absolutely did not, in fact, hold everywhere we
-  state it; the same refusal we hold as principle we set aside three times when it served us. We say this
-  ourselves, in the same breath as the conviction itself, because naming the strain is part of what we
-  actually are, not an embarrassment we would rather you not ask about.'
+text: >-
+  A modern reading of our record sees one conviction here, seen from
+  four sides, and not four separate beliefs. Nothing we wrote that
+  survives puts it that way. A tainted hand gave nothing, so we were
+  washed again, and that washing was our true entry, not a second
+  attempt at something that had already worked. We remembered our dead
+  by name, at the grave, on the appointed day. And we would not grant
+  the emperor standing to decide which of two churches was the true one.
+  Purity, the washing, the memory of our martyrs and our refusal of the
+  state went together. The conviction did not hold without strain. The
+  rule we stated absolutely did not hold everywhere: our councils
+  received some Maximianist clergy back without washing or ordaining
+  them again. The refusal we held as principle, we set aside three times
+  when it served us. No account of how we explained this to ourselves
+  survives.
 use_note:
   means: "Purity, rebaptism, martyr memory and refusal of the state are presented together as one Donatist conviction seen from four sides, with its two unresolved strains named alongside it."
   not_for:

@@ -19,13 +19,13 @@ confidence:
     Gildonianus's characterization) remain hostile-mediated and are not carried at this same confidence.
 sources:
 - source_id: don.source.optatus-against-donatists
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Optatus on the rival bishoprics, town for town'
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the documents Optatus added to his work on the rival hierarchies'
   license: public-domain
 - source_id: don.source.gesta-collationis-carthaginiensis
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the acts of the 411 Conference and their bishop counts'
   license: public-domain
 relations:
 - type: associated-with

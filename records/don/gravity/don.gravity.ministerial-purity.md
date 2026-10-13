@@ -31,8 +31,7 @@ sources:
     reconstructs it in order to refute it
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
-  locus: Petilian's own quoted rebaptism-theology arguments (Registry row 12) - the doctrine argued FOR in
-    a Donatist voice, not merely characterised
+  locus: 'Petilian''s own quoted arguments for rebaptism: the doctrine argued for in a Donatist voice, not merely described'
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
   locus: the Acta Purgationis Felicis (314) - the founding traditio accusation against Felix of Aptungi in

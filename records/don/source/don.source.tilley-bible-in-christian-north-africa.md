@@ -20,6 +20,7 @@ relations: []
 author: Maureen A. Tilley
 work: 'The Bible in Christian North Africa: The Donatist World (Fortress Press, 1997)'
 edition: Fortress Press, 1997 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
+citation: 'Maureen A. Tilley, The Bible in Christian North Africa: The Donatist World (Fortress Press, 1997)'
 kind: unvendored
 rights_status: "in-copyright modern scholarship; consultation-only, never vendored. Cited and paraphrased, never quoted as licensed vendored material - a bibliographic record only"
 attribution_status: attributed

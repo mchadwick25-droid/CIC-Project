@@ -26,7 +26,7 @@ sources:
     dispute that it happened
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: the 411 Conference acts and their precise bishop counts - Registry row 55
+  locus: 'the acts of the 411 Conference and their precise bishop counts'
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
   locus: the Cebarsussi and Bagai sentences quoted directly - the conciliar machinery of this hierarchy in

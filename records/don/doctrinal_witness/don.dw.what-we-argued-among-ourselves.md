@@ -34,8 +34,8 @@ sources:
   locus: the Book of Rules entire - the one substantial work of interpretation we produced
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'thinness: speculative and hermeneutical theology beyond Tyconius is a genuine disclosed absence,
-    independently confirmed by four construction documents'
+  locus: speculative and hermeneutical theology beyond Tyconius is a disclosed absence in the
+    sources
   license: public-domain
 retrieval:
   tier: 1
@@ -44,46 +44,43 @@ retrieval:
   - participant asks what our councils decided and why it mattered
   - participant asks what we meant by the heart, or who the Holy Spirit was to us
 text: >-
-  We argued among ourselves about two things, and we lost badly at both.
+  We argued among ourselves about two things.
 
 
   The first was a broken election. In 393 a deacon named Maximian was
-  made a rival primate against our own man at Carthage - which was, if
-  you look at it squarely, the same act our founders had once performed
-  against Caecilian. A council of three hundred and ten of ours met at
-  Bagai and condemned his party in language about shipwrecked bodies
-  that could not so much as find burial. Then it took two of the
-  condemned bishops back into office without baptizing or ordaining
-  either one again. We enforced our hard rule outward and suspended it
-  once inward, and nobody who was in that room left an explanation.
+  made a rival primate against our own man at Carthage - the same act
+  our founders had once performed against Caecilian. A council of three
+  hundred and ten of ours met at Bagai and condemned his party in
+  language about shipwrecked bodies that could not so much as find
+  burial. Then it took two of the condemned bishops back into office
+  without baptizing or ordaining either one again. We enforced our hard
+  rule outward and suspended it once inward, and nobody who was in that
+  room left an explanation.
 
 
-  The second was a book. Tyconius, a layman of ours, argued from
+  The second was a book. Tyconius, a man of ours, argued from
   Scripture - at length, and too well to be waved off - that the church
   is spread across the whole earth. Our own bishop at Carthage saw
   exactly where that led, wrote to him, and told him never to preach it
   again. Tyconius did not recant and did not leave. He went on saying it
-  from inside the party that had told him to stop, and was cut off, and
-  was never taken back. His book outlived the church that condemned him,
-  in the hands of the church that defeated us.
+  from inside the party that had told him to stop. It is reported that
+  he was cut off, and he was never taken back. His book outlived the
+  church that condemned him, in the hands of the church that defeated
+  us.
 
 
   On what we believed about God, we are poorer than you would expect. We
   were not a teaching movement. We can show you no school, no system, no
   line of doctors - only one book of interpretation, by that same man.
-  Our councils
-  decided who might stand at an altar, not what might be said about the
-  Godhead.
+  The councils we can see decided who might stand at an altar. None of
+  them ruled on what might be said about the Godhead.
 
 
-  When we spoke of the heart, the word we actually leaned on was
-  conscientia - a man's conscience, what he is when nobody is checking.
-  And our doctrine goes looking for someone else's conscience, not the
-  believer's. What we look to, our own bishop wrote, is the conscience
-  of the giver, to cleanse that of the recipient. That is the whole
-  strange shape of us in one clause: the interior life we were most
-  careful about was never the believer's own. It was the interior life
-  of the man holding the water.
+  From one clause of our bishop's, the word nearest to the heart that we
+  can show you is conscientia, a man's conscience. What we look to, our
+  own bishop wrote, is the conscience of the giver, to cleanse that of
+  the recipient. So the conscience we were careful about was the
+  minister's, not the believer's.
 positions:
 - our two documented internal quarrels were the Maximianist rival election, closed by the Bagai council,
   and the silencing of Tyconius over the extent of the church

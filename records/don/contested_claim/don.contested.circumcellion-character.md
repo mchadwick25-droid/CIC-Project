@@ -19,11 +19,10 @@ sources:
     gold'
   license: public-domain
 - source_id: don.source.boyd-ecclesiastical-edicts-theodosian-code
-  locus: corroborating secondary account of the surrounding legislative sequence; explicitly not licensed
-    for the group's own character claims, Doc_02 SS3
+  locus: 'a secondary account of the surrounding legislation; not a source for the group''s own character'
   license: public-domain
 - source_id: don.source.optatus-against-donatists
-  locus: the hostile literary characterization this contest tests, per Doc_03 SS4/Doc_04 SS3.5
+  locus: 'the hostile literary portrait this dispute tests'
   license: public-domain
 relations:
 - type: associated-with

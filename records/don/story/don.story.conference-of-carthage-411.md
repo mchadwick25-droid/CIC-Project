@@ -28,18 +28,15 @@ confidence:
     read: the numbered acts in this printing break off before it.'
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: 'cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt -- read directly at lines 73340-73380
-    (the volume''s own editorial summary of the conference: the Thermae Gargilianae venue, the choice of
-    Marcellinus as cognitor, the 286/279 tally, the seven pleaders a side, the adjournments), 116860-118270
-    (Marcellinus''s edicts and acts 17-29 and 105-111), 122190-122260 (acts 144-145, the offer of seats
-    and its refusal), 123990-124060 and 124975-125010 (the mandate roll-call and the Catholic subscription
-    tally), 125870-125920 (acts 46-54), 126825-126870 (acts 50 and 57), 127490-127530 and 127800-127850
-    (acts 92-95, 99, 114-115, 120-123), 129600-129640 (acts 252-254), 130240-130430 (acts 265-271, the
-    wheat-and-tares exchange), and 131900-131960 and 132760-132900 (where the numbered acts break off and
-    the editor''s own Historia begins)'
+  locus: 'Gesta Collationis Carthaginiensis, as printed in Migne, Patrologia Latina
+    11: the editor''s summary of the conference, Marcellinus''s edicts, the mandate
+    roll-call and subscription tally, acts 144-145 (the offer of seats and its refusal),
+    acts 265-271 (the wheat-and-tares exchange), and the point where the numbered
+    acts break off'
   license: public-domain
 - source_id: don.source.gesta-collationis-carthaginiensis-411
-  locus: the acts of the 411 Conference themselves, reached through the Migne printing above
+  locus: the acts of the 411 Conference themselves, as printed in Migne, Patrologia
+    Latina 11
   license: public-domain
 - source_id: don.source.monceaux-histoire-litteraire-tome6
   locus: the dedicated chapter "Emeritus de Caesarea", for his biography and for the corroboration that
@@ -82,77 +79,76 @@ narrative_tier_justification: 'Tier 1 at the strongest strength this corpus offe
   were the state''s, and the proceeding was decided against us - but the specific distortion this inventory
   names everywhere else does not apply. The Tier 1 caveat for "the author''s perspective and genre" therefore
   attaches to the genre (a court record, shaped by procedure) rather than to an author''s hostility.'
-tellable_as: Two hundred and seventy-nine of our bishops meet two hundred and eighty-six of theirs before
-  an imperial judge, refuse the chairs he offers because Christ stood before his own governor, and spend
-  three days arguing that a court which has already been told which side is Catholic cannot be the one
-  to find out.
+tellable_as: Our bishops face the Catholic bishops before an imperial judge. They
+  refuse the chairs he offers, because Christ stood before his own governor. For
+  three days they argue that a court which has already been told which side is Catholic
+  cannot be the one to find out.
 text: >-
   In the summer of 411 the emperor ordered the whole quarrel settled at
   law, and sent Flavius Marcellinus, a tribune and notary, to Carthage to
   hear it. Both communions were summoned. Our bishops came, and were
   counted: the roll of subscribed mandates was read out name by name, and
   as each name was read the bishop it belonged to came forward and said
-  the same six words - I gave the mandate and I signed. When the roll
-  reached one of ours he added something the notary set down with the
-  rest: that he had no traditores in his own congregation, nor in his
-  whole diocese. Bishops from the other side interrupted the reading to
-  dispute particular entries - one of ours, they said, had been a
-  Catholic deacon, had been rebaptized, made a presbyter, thrown out for
-  adultery, and only then made a bishop - and Petilian answered from our
-  benches that the man had chosen to stand in the place of an accuser.
-  Seven were then chosen from each side to plead for all.
+  the same words - I gave the mandate and I signed. When the roll reached
+  one of ours he added something the notary set down with the rest: that
+  he had no traditores in his own congregation, nor in his whole diocese.
+  Bishops from the other side interrupted the reading to dispute
+  particular entries - one of ours, they said, had been a Catholic deacon,
+  had been rebaptized, made a presbyter, thrown out for adultery, and only
+  then made a bishop - and Petilian answered from our benches that the man
+  had chosen to stand in the place of an accuser. Seven were then chosen
+  from each side to plead for all.
 
   Marcellinus, sitting, offered our bishops chairs. He said plainly that
   it weighed on him to sit while so many venerable men stood. Petilian
   thanked him for the courtesy and refused it. We do not blush, he said,
   we do not fear, we do not avoid standing willingly while you sit; and
-  since Christ the Lord himself did not avoid it, when he deigned to
-  stand before the governor, how much less may we refuse. Our bishops
-  stood for three days.
+  since Christ the Lord himself did not avoid it, when he deigned to stand
+  before the governor, how much less may we refuse. Our bishops stood for
+  three days.
 
   Emeritus of Caesarea carried the argument. He would not let the court
   reach the substance of the case before it had settled how the case got
   there. First the day, he said, then the mandate, then the persons, then
   the cause - and only then the merits. To you, truest of judges, nothing
   else falls but to hold to the truth: judge, exalted man, in a Christian
-  matter, because it is God who judges this case. He held the court to
-  the emperor's own four-month term, and would dispute nothing of the
-  merits until the day itself had been ruled on. When the other side
-  declined to name its own representatives, their rank, or their mandate,
-  he said that the truth was being hidden by a great contrivance. When
-  they complained that he was hunting for persons instead of arguing the
-  case, and asked why he had come at all, Petilian answered for him that
-  every case begins with the persons; and Emeritus pressed the point to
-  its hinge - no one can be called a respondent unless someone first
-  challenged him, so let them state the action they bring, and then we
-  will answer it.
+  matter, because it is God who judges this case. He held the court to the
+  emperor's own four-month term, and would dispute nothing of the merits
+  until the day itself had been ruled on. When the other side declined to
+  name its own representatives, their rank, or their mandate, he said that
+  the truth was being hidden by a great contrivance. When they complained
+  that he was hunting for persons instead of arguing the case, and asked
+  why he had come at all, Petilian answered for him that every case begins
+  with the persons; and Emeritus pressed the point to its hinge - no one
+  can be called a respondent unless someone first challenged him, so let
+  them state the action they bring, and then we will answer it.
 
   The name itself was fought over. Their side asked that the accusations
   we were said to make against a church spread through the whole earth be
   heard that very day, and be found true or false. Petilian answered that
-  before the case is decided the name they claim is an empty one, and
-  that whoever is found to be a Christian will hold it at the end.
-  Marcellinus agreed - it is certain, he said, that after the contest the
-  name Catholic belongs to those with whom the truth is found - and then
-  said that he was nevertheless bound to follow the imperial rescript,
-  which had already been pleased to call them by it. That answer is the
-  whole shape of the day for us: a judge who conceded the principle and
-  was not free to act on it.
+  before the case is decided the name they claim is an empty one, and that
+  whoever is found to be a Christian will hold it at the end. Marcellinus
+  agreed - it is certain, he said, that after the contest the name
+  Catholic belongs to those with whom the truth is found - and then said
+  that he was nevertheless bound to follow the imperial rescript, which
+  had already been pleased to call them by it. That answer is the whole
+  shape of the day for us: a judge who conceded the principle and was not
+  free to act on it.
 
   On the third day the argument finally reached Scripture. Augustine
   argued from the wheat and the tares that the church holds good and bad
   together, and that what is to be saved is the world. Emeritus answered
   him out of the same books, verse against verse: the world did not know
   him - so the church did not know God, if the church is the world; that
-  every mouth may be stopped and all become guilty before God; if you
-  were of the world, the world would love its own, but because you are
-  not of the world, therefore it hates and persecutes you; they are of
-  the world, and the world hears them; if any man love the world, the
-  love of the Father is not in him. When Augustine went on at length,
-  Emeritus said only that a man who runs on that long drowns himself out.
+  every mouth may be stopped and all become guilty before God; if you were
+  of the world, the world would love its own, but because you are not of
+  the world, therefore it hates and persecutes you; they are of the world,
+  and the world hears them; if any man love the world, the love of the
+  Father is not in him. When Augustine went on at length, Emeritus said
+  only that a man who runs on that long drowns himself out.
 
-  Emeritus signed the record of that exchange as he signed most of what
-  he said there - I, Emeritus the bishop, have reviewed this, my appeal
+  Emeritus signed the record of that exchange as he signed most of what he
+  said there - I, Emeritus the bishop, have reviewed this, my appeal
   reserved. He put his name to the notary's account of his own words and
   refused, in the same stroke, to accept the proceeding they were being
   recorded for.

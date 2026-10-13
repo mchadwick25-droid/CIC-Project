@@ -19,9 +19,8 @@ confidence:
     of what it establishes.'
 sources:
 - source_id: don.source.optatus-appendix-of-documents
-  locus: the Gesta apud Zenophilum (320), read directly at cic/texts/optatus_against-the-donatists.txt
-    lines 6194-6300 - the accusation, the letters of Purpurius, Fortis and Sabinus, and the examination
-    of Victor
+  locus: the Gesta apud Zenophilum (320), in Optatus's appendix - the accusation, the letters of
+    Purpurius, Fortis and Sabinus, and the examination of Victor
   license: public-domain
 names:
 - name: Silvanus, our bishop at Cirta
@@ -34,8 +33,8 @@ dates:
     over the objection of part of his own congregation; the subject of the 320 inquiry before the consular
     Zenophilus
 narratable: true
-bridge_line: The bishop of Cirta whose own people shouted for someone else when he was ordained - and who,
-  a court found, had handed over the scriptures before he ever became one.
+bridge_line: The bishop of Cirta whose own people shouted for someone else when he was made bishop. A
+  court found that he had handed over the scriptures before he ever became one.
 relations:
 - type: associated-with
   target: don.story.gesta-apud-zenophilum

@@ -18,6 +18,7 @@ author: Karl Ziwsa (ed.)
 work: S. Optati Milevitani libri VII, Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL) 26 (Prague/Vienna/Leipzig,
   1893)
 edition: cic/texts/optatus_libri-vii-critical_ziwsa1893.txt
+citation: S. Optati Milevitani libri VII, ed. Karl Ziwsa, Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL) 26 (Prague/Vienna/Leipzig, 1893)
 kind: vendored
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed
@@ -25,4 +26,4 @@ discovery_channel: Source Registry row 38; builder-prior-knowledge, cross-checke
 external_ids:
   don_source_registry_row: 38
 ---
-The critical Latin edition attaching to row 1's own work -- the specific instrument that would settle the second-edition question row 1's own Verification Note leaves open, in place of the 1917 translator's own footnote. Confirmed this session as the genuine CSEL 26 edition (title page, and the Gesta Purgationis Felicis appendix document both present); the second-edition/book-count question has not itself been settled this session -- the apparatus criticus has not yet been read for that purpose.
+The critical Latin edition attaching to row 1's own work -- the specific instrument that would settle the second-edition question row 1's own Verification Note leaves open, in place of the 1917 translator's own footnote. Confirmed this session as the genuine CSEL 26 edition (title page, and the Gesta Purgationis Felicis appendix document both present).

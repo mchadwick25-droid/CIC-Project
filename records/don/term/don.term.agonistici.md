@@ -33,10 +33,8 @@ sources:
   locus: 16.5.52, the law naming the group
   license: public-domain
 - source_id: don.source.monceaux-histoire-litteraire-tome4
-  locus: 'row 52''s own footnote, quoting Augustine, Enarr. in Ps. 132.6 verbatim: "Milites
-    Christi Agonistici appellantur." The self-designation reaches this record only through Monceaux''s own
-    quotation of the Latin; the vendored NPNF English of the Enarrationes (npnf108) does not carry
-    the term at all, checked directly.'
+  locus: 'Augustine, Enarrationes in Psalmos 132.6: ''milites Christi agonistici appellantur''. Monceaux
+    quotes this in a footnote and reads it as the group''s own name for itself.'
   license: in-copyright-consultation
 - source_id: don.source.shaw-sacred-violence
   locus: the standard corrective reading of the hostile portrait
@@ -61,9 +59,9 @@ relations:
   target: don.term.refusal-of-imperial-legitimacy
 - type: associated-with
   target: don.term.persecutio
-plain_meaning: Some of us in the Numidian countryside call ourselves agonistici -- contestants, those who strive.
-  Our opponents call us Circumcellions and paint us as violent wanderers. That we exist is beyond doubt. What
-  we were actually like is a question the surviving record cannot close.
+plain_meaning: Augustine says some of us in the country called ourselves agonistici. It means contestants.
+  Our opponents called us Circumcellions and said we were violent wanderers. That we existed is beyond
+  doubt. What we were like, the record cannot say.
 world_word: agonistici
 false_friend:
 - '''Circumcellion'' as an accepted self-description rather than the opponents'' own label'
@@ -82,16 +80,16 @@ senses:
     Modern Reconstruction at best on Shaw''s reading. Doc_04 SS3.5 also confirms the phenomenon Supporting for
     the Numidian regional sub-ecology only, not ecology-wide -- so any account that lets this group stand for
     the movement as a whole has overreached the evidence.'
-  personal: 'In that region, belonging to this communion was not belonging to a minority. It was belonging to
-    the ordinary church of one''s own village. The contest is narrower than it looks: whether the vivid, often
-    violent character the opponents describe covers that whole regional strength, or only ever described a smaller
-    and more provocative element the hostile record chose to make stand for the rest.'
-  translational: '''Weren''t they basically a violent fringe?'' -- that is exactly the question the evidence will
-    not close. The name they are usually given is not their own; the portrait attached to it comes almost entirely
-    from people with every reason to make them look dangerous; and the one piece of independent testimony, an
-    imperial law, confirms only that they existed and were legislated against. A fair account names the question
-    open rather than repeating the portrait as fact.'
-quick_meaning: Contestants -- our own name for the country strivers our opponents call Circumcellions.
+  personal: In Numidia, belonging to this communion did not mean belonging to a minority. It meant belonging
+    to the church of one's own village. The open question is narrower than it looks. Did the violent character
+    our opponents describe fit the whole region? Or did it fit only a small, provocative part that the hostile
+    record let stand for the rest?
+  translational: '''Weren''t they basically a violent fringe?'' That is the question the evidence will not
+    close. The name usually given to them, Circumcellions, was not their own. Almost all of the portrait
+    comes from people with every reason to make them look dangerous. The one independent witness, an imperial
+    law, shows only that they existed and were legislated against. A fair account leaves the question open
+    and does not repeat the portrait as fact.'
+quick_meaning: Contestants. Augustine says our side called the country folk this, and their foes had another name.
 distortion_risk: high
 prior_sense: 'Agonistes is a contender at the games; agonistici carries that sense of one who strives in a contest.
   The opponents'' word runs the other way: circum cellas, those who linger around the shrines.'

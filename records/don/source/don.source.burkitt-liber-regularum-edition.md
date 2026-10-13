@@ -18,6 +18,7 @@ author: F.C. Burkitt (ed.)
 work: The Book of Rules of Tyconius, Newly Edited from the MSS., Texts and Studies III/I (Cambridge University
   Press, 1894)
 edition: cic/texts/tyconius_liber-regularum_burkitt1894.txt
+citation: Tyconius, The Book of Rules of Tyconius, Newly Edited from the MSS., ed. F.C. Burkitt, Texts and Studies III/I (Cambridge University Press, 1894)
 kind: vendored
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed

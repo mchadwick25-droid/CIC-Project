@@ -22,11 +22,11 @@ confidence:
     argument, and no account of the affair from our own side survives.'
 sources:
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: On Baptism, Against the Donatists I.1.2 and I.5.7; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
-    lines 10834-10911 and 11509-11527
+  locus: Augustine, On Baptism, Against the Donatists I.1.2, I.5.7 and II.11.16
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
-  locus: Answer to the Letters of Petilian, quoting the Bagai decree directly; same file, lines 15505-15514
+  locus: Augustine, Answer to the Letters of Petilian I.10.11, quoting the Bagai
+    decree directly
   license: public-domain
 retrieval:
   tier: 1
@@ -54,9 +54,9 @@ narrative_tier_justification: 'Tier 1 at high confidence: the council''s decree 
   - is corroborated across two separate works by the same author, a stronger evidentiary base than a single
   citation. Tier 1''s own caveat for the author''s perspective attaches to the framing rather than to the
   wording: Augustine is quoting, not paraphrasing, and the words he quotes are ours.'
-tellable_as: Three hundred and ten of our bishops condemn a breakaway party in language about shipwrecked
-  bodies that cannot even find burial - and then take two of the condemned bishops back into office without
-  rebaptizing or reordaining either one.
+tellable_as: Three hundred and ten of our bishops condemn a breakaway party. They
+  say its people are shipwrecked men who cannot even find a grave. Later our party
+  takes two of those bishops back. It repeats neither baptism nor ordination.
 text: >-
   In 393 a deacon named Maximian was elected as a rival primate at
   Cebarsussi, in direct defiance of Primian, the sitting primate at
@@ -69,26 +69,26 @@ text: >-
   Maximianists in language that did not soften what it meant. The decree,
   preserved in Augustine's own quotation of it, describes the schismatics
   as shipwrecked men dashed by the waves of truth upon the sharp rocks,
-  their bodies covering the shore, so thoroughly that they fail to find
-  so much as burial.
+  their bodies covering the shore, so thoroughly that they fail to find so
+  much as burial.
 
-  And then, having said this, the council did something its own decree's
-  language did nothing to prepare a listener for. When Felicianus of
-  Musti and Praetextatus of Assuris, two of the condemned Maximianist
-  bishops, were brought back into the fold, it was done without
-  rebaptism and without reordination. A general named Optatus Gildonianus
-  enforced the reconciliation with military force. The very men whose
-  ordination the council had just described in the imagery of shipwreck
-  and unburied death were received back into full office, exactly as they
-  had been ordained under the schism the council had just condemned in
-  the harshest terms it had.
+  And afterwards our party did something its own decree's language did
+  nothing to prepare a listener for. When Felicianus of Musti and
+  Praetextatus of Assuris, two of the condemned Maximianist bishops, were
+  brought back into the fold, it was done without rebaptism and without
+  reordination. Optatus Gildonianus, a bishop of ours, enforced the
+  reconciliation with military force. The very men whose ordination the
+  council had just described in the imagery of shipwreck and unburied
+  death were received back into full office, exactly as they had been
+  ordained under the schism the council had just condemned in the harshest
+  terms it had.
 
   Augustine, no friend to any argument of ours, seized on the
-  contradiction and made it the centre of his own case: if reordination
-  could be waived here, on the mainstream party's own authority, then the
-  absolute rule - that invalidly ordained clergy must always be
-  rebaptized and reordained, without exception - did not hold even for
-  the party that preached it most fiercely.
+  contradiction and made it the centre of his own case: if the baptisms
+  these bishops had given in schism could stand, on the mainstream party's
+  own authority, then the absolute rule - that a sacrament from a
+  condemned hand is void - did not hold even for the party that preached
+  it most fiercely.
 absent_detail: No account of the Bagai council from our own side survives beyond the decree Augustine quotes,
   and nothing at all survives of the reasoning by which the same council that wrote those words received
   Felicianus and Praetextatus back unrepeated. We do not know what was said in the room, or whether anyone

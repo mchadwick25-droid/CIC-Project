@@ -65,14 +65,13 @@ senses:
     in the vendored corpus. But every quotation of it is Augustine's, deployed for his own argument. The Donatist
     side's own account of the decision -- how it squared Bagai with the rule it otherwise enforced -- does not
     survive in any form. So the fact is secure and the reasoning behind it is a genuine blank.
-  personal: This is the point where the community's own machinery drew the boundary differently against its own
-    than against its rival. Doc_05 SS2 and SS4 both hold it as a lived inconsistency rather than resolving it
-    into either 'the doctrine wasn't really absolute' or 'the reception was a lapse'.
-  translational: '''So they didn''t really believe their own rule?'' -- the honest answer is that the record shows
-    the rule enforced hard outward and suspended once inward, and does not preserve anyone explaining why. Treating
-    that as settled hypocrisy imports a conclusion the evidence does not supply; so does treating it as a principled
-    exception.'
-quick_meaning: Bagai took our own dissidents back without baptizing or ordaining them again.
+  personal: Here the community drew the line differently against its own than against its rival. It was
+    a lived inconsistency. The record does not settle it as 'the doctrine wasn't really absolute' or as
+    'the reception was a lapse'.
+  translational: '''So they didn''t really believe their own rule?'' The record shows the rule enforced
+    hard against the rival and set aside once for our own. It does not preserve anyone explaining why. Calling
+    that plain hypocrisy goes beyond the evidence. So does calling it a principled exception.'
+quick_meaning: Bagai took our own dissidents back. No one was baptized or ordained again.
 distortion_risk: low
 use_note:
   means: "The Donatists took Maximianist clergy back after Bagai without rebaptizing or reordaining them, an open departure from the rule held against the rival."

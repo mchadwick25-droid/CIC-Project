@@ -26,8 +26,7 @@ sources:
     written to the tribune Boniface after the Conference
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: the 411 Conference acts read directly - the standing-and-seats exchange, the naming contest, and
-    Marcellinus's own statement that he was bound by the imperial rescript; Registry row 55
+  locus: 'the 411 Conference acts: the standing-and-seats exchange, the naming contest, and Marcellinus''s own statement that he was bound by the imperial rescript'
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
   locus: the 405 Edict of Unity and the sustained legal suppression that followed; 16.5.52

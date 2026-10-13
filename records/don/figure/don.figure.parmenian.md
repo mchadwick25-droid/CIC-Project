@@ -32,8 +32,8 @@ dates:
     exile, until about 391 or 392, when Primian followed him; the interlocutor Optatus wrote his seven
     books against, and the recipient of a further refutation by Augustine a decade after his death
 narratable: true
-bridge_line: The bishop of Carthage whose writings we lost and whose opponents' answers to them survive
-  - and who told the best exegete on our side never to preach that argument again.
+bridge_line: The bishop of Carthage whose writings we lost, though his opponents' answers to them
+  survive. He told the best interpreter of Scripture on our side never to preach that argument again.
 relations:
 - type: associated-with
   target: don.story.tyconius-condemnation

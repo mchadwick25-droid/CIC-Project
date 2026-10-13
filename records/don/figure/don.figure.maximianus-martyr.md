@@ -31,8 +31,7 @@ dates:
     repression of 347-348; beaten with leaded whips and then with rods; by the letter's account still living
     when he was thrown into the sea
 narratable: true
-bridge_line: The one chosen to go first - who saw a ring of blood and light in his wine the night before,
-  and dreamed he fought the emperor himself and was crowned by a bright youth.
+bridge_line: The one chosen to go first. The night before, he saw a crown, red as blood and bright as light, come down into his cup. He also dreamed that he fought the emperor himself and was crowned by a bright youth.
 relations:
 - type: associated-with
   target: don.story.macrobius-letter
@@ -53,7 +52,7 @@ was thrown into the sea weighted with jars of sand so the body could not
 be venerated, and that the congregation recovered and buried him, are
 the narrative core. The omen in the wine and the dream of fighting the
 emperor are Macrobius's own account of what those events meant - offered
-to a congregation being told, in the letter's closing turn, that the
-same may be asked of any of them.
+to readers who are urged, in the letter's closing turn, to hurry after the two,
+who wait with their arms stretched out from heaven.
 
 PAIRED, ALWAYS, WITH don.figure.isaac.

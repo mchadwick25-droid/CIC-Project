@@ -23,7 +23,7 @@ confidence:
     and Doc_06 SS1 promoted it to Tier 1 -- the roster''s one tier change.'
 sources:
 - source_id: don.source.optatus-against-the-donatists
-  locus: Book III, line 1904 -- Donatus's reported 'Quid est imperatori cum ecclesia?'
+  locus: Book III -- Donatus's reported retort, 'What has the Emperor to do with the Church?'
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
   locus: Anulinus's 313 relatio to Constantine
@@ -52,9 +52,9 @@ relations:
   target: don.term.agonistici
 - type: associated-with
   target: don.term.persecutio
-plain_meaning: The state has no standing to say which church is the true one. 'What has the emperor to do with
-  the church?' -- so our primate is reported to have asked. Yet three times we went to that same court when it
-  served us. We hold both facts at once, and call neither one a lie.
+plain_meaning: We held that the state had no standing to say which church was the true one. 'What has
+  the Emperor to do with the Church?' -- so our primate is reported to have asked. Yet three times we
+  went to that same court when it served us. We held both facts at once, and called neither one a lie.
 world_word: Quid est imperatori cum ecclesia? ("What has the emperor to do with the church?")
 false_friend:
 - a modern principle of church-state separation held as a constitutional doctrine
@@ -73,15 +73,16 @@ senses:
     than a series of grievances is partly the build''s own frame, corroborated by one quoted utterance of Donatus
     preserved -- like almost everything else -- inside a hostile text. Doc_05 SS6.4 houses the same tension as
     T1 and holds it rather than resolving it.'
-  personal: This is the posture the whole communion turns outward. It explains why the early rulings were rejected,
-    why the martyrs die for this cause and not another, and why every see is held under continuing legal jeopardy.
-    When the Vandals took Carthage in 439, the specific power the stance was defined against was simply removed
-    -- which is not read from inside as defeat.
+  personal: This was the posture the whole communion turned outward. It explains why the early rulings were
+    rejected, why the martyrs died for this cause and not another, and why every see was held under continuing
+    legal jeopardy. In 439 the Vandals took Carthage, and the power the stance was defined against was removed.
+    How our people took that, the record does not say.
   translational: '''If they petitioned the emperor three times, didn''t they give the game away?'' -- from inside,
     no. What is refused is the state''s standing to settle who the true church is. What was occasionally used
     is the same state''s machinery, where using it conceded nothing about that question. A stance held on balance
     under repeated pressure is not the same thing as an absolute rule that shatters the first time it bends.'
-quick_meaning: The emperor has no standing to say which church is true -- though three times we used his courts.
+quick_meaning: We held that the emperor had no standing to say which church was true, though three times
+  we used his courts.
 distortion_risk: high
 use_note:
   means: "Donatists held that the state cannot say which church is true, yet three times turned to imperial authority when it served them."

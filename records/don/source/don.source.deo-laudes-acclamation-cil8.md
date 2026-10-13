@@ -18,6 +18,7 @@ author: Unknown Donatist dedicators (epigraphic)
 work: The Deo laudes acclamation, attested at CIL VIII 17732 (Bagai), 20482, 17368, and 18669
 edition: Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II (Numidia), ed. Cagnat & Schmidt
   (Berlin, 1894), vendored as cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt
+citation: The Deo laudes acclamation, attested at CIL VIII 17732 (Bagai), 20482, 17368, and 18669, Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II (Numidia), ed. Cagnat & Schmidt (Berlin, 1894)
 kind: vendored
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed
