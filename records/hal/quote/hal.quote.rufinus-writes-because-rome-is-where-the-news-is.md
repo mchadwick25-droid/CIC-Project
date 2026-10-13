@@ -25,8 +25,7 @@ modern_rendering: >-
   It has come to my knowledge that certain persons have mentioned my name. They did so in
   a controversy they have raised in your Holiness's jurisdiction, on matters of faith or
   on other points. Your Holiness has been trained from infancy in the strict principles of
-  the Church. I venture to believe that you have refused to listen to any slanders against
-  a person who is absent. That person is one you have known and thought well of, as united
+  the Church. I venture to believe that you have refused to listen to any slanders that may have been aimed at a person who is absent. That person is one you have known and thought well of, as united
   with you in the faith and love of God. Still, I hear it reported that my reputation has
   been attacked. So I have thought it right to make my position clear to your Holiness in
   writing.

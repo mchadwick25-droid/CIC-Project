@@ -39,7 +39,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): the seq
   proceeding against him is NOT attested beyond thin inference.'
 tellable_as: 'the crisis that drove the circle from Rome: Blaesilla''s death, the crowd at
   her funeral, the loss of Damasus, and the voyage east'
-text: Blaesilla was Paula's eldest daughter, widowed young. She turned to the discipline with
+text: Blaesilla was Paula's daughter, widowed young. She turned to the discipline with
   a convert's fire, and within months she was dead, about twenty years old. At the funeral
   her mother collapsed and was carried fainting through the procession, and the crowd began
   to mutter. See what comes of their fasting. She weeps for a daughter killed by it. How long

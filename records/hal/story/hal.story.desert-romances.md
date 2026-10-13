@@ -45,8 +45,7 @@ text: At Bethlehem, between translations, the scholar wrote two lives of holy me
   not outrun his own fame. There were crowds, miracles, demons shrieking out of the possessed.
   Admirers hunted the hermit from Gaza to Sicily to Cyprus, and he wanted only to be left
   alone with God. Jerome closed the tale of Malchus by calling it a history of chastity for
-  the chaste. Whether every adventure happened is another matter. We tell them as the stories
-  we told, not as history.
+  the chaste. Whether every adventure happened is another matter. 
 absent_detail: 'Nearly everything, by design: these are consciously literary productions
   giving Latin Christianity its own desert-hagiographic genre, with acknowledged
   legendary elements; the historical reliability of the specific events is thin, and this

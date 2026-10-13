@@ -23,9 +23,7 @@ exchange:
     text: >-
       We were not handed a settled map of your fate, and we will not draw you one.
       Here is what we held, without softening. We believed in real judgment and
-      real punishment. Our own scholar had once handled sympathetically the
-      teaching that in the end every creature, even the devil, would be restored -
-      and we publicly renounced it. That door we closed. But we were not
+      real punishment. Our scholar was charged with favoring the teaching that in the end every creature, even the devil, would be restored. He answered that he had set it out as a heresy, and we publicly renounced it. That door we closed. But we were not
       consistent executors of our own severity. The same pen that threatened
       judgment pleaded for mercy for the baptized who had fallen, hoped much from
       penance, and treated no living person's end as sealed. We did not draw up

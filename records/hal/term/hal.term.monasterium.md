@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep108
-  locus: secs. 14, 19-20 (the paired communities and their discipline)
+  locus: secs. 10, 14, 19-20 (the paired communities and their discipline)
   license: public-domain
 - source_id: hal.source.sulpitius-dialogues
   locus: Dialogue I.8-9 (the community seen from outside)
@@ -28,7 +28,7 @@ retrieval:
   - who led whom at Bethlehem
 claim_guards:
 - do not supply schedule-level daily detail (not attested)
-plain_meaning: "The monastery. At Bethlehem it meant a men's house and a women's house, the women in three companies that prayed together, under one project. Paula, then Eustochium, led the women."
+plain_meaning: "The monastery. At Bethlehem it meant a men's house and a women's house under one project. The women lived in three companies that met to pray. Paula, then Eustochium, led the women."
 world_word: monasterium
 false_friend:
 - '"double monastery" as a formal institution (that label belongs to later medieval arrangements;

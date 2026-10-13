@@ -23,7 +23,7 @@ exchange:
     Were you born again - is that how you'd put what happened to your people?
 - speaker: representative
   text: >-
-    Born again was our word for baptism, the washing that makes a person new. We
+    We spoke of being born again in baptism, the washing that makes a person new. We
     spoke of conversion as a turn so sharp you could name the day. The day a
     rich widow - a vidua, in our own Latin - put on rough cloth. The day a
     scholar swore off his favorite books. Paula came from one of the oldest
@@ -43,8 +43,7 @@ exchange:
     prepared, and a dream: you are lying - you follow Cicero, not Christ. He
     swore off worldly books and threw himself into the Scriptures. His enemies
     later pointed out, fairly, that his pages never stopped quoting the
-    classics. The turn was real, and the old loves stayed with him. He never
-    made the two easy together.
+    classics. The turn was real, and the old loves stayed with him.
 ---
 F4-T conversational flow: the datable turning first (practices + Paula), then the follow-up pressed on permanence - answered with the Ciceronian dream told against the founder, relapse and all.
 

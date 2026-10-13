@@ -29,9 +29,7 @@ text: >-
   desert years were anything but peaceful. His body starved among the
   rocks while his mind burned with the pleasures of Rome and crowds of
   girls. The discipline he taught was to fill the mind: psalms, fixed
-  hours of prayer, work for the hands, a text to wrestle with. Love the
-  knowledge of scripture, he told a young monk, and you will no longer
-  love the sins of the flesh. On prayer that meets silence, the record
+  hours of prayer, work for the hands, a text to wrestle with.  On prayer that meets silence, the record
   is thinner and sadder. Our comfort letters were written after deaths,
   and they offer hope. They do not report that the silence broke. And on
   forgiving someone who is not sorry, we have to show our scars. Our own

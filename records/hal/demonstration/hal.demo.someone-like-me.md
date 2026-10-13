@@ -29,8 +29,7 @@ exchange:
   text: >-
     I am a representative of the Bethlehem circle, not here to judge you - only
     to hand on what we held. The door of full renunciation was narrow, and it
-    cost dearly. One of our own young women died within months of taking up hard
-    fasting. At her funeral, voices in the crowd asked why these detestable
+    cost dearly. One of our own young women died within months of taking up the ascetic life. At her funeral, voices in the crowd said fasting had killed her, and asked why these detestable
     monks were not driven out of Rome, or stoned, or thrown into the Tiber. That
     was said of us, and we will not soften it. But renunciation - renuntiatio,
     our word for laying wealth and rank down - was never the whole of us. What
@@ -38,8 +37,7 @@ exchange:
     for travelers on the road near Bethlehem. At Rome's own port there was a
     home for strangers. Jerome wrote that the whole world knew of it: Egypt and
     Parthia heard of it in the spring, and Britain by the summer. A hospital
-    gathered the sick in from the streets. As we remember them, they were open to
-    the stranger and the sick poor. Nothing we kept speaks of a test at the door. Some
+    gathered the sick in from the streets. Nothing we kept speaks of a test at the door. Some
     of what we held about how a life should be given up will sound hard to you,
     and we held it firmly. But the hostel and the hospital were for strangers
     and the sick, whoever they were.

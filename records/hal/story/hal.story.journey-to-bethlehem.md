@@ -36,7 +36,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): named a
   finding on the Nitria passage''s rhetorical name-list is carried in absent_detail).'
 tellable_as: Paula's trip from Rome to the holy places and Egypt, and why she stayed at Bethlehem,
   as her community wrote it down
-text: When winter was over and the sea was open, Paula went down to the harbor with her children
+text: Paula went down to the harbor at Portus, with her children
   on the shore. The account says her eyes were dry, held toward heaven, as the ship pulled
   out. Her little son stretched out his hands from the beach. She sailed east by way of Cyprus,
   where the bishop Epiphanius kept her ten days. She went on to Antioch, and then down the

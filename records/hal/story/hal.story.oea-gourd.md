@@ -15,10 +15,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.augustine-letters
-  locus: Ep. 71 (the incident, in Augustine's hand)
+  locus: Ep. 71 sec. 5 (the incident, in Augustine's hand); Ep. 75 sec. 22 (Jerome's reply on the gourd)
   license: public-domain
 - source_id: hal.source.jerome-augustine-letters
-  locus: Ep. 112 (the reply; Letter LXXV in the Augustine collection, sec. 22)
+  locus: Ep. 112 (headnote only in this edition)
   license: public-domain
 retrieval:
   tier: 2

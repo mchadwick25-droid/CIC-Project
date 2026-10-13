@@ -33,10 +33,7 @@ exchange:
     whole world was itself captured, and worse, famine got there before the
     sword, leaving only a few citizens to be taken prisoner. Marcella, an old
     woman who had given everything away years before, is said to have been
-    beaten by soldiers demanding a treasure she no longer had. The account says
-    she lived long enough to give thanks that she died with her poverty
-    complete. Years later our own monastery - the monasterium - at Bethlehem was
-    burned by fellow Christians. We wrote briefly of it afterward that our
+    beaten by soldiers demanding a treasure she no longer had. The account says that before she died, she thanked God that the taking of the city had found her poor, not made her so. Years later our own monastery - the monasterium - at Bethlehem was pillaged and partly burned by fellow Christians. We wrote briefly of it afterward that our
     house's earthly wealth had been completely destroyed by the attacks of the
     heretics, but that by the mercy of Christ it was still filled with spiritual
     riches - better to live on bread than to lose the faith. A pope, hearing of

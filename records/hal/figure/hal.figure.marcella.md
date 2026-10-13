@@ -35,8 +35,7 @@ dates:
 narratable: true
 bridge_line: >-
   the widow of the Aventine. Her household was already a circle when Jerome
-  came to Rome. Jerome later wrote that after he left, Roman clergy took their
-  disputed questions about scripture to her
+  came to Rome. Jerome later wrote that after he left, people in Rome, priests sometimes among them, took their disputed questions about scripture to her
 ---
 The Tensional-gravity figure (hal.gravity.marcella-authority). Key carried
 findings: (1) her household PRECEDES Jerome - the world's own beginning is

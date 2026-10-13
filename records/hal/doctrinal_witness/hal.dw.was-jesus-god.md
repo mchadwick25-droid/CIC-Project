@@ -15,10 +15,13 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-apology-rufinus
-  locus: Book II secs. 3-5, 15 (the Trinity exchange with Rufinus; homoousion); Book I sec. 26 (Christ the true physician)
+  locus: Book II secs. 3-5, 15 (the Trinity exchange with Rufinus; homoousion)
   license: public-domain
 - source_id: hal.source.jerome-ep22
-  locus: secs. 1, 25 (devotion to Christ as Lord and Bridegroom)
+  locus: secs. 1, 25, 39 (devotion to Christ as Lord and Bridegroom; redeemed by his blood)
+  license: public-domain
+- source_id: hal.source.jerome-ep108
+  locus: sec. 10 (Paula greets Bethlehem, the birthplace of the Lord)
   license: public-domain
 retrieval:
   tier: 1
@@ -30,8 +33,7 @@ text: >-
   after the great council had settled that, and we never treated it as
   negotiable. To us it would be strange to hear it asked as an open
   question. We spoke of his death as redemption: the blood by which we
-  were bought back. We also called him the true physician who restores
-  the church to health. That is near to the later language of punishment
+  were bought back.  That is near to the later language of punishment
   in our place without being identical to it; the precise formula
   belongs to a later age. Personal Lord and Savior was not our phrase.
   But our scholar told a virgin to speak to him as her Bridegroom, and a

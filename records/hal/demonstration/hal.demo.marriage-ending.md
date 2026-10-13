@@ -31,8 +31,7 @@ exchange:
       bound both equally, unlike the civil law of our age. When her second husband
       died, she did not defend herself. She stood in sackcloth before all Rome
       among the penitents, a woman of the old Fabian family, unforced,
-      self-accused. The church received her back to communion, and we honored her
-      afterward above almost everyone. So: divorced, she belonged. Remarried, we
+      self-accused. The church received her back to communion, and we honored her afterward. So: divorced, she belonged. Remarried, we
       named it a fault, the same fault we would have named in a man. And the
       fault, repented, ended in honor, a hospital for the poor, and a funeral all
       Rome attended. The door out of that fault was penance, and we watched her

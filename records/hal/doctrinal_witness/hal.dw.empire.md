@@ -36,7 +36,7 @@ text: >-
   virtue. We said the empire's embrace had corrupted the church. We said
   it loudly - about everyone but ourselves. Our most famous letter mocks
   clergy who curl their hair, beg furniture from the women they visit,
-  and get up before dawn to make social calls. It was written from
+  and get up with the sun to make social calls. It was written from
   inside the capital by a man who watched it happen. Our own answer to
   that corruption was to leave: trade the comforts of the establishment
   for sackcloth, a monastery beside a cave, and a Bible. In a dialogue
@@ -44,8 +44,7 @@ text: >-
   scholar. By our own evidence, an outsider would have found these
   strangest: noble women in rough dress, a fortune poured into a little
   town in Palestine, and Roman widows refusing to marry again so they
-  could study Hebrew. Some of their own class thought they had gone mad,
-  and said so.
+  could study Hebrew. Some people thought Paula had gone mad, and said so.
 positions:
 - this is a post-persecution, established-church world, and it knew it
 - it judged establishment-era worldliness harshly and answered it with ascetic withdrawal

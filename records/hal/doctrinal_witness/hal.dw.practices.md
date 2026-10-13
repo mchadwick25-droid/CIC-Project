@@ -30,13 +30,13 @@ sources:
   locus: sec. 4 (the widow in sackcloth)
   license: public-domain
 - source_id: hal.source.jerome-against-pelagians
-  locus: the passages on being born again in baptism
+  locus: Book III secs. 15, 19 (the newly baptized "born again"; John 3:5)
   license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Born again was our word for baptism. Jerome wrote that people rise
+  We spoke of being born again in baptism. Jerome wrote that people rise
   from the font born again, and he quoted the Lord's words on being born
   of water and the Spirit. Conversion, for us, was a turn so sharp you
   could name the day: the day the widow put on sackcloth, the day the

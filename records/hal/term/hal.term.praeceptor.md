@@ -18,7 +18,7 @@ confidence:
     build's own reconstruction, not a documented self-application, per the old record's own caveat.
 sources:
 - source_id: hal.source.jerome-de-viris
-  locus: "ch. 135, Jerome's own entry listing his works (does not mention Donatus)"
+  locus: "ch. 135 (Jerome's own entry and works-list)"
   license: public-domain
 - source_id: hal.source.jerome-apology-rufinus
   locus: "Book I, ch. 16 ('my master Donatus' on Virgil)"
