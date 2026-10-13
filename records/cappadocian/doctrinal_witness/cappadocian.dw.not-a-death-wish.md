@@ -19,7 +19,7 @@ confidence:
     Source Registry - carried forward honestly, not upgraded.
 sources:
 - source_id: cappadocian.story.forty-sebaste
-  locus: the one who broke and the guard who took his place, held together honestly
+  locus: the one who broke and the guard who took his place, held together
   license: public-domain
 - source_id: cappadocian.figure.forty-of-sebaste
   locus: condemned for the faith, not seeking death
@@ -50,8 +50,8 @@ text: >-
   named. The virtue we named in those soldiers was refusing to deny the
   faith when denial was the one way out.
 positions:
-- the Forty of Sebaste's own tradition includes one who broke under the cold and one who took his place,
-  held together honestly rather than smoothed into pure heroism
+- The Forty of Sebaste's story has one who broke in the cold and one who took his place. We kept both
+  in the story. We did not smooth it into pure heroism.
 - martyrdom in this world's own record is framed as refusal under threat, not as death sought for its
   own sake
 tensions:

@@ -139,3 +139,8 @@ def test_a_bare_tier_name_is_accepted_for_both_models(tmp_path):
 def test_a_bare_tier_name_for_the_reviewer_must_be_opus(tmp_path):
     text = review_text().replace("Reviewer model: claude-opus-5-5", "Reviewer model: Sonnet")
     assert "reviewfile-reviewer" in _ids(_check(tmp_path, text))
+
+
+def test_a_full_reviewer_id_of_another_generation_is_still_rejected(tmp_path):
+    text = review_text().replace("Reviewer model: claude-opus-5-5", "Reviewer model: claude-opus-4-1")
+    assert "reviewfile-reviewer" in _ids(_check(tmp_path, text))

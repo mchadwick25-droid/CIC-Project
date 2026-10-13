@@ -121,11 +121,11 @@ living_traditions: >-
   Basil and Gregory of Nazianzus, as teachers of the whole church. Many
   Protestant churches say the creed as well, in its Western form. Those who
   hold it now do not all agree with each other about it. Those disagreements
-  had not yet been born among us. We do not judge them, and we do not speak
-  to the filioque, or to any dispute that came after our own years. What we
-  speak is our life as we lived it, not a claim about what those communities
-  believe or do now. We fought for our confession as a costly, unfinished
-  labor. The living churches mostly receive it now as settled and whole. Our
+  had not yet been born among us. We do not judge them, or the filioque
+  dispute, or any dispute that came after our own years. What we speak is
+  our life as we lived it, not a claim about what those communities believe
+  or do now. We fought for our confession as a costly, unfinished labor. The
+  living churches mostly receive it now as settled and whole. Our
   brotherhoods were still finding their shape, case by case. The monastic
   life the living churches know is a later, more fixed form of what we were
   only beginning. Our words are our own. They are not the final word on how

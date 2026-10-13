@@ -34,12 +34,13 @@ description: >-
   unbegotten names God's very being. Eunomius' Apology, around 360, drew
   Basil's refutation. Gregory of Nyssa carried it on after Basil's death.
   The movement built its own churches and rebaptized those who joined it.
-  This world heard in that teaching a claim to grasp what no mind can grasp.
-  It heard in the rebaptism a claim that the first baptism had failed.
-  Against Eunomius the teachers used the schools' own tools of argument. The
-  fight made this world spell out how words reach God: truly, yet never
-  completely. It made presumption the typical spiritual danger. It sharpened
-  the line between rebaptism and the graded welcome of those who came back.
+  This world said he claimed to know God as God knows himself. It heard in
+  that teaching a claim to grasp what no mind can grasp. It heard in the
+  rebaptism a claim that the first baptism had failed. Against Eunomius the
+  teachers used the schools' own tools of argument. The fight made this
+  world spell out how words reach God: truly, yet never completely. It made
+  presumption the typical spiritual danger. It sharpened the line between
+  rebaptism and the graded welcome of those who came over from other groups.
   And it humbled the schools' logic by logic.
 manifestations:
 - Eunomius' Apology (c. 360), drawing Basil's refutation and, after Basil's death, Gregory of Nyssa's continuation

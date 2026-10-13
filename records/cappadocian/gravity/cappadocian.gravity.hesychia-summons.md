@@ -57,12 +57,12 @@ description: >-
   pull explains odd public facts. The world's greatest speaker spent his
   best years in flight. Basil wrote with longing of a riverbank retreat in
   Pontus. He went back to it for a time, and then he was called away again.
-  The pull touches nearly every other gravity. It is the inner cost of the
-  ascetic life, the problem of renouncing learning, and the shadow side of
-  the bishop as patron. It grew strongest just when the church most needed
-  recruits. Its reach is bounded. It belonged to ascetics, clergy and the
-  circle of friends, not to the farmer of the plateau. The evidence for it
-  in the careers is documented.
+  The pull touches nearly every other pull in this world. It is the inner
+  cost of the ascetic life, the problem of renouncing learning, and the
+  shadow side of the bishop as patron. It grew strongest just when the
+  church most needed recruits. Its reach is bounded. It belonged to
+  ascetics, clergy and the circle of friends, not to the farmer of the
+  plateau.
 manifestations:
 - Basil's early letters describing the retreat ideal, set against the career he actually lived
 - Nazianzen's Oration 2, the flight narratives, De vita sua, the Sasima wound

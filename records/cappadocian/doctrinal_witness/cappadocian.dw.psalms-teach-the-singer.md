@@ -40,7 +40,7 @@ positions:
 - the psalms interpreting the singer, rather than the reverse, was treated as real theological
   education, not a lesser substitute for it
 tensions:
-- we cannot give our teachers' answer on the violence in scripture; that gap is named, not filled
+- we cannot give our teachers' answer on the violence in scripture
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-on-antiphonal-psalmody

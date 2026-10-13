@@ -8,10 +8,12 @@ register: emic
 canon_cells: []
 confidence:
   citation_specificity: C
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   evidentiary_weight: contested
   formation_confidence: Documented
-  divergence_note: "The appeal to the inheritance is Documented in Basil's own letters at work level; the Life of Gregory Thaumaturgus itself, which supplies the legend's own content, is a century-later hagiography (Tier 3) - the legend is carried as legend, not as checkable biography of the third-century mission."
+  divergence_note: The appeal to the inheritance is Documented in Basil's own letters at work level; the
+    Life of Gregory Thaumaturgus itself, which supplies the legend's own content, is a century-later hagiography
+    (Tier 3) - the legend is carried as legend, not as checkable biography of the third-century mission.
 sources:
 - source_id: cappadocian.source.gregory-nyssa-life-of-gregory-thaumaturgus
   locus: "the seventeen-to-seventeen conversion claim and the mission narrative, a century-later hagiography"

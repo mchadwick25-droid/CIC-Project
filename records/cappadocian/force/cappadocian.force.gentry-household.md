@@ -34,12 +34,12 @@ description: >-
   bishops and a monk. Another produced a bishop father and his son Gregory
   of Nazianzus, later called the Theologian. The house was the first church.
   The grandmother taught the words of Gregory the Wonderworker. The mother
-  taught the psalms and made vows for her children. The stories of those who
-  had stood firm were told by lamplight. When the sons went out to the
-  schools and the sees, they credited the women of the house with their
-  first teaching in the faith. This force set the pattern of leadership:
-  household, then schooling, then renunciation, then a call to office. It
-  also made the world's surviving writing a family memorial.
+  taught the psalms. The stories of those who had stood firm were told by
+  lamplight. When the sons went out to the schools and the sees, they
+  credited the women of the house with their first teaching in the faith.
+  This force set the pattern of leadership: household, then schooling, then
+  renunciation, then a call to office. It also made the world's surviving
+  writing a family memorial.
 manifestations:
 - one household yielding a didaskalos-figure, three bishops, and a monk
 - another household yielding a bishop-father (himself converted from a syncretistic sect) and "the Theologian"

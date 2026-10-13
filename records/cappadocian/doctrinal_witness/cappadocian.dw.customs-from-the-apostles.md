@@ -42,8 +42,8 @@ text: >-
 positions:
 - practices this world could not trace to any written document (facing east, standing at prayer, threefold
   baptism, the words over the water and the bread) were kept everywhere as apostolic
-- Their authority came from the apostles. It was handed down unwritten, in a mystery, with the same force
-  as the written. No one could show a written chain back to them.
+- Our teachers held that their authority came from the apostles. It was handed down unwritten, in a mystery,
+  with the same force as the written. No one could show a written chain back to them.
 tensions:
 - we cannot supply what you may actually be asking for - a checkable, documentary line from any one
   practice back to the apostles themselves; that chain does not exist in our own record, and we do not

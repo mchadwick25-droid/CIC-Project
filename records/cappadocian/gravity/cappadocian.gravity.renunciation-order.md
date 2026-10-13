@@ -52,8 +52,7 @@ description: >-
   brought into ordered communities. The pull was never fully settled in this
   period. It reached from household to brotherhood, to the congregation's
   line between fast and feast, and to the village through Gangra's rules for
-  the parish. It counts as a lasting tension. A side with no voice of its
-  own cannot carry more weight than that.
+  the parish.
 manifestations:
 - the Gangra censures (c. 340s) - twenty canons against radical ascetic practice, the era's best against-the-grain record
 - the Asketikon's ordering answers - obedience against self-willed askesis, the slave-reception provisions

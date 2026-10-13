@@ -21,14 +21,16 @@ edition: >-
   21346). The seventeen-to-seventeen claim is reported in the editor's
   introduction to cic/texts/anf06 on Gregory Thaumaturgus. An acquisition
   gap.
-citation: 'Gregory of Nyssa, Life of Gregory Thaumaturgus, Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, Ascetic, and Moral Treatises, Letters), ed. Schaff'
+citation: >-
+  Gregory of Nyssa, Life of Gregory Thaumaturgus
 kind: unvendored
 rights_status: >-
   not independently verified; not yet acquired as an open text
 attribution_status: attributed
-discovery_channel: builder-prior-knowledge; Source Registry row 51; a named, vendored text already sitting
-  in cic/texts/ (present since an earlier session), not reopened to recheck this specific citation this
-  session.
+discovery_channel: >-
+  builder-prior-knowledge; Source Registry row 51. Earlier marked as held in
+  cic/texts/npnf205, but that volume only refers to it; the Life has not
+  been acquired.
 external_ids:
   cappadocian_source_registry_row: 51
 ---
