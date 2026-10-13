@@ -845,3 +845,17 @@ A second independent review of PR #877, run by the coordinating session, found t
 6. **Correction to the review-file item of the rulings entry.** That item said repository files carry no model identifier, so the review-file checker should accept a bare tier name. The premise was wrong: the checker already accepts "Opus 5.5", which names the generation without a model identifier string. Mark withdrew that ruling the same day (System Hub Decision Log, "Change order: review files name the reviewer's generation, not only its tier", 2026-10-13). `engine/m10/reviewfile.py` is left as it is on main; one added test pins a wrong-generation reviewer as rejected. The six cappadocian review files now name Opus 5.5 as reviewer and drafter model. Each review's transcript shows every turn served by that model, and the drafting thread ran on it too.
 
 Status: CLOSED for items 1 to 6.
+
+### OG-45. Use notes that contradicted their corrected fields, 2026-10-13.
+
+Mark ruled that `use_note.means` is in scope where it contradicts the corrected record, because `engine/m4/evidence.py` puts every record's `means` into the evidence block the voice reads. A read-only check compared the `means` of all 122 cappadocian records that carry one with their corrected spoken fields and sources. Six contradicted them and now say what the corrected field says:
+- `cappadocian.dw.how-it-reached-us`: "a finished deposit" becomes the faith "already given", with the teachers' lists still differing over a few books.
+- `cappadocian.dw.baptism-and-new-birth`: most *documented* baptisms were adult ones, some delayed until death; how common infant baptism was cannot be told.
+- `cappadocian.story.doxology-stand`: Basil gave glory in two forms while praying with his people and was accused of new and contradictory words.
+- `cappadocian.term.diastema`: endless growth is Gregory of Nyssa's teaching, not the term's general meaning.
+- `cappadocian.term.eikon`: the poor bear the image; Gregory of Nyssa alone turned it against owning slaves, while the churches still lived with slavery.
+- `cappadocian.term.philanthropia`: rulers also claimed the word, rather than the church taking it over.
+
+No not_for or years line was changed. The same check found that the `text` of `cappadocian.story.thaumaturgus-legend` still said "a region"; it now names the city of Neocaesarea, matching its summary and the source (cic/texts/anf06, lines 839-840).
+
+Status: CLOSED.

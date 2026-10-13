@@ -79,13 +79,17 @@ modern_contrast: >-
   doctrinal claim - defending a preposition was, in this world's own
   accounting, defending the whole confession of who the Spirit is.
 use_note:
-  means: "Basil gave glory to the Father together with the Son and the Spirit, drew objections, and answered with On the Holy Spirit, which evidences worship as a carrier of doctrine."
+  means: Basil, praying with his people, gave glory to the Father in two forms, was accused of new and
+    contradictory words, and answered with On the Holy Spirit, which evidences worship as a carrier of
+    doctrine.
   not_for:
-    - "a claim that Basil plainly said the Spirit is God"
-    - "the objectors' own reasons, which do not survive"
-    - "the full argument from unwritten customs, which sits in cappadocian.term.paradosis"
-    - "a verbatim phrase from the treatise, since no rendering was checked"
-  years: {from: 375, to: 381}
+  - a claim that Basil plainly said the Spirit is God
+  - the objectors' own reasons, which do not survive
+  - the full argument from unwritten customs, which sits in cappadocian.term.paradosis
+  - a verbatim phrase from the treatise, since no rendering was checked
+  years:
+    from: 375
+    to: 381
   status: reviewed
 ---
 Derived fresh from Doc_09 entry #2 (Tier 1), checked against the legacy

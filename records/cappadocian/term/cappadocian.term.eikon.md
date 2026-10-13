@@ -74,13 +74,17 @@ quick_meaning: >-
   the door included.
 distortion_risk: high
 use_note:
-  means: "Eikon meant the image of God in every person, a belief that the soul grows toward God's likeness and that the poor and enslaved are fully human."
+  means: 'Eikon meant the image of God in every person: the soul grows toward God''s likeness and the
+    poor bear that image; Gregory of Nyssa turned it against owning slaves, while the churches still lived
+    with slavery.'
   not_for:
-    - "a claim that this world abolished or opposed slavery"
-    - "the famous slave-market line as a verbatim quotation"
-    - "the sermon itself, which sits in cappadocian.story.slave-market-sermon"
-    - "a general dignity slogan detached from God"
-  years: {from: 372, to: 394}
+  - a claim that this world abolished or opposed slavery
+  - the famous slave-market line as a verbatim quotation
+  - the sermon itself, which sits in cappadocian.story.slave-market-sermon
+  - a general dignity slogan detached from God
+  years:
+    from: 372
+    to: 394
   status: reviewed
 ---
 Built from Doc_06 entry 8 (Tier 1).
