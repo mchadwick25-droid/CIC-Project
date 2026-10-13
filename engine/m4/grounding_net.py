@@ -626,6 +626,9 @@ _FORWARD = re.compile(
     r"in\s+these\s+words|like\s+this|these\s+words)\s*[.:]?\s*$",
     re.IGNORECASE,
 )
+# A comma before "and", "but" and the like ends a clause; it does not
+# introduce words: "every hymn he wrote, and the choirs sang them".
+_CLAUSE_JOIN = re.compile(r"\s*(?:and|but|or|nor|yet|so)\b", re.IGNORECASE)
 _NAME = r"[A-Z][\w'’.-]*(?:\s+(?:of|the|de|von|van|al|bar|ibn|[A-Z][\w'’.-]*)){0,5}"
 _NAME_COLON = re.compile(rf"^\s*(?P<name>{_NAME})\s*:")
 _TRAILING_NAME = re.compile(
@@ -706,6 +709,8 @@ def _attribution(outside: str, index: "QuotationIndex") -> dict | None:
     if named_colon and _is_name(named_colon.group("name"), index):
         return {"opens": True, "words": bool(_WORD.search(text[named_colon.end():]))}
     for match in _FORMULA.finditer(text):
+        if match.group("verb") and match.group(0).endswith(",") and _CLAUSE_JOIN.match(text, match.end()):
+            continue
         if match.group("as"):
             subject = match.group("who")
         elif match.group("verb"):

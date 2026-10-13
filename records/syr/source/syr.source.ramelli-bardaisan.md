@@ -18,6 +18,7 @@ work: 'Bardaisan of Edessa: A Reassessment of the Evidence and a New Interpretat
   the positive-evidence case (via Didymus the Blind, Julius Africanus, the Origenian tradition) that Bardaisan
   held institutional Christian standing as deacon or presbyter and remained in the church until death'
 edition: consultation-only; no edition vendored
+citation: 'Ilaria Ramelli, Bardaisan of Edessa: A Reassessment of the Evidence and a New Interpretation (Gorgias, 2009)'
 kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: 'verified real, and CALIBRATED (legacy Doc_02 SS4): one contested interpretive position,

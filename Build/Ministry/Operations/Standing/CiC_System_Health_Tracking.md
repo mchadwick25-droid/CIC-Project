@@ -1566,3 +1566,7 @@ The project lead looked at this idea and set it aside, kept here as a possible i
 - Against: the invented ids it was added to stop may come back. On the live version these are shown as withheld sentences, not misquotes. No test costs nothing except the project lead's own conversations.
 - What a build would involve: the deletion of `aec3ab008` (PR #846) applied to the live tree without #841's quote placement; every package rebuilt and re-pinned, so every world's admission goes stale. The built prompts differed only by the removed section and the gallic and cappadocian quotation notes.
 - What would justify taking it up: evidence that reworded quotes match the index's opening words, rather than the voice's own habit.
+
+## 2026-10-13 - The sentence-enforcement retry and set-aside removed from `main`
+
+Under the System Hub Decision Log entry "Quotes placed by code, with no paid rewrite" (2026-10-13), the open gap from the 10-11 October rollback that `main` still carries the sentence-enforcement retry and the Facilitator set-aside is closed on the branch `engine/quotes-by-code-no-rewrite`, once merged. Still open: the promotion of `main` to `live` waits on the named, capped live test of all eleven worlds, which is also the admission the promotion needs; AWS credentials in this environment failed on 13 October. The recitation retry stays on `live` and `main`, a separate decision.

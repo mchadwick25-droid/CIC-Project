@@ -19,6 +19,7 @@ edition: trans. J.B. Morris (hymns 1-13, Oxford Library of the Fathers 1847, fro
   and A. Edward Johnston (the six Nitrian-recovered hymns, from Lamy's text), revised and edited by John
   Gwynn, NPNF series 2 vol. 13 (1898); vendored as cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml
   (div iii.v)
+citation: Ephrem the Syrian, Nineteen Hymns on the Nativity of Christ in the Flesh, trans. J. B. Morris and A. Edward Johnston, ed. John Gwynn, Nicene and Post-Nicene Fathers, 2nd series, vol. 13 (1898)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed (cycle substantially genuine; individual hymns assessed by Beck's tests)

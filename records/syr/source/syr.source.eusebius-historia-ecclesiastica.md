@@ -18,6 +18,7 @@ work: 'Ecclesiastical History - the Syriac-relevant notices: I.13 (the Abgar nar
   Eusebius took as genuine from the Edessa archives), IV.29 (Tatian and the Diatessaron), IV.30 (Bardesanes
   the Syrian and his works)'
 edition: trans. A.C. McGiffert, NPNF series 2 vol. 1 (1890); vendored as cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml
+citation: Eusebius of Caesarea, Ecclesiastical History, trans. A. C. McGiffert, Nicene and Post-Nicene Fathers, 2nd series, vol. 1 (1890)
 kind: vendored
 rights_status: public-domain
 attribution_status: 'attributed; RISK SCREEN: Eusebius accepted the Abgar correspondence as genuine -

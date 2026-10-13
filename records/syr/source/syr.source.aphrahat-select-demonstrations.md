@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources: []
-author: Aphrahat, 'the Persian Sage' (fl. c. 337-345; a manuscript dated 512 calls him 'Mar Jacob, the Persian
+author: Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian
   sage'; the name 'Aphrahat' first appears in the tenth century)
 work: 'Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the
   Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death
@@ -21,6 +21,7 @@ work: 'Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama
 edition: trans. A. Edward Johnston after Parisot's Patrologia Syriaca text, edited by John Gwynn, NPNF
   series 2 vol. 13 (1898); vendored as cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml (div
   iii.ix)
+citation: Aphrahat, Select Demonstrations, trans. A. Edward Johnston, ed. John Gwynn, Nicene and Post-Nicene Fathers, 2nd series, vol. 13 (1898)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed, with the author's own identity contested in the manuscript tradition (Mar

@@ -18,6 +18,7 @@ work: 'The Luminous Eye: The Spiritual World Vision of Saint Ephrem (1992 ed.), 
   (2013 ed.) as companion - the raza/shrara account: the symbol is bound to the truth and carries its
   hidden power, not a Platonic stand-in'
 edition: consultation-only; no edition vendored
+citation: 'Sebastian Brock, The Luminous Eye: The Spiritual World Vision of Saint Ephrem (1992), with The Harp of the Spirit (2013)'
 kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: 'verified (legacy Doc_02 SS11 closed Doc_01''s open item with two genuine quotations:

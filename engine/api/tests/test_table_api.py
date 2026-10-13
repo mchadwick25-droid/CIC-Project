@@ -1202,7 +1202,7 @@ def test_a_streamed_table_seat_sends_its_sentences_then_the_turn(store, usage_st
         stream_scripts=[[clean_sentence + " ", clean_sentence + " ", clean_sentence + " ", "That is what we hold."]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
-                 streaming_enabled=True, sentence_enforce=False)
+                 streaming_enabled=True)
     session_id, auth = _create_table(http, world_keys=("alx", "desert"))
     events = _events(http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers={**auth, **STREAM}))
     names = [name for name, _ in events]
@@ -1222,7 +1222,7 @@ def test_a_seat_caught_mid_reply_ends_at_its_last_shown_sentence_and_the_facilit
         stream_scripts=[[clean_sentence + " ", clean_sentence + "\n\n", "The Facilitator: I will speak for both of us now. ", "And more."]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
-                 streaming_enabled=True, sentence_enforce=False)
+                 streaming_enabled=True)
     session_id, auth = _create_table(http, world_keys=("alx", "desert"))
     events = _events(http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers={**auth, **STREAM}))
     shown = [d["text"] for name, d in events if name == "sentence"]
@@ -1244,7 +1244,7 @@ def test_a_seat_caught_in_its_first_sentence_shows_nothing_and_regenerates(store
         stream_scripts=[["The Facilitator: I will speak for both of us now. ", "Then more."], [clean_sentence]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
-                 streaming_enabled=True, sentence_enforce=False)
+                 streaming_enabled=True)
     session_id, auth = _create_table(http, world_keys=("alx", "desert"))
     events = _events(http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers={**auth, **STREAM}))
     assert [name for name, _ in events] == ["done"]
@@ -1263,7 +1263,7 @@ def test_continue_streams_the_next_seat(store, usage_store, world_loader, regist
         stream_scripts=[[alx_sentence], [desert_sentence + " ", desert_sentence + " ", desert_sentence + " ", "So we held."]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
-                 streaming_enabled=True, sentence_enforce=False)
+                 streaming_enabled=True)
     session_id, auth = _create_table(http, world_keys=("alx", "desert"))
     http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers=auth)
     events = _events(http.post(f"/api/session/{session_id}/continue", headers={**auth, **STREAM}))

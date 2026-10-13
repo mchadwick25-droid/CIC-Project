@@ -18,6 +18,7 @@ work: 'Ecclesiastical History - the Syriac-relevant notices: II.26 (the siege of
   conversation'' of Bishop Jacobus; NPNF chapter numbering) and IV.26 (Of Didymus of Alexandria and Ephraim
   the Syrian)'
 edition: trans. Blomfield Jackson, NPNF series 2 vol. 3 (1892); vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
+citation: Theodoret of Cyrus, Ecclesiastical History, trans. Blomfield Jackson, Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (1892)
 kind: vendored
 rights_status: public-domain
 attribution_status: 'attributed; hagiographically shaped narrative a century after the events: the Nisibis-siege
