@@ -46,11 +46,7 @@ text: 'While Origen was still young and teaching the faith in Alexandria, he did
   acted on it himself. He taught men and women together, day and night, and wanted no one to accuse him
   of wrongdoing because of it. He tried to keep the act secret. He could not. When his bishop, Demetrius,
   learned of it, he admired the young man''s daring and his faith, and urged him to keep teaching. Soon
-  afterward, once Origen had grown famous far beyond Alexandria, the same Demetrius turned that same youthful
-  act against him: he wrote to bishops everywhere denouncing it as foolish, at the same time using Origen''s
-  ordination by the bishops of Caesarea and Jerusalem as fresh
-  grounds for attack. Origen himself later judged the verse differently, and wrote against reading it so
-  literally.'
+  afterward, once Origen had grown famous far beyond Alexandria, the same Demetrius turned that youthful act against him. He wrote to bishops everywhere denouncing it as foolish. At the same time, he used Origen''s ordination by the bishops of Caesarea and Jerusalem as fresh grounds for attack. Origen himself later judged the verse differently. He wrote against reading it so literally.'
 absent_detail: 'Eusebius alone reports this; no first-person account from Origen himself describes the
   act, only his later Commentary on Matthew arguing against a literal reading of the same verse. Whether
   the act happened exactly as told, happened at all, or grew out of a misunderstanding of Origen''s own

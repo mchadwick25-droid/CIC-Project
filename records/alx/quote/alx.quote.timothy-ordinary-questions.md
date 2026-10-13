@@ -22,17 +22,17 @@ text: 'Question I. If a lad of seven years old, or a man, being a catechumen, be
   baptized, for he is called by God. ... Question VIII. Ought a woman in child-bed to keep the Paschal
   fast? Answer. No. ... Question X. Is a sick man obliged to keep the Paschal fast? Answer. No. Question
   XI. If a clergyman be called to celebrate a marriage, and have heard that it is incestuous; ought he to
-  comply, and perform the oblation? Answer. No; he must not be partaker of other men''s sins.'
+  comply, and perform the oblation? Answer. No; he must not be partaker of other men’s sins.'
 modern_rendering: >-
   Question I. A boy of seven, or a man, who is a catechumen may be present
-  at the eucharistic offering and eat of it in ignorance. What should be
+  at the offering and eat of it in ignorance. What should be
   done? Answer. Let him be illuminated, that is, baptized, for he is
   called by God. ... Question VIII. Should a woman who has just given
   birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man
   required to keep the Paschal fast? Answer. No. Question XI. A clergyman
   is called to celebrate a marriage, and he has heard that it is
-  incestuous. Should he comply and perform the eucharistic offering?
-  Answer. No; he must not share in other men’s sins.
+  incestuous. Should he comply and perform the offering?
+  Answer. No; he must not share in other men's sins.
 speaker_or_author: Timothy, bishop of Alexandria (d. 385), answering questions put to him
 license: verbatim
 modern_lens_note: >-
