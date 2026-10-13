@@ -28,6 +28,7 @@ attribution_status: attributed to Huldrych Zwingli, in Jackson's own 1912 Englis
 discovery_channel: Source_Registry.md row 8, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.
 external_ids:
   rzg_source_registry_row: 8
+citation: Huldrych Zwingli, The Latin Works and the Correspondence of Huldreich Zwingli, Vol. I, trans. and ed. Samuel Macauley Jackson (1912)
 kind: vendored
 ---
 Early treatises and letters, a second independent Zwingli volume; also the source for Myconius's own eyewitness account of Zwingli's death (rzgstory003) and the one thin, non-narrative Marburg Colloquy mention (Doc_09 SS6). Locus named (whole file); not itemized by individual work within the file.

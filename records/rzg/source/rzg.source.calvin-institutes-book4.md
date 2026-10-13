@@ -25,6 +25,7 @@ attribution_status: attributed to John Calvin, 1559 final Latin edition, in the 
 discovery_channel: Source_Registry.md row 3, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.
 external_ids:
   rzg_source_registry_row: 3
+citation: 'John Calvin, Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the Society of Christ, and Keeps Us in It), trans. Henry Beveridge (Edinburgh: Calvin Translation Society, 1845)'
 kind: vendored
 ---
 The church, sacraments, and civil government - G2 and G4's own doctrinal grounding. Verified directly against the vendored file, whole file, per Source_Registry.md's own Verification Note. AUTHORED note: the Registry's Source cell names this volume 'Beveridge 1845' although Institutes Book IV is conventionally bound as the translation's own third volume; the vendored filename (`...vol3_beveridge1845.txt`) resolves this without ambiguity and is carried as the `edition` field's own file citation.
