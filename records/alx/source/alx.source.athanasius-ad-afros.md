@@ -16,6 +16,7 @@ sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
 work: "Ad Afros Epistola Synodica (Letter to the Bishops of Africa), c. 369 CE, written after Nicaea; confirms the triadic baptismal confession and the homoousion"
 edition: "NPNF series 2 vol. 4 (1892, ed. Robertson; per-work translator to be re-read from the division's own front matter at first quote, given this volume's documented translator splits), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml, line ~60968"
+citation: Athanasius of Alexandria, Ad Afros Epistola Synodica (Letter to the Bishops of Africa), ed. Robertson, Nicene and Post-Nicene Fathers ser. 2 vol. 4 (1892)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed
