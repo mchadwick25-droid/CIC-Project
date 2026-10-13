@@ -15,13 +15,14 @@ confidence:
   divergence_note: "Documented that Marcion, Valentinian Christianity, and Montanism existed and were geographically overlapping with this world's own core regions in the same decades; Contested on precise founding/break dates for each (Marcion's traditional c. 144 break with Rome vs. Moll's arrival-not-expulsion reading; Montanism's start disputed between c. 157 and c. 172). All three witnesses cited here are hostile or later, per each source's own USE DISCIPLINE - none is the rival movements' own voice in its own words."
 sources:
 - source_id: pahc.source.tertullian-adversus-marcionem
-  locus: "1.19 (the conventional c. 144 CE break date with the Roman church)"
+  locus: 1.19 (Marcion placed in the reign of Antoninus Pius, 115 years after Tiberius; the basis of the
+    conventional c. 144 CE date for the break with the Roman church)
   license: public-domain
 - source_id: pahc.source.irenaeus-adversus-haereses
-  locus: "Book I (the fullest contemporary description of Valentinian teaching)"
+  locus: Book I (the fullest contemporary description of Valentinian teaching)
   license: public-domain
 - source_id: pahc.source.anti-montanist-fragments
-  locus: "whole work (Phrygian origin, spread, and the synodical opposition of Asia Minor's churches)"
+  locus: whole work (Phrygian origin, spread, and the synodical opposition of Asia Minor's churches)
   license: public-domain
 relations:
 - type: associated-with
@@ -49,9 +50,12 @@ description: "HISTORICAL EVENT: Marcion's traditional break with the Roman churc
   extension, since the gravity-level Interaction Matrix records no demonstrated relationship
   between state pressure and boundary-drawing directly."
 manifestations:
-- "Marcion's own churches, an established rival institution by c. 180-208 per Tertullian's and Irenaeus's shared treatment"
-- "Valentinian teaching, split into Western/Italian and Eastern branches, documented in Rome and Asia Minor alike"
-- "the New Prophecy (Montanism), Phrygian in origin, already contested by synods of Asia Minor bishops at this world's own closing edge"
+- Marcion's own churches, an established rival institution by c. 180-208 per Tertullian's and Irenaeus's
+  shared treatment
+- Valentinian teaching, split into Western/Italian and Eastern branches, documented in Rome and Asia Minor
+  alike
+- the New Prophecy (Montanism), Phrygian in origin, already examined and rejected by gatherings of the
+  faithful across Asia at this world's own closing edge
 ---
 Re-derived from the approved Doc_08 Force 2A-2. canon_cells: F3-T ('Did
 you have denominations - how did you handle other communities who

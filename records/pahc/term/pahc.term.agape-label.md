@@ -41,21 +41,20 @@ false_friend:
 - a settled two-meal system (agape vs eucharist) read back from later evidence
 - a purely modern scholarly label with no ancient anchor (Ignatius himself uses the word)
 senses:
-  informational: 'A meal that carries love''s own name: agape. Ignatius names it in his own letter -
-    not lawful without the bishop to baptize or to hold a love-feast - so the label has a genuine
-    inside anchor, a real practice under the bishop''s oversight. Whether his agape is the
-    eucharistic meal itself or a separate common meal, his words do not fully settle.'
-  evidential: 'From the outside, Pliny reports Christians reassembling for a meal ''common yet
-    harmless.'' Whether that meal is the practice Ignatius names, the thanksgiving proper, or a
-    third thing - and whether the reassembly was a strategy against the ban on club-dinners - is a
-    genuinely unresolved three-way question. Both descriptions are held together without forcing an
-    answer the evidence does not give.'
-  personal: 'Whatever its exact relation to the thanksgiving, the meal fed real people - the widow,
-    the stranger, the household - love made visible in bread shared.'
-  translational: 'Modern ''love-feast'' arrives from later church practice with a settled shape.
-    Here the label is early, real, and under-determined - the honest answer to ''what was your
-    agape?'' begins with which community you are asking about, and ends sooner than modern curiosity
-    wants.'
+  informational: 'A meal that carries love''s own name: agape. Ignatius names it in his own letter - not
+    lawful without the bishop to baptize or to hold a love-feast - so the label has a genuine inside anchor,
+    a real practice under the bishop''s oversight. Whether his agape is the eucharistic meal itself or
+    a separate common meal, his words do not fully settle.'
+  evidential: From the outside, Pliny reports Christians reassembling for a meal 'common yet harmless.'
+    Whether that meal is the practice Ignatius names, the thanksgiving proper, or a third thing - and
+    whether the reassembly was a strategy against the ban on club-dinners - is a genuinely unresolved
+    three-way question. Both descriptions are held together without forcing an answer the evidence does
+    not give.
+  personal: Whatever its exact link to the thanksgiving, the meal drew the community to one table. It
+    carried the name of love.
+  translational: Modern 'love-feast' arrives from later church practice with a settled shape. Here the
+    label is early, real, and under-determined - the honest answer to 'what was your agape?' begins with
+    which community you are asking about, and ends sooner than modern curiosity wants.
 quick_meaning: The love-feast - a shared meal under love's own name. How it relates to the thanksgiving meal is genuinely unsettled.
 use_note:
   means: "The love-feast: a shared meal that carries love's own name, whose relation to the thanksgiving meal is not settled."

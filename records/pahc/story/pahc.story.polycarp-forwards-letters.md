@@ -29,19 +29,16 @@ relations:
   target: pahc.gravity.translocal-network
 narrative_tier: 1
 narrative_tier_justification: "A specific, directly attested transmission event, named by the person who performed it, in his own surviving letter. The uncertainty is not about whether the act happened but about the letter's own composition history (the Harrison two-letter-splice question), which affects how confidently this can be dated relative to Ignatius's own journey."
-tellable_as: "Polycarp of Smyrna forwards his community's own collected copies of Ignatius's letters on to the church at Philippi, because the Philippians themselves asked for them."
-text: >-
-  In his letter to the Philippians, Polycarp tells the Philippian church that
-  he is sending them, at their own request, the collected letters of Ignatius
-  that his community had gathered. (In his own text he names himself only as
-  one of the presbyters, not as bishop, though later tradition remembers him
-  as Smyrna's bishop.) 'The Epistles of Ignatius written by him to us, and all
-  the rest [of his Epistles] which we have by us, we have sent to you, as you
-  requested,' he writes; 'they are subjoined to this Epistle, and by them ye
-  may be greatly profited.' It is a small, practical act, described in a
-  single passage. But it tells us something no larger claim could. Letters
-  moved between named people, at specific requests. And at least one community
-  made a point of collecting and preserving them for others.
+tellable_as: Polycarp of Smyrna sent the church at Philippi the letters of Ignatius that his own church
+  had collected. The Philippians had asked for them.
+text: In his letter to the Philippians, Polycarp tells the Philippian church that he is sending them,
+  at their own request, the collected letters of Ignatius that his community had gathered. (In his own
+  text he names himself only as one of the presbyters, not as bishop, though later tradition remembers
+  him as Smyrna's bishop.) 'The Epistles of Ignatius written by him to us, and all the rest [of his Epistles]
+  which we have by us, we have sent to you, as you requested,' he writes; 'they are subjoined to this
+  Epistle, and by them ye may be greatly profited.' It is a small, practical act, described in a single
+  passage. It shows letters moving between named people, at specific requests. It also shows at least
+  one community collecting them to pass on to others.
 absent_detail: "Nothing survives of what the Philippians did with the letters once received, or how long Polycarp's own collection of them had been kept before this request arrived."
 modern_contrast: >
   A modern reader often hears "forwarding copies of letters" as routine

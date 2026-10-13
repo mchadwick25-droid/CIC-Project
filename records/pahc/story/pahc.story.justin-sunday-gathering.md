@@ -29,11 +29,9 @@ relations:
   target: pahc.gravity.liturgical-practice
 narrative_tier: 1
 narrative_tier_justification: "Classified Tier 1 rather than Tier 4: this is Justin's own direct, first-person report in his own surviving text, not a builder's later composite drawn across multiple sources. The genuine edge case is that the content describes recurring, typical practice rather than a single narrated event - the report itself is still Documented, addressed to a specific, named, dated audience, which is why Tier 1 is the better fit than Tier 4's reserved-for-composite-reconstruction register."
-tellable_as: >-
-  Justin describes to the emperor and Senate exactly what happens when his
-  community gathers on the day named for the sun. Reading, a sermon, common
-  prayer, thanksgiving over bread and wine, and a collection for those in
-  need.
+tellable_as: Justin tells the emperor and the Senate what happens when his community gathers on the day
+  named for the sun. There is reading, a sermon, common prayer, thanksgiving over bread and wine, and
+  a collection for those in need.
 text: >-
   Writing to the emperor and the Roman Senate in defense of Christian
   practice, Justin tells us plainly what 'we' do. On the day named for the

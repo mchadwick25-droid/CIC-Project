@@ -34,28 +34,27 @@ relations:
   target: pahc.story.two-ways-catechumen
 - type: associated-with
   target: pahc.quote.appointed-to-be-read
-plain_meaning: 'Before the water, the teaching of the two ways. A way of life and a way of death
-  lie open before every person. Walking one rather than the other is a choice kept daily.'
+plain_meaning: 'Before the water came the teaching of the two ways: a way of life and a way of death,
+  with a great difference between them.'
 world_word: the Two Ways
 distortion_risk: medium
 false_friend:
 - a philosophical dualism of two cosmic powers (it is a moral teaching method, not a cosmology)
 senses:
-  informational: 'Those preparing for baptism are taught two roads: the way of life - love of God
-    and neighbor, the golden rule in its restraining form, concrete instruction on generosity and
-    restraint - and the way of death, a catalog of what that way rejects. Taught household by
-    household, adaptable to whoever is receiving it, answering to no central office.'
-  evidential: 'The full sequence is the Didache''s - one community''s manual, resting almost
-    entirely on a single medieval manuscript. That the underlying schema circulated more widely is
-    independently attested (the epistle called Barnabas carries its own two-ways section, as does a
-    separate Latin witness), but how widely it was actually used as catechesis, no source says.'
-  personal: 'The teaching''s heart is that the choice is not settled once: walking the way of life
-    is kept, daily, after the water as before it. A person is formed for ongoing choosing, not
-    handed a finished status.'
-  translational: 'Modern hearing reaches for ''confirmation class'' or a fixed curriculum. This is
-    older and looser: a shared, adaptable moral teaching, given before baptism, with no diocese or
-    curriculum board behind it.'
-quick_meaning: The teaching given before baptism - a way of life and a way of death lie open, and the choice between them is kept daily.
+  informational: 'Those preparing for baptism are taught two roads: the way of life - love of God and
+    neighbor, the golden rule in its restraining form, concrete instruction on generosity and restraint
+    - and the way of death, a catalog of what that way rejects. Taught household by household, adaptable
+    to whoever is receiving it, answering to no central office.'
+  evidential: The full sequence is the Didache's - one community's manual, resting almost entirely on
+    a single medieval manuscript. That the underlying schema circulated more widely is independently attested
+    (the epistle called Barnabas carries its own two-ways section, as does a separate Latin witness),
+    but how widely it was actually used as catechesis, no source says.
+  personal: The teaching's heart was a choice. The way of life included seeking out the faces of the saints
+    day by day.
+  translational: 'Modern hearing reaches for ''confirmation class'' or a fixed curriculum. This is older
+    and looser: a shared, adaptable moral teaching, given before baptism, with no diocese or curriculum
+    board behind it.'
+quick_meaning: 'The teaching given before baptism: there are two ways, one of life and one of death.'
 use_note:
   means: "The teaching given before the water that a way of life and a way of death lie open to every person, chosen daily."
   not_for:

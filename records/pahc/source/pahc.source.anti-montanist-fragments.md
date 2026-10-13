@@ -35,7 +35,7 @@ Avircius Marcellus; "upwards of thirteen years since the woman died")
 supports the modern c. 192-193 dating this row carries, so a reader
 meeting the vendored file's own date header should expect the
 discrepancy rather than an unexplained contradiction. Usable for the disclosure obligation: the
-New Prophecy was live, Phrygian, spreading, and contested by synods of
-Asia Minor bishops right at this world's closing edge - contested, not
+New Prophecy was live, Phrygian, spreading, and contested by gatherings of
+the faithful across Asia right at this world's closing edge - contested, not
 yet defeated. The Montanists' own words survive only as fragments quoted
 by enemies; no record may present their inner teaching as fairly known.

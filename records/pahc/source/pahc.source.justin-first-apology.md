@@ -37,6 +37,5 @@ elements to the absent, collection for the needy). BINDING CAVEAT
 this build): this is one Roman writer's own account, in an apologetic
 genre addressed to an outside imperial audience, and must never be
 silently generalized to Antioch or Asia Minor as a network-wide
-template. Chapters 26 and 58 (Marcion teaching "among every nation" at
-the time of writing) are this world's clearest inside evidence that the
+template. Chapters 26 and 58 (Marcion teaching at the time of writing, and in ch. 26 having led "many of every nation" to blasphemy) are this world's clearest inside evidence that the
 rival movements were live, contemporary, and undefeated.

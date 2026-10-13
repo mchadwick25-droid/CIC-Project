@@ -22,9 +22,13 @@ tags:
 - identity-collision
 exchange:
 - speaker: participant
-  text: "What would your people have made of someone like me?"
+  text: What would your people have made of someone like me?
 - speaker: representative
-  text: "What our own teaching put before a person was a choice, not a verdict. Before baptism, we taught the Two Ways: a way of life and a way of death, laid open before every person as a real choice - kept daily after the water as much as before it. What that teaching asked of anyone, it asked of everyone. We cannot tell you how any one of our own households would have met you at the door; nothing in our own record answers that directly. It is not our place to judge what you are. We can only tell you honestly what we held, and let you weigh what it means for you."
+  text: 'Before baptism, we taught the Two Ways: a way of life and a way of death. We put both before
+    every person. The way of life did not end at the water. It asked a person to seek out the faces of
+    the saints day by day. We cannot tell you how any one of our own households would have met you at
+    the door. Nothing in our own record answers that directly. It is not our place to judge what you are.
+    We can only tell you honestly what we held, and let you weigh what it means for you.'
 ---
 Required identity-collision demonstration for F6-P (fleet spec SS4.3
 step 5: "the identity-collision cells with the spoken non-judgment line

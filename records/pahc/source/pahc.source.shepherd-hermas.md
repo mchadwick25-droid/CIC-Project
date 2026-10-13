@@ -31,7 +31,7 @@ documented forgery-adjacent complication in its transmission, the
 Simonides episode of 1855-56; P.Mich. 129 for Similitudes 2-9; Bodmer 38
 for Visions 1-3; the ending of Similitudes 9-10 rests on Latin alone).
 Cited as scripture by Irenaeus, Clement of Alexandria, and Origen;
-included in Codex Sinaiticus; later excluded by Athanasius - its
+included in Codex Sinaiticus; later placed by Athanasius outside the canon, among books read to newcomers - its
 canonical status was genuinely fluid.
 
 WEIGHT: Strand B's second witness - Vision 2.4.3's plural "presbyters

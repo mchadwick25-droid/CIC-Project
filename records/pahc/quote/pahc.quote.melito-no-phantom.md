@@ -35,18 +35,13 @@ text: "For there is no need, to persons of intelligence, to attempt to prove, fr
   during the thirty similar periods which preceded His baptism, in which, by reason of His low estate
   as regards the flesh, He concealed the signs of His Deity, although He was the true God existing
   before all ages."
-modern_rendering: >-
-  For persons of intelligence, there is no need to prove, from what
-  Christ did after his baptism, that his soul and his body, his human
-  nature like ours, were real, and no phantom of the imagination. For
-  the deeds Christ did after his baptism, and especially his miracles,
-  gave indication and assurance to the world of the Deity hidden in his
-  flesh. For, being at once both God and perfect man, he gave us sure
-  indications of his two natures. He showed his Deity by his miracles
-  in the three years after his baptism. He showed his humanity in the
-  thirty similar years before his baptism. In those years, because of
-  his lowly condition in the flesh, he hid the signs of his Deity,
-  though he was true God from before all ages.
+modern_rendering: People of sense need not try to prove, from Christ's deeds after his baptism, that his
+  soul and his body were real. His human nature was like ours, and no phantom of the imagination. For
+  his deeds after his baptism, above all his miracles, showed and assured the world that Deity was hidden
+  in his flesh. Being at once both God and perfect man, he gave us sure signs of his two natures. He showed
+  his Deity by his miracles in the three years after his baptism. He showed his humanity in the thirty
+  similar periods before his baptism. In those years, because of his lowly state in the flesh, he hid
+  the signs of his Deity. Yet he was the true God, who existed before all ages.
 speaker_or_author: "Melito, bishop of Sardis (attributed - see this record's own confidence note on
   how securely)"
 license: verbatim
