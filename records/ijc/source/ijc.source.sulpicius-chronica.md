@@ -52,14 +52,6 @@ gone. Ithacius, the bishop who had brought the accusation, withdrew from
 the capital trial when he saw what it would cost him among his
 colleagues, and a treasury advocate was appointed in his place.
 
-THIS IS THE COUNTER-CASE TO THE CORRECTION OF THE DONATISTS, and this
-world now holds both. Augustine argues that the church may use the
-state's coercive power against schismatics; Martin argues thirty years
-earlier that it may not use it at all in a matter of doctrine, and the
-bishops split over it. A world about church and empire that carried only
-one of those arguments would be making a case rather than showing a
-period.
-
 WHAT IS NOT DRAWN FROM THIS FILE HERE. Sulpicius' Life of Martin and the
 Dialogues, in the same volume, carry their own Priscillian material
 (the Trier bishops at line 5078) and belong to the Gallic entries rather
