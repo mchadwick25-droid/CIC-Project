@@ -1043,7 +1043,7 @@ An independent review of the record-wording pass (PR #865) found dropped hedges,
 - `gallic.quote.germanus-and-chaeremon-on-the-husbandman`: "Just so, toil all night long is of no use to the workers unless the Lord's mercy prospers it" is gone.
 - `gallic.quote.the-fathers-and-the-angels-twelve`: "thought that what was easy for him should be fixed" and "the two lessons" are gone. Under the same rule, the added subjects "They feared that some dispute might" and "Each man" are also gone; those fragments now stand between ellipses as they do in `text`.
 
-**Still OPEN.**
+**Also fixed.**
 - (1) `gallic.gravity.judgment-imminent-present` had closed on "the gravity that the passing of Roman order touches most", which changed the record's claim. The record's own wording, "the only gravity that the passing of Roman order touches at all", is restored, under the ruling that a build-record rewrite keeps its meaning.
 
-Status: CLOSED for the fixes above. Item (1) stays OPEN.
+Status: CLOSED.
