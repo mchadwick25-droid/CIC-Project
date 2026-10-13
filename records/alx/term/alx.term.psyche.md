@@ -48,8 +48,7 @@ senses:
   evidential: Clement and Athanasius both treat the soul as the whole person oriented toward God, the subject
     every formation practice addresses; Genesis 2:7's breath of life grounds the soul as God-given animation
     of a real body.
-  personal: This is why bodily practices - fasting, kneeling, the shared meal - are formation itself, not
-    props for people who need something physical to hold onto.
+  personal: "That is why bodily practices such as fasting, kneeling and the shared meal were formation itself. They were not props for people who needed something to hold."
   translational: '''Is the real me my soul, trapped in this body?'' - no; this world refused that picture
     directly. The soul is not caged in the body, it lives and acts through it.'
 quick_meaning: The whole person made for God, alive and acting through the body, not a spirit trapped inside it.

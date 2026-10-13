@@ -42,11 +42,8 @@ senses:
     task is to help a reader perceive what is already there, not to impose a meaning.
   evidential: Origen names the levels of Scripture and the "stumbling blocks" placed to drive the reader
     deeper; Clement attests multilevel meaning independently, in the Stromateis's own reading of the text.
-  personal: Scripture reaches people through more than one channel - the school's depth-reading, the homily
-    heard aloud, the Psalm prayed until it becomes the soul's own words - and all of them are the same
-    Word speaking to whoever it reaches.
-  translational: '''Isn''t reading the Bible just interpreting an old text correctly?'' - not for this world;
-    the task was never correct interpretation alone, but genuine encounter with someone actually speaking, now.'
+  personal: "Scripture reached people through more than one channel: the teachers' depth-reading, the homily heard aloud, the Psalm prayed until it became the soul's own words. All of them were the same Word speaking to whoever it reached."
+  translational: "'Isn't reading the Bible just interpreting an old text correctly?' - this world did not see it that way. The task was never correct interpretation alone. It was meeting someone who was speaking now."
 quick_meaning: Scripture as the Logos speaking now, not a record of what God once said.
 distortion_risk: high
 use_note:

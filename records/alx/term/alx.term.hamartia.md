@@ -30,8 +30,7 @@ retrieval:
   - asking narrowly about forgiveness, or specifically about repentance as a practice (retrieve alx.term.metanoia)
   - the conversation is about a specific moral failure rather than the underlying condition
 relations: []
-plain_meaning: Missing the mark - the soul turned away from God and pointed at lesser goods, rather than
-  a debt owed or a law broken.
+plain_meaning: "The soul turned away from God and pointed at lesser goods: more a wound than only a debt owed or a law broken."
 world_word: hamartia (missing the mark)
 false_friend:
 - a checklist of wrong acts needing forgiveness
@@ -41,12 +40,9 @@ senses:
     goods. Wrong acts are what a mis-aimed soul produces, not the condition itself.
   evidential: Genesis 3 and Romans 3:23 read sin as falling short of the mark; Clement's Paedagogus treats
     it as the soul's turning from wisdom toward lesser goods, answered by formation re-orienting desire.
-  personal: A soul turned from God still desires - only now it wants pleasure, power, or approval instead
-    of the good that could actually satisfy it.
-  translational: >-
-    Isn't sin just breaking God's rules? This world heard something more like a wound: not a soul under
-    sentence, but a soul turned away from its own life, in need of being turned back rather than merely forgiven.
-quick_meaning: The soul turned away from God, toward lesser goods, rather than guilt for breaking a rule.
+  personal: "A soul turned from God still desired things. But it wanted pleasure, power, or approval instead of the good that could truly satisfy it."
+  translational: "Isn't sin just breaking God's rules? This world heard something more like a wound: a soul turned away from its own life. The penalty of death was real, but the need was to be turned back, not only forgiven."
+quick_meaning: "The soul turned away from God, toward lesser goods: a wound more than only guilt for breaking a rule."
 distortion_risk: high
 use_note:
   means: "Hamartia meant missing the mark, the soul turned from God toward lesser goods, rather than a debt owed or a law broken."

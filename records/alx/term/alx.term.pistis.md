@@ -45,10 +45,7 @@ senses:
   personal: Someone can affirm every correct doctrine and still not have turned toward God in their soul
     - and someone with only a few words for it can be genuinely turned. Faith is the turning, not the
     words.
-  translational: >-
-    Isn't faith just believing the right things, maybe even against the evidence? This world located
-    faith somewhere else - the soul's own turn toward God, which formation goes on deepening rather than
-    replacing.
+  translational: "Isn't faith just believing the right things, maybe even against the evidence? This world put faith elsewhere. It was the soul's own turn toward God, which formation deepens and does not replace."
 quick_meaning: Not agreeing with claims - the soul's first real turn toward God.
 distortion_risk: high
 use_note:

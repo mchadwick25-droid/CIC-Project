@@ -27,7 +27,7 @@ retrieval:
   - asking about the catechetical school as a formal structure (retrieve alx.term.didaskalos)
   - asking about marriage as a theological category rather than the household as a formation setting
 relations: []
-plain_meaning: Not the private family. The oikos is the whole household, where most people were formed.
+plain_meaning: "Not the private family. The oikos was the whole household, a place of formation."
 world_word: oikos
 false_friend:
 - the modern nuclear family in a private home
@@ -40,14 +40,9 @@ senses:
   evidential: Clement's Paedagogus instructs householders directly on daily household life - eating,
     relationships, possessions - treating the household itself as where formation is tested and lived
     out, not a private space set apart from it.
-  personal: A householder who claims the soul is being reoriented toward God, but treats those in their
-    own household with contempt, has not absorbed what they profess - the household is where that claim
-    is actually tested.
-  translational: >-
-    Isn't a household just a private family home? This world meant something larger and more mixed - an
-    extended social and economic unit where most of the community's actual formation took place, reaching
-    people the school could not.
-quick_meaning: Not a private family. The household where most formation happened.
+  personal: "A householder might claim to be turned toward God yet treat the household with contempt. Such a person had not taken in what they professed. The household was where that claim was tested."
+  translational: "Isn't a household just a private family home? This world meant a wider unit of people living and working together. Clement spoke to its heads as responsible for formation. How far it reached those who could not read is not attested."
+quick_meaning: "Not a private family. The household, a place of formation."
 distortion_risk: high
 use_note:
   means: "The oikos was the whole household, not the private family, and the place where most people were formed and formation was tested."

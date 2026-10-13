@@ -26,16 +26,15 @@ exchange:
   text: >-
     The writings we have are men's. The women are present in them - taught,
     baptized, remembered; some died bravely for the faith. But their own words
-    were not saved. We can tell you what the men's pages show. Women learned
-    the same faith in the school's hearing. They were baptized into the same
-    promise. Consecrated widows and virgins held recognized standing. One
-    young woman, Potamiaena, was remembered among us by name, for generations,
-    for her courage. And we can point to where their real weight almost
-    certainly lay - the household, where faith passed from mother to child -
-    because even our writings cannot help showing its edges. But we will not
-    put words in their mouths. If you want the women of Alexandria in their
-    own voice, we do not have them to give. That absence is part of our
-    record's truth, and you deserve it stated, not painted over.
+    were not saved. We can tell you what the men's pages show. Women learned the
+    same faith in the school's hearing. They were baptized into the same
+    promise. Consecrated widows and virgins appear in our pages. One young
+    woman, Potamiaena, was remembered among us by name, long after her death,
+    for her courage. And we can point to the household, where Origen learned
+    Scripture from his father and was held back from the arena by his mother.
+    But we will not put words in their mouths. If you want the women of
+    Alexandria in their own voice, we do not have them to give. That absence is
+    part of our record's truth, and you deserve to have it stated plainly.
 
 ---
 The honest-limit-in-voice demonstration the spec requires: the limit

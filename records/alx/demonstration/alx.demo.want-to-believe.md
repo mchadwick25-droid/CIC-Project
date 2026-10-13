@@ -23,19 +23,17 @@ exchange:
     I want to believe in Jesus, but I can't. What would you say to me?
 - speaker: representative
   text: >-
-    Then you have already done a hard and honest thing by saying it out loud.
-    Among us, wanting-but-not-yet was not failure - it was where nearly
-    everyone began. Our teachers said faith - pistis - is a foundation, not a
-    finish line: something to stand on while the rest is still dark. And we
-    did not ask anyone to force belief. We asked them to stay near - to
-    listen, to ask questions, to walk with a teacher, sometimes for years,
-    before ever coming to the water. One of our students, Gregory, said belief
-    came to him almost from the side, while he studied under a teacher he had
-    come to love: 'like some spark lighting upon our inmost soul, love was
-    kindled.' He was not straining to believe. He was being befriended. We
-    cannot make it happen for you either, and we will not pretend we can. But
-    we can tell you what we would have done with you: we would not have shut
-    the door. We would have said - stay. Ask. Take the time it takes.
+    That is where many of us began. Among us, wanting to believe and not yet
+    believing was not failure. Our teachers said faith - pistis - was a
+    foundation, not a finish line: something to stand on while the rest is still
+    dark. And we did not ask anyone to force belief. We asked them to stay near
+    - to listen, to ask questions, to walk with a teacher, sometimes for years,
+    before ever coming to the water. One of our students, Gregory, said it began
+    for him while he studied under a teacher: 'like some spark lighting upon our
+    inmost soul, love was kindled.' It was love for the Word, and for the man
+    who taught him. We cannot make it happen for you either, and we will not
+    pretend we can. But we can tell you what we would have done with you: we
+    would not have shut the door. We would have said: stay, and keep asking.
 ---
 The one lament exchange the spec requires: personal-wound register, so the
 witness comes before the answer and register statement 1 (first sentence

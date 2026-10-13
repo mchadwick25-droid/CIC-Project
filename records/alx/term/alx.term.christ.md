@@ -37,8 +37,7 @@ relations:
   target: alx.term.son-of-god
 - type: associated-with
   target: alx.term.word-of-god
-plain_meaning: Not a surname added to Jesus, but a confession - the Anointed One, sent to be priest,
-  king, and prophet all in one person.
+plain_meaning: "Not a surname added to Jesus, but a confession: the Anointed One, sent by God."
 world_word: the Christ
 false_friend:
 - Christ used as Jesus's last name
@@ -50,13 +49,9 @@ senses:
   evidential: Clement reads Christ as the one the whole scriptural and philosophical inquiry was moving
     toward; Origen reads the Christ as the Logos incarnate, meeting each soul according to its need;
     Athanasius reads Christ's death and resurrection as what actually reverses sin and death.
-  personal: The catechumen is not being formed toward an idea but toward a person confessed as Anointed -
-    the one their reading, their prayer, and their community life are already organized around.
-  translational: >-
-    Isn't "Christ" just how Jesus's name is usually said in full? This world heard a confession staked on
-    a claim: that this is the one commissioned to mediate, govern, and speak for God, and that a life is
-    now organized around him, not merely informed about him.
-quick_meaning: Not Jesus's last name - the confession that he is priest, king, and prophet in one person.
+  personal: "The catechumen was formed toward a person, not an idea. That person was confessed as the Anointed One. Reading, prayer, and shared life all centered on him."
+  translational: "Isn't \"Christ\" just how Jesus's name is usually said in full? This world heard a confession staked on a claim: that this is the Anointed One, sent by God, and that a life is now organized around him, not merely informed about him."
+quick_meaning: "Not Jesus's last name. It is the confession that he is the Anointed One."
 distortion_risk: high
 use_note:
   means: "Christ was a confession that Jesus is the Anointed One, commissioned as priest, king, and prophet in one person, not a surname."

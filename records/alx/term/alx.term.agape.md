@@ -41,11 +41,8 @@ senses:
     overflow of a changed direction, not a performance of the will.
   evidential: Clement holds knowledge of God and love of God as one reality, not two achievements; a soul
     that truly knows God, in this account, loves as a matter of course, not as a separate effort.
-  personal: Two people can perform the same generous act - only the one whose desire has actually been
-    reordered is expressing love in the sense this world means; the other is performing it.
-  translational: >-
-    Isn't love mainly a feeling that rises up, on its own timetable? This world located love somewhere
-    else - the visible fruit of a soul genuinely changed by formation, not a feeling to be manufactured.
+  personal: "Two people could do the same generous act. In one, desire had been reordered by formation, and the love was real. In the other, the act came from will alone, and we did not call it love."
+  translational: "Isn't love mainly a feeling that comes and goes on its own? This world located love elsewhere. It was the visible fruit of a soul changed by formation, not a feeling to be manufactured."
 quick_meaning: Not a feeling - the fruit of a soul truly formed.
 distortion_risk: high
 use_note:

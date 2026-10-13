@@ -46,12 +46,8 @@ senses:
     which runs toward this very record's own false_friend rather than against it. No genuine Clement
     locus for "resurrection as formation's completion" was found in the vendored Stromateis; this claim
     is sourced to Athanasius alone, and the Clement side is left thin/unsupported rather than asserted.
-  personal: The one growing in prayer, community, and the Eucharist is already living in a resurrection
-    at work now, not only a hope held for later.
-  translational: >-
-    Isn't resurrection just a body brought back to life? This world meant something larger: the soul's
-    reunion with God, and the body's own genuine transformation - not resuscitation, but the whole person
-    changed and raised into what formation had been preparing it for.
+  personal: "Anyone who grew in prayer and shared life already lived in the resurrection at work now. It was more than a hope for later."
+  translational: "Isn't resurrection just a body brought back to life? This world meant more: the soul's reunion with God, and the body truly changed. It was not resuscitation but the whole person raised into what formation had been preparing."
 quick_meaning: 'Death reversed: the soul rejoined to God, and the body truly changed.'
 distortion_risk: high
 use_note:
