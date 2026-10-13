@@ -358,11 +358,11 @@ def _offered(rhythm=None):
     return prepared.offered_ids["quote"]
 
 
-def _turn(scripts, *, rhythm=None, sentence_enforce=False, **extra):
+def _turn(scripts, *, rhythm=None, **extra):
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_scripts=scripts)
     voice_event, _usage = run_voice_turn_for_world(
         voice_client=client, voice_model_id="m", world=_world(), participant_message=MESSAGE, directive=_directive(),
-        session_id="test-session", rhythm=rhythm, sentence_enforce=sentence_enforce, **extra,
+        session_id="test-session", rhythm=rhythm, **extra,
     )
     return voice_event, client
 
@@ -386,7 +386,7 @@ _WITHHELD = "Athanasius of Alexandria opposed the council."
 
 def test_a_placed_marker_reaches_the_participant_as_the_records_rendering_and_is_marked_as_a_quote():
     quote_id = _offered()[0]
-    voice_event, client = _turn([[f"{_speaker(quote_id)} put it plainly [[quote:{quote_id}]]."]], sentence_enforce=True)
+    voice_event, client = _turn([[f"{_speaker(quote_id)} put it plainly [[quote:{quote_id}]]."]])
     assert len(client.messages.captured_stream_calls) == 1
     assert _rendering(quote_id) in voice_event["text"]
     assert "[[" not in voice_event["text"]
@@ -423,7 +423,7 @@ def test_a_header_and_a_bold_citation_block_never_reach_the_participant_through_
 
 def test_a_quote_placed_in_round_two_cannot_be_placed_in_full_in_round_four():
     quote_id = _offered()[0]
-    first, _c = _turn([[f"{_speaker(quote_id)} put it plainly [[quote:{quote_id}]]."]], sentence_enforce=True)
+    first, _c = _turn([[f"{_speaker(quote_id)} put it plainly [[quote:{quote_id}]]."]])
     assert first["reply_shape"]["placed"] == [quote_id]
     transcript = [
         {"speaker": "participant", "text": "q1"}, {"speaker": "fix", "text": "a1", "transparency": {"elements": []}},
@@ -433,11 +433,8 @@ def test_a_quote_placed_in_round_two_cannot_be_placed_in_full_in_round_four():
     tally = tally_from_transcript(transcript)
     assert tally.round_no == 4 and tally.quotes_voiced == {quote_id: 2}
     assert not tally.quote_placeable(quote_id) and tally.quote_placeable("fix.quote.zzz")
-    again, client = _turn(
-        [[f"{_speaker(quote_id)} put it plainly [[quote:{quote_id}]]. {_CLEAN}"], [_CLEAN]],
-        rhythm=tally, sentence_enforce=True,
-    )
-    assert len(client.messages.captured_stream_calls) == 2
+    again, client = _turn([[f"{_speaker(quote_id)} put it plainly [[quote:{quote_id}]]. {_CLEAN}"]], rhythm=tally)
+    assert len(client.messages.captured_stream_calls) == 1
     assert again["reply_shape"]["placed"] == []
     assert _rendering(quote_id) not in again["text"]
     assert again["text"] == _CLEAN_SHOWN
@@ -454,57 +451,30 @@ def test_two_markers_in_one_reply_place_only_the_first():
     assert _rendering(second_id) not in voice_event["text"]
 
 
-# ---- sentence enforcement ----------------------------------------------------
+# ---- no regeneration ----------------------------------------------------------
 
 
-def test_a_withheld_sentence_triggers_one_regeneration_and_a_clean_retry_ships():
-    voice_event, client = _turn([[f"{_CLEAN} {_WITHHELD}"], [_CLEAN]], sentence_enforce=True)
-    assert len(client.messages.captured_stream_calls) == 2
-    assert voice_event["text"] == _CLEAN_SHOWN
-    assert voice_event["sentence_enforcement"]["regenerated"] is True
-    assert voice_event["sentence_enforcement"]["still_flagged"] == []
-    assert _WITHHELD in str(client.messages.captured_stream_calls[1])
+def test_a_withheld_sentence_that_is_no_quotation_is_shown_as_written_without_a_second_call():
+    voice_event, client = _turn([[f"{_CLEAN} {_WITHHELD}"]])
+    assert len(client.messages.captured_stream_calls) == 1
+    assert voice_event["text"] == f"{_CLEAN_SHOWN} {_WITHHELD}"
 
 
-def test_a_typed_quotation_triggers_the_same_one_regeneration():
+def test_a_typed_quotation_is_cut_without_a_second_call():
     typed = 'Ignatius wrote, "the community kept a different memory of Jesus at the meal altogether".'
-    voice_event, client = _turn([[f"{_CLEAN} {typed}"], [_CLEAN]], sentence_enforce=True)
-    assert len(client.messages.captured_stream_calls) == 2
-    assert voice_event["text"] == _CLEAN_SHOWN
-    assert "[[quote:" in str(client.messages.captured_stream_calls[1])
-
-
-def test_a_sentence_still_withheld_after_the_one_regeneration_sets_the_reply_aside():
-    voice_event, client = _turn([[f"{_CLEAN} {_WITHHELD}"], [f"{_CLEAN} {_WITHHELD}"]], sentence_enforce=True)
-    assert len(client.messages.captured_stream_calls) == 2
-    assert voice_event["text"] == ""
-    assert voice_event["sentence_enforcement"]["still_flagged"] == [_WITHHELD]
-    assert voice_event["sentence_enforcement_exhausted"] is True
-
-
-def test_a_reply_in_which_every_sentence_is_still_withheld_is_set_aside_not_shown():
-    voice_event, client = _turn([[_WITHHELD], [_WITHHELD]], sentence_enforce=True)
-    assert len(client.messages.captured_stream_calls) == 2
-    assert voice_event["text"] == ""
-    assert voice_event["sentence_enforcement_exhausted"] is True
-    assert voice_event["r27_enforcement_exhausted"] is False
-
-
-def test_a_clean_turn_costs_no_extra_call_with_enforcement_on():
-    voice_event, client = _turn([[_CLEAN]], sentence_enforce=True)
+    voice_event, client = _turn([[f"{_CLEAN} {typed}"]])
     assert len(client.messages.captured_stream_calls) == 1
     assert voice_event["text"] == _CLEAN_SHOWN
-    assert voice_event["sentence_enforcement"]["regenerated"] is False
+    assert voice_event["answer_record_fallback"] is None
 
 
-def test_enforcement_is_on_by_default():
-    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_scripts=[[_WITHHELD], [_CLEAN]])
-    voice_event, _usage = run_voice_turn_for_world(
-        voice_client=client, voice_model_id="m", world=_world(), participant_message=MESSAGE, directive=_directive(),
-        session_id="test-session",
-    )
-    assert len(client.messages.captured_stream_calls) == 2
-    assert voice_event["text"] == _CLEAN_SHOWN
+def test_a_reply_cut_whole_is_replaced_by_the_worlds_answer_record_without_a_second_call():
+    typed = 'Ignatius wrote, "the community kept a different memory of Jesus at the meal altogether" [[fix.witness.w]].'
+    voice_event, client = _turn([[typed]])
+    assert len(client.messages.captured_stream_calls) == 1
+    assert voice_event["answer_record_fallback"] == "fix.witness.w"
+    assert voice_event["text"] == " ".join(_record("fix.witness.w")["text"].split())
+    assert voice_event["r27_enforcement_exhausted"] is False
 
 
 # ---- every quote record in the fleet ------------------------------------------

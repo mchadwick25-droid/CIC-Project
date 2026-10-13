@@ -119,8 +119,7 @@ def run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, client
         oos = gate.gate_result.routing.out_of_scope_class if action == "voice_with_directive" else None
         common = dict(voice_client=client, voice_model_id=voice_model_id, world=world, participant_message=message,
                       directive=gate.gate_result.routing.directive, session_id=session_id, usage_world_key=world_key,
-                      is_other_tradition_first_ask=oos == "other_tradition", self_revision_enabled=False,
-                      sentence_enforce=False)
+                      is_other_tradition_first_ask=oos == "other_tradition", self_revision_enabled=False)
 
         if mode == "live-attach":
             draft, rec = _run_ordinary_voice_turn(**common, citation_attach_model_id=safety_model_id)
@@ -213,7 +212,7 @@ def main(argv=None) -> int:
         "voice_model_id": voice_model_id, "safety_model_id": safety_model_id, "region": args.region,
         "mode": args.mode, "arms": {"records-only": ["records_only"], "pair": ["off", "records_only"], "live-attach": ["live_attach"]}.get(args.mode, list(ARMS)),
         "records_only_directive": RECORDS_ONLY if args.mode in ("records-only", "pair") else None,
-        "citation_attach": "on, safety model" if args.mode == "live-attach" else "off", "self_revision": "off (production)", "sentence_enforce": "off (production)",
+        "citation_attach": "on, safety model" if args.mode == "live-attach" else "off", "self_revision": "off (production)",
         "max_usd": args.max_usd, "authorized_by": args.authorized_by,
         "package_manifest_hash": {w: registry[w]["package"]["manifest_hash"] for w in worlds},
     }

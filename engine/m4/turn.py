@@ -42,6 +42,7 @@ engine.m4.sentence_stream): each sentence carries the marks the finished
 plan gives it, and the finished reply's plan is authoritative.
 """
 import functools
+import re
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from typing import Callable
@@ -302,167 +303,17 @@ def _append_r27_correction(turn_directive: str | None, hard_offenses: list[dict]
     return (turn_directive or "") + correction
 
 
-_REMOVE_THE_MARKER = (
-    "Remove the [[quote:...]] marker and the lead-in that introduces it, or use instead a quote offered in this "
-    "turn's ground."
-)
-_WORDS_IN_A_MOUTH = (
-    "it puts words in someone's mouth that are not a quote placed by its marker. Remove those words and what "
-    "introduces them, or give a quote offered in this turn's ground by its own lead-in and [[quote:record.id]]."
-)
-_PLAIN_REASONS = {
-    quote_placement.REASON_NOT_OFFERED: (
-        "its quote marker names a quote that is not offered in this turn's ground. " + _REMOVE_THE_MARKER
-    ),
-    quote_placement.REASON_ALREADY_VOICED: (
-        "that quote was already given earlier in this conversation. Remove the marker and its lead-in; you may "
-        "refer back to the quote in your own words without naming who said it."
-    ),
-    quote_placement.REASON_SECOND_QUOTE: (
-        "a reply places one quote at most, and this is a second. Remove this marker and its lead-in."
-    ),
-    quote_placement.REASON_NOT_SETTABLE: (
-        "this quote cannot be set into that sentence. Remove the marker and its lead-in, or end a short lead-in "
-        "sentence of your own with the marker."
-    ),
-    quote_placement.REASON_LEAD_IN: "it introduces a quote that could not be placed. Remove it with that quote's marker.",
-    quote_placement.REASON_STORY_RETOLD: "that story was already told in this conversation. Remove it.",
-    grounding_net.REASON_QUOTE_RECORD_UNVOICED: (
-        "it carries a quote record's plain tag. A quote is given only as [[quote:record.id]] after your own "
-        "lead-in. Place it that way if it is offered in this turn's ground, or remove the sentence."
-    ),
-    grounding_net.REASON_QUOTE_RECORD_UNPLACED: (
-        "it names a quote's speaker without placing the quote. Remove the speaker's name, or place the quote by "
-        "its marker if it is offered in this turn's ground."
-    ),
-    grounding_net.REASON_QUOTE_WORDS: (
-        "it gives a quote's words without placing the quote. Place the quote by its marker if it is offered in "
-        "this turn's ground, or remove the sentence."
-    ),
-    grounding_net.REASON_PLACED_MISMATCH: (
-        "the quote placed in it was changed. Write only your own lead-in, then the marker."
-    ),
-    grounding_net.REASON_TYPED_QUOTATION: (
-        "it types a quotation itself. Remove the quotation; a quote is given only by its marker."
-    ),
-    grounding_net.REASON_QUOTATION_NOT_IN_RECORDS: (
-        "it puts words in quotation marks that no record of yours holds. Remove the quotation marks and those words."
-    ),
-    grounding_net.REASON_LEAD_IN: "it introduces a quotation you typed. Remove it with that quotation.",
-    grounding_net.REASON_ATTRIBUTION: _WORDS_IN_A_MOUTH,
-    grounding_net.REASON_ATTRIBUTION_LEAD: _WORDS_IN_A_MOUTH,
-    grounding_net.REASON_UNPLACED_WORDS: _WORDS_IN_A_MOUTH,
-    grounding_net.REASON_WORDS_WITHOUT_QUOTE_RECORD: _WORDS_IN_A_MOUTH,
-}
-
-
-def _plain_reason(flag: dict) -> str:
-    """Why a flagged sentence cannot be shown, and what to change, in words
-    the voice can act on."""
-    if flag["class"] == "unsupported_named_claim":
-        named = ", ".join(str(m) for m in flag.get("missing") or []) or "a name or number"
-        return (
-            f"it names {named}, which your own records do not give. Tag it to a record that gives it, or take "
-            "that name or number out."
-        )
-    why = flag.get("why") or ""
-    if why in _PLAIN_REASONS:
-        return _PLAIN_REASONS[why]
-    if why.startswith("unresolvable record id"):
-        return "its tag is not the id of any record of yours. Tag it to a record in this turn's ground, or take the claim out."
-    if why.endswith("with no citation tag"):
-        return (
-            "it states a specific name, place, date or number with no tag. Tag it to the record that gives it, or "
-            "take the claim out."
-        )
-    if "grounded in its own tags" in why:
-        return "the record it is tagged to does not say this. Say only what that record gives, or take the claim out."
-    if why == "tagged claim sharing no content word with its own tagged records":
-        return "it is tagged to a record that says nothing it says. Say what that record gives, or remove the sentence and its tag."
-    return f"the system could not check it ({why}). Say only what your records give, or take it out."
-
-
-def _append_sentence_corrections(turn_directive: str | None, flags: list[dict]) -> str:
-    """sentence_enforce's retry directive: each flagged sentence exactly as
-    the voice wrote it, tags and quote markers included (never the shown
-    text, which for a marker standing alone is empty), with why it cannot be
-    shown and what to change. Same append-not-replace channel as
-    _append_r27_correction above."""
-    lines = "\n".join(f'- "{f["draft"]}" - {_plain_reason(f)}' for f in flags)
-    correction = (
-        "\n## Correction (your last answer had sentences that cannot be shown)\n"
-        f"These sentences from your last answer, as you wrote them, cannot be shown, each for the reason given:\n{lines}\n"
-        "Type no quotation and write no words after a name with 'said', 'wrote' or a colon. To give a quote, "
-        "write your own lead-in, then [[quote:record.id]] with the id of a quote record in this turn's ground, as "
-        "the last thing in that sentence. Tag every other specific claim with the record it draws on, or leave it out."
-    )
-    return (turn_directive or "") + correction
-
-
-def _append_whole_reply_rewrite(turn_directive: str | None, last_answer: str) -> str:
-    """sentence_enforce's one regeneration is a rewrite of the voice's own
-    last answer, given back to it here with its tags, after the corrections
-    that name what cannot be shown. A sentence that introduced, pointed back
-    to or counted on one taken out reads broken without it, and only the
-    voice can tell which those are, so the voice takes the material out and
-    mends the answer around it. Like engine.m4.self_revision's
-    REVISION_INSTRUCTION, the rewrite is not addressed to the participant
-    and comes back as the answer alone."""
-    correction = (
-        "\n## Rewrite your last answer as one whole answer\n"
-        "This is a revision of your last answer, not a new question, and this instruction is not from the "
-        "participant. Your last answer, exactly as you wrote it, is below. Rewrite it as one complete answer to the "
-        "same message. Change or remove each sentence named above as its reason says, with any tag or quote marker "
-        "in it that the reason names. Then mend every sentence that introduced, pointed back to, counted on or "
-        "finished what you took out, so nothing in the answer refers to something that is no longer there. Keep "
-        "every sentence not named above as it is, with its tags. Add nothing new: no person, place, date, number, "
-        "quotation or claim your last answer did not already give with a tag to a record that gives it. Return "
-        "only the complete revised answer, in the same tag format, with no preamble and nothing about what you "
-        "changed. If any sentence still cannot be shown, none of this answer is shown.\n\n"
-        f"YOUR LAST ANSWER:\n{last_answer}"
-    )
-    return (turn_directive or "") + correction
-
-
-def _enforcement_flags(net_result: dict, fact_check_flags: list[dict]) -> list[dict]:
-    """Every sentence sentence_enforce acts on: the fact check's flags, each
-    sentence the grounding net withheld, and each sentence apply_net already
-    removed from the reply (a quote it could not place, words attributed
-    without a placed quote), each named once. Every flag carries "draft",
-    the sentence as the voice wrote it, which apply_net records."""
-    drafts = {entry["sentence"]: entry.get("draft") or entry["sentence"] for entry in net_result["sentences"]}
-    flags = [{**f, "draft": drafts.get(f["sentence"], f["sentence"])} for f in fact_check_flags]
-    named = {f["draft"] for f in flags}
-    for entry in net_result["sentences"]:
-        draft = entry.get("draft") or entry["sentence"]
-        if entry["verdict"] == "withhold" and draft not in named:
-            named.add(draft)
-            flags.append({
-                "sentence": entry["sentence"], "draft": draft, "tags": entry.get("tags") or [],
-                "class": "withheld_by_net", "why": entry.get("why"),
-            })
-    for entry in (net_result.get("reply_shape") or {}).get("removed") or []:
-        draft = entry.get("draft") or entry["sentence"]
-        if draft not in named:
-            named.add(draft)
-            flags.append({
-                "sentence": entry["sentence"], "draft": draft, "tags": [t for sent in grounding_net.parse_tagged(draft) for t in sent["tags"]],
-                "class": "removed_by_net", "why": entry["why"],
-            })
-    return flags
-
-
 def _draft_is_final_text(
-    *, is_other_tradition_first_ask: bool, self_revision_enabled: bool, r27_enforce: bool, sentence_enforce: bool,
+    *, is_other_tradition_first_ask: bool, self_revision_enabled: bool, r27_enforce: bool,
 ) -> bool:
     """Whether every sentence released is certain to be in the reply a
-    participant keeps. A regeneration (the two enforcement flags) or a
+    participant keeps. A regeneration (the uncited-claims enforcement) or a
     rewrite (self-revision, which runs on a first other-tradition ask) would
     replace text already shown, so on those turns nothing streams. The
     seat-identity guard does not stop a Table turn streaming: it reads each
     sentence before release (engine.m4.sentence_stream), regenerates when it
     catches the first one, and cuts the turn at a later one (decision 38)."""
-    return not ((is_other_tradition_first_ask and self_revision_enabled) or r27_enforce or sentence_enforce)
+    return not ((is_other_tradition_first_ask and self_revision_enabled) or r27_enforce)
 
 
 def apply_net(
@@ -542,6 +393,32 @@ def apply_net(
     return text, citations, net_result
 
 
+_SENTENCE_END = re.compile(r"^(?P<body>.*?)(?P<end>[.!?][\"'”’)]*)\s*$", re.DOTALL)
+
+
+def _answer_record_fallback(raw_text: str, offered_ids: dict[str, list[str]], repository_records: dict[str, dict]) -> str | None:
+    """The world's own answer record for the question: the first doctrinal
+    witness the voice's draft tagged, else the turn's lead witness (the
+    first witness the evidence block offered). None when there is neither."""
+    tagged = [t for sent in grounding_net.parse_tagged(raw_text) for t in sent["tags"]]
+    for record_id in [*tagged, *offered_ids.get("doctrinal_witness", [])]:
+        record = repository_records.get(record_id) or {}
+        if record.get("record_type") == "doctrinal_witness" and (record.get("text") or "").strip():
+            return record_id
+    return None
+
+
+def _record_reply(record: dict) -> str:
+    """A doctrinal witness record's text as a reply, each sentence tagged to
+    the record, in the tag format the voice writes."""
+    pieces = []
+    for sent in grounding_net.parse_tagged(" ".join(record["text"].split())):
+        found = _SENTENCE_END.match(sent["raw"].strip())
+        body, end = (found["body"], found["end"]) if found else (sent["raw"].strip(), "")
+        pieces.append(f"{body} [[{record['id']}]]{end}")
+    return " ".join(pieces)
+
+
 def _run_ordinary_voice_turn(
     *,
     voice_client,
@@ -573,7 +450,6 @@ def _run_ordinary_voice_turn(
     r27_enforce: bool = False,
     known_tradition_names: list[str] | None = None,
     self_revision_enabled: bool = True,
-    sentence_enforce: bool = True,
     on_sentence: Callable[[dict], None] | None = None,
     citation_attach_model_id: str | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
@@ -674,36 +550,12 @@ def _run_ordinary_voice_turn(
     caller (which has registry access this function does not) and
     passed straight through.
 
-    sentence_enforce (on by default; every participant path runs with it):
-    a second enforcement, independent of the uncited-claims one above. It
-    runs after that enforcement has settled this turn's text. When the
-    fact check (find_unsupported_named_claims) flags a sentence, the net
-    withholds one, or apply_net removed one (a quote it could not place,
-    words attributed without a placed quote), exactly one regeneration
-    follows: a rewrite of the voice's own last answer, given back to it
-    whole (_append_whole_reply_rewrite), with those sentences named in the
-    retry's directive as the voice wrote them, each with its reason
-    (_append_sentence_corrections). The voice takes them out and mends every
-    sentence that leaned on them, so the reply reads whole without them.
-    When the uncited-claims enforcement's own correction fired this turn,
-    it rides forward into this retry's directive too, since a fresh
-    regeneration has no memory of it. A clean turn makes no extra call.
-
-    The regenerated answer is checked again, in a fixed order. First, when
-    the uncited-claims enforcement is on, a wholly_uncited_paragraph or
-    neighbour_named offense surviving this retry is that enforcement's
-    exhaustion: the turn is set aside and the caller substitutes a
-    Facilitator turn. Otherwise, when any sentence of the rewrite is still
-    flagged, the rewrite is not shown with sentences cut out of it, since
-    code cannot tell which of the sentences left lean on the ones cut: the
-    voice's text is not shown, answer_text is "",
-    sentence_enforcement_exhausted is True, and the caller substitutes a
-    Facilitator turn (voice_rejected_turn one to one,
-    table_seat_correction_turn at the Table), as it does for the
-    uncited-claims enforcement's exhaustion. What happened is recorded on
-    voice_event["sentence_enforcement"] (always present, empty on a clean
-    turn or when the flag is off). Callers that measure a raw first draft
-    (engine.m3.e2_run, engine.m4.live_uncited_claims_battery) pass False.
+    No sentence is rewritten and no call is made to mend a reply: apply_net
+    removes what cannot be shown, and the rest is shown as written. When it
+    removes every sentence of a reply the voice did write, the reply is the
+    world's own answer record for the question instead, word for word
+    (_answer_record_fallback), and voice_event["answer_record_fallback"]
+    names it. No Facilitator turn is shown for it.
 
     other_tradition_evidence_ids (corrects a false
     honest-limit statement, unconditional - never gated behind
@@ -790,7 +642,7 @@ def _run_ordinary_voice_turn(
     sentences = None
     if on_sentence is not None and _draft_is_final_text(
         is_other_tradition_first_ask=is_other_tradition_first_ask,
-        self_revision_enabled=self_revision_enabled, r27_enforce=r27_enforce, sentence_enforce=sentence_enforce,
+        self_revision_enabled=self_revision_enabled, r27_enforce=r27_enforce,
     ):
         sentences = SentenceStream(
             repository_records=repository_records, world_key=world.world_key, thin_topics=thin_topics,
@@ -945,7 +797,7 @@ def _run_ordinary_voice_turn(
     # the conversation, in M7 (engine.m7.offline_checks), from the net
     # result this turn logs. They run here only when an enforcement flag
     # needs them to decide the turn.
-    enforcing = r27_enforce or sentence_enforce
+    enforcing = r27_enforce
     if enforcing:
         uncited_claims = find_uncited_claims(net_result["sentences"])
         paragraph_offenses = find_uncited_paragraphs(net_result)
@@ -1019,88 +871,23 @@ def _run_ordinary_voice_turn(
     else:
         attempts_meta_r27_regenerated = False
 
-    # sentence_enforce: a sentence the fact check flags, the grounding net
-    # withholds, or apply_net removed gets one regeneration, a rewrite of
-    # the whole answer without it; a rewrite with anything still flagged is
-    # set aside, never shown with sentences cut out. It runs on whichever
-    # net_result the uncited-claims enforcement above settled on. The fields
-    # recorded here are always present, empty when the flag is off or
-    # nothing tripped it.
-    sentence_enforcement = {"flagged": [], "regenerated": False, "still_flagged": []}
-    sentence_enforcement_exhausted = False
-    enforcement_flags = _enforcement_flags(net_result, fact_check_flags) if sentence_enforce else []
-    if enforcement_flags:
-        sentence_enforcement["flagged"] = [f["sentence"] for f in enforcement_flags]
-        sentence_enforcement["regenerated"] = True
-        # Composed, not replaced: when the uncited-claims enforcement
-        # already regenerated once this turn (hard_offenses is only ever
-        # defined - possibly empty - when the uncited-claims enforcement is on), that
-        # same correction rides forward into this retry's own directive
-        # too. A fresh regeneration has no memory of the earlier call's
-        # own correction.
-        sentence_retry_directive = turn_directive
-        if r27_enforce and hard_offenses:
-            sentence_retry_directive = _append_r27_correction(sentence_retry_directive, hard_offenses)
-        sentence_retry_directive = _append_sentence_corrections(sentence_retry_directive, enforcement_flags)
-        sentence_retry_directive = _append_whole_reply_rewrite(sentence_retry_directive, raw_text)
-        retry_outcome = stream_voice_turn(
-            voice_client, voice_model_id, system_prompt=world.prompt_text,
-            turn_directive=sentence_retry_directive,
-            message=user_message, history=history,
-        )
-        if retry_outcome.status != "ok":
-            raise RuntimeError(f"voice generation retry call failed: {retry_outcome.status} {retry_outcome.value}")
-        if rec := _maybe_record_usage(
-            retry_outcome, session_id=session_id, call_kind="voice_generation_retry", model_id=voice_model_id, world_key=usage_world_key
-        ):
-            usage_records.append(rec)
-        retry_raw_text = retry_outcome.value.text
-        retry_answer_text, retry_citations, retry_net_result = _net(
-            retry_raw_text, repository_records=repository_records, thin_topics=thin_topics
-        )
-
-        # The uncited-claims enforcement's own guarantee (never ship a
-        # wholly_uncited_paragraph or neighbour_named offense) sits above
-        # this one: this retry is a new generation that enforcement never
-        # saw, and a hard offense surviving it is that enforcement's
-        # exhaustion.
-        retry_r27_hard_offenses = []
-        if r27_enforce:
-            retry_refined_for_r27 = [
-                classify_neighbour_named(o, known_tradition_names) for o in find_uncited_claims(retry_net_result["sentences"])
-            ]
-            retry_r27_hard_offenses = [
-                o for o in find_uncited_paragraphs(retry_net_result) if o["class"] == "wholly_uncited_paragraph"
-            ] + [o for o in retry_refined_for_r27 if o["class"] == "neighbour_named"]
-
-        if retry_r27_hard_offenses:
-            r27_enforcement_exhausted = True
-            raw_text = ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
-            answer_text, citations, net_result = _net("", repository_records=repository_records, thin_topics=thin_topics)
-            uncited_claims = []
-            paragraph_offenses = []
-            named_claim_flags = []
-            fact_check_flags = []
-        else:
-            retry_flags = _enforcement_flags(
-                retry_net_result, find_unsupported_named_claims(retry_net_result["sentences"], repository_records=repository_records),
-            )
-            raw_text = retry_raw_text
-            answer_text, citations, net_result = retry_answer_text, retry_citations, retry_net_result
-            if retry_flags:
-                # The voice had its one rewrite. Cutting what is still
-                # flagged would leave whatever leaned on it reading broken,
-                # so the voice's text is not shown, and the caller
-                # substitutes a Facilitator turn as it does for the
-                # uncited-claims enforcement's exhaustion.
-                sentence_enforcement["still_flagged"] = sorted({f["sentence"] for f in retry_flags})
-                sentence_enforcement_exhausted = True
-                raw_text = ""
-                answer_text, citations, net_result = _net("", repository_records=repository_records, thin_topics=thin_topics)
-            uncited_claims = find_uncited_claims(net_result["sentences"])
-            paragraph_offenses = find_uncited_paragraphs(net_result)
-            named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
-            fact_check_flags = find_unsupported_named_claims(net_result["sentences"], repository_records=repository_records)
+    # A reply the voice wrote that apply_net removed whole is replaced by the
+    # world's own answer record for the question, word for word. A guard or
+    # the uncited-claims enforcement that set the text aside left raw_text
+    # empty, and the caller answers for those.
+    answer_record_fallback = None
+    if raw_text.strip() and not answer_text.strip():
+        answer_record_fallback = _answer_record_fallback(raw_text, prepared.offered_ids, repository_records)
+        if answer_record_fallback is not None:
+            cut_from_draft = net_result["reply_shape"]["removed"]
+            raw_text = _record_reply(repository_records[answer_record_fallback])
+            answer_text, citations, net_result = _net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
+            net_result["reply_shape"]["removed"] = cut_from_draft + net_result["reply_shape"]["removed"]
+            if enforcing:
+                uncited_claims = find_uncited_claims(net_result["sentences"])
+                paragraph_offenses = find_uncited_paragraphs(net_result)
+                named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
+                fact_check_flags = find_unsupported_named_claims(net_result["sentences"], repository_records=repository_records)
 
     # Verified citation attachment (engine.m4.citation_attach), off unless
     # citation_attach_model_id is set: runs on the settled text, adds a
@@ -1214,18 +1001,12 @@ def _run_ordinary_voice_turn(
         # turn) - the caller substitutes a facilitator_turn, the exact
         # same shape seat_identity_guard_exhausted already uses above.
         "r27_enforcement_exhausted": r27_enforcement_exhausted,
-        # sentence_enforce: "flagged" lists the sentences, fact-check flags
-        # and net withholds, that triggered the one regeneration, and
-        # "still_flagged" what remained after it. "sentence_enforcement_
-        # exhausted" true means the rewrite still had a flagged sentence,
-        # answer_text is deliberately "" and the caller substitutes a
-        # facilitator_turn, the same shape the uncited-claims enforcement's
-        # exhausted flag uses.
-        "sentence_enforcement_exhausted": sentence_enforcement_exhausted,
         # What reply shaping (engine.m4.quote_placement) did: the quote
         # records placed, and each sentence removed with its reason.
         "reply_shape": net_result["reply_shape"],
-        "sentence_enforcement": sentence_enforcement,
+        # The answer record shown in place of a reply apply_net removed
+        # whole (_answer_record_fallback), or None.
+        "answer_record_fallback": answer_record_fallback,
     }
     if enforcing:
         # What the enforcement decided on, for its own audit trail.
@@ -1298,7 +1079,6 @@ def run_turn(
     other_tradition_known_in_window: bool | None = None,
     other_tradition_revealed: list[tuple[str, str]] | None = None,
     self_revision_enabled: bool = True,
-    sentence_enforce: bool = True,
     daily_cap_reached: bool = False,
     turn_cap: int | None = None,
     facilitator_only: bool = False,
@@ -1346,13 +1126,11 @@ def run_turn(
     engine.m5.safety_accumulation's own module docstring).
 
     The enforce flag and known_tradition_names (the uncited-claims rule's
-    flag-gated enforcement) and sentence_enforce (sentence_fact_check's
-    own, independent flag-gated enforcement): threaded straight through to
-    every _run_ordinary_voice_turn call this
-    function makes (the ordinary path and the bridge route both generate
-    a real voice answer that can carry the same offenses) - see that
-    function's own docstring for the full enforcement shape of each. The
-    uncited-claims flag defaults off; sentence_enforce defaults on.
+    flag-gated enforcement): threaded straight through to every
+    _run_ordinary_voice_turn call this function makes (the ordinary path
+    and the bridge route both generate a real voice answer that can carry
+    the same offenses) - see that function's own docstring for the
+    enforcement's shape. The flag defaults off.
 
     daily_cap_reached is engine.api.anon_cap's verdict that this visitor
     has used today's message allowance. It closes the session the same way
@@ -1490,7 +1268,7 @@ def run_turn(
             previous_kind=previous_kind,
             rhythm=rhythm,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
-            self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
+            self_revision_enabled=self_revision_enabled,
             citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
             usage_world_key=world.world_key,
         )
@@ -1520,7 +1298,7 @@ def run_turn(
             other_tradition_known_in_window=other_tradition_known_in_window,
             other_tradition_revealed=other_tradition_revealed,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
-            self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
+            self_revision_enabled=self_revision_enabled,
             on_sentence=on_sentence,
             citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
             usage_world_key=world.world_key,

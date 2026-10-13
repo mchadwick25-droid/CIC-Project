@@ -106,7 +106,7 @@ def _turn(scripts, **kwargs):
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_scripts=scripts)
     event, _usage = run_voice_turn_for_world(
         voice_client=client, voice_model_id="m", world=_recitation_world(), participant_message="who was Jesus",
-        directive=None, session_id="test-session", sentence_enforce=False, **kwargs,
+        directive=None, session_id="test-session", **kwargs,
     )
     return event, client
 
