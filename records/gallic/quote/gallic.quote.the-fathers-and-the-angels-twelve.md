@@ -65,9 +65,8 @@ modern_rendering: >-
   the earliest Church still stood unbroken ... And the burning faith of the few had not yet grown lukewarm by
   being spread among the many. Then the honored fathers, with watchful care, made provision for those who would
   come after them. They met to discuss what plan to adopt for daily worship across the whole community of brothers
-  ... They feared that some dispute might send out a poisonous root of error, or jealousy, or division, among
-  those who came after ... Each man, in keeping with his own zeal and with no thought for the weakness of others,
-  thought that what was easy for him should be fixed ... Some were for fifty, others for sixty. Some, not content
+  ... send out a poisonous root of error, or jealousy, or division, among those who came after ... in keeping
+  with his own zeal, and with no thought for the weakness of others ... Some were for fifty, others for sixty. Some, not content
   with this number, thought they really ought to go beyond it ... There was such a holy difference of opinion in
   their devout debate on the rule of their religion. So the hour of their evening office came before the sacred
   question was settled ... One rose up in their midst to sing the Psalms to the Lord. And while they were all
@@ -76,8 +75,8 @@ modern_rendering: >-
   Then, by suddenly vanishing from the sight of all, he at once ended both their debate and their service ... At
   this the honored assembly of the Fathers understood that a general rule had been fixed for the brothers'
   communities. It was fixed by God's providence, through the angel's direction. So they decreed that this number
-  should be kept in both their evening and their night services ... the two lessons they added, they added simply
-  as extras, and by their own appointment.
+  should be kept in both their evening and their night services ... they added ... simply as extras, and by their own
+  appointment.
 relations:
 - type: associated-with
   target: gallic.story.the-angel-and-the-twelve-psalms

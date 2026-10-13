@@ -60,7 +60,7 @@ thinness: What the brethren at Tours sang, and at what hours, is not what our bo
   Marseilles, and a choir of virgins walked in Martin's funeral. Not one of them speaks. The country
   people the saint's power was shown for never speak for themselves. When our teaching on grace was
   carried to Africa and Rome, no one among us told what was said and done. Vincent wrote only how he read
-  the letter from the Apostolic See, as a word against novelty. Three of Cassian's texts on the body and
+  the letter from the Apostolic See, as written for his own side against novelty. Three of Cassian's texts on the body and
   its discipline are missing from the English we have. They are the twelfth and twenty-second
   Conferences, and the sixth book of the Institutes. A later translator left them out. Their absence is
   his doing, not a silence of ours.

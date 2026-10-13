@@ -102,7 +102,8 @@ description: >-
   founding literature than the strength of that evidence might suggest: it is Salvian's own entire
   book, and it supplies Vincent's stated occasion for writing, but in Sulpitius and Cassian it shows
   up more as a recurring note than as something that shapes the whole. For that reason it is a
-  supporting gravity, not a primary one. The evidence for it is not thin. It simply never organizes
+  supporting gravity, not a primary one. It is the weakest and most provisional gravity in this
+  world's set. The evidence for it is not thin. It simply never organizes
   as broadly as the strongest gravities do.
 
   Under the pressure of barbarian collapse, judgment changes in kind, not just intensity: it shifts

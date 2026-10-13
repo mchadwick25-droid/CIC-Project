@@ -113,7 +113,9 @@ description: >-
   Dialogues are built as eyewitness testimony and the Conferences as heard talks. Vincent carried it
   from the heard to the read. It works inside the frame that the monk-bishop and Egypt-as-measure
   gravities set, so it is a supporting gravity, not a primary one. In the grace quarrel it became a
-  weapon: Cassian's authority was that he had heard Chaeremon.
+  weapon: Cassian's authority was that he had heard Chaeremon. Transmission also damaged this value.
+  The English edition cut Conferences XII and XXII, which removed two eyewitness conferences from
+  this world's text.
 manifestations:
 - "Vita ch. I: a Life written so that a man 'worthy of imitation' should not remain unknown, its readers 'roused to the pursuit of true knowledge, and heavenly warfare, and divine virtue'"
 - "Martin's dying 'I have sinned if I leave you a different example' (Ep. III); Gallus's 'I myself am a witness' (Dial. II.4); Ep. I defending the Vita's authority against a skeptic"

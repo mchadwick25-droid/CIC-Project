@@ -16,7 +16,7 @@ confidence:
     texts' own statements: Vita VII; Ep. I; Dial. III.6, III.15; Inst. Pref., I.2; Conf. XV.7);
     Widely Accepted for Martin's fame (Gennadius). The Lérins complication (Eucherius, row 26, file
     line 452) is Inferential/Thin for wording. The historicity of the miracles is not asserted. Whether
-    the Vita Antonii was Sulpitius's model (row 34; Stancliffe, row 18) is not settled in these texts. Evidentiary weight set to contested because the force itself is a real
+    the Vita Antonii was Sulpitius's model (row 34; Stancliffe, row 18, unread) is not settled in these texts. Evidentiary weight set to contested because the force itself is a real
     tension between the two houses, neither side's own text resolving it. The Egyptian refusal is
     presented as received teaching, not as something Gaul itself came up with.
 sources:

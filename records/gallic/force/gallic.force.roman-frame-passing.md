@@ -36,7 +36,7 @@ matrix_cell: 3A
 description: >-
   After this world's span, Roman Gaul gave way to a Frankish Gaul ruled by kings and bishops. Inside
   this world's span, only Salvian witnesses the passing of the Roman frame. He reads it as God's
-  judgment, not as a change of order. Faustus's exile and the Gothic occupation of Arles and
+  judgment. Faustus's exile and the Gothic occupation of Arles and
   Marseilles came later, after this world's span. No voice inside it treats the political change as
   the end of anything.
 manifestations:

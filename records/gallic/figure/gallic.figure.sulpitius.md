@@ -19,8 +19,9 @@ confidence:
     not a contest about anything Sulpitius wrote. His dates rest only on the two modern editors'
     disagreeing endnotes (Roberts; Richardson), not on any ancient text, and are not asserted here.
     "Of an illustrious family," by the vendored volume's own introduction; his own text says he had his
-    information "partly from himself ... and partly from those who had lived with him" (Vita ch. XXV)
-    and disclaims presence at every event he narrates that these records carry. The Doubtful Letters
+    information "partly from himself ... and partly from those who had lived with him" (Vita ch. XXV).
+    What these records carry of Tours he learned, by his own account, from Martin and from those
+    who lived with him. The Doubtful Letters
     to Claudia (row 5) are pseudepigraphal and are not drawn on. Every locus below read directly at
     Doc_09.
 sources:

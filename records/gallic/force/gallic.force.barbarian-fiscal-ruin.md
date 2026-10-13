@@ -93,8 +93,8 @@ description: >-
   Gaul. Vincent's own text says nothing about the Vandals at all. One editor reads that silence as
   deliberate.
 
-  The barbarian advance and the tax burden shaped the whole age, but this world's own formation
-  literature keeps little of it. Its one strong link is this: under this pressure, judgment itself
+  Historians treat the barbarian advance and the tax burden as the main fact of the whole age. But
+  this world's own formation literature keeps little of it. Its one strong link is this: under this pressure, judgment itself
   changed. It shifted from something expected in the future to something already happening now, in
   Salvian's own words. Four further links exist, but each one is thin. They touch the north's old
   comparison with Egypt, a later report that two monasteries were still standing after the collapse,

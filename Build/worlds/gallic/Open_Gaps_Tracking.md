@@ -1016,3 +1016,34 @@ Mark directly asked for the out-of-scope items listed in OG-33 to be fixed. That
 - CI's embedded-quotation pin (`engine/m1/tests/test_embedded_quotations.py`) moves from 53 to 51 gallic records. The two quoted build notes left the force rewrites. One verbatim old-translation line that the egypt-as-measure rewrite had added is now paraphrased with its locus, and the words stay in `gallic.quote.chaeremon-three-stages-of-grace`.
 
 Status: CLOSED for the records changed above. Items (1) to (4) stay OPEN.
+
+### OG-36. Review findings on the record-wording pass fixed, and a count corrected, 2026-10-13.
+
+An independent review of the record-wording pass (PR #865) found dropped hedges, unsupported phrases and added words in two quote renderings. Mark ruled on 13 October: keep the build-record improvements (the force, gravity, voice_craft and world_core rewrites), with their hedges restored. Each fix restores the old meaning in the new wording and rewrites nothing else.
+
+**Count correction.** OG-35 (the out-of-scope items of OG-33 fixed, 2026-10-13) says "Force descriptions, 22". The pass changed 21 force descriptions. The gravity count of 9 is right. OG-35 stays as written.
+
+**Hedges restored.**
+- `gallic.force.unconverted-countryside`: the southern voices "as read".
+- `gallic.gravity.judgment-imminent-present`: the weakest and most provisional gravity in this world's set.
+- `gallic.gravity.interior-road`: Conferences XII and XXII and Institutes VI are missing from the English edition.
+- `gallic.force.power-displayed-disowned` divergence_note: Stancliffe "unread".
+- `gallic.force.transmission-in-ending`: the letters to Augustine were left out of the first NPNF volume under its stated policy, not out of "the English editions". The Lérins Latin is not in the English editions that carried Cassian, Sulpitius and Vincent. A Representative built from this record says less about the house that formed bishops from inside, and must say so.
+- `gallic.force.transmission`: the Lérins Latin is known only from a rough OCR scan of Migne.
+
+**Phrases fixed.**
+- `gallic.force.barbarian-fiscal-ruin`: "Historians treat" the barbarian advance and the tax burden as the main fact of the age; the flat "shaped the whole age" is gone.
+- `gallic.force.roman-frame-passing`: "not as a change of order" is gone; no source supports it.
+- `gallic.force.army-and-rank-before`: Inst. IV.6 says "they"; the added subject "the elders" is gone.
+- `gallic.gravity.named-example`: the cut of Conferences XII and XXII damaged this value.
+- `gallic.core.gallic` thinness: Vincent read the letter "as written for his own side".
+- `gallic.figure.sulpitius` divergence_note: "disclaims presence at every event" is replaced by his own account, from Martin and those who lived with him (Vita XXV), as the voice_craft guard says.
+
+**Quote renderings.** Both now render `text` only.
+- `gallic.quote.germanus-and-chaeremon-on-the-husbandman`: "Just so, toil all night long is of no use to the workers unless the Lord's mercy prospers it" is gone.
+- `gallic.quote.the-fathers-and-the-angels-twelve`: "thought that what was easy for him should be fixed" and "the two lessons" are gone. Under the same rule, the added subjects "They feared that some dispute might" and "Each man" are also gone; those fragments now stand between ellipses as they do in `text`.
+
+**Still OPEN.**
+- (1) `gallic.gravity.judgment-imminent-present` closes on "the gravity that the passing of Roman order touches most". The old wording was "the only gravity that the passing of Roman order touches at all". The review did not raise it and Mark's ruling does not cover it, so it is left for a ruling.
+
+Status: CLOSED for the fixes above. Item (1) stays OPEN.

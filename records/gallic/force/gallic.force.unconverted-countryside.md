@@ -44,7 +44,7 @@ description: >-
   the name of Christ.' And 'wherever he destroyed heathen temples, there he used immediately to
   build either churches or monasteries' (Vita XIII). A whole heathen crowd is made catechumens 'by
   placing his hand upon the whole of them' (Dial. II.4). No such mission field appears in the
-  southern voices. The south's outward work is teaching by writing, and hospitality.
+  southern voices as read. The south's outward work is teaching by writing, and hospitality.
 
   The countryside was heathen, and the saint's power was for it. Where a temple came down, a church
   or a monastery went up. The possessed were brought to him. A crowd on a plain saw a dead boy

@@ -81,7 +81,8 @@ description: >-
   reason stated. Then come Heurtley, Richardson and Warfield. The first NPNF volume of Augustine
   leaves out Letters 221-226, under its own stated policy. Further on comes the commendation in the
   Rule of Benedict. The Latin of the Lérins writers, and of Faustus, was not taken into the English
-  series that carried Cassian, Sulpitius and Vincent.
+  series that carried Cassian, Sulpitius and Vincent. In this account, the Lérins Latin is known
+  only from a rough OCR scan of Migne's printed text.
 
   The brethren did not think of themselves as handing the world on. They thought they were keeping
   what they had received. A Life was written so that a man worthy of imitation should not remain

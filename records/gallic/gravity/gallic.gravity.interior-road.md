@@ -100,7 +100,8 @@ description: >-
   discretion, no list of faults. Cassian frames every element of this program as received from
   Egypt, not his own invention; what Gaul contributed was the adaptation - carried west and adapted
   for a colder climate (Inst. I.10, IV.10-11), its severity sustained by a real fear of spiritual
-  cooling.
+  cooling. The English edition this account draws on leaves out two of Cassian's conferences on
+  this program: XII, on chastity, and XXII, on nocturnal illusions. It also leaves out Institutes VI.
 manifestations:
 - "Purity of heart as 'the immediate aim or goal,' fixed on 'as if on a definite mark' (Conf. I.4); the practices 'aids to perfection,' not perfection (I.7)"
 - "Discretion, 'by the judgment of the blessed Antony,' as 'the mother of all virtues' (Conf. II.4); the money-changer testing every thought (I.20); disclosure to the elder"

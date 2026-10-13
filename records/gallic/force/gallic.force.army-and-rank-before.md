@@ -69,8 +69,8 @@ description: >-
   fight (Vita IV). Vincent came from the manifold and deplorable tempests of secular warfare to cast
   anchor in the harbour of religion (Comm. ch. 1). Honoratus and his brother, in Hilary's Latin,
   could not reach obscurity because their nobility would not permit it. In the rule Cassian set
-  down, the steward keeps a novice's worldly clothes. He keeps them until, by different trials, the
-  elders can recognize the excellence of his progress and life and endurance (Inst. IV.6).
+  down, the steward keeps a novice's worldly clothes. He keeps them until, by different trials,
+  they can recognize the excellence of his progress and life and endurance (Inst. IV.6).
 
   The renunciant did not stop being a soldier; he changed service. He had taken the oath of
   allegiance to Christ, as he had once taken Caesar's. His dress was armour and his day a campaign.

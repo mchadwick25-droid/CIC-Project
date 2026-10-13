@@ -53,8 +53,9 @@ description: >-
   Institutes and Conferences as reading for a rule, not as one side of a Gallic argument. A later
   editor cut the grace teaching of Conference XIII to make Cassian orthodox. A later English
   translator left out the texts on the body, giving no reason. The letters that reported the
-  Marseilles teaching to Augustine were not taken into the English editions. Nor was the Latin of
-  Lérins: Hilary's sermon, Eucherius's letter and Faustus's treatise. Gennadius, at Marseilles, is
+  Marseilles teaching to Augustine were left out of the first NPNF volume of Augustine, under its
+  stated policy. The English editions that carried Cassian, Sulpitius and Vincent did not take in
+  the Latin of Lérins: Hilary's sermon, Eucherius's letter and Faustus's treatise. Gennadius, at Marseilles, is
   the one ancient writer who kept the Lérins side.
 
   The world did not survive to see what was kept. What it believed it was leaving was an example,
@@ -68,6 +69,10 @@ description: >-
   Faustus's treatise and the Commonitory's second book. Other gaps are the world's own silences:
   women's own voices, the ordinary Gallic Christian, worship at Marmoutier, and daily life at
   Lérins.
+
+  A Representative built from this record can speak more fully about the program, the acts of
+  power and the rule. It can say less about what the house that formed bishops was like from
+  inside, and it must say so.
 manifestations:
 - "The Commonitory's second book stolen (Gennadius LXV); the Dialogues 'in two divisions' against the vendored three"
 - "Later monasticism keeping the program - the Institutes and Conferences surviving as a Rule's reading rather than as one side of a Gallic argument (RB 42/73, downstream citation only)"

@@ -67,8 +67,8 @@ modern_rendering: >-
   ... Chaeremon said: "... The farmer may take the greatest pains to work the ground. Even so, he cannot at
   once credit his crops and their rich fruits to his own labor. He finds that his efforts often come to
   nothing unless timely rains and a quiet, calm winter help them ... God's goodness does not grant these
-  rich crops to lazy farmers who do not work their fields by ploughing them often. Just so, toil all night
-  long is of no use to the workers unless the Lord's mercy prospers it ... For a man should think this over
+  rich crops to lazy farmers who do not work their fields by ploughing them often ...
+  For a man should think this over
   and weigh it with the greatest care. By his own strength he could not have made the very efforts he put in
   so earnestly out of his desire for wealth. He could have made them only if the Lord's protection and mercy
   had given him strength for all the work of farming ... From this we clearly conclude that the first step
