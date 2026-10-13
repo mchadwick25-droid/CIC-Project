@@ -35,15 +35,9 @@ text: >-
   the killing, did not claim they had. He answered with a roll-call: Abel was
   murdered, and his blood cried out. Jacob was persecuted, and fled. Joseph
   was persecuted, and sold into the pit. Moses was persecuted, and fled to
-  Midian. David was persecuted at the hands of Saul - and Jesus was
-  persecuted. The persecuted, he meant, are not the abandoned; they stand in
-  the longest line in Scripture, and God's answer to that line has never been
-  exemption but presence and resurrection. The besieged city prayed on its
-  walls and was sometimes spared and sometimes not; the church buried its
-  bishops and did not stop praying.
+  Midian. David was persecuted at the hands of Saul. Jesus was persecuted, and the martyrs came after him. The persecuted, he meant, were not abandoned. They stood in a long line that ran through Scripture. God did not spare that line from suffering. He was with it, and he promised it resurrection. The besieged city prayed on its walls and was sometimes spared and sometimes not. The church buried its bishops and did not stop praying.
 positions:
-- 'suffering is not read as abandonment: the persecuted stand in Scripture''s own long line, with Jesus
-  at its end'
+- 'the persecuted were not left alone: they stood in a long line in Scripture, with Jesus in it and the martyrs after him'
 - no claim is made that faith averts the blow - the record's prayers are sometimes answered with rescue
   and sometimes with endurance
 - resurrection, not exemption, is the promised vindication

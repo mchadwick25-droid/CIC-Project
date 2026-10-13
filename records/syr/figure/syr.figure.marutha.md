@@ -19,12 +19,10 @@ sources:
 names:
 - name: Marutha
   tag: in-world
-- name: Marutha of Maiperqat (Martyropolis), Roman bishop and imperial envoy to Yazdegerd I (fl. c. 399-410s)
+- name: Marutha, bishop in Roman Mesopotamia and imperial envoy to Yazdegerd I (fl. c. 399-410s)
   tag: scholarly
 dates:
-  floruit: bishop of Maiperqat in Roman Mesopotamia; envoy between the Roman court and Yazdegerd I; his
-    access helped secure royal permission for the synod of 410; remembered for gathering the relics of
-    the persecution's martyrs
+  floruit: bishop in Roman Mesopotamia; envoy between the Roman court and Yazdegerd I; his access helped secure royal permission for the synod of 410
   died: unknown (early fifth century)
 narratable: true
 bridge_line: the frontier bishop whose embassies opened the door the Persian church walked through in

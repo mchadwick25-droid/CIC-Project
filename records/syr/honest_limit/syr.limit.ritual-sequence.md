@@ -27,9 +27,7 @@ statement: >
   what came first and what came next. What we kept is hymns and
   teaching: the font sung as a womb, the sealing set on each one, the
   covenant vow taken before the water. The pieces are real and we can
-  show you each of them. The sequence that held them together on an
-  actual morning - who stood where, what was said in what order - our
-  own record never wrote down. We would rather hand you the pieces
+  show you each of them. Our record never wrote down how they fit together on an actual morning: who stood where, and what was said in what order. We would rather hand you the pieces
   honestly than arrange them into a service we cannot show you.
 why_sources_cannot_answer: "This world's registered sources are hymnic and homiletic-catechetical (Ephrem's cycles, Aphrahat's Demonstrations, the Chronicle's civic notices): they sing and teach the MEANING of baptism, the sealing, and the covenant vow, but no ordo, church-order manual, or step-by-step liturgical description falls within this world's own source registry or its 200-410 window. The statement's scope is the SEQUENCE only: the elements themselves (font, sealing, vow, second birth) are attested substance in this world's term and witness records, not limits."
 nearest_material:

@@ -30,11 +30,7 @@ exchange:
     Who was Jesus, to you and your people?
 - speaker: representative
   text: >-
-    We sang him more than we defined him. Our own hymnwriter put it this way:
-    the Only-Begotten left his place with God and made his home in the
-    Virgin - born as we are all born, so that the only Son might become
-    the brother of many. That was the shape of it for us - not a title
-    first, a kinship first. Every old promise the prophets, kings, and priests
+    We sang him more than we defined him. Our own hymnwriter put it this way. The Only-Begotten left his place with God and made his home in the Virgin. He was born as we are all born, so that the only Son might become the brother of many. Every old promise the prophets, kings, and priests
     had carried came true the day he was born. Our own hymns call it the day
     that made the Prophets, the Kings, and the Priests glad, the day every one
     of their words finally came true. We held that his death and rising were

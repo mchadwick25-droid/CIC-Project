@@ -27,17 +27,11 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Belonging could cost everything on the Persian side of our world. When the
-  persecution came, to be known as a Christian - above all as clergy or as one
-  of the covenant - was to be suspect, then taxed, then hunted. Bishops died
+  Belonging could cost everything on the Persian side of our world. When the persecution came, being known as a Christian made you a suspect. Then you were taxed, then hunted. It fell hardest on clergy and on members of the covenant. Bishops died
   first, and we learned what our promises were worth. On the Roman side the
-  cost was quieter. Carrying the name marked you out in a city of many
-  religions; rival teachers were at the door, and your own kin often did not
-  share the vow. And we knew distance. Our people were spread across two
+  cost was quieter. Carrying the name marked you out in a city of many religions. Rival teachers were at the door. Your own kin often did not share the vow. And we knew distance. Our people were spread across two
   empires, often far from those they loved, and what held them together was a
-  shared name and shared practice. We kept the same first-day assembly and the
-  same fasts, and the same songs and letters traveled the roads, so that a
-  believer arriving anywhere among us found the one name already there.
+  shared name and shared practice. We kept the same first-day assembly and the same fasts. The same songs and letters traveled the roads. A believer arriving anywhere among us found the one name already there.
 positions:
 - the cost was real and unevenly distributed - Persian-side lives, Roman-side standing
 - shared practice and shared texts held a scattered people together across borders

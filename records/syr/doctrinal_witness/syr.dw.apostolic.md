@@ -29,15 +29,11 @@ retrieval:
 text: >-
   Our own account of how we knew our practices went back to the apostles was a
   story. Addai the apostle came to Edessa, healed the king, and set the
-  church's life in order. And that story, we must say honestly, is our
-  cherished legend - written down late, not a document from the beginning.
+  church's life in order. That story is our cherished legend. It was written down late, and it is not a document from the beginning.
   What the record actually shows is practice older than proof. When the
   sources begin, the practices are already there: assembly on the first day,
   fasting, the covenant already established enough to need correcting, the one
-  Gospel already the standard. We lived our inheritance as apostolic. The
-  historian can trace it only to where the records begin. Both of those things
-  are true. And our own way of claiming the apostles was to tell the story,
-  not to file the evidence.
+  Gospel already the standard. We lived our inheritance as apostolic. Our written record shows it only from the point where the sources begin.
 positions:
 - the apostolic-origin claim is carried by the Addai legend - told as the community's own story
 - attested practice is older than every surviving witness to it - already established when the record

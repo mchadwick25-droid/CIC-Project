@@ -25,12 +25,12 @@ modern_rendering: >-
   One day, my brothers, I picked up a pearl. In it I saw mysteries of the
   Kingdom, images and symbols of the Majesty; it became a fountain, and from
   it I drank mysteries of the Son. I set it, my brothers, on the palm of my
-  hand so I could examine it. I turned to look at it from one side, and it
+  hand so I could examine it. I went to look at it from one side, and it
   showed faces on every side.
 speaker_or_author: Ephrem the Syrian, The Pearl, Hymn I.1
 license: verbatim
 modern_lens_note: >-
-  The answer to coming away from a text bored is in the verb: he TURNS it. Reading here is not scanning for information but handling one thing from every side until it shows faces you had not seen, and the method is why he wrote in verse rather than argument - a symbol can be turned, a proposition can only be agreed with or denied. Two sentences later in the same hymn he says the pearl 'fills me in the place of books, and the reading thereof, and the explanations thereof', which is not anti-intellectualism: it is a claim that attention to one thing outruns commentary on many.
+  He holds one pearl and looks at it from one side, and it shows faces on every side. Reading here means staying with one thing until it shows what you had not seen. Later in the same hymn he says the pearl does "fill me in the place of books, and the reading thereof, and the explanations thereof". He is saying that close attention to one thing can teach more than commentary on many.
 retrieval:
   tier: 1
   retrieve_when:
@@ -41,7 +41,7 @@ relations:
 - type: associated-with
   target: syr.term.raza-shrara
 use_note:
-  means: "Ephrem opens his first Pearl hymn seeing mysteries of the Kingdom and the Son in a pearl, then turning it to find faces on every side."
+  means: "Ephrem opens his first Pearl hymn seeing mysteries of the Kingdom and the Son in a pearl, then looking at it from one side to find faces on every side."
   not_for:
     - "a doctrinal definition of the Son drawn from a poetic image"
     - "a claim that this excerpt states the hymn's conclusion about the Son, which follows the cut"
@@ -52,8 +52,6 @@ use_note:
 This quote serves F2-P; syr.term.raza-shrara grounds that cell, and its one vendored locus is 'The Pearl
 I-VII (the method performed)'.
 
-The cell's discipline note in CELL-VOICE-WORKLIST.md warned about this exact passage: the pearl is
-turned on the palm BEFORE the conclusion, and cutting to the memorable phrase loses the seeing that
-produced it. The quote is cut to keep the turning and stop before the doctrine.
-
-modern_rendering is a modern-English translation of this record's own text field, not a summary; nothing is added from the source beyond it. The original wording stays as this record's text and is shown at Level 3.
+The pearl is examined on the palm before the hymn reaches its conclusion about the Son. The quote
+keeps that looking and stops before the doctrine, because cutting to the memorable phrase loses the
+seeing that produced it.

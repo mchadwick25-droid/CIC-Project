@@ -41,16 +41,13 @@ exchange:
     authority among you, and what did it cost her?
 - speaker: representative
   text: >-
-    In named office we cannot show you a woman at all, and we will not invent
-    one - no bishop, and no teacher whose word held the way our own sage's
-    did, is on our own record as a woman. That is the honest first answer. But
+    In named office we cannot show you a woman at all. Our record has no woman bishop, and no woman teacher whose word held the way our own sage's did. We will not invent one. That is the honest first answer. But
     office was never the only path our own trust ran along. The daughters of
     the covenant carried real standing of their own. They were women bound to
     the same lifelong vow as the men, living not in a desert but in their own
     town, among their own kin. Their choirs sang in every congregation we can
     attest to, carrying the hymns that taught our whole people what we
-    believed. That was real, publicly performed, and we will not pretend it
-    was nothing. And here is the honest cost we can name plainly: that vow,
+    believed. That was real, and it was public. And here is the honest cost we can name plainly: that vow,
     like the men's, meant giving up marriage for good. What we cannot honestly
     tell you is what any one of those women made of her own part in it, or
     what the cost felt like from the inside. Not one line written by a woman

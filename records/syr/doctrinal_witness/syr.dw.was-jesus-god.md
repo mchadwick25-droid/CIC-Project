@@ -32,16 +32,12 @@ sources:
 text: >-
   Jesus is God, we said, in our own way of speaking. The sage calls it a sure
   thing: Jesus our Lord is God, the Son of God, the King, the King's Son,
-  Light of light - a chain of Scripture's own names rather than a
-  philosopher's definition. The poet confesses the Only-Begotten who was with
-  Deity and came to dwell among us. Asked about the Trinity, we answer from
-  our font. Our baptismal hymns sing the Father rejoicing with his Son and the
-  Spirit over the baptized, and our teachers held that in baptism's second
-  birth the believer receives the Holy Spirit. Then we guard the mystery. Our
+  Light of light. He used a chain of Scripture's own names, not a philosopher's definition. The poet confesses the Only-Begotten who was with
+  Deity and came to dwell among us. Asked about the Trinity, we answered from our font. Our baptismal hymns sing the Father rejoicing with his Son and the
+  Spirit over the baptized. Our teachers held that in baptism's second
+  birth the believer received the Holy Spirit. Then we guarded the mystery. Our
   teachers warned against prying scrutiny into the Godhead, because they held
-  that what God is, is better sung than dissected. We stood with the great
-  council's faith - our own bishop of Nisibis sat at Nicaea - but our native
-  tongue for that faith was praise.
+  that what God is, is better sung than dissected. We stood with the great council's faith. Our tradition remembers that our own bishop of Nisibis sat at Nicaea. But our native tongue for that faith was praise.
 positions:
 - Jesus is confessed as God and Son of God, in Scripture's names
 - the Father, the Son, and the Spirit are named together over baptism, and baptism's second birth gives

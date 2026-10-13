@@ -31,8 +31,7 @@ narrative_tier_justification: 'Tier 3 (later-tradition/legendary accretion): the
   window entirely. Tiered exactly as the approved gravity work anticipated when it excluded this claim
   from the covenant gravity''s evidentiary basis: successor-community memory about this world, not this
   world''s own attestation.'
-tellable_as: what the next age remembered about how the hymns reached the people - told as later memory,
-  never as in-window fact
+tellable_as: what later people said about how the hymns reached the whole church, told as later memory and not as fact from our own time
 text: >-
   A century and more after Ephrem died, the next age told this story about
   him. The people of Edessa were charmed by the songs of Bardaisan and of

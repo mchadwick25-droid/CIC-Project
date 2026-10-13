@@ -36,11 +36,7 @@ relations:
 name: 'Transmission in Ending: the Harmony Displaced, the Poet Legendized [3B-2 - ending/internal, the
   required transmission force]'
 kind: ending
-description: 'At the window''s close the transmission stream itself turns: the two-century harmony gives
-  way to the separated Gospels (traditionally under Rabbula, whose personal role is contested), and the
-  Syriac Diatessaron ceases to be copied - which is why it survives only in fragments and derivative witnesses.
-  In the following century the successor community reshapes Ephrem''s own memory to its needs: the choir-leading,
-  fully monasticized Ephrem of the sixth-century Life belongs to reception history, not to this world.'
+description: 'At the close of the period, the way the Gospel was handed on changed. The harmony, read for two centuries, gave way to the four separate Gospels. Tradition links this to Rabbula, but his own part in it is disputed. The Syriac harmony fell out of church use. In time its Syriac copies were lost, so it now survives only in pieces and in later versions. In the next century, the church that came after reshaped Ephrem''s memory. The later Life shows him leading choirs as a full monk. That picture belongs to later memory, not to this period.'
 manifestations:
 - the Peshitta's arrival and the harmony's end as lectionary text
 - the transmission loss that makes C5's own textual anchor indirectly recoverable only

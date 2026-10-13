@@ -26,9 +26,9 @@ modern_rendering: >-
   who is called your Teacher, wrote this for you. If you have faith the size
   of one mustard seed, you can say to this mountain, 'Move,' and it will move
   away from you. You can even say, 'Rise up and fall into the sea,' and it
-  will obey you. So it seems that among all your people there is not one wise
-  man whose prayer is heard. Not one of them asks God to make your
-  persecutors leave you alone. For it is clearly written for you in that
+  will obey you. So it seems that in all your people there is not one wise
+  man who asks God to make your persecutors leave you alone, and is heard.
+  For it is clearly written for you in that
   passage: there is nothing you will not be able to do. When I saw that he
   was blaspheming and saying so much against the Way - the Christian faith -
   my mind was troubled.

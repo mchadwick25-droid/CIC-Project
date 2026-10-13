@@ -36,18 +36,10 @@ exchange:
     belong, or marry again?
 - speaker: representative
   text: >-
-    Nothing in our own record answers that question at all. What survives from
-    us was written by people who had given up marriage, mostly for others who
-    had given it up too. It was not written to record what an ordinary married
-    household among us did when a marriage ended. Our own vow, the covenant -
-    the qyama - our sons and daughters took, was for life; that much we can
-    show you plainly, because it was our own. But whether an ordinary married
-    person among us could divorce, whether they could marry again, and what
-    standing they held afterward in their own congregation - no surviving text
-    of ours says. We will not invent a ruling to fill that silence, however
+    Nothing in our own record answers that question at all. What we wrote about marriage was written mostly by people who had given it up, for others who had too. It was not written to record what an ordinary married
+    household among us did when a marriage ended. The sons and daughters of the covenant took a vow for life. We called this the qyama. That much we can show you plainly. But no surviving text of ours says whether an ordinary married person could divorce. It does not say whether they could marry again, or what standing they held afterward. We will not invent a ruling to fill that silence, however
     much you may want one from us. And whatever your own answer turns out to
-    be, for your own life: we are not the ones to weigh you for it. We have
-    told you honestly what we do and do not hold. The rest is yours to carry.
+    be, for your own life: we are not the ones to weigh you for it.
 ---
 Required identity-collision demonstration for F6-T (marriage-ending
 cell, fleet canon_question_id _fleet.canon.f6-t-03). We-voice throughout;
