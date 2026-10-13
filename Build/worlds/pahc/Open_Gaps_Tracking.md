@@ -685,10 +685,8 @@ A read-only audit of `records/pahc/` checked the spoken fields against the cited
 **Source citations.** `citation:` added to all 23 `records/pahc/source/` records, using only words in each record's own author, work and edition fields. The `m9:source-citation/pahc` waiver is removed from `engine/m9/enforce.py`.
 
 **Changed, build records (factual errors only, every hedge and caveat kept).**
-- `pahc.force.selective-canonization` (`description`, `manifestations`, `confidence.divergence_note`, `sources` locus for Hermas and the Didache): Hermas is placed outside the canon among books read to newcomers (Athanasius, Festal Letter XXXIX, 7), not "excluded". "Roughly eighteen centuries" for the Didache becomes "until its rediscovery in 1873".
-- `pahc.force.apostolic-testimony-inheritance` (`description`): Trallians 2 reads "as to the apostle of Jesus Christ", about the presbytery; the old line made submission owed to Christ himself.
-- `pahc.force.contemporary-rival-movements` (`manifestations`, Tertullian locus): Eusebius, Church History V.16.10 has "the faithful in Asia met often in many places", not synods of bishops; Adversus Marcionem I.19 gives the Antonine reign and 115 years after Tiberius, from which the c. 144 date is derived. The same `description` also loses two bits of process wording the live-surface check flags ("read by this build", "Strand A members"); the caveat that the reading is an interpretive extension stays.
-- `pahc.gravity.boundary-drawing` (`description`): same Asia correction.
+- `pahc.force.selective-canonization` (`description`, `manifestations`, `confidence.divergence_note`, `sources` locus for Hermas and the Didache): the description also has a few sentences split and two clauses shortened so the edited field passes the readability gate, with no change of content. Hermas is placed outside the canon among books read to newcomers (Athanasius, Festal Letter XXXIX, 7), not "excluded". "Roughly eighteen centuries" for the Didache becomes "until its rediscovery in 1873".
+- `pahc.gravity.boundary-drawing` (`description`): Eusebius, Church History V.16.10 has "the faithful in Asia met often in many places", not synods of bishops.
 - `pahc.source.anti-montanist-fragments` (body): same Asia correction. `pahc.source.justin-first-apology` (body): First Apology 26 reads "many of every nation". `pahc.source.shepherd-hermas` (body): Hermas and Athanasius as above. `pahc.source.tertullian-adversus-marcionem` (`work`): I.19 as above.
 
 **Changed, spoken fields.**
@@ -700,7 +698,7 @@ A read-only audit of `records/pahc/` checked the spoken fields against the cited
 - `honest_limit` `statement` (2): `enslaved-voices`, `ordinary-majority`.
 - `term` (11): `agape-label`, `baptisma`, `diakonos`, `ekklesia`, `episkopos`, `hetaeria`, `ministrae`, `pertinacia`, `presbyteros`, `prophetes`, `two-ways`. `diakonos` no longer gives deacons the care of widows and prisoners (Justin, First Apology 67, gives it to the president); `two-ways` no longer says the choice was "kept daily" (not in the Didache).
 
-**Not changed.** Quote `text`; every non-spoken field of a quote; build records beyond the factual lines above; `pahc.dw.*` `positions`.
+**Not changed.** `pahc.force.apostolic-testimony-inheritance` and `pahc.force.contemporary-rival-movements` (see OG-28 item 9); quote `text`; every non-spoken field of a quote; build records beyond the factual lines above; `pahc.dw.*` `positions`.
 
 **Gates.** See the closing note below; counts are set after the rebuild.
 
@@ -718,5 +716,8 @@ Outside the spoken-field scope of OG-27, or left by choice. Each item names the 
 6. Story `text` (source wording, not graded by the engine): `didache-eucharist`, `polycarp-forwards-letters`, `day-under-bishop-and-presbyters`, `first-clement-corinthian-dispute`, `mutual-aid-prisoner` and `nero-scapegoating` do not reach FK 10 and FRE 60.
 7. `pahc.limit.material-remains` carries the Pliny wording that was corrected in `pahc.demo.honest-limit-material-remains`; it should be checked against Pliny 10.96.
 8. The edit tool rewrote each touched front-matter key with PyYAML, so the line diff of the 84 files is much larger than the 109 changed values.
+
+
+9. `pahc.force.apostolic-testimony-inheritance` `description` and `pahc.force.contemporary-rival-movements` (`description`, `manifestations[2]`, the Tertullian `sources` locus) hold checked factual errors that are not corrected. The audit's corrections were applied and then reverted: both descriptions are single long paragraphs (FK 23 and FK 16, FRE 6 and 22), and the regate gate fails any edited field over the ceiling, so correcting the error means rewriting the whole description, which the pass rules forbid for build records. The errors: (a) `apostolic-testimony-inheritance` says submission is "owed to the apostle Jesus Christ himself"; Trallians 2 reads "subject to the presbytery, as to the apostle of Jesus Christ", and Magnesians 13 is about the bishop and the apostles' subjection to Christ. (b) `contemporary-rival-movements` says the New Prophecy was "contested by synods of Asia Minor bishops"; Eusebius, Church History V.16.10 has "the faithful in Asia met often in many places". The same description carries two process phrases the live-surface check flags ("read by this build", "Strand A members"), which block any edit to the file until they are rewritten. (c) The Tertullian locus credits Adversus Marcionem I.19 with the c. 144 break date; the chapter gives the Antonine reign and 115 years after Tiberius, from which the date is derived. Needs a ruling: rewrite these descriptions in short sentences, or edit them and let the readability waiver cover them.
 
 Status: OPEN.

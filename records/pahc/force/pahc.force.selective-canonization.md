@@ -40,15 +40,15 @@ sources:
 name: "Transmission at the Ending - Selective Canonization [3B - ending/internal]"
 matrix_cell: 3B
 kind: ending
-description: 'Rule by a single bishop, and an unbroken line of leaders from the apostles, became the wider
-  tradition''s settled view of itself. Later copying and citing favored the texts that supported that
-  view. Ignatius''s letters are the earliest sustained argument for one bishop over each church, what
-  came to be called monepiscopacy. They were kept and cited. Because they later mattered so much, it took
-  two centuries of critical scholarship to establish which of them were genuine. 1 Clement was bound into
-  Codex Alexandrinus alongside the New Testament.
+description: 'Rule by a single bishop became the wider tradition''s settled view of itself. So did an
+  unbroken line of leaders from the apostles. Later copying and citing favored the texts that supported
+  that view. Ignatius''s letters are the earliest sustained argument for one bishop over each church.
+  This came to be called monepiscopacy. They were kept and cited. They later mattered so much that scholars
+  needed two centuries to say which of them were genuine. 1 Clement was bound into Codex Alexandrinus
+  alongside the New Testament.
 
   Hermas went a different way. Irenaeus, Clement of Alexandria, and Origen cited it as scripture, and
-  Codex Sinaiticus included it. Athanasius''s Festal Letter of 367 did not throw it out; it moved it to
+  Codex Sinaiticus included it. Athanasius''s Festal Letter of 367 did not throw it out. It moved it to
   a different place. He listed it, with the Teaching of the Apostles (the Didache), among books ''not
   indeed included in the Canon, but appointed by the Fathers to be read by those who newly join us.''
   Its standing had been genuinely open, not settled from the start. What 367 fixed was that it belonged
@@ -59,14 +59,14 @@ description: 'Rule by a single bishop, and an unbroken line of leaders from the 
   of how its writings would later be sorted. This judgment is only possible looking back from outside.
   It is not part of how this world understood itself.
 
-  The claim that the later settlement itself drove these particular choices is an interpretation drawn
-  from the pattern of what survived. This is our own reading of the survival pattern, not a finding taken
-  from earlier study. Read this way, it explains something about today''s evidence. The material from
-  Rome, Hermas above all, is thinner and less securely part of the canon than the Ignatian material from
-  Antioch and Asia Minor. That gap says nothing about how common either region''s practice really was
-  at the time. This world''s surviving evidence favors literate voices, leaders, and texts that later
-  proved useful to the canon. This late sorting is one more case of the same filter that worked throughout
-  this world''s life.'
+  The claim that the later settlement itself drove these particular choices is an interpretation. It is
+  drawn from the pattern of what survived. This is our own reading of the survival pattern, not a finding
+  taken from earlier study. Read this way, it explains something in today''s evidence. The material from
+  Rome, Hermas above all, is thinner than the Ignatian material from Antioch and Asia Minor. It is also
+  less securely part of the canon. That gap says nothing about how common either region''s practice was
+  at the time. The surviving evidence favors literate voices, leaders, and texts that later proved useful
+  to the canon. This late sorting is one more case of the filter that worked throughout this world''s
+  life.'
 manifestations:
 - Ignatius's corpus requiring a two-century critical-scholarship effort to authenticate, precisely because
   of its later canonical importance
