@@ -820,7 +820,7 @@ The desert record wording pass, run on the same method as syr (merged), cappadoc
 - `desert.quote.whence-canst-thou-prove-to-us` `modern_rendering`: A 30-word sentence with a dash-inset list, and a 27-word triple-semicolon sentence, are split; nothing added.
 - `desert.quote.womens-house-across-the-river` `modern_rendering`: "The sisters" names who sang, but the source says only "they"; restored to "they".
 
-**Gates.** `m1:readability/desert` waiver tightened from 153 to 124: the 29 spoken-field findings are fixed; the 124 left are build-record fields (45) and `positions` lines (79, see the next entry). `m9:source-citation/desert` removed (30 citations added). Package rebuilt and pinned: `packages/desert/2026-10-13T19-38-18Z`; site JSON recompiled.
+**Gates.** `m1:readability/desert` waiver tightened from 153 to 124: the 29 spoken-field findings are fixed; the 124 left are build-record fields (45) and `positions` lines (79, see the next entry). `m9:source-citation/desert` removed (30 citations added). Package rebuilt and pinned: `packages/desert/2026-10-13T19-56-38Z`; site JSON recompiled.
 
 Status: CLOSED for the records named above.
 
