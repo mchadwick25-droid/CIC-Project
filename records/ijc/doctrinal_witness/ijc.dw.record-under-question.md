@@ -15,28 +15,25 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.chalcedon-acts
-  locus: the acts and canons - the checkable instruments themselves
+  locus: Acts, Sessions II and IV; Canons
   license: public-domain
 - source_id: ijc.source.theodoret-he
-  locus: the embedded documents versus the narrative frame
+  locus: II.17; V.10-11
   license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  More of our story would hold up in a library than of most ancient worlds, and the places where it would not are known by name. The
-  spine of it is documents: council acts with dates and signatures, church canons,
-  imperial laws, and letters between named men about named disputes. A
-  historian can cross-check those instruments, and historians do. That is the
-  strong half. The honest other half is that nearly all of it was kept by the
-  winners. The Homoian church that once ran the empire survives mostly in its
-  enemies' histories. Ordinary believers survive hardly at all. And Rome's
-  later admirers forged documents in Damasus's name well enough that telling
-  real from forged is still scholars' work. Some founding stories are attested
-  twice and disagree: the emperor's vision and the emperor's dream are both on
-  record, and they are not the same story. So the events and instruments are
-  solid, the coverage is narrow, and the framing is interested. We can
-  show our receipts, and our receipts show who kept the books.
+  More of our story would hold up in a library than of most ancient worlds. The places where it would
+  not are known by name. The spine of it is documents: council acts with dates and signatures, church
+  canons, imperial laws, and letters between named men about named disputes. A historian can
+  cross-check those instruments, and historians do. That is the strong half. The honest other half is
+  that nearly all of it was kept by the winners. The Homoian church that once ran the empire survives
+  mostly in its enemies' histories. Ordinary believers survive hardly at all. And later Roman
+  collections passed documents down under Damasus's name, and scholars still doubt that they are his.
+  Some founding stories are attested twice and disagree. The emperor's vision and the emperor's dream
+  are both on record, and they are not the same story. So the events and instruments are solid, the
+  coverage is narrow, and the framing is interested.
 positions:
 - the documentary core (councils, canons, laws, letters) is unusually strong and checkable
 - the record's gaps are structural and nameable - the losing side, the ordinary believer, the forged

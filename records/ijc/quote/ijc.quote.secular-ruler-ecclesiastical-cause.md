@@ -16,7 +16,7 @@ confidence:
     his biographer''s account of what he maintained at Trier, written some eighteen years later.'
 sources:
 - source_id: ijc.source.sulpicius-chronica
-  locus: 'Sacred History II, the Priscillian narrative (npnf211 line 11649)'
+  locus: 'Sacred History II.50, the Priscillian narrative (npnf211 lines 11652-11660)'
   license: public-domain
 text: For Martin, being then settled at Treves, did not cease to importune Ithacius, that he should give
   up his accusations, or to implore Maximus that he should not shed the blood of the unhappy persons
@@ -24,11 +24,11 @@ text: For Martin, being then settled at Treves, did not cease to importune Ithac
   by a sentence of the bishops, they should have been expelled from the churches; and that it was, besides,
   a foul and unheard-of indignity, that a secular ruler should be judge in an ecclesiastical cause.
 modern_rendering: >-
-  Martin was then staying at Trier. He did not stop pressing Ithacius to drop his
-  accusations, or begging Maximus not to shed the blood of these unfortunate people. He
-  argued that it was punishment enough that, once the bishops had declared them heretics,
-  they should be expelled from the churches. He also argued that it was, besides, a
-  shameful and unheard-of disgrace for a secular ruler to act as judge in a church matter.
+  For Martin, who was then settled at Trier, did not stop urging Ithacius to give up his accusations.
+  Nor did he stop begging Maximus not to shed the blood of these unhappy people. He held that it was
+  punishment enough that, once the bishops had declared them heretics, they should be driven out of
+  the churches. He held, besides, that it was a foul and unheard-of disgrace for a secular ruler to be
+  judge in a church case.
 speaker_or_author: Sulpicius Severus, reporting Martin of Tours at Trier in 385
 license: verbatim
 modern_lens_note: >-

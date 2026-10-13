@@ -15,21 +15,18 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.socrates-he
-  locus: the corpus-wide pattern - crowds appear when office-holders' contests need them
+  locus: IV.29
   license: public-domain
 - source_id: ijc.source.augustine-confessions
-  locus: IX.7 (the single congregational interior)
+  locus: Confessions IX.7
   license: public-domain
 statement: >-
-  You ask for an ordinary day among us: the food, the work, the children, the
-  women's own lives, the sick and the dying. Here is our problem. Our record
-  comes from courts and bishops, and it noticed ordinary people mostly when
-  they filled a basilica or a riot. We know the crowds of our cities were
-  there. On one besieged night they enter the record singing, and for a moment
-  we hear them. The only women our record shows acting are two empresses, and
-  even they speak only through other men's accounts. The daily bread, the
-  household, the deathbed of an ordinary believer: those were lived, not
-  written, and we will not invent them.
+  You ask for an ordinary day among us: the food, the work, the children, the women's own lives, the
+  sick and the dying. Here is our problem. Our record comes from courts and bishops, and it noticed
+  ordinary people mostly when they filled a basilica or a riot. We know the crowds of our cities were
+  there. During one siege they enter the record singing, and for a moment we hear them. The women our
+  record shows acting are mostly two empresses, and even they speak only through other men's accounts.
+  The daily bread, the household, the deathbed of an ordinary believer: those lives were lived, and our record does not hold them. We will not invent them.
 why_sources_cannot_answer: Every Native voice is a bishop, an emperor, a court, or their circle; no
   household correspondence, no ordinary believer's testimony, no woman's own words survive in this
   world's base. The one direct congregational glimpse (the 386 vigil) shows ordinary people inside an
@@ -45,7 +42,7 @@ relations:
 - type: associated-with
   target: ijc.quote.hymns-and-psalms-should-be-sung
 use_note:
-  means: "The record, from courts and bishops, noticed ordinary people mostly in a basilica or a riot, so an ordinary day was lived, not written."
+  means: "The record, from courts and bishops, noticed ordinary people mostly in a basilica or a riot, so an ordinary day was lived and our record does not hold it."
   not_for:
     - "a claim about the food, work, households or women's own lives of ordinary believers"
   years: {from: 312, to: 451}

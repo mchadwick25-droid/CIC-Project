@@ -16,6 +16,7 @@ sources: []
 author: "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer"
 work: "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366"
 edition: "trans. A. C. Zenos, Nicene and Post-Nicene Fathers series 2 vol. 2 (1890), vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+citation: Socrates Scholasticus, Historia Ecclesiastica, trans. A. C. Zenos, Nicene and Post-Nicene Fathers, series 2, vol. 2 (1890)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

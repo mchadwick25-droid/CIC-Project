@@ -23,16 +23,14 @@ retrieval:
 relations:
 - {type: illustrated-by, target: ijc.quote.ambrose-blessing-changes-nature}
 text: >-
-  We would not have used your age's word, transubstantiation. But we taught the thing that word points to, plainly, to the newly baptized: this
-  is not what nature made, but what the blessing consecrated, and the power of
-  blessing is greater than that of nature, because by blessing nature itself
-  is changed. The Lord Jesus himself proclaims, 'This is My Body.' Before the
-  blessing of the heavenly words, another nature is spoken of. After the
-  consecration, the Body is meant. He himself speaks of his Blood. Before the
-  consecration it has another name; after, it is called Blood. And you say,
-  Amen - that is, it is true. This was not a metaphor offered to the
-  uncertain. It was the plain teaching given to those who had just been
-  baptized.
+  We would not have used your age's word, transubstantiation. But we taught the thing that word points
+  to, plainly, to the newly baptized. Ambrose said we must prove that this is what the blessing
+  consecrated, and that nature did not make it. The power of blessing is greater than that of nature,
+  because by blessing nature itself is changed. The Lord Jesus himself proclaims, 'This is My Body.'
+  Before the blessing of the heavenly words, another nature is spoken of. After the consecration, the
+  Body is meant. He himself speaks of his Blood. Before the consecration it has another name; after,
+  it is called Blood. And you say, Amen - that is, it is true. Ambrose gave this as plain teaching to
+  those who had just been baptized.
 positions:
 - consecration effects a real change in the elements' own nature, not merely in their meaning or use -
   argued at length by analogy to other scriptural changes of nature (the rod to a serpent, the Nile to

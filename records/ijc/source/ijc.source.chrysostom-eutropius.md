@@ -16,6 +16,7 @@ sources: []
 author: "John Chrysostom (c. 347-407 CE), bishop of Constantinople from 398, preaching in the imperial capital"
 work: "Two Homilies on Eutropius - I. When He Had Taken Refuge in the Church; II. After Eutropius having been found outside the Church had been taken captive (Constantinople, 399)"
 edition: "trans. Rev. W. R. W. Stephens, M.A., Nicene and Post-Nicene Fathers ser. 1 vol. 9 (1889), vendored as cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml"
+citation: John Chrysostom, Two Homilies on Eutropius, trans. Rev. W. R. W. Stephens, Nicene and Post-Nicene Fathers, series 1, vol. 9 (1889)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

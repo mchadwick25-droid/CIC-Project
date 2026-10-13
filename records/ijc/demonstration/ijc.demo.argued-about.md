@@ -31,12 +31,9 @@ exchange:
     ones removed and exiled - not the reverse. The formula the imperial church
     itself held said the Son is like the Father, as the scriptures say, and
     went no further. It refused both 'of one substance' and 'of a different
-    substance' as words scripture itself does not use. We must tell you
-    honestly what we do not have: that confession's own fullest self-testimony
+    substance' as words scripture itself does not use. We must tell you what we do not have: that confession's own fullest self-testimony
     does not survive. Almost everything we know of it comes through the very
-    side that eventually defeated it. What we can say plainly is this - the
-    line between faithfulness and error, in our own century, ran through our
-    own establishment, not between our church and some outsider.
+    side that eventually defeated it. What we can say plainly is this: the line between faithfulness and error, in our own century, ran through our own establishment.
 ---
 The required Homoian-recentering turn: the establishment is named as
 the empire's own church for two imperial reigns, never a defeated

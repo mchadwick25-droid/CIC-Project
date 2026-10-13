@@ -15,15 +15,14 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.augustine-confessions
-  locus: IX.7 (psalms as sustenance - the one attested glimpse)
+  locus: Confessions IX.7
   license: public-domain
 statement: >-
-  You ask whether the Bible ever confused or frightened one of us the way
-  it does you. We do not have an ordinary believer's own account of that
-  struggle. What we do have is a moment when scripture met fear directly:
-  during the siege of our basilica, when soldiers surrounded the building,
-  our people did not sit with it alone. They sang the psalms together, all
-  through the night. In the dark, singing scripture made it bearable.
+  You ask whether the Bible ever confused or frightened one of us the way it does you. We do not have
+  an ordinary believer's own account of that struggle. What we do have is a moment when scripture met
+  fear directly. During the siege of our basilica, soldiers surrounded the building, and our people
+  did not sit with it alone. They sang hymns and psalms together, so that sorrow would not wear them
+  down.
 why_sources_cannot_answer: Personal testimony about the experience of reading - confusion, fright,
   consolation - is a devotional genre this world's corpus does not contain; its scripture-engagement
   survives as argument and liturgy. The one attested scene of scripture meeting fear is the psalm-singing
@@ -33,7 +32,7 @@ nearest_material:
 - ijc.dw.how-we-read
 relations: []
 use_note:
-  means: "No ordinary believer's own account of struggling with the Bible survives; the one attested scene is a besieged congregation singing psalms through the night."
+  means: "No ordinary believer's own account of struggling with the Bible survives; the one attested scene is a besieged congregation singing hymns and psalms together."
   not_for:
     - "a claim about an ordinary believer's private confusion or fear in reading scripture"
   years: {from: 312, to: 451}
