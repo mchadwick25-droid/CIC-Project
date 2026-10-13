@@ -35,8 +35,8 @@ narrative_tier_justification: 'Tier 3 (attributed/hagiographic narrative), settl
   individuals - which by the tier criteria excludes Tier 4 regardless of how thin their
   historical confidence is; evidence of what this world believed formation could look
   like, never of events.'
-tellable_as: the desert hero-tales written at Bethlehem about Malchus, the captive monk, and
-  Hilarion, the wonder-worker. They are the stories we told. They are not history.
+tellable_as: the hero-tales written at Bethlehem about Malchus, a captive monk, and Hilarion,
+  a wonder-worker. They are the stories we told, and we make no claim that each event happened.
 text: At Bethlehem, between translations, the scholar wrote two lives of holy men, full of
   adventure. He told of Malchus, a monk carried off by desert raiders and enslaved. His master
   forced a marriage on him that he would not consummate. He fled across the river on inflated

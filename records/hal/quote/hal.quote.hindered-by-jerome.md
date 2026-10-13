@@ -31,10 +31,10 @@ text: 'Among them was the Roman lady Paula, mother of Toxotius, a woman of great
   For though she was able to surpass all, having great abilities, he hindered her by his
   jealousy, having induced her to serve his own plan.'
 modern_rendering: >-
-  Among them was the Roman lady Paula, mother of Toxotius. She was a woman of great
-  distinction in the spiritual life. A certain Jerome from Dalmatia held her back. She had
-  great gifts and could have surpassed everyone. But he held her back by his jealousy, for
-  he had led her to serve his own plan.
+  Among them was the Roman lady Paula, mother of Toxotius, a woman of great distinction in
+  the spiritual life. A certain Jerome from Dalmatia held her back. She had great gifts and
+  was able to surpass everyone; but he held her back by his jealousy, for he had led her to
+  serve his own plan.
 speaker_or_author: 'Palladius of Galatia, Lausiac History 41 (trans. Clarke)'
 license: verbatim
 modern_lens_note: '"Jealousy" carries the older sense of envy over standing or advantage, not a personal or romantic sense.'

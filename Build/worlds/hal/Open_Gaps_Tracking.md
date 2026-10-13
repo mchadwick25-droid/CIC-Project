@@ -795,3 +795,35 @@ Each item is outside the fields this pass may change (build records, `positions`
 - hal.figure.paula-younger | names[0] | "Paula the younger" is a convenience tag; the sources call her "little Paula" (Ep. 107) or "Paula" (Ep. 137).
 
 Status: OPEN.
+
+## OG-21. Corrections to OG-19 and OG-20 and further hal wording fixes after independent review, 2026-10-13.
+
+Corrects OG-19 and OG-20 (their merged text is not edited) and records the fixes made after the independent review of the hal wording pass. Every touched field passes the readability limits. `m1:readability/hal` stays at 102: none of the fields below was in that count.
+
+**Corrections to OG-19 and OG-20.**
+- `hal.demo.born-again` exchange[1] and `hal.dw.practices` text: OG-19 and OG-20 quote the wording "Born again was our word for baptism". That is not the final text. After review round 1 both say "We spoke of being born again in baptism", and the `hal.source.jerome-against-pelagians` locus on `hal.dw.practices` is narrowed to Book III secs. 15 and 19 (the newly baptized "born again"; John 3:5).
+- `hal.demo.someone-like-me` exchange[1]: OG-20 quotes "Our records describe these as open to the stranger and the sick poor, and they mention no test at the door". That sentence is not in the final text. The final text says "Nothing we kept speaks of a test at the door", and "taking up hard fasting" became "taking up the ascetic life" because only the crowd, not Ep. 39, says fasting killed her.
+- OG-20 lists four records as not fixed that are fixed in OG-19: `hal.dw.marriage-ending` ("a senator's daughter"), `hal.dw.suffering` ("teachers had praised"), `hal.story.paula-epitaph` ("stewards") and `hal.story.marcella-standing` ("her house"). Those items are closed. `hal.dw.believe` ("the beginning of his life with God") is also fixed in OG-19.
+- OG-20 states the `hal.dw.practices` and `hal.dw.jesus` open items twice (once from the change logs, once added). The open items are one each: `hal.dw.practices` positions[0] and `use_note` still say "born again" was carried by other words, and `hal.dw.jesus` positions[1] still says "physician to the penitent". Both are build fields outside this pass.
+- Source entries added to `sources[]`, with the reason (each cited passage is in the vendored text and is used by the corrected spoken text, and no hal source record covered it): `hal.dw.church-failure` (`hal.source.vulgate-prefaces` for the Ezekiel preface, `hal.source.jerome-ep45`), `hal.dw.empire` (`hal.source.jerome-vita-malchi`, `hal.source.jerome-ep108`), `hal.dw.practices` (`hal.source.jerome-ep22` sec. 30, `hal.source.jerome-ep77` sec. 4, `hal.source.jerome-against-pelagians`), `hal.dw.sin-grace` (`hal.source.jerome-against-jovinianus`, Book II), `hal.dw.was-jesus-god` (`hal.source.jerome-ep108` sec. 10), and `hal.term.grammaticus` and `hal.term.praeceptor` (`hal.source.jerome-apology-rufinus`, Book I ch. 16, "my master Donatus", which `hal.source.jerome-de-viris` does not carry).
+
+**Changed after the independent review** (record | field | change).
+- hal.story.attack-416 | text | "wrote to the bishop of Rome and told him" became "told the bishop of Rome what had been done"; we-voice last line replaced with "the pope's account is all that survives"
+- hal.story.paula-epitaph | text | staccato rejoined with semicolons and "and"; "led... learned... nursed" restored as one list
+- hal.story.marcella-death | text | clauses rejoined (pointed to dress, but they did not believe her and beat her; took the two women...; thankful too); no claims added
+- hal.story.day-at-monastery | text | clauses rejoined with "and", semicolons, colon; content unchanged
+- hal.story.rome-crisis | text | clauses rejoined; crowd mutter restored as a semicolon list; slander and ship sentences joined
+- hal.term.bibliotheca | plain_meaning | two sentences joined with "which his standing as a scholar rested on"
+- hal.term.bibliotheca | quick_meaning | same rejoin
+- hal.term.epitaphium | quick_meaning | "The letter for the dead, which mourned them and taught the living what a holy life looked like."
+- hal.term.grammaticus | quick_meaning | "Latin school under Donatus, which was the base for all of Jerome's later work."
+- hal.term.peregrinatio | quick_meaning | joined with semicolon: "Pilgrimage, or devout travel to the holy places; for us it ended in the choice to stay."
+- hal.story.rufinus-rupture | tellable_as | "...over Origen. They had been friends for years, and it ended in angry, rival answers."
+- hal.story.day-at-monastery | tellable_as | "a day at Bethlehem... It is a rebuilt picture, not a timetable." ("ordinary" dropped for FRE)
+- hal.story.desert-romances | tellable_as | "They are not history" replaced by "They are the stories we told, and we make no claim that each event happened." ("desert" dropped from "hero-tales" for FRE)
+- hal.limit.f5-women-own-words | statement | "held to be his work, not theirs" replaced by "He wrote the one letter sent in their names."
+- hal.dw.church-failure | text | "He mocked a former friend after the man had died" became "He wrote a preface that seems to mock a former friend after the man had died"
+- hal.demo.women-own-words | exchange[1] representative turn | "a report of a fire" became "a report of the attack"
+- hal.quote.hindered-by-jerome | modern_rendering | Rewritten by Opus: the staccato version rejoined so every clause of `text` is rendered, nothing added (FK 8.1, FRE 69.8).
+
+Status: CLOSED for the fields listed.

@@ -36,7 +36,8 @@ senses:
     credible, its devotional scene-detail is genre-shaped.
   personal: "At the holy places, in the telling this world kept, Paula saw with the eyes of faith what each place had held, most of all at the manger."
   translational: "This was the journey of a wealthy woman, her daughter, and their companions. What marked it was the decision to stay at Bethlehem after the visit."
-quick_meaning: "Pilgrimage, or devout travel to the holy places. For us it ended in the choice to stay."
+quick_meaning: Pilgrimage, or devout travel to the holy places; for us it ended in the choice
+  to stay.
 distortion_risk: medium
 use_note:
   means: "Devout travel to the holy places, which for this elite community ended in the choice to stay at Bethlehem."

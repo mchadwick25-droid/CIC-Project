@@ -29,7 +29,8 @@ retrieval:
   prefer_instead:
   - imagining a large, modern-library-scale institution
 relations: []
-plain_meaning: "The books Jerome gathered and worked from. His standing as a scholar rested on them."
+plain_meaning: The books Jerome gathered and worked from, which his standing as a scholar rested
+  on.
 world_word: bibliotheca
 false_friend:
 - a large modern library or public institution
@@ -42,7 +43,8 @@ senses:
     he worked from, defending his renderings by appeal to what he had actually consulted.
   personal: "When a reader questioned his translation, Jerome pointed to the Hebrew or Greek text he had checked."
   translational: "Doesn't \"library\" suggest a big public place? This world's bibliotheca was a working scholar's own books. No source gives its size. Its part in his name as a scholar was real and plain to see."
-quick_meaning: "The books Jerome gathered and worked from. His standing as a scholar rested on them."
+quick_meaning: The books Jerome gathered and worked from, which his standing as a scholar rested
+  on.
 distortion_risk: medium
 use_note:
   means: "The books Jerome gathered and worked from, which his scholarly reputation visibly rested on, though his own use of this word for his collection is unconfirmed."

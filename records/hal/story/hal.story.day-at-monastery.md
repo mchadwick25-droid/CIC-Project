@@ -37,20 +37,20 @@ narrative_tier_justification: 'Tier 4 (historically grounded reconstruction): no
   attested elements only - the general fact of a structured common life, psalmody at set
   times, wool-work, the reading and copying labor, the hospice traffic - with no
   liturgical timetable supplied, because none is attested.'
-tellable_as: an ordinary day at Bethlehem, pieced together from small clues in the letters.
-  It is a rebuilt picture. It is not a timetable.
-text: Put together, from scattered notices, a typical day might be told like this, and told
+tellable_as: a day at Bethlehem, pieced together from small clues in the letters. It is a rebuilt
+  picture, not a timetable.
+text: 'Put together, from scattered notices, a typical day might be told like this, and told
   only like this, as a putting-together. The women met for the psalter at set times through
-  the day and night. Between those times they went back to their work, and to the portion
-  of scripture each one was required to learn. They made garments, for themselves and for
-  others. They were noble and humble together, and all were dressed alike. They ate and worked
-  apart in three companies, and met for psalms and prayer. The sick were nursed, and allowed
-  to eat meat. No man came among them. A sister who stayed stubborn after many warnings was
-  set apart. She prayed at the refectory door and ate alone, in the hope that shame would
-  heal what rebuke had not. The men lived in a house of their own. At its center, by one visitor's
+  the day and night, and between those times they went back to their work and to the portion
+  of scripture each one was required to learn. They made garments, for themselves and for others;
+  they were noble and humble together, and all were dressed alike. They ate and worked apart
+  in three companies, and met for psalms and prayer. The sick were nursed and allowed to eat
+  meat, and no man came among them. A sister who stayed stubborn after many warnings was set
+  apart: she prayed at the refectory door and ate alone, in the hope that shame would heal what
+  rebuke had not. The men lived in a house of their own, and at its center, by one visitor''s
   account, an old man was always at his books, day and night, reading or writing something.
   Pilgrims came and went at the guest house. Which psalms they sang, and how the two houses
-  shared their worship, no one wrote down, or nothing that was written survived.
+  shared their worship, no one wrote down, or nothing that was written survived.'
 absent_detail: 'The schedule itself: which hours, which psalms, how the men''s and
   women''s worship divided - not attested; the women''s regimen is one letter''s
   memorial summary, the men''s is a visitor''s sketch of one man. The unnamed members of

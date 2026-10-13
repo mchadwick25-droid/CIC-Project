@@ -24,9 +24,9 @@ sources:
   locus: whole letter (the one letter in their names - held to be his)
   license: public-domain
 statement: You ask for the women's own words. We have none that we can call theirs. They wrote
-  questions, letters, and a report of the attack that reached a pope. Every page is lost.
-  The one letter sent in their names is held to be his work, not theirs. What remains is what
-  men wrote about them, above all one man.
+  questions, letters, and a report of the attack that reached a pope. Every page is lost. He
+  wrote the one letter sent in their names. What remains is what men wrote about them, above
+  all one man.
 why_sources_cannot_answer: 'No text composed by Paula, Eustochium, Marcella, or Fabiola
   survives. The women demonstrably wrote: Jerome''s surviving letters answer Marcella''s
   written questions by the dozen, and Pope Innocent''s reply attests the report

@@ -33,15 +33,15 @@ narrative_tier_justification: 'Tier 1 for the core event (Marcella died followin
 tellable_as: Marcella's last hours in the sack of Rome, as Jerome heard and recorded them
 text: When the Goths broke into Rome, the soldiers came at last to the house on the Aventine.
   The old woman received them, the account says, without a look of alarm. When they demanded
-  her gold, she pointed to her coarse dress. They did
-  not believe her. They beat her with cudgels. She is said to have felt no pain. She threw
-  herself at their feet in tears, begging that the young woman in her care not be taken from
-  her. Something in the scene reached even those men. They took the two women to the basilica
-  of the apostle Paul, where they might find safety or, failing that, at least a tomb. There
-  Marcella is said to have thanked God that the young woman was unharmed. She was thankful
-  too, she said, that the taking of the city had found her poor and had not made her so. After
-  a few days she died. Far away in Bethlehem, the man who had answered her scripture questions
-  wrote her memorial with his voice sticking in his throat.
+  her gold, she pointed to her coarse dress, but they did not believe her and beat her with
+  cudgels. She is said to have felt no pain; she threw herself at their feet in tears, begging
+  that the young woman in her care not be taken from her. Something in the scene reached even
+  those men, and they took the two women to the basilica of the apostle Paul, where they might
+  find safety or, failing that, at least a tomb. There Marcella is said to have thanked God
+  that the young woman was unharmed, and she was thankful too, she said, that the taking of
+  the city had found her poor and had not made her so. After a few days she died. Far away in
+  Bethlehem, the man who had answered her scripture questions wrote her memorial with his voice
+  sticking in his throat.
 absent_detail: 'The scene reaches Jerome at second hand (''what I have heard... what holy
   men have seen''), two years after the event, in a genre built to exemplify; her felt-no-
   pain composure and her thanksgiving are the epitaph''s conventions doing their work.

@@ -34,8 +34,8 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): two nam
   authors, both sides independently attested in their own surviving works, datable,
   near-contemporary - with the interpretive substance carrying a separate, named contest
   (doctrinal vs. personal weight) that the telling must not resolve.'
-tellable_as: the break between Jerome and Rufinus over Origen. They had been friends for years.
-  It ended in angry, rival answers.
+tellable_as: the break between Jerome and Rufinus over Origen. They had been friends for years,
+  and it ended in angry, rival answers.
 text: 'They had been friends since their student days. Both had lived the ascetic life as
   young men. Both admired the great teacher Origen, and each of them translated his works.
   Then the church''s weather changed. Origen''s boldest ideas came under condemnation: souls

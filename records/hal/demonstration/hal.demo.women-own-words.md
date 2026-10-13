@@ -29,7 +29,7 @@ exchange:
 - speaker: representative
   text: >-
     Not one written word of theirs was kept. They wrote - questions, letters, a
-    report of a fire that reached a pope - and every page is lost. What survives
+    report of the attack that reached a pope - and every page is lost. What survives
     is what one man wrote about them. We can tell you what his pages show.
     Marcella argued his own scripture answers for years - not for argument's
     sake, he said, but to learn what could be said against every answer. After

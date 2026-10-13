@@ -39,16 +39,15 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): the seq
   proceeding against him is NOT attested beyond thin inference.'
 tellable_as: 'the crisis that drove the circle from Rome: Blaesilla''s death, the crowd at
   her funeral, the loss of Damasus, and the voyage east'
-text: Blaesilla was Paula's daughter, widowed young. She turned to the discipline with
-  a convert's fire, and within months she was dead, about twenty years old. At the funeral
-  her mother collapsed and was carried fainting through the procession, and the crowd began
-  to mutter. See what comes of their fasting. She weeps for a daughter killed by it. How long
-  before we drive these detestable monks out of Rome, stone them, throw them into the Tiber?
-  That winter the old pope died, and the protection that had sheltered the circle's scholar
-  died with him. The whispers became open slander. Within the year Jerome stood on a ship
-  at Ostia, writing a last letter to a friend. Before he knew Paula's house, he said, all
-  Rome had praised him. Now he was called infamous. He sailed east, and Paula followed. The
-  circle's life went on at Bethlehem.
+text: 'Blaesilla was Paula''s daughter, widowed young. She turned to the discipline with a convert''s
+  fire, and within months she was dead, about twenty years old. At the funeral her mother collapsed
+  and was carried fainting through the procession, and the crowd began to mutter: see what comes
+  of their fasting; she weeps for a daughter killed by it; how long before we drive these detestable
+  monks out of Rome, stone them, throw them into the Tiber? That winter the old pope died, and
+  the protection that had sheltered the circle''s scholar died with him, and the whispers became
+  open slander. Within the year Jerome stood on a ship at Ostia, writing a last letter to a
+  friend; before he knew Paula''s house, he said, all Rome had praised him, and now he was called
+  infamous. He sailed east, and Paula followed. The circle''s life went on at Bethlehem.'
 absent_detail: 'Every voice in this story is Jerome''s: the crowd''s words are his
   reconstruction of funeral murmur, the slander survives only in his rebuttal, and the
   Roman clergy''s side of the quarrel was never written down or did not survive. Whether

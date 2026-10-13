@@ -44,7 +44,7 @@ senses:
     this world's own sharpest inner conflict.
   translational: 'Roughly: elite secondary education in language and literature - the prerequisite
     of every scholarly practice this world fused with its asceticism.'
-quick_meaning: "Latin school under Donatus. It was the base for all of Jerome's later work."
+quick_meaning: Latin school under Donatus, which was the base for all of Jerome's later work.
 distortion_risk: medium
 use_note:
   means: "The Roman grammar-school stage of Latin training, which Jerome received under Donatus and which is well attested."

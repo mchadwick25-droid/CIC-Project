@@ -32,20 +32,16 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-text: >-
-  Our failures are not hidden in our record. Our churches had clergy who
-  chased fine clothes, women's company, and gifts, and we said so in
-  writing that still stings. Our own people used the church's power
-  against Christians who disagreed with them. Our scholar went after his
-  opponents in print without mercy. He told his critic to rejoice in his
-  sharp attacks on heretics. He mocked a former friend after the man had
-  died. And he suffered the same in return: driven out of Rome by
-  slander, as he told it, and at the end burned out of his own buildings
-  by other Christians. Asked to defend all this, we cannot. We can only
-  report that the wounds Christians dealt each other were real, that we
-  dealt some and took some, and that we never pretended the church was
-  clean. If you want a church that never failed, you will not find it
-  here.
+text: 'Our failures are not hidden in our record. Our churches had clergy who chased fine clothes,
+  women''s company, and gifts, and we said so in writing that still stings. Our own people used
+  the church''s power against Christians who disagreed with them. Our scholar went after his
+  opponents in print without mercy. He told his critic to rejoice in his sharp attacks on heretics.
+  He wrote a preface that seems to mock a former friend after the man had died. And he suffered
+  the same in return: driven out of Rome by slander, as he told it, and at the end burned out
+  of his own buildings by other Christians. Asked to defend all this, we cannot. We can only
+  report that the wounds Christians dealt each other were real, that we dealt some and took
+  some, and that we never pretended the church was clean. If you want a church that never failed,
+  you will not find it here.'
 positions:
 - clergy corruption was named openly from inside, not concealed
 - this world both wielded and suffered Christian-against-Christian power, and its record
