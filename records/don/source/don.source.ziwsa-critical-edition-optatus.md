@@ -26,4 +26,4 @@ discovery_channel: Source Registry row 38; builder-prior-knowledge, cross-checke
 external_ids:
   don_source_registry_row: 38
 ---
-The critical Latin edition attaching to row 1's own work -- the specific instrument that would settle the second-edition question row 1's own Verification Note leaves open, in place of the 1917 translator's own footnote. Confirmed this session as the genuine CSEL 26 edition (title page, and the Gesta Purgationis Felicis appendix document both present); the second-edition/book-count question has not itself been settled this session -- the apparatus criticus has not yet been read for that purpose.
+The critical Latin edition attaching to row 1's own work -- the specific instrument that would settle the second-edition question row 1's own Verification Note leaves open, in place of the 1917 translator's own footnote. Confirmed this session as the genuine CSEL 26 edition (title page, and the Gesta Purgationis Felicis appendix document both present).

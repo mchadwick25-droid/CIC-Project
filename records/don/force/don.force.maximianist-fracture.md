@@ -105,8 +105,7 @@ itself - an internal-ongoing force whose resolution is not complete until the en
 force's own verdict.' Carried as precondition-for don.force.conference-of-411-verdict, reciprocal
 enabled-by declared there. GRAVITY LINKAGE (Doc_08 SS5, Force Index row 2B-4: G1, G4, T1, T2, D-A -
 five, the widest gravity count of any force in this world alongside 2A-1's four): T2 carried as
-precondition-for, because Doc_08's own verb for that pairing is 'the direct engine of T2' and Doc_08
-Open Item 2 states that tension's entire evidentiary base IS this affair - a founding relation, not
+precondition-for, because Doc_08's own verb for that pairing is 'the direct engine of T2' and Doc_08 states that tension's entire evidentiary base IS this affair - a founding relation, not
 a shaping one; reciprocal enabled-by declared on don.gravity.rigor-against-reception. G1, G4, T1 and
 D-A carried as associated-with, Doc_08's own verbs there being testing, operating within, supplying
 a further instance, and reported involvement respectively. THE D-A LINK CARRIED WITH ITS OWN

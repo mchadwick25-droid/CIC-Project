@@ -89,10 +89,7 @@ cumulative effect of both, not either alone.' Carried as precondition-for don.fo
 attrition, reciprocal enabled-by declared there, and the joint character of that connection stated
 on both halves rather than on one. GRAVITY LINKAGE (Doc_08 SS5, Force Index row 3A-1): G4 parallel
 hierarchy and G5 refusal of imperial legitimacy, both carried as associated-with, this being an
-ending-cell force acting on and pressing rather than founding. AN OPEN INTEGRATION TASK CARRIED
-FORWARD, NOT RESOLVED (Doc_08 SS5 'Where Forces Analysis Surfaced Gaps', and Doc_08 Open Item 1):
-this force's Layer 2 should be revisited directly against the vendored Gesta transcript rather than
-assumed unchanged from before that text was acquired. This record makes no claim about how this
+ending-cell force acting on and pressing rather than founding. This record makes no claim about how this
 world received the verdict, and the Layer 2 above records the gap as bounded - the material exists
 and has not been read - rather than as an absolute silence. Canon_cells left empty, matching this
 world's gravity and force records generally.

@@ -115,8 +115,7 @@ text: >-
 positions:
 - our founding generation is documented, in a court transcript, advising each other in writing to keep
   an accusation quiet because it was true
-- we used force and imperial law against fellow Christians who broke from us - troops that came with a bishop enforcing the Bagai reconciliation, and anti-heretical legislation invoked against our own dissidents - and no
-  defence of that from our own side survives
+- we used force and imperial law against fellow Christians who broke from us. Troops that came with a bishop enforced the Bagai reconciliation. Laws against heretics were used against our own dissidents. No defence of this from our own side survives
 - 'none of this was concealed: it stands in our own conciliar record and in the same texts that state our
   doctrine at its most absolute'
 - a bread boycott ordered by a leader of ours reached an ordinary baker and, through him, a Catholic

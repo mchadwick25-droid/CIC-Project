@@ -33,4 +33,4 @@ discovery_channel: direct file check (title page and chapter-heading survey only
 external_ids:
   don_source_registry_row: 52
 ---
-Monceaux's own first dedicated Donatism volume, and more directly on-topic than the Tome V already integrated (Registry row 40) -- a dedicated sources-and-councils-and-epigraphy treatment sitting unread. Named as an open item for a future Doc_02/Doc_04 revision pass (Doc_02 SS9 item 1a(iii)), not integrated.
+Monceaux's own first dedicated Donatism volume, and more directly on-topic than the Tome V already integrated (Registry row 40) -- a dedicated sources-and-councils-and-epigraphy treatment sitting unread. 
