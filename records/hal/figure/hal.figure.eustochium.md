@@ -38,9 +38,10 @@ dates:
   floruit: 'Rome until 385 (consecrated virgin from youth, the addressee of Ep. 22);
     Bethlehem 386-death; head of the women''s community after Paula''s death in 404'
 narratable: true
-bridge_line: the daughter vowed to virginity from her youth - dedicatee of the world's
-  most famous letter, and after her mother's death, head of the Bethlehem women's
-  community to the world's own end
+bridge_line: >-
+  Paula's daughter, vowed to virginity from her youth. Jerome wrote his long
+  letter on virginity to her. After her mother died, she led the women of
+  Bethlehem until her own death
 ---
 The last resident leader of the women's institution - her death, whichever
 year it falls in, is half of the world's own closing boundary (the other

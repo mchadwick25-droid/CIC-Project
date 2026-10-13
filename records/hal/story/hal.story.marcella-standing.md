@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep127
-  locus: secs. 2-8
+  locus: secs. 2-10
   license: public-domain
 - source_id: hal.source.jerome-marcella-letters
   locus: the Rome-period series
@@ -37,20 +37,19 @@ narrative_tier_justification: 'Tier 3 (attributed tradition): attributed to a sp
   spoken every time.'
 tellable_as: the standing Marcella held in Rome, as the one account of it tells it -
   named always as one man's memorial claim
-text: 'Long before the famous scholar came to Rome, there was a widow on the Aventine
-  hill who had refused a rich old suitor with the words that had she wished to marry
-  again she would have sought a husband, not an inheritance. When the scholar arrived,
-  she besieged him with scripture questions until his reluctance gave way; and she never
-  accepted an answer without disputing it - not to argue, he wrote later, but to learn
-  what could be said against every answer. When he left for Bethlehem, the memorial says,
-  something remarkable remained behind: if a dispute arose in Rome about the testimony
-  of scripture, it was to her house that they came - clergy among them, priests among
-  them - and she settled it. She gave her opinions, he adds, as if they were not her own
-  but a teacher''s, mindful of the apostle''s rule. And at the end of her life she was,
-  in his telling, the one who set in motion the condemnation of the heretics in Rome.
-  All of this is one man''s memorial of her, written when she was two years dead. The
-  letters she wrote him are lost. The learning is certain - a dozen of his surviving
-  answers attest the quality of her questions. The rest is his word.'
+text: 'Long before the famous scholar came to Rome, there was a widow on the Aventine hill
+  who had refused a rich old suitor. Had she wished to marry again, she told him, she would
+  have sought a husband, not an inheritance. When the scholar arrived, she pressed him with
+  scripture questions until his reluctance gave way. She never accepted an answer without
+  disputing it, he wrote later. She did not do it to argue, but to learn what could be said
+  against his answers. After he left for Bethlehem, the memorial says, people turned to her
+  when a dispute arose in Rome about scripture. She settled it. Many men put hard questions
+  to her, he adds, priests sometimes among them. She gave her opinions as if they came from
+  him or from someone else, not from herself, mindful of the apostle''s rule. And later, in
+  his telling, she was the one who set in motion the condemnation of the heretics in Rome.
+  All of this is one man''s memorial of her, written when she was two years dead. The letters
+  she wrote him are lost. That she asked hard questions is well attested: more than a dozen
+  of his surviving answers were written to her. The rest is his word.'
 absent_detail: 'The consultations, their frequency, the clergy''s deference, her role
   against the heretics - all rest on Ep. 127 alone, post-mortem, in a letter partly
   serving its author''s own vindication; her deference-form (opinions given as from a

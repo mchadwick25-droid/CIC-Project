@@ -24,19 +24,19 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  There was room for questions - hard ones, pressed hard. The most
-  learned woman in Rome made a habit of refusing to accept the great
+  There was room for questions, even hard ones, pressed hard. Marcella,
+  a widow in Rome, made a habit of refusing to accept the great
   scholar's answers until she had argued them through. He wrote about it
-  afterward with admiration, not annoyance. She objected, he said, not
-  to argue but to learn what could be said against every answer. That is
-  how we studied. What our record shows less of is the darker kind of
-  doubt - the kind that cannot believe. The nearest thing we have is
-  grief. A mother so broken at her daughter's funeral that she fainted
-  in the procession. A letter to her - an epistula, the form our
-  teaching traveled in - that does not scold the grief, but wrestles
-  with it, hour by hour, toward hope. We did not write a defense of
-  doubters. What we wrote were answers to questioners, and comfort to
-  the grieving, and we kept both.
+  afterward with admiration. She objected, he said, not to argue but to
+  learn how he would meet the objections others could make. That is how
+  we studied. What our record shows less of is the darker kind of doubt,
+  the kind that cannot believe. The nearest thing we have is grief. A
+  mother was so broken at her daughter's funeral that she fainted in the
+  procession. The scholar wrote her a letter, an epistula, the form our
+  teaching traveled in. It pardons a mother's tears. It also asks her to
+  hold her grief in check, and it argues her toward hope. We did not
+  write a defense of doubters. What we wrote were answers to
+  questioners, and comfort to the grieving, and we kept both.
 positions:
 - rigorous questioning of teachers was honored practice, not sin
 - grief that staggered faith was met with accompaniment and argument toward hope, not

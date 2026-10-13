@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Adversus Jovinianum (393, Bethlehem): the two-book polemic defending virginity's superior standing against Jovinian's claim that all baptized Christians hold equal merit - so severe against marriage that Jerome's own Roman friends (Pammachius among them) tried to withdraw it from circulation, and Jerome wrote Epp. 48-50 defending himself"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id vi.vi"
+citation: Jerome, Adversus Jovinianum, trans. W.H. Fremantle, Nicene and Post-Nicene Fathers, 2nd series, vol. 6 (1893)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

@@ -169,7 +169,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:readability/desert": Waiver(count=153, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
     "m1:readability/don": Waiver(count=320, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
     "m1:readability/gallic": Waiver(count=46, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; gallic's own build thread"),
-    "m1:readability/hal": Waiver(count=159, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
+    "m1:readability/hal": Waiver(count=102, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
     "m1:readability/ijc": Waiver(count=155, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
     "m1:readability/pahc": Waiver(count=113, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; pahc's own build thread"),
     "m1:readability/rzg": Waiver(count=88, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
@@ -214,7 +214,6 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     # added world by world with that world's record wording pass.
     "m9:source-citation/desert": Waiver(count=30, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; desert's record wording pass"),
     "m9:source-citation/don": Waiver(count=76, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; don's record wording pass"),
-    "m9:source-citation/hal": Waiver(count=28, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; hal's record wording pass"),
     "m9:source-citation/ijc": Waiver(count=30, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; ijc's record wording pass"),
     "m9:source-citation/witt": Waiver(count=89, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; witt's record wording pass"),
 }

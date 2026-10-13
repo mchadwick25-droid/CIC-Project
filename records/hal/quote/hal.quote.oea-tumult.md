@@ -22,9 +22,10 @@ text: 'Thereupon arose such a tumult in the congregation, especially among the G
   bishop was compelled to ask the testimony of the Jewish residents (it was in the town
   of Oea).'
 modern_rendering: >-
-  Then such a tumult arose in the assembly -- especially among the Greeks, correcting what
-  had been read and denouncing the translation as false -- that the bishop had to ask the
-  Jewish residents to testify. This was in the town of Oea.
+  Then a tumult arose in the congregation, above all among the Greeks. People corrected
+  what had been read and denounced the translation as false. The uproar was so great that
+  the bishop was forced to ask the Jewish residents for their testimony. This was in the
+  town of Oea.
 speaker_or_author: hal.figure.augustine
 license: verbatim
 modern_lens_note: '"The Greeks" names the Greek-speaking portion of a North African congregation, not people from Greece.'

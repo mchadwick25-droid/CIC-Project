@@ -20,7 +20,7 @@ sources:
   locus: Ep. 137 (co-author, with Eustochium, of the lost report to Innocent)
   license: public-domain
 names:
-- name: Paula
+- name: Paula the younger
   tag: in-world
 - name: Paula the younger (born c. 397/400)
   tag: scholarly
@@ -30,9 +30,10 @@ dates:
     son); the subject of Ep. 107''s education program; at Bethlehem by 416, when she and
     her aunt Eustochium reported the attack to Pope Innocent'
 narratable: true
-bridge_line: the granddaughter vowed from the cradle - the child whose alphabet was
-  designed by letter from Bethlehem, and who, still young, co-signed the community's
-  report of the fire
+bridge_line: >-
+  the granddaughter vowed to virginity from the cradle. Jerome planned her
+  first alphabet lessons by letter from Bethlehem. Still young, she and her
+  aunt sent the pope a report of the attack
 ---
 Third generation of the women's line, kept within-window: her prescribed
 education (Ep. 107) and her co-authorship of the lost 416 report (Ep. 137)

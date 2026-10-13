@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "The Marcella correspondence as printed in this edition: Epistulae 23-29, 32, 34, 37-38, 40-44 (Rome period, 384-385 - largely short scriptural-philological answers to her questions), 59 (Bethlehem period, exegetical answers), and 97 (to Pammachius and Marcella jointly, 402)"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div ids v.XXIII-v.XLIV, v.LIX, v.XCVII"
+citation: Jerome, the Marcella correspondence (Epistulae 23-29, 32, 34, 37-38, 40-44, 59 and 97), trans. W.H. Fremantle, Nicene and Post-Nicene Fathers, 2nd series, vol. 6 (1893)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

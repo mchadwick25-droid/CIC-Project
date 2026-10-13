@@ -16,6 +16,7 @@ sources: []
 author: "Rufinus of Aquileia (c. 344/345-411 CE)"
 work: "Apologia contra Hieronymum (401, two books, addressed to Apronianus): the only substantial surviving account of this world's central internal fracture written by someone other than Jerome - Rufinus's charge that Jerome had himself been Origen's admirer and pupil, his defense of his own translation practice, and his account of their broken friendship"
 edition: "trans. W.H. Fremantle, NPNF2-03 (1892), vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, div id vi.xi"
+citation: Rufinus of Aquileia, Apologia contra Hieronymum, trans. W.H. Fremantle, Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (1892)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

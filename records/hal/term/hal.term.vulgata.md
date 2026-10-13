@@ -37,8 +37,7 @@ senses:
   evidential: The prefaces and commentaries survive in Jerome's own hand; the project's contested
     reception is independently attested through Augustine's letters. Its later standard status belongs
     to centuries after this world's close.
-  personal: Each finished book went first to the household whose funding and whose questions had
-    occasioned it - dedicated, defended, and sent across the sea.
+  personal: "Some finished work went first to Paula and Eustochium. It came with a dedication and a defense of the choices made."
   translational: '"Is your Bible the same as ours?" - this world was making the Latin Bible later
     generations received, and fighting over every disputed word while it did.'
 quick_meaning: The lifelong Latin Bible project. In our own time it had no settled name yet.
