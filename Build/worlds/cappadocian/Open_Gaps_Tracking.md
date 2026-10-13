@@ -831,3 +831,17 @@ Review: `Build/Ministry/Operations/Audits/cappadocian_rulings_review_round1_2026
 Gates: `records cappadocian` PASS; `regate cappadocian --base origin/main` PASS; `engine.m9.cli check` PASS; `check_live_commentary --enforce` exit 0 on records, packages, cic-website and engine; m2 determinism and staleness PASS; site staleness PASS; the embedded-quotation survey for cappadocian stays at 0; pytest engine/m1, engine/m9 and engine/m10 pass. Package rebuilt and pinned: `packages/cappadocian/2026-10-13T18-15-45Z`. Site JSON recompiled.
 
 Status: CLOSED for the changes above. The Nyssa record and the engine item stay OPEN where named.
+
+### OG-44. Follow-up to the rulings entry: a second independent review, and corrections, 2026-10-13.
+
+A second independent review of PR #877, run by the coordinating session, found the record work sound and asked for five fixes. They are applied here. Entries above are not edited; this entry corrects and completes "Rulings on the findings left outside the record pass, 2026-10-13".
+
+1. **Source split.** `cappadocian.source.gregory-nyssa-on-the-holy-spirit` had covered two works. It is now a vendored source for On the Holy Spirit, against the followers of Macedonius (cic/texts/npnf205, from line 27918). A new unvendored source, `cappadocian.source.gregory-nyssa-on-the-deity-of-the-son-and-spirit`, holds the sermon on the Deity of the Son and the Holy Spirit, which the Library lacks. `cappadocian.story.money-changers-unbegotten` now cites the new record. The `m9:emic-vendored-only/cappadocian` count stays at 66. `m9:shelf-row/cappadocian` rises from 52 to 53, because the restored vendored source has no corpus-map row yet; that waiver already covers this case.
+2. **Unreviewed edits named.** After the third review round of the rulings work, one commit changed two source `edition` fields and moved the readability waiver from 203 to 199. Those edits were not reviewed by that round. The source split above replaces one of them; the second independent review covers the rest. A note about them had been appended to the round 3 review file; it is removed, so the review file holds only what its reviewer wrote.
+3. **Waiver owner line.** The owner line of `m9:emic-vendored-only/cappadocian` in `engine/m9/enforce.py` now states the present position only; the history is here.
+4. **Correction to a citation.** In the rulings entry, the gravity and force item cites Basil's Letter 204 for the grandmother and the mother. Letter 204 supports only the grandmother clause, that she taught Gregory the Wonderworker's words (npnf208, around line 37060). The mother teaching the psalms rests on the Life of Macrina (gregory-nyssa_life-of-macrina_clarke1916.txt, line 120).
+5. **Valens story.** The `text` of `cappadocian.story.valens-caesarea` now names Gregory of Nazianzus's funeral speech rather than "Gregory's".
+
+Held for Mark: the change to `engine/m10/reviewfile.py` that accepts a tier name in the model fields. It is left as it stands until his ruling is passed on.
+
+Status: CLOSED for items 1 to 5.

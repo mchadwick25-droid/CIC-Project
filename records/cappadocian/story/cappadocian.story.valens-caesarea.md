@@ -58,9 +58,9 @@ text: >-
   Caesarea the following Epiphany, he found the church crowded to its doors
   for the festival, the singing filling the whole building like the sea, and
   Basil presiding in full and unafraid order. The emperor is remembered as
-  shaken by what he saw. Gregory's funeral speech says a decree of exile was
-  later signed and never carried out, because the emperor's son fell ill.
-  Basil was not removed.
+  shaken by what he saw. Gregory of Nazianzus's funeral speech says a decree
+  of exile was later signed and never carried out, because the emperor's son
+  fell ill. Basil was not removed.
 absent_detail: "No account of the confrontation or the visitation survives from Modestus's or Valens's own side; both scenes come entirely through Gregory's public telling, delivered at Basil's funeral to an audience that included people who had been present."
 modern_contrast: >-
   A modern reader might expect a confrontation this famous to rest on a

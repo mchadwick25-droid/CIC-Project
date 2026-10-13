@@ -17,7 +17,7 @@ confidence:
     correction), so this record paraphrases the complaint's substance and places no phrase from it in
     quotation marks.
 sources:
-- source_id: cappadocian.source.gregory-nyssa-on-the-holy-spirit
+- source_id: cappadocian.source.gregory-nyssa-on-the-deity-of-the-son-and-spirit
   locus: "the money-changers/bath-attendants complaint, on the deity of the Son and Spirit"
 retrieval:
   tier: 3
