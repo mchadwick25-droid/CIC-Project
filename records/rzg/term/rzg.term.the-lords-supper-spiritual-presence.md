@@ -46,9 +46,9 @@ relations:
   target: rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
 - type: tension-with
   target: rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus
-plain_meaning: 'We refuse two claims about the Lord''s Supper. It does not repeat Christ''s own sacrifice.
-  His body does not sit physically inside the bread. What we affirm took two cities and a 1549 agreement
-  to state together: Christ is truly given, by the Spirit, to whoever receives him believing.'
+plain_meaning: We refused two claims about the Lord's Supper. It did not repeat Christ's sacrifice. His
+  body did not sit in the bread. What we affirmed took two cities and a 1549 agreement to state together.
+  Christ is truly given, by the Spirit, to whoever receives him believing.
 world_word: The Lord's Supper and Spiritual Presence
 false_friend:
 - a minor liturgical or theological technicality - a dispute over whether communion bread is 'really'
@@ -66,16 +66,15 @@ senses:
     both cities put their names to a single formula neither had used alone before: though we distinguish,
     as we ought, between the signs and the things signified, yet we do not disjoin the reality from the
     signs.'
-  personal: We held the tension between Zwingli's own earlier, sharper reading and the negotiated Consensus
-    without ever fully settling, in our own words, how much the later formula actually changed the earlier
-    one. We carry both, because both are true of our own record.
-  translational: 'This is the single sharpest doctrine separating us from both of our own rivals at once
-    - Rome on one side, Wittenberg on the other - carrying the weight of what kind of God we believe in:
-    one who does not need a repeated sacrifice, and whose Son''s own body is not confined to a location
-    on a table.'
-quick_meaning: Our own sharpest boundary marker. No repeated sacrifice. No body confined to bread. After
-  real internal difference, and a 1549 deal, we hold that Christ is truly given by the Spirit - not merely
-  remembered, and not physically present.
+  personal: We held the tension between Zwingli's earlier, sharper reading and the negotiated Consensus.
+    We never fully settled, in our own words, how much the later formula changed the earlier one. We carried
+    both, because both were ours.
+  translational: 'This doctrine separated us sharply from both rivals at once: Rome on one side, Wittenberg
+    on the other. It carried the weight of what kind of God we believed in. He does not need a repeated
+    sacrifice. His Son''s body is not confined to a place on a table.'
+quick_meaning: 'Our sharpest boundary. No repeated sacrifice. No body shut in bread. After real differences
+  and a 1549 agreement, we held this: Christ is truly given by the Spirit. He is not just remembered.
+  He is not physically there.'
 distortion_risk: medium
 use_note:
   means: "The cities refuse both a repeated sacrifice and Christ's body sitting physically in the bread, affirming that Christ is truly given by the Spirit to believing recipients."

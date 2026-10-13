@@ -19,11 +19,12 @@ sources:
     outside the vendored corpus'
   license: public-domain
 relations: []
-statement: 'One woman in our own record carried real authority, and paid for it. Marie Dentiere wrote
-  in defense of our own reform at Geneva, and was prosecuted for having written at all. That much is directly
-  attested: she had standing enough to be worth silencing. What she actually argued -- her own words,
-  her own reasoning, in full -- has not reached us. I can tell you she spoke. I cannot yet show you what
-  she said.'
+statement: Could a woman carry real authority among us, and what did it cost her? One woman in our record
+  stands out. She is Marie Dentiere. In 1539 a work arguing that women could speak about Scripture came
+  out with no name on it. Scholars later traced it to her. Geneva's authorities seized it, and its printer
+  was prosecuted. What it cost her herself, our record does not say. What she actually argued, in her
+  own words and her own reasoning, has not reached us. I can tell you she wrote. I cannot yet show you
+  what she said.
 why_sources_cannot_answer: 'Doc_02_Source_Ecology.md SS6 states this world''s own gender finding directly:
   Marie Dentiere wrote and was prosecuted for it, a real, consequential act of authority independently
   attested, but ''her own argument is not reconstructed beyond the bare fact of her having written and

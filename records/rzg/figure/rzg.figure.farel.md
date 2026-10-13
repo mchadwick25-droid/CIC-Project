@@ -23,7 +23,7 @@ names:
   tag: in-world
 dates: {}
 narratable: true
-bridge_line: Calvin's own colleague, who first brought him to Geneva's own ministry and later traveled
-  with him to Zurich to frame the Consensus.
+bridge_line: Calvin's colleague. He first urged Calvin to stay at Geneva, and later went with him to Zurich
+  to frame the Consensus.
 ---
 Built from this world's own already-reviewed construction documents (Doc_01, Doc_09's own story cast, Doc_06's own Key Sources). `dates` states only what this compilation pass directly verified this session (nothing dated beyond general attestation) - never filled from general knowledge the vendored record itself does not supply here.

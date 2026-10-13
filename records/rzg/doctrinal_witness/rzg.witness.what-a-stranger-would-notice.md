@@ -40,11 +40,13 @@ tensions:
 - We cannot describe our own worship spaces to you in the detail a visitor's own eyes would give -- no
   vendored source in our own record describes them directly; what is said here is reasoned from our own
   doctrine, not read off a witness who stood there.
-text: 'A stranger who walked in expecting Rome''s own church would notice first what is not there: no image, no altar built for a sacrifice we no longer offer -- a table in its place. At
-  Zurich, for years, no instrument answered the voice at all. And our own neighbours did not read any
-  of this as reform. Catholic pressure pressed on us the whole length of our own window -- Jesuits at
-  Fribourg from 1580, a reconquest fought on Geneva''s own doorstep in the 1590s. We were watched the
-  entire time, not left alone to build in peace.'
+text: 'A stranger who walked in expecting Rome''s own church would have noticed first what was not there.
+  We reason, from what we held about the Mass, that there was no image to bow to and no altar built for
+  a sacrifice we no longer offered. A table stood in its place. By most accounts, the organ at the Zurich
+  Grossmunster fell silent in the mid-1520s, and no instrument answered the voice in worship for years
+  after. No source in our record describes these rooms directly. Catholic pressure bore on us through
+  all those years: Jesuits at Fribourg from 1580, and a reconquest fought on Geneva''s own doorstep in
+  the 1590s. Rome did not simply withdraw. It kept pressing at the edge of what we had won.'
 use_note:
   means: "Our doctrine implies worship marked by absence, no images and a table instead of an altar, watched throughout by Catholic neighbours."
   not_for:

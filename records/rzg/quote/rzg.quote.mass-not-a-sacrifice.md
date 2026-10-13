@@ -25,9 +25,9 @@ speaker_or_author: Huldrych Zwingli
 license: verbatim
 modern_lens_note: A modern reader may hear a minor liturgical technicality. We hear the single sharpest
   doctrine separating us from Rome - what kind of sacrifice Christ's own death actually was.
-modern_rendering: Christ sacrificed himself once. That sacrifice is, to eternity, a certain and valid
-  offering for the sins of all the faithful. From this it follows that the Mass is not a sacrifice.
-  It is a remembrance of that sacrifice, and an assurance of the salvation Christ has given us.
+modern_rendering: Christ sacrificed himself once. He is forever a sure and valid sacrifice for the sins
+  of all the faithful. From this it follows that the mass is not a sacrifice. It is a remembrance of the
+  sacrifice and an assurance of the salvation which Christ has given us.
 use_note:
   means: "Zwingli holds Christ's one sacrifice valid forever, so the Mass is a remembrance and assurance of it, not a sacrifice."
   not_for:
