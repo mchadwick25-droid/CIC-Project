@@ -57,7 +57,7 @@ relations:
 - type: associated-with
   target: ijc.quote.let-the-ancient-customs-prevail
 use_note:
-  means: "We read scripture and council rulings as binding authority for office, law, and boundary, and both Nicene sides argued from scripture's own words."
+  means: "We read scripture and council rulings as binding authority for office, law, and boundary, and both sides in the fight over the Son argued from the same scripture."
   not_for:
     - "a claim that fixing the biblical canon was this world's own documented business"
     - "a claim that devotional reading was absent rather than thinly recorded"

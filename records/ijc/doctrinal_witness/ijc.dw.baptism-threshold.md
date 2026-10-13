@@ -52,7 +52,7 @@ relations:
 - type: associated-with
   target: ijc.quote.he-deferred-it-in-the-hope
 use_note:
-  means: "Baptism was our decisive, unrepeatable threshold, weighty enough that men like Constantine deferred it, and it placed even emperors under church discipline."
+  means: "Baptism was our decisive crossing from outside to inside the Church, and some famous men, Constantine among them, put it off; our sources do not always say why."
   not_for:
     - "a claim that Eusebius's account of Constantine's motive for delay is established fact"
     - "a claim that this world stressed inward conversion experience as later ages do"

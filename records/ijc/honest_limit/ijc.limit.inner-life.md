@@ -37,7 +37,7 @@ relations:
 - type: associated-with
   target: ijc.quote.sin-is-not-done-away-but-by-tears
 use_note:
-  means: "The record does not tell how its writers prayed alone; it shows public worship, such as psalm-singing under siege, and forgiveness that followed shown repentance."
+  means: "The record does not tell how its writers prayed alone; it shows public worship, such as hymn and psalm singing under siege, and forgiveness that followed shown repentance."
   not_for:
     - "a claim about private prayer, silence in prayer, or inner struggle among believers"
   years: {from: 312, to: 451}

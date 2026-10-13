@@ -70,7 +70,7 @@ modern_contrast: >-
   historians' telling, written a generation on to edify, and this record keeps that layer named as
   such rather than folding it into the earliest evidence.
 use_note:
-  means: "After the 390 Thessalonica massacre, Ambrose's own letter demanded the emperor's repentance and he submitted; the dramatic public scene is a later telling."
+  means: "After the 390 Thessalonica massacre, Ambrose's own letter demanded the emperor's repentance; Sozomen and Theodoret say Theodosius did penance, and the dramatic public scene is their later telling."
   not_for:
     - "a claim that the stripped-of-purple public scene is first-hand contemporary evidence"
     - "a claim about Theodosius's inward state"

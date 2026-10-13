@@ -50,7 +50,7 @@ senses:
   translational: "\"Early separation of church and state?\" No. The claim is nearly the opposite. It puts the emperor inside the Church's life. What it denies him is mastery over what belongs to God, not a place in the body that guards it."
 quick_meaning: "Ambrose's claim that the emperor belonged inside the Church and did not stand above it."
 use_note:
-  means: "\"The emperor is within the Church, not over it\" is Ambrose's basilica-crisis word: a ruler is under her discipline and cannot command the altar."
+  means: "\"The emperor is within the Church, not above it\" is what Ambrose said in the 386 basilica crisis, calling the emperor a son of the Church."
   not_for:
     - "a claim that this formula is the modern separation of church and state"
     - "a claim that this formula is about which see outranks which"

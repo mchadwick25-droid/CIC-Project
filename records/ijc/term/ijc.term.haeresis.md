@@ -49,7 +49,7 @@ senses:
   translational: "\"Heresy-hunting\" here was a state process, and private zeal was only part of it. Whether it became settled legal machinery all at once or slowly across this window is a live scholarly question. We hold it open."
 quick_meaning: A teaching ruled outside the church - and, under our laws, outside legal standing too.
 use_note:
-  means: "Heresy is a teaching placed outside what the church would recognize and, increasingly, outside the law: one act, a judgment of faith with legal force."
+  means: "Heresy is a teaching placed outside what the church would recognize and, increasingly, outside the law; whether that grew into settled legal machinery all at once or slowly is held open."
   not_for:
     - "a claim that heresy was a purely doctrinal category with no legal consequence"
     - "a claim that the boundary of heresy always pointed the same direction"

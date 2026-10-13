@@ -44,7 +44,7 @@ senses:
   translational: "This is not a relic market and not a private cemetery. It is closer to a public memorial landscape, built to carry the claim of an institution."
 quick_meaning: "A shrine honoring a martyr. In Rome, modern scholars read it as also a public sign of the see's long memory."
 use_note:
-  means: "A martyrium is a martyr's shrine honoring those who kept faith under persecution; in Rome's hands it also spoke for the see's standing."
+  means: "A martyrium is a martyr's shrine honoring those who kept faith under persecution; modern scholars read Rome's martyr honors as also speaking for the see's standing."
   not_for:
     - "a claim that martyr-cult here was itself the devotional center of the world"
   years: {from: 312, to: 451}
