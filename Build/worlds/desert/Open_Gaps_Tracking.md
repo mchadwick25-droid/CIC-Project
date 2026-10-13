@@ -863,3 +863,13 @@ Status: CLOSED for the records named above.
 ### OG-28. Sarah's saying: `use_note.means` and demo locus follow the vendored text, 2026-10-13.
 
 `desert.story.sarah-answer` `use_note.means` and the Alphabetical Collection `locus` of `desert.demo.identity-collision-womens-authority` still named a visit by elders ("challenged by visiting elders as only a woman"; "elder monks visiting to test her standing"). Both now name only the saying Budge section 525 holds: Sarah used to say to her brothers that she was the man and they the women. `use_note.means` reaches the evidence block the voice reads, so the unsupported visit could still have reached it. Status: CLOSED.
+
+### OG-29. `use_note.means` sweep against the corrected fields, 2026-10-13.
+
+Mark's ruling of 13 October: `use_note.means` reaches the evidence block the voice reads, so it must not contradict the corrected spoken fields or the source. All 123 desert records that carry a `means` (16 doctrinal witnesses, 12 stories, 6 honest limits, 18 terms, 58 quotes, 10 gravities, 3 contested claims) were compared with their own spoken fields and sources; `not_for` and `years` were not touched. Three changes:
+
+- `desert.story.sarah-answer` `use_note.not_for`: the guard no longer names the elders' visit. It now reads "Adding a visit, a challenge or a motive to the saying; Budge sec. 525 has only her saying to her brethren."
+- `desert.story.arsenius-flee` `use_note.means`: gave the court voice "flee and keep silence"; Budge gives the court voice only "flee from men" and the later voice the silence. It now says the voice told him to flee men at court and later to keep silence as a monk.
+- `desert.quote.in-real-experience-and-feeling` `use_note.means`: "of unknown authorship" became "whose author is disputed", matching the Contested authorship of the Macarian Homilies.
+
+The other 120 were checked and left as they are. Two were weighed and left: `desert.dw.melitian-power` says monks of Antony's communion refused Melitian ascetics recognition, a little wider than the Vita but the same as the record's own text; `desert.contested.antony-literacy` says the Letters "if authentic" cut against the unlettered claim, an emphasis the record's `held_against` supports. The sweep compared each `means` with the record's own fields and the corrected-facts list; it did not re-grep every vendored text for the 120 left unchanged. Status: CLOSED.
