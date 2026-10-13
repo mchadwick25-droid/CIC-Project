@@ -42,9 +42,7 @@ relations:
   target: syr.term.qyama
 - type: associated-with
   target: syr.term.tahwyata
-plain_meaning: 'The Single One. One word does double duty among us. It names the vowed celibate -
-  single-minded, undivided for God - and it is also the Syriac title of Christ as the Only-Begotten. The
-  two senses share one root: to live single is to be joined, by your own name, to Christ''s own oneness.'
+plain_meaning: 'The Single One. One word does double duty among us. It names the vowed celibate, single-minded and undivided for God. It is also the Syriac title of Christ as the Only-Begotten. The two senses share one root, so the one who lives single shares a name with Christ.'
 world_word: ihidaya (pl. ihidaye)
 false_friend:
 - solitary or hermit (physical isolation)

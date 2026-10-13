@@ -13,24 +13,24 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Aphrahat's own closing to his first Demonstration, written c. 337 in Persian territory. The building image runs through the whole Demonstration and this is where he turns it on himself and his reader.
+    Documented as Aphrahat's own closing to his tenth Demonstration, the last of the first ten, which he dates with them to 337 in Persian territory. Here he turns the building image on himself and his reader.
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
   locus: >-
-    Demonstration I (Of Faith), closing section, in the NPNF translation (npnf213_gregory-great-ephraim-syrus-aphrahat.xml)
+    Demonstration X (Of Pastors), sec. 9, in the NPNF translation (npnf213_gregory-great-ephraim-syrus-aphrahat.xml)
   license: public-domain
 text: >-
   Nor are these things sufficient; but hear thou these things from me without wrangling, and enquire concerning them with brethren who are apt for persuasion. Whatsoever thou hearest that assuredly edifies, receive; and whatever builds up strange doctrines, overthrow and utterly demolish. For wrangling cannot edify. But I, my beloved, as a stonecutter have brought stones for the building, and let wise architects carve them out and lay them in the building; and all the labourers that toil in the building shall receive reward from the Lord of the house.
 modern_rendering: >-
   These things are not enough by themselves. Hear them from me without
   quarreling, and ask about them among brothers who are open to persuasion.
-  Whatever you hear that truly builds up, receive; and whatever builds up
-  strange teachings, overthrow and demolish completely - for quarreling cannot
-  build anything up. But I, my beloved, like a stonecutter have brought stones
-  for the building. Let wise architects carve them and set them in place; and
-  everyone who labors on the building will have their reward from the Lord
-  of the house.
-speaker_or_author: Aphrahat, the Persian Sage, Demonstration I
+  Whatever you hear that truly builds up, receive. Whatever builds up strange
+  teachings, overthrow and demolish completely. For quarreling cannot build
+  anything up. But I, my beloved, like a stonecutter have brought stones for
+  the building. Let wise architects carve them out and set them in the
+  building. Everyone who labors on the building will receive a reward from
+  the Lord of the house.
+speaker_or_author: Aphrahat, the Persian Sage, Demonstration X
 license: verbatim
 modern_lens_note: >-
   \"Wrangling\" is disputation for its own sake, and the distinction being drawn is between that and enquiry - which he commands. A reader who expects an ancient teacher to close by demanding assent should notice that he closes by handing his work to others to cut and place, and by telling his reader to go and ask.
@@ -44,7 +44,7 @@ relations:
 - type: associated-with
   target: syr.dw.doubt
 use_note:
-  means: "Aphrahat closes Demonstration I, written around 337 in Persian territory, by urging enquiry without wrangling and calling himself a stonecutter whose stones wiser builders must shape and lay."
+  means: "Aphrahat closes Demonstration X, the last of his first ten, written in 337 in Persian territory, by urging enquiry without wrangling and calling himself a stonecutter whose stones wiser builders must shape and lay."
   not_for:
     - "a claim that this world welcomed doubt in the modern inner sense"
     - "a claim that all teaching was open to revision, since he also commands overthrowing strange doctrines"
@@ -52,9 +52,6 @@ use_note:
   years: {from: 337, to: 337}
   status: reviewed
 ---
-syr.dw.doubt cites Demonstration I for faith as a building that rises; this quote gives that citation
-a quotable passage. F1-P is served by that witness alone.
-
 This is the sentence that makes the witness's claim checkable. A world whose answer to "was there
 room for doubt" is "faith is a building, laid stone by stone" should be shown its own teacher
 saying so, and saying it in the register that matters here - enquire, receive what edifies,

@@ -34,8 +34,7 @@ relations:
   target: syr.gravity.authority-ambiguity
 text: >-
   The right to decide disputed belief was still being worked out among us, and
-  our record shows the working. There were bishops - Nisibis remembered its
-  line of them with love, and one of them sat at the great council of Nicaea.
+  our record shows the working. There were bishops - Nisibis remembered its line of them with love, and our tradition remembers that one of them sat at the great council of Nicaea.
   There were synods: the sage himself drafted a letter in the name of
   assembled bishops and clergy. There were teachers whose word carried because
   their teaching held. But no settled machinery stood over the whole. The

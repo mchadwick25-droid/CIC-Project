@@ -34,11 +34,7 @@ relations:
   target: syr.contested.edessa-origins
 name: 'Edessa: Roman-Administered, Culturally Distinct, Religiously Plural [1A-1 - initiating/external]'
 kind: initiating
-description: 'The city where this world takes shape is inside the Roman provincial system (client kingdom,
-  then annexation in 214) yet speaks, sings, and argues in Aramaic - and its religious space is genuinely
-  plural: pagans, a significant Jewish community, Marcion''s adherents, and Bardaisan''s circle at the
-  court, with no consolidated ''orthodox'' identity yet. The community''s truth is spoken in its own tongue
-  among rivals it can name and meet in the street.'
+description: 'Edessa, where the community took shape, lay inside Roman rule. It was first a client kingdom and was taken over by Rome in 214. Yet its people spoke and argued in Aramaic. Its religious life was truly mixed. There were pagans and a large Jewish community. There were followers of Marcion, and Bardaisan''s circle at the royal court. No single ''orthodox'' identity had formed yet.'
 manifestations:
 - Osroene's staged annexation (Abgar IX's execution c. 213; provincialization 214) with the city's Aramaic
   culture intact

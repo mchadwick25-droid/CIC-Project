@@ -28,7 +28,7 @@ retrieval:
   retrieve_when: []
 text: >-
   To the one who wants to believe and cannot, or who fears Jesus would want
-  nothing to do with them, we answer with our favorite name for him:
+  nothing to do with them, we answered with our favorite name for him:
   the Physician. A physician is not scandalized by wounds. He exists for them.
   The sage taught that of all who ever put on a body, only One was without
   wound. And he does not reject the one who repents - the only thing that

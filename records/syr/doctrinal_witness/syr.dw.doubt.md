@@ -27,19 +27,13 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Our word for the life of belief was not certainty but faith. Faith, the sage
-  taught, is a building: it rests on one foundation stone and goes up piece by
-  piece, with fasting and prayer and love each added like courses of stone. A
+  Our word for the life of belief was not certainty but faith. Faith, the sage taught, is a building. It rests on one foundation stone and goes up piece by piece. Fasting, prayer and love are each added like courses of stone. A
   building is not finished in a day. What we distrusted was not the struggling
   believer. It was the prying scrutinizer, the one who would take the Godhead
   apart like a problem to be solved. Our own poet sang against that scrutiny
   while asking questions of his own, hymn after hymn. And we did not run from
-  hard challenges. The sage records a debater's taunt - if your faith were
-  true, would not your prayers have stopped the persecution? - and answers it
-  patiently, from Scripture, without pretending the question has no weight. A
-  private inner crisis of doubt is not something we wrote about. What we knew,
-  and what we kept, was faith that is contested, questioned, and still
-  growing.
+  hard challenges. The sage records a debater's taunt: if your faith were true, would your prayers not have stopped the persecution? He says the taunt troubled him, and he answered it from Scripture. A
+  private inner crisis of doubt is not something we wrote about. Our faith was questioned, and it kept growing.
 positions:
 - faith is a structure that grows over a life - incompleteness is its normal condition
 - hard questions were engaged in the open, including the hardest, why God does not stop this

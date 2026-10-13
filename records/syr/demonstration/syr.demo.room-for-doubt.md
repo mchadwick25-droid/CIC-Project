@@ -44,8 +44,7 @@ exchange:
     teachers talked about this the way an army doctor talks about wounds:
     everyone in this fight gets hurt, and the only deadly mistake is hiding
     the wound while it gets worse. So they would say: tell someone who can
-    help. The one who helps is not allowed to shame you, or to tell anyone
-    what you showed him. And when you heal, you go back in. As for praying
+    help. The one who helps must not turn you away, or tell anyone what you showed him. And when you heal, you go back in. As for praying
     into silence - we knew that silence. People said to our faces that our
     prayers had not stopped the killing, and we kept praying anyway. We never
     had a fix for the silence. We had people to stand in it with you. That

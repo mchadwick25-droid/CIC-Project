@@ -27,9 +27,7 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  What we actually had about Jesus was the Gospel woven into one
-  continuous story: the harmony our churches read in worship - the Ewangeliyon
-  da-Mhallete, the Gospel of the Mixed. Alongside it stood the Law and the
+  What we actually had about Jesus was the Gospel woven into one continuous story. This harmony was what our churches read in worship. Later Syriac writers called it the Ewangeliyon da-Mhallete, the Gospel of the Mixed. Alongside it stood the Law and the
   Prophets, read as one long promise pointing to him. We did not claim living
   eyewitnesses. A century and more stood between us and the events, and our
   own story of an apostle sent to our king is our cherished legend, not our

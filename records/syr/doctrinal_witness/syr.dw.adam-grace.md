@@ -29,14 +29,10 @@ retrieval:
 text: >-
   We said that from Adam's transgression, death has ruled over everyone - even
   over those who had not sinned the way Adam did. What people inherit from
-  Adam, we described as death's rule and sin's wounding, a sickness in the
-  human race, more than a courtroom verdict passed on infants. And we preached
+  Adam, we described as death's rule and sin's wounding, a sickness in the human race. And we preached
   that our Lord took sin and nailed it to his cross. The sage taught faith
-  with a picture. Faith is the foundation stone, and on it the whole house is
-  raised: fasting, prayer, love, almsgiving, meekness. And a house is built
-  FOR someone. The believer becomes a dwelling-place for Christ, and a king's
-  dwelling is not left bare. Faith always comes first, but faith is never left
-  bare. As for the bread and cup, we received them with reverence as the
+  with a picture. Christ was the foundation stone, and faith rested on him. On faith the whole house was raised: fasting, prayer, love, almsgiving, meekness. And a house is built
+  FOR someone. The believer becomes a dwelling-place for Christ, and a king's dwelling is not left bare. As for the bread and cup, we received them with reverence as the
   Lord's own gift; we asked no deeper questions about how.
 positions:
 - death rules from Adam over all - the race is wounded, and the wound is inherited

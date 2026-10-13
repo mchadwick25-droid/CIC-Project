@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: the manuscript colophon tradition ('Mar Jacob, the Persian sage', 510 CE - per the edition's
+  locus: the manuscript colophon tradition ('Mar Jacob, the Persian sage', a manuscript dated 512 - per the edition's
     introduction)
   license: public-domain
 retrieval:
@@ -33,7 +33,7 @@ false_friend:
 senses:
   informational: An honorific prefix, 'my lord', used across Syriac Christianity for bishops, saints,
     and revered teachers.
-  evidential: Broadly attested in the Syriac tradition; a 510 colophon calls the author of the Demonstrations
+  evidential: Broadly attested in the Syriac tradition; a manuscript dated 512 calls the author of the Demonstrations
     'Mar Jacob, the Persian sage'. Whether 'Mar Ephrem' was said in Ephrem's own lifetime is not confirmed
     - it may be later veneration's convention.
   personal: 'A word of affection as much as rank: ''my lord'' said of a teacher the community loves.'

@@ -46,11 +46,7 @@ relations:
 - type: illustrated-by
   target: syr.story.ephrem-roll-and-vine
 name: Symbolic-Typological Theological Method (raza/shrara) [PRIMARY - C1]
-description: 'Doctrine is done in symbol and type, not syllogism: the raza (symbol, mystery) in Scripture
-  and creation is bound to the shrara (truth) it discloses and carries its hidden power, so theology''s
-  native register is the sung hymn and the typological reading, and argument itself moves by setting type
-  against type. Ephrem-anchored above all; Aphrahat''s cognate typology is real but plainer - the two
-  are never presented as co-equal theoretical attestation.'
+description: 'Teaching was done in symbol and type, not in formal logic. A raza, a symbol or mystery in Scripture or in nature, was bound to the shrara, the truth it showed. So the natural home of theology was the sung hymn and the reading of types. Even argument moved by setting one type against another. This rests above all on Ephrem. Aphrahat''s use of types is real but plainer, and the two are never presented as equal witnesses to the method.'
 manifestations:
 - 'the Pearl hymns: a whole theology read out of one pearl held to the light'
 - 'Ephrem''s commentary practice: the harmonized Gospel read typologically end to end'

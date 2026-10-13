@@ -19,7 +19,7 @@ sources:
   license: public-domain
 text: he discharged no other curse than to that mosquitoes and gnats might be sent forth upon them
 modern_rendering: >-
-  he called down no worse curse on them than that mosquitoes and gnats should
+  he called down no other curse on them than that mosquitoes and gnats should
   be sent against them
 speaker_or_author: syr.source.theodoret-historia-ecclesiastica (Theodoret's telling of Jacob's prayer)
 license: verbatim
@@ -30,7 +30,7 @@ retrieval:
   - "participant asks whether the miracle stories can be believed"
   - "participant asks what outside historians wrote about their holy men"
 use_note:
-  means: "Theodoret, writing about a century later, tells that Jacob of Nisibis, asked to curse the besieging Persians, called down nothing worse than mosquitoes and gnats."
+  means: "Theodoret, writing about a century later, tells that Jacob of Nisibis, asked to curse the besieging Persians, called down no other curse than mosquitoes and gnats."
   not_for:
     - "a verified historical event rather than hagiographic legend"
     - "a firm date for the siege, which may be 338, 346, or 350"
