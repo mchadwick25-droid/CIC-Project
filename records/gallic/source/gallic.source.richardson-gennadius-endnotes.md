@@ -19,6 +19,7 @@ work: Editorial apparatus (bracketed dating endnotes) to Gennadius's De Viris Il
   II vol. 3
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (Theodoret, Jerome, Gennadius, Rufinus), tr.
   Ernest Cushing Richardson, ed. Schaff and Wace, vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
+citation: Ernest Cushing Richardson, dating notes to Gennadius, De Viris Illustribus, Nicene and Post-Nicene Fathers, 2nd series, vol. 3, ed. Schaff and Wace
 kind: vendored
 rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
 attribution_status: attributed

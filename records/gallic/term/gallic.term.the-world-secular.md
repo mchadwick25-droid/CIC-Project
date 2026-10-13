@@ -80,9 +80,9 @@ relations:
 - type: associated-with
   target: gallic.term.the-religious
 plain_meaning: >-
-  For us "the world" is what a monk has left - kin, property, honours, delights, "secular business."
-  We name it from the far side of the renunciation, as a warfare one has been discharged from and a
-  sea one has come out of. We never name it as a place from which God is absent.
+  For us "the world" was what a monk had left - kin, property, honours, delights, "secular business."
+  We named it from the far side of renunciation, as a war he had been discharged from and a sea he had
+  come out of. We never called it a place God was absent from.
 world_word: the world / secular
 gloss_forms:
 - form: the world

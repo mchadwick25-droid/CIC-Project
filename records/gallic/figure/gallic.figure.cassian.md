@@ -26,7 +26,7 @@ confidence:
     item 5). Every locus below read directly at Doc_09.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: 'Preface (for Castor''s new monastery; the refusal to "weave a tale of God''s miracles and signs"); II.4-6 (the angel and the twelve psalms); IV.2 (no Gallic monk keeping it "even for a year"); IV.19-20 (the three lentils); V.27 (Paesius and John)'
+  locus: 'Preface (for Castor''s new monastery; the refusal to "weave a tale of God''s miracles and signs"); II.4-6 (the angel and the twelve psalms); IV.2 (no one who joined "our monasteries keeping it up unbroken even for a year"); IV.19-20 (the three lentils); V.27 (Paesius and John)'
   license: public-domain
 - source_id: gallic.source.cassian-conferences-part-i
   locus: 'Preface I (to Leontius and Helladius); I.7 ("aids to perfection")'
@@ -52,9 +52,9 @@ dates:
   display: "travelled in Egypt with Germanus in his youth (the interval to his writing not stated in this world's own documents); founded the twin houses at Marseilles c. 415; wrote the Institutes for Castor before 426 and the Conferences in three parts, Part II (to Honoratus and Eucherius) not later than 426; d. c. 435"
 narratable: true
 bridge_line: >-
-  The man who lived among the fathers of Egypt and brought their words home to Gaul in a book - who
-  told no tales of his own houses and no miracles, but wrote down how a question about grace troubled
-  him and his friend at morning service.
+  The man who lived among the fathers of Egypt and brought their words home to Gaul in a book. He
+  told no tales of his own houses and ranked wonders below humility. He wrote down how a question
+  about grace troubled his friend and him at morning service.
 relations:
 - type: associated-with
   target: gallic.story.the-angel-and-the-twelve-psalms

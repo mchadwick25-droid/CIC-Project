@@ -94,8 +94,9 @@ narrative_tier_justification: >-
   sources.
 tellable_as: >-
   Foreknowing his death, Martin goes to make peace among quarrelling clerics. He sickens, and refuses
-  straw for his bed of sackcloth and ashes rather than set his disciples a softer example. He is
-  carried to burial by two thousand monks, old men and young soldiers of Christ, and a choir of virgins.
+  straw for his bed of sackcloth and ashes rather than set his disciples a softer example. At his
+  funeral, it is said, nearly two thousand monks gather, old men and young soldiers of Christ, with a
+  choir of virgins.
 text: >-
   Sulpitius Severus wrote to Bassula, his mother-in-law, then living at Treves. She had complained that
   his earlier letter announcing Martin's death had not described the death itself. He tells her - with

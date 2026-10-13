@@ -63,19 +63,18 @@ tellable_as: >-
   Two old men meet after forty years apart; the abbot of many says the sun has never seen him eating,
   and the hermit answers, "nor me angry."
 text: >-
-  Among the examples of the Egyptian fathers that Cassian set down for the monks of Gaul is this one,
-  of two old men and forty years - received into Gallic cells as Egypt's own saying, not a Gallic
+  Cassian set down examples of the Egyptian fathers for the monks of Gaul. This is one of them, of two
+  old men and forty years. It was received into Gallic cells as Egypt's own saying, not a Gallic
   invention.
 
-  "When the aged John, who was superior of a large monastery and of a quantity of brethren, had come to
-  visit the aged Paesius, who was living in a vast desert, and had been asked of him as of a very old
-  friend, what he had done in all the forty years in which he had been separated from him and had
+  "When the aged John, who was superior of a large monastery and of a quantity of brethren, had come
+  to visit the aged Paesius, who was living in a vast desert, and had been asked of him as of a very
+  old friend, what he had done in all the forty years in which he had been separated from him and had
   scarcely ever been disturbed in his solitude by the brethren: 'Never,' said he, 'has the sun seen me
   eating,' 'nor me angry,' said the other."
 
-  That is the whole of it as the tradition keeps it: the abbot of the many, asked by the hermit of the
-  desert what forty years had yielded, answers with a fast; the hermit, asked the same, answers with a
-  heart.
+  That is all Cassian gives. The abbot said the sun had never seen him eat. The hermit said it had
+  never seen him angry.
 absent_detail: >-
   Cassian records both answers without comment in this chapter; which the tradition preferred is stated
   elsewhere in the same corpus (fastings "are not perfection, but aids to perfection," Conf. I.7; anger

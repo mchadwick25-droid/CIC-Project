@@ -49,8 +49,8 @@ modern_rendering: >-
   Moreover, it fits well with my purpose in taking up this life. At one time I was caught up in
   the many and wretched storms of worldly warfare. Now, at last, under Christ's guidance, I have
   cast anchor in the harbour of the religious life. It is a harbour that is always very safe for
-  everyone. I did this for a purpose. There I have been freed from the blasts of vanity and pride.
-  There I seek God's favour through the sacrifice of Christian humility. In this way I may be able
+  everyone. I came there so that I might be freed from the blasts of vanity and pride. There I
+  might seek God's favour through the sacrifice of Christian humility. In this way I may be able
   to escape not only the shipwrecks of this life, but also the flames of the world to come.
 relations:
 - type: associated-with

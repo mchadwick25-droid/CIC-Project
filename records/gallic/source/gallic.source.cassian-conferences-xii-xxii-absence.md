@@ -20,6 +20,7 @@ work: The absence, in this vendored NPNF edition specifically, of Conferences XI
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 11 (Sulpitius Severus, Vincent of Lerins, John
   Cassian), tr. Alexander Roberts / C. A. Heurtley / Edgar C. S. Gibson, ed. Schaff and Wace, vendored
   as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+citation: John Cassian, Conferences XII (On Chastity) and XXII (On Nocturnal Illusions), not included in Nicene and Post-Nicene Fathers, 2nd series, vol. 11, ed. Schaff and Wace
 rights_status: not applicable -- no text exists to hold rights over. This row's own subject is a documented
   absence from a vendored edition (what the edition does NOT contain), not a held work.
 attribution_status: not applicable -- this row documents an edition-level absence, not an authored work

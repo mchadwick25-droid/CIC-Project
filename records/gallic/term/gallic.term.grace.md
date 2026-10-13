@@ -116,9 +116,9 @@ relations:
   target: gallic.term.merit
 plain_meaning: >-
   In Cassian's Marseilles, the help of God without which no effort reaches its goal. Grace "always
-  co-operates with our will," and "assists, protects, and defends it." Which one begins the good, grace
-  or the will, we leave open. We hold it together, on purpose, with a will that stays free - in a
-  relation "that cannot be fully grasped by the mind and reason of man."
+  co-operates with our will," and "assists, protects, and defends it." Which one began the good, grace
+  or the will, we left open. We held grace together with a free will on purpose - in a relation "that
+  cannot be fully grasped by the mind and reason of man."
 world_word: grace (of God) / gratia
 false_friend:
 - a binary of grace alone versus works, Augustine versus Pelagius, on one side of which we must be placed

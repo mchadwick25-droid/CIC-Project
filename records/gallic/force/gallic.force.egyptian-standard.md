@@ -56,37 +56,44 @@ name: "The Egyptian standard arriving in Gaul - a rule to receive (south), a mea
 kind: initiating
 matrix_cell: 1A
 description: >-
-  Egyptian and Palestinian monastic custom reached Gaul in two ways the two nodes' texts record
-  separately. In the south it arrived as a written program at a bishop's request - Castor 'anxious
-  that the institutions of the East and especially of Egypt should be established in your province,
-  which is at present without monasteries' - set out 'as they were there delivered to us by the
-  Fathers,' adapted only where 'impossible in these countries,' and arriving as a standing
-  correction of what Gaul already did: no one keeping the probation 'even for a year' (Inst. IV.2),
-  the Gallic Gloria 'we have never heard anywhere throughout the East' (II.8), monks going 'back
-  again to bed after their Mattin prayers' (III.5); Gallic monks are to receive the Conferences
-  'into their cells' so as not to be left to find a way 'difficult and almost unknown in this
-  country' (Conf. Pref. III). In the north it arrived a generation earlier and without Cassian, as a
-  rival to be matched: the Dialogues' subject is 'the manner of life of the oriental monks and of
-  St. Martin' (Gennadius), and the traveller just returned from Egypt concedes 'you have conquered
-  ... all the eremites and anchorites' (Dial. II.5) (Doc_08 Cell 1A, Force 1A-1). WORLD'S OWN
-  EXPERIENCE (Layer 2): in the south the customs came as the fathers' own, handed down, and the
-  house received them as a debtor receives what it cannot repay - the colder, weaker, later people
-  in a province 'frozen as it were with the cold of Gaul,' where the book was the father in the cell
-  and to be formed was to be corrected by a custom older and better than one's own. In the north the
-  fathers of Egypt were a glory the brethren had heard of, and Martin was Gaul's answer to it: the
-  Tours brethren did not receive Egypt's customs; they matched Egypt's saints. FORMATION IMPACT
-  (Layer 3): the initiating force of the whole southern ecology and the measuring-pole of the
-  northern one - G2 in Doc_04's own terms. In the south it supplied the CONTENT of formation (G7's
-  interior road, the office, the entrance sequence, dress and the fault-list - all received) and the
-  MANNER (a program read in the teacher's absence, where G5's shift from heard to read begins),
-  pressed the community toward the vocabulary of reception, produced a mild shame at being the
-  frozen province and the standing fear of cooling, and planted the doctrinal seed - the received
-  program presupposes that effort matters. In the north it produced G6's comparative frame -
-  Martin's virtutes told so as to outdo Egypt's - and gave the north no program, 'which is why Tours
-  documents "a place and a person" and the south "a program."' The two modes are not one impact.
+  Egyptian and Palestinian monastic custom reached Gaul in two ways. The texts of the two houses
+  record them separately.
+
+  In the south it arrived as a written program, at a bishop's request. Castor was 'anxious that the
+  institutions of the East and especially of Egypt should be established in your province, which is
+  at present without monasteries.' Cassian set them out 'as they were there delivered to us by the
+  Fathers.' He adapted them only where they were 'impossible in these countries.' They came as a
+  standing correction of what Gaul already did. Cassian could not recall anyone in Gaul's houses keeping
+  the fathers' perseverance 'unbroken even for a year' (Inst. IV.2). The Gallic Gloria was one 'we have never heard anywhere throughout the East' (II.8). Monks
+  went 'back again to bed after their Mattin prayers' (III.5). Gallic monks were to receive the
+  Conferences 'into their cells.' Otherwise they would be left to find a way 'difficult and almost
+  unknown in this country' (Conf. Pref. III).
+
+  In the north it arrived a generation earlier, without Cassian, as a rival to be matched. The
+  Dialogues' subject is 'the manner of life of the oriental monks and of St. Martin' (Gennadius).
+  The traveller just back from Egypt concedes, 'you have conquered ... all the eremites and
+  anchorites' (Dial. II.5).
+
+  In the south the customs came as the fathers' own, handed down. The house received them as a
+  debtor receives what it cannot repay. Its people were the colder, weaker, later people, in a
+  province 'frozen as it were with the cold of Gaul.' There the book was the father in the cell. To
+  be formed was to be corrected by a custom older and better than one's own. In the north, the
+  fathers of Egypt were a glory the brethren had heard of. Martin was Gaul's answer to it. The Tours
+  brethren did not receive Egypt's customs; they matched Egypt's saints.
+
+  This force started the whole southern way of life, and it set the measure the north held itself
+  against. It is the root of Egypt as the measure. In the south it supplied the content of
+  formation, and all of it was received. That meant the interior road, the office, the steps of
+  entry, dress and the list of faults. It also supplied the manner: a program read while the teacher
+  was absent. There the shift from the heard to the read begins, in formation by named example. It
+  pressed the community toward the words of reception. It bred a mild shame at being the frozen
+  province, and the standing fear of cooling. It also planted the doctrinal seed, since the received
+  program assumes that effort matters. In the north it set the saint's power in a frame of
+  comparison. Martin's acts of power were told so as to outdo Egypt's. It gave the north no program,
+  so Tours records a place and a person, and the south a program. The two ways are not one impact.
 manifestations:
 - "Castor's request and Cassian's Institutes Preface - Egypt's customs 'delivered to us by the Fathers,' with the adaptation clause for climate and habits"
-- "The standing correction of Gaul: the probation not kept 'even for a year' (Inst. IV.2); the Gloria unknown in the East (II.8); back to bed after Mattins (III.5)"
+- "The standing correction of Gaul: the fathers' perseverance not kept 'unbroken even for a year' (Inst. IV.2); the Gloria unknown in the East (II.8); back to bed after Mattins (III.5)"
 - "The Conferences received 'into their cells' as the fathers speaking 'in the Latin tongue' (Conf. Pref. III)"
 - "Eucherius at L\u00e9rins naming John and Macarius as the pattern (De Laude Eremi \u00a727, row 26)"
 - "Postumianus's concession to Gallus, 'you have conquered ... all the eremites and anchorites' (Dial. II.5); 'Europe will not yield to it, or to all Asia, in having only Martin' (III.17)"
