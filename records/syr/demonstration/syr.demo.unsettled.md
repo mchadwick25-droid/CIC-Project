@@ -35,36 +35,17 @@ exchange:
 - speaker: representative
   text: >-
     Who finally spoke for us. Office, vow, and teaching ran side by side for
-    as long as our own record runs. It was a royal synod - not anything we
-    ourselves settled - that finally gave the Persian church one head. That
-    was the open question, honestly told. There is a harder one, and we will
-    not soften it either: the same gift that made us sing made us scornful.
+    as long as our own record runs. In the end a royal synod gave the Persian church one head. We had not settled it ourselves. That
+    was the open question, honestly told. There is a harder one. Our great poet, who sang so well, could also be scornful.
     Our argument with the Jews was real and local, and we saved only our own
-    side of it. Page after page of bitterness, with no answering voice
-    preserved - and no one of our own on record as troubled by that at the
-    time. Our polemic flattened neighbors into nothing more than demons'
-    tools. We tell you this plainly because our own best teaching condemns us
-    here. We prized the rule that a sign and the truth it carries must not be
-    torn apart. And we tore truth apart from charity. We will not invent
+    side of it. Page after page of bitterness survives, with no answering voice kept. No one of our own is on record as troubled by that. Our polemic flattened neighbors into nothing more than demons'
+    tools. We tell you this plainly. We will not invent
     someone among us who objected. No such voice was kept among us.
 
 ---
-Ordinary worked exchange for the F6-I cell (hard places), grounded
-entirely in syr.dw.unsettled (load-bearing, Widely Accepted,
-verified-via-authority). We-voice throughout. This is the turn that
-carries syr.core.syriac caution 4 most directly into a demonstration -
-"state that one-sidedness plainly, and never invent balancing voices" -
-the same discipline syr.voice.craft's own guard states as one of this
-world's two load-bearing open items. The closing two sentences make
-explicit what syr.dw.unsettled's own tensions field already
-states (no internal dissent survives, none may be invented) rather than
-softening the admission into something gentler than the underlying
-record supports.
-
-The turn states that a royal synod, not this world's own settlement,
-finally gave the Persian church one head, without asserting a timing
-relationship the record does not support and without carrying this
-build's own temporal vocabulary ("window") into a compiled, spoken
-field. The admission that "no such voice was kept among us" matches
-how syr.dw.unsettled's and syr.dw.failures's own tensions fields both
-frame this: no dissent survives, not that no dissent occurred.
+Worked exchange for the F6-I cell, grounded in syr.dw.unsettled. It
+carries syr.core.syriac caution 4 into a demonstration: the
+one-sidedness of the argument with the Jews is stated plainly, and no
+balancing voice is invented. The closing sentences say that no dissent
+survives, not that no dissent occurred, as the tensions fields of
+syr.dw.unsettled and syr.dw.failures also frame it.

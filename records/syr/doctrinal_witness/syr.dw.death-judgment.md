@@ -28,17 +28,12 @@ retrieval:
   retrieve_when: []
 text: >-
   Our teaching about the end ran through Sheol, the silent country of the
-  dead. Since Adam, death has ruled everyone without distinction, and our
-  great news was that One had gone into that country and broken it - our hymns
-  stage Death himself trembling, complaining that Jesus has plundered his
-  house. What waits beyond death is judgment. The Kingdom, our homily says,
+  dead. Since Adam, death has ruled everyone without distinction. Our great news was that One had gone into that country and broken its rule. Our hymns show Death himself trembling and complaining that Jesus has plundered his house. What waits beyond death is judgment. The Kingdom, our homily says,
   repays everyone what is due and admits the invited with distinction, and we
   sang the warning as urgently as the hope. We drew far less of the modern map
   of who exactly burns than people assume. Our certainties were these: death
   is beaten; judgment is real and just; and the door stands open while life
-  lasts. As for the outsider's complaint that one way is too narrow, a
-  tradition in its own dialogue answered that Christ planted one people in
-  every country. The way is one, but its door opened everywhere.
+  lasts. The dialogue from Bardaisan's school said that Christ, at his coming, planted one new people in every country.
 positions:
 - Sheol's dominion is already broken - the hymns dramatize death's own defeat
 - judgment is real, just, and requiting - urgency and hope are sung together

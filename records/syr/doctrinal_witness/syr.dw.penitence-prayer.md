@@ -31,8 +31,7 @@ text: >-
   cannot forgive - our pastoral craft was the medicine of penitence.
   Our teachers talked like field surgeons. Everyone in this war gets wounded.
   The only fatal mistake is hiding the wound until it gets worse. Confess, to
-  one who can help. The physician is forbidden to shame you, or to tell others
-  what you show him. The fallen fighter, healed, goes back into the line. As
+  one who can help. The physician must not turn you away, or tell others what you show him. The fallen fighter, healed, goes back into the line. As
   for prayer that seems to go unanswered: we knew that silence at its
   harshest. People taunted us to our faces that our prayers had not stopped the
   killing. And we kept praying, answering that God's faithfulness is longer

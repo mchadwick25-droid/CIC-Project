@@ -35,9 +35,9 @@ modern_rendering: >-
   you is not my own. It comes from a Syrian, who knew little of this world's wisdom but
   much of the knowledge of the Truth. He said that the Syriac word was more expressive.
   Because it was closer to the Hebrew term, it came nearer to the meaning of Scripture.
-  Here is the meaning of the word: by 'was borne,' the Syrians understand that it
-  cherished the nature of the waters -- the way a bird covers her eggs with her body and
-  gives them life from her own warmth.
+  This is the meaning of the word. By 'was borne,' he says, the Syrians understand that
+  it cherished the nature of the waters. It is the way a bird covers her eggs with her
+  body and gives them life from her own warmth.
 speaker_or_author: Basil of Caesarea, in the Hexaemeron
 license: verbatim
 modern_lens_note: >-
@@ -45,8 +45,8 @@ modern_lens_note: >-
   paideia is the wisdom meant, and Basil, who had it in full, is saying the man without it read the
   verse better. A modern reader may hear a backhanded compliment. What his hearers would have heard
   is a bishop conceding a point of exegesis, in public, to someone outside the educational system
-  that qualified him to preach - and conceding it on the ground that Syriac reaches Hebrew more
-  directly than Greek can. "It cherished" renders a verb of brooding, as a bird over eggs.
+  that qualified him to preach. The ground he gives is narrow: the Syrian said this one Syriac word
+  sat closer to the Hebrew. "It cherished" renders a verb of brooding, as a bird over eggs.
 retrieval:
   tier: 2
   retrieve_when:

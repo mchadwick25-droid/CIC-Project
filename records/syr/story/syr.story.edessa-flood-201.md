@@ -52,8 +52,7 @@ absent_detail: 'No Christian voice speaks in the account: no bishop or believer 
   own scribes, and whether the church-destruction line is original or a later insertion is a real, named
   scholarly dispute - the telling keeps ''the chronicle records'' audible.'
 modern_contrast: 'A modern reader might take this chronicle entry as a straightforward
-  eyewitness civic record. This world''s own record is more careful: it is an archival
-  compilation from a century and a half later, and the detail that this world''s
+  eyewitness civic record. This world''s own record is more careful: it is an archival compilation made about 340 years later, and the detail that this world''s
   earliest church building was destroyed in the flood carries a real, unresolved
   scholarly dispute this record holds open rather than smoothing over.'
 use_note:

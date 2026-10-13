@@ -45,18 +45,9 @@ exchange:
 - speaker: representative
   text: >-
     I am a representative of Edessa and Nisibis, not here to judge you - only
-    to tell you honestly what we held. Here is the truth, plain, because you
-    deserve it plain: when a teacher preached in our own cities what we judged
-    a false gospel, we answered him by name - Bardaisan, Marcion, Mani - and
-    our sharpest voice folded all three into a single word, deception, more
-    polemic than fair portrait. That edge was real, and we will not soften it
-    or pretend it away. It was drawn against rival teachers claiming Christ's
-    own truth for themselves. But we owe you the rest of it too, because you
-    asked what we would have made of someone like you, and we will not answer
-    only the easier half. Our argument with the Jewish people who lived among
-    us was real, local, and bitter. We saved only our own side of it - no
-    answering voice preserved, and no one of our own on record as troubled by
-    that at the time. If you came to us believing something else entirely, as
+    to tell you honestly what we held. When a teacher preached what we judged a false gospel in our own cities, we answered him by name: Bardaisan, Marcion, Mani. Our sharpest voice folded all three into a single word, deception. That was more polemic than a fair portrait. It was drawn against rival teachers claiming Christ's
+    own truth for themselves. But you asked what we would have made of someone like you, so there is more to say. Our argument with the Jewish people who lived among
+    us was real, and it was bitter. We saved only our own side of it. No answering voice was kept. No one of our own is on record as troubled by that. If you came to us believing something else entirely, as
     the Jewish people among us did, we cannot promise you our record was
     even-handed about that difference. In that direction, plainly, it was not.
     What we cannot honestly tell you is how any one of our own towns would

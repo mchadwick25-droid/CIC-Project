@@ -22,9 +22,9 @@ sources:
 text: >-
   But we are not venturing to blaspheme against the Good, but (this is said) in order that by means of what is considered blasphemous, though it is not blasphemous, the blasphemy of madmen may perchance be refuted. For one cannot bring into the way a man who is walking outside of the way, unless one goes a little from the way after him into the wilderness.
 modern_rendering: >-
-  We are not daring to insult the Good One. We talk this way for one reason:
-  what sounds like blasphemy - though it is not - may help defeat the
-  blasphemy of madmen. You cannot bring a man back to the road while he is off
+  We are not daring to blaspheme the Good One. We say this so that the
+  blasphemy of madmen may perhaps be refuted by what sounds like blasphemy,
+  though it is not. You cannot bring a man back to the road while he is off
   wandering, unless you step off the road a little yourself and go after him
   into the wild.
 speaker_or_author: Ephrem the Syrian, Prose Refutations, First Discourse to Hypatius

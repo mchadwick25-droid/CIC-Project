@@ -46,9 +46,7 @@ relations:
   target: syr.term.madrasha
 - type: associated-with
   target: syr.term.ewangeliyon-da-mhallete
-plain_meaning: Symbol and truth, held as one pair. A raza is a thing in Scripture or in nature that shows
-  a hidden truth - the shrara. The raza is bound to the truth it shows. It even carries some of that truth's
-  hidden power. It is not a stand-in that a reader picks at will.
+plain_meaning: Symbol and truth, held as one pair. A raza is a thing in Scripture or in nature that shows a hidden truth, the shrara. The raza is bound to the truth it shows. It is not a stand-in that a reader picks at will.
 world_word: raza / shrara
 false_friend:
 - symbol (an arbitrary stand-in, chosen by convention)
@@ -65,8 +63,7 @@ senses:
     there, and the formed eye learns to see them - reading is closer to meeting than decoding.'
   translational: '''Is that just a metaphor?'' - this world would say no: a raza is not decoration; it
     participates in the truth it shows. The modern word ''symbol'' is the false friend here.'
-quick_meaning: A raza is a symbol that is bound to the truth it shows, and carries some of its power.
-  It is not a stand-in chosen at will.
+quick_meaning: A raza is a symbol that is bound to the truth it shows. It is not a stand-in chosen at will.
 distortion_risk: high
 use_note:
   means: "A raza is a symbol in Scripture or creation bound to the truth (shrara) it discloses, the pair at the center of Ephrem's method of reading."

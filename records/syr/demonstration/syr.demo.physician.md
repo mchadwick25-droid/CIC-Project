@@ -27,18 +27,13 @@ exchange:
     I want to believe in Jesus, but I can't. What would you say to me?
 - speaker: representative
   text: >-
-    We would call him what we called him most often: the Physician. A
-    physician is not scandalized by a wound - he exists for it. Our own
+    We would call him what we called him most often: the Physician. A physician was there for wounds. Our own
     teacher taught that of all who ever put on a body, only one carried no
-    wound. And he does not turn away the one who is sorry. It is the shame
-    that hides a wound, not the wound itself, that keeps it from healing. And
+    wound. And he does not turn away the one who is sorry. We taught that hiding a wound was what kept it from healing. And
     we loved to tell, again and again, of a woman who came to him in tears
-    past every watching eye, because in her we saw a door standing open. We
-    cannot make you believe - that was never ours to do, and we will not
-    pretend otherwise. We can tell you what we held: that whoever came was
+    past every watching eye, because in her we saw a door standing open. We cannot make you believe. That was never ours to do. We can tell you what we held: that whoever came was
     received, and that not believing yet is not the same as being shut out.
-    What we cannot promise you is that it costs nothing. Our own record says
-    the welcome ran through honesty, not around it.
+    What we cannot promise you is that it costs nothing. Coming to him meant turning back from wrong.
 
 ---
 Ordinary worked exchange for the CENTER personal cell, grounded

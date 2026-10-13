@@ -27,7 +27,7 @@ relations:
 names:
 - name: the Persian sage
   tag: in-world
-- name: Aphrahat (fl. 337-345; 'Mar Jacob, the Persian sage' in the 510 colophon; the name Aphrahat first
+- name: Aphrahat (fl. 337-345; 'Mar Jacob, the Persian sage' in a manuscript dated 512; the name Aphrahat first
     attested tenth century)
   tag: scholarly
 dates:

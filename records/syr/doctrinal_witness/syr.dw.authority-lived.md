@@ -36,9 +36,7 @@ text: >-
   quarrel over precedence. The sage wrote of pastors gently and sternly: the
   good shepherd gives himself for the flock. But office was not the only path
   a community's trust ran along. The covenant's vowed men and women carried a
-  standing of their own. And a teacher whose word held - like the sage
-  himself, whose rank no one now knows - could write to bishops in a synod's
-  name. Anyone came to have authority by being made a bishop, by taking the
+  standing of their own. And a teacher whose word held could write to bishops in a synod's name. The sage himself did, and no one now knows his rank. Anyone came to have authority by being made a bishop, by taking the
   vow, or by being found trustworthy over time. Which of these finally
   outranked the others, we never settled in our own years.
 positions:

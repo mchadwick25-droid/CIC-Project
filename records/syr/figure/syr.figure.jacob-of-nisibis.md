@@ -43,6 +43,6 @@ hagiographically shaped a century later, and the telling must keep
 'as the church remembered it' audible. The Nisibene Hymns' first
 cycle is the in-world memory of Nisibis's bishops (Jacob, Babu,
 Valgash). His death year stays open in the dates field itself. The
-later 'Jacob = Aphrahat' manuscript confusion (the 510 colophon's
+later 'Jacob = Aphrahat' manuscript confusion (the 512 manuscript's
 'Mar Jacob') is a transmission accident, never an identification -
 see syr.figure.aphrahat.

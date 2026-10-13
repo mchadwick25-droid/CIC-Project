@@ -34,9 +34,7 @@ text: >-
   toward the church. A whole chapter's worth of meaning was found in a single
   pearl. Asked whether the Bible was the only authority, we would have found
   the question strange. Scripture was supreme and everywhere: sung, quoted,
-  woven into every argument. But it always arrived carried - by the church's
-  worship, by the harmony that gave the Gospel its shape, by teachers, and by
-  the covenant's practice. The book and the community that sang it were never
+  woven into every argument. But it always reached us through others: the church's worship, the harmony that gave the Gospel its shape, our teachers, and the covenant's practice. The book and the community that sang it were never
   rivals. The question assumes a separation we had not made.
 positions:
 - Scripture is read typologically - by symbol toward truth, not as a natural-science report

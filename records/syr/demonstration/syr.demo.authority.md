@@ -41,8 +41,7 @@ exchange:
     Our own sage wrote of pastors both gently and sternly: the good shepherd
     gives himself for the flock. But office was never the only path our trust
     ran along. The covenant's vowed men and women carried a standing of their
-    own. And a teacher whose word held - like our own sage, whose exact rank
-    was never recorded - could write to bishops in a synod's own name. How did
+    own. And a teacher whose word held could write to bishops in a synod's own name. Our own sage did, and no one now knows his exact rank. How did
     anyone come to have authority among us? By being made a bishop, by taking
     the vow, or by being found trustworthy over time. Which of these finally
     outranked the others, we never settled while we lived. We are not going to

@@ -31,18 +31,12 @@ retrieval:
   retrieve_when: []
 text: >-
   At Nisibis, archaeologists have already found something where we worshipped.
-  A baptistery still stands there, securely dated by its own inscription to
-  the very years of the bishop and the siege. It is the only stone of ours
-  that survives from our own years. At Edessa, almost nothing: the modern city
+  A baptistery still stands there. Its own inscription dates it securely to the years of our bishop and the siege. It is the only building of ours from those years that can be dated securely. At Edessa, almost nothing: the modern city
   sits directly on the ancient one, and the church the flood destroyed lives
-  only in a chronicler's line. Historians know about us from letters that date
-  themselves to the year. They know from hymns copied by later hands into
-  books that still exist. They know from a short city chronicle drawn out of
-  real archives. And they know by carefully sorting legend from record. What
-  survives is narrow - and it is real.
+  only in a chronicler's line. What is known of us comes from a few things. Our letters date themselves to the year. Our hymns were copied by later hands into books that still exist. A short city chronicle was drawn out of real archives. And legend has to be sorted carefully from record.
 positions:
 - the Nisibis baptistery is the world's one securely dated standing structure
-- Edessa's in-window remains are effectively inaccessible beneath the living city
+- Edessa's remains from our years lie out of reach beneath the living city
 - the documentary channel is self-dating letters, later manuscript copies, and an archival chronicle
 tensions:
 - the wider Nisibis cathedral plan is a scholar's reconstruction from partial remains, not a confirmed
