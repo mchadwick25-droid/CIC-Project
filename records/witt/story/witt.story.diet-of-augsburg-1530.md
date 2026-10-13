@@ -16,8 +16,9 @@ confidence:
     read and verified directly, not reconstructed from a later account.'
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: The Preface, addressed to "Most Invincible Emperor, Caesar Augustus, Most Clement Lord," and
-    the nine signatures closing the document (electors, princes, and free cities), read and verified verbatim
+  locus: >-
+    The Preface, addressed to "Most Invincible Emperor, Caesar Augustus, Most Clement Lord," and the nine
+    signatures closing the document (an elector, princes, and the senates of Nuremberg and Reutlingen)
   license: public-domain
 retrieval:
   tier: 1
@@ -44,28 +45,24 @@ narrative_tier_justification: 'Tier 1, Documented Historical Narrative, at this 
   confidence" - is met at an institutional rather than personal level: the document names its own drafter''s
   hand, its own addressee, and its own signatories, and carries the movement''s own confidence at Documented
   throughout (Doc_09 witt-S09).'
-tellable_as: Before the Emperor himself, gathered at Augsburg to deliberate on war against the Turk, a
-  confession of faith drafted by Melanchthon is read out and signed - not by one preacher alone, but by
-  electors, princes, and the councils of free cities, naming themselves together as "your Imperial Majesty's
-  faithful subjects."
-text: 'In 1530, the Emperor summoned a Diet of the Empire to Augsburg - called, by the confession''s own
-  preface, to deliberate "concerning measures against the Turk, that most atrocious, hereditary, and ancient
-  enemy of the Christian name and religion," and, alongside that, to hear out the religious divisions
-  splitting the German lands. Before that assembly, a confession of the movement''s own teaching was read
-  and presented: drafted by Melanchthon, addressed directly to "Most Invincible Emperor, Caesar Augustus,
-  Most Clement Lord."
+tellable_as: >-
+  In 1530 at Augsburg, a statement of faith written by Melanchthon goes to the Emperor. An elector, princes
+  and two city councils sign it. They call themselves his "faithful subjects."
+text: >-
+  In 1530 the Emperor called a Diet to Augsburg. The preface says the Diet was called to deal with "measures
+  against the Turk," the ancient enemy of the Christian name. It was also to hear the quarrels over religion
+  in the German lands. Melanchthon wrote the movement's confession for that Diet. It opens with a greeting:
+  "Most Invincible Emperor, Caesar Augustus, Most Clement Lord."
 
-  What makes this document unlike every other story in this library is who stands behind it. It is not
-  signed by Luther, and it does not speak in one man''s voice. It closes with a list of names: John, Duke
-  of Saxony and Elector; George, Margrave of Brandenburg; Ernest, Duke of Lueneburg; Philip, Landgrave
-  of Hesse; John Frederick, Duke of Saxony; Francis, Duke of Lueneburg; Wolfgang, Prince of Anhalt; and
-  the Senate and Magistracy of Nuremberg and of Reutlingen among the free cities - princes and city councils
-  together, naming themselves before the Emperor as "your Imperial Majesty''s faithful subjects."
+  This document stands apart from the other stories here, because of who stands behind it. Luther did
+  not sign it, and it does not speak in one man's voice. It closes with a list of names: John, Duke of
+  Saxony and Elector; George, Margrave of Brandenburg; Ernest, Duke of Lueneburg; Philip, Landgrave of
+  Hesse; John Frederick, Duke of Saxony; Francis, Duke of Lueneburg; Wolfgang, Prince of Anhalt; the Senate
+  and Magistracy of Nuremberg; and the Senate of Reutlingen. Princes and city councils stand together.
+  They call themselves "Your Imperial Majesty's faithful subjects."
 
-  This is the movement''s own act of confessional self-definition, made not as a protest but as a formal,
-  corporate act of loyal address - the same posture, at institutional scale, that Luther''s own letter
-  to Albrecht had opened in 1517: correction offered upward, through the proper channel, rather than a
-  break announced from outside it.'
+  The signers offer it to the Emperor as a summary of their teaching. They add that they are ready, God
+  willing, to say more from the Scriptures.
 absent_detail: This library holds the Confession's preface and signatures directly, but not an eyewitness
   account of its reading before the Diet itself - no description of the room, the Emperor's own reaction,
   or the proceedings that followed its presentation. Luther is not among the signatories in this library's

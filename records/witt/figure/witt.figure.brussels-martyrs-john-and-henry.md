@@ -35,17 +35,15 @@ retrieval:
 names:
 - name: John and Henry, the two young monks burnt at Brussels
   tag: in-world
-- name: Hendrik Vos and Johann van Esschen (identification made outside this library's own vendored text;
-    not this text's own naming)
-  tag: scholarly
 dates:
   display: Burned at Brussels 1 July 1523 - the year Hymn V's own printed heading gives as "MDXXII," corrected
     by Bacon's own bracketed editorial note to "[July 1, 1523]," the date this record follows. No vendored
     source gives either man's birth date or age.
 narratable: true
-bridge_line: Two young monks, John and Henry, burned at Brussels in 1523 for refusing to recant - the
-  only two people in this whole library's record whom the movement's own teaching is shown to have cost
-  their lives, and the subject of Luther's only martyr-ballad.
+bridge_line: >-
+  Two young monks, John and Henry, were burned at Brussels in 1523 for refusing to recant. Our record
+  shows no other people whose lives the movement's teaching cost. Luther wrote his only martyr-ballad
+  for them.
 relations:
 - type: associated-with
   target: witt.story.brussels-martyrs

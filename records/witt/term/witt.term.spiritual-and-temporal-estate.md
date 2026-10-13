@@ -17,28 +17,29 @@ confidence:
     exact pairing.
 sources:
 - source_id: witt.source.luther-treatise-concerning-the-ban
-  locus: Concerning the Ban, cited among this entry's Registry rows (Doc_06 SS5 entry 6.1)
+  locus: Concerning the Ban
   license: public-domain
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
-  locus: Christian Nobility -- 'it is pure invention that pope, bishops, priests and monks are to be called
+  locus: >-
+    Christian Nobility -- 'it is pure invention that pope, bishops, priests and monks are to be called
     the spiritual estate'
   license: public-domain
 - source_id: witt.source.luther-brief-explanation-of-the-ten-commandments
-  locus: the Kurze Form, cited among this entry's Registry rows (Doc_06 SS5 entry 6.1)
+  locus: the Kurze Form
   license: public-domain
 - source_id: witt.source.luther-earnest-exhortation-for-all-christians-warning
-  locus: Earnest Exhortation, cited among this entry's Registry rows (Doc_06 SS5 entry 6.1)
+  locus: Earnest Exhortation
   license: public-domain
 - source_id: witt.source.luther-to-the-knights-of-the-teutonic
-  locus: To the Knights of the Teutonic Order, cited among this entry's Registry rows (Doc_06 SS5 entry
-    6.1)
+  locus: To the Knights of the Teutonic Order
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: the Large Catechism -- marriage as 'the most common and noblest estate'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'states of perfection, i.e., holier and higher states than the
-    rest, such as marriage, rulership'
+  locus: >-
+    the Apology -- 'states of perfection, i.e., holier and higher states than the rest, such as marriage,
+    rulership'
   license: public-domain
 retrieval:
   tier: 2
@@ -62,9 +63,9 @@ relations:
   target: witt.term.the-two-governments
 - type: associated-with
   target: witt.term.household
-plain_meaning: We once divided Christians into a spiritual estate, clergy, and a temporal one, everyone
-  else. We call this a pure invention. Instead, we say every station -- marriage, parenthood, ruling --
-  is equally holy.
+plain_meaning: >-
+  We once split Christians into two groups. The clergy were the spiritual estate. Everyone else was the
+  temporal one. We call this a pure invention. Marriage, parenthood, and ruling are all equally holy.
 world_word: spiritual and temporal estate -- 'pure invention' refused, the word kept for marriage and
   rule
 false_friend:
@@ -84,7 +85,7 @@ senses:
   translational: 'Do not hear ''estate'' as property, or ''spiritual'' as inward piety: we mean a station
     -- and the refusal that clergy are a higher one, with marriage, parenthood, rule and trade named as
     holy stations of equal standing.'
-quick_meaning: A division we call pure invention. Every station of life is equally holy.
+quick_meaning: A split we call pure invention. Every station in life is holy.
 distortion_risk: high
 use_note:
   means: "The spiritual and temporal estate meant the old division of Christians into clergy and everyone else, called a pure invention, every station being equally holy."

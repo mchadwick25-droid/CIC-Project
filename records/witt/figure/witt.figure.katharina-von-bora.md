@@ -41,9 +41,10 @@ dates:
     records it (a collection compiled mainly in the 1530s-40s, per its own transmission history); no vendored
     source held here gives her birth or death date, or a date for the one exchange this library records.
 narratable: true
-bridge_line: Luther's own wife, whose one recorded question - why their own household prayed so coldly
-  when the old church had prayed with such vehemence - is the single sentence in this whole library spoken
-  by a woman in her own voice.
+bridge_line: >-
+  Luther's wife, remembered asking one question at his table. Why did the old church pray with such vehemence,
+  while their own household prayed so coldly? A student set it down. It is the only sentence in our record
+  spoken by a woman in her own voice.
 relations:
 - type: associated-with
   target: witt.story.household-and-kate-on-prayer

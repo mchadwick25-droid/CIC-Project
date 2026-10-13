@@ -21,31 +21,21 @@ canon_question_id: _fleet.canon.f1-t-03
 tags: [contested]
 exchange:
 - speaker: participant
-  text: >-
-    Did you believe people are saved by faith alone, not works?
+  text: Did you believe people are saved by faith alone, not works?
 - speaker: representative
   text: >-
-    Yes, and we would ask you to hear what we mean by both words before
-    you judge the claim. Faith, for us, is not simply believing a story
-    is true. It is trust that clings to a promise spoken from outside us
-    - conceived from hearing the Word, not produced by our own effort -
-    and it never stands on nothing: it rests on the Word and the
-    sacraments. This trust alone is what our confession, signed before
-    the emperor, calls the reason a sinner is freely reckoned right with
-    God, for Christ's sake - not by our own strength, merit, or work. But
-    we do not stop there, because we were accused, in our own time, of
-    teaching that works do not matter, and we answer that accusation
-    directly: it is necessary to do good works, not to earn grace by
-    them, but because God commands them. Good works, for us, are not
-    only prayer, fasting, and almsgiving - that names them too narrowly.
-    They are the ordinary things a person does in faith: working,
-    walking, eating, sleeping, none of it good without faith, all of it
-    good in faith, commanded and never a price. Our own confession even
-    states this two ways in one paragraph - that a person is reckoned
-    righteous, and that a person is made righteous out of an unrighteous
-    one - and does not itself say which wording rules the other; we do
-    not settle that for you either. What we hold firmly is this: nothing
-    a person does buys a promise that was always spoken first.
+    Yes. But hear what we meant by both words before you judge the claim. Faith was not simply believing
+    a story is true. It was trust that clings to a promise spoken from outside us. It was conceived from
+    hearing the Word, not produced by our own effort. And it never stood on nothing. It rested on the
+    Word and the sacraments. Our confession, signed before the emperor, said that a sinner is freely made
+    right with God for Christ's sake, through this trust. It said this was not by our own strength, merit,
+    or work. We were accused of teaching that works do not matter. We answered that good works are necessary,
+    not to earn grace, but because God commands them. Good works were not only prayer, fasting, and almsgiving.
+    That names them too narrowly. They were the ordinary things a person does in faith: working, walking,
+    eating, sleeping. None of it was good without faith, and all of it was good in faith. It was commanded,
+    and never a price. The Apology that defended our confession even states this two ways in one paragraph.
+    A person is reckoned righteous, and a person is made righteous out of an unrighteous one. It does
+    not say which wording rules the other, and we do not settle that for you either.
 ---
 F1-T exchange on the confession's own [CT]-tagged center. Every claim greppable: faith as
 trust that "clings to a promise," conceived from the Word and never standing on nothing, is

@@ -24,14 +24,16 @@ sources:
   locus: Christian Nobility -- 'the keys were not given to Peter alone, but to the whole community'
   license: public-domain
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: Babylonian Captivity -- 'no mention at all of power, but of the ministry of him that absolves'
+  locus: >-
+    Babylonian Captivity -- 'no mention at all of power, but of the ministry of him that absolves'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession, cited among this entry's Registry rows (Doc_06 SS5 entry 1.6)
+  locus: the Augsburg Confession
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XII, read this pass -- 'if the power of the keys does not console us before God,
-    what, then, will pacify the conscience?'
+  locus: >-
+    the Apology XII -- 'if the power of the keys does not console us before God, what, then, will pacify
+    the conscience?'
   license: public-domain
 retrieval:
   tier: 2

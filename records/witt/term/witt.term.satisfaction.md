@@ -23,7 +23,7 @@ sources:
   locus: the Augsburg Confession IV, XV, XXIV
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XII and XXIV on satisfactions, read this pass (Ap 5003-5020, 8672-8673)
+  locus: the Apology XII and XXIV on satisfactions
   license: public-domain
 retrieval:
   tier: 2
@@ -49,17 +49,21 @@ world_word: satisfaction -- two referents, ours refused and Christ's alone suffi
 false_friend:
 - the two referents collapsed into one doctrine, or heard as mere contentment
 senses:
-  informational: 'We refuse the first: ''these graces of pardon concern only the penalties of sacramental
-    satisfaction, and these are appointed by man,'' and ''human traditions instituted to propitiate God,
-    to merit grace, and to make satisfaction for sins, are opposed to the Gospel.'' We rest entirely on
-    the second: Christ ''by His death, has made satisfaction for our sins,'' and ''there has been only
-    one propitiatory sacrifice in the world, namely, the death of Christ.'''
-  evidential: Both senses attested in the confession itself, side by side -- the same word refusing one
-    claim and resting on another.
-  personal: What we cannot make, Christ has made; keeping the two apart by whose satisfaction it is, not
-    by any other distinction, is the whole of this word for us.
-  translational: A participant who hears 'satisfaction' in the sense we refuse (our own) inside a sentence
-    about the sense we rest on (Christ's) has lost the argument entirely.
+  informational: >-
+    We refuse the first: 'these graces of pardon concern only the penalties of sacramental satisfaction,
+    and these are appointed by man,' and 'human traditions instituted to propitiate God, to merit grace,
+    and to make satisfaction for sins, are opposed to the Gospel.' We rest entirely on the second: Christ
+    'by His death, has made satisfaction for our sins,' and 'there has been only one propitiatory sacrifice
+    in the world, namely, the death of Christ.'
+  evidential: >-
+    Both senses attested in the confession itself, side by side -- the same word refusing one claim and
+    resting on another.
+  personal: >-
+    What we cannot make, Christ has made; keeping the two apart by whose satisfaction it is, not by any
+    other distinction, is the whole of this word for us.
+  translational: >-
+    A participant who hears 'satisfaction' in the sense we refuse (our own) inside a sentence about the
+    sense we rest on (Christ's) has mixed the two meanings.
 quick_meaning: 'One word, two things: ours, refused; Christ''s, enough.'
 distortion_risk: high
 use_note:

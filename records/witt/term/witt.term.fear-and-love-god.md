@@ -16,13 +16,13 @@ confidence:
     its content belonging to the First Commandment and to faith.
 sources:
 - source_id: witt.source.luther-large-catechism
-  locus: per Doc_06 §5 entry 4.5's own Key Sources line
+  locus: the Large Catechism
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism -- 'We must fear and love God, so that...' opens every commandment
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: per Doc_06 §5 entry 4.5's own Key Sources line
+  locus: the Augsburg Confession
   license: public-domain
 retrieval:
   tier: 3
@@ -37,21 +37,24 @@ relations:
   target: witt.term.to-have-a-god-is-to-trust
 - type: associated-with
   target: witt.term.perfection
-plain_meaning: 'Every commandment in our catechism opens with the same words: we must fear and love God.
-  This ties each commandment back to trust, the First Commandment''s own lesson.'
+plain_meaning: >-
+  The explanation of each commandment after the first opens with the same words: we must fear and love
+  God. The First Commandment adds trust.
 world_word: '''fear and love God'' -- the formula opening every commandment''s explanation'
 false_friend:
 - hearing this as a pious phrase rather than the First Commandment restated ten times
 senses:
-  informational: '''We must fear and love God, so that...'' opens the explanation of every commandment
-    in our Small Catechism; our confession''s own ''Christian perfection is to fear God from the heart,
-    and yet to conceive great faith'' belongs to this same formula.'
+  informational: >-
+    'We must fear and love God, so that...' opens the explanation of every commandment in our Small Catechism;
+    our confession's own 'Christian perfection is to fear God from the heart, and yet to conceive great
+    faith' belongs to this same formula.
   evidential: Attested throughout the Small Catechism's own repeated structure.
-  personal: Ten times over, this formula reminds us that every commandment is finally a question of what
-    the heart trusts.
-  translational: Do not hear this as pious filler; we mean the First Commandment restated at every single
-    commandment.
-quick_meaning: 'The formula opening every commandment: fear and love God. It always returns to trust.'
+  personal: >-
+    Again and again, this formula reminded us that every commandment is finally a question of what the
+    heart trusts.
+  translational: >-
+    Do not hear this as pious filler; we mean the First Commandment restated at every single commandment.
+quick_meaning: 'The words that open each explanation: fear and love God. They lead back to trust.'
 distortion_risk: low
 use_note:
   means: "Fear and love God meant the formula opening each commandment's explanation, which restates the First Commandment's trust ten times over."

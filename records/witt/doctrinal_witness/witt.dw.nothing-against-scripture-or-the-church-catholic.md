@@ -20,13 +20,21 @@ confidence:
     kind of claim, named as such.
 sources:
 - source_id: witt.quote.nothing-that-varies
-  locus: "the whole quote: 'nothing has been received on our part against Scripture or the Church Catholic. For it is manifest that we have taken most diligent care that no new and ungodly doctrine should creep into our churches'"
+  locus: >-
+    the whole quote: 'nothing has been received on our part against Scripture or the Church Catholic.
+    For it is manifest that we have taken most diligent care that no new and ungodly doctrine should creep
+    into our churches'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: "Article XXIII, Of the Marriage of Priests (cic:melanchthon_augsburg-confession_anon-pg275.txt lines 730-733): 'it is also evident that in the ancient Church priests were married men... in Germany, four hundred years ago for the first time, the priests were violently compelled to lead a single life' -- paraphrased here, not quoted verbatim"
+  locus: >-
+    Article XXIII, Of the Marriage of Priests: 'it is also evident that in the ancient Church priests
+    were married men... in Germany, four hundred years ago for the first time, the priests were violently
+    compelled to lead a single life' -- paraphrased here, not quoted verbatim
   license: public-domain
 - source_id: witt.term.marriage
-  locus: "'our priests were desirous to avoid these open scandals, they married wives'; 'it is to be expected that the churches shall at some time lack pastors if marriage is any longer forbidden'"
+  locus: >-
+    'our priests were desirous to avoid these open scandals, they married wives'; 'it is to be expected
+    that the churches shall at some time lack pastors if marriage is any longer forbidden'
   license: public-domain
 retrieval:
   tier: 2
@@ -35,22 +43,18 @@ retrieval:
   prefer_instead:
   - "participant wants an argument built on unbroken ordination back to the apostles -- our own claim is doctrinal continuity with Scripture and the ancient Church, not a chain of ordination"
 text: >-
-  We hold that our practices are not later inventions, but we do not argue it the way you might expect. We do not trace an unbroken chain of ordination, hand laid
-  on hand, back to the apostles themselves. Our own claim is different and
-  narrower. In what we teach and how we worship, nothing has been received
-  on our part against Scripture or against the ancient, universal Church.
-  We say plainly that we took the greatest care to keep new and godless
-  teaching OUT, not to bring anything new in.
+  We held that our practices were not later inventions, but we did not argue it the way you might expect.
+  We did not trace an unbroken chain of ordination, hand laid on hand, back to the apostles themselves.
+  Our own claim is different and narrower. In what we teach and how we worship, nothing has been received
+  on our part against Scripture or against the ancient, universal Church. We say plainly that we took
+  the greatest care to keep new and ungodly teaching out of our churches.
 
-  We can show you one example in real detail. Our priests married, and we
-  were accused of inventing something new. Our own answer was historical.
-  It is evident that in the ancient Church, priests were married men. Paul
-  himself says a bishop should be the husband of one wife. What was
-  actually new, we argued, was the opposite. In Germany, only four hundred
-  years before our own founder's day, priests were for the first time
-  violently compelled into a single life they had not chosen. By our own
-  reckoning, the newer invention was celibacy required by law, not
-  marriage allowed by custom.
+  We can show you one example in real detail. Our priests married, and we were accused of inventing something
+  new. Our own answer was historical. It is evident that in the ancient Church, priests were married men.
+  Paul himself says a bishop should be the husband of one wife. What was actually new, we argued, was
+  the opposite. In Germany, only four hundred years before our own founder's day, priests were for the
+  first time violently compelled into a single life they had not chosen. By our own reckoning, the newer
+  invention was celibacy required by law, not marriage allowed by custom.
 positions:
 - "our own claim to continuity is doctrinal agreement with Scripture and the ancient, universal Church -- not an unbroken chain of ordination traced back to the apostles"
 - "we state plainly that we took the greatest care to admit no new and godless teaching, rather than claiming credit for inventing anything"

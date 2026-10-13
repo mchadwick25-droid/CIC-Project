@@ -17,28 +17,30 @@ confidence:
     own, given in the text itself, not an editor's layer.
 sources:
 - source_id: witt.source.luther-papacy-at-rome-an-answer
-  locus: Papacy at Rome footnotes, cited among this entry's Registry rows (Doc_06 SS5 entry 5.8)
+  locus: Papacy at Rome footnotes
   license: public-domain
 - source_id: witt.source.luther-treatise-concerning-the-blessed-sacrament
-  locus: Concerning the Blessed Sacrament -- 'the fellowship of all saints, whence it derives its common
-    name synaxis or communio'
+  locus: >-
+    Concerning the Blessed Sacrament -- 'the fellowship of all saints, whence it derives its common name
+    synaxis or communio'
   license: public-domain
 - source_id: witt.source.luther-treatise-concerning-the-ban
   locus: Concerning the Ban -- excommunication as exclusion from this fellowship
   license: public-domain
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: Babylonian Captivity, cited among this entry's Registry rows (Doc_06 SS5 entry 5.8)
+  locus: Babylonian Captivity
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, Creed Third Article -- 'eine christliche Gemeinde oder Sammlung... holy
-    Christendom'
+  locus: >-
+    the Large Catechism, Creed Third Article -- 'eine christliche Gemeinde oder Sammlung... holy Christendom'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession VII -- 'the congregation of saints, in which the Gospel is rightly taught
+  locus: >-
+    the Augsburg Confession VII -- 'the congregation of saints, in which the Gospel is rightly taught
     and the Sacraments are rightly administered'
   license: public-domain
 - source_id: witt.source.philadelphia-vols-i-iii
-  locus: the translators' own glossing footnotes on Gemeinde and Kirche (layer)
+  locus: the translators' own glossing footnotes on Gemeinde and Kirche
   license: public-domain
 retrieval:
   tier: 1

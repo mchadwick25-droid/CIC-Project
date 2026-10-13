@@ -16,15 +16,17 @@ confidence:
     ordinances.
 sources:
 - source_id: witt.source.luther-treatise-concerning-the-ban
-  locus: Concerning the Ban, cited among this entry's Registry rows (Doc_06 SS5 entry 7.2)
+  locus: Concerning the Ban
   license: public-domain
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
-  locus: Christian Nobility -- the temporal power bears 'sword and rod with which to punish the evil and
-    to protect the good'
+  locus: >-
+    Christian Nobility -- the temporal power bears 'sword and rod with which to punish the evil and to
+    protect the good'
   license: public-domain
 - source_id: witt.source.luther-secular-authority-to-what-extent-it
-  locus: Secular Authority -- 'so Paul interprets the secular sword, Romans xiii... not a terror to good
-    works, but to the evil'
+  locus: >-
+    Secular Authority -- 'so Paul interprets the secular sword, Romans xiii... not a terror to good works,
+    but to the evil'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: the Augsburg Confession -- 'lawful civil ordinances are good works of God'

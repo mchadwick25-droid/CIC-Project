@@ -16,20 +16,21 @@ confidence:
     this pass); the 1522 measure-of-liberty sense is the founder's own.
 sources:
 - source_id: witt.source.luther-brief-explanation-of-the-ten-commandments
-  locus: the Kurze Form, cited among this entry's Registry rows (Doc_06 SS5 entry 4.6)
+  locus: the Kurze Form
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
   locus: the Eight Wittenberg Sermons -- 'we must not look upon ourselves... but upon our neighbor'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 4.6)
+  locus: the Large Catechism
   license: public-domain
 - source_id: witt.source.luther-small-catechism
-  locus: the Small Catechism -- the second table's guard over 'money or property,' 'reputation,' 'wife,
-    servant, maid, animals'
+  locus: >-
+    the Small Catechism -- the second table's guard over 'money or property,' 'reputation,' 'wife, servant,
+    maid, animals'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'love towards one's neighbor'
+  locus: the Apology -- 'love towards one's neighbor'
   license: public-domain
 retrieval:
   tier: 2
@@ -67,7 +68,7 @@ senses:
     not destroy.
   translational: Do not hear 'neighbor' as the person next door in general; we mean the specific other
     the second table names and whom our liberty must not harm.
-quick_meaning: The specific person the Commandments protect. Our freedom must never harm them.
+quick_meaning: The person the Commandments guard. Our freedom must never harm that person.
 distortion_risk: high
 use_note:
   means: "The neighbor meant the specific person the Commandments' second table protects in body, property and good name, and the measure of Christian liberty."

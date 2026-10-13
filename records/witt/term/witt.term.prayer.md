@@ -16,28 +16,31 @@ confidence:
     very practice (the household's own question about its own coldness in prayer).
 sources:
 - source_id: witt.source.luther-brief-explanation-of-the-ten-commandments
-  locus: the Kurze Form's own Lord's Prayer, unread by this build
+  locus: the Kurze Form's own Lord's Prayer
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons, cited among this entry's Registry rows (Doc_06 SS5 entry 9.5)
+  locus: the Eight Wittenberg Sermons
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, Third Part entire -- 'prayer is therefore as strictly and earnestly commanded
+  locus: >-
+    the Large Catechism, Third Part entire -- 'prayer is therefore as strictly and earnestly commanded
     as all other commandments'
   license: public-domain
 - source_id: witt.source.luther-small-catechism
-  locus: the Small Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 9.5)
+  locus: the Small Catechism
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: the Table Talk -- 'Sir! how is it, that in Popedom they pray so often with great vehemence, but
-    we are very cold and careless in praying?' (Contested as verbatim)
+  locus: >-
+    the Table Talk -- 'Sir! how is it, that in Popedom they pray so often with great vehemence, but we
+    are very cold and careless in praying?' (Contested as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'he that knows that he has a Father gracious to him through Christ...
-    calls upon God'
+  locus: >-
+    the Augsburg Confession -- 'he that knows that he has a Father gracious to him through Christ... calls
+    upon God'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- prayer 'most truly can be called a sacrament'
+  locus: the Apology -- prayer 'most truly can be called a sacrament'
   license: public-domain
 retrieval:
   tier: 2
@@ -67,26 +70,31 @@ relations:
   target: witt.term.the-turk
 - type: associated-with
   target: witt.term.patience
-plain_meaning: Prayer is commanded, just like any other commandment. God even gives us its very words
-  in the Lord's Prayer. We confess, honestly, that we often pray too coldly.
+plain_meaning: >-
+  Prayer is commanded, just like any other commandment. God even gives us its very words in the Lord's
+  Prayer. We admitted that we often prayed too coldly.
 world_word: prayer -- commanded as strictly as any commandment, promised an answer, given a form
 false_friend:
 - prayer heard as spontaneous, private, optional devotion, with set forms as lesser
 senses:
-  informational: '''Prayer is therefore as strictly and earnestly commanded as all other commandments'';
-    it has a promise -- ''at Thy commandment and promise, which cannot fail or deceive me'' -- and a given
-    form, since ''God anticipates us, and Himself arranges the words and form of prayer for us.'' It is
-    our community''s own defense: ''the prayer of a few godly men intervened like a wall of iron on our
-    side.'' Its old form was doubt: ''we always prayed in Popedom conditionaliter.'' And the one sentence
-    we have from the household''s other side is about it: ''Sir! how is it, that in Popedom they pray
-    so often with great vehemence, but we are very cold and careless in praying?'''
-  evidential: Attested at both voices, and by the one non-founder voice in our whole library, who asks
-    a question about this very practice.
-  personal: Prayer is our community's own defense and the household's frame -- and, by our own report,
-    the one practice we ourselves confess we hold coldly.
-  translational: 'Do not hear prayer as spontaneous, optional devotion with set forms as lesser: we mean
-    a commanded duty with a promised answer and a given form -- and a practice whose own coldness we report
-    about ourselves.'
+  informational: >-
+    'Prayer is therefore as strictly and earnestly commanded as all other commandments'; it has a promise
+    -- 'at Thy commandment and promise, which cannot fail or deceive me' -- and a given form, since 'God
+    anticipates us, and Himself arranges the words and form of prayer for us.' It is our community's own
+    defense: 'the prayer of a few godly men intervened like a wall of iron on our side.' Its old form
+    was doubt: 'we always prayed in Popedom conditionaliter.' And the one sentence we have from the household's
+    other side is about it: 'Sir! how is it, that in Popedom they pray so often with great vehemence,
+    but we are very cold and careless in praying?'
+  evidential: >-
+    Attested at both voices, and by the one non-founder voice in our whole library, who asks a question
+    about this very practice.
+  personal: >-
+    Prayer is our community's own defense and the household's frame -- and, by our own report, a practice
+    we ourselves confess we hold too coldly.
+  translational: >-
+    Do not hear prayer as spontaneous, optional devotion with set forms as lesser: we mean a commanded
+    duty with a promised answer and a given form -- and a practice whose own coldness we report about
+    ourselves.
 quick_meaning: Commanded, not optional. God even gives us its own words.
 distortion_risk: medium
 use_note:

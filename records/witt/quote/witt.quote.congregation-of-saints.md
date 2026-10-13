@@ -19,7 +19,7 @@ confidence:
     already verifies.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: "Article VII: Of the Church (cic:melanchthon_augsburg-confession_anon-pg275.txt lines 275-286): the Church's own definition and the unity clause"
+  locus: 'Article VII: Of the Church: the Church''s own definition and the unity clause'
   license: public-domain
 retrieval:
   tier: 1
@@ -50,15 +50,12 @@ modern_lens_note: >-
   is not indifference to what is taught. It is a claim about which differences actually divide a church
   from the true unity, and which do not.
 modern_rendering: >-
-  We also teach that one holy Church will go on forever. The Church is the
-  community of saints, in which the good news is taught rightly and the
-  sacraments are given rightly.
+  They also teach that one holy Church will go on forever. The Church is the community of saints, in which
+  the Gospel is rightly taught and the sacraments are rightly given.
 
-  For the true unity of the Church, it is enough to agree on the teaching of
-  the good news and on how the sacraments are given. Nor is it necessary for
-  human traditions -- that is, rites or ceremonies set up by people -- to be
-  alike everywhere. As Paul says, there is one faith, one baptism, one God and
-  Father of all, and so on.
+  For the true unity of the Church, it is enough to agree on the Gospel's teaching and on how the sacraments
+  are given. Nor do human traditions -- that is, rites or ceremonies set up by people -- need to be alike
+  everywhere. As Paul says: one faith, one baptism, one God and Father of all, and so on.
 relations:
 - type: associated-with
   target: witt.dw.one-holy-church-forever

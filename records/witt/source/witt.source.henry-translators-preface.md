@@ -17,6 +17,7 @@ relations: []
 author: Henry Cole
 work: Translator's Preface
 edition: (London, March 1823) and closing Advertisement, in R34; vendored as cic/texts/luther_bondage-of-the-will_cole1823.txt
+citation: Henry Cole, Translator's Preface (London, March 1823) and closing Advertisement
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

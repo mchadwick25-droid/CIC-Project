@@ -19,10 +19,10 @@ sources:
   locus: the Ninety-Five Theses -- giving to the poor a better work than buying pardons
   license: public-domain
 - source_id: witt.source.luther-treatise-on-good-works
-  locus: Good Works -- opening only read (6713-6882); the treatise's own Decalogue exposition unread
+  locus: Good Works -- opening only
   license: public-domain
 - source_id: witt.source.luther-treatise-on-christian-liberty
-  locus: Christian Liberty, cited among this entry's Registry rows (Doc_06 SS5 entry 2.3)
+  locus: Christian Liberty
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: the Augsburg Confession, answering the charge that we forbid good works

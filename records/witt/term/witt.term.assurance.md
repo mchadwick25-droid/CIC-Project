@@ -19,13 +19,13 @@ sources:
   locus: the Ninety-Five Theses -- 'the assurance of salvation by letters of pardon is vain'
   license: public-domain
 - source_id: witt.source.luther-discussion-of-confession
-  locus: Discussion of Confession, cited among this entry's Registry rows (Doc_06 SS5 entry 9.3)
+  locus: Discussion of Confession
   license: public-domain
 - source_id: witt.source.luther-treatise-on-good-works
-  locus: Good Works, cited among this entry's Registry rows (Doc_06 SS5 entry 9.3)
+  locus: Good Works
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons, cited among this entry's Registry rows (Doc_06 SS5 entry 9.3)
+  locus: the Eight Wittenberg Sermons
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism -- 'that I should be certain that such prayers are acceptable'
@@ -34,15 +34,16 @@ sources:
   locus: the hymns -- 'grief drove me to despair'
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: the Table Talk -- 'we always prayed in Popedom conditionaliter, conditionally, and therefore
-    uncertainly' (Contested as verbatim)
+  locus: >-
+    the Table Talk -- 'we always prayed in Popedom conditionaliter, conditionally, and therefore uncertainly'
+    (Contested as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession, cited among this entry's Registry rows (Doc_06 SS5 entry 9.3)
+  locus: the Augsburg Confession
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'if the matter were to depend upon our merits, the promise would
-    be uncertain and useless'
+  locus: >-
+    the Apology -- 'if the matter were to depend upon our merits, the promise would be uncertain and useless'
   license: public-domain
 retrieval:
   tier: 2
@@ -70,8 +71,9 @@ relations:
   target: witt.term.repentance
 - type: associated-with
   target: witt.term.law-and-gospel
-plain_meaning: We say faith gives real certainty, not endless doubt. Under the old way, people prayed
-  only 'if it be God's will,' never sure. We say instead, 'I cannot doubt I have a gracious God.'
+plain_meaning: >-
+  We said faith gives real certainty, not endless doubt. In the old way we always prayed conditionally,
+  and so we were never sure we were heard. We said instead, 'I cannot doubt I have a gracious God.'
 world_word: assurance -- 'I cannot doubt I have a gracious God,' against praying 'conditionally'
 false_friend:
 - '''assurance'' heard as self-confidence or presumption, rather than a certainty grounded outside the

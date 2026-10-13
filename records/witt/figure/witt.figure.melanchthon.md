@@ -37,9 +37,9 @@ dates:
   display: Documented in this library only as the Augsburg Confession's own drafter, 1530; no vendored
     source held here gives any other date for him.
 narratable: true
-bridge_line: The scholar who drafted the confession that electors, princes, and free cities signed together
-  before the Emperor at Augsburg in 1530 - the movement's own teaching, named to the whole Empire in one
-  corporate document.
+bridge_line: >-
+  The scholar who wrote the Augsburg Confession in 1530. Princes and free cities signed it before the
+  Emperor. It set out the movement's teaching in one text.
 relations:
 - type: associated-with
   target: witt.story.diet-of-augsburg-1530

@@ -20,7 +20,10 @@ confidence:
     condemnation clause that term record's own coverage note discloses it had not separately gathered.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: "Article II: Of Original Sin (cic:melanchthon_augsburg-confession_anon-pg275.txt lines 192-203): 'all men begotten in the natural way are born with sin... bringing eternal death upon those not born again through Baptism and the Holy Ghost' through 'argue that man can be justified before God by his own strength and reason'"
+  locus: >-
+    Article II: Of Original Sin: 'all men begotten in the natural way are born with sin... bringing eternal
+    death upon those not born again through Baptism and the Holy Ghost' through 'argue that man can be
+    justified before God by his own strength and reason'
   license: public-domain
 retrieval:
   tier: 1
@@ -50,14 +53,14 @@ modern_lens_note: >-
   the same breath is not effort but a new birth, through baptism and the Holy Spirit -- the same claim
   witt.quote.article-ix-of-baptism states from baptism's own side.
 modern_rendering: >-
-  We also teach this: ever since Adam fell, everyone born the ordinary way is born already carrying sin.
-  They are born without fear of God. They are born without trust in God. They are born with disordered
-  desire. This flaw is truly sin. Even now it condemns. It brings eternal death on everyone not born
-  again through baptism and the Holy Spirit.
+  They also teach that since Adam's fall, all people conceived in the natural way are born with sin. That
+  is, they are born without the fear of God, without trust in God, and with evil desire. They teach that
+  this disease, or inborn fault, is truly sin. It condemns even now, and it brings eternal death on those
+  not born again through Baptism and the Holy Spirit.
 
-  We reject the Pelagians and others who deny that this inborn flaw is sin. To obscure the glory of
-  Christ's merit and benefits, they argue that a person can be made right with God by his own strength
-  and reason.
+  They condemn the Pelagians and others who deny that inborn corruption is sin. To obscure the glory of
+  Christ's merit and benefits, these people argue that a person can be justified before God by his own
+  strength and reason.
 relations:
 - type: associated-with
   target: witt.dw.born-in-sin-fed-at-the-table

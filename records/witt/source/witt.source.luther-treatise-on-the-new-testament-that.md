@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: A Treatise on the New Testament, That Is the Holy Mass
 edition: (1520), intro. Neve, trans. Schindel, vol. I; vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt
+citation: Luther, A Treatise on the New Testament, That Is the Holy Mass (1520), intro. Neve, trans. Schindel, vol. I
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

@@ -18,7 +18,9 @@ confidence:
     its own continuity, addressed to the Emperor directly, not a later apologetic claim made about it.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: "Conclusion, following Article XXI (cic:melanchthon_augsburg-confession_anon-pg275.txt lines 1540-1550): 'nothing has been received on our part against Scripture or the Church Catholic'"
+  locus: >-
+    Conclusion, following Article XXVIII: 'nothing has been received on our part against Scripture or
+    the Church Catholic'
   license: public-domain
 retrieval:
   tier: 1
@@ -47,10 +49,10 @@ modern_lens_note: >-
   practice changed at all. The abuses this same document elsewhere names as corrected are real changes;
   the claim here is that correcting them is not the same thing as inventing a new religion.
 modern_rendering: >-
-  Nothing here has been said to shame or blame anyone. We have only set out what we thought needed to be
-  said, so that it would be understood: in what we teach and in how we worship, we have received nothing
-  on our part against Scripture or the universal Church. It is clear that we have taken the most diligent
-  care that no new and ungodly doctrine should creep into our churches.
+  Nothing has been said or brought forward here to blame anyone. We have recounted only the things we
+  thought we needed to speak of. Our aim was to make it understood that, in doctrine and ceremonies, we
+  have accepted nothing against Scripture or the universal Church. For it is clear that we have taken
+  the most diligent care that no new and ungodly doctrine should creep into our churches.
 relations:
 - type: associated-with
   target: witt.dw.nothing-against-scripture-or-the-church-catholic

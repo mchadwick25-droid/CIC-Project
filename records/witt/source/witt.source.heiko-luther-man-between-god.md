@@ -17,6 +17,7 @@ relations: []
 author: Heiko A. Oberman
 work: 'Luther: Man between God and the Devil'
 edition: (1989; German 1982)
+citation: 'Heiko A. Oberman, Luther: Man between God and the Devil (1989; German 1982)'
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

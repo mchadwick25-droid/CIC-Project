@@ -18,17 +18,21 @@ confidence:
     vocabulary difference between voices, not smoothed.
 sources:
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons -- 'I was regularly called by the Council to preach in this place'
+  locus: >-
+    the Eight Wittenberg Sermons -- 'I was regularly called by the Council to preach in this place'
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: the Table Talk -- 'matrimony proceedeth freely in every state and calling' (Contested as verbatim)
+  locus: >-
+    the Table Talk -- 'matrimony proceedeth freely in every state and calling' (Contested as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'estates of life and what works in every calling be pleasing to God'
+  locus: >-
+    the Augsburg Confession -- 'estates of life and what works in every calling be pleasing to God'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XXVII, read entire this pass -- 'callings are personal... perfection with us is that
-    every one with true faith should obey his own calling'
+  locus: >-
+    the Apology XXVII -- 'callings are personal... perfection with us is that every one with true faith
+    should obey his own calling'
   license: public-domain
 retrieval:
   tier: 2
@@ -67,20 +71,24 @@ false_friend:
 - '''calling'' heard as a career one chooses or feels personally drawn to'
 - '''vocation'' heard as a religious profession specifically'
 senses:
-  informational: 'Our confession claims we ''have taught to good purpose concerning all estates and duties
-    of life, as to what estates of life and what works in every calling be pleasing to God'' -- against
-    monks who ''put it far above all other kinds of life ordained of God.'' The Apology''s closing word:
-    ''callings are unlike... callings are personal... perfection with us is that every one with true faith
-    should obey his own calling.'' Of the ministry: ''no one should publicly teach in the Church or administer
-    the Sacraments unless he be regularly called,'' which our founder says of himself -- ''I was regularly
-    called by the Council to preach in this place.'''
-  evidential: Weighted to the confessional register; the founder's own texts more often say 'office' or
-    'estate' for this same ground.
-  personal: 'This word redefines the ministry as vocation, not merely institution: a station commanded,
-    not chosen -- and holier in no case than another.'
-  translational: 'Do not hear ''calling'' as a career chosen or a religious profession: we mean a station
-    commanded -- fatherhood, rule, preaching -- personal, not chosen, and, for the pulpit, a regular call
-    from the community.'
+  informational: >-
+    Our confession claims we 'have taught to good purpose concerning all estates and duties of life, as
+    to what estates of life and what works in every calling be pleasing to God' -- against monks who 'put
+    it far above all other kinds of life ordained of God.' The Apology's closing word: 'callings are unlike...
+    callings are personal... perfection with us is that every one with true faith should obey his own
+    calling.' Of the ministry: 'no one should publicly teach in the Church or administer the Sacraments
+    unless he be regularly called,' which our founder says of himself -- 'I was regularly called by the
+    Council to preach in this place.'
+  evidential: >-
+    Weighted to the confessional register; the founder's own texts more often say 'office' or 'estate'
+    for this same ground.
+  personal: >-
+    For us this word covered every station God commanded, the pulpit included. A station was commanded,
+    not chosen, and none was holier than another.
+  translational: >-
+    Do not hear 'calling' as a career chosen or a religious profession: we mean a station commanded --
+    fatherhood, rule, preaching -- personal, not chosen, and, for the pulpit, a regular call from the
+    community.
 quick_meaning: A God-given station. Father, ruler, or preacher. None holier than another.
 distortion_risk: high
 use_note:

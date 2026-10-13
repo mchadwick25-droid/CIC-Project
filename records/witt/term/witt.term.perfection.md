@@ -16,15 +16,16 @@ confidence:
     XXVII entire, this pass.
 sources:
 - source_id: witt.source.luther-secular-authority-to-what-extent-it
-  locus: Secular Authority, cited among this entry's Registry rows (Doc_06 SS5 entry 8.5)
+  locus: Secular Authority
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'Christian perfection is to fear God from the heart, and yet to conceive
+  locus: >-
+    the Augsburg Confession -- 'Christian perfection is to fear God from the heart, and yet to conceive
     great faith... and to serve our calling'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XXVII, read entire this pass -- 'perfection is growth in the fear of God... and in
-    devotion to one's calling'
+  locus: >-
+    the Apology XXVII -- 'perfection is growth in the fear of God... and in devotion to one's calling'
   license: public-domain
 retrieval:
   tier: 2

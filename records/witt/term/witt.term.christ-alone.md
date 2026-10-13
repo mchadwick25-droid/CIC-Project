@@ -16,13 +16,14 @@ confidence:
     sole Mediator.
 sources:
 - source_id: witt.source.luther-treatise-on-christian-liberty
-  locus: Christian Liberty, cited among this entry's Registry rows (Doc_06 SS5 entry 3.6)
+  locus: Christian Liberty
   license: public-domain
 - source_id: witt.source.luther-that-doctrines-of-men-are
   locus: That Doctrines of Men Are to Be Rejected -- 'Hear ye Him, Him, Him'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor'
+  locus: >-
+    the Augsburg Confession -- 'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor'
   license: public-domain
 retrieval:
   tier: 2
@@ -46,13 +47,17 @@ world_word: Christ alone -- 'Hear ye Him, Him, Him,' the one Teacher and Mediato
 false_friend:
 - a bare slogan (solus Christus) rather than a rule of hearing and a tone
 senses:
-  informational: Christ 'alone has been made our Teacher by the Father... He did not say, Hear ye St.
-    Bernard, St. Gregory, etc., but, Hear ye Him, Him, Him'; 'all the Scriptures point to Christ alone.'
-    Our confession names 'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor.'
+  informational: >-
+    Christ 'alone has been made our Teacher by the Father... He did not say, Hear ye St. Bernard, St.
+    Gregory, etc., but, Hear ye Him, Him, Him'; 'all the Scriptures point to Christ alone.' Our confession
+    names 'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor.'
   evidential: Attested at a founder's sermon and the confession's own list of Christ's offices.
-  personal: 'We hear Christ''s own words as a friend''s: ''a good Friend, and his words are full of love.'''
-  translational: Do not hear this as a bare slogan; we mean a rule of hearing -- one Teacher, one Mediator
-    -- spoken in a friend's tone, not a formula's.
+  personal: >-
+    We heard Christ first, and we put no saint or scholar in his place. He did not say, Hear St. Bernard
+    or St. Gregory. He said, Hear Him.
+  translational: >-
+    Do not hear this as a bare slogan; we mean a rule of hearing: one Teacher, one Mediator, and no saint
+    or scholar put in his place.
 quick_meaning: 'Christ alone: our one teacher, our one mediator.'
 distortion_risk: medium
 use_note:

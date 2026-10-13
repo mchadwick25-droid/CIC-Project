@@ -16,20 +16,22 @@ confidence:
     5550, 8577-8579, read this pass); Luther-only for the sleep/burial register specifically.
 sources:
 - source_id: witt.source.luther-treatise-on-the-holy-sacrament
-  locus: Concerning Baptism, cited among this entry's Registry rows (Doc_06 SS5 entry 9.4)
+  locus: Concerning Baptism
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons -- 'every one must fight his own battle with death by himself, alone'
+  locus: >-
+    the Eight Wittenberg Sermons -- 'every one must fight his own battle with death by himself, alone'
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism -- praying for 'a blessed death'
   license: public-domain
 - source_id: witt.source.luther-four-hymnal-prefaces-to-walters-gesangb
-  locus: the 1542 funeral preface -- death 'as a deep, sound, sweet sleep,' 'no dirges nor lamentations,
-    but comforting songs'
+  locus: >-
+    the 1542 funeral preface -- death 'as a deep, sound, sweet sleep,' 'no dirges nor lamentations, but
+    comforting songs'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'the terrors of sin and death must be overcome by faith'
+  locus: the Apology -- 'the terrors of sin and death must be overcome by faith'
   license: public-domain
 retrieval:
   tier: 2

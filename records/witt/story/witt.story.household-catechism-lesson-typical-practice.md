@@ -19,19 +19,22 @@ confidence:
     beyond what they state.
 sources:
 - source_id: witt.source.luther-small-catechism
-  locus: '"The Simple Way a Father Should Present Them to His Household" (the Ten Commandments'' own heading);
+  locus: >-
+    "The Simple Way a Father Should Present Them to His Household" (the Ten Commandments' own heading);
     the confession scripts for a servant or maid and for "a master or a lady of the house"; the morning
     devotion ("so that the evil enemy will not gain power over me... perhaps sing a song inspired by the
-    Ten Commandments"); the Home Chart''s own heading ("all holy orders and statuses in life")'
+    Ten Commandments"); the Home Chart's own heading ("all holy orders and statuses in life")
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: '"It is the duty of every father of a family to question and examine his children and servants
-    at least once a week"; "until they repeat them, they should be given neither food nor drink"; "every
-    head of a household is obliged to do the same with respect to his domestics, ma-servants and maid-servants"'
+  locus: >-
+    "It is the duty of every father of a family to question and examine his children and servants at least
+    once a week"; "until they repeat them, they should be given neither food nor drink"; "every head of
+    a household is obliged to do the same with respect to his domestics, ma-servants and maid-servants"
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: Cited by Doc_09 for the phrase "as Luther used to teach and instruct his family at home," as
-    the third of this reconstruction's three supporting sources
+  locus: >-
+    The chapter "Brief Sentences of the Catechism, according as Luther used to teach and instruct his
+    family at home"
   license: public-domain
 retrieval:
   tier: 2
@@ -58,38 +61,39 @@ narrative_tier_justification: 'Tier 4, Historically Grounded Reconstruction: a c
   detail. Per Tier 4''s own rule, confidence is Inferential/Thin regardless of how well-attested each
   individual element is, because no vendored source confirms that any actual household carried out the
   whole program as prescribed (Doc_09 witt-S11).'
-tellable_as: Every morning, a Saxon household was taught to bless itself with the sign of the cross and
-  pray; every week, the father of the house was told to sit down with his children and servants and make
-  them repeat the catechism's own words back to him - and, the instruction says plainly, withhold food
-  and drink from anyone who would not learn them.
-text: 'No single household''s own record survives in this library - no diary, no visitation report, no
-  letter from inside a Saxon home. What survives is the program every household was instructed to follow,
-  laid out in careful and repeated detail across the two catechisms, and it is possible to describe that
-  program without inventing anything beyond what it actually says.
+tellable_as: >-
+  Every morning, a household was taught to bless itself with the sign of the cross and pray. Every week,
+  the father was told to question his children and servants on the catechism. The Large Catechism says
+  children are to be given neither food nor drink until they can repeat the parts.
+text: >-
+  No record survives from inside any single household: no diary, no visitation report, no letter from
+  inside a home. What survives is the program every household was told to follow. The two catechisms set
+  it out in careful and repeated detail. We can describe that program without adding anything to what
+  it says.
 
   A father was to teach the Ten Commandments to his household in what the Small Catechism itself calls
-  "the simple way" - plainly, one at a time, expecting them learned by heart. Mornings began with the
-  sign of the cross and a short prayer asking that "the evil enemy will not gain power over me," and the
-  instruction adds that afterward one might "go about your work and perhaps sing a song inspired by the
-  Ten Commandments." Servants and children were given their own words to use in confession - a servant
-  taught to say plainly that he had "served my master unfaithfully," had at times "not done what I was
-  told to do"; a master or mistress of the house taught, in turn, to confess having "not faithfully led
-  my children, servants or wife to God''s glory."
+  "the simple way," one commandment at a time. Mornings began with the sign of the cross and a short prayer
+  asking that "the evil enemy will not gain power over me." The instruction adds that afterward one might
+  "go about your work and perhaps sing a song inspired by the Ten Commandments." The Small Catechism also
+  gave a servant words for confession: he had "served my master unfaithfully," and "from time to time"
+  had "not done what I was told to do." The master or lady of the house was given words too. They confess
+  having "not faithfully led my children, servants or wife to God's glory."
 
-  The Large Catechism''s own preface makes the weekly rhythm explicit and does not soften its own demand:
-  "it is the duty of every father of a family to question and examine his children and servants at least
-  once a week and to ascertain what they know of it, or are learning and, if they do not know it, to keep
-  them faithfully at it." The same preface states the consequence in plain terms: the household''s youngest
-  were to learn the essential parts "word for word" and recite them daily, morning, at meals, and at night,
-  "and until they repeat them, they should be given neither food nor drink." Every head of a household,
-  the preface adds, was bound to hold servants to the same standard, "and not to keep them in his house
-  if they do not know these things and are unwilling to learn them." A Home Chart, appended to the Small
-  Catechism, laid out Scripture texts for every station in the household in turn - pastors, hearers, husbands,
-  wives, parents, children, servants, masters - each given their own duties to be taught and held to.
+  The Large Catechism's preface makes the weekly rhythm explicit and does not soften its demand: "it is
+  the duty of every father of a family to question and examine his children and servants at least once
+  a week and to ascertain what they know of it, or are learning and, if they do not know it, to keep them
+  faithfully at it." The same preface states the consequence plainly. The household's youngest were to
+  learn the essential parts "word for word." They were to recite them daily, in the morning, at meals,
+  and at night, and "until they repeat them, they should be given neither food nor drink." Every head
+  of a household, the preface adds, was bound to hold servants to the same standard, "and not to keep
+  them in his house if they do not know these things and are unwilling to learn them." A Home Chart at
+  the end of the Small Catechism listed Scripture texts for each station in the household. It named pastors,
+  hearers, husbands, wives, parents, children, servants, and the man and woman of the house, and it taught
+  each their duties.
 
-  This is what the library can say: this was the program, stated repeatedly, in the founder''s own strongest
-  and most demanding language. Whether any actual household, anywhere in Saxony, carried it out exactly
-  this way, week after week, this library does not say.'
+  This is what we can say: this was the program, stated repeatedly, in Luther's own strongest and most
+  demanding language. Whether any household, anywhere in Saxony, carried it out this way, week after week,
+  we do not know.
 absent_detail: No vendored source names a single household, a single father, or a single child who actually
   lived through this routine - no visitation record, no parish register, no lay witness confirms that
   the program was carried out anywhere as written. Every detail above is the prescription itself, not

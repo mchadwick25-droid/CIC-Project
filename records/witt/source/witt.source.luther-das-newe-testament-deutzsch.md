@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: Das Newe Testament Deutzsch
 edition: (September 1522) and the German Bible (1534) — NOT VENDORED
+citation: Luther, Das Newe Testament Deutzsch (September 1522) and the German Bible (1534)
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

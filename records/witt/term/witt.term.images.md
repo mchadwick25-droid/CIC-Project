@@ -17,18 +17,18 @@ confidence:
     Risk.
 sources:
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Third and Fourth Sermons -- 'images are neither here nor there, neither evil nor good, we
-    may have them or not, as we please'
+  locus: >-
+    the Third and Fourth Sermons -- 'images are neither here nor there, neither evil nor good, we may
+    have them or not, as we please'
   license: public-domain
 - source_id: witt.source.luther-that-doctrines-of-men-are
-  locus: That Doctrines of Men Are to Be Rejected, cited among this entry's Registry rows (Doc_06 SS5
-    entry 8.8)
+  locus: That Doctrines of Men Are to Be Rejected
   license: public-domain
 - source_id: witt.source.luther-four-hymnal-prefaces-to-walters-gesangb
   locus: the funeral preface -- costly shrines mocked against 'dead men's bones'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'from invocation the next step was to images'
+  locus: the Apology -- 'from invocation the next step was to images'
   license: public-domain
 retrieval:
   tier: 2

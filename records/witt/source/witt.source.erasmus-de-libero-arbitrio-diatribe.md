@@ -17,6 +17,7 @@ relations: []
 author: Erasmus
 work: De libero arbitrio Diatribe
 edition: (1524) — as quoted by Luther in R34 and typographically marked by Cole; not independently vendored, embedded within "luther_bondage-of-the-will_cole1823.txt" (see rights_status)
+citation: Erasmus, De libero arbitrio Diatribe (1524)
 kind: unvendored
 rights_status: "Not independently vendored; this work reaches the build only as quoted or embedded within a vendored text, marked (context)"
 attribution_status: attributed

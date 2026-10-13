@@ -20,13 +20,20 @@ confidence:
     at one remove.
 sources:
 - source_id: witt.story.brussels-martyrs
-  locus: "the whole story: two named monks burned at Brussels 1 July 1523 for refusing to recant; 'the only martyr-song this library holds'; 'true priests of God's own making'"
+  locus: >-
+    the whole story: two young monks burned at Brussels 1 July 1523 for refusing to recant; 'true priests
+    of God's own making'
   license: public-domain
 - source_id: witt.term.martyr
-  locus: "'the two youths... burnt at Brussels by the Sophists of Louvain'; 'a single hymn, a single register... the weakest evidentiary base of any term we hold'"
+  locus: >-
+    'Two Christian Martyrs burnt at Brussels by the Sophists of Louvain' (hymn heading); 'two youths,
+    highly gifted' (stanza 1); 'a single hymn, a single register... the weakest evidentiary base of any
+    term we hold'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: "our own Apology's own quotation and answer to Rome's own reply -- the only trace of an outside voice this library holds, since the Confutation itself is never independently vendored"
+  locus: >-
+    the Apology's quotation of, and answer to, Rome's reply -- the only trace of an outside voice, since
+    the Confutation's own text is not independently held
   license: public-domain
 retrieval:
   tier: 2
@@ -36,26 +43,19 @@ retrieval:
   prefer_instead:
   - "participant wants the martyrs' own reported last words treated as verified reportage rather than a ballad's own commemorative voice"
 text: >-
-  We have no outside account of how our people worshipped, not independently in our own hand. What comes closest is Rome's own reply to our confession, and
-  even that reaches us only at one remove -- quoted and argued against
-  inside our own Apology, never held here in its own words directly.
-  We cannot give you an outsider's own account of our worship in that outsider's own words.
+  We have no independent account of our worship by an outsider. What comes closest is Rome's reply to
+  our confession, and even that reaches us only at one remove, quoted and argued against inside our own
+  Apology. We never have it in its own words.
 
-  We do not have a whole cult of martyrdom. So we cannot answer
-  broadly whether wanting to die as a martyr, and calling it
-  faithfulness, is a death wish in religious language. We have exactly
-  one case. On the first of July, 1523, two young monks, John and
-  Henry, were burned at Brussels after theologians from Louvain
-  pressed them to take back a teaching they had come to hold, and they
-  refused. Our founder, in Wittenberg, wrote a ballad about it within
-  the year -- our only martyr-song. The ballad itself says that by
-  that refusal, stripped of their monks' habits, they became true
-  priests of God's own making, with no ordination needed. We would not
-  call that a death wish. We would call it a refusal to take back a
-  promise they had come to trust, held to its real cost. Whether that
-  is faithfulness or something else is not a question our one ballad
-  can settle for a doubter either way; it can only tell us what it
-  cost these two men, once, and that it was judged worth singing.
+  We do not have a whole cult of martyrdom. So we cannot answer broadly whether wanting to die as a martyr,
+  and calling it faithfulness, is a death wish in religious language. We have exactly one case. On the
+  first of July, 1523, two young monks, John and Henry, were burned at Brussels after theologians from
+  Louvain pressed them to take back a teaching they had come to hold, and they refused. Our founder, in
+  Wittenberg, wrote a ballad about it within the year -- our only martyr-song. The ballad says that, stripped
+  of their monks' habits, they were by the power of grace true priests of God's own making. We would not
+  call that a death wish. We would call it a refusal to deny God's Word, held to its real cost. Our one
+  ballad cannot settle for a doubter whether that is faithfulness or something else. It tells us what
+  it cost these two men, once.
 positions:
 - "we hold no independent outside account of our own worship -- only Rome's own reply reaching us at one remove, quoted and answered inside our own Apology"
 - "two named men, John and Henry, were burned at Brussels in 1523 for refusing to recant -- the only case in our own record where the movement's teaching cost anyone their life"
