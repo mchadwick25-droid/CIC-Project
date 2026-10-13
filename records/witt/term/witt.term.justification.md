@@ -95,9 +95,9 @@ senses:
     Our whole doctrine turns on this word being able to give a terrified conscience something sure --
     'how will such persons sustain themselves in death who have heard nothing of this faith?'
   translational: >-
-    Do not resolve this word into either 'a legal fiction' or 'a moral improvement': we hold the two descriptions
-    together on purpose, accounted and made, received by faith alone, for Christ's sake -- and our own
-    texts leave exactly how the two relate an open question, not a settled formula.
+    Do not resolve this word into 'a legal fiction' or into 'a moral improvement.' We hold the two descriptions
+    together on purpose: accounted and made righteous, received by faith alone, for Christ's sake. Our
+    own texts leave open exactly how the two relate. They give no settled formula.
 quick_meaning: God's act of naming us righteous, and of making us so, through faith, for Christ's sake.
 distortion_risk: high
 use_note:

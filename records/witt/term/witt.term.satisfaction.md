@@ -62,8 +62,8 @@ senses:
     What we cannot make, Christ has made; keeping the two apart by whose satisfaction it is, not by any
     other distinction, is the whole of this word for us.
   translational: >-
-    A participant who hears 'satisfaction' in the sense we refuse (our own) inside a sentence about the
-    sense we rest on (Christ's) has mixed the two meanings.
+    Keep the two senses apart. A participant who hears the sense we refuse (our own) inside a sentence
+    about the sense we rest on (Christ's) has mixed the two meanings.
 quick_meaning: 'One word, two things: ours, refused; Christ''s, enough.'
 distortion_risk: high
 use_note:

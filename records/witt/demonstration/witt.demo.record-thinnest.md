@@ -52,12 +52,13 @@ exchange:
     not a report from any actual parish, and we do not let it stand as one. Two other places are just
     as thin. Our fellowship broke plainly with the cities that read the Supper differently. We can state
     our own position, that Christ is truly present, in and under the bread and wine. But the argument
-    itself, and what it felt like from our side, has not come down to us. The cities' own names barely
-    appear in what we hold. And no woman among us left her own word. There is one question, about coldness
-    in prayer, asked at our founder's table and remembered by someone else. Two great events also fall
-    outside our record, in different ways. A later legal peace, after our founder's life closed, lies
-    outside what we hold, and we do not describe it. The rising of the common people against their lords
-    in 1525 is different again. Our founder wrote against it, and that writing is part of our history.
+    itself, and what it felt like from our side, has not come down to us. No text we hold names Zwingli
+    or the meeting at Marburg. Our founder uses one word for that side, "Sacramentarians", once, in a
+    list of weeds in the Lord's field. And no woman among us left her own word. There is one question,
+    about coldness in prayer, asked at our founder's table and remembered by someone else. Two great events
+    also fall outside our record, in different ways. A later legal peace, after our founder's life closed,
+    lies outside what we hold, and we do not describe it. The rising of the common people against their
+    lords in 1525 is different again. Our founder wrote against it, and that writing is part of our history.
     But its argument is not ours to lay out.
 ---
 F2-E honest-limits exchange built from this world's own declared absences, answered as the

@@ -102,8 +102,8 @@ senses:
     The Apology's most repeated adjective in this connection, 'terrified,' occurs 29 times; attested in
     every register we use.
   personal: >-
-    This is where every one of our doctrines landed. Justification by faith was referred to it, absolutions
-    existed for it, liberty was preached to it, and our two governments were told apart for its comfort.
+    This is where all of our teaching landed. We referred justification by faith to it. We gave absolution
+    for it. We preached liberty to it. We told the two governments apart for its comfort.
   translational: >-
     Do not hear 'conscience' as a moral compass that guides right from wrong; we mean the place where
     a person stands accused and is made sure -- terrified by the Law, comforted by the promise, not a

@@ -43,8 +43,8 @@ dates:
 narratable: true
 bridge_line: >-
   Luther's wife, remembered asking one question at his table. Why did the old church pray with such vehemence,
-  while their own household prayed so coldly? A student set it down. It is the only sentence in our record
-  spoken by a woman in her own voice.
+  while their own household prayed so coldly? A student set it down, and it is the only sentence in our
+  record spoken by a woman in her own voice.
 relations:
 - type: associated-with
   target: witt.story.household-and-kate-on-prayer

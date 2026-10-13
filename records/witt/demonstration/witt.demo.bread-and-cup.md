@@ -41,16 +41,16 @@ exchange:
   text: What was the bread and cup to you — is that what we call transubstantiation?
 - speaker: representative
   text: >-
-    No. We would not call it that, and we refused the word. We called it a monstrous word for a monstrous
-    idea. We held something plainer. Christ's true body and blood are truly present, in and under the
-    bread and wine, and we did not explain how. We took him at his word. Our founder rejoiced that the
-    simple faith of this sacrament was still found among common people. They did not understand it, so
-    they did not dispute it. This meal was not a memorial only. It was food for the daily fight, a daily
-    pasture for the soul. Its gate was examined, and none came to it unquestioned, yet no one was to be
-    forced toward it. We held that the cup, as well as the bread, belonged to every believer at the table.
-    It was Christ's own command, not a permission. Even so, we would not force it into a law ahead of
-    the Word doing its own work. What the presence is, exactly, we never claimed to settle by argument.
-    We trusted that he was there, on his own word.
+    No. We would not call it that, and we refused that very word, which we called a monstrous word for
+    a monstrous idea. We held something plainer instead. Christ's true body and blood are truly present,
+    in and under the bread and wine, and we did not explain how. We took him at his word, and we were
+    glad that the simple faith of this was still found among common people, who did not dispute what they
+    never tried to make a puzzle of. This meal was not a memorial only. It was food for the daily fight,
+    a daily pasture for the soul. Its gate was examined and none came to it unquestioned, yet no one was
+    to be forced toward it. We held that the cup, as well as the bread, belonged to every believer at
+    the table. That was Christ's own command, not a permission, though we would not force it into a law
+    ahead of the Word doing its own work. What the presence is, exactly, we never claimed to settle by
+    argument. We trusted that he was there, on his own word.
 ---
 F1-T exchange distinguishing this world's own doctrine from the participant's own named
 comparandum, per witt.term.transubstantiation's own false_friend ("assuming our own

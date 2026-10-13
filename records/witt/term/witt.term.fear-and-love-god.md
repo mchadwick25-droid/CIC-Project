@@ -39,7 +39,7 @@ relations:
   target: witt.term.perfection
 plain_meaning: >-
   The explanation of each commandment after the first opens with the same words: we must fear and love
-  God. The First Commandment adds trust.
+  God. The First Commandment's own explanation adds 'trust.'
 world_word: '''fear and love God'' -- the formula opening every commandment''s explanation'
 false_friend:
 - hearing this as a pious phrase rather than the First Commandment restated ten times
@@ -50,18 +50,23 @@ senses:
     faith' belongs to this same formula.
   evidential: Attested throughout the Small Catechism's own repeated structure.
   personal: >-
-    Again and again, this formula reminded us that every commandment is finally a question of what the
-    heart trusts.
+    This formula came back at every commandment. It reminded us that each one is finally a question of
+    what the heart trusts.
   translational: >-
     Do not hear this as pious filler; we mean the First Commandment restated at every single commandment.
 quick_meaning: 'The words that open each explanation: fear and love God. They lead back to trust.'
 distortion_risk: low
 use_note:
-  means: "Fear and love God meant the formula opening each commandment's explanation, which restates the First Commandment's trust ten times over."
+  means: >-
+    Fear and love God meant the formula opening the explanation of each commandment after the first, which
+    restates the First Commandment's trust nine times over.
   not_for:
-    - "the phrase as a merely pious expression"
-    - "the First Commandment's own definition of a god, which sits in witt.term.to-have-a-god-is-to-trust"
-  years: {from: 1529, to: 1530}
+  - the phrase as a merely pious expression
+  - >-
+    the First Commandment's own definition of a god, which sits in witt.term.to-have-a-god-is-to-trust
+  years:
+    from: 1529
+    to: 1530
   status: reviewed
 ---
 Built from Doc_06 §5 entry 4.5 ('fear and love God', Tier 3 ↓ from Doc_03's estimate of 2). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.

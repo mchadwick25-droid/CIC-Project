@@ -75,12 +75,19 @@ modern_contrast: 'A modern reader may picture a reform movement''s central confe
   careful formality to the same Emperor who had condemned Luther at Worms nine years before. The drama,
   where it exists, belongs to the corporate act, not to any one person''s own defiance.'
 use_note:
-  means: "At Augsburg in 1530 a confession drafted by Melanchthon was presented to the Emperor and signed by electors, princes and city councils as one corporate act."
+  means: >-
+    At Augsburg in 1530 a confession drafted by Melanchthon was presented to the Emperor and signed by
+    an elector, princes and two city councils as one corporate act.
   not_for:
-    - "the confession as one figure's personal drama, Luther not being among the signatories in the library's record"
-    - "an eyewitness account of the reading, the room or the Emperor's reaction, none of which is held"
-    - "a village congregation's own experience of the confession, which no record supplies"
-  years: {from: 1530, to: 1530}
+  - >-
+    the confession as one figure's personal drama, Luther not being among the signatories in the library's
+    record
+  - >-
+    an eyewitness account of the reading, the room or the Emperor's reaction, none of which is held
+  - a village congregation's own experience of the confession, which no record supplies
+  years:
+    from: 1530
+    to: 1530
   status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S09 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified

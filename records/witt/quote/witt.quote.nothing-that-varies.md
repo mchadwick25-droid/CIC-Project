@@ -57,13 +57,19 @@ relations:
 - type: associated-with
   target: witt.dw.nothing-against-scripture-or-the-church-catholic
 use_note:
-  means: "The Augsburg Confession's closing Conclusion (1530) claims nothing in its doctrine or ceremonies was received against Scripture or the Church Catholic, and no new doctrine admitted."
+  means: >-
+    The Augsburg Confession's closing Conclusion (1530) claims nothing in its doctrine or ceremonies was
+    received against Scripture or the Church Catholic, and no new and ungodly doctrine admitted.
   not_for:
-    - "a claim of an unbroken chain of ordination back to the apostles"
-    - "a claim that no practice changed, when the same document names abuses it corrected"
-    - "the definition of what a church is, which sits in witt.quote.congregation-of-saints"
-    - "the Article XXI summary that our doctrine varies from neither Scripture, the Church Catholic, nor Rome's writers, a separate passage carried in witt.term.scripture-against-tradition"
-  years: {from: 1530, to: 1530}
+  - a claim of an unbroken chain of ordination back to the apostles
+  - a claim that no practice changed, when the same document names abuses it corrected
+  - the definition of what a church is, which sits in witt.quote.congregation-of-saints
+  - >-
+    the Article XXI summary that our doctrine varies from neither Scripture, the Church Catholic, nor
+    Rome's writers, a separate passage carried in witt.term.scripture-against-tradition
+  years:
+    from: 1530
+    to: 1530
   status: reviewed
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against

@@ -19,7 +19,7 @@ sources:
   locus: the Ninety-Five Theses -- giving to the poor a better work than buying pardons
   license: public-domain
 - source_id: witt.source.luther-treatise-on-good-works
-  locus: Good Works -- opening only
+  locus: Good Works -- opening only; the treatise's own Decalogue exposition not read
   license: public-domain
 - source_id: witt.source.luther-treatise-on-christian-liberty
   locus: Christian Liberty

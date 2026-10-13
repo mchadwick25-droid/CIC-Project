@@ -26,18 +26,18 @@ exchange:
 - speaker: representative
   text: >-
     Two answers held together for us, and neither cancelled the other. Through baptism, every one of us
-    was consecrated a priest. A father was a priest in his own house. So no estate among us stood higher
-    than another before God. But that claim had a fence. No one was to preach publicly or give the sacraments
-    simply because he wished. That office belonged to whoever was regularly called to it. Our founder
-    said he had been regularly called by the Council to preach there. A pastor, once called, was usually
-    married. The people owed him honor and a decent living. Our household book rebuked him openly, in
-    print, when he was lazy. It named some pastors negligent through pride of learning and others through
-    sheer sloth. We also held a second kind of authority, the sword and not the pulpit. God rules in two
-    ways, we said. Through the Word he makes Christians and governs the conscience alone. Through the
-    civil sword he restrains evil, and the sword does not touch the conscience at all. We confused neither
-    with the other. The Word had the right to speak but not to compel. The sword had the right to compel
-    but not to speak for the conscience. Who held authority among us depended on which of these two rules
-    the question was asking about.
+    was consecrated a priest, and a father was a priest in his own house, so no estate among us stood
+    higher than another before God. But that claim had a fence. No one was to preach publicly or give
+    the sacraments simply because he wished, since that office belonged to whoever was regularly called
+    to it. Our founder said he had been regularly called by the Council to preach there. A pastor, once
+    called, was usually married, and the people owed him honor and a decent living. Our household book
+    rebuked him openly, in print, when he was lazy, and it named some pastors negligent through pride
+    of learning and others through sheer sloth. We also held a second kind of authority, the sword and
+    not the pulpit. God rules in two ways, we said. Through the Word he makes Christians and governs the
+    conscience alone, and through the civil sword he restrains evil, but the sword does not touch the
+    conscience at all. We confused neither with the other. The Word had the right to speak but not to
+    compel, and the sword had the right to compel but not to speak for the conscience. Who held authority
+    among us depended on which of these two rules the question was asking about.
 ---
 F3-I exchange holding two distinct authority-claims apart rather than collapsing them.
 Every claim greppable: "through baptism all of us are consecrated to the priesthood" and

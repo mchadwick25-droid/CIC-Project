@@ -30,7 +30,7 @@ sources:
   locus: the hymns, Hymn XXVI -- 'the kingdom ours remaineth'
   license: public-domain
 - source_id: witt.source.luther-on-the-bondage-of-the-will
-  locus: Bondage of the Will -- the other 'two kingdoms,' Christ against Satan
+  locus: Bondage of the Will (OCR-degraded) -- the other 'two kingdoms,' Christ against Satan
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: the Augsburg Confession -- 'the power of the Church and the power of the sword'

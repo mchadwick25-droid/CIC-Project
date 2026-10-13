@@ -117,13 +117,19 @@ modern_contrast: A modern reader almost certainly knows Worms through one senten
   road toward it. The two sayings serve the same function in memory - defiance in the face of danger -
   but only one of them is this library's own directly attested wording from Luther's own mouth.
 use_note:
-  means: "Luther told how he went to Worms despite warnings, and next day refused to recant unless shown from Scripture that he was wrong."
+  means: >-
+    Luther told how he went to Worms despite warnings, and next day said he would accept correction in
+    everything except what touches the Holy Scriptures.
   not_for:
-    - "'Here I stand, I cannot do otherwise' as Luther's own recorded words, since it reaches the library only through Carlyle"
-    - "the earlier confrontation at Augsburg, which sits in witt.story.augsburg-before-cajetan"
-    - "a contemporary transcript of the Diet, this being Luther's later retelling"
-    - "the Table Talk chapter heading's 'Anno 1520' as the date of Worms"
-  years: {from: 1521, to: 1546}
+  - >-
+    'Here I stand, I cannot do otherwise' as Luther's own recorded words, since it reaches the library
+    only through Carlyle
+  - the earlier confrontation at Augsburg, which sits in witt.story.augsburg-before-cajetan
+  - a contemporary transcript of the Diet, this being Luther's later retelling
+  - the Table Talk chapter heading's 'Anno 1520' as the date of Worms
+  years:
+    from: 1521
+    to: 1546
   status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S03 (witt_Doc_09_Story_Inventory.md SS2), including that document's

@@ -38,8 +38,8 @@ dates:
     source held here gives any other date for him.
 narratable: true
 bridge_line: >-
-  The scholar who wrote the Augsburg Confession in 1530. Princes and free cities signed it before the
-  Emperor. It set out the movement's teaching in one text.
+  The scholar who wrote the Augsburg Confession in 1530. An Elector, princes, and two city councils signed
+  it before the Emperor, and it set out the movement's teaching in one text.
 relations:
 - type: associated-with
   target: witt.story.diet-of-augsburg-1530

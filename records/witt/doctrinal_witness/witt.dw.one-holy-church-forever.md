@@ -48,8 +48,9 @@ text: >-
   We had a real boundary, plainly stated, with the cities who read the Lord's Supper differently than
   we did. Of the Supper, our confession says that we "reject those that teach otherwise." We can tell
   you that the break was real and that we held our ground. We cannot tell you what that argument felt
-  like from our side. Our texts name none of those we broke with. The meeting where it was argued out,
-  at Marburg in 1529, is not something our own texts let us tell from the inside.
+  like from our side. No text we hold names Zwingli. Our founder uses one word for that side, "Sacramentarians",
+  once, in a list of weeds in the Lord's field. The meeting where it was argued out, at Marburg in 1529,
+  is not something our own texts let us tell from the inside.
 positions:
 - "'Catholic,' in our own mouths, names the whole universal community of the faithful wherever the Gospel is rightly taught and the sacraments rightly given -- not the institution at Rome specifically"
 - "we understood ourselves as the true, universal Church continuing, not as a new sect breaking away from it"

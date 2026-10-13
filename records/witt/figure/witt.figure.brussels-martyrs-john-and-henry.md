@@ -42,7 +42,7 @@ dates:
 narratable: true
 bridge_line: >-
   Two young monks, John and Henry, were burned at Brussels in 1523 for refusing to recant. Our record
-  shows no other people whose lives the movement's teaching cost. Luther wrote his only martyr-ballad
+  shows no other people whose lives the movement's teaching cost, and Luther wrote his only martyr-ballad
   for them.
 relations:
 - type: associated-with

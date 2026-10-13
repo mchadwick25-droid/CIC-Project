@@ -53,11 +53,11 @@ senses:
     names 'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor.'
   evidential: Attested at a founder's sermon and the confession's own list of Christ's offices.
   personal: >-
-    We heard Christ first, and we put no saint or scholar in his place. He did not say, Hear St. Bernard
-    or St. Gregory. He said, Hear Him.
+    We heard Christ first, and we put no saint in his place. He did not say, Hear St. Bernard or St. Gregory.
+    He said, Hear Him.
   translational: >-
-    Do not hear this as a bare slogan; we mean a rule of hearing: one Teacher, one Mediator, and no saint
-    or scholar put in his place.
+    Do not hear this as a bare slogan. We mean a rule of hearing: one Teacher, one Mediator. No saint
+    or human tradition is put in his place.
 quick_meaning: 'Christ alone: our one teacher, our one mediator.'
 distortion_risk: medium
 use_note:

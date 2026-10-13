@@ -16,7 +16,7 @@ confidence:
     very practice (the household's own question about its own coldness in prayer).
 sources:
 - source_id: witt.source.luther-brief-explanation-of-the-ten-commandments
-  locus: the Kurze Form's own Lord's Prayer
+  locus: the Kurze Form's own Lord's Prayer (not read)
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
   locus: the Eight Wittenberg Sermons
@@ -89,8 +89,8 @@ senses:
     Attested at both voices, and by the one non-founder voice in our whole library, who asks a question
     about this very practice.
   personal: >-
-    Prayer is our community's own defense and the household's frame -- and, by our own report, a practice
-    we ourselves confess we hold too coldly.
+    Prayer is our community's own defense and the household's frame. By our own report, we hold it too
+    coldly, and we confess this ourselves.
   translational: >-
     Do not hear prayer as spontaneous, optional devotion with set forms as lesser: we mean a commanded
     duty with a promised answer and a given form -- and a practice whose own coldness we report about

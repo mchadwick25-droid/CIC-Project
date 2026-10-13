@@ -2612,3 +2612,37 @@ Status: OPEN.
 The term records state the community's standing convictions in the present tense ("We reject ...", "We honor ..."). witt is a living tradition (`living_tradition_flag: true`), so this pass moved only the community's own past practice and experience to the past tense and left the standing convictions as they were. Whether the Representative should speak those convictions in the past tense, as the syr rule does for a dead tradition, is a cross-world methodology question for Mark.
 
 Status: OPEN.
+
+## OG-71. Review fixes, use-note corrections and a change order, 2026-10-13.
+
+Added after the independent review of #875 and the project lead's rulings of 13 October. It corrects two statements in OG-66 and OG-68 and records the fixes made on top of them. Entries OG-66 to OG-70 are left as written.
+
+**Corrections to earlier entries.** OG-66 says every change was in a spoken field, a locus or a verified fact; that is incomplete, because four build-record `description` fields were rewritten for readability and two force `name` fields lost their matrix-cell tags (see the change order below). OG-68 says five force and gravity descriptions "still fail" the readability gate; four of them (`territorial-princely-force`, `imperial-frame`, `confessional-territorial-transformation`, `promise-and-sign`) were touched, rewritten and now pass. The fifth, `inheritance-refused`, was not rewritten and stays on the waiver.
+
+**Change order (kept by the project lead's ruling, 13 Oct).** The \`description\` fields of \`witt.force.confessional-territorial-transformation\`, \`witt.force.imperial-frame\`, \`witt.force.territorial-princely-force\` and \`witt.gravity.promise-and-sign\` were rewritten in plain short sentences, because each had to be touched for a verified factual fix and the regate gate does not accept a touched field below the readability floor. The \`[1B - initiating/internal]\` and \`[2A - ongoing/external]\` tags were removed from the \`name\` of \`witt.force.inheritance-refused\` and \`witt.force.territorial-princely-force\` (matrix-cell codes are commentary on a live surface). Review round 3 (\`Build/Ministry/Operations/Audits/witt_record_audit_fixes_review_round3_2026-10-13.md\`) checked the four rewrites: no hedge, qualifier, quotation or citation was lost and no claim was added; its one blocking item (an orphaned "its initiating phase" in \`imperial-frame\`) was fixed. Kept by the project lead's ruling, 13 Oct.
+
+**Fixes from the review.**
+- *One Elector.* The Augsburg Confession signatures (lines 1557-1567 of the vendored text) give one Elector, princes, and the senates of Nuremberg and Reutlingen. "Electors" is now "an Elector, princes, and two city councils" in \`witt.dw.a-confession-answered-not-a-vote\` (\`text\` and story locus), \`witt.quote.congregation-of-saints\` (\`speaker_or_author\`) and \`witt.figure.melanchthon\` (\`bridge_line\`).
+- *Qualifiers restored on loci.* "(Contested as verbatim)" on the Table Talk locus of \`witt.term.catechism\`; "(OCR-degraded)" on the Bondage of the Will locus of \`witt.term.the-two-governments\`; the unread Kurze Form loci of \`witt.term.catechism\` and \`witt.term.prayer\`, and the unread Decalogue exposition in \`witt.term.good-works\`, now say plainly that they were not read.
+- *Readability on touched senses.* Long sentences split in the \`personal\` fields of calling, conscience, fear-and-love-god, prayer and sects-and-new-spirits and the \`translational\` fields of justification, satisfaction, sects-and-new-spirits and the-turk; all pass FK <= 10 and FRE >= 60.
+- *Over-flattening.* The Representative turns of \`witt.demo.bread-and-cup\`, \`witt.demo.faith-alone\` and \`witt.demo.who-held-authority\` and the \`bridge_line\` of the Luther, Katharina von Bora, Brussels martyrs and Melanchthon figures were rejoined into connected sentences. In bread-and-cup, "we were glad" was put back for "our founder rejoiced"; in faith-alone, "counted right" replaces "made right" (the justification wording is contested). The poor-man quote rendering is again one conditional chain, re-rendered by Opus; its main sentence runs about 75 words because the source is one sentence, which is over the 25-word guide by design.
+- *Small wording.* \`witt.term.fear-and-love-god\` reads "The First Commandment's own explanation adds 'trust.'" (the Small Catechism has "fear, love, and trust" there); "scholar" is removed from \`witt.term.christ-alone\` (not in the source).
+- *Reformed cities.* \`witt.limit.record-thinnest\`, \`witt.demo.record-thinnest\` and \`witt.dw.one-holy-church-forever\` now say the same thing the sources support: no text held names Zwingli or Marburg, and the only trace is the single word "Sacramentarians" in the Bondage of the Will.
+
+**Use notes** (\`use_note.means\`, changed only where it contradicted the corrected fields or the source; \`not_for\`, \`years\` and \`status\` untouched). 124 records were compared; 10 changed.
+- \`witt.story.worms-1521\`: no longer says Luther would recant only "unless shown from Scripture"; it says he accepted correction in everything except what touches Holy Scripture.
+- \`witt.story.diet-of-augsburg-1530\`: "an elector, princes and two city councils" for "electors".
+- \`witt.story.household-catechism-lesson-typical-practice\`: food withheld "from the children until they repeat the parts" (the Large Catechism names the children, not servants).
+- \`witt.term.catechism\`, \`witt.term.household\`: the weekly and daily household practice is stated as what the books told the household to do, not as practice.
+- \`witt.term.fear-and-love-god\`: "each commandment after the first" and "nine times over" (Small Catechism lines 61 to 143; the First Commandment reads "fear, love, and trust").
+- \`witt.term.patience\`: the Table Talk remark is "said" to be Luther's (Contested as verbatim).
+- \`witt.term.the-turk\`: the "devil's instruments" and "alongside the pope and unbelief" wording is gone; \`witt.term.pope-and-antichrist\`: matches the corrected courteous-Rome wording.
+- \`witt.quote.nothing-that-varies\`: "ungodly" restored in "no new and ungodly doctrine".
+
+**Registered, not fixed.**
+- \`witt.term.sects-and-new-spirits\` once said the radicals were "people our own side helped suppress". No vendored text and no witt record supports a suppression claim, so the pass replaced it with "whose own account we do not have". This is a self-critical disclosure the world may owe, but it has no source in this library; it is kept out of the voice until one is found. OPEN.
+- \`witt.term.the-two-governments\` \`evidential\` still says "unread by this build", and \`witt.term.christ-alone\` \`plain_meaning\` and \`use_note\` still say "scholars" (original wording). OPEN.
+- \`witt.demo.who-held-authority\`: the sentence on the Council calling the founder to preach rests on v2 14778-14779 and was not rechecked against the original demo wording. OPEN.
+- \`witt.term.gospel\`: both \`plain_meaning\` and \`means\` say the Gospel "had been buried"; the hymnal preface does not say so ("hath again risen"). OPEN.
+
+Status: CLOSED for the fixes above; the registered items stay OPEN.

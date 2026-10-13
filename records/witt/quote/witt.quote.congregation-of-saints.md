@@ -38,7 +38,9 @@ text: >-
   is it necessary that human traditions, that is, rites or ceremonies,
   instituted by men, should be everywhere alike. As Paul says: One faith,
   one Baptism, one God and Father of all, etc.
-speaker_or_author: "the Augsburg Confession, Article VII -- signed at the 1530 Diet of Augsburg by the electors, princes, and free cities who confessed it, not one preacher's own private teaching"
+speaker_or_author: >-
+  the Augsburg Confession, Article VII -- signed at the 1530 Diet of Augsburg by an Elector, princes,
+  and two city councils who confessed it, not one preacher's own private teaching
 license: verbatim
 modern_lens_note: >-
   A modern reader may hear "Catholic" and think first of the church of Rome specifically, as a proper

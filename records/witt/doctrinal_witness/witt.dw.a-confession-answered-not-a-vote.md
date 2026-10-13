@@ -22,7 +22,7 @@ sources:
 - source_id: witt.story.diet-of-augsburg-1530
   locus: >-
     the whole story: the Confession drafted, read, and signed before the Emperor at Augsburg, 1530, by
-    electors, princes, and free cities together
+    an Elector, princes, and two city councils together
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
   locus: >-
@@ -40,10 +40,10 @@ text: >-
   When belief was disputed in our own history, no council of bishops sat and voted on it the way you may
   be picturing. In 1530, before the Emperor himself, a confession of our own teaching was read aloud and
   signed. It was written out and argued from Scripture. It was signed not by one preacher alone, but by
-  electors, princes, and the councils of whole cities, together. Theologians speaking for Rome answered
-  it in writing. We answered that answer in turn, point by point, in a second document. That is how a
-  dispute moved among us: confession, written reply, written defense. We argued it from Scripture. It
-  was never settled by a show of hands.
+  an Elector, princes, and two city councils, together. Theologians speaking for Rome answered it in writing.
+  We answered that answer in turn, point by point, in a second document. That is how a dispute moved among
+  us: confession, written reply, written defense. We argued it from Scripture. It was never settled by
+  a show of hands.
 
   As for the claim that a council basically voted Jesus into being God, we cannot speak to it firsthand.
   Whatever happened at whichever council is meant, it did not happen among us. Our own history did not

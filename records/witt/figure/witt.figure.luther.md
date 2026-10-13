@@ -69,9 +69,10 @@ dates:
 narratable: true
 bridge_line: >-
   The friar who wrote privately to an archbishop about indulgences in 1517. He is remembered standing
-  before a cardinal and then an emperor rather than take back his words. After hiding, he came home to
-  preach his congregation back from its excesses. He wrote a ballad for two young monks burned at Brussels.
-  He worked out a German Mass tone by tone with his musician. He led his town in prayer through a drought.
+  before a cardinal and then an emperor rather than take back his words, and after hiding, he came home
+  to preach his congregation back from its excesses. He wrote a ballad for two young monks burned at Brussels,
+  and he worked out a German Mass tone by tone with his musician. He also led his town in prayer through
+  a drought.
 relations:
 - type: associated-with
   target: witt.story.letter-to-albrecht-and-theses-circulation

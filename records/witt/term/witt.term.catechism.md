@@ -20,7 +20,7 @@ confidence:
     documented program, not to any claim about what any household actually did.'
 sources:
 - source_id: witt.source.luther-brief-explanation-of-the-ten-commandments
-  locus: the Kurze Form -- preface and Commandments
+  locus: the Kurze Form -- preface and Commandments; its Creed and Prayer not read
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: >-
@@ -31,7 +31,7 @@ sources:
   locus: the Small Catechism
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: the Table Talk
+  locus: the Table Talk (Contested as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: the Augsburg Confession
@@ -117,12 +117,18 @@ senses:
 quick_meaning: The three parts every Christian must know, said daily for life. Never outgrown, never finished.
 distortion_risk: high
 use_note:
-  means: "The catechism meant the Ten Commandments, Creed and Lord's Prayer said word for word in the household as lifelong instruction that no one outgrows."
+  means: >-
+    The catechism meant the Ten Commandments, Creed and Lord's Prayer that our books told every household
+    to say daily, as lifelong instruction that no one outgrows.
   not_for:
-    - "the catechism as a children's textbook learned once and set aside"
-    - "the household as an institution, which sits in witt.term.household"
-    - "the weekly examination as attested practice, since witt.story.household-catechism-lesson-typical-practice holds the prescription only"
-  years: {from: 1520, to: 1546}
+  - the catechism as a children's textbook learned once and set aside
+  - the household as an institution, which sits in witt.term.household
+  - >-
+    the weekly examination as attested practice, since witt.story.household-catechism-lesson-typical-practice
+    holds the prescription only
+  years:
+    from: 1520
+    to: 1546
   status: reviewed
 ---
 Built from Doc_06 §5 entry 4.1 (catechism / 'the three parts', Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][RT]. Author Gravity: none for the practice; the household mechanism is the household entry's own. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.

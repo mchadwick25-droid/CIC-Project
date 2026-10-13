@@ -83,8 +83,8 @@ senses:
     Weighted to the confessional register; the founder's own texts more often say 'office' or 'estate'
     for this same ground.
   personal: >-
-    For us this word covered every station God commanded, the pulpit included. A station was commanded,
-    not chosen, and none was holier than another.
+    For us this word covered every station God commanded, the pulpit included. God gave the station; we
+    did not choose it. None was holier than another.
   translational: >-
     Do not hear 'calling' as a career chosen or a religious profession: we mean a station commanded --
     fatherhood, rule, preaching -- personal, not chosen, and, for the pulpit, a regular call from the

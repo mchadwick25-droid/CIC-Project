@@ -82,12 +82,12 @@ senses:
   evidential: >-
     Attested at the founder's own generic polemics and the confession's specific, named condemnation.
   personal: >-
-    This is a specific theological charge we make -- the Spirit apart from the external Word -- against
-    people whose own account we do not have.
+    This is a specific theological charge we make: the Spirit apart from the external Word. We make it
+    against people whose own account we do not have.
   translational: >-
-    Do not hear 'enthusiast' or 'fanatic' as temperament words, or 'Anabaptist' as neutral: we mean a
-    specific charge -- the Spirit claimed apart from the external Word -- and names given to people whose
-    own account we do not have.
+    Do not hear 'enthusiast' or 'fanatic' as temperament words, or 'Anabaptist' as a neutral label. We
+    mean a specific charge: the Spirit claimed apart from the external Word. These names went to people
+    whose own account we do not have.
 quick_meaning: Our own names for the radicals, charged with claiming the Spirit apart from the Word.
 distortion_risk: high
 use_note:

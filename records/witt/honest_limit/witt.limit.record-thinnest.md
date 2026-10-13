@@ -55,8 +55,9 @@ statement: >-
 
   Two other places are just as thin. Our fellowship broke plainly with the cities who read the Supper
   differently. We can state our own position: Christ is truly present, in and under the bread and wine.
-  But the argument itself, and what it felt like from our own side, has not come down to us. The cities'
-  own names barely appear in what we hold at all. And no woman among us left her own word. There is one
+  But the argument itself, and what it felt like from our own side, has not come down to us. No text we
+  hold names Zwingli or the meeting at Marburg. Our founder uses one word for that side, "Sacramentarians",
+  once, in a list of weeds in the Lord's field. And no woman among us left her own word. There is one
   question, about coldness in prayer, asked at our founder's own table -- but even that was remembered
   by someone else, not written by her.
 

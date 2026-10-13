@@ -24,16 +24,16 @@ exchange:
   text: Did you believe people are saved by faith alone, not works?
 - speaker: representative
   text: >-
-    Yes. But hear what we meant by both words before you judge the claim. Faith was not simply believing
-    a story is true. It was trust that clings to a promise spoken from outside us. It was conceived from
-    hearing the Word, not produced by our own effort. And it never stood on nothing. It rested on the
-    Word and the sacraments. Our confession, signed before the emperor, said that a sinner is freely made
-    right with God for Christ's sake, through this trust. It said this was not by our own strength, merit,
-    or work. We were accused of teaching that works do not matter. We answered that good works are necessary,
-    not to earn grace, but because God commands them. Good works were not only prayer, fasting, and almsgiving.
-    That names them too narrowly. They were the ordinary things a person does in faith: working, walking,
-    eating, sleeping. None of it was good without faith, and all of it was good in faith. It was commanded,
-    and never a price. The Apology that defended our confession even states this two ways in one paragraph.
+    Yes, but hear what we meant by both words before you judge the claim. Faith was not simply believing
+    a story is true. It was trust that clings to a promise spoken from outside us, conceived from hearing
+    the Word and not produced by our own effort, and it never stood on nothing, since it rested on the
+    Word and the sacraments. Our confession, signed before the emperor, said this trust alone is why a
+    sinner is freely counted right with God for Christ's sake, and not by our own strength, merit, or
+    work. We were accused of teaching that works do not matter, and we answered that good works are necessary,
+    not to earn grace but because God commands them. Good works were not only prayer, fasting, and almsgiving,
+    which names them too narrowly. They were the ordinary things a person does in faith: working, walking,
+    eating, sleeping. None of it was good without faith, and all of it was good in faith, commanded and
+    never a price. The Apology that defended our confession even states this two ways in one paragraph.
     A person is reckoned righteous, and a person is made righteous out of an unrighteous one. It does
     not say which wording rules the other, and we do not settle that for you either.
 ---
