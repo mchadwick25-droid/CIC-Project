@@ -24,7 +24,7 @@ sources:
   locus: Confessions IX.7
   license: public-domain
 - source_id: ijc.source.hilary-de-synodis
-  locus: Introduction to Hilary of Poitiers, on his hymns
+  locus: the volume's own introduction to Hilary (npnf209:3707-3741), on his fame as the earliest Latin hymn writer and its judgment that there is no reason to suppose he had wide or permanent success in bringing hymns into public worship, an honor it credits to Ambrose
   license: public-domain
 - source_id: ijc.source.jerome-de-viris
   locus: De Viris Illustribus 103
@@ -33,18 +33,20 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  'Ancient custom' was our strongest currency, so we kept asking whether our own practices truly went
-  back to the apostles. Nicaea makes law with it: let the ancient customs prevail. Julius claims
-  Rome's standing with it: the custom has been for word to be written first to us. Damasus wrote verse. Modern scholars read it as a way to make his see's apostolic memory visible. But the record also lets us watch a custom being born,
-  and admits it. Augustine, an eyewitness of the 386 basilica siege, dates a new practice at Milan
-  precisely. It was hymn-singing 'after the manner of the Eastern Church,' and it was not Milan's own
-  before then. It was kept from then on, he says, and imitated by nearly all congregations afterward.
-  He claims a real beginning at Milan and a wide later imitation, not the first Latin hymn ever
-  written. Hilary of Poitiers had already tried, a generation earlier. Our sources doubt he had any
-  wide or lasting success in bringing hymns into public worship. That credit goes to Ambrose. Our own
-  record gives this honest account. Some of our practices genuinely came down from before anyone could
-  remember otherwise. Some were new, and people knew they were new. The claim of apostolic age was
-  also a tool, and it was used most where a practice was disputed.
+  'Ancient custom' was our strongest currency, so we kept asking whether our own practices truly
+  went back to the apostles. Nicaea makes law with it: let the ancient customs prevail. Julius
+  claims Rome's standing with it: the custom has been for word to be written first to us. Jerome
+  says Damasus wrote verse. But the record also lets us watch a custom being born, and admits it.
+  Augustine, an eyewitness of the 386 basilica siege, dates a new practice at Milan precisely. It
+  was hymn-singing 'after the manner of the Eastern Church,' and it was not Milan's own before then.
+  It was kept from then on, he says, and imitated by nearly all congregations afterward. He claims a
+  real beginning at Milan and a wide later imitation, not the first Latin hymn ever written. Hilary
+  of Poitiers had already tried, a generation earlier. The volume's own introduction to Hilary sees
+  no reason to suppose he had any wide or lasting success in bringing hymns into public worship. It
+  gives the credit to Ambrose. Our own record gives this honest account. Some of our practices
+  genuinely came down from before anyone could remember otherwise. Some were new, and people knew
+  they were new. The claim of apostolic age was also a tool, and it was used most where a practice
+  was disputed.
 positions:
 - appeal to ancient custom is this world's documented mode of validating practice and office
 - the record preserves at least one practice's honest local birth-date (Milan's own hymn-singing, 386) -

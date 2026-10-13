@@ -13,7 +13,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Ambrose's own teaching, in a treatise written to commend widowhood - so the ranking is the argument, not an aside. He is a bishop writing to persuade, and the marriage he ranks third is the state most of his hearers were in.
+    Documented as Ambrose's own teaching, in a letter to the church at Vercellae that the volume's chronology dates to 396 - so the ranking is part of his argument, not an aside. He is a bishop writing to persuade, and the marriage he ranks third is the state most of his hearers were in.
 sources:
 - source_id: ijc.source.ambrose-epistles
   locus: >-
@@ -44,12 +44,11 @@ use_note:
   not_for:
     - "a claim that Ambrose condemns marriage"
     - "a claim that Ambrose treats marriage as equal to virginity or widowhood"
-    - "a claim that the ranking is neutral rather than the argument of a treatise commending widowhood"
-  years: {from: 377, to: 380}
+    - "a claim that the ranking is neutral rather than the argument of a bishop persuading the church at Vercellae"
+  years: {from: 396, to: 396}
   status: reviewed
 ---
 Opened for F5-T, served by ijc.dw.marriage-ranked alone.
 
-The record cites ch. I.1-2; the ranking itself stands at ch. IV.40-41 and that is what is cited
-here, so the locus is corrected rather than copied. The opening ellipsis marks the excerpt starting
+The ranking stands in Letter LXIII sec. 40, to the church at Vercellae, which the volume's chronology dates to 396; it is cited there. The opening ellipsis marks the excerpt starting
 inside Ambrose's list of three ways, whose first term is virginity.

@@ -29,7 +29,7 @@ retrieval:
 relations:
 - {type: associated-with, target: ijc.term.presbeia}
 - {type: associated-with, target: ijc.term.primatus}
-plain_meaning: "\"New Rome\": Constantinople's name for itself as the empire's new seat. The name was the stated ground of its claim to rank among the churches."
+plain_meaning: "\"New Rome\" was Constantinople's name for itself as the empire's new seat. The name was the stated ground of its claim to rank among the churches."
 world_word: Nea Rhome
 distortion_risk: medium
 false_friend:

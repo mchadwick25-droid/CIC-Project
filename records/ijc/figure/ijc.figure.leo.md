@@ -33,7 +33,7 @@ dates:
     after Chalcedon''s immediate aftermath is this world''s to narrate'
   floruit: bishop of Rome 440-461; the Tome to Flavian 449; Chalcedon and the Canon 28 rejection 451-452
 narratable: true
-bridge_line: "The bishop whose letter went to a council in his place. Those who received it heard Peter himself still speaking."
+bridge_line: "He was the bishop whose letter went to a council in his place, and those who received it heard Peter himself still speaking."
 ---
 Strand A's fullest voice and the world's closing figure. Author Gravity
 per the reviewed Doc_02 SS2: the see's most articulate self-advocate,

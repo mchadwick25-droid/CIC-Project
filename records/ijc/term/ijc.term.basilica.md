@@ -43,7 +43,7 @@ senses:
   evidential: These buildings are the part of this world archaeology can still touch - foundations, floors,
     and successor churches on the same sites; at Milan the record of a specific contested building meets
     the surviving fabric of the episcopal complex.
-  personal: "A congregation shut inside its besieged building learned what the building meant to them. It was ground they held."
+  personal: "A congregation shut inside its besieged church learned what the building meant to them. It was ground they held."
   translational: "Here the word is not the modern honor given to certain churches by the pope. It is the ordinary word for the great hall where the church met."
 quick_meaning: Our great hall-style church building - and sometimes the prize fought over.
 use_note:

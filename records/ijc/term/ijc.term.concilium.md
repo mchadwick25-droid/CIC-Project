@@ -52,7 +52,7 @@ senses:
     even preserve the arguing. The record also preserves the mechanism failing: the same council that
     settled Christ''s natures produced a canon on rank that Rome refused to receive - a vote taken is
     not, in this world, a question closed.'
-  personal: "To be summoned was to be caught up in the life of the whole empire. After the arguing and the vote, the decision still had to be received. Whether it held depended on who received it."
+  personal: "To be summoned was to be caught up in the life of the whole empire. After the arguing and the vote, the decision still had to be received, and whether it held depended on who received it."
   translational: "\"Church councils decided everything by committee?\" The vote was real. But reception was a separate act. A council's authority was itself one of the things councils kept having to contest."
 quick_meaning: A gathering of bishops, called to settle what the whole church must hold.
 use_note:

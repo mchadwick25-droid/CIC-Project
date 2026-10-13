@@ -33,7 +33,7 @@ dates:
   floruit: emperor 379-395; baptized at Thessalonica during illness 380; the "Cunctos populos" law 380;
     the massacre at Thessalonica and his public penance 390
 narratable: true
-bridge_line: "The emperor who made the Nicene faith the law of the empire. His soldiers killed a crowd at Thessalonica. Ambrose would not offer the sacrifice with him present, and the emperor did public penance."
+bridge_line: "The emperor who made the Nicene faith the law of the empire. His soldiers killed a crowd at Thessalonica, and Ambrose wrote that he dared not offer the sacrifice with him present. Later historians say the emperor did public penance."
 ---
 The establishment's Nicene consolidator and Strand C's imperial
 counterpart. The penance episode is carried at two source layers,

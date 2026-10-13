@@ -37,7 +37,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): a named
   what the vision was or meant, because Lactantius''s earlier, differently-detailed account is not
   reconcilable with it in specifics - a court panegyrist''s report of his patron''s own account, with
   that limitation carried, not smoothed.'
-tellable_as: the vision Constantine saw, as Eusebius tells it. The emperor told it to him himself.
+tellable_as: the vision Constantine saw, as Eusebius tells it, which the emperor told to him himself.
 text: >-
   Eusebius tells what Constantine himself told him, long afterward and under
   oath. On campaign, about noon, Constantine saw

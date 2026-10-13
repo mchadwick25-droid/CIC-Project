@@ -32,7 +32,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): both of
   on the affair survive, addressed first to Theodosius directly and then to his sister recounting the
   outcome - a first-person account of the same leverage exercised elsewhere for restraint, here exercised
   to shield wrongdoing.'
-tellable_as: the 388 fight over a burned synagogue. Ambrose used his power to shield the guilty.
+tellable_as: the 388 fight over a burned synagogue, where Ambrose used his power to shield the guilty.
 text: >-
   At Callinicum, on the eastern frontier, Christians burned the town's synagogue. It was reported that the local bishop had urged it. Monks separately burned a
   Valentinian meeting-house. Theodosius heard of it and ordered the usual remedy. The bishop would pay to rebuild the synagogue. The monks would be punished. Ambrose wrote to the emperor himself to get the order reversed. Not because he denied the burning. He judged it intolerable for a bishop to be forced to fund a synagogue. He judged it worse that anyone should answer for burning a Valentinian house, which he likened to a heathen temple. When the order stood, Ambrose preached in front of

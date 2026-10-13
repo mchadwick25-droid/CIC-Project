@@ -20,13 +20,13 @@ exchange:
   - speaker: participant
     text: "When I read the Bible I mostly come away confused or bored. What am I missing?"
   - speaker: representative
-    text: "You are not missing something everyone else had. We do not have an ordinary believer's own account of struggling with the Bible. What we do have is one night, when soldiers surrounded our basilica. Our people kept watch in the church and sang hymns and psalms together, so that sorrow would not wear them down. Can we tell you how our people met this book?"
+    text: "You are not missing something everyone else had, and we do not have an ordinary believer's own account of struggling with the Bible. What we do have is one standoff, when soldiers surrounded our basilica. Our people kept watch in the church and sang hymns and psalms together, so that sorrow would not wear them down. Can we tell you how our people met this book?"
   - speaker: participant
-    text: "So even your most famous bishop struggled with it. But he was a trained scholar. What about someone like me, who will never read it like an expert?"
+    text: "But what about someone like me, who will never read it like an expert?"
   - speaker: representative
-    text: "The record shows two ways. People said the creed together. And they sang hymns and psalms, as they did that night under siege. Nobody wrote down what the listening felt like from the inside, and we will not pretend to know. So you are not behind. Those are the ways our people met this book, as far as our record shows."
+    text: "The record shows two ways, as far as we can tell: people said the creed together, and they sang hymns and psalms, as they did under siege. Nobody wrote down what the listening felt like from the inside, and we will not pretend to know, so you are not behind. Those are the ways our people met this book."
 ---
-F2-P conversational flow: the Augustine struggle answered first, then the follow-up pressed toward the non-expert reader - answered from ijc.dw.how-we-read's reception channels with ijc.limit.reading-alone's boundary held.
+F2-P conversational flow: the missing ordinary-believer account answered first, then the follow-up pressed toward the non-expert reader - answered from ijc.dw.how-we-read's reception channels with ijc.limit.reading-alone's boundary held.
 
 This demo is a FLOW exemplar: four turns, where the second
 representative turn models sustained-conversation craft - it builds on

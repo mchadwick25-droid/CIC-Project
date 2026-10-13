@@ -55,7 +55,7 @@ use_note:
     - "a claim that this ascetic treatise treats marriage neutrally on its own terms"
     - "a claim that the record gives any ordinary household's own account of marriage"
     - "a claim about dowry or money, which this treatise does not address"
-  years: {from: 377, to: 380}
+  years: {from: 377, to: 396}
   status: reviewed
 ---
 

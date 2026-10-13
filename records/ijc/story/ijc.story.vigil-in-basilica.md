@@ -30,7 +30,7 @@ retrieval:
   retrieve_when:
   - the 386 Milan basilica standoff
   - how a bishop could resist an emperor
-  - worship under threat; Milan's own hymn-singing custom, begun that night
+  - worship under threat; Milan's own hymn-singing custom, begun during the siege
   - what belonging cost in this world
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
@@ -44,7 +44,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): two ind
   an eyewitness in the same city, writing later. The core event (the demand, the standoff, the singing,
   its lasting liturgical consequence) is corroborated across both; unnamed participants'' interiority
   beyond what Augustine attests is not claimed.'
-tellable_as: the 386 standoff in Milan. A congregation held its church against the court, and sang.
+tellable_as: the 386 standoff in Milan, where a congregation held its church against the court and sang.
 text: >-
   The imperial court wanted a basilica: one of Milan's churches, handed over
   for the worship of the confession the court held, the one that said 'like

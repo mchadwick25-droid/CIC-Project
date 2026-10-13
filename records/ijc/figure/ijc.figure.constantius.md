@@ -31,7 +31,7 @@ dates:
   floruit: sole emperor 353-361 after defeating Magnentius; the twin councils of 359 and the Homoian
     settlement of 360 pressed under his authority
 narratable: true
-bridge_line: "Constantine's son. Under him the imperial church said the Son is \"like\" the Father. Bishops who refused saw what an emperor's creed could cost."
+bridge_line: "He was Constantine's son. Under him the imperial church said the Son is \"like\" the Father, and bishops who refused saw what an emperor's creed could cost."
 ---
 The Homoian establishment's first imperial patron - carried per the
 binding recentering obligation as the emperor of the imperial church's

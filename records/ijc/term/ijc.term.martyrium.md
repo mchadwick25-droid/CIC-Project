@@ -28,7 +28,7 @@ relations:
 - type: associated-with
   target: ijc.quote.a-fine-talent-for-making-verses
 - {type: associated-with, target: ijc.term.primatus}
-plain_meaning: "A martyr's shrine: where the dead who kept faith under persecution were honored. Modern scholars read Rome's martyr honors as also speaking for the see's own standing."
+plain_meaning: "A martyr's shrine: where the dead who kept faith under persecution were honored."
 world_word: martyrium
 distortion_risk: low
 false_friend:
@@ -40,11 +40,11 @@ senses:
   evidential: The program is attested by a contemporary who worked in Damasus's own chancery - Jerome
     records his verse-making - and by the surviving inscriptions themselves, in stone or early copy; what
     this build cannot quote is any single epigram's text in English.
-  personal: "A pilgrim reading verses at a grave was shown memory made lasting. Scholars read the verses as also showing whose see guarded it."
-  translational: "This is not a relic market and not a private cemetery. It is closer to a public memorial landscape, built to carry the claim of an institution."
-quick_meaning: "A shrine honoring a martyr. In Rome, modern scholars read it as also a public sign of the see's long memory."
+  personal: "A pilgrim reading verses at a grave was shown memory made lasting."
+  translational: "This is not a relic market and not a private cemetery. It is closer to a public memorial landscape."
+quick_meaning: "A shrine that honors a martyr, one who kept faith under persecution."
 use_note:
-  means: "A martyrium is a martyr's shrine honoring those who kept faith under persecution; modern scholars read Rome's martyr honors as also speaking for the see's standing."
+  means: "A martyrium is a shrine to a martyr, one who kept faith under persecution."
   not_for:
     - "a claim that martyr-cult here was itself the devotional center of the world"
   years: {from: 312, to: 451}

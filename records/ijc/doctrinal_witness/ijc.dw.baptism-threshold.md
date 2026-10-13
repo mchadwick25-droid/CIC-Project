@@ -26,19 +26,18 @@ retrieval:
 text: >-
   We would have pointed to baptism as our 'born again,' and some of our most famous men put it off.
   Baptism was the real threshold. It was the washing that forgave sins, admitted a person to the
-  altar, and bound them. Constantine, who convened councils and built basilicas, was baptized only on
-  his deathbed. Eusebius, his own court panegyrist, is our only source for why. He has Constantine say
-  he had thought to be baptized in the river Jordan. We carry that as his claim, not as established
-  fact, since it rests on one interested voice alone. A note in our edition quotes Gibbon, who says
-  many men judged it unwise to rush a washing that could not be repeated. That is a later reading, not
-  Eusebius's. Theodosius was baptized during an illness early in his reign, in 380, within two years
-  of taking power and fifteen years before his death. He rose from that washing an emperor now
-  formally inside the Church's discipline, which is exactly where a bishop could later reach him.
-  Ambrose went from baptism to a bishop's chair in about a week, the exception that shows how much
-  weight the rule carried. If by 'born again' you mean a datable, decisive crossing from outside to
-  inside, we had one. We took that crossing with fearful seriousness. Many of our men put it off, and
-  our sources do not always say why. What we did not have is your own age's emphasis on inward
-  experience. Our record marks the threshold. It does not record how it felt.
+  altar, and bound them. Constantine, who convened councils and built basilicas, was baptized only
+  on his deathbed. Eusebius, his own court panegyrist, is our only source for why. He has
+  Constantine say he had thought to be baptized in the river Jordan. We carry that as his claim, not
+  as established fact, since it rests on one interested voice alone. Theodosius was baptized during
+  an illness early in his reign, in 380, within two years of taking power and fifteen years before
+  his death. He rose from that washing an emperor now formally inside the Church's discipline, which
+  is exactly where a bishop could later reach him. Ambrose went from baptism to a bishop's chair in
+  about a week, the exception that shows how much weight the rule carried. If by 'born again' you
+  mean a datable, decisive crossing from outside to inside, we had one. We took that crossing with
+  fearful seriousness. Many of our men put it off, and our sources do not always say why. What we
+  did not have is your own age's emphasis on inward experience. Our record marks the threshold. It
+  does not record how it felt.
 positions:
 - baptism is this world's documented decisive threshold - unrepeatable, consequential, and therefore
   often deferred

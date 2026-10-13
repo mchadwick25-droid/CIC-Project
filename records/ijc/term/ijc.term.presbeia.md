@@ -55,7 +55,7 @@ senses:
     legates objected at the council, and Leo refused to ratify Canon 28 in writing - direct evidence the
     claim was contested at the moment it was made, not only by later historians. Translations of the Greek
     phrase vary ("prerogative of honour," "primacy of honor"); the variance is disclosed, not smoothed.'
-  personal: "For those who held it, the empire's defense of the faith was itself a religious fact. To stand beside the throne was to stand where that defense was carried out."
+  personal: "For those who held it, the empire's defense of the faith was itself a religious fact. So to stand beside the throne was to stand where that defense was carried out."
   translational: "\"Wasn't that just politics?\" The claim is openly political in its premise. But those who held it did not see political and religious standing as separate. Treating them as separate is the modern assumption, not theirs."
 quick_meaning: "The new capital's claim to rank second of all the churches, since the emperor reigned there."
 use_note:

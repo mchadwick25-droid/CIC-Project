@@ -35,7 +35,7 @@ relations:
 - {type: associated-with, target: ijc.term.homoousios}
 - {type: associated-with, target: ijc.term.communio}
 - {type: associated-with, target: ijc.term.concilium}
-plain_meaning: "A Tome: a letter that settles doctrine and carries the full standing of the church that sends it. Leo's reached Chalcedon without him. Those who received it heard the see of Peter speaking."
+plain_meaning: "A Tome is a letter that settles doctrine and carries the full standing of the church that sends it. Leo's reached Chalcedon without him, and those who received it heard the see of Peter speaking."
 world_word: Tomus
 distortion_risk: low
 false_friend:

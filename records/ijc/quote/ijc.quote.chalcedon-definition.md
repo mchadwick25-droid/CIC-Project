@@ -24,7 +24,7 @@ text: This one and the same Jesus Christ, the only-begotten Son [of God] must be
   preserved and being united in one Person and subsistence, not separated or divided into two persons,
   but one and the same Son and only-begotten, God the Word, our Lord Jesus Christ...
 modern_rendering: >-
-  This one and the same Jesus Christ, the only-begotten Son of God, must be confessed to be in two
+  This one and the same Jesus Christ, the only-begotten Son [of God], must be confessed to be in two
   natures. The two are united without mixing, without change, without division, and without
   separation. The difference between the natures is not taken away by this union. Rather, the special
   character of each nature is kept. Both are united in one Person and one subsistence. He is not

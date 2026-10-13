@@ -33,7 +33,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): named a
   at Constantine''s own court, which gives this briefer version a real claim to closer proximity.
   Documented at the level of what Lactantius wrote; the reconciliation with Eusebius''s account is
   genuinely contested and not performed.'
-tellable_as: Lactantius tells of a dream before the Milvian Bridge. It is the earlier, plainer story.
+tellable_as: Lactantius tells of a dream before the Milvian Bridge, and it is the earlier, plainer story.
 text: 'Lactantius tells it differently, and earlier. In his account Constantine was directed in a dream to mark the heavenly sign on his soldiers'' shields - the letter-mark that stands for Christ - and so to go into battle. He did as commanded, and by that mark his army
   prevailed at the bridge. There is no daylight vision here, no army of witnesses, no sky-written words.
   A dream, a command, an obedience - and the victory that followed.'

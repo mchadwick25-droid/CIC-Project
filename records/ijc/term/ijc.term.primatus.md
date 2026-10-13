@@ -47,7 +47,7 @@ relations:
 - {type: associated-with, target: ijc.term.concilium}
 - {type: associated-with, target: ijc.term.nea-rhome}
 - {type: associated-with, target: ijc.term.martyrium}
-plain_meaning: "Rome's claim to first standing among the churches. What was given to Peter, Rome held, passed to each bishop who sat in his seat after him. Rome did not see it as an honor others grant. It was an inheritance Rome guarded."
+plain_meaning: "Rome's claim to first standing among the churches. Rome held that what was given to Peter passed to each bishop who sat in his seat after him, so it guarded the claim as an inheritance and did not treat it as an honor others grant."
 world_word: primatus
 distortion_risk: high
 false_friend:
@@ -63,7 +63,7 @@ senses:
     inscriptions. What the record does NOT show is the claim being universally accepted - Canon 28 passed
     over Rome''s objection, which is why the claim''s reception stays a live contest, not a settled fact.'
   personal: "To stand with Rome was to stand somewhere fixed while emperors and councils shifted. Felt from inside, that was the appeal of the claim: an anchor that no reigning court could move."
-  translational: "\"Was there a pope?\" There was a bishop of Rome making a strong, contested claim to first authority. Whether that is already \"the papacy\" in the later sense is what traditions still dispute today. This world's record is the ground both sides argue from."
+  translational: "Was there a pope? There was a bishop of Rome making a strong, contested claim to first authority, and whether that is already \"the papacy\" in the later sense is what traditions still dispute today. This world's record is the ground both sides argue from."
 quick_meaning: Rome's claim to lead all the churches, because Peter led first from there.
 use_note:
   means: "Primatus is Rome's claim to first standing among the churches: what was given to Peter passes to each bishop who sits in his seat."

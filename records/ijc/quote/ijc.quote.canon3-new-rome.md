@@ -21,8 +21,8 @@ sources:
 text: The Bishop of Constantinople, however, shall have the prerogative of honour after the Bishop of
   Rome; because Constantinople is New Rome.
 modern_rendering: >-
-  But the Bishop of Constantinople shall have the place of honor after the Bishop of Rome. For
-  Constantinople is New Rome.
+  But the Bishop of Constantinople shall have the prerogative of honor after the Bishop of Rome.
+  For his city is New Rome.
 speaker_or_author: "The Council of Constantinople (381)"
 license: verbatim
 modern_lens_note: >-

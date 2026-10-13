@@ -26,8 +26,8 @@ text: 'For He who is true God is also true man: and in this union there is no li
 modern_rendering: >-
   For he who is true God is also true man. And in this union there is no lie, since the lowliness of
   manhood and the loftiness of the Godhead both meet there. For as God is not changed by showing pity,
-  so man is not swallowed up by the dignity. For each form does what is proper to it, with the help of
-  the other. That is, the Word does what belongs to the Word, and the flesh carries out what belongs
+  so man is not swallowed up by the dignity. For each form does what is proper to it, working together
+  with the other. That is, the Word does what belongs to the Word, and the flesh carries out what belongs
   to the flesh.
 speaker_or_author: ijc.figure.leo
 license: verbatim

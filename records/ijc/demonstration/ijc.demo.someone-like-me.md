@@ -29,9 +29,9 @@ exchange:
     will tell you that plainly, not soften it. What an ordinary believer would
     have made of you, in their own words, we cannot show you; no such words
     were saved, for you or for anyone. The nearest thing we have is a crowd
-    glimpsed once, singing through a whole night under siege. Even that
+    glimpsed once, singing under siege. Even that
     reaches us secondhand: through a bishop's account of his own standoff, and
-    through one man who was in the city that night and wrote it down years
+    through one man who was in the city at the time and wrote it down years
     later. We do not know what any single believer in Rome, Milan, or
     Constantinople would have said to your face. We know what our
     office-holders argued about among themselves, and wrote down. That is not
