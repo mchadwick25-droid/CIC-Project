@@ -29,37 +29,31 @@ relations:
   target: desert.quote.they-have-taken-away-my-god
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative): named author (Cassian), specific text and chapter reference (Conference X, chs. II-IV), and a narrator who presents himself as personally present, not reporting hearsay. Held at Tier 1 for the narrative's existence and general content within Cassian's own account, not for a claim that the dialogue is a transcript - Cassian composed and published the Conferences decades after the events they narrate, in a literary genre with its own conventions, matching this build's own treatment of comparably-mediated Vita material."
-tellable_as: "an old, deeply respected monk is finally persuaded that God has no human body - and immediately grieves the loss of the only way he ever knew how to pray"
+tellable_as: an old monk learns that God has no human body, and weeps for the picture of God he had prayed to
 text: >-
-  In the year 399, the bishop of Alexandria sent a letter to be read out in
-  every monastery in Egypt. The letter said that God has no body, no face,
-  and no hands - the opposite of how many simple monks had always pictured
-  him in prayer. Most of the monks at Scete were angry and troubled. Only
-  one presbyter there, Abba Paphnutius, welcomed the letter as sound
-  teaching.
+  In the year 399, the bishop of Alexandria sent his Easter letter to the monks of Egypt. The
+  letter said that God has no human body, the opposite of how many simple monks had always
+  pictured him in prayer. Almost all the monks of Egypt took it badly. At Scete, the presbyters
+  would not even let it be read or repeated in their meetings. Only Abba Paphnutius, the
+  presbyter of Cassian's congregation, allowed it.
 
-  Among the monks at Scete was an old man named Sarapion. He had lived
-  there for years and was known for a strict, disciplined life. But he
-  could not accept the letter's teaching. It seemed new to him, nothing his
-  own teachers had ever taught. Then a visiting deacon named Photinus
-  arrived from Cappadocia, a man of great learning. Paphnutius asked
-  Photinus, in front of the gathered brothers, to explain how the churches
-  of the East understood the words of Genesis - that God had made man
-  after his own image and likeness. Photinus explained, at length and
-  from many places in scripture, that the
-  image of God was not a bodily one, and that nothing so vast and unseen
-  could be shaped like a human body. Hearing this, old Sarapion was finally
+  Among the monks at Scete was an old man named Sarapion. He had lived there for years and was
+  known for a strict, disciplined life. But he could not accept the letter's teaching. It seemed
+  new to him, nothing his own teachers had ever taught. Then a visiting deacon named Photinus
+  arrived from Cappadocia, a man of great learning. Paphnutius asked Photinus, in front of the
+  gathered brothers, to explain how the churches of the East understood the words of Genesis -
+  that God had made man after his own image and likeness. Photinus explained, at length and from
+  many places in scripture, that the image of God was not a bodily one, and that nothing so vast
+  and unseen could be shaped like a human body. Hearing this, old Sarapion was finally
   persuaded, and agreed with the teaching.
 
-  Then something happened that none of them expected. As they all rose to
-  give thanks and pray together, Sarapion suddenly broke down. He had
-  always pictured God in a human shape when he prayed, and now, in the
-  middle of his own prayer, he felt that picture torn away from his heart.
-  He threw himself on the ground, sobbing, and cried out that they had
-  taken his God away from him - that he now had no one to hold on to, and
-  did not know who to worship or pray to. Cassian, who was there, says he
-  and his companion left deeply shaken, and went straight to Abba Isaac to
-  ask how such a thing could happen to a man like that.
+  Then something happened that none of them expected. As they all rose to give thanks and pray
+  together, Sarapion suddenly broke down. He had always pictured God in a human shape when he
+  prayed, and now, in the middle of his own prayer, he felt that picture torn away from his
+  heart. He threw himself on the ground, sobbing, and cried out that they had taken his God away
+  from him - that he now had no one to hold on to, and did not know who to worship or pray to.
+  Cassian, who was there, says he and the others with him were deeply shaken. They went back to
+  Abba Isaac and asked why such an error had crept into a man like that.
 absent_detail: "What became of Sarapion afterward - whether he found a new way to pray, or whether he was still at Scete the following year when Theophilus reversed course and the community's own learned monks were driven out - is not recorded. Cassian's own account is shaped for a teaching purpose (Conference X's larger subject is the right way to pray), so the scene survives because it served that argument, not as a stand-alone report of Sarapion's own later life."
 modern_contrast: "A modern reader might treat this as a simple story of a man learning a truer idea - correction as pure improvement. This world's own record does not let the story land there. It shows the same correction as a real loss, felt in the body, in the middle of prayer itself. Removing a wrong idea does not always feel like gaining a right one; sometimes it feels like losing the one thing a person had to hold on to."
 use_note:

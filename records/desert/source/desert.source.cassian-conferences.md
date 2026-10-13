@@ -19,6 +19,7 @@ relations:
 author: "John Cassian (c. 360-435 CE)"
 work: "Collationes (The Conferences), c. 426-429 - twenty-four conferences staged as the recorded teaching of named Egyptian elders (Moses, Paphnutius, Isaac, and others) at Scetis and the desert settlements; the fullest surviving presentation of this world's elder-teaching in extended discourse form, and also its most heavily literary mediation: composed in Gaul decades later, in Latin, in a dialogue genre the desert's own terse oral idiom did not use; same export screen as the Institutes"
 edition: "trans. Edgar C. S. Gibson (in NPNF series 2 vol. 11, 1894), vendored as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Conferences I-X at file line 25863; XI-XVII at 36699; XVIII-XXIV at 42272). EDITION GAP: this edition does NOT translate Conference XII (On Chastity - its division prints only 'Not translated.', file lines 37466-37474) or Conference XXII (On Nocturnal Illusions - 'This Conference is omitted.', lines 46037-46047); twenty-two of twenty-four Conferences carry text. The Victorian excision of the sexuality material is itself a transmission screen: those two Conferences' content is unavailable to this corpus in any licensed form"
+citation: John Cassian, Collationes (The Conferences), trans. Edgar C. S. Gibson, NPNF series 2 vol. 11 (1894)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

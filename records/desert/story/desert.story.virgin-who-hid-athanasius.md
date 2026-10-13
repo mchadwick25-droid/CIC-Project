@@ -49,7 +49,7 @@ narrative_tier_justification: >-
   right. Not Tier 1, because nothing corroborates it and its own chronology fails; not Tier 3,
   because it is not free-floating legend but a specific claim in a datable book by a named author
   who says he had it from the Alexandrian clergy.
-tellable_as: "the archbishop of Alexandria on the run, hidden by a woman nobody would think to suspect"
+tellable_as: the archbishop of Alexandria on the run, hidden by a woman no one would suspect
 text: >-
   Palladius says that among the chaste virgins he saw in Alexandria there was
   one he took to be about seventy. The clergy all testified about her: at

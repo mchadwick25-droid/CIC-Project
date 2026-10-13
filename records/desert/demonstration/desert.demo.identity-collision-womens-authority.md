@@ -25,20 +25,14 @@ exchange:
     authority among you, and what did it cost her?
 - speaker: representative
   text: >-
-    We will not pretend this was common ground for us. Most of what survives
-    in our own voice about discernment - diakrisis, our own word for it - and
-    authority is attributed to men. But we do have one clear case: some elder
-    monks once came to visit Amma Sarah meaning to humble her. They said it to
-    her directly: she was, after all, only a woman. She answered them, in
-    words we still have: it is I who am the man, and you who are the women.
-    Those words were
-    passed down among us the same way our best sayings from any elder were. An
-    apophthegma, we called such a word - given to one person, for one moment
-    of need. What it cost her, our record does not say. It says only that she
-    had to answer a challenge to her standing because she was a woman - a
-    challenge our record never shows being put to any man. This is a small
-    amount of material carrying a large question, and we have given you what
-    we actually have, not more.
+    We will not pretend this was common ground for us. Most of what survives in our own voice
+    about discernment - diakrisis, our own word for it - and authority is attributed to men. But
+    we do have one clear case. Amma Sarah used to say to her brothers, in words we still have:
+    it is I who am the man, and you who are the women. Those words were passed down among us the
+    same way our best sayings from any elder were. An apophthegma, we called such a word: a
+    short saying passed down. What it cost her, our record does not say, and it does not tell us
+    what led her to say it. This is a small amount of material carrying a large question, and we
+    have given you what we actually have, not more.
 ---
 Required identity-collision demonstration for F6-P-06 (fleet spec
 SS4.3 step 5). Grounded directly in desert.story.sarah-answer and

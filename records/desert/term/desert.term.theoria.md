@@ -34,14 +34,14 @@ relations:
   target: desert.term.logismoi
 - type: associated-with
   target: desert.gravity.evagrian-systematization
-plain_meaning: "Contemplation: in Evagrius's scheme, the seeing of God and of things in God that only a stilled soul reaches."
+plain_meaning: 'Contemplation: in Evagrius''s scheme, the seeing of created things and of God that only a stilled soul reaches.'
 world_word: theoria
 false_friend:
 - theory (abstract speculation)
 senses:
   informational: "The final stage of Evagrius's scheme - after the practical life, after passionlessness - contemplation, itself graded from the contemplation of created things up to the contemplation of God. The vocabulary of Kellia's learned circle, concentrated in one author; the wider movement prayed the Psalter without this ladder."
   evidential: "Rests on Evagrius's own writings. The historian Socrates, in Zenos's English rendering, names his works and quotes some of his practical sayings, but not this contemplative stage's own teaching; no English of that teaching can be quoted here directly. The wider, non-Evagrian movement's own record has nothing like this ladder at all."
-  personal: "Not thinking about God - seeing, in the way a long-trained eye sees. The tradition insisted no one starts here; wanting the summit without the slope was itself one of the thoughts to be fought."
+  personal: It was seeing, in the way a long-trained eye sees, and not only thinking about God. In Evagrius's scheme no one started here. The practical life and passionlessness came first.
   translational: "'Theory' is the false friend: this is perception, not speculation - the trained sight of a life that has first been stilled."
 quick_meaning: "Contemplation - the trained seeing of God that a stilled life may reach."
 distortion_risk: high
