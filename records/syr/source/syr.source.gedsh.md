@@ -17,6 +17,7 @@ author: eds. Sebastian P. Brock, Aaron M. Butts, George A. Kiraz, Lucas Van Romp
 work: 'Gorgias Encyclopedic Dictionary of the Syriac Heritage (GEDSH, 2011) - specifically the ''Nisibis,
   School of'' entry: founded c. 489-496 CE, with the school titles mhaggyana, maqryana, mpashshqana'
 edition: consultation-only; no edition vendored
+citation: Sebastian P. Brock, Aaron M. Butts, George A. Kiraz and Lucas Van Rompay, eds., Gorgias Encyclopedic Dictionary of the Syriac Heritage (2011)
 kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: 'verified (Doc_03 SS3.1''s finding, applied as the post-approval correction across

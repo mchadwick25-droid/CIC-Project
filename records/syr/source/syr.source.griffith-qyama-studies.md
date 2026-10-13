@@ -19,6 +19,7 @@ work: 'The qyama-specific studies: the 1991 article in The Harp and the 1993 cha
   as distinct from Faith Adoring the Mystery), with ''Ephraem, the Deacon of Edessa, and the Church of
   the Empire'' (1986) for the deacon attestation'
 edition: consultation-only; no edition vendored
+citation: Sidney H. Griffith, studies of the qyama in The Harp (1991) and the Eulogema Taft festschrift (1993), with 'Ephraem, the Deacon of Edessa, and the Church of the Empire' (1986)
 kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: verified (legacy Doc_02's corrected citation set after the malpana/choir-organizing

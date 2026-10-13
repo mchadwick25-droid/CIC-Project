@@ -20,6 +20,7 @@ rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "authored for the stage-0.6 fixture, not a real archival source"
 external_ids: {}
+citation: "Synthetic Author A, The Witness Scroll (fixture)"
 kind: vendored
 shelf_row: fixture-synthetic--witness-scroll
 ---

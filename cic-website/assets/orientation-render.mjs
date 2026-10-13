@@ -162,7 +162,7 @@ export function renderSourcing(compiled) {
   if (readFirst.length) {
     const items = readFirst.map((entry) => {
       const source = entry.source || {};
-      const work = [source.author, source.work].filter(Boolean).join(", ");
+      const work = source.citation || [source.author, source.work].filter(Boolean).join(", ");
       const note = entry.note ? ` <span class="orient-read-first-note">${escapeHtml(entry.note)}</span>` : "";
       return `<li><span class="orient-read-first-work">${escapeHtml(work)}</span>${note}</li>`;
     });

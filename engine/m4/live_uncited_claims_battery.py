@@ -243,7 +243,7 @@ def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key
         voice_client=client, voice_model_id=voice_model_id, world=world,
         participant_message=message, directive=gate_run.gate_result.routing.directive,
         session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
-        debug_capture=raw_capture, sentence_enforce=False,
+        debug_capture=raw_capture,
     )
     for rec in usage_records:
         usage_store.append(rec)
@@ -265,7 +265,6 @@ def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key
             voice_client=client, voice_model_id=voice_model_id, world=world,
             participant_message=message, directive=gate_run.gate_result.routing.directive,
             session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
-            sentence_enforce=False,
             # `correction=` is appended onto _run_ordinary_voice_turn's own
             # turn_directive internally, so only the suffix is wanted here -
             # _append_r27_correction(None, ...) returns exactly that
@@ -578,7 +577,7 @@ def run_enforced(region: str, *, world_keys: list[str], table_world_keys: list[s
                     voice_client=client, voice_model_id=voice_model_id, world=world,
                     participant_message=message, directive=gate_run.gate_result.routing.directive,
                     session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
-                    r27_enforce=True, known_tradition_names=names, sentence_enforce=False,
+                    r27_enforce=True, known_tradition_names=names,
                 )
                 for rec in usage_records:
                     usage_store.append(rec)

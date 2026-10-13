@@ -13,6 +13,9 @@
 // throughout the current corpus).
 export interface SourceReference {
   source_id: string;
+  // The source record's own one-line citation, when it has one; the card
+  // then shows it in place of work, author and rights_status, which are null.
+  citation?: string | null;
   author: string | null;
   work: string | null;
   locus: string | null;

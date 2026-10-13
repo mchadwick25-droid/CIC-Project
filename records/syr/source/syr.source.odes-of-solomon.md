@@ -25,6 +25,7 @@ edition: 'J. Rendel Harris''s editio princeps translation, 2nd ed. revised and e
   (2026-09-09). The volume''s own English translation-with-commentary section (the only part with
   citable English wording; the Syriac text and the Pistis Sophia Latin-retroversion appendix are not
   usable) begins after file line 6520.'
+citation: The Odes of Solomon, trans. J. Rendel Harris, 2nd ed. (Cambridge University Press, 1911)
 kind: vendored
 rights_status: 'public-domain - verified directly from the vendored file''s own front matter (Cornell
   University Library): "There are no known copyright restrictions in the United States on the use of
