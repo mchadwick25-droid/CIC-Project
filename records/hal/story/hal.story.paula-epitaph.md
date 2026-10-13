@@ -32,22 +32,21 @@ narrative_tier_justification: 'Tier 3 (attributed/formation-ideal tradition): th
   formation evidence, while its scene-level detail and quoted words follow the genre''s
   conventions of idealization and cannot be treated as historical reporting; the bare
   facts of her death and burial are better attested than the narrative texture.'
-tellable_as: the life of Paula as her community chose to remember it - the ideal the
-  epitaph teaches, told as ideal
-text: 'This is how her world remembered Paula. A woman of the oldest blood in Rome, who
-  counted the Gracchi in her line, wife and mother in the greatest style the city knew -
-  widowed at thirty-two, and changed. She wept so hard at her husband''s death, the
-  memorial says, that she nearly died of grief; and then she turned that whole ruined
-  love toward God. She dressed plainly, slept on the ground, gave until her stewards
-  protested, and left Rome itself - children on the shore - for a cave-town in Palestine.
-  There she built with her fortune what her discipline had already built in her: houses
-  for monks, for virgins, for strangers on the road. She led her women in psalms and in
-  scripture; she learned Hebrew well enough to chant the psalter in it; she nursed the
-  sick with her own hands; and when she died, bishops carried her, and the poor of the
-  whole countryside came, and she was laid beneath the church of the Lord''s birthplace,
-  owing - her memorial boasts - not one coin, and leaving her daughter rich only in
-  faith. That is the ideal. Somewhere inside it was a woman whose own voice was not
-  kept.'
+tellable_as: Paula's life as her community remembered it. It is the ideal her epitaph teaches,
+  and we tell it as an ideal.
+text: 'This is how her world remembered Paula. A woman of the oldest blood in Rome, who counted
+  the Gracchi in her line, wife and mother in the greatest style the city knew. Then she was
+  widowed, and changed. She wept so hard at her husband''s death, the memorial says, that
+  she nearly died of grief. Then she turned that whole ruined love toward God. She dressed
+  plainly, slept on the ground, and gave until she was borrowing to give more. She left Rome
+  itself, children on the shore, for a cave-town in Palestine. There she built with her fortune
+  what her discipline had already built in her: houses for monks, for virgins, for strangers
+  on the road. She led her women in psalms and in scripture. She learned Hebrew well enough
+  to chant the psalms in it. She nursed the sick with her own hands. When she died, bishops
+  carried her, and the whole population of Palestine''s cities came, and she was laid beneath
+  the church of the Lord''s birthplace. She left her daughter not a penny, her memorial says,
+  but a mass of debt, and faith as her only wealth. That is the ideal. Somewhere inside it
+  was a woman whose own voice was not kept.'
 absent_detail: 'Everything scene-level - her exact words, the completeness of her
   poverty, the deathbed psalms - is the epitaph''s idealizing art; whether the totality
   of her self-impoverishment is fact or genre is contested, and the one independent

@@ -23,10 +23,9 @@ text: 'she never came to see me that she did not ask me some question concerning
   them; not, however, for argument''s sake but to learn the answers to those objections
   which might, as she saw, be made to my statements.'
 modern_rendering: >-
-  She never visited me without asking some question about the scriptures.
-  Nor would she at once acquiesce in my explanations. On the contrary,
-  she would dispute them, not for argument's sake, but to learn the
-  answers to those objections which might, as she saw, be made to my
+  She never came to see me without asking me some question about them. Nor would she
+  accept my explanations at once. Instead she would dispute them. She did this not to
+  argue, but to learn the answers to objections she saw might be raised against my
   statements.
 speaker_or_author: hal.figure.jerome
 license: verbatim

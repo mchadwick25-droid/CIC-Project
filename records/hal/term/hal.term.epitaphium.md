@@ -41,8 +41,8 @@ senses:
     words are not.
   personal: Grief carries unusual weight in what this world left behind - though that may partly
     be an artifact of which genre survived, rather than of what this world felt most.
-  translational: Between an obituary, a eulogy, and a saint's life - and ancestor to all three.
-quick_meaning: The commemorative letter for the dead - mourning and lesson fused in one form.
+  translational: "Close to an obituary, a eulogy, and a saint's life, all in one letter."
+quick_meaning: "The letter for the dead. It mourned them and taught the living what a holy life looked like."
 distortion_risk: high
 use_note:
   means: "The commemorative letter for the dead, which fused mourning with a lesson in holy living and survives mainly through Jerome's hand."

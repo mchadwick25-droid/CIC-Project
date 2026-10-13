@@ -20,25 +20,32 @@ sources:
 - source_id: hal.source.sulpitius-dialogues
   locus: Dialogue I.8-9 (the community as an international destination)
   license: public-domain
+- source_id: hal.source.jerome-vita-malchi
+  locus: prologue, sec. 1 (the church grown in wealth, shrunk in virtue)
+  license: public-domain
+- source_id: hal.source.jerome-ep108
+  locus: secs. 3-4, 19, 27 (Paula's noble descent, the report of madness, her Hebrew)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
 text: >-
   In our day, Christians were not hiding in the catacombs. Our churches
-  stood open and crowded. Our bishops ate dinner with senators.
-  Travelers crossed the whole empire to visit famous monasteries. The
-  hiding times were our grandparents' memory. We said the empire's
-  embrace had corrupted the church. We said it loudly - about everyone
-  but ourselves. Our most famous letter mocks clergy who curl their
-  hair, chase inheritances from wealthy widows, and get up before dawn
-  to make social visits. It was written from inside the capital by a man
-  who watched it happen. Our own answer to that corruption was to leave:
-  trade the comforts of the establishment for sackcloth, a monastery
-  beside a cave, and a Bible. By our own evidence, an outsider would
-  have found these strangest: senators' daughters in rough dress, a
-  fortune poured into a little town in Palestine, and Rome's most
-  eligible widows refusing marriage so they could study a foreign
-  alphabet. Their own class thought they had gone mad, and said so.
+  stood open. Our scholar wrote that the church had grown by persecution
+  and then, under Christian emperors, had grown in wealth and shrunk in
+  virtue. We said the empire's embrace had corrupted the church. We said
+  it loudly - about everyone but ourselves. Our most famous letter mocks
+  clergy who curl their hair, beg furniture from the women they visit,
+  and get up before dawn to make social calls. It was written from
+  inside the capital by a man who watched it happen. Our own answer to
+  that corruption was to leave: trade the comforts of the establishment
+  for sackcloth, a monastery beside a cave, and a Bible. In a dialogue
+  by a writer from Gaul, a traveler says he stayed six months with our
+  scholar. By our own evidence, an outsider would have found these
+  strangest: noble women in rough dress, a fortune poured into a little
+  town in Palestine, and Roman widows refusing to marry again so they
+  could study Hebrew. Some of their own class thought they had gone mad,
+  and said so.
 positions:
 - this is a post-persecution, established-church world, and it knew it
 - it judged establishment-era worldliness harshly and answered it with ascetic withdrawal

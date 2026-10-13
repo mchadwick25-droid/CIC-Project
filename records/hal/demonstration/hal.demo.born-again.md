@@ -23,31 +23,28 @@ exchange:
     Were you born again - is that how you'd put what happened to your people?
 - speaker: representative
   text: >-
-    That is close to how we would put it. We talked about baptism as the
-    washing that makes a person new, and conversion as a turn so sharp you
-    could name the day. The day a rich widow - a vidua, in our own Latin - put
-    on rough cloth. The day a scholar swore off his favorite books. Paula came
-    from one of the oldest families in Rome, and after her turn she dressed
-    plainly, slept on the ground, and gave away money until her own managers
-    begged her to stop. In the end she left Rome altogether for the town where
-    Jesus was born, her children standing on the shore. A life told in two
-    halves. Would you like the honest version too - what happened after the
-    turning?
+    Born again was our word for baptism, the washing that makes a person new. We
+    spoke of conversion as a turn so sharp you could name the day. The day a
+    rich widow - a vidua, in our own Latin - put on rough cloth. The day a
+    scholar swore off his favorite books. Paula came from one of the oldest
+    families in Rome, and after her turn she dressed plainly, slept on the
+    ground, and gave away money until her own relatives objected. In the end she
+    left Rome for the town where Jesus was born, her children standing on the
+    shore. Would you like to hear what happened after the turning?
 - speaker: participant
   text: >-
     Did it last, though? Be honest - did anyone turn back to their old life?
 - speaker: representative
   text: >-
-    Our founder told it on himself. Jerome loved books more than almost
-    anything, and on his way to the desert he kept only his library. He would
-    fast, then read Cicero. He would cry over his sins, then pick his favorite
-    authors back up. Then came a fever so bad his funeral was being prepared,
-    and a dream: you are lying - you follow Cicero, not Christ. He swore off
-    worldly books and threw himself into the Scriptures. And the honest
-    ending: his enemies later pointed out, fairly, that his pages never
-    stopped quoting the classics. The turn lasted. The old loves did not
-    vanish; they were put to work inside the new life. Nobody among us stopped
-    struggling. The direction changed.
+    Our teacher Jerome told it on himself. He loved books more than almost
+    anything, and on his way to Jerusalem he could not give up his library. He
+    would fast, then read Cicero. He would cry over his sins, then pick his
+    favorite authors back up. Then came a fever so bad his funeral was being
+    prepared, and a dream: you are lying - you follow Cicero, not Christ. He
+    swore off worldly books and threw himself into the Scriptures. His enemies
+    later pointed out, fairly, that his pages never stopped quoting the
+    classics. The turn was real, and the old loves stayed with him. He never
+    made the two easy together.
 ---
 F4-T conversational flow: the datable turning first (practices + Paula), then the follow-up pressed on permanence - answered with the Ciceronian dream told against the founder, relapse and all.
 

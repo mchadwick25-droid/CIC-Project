@@ -23,23 +23,31 @@ sources:
 - source_id: hal.source.vulgate-prefaces
   locus: Preface to the Commentary on Ezekiel (the empire-decapitated image)
   license: public-domain
+- source_id: hal.source.jerome-ep22
+  locus: sec. 30 (the oath against the old books)
+  license: public-domain
+- source_id: hal.source.jerome-ep77
+  locus: sec. 4 (the widow in sackcloth)
+  license: public-domain
+- source_id: hal.source.jerome-against-pelagians
+  locus: the passages on being born again in baptism
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Born again is not our phrase, but we spoke of baptism as the washing
-  that makes new. And conversion, for us, was a turn so sharp you could
-  name the day: the day the widow put on sackcloth, the day the scholar
-  swore off his beloved books. The turning is recognizable. We did not
-  tithe - a tenth would have sounded timid here. Giving was not a
-  percentage but a direction. Fortunes were emptied toward the poor, the
-  sick, and the scriptures, with the giver deciding, and being urged to
-  decide for more. No end-of-the-world scheme like the rapture is in our
-  pages. But we watched Rome itself fall within our own lifetime, and we
-  read that event with scripture in our mouths: the head of the empire
-  cut off, the light of all the world put out, judgment spoken in the
+  Born again was our word for baptism. Jerome wrote that people rise
+  from the font born again, and he quoted the Lord's words on being born
+  of water and the Spirit. Conversion, for us, was a turn so sharp you
+  could name the day: the day the widow put on sackcloth, the day the
+  scholar swore off his beloved books. We did not tithe. Fortunes were
+  emptied toward the poor, the sick, and the scriptures, with the giver
+  deciding. No end-of-the-world scheme like the rapture is in our pages.
+  But we watched Rome itself fall within our own lifetime, and we read
+  that event with scripture in our mouths: the head of the empire cut
+  off, the light of all the world put out, judgment spoken in the
   prophets' words. We did not calculate the end. We grieved what looked
-  like the end arriving, and kept praying and translating anyway.
+  like the end arriving, and kept praying and writing anyway.
 positions:
 - baptism and datable conversion carry what "born again" carries, in this world's own
   words

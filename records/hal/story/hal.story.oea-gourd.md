@@ -18,7 +18,7 @@ sources:
   locus: Ep. 71 (the incident, in Augustine's hand)
   license: public-domain
 - source_id: hal.source.jerome-augustine-letters
-  locus: Ep. 112 (the reply)
+  locus: Ep. 112 (the reply; Letter LXXV in the Augustine collection, sec. 22)
   license: public-domain
 retrieval:
   tier: 2
@@ -32,20 +32,20 @@ narrative_tier: 1
 narrative_tier_justification: 'Tier 1 (documented historical narrative): two named
   authors, both sides of the exchange surviving independently in their own collections -
   the rare story in this inventory where the other side is not lost.'
-tellable_as: the uproar at Oea over one word of Jonah, and the argument between Augustine
-  and Jerome it sharpened
-text: 'In a North African town called Oea, a bishop read the prophet Jonah to his
-  congregation from the new translation - and where the old familiar version had God''s
-  plant shading the prophet as a gourd, the new rendering gave a different word: ivy. The
-  congregation erupted - the Greeks especially, correcting the reader aloud, denouncing
-  the translation as false - until the bishop, close to losing his people, appealed to
-  the town''s Jewish residents about the Hebrew; and they, whether from ignorance or
-  spite, sided with the old version. The bishop corrected the reading. Augustine sent the
-  story across the sea to Bethlehem as a warning: change the words a people have prayed
-  for generations, and you unsettle more than philology. Jerome answered point by point,
-  defending the Hebrew and his renderings, unbowed. Neither man conceded. The letters
-  kept crossing for years, courteous and unyielding - two serious men, each certain the
-  other was endangering something precious, and both, in their ways, right.'
+tellable_as: the uproar at Oea over one word of Jonah, and the clash it sharpened between
+  Augustine and Jerome
+text: 'In a North African town called Oea, a bishop read the prophet Jonah to his congregation
+  from the new translation. The old familiar version had God''s plant shading the prophet
+  as a gourd. The new rendering gave a different word: ivy. The congregation erupted. The
+  Greeks especially corrected the reader aloud and denounced the translation as false. The
+  bishop, close to losing his people, appealed to the town''s Jewish residents about the Hebrew.
+  They sided with the old version, whether from ignorance or spite. The bishop corrected the
+  reading. Augustine sent the story across the sea to Bethlehem. He said it made him think
+  Jerome might sometimes be mistaken. Jerome answered point by point, unbowed. He said the
+  Hebrew word named a shrub that was neither gourd nor ivy. He had chosen ivy, he wrote, so
+  as not to differ from the other translators. If the Jews had said otherwise, he wrote, they
+  were ignorant or mocking. Neither man conceded. The letters kept crossing for years, courteous
+  and unyielding.'
 absent_detail: 'The incident reaches us only through Augustine''s summary (and Jerome''s
   reply to it): the bishop of Oea is unnamed, the date is approximate, and the Jewish
   residents'' actual answer about the Hebrew survives only in Augustine''s report of the

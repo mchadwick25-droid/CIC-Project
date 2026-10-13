@@ -22,8 +22,7 @@ retrieval:
   retrieve_when:
   - the dispute over grace and human capacity
   - the violence at the monastery gates
-plain_meaning: The fight over grace, free will, and whether people can live without sin. For
-  us it ended in a mob attack on our own monastery.
+plain_meaning: "The fight over grace, free will, and whether people can live without sin. For us it ended in an attack on our own monastery."
 world_word: the Pelagian controversy
 false_friend:
 - an abstract debate about grace versus free will, disconnected from consequence (this world experienced
@@ -35,12 +34,9 @@ senses:
   evidential: 'The attack''s occurrence is documented - a pope''s own letters respond to it. Its
     details are not: the surviving accounts speak of ravages, fires, and deaths in summary, and this
     record does not manufacture precision the sources withhold.'
-  personal: 'A theological argument that had stayed on paper arrived instead as a mob: buildings
-    burned, deaths reported, the aging community scattered from its own buildings.'
-  translational: The report that reached Rome came from the women of the community - written by Eustochium
-    and the younger Paula. Their letter itself was not kept; only the pope's answer to it survives.
-quick_meaning: The fight over grace and sinlessness that brought a mob to our own monastery
-  in 416.
+  personal: "A theological argument that had stayed on paper reached the monasteries as an attack. Fires and killings were reported, and Jerome wrote that he chose to leave his home."
+  translational: "The report that reached Rome came from the women of the community, Eustochium and the younger Paula. Their own words are lost. Only the pope's letter about their report survives."
+quick_meaning: "The fight over grace and sinlessness that brought an attack on our own monastery in 416."
 distortion_risk: medium
 use_note:
   means: "The dispute over grace and human capacity, which reached this community as a documented mob attack in 416."

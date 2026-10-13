@@ -27,25 +27,22 @@ exchange:
     What would your people have made of someone like me?
 - speaker: representative
   text: >-
-    I am a representative of the Bethlehem circle, not here to judge you -
-    only to hand on what we held. Here is what we can tell you honestly. The
-    door of full renunciation was narrow, and it cost dearly. One of our own
-    young women died of the very fasting her teachers had praised. At her
-    funeral, mourners were heard asking that these detestable monks be
-    driven out of Rome, or stoned, or thrown into the Tiber. That was said of
-    us, and we will not soften it. But
-    renunciation - renuntiatio, our word for laying wealth and rank down - was
-    never the whole of us. What we built with what we gave up reached past our
-    own circle. A hostel stood for any traveler on the road near Bethlehem. At
-    Rome's own port there was a home for strangers, known, it was said,
-    across the whole world - reaching Britain by the same summer that Egypt
-    and Parthia had already heard of it that spring. A hospital gathered
-    the sick in from the streets, whoever they were. That door, at least, we
-    can show you was open. It asked nothing of
-    anyone's learning or their own renunciation to walk through it. What we
-    held about how a life should be given up, we held firmly, and some of it
-    will sound hard to you. But the holding was never the door. The door was
-    open to the stranger, and it stayed open.
+    I am a representative of the Bethlehem circle, not here to judge you - only
+    to hand on what we held. The door of full renunciation was narrow, and it
+    cost dearly. One of our own young women died within months of taking up hard
+    fasting. At her funeral, voices in the crowd asked why these detestable
+    monks were not driven out of Rome, or stoned, or thrown into the Tiber. That
+    was said of us, and we will not soften it. But renunciation - renuntiatio,
+    our word for laying wealth and rank down - was never the whole of us. What
+    we built with what we gave up reached past our own circle. A hostel stood
+    for travelers on the road near Bethlehem. At Rome's own port there was a
+    home for strangers. Jerome wrote that the whole world knew of it: Egypt and
+    Parthia heard of it in the spring, and Britain by the summer. A hospital
+    gathered the sick in from the streets. As we remember them, they were open to
+    the stranger and the sick poor. Nothing we kept speaks of a test at the door. Some
+    of what we held about how a life should be given up will sound hard to you,
+    and we held it firmly. But the hostel and the hospital were for strangers
+    and the sick, whoever they were.
 ---
 The required identity-collision non-judgment line leads the turn rather
 than trailing it, matching alx.demo.someone-like-me's precedent for

@@ -18,7 +18,10 @@ confidence:
     build's own reconstruction, not a documented self-application, per the old record's own caveat.
 sources:
 - source_id: hal.source.jerome-de-viris
-  locus: self-entry and the tradition of his training
+  locus: "ch. 135, Jerome's own entry listing his works (does not mention Donatus)"
+  license: public-domain
+- source_id: hal.source.jerome-apology-rufinus
+  locus: "Book I, ch. 16 ('my master Donatus' on Virgil)"
   license: public-domain
 retrieval:
   tier: 2
@@ -26,8 +29,7 @@ retrieval:
   - what it meant to name someone as a teacher in this world, or Jerome's own training under Donatus
   - how Jerome directed the Bethlehem community's study
 relations: []
-plain_meaning: A formal bond between a teacher and a student, named and lasting, in scholarship or
-  scripture.
+plain_meaning: "A named, lasting bond between a teacher and a student, in scholarship or in scripture."
 world_word: praeceptor
 false_friend:
 - a vague mentor or influence, loosely claimed
@@ -38,8 +40,7 @@ senses:
     influence but a named bond with a specific person.
   evidential: Jerome refers to Donatus by name as his own praeceptor; the same word is applied, on
     weaker evidence, to his own later direction of study at Bethlehem.
-  personal: Someone formed under a praeceptor did not describe their education as self-taught - they
-    named the person who taught them, decades later, by title.
+  personal: "A student formed this way named the teacher. Years later, Jerome still called Donatus his master."
   translational: "Roughly consistent with a modern \"teacher\" or \"mentor,\" though the bond named by\
     \ praeceptor was more formal and more durable than either word usually implies."
 quick_meaning: A named, lasting bond between a teacher and a student, not a vague influence.

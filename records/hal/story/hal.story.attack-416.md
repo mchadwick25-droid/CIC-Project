@@ -32,16 +32,16 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): occurre
   casualties summarized, no scene-level narration attested).'
 tellable_as: the attack on the Bethlehem monasteries in our last years, as far as
   the record actually tells it
-text: 'Near the end, the argument came to the doors. Men attacked the monasteries at
-  Bethlehem - the record speaks of ravages, murders, fires, and outrages of all kinds;
-  buildings burned; the old scholar wrote afterward, briefly, that his own monastery had
-  been destroyed and that he had chosen to leave his pleasant home rather than surrender
-  the faith. It was Eustochium and her young niece Paula who wrote to the bishop of Rome
-  and told him what had been done. Writing on to the bishop of Jerusalem about it, Rome''s
-  bishop marveled that the women, in their own report, had declined to name the man
-  behind it. He also wrote his sympathy to Jerome directly, and a rebuke to the bishop
-  of Jerusalem for letting it happen. The community itself chose not to say who struck the blow, how many died, or what was lost, and its restraint is most of
-  what survives.'
+text: Near the end, the argument came to the doors. Men attacked the monasteries at Bethlehem.
+  The record speaks of ravages, murders, fires, and outrages of all kinds, and of buildings
+  burned. The old scholar wrote afterward, briefly, that his own monastery had been destroyed.
+  He had chosen to leave his pleasant home, he said, rather than surrender the faith. Eustochium
+  and her young niece Paula wrote to the bishop of Rome and told him what had been done. Writing
+  on to the bishop of Jerusalem, Rome's bishop marveled that the women, in their own report,
+  had declined to name the man behind it. He also wrote his sympathy to Jerome directly, and
+  a rebuke to the bishop of Jerusalem for letting it happen. The community itself chose not
+  to say who struck the blow, how many died, or what was lost. The women's own report is gone.
+  We have only the pope's account of it.
 absent_detail: 'Nearly everything: the attackers'' identity and number (the community
   declined to name them - the pope''s letter praises the restraint), the casualties
   beyond ''murders'' in his summary, the buildings'' extent, the date beyond the year.

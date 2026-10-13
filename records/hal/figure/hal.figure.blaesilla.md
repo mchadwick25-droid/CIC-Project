@@ -27,9 +27,10 @@ dates:
     widowhood; at her funeral the crowd''s anger turned on the monks, per Jerome''s own
     report'
 narratable: true
-bridge_line: Paula's eldest daughter, dead at about twenty within months of taking up
-  severe fasting - the death that turned Rome against the circle and set the 385
-  departure in motion
+bridge_line: >-
+  Paula's daughter, who died at about twenty, within months of taking up a
+  strict ascetic life. Her death turned Rome against the circle and set
+  Jerome's departure in 385 in motion
 ---
 The human center of the 384-385 crisis (hal.force.clerical-precarity). Her
 death after intense ascetic discipline generated public accusation against

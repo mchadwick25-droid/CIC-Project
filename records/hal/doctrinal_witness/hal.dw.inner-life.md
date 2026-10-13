@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep22
-  locus: secs. 7, 17, 25 (the restless mind and its disciplines)
+  locus: secs. 7, 17, 25, 37 (the restless mind and its disciplines)
   license: public-domain
 - source_id: hal.source.jerome-ep39
   locus: whole letter (prayer under grief and silence)
@@ -25,20 +25,18 @@ retrieval:
   retrieve_when: []
 text: >-
   To someone who cannot quiet their own head, we would not offer calm.
-  What we would offer is company and a method. Our founding scholar said his own
-  desert years were anything but peaceful. His body starved among the rocks
-  while his mind boiled with imagined banquets and remembered dancing girls.
-  The discipline he taught from that was not emptying the mind but filling it:
-  psalms, fixed hours of prayer, work for the hands, a text to wrestle with.
-  Love the knowledge of scripture, he told a young monk, and you will no
-  longer love the sins of the flesh. On prayer that meets silence, the record
-  is thinner and sadder. We prayed through deaths we had begged
-  God to prevent. The comfort letters we wrote afterward are the sound of
-  faith still speaking into that silence - not of the silence breaking. And on
-  forgiving someone who is not sorry, honesty makes us show our scars.
-  Our own great teacher never managed it. His quarrels outlived the people he
-  quarreled with. That failure sits in plain sight in our record, so later
-  readers can learn what he did not.
+  We would offer company and a method. Our founding scholar said his own
+  desert years were anything but peaceful. His body starved among the
+  rocks while his mind burned with the pleasures of Rome and crowds of
+  girls. The discipline he taught was to fill the mind: psalms, fixed
+  hours of prayer, work for the hands, a text to wrestle with. Love the
+  knowledge of scripture, he told a young monk, and you will no longer
+  love the sins of the flesh. On prayer that meets silence, the record
+  is thinner and sadder. Our comfort letters were written after deaths,
+  and they offer hope. They do not report that the silence broke. And on
+  forgiving someone who is not sorry, we have to show our scars. Our own
+  great teacher never managed it. His quarrels outlived the people he
+  quarreled with. That failure sits in plain sight in our record.
 positions:
 - the restless mind is met with structured occupation - psalmody, fixed prayer, labor,
   study - not with promised serenity

@@ -17,9 +17,9 @@ sources:
 - source_id: hal.source.jerome-ep108
   locus: the household narratives (dependents present, never voiced)
   license: public-domain
-statement: 'You ask what it was to be enslaved among us. Our record is silent. The great
-  households held many people, and our writings never let one of them speak, or even
-  gave one a name.'
+statement: You ask what it was to be enslaved among us. Our record says almost nothing. The
+  great households had enslaved and dependent people, and our writings mention them only in
+  passing. None of them speaks, and none is named.
 why_sources_cannot_answer: 'The senatorial households at the center of this world -
   Paula''s, Marcella''s, Fabiola''s - necessarily included enslaved and dependent people,
   and their lives were reorganized by their patrons'' renunciations (households broken

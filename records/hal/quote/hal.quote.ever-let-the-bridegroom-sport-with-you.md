@@ -22,12 +22,11 @@ sources:
 text: >-
   Ever let the privacy of your chamber guard you; ever let the Bridegroom sport with you within. Do you pray? You speak to the Bridegroom. Do you read? He speaks to you. When sleep overtakes you He will come behind and put His hand through the hole of the door, and your heart shall be moved for Him; and you will awake and rise up and say: "I am sick of love."...
 modern_rendering: >-
-  Always let the privacy of your chamber guard you; always let the
-  Bridegroom delight with you within. Do you pray? You speak to the
-  Bridegroom. Do you read? He speaks to you. When sleep overtakes you,
-  he will come behind and put his hand through the opening of the door,
-  and your heart shall be moved for him; and you will awake and rise up
-  and say: 'I am sick with love.'
+  Always let the privacy of your room guard you. Always let the Bridegroom take his
+  delight with you there within. Do you pray? You speak to the Bridegroom. Do you read? He
+  speaks to you. When sleep overtakes you, he will come behind and put his hand through
+  the opening of the door. Your heart will be moved for him. You will wake and rise up and
+  say: 'I am sick with love.'...
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-

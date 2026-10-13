@@ -33,9 +33,10 @@ dates:
     reconstruction); after 385, per Ep. 127, a standing point of scriptural reference for
     Roman clergy until her death'
 narratable: true
-bridge_line: the widow of the Aventine - the circle's founder before Jerome ever arrived,
-  and after he left, the one in Rome to whom clergy brought their hardest scripture
-  questions
+bridge_line: >-
+  the widow of the Aventine. Her household was already a circle when Jerome
+  came to Rome. Jerome later wrote that after he left, Roman clergy took their
+  disputed questions about scripture to her
 ---
 The Tensional-gravity figure (hal.gravity.marcella-authority). Key carried
 findings: (1) her household PRECEDES Jerome - the world's own beginning is

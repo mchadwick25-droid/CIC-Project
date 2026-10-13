@@ -34,12 +34,9 @@ senses:
     hospice the community built for them.
   evidential: The journey narrative survives in Jerome's epitaph for Paula; its broad sequence is
     credible, its devotional scene-detail is genre-shaped.
-  personal: At each place, in the telling this world kept, Paula saw with the eyes of faith what
-    the place had held - at the manger most of all.
-  translational: This world's pilgrimage was elite and individual - a far cry from mass pilgrimage;
-    its distinctive move was not visiting the holy places but STAYING.
-quick_meaning: Pilgrimage - devotional travel to the holy places, and for us, the choice
-  to stay.
+  personal: "At the holy places, in the telling this world kept, Paula saw with the eyes of faith what each place had held, most of all at the manger."
+  translational: "This was the journey of a wealthy woman, her daughter, and their companions. What marked it was the decision to stay at Bethlehem after the visit."
+quick_meaning: "Pilgrimage, or devout travel to the holy places. For us it ended in the choice to stay."
 distortion_risk: medium
 use_note:
   means: "Devout travel to the holy places, which for this elite community ended in the choice to stay at Bethlehem."
