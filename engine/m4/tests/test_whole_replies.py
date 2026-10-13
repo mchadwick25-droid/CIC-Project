@@ -6,7 +6,7 @@ other flagged sentence is shown as written. Fake clients only."""
 import pytest
 
 from engine.m4 import grounding_net
-from engine.m4.tests.test_turn import FakeBedrockClient, _directive_text, _reader, _safety
+from engine.m4.tests.test_turn import FakeBedrockClient, _reader, _safety
 from engine.m4.turn import apply_net, run_voice_turn_for_world
 from engine.m4.world_loader import LoadedWorld
 
