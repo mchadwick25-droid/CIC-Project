@@ -22,10 +22,7 @@ relations:
   target: syr.gravity.covenant-life
 name: Early Institutional Commitment to the Covenant Order [1B-2 - initiating/internal]
 kind: initiating
-description: The covenant order stands at the community's core early enough that its first datable witness
-  (Demonstration 6, 337) addresses it as already established and needing correction more than founding
-  - a discipline in the middle of its life, not its first spring. How much earlier its origin lies is
-  not established by any source.
+description: The covenant order stood at the heart of the community early on. Its first datable witness is Demonstration 6, from 337. That text treats the order as already set up. It needs correcting more than founding. No source says how much earlier it began.
 manifestations:
 - Aphrahat's 'rule'-like instruction to standing covenanters
 - vowed celibacy entered for life, lived among kin, serving the congregation

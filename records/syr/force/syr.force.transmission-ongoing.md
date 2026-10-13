@@ -35,12 +35,7 @@ relations:
 name: 'Transmission: Who Carried the Material, Under What Conditions, With What Selection [2B-2 - ongoing/internal,
   the required transmission force]'
 kind: ongoing
-description: 'What survives survived because institutionally embedded, transmission-favored voices produced
-  it: Ephrem''s corpus, carried in part by the very singing of his hymns in worship, overwhelms everything
-  else; Aphrahat''s Demonstrations survive in a handful of manuscripts and were barely disseminated even
-  within Syriac Christianity. The same selection silenced everyone else - lay believers, the daughters
-  of the covenant, Jewish interlocutors, the enslaved - because no non-institutional testimony was carried
-  forward at all.'
+description: 'What survives was kept by the church itself. Ephrem''s works were carried partly by the singing of his hymns in worship. They outweigh all else. Aphrahat''s Demonstrations survive in only a few early copies, and his name was soon lost. The same process left everyone else out. Lay believers, the daughters of the covenant, Jewish neighbors and slaves left no words that were kept.'
 manifestations:
 - the sung madrashe as transmission inside worship itself - repetition doing the remembering
 - 'Aphrahat''s thin manuscript thread: two principal witnesses, two Demonstrations missing, translations

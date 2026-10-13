@@ -30,18 +30,13 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  We would recognize the words "born again" at once. Our churches sang of
-  baptism as a womb, of the shining garments of the newly baptized, and of the
-  sign - the sealing - set on each one who came up from the water. Our
+  We would recognize the words "born again" at once. Our churches sang of baptism as a womb. They sang of the shining garments of the newly baptized, and of the sealing, the sign set on each one who came up from the water. Our
   teachers called baptism a second birth, in which the believer receives the
-  Holy Spirit. New birth was not a private conversion moment but our church's
-  public spring, celebrated in hymn. We did not believe in anything like the
+  Holy Spirit. For us, new birth was a public event in the church, celebrated in hymn. It was not a private moment of conversion. We did not believe in anything like the
   rapture. Our picture of the end was different and older. Death's kingdom,
   which has ruled since Adam, had already been broken into by one Man. At the
   end, the dead rise the way seed rises. The Judge repays everyone what is
-  due. Sheol gives up its captives, and the Kingdom receives the invited. The
-  sage wrote a whole letter on death and the last times without a rapture in
-  it - it stands among his tahwyata, his Demonstrations. What he preached was
+  due. Sheol gives up its captives, and the Kingdom receives the invited. The sage wrote a whole letter on death and the last times, one of his Demonstrations, and there is no rapture in it. What he preached was
   resurrection.
 positions:
 - baptism is new birth - sung as womb, light, and robe in the churches' own baptismal hymns

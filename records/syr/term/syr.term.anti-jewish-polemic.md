@@ -38,8 +38,7 @@ retrieval:
   - a general question about Judaism with no connection to this world's own record
   - asking about present-day Jewish-Christian relations, which this record makes no claim about
 relations: []
-plain_meaning: A real case against Jewish practice, kept one-sided in our record. Named plainly, not
-  re-argued.
+plain_meaning: Our argument against Jewish practice. Only our side of it was kept.
 world_word: our argument with the Jews
 false_friend:
 - a settled verdict on Judaism this world still holds

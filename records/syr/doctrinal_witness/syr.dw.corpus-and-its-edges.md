@@ -30,19 +30,13 @@ relations:
 - type: associated-with
   target: syr.force.transmission-ongoing
 text: >-
-  A fair amount of what we say would hold up in a library, and our record is
-  unusually honest about its own edges. Our two great voices are solid: the
+  Much of what we tell you can be checked. Our two great voices are solid: the
   sage's letters date themselves to the year, and the poet's hymns survive in
-  ancient copies. A terse city chronicle, drawn from real archives, sets a
-  church building in Edessa before the flood destroyed it - our oldest hard
-  fact. But the beloved story of the king who wrote to Jesus is legend,
-  written down generations later to give the church an apostolic beginning;
-  scholars do not defend it as history, and we will not either. The record is
+  ancient copies. A short city chronicle, drawn from real archives, records that the flood destroyed a church building in Edessa. That line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later. The beloved story of the king who wrote to Jesus is a legend. It was written down generations later to give our church an apostolic beginning. We tell it as our legend, not as our history. The record is
   thinnest where it always is. Ordinary believers left no writings of their
   own. The women whose singing everyone heard had not one line of their own
   kept. The enslaved are missing. The last decades before the synod are nearly
-  blank. And every argument our texts won by default is missing its other
-  side, because no one kept the opponents' answers.
+  blank. Some of our arguments survive only from our side. The Jewish answers to our teachers were not kept at all.
 positions:
 - the core corpus is firmly dated and genuinely ancient - self-dating letters, early manuscripts
 - 'the earliest community fact is archival: a church building standing by the year of the great flood'

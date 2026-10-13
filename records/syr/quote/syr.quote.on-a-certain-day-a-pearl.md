@@ -26,7 +26,7 @@ modern_rendering: >-
   One day, my brothers, I picked up a pearl. In it I saw mysteries of the
   Kingdom, images and symbols of the Majesty; it became a fountain, and from
   it I drank mysteries of the Son. I set it, my brothers, on the palm of my
-  hand so I could examine it. I turned to look at it from one side, and it
+  hand so I could examine it. I went to look at it from one side, and it
   showed faces on every side. I discovered that the Son cannot be fully
   grasped, since he is wholly Light.
 speaker_or_author: Ephrem the Syrian, The Pearl, Hymn I
@@ -45,7 +45,7 @@ relations:
 - type: associated-with
   target: syr.term.raza-shrara
 use_note:
-  means: "Ephrem, in his first Pearl hymn, turns a pearl on his palm, finds faces on every side, and concludes that the Son is incomprehensible because he is wholly Light."
+  means: "Ephrem, in his first Pearl hymn, sets a pearl on his palm, looks at it from one side, finds faces on every side, and concludes that the Son is incomprehensible because he is wholly Light."
   not_for:
     - "a proposition merely decorated with an image, as if the turning of the pearl were incidental"
     - "a definition of the Son's nature that resolves what the hymn says cannot be grasped"
@@ -58,7 +58,7 @@ that witness alone, and syr.term.raza-shrara likewise cites these hymns for the 
 quotable line. This quote fills that gap.
 
 The opening stanza is kept whole rather than excerpted to the memorable phrase, because the
-movement is the point - takes it up, sees mysteries, drinks, sets it on his palm, turns it, finds
+movement is the point - takes it up, sees mysteries, drinks, sets it on his palm, looks at it from one side, finds
 faces on every side, and only then concludes. Cutting to "it proved faces on all sides" would
 leave the conclusion without the seeing that produced it.
 

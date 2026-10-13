@@ -34,9 +34,7 @@ text: >-
   story turns strange and sharp. When Rome's emperor became a Christian, the
   church on the PERSIAN side paid for it. The King of Kings' court accused
   Persia's bishops of loving Rome. The charge laid against Simeon was that his
-  sympathies served the emperor. Being Christian began to sound like being the
-  enemy's friend. Constantine's peace, seen from this frontier, arrived as
-  another empire's blessing and this empire's suspicion.
+  sympathies served the emperor. Being Christian began to sound like being the enemy's friend.
 positions:
 - 'worship was public and civic: buildings, assemblies, a place in the city''s own records'
 - Rome's christianization made Persian Christians politically suspect - the frontier inversion of the

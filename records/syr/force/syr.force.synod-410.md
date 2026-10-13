@@ -31,10 +31,7 @@ relations:
   target: syr.force.institutional-consolidation
 name: The Synod of Seleucia-Ctesiphon (410), Brokered by Marutha [3A-2 - ending/external]
 kind: ending
-description: 'Under state recognition, with the Roman envoy-bishop Marutha''s brokerage, the Persian church
-  is organized into a structured body with metropolitan provinces under Isaac of Seleucia-Ctesiphon. This
-  is the institutional-structural change that closes this world''s own window: the settled order its own
-  long ambiguity never produced from within arrives from without.'
+description: 'The Persian state recognized the church in 410. Marutha, a bishop sent by Rome, helped broker the deal. The church was then set in order as one body, with provinces under Isaac, bishop of the royal city. This change marks the end of the period.'
 manifestations:
 - Marutha's embassies opening the royal door
 - metropolitan provinces and a recognized head where a seat once stood empty twenty years

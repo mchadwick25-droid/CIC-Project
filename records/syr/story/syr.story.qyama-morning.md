@@ -50,19 +50,13 @@ narrative_tier_justification: 'Tier 4 (historically grounded reconstruction): a 
 tellable_as: a typical morning gathering as it would have gone - offered openly as reconstruction, never
   as a remembered event
 text: >-
-  Before dawn in Nisibis, in the years before the city was given away, those
-  bound by the covenant gather for the vigil. They are men and women who have
+  No single morning like this was written down. Pieced together from separate sources, a typical one might have gone like this. Before dawn in Nisibis, in the years before the city was given away, those bound by the covenant gather for the vigil. They are men and women who have
   taken the vow, unmarried, walking from their own family houses through the
   dark streets. Among them stands the choir of the daughters of the covenant,
-  who will raise the madrasha. When the hymn begins, it is not decoration
-  beside the teaching. It is the teaching - doctrine carried on the tune,
-  stanza answering refrain, until the whole gathering holds the argument by
-  heart. The Gospel read out is one unbroken story, the harmony, heard as a
+  who will raise the madrasha. The hymn is itself the teaching. Doctrine is carried on the tune, stanza answering refrain, until the whole gathering holds the argument by heart. The Gospel read out is one unbroken story, the harmony, heard as a
   single unfolding account. The feast this season keeps the Lord's birth and
   his baptism together, in one observance, as this city then did. When the
-  light is full, the covenanters keep their fast and go back - not to a
-  cloister, but to their households and their work. Their vow is lived in the
-  middle of the town.
+  light is full, the covenanters keep their fast and go back to their own households and their work in town. There is no cloister.
 absent_detail: 'This is a composite: no such specific morning is recorded anywhere, and the interior experience
   of the worshippers is not attested. The calendar detail (birth and baptism kept together) belongs to
   pre-363 Nisibis specifically and must not be generalized to Edessa after the move or to the Persian-side

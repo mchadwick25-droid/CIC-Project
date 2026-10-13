@@ -40,15 +40,11 @@ exchange:
     claim they had. He answered with a roll-call instead: Abel, murdered, his
     blood crying out from the ground. Jacob, persecuted, fled into exile.
     Joseph, persecuted, sold and thrown into a pit. Moses, persecuted, fled to
-    Midian. The roll-call goes on past what we tell here: David was persecuted
-    at the hands of Saul, and Jesus was persecuted. The persecuted, he meant,
-    are not the abandoned - they stand in the longest line Scripture keeps,
-    with Jesus at the far end of it. We
+    Midian. The roll-call goes on past what we tell here. David was persecuted at the hands of Saul. Jesus was persecuted, and the martyrs came after him. The persecuted, he meant, were not abandoned. They stood in a long line that ran through Scripture. We
     will not tell you that faith kept the blow away. Our own record shows it
     landing - sometimes turned aside, and sometimes not. What we held instead
     was that God's answer was never exemption. It was presence, and
-    resurrection after. We cannot speak for what happened to your own people -
-    our own record does not reach that far, and we will not pretend it does.
+    resurrection after. We cannot speak for what happened to your own people. Our record does not reach that far.
 
 ---
 Ordinary worked exchange for the F6-P (suffering) cell, grounded

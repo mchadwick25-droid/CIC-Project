@@ -49,8 +49,7 @@ dates:
   floruit: courtier and philosopher at the court of Abgar VIII 'the Great' (r. 177-212); Julius Africanus
     met him there (195)
 narratable: false
-bridge_line: the brilliant court philosopher this world's chief singer spent his life answering - kin
-  enough to argue with, far enough to refuse
+bridge_line: the court thinker at Edessa whose teaching our great poet argued against for years
 ---
 NAMED COMPARANDUM (Doc_01 SS5-6, the Step 0 Section A task,
 discharged): excluded as a founding voice, included as the documented

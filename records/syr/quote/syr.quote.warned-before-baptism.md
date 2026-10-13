@@ -13,7 +13,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Aphrahat's own instruction in Hallock's English, both halves read directly in the vendored file. Hallock's transcription carries in-line markers ('~1~' for a footnote, '~' for a space) which are not reproduced; the translator's parenthetical glosses and his '(wishing to. become)' typo are kept as they stand. The passage stands in Demonstration VII (On Penitents), sec. 20, not VI (Of Monks): syr.dw.born-again-endtimes's own citation of Demonstration VI for 'the second birth; the Spirit received in baptism' names the wrong locus.
+    Documented as Aphrahat's own instruction in Hallock's English, both halves read directly in the vendored file. Hallock's transcription marks footnotes as '~1~', which is not reproduced, and writes some spaces as '~', which is kept as printed; the translator's parenthetical glosses and his '(wishing to. become)' typo are kept as they stand. The passage stands in Demonstration VII (On Penitents), sec. 20, not VI (Of Monks): syr.dw.born-again-endtimes's own citation of Demonstration VI for 'the second birth; the Spirit received in baptism' names the wrong locus.
 sources:
 - source_id: syr.source.aphrahat-demonstrations-hallock
   locus: >-
@@ -22,21 +22,21 @@ sources:
 text: >-
   For this reason it is fitting for the sounders of trumpets, the preachers of the Church, to warn all (who are in) the covenant of God before baptism, and to those who choose for themselves virginity and holiness, young men and virgins and those (wishing to. become) holy; and for the preachers to warn them and say: "He who sets his heart upon the natural state of fellowship (i.e.~in matrimony), let him become united before baptism lest, perhaps, he fall in the conflict and be killed. And he who is afraid of this part of the struggle let him turn back lest, perhaps, he break the heart of his brethren as well as his own heart. And he who loves possessions let him turn back from the army lest, perhaps, when the battle shall prevail against him he should remember his possessions and turn back to them, for there is disgrace to him who turns back from the conflict".
 modern_rendering: >-
-  For this reason it is right for the preachers of the Church - the ones who
-  sound the trumpet - to warn everyone in God's covenant before baptism: those
-  who choose for themselves virginity and holiness, the young men and the
-  virgins, and those wishing to become holy. The preachers are to warn them
-  and say this. If your heart is set on marriage, then marry before your
+  For this reason it is right for the preachers of the Church, who sound the
+  trumpet, to warn everyone in God's covenant before baptism. They are also to
+  warn those who choose for themselves virginity and holiness: the young men,
+  the virgins, and those wishing to become holy. The preachers are to warn
+  them and say this. If your heart is set on marriage, then marry before your
   baptism. Otherwise you may fall in the fight and be killed. And if you are
   afraid of this part of the fight, turn back now, so that you do not break
   your brothers' hearts along with your own. And if you love your
-  possessions, turn back from the army too - or else, when the battle goes
-  against you, you may remember your possessions and turn back to them, for
+  possessions, turn back from the army too. Otherwise, when the battle goes
+  against you, you may remember your possessions and turn back to them. For
   there is disgrace for the one who turns back from the fight.
 speaker_or_author: Aphrahat, Demonstration VII.20
 license: verbatim
 modern_lens_note: >-
-  This settles the infant-baptism question by making it unaskable: nobody warned here is a baby. A herald stands up before the baptism and tells the candidates that anyone who wants marriage should marry FIRST, anyone frightened should withdraw now, and anyone attached to property should leave the line - and says it is no disgrace to turn back before enlisting, only after. Baptism is being described as enlistment, with the whole passage built on Gideon sending the fearful home. So 'were you born again' would land oddly: the decisive moment is a public choice with a cost stated in advance and an exit offered, which is nearer to taking vows than to a conversion experience.
+  The people warned here are old enough to choose for themselves. The preachers tell the candidates before baptism that anyone who wants marriage should marry first, anyone afraid should turn back now, and anyone attached to possessions should leave the army. Baptism is described as enlisting, and the passage draws on Gideon sending the fearful home. The decisive moment is a public choice, with its cost stated in advance and a way out offered. That is nearer to taking vows than to a modern conversion experience. The passage does not say whether infants were also baptised.
 retrieval:
   tier: 1
   retrieve_when:

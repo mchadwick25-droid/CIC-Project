@@ -41,15 +41,9 @@ narrative_tier_justification: 'Tier 3 (attributed/hagiographic tradition): Theod
 tellable_as: the city's remembered deliverance - Jacob's prayer on the wall, as the church told it
 text: >-
   Shapur's army lay against the walls of Nisibis, and the river had been
-  turned against the city. The tradition tells that Ephrem urged the aged
-  bishop Jacob to climb the wall and let prayer, not strength, be the city's
-  defense. The old man agreed and went up into a tower. Looking out over the
-  numberless camp, he asked God not for the enemy's death, but for the
-  smallest of plagues: mosquitoes and gnats. The clouds of them came. They
-  maddened the elephants and the horses. And the army that a river could not
-  stop broke camp before the smallest things God had made. The city sang of
-  its rescue afterward. Ephrem himself, who had urged it and watched it, put
-  it into the hymns Nisibis kept.
+  turned against the city. The tradition tells that Ephrem begged the aged bishop Jacob to climb the wall, look at the enemy, and curse them. The old man agreed and went up into a tower. Looking out over the
+  numberless camp, he called down no other curse than the smallest of plagues: mosquitoes and gnats. The clouds of them came. They
+  maddened the elephants and the horses. The Persians left their camp and fled. The city sang of its rescue afterward.
 absent_detail: 'The miracle is the tradition''s own telling, not verified event; even which siege it belongs
   to (338, 346, or 350) is unsettled. The roles must never be reversed: the tradition credits Jacob''s
   prayer, with Ephrem as the one who urges and later sings - crediting the miracle to Ephrem is a documented
