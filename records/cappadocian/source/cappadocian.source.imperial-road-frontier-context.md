@@ -17,6 +17,7 @@ relations: []
 author: No single named author -- general regional/imperial history
 work: The imperial road-and-frontier context (Armenian frontier military traffic)
 edition: General regional history, no specific text acquired or identified
+citation: The imperial road-and-frontier context of Cappadocia (Armenian frontier military traffic); general regional history, no specific text
 kind: unvendored
 rights_status: "not applicable - no single specific text has been identified for this row; it names a person, general pattern, or unlocated corpus rather than a held text"
 attribution_status: attributed

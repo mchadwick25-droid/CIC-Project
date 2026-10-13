@@ -18,6 +18,7 @@ author: Eunomius of Cyzicus
 work: Eunomius, the First Apology
 edition: Whiston's 1711 translation, re-edited by Roger Pearse with Vaggione's chapter numbering, vendored
   as cic/texts/eunomius_first-apology_whiston1711.txt
+citation: Eunomius of Cyzicus, First Apology, trans. Whiston (1711), re-edited by Roger Pearse with Vaggione's chapter numbering
 kind: vendored
 rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed

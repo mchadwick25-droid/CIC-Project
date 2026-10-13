@@ -22,6 +22,7 @@ author: 'Basil of Caesarea (disputed correspondent: Libanius of Antioch)'
 work: Basil-Libanius correspondence (Epistles 335-359)
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
+citation: 'Basil of Caesarea and Libanius of Antioch (disputed), the Basil-Libanius correspondence (Epistles 335-359), Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: 'contested (majority view among Libanius scholars: the entire exchange is a known

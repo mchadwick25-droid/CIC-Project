@@ -214,7 +214,6 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     # source-citation: each source record's participant-facing citation line,
     # added world by world with that world's record wording pass.
     "m9:source-citation/alx": Waiver(count=25, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; alx's record wording pass"),
-    "m9:source-citation/cappadocian": Waiver(count=111, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; cappadocian's record wording pass"),
     "m9:source-citation/desert": Waiver(count=30, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; desert's record wording pass"),
     "m9:source-citation/don": Waiver(count=76, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; don's record wording pass"),
     "m9:source-citation/gallic": Waiver(count=36, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; gallic's record wording pass"),

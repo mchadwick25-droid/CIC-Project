@@ -18,6 +18,7 @@ author: Basil of Caesarea
 work: Basil, the Eustathius-rupture letters (Epp. 119, 128, 130, 223, 226, 244, 251)
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
+citation: 'Basil of Caesarea, the Eustathius-rupture letters (Epp. 119, 128, 130, 223, 226, 244, 251), Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

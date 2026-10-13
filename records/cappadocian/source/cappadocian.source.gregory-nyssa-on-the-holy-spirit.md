@@ -18,6 +18,7 @@ author: Gregory of Nyssa
 work: Gregory of Nyssa, On the Holy Spirit and the sermons on the Deity of the Son and Spirit
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, Ascetic, and
   Moral Treatises, Letters), ed. Schaff, vendored as cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt'
+citation: 'Gregory of Nyssa, On the Holy Spirit and the sermons on the Deity of the Son and Spirit, Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, Ascetic, and Moral Treatises, Letters), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

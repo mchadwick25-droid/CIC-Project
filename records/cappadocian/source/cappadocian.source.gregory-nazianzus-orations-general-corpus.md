@@ -19,6 +19,7 @@ work: Gregory of Nazianzus, Orations (general corpus; among ~245 letters, covers
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed.
   Schaff, vendored as cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml (covers the Orations; among
   the ~245 letters, only Epp. 101, 102, 202)
+citation: Gregory of Nazianzus, Orations, Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed. Schaff
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

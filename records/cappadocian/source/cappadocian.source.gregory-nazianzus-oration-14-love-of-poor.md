@@ -21,6 +21,7 @@ work: Gregory of Nazianzus, Oration 14, On the Love of the Poor
 edition: 'NOT within the vendored npnf207 edition -- only a single mention inside the Prolegomena''s
   own catalogue of Gregory''s works exists (`iii.ii.ii-p7`), not the oration''s own text. A named,
   currently unfilled acquisition gap (Source_Registry.md row 32).'
+citation: Gregory of Nazianzus, Oration 14, On the Love of the Poor; not held in Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed. Schaff
 kind: unvendored
 rights_status: not vendored -- no rights basis to state, per the edition field above.
 attribution_status: attributed
