@@ -16,14 +16,13 @@ confidence:
     Contested at the level of authorship and text. The Ignatian letters survive in a long and a short recension and the ANF prints both; this is the short (generally accepted) recension. That Ignatius wrote something like this on the way to execution is widely accepted; the exact wording of any clause is not.
 sources:
 - source_id: pahc.source.ignatius-letters
-  locus: >-
-    Letter to the Ephesians, ch. VII, in the short recension (anf01_apostolic-fathers-justin-irenaeus.xml)
+  locus: Letter to the Trallians, ch. VII, in the short recension (anf01_apostolic-fathers-justin-irenaeus.xml)
   license: public-domain
 text: >-
   Be on your guard, therefore, against such persons. And this will be the case with you if you are not puffed up, and continue in intimate union with Jesus Christ our God, and the bishop, and the enactments of the apostles.
 modern_rendering: So be on your guard against such people. You will do this if you are not puffed up and
   stay in close union with Jesus Christ our God, the bishop, and the apostles' commands.
-speaker_or_author: Ignatius of Antioch, to the Ephesians
+speaker_or_author: Ignatius of Antioch, to the Trallians
 license: verbatim
 modern_lens_note: >-
   \"Our God\" is said in passing, inside a warning about factions, which is exactly what makes it evidence: this is not an argument that Jesus is God but a man writing as though nobody needed convincing. Note also what he strings together - Christ, the bishop, the apostles' enactments - as though they were one thing to stay attached to.

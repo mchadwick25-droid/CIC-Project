@@ -18,8 +18,7 @@ confidence:
     only inside a transmission claim.
 sources:
 - source_id: pahc.source.athanasius-festal-39
-  locus: >-
-    Festal Letter XXXIX, section 7 (npnf204, file line 68714)
+  locus: Festal Letter XXXIX, section 7 (npnf204, file line 68817)
   license: public-domain
 text: >-
   But for greater exactness I add this also, writing of necessity; that there are other books

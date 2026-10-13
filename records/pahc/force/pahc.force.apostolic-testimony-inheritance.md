@@ -30,25 +30,23 @@ relations:
 name: "The Apostolic Testimony Inheritance [1B - initiating/internal]"
 matrix_cell: 1B
 kind: initiating
-description: "HISTORICAL EVENT: this world inherited, rather than invented, the conviction that
-  legitimate teaching and practice must trace to apostolic testimony - Scripture read alongside
-  living apostolic testimony rather than against a closed canon, an inheritance received from the
-  apostolic generation directly and predating this world's own 70 CE floor. 1 Clement grounds
-  correction of Corinth's deposed presbyters in an explicit chain: Christ from God, the apostles
-  from Christ, the apostles' own appointed successors after them (42, 44); Ignatius urges submission
-  to the presbytery in the same breath as submission owed to the apostle Jesus Christ himself
-  (Trallians 2; Magnesians 13). WORLD'S OWN EXPERIENCE: what had been handed down by the apostles
-  themselves was the measure against which everything else was tested - a visiting teacher's own
-  words had to be weighed against what a community already held, and a letter's authority rested on
-  how faithfully it carried forward what had been received. This was not one tradition among several
-  to be freely adapted; it was the inherited ground a community stood on, even while the community
-  itself argued over exactly what standing on it required. FORMATION IMPACT: this inheritance is
-  what makes eyewitness-generation loss a crisis at all rather than a neutral fact - if apostolic
-  testimony were not already the measure of legitimacy, its fading would not have generated the
-  urgency behind authority consolidation. It is the ground this world's own defining temporal
-  assumption stands on: living inside the closing of the apostolic generation, an urgency of
-  transmission before the last direct witnesses are gone, not primarily an imminent end-of-the-world
-  urgency."
+description: 'HISTORICAL EVENT: this world inherited the belief that legitimate teaching and practice
+  must trace back to what the apostles testified. It did not invent it. Scripture was read next to the
+  living testimony of the apostles, not against a closed canon. The apostles'' generation handed this
+  on directly. That came before this world''s own 70 CE floor. 1 Clement uses an explicit chain to rebuke
+  the Corinthians who put out their presbyters. Christ came from God. The apostles came from Christ. Then
+  came the successors they appointed (42, 44). Ignatius tells the churches to be subject to the presbytery
+  "as to the apostle of Jesus Christ" (Trallians 2). He tells them to be subject to the bishop as the
+  apostles were subject to Christ (Magnesians 13). WORLD''S OWN EXPERIENCE: what the apostles themselves
+  had handed down was the test of everything else. A visiting teacher''s words had to be weighed against
+  what a church already held. A letter''s authority rested on how faithfully it carried forward what had
+  been received. This was not one tradition among several to adapt freely. It was the ground a church
+  had inherited and stood on. Churches still argued over what standing on it required. FORMATION IMPACT:
+  this inheritance is why losing the eyewitness generation was a crisis. It was not a neutral fact. The
+  apostles'' testimony was already the test of what was legitimate. That is why its fading drove the push
+  to gather authority. This world''s defining assumption about time stands on it. The assumption is life
+  inside the closing of the apostles'' generation. The urgency was to pass things on before the last direct
+  witnesses were gone. It was not mainly an urgency about the world ending soon.'
 manifestations:
 - "1 Clement's explicit chain of appointment: Christ from God, the apostles from Christ, and the apostles' own appointed successors after them (42, 44)"
 - "Ignatius urging the community to 'be subject to the presbytery, as to the apostle of Jesus Christ' (Trallians 2, shorter recension)"

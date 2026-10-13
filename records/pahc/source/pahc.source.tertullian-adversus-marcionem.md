@@ -16,9 +16,9 @@ sources: []
 author: "Tertullian of Carthage (hostile witness to Marcion, writing c. 207-208 CE - after this world's close)"
 work: Adversus Marcionem (Against Marcion), five books - the principal surviving account of Marcion's
   teaching and churches, written by an opponent a generation after Marcion's Roman career; 1.19 places
-  Marcion in the reign of Antoninus Pius, 115 years and about 6.5 months after Tiberius, the basis of
-  the conventional c. 144 CE date for the break with the Roman church (Moll argues this may mark Marcion's
-  arrival rather than expulsion)
+  Marcion in the reign of Antoninus Pius, 115 years and about 6.5 months after Tiberius; the chapter does
+  not state the conventional c. 144 CE date for the break with the Roman church (Moll argues this may
+  mark Marcion's arrival rather than expulsion)
 edition: "Ante-Nicene Fathers vol. 3 (1885), trans. Peter Holmes, vendored as cic/texts/anf03_tertullian.xml"
 citation: Tertullian of Carthage, Adversus Marcionem, trans. Peter Holmes, Ante-Nicene Fathers vol. 3 (1885)
 kind: vendored
