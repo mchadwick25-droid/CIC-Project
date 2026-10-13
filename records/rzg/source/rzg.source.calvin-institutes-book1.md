@@ -24,6 +24,7 @@ attribution_status: attributed to John Calvin, 1559 final Latin edition, in the 
 discovery_channel: Source_Registry.md row 1, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.
 external_ids:
   rzg_source_registry_row: 1
+citation: 'John Calvin, Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator), trans. Henry Beveridge (Edinburgh: Calvin Translation Society, 1845)'
 kind: vendored
 ---
 Calvin's own doctrine of God, creation, and providence - Geneva-strand Author Gravity (Doc_02 SS2). Verified directly against the vendored file, whole file, per Source_Registry.md's own Verification Note. Corpus map role: tradition.

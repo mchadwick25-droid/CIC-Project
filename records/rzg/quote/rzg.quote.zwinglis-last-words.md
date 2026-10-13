@@ -25,7 +25,7 @@ speaker_or_author: Huldrych Zwingli, as reported by Oswald Myconius
 license: verbatim
 modern_lens_note: This is reported speech, preserved by a close friend not present at the exact moment,
   not an independently witnessed direct quotation - we hold it the same way Myconius himself did.
-modern_rendering: What evil is there in this? It is true, they can kill the body, but not the soul.
+modern_rendering: What harm is there in this? It is true, they can kill the body, but not the soul.
 use_note:
   means: "Myconius reports the fallen Zwingli saying his killers could kill the body but not the soul."
   not_for:

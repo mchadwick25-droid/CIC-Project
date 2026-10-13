@@ -28,6 +28,7 @@ discovery_channel: Source_Registry.md row 13, added 2026-09-15; the census's own
   row is this world's own single largest disclosed source-ecology gap, not a minor omission.
 external_ids:
   rzg_source_registry_row: 13
+citation: 'Geneva Consistory, Registers of the Consistory of Geneva in the Time of Calvin, Vol. 1, ed. Kingdon, Lambert, and Watt, trans. M. Wallace McDonald (Grand Rapids: Eerdmans, 2000)'
 kind: unvendored
 ---
 Ordinary-discipline/lived-practice claims, once acquired - not currently usable for any claim (Confidence D, not-acquired). The census's own named archive for this world; its absence is the direct cause of this world's own disclosed Absent Stories finding (Doc_09 SS7 item 4: no Genevan consistory case narrative survives).

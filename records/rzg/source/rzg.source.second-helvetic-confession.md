@@ -23,6 +23,7 @@ attribution_status: attributed to Heinrich Bullinger. No attribution dispute exi
 discovery_channel: Source_Registry.md row 9, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.
 external_ids:
   rzg_source_registry_row: 9
+citation: Heinrich Bullinger, The Second Helvetic Confession (1566), in Philip Schaff, Creeds of Christendom (1919 printing)
 kind: vendored
 ---
 Zurich's own mature confessional statement - this world's own doctrinal-floor text (ch. III Trinity, ch. XI Christ's full deity and humanity, per Doc_04 SS - directly verified against this vendored text). Bullinger's own Chapter X carries the CT contest's own pastoral framing (rzglex008's own Key Sources). Verified directly against the vendored file at the cited section, per Source_Registry.md's own Verification Note.

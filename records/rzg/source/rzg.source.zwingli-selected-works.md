@@ -30,6 +30,7 @@ attribution_status: attributed to Huldrych Zwingli, in Jackson's own 1901 Englis
 discovery_channel: Source_Registry.md row 7, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.
 external_ids:
   rzg_source_registry_row: 7
+citation: Huldrych Zwingli, Selected Works, trans. and ed. Samuel Macauley Jackson (1901)
 kind: vendored
 ---
 Zurich's own reform record, 1522-1527; election/predestination doctrine per Doc_04 SS3.1 - the 'On Election' passage grounds rzglex001's own Zurich-strand voice. Locus named (whole file except the Sixty-Seven Articles, carried separately at row 6); individual items within this row not separately re-verified this pass beyond the Refutation's own Election section - Doc_01 SS8 item 6's own still-open table-of-contents completeness question, carried forward rather than silently resolved.
