@@ -21,7 +21,7 @@ text: "The Kingdom of Heaven is apatheia (dispassion) of the soul together with 
 modern_rendering: >-
   The Kingdom of Heaven is apatheia, the soul's freedom from passion, together with true
   knowledge of the things that exist. ... The Kingdom of God is knowledge of the Holy Trinity.
-  The mind, the nous, takes in this knowledge as far as it is able, and the knowledge makes it
+  The mind, the nous, exercises this knowledge as far as it is able, and the knowledge makes it
   incorruptible.
 speaker_or_author: Evagrius Ponticus, in the Praktikos
 license: verbatim

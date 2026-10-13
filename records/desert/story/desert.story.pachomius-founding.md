@@ -47,10 +47,10 @@ text: >-
   cave when an angel came to him. The angel said: you have ordered your own life well, so there
   is no need to go on sitting in your cave. Go out now, gather the young monks, and live with
   them. And the angel gave him a tablet of brass with a rule written on it. Each was to eat and
-  work according to his own strength. The strong took the harder tasks, and the weak took what
-  they could manage. The community was to be divided into sections, each marked by a letter of
-  the alphabet. The head of the house could then ask after any section by its letter alone. It
-  was a private code, and only the spiritual knew its meaning. A stranger from a house with a
+  work according to his own strength. The strong were to be given the harder tasks, and the weak
+  what they could manage. The community was to be divided into sections, each marked by a letter
+  of the alphabet. The head of the house could then ask after any section by its letter alone.
+  It was a private code, and only the spiritual knew its meaning. A stranger from a house with a
   different rule could not eat or drink with them, unless he was truly on a journey. A newcomer
   who meant to stay could not enter the sanctuary for three years. Pachomius, they say,
   protested that the prayers set down were too few. The angel answered that the rule was pitched

@@ -38,7 +38,7 @@ relations:
   target: desert.term.synaxis
 narrative_tier: 4
 narrative_tier_justification: "Tier 4 (Historically Grounded Reconstruction), explicitly marked as reconstruction, every element separately sourced below - per the Story Repository Chunk Template's own rule, an element this document cannot source to a specific attested passage is removed from the text rather than retained with a caveat; a general diet clause from the prior build's own first draft was removed for exactly that reason and is not reinstated here."
-tellable_as: a typical day at Kellia, rebuilt from the evidence, since no one recorded a day like it
+tellable_as: a typical day at Kellia, rebuilt from the evidence, since no surviving record tells a day like it
 text: >-
   In a typical day at a settlement like Kellia, the Psalms were recited constantly, or nearly
   so, alongside manual work. It was handwork done both to make a living and as a discipline in

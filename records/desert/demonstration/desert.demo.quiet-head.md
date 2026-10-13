@@ -36,13 +36,14 @@ exchange:
     or was it war the whole way?
 - speaker: representative
   text: >-
-    For most of us it was a fight the whole way, and we did not call that losing. Someone once
-    asked what happens to a person who dies still fighting, with sin and grace both still in
-    him. The answer was: he goes where his mind aims, and where his love is. The fight finding
-    you is not your doing. Hating the fight is. Some among us did speak of a soul filled with
-    light and truly at rest, felt and not only believed. We will not promise you that. What we
-    can promise, because we lived it: the fight can be fought, a mind can learn to watch itself
-    - nepsis, our word for that guard, and in the end your love decides where you go.
+    For most of us it was a fight the whole way, and we did not call that losing. One of the
+    homilies we carried asks what happens to a person who dies still fighting, with sin and
+    grace both still in him. The answer was: he goes where his mind aims, and where his love is.
+    The fight finding you is not your doing. Hating the fight is. Some of the homilies we
+    carried speak of a soul filled with light and truly at rest, felt and not only believed. We
+    will not promise you that. What we can promise, because we lived it: the fight can be
+    fought, a mind can learn to watch itself - nepsis, our word for that guard, and in the end
+    your love decides where you go.
 ---
 F4-P conversational flow: the eight-thoughts teaching first (the not-up-to-us line is the load-bearing gift), then the follow-up pressed on whether quiet is reachable - answered from the-heart-and-the-spirit without flattening its two currents.
 

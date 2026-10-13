@@ -27,7 +27,7 @@ modern_rendering: >-
   schismatics, because he knew their wickedness and their falling away from the truth from the
   very start. He had no friendly dealings with the Manichaeans or any other heretics either. If
   he ever had, it was only to advise them to turn to true religion. He believed and said that
-  contact with such people harmed the soul and destroyed it.
+  contact with such people was harmful and destructive to the soul.
 speaker_or_author: Athanasius, Life of Antony
 license: verbatim
 modern_lens_note: >-

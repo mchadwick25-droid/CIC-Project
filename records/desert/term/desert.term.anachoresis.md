@@ -52,7 +52,7 @@ relations:
   target: desert.gravity.economic-embeddedness
 - type: associated-with
   target: desert.quote.taor-not-compelled-to-market
-plain_meaning: 'Withdrawal: leaving settled life for the desert as the whole work of formation. It was far more than a change of address.'
+plain_meaning: 'Withdrawal: leaving settled life for the desert''s edge as the whole work of formation. It was far more than a change of address.'
 world_word: anachoresis
 false_friend:
 - retreat as escape or opting out

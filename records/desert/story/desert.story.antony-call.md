@@ -50,8 +50,7 @@ text: >-
   a little for his sister. Another time, he heard the Gospel read again - do not be anxious
   about tomorrow - and he gave away the rest as well. He placed his sister with women he
   trusted, women already given to a life of virginity. Then he began the discipline himself,
-  close to home at first, seeking out and copying an old man who was already living that way
-  nearby.
+  close to home at first, seeing and copying an old man who was already living that way nearby.
 absent_detail: "Antony's own interior experience of that moment - what he felt hearing the words, what settled the decision in him beyond the words themselves - is not recorded; Athanasius reports the act and its occasion, not Antony's own account of his own mind. Anything further would invent an interiority the source does not give."
 modern_contrast: "A modern reader often hears \"sell what you have and give to the poor, follow me\" through the lens of contemporary minimalism or values-driven downsizing - a lifestyle choice, and typically a reversible one. This world's own record frames it as the opposite: a total, irrevocable renunciation taken as a direct personal address from Scripture (desert.gravity.scriptural-engagement), not a change of address but the whole work of formation (desert.gravity.withdrawal's own description) - Antony never went back for what he gave away."
 use_note:

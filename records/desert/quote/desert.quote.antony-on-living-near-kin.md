@@ -37,9 +37,9 @@ modern_rendering: >-
   admiration at all. He claimed it took greater virtue to live a life of perfection among other
   people than in the desert. Blessed Antony asked him where he himself lived. The man said he
   lived close to his relatives. He boasted that their support freed him from all the care and
-  worry of daily work. He gave himself only to reading and prayer, without ceasing and without
-  any distraction of spirit. Blessed Antony asked again: "Tell me, my good friend -- do you
-  grieve over their griefs and misfortunes? Do you rejoice in the same way over their good
+  worry of daily work. He said he gave himself only to reading and prayer, without ceasing and
+  without any distraction of spirit. Blessed Antony asked again: "Tell me, my good friend -- do
+  you grieve over their griefs and misfortunes? Do you rejoice in the same way over their good
   fortune?" The man admitted he shared in both. The elder said to him: "You should know this: in
   the world to come, you will also be judged along with those whose gains and losses, joys and
   sorrows, have affected you in this life."

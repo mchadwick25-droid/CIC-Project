@@ -35,8 +35,8 @@ narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative), same basis as desert.story.antony-call: named author, contemporary-generation text. The staged pattern (village edge, then a place of greater withdrawal, then greater withdrawal again once the first place stopped being solitary) is the narrative's own repeated structure, not a single incident."
 tellable_as: 'Antony withdrew in stages: a hermit near his village, a ruined fort, then a far mountain'
 text: >-
-  Withdrawal was not one act for us. It was repeated. Antony began close to home, seeking out
-  and copying an old man already living a solitary life near his village. From there he moved
+  Withdrawal was not one act for us. It was repeated. Antony began close to home, seeing and
+  copying an old man already living a solitary life near his village. From there he moved
   further, until he found an abandoned fort across the river, long deserted and overrun. He
   crossed over and shut himself inside it, seeing almost no one for years and receiving bread,
   let down from above, twice a year. People still came and spent days and nights outside.
@@ -45,8 +45,7 @@ text: >-
   places it between the river and the sea; what he himself found was a high mountain, a spring,
   and palms, reached after three days' journey. He stayed there for most of the rest of his
   life. Each move left people behind. The Vita gives a reason only for the last one: crowds
-  beset him, and he wanted quiet. Solitude, once found, draws people to it, and total withdrawal
-  has to be sought again.
+  beset him, and he wanted quiet.
 absent_detail: "The Vita does not supply Antony's own account of what changed for him at each remove, or what specifically made the fort, and later the crowds around it, no longer enough - only that he moved on. This world's evidence gives the pattern, not the felt reasoning behind each specific move."
 modern_contrast: "A modern reader may hear a lifelong pattern of moving further from people as social avoidance, or read the crowds that kept finding him as ironic proof the withdrawal 'failed.' This world's own record frames the two as compatible rather than contradictory: withdrawal was the whole work of formation (desert.gravity.withdrawal), and being sought out anyway was never the point being defeated - elder-mediated authority (desert.gravity.elder-authority) depended on exactly this kind of asymmetric access, a formed person others could reach even in retreat."
 use_note:

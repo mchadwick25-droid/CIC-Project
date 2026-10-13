@@ -30,7 +30,7 @@ text: "This, too, we ought to know,—that from the evening of Saturday which pr
   do they at these times observe a rule of fasting..."
 modern_rendering: >-
   This too we ought to know. From the Saturday evening before Sunday until the next evening, the
-  Egyptians never knelt. Nor did they kneel from Easter until Pentecost. Nor at these times did
+  Egyptians never kneel. Nor do they kneel from Easter until Pentecost. Nor at these times do
   they keep a rule of fasting...
 speaker_or_author: John Cassian, describing Egyptian monastic practice
 license: verbatim
