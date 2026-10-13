@@ -8,10 +8,13 @@ register: emic
 canon_cells: []
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   evidentiary_weight: illustrative
   formation_confidence: Contested
-  divergence_note: "Contested/traditional as history, per Doc_09's own confidence column; the founding-legend function - that this world's own leaders (Basil among them) appealed to Gregory Thaumaturgus's inheritance as a living authority - is the genuine, Widely Accepted evidence this story actually rests on, not the biographical particulars themselves."
+  divergence_note: Contested/traditional as history, per Doc_09's own confidence column; the founding-legend
+    function - that this world's own leaders (Basil among them) appealed to Gregory Thaumaturgus's inheritance
+    as a living authority - is the genuine, Widely Accepted evidence this story actually rests on, not
+    the biographical particulars themselves.
 sources:
 - source_id: cappadocian.source.gregory-nyssa-life-of-gregory-thaumaturgus
   locus: "the seventeen-to-seventeen conversion claim and the mission narrative"
@@ -38,24 +41,23 @@ tellable_as: >-
   receives a creed in a night vision, and at his death only seventeen pagans
   are left.
 text: >-
-  In the third century, before our own living memory reached
-  back, Gregory came to Pontus and Cappadocia as a young convert trained by
-  Origen, to a region that, so the story tells it, held only seventeen
-  Christians. By the time he died, so the same story tells it, only
-  seventeen pagans remained - the region's religion had turned over
-  completely under his ministry, an exact mirror-image the story means as
-  a claim about total transformation, not a census. The story also credits
-  him with receiving the region's own creed directly, in a night vision:
+  In the third century, before our own living memory reached back, Gregory
+  came to Pontus and Cappadocia as a young convert trained by Origen, and
+  became bishop of Neocaesarea, a city that, so the story tells it, held
+  only seventeen Christians. By the time he died, so the same story tells
+  it, only seventeen pagans remained in it - the city's religion had turned
+  over completely under his ministry, an exact mirror-image the story means
+  as a claim about total transformation, not a census. The story also
+  credits him with receiving his church's creed directly, in a night vision:
   the Virgin Mary and the apostle John appeared to him and gave him the
-  words to confess, which he then wrote down and preached from for the
-  rest of his life. This account comes from Gregory of Nyssa, writing a
-  full century after the events it describes, in the genre of
-  miracle-working saint's life - a genre built to establish a founder's
-  continuing authority for the communities that trace themselves back to
-  him, not to report checkable fact. Basil himself appealed to the
-  Thaumaturgan inheritance as a living authority in his own day, which is
-  real evidence we actually leaned on the legend, whatever its
-  underlying facts.
+  words to confess, which he then wrote down and preached from for the rest
+  of his life. This account comes from Gregory of Nyssa, writing a full
+  century after the events it describes, in the genre of miracle-working
+  saint's life - a genre built to establish a founder's continuing authority
+  for the communities that trace themselves back to him, not to report
+  checkable fact. Basil himself appealed to the Thaumaturgan inheritance as
+  a living authority in his own day, which is real evidence we actually
+  leaned on the legend, whatever its underlying facts.
 absent_detail: "Nothing survives in Gregory Thaumaturgus's own voice describing these events; the seventeen-to-seventeen figures are not census data and are not treated as such here."
 modern_contrast: >-
   A modern reader might hear "seventeen Christians became seventeen
@@ -63,13 +65,16 @@ modern_contrast: >-
   uses the number as legend's own arithmetic - a deliberate, symmetrical
   claim about total transformation, not a count anyone actually took.
 use_note:
-  means: "Gregory of Nyssa told, a century later, that Gregory Thaumaturgus found seventeen Christians in Pontus and left seventeen pagans, which evidences a founding legend."
+  means: Gregory of Nyssa told, a century later, that Gregory Thaumaturgus found seventeen Christians
+    in his city of Neocaesarea and left seventeen pagans, which evidences a founding legend.
   not_for:
-    - "census data on conversion"
-    - "events in Thaumaturgus's own voice, since none survive"
-    - "the night vision of the creed as history"
-    - "Basil's grandmother's teaching, which sits in cappadocian.quote.macrina-the-elder-taught-me"
-  years: {from: 213, to: 275}
+  - census data on conversion
+  - events in Thaumaturgus's own voice, since none survive
+  - the night vision of the creed as history
+  - Basil's grandmother's teaching, which sits in cappadocian.quote.macrina-the-elder-taught-me
+  years:
+    from: 213
+    to: 275
   status: reviewed
 ---
 Derived from Doc_09 entry #12 (Tier 3). Told, per Doc_09's own usage

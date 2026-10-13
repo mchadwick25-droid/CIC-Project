@@ -6490,3 +6490,9 @@ A local test on the `live` code with a fake model and no spend found the streame
 ## 2026-10-13 - Cap ruling: pahc record pass force descriptions
 
 The third review round on the pahc record pass failed two rewritten force descriptions (`pahc.force.apostolic-testimony-inheritance`, `pahc.force.contemporary-rival-movements`) with six blocking findings. The six fixes were applied. The project lead ordered one more targeted recheck of those two descriptions at the cap, run by a fresh Opus reviewer. It is `Build/Ministry/Operations/Audits/pahc_record_audit_fixes_review_cap-ruling_2026-10-13.md` (PASS, no blocking findings). By the cap rule it does not count toward the three review files.
+
+## 2026-10-13 - Change order: review files name the reviewer's generation, not only its tier
+
+**Ruling withdrawn.** Among the rulings on the Cappadocian record pass (Cappadocian Open Gaps, "Rulings on the findings left outside the record pass, 2026-10-13"), the project lead approved letting `engine/m10/reviewfile.py` accept a bare tier name, such as "Opus", in a review file's model fields. That ruling rested on a wrong premise: that a repository file cannot carry the model generation. The checker already accepts "Opus 5.5" and "Claude Opus 5.5", which name the generation without a model identifier string.
+
+**Ruling (13 October, the project lead, in the coordinating session).** The generation pin stays. A review file's reviewer model must name Opus 5.5. The checker is left as it is on `main`. The six Cappadocian review files that wrote a bare "Opus" now say "Opus 5.5", after checking that every review turn in each of them ran on that model.

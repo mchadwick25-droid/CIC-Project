@@ -63,12 +63,17 @@ relations:
 - type: associated-with
   target: cappadocian.quote.macrina-the-elder-taught-me
 use_note:
-  means: "This witness says the faith reached the community as a finished deposit of creed, baptismal formula, psalms and custom, not an eyewitness chain."
+  means: This witness says the faith reached the community already given, through the scriptures, the
+    creed, the baptismal formula, the psalms and unwritten custom, not an eyewitness chain, though teachers'
+    lists still differed over a few books at the edge.
   not_for:
-    - "any living chain back to an eyewitness of Jesus"
-    - "the deposit model as true of every believer, when Basil's own search for fathers in cappadocian.quote.macrina-the-elder-taught-me cuts against it"
-    - "unwritten custom ranked above scripture"
-  years: {from: 325, to: 375}
+  - any living chain back to an eyewitness of Jesus
+  - the deposit model as true of every believer, when Basil's own search for fathers in cappadocian.quote.macrina-the-elder-taught-me
+    cuts against it
+  - unwritten custom ranked above scripture
+  years:
+    from: 325
+    to: 375
   status: reviewed
 ---
 Grounded in cappadocian.term.paradosis, cappadocian.term.symbolon, cappadocian.term.baptisma-photisma and cappadocian.term.psalmodia. The tensions field states that this world is distant in time and evidence from Jesus's own life.

@@ -34,25 +34,23 @@ tellable_as: >-
   his argument.
 text: >-
   In one of his homilies on Ecclesiastes, preaching on the verse about
-  acquiring male and female slaves, Gregory of Nyssa turns the text
-  against the practice of slaveholding itself, not merely against its
-  abuses. He argues, through a series of pricing questions, that no one
-  can rightly put a price on a human being at all: a person is not a
-  possession that can be weighed out and paid for like livestock or land,
-  because the one being sold bears the very image of God, and God's own
-  image cannot be bought or sold by any sum. The frequently repeated line
-  that captures this argument in modern circulation is a paraphrase of the
-  sermon's own thrust, not a checked, verbatim translation of one exact
-  sentence, and is presented here as such. No other source in our
-  own record shows this argument taken up, debated, or acted upon by
-  anyone else; it stands as a single preacher's protest, delivered from
-  one pulpit, with no traceable in-world reception at all. Our
-  communities, meanwhile, did keep slaves, including within the ascetic
-  brotherhoods, whose own legislation counsels returning a runaway slave to
-  an owner rather than ending the relationship itself. Both facts belong
-  together: the sharpest surviving protest against slavery in antiquity
-  comes from within our own record, and we did not act on
-  it.
+  acquiring male and female slaves, Gregory of Nyssa turns the text against
+  the practice of slaveholding itself, not merely against its abuses. He
+  argues, through a series of pricing questions, that no one can rightly put
+  a price on a human being at all: a person is not a possession that can be
+  weighed out and paid for like livestock or land, because the one being
+  sold bears the very image of God, and God's own image cannot be bought or
+  sold by any sum. The frequently repeated line that captures this argument
+  in modern circulation is a paraphrase of the sermon's own thrust, not a
+  checked, verbatim translation of one exact sentence, and is presented here
+  as such. No other source in our own record shows this argument taken up,
+  debated, or acted upon by anyone else; it stands as a single preacher's
+  protest, delivered from one pulpit, with no traceable in-world reception
+  at all. Our households, meanwhile, did keep slaves, and the brotherhoods'
+  own rule counsels returning a runaway slave to an owner rather than ending
+  the relationship itself. Both facts belong together: the sharpest
+  surviving protest against slavery in antiquity comes from within our own
+  record, and we did not act on it.
 absent_detail: "No response, agreement, disagreement, or practical consequence to this sermon survives anywhere else in this world's own evidence. Whether Gregory's own household held slaves, and how he squared that with his own argument here, is not addressed in the text and not otherwise attested."
 modern_contrast: >-
   A modern reader might want this sermon to be evidence that this world
