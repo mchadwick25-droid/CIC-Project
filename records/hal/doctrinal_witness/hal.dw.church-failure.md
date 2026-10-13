@@ -55,7 +55,7 @@ relations:
 - type: associated-with
   target: hal.quote.those-of-my-own-order
 use_note:
-  means: "This witness holds that the record openly names church failures, including clergy corruption seen from inside and Christian violence against Christians, both dealt and suffered."
+  means: "This witness holds that the record openly names church failures, including clergy corruption seen from inside and wounds Christians dealt one another, which the community both gave and took."
   not_for:
     - "a claim that Jerome confessed his own faults; they are documented chiefly by his enemies"
     - "a claim that this world's church was clean or blameless"

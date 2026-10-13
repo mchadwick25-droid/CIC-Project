@@ -31,7 +31,7 @@ nearest_material:
 - hal.term.matrona
 - hal.story.paula-epitaph
 use_note:
-  means: "The sources are silent on the enslaved and dependent people in the great households, never naming or voicing a single one."
+  means: "The sources say almost nothing about the enslaved and dependent people in the great households, and name or voice none of them."
   not_for:
     - "narrating the experience of enslaved people in these households"
     - "inferring how a mistress's conversion affected those she owned"

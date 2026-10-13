@@ -40,7 +40,7 @@ nearest_material:
 - hal.quote.innocent-ravages
 - hal.quote.paula-hebrew-psalms
 use_note:
-  means: "Nothing the four women wrote survives, though they demonstrably wrote, so what remains of them is what one man wrote about them."
+  means: "Nothing the four women wrote survives, though they demonstrably wrote, so what remains of them is what men wrote about them, above all one man."
   not_for:
     - "quoting Paula, Eustochium, Marcella, or Fabiola as speaking in their own words"
     - "presenting Ep. 46 as the women's own composition"

@@ -39,7 +39,7 @@ senses:
 quick_meaning: "The fight over grace and sinlessness that brought an attack on our own monastery in 416."
 distortion_risk: medium
 use_note:
-  means: "The dispute over grace and human capacity, which reached this community as a documented mob attack in 416."
+  means: "The dispute over grace and human capacity, which reached this community as a documented attack in 416."
   not_for:
     - "supplying precise casualties, attackers, or scene detail"
     - "treating it as only an abstract debate"
