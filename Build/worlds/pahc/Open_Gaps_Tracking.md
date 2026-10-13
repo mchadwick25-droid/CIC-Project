@@ -727,4 +727,6 @@ Outside the spoken-field scope of OG-27, or left by choice. Each item names the 
 
 10. "Synodical" is still used for the Asia-wide response to Montanism in the `locus` of `pahc.quote.asia-rejected-new-prophecy`, `pahc.witness.god-and-argument` and `pahc.gravity.boundary-drawing`, and in the body of `pahc.witness.god-and-argument` and `pahc.quote.asia-rejected-new-prophecy`. Eusebius V.16.10 has "the faithful in Asia met often in many places"; the synods are McGiffert's inference.
 
+11. Cap-ruling recheck of the two rewritten force descriptions (`..._review_cap-ruling_2026-10-13.md`, PASS): remaining non-blocking wording, each of which would drop the field under FRE 60 if restored: "Christ came from God" where 1 Clement 42 has "sent"; "exactly" dropped; "drove the push" (a slightly stronger causal link); "specifically" became "above all". Separately, the sentence that Ignatius's anti-docetic argument answers rivals who came after his conventional date is copied word for word from the approved Doc_08 (l.127); the fix belongs in Doc_08.
+
 Status: OPEN.
