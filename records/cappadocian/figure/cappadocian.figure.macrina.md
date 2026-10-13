@@ -25,7 +25,10 @@ names:
 dates:
   display: "c. 327-379; led the Annisa ascetic community her own household's conversion produced; her own words do not survive independent of her brother's literary frame"
 narratable: true
-bridge_line: "The world's most celebrated woman teacher, known to us only through her brother's literary portrait of her - a household turned monastery, argued into being by a woman whose own words we never directly hear."
+bridge_line: >-
+  Basil's elder sister, and the best known woman teacher of the circle. She
+  turned the family home into a house of prayer for women. We know her only
+  from her brother Gregory's book about her. Her own words do not reach us.
 relations:
 - type: associated-with
   target: cappadocian.story.macrina-deathbed

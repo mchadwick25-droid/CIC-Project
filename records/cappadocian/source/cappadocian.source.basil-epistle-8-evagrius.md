@@ -18,6 +18,7 @@ author: Generally attributed to Evagrius Ponticus, not Basil of Caesarea (transm
 work: Basil's Epistle 8
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
+citation: 'Epistle 8, transmitted under Basil of Caesarea''s name and generally attributed to Evagrius Ponticus, Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: contested (generally attributed to Evagrius Ponticus, not Basil, though transmitted

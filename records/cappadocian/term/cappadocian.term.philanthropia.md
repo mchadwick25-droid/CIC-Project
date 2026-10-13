@@ -30,9 +30,10 @@ relations:
   target: cappadocian.term.philoptochia
 - type: associated-with
   target: cappadocian.term.theosis
-plain_meaning: We used one word for what God did in becoming human and for the virtue that copies
-  it at the poorhouse door. Rulers of the time also claimed this word as a civic virtue; we deliberately
-  out-bid that claim.
+plain_meaning: >-
+  We used one word for what God did in becoming human and for the virtue
+  that copies it at the poorhouse door. Rulers of the time also claimed this
+  word as a civic virtue.
 world_word: philanthrōpia
 false_friend:
 - '''philanthropy'' meaning elite giving by the wealthy'

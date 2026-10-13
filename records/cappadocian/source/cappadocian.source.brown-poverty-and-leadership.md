@@ -17,6 +17,7 @@ relations: []
 author: Peter Brown
 work: Poverty and Leadership in the Later Roman Empire (2002)
 edition: In-copyright modern scholarship, not vendored
+citation: Peter Brown, Poverty and Leadership in the Later Roman Empire (2002)
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

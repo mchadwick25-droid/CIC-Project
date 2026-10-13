@@ -37,22 +37,17 @@ retrieval:
   retrieve_when:
   - "participant asks whether someone divorced could belong among this world's people, or marry again"
 text: >-
-  A person whose first marriage had genuinely ended could belong among
-  us and could marry again. Our own practice here was a concession, not
-  an endorsement. That second marriage was permitted as a remedy against
-  a worse fall. It was not celebrated as an equal good to a first
-  marriage kept whole. It came with a real cost. A period of penance
-  came first, roughly a year by our own reckoning, sometimes longer.
-  Then came full return to communion. After that penance, the person
-  belonged again, fully. This was not permanent exclusion. We also
-  disclose a real unevenness in our own practice. Our own bishop named
-  it honestly rather than hiding it. Custom, not equal justice, decided
-  in his own day whether a woman who left an unfaithful husband, or a
-  man who put away his wife, bore the greater blame. Our own earlier,
-  stricter rule for ascetic households had actually held husband and
-  wife to the identical standard. The later, more lenient canonical
-  practice did not simply repeat that equality. We name that shift. We
-  do not smooth it into a single, tidy answer.
+  If a husband or wife had died, the one left could marry again among us. We
+  allowed it as a concession, not as an equal good. A year of penance came
+  first (some said two), and then full return to communion. Divorce was
+  harder. A man who left his lawful wife was judged by the Lord's word to be
+  an adulterer. His penance ran in stages through a seventh year before he
+  shared the offering again. A wife who left her husband and went to another
+  was judged an adulteress. A husband whose wife left him could take another
+  wife and be pardoned. Our own bishop said the Lord's rule bound men and
+  women alike, but custom did not judge them alike. Our moral rules had held
+  both to one standard. Neither the one who sent a spouse away nor the one
+  sent away was to marry again.
 positions:
 - second marriage after a genuine ending was permitted as a tolerated concession, with a set penance and
   a real, documented path back into full communion

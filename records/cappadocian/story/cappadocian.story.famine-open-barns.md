@@ -35,7 +35,9 @@ relations:
   target: cappadocian.gravity.bishop-patron
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: the preaching is the preacher's own homiletic record, delivered at the time of the crisis, not a later retelling. Oration 43's narrative frame corroborates from a documented eyewitness within Basil's own circle, but it is an encomium with a case to make, and its scene-level detail is flagged rather than treated as independent record. Widely Accepted rather than Documented at full strength: the homily text itself has not been independently checked against an acquired edition (see divergence_note); the event's broad shape is not in serious doubt."
-tellable_as: "A famine strikes Caesarea, and a young priest's preaching shames the rich into opening their granaries."
+tellable_as: >-
+  A famine strikes Caesarea. A priest's preaching shames the rich into
+  opening their barns.
 text: >-
   In the years before Basil became bishop, drought struck Caesarea and its
   countryside. The harvest failed, and grain grew scarce and dear. Those who

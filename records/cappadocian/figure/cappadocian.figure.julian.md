@@ -25,7 +25,10 @@ names:
 dates:
   display: "331/332-363; emperor 361-363; educated partly at Macellum in Cappadocia under enforced Christian tutors; died on campaign in Persia"
 narratable: true
-bridge_line: "A pagan emperor, not a Christian - schooled in part in this world's own region under enforced Christian tutors, he turned back to the old gods and, as emperor, moved directly against Christian teachers and against Caesarea itself."
+bridge_line: >-
+  A pagan emperor. As a boy he was kept in Cappadocia under Christian
+  tutors. He turned back to the old gods. As emperor he moved against
+  Christian teachers and against Caesarea itself.
 relations:
 - type: associated-with
   target: cappadocian.story.julian-schools
