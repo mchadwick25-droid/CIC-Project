@@ -62,7 +62,7 @@ not do for itself.
 
 It fixes the scan: item fiftyspiritualho00pseuuoft, digitized by the
 Pontifical Institute of Mediaeval Studies at the University of Toronto,
-added 2007-03-22, OCLC 1045392049. That also resolves what the file header
+added in March 2007, OCLC 1045392049. That also resolves what the file header
 had listed as damaged loci - the garbled stamps at head and foot ("1HC
 INSTITUTE OF MEDIAEVAL S7UM&", "KD ELMSLEY PLACE", "-rtONTO") are the PIMS
 ownership stamps of the library that made the scan, not corrupted text.
