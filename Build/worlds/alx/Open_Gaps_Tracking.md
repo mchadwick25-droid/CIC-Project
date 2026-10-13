@@ -676,7 +676,7 @@ Status: OPEN.
 
 Five fixes from the independent review of the alx record wording pass (the entry "Record wording pass on alx spoken fields, 2026-10-13"). The stale `use_note` text stays open as item 1 of "Found in the alx wording pass and not fixed, 2026-10-13".
 
-- `alx.story.origen-daring-deed` text: the "Soon afterward" sentence split into three sentences, and the last sentence into two, so the field passes readability (FK 8.6, FRE 61.3). No fact added or dropped. `m1:readability/alx` lowered from 18 to 17.
+- `alx.story.origen-daring-deed` text: the "Soon afterward" sentence split into three sentences, and the last sentence into two, so the field passes readability (FK 8.6, FRE 61.3). No fact added or dropped. The `m1:readability/alx` waiver stays at 18: the gate does not count story `text`, and the waiver check passes at that number.
 - `alx.quote.timothy-ordinary-questions` text: "men's" set to "men’s" as in npnf214 (xvii.xxiv-p36). The earlier log line that said this was done was wrong: the apostrophe changed in the rendering, not in `text`. The rendering now uses a straight apostrophe again.
 - `alx.quote.timothy-ordinary-questions` modern_rendering (Opus): "eucharistic offering" is now "the offering" in both places, since the text says only "the oblation".
 - `alx.demo.someone-like-me` Representative turn: the closer "We called Christ the door, and we kept it open." is now "We held that Christ was the door, and that it stood open." A plain statement of what the community held, without the coined line.
