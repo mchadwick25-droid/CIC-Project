@@ -32,7 +32,7 @@ why_sources_cannot_answer: 'Checked directly against every term, story, quote, a
 nearest_material:
 - rzg.core.the-reformed-cities-zurich-and-geneva
 use_note:
-  means: "The record does not yet hold our teachers' writing on marriage or wealth, nor any account of how ordinary people lived with marriage, wealth or want."
+  means: "The record does not yet hold the writing of the cities' teachers on marriage or wealth, nor any account of how ordinary people lived with marriage, wealth or want."
   not_for:
     - "a claim that these cities had a recorded teaching on marriage"
     - "a claim that these cities had a recorded teaching on wealth and poverty"

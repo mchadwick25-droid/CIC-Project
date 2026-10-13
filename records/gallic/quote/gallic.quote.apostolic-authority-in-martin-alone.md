@@ -47,7 +47,7 @@ relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence
 use_note:
-  means: "Sulpitius writes in the Life of Martin that at the court of the emperor Maximus the priestly dignity took second place to the royal retinue, while apostolic authority held its ground in Martin alone."
+  means: "Sulpitius writes in the Life of Martin that while bishops fawned on the emperor Maximus, apostolic authority still asserted itself in Martin alone."
   not_for:
     - "Martin's own claim about himself, when it is Sulpitius's verdict"
     - "a fair report of every bishop at Maximus's court"

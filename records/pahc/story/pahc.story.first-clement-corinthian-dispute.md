@@ -52,7 +52,7 @@ modern_contrast: >
   presbyters' own claim to blameless service, not a command backed by
   office.
 use_note:
-  means: "The church at Rome writes a long letter to Corinth, which had removed several elders, arguing that men who served blamelessly should not have been removed."
+  means: "The church at Rome wrote a long letter to Corinth, which had removed several elders, arguing that men who served blamelessly should not have been removed."
   not_for:
     - "a bishop exercising jurisdiction over a neighboring diocese"
     - "Corinth's own side of the dispute"

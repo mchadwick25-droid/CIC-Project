@@ -50,7 +50,7 @@ text: 'Our own founder did not seek his own death. He left Zurich for the front 
   in front of a real risk he did not run from. They do not show a longing for the risk. We do not make
   more of his death than that; we hold no cult of it anywhere in our own record.'
 use_note:
-  means: "Zwingli left Zurich for the front in the Second War of Kappel and was killed that afternoon, facing a risk he did not flee and not seeking death, as Myconius reported."
+  means: "Zwingli left Zurich for the front in the Second War of Kappel and was killed that afternoon; the last words Myconius reported show resolve before a risk he did not flee, not a wish for death."
   not_for:
     - "a claim that Zwingli sought or wished for martyrdom"
     - "a claim that this world built a cult or hagiography of Zwingli's death"

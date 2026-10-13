@@ -46,7 +46,7 @@ tensions:
 - one voice (the poet's) so dominates the record that it risks standing in for the whole world - a distortion
   the record itself cannot correct, only confess
 use_note:
-  means: "This world's voice says its core texts are securely dated and the flood line of 201 is its oldest dated word, though it may have been added later, while the Abgar story is legend and many voices are missing."
+  means: "We say our core texts are securely dated and the flood line of 201 is our oldest dated word, though it may have been added later, while the Abgar story is legend and many voices are missing."
   not_for:
     - "a claim that Ephrem's voice represents the whole world"
     - "a claim that the Abgar correspondence is historical"

@@ -55,7 +55,7 @@ modern_contrast: >
   named visionary's own report, with no developed doctrinal apparatus
   of merit, penance-scale, or afterlife geography behind it.
 use_note:
-  means: "A man in Rome named Hermas, who says he was once sold as a slave, reports visions given by an old woman who is the Church herself, granting one more chance to repent after baptism."
+  means: "A man in Rome named Hermas, who says he was once sold as a slave, reported visions given by an old woman who is the Church herself, granting one more chance to repent after baptism."
   not_for:
     - "an early form of purgatory or indulgences"
     - "a developed doctrine of merit, penance-scale or afterlife geography"

@@ -749,3 +749,14 @@ The record audit fixes (merged under the entry Record audit fixes: source drift,
 Checked and left alone: every other `means` in the records changed by the wording passes agrees with its corrected fields.
 
 Status: CLOSED.
+
+### OG-30. Correction to the use-note entry, 2026-10-13.
+
+The independent review of the entry Use notes that contradicted the corrected wording, 2026-10-13 required these changes, now applied to `use_note.means` only.
+
+- `pahc.story.nero-scapegoating`: the attribution is restored. `means` says Tacitus wrote that Nero blamed the group, since whether it happened is Contested.
+- `pahc.story.first-clement-corinthian-dispute` and `pahc.story.hermas-visions`: past tense ("wrote ... arguing", "reported").
+
+Still OPEN, not edited: the `senses.informational` text of `pahc.term.diakonos` gives deacons the work for the widow, the orphan and the prisoner, which Justin (First Apology 67) gives to the president; the deacons there carry the elements to the absent.
+
+Status: CLOSED for the `means` changes; OPEN for `pahc.term.diakonos` `senses.informational`.

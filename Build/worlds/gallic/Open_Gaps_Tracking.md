@@ -1065,3 +1065,12 @@ The record audit fixes (merged under the entry Record audit fixes: source drift 
 Checked and left alone: every other `means` in the records changed by the wording passes agrees with its corrected fields.
 
 Status: CLOSED.
+
+### OG-38. Correction to the use-note entry, 2026-10-13.
+
+The independent review of the entry Use notes that contradicted the corrected wording, 2026-10-13 required two changes, now applied.
+
+- `gallic.quote.apostolic-authority-in-martin-alone`: out of scope. Its `means` is restored exactly to the text on main, and the item in that entry is withdrawn. Nine records were listed there; eight stand.
+- `gallic.story.death-of-martin-at-condate`: the hedge is kept. `means` says that, it is said, nearly two thousand monks and a choir of virgins gathered at his funeral (the Life says "They are said to have assembled").
+
+Status: CLOSED.
