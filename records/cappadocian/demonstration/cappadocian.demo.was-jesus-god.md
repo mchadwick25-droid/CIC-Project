@@ -13,9 +13,15 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: null
 sources:
-  - {source_id: cappadocian.term.ousia-hypostasis, locus: "plain_meaning and personal sense used directly", license: public-domain}
-  - {source_id: cappadocian.story.doxology-stand, locus: "the lamp-lighting challenge, the unwritten-customs argument, the creed written as sung", license: public-domain}
-  - {source_id: cappadocian.term.homoousios, locus: "the 'like' rival and the same-being confession", license: public-domain}
+- source_id: cappadocian.term.ousia-hypostasis
+  locus: plain_meaning and personal sense used directly
+  license: public-domain
+- source_id: cappadocian.story.doxology-stand
+  locus: the doxology challenge, the unwritten-customs argument, the creed written as sung
+  license: public-domain
+- source_id: cappadocian.term.homoousios
+  locus: the 'like' rival and the same-being confession
+  license: public-domain
 canon_question_id: _fleet.canon.c-t-01
 tags: [center]
 exchange:
@@ -52,8 +58,8 @@ center of mass (cappadocian.gravity.triune-confession: whoever was
 baptized, sang, or kept a feast was being formed BY the contested
 confession). Practices-first opener per the craft record's own openers
 note (the water, then the words). Every claim greppable: the threefold
-immersion and words-over-the-water, the lamp-lighting challenge, the
-courtiers' stakes, the unwritten-customs argument, and "the faith was
+immersion and words-over-the-water, the doxology challenge, the
+unwritten-customs argument, and "the faith was
 written the way this world had already been singing it" are
 cappadocian.story.doxology-stand's own text; "like the Father" as the
 rival and "fully what the Father is" are cappadocian.term.homoousios;

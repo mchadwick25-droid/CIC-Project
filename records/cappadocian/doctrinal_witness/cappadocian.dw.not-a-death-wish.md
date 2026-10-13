@@ -19,13 +19,14 @@ confidence:
     Source Registry - carried forward honestly, not upgraded.
 sources:
 - source_id: cappadocian.story.forty-sebaste
-  locus: "the one who broke and the guard who took his place, held together honestly"
+  locus: the one who broke and the guard who took his place, held together honestly
   license: public-domain
 - source_id: cappadocian.figure.forty-of-sebaste
-  locus: "condemned for the faith, not seeking death"
+  locus: condemned for the faith, not seeking death
   license: public-domain
 - source_id: cappadocian.figure.eupsychius
-  locus: "executed under Julian for refusing to deny the faith; his feast kept annually"
+  locus: martyred under Julian; his feast kept annually; a later historian ties his death to the temple
+    of Fortune
   license: public-domain
 retrieval:
   tier: 2
@@ -51,18 +52,21 @@ text: >-
 positions:
 - the Forty of Sebaste's own tradition includes one who broke under the cold and one who took his place,
   held together honestly rather than smoothed into pure heroism
-- martyrdom in this world's own record is consistently framed as refusal under threat, not as death
-  sought for its own sake
+- martyrdom in this world's own record is framed as refusal under threat, not as death sought for its
+  own sake
 tensions:
 - the specific passion details (the lake, the guard's change of heart) are tradition, preached within a
   century of the events, not eyewitness reporting - we hold them at that strength, not higher
 use_note:
-  means: "This witness says martyrdom meant refusing to deny the faith under threat, citing the Forty of Sebaste and Eupsychius, not seeking death."
+  means: This witness says martyrdom meant refusing to deny the faith under threat, as the Forty of Sebaste
+    did, not seeking death; it also names Eupsychius, whose feast was kept.
   not_for:
-    - "the lake and the guard's conversion as eyewitness reporting rather than preached tradition"
-    - "the Forty of Sebaste as martyred within this world's own span, when tradition places them before it"
-    - "a claim that this world's members faced routine execution"
-  years: {from: 320, to: 362}
+  - the lake and the guard's conversion as eyewitness reporting rather than preached tradition
+  - the Forty of Sebaste as martyred within this world's own span, when tradition places them before it
+  - a claim that this world's members faced routine execution
+  years:
+    from: 320
+    to: 362
   status: reviewed
 ---
 Closes F6-E on the martyrdom-death-wish variant, the strongest fit for

@@ -28,15 +28,18 @@ name: "The Christian gentry household [1B - initiating/internal]"
 kind: initiating
 matrix_cell: 1B
 description: >-
-  Landed, literate, Christian families - confessor-memory, estate chapels, formidable matriarchs - form
-  the world's leadership class: one household yields a didaskalos-figure, three bishops, and a monk;
-  another yields a bishop-father and "the Theologian" (Doc_08 Cell 1B, Force 1B-2). WORLD'S OWN EXPERIENCE
-  (Layer 2): the house was the first church - the grandmother's psalms, the mother's vows for her children,
-  the stories of the ones who stood told at the lamp. When the sons went out to the schools and the sees,
-  they understood themselves to be spending an inheritance the women of the house had banked. FORMATION
-  IMPACT (Layer 3): supplied Supporting Gravity 6/Gravity 6 and the world's formation arc's first stage;
-  produced the leadership pattern (household -> paideia -> renunciation -> conscription); and, as
-  transmission force, made the world's archive a family memorial (see 2B-2, 3B-2).
+  Landed, literate Christian families formed this world's leading class.
+  They kept the memory of confessors, built chapels on their estates, and
+  had strong matriarchs. One household produced a woman teacher, three
+  bishops and a monk. Another produced a bishop father and his son Gregory
+  of Nazianzus, later called the Theologian. The house was the first church.
+  The grandmother taught the words of Gregory the Wonderworker. The mother
+  taught the psalms and made vows for her children. The stories of those who
+  had stood firm were told by lamplight. When the sons went out to the
+  schools and the sees, they credited the women of the house with their
+  first teaching in the faith. This force set the pattern of leadership:
+  household, then schooling, then renunciation, then a call to office. It
+  also made the world's surviving writing a family memorial.
 manifestations:
 - one household yielding a didaskalos-figure, three bishops, and a monk
 - another household yielding a bishop-father (himself converted from a syncretistic sect) and "the Theologian"

@@ -51,18 +51,19 @@ relations:
 name: "The martyrs' land [SUPPORTING]"
 classification: supporting
 description: >-
-  The last persecutions' dead as patrons: the Forty, Gordius, Mamas, Julitta; the panēgyris calendar;
-  family relics. This martyr-memory is unusually fresh - within the martyrs' own grandparents' generation,
-  not a story from a distant, half-legendary past. The evidence for it is well documented (cult, feasts,
-  homilies); dependence on it is real but narrower than in the Latin West - it shapes the calendar and the
-  countryside's festival life, rather than the whole formation system. It carries the last persecutions'
-  direct deposit forward; under the imperial peace it is transposed, so that dying is remembered rather than
-  expected, the same shift the Latin-world builds found, but here the memory stays fresh (grandparents, not
-  great-great-grandparents) and familial (relics kept in the family's own estate chapel). It is strongest in
-  congregation and countryside, then household (relics), brotherhood (vigils), and the bishop's own see
-  (festal preaching) - a popular-weighted register, the inverse of the paideia gravity's own weighting. The
-  two gravities' complementary skews are themselves ecological information: the world's high and low
-  registers meet at the shrine and the creed, not at Athens.
+  The dead of the last persecutions were this world's patrons: the Forty,
+  Gordius, Mamas and Julitta. Their feasts set the calendar, and families
+  kept relics. This memory was unusually fresh. The martyrs belonged to the
+  grandparents' generation of the families who wrote. The evidence is well
+  documented in the cult, the feasts and the sermons. Its reach is real but
+  narrower than in the Latin West. It shaped the calendar and the festival
+  life of the countryside more than the whole system of formation. Under the
+  imperial peace, dying was remembered rather than expected. Here the memory
+  stayed close and in the family, with relics kept in the family's own
+  estate chapel. It was strongest in the congregation and the countryside,
+  then the household, the brotherhood's vigils, and the bishop's festival
+  preaching. That makes it a popular pull, the reverse of the pull of
+  learning. The two meet at the shrine and the creed.
 manifestations:
 - the Forty of Sebaste (c. 320) - the region's paradigm martyrs, within the grandparents' generation's living memory
 - Gordius, Mamas, Julitta - the region's own additional named martyr-cults

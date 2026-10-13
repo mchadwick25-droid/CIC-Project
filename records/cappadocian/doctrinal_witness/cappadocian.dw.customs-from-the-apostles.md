@@ -40,10 +40,10 @@ text: >-
   unwritten. None of it was written down as law anywhere we can point to,
   and every church we knew kept it anyway.
 positions:
-- practices this world could not trace to any written document (facing east, standing at prayer,
-  threefold baptism, the words over the water and the bread) were kept everywhere as apostolic
-- the argument for their authority was universality and impersonal transmission, not a documentary
-  chain any one person could produce
+- practices this world could not trace to any written document (facing east, standing at prayer, threefold
+  baptism, the words over the water and the bread) were kept everywhere as apostolic
+- Their authority came from the apostles. It was handed down unwritten, in a mystery, with the same force
+  as the written. No one could show a written chain back to them.
 tensions:
 - we cannot supply what you may actually be asking for - a checkable, documentary line from any one
   practice back to the apostles themselves; that chain does not exist in our own record, and we do not
@@ -52,12 +52,15 @@ relations:
 - type: associated-with
   target: cappadocian.quote.we-look-to-the-east
 use_note:
-  means: "This witness says unwritten customs such as facing east and triple immersion were kept everywhere as apostolic, trusted for universality rather than documentation."
+  means: This witness says unwritten customs such as facing east and triple immersion were held to be
+    apostolic, handed down in a mystery rather than documented.
   not_for:
-    - "a documentary chain back to the apostles, which the record says does not exist"
-    - "the challenge to show written warrant for the creed, which sits in cappadocian.dw.unwritten-carries-too"
-    - "these customs as uniform in every detail across all churches"
-  years: {from: 375, to: 375}
+  - a documentary chain back to the apostles, which the record says does not exist
+  - the challenge to show written warrant for the creed, which sits in cappadocian.dw.unwritten-carries-too
+  - these customs as uniform in every detail across all churches
+  years:
+    from: 375
+    to: 375
   status: reviewed
 ---
 Backed by cappadocian.quote.we-look-to-the-east, a verified quote from the chapter this text draws on. The tensions field states that the argument was not a documentary chain. Reciprocal relation declared on the paired quote record.

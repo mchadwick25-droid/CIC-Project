@@ -128,3 +128,14 @@ def test_withholding_only_one_drafter_field_fails(tmp_path):
 def test_withholding_the_drafter_never_excuses_the_reviewer_model(tmp_path):
     text = _blind(review_text()).replace("Reviewer model: claude-opus-5-5", "Reviewer model: claude-sonnet-5-5")
     assert "reviewfile-reviewer" in _ids(_check(tmp_path, text))
+
+
+def test_a_bare_tier_name_is_accepted_for_both_models(tmp_path):
+    text = review_text().replace("Reviewer model: claude-opus-5-5", "Reviewer model: Opus").replace(
+        "Drafter model: claude-sonnet-5-5", "Drafter model: Sonnet")
+    assert _check(tmp_path, text) == []
+
+
+def test_a_bare_tier_name_for_the_reviewer_must_be_opus(tmp_path):
+    text = review_text().replace("Reviewer model: claude-opus-5-5", "Reviewer model: Sonnet")
+    assert "reviewfile-reviewer" in _ids(_check(tmp_path, text))

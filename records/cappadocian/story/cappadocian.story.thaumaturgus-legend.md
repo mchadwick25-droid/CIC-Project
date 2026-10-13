@@ -8,10 +8,13 @@ register: emic
 canon_cells: []
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   evidentiary_weight: illustrative
   formation_confidence: Contested
-  divergence_note: "Contested/traditional as history, per Doc_09's own confidence column; the founding-legend function - that this world's own leaders (Basil among them) appealed to Gregory Thaumaturgus's inheritance as a living authority - is the genuine, Widely Accepted evidence this story actually rests on, not the biographical particulars themselves."
+  divergence_note: Contested/traditional as history, per Doc_09's own confidence column; the founding-legend
+    function - that this world's own leaders (Basil among them) appealed to Gregory Thaumaturgus's inheritance
+    as a living authority - is the genuine, Widely Accepted evidence this story actually rests on, not
+    the biographical particulars themselves.
 sources:
 - source_id: cappadocian.source.gregory-nyssa-life-of-gregory-thaumaturgus
   locus: "the seventeen-to-seventeen conversion claim and the mission narrative"
@@ -63,13 +66,16 @@ modern_contrast: >-
   uses the number as legend's own arithmetic - a deliberate, symmetrical
   claim about total transformation, not a count anyone actually took.
 use_note:
-  means: "Gregory of Nyssa told, a century later, that Gregory Thaumaturgus found seventeen Christians in Pontus and left seventeen pagans, which evidences a founding legend."
+  means: Gregory of Nyssa told, a century later, that Gregory Thaumaturgus found seventeen Christians
+    in his city of Neocaesarea and left seventeen pagans, which evidences a founding legend.
   not_for:
-    - "census data on conversion"
-    - "events in Thaumaturgus's own voice, since none survive"
-    - "the night vision of the creed as history"
-    - "Basil's grandmother's teaching, which sits in cappadocian.quote.macrina-the-elder-taught-me"
-  years: {from: 213, to: 275}
+  - census data on conversion
+  - events in Thaumaturgus's own voice, since none survive
+  - the night vision of the creed as history
+  - Basil's grandmother's teaching, which sits in cappadocian.quote.macrina-the-elder-taught-me
+  years:
+    from: 213
+    to: 275
   status: reviewed
 ---
 Derived from Doc_09 entry #12 (Tier 3). Told, per Doc_09's own usage

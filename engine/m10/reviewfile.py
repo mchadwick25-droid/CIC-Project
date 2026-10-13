@@ -34,6 +34,11 @@ HEADER_LINES = 30
 _DASHES = re.compile(r"[‒–—―-]+")
 _FILENAME_ROUND = re.compile(r"Round_?(\d+)", re.IGNORECASE)
 _MODEL = re.compile(r"(?:claude[-\s]*)?(opus|sonnet|haiku|fable)[-\s]*(\d+)[-.\s](\d+)", re.IGNORECASE)
+# A bare tier name ("Opus", "Claude Sonnet"). Accepted because files pushed to
+# the repository carry no model identifier; the tier is what the review rule
+# names (Opus reviews, Sonnet drafts).
+_TIER = re.compile(r"(?:claude[-\s]*)?(opus|sonnet|haiku|fable)", re.IGNORECASE)
+REVIEWER_TIER = "opus"
 
 
 def model_id(value: str) -> str | None:
@@ -41,6 +46,14 @@ def model_id(value: str) -> str | None:
     "claude-opus-5-5") as one id, or None when it is not a model name."""
     m = _MODEL.fullmatch(value.strip().strip("`*").strip())
     return f"claude-{m.group(1).lower()}-{m.group(2)}-{m.group(3)}" if m else None
+
+
+def model_tier(value: str) -> str | None:
+    """The tier ("opus", "sonnet", ...) of a model named either way: by full
+    id in any spelling, or by tier name alone. None when it is neither."""
+    v = value.strip().strip("`*").strip()
+    m = _MODEL.fullmatch(v) or _TIER.fullmatch(v)
+    return m.group(1).lower() if m else None
 
 
 def _same_agent(a: str, b: str) -> bool:
@@ -104,13 +117,15 @@ def check_review_file(path: Path, root: Path = REPO_ROOT) -> list[Finding]:
         return value if value and not PLACEHOLDER.match(value) else None
 
     reviewer, drafter = filled(FIELD_REVIEWER_MODEL), filled(FIELD_DRAFTER_MODEL)
-    if reviewer and model_id(reviewer) != REVIEWER_MODEL_ID:
-        bad("reviewfile-reviewer", f"reviewer model is {reviewer!r}; it must be {REVIEWER_MODEL_ID}")
+    if reviewer:
+        full = model_id(reviewer)
+        if (full is not None and full != REVIEWER_MODEL_ID) or (full is None and model_tier(reviewer) != REVIEWER_TIER):
+            bad("reviewfile-reviewer", f"reviewer model is {reviewer!r}; it must be {REVIEWER_MODEL_ID} or the tier name Opus")
     reviewer_agent, drafter_agent = filled(FIELD_REVIEWER_AGENT), filled(FIELD_DRAFTER_AGENT)
     model_withheld, agent_withheld = _withheld(drafter), _withheld(drafter_agent)
     if drafter and drafter_agent and model_withheld != agent_withheld:
         bad("reviewfile-drafter", "the drafter model and the drafter agent must both be withheld, or neither")
-    if drafter and not model_withheld and model_id(drafter) is None:
+    if drafter and not model_withheld and model_tier(drafter) is None:
         bad("reviewfile-drafter", f"drafter model {drafter!r} is not a recognized model name")
     if reviewer_agent and drafter_agent and not agent_withheld and _same_agent(reviewer_agent, drafter_agent):
         bad("reviewfile-independence", "the reviewer agent and the drafter agent are the same; the reviewer is never the drafter")

@@ -44,23 +44,23 @@ tellable_as: >-
   Later a decree to exile the bishop is signed, and it is never carried out.
 text: >-
   In 371 and 372, Basil's province lay under an emperor who backed a
-  different creed than his own. Valens divided Cappadocia into two
-  provinces that same span of years, a move with real consequences for the
-  churches, and sent his praetorian prefect, Modestus, to bring the bishop
-  of Caesarea into line before the emperor's own visit. Modestus threatened
-  him - confiscation, exile, torture, death - and Basil is remembered
-  answering that a man who owns nothing has nothing to confiscate, that no
-  place is exile to one who counts the whole earth God's own, and that a
-  man already given over to God in this life has nothing left that death
-  can take. The prefect, astonished, is said to have reported that he had
-  never been addressed that way before. Basil is remembered replying that
-  perhaps the prefect had simply never yet met a bishop. When Valens
-  himself came to Caesarea the following Epiphany, he found the church
-  crowded to its doors for the festival, the singing filling the whole
-  building like the sea, and Basil presiding in full and unafraid order.
-  The emperor is remembered as shaken enough by what he saw that he never
-  carried through against the bishop, though the pressure around him and
-  the province's own politics continued. Basil was not removed.
+  different creed than his own. Valens divided Cappadocia into two provinces
+  that same span of years, a move with real consequences for the churches,
+  and sent his praetorian prefect, Modestus, to bring the bishop of Caesarea
+  into line before the emperor's own visit. Modestus threatened him -
+  confiscation, exile, torture, death - and Basil is remembered answering
+  that a man who owns nothing has nothing to confiscate, that no place is
+  exile to one who counts the whole earth God's own, and that a man already
+  given over to God in this life has nothing left that death can take. The
+  prefect, astonished, is said to have reported that he had never been
+  addressed that way before. Basil is remembered replying that perhaps the
+  prefect had simply never yet met a bishop. When Valens himself came to
+  Caesarea the following Epiphany, he found the church crowded to its doors
+  for the festival, the singing filling the whole building like the sea, and
+  Basil presiding in full and unafraid order. The emperor is remembered as
+  shaken by what he saw. Gregory's funeral speech says a decree of exile was
+  later signed and never carried out, because the emperor's son fell ill.
+  Basil was not removed.
 absent_detail: "No account of the confrontation or the visitation survives from Modestus's or Valens's own side; both scenes come entirely through Gregory's public telling, delivered at Basil's funeral to an audience that included people who had been present."
 modern_contrast: >-
   A modern reader might expect a confrontation this famous to rest on a

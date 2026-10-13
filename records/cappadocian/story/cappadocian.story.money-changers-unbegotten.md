@@ -8,10 +8,14 @@ register: emic
 canon_cells: []
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   evidentiary_weight: illustrative
   formation_confidence: Documented
-  divergence_note: "Documented that Gregory made this complaint, in this substance, in his own preaching; not Documented as literal social reporting - the specific, widely-circulated English wording is a known problem case with no secure public-domain translation located this session (Doc_02 §1.3's own correction), so this record paraphrases the complaint's substance and places no phrase from it in quotation marks."
+  divergence_note: Documented that Gregory made this complaint, in this substance, in his own preaching;
+    not Documented as literal social reporting - the specific, widely-circulated English wording is a
+    known problem case with no secure public-domain translation located this session (Doc_02 §1.3's own
+    correction), so this record paraphrases the complaint's substance and places no phrase from it in
+    quotation marks.
 sources:
 - source_id: cappadocian.source.gregory-nyssa-on-the-holy-spirit
   locus: "the money-changers/bath-attendants complaint, on the deity of the Son and Spirit"

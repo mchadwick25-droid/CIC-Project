@@ -49,23 +49,20 @@ relations:
 name: "Hēsychia against the summons [TENSIONAL]"
 classification: tensional
 description: >-
-  This is the pull between stillness and office. The retreat in Pontus stands against the metropolis. Men
-  fled ordination. The philosopher was drafted. It is the formed core's unresolved inner pull, lived out
-  in the world's most important careers. The pull is voiced almost wholly by the three authors about
-  themselves. But it is also enacted in their documented careers, and that is evidence of a different kind
-  than self-description. It is strong on repetition, on explanation and on interaction. It is strong on
-  formation for the formed core. It is moderate on persistence and dependency, bounded by its authors. The
-  tests of interaction and explanation save it from being mere talk. It explains odd public facts. The
-  world's greatest orator spent his prime in flight. Its metropolitan kept writing with longing of a
-  riverbank he never returned to. It touches nearly all the other candidates. It is the ascetic gravity's
-  inner cost. It is the paideia gravity's problem of renunciation. It is the shadow of the patron-bishop
-  gravity. Its reach in society is honestly bounded, since the plateau farmer was not fleeing ordination.
-  Its pull is strong within the formed core, and the evidence rates Documented in the enacted careers. The
-  divergence is between breadth and articulacy, not between strength and confidence. It is carried, not
-  resolved. It remains a tension. The pull grows just when the outside contest most needs recruits. The
-  worse the church's public emergency, the harder the pull on the formed contemplative. The tension
-  answers to force. It is not a temperament. It belongs to the formed core of ascetics, clergy and the
-  circle. It is not the plateau's tension. It is bounded to the formed core.
+  This is the pull between stillness and office: the retreat in Pontus
+  against the great city. Men fled ordination, and the philosopher was
+  drafted into service. The pull runs through the most important careers of
+  this world. The three authors voice it almost entirely about themselves.
+  Their careers also act it out, and that is evidence of another kind. The
+  pull explains odd public facts. The world's greatest speaker spent his
+  best years in flight. Basil wrote with longing of a riverbank retreat in
+  Pontus. He went back to it for a time, and then he was called away again.
+  The pull touches nearly every other gravity. It is the inner cost of the
+  ascetic life, the problem of renouncing learning, and the shadow side of
+  the bishop as patron. It grew strongest just when the church most needed
+  recruits. Its reach is bounded. It belonged to ascetics, clergy and the
+  circle of friends, not to the farmer of the plateau. The evidence for it
+  in the careers is documented.
 manifestations:
 - Basil's early letters describing the retreat ideal, set against the career he actually lived
 - Nazianzen's Oration 2, the flight narratives, De vita sua, the Sasima wound

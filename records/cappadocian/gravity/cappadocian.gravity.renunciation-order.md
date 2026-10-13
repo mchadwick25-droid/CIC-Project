@@ -41,28 +41,19 @@ relations:
 name: "Renunciation against order [TENSIONAL]"
 classification: tensional
 description: >-
-  The radical ferment stood against the strict koinōnia. Households were dissolved. Slaves were urged to
-  leave their masters. Fasts were kept against feasts, and breakaway assemblies formed. Against this stood
-  the ordered brotherhood, with its rule, its obedience and its guest-door. The evidence comes largely
-  from councils and laws. The radicals speak only through their censors' lists and their reformer's laws.
-  One whole side was handed down by its adversaries. It is strong on repetition. It is strong to moderate
-  on dependency. It is strong on formation where the line operates. Obedience set against self-willed
-  askesis is the formative core of the ordered community. The Gangra line shaped the ordinary parish too.
-  It is strong on explanation. It explains why the Asketikon exists at all. It explains why the guest-door
-  was designed. It explains the whole arc of the relationship with Eustathius. It is strong to moderate on
-  persistence, with the honest imbalance that one side is voiceless. It is strong on interaction. It
-  survives as a tension, and comfortably so. It is a lasting counter-force that was never fully retired in
-  the period. Its live phase ended only when the movement became an institution. The censures and the laws
-  rate Documented. The radical side's inner life is Inferential or Thin. That divergence is carried and
-  not resolved. It also shapes its ranking, since a voiceless party cannot anchor more than a finding of
-  counter-force. The tension broke open at Gangra, where the censures are the documented break. The
-  ferment was then given a hearth and slowly tamed. It was never retired in the period. Its live phase
-  closes only when the movement becomes an institution, at and past the end of the generation. It is the
-  one tension the analysis of forces shows being slowly won, and not merely held. It runs from household
-  to brotherhood. Households broke up or were converted, and communities took order. It reaches the congregation
-  at the line between fast and feast. It reaches the village through Gangra's canons in defense of the
-  parish. Across the radical and ascetic fracture, it is that fracture, tested. It crosses the registers,
-  on the censures' own word.
+  Radical renunciation pulled against the ordered common life. Some broke up
+  households. Some urged slaves to leave their masters. Some fasted against
+  the church's feasts and met apart. Against them stood the ordered
+  brotherhood, with its rule, its obedience and its door for guests. Most of
+  the evidence comes from councils and laws. The radicals speak only through
+  the lists of those who censured them. The censures and laws are well
+  documented. The radicals' own inner life is thin in the evidence. The
+  break came at the council of Gangra. After it, the movement was slowly
+  brought into ordered communities. The pull was never fully settled in this
+  period. It reached from household to brotherhood, to the congregation's
+  line between fast and feast, and to the village through Gangra's rules for
+  the parish. It counts as a lasting tension. A side with no voice of its
+  own cannot carry more weight than that.
 manifestations:
 - the Gangra censures (c. 340s) - twenty canons against radical ascetic practice, the era's best against-the-grain record
 - the Asketikon's ordering answers - obedience against self-willed askesis, the slave-reception provisions
