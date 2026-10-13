@@ -57,8 +57,7 @@ text: >-
   the imperial rescript, which had already been pleased to call them by
   it. He conceded the principle and was not free to act on it. So we
   called them Caecilianists instead, after the man whose consecration we
-  would not accept. A modern editor reports that one of our preachers
-  turned their own word back on them, saying it named the place where
+  would not accept. One of our own preachers turned their own word back on them, saying it named the place where
   wrong is done and nobody is punished for it.
 
 

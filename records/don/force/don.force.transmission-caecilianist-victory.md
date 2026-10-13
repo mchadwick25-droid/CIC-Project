@@ -63,7 +63,9 @@ description: >-
   At the end, it fixed exactly which small remainder of this world's own voice survives apart from
   it.
 manifestations:
-- Tyconius's Liber Regularum, whose survival mechanism is not resolved
+- Tyconius's Liber Regularum, surviving specifically because of its own influence on Augustine's De doctrina
+  christiana III (a transmission mechanism Doc_02 SS2 explicitly does not resolve, and does not need to
+  resolve)
 - the Deo laudes acclamation, transmitted by stone itself, requiring no manuscript custodian at all
 matrix_cell: 3B
 ---

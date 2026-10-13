@@ -34,4 +34,4 @@ discovery_channel: direct file check (title page and chapter-heading survey only
 external_ids:
   don_source_registry_row: 53
 ---
-The most directly on-topic unread volume this world holds: a chapter-by-chapter treatment of exactly the Donatist figures whose own voices this world's Registry is thinnest on. 
+The most directly on-topic unread volume this world holds: a chapter-by-chapter treatment of exactly the Donatist figures whose own voices this world's Registry is thinnest on.

@@ -24,7 +24,7 @@ confidence:
     record's own account of the verdict stand in for it. This record holds the same line.
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: 'the acts of the 411 Conference, in Migne''s printing; Emeritus and the other Donatist bishops speaking at length'
+  locus: 'the acts of the 411 Conference, in Migne''s printing; Emeritus and the other Donatist bishops speaking at length, not yet read into a specific claim'
   license: public-domain
 - source_id: don.source.codex-theodosianus-book-16
   locus: the penal legislation that followed the verdict; 16.5.52 (412 Ian. 30)

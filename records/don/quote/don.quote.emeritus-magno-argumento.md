@@ -49,8 +49,8 @@ modern_lens_note: 'A modern reader may hear a procedural objection like this as 
   case proceed to its substance at all until the opposing advocates disclose their own names, rank, and
   mandate to the court -- treating procedural standing itself as the truth the other side is trying to
   keep hidden, not a distraction from it.'
-modern_rendering: A great trick is hiding the truth. When we ask our questions, the other side puts
-  forward only a small part, so that the rest is kept silent.
+modern_rendering: 'Truth is hidden by a great device: when we ask, the other side puts forward a small
+  part, and the rest is kept silent.'
 use_note:
   means: "At the 411 Carthage conference, Emeritus protested that truth was hidden while the other side withheld its envoys' names, rank and mandate."
   not_for:

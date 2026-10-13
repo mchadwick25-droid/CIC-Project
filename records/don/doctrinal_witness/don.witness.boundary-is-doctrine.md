@@ -57,8 +57,7 @@ text: >-
   sacraments: the boundary we drew and the doctrine we held were one
   line, seen from two sides. The naming fight ran both ways. Optatus
   quotes our own petition as signed 'of the party of Donatus', and he
-  turned that against us. A modern editor reports that one of our
-  preachers turned your word back on you, as the place where wrong goes
+  turned that against us. One of our own preachers turned your word back on you, as the place where wrong goes
   unpunished. Nor will we tell you the line always held on our own side.
   We drew it against clergy who left us, and then let some of them back
   in without asking them to cross it again.

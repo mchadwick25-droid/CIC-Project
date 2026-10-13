@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: null
+  divergence_note: "Confidence is held at B, not A: the transcript has not been read in full, and the Author Gravity assessment has not been made against it."
 sources: []
 relations: []
 author: The 411 Conference of Carthage (official proceeding)
@@ -29,4 +29,4 @@ discovery_channel: 'Source Registry row 14; builder-prior-knowledge, cross-check
 external_ids:
   don_source_registry_row: 14
 ---
-Donatist bishops' own recorded words at length -- Emeritus of Caesarea foremost, with at least ten of his own numbered interventions confirmed this session via row 55's file, including '268. Emeritus episcopus dixit...'. This world's own two best-attested named Donatist figures -- Petilian via hostile quotation (row 12), Emeritus via this court transcript -- now each have a distinct, differently-mediated evidentiary channel (Doc_02 SS6). 
+Donatist bishops' own recorded words at length -- Emeritus of Caesarea foremost, with at least ten of his own numbered interventions confirmed this session via row 55's file, including '268. Emeritus episcopus dixit...'. This world's own two best-attested named Donatist figures -- Petilian via hostile quotation (row 12), Emeritus via this court transcript -- now each have a distinct, differently-mediated evidentiary channel (Doc_02 SS6).

@@ -66,7 +66,7 @@ senses:
 quick_meaning: Universal -- the title our rival claims, the state grants, and we refuse to concede.
 distortion_risk: high
 use_note:
-  means: "Both sides claimed 'catholic', meaning universal; the state granted it to the rival, and a Donatist preacher is reported, by a modern editor, to have turned the word back on them."
+  means: "Both sides claimed 'catholic', meaning universal; the state granted it to the rival, and a Donatist preacher turned the word back on them."
   not_for:
     - "a claim that catholic was an agreed and uncontested title in the fourth-century West"
     - "a claim that it refers to the later, settled Roman Catholic Church"
