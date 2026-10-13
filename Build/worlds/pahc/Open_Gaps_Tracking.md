@@ -716,7 +716,7 @@ Outside the spoken-field scope of OG-27, or left by choice. Each item names the 
 4. Story `use_note.means` repeats drift fixed in the spoken fields: `pahc.story.first-clement-corinthian-dispute`, `pahc.story.hermas-visions`, `pahc.story.one-eucharist-under-bishop`. `pahc.story.first-clement-corinthian-dispute` `modern_contrast` still says "unrequested".
 5. `pahc.witness.*` `positions[]` (33 entries): 27 fail the readability gate and 6 carry wording the audit flagged (most seriously `marriage-and-wealth` positions[1], `scholarly-standing` positions[0], `doubt-and-asking` positions[0]). They are third-person reference text, read only when `text` is absent, so they are left.
 6. Story `text` (source wording, not graded by the engine): `didache-eucharist`, `polycarp-forwards-letters`, `day-under-bishop-and-presbyters`, `first-clement-corinthian-dispute`, `mutual-aid-prisoner` and `nero-scapegoating` do not reach FK 10 and FRE 60.
-7. `pahc.limit.material-remains` and `pahc.witness.coming-to-belief` carry the same Pliny and Justin wording that was corrected in the demonstrations; the Pliny line in `pahc.limit.material-remains` should be checked against Pliny 10.96.
+7. `pahc.limit.material-remains` carries the Pliny wording that was corrected in `pahc.demo.honest-limit-material-remains`; it should be checked against Pliny 10.96.
 8. The edit tool rewrote each touched front-matter key with PyYAML, so the line diff of the 84 files is much larger than the 109 changed values.
 
 Status: OPEN.
