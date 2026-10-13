@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 347-420 CE) - writing from Rome, 384 CE; not a desert participant (his own ascetic experiment was in the Syrian desert of Chalcis)"
 work: "Letter 22 (to Eustochium, 384 CE), SS34-36 only: the earliest widely-read Latin typology of Egyptian monasticism - three kinds of monks (coenobium-dwellers, anchorites, and the disreputable third class the vendored edition prints as 'Remoboth' - the form scholarship usually renders 'remnuoth' from the Latin; the edition's own spelling governs any locus match) with descriptions of cenobitic daily order; an outside contemporary witness that the strand distinction Doc_01 SS6 records was visible to observers in the 380s, and a caution in itself (Jerome's typology is polemical, praising two kinds and damning the third)"
 edition: "trans. W. H. Fremantle (in NPNF series 2 vol. 6, 1893), vendored as cic/texts/npnf206_jerome-principal-works.xml (the three-kinds passage from 'There are in Egypt three classes of monks' at file line 6623 through ~6740; 'Remoboth' at ~6634)"
+citation: Jerome, Letter 22 (to Eustochium), trans. W. H. Fremantle, NPNF series 2 vol. 6 (1893)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

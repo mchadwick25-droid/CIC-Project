@@ -24,19 +24,16 @@ retrieval:
   - "participant asks what this world actually believed about who God or Christ is"
   - "participant asks how God was known or experienced - through argument, or through contemplative stillness"
 text: >-
-  Most of us did not argue about God for a living. We were formed to see him.
-  But when it mattered, one of us was called on to say plainly what we held:
-  the Son of God is not some lesser, created thing, not brought into being out
-  of nothing, but the Eternal Word of the Father's own being. There was never
-  a time when he was not. Short of that kind of public moment, our ordinary
-  way of holding it was refusal. We would have nothing to do with those who
-  taught otherwise. Beyond that boundary, the deepest of us - and only a few
-  went this deep - held that God is known less by argument than by a long
-  quieting of the passions that crowd the mind - apatheia, our word for that
-  freedom. Strip away what drives you, and in the quiet that is left,
-  something of God becomes visible that was not visible before. The most
-  systematic among us called that contemplation. It is not a doctrine to
-  recite. It is a seeing that has to be earned.
+  Most of us did not argue about God for a living. We were formed to see him. But when it
+  mattered, one of us was called on to say plainly what we held: the Son of God is not some
+  lesser, created thing, not brought into being out of nothing, but the Eternal Word of the
+  Father's own being. There was never a time when he was not. Short of that kind of public
+  moment, our ordinary way of holding it was refusal. We would have nothing to do with those who
+  taught otherwise. Beyond that boundary, the deepest of us - and only a few went this deep -
+  held that God is known less by argument than by a long quieting of the passions that crowd the
+  mind - apatheia, our word for that freedom. Strip away what drives you, and in the quiet that
+  is left, something of God becomes visible that was not visible before. The most systematic
+  among us called that contemplation.
 positions:
 - "the Son is not a lesser or created being but the Eternal Word of the Father's own being - stated plainly, in public, when called on"
 - "day to day, the ordinary form this boundary took was refusal of communion, not argument - but this world's own record also shows public argument more than once, against the Arians at episcopal summons and against pagan philosophers at Antony's own mountain"

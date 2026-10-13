@@ -22,14 +22,13 @@ retrieval:
   - "participant asks whether this world traced an unbroken line back to the apostles"
   - "participant asks where this world's own practice actually came from - invented, or inherited"
 text: >-
-  We did not claim an unbroken line back to the apostles for our way of life,
-  the way some claim it for an office or a rite. What we can honestly say is
-  that no one man invented it whole. Before the one we remember as the first
-  among us went out into the desert, there was already an old man living the
-  same solitary discipline near his own village. Our founder sought him out
-  and copied him before going further alone. The desert practice we are
-  remembered for was a strengthening of something already there in a smaller,
-  humbler form. It was not a new thing appearing out of nowhere.
+  We did not claim an unbroken line back to the apostles for our way of life, the way some claim
+  it for an office or a rite. What we can say is that no one man invented it whole. Before the
+  one we remember as the first among us went out into the desert, there was already an old man
+  living the same solitary discipline near his own village. Our founder saw him and copied him
+  before going further alone. The desert practice we are remembered for was a strengthening of
+  something already there in a smaller, humbler form. It was not a new thing appearing out of
+  nowhere.
 positions:
 - "no claimed unbroken institutional line to the apostles"
 - "a real, if less documented, predecessor practice existed before this world's own founding figure"

@@ -39,20 +39,18 @@ narrative_tier: 3
 narrative_tier_justification: "Tier 3 (Attributed Tradition): the tradition's own portrait of a formed life at its most extreme, not verified incident report, distinguished from Tier 1 material in the same Vita by its own hagiographic genre markers (physically embodied demons, a beast-form combat scene, a climactic vision of light)."
 tellable_as: "shut in a tomb, beaten by demons in the shape of beasts, and rising each time still standing"
 text: >-
-  The tradition shows Antony shutting himself inside an abandoned tomb, to
-  face what total combat against the interior enemy could mean at its furthest
-  edge. Demons came to him there in the night, in a crowd, and beat him until
-  he lay on the ground unable to speak. His friend found him and carried him
-  back to the village to mourn him as dead. But in the night Antony revived -
-  and had himself carried back to the same tomb, rather than stay where people
-  could tend him. The demons came again, now shaped like wild beasts filling
-  the space around him. He answered them: if there were any real power in you,
-  one of you would have been enough. The Lord has made you weak, so you come
-  at me in numbers. Attack if you can. And if you cannot, why trouble me for
-  nothing? At the worst of it, a light broke into the tomb, and the pain and
-  fear left him at once. He asked where the light had been at the start of his
-  struggle. The answer: I was here, but I waited to see your fight through.
-  Now that you have endured and were not overcome, I will always be your help.
+  The tradition shows Antony shutting himself inside an abandoned tomb, to face what total
+  combat against the interior enemy could mean at its furthest edge. Demons came to him there in
+  the night, in a crowd, and beat him until he lay on the ground unable to speak. A friend found
+  him and carried him to the village church, where people sat around him as around a corpse. But
+  at midnight Antony revived, and asked to be carried back to the same tomb. The demons came
+  again, now shaped like wild beasts filling the space around him. He answered them: if there
+  were any real power in you, one of you would have been enough. The Lord has made you weak, so
+  you come at me in numbers. Attack if you can. And if you cannot, why trouble me for nothing?
+  At the worst of it, a light broke into the tomb. The demons vanished, and the pain left him at
+  once. He asked the vision where it had been at the start of his struggle. The answer: I was
+  here, but I waited to see your fight. Now that you have endured and were not overcome, I will
+  always be your help.
 absent_detail: "The demons-as-beasts imagery is this world's own chosen register for representing interior struggle at its most extreme, not a claim about literal historical events - it is not a neutral incident report."
 modern_contrast: "A modern reader may hear a man alone in a tomb, beaten until he cannot speak, refusing care and returning to the same place, and reach for a mental-health frame (a psychiatric crisis, self-harm) rather than this world's own frame. This world's own record holds it as the most extreme instance of spiritual combat against the interior enemy (desert.gravity.spiritual-combat), the same struggle that replaced martyrdom once dying for the faith was no longer possible (desert.force.martyrdom-unavailable) - not a crisis to be treated, but total combat willingly sought. It is not a neutral incident report."
 use_note:
