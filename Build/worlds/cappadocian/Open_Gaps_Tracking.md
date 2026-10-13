@@ -842,6 +842,6 @@ A second independent review of PR #877, run by the coordinating session, found t
 4. **Correction to a citation.** In the rulings entry, the gravity and force item cites Basil's Letter 204 for the grandmother and the mother. Letter 204 supports only the grandmother clause, that she taught Gregory the Wonderworker's words (npnf208, around line 37060). The mother teaching the psalms rests on the Life of Macrina (gregory-nyssa_life-of-macrina_clarke1916.txt, line 120).
 5. **Valens story.** The `text` of `cappadocian.story.valens-caesarea` now names Gregory of Nazianzus's funeral speech rather than "Gregory's".
 
-Held for Mark: the change to `engine/m10/reviewfile.py` that accepts a tier name in the model fields. It is left as it stands until his ruling is passed on.
+6. **Correction to the review-file item of the rulings entry.** That item said repository files carry no model identifier, so the review-file checker should accept a bare tier name. The premise was wrong: the checker already accepts "Opus 5.5", which names the generation without a model identifier string. Mark withdrew that ruling the same day (System Hub Decision Log, "Change order: review files name the reviewer's generation, not only its tier", 2026-10-13). `engine/m10/reviewfile.py` is left as it is on main; one added test pins a wrong-generation reviewer as rejected. The six cappadocian review files now name Opus 5.5 as reviewer and drafter model. Each review's transcript shows every turn served by that model, and the drafting thread ran on it too.
 
-Status: CLOSED for items 1 to 5.
+Status: CLOSED for items 1 to 6.

@@ -1,9 +1,9 @@
 Simulated review — informational only, not an Article 31 substitute.
 
 Round: 1
-Reviewer model: Opus
+Reviewer model: Opus 5.5
 Reviewer agent: independent subagent, fresh context, read-only
-Drafter model: Opus
+Drafter model: Opus 5.5
 Drafter agent: the session's own Opus thread
 Truncation check, method 1: last section heading "## Changes checked and found sound"; last line begins "19. Gates."
 Truncation check, method 2: 12 numbered findings + 19 sound-change bullets = 31

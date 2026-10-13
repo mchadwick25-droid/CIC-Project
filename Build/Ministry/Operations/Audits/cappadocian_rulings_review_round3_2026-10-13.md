@@ -1,9 +1,9 @@
 Simulated review — informational only, not an Article 31 substitute.
 
 Round: 3
-Reviewer model: Opus
+Reviewer model: Opus 5.5
 Reviewer agent: independent subagent, fresh context, read-only, not the round 1 or round 2 reviewer
-Drafter model: Opus
+Drafter model: Opus 5.5
 Drafter agent: the session's own Opus thread
 Truncation check, method 1: the force record's last line is "records generally." It is line 56 of 56, the end of the body paragraph, and nothing is cut off.
 Truncation check, method 2: 3 items judged (A, B on the Holy Spirit record, B on the Life of Gregory Thaumaturgus record).

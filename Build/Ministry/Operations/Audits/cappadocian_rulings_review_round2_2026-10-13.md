@@ -1,9 +1,9 @@
 Simulated review — informational only, not an Article 31 substitute.
 
 Round: 2
-Reviewer model: Opus
+Reviewer model: Opus 5.5
 Reviewer agent: independent subagent, fresh context, read-only, not the round 1 reviewer
-Drafter model: Opus
+Drafter model: Opus 5.5
 Drafter agent: the session's own Opus thread
 Truncation check, method 1: last line is "3. `engine.m9.cli check` did not finish while I was reviewing. I started it at the stated scope and it was still running when I wrote this. Its result is not part of this verdict."
 Truncation check, method 2: 15 items judged (2 blocking + 10 non-blocking rechecks + readability + 2 new defects)

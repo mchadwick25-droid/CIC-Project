@@ -2,9 +2,9 @@ Simulated review — informational only, not an Article 31 substitute.
 Review round 3 (targeted recheck), cappadocian record audit fixes, 2026-10-13, reviewer: independent Opus subagent
 
 Round: 3
-Reviewer model: Opus
+Reviewer model: Opus 5.5
 Reviewer agent: independent subagent, fresh context, read-only, not the round 1 or round 2 reviewer
-Drafter model: Opus
+Drafter model: Opus 5.5
 Drafter agent: the session's own Opus thread made the record edits; this reviewer did not draft them
 Truncation check, method 1: the file ends on the Verdict line, a complete sentence
 Truncation check, method 2: the body below this header is 3027 characters, the same length as the reviewer's returned message, counted separately before saving
