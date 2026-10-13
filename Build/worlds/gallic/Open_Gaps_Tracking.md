@@ -1012,6 +1012,7 @@ Mark directly asked for the out-of-scope items listed in OG-33 to be fixed. That
 - `check_live_commentary --surface records --enforce`: exit 0.
 - Readability findings fall from 77 to 46, so the `m1:readability/gallic` waiver is tightened to 46.
 - Horizon findings fall from 5 to 0, so the `m1:horizon/gallic` waiver is removed.
-- The package is rebuilt and pinned in `records/worlds/gallic.yaml`: `packages/gallic/2026-10-13T05-46-31Z`. The site JSON is recompiled.
+- The package is rebuilt and pinned in `records/worlds/gallic.yaml`: `packages/gallic/2026-10-13T07-01-53Z`. The site JSON is recompiled.
+- CI's embedded-quotation pin (`engine/m1/tests/test_embedded_quotations.py`) moves from 53 to 51 gallic records. The two quoted build notes left the force rewrites. One verbatim old-translation line that the egypt-as-measure rewrite had added is now paraphrased with its locus, and the words stay in `gallic.quote.chaeremon-three-stages-of-grace`.
 
 Status: CLOSED for the records changed above. Items (1) to (4) stay OPEN.
