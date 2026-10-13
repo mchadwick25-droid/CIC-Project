@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Epistula 57, to Pammachius, On the Best Method of Translating (395, Bethlehem): Jerome's fullest theoretical defense of his translation practice ('sense for sense, not word for word'), written in self-defense during the Epiphanius-letter affair"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id v.LVII"
+citation: Jerome, Epistula 57, to Pammachius (On the Best Method of Translating), trans. W.H. Fremantle, Nicene and Post-Nicene Fathers, 2nd series, vol. 6 (1893)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed
