@@ -36,7 +36,7 @@ relations:
 - type: associated-with
   target: desert.dw.the-heart-and-the-spirit
 use_note:
-  means: "The Macarian Homilies, of unknown authorship, say that whoever strives to please God will see heavenly goods in real experience and feeling."
+  means: The Macarian Homilies, whose author is disputed, say that whoever strives to please God will see heavenly goods in real experience and feeling.
   not_for:
     - "the words of Macarius the Egyptian or any securely identified desert elder"
     - "consciously felt grace as uncontested teaching, when it drew the Messalian charge"

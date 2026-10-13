@@ -33,7 +33,7 @@ text: 'The tradition tells that Arsenius, while still in the palace, prayed: Lor
 absent_detail: "Arsenius's own imperial-court career is independently attested in the wider tradition beyond this saying, but this document does not extend its own verification to that fuller biography - only to the saying itself and its place in the collected tradition."
 modern_contrast: "\"Flee the company of men\" risks a modern misreading as social anxiety or avoidance - running from people rather than toward anything. In this world's own idiom, matching desert.term.anachoresis's own translational note for \"withdrawal,\" fleeing was a chosen strategy aimed at something (a life without sin), not an escape from something feared."
 use_note:
-  means: "The sayings report a voice telling Arsenius, at court and again as a monk, to flee and keep silence, evidencing withdrawal as a chosen strategy."
+  means: The sayings report a voice telling Arsenius to flee men at court, and later to keep silence as a monk, which shows withdrawal as a choice.
   not_for:
     - "Quoting the Latin triad flee, be silent, be still as Arsenius's own words or the vendored text's wording"
     - "Merging the two separate sayings, flee from men and flee and keep silence, into one"
