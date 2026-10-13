@@ -33,7 +33,7 @@ relations: []
 plain_meaning: "The fruit of a soul truly changed. Clement held that training and the exercise of will had a part, but the lasting result was a changed soul."
 world_word: arete
 false_friend:
-- excellence that practice alone produces, as in Aristotle
+- excellence that practice alone produces
 - correct moral decisions made through good reasoning
 senses:
   informational: On the inherited Greek account, virtue is a skill built by habituated practice - courage

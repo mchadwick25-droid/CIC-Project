@@ -57,7 +57,7 @@ senses:
 quick_meaning: "We confessed that humanity had fallen. Some credit Origen with an account of a fall before the world began. Whether it was his own view is disputed."
 distortion_risk: high
 use_note:
-  means: "We confessed that people had fallen, but it stayed open whether Origen taught a fall before the world."
+  means: "We confessed that people had fallen, but it stayed open whether Origen taught a fall before the world as his own view."
   not_for:
     - "presenting the pre-cosmic descent as settled or as Origen's certain position"
     - "calling it a heresy already condemned within this world's horizon"

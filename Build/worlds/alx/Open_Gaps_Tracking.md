@@ -683,3 +683,27 @@ Five fixes from the independent review of the alx record wording pass (the entry
 - `alx.limit.marriage` statement: "The English edition we hold leaves that book in Latin" is now "In the English we can offer you, that book is left in Latin".
 
 Status: CLOSED.
+
+### OG-25. Evidence-block text (use_note.means) brought into line with the corrected alx fields, 2026-10-13.
+
+Mark's ruling of 13 October: `use_note.means` is in scope where it contradicts. `engine/m4/evidence.py` puts every record's `use_note.means` into the evidence block the voice reads, so a stale `means` could carry a claim the wording pass had corrected. Every alx record that carries a `means` (51 terms, 26 quotes, 13 doctrinal witnesses, 9 gravities, 9 stories, 5 contested claims, 3 honest limits) was compared with its corrected spoken fields and its sources. `means` was changed only where it contradicted them. `not_for` and `years` were not touched. Review: `Build/Ministry/Operations/Audits/alx_record_audit_fixes_review_round3_2026-10-13.md` (Opus 5.5, the third and last review file). This fixes item 1 of the entry "Found in the alx wording pass and not fixed, 2026-10-13" for the terms listed below.
+
+- `alx.term.baptism`: "a real bodily crossing into Christ's death and rising" now "a real crossing in the body into the new life", as the corrected plain meaning (Paedagogus I.6-7 does not give "death and rising").
+- `alx.term.christ`: the "priest, king, and prophet" formula removed; now "the Anointed One, sent by God" (not in Origen's Commentary on John I, De Incarnatione 1-3 and 54, or Stromateis I.5).
+- `alx.term.hamartia`: "missing the mark ... rather than a debt owed or a law broken" now "more a wound than only a debt owed or a law broken" (De Incarnatione 4-7 and 20 keep a debt and a penalty). `world_word` "hamartia (missing the mark)" now "hamartia", since the pass had dropped "missing the mark" as unsupported by the cited loci.
+- `alx.term.prayer`: "attend to what God is already saying" now "converse with God, spoken or silent" (Stromateis VII.7 and 12).
+- `alx.term.thanatos`: "physical death a real but secondary outward sign" now the ruin that follows turning from God and losing the knowledge of him, which bodily death completes (De Incarnatione 4-6).
+- `alx.term.salvation`: "not a not-guilty verdict" now "not only a not-guilty verdict" (De Incarnatione keeps a penalty line).
+- `alx.term.oikos`: "where most people were formed" removed; the household is "a place where formation was put to the test" (`alx.contested.ecology-wide-primacy` holds the majority's formation open).
+- `alx.term.fall-descent`: "confessed by all" removed; now "We confessed that people had fallen, but it stayed open whether Origen taught a fall before the world as his own view" (`alx.contested.origen-positions`).
+- `alx.term.incarnation`: "not to teach or model" removed (De Incarnatione 12 and 54).
+- `alx.term.arete`: "not a skill built by habituated practice" now "with training and will playing a part" (Stromateis VII). `false_friend` "excellence built through repeated practice, as in Aristotle" now "excellence that practice alone produces".
+- `alx.term.logikos`: now says a wider view of this is contested, as is whether Origen held it (`alx.contested.origen-positions`).
+- `alx.term.metanoia`: "a change of nous" now "a change of mind" (nous is not in the cited loci).
+- `alx.term.agape`: "not ... an act of will" now "not ... an act of will alone" (Stromateis VI.9: allied "by free choice").
+- `alx.term.eucharistia`: "forming members whether or not they could read" now "open to members whether or not they could read" (the formation of non-readers is held open by `alx.contested.ecology-wide-primacy`).
+- `alx.dw.resurrection`: "fearless deaths" now "how brave the disciples were" (Origen, Contra Celsum II, speaks of danger and courage, not deaths).
+
+**Left open, out of scope here.** The term `senses.informational` and `senses.evidential` fields were read but not changed: `alx.term.prayer` still has God "already addressing" the soul, `alx.term.christ` still has the priest, king and prophet formula, and `alx.term.baptism` still speaks of Christ's death and rising. `alx.term.methexis` "not by becoming God" sits awkwardly against the "made God" wording in `incarnation` and `theosis`. One `not_for` entry on `alx.term.baptism` pulls against its corrected personal sense. `alx.term.apokatastasis` is rated Widely Accepted while all its spoken fields call it contested (a build field).
+
+Status: CLOSED for `use_note.means`; the senses fields above stay OPEN.
