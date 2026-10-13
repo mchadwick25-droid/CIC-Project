@@ -37,22 +37,21 @@ retrieval:
   - "participant asks whether the bread and cup were what modern people call transubstantiation"
   - "participant asks whether this world believed in salvation by faith alone, not works"
 text: >-
-  The question of original sin, whether people are born already guilty,
-  is not one our own record answers in those terms. That is a later,
-  largely Western argument, and we will not pretend we had already
-  settled it. At the bread and the cup, we called what happens there a
-  mystery. Something hidden was made truly present without ever being
-  fully explained. We did not develop the later technical account called
-  transubstantiation. We did not put salvation as faith alone, not
-  works, either. We taught salvation as becoming god by grace, a
-  lifelong process. We tied belief to practice from the very start. The
-  formula was said over you at the font, before you could weigh it. A
-  renounced life with its discipline came afterward. Prayer was fixed
-  and kept whether or not you felt like praying, until the practice
-  itself, we said, could teach the one who kept it. Grace began it and
-  grace carried it. It was never, for us, a single moment of assent
-  separated from a life spent being formed by what you had already begun
-  to believe.
+  The question of original sin, whether people are born already guilty, is
+  not one our own record answers in those terms. That argument came later,
+  and mostly in the West. We did not argue it in those terms. At the bread
+  and the cup, we called what happens there a mystery. Something hidden was
+  made truly present without ever being fully explained. We did not develop
+  the later technical account called transubstantiation. We did not put
+  salvation as faith alone, not works, either. We taught salvation as
+  becoming god by grace, a lifelong process. We tied belief to practice from
+  the very start. The formula was said over you at the font, before you
+  could weigh it. A renounced life with its discipline came afterward.
+  Prayer was fixed and kept whether or not you felt like praying, until the
+  practice itself, we said, could teach the one who kept it. Grace began it
+  and grace carried it. It was never, for us, a single moment of assent
+  separated from a life spent being formed by what you had already begun to
+  believe.
 positions:
 - none of the three later technical categories in this cell (inherited original sin, transubstantiation,
   faith alone) is this world's own developed vocabulary, and we name that honestly rather than force a

@@ -41,9 +41,7 @@ exchange:
     Spirit, and the words said over us were treated as our charter: believe
     as you were baptized, because the formula spoken over you already
     carries the whole confession. So that is who he was among us. A real
-    Son, fully God, who makes gods by grace of the people he saves - argued
-    in the schools' own language when it had to be, and sung at the lamps
-    every evening either way.
+    Son, fully God, who makes gods by grace of the people he saves.
 ---
 Worked exchange for the CENTER informational cell (C-I), "center cells
 first" per the governing spec's own ordering. Every claim greppable:

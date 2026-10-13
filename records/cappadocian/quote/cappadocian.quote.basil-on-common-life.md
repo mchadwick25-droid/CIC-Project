@@ -70,15 +70,15 @@ relations:
 - type: associated-with
   target: cappadocian.dw.becoming-one-of-us
 modern_rendering: >-
-  I've come to see that living together does more good, in more ways,
-  than living alone. To start with, none of us is self-sufficient even
-  for our basic needs - we need each other's help just to get by. Think
-  of a foot: it has certain strengths but lacks others, and cut off from
-  the rest of the body, it can neither hold up on its own nor get what
-  it's missing. It's the same with the solitary life - what abilities you
-  do have go to waste, and what you lack you simply cannot get. God our
-  Creator built us to need one another, so that we would be bound
-  together.
+  I've come to see that living together does more good, in more ways, than
+  living alone. To start with, none of us is self-sufficient even for our
+  basic needs - we need each other's help just to get by. Think of a foot:
+  it has certain strengths but lacks others, and cut off from the rest of
+  the body, it can neither hold up on its own nor get what it's missing.
+  It's the same with the solitary life - what abilities you do have go to
+  waste, and what you lack you simply cannot get. This is because God the
+  Creator ordained that we need one another, as it is written, so that we
+  would be bound to one another.
 use_note:
   means: "Basil's Longer Rules argues that no one is self-sufficient, so living in community lets gifts and needs meet as God intended."
   not_for:

@@ -165,7 +165,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     # never graded, mostly concentrated in doctrinal_witness.positions
     # and gravity/force.description across the fleet.
     "m1:readability/alx": Waiver(count=20, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; alx's own build thread"),
-    "m1:readability/cappadocian": Waiver(count=274, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
+    "m1:readability/cappadocian": Waiver(count=228, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
     "m1:readability/desert": Waiver(count=153, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
     "m1:readability/don": Waiver(count=320, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
     "m1:readability/gallic": Waiver(count=101, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; gallic's own build thread"),
@@ -185,7 +185,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:cells-required/alx": Waiver(count=4, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; alx's own build thread"),
     "m1:horizon/alx": Waiver(count=1, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; alx's own build thread"),
     "m1:cells-required/cappadocian": Waiver(count=91, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; cappadocian's own build thread"),
-    "m1:horizon/cappadocian": Waiver(count=5, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; cappadocian's own build thread"),
+    "m1:horizon/cappadocian": Waiver(count=4, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; cappadocian's own build thread"),
     "m1:status-ready/desert": Waiver(count=1, deadline="2027-03-15", owner="slice 5 status gate: each draft record is finished and marked ready, or marked voice: analytic; desert's own build thread"),
     "m1:cells-required/desert": Waiver(count=5, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; desert's own build thread"),
     "m1:horizon/desert": Waiver(count=1, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; desert's own build thread"),

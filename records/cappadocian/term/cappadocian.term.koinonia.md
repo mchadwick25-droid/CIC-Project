@@ -49,9 +49,11 @@ relations:
   target: cappadocian.term.kanon-kanonikai
 - type: associated-with
   target: cappadocian.term.philoptochia
-plain_meaning: We taught that people are made for life together, not for life alone. Even the
-  strictest renunciation of the world was ordered into community. Ascetics prayed together, worked together,
-  and held goods in common. They kept a door open for guests.
+plain_meaning: >-
+  We taught that people are made for life together, not for life alone. So
+  we worked to bring even the strictest renunciation into community.
+  Ascetics prayed together, worked together, and held goods in common. They
+  kept a door open for guests.
 world_word: koinōnia
 false_friend:
 - '''community'' as a warm but optional add-on to private faith'

@@ -24,18 +24,16 @@ sources:
   locus: "text-attested archaeology, not excavated certainty"
   license: public-domain
 statement: >-
-  If you dug up the ground under the two places we say mattered most - the
-  shrine that held our martyrs' bones, and the poorhouse we built outside
-  our own city walls - we could not tell you what you would find. Neither
-  place has ever been found and dug up by anyone. We can tell you the
-  shrine was real. Our own mother is said to have gathered the bones there
-  and built the family's own chapel around them. We can tell you the
-  poorhouse was real too. Our own letters, and a friend's speech at a
-  funeral, describe it staffed and paid for, with its own name in its own
-  day. What we cannot do is hand you a shovel. Everything we have told you
-  about daily life among us comes from what was written down, not from
-  what has been dug up. Historians know us the way you know a family
-  through its own letters: well, and only on paper.
+  Think of the two places we say mattered most: the shrine that held our
+  martyrs' bones, and the poorhouse we built outside our city walls. If you
+  dug under them, we could not tell you what you would find. No one has yet
+  found either place for certain. We can tell you the shrine was real. Our
+  own mother is said to have gathered the bones there and built the family's
+  chapel around them. We can tell you the poorhouse was real too. Our own
+  letters, and a friend's speech at a funeral, describe it staffed and paid
+  for, with its own name in its own day. What we cannot do is hand you a
+  shovel. Everything we have told you about daily life among us comes from
+  what was written down, not from what has been dug up.
 why_sources_cannot_answer: >-
   No archaeological excavation has securely identified either institution
   named as central in this world's own record (the martyr-shrine at

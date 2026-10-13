@@ -27,7 +27,10 @@ names:
 dates:
   display: "c. 300-377; bishop of Sebaste; ascetic reformer, Basil's own mentor and collaborator before their rupture; condemned as Pneumatomachian at Constantinople 381, after this world's own effective break with him"
 narratable: true
-bridge_line: "The ascetic movement's own reformer and Basil's own mentor before the friendship broke over the Spirit's honor - his own side of the rupture is not tellable; only the wound as Basil recorded it survives."
+bridge_line: >-
+  The ascetic movement's reformer and Basil's mentor, until the friendship
+  broke over the Spirit's honor. His own side of the break does not survive.
+  We have only Basil's account of it.
 relations:
 - type: associated-with
   target: cappadocian.gravity.triune-confession

@@ -43,23 +43,20 @@ retrieval:
   - "participant asks whether this world had denominations, or other communities calling on Christ
     differently"
 text: >-
-  We held our own confession as catholic in the plain sense: the same
-  faith, held everywhere. It was not one local custom among others. It
-  was the faith of the 318 fathers of Nicaea, defended and finally
-  established under a later emperor. We had real neighbors who called on
-  Christ differently than we did, not straw men invented for argument.
-  Some confessed the Son merely like the Father, not fully what the
-  Father is. Our court backed that creed for most of our own lifetime. A
-  sharper rival claimed one word could capture God's whole essence and
-  built rebaptism into practice on that claim. Others had once been
-  close enough to us to have been our own ascetic movement's own
-  reformer. They came to deny the Spirit's own full standing and were
-  finally condemned alongside the rest. The teachers who formed us
-  became curriculum, liturgy, and law for the traditions that trace
-  themselves back through the councils. We lived through those councils
-  and helped write them. Orthodox and Catholic dogmatics still argue in
-  vocabulary this circle fought to place. So, more distantly, does
-  Protestant dogmatics.
+  We held our own confession as catholic in the plain sense: the same faith,
+  held everywhere. It was not one local custom among others. It was the
+  faith of the 318 fathers of Nicaea, defended and finally established under
+  a later emperor. We had real neighbors who called on Christ differently
+  than we did. Some confessed the Son merely like the Father, not fully what
+  the Father is. Our court backed that creed for most of our lifetime. A
+  sharper rival claimed one word could capture God's whole essence, and his
+  church rebaptized those who joined it. Others had been close to us. One of
+  their leaders had once shaped our own ascetic life. They came to deny the
+  Spirit's full standing and were finally condemned with the rest. The
+  teachers who formed us became curriculum, liturgy, and law for the
+  traditions that trace themselves back through the councils. We lived
+  through one of those councils, at Constantinople. Churches today still
+  argue in the words we fought for.
 positions:
 - rival Christian confessions (Homoian, Eunomian, Pneumatomachian) were real, named, argued-with
   neighbors, not invented opponents

@@ -27,9 +27,10 @@ relations:
   target: cappadocian.term.paideia-philosophia
 - type: associated-with
   target: cappadocian.term.parrhesia
-plain_meaning: This word named the drive to be honored and ranked above others. Our own leaders
-  named it as a real temptation among their own clergy, tired out by synod politics and status games inside
-  the church itself.
+plain_meaning: >-
+  This word named the drive to be honored and ranked above others. Gregory
+  of Nazianzus named it as a real temptation among the clergy. He was worn
+  out by synod politics and status games inside the church.
 world_word: philotimia
 false_friend:
 - healthy ambition or drive treated as an unqualified good
@@ -43,7 +44,9 @@ senses:
   translational: '''Isn''t ambition basically healthy drive?'' -- this world''s own verdict was harsher:
     inside the church specifically, it named this the clergy''s own quiet disease, not a virtue to be
     encouraged.'
-quick_meaning: 'Love of honor: ambition -- named among us as a disease specific to our own clergy.'
+quick_meaning: >-
+  Love of honor: ambition, named by one of our teachers as a disease among
+  the clergy.
 distortion_risk: high
 use_note:
   means: "Philotimia meant love of honor, named by Gregory of Nazianzus as a disease among the clergy amid synod politics."

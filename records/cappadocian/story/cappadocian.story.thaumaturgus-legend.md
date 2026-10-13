@@ -33,7 +33,10 @@ relations:
   target: cappadocian.gravity.household-lineage
 narrative_tier: 3
 narrative_tier_justification: "Tier 3: this is hagiography written a century after its subject's death, in the genre of miracle-cycle and founder-legend - not eyewitness or near-contemporary testimony. The specific numbers, the vision, and the mission narrative are Contested as history and traditional in character; what the story evidences, and what this world's own use of it demonstrates, is its function as a founding legend later generations appealed to as living authority."
-tellable_as: "A missionary finds a region with almost no Christians in it, receives the faith's own creed in a vision, and leaves it almost entirely converted."
+tellable_as: >-
+  A bishop comes to a city with, so the story says, seventeen Christians. He
+  receives a creed in a night vision, and at his death only seventeen pagans
+  are left.
 text: >-
   In the third century, before our own living memory reached
   back, Gregory came to Pontus and Cappadocia as a young convert trained by

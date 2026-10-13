@@ -36,22 +36,21 @@ retrieval:
   - "participant asks how this world fasted and why, or what happened when someone wronged the
     community"
 text: >-
-  It began at the font. You were signed into the Name, Father, Son, and
-  Holy Spirit, plunged three times into the water, and taught to believe
-  as you had been baptized - the formula itself was your charter, given to
-  you whole before you could weigh it. Many of us delayed that step for
-  years, some until we were dying, out of fear of sinning again once
-  washed; our own preachers argued hard against the delay without ever
-  mocking the fear behind it. For those who went further and joined one of
-  our brotherhoods or sisterhoods, entry meant a leader obeyed, goods held
-  in common, fixed hours of prayer, and real work - training, our own word
-  for it borrowed straight from an athlete's schooling, aimed at love
-  rather than at how hard the training looked. Fasting was part of that
-  discipline, but never praised for its own severity - the fiercest
-  ascetics among us, who fasted against the church's own feast days, were
-  corrected, not admired. And if you wronged the community, we had a real,
-  working path back: graded penance, a set term of exclusion, and
-  reconciliation at the end of it, not permanent exile from the body.
+  It began at the font. You were signed into the Name, Father, Son, and Holy
+  Spirit, and plunged three times into the water. You were taught to believe
+  as you had been baptized. The formula itself was your charter, given to
+  you whole before you could understand all of it. Many of us delayed that
+  step for years, some until we were dying, out of fear of sinning again
+  once washed. Our preachers argued hard against the delay without ever
+  mocking the fear behind it. Some went further and joined a brotherhood or
+  sisterhood. There you obeyed a leader and held goods in common. You prayed
+  at fixed hours and worked with your hands. We called this training, the
+  athlete's word. Its aim was love, not hardship for its own sake. Fasting
+  was part of that discipline, but it was never praised for its own
+  severity. The fiercest ascetics among us, who fasted against the church's
+  own feast days, were corrected, not admired. And if you wronged the
+  community, there was a real path back: graded penance, a set term of
+  exclusion, and reconciliation at the end of it.
 positions:
 - entry was marked at baptism by a formula given whole, not gradually assented to, though delaying that
   step out of fear was a real, recorded struggle

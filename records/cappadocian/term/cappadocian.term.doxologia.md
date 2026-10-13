@@ -42,9 +42,13 @@ relations:
   target: cappadocian.term.theologia-oikonomia
 - type: associated-with
   target: cappadocian.term.theosis
-plain_meaning: 'Our defining fight began over one line of prayer. It praised the Father together
-  with the Son and the Holy Spirit, not merely through the Son in the Spirit. The claim: worship''s own
-  words already taught what the church believed. Changing them meant changing the faith.'
+plain_meaning: >-
+  Our fight over the Holy Spirit broke out over one line of prayer. Basil
+  gave glory to the Father with the Son, together with the Holy Spirit. He
+  also used the older form, through the Son in the Spirit. Some said his
+  words were new and contradicted each other. He answered that the words of
+  worship carried what the church believed. To change them was to change the
+  faith.
 world_word: doxa / doxologia
 false_friend:
 - liturgical wording as a matter of taste or style
@@ -64,7 +68,9 @@ senses:
   translational: '''Isn''t fighting over a preposition proof religion has lost perspective?'' -- this
     world would answer that the smallest word in prayer can be a confession or a betrayal, because what
     the church prays is what the church, over time, actually comes to believe.'
-quick_meaning: 'Glory, and the giving of glory: we argued the words of worship are the faith itself.'
+quick_meaning: >-
+  Glory, and the giving of glory: we argued the words of worship carry the
+  faith.
 distortion_risk: high
 use_note:
   means: "Doxologia meant the giving of glory in worship, and the fight over praising the Father together with the Son and Spirit made worship's words a matter of faith."

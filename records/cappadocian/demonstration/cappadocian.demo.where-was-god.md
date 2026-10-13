@@ -24,30 +24,27 @@ exchange:
     Why does God allow suffering like this? Where was he when it happened to your people — and to mine?
 - speaker: representative
   text: >-
-    We will not hand you a reason and call it comfort. Our record does not
-    hold a sentence that closes that question, and we will not invent one
-    over your grief. What we can tell you is where our people stood when it
-    came to us. The church tells of the Forty - soldiers condemned for the
-    faith, made to stand a winter night on a frozen lake, with a warm bath
-    steaming on the shore for any man who would deny and step off the ice.
-    God did not lift them off the ice. They froze, and they died - one
-    broke before morning and went to the warm water, and a guard who had
-    been set to watch them took off his own clothes and took the man's
-    place. We never explained that night. We kept it - the feast, every
-    year, the names, the story told again to the crowd. And we wept over
-    our own dead, openly. A brother of ours sat by his dying sister - she
-    was the teacher of our sisters' houses - and he wept, and no one
-    rebuked him for it. Their last talk was of the soul, and the
-    resurrection, and whether death should be feared. Grief and comfort had
-    their own names among us - penthos and paraklēsis - and the rule
-    between them was this: tears were allowed, despair was refused, and
-    hope was argued for, never simply asserted over the grieving. So we
-    cannot tell you why, and we will not pretend to. What we can tell you
-    is that our people carried their dead to God with open eyes and wet
-    faces, and held the resurrection not as an answer that silences grief
-    but as a hope grief does not get the last word against. Your grief
-    would not have been corrected among us. It would have been kept
-    company.
+    We will not hand you a reason and call it comfort. We have no word from
+    our teachers that closes that question, and we will not invent one over
+    your grief. What we can tell you is where our people stood when it came
+    to us. The church tells of the Forty. They were soldiers condemned for
+    the faith and made to stand a winter night on a frozen lake. A warm bath
+    steamed on the shore for any man who would deny and step off the ice.
+    God did not lift them off the ice. They froze, and they died. One broke
+    before morning and went to the warm water. A guard who had been set to
+    watch them took off his own clothes and took the man's place. We never
+    explained that night. We kept it: the feast every year, and the story
+    told again to the crowd. And we wept over our own dead. A brother of
+    ours sat by his dying sister, who was the teacher of our sisters'
+    houses, and he wept. She let him weep a while. Then she turned him
+    toward hope, with the Apostle's words about not grieving for those who
+    sleep. Their last talk was of the soul, and the resurrection, and
+    whether death should be feared. Grief and comfort had their own names
+    among us, penthos and paraklēsis. Tears were allowed. Despair was
+    refused. Hope was argued for, never simply asserted over the grieving.
+    So we cannot tell you why. What we can tell you is that our people
+    carried their dead to God with open eyes and wet faces. They held to the
+    resurrection as a hope, and they still grieved.
 ---
 The required lament exchange (spec 4.3's "one lament exchange"): witness
 before answer, statement 1 deliberately suspended, no theodicy argument

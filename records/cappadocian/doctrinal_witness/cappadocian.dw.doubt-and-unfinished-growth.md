@@ -34,22 +34,21 @@ retrieval:
   - "participant asks whether doubt was treated as sin here, or whether there was room for it"
   - "participant says they were baptized long ago and feel like the same person still"
 text: >-
-  Doubt was not, for us, the opposite of faith - overconfidence was. We
-  built our whole way of speaking about God around one honest limit: no
-  mind grasps him completely, though he is truly known in what he has
-  shown. We said that directly against a rival teacher who claimed one
-  word could deliver God's whole essence, known exactly as God knows
-  himself. We thought that claim, not the humbler uncertainty, was the
-  real danger to faith. A person baptized years ago may still feel like
-  the same person. One of our own teachers built an entire account of
-  the Christian life on exactly that feeling never fully going away.
-  Because God has no limit, he argued, the soul's growth toward him has
-  no finish line either. Arriving completely would mean love itself
-  running out, so the reaching never stops. That teaching is one man's
-  own daring development, not the whole circle's shared property, and we
-  say so honestly. But it was ours, argued inside our own circle. It
-  means that staying unfinished was never, for us, proof that nothing
-  had happened.
+  Our rules asked a believer not to waver over the Lord's words. That was
+  the struggle of faith. But saying that no mind grasps God completely was
+  not doubt to us. We built our whole way of speaking about God around that
+  limit. No mind grasps him completely, though he is truly known in what he
+  has shown. We said that directly against a rival teacher who, we said,
+  claimed one word could deliver God's whole essence, known exactly as God
+  knows himself. We thought that claim, not the humbler uncertainty, was the
+  real danger to faith. A person baptized years ago may still feel like the
+  same person. One of our teachers, Gregory of Nyssa, built an entire
+  account of the Christian life on that feeling never fully going away.
+  Because God has no limit, he argued, the soul's growth toward him has no
+  finish line either. Arriving completely would mean love itself running
+  out, so the reaching never stops. That teaching was his own. Not all of us
+  taught it. But it was argued inside our own circle. It means that staying
+  unfinished was never, for us, proof that nothing had happened.
 positions:
 - the incomprehensibility of God was built into our own epistemology as a safeguard, not treated as a
   failure of nerve

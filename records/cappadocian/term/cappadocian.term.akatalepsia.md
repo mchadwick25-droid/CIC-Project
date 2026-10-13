@@ -57,9 +57,10 @@ relations:
   target: cappadocian.term.theologia-oikonomia
 - type: associated-with
   target: cappadocian.term.theosis
-plain_meaning: 'God''s own being is beyond every mind''s reach. We held that together with a second
-  truth: God is really known through what he does, not through knowing his hidden essence. Neither claim
-  canceled the other.'
+plain_meaning: >-
+  God's own being is beyond every mind's reach. We held that together with a
+  second truth: God is really known through what he does, not through
+  knowing his hidden essence. We held both truths together.
 world_word: akatalēpsia
 false_friend:
 - the idea that no one can know anything about God

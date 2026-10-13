@@ -28,14 +28,14 @@ retrieval:
   - "participant asks whether this world baptised babies or only adults who chose it for themselves"
 text: >-
   We treated baptism as new birth in the plainest sense we had. We were
-  signed into the Name and given a new charter before we could weigh a
-  word of it. What happened at the font we called photisma as often as
-  baptisma - illumination, not only washing. Most of the baptisms we can
-  actually document were adult ones. Many were delayed on purpose. Some
-  of us waited until we were dying, hoping to be washed clean once and
-  not risk sinning again afterward. Our own preachers argued hard
-  against that delay, calling it a dangerous game with an uncertain hour
-  of death. They did not argue against the seriousness behind it. We
+  signed into the Name and given the whole faith at once, as a charter,
+  before we could understand all of it. What happened at the font we called
+  photisma as often as baptisma - illumination, not only washing. Most of
+  the baptisms we can actually document were adult ones. Many were delayed
+  on purpose. Some of us waited until we were dying, hoping to be washed
+  clean once and not risk sinning again afterward. Our own preachers argued
+  hard against that delay, calling it a dangerous game with an uncertain
+  hour of death. They did not argue against the seriousness behind it. We
   cannot tell you with confidence how common infant baptism was among us
   specifically, set against this adult, often-delayed pattern. Our own
   clearest record is the delay, not the cradle.
