@@ -87,9 +87,9 @@ narrative_tier_justification: >-
   Accepted rather than Documented because two works by one author are not multiple independent
   sources.
 tellable_as: >-
-  To stop tribunes with power of life and death being sent to hunt heretics in the Spains, Martin
-  yields once to a communion he abhors, is told by an angel that his compunction is just, feels his
-  power diminished, and never attends a synod again.
+  To stop tribunes from hunting heretics in the Spains, Martin takes communion once with the bishops
+  he had refused. An angel tells him his remorse is just. He feels his power lessened, and he never
+  attends a synod again.
 text: >-
   In his Dialogues, Sulpitius Severus has Gallus - one of Martin's own disciples - tell a story Martin
   had always kept quiet, except from his own household. Sulpitius's Sacred History narrates an earlier

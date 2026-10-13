@@ -110,9 +110,9 @@ relations:
 - type: enabled-by
   target: gallic.term.obedience
 plain_meaning: >-
-  For us humility is the root from which discretion and patience grow, and the only ground on which
-  power may be held. Cassian gives it ten checkable signs. A count's son wins "the true nobility" by
-  hawking baskets. At Tours it is "the same humility in his heart" that a bishop keeps from his cell,
+  For us humility was the root from which discretion and patience grew, and the only ground on which
+  power might be held. Cassian gives it ten checkable signs. A count's son won "the true nobility" by
+  hawking baskets. At Tours it was "the same humility in his heart" that a bishop kept from his cell,
   sitting on a "rude little stool, such as those in use by the lowest of servants."
 world_word: humility (humilitas)
 false_friend:
@@ -149,8 +149,8 @@ senses:
     famous abbot fled his own house to recover, and at Tours the unchanged heart and garments of a
     bishop on a servant's stool.
 quick_meaning: >-
-  A virtue with ten checkable signs, won by obedience and set above miracles. The one virtue that
-  survives being made a bishop.
+  A virtue with ten signs a monk could check, won by obedience and set above miracles. Martin kept it
+  even as a bishop.
 distortion_risk: medium
 use_note:
   means: "Humility meant the root of discretion and patience, given ten checkable signs by Cassian and kept by Martin even as bishop on a servant's stool."

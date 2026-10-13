@@ -91,9 +91,9 @@ narrative_tier_justification: >-
   argument raised at morning service" is among the four things Doc_05 §7.2 lists as Gaul's own inside
   Cassian.
 tellable_as: >-
-  Two friends come back to morning service troubled by one sentence an old man added the night before
-  - that striving cannot make a man master of the good - and the elder shortens the office to answer
-  them with a husbandman, the rain, and "the initiative ... comes from God."
+  Two friends come back to morning prayer troubled by one sentence an old man added the night before:
+  no one masters the good by his own toil. The old man cuts the office short. He answers with a farmer
+  who still needs the rain.
 text: >-
   At the opening of his Thirteenth Conference, Cassian records how the question of grace and effort
   came up in Egypt - not in a school, but between two friends at the hour of prayer, at the cell of an

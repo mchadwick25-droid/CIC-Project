@@ -56,40 +56,41 @@ retrieval:
   - "participant asks how this world knew the resurrection happened, or whether anyone had seen him - retrieve gallic.limit.no-one-who-saw-him"
   - "participant wants the two-natures argument itself - retrieve gallic.dw.one-person-two-substances"
 text: >-
-  Jesus was our Lord, the crucified one. At Tours this comes to us as a
-  story. The devil came to Martin in his cell dressed in purple, with a
-  crown of gold and jewels, and said, I am Christ. Martin kept silence a
-  long time. Then he said he would not believe that Christ had come. He
-  would believe it only if Christ came in the form in which he suffered,
-  showing the marks of his wounds. We also met him in the poor. Tours
-  remembered a beggar at a city gate whom everyone passed. A soldier cut
-  his one cloak in half for him. That night the soldier saw Christ
-  wearing the half he had given away. He heard him tell the angels that
-  Martin, still a catechumen, had clothed him. Among the brethren at
-  Marseilles the same thing was taught in the fathers' words, from
-  Egypt. An elder broke his fast for two strangers at his door.
-  Receiving Christ in them, he ought to refresh him. What he taught that
-  mattered most among us was this: what is done to the least of these is
-  done to him. Sulpitius set those words beside the cloak. And it was
-  that without him we can do nothing. Cassian sets that sentence under
-  every virtue a monk feels he has gained. He sets it beside the
-  Apostle's not I, but the grace of God with me. We wrote no treatise on
-  his death. We kept its hours. Cassian handed us from Egypt the reason
-  for the hours of prayer. At the third hour the Spirit came down on the
-  apostles. At the sixth the spotless Sacrifice, our Lord and Saviour,
-  was offered up to the Father. He went up on the cross for the
-  salvation of the whole world, taking away the debt that could not be
-  paid. At the ninth he went down into hell and brought out the captive
-  saints. What we believed about the resurrection is held there too.
-  Dead in the flesh, he was not dead in the spirit. His soul was not
-  left in hell. No one took his life from him. He laid it down himself
-  and took it again. The difference it made is the one our whole life
-  stands on. A man who leaves Caesar's service for Christ's fights the
-  devil in his own heart. There a kingdom is being made ready for the
-  devil or for Christ. The power that raised a dead catechumen at the
-  saint's prayer was Christ's, not the saint's. And the good news as we
-  told it is this. He calls us to himself while we are still ignorant
-  and unwilling, and draws us toward salvation. Those who perish, perish
+  Jesus is our Lord, the one who was crucified. At Tours this comes to
+  us as a story. The devil came to Martin in his cell dressed in purple,
+  with a crown of gold and jewels, and said, I am Christ. Martin kept
+  silence a long time. Then he said he would not believe that Christ had
+  come. He would believe it only if Christ came in the form in which he
+  suffered, showing the marks of his wounds. We also met him in the
+  poor. Tours remembered a beggar at a city gate whom everyone passed. A
+  soldier cut his one cloak in half for him. That night the soldier saw
+  Christ wearing the half he had given away. He heard him tell the
+  angels that Martin, still a catechumen, had clothed him. Among the
+  brethren at Marseilles the same thing was taught in the fathers'
+  words, from Egypt. An elder broke his fast for two strangers at his
+  door. Receiving Christ in them, he ought to refresh him. What he
+  taught that mattered most among us was this: what is done to the least
+  of these is done to him. Sulpitius set those words beside the cloak.
+  And it was that without him we can do nothing. Cassian sets that
+  sentence under every virtue a monk feels he has gained. He sets it
+  beside the Apostle's not I, but the grace of God with me. We wrote no
+  treatise on his death. We kept its hours. Cassian handed us from Egypt
+  the reason for the hours of prayer. At the third hour the Spirit came
+  down on the apostles. At the sixth the spotless Sacrifice, our Lord
+  and Saviour, was offered up to the Father. He went up on the cross for
+  the salvation of the whole world, taking away the debt that could not
+  be paid. At the ninth he went down into hell and brought out the
+  captive saints. What we believed about the resurrection is held there
+  too. Dead in the flesh, he was not dead in the spirit. His soul was
+  not left in hell. No one took his life from him. He laid it down
+  himself and took it again. His death and rising changed how we lived.
+  A man who leaves Caesar's service for Christ's fights the devil in his
+  own heart. There a kingdom is being made ready for the devil or for
+  Christ. When the saint prayed over a dead catechumen, he waited on the
+  Lord's mercy, and the man rose. Gallus said that in such wonders
+  Christ was also working in him. And the good news as we told it is
+  this. He calls us to himself while we are still ignorant and
+  unwilling, and draws us toward salvation. Those who perish, perish
   against his will.
 positions:
 - the Christ we confessed is the crucified one - Martin would not own a Christ in purple and a crown, only one bearing the marks of his wounds (his own words as Sulpitius reports them from his lips)
@@ -100,7 +101,7 @@ positions:
 tensions:
 - we have no treatise on what his death accomplished; the sixth-hour sentence about the debt taken away is the nearest our own read books come, and it is Cassian handing on Egypt's reason for the hours, not an argument any of us made
 - the councils' fine arguments about the Lord's two natures were not where our life pressed; the books Cassian wrote against Nestorius at the end of his life stand in our record as a title only - we can say they exist, not what they say
-- the Christ with wounds is one man's word, told by one author who was not present and says he had it from Martin's own lips; the cloak vision is the same author's, and the same tradition's
+- the Christ with wounds is one man's word, told by one author who says he had it from Martin's own lips; the cloak vision is the same author's, and the same tradition's
 - the resurrection is confessed at the hours, never argued; how we knew it happened is not a question our record answers
 - the grace sentences come from the Conference that was reported to Africa and Rome, and whether its two phrasings on the beginning of a good will agree is a question its own text does not settle
 relations:

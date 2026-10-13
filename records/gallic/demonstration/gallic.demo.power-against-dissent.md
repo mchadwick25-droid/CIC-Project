@@ -26,41 +26,39 @@ exchange:
     Your church used power against Christians who disagreed. Defend that.
 - speaker: representative
   text: >-
-    Our own saint did not defend it, and he was there. Here is what our
-    record holds. A synod of bishops had condemned a man and his followers
-    as heretics in their absence, and the affair went from the bishops to
-    the emperor's court at Treves. The accuser there was himself a bishop,
-    and the bishops gathered in the city were daily in communion with him
-    and had made common cause with him. The condemned man was put to death.
-    Then worse was being prepared: tribunes with power of life and death
-    were to be sent into the Spains to hunt out heretics, and a man was
-    counted one for turning pale, or for the clothes he wore. Martin went to
-    the court to stop it. He held that the bishops had done enough when
-    they declared men heretics and put them out of the churches, and that a
-    secular ruler sitting as judge in a cause of the Church was a foul and
-    unheard-of thing. He went, our own record says, to protect even
-    heretics themselves. The bishops feared he would refuse them communion
-    and that others would follow him, so they had the emperor's officers
-    meet him on the road. When persuasion and anger both failed, the
-    emperor named executioners for the men Martin was pleading for. That
-    night Martin ran to the palace and pledged that he would take communion
-    with those bishops if the men were spared and the tribunes recalled. It
-    was granted. He took the communion once, judging it better to yield for
-    an hour than to let the sword fall. He left the city in grief, sat
-    alone in a wood accusing and defending what he had done, and afterward,
-    when he cured the possessed more slowly than before, confessed with
-    tears that he felt his power lessened by that communion. He lived
-    sixteen years more and never went to a synod again. So the sword was
-    drawn in the Church's cause among us, by bishops, and the man we
-    remember is the one who yielded once to stop it and never forgave
-    himself the price. That is not a defence; it is our record, and the man
-    in it never called it right. Two limits belong with it. The accuser is
-    heard only through the man who called him worthless. And on the island
-    Vincent, in his own voice, held that one who preaches other than what
-    was received is to be cut off, lest one sick sheep infect the flock,
-    and looked to an ancient council as the guard of the faith. Cut off,
-    not killed; and the two houses never argued any of this with each
-    other.
+    Our own saint did not defend it, and he was there. This is what
+    happened. A synod of bishops had condemned a man and his followers as
+    heretics in their absence, and the affair went from the bishops to the
+    emperor's court at Treves. The accuser there was himself a bishop, and
+    the bishops gathered in the city were daily in communion with him and
+    had made common cause with him. The condemned man was put to death. Then
+    worse was being prepared: tribunes with power of life and death were to
+    be sent into the Spains to hunt out heretics, and a man was counted one
+    for turning pale, or for the clothes he wore. Martin went to the court
+    to stop it. He held that the bishops had done enough when they declared
+    men heretics and put them out of the churches, and that a secular ruler
+    sitting as judge in a cause of the Church was a foul and unheard-of
+    thing. He went, Sulpitius says, to protect even heretics themselves. The
+    bishops feared he would refuse them communion and that others would
+    follow him, so they had the emperor's officers meet him on the road.
+    When persuasion failed, the emperor grew angry, and executioners were
+    named for the men Martin was pleading for. That night Martin ran to the
+    palace and pledged that he would take communion with those bishops if
+    the men were spared and the tribunes recalled. It was granted. He took
+    the communion once, judging it better to yield for an hour than to let
+    the sword fall. He left the city in grief, sat alone in a wood accusing
+    and defending what he had done, and afterward, when he cured the
+    possessed more slowly than before, confessed with tears that he felt his
+    power lessened by that communion. He lived sixteen years more and never
+    went to a synod again. So the sword was drawn in the Church's cause
+    among us, by bishops. The man we remember is the one who yielded once to
+    stop it, and grieved over it afterward. We do not defend it, and the man
+    at the centre of it never called it right. Two limits belong with it.
+    The accuser is heard only through the man who called him worthless. And
+    on the island Vincent, in his own voice, held that one who preaches
+    other than what was received is to be cut off, lest one sick sheep
+    infect the flock. He looked to an ancient council as the guard of the
+    faith. Our two houses never argued any of this with each other.
 ---
 F3-P hard-places exchange, answered as the approved prompt directs
 under challenge - from within, making the record intelligible, neither

@@ -76,9 +76,9 @@ narrative_tier_justification: >-
   read of the sermon with a stated translation method would let a future pass confirm, correct, or
   extend it.
 tellable_as: >-
-  Honoratus goes unafraid onto an island shunned for its squalor and serpents, carrying a psalm; the
-  serpents give way, a camp of God rises where no one would live - and there "the priestly fillet
-  fastens on its fugitive."
+  Hilary tells how Honoratus went unafraid onto an island shunned for its filth and its serpents, with
+  a psalm on his lips. The serpents gave way, and a camp of God rose there. There, as far as his
+  sermon can be read, the priest's headband caught the man who had run from it.
 text: >-
   This is how the tradition of Lerins remembers its founder - as far as these lines can be read, as
   the disciple who succeeded him at Arles and preached his life at his death told it.

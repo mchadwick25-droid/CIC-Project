@@ -92,9 +92,9 @@ relations:
   target: gallic.term.co-operation
 plain_meaning: >-
   In Cassian's Marseilles, the power that "always remains free in man" to "neglect or delight in the
-  grace of God." Real enough that a monk's fasting, watching and labour are truly his and truly
-  required. Weak enough that "the assistance and grace of God are necessary to it every day and
-  hour." Never denied, never sufficient.
+  grace of God." It was real enough that a monk's fasting, watching and labour were truly his and
+  truly required. It was weak enough that "the assistance and grace of God are necessary to it every
+  day and hour." We never denied it, and it was never enough on its own.
 world_word: free will
 false_friend:
 - a philosophical question about determinism
@@ -134,8 +134,8 @@ senses:
     without removing it; we drew the line against Pelagius by name and against the denial that God
     wills all to be saved, and we said plainly that how both are true "cannot be fully grasped."
 quick_meaning: >-
-  A real but weak freedom that "always remains" in man, which grace strengthens without removing.
-  Our fasts are truly ours and truly required; the labouring is not our own.
+  A real but weak freedom that "always remains" in man. Grace strengthened it without removing it. Our
+  fasts were truly ours and truly required, yet none of them succeeded without God's help.
 distortion_risk: high
 use_note:
   means: "Free will meant, for Cassian's Marseilles, a real but weak power that always remains in man, which grace strengthens without removing and which never suffices alone."

@@ -72,19 +72,19 @@ text: >-
   parents' wish, went to the church and begged to be made a catechumen.
   He stayed one for years, into the army, until the night of the cloak;
   then he went and was baptized. Cassian never told how he came to
-  believe. Vincent tells only that he fled the tempests of the world
-  into the harbour of the island. Only one man's private word about
-  Christ survives. Martin, alone in his cell, told a Christ in purple
-  that he would believe only in one who showed the wounds. The rest of
-  us answer as houses answer - in what we did at the gate, and at the
-  hours.
+  believe. Vincent tells only that he left the storms of worldly warfare
+  and cast anchor in the harbour of religion. Only one man's private
+  word about Christ survives. Martin, alone in his cell, told a Christ
+  in purple that he would believe only in one who showed the wounds. The
+  rest of us left no private word, only what we did at the gate and at
+  the hours.
 positions:
 - Christ shows himself in the one no one pities - the beggar's half of the cloak at Tours; the guest received as Christ in Egypt's teaching, without being asked who he is
 - God's approach comes first - he calls the ignorant and unwilling and draws them; he wills all to be saved, and none perish by his will
 - the one story of coming to believe is Martin's - a boy begging to be a catechumen, a soldier baptized after the cloak - told by another man, not by Martin
 - the private answer survives once, in Martin's word to the false Christ; otherwise we answer as houses, in what we did
 tensions:
-- no one among us wrote his own account of coming to believe; the one story is a hagiographer's, and he says he was not present
+- no one among us wrote his own account of coming to believe; the one story is a hagiographer's, who had it partly from Martin and partly from those who lived with him
 - the question to you, not to your church, asks for a voice our record does not keep - we are two households, not a diary
 - the guest-as-Christ teaching is Egypt's, received; whether a house in Gaul kept the fast broken for a guest, Cassian does not say
 - the grace sentences come from the Conference that was reported to Africa and Rome; we use only what neither side of that argument denied, and do not settle it

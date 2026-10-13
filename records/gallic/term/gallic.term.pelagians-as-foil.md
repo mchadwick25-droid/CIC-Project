@@ -73,7 +73,7 @@ relations:
 - type: illustrates
   target: gallic.term.heretic-heresy
 plain_meaning: >-
-  The named heresy we define ourselves against - those who gave so much to free will that they
+  The named heresy we defined ourselves against. Its followers gave so much to free will that they
   denied any need of God's grace.
 world_word: the Pelagians ("frogs, fleas, and flies"; "the profane notion of some")
 false_friend:
@@ -106,8 +106,8 @@ senses:
     named them, refused them, and were conceded by Augustine's own reporters to be distinct from
     them.
 quick_meaning: >-
-  The heresy we named and refused. Vincent calls them frogs and flies; Cassian calls theirs "the
-  profane notion." They made grace unnecessary. We never did.
+  The heresy we named and refused. Vincent called them frogs and flies. Cassian called their teaching
+  "the profane notion." They said grace was not needed, and we refused that.
 distortion_risk: medium
 use_note:
   means: "The Pelagians were the named heresy this world defined itself against, those who gave so much to free will that they denied any need of grace."

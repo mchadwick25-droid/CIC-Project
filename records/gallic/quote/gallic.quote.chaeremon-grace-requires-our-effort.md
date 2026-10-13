@@ -52,12 +52,12 @@ modern_lens_note: >-
   that grace does everything, and not that effort earns it outright, but that grace waits on some real
   motion from the person before it is given.
 modern_rendering: >-
-  And so God's grace always works together with our will, for the will's own good. In all things it
-  helps, protects, and defends the will. But it does this in a way that sometimes even requires and looks for
-  some effort of good will from it. That way, grace does not seem to give its gifts to someone who is
-  asleep, or lying back in sluggish ease. Grace looks for chances to show this: once the dullness of human
-  sluggishness is shaken off, its generosity is not unreasonable. It gives because of some desire and
-  effort to gain it.
+  And so God's grace always works together with our will, for the will's own good. In all things it helps,
+  protects, and defends the will. But it does this in a way that sometimes even requires and looks for some
+  effort of good will from it. That way, grace does not seem to give its gifts to someone who is asleep, or
+  lying back in sluggish ease. Grace looks for chances to show that, as the dullness of human sluggishness is
+  shaken off, its generosity is not unreasonable. That is so when it gives its gift on account of some desire
+  and effort to gain it.
 relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service
@@ -91,9 +91,7 @@ this one - the two are non-adjacent chapters of the same Conference.
 speaker_or_author is a plain string, not a figure id: no gallic.figure record exists for Chaeremon, and
 these are his words as Cassian gives them, not Cassian's own.
 
-modern_rendering: authored against the verbatim `text`, then independently checked clause by clause in a
-separate pass - the sentence on "its generosity is not unreasonable ... once the torpor is shaken off ...
-it gives on account of desire and effort" folds the condition into a single sentence ahead of the one
-claim, so it states that claim once, matching the source's own one integrated thought. No ellipsis or
-bracket applies to this quote, so the bracket-voicing rule for finishing a true ellipsis does not arise
-here.
+modern_rendering: authored against the verbatim `text` and checked clause by clause in a separate pass.
+The source's "when" clause stays tied to "not unreasonable", so the rendering does not state as a general
+rule that grace gives because of effort. No ellipsis or bracket applies to this quote, so the
+bracket-voicing rule for finishing a true ellipsis does not arise here.

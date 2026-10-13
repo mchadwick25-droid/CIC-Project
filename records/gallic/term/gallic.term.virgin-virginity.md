@@ -110,8 +110,8 @@ senses:
     episcopally-conferred state that "points to glory"; and the south's teaching on chastity
     existed, was written, and was cut from our English text by a later hand - a silence not ours.
 quick_meaning: >-
-  A consecrated state, given by the bishop's hands, with its own dress. Marriage is excused;
-  virginity points to glory. The south's own teaching on chastity was cut from our English text.
+  A consecrated state, given by the bishop's hands, with its own dress. Marriage is excused; virginity
+  points to glory. We say little of the south's own teaching on chastity.
 distortion_risk: medium
 use_note:
   means: "Virginity meant a consecrated state given by the bishop's hands, with its own dress, where marriage is excused and virginity points to glory, seen mostly through Tours."

@@ -48,9 +48,9 @@ dates:
   display: "writing c. 397 (the Life; Letter III within months of Martin's death) to c. 404-406 (the Dialogues); an Aquitanian 'of an illustrious family' who visited Martin at Tours; birth and death years rest only on the modern editors' disagreeing endnotes and are not asserted"
 narratable: true
 bridge_line: >-
-  The aristocrat who wrote Martin's life so that readers "shall be roused," who was not present at any
-  of it and says so, and who appears inside his own frame only as the friend Gallus talks to and the
-  son-in-law explaining himself to Bassula.
+  The aristocrat who wrote Martin's life so that readers "shall be roused." He visited Martin at
+  Tours, and had his facts partly from Martin and partly from those who lived with him. In the
+  Dialogues he is the friend Gallus talks to.
 relations:
 - type: associated-with
   target: gallic.story.the-cloak-at-amiens

@@ -52,9 +52,9 @@ dates:
   display: "travelled in Egypt with Germanus in his youth (the interval to his writing not stated in this world's own documents); founded the twin houses at Marseilles c. 415; wrote the Institutes for Castor before 426 and the Conferences in three parts, Part II (to Honoratus and Eucherius) not later than 426; d. c. 435"
 narratable: true
 bridge_line: >-
-  The man who lived among the fathers of Egypt and brought their words home to Gaul in a book - who
-  told no tales of his own houses and no miracles, but wrote down how a question about grace troubled
-  him and his friend at morning service.
+  The man who lived among the fathers of Egypt and brought their words home to Gaul in a book. He
+  told no tales of his own houses and ranked wonders below humility. He wrote down how a question
+  about grace troubled his friend and him at morning service.
 relations:
 - type: associated-with
   target: gallic.story.the-angel-and-the-twelve-psalms

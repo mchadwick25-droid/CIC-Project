@@ -36,8 +36,8 @@ modern_lens_note: >-
   an event that already happened - a general captured in the very city he had boasted he would
   conquer - as judgment already carried out.
 modern_rendering: >-
-  In his case, indeed, God's judgment was clear, right then and there. This came on top of the
-  bad luck he actually suffered.
+  In him, indeed, God's judgment here and now was clearly shown. This came on top of the
+  misfortune he actually suffered.
 relations:
 - type: associated-with
   target: gallic.force.barbarian-fiscal-ruin

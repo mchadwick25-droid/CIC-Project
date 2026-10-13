@@ -81,9 +81,9 @@ relations:
 - type: associated-with
   target: gallic.term.the-devil-demons
 plain_meaning: >-
-  The picture that governs a monk's life among us. A man has changed service - from Caesar's army, or
-  from a worldly career - to Christ's. He now stands girded, under oath, in daily combat against the
-  devil and his own faults. The one who slackens is not a failure but a deserter.
+  The picture that governed a monk's life among us. A man had changed service - from Caesar's army, or
+  from a worldly career - to Christ's. He now stood girded, under oath, in daily combat against the
+  devil and his own faults. The one who slackened was, in Cassian's word, a deserter.
 world_word: soldier of Christ
 false_friend:
 - spiritual warfare as a private inner metaphor for temptation

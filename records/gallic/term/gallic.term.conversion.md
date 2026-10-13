@@ -66,9 +66,9 @@ relations:
   target: gallic.term.government-of-god
 plain_meaning: >-
   In Cassian's Marseilles, "conversion" is not a change of religion. It is the act of turning to the
-  monastic life: "the early days of their conversion were so bright"; a murderer's "compulsory
-  conversion" turned "into a voluntary one." At Tours the same English word names what a robber or a
-  rustic does when he turns to Christ.
+  monastic life. Of some monks he writes, "the early days of their conversion were so bright." A
+  murderer's "compulsory conversion" turned "into a voluntary one." At Tours, the word named what a
+  robber or a rustic did when he turned to Christ.
 world_word: conversion (conversio)
 false_friend:
 - a private inner event of coming to faith - evangelical conversion, "born again"

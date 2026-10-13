@@ -58,8 +58,8 @@ relations:
 - type: associated-with
   target: gallic.term.fear-hope-love
 plain_meaning: >-
-  The end is near, not distant. Martin taught that Antichrist was already born and a boy; Vincent
-  wrote under "awful expectation" of the judgment.
+  We believed the end was near. Martin taught that Antichrist was already born and was now a boy.
+  Vincent wrote under "awful expectation" of the judgment.
 world_word: Antichrist ("the day of judgment is at hand")
 false_friend:
 - apocalyptic expectation as fringe, purely metaphorical, or a vague background mood
@@ -83,8 +83,9 @@ senses:
     year" - and Vincent names the same expectation as his book's own occasion; Salvian, by
     contrast, says the judgment is not awaited but under way.
 quick_meaning: >-
-  The end is near. Martin taught that Antichrist was already born, a boy, and counted the years;
-  Vincent wrote in "awful expectation" of the judgment. Not a mood - a dated conviction.
+  The end was near. Martin taught that Antichrist was already born and was now a boy. Eight years on,
+  Gallus told his hearers to judge how near the end was. Vincent wrote in "awful expectation" of the
+  judgment.
 distortion_risk: medium
 use_note:
   means: "Antichrist meant a near end: Sulpitius reports Martin teaching that he was already born and a boy, and Vincent wrote under awful expectation of judgment."

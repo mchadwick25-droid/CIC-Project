@@ -80,9 +80,9 @@ narrative_tier_justification: >-
   crowd believed and the surrounding narrative is documentary in character. Widely Accepted rather
   than Documented: one ancient witness, corroborated only for the bare fact of the episcopate.
 tellable_as: >-
-  A monk is lured out of his monastery by a citizen pretending his wife is ill, escorted to the city
-  under a kind of guard, objected to by bishops for his mean clothes and disgusting hair, and answered
-  by a psalm opened at random.
+  A citizen lures a monk out of his monastery by pretending his wife is ill. The monk is taken to the
+  city under a kind of guard. Some bishops object to his mean clothes and his hair. A psalm read at
+  random answers them.
 text: >-
   In his Life of St. Martin, Sulpitius Severus records how Martin, a monk, was made bishop of Tours -
   against his own wish, by a trick, and against some of the bishops.

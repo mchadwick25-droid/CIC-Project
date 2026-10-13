@@ -42,11 +42,10 @@ modern_lens_note: >-
   judgment, and the danger of new heretical teaching. For Vincent, urgency about the end and
   urgency about doctrinal error are not two separate concerns - they are the same concern.
 modern_rendering: >-
-  By considering time. Time takes hold of everything human. So we, in turn, should grab something
-  from it - something that will help us reach eternal life. This matters even more for one reason:
-  a certain fearful sense that God's judgment is coming presses us to take our faith more
-  seriously. It matters for a second reason too: the sly cunning of new heretics calls for real
-  care and attention.
+  By considering time. Time seizes on everything human. So we in turn ought to snatch from it
+  something that will help us toward eternal life. This is all the more needed, because a certain
+  fearful expectation of God's coming judgment urgently asks for more earnestness in our faith.
+  And the subtle cunning of new heretics calls for no ordinary care and attention.
 relations:
 - type: associated-with
   target: gallic.gravity.judgment-imminent-present

@@ -85,9 +85,9 @@ narrative_tier_justification: >-
   what is the southern node's own is that Cassian opened the Lerins-dedicated part of his book with
   him, and that Honoratus read it.
 tellable_as: >-
-  An Egyptian bishop was "carried off from the assembly of anchorites." He tells two Gallic travellers
-  that his office was an expulsion from the monastic life, and calls himself unworthy of it. He takes
-  up his staff and leads them past himself, to the old men whose mere sight is a lesson.
+  An Egyptian bishop was "carried off from the assembly of anchorites." He tells two travellers that
+  his office was an expulsion from the monastic life, and calls himself unworthy of it. He takes up
+  his staff and leads them past himself, to the old men whose mere sight is a lesson.
 text: >-
   Opening the second part of his Conferences - the part he dedicated to the "holy brothers" Honoratus
   and Eucherius, one of them the head of a large monastery of brothers

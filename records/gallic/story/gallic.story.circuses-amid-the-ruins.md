@@ -90,9 +90,9 @@ narrative_tier_justification: >-
   petitioning for games) are historically unremarkable and match the general pattern independently
   known for the period; the specific numbers and the moral reading are Salvian's own.
 tellable_as: >-
-  A presbyter of Marseilles, writing of a city he knew, describes what he himself saw after its
-  repeated sack by barbarian raiders - the dead left unburied in the streets - and then reports that
-  the city's own surviving notables, rather than mourning, petitioned the emperors for circus games.
+  A presbyter of Marseilles saw the greatest city of Gaul after it was sacked again and again. The
+  dead lay all about, unburied. Then, he says, the few men of rank who survived demanded circus games
+  of the emperors.
 text: >-
   Salvian of Marseilles did not write about the ruin of Roman Gaul as something reported to him. Of
   one city's fate he says plainly that he had seen men of high birth and honor, already despoiled and

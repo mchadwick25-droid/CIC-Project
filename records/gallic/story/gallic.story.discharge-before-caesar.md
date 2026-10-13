@@ -76,8 +76,8 @@ narrative_tier_justification: >-
   Widely Accepted rather than Documented because one ancient witness, however close, is not multiple
   independent sources.
 tellable_as: >-
-  At a donative on the eve of battle a soldier tells Caesar he is now the soldier of Christ and may not
-  fight, offers to stand unarmed before the enemy line - and the enemy surrenders before morning.
+  At a donative before a battle, a soldier tells Caesar he is now the soldier of Christ and may not
+  fight. He offers to stand unarmed before the enemy. The next day the enemy asks for peace.
 text: >-
   In his Life of St. Martin, Sulpitius Severus records how Martin left the army - the scene the whole of
   Tours's memory of him turns on.

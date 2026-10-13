@@ -87,8 +87,9 @@ relations:
 plain_meaning: >-
   What Cassian carried from Egypt and Palestine to a Gallic bishop's "new monastery." Not a written
   Rule of his own. Rather, "the customs of the monasteries which we have seen observed" there, "as
-  they were there delivered to us by the Fathers." We keep them where Gaul's cold and our weak bodies
-  allow. Where they do not, we balance them from Pontus and Mesopotamia.
+  they were there delivered to us by the Fathers." We kept them as far as Gaul's cold and our weak
+  bodies allowed. Where they did not, Cassian balanced them with the customs of Pontus and
+  Mesopotamia.
 world_word: the customs of the monasteries / the Institutes (instituta)
 false_friend:
 - a codified legal Rule - the Rule of Benedict, with a canonical abbot, a habit, and a novitiate

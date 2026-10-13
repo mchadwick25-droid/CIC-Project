@@ -66,9 +66,9 @@ narrative_tier_justification: >-
   himself doubts any Gallic monk kept the fathers' rigour "unbroken even for a year" (Inst. IV.2); what
   is Gaul's own is that it was told this, and told it as an example.
 tellable_as: >-
-  A steward finds three lentils on the floor during a brother's week as cook, the abbot judges him a
-  pilferer of sacred property, and he is suspended from prayer until public penance - because
-  everything in the house is "consecrated to the Lord."
+  During a brother's week as cook, the steward finds three lentils on the floor. The abbot judges the
+  cook careless with sacred things and bars him from prayer until he does public penance. The brothers
+  believe everything they own is "consecrated to the Lord."
 text: >-
   The tradition Cassian set down for Gaul tells of a cook and three lentils.
 
