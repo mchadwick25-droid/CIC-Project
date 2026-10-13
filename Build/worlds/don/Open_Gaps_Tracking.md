@@ -1889,3 +1889,11 @@ Under `don.dw.room-for-dissent`:
 - `don.gravity.church-of-the-martyrs`, `don.gravity.martyr-cult-identity` and `don.contested.church-of-the-martyrs` `use_note.years`: the start year 317 adopts Monceaux's date for the Passio Donati although the dating is Contested.
 
 Status: OPEN for the build thread.
+
+### OG-35. Record wording pass: the four restyled build fields and the voice note reverted to their base wording, 2026-10-13.
+
+The project lead ruled (13 October) that style rewrites of build records do not stand in this pass. The `description` of `don.gravity.church-of-the-martyrs`, `don.gravity.martyr-cult-identity` and `don.gravity.rebaptism-boundary`, the `horizon` of `don.core.donatism` and the `flavor_notes[grief-and-vindication].note` of `don.craft.fidelis-voice` are back to the wording on main. Only the source-checked factual corrections stay inside them: Gregory's letters (Africa in the 590s, and one letter addressed to a bishop in Numidia; the field gate for the horizon rejects a later year in a spoken field, so "the 590s" stands in for 592 and 594 in `don.gravity.rebaptism-boundary`; `don.core.donatism` names the 592 letter); Honoratus of Sicilibba; the bishop of Advocata "on Monceaux's reading" or "on one reading"; Mabillon's dating of the persecution to about 340; the Passio Donati sermon speaking of an anniversary day kept with devotion. This supersedes the statements in OG-32 and OG-34 that these fields were rewritten for readability.
+
+**Open for the don build thread:** these five fields fail the readability gate (FK 10 or below and FRE 60 or above): `don.gravity.church-of-the-martyrs` `description` (FRE 52.3), `don.gravity.martyr-cult-identity` `description` (FRE 50.5), `don.gravity.rebaptism-boundary` `description` (FRE 52.8), `don.core.donatism` `horizon` (FRE 48.6), `don.craft.fidelis-voice` `flavor_notes[grief-and-vindication].note` (FK 10.1, FRE 41.1). They failed on main too. `engine.m10.cli regate don` reports them as failing because their text is edited. The `m1:readability/don` waiver is recounted exactly: 232 before the revert, 238 after. The six added findings are the base failures of these fields. They sit under that waiver because the project lead ruled that a style rewrite does not stand in this pass.
+
+Status: OPEN for the don build thread.

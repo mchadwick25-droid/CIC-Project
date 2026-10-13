@@ -60,59 +60,58 @@ classification: primary
 description: >-
   Rebaptism is confirmed as a central, defining pattern of this world. It is the rite by which a
   person crosses into this communion, and by which membership is marked. Baptism given outside the
-  true church is no baptism. So the one coming over is not re-baptised. That person is baptised,
-  first and truly.
+  true church is no baptism. So the one coming over is not re-baptised but baptised, first and
+  truly.
 
   The risk that this reflects one author's view is low. Augustine's own writing attests the bare
-  practice directly and again and again. Petilian's own quoted argument backs it.
+  practice directly and repeatedly. Petilian's own quoted argument supports it.
 
   Two works, On Baptism and Answer to the Letters of Petilian, are both largely devoted to this
-  practice. So it recurs strongly. Our account of this world names rebaptism as the rite that marks
-  who truly belongs. It also calls it this world's most recurring formative material.
+  practice, so it recurs strongly. Our account of this world names rebaptism as the rite that
+  marks who truly belongs. It also calls it this world's most recurring formative material.
 
-  Much depends on it, and strongly. Membership status depends on it. So does the exact content of
-  the Council of Carthage's 419 canons on receiving Donatist clergy. The full meaning of the
-  Maximianist precedent depends on it too. Those clergy were taken back without rebaptism. That
-  matters only because rebaptism was the normal rule.
+  Much depends on it, and strongly. Membership status depends on it. So does the specific content
+  of the Council of Carthage's 419 canons on receiving Donatist clergy. The whole meaning of the
+  Maximianist precedent depends on it too. Those clergy were received back without rebaptism,
+  which matters only because rebaptism was the normal rule.
 
-  It is the literal act of worship by which a person enters, or re-enters. So it forms people
-  directly and strongly. Of all the marks of belonging this world's record documents, it is the most
-  clearly acted out and the most felt by the person.
+  As the literal act of worship by which a person enters, or re-enters, it forms people directly
+  and strongly. Of all the marks of belonging this world's record documents, it is the most
+  concretely enacted and the most personally felt.
 
-  This practice explains why the movement drew direct, sustained attention from the law of the
-  emperors. Baptising Catholics again was itself a targeted offence under edict after edict. It also
-  explains the exact concerns of the 411 Conference.
+  This practice explains why the movement drew direct, sustained attention from
+  imperial law. Rebaptising Catholics was itself a targeted offence under successive edicts. It
+  also explains the specific concerns of the 411 Conference.
 
-  It lasted strongly. Sources attest it from the movement's origin through the 411 Conference.
-  Gregory the Great's own letters that survive confirm it as a live, named practice. They place it
-  in Africa as late as the 590s. One of them is addressed to a bishop in Numidia. But nothing about its scale or character at that
-  date goes beyond what those letters themselves say.
+  It persisted strongly, attested from the movement's origin through the 411 Conference. Gregory
+  the Great's own surviving letters confirm it as a live, named practice in Africa as late as the 590s. One of them is addressed to a bishop in Numidia. But nothing about its scale or character at that date goes beyond what those
+  letters themselves say.
 
-  It works with the patterns around it. It reinforces the purity doctrine, which is its doctrinal
-  ground. The Maximianist exception changes its shape directly. It was also the target of the law of
-  the emperors. The edicts of Constantine and his successors name rebaptism itself.
+  It works closely with the patterns around it. It reinforces the purity doctrine, which is its
+  doctrinal ground. The Maximianist exception directly reshapes it. And it was the specific target
+  of imperial law, since the edicts of Constantine and his successors name rebaptism specifically.
 
-  Why is it central rather than supporting? Together with the purity doctrine, this rite creates the
-  practice of crossing the boundary. That practice shapes who belongs. It is a distinct cluster of
-  lived practice. It would not exist without the rite.
+  Why is it central rather than supporting? Together with the purity doctrine, this rite creates
+  the practice of crossing the boundary. That practice structures membership itself. It is a
+  distinct cluster of lived practice that would not exist without the rite.
 
-  That is exactly what sets a central pattern apart from a supporting one. The supporting patterns
+  That is exactly what separates a central pattern from a supporting one. The supporting patterns
   are either the institutional container or patterns bounded in scope.
 
-  Our confidence matches the weight this pattern bears, with no large gap.
+  Our confidence matches the weight this pattern carries, with no significant gap.
 
-  The Donatist voice itself survives on this point. Hostile opponents do not just describe the
+  The Donatist voice itself survives on this point. Hostile opponents do not merely describe the
   practice. Petilian argues for it in his own quoted words.
 
-  The limit here is exact. This support comes from a Donatist voice quoted inside the hostile text.
-  It does not come from a source wholly outside the writings of Optatus and Augustine. The purity
-  doctrine carries the same limit, to the same degree.
+  The limit here is exact. This support comes from a Donatist voice quoted inside the hostile
+  text. It does not come from a source wholly outside the writings of Optatus and Augustine. The
+  purity doctrine carries the same limit, to the same degree.
 
   Its roots lie in the rigorist inheritance of Cyprian of Carthage's rebaptism theology. That
   inheritance made the rite possible. The accusation against Felix of Aptungi did not. That
   accusation grounds the rival church's institutional form instead. The continuing practice of
   purity and rebaptism is this rite's own lived, ongoing form. And shifting imperial policy met it
-  head-on. Edict after edict named this practice outright as a legal offence.
+  head-on: successive edicts named this practice directly as a legal offence.
 manifestations:
 - the enacted threshold crossed once and bodily - baptism given by a hand of unbroken standing, held to be
   the first true baptism a person ever received

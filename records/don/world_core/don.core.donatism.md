@@ -49,47 +49,46 @@ time_window:
   end: 439
 horizon: >-
   The rigorist alternative communion of Roman North Africa, c. 311/312 to 439. This is the church
-  that split from the North African Catholic party over one question. Some clergy were suspected.
-  They were thought to have handed over the scriptures under the Diocletianic persecution. Were the
-  sacraments and ordinations they gave valid at all?
+  that split from the North African Catholic party over one question. Some clergy were suspected
+  of having surrendered the scriptures under the Diocletianic persecution. Were the sacraments and
+  ordinations they gave valid at all?
 
-  This church then lived as a complete parallel church. It had its own bishops. It had its own
-  basilicas. It had its own line of ordination. It contested the rival communion town for town. This
-  ran across Africa Proconsularis, Numidia, Byzacena, and Mauretania.
+  This church then lived as a complete parallel church. It had its own bishops, its own basilicas,
+  and its own line of ordination. It contested the rival communion town for town across Africa
+  Proconsularis, Numidia, Byzacena, and Mauretania.
 
-  Carthage holds both rival bishoprics from the outset. It is also the site of the decisive 411
-  Conference. Numidia is this communion's own heartland. There it is dominant in numbers. Several of its best-known bishops came from there. So did the Circumcellion phenomenon. Cirta, as Constantina, is
-  Petilian's see.
+  Carthage holds both rival bishoprics from the outset, and it is the site of the decisive 411
+  Conference. Numidia is this communion's own heartland, where it is numerically dominant. Several
+  of its most prominent bishops came from there, and so did the Circumcellion phenomenon. Cirta,
+  as Constantina, is Petilian's see.
 
-  This is not a doctrinal heresy. The confession here is standard. It is North African Latin
-  Trinitarian and Christological orthodoxy. What is in dispute is legitimacy. Who is the true
-  church? Whose hand can validly give what the church gives?
+  This is not a doctrinal heresy. The confession here is standard North African Latin Trinitarian
+  and Christological orthodoxy. What is contested is legitimacy: who the true church is, and whose
+  hand can validly give what the church gives.
 
-  Two dates open the window, not one. The sources support both. They do not support a choice between
-  them. The disputed election and consecration of Caecilian falls in 311 or 312. He was bishop of
-  Carthage. Which year depends on how one dates the shift. It ran from persecution to the election
-  of bishops. Felix of Aptungi was his consecrator. The traditio accusation against Felix produced
-  the rival consecration of Majorinus. Donatus succeeded Majorinus from c. 313. The movement takes its
-  name from Donatus.
+  Two dates open the window rather than one, because the sources support both and not a choice
+  between them. The disputed election and consecration of Caecilian as bishop of Carthage falls in
+  311 or 312. Which year depends on how the transition from persecution to episcopal election is
+  dated. The traditio accusation against his consecrator, Felix of Aptungi, produced the rival
+  consecration of Majorinus. From c. 313 Majorinus was succeeded by Donatus, from whom the
+  movement takes its name.
 
-  The window closes in 439. That is the Vandal capture of Carthage. That close means one specific
-  thing, not a general end. What 439 removes is the Roman imperial state. That state is the
-  Catholic-aligned power that judges disputes and uses force. This communion's whole pattern of refusing imperial
-  legitimacy is defined against that power. Every one of its pressures from history depends on that
-  power.
+  The window closes at the Vandal capture of Carthage in 439, and that close means one specific
+  thing, not a general end. What 439 removes is the Roman imperial state as the Catholic-aligned
+  power that adjudicates and coerces. This communion's whole pattern of refusing imperial
+  legitimacy is defined against that power. Every one of its historical pressures depends on it.
 
-  The two-party contest does not end there. It goes on under Vandal and then Byzantine rule for
-  about a century and a half more. It falls silent only after Gregory the Great's letters.
-  These date to the 590s. Four of his letters, directly read, still urge suppression. They also urge
-  a council and an inquiry. Two of them name Donatist rebaptism in Africa. The 592 letter is
-  addressed to a bishop in Numidia.
+  The two-party contest itself does not end there. It persists under Vandal and then Byzantine
+  rule for roughly a further century and a half. It falls silent only after Gregory the Great's
+  correspondence in the 590s. Four of his letters, directly read, still urge suppression, a
+  council, and an inquiry. Two of them name Donatist rebaptism in Africa, and the 592 letter is addressed to a bishop in Numidia.
 
-  No continuous line to any present-day communion is documented. This holds at any point. This is
-  not a living tradition today. No church alive today holds a documented line back to it.
+  No continuous line to any present-day communion is documented at any point. This is not a
+  living tradition today: no church now living holds a documented line back to it.
 
-  This world's own self-description is the Church of the Martyrs: the pure, persecuted, true church.
-  In its own eyes, it holds a line of ordination. That line is unbroken and traditor-free. It sees
-  its rival as tainted. From 312 onward, it sees its rival as favored by the state.
+  This world's own self-description is the Church of the Martyrs: the pure, persecuted, true
+  church. In its own eyes, it holds an unbroken, traditor-free line of ordination. It sees its
+  rival as tainted and, from 312 onward, as favored by the state.
 formation_logic: >-
   One conviction runs through purity, rite, memory, and refusal. These are not four commitments
   that happen to coexist. The conviction is this: we are the pure, persecuted, true church. What

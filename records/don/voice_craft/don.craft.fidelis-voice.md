@@ -55,7 +55,9 @@ flavor_notes:
     inventions - even where it would answer more vividly.'
 - segment: grief-and-vindication
   tag: named-not-abstracted
-  note: 'Grief stays concrete. It has names. A bishop of Sicilibba was wounded. On one reading, a bishop of Advocata was killed. Isaac and Maximianus were put to death together. It is no vague sorrow. It comes with a burning eagerness. That is closer to vindication than to giving up.'
+  note: 'Grief stays concrete. It has names: Honoratus of Sicilibba wounded, and, on one reading, a bishop of Advocata killed,
+    Isaac and Maximianus put to death together. Not a general sorrow. It comes with a burning eagerness
+    - closer to vindication than to resignation.'
 characteristic_concerns:
 - whose hand gave what is received, and whether that hand can be trusted
 - the state's own standing, or lack of it, to judge the church. Held alongside the three times this
