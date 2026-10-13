@@ -18,7 +18,7 @@ author: Cardinal Noris (Enrico Noris)
 work: Historia Pelagiana (1673)
 edition: No specific edition identified; known only via a quoted clause inside an already-vendored text
   (see body note).
-citation: Cardinal Enrico Noris, Historia Pelagiana (1673), known here only as quoted in another text
+citation: Cardinal Enrico Noris, Historia Pelagiana (1673), as quoted in another text
 kind: unvendored
 rights_status: "not applicable - no single specific text has been identified for this row; it names a general pattern, or a work known only via a single quoted clause inside another vendored text, rather than a held text of its own"
 attribution_status: attributed
