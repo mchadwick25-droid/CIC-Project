@@ -828,7 +828,7 @@ The record pass (see "Record audit fixes: source drift and AI-tell wording in sp
 
 Review: `Build/Ministry/Operations/Audits/cappadocian_rulings_review_round1_2026-10-13.md` (independent Opus, FAIL with two blocking findings, both in the two reclassified source records, plus ten non-blocking). All were applied. Round 2 (`cappadocian_rulings_review_round2_2026-10-13.md`) cleared both and found one more blocking item: `cappadocian.force.thaumaturgan-inheritance`, edited for its verification state, still carried build codes in its description, which the live-commentary gate refuses. It is now rewritten plainly. Round 3 (`cappadocian_rulings_review_round3_2026-10-13.md`) cleared it. That is three review files, the cap.
 
-Gates: `records cappadocian` PASS; `regate cappadocian --base origin/main` PASS; `engine.m9.cli check` PASS; `check_live_commentary --enforce` exit 0 on records, packages, cic-website and engine; m2 determinism and staleness PASS; site staleness PASS; the embedded-quotation survey for cappadocian stays at 0; pytest engine/m1, engine/m9 and engine/m10 pass. Package rebuilt and pinned: `packages/cappadocian/2026-10-13T18-15-45Z`. Site JSON recompiled.
+Gates: `records cappadocian` PASS; `regate cappadocian --base origin/main` PASS; `engine.m9.cli check` PASS; `check_live_commentary --enforce` exit 0 on records, packages, cic-website and engine; m2 determinism and staleness PASS; site staleness PASS; the embedded-quotation survey for cappadocian stays at 0; pytest engine/m1, engine/m9 and engine/m10 pass. Package rebuilt and pinned: `packages/cappadocian/2026-10-13T19-42-18Z`. Site JSON recompiled.
 
 Status: CLOSED for the changes above. The Nyssa record and the engine item stay OPEN where named.
 
