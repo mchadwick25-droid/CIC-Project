@@ -127,7 +127,7 @@ modern_contrast: >-
   raised, and the community's own text is what raises the charge of barbarian boys and comely girls
   bought as slaves.
 use_note:
-  means: "Gallus relates that Brictio, raised by Martin, stormed at him and called his visions ridiculous fancies, repented within the hour, and was borne with as Christ bore Judas."
+  means: "Gallus relates that Brictio, raised by Martin, stormed at him and called his visions ridiculous fancies, soon came back to beg pardon, and was borne with as Christ bore Judas."
   not_for:
     - "a neutral report of Brictio's case, when it comes from men hostile to him"
     - "Marseilles teaching on obedience or the disclosure of thoughts, which sits in gallic.term.obedience"

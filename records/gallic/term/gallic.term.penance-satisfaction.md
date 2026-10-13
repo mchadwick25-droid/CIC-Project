@@ -114,7 +114,7 @@ quick_meaning: >-
   back.
 distortion_risk: high
 use_note:
-  means: "Penance meant the house's public discipline: lying on the ground until the Abbot bids rise, or barred from prayer, with no priest needed to restore the monk."
+  means: "Penance meant the public discipline of the Egyptian houses as Cassian set it out: lying on the ground until the Abbot bade the monk rise, or being barred from prayer, with no priest needed to restore him."
   not_for:
     - "sacramental penance as private confession with absolution by formula"
     - "penance as self-punishment, or satisfaction as a scholastic category"

@@ -62,7 +62,7 @@ modern_contrast: >
   much simpler instance of a practice - not yet the developed relic
   cult later centuries built from it.
 use_note:
-  means: "The church at Smyrna remembers Polycarp refusing to curse Christ, his burning, and a yearly gathering where his bones were kept."
+  means: "The church at Smyrna remembers Polycarp refusing to curse Christ, his burning, and its hope to gather each year at the place where his bones were laid."
   not_for:
     - "medieval-style relic veneration"
     - "the fire and dove details as documented fact"

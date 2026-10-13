@@ -104,7 +104,7 @@ quick_meaning: >-
   churches in their place. Where almost none had the name of Christ.
 distortion_risk: medium
 use_note:
-  means: "Heathen rustics meant, at Tours, the unconverted Gallic countryside where Martin halted idols, burned temples and built churches where they fell."
+  means: "Heathen rustics meant, at Tours, the unconverted Gallic countryside where Martin burned temples and built churches where the temples had stood."
   not_for:
     - "pagan as a neutral identity, or temple burning as intolerance to be judged"
     - "Gaul as already Christian by the fourth century"

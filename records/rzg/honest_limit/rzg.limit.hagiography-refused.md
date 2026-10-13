@@ -40,7 +40,7 @@ nearest_material:
 - rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
 - rzg.story.first-zurich-disputation
 use_note:
-  means: "The record holds no saint's life or martyr's cult because the cities refused that devotional genre from their first founding statement, so the absence is deliberate rather than a gap."
+  means: "The record holds no saint's life or martyr's cult, because the cities refused the reverence that genre is written to produce."
   not_for:
     - "a claim that this record holds a saint's life or martyr's legend for this world"
     - "a claim that the missing hagiography is a hole in the record rather than its own refusal"

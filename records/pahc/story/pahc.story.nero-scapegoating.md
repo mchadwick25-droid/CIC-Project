@@ -58,7 +58,7 @@ modern_contrast: >
   precarity this world lived under was real but improvised, not
   continuous.
 use_note:
-  means: "After the Great Fire of Rome, Nero blames a group Tacitus calls Chrestiani and has them executed with deliberate, theatrical cruelty."
+  means: "After the Great Fire of Rome, Nero blamed a group the crowd called Christians and had them put to death with cruelty meant as a show."
   not_for:
     - "the opening of one continuous empire-wide persecution"
     - "a standing imperial policy"

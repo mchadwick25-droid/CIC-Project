@@ -56,7 +56,7 @@ senses:
     board behind it.'
 quick_meaning: 'The teaching given before baptism: there are two ways, one of life and one of death.'
 use_note:
-  means: "The teaching given before the water that a way of life and a way of death lie open to every person, chosen daily."
+  means: "The teaching given before the water that there are two ways, one of life and one of death, with a great difference between them."
   not_for:
     - "a philosophical dualism of two cosmic powers"
   years: {from: 70, to: 200}

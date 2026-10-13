@@ -128,7 +128,7 @@ modern_contrast: >-
   it. And it admits inside the south what Cassian refused in his own books - a wonder counted inter
   miracula ac merita - so that the refusal of wonder-stories was Cassian's, not the whole south's.
 use_note:
-  means: "Hilary of Arles preached that Honoratus went unafraid onto a serpent-shunned island carrying a psalm, the serpents gave way, and the priestly fillet fastened on its fugitive."
+  means: "Hilary of Arles preached that Honoratus went unafraid onto a serpent-shunned island with a psalm, that the serpents gave way, and that, as far as the sermon can be read, he was made a presbyter there."
   not_for:
     - "daily life at Lerins, whose absence sits in gallic.limit.only-on-paper"
     - "Honoratus's later episcopate at Arles as history, when the sermon is a disciple's eulogy that stops at the island"

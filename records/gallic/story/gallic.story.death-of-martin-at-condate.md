@@ -156,7 +156,7 @@ modern_contrast: >-
   generation, a community that holds only the old to be legitimate memorializing itself in the present
   tense.
 use_note:
-  means: "Sulpitius tells Bassula that Martin, foreknowing his death, went to make peace at Condate, died refusing straw, and was buried by two thousand monks and a choir of virgins."
+  means: "Sulpitius tells Bassula that Martin, foreknowing his death, went to make peace at Condate, died refusing straw, and that nearly two thousand monks and a choir of virgins gathered at his funeral."
   not_for:
     - "an eyewitness account, when Sulpitius disclaims being present"
     - "the later cult of Martin at Tours, which lies outside the window"
