@@ -708,6 +708,8 @@ Status: CLOSED for `desert.dw.jesus`. The hesychia guard and the voice-own error
 
 The desert record wording pass, run on the same method as syr (merged), cappadocian and gallic. Spoken fields only. Every changed field was checked against the record's cited sources and the vendored text under `cic/texts/`. No build record (force, gravity, source, voice_craft, world_core, contested_claim) was changed. Quote `text` was not changed. Quote `modern_rendering` values were written by Opus. Two Opus review rounds (`Build/Ministry/Operations/Audits/desert_record_audit_fixes_review_round1_2026-10-13.md`, `..._round2_2026-10-13.md`): round 1 found one blocking and twenty non-blocking points, all fixed in a second commit; round 2 passed with three non-blocking points, fixed.
 
+**Live-surface cleanup.** `desert.source.macarian-homilies` note: an ISO date reworded to "March 2007" so the live-commentary check passes on a file this pass edits. One resolved `desert.dw.born-again` entry removed from `tools/check_paths_baseline.txt`.
+
 **Sources.** All 30 `desert.source.*` records gained a `citation:` line made only of words already in their `author`, `work` and `edition` fields. The `m9:source-citation/desert` waiver is removed.
 
 **Changed, by record.** 122 spoken fields in 92 records (130 including the review fixes, which fall inside the same fields). The list gives the fault found; the final wording is in the records.
@@ -818,7 +820,7 @@ The desert record wording pass, run on the same method as syr (merged), cappadoc
 - `desert.quote.whence-canst-thou-prove-to-us` `modern_rendering`: A 30-word sentence with a dash-inset list, and a 27-word triple-semicolon sentence, are split; nothing added.
 - `desert.quote.womens-house-across-the-river` `modern_rendering`: "The sisters" names who sang, but the source says only "they"; restored to "they".
 
-**Gates.** `m1:readability/desert` waiver tightened from 153 to 124: the 29 spoken-field findings are fixed; the 124 left are build-record fields (45) and `positions` lines (79, see the next entry). `m9:source-citation/desert` removed (30 citations added). Package rebuilt and pinned: `packages/desert/2026-10-13T16-58-55Z`; site JSON recompiled.
+**Gates.** `m1:readability/desert` waiver tightened from 153 to 124: the 29 spoken-field findings are fixed; the 124 left are build-record fields (45) and `positions` lines (79, see the next entry). `m9:source-citation/desert` removed (30 citations added). Package rebuilt and pinned: `packages/desert/2026-10-13T17-11-23Z`; site JSON recompiled.
 
 Status: CLOSED for the records named above.
 
