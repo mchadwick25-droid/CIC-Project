@@ -27,7 +27,7 @@ modern_rendering: >-
   This one and the same Jesus Christ, the only-begotten Son of God, must be confessed to be in two
   natures. The two are united without mixing, without change, without division, and without
   separation. The difference between the natures is not taken away by this union. Rather, the special
-  character of each nature is kept. Both are united in one Person and one single being. He is not
+  character of each nature is kept. Both are united in one Person and one subsistence. He is not
   split or divided into two persons. He is one and the same Son and only-begotten, God the Word, our
   Lord Jesus Christ...
 speaker_or_author: "The Council of Chalcedon (451), the Definition of Faith"

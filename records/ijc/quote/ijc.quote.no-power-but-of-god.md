@@ -43,8 +43,7 @@ modern_rendering: >-
   subject." The first claim such a law makes on us is that all this is God's appointment. That is also
   the reasoning that suits the faithful. "For there is no power," he says, "except from God." What do
   you mean? someone may ask. Is every ruler, then, chosen by God? I do not say this, he answers. Nor
-  am I now speaking about particular rulers, but about the thing in itself. For there are rulers, and
-  some rule while others are ruled. All things are not just carried on in one confusion, with the
+  am I now speaking about particular rulers, but about the thing in itself. There should be rulers, with some ruling and others ruled. All things should not just be carried on in one confusion, with the
   people swaying like waves this way and that. This, I say, is the work of God's wisdom.
 speaker_or_author: John Chrysostom, preaching on Romans 13
 license: verbatim

@@ -23,8 +23,7 @@ statement: >-
   chosen continence. What we still cannot give you is a wedding, or a family's daily life from inside.
   Our record does not have those pages. Money our record does show, but from above. It shows an
   empire's wealth flowing into church buildings and church hands. It also shows men fighting,
-  sometimes to the death, over our offices. Our preachers also demanded a fair share of it for the
-  poor. What a poor believer's purse looked like from inside, or a married couple's life, we still
+  sometimes to the death, over our offices. Our preachers also demanded a fair share of that wealth for the poor. What a poor believer's purse looked like from inside, or a married couple's life, we still
   cannot tell you. We will not pretend.
 why_sources_cannot_answer: 'Household-scale marriage and money - a wedding, a family''s daily economy, an
   ordinary purse - are absent from a corpus of canons, court letters, conciliar acts, and teachers''

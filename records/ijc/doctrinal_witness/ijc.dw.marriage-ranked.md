@@ -28,9 +28,7 @@ text: >-
   ranks widowhood by exactly this measure. Ambrose argues straight from Paul. A wife is bound as long
   as her husband lives. If her husband dies, she is free to marry whom she will, only in the Lord. Yet
   Paul adds that she will be happier if she remains as she is. So marriage was lawful, real, and named
-  as such. A widow who remarried did nothing wrong. In a letter to the church at Vercellae, Ambrose
-  sets out the paths. Virginity is high and steep. Widowhood is rocky and rough. Marriage is smooth
-  and even, but it reaches the camp of the saints by a longer circuit, and most people take it. The
+  as such. A widow who remarried did nothing wrong. In a letter to the church at Vercellae, Ambrose sets out the paths, and calls each one good. Virginity is high and steep. Widowhood is rocky and rough. Marriage is smooth and even. It reaches the camp of the saints by a longer circuit, and most people take it. The
   treatise's whole argument is that continence ranks above marriage, and it states this as settled
   teaching, not contested doctrine. What we did not leave you is any household's own account of an
   ordinary marriage from the inside. What we left is where our teachers ranked marriage, and why.

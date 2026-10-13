@@ -27,13 +27,11 @@ exchange:
     church's public words about Jesus - creeds, councils, letters between
     office-holders. It does not keep one ordinary heart's own struggle to
     believe. We cannot show you a voice like yours from inside it, wrestling
-    as you are. Those pages were never written, for you or for anyone before
+    as you are. Those pages do not survive, for you or for anyone before
     you. What we can tell you is what some of our own men went into exile
     rather than take back. That is at least proof of how much it cost them to
     hold. And we can give you the nearest thing we have to an answer for
-    someone not yet certain. At Christmas, Leo, our bishop of Rome, preached: 'Let the saint rejoice: he draws near to
-    victory. Let the sinner be glad: he is invited to pardon. Let the gentile
-    take courage: he is called to life.' We do not know if that reaches you
+    someone not yet certain. At Christmas, Leo, our bishop of Rome, preached: 'Let the saint exult in that he draws near to victory. Let the sinner be glad in that he is invited to pardon. Let the gentile take courage in that he is called to life.' We do not know if that reaches you
     where you are. We only know it was said without waiting for anyone's
     certainty first.
 

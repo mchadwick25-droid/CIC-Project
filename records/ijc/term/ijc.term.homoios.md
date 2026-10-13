@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.hilary-de-synodis
-  locus: "De Synodis, the Ancyra anathema of 358 (likeness in essence, npnf209 line 8067) and Hilary's own reading (sec. 73, line 9397), both pro-Nicene witnesses"
+  locus: "De Synodis: the Ancyra anathemas of 358 and Hilary's comment on likeness (sec. 73)"
   license: public-domain
 - source_id: ijc.source.auxentius-letter-ulfila
   locus: the fragment (referenced-only; no quotation licensed)

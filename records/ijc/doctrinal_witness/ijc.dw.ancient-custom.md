@@ -35,8 +35,7 @@ retrieval:
 text: >-
   'Ancient custom' was our strongest currency, so we kept asking whether our own practices truly went
   back to the apostles. Nicaea makes law with it: let the ancient customs prevail. Julius claims
-  Rome's standing with it: the custom has been for word to be written first to us. Damasus used verse
-  to make his see's apostolic memory visible. But the record also lets us watch a custom being born,
+  Rome's standing with it: the custom has been for word to be written first to us. Damasus wrote verse. Modern scholars read it as a way to make his see's apostolic memory visible. But the record also lets us watch a custom being born,
   and admits it. Augustine, an eyewitness of the 386 basilica siege, dates a new practice at Milan
   precisely. It was hymn-singing 'after the manner of the Eastern Church,' and it was not Milan's own
   before then. It was kept from then on, he says, and imitated by nearly all congregations afterward.

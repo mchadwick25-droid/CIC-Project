@@ -30,10 +30,8 @@ modern_rendering: >-
   believe in one Lord Jesus Christ, the Son of God, the only-begotten of his Father. He is of the
   substance of the Father: God from God, Light from Light, true God from true God. He was
   begotten...not made, being of one substance...with the Father. Through him all things were made,
-  both those in heaven and those on earth. For us men and for our salvation he came down from heaven,
-  and took flesh, and was made man. He suffered, and on the third day he rose again, and went up into
-  heaven. And he shall come again to judge both the living and the dead. And we believe in the Holy
-  Spirit.
+  both those in heaven and those on earth. For us men and for our salvation he came down [from heaven], and took flesh, and was made man. He suffered, and on the third day he rose again, and went up into
+  heaven. And he shall come again to judge both the living and the dead. And [we believe] in the Holy Spirit.
 speaker_or_author: "The Council of Nicaea (325)"
 license: verbatim
 modern_lens_note: >-
