@@ -1044,6 +1044,6 @@ An independent review of the record-wording pass (PR #865) found dropped hedges,
 - `gallic.quote.the-fathers-and-the-angels-twelve`: "thought that what was easy for him should be fixed" and "the two lessons" are gone. Under the same rule, the added subjects "They feared that some dispute might" and "Each man" are also gone; those fragments now stand between ellipses as they do in `text`.
 
 **Still OPEN.**
-- (1) `gallic.gravity.judgment-imminent-present` closes on "the gravity that the passing of Roman order touches most". The old wording was "the only gravity that the passing of Roman order touches at all". The review did not raise it and Mark's ruling does not cover it, so it is left for a ruling.
+- (1) `gallic.gravity.judgment-imminent-present` had closed on "the gravity that the passing of Roman order touches most", which changed the record's claim. The record's own wording, "the only gravity that the passing of Roman order touches at all", is restored, under the ruling that a build-record rewrite keeps its meaning.
 
 Status: CLOSED for the fixes above. Item (1) stays OPEN.

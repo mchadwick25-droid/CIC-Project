@@ -109,8 +109,7 @@ description: >-
   Under the pressure of barbarian collapse, judgment changes in kind, not just intensity: it shifts
   from something still to come to something already happening, in Salvian's own words about the
   present ruin of the Gallic provinces. That is the one place where the larger world's own
-  catastrophe enters this world's literature directly, and this is the gravity that the passing of
-  Roman order touches most.
+  catastrophe enters this world's literature directly, and the only gravity that the passing of Roman order touches at all.
 manifestations:
 - "Sulpitius's inference from the false Christs in Spain and the East that 'the coming of Antichrist is at hand' (Vita XXIV); Antichrist 'already born ... reached the years of boyhood' (Dial. II.14)"
 - "Ep. II's 'a weariness of the present world, a terror of judgment, a fear of punishment'"
