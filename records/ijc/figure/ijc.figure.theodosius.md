@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.sozomen-he
-  locus: VII.4 (the Thessalonica law)
+  locus: "VII.4 (the 380 law issued at Thessalonica, npnf202 line 40625); VII.25 (the massacre and the penance, npnf202 line 42146)"
   license: public-domain
 - source_id: ijc.source.ambrose-epistles
   locus: Ep. XL-XLI, LI, LXI-LXII
@@ -33,8 +33,7 @@ dates:
   floruit: emperor 379-395; baptized at Thessalonica during illness 380; the "Cunctos populos" law 380;
     the massacre at Thessalonica and his public penance 390
 narratable: true
-bridge_line: the emperor who made the Nicene faith the empire's own law - and who, after his soldiers
-  massacred a city, did public penance before a bishop rather than break with him
+bridge_line: "The emperor who made the Nicene faith the law of the empire. His soldiers killed a crowd at Thessalonica. Ambrose would not offer the sacrifice with him present, and the emperor did public penance."
 ---
 The establishment's Nicene consolidator and Strand C's imperial
 counterpart. The penance episode is carried at two source layers,

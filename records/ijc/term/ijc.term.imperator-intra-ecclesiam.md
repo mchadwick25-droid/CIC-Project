@@ -32,9 +32,7 @@ retrieval:
 relations:
 - {type: associated-with, target: ijc.term.communio}
 - {type: associated-with, target: ijc.term.basilica}
-plain_meaning: '"The emperor is within the Church, not over the Church." Ambrose''s word from the basilica crisis.
-  A ruler is a son of the Church, under her discipline like any believer. His soldiers are real - but
-  he cannot command what belongs to the altar.'
+plain_meaning: "\"The emperor is within the Church, not above it.\" Ambrose said this in the basilica crisis. He called the emperor a son of the Church. The emperor's soldiers were real. Ambrose still held that what belongs to God is not Caesar's to take."
 world_word: Imperator intra Ecclesiam, non supra Ecclesiam
 distortion_risk: high
 false_friend:
@@ -48,12 +46,9 @@ senses:
     and the record says so; but the standoff itself has an independent eyewitness in the young Augustine,
     then at Milan, who describes the vigil and the new hymn-singing. Event corroborated; precise wording
     on Ambrose''s word alone.'
-  personal: 'Inside those walls the claim was not a theory: people who did not know whether soldiers would
-    come with harder orders stayed anyway, and sang - fear given something to stand inside besides itself.'
-  translational: '"Early separation of church and state?" - no: the claim is nearly the opposite. It binds
-    the emperor INTO the Church''s own life and discipline; what it denies him is mastery over what belongs
-    to God, not membership in the body that guards it.'
-quick_meaning: The emperor belongs inside the Church like any believer - he does not stand above it.
+  personal: "Inside those walls the claim was no theory. The people kept watch in the church, ready to die with their bishop. They sang hymns and psalms so that grief would not wear them down."
+  translational: "\"Early separation of church and state?\" No. The claim is nearly the opposite. It puts the emperor inside the Church's life. What it denies him is mastery over what belongs to God, not a place in the body that guards it."
+quick_meaning: "Ambrose's claim that the emperor belonged inside the Church and did not stand above it."
 use_note:
   means: "\"The emperor is within the Church, not over it\" is Ambrose's basilica-crisis word: a ruler is under her discipline and cannot command the altar."
   not_for:

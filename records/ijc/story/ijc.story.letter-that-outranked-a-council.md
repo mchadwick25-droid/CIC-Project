@@ -33,8 +33,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): a named
   bishop, quoted directly and at length by a named contemporary. The doubled mediation - Julius''s words
   surviving only through Athanasius''s interested quotation of them - limits precision about exact
   original wording and is stated in the telling; the letter''s existence and core content are Documented.'
-tellable_as: Julius's letter of 341 - Rome's primacy claim in its earliest surviving voice, preserved
-  by the man it helped
+tellable_as: Julius's letter of 341, the earliest surviving voice of Rome's claim to lead, kept by the man it helped
 text: >-
   Long before Damasus built in stone, and before Leo wrote his Tome, the claim
   had already been made once - in a letter. A council in the East had
@@ -48,8 +47,7 @@ text: >-
   years later, while defending his own restored standing. It is our
   earliest surviving example of the claim. (Rome had asserted its standing
   before this - Victor around 190, Stephen in 256 - but outside our
-  own years.) It was preserved not by Rome's own hand, but by the man Rome had
-  helped.
+  own years.) Rome did not keep it. Athanasius did, the man it had helped.
 absent_detail: The Eusebian party's own letter to Julius (the anti-Nicene faction named for Eusebius of
   Nicomedia, not Eusebius of Caesarea the historian) - the one he was answering - does not survive
   independently; their side of the argument reaches the record only through their opponents. And whether

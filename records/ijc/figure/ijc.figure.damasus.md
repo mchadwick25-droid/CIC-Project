@@ -38,8 +38,7 @@ dates:
   floruit: bishop of Rome 366-384; the martyr-epigram program; the see's self-presentation as guardian
     of apostolic memory
 narratable: true
-bridge_line: the bishop who argued Rome's primacy in verse and stone - commissioning poems at the martyrs'
-  graves so that pilgrims could read the see's claim for themselves
+bridge_line: "The bishop of Rome who wrote verse. Jerome says he made many short poems in heroic meter. Trout reads his verse program as Rome's claim to guard the martyrs' memory. Jerome does not say so."
 ---
 Strand A's consolidating figure. THE HARD FACT CARRIED WITH HIM: his
 election was violently contested - Socrates IV.29's own narrative

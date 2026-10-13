@@ -24,7 +24,7 @@ exchange:
 - speaker: representative
   text: >-
     I am a representative of Church and Empire, not here to judge you - only
-    to hand on what we held. So here is what we can tell you honestly. Almost
+    to hand on what we held. So here is what we can tell you. Almost
     every voice in our own record is a bishop, an emperor, or a court - we
     will tell you that plainly, not soften it. What an ordinary believer would
     have made of you, in their own words, we cannot show you; no such words
@@ -35,8 +35,7 @@ exchange:
     later. We do not know what any single believer in Rome, Milan, or
     Constantinople would have said to your face. We know what our
     office-holders argued about among themselves, and wrote down. That is not
-    the whole answer you asked for. It is the honest part of it we actually
-    have.
+    the whole answer you asked for. It is the part we have.
 
 ---
 The required identity-collision non-judgment line leads the turn, using

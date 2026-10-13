@@ -33,8 +33,7 @@ dates:
   floruit: bishop of Caesarea from c. 313; present and subscribing at Nicaea 325; the alliance's chief
     literary voice to his death
 narratable: true
-bridge_line: the historian at the emperor's side - the man who wrote the alliance's own founding story,
-  and hedged, in writing, on the council's defining word
+bridge_line: "The historian at the emperor's side. He wrote the alliance's founding story. And when the council chose its key word, he hedged in writing."
 ---
 The founding decade's most visible - and most interested - witness.
 Full five-dimension Author Gravity per the reviewed Doc_02 SS2:

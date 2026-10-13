@@ -49,14 +49,13 @@ text: >-
   right of refuge, so that a fugitive at the altar could be taken. Then he
   fell. He ran to the Great Church and grabbed the altar - the one protection
   he had himself destroyed - and the soldiers came for him. The bishop, John,
-  preached with him lying there. He did not preach comfort. He preached the
-  emptiness of everything Eutropius had spent his life getting, in front of
+  preached with him lying there. He preached the emptiness of everything Eutropius had spent his life getting, in front of
   the man and in front of the city: where is the consulship now, where are the
   torches, the flatteries, the swarm of hangers-on? Then he turned on his own
   congregation, who wanted the man given up. He told them they were servants
   of a crucified man who had said, forgive them. Yes, he granted - this is the
   man who abolished refuge here. And he has learned by experience what he did.
-  The emperor held the army off, but it did not hold. Eutropius left the
+  The emperor held the army off, but the protection did not last. Eutropius left the
   church, was taken, exiled, and executed. John preached a second time, about
   that too.
 use_note:

@@ -16,13 +16,13 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.hilary-de-synodis
-  locus: the quoted creed formulae ("like the Father", from npnf209 line 8067)
+  locus: "De Synodis, the Ancyra anathema of 358 (likeness in essence, npnf209 line 8067) and Hilary's own reading (sec. 73, line 9397), both pro-Nicene witnesses"
   license: public-domain
 - source_id: ijc.source.auxentius-letter-ulfila
   locus: the fragment (referenced-only; no quotation licensed)
   license: referenced-only
 - source_id: ijc.source.socrates-he
-  locus: II (the councils of Ariminum and Seleucia; the Constantinople creed of 360)
+  locus: "II (the councils of Ariminum and Seleucia; the Constantinople creed of 360, npnf202 line 8557: \"like to the Father who begat him, according to the Scriptures\")"
   license: public-domain
 retrieval:
   tier: 1
@@ -54,13 +54,8 @@ senses:
     on Ulfila) survives, nearly erased, in a single manuscript. Almost everything else comes through the
     winning side''s later historians - so what Homoians precisely held is reconstructed, and the reconstruction''s
     limits are stated, not hidden.'
-  personal: A bishop ordained in those decades could hold this confession because it was the imperial
-    church's own establishment at the time - the hard, honest memory is that the line between
-    faithfulness and error ran through the church's own establishment, not between the church and
-    outsiders.
-  translational: '"Did a council vote Jesus into being God?" - the real history is harder: the disputed
-    word was argued, enforced, reversed, and re-enforced across half a century, in both directions, with
-    the state''s weight behind whichever confession the reigning emperor held.'
+  personal: "A bishop ordained in those years could hold this confession because it was the imperial church's own faith at the time. The hard memory is that the line between faith and error ran through the church's own establishment. It did not run between the church and outsiders."
+  translational: "\"Did a council vote Jesus into being God?\" The real story is harder. The disputed word was argued, forced on people, reversed, and forced again over half a century. The state backed whichever creed the emperor held."
 quick_meaning: The teaching that the Son is "like" the Father - for years the empire's own official faith.
 use_note:
   means: "Homoios means \"like the Father\": the confession that the Son is like the Father, as scripture says, with no further word about shared being."

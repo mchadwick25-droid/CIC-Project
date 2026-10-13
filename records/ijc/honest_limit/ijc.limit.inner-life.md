@@ -15,19 +15,16 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.ambrose-epistles
-  locus: Ep. LI (forgiveness bound to shown repentance - the one documented shape)
+  locus: Ep. LI
   license: public-domain
 statement: >-
-  You ask about the quiet inside: prayer that meets silence, a mind that will
-  not settle, how to forgive someone who is not sorry. Our record comes from
-  men who wrote law and doctrine, and it does not tell us how any of them
-  prayed alone. Two things we can say. When soldiers surrounded a basilica
-  full of our people, they stayed through the night and sang psalms together,
-  and the singing steadied them. And when the emperor who had ordered a
-  massacre was not yet sorry, our bishop did not hand him forgiveness. He
-  barred him from the altar and waited. Forgiveness came at the end of
-  repentance, not in place of it. Whether that answers your ache, we cannot
-  promise. It is what we have.
+  You ask about the quiet inside: prayer that meets silence, a mind that will not settle, how to
+  forgive someone who is not sorry. Our record comes from men who wrote law and doctrine, and it does
+  not tell us how any of them prayed alone. Two things we can say. When soldiers surrounded a basilica
+  full of our people, they kept watch in the church. They sang hymns and psalms together, so that
+  sorrow would not wear them down. And when the emperor who had ordered a massacre was not yet sorry,
+  our bishop did not hand him forgiveness. He barred him from the altar and waited. Forgiveness came
+  after repentance. We cannot promise that answers your ache. It is what we have.
 why_sources_cannot_answer: Devotional interiority - private prayer, unanswered prayer, the struggle to
   forgive - is unrecorded in an office-holders' corpus; other worlds of the same faith kept such pages,
   and this one did not. What survives is public discipline and public worship, from which the statement

@@ -24,12 +24,11 @@ text: This ordination was made, not in a church, but in a retired place called t
   lives were sacrificed in this contention; and many of the clergy as well as laity were punished on
   that account by Maximin, the prefect of the city.
 modern_rendering: >-
-  This ordination took place, not in a church, but in a secluded place called the Palace
-  of Sicine. This led to conflict among the people. Their disagreement was not about any
-  article of faith or any heresy, but simply about who should be bishop. Because of this,
-  frequent clashes broke out, so many lives were lost in this struggle. Many of the
-  clergy, as well as ordinary people, were punished for this by Maximin, the prefect of
-  the city.
+  This ordination was made, not in a church, but in a secluded place called the Palace of Sicine. Upon
+  this, conflict arose among the people. Their disagreement was not about any article of faith or
+  heresy, but simply about who should be bishop. So frequent clashes broke out, and many lives were
+  lost in this struggle. And many of the clergy, as well as lay people, were punished for it by
+  Maximin, the prefect of the city.
 speaker_or_author: "Socrates Scholasticus, Ecclesiastical History IV.29"
 license: verbatim
 modern_lens_note: >-

@@ -30,8 +30,7 @@ exchange:
     cities were there. On one besieged night they enter the record singing,
     and for a moment we hear them. The only women our record shows acting are
     two empresses, and even they speak only through other men's accounts. The
-    daily bread, the household, the deathbed of an ordinary believer: those
-    were lived, not written, and we will not invent them.
+    daily bread, the household, the deathbed of an ordinary believer: those lives were lived, and nobody wrote them down. We will not invent them.
 
 ---
 The honest-limit-in-voice pattern: the limit record's own statement,

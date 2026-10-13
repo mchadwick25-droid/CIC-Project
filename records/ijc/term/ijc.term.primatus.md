@@ -26,7 +26,7 @@ sources:
   locus: Sermon III; Sermon LXXXII
   license: public-domain
 - source_id: ijc.source.jerome-de-viris
-  locus: ch. 103 (the epigraphic program's contemporary witness)
+  locus: "ch. 103 (Damasus \"had a fine talent for making verses\"; the notice names no inscription)"
   license: public-domain
 retrieval:
   tier: 1
@@ -47,8 +47,7 @@ relations:
 - {type: associated-with, target: ijc.term.concilium}
 - {type: associated-with, target: ijc.term.nea-rhome}
 - {type: associated-with, target: ijc.term.martyrium}
-plain_meaning: 'Rome''s claim to first standing among the churches. What was given to Peter, Rome holds, was given
-  to each bishop who sits in his seat after him. Not an honor others grant - an inheritance Rome guards.'
+plain_meaning: "Rome's claim to first standing among the churches. What was given to Peter, Rome held, passed to each bishop who sat in his seat after him. Rome did not see it as an honor others grant. It was an inheritance Rome guarded."
 world_word: primatus
 distortion_risk: high
 false_friend:
@@ -63,11 +62,8 @@ senses:
     Leo''s letters and sermons are his own; Jerome, who worked in Damasus''s chancery, records the verse
     inscriptions. What the record does NOT show is the claim being universally accepted - Canon 28 passed
     over Rome''s objection, which is why the claim''s reception stays a live contest, not a settled fact.'
-  personal: To stand with Rome was to stand somewhere fixed while emperors and councils shifted - the
-    appeal of this claim, felt from inside, is an anchor older than any reigning court.
-  translational: '"Was there a pope?" - there was a bishop of Rome making a strong, contested claim to
-    first authority; whether that is already "the papacy" in the later sense is exactly what traditions
-    still dispute today, and this world''s record is the ground both sides argue from.'
+  personal: "To stand with Rome was to stand somewhere fixed while emperors and councils shifted. Felt from inside, that was the appeal of the claim: an anchor that no reigning court could move."
+  translational: "\"Was there a pope?\" There was a bishop of Rome making a strong, contested claim to first authority. Whether that is already \"the papacy\" in the later sense is what traditions still dispute today. This world's record is the ground both sides argue from."
 quick_meaning: Rome's claim to lead all the churches, because Peter led first from there.
 use_note:
   means: "Primatus is Rome's claim to first standing among the churches: what was given to Peter passes to each bishop who sits in his seat."

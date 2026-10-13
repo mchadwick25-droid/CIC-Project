@@ -47,25 +47,15 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative) for the 
   stripped of purple, weeping in the church - is these later historians'' telling, written to edify; the
   tiers are held apart inside the telling itself, which is why this remains Tier 1 and not Tier 3: what
   is told as documented rests on the documents.'
-tellable_as: the massacre at Thessalonica and the emperor's public penance - told from Ambrose's own
-  letter, with the later famous scene named as later
+tellable_as: a massacre, and an emperor's penance. It comes from Ambrose's own letter. The famous later scene is kept apart.
 text: >-
   In the year 390, a city riot killed one of the emperor's generals. In his
   rage, Theodosius ordered a reprisal. His soldiers massacred the crowd in the
   circus at Thessalonica - innocent and guilty cut down together, with no
-  trial. It is said, the historian writes, that seven thousand died. Ambrose
-  did not denounce Theodosius in public. He wrote him a letter in his own
-  hand, for the emperor's eyes alone: I have no reason to charge you with
+  trial. It is said, the historian writes, that seven thousand died. Ambrose wrote him a letter in his own hand, for the emperor's eyes alone. He says he chose private words over public ones. In it he wrote: I have no reason to charge you with
   defiance, but I do have reason to fear. I dare not offer the sacrifice if
   you intend to be present. What is not allowed after the blood of one
-  innocent person - is it allowed after the blood of many? The demand was
-  repentance, shown, before the emperor could stand at the altar again. And
-  Theodosius did it. That much is documented plainly. The famous scene - the
-  emperor laying aside his purple robes and weeping his sin publicly in the
-  church at Milan - is told within a generation by two church historians,
-  Sozomen and Theodoret, neither one copying only the other. What the contemporary record itself holds
-  is harder and quieter: a bishop with no soldiers closed the altar to the man
-  who commanded all of them, and the man submitted.
+  innocent person - is it allowed after the blood of many? The demand was repentance, shown, before the emperor could stand at the altar again. Two church historians, Sozomen and Theodoret, say Theodosius did it. They tell the famous scene within a generation: the emperor laying aside his purple robes and weeping his sin publicly in the church at Milan. Neither one copies only the other. What Ambrose's own letter holds is harder and quieter: a bishop with no soldiers closed the altar to the man who commanded all of them.
 absent_detail: What passed between the two men beyond the letter is not recorded by either; the penance's
   own liturgical form and duration come from later tellings, not contemporary ones; and Theodosius's
   own inward state is exactly what no source can give. The casualty figure is Theodoret's, carried with

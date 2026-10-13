@@ -21,9 +21,9 @@ text: And why was nothing said to us concerning the Church of the Alexandrians i
   ignorant that the custom has been for word to be written first to us, and then for a just decision to
   be passed from this place
 modern_rendering: >-
-  And why was nothing said to us in particular about the Church of the Alexandrians? Do
-  you not know that the custom has been for word to be written to us first, and then for a
-  just decision to be given from this place
+  And why was nothing said to us about the Church of the Alexandrians in particular? Are you unaware
+  of the custom? It has been for word to be written first to us, and then for a just decision to be
+  passed from this place
 speaker_or_author: ijc.figure.julius
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."

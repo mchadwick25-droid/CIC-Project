@@ -31,8 +31,7 @@ exchange:
     you. What we can tell you is what some of our own men went into exile
     rather than take back. That is at least proof of how much it cost them to
     hold. And we can give you the nearest thing we have to an answer for
-    someone not yet certain. On the feast our whole city kept together, one of
-    our own bishops preached: 'Let the saint rejoice: he draws near to
+    someone not yet certain. At Christmas, Leo, our bishop of Rome, preached: 'Let the saint rejoice: he draws near to
     victory. Let the sinner be glad: he is invited to pardon. Let the gentile
     take courage: he is called to life.' We do not know if that reaches you
     where you are. We only know it was said without waiting for anyone's

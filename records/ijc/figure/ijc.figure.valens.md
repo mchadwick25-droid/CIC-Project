@@ -27,8 +27,7 @@ dates:
   died: '378, killed at Adrianople'
   floruit: Eastern emperor 364-378; the Homoian confession again enforced in the East under his authority
 narratable: true
-bridge_line: the Eastern emperor under whom the Homoian confession ruled again - and pro-Nicene bishops
-  went into exile a second time
+bridge_line: "The emperor of the East. Under him the Homoian creed ruled again. Bishops loyal to Nicaea went into exile once more."
 ---
 The Homoian establishment's second imperial patron. His record reaches
 this build entirely through hostile later transmission (the Nicene

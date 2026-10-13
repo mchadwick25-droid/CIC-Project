@@ -32,23 +32,13 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): both of
   on the affair survive, addressed first to Theodosius directly and then to his sister recounting the
   outcome - a first-person account of the same leverage exercised elsewhere for restraint, here exercised
   to shield wrongdoing.'
-tellable_as: the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful
+tellable_as: the 388 fight over a burned synagogue. Ambrose used his power to shield the guilty.
 text: >-
-  At Callinicum, on the eastern frontier, a Christian mob burned the town's
-  synagogue - at the local bishop's own urging. Monks separately burned a
-  Valentinian meeting-house. Theodosius heard of it and ordered the ordinary
-  remedy: the bishop would pay to rebuild the synagogue, and the monks would
-  be punished. Ambrose wrote directly to the emperor to get the order
-  reversed. Not because he denied the burning. He judged it intolerable for a
-  bishop to be forced to fund a synagogue - and worse, in his own words, for
-  the burning of a Valentinian house, which he called worse than heathen, to
-  be answered at all. When the order stood, Ambrose preached in front of
+  At Callinicum, on the eastern frontier, Christians burned the town's synagogue. It was reported that the local bishop had urged it. Monks separately burned a
+  Valentinian meeting-house. Theodosius heard of it and ordered the usual remedy. The bishop would pay to rebuild the synagogue. The monks would be punished. Ambrose wrote to the emperor himself to get the order reversed. Not because he denied the burning. He judged it intolerable for a bishop to be forced to fund a synagogue. He judged it worse that anyone should answer for burning a Valentinian house, which he likened to a heathen temple. When the order stood, Ambrose preached in front of
   Theodosius in church. He refused to offer the sacrament until the emperor
-  promised, on the spot, to withdraw the order. Theodosius gave in. Refusing
-  the emperor the sacrament was the same tool Ambrose used, in another story,
-  to make an emperor repent of a massacre. Here the same tool was used to
-  protect the arsonists, so they never had to pay for what they burned. It
-  left a burned community with no recourse.
+  promised then and there to amend the order and end the inquiry. Theodosius gave in. Refusing the sacrament was the same tool Ambrose used, in another story,
+  to make an emperor repent of a massacre. Here the same tool was used to protect the arsonists. They never had to pay for what they burned. It left a burned community with nowhere to turn.
 absent_detail: The Jewish community at Callinicum has no voice anywhere in this record - not their loss,
   not their appeal, not their reaction to the reversed order. What survives is entirely Ambrose's own
   account, addressed to the emperor and then to his sister; no independent witness corroborates his

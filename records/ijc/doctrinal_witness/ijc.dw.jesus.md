@@ -27,18 +27,14 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  To us, Jesus was the one the whole argument was about, and the
-  argument itself was our devotion. The creed of Nicaea, in 325, answers who he was: very God
-  of very God, of one being with the Father, who for us and for our salvation
-  came down, was made man, suffered, and rose on the third day. A century of
-  councils spent itself making those words exact, because everything hung on
-  them. If the Son is not truly God, then what he gives is not truly God's to
-  give. Leo's letter explains why the exactness mattered: true God and true
-  man, each nature doing what belongs to it in one person, so that the death
-  could be ours and the victory could be God's. We did not write
-  devotional memoirs about Jesus. What we wrote were definitions, and we wrote
-  them the way people write what they are prepared to be exiled over. In the
-  language we actually had, the definitions were the devotion.
+  To us, Jesus was the one the whole argument was about, and the argument itself was our devotion. The
+  creed of Nicaea, in 325, answers who he was: very God of very God, of one being with the Father. For
+  us and for our salvation he came down, was made man, suffered, and rose on the third day. A century
+  of councils spent itself making those words exact, because everything hung on them. If the Son is
+  not truly God, then what he gives is not truly God's to give. Leo's letter explains why the
+  exactness mattered. He wrote of true God and true man, each nature doing what belongs to it. So one
+  Mediator could die in one nature and not die in the other. We did not write devotional memoirs about
+  Jesus. We wrote definitions, the way people write what they are prepared to be exiled over.
 positions:
 - Jesus is truly God - of one and the same being with the Father, not a lesser or later being
 - he is truly man - born, suffering, dying; the manhood not swallowed by the Godhead

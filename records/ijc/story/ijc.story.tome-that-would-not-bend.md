@@ -42,7 +42,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): named d
 tellable_as: Leo's Tome at Chalcedon, and the canon he would not receive - our closing argument,
   left open
 text: >-
-  Leo did not go to Chalcedon; his letter went in his place. When the Tome was
+  Leo did not go to Chalcedon. His legates went in his place, and his letter was read. When the Tome was
   read to the assembled bishops, the session record has them crying out: This
   is the faith of the fathers - Peter has spoken thus through Leo. A letter
   received, by those who received it rightly, as the see of Peter speaking.
@@ -52,10 +52,7 @@ text: >-
   had ever taught there. The canon's own words say why: the fathers rightly
   granted privileges to old Rome as the royal city, and the new royal city
   should be honored the same way. Leo's representatives objected in the
-  council itself. Leo, when word reached him, refused to accept it. He wrote
-  to emperor, empress, and bishop alike to say why: things secular stand on a
-  different basis from things divine. Rank near a throne is not the kind of
-  claim an apostle's grave makes, and no vote can make the two the same. So
+  council itself. Leo, when word reached him, refused to accept it. He wrote to the emperor, the empress and the bishop. To the emperor he gave his reason: things secular stand on a different basis from things divine. Constantinople was a royal city, he said, but it could never be an apostolic see. So
   the council that finally settled who Christ is left open the question it
   could not settle: where, on earth, the church's own final authority sits.
   Our record ends with both claims still held, unreconciled.

@@ -21,7 +21,7 @@ confidence:
 sources:
 - source_id: ijc.source.chrysostom-homilies-romans
   locus: >-
-    Homilies on Romans, Homily XXIII, on Romans 13:1 (npnf111, file line 53993)
+    Homilies on Romans, Homily XXIII, on Romans 13:1 (npnf111 lines 53973-53991)
   license: public-domain
 text: >-
   And to show that these regulations are for all, even for priests, and monks, and not for men of
@@ -36,18 +36,16 @@ text: >-
   and that all things should not just be carried on in one confusion, the people swaying like waves
   in this direction and that; this, I say, is the work of God's wisdom.
 modern_rendering: >-
-  To show that these rules are for everyone — even for priests and monks, not only for
-  people in secular occupations — he lays out this plan from the very start, by saying:
-  'Let every soul be subject to the higher powers,' even if you are an Apostle, an
-  Evangelist, a Prophet, or anything else at all, since this subjection does not undermine
-  religion. And he does not merely say 'obey,' but 'be subject.' The first claim this
-  command makes on us, and the reasoning that fits the faithful, is that all this comes
-  from God's own appointment. 'For there is no power,' he says, 'except from God.' 'What
-  are you saying?' it may be asked; 'is every ruler, then, elected by God?' 'That is not
-  what I say,' he answers. 'Nor am I now speaking about particular rulers, but about the
-  thing itself. That there should be rulers, that some should rule and others be ruled,
-  and that everything should not simply run on in one confusion, with people swaying like
-  waves this way and that — this, I say, is the work of God's wisdom.'
+  These rules are for all, even for priests and monks, and not for people in secular work only. To
+  show this, he set out this plan at the very start by saying as follows. "Let every soul be subject
+  to the higher powers," even if you are an Apostle, or an Evangelist, or a Prophet, or anything at
+  all. For this subjection does not overturn religion. And he does not say only "obey," but "be
+  subject." The first claim such a law makes on us is that all this is God's appointment. That is also
+  the reasoning that suits the faithful. "For there is no power," he says, "except from God." What do
+  you mean? someone may ask. Is every ruler, then, chosen by God? I do not say this, he answers. Nor
+  am I now speaking about particular rulers, but about the thing in itself. For there are rulers, and
+  some rule while others are ruled. All things are not just carried on in one confusion, with the
+  people swaying like waves this way and that. This, I say, is the work of God's wisdom.
 speaker_or_author: John Chrysostom, preaching on Romans 13
 license: verbatim
 modern_lens_note: >-

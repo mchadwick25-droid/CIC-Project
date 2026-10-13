@@ -18,36 +18,30 @@ confidence:
     a divergence this record states rather than resolves"
 sources:
 - source_id: ijc.source.ambrose-epistles
-  locus: Ep. XX.6-7 (the coercive measures themselves, npnf210 from line 41434); the volume's own
-    chronology (npnf210:704, "The persecution at Milan of Catholics by Justina in Holy Week. [Ep. 20.]"),
-    which is the warrant for attributing the measures to Justina - Ep. XX's own text names the emperor,
-    not her, as actor
+  locus: Ep. XX.6-7; the volume's chronology for 386, entry on Justina
   license: public-domain
 - source_id: ijc.source.leo-letters
-  locus: Ep. CV (to Pulcheria Augusta, congratulating her on the synod already held and protesting
-    Anatolius's Canon 28 - addressed to her as a real political principal, not a courtesy addressee);
-    Ep. XCV (thanking her directly for her own command that the Synod be held, and for overruling his
-    own request that it sit in Italy - the actual warrant for her convening role)
+  locus: Ep. XCV; Ep. CV
   license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  A woman could carry real authority among us. It happened twice on the record's own terms, and both times the cost was steep. Justina
-  was the mother of a young emperor and the dominant influence over him; no
-  formal regency is on record. What came down to us names her as the
-  one who turned the machinery of the state against Ambrose. He had refused to surrender a basilica. The penalties were real. The city's merchants were ordered to pay two hundred pounds of gold within three days. Innocent people were chained during Lent. The prisons filled with tradespeople. Palace officials were commanded to stand clear. Ambrose's own letter names the
-  emperor as the one acting on his own power; it is the volume's own
-  chronology that names Justina as the persecution's author. Either way, real
-  coercive power moved through her court. The cost was total public failure.
-  The basilica was never surrendered. Everything the record says about her
-  part reaches us through the account of the bishop who defeated her.
-  Pulcheria carried authority long enough to help convene the council that
-  closed our era. Leo himself records that she commanded the council
-  to be held. She refused his request to hold it in Italy, and he answered by
-  sending his legates without protest. He also wrote congratulating her on a synod already held. None of this was mere courtesy. Her cost was
-  different. Real standing bought her a place in the correspondence of
-  powerful men, and nothing beyond it in her own words. Both women held
+  A woman could carry real authority among us. It happened twice on the record's own terms, and both
+  times the cost was steep. Justina was the mother of a young emperor and the dominant influence over
+  him; no formal regency is on record. What came down to us names her as the one who turned the
+  machinery of the state against Ambrose. He had refused to surrender a basilica. The penalties were
+  real. The city's merchants were ordered to pay two hundred pounds of gold within three days.
+  Innocent people were chained during Lent. The prisons filled with tradespeople. Palace officials
+  were commanded to stand clear. Ambrose's own letter names the emperor as the one acting on his own
+  power. It is the volume's own chronology that names Justina as the persecution's author. Either way,
+  real coercive power moved through her court. The cost was total public failure. The basilica was
+  never surrendered. Everything the record says about her acts reaches us through men's accounts.
+  Pulcheria carried authority long enough to help convene the council that closed our era. Leo himself
+  records that she commanded the council to be held. She refused his request to hold it in Italy, and
+  he answered by sending his legates without protest. He also wrote congratulating her on a synod
+  already held. None of this was mere courtesy. Her cost was different. Real standing bought her a
+  place in the correspondence of powerful men, and nothing beyond it in her own words. Both women held
   command. Neither left us her own voice.
 positions:
 - real coercive state power moved through Justina's court in this world's own record - fines,

@@ -39,8 +39,7 @@ relations:
 - {type: associated-with, target: ijc.term.communio}
 - {type: associated-with, target: ijc.term.homoousios}
 - {type: associated-with, target: ijc.term.concilium}
-plain_meaning: 'The "prerogative of honor": Constantinople''s claim to rank second among the churches. Not because
-  an apostle founded it - because the emperor now reigns there. Rank follows the throne.'
+plain_meaning: "The \"prerogative of honor\" was the new capital's claim to rank second among the churches. The emperor reigned there. No apostle had founded it. Rank followed the throne."
 world_word: presbeia (tes times)
 distortion_risk: medium
 false_friend:
@@ -56,12 +55,9 @@ senses:
     legates objected at the council, and Leo refused to ratify Canon 28 in writing - direct evidence the
     claim was contested at the moment it was made, not only by later historians. Translations of the Greek
     phrase vary ("prerogative of honour," "primacy of honor"); the variance is disclosed, not smoothed.'
-  personal: For those who held it, this was not cynicism - the empire's defense of the faith was itself
-    a religious fact, and standing beside the throne meant standing where that defense was actually conducted.
-  translational: '"Wasn''t that just politics?" - the claim is openly political-geographic in its premise,
-    but its holders did not experience political and religious standing as separable categories; treating
-    them as separable is the modern assumption, not the world''s.'
-quick_meaning: Constantinople's claim to rank second of all the churches, because the emperor now reigns there.
+  personal: "For those who held it, the empire's defense of the faith was itself a religious fact. To stand beside the throne was to stand where that defense was carried out."
+  translational: "\"Wasn't that just politics?\" The claim is openly political in its premise. But those who held it did not see political and religious standing as separate. Treating them as separate is the modern assumption, not theirs."
+quick_meaning: "The new capital's claim to rank second of all the churches, since the emperor reigned there."
 use_note:
   means: "Presbeia is the \"prerogative of honor\": Constantinople's claim to rank second among the churches because the emperor reigns there, so that rank follows the throne."
   not_for:

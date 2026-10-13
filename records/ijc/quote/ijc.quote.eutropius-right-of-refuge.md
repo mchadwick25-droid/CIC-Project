@@ -24,14 +24,12 @@ text: We are the servants of the crucified one who said "Forgive them for they k
   he utters from thence a warning voice to all, saying "do not such things as I have done, that ye
   suffer not such things as I suffer."
 modern_rendering: >-
-  We are the servants of the crucified one, who said, 'Forgive them, for they
-  do not know what they are doing.' But, you say, this man cut off the right
-  of refuge here with his decrees and his many kinds of laws. Yes! And now he
-  has learned by experience what it was he did. He himself, by his own
-  actions, has been the first to break his law, and he has become a spectacle
-  to the whole world. Silent though he is, he still speaks - a warning to
-  everyone: 'Do not do as I have done, so that you do not suffer as I now
-  suffer.'
+  We are the servants of the crucified one, who said, "Forgive them, for they do not know what they
+  are doing." But, you say, he cut off the right of refuge here by his decrees and by various kinds of
+  laws. Yes! Yet now he has learned by experience what it was he did. He himself, by his own deeds,
+  has been the first to break the law. He has become a spectacle to the whole world. Silent though he
+  is, from there he raises a warning voice to all. He says: "Do not do such things as I have done, so
+  that you do not suffer such things as I suffer."
 speaker_or_author: John Chrysostom, bishop of Constantinople, preaching in 399 while Eutropius clung
   to the altar behind him
 license: verbatim

@@ -15,19 +15,18 @@ confidence:
   divergence_note: >-
     Documented as Ambrose's own teaching, in a treatise written to commend widowhood - so the ranking is the argument, not an aside. He is a bishop writing to persuade, and the marriage he ranks third is the state most of his hearers were in.
 sources:
-- source_id: ijc.source.ambrose-concerning-widows
+- source_id: ijc.source.ambrose-epistles
   locus: >-
-    Concerning Widows, ch. IV.40-41 (npnf210_ambrose-select-works-letters.xml)
+    Letter LXIII to the Church at Vercellae, sec. 40 (npnf210 lines 45073-45079)
   license: public-domain
 text: >-
   ...that of widowhood, not so difficult as the former, but being rocky and rough, it requires more cautious travellers. Good too is that of marriage; being smooth and even it reaches the camp of the saints by a longer circuit. This way is taken by most. There are then the rewards of virginity, there are the merits of widowhood, there is also a place for conjugal modesty.
 modern_rendering: >-
-  ...the way of widowhood is not as hard as the first, but being rocky and rough, it needs
-  more careful travelers. Marriage's way is good too. Being smooth and level, it reaches
-  the camp of the saints by a longer route. Most people take this way. So there are the
-  rewards of virginity; there are the merits of widowhood; and there is also a place for
-  conjugal modesty.
-speaker_or_author: Ambrose of Milan, Concerning Widows
+  ...that of widowhood, which is not as hard as the former. But it is rocky and rough, so it needs
+  more careful travelers. Good too is that of marriage. Being smooth and even, it reaches the camp of
+  the saints by a longer route. Most people take this way. So there are the rewards of virginity,
+  there are the merits of widowhood, and there is also a place for chaste married life.
+speaker_or_author: Ambrose of Milan, Letter LXIII
 license: verbatim
 modern_lens_note: >-
   The crucial words are 'Good too' and 'This way is taken by most'. Marriage is not condemned here - it reaches the same destination - but it is explicitly the longest road and the ordinary one. That is this world's answer about marriage: licit, honoured, and third. A reader who expects either condemnation or equality will misread it in opposite directions.

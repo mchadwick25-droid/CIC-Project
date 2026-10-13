@@ -33,8 +33,7 @@ dates:
   floruit: 'victor at the Milvian Bridge 312; the Milan agreement 313; convened Nicaea 325; dedicated
     Constantinople 330'
 narratable: true
-bridge_line: the emperor who ended the empire's hunt for the church and started funding it instead - and
-  whose alliance made a bishop's office a form of power the state had to reckon with
+bridge_line: "The emperor who stopped the hunt for the church and began to fund it. His alliance made a bishop's office a power the state had to reckon with."
 ---
 The world's initiating figure. Both conversion accounts (the dream in
 Lactantius, the vision in Eusebius) are carried at
