@@ -19,7 +19,7 @@ sources:
   license: public-domain
 text: Now we, too, say that those who have rushed on death (for there are some, not belonging to us, but
   sharing the name merely, who are in haste to give themselves up, the poor wretches dying through hatred
-  to the Creator)—these, we say, banish themselves without being martyrs, even though they are punished
+  to the Creator )—these, we say, banish themselves without being martyrs, even though they are punished
   publicly. For they do not preserve the characteristic mark of believing martyrdom, inasmuch as they
   have not known the only true God, but give themselves up to a vain death,
   as the Gymnosophists of the Indians to useless fire.
