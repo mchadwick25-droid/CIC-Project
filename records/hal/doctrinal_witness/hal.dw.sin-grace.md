@@ -20,6 +20,9 @@ sources:
 - source_id: hal.source.jerome-ep107
   locus: secs. 4-7 (a child raised toward baptism and consecration)
   license: public-domain
+- source_id: hal.source.jerome-against-jovinianus
+  locus: Book II (the Lord's body and blood)
+  license: public-domain
 text: >-
   We held that everyone inherits Adam's fall, and everyone needs the
   washing of baptism. Our last great argument came close to that ground.
@@ -45,9 +48,6 @@ tensions:
   its teaching is a position in an open fight, not a settled system
 - eucharistic practice is barely described in the record - reverence is attested, detail
   is not
-- source_id: hal.source.jerome-against-jovinianus
-  locus: Book II (the Lord's body and blood)
-  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
