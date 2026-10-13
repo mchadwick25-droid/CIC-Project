@@ -144,7 +144,7 @@ use_note:
   not_for:
     - "growth of doctrine without alteration, which sits in gallic.term.progress-vs-alteration"
     - "the test as consistently applied, when that is contested in gallic.contested.who-holds-antiquity"
-    - "the novice's year under the guest-elder and the admission that none kept Egypt's perseverance a year, which sit in gallic.term.junior-novice"
+    - "the novice's year under the guest-elder and the admission that none kept Egypt's perseverance unbroken even a year, which sit in gallic.term.junior-novice"
     - "Scripture's sufficient canon and its need of the Church's reading, which sit in gallic.limit.no-one-who-saw-him"
   years: {from: 397, to: 434}
   status: reviewed

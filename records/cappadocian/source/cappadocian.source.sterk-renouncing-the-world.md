@@ -17,6 +17,7 @@ relations: []
 author: Andrea Sterk
 work: Renouncing the World Yet Leading the Church
 edition: In-copyright modern scholarship, not vendored
+citation: Andrea Sterk, Renouncing the World Yet Leading the Church
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

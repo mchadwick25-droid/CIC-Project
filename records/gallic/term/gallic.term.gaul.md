@@ -75,8 +75,8 @@ relations:
 - type: associated-with
   target: gallic.term.monastery-coenobium
 plain_meaning: >-
-  Where we are, named in two registers. For Cassian, the cold, late province that falls short of
-  Egypt. For Sulpitius, a self-mocking "We are Gauls" - and the boast that Europe has Martin.
+  Where we lived, named in two ways. For Cassian, the cold, late province that fell short of Egypt.
+  For Sulpitius, a self-mocking "We are Gauls" - and the boast that Europe had Martin.
 world_word: Gaul ("the cold of Gaul"; "We are Gauls")
 false_friend:
 - '"France" and a national identity'
@@ -112,9 +112,8 @@ senses:
     self-mocking and defiant in the north, and never proud in the modern way - a cold province that
     received Egypt's rule and knew it fell short.
 quick_meaning: >-
-  Where we are. For Cassian, the cold province that receives Egypt's rule and falls short of it.
-  For Sulpitius, "We are Gauls" - a joke about our appetites, and a boast that Egypt has no
-  Martin.
+  Where we lived. For Cassian, the cold province that received Egypt's rule and fell short of it. For
+  Sulpitius, "We are Gauls" - a joke about our appetites, and a boast that Egypt had no Martin.
 distortion_risk: medium
 use_note:
   means: "Gaul meant, for Cassian, the cold late province that receives Egypt's rule and falls short of it, and for Sulpitius a self-mocking 'We are Gauls' and a boast of Martin."

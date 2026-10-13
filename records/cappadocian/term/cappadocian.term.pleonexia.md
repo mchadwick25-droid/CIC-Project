@@ -35,9 +35,12 @@ relations:
   target: cappadocian.term.philoptochia
 - type: associated-with
   target: cappadocian.story.poorhouse-famine-month
-plain_meaning: During a famine, preachers named this vice directly. Barns were torn down to build bigger
-  ones. Grain was held back for a higher price while children starved at the door. Interest was charged
-  that ate away at the poor. The surplus, preachers said, was never really the hoarder's own.
+plain_meaning: >-
+  During a famine, preachers named this vice directly. They retold the
+  parable of the rich man who tore down his barns to build bigger ones. They
+  named grain held back for a higher price while the hungry waited. They
+  named interest that ate away at the poor. The surplus, they said, was
+  never really the hoarder's own.
 world_word: pleonexia
 false_friend:
 - treating 'greed is bad' as a flat, obvious platitude rather than a specific, pointed accusation

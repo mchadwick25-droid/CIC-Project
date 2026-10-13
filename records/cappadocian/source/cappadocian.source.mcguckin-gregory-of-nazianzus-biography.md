@@ -17,6 +17,7 @@ relations: []
 author: John McGuckin
 work: 'St Gregory of Nazianzus: An Intellectual Biography'
 edition: In-copyright modern scholarship, not vendored
+citation: 'John McGuckin, St Gregory of Nazianzus: An Intellectual Biography'
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

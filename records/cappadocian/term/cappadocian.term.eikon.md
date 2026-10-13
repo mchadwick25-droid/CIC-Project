@@ -42,9 +42,12 @@ relations:
   target: cappadocian.term.pleonexia
 - type: associated-with
   target: cappadocian.term.theosis
-plain_meaning: 'Every person, we taught, is made in God''s image. That belief worked two ways:
-  upward, it meant the soul is meant to grow to resemble God; outward, it meant the poor man at the door
-  and even the enslaved could not be treated as less than human.'
+plain_meaning: >-
+  Every person, we taught, is made in God's image. That belief worked two
+  ways. Upward, the soul was meant to grow toward God's likeness. Outward,
+  the poor man at the door bore that image too. One preacher, Gregory of
+  Nyssa, turned it against the owning of slaves. Our churches still lived
+  with slavery.
 world_word: eikōn (tou Theou)
 false_friend:
 - '''image of God'' as a general dignity slogan detached from God'
@@ -66,8 +69,9 @@ senses:
     the way we do?'' -- no: this was one preacher''s singular, startling protest inside a world that otherwise
     kept the institution it had, for one voice, seen through. Naming that gap honestly matters more than
     smoothing it into a tidier story.'
-quick_meaning: 'The image of God: what we believed every person is made as, beggar or enslaved
-  alike.'
+quick_meaning: >-
+  The image of God: what we believed every person is made as, the beggar at
+  the door included.
 distortion_risk: high
 use_note:
   means: "Eikon meant the image of God in every person, a belief that the soul grows toward God's likeness and that the poor and enslaved are fully human."

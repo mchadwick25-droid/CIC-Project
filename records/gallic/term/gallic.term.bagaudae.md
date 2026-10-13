@@ -119,8 +119,8 @@ senses:
     finding God in the desert or bishops arguing about grace will not expect this passage at all.
 quick_meaning: >-
   Salvian's own word for the ordinary Roman poor of Gaul. Their own officials' greed drove them to
-  flee to the barbarians, or to revolt outright - and then they were blamed for it. The one place in
-  our own record where the rural poor speak as a subject, not a mission field.
+  flee to the barbarians, or to revolt outright - and then they were blamed for it. The one place
+  where one of us wrote about the rural poor as people wronged, not as a mission field.
 distortion_risk: medium
 use_note:
   means: "Bagaudae meant, in Salvian, Roman provincials driven by their own officials' greed to revolt or flee to the barbarians and then blamed as rebels."

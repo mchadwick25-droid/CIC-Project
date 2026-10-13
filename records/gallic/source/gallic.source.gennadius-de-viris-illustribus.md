@@ -18,6 +18,7 @@ author: Gennadius of Marseilles (writing c. 495, just after this world's own wor
 work: De Viris Illustribus
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (Theodoret, Jerome, Gennadius, Rufinus), tr.
   Ernest Cushing Richardson, ed. Schaff and Wace, vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
+citation: Gennadius of Marseilles, De Viris Illustribus, trans. Ernest Cushing Richardson, Nicene and Post-Nicene Fathers, 2nd series, vol. 3, ed. Schaff and Wace
 kind: vendored
 rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
 attribution_status: attributed

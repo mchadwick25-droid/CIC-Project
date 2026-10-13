@@ -37,22 +37,24 @@ name: "The cold of Gaul (L\u00e9rins-Marseilles) [2A - ongoing/external]"
 kind: ongoing
 matrix_cell: 2A
 description: >-
-  The one force Cassian names in his own voice as changing what he transmits: dress is refitted
-  because 'the severity of the winter does not allow us to be satisfied with slippers or tunics or a
-  single frock; and the covering of tiny hoods or the wearing of a sheepskin would afford a subject
-  for derision instead of edifying the spectators' (Inst. I.10); the hours are adjusted because 'in
-  this country neither the climate nor the weakness of our constitution would permit' (IV.10-11);
-  the whole province is 'frozen as it were with the cold of Gaul' (Conf. Pref. II). Marmoutier's
-  dress answers the same climate without a word about it (Doc_08 Cell 2A, Force 2A-4). WORLD'S OWN
-  EXPERIENCE (Layer 2): the cold was not weather but incapacity - 'the weakness of our constitution'
-  - and a small shame: one could not wear what the fathers wore without being laughed at, could not
-  keep their hours, could not keep their perseverance a year; one lived in the frozen province and
-  wished to see the fathers in the flesh in a warmer one. The customs came, and the cold said what
-  of them could be kept. FORMATION IMPACT (Layer 3): node-bound southern in vocabulary. 'The felt
-  form of G2's receptive mode - the body's way of being the colder, weaker, later people' - and the
-  reason the received program is an ADAPTED one, 'which is the part of Cassian that is this world's
-  own.' It supplies the material culture's one shared physical fact and the pun on lukewarmness. 'A
-  modest force with a precise trace, treated at proportionate length.'
+  Cassian names the cold, in his own voice, as one force that changed what he handed on. Dress was
+  refitted because 'the severity of the winter does not allow us to be satisfied with slippers or
+  tunics or a single frock; and the covering of tiny hoods or the wearing of a sheepskin would
+  afford a subject for derision instead of edifying the spectators' (Inst. I.10). The Egyptians'
+  food is passed over because 'in this country neither the climate nor the weakness of our
+  constitution would permit' (IV.11). The whole province is 'frozen as it were with the cold of
+  Gaul' (Conf. Pref. II).
+
+  For the brethren, the cold was not just weather. It was a lack of strength, 'the weakness of our
+  constitution,' and a small shame. One could not wear what the fathers wore without being laughed
+  at, nor eat as they ate. One lived in the frozen province and wished to see the fathers in the
+  flesh, in a warmer one. The customs came, and the cold decided what of them could be kept.
+
+  Its words belong to the south. It was the felt form of the south's way of receiving Egypt as the
+  measure. In the body, the brethren were the colder, weaker, later people. It is why the received
+  program was an adapted one, and the adapting is the part of Cassian that belongs to this world.
+  The cold was the one physical fact both houses shared. In the same breath as the climate, Cassian
+  warns against 'coldness of spirit' (IV.11).
 manifestations:
 - "Egyptian dress refitted for Gaul - slippers, tunics, hoods, sheepskin 'a subject for derision' (Inst. I.10)"
 - "The hours adjusted because 'neither the climate nor the weakness of our constitution would permit' (Inst. IV.10-11)"

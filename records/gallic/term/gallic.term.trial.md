@@ -97,9 +97,9 @@ senses:
     novelty, a permitted assault, or a night of fire - and the right answer is to hold to the
     Church, fight with help, or return to the cross.
 quick_meaning: >-
-  God's proving of our love. A Church is tried by a great teacher's error; a monk's will by an
-  assault God permits; Martin by fire. The greater the teacher or the danger, the greater the
-  proof.
+  God's proving of our love. A Church is tried by a great teacher's error; a monk's will by an assault
+  God permits; Martin by fire. Vincent taught that the more learned the erring teacher, the greater
+  the trial.
 distortion_risk: medium
 use_note:
   means: "Trial meant God's proving of love: a Church tried by a great teacher's error, a monk's will by an assault God permits, and Martin by danger."

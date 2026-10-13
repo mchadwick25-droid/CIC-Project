@@ -67,8 +67,8 @@ relations:
 - type: associated-with
   target: gallic.term.trial
 plain_meaning: >-
-  For us the monk's interior life is a sequence of single combats - "our first conflict ... against
-  gluttony," "our sixth combat ... accidie" - fought in a fixed order. They are the trials of "the
+  For us the monk's interior life was a sequence of single combats - "our first conflict ... against
+  gluttony," "our sixth combat ... accidie" - fought in a fixed order. They were the trials of "the
   true Christian athlete who desires to strive lawfully in the lists of perfection," so that no one
   "is worthy to be tried in harder battles, who can be overcome in a slight skirmish."
 world_word: combat / athlete

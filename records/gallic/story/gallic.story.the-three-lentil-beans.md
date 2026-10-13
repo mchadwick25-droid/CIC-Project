@@ -66,31 +66,30 @@ narrative_tier_justification: >-
   himself doubts any Gallic monk kept the fathers' rigour "unbroken even for a year" (Inst. IV.2); what
   is Gaul's own is that it was told this, and told it as an example.
 tellable_as: >-
-  A steward finds three lentils on the floor during a brother's week as cook, the abbot judges him a
-  pilferer of sacred property, and he is suspended from prayer until public penance - because
-  everything in the house is "consecrated to the Lord."
+  During a brother's week as cook, the steward finds three lentils on the floor. The abbot judges him a
+  pilferer, careless with sacred things, and bars him from prayer until he does public penance. The brothers
+  believe everything they own is "consecrated to the Lord."
 text: >-
   The tradition Cassian set down for Gaul tells of a cook and three lentils.
 
   In the coenobia of the East, the brethren serve the house by the week, taking turns at the same
-  duties across Mesopotamia, Palestine, Cappadocia, and the whole region (gallic.quote.weekly-service-
-  and-sacred-vessels). When a week ends, the departing server hands over the vessels and tools he used
-  to the brother taking his place, who then guards them with real care and anxiety - the brothers
-  believe that even the smallest vessel is sacred, and that an account for it is owed not only to the
-  steward on duty but to the Lord himself. Cassian offers one example of how far that care goes.
+  duties across Mesopotamia, Palestine, Cappadocia, and the whole region. When a week ends, the
+  departing server hands over the vessels and tools he used to the brother taking his place. That
+  brother then guards them with real care and anxiety. The brothers believe that even the smallest
+  vessel is sacred. An account for it is owed not only to the steward on duty but to the Lord himself.
+  Cassian offers one example of how far that care goes.
 
-  During one brother's week as cook, the steward passing by saw three lentil beans lying on the ground.
-  They had slipped from the monk's hand, along with the water he was washing them in. The steward told
-  the Abbot at once. The Abbot judged the monk careless with sacred property, a pilferer, and suspended
-  him from prayer. Only public penance for the offense brought him pardon
-  (gallic.quote.three-lentils-and-the-lords-things).
+  During one brother's week as cook, the steward passing by saw three lentil beans lying on the
+  ground. They had slipped from the monk's hand, along with the water he was washing them in. The
+  steward told the Abbot at once. The Abbot judged the monk careless with sacred property, a pilferer,
+  and suspended him from prayer. Only public penance for the offense brought him pardon.
 
-  The reason, the tradition gives in the same breath: the brothers believe they are not their own, and
-  neither is anything they possess - once a thing enters the monastery, it belongs to the Lord, and
-  deserves the same reverence as anything holy. That reverence reaches even the smallest, most ordinary
-  task: moving something to a better place, filling a bottle with water, sharing a drink from it,
-  clearing a little dust from a cell. Each one, they believe, earns a reward from the Lord - just as
-  carelessness with an equally small thing earns a penance.
+  The tradition gives the reason in the same breath. The brothers believe they are not their own, and
+  neither is anything they possess. Once a thing enters the monastery, it belongs to the Lord, and
+  deserves the same reverence as anything holy. That reverence reaches even the smallest, most
+  ordinary task. It might be moving something to a better place, filling a bottle with water, or
+  sharing a drink from it. It might be clearing a little dust from a cell. Each one, they believe,
+  earns a reward from the Lord - just as carelessness with an equally small thing earns a penance.
 absent_detail: >-
   No house, brother, steward, or abbot is named, and nothing places the episode at Marseilles or in any
   Gallic house; Cassian himself did not think any Gallic house matched it. The north records common

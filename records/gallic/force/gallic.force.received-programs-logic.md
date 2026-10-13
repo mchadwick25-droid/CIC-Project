@@ -62,9 +62,9 @@ description: >-
   position directly. He names it as inherited, not his own opinion, but the elders': perfection
   cannot be gained without these efforts, yet by these efforts alone, without God's grace, no one
   can ever attain it. He calls this same teaching the ancient fathers' genuine faith. It still
-  remains intact among those who received it from them. The work's closing sentence returns to the point one last
-  time. A monk must not only admit that nothing toward perfect virtue is possible without God's
-  help. He must believe that even understanding this much is itself a gift.
+  remains intact among those who received it from them. The work's closing sentence returns to the
+  point one last time. A monk must not only admit that nothing toward perfect virtue is possible
+  without God's help. He must believe that even understanding this much is itself a gift.
 
   Conference XIII arises as a real formation problem, not an abstract argument. Abbot Germanus is
   troubled at morning prayer by real doubts. Does effort accomplish anything at all? Chaeremon's
@@ -82,7 +82,7 @@ description: >-
   independently holds it. Yet it shapes a great deal wherever it appears. It turned one whole
   Conference into a direct answer to a real crisis in formation. It is also the internal teaching
   that a later report, carried to Africa and Rome, would eventually put under outside pressure.
-  Tours has nothing to say about this question at all. Its corpus simply closed before the
+  Tours has nothing to say about this question at all. Its writings were finished before the
   question was ever raised.
 manifestations:
 - "Inst. XII's turn, at ch. 9, from pride to eleven chapters on grace: 'Not I, but the grace of God with me'"

@@ -39,7 +39,10 @@ relations:
   target: cappadocian.gravity.contested-church
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: both the imperial legislation and Gregory's invectives are named, dated, contemporary or near-contemporary documents, in each side's own words - an unusually rare configuration in this world's evidentiary base, where most conflicts survive from only one side. The two measures against Christian teachers (the general school law and the specific rescript) are genuinely two distinct legal texts whose exact relationship is debated, and Julian's specific measures against Caesarea itself rest on weaker attestation than the school legislation proper."
-tellable_as: "An emperor once schooled in Cappadocia forbids Christians to teach the classics his own faith once forced on him, and dies before our fury at him has even finished being written."
+tellable_as: >-
+  An emperor raised by Christian tutors in Cappadocia turns from that faith.
+  He bars Christians from teaching the old Greek books. After his death,
+  Gregory of Nazianzus writes two angry speeches against him.
 text: >-
   Julian, who would become emperor, spent part of his own boyhood at
   Macellum, a Cappadocian estate, kept there under enforced Christian

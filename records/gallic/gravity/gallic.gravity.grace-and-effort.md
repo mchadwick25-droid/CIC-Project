@@ -106,18 +106,18 @@ relations:
 name: "The grace-and-effort argument"
 classification: supporting
 description: >-
-  Human effort and free choice are real, and they matter. This world argues that point under
-  pressure from Augustine's own later teaching on grace.
+  Human effort and free choice are real, and they matter. Cassian argued this point. Whether he
+  wrote it against Augustine's later teaching on grace is disputed.
 
-  Cassian's own text states the position directly. He gives it through the teaching he attributes
-  to Abbot Chaeremon. God's grace always works together with a person's own will, for that will's
-  own good. But it sometimes waits on some real effort from the person before it is given (Conf.
+  Cassian's own text states the position directly. He gives it through the teaching he attributes to
+  Abbot Chaeremon. God's grace always works together with a person's own will, for that will's own
+  good. But it sometimes waits on some real effort from the person before it is given (Conf.
   XIII.13). To deny that God wants everyone saved, and not just some, Chaeremon says, would be a
   grave blasphemy (Conf. XIII.7). Neither side of the argument should be pushed too far, Chaeremon
   warns. Exactly how grace and free will fit together, in the end, is a question human reason cannot
-  fully answer (Conf. XIII.11, XIII.18). Elsewhere, Cassian's own manual for monks, in its
-  climactic book, gives plain advice. A monk who feels he is making progress should credit it all
-  to God's grace, and not to himself (Inst. XII.9).
+  fully answer (Conf. XIII.11, XIII.18). Elsewhere, Cassian's own manual for monks, in its climactic
+  book, gives plain advice. A monk who feels he is making progress should credit it all to God's
+  grace, and not to himself (Inst. XII.9).
 
   What the wider Church heard about this teaching came mostly at second hand. Augustine himself
   reports that the Gallic monks he is answering already grant one point: that God's grace goes ahead
@@ -127,32 +127,26 @@ description: >-
   critique of Cassian's own thirteenth Conference. None of it comes from a text this world wrote
   itself; it comes through a modern editor's own account of that history. Gennadius, writing on his
   own, confirms only that a dispute between Cassian and Prosper existed at all. At Tours, there is
-  simply nothing on this question. The corpus there closed before it was ever raised.
+  simply nothing on this question. The writings from Tours were finished before it was raised.
 
   At Lérins, the current runs the other way, though how far Vincent himself took part is genuinely
   disputed. He quotes Pope Celestine's own words, that novelty must give way to old and settled
   teaching. He reads those words as backing his own side. But nothing in his surviving text names
   Augustine, or the fight itself, outright.
 
-  This argument is Cassian's own, within this world's own voices. No other Native voice in this
-  world independently holds it. Yet it matters enormously wherever it appears. Several other parts
-  of this world's own literature depend on it. It turned one whole Conference, out of twenty-four,
-  into a direct answer to a crisis in formation. And it explains a great deal of what survives about
-  Prosper, Celestine, and a Roman critique of Cassian himself. But it does not appear evenly across
-  this world's whole span. Tours has nothing to say about it, for reasons of plain timing, not
-  disagreement. For that reason, this record calls it a supporting idea at the level of the whole
-  world. Within the southern house alone, though, it is treated as the leading concern. The evidence
-  for the position is strong. Yet its reach across the whole world stays narrow. That gap is itself
-  a real and disclosed tension in how this record is classified. A reader should not mistake the
-  modest classification for any doubt about what Cassian and Chaeremon actually taught.
+  This argument is Cassian's own, within this world's own voices. No other founding voice holds it
+  independently. Yet it matters enormously wherever it appears. Several other parts of this world's
+  own literature depend on it. It turned one whole Conference, out of twenty-four, into a direct
+  answer to a crisis in formation. And it explains a great deal of what survives about Prosper,
+  Celestine, and a Roman critique of Cassian himself. But it does not appear evenly across this
+  world's whole span. Tours has nothing to say about it, for reasons of plain timing, not
+  disagreement. For that reason, it is a supporting idea at the level of the whole world. Within the
+  southern house alone, though, it is the leading concern. The evidence for the position is strong.
+  Yet its reach across the whole world stays narrow. That narrow reach casts no doubt on what
+  Cassian and Chaeremon actually taught.
 
-  Under pressure from Rome, the argument grew stronger, and who carried it
-  changed too. It began as monks writing for other monks. It ended, a
-  generation later, with a bishop, trained at Lérins, writing at the order of
-  a church council. Inside this world's own literature, though, it began as
-  something much simpler. It was a remedy for the pride of a monk who feels,
-  at last, that he is making progress - offered long before anyone outside
-  gave it any name at all.
+  Inside this world's own literature, it began as something simple: a remedy for the pride of a monk
+  who feels, at last, that he is making progress.
 manifestations:
 - "Conf. XIII: Germanus's scruple at morning service over whether effort accomplishes anything, and Chaeremon's two-sided answer ending in a declared limit of human reason (XIII.1, XIII.18)"
 - "Inst. XII.9-33: the monk who feels progress is to say 'Not I, but the grace of God with me'; 'not giving my own opinion, but that of the elders'; the work's closing sentence on grace"

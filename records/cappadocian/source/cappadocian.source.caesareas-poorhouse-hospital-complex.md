@@ -20,6 +20,7 @@ work: Caesarea's suburban poorhouse-hospital complex (Documented as an instituti
   securely identified)
 edition: Attested via cappadocian.source.basil-letters-general-corpus (NPNF208, row 5) and cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil
   (NPNF207, row 34)
+citation: Caesarea's suburban poorhouse-hospital complex, as attested in Basil's letters and Gregory of Nazianzus, Oration 43
 kind: unvendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

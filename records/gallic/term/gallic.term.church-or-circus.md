@@ -100,9 +100,8 @@ senses:
     who had just promised, at their own baptism, to renounce exactly this, walked out mid-service the
     moment they heard the games had started, on the same day they were supposedly keeping a feast.
 quick_meaning: >-
-  Salvian's own charge against us: on a feast day, when the games ran too, church emptied and the
-  circus filled. The one place in our own record that shows what lay worship really looked like -
-  and how often it lost.
+  Salvian's own charge against us: on a feast day, when the games were on as well, the church emptied
+  and the circus filled. He made it of his own cities.
 distortion_risk: medium
 use_note:
   means: "Church or circus names Salvian's charge that Christians in his own cities left church mid-service, or skipped it, when the games were on."
