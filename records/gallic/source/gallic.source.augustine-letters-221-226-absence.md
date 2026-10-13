@@ -19,6 +19,7 @@ work: The absence, from this vendored edition (npnf101), of Augustine's Letters 
   225-226, Prosper's and Hilary's own letters to Augustine)
 edition: 'Nicene and Post-Nicene Fathers, 1st series, vol. 1 (Augustine: Confessions and Letters), ed.
   Philip Schaff, vendored as cic/texts/npnf101_augustine-confessions-letters.xml'
+citation: 'Augustine''s Letters 221-226, including Prosper''s and Hilary''s letters to Augustine, not included in Nicene and Post-Nicene Fathers, 1st series, vol. 1 (Augustine: Confessions and Letters), ed. Philip Schaff'
 rights_status: not applicable -- no text exists to hold rights over. This row's own subject is a documented
   absence from a vendored edition (what the edition does NOT contain), not a held work.
 attribution_status: not applicable -- this row documents an edition-level absence, not an authored work

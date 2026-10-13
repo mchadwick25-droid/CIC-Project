@@ -17,6 +17,7 @@ relations: []
 author: Rebecca Harden Weaver
 work: 'Divine Grace and Human Agency: A Study of the Semi-Pelagian Controversy (Mercer, 1996)'
 edition: Not yet vendored in cic/texts/ -- named and located but not acquired as of this authoring pass.
+citation: 'Rebecca Harden Weaver, Divine Grace and Human Agency: A Study of the Semi-Pelagian Controversy (Mercer, 1996)'
 kind: unvendored
 rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed
