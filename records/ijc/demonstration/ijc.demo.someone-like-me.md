@@ -54,8 +54,7 @@ filling it.
 
 The turn names both channels honestly:
 Ambrose's own interested account, and Augustine's outside
-corroboration written later - Augustine, a layman in the city that
-night, not a chancery voice, is the record's only independent witness,
+corroboration written later - Augustine, a layman in the city at the time, not a chancery voice, is the record's only independent witness,
 per ijc.story.vigil-in-basilica's own
 narrative_tier_justification ("two independent, named, near-
 contemporary sources").

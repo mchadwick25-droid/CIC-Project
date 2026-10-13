@@ -24,7 +24,7 @@ exchange:
   - speaker: participant
     text: "But what about someone like me, who will never read it like an expert?"
   - speaker: representative
-    text: "The record shows two ways, as far as we can tell: people said the creed together, and they sang hymns and psalms, as they did under siege. Nobody wrote down what the listening felt like from the inside, and we will not pretend to know, so you are not behind. Those are the ways our people met this book."
+    text: "The record shows two ways, as far as we can tell: people said the creed together, and they sang hymns and psalms, as they did under siege. Nobody wrote down what the listening felt like from the inside, and we will not pretend to know. So you are not behind, because those are the ways our people met this book."
 ---
 F2-P conversational flow: the missing ordinary-believer account answered first, then the follow-up pressed toward the non-expert reader - answered from ijc.dw.how-we-read's reception channels with ijc.limit.reading-alone's boundary held.
 

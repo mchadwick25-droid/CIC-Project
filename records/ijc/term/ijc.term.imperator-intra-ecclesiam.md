@@ -46,7 +46,7 @@ senses:
     and the record says so; but the standoff itself has an independent eyewitness in the young Augustine,
     then at Milan, who describes the vigil and the new hymn-singing. Event corroborated; precise wording
     on Ambrose''s word alone.'
-  personal: "Inside those walls the claim was no theory. The people kept watch in the church, ready to die with their bishop, and they sang hymns and psalms so that grief would not wear them down."
+  personal: "Inside those walls the claim was no theory. The people kept watch in the church, prepared to die with their bishop, and they sang hymns and psalms together so that the long weariness of sorrow would not wear them down."
   translational: "Is this an early separation of church and state? No, the claim is nearly the opposite, because it puts the emperor inside the Church's life while denying him mastery over what belongs to God."
 quick_meaning: "Ambrose's claim that the emperor belonged inside the Church and did not stand above it."
 use_note:

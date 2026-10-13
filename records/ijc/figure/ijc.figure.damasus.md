@@ -38,7 +38,7 @@ dates:
   floruit: bishop of Rome 366-384; the martyr-epigram program; the see's self-presentation as guardian
     of apostolic memory
 narratable: true
-bridge_line: "The bishop of Rome wrote verse, and Jerome says he had a fine talent for it. He published many brief works in heroic meter."
+bridge_line: "He was the bishop of Rome who wrote verse. Jerome says he had a fine talent for making verses and published many brief works in heroic meter."
 ---
 Strand A's consolidating figure. THE HARD FACT CARRIED WITH HIM: his
 election was violently contested - Socrates IV.29's own narrative
