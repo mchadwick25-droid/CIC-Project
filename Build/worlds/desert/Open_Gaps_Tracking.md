@@ -859,3 +859,7 @@ The coordinating session's independent review of the 13 October pass (pull reque
 Every touched field passes the readability gate. Package rebuilt and pinned; site page recompiled.
 
 Status: CLOSED for the records named above.
+
+### OG-28. Sarah's saying: `use_note.means` and demo locus follow the vendored text, 2026-10-13.
+
+`desert.story.sarah-answer` `use_note.means` and the Alphabetical Collection `locus` of `desert.demo.identity-collision-womens-authority` still named a visit by elders ("challenged by visiting elders as only a woman"; "elder monks visiting to test her standing"). Both now name only the saying Budge section 525 holds: Sarah used to say to her brothers that she was the man and they the women. `use_note.means` reaches the evidence block the voice reads, so the unsupported visit could still have reached it. Status: CLOSED.
