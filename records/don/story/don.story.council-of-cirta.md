@@ -96,7 +96,7 @@ modern_contrast: >-
   verified about who had done what under the persecution. The story does
   not settle which, and it should not be told as though it does.
 use_note:
-  means: "At Cirta around 305, bishops who later made traditor status an absolute bar faced that question about themselves and agreed to leave it to God."
+  means: "At Cirta, bishops who later made traditor status an absolute bar faced that question about themselves and agreed to leave it to God."
   not_for:
     - "a claim that the ruling was plainly evasion, as Optatus reads it"
     - "a claim that these founding figures were either consistent or exposed"

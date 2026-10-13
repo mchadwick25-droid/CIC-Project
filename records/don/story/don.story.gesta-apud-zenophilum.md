@@ -124,7 +124,7 @@ modern_contrast: >-
   able to say that plainly, from a transcript, is worth more than a
   cleaner story would be.
 use_note:
-  means: "In 320 sworn witnesses before Zenophilus were asked where four hundred pieces of silver went, and answers named the bishop of Cirta a betrayer."
+  means: "In 320 witnesses before Zenophilus were asked where Lucilla's four hundred pieces of money went, and answers named the bishop of Cirta a betrayer."
   not_for:
     - "a claim that the document is a creed rather than an argument about a receipt"
     - "a claim that Silvanus's own answer survives"

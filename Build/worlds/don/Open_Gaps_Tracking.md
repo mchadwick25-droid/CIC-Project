@@ -1452,6 +1452,45 @@ Records changed by type: ambient 3, contested_claim 9, demonstration 11, doctrin
 
 **Readability.** Every spoken field changed in this pass grades FK 10 or below and FRE 60 or above on the whole field. Story `text` is excluded from grading by the gate itself (`_READABILITY_EXCLUDED_FIELDS`). Four changed build fields that failed the gate after a factual correction (`description` in `don.gravity.church-of-the-martyrs`, `don.gravity.martyr-cult-identity` and `don.gravity.rebaptism-boundary`, and `horizon` in `don.core.donatism`) were rewritten in plain short sentences with every fact, hedge and attribution kept (round 3 compared each with HEAD). No waiver covers a changed field. The unchanged build fields that already failed stay under the `m1:readability/don` waiver.
 
+**`use_note.means` corrections** (scope added by the coordinating session, relaying the project lead's ruling of 13 October: `engine/m4/evidence.py` puts `means` into the evidence block the voice reads, so a stale one can carry a claim this pass corrected). All 98 `means` lines in dw, story, quote, term, gravity, contested_claim and honest_limit were compared with the corrected spoken fields and sources; 9 were changed, 89 already agreed. `not_for` and `years` were not touched. Not reviewed in a fourth round; the three review rounds were spent before this scope arrived.
+
+- `don.story.macrobius-letter`
+  - old: Macrobius writes to the Carthage congregation about two men tortured and put to death, whose bodies the proconsul sank in the sea, and the sea gave them back.
+  - new: Macrobius writes to the church at Carthage about Isaac, who died in prison, and Maximianus, whom the proconsul sank alive, and the sea gave both bodies back.
+  - why: corrected text says Isaac died in prison and Maximianus was sunk alive (not both tortured to death).
+- `don.story.gesta-apud-zenophilum`
+  - old: In 320 sworn witnesses before Zenophilus were asked where four hundred pieces of silver went, and answers named the bishop of Cirta a betrayer.
+  - new: In 320 witnesses before Zenophilus were asked where Lucilla's four hundred pieces of money went, and answers named the bishop of Cirta a betrayer.
+  - why: Optatus appendix (Gesta apud Zenophilum) says "quadringentis follibus" (pieces of money, not silver), and the witnesses were asked what became of Lucilla's gift. Note (out of scope): the story text, tellable_as and dw.what-we-did-with-the-power-we-had text still say "pieces of silver".
+- `don.story.council-of-cirta`
+  - old: At Cirta around 305, bishops ...
+  - new: At Cirta, bishops ...
+  - why: the record leaves the date disputed (305, 307 or later); "around 305" was stronger than that.
+- `don.dw.room-for-dissent`
+  - old: ... Tyconius was cut off for dissenting from inside, ...
+  - new: ... Tyconius was reported condemned by a council of his own side for dissenting from inside, ...
+  - why: text and divergence_note: the condemnation is only reported (Augustine's "perhibent").
+- `don.quote.deo-laudes`
+  - old: ... was the acclamation cut in stone near Bagai that marked a gathering as Donatist rather than Catholic.
+  - new: ... was cut on two pillars near Bagai, and the editors call it the Donatist counterpart of the Catholic Deo gratias.
+  - why: divergence_note: stones give no context of use; only the CIL editors' note identifies it as the Donatist counterpart. "Marked a gathering" was invented function.
+- `don.term.liber-regularum`
+  - - old: Tyconius, a Donatist layman on Monceaux's account, wrote seven rules for reading scripture, the communion's one original interpretive work; his side is reported to have condemned him and he gathered few followers.
+  - - new: Tyconius, a Donatist, wrote seven rules for reading scripture, the one work of interpretation of the communion's that survives; his side is reported to have condemned him, and no following is attested.
+  - - why: Source drift: 'layman' is Monceaux's label while Doc_01 SS4 leaves his standing open; 'gathered few followers' contradicts the record ('no one is known to have followed him', 'no following is attested'); condemnation kept as reported (Augustine's perhibent).
+- `don.term.catholicus`
+  - - old: a Donatist preacher reportedly turned the word back on them.
+  - - new: a Donatist preacher is reported, by a modern editor, to have turned the word back on them.
+  - - why: Record's evidential/divergence_note: the pun reaches us through Mabillon's annotation of the Passio Donati sermon, not the sermon's own Latin.
+- `don.term.martyr-martyrdom`
+  - - old: Donatists' best-known martyrs died for the true faith at the hands of imperial troops sent at the rival church's urging, which never granted them the title.
+  - - new: Donatists' best-known martyrs died for the true faith in the repression of 347-348, enforced by imperial troops sent at the rival church's urging; that church did not grant them the title.
+  - - why: 'at the hands of troops' overstated for Isaac (died in prison) and Maximianus (sunk alive); 'never' stronger than plain_meaning ('did not grant'). Now matches senses.informational (Paul and Macarius, 347-348, 'died in the same repression').
+- `don.limit.theology-beyond-tyconius`
+  - - old: Beyond Tyconius, whom his own council condemned, the Donatists built no school or settled method of scriptural interpretation and argued well only one question.
+  - - new: Beyond Tyconius, whom a council of his own side is reported to have condemned, our record shows no school or settled method of scriptural interpretation; what we argued at length was one question.
+  - - why: Condemnation stated flatly ('his own council condemned'); statement says 'It is reported that a council of ours condemned him'. 'Argued well' is an evaluative claim no source supports; also 'built no school' asserted absence as fact where the limit is about what the record shows.
+
 **Citations.** `citation:` added to all 76 source records from their own author, work and edition words; the `m9:source-citation/don` waiver is deleted.
 
 **Gates.** See the final entry line below.

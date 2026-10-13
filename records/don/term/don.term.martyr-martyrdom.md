@@ -93,7 +93,7 @@ senses:
 quick_meaning: Our dead, killed for the true faith -- and the word our rival will not grant them.
 distortion_risk: high
 use_note:
-  means: "Donatists' best-known martyrs died for the true faith at the hands of imperial troops sent at the rival church's urging, which never granted them the title."
+  means: "Donatists' best-known martyrs died for the true faith in the repression of 347-348, enforced by imperial troops sent at the rival church's urging; that church did not grant them the title."
   not_for:
     - "a claim that these were generic early-church martyrs killed by pagan Rome"
     - "a claim that martyrdom here is a modern 'martyr complex'"

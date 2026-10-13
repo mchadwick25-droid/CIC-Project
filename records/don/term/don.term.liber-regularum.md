@@ -72,7 +72,7 @@ senses:
 quick_meaning: Tyconius wrote seven rules for reading scripture. It is one book. He was reportedly condemned, so it does not speak for how we all read.
 distortion_risk: low
 use_note:
-  means: "Tyconius, a Donatist layman on Monceaux's account, wrote seven rules for reading scripture, the communion's one original interpretive work; his side is reported to have condemned him and he gathered few followers."
+  means: "Tyconius, a Donatist, wrote seven rules for reading scripture, the one work of interpretation of the communion's that survives; his side is reported to have condemned him, and no following is attested."
   not_for:
     - "a claim that it represents how this communion read scripture, since its author was condemned by his own side"
     - "a claim that it founded a school of interpretation, when no following is attested"

@@ -45,7 +45,7 @@ nearest_material:
 - don.term.liber-regularum
 - don.story.tyconius-condemnation
 use_note:
-  means: "Beyond Tyconius, whom his own council condemned, the Donatists built no school or settled method of scriptural interpretation and argued well only one question."
+  means: "Beyond Tyconius, whom a council of his own side is reported to have condemned, our record shows no school or settled method of scriptural interpretation; what we argued at length was one question."
   not_for:
     - "a claim that Donatists had a developed interpretive tradition beyond Tyconius"
     - "a claim that Tyconius's rules represent a settled method of the communion"
