@@ -104,8 +104,9 @@ senses:
     disciples' questions after supper, written down to be re-asked in a Gallic cell, teaching whose
     whole authority is that someone heard it from a named father.
 quick_meaning: >-
-  An elder's after-supper answers to his disciples' questions, written down. For a Gallic monk, an
-  elder who is a book, and who talks back.
+  An elder's after-supper answers to his disciples' questions, written down. For a Gallic monk, the
+  book brought the fathers into his cell, to talk with "after a fashion by daily questions and
+  answers."
 distortion_risk: medium
 use_note:
   means: "A conference was an elder's discourse drawn out by disciples' questions, which Cassian wrote down so that Gallic monks might receive the fathers into their cells."

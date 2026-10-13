@@ -58,9 +58,9 @@ modern_rendering: >-
   a gift I choose to give. Charity is a command, and a command has to be
   carried out. So since I receive Christ in you, I ought to feed him. Once
   I have sent you on, I can make up for the welcome I gave for his sake by
-  fasting more strictly on my own. As the Lord said, the bridegroom's
-  friends cannot fast while the bridegroom is with them. Once he has gone,
-  then they will rightly fast.
+  fasting more strictly on my own. For "the bridegroom's friends cannot
+  fast while the bridegroom is with them." But once he has gone, then they
+  will rightly fast.
 relations:
 - type: associated-with
   target: gallic.dw.christ-in-the-beggar-and-the-guest

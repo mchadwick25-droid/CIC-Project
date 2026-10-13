@@ -17,6 +17,7 @@ relations: []
 author: Ralph W. Mathisen
 work: Ecclesiastical Factionalism and Religious Controversy in Fifth-Century Gaul (CUA Press, 1989)
 edition: Not yet vendored in cic/texts/ -- named and located but not acquired as of this authoring pass.
+citation: Ralph W. Mathisen, Ecclesiastical Factionalism and Religious Controversy in Fifth-Century Gaul (CUA Press, 1989)
 kind: unvendored
 rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed

@@ -83,19 +83,19 @@ text: >-
 
   In the early days of the faith, the fathers of Egypt say, only a handful of men, and the best of
   them, were known by the name of monks. They had received that way of life from the Evangelist Mark.
-  They kept the pattern of the first believers in Jerusalem - one heart and one soul, all things held
-  in common - and withdrew outside the cities to a life of such abstinence that even unbelievers
+  They kept the pattern of the first believers in Jerusalem: one heart and one soul, all things held
+  in common. They withdrew outside the cities to a life of such abstinence that even unbelievers
   marvelled. At that time the primitive Church's perfection still stood whole, and the few who held
   the faith had not yet grown lukewarm by being spread thin among the many. So the elder fathers met,
   with careful concern for those who would come after them, to settle a plan for the daily worship of
-  the whole community (gallic.quote.the-fathers-and-the-angels-twelve).
+  the whole community.
 
-  They feared that if the daily services were left to each man's own fervour, a dispute might grow into
-  something worse - a root of error, jealousy, or schism among those who came later. And that is what
-  began to happen: each father, weighing only his own strength and not the weakness of others, proposed
-  the number that suited him. Some argued for fifty psalms, some for sixty, and some wanted still more.
-  The disagreement ran on, faithful but unresolved, until the hour for Vespers arrived before the
-  question was settled.
+  They feared what might happen if the daily services were left to each man's own fervour. A dispute
+  might grow into something worse: a root of error, jealousy, or schism among those who came later.
+  And that is what began to happen: each father, weighing only his own strength and not the weakness
+  of others, proposed the number that suited him. Some argued for fifty psalms, some for sixty, and
+  some wanted still more. The disagreement ran on, faithful but unresolved, until the hour for Vespers
+  arrived before the question was settled.
 
   So they stopped to sing. One father rose to chant the psalms. As the others sat listening, intent on
   every word, he sang eleven psalms, each one followed by its own prayer, evenly and steadily. Then he
@@ -105,8 +105,8 @@ text: >-
   The fathers understood this as Providence at work: a general rule fixed for every congregation of
   brothers, through the angel's own act. They decreed that the number should hold for both the evening
   and the night offices from then on. They later added two readings, one from the Old Testament and
-  one from the New - but only as extras, of their own choosing. The twelve themselves were never theirs
-  to choose.
+  one from the New - but only as extras, of their own choosing. The twelve themselves were never
+  theirs to choose.
 absent_detail: >-
   No witness to the angel is named; Cassian himself refers the reader elsewhere for the background.
   Nothing in our record says what the brethren at Tours sang or at what hours - Martin's monastery has

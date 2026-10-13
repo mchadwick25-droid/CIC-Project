@@ -73,8 +73,8 @@ senses:
     explain away. For us it is deliberately the first and lowest rung of a ladder we are formed to
     climb past - a starting restraint, not an endpoint.
 quick_meaning: >-
-  Three restraints on our faults - fear of hell, hope of heaven, love of goodness itself. Slave,
-  hireling, son. We start at fear and are meant to climb past it.
+  Three restraints on faults, as Chaeremon taught them - fear of hell, hope of heaven, love of
+  goodness itself. Slave, hireling, son. A monk began at fear and was meant to climb past it.
 distortion_risk: low
 use_note:
   means: "Fear, hope and love named Chaeremon's ladder of three restraints on faults, from hell to the kingdom to goodness itself, as slave, hireling and son."

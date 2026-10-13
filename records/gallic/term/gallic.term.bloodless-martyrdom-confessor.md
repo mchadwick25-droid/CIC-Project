@@ -65,10 +65,10 @@ relations:
 - type: associated-with
   target: gallic.term.sarabaite
 plain_meaning: >-
-  For us a man denied a persecutor's age can still be a martyr. Martin "fully attained to the honor of
-  martyrdom without shedding his blood," being "both by vow and virtues ... alike able and willing to
-  be a martyr." Vincent's "Confessors" are bishops who suffered for the faith short of death. Cassian's
-  strict coenobites, crucified daily to the world, are "made living martyrs."
+  For us a man denied a persecutor's age could still be a martyr. Martin "fully attained to the honor
+  of martyrdom without shedding his blood," being "both by vow and virtues ... alike able and willing
+  to be a martyr." Vincent's "Confessors" are bishops who suffered for the faith short of death.
+  Cassian's strict coenobites, crucified daily to the world, are "made living martyrs."
 world_word: bloodless martyrdom / confessor
 false_friend:
 - confessor as a priest who hears confession
@@ -102,7 +102,7 @@ senses:
     coenobite's daily crucifixion was to his own will, not to his life.
 quick_meaning: >-
   A martyr without blood. Martin was one "by vow and virtues." A Confessor suffered for the faith and
-  lived. A strict monk is "crucified daily" to his own will.
+  lived. For Cassian, a strict monk was crucified daily to the world and made a living martyr.
 distortion_risk: medium
 use_note:
   means: "Bloodless martyrdom covered three unconnected senses: Martin a martyr in will without bloodshed for Sulpitius, Vincent's Confessors suffering short of death, and Cassian's strict monks crucified daily."

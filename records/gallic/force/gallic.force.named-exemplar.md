@@ -48,26 +48,25 @@ name: "Formation by a named exemplar, seen and heard [1B - initiating/internal]"
 kind: initiating
 matrix_cell: 1B
 description: >-
-  Both nodes inherited, and made load-bearing, the conviction that authority to teach or narrate
-  rests on having seen and heard, and that formation happens by imitation of a named person.
-  Sulpitius writes 'the life of a most holy man, which shall serve in future as an example to
-  others'; Marmoutier's disciples are 'disciplined after the example of the saintly master';
-  Martin's last saying is 'I have sinned if I leave you a different example.' Cassian: 'these things
-  cannot be taught save by one who has had experience of them'; the Conferences are reported speech
-  of named elders; the novice takes his examples 'from a very few or indeed from one or two only.'
-  At Lérins the value is present as writings collated and as a disciple's Life of his master (Doc_08
-  Cell 1B, Force 1B-3). WORLD'S OWN EXPERIENCE (Layer 2): what one knew, one knew because one had
-  seen it done or heard it from a man who had. Gallus could say 'I myself am a witness'; Cassian
-  could say he had been deemed worthy 'both to see them and to learn from them and to dwell with
-  them.' The disciple was formed by keeping his eye on one man - the master in the wooden cell, the
-  elder to whom every thought was laid bare - and the Life was written so that a man worthy of
-  imitation 'should not remain unknown.' At Lérins, the fathers one received from were also on the
-  page: to collate the ancients was to consult them. FORMATION IMPACT (Layer 3): G5 at its origin,
-  and the ecology's hub in Doc_05 §10B's reconstruction - 'two hubs, one per node, the master seen
-  and the father read.' This force supplies the FORM of both nodes' literatures and therefore the
-  form of the world's transmission: a Life, a reported conference, a remembrancer. It is reshaped by
-  1B-2 into the heard->read shift, 'the interpretive ecology's most consequential move.' Under the
-  grace controversy it becomes a weapon and a shield.
+  Both houses inherited a conviction and made it bear weight. Authority to teach or to tell a story
+  rests on having seen and heard. Formation happens by imitating a named person. Sulpitius writes
+  'the life of a most holy man, which shall serve in future as an example to others.' Marmoutier's
+  disciples are 'disciplined after the example of the saintly master.' Martin's last saying is 'I
+  have sinned if I leave you a different example.' Cassian writes: 'these things cannot be taught
+  save by one who has had experience of them.' The Conferences are the reported speech of named
+  elders. The novice takes his examples 'from a very few or indeed from one or two only.' At Lérins
+  the value is present as writings collated, and as a disciple's Life of his master.
+
+  What one knew, one knew because one had seen it done, or heard it from a man who had. Gallus could
+  say 'I myself am a witness.' Cassian could say he had been deemed worthy 'both to see them and to
+  learn from them and to dwell with them.' The disciple was formed by keeping his eye on one man.
+  That man was the master in the wooden cell, or the elder to whom every thought was laid bare. The
+  Life was written so that a man worthy of imitation 'should not remain unknown.' At Lérins, the
+  fathers one received from were also on the page. To collate the ancients was to consult them.
+
+  It gives both literatures their form, and so the form in which the world was handed on: a Life, a
+  reported conference, an aid to memory. Vincent turned it from the heard to the read. In the grace
+  quarrel it became both weapon and shield.
 manifestations:
 - "Vita ch. I: a Life 'which shall serve in future as an example to others,' so a man worthy of imitation 'should not remain unknown'"
 - "Martin's 'I have sinned if I leave you a different example' (Ep. III); Gallus's 'I myself am a witness' (Dial. II.4)"

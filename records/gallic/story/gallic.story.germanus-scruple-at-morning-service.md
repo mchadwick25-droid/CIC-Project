@@ -91,42 +91,41 @@ narrative_tier_justification: >-
   argument raised at morning service" is among the four things Doc_05 §7.2 lists as Gaul's own inside
   Cassian.
 tellable_as: >-
-  Two friends come back to morning service troubled by one sentence an old man added the night before
-  - that striving cannot make a man master of the good - and the elder shortens the office to answer
-  them with a husbandman, the rain, and "the initiative ... comes from God."
+  Two friends come back to morning prayer troubled by one sentence an old man added the night before:
+  no one masters the good by his own toil. The old man cuts the office short. He answers with a farmer
+  who still needs the rain.
 text: >-
-  At the opening of his Thirteenth Conference, Cassian records how the question of grace and effort
-  came up in Egypt - not in a school, but between two friends at the hour of prayer, at the cell of an
-  Egyptian elder near Panephysis, written down afterward in Gaul for the brothers at Lerins.
+  At the opening of his Thirteenth Conference, Cassian tells how the question of grace and effort came
+  up in Egypt. It came up between two friends at the hour of prayer, at an elder's cell near
+  Panephysis. Cassian wrote it down later in Gaul for the holy brothers Honoratus and Eucherius.
 
   He and Germanus had spent the previous evening hearing the old man Chaeremon speak on chastity, and
   the teaching left them longing for a purity they had not known before. But it also left Germanus
-  troubled. Sleeping only briefly, they came back for morning prayer still turning over one sentence
-  from the night before: that striving with all one's might is still not enough, on its own, to make a
-  person master of the good - that has to be received as a gift. (See
-  gallic.quote.germanus-troubled-after-the-nights-teaching for Cassian's own account of this.)
+  troubled. They slept only briefly. They came back for morning prayer still turning over one sentence
+  from the night before. Striving with all one's might, it said, is still not enough on its own to
+  make a person master of the good. That has to be received as a gift.
 
-  Chaeremon noticed the two of them whispering and cut the morning service short to ask what was wrong.
+  Chaeremon noticed the two of them whispering and cut the morning service short to ask what was
+  wrong.
 
-  Germanus put the trouble plainly: it seemed absurd, he said, for the reward of real effort - true
-  chastity, won by hard, sustained toil - not to be credited mainly to the person who put in the work.
-  A farmer who labors hard over his field gets the credit for the harvest; why should chastity be any
-  different?
+  Germanus put the trouble plainly. True chastity, he said, is won by hard, sustained toil. So it
+  seemed absurd for the reward of such real effort not to be credited mainly to the person who put in the
+  work. A farmer who labors hard over his field gets the credit for the harvest; why should chastity
+  be any different?
 
   Chaeremon turned the farmer's own example back on him. Even the hardest-working farmer cannot claim
-  the harvest by his labor alone - it depends on rain and a mild winter he cannot control, and God
-  does not grant a rich crop to a farmer who never ploughs, either. In the same way, no one could even
-  begin to make the effort chastity demands without God's protection giving them the strength to do it.
-  From this, Chaeremon concluded that both the desire to do good and the chance to act on it come from
-  God first; the human part is simply to follow, day by day, the grace that is already drawing a person
-  forward. (See gallic.quote.germanus-and-chaeremon-on-the-husbandman for Germanus's objection and
-  Chaeremon's full answer.)
+  the harvest by his labor alone. It depends on rain and a mild winter he cannot control. And God does
+  not grant a rich crop to a farmer who never ploughs, either. In the same way, no one could even
+  begin to make the effort chastity demands without God's protection giving them the strength to do
+  it. From this, Chaeremon concluded that both the desire to do good and the chance to act on it come
+  from God first. The human part is simply to follow, day by day, the grace that is already drawing a
+  person forward.
 
   That morning's answer grew into the whole Conference. Later in it, Chaeremon returns to the question
-  twice more: that God's grace works together with human will and still asks something of it in return
-  (see gallic.quote.chaeremon-grace-requires-our-effort), and that grace and free will divide the work
-  between them in three stages, in a way he says is more than the human mind can fully grasp (see
-  gallic.quote.chaeremon-three-stages-of-grace).
+  twice more. He says that God's grace works together with the human will and sometimes looks for some
+  effort from it in return. He also says that all three stages of the good (the desire, the power to
+  do it, and holding on to it) are God's gift, yet none of them takes away free will. How both are
+  true, he says, the human mind cannot fully grasp.
 absent_detail: >-
   What the old man actually said about chastity the night before - Conference XII - is not in the
   vendored edition, which marks it "Not translated," so the scruple's occasion is known only from this
