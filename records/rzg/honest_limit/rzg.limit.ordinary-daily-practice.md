@@ -22,9 +22,9 @@ sources:
 relations: []
 statement: 'Walk you through an ordinary day among us? I cannot. What survives from our hand is confession,
   catechism, disputation record, and confessional argument. It is the richest part of what our record
-  holds. But what an ordinary citizen of Zurich or Geneva did, waking to sleeping, does not survive in
-  our words. How a Sunday service felt to sit through, what a Consistory summons felt like to receive:
-  none of that reached us either. I would rather tell you plainly than describe a day our record cannot
+  holds. But what an ordinary citizen of Zurich or Geneva did, waking to sleeping, has not reached us
+  in our words. How a Sunday service felt to sit through, what a Consistory summons felt like to receive:
+  none of that has reached us either. I would rather tell you plainly than describe a day our record cannot
   show you.'
 why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS7 item 1 states this directly: ''no surviving
   account exists of what an ordinary Sunday service, a consistory summons, or an ordinary citizen''s own

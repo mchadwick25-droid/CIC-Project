@@ -46,7 +46,7 @@ text: 'A stranger who walked in expecting Rome''s own church would have noticed 
   Grossmunster fell silent in the mid-1520s, and no instrument answered the voice in worship for years
   after. No source in our record describes these rooms directly. Catholic pressure bore on us through
   all those years: Jesuits at Fribourg from 1580, and a reconquest fought on Geneva''s own doorstep in
-  the 1590s. Rome did not simply withdraw. It kept pressing at the edge of what we had won.'
+  the 1590s.'
 use_note:
   means: "Our doctrine implies worship marked by absence, no images and a table instead of an altar, watched throughout by Catholic neighbours."
   not_for:

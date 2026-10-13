@@ -73,8 +73,8 @@ senses:
     on the other. It carried the weight of what kind of God we believed in. He does not need a repeated
     sacrifice. His Son''s body is not confined to a place on a table.'
 quick_meaning: 'Our sharpest boundary. No repeated sacrifice. No body shut in bread. After real differences
-  and a 1549 agreement, we held this: Christ is truly given by the Spirit. He is not just remembered.
-  He is not physically there.'
+  and a 1549 agreement, we held this: Christ is truly given by the Spirit. He is not just remembered,
+  and not physically there.'
 distortion_risk: medium
 use_note:
   means: "The cities refuse both a repeated sacrifice and Christ's body sitting physically in the bread, affirming that Christ is truly given by the Spirit to believing recipients."

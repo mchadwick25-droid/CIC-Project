@@ -238,7 +238,7 @@ Status: CLOSED for the splice. The voice-own errors stay OPEN under the 9 Octobe
 - `rzg.figure.bullinger`: `bridge_line` (readability)
 - `rzg.figure.calvin`: `bridge_line` (readability)
 - `rzg.figure.faber`: `bridge_line` (drift)
-- `rzg.figure.farel`: `bridge_line` (readability)
+- `rzg.figure.farel`: `bridge_line` (drift/readability)
 - `rzg.figure.zwingli`: `bridge_line` (drift/readability)
 - `rzg.limit.consistory-case-narrative`: `statement` (drift)
 - `rzg.limit.dentiere-and-womens-voice`: `statement` (drift)
@@ -276,6 +276,15 @@ Status: CLOSED for the splice. The voice-own errors stay OPEN under the 9 Octobe
 - `rzg.limit.no-teaching-on-wealth-or-marriage`: the absence claim was too wide; the Sixty-Seven Articles (XXIII, XXVIII-XXX, XXXIII) and Zwingli's marriage-of-priests petition do address wealth and marriage. The statement is narrowed to ordinary married life and ordinary people's wealth and poverty. The claim that Zwingli was married is removed (no rzg record or vendored text supports it).
 - `rzg.demo.consensus-contest`: Zurich's 1549 position is no longer stated as settled; the Contested record decides that, and the Consensus is not "a single page".
 - Quote renderings: all six corrected (misleading 'evil', 'confess', 'reality', 'sentence'; the 'bishops' substitution; a changed subject in the Article XVIII rendering). This closes the open item `rzg.quote.taught-better-from-scripture` of the 2026-10-12 quote-rendering entry.
+
+**Demonstration bodies now describe reworded turns, not verbatim test exchanges.** The prose body of `rzg.demo.consensus-contest`, `rzg.demo.predestination-and-dread` and `rzg.demo.why-we` used to say the turn was trimmed from the construction-notes test exchange with no substantive change. That is no longer true, because the Representative turns were reworded. Each body now says the turn was condensed from that exchange, then reworded for readability and source fidelity, and is no longer verbatim.
+
+**Fixes after the independent review of the pull request.**
+- `rzg.figure.farel` `bridge_line`: "first urged Calvin to stay at Geneva" is in no rzg record or vendored text. It now reads "Calvin's colleague at Geneva. He later went with him to Zurich to frame the Consensus." (drift, not only readability).
+- `rzg.limit.dentiere-and-womens-voice` `statement`: "Scholars later traced it to her" is in no record, and the statement no longer says what the 1539 work argued. It now says a work defending women's voice came out unsigned and the record links it to her. The printer and seizure correction and the closing limit stand.
+- `rzg.limit.ordinary-daily-practice` `statement`: the record of daily life "has not reached us", matching `rzg.limit.consistory-case-narrative`, instead of "does not survive".
+- `rzg.witness.what-a-stranger-would-notice` `text`: the added closer ("Rome did not simply withdraw...") is cut; the text ends at the 1590s.
+- `rzg.term.the-lords-supper-spiritual-presence` `quick_meaning`: the staccato ending is one sentence again.
 
 **Gates.** See the review file `Build/Ministry/Operations/Audits/rzg_record_audit_fixes_review_round1_2026-10-13.md`.
 

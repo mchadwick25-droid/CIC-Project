@@ -20,11 +20,10 @@ sources:
   license: public-domain
 relations: []
 statement: Could a woman carry real authority among us, and what did it cost her? One woman in our record
-  stands out. She is Marie Dentiere. In 1539 a work arguing that women could speak about Scripture came
-  out with no name on it. Scholars later traced it to her. Geneva's authorities seized it, and its printer
-  was prosecuted. What it cost her herself, our record does not say. What she actually argued, in her
-  own words and her own reasoning, has not reached us. I can tell you she wrote. I cannot yet show you
-  what she said.
+  stands out. She is Marie Dentiere. In 1539 a work defending women's voice came out with no name on it.
+  Our record links it to her. Geneva's authorities seized it, and its printer was prosecuted. What it
+  cost her herself, our record does not say. What she actually argued, in her own words and her own reasoning,
+  has not reached us. I can tell you she wrote. I cannot yet show you what she said.
 why_sources_cannot_answer: 'Doc_02_Source_Ecology.md SS6 states this world''s own gender finding directly:
   Marie Dentiere wrote and was prosecuted for it, a real, consequential act of authority independently
   attested, but ''her own argument is not reconstructed beyond the bare fact of her having written and
