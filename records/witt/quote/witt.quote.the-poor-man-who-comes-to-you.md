@@ -50,14 +50,14 @@ modern_lens_note: >-
   whoever among the neighbors is poor, and a warning fixed on the household's own pride and harshness, not
   on wealth itself as a category.
 modern_rendering: >-
-  But beware of this. When the poor man who must buy with the penny of his daily wages and live on it
-  comes to you (there are so many of them now); and you are harsh to him, as though everyone lived by
-  your favor; and you skin and scrape to the bone; and besides, with pride and haughtiness, you turn away
-  the man you ought to give to for nothing; then he will go away wretched and sorrowful. He can complain
-  to no one, so he will cry and call to heaven. Then beware, I say again, as of the devil himself. For
-  such groaning and calling will be no joke. It will have a weight that will prove too heavy for you and
-  all the world. For it will reach Him who takes care of the poor, sorrowful hearts. He will not allow
-  them to go unavenged.
+  But beware of this. The poor man may come to you, and there are so many now. He must buy with the penny
+  of his daily wages and live on it. You may be harsh to him, as though everyone lived by your favor.
+  You may skin and scrape to the bone. Besides that, with pride and haughtiness, you may turn away the
+  man you ought to give to for nothing. Then he will go away wretched and sorrowful. He can complain to
+  no one, so he will cry and call to heaven. Then beware, I say again, as of the devil himself. For such
+  groaning and calling will be no joke. It will have a weight that will prove too heavy for you and all
+  the world. For it will reach Him who takes care of the poor, sorrowful hearts. He will not allow them
+  to go unavenged.
 relations:
 - type: associated-with
   target: witt.dw.the-poor-man-at-the-door
