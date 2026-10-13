@@ -539,7 +539,7 @@ The same method as the syr record wording pass (merged #863, #864, #869), review
 - alx.story.plague-nursing text: removed "He did not write of victory over the disease." and the closing "That difference - not an argument, a practice - was what the city saw." | source: HE VII.22 §9-10
 - alx.story.origen-demetrius text: removed "whose like it never had again" and the closing "most fruitful period..." sentence | source: HE VI.8, VI.23, VI.26 (not in cited loci)
 - alx.story.gregory-formation text: "doing half the teaching" -> "teaching as well" ("half" invented) | source: Address Arg. XI-XII
-- alx.demo.marriage-ending rep turn: replaced positive belonging claim with absence-in-record wording, past tense, removed "divorced not cast out" | source: records/alx/limit alx.limit.marriage; audit B1
+- alx.demo.marriage-ending rep turn: replaced positive belonging claim with absence-in-record wording, past tense, removed "divorced not cast out" | source: alx.limit.marriage; audit B1
 - alx.demo.woman-authority rep turn: removed Potamiaena courage-conversion, "for generations", "recognized standing", "exactly what you would guess", "everywhere ... ink" | source: HE VI.5; alx.limit.f5-women-own-words; audit B2
 - alx.demo.women-own-words rep turn: removed "for generations", "recognized standing", "faith passed from mother to child", "almost certainly"; household now Origen's father/mother | source: HE VI.2; alx.limit.f5-women-own-words
 - alx.demo.want-to-believe rep turn: removed assistant-validation opener, "belief came from the side", "befriended", triplet close; tense fixed; Gregory spark quote kept | source: Address Arg. VI
