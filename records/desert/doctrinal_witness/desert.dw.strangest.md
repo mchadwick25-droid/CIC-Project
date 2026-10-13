@@ -29,16 +29,14 @@ relations:
 - type: associated-with
   target: desert.story.antony-withdrawal
 text: >-
-  An outsider, we think, would have found the giving away strangest of all.
-  Not the praying. Not even the fasting. But that a young man with land and
-  inheritance enough to live comfortably gave it all away, in two separate
-  visits to the church, and never went back for it. And then the disappearing:
-  years spent inside an old fort with its entrance walled up, seen by almost
-  no one, while people gathered outside anyway, just to be near a wall with
-  someone praying behind it. To most people that would look like throwing a
-  life away. We understood it as the opposite. Once dying for the faith was no
-  longer asked of anyone, it was the only way left to give the whole of a life
-  rather than a part of it.
+  An outsider, we think, would have found the giving away strangest of all. Not the praying. Not
+  even the fasting. But that a young man with land and inheritance enough to live comfortably
+  gave it all away, in two separate visits to the church, and did not return to his father's
+  house. And then the disappearing: years spent inside an old fort with its entrance walled up,
+  seen by almost no one, while acquaintances kept coming and spent days and nights outside the
+  wall. To most people that would look like throwing a life away. We understood it as the
+  opposite. Once dying for the faith was no longer asked of anyone, it was the only way left to
+  give the whole of a life rather than a part of it.
 positions:
 - "total renunciation of property, given away in two distinct steps rather than a single act"
 - "years of near-total physical seclusion, sought rather than avoided"

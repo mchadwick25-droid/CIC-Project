@@ -38,19 +38,15 @@ relations:
   target: desert.term.synaxis
 narrative_tier: 4
 narrative_tier_justification: "Tier 4 (Historically Grounded Reconstruction), explicitly marked as reconstruction, every element separately sourced below - per the Story Repository Chunk Template's own rule, an element this document cannot source to a specific attested passage is removed from the text rather than retained with a caveat; a general diet clause from the prior build's own first draft was removed for exactly that reason and is not reinstated here."
-tellable_as: "a typical day at Kellia - not one person's own recorded day, but what the settlement's own evidence lets us reconstruct together"
+tellable_as: a typical day at Kellia, rebuilt from the evidence, since no one recorded a day like it
 text: >-
-  In a typical day at a settlement like Kellia, the day opened and closed with
-  the Psalms. They were recited through the daylight hours alongside manual
-  work - handwork done both to make a living and as a discipline in its own
-  right, as we did from the very first day we took up this life. The work was
-  done in the cell's own workspace. The cell itself might be a single small
-  room, or a larger dwelling with several rooms, each with its own attached
-  place of prayer. It was not a barracks room, but not always one person
-  living entirely alone either. Once a week, on the turn from Saturday to
-  Sunday, we left the cell and walked to the settlement's gathering place for
-  the synaxis: a vigil, worship, and a meal eaten together. Then we returned
-  to the week's own solitude.
+  In a typical day at a settlement like Kellia, the Psalms were recited constantly, or nearly
+  so, alongside manual work. It was handwork done both to make a living and as a discipline in
+  its own right, as Antony did from the start of his withdrawal. The cell itself might be a
+  single room, or a larger dwelling with several rooms, each with its own attached place of
+  prayer. Not every cell held one person living entirely alone. Once a week, on the turn from
+  Saturday to Sunday, we left the cell and went to the church for the synaxis: a vigil, worship,
+  and a meal eaten together. Then we returned to the week's own solitude.
 absent_detail: "This is not a single person's own recorded day but a reconstruction from several independently attested elements; no surviving source narrates one specific day this way. No specific attested passage was found to support a general note about spare or limited meals, so none is given."
 modern_contrast: "A modern reader may hear \"a typical day\" and reach for the contemporary genre of routine-optimization content - a schedule to adopt for its own productivity value. This world's own record frames the same rhythm (Psalms, manual work, the cell) as formation, not efficiency: the labor was itself a discipline as much as a livelihood (desert.gravity.manual-labor), not a productivity technique borrowed from elsewhere."
 use_note:

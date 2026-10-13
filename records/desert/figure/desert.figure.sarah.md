@@ -32,9 +32,7 @@ names:
 - name: Amma Sarah (4th-early 5th c.)
   tag: scholarly
 narratable: true
-bridge_line: one of a small number of women remembered by name in this world's own teaching tradition
-  - six of her sayings survive, including the one where she told the brethren that she was the man among
-  them and they the women
+bridge_line: one of a few women remembered by name in the desert's teaching tradition. The Syriac collection keeps six sayings under her name. In one, she told the brethren that she was the man among them and they the women.
 relations:
 - type: associated-with
   target: desert.term.geron-abba-amma

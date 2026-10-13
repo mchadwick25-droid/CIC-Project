@@ -41,7 +41,7 @@ senses:
   informational: "Interior and exterior stillness, cultivated across all three strands - easier to reach in a solitary cell than in the Pachomian round of common labor and prayer, which is a real difference of texture between the strands."
   evidential: "Attested in the Life of Antony's withdrawal narrative and across the sayings tradition; the famous counsel remembered under Arsenius's name - flee, be silent, be still - compresses it. In this world's own time the practice is unsystematized: the later Byzantine hesychast apparatus does not belong here."
   personal: "Stillness here was pursued to expose disturbance, not soothe it. A person entered the quiet expecting to meet what the noise had covered - and stayed."
-  translational: "Not mindfulness, not stress relief, not a wellness practice. The nearest honest translation is 'stillness' - with the warning that its purpose ran opposite to comfort."
+  translational: Not mindfulness, not stress relief, not a wellness practice. The nearest honest word is 'stillness', and its purpose ran opposite to comfort.
 quick_meaning: "Stillness sought on purpose - quiet that shows you what the noise was hiding."
 distortion_risk: high
 use_note:

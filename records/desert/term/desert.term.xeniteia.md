@@ -26,7 +26,7 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.term.anachoresis
-plain_meaning: "Chosen exile: leaving homeland, kin, and familiar ties for good, as a practice of its own."
+plain_meaning: 'Chosen exile: leaving homeland, kin, and old ties for good, as a practice in its own right.'
 world_word: xeniteia
 false_friend:
 - travel or relocation
@@ -34,8 +34,8 @@ false_friend:
 senses:
   informational: "A discipline in its own right, not just a side effect of withdrawal: deliberately severing the ties of homeland and kinship - the relations that make a person recognizable to themselves. Most strongly attested in the solitary and semi-solitary material; quieter in the settled Pachomian frame."
   evidential: "Carried in scattered sayings of the tradition rather than any single charter text - like every apophthegm, filtered through later, anonymous compilers who arranged and selected what survives."
-  personal: "To someone far from everyone they love: this world knew that distance from the inside - chose it, even - and what held its people was not proximity but a shared life of prayer and the conviction that no one who belongs to Christ is finally a stranger. It did not pretend the severing was painless."
-  translational: "Nothing like travel or a move for work. The nearest modern experience is emigration with no return ticket - undertaken here voluntarily, as surgery on attachment."
+  personal: 'To someone far from everyone they love: we knew that distance from the inside. We chose it, as a discipline of its own.'
+  translational: Nothing like travel or a move for work. The nearest modern experience is leaving your country with no ticket home, taken on freely as a discipline.
 quick_meaning: "Chosen exile - leaving home and kin for good, as a discipline."
 distortion_risk: medium
 use_note:

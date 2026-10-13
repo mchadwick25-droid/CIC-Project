@@ -45,8 +45,8 @@ false_friend:
 senses:
   informational: "The New Testament word for fellowship, taken by Pachomius as the proper name of a real institution: a federation of houses under one written rule, common property, formal offices (housemaster, steward), and a single head. By his death in 346 it held nine men's houses and two women's houses. It names the Pachomian federation alone - the solitary and semi-solitary life has no equivalent institution or word for it."
   evidential: "The Rule survives complete only in Jerome's Latin translation; no English of it can be quoted here directly. What can be told directly are the reports of it - Palladius's and Sozomen's rule summaries, both wrapped in the angel-tablet legend - alongside modern scholarship on the Latin."
-  personal: "Joining the Koinonia meant a different obedience than sitting at an elder's feet: obedience to an office, whoever held it, inside a common life with a fixed rhythm. Those who joined it felt a different kind of authority, not a formalized version of the same one."
-  translational: "'Communal rule' undersells it: this was an institutional invention answering a real problem - how total formation could scale past one extraordinary hermit - and it sat in unresolved tension with the elder-model for this world's whole span."
+  personal: Joining the Koinonia meant a different obedience than sitting at an elder's feet. It was obedience to an office, whoever held it, inside a common life with a fixed rhythm.
+  translational: '''Communal rule'' undersells it. This was a new institution built for a real problem: how total formation could grow past one extraordinary hermit. It stood in tension with the elder model for the whole span of this world, and the tension never closed.'
 quick_meaning: "Pachomius's linked houses: one written rule, one head."
 distortion_risk: medium
 use_note:

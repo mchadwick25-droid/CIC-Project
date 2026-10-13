@@ -29,9 +29,9 @@ text: "This, too, we ought to know,—that from the evening of Saturday which pr
   to the following evening, among the Egyptians they never kneel, nor from Easter to Whitsuntide; nor
   do they at these times observe a rule of fasting..."
 modern_rendering: >-
-  There's one more thing worth knowing: from Saturday evening through
-  Sunday evening, and from Easter until Pentecost, the Egyptian monks
-  never knelt to pray. They didn't fast during those times either.
+  This too we ought to know. From the Saturday evening before Sunday until the next evening, the
+  Egyptians never knelt. Nor did they kneel from Easter until Pentecost. Nor at these times did
+  they keep a rule of fasting...
 speaker_or_author: John Cassian, describing Egyptian monastic practice
 license: verbatim
 modern_lens_note: >-

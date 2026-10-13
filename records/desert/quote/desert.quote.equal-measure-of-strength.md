@@ -31,10 +31,9 @@ text: >-
   also gave an equal measure of strength of will as unto men, so that they might have no cause for
   being feeble in the performance of the labour of ascetic excellence.
 modern_rendering: >-
-  Now it is necessary for us to also remember the chosen and mighty women.
-  God gave them an equal measure of strength of will as he gave men. This
-  was so that they would have no cause for being feeble in the
-  performance of the labor of ascetic excellence.
+  Now it is necessary for us to also remember the chosen and mighty women. God gave them, as he
+  also gave men, an equal measure of strength of will. This was so that they would have no cause
+  to be feeble in the labor of ascetic excellence.
 speaker_or_author: Palladius, in the Syriac recension of the Paradise
 license: verbatim
 modern_lens_note: >-

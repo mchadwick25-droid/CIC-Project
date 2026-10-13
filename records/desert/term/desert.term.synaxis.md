@@ -49,9 +49,9 @@ false_friend:
 senses:
   informational: "In the semi-solitary settlements, the one fixed communal point of the week: ascetics who spent the days alone in their cells came together Saturday into Sunday for vigil, worship at the church, and a shared meal, under the priests who served it. Pachomian houses had daily common prayer on a different, rule-governed rhythm - not under this name."
   evidential: "Palladius says it plainly of Nitria: the church was occupied only on Saturday and Sunday, with eight priests serving it - his own eyewitness account. The sayings tradition presupposes the same weekly shape across Nitria, Kellia, and Scetis alike. What was prayed beyond the Psalter was thin in the record until Cassian's Institutes (II.5, II.18) supplied specific content - a fixed twelve Psalms at the evening and night offices, sung seated with a closing Alleluia, and no kneeling from Saturday evening to Sunday evening - but Cassian is a single later voice writing for Gaul, generalizing to 'the whole of Egypt and the Thebaid,' not an eyewitness naming Nitria/Kellia/Scetis specifically the way Palladius does. This world treats the content as genuine but strand-uniformity as his own claim, not an independently confirmed fact."
-  personal: "Its weight came from its rarity: after six days of solitude, faces, voices, bread shared - the week's whole communal life in one held breath. Absence was noticed; presence was itself a discipline."
-  translational: "Not 'going to church' as a routine among routines. For the semi-solitary majority it was the only routine that gathered them at all - the seam that kept solitude from becoming isolation."
-quick_meaning: "The weekly gathering - vigil, worship, and a shared meal after six days alone."
+  personal: 'Its weight came from its rarity. After the days alone, there were faces, voices, and bread shared: the week''s whole communal life in one gathering.'
+  translational: Not 'going to church' as a routine among routines. For the semi-solitary majority it was the one fixed point of the week that gathered them.
+quick_meaning: 'The weekly meeting of monks who lived alone: vigil, worship, and a shared meal.'
 distortion_risk: medium
 use_note:
   means: "In the semi-solitary settlements, the synaxis was the weekly Saturday-to-Sunday gathering of monks who lived alone, for vigil, worship, and a shared meal."

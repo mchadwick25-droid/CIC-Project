@@ -52,7 +52,7 @@ relations:
   target: desert.gravity.economic-embeddedness
 - type: associated-with
   target: desert.quote.taor-not-compelled-to-market
-plain_meaning: "Withdrawal: leaving settled village life for the desert's edge, as the whole work of formation, not a change of address."
+plain_meaning: 'Withdrawal: leaving settled life for the desert as the whole work of formation. It was far more than a change of address.'
 world_word: anachoresis
 false_friend:
 - retreat as escape or opting out
@@ -60,8 +60,8 @@ false_friend:
 senses:
   informational: "The defining act of this world: departing village or town life for marginal or remote land, where distance, solitude, and struggle are themselves the curriculum. Antony's own career shows its shape - a staged deepening from village edge to outer mountain to inner mountain, not one dramatic exit."
   evidential: "Attested across every stream this world has: Athanasius's Life of Antony, the sayings tradition, Palladius, and the excavated settlements at Kellia. The documentary record also qualifies the rhetoric: the settlements sat on marginal land with real village trade ties, so 'flight to the desert' was never a total break. Two further witnesses corroborate that qualification, each with its own honest limit: business letters survive from a Melitian community whose representativeness for this world's mainstream strands is an unverified working assumption, and whose own organization its editors read as intermediary, no clean fit to this world's three strands; and modern scholarship on the same embeddedness thesis, whose specific claims stand unverified in themselves, corroborated here only by the other evidence already cited."
-  personal: "To those who did it, withdrawal was the most demanding form of engagement, not the least - a decision to face, without cushioning, the interior life that settled routine lets a person avoid. It replaced martyrdom as the whole self given at once."
-  translational: "'Withdrawal' or 'retreat' in the modern sense - a break to recharge, an escape from responsibility - reverses the meaning. This was permanent, bodily, and itself the point; the desert was the arena, not the exit."
+  personal: To those who did it, withdrawal was the hardest kind of engagement, not the easiest. It meant facing the inner life with no cushion. Settled routine lets a person dodge that life. For Antony, once the persecution ended, withdrawal became a daily martyrdom of conscience.
+  translational: '''Withdrawal'' or ''retreat'' in the modern sense, a break to recharge or an escape from duty, reverses the meaning. It was lasting and bodily, and it was the whole point. The desert was the arena.'
 quick_meaning: "Leaving settled life for the desert, as the work of formation itself."
 distortion_risk: high
 use_note:

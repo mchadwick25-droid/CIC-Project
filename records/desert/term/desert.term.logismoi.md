@@ -48,7 +48,7 @@ relations:
   target: desert.term.nepsis
 - type: associated-with
   target: desert.gravity.spiritual-combat
-plain_meaning: "The thoughts: unwanted, intruding thoughts and urges, treated as the main battlefield of the ascetic life."
+plain_meaning: 'The thoughts: unwanted, intruding thoughts and urges. We treated them as the main battlefield of the ascetic life.'
 world_word: logismoi
 false_friend:
 - clinical intrusive thoughts (a symptom to manage or medicate)
@@ -56,8 +56,8 @@ false_friend:
 senses:
   informational: "The unwanted thoughts a person did not choose to have - treated across all three strands as the true site of spiritual combat. The famous eight-fold catalogue (gluttony, lust, avarice, sadness, anger, listlessness, vainglory, pride) is Evagrius's own systematization within one strand, not the whole movement's shared checklist."
   evidential: "The general theme runs through Athanasius's Life of Antony and the sayings tradition alike; the systematized taxonomy is concentrated in Evagrius's writings at Kellia - a one-author elaboration kept distinct here from the broadly-attested experience it organizes."
-  personal: "A thought was never just private noise. It mattered morally, wanted something, and was to be watched, discerned, and told to an elder - fighting alone, in this world's own counsel, was how the thoughts won."
-  translational: "Not a clinical symptom and not superstition about the weather of the mind: whatever a modern reader holds about where such thoughts come from, this world's practice was to take each one seriously as an event, name it, and answer it."
+  personal: A thought was never just private noise. It mattered morally, wanted something, and was to be watched, discerned, and told to an elder. In our counsel, fighting alone was how the thoughts won.
+  translational: Not a clinical symptom, and not superstition about the weather of the mind. A modern reader may hold any view about where such thoughts come from. The practice was to take each one seriously as an event, name it, and answer it.
 quick_meaning: "The unwanted thoughts a person battles - our real battlefield."
 distortion_risk: medium
 use_note:

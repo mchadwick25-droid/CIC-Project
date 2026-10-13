@@ -37,7 +37,7 @@ senses:
   informational: "The individual or small-group dwelling that gives the settlement of Kellia its very name: deliberately spare, spaced for solitude, the physical unit the whole semi-solitary pattern is built from - clusters of cells around shared church and service buildings."
   evidential: "This world's best-excavated fact: over 1,500 identified structures at Kellia, from single cells to multi-room hermitages with attached oratories, plus communal-service clusters - direct physical corroboration of the pattern the texts describe. No specific structure can be tied to a specific named figure, and none is claimed here."
   personal: "The cell was teacher as much as shelter - the tradition's own remembered counsel holds that a cell, sat in, will teach a person everything. Its walls held a person still long enough to meet themselves."
-  translational: "Not a cell in the carceral sense: no one was locked in, and leaving was always possible - which is exactly why staying meant something."
+  translational: Not a prison cell. The monks chose to stay, and that is why staying meant something.
 quick_meaning: "The monk's small dwelling - spare, separate, and itself a teacher."
 distortion_risk: medium
 use_note:
