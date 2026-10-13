@@ -52,13 +52,12 @@ relations:
 - type: associated-with
   target: cappadocian.dw.catholic-and-its-rivals
 modern_rendering: >-
-  They accuse me of teaching something new about the Holy Spirit - but
-  ask them what that novelty actually is. What I hold is exactly what I
-  was taught: the Spirit belongs in the same rank as the Father and the
-  Son, not counted among the things God created. We profess our faith
-  in Father, Son, and Holy Spirit, and we are baptized in that same
-  name. That is why we never separate the Spirit from union with the
-  Father and the Son.
+  They falsely accuse me of bringing in something new about the Holy Spirit.
+  Ask them what the new thing is. I confess what I have received: the
+  Paraclete is ranked with the Father and the Son, and not counted among
+  created things. We have professed our faith in Father, Son, and Holy
+  Spirit, and we are baptized in the name of Father, Son, and Holy Spirit.
+  So we never separate the Spirit from union with the Father and the Son.
 use_note:
   means: "Basil, writing to ascetics loyal to him after the break with Eustathius, denies teaching novelties and confesses the Spirit ranked with Father and Son."
   not_for:

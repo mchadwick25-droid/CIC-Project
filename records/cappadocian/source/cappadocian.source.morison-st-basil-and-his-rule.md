@@ -17,6 +17,7 @@ relations: []
 author: E. F. Morison
 work: 'St. Basil and His Rule: A Study in Early Monasticism (Oxford, 1912)'
 edition: Vendored as cic/texts/morison_st-basil-and-his-rule_1912.txt
+citation: 'E. F. Morison, St. Basil and His Rule: A Study in Early Monasticism (Oxford, 1912)'
 kind: vendored
 rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed

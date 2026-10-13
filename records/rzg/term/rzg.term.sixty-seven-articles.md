@@ -28,8 +28,8 @@ retrieval:
 relations:
 - type: associated-with
   target: rzg.term.disputation
-plain_meaning: The Sixty-Seven Articles are Zwingli's own founding statement of doctrine. He presented
-  them at the First Zurich Disputation, in 1523.
+plain_meaning: The Sixty-Seven Articles set out Zwingli's teaching at the start of our reform. He brought
+  them to the first Zurich Disputation in 1523.
 world_word: The Sixty-Seven Articles
 false_friend:
 - a later, polished confession comparable to the Second Helvetic Confession, rather than a first, urgent
@@ -40,12 +40,12 @@ senses:
     It is a document, distinct from the general practice of holding a disputation itself.
   evidential: The Articles' own text survives within the Acts of the First Zurich Disputation, in our
     own vendored record.
-  personal: We point to this document, not a summary of it, when someone asks what our founder actually
-    claimed at the outset.
+  personal: We pointed to this text, not a summary, when someone asked what our founder had claimed at the
+    start.
   translational: This is not a creed written by a committee over years. It is one man's own confession,
     tested in public the same year it was written.
-quick_meaning: Zwingli's own founding doctrinal statement. He presented and defended it at the First Zurich
-  Disputation, in 1523.
+quick_meaning: Zwingli's own teaching, set out at the start of our reform. He brought it to the first
+  Zurich Disputation in 1523 and defended it there.
 distortion_risk: low
 use_note:
   means: "The Sixty-Seven Articles are Zwingli's own founding statement of doctrine, presented at the First Zurich Disputation in 1523."

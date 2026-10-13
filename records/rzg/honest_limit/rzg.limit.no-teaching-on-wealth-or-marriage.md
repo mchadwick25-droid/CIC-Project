@@ -18,10 +18,10 @@ sources:
   locus: this world's own thinness field
   license: public-domain
 relations: []
-statement: What did marriage mean to us, or how did we regard wealth and poverty? I have no teaching to
-  give you on either. Our own founder and our own pastor at Geneva were both married men -- that much
-  is a biographical fact -- but neither marriage nor a teaching on wealth was ever built into a record
-  here. I will not invent one to fill the silence.
+statement: What did marriage mean to us, or how did we regard wealth and poverty? Our teachers did write
+  on both, but I cannot yet give you that teaching here. Our pastor at Geneva was a married man. That
+  much is a biographical fact. And no record here shows how ordinary people lived out their marriages,
+  or lived with wealth and want. I will not invent that to fill the silence.
 why_sources_cannot_answer: 'Checked directly against every term, story, quote, and gravity in this world''s
   own corpus: none addresses marriage, weddings, or a teaching on wealth and poverty as such. This world''s
   own richly vendored material is doctrinal and confessional (predestination, the Supper, scriptural authority,

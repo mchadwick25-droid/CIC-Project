@@ -31,9 +31,8 @@ relations:
   target: rzg.term.sixty-seven-articles
 - type: illustrated-by
   target: rzg.story.first-zurich-disputation
-plain_meaning: A Disputation was a public debate held before Zurich's own city council. Our reforming
-  side defended its case from Scripture. The old church's side answered. This is how Zurich actually decided
-  to reform - not a private argument, a civic one.
+plain_meaning: A Disputation was a public debate before Zurich's own city council. Our reforming side
+  defended its case from Scripture. The old church's side answered. This was how Zurich chose to reform.
 world_word: Disputation
 false_friend:
 - a formal academic debate, or a piece of political theater - a staged event whose outcome was likely
@@ -49,14 +48,12 @@ senses:
     same Scripture, if he had misunderstood it anywhere. This is not a formality staged to bless a decision
     already made elsewhere. The council's own judgment at these disputations is the actual mechanism by
     which images were removed, the Mass eventually abolished, and our reformed order established in law.
-  personal: We trust an argument tested this way the way another might trust a document sealed and witnessed.
-    It set the pattern our later confrontations - with the Anabaptists, with the Catholic cantons - repeatedly
-    returned to as the way a contested question gets settled among us.
-  translational: This was not theater dressed around a foregone conclusion. It was the specific civic-scriptural
-    test we trusted to settle a real question, because the council's own judgment, reached this way, is
-    what we took reform's own legitimacy to require.
-quick_meaning: A public, formal debate before Zurich's own city council. Our reforming side defended its
-  scriptural case against the old church's defenders. This is how Zurich's reform was actually decided.
+  personal: An argument tested this way earned our trust, as a sealed and witnessed paper earns it.
+  translational: This was not theater built around a foregone conclusion. It was the civic test, argued
+    from Scripture, that we trusted to settle a real question. In our view, reform was legitimate only when
+    the council judged it this way.
+quick_meaning: A public debate before Zurich's own city council. Our reforming side defended its case
+  from Scripture against the old church's defenders. This was how Zurich chose to reform.
 distortion_risk: medium
 use_note:
   means: "A Disputation was a public debate before Zurich's city council in which the reforming side defended its case from Scripture, and it was how Zurich decided to reform."

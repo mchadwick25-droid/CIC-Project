@@ -17,6 +17,7 @@ relations: []
 author: Paul Fedwick
 work: Bibliotheca Basiliana Universalis
 edition: In-copyright modern scholarship, not vendored
+citation: Paul Fedwick, Bibliotheca Basiliana Universalis
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

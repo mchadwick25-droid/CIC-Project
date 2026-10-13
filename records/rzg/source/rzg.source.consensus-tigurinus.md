@@ -29,6 +29,7 @@ attribution_status: jointly authored and signed by representatives of Bullinger'
 discovery_channel: Source_Registry.md row 5, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.
 external_ids:
   rzg_source_registry_row: 5
+citation: John Calvin and the Zurich pastors, Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554), trans. Henry Beveridge (1844)
 kind: vendored
 ---
 The single document most directly evidencing the Zurich/Geneva strand bridge (Doc_01 SS5). The 9th Head of Agreement carries this world's own CT-tagged contested term (Sign and the Thing Signified, rzglex008) and T2's own second pole. Verified directly against the vendored file, whole bounded extract, per Source_Registry.md's own Verification Note.

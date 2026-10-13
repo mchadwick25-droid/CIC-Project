@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - participant asks about antistes
 relations: []
-plain_meaning: Antistes is Zurich's own senior pastoral title. Bullinger held it after Zwingli died.
+plain_meaning: Antistes was Zurich's own title for its chief pastor. Bullinger held it after Zwingli died.
 world_word: Antistes
 false_friend:
 - a title equivalent to a Catholic bishop, implying an authority independent of the city council
@@ -35,12 +35,12 @@ senses:
     own earlier title, Leutpriester. The office marks the settled, ongoing shape our senior pastorate
     took at Zurich once Bullinger succeeded our founder.
   evidential: Bullinger held this title through his own four-decade pastorate at Zurich, from 1531.
-  personal: We use this word specifically for Zurich's own senior pastor - it is not our word for Geneva's
-    own church government, which the council itself carries directly.
-  translational: This is not simply a fancier word for 'pastor' or 'bishop.' It names a specific office
-    within Zurich's own particular arrangement of church and council.
-quick_meaning: Zurich's own senior pastoral title. Bullinger held it after Zwingli. It answers to the
-  city council.
+  personal: We used this word only for Zurich's senior pastor. It was not our word for Geneva's church government,
+    which ran through the Company of Pastors and the Consistory.
+  translational: This is not just a fancier word for 'pastor' or 'bishop.' It names one office in Zurich's
+    own arrangement of church and council.
+quick_meaning: Zurich's own title for its chief pastor. Bullinger held it after Zwingli. It answered to
+  the city council.
 distortion_risk: low
 use_note:
   means: "Antistes is Zurich's own senior pastoral title, held by Bullinger after Zwingli, and it answers to the city council."

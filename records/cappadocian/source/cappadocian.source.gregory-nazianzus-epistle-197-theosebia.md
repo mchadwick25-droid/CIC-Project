@@ -19,6 +19,7 @@ author: Gregory of Nazianzus
 work: Gregory of Nazianzus, Epistle 197 (consolation to Gregory of Nyssa, honoring Theosebia)
 edition: CONFIRMED PRESENT in the vendored npnf207 edition -- Letter CXCVII, div4 id iv.iv.ii.viii,
   "A Letter of Condolence on the Death of His Sister Theosebia"
+citation: Gregory of Nazianzus, Epistle 197, a letter of condolence on the death of his sister Theosebia, Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed. Schaff
 kind: unvendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

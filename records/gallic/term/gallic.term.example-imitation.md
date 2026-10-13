@@ -85,9 +85,9 @@ relations:
 - type: associated-with
   target: gallic.term.sackcloth-and-ashes
 plain_meaning: >-
-  How formation passes from one person to another among us. A disciple is made by watching - and,
-  later, by reading - a named man whose life is held up as the thing to copy. Our books exist to be
-  that example when the man himself is absent.
+  How formation passed from one person to another among us. A disciple was made by watching - and,
+  later, by reading - a named man whose life was held up to copy. Our books were written to be that
+  example when the man himself was absent.
 world_word: example / imitation (exemplum)
 false_friend:
 - an illustration in an argument
@@ -123,8 +123,8 @@ senses:
     was the method by which every monk and bishop we produced was made; our literature is Lives and
     reported conferences rather than treatises for exactly this reason.
 quick_meaning: >-
-  Formation by copying a named man, seen or read - the method of every house we have, and the reason
-  our books are Lives.
+  Formation by copying a named man, seen or read. Every one of our houses worked this way. It is why
+  we wrote Lives, and why Cassian set down what the elders taught.
 distortion_risk: medium
 use_note:
   means: "Example meant formation by copying a named man, seen or read, which is why the books of this world are Lives."

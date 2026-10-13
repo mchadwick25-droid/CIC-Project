@@ -21,6 +21,7 @@ work: Evagrius Ponticus' formation and ordination by this circle (the fact, not 
 edition: No edition -- no Cappadocian-period text of Evagrius' own survives; his later, post-departure
   corpus is a Named Comparandum belonging to the registered Desert world (Source Registry row 4), Excluded
   from this world
+citation: Evagrius Ponticus, his formation and ordination within the Cappadocian circle; no text of his from that period survives
 kind: unvendored
 rights_status: not applicable in the ordinary sense -- no text exists to hold rights over; this row records
   a biographical/documentary fact, not a copyrighted or public-domain work.

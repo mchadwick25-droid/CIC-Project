@@ -39,10 +39,10 @@ exchange:
     praised for it above priests. At his funeral there was a choir of
     virgins, holding back their tears out of modesty. That is the whole of
     it. No superior of either house is named. No rule for either is kept.
-    Not one of those women left us her own word - not even the one our
-    record praised most, and she is praised for not being seen. If you want
-    the women among us in their own words, our record does not have them to
-    give. What it has is a dress, a meadow, a closed door, and a choir.
+    Not one of those women left us her own word - not even the virgin
+    Martin praised, and she is praised for not being seen. If you want the
+    women among us in their own words, we have none to give. We have only
+    what men wrote about them.
 ---
 Honest-limit-in-voice, matching hal.demo.women-own-words's and
 alx's structural precedent for this same canon_question_id and Doc_09

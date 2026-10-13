@@ -19,6 +19,7 @@ work: Eupsychius of Caesarea's martyrdom (362) and its annual 7 September feast 
   via invitations in Basil's letters; no In Eupsychium homily is attested by anyone
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
+citation: 'The martyrdom of Eupsychius of Caesarea and his feast at Caesarea, as attested in Basil of Caesarea, Letters, Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

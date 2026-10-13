@@ -34,9 +34,11 @@ relations:
   target: cappadocian.term.epinoia-energeia
 - type: associated-with
   target: cappadocian.term.ousia-hypostasis
-plain_meaning: A rival teacher named Eunomius claimed the word 'unbegotten' captured everything God is.
-  We built our whole doctrine of divine mystery as a refusal of that claim. Unbegotten is true
-  of the Father, we said, but it does not exhaust who God is.
+plain_meaning: >-
+  A rival teacher named Eunomius claimed the word 'unbegotten' captured
+  everything God is. Our teaching on God's mystery took its sharpest form in
+  answer to that claim. Unbegotten is true of the Father, we said, but it
+  does not exhaust who God is.
 world_word: agennētos
 false_friend: []
 senses:

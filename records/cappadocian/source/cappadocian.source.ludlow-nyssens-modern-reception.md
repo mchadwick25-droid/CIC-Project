@@ -17,6 +17,7 @@ relations: []
 author: Morwenna Ludlow
 work: Scholarship on Gregory of Nyssa's modern reception
 edition: In-copyright modern scholarship, not vendored
+citation: Morwenna Ludlow, scholarship on Gregory of Nyssa's modern reception
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

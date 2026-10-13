@@ -82,10 +82,10 @@ relations:
 - type: associated-with
   target: gallic.term.the-religious
 plain_meaning: >-
-  For us the typical failure of a monk is not apostasy but cooling. The novice who "grow[s] cold in
-  regard to the rule." The renunciant "turned out a deserter or lukewarm." The elders who "pass their
-  old age in a lukewarmness which they contracted in youth." The Sarabaites "cast down into hell by
-  the lukewarmness of their purpose." A disease of temperature that damns.
+  For us the typical failure of a monk was cooling. The novice who "grow[s] cold in regard to the
+  rule." The renunciant "turned out a deserter or lukewarm." The elders who "pass their old age in a
+  lukewarmness which they contracted in youth." The Sarabaites "cast down into hell by the
+  lukewarmness of their purpose."
 world_word: lukewarmness / coldness
 false_friend:
 - mild disapproval - lukewarm as half-hearted or unenthusiastic
@@ -120,8 +120,8 @@ senses:
     apostolic Church lost by dispersion; the clothes we kept in the steward's cupboard were kept
     against exactly this.
 quick_meaning: >-
-  The monk's characteristic failure - not apostasy but cooling. A disease of temperature that damns,
-  the reason a grey head is no guarantee.
+  The monk's typical failure: he grew cold. It could damn him, and grey hair was no guarantee against
+  it.
 distortion_risk: high
 use_note:
   means: "Lukewarmness meant the monk's characteristic failure, cooling rather than apostasy, a disease of temperature that damns and that a grey head does not cure."

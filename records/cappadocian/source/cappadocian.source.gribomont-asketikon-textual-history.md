@@ -17,6 +17,7 @@ relations: []
 author: Jean Gribomont
 work: The Asketikon's textual history; Basil's debt to Eustathius
 edition: In-copyright modern scholarship, not vendored
+citation: Jean Gribomont, on the textual history of the Asketikon and Basil's debt to Eustathius
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

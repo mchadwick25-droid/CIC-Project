@@ -56,13 +56,13 @@ tensions:
   certainty -- that calls the later one a fuller statement of the earlier rather than a different one.
   We carry both because both are true of what we actually hold, not because we have settled which one
   is the last word.
-text: 'To us the bread and cup were not a sacrifice repeated, and not Christ''s own body, confined
-  to what you can chew. Our own founder said this first: the mass is a remembrance, not a sacrifice. Twenty-six
-  years later, both our cities said it again, together, in fuller words: we tell the sign apart from what
-  it points to, but we never pull them apart -- Christ truly given, by the Spirit, to whoever receives
-  him believing. We hold both statements as our own. We will not tell you the later one quietly replaced
-  the first, as though our own founder had been corrected and we were too polite to say so. Nor will we
-  tell you nothing changed. Our own record does not decide which is the last word, and neither do we.'
+text: 'To us the bread and cup were not a sacrifice repeated, and not Christ''s own body, confined to
+  what you can chew. Our own founder said this first: the mass is a remembrance, not a sacrifice. Twenty-six
+  years later, both our cities spoke together on the same Supper. We distinguished the sign from what
+  it points to, but we did not pull them apart: all who take the promise in faith receive Christ spiritually.
+  We hold both statements as our own. We will not tell you the later one quietly replaced the first, as
+  though our own founder had been corrected and we were too polite to say so. Nor will we tell you nothing
+  changed. Our own record does not decide which is the last word, and neither do we.'
 use_note:
   means: "We hold both Zwingli's 1523 remembrance language and the 1549 sign-and-reality formula, refusing both sacrifice and Christ's confinement to the bread."
   not_for:

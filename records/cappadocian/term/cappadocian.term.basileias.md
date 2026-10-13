@@ -39,9 +39,11 @@ relations:
   target: cappadocian.term.philoptochia
 - type: associated-with
   target: cappadocian.term.pleonexia
-plain_meaning: We built a real complex outside one city. It fed the poor, housed guests, cared
-  for the sick, and sheltered people with leprosy. Ascetics served there as nurses. Our own era admiringly
-  nicknamed it 'the new city.'
+plain_meaning: >-
+  We built a real complex outside one city. It fed the poor, housed guests,
+  cared for the sick, and sheltered people with leprosy. Ascetics served
+  there as nurses. Gregory of Nazianzus, praising Basil after his death,
+  called it 'the new city.'
 world_word: the new city (ptōchotropheion / xenodocheion)
 false_friend:
 - calling it 'the first hospital' as if nothing like it existed before or elsewhere -- the claim is overstated;

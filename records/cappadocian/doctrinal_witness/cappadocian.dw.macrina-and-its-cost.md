@@ -35,25 +35,23 @@ retrieval:
   - "participant asks whether a woman could carry real authority among this world's people, and what it
     cost her"
 text: >-
-  One woman among us carried enough authority that our own record calls
-  her simply the Teacher. Her betrothed died before their wedding; she
-  declared the bond binding still, reasoning that if the resurrection is
-  real, he was not lost but only away, and she refused every later match
-  her own mother tried to arrange. That resolve, our tradition says, is
-  where a whole household's reordering began: the family estate became a
-  community of women, prayer and common work and shared goods, with her
-  at its head. Two of her own brothers became some of our greatest
-  bishops. At the end, one of them found her dying on bare boards, and
-  their last conversation became, in his hands, a whole book on the soul
-  and the resurrection. Her authority had a cost. No see, no pulpit, was
-  ever hers; her authority ran through household and community, not
-  office. And every word attributed to her reaches you through that same
-  brother's pen. He was there, and he grieved, and he wrote her life,
-  giving her the very arguments she makes on his page. Which words are
-  truly hers, and which are his shaping of her, we cannot now tell
-  apart. Her own voice was never written down in her own hand. That is
-  what authority could look like for a woman among us, and that silence
-  is part of what it cost her.
+  One woman among us carried enough authority that her brother calls her
+  simply the Teacher. Her betrothed died before their wedding; she declared
+  the bond binding still, reasoning that if the resurrection is real, he was
+  not lost but only away, and she refused every later match her parents
+  brought her. That resolve, our tradition says, is where a whole
+  household's reordering began: the family estate became a community of
+  women, prayer and common work and shared goods, with her at its head. Two
+  of her own brothers became some of our greatest bishops. At the end, one
+  of them found her dying on bare boards, and their last conversation
+  became, in his hands, a whole book on the soul and the resurrection. Her
+  authority had a cost. No see, no pulpit, was ever hers; her authority ran
+  through household and community, not office. And every word attributed to
+  her reaches you through that same brother's pen. He was there, and he
+  grieved, and he wrote her life, giving her the very arguments she makes on
+  his page. Which words are truly hers, and which are his shaping of her, we
+  cannot now tell apart. Her own voice was never written down in her own
+  hand.
 positions:
 - Macrina's leadership of a real ascetic community is well attested and treated as the founding resolve
   behind her whole household's reordering

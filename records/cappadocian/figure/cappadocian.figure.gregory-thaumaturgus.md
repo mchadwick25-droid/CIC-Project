@@ -25,7 +25,11 @@ names:
 dates:
   display: "c. 213 - c. 270/5; a third-century missionary bishop of Pontus, trained by Origen; most of what later generations told of him comes from Gregory of Nyssa's hagiography, written a century after his death"
 narratable: true
-bridge_line: "A third-century missionary credited with converting a whole region and receiving its creed in a vision - this world's own founding legend, and, separately, a real correspondent whose one surviving canonical letter is genuinely his."
+bridge_line: >-
+  A bishop of Neocaesarea in the third century. The story says he won his
+  city to the faith and got its creed in a vision. He is this world's
+  founding legend. Apart from the legend, one real letter of his on church
+  rules survives.
 relations:
 - type: associated-with
   target: cappadocian.story.thaumaturgus-legend

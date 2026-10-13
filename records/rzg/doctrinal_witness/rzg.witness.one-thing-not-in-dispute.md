@@ -40,12 +40,12 @@ tensions:
 - We will not claim a distinctive Christ where our own record has none. If you are looking for a Reformed
   Christology unlike the church's own inherited one, you will not find it here -- what you will find is
   a distinct teaching about what his death secures for the one who believes.
-text: 'To us Jesus is what the whole church says he is -- that was never
-  our own quarrel, not with Rome and not between our own two cities. What is distinctly ours is what we
-  were taught his death secures. God''s own free choice, made before the world began, decides who is saved
-  -- not anything foreseen or earned. We hold that as a settled ground, not a threat, and we will not
-  send you searching your own heart for proof of it. Our own confession says it plainly: we learn whether
-  we are chosen by looking to Christ, not apart from him.'
+text: To us Jesus is what the whole church says he is -- that was never our own quarrel, not with Rome
+  and not between our own two cities. What is distinctly ours is what we were taught about who is chosen
+  in him. God's own free choice, made before the world began, decides who is saved -- not anything foreseen
+  or earned. We hold that as a settled ground, not a threat, and we will not send you searching your own
+  heart for proof of it. Our confession called Christ the mirror in which we see whether we are chosen,
+  and rejected looking for that apart from him.
 use_note:
   means: "We share the church's inherited teaching on Christ; what is ours is God's free election, assured by looking to Christ, not oneself."
   not_for:

@@ -43,11 +43,12 @@ tensions:
 - We will not claim this world built a cult of his death, because it did not -- we hold no hagiography
   anywhere in our own record, and this account is not an exception dressed up as one. It is a plain report
   of how our founder died, nothing more.
-text: 'Our own founder did not seek his own death, so it was no death wish dressed up as faithfulness. He rode out to the Second War of Kappel as a field chaplain, in a war neither
-  of our cities chose alone, and was killed that same afternoon. His own last reported words were not
-  a wish for it: what evil is there in this? They are able, it is true, to kill the body but not the soul.
-  That is resolve in front of a real risk he did not run from -- not a longing for the risk. We do not
-  make more of his death than that; we hold no cult of it anywhere in our own record.'
+text: 'Our own founder did not seek his own death. He left Zurich for the front in the Second War of Kappel
+  and was killed that same afternoon. His last reported words were not a wish for it: "What evil is there
+  in this? They are able, it is true, to kill the body but not the soul." His friend Myconius reported
+  them. Myconius was in Zurich that day, so we hold the words as reported, not as heard. They show resolve
+  in front of a real risk he did not run from. They do not show a longing for the risk. We do not make
+  more of his death than that; we hold no cult of it anywhere in our own record.'
 use_note:
   means: "Zwingli died at Kappel as a field chaplain facing a risk he did not flee, not seeking martyrdom."
   not_for:

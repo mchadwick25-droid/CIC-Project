@@ -38,8 +38,9 @@ relations:
   target: rzg.gravity.consistorial-church-discipline
 - type: tension-with
   target: rzg.gravity.council-led-authority-vs-consistorial-independence
-plain_meaning: At Geneva, the Consistory is our body of pastors and lay elders. It holds our whole population's
-  daily conduct to account. Zurich has no equivalent. Its council governs church and city directly.
+plain_meaning: At Geneva, the Consistory was our body of pastors and lay elders. It held everyone to account
+  for how they lived each day. Our record shows no such body at Zurich. There the council ruled church
+  and city directly.
 world_word: Consistory
 false_friend:
 - a harsh moral-surveillance body, imagined in vivid institutional detail - a court that summoned households,
@@ -55,13 +56,13 @@ senses:
     real disciplinary standing in it. The council itself tried, at points, to claim the authority to judge
     who might come to the Lord''s own table - and we did not yield that judgment, because a discipline
     answerable to shifting civic politics is no discipline at all.'
-  personal: We fought for this independence not for our own power's sake, but because we judged a discipline
-    that bends with the council's own mood is no real discipline. That fight was substantially won in
-    our own favor only by 1555, a full generation after Calvin's own 1541 recall.
-  translational: 'What we cannot yet supply is our own day-to-day operation: the real case-by-case practice,
-    what a summons before us actually involved. A vivid, specific picture of that daily operation is not
-    something our own sources can currently support.'
-quick_meaning: Geneva's own body of pastors and lay elders. It holds our whole population's daily conduct
+  personal: We did not fight for this independence to gain power. We judged that a discipline that bent
+    with the council's mood was no real discipline. The fight was substantially won in our favor only by
+    1555, fourteen years after Calvin's recall in 1541.
+  translational: We cannot yet describe how the Consistory worked from day to day. Our sources do not show
+    real cases, or what a summons before it involved. They cannot support a vivid, specific picture of that
+    daily work.
+quick_meaning: Geneva's own body of pastors and lay elders. It held our whole population's daily conduct
   to account. We can state the general doctrine plainly. Our own day-to-day case history is not yet something
   our sources can supply.
 distortion_risk: high
