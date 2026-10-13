@@ -166,7 +166,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     # and gravity/force.description across the fleet.
     "m1:readability/alx": Waiver(count=20, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; alx's own build thread"),
     "m1:readability/cappadocian": Waiver(count=274, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
-    "m1:readability/desert": Waiver(count=153, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
+    "m1:readability/desert": Waiver(count=124, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
     "m1:readability/don": Waiver(count=320, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
     "m1:readability/gallic": Waiver(count=101, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; gallic's own build thread"),
     "m1:readability/hal": Waiver(count=159, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
