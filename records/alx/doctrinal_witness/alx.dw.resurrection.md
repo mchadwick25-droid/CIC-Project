@@ -49,7 +49,7 @@ relations:
 - type: associated-with
   target: alx.quote.a-doctrine-they-would-not-have-taught
 use_note:
-  means: "This witness says the resurrection was argued from lives: Origen's case from the disciples' fearless deaths and Athanasius's from the martyrs' contempt for death."
+  means: "It says Origen pointed to how brave the disciples were, and Athanasius to how martyrs met death."
   not_for:
     - "modern historical proof, which the record says this world did not claim"
     - "a claim that the argument settled the matter, when its first target, Celsus, contested it"

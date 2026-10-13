@@ -52,7 +52,7 @@ senses:
 quick_meaning: Not just feeling sorry. Metanoia is the soul truly turning back to God.
 distortion_risk: high
 use_note:
-  means: "Metanoia meant a change of nous, the soul truly turned back toward God, not feeling sorry or resolving to behave better."
+  means: "Metanoia meant a change of mind, the soul truly turned back to God, not just feeling sorry or resolving to do better."
   not_for:
     - "describing it as regret over wrong acts"
     - "treating it as better behavior while wanting the same things"

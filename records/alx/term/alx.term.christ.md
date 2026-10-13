@@ -54,7 +54,7 @@ senses:
 quick_meaning: "Not Jesus's last name. It is the confession that he is the Anointed One."
 distortion_risk: high
 use_note:
-  means: "Christ was a confession that Jesus is the Anointed One, commissioned as priest, king, and prophet in one person, not a surname."
+  means: "Christ was a confession that Jesus is the Anointed One, sent by God, and not a surname."
   not_for:
     - "treating Christ as Jesus's surname"
     - "reducing it to a vague title of general holiness"

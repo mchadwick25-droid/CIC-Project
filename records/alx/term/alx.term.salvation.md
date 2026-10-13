@@ -47,7 +47,7 @@ senses:
 quick_meaning: "Not only a verdict of not-guilty: the soul's direction healed and turned back to God."
 distortion_risk: high
 use_note:
-  means: "Salvation meant healing, the soul's direction turned back toward God by the Logos from within, not a not-guilty verdict."
+  means: "Salvation meant healing, with the Logos turning the soul back to God from within, and not only a not-guilty verdict."
   not_for:
     - "describing it as acquittal or a wiped legal record"
     - "adding Origen's universal-restoration reading"

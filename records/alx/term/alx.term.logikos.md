@@ -60,7 +60,7 @@ senses:
 quick_meaning: "Made for the Word and able to know God. A wider view built on this is contested, and so is whether it was one teacher's own."
 distortion_risk: high
 use_note:
-  means: "Every being able to know God is logikos, made for the Word, within Origen's wider and contested cosmology of rational natures."
+  means: "Logikos meant made for the Word, able to know God; a wider view of this is contested, as is whether Origen held it."
   not_for:
     - "describing it as cleverness or raw intelligence"
     - "presenting Origen's rational-natures cosmology as settled or shared by all Alexandrian teachers"

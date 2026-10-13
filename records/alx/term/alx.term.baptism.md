@@ -48,7 +48,7 @@ senses:
 quick_meaning: "Not a ceremony marking a choice. A real crossing, in the body, into the new life."
 distortion_risk: high
 use_note:
-  means: "Baptism, also called illumination, meant a real bodily crossing into Christ's death and rising, not a ceremony announcing a choice already made."
+  means: "Baptism meant a real crossing in the body into the new life, not a ceremony that announced a choice."
   not_for:
     - "describing it as a public statement of a private decision or as an empty symbol"
     - "attributing this account to Athanasius, who is not cited for it"
