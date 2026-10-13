@@ -122,7 +122,7 @@ def test_a_source_with_a_citation_line_shows_only_that_line_and_its_place_in_the
         "w.source.s": {
             "id": "w.source.s", "record_type": "source", "citation": "An Author, A Work, trans. A Translator (1898)",
             "author": "An Author (fl. 350; per the legacy Doc_02)", "work": "A Work - registered for one passage",
-            "rights_status": "public-domain (accepted 2026-08-18)",
+            "rights_status": "public-domain (accepted on the transcriber's declaration)",
         },
     }
     [source] = resolve_source_card("w.term.x", repo)["sources"]

@@ -212,8 +212,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:use-note-present/pahc": Waiver(count=1, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; pahc's own build thread"),
     "m1:use-note-present/witt": Waiver(count=1, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; witt's own build thread"),
     # source-citation: each source record's participant-facing citation line,
-    # added world by world with the record wording pass (System Hub Decision
-    # Log, 2026-10-13, the source-card build text).
+    # added world by world with that world's record wording pass.
     "m9:source-citation/alx": Waiver(count=25, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; alx's record wording pass"),
     "m9:source-citation/cappadocian": Waiver(count=111, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; cappadocian's record wording pass"),
     "m9:source-citation/desert": Waiver(count=30, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; desert's record wording pass"),
