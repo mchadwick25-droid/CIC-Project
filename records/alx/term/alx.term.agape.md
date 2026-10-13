@@ -46,7 +46,7 @@ senses:
 quick_meaning: Not a feeling - the fruit of a soul truly formed.
 distortion_risk: high
 use_note:
-  means: "Agape meant love as the visible fruit of a soul genuinely reordered toward God and others by formation, not a feeling or an act of will."
+  means: "Agape meant love as the fruit of a soul turned toward God and others by formation, not a feeling or an act of will alone."
   not_for:
     - "glossing it as warm feeling or affection"
     - "describing love as something a person can produce by deciding to be more loving"

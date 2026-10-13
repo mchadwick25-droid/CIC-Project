@@ -47,7 +47,7 @@ senses:
 quick_meaning: The Logos entering human nature, to heal it from within.
 distortion_risk: high
 use_note:
-  means: "The Incarnation meant the Logos entering human nature to heal it from within, not to teach or model, so that humans might be made God."
+  means: "The Incarnation meant the Logos entered human nature to heal it from within, so that we might be made God."
   not_for:
     - "describing it as a moral example sent to show people how to live"
     - "describing it as information God delivered by taking human form"

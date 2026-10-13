@@ -39,7 +39,7 @@ senses:
 quick_meaning: The community's thanksgiving meal of bread and cup.
 distortion_risk: medium
 use_note:
-  means: "Eucharistia was the thanksgiving, the shared meal of bread and cup at the center of worship, forming members whether or not they could read."
+  means: "Eucharistia was the thanksgiving, the meal of bread and cup at the heart of worship, open to members whether or not they could read."
   not_for:
     - "using transubstantiation, a term from a much later century"
     - "describing it as a mere symbol or memorial"

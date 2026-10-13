@@ -47,7 +47,7 @@ senses:
 quick_meaning: "The loss of God that follows turning away, which bodily death completes."
 distortion_risk: high
 use_note:
-  means: "Thanatos meant the soul's separation from God caused by sin, with physical death a real but secondary outward sign."
+  means: "Thanatos meant the ruin that follows when the soul turns from God and loses the knowledge of him, a loss that bodily death completes."
   not_for:
     - "describing it as only a biological event"
     - "presenting it as a penalty imposed from outside by a judge"

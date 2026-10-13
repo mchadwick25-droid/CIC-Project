@@ -45,7 +45,7 @@ senses:
 quick_meaning: "Not a private family. The household, a place of formation."
 distortion_risk: high
 use_note:
-  means: "The oikos was the whole household, not the private family, and the place where most people were formed and formation was tested."
+  means: "The oikos was the household, not a private family, and a place where formation was put to the test."
   not_for:
     - "describing it as the modern nuclear family in a private home"
     - "narrating the inner formation of enslaved persons, women, or dependents, which the evidence does not reach"

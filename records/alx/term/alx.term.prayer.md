@@ -51,7 +51,7 @@ senses:
 quick_meaning: "Converse with God: the soul turning toward him, aloud or in silence."
 distortion_risk: high
 use_note:
-  means: "Prayer meant the soul's steady turning to attend to what God is already saying, a whole life of converse rather than speech alone."
+  means: "Prayer meant converse with God, spoken or silent, the soul turning toward him without distraction."
   not_for:
     - "describing it as speech aimed at a divine listener and nothing more"
     - "describing it as emptying the mind into a blank openness"

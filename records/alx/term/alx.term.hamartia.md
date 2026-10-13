@@ -31,7 +31,7 @@ retrieval:
   - the conversation is about a specific moral failure rather than the underlying condition
 relations: []
 plain_meaning: "The soul turned away from God and pointed at lesser goods: more a wound than only a debt owed or a law broken."
-world_word: hamartia (missing the mark)
+world_word: hamartia
 false_friend:
 - a checklist of wrong acts needing forgiveness
 - guilt before a judge who requires payment
@@ -45,7 +45,7 @@ senses:
 quick_meaning: "The soul turned away from God, toward lesser goods: a wound more than only guilt for breaking a rule."
 distortion_risk: high
 use_note:
-  means: "Hamartia meant missing the mark, the soul turned from God toward lesser goods, rather than a debt owed or a law broken."
+  means: "Hamartia meant the soul turned from God toward lesser goods, more a wound than only a debt owed or a law broken."
   not_for:
     - "describing it as a checklist of wrong acts needing forgiveness"
     - "framing it as guilt before a judge who requires payment"

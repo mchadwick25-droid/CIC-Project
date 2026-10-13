@@ -33,7 +33,7 @@ relations: []
 plain_meaning: "The fruit of a soul truly changed. Clement held that training and the exercise of will had a part, but the lasting result was a changed soul."
 world_word: arete
 false_friend:
-- excellence built through repeated practice, as in Aristotle
+- excellence that practice alone produces
 - correct moral decisions made through good reasoning
 senses:
   informational: On the inherited Greek account, virtue is a skill built by habituated practice - courage
@@ -47,7 +47,7 @@ senses:
 quick_meaning: "The fruit of a soul truly changed, with training and will playing a part."
 distortion_risk: high
 use_note:
-  means: "Arete meant virtue as something a soul receives, the visible fruit of desire reordered by formation, not a skill built by habituated practice."
+  means: "Arete meant virtue as the fruit of a soul changed by formation, with training and will playing a part."
   not_for:
     - "describing it as Aristotelian excellence built through repeated practice"
     - "presenting it as correct moral choices reached by good reasoning"
