@@ -61,10 +61,11 @@ def test_resolves_a_real_term_to_its_real_underlying_source():
         "alx.source.eusebius-historia-ecclesiastica",
     }
     philocalia = next(s for s in card["sources"] if s["source_id"] == "alx.source.origen-philocalia")
-    assert philocalia["author"].startswith("Origen")
-    assert philocalia["work"]
+    assert philocalia["citation"].startswith("Origen, Philocalia")
+    assert philocalia["author"] is None
+    assert philocalia["work"] is None
     assert philocalia["locus"] == "I"
-    assert philocalia["rights_status"] == "public-domain"
+    assert philocalia["rights_status"] is None
 
 
 def test_a_record_with_no_sources_resolves_to_an_empty_list_not_a_guess():
