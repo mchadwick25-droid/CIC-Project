@@ -106,3 +106,7 @@ Mechanical results:
 - **"we said he claimed"** now marks Eunomius's knowledge claim as his opponents' report.
 - **whose-voice-we-lack and where-record-thinnest**: "Only a few left words of their own" and the Basil-or-Gregory authorship of the letter on the words for God are stated plainly, with no hedging filler.
 - **Story tellable_as and figure bridge_line rewrites** are plain, sourced and free of tells. The famine story drops "young." Forty of Sebaste is now "the eastern provinces," not "empire-wide." The Julian story drops its coined closer. Iconium as "within this world's region" matches Doc_01's geographic scope (`Build/worlds/cappadocian/cappadocian_Doc_01_World_Identification.md:34`).
+
+## Disposition
+
+All four blocking findings were fixed in the spoken text fields. Round 2 (`cappadocian_record_audit_fixes_review_round2_2026-10-13.md`) cleared items 2 and 3 and kept 1 and 4 open. Round 3 (`cappadocian_record_audit_fixes_review_round3_2026-10-13.md`) cleared both. The non-blocking findings were applied, except the first half of item 10: Moralia VIII.1 does say "herein lies the struggle of faith" (`clarke1925:8218-8222`), so that sentence stays. Item 5, and the leftover use notes, positions and source loci noted in rounds 2 and 3, lie outside the scope Mark set for this pass (spoken text fields only). They are logged in Open_Gaps_Tracking.md, "Record audit fixes: source drift and AI-tell wording in spoken fields, 2026-10-13".

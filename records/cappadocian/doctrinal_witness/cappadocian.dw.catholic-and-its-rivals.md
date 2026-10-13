@@ -52,10 +52,10 @@ text: >-
   sharper rival claimed one word could capture God's whole essence, and his
   church rebaptized those who joined it. Others had been close to us. One of
   their leaders had once shaped our own ascetic life. They came to deny the
-  Spirit's full standing and were finally condemned with the rest. The
-  teachers who formed us became curriculum, liturgy, and law for the
-  traditions that trace themselves back through the councils. We lived
-  through one of those councils, at Constantinople.
+  Spirit's full standing and were finally condemned with the rest. We lived
+  through one great council, at Constantinople. Whether any church today is
+  ours reaches past what we can see. We speak from before the splits that
+  made today's map.
 positions:
 - rival Christian confessions (Homoian, Eunomian, Pneumatomachian) were real, named, argued-with
   neighbors, not invented opponents
