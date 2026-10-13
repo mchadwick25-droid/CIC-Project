@@ -46,7 +46,7 @@ exchange:
     and his prayer without a gap. The customs Cassian set down for a
     bishop's new house are Egypt's, told in full; what a house in Gaul did
     with them he never wrote, beyond saying that no one here kept the
-    fathers' perseverance a year. The people of the countryside were the
+    fathers' perseverance unbroken a year. The people of the countryside were the
     ones the saint's power was for, converted in crowds by a hand laid on
     all of them; not one of them speaks. And what was said and done when our
     teaching on grace was carried to Africa and Rome - the reports going

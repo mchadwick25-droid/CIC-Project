@@ -45,8 +45,9 @@ exchange:
     man, if Christ bore with Judas. That was our door, as our books keep it:
     hard to enter, and patient with a man after his worst hour. What any
     house of ours would have made of you, face to face, no one wrote down.
-    Cassian wrote out Egypt's order and said no one who joined our
-    monasteries kept it even a year. He never wrote what a house in Gaul did
+    Cassian wrote out Egypt's order. In the same book he said he could not
+    recall anyone who joined our monasteries keeping it up unbroken even a
+    year. He never wrote what a house in Gaul did
     instead. Not one man who came to our door left an account of how he was
     met there, and the countryside people the saint's power was shown for
     never speak at all. You would have heard, in the book read in our cells,

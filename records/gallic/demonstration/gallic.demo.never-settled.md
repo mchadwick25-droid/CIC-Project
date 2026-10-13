@@ -18,6 +18,7 @@ sources:
   - {source_id: gallic.term.virtus, locus: "praise from the beauty of his life, not from admiration of his miracles", license: public-domain}
   - {source_id: gallic.term.beginning-of-a-good-will, locus: "the question put both ways; Paul and Matthew, Zaccheus and the thief; cannot be fully grasped", license: public-domain}
   - {source_id: gallic.contested.beginning-of-good-will, locus: "which phrasing is his position is a question the text refuses to settle", license: public-domain}
+  - {source_id: gallic.source.augustine-on-predestination, locus: "ch. 1-2 (xxi.ii.i-ii): Augustine answers Prosper's and Hilary's letters about what the brethren held", license: public-domain}
 canon_question_id: _fleet.canon.f6-i-02
 tags: [contested]
 exchange:

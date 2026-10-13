@@ -39,8 +39,8 @@ sources:
   license: public-domain
 statement: >-
   What did we have of Jesus? The books, read at prayer. Cassian wrote down
-  how the fathers of Egypt did it. After the psalms they read two lessons,
-  one from the old books and one from the new. Four men tell the Gospel,
+  how the fathers of Egypt did it. After the psalms, for those who wished,
+  they read two lessons, one from the old books and one from the new. Four men tell the Gospel,
   Cassian says, but the Gospel is one body. And Vincent held that the
   canon of Scripture is complete and more than enough, and that it still
   needs the Church's own understanding, because each man reads it his own

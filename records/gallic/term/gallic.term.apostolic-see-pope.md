@@ -109,8 +109,8 @@ senses:
     centuries.
 quick_meaning: >-
   "Pope" was how we honoured any revered bishop - Cassian wrote to Pope Castor of Provence. "The
-  Apostolic See" was Vincent's Rome. Its bishop was first in authority of place, and Vincent praised
-  him for being first in refusing anything new.
+  Apostolic See" was Vincent's Rome. Pope Stephen was its bishop. He was first in authority of place,
+  and Vincent praised him for being first in refusing anything new.
 distortion_risk: high
 use_note:
   means: "Pope meant a title of honour for any revered bishop, such as Cassian's Castor, while the Apostolic See meant Vincent's Rome, weighty because it refused novelty."

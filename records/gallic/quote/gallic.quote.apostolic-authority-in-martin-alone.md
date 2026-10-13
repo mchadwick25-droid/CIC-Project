@@ -40,8 +40,8 @@ modern_lens_note: >-
   clearest single line in the Vita crediting Martin with an authority that outranks the episcopate
   around him.
 modern_rendering: >-
-  The dignity of the priests, in debased submission, had taken second
-  place to the king's court. Yet in Martin alone, the authority of the
+  The dignity of the priesthood, in debased submission, had taken second
+  place to the royal court. Yet in Martin alone, the authority of the
   apostles still held its ground.
 relations:
 - type: associated-with

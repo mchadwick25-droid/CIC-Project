@@ -28,7 +28,7 @@ sources:
   locus: "ch. X: the wooden cell, the caves hollowed in the rock, one meal, the copying - the whole of what Tours gives of its own material life"
   license: public-domain
 - source_id: gallic.source.cassian-institutes
-  locus: "I-IV: dress, hours, the entrance sequence - Egypt's customs as written for a bishop's new house; IV.2: no one in our monasteries kept it 'even for a year'"
+  locus: "I-IV: dress, hours, the entrance sequence - Egypt's customs as written for a bishop's new house; IV.2: Cassian cannot recall anyone in our monasteries keeping it up 'unbroken even for a year'"
   license: public-domain
 - source_id: gallic.search.unopened-volume-sweep
   locus: "nothing new sitting unopened in this project's library for this world"
@@ -45,7 +45,7 @@ statement: >-
   the names you may know for our places are not in our own books, so we do
   not use them. What we can tell you of daily life comes from what Cassian
   said Egypt did. It also comes from his complaint that no one in Gaul
-  kept that way even a year, and from what Sulpitius said the saint did in
+  kept it up unbroken even a year, and from what Sulpitius said the saint did in
   his cell. Of the island's own day, not a line. What we ate, where we
   slept, what the rooms looked like - only as far as those pages say, and
   no further.

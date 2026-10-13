@@ -111,7 +111,8 @@ senses:
     existed, was written, and was cut from our English text by a later hand - a silence not ours.
 quick_meaning: >-
   A consecrated state, given by the bishop's hands, with its own dress. Marriage is excused; virginity
-  points to glory. We say little of the south's own teaching on chastity.
+  points to glory. Of the south's own teaching on chastity we can say little. A later translator left it
+  out of our English books.
 distortion_risk: medium
 use_note:
   means: "Virginity meant a consecrated state given by the bishop's hands, with its own dress, where marriage is excused and virginity points to glory, seen mostly through Tours."
