@@ -62,7 +62,7 @@ export function WitnessMark({ sources, repeat, contested }: WitnessMarkProps) {
                 <p className="witness-mark__title">{card.label}</p>
                 {card.sources.map((s) => (
                   <p key={s.source_id} className="witness-mark__source">
-                    {s.work ?? s.source_id}
+                    {s.citation ?? s.work ?? s.source_id}
                     {s.author && ` — ${s.author}`}
                   </p>
                 ))}

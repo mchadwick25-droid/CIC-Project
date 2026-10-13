@@ -53,7 +53,7 @@ export function StoryMark({ sources, repeat, contested, quote }: StoryMarkProps)
                 <p className="story-mark__title">{card.label}</p>
                 {card.sources.map((s) => (
                   <p key={s.source_id} className="story-mark__source">
-                    {s.work ?? s.source_id}
+                    {s.citation ?? s.work ?? s.source_id}
                     {s.author && ` — ${s.author}`}
                   </p>
                 ))}

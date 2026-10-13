@@ -113,6 +113,25 @@ def test_a_sources_entry_with_a_dangling_source_id_still_shows_the_id_and_is_kep
     assert card["sources"][0]["source_id"] == "w.source.gone"
 
 
+def test_a_source_with_a_citation_line_shows_only_that_line_and_its_place_in_the_work():
+    repo = {
+        "w.term.x": {
+            "id": "w.term.x", "record_type": "term", "term": "x",
+            "sources": [{"source_id": "w.source.s", "locus": "Hymn I.1 (npnf213_some-volume.xml)"}],
+        },
+        "w.source.s": {
+            "id": "w.source.s", "record_type": "source", "citation": "An Author, A Work, trans. A Translator (1898)",
+            "author": "An Author (fl. 350; per the legacy Doc_02)", "work": "A Work - registered for one passage",
+            "rights_status": "public-domain (accepted 2026-08-18)",
+        },
+    }
+    [source] = resolve_source_card("w.term.x", repo)["sources"]
+    assert source == {
+        "source_id": "w.source.s", "citation": "An Author, A Work, trans. A Translator (1898)", "author": None,
+        "work": None, "locus": "Hymn I.1", "rights_status": None, "edition": None,
+    }
+
+
 def test_a_sources_entry_with_no_source_id_but_a_real_locus_still_prints_something_and_is_kept():
     """The same missing source_id, but the citing record's own entry
     still names a locus - real, printable content (the frontend shows it

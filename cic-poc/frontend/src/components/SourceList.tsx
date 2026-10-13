@@ -18,7 +18,7 @@ export function SourceList({ sources, empty }: SourceListProps) {
     <ul className="source-list">
       {sources.map((s) => (
         <li key={s.source_id} className="source-list__item">
-          <span className="source-list__work">{s.work ?? s.source_id}</span>
+          <span className="source-list__work">{s.citation ?? s.work ?? s.source_id}</span>
           {s.author && <span className="source-list__author"> — {s.author}</span>}
           {s.locus && <span className="source-list__locus">, {s.locus}</span>}
           {s.rights_status && <span className="source-list__rights"> ({s.rights_status})</span>}

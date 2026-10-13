@@ -20,6 +20,7 @@ rights_status: "not applicable -- no text exists to hold rights over. This row's
 attribution_status: "not applicable -- this row documents an edition-level absence, not an authored work"
 discovery_channel: "authored for the stage-0.6 fixture, alongside fix.search.lost-letters-search's own searched-and-found-nothing record"
 external_ids: {}
+citation: "The Witness Scroll: the absence of letters from Testland's outlying households (fixture)"
 kind: absence
 absence_probes:
   - "letters from the outlying households"

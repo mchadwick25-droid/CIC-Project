@@ -6478,3 +6478,11 @@ A local test on the `live` code with a fake model and no spend found the streame
 **Ruling (13 October): fix it in #869.** A speech verb followed by a comma and "and", "but", "or", "nor", "yet" or "so" ends a clause and is not an attribution (`grounding_net._CLAUSE_JOIN`).
 
 **Order set by the project lead.** Syr first, then the record wording scan and fixes on the other worlds, then the eleven-world named test, which is also the admission for promoting `main` to `live`.
+
+## 2026-10-13 - Source cards: a citation line per source record, starting with syr
+
+**Defect.** The source line under an answer, on a citation card and on the public site, is built from a source record's `author`, `work` and `rights_status`. Those fields carry build working text written inside the citation itself: "as verified in the legacy Doc_02 revision log", "accepted by the project lead 2026-08-18", "a 510 CE colophon calls him…" (syr Open Gaps, "Invented quotes on live after the syr-only promotion", 13 October). Fleet-wide, 71 `work`, 17 `author` and 534 `rights_status` values carry it, so code cannot separate citation from note reliably.
+
+**Ruling (13 October), option 1 of 3, starting with syr.** Each source record gets one plain `citation` line (author, title, translator or edition, date), written from its own fields and nothing else. The card and the site show that line; the existing fields stay as they are. Rejected: trimming the fields in code (notes still show) and dropping the title (less useful as a citation).
+
+**Done.** `citation` is added to the source schema and spoken-field registry (participant-label). `engine.m4.citation_cards` and the site compiler show it when present. A source line's place in the work drops a file reference or build note (`engine.prose.display_locus`), so "(npnf213_….xml)" and "(anf02, line 7460)" no longer show. `engine/m9/confinement.py`'s `source-citation` check requires the line and refuses build text in it. All 40 syr source records and the fixture's 3 carry it. The other ten worlds are waived at their measured counts (alx 25, cappadocian 111, desert 30, don 76, gallic 36, hal 28, ijc 30, pahc 23, rzg 18, witt 89), owned by each world's record wording pass.

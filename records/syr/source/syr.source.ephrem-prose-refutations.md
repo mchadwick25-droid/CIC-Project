@@ -18,6 +18,7 @@ work: 'Prose Refutations of Mani, Marcion, and Bardaisan (vol. I: the Discourses
   vol. II: the Discourse Called ''Of Domnus'' and six other writings)'
 edition: C.W. Mitchell (vol. I, 1912; vol. II completed by A.A. Bevan and F.C. Burkitt, 1921), Text and
   Translation Society, transcribed chiefly from palimpsest BM Add. 14623; vendored as cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt
+citation: Ephrem the Syrian, Prose Refutations of Mani, Marcion, and Bardaisan, ed. and trans. C. W. Mitchell, A. A. Bevan and F. C. Burkitt, 2 vols. (Text and Translation Society, 1912-1921)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

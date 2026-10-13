@@ -17,6 +17,7 @@ author: H.J.W. Drijvers
 work: Bardaisan of Edessa (Assen, 1966), with his edition of The Book of the Laws of Countries (1965)
   - the foundational study of how modern Bardaisan reconstruction depends on hostile Ephrem material
 edition: consultation-only; no edition vendored
+citation: H. J. W. Drijvers, Bardaisan of Edessa (Assen, 1966)
 kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: verified as the foundational specialist treatment (legacy Doc_02 SS4)

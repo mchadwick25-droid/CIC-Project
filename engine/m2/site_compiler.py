@@ -187,6 +187,8 @@ def _resolve_source(source_id: str | None, records: dict) -> dict | None:
     rec = records.get(source_id) if source_id else None
     if not rec:
         return None
+    if rec.get("citation"):
+        return {"id": source_id, "citation": rec["citation"]}
     return {"id": source_id, "author": rec.get("author"), "work": rec.get("work")}
 
 

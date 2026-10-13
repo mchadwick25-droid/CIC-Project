@@ -20,6 +20,7 @@ rights_status: public-domain
 attribution_status: attributed-secondhand
 discovery_channel: "authored for the stage-0.6 fixture"
 external_ids: {}
+citation: "Synthetic Summarizer B, A Later Summary of Testland Practice (fixture)"
 kind: vendored
 shelf_row: fixture-synthetic--later-summary
 ---
