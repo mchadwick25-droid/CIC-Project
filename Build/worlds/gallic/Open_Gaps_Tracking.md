@@ -820,3 +820,136 @@ Traces the voice errors logged under "Voice errors found in the record pass stag
 **Gates.** `records gallic` and `regate gallic --base origin/main`: pass. Package rebuilt and repinned; site JSON recompiled (the glossary entry for grace and one question's cited text on the public Gallic page now carry the corrected wording).
 
 Status: CLOSED for the five record causes. The voice-own errors stay OPEN under the 9 October entry.
+
+### OG-33. Record audit fixes: source drift and AI-tell wording in spoken fields, 2026-10-13.
+
+A read-only audit of `records/gallic` (306 records), using the method and bar of the syr pass (Build/worlds/syr/Open_Gaps_Tracking.md, entries 27 and 28). It covered four things:
+- quote `text` against the vendored file;
+- `modern_rendering` against `text`, clause by clause;
+- spoken fields against their cited sources and their own `use_note.not_for` and `formation_confidence`;
+- AI tells in spoken fields.
+
+Four Opus agents made the first reading. A second, adversarial pass then checked every confirmed finding against the vendored texts. It rejected or downgraded 15 findings and corrected about 45 of the proposed fixes. The audit was tested against the 9 October admission run (`engine/m3/reports/admission-2026-10-09/live-admission-report-gallic-2026-10-09.json`), where the voice repeated several of these record defects word for word. Mark's rulings of 13 October apply, as in syr entry 27. Mark narrowed the scope in two relayed instructions in the same session. Only the text the Representative speaks is changed: quote `modern_rendering`, demonstration representative turns, doctrinal witness `text`, story `tellable_as`, term `plain_meaning` and `quick_meaning`, honest limit `statement` and figure `bridge_line`. No force, gravity, contested_claim, world_core or source record, no construction document, and no engine file is changed. The findings and the fix list were put to Mark as an Artifact, and he converged on them ("Converged, auto mode").
+
+**Changed, Tier A (wrong or overstated in text the voice reads).**
+- **Quote renderings, re-authored by Opus against each record's own `text`.**
+  - `gallic.quote.apostolic-authority-in-martin-alone`: the added subject "bishops" and the succession claim "handed down from the apostles" are gone.
+  - `believed-everywhere-always-by-all`: the added "only" is gone; "all possible care" and "in the strictest sense" are restored.
+  - `chaeremon-grace-requires-our-effort`: the "when" clause stays tied to "not unreasonable". Its body note now describes the new rendering.
+  - `chaeremon-three-stages-of-grace`: "the fathers who taught perfection of heart" again limits which fathers are meant.
+  - `germanus-and-chaeremon-on-the-husbandman` and `the-fathers-and-the-angels-twelve`: the text's "..." cuts are restored. Cut clauses are finished in the edition's own words, not filled in.
+  - `receiving-christ-in-you`: "As the Lord said" is removed.
+  - `salvian-present-judgment-clearly-shown`: "here and now" and "misfortune", in place of "right then and there" and "bad luck", which its own not_for forbids.
+  - `vincent-tempests-of-secular-warfare`: the purpose is no longer rendered as already done.
+- **Demonstrations.**
+  - `gallic.demo.faith-alone`: the one-phrasing "whole teaching" is gone.
+  - `never-settled`: Cassian refused wonders in the Institutes but told some in the Conferences. The unsupported "heard only one side" is gone, and the Augustine source is cited.
+  - `power-against-dissent`: "never forgave himself the price" is gone, and the events are in order.
+  - `quiet-the-mind`: "a lesson taught early", not "the first lesson of all".
+  - `record-thinnest`: Honoratus was made a presbyter on the island, not taken to a see. Sulpitius visited Martin; he never says he was absent.
+  - `want-to-leave`: "speedily", not "within the hour". The clothes cupboard is Egypt's custom.
+  - `who-chose-bishops`: the houses are no longer compared, and the island passage concerns a presbyter.
+- **Doctrinal witnesses.**
+  - `gallic.dw.christ-in-the-beggar-and-the-guest`: "harbour of religion".
+  - `the-christ-who-bears-the-wounds`: Martin waited on the Lord's mercy, and Christ was working in him. It no longer says "Christ's, not the saint's".
+  - `laughed-at-and-reported`: Julian ruled inside the span, and Institutes I.10 is advice.
+- **Honest limits and figures.**
+  - `gallic.limit.only-on-paper`: only the Institutes were written for the bishop's house.
+  - `gallic.limit.no-one-who-saw-him`: the two lessons are Egypt's, as Cassian reports.
+  - `gallic.figure.sulpitius`, `vincent`, `cassian`: the same three corrections.
+- **Story tellable_as.**
+  - `gallic.story.brictio-in-the-courtyard`: no "within the hour".
+  - `bishop-archebius`: two travellers, not Gallic ones.
+  - `death-of-martin-at-condate`: the monks gathered, "it is said"; they did not carry him.
+  - `discharge-before-caesar`: "the next day".
+- **Terms.**
+  - `gallic.term.angels`: Agnes and Thecla are not angels.
+  - `antichrist`: Gallus, not Martin, counted the years.
+  - `apostolic-see-pope`: Rome's weight came from its place.
+  - `bagaudae`: Salvian speaks about the poor.
+  - `bloodless-martyrdom-confessor`: "to the world", not "to his own will".
+  - `church-or-circus`: no frequency claim.
+  - `disciple-master`: Vincent describes the keeper of the faith, not himself.
+  - `example-imitation`: not all our books are Lives.
+  - `free-will`: no self-contradiction.
+  - `heathen-rustics`: the "idols" were a funeral.
+  - `penance-satisfaction`: Egypt's scale, not "our house".
+  - `customs-of-the-monasteries`: Cassian's stated plan, not documented Gallic practice.
+- **Every citation of Cassian's year now carries "unbroken"**, in two demos and one limit.
+
+**Changed, Tier B (AI tells in spoken fields).**
+- The honesty preamble "So the honest answer is this" and the self-naming sentence that preceded it are removed from `gallic.demo.someone-like-me`.
+- Coined closers are removed in six demos, `dw.christ-in-the-beggar-and-the-guest`, and ten terms.
+- Effect pivots are removed: "not apostasy but cooling", "not a failure but a deserter", "a story, not a school".
+- The added four-beat list in `demo.who-chose-bishops` and the added framing in `quote.vincent-awful-expectation-of-judgment` are removed.
+- Present tense about the community's past becomes past in about 30 terms and in `dw.one-person-two-substances`. Five definitional term openings stay present.
+- Christ's identity goes back to the present in `dw.one-person-two-substances` ("Jesus is God") and `dw.the-christ-who-bears-the-wounds`.
+- "Historians" is gone from `limit.only-on-paper`, and "English word" from `term.conversion`.
+- Eight one-sentence story `tellable_as` (FK 16-23) are rewritten as short sentences, checked against each story's source.
+- Six non-spoken notes in edited files now match the new text: two demo body notes, two demo source loci, and two witness tension lines.
+
+**Review.** `Build/Ministry/Operations/Audits/gallic_record_audit_fixes_review_round1_2026-10-13.md` (independent Opus). Round 1 was FAIL on three blocking items, each a short fix: the angels-twelve fragments, the dropped "unbroken", and the customs claim. All three and every non-blocking item were applied. A targeted round-2 recheck (`gallic_record_audit_fixes_review_round2_2026-10-13.md`, same folder) confirmed all three blocking items resolved and passed. Its two small new points were applied: the causal "For" in `quote.vincent-awful-expectation-of-judgment`, and the never-settled source locus.
+
+**Not changed, and still OPEN.** These are confirmed findings outside this pass's scope by Mark's ruling, kept for a later pass:
+- **Story `text`.**
+  - discharge, "the scene the whole of Tours's memory turns on";
+  - election, his reluctance stated as fact;
+  - germanus, "for the brothers at Lerins" and grace and will "dividing" three stages;
+  - archebius, "Their example, not their words";
+  - honoratus, the Latin strings and "the sentence the tradition is remembered by";
+  - the paesius closer;
+  - record ids, including a broken id in the-three-lentil-beans, and long sentences in ten story texts.
+- **`gallic.voice.craft`.** The guard repeats "he says himself he was not present". The disagreement note gives Egypt's rule on exorcists as Marseilles's own.
+- **`gallic.core.gallic`.**
+  - horizon: Vincent "on the island", and "window";
+  - formation_logic: "every house tells its founder's elevation as capture";
+  - thinness: the virgins "behind" the body, and build words;
+  - cautions: the morning-service scene placed in Gaul. Corrected rewrites that keep every caution are in the audit notes.
+- **Force and gravity descriptions.**
+  - "Historians treat this force" (`force.barbarian-fiscal-ruin`);
+  - "Victorian propriety" (`force.transmission-in-ending`);
+  - "scourged at Milan" (`force.arian-scattering`, Illyria);
+  - "Everything Cassian wrote" went to bishops (`gravity.monk-bishop`, `force.renunciation-that-stays`);
+  - the straw and threads called relics (`gravity.virtus`, `force.fugitives-fill-the-sees`);
+  - contested targets stated as fact (`gravity.egypt-as-measure`, `gravity.grace-and-effort`, `force.africa-and-rome-pressure`);
+  - Doc_08, Layer and G-number labels in fifteen force descriptions;
+  - "this record holds" in the gravity descriptions.
+- **Cassian's year without "unbroken", in records outside this pass.** `gallic.voice.craft` ("none of us keeping the fathers' perseverance a year", which the voice reads), `gallic.gravity.received-not-invented`, `gallic.gravity.egypt-as-measure`, `gallic.figure.cassian` (outside its bridge_line) and `gallic.contested.egypt-two-measures`.
+- **Non-spoken senses.** "Men who heard only one side" in `gallic.term.beginning-of-a-good-will` senses.personal, and "the fillet that took him off" in `gallic.story.honoratus-and-the-island` absent_detail.
+
+**Gates.**
+- `engine.m10.cli records gallic`: PASS.
+- `regate gallic --base origin/main`: PASS.
+- `engine.m9.cli check`: PASS.
+- `engine.m2.cli determinism-check gallic`: PASS.
+- `check_live_commentary --surface records --base origin/main --enforce`: exit 0.
+- Readability findings fall from 101 to 77, so the `m1:readability/gallic` waiver in `engine/m9/enforce.py` is tightened to 77.
+- The package is rebuilt and pinned in `records/worlds/gallic.yaml`: `packages/gallic/2026-10-13T04-52-47Z`.
+- The site JSON is recompiled.
+
+Status: CLOSED for the records changed above. The out-of-scope items listed under "Not changed" stay OPEN.
+
+### OG-34. Voice faults in the 9 October admission run that no record causes, 2026-10-13.
+
+Read in full, the 28 gallic answers of the 9 October admission run (all passed) show faults that the voice produced on its own. No gallic record carries the words.
+
+(1) f2-e-probe-01 broke frame and spoke about the build. It said "every claim carries its source tag", "placed from its record", "any claim spoken past what the ground for this turn actually holds" and "A scholar who checked those admissions would find them accurate". It ran 1,060 words, most of them one pasted quote block. The syr run showed the same failure on the same probe (syr entry 28, item 1).
+
+(2) f6-e-probe-01 spoke as "I" throughout: "I do not know what you mean", "I speak only from the books our own houses left", "I will say so; that is the honest discipline we keep". This breaks the strict we-voice rule in `gallic.voice.craft`.
+
+(3) The voice made up closing lines of its own:
+- f3-e: "That is not underground. It is face to face, and what it cost him."
+- f3-i: "Authority was given, not taken. It was fled, then overtaken."
+- f5-p: "and the world, in the form of the Church, came after him anyway"
+- f2-p: "the life that makes dullness itself a proving"
+
+(4) The voice added detail that no record holds:
+- f3-e: "We had no catacombs to hide in".
+- f6-t: "The outsider Augustine, writing to us". Augustine wrote to Prosper and Hilary about the brethren, not to the brethren.
+- f6-i: "It was granted" leaves out Martin's promise to take communion.
+
+(5) Long voiced quote blocks were pasted into eight answers. This is already logged under the 9 October entry, item (13).
+
+These are engine and admission-battery matters, which this world's records cannot fix. Whether and how to address them is a cross-world decision for Mark.
+
+Status: OPEN.
