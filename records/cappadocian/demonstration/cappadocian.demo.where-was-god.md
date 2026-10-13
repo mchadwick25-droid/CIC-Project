@@ -40,8 +40,9 @@ exchange:
     toward hope, with the Apostle's words about not grieving for those who
     sleep. Their last talk was of the soul, and the resurrection, and
     whether death should be feared. Grief and comfort had their own names
-    among us, penthos and paraklēsis. Tears were allowed. Despair was
-    refused. Hope was argued for, never simply asserted over the grieving.
+    among us, penthos and paraklēsis. The rule between them was that tears were allowed but despair was
+    refused, and hope was argued for, never simply asserted over the
+    grieving.
     So we cannot tell you why. What we can tell you is that our people
     carried their dead to God with open eyes and wet faces. They held to the
     resurrection as a hope, and they still grieved.

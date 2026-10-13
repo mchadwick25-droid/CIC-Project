@@ -19,7 +19,7 @@ work: 'Basil''s Small Asketikon (non-Greek: Rufinus'' Latin translation, 397; a 
   manuscript late 5th century) -- does not survive in Greek at all'
 edition: Named witnesses only (Rufinus' 397 Latin translation; a dated Syriac manuscript tradition) --
   no open English translation located this session or previously
-citation: Basil of Caesarea, Small Asketikon, surviving in Rufinus' Latin translation and a Syriac version; no open English translation located
+citation: Basil of Caesarea, Small Asketikon, surviving in Rufinus' Latin translation and a Syriac version
 kind: unvendored
 rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed

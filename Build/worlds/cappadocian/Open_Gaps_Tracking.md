@@ -793,3 +793,13 @@ The 28 cappadocian answers of the 9 October admission run all passed. Read in fu
 9. f2-e-probe-01 opened with the template self-label and a scholar's frame ("not a historian judging my own record").
 
 These are engine and admission-battery matters, which this world's records cannot fix. Whether and how to address them is a cross-world decision for Mark. Status: OPEN.
+
+### OG-42. Review fixes and source citation lines, 2026-10-13.
+
+An independent review of PR #866 against the syr standard found the pass in scope, with nothing invented. Three fixes, made at the project lead's direction:
+
+1. Three quote renderings had one sentence each over 25 words, in clauses the pass left alone. Each is split, and every clause still renders the quote `text`: `cappadocian.quote.basil-on-common-life` (the foot sentence; "simply" dropped), `cappadocian.quote.basil-against-eunomius-ant` (first sentence and closing question), `cappadocian.quote.macrina-refuses-remarriage` (the remarriage sentence).
+2. Two fields had turned into staccato. `cappadocian.demo.where-was-god` joins "Tears were allowed. Despair was refused. Hope was argued for…" back into one sentence. `cappadocian.term.askesis` `plain_meaning` reads as plain sentences again, with its original nouns (fasting, night vigils, poverty, obedience).
+3. `cappadocian.demo.who-was-jesus` said the gap between creature and Maker "never closes", implying endless growth, which `cappadocian.term.theosis` gives to Gregory of Nyssa alone. It now says the creature "never crosses the gap", the shared teaching `cappadocian.term.theosis` states.
+
+Each of the 111 source records now carries a `citation` line, the one line a participant reads for it on a source card and the site. Each line is written from the record's own author, work and edition fields, with no library notes. The `m9:source-citation/cappadocian` waiver is removed. Two findings stay open from OG-40: the guest-food rule in `cappadocian.demo.someone-like-me` rests on the Longer Rules, which the demo does not cite, and `cappadocian.story.thaumaturgus-legend` says "a city" where its `text` says "region". Status: CLOSED for the three fixes and the citation lines.

@@ -69,14 +69,15 @@ modern_rendering: >-
   marriage. So she resolved to stay single from then on, as if the marriage
   had really taken place. Her resolve held firmer than anyone would have
   expected from someone her age. Her parents kept bringing her fresh
-  proposals -- her beauty attracted many suitors. Each time, she said it was
-  absurd and unlawful not to keep faith with the marriage her father had
-  arranged for her, yet be compelled to consider another. In the nature of
-  things, she said, there is only one marriage, just as there is one birth
-  and one death. She insisted that the man bound to her by her parents'
-  arrangement was not dead. Because of the hope of the resurrection, she
-  believed he was alive with God -- only away, not gone. So it would be
-  wrong, she said, not to keep faith with the bridegroom who was away.
+  proposals -- her beauty attracted many suitors. Each time, she said it
+  was absurd and unlawful not to keep faith with the marriage her father
+  had arranged for her. To be compelled to consider another was just as
+  absurd and unlawful. In the nature of things, she said, there is only one
+  marriage, just as there is one birth and one death. She insisted that the
+  man bound to her by her parents' arrangement was not dead. Because of the
+  hope of the resurrection, she believed he was alive with God -- only
+  away, not gone. So it would be wrong, she said, not to keep faith with
+  the bridegroom who was away.
 use_note:
   means: "Gregory of Nyssa's Life of Macrina narrates, in indirect speech, her reasoning that her dead betrothed was only absent, so another marriage would be unfaithful."
   not_for:

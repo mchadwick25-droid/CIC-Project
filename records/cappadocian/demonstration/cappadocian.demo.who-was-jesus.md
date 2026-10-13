@@ -33,8 +33,8 @@ exchange:
     because it was the most exact word we had for what needed saying. But
     ask what he was to us, and the deepest answer is what he does. Our
     teachers said salvation itself is becoming god by grace - theōsis, our
-    boldest word. The creature grows into God's own likeness, and the gap
-    between creature and Maker never closes. That is why the fight mattered:
+    boldest word. The creature grows into God's own likeness, but it never crosses the gap
+    between creature and Maker. That is why the fight mattered:
     if the Son makes gods of us, the Son cannot be a creature, because no
     creature makes gods. And we met him where our whole life started - at
     the water. We were baptized into his Name with the Father and the

@@ -17,7 +17,7 @@ relations: []
 author: Attributed to Basil of Caesarea (split attribution; see attribution_status)
 work: The 'Liturgy of St Basil' (transmitted anaphora)
 edition: No vendored or independently locatable edition this session
-citation: The Liturgy of St Basil (transmitted anaphora), attributed to Basil of Caesarea; no edition located
+citation: The Liturgy of St Basil (transmitted anaphora), attributed to Basil of Caesarea
 kind: unvendored
 rights_status: "not applicable - no single specific text has been identified for this row; it names a person, general pattern, or unlocated corpus rather than a held text"
 attribution_status: contested (a Basilian core, argued substantially from the Egyptian recension E-BAS,

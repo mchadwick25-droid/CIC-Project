@@ -35,7 +35,7 @@ edition: 'No open edition of the complete treatise acquired -- no open-license E
   complete translation, copyrighted and excluded). Not to be confused with Epistle XVI ("Against Eunomius
   the heretic"), a distinct, shorter letter genuinely vendored within cic/texts/npnf208_basil-letters-select-works.xml''s
   Letters division, covering adjacent epistemological ground in Basil''s own voice.'
-citation: Basil of Caesarea, Against Eunomius (books 1-3); no open English translation of the complete treatise held
+citation: Basil of Caesarea, Against Eunomius (books 1-3)
 kind: vendored
 rights_status: "not applicable to the treatise itself - no text of it is vendored or acquired to hold rights over (a separately vendored epistle by the same author carries public-domain status)"
 attribution_status: attributed

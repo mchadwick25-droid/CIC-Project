@@ -20,7 +20,7 @@ author: Gregory of Nazianzus
 work: Gregory of Nazianzus' will (manumits slaves he owned)
 edition: Cited at work level per Doc_02 SS1.2/SS6.3; no specific vendored edition independently matched
   this session
-citation: Gregory of Nazianzus, his will, which manumits slaves he owned; no specific edition located
+citation: Gregory of Nazianzus, his will, which manumits slaves he owned
 kind: unvendored
 rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed

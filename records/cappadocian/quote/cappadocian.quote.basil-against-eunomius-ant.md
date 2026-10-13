@@ -58,17 +58,17 @@ relations:
   target: cappadocian.dw.want-to-believe
 modern_rendering: >-
   Anyone who claims he can discover things as they really are must have
-  trained his mind by some orderly method, through knowing things that
+  trained his mind by some orderly method. He did so by knowing things that
   really exist. He must have practised first on small, easy things. Only
-  then could he turn his mind to what is beyond all understanding. He boasts
-  that he has truly grasped real things. Then let him explain to us the
-  nature of the smallest thing we can see. Let him tell us all about the
-  ant. [...] Someone who prides himself on knowing what really is should
-  tell us about the nature of the ant first. Next let him give us a similar
-  account of nature for the power that is beyond all human understanding.
-  But if your knowledge has not yet grasped the nature of the tiny ant, how
-  can you boast that you can form an idea of the power of the God no one can
-  grasp?
+  then could he turn his mind to what is beyond all understanding. He
+  boasts that he has truly grasped real things. Then let him explain to us
+  the nature of the smallest thing we can see. Let him tell us all about
+  the ant. [...] Someone who prides himself on knowing what really is
+  should tell us about the nature of the ant first. Next let him give us a
+  similar account of nature for the power that is beyond all human
+  understanding. But suppose your knowledge has not yet grasped the nature
+  of the tiny ant. Then how can you boast that you can form an idea of the
+  power of the God no one can grasp?
 use_note:
   means: "Basil's short Letter XVI mocks Eunomius's claim to know God's essence by asking him first to explain the nature of an ant."
   not_for:

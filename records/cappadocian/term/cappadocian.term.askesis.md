@@ -39,11 +39,11 @@ relations:
 - type: associated-with
   target: cappadocian.term.koinonia
 plain_meaning: >-
-  We took the word for an athlete's training. We used it for fasting,
-  keeping watch at night, being poor, and obeying. We prized these things,
-  but we also kept them in check. Some broke up a home for the sake of
-  giving things up. Some fasted on the Lord's day, or scorned the martyrs'
-  feasts. They were corrected, not praised.
+  We took the word for an athlete's training and used it for fasting, night
+  vigils, poverty and obedience. We prized these practices, but we also
+  kept them in check. Some broke up a home for the sake of giving things
+  up, and some fasted on the Lord's day or scorned the martyrs' feasts.
+  They were corrected, not praised.
 world_word: askēsis
 false_friend:
 - a self-improvement regimen
