@@ -55,8 +55,7 @@ text: >-
   Spirit's full standing and were finally condemned with the rest. The
   teachers who formed us became curriculum, liturgy, and law for the
   traditions that trace themselves back through the councils. We lived
-  through one of those councils, at Constantinople. Churches today still
-  argue in the words we fought for.
+  through one of those councils, at Constantinople.
 positions:
 - rival Christian confessions (Homoian, Eunomian, Pneumatomachian) were real, named, argued-with
   neighbors, not invented opponents

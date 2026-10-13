@@ -33,7 +33,7 @@ exchange:
     Others among us resented the silence and pressed to say it plainly, now,
     whatever it cost. Both sides loved the same Spirit. Why Basil held back
     - care for the weak in the congregation, caution under a hostile court,
-    or a real reserve in his own thought - our letters give all three
+    or a real reserve in his own thought - our own writings give all three
     reasons and settle none of them. Even the creed our victory wrote took
     the Spirit's glory in worship's own form, together worshipped and
     together glorified, and still left the bare word unsaid. We do not know

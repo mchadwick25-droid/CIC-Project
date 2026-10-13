@@ -33,7 +33,7 @@ text: >-
   understanding built slowly on top of repetition, not the other way round.
   That was not a lesser path than the treatise-reader's path. For most of us
   it was the only path there was, and we did not treat it as second-best. We
-  have no word from our own teachers about the violence in our scriptures.
+  cannot give you our teachers' answer on the violence in our scriptures.
 positions:
 - reception before analysis, practiced through repeated psalm-singing at fixed hours, was this world's
   own actual method of scriptural formation for most believers

@@ -44,7 +44,7 @@ exchange:
     arguments she makes in his pages. Which words are hers and which are
     his, we cannot now tell apart. Her own voice was not written down. That
     is what authority could look like for a woman among us. It was real, and
-    it carried a teacher's title. Her own voice was not kept.
+    it carried a teacher's title.
 ---
 F6-P worked exchange matching hal.demo.woman-authority's and alx's
 precedent for this canon_question_id: tagged identity-collision at the

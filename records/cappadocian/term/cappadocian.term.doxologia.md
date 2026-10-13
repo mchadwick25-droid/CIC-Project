@@ -43,12 +43,12 @@ relations:
 - type: associated-with
   target: cappadocian.term.theosis
 plain_meaning: >-
-  Our fight over the Holy Spirit broke out over one line of prayer. Basil
-  gave glory to the Father with the Son, together with the Holy Spirit. He
-  also used the older form, through the Son in the Spirit. Some said his
-  words were new and contradicted each other. He answered that the words of
-  worship carried what the church believed. To change them was to change the
-  faith.
+  One flashpoint in our fight over the Holy Spirit was a single line of
+  prayer. Basil gave glory to the Father with the Son, together with the
+  Holy Spirit. He also used the older form, through the Son in the Spirit.
+  Some said his words were new and contradicted each other. He answered that
+  the words of worship carried what the church believed. To change them was
+  to change the faith.
 world_word: doxa / doxologia
 false_friend:
 - liturgical wording as a matter of taste or style

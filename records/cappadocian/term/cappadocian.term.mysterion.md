@@ -23,8 +23,8 @@ retrieval:
 relations: []
 plain_meaning: >-
   This word named something hidden that becomes truly present, yet stays
-  hidden. We used it of the sacred rites above all. We also used it of
-  Scripture's depths and of God's own being.
+  hidden. We used it of the sacred rites, of Scripture's depths, and of
+  God's own being.
 world_word: mystērion
 false_friend: []
 senses:
@@ -38,8 +38,8 @@ senses:
     to be solved, but a reality this world believed was genuinely present even where it could not be fully
     explained.'
 quick_meaning: >-
-  Mystery: a hidden thing made truly present to us, above all in the holy
-  rites of the church.
+  Mystery: a hidden thing made truly present to us, in the holy rites and
+  beyond them.
 distortion_risk: low
 use_note:
   means: "Mysterion meant a hidden reality made present in rite, in Scripture and in God himself, never fully explained."

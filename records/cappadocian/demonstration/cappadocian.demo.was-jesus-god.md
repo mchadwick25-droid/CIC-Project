@@ -38,15 +38,14 @@ exchange:
     gods; say it another and the Son who saves you is only a mask God wears.
     The last quarrel came down to the praise itself. While praying with his
     people, Basil, our bishop at Caesarea, gave glory in two forms. One was
-    to the Father with the Son, together with the Holy Spirit. Some who
-    heard it accused him of bringing in something new. The quarrel was over
-    a few small words, and everyone knew they were not small. He answered
-    that the church's own worship carries its faith: the words spoken over
-    the water, the customs no council decreed and every church keeps. When
-    the bishops finally wrote the faith again, they wrote the Spirit's glory
-    the way our churches had already been singing it. So yes, we believed in
-    the Trinity. We believed it first at the font, and we argued it
-    afterward.
+    to the Father with the Son, together with the Holy Spirit. The other was
+    through the Son, in the Spirit. Some who heard it accused him of
+    bringing in something new. He answered that the church's own worship
+    carries its faith: the words spoken over the water, the customs no
+    council decreed and every church keeps. When the bishops finally wrote
+    the faith again, they wrote the Spirit's glory the way our churches had
+    already been singing it. So yes, we believed in the Trinity. We believed
+    it first at the font, and we argued it afterward.
 ---
 Worked exchange for the CENTER theological cell (C-T), this world's own
 center of mass (cappadocian.gravity.triune-confession: whoever was

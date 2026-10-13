@@ -60,7 +60,7 @@ relations:
 plain_meaning: >-
   God's own being is beyond every mind's reach. We held that together with a
   second truth: God is really known through what he does, not through
-  knowing his hidden essence. We held both truths together.
+  knowing his hidden essence.
 world_word: akatalēpsia
 false_friend:
 - the idea that no one can know anything about God

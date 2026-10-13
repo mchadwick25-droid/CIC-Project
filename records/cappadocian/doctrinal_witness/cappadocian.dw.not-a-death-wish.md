@@ -43,10 +43,11 @@ text: >-
   telling, that story does not celebrate wanting to die. It keeps together
   one man's very human failure and another man's sudden change of heart.
   Decades later, under the last persecuting emperor, one of our own,
-  Eupsychius of Caesarea, was put to death. We kept his feast every year. We
-  have no word from our own side of what he said at the end. Wanting to die
-  was never the virtue we named. The virtue we named was refusing to deny
-  the faith when denial was the one way out.
+  Eupsychius of Caesarea, was put to death. A later church writer says he
+  was condemned for helping to pull down the temple of Fortune in our city.
+  We kept his feast every year. Wanting to die was never the virtue we
+  named. The virtue we named was refusing to deny the faith when denial was
+  the one way out.
 positions:
 - the Forty of Sebaste's own tradition includes one who broke under the cold and one who took his place,
   held together honestly rather than smoothed into pure heroism

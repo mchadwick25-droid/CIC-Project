@@ -39,15 +39,15 @@ retrieval:
 text: >-
   If a husband or wife had died, the one left could marry again among us. We
   allowed it as a concession, not as an equal good. A year of penance came
-  first, sometimes two, and then full return to communion. Divorce was
+  first (some said two), and then full return to communion. Divorce was
   harder. A man who left his lawful wife was judged by the Lord's word to be
   an adulterer. His penance ran in stages through a seventh year before he
   shared the offering again. A wife who left her husband and went to another
-  was judged an adulteress. A husband whose wife left him could be pardoned.
-  Our own bishop said the Lord's rule bound men and women alike, but custom
-  did not judge them alike. Our moral rules had held both to one standard.
-  Neither the one who sent a spouse away nor the one sent away was to marry
-  again.
+  was judged an adulteress. A husband whose wife left him could take another
+  wife and be pardoned. Our own bishop said the Lord's rule bound men and
+  women alike, but custom did not judge them alike. Our moral rules had held
+  both to one standard. Neither the one who sent a spouse away nor the one
+  sent away was to marry again.
 positions:
 - second marriage after a genuine ending was permitted as a tolerated concession, with a set penance and
   a real, documented path back into full communion

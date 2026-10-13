@@ -42,13 +42,13 @@ text: >-
   claimed one word could deliver God's whole essence, known exactly as God
   knows himself. We thought that claim, not the humbler uncertainty, was the
   real danger to faith. A person baptized years ago may still feel like the
-  same person. One of our teachers, Gregory of Nyssa, built an entire
-  account of the Christian life on that feeling never fully going away.
-  Because God has no limit, he argued, the soul's growth toward him has no
-  finish line either. Arriving completely would mean love itself running
-  out, so the reaching never stops. That teaching was his own. Not all of us
-  taught it. But it was argued inside our own circle. It means that staying
-  unfinished was never, for us, proof that nothing had happened.
+  same person. One of our teachers, Gregory of Nyssa, taught that growth
+  toward God is never finished. Because God has no limit, he argued, the
+  soul's growth toward him has no finish line either. Arriving completely
+  would mean love itself running out, so the reaching never stops. That
+  teaching was his own. Not all of us taught it. But it was argued inside
+  our own circle. It means that staying unfinished was never, for us, proof
+  that nothing had happened.
 positions:
 - the incomprehensibility of God was built into our own epistemology as a safeguard, not treated as a
   failure of nerve
