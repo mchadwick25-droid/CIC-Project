@@ -1493,7 +1493,7 @@ Records changed by type: ambient 3, contested_claim 9, demonstration 11, doctrin
 
 **Citations.** `citation:` added to all 76 source records from their own author, work and edition words; the `m9:source-citation/don` waiver is deleted.
 
-**Gates.** See the final entry line below.
+**Gates.** `engine.m9.cli check`, both staleness checks, `tools/check_paths.py`, `tools/check_live_commentary.py --enforce`, `engine.m10.cli records don`, `engine.m10.cli regate don --base origin/main`, the m9, m1 and `test_citation_cards` tests: pass. Waivers: `m1:readability/don` tightened from 320 to 232; `m9:source-citation/don` (76) deleted. Package rebuilt after the last record edit: `records/worlds/don.yaml` pins `packages/don/2026-10-13T19-59-53Z`, `manifest_hash` `sha256:7b6794b46487ee480325cfa56d03b3709e4abb4919b744c699048032f0009f4e`. The site JSON was recompiled.
 
 Status: CLOSED for the fixes listed. Items found and not fixed are in OG-33.
 
