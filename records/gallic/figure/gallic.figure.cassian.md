@@ -26,7 +26,7 @@ confidence:
     item 5). Every locus below read directly at Doc_09.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: 'Preface (for Castor''s new monastery; the refusal to "weave a tale of God''s miracles and signs"); II.4-6 (the angel and the twelve psalms); IV.2 (no Gallic monk keeping it "even for a year"); IV.19-20 (the three lentils); V.27 (Paesius and John)'
+  locus: 'Preface (for Castor''s new monastery; the refusal to "weave a tale of God''s miracles and signs"); II.4-6 (the angel and the twelve psalms); IV.2 (no one who joined "our monasteries keeping it up unbroken even for a year"); IV.19-20 (the three lentils); V.27 (Paesius and John)'
   license: public-domain
 - source_id: gallic.source.cassian-conferences-part-i
   locus: 'Preface I (to Leontius and Helladius); I.7 ("aids to perfection")'

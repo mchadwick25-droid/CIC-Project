@@ -15,9 +15,8 @@ confidence:
     Documented that Sulpitius's corpus is organized by virtus and that Cassian refuses it (the
     texts' own statements: Vita VII; Ep. I; Dial. III.6, III.15; Inst. Pref., I.2; Conf. XV.7);
     Widely Accepted for Martin's fame (Gennadius). The Lérins complication (Eucherius, row 26, file
-    line 452) is Inferential/Thin for wording. The historicity of the miracles is not asserted; the
-    Vita Antonii model question (row 34; Stancliffe, row 18, unread) is an open item, not a recorded
-    scholarly contest. Evidentiary weight set to contested because the force itself is a real
+    line 452) is Inferential/Thin for wording. The historicity of the miracles is not asserted. Whether
+    the Vita Antonii was Sulpitius's model (row 34; Stancliffe, row 18) is not settled in these texts. Evidentiary weight set to contested because the force itself is a real
     tension between the two houses, neither side's own text resolving it. The Egyptian refusal is
     presented as received teaching, not as something Gaul itself came up with.
 sources:
@@ -70,16 +69,16 @@ name: "Power displayed against power disowned - virtus and humility, a tension t
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  The two nodes' literatures are each built from what the other refuses, and neither ever
-  addresses the other directly.
+  The two houses' literatures are each built from what the other refuses, and neither ever addresses
+  the other directly.
 
   The north's is a literature of power shown. At the deathbed of a catechumen, Martin prayed and
-  sensed that God's power was present, then raised him back to life (Vita VII). His
-  letters defend that same power against a skeptic (Ep. I). When he cast out demons, he did it
-  face-down in sackcloth, the door bolted, without touching or scolding anyone (Dial. III.6). The
-  north also tells a story about doubt from within: Brictio, raised in Martin's own monastery but
-  by then a member of the clergy, in a fit of rage mocked Martin's own visions as an old man's
-  ridiculous fancy - and that same man, the story shows, had a demon of his own (Dial. III.15).
+  sensed that God's power was present, then raised him back to life (Vita VII). His letters defend
+  that same power against a skeptic (Ep. I). When he cast out demons, he did it face-down in
+  sackcloth, the door bolted, without touching or scolding anyone (Dial. III.6). The north also
+  tells a story about doubt from within: Brictio, raised in Martin's own monastery but by then a
+  member of the clergy, in a fit of rage mocked Martin's own visions as an old man's ridiculous
+  fancy - and that same man, the story shows, had a demon of his own (Dial. III.15).
 
   The south's teacher refuses this on principle. Cassian will not tell stories of miracles and
   signs, however many he has seen, because they only astonish a reader and teach nothing about how
@@ -88,24 +87,24 @@ description: >-
   mistress of every virtue (Conf. XV.7). Even dress carries the argument: the Egyptian fathers
   flatly rejected sackcloth as showy and conspicuous (Inst. I.2), the very thing Martin wears as a
   weapon. Inside the south itself, Eucherius still admires the Egyptian fathers' own visible signs
-  of grace - the real argument here runs between Cassian and Sulpitius, not between south and
-  north as a whole.
+  of grace - the real argument here runs between Cassian and Sulpitius, not between south and north
+  as a whole.
 
-  At Tours, power was something shown, not owned - more of it in Martin the monk than in Martin
-  the bishop, and less of it after one forced communion he came to regret. It was shown before
-  witnesses, in a garment everyone could see, for the sake of the countryside. At Marseilles, a
-  good monk was known by how he lived, not by whether devils obeyed him; claiming to be an
-  exorcist before a crowd was vanity, and sackcloth was performance. Each house lived inside its
-  own logic. The north does measure itself directly against Egypt elsewhere in its own literature -
-  but the south's fathers never name Martin or Sulpitius. Whether Cassian's refusal of
-  miracle-tales is a veiled answer to Sulpitius is an open question this record does not settle.
+  At Tours, power was something shown, not owned - more of it in Martin the monk than in Martin the
+  bishop, and less of it after one forced communion he came to regret. It was shown before
+  witnesses, in a garment everyone could see, for the sake of the countryside. At Marseilles, a good
+  monk was known by how he lived, not by whether devils obeyed him; claiming to be an exorcist
+  before a crowd was vanity, and sackcloth was performance. Each house lived inside its own logic.
+  The north does measure itself directly against Egypt elsewhere in its own literature - but the
+  south's fathers never name Martin or Sulpitius. Whether Cassian's refusal of miracle-tales is a
+  veiled answer to Sulpitius is an open question.
 
-  This tension runs through the whole ecology. It splits every lens the same way - display against
-  concealment, wonder against caution, a public act against a private ledger - and it even makes
-  the same word, compunction, curve in opposite directions at the two houses. The two halves of
-  this world's formation share a skeleton, but not a flesh. As an ongoing force, each house simply
-  kept living inside its own economy for the whole period; the two houses never argue with each
-  other by name in any surviving text.
+  This tension runs through this whole world. It splits every lens the same way - display against
+  concealment, wonder against caution, a public act against a private ledger - and it even makes the
+  same word, compunction, curve in opposite directions at the two houses. The two halves of this
+  world's formation share a skeleton, but not a flesh. As an ongoing force, each house simply kept
+  living inside its own economy for the whole period; the two houses never argue with each other by
+  name in any surviving text.
 manifestations:
 - "Martin's virtus present, not owned - shown before witnesses, in sackcloth, for the countryside (Vita VII; Dial. III.6)"
 - "Brictio's 'ridiculous fancies about visions' - doubt policed from within the north (Dial. III.15)"

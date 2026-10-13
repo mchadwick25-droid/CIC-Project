@@ -84,32 +84,30 @@ tellable_as: >-
   city under a kind of guard. Some bishops object to his mean clothes and his hair. A psalm read at
   random answers them.
 text: >-
-  In his Life of St. Martin, Sulpitius Severus records how Martin, a monk, was made bishop of Tours -
-  against his own wish, by a trick, and against some of the bishops.
+  In his Life of St. Martin, Sulpitius Severus records how Martin, a monk, was made bishop of Tours.
+  He was drawn out by a trick, and some of the bishops opposed him.
 
-  Martin was asked to take the bishopric of Tours, but he would not easily leave his monastery. So a
-  citizen named Ruricius pretended his wife was sick, knelt before Martin, and begged him to come out -
-  and once Martin agreed, citizens lining the road escorted him into the city as if under guard
-  (gallic.quote.ruricius-and-the-vote-for-tours). An enormous crowd had gathered to vote, from Tours and
-  the neighboring towns, and nearly everyone agreed: Martin deserved the office, and the church would be
-  fortunate to have him as its priest.
+  Martin was asked to take the bishopric of Tours, but he could not easily be drawn out of his
+  monastery. So a citizen named Ruricius pretended his wife was sick. He knelt before Martin and
+  begged him to come out. Once Martin agreed, citizens lining the road escorted him into the city as
+  if under guard. An enormous crowd had gathered to vote, from Tours and the neighboring towns. Nearly
+  everyone agreed: Martin deserved the office, and the church would be fortunate to have him as its
+  priest.
 
-  Not everyone. A few people, including some of the bishops summoned to consecrate the new priest,
-  fought the choice - they called Martin's person contemptible, his face plain, his clothes shabby, and
-  his hair disgusting. The crowd only laughed, since the objection proved the very holiness it tried to
-  deny. One bishop, Defensor, led the opposition.
+  Not everyone. A few people fought the choice, among them some of the bishops summoned to consecrate
+  the new priest. They called Martin's person contemptible, his face plain, his clothes shabby, and
+  his hair disgusting. The crowd only laughed, since the objection proved the very holiness it tried
+  to deny. One bishop, Defensor, led the opposition.
 
   What answered him was the psalter. The reader due to speak that day could not get through the crowd
-  and never appeared. While the officials stood confused, someone nearby seized the psalter and opened
+  and never appeared. The officials stood confused. Then someone nearby seized the psalter and opened
   it to whatever verse came first: Out of the mouth of babes and sucklings thou hast perfected praise
   because of thine enemies, that thou mightest destroy the enemy and the avenger. The crowd shouted at
   the reading, and Defensor's side fell silent. People believed the verse had been chosen by God
-  himself, so that Defensor could hear, in Martin's case, a testimony to his own resistance
-  (gallic.quote.the-psalm-that-answered-defensor).
+  himself, so that Defensor could hear, in Martin's case, a testimony to his own resistance.
 
-  And then, Sulpitius goes on in the next chapter, the new bishop did not change: he carried himself
-  with the dignity a bishop's office required, without giving up the plain habits of a monk
-  (gallic.quote.martin-kept-the-virtues-of-a-monk).
+  And then, Sulpitius goes on in the next chapter, the new bishop did not change. He carried himself
+  with the dignity a bishop's office required. Yet he did not give up the plain habits of a monk.
 absent_detail: >-
   The text gives no year for the election and does not name the monastery Martin was drawn from. The
   objecting bishops' own side is not heard; Sulpitius is no friend to them. The two nodes never cite

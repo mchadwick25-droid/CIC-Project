@@ -55,30 +55,32 @@ name: "The resolution of G9 from within - the men formed to flee office fill the
 kind: ending
 matrix_cell: 3B
 description: >-
-  SOUTH - the internal counterpart of 3A-1: the houses' own product (G1) and their own rule of
-  suspicion (2B-3) resolved, over two generations, into an episcopal network. Honoratus and Hilary
-  'afterwards successively bishops of Arles, and Faustus, afterwards bishop of Riez'; a bishop's
-  sons taught by four Lérins teachers and made bishops; the tutelage chain itself the record of a
-  house whose ministry was to form bishops. No Native voice narrates this as a fracture. NORTH - the
-  distinct form of Tours closes with its founder's death: the cult begins in Martin's own generation
-  and in the medium that formed him - 'Martin is praised with the divine psalms' (Ep. III) - and the
-  hagiographer's corpus closes c. 406. Gennadius's charge that Sulpitius 'In his old age, he was led
-  astray by the Pelagians' is Contested and carried unresolved (Doc_08 Cell 3B, Force 3B-1). WORLD'S
-  OWN EXPERIENCE (Layer 2): in the south the brethren saw their teachers taken one after another for
-  Arles and Riez and Lyons, and told it as they had always told it - the fillet on the fugitive - so
-  that the ending looked, from within, like the life's ordinary shape repeated. In the north the
-  disciples buried the master with psalms and a choir of virgins, 'young soldiers who had just taken
-  the oath of allegiance to Christ' walking in the procession, and began at once to remember him:
-  the power that had been present in him was present in his straw and his threads, and a Life was
-  written so the example would not be lost. 'At neither house did anyone name an ending.' FORMATION
-  IMPACT (Layer 3): G9 resolved in one direction is, in Doc_04's words, the world's boundary; G1
-  became the world's exit; and the formation-community register - a founder-bishop's household, a
-  program received into cells - gave way to an episcopal network and a cult. What successor
-  communities received: the sees, the men, the cult of Martin, and the books; 'what was abandoned
-  was the tension itself - a Church that took its bishops from Lérins no longer needed to distrust
-  the office it was filling.' For the north, G6 passed 'from a living saint's power to a relic's and
-  a psalm's' - 'a world whose rule is that only the old is legitimate memorializes itself in the
-  present tense' - which is the form in which Tours reached everything after it.
+  In the south, the houses' own product, the monk-bishop, met their own suspicion of office. Over
+  two generations the two resolved into a network of bishops. Honoratus and Hilary were 'afterwards
+  successively bishops of Arles, and Faustus, afterwards bishop of Riez.' A bishop's sons were
+  taught by four Lérins teachers and made bishops. The chain of teaching itself records a house
+  whose ministry was to form bishops. No voice from inside the houses tells this as a
+  breaking-point.
+
+  In the north, the distinct form of Tours closes with its founder's death. The cult began in
+  Martin's own generation, in the medium that formed him: 'Martin is praised with the divine psalms'
+  (Ep. III). The hagiographer's writings close about 406. Gennadius charges that Sulpitius 'In his
+  old age, he was led astray by the Pelagians.' That charge is contested and left unresolved.
+
+  In the south the brethren saw their teachers taken one after another for Arles and Riez and Lyons.
+  They told it as they had always told it, as the fillet placed on the fugitive. So the ending
+  looked, from within, like the life's ordinary shape repeated. In the north the disciples buried
+  the master with psalms and a choir of virgins. In the procession walked 'young soldiers who had
+  just taken the oath of allegiance to Christ.' They began at once to remember him, and a Life kept
+  his example from being lost. At neither house did anyone name an ending.
+
+  The ambivalence toward authority, resolved in one direction, marks the world's boundary. The
+  monk-bishop became the world's way out. The life of a formation community gave way to a network of
+  bishops and a cult. That life had been a founder-bishop's household, or a program received into
+  cells. Successor communities received the sees, the men, the cult of Martin and the books. What
+  they abandoned was the tension itself. A Church that took its bishops from Lérins no longer needed
+  to distrust the office it was filling. A world whose rule was that only the old is legitimate
+  remembered its saint in the present tense. In that form Tours reached everything after it.
 manifestations:
 - "Honoratus, Hilary, and Faustus taken from L\u00e9rins for Arles and Riez; Eucherius's sons taught by four L\u00e9rins teachers and made bishops - the tutelage chain as the record of a bishop-forming house"
 - "No Native voice narrating the southern succession as a fracture - the fillet on the fugitive, repeated"

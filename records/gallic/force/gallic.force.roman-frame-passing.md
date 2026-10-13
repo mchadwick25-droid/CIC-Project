@@ -34,16 +34,11 @@ name: "The passing of the Roman political frame - Layer 1 only [3A - ending/exte
 kind: ending
 matrix_cell: 3A
 description: >-
-  The Atlas's next entry, merovingian-gallic-christianity (c. 480-620), opens onto a post-Roman,
-  Frankish, royal-episcopal Gaul, and both census entries assert continuity across the interval this
-  world's ceiling opens onto ('seedbed'; 'receives Martin of Tours's line'). The in-window witness
-  to the frame's passing is Salvian alone (2A-5); Engelbrecht's Prolegomena place Faustus's later
-  exile and the Gothic occupation of Arles and Marseilles in the 470s-480s, outside the window
-  (Doc_08 Cell 3A, Force 3A-2). LAYER 1 ONLY, by Doc_08's stated Proportionality decision: no Native
-  voice in the window interprets the political transformation as the end of anything, and Doc_04,
-  Doc_05 §1.4, and Doc_07 §4 all found the barbarian force attaching substantively to G10 alone.
-  'The interval's own shape (Faustus, the synods, Sidonius) is a housekeeping gap between two census
-  entries, not an evidentiary void, and is recorded, not reconstructed.'
+  After this world's span, Roman Gaul gave way to a Frankish Gaul ruled by kings and bishops. Inside
+  this world's span, only Salvian witnesses the passing of the Roman frame. He reads it as God's
+  judgment, not as a change of order. Faustus's exile and the Gothic occupation of Arles and
+  Marseilles came later, after this world's span. No voice inside it treats the political change as
+  the end of anything.
 manifestations:
 - "The census's next entry opening onto a post-Roman, Frankish, royal-episcopal Gaul c. 480 - 'seedbed' and 'receives Martin of Tours's line' continuity claims, unreconciled"
 - "Salvian as the only in-window Native witness to the frame's passing, and he reads it as judgment"

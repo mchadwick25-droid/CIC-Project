@@ -65,38 +65,42 @@ name: "Transmission - who carried this world's material, and what they selected 
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  Inside the window, by the world's own hands: at Marmoutier 'No art was practiced there, except
-  that of transcribers, and even this was assigned to the brethren of younger years' (Vita X); at
-  Marseilles Cassian's books are written to work in the teacher's absence, for 'those who perhaps
-  may meet only with this book' (Inst. II.9); at Lérins Vincent writes a remembrancer 'to provide
-  against my forgetfulness,' of which a thief took the greater part of the second book (Gennadius
-  ch. LXV), and Hilary writes his predecessor's Life; Gennadius himself, at Marseilles c. 495, is
-  the first outside transmitter. Beyond the window, by later hands, named: Gazet (1616), who omitted
-  Inst. I.10-11; Dionysius Carthusianus's paraphrase, which 'in his endeavour to make Cassian
-  orthodox, omits all that savours of Semi-Pelagianism' from Conf. XIII; Petschenig; Halm and the
-  earlier Sulpitius editors; Gibson's NPNF English, which marks Conf. XII 'Not translated,' Conf.
-  XXII 'omitted,' and Inst. VI 'omit altogether' - three body/sexuality texts, one hand, no reason
-  stated; Heurtley, Richardson, Warfield; npnf101's declared policy under which Letters 221-226 are
-  absent; and, downstream, the Rule of Benedict's commendation. The Lérins insiders' Latin reaches
-  this build only as rough OCR of Migne, and Faustus only as Engelbrecht's 1891 Latin (Doc_08 Cell
-  2B, Force 2B-2). WORLD'S OWN EXPERIENCE (Layer 2): the brethren did not think of themselves as
-  handing the world on; they thought they were keeping what they had received. A Life was written so
-  that a man worthy of imitation should not remain unknown; the Institutes were 'not mine but the
-  fathers''; the Commonitory was written 'with the fidelity of a narrator rather than the
-  presumption of an author,' against forgetting; the young at Marmoutier copied because copying was
-  the one craft the elders allowed them. What they believed they were preserving was the tradition
-  of the elders - never their own invention, which the rule of reception forbade them to pass on.
-  That the tradition would itself be cut by a later keeper for orthodoxy's sake, or the body cut out
-  by a translator, was outside anything the world could have imagined of its own keeping. FORMATION
-  IMPACT (Layer 3): Doc_05 §7.3's pattern carried: 'the two forces that most shaped what this build
-  can know are a fifteenth-century doctrinal editor acting on G3 and a nineteenth-century translator
-  acting on the body; neither touched virtus, the office, or the rule of faith.' Transmission
-  favoured the Institutes and Conferences as a portable program, the Vita and Dialogues as a cult's
-  foundation, and the Commonitory as a quotable rule; it carried thin or cut the grace teaching in
-  its own conference (G3's fracture), chastity and the body (G7's fracture at its body edge), the
-  Massilian reports in the reporters' own words, the Lérins insiders' Latin, and the women's houses.
+  In this world's own time, the world was handed on by its own hands. At Marmoutier 'No art was
+  practiced there, except that of transcribers, and even this was assigned to the brethren of
+  younger years' (Vita X). At Marseilles, Cassian's books are written to work in the teacher's
+  absence, for 'those who perhaps may meet only with this book' (Inst. II.9). At Lérins, Vincent
+  writes an aid to memory 'to provide against my forgetfulness.' A thief took the greater part of
+  its second book (Gennadius ch. LXV). Hilary writes his predecessor's Life. Gennadius himself, at
+  Marseilles after this world's span, is the first outside transmitter.
+
+  Later hands can be named. Gazet (1616) left out Inst. I.10-11. Dionysius Carthusianus paraphrased
+  Cassian. In Conf. XIII, 'in his endeavour to make Cassian orthodox,' he 'omits all that savours of
+  Semi-Pelagianism.' Then come Petschenig, Halm and the earlier editors of Sulpitius. Gibson's
+  English in the NPNF series marks Conf. XII 'Not translated,' Conf. XXII 'omitted,' and Inst. VI
+  'omit altogether.' These are three texts on the body and sexuality, cut by one hand, with no
+  reason stated. Then come Heurtley, Richardson and Warfield. The first NPNF volume of Augustine
+  leaves out Letters 221-226, under its own stated policy. Further on comes the commendation in the
+  Rule of Benedict. The Latin of the Lérins writers, and of Faustus, was not taken into the English
+  series that carried Cassian, Sulpitius and Vincent.
+
+  The brethren did not think of themselves as handing the world on. They thought they were keeping
+  what they had received. A Life was written so that a man worthy of imitation should not remain
+  unknown. The Institutes were 'not mine but the fathers''. The Commonitory was written 'with the
+  fidelity of a narrator rather than the presumption of an author,' against forgetting. The young at
+  Marmoutier copied because copying was the one craft the elders allowed them. What they believed
+  they were keeping was the tradition of the elders. It was never their own invention, which the
+  rule of reception forbade them to pass on. They could not have imagined that a later keeper would
+  cut that tradition for orthodoxy's sake, or that a translator would cut out the body.
+
+  Two later hands shaped most of what can be known. One was a later editor working on the grace
+  teaching. The other was a later translator who left out the texts on the body. Neither touched the
+  saint's power, the office or the rule of faith. Transmission favoured the Institutes and
+  Conferences as a program that could travel. It favoured the Vita and Dialogues as the foundation
+  of a cult, and the Commonitory as a rule that could be quoted. It carried thin, or cut, the grace
+  teaching in its own conference, and chastity and the body. It did the same to the reports on
+  Marseilles in the reporters' own words, the Latin of the Lérins writers, and the women's houses.
   Cassian and Sulpitius dominate because their books were built to be copied and later monasticism
-  wanted them; the eyewitness frame itself was re-cut in copying (G5's fracture at the edge).
+  wanted them. Gennadius knew the Dialogues in two divisions.
 manifestations:
 - "The young copyists at Marmoutier - transcription 'the one craft' (Vita X); the Vita as its product"
 - "Cassian's books built for the teacher's absence - 'those who perhaps may meet only with this book' (Inst. II.9); received 'into their cells' (Conf. Pref. III)"

@@ -82,26 +82,25 @@ description: >-
   Germany, then the Belgae, then the rich farms of Aquitaine. Then the whole body of the Gallic
   provinces. All of it, he insists, is God's judgment, happening right now (Gov. VII.10, VII.12).
 
-  A closer search of this world's own library finds more than just that one book. But still not
-  much: four episodes in Sulpitius, across six mentions in all. The barbarians were the occasion of
-  Martin's own discharge from the army, before he had even entered religious life (Vita IV). Demons
-  once spread a false rumor of a barbarian raid. Martin's own power exposed it as a lie (Vita
+  Beyond that book there is not much: four episodes in Sulpitius. The barbarians were the occasion
+  of Martin's own discharge from the army, before he had even entered religious life (Vita IV).
+  Demons once spread a false rumor of a barbarian raid. Martin's own power exposed it as a lie (Vita
   XVIII). Avitianus himself, a former courtier, is remembered for a "barbarous and, beyond measure,
   bloody ferocity" (Dial. III.4). And, most telling of all, Brictio stood accused of buying boys
   from barbarous nations, and girls too. Brictio had been raised inside Martin's own monastery
   (Dial. III.15). Here the disaster enters this world's literature as a charge against one of its
-  own members. Cassian's own writings mention barbarians only once, and that is set in Egypt, not
-  in Gaul. Vincent's own text says nothing about the Vandals at all. One editor reads that silence
-  as deliberate.
+  own members. Cassian's own writings mention barbarians only once, and that is set in Egypt, not in
+  Gaul. Vincent's own text says nothing about the Vandals at all. One editor reads that silence as
+  deliberate.
 
-  Historians treat this force as the dominant fact of the whole period. But this world's own
-  formation literature keeps little of it. Its one strong link is this: under this pressure,
-  judgment itself changed. It shifted from something expected in the future to something already
-  happening now, in Salvian's own words. Four further links exist, but each one is thin. They touch
-  the north's old comparison with Egypt, a later report that two monasteries were still standing
-  after the collapse, Avitianus's own cruelty, and one charge made against a member of Martin's own
-  community. None of these carries real weight. None of them shows the barbarian disaster entering
-  this world's literature as a force in its own right.
+  The barbarian advance and the tax burden shaped the whole age, but this world's own formation
+  literature keeps little of it. Its one strong link is this: under this pressure, judgment itself
+  changed. It shifted from something expected in the future to something already happening now, in
+  Salvian's own words. Four further links exist, but each one is thin. They touch the north's old
+  comparison with Egypt, a later report that two monasteries were still standing after the collapse,
+  Avitianus's own cruelty, and one charge made against a member of Martin's own community. None of
+  these carries real weight. None of them shows the barbarian disaster entering this world's
+  literature as a force in its own right.
 manifestations:
 - "Salvian's one book: the rich 'murdering the poor,' 'as many tyrants as curials,' Romans fleeing to the Goths and Bagaudae, the Gallic provinces burning as 'the ever-present judgment of God'"
 - "The barbarians 'rushing within the two divisions of Gaul' as the occasion of Martin's discharge (Vita IV)"

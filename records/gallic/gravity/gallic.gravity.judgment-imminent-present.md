@@ -79,13 +79,13 @@ classification: supporting
 description: >-
   Antichrist is close at hand, in Sulpitius's own telling. A solemn expectation of judgment presses
   in, in Vincent's. God's judgment is already happening, in the ruin of Gaul, in Salvian's. These
-  are the ecology's own three distinct ways of holding the same idea - that time is running out.
+  are this world's three distinct ways of holding the same idea - that time is running out.
 
   At Tours, the mood is imminent and apocalyptic. From a run of false Christs, Sulpitius reasons
   that Antichrist himself must be near, already at work in these very impostors (Vita XXIV). Gallus
-  recounts that Martin told him and his companions that Antichrist had already been born and had,
-  by the time Martin spoke of it, grown into boyhood, waiting only to come of age (Dial. II.14). In
-  one of his own letters, Sulpitius describes sitting alone with a mind full of hope for the future
+  recounts that Martin told him and his companions that Antichrist had already been born and had, by
+  the time Martin spoke of it, grown into boyhood, waiting only to come of age (Dial. II.14). In one
+  of his own letters, Sulpitius describes sitting alone with a mind full of hope for the future
   mixed with weariness of the present world, dread of judgment, and fear of punishment (Ep. II).
 
   At Lérins, the mood is occasional rather than constant. Vincent says plainly that a solemn
@@ -101,16 +101,15 @@ description: >-
   This gravity is well attested wherever it appears, but it organizes far less of this world's
   founding literature than the strength of that evidence might suggest: it is Salvian's own entire
   book, and it supplies Vincent's stated occasion for writing, but in Sulpitius and Cassian it shows
-  up more as a recurring note than as something that shapes the whole. For that reason it is
-  classified here as a supporting gravity, the weakest and most provisional in this world's whole
-  set, rather than a primary one - not because the evidence for it is thin, but because it never
-  quite organizes as broadly as the strongest gravities do.
+  up more as a recurring note than as something that shapes the whole. For that reason it is a
+  supporting gravity, not a primary one. The evidence for it is not thin. It simply never organizes
+  as broadly as the strongest gravities do.
 
   Under the pressure of barbarian collapse, judgment changes in kind, not just intensity: it shifts
   from something still to come to something already happening, in Salvian's own words about the
   present ruin of the Gallic provinces. That is the one place where the larger world's own
-  catastrophe enters this world's literature directly, and the only gravity that the passing of
-  Roman order touches at all.
+  catastrophe enters this world's literature directly, and this is the gravity that the passing of
+  Roman order touches most.
 manifestations:
 - "Sulpitius's inference from the false Christs in Spain and the East that 'the coming of Antichrist is at hand' (Vita XXIV); Antichrist 'already born ... reached the years of boyhood' (Dial. II.14)"
 - "Ep. II's 'a weariness of the present world, a terror of judgment, a fear of punishment'"

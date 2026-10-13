@@ -95,42 +95,25 @@ relations:
 name: "Formation by named example and eyewitness authority [SUPPORTING]"
 classification: supporting
 description: >-
-  Authority to teach or narrate rests on having seen and heard a named master, and formation happens by
-  imitation of a named exemplar. Sulpitius writes 'the life of a most holy man, which shall serve in
-  future as an example to others' (Vita I), and Marmoutier's disciples are 'disciplined after the example
-  of the saintly master' (Vita X), and Martin's last saying is 'I have sinned if I leave you a different
-  example' (Ep. III), and Gallus can say 'I myself am a witness' (Dial. II.4). Cassian writes that 'these
-  things cannot be taught save by one who has had experience of them' (Inst. Pref.). The Conferences
-  are reported speech of named elders whom God 'has deemed us worthy both to see ... and to dwell
-  with'. The novice takes his examples 'from a very few or indeed from one or two only' (Inst. IV.40).
-  At Lérins the value is present as writings collated (Comm. ch. 3, ch. 28). It is also present as a
-  disciple's Life of his master (Hilary's Life of Honoratus, Gennadius ch. LXX).
+  Authority to teach or narrate rests on having seen and heard a named master, and formation happens
+  by imitation of a named exemplar. Sulpitius writes 'the life of a most holy man, which shall serve
+  in future as an example to others' (Vita I), and Marmoutier's disciples are 'disciplined after the
+  example of the saintly master' (Vita X), and Martin's last saying is 'I have sinned if I leave you
+  a different example' (Ep. III), and Gallus can say 'I myself am a witness' (Dial. II.4). Cassian
+  writes that 'these things cannot be taught save by one who has had experience of them' (Inst.
+  Pref.). The Conferences are reported speech of named elders whom God 'has deemed us worthy both to
+  see ... and to dwell with'. The novice takes his examples 'from a very few or indeed from one or
+  two only' (Inst. IV.40). At Lérins the value is present as writings collated (Comm. ch. 3, ch.
+  28). It is also present as a disciple's Life of his master (Hilary's Life of Honoratus, Gennadius
+  ch. LXX).
 
-  The texts raise no concern about attestation, but they do raise one about convention: a
-  shared late-antique literary convention, which weakens what convergence proves. The value passes
-  every test applied to it. It repeats across the kinds of evidence tested, one of them by existence alone. The
-  form of both nodes' literature depends on it. The Dialogues are built as eyewitness testimony, and
-  the Conferences are built as heard conferences, and each corpus defends its authority on that
-  ground, while imitation of a named exemplar is the stated way that formation works at both nodes. It
-  explains why Sulpitius writes a Life and why Hilary writes a Life, why Cassian writes
-  reported speech, and why this world's stories are almost entirely first-person-attested. The
-  value persists across nodes, 'with Vincent transforming the value from heard to read.' In the
-  interaction test it passes with one negative cell.
-
-  Is this one value? As far as the evidence allows, in the sense the tests measure, yes. It is also a convention shared far beyond
-  this world: 'two unconnected Latin monastic communities in 400 could each have inherited it
-  separately.' The link across nodes is confirmed, but it is discounted as evidence of unity. The value
-  is supporting, not primary. It organizes the literature's form and the formation mechanism, but it
-  works within the context that the monk-bishop and Egypt-as-measure gravities establish, since the
-  exemplar is a monk-bishop or an Egyptian father. A convention that the world shares with its neighbours
-  does not meet the primary bar. The record's confidence and its gravity standing agree.
-
-  It held, but it fractured at the edge through transmission. In the grace controversy it
-  becomes a weapon. Cassian's authority is that he heard Chaeremon. Prosper attacks 'a man of priestly
-  rank' without naming him. The eyewitness-teacher's standing survives the attack. The fracture came
-  in transmission, since the excision of Conferences XII and XXII removed two eyewitness conferences from
-  this world's own English text. Gennadius gives 'two divisions' against the three
-  Dialogues in this world's text. This shows that copying split the eyewitness frame itself again.
+  The texts raise no doubt that the value is attested. But it was a convention shared across late
+  antiquity: two unconnected Latin monastic communities could each have inherited it. So its
+  presence at both houses proves less about their unity. It shapes the form of both literatures. The
+  Dialogues are built as eyewitness testimony and the Conferences as heard talks. Vincent carried it
+  from the heard to the read. It works inside the frame that the monk-bishop and Egypt-as-measure
+  gravities set, so it is a supporting gravity, not a primary one. In the grace quarrel it became a
+  weapon: Cassian's authority was that he had heard Chaeremon.
 manifestations:
 - "Vita ch. I: a Life written so that a man 'worthy of imitation' should not remain unknown, its readers 'roused to the pursuit of true knowledge, and heavenly warfare, and divine virtue'"
 - "Martin's dying 'I have sinned if I leave you a different example' (Ep. III); Gallus's 'I myself am a witness' (Dial. II.4); Ep. I defending the Vita's authority against a skeptic"
