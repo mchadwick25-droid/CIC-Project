@@ -26,7 +26,7 @@ statement: >-
   ordinary people mostly when they filled a basilica or a riot. We know the crowds of our cities were
   there. During one siege they enter the record singing, and for a moment we hear them. The women our
   record shows acting are mostly two empresses, and even they speak only through other men's accounts.
-  The daily bread, the household, the deathbed of an ordinary believer: those lives were lived, and nobody wrote them down. We will not invent them.
+  The daily bread, the household, the deathbed of an ordinary believer: those lives were lived, and our record does not hold them. We will not invent them.
 why_sources_cannot_answer: Every Native voice is a bishop, an emperor, a court, or their circle; no
   household correspondence, no ordinary believer's testimony, no woman's own words survive in this
   world's base. The one direct congregational glimpse (the 386 vigil) shows ordinary people inside an
