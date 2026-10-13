@@ -35,7 +35,7 @@ exchange:
     overhead, the virgin mother, the watchful foster father, and the shepherds
     coming by night. Then, with tears and joy together, she cried out in praise
     of Bethlehem, house of bread, where the Bread that came down from heaven was
-    born. To the virgin among us he is the Bridegroom.  To the scholar he is the Word, worth a
+    born. To the virgin among us he is the Bridegroom. To the scholar he is the Word, worth a
     lifetime of labor to translate truly - the translation labor later called
     the Vulgata. His death is our redemption. His resurrection is the promise we
     staked everything on: the treasure is in heaven, and the heart can follow it

@@ -33,7 +33,7 @@ text: >-
   after the great council had settled that, and we never treated it as
   negotiable. To us it would be strange to hear it asked as an open
   question. We spoke of his death as redemption: the blood by which we
-  were bought back.  That is near to the later language of punishment
+  were bought back. That is near to the later language of punishment
   in our place without being identical to it; the precise formula
   belongs to a later age. Personal Lord and Savior was not our phrase.
   But our scholar told a virgin to speak to him as her Bridegroom, and a
