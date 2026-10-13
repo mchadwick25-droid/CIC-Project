@@ -142,7 +142,7 @@ description: >-
   world's whole span. Tours has nothing to say about it, for reasons of plain timing, not
   disagreement. For that reason, it is a supporting idea at the level of the whole world. Within the
   southern house alone, though, it is the leading concern. The evidence for the position is strong.
-  Yet its reach across the whole world stays narrow. That narrow reach is no doubt about what
+  Yet its reach across the whole world stays narrow. That narrow reach casts no doubt on what
   Cassian and Chaeremon actually taught.
 
   Inside this world's own literature, it began as something simple: a remedy for the pride of a monk

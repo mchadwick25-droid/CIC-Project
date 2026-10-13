@@ -100,7 +100,7 @@ description: >-
   teaching in its own conference, and chastity and the body. It did the same to the reports on
   Marseilles in the reporters' own words, the Latin of the Lérins writers, and the women's houses.
   Cassian and Sulpitius dominate because their books were built to be copied and later monasticism
-  wanted them. Gennadius knew the Dialogues in two divisions.
+  wanted them.
 manifestations:
 - "The young copyists at Marmoutier - transcription 'the one craft' (Vita X); the Vita as its product"
 - "Cassian's books built for the teacher's absence - 'those who perhaps may meet only with this book' (Inst. II.9); received 'into their cells' (Conf. Pref. III)"

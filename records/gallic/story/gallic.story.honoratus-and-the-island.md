@@ -113,12 +113,12 @@ absent_detail: >-
   What a participant might reasonably expect here, and cannot have, is a story from inside Lerins - a
   day, a rule kept, a novice received, an elder's saying, a monk's prayer on the island. This is the
   closest our Native corpus comes, and it is a story about the founder's arrival and his elevation,
-  told at his funeral by the man who succeeded him as a bishop: it narrates the island's edges (the
-  serpents at the shore; the fillet that made him a presbyter there), not its interior. The silence is partly a
+  told at his funeral by the man who succeeded him as a bishop: it narrates the founder's coming (the
+  serpents at the shore) and his being made a presbyter there, not the island's interior. The silence is partly a
   transmission gap - Hilary's sermon exists in full, unread here beyond these lines; Eucherius's In
   Praise of the Desert is in the same condition - and partly our own: Vincent, the one Lerins voice
   read in full, tells nothing of the island but that he dwells "in the seclusion of a Monastery." The
-  honest position is that we can tell how the founder came to Lerins and how he left it, and not what
+  honest position is that we can tell how the founder came to Lerins and how he was made a presbyter there, and not what
   he or anyone did there in between. One OCR word for the place where serpents were met is left
   unrendered.
 modern_contrast: >-

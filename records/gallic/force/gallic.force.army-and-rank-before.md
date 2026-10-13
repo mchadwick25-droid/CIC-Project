@@ -59,8 +59,8 @@ name: "The late-Roman army and civil rank as the 'before' of every founding biog
 kind: initiating
 matrix_cell: 1A
 description: >-
-  At Tours, the founding story begins with a discharge from the army. Hilary's Latin, known here
-  only in a rough rendering, tells the same of the nobles of Lérins. The rule the south received
+  At Tours, the founding story begins with a discharge from the army. Hilary's Latin, which survives
+  only in a rough copy, tells the same of the nobles of Lérins. The rule the south received
   kept a novice's worldly clothes in case he left.
 
   Martin, a soldier, was discharged before Caesar at the moment the barbarians were rushing within

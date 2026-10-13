@@ -108,8 +108,8 @@ text: >-
   Chaeremon noticed the two of them whispering and cut the morning service short to ask what was
   wrong.
 
-  Germanus put the trouble plainly. True chastity is won by hard, sustained toil. It seemed absurd, he
-  said, for the reward of such real effort not to be credited mainly to the person who put in the
+  Germanus put the trouble plainly. True chastity, he said, is won by hard, sustained toil. So it
+  seemed absurd for the reward of such real effort not to be credited mainly to the person who put in the
   work. A farmer who labors hard over his field gets the credit for the harvest; why should chastity
   be any different?
 

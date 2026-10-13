@@ -79,9 +79,8 @@ description: >-
   The citizens laid an ambush of kindness and escorted the monk to the city under guard. Bishops
   resisted and were confounded by a psalm. The formed man did not seek office. To want holy orders
   was vainglory's suggestion, and the man who wanted to rule had 'grown cold through pride.' Yet
-  once the office came, it was kept as a monk keeps it. Hilary says Honoratus kept 'a monk's
-  humility as entire in the priesthood as, when a monk, he had fully possessed the merits of the
-  priesthood.' The brethren expected to lose their best men upward, and told the loss as a capture.
+  once the office came, it was kept as a monk keeps it. Hilary's sermon, as far as its rough Latin
+  can be read, says Honoratus kept a monk's humility whole in the priesthood. The brethren expected to lose their best men upward, and told the loss as a capture.
 
   The monk-bishop pattern is this force's product; the drain and the pattern cannot be told apart.
   The community answered it by making the desire for office a fault and the office itself a destiny.

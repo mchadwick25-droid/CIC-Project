@@ -41,7 +41,8 @@ description: >-
   against the primitive Church, while its fervent faith 'had not yet grown lukewarm by being
   dispersed among the many' (II.5). The Sarabaite has made 'renunciation only as a public
   profession.' He is cast down 'by the lukewarmness of their purpose' (Conf. XVIII.7). And the
-  standard itself is one no Gallic monk kept 'unbroken even for a year' (IV.2).
+  standard itself is one Cassian could not recall any monk of theirs keeping 'unbroken even for a
+  year' (IV.2).
 
   For the brethren, a man's conversion was bright at first, and then he cooled. His worldly clothes
   waited with the steward for that day. Cooling was desertion, and the deserter's name was

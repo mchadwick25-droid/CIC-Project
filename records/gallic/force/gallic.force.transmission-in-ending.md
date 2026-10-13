@@ -49,8 +49,7 @@ kind: ending
 matrix_cell: 3B
 description: >-
   As the formation communities gave way, the hands that carried their books changed. Some losses
-  came early and by accident. A thief took most of the second book of the Commonitory. Gennadius
-  knew the Dialogues 'in two divisions.' Later, the choosing had motives. Later monasticism kept the
+  came early and by accident. A thief took most of the second book of the Commonitory. Later, the choosing had motives. Later monasticism kept the
   Institutes and Conferences as reading for a rule, not as one side of a Gallic argument. A later
   editor cut the grace teaching of Conference XIII to make Cassian orthodox. A later English
   translator left out the texts on the body, giving no reason. The letters that reported the

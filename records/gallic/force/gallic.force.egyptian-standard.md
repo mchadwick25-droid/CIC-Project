@@ -63,8 +63,8 @@ description: >-
   institutions of the East and especially of Egypt should be established in your province, which is
   at present without monasteries.' Cassian set them out 'as they were there delivered to us by the
   Fathers.' He adapted them only where they were 'impossible in these countries.' They came as a
-  standing correction of what Gaul already did. No one kept the probation 'even for a year' (Inst.
-  IV.2). The Gallic Gloria was one 'we have never heard anywhere throughout the East' (II.8). Monks
+  standing correction of what Gaul already did. Cassian could not recall anyone in Gaul's houses keeping
+  the fathers' perseverance 'unbroken even for a year' (Inst. IV.2). The Gallic Gloria was one 'we have never heard anywhere throughout the East' (II.8). Monks
   went 'back again to bed after their Mattin prayers' (III.5). Gallic monks were to receive the
   Conferences 'into their cells.' Otherwise they would be left to find a way 'difficult and almost
   unknown in this country' (Conf. Pref. III).
@@ -93,7 +93,7 @@ description: >-
   so Tours records a place and a person, and the south a program. The two ways are not one impact.
 manifestations:
 - "Castor's request and Cassian's Institutes Preface - Egypt's customs 'delivered to us by the Fathers,' with the adaptation clause for climate and habits"
-- "The standing correction of Gaul: the probation not kept 'even for a year' (Inst. IV.2); the Gloria unknown in the East (II.8); back to bed after Mattins (III.5)"
+- "The standing correction of Gaul: the fathers' perseverance not kept 'unbroken even for a year' (Inst. IV.2); the Gloria unknown in the East (II.8); back to bed after Mattins (III.5)"
 - "The Conferences received 'into their cells' as the fathers speaking 'in the Latin tongue' (Conf. Pref. III)"
 - "Eucherius at L\u00e9rins naming John and Macarius as the pattern (De Laude Eremi \u00a727, row 26)"
 - "Postumianus's concession to Gallus, 'you have conquered ... all the eremites and anchorites' (Dial. II.5); 'Europe will not yield to it, or to all Asia, in having only Martin' (III.17)"
