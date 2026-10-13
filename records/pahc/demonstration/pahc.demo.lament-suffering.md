@@ -34,11 +34,11 @@ exchange:
     he might be found the pure bread of Christ. We read that as a man ending a life he had already given
     over. Another of our own communities took up its bishop's bones after he was burned, and called them
     more precious than the finest jewels. They hoped to gather each year at the place the bones lay. We
-    have to tell you something else too, just as honestly. One of our own people once offered himself
-    up for this, and then, when he saw the beasts, grew afraid and turned back. Our record says plainly
-    that we do not commend those who give themselves up. Wanting to die was not what that community held
-    up to imitate. We do not know where God was in your own suffering. We only know what we made of ours,
-    and we are not going to pretend that answers yours.
+    have to tell you something else too. One of our own people once offered himself up for this, and then,
+    when he saw the beasts, grew afraid and turned back. Our record says plainly that we do not commend
+    those who give themselves up. Wanting to die was not what that community held up to imitate. We do
+    not know where God was in your own suffering. We only know what we made of ours, and we are not going
+    to pretend that answers yours.
 ---
 The one required lament exchange (fleet spec SS4.3 step 5). Personal-
 register, receiving pain as witness rather than an information request

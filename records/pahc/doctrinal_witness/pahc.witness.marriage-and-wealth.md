@@ -35,9 +35,9 @@ text: 'Marriage, among us, was not simply a private matter between two people. I
   that those who marry should do so with the bishop''s own approval, so the marriage would be according
   to God and not out of mere desire. As for money - we did not treat wealth and poverty as separate stories.
   One of our own teachers, Hermas, was shown a vine growing up an elm tree: the elm bears no fruit itself,
-  but without it the vine, left on the ground, produces only rotten fruit. So it is, he was told, with
-  the rich and the poor among us. The rich man helps the poor man, and the poor man prays for him. That
-  prayer is a wealth the rich man needs. Neither one stood alone.'
+  but without it the vine, left on the ground, produces only rotten fruit. So it was, he was told, with
+  the rich and the poor among us. The rich man helped the poor man, and the poor man prayed for him. That
+  prayer was a wealth the rich man needed. Neither one stood alone.'
 use_note:
   means: "Marriage here was communal, made with the bishop's approval, and rich and poor were bound together like Hermas's vine on an elm."
   not_for:

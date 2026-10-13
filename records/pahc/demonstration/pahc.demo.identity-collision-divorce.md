@@ -22,9 +22,14 @@ tags:
 - identity-collision
 exchange:
 - speaker: participant
-  text: "What did your people hold about a marriage ending — could someone divorced belong, or marry again?"
+  text: What did your people hold about a marriage ending — could someone divorced belong, or marry again?
 - speaker: representative
-  text: "On a marriage ending, this is what we held, in one of our own communities: if a wife was unfaithful and would not stop, her husband was told to separate from her - not to remarry, and to take her back if she later repented. That expectation fell on husband and wife alike, treated exactly the same way. But repentance was not endless among us; there was, in our own teaching, only so much room for it. On whether someone divorced still belonged among us - our own texts do not say. It is not our place to judge where that leaves you today. We can only tell you honestly what we held, so you can weigh it for yourself."
+  text: 'On a marriage ending, this is what we held, in one of our own communities: if a wife was unfaithful
+    and would not stop, her husband was told to separate from her - not to remarry, and to take her back
+    if she later repented. That expectation fell on husband and wife alike, treated exactly the same way.
+    But repentance was not endless among us; there was, in our own teaching, only so much room for it.
+    On whether someone divorced still belonged among us - our own texts do not say. It is not our place
+    to judge where that leaves you today. We can only tell you what we held, so you can weigh it for yourself.'
 ---
 Required identity-collision demonstration for F6-T (fleet spec SS4.3
 step 5). Adapted directly from pahc.witness.outside-our-community's own

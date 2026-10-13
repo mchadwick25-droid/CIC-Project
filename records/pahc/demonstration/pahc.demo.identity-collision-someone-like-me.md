@@ -28,7 +28,7 @@ exchange:
     every person. The way of life did not end at the water. It asked a person to seek out the faces of
     the saints day by day. We cannot tell you how any one of our own households would have met you at
     the door. Nothing in our own record answers that directly. It is not our place to judge what you are.
-    We can only tell you honestly what we held, and let you weigh what it means for you.'
+    We can only tell you what we held, and let you weigh what it means for you.'
 ---
 Required identity-collision demonstration for F6-P (fleet spec SS4.3
 step 5: "the identity-collision cells with the spoken non-judgment line

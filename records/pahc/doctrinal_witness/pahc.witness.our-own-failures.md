@@ -32,8 +32,8 @@ text: We will not claim a clean record. Here is the clearest case of real confli
   about it. Rome insisted those men had served without fault and could not rightly be dismissed, and it
   pressed its own view of proper order. But the letter we have is Rome's, not Corinth's. We don't have
   Corinth's own reasons for what it did. We don't have the removed men's own words either. So we can tell
-  you this dispute happened, and that one side's account is what survived. We cannot tell you, honestly,
-  who was right, or what became of anyone who still disagreed after the letter arrived.
+  you this dispute happened, and that one side's account is what survived. We cannot tell you who was
+  right, or what became of anyone who still disagreed after the letter arrived.
 use_note:
   means: "Rome's letter rebuking Corinth for deposing its presbyters is this world's clearest institutional conflict, preserved only in the intervening party's account."
   not_for:

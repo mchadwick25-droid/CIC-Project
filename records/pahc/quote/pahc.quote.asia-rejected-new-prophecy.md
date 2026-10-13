@@ -28,7 +28,7 @@ text: For when the faithful throughout Asia met together often and in many place
   Church and debarred from communion.
 modern_rendering: The faithful all over Asia met many times, in many places in Asia, to talk this over.
   They looked closely at these new teachings. They declared them false and rejected them as heresy. Because
-  of that, those who held them were thrown out of the Church and shut out of communion.
+  of that, they were thrown out of the Church and shut out of communion.
 speaker_or_author: "The Anonymous anti-Montanist writer (c. 192-193 CE), addressing Avircius
   Marcellus; printed by ANF under the conjectural name 'Asterius Urbanus,' not treated as a real
   attribution here"

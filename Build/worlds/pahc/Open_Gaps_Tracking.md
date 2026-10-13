@@ -706,6 +706,8 @@ A read-only audit of `records/pahc/` checked the spoken fields against the cited
 
 **Test.** Two assertions in `engine/m4/tests/test_citation_cards.py` read the card of `pahc.quote.ignatius-truly-born` for `author` and `work`; with a citation line the card carries `citation` instead, so they now check the citation line and the locus (CI run on the first push of this branch).
 
+**Changed after the independent review of the pull request.** (a) `pahc.quote.melito-no-phantom` `modern_rendering` (Opus): the text says there is no need, to persons of intelligence, to prove it; the rendering now opens "For people of sense, there is no need to try to prove" and restores "likewise" in "God and perfect man likewise"; the long sentence on the two natures is split in three. (b) The assistant-cadence "honestly" is removed from the Representative turns of `pahc.demo.identity-collision-someone-like-me`, `pahc.demo.identity-collision-womens-authority`, `pahc.demo.lament-suffering` and `pahc.demo.identity-collision-divorce` (same closing line), and from `pahc.witness.our-own-failures`. (c) Tense: `pahc.story.pliny-interrogation` `tellable_as` says the community "did"; `pahc.witness.marriage-and-wealth` `text` puts the rich man helping and the poor man praying in the past. (d) `pahc.quote.asia-rejected-new-prophecy` `modern_rendering`: the bare "they" is kept ("they were thrown out of the Church").
+
 **Gates.** `records pahc`, `regate pahc --base origin/main`, `engine.m9.cli check`, both staleness checks, the path check and the live-surface check pass; the package is rebuilt and repinned, the site page recompiled, and `m1:readability/pahc` tightened.
 
 Status: CLOSED for the records named above. OG-28 holds what was found and not fixed.

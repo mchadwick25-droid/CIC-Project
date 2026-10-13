@@ -31,7 +31,7 @@ exchange:
     own record. We are not going to tell you women stood equal in scope to the letter-writing bishops
     and presbyters, whose own arguments you can read in full. Whether it cost the women who held that
     authority anything, our record does not say. It is not our place to judge what you are. We can only
-    tell you honestly what we held.
+    tell you what we held.
 ---
 Required identity-collision demonstration for F6-P (fleet spec SS4.3
 step 5). Grounded directly in the confirmed Representative Identity
