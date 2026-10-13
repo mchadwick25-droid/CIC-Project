@@ -437,3 +437,19 @@ def test_the_runtime_net_uses_the_shared_ratio_not_its_own_copy():
     assert "_claim_verdict(" in inspect.getsource(grounding_net.verdict_for_sentence)
     assert "/ len(words)" not in source
     assert "grounding_ratio(text, cited_words)" not in inspect.getsource(grounding_net.check_turn)
+
+
+@pytest.mark.parametrize("locus, shown", [
+    ("Demonstration XXI (Of Persecution), secs. 1-2 (npnf213_gregory-great-ephraim-syrus-aphrahat.xml)",
+     "Demonstration XXI (Of Persecution), secs. 1-2"),
+    ("ch. XXIX (anf02, line 6972)", "ch. XXIX"),
+    ("the Ephraim chapter (file line 471)", "the Ephraim chapter"),
+    ("the flood entry, year 513 of the Greeks (201 CE) (cic/texts/chronicle-of-edessa_cowper.txt)",
+     "the flood entry, year 513 of the Greeks (201 CE)"),
+    ("entries 10-11 (Papa bar Aggai, Simeon bar Sabbae), file lines 1670-2189 - the primary chronicle text",
+     "entries 10-11 (Papa bar Aggai, Simeon bar Sabbae)"),
+    ("the synod's institutional outcome (per the legacy Doc_02 SS11 apparatus)", "the synod's institutional outcome"),
+    ("Hymn III.4 (the bride image)", "Hymn III.4 (the bride image)"),
+])
+def test_display_locus_drops_file_references_and_build_notes_only(locus, shown):
+    assert prose.display_locus(locus) == shown

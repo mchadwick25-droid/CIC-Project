@@ -95,11 +95,10 @@ def test_nothing_is_released_before_a_sentence_completes():
         ({"is_other_tradition_first_ask": True}, False),
         ({"is_other_tradition_first_ask": True, "self_revision_enabled": False}, True),
         ({"r27_enforce": True}, False),
-        ({"sentence_enforce": True}, False),
     ],
 )
 def test_sentences_are_streamed_only_when_the_first_attempt_is_the_reply(kwargs, expected):
-    base = dict(is_other_tradition_first_ask=False, self_revision_enabled=True, r27_enforce=False, sentence_enforce=False)
+    base = dict(is_other_tradition_first_ask=False, self_revision_enabled=True, r27_enforce=False)
     base.update(kwargs)
     assert _draft_is_final_text(**base) is expected
 

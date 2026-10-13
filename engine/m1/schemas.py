@@ -417,6 +417,11 @@ TYPE_PROPERTIES: dict[str, dict] = {
     "source": {
         "author": {"type": "string"},
         "work": {"type": "string"},
+        # The one line a participant reads for this source, on a citation
+        # card and on the public site: author, title, translator or
+        # edition, date. Checked by engine/m9/confinement.py's
+        # source-citation.
+        "citation": {"type": "string"},
         "edition": {"type": "string"},
         "rights_status": {"type": "string"},
         "attribution_status": {"type": "string"},

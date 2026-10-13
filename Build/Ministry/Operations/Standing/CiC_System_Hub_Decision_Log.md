@@ -6452,3 +6452,37 @@ The project lead asked for the reply to show as it is written, to cut the wait. 
 A local test on the `live` code with a fake model and no spend found the streamed text identical to the final text, and quotes, citations, Go Deeper counts and the limit note identical to the plain path. Crisis and rewrite turns do not stream. One gap: a recitation of a demonstration answer that starts after sentences are already shown is not regenerated when streamed, so it reaches the participant and is only flagged. Time to first word was not measured, since that needs a paid call.
 
 **Ruling (12 October).** Leave streaming off for the pilot. The "is considering" wait indicator already shows. The recitation gap is the thing to design before streaming is turned on; any change is an engine change the project lead designs and approves. The dropped-connection fix (a retry after a dropped stream showed "give it a moment" instead of the reply) is separate and goes through its own pull request.
+
+## 2026-10-13 - Quotes placed by code, with no paid rewrite: the sentence-enforcement retry and its set-aside removed from `main`
+
+**Why.** After the syr record fixes reached `live` (PR #867), the project lead's own six-question conversation with the syr Representative showed two invented Ephrem quotes (syr Open Gaps, "Invented quotes on live after the syr-only promotion", 13 October). The syr records were right. The voice typed the quotes from memory, and the `live` net (the #835 tree) only takes the quotation marks off a quote it cannot find, so the words still reach the participant. `main` already places quotes by code from markers and cuts typed quotes (#841, #845–#847), but it also carries the retry and set-aside rejected on 10 October.
+
+**Offline check, no spend.** `main`'s `apply_net`, run on the two live quotes against the live syr package, cut both with their lead-ins. The same answer written with a quote marker placed the record's exact words. Replaying all eleven worlds' 9 October staging-reading replies (66 turns) cut 175 sentences and left no reply empty. That is an upper bound: that engine had the voice type every quote and appended quote blocks of its own, which the replay counts as typed. In the 9 October fidelity re-reading, which ran `main`'s marker prompt, first drafts had 0 to 5 flagged sentences a turn, fact-check flags included.
+
+**Ruling (13 October), converged in four steps:**
+1. Route A: fix `main`, then promote `main` to `live`. Not a port of the quote parts onto `live`, and not an off switch.
+2. No visible Facilitator line when a reply is cut. The Facilitator works behind the scenes: if every sentence of a reply is cut, code shows the world's own answer record for the question, word for word (the first doctrinal witness the draft tagged, else the turn's lead witness). No model call.
+3. A sentence left pointing back at a cut quote stays as written. The bar is academic acceptance, not a rewrite.
+4. "Converged, auto mode."
+
+**Done on `main`.** The sentence-enforcement retry (`_append_sentence_corrections`, `_append_whole_reply_rewrite`, `_enforcement_flags`) and the `sentence_enforcement_exhausted` set-aside are removed, one to one and at the Table, with the `sentence_enforce` setting. `apply_net` still cuts what cannot be shown on every turn. The answer-record fallback is new, and its use is recorded on the voice turn as `answer_record_fallback`. The uncited-claims enforcement, the seat-identity guard and the recitation retry are unchanged. The recitation retry is a separate paid retry already on `live` and stays a separate decision.
+
+**Before promotion.** The named, capped live test of the six questions in all eleven worlds (the project lead's approval by name; AWS credentials in this environment failed on 13 October). It is also the admission the promotion needs.
+
+## 2026-10-13 - The quote fix tested on syr; a false attribution cut fixed in #869
+
+**Test.** The named live test "syr quotes-by-code test, 13 October" (cap $1, approved by the project lead by name) asked syr the six 9 October questions on the #869 code. It made six voice calls, no rewrites, and cost $0.22 (9 October: $0.23). No quote was invented: the voice tried three quotes it had not been offered, and code cut each with its lead-in; one quote was placed word for word from its record. No reply was cut whole and no Facilitator line appeared. Report: `engine/m4/reports/live-turn-report-syr-2026-10-13-quotes-by-code.json`. Side by side with 9 October and the live conversation: the artifact "Syr Quote Test".
+
+**Defect found.** The check cut a good sentence: "Our great poet Ephrem built this method into every hymn he wrote, and the choirs of the covenant daughters carried it into every congregation." It read "he wrote," as the start of words put in Ephrem's mouth.
+
+**Ruling (13 October): fix it in #869.** A speech verb followed by a comma and "and", "but", "or", "nor", "yet" or "so" ends a clause and is not an attribution (`grounding_net._CLAUSE_JOIN`).
+
+**Order set by the project lead.** Syr first, then the record wording scan and fixes on the other worlds, then the eleven-world named test, which is also the admission for promoting `main` to `live`.
+
+## 2026-10-13 - Source cards: a citation line per source record, starting with syr
+
+**Defect.** The source line under an answer, on a citation card and on the public site, is built from a source record's `author`, `work` and `rights_status`. Those fields carry build working text written inside the citation itself: "as verified in the legacy Doc_02 revision log", "accepted by the project lead 2026-08-18", "a 510 CE colophon calls him…" (syr Open Gaps, "Invented quotes on live after the syr-only promotion", 13 October). Fleet-wide, 71 `work`, 17 `author` and 534 `rights_status` values carry it, so code cannot separate citation from note reliably.
+
+**Ruling (13 October), option 1 of 3, starting with syr.** Each source record gets one plain `citation` line (author, title, translator or edition, date), written from its own fields and nothing else. The card and the site show that line; the existing fields stay as they are. Rejected: trimming the fields in code (notes still show) and dropping the title (less useful as a citation).
+
+**Done.** `citation` is added to the source schema and spoken-field registry (participant-label). `engine.m4.citation_cards` and the site compiler show it when present. A source line's place in the work drops a file reference or build note (`engine.prose.display_locus`), so "(npnf213_….xml)" and "(anf02, line 7460)" no longer show. `engine/m9/confinement.py`'s `source-citation` check requires the line and refuses build text in it. All 40 syr source records and the fixture's 3 carry it. The other ten worlds are waived at their measured counts (alx 25, cappadocian 111, desert 30, don 76, gallic 36, hal 28, ijc 30, pahc 23, rzg 18, witt 89), owned by each world's record wording pass.

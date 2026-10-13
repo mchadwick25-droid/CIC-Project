@@ -140,6 +140,7 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
     },
     "source": {
         "work": SpokenField("participant-label", "feeds _quote_label via the cited quote's sources[].source_id"),
+        "citation": SpokenField("participant-label", "the source line on a citation card (citation_cards.resolve_source_card) and the site's read-first list"),
     },
     "ambient": {
         "detail": SpokenField("voice-diet", "_chunk_text only"),
