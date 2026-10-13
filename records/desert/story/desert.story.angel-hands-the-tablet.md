@@ -59,8 +59,8 @@ text: >-
   who gave it, in the name of the holy Trinity, as an ordinance the angel of the Lord commanded
   to Abba Pachomius. Then it tells the story. At Tabennesis in the Thebaid there was a man who
   lived a clean life and was given knowledge and the sight of angels. As he sat in his cave, the
-  angel of the Lord came to him. The angel said he himself had become perfect, and that staying
-  on in the cave was now a waste. He should go out, gather the less perfect young men, and live
+  angel of the Lord came to him. The angel told him he had become perfect, and that staying on
+  in the cave was now a waste. He should go out, gather the less perfect young men, and live
   with them. And the angel handed him a tablet of iron with the rule written on it. Only after
   that does the legislation start. Later in the same document, Pachomius argues back. The
   prayers set down are too few, he says. He is told that the rule is pitched for the weak, and
