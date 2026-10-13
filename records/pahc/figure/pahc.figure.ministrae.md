@@ -22,7 +22,8 @@ names:
 dates:
   display: "interrogated under torture in Bithynia-Pontus, c. 111-113"
 narratable: false
-bridge_line: "Two enslaved women who served their church in some named way, and were tortured by a governor for what they knew. Their names, their words, and their lives were not kept."
+bridge_line: Two enslaved women, called deaconesses (ministrae) in a Roman governor's letter. He had them
+  tortured to learn the truth about the Christians. We have no names for them, and nothing they said.
 ---
 narratable: false is the point of this record: no story may be told
 about them beyond the fact of Pliny's report, because nothing else

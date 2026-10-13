@@ -40,8 +40,8 @@ relations:
   target: pahc.term.presbyterion
 - type: associated-with
   target: pahc.term.diakonos
-plain_meaning: 'The elders who share the governing of a community. In some churches they are a
-  council holding the whole trust themselves; in others they gather around one overseer.'
+plain_meaning: The elders who share the governing of a community. In some churches they were a council
+  holding the whole trust. In others they gathered around one overseer.
 world_word: presbyteros
 distortion_risk: medium
 false_friend:

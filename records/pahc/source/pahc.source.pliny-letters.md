@@ -16,6 +16,7 @@ sources: []
 author: "Pliny the Younger (Roman governor of Bithynia-Pontus), with Trajan's rescript in reply"
 work: "Letters 10.96-10.97, c. 111-113 CE - the earliest Roman administrative document on Christians; shows no prior standing law, and Trajan's reply forbids seeking Christians out"
 edition: "Complete English of both letters as printed in A. C. McGiffert's editorial note to Eusebius, Church History III.33, in NPNF series 2 vol. 1 (1890), vendored as cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml - located and wording-verified directly in the vendored file (the 'before daylight... song unto Christ as God... meal, common yet harmless... two female slaves who were called deaconesses (ministrae)' passage and Trajan's full rescript). NOTE: Eusebius's own chapter carries only Tertullian's summary of the letter and says so; the complete text is the translator's apparatus, not Eusebius's text"
+citation: Pliny the Younger, Letters 10.96-10.97, with Trajan's rescript, as printed in A. C. McGiffert's note to Eusebius, Church History III.33, Nicene and Post-Nicene Fathers, 2nd series, vol. 1 (1890)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

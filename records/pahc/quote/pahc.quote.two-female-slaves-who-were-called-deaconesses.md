@@ -34,12 +34,10 @@ sources:
   license: public-domain
 text: >-
   I therefore considered it the more necessary to examine, even with the use of torture, two female slaves who were called deaconesses (ministræ), in order to ascertain the truth. But I found nothing except a superstition depraved and immoderate; and therefore, postponing further inquiry, I have turned to thee for advice.
-modern_rendering: >-
-  I therefore considered it all the more necessary to examine two
-  female slaves, called deaconesses. I did this even with torture, to
-  find out the truth. But I found nothing except a superstition,
-  depraved and immoderate. And so, putting off further inquiry, I have
-  turned to you for advice.
+modern_rendering: So I thought it all the more needed to question two female slaves. They were called
+  deaconesses, ministrae. I did this even with torture, to find out the truth. But I found nothing but
+  a depraved superstition that went too far. So I have put off further inquiry, and I have turned to you
+  for advice.
 speaker_or_author: Pliny the Younger, governor of Bithynia, to the emperor Trajan
 license: verbatim
 modern_lens_note: >-

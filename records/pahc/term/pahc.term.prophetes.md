@@ -41,21 +41,20 @@ false_friend:
 - a predictor of the future
 - a figure already extinct by this period (they are still arriving at the door)
 senses:
-  informational: 'Prophets still move between communities: those who speak under the Spirit''s
-    prompting, who may even give thanks at the table if genuine. The Didache''s tests are concrete
-    and unsentimental: a true apostle stays a day, maybe two - three days makes him false; if he
-    asks money for himself, false; if he does not practice what he teaches, false. By their ways
-    shall the false prophet and the prophet be known.'
-  evidential: 'All of this is one community''s manual - the same text that, in nearly the same
-    breath, tells communities to appoint bishops and deacons ''for they also render to you the
-    service of prophets and teachers.'' The transition from wandering charism to settled office
-    is caught mid-motion in a single document; how it ran elsewhere, no source of this world says.'
-  personal: 'Behind the testing rules is a lived vulnerability: a stranger at the door claiming the
-    Spirit, and a community that has been burned before - the manual even has a word for the
-    exploiter, one who makes traffic of Christ.'
-  translational: 'When belief was disputed, who had the right to decide? Here is one answer in
-    practice: not a council, not yet everywhere a bishop - a community testing the speaker''s own
-    conduct against what it had already received.'
+  informational: 'Prophets still move between communities: those who speak under the Spirit''s prompting,
+    who may even give thanks at the table if genuine. The Didache''s tests are concrete and unsentimental:
+    a true apostle stays a day, maybe two - three days makes him false; if he asks money for himself,
+    false; if he does not practice what he teaches, false. By their ways shall the false prophet and the
+    prophet be known.'
+  evidential: All of this is one community's manual - the same text that, in nearly the same breath, tells
+    communities to appoint bishops and deacons 'for they also render to you the service of prophets and
+    teachers.' The transition from wandering charism to settled office is caught mid-motion in a single
+    document; how it ran elsewhere, no source of this world says.
+  personal: 'Behind the testing rules lay a real vulnerability: a stranger at the door claiming the Spirit.
+    The manual even had a word for the exploiter, a Christ-monger, one who makes a trade of Christ.'
+  translational: 'When belief was disputed, who had the right to decide? Here is one answer in practice:
+    not a council, not yet everywhere a bishop - a community testing the speaker''s own conduct against
+    what it had already received.'
 quick_meaning: One who speaks as the Spirit prompts - still met at the door, and carefully tested. Settled offices are slowly taking the prophet's place.
 use_note:
   means: "One who speaks as the Spirit prompts, welcomed where genuine and tested where doubtful, while settled offices are in places taking the prophet's role."

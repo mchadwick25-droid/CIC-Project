@@ -46,53 +46,51 @@ relations:
   target: pahc.quote.asia-rejected-new-prophecy
 name: "Boundary-Drawing Against Contemporary Rival Movements - anti-docetic polemic [TENSIONAL, Strand A only]"
 classification: tensional
-description: "Refusing those who say the Lord's flesh was only appearance. The refusal is urgent, and
+description: 'Refusing those who say the Lord''s flesh was only appearance. The refusal is urgent, and
   it is not the same in every household. It belongs most sharply to the communities with one overseer.
 
-  Among the sources from inside this world, essentially one writer develops this: Ignatius. Other
-  teachings were real rivals at the time, among them Marcion, the followers of Valentinus, and the New
-  Prophecy. But we know that from comparing the wider setting, not from a second voice inside this
-  world, so it does not count as a second witness. Ignatius ties his call to obey the bishop directly
-  to his argument against those who deny the Lord's real flesh. But the dependence runs mostly one way.
-  His warnings plausibly shaped the churches he wrote to. Beyond them, it is not established. His
-  argument explains his own writing. It does not explain the Roman material, which shows nothing like
-  it. Outside Ignatius, no source inside this world shows this concern, so it cannot be traced across
-  places or time.
+  Among the sources from inside this world, essentially one writer develops this: Ignatius. Other teachings
+  were real rivals at the time, among them Marcion, the followers of Valentinus, and the New Prophecy.
+  But we know that from comparing the wider setting, not from a second voice inside this world, so it
+  does not count as a second witness. Ignatius ties his call to obey the bishop directly to his argument
+  against those who deny the Lord''s real flesh. But the dependence runs mostly one way. His warnings
+  plausibly shaped the churches he wrote to. Beyond them, it is not established. His argument explains
+  his own writing. It does not explain the Roman material, which shows nothing like it. Outside Ignatius,
+  no source inside this world shows this concern, so it cannot be traced across places or time.
 
-  This refusal connects with leadership, the meaning of martyrdom, and shared worship. But each of
-  those links rests on a single Ignatius passage doing double duty, not on independent support. No text
-  links it directly to the letter network. No text links it directly to state pressure at the level of
-  the broad pattern either. A separate, later reading suggests something narrower. For a member in
-  Antioch or Asia Minor, legal danger and the refusal of rivals may have taught the same lesson. That
-  is an interpretation offered here, not something the sources say. It describes what a member lived
-  through, not the broad pattern, so the two statements do not clash.
+  This refusal connects with leadership, the meaning of martyrdom, and shared worship. But each of those
+  links rests on a single Ignatius passage doing double duty, not on independent support. No text links
+  it directly to the letter network. No text links it directly to state pressure at the level of the broad
+  pattern either. A separate, later reading suggests something narrower. For a member in Antioch or Asia
+  Minor, legal danger and the refusal of rivals may have taught the same lesson. That is an interpretation
+  offered here, not something the sources say. It describes what a member lived through, not the broad
+  pattern, so the two statements do not clash.
 
-  Because one voice carries this, the risk that it reflects one man's concerns rather than common
-  practice is high. That risk was flagged from the start. The same weakness affects leadership and the
-  meaning of martyrdom. For Asia Minor, all three rest on Ignatius as the only witness. A confirmed,
-  independent third witness from Asia Minor could strengthen the case. None has been found, and none is
-  assumed.
+  Because one voice carries this, the risk that it reflects one man''s concerns rather than common practice
+  is high. That risk was flagged from the start. The same weakness affects leadership and the meaning
+  of martyrdom. For Asia Minor, all three rest on Ignatius as the only witness. A confirmed, independent
+  third witness from Asia Minor could strengthen the case. None has been found, and none is assumed.
 
-  Two further sources have been checked against this gap. Melito of Sardis, in a fragment called 'On
-  the Nature of Christ,' makes much the same argument against a phantom Christ as Ignatius does. But
-  that fragment survives only because Anastasius of Sinai quoted it in the seventh century. Most of
-  this world's other fragments come down through Eusebius instead. The gap between Melito's death and
-  that quotation is about five centuries. That makes it much weaker evidence than Ignatius's letters.
-  It stands as a possible second voice, not a confirmed one. On secure evidence, the case still rests
-  essentially on one writer.
+  Two further sources have been checked against this gap. Melito of Sardis, in a fragment called ''On
+  the Nature of Christ,'' makes much the same argument against a phantom Christ as Ignatius does. But
+  that fragment survives only because Anastasius of Sinai quoted it in the seventh century. Most of this
+  world''s other fragments come down through Eusebius instead. The gap between Melito''s death and that
+  quotation is about five centuries. That makes it much weaker evidence than Ignatius''s letters. It stands
+  as a possible second voice, not a confirmed one. On secure evidence, the case still rests essentially
+  on one writer.
 
-  The second check is stronger. Fragments from writers against the New Prophecy are a separate,
-  independent, first-hand source. They show the bishops of Asia meeting together to examine the New
+  The second check is stronger. Fragments from writers against the New Prophecy are a separate, independent,
+  first-hand source. They show the faithful of Asia meeting often, in many places, to examine the New
   Prophecy and reject it at the time it arose. So for the New Prophecy, the rivalry is no longer just
   background: a direct witness confirms it. This supports the broader claim that drawing lines against
-  living rivals was real in this world and had more than one voice. But that dispute was about who
-  could speak as a prophet, not about the Lord's flesh. It adds no second witness to the argument
-  against a phantom Christ.
+  living rivals was real in this world and had more than one voice. But that dispute was about who could
+  speak as a prophet, not about the Lord''s flesh. It adds no second witness to the argument against a
+  phantom Christ.
 
   The evidence is too thin to treat this as a central pattern, or even a firm supporting one. What it
-  does show is a real, live, unsettled line against rivals of the time. It stands as an open tension
-  that keeps this world from reading as already-settled orthodoxy, without claiming to organize the
-  whole. It belongs to Antioch and Asia Minor only."
+  does show is a real, live, unsettled line against rivals of the time. It stands as an open tension that
+  keeps this world from reading as already-settled orthodoxy, without claiming to organize the whole.
+  It belongs to Antioch and Asia Minor only.'
 manifestations:
 - "'Stop your ears... when any one speaks to you at variance with Jesus Christ... He was truly persecuted under Pontius Pilate; He was truly crucified' (Ignatius, Trallians 9)"
 - "'They abstain from the Eucharist and from prayer, because they confess not the Eucharist to be the flesh of our Saviour Jesus Christ' (Ignatius, Smyrnaeans 7)"

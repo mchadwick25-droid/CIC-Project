@@ -31,13 +31,11 @@ text: >-
   brothers, from the moment that they are converted, and deny the gods of Greece, and worship the
   crucified sage, and live after his laws. All this they take quite on trust, with the result that
   they despise all worldly goods alike, regarding them merely as common property.
-modern_rendering: >-
-  You see, these misguided people start from the general belief that they are immortal
-  forever. That explains the contempt for death and the voluntary self-sacrifice so common
-  among them. Their original lawgiver also impressed on them that they are all brothers,
-  from the moment they convert, deny the Greek gods, worship the crucified sage, and live
-  by his laws. They take all of this entirely on trust. As a result, they despise worldly
-  goods equally, treating them merely as common property.
+modern_rendering: You see, these misguided people start from a general belief that they will live forever.
+  That explains why they scorn death, and why so many of them give themselves up of their own free will.
+  Then their first lawgiver impressed on them that they are all brothers. This holds from the moment they
+  convert, deny the Greek gods, worship the crucified wise man, and live by his laws. They take all this
+  on trust. So they look down on all worldly goods alike and treat them as shared property.
 speaker_or_author: Lucian of Samosata, in The Death of Peregrine
 license: verbatim
 modern_lens_note: >-

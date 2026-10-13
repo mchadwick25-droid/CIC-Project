@@ -36,16 +36,12 @@ positions:
 - "He is the one through whom thanks is given at the table, 'made known to us through Jesus Thy Servant.'"
 tensions:
 - "Ignatius states this with unusual, repeated emphasis on 'truly' because he is arguing directly against a rival teaching that denied it; 1 Clement and the Didache affirm the same substance without that same insistence, since they are not writing against that same pressure."
-text: >-
-  We did not invent him out of an idea. We say he was truly born - of Mary,
-  from the line of David. We say he truly ate and drank. We say he was truly
-  brought before Pilate, truly nailed to the cross, and truly died - not in
-  appearance only, the way some among our own neighbors claimed. And we say he
-  was truly raised, and that we will be raised the same way, by the same
-  Father. When we give thanks over the cup - the eucharistia, our own word for
-  that thanksgiving - we call it the vine of David his servant, made known to
-  us through Jesus. That is the shape of it for us: a real man, really killed,
-  really raised, and now the one through whom we give thanks.
+text: One of us, Ignatius, put it with great force. Jesus was truly born, of Mary, from the line of David.
+  He truly ate and drank. He was truly persecuted under Pilate, truly crucified, and truly died. Some
+  among our neighbors said he only seemed to suffer. Ignatius answered that he was truly raised, and that
+  the same Father will raise us in the same way. Others among us said the same thing more quietly. When
+  we gave thanks over the cup, the eucharistia, we thanked the Father for the holy vine of David, his
+  servant, which he made known to us through Jesus, his servant.
 use_note:
   means: "This world held Jesus truly human, born of Mary, crucified under Pilate, and truly raised, the one through whom thanks are given."
   not_for:

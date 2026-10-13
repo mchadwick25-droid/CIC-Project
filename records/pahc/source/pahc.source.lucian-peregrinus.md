@@ -16,6 +16,7 @@ sources: []
 author: "Lucian of Samosata (satirist; hostile outside witness)"
 work: "The Passing of Peregrinus, c. 165 CE - a satire whose mockery incidentally preserves genuine communal practice: widows and orphans waiting at the prison, officials bribed, visitors traveling from the cities of Asia at communal expense, sacred books read aloud"
 edition: "VENDORED 2026-08-27: cic/texts/lucian_works-vol4-peregrine_fowler1905.txt - The Works of Lucian of Samosata, Volume IV, translated by H. W. and F. G. Fowler, Oxford, at the Clarendon Press, 1905, read from the file's own title page. About 77,700 words; The Death of Peregrine at pp. 79-94. The whole volume is vendored, not the one piece - sixteen other works and the Fowlers' own Notes Explanatory of Allusions come with it. Project Gutenberg eBook #47242; the Gutenberg header and licence tail were stripped at vendoring and the underlying 1905 translation is public domain by date regardless. Harmon's Loeb vol. 5 (1936) was the other candidate and is not needed"
+citation: 'Lucian of Samosata, The Passing of Peregrinus, in The Works of Lucian of Samosata, vol. 4, trans. H. W. and F. G. Fowler (Oxford: Clarendon Press, 1905)'
 kind: vendored
 rights_status: "public-domain, and now quotable. 1905 publication date, read from the file's own title page (Oxford, at the Clarendon Press, 1905), long out of US copyright"
 attribution_status: attributed

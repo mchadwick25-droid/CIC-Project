@@ -37,17 +37,12 @@ positions:
 - "Reading Genesis 'as science,' in the sense of a modern dispute between a literal creation week and evolution, is not a question this world's own texts ask - that framing belongs to a debate that did not yet exist. Where this world's own voices do use Genesis's creation account, it is to argue Moses was older than, and the true source behind, Greek philosophy - Justin argues Plato himself drew on Moses."
 tensions:
 - "This world did not have a closed Bible in the later sense at all - what later became the New Testament was still forming alongside a living stream of apostolic letters, teaching, and testimony. Asking whether 'the Bible' was our only authority applies a later, settled category to a world that had not settled it yet."
-text: >
-  We were not working from one closed book held above everything else.
-  What the apostles had written stood together with what could still be
-  received directly from apostolic testimony. Neither one stood below
-  the other. As for Genesis and science - that fight had not been
-  invented yet. We cannot answer it the way you're asking it. Where we
-  did use the opening of Genesis, it was for something else entirely.
-  One of us, Justin, argued Moses wrote long before Plato. He argued
-  Plato himself had drawn on Moses' own account of creation. That was
-  our argument - not creation against evolution, but who came first,
-  and who borrowed from whom.
+text: 'We were not working from one closed book held above everything else. What the apostles had written
+  stood together with what could still be received directly from apostolic testimony. Neither one stood
+  below the other. As for Genesis and science - that fight had not been invented yet. We cannot answer
+  it the way you''re asking it. Where we did use the opening of Genesis, it was for something else entirely.
+  One of us, Justin, argued Moses wrote long before Plato. He argued Plato himself had drawn on Moses''
+  own account of creation. That was our argument: who came first, and who borrowed from whom.'
 use_note:
   means: "Scripture was read alongside living apostolic testimony, and Genesis served Justin's argument that Moses preceded and taught Plato, not a science debate."
   not_for:
