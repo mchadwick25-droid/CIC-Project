@@ -41,7 +41,7 @@ use_note:
   not_for:
     - "Presenting it as evidence of a large body of women's sayings, when named ammas are thin"
     - "Adding the Greek clause about being a woman by nature but not in thought, which the vendored recension lacks"
-    - "Presenting the elders' visit as verified history or as attested in Budge's Syriac, which gives only the saying to her brethren"
+    - Adding a visit, a challenge or a motive to the saying; Budge sec. 525 has only her saying to her brethren.
   years: {from: 320, to: 430}
   status: reviewed
 ---
