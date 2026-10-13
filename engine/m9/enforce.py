@@ -220,7 +220,6 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m9:source-citation/gallic": Waiver(count=36, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; gallic's record wording pass"),
     "m9:source-citation/hal": Waiver(count=28, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; hal's record wording pass"),
     "m9:source-citation/ijc": Waiver(count=30, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; ijc's record wording pass"),
-    "m9:source-citation/pahc": Waiver(count=23, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; pahc's record wording pass"),
     "m9:source-citation/rzg": Waiver(count=18, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; rzg's record wording pass"),
     "m9:source-citation/witt": Waiver(count=89, deadline="2027-01-15", owner="source cards show build text from author/work/rights_status until each source record carries a citation line; witt's record wording pass"),
 }
