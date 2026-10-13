@@ -31,7 +31,7 @@ exchange:
     promise. Consecrated widows and virgins appear in our pages. One young
     woman, Potamiaena, was remembered among us by name, long after her death,
     for her courage. And we can point to the household, where Origen learned
-    Scripture from his father and was held back from the arena by his mother.
+    Scripture from his father and was kept from martyrdom by his mother.
     But we will not put words in their mouths. If you want the women of
     Alexandria in their own voice, we do not have them to give. That absence is
     part of our record's truth, and you deserve to have it stated plainly.

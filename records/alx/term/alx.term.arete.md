@@ -44,7 +44,7 @@ senses:
     lifetime of formation leaves visible in a person.
   personal: "Courage that came out of a soul changed by formation was what we called virtue. Training and will had their part, but they were not the whole."
   translational: "Isn't virtue just excellence built through practice, like Aristotle taught? Practice had a place in Clement's account, but this world located virtue in the soul that formation has changed. Virtue was the visible fruit of that change."
-quick_meaning: "The fruit of a soul truly changed, reached through training and will."
+quick_meaning: "The fruit of a soul truly changed, with training and will playing a part."
 distortion_risk: high
 use_note:
   means: "Arete meant virtue as something a soul receives, the visible fruit of desire reordered by formation, not a skill built by habituated practice."

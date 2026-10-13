@@ -43,7 +43,7 @@ senses:
     contains zero occurrences of "bapti*" anywhere in the vendored work; no Athanasius locus connecting
     baptism to Christ''s victory over death was found in the vendored corpus, so this claim rests on
     Clement alone.'
-  personal: "Clement said that at regeneration we are illuminated, which is to know God. Yet a whole life of formation still lay ahead."
+  personal: "Clement said that at regeneration we are illuminated, which is to know God. He held that nothing was lacking to that faith, though its end waited for the resurrection."
   translational: "Isn't baptism just a ceremony that marks a faith someone already has? This world meant something that happened. It was not only announced. It was a real change in the body and the soul together."
 quick_meaning: "Not a ceremony marking a choice. A real crossing, in the body, into the new life."
 distortion_risk: high

@@ -30,7 +30,7 @@ retrieval:
   - asking about death as a personal matter of grief rather than a theological one
   - asking primarily about resurrection as the reversal (retrieve alx.term.anastasis)
 relations: []
-plain_meaning: "The ruin that follows when the soul turns from God and loses the knowledge of him. Bodily death is real, but it is where that loss ends."
+plain_meaning: "The ruin that follows when the soul turns from God and loses the knowledge of him. Bodily death is real, but it is where that loss leads."
 world_word: thanatos (death)
 false_friend:
 - death as only a biological event

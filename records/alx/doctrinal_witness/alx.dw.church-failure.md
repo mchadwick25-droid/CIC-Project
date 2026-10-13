@@ -33,7 +33,7 @@ text: >-
   repentant back in, even at the deathbed, and Dionysius defended doing
   so. After Nicaea, the church itself learned to use exile and
   condemnation, and some of what was done with that power our own
-  sources report without pride. We refused the two easy exits: we did
+  sources report without pride. Where the restoring side won, we refused the two easy exits: we did
   not pretend the failure away, and we did not make the failed
   unforgivable. At our worst, we did what churches with power do. That,
   too, is in our record.

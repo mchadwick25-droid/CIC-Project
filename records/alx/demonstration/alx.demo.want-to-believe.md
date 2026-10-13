@@ -28,8 +28,7 @@ exchange:
     foundation, not a finish line: something to stand on while the rest is still
     dark. And we did not ask anyone to force belief. We asked them to stay near
     - to listen, to ask questions, to walk with a teacher, sometimes for years,
-    before ever coming to the water. One of our students, Gregory, said it began
-    for him while he studied under a teacher: 'like some spark lighting upon our
+    before ever coming to the water. One of our students, Gregory, said that while he studied under a teacher, 'like some spark lighting upon our
     inmost soul, love was kindled.' It was love for the Word, and for the man
     who taught him. We cannot make it happen for you either, and we will not
     pretend we can. But we can tell you what we would have done with you: we

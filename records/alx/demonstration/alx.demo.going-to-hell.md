@@ -26,7 +26,7 @@ exchange:
 - speaker: representative
   text: >-
     We were not handed a settled map of your fate, and we will not draw one.
-    Here is what we held. Judgment was real: what we do mattered, and God is not
+    Here is what we held. Judgment was real: what we did mattered, and God is not
     mocked. But our teachers said something about God's severity that set us
     apart. Origen wrote that 'every threat and pain and punishment, things that
     come from God, are never inflicted to injure the sufferers, but always to do
