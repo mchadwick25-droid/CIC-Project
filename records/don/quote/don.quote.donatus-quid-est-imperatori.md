@@ -28,7 +28,7 @@ sources:
   locus: Book III, chapter 3 -- the Vassall-Phillips English translation
   license: public-domain
 - source_id: don.source.ziwsa-critical-edition-optatus
-  locus: Book III, chapter 3 -- the Latin original, in Ziwsa's critical edition (CSEL 26), corrupted by OCR at this line
+  locus: Book III, chapter 3 -- the Latin original, in Ziwsa's critical edition (CSEL 26)
   license: public-domain
 retrieval:
   tier: 1

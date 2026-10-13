@@ -53,55 +53,56 @@ relations:
 name: Martyr-Cult Identity / "Church of the Martyrs" [PRIMARY]
 description: >-
   This is a central, defining pattern of this world. Of all the central patterns, it is the one
-  least at risk of reflecting a single author's concerns.
+  least likely to reflect just one author's concerns.
 
   Three separate texts carry it, each voiced or written by Donatists, so it recurs very strongly.
-  They are the Passio Marculi, Macrobius's own letter to the Carthage congregation on Isaac and
-  Maximianus, and the Passio Donati sermon. Inscriptions at Bagai
-  and elsewhere attest the Deo laudes acclamation independently. It is this world's distinctive
-  strength.
+  They are the Passio Marculi, Macrobius's own letter to the church at Carthage on Isaac and
+  Maximianus, and the Passio Donati sermon. Words cut in stone at Bagai and elsewhere attest the Deo
+  laudes acclamation on their own. It is the strength that sets this world apart.
 
-  Other patterns depend on it strongly. The community's own claim to legitimacy draws directly on
-  it: a persecuted church is, for that reason, a true one. The worship calendar is organized
-  around it. And the purity doctrine counts as a lived claim, not merely an asserted one, partly
-  because people really suffered for it.
+  Other patterns lean on it heavily. The community's own claim to be the true church draws straight
+  on it: a persecuted church is, for that reason, a true one. The worship calendar is built around
+  it. And partly because people really suffered for it, the purity doctrine counts as a lived claim
+  and not just a stated one.
 
-  Commemoration in worship, sermons preached on anniversaries and shared memory-making form people
-  strongly. They are the most directly formative practices this world's record documents. They
-  were carried out again and again.
+  Three practices shape people strongly: keeping the martyrs' memory in worship, preaching on their
+  anniversaries, and making memory together. Of all the practices in this world's record, these
+  shape people most directly. They were carried out again and again.
 
-  It strongly explains the specific words of worship, such as Deo laudes and anniversaria
-  commemoratio. It also explains why new texts kept appearing after each episode of persecution.
+  It goes far to explain the exact words used in worship, such as Deo laudes and anniversaria
+  commemoratio. It also explains why new texts kept coming after each wave of persecution.
 
-  Texts attest it very strongly over time, across nearly the whole period this world covers. The
-  earliest is the sermon. Monceaux dates its events to 317 and its writing to around 320. Mabillon dates the persecution to about 340. It is
-  the earliest Donatist-authored text that survives from this world. The latest are the
-  Passiones of the Macarian era, 347-348.
+  Texts bear witness to it very strongly over time, across nearly the whole span this world covers.
+  The earliest is the sermon. Monceaux dates its events to 317 and its writing to around 320.
+  Mabillon dates the persecution to about 340. It is the earliest text by a Donatist author that
+  survives from this world. The latest are the Passiones of the Macarian era, 347-348.
 
-  It reinforces the purity doctrine and the refusal of the state's religious authority. The sermon names Honoratus, a bishop of Sicilibba, wounded. On Monceaux's reading it also tells of a bishop of Advocata killed. That ties it directly to the rival church structure.
+  It strengthens the purity doctrine and the refusal of the state's authority in religion. The
+  sermon names Honoratus, a bishop of Sicilibba, as wounded. On Monceaux's reading, it also tells of
+  a bishop of Advocata who was killed. That ties it straight to the rival church structure.
 
-  Its confidence rating and its central status agree. Its evidence is also the strongest of the
-  four central patterns. Its core reality is documented on grounds largely independent of the
-  hostile framing of Optatus and Augustine. Three separate texts, voiced or written by Donatists,
-  point to it. So do inscriptions cut in stone, with no literary go-between at any point.
+  Its confidence rating and its central status agree. Its evidence is also the strongest of the four
+  central patterns. Its core is documented on grounds that owe little to the hostile framing of
+  Optatus and Augustine. Three separate texts, voiced or written by Donatists, point to it. So do
+  words cut in stone, with no literary go-between at any point.
 
-  The purity doctrine and the refusal of state authority come to us partly through hostile
-  sources, which limits them. Of the four central patterns, this is the one that escapes that
-  limit. It escapes it in the detail of its evidence, not only in its bare existence.
+  The purity doctrine and the refusal of state authority reach us partly through hostile sources,
+  and that limits them. Of the four central patterns, this is the one that escapes that limit. It
+  does so in the detail of its evidence, and not only in the bare fact that it existed.
 
-  Of the four central patterns, this one rests most cleanly on the movement's own voice. The
-  Donatists' own voice and evidence that no hostile writer shaped carry much of it. It does not
-  rest on a mere fragment of that record.
+  Of the four central patterns, this one rests most cleanly on the movement's own voice. Much of it
+  is carried by the Donatists' own voice and by evidence that no hostile writer shaped. It does not
+  rest on a mere scrap of that record.
 
-  It reinforces three other patterns: the purity doctrine, the rival church structure and the
-  refusal of state religious authority.
+  It strengthens three other patterns. They are the purity doctrine, the rival church structure and
+  the refusal of the state's authority in religion.
 
-  We can trace the forces behind it. Its deep root is the Diocletianic persecution, the source of
-  this world's memory of persecution. The Macarian repression directly triggered the two
-  best-attested Passiones. Yearly commemoration kept it going. It is also tied to what survived,
-  which the Caecilianist party's institutional victory decided. To a large degree, this pattern's
-  own surviving texts are this world's own surviving voice: the small remainder that survives
-  independently.
+  We can trace the forces behind it. Its deep root is Diocletian's persecution, the source of this
+  world's memory of persecution. The Macarian repression directly set off the two best-attested
+  Passiones. Yearly remembrance kept the pattern going. It is also tied to what survived, which the
+  victory of Caecilian's party as an institution decided. To a large degree, this pattern's own
+  texts are what is left of this world's own voice: the small part that has come down to us on its
+  own.
 manifestations:
 - the Deo laudes / Bagai acclamation, "Praise to God" (don.quote.deo-laudes; CIL VIII 17732,
   epigraphic, no manuscript mediation)
