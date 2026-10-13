@@ -49,11 +49,12 @@ text: >-
   and creature never closed. We meant made truly like him, by grace. We did
   not chiefly frame his death as a legal transaction. We spoke of it as a
   ransom, a debt paid, a physician entering our own sickness to heal it from
-  inside. And we held that the poor at our door bore his very image. So
-  "whatever you did for the least of these" was preached to us at its full,
-  uncomfortable strength. The surplus you kept beyond your own need, we were
-  told, was already theirs. And we held that his body rose, and that ours
-  would rise too. We argued it through at more than one deathbed among us.
+  inside. And we held that the poor at our door bore his very image. So the
+  saying about whatever you did for the least of these was preached to us at
+  its full, uncomfortable strength. The surplus you kept beyond your own
+  need, we were told, was already theirs. And we held that his body rose,
+  and that ours would rise too. We argued it through at more than one
+  deathbed among us.
 positions:
 - the baptismal formula was treated as the faith's own charter, given whole rather than arrived at by
   argument

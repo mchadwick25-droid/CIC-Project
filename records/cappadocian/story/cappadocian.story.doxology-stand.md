@@ -38,8 +38,8 @@ relations:
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: the treatise's own account of its occasion - a doxology challenged, a friend's request for a fuller answer - is the treatise's own preface, by its named author, addressed to a named contemporary. The surrounding court-pressure context is independently documented elsewhere in this world's record. Contested (Doc_02 §5, debate 10) is why Basil measured his words as he did about the Spirit's plain divinity; that dispute is carried as the era's own open argument among allies, not resolved in the telling."
 tellable_as: >-
-  A bishop gives glory to the Father in two forms, one of them "with the
-  Son, together with the Holy Spirit". He is accused of bringing in new
+  A bishop gives glory to the Father in two forms. In one, the Son and the
+  Holy Spirit share the glory with him. He is accused of bringing in new
   words, and his answer becomes a book about how the church's own worship
   carries its faith.
 text: >-
