@@ -17,6 +17,7 @@ relations: []
 author: Elizabeth A. Clark
 work: '''The Lady Vanishes,'' Church History 67 (1998)'
 edition: In-copyright modern scholarship, not vendored
+citation: Elizabeth A. Clark, 'The Lady Vanishes,' Church History 67 (1998)
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

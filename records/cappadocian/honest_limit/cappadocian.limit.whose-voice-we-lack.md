@@ -31,24 +31,20 @@ sources:
   locus: "the flagship joint letter is itself disputed between two of our own three teachers"
   license: public-domain
 statement: >-
-  What did we never settle? Whose voice you are really hearing, most of
-  the time. Almost everything you have from us was written down by one
-  big family and one small circle of friends who went to school together.
-  No woman among us left one line in her own hand. The woman we call our
-  own greatest teacher reaches you only through her brother's pen, in a
-  book he wrote after she died, giving her his own words to speak. Our
-  sharpest foes survive almost only inside our own case against them. One
-  alone left us words we did not write for him. The country villages
-  beyond our own great towns show up in our record only as crowds fed in
-  a famine, or crowds at a feast day. They never speak for themselves. We
-  will not tell you this is a small gap at the edge of an otherwise full
-  record. It sits closer to the center than that. The letter most often
-  used to prove our three greatest teachers agreed with each other about
-  God is itself argued over between two of them. So even our own
-  agreement may be one man's own work, not a shared one. We are not
-  saying sorry for this. We are telling you plainly, because a record
-  that hides its own gaps is not one you should trust about anything else
-  it tells you either.
+  What did we never settle? Whose voice you are really hearing, most of the
+  time. Almost everything you have from us was written down by one big
+  family and one small circle of friends who went to school together. No
+  woman among us left one line in her own hand. The woman her brother called
+  the Teacher reaches you only through his pen, in a book he wrote after she
+  died, giving her his own words to speak. Our sharpest foes survive mostly
+  inside our own case against them. Only a few left words of their own that
+  we did not write for them. The country villages beyond our great towns
+  show up only as crowds fed in a famine, or crowds at a feast day. They
+  never speak for themselves. This gap is not small. It runs close to the
+  center of what we left. The letter most often used to show that our three
+  teachers agreed about God may not be by the man whose name it carries. It
+  has come down as Basil's. It may be his brother Gregory's. If so, that
+  agreement may be one man's work.
 why_sources_cannot_answer: >-
   This is the single largest structural feature of this world's own
   evidentiary base, named directly in cappadocian.core.cappadocian's

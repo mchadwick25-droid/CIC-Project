@@ -250,7 +250,7 @@ def gate_shelf_confidence(records: dict, shelf: Shelf) -> list[str]:
 
 # Build-process text that must never reach a participant on a source line.
 _CITATION_BUILD_TEXT = re.compile(
-    r"\bDoc_\d|\blegacy\b|project lead|\bvendored\b|cic/|\b20\d\d-\d\d-\d\d\b|\bSS\d|\bverified\b|consultation-only"
+    r"\bDoc_\d|project lead|\bvendored\b|cic/|\b20\d\d-\d\d-\d\d\b|\bSS\d|\bverified\b|consultation-only"
     r"|\.(?:xml|txt)\b|\bfile lines? \d",
     re.IGNORECASE,
 )

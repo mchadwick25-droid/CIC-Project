@@ -38,7 +38,10 @@ relations:
   target: cappadocian.figure.modestus
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 for both halves of this entry, as Doc_09's own current text states - not a separate '1-as-encomium' tier (a non-canonical label Doc_09's own light-fix pass corrected, moving the genre caution to the Confidence column instead; this project's rule is Tiers 1-4 only). The core - the provincial pressure, Modestus's mission, the Epiphany visitation, Basil's continuation in office - converges with this world's independently documented policy arc; it does not rest on Gregory's telling alone. The celebrated dialogue is Gregory's own public telling, delivered within living memory of eyewitnesses at Basil's funeral, and is genre-shaped (encomium) - not verifiable as court stenography, and not claimed as such here."
-tellable_as: "A hostile prefect threatens a bishop who answers that he owns nothing left to lose, and the emperor who comes to see him removed leaves the Epiphany liturgy having changed his mind."
+tellable_as: >-
+  A hostile prefect threatens a bishop, who answers that he owns nothing
+  left to lose. The emperor comes to the Epiphany liturgy and is shaken.
+  Later a decree to exile the bishop is signed, and it is never carried out.
 text: >-
   In 371 and 372, Basil's province lay under an emperor who backed a
   different creed than his own. Valens divided Cappadocia into two

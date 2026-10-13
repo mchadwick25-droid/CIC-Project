@@ -47,13 +47,13 @@ relations:
 - type: associated-with
   target: cappadocian.dw.holy-spirit-honored
 modern_rendering: >-
-  We will not back down from defending the truth, and we will not be
-  cowards and abandon the cause. The Lord handed down to us, as
-  essential and saving teaching, that the Holy Spirit is to be ranked
-  together with the Father. Our opponents see it differently - they
-  want to tear the Spirit away and demote him to the level of a mere
-  ministering spirit. Isn't it obvious, then, that they are putting
-  their own blasphemy above the law the Lord gave us?
+  But we will not slacken in defending the truth. We will not be cowards and
+  abandon the cause. The Lord has handed down to us, as necessary and saving
+  teaching, that the Holy Spirit is to be ranked with the Father. Our
+  opponents think differently. They choose to divide and tear apart, and to
+  push him down to the nature of a ministering spirit. Is it not plain,
+  then, that they make their own blasphemy more authoritative than the law
+  the Lord gave?
 use_note:
   means: "Basil, in On the Holy Spirit, calls ranking the Spirit with the Father saving doctrine and accuses opponents of demoting him to a ministering spirit."
   not_for:

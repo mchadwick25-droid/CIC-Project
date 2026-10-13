@@ -23,7 +23,10 @@ names:
 dates:
   display: "died 362, martyred under Julian; feast kept 7 September, attested via Basil's own invitation letters to bishops for the feast"
 narratable: true
-bridge_line: "A martyr under Julian whose feast this world kept every year - attested by invitation letters to the feast, not by any surviving account of the martyrdom itself."
+bridge_line: >-
+  A martyr of Caesarea under Julian. Basil's letters invite bishops to his
+  feast each year. No one in this circle wrote down how he died. A later
+  church historian tells it.
 relations: []
 ---
 NO-STORY BOUNDARY FIGURE, and an UPSTREAM GAP FLAGGED HERE rather than

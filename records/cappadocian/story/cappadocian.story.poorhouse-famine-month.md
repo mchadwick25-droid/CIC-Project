@@ -45,7 +45,9 @@ relations:
   target: cappadocian.gravity.bishop-patron
 narrative_tier: 4
 narrative_tier_justification: "Tier 4 (historically grounded reconstruction), doubly Inferential-Thin as Doc_09's own text states: no later famine at the complex is itself attested, only the recurring subsistence risk this region's own ecology carries and an institution built to answer it. Every element is separately sourced: the complex's Documented existence, staffing by ascetics, and negotiation with governors; the theological vocabulary reused from Basil's own earlier famine preaching, explicitly declared as a source for vocabulary rather than as this scene's own setting - that preaching belongs to c. 368/9, before Basil's episcopate and before the complex existed (Doc_02 §1.1's own correction, which this entry is deliberately built to respect rather than blur); the leper as a stated test of philanthropia to Nazianzen's Oration 14 and Nyssen's own poverty preaching; pleonexia as the vice named, and oikonomos as the office, to this world's own term records; the granary-door imagery reused deliberately from this world's own famine story."
-tellable_as: "This is how a later crisis would plausibly have found this institution, once it existed - explicitly reconstruction, and explicitly not the founding famine itself."
+tellable_as: >-
+  A later hard season, as it would have met the guest-house and infirmary
+  Basil built. We have no account of such a month itself.
 text: >-
   After Basil became bishop, and after the poorhouse-hospital complex he
   built outside Caesarea's walls was standing and staffed - a complex

@@ -41,9 +41,12 @@ relations:
   target: cappadocian.term.panegyris
 - type: associated-with
   target: cappadocian.term.paradosis
-plain_meaning: The last Christians killed for their faith were only one generation back. This was grandparents'
-  memory, not ancient history. Above all, the Forty Soldiers of Sebaste, frozen to death for their faith,
-  were preached at their own shrine as our own family dead.
+plain_meaning: >-
+  The great persecutions had ended a generation before. Our grandparents
+  remembered them. Above all, we told of the Forty Soldiers of Sebaste, who
+  froze to death for their faith. We preached them at their own shrine, as
+  our own family dead. Even after the peace, one of our own, Eupsychius of
+  Caesarea, was put to death under Julian. We kept his feast.
 world_word: martys / martyrion
 false_friend:
 - general suspicion of relics as superstitious

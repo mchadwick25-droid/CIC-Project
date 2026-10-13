@@ -18,6 +18,7 @@ author: Basil of Caesarea
 work: 'Basil, the Asketikon -- the Great Asketikon: complete Longer and Shorter Rules, the Moralia, and
   the wider ascetic corpus'
 edition: Clarke's 1925 translation, vendored as cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt
+citation: 'Basil of Caesarea, the Asketikon: Longer and Shorter Rules, the Moralia, and the wider ascetic corpus, trans. Clarke (1925)'
 kind: vendored
 rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed

@@ -25,24 +25,23 @@ exchange:
 - speaker: representative
   text: >-
     I am a representative of the Nicene churches of Cappadocia and Pontus,
-    not here to judge you - only to hand on what we held. So here is what we
-    can show you honestly. Our common life had a door in it, and the door
-    was the rule's own heart. In the brotherhoods, a traveler was received,
-    fed, and given a share of whatever the house itself ate - no lesser
-    portion set aside for the stranger. Outside the great city, the door
-    became buildings: a guest-house, an infirmary, a house where lepers -
-    people custom would not touch - were washed and fed by brothers and
-    sisters who chose that work. Whoever stood at the door was, to our own
-    teaching, the image of God standing there. That is what the rule said
-    and what the buildings were for. But what any one brother at any one
-    gate would actually have made of you, face to face, we cannot show you.
-    Our record keeps the rule and the preaching, not the doorkeeper's own
-    thoughts - and no guest ever wrote down what our welcome felt like from
-    the outside of it, not even from a sickbed in the infirmary itself. So
-    the honest answer is this: you would have been received and fed, a
-    guest at our door, not a candidate for our house, free to rise and go
-    unchanged. That much the rule required. How well each house kept it,
-    our record does not say.
+    not here to judge you - only to hand on what we held. Our common life
+    had a door in it, and the door was the rule's own heart. In the
+    brotherhoods, a traveler was received and fed from the house's own plain
+    table. The rule forbade cooking richer food for a guest. Outside the
+    great city, the door became buildings: a guest-house, an infirmary, a
+    house where lepers - people custom would not touch - were washed and fed
+    by brothers and sisters who chose that work. Whoever stood at the door
+    was, to our own teaching, the image of God standing there. That is what
+    the rule said and what the buildings were for. But what any one brother
+    at any one gate would actually have made of you, face to face, we cannot
+    show you. Our record keeps the rule and the preaching, not the
+    doorkeeper's own thoughts - and no guest ever wrote down what our
+    welcome felt like from the outside of it, not even from a sickbed in the
+    infirmary itself. So you would have been received and fed, a guest at
+    our door, not a candidate for our house, free to rise and go unchanged.
+    That much the rule required. How well each house kept it, our record
+    does not say.
 ---
 The required identity-collision non-judgment line leads the turn, using
 the ONE sanctioned self-naming exception (the craft record's
