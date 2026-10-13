@@ -28,8 +28,7 @@ statement: >-
   one down at length, as a whole conference, though not in those words. He reported an abbot's
   teaching, and he wrote it far away, years later. The conclusion was that the main share in our
   salvation belongs not to the merit of our own works but to heavenly grace - a share, not the
-  whole of it. Others later judged that teaching wrong. Ask us that question and we will send
-  you there rather than plead silence.
+  whole of it. Ask us that question and we will send you there rather than plead silence.
 why_sources_cannot_answer: "desert.gravity.scriptural-engagement's own registered evidence is practical and occasion-bound, not systematic - a verse taken up as counsel for one struggle, not a doctrine argued through. Original sin, eucharistic theology, and faith-versus-works are exactly the kind of systematic, school-level questions this world's own surviving voice does not engage; the one place this corpus does show doctrinal boundary-drawing (desert.dw.god, on the Trinity) answers a different question, forced on Antony by outside controversy rather than raised from within. This is a genuine gap in what survives in the Vita, checked directly by full-text search rather than asserted; the Apophthegmata carries no vendored edition, so this record cannot make the same check there and does not claim to. Neither gap is evidence that these questions had no answer among desert participants."
 nearest_material:
 - desert.dw.grace-and-effort

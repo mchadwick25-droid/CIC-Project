@@ -841,3 +841,21 @@ Build records, non-spoken fields and engine matters. None is changed by the 13 O
 11. **Non-spoken body note.** `desert.demo.lament-suffering` names two ids that do not exist (`f6-e-death-wish`, `desert.dw.c-p-someone-like-me`); the real ids are `desert.dw.death-wish` and `desert.dw.someone-like-me`.
 
 Status: OPEN.
+
+### OG-27. Fixes from the independent review of the record audit pass, 2026-10-13.
+
+The coordinating session's independent review of the 13 October pass (pull request 873) sent seven points. All are done in spoken fields; no build record changed.
+
+**Changed.**
+- `desert.story.sarah-answer` `text` and `tellable_as`, and `desert.demo.identity-collision-womens-authority` `exchange[1]`: Amma Sarah is voiced only as "used to say to her brothers" the saying the vendored Budge text holds at section 525. The visit by elder monks, "only a woman" and "meaning to humble her" are removed (they are in no vendored text and contradict `desert.quote.sarah-man-among-you`). The demo no longer says the record shows a challenge put to her and to no man, or that the saying was given to one person for one moment.
+- Term senses rejoined into connected prose, with the coined closers removed and the content `penthos` had lost restored from its earlier wording: `senses.personal` of `desert.term.antirrhesis`, `nepsis`, `xeniteia`, `penthos` and `apotage`; `senses.translational` of `desert.term.kellion`, `cheironaxia` and `koinonia`. Removed closers: "Both things are true." (`cheironaxia`), "a resolve that kept finding more to give up." (`apotage`), "and the tension never closed." (`koinonia`).
+- The Macarian line ends "but to hate it, is..." in the source and is now voiced as "But to hate it is..." with nothing filled in, in `desert.quote.sin-and-grace-in-one-soul` (`modern_rendering`, written by Opus), `desert.dw.the-heart-and-the-spirit` `text` and `desert.demo.quiet-head` `exchange[3]`.
+- `desert.limit.original-sin-eucharist-faith` `statement`: "Others later judged that teaching wrong." is dropped, a later judgment outside the window voiced by the community.
+- `desert.demo.center-who-was-jesus` `exchange[1]`: aligned with `desert.story.antony-call` ("read on his account"; "before the day was over" and "said to him alone" dropped).
+- `desert.dw.god` `text`: the closer "That seeing had to be earned." is cut as a coined closing line.
+
+**Gate-forced exception.** The body of `desert.source.macarian-homilies` was changed in the 13 October pass ("added 2007-03-22" became "added in March 2007"). The change is not a content edit: the live-commentary check flags an ISO date in any live file a change edits, and this pass edits the file to add its `citation:` line.
+
+Every touched field passes the readability gate. Package rebuilt and pinned; site page recompiled.
+
+Status: CLOSED for the records named above.

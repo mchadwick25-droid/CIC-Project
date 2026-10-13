@@ -39,7 +39,7 @@ false_friend:
 senses:
   informational: "The entry act: giving up property, family ties, and worldly standing at the threshold of ascetic life. The Pachomian communities made it a formal condition of membership; the solitary and semi-solitary strands practiced it as an assumed threshold without comparable paperwork."
   evidential: "Antony's own story opens with it - the Life records him giving away his inherited land, selling what could be moved and giving the money to the poor. He first kept back a small reserve for his sister's sake; hearing the Gospel read again, he gave that away too and placed her with virgins who would care for her. Renunciation, on the Life's own telling, was not one gesture but a resolve that kept finding more to give up. For the Pachomian rule-form, this specific condition rests on modern scholarship on the Latin Rule tradition - itself two stages removed from the Coptic, through a Greek intermediary before Jerome's Latin - not on Palladius's or Sozomen's own reports, which give the community's tablet-rule and its three-year probation but not this condition by name."
-  personal: Renunciation was not a deal finished at the door. Antony kept a little back for his sister, then gave that away too. It was a resolve that kept finding more to give up.
+  personal: Renunciation went on past the door. Antony first kept a little back for his sister, and then, hearing the Gospel read again, he gave that away too.
   translational: Closer to a giving-up that keeps costing than to a pledge or a vow. The modern picture is one big gesture. The tradition counted the ongoing practice as the real renunciation.
 quick_meaning: "Giving up property and standing to enter this life - and keeping it given up."
 distortion_risk: medium

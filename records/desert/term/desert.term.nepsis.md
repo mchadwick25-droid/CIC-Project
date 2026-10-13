@@ -43,7 +43,7 @@ false_friend:
 senses:
   informational: "The ongoing act of watching the mind - distinct from discernment, which judges what the watching finds. Rooted in shared Christian vocabulary (Peter's call to be sober and watch), most systematically developed at Kellia; as with stillness, the later Byzantine neptic tradition's full apparatus is not this world's."
   evidential: "Attested in the sayings and in Evagrius's corpus; the systematized register is, like the rest of his scheme, concentrated in that one author."
-  personal: The point was to meet a thought at the door, before it had moved in. Watching early was a kindness to yourself.
+  personal: The point was to meet a thought at the door rather than after it had moved in. Watching was a kindness to yourself, because everything is easier early.
   translational: Not mindfulness as a calming practice. This was a sentry's watching, aimed at a real enemy. It fed discernment, not rest.
 quick_meaning: "Watching your own thoughts like a sentry - so you catch them early."
 distortion_risk: high

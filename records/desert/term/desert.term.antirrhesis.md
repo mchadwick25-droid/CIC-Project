@@ -37,7 +37,7 @@ false_friend:
 senses:
   informational: "The technique of countering a specific tempting thought with a specific scriptural rebuttal, spoken at the moment of temptation - modeled on Jesus answering the tempter from scripture, and systematized by Evagrius in his Antirrhetikos, which pairs verses to thoughts under his eight headings. Single-author, single-text in origin; not the movement's general vocabulary."
   evidential: "The historian Socrates, writing of Evagrius, describes the book by name and shape - 'selections from the Holy Scriptures against tempting spirits, distributed into eight parts', in Zenos's English rendering of his words. The work itself survives chiefly in Syriac and Armenian; only Socrates's own description of it can be quoted here directly."
-  personal: A verse of scripture was the weapon you had in the moment. You spoke it against the thought as it came, out loud if need be.
+  personal: The word you had memorized in the quiet was the weapon you had in the moment. You spoke scripture against the temptation itself, out loud if need be, and did not only study it.
   translational: Not positive self-talk, and not an inner argument. The monk answered a thought from outside it, with a word that was not his own, and did not debate it on its own ground.
 quick_meaning: "Answering a tempting thought, on the spot, with a verse of scripture."
 distortion_risk: medium

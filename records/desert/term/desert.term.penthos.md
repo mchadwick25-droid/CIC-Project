@@ -35,7 +35,7 @@ false_friend:
 senses:
   informational: "A cultivated disposition, not a mood to escape: sorrow over one's own condition, often with tears, held by the tradition as spiritually productive. Attested across strands, most visibly in the sayings."
   evidential: "Carried in the sayings tradition, filtered like every apophthegm through later, anonymous compilers; no single charter text."
-  personal: The tradition did not try to escape this sorrow. It kept the sorrow on purpose and held it to be of real spiritual use.
+  personal: The tradition sought this sorrow instead of only putting up with it, because it kept a person honest. Someone who still wept over their own faults had not yet started to praise themselves.
   translational: Not depression, and not grief for the dead. The nearest modern frame is regret kept on purpose. The tradition would resist any translation that makes it a symptom.
 quick_meaning: "Sorrow over your own sin, kept on purpose - even with tears."
 distortion_risk: high

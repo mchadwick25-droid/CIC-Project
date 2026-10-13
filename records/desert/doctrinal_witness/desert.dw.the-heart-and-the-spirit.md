@@ -38,7 +38,7 @@ text: >-
   the surface of the thoughts - the heart is a deep gulf. One homily asks what becomes of a
   person who dies still at war, with both sin and grace in the same soul at once. The answer did
   not weigh the two. He goes where his mind aims, and where his love is. That the war comes upon
-  you is not your doing. But to hate it - that is yours.
+  you is not your doing. But to hate it is...
 positions:
 - "grace as consciously perceived - known 'in real experience and feeling', not inferred from sacraments or held by faith alone (Homily IV)"
 - "the Holy Spirit as indwelling and transforming presence, the soul made his seat and dwelling (Homily I)"

@@ -34,7 +34,7 @@ false_friend:
 senses:
   informational: "A discipline in its own right, not just a side effect of withdrawal: deliberately severing the ties of homeland and kinship - the relations that make a person recognizable to themselves. Most strongly attested in the solitary and semi-solitary material; quieter in the settled Pachomian frame."
   evidential: "Carried in scattered sayings of the tradition rather than any single charter text - like every apophthegm, filtered through later, anonymous compilers who arranged and selected what survives."
-  personal: 'To someone far from everyone they love: we knew that distance from the inside. We chose it, as a discipline of its own.'
+  personal: To someone far from everyone they love, we can say that we knew that distance from the inside. We chose it as a discipline of its own, cutting the ties of homeland and kin that made a person recognizable to themselves.
   translational: Nothing like travel or a move for work. The nearest modern experience is leaving your country with no ticket home, taken on freely as a discipline.
 quick_meaning: "Chosen exile - leaving home and kin for good, as a discipline."
 distortion_risk: medium

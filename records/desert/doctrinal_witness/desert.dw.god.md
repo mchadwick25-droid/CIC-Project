@@ -33,7 +33,7 @@ text: >-
   held that God is known less by argument than by a long quieting of the passions that crowd the
   mind - apatheia, our word for that freedom. Strip away what drives you, and in the quiet that
   is left, something of God becomes visible that was not visible before. The most systematic
-  among us called that contemplation. That seeing had to be earned.
+  among us called that contemplation.
 positions:
 - "the Son is not a lesser or created being but the Eternal Word of the Father's own being - stated plainly, in public, when called on"
 - "day to day, the ordinary form this boundary took was refusal of communion, not argument - but this world's own record also shows public argument more than once, against the Arians at episcopal summons and against pagan philosophers at Antony's own mountain"
