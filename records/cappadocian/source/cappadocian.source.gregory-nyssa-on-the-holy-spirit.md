@@ -18,12 +18,11 @@ author: Gregory of Nyssa
 work: Gregory of Nyssa, On the Holy Spirit and the sermons on the Deity of the Son and Spirit
 edition: >-
   Gregory of Nyssa's On the Holy Spirit, against the followers of
-  Macedonius, is in the vendored npnf205
-  (cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt, line 27918). His
-  sermon on the Deity of the Son and the Holy Spirit is not in that volume
-  or elsewhere in the Library. The record is marked unvendored because the
-  one claim that cites it, the money-changers complaint, comes from that
-  sermon.
+  Macedonius, is in the Library's copy of Nicene and Post-Nicene Fathers,
+  2nd series, vol. 5 (npnf205, line 27918). His sermon on the Deity of the
+  Son and the Holy Spirit is not in that volume or elsewhere in the Library.
+  The record is marked unvendored because the one claim that cites it, the
+  money-changers complaint, comes from that sermon.
 citation: >-
   Gregory of Nyssa, On the Holy Spirit, against the followers of Macedonius;
   and On the Deity of the Son and the Holy Spirit
@@ -34,8 +33,8 @@ rights_status: >-
 attribution_status: attributed
 discovery_channel: >-
   builder-prior-knowledge; Source Registry row 43. On the Holy Spirit is in
-  cic/texts/npnf205; the sermon on the Deity of the Son and the Holy Spirit
-  has not been acquired.
+  the Library's npnf205; the sermon on the Deity of the Son and the Holy
+  Spirit has not been acquired.
 external_ids:
   cappadocian_source_registry_row: 43
 ---

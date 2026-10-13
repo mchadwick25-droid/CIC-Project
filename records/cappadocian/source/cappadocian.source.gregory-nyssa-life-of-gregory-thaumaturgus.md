@@ -19,8 +19,8 @@ work: Gregory of Nyssa, the Life of Gregory Thaumaturgus
 edition: >-
   Not in the vendored npnf205, which only refers to it (lines 1246 and
   21346). The seventeen-to-seventeen claim is reported in the editor's
-  introduction to cic/texts/anf06 on Gregory Thaumaturgus. An acquisition
-  gap.
+  introduction to the Library's Ante-Nicene Fathers vol. 6 (anf06), on
+  Gregory Thaumaturgus. An acquisition gap.
 citation: >-
   Gregory of Nyssa, Life of Gregory Thaumaturgus
 kind: unvendored
