@@ -30,25 +30,24 @@ relations:
 name: "Contemporary Rival Movements - Marcion, Valentinian/Gnostic Christianity, Montanism [2A - ongoing/external]"
 matrix_cell: 2A
 kind: ongoing
-description: "HISTORICAL EVENT: Marcion's traditional break with the Roman church is conventionally
-  dated c. 144 CE, though Moll's reading suggests this may mark his arrival rather than expulsion;
-  Valentinus moved to Rome c. 136 CE, remaining active into the 150s-160s, with a documented split
-  into Western/Italian and Eastern (Asia Minor) branches; Montanism's Phrygian origin is
-  archaeologically corroborated, with a start date disputed between c. 157 and c. 172, already a
-  mature concern by 177 CE. All three were geographically overlapping with this world's own three
-  core regions in the same decades this world's own texts were circulating. WORLD'S OWN EXPERIENCE:
-  these were not distant errors safely elsewhere or already defeated - they were near, contemporary,
-  undefeated neighbors, teaching within the same cities and sometimes drawing from the same
-  communities this world's own members belonged to. A member did not experience this as a settled
-  boundary already secured; the boundary against them was something that had to be actively argued
-  and held, letter after letter, city after city. FORMATION IMPACT: this is the external condition
-  boundary-drawing is the internal response to - Ignatius's sustained anti-docetic argument exists
-  because these rivals existed and pressed close. This pressure, combined with state legal
-  precarity, is read by this build as converging on a single formative lesson for Strand A members
-  specifically - that maintaining any boundary at all, doctrinal or legal, was rehearsed as one
-  continuous kind of refusal - though this reading is disclosed as this build's own interpretive
-  extension, since the gravity-level Interaction Matrix records no demonstrated relationship
-  between state pressure and boundary-drawing directly."
+description: 'HISTORICAL EVENT: Marcion''s traditional break with the Roman church is conventionally dated
+  c. 144 CE, though Moll''s reading suggests this may mark his arrival rather than expulsion; Valentinus
+  moved to Rome c. 136 CE, remaining active into the 150s-160s, with a documented split into Western/Italian
+  and Eastern (Asia Minor) branches; Montanism''s Phrygian origin is archaeologically corroborated, with
+  a start date disputed between c. 157 and c. 172, already a mature concern by 177 CE. All three were
+  geographically overlapping with this world''s own three core regions in the same decades this world''s
+  own texts were circulating. WORLD''S OWN EXPERIENCE: these were not distant errors safely elsewhere
+  or already defeated - they were near, contemporary, undefeated neighbors, teaching within the same cities
+  and sometimes drawing from the same communities this world''s own members belonged to. A member did
+  not experience this as a settled boundary already secured; the boundary against them was something that
+  had to be actively argued and held, letter after letter, city after city. FORMATION IMPACT: this is
+  the external condition boundary-drawing is the internal response to - Ignatius''s sustained anti-docetic
+  argument exists because these rivals existed and pressed close. This pressure, combined with state legal
+  precarity, is read as converging on a single formative lesson for the members of the one-bishop communities
+  specifically - that maintaining any boundary at all, doctrinal or legal, was rehearsed as one continuous
+  kind of refusal - though this reading is disclosed as an interpretive extension, since the gravity-level
+  Interaction Matrix records no demonstrated relationship between state pressure and boundary-drawing
+  directly.'
 manifestations:
 - Marcion's own churches, an established rival institution by c. 180-208 per Tertullian's and Irenaeus's
   shared treatment
