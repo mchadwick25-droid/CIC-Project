@@ -136,8 +136,8 @@ description: >-
   The tie to Egypt held steady across this world's whole span. But what Egypt was needed for kept
   changing. Before Cassian ever wrote, Tours answered the Egyptian standard with rivalry. Marseilles
   and Lérins answered it, a generation later, with reception and careful adaptation. Once the fight
-  over grace broke out, the receptive mode hardened further. The south pleaded its teaching as that
-  of 'all the Catholic fathers who have taught perfection of heart.' Under the barbarian collapse,
+  over grace broke out, the receptive mode hardened further. The south pleaded that its teaching
+  was the teaching of every Catholic father who had taught perfection of heart (Conf. XIII.18). Under the barbarian collapse,
   Egypt survives as little more than a byword for holiness, in the one place Salvian mentions it.
   The standard itself never moved. What moved was what this world needed it for.
 manifestations:
