@@ -927,7 +927,7 @@ Four Opus agents made the first reading. A second, adversarial pass then checked
 - The package is rebuilt and pinned in `records/worlds/gallic.yaml`: `packages/gallic/2026-10-13T04-52-47Z`.
 - The site JSON is recompiled.
 
-Status: CLOSED for the records changed above. The out-of-scope items listed under "Not changed" stay OPEN.
+Status: CLOSED for the records changed above. The items listed under "Not changed" were fixed the same day at Mark's direct instruction; see OG-35.
 
 ### OG-34. Voice faults in the 9 October admission run that no record causes, 2026-10-13.
 
@@ -953,3 +953,65 @@ Read in full, the 28 gallic answers of the 9 October admission run (all passed) 
 These are engine and admission-battery matters, which this world's records cannot fix. Whether and how to address them is a cross-world decision for Mark.
 
 Status: OPEN.
+
+### OG-35. The out-of-scope items of OG-33 fixed, at Mark's instruction, 2026-10-13.
+
+Mark directly asked for the out-of-scope items listed in OG-33 to be fixed. That reverses, for this world, the earlier relayed ruling that kept build records out of the pass. The fixes sit in their own commits (76c92c8 and bd4f74f), separate from the spoken-field pass, so they can be reverted on their own.
+
+**Changed.**
+- **Story `text`, 12 stories.** The confirmed Tier A points:
+  - discharge: the "whole of Tours's memory" clause is cut.
+  - election: Martin "could not easily be drawn out of his monastery", the source's words, not reluctance stated as fact.
+  - germanus: the dedicatees are Honoratus and Eucherius, not "the brothers at Lerins". All three stages are God's gift, with "sometimes" restored. Germanus's premise stays his.
+  - archebius: "their example, more than their words", and the "loss, not a gain" pivot is gone.
+  - honoratus: the Latin strings are removed, and the unsupported "sentence the tradition is remembered by" is gone.
+  - paesius: the coined closer is gone.
+
+  Twenty-one record ids, one of them broken, are removed. Long sentences are split. Every text passes readability.
+- **`gallic.core.gallic`.**
+  - horizon: Vincent is no longer placed on the island, and "window" is gone.
+  - formation_logic: no comparison of the houses' founder stories; the monastery lay "two miles outside the city" (Vita X).
+  - thinness: the virgins walked in the funeral, not "behind" it; the build words are gone; the translator is "a later translator".
+  - cautions: the morning service is placed in Egypt. Every constraint the old field carried is kept.
+- **`gallic.voice.craft`.**
+  - The guard no longer says Sulpitius was absent.
+  - Egypt's rule on exorcists is named as Egypt's.
+  - Cassian's year carries "unbroken".
+  - The cold "refits the dress and food", not the hours.
+  - identity reads "Two miles outside Tours".
+  - A stale "current state" body paragraph is removed.
+  - The record stays at the 1500-word budget.
+- **Force descriptions, 22, and gravity descriptions, 9.** Every Doc, Layer, G-number, cell code, "Native", "window", node and "this record" label is gone, and most fields are rewritten in plain short sentences. The confirmed claims are corrected:
+  - "Historians treat this force" is gone.
+  - Martin was scourged in Illyria, then driven from Milan.
+  - IV.11 is about food.
+  - "Victorian propriety" is gone; the translator gave no reason.
+  - Most of Cassian's work went to bishops, not "everything".
+  - The straw and threads were blessings in Martin's life, not relics.
+  - Vincent's target and the grace dating are marked as disputed.
+  - The invented "more than hell" and "his brethren learned to keep away" are gone.
+  - Archebius complained that the office expelled him.
+  - Gennadius's "two divisions" is no longer read as a loss or a split.
+  - Hilary's rough Latin is no longer quoted as his own words.
+- **"Unbroken".** Cassian's year now carries "unbroken" in two force descriptions, two gravity use notes, the Cassian figure's locus and `gallic.contested.egypt-two-measures`.
+- **Notes.** "Heard only one side" is gone from `gallic.term.beginning-of-a-good-will` senses.personal. The honoratus absent_detail now says he was made a presbyter there.
+
+**Review.** `Build/Ministry/Operations/Audits/gallic_out_of_scope_fixes_review_round1_2026-10-13.md` (independent Opus) returned PASS WITH NON-BLOCKING. Findings 1 to 9 were applied.
+
+**Still OPEN.**
+- (1) Seven force and gravity descriptions still use the editorial place-names "Ligugé" and "Marmoutier", which the world_core cautions say are not ours: arian-scattering, named-exemplar, transmission, transmission-in-ending, unconverted-countryside, gravity.monk-bishop and gravity.named-example. The same names appear in other records' non-spoken fields.
+- (2) Whether the Life of Antony was Sulpitius's model (Stancliffe) is not read in this library. It is noted in `gallic.force.power-displayed-disowned`.
+- (3) Force records other than these descriptions still carry build labels in `name` tags, divergence notes and body notes.
+- (4) `gallic.gravity.received-not-invented` description stays at FRE 59.8, just under the floor, unchanged and still waived.
+
+**Gates.**
+- `records gallic`: PASS.
+- `regate gallic --base origin/main`: PASS.
+- `engine.m9.cli check`: PASS.
+- `determinism-check gallic`: PASS.
+- `check_live_commentary --surface records --enforce`: exit 0.
+- Readability findings fall from 77 to 46, so the `m1:readability/gallic` waiver is tightened to 46.
+- Horizon findings fall from 5 to 0, so the `m1:horizon/gallic` waiver is removed.
+- The package is rebuilt and pinned in `records/worlds/gallic.yaml`: `packages/gallic/2026-10-13T05-46-31Z`. The site JSON is recompiled.
+
+Status: CLOSED for the records changed above. Items (1) to (4) stay OPEN.
