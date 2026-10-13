@@ -141,8 +141,8 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m9:emic-vendored-only/don": Waiver(count=20, deadline="2026-12-14", owner="don's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
     "m9:shelf-row/gallic": Waiver(count=21, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/gallic": Waiver(count=10, deadline="2026-12-14", owner="gallic's own build thread - each emic force/term/limit record needs re-grounding in a vendored primary source or its citation removed"),
-    "m9:shelf-row/cappadocian": Waiver(count=54, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
-    "m9:emic-vendored-only/cappadocian": Waiver(count=62, deadline="2026-12-14", owner="cappadocian's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
+    "m9:shelf-row/cappadocian": Waiver(count=52, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:emic-vendored-only/cappadocian": Waiver(count=66, deadline="2026-12-14", owner="cappadocian's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed; four were added on 2026-10-13 when the Life of Gregory Thaumaturgus and Nyssa's On the Holy Spirit were found not to be in the Library and marked unvendored"),
     "m9:shelf-row/hal": Waiver(count=28, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:shelf-row/ijc": Waiver(count=29, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/ijc": Waiver(count=2, deadline="2026-12-14", owner="ijc's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
@@ -165,7 +165,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     # never graded, mostly concentrated in doctrinal_witness.positions
     # and gravity/force.description across the fleet.
     "m1:readability/alx": Waiver(count=20, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; alx's own build thread"),
-    "m1:readability/cappadocian": Waiver(count=228, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
+    "m1:readability/cappadocian": Waiver(count=203, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
     "m1:readability/desert": Waiver(count=153, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
     "m1:readability/don": Waiver(count=320, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
     "m1:readability/gallic": Waiver(count=101, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; gallic's own build thread"),
