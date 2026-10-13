@@ -988,5 +988,7 @@ def test_the_worlds_own_we_voice_and_ordinary_prose_are_not_attributions():
         "As we said, the Church is one body [[w.witness.church]].",
         "When Ephrem wrote, the Church was gathered at one table [[w.witness.church]].",
         "Ephrem wrote hymns for the Church [[w.witness.church]].",
+        "Ephrem built the Church into every hymn he wrote, and the choirs carried it [[w.witness.church]].",
+        "Ephrem taught, but the Church was gathered at one table [[w.witness.church]].",
     ):
         assert _entry(text, EPHREM_REPOSITORY)["why"] not in (ATTRIBUTED, TYPED), text

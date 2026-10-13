@@ -6468,3 +6468,13 @@ A local test on the `live` code with a fake model and no spend found the streame
 **Done on `main`.** The sentence-enforcement retry (`_append_sentence_corrections`, `_append_whole_reply_rewrite`, `_enforcement_flags`) and the `sentence_enforcement_exhausted` set-aside are removed, one to one and at the Table, with the `sentence_enforce` setting. `apply_net` still cuts what cannot be shown on every turn. The answer-record fallback is new, and its use is recorded on the voice turn as `answer_record_fallback`. The uncited-claims enforcement, the seat-identity guard and the recitation retry are unchanged. The recitation retry is a separate paid retry already on `live` and stays a separate decision.
 
 **Before promotion.** The named, capped live test of the six questions in all eleven worlds (the project lead's approval by name; AWS credentials in this environment failed on 13 October). It is also the admission the promotion needs.
+
+## 2026-10-13 - The quote fix tested on syr; a false attribution cut fixed in #869
+
+**Test.** The named live test "syr quotes-by-code test, 13 October" (cap $1, approved by the project lead by name) asked syr the six 9 October questions on the #869 code. It made six voice calls, no rewrites, and cost $0.22 (9 October: $0.23). No quote was invented: the voice tried three quotes it had not been offered, and code cut each with its lead-in; one quote was placed word for word from its record. No reply was cut whole and no Facilitator line appeared. Report: `engine/m4/reports/live-turn-report-syr-2026-10-13-quotes-by-code.json`. Side by side with 9 October and the live conversation: the artifact "Syr Quote Test".
+
+**Defect found.** The check cut a good sentence: "Our great poet Ephrem built this method into every hymn he wrote, and the choirs of the covenant daughters carried it into every congregation." It read "he wrote," as the start of words put in Ephrem's mouth.
+
+**Ruling (13 October): fix it in #869.** A speech verb followed by a comma and "and", "but", "or", "nor", "yet" or "so" ends a clause and is not an attribution (`grounding_net._CLAUSE_JOIN`).
+
+**Order set by the project lead.** Syr first, then the record wording scan and fixes on the other worlds, then the eleven-world named test, which is also the admission for promoting `main` to `live`.
