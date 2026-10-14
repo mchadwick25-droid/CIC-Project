@@ -416,14 +416,33 @@ class QuotationIndex:
 
     def names_speaker(self, sentence: str, quote_record: dict) -> bool:
         """`sentence` names the figure a quote record's speaker field stands
-        for."""
+        for, or the speaker by the name the voice is offered for it
+        (speaker_name)."""
         tokens = _WORD_TOKEN.findall(sentence.lower())
         figures = self._figure_aliases()
         for fid in self.speaker_ids(quote_record):
             aliases = figures.get(fid) or _alias_tokens(quote_record.get("speaker_or_author") or "")
             if any(_occurrences(tokens, alias) for alias in aliases):
                 return True
-        return False
+        return any(_occurrences(tokens, alias) for alias in _alias_tokens(self.speaker_name(quote_record)))
+
+    def speaker_name(self, quote_record: dict) -> str:
+        """The name the voice is offered for a quote's speaker, to write in
+        the sentence its marker ends: a figure's in-world name; for a source
+        record, its author, or its work when the author is anonymous; else
+        the speaker field's own name, without the note after it."""
+        head = _name_head(re.split(r"\s+--\s+", quote_record.get("speaker_or_author") or "", maxsplit=1)[0])
+        record = self._records.get(head.split()[0] if head else "") or {}
+        if record.get("record_type") == "figure":
+            names = [e.get("name") for e in record.get("names") or [] if isinstance(e, dict) and e.get("tag") == "in-world"]
+            return _name_head(next((n for n in names if n), "")) or head
+        if record.get("record_type") == "source":
+            author = _name_head(record.get("author") or "")
+            if author and not author.lower().startswith(("anonymous", "unknown")):
+                return author
+            work = re.split(r"\s+-\s+|:", record.get("work") or "", maxsplit=1)[0].strip()
+            return work or head
+        return head
 
     def quote_words_of(self, sentence: str, tags: list[str], paragraph_tags: list[str] = ()) -> str | None:
         """The id of a quote record, not yet voiced, whose words `sentence`
@@ -585,12 +604,14 @@ class QuotationIndex:
         return {fid for fid, aliases in figures.items() if any(_occurrences(tokens, alias) for alias in aliases)}
 
     def speaker_ids(self, quote_record: dict) -> set[str]:
-        """The figure ids a quote record's speaker field stands for."""
+        """The figure ids a quote record's speaker field stands for, by the
+        field or by the name the voice is offered for it."""
         speaker = quote_record.get("speaker_or_author") or ""
         figures = self._figure_aliases()
         if speaker in figures:
             return {speaker}
-        return self._speaker_figures(speaker, figures) or {_speaker_key(speaker)}
+        return (self._speaker_figures(speaker, figures) or self._speaker_figures(self.speaker_name(quote_record), figures)
+                or {_speaker_key(speaker)})
 
     def attributed_figures(self, sentence: str) -> list[set[str]]:
         """One entry per attribution verb that has a figure for its subject:

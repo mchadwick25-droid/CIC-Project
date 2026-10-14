@@ -42,7 +42,7 @@ from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
 from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
 from engine.m4.citation_cards import _quote_speaker_label
-from engine.m4.grounding_net import scope_completion
+from engine.m4.grounding_net import QuotationIndex, scope_completion
 from engine.m4.rhythm import RhythmTally
 from engine.m5.routing import QUESTION_KINDS
 
@@ -1221,14 +1221,18 @@ def _with_quote_index(candidate: dict, repository_records: dict[str, dict]) -> d
         return candidate
     record = repository_records.get(candidate["id"]) or {}
     gist = " ".join(((record.get("use_note") or {}).get("means") or "").split())
-    return {**candidate, "speaker": _quote_speaker_label(record, repository_records) or "unattributed", "gist": gist}
+    return {
+        **candidate, "speaker": _quote_speaker_label(record, repository_records) or "unattributed", "gist": gist,
+        # the name the placed-quote check looks for in the marker's sentence
+        "speaker_name": QuotationIndex(repository_records).speaker_name(record) or "unattributed",
+    }
 
 
 def _quote_line(candidate: dict, descriptors: list[str]) -> str:
     """A quote's line in the evidence block: id in the marker's own form,
     speaker and gist for one not yet voiced; for one already voiced, no
     marker and no words, only that it was given."""
-    speaker = candidate.get("speaker") or "unattributed"
+    speaker = candidate.get("speaker_name") or candidate.get("speaker") or "unattributed"
     used = candidate.get("used_in_round")
     if used or candidate.get("already_told_this_session"):
         when = f"in round {used[1]}" if used else "earlier in this conversation"
