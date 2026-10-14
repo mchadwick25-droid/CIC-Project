@@ -55,6 +55,7 @@ from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_horizon
 from engine.m4.quote_placement import PlacementContext, place_quotes
+from engine.m4.story_placement import place_stories
 from engine.m4.recitation import DIRECTIVE_LINE, DemonstrationIndex
 from engine.m4.seat_identity_guard import find_seat_identity_violation
 from engine.m4.sentence_stream import SentenceStream
@@ -348,11 +349,17 @@ def apply_net(
     M3's LiveModelAnswerer calls this function too, so admission grades
     the text a participant would read."""
     placement = placement or PlacementContext()
+    stories = place_stories(grounding_net.strip_markdown(raw_text), repository_records=repository_records, context=placement)
     shaped = place_quotes(
-        grounding_net.strip_markdown(raw_text), repository_records=repository_records, context=placement,
+        stories["text"], repository_records=repository_records, context=placement, sealed=frozenset(stories["placed"]),
     )
+    shaped = {
+        **shaped,
+        "placed_sentences": {**stories["placed_sentences"], **shaped["placed_sentences"]},
+        "placed_drafts": {**stories["placed_drafts"], **shaped["placed_drafts"]},
+    }
     tagged = shaped["text"]
-    removed = list(shaped["removed"])
+    removed = [*stories["removed"], *shaped["removed"]]
     while True:
         net_result = grounding_net.check_turn_with_paragraph_coverage(
             tagged, repository_records, thin_topics=thin_topics, quotable_texts=quotable_texts,

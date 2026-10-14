@@ -31,7 +31,7 @@ from engine.m4 import evidence as m4_evidence
 from engine.m4.generation import stream_voice_turn
 from engine.m4.quote_placement import PlacementContext
 from engine.m4.turn import apply_net
-from engine.m4.turn_prep import with_placeable_stories
+from engine.m4.story_placement import with_placeable_stories
 from engine.m4.world_loader import LoadedWorld
 
 _TYPE_PRIORITY = ["doctrinal_witness", "quote", "story", "term"]

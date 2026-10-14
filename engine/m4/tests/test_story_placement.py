@@ -10,19 +10,19 @@ from engine.m1.loader import load_world_records
 from engine.m2 import builders
 from engine.m4 import turn_prep
 from engine.m4.grounding_net import REASON_STORY_MISMATCH, WHY_STORY_PLACED, check_turn_with_paragraph_coverage, strip_tags
-from engine.m4.quote_placement import (
+from engine.m4.quote_placement import REASON_STORY_RETOLD, PlacementContext
+from engine.m4.story_placement import (
     REASON_SECOND_STORY,
     REASON_STORY_NOT_OFFERED,
-    REASON_STORY_RETOLD,
     REASON_STORY_SUBJECT,
-    PlacementContext,
-    place_quotes,
+    STORY_PLACE_LINE,
+    place_stories,
 )
 from engine.m4.sentence_stream import SentenceStream
 from engine.m4.tests.test_rhythm import CANON, MESSAGE, _world
 from engine.m4.tests.test_turn import FakeBedrockClient, _reader, _safety
 from engine.m4.turn import apply_net, run_voice_turn_for_world
-from engine.m4.turn_prep import STORY_PLACE_LINE, prepare_voice_turn_inputs
+from engine.m4.turn_prep import prepare_voice_turn_inputs
 from engine.m4.world_loader import LoadedWorld
 from engine.m5.routing import Directive
 
@@ -130,7 +130,7 @@ def test_a_marker_closing_a_sentence_in_a_paragraph_ends_the_paragraph_and_the_r
 
 def test_a_marker_standing_alone_takes_the_sentence_before_it_as_its_introduction(desert):
     draft = "Our sayings keep a story of Abba Moses at Scete.\n\n[[story:desert.story.moses-leaking-jug]]"
-    shaped = place_quotes(draft, repository_records=desert, context=_offer(MOSES))
+    shaped = place_stories(draft, repository_records=desert, context=_offer(MOSES))
     assert shaped["text"].startswith(f"Our sayings keep a story of Abba Moses at Scete [[{MOSES}]]:\n\n")
 
 

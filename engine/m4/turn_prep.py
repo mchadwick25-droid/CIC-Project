@@ -14,6 +14,7 @@ from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence
 from engine.m4.name_bridge import find_figures_used, spoken_name
 from engine.m4.rhythm import RhythmTally, asks_for_the_words
+from engine.m4.story_placement import story_lines, with_placeable_stories
 from engine.m4.world_loader import LoadedWorld
 from engine.m5.routing import Directive
 
@@ -277,16 +278,6 @@ QUOTE_SPEAKER_LINE = (
     "Never put it after 'he' or 'she', after an unnamed teacher, or alone after an earlier sentence. "
     "Never write the quote's words yourself."
 )
-# On a world that places stories (frame.json `story_placement`), the stories
-# a reply may place are the turn's offered stories with a telling, not yet
-# told; the directive names them. Code sets the telling in after the voice's
-# introduction, so the voice never tells the story itself.
-STORY_OFFERS_LINE = "Stories you may place this turn, and no others: {offers}."
-STORY_PLACE_LINE = (
-    "To tell one, write one sentence of your own that names who or what it is about, and end it with its "
-    "marker (\"Our sayings tell of Abba Moses at Scete: [[story:id]]\" is the shape). Code sets the whole story "
-    "in after it. Place at most one. Never tell the story yourself, before or after the marker."
-)
 NO_GROUND_LINE = (
     "No ground block this turn. Tag only with ids printed after 'cite as' above, each copied whole, "
     "its type part included."
@@ -319,28 +310,6 @@ def _quote_lines(offers: list[dict], *, due: bool) -> list[str]:
         QUOTE_DUE_LINE if due else QUOTE_OPTIONAL_LINE,
         QUOTE_SPEAKER_LINE,
     ]
-
-
-def _story_lines(offers: list[dict]) -> list[str]:
-    """The directive's story lines: the stories this reply may place, by
-    marker and what each is about; none when no story may be placed."""
-    if not offers:
-        return []
-    listed = "; ".join(f"[[story:{c['id']}]] ({' '.join((c.get('head') or '').split())})" for c in offers)
-    return [STORY_OFFERS_LINE.format(offers=listed), STORY_PLACE_LINE]
-
-
-def with_placeable_stories(turn_evidence: dict, repository_records: dict[str, dict]) -> dict:
-    """The evidence with each story that may be placed marked `placeable`:
-    one with a telling, not already told in this conversation."""
-    candidates = [
-        {**c, "placeable": True}
-        if c["record_type"] == "story" and not c.get("used_in_round") and not c.get("already_told_this_session")
-        and ((repository_records.get(c["id"]) or {}).get("telling") or "").strip()
-        else c
-        for c in turn_evidence["candidates"]
-    ]
-    return {**turn_evidence, "candidates": candidates}
 
 
 def _placeable_quotes(turn_evidence: dict) -> list[dict]:
@@ -452,7 +421,7 @@ def _build_turn_directive(
         if kind_line := _kind_directive(kind, oblique):
             parts.append(kind_line)
         parts += _quote_lines(quote_offers or [], due=quote_asked or rhythm is None or rhythm.quote_due)
-        parts += _story_lines(story_offers or [])
+        parts += story_lines(story_offers or [])
         if not has_ground:
             parts.append(NO_GROUND_LINE)
         if rhythm is not None and rhythm.figure_gate_closed:

@@ -115,7 +115,7 @@ def _drop_truncated_tail(text: str) -> tuple[str, bool]:
 # record's rendering to be placed (engine.m4.quote_placement).
 QUOTE_MARKER = re.compile(r"\[\[\s*quote\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORECASE)
 # A story marker, [[story:<record id>]]: where the voice asks for a story
-# record's telling to be placed (engine.m4.quote_placement).
+# record's telling to be placed (engine.m4.story_placement).
 STORY_MARKER = re.compile(r"\[\[\s*story\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORECASE)
 _DISPLAY_TAG = re.compile(rf"\s*(?:\[\[[a-z0-9_.-]+\]\]|(?i:{QUOTE_MARKER.pattern})|(?i:{STORY_MARKER.pattern}))")
 
