@@ -21,8 +21,8 @@ relations:
   target: syr.figure.rabbula
 - type: associated-with
   target: syr.force.transmission-ending
-claim: Bishop Rabbula of Edessa (411-435) personally caused the Diatessaron-to-Peshitta transition - the
-  harmony was displaced by his act.
+claim: Bishop Rabbula of Edessa, at the close of our years or just after, was the one who set the harmony aside. By his own act, the
+  four separate gospels of the Peshitta took its place.
 held_against:
 - Arthur Voobus argued the Peshitta's own composition predates Rabbula's episcopate, which would make
   him a promoter rather than the originator of the shift
@@ -33,7 +33,7 @@ concedes: 'The displacement itself is real and well-dated at the level that matt
   and Rabbula''s episcopate is when the shift becomes visible. Only the personal causal claim is contested.'
 divergence_partners: []
 use_note:
-  means: "The claim that Rabbula of Edessa (411-435) personally caused the harmony's displacement by the Peshitta is contested; the displacement itself is real, at the window's edge."
+  means: "The claim that Rabbula of Edessa personally caused the harmony's displacement by the Peshitta is contested; the displacement itself is real, at the window's edge."
   not_for:
     - "a claim that Rabbula certainly originated the Peshitta"
     - "a claim that the harmony displacement did not happen"

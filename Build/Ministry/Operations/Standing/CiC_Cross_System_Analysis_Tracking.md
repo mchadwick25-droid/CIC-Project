@@ -1954,3 +1954,47 @@ Not yet measured: the sweep has never run against the 48 real pilot
 sessions - the oldest (2026-08-28) is past the 7-day threshold as of
 today and should get picked up the first time this deploys and the
 daily thread fires.
+
+## 2026-10-14 — Loci still show machine apparatus to participants after `display_locus`
+
+**Found by** the Source Library design thread's read-only survey of `records/`, while
+designing how citations will link to passages (`Build/Ministry/Features/Source-Library/`).
+**Not fixed here**; logged so each world's own thread can resolve its share, per the
+standing rule that a known gap never lives only in a conversation.
+
+**The defect.** `engine.prose.display_locus` strips a locus's machine apparatus before a
+participant sees it: a vendored file name, a `cic/texts/` path, "file line N", a CCEL
+volume tag, a `Doc_0N` reference. It only strips a parenthetical that carries one, or a
+trailing ", file lines ..." clause. 160 citation entries across 114 records in nine
+worlds carry apparatus outside those two shapes (after a semicolon, unparenthesised,
+"lines 2830-2832" with no "file", a bare div id), so it reaches the card.
+
+**Method.** For every `sources[]` entry in every record under `records/`, apply
+`display_locus` to its `locus` and test the result against the engine's own
+`_LOCUS_APPARATUS` pattern plus a bare `div <roman>` id. Reproducible with no model call.
+
+**Per world** (entries, records): lpc 91/52, rzg 31/27, gallic 13/12, witt 7/6, desert
+6/6, alx 5/5, cappadocian 4/3, pahc 2/2, syr 1/1. The records:
+
+- **lpc** (91 entries, 52 records): `lpc.ambient.church-administrative-objects`, `lpc.force.augustine-engagement-cyprian-conciliar-acts`, `lpc.force.confessors-claim-to-grant-peace`, `lpc.force.congregational-acclamation-overriding-preference`, `lpc.force.corpus-outliving-the-world`, `lpc.force.decian-persecution-libelli-system`, `lpc.force.donatist-schism`, `lpc.force.manichaeism-and-pelagian-anthropology`, `lpc.force.organized-carthaginian-church`, `lpc.force.plague-of-cyprian`, `lpc.force.recurring-contest-failed-member`, `lpc.force.transmission-institutionally-dominant-side`, `lpc.force.valerianic-persecution`, `lpc.force.vandal-invasion-siege-of-hippo`, `lpc.gravity.collegial-communion-preserved`, `lpc.gravity.conciliar-authority-theory`, `lpc.gravity.confessor-authority-vs-episcopal-peace`, `lpc.gravity.grace-and-human-incapacity`, `lpc.gravity.pastoral-office-flock-keeping`, `lpc.gravity.penitential-discipline`, `lpc.gravity.preaching-and-catechesis`, `lpc.gravity.sacramental-ordination-validity`, `lpc.limit.no-chain-of-witnesses`, `lpc.limit.ordinary-interior-life`, `lpc.quote.ancient-venom-against-my-episcopate`, `lpc.quote.bishop-of-bishops`, `lpc.quote.clamour-and-tears`, `lpc.quote.longing-expectation-is-a-prayer-for-me`, `lpc.quote.shepherd-wounded-in-the-flock`, `lpc.story.celerinus-writes-to-lucian`, `lpc.story.election-of-cyprian`, `lpc.story.hundred-thousand-sesterces`, `lpc.story.numidicus`, `lpc.story.the-death-of-cyprian`, `lpc.story.the-plague-and-the-enemies`, `lpc.story.the-psalms-on-the-wall`, `lpc.term.catechesis`, `lpc.witness.almsgiving-quenches-sin`, `lpc.witness.apostolic-succession-of-bishops`, `lpc.witness.baptism-traced-to-the-apostles`, `lpc.witness.blamed-for-the-worlds-troubles`, `lpc.witness.constantine-did-not-corrupt`, `lpc.witness.days-before-the-sun`, `lpc.witness.grant-me-chastity-but-not-yet`, `lpc.witness.heard-for-salvation-not-for-wish`, `lpc.witness.marriage-a-threefold-good`, `lpc.witness.restless-heart-and-the-unrepentant-enemy`, `lpc.witness.scripture-above-councils`, `lpc.witness.the-only-son-and-the-trinity`, `lpc.witness.the-pattern-we-are-modelled-on`, `lpc.witness.tradition-tested-by-apostolic-warrant`, `lpc.witness.violence-commanded-not-cruel`
+- **rzg** (31 entries, 27 records): `rzg.ambient.disputation-crowd-scale`, `rzg.contested.sign-and-the-thing-signified`, `rzg.contested.zwinglis-remembrance-vs-negotiated-consensus`, `rzg.gravity.sovereignty-of-god-predestination-election`, `rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation`, `rzg.quote.christ-the-mirror-of-election`, `rzg.quote.mass-not-a-sacrifice`, `rzg.quote.seniors-selected-from-the-people`, `rzg.quote.signs-and-things-signified`, `rzg.quote.taught-better-from-scripture`, `rzg.story.calvins-journey-to-zurich`, `rzg.story.first-zurich-disputation`, `rzg.story.myconius-account-of-zwinglis-death`, `rzg.term.antistes`, `rzg.term.consistory`, `rzg.term.elder`, `rzg.term.reformation`, `rzg.term.sign-and-the-thing-signified`, `rzg.term.sola-scriptura`, `rzg.term.the-lords-supper-spiritual-presence`, `rzg.witness.a-quieted-mind`, `rzg.witness.not-a-death-he-sought`, `rzg.witness.one-supper-two-poles`, `rzg.witness.one-thing-not-in-dispute`, `rzg.witness.triple-refusal`, `rzg.witness.what-we-have-not-agreed`, `rzg.witness.what-we-have-of-christ`
+- **gallic** (13 entries, 12 records): `gallic.contested.beginning-of-good-will`, `gallic.contested.who-holds-antiquity`, `gallic.force.africa-and-rome-pressure`, `gallic.force.barbarian-fiscal-ruin`, `gallic.force.egyptian-standard`, `gallic.force.renunciation-that-stays`, `gallic.force.transmission`, `gallic.force.transmission-in-ending`, `gallic.story.bishop-archebius`, `gallic.story.election-at-tours`, `gallic.term.purity-of-heart`, `gallic.term.virtus`
+- **witt** (7 entries, 6 records): `witt.contested.1543-treatise-later-effect`, `witt.contested.household-catechism-reception`, `witt.contested.theses-door-posting`, `witt.gravity.german-for-the-people`, `witt.gravity.household-catechism`, `witt.gravity.the-word`
+- **desert** (6 entries, 6 records): `desert.force.authority-tension-ongoing`, `desert.force.formation-at-scale`, `desert.quote.antony-on-living-near-kin`, `desert.story.arsenius-flee`, `desert.story.moses-leaking-jug`, `desert.story.sarah-answer`
+- **alx** (5 entries, 5 records): `alx.quote.dionysius-plague`, `alx.story.plague-nursing`, `alx.term.homoousios`, `alx.term.logos`, `alx.term.son-of-god`
+- **cappadocian** (4 entries, 3 records): `cappadocian.contested.homoian-nicene-reversal`, `cappadocian.figure.amphilochius`, `cappadocian.quote.macrina-the-elder-taught-me`
+- **pahc** (2 entries, 2 records): `pahc.figure.ministrae`, `pahc.term.ministrae`
+- **syr** (1 entry, 1 record): `syr.figure.ephrem`
+
+**Root cause, two layers.** At the record layer, verification notes (file, line, build
+document) were written into the locus, which is a participant-facing field, instead of
+the record body. At the engine layer, `display_locus` only recognises the two shapes
+the first authors used. The right fix is both: move the apparatus out of the locus in
+each world (a mechanical pass, each world's own), and widen `display_locus` to catch
+apparatus outside parentheses, with a gate that warns on a new locus carrying file line
+numbers. The Source Library design (`Design.md` §6) makes the second part a Stage 1
+item; the first part is each world's.
+
+**Status:** OPEN. Filed as a gap, not an `engine/m9` `ACCEPTED_OPEN` waiver, for the
+reason already accepted in `Build/worlds/rzg/Open_Gaps_Tracking.md` item 47: no check
+runs for this defect yet, and that registry is keyed to checks that run.

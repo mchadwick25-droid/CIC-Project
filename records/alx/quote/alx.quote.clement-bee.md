@@ -37,7 +37,7 @@ retrieval:
   - "participant asks how a teacher taught and what a class was like"
   - "participant asks who someone learned from and how teaching passed on"
 use_note:
-  means: "Clement, opening the Stromateis, praises his final, unnamed teacher as a Sicilian bee who gathered prophetic and apostolic teaching into his hearers' souls."
+  means: "Clement, opening the Stromateis, praises his final teacher, whom he does not name here and Eusebius names as Pantaenus, as a Sicilian bee who gathered prophetic and apostolic teaching into his hearers' souls."
   not_for:
     - "a claim that Clement names Pantaenus here, when that identification comes only through Eusebius"
     - "a literal or belittling comparison rather than a classical praise-epithet for wide, digested reading"

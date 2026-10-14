@@ -276,7 +276,8 @@ QUOTE_OPTIONAL_LINE = "Place one only where it answers the ask; no quote is need
 QUOTE_SPEAKER_LINE = (
     "A marker ends a sentence that names the quote's speaker, as listed (\"Ephrem wrote: [[quote:id]]\" is the shape). "
     "Never put it after 'he' or 'she', after an unnamed teacher, or alone after an earlier sentence. "
-    "Never write the quote's words yourself."
+    "Never write the quote's words yourself, and do not say first, in other words, what it is about to say: "
+    "the lead-in names who spoke and when, and the quote says the rest."
 )
 NO_GROUND_LINE = (
     "No ground block this turn. Tag only with ids printed after 'cite as' above, each copied whole, "
