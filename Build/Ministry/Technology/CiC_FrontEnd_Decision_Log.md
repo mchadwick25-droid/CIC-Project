@@ -5493,3 +5493,93 @@ folder outside the repository. The effect is the same and the tools keep one pat
 ### Next action
 
 Mark creates the bucket and token; then upload, verify, add the binding, check live.
+
+## 2026-10-14 — The Source Library: every citation links to the passage itself
+
+**Origin.** Mark, 14 October: make every source a participant sees available by link, so a
+reader can follow a citation into the passage itself, in our own Library of vendored
+public-domain editions or at the place we downloaded it from. Implementation is the first
+job after the pilot launches; design starts now. His reasoning, in his words across the
+brief: CiC's aim is better conversations about faith among real people in their churches,
+and also "a robust source useful well beyond a first visit." Scholars study one of these
+worlds for years. The depth is in the primary texts, of which our records are only a thin
+slice. Linking every answer to its passages turns a conversation into a doorway into the
+texts. Nothing in it is generated, so it is faithful by construction. And it lets outside
+scholarly reviewers check us directly.
+
+**How it was decided.** Mark asked for research first, then a walk-through one question at
+a time starting with strategy. Four research streams ran (how academic text programs
+address and link passages; free text databases and their licence terms; page-image and
+persistent-link infrastructure; reader design and scholarly trust criteria), synthesised
+into one report, now `Build/Ministry/Features/Source-Library/Research.md`. Then seven
+questions, each with options and a recommendation. Mark took the recommendation on each.
+
+**What the research changed before the questions were asked.** Three findings corrected
+the first design memo. CCEL's copyright page, as relayed by search extracts, allows
+non-profit use but says republishing requires permission; half our corpus is CCEL's files,
+and no permission was ever asked (Mark downloaded the volumes himself). The CCEL ThML ids
+are positional, not the edition's own labels, which sit in separate attributes. And our
+archive.org plain-text files carry no page boundaries at all, so page-level links need the
+hOCR and page-number files on the same items.
+
+**Decided (Mark, 2026-10-14), in order:**
+
+1. **What the Library is.** A reading room for our worlds: every vendored text readable
+   whole on our site, the citation as the door in. Built on the field's record shape from
+   day one (work, edition, passage address in the edition's own labels, quotation anchor),
+   so the Library can later become infrastructure other projects cite. Delivered first as a
+   footnote service for desert. Not Option 0 (link into the field's readers and build
+   nothing), even though it is cheapest, because the guarantee "the words you just heard
+   are these words, here" is only true on a page we serve.
+2. **Where the link lands.** Our reader first; the host edition second (CCEL section page,
+   archive.org item, Scaife or the Patristic Text Archive where a text also lives there).
+   The scanned page itself embedded beside our text, through the Internet Archive's image
+   service, is the Stage 2 upgrade for archive.org texts: the one host where every piece of
+   that is verified end to end.
+3. **CCEL posture.** Passage now with credit and link; volumes after CCEL answers;
+   independent scans as the fallback if they decline. Not a strict hold (empties the
+   promise for nine worlds) and not republishing the volumes now (does the thing their
+   policy asks us not to do). Mark reads the copyright page live and sends the letter.
+4. **Where the address lives.** Derived at build by the verbatim gate, which already finds
+   each quote's position and discards it; written back into each citation's existing
+   `address` field world by world after the derivation is read against real quotes; a gate
+   re-derives on every build and fails on drift. Loci stay free text. New loci carry no file
+   line numbers. Work identifiers (Clavis Clavium, Syriaca, OSIS) come in Stage 2. Not a
+   public standard identifier scheme now: weeks of curation before one link works.
+5. **Where the reader lives.** The public site, under its own directory, opened inside the
+   app's existing side panel. Not inside the app alone: nothing would be shareable or
+   citable, which defeats "well beyond a first visit." Every passage page carries the seven
+   items the specialist corpora agree on (print citation beside permalink; who made the
+   digital text and how; a status word; licence; identifier with version and date;
+   cite-this; report-an-error), in plain words at the B2 bar.
+6. **When the section cannot be pinpointed.** A work-level link labelled "section not
+   pinpointed", with the locus shown as "look for" text and a per-world coverage report.
+   Never a guessed section: a wrong section presented as right is fabrication at the point
+   of maximum stakes.
+7. **Front door or links only.** Links only in Stage 1, with one orientation line on every
+   passage page. The browsable shelf is its own decision when Stage 2 opens and the CCEL
+   answer is in.
+
+Carried from earlier agreement: English first for the pilot; source language and
+participant language kept as separate dimensions; nothing hard-codes "English" or the
+number of worlds; desert first.
+
+**The heart.** The texts are the proof that nothing is generated, made visible and made
+shareable. They are the part of CiC that could outlast any conversation. And CCEL is a
+sister ministry that gave this project its library: we read their words, we credit them on
+every page, and we ask before we do the larger thing.
+
+**Filed.** Design of record: `Build/Ministry/Features/Source-Library/Design.md`. Research:
+`Research.md` beside it. Workstream row added to `Build/Ministry/Features/README.md`.
+
+**Known gap, logged, not fixed.** 160 citation entries across 114 records in nine worlds
+still show machine apparatus (file names, "line N", CCEL volume tags, build-document
+references) to participants after `display_locus`. Logged with record ids per world in
+`Build/Ministry/Operations/Standing/CiC_Cross_System_Analysis_Tracking.md`, 2026-10-14.
+Each world's own thread resolves its share.
+
+### Next action
+
+Before the pilot launches: Mark reads CCEL's copyright page live and sends the letter; a
+read-only dry run of anchor derivation on desert reports coverage. After launch: Stage 1 for
+desert per `Design.md` §11.
