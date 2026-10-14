@@ -1232,7 +1232,7 @@ def _quote_line(candidate: dict, descriptors: list[str]) -> str:
     """A quote's line in the evidence block: id in the marker's own form,
     speaker and gist for one not yet voiced; for one already voiced, no
     marker and no words, only that it was given."""
-    speaker = candidate.get("speaker_name") or candidate.get("speaker") or "unattributed"
+    speaker = candidate.get("speaker") or "unattributed"
     used = candidate.get("used_in_round")
     if used or candidate.get("already_told_this_session"):
         when = f"in round {used[1]}" if used else "earlier in this conversation"

@@ -63,7 +63,7 @@ def test_the_directive_lists_each_quote_with_the_name_to_write():
                   for rid in turn["voice_event"]["offered_ids"]["quote"]]
     text = turn_prep._build_turn_directive(Directive(asks=[{"text": "Why did your people believe this?"}], kind="why"),
                                            quote_offers=candidates)
-    assert '[[quote:syr.quote.nativity-this-is-the-day]], its sentence naming "Ephrem"' in text
+    assert "[[quote:syr.quote.nativity-this-is-the-day]], its sentence naming Ephrem (" in text
     assert "by the name listed with it, word for word" in text
     assert "A quote whose sentence does not name its speaker that way is not placed." in text
 
@@ -101,3 +101,20 @@ def test_every_quote_dropped_for_its_name_places_with_the_offered_name(run, repl
     dropped = _dropped_for_the_name(run)
     assert all(placed for *_where, placed in dropped)
     assert len({(world, q) for world, q, _rid, _placed in dropped}) == replies
+
+
+@pytest.mark.parametrize("world, quote_id, lead", [
+    # a single word of the offered name is not the name: places, offices
+    # and common words stay refused (the independent review's probes)
+    ("alx", "alx.quote.clement-bee", "In Alexandria a teacher wrote:"),
+    ("syr", "syr.quote.palladius-hospitaller", "Galatia remembers it this way:"),
+    ("syr", "syr.quote.theodoret-gnats", "Cyrus wrote:"),
+    ("syr", "syr.quote.chronicle-flood-line", "The chronicle wrote:"),
+])
+def test_one_word_of_the_offered_name_does_not_stand_for_it(world, quote_id, lead):
+    records = load_world_records(world)
+    index = grounding_net.QuotationIndex(records)
+    record = records[quote_id]
+    composed = f"{lead} \u201c{record['modern_rendering']}\u201d [[{quote_id}]]"
+    assert grounding_net.placed_quote_refusal(composed, records, index, quote_id) is not None
+

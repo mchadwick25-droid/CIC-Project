@@ -416,15 +416,16 @@ class QuotationIndex:
 
     def names_speaker(self, sentence: str, quote_record: dict) -> bool:
         """`sentence` names the figure a quote record's speaker field stands
-        for, or the speaker by the name the voice is offered for it
-        (speaker_name)."""
+        for, or the whole name the voice is offered for it (speaker_name),
+        word for word: no single word of that name stands for it."""
         tokens = _WORD_TOKEN.findall(sentence.lower())
         figures = self._figure_aliases()
         for fid in self.speaker_ids(quote_record):
             aliases = figures.get(fid) or _alias_tokens(quote_record.get("speaker_or_author") or "")
             if any(_occurrences(tokens, alias) for alias in aliases):
                 return True
-        return any(_occurrences(tokens, alias) for alias in _alias_tokens(self.speaker_name(quote_record)))
+        whole = tuple(_WORD_TOKEN.findall(self.speaker_name(quote_record).lower()))
+        return bool(whole) and bool(_occurrences(tokens, whole))
 
     def speaker_name(self, quote_record: dict) -> str:
         """The name the voice is offered for a quote's speaker, to write in
