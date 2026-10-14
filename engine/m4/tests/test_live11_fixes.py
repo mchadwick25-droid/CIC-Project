@@ -1,6 +1,6 @@
 """The 13 October eleven-world live test, replayed offline: each case is a
-real turn from engine/m4/reports/live-turn-report-<world>-2026-10-13-
-eleven-world-test.json, its draft rebuilt (engine.m4.tests.live11_replay)
+real turn from that test's live-turn reports, its draft rebuilt
+(engine.m4.tests.live11_replay)
 and run back through the reply shaping a turn applies, with the world's own
 records. No model call."""
 from functools import lru_cache
@@ -225,11 +225,7 @@ def test_a_mistyped_type_part_names_the_answer_record_only_for_the_fallback():
 # ---- the regression replay over all 66 recorded drafts --------------------
 
 
-def test_every_rebuilt_draft_reproduced_the_recorded_reply_under_the_13_october_engine():
-    # Pinned when the replay was built: under the engine of 13 October each
-    # rebuilt draft gave back the recorded reply exactly (66 of 66). The
-    # rebuild itself has not changed since; this checks the rebuild still
-    # puts every recorded sentence back.
+def test_every_rebuilt_draft_puts_every_recorded_sentence_back():
     for (world, q), turn in _turns().items():
         draft = live11_replay.rebuild_draft(turn["voice_event"])
         for entry in turn["voice_event"]["grounding"]["sentences"] + turn["voice_event"]["reply_shape"]["removed"]:
@@ -241,7 +237,6 @@ def test_the_replay_over_all_66_drafts():
     assert counts["turns"] == 66
     # nothing ungrounded is sent: witt Q1 falls back to its answer record
     assert counts["degraded_sent"] == 0 and counts["fallbacks"] == 1
-    # 13 October engine: 58 cuts, all 12 listed overcuts cut, 3 stray-punctuation sentences
     assert counts["cuts"] == 46
     assert counts["overcuts_still_cut"] == 4
     assert counts["stray_punctuation_sentences"] == 1
@@ -260,10 +255,7 @@ def test_the_shape_asks_for_a_tag_on_every_claim_about_what_someone_did_named_or
 
 
 def test_an_untagged_claim_that_names_no_one_is_still_read_as_framing_by_the_net():
-    # Recorded as it stands: the net finds no claim marker in it. A pronoun
-    # and past-tense check flags 9 sentences over the 66 replays, 8 of them
-    # framing or honest limits, so it was not adopted (Decision Log,
-    # 2026-10-14). The fix is the instruction above.
+    # The net finds no claim marker in it; the instruction above is the fix.
     sentence = "The one who walked him to the stake is remembered as a brother who regretted it afterward."
     entry = next(e for e in _replayed("pahc", 5)["net_result"]["sentences"] if e["sentence"] == sentence)
     assert (entry["verdict"], entry["why"]) == ("ok", "no checkable claim - interpretive/connective framing")
@@ -271,9 +263,9 @@ def test_an_untagged_claim_that_names_no_one_is_still_read_as_framing_by_the_net
 
 def test_a_withheld_sentence_is_shown_without_its_citation():
     # syr Q2: "He healed the sick and taught in parables" shares no word with
-    # syr.dw.gospel-harmony. Since 13 October (c5fee075) a sentence withheld
-    # for a reason other than a quotation is shown as written and only loses
-    # its citation; the quotation reasons alone remove a sentence.
+    # syr.dw.gospel-harmony. A sentence withheld for a reason other than a
+    # quotation is shown as written and only loses its citation; the
+    # quotation reasons alone remove a sentence.
     sentence = "He healed the sick and taught in parables."
     result = _replayed("syr", 2)
     entry = next(e for e in result["net_result"]["sentences"] if e["sentence"] == sentence)

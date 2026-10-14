@@ -264,7 +264,7 @@ OBLIQUE_WHO_DIRECTIVE = (
 # The quotes a reply may place are exactly the turn's offered quotes not yet
 # voiced, so the directive names them, or says there are none. Told only "one
 # quote in full" on a turn whose ground offered no quote, the voice wrote
-# markers anyway, several for ids no record has (13 October live test).
+# markers anyway, several for ids no record has.
 NO_QUOTE_LINE = (
     "No quote is offered this turn. Write no [[quote:...]] marker and tag no quote record. Put no one's words "
     "in quotation marks or after 'said', 'wrote' or a colon; say what they did or taught in your own words."
