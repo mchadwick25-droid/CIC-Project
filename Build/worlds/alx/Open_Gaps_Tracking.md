@@ -716,3 +716,11 @@ In the 14 October retest alx Q5 said "We do not have the teacher's name." That o
 alx Q4's "They believed it because..." (the third person after "your people") has no record cause; it is addressed in the engine's pronoun rule (System Hub Decision Log, 14 October second fix slice).
 
 Status: CLOSED.
+
+### OG-27. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `alx.demo.woman-authority` representative turn: "and we have told you why." now reads "and we have told you why so little is left."
+
+`engine.m10.cli records alx` and `regate alx --base origin/main` pass. Package rebuilt and repinned: `packages/alx/2026-10-14T20-18-29Z`, `manifest_hash` `sha256:1ad35a46e0ff50299da1c005b7fcfb917cf513c13ce1ae76733fec0cfb944dc4`. Status: CLOSED.

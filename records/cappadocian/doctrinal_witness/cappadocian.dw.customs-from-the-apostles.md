@@ -32,7 +32,7 @@ text: >-
   the same force. We cannot hand you a signed receipt running back to the
   apostles for any one of them. Time would fail us to name every unwritten
   practice we kept. We faced east at prayer, most of us not even knowing
-  why. We were seeking, our teachers said, our old country, the Eden God
+  why we faced east. We were seeking, our teachers said, our old country, the Eden God
   planted in the east. We stood rather than knelt to pray on the Lord's own
   day. We plunged the baptized three times into the water. We blessed the
   water with words no scripture gives. Over the bread and cup we added

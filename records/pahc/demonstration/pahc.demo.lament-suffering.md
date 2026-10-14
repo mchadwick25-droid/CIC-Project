@@ -28,7 +28,7 @@ exchange:
   text: Why does God allow suffering like this? Where was he when it happened to your people — and to
     mine?
 - speaker: representative
-  text: We will not tell you why. We were never given that answer ourselves. What we can tell you is what
+  text: We will not tell you why God allows such suffering. We were never given that answer ourselves. What we can tell you is what
     a death for the name cost some of us, and what we made of that cost. One of us, Ignatius, wrote on
     his way to execution that he wanted to be ground like wheat between the teeth of wild beasts, so that
     he might be found the pure bread of Christ. We read that as a man ending a life he had already given

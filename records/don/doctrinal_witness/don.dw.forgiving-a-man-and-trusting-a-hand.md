@@ -69,7 +69,7 @@ text: >-
   founding bishops at Cirta sat in a room where several admitted the
   worst thing a bishop could admit, and instead of finishing the case
   they gave it to God and sat down. So we knew perfectly well how to
-  stop pressing a charge. We just never wrote down when.
+  stop pressing a charge. We just never wrote down when to stop pressing it.
 
 
   Two things we cannot take up: what we offered a person whose own mind

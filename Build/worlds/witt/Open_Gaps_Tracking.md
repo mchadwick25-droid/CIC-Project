@@ -2646,3 +2646,15 @@ Added after the independent review of #875 and the project lead's rulings of 13 
 - \`witt.term.gospel\`: both \`plain_meaning\` and \`means\` say the Gospel "had been buried"; the hymnal preface does not say so ("hath again risen"). OPEN.
 
 Status: CLOSED for the fixes above; the registered items stay OPEN.
+
+## OG-72. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `witt.demo.bread-and-cup` representative turn: "and we did not explain how." now reads "and we did not explain how they are present."
+- `witt.term.sacrament-of-the-altar` `plain_meaning`: "We do not explain how." now reads "We do not explain how they are present."
+- `witt.term.sacrament-of-the-altar` `use_note.means`: "without explaining how." now reads "without explaining how they are present."
+- `witt.term.insurrection` `plain_meaning`: "and we understood why." now reads "and we understood their anger."
+- `witt.voice.craft` `characteristic_concerns`: "held without asking how." now reads "held without asking how Christ is present."
+
+`engine.m10.cli records witt` and `regate witt --base origin/main` pass. `witt.voice.craft` stays inside its 1500-word ceiling. Package rebuilt and repinned: `packages/witt/2026-10-14T20-21-26Z`, `manifest_hash` `sha256:698293cd5c09568c7a3670d179a0e4ce35177fc50c4d32d9e1d7249727aaf657`. Status: CLOSED.

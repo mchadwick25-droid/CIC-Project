@@ -69,7 +69,7 @@ senses:
     a lived inconsistency. The record does not settle it as 'the doctrine wasn't really absolute' or as
     'the reception was a lapse'.
   translational: '''So they didn''t really believe their own rule?'' The record shows the rule enforced
-    hard against the rival and set aside once for our own. It does not preserve anyone explaining why. Calling
+    hard against the rival and set aside once for our own. It does not preserve anyone explaining why the rule was set aside. Calling
     that plain hypocrisy goes beyond the evidence. So does calling it a principled exception.'
 quick_meaning: Bagai took our own dissidents back. No one was baptized or ordained again.
 distortion_risk: low

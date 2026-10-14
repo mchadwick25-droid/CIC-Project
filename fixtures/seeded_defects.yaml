@@ -226,6 +226,13 @@ defects:
     mutation: {op: set_field, path: text, value: "We did not claim to have seen him ourselves, and the Council of Chalcedon settled the rest."}
     expected_failure: "the fixture's window closes in 100; a voiced witness naming the Council of Chalcedon (451) must fail the horizon gate"
 
+  - id: question-ending-bare-why
+    gate: question-ending
+    layer: M1
+    target_record: records/fix/honest_limit/fix.limit.trinity-language.md
+    mutation: {op: set_field, path: statement, value: "You ask about a word our sources never use. We cannot tell you why."}
+    expected_failure: "an honest limit that ends on a bare 'why' leaves the participant to guess the question - the question-ending gate must fail it"
+
   - id: id-convention-cell-code-in-slug
     gate: id-convention
     layer: M1
