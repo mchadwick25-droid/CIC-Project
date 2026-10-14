@@ -273,7 +273,7 @@ QUOTE_OFFERS_LINE = "Quotes you may place this turn, and no others: {offers}."
 QUOTE_DUE_LINE = "Place one of them in full."
 QUOTE_OPTIONAL_LINE = "Place one only where it answers the ask; no quote is needed."
 QUOTE_SPEAKER_LINE = (
-    "A marker ends a sentence that names the quote's speaker by the name listed with it, word for word, "
+    "A marker ends a sentence that names the quote's speaker by the name listed with it, exactly as listed, "
     "without quotation marks: the shape is \"Ephrem wrote: [[quote:id]]\", with your own verb. "
     "A quote whose sentence does not name its speaker that way is not placed. "
     "Never put it after 'he' or 'she', after an unnamed teacher, or alone after an earlier sentence. "

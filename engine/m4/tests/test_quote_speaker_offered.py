@@ -64,7 +64,7 @@ def test_the_directive_lists_each_quote_with_the_name_to_write():
     text = turn_prep._build_turn_directive(Directive(asks=[{"text": "Why did your people believe this?"}], kind="why"),
                                            quote_offers=candidates)
     assert "[[quote:syr.quote.nativity-this-is-the-day]], its sentence naming Ephrem (" in text
-    assert "by the name listed with it, word for word" in text
+    assert "by the name listed with it, exactly as listed" in text
     assert "A quote whose sentence does not name its speaker that way is not placed." in text
 
 
