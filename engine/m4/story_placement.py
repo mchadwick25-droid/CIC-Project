@@ -69,6 +69,13 @@ _NOT_NAMES = frozenset({
     "Apostle", "Apostles", "Prophet", "Prophets", "Saint", "Saints", "Abba", "Amma",
     "Church", "Eucharist", "Baptism", "Easter", "Lent", "Sabbath", "Heaven", "Kingdom",
 })
+# A divine person named as the one who spoke is a speaker like any other:
+# the introduction may say so only when the story's own text names them.
+_DIVINE = frozenset({"God", "Lord", "Christ", "Jesus", "Saviour", "Savior", "Father", "Son", "Spirit"})
+_SPEECH = re.compile(
+    r"\b(?:say|says|said|saying|tell|tells|told|telling|speak|speaks|spoke|spoken|speaking|teach|teaches|taught|"
+    r"teaching|answer|answers|answered|word|words)\b", re.IGNORECASE,
+)
 _COMMUNITY = re.compile(r"\b(?:we|us|our|ours)\b", re.IGNORECASE)
 _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 _STORY_MARKER_ID = re.compile(r"\[\[\s*story\s*:\s*([a-z0-9_.-]+)\s*\]\]", re.IGNORECASE)
@@ -120,7 +127,6 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
     placed: list[str] = []
     paragraphs_out: list[list[str]] = []
     unplaced = context.offered_stories - context.told_stories
-    world_names = _world_names(repository_records)
     if not STORY_MARKER.search(tagged_text or "") and not unplaced & set(_TAG.findall(tagged_text or "")):
         return {"text": tagged_text or "", "placed": [], "placed_sentences": {}, "placed_drafts": {}, "removed": []}
 
@@ -143,7 +149,7 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
                 lead = _take_lead_in(kept, paragraphs_out, sealed)
                 drafted = f"{lead} {drafted}".strip()
             if reason is None:
-                if _intro_holds(lead, record, world_names):
+                if _intro_holds(lead, record, _world_vocabulary(repository_records)):
                     intro = _story_intro(lead, record["id"])
                     kept.append(intro)
                     report.placed_drafts[placed_key(strip_tags(intro))] = drafted
@@ -214,38 +220,53 @@ def _story_text(record: dict) -> str:
     return " ".join(filter(None, [record.get("telling"), record.get("tellable_as"), (record.get("use_note") or {}).get("means")]))
 
 
-def _world_names(repository_records: dict[str, dict]) -> set[str]:
-    """The words the world's own records use as names: its figures' names,
-    and each capitalised word its stories carry past a sentence's first
-    that they never write in lower case and that is no function word (a
-    quoted sentence inside a sentence begins with a capital too)."""
-    names: set[str] = set()
-    lower: set[str] = set()
+# A record id or file name ("desert.figure.antony", "budge1907.txt") is no
+# word the records write.
+_RECORD_ID = re.compile(r"[\w-]+(?:\.[\w-]+)+")
+
+
+def _world_vocabulary(repository_records: dict[str, dict]) -> frozenset[str]:
+    """Every word the world's own records write in lower case."""
+    words: set[str] = set()
+
+    def walk(value):
+        if isinstance(value, str):
+            words.update(w for w in _WORD.findall(_RECORD_ID.sub(" ", value)) if w.islower())
+        elif isinstance(value, dict):
+            for v in value.values():
+                walk(v)
+        elif isinstance(value, list):
+            for v in value:
+                walk(v)
+
     for record in repository_records.values():
-        if record.get("record_type") == "figure":
-            names |= {n for entry in record.get("names") or [] for n in _names(entry.get("name") or "")}
-        elif record.get("record_type") == "story":
-            text = _story_text(record)
-            lower |= {w for w in _WORD.findall(text) if w.islower()}
-            for sentence in quote_aware_sentences(text):
-                names |= set(_names(" ".join(_WORD.findall(sentence)[1:])))
-    return {n for n in names if n.lower() not in lower and n.lower() not in _STOPWORDS}
+        walk(record)
+    return frozenset(words)
 
 
-def _intro_holds(lead: str, record: dict, world_names: set[str]) -> bool:
+def _intro_holds(lead: str, record: dict, vocabulary: frozenset[str]) -> bool:
     """The introduction names the story's own people or the community, and
     no one else (module docstring). A sentence's first word is capitalised
-    whatever it is, so it counts as a name only when the story or the
-    world's own records use it as one ("Antony"), not otherwise
-    ("Remember", "Once")."""
+    whatever it is, so it is passed over when it is a function word or a
+    word the world's records write in lower case ("Remember", "Once"), and
+    counts as a name otherwise ("Antony", "Macarius"). A divine person named
+    before a speech verb counts as the speaker, so the story's own text must
+    name them."""
     text = strip_tags(lead).strip().lstrip("\u201c\"\u2018'(")
-    known = set(_names(_story_text(record)))
+    story = _story_text(record)
+    known = set(_names(story))
     words = _WORD.findall(text)
-    first = _names(words[0]) if words else []
-    later = _names(" ".join(words[1:]))
-    counted = [*(n for n in first if n in known or n in world_names), *later]
+    first = words[0] if words else ""
+    ordinary = first.lower() in _STOPWORDS or first.lower() in vocabulary
+    counted = _names(" ".join(words[1:] if ordinary else words))
     if any(name not in known for name in counted):
         return False
+    speech = _SPEECH.search(text)
+    if speech:
+        story_words = {_POSSESSIVE.sub("", w).title() for w in _WORD.findall(story)}
+        speakers = {_POSSESSIVE.sub("", w).title() for w in _WORD.findall(text[: speech.start()])} & _DIVINE
+        if speakers - story_words:
+            return False
     return bool(counted) or bool(_COMMUNITY.search(text))
 
 

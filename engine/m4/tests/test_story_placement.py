@@ -214,7 +214,7 @@ def test_god_lord_gospel_and_titles_never_count_as_names_but_the_name_after_a_ti
 
 
 def test_an_ordinary_opening_word_is_not_taken_for_a_name(desert):
-    for intro in ("Remember Moses and his basket", "Once Moses was asked to judge a brother", "Consider Moses at Scete"):
+    for intro in ("Remember Moses and his basket", "Once Moses was asked to judge a brother", "Consider Moses at Scete", "Take Moses"):
         text, _c, net_result = _net(f"{intro} [[story:{MOSES}]].", desert, _offer(MOSES))
         assert net_result["reply_shape"]["removed"] == [] and text.startswith(f"{intro}:"), intro
 
@@ -225,6 +225,26 @@ def test_church_words_never_count_as_names_but_never_make_an_introduction_hold_a
     for intro in ("Jesus said this", "So the LORD'S mercy reached Antony"):
         text, _c, net_result = _net(f"{intro} [[story:{MOSES}]].", desert, _offer(MOSES))
         assert text == _telling_shown(desert[MOSES]) and _whys(net_result) == [REASON_STORY_INTRO], intro
+
+
+def test_a_saying_is_never_credited_to_a_divine_person_the_story_does_not_name(desert):
+    for intro, story in (
+        ("Jesus told Abba Moses this, and we keep it", MOSES), ("As the Lord said to Moses", MOSES),
+        ("Christ spoke through Abba Moses", MOSES), ("The Son told Moses this", MOSES), ("Jesus said to Sarah", SARAH),
+    ):
+        text, _c, net_result = _net(f"{intro} [[story:{story}]].", desert, _offer(story))
+        assert text == _telling_shown(desert[story]) and _whys(net_result) == [REASON_STORY_INTRO], intro
+
+
+def test_the_lord_may_be_named_as_speaker_where_the_story_itself_names_him(desert):
+    text, _c, net_result = _net(f"We remember how Antony heard the Lord say it [[story:{ANTONY_CALL}]].", desert, _offer(ANTONY_CALL))
+    assert net_result["reply_shape"]["removed"] == []
+
+
+def test_a_name_the_world_never_mentions_fails_in_first_position_too(desert):
+    for intro in ("Macarius told Moses this", "Paul wrote it, and we keep it", "Augustine taught us this"):
+        text, _c, net_result = _net(f"{intro} [[story:{MOSES}]].", desert, _offer(MOSES))
+        assert _whys(net_result) == [REASON_STORY_INTRO], intro
 
 
 def test_a_possessive_in_capitals_reads_as_its_name(desert):
