@@ -188,6 +188,11 @@
           <div class="caveat" id="t-deeper-pilot-detail"></div>
         </div>
         <div class="tile">
+          <div class="label">Pilot joins by role</div>
+          <div class="caveat" id="t-deeper-pilot-roles">—</div>
+          <div class="caveat">A count per role per audience only. No role is tied to a code or an address.</div>
+        </div>
+        <div class="tile">
           <div class="label">Door right now</div>
           <div class="value" id="t-deeper-door">—</div>
           <div class="caveat" id="t-deeper-door-detail"></div>
@@ -603,6 +608,10 @@
       document.getElementById("t-deeper-pilot-detail").textContent =
         pilot.audiences.map((a) => a.audience + " " + a.given + "/" + a.cap + (a.open ? " open" : " closed") + (!a.public && !a.link_set ? " (no link key set)" : "")).join(" · ") +
         " · ends " + pilot.end_date + " · " + (document.getElementById("t-deeper-pilot-detail").dataset.today || "0") + " today";
+      const shown = pilot.audiences.filter((a) => a.open || a.given > 0);
+      document.getElementById("t-deeper-pilot-roles").textContent = shown.length
+        ? shown.map((a) => a.audience + ": " + a.roles.map((r) => r.label + " " + fmtNumber(r.count)).join(", ")).join(" · ")
+        : "No audience is open.";
     }
     const door = status.door;
     document.getElementById("t-deeper-door").textContent = door ? "Stage " + door.stage : "—";
