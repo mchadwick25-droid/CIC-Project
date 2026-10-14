@@ -77,36 +77,33 @@ tellable_as: >-
   A catechumen soldier has nothing left but his cloak. He cuts it in two for a naked beggar at a
   city gate. That night he sees Christ wearing the half he gave away.
 text: >-
-  This is how the tradition of Tours remembers the beginning of Martin - what it believed a life
-  already turned toward God could look like inside a soldier's uniform, before any monastery existed
-  in Gaul.
+  This is how the tradition of Tours remembers the beginning of Martin. It shows what the tradition
+  believed a life already turned toward God could look like inside a soldier's uniform. This was
+  before any monastery existed in Gaul.
 
   Sulpitius tells that Martin, the son of a military tribune, was seized on his father's information
-  and put in chains at fifteen and made to take the military oath. Even then he kept only one
-  servant, and served that servant instead: he drew off his boots and cleaned them with his own hand,
-  and at their meals he acted the part of servant to his own attendant rather than master. Even then,
-  people thought of him less as a soldier than as a monk (Sulpitius's own wording for
-  all of this is kept in gallic.quote.the-soldier-who-served-his-servant). He was not yet baptized; he
-  was a catechumen, and out of his pay he kept back only what he needed for the day, giving the rest
-  away.
+  and put in chains at fifteen and made to take the military oath. Even then he kept only one servant,
+  and served that servant instead. He drew off the servant's boots and cleaned them with his own hand.
+  At their meals he acted the part of servant to his own attendant rather than master. Even then,
+  people thought of him less as a soldier than as a monk. He was not yet baptized; he was a
+  catechumen, and out of his pay he kept back only what he needed for the day, giving the rest away.
 
-  Then one winter - a harder winter than usual, one that was proving fatal to many from the cold -
-  Martin, who by then had nothing left but his weapons and his plain uniform, met a poor man at the
-  gate of the city of Amiens. The man had no clothes at all. He was begging from everyone who passed,
-  and everyone passed him by. Martin saw that no one else would show the man pity, and understood that
-  it was left to him to act. He had nothing left to give but the cloak on his back - he had already given away the rest of his clothes
-  the same way. So he drew his sword, cut the cloak into two equal halves, gave one to the poor man,
-  and put the other back on himself. Some of the bystanders laughed at the half-dressed soldier.
-  Others, with more sense, felt ashamed that they, who had more than Martin, had never done anything
-  like it (Sulpitius's own wording for this whole scene, and for the vision that follows, is kept in
-  gallic.quote.the-cloak-divided-and-the-vision-of-christ).
+  Then came a winter harder than usual, one that was proving fatal to many from the cold. By then
+  Martin had nothing left but his weapons and his plain uniform. He met a poor man at the gate of the
+  city of Amiens. The man had no clothes at all. He was begging from everyone who passed, and everyone
+  passed him by. Martin saw that no one else would show the man pity, and understood that it was left
+  to him to act. He had nothing left to give but the cloak on his back - he had already given away the
+  rest of his clothes the same way. So he drew his sword, cut the cloak into two equal halves, gave
+  one to the poor man, and put the other back on himself. Some of the bystanders laughed at the
+  half-dressed soldier. Others, with more sense, felt ashamed. They had more than Martin, and had
+  never done anything like it.
 
   That night, the tradition says, Martin saw Christ in his sleep, wearing the half of the cloak he had
-  given the beggar, and heard him tell the angels standing around that Martin - still only a
-  catechumen - had clothed him with that robe, echoing Christ's own earlier promise that whatever was
+  given the beggar. He heard Christ tell the angels standing around that Martin, still only a
+  catechumen, had clothed him with that robe. It echoed Christ's own earlier promise that whatever was
   done for the least of people was done for him. And this is the point the tradition presses: Martin
-  "was not puffed up with human glory" by it; he went and was baptized, at twenty, and - because his
-  tribune had promised to leave the world with him when his term was up - went on for nearly two more
+  "was not puffed up with human glory" by it. He went and was baptized, at twenty. His tribune had
+  promised to leave the world with him when his term was up. So Martin went on for nearly two more
   years wearing the uniform "although but in name."
 absent_detail: >-
   Sulpitius's text says nothing of a relic, a chapel, or the cloak's later fate - it says only that

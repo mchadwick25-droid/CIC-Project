@@ -26,7 +26,7 @@ retrieval:
 text: >-
   We received our practices, and we kept the receiving visible. Baptism,
   the bread and cup - the eucharistia, the thanksgiving - the scriptures
-  read aloud were the tradition's general, unobjected practice; the rule
+  read aloud were the tradition's general, unobjected practice. The rule
   of faith is the one our teachers named outright as the apostles'
   deposit, handed down. Origen says plainly that the church's teaching
   is 'transmitted in orderly succession from the apostles, and remaining
@@ -37,7 +37,7 @@ text: >-
   matched the apostolic writings we read. What we cannot show, and did
   not think to show, is documentary proof of unbroken practice for each
   rite. Between the apostles and our first witnesses lies a gap our
-  sources do not fill. We say it plainly and do not smooth it over.
+  sources do not fill.
 positions:
 - 'The claim is that the faith was received as a deposit. It was handed down, and checked against the churches'' shared practice and the scriptures.'
 - The tradition's own memory vouches for continuity as far back as it can reach. It cannot vouch for more.

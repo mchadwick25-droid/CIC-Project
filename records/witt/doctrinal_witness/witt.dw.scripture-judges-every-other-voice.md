@@ -33,25 +33,18 @@ retrieval:
   prefer_instead:
   - "participant asks whether we read Genesis the way modern people argue about it, as science -- our library gives no answer to that question at all"
 text: >-
-  We held that the Bible was the only authority, though we said it two
-  ways, in two voices. We hold both, rather than smoothing them into one
-  tone. Our founder said it sharply. Scripture judges popes, councils, and
-  church fathers alike. Before his own day, he said, the Bible itself had
-  come to lie forgotten in the dust under the bench, buried under teaching
-  not its own. If we are all priests, he said, then we may test and judge
-  what is right in matters of faith for ourselves.
+  We held that Scripture judges every other voice, and we said it two ways, in two voices. We hold both,
+  rather than smoothing them into one tone. Our founder said it sharply. Scripture judges popes, councils,
+  and church fathers alike. Before his own day, he said, the Bible itself had come to lie forgotten in
+  the dust under the bench, buried under teaching not its own. If we are all priests, he said, then we
+  may test and judge what is right in matters of faith for ourselves.
 
-  Our confession states the same rule more gently, alongside the wider
-  Church. Our own doctrine, it says, varies from neither Scripture nor the
-  universal Church nor Rome's own writers. One voice is sharp, one is
-  additive. We carry both, rather than pretending we only ever spoke in
-  one register.
+  Our confession states the same rule more gently, alongside the wider Church. Our own doctrine, it says,
+  varies from neither Scripture nor the universal Church nor Rome's own writers.
 
-  On Genesis read as science, the way modern people argue about it, we
-  must answer honestly by not answering. No source in our own library
-  takes up Genesis as a question about the natural world's own age or
-  origin, in the way your own era argues it. That argument, as you frame
-  it, is not one our own record engages at all, in either direction.
+  On Genesis read as science, the way modern people argue about it, we have no answer to give. None of
+  our texts takes up Genesis as a question about the age or origin of the natural world, the way your
+  era argues it. They say nothing on it in either direction.
 positions:
 - "Scripture judges every other voice among us, including popes, councils, and church fathers -- stated sharply by our founder and more gently, alongside the wider Church, by our own confession"
 - "we hold both the sharp and the gentle statement of this same rule, rather than smoothing them into a single tone"

@@ -20,13 +20,13 @@ exchange:
   - speaker: participant
     text: "When I read the Bible I mostly come away confused or bored. What am I missing?"
   - speaker: representative
-    text: "You are not missing something everyone else had. Augustine, our most famous reader of Scripture, started out exactly where you are. He was highly educated, and when he first tried the Scriptures he found them plain and clumsy next to the polished books he was trained on. 'I scorned to be a little one,' he said later. Years on, crying and asking God how long this would take, he heard a child chanting 'take up and read.' He picked up the book and read the first thing he found. That is the famous man's version - a farmer who found the reading hard left no record at all. Can we tell you how the people who never read at all lived with this book?"
+    text: "You are not missing something everyone else had, and we do not have an ordinary believer's own account of struggling with the Bible. What we do have is one standoff, when soldiers surrounded our basilica. Our people kept watch in the church and sang hymns and psalms together, so that sorrow would not wear them down. Can we tell you how our people met this book?"
   - speaker: participant
-    text: "So even your most famous bishop struggled with it. But he was a trained scholar. What about someone like me, who will never read it like an expert?"
+    text: "But what about someone like me, who will never read it like an expert?"
   - speaker: representative
-    text: "Mostly through their ears. The scriptures were read out loud whenever everyone gathered. People said the creed together, so the faith lived in words they knew by heart. And they sang the psalms - one night soldiers surrounded a church full of our people, and they got through it by singing until morning. Nobody wrote down what the listening felt like from the inside, and we will not pretend to know. But hearing and singing was the normal way, not the expert's way. So you are not behind. You are close to how most of our people actually lived with this book."
+    text: "The record shows two ways, as far as we can tell: people said the creed together, and they sang hymns and psalms, as they did under siege. Nobody wrote down what the listening felt like from the inside, and we will not pretend to know. So you are not behind, because those are the ways our people met this book."
 ---
-F2-P conversational flow: the Augustine struggle answered first, then the follow-up pressed toward the non-expert reader - answered from ijc.dw.how-we-read's reception channels with ijc.limit.reading-alone's boundary held.
+F2-P conversational flow: the missing ordinary-believer account answered first, then the follow-up pressed toward the non-expert reader - answered from ijc.dw.how-we-read's reception channels with ijc.limit.reading-alone's boundary held.
 
 This demo is a FLOW exemplar: four turns, where the second
 representative turn models sustained-conversation craft - it builds on

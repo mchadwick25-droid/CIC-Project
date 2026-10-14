@@ -18,6 +18,7 @@ author: n/a -- no individual author named for this work in the Source Registry r
 work: The Book of Concord
 edition: (1580), incl. the Smalcald Articles and the Formula of Concord — ed. Kolb & Wengert (Fortress,
   2000) — NOT VENDORED (AC, Apology, LC, SC vendored separately)
+citation: The Book of Concord (1580), incl. the Smalcald Articles and the Formula of Concord, ed. Kolb & Wengert (Fortress, 2000)
 kind: unvendored
 rights_status: "In-copyright; not vendored - access blocked"
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)

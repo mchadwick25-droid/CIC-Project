@@ -19,6 +19,7 @@ work: Andreas Bodenstein von Karlstadt (1486–1541)
 edition: biographical essay for the Kritische Gesamtausgabe der Schriften und Briefe Andreas Bodensteins
   von Karlstadt (Karlstadt-Edition, Göttingen Academy / Herzog August Bibliothek; PDF dated 2015 on the
   edition's site)
+citation: Alejandro Zorzin, Andreas Bodenstein von Karlstadt (1486–1541), biographical essay for the Kritische Gesamtausgabe der Schriften und Briefe Andreas Bodensteins von Karlstadt (Karlstadt-Edition, Göttingen Academy / Herzog August Bibliothek) (2015)
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

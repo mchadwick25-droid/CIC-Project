@@ -25,6 +25,7 @@ work: Answer to the Letters of Petilian, the Donatist (Contra litteras Petiliani
 edition: Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml.
   The critical Latin text (CSEL 52, Pars II) is confirmed ABSENT from the vendored Petschenig scan (Registry
   row 39) -- checked directly, found only as a cross-reference abbreviation.
+citation: Augustine of Hippo, Answer to the Letters of Petilian, the Donatist (Contra litteras Petiliani), Nicene and Post-Nicene Fathers, Series I, vol. IV
 kind: vendored
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed

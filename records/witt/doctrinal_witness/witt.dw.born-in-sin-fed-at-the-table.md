@@ -40,30 +40,25 @@ retrieval:
   prefer_instead:
   - "participant wants a full philosophical treatment of transubstantiation as a rival theory -- we refuse to theorize the how at all, on either side"
 text: >-
-  We teach plainly that people are born already guilty, and we do not
-  soften it. Since Adam's fall, everyone born the ordinary way is born
-  with sin already in them -- not an act any infant has committed, but
-  a condition: no fear of God, no trust in God, a desire turned toward
-  itself instead. We call this a disease, a vice of origin, and we say
-  it is truly sin, bringing death to those not born again through baptism and the Spirit.
+  We taught plainly that people are born already guilty, and we did not soften it. Since Adam's fall,
+  everyone born the ordinary way is born with sin already in them -- not an act any infant has committed,
+  but a condition: no fear of God, no trust in God, and a disordered desire. We called this a disease,
+  a vice of origin, and we said it is truly sin, bringing death to those not born again through baptism
+  and the Spirit.
 
-  What you call transubstantiation is not how we speak of the bread and cup, and we are careful about the difference. We hold that Christ's body and
-  blood are truly present, in and under the bread and wine -- not a
-  symbol, not only a memory. But we call transubstantiation itself a
-  monstrous word for a monstrous idea, and we refuse to explain the
-  presence the way that word tries to. We simply take Christ at his
-  word and do not dispute the how; we take our own reason captive to
-  it rather than build a theory to defend it.
+  What you call transubstantiation was not how we spoke of the bread and cup, and we were careful about
+  the difference. We held that Christ's body and blood are truly present, in and under the bread and wine
+  -- not a symbol, not only a memory. But we called transubstantiation itself a monstrous word for a monstrous
+  idea, and we refused to explain the presence the way that word tries to. We simply took Christ at his
+  word and did not dispute the how; we took our own reason captive to it rather than build a theory to
+  defend it.
 
-  We believe people are saved by faith alone, not works. This is the
-  most widely attested thing we say, in every register we speak in.
-  Faith alone is the saving use of God's own Word. We cannot be
-  justified before God by our own strength or merit or effort; we are
-  freely justified for Christ's sake, through faith, apart from works.
-  But faith never rests on nothing. It clings to something outside
-  itself -- the Word, the water, the bread, the absolution -- and love
-  and good works follow it, uncommanded, the way fruit follows a
-  living tree.
+  We believed people are saved by faith alone, not works. No other teaching of ours appears in so many
+  of our writings: treatises, sermons, catechisms, and the confession. Faith alone, we said, is the saving
+  use of God's own Word. We could not be justified before God by our own strength or merit or effort;
+  we were freely justified for Christ's sake, through faith, apart from works. But faith never rested
+  on nothing. It clung to something outside itself -- the Word, the water, the bread, the absolution --
+  and love and good works followed it, though they earned nothing.
 positions:
 - "we are born already guilty -- not by our own act, but by an inherited condition: no fear of God, no trust in God, a will turned toward itself -- and we say so plainly, without softening it"
 - "the bread and cup hold Christ's true body and blood, in and under the bread and wine -- but we refuse transubstantiation's own attempt to explain how, calling that word itself 'a monstrous word for a monstrous idea'"

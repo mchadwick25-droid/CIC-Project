@@ -31,12 +31,12 @@ text: >-
   geometry and music, grammar, rhetoric, and astronomy, viz. that they are the handmaidens of
   philosophy, we may say of philosophy itself in relation to Christianity.
 modern_rendering: >-
-  I strongly want you to take from Greek philosophy whatever can serve as basic training
-  for our schools. Let this training be a kind of preparation for Christianity. Take
-  also the parts of geometry and astronomy that can help you interpret the sacred
-  Scriptures. The students of the philosophers have a saying about geometry, music,
-  grammar, rhetoric, and astronomy. They call these the handmaidens of philosophy. In
-  the same way, we can say that philosophy itself is the handmaiden of Christianity.
+  So I very much want you to take even from Greek philosophy the parts that can serve as first
+  lessons in our schools. They can be a kind of groundwork for Christianity. Take too the parts
+  of geometry and astronomy that can help you explain the holy Scriptures. The students of the
+  philosophers say this of geometry and music, grammar, rhetoric and astronomy: that they are
+  the handmaids of philosophy. I want this so that we may say the same of philosophy itself, and
+  call it the handmaid of Christianity.
 speaker_or_author: Origen, in the Letter to Gregory
 license: verbatim
 modern_lens_note: >-

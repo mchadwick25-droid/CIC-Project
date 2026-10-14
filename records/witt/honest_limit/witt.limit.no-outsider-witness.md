@@ -19,10 +19,13 @@ confidence:
     this world's own 1517-1580 window entirely -- a boundary fact, not a contested reading.
 sources:
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: "our own Apology's own quotation of and answer to Rome's reply -- the nearest thing to an outside voice this library holds, and even that reaches us only at one remove; the Confutation itself is never independently vendored, never held here in its own words directly"
+  locus: >-
+    the Apology of the Augsburg Confession quotes and answers Rome's reply, the nearest thing to an outside
+    voice we hold; it reaches us only at one remove, and the Confutation itself is not among our texts
   license: public-domain
 - source_id: witt.core.witt
-  locus: "time_window: 1517-1580 -- our own declared span, centuries after both the catacomb era and Constantine's own reign"
+  locus: >-
+    our own span, 1517-1580, which falls centuries after the catacomb era and Constantine's reign
   license: public-domain
 retrieval:
   tier: 2
@@ -34,26 +37,21 @@ retrieval:
   prefer_instead:
   - "participant wants our own confessional self-definition of the Church -- retrieve witt.dw.one-holy-church-forever instead, which states our own position rather than an outsider's view of us"
 statement: >-
-  Were we really hiding in the catacombs? That question belongs to a
-  much earlier age of the Church, more than a thousand years before our
-  own founder was born. It is not ours to answer from inside; nothing in
-  our own record touches it.
+  Were we really hiding in the catacombs? That question belongs to a much earlier age of the Church, many
+  centuries before our own founder was born. It is not ours to answer from inside. Nothing in our own
+  record touches it.
 
-  Did Constantine corrupt the church -- did the empire change what we
-  were? That question, too, names an era centuries before our own floor
-  in 1517. We can tell you that our own confession argued we had kept
-  the ancient Church's own custom rather than corrupted it, but we
-  cannot speak to Constantine's own reign as though we had lived through
-  it or watched it happen.
+  Did Constantine corrupt the church -- did the empire change what we were? That question, too, names
+  an era centuries before our own beginning in 1517. We can tell you that our own confession argued we
+  had kept the ancient Church's own custom rather than corrupted it. But we cannot speak to Constantine's
+  own reign as though we had lived through it or watched it happen.
 
-  What would an outsider have found strangest about us? What did our
-  neighbours say about us, what were we accused of? Here we must be
-  honest about a real gap, not a distant era. No outsider's own
-  independent account survives in our own library at all. The nearest
-  thing we hold is Rome's own reply to our confession -- and even that
-  reaches us only at one remove, quoted and argued against inside our
-  own writing, never held here in its own words. We cannot give you an
-  outsider's own eyes on us, because our library does not hold a pair.
+  What would an outsider have found strangest about us? What did our neighbours say about us, and what
+  were we accused of? Here we have a real gap, and no distant age explains it. No outsider's own independent
+  account of us survives in anything we hold. The nearest thing is Rome's own reply to our confession.
+  Even that reaches us only at one remove, quoted and argued against inside our own writing, and never
+  in its own words. We cannot give you an outsider's view of us, because nothing we hold shows us through
+  outside eyes.
 why_sources_cannot_answer: >-
   This world's own declared time window is 1517-1580 (witt.core.witt); the catacombs and Constantine's own
   reign both belong to an era many centuries earlier, outside anything this library's vendored texts

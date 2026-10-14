@@ -61,10 +61,11 @@ def test_resolves_a_real_term_to_its_real_underlying_source():
         "alx.source.eusebius-historia-ecclesiastica",
     }
     philocalia = next(s for s in card["sources"] if s["source_id"] == "alx.source.origen-philocalia")
-    assert philocalia["author"].startswith("Origen")
-    assert philocalia["work"]
+    assert philocalia["citation"].startswith("Origen, Philocalia")
+    assert philocalia["author"] is None
+    assert philocalia["work"] is None
     assert philocalia["locus"] == "I"
-    assert philocalia["rights_status"] == "public-domain"
+    assert philocalia["rights_status"] is None
 
 
 def test_a_record_with_no_sources_resolves_to_an_empty_list_not_a_guess():
@@ -111,6 +112,25 @@ def test_a_sources_entry_with_a_dangling_source_id_still_shows_the_id_and_is_kep
     card = resolve_source_card("w.term.x", repo)
     assert len(card["sources"]) == 1
     assert card["sources"][0]["source_id"] == "w.source.gone"
+
+
+def test_a_source_with_a_citation_line_shows_only_that_line_and_its_place_in_the_work():
+    repo = {
+        "w.term.x": {
+            "id": "w.term.x", "record_type": "term", "term": "x",
+            "sources": [{"source_id": "w.source.s", "locus": "Hymn I.1 (npnf213_some-volume.xml)"}],
+        },
+        "w.source.s": {
+            "id": "w.source.s", "record_type": "source", "citation": "An Author, A Work, trans. A Translator (1898)",
+            "author": "An Author (fl. 350; per the legacy Doc_02)", "work": "A Work - registered for one passage",
+            "rights_status": "public-domain (accepted on the transcriber's declaration)",
+        },
+    }
+    [source] = resolve_source_card("w.term.x", repo)["sources"]
+    assert source == {
+        "source_id": "w.source.s", "citation": "An Author, A Work, trans. A Translator (1898)", "author": None,
+        "work": None, "locus": "Hymn I.1", "rights_status": None, "edition": None,
+    }
 
 
 def test_a_sources_entry_with_no_source_id_but_a_real_locus_still_prints_something_and_is_kept():
@@ -169,7 +189,7 @@ def test_a_quote_with_sources_labels_source_first_speaker_as_attribution():
     card = resolve_source_card("pahc.quote.ignatius-truly-born", repo)
     assert card["label"].startswith("The seven letters, middle recension, Trallians 9")
     assert card["label"].endswith("— Ignatius, bishop of Antioch")
-    assert card["sources"][0]["work"].startswith("The seven letters")  # full apparatus preserved below the headline
+    assert card["sources"][0]["citation"].startswith("Ignatius of Antioch, the seven letters")  # the source line below the headline
 
 
 def test_a_quote_card_carries_the_modern_rendering_and_source_reference_and_no_original_wording():
@@ -180,7 +200,7 @@ def test_a_quote_card_carries_the_modern_rendering_and_source_reference_and_no_o
     assert card["spoken_rendering"] == record["modern_rendering"]
     assert card["speaker"] == "Ignatius, bishop of Antioch"
     source = card["sources"][0]
-    assert source["work"] and source["author"] and source["locus"]
+    assert source["citation"] and source["locus"]
     assert "edition" in source
     assert record["text"] not in json.dumps(card)
 

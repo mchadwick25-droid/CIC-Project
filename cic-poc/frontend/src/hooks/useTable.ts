@@ -7,9 +7,9 @@
  *
  * Same storage discipline as useConversation, through lib/sessionStore.
  */
-import { useCallback, useRef, useState } from 'react';
-import { ApiRequestError, continueRound, createTableSession, getTranscript, sendTableMessage } from '../lib/api';
-import { noteLimit } from '../lib/deeper';
+import { useCallback, useEffect, useRef, useState } from 'react';
+import { ApiRequestError, continueRound, createTableSession, getTranscript, isDuplicateMessage, sendTableMessage } from '../lib/api';
+import { noteLimit, useDeeper } from '../lib/deeper';
 import { clearStored, readStored, writeStored } from '../lib/sessionStore';
 import type { StreamedSentence } from '../lib/streamedReply';
 import type { FacilitatorTurn, TableMessageResponse, VoiceTurn } from '../types/conversation';
@@ -61,12 +61,40 @@ const initialState: TableState = {
   roundCap: null,
 };
 
+const OPEN_ROUND: TableMessageResponse = {
+  round_no: 0, round_open: true, routing_action: null, routing_reason: '', degraded: false,
+  facilitator: [], turn_selected: null, voice: null, position: null, turn_no: null, session_closed: false,
+};
+
+// A message the server refuses as a duplicate was already received. When its
+// round ran on after the reader left (a dropped stream), the transcript holds
+// the room's turns and says whether the round is still open.
+async function recordedRound(sessionId: string, sessionCode: string, text: string) {
+  try {
+    const transcript = await getTranscript(sessionId, sessionCode);
+    const entries = transcript.transcript;
+    const asked = entries.map((entry) => entry.speaker).lastIndexOf('participant');
+    if (asked < 0 || entries[asked].text !== text) return null;
+    if (asked === entries.length - 1 && !transcript.round_open) return null;
+    return { turns: entries.map(toTurn), roundOpen: transcript.round_open, closed: transcript.closed };
+  } catch {
+    return null;
+  }
+}
+
 export function useTable() {
   const [state, setState] = useState<TableState>(initialState);
   // The continue-loop reads credentials from here rather than from the
   // (stale) closure state React handed the callback.
   const sessionRef = useRef<{ sessionId: string; sessionCode: string } | null>(null);
+  // A reply spends the id; only a request that failed keeps it for the retry.
   const lastAttemptRef = useRef<{ text: string; id: string } | null>(null);
+  // The question a limit turned away. The server keeps a refused message
+  // under its id, so once a code is accepted the same question goes again
+  // under a new one.
+  const refusedRef = useRef<string | null>(null);
+  const { codes } = useDeeper();
+  const heldCodesRef = useRef(codes);
   // Guards the continue loop against running twice at once (mid-round
   // reload auto-resume racing an existing loop) - the server refuses the
   // overlap too (TableAdvanceInFlight); this simply avoids provoking it.
@@ -115,6 +143,7 @@ export function useTable() {
   );
 
   const convene = useCallback(async (worldKeys: string[]) => {
+    refusedRef.current = null;
     setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false }));
     try {
       const { session_id, session_code, round_cap } = await createTableSession(worldKeys);
@@ -145,21 +174,34 @@ export function useTable() {
     }
   }, []);
 
-  const send = useCallback(
-    async (text: string) => {
+  const deliver = useCallback(
+    async (text: string, resend: boolean) => {
       const session = sessionRef.current;
       if (!session) {
         setState((prev) => ({ ...prev, error: 'No table convened' }));
         return false;
       }
-      setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false, turns: [...prev.turns, { speaker: 'participant', text }] }));
+      refusedRef.current = null;
+      setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false, turns: resend ? prev.turns : [...prev.turns, { speaker: 'participant', text }] }));
       try {
-        const attempt = lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
+        const attempt = !resend && lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
         lastAttemptRef.current = attempt;
         const first = await sendTableMessage(session.sessionId, session.sessionCode, text, attempt.id, onSentence);
+        if (lastAttemptRef.current === attempt) lastAttemptRef.current = null;
+        if (first.limit_note) refusedRef.current = text;
         await runRound(first);
         return true;
       } catch (error) {
+        if (error instanceof ApiRequestError && isDuplicateMessage(error.status, error.detail)) {
+          const recorded = await recordedRound(session.sessionId, session.sessionCode, text);
+          if (recorded) {
+            lastAttemptRef.current = null;
+            if (recorded.closed) clearStored();
+            setState((prev) => ({ ...prev, turns: recorded.turns, streamed: [], roundOpen: recorded.roundOpen, closed: recorded.closed || prev.closed, isLoading: recorded.roundOpen, error: null, errorRecoverable: false }));
+            if (recorded.roundOpen) await runRound(OPEN_ROUND);
+            return true;
+          }
+        }
         const message = error instanceof ApiRequestError ? error.message : 'That message didn\'t go through - check your connection and try again.';
         const recoverable = error instanceof ApiRequestError && error.recoverable;
         setState((prev) => ({ ...prev, isLoading: false, streamed: [], error: message, errorRecoverable: recoverable }));
@@ -168,6 +210,16 @@ export function useTable() {
     },
     [runRound, onSentence]
   );
+
+  const send = useCallback((text: string) => deliver(text, false), [deliver]);
+
+  useEffect(() => {
+    const held = heldCodesRef.current;
+    heldCodesRef.current = codes;
+    const refused = refusedRef.current;
+    if (refused === null || state.isLoading || !codes.some((code) => !held.includes(code))) return;
+    void deliver(refused, true);
+  }, [codes, state.isLoading, deliver]);
 
   const rehydrate = useCallback(async (): Promise<string[] | null> => {
     const stored = readStored();
@@ -221,6 +273,7 @@ export function useTable() {
   }, [runRound]);
 
   const reset = useCallback(() => {
+    refusedRef.current = null;
     clearStored();
     sessionRef.current = null;
     setState(initialState);

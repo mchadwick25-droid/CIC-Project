@@ -19,6 +19,7 @@ author: Gregory of Nazianzus
 work: Gregory of Nazianzus, the Sasima letters (48-50) and Epistle 58
 edition: CONFIRMED PRESENT in the vendored npnf207 edition -- Letters XLVIII, XLIX ("To Basil.
   (The Praises of Quiet.)"), L, and LVIII all present, div3 ids iv.iii.xviii-xxi
+citation: Gregory of Nazianzus, the Sasima letters (48-50) and Epistle 58, Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed. Schaff
 kind: unvendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

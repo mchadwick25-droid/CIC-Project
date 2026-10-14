@@ -38,26 +38,29 @@ relations:
   target: cappadocian.figure.modestus
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 for both halves of this entry, as Doc_09's own current text states - not a separate '1-as-encomium' tier (a non-canonical label Doc_09's own light-fix pass corrected, moving the genre caution to the Confidence column instead; this project's rule is Tiers 1-4 only). The core - the provincial pressure, Modestus's mission, the Epiphany visitation, Basil's continuation in office - converges with this world's independently documented policy arc; it does not rest on Gregory's telling alone. The celebrated dialogue is Gregory's own public telling, delivered within living memory of eyewitnesses at Basil's funeral, and is genre-shaped (encomium) - not verifiable as court stenography, and not claimed as such here."
-tellable_as: "A hostile prefect threatens a bishop who answers that he owns nothing left to lose, and the emperor who comes to see him removed leaves the Epiphany liturgy having changed his mind."
+tellable_as: >-
+  A hostile prefect threatens a bishop, who answers that he owns nothing
+  left to lose. The emperor comes to the Epiphany liturgy and is shaken.
+  Later a decree to exile the bishop is signed, and it is never carried out.
 text: >-
   In 371 and 372, Basil's province lay under an emperor who backed a
-  different creed than his own. Valens divided Cappadocia into two
-  provinces that same span of years, a move with real consequences for the
-  churches, and sent his praetorian prefect, Modestus, to bring the bishop
-  of Caesarea into line before the emperor's own visit. Modestus threatened
-  him - confiscation, exile, torture, death - and Basil is remembered
-  answering that a man who owns nothing has nothing to confiscate, that no
-  place is exile to one who counts the whole earth God's own, and that a
-  man already given over to God in this life has nothing left that death
-  can take. The prefect, astonished, is said to have reported that he had
-  never been addressed that way before. Basil is remembered replying that
-  perhaps the prefect had simply never yet met a bishop. When Valens
-  himself came to Caesarea the following Epiphany, he found the church
-  crowded to its doors for the festival, the singing filling the whole
-  building like the sea, and Basil presiding in full and unafraid order.
-  The emperor is remembered as shaken enough by what he saw that he never
-  carried through against the bishop, though the pressure around him and
-  the province's own politics continued. Basil was not removed.
+  different creed than his own. Valens divided Cappadocia into two provinces
+  that same span of years, a move with real consequences for the churches,
+  and sent his praetorian prefect, Modestus, to bring the bishop of Caesarea
+  into line before the emperor's own visit. Modestus threatened him -
+  confiscation, exile, torture, death - and Basil is remembered answering
+  that a man who owns nothing has nothing to confiscate, that no place is
+  exile to one who counts the whole earth God's own, and that a man already
+  given over to God in this life has nothing left that death can take. The
+  prefect, astonished, is said to have reported that he had never been
+  addressed that way before. Basil is remembered replying that perhaps the
+  prefect had simply never yet met a bishop. When Valens himself came to
+  Caesarea the following Epiphany, he found the church crowded to its doors
+  for the festival, the singing filling the whole building like the sea, and
+  Basil presiding in full and unafraid order. The emperor is remembered as
+  shaken by what he saw. Gregory of Nazianzus's funeral speech says a decree
+  of exile was later signed and never carried out, because the emperor's son
+  fell ill. Basil was not removed.
 absent_detail: "No account of the confrontation or the visitation survives from Modestus's or Valens's own side; both scenes come entirely through Gregory's public telling, delivered at Basil's funeral to an audience that included people who had been present."
 modern_contrast: >-
   A modern reader might expect a confrontation this famous to rest on a

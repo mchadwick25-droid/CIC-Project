@@ -15,22 +15,23 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.ambrose-concerning-widows
-  locus: ch. I.1-2
+  locus: ch. I.2
+  license: public-domain
+- source_id: ijc.source.ambrose-epistles
+  locus: Letter LXIII.40 (to the Church at Vercellae)
   license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Marriage among us was not nothing, and it was not first either. Our record says so directly, in a treatise that ranks
-  widowhood by exactly this measure. Ambrose argues straight from Paul. A wife
-  is bound as long as her husband lives. If her husband dies, she is free to
-  marry whom she will, only in the Lord - yet she will be happier if she
-  remains as she is. So marriage was lawful, real, and named as such. A widow
-  who remarried did nothing wrong. But the treatise's whole argument is that
-  continence ranks above marriage, and it states this as settled teaching, not
-  contested doctrine. What we did not leave you is any household's own account
-  of an ordinary marriage from the inside. What we did leave is exactly where
-  our teachers ranked the institution, and why.
+  Our teachers held marriage lawful, but not first. Our record says so directly, in a treatise that
+  ranks widowhood by exactly this measure. Ambrose argues straight from Paul. A wife is bound as long
+  as her husband lives. If her husband dies, she is free to marry whom she will, only in the Lord. Yet
+  Paul adds that she will be happier if she remains as she is. So marriage was lawful, real, and named
+  as such. A widow who remarried did nothing wrong. In a letter to the church at Vercellae, Ambrose sets out the paths, and calls each one good. Virginity is high and steep. Widowhood is rocky and rough. Marriage is smooth and even. It reaches the camp of the saints by a longer circuit, and most people take it. The
+  treatise's whole argument is that continence ranks above marriage, and it states this as settled
+  teaching, not contested doctrine. What we did not leave you is any household's own account of an
+  ordinary marriage from the inside. What we left is where our teachers ranked marriage, and why.
 positions:
 - marriage is treated as fully licit, not merely tolerated - the treatise''s own argument depends on
   conceding that remarriage after widowhood breaks no command
@@ -54,7 +55,7 @@ use_note:
     - "a claim that this ascetic treatise treats marriage neutrally on its own terms"
     - "a claim that the record gives any ordinary household's own account of marriage"
     - "a claim about dowry or money, which this treatise does not address"
-  years: {from: 377, to: 380}
+  years: {from: 377, to: 396}
   status: reviewed
 ---
 

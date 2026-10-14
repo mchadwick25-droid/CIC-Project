@@ -26,14 +26,12 @@ record id, or already-readable prose) - a participant saw a real name
 on a world whose quotes happened to be authored as prose, and a
 database key on a world whose quotes happened to be authored as figure
 ids, for a difference in authoring convention that has nothing to do
-with either world's actual content richness. engine.m2.builders.py's
-own _quote_speaker carries the identical note for the compiled
-prompt's own compact citation index; this module has full repository
-access (unlike that terser context) so it resolves a figure id through
-the SAME figure-label lookup a figure's own card uses, rather than a
-cruder id-to-slug fallback.
+with either world's actual content richness. This module has full
+repository access, so it resolves a figure id through the SAME
+figure-label lookup a figure's own card uses, rather than a cruder
+id-to-slug fallback.
 """
-from engine.prose import short_head, strip_name_taxonomy_tag
+from engine.prose import display_locus, short_head, strip_name_taxonomy_tag
 
 
 def _short_name(record: dict) -> str | None:
@@ -163,11 +161,17 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     for entry in record.get("sources") or []:
         source_id = entry.get("source_id")
         source_record = repository_records.get(source_id) or {}
+        if source_record.get("citation"):
+            sources.append({
+                "source_id": source_id, "citation": source_record["citation"], "author": None, "work": None,
+                "locus": display_locus(entry.get("locus") or "") or None, "rights_status": None, "edition": None,
+            })
+            continue
         candidate = {
             "source_id": source_id,
             "author": source_record.get("author"),
             "work": source_record.get("work"),
-            "locus": entry.get("locus"),
+            "locus": display_locus(entry.get("locus") or "") or None,
             "rights_status": source_record.get("rights_status"),
         }
         if any(_printable(v) for v in candidate.values()):

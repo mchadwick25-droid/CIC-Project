@@ -14,6 +14,7 @@ from dataclasses import dataclass, field
 
 QUOTE_INTERVAL = 3
 FIGURE_INTERVAL = 3
+MAX_PLACED_QUOTES_PER_REPLY = 1
 
 _WORDS_ASKED = re.compile(r"\b(say|says|said|put it|their own words|word for word)\b", re.IGNORECASE)
 _WORD_USE_ASKED = re.compile(r"\bhow\b.*\b(used|use|using)\b", re.IGNORECASE)
@@ -41,6 +42,16 @@ class RhythmTally:
         if self.figures_asked:
             return False
         return any(self.round_no - r < FIGURE_INTERVAL for r in self.figures_introduced.values())
+
+    def quote_placeable(self, record_id: str) -> bool:
+        """A quote record the conversation has not yet voiced in full. One
+        already voiced may be referred back to, never placed again."""
+        return record_id not in self.quotes_voiced
+
+    def story_retellable(self, record_id: str) -> bool:
+        """A story the conversation has not yet told. One already told may be
+        referred back to, never told again in full."""
+        return record_id not in self.stories_told
 
     def used_round(self, record_id: str) -> tuple[str, int] | None:
         """("voiced" | "told", round) for a quote or story the conversation already used."""

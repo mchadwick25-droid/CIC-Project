@@ -31,7 +31,7 @@ sources:
   locus: the rival consecration of Majorinus and the doubling of the see of Carthage
   license: public-domain
 - source_id: don.source.numidian-basilica-archaeology
-  locus: the physical footprint of a doubled church order in Numidia
+  locus: no excavation or site report is named for a doubled church order in Numidia
   license: public-domain
 retrieval:
   tier: 1
@@ -50,9 +50,9 @@ relations:
   target: don.term.primas
 - type: precondition-for
   target: don.term.concilium
-plain_meaning: Where our rival has a bishop, so do we. Two men claim one office over one city. It is a whole church
-  order, see for see, across Roman North Africa. At the great Conference at Carthage, 279 of our bishops sat facing
-  286 of theirs.
+plain_meaning: Where our rival had a bishop, so did we. Two men claimed one office over one city. It was
+  a whole church order, see for see, across Roman North Africa. At the great Conference at Carthage, 279
+  of our bishops sat facing 286 of theirs.
 world_word: episcopus
 false_friend:
 - a loose protest movement or a breakaway current without real institutional structure
@@ -69,9 +69,9 @@ senses:
     Beyond that bare fact the record thins fast -- what individual bishops were like, how they were chosen, what
     a small-town episcopate felt like from inside, survives mainly as Optatus''s and Augustine''s characterisation
     of opponents.'
-  personal: To hold this office is to hold a real, functioning charge that the state itself refuses to recognise
-    as one. Buildings were confiscated, clergy exiled, unity enforced by troops. Every see is held under continuing
-    legal jeopardy, and that is simply the ordinary condition of the office.
+  personal: To hold this office was to hold a real charge that the state refused to recognise. Buildings
+    were taken, clergy exiled, and unity enforced by troops. Every see was held under legal threat. That
+    was the ordinary condition of the office.
   translational: '''Wasn''t this a fringe movement with a few self-appointed leaders?'' -- 279 bishops facing
     286 in one room is not a fringe. It is one whole church answering another whole church, with its own primate,
     its own councils, and its own discipline for its own dissidents. The parallel is total, which is why there

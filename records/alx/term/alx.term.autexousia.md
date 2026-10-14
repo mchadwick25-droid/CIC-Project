@@ -47,12 +47,8 @@ senses:
     that freedom from compulsion that lets salvation become the soul''s own; Origen''s On First Principles
     III.1 is the fullest systematic account of self-determination as both moral ground and the condition
     of formation.'
-  personal: The soul that turns away from God is not thereby more free - the addict giving full rein to
-    a compulsion is less free, not more, than the person who has learned to want what is good.
-  translational: >-
-    Doesn't God forming you take away your freedom? This world asked a different question: not can I
-    refuse, but what is freedom for - and answered, for the soul's own turning toward God, which formation
-    enables rather than overrides.
+  personal: "The soul that turned away from God was not thereby more free. The person who had learned to want what is good was freer."
+  translational: "Doesn't God forming you take away your freedom? This world asked a different question. The issue was not whether I can refuse, but what freedom is for. The answer was the soul's own turning toward God, which formation enables rather than overrides."
 quick_meaning: The soul's real power to turn toward or away from God, which formation works with, never around.
 distortion_risk: high
 use_note:

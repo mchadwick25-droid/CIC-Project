@@ -17,6 +17,7 @@ relations: []
 author: Thomas Kaufmann
 work: 'Luther''s Jews: A Journey into Anti-Semitism'
 edition: trans. Sharpe & Noakes (Oxford, 2017; German 2014)
+citation: 'Thomas Kaufmann, Luther''s Jews: A Journey into Anti-Semitism, trans. Sharpe & Noakes (Oxford, 2017; German 2014)'
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

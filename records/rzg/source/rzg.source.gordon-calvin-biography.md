@@ -23,6 +23,7 @@ discovery_channel: Source_Registry.md row 11, added 2026-09-15; named in the cen
   verified directly against that field this pass; not checked against the actual book.
 external_ids:
   rzg_source_registry_row: 11
+citation: 'Bruce Gordon, Calvin (New Haven: Yale University Press, 2009)'
 kind: unvendored
 ---
 Author Gravity Assessment background for Calvin's own biography and Geneva ministry (Doc_02 SS2) - background only, not itself cited for any specific claim in this world's build. Consultation-only, per the census's own citation - not a candidate for cic/texts/ (in-copyright).

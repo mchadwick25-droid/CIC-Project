@@ -94,8 +94,9 @@ narrative_tier_justification: >-
   sources.
 tellable_as: >-
   Foreknowing his death, Martin goes to make peace among quarrelling clerics. He sickens, and refuses
-  straw for his bed of sackcloth and ashes rather than set his disciples a softer example. He is
-  carried to burial by two thousand monks, old men and young soldiers of Christ, and a choir of virgins.
+  straw for his bed of sackcloth and ashes rather than set his disciples a softer example. At his
+  funeral, it is said, nearly two thousand monks gather, old men and young soldiers of Christ, with a
+  choir of virgins.
 text: >-
   Sulpitius Severus wrote to Bassula, his mother-in-law, then living at Treves. She had complained that
   his earlier letter announcing Martin's death had not described the death itself. He tells her - with
@@ -155,7 +156,7 @@ modern_contrast: >-
   generation, a community that holds only the old to be legitimate memorializing itself in the present
   tense.
 use_note:
-  means: "Sulpitius tells Bassula that Martin, foreknowing his death, went to make peace at Condate, died refusing straw, and was buried by two thousand monks and a choir of virgins."
+  means: "Sulpitius tells Bassula that Martin, foreknowing his death, went to make peace at Condate, died refusing straw, and that, it is said, nearly two thousand monks and a choir of virgins gathered at his funeral."
   not_for:
     - "an eyewitness account, when Sulpitius disclaims being present"
     - "the later cult of Martin at Tours, which lies outside the window"

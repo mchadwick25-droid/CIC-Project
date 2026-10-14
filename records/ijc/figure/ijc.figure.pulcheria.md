@@ -31,9 +31,7 @@ dates:
   died: '453'
   floruit: Augusta 414; with Marcian from 450 the convening power behind Chalcedon 451
 narratable: true
-bridge_line: the empress the letter Anatolius of Constantinople sent to Leo names alongside Marcian as
-  "most pious and in all respects faithful" when the Definition was laid on Euphemia's altar - one of the
-  two women this world's record shows wielding real power over the church's own settlement
+bridge_line: "The empress named beside Marcian in Anatolius's letter to Leo. He calls her \"most pious and in all respects faithful.\" The Definition was laid on the altar at Euphemia's shrine. She and Justina are the two women the record shows with real power in the church's affairs."
 ---
 The record's second documented female political principal. Leo writes
 to her as a real convening power, not a courtesy addressee - the

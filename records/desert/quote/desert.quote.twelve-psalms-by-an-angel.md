@@ -40,24 +40,19 @@ text: "And when each man in proportion to his own fervour—and unmindful of the
   enunciated, he finished the twelfth with a response of Alleluia, and then, by his sudden
   disappearance from the eyes of all, put an end at once to their discussion and their service."
 modern_rendering: >-
-  Each man, in proportion to his own fervor, and unmindful of the
-  weakness of others, thought that whatever he judged easy by his own
-  faith and strength should be the rule. He took too little account of
-  what would be possible for the whole mass of the brethren, among whom a
-  great many are always weak. Each strove, in different degrees,
-  according to his own powers, to fix an enormous number of psalms. Some
-  were for fifty, others for sixty, and some, not content even with this
-  number, thought they ought to go beyond it. There was such a holy
-  difference of opinion in their pious discussion on the rule of their
-  religion that the time for evening prayer came before the sacred
-  question was decided. As they gathered to celebrate their daily
-  prayers, one rose up in the midst to chant the psalms to the Lord. They
-  were all sitting, as is still the custom in Egypt, with their minds
-  intently fixed on the words of the chanter. He chanted eleven psalms,
-  separated by prayers introduced between them, every verse evenly sung.
-  Then he finished the twelfth with a response of Alleluia. By his sudden
-  disappearance from the eyes of all, he put an end at once to their
-  discussion and their service.
+  In proportion to his own fervor, and unmindful of the weakness of others, each man judged by
+  his own faith and strength what was easy. He thought that should be the rule. He took too
+  little account of what would be possible for the whole mass of the brethren, among whom a
+  great many are always weak. Each strove, in different degrees, according to his own powers, to
+  fix an enormous number of psalms. Some were for fifty, others for sixty, and some, not content
+  even with this number, thought they ought to go beyond it. Their pious discussion on their
+  religious rule brought such a holy difference of opinion that evening prayer came before the
+  sacred question was decided. As they were about to celebrate their daily rites and prayers,
+  one rose up in the midst to chant the psalms to the Lord. They were all sitting, as is still
+  the custom in Egypt, with their minds intently fixed on the words of the chanter. He chanted
+  eleven psalms, separated by prayers introduced between them, every verse evenly sung. Then he
+  finished the twelfth with a response of Alleluia. By his sudden disappearance from the eyes of
+  all, he put an end at once to their discussion and their service.
 speaker_or_author: John Cassian, reporting a story told among the Egyptian elders
 license: verbatim
 modern_lens_note: >-

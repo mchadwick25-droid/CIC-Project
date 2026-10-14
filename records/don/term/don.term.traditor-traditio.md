@@ -27,7 +27,7 @@ sources:
   locus: the Acta Purgationis Felicis (314) -- the founding accusation against Felix of Aptungi
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
-  locus: Petilian's own quoted proposition on the conscience of the giver (verified against npnf104)
+  locus: Petilian's own quoted proposition on the conscience of the giver
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
   locus: Books I-II on the 311/312 consecration of Caecilian
@@ -55,9 +55,9 @@ relations:
   target: don.term.episcopus
 - type: associated-with
   target: don.term.reception-without-reordination
-plain_meaning: When the persecutor came, some clergy handed the scriptures over to be burned. We call such a man
-  a traditor. His hand is no longer clean. He cannot ordain, baptize, or bless. What flows from that hand is nothing
-  at all.
+plain_meaning: When the persecutor came, some clergy handed the scriptures over to be burned. We called
+  such a man a traditor. We held that his hand was no longer clean, and that he could not ordain, baptize,
+  or bless. What flowed from that hand was nothing at all.
 world_word: traditor / traditio
 false_friend:
 - traitor in the modern political sense -- a spy, a turncoat, a betrayer of a nation
@@ -75,9 +75,9 @@ senses:
     What is Augustine-mediated is the argumentative texture -- the step-by-step reasoning as this record can now
     reconstruct it. Optatus''s Appendix supplies the Felix documents, and Doc_02 SS1 places even those inside
     the Author-Gravity concentration, since Optatus chose what to include and how to frame it.'
-  personal: 'This is not vindictiveness toward one long-dead man. It is the ordinary believer''s own question
-    at the font, asked in public: whose hands are these, and what stands behind them? A man who gave up the scriptures
-    to save himself showed, in the one moment that tested him, what his hand was worth.'
+  personal: 'We were not vindictive toward one long-dead man. The question was the ordinary believer''s
+    own at the font, asked in public: whose hands are these, and what stands behind them? A man who gave
+    up the scriptures had shown, in the one moment that tested him, what his hand was worth.'
   translational: A modern hearer asks, 'why not just forgive him and move on?' -- but forgiveness of the man was
     never the question here. The question was whether his hand could still give what he claimed to give, and a
     whole century of baptisms and ordinations hangs on the answer. To waive the charge would concede that a sacrament

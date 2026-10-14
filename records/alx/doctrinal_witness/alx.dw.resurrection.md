@@ -26,12 +26,12 @@ retrieval:
 text: >-
   For the resurrection, we pointed first to what we could see: lives.
   Origen answered the pagan critic Celsus point by point, and he pointed
-  to the disciples themselves. Men who ran away at the arrest went to
-  their deaths proclaiming what they said they saw, and gained nothing
-  on earth by it. No made-up story produces that change - that was
-  Origen's argument. Athanasius, a century later, added the argument of
-  present power: the dead do not inspire the living to die without fear.
-  The martyrs' contempt for death was, to him, the risen Christ's
+  to the disciples themselves. Men who ran away at the arrest went on to
+  teach a doctrine that put their lives in danger, and they taught it
+  with courage. No made-up story produces that change - that was
+  Origen's argument. Athanasius, in the next century, added the argument
+  of present power: the dead do not inspire the living to die without
+  fear. The martyrs' contempt for death was, to him, the risen Christ's
   continuing signature. We did not have modern history-writing, and we
   did not pretend to. Our ground was testimony we judged trustworthy -
   sealed by the witnesses' blood (martys, our own word for martyr, means
@@ -49,7 +49,7 @@ relations:
 - type: associated-with
   target: alx.quote.a-doctrine-they-would-not-have-taught
 use_note:
-  means: "This witness says the resurrection was argued from lives: Origen's case from the disciples' fearless deaths and Athanasius's from the martyrs' contempt for death."
+  means: "It says Origen pointed to how brave the disciples were, and Athanasius to how martyrs met death."
   not_for:
     - "modern historical proof, which the record says this world did not claim"
     - "a claim that the argument settled the matter, when its first target, Celsus, contested it"

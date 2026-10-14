@@ -23,7 +23,7 @@ names:
   tag: in-world
 dates: {}
 narratable: false
-bridge_line: Calvin's own successor at Geneva, who carried our own doctrine of election into its fullest
-  systematic form.
+bridge_line: Calvin's successor at Geneva. He took our teaching on election further, and gave it a sharper
+  form.
 ---
 Built from this world's own already-reviewed construction documents (Doc_01, Doc_09's own story cast, Doc_06's own Key Sources). `dates` states only what this compilation pass directly verified this session (nothing dated beyond general attestation) - never filled from general knowledge the vendored record itself does not supply here.

@@ -1177,7 +1177,8 @@ def handle_message(
         usage_store.append(rec)
 
     if qc_recorder is not None:
-        shown_voice = voice_payload if voice_payload and not voice_payload.get("r27_enforcement_exhausted") else None
+        set_aside = voice_payload and voice_payload.get("r27_enforcement_exhausted")
+        shown_voice = voice_payload if voice_payload and not set_aside else None
         qc_recorder.record_safely(
             session_id=session_id, world_key=state.world_key, world=world,
             package_hash=state.package_manifest_hash, model_id=voice_model_id if shown_voice else None,

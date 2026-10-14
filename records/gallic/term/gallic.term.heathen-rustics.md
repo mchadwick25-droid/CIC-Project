@@ -66,8 +66,8 @@ relations:
 - type: associated-with
   target: gallic.term.the-world-secular
 plain_meaning: >-
-  At Tours, the unconverted countryside of Gaul. It was Martin's mission field. There he halted the
-  veiled idols, burned temples, felled a sacred pine, and built churches where they fell.
+  At Tours, the unconverted countryside of Gaul. It was Martin's mission field. There he burned
+  temples, felled a sacred pine, and built churches where the temples had stood.
 world_word: heathen / rustics ("the Gallic rustics in their wretched folly")
 false_friend:
 - '"pagan" as a neutral religious identity to be respected'
@@ -100,11 +100,11 @@ senses:
     field where the saint's power was shown and the name of Christ made to prevail - and the south
     has no such field at all.
 quick_meaning: >-
-  At Tours, the unconverted countryside - the mission field where Martin halted idols, burned
-  temples, and built churches in their place. Where almost none had the name of Christ.
+  At Tours, the unconverted countryside - the mission field where Martin burned temples and built
+  churches in their place. Where almost none had the name of Christ.
 distortion_risk: medium
 use_note:
-  means: "Heathen rustics meant, at Tours, the unconverted Gallic countryside where Martin halted idols, burned temples and built churches where they fell."
+  means: "Heathen rustics meant, at Tours, the unconverted Gallic countryside where Martin burned temples and built churches where the temples had stood."
   not_for:
     - "pagan as a neutral identity, or temple burning as intolerance to be judged"
     - "Gaul as already Christian by the fourth century"

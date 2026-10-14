@@ -35,25 +35,24 @@ narrative_tier_justification: 'Tier 3 (attributed/hagiographic narrative), settl
   individuals - which by the tier criteria excludes Tier 4 regardless of how thin their
   historical confidence is; evidence of what this world believed formation could look
   like, never of events.'
-tellable_as: the desert hero-tales Bethlehem wrote - Malchus the captive and Hilarion the
-  wonder-worker - told as the stories we told, not as history
-text: 'At Bethlehem, between translations, the scholar wrote adventure stories - holy
-  ones. He told of Malchus, a monk carried off by desert raiders, enslaved, forced into a
-  marriage he would not consummate, who fled across the river on inflated skins and hid
-  in a cave while a lioness dispatched his pursuer - and came home still chaste. He told
-  of Hilarion, who took the desert discipline to Palestine and could not outrun his own
-  fame - crowds, miracles, demons shrieking out of the possessed - a hermit hunted by
-  admirers from Gaza to Sicily to Cyprus, seeking only to be left alone with God. These
-  were written to be read aloud, wept over, imitated. Our people knew Roman
-  romances; these were our answer - the same thrills, aimed at heaven. Whether the
-  adventures happened is another matter, and even in that day some asked.'
+tellable_as: the hero-tales written at Bethlehem about Malchus, a captive monk, and Hilarion,
+  a wonder-worker. They are the stories we told, and we make no claim that each event happened.
+text: At Bethlehem, between translations, the scholar wrote two lives of holy men, full of
+  adventure. He told of Malchus, a monk carried off by desert raiders and enslaved. His master
+  forced a marriage on him that he would not consummate. He fled across the river on inflated
+  skins. He hid in a cave while a lioness killed the master who followed him. He came home
+  still chaste. He told of Hilarion, who took the desert discipline to Palestine and could
+  not outrun his own fame. There were crowds, miracles, demons shrieking out of the possessed.
+  Admirers hunted the hermit from Gaza to Sicily to Cyprus, and he wanted only to be left
+  alone with God. Jerome closed the tale of Malchus by calling it a history of chastity for
+  the chaste. Whether every adventure happened is another matter. 
 absent_detail: 'Nearly everything, by design: these are consciously literary productions
   giving Latin Christianity its own desert-hagiographic genre, with acknowledged
   legendary elements; the historical reliability of the specific events is thin, and this
   telling frames them as the world''s own storytelling, never as biography.'
 modern_contrast: 'A modern reader often hears these as reported biography - real adventures that happened to real, named men. This world''s own record frames it differently: these are consciously literary hagiographic romances, this world''s own answer to the popular romance genre aimed instead at heaven, valuable as evidence of what formation could be imagined to look like, never as history.'
 use_note:
-  means: "Jerome's hagiographic romances of Malchus and Hilarion, evidence of what this world imagined formation could look like and not of events."
+  means: "Jerome's lives of Malchus and Hilarion, which show what this community imagined a formed life could look like; whether each event happened is left open."
   not_for:
     - "presenting the adventures as biography or history"
     - "treating Malchus or Hilarion's deeds as documented"

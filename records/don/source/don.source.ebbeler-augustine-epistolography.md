@@ -21,6 +21,7 @@ author: Jennifer Ebbeler
 work: Work on Augustine's epistolography, general -- no specific title is named in the Source Registry
 edition: No specific edition named; consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3)
+citation: Jennifer Ebbeler, work on Augustine's epistolography
 kind: unvendored
 rights_status: "in-copyright modern scholarship; consultation-only, never vendored. Cited and paraphrased, never quoted as licensed vendored material - a bibliographic record only"
 attribution_status: attributed

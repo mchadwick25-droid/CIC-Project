@@ -43,10 +43,8 @@ text: >-
   the ordination, and the teacher with it. Origen left Alexandria for
   Caesarea, around his forty-sixth year, and never taught in the city again.
   The church kept both memories: the office that had to be honored, and the
-  teacher whose like it never had again. What each man said, and with what
+  teacher. What each man said, and with what
   heart, the record does not let us hear. What remains is the wound itself.
-  The school's most fruitful period was ended, not by persecution from
-  outside, but by conflict inside the household.
 absent_detail: Nearly every particular reaches us through Eusebius's selection, and he is an interested
   narrator (an admirer of Origen, hostile to Demetrius's memory). The inner motives of both men are unrecoverable;
   this telling deliberately refuses them. The synodal documents are lost.

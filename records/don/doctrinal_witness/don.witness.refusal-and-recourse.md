@@ -20,10 +20,10 @@ confidence:
     own divergence_note.
 sources:
 - source_id: don.source.optatus-against-donatists
-  locus: Book III, line 1904 of cic/texts/optatus_against-the-donatists.txt (the English translation), Donatus's own reported retort ('What has the Emperor to do with the Church?')
+  locus: Book III, ch. 3 - Donatus's reported retort ('What has the Emperor to do with the Church?')
   license: public-domain
 - source_id: don.source.ziwsa-critical-edition-optatus
-  locus: Book III, line 6557 of cic/texts/optatus_libri-vii-critical_ziwsa1893.txt (the Latin original, corrupted by OCR at this line), the retort 'Quid est imperatori cum ecclesia?'
+  locus: Book III - the Latin original of the same retort, 'Quid est imperatori cum ecclesia?'
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
   locus: Anulinus's own relatio, the 313 petition to Constantine
@@ -48,7 +48,7 @@ positions:
   to accept as one.'
 - 'And yet we will not pretend we never turned to that same power ourselves. In 313 we brought our own
   case to Constantine, through the governor Anulinus. In 361 we asked Julian to give us back basilicas
-  that had been taken from us. And in the 390s we invoked that same emperor''s own law against our own
+  that had been taken from us. And in the 390s we invoked the imperial law against heretics on our own
   Maximianist dissidents. Three times, at three real moments, we used the very machinery whose standing
   to judge us we otherwise deny. We do not call this a betrayal of our own principle. We call it what
   it plainly is: a refusal, held as our settled posture, with three named exceptions where it served our
@@ -58,16 +58,20 @@ tensions:
   not really us.'' Both are true at once, plainly stated, in the same record: the emperor has no standing
   to judge us, and three times we asked him to rule in our favor anyway. We hold both, because our own
   record holds both, and we would rather you see the whole of it than a tidier half.'
-text: 'The emperor has no standing to judge us. Our primate put it in one line: "What has the Emperor to do with the Church?" We still say it.
-  The state has ruled against us more than once, and a ruling
-  from a power with no standing to judge the question is no verdict at all. But we will tell you plainly
-  what our own record also holds: three times, we went to that same power ourselves, when it served our
-  case to do so -- once petitioning the emperor himself for a hearing, once asking a different emperor
-  for our seized buildings back, once using that same emperor''s own law against our own dissidents. We
-  do not call ourselves inconsistent for this, and we do not call it a secret. Refusal is our settled
-  stance. The three times we set it aside are named in the same breath as the stance itself, because that
-  is what our own history actually holds -- not a rule kept perfectly, but a rule stated honestly, exceptions
-  and all.'
+text: >-
+  We held that the emperor had no standing to judge us. Our primate is
+  reported to have said as much in one line when the emperor's almoners
+  came to Carthage: "What has the Emperor to do with the Church?" It
+  reaches us only in a book written against us. The state ruled against
+  us more than once. We held that a ruling from a power with no standing
+  to judge the question was no verdict at all. But our own record also
+  shows that three times we went to that same power ourselves, when it
+  served our case. Once we petitioned the emperor himself for a hearing.
+  Once we asked a different emperor for our seized buildings back. Once
+  we used the imperial law against heretics on our own dissidents. No
+  account survives of how we explained those three times to ourselves.
+  We do not hide them. Refusal was our settled stance, and the three
+  exceptions stand beside it in the record.
 use_note:
   means: "In a Donatist voice, denying the emperor standing to judge the church is the settled stance, and the three recourses of 313, 361 and the 390s are owned openly in the same breath."
   not_for:

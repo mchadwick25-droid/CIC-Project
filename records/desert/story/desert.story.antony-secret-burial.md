@@ -29,33 +29,29 @@ relations:
   target: desert.figure.antony
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative): named author (Athanasius), composed within a few years of Antony's death, from an account he says he received from the two attendants who were present - one of whom later gave Athanasius one of Antony's two sheepskins, a detail the Vita itself uses to vouch for its own source. Matches desert.story.antony-call's own basis for material from the same Vita."
-tellable_as: "the desert's most famous monk gives one last order: hide my body so well that no one, not even you, can ever turn me into a shrine"
+tellable_as: 'Antony''s last order: bury me in secret, and let no one but you two know the place'
 text: >-
-  Near the end of his life, Antony made one last visit to the monks who
-  lived on the outer mountain. He told them plainly: this is the last time
-  you will see me. I am near a hundred and five years old, and my time is
-  close. He urged them to keep up their discipline, to live as though dying
-  daily, and to have nothing to do with the Meletian schismatics or the
-  Arian heretics. Then he went back to the inner mountain, where he had
-  lived for decades, and within a few months he grew sick.
+  Near the end of his life, Antony made one last visit to the monks who lived on the outer
+  mountain. He told them: this is my last visit to you, and I would be surprised if we saw each
+  other again in this life. I am near a hundred and five years old. He urged them to keep up
+  their discipline, to live as though dying daily, and to have nothing to do with the Meletian
+  schismatics or the Arian heretics. Then he went back to the inner mountain, where he was used
+  to living, and within a few months he grew sick.
 
-  Antony had one more instruction to give, and it mattered to him more than
-  almost anything else. In Egypt at that time, people often kept the
-  bodies of holy men in their own houses, wrapped in linen and laid out on
-  couches, instead of burying them in the ground. Antony hated this custom
-  and had spent years urging bishops and ordinary people to give it up. He
-  was afraid the same thing would be done to his own body. So he called the
-  two monks who had lived with him and cared for him for fifteen years, and
-  gave them exact orders. Bury me yourselves, he told them, and hide my
-  body in the ground. Let no one know the place but the two of you alone.
-  He divided his few belongings between them: one sheepskin and the cloak
-  he was lying on for the bishop Athanasius, the other sheepskin for the
-  bishop Serapion, and his rough hair garment for the two attendants
+  Antony had one more instruction to give. In Egypt at that time, people often kept the bodies
+  of holy men in their own houses, wrapped in linen and laid out on couches, instead of burying
+  them in the ground. Antony had often urged bishops and ordinary people to give this custom up,
+  saying it was neither lawful nor holy. He was afraid the same thing would be done to his own
+  body. So he called the two monks who had lived with him and cared for him for fifteen years,
+  and gave them exact orders. Bury me yourselves, he told them, and hide my body in the ground.
+  Let no one know the place but the two of you alone. He divided his few belongings between
+  them: one sheepskin and the cloak he was lying on for the bishop Athanasius, the other
+  sheepskin for the bishop Serapion, and his rough hair garment for the two attendants
   themselves.
 
-  When he died, the two men did exactly as he had asked. They wrapped his
-  body and buried it in the ground, and to this day, Athanasius writes, no
-  one knows where - except those two men alone.
+  When he died, the two men did exactly as he had asked. They wrapped his body and buried it in
+  the ground, and to this day, Athanasius writes, no one knows where - except those two men
+  alone.
 absent_detail: "The two attendants are never named, and no account survives in their own words of how they experienced carrying out this instruction, or of the years afterward when they alone knew where the desert's most famous monk was buried. Later traditions claim the site was 'discovered' in 561 and the body eventually moved to Alexandria and then France - traditions that fall outside this world's own c. 320-430 window and that the Vita's own instructions would seem to rule out."
 modern_contrast: "A modern reader is used to founders and famous figures being remembered through monuments, gravesites, or preserved remains open to visitors. This world's own record shows the opposite impulse taken to its extreme: a founder who used his last authority to make sure no monument, grave, or relic could ever be built, precisely because he thought that kind of memory got in the way of the very discipline he had spent his life teaching."
 use_note:

@@ -17,6 +17,7 @@ relations: []
 author: Johann Aurifaber (Goldschmid)
 work: Testimony… concerning Luther's Divine Discourses
 edition: and dedicatory preface (Eisleben, 1569), as printed in Bell/Morley; vendored as cic/texts/luther_table-talk_bell1886.txt
+citation: Johann Aurifaber (Goldschmid), Testimony… concerning Luther's Divine Discourses and dedicatory preface (Eisleben, 1569), as printed in Bell/Morley
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

@@ -25,7 +25,10 @@ names:
 dates:
   display: "r. 364-378; divided Cappadocia into two provinces in 372; died at the Battle of Adrianople, 378"
 narratable: true
-bridge_line: "The emperor who favored a different creed, divided Basil's own province, and - this world's own record claims - was undone by what he saw at one Epiphany liturgy."
+bridge_line: >-
+  The emperor who backed a different creed and split Basil's province in
+  two. Gregory's speech for Basil says the sight of one feast-day service
+  shook him.
 relations:
 - type: associated-with
   target: cappadocian.story.valens-caesarea

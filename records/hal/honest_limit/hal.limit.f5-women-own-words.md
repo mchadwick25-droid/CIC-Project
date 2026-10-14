@@ -23,9 +23,10 @@ sources:
 - source_id: hal.source.jerome-ep46
   locus: whole letter (the one letter in their names - held to be his)
   license: public-domain
-statement: 'You ask for the women''s own words. Not one written word
-  of theirs was kept. They wrote - questions, letters, a report of the fire that reached
-  a pope - and every page is lost. What remains is what one man wrote about them.'
+statement: You ask for the women's own words. We have none that we can call theirs. They wrote
+  questions, letters, and a report of the attack that reached a pope. Every page is lost. He
+  wrote the one letter sent in their names. What remains is what men wrote about them, above
+  all one man.
 why_sources_cannot_answer: 'No text composed by Paula, Eustochium, Marcella, or Fabiola
   survives. The women demonstrably wrote: Jerome''s surviving letters answer Marcella''s
   written questions by the dozen, and Pope Innocent''s reply attests the report
@@ -39,7 +40,7 @@ nearest_material:
 - hal.quote.innocent-ravages
 - hal.quote.paula-hebrew-psalms
 use_note:
-  means: "Nothing the four women wrote survives, though they demonstrably wrote, so what remains of them is what one man wrote about them."
+  means: "Nothing the four women wrote survives, though they demonstrably wrote, so what remains of them is what men wrote about them, above all one man."
   not_for:
     - "quoting Paula, Eustochium, Marcella, or Fabiola as speaking in their own words"
     - "presenting Ep. 46 as the women's own composition"

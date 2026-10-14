@@ -48,10 +48,8 @@ senses:
     participate in Christ would be to participate in a mere creature. The "grace and participation, not
     by nature" qualifier comes not from De Inc. 54 itself but from Contra Arianos I.37-38, where sonship
     "by participation" and "by grace" is contrasted with being a son "by nature."'
-  personal: Never solitary - the soul shares in Christ through the community, most bodily at the Eucharist,
-    which enacts what participation names.
-  translational: '''Isn''t that just closeness to God?'' - no; this world meant a branch drawing its life
-    from the vine, not a branch merely propped against it.'
+  personal: "Never alone: the soul shared in Christ with the whole community."
+  translational: "'Isn't that just closeness to God?' - no; this world meant real sharing in God's life, not mere nearness to it."
 quick_meaning: Real sharing in God's own life, not mere nearness to it.
 distortion_risk: high
 use_note:

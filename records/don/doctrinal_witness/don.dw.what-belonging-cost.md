@@ -36,8 +36,8 @@ sources:
   locus: XVI, 5, 52 (412 Ian. 30) - circumcelliones argenti pondo decem
   license: public-domain
 - source_id: don.source.passio-isaac-et-maximiani
-  locus: Macrobius writing to his own congregation at Carthage about two of their number, and closing
-    by telling them the same may be asked of any of them
+  locus: Macrobius writing to the church at Carthage about two of their number, and
+    closing by urging them to hurry after the two
   license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
   locus: three hundred and ten bishops gathered at Bagai from across the African provinces
@@ -60,19 +60,16 @@ text: >-
   them down. Our buildings were confiscated. Our clergy were exiled. An
   edict of unity was issued against us and enforced. Later legislation
   fined people by rank for belonging to us, on a sliding scale - and our
-  own country members were assessed at ten pounds of silver - and of all
-  the ranks that law fines ten pounds, ours is the only one reckoned in
-  silver rather than gold. Somebody in an
-  imperial office worked out what we were worth and set a price on us,
-  and the document survives.
+  own country members were assessed at ten pounds of silver - and ours
+  is the only rank that law reckons in silver rather than gold. Somebody
+  in an imperial office worked out what we were worth and set a price on
+  us, and the document survives.
 
 
-  And now and then it cost everything. A bishop of ours wrote to his own
-  congregation at Carthage about two of their number who had been
-  flogged to death and whose bodies the proconsul had weighted and sunk
-  in the sea so that nobody could venerate them. He did not end the
-  letter with consolation. He ended it by telling the people reading it
-  that what happened to those two might yet be asked of any of them.
+  And now and then it cost everything. A bishop of ours wrote to the
+  church at Carthage about two of their number who had been tortured and put to death, one in prison and one drowned alive, and whose bodies the proconsul had weighted and sunk in the sea so that nobody could venerate them. He ended it by turning
+  to the people reading it. The two were waiting for them, he wrote, and
+  they should hurry to follow.
 
 
   What we cannot give you is the smaller ledger: what belonging cost
@@ -86,32 +83,30 @@ text: >-
   One piece of it we can give you, because we wrote it ourselves and
   still read it aloud. After soldiers took a basilica at Carthage and
   killed people at prayer inside it, our own sermon does not stop at the
-  killing. It says that afterward, running among the bodies of the slain,
-  family devotion hastened to make out each dead face - and that children
-  found their parents lying there, and parents their children. Nobody is named.
-  We do not know how many, or which families, or what became of them
-  after that day. But that is not the same gap as the one above: this
-  is family grief we set down in our own voice and kept reading every
-  year, not silence.
+  killing. It says that afterward, running among the bodies of the
+  slain, family devotion hastened to make out each dead face - and that
+  children found their parents lying there, and parents their children.
+  Nobody is named. We do not know how many, or which families, or what
+  became of them after that day. But that is not the same gap as the one
+  above: this is family grief we set down in our own voice and kept
+  reading every year, not silence.
 
 
-  What held us together across distance was ordinary and physical. We
-  met: three hundred and ten of our bishops in one place in one year,
-  and two hundred and seventy-nine of them in another room seventeen
-  years later, gathered from provinces that took weeks to cross. We
-  wrote: bishop to bishop, and bishop to congregation, and enough of
-  those letters were read into a court record for you to see how the
-  network actually worked. And we kept days. On a fixed date, in towns
-  that had no other contact with each other, the same account of the
-  same death was being read aloud at the same time. For someone far from
-  everyone they love, that is what we would have offered - not a feeling
-  of connection, but a date, and a thing that happens on it whether you
-  are there or not.
+  No text of ours says what held us together across distance. The record
+  shows three ordinary, physical things. We met: three hundred and ten
+  of our bishops in one place in one year, and by one count two hundred and
+  seventy-nine of our bishops in another room seventeen years later,
+  gathered from across the African provinces. We wrote: bishop to
+  bishop, and bishop to congregation, and enough of those letters were
+  read into a court record for you to see how the network worked. And we
+  kept days. Our sermon was preached on the yearly day of the Carthage dead, the twelfth of
+  March. For someone far from
+  everyone they love, that was a date, and something that happened on it
+  whether you were there or not.
 positions:
 - 'the institutional cost is documented from the state''s own side: confiscated buildings, exiled clergy, an
   edict of unity, and fines graded by rank, with our own country members assessed at ten pounds of silver'
-- at intervals the cost was death, and our own bishop's letter about it closes by telling the congregation
-  the same may be asked of any of them
+- at times the cost was death. Our own bishop's letter about it ends by urging the readers to follow the two, who waited for them
 - our own commemorative sermon records family-level grief directly - kin searching the dead for each
   other after the Carthage massacre - though it names no one and gives no number
 - what held us together across distance was ordinary and physical - large councils, working correspondence

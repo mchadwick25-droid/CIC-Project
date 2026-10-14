@@ -34,20 +34,18 @@ narrative_tier_justification: "Tier 3 (attributed tradition), matching pahc.stor
 tellable_as: >-
   Before the letter praises Polycarp's own courage, it names a different man first. He came forward
   for trial on his own. Then he lost his nerve, when he actually saw the beasts.
-text: >-
-  This is how the community at Smyrna told it, in the same letter that honors Polycarp's own death.
-  Before that letter praises him, it names someone else first. A man named Quintus, a Phrygian who
-  had lately come to the city, forced himself - and some others with him - to come forward for trial
-  of his own will. But when he actually saw the wild beasts, he lost his nerve. After much urging, the
-  proconsul persuaded him to swear the oath and offer sacrifice. The community's own letter draws the
-  lesson plainly, without softening it: "we do not commend those who give themselves up, since the
-  Gospel does not teach so." Polycarp did the opposite. When he first heard that he was being sought,
-  he was not troubled at all. At his own community's urging, he agreed to leave the city for a quiet
-  house in the country, where he spent his last days praying. He did not go looking for arrest. He was
-  found only after two young men in his own household were seized. One of them, tortured, told his
-  pursuers where he was. The letter sets these two men side by side on purpose. One went looking for
-  the test, and failed it. The other simply kept living faithfully, was found where he was, and held
-  firm once he was.
+text: 'This is how the community at Smyrna told it, in the same letter that honors Polycarp''s own death.
+  Before that letter praises him, it names someone else first. A man named Quintus, a Phrygian who had
+  lately come from Phrygia, forced himself - and some others with him - to come forward for trial of his
+  own will. But when he actually saw the wild beasts, he lost his nerve. After much urging, the proconsul
+  persuaded him to swear the oath and offer sacrifice. The community''s own letter draws the lesson plainly,
+  without softening it: "we do not commend those who give themselves up [to suffering], seeing the Gospel
+  does not teach so to do." Polycarp did the opposite. When he first heard that he was being sought, he
+  was not troubled at all. At his own community''s urging, he agreed to leave the city for a quiet house
+  in the country, where he spent his last days praying. He did not go looking for arrest. He was found
+  only after two young men in his own household were seized. One of them, tortured, told his pursuers
+  where he was. The letter places these two accounts side by side. One went looking for the test, and
+  failed it. The other simply kept living faithfully, was found where he was, and held firm once he was.'
 absent_detail: "Quintus's own account of what led him to come forward, or of what he felt when his nerve broke, does not survive. Only the community's judgment of the act is recorded, never his own words."
 modern_contrast: >-
   A modern reader often hears a martyr story as a simple call to imitate all-out courage. This

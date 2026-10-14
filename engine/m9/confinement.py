@@ -248,7 +248,32 @@ def gate_shelf_confidence(records: dict, shelf: Shelf) -> list[str]:
     return findings
 
 
+# Build-process text that must never reach a participant on a source line.
+_CITATION_BUILD_TEXT = re.compile(
+    r"\bDoc_\d|project lead|\bvendored\b|cic/|\b20\d\d-\d\d-\d\d\b|\bSS\d|\bverified\b|consultation-only"
+    r"|\.(?:xml|txt)\b|\bfile lines? \d",
+    re.IGNORECASE,
+)
+
+
+def gate_source_citation(records: dict, shelf: Shelf) -> list[str]:
+    """Every source record carries `citation`, the one line a participant
+    reads for it on a citation card and the public site, and that line
+    carries no build text."""
+    findings = []
+    for rid, rec in records.items():
+        if rec.get("record_type") != "source":
+            continue
+        citation = str(rec.get("citation") or "").strip()
+        if not citation:
+            findings.append(f"{rid}: no citation, so its source line shows author, work and rights_status as written")
+        elif (hit := _CITATION_BUILD_TEXT.search(citation)) is not None:
+            findings.append(f"{rid}: citation carries build text ({hit.group(0)!r})")
+    return findings
+
+
 CHECKS = {
+    "source-citation": gate_source_citation,
     "source-kind": gate_source_kind,
     "shelf-row": gate_shelf_row,
     "emic-vendored-only": gate_emic_vendored_only,

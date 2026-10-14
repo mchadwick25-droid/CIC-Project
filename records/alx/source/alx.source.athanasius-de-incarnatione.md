@@ -16,6 +16,7 @@ sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
 work: "De Incarnatione Verbi Dei (On the Incarnation of the Word)"
 edition: "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+citation: Athanasius of Alexandria, De Incarnatione Verbi Dei (On the Incarnation of the Word), trans. Archibald Robertson, Nicene and Post-Nicene Fathers ser. 2 vol. 4 (1892)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

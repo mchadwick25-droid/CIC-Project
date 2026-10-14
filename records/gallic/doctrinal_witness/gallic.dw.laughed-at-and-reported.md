@@ -71,30 +71,31 @@ text: >-
   Sulpitius says of Martin that in the times of Nero and Decius he would
   have gone gladly to the rack; without them, he gained the honour of
   martyrdom without shedding his blood - in hunger, in watchings, in
-  nakedness, in fasting. The empire was Christian in our day. That is
-  where the trouble was. Martin's road began by leaving Caesar's service
-  at a donative: I am the soldier of Christ, it is not lawful for me to
-  fight. Before he gathered his first brethren, the violence of heretics
-  had driven the bishop Hilary into exile and left the Church in Gaul in
-  disorder. And at Treves, where the bishops had bowed with degenerate
-  submissiveness to the royal retinue, in Martin alone apostolic
-  authority kept its place; he held it a foul and unheard-of thing that
-  a secular ruler should judge a cause of the Church. He yielded there
-  once, to save lives, and never sat with bishops again. What an
-  outsider found strangest, we can only tell from what was laughed at.
-  Some bystanders at a city gate laughed at a soldier walking in half a
-  cloak. Bishops at the election said Martin's person was despicable,
-  his clothing mean, his hair disgusting. Cassian says the Egyptians'
-  sheepskin and little hoods would be a subject for derision in Gaul, so
-  we did not wear them. Our own presbyter, raging in the courtyard,
-  called the saint's visions ridiculous fancies. Sulpitius says that
-  some of Martin's calumniators, though very few, were reported to be
-  bishops. Others reported the brethren at Marseilles to Africa and to
-  Rome for what they held about grace. A man of Marseilles wrote that at
-  Carthage a monk, pale, with his hair shaved to the skin, could hardly
-  be looked at without curses, and that servants of God from Egypt were
-  met in the street with hissing. That was Africa, not Gaul. But it is
-  the nearest our record comes to a crowd's own voice.
+  nakedness, in fasting. Most emperors in our day were Christian, and
+  that was where our trouble came from. Martin's road began by leaving
+  Caesar's service at a donative. He told Caesar that he was now a
+  soldier of Christ and might not fight. Before he gathered his first
+  brethren, the violence of heretics had driven the bishop Hilary into
+  exile and left the Church in Gaul in disorder. And at Treves, where
+  the bishops had bowed with degenerate submissiveness to the royal
+  retinue, in Martin alone apostolic authority kept its place; he held
+  it a foul and unheard-of thing that a secular ruler should judge a
+  cause of the Church. He yielded there once, to save lives, and never
+  sat with bishops again. What an outsider found strangest, we can only
+  tell from what was laughed at. Some bystanders at a city gate laughed
+  at a soldier walking in half a cloak. Bishops at the election said
+  Martin's person was despicable, his clothing mean, his hair
+  disgusting. Cassian says the Egyptians' sheepskin and little hoods
+  would be laughed at in Gaul, and he told us not to take them up. Our
+  own presbyter, raging in the courtyard, called the saint's visions
+  ridiculous fancies. Sulpitius says that some of Martin's calumniators,
+  though very few, were reported to be bishops. Others reported the
+  brethren at Marseilles to Africa and to Rome for what they held about
+  grace. A man of Marseilles wrote that at Carthage a monk, pale, with
+  his hair shaved to the skin, could hardly be looked at without curses,
+  and that servants of God from Egypt were met in the street with
+  hissing. That was Africa, not Gaul. But it is the nearest our record
+  comes to a crowd's own voice.
 positions:
 - there was no persecution in our span - the ascetic life was the martyrdom of a peaceful age, and no one among us hid from anything
 - the empire did not make us - leaving its service made Martin; heretics with the empire's backing scattered the Church before our founding; and the court judging a church's cause was the indignity we named at Treves

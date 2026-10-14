@@ -36,3 +36,10 @@ export const pilotCopy = {
   addressLimit: 'This connection has already taken the free packs the pilot allows.',
   failed: "We couldn't get your pack. Try again from the pilot page.",
 };
+
+export const askAgainCopy = {
+  body: 'You asked this earlier in this conversation. Ask it again? It will use tokens.',
+  bodyFree: 'You asked this earlier in this conversation. Ask it again?',
+  ask: 'Ask again',
+  decline: "Don't ask",
+};

@@ -45,16 +45,16 @@ modern_contrast: >-
   at their hands and stopped worrying.
 text: 'Domitian was told that some of Jesus'' own family were still alive - grandsons of Judas, who was
   called his brother - and that they were of the line of David. That was the part that mattered to him:
-  he feared a claimant, the way Herod had. So they were brought to Rome and questioned. Were they of
-  David''s family? They said they were. What did they own? They answered that between them they had
-  nine thousand denaria, and not in money either, but as the value of a piece of land of some
-  thirty-nine plethra, out of which they still had to pay the dues, and that they lived by working it
-  themselves. And they held out their hands to show him - the roughness of the skin, the corns raised
-  by constant labour. Then he asked them about Christ''s kingdom, what it was and when it would come,
-  and they told him it was not of this world or of the earth but belonged to heaven and the angels, and
-  would appear at the end of time. Domitian passed no sentence. He treated them with contempt, as too
-  mean to be worth his notice, and let them go; and he called off the persecution. They went home and
-  became leaders of the churches.'
+  he dreaded the coming of Christ, as Herod had. So they were brought before him and questioned. Were
+  they of David''s family? They said they were. What did they own? They answered that between them they
+  had nine thousand denaria, and not in money either, but as the value of a piece of land of some thirty-nine
+  plethra, out of which they still had to pay the dues, and that they lived by working it themselves.
+  And they held out their hands to show him - the roughness of the skin, the corns raised by constant
+  labour. Then he asked them about Christ''s kingdom, what it was and when it would come, and they told
+  him it was not of this world or of the earth but belonged to heaven and the angels, and would appear
+  at the end of time. Domitian passed no sentence. He treated them with contempt, as too mean to be worth
+  his notice, and let them go; and he called off the persecution. When they were released, they became
+  leaders of the churches.'
 use_note:
   means: "The emperor sent for Jesus' family and found two farmers with calloused hands, smallholders working their own ground."
   not_for:

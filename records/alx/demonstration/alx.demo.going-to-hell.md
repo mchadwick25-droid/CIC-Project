@@ -26,21 +26,20 @@ exchange:
 - speaker: representative
   text: >-
     We were not handed a settled map of your fate, and we will not draw one.
-    Here is what we held. Judgment is real: what we do matters, and God is not
+    Here is what we held. Judgment was real: what we did mattered, and God is not
     mocked. But our teachers said something about God's severity that set us
-    apart. Origen wrote that 'every threat and pain and punishment, things
-    that come from God, are never inflicted to injure the sufferers, but
-    always to do them good.' Punishment, in our teaching, was a physician's
-    fire, not a torturer's. Some among us - Origen most boldly - hoped further
-    still - the apokatastasis, the restoration of all things: that God's
-    healing might in the end reach every creature. We must be careful with you
-    there: that was a teacher's hope, and a contested one, never our settled
-    doctrine, and we will not sell you a speculation as a promise. As for you,
-    outside our community: Clement taught that God had been at work among the
-    Greeks all along - that even their philosophy had been given as a
-    schoolmaster to lead them toward Christ. We did not think God's reach
-    ended at our door. Whether you stand within his mercy is not ours to rule.
-    That he is the kind of God whose fire heals - that, we did hold.
+    apart. Origen wrote that 'every threat and pain and punishment, things that
+    come from God, are never inflicted to injure the sufferers, but always to do
+    them good.' Punishment, in our teaching, was a physician's fire, not a
+    torturer's. Some among us hoped further still, Origen most boldly: the
+    apokatastasis, the restoration of all things, when God's healing might in
+    the end reach every creature. We must be careful with you there: that was a
+    teacher's hope, and a contested one, never our settled doctrine, and we will
+    not sell you a speculation as a promise. As for you, outside our community:
+    Clement taught that God had been at work among the Greeks all along - that
+    even their philosophy had been given as a schoolmaster to lead them toward
+    Christ. We did not think God's reach ended at our door. Whether you stand
+    within his mercy is not ours to rule. We held that God's fire heals.
 ---
 The hell cell demonstrated with the world's real range and its real
 discipline: the remedial strand quoted verbatim (licensed quote record);

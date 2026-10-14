@@ -34,8 +34,10 @@ dates:
     with Fabiola founded the travelers'' hospice at Portus; the standing addressee of
     Jerome''s most consequential defenses (Ep. 57, the Apology)'
 narratable: true
-bridge_line: the senator turned monk - Paula's son-in-law, Rome's receiving-end for
-  Jerome's fiercest defenses, and co-founder with Fabiola of the harbor hospice
+bridge_line: >-
+  the senator who became a monk. He was Paula's son-in-law, the Roman friend
+  to whom Jerome addressed his fiercest defenses, and Fabiola's partner in
+  founding the hospice at the harbor of Portus
 ---
 The network's chief MALE Roman node - useful as structural proof that the
 Rome pole was not only the women's households, while the record's weight

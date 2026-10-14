@@ -20,6 +20,7 @@ work: "De Mysteriis (On the Mysteries) - a catechetical treatise on baptism, con
   Eucharist, addressed to the newly baptized, probably delivered c. 387"
 edition: "trans. H. de Romestin, Nicene and Post-Nicene Fathers series 2 vol. 10 (1896), vendored as
   cic/texts/npnf210_ambrose-select-works-letters.xml"
+citation: Ambrose of Milan, De Mysteriis (On the Mysteries), trans. H. de Romestin, Nicene and Post-Nicene Fathers, series 2, vol. 10 (1896)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

@@ -19,6 +19,7 @@ work: vols. I–III
 edition: '(e.g., v1 344–346: "[5] Des Pabats Drecet and Drecketal. Luther makes a pun on decreta and decretalia
   — the official names for the decrees of the Pope") — the library''s only period-term apparatus; vendored
   as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt'
+citation: The Philadelphia Edition translators' glossing footnotes on Luther's German and Latin terms, vols. I–III
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

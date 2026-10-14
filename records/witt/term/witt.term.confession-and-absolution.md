@@ -16,8 +16,7 @@ confidence:
     confession before the Emperor alike.
 sources:
 - source_id: witt.source.luther-discussion-of-confession
-  locus: Discussion of Confession, opening only, cited among this entry's Registry rows (Doc_06 SS5 entry
-    5.10)
+  locus: Discussion of Confession, opening only
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
   locus: the Eight Wittenberg Sermons -- 'I will let no man take private confession away from me'
@@ -29,8 +28,9 @@ sources:
   locus: the Augsburg Confession -- 'Private Absolution ought to be retained'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'if the power of the keys does not console us before God, what,
-    then, will pacify the conscience?'
+  locus: >-
+    the Apology -- 'if the power of the keys does not console us before God, what, then, will pacify the
+    conscience?'
   license: public-domain
 retrieval:
   tier: 2
@@ -81,7 +81,7 @@ senses:
   translational: 'Do not assume we abolished confession or that ''absolution'' belongs only to the papacy:
     we mean private confession kept as a comfort, freed from compulsion and enumeration, heard ''as if
     from God Himself.'''
-quick_meaning: Admitting sin, then hearing forgiveness as though from God himself. A treasured comfort.
+quick_meaning: Admitting sin, then hearing forgiveness as if from God himself. We kept it as a treasure.
 distortion_risk: high
 use_note:
   means: "Confession and absolution meant admitting sin and hearing forgiveness as from God himself, kept as a treasure, never compelled and never requiring a full list of sins."

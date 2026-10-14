@@ -11,8 +11,8 @@
       "min": 0.013656
     },
     "invented_ids_per_100_sentences": {
-      "max": 1.392335,
-      "mean": 0.448152,
+      "max": 1.402414,
+      "mean": 0.449068,
       "min": 0.0
     },
     "pass_rate": {
@@ -1106,14 +1106,14 @@
         ]
       },
       "invented_ids_per_100_sentences": {
-        "half_range": 1.282051,
-        "max": 2.564103,
-        "mean": 1.392335,
+        "half_range": 1.29717,
+        "max": 2.59434,
+        "mean": 1.402414,
         "min": 0.0,
         "runs": [
           1.612903,
           0.0,
-          2.564103
+          2.59434
         ]
       },
       "pass_rate": {

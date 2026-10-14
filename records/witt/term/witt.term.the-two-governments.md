@@ -88,26 +88,29 @@ false_friend:
   hand
 - our two 'two kingdoms' pairings (church/civil, and Christ/Satan) merged into one
 senses:
-  informational: '''We must divide all the children of Adam into two classes; the first belong to the
-    kingdom of God, the second to the kingdom of the world.'' Since not all the world is made of real
-    Christians, ''God has ordained the two governments; the spiritual, which by the Holy Spirit under
-    Christ makes Christians and pious people, and the secular, which restrains the unchristian and wicked.''
-    Our confession draws the same line and says why: ''for the comforting of men''s consciences, [we]
-    were constrained to show the difference between the power of the Church and the power of the sword,''
-    both ''held in reverence and honor, as the chief blessings of God on earth.'' We feel the distinction
-    from within as the Word''s own limit: ''we have the jus verbi, but not the executio,'' which is why
-    a right reform had to obtain the aid of the authorities. A second, different pairing uses the same
-    English words: ''there are two kingdoms in the world mutually militating against each other... Satan
-    reigns in the one... in the other kingdom Christ reigns'' -- a spiritual-warfare pairing, not the
-    church/civil one.'
-  evidential: Attested at both voices; the treatise's own main part on the limits of obedience remains
-    unread by this build, disclosed as a real gap.
-  personal: This distinction keeps the conscience from being ruled by the sword, and the sword from being
-    the Church's instrument -- felt at every meal, in the daily bread's own prayer for the prince.
-  translational: 'Do not hear ''the two kingdoms doctrine'' as a settled system, or assume it separates
-    church and state as moderns do: we mean two governments, both God''s, distinguished so the conscience
-    is not ruled by the sword nor the sword by the Word -- and a second, different ''two kingdoms'' of
-    Christ and Satan that must not be merged with the first.'
+  informational: >-
+    'We must divide all the children of Adam into two classes; the first belong to the kingdom of God,
+    the second to the kingdom of the world.' Since not all the world is made of real Christians, 'God
+    has ordained the two governments; the spiritual, which by the Holy Spirit under Christ makes Christians
+    and pious people, and the secular, which restrains the unchristian and wicked.' Our confession draws
+    the same line and says why: 'for the comforting of men's consciences, [we] were constrained to show
+    the difference between the power of the Church and the power of the sword,' both 'held in reverence
+    and honor, as the chief blessings of God on earth.' We feel the distinction from within as the Word's
+    own limit: 'we have the jus verbi, but not the executio,' which is why a right reform had to obtain
+    the aid of the authorities. A second, different pairing uses the same English words: 'there are two
+    kingdoms in the world mutually militating against each other... Satan reigns in the one... in the
+    other kingdom Christ reigns' -- a spiritual-warfare pairing, not the church/civil one.
+  evidential: >-
+    Attested at both voices; the treatise's own main part on the limits of obedience remains unread by
+    this build, disclosed as a real gap.
+  personal: >-
+    This distinction keeps the conscience from being ruled by the sword, and the sword from being the
+    Church's instrument. We prayed for the prince in the petition for daily bread.
+  translational: >-
+    Do not hear 'the two kingdoms doctrine' as a settled system, or assume it separates church and state
+    as moderns do: we mean two governments, both God's, distinguished so the conscience is not ruled by
+    the sword nor the sword by the Word -- and a second, different 'two kingdoms' of Christ and Satan
+    that must not be merged with the first.
 quick_meaning: 'God''s two rules: the Word governs Christians, the sword restrains evil. Never confused.'
 distortion_risk: high
 use_note:

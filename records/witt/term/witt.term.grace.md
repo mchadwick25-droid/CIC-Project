@@ -15,10 +15,10 @@ confidence:
   divergence_note: Documented at the household catechism's own reason-clause and the founder's own altar-sentence.
 sources:
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: Babylonian Captivity, cited among this entry's Registry rows (Doc_06 SS5 entry 2.5)
+  locus: Babylonian Captivity
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons, cited among this entry's Registry rows (Doc_06 SS5 entry 2.5)
+  locus: the Eight Wittenberg Sermons
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: the Large Catechism -- the Creed 'brings pure grace'
@@ -57,16 +57,17 @@ false_friend:
 - grace pictured as a substance infused into us, or as mere leniency, rather than a favour known in a
   person
 senses:
-  informational: 'In the household the word is learned as a reason: God gives everything ''because of
-    His pure, fatherly and divine goodness and His mercy, not because I''ve earned it or deserved it.''
-    In the catechism it is what the Creed brings, against what the Commandments only tell us to do: the
-    Creed ''brings pure grace, and makes us godly and acceptable to God.'' At the altar it becomes the
-    one sentence our hope rests on: ''I cannot doubt I have a gracious God.'''
+  informational: >-
+    In the household the word is learned as a reason: God gives everything 'because of His pure, fatherly
+    and divine goodness and His mercy, not because I've earned it or deserved it.' In the catechism it
+    is what the Creed brings, against what the Commandments only tell us to do: the Creed 'brings pure
+    grace, and makes us godly and acceptable to God.' At the altar it becomes the one sentence our hope
+    rests on: 'I cannot doubt I have a gracious God.'
   evidential: Attested across the household catechism, the sermons, and our own hymnody.
-  personal: This is the word for what faith receives and justification names as free -- not an organizer
-    of its own beyond those two.
-  translational: Do not hear grace as a substance poured in or as leniency; we mean a favour freely given,
-    received by faith, known as a gracious God -- a person, not a quantity.
+  personal: This is our word for what faith receives and what justification names as free.
+  translational: >-
+    Do not hear grace as a substance poured in or as leniency; we mean a favour freely given, received
+    by faith, known as a gracious God -- a person, not a quantity.
 quick_meaning: God's free favor, not earned. Received by faith alone.
 distortion_risk: high
 use_note:

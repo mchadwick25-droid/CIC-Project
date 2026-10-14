@@ -588,3 +588,15 @@ Mark's 2026-10-04 ruling gave a free visitor a count of what they have left, as 
 **App.** The count is read from the header or the final event, held in memory only, and shown in the strip under the message box and in the Go deeper panel, in place of the code count when no code is held. It disappears once a code is held, and nothing shows with the module off.
 
 **Not changed.** The count appears after a visitor's first reply, not before. When accounts arrive, a signed-in person's allowance is the account's (the accounts change order), and this line is where it will show.
+
+## 2026-10-12 — Go Deeper: working refund and expiry policy, rehearsal route, and the Stripe question (ruled by Mark)
+
+Three choices taken one at a time. Nothing in the code changes.
+
+**Working policy for expiry and refunds.** Mark adopted the provisional rule recorded in the accounts order as the working policy, until a lawyer or accountant adjusts it: tokens lapse after two years without use; purchases are not refunded, except where Mark approves a case. Draft wording for the pages, for Mark to edit before it is used: "Tokens never expire while you use them. If a code sits unused for two years, its tokens lapse. We do not refund purchases, but if something went wrong on our side, write to us and we will make it right." The second sentence's hardship line is the build thread's wording of "except where Mark approves". No page carries this yet; the pages promise nothing about expiry or refunds.
+
+**Where the rehearsal runs.** Staging stays suspended and live is the only Render engine. The rehearsal runs first, with no spend, in the build thread's session: the steps that need neither Stripe nor a deployed Render service, covered by the signed-webhook tests and the no-spend dev server. The dev server does not mount Go Deeper today (`build_dev_app` passes no `deeper=` argument), so covering the browser steps there needs a small change that Mark has not yet approved. Steps that need real Stripe or Render wait for the one smallest-pack purchase and full refund of step 2. No Bedrock call is made. Stripe's fee on that purchase is not recorded anywhere.
+
+**The Stripe question.** Mark approved sending the written stored-value question to Stripe as drafted: what is sold (prepaid credits spent only on conversations in this service, with no cash redemption); the packs ($7 for 1,100 tokens, $15 for 2,750, $30 for 6,600); the working policy above; and three questions: does this fall under Stripe's restrictions on stored value or gift-card style products; which terms would need to change if it does; and a written confirmation. The legal entity name and contact lines are filled in by Mark. No Payment Link is created before the answer.
+
+**Still open.** The four legal and tax questions (gift-card law and validity period, unclaimed property, sales tax, minors), the AWS budget ceiling, and the words and numbers listed in the Go Deeper decision sheet.

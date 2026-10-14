@@ -18,6 +18,7 @@ author: Augustine of Hippo
 work: The Correction of the Donatists (Letter 185, c. 417)
 edition: 'Nicene and Post-Nicene Fathers, 1st series, vol. 4 (Augustine: Anti-Manichaean, Anti-Donatist
   Writings), ed. Schaff, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml'
+citation: 'Augustine of Hippo, The Correction of the Donatists (Letter 185), Nicene and Post-Nicene Fathers, 1st series, vol. 4 (Augustine: Anti-Manichaean, Anti-Donatist Writings), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed

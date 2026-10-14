@@ -18,24 +18,27 @@ confidence:
     [PV] marker per Doc_06's own reading.
 sources:
 - source_id: witt.source.luther-treatise-on-the-new-testament-that
-  locus: the New Testament preface, cited among this entry's Registry rows (Doc_06 SS5 entry 5.6)
+  locus: the New Testament preface
   license: public-domain
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: Babylonian Captivity -- the mass as 'the promise of remission of sins made to us by God,' against
+  locus: >-
+    Babylonian Captivity -- the mass as 'the promise of remission of sins made to us by God,' against
     its 'third captivity' as sacrifice
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons -- 'the private mass must be abolished... I heartily wish it would
-    be abolished everywhere'
+  locus: >-
+    the Eight Wittenberg Sermons -- 'the private mass must be abolished... I heartily wish it would be
+    abolished everywhere'
   license: public-domain
 - source_id: witt.source.luther-four-hymnal-prefaces-to-walters-gesangb
-  locus: the hymnal material, cited among this entry's Registry rows (Doc_06 SS5 entry 5.6)
+  locus: the hymnal material
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'the Mass is retained among us, and celebrated with the highest reverence'
+  locus: >-
+    the Augsburg Confession -- 'the Mass is retained among us, and celebrated with the highest reverence'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XXIV, read across three passes this build -- the division between sacrament and sacrifice
+  locus: the Apology XXIV -- the division between sacrament and sacrifice
   license: public-domain
 retrieval:
   tier: 2
@@ -90,7 +93,7 @@ senses:
     each other: we mean the mass kept as a testament and refused as a sacrifice, its private form abolished
     and its public form retained ''with the highest reverence'' -- one doctrine, a documented change of
     public form.'
-quick_meaning: Kept as God's promise, refused as a sacrifice. Private masses ended; public worship remains.
+quick_meaning: Kept as God's promise, never as a sacrifice. Private masses ended; public worship stays.
 distortion_risk: high
 use_note:
   means: "The mass meant what Wittenberg kept as God's promise and testament but refused as a sacrifice, ending private masses and keeping reverent public worship."

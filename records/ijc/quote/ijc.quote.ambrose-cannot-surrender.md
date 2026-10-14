@@ -19,7 +19,7 @@ sources:
   license: public-domain
 text: 'I said: I cannot surrender the basilica, but I may not fight.'
 modern_rendering: >-
-  I said: I cannot give up the basilica, but I may not fight.
+  I said: I cannot give up the basilica, but I must not fight.
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."

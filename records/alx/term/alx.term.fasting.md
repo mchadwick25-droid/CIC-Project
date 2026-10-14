@@ -45,8 +45,7 @@ senses:
   evidential: Clement treats the body's discipline as central to ordering desire and the passions; the
     Paschal fast, attested in the Festal Letters, prepares the community's wanting for what the feast
     that follows will meet.
-  personal: Someone who fasts is not proving anything or losing weight - they are practicing, in a hungry
-    body, the same turn toward God that all their formation is working toward.
+  personal: "A person who fasted was not proving anything or losing weight. They practiced, in a hungry body, the same turn toward God that all their formation aimed at."
   translational: >-
     Isn't fasting just a diet, or a hard discipline for the spiritually serious? This world located the
     meaning not in going without food, but in what that going-without trains: the soul's own wanting.

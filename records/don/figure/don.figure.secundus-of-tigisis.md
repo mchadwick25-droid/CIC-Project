@@ -32,8 +32,8 @@ dates:
     the Council of Cirta, whose date is disputed between 305 and 307 or later; still acting at the time
     of the disputed Carthage election
 narratable: true
-bridge_line: The primate of Numidia who asked a room full of bishops whether any of them had handed over
-  the scriptures, was asked the same question back, and told everyone to sit down.
+bridge_line: The primate of Numidia who asked a room full of bishops if any had handed over the
+  scriptures. Purpurius turned the question on him. Then Secundus told everyone to sit down.
 relations:
 - type: associated-with
   target: don.story.council-of-cirta

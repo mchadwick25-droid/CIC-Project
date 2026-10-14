@@ -30,7 +30,7 @@ retrieval:
   - asking about death as a personal matter of grief rather than a theological one
   - asking primarily about resurrection as the reversal (retrieve alx.term.anastasis)
 relations: []
-plain_meaning: The soul's separation from God, which sin causes. Physical death is real, but it comes second. It is the outward sign of a separation already under way.
+plain_meaning: "The ruin that follows when the soul turns from God and loses the knowledge of him. Bodily death is real, but it is where that loss leads."
 world_word: thanatos (death)
 false_friend:
 - death as only a biological event
@@ -42,15 +42,12 @@ senses:
   evidential: Athanasius gives the fullest account - the soul's turn toward non-being, the Logos entering
     human nature to answer it from within; Clement treats the pursuit of lesser goods as itself a kind of
     dying.
-  personal: A martyr chooses between two deaths - to deny Christ is the real death, spiritual separation;
-    to be killed for refusing is only the body's end. That is why the martyr is not choosing the worse thing.
-  translational: >-
-    Isn't death just the end of the body? For this world, death was already happening in a soul cut off
-    from God, long before the body gave out - and the body's end was only the outward seal of it.
-quick_meaning: The soul's separation from God, which physical death only seals.
+  personal: "Losing God was the real loss, even for someone alive and well. The body's end came after that loss and sealed it."
+  translational: "Isn't death just the end of the body? This world saw death as the ruin that follows when the soul turns from God, a loss already at work before the body gave out. The body's end completed it."
+quick_meaning: "The loss of God that follows turning away, which bodily death completes."
 distortion_risk: high
 use_note:
-  means: "Thanatos meant the soul's separation from God caused by sin, with physical death a real but secondary outward sign."
+  means: "Thanatos meant the ruin that follows when the soul turns from God and loses the knowledge of him, a loss that bodily death completes."
   not_for:
     - "describing it as only a biological event"
     - "presenting it as a penalty imposed from outside by a judge"

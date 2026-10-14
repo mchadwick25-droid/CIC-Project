@@ -29,6 +29,7 @@ from dataclasses import dataclass
 from engine.m1 import canon
 from engine.m4 import evidence as m4_evidence
 from engine.m4.generation import stream_voice_turn
+from engine.m4.quote_placement import PlacementContext
 from engine.m4.turn import apply_net
 from engine.m4.world_loader import LoadedWorld
 
@@ -185,11 +186,13 @@ class LiveModelAnswerer:
         if stream_outcome.status != "ok":
             raise RuntimeError(f"LiveModelAnswerer: voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
 
-        # apply_net is production's own shaper for the text; calling it
-        # here makes parity structural rather than asserted - the answer
-        # graded is byte-for-byte the answer a participant would receive.
+        # apply_net is production's own shaper for the text, quote placement
+        # included; calling it here makes parity structural rather than
+        # asserted - the answer graded is the answer a participant would
+        # receive from the same draft.
         text, citation_entries, _net_result = apply_net(
-            stream_outcome.value.text, repository_records=self.repository_records, thin_topics=self.thin_topics
+            stream_outcome.value.text, repository_records=self.repository_records, thin_topics=self.thin_topics,
+            quotable_texts=[probe_text], placement=PlacementContext.for_evidence(turn_evidence["candidates"]),
         )
         citations = sorted({rid for entry in citation_entries for rid in entry["record_ids"]})
 

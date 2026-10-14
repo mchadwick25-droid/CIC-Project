@@ -80,9 +80,9 @@ narrative_tier_justification: >-
   because the tier's own register already carries it, and because the possession is the story's climax,
   not a frame around a documentary core.
 tellable_as: >-
-  A jealous brother hides his own book in young Paphnutius's cell and accuses him of theft before the
-  whole desert; Paphnutius says nothing, does penance for a crime he did not commit, and is vindicated
-  only when the accuser, possessed, confesses - and can be healed by no one but the man he wronged.
+  A jealous brother hides his own book in young Paphnutius's cell, then reports it stolen. It is found
+  there. Paphnutius says nothing and does penance for a theft he did not commit. Then a demon seizes
+  the accuser, and he confesses. Only the man he wronged can heal him.
 text: >-
   The tradition tells - as Abbot Piamun told it to Cassian and Germanus, and as Cassian wrote it down
   for Gaul - of the patience of Paphnutius, when he was young.

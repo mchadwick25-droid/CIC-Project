@@ -25,6 +25,7 @@ discovery_channel: Source_Registry.md row 16, added 2026-09-15; named in the cen
   own sense, a straightforward acquisition gap in a prominent figure.
 external_ids:
   rzg_source_registry_row: 16
+citation: Theodore Beza, works generally (letters, the Tabula praedestinationis, the Genevan Psalter's co-authorship)
 kind: unvendored
 ---
 Direct Beza-strand and Dort-throughline claims (Doc_01 SS7), once acquired - not currently usable for any claim (Confidence E). Beza's own doctrinal-systematization role (T1's own Confidence/Gravity Cross-Check divergence, Doc_04) is currently characterized only through Calvin's own corpus and general scholarly consensus, never through Beza's own words directly.

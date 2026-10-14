@@ -108,8 +108,8 @@ senses:
   personal: >-
     We were told by our own teacher that no one can grasp how both are true - that the beginning
     is God's spark struck from our flint and that Zaccheus ran ahead. We held both, as the genuine
-    faith of the ancient fathers, and we did not settle it. Men who heard only one side carried our
-    sentence to Africa.
+    faith of the ancient fathers, and we did not settle it. Word of it was carried to Augustine in
+    Africa.
   translational: >-
     A modern hearer wants to know which side we were on - did man or God make the first move? Our
     own teacher refused to answer that as a formula. He gave Scripture's cases on both sides and

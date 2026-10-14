@@ -29,8 +29,8 @@ dates:
   floruit: wrote Against the Donatists in a first edition c. 366-367, revised c. 385; this movement's own
     earliest substantial narrative source, hostile and external but contemporary
 narratable: true
-bridge_line: our own later opponent, whose account is where most of what survives of our own early history
-  actually comes from
+bridge_line: A Catholic bishop who wrote against us. Most of what survives of our own early history
+  comes through his account.
 relations:
 - type: associated-with
   target: don.story.lucilla-consecration-dispute

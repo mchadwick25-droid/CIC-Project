@@ -23,9 +23,9 @@ sources:
 text: >-
   Damasus, bishop of Rome, had a fine talent for making verses and published many brief works in heroic metre. He died in the reign of the Emperor Theodosius at the age of almost eighty.
 modern_rendering: >-
-  Damasus, bishop of Rome, had a real talent for writing verse. He published many short
-  works in heroic meter. He died during the reign of Emperor Theodosius, at almost eighty
-  years old.
+  Damasus, bishop of Rome, had a fine talent for making verses. He published many short works in the
+  verse form of epic poetry. He died in the reign of the Emperor Theodosius, at the age of almost
+  eighty.
 speaker_or_author: Jerome, Lives of Illustrious Men
 license: verbatim
 modern_lens_note: >-

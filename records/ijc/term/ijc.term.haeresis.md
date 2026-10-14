@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.sozomen-he
-  locus: VII.4 (the Thessalonica law's heretic clause, npnf202 line 40566)
+  locus: "VII.4 (the 380 law's heretic clause, npnf202 line 40625)"
   license: public-domain
 - source_id: ijc.source.canons-nicaea
   locus: the Creed's anathemas
@@ -32,8 +32,7 @@ relations:
 - {type: associated-with, target: ijc.term.homoios}
 - {type: associated-with, target: ijc.term.communio}
 - {type: associated-with, target: ijc.term.concilium}
-plain_meaning: 'Heresy as we wielded it: a teaching placed outside what the church would recognize - and,
-  more and more, outside the law itself. One act, a judgment of faith with legal force.'
+plain_meaning: "Heresy as we wielded it: a teaching placed outside what the church would recognize and, more and more, outside the law itself. Faith and law were joined in the one judgment."
 world_word: haeresis
 distortion_risk: high
 false_friend:
@@ -46,14 +45,11 @@ senses:
   evidential: 'The creed''s anathemas show the church''s own half of the act from 325; the historians preserve
     the law''s half, including its wording. The record also shows the category''s direction reversing:
     the machinery that condemned the Homoian confession had, under other emperors, enforced it.'
-  personal: The weight fell on office-holders first - deposition, exile, a see declared vacant; the record
-    remembers the machinery from the standpoint of those who operated it and those it removed.
-  translational: '"Heresy-hunting" here was not a private zealotry - it was state process; and whether it
-    became settled legal machinery all at once or only gradually across this window is a live scholarly
-    question, held open.'
+  personal: "The weight fell first on office-holders. They were deposed, exiled, or found their see declared empty. The record shows this machinery from the side of those who used it and those it removed."
+  translational: "\"Heresy-hunting\" here was a state process, and private zeal was only part of it. Whether it became settled legal machinery all at once or slowly across this window is a live scholarly question. We hold it open."
 quick_meaning: A teaching ruled outside the church - and, under our laws, outside legal standing too.
 use_note:
-  means: "Heresy is a teaching placed outside what the church would recognize and, increasingly, outside the law: one act, a judgment of faith with legal force."
+  means: "Heresy is a teaching placed outside what the church would recognize and, increasingly, outside the law; whether that grew into settled legal machinery all at once or slowly is held open."
   not_for:
     - "a claim that heresy was a purely doctrinal category with no legal consequence"
     - "a claim that the boundary of heresy always pointed the same direction"

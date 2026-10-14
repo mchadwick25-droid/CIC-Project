@@ -39,12 +39,12 @@ tensions:
 - We will not claim the civil force was answered with argument alone, when our own wider record shows
   it was not confined to argument. We hold both facts together rather than letting the one we prefer stand
   for the whole.
-text: 'Defend using power against Christians who disagreed with you. We will not dodge it: our own council
-  moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder''s
-  own written argument. Here is what we will say. A church gathered only by a believer''s own profession,
-  apart from the whole city, was not a smaller version of what we had built -- it unmade the very unity
-  our reform existed to strengthen. We do not deny they read Scripture. We deny they read it whole. And
-  we will not tell you the suppression that followed was only ever argument, when it plainly was not.'
+text: 'You ask us to defend using power against Christians who disagreed with us. We will not dodge it:
+  our own council moved against the Anabaptist movement with civil force in the years after 1525, not
+  only with our founder''s own written argument. Here is what we will say. A church gathered only by a
+  believer''s own profession, apart from the whole city, unmade the very unity our reform existed to strengthen.
+  They read Scripture, and we do not deny it. We held that they did not read it whole. And we will not
+  tell you the suppression that followed was only ever argument, when it plainly was not.'
 use_note:
   means: "We admit civil force against the Anabaptists and defend refusing them because a profession-only church unmade the one city-church."
   not_for:

@@ -35,7 +35,7 @@ relations:
 - type: associated-with
   target: syr.quote.ephrem-keeper-of-strangers
 use_note:
-  means: "Palladius's Lausiac History reports Ephrem telling Edessa's citizens during a famine to trust him, since he would appoint himself hospitaller on their behalf."
+  means: "Palladius's Lausiac History reports Ephrem telling Edessa's rich during a famine to trust him, since he would appoint himself hospitaller on their behalf."
   not_for:
     - "Ephrem's own transcribed words rather than speech reported by Palladius"
     - "a reference to the medieval Knights Hospitaller or to any standing office"

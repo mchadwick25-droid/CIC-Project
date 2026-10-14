@@ -17,6 +17,7 @@ relations: []
 author: Susanna Elm
 work: Virgins of God; Sons of Hellenism
 edition: In-copyright modern scholarship, not vendored
+citation: Susanna Elm, Virgins of God; Sons of Hellenism
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

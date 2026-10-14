@@ -28,16 +28,13 @@ positions:
 - "The instruction is not 'do not doubt' as a demand but 'put away doubting' as an ongoing practice - ask without doubting, and if the answer is slow in coming, look first for what is holding it up rather than assuming it will never come."
 tensions:
 - "This teaching comes from one Roman visionary text, addressed mainly to questions of sin and second repentance rather than doubt about belief itself - it does not claim to speak for how every member in every household handled doubt, only for how this one figure was taught to answer it."
-text: >
-  One of us, Hermas, was told plainly: put doubting away from yourself.
-  Do not hold back from asking, even after you have sinned badly, as
-  though God kept score the way people do. He does not remember evils
-  the way we do. Ask without doubting and you will receive what you
-  ask - and if the answer is slow, look first at what is holding it up
-  in you, rather than deciding you were refused. Doubt was named for
-  what it is: something that weakens a person, not something that
-  disqualifies one. We were taught to work against it, not to pretend
-  we never felt it.
+text: 'One of us, Hermas, was told plainly: put doubting away from yourself. Do not hold back from asking,
+  even after you have sinned badly, as though God kept score the way people do. He does not remember evils
+  the way we do. Ask without doubting and you will receive what you ask. If the answer is slow, look first
+  at what is holding it up in you, rather than deciding you were refused. Hermas was also warned how serious
+  doubt is. It was called wicked and senseless, a thing with no power. The double-souled, he was told,
+  are saved only with difficulty. He was told to master doubt through faith, and we were taught to do
+  the same.'
 use_note:
   means: "Hermas names doubt as double-souledness, something to work against rather than an unforgivable failure, assuming God's patience toward those who ask."
   not_for:

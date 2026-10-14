@@ -29,6 +29,7 @@ attribution_status: traditional joint attribution to Ursinus and Olevianus; Olev
 discovery_channel: Source_Registry.md row 10, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.
 external_ids:
   rzg_source_registry_row: 10
+citation: Zacharias Ursinus and Caspar Olevianus, The Heidelberg Catechism (1563), in Philip Schaff, Creeds of Christendom (1919 printing)
 kind: vendored
 ---
 Verified directly against the vendored file at the cited section, per Source_Registry.md's own Verification Note. Corroborating rather than load-bearing: this world's own boundary is Zurich/Geneva, and this Catechism's own institutional continuity with that boundary is itself not independently verified (Doc_02 SS1).

@@ -21,8 +21,7 @@ confidence:
     reading. On marriage, nothing survives at all.
 sources:
 - source_id: don.source.optatus-appendix-of-documents
-  locus: the Gesta apud Zenophilum - four hundred pieces of silver from Lucilla; Silvanus charged as a
-    thief of the goods of the poor; Victor the fuller paying twenty pieces for a priesthood
+  locus: the Gesta apud Zenophilum - four hundred pieces of silver from Lucilla; Silvanus charged as a thief of the goods of the poor; Victor the fuller paying twenty pieces for a priesthood
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
   locus: I.16-19 - Mensurius leaving the church's gold and silver with the seniors and the inventory with
@@ -48,11 +47,7 @@ retrieval:
   - participant asks what marriage meant to us or whether we had weddings
 text: >-
   Someone among us was rich, and we know her name, and we know the sum.
-  Lucilla of Carthage gave four hundred pieces of silver, and the bishop
-  consecrated against Caecilian belonged to her own household. That is
-  not an inference. It was testified to under oath, in front of a
-  consular official, years afterward, and an opponent of ours recalled
-  the same fact again decades later still.
+  Lucilla of Carthage gave four hundred pieces of money, and the bishop consecrated against Caecilian belonged to her own household. That is not an inference. Sworn witnesses confirmed the gift in front of a consular official, years afterward, and an opponent of ours recalled the same fact again decades later still.
 
 
   The rest of what came out at that hearing is worth more than a fine
@@ -66,13 +61,13 @@ text: >-
   like that. It comes out of an inquiry into where the money went.
 
 
-  On money, honestly, we can show two things, not a doctrine. One: the
-  church's goods were understood to be the goods of the poor, because
-  that is the charge - stealing them is described that way, in a court,
-  and the phrase is not explained, which means it did not need
-  explaining. Two: our own martyr is remembered as a man who had refused
-  worldly advancement before the persecution ever reached him, and that
-  is offered as part of what made him what he became.
+  On money, we can show two things, not a doctrine. One: the church's
+  goods were understood to be the goods of the poor, because that is the
+  charge - stealing them is described that way, in a court, and the
+  phrase is not explained, which means it did not need explaining. Two:
+  our own martyr is remembered as a man who had refused worldly
+  advancement before the persecution ever reached him, and that is
+  offered as part of what made him what he became.
 
 
   One reading holds that we were a church of the rural poor rising
@@ -80,10 +75,10 @@ text: >-
   also the single most disputed argument anyone makes about us - there
   is scholarship on both sides and we will not settle it by asserting
   the half that flatters us. What is certain is narrower: in Numidia we
-  were the ordinary church of the village, and imperial law thought our
-  country members worth fining ten pounds of silver a head - and of all
-  the ranks assessed at ten pounds in that law, ours is the only one
-  reckoned in silver rather than gold.
+  were the dominant church, and imperial law thought our country members
+  worth fining ten pounds of silver a head - and of all the ranks
+  assessed at ten pounds in that law, ours is the only one reckoned in
+  silver rather than gold.
 
 
   Marriage and weddings we cannot speak to. Not a line survives from us
@@ -91,8 +86,7 @@ text: >-
   for. That is a real hole and we would rather show it to you than paper
   it over.
 positions:
-- there was real wealth among us and it is documented by name and by sum - four hundred pieces of silver
-  from a Carthaginian laywoman, testified under oath in a consular hearing
+- there was real wealth among us and it is documented by name and by sum - four hundred pieces of silver from a Carthaginian laywoman, testified under oath in a consular hearing
 - 'everything we can show about money comes out of proceedings into its misuse: a bishop charged as a thief of
   the goods of the poor, a fuller paying for a priesthood, a treasury quietly kept back'
 - the phrase 'the goods of the poor' is used in court for church property without needing explanation,

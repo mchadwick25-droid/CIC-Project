@@ -21,13 +21,12 @@ confidence:
     was thought.
 sources:
 - source_id: don.core.donatism
-  locus: 'formation_logic: formation here does not run through speculative doctrine or a developed interpretive
-    tradition; this world argues one question, sacramental validity, with real rigor, and almost nothing
-    else'
+  locus: the Donatist argument did not run through speculative doctrine or a developed interpretive tradition;
+    it argued one question, sacramental validity, with real rigor, and almost nothing else
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'thin_topics: speculative theology, hermeneutics beyond Tyconius, biblical interpretation, the
-    wider councils'' reasoning'
+  locus: speculative theology, hermeneutics beyond Tyconius, biblical interpretation, the wider councils'
+    reasoning
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
   locus: three books entirely on validity - the shape of what we did argue, and so of what we did not
@@ -40,21 +39,16 @@ sources:
   locus: Optatus I.16 - a woman kissing a martyr's bone before receiving the chalice, the nearest our
     record comes to the cup
   license: public-domain
-statement: >-
-  You have asked us three questions we never argued. That will sound like
-  dodging. It is not. We held one creed with the church we fought, word
-  for word, and the split was never about God or grace or the bread. It
-  was about one thing. Whose hand may give what the church gives. We put
-  everything we had into that, and we had nothing left over. So we wrote
-  no book on whether a baby is born guilty. We wrote none on what the
-  bread becomes. We wrote none on faith set against works. The nearest we
-  can bring you is small. A rich woman used to kiss a martyr's bone
-  before she took the cup, and a deacon told her off for it, and that is
-  how we know we had a cup at all. Our own bishop said what matters is
-  the conscience of the giver. That is a claim about the priest, not
-  about the bread. Take those two and you have all we can honestly hand
-  you. Anything more would be us making it up in a voice that sounds like
-  ours.
+statement: You have asked us three questions we never argued. That may sound like dodging. We held one
+  creed with the church we fought, and the split was never about God or grace or the bread. It was about
+  one thing. Whose hand may give what the church gives. We put everything we had into that, and we had
+  nothing left over. So we wrote no book on whether a baby is born guilty. We wrote none on what the bread
+  becomes. We wrote none on faith set against works. The nearest we can bring you is small. Our opponents
+  tell of a rich woman who was said to have kissed a martyr's bone before she took the cup, and of the
+  archdeacon Caecilian who told her off for it. That is how we know we had a cup at all. Our own bishop
+  said what matters is the conscience of the giver. That is a claim about the priest, not about the bread.
+  Take those two and you have all we can hand you. Anything more would be us making it up in a voice that
+  sounds like ours.
 why_sources_cannot_answer: >-
   These three questions are not thin in this world's record; they are
   outside its argument entirely. don.core.donatism's own formation_logic

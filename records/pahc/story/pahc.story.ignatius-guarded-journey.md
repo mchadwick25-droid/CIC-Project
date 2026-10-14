@@ -42,31 +42,23 @@ relations:
   target: pahc.gravity.liturgical-practice
 narrative_tier: 1
 narrative_tier_justification: "Direct textual attestation: these are Ignatius's own surviving letters, not a later account about him. Named author, identifiable social location (bishop of a major see, in Roman custody), datable horizon under the majority Trajanic reading (c. 107-117 CE). The minority pseudepigraphic/redated positions are genuine and carried at full strength (pahc.contested.ignatius-dating), not erased by this Tier 1 classification."
-tellable_as: >-
-  A condemned bishop is marched under armed guard toward execution in Rome.
-  Along the way he writes seven letters, urgently arguing for one-bishop unity
-  and reading his own coming death as the completion of his formation.
-text: >-
-  In his letters, Ignatius, bishop of Antioch, records that he was condemned
-  and sent under armed guard on the long overland journey toward Rome. There
-  he expected to be thrown to the beasts in the arena. He calls the soldiers
-  'ten leopards' - 'who, even when they receive benefits, show themselves all
-  the worse.' Writing from stops along the route, he tells us that churches
-  came out to meet him. Delegations from Ephesus, Magnesia, and Tralles met
-  him at Smyrna. The church at Rome received a letter sent ahead of him,
-  urging them not to intervene to save his life: 'Suffer me to become food for
-  the wild beasts, through whose instrumentality it will be granted me to
-  attain to God. I am the wheat of God, and let me be ground by the teeth of
-  the wild beasts, that I may be found the pure bread of Christ.' Along the
-  way he wrote at least seven letters that survive. They address troubles in
-  the churches he passed or heard from, insisting that each community gather
-  around one bishop, one altar, one eucharist. He pressed the instruction with
-  real urgency, as a man who believed his approaching death gave his words
-  unusual weight. He asks Polycarp, bishop of Smyrna, to write on his behalf
-  to the churches ahead. And he thanks the community at Smyrna by name for its
-  hospitality. This is a condemned man's own account, written on the road. It
-  tells what he believed his death would mean - and what he believed the
-  churches receiving his letters needed to hear before it happened.
+tellable_as: A condemned bishop is marched under guard toward death in Rome. On the way he writes seven
+  letters. He urges unity around one bishop, and he sees his death as the finishing of his formation.
+text: 'In his letters, Ignatius, bishop of Antioch, records that he was condemned and sent under armed
+  guard on the long overland journey toward Rome. There he expected to be thrown to the beasts in the
+  arena. He calls the soldiers ''ten leopards'' - ''who, even when they receive benefits, show themselves
+  all the worse.'' Writing from stops along the route, he tells us that churches came out to meet him.
+  Delegations from Ephesus, Magnesia, and Tralles met him at Smyrna. The church at Rome received a letter
+  sent ahead of him, urging them not to intervene to save his life: ''Suffer me to become food for the
+  wild beasts, through whose instrumentality it will be granted me to attain to God. I am the wheat of
+  God, and let me be ground by the teeth of the wild beasts, that I may be found the pure bread of Christ.''
+  Along the way he wrote at least seven letters that survive. They address troubles in the churches he
+  passed or heard from, insisting that each community gather around one bishop, one altar, one eucharist.
+  He pressed the instruction with real urgency, as a man who believed his approaching death gave his words
+  unusual weight. He asks Polycarp, bishop of Smyrna, to write on his behalf to the churches ahead. And
+  he thanks the church at Smyrna for welcoming his companions and for not being ashamed of his chains.
+  This is a condemned man''s own account, written on the road. It tells what he believed his death would
+  mean - and what he believed the churches receiving his letters needed to hear before it happened.'
 absent_detail: "No source narrates Ignatius's arrival in Rome or his execution - the letters end before that point, and no account of it survives. Polycarp's own letter to the Philippians speaks of Ignatius, alongside Zosimus and Rufus, as already 'in their due place in the presence of the Lord, with whom also they suffered' (ch. 9) - implying his death had already happened - while that same letter's ch. 13 asks for 'more certain information... respecting both Ignatius himself, and those that were with him,' as if his fate were not yet known. This tension is bound up with the question of that letter's own compositional unity, and is not smoothed over here."
 modern_contrast: >
   A modern reader often hears a condemned man's eagerness to die as a

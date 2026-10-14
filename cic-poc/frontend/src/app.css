@@ -1665,3 +1665,29 @@ button {
   font: inherit;
   cursor: pointer;
 }
+
+.ask-again {
+  margin-top: var(--spacing-sm);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.ask-again p {
+  margin: 0;
+}
+
+.ask-again__actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-sm);
+}
+
+.ask-again__actions button {
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: var(--border-radius);
+  color: inherit;
+  padding: 0.35rem 0.9rem;
+  font: inherit;
+  cursor: pointer;
+}

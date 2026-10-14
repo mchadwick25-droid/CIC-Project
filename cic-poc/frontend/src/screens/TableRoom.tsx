@@ -195,6 +195,7 @@ export function TableRoom({
       ) : (
         <ChatInput
           onSend={onSend}
+          turns={turns}
           onEnd={onEnd}
           disabled={isLoading || roundOpen}
           placeholder={roundOpen ? 'The table is still speaking…' : 'Bring your question to the table…'}

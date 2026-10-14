@@ -911,7 +911,6 @@ records/alx/world_core/alx.core.alexandria.md: records/worlds.yaml
 Build/worlds/cappadocian/surface/facilitator_brief/cappadocian.facilitator_brief.cappadocian-trinitarian.md: worlds/cappadocian/Cappadocian_Facilitation_Brief_v1_0.md
 Build/worlds/cappadocian/surface/facilitator_brief/cappadocian.facilitator_brief.cappadocian-trinitarian.md: worlds/cappadocian/Open_Gaps_Tracking.md
 records/cappadocian/voice_craft/cappadocian.voice.craft.md: World-Builds/Nicene-Cappadocian/cappadocian_Representative_Permanent_Prompt_Eumathios.txt
-records/desert/doctrinal_witness/desert.dw.born-again.md: fleet-voice/EXEMPLAR-TRANSCRIPT.md
 records/desert/doctrinal_witness/desert.dw.strangest.md: fleet-voice/EXEMPLAR-TRANSCRIPT.md
 Build/worlds/desert/surface/facilitator_brief/desert.facilitator_brief.desert-monasticism.md: cic-poc/backend/app
 Build/worlds/desert/surface/facilitator_brief/desert.facilitator_brief.desert-monasticism.md: worlds/desert

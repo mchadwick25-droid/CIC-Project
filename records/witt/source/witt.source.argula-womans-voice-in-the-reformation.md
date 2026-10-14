@@ -17,6 +17,7 @@ relations: []
 author: Argula von Grumbach
 work: A Woman's Voice in the Reformation
 edition: 'ed./trans. Peter Matheson (Edinburgh: T&T Clark, 1995) — NOT VENDORED (in copyright; G1 exception)'
+citation: 'Argula von Grumbach, A Woman''s Voice in the Reformation, ed./trans. Peter Matheson (Edinburgh: T&T Clark, 1995)'
 kind: unvendored
 rights_status: "In-copyright; not vendored - access blocked"
 attribution_status: attributed

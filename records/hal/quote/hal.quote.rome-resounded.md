@@ -22,9 +22,9 @@ text: 'Before I became acquainted with the family of the saintly Paula, all Rome
   episcopate. Damasus, of blessed memory, spoke no words but mine. Men called me holy,
   humble, eloquent.'
 modern_rendering: >-
-  Before I became acquainted with the family of the saintly Paula, all Rome echoed with
-  my praises. Almost everyone agreed I was worthy of the episcopate. Damasus, of blessed
-  memory, spoke no words but mine. Men called me holy, humble, and eloquent.
+  Before I came to know the family of the saintly Paula, all Rome rang with my praises.
+  Almost everyone agreed that I was worthy to be a bishop. Damasus, of blessed memory,
+  spoke no words but mine. Men called me holy, humble and eloquent.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"The episcopate" names the office of bishop.'

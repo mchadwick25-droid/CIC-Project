@@ -41,7 +41,7 @@ function participantMessage(status: number, detail: string): { message: string; 
   if (status === 409 && detail.includes('round still open')) {
     return { message: 'The table is still finishing its round — let it speak, then ask again.', recoverable: false };
   }
-  if (status === 409 && detail.includes('duplicate message')) {
+  if (isDuplicateMessage(status, detail)) {
     return { message: 'That message already reached the room — give it a moment.', recoverable: false };
   }
   if (status === 409 && detail.includes('advance already in flight')) {
@@ -62,6 +62,10 @@ function participantMessage(status: number, detail: string): { message: string; 
     return { message: "This world's records are briefly unavailable — try again in a moment.", recoverable: true };
   }
   return { message: "That didn't go through. Try again in a moment, or begin a new conversation.", recoverable: false };
+}
+
+export function isDuplicateMessage(status: number, detail: string): boolean {
+  return status === 409 && detail.includes('duplicate message');
 }
 
 export class ApiRequestError extends Error {

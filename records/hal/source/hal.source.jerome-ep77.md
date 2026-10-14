@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id v.LXXVII"
+citation: Jerome, Epistula 77, to Oceanus, trans. W.H. Fremantle, Nicene and Post-Nicene Fathers, 2nd series, vol. 6 (1893)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

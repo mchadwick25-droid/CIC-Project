@@ -40,12 +40,13 @@ senses:
     created order.
   evidential: Calvin's Institutes, Book I, states this doctrine at length. It is present in Zwingli's
     own earlier theology too, though not developed to the same degree in what our own record preserves.
-  personal: 'We rest on this the same settled way we rest on our own election: not as a fact we prove,
-    but as a ground we stand on.'
-  translational: This is not a claim that God micromanages every detail for a hidden reason we could discover.
-    It is our own confidence that nothing escapes his care.
-quick_meaning: God's own continuous, active governing of everything he made - not a distant first cause,
-  but ongoing care.
+  personal: 'We rested on this as we rested on our own election: not as a fact we proved, but as a ground
+    we stood on.'
+  translational: This does not mean that God's reasons lie open to us. Calvin taught that God cares for
+    even the smallest things, a sparrow among them, and governs all events by a secret counsel. It was our
+    confidence that nothing escaped his care.
+quick_meaning: God's own continuous, active rule over everything he made. He is not a distant first cause.
+  He keeps caring for it.
 distortion_risk: medium
 use_note:
   means: "Providence is God's continuous, active care over everything he made, not that of a distant first cause who set the world going and stepped back."

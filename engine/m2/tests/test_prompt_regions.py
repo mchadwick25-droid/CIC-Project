@@ -170,3 +170,20 @@ def test_the_worked_line_tags_the_world_s_own_first_term_and_gravity():
 def test_a_world_with_no_term_or_gravity_tags_its_first_citable_record():
     prompt = _prompt()
     assert "## Our worked line\n\n'" in prompt and "[[fix.core.fix]].'" in prompt
+
+
+def test_quote_records_are_not_listed_in_the_prompt():
+    """A quote reaches the voice only through the turn's evidence block,
+    the one place it can be placed from, so the prompt lists none of them:
+    no id and no words."""
+    quote = {
+        "id": "fix.quote.witness-saying",
+        "record_type": "quote",
+        "speaker_or_author": "The witness",
+        "text": "We did not see him ourselves.",
+        "modern_rendering": "We never saw him with our own eyes.",
+    }
+    prompt = build_prompt({**REPOSITORY, quote["id"]: quote}, REGISTRY_ENTRY).decode("utf-8")
+    assert prompt == _prompt()
+    assert "fix.quote.witness-saying" not in prompt
+    assert "with our own eyes" not in prompt

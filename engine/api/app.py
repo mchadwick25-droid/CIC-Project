@@ -915,6 +915,20 @@ def create_app(
     return app
 
 
+def deeper_for_dev_server(data_dir: Path, usage_store, environ) -> dict | None:
+    config = DeeperConfig.from_env(str(data_dir))
+    if not config.enabled:
+        return None
+    data_dir.mkdir(exist_ok=True)
+    runtime = deeper_routes.build_runtime(config, dict(environ), usage_store=usage_store)
+    deeper_routes.install_access_log_filter()
+    return {
+        "deeper": runtime,
+        "anon_cap_enabled": True,
+        "anon_visitor_secret": environ.get("CIC_API_ANON_VISITOR_SECRET") or None,
+    }
+
+
 def _build_real_app() -> FastAPI:
     from engine.provider import guard
     from engine.provider.route import build_route

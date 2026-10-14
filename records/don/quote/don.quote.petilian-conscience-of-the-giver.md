@@ -14,10 +14,13 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
+- source_id: don.source.npnf104-prolegomena-analysis
+  locus: 'Chapter II, "An Analysis of Augustin''s Writings Against the Donatists": Petilian''s proposition
+    given in Latin and English, with the bracketed words'
+  license: public-domain
 - source_id: don.source.augustine-answer-to-letters-of-petilian
-  locus: 'Book II, Chapter 3, SS6 (''Petilianus said: ...''); independently re-located and re-read this
-    session against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 15788 -- distinct
-    from the Prolegomena''s own earlier summary of the same proposition at line 10280'
+  locus: Book II, chapters 3-4 (sections 6 and 8), the same proposition in shorter form, without the bracketed
+    words
   license: public-domain
 retrieval:
   tier: 1
@@ -48,9 +51,9 @@ modern_lens_note: 'A modern reader may hear "the conscience of the giver" as a c
   own private, subjective sincerity -- whether he personally feels holy. Petilian''s own argument is narrower
   and more structural than that: it is about whether the minister''s own hand was tainted by a specific,
   checkable act (surrendering scripture under persecution), not about an unknowable inner feeling.'
-modern_rendering: What we look for is the conscience of the giver - the one who gives in holiness - to
-  cleanse that of the recipient. Someone who knowingly takes faith from the faithless receives not faith,
-  but guilt.
+modern_rendering: What we look for is the conscience of the giver, the one who gives in holiness, to
+  cleanse the conscience of the one who receives. For whoever knowingly takes faith from the faithless
+  does not receive faith, but guilt.
 use_note:
   means: "Petilian held that the giver's holy conscience is what cleanses the recipient, so faith knowingly taken from the faithless brings guilt instead."
   not_for:

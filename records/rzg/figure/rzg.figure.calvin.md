@@ -25,6 +25,6 @@ names:
   tag: scholarly
 dates: {}
 narratable: true
-bridge_line: Geneva's own pastor, whose Institutes and Catechism built our doctrine up book by book.
+bridge_line: Geneva's pastor. His Institutes and his catechism built up our teaching, book by book.
 ---
 Built from this world's own already-reviewed construction documents (Doc_01, Doc_09's own story cast, Doc_06's own Key Sources). `dates` states only what this compilation pass directly verified this session (nothing dated beyond general attestation) - never filled from general knowledge the vendored record itself does not supply here.

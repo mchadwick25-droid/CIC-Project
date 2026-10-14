@@ -14,15 +14,13 @@ confidence:
   divergence_note: null
 sources:
 - source_id: don.source.augustine-on-baptism-against-the-donatists
-  locus: On Baptism, Against the Donatists I.1.2 and I.5.7 - the Bagai and Cebarsussi sentences quoted rather
-    than paraphrased; Registry row 3
+  locus: 'On Baptism, Against the Donatists I.1.2 and I.5.7: the Bagai and Cebarsussi sentences quoted rather than paraphrased'
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
-  locus: the Bagai decree quoted again and turned into the central argument against Donatist rebaptism logic;
-    Registry row 4
+  locus: 'Answer to the Letters of Petilian: the Bagai decree quoted again and turned into the central argument against Donatist rebaptism logic'
   license: public-domain
 - source_id: don.source.augustine-contra-cresconium
-  locus: the same affair pressed a third time in a further work; Registry row 47
+  locus: 'Against Cresconius: the same affair pressed a third time in a further work'
   license: public-domain
 claim: >-
   Receiving Felicianus of Musti and Praetextatus of Assuris back into office without rebaptism and without
@@ -40,7 +38,7 @@ held_against:
   describes the schismatics as shipwrecked men dashed on the rocks, their bodies covering the shore so thoroughly
   that they fail to find so much as burial - and the same council then took two of those men back into full
   office exactly as they had been ordained under the schism it had just condemned in those terms
-- The reconciliation was enforced with military force, by a general, Optatus Gildonianus. An internal
+- The reconciliation was enforced with military force, by Optatus Gildonianus, a Donatist bishop who advanced with soldiers. An internal
   disciplinary act carried out by troops is the recourse-to-power pattern showing up inside this communion's
   own conciliar machinery, not only in its dealings with the empire - and that Optatus is the Donatist bishop
   of Thamugadi, not Optatus of Milevis the Catholic polemicist (don.story.bagai-reconciliation;

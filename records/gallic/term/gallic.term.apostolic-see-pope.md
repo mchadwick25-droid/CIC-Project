@@ -73,8 +73,9 @@ relations:
 - type: associated-with
   target: gallic.term.customs-of-the-monasteries
 plain_meaning: >-
-  "Pope" is a title of honour we give to bishops we revere - Cassian's Pope Castor of Apta Julia.
-  "The Apostolic See" is Vincent's Rome, foremost in refusing novelty. Not the same relation.
+  We gave the title "Pope" to bishops we revered. Cassian wrote to Pope Castor of Apta Julia. "The
+  Apostolic See" was Vincent's word for Rome. It was first in authority and first in refusing anything
+  new. The two words meant different things.
 world_word: Apostolic See / "Pope" (papa) as address
 false_friend:
 - '"Pope" as the bishop of Rome exclusively, with the later constitutional office read back'
@@ -107,11 +108,12 @@ senses:
     foremost in guarding what was handed down - not a constitutional supremacy read back from later
     centuries.
 quick_meaning: >-
-  "Pope" is how we honour any revered bishop - Cassian writes to Pope Castor of Provence. "The
-  Apostolic See" is Vincent's Rome, weighty because it refused novelty. Two words, two relations.
+  "Pope" was how we honoured any revered bishop - Cassian wrote to Pope Castor of Provence. "The
+  Apostolic See" was Vincent's Rome. Pope Stephen was its bishop. He was first in authority of place,
+  and Vincent praised him for being first in refusing anything new.
 distortion_risk: high
 use_note:
-  means: "Pope meant a title of honour for any revered bishop, such as Cassian's Castor, while the Apostolic See meant Vincent's Rome, weighty because it refused novelty."
+  means: "Pope meant a title of honour for any revered bishop, such as Cassian's Castor, while the Apostolic See meant Vincent's Rome, first in authority by its place and praised for being first in refusing novelty."
   not_for:
     - "Pope as the bishop of Rome only, with the later constitutional office read back"
     - "Vincent as a proof-text for papal supremacy"

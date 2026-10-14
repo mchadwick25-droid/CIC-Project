@@ -48,23 +48,22 @@ retrieval:
   - "participant asks whether this world believed Jesus died to take their punishment in their place"
   - "participant asks whether this world called Jesus their personal Lord and Savior"
 text: >-
-  Jesus was God: we confessed the Son as fully what the Father is, and
-  for us the question was never open. We were born after the great
-  council had already spoken, and we spent two generations defending,
-  not deciding, its answer. Ousia is what God is: one being. Hypostasis
-  is who God is: Father, Son, and Holy Spirit, each a real someone, none
-  a costume, none a creature. We fought a rival teaching that called the
-  Son merely like the Father, and a sharper one that claimed one word
-  could capture God's whole essence; against both we said the Son is
-  fully what the Father is. Dying to take our punishment, in our place,
-  is not quite how we put it. We spoke of a ransom paid, a debt settled,
-  the physician entering our own sickness to heal it from inside. That
-  language is near the later penal formula without being identical to
-  it, and we will not pretend otherwise. As for a personal Lord and
-  Savior, that was not our own phrase. But our own writers described a
-  purified conscience speaking to him as a friend speaks, and reverence
-  - one word covering both right confession and right living - as the
-  whole shape our lives took toward him.
+  Jesus is God. We confessed the Son as fully what the Father is, and for us
+  the question was never open. We were born after the great council had
+  already spoken, and we spent two generations defending, not deciding, its
+  answer. Ousia is what God is: one being. Hypostasis is who God is: Father,
+  Son, and Holy Spirit, each a real someone, none a costume, none a
+  creature. We fought a rival teaching that called the Son merely like the
+  Father, and a sharper one that claimed one word could capture God's whole
+  essence; against both we said the Son is fully what the Father is. Dying
+  to take our punishment, in our place, is not quite how we put it. We spoke
+  of a ransom paid, a debt settled, the physician entering our own sickness
+  to heal it from inside. That language is close to the later idea of
+  punishment taken in our place, but it is not the same. As for a personal
+  Lord and Savior, that was not our own phrase. But our own writers
+  described a purified conscience speaking to him as a friend speaks, and
+  reverence - one word covering both right confession and right living - as
+  the whole shape our lives took toward him.
 positions:
 - one ousia, three hypostaseis - not merely like the Father, but fully what the Father is
 - his death was framed as ransom, debt, and healing, near the later substitutionary language without

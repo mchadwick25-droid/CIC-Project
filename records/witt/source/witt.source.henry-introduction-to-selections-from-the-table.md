@@ -17,6 +17,7 @@ relations: []
 author: Henry Morley
 work: Introduction to Selections from the Table Talk
 edition: (Cassell's National Library, 1886); vendored as cic/texts/luther_table-talk_bell1886.txt
+citation: Henry Morley, Introduction to Selections from the Table Talk (Cassell's National Library, 1886)
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

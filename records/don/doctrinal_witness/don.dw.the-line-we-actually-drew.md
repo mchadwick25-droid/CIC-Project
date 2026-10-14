@@ -33,8 +33,7 @@ sources:
     it
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'horizon: what is contested is legitimacy - who the true church is, and whose hand can validly
-    give what the church gives'
+  locus: 'what was contested was legitimacy - who the true church was, and whose hand could validly give what the church gives'
   license: public-domain
 retrieval:
   tier: 3
@@ -43,12 +42,12 @@ retrieval:
   - participant asks whether Christianity is too narrow, or one way out of many
   - participant asks what we held about divorce and remarriage
 text: >-
-  Our narrowness was real, and it did not point where you expect. We were
-  not chiefly concerned with the people outside. We were concerned with
-  the church across the street, which recited the same creed we did.
-  Every ounce of the exclusion you have heard about was aimed at other
-  Christians - at their bishops, their orders, their font. We drew the
-  line through the middle of the church, not around it.
+  Our narrowness was real, and it did not point where you expect. We
+  were not chiefly concerned with the people outside. We were concerned
+  with the church across the street, which recited the same creed we
+  did. All the exclusion our record shows was aimed at other Christians
+  - at their bishops, their orders, their font. We drew the line through
+  the middle of the church, not around it.
 
 
   Whether Christianity is one way among many was not where our energy
@@ -57,8 +56,7 @@ text: >-
   stranger and more specific. A man could hold every article of the
   faith, be baptized, believe rightly about God, live decently - and we
   would still wash him again if he came to us, because of whose hands
-  had been on him. That is not a fence around Christianity. It is a
-  fence down the middle of it.
+  had been on him.
 
 
   Whether we thought outsiders were going to hell, we will not say; we
@@ -66,9 +64,9 @@ text: >-
   that a man who receives faith from the faithless receives not faith
   but guilt - which is a claim about what a rite does or fails to do,
   not a claim about where anyone ends up. Our whole surviving argument
-  stays on that ground: what the hand can give. Nobody among us left a
-  page about the fate of anyone after death, and it would be easy and
-  dishonest to slide the one into the other.
+  stays on that ground: what the hand can give. No text of ours says
+  what became of anyone baptized by the other party, and it would be
+  easy and dishonest to slide the one into the other.
 
 
   Divorce and remarriage we cannot speak to at all. There is nothing.
