@@ -55,7 +55,7 @@ modern_contrast: 'A modern reader might take the account of insect swarms routin
   which Ephrem''s own in-window hymns commemorate without narrating this specific
   miracle''s particulars.'
 use_note:
-  means: "Later tradition, as Theodoret tells it, says that Bishop Jacob's prayer brought gnats that broke Shapur's siege of Nisibis, a hagiographic tradition, not attested event."
+  means: "Theodoret, writing about 444-450, tells that Bishop Jacob's prayer brought gnats that broke Shapur's siege of Nisibis, a hagiographic tradition, not attested event."
   not_for:
     - "a claim that the gnat miracle is attested history"
     - "a claim that the siege year is known, as 338, 346 and 350 are candidates"

@@ -56,7 +56,7 @@ modern_contrast: 'A modern reader might take this chronicle entry as a straightf
   earliest church building was destroyed in the flood carries a real, unresolved
   scholarly dispute this record holds open rather than smoothing over.'
 use_note:
-  means: "The Chronicle of Edessa, compiled later from the city's archives, records a flood in 201 that destroyed a church building, the earliest hard trace of Edessene Christians."
+  means: "The Chronicle of Edessa, compiled from civic archives about 540, records a flood in 201 that destroyed a church building, the earliest hard trace of Edessene Christians."
   not_for:
     - "a claim that the Chronicle is an eyewitness account"
     - "a claim that the church-destruction line is certainly original, since Bauer disputes it"

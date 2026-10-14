@@ -37,4 +37,3 @@ state: admitted
 package:
   manifest_hash: "sha256:1376142232bc2c8adaf9ebdc6522f67690da3e27b1790b52e4bf8a2d64aecb51"
   location: "packages/rzg/2026-10-14T00-43-00Z"
-story_placement: false

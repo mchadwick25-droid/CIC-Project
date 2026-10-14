@@ -1,7 +1,6 @@
 """The report-only turn checks, run after the conversation instead of on the
 live turn (slice 8): uncited claims, wholly uncited paragraphs, named-claim
-grounding, the sentence fact check, claims about a named person
-(engine.m4.person_claims), and the output families other than the
+grounding, the sentence fact check, and the output families other than the
 horizon backstop (display, conversational, pronoun, guard_proximity). Each
 reads what the voice_turn event already carries - the net's per-sentence
 result in `grounding`, the text and citations - plus the speaker world's
@@ -11,7 +10,6 @@ and guard_proximity and are not recomputed here.
 """
 from engine.m4.named_claim_grounding import find_named_claim_flags
 from engine.m4.output_check import check_output
-from engine.m4.person_claims import find_person_claim_flags
 from engine.m4.sentence_fact_check import find_unsupported_named_claims
 from engine.m4.uncited_claims import find_uncited_claims, find_uncited_paragraphs
 from engine.m7.session_reader import AuditSession, VoiceTurnRecord
@@ -67,14 +65,6 @@ def offline_checks(s: AuditSession, repositories: dict[str, dict[str, dict]]):
                 findings.append(Finding("sentence_fact_check", "review", s.session_id,
                                         f"{where}: names {', '.join(flag.get('missing') or [])} the world's records do not carry",
                                         record_ids=list(flag.get("tags") or []), excerpt=flag["sentence"][:200]))
-            for flag in find_person_claim_flags(sentences, repository_records=records):
-                said = "; ".join(
-                    f"credits {f['person']}" if f["class"] == "credited" else f"gives the reason '{f['clause']}'"
-                    for f in flag["flags"]
-                )
-                findings.append(Finding("person_claims", "review", s.session_id,
-                                        f"{where}: {said}, which its own records do not carry",
-                                        record_ids=list(flag["tags"]), excerpt=flag["sentence"][:200]))
         if _logged_before_slimming(turn):
             continue
         participant_message, history = _context(s, turn)

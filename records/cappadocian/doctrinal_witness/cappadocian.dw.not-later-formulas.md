@@ -61,7 +61,7 @@ tensions:
 - naming what we did not develop is itself part of this answer, not a way around it; this cell's specific
   later categories are simply not present in our own record to translate more precisely than this
 use_note:
-  means: "This witness says inherited guilt, a change in the bread's substance, and faith alone were not categories this world used, and that salvation was a lifelong process of theosis."
+  means: "This witness says original sin, transubstantiation and faith alone were not this world's categories, and that salvation was a lifelong process of theosis."
   not_for:
     - "a Cappadocian position on inherited guilt, which the record does not develop"
     - "mystery as an early form of transubstantiation"

@@ -14,7 +14,6 @@ from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence
 from engine.m4.name_bridge import find_figures_used, spoken_name
 from engine.m4.rhythm import RhythmTally, asks_for_the_words
-from engine.m4.story_placement import story_lines, with_placeable_stories
 from engine.m4.world_loader import LoadedWorld
 from engine.m5.routing import Directive
 
@@ -274,12 +273,9 @@ QUOTE_OFFERS_LINE = "Quotes you may place this turn, and no others: {offers}."
 QUOTE_DUE_LINE = "Place one of them in full."
 QUOTE_OPTIONAL_LINE = "Place one only where it answers the ask; no quote is needed."
 QUOTE_SPEAKER_LINE = (
-    "A marker ends a sentence that names the quote's speaker by the name listed with it, exactly as listed, "
-    "without quotation marks: the shape is \"Ephrem wrote: [[quote:id]]\", with your own verb. "
-    "A quote whose sentence does not name its speaker that way is not placed. "
+    "A marker ends a sentence that names the quote's speaker, as listed (\"Ephrem wrote: [[quote:id]]\" is the shape). "
     "Never put it after 'he' or 'she', after an unnamed teacher, or alone after an earlier sentence. "
-    "Never write the quote's words yourself, and do not say first, in other words, what it is about to say: "
-    "the lead-in names who spoke and when, and the quote says the rest."
+    "Never write the quote's words yourself."
 )
 NO_GROUND_LINE = (
     "No ground block this turn. Tag only with ids printed after 'cite as' above, each copied whole, "
@@ -299,19 +295,13 @@ def _speaker_name(label: str) -> str:
     return re.split(r"\s+--\s+|[,(;]", label or "", maxsplit=1)[0].strip() or "unattributed"
 
 
-def _offered_speaker(candidate: dict) -> str:
-    """The speaker name a quote is offered with: the one the placed-quote
-    check accepts in the marker's sentence (QuotationIndex.speaker_name)."""
-    return candidate.get("speaker_name") or _speaker_name(candidate.get("speaker"))
-
-
 def _quote_lines(offers: list[dict], *, due: bool) -> list[str]:
     """The directive's quote lines: the quotes this reply may place, by
     marker, speaker and gist, or that there are none."""
     if not offers:
         return [NO_QUOTE_LINE]
     listed = "; ".join(
-        f"[[quote:{c['id']}]], its sentence naming {_offered_speaker(c)}" + (f" ({c['gist']})" if c.get("gist") else "")
+        f"[[quote:{c['id']}]] from {_speaker_name(c.get('speaker'))}" + (f" ({c['gist']})" if c.get("gist") else "")
         for c in offers
     )
     return [
@@ -373,7 +363,6 @@ def _build_turn_directive(
     refer_back: bool = False,
     quote_offers: list[dict] | None = None,
     has_ground: bool = True,
-    story_offers: list[dict] | None = None,
 ) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
@@ -430,7 +419,6 @@ def _build_turn_directive(
         if kind_line := _kind_directive(kind, oblique):
             parts.append(kind_line)
         parts += _quote_lines(quote_offers or [], due=quote_asked or rhythm is None or rhythm.quote_due)
-        parts += story_lines(story_offers or [])
         if not has_ground:
             parts.append(NO_GROUND_LINE)
         if rhythm is not None and rhythm.figure_gate_closed:
@@ -513,7 +501,6 @@ class VoiceTurnInputs:
     turn_directive: str | None
     kind: str = "other"
     offered_ids: dict[str, list[str]] = field(default_factory=dict)
-    offered_stories: list[str] = field(default_factory=list)
 
 
 def prepare_voice_turn_inputs(
@@ -604,9 +591,6 @@ def prepare_voice_turn_inputs(
         rhythm=rhythm,
         words_asked=quote_asked,
     )
-    if world.frame.get("story_placement"):
-        turn_evidence = with_placeable_stories(turn_evidence, repository_records)
-    story_offers = [c for c in turn_evidence["candidates"] if c.get("placeable")]
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
     if context_prefix:
@@ -628,7 +612,6 @@ def prepare_voice_turn_inputs(
         refer_back=any(c.get("used_in_round") for c in turn_evidence["candidates"]),
         quote_offers=_placeable_quotes(turn_evidence),
         has_ground=bool(turn_evidence["candidates"]),
-        story_offers=story_offers,
     )
     if correction:
         turn_directive = (turn_directive or "") + correction
@@ -641,5 +624,4 @@ def prepare_voice_turn_inputs(
         turn_directive=turn_directive,
         kind=kind,
         offered_ids=_offered_ids(turn_evidence),
-        offered_stories=[c["id"] for c in story_offers],
     )

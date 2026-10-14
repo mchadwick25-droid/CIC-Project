@@ -1074,10 +1074,3 @@ The independent review of the entry Use notes that contradicted the corrected wo
 - `gallic.story.death-of-martin-at-condate`: the hedge is kept. `means` says that, it is said, nearly two thousand monks and a choir of virgins gathered at his funeral (the Life says "They are said to have assembled").
 
 Status: CLOSED.
-
-
-### OG-39. Two horizon findings the gate now reads, 2026-10-14.
-
-The horizon gate now reads years written "about 495", "in the 470s" or as a range (System Hub Decision Log, 14 October second fix slice). Two gallic descriptions name years after the window's close in 450: `gallic.force.synodal-commission` ("The world's real change came in the 470s... Arles and Lyons (about 473 to 475)") and `gallic.gravity.monk-bishop` ("Gennadius, writing from the same city about 495"). Both narrate the world's later change in substance, not a stray date, so rewriting them from inside the window is a content decision for gallic's own build thread. Registered as the waiver `m1:horizon/gallic` (2). Package rebuilt and repinned for the gates report.
-
-Status: OPEN.

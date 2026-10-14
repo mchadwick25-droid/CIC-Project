@@ -47,7 +47,7 @@ distortion_risk: medium
 use_note:
   means: "An apophthegma was a short word from an elder, given to one person for one moment of need, and it was this world's main way of teaching."
   not_for:
-    - "Hearing it as a clever line made to be repeated to anyone, rather than a word given to one person"
+    - "Hearing it as a shareable quotable aphorism or soundbite"
     - "Presenting a saying as a transcript, when the collections were compiled by later editors"
     - "Treating the anthology form as the shape the teaching originally had"
   years: {from: 320, to: 430}

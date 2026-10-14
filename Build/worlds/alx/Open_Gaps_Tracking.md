@@ -707,12 +707,3 @@ Mark's ruling of 13 October: `use_note.means` is in scope where it contradicts. 
 **Left open, out of scope here.** The term `senses.informational` and `senses.evidential` fields were read but not changed: `alx.term.prayer` still has God "already addressing" the soul, `alx.term.christ` still has the priest, king and prophet formula, and `alx.term.baptism` still speaks of Christ's death and rising. `alx.term.methexis` "not by becoming God" sits awkwardly against the "made God" wording in `incarnation` and `theosis`. One `not_for` entry on `alx.term.baptism` pulls against its corrected personal sense. `alx.term.apokatastasis` is rated Widely Accepted while all its spoken fields call it contested (a build field).
 
 Status: CLOSED for `use_note.means`; the senses fields above stay OPEN.
-
-
-### OG-26. The bee teacher's name in the quote's use note, after the 14 October retest, 2026-10-14.
-
-In the 14 October retest alx Q5 said "We do not have the teacher's name." That overstates the limit. Clement does not name his final teacher in Stromateis I.1, but Eusebius names him as Pantaenus (`alx.figure.pantaenus`; the school's line itself is held open by `alx.contested.didaskaleion-institution`). The cause was the evidence block: `alx.quote.clement-bee` `use_note.means` called him "his final, unnamed teacher". It now says Clement praises his final teacher, "whom he does not name here and Eusebius names as Pantaenus". Eusebius writes inside alx's window (to 400). The not_for line on naming Pantaenus is unchanged. Package rebuilt and repinned.
-
-alx Q4's "They believed it because..." (the third person after "your people") has no record cause; it is addressed in the engine's pronoun rule (System Hub Decision Log, 14 October second fix slice).
-
-Status: CLOSED.

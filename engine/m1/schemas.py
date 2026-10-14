@@ -525,10 +525,6 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "narrative_tier_justification": {"type": "string"},
         "tellable_as": {"type": "string"},
         "text": {"type": "string"},
-        # The spoken telling: the world's own reviewed narration of the
-        # story, readability-graded, placed word for word into a turn by
-        # code. Optional; `text` stays the unvoiced source wording.
-        "telling": {"type": "string"},
         "absent_detail": {"type": "string"},
         # Story's own version of term's senses.translational (Glossary/
         # Story/Quote Template SS2) - not yet in COMPLETION_REQUIRED;
