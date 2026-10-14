@@ -1163,7 +1163,11 @@ def assemble_evidence(
     # or hint match by construction - it knows the question is ABOUT
     # someone, not what is being asked - so it widens the ground without
     # claiming the fallback is no longer needed.
-    if not [m for m in cell_matches if not m.get("from_entity")]:
+    # A question-word match is as weak a signal, for the same reason: it
+    # knows "Who is Jesus?" asks who, not which of the world's records hold
+    # the answer, and a world whose coverage of those cells is empty still
+    # needs the fallback.
+    if not [m for m in cell_matches if not m.get("from_entity") and m.get("matched_by") != "question-word"]:
         for candidate in _fulltext_fallback_candidates(query_words=_query_words(message, asks), repository_records=repository_records):
             if candidate["id"] in seen_ids:
                 continue
