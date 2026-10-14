@@ -42,7 +42,7 @@ from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
 from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
 from engine.m4.citation_cards import _quote_speaker_label
-from engine.m4.grounding_net import scope_completion
+from engine.m4.grounding_net import QuotationIndex, scope_completion
 from engine.m4.rhythm import RhythmTally
 from engine.m5.routing import QUESTION_KINDS
 
@@ -1221,7 +1221,14 @@ def _with_quote_index(candidate: dict, repository_records: dict[str, dict]) -> d
         return candidate
     record = repository_records.get(candidate["id"]) or {}
     gist = " ".join(((record.get("use_note") or {}).get("means") or "").split())
-    return {**candidate, "speaker": _quote_speaker_label(record, repository_records) or "unattributed", "gist": gist}
+    name = QuotationIndex(repository_records).speaker_name(record) or "unattributed"
+    label = _quote_speaker_label(record, repository_records) or "unattributed"
+    head = label.split()[0]
+    if (repository_records.get(head) or {}).get("record_type") == "source":
+        # a source record's id stands for its writer: show the name, keep the note
+        label = name + label[len(head):]
+    # speaker_name: the name the placed-quote check looks for in the marker's sentence
+    return {**candidate, "speaker": label, "gist": gist, "speaker_name": name}
 
 
 def _quote_line(candidate: dict, descriptors: list[str]) -> str:
