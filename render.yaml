@@ -210,6 +210,8 @@ services:
         value: https://churchinconversation.com
       - key: CIC_DEEPER_FREE_KEY
         sync: false
+      - key: CIC_DEEPER_WEBHOOK_SECRET
+        sync: false
       - key: VITE_DEEPER_ENABLED
         value: "on"
       - key: VITE_DEEPER_SITE_ORIGIN
