@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for this account as this world's own portrait of what total combat was understood to look like - Inferential/Thin for any claim about what specifically happened in the tomb, matching desert.force.martyrdom-unavailable's own divergence_note for the identical material. Tier 3, not Tier 1: the narrative register itself (demons in physical, beast-like form; a climactic vision) signals a portrait of a formed life at its most extreme, not an incident report, unlike desert.story.antony-call and desert.story.antony-withdrawal drawn from the same Vita."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS8-10 - the demonic combat at the tombs, the beast-form attack, and the light vision"
+  locus: "SS8-10 - the demonic combat at the tombs, the beast-form attack, and the light vision; SS12-13 - the fort, the crowds clamouring outside"
   license: public-domain
 retrieval:
   tier: 2
@@ -51,7 +51,6 @@ text: >-
   once. He asked the vision where it had been at the start of his struggle. The answer: I was
   here, but I waited to see your fight. Now that you have endured and were not overcome, I will
   always be your help.
-telling: "Athanasius writes that Antony went to the tombs, which lay some distance from the village. He asked an acquaintance to bring him bread at long intervals. Then he entered a tomb, and the man shut the door on him.\n\nOne night the enemy came with a crowd of demons and beat him until he lay speechless. Next day the acquaintance found him lying as though dead and carried him to the village church. Kinsfolk and villagers sat around him as around a corpse.\n\nAbout midnight Antony came to himself. Everyone was asleep except the acquaintance, so he motioned with his head and asked to be carried back to the tombs without waking anybody.\n\nAlone again, he lay unable to stand. That night the demons seemed to break through the walls in the likeness of lions, bears, leopards, serpents and wolves. Antony mocked them: \"If you had any power, one of you would be enough. But the Lord has made you weak, so you try to frighten me with numbers. And taking the shapes of beasts proves how weak you are.\"\n\nThen the roof seemed to open, and a ray of light came down. The demons vanished and the pain stopped. Antony asked, \"Where were you? Why did you not appear at the start, to end my pain?\" A voice answered: \"Antony, I was here, but I waited to see your fight. You have endured and have not given way. So I will always help you, and I will make your name known everywhere.\""
 absent_detail: "The demons-as-beasts imagery is this world's own chosen register for representing interior struggle at its most extreme, not a claim about literal historical events - it is not a neutral incident report."
 modern_contrast: "A modern reader may hear a man alone in a tomb, beaten until he cannot speak, refusing care and returning to the same place, and reach for a mental-health frame (a psychiatric crisis, self-harm) rather than this world's own frame. This world's own record holds it as the most extreme instance of spiritual combat against the interior enemy (desert.gravity.spiritual-combat), the same struggle that replaced martyrdom once dying for the faith was no longer possible (desert.force.martyrdom-unavailable) - not a crisis to be treated, but total combat willingly sought. It is not a neutral incident report."
 use_note:
@@ -63,8 +62,8 @@ use_note:
   years: {from: 270, to: 286}
   status: reviewed
 ---
-SS8-9 are verified directly against the vendored file (passages
-desert.force.martyrdom-unavailable also cites). S9 carries the
+SS8-9 and SS12-13 are verified directly against the vendored file (the
+same passages desert.force.martyrdom-unavailable cites). S9 carries the
 beast-form combat and Antony's own taunts; S10 carries the light vision's
 own exchange; both are quoted here close to the vendored file's own
 wording.

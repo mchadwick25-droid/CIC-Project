@@ -105,7 +105,6 @@ def run(region: str, *, world_key: str = "fix", messages: list[str] | None = Non
     # what the voice remembers. This module still makes no store writes: the
     # transcript lives for the length of the run and is thrown away.
     carry_session = messages is not None
-    stopped_at = None
     transcript: list[dict] = []
     results = []
     turn_results = []
@@ -118,28 +117,21 @@ def run(region: str, *, world_key: str = "fix", messages: list[str] | None = Non
         bridged_figures = {f["id"] for turn in transcript for f in (turn.get("figures_used") or [])}
         bridged_glosses = {g["id"] for turn in transcript for g in (turn.get("glosses") or [])}
         history = history_from_transcript(transcript) if carry_session else []
-        try:
-            result = run_turn(
-                session_id=SYSTEM_SESSION_ID,
-                voice_client=client,
-                voice_model_id=voice_model_id,
-                safety_client=client,
-                safety_model_id=safety_model_id,
-                world=world,
-                participant_message=scenario["message"],
-                pressed={},
-                anachronistic_term_ids=set(),
-                already_told_ids=told if carry_session else None,
-                already_bridged_figure_ids=bridged_figures if carry_session else None,
-                already_bridged_gloss_ids=bridged_glosses if carry_session else None,
-                history=history,
-            )
-        except guard.LiveTestCapReached:
-            # The cap stops the run before a call that could pass it. The
-            # turns already paid for stay in the report, and the report says
-            # where the run stopped.
-            stopped_at = scenario["id"]
-            break
+        result = run_turn(
+            session_id=SYSTEM_SESSION_ID,
+            voice_client=client,
+            voice_model_id=voice_model_id,
+            safety_client=client,
+            safety_model_id=safety_model_id,
+            world=world,
+            participant_message=scenario["message"],
+            pressed={},
+            anachronistic_term_ids=set(),
+            already_told_ids=told if carry_session else None,
+            already_bridged_figure_ids=bridged_figures if carry_session else None,
+            already_bridged_gloss_ids=bridged_glosses if carry_session else None,
+            history=history,
+        )
         turn_results.append(result)
         transcript.append({"speaker": "participant", "text": scenario["message"]})
         if result.voice_event:
@@ -162,7 +154,6 @@ def run(region: str, *, world_key: str = "fix", messages: list[str] | None = Non
         "live_test": guard.run_summary(),
         "usage": _usage_rows(turn_results),
         "results": results,
-        "stopped_by_cap_at": stopped_at,
         # Only the fixture scenarios can prove this - a formation-world run
         # asks a different question of the system and reports None rather
         # than a pass it never tested for.
@@ -203,9 +194,7 @@ def main() -> int:
         for d in shipped_defects:
             print(f"  [{d.get('id')}] {d.get('family')}: {d.get('finding')}", flush=True)
 
-    if report["stopped_by_cap_at"]:
-        print(f"\nSTOPPED BY CAP at {report['stopped_by_cap_at']}: the report keeps the {len(report['results'])} turn(s) that ran", flush=True)
-    return 0 if report["crisis_append_proven"] is not False and not shipped_defects and not report["stopped_by_cap_at"] else 1
+    return 0 if report["crisis_append_proven"] is not False and not shipped_defects else 1
 
 
 if __name__ == "__main__":

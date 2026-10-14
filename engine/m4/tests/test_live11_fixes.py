@@ -62,7 +62,7 @@ def test_a_turn_that_offers_quotes_lists_exactly_those_ids_with_speaker_and_gist
     text = _directive(quote_offers=candidates)
     for rid in offered:
         assert f"[[quote:{rid}]]" in text
-    assert "[[quote:syr.quote.nativity-this-is-the-day]], its sentence naming Ephrem (" in text
+    assert "[[quote:syr.quote.nativity-this-is-the-day]] from Ephrem (" in text
     assert turn_prep.QUOTE_DUE_LINE in text and turn_prep.QUOTE_SPEAKER_LINE in text
     assert turn_prep.NO_QUOTE_LINE not in text and turn_prep.NO_GROUND_LINE not in text
 
@@ -99,23 +99,15 @@ def test_in_his_own_words_and_things_he_said_in_narration_are_not_attributions(w
 
 
 def test_narration_after_an_attribution_that_held_its_own_words_stays():
-    # desert Q5: Moses' words are still cut, because the voice reworded the
-    # saying ("the errors of another man"; the story says "faults that are
-    # not mine"); the story's outcome is not
+    # desert Q5: Moses' words are still cut; the story's outcome is not
     cut = _cut("desert", 5)
     assert any(s.startswith("When the others asked what he was doing, he said:") for s in cut)
     assert _shown("desert", 5, "The elders heard him and released the brother without punishment.")
 
 
 def test_words_that_run_on_after_an_attribution_are_still_cut():
-    # desert Q2: the second sentence is still the elder's words
+    # desert Q2 and Q4: the second sentence is still the elder's words
     assert "It is Christ who works them, by means of those who believe in him." in _cut("desert", 2)
-
-
-def test_direct_speech_of_a_quotes_words_is_that_quote_even_when_a_witness_repeats_them():
-    # desert Q4: desert.dw.god says the same words, but after "said:" they
-    # are the Antony formula's, a quote record: placed, or not said
-    assert any(s.startswith("He stood up in Alexandria and said:") for s in _cut("desert", 4))
     assert "There was never a time when he was not." in _cut("desert", 4)
 
 
@@ -146,8 +138,7 @@ def test_words_only_a_quote_holds_are_still_its_words():
 
 
 def test_a_quoted_phrase_put_in_someones_mouth_is_no_term_gloss():
-    # don Q3: the petition's words, quoted, with "and said". don.term.ecclesia
-    # holds them only inside its own quotation marks, as the petition's.
+    # don Q3: the petition's words, quoted, with "and said"
     assert any("of the party of Donatus" in s for s in _cut("don", 3))
 
 
@@ -162,25 +153,13 @@ def test_a_cut_typed_quotation_leaves_no_stray_quotation_mark(world, q):
 
 
 def test_a_quote_the_net_refuses_does_not_take_the_replys_one_place():
-    # ijc Q4: the Leo quote's lead-in ("He wrote of one Mediator...") names
-    # no one, so it is refused; the Chalcedon definition, offered and next,
-    # is placed under a lead-in that names the council
-    net_result = _replayed("ijc", 4)["first_net"]
-    assert net_result["reply_shape"]["placed"] == ["ijc.quote.chalcedon-definition"]
-    whys = [(r["draft"], r["why"]) for r in net_result["reply_shape"]["removed"]]
-    assert [why for draft, why in whys if "leo-tome-each-form" in draft] == [grounding_net.REASON_SPEAKER_UNNAMED]
-    assert not [why for _draft, why in whys if why == "second placed quote in one reply"]
-
-
-def test_quotes_whose_lead_in_names_another_person_are_refused():
-    # hal Q4: eyes-of-faith is introduced as Paula's words (Jerome's record),
-    # and hail-bethlehem after "Then she cried out": both name Paula, and the
-    # speaker of both records is Jerome
+    # hal Q4: eyes-of-faith is introduced as Paula's words (Jerome's record)
+    # and is refused; hail-bethlehem, offered and next, is placed
     net_result = _replayed("hal", 4)["first_net"]
-    assert net_result["reply_shape"]["placed"] == []
+    assert net_result["reply_shape"]["placed"] == ["hal.quote.hail-bethlehem"]
     whys = [(r["draft"], r["why"]) for r in net_result["reply_shape"]["removed"]]
     assert [why for draft, why in whys if "eyes-of-faith" in draft] == [REASON_PLACED_MISMATCH]
-    assert [why for draft, why in whys if "hail-bethlehem" in draft] == [grounding_net.REASON_SPEAKER_UNNAMED]
+    assert not [why for _draft, why in whys if why == "second placed quote in one reply"]
 
 
 def test_a_removed_marker_sentence_is_reported_once():
@@ -262,15 +241,8 @@ def test_the_replay_over_all_66_drafts():
     assert counts["turns"] == 66
     # nothing ungrounded is sent: witt Q1 falls back to its answer record
     assert counts["degraded_sent"] == 0 and counts["fallbacks"] == 1
-    # 51 and 5 after the first fix slice. The second slice releases wording
-    # the cited records hold as their own (3 sentences), refuses quotes whose
-    # lead-in names no speaker (9 lead-ins), and cuts desert Q4's direct
-    # speech of the Antony formula as that quote's words (2 sentences that
-    # had stood); hal Q4's lead-in, listed as an overcut, names Paula for
-    # Jerome's record and goes with its quote.
-    assert counts["cuts"] == 56
-    assert counts["overcuts_still_cut"] == 6
-    assert counts["placed_quotes"] == 4 and counts["placed_without_speaker_named"] == 0
+    assert counts["cuts"] == 51
+    assert counts["overcuts_still_cut"] == 5
     assert counts["stray_punctuation_sentences"] == 1
 
 

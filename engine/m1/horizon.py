@@ -25,23 +25,11 @@ _ORDINALS = {
     "ninth": 9, "tenth": 10, "eleventh": 11, "twelfth": 12, "thirteenth": 13, "fourteenth": 14,
     "fifteenth": 15, "sixteenth": 16, "seventeenth": 17, "eighteenth": 18, "nineteenth": 19, "twentieth": 20,
 }
-# A number counting something ("about 500 monks") is not a year.
-_COUNTED = (
-    r"(?!\s*(?:BC|B\.C\.|BCE|B\.C\.E\.|years|copies|people|men|women|miles|monks|nuns|bishops|brothers|sisters"
-    r"|letters|pages|lines|verses|times|days|soldiers|martyrs|households|families|villages|churches)\b)"
-)
-# A range in parentheses names a span of years ("(411-435)"), unless a
-# reference stands before it ("Psalms (119-120)", "lines (1954-1958)").
-_REFERENCE_BEFORE = re.compile(r"(?:psalms?|lines?|pp?\.|pages?|chapters?|ch\.|sections?|sec\.|verses?|nos?\.)\s*$", re.IGNORECASE)
 _ERA_YEAR = re.compile(
     r"\b(?:AD|A\.D\.)\s*(\d{3,4})\b|\b(\d{3,4})\s*(?:AD|A\.D\.|CE|C\.E\.)\b"
-    rf"|\b(?:in|by|after|until|from|around|about|circa|c\.)\s+(\d{{3,4}})\b{_COUNTED}"
-    r"|\bin\s+the\s+(\d{2,3}0)s\b"
-    r"|\((?P<range>\s*(\d{3,4})\s*[-\u2013]\s*\d{2,4}\s*)\)"
-    rf"|\b(?:about|around|c\.|circa)\s+(\d{{3,4}})\s*[-\u2013]\s*\d{{2,4}}\b{_COUNTED}",
+    r"|\b(?:in|by|after|until|from|around|circa|c\.)\s+(\d{3,4})\b(?!\s*(?:BC|B\.C\.|BCE|B\.C\.E\.|years|copies|people|men|women|miles))",
     re.IGNORECASE,
 )
-_GROUP_NAMES = [next((n for n, i in _ERA_YEAR.groupindex.items() if i == k), None) for k in range(1, _ERA_YEAR.groups + 1)]
 _CENTURY = re.compile(r"\b(" + "|".join(_ORDINALS) + r"|\d{1,2}(?:st|nd|rd|th))[- ]century\b(?!\s*(?:BC|B\.C\.|BCE))", re.IGNORECASE)
 
 
@@ -76,9 +64,7 @@ def post_window_mentions(text: str, window_end: int, terms: list[tuple[str, int,
         if year > window_end and pattern.search(text):
             found.append(f"{label} ({year})")
     for match in _ERA_YEAR.finditer(text):
-        if match.group("range") and _REFERENCE_BEFORE.search(text[: match.start()]):
-            continue
-        year = int(next(g for name, g in zip(_GROUP_NAMES, match.groups()) if g and name != "range"))
+        year = int(next(g for g in match.groups() if g))
         if window_end < year <= _LATEST_YEAR:
             found.append(f"the year {year}")
     for match in _CENTURY.finditer(text):

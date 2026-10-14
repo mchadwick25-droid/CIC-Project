@@ -845,10 +845,6 @@ def build_frame_json(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         "living_tradition_flag": registry_entry.get("living_tradition_flag", False),
         "frames": {"general_seeker": {"starters": starters}},
     }
-    # Written only for a world that turns story placement on, so every other
-    # world's frame.json stays byte-identical (engine.m4.quote_placement).
-    if registry_entry.get("story_placement"):
-        payload["story_placement"] = True
     return canonical_json(payload)
 
 

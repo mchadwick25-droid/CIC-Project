@@ -17,13 +17,13 @@ confidence:
     of the Greek exists to check it against. Anything resting on that clause stays unquotable.'
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: §525 (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt line 2438) - Budge's Syriac recension
+  locus: §525 (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt line 2429) - Budge's Syriac recension
     of 'Anan-Isho', whose numbering and wording differ from the Greek alphabetical collection
   license: public-domain
 text: Mother Sarah used to say to her brethren, “It is I who am a man, and ye who are women.”
 modern_rendering: >-
-  Mother Sarah used to say to her brothers: 'It is I who am a man, and you
-  who are women.'
+  Mother Sarah used to say to her brothers: 'It is I who am the man, and you
+  who are the women.'
 speaker_or_author: desert.figure.sarah
 license: verbatim
 modern_lens_note: '"Man" and "women" operate here as this world''s own gendered virtue-categories (courage
@@ -34,6 +34,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks how men in this world spoke to and about a woman"
+  - "participant asks whether a woman was ever tested or challenged, and how she answered"
 relations:
 - type: associated-with
   target: desert.story.sarah-answer
@@ -49,7 +50,7 @@ use_note:
   status: reviewed
 ---
 Verified character for character against the vendored Budge at line
-2438, §525.
+2429, §525.
 
 The fuller form of the saying - "By nature I am a woman, but not by my
 own thoughts. It is I who am the man here, and you who are the women" -

@@ -118,13 +118,6 @@ def word_count(s: str) -> int:
     return len(s.split())
 
 
-# A story's `telling` is excluded on the same ground as a `quote` record:
-# the speech inside it is a modern-English rendering, authored and checked
-# against the vendored source like a quote's modern_rendering, so the
-# question this survey asks is already owned for it.
-_OWNED_RENDERING_FIELDS = {("story", "telling")}
-
-
 def _field_texts(record: dict) -> list[tuple[str, str]]:
     """(field_key, text) for every spoken (voice-diet or evidence-head)
     string this record's own declared fields carry. A field can hold a
@@ -146,8 +139,6 @@ def _field_texts(record: dict) -> list[tuple[str, str]]:
                 walk(item, key)
 
     for field in roles:
-        if (record.get("record_type"), field) in _OWNED_RENDERING_FIELDS:
-            continue
         if field in record:
             walk(record[field], field)
     return out

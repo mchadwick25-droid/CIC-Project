@@ -32,4 +32,3 @@ living_tradition_flag: true
 package:
   manifest_hash: "sha256:27b05b742d90e03c8cbc2c23ad739eba0c5c63f07603d704c07fd88493cdae3b"
   location: "packages/witt/2026-10-13T20-15-56Z"
-story_placement: false

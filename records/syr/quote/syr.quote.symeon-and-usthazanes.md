@@ -40,7 +40,7 @@ relations:
 - type: associated-with
   target: syr.dw.outsiders-empire
 use_note:
-  means: "Sozomen, a later Greek historian writing in Constantinople, reports that the Persian magi turned against Christians once they multiplied, formed churches, and appointed priests and deacons."
+  means: "Sozomen, writing in Constantinople in the 440s, reports that the Persian magi turned against Christians once they multiplied, formed churches, and appointed priests and deacons."
   not_for:
     - "an eyewitness or Persian account rather than a Roman-side historian's martyrdom narrative"
     - "a claim that the source names Christian belief alone, rather than visible organisation, as the provocation"

@@ -27,6 +27,5 @@ thinness_statement: "Richest in the letters, orations, and treatises of Basil, G
 living_tradition_flag: true
 state: admitted
 package:
-  manifest_hash: "sha256:6dd866633f5af31c5cf050c1bdd3f767ed647e8d6903b587048f9be789fa0eea"
-  location: "packages/cappadocian/2026-10-14T04-44-04Z"
-story_placement: false
+  manifest_hash: "sha256:6f69be8cc0f87d8171c73993d59c9eb16d1954aee991671ab26988450574b591"
+  location: "packages/cappadocian/2026-10-13T19-42-18Z"

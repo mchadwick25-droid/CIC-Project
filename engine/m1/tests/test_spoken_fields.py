@@ -36,7 +36,7 @@ def test_attribution_fields_relocated_unchanged():
         "term": ["plain_meaning", "quick_meaning", "world_word"],
         "doctrinal_witness": ["text"],
         "honest_limit": ["statement"],
-        "story": ["tellable_as", "text", "telling"],
+        "story": ["tellable_as", "text"],
         "fleet_voice": ["pronoun_rule", "citation_contract", "limit_discipline"],
     }
 
@@ -44,7 +44,7 @@ def test_attribution_fields_relocated_unchanged():
 def test_perspective_fields_relocated_unchanged():
     assert gates._PERSPECTIVE_FIELDS == {
         "term": ["plain_meaning", "quick_meaning"],
-        "story": ["tellable_as", "text", "telling"],
+        "story": ["tellable_as", "text"],
         "ambient": ["detail"],
         "doctrinal_witness": ["text"],
         "honest_limit": ["statement"],
@@ -55,7 +55,7 @@ def test_participant_fields_relocated_unchanged():
     assert cross_world._PARTICIPANT_FIELDS == {
         "figure": ["bridge_line"],
         "term": ["world_word"],
-        "story": ["tellable_as", "telling"],
+        "story": ["tellable_as"],
         "gravity": ["name"],
         "force": ["name"],
         "contested_claim": ["claim"],
@@ -171,7 +171,7 @@ def test_modern_term_card_reads_are_all_declared():
 
 
 def test_fields_with_role_filters_correctly():
-    assert fields_with_role("story") == ["tellable_as", "text", "telling"]
+    assert fields_with_role("story") == ["tellable_as", "text"]
     assert fields_with_role("story", "voice-diet") == ["tellable_as", "text"]
     assert fields_with_role("voice_craft", "instruction") == [
         "identity", "guard", "characteristic_concerns", "source_anchor", "flavor_notes",
