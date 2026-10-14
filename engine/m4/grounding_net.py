@@ -81,7 +81,7 @@ _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 # transcript for transparency markup: one turn's raw text ended inside an
 # unclosed "[[don.dw.room-for-diss", which strip_tags' own re.sub below
 # left untouched, verbatim, brackets and all.
-_DANGLING_TAG = re.compile(r"\[\[(?:\s*quote\s*:\s*)?[a-z0-9_.-]*\Z", re.IGNORECASE)
+_DANGLING_TAG = re.compile(r"\[\[(?:\s*(?:quote|story)\s*:\s*)?[a-z0-9_.-]*\Z", re.IGNORECASE)
 
 
 def _drop_truncated_tail(text: str) -> tuple[str, bool]:
@@ -114,12 +114,15 @@ def _drop_truncated_tail(text: str) -> tuple[str, bool]:
 # A quote marker, [[quote:<record id>]]: where the voice asks for a quote
 # record's rendering to be placed (engine.m4.quote_placement).
 QUOTE_MARKER = re.compile(r"\[\[\s*quote\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORECASE)
-_DISPLAY_TAG = re.compile(rf"\s*(?:\[\[[a-z0-9_.-]+\]\]|(?i:{QUOTE_MARKER.pattern}))")
+# A story marker, [[story:<record id>]]: where the voice asks for a story
+# record's telling to be placed (engine.m4.story_placement).
+STORY_MARKER = re.compile(r"\[\[\s*story\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORECASE)
+_DISPLAY_TAG = re.compile(rf"\s*(?:\[\[[a-z0-9_.-]+\]\]|(?i:{QUOTE_MARKER.pattern})|(?i:{STORY_MARKER.pattern}))")
 
 
 def strip_tags(text: str) -> str:
     """The display transform: what the participant-facing stream emits.
-    Record tags and quote markers both come off."""
+    Record tags and quote and story markers come off."""
     text, _ = _drop_truncated_tail(text)
     return _DISPLAY_TAG.sub("", text)
 
@@ -689,6 +692,8 @@ REASON_PLACED_MISMATCH = "placed quote does not match its record"
 REASON_LEAD_TYPES_QUOTATION = "lead-in to a placed quote types a quotation of its own"
 REASON_SPEAKER_UNNAMED = "lead-in to a placed quote does not name its speaker"
 WHY_PLACED = "quote placed by code, verbatim to its record"
+REASON_STORY_MISMATCH = "placed story does not match its record"
+WHY_STORY_PLACED = "story placed by code, verbatim to its record"
 
 # A sentence withheld for one of these reasons carries a quote's words, or
 # words attributed to someone, that code did not place. It is dropped from
@@ -696,7 +701,7 @@ WHY_PLACED = "quote placed by code, verbatim to its record"
 QUOTATION_DROP_REASONS = frozenset({
     REASON_TYPED_QUOTATION, REASON_ATTRIBUTION, REASON_ATTRIBUTION_LEAD, REASON_UNPLACED_WORDS, REASON_LEAD_IN,
     REASON_QUOTE_RECORD_UNPLACED, REASON_QUOTE_RECORD_UNVOICED, REASON_QUOTE_WORDS, REASON_PLACED_MISMATCH,
-    REASON_WORDS_WITHOUT_QUOTE_RECORD, REASON_LEAD_TYPES_QUOTATION, REASON_SPEAKER_UNNAMED,
+    REASON_WORDS_WITHOUT_QUOTE_RECORD, REASON_LEAD_TYPES_QUOTATION, REASON_SPEAKER_UNNAMED, REASON_STORY_MISMATCH,
 })
 
 # Attribution formulas. A quotation needs no quotation marks to be one:
@@ -977,6 +982,25 @@ def _placed_verdict(text: str, tags: list[str], records: dict[str, dict], index:
     return {"sentence": text, "tags": tags, "verdict": "ok", "why": WHY_PLACED, "placed_quote": record_id}
 
 
+def _placed_story_verdict(text: str, tags: list[str], records: dict[str, dict], record_id: str) -> dict:
+    """A sentence of a story record's telling that code placed: it stands
+    in the telling word for word, tagged with that record. The telling's
+    speech is the record's own rendering, so no quotation check applies."""
+    record = records.get(record_id) or {}
+    holds = (
+        record.get("record_type") == "story" and record_id in tags and bool(text.strip())
+        and placed_key(text) in placed_key(record.get("telling") or "")
+    )
+    if not holds:
+        return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_STORY_MISMATCH}
+    return {"sentence": text, "tags": tags, "verdict": "ok", "why": WHY_STORY_PLACED, "placed_story": record_id}
+
+
+def _placed(entry: dict) -> bool:
+    """The sentence is code's: a placed quote, or a sentence of a placed story."""
+    return bool(entry.get("placed_quote") or entry.get("placed_story"))
+
+
 def placed_quote_refusal(composed: str, records: dict[str, dict], index: QuotationIndex, record_id: str) -> str | None:
     """Why the net's placed-quote check refuses a sentence code composed
     around a quote record (tags included), or None when it passes: the one
@@ -1005,6 +1029,8 @@ def _quotation_verdict(
     or term (QuotationIndex.own_telling); and so is a sentence that gives a
     quote in other words (_unplaced_quote)."""
     if placed_id is not None:
+        if (records.get(placed_id) or {}).get("record_type") == "story":
+            return _placed_story_verdict(text, tags, records, placed_id)
         return _placed_verdict(text, tags, records, index, placed_id)
     checked = _checked_pairs(text)
     outside = _outside_quotations(text, checked)
@@ -1089,7 +1115,7 @@ def _apply_quotation_context(entries: list[dict], sizes: list[int]) -> None:
     starts = [sum(sizes[:p]) for p in range(len(sizes))]
 
     def withhold(i: int, why: str) -> None:
-        if not entries[i].get("placed_quote"):
+        if not _placed(entries[i]):
             entries[i].update(verdict="withhold", why=why)
 
     for i, entry in enumerate(entries):
@@ -1112,13 +1138,13 @@ def _apply_quotation_context(entries: list[dict], sizes: list[int]) -> None:
         else:
             followers = range(0)
         if lead_only:
-            if followers and entries[followers[0]].get("placed_quote"):
+            if followers and _placed(entries[followers[0]]):
                 continue
             withhold(i, REASON_ATTRIBUTION_LEAD)
         for k in followers:
             # the words end where a placed quote begins, or where the story
             # they were spoken in is narrated again (_narrates_story)
-            if entries[k].get("placed_quote") or (not lead_only and entries[k].get("narrates_story")):
+            if _placed(entries[k]) or (not lead_only and entries[k].get("narrates_story")):
                 break
             withhold(k, REASON_UNPLACED_WORDS)
 
@@ -1450,7 +1476,7 @@ def sentence_spans(tagged_text: str) -> list[str]:
     return [sent["raw"] for paragraph in split_into_paragraphs(tagged_text) for sent in parse_tagged(paragraph)]
 
 
-def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str]) -> str:
+def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str], *, positions: set[int] | None = None) -> str:
     """Removes each named sentence's own raw span - tag included - from
     tagged_text, whole, and rejoins what is left. The one enforcement
     action a caller may take on a flagged sentence that is not "regenerate
@@ -1476,13 +1502,31 @@ def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str]) -> str
     whose own next sentence was the one dropped) can still read as an
     unfinished promise - a semantic dangling fragment this string-level
     operation has no way to see, as opposed to the structural one
-    (broken punctuation, an empty paragraph) it does prevent."""
+    (broken punctuation, an empty paragraph) it does prevent.
+
+    With `positions`, the sentences dropped are those at these indices in
+    the turn's sentence order, not every sentence with a flagged text: a
+    sentence code placed stays when the voice wrote the same words again."""
     kept_paragraphs = []
+    index = 0
     for paragraph in split_into_paragraphs(tagged_text):
-        kept_sentences = [sent["raw"] for sent in parse_tagged(paragraph) if sent["text"] not in flagged_sentences]
+        kept_sentences = []
+        for sent in parse_tagged(paragraph):
+            dropped = index in positions if positions is not None else sent["text"] in flagged_sentences
+            index += 1
+            if not dropped:
+                kept_sentences.append(sent["raw"])
         if kept_sentences:
             kept_paragraphs.append(" ".join(kept_sentences))
     return "\n\n".join(kept_paragraphs)
+
+
+def _placed_id(placed: dict[str, str] | None, sent: dict) -> str | None:
+    """The record code placed in this sentence: its text is a placed
+    sentence's and it carries that record's tag. The same words the voice
+    wrote again, untagged or tagged otherwise, get the ordinary checks."""
+    record_id = (placed or {}).get(placed_key(sent["text"]))
+    return record_id if record_id in sent["tags"] else None
 
 
 def check_turn_with_paragraph_coverage(
@@ -1558,7 +1602,7 @@ def check_turn_with_paragraph_coverage(
                 thin_topics=thin_topics,
                 grounding_floor=grounding_floor,
                 quotation_index=quotation_index,
-                placed_quote_id=(placed or {}).get(placed_key(sent["text"])),
+                placed_quote_id=_placed_id(placed, sent),
                 paragraph_tags=own_record_ids,
             )
             for sent in parsed

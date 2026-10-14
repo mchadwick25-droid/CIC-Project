@@ -55,6 +55,7 @@ from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_horizon
 from engine.m4.quote_placement import PlacementContext, place_quotes
+from engine.m4.story_placement import place_stories
 from engine.m4.recitation import DIRECTIVE_LINE, DemonstrationIndex
 from engine.m4.seat_identity_guard import find_seat_identity_violation
 from engine.m4.sentence_stream import SentenceStream
@@ -348,11 +349,17 @@ def apply_net(
     M3's LiveModelAnswerer calls this function too, so admission grades
     the text a participant would read."""
     placement = placement or PlacementContext()
+    stories = place_stories(grounding_net.strip_markdown(raw_text), repository_records=repository_records, context=placement)
     shaped = place_quotes(
-        grounding_net.strip_markdown(raw_text), repository_records=repository_records, context=placement,
+        stories["text"], repository_records=repository_records, context=placement, sealed=frozenset(stories["placed"]),
     )
+    shaped = {
+        **shaped,
+        "placed_sentences": {**stories["placed_sentences"], **shaped["placed_sentences"]},
+        "placed_drafts": {**stories["placed_drafts"], **shaped["placed_drafts"]},
+    }
     tagged = shaped["text"]
-    removed = list(shaped["removed"])
+    removed = [*stories["removed"], *shaped["removed"]]
     while True:
         net_result = grounding_net.check_turn_with_paragraph_coverage(
             tagged, repository_records, thin_topics=thin_topics, quotable_texts=quotable_texts,
@@ -368,8 +375,10 @@ def apply_net(
         ]
         if not going:
             break
+        aligned = len(spans) == len(net_result["sentences"])
         shorter = grounding_net.drop_flagged_sentences(
             tagged, {entry.get("source_sentence") or entry["sentence"] for entry in going},
+            positions={i for i, entry in enumerate(net_result["sentences"]) if any(entry is g for g in going)} if aligned else None,
         )
         if shorter == tagged:
             break
@@ -380,7 +389,7 @@ def apply_net(
         tagged = shorter
     shown = {grounding_net.placed_key(entry["sentence"]) for entry in net_result["sentences"]}
     net_result["reply_shape"] = {
-        "placed": [rid for sentence, rid in shaped["placed_sentences"].items() if sentence in shown],
+        "placed": list(dict.fromkeys(rid for sentence, rid in shaped["placed_sentences"].items() if sentence in shown)),
         "removed": removed,
     }
     text = grounding_net.shown_text(tagged, net_result["sentences"])
@@ -427,7 +436,10 @@ def _same_slug_witness(record_id: str, repository_records: dict[str, dict]) -> d
 
 def _claims_ground(raw_text: str) -> bool:
     """The draft cites a record or marks a quote: it says it is grounded."""
-    return bool(grounding_net._TAG.search(raw_text) or grounding_net.QUOTE_MARKER.search(raw_text))
+    return bool(
+        grounding_net._TAG.search(raw_text) or grounding_net.QUOTE_MARKER.search(raw_text)
+        or grounding_net.STORY_MARKER.search(raw_text)
+    )
 
 
 def settle_reply(
@@ -694,6 +706,7 @@ def _run_ordinary_voice_turn(
     placement = PlacementContext(
         offered=frozenset(prepared.offered_ids.get("quote", [])),
         voiced=frozenset(voiced_quotes), told_stories=frozenset(told_stories),
+        offered_stories=frozenset(prepared.offered_stories),
     )
     _net = functools.partial(apply_net, quotable_texts=echo_sources, placement=placement)
 

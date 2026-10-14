@@ -14,6 +14,7 @@ from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence
 from engine.m4.name_bridge import find_figures_used, spoken_name
 from engine.m4.rhythm import RhythmTally, asks_for_the_words
+from engine.m4.story_placement import story_lines, with_placeable_stories
 from engine.m4.world_loader import LoadedWorld
 from engine.m5.routing import Directive
 
@@ -372,6 +373,7 @@ def _build_turn_directive(
     refer_back: bool = False,
     quote_offers: list[dict] | None = None,
     has_ground: bool = True,
+    story_offers: list[dict] | None = None,
 ) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
@@ -428,6 +430,7 @@ def _build_turn_directive(
         if kind_line := _kind_directive(kind, oblique):
             parts.append(kind_line)
         parts += _quote_lines(quote_offers or [], due=quote_asked or rhythm is None or rhythm.quote_due)
+        parts += story_lines(story_offers or [])
         if not has_ground:
             parts.append(NO_GROUND_LINE)
         if rhythm is not None and rhythm.figure_gate_closed:
@@ -510,6 +513,7 @@ class VoiceTurnInputs:
     turn_directive: str | None
     kind: str = "other"
     offered_ids: dict[str, list[str]] = field(default_factory=dict)
+    offered_stories: list[str] = field(default_factory=list)
 
 
 def prepare_voice_turn_inputs(
@@ -600,6 +604,9 @@ def prepare_voice_turn_inputs(
         rhythm=rhythm,
         words_asked=quote_asked,
     )
+    if world.frame.get("story_placement"):
+        turn_evidence = with_placeable_stories(turn_evidence, repository_records)
+    story_offers = [c for c in turn_evidence["candidates"] if c.get("placeable")]
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
     if context_prefix:
@@ -621,6 +628,7 @@ def prepare_voice_turn_inputs(
         refer_back=any(c.get("used_in_round") for c in turn_evidence["candidates"]),
         quote_offers=_placeable_quotes(turn_evidence),
         has_ground=bool(turn_evidence["candidates"]),
+        story_offers=story_offers,
     )
     if correction:
         turn_directive = (turn_directive or "") + correction
@@ -633,4 +641,5 @@ def prepare_voice_turn_inputs(
         turn_directive=turn_directive,
         kind=kind,
         offered_ids=_offered_ids(turn_evidence),
+        offered_stories=[c["id"] for c in story_offers],
     )

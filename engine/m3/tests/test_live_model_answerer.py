@@ -146,3 +146,23 @@ def test_admission_text_shape_is_productions_own_apply_net_verbatim():
     assert "[[" not in result.text
     assert result.citations == sorted({rid for e in expected_entries for rid in e["record_ids"]})
     assert "fix.invented.record" not in result.citations
+
+
+STORY = {
+    "id": "fix.story.meal", "record_type": "story", "tellable_as": "Jesus broke bread at the meal",
+    "telling": "We tell how Jesus broke bread at the meal. They ate together.",
+}
+
+
+def test_a_world_that_places_stories_places_them_in_admission_as_in_a_live_turn():
+    coverage = {"C-I": {**_EMPTY_CELL, "stories": ["fix.story.meal"]}}
+    world = LoadedWorld(**{**_world(coverage).__dict__, "repository": {"records": [WITNESS, LIMIT, STORY]},
+                           "frame": {"story_placement": True}})
+    client = FakeClient(stream_chunks=["We tell of Jesus at the meal [[story:fix.story.meal]]."])
+    answerer = LiveModelAnswerer(world=world, canon_questions=CANON_QUESTIONS, client=client, model_id="m")
+
+    result = answerer.answer("C-I", ASK_TEXT)
+
+    assert "[[story:fix.story.meal]]" in client.messages.captured_stream_calls[0][1][0]["content"]
+    assert result.text == "We tell of Jesus at the meal:\n\nWe tell how Jesus broke bread at the meal. They ate together."
+    assert result.citations == ["fix.story.meal"]

@@ -28,6 +28,13 @@ def test_a_long_quoted_span_at_or_above_the_word_floor_is_flagged():
     assert hits[0]["field"] == "text"
 
 
+def test_a_story_telling_is_never_surveyed_but_its_text_still_is():
+    """A telling's speech is an owned rendering, like a quote record's."""
+    span = '"Take ye heed, then, to have but one Eucharist, for there is one flesh."'
+    record = {"record_type": "story", "telling": f"He said, {span}", "text": f"He writes, {span}"}
+    assert [h["field"] for h in find_embedded_quotations(record)] == ["text"]
+
+
 def test_a_quote_record_is_never_surveyed_even_with_a_long_embedded_span():
     """quote records own this question through their own modern_rendering
     field and engine.m1.gates's existing quote-specific check - excluded

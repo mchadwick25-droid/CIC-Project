@@ -141,12 +141,10 @@ orientation:
   - figure: desert.figure.sarah
     text: >-
       Sarah was one of a small number of women remembered by name in this
-      world's own teaching tradition. Six of her sayings survive. When a
-      group of elder monks visited to test her standing as a woman, she
-      told them plainly that she was the man among them, and they were the
-      women.
+      world's own teaching tradition. Six of her sayings survive. She used
+      to say to her brothers that she was a man, and they were women.
     grounded_in: [desert.figure.sarah, desert.story.sarah-answer]
-    hedge: "This world's own record accepts its era's own idea that courage is manly and weakness is womanly. It does not reject that idea outright. Sarah's own answer claims the first category for herself. No record shows a man ever facing the same kind of challenge."
+    hedge: "This world's own record accepts its era's own idea that courage is manly and weakness is womanly. It does not reject that idea outright. Sarah's own saying claims the first category for herself."
   - figure: desert.figure.evagrius
     text: >-
       Evagrius was the most formally educated man the desert produced.
