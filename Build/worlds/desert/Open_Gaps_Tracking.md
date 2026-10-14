@@ -873,3 +873,25 @@ Mark's ruling of 13 October: `use_note.means` reaches the evidence block the voi
 - `desert.quote.in-real-experience-and-feeling` `use_note.means`: "of unknown authorship" became "whose author is disputed", matching the Contested authorship of the Macarian Homilies.
 
 The other 120 were checked and left as they are. Two were weighed and left: `desert.dw.melitian-power` says monks of Antony's communion refused Melitian ascetics recognition, a little wider than the Vita but the same as the record's own text; `desert.contested.antony-literacy` says the Letters "if authentic" cut against the unlettered claim, an emphasis the record's `held_against` supports. The sweep compared each `means` with the record's own fields and the corrected-facts list; it did not re-grep every vendored text for the 120 left unchanged. Status: CLOSED.
+
+### OG-30. Story tellings for code placement: eleven added, kellia-day held back, 2026-10-14.
+
+Mark's approval of 14 October: pilot stories placed by code on the desert world. Each story record gets a `telling` field: the world's own telling, reviewed against the vendored source, which code will later insert word for word after the voice's one-sentence introduction. `text` stays the unvoiced source wording. `telling` is declared in `engine/m1/spoken_fields.py` as evidence-head, so the readability gate grades it, and it is added to the attribution, perspective and participant-leak scans. Placement in a turn is a later engine slice; until then no turn reads the field.
+
+**Added.** `telling` on 11 records: `antony-call`, `antony-withdrawal`, `antony-tomb-combat`, `antony-secret-burial`, `sarapion-anthropomorphite`, `virgin-who-hid-athanasius`, `moses-leaking-jug`, `sarah-answer`, `arsenius-flee`, `pachomius-founding`, `angel-hands-the-tablet`. Drafted by Sonnet from the vendored files, checked clause by clause by two independent Opus reviewers (`StoryTellings_Review_Round1.md`), revised, and rechecked (`StoryTellings_Review_Round2.md`). The one new finding of the recheck (Sarapion's belief called "old" and the bishop's teaching "new" in the narrator's voice) was fixed with the reviewer's own sentence. Two review files of the three allowed.
+
+**Held back.** `desert.story.kellia-day` has no telling. Round 1 found it NOT CLEAR: it is a reconstruction, not a told story; its cell evidence rests on `desert.source.kellia-excavations`, which has no vendored file and no dates, and most excavated Kellia remains may postdate 430; its "Psalms in the cell" claim had no support. Whether a reconstructed day should be placed as the world's own telling at all is a question for Mark. Status: OPEN.
+
+**Reported, not failed.** All 11 tellings grade below FK 8 (FK 3.1 to 7.3; FRE 71 to 91). Narrative with direct speech scores low; both reviewers judged the prose natural, not choppy. Sarah's telling is her one-line saying (20 words), since Budge section 525 has nothing more. Status: OPEN for Mark's view.
+
+**Record defects the reviews found (not telling defects; the tellings follow the source).**
+1. `moses-leaking-jug`, `sarah-answer`, `arsenius-flee`: loci and divergence notes still say no edition is vendored; Budge's Sayings is (also the edition-notes item of the record audit entry, 2026-10-13).
+2. `moses-leaking-jug` `modern_contrast` says "a leaking jug" against its own `not_for`.
+3. `sarah-answer` `absent_detail` and `modern_contrast` still speak of a visit and of men who came to test her; Budge section 525 has neither. Its body says its `text` matches `desert.quote.sarah-man-among-you` exactly; that rendering reads "the man ... the women" where Budge has "a man ... women".
+4. `arsenius-flee` body calls the voice God's; Budge says only "a voice".
+5. `antony-withdrawal` `not_for` and `absent_detail` say the Vita gives no reasons for the moves; section 49 gives one for the last. Its locus says "crowds gathering outside" sections 12-13; the Vita has acquaintances outside and noises inside the fort.
+6. `antony-tomb-combat` locus includes sections 12-13, which belong to the fort episode; it should be sections 8-10.
+7. `antony-secret-burial` `divergence_note` says Athanasius received the account from the two attendants and inherited a sheepskin; sections 91-92 give only Antony's order to give him one.
+8. `kellia-day` apophthegmata locus names no saying, so it cannot be checked; `desert.source.kellia-excavations` gives no dates for its findings.
+
+Status: OPEN.

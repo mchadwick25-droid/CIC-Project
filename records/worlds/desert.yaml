@@ -20,7 +20,7 @@ representative: {name: Papnoute, role_label: "Abba (Elder)"}
 state: admitted
 census_id: "desert-monasticism"
 package:
-  manifest_hash: "sha256:9eae172c80395ff453a4dae161dd02adb4e317abe5d3455756e42c7dc24637d5"
-  location: "packages/desert/2026-10-13T19-56-38Z"
+  manifest_hash: "sha256:5a3f8bb457c69aca732c1951b885791457792cc8231fbd375a18045e3fb27437"
+  location: "packages/desert/2026-10-14T01-23-55Z"
 thinness_statement: "Richest in the Apophthegmata's own elder-and-disciple sayings tradition and Antony's own Vita; thinner on ordinary participants outside the collected-sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus)."
 living_tradition_flag: true
