@@ -6589,3 +6589,7 @@ What this allows, measured (`live11_replay.quote_sentence_scan`). Every sentence
 - Item 4 cuts nothing. Its two real catches are reported for review after the conversation, not before the participant reads them.
 - The horizon gate does not read `use_note.not_for`, and no gate but the horizon reads `use_note.means`.
 - gallic's two post-window descriptions (waiver `m1:horizon/gallic`).
+
+## 2026-10-14 - Promotion without a paid retest: the pilot is the test
+
+**Ruling (the project lead, relayed by the coordinating session).** No paid retest follows the second fix slice. In his words: "we cant test for every little thing, no money move forward for a small bit. we are pursuing quality not perfection" and "if there is a problem it will come out in the pilot". The evidence for promotion is that slice's offline replay over the 13 and 14 October reports and its independent review (the entry above).
