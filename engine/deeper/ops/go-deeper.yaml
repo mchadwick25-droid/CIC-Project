@@ -44,9 +44,9 @@ pilot:
   pilot_end_date: 2026-12-31
   audiences:
     general:
-      pilot_open: false
-      pilot_cap: 50
-      per_address: 2
+      pilot_open: true
+      pilot_cap: 100
+      per_address: 1
       public: true
     pastors:
       pilot_open: false

@@ -376,6 +376,8 @@ MINT_MODES = ("one_code", "separate")
 class PilotJoinRequest(BaseModel):
     # A public audience's name, or the secret link key of a private one. Anything else is a 404, never a hint.
     link: str | None = Field(default=None, max_length=64)
+    # The perspective the person chose on the join page: one of the meter's PILOT_ROLES. Required.
+    role: str | None = Field(default=None, max_length=64)
 
 
 class MintRequest(BaseModel):
@@ -523,7 +525,9 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         share its end date. A public audience is joined by its name; a private one
         only by its secret link key from the server's environment. Anything else,
         and any closed audience, answers 404 alike. The address is kept only as a
-        keyed hash. Counts toward the door as a gift of the pack's price."""
+        keyed hash. The person names one role from a fixed list; any other
+        answer is a 400 and makes no code, and only a count per role per
+        audience is kept. Counts toward the door as a gift of the pack's price."""
         _cors(request, response)
         response.headers["Cache-Control"] = "no-store"
         ops = runtime.ops
@@ -534,10 +538,13 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         audience = ops.pilot_audiences.get(name) if name else None
         if pack is None or audience is None or not audience.pilot_open:
             raise HTTPException(status_code=404)
+        role = req.role if req else None
+        if role not in meter_module.PILOT_ROLES:
+            raise HTTPException(status_code=400, detail=f"role must be one of {list(meter_module.PILOT_ROLES)}")
         grant_id = "pilot_" + secrets.token_hex(12)
         try:
             code = runtime.meter.join_pilot(
-                name, network_of(client_ip(request)), pack.tokens, grant_id, open_=audience.pilot_open,
+                name, network_of(client_ip(request)), pack.tokens, grant_id, role=role, open_=audience.pilot_open,
                 end_date=ops.pilot_end_date, cap=audience.pilot_cap, per_address=audience.per_address,
             )
         except PilotRefused as refused:
@@ -619,6 +626,10 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
                     {
                         "audience": name, "open": a.pilot_open, "cap": a.pilot_cap, "given": runtime.meter.pilot_total(name),
                         "per_address": a.per_address, "public": a.public, "link_set": name in runtime.pilot_links.values(),
+                        "roles": [
+                            {"role": role, "label": meter_module.PILOT_ROLES[role], "count": count}
+                            for role, count in runtime.meter.pilot_roles(name).items()
+                        ],
                     }
                     for name, a in ops.pilot_audiences.items()
                 ],
