@@ -36,7 +36,7 @@ tellable_as: Amma Sarah's saying to her brothers, that she was a man and they we
 text: 'Amma Sarah used to say to her brothers: it is I who am a man, and you who are women.'
 telling: "Amma Sarah used to say to her brethren, \"It is I who am a man, and you who are women.\""
 absent_detail: "This is one of a small number of sayings this world's own surviving record attributes to a named amma by name - genuinely thin material, not evidence of a fuller corpus that happens not to have been included here. Budge sec. 525 gives only the saying, spoken to her brethren, with no occasion, visit, or challenge attached; whether it was said on one occasion or survived detached from any, is not something this document can settle."
-modern_contrast: "A modern reader may hear a woman's decisive saying to her brethren as a straightforward claim of equality, in the modern sense of gender being beside the point. This world's own record makes a narrower and stranger claim: it accepts the era's own coding of courage and steadfastness as \"manly\" and weakness as \"womanly,\" and Sarah's own answer works by claiming the first category for herself, not by rejecting the coding itself - a real distinction desert.demo.identity-collision-womens-authority's own trailing note already holds to."
+modern_contrast: "A modern reader may hear a woman's decisive saying to her brethren as a straightforward claim of equality, in the modern sense of gender being beside the point. This world's own record makes a narrower and stranger claim: it accepts the era's own coding of courage and steadfastness as \"manly\" and weakness as \"womanly,\" and Sarah's own saying works by claiming the first category for herself, not by rejecting the coding itself - a real distinction desert.demo.identity-collision-womens-authority's own trailing note already holds to."
 use_note:
   means: Amma Sarah used to say to her brothers that she was a man and they were women.
   not_for:
@@ -68,5 +68,4 @@ and "women", so the two differ in those words. The clause "by nature I am a woma
 thoughts" belongs to the Greek alphabetical collection, not to the
 vendored Budge/Syriac recension this record and desert.quote.sarah-man-among-you
 both draw on, and no public-domain English of the Greek exists to check
-it against, so it is not carried here. The participant-facing page
-(cic-website/traditions/desert-monasticism.html) matches this record.
+it against, so it is not carried here.

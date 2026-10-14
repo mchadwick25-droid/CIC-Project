@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the saying's own place in the tradition, matching the prior build's cleared Doc_09a rating for the identical material - Inferential/Thin for the specific narrated council scene's historicity, matching desert.source.apophthegmata-patrum's own unconditional bound for any claim beyond what a surviving saying itself states. The saying is checked against the vendored edition, Budge's Syriac Sayings (Paradise, vol. 2), sec. 542 (line 1160 of the vendored file); that is the Syriac recension, not the Greek alphabetical collection, so the check is verbatim for Budge only."
+  divergence_note: "Widely Accepted for the saying's own place in the tradition, matching the prior build's cleared Doc_09a rating for the identical material - Inferential/Thin for the specific narrated council scene's historicity, matching desert.source.apophthegmata-patrum's own unconditional bound for any claim beyond what a surviving saying itself states. The saying is checked against the vendored edition, Budge's Syriac Sayings (Paradise, vol. 2), sec. 542 (line 1160 of the vendored file); that is the Syriac recension, not the Greek alphabetical collection, so the check holds for Budge's wording only."
 sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "Budge, Paradise vol. 2 (Syriac Sayings), sec. 542 (vendored line 1160) - one saying: the council at Scete, the basket of sand, the brother set free; the Syriac recension, not the Greek alphabetical collection; first re-derived from the prior build's cleared Doc_09a Story 2.1, itself independently web-verified, and checked against Budge"
@@ -38,7 +38,7 @@ telling: "Our sayings tell of a brother at Scete, the camp of the monks, who com
 absent_detail: "Whether this specific council and this specific exchange happened as narrated, or condenses a teaching Moses gave more generally into one memorable scene, is not something this world's own compiled tradition can settle - it is told as tradition, not as verified single-event history."
 modern_contrast: "No significant modern-misreading risk identified for this story. The image (a basket of sand with a hole in it, the sand running out behind him as sins he cannot see, while he goes to judge someone else) is self-interpreting and reads plainly to a modern ear the same way it read then."
 use_note:
-  means: "Abba Moses, summoned to judge an erring brother at Scetis, carried a leaking load to picture his own unseen sins, and the elders released the brother."
+  means: "Abba Moses, summoned to judge an erring brother at Scetis, carried a leaking load to picture his own unseen sins, and they released the brother."
   not_for:
     - "Presenting the council scene as verified single-event history"
     - "Presenting the jug of water as the vendored text's image, when Budge's Syriac has a basket of sand"
