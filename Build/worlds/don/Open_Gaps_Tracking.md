@@ -1907,3 +1907,7 @@ The project lead ruled that the five fields reverted in OG-35 be rewritten by Op
 Package rebuilt after the last record edit: `records/worlds/don.yaml` pins `packages/don/2026-10-13T21-29-56Z`, `manifest_hash` `sha256:d6dc6679e12d37c127785500eaadd736962deacac75dc879417b7d7d5087e26f`; the site JSON was recompiled. This pin supersedes the one in OG-32.
 
 Status: CLOSED for the five fields. The words named above stay open for the project lead's check.
+
+### OG-37. The come-back line made self-standing, after the eleven-world live test, 2026-10-14.
+
+The 13 October eleven-world live test ended don Q6 ("What would you want me to understand?") with "So yes, you could come back to us.", lifted from `don.dw.becoming-one-of-us`, where it answered a question about wrongdoers that the participant had not asked. The witness now reads "So a wrongdoer could come back to us. It depended on who the wrongdoer was, and no rule of ours survives that explains the difference." Same facts and the same hedge; only the address to the participant is gone. `engine.m10.cli records don` and `regate don` pass. Package rebuilt and repinned: `packages/don/2026-10-14T00-42-54Z`, `manifest_hash` `sha256:355603939df97557fb54b804d5dd477ab5e508d9ec2bddc9a165ee28238b56f9`; the site JSON was recompiled. This pin supersedes the one in OG-36. Decision Log: "2026-10-14 - Eleven-world fix slice". Status: CLOSED.

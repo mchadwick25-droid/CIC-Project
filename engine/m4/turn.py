@@ -398,13 +398,72 @@ _SENTENCE_END = re.compile(r"^(?P<body>.*?)(?P<end>[.!?][\"'”’)]*)\s*$", re.
 def _answer_record_fallback(raw_text: str, offered_ids: dict[str, list[str]], repository_records: dict[str, dict]) -> str | None:
     """The world's own answer record for the question: the first doctrinal
     witness the voice's draft tagged, else the turn's lead witness (the
-    first witness the evidence block offered). None when there is neither."""
+    first witness the evidence block offered). None when there is neither.
+
+    A tag no record has, whose slug is that of exactly one doctrinal witness
+    of the same world ([[witt.term.truly-god-and-truly-man]] for
+    witt.dw.truly-god-and-truly-man), names that witness here. Only here: it
+    chooses which of the world's own records is shown, word for word, and
+    never makes the voice's sentence cite a record it did not name."""
     tagged = [t for sent in grounding_net.parse_tagged(raw_text) for t in sent["tags"]]
     for record_id in [*tagged, *offered_ids.get("doctrinal_witness", [])]:
-        record = repository_records.get(record_id) or {}
+        record = repository_records.get(record_id) or _same_slug_witness(record_id, repository_records) or {}
         if record.get("record_type") == "doctrinal_witness" and (record.get("text") or "").strip():
-            return record_id
+            return record["id"]
     return None
+
+
+def _same_slug_witness(record_id: str, repository_records: dict[str, dict]) -> dict | None:
+    world, _, rest = record_id.partition(".")
+    slug = rest.partition(".")[2]
+    if not slug:
+        return None
+    found = [
+        rec for rid, rec in repository_records.items()
+        if rec.get("record_type") == "doctrinal_witness" and rid.split(".", 2)[0] == world and rid.split(".", 2)[2:] == [slug]
+    ]
+    return found[0] if len(found) == 1 else None
+
+
+def _claims_ground(raw_text: str) -> bool:
+    """The draft cites a record or marks a quote: it says it is grounded."""
+    return bool(grounding_net._TAG.search(raw_text) or grounding_net.QUOTE_MARKER.search(raw_text))
+
+
+def settle_reply(
+    raw_text: str, answer_text: str, net_result: dict, offered_ids: dict[str, list[str]],
+    repository_records: dict[str, dict], net,
+) -> dict:
+    """The reply a participant is shown, from the voice's draft and what
+    apply_net (`net`, called with raw text) made of it.
+
+    A reply no longer answers when the voice wrote one and apply_net left
+    nothing of it, or when its draft cited records or marked a quote and no
+    sentence left keeps a citation the net verified (net_result's
+    substantive_survives is false; the turn reports it as degraded_by_net).
+    Such a reply is replaced by the world's own answer record for the
+    question, word for word (_answer_record_fallback), with no model call.
+    With no answer record to show, the reply is withheld: nothing is shown,
+    as when everything was cut. A reply that never claimed ground (one that
+    cites nothing, such as a reply to thanks) stands as written.
+
+    Returns {"raw_text", "text", "citations", "net_result",
+    "answer_record_fallback"}; citations is None when the draft stands."""
+    settled = {"raw_text": raw_text, "text": answer_text, "citations": None, "net_result": net_result,
+               "answer_record_fallback": None}
+    emptied = bool(raw_text.strip()) and not answer_text.strip()
+    ungrounded = answer_text.strip() and _claims_ground(raw_text) and not net_result["substantive_survives"]
+    if not (emptied or ungrounded):
+        return settled
+    record_id = _answer_record_fallback(raw_text, offered_ids, repository_records)
+    if record_id is None:
+        return {**settled, "text": "", "citations": []} if ungrounded else settled
+    cut_from_draft = net_result["reply_shape"]["removed"]
+    record_text = _record_reply(repository_records[record_id])
+    text, citations, record_net = net(record_text)
+    record_net["reply_shape"]["removed"] = cut_from_draft + record_net["reply_shape"]["removed"]
+    return {"raw_text": record_text, "text": text, "citations": citations, "net_result": record_net,
+            "answer_record_fallback": record_id}
 
 
 def _record_reply(record: dict) -> str:
@@ -550,11 +609,13 @@ def _run_ordinary_voice_turn(
     passed straight through.
 
     No sentence is rewritten and no call is made to mend a reply: apply_net
-    removes what cannot be shown, and the rest is shown as written. When it
-    removes every sentence of a reply the voice did write, the reply is the
-    world's own answer record for the question instead, word for word
-    (_answer_record_fallback), and voice_event["answer_record_fallback"]
-    names it. No Facilitator turn is shown for it.
+    removes what cannot be shown, and the rest is shown as written. When a
+    reply the voice did write no longer answers - every sentence removed, or
+    nothing grounded left of a draft that cited records (settle_reply) - the
+    reply is the world's own answer record for the question instead, word
+    for word (_answer_record_fallback), and
+    voice_event["answer_record_fallback"] names it; with no such record the
+    ungrounded reply is not shown. No Facilitator turn is shown for it.
 
     other_tradition_evidence_ids (corrects a false
     honest-limit statement, unconditional - never gated behind
@@ -870,23 +931,25 @@ def _run_ordinary_voice_turn(
     else:
         attempts_meta_r27_regenerated = False
 
-    # A reply the voice wrote that apply_net removed whole is replaced by the
-    # world's own answer record for the question, word for word. A guard or
-    # the uncited-claims enforcement that set the text aside left raw_text
-    # empty, and the caller answers for those.
-    answer_record_fallback = None
-    if raw_text.strip() and not answer_text.strip():
-        answer_record_fallback = _answer_record_fallback(raw_text, prepared.offered_ids, repository_records)
-        if answer_record_fallback is not None:
-            cut_from_draft = net_result["reply_shape"]["removed"]
-            raw_text = _record_reply(repository_records[answer_record_fallback])
-            answer_text, citations, net_result = _net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
-            net_result["reply_shape"]["removed"] = cut_from_draft + net_result["reply_shape"]["removed"]
-            if enforcing:
-                uncited_claims = find_uncited_claims(net_result["sentences"])
-                paragraph_offenses = find_uncited_paragraphs(net_result)
-                named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
-                fact_check_flags = find_unsupported_named_claims(net_result["sentences"], repository_records=repository_records)
+    # A reply the voice wrote that no longer answers - apply_net removed it
+    # whole, or nothing grounded is left of it - is replaced by the world's
+    # own answer record for the question, word for word (settle_reply). A
+    # guard or the uncited-claims enforcement that set the text aside left
+    # raw_text empty, and the caller answers for those.
+    settled = settle_reply(
+        raw_text, answer_text, net_result, prepared.offered_ids, repository_records,
+        functools.partial(_net, repository_records=repository_records, thin_topics=thin_topics),
+    )
+    answer_record_fallback = settled["answer_record_fallback"]
+    if settled["citations"] is not None:
+        raw_text, answer_text, citations, net_result = (
+            settled["raw_text"], settled["text"], settled["citations"], settled["net_result"],
+        )
+        if enforcing:
+            uncited_claims = find_uncited_claims(net_result["sentences"])
+            paragraph_offenses = find_uncited_paragraphs(net_result)
+            named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
+            fact_check_flags = find_unsupported_named_claims(net_result["sentences"], repository_records=repository_records)
 
     # Verified citation attachment (engine.m4.citation_attach), off unless
     # citation_attach_model_id is set: runs on the settled text, adds a

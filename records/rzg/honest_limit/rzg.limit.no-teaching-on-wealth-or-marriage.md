@@ -19,9 +19,9 @@ sources:
   license: public-domain
 relations: []
 statement: What did marriage mean to us, or how did we regard wealth and poverty? Our teachers did write
-  on both, but I cannot yet give you that teaching here. Our pastor at Geneva was a married man. That
+  on both, but we cannot yet give you that teaching here. Our pastor at Geneva was a married man. That
   much is a biographical fact. And no record here shows how ordinary people lived out their marriages,
-  or lived with wealth and want. I will not invent that to fill the silence.
+  or lived with wealth and want. We will not invent that to fill the silence.
 why_sources_cannot_answer: 'Checked directly against every term, story, quote, and gravity in this world''s
   own corpus: none addresses marriage, weddings, or a teaching on wealth and poverty as such. This world''s
   own richly vendored material is doctrinal and confessional (predestination, the Supper, scriptural authority,
