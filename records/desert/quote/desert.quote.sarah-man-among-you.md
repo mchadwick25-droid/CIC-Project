@@ -22,8 +22,8 @@ sources:
   license: public-domain
 text: Mother Sarah used to say to her brethren, “It is I who am a man, and ye who are women.”
 modern_rendering: >-
-  Mother Sarah used to say to her brothers: 'It is I who am the man, and you
-  who are the women.'
+  Mother Sarah used to say to her brothers: 'It is I who am a man, and you
+  who are women.'
 speaker_or_author: desert.figure.sarah
 license: verbatim
 modern_lens_note: '"Man" and "women" operate here as this world''s own gendered virtue-categories (courage

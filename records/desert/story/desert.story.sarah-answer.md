@@ -62,9 +62,8 @@ era's own terms, claiming for herself the quality those terms called
 manly rather than rejecting them.
 
 This record's `text` follows Budge sec. 525 ("It is I who am a man, and
-ye who are women"), with "ye" modernized to "you". desert.quote.sarah-man-among-you's
-modern_rendering reads "the man" and "the women" where Budge has "a man"
-and "women", so the two differ in those words. The clause "by nature I am a woman, yes - but not by my own
+ye who are women"), with "ye" modernized to "you", as does
+desert.quote.sarah-man-among-you's modern_rendering. The clause "by nature I am a woman, yes - but not by my own
 thoughts" belongs to the Greek alphabetical collection, not to the
 vendored Budge/Syriac recension this record and desert.quote.sarah-man-among-you
 both draw on, and no public-domain English of the Greek exists to check

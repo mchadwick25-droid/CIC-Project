@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Widely Accepted for the saying's own place in the tradition, matching desert.story.sarah-answer's own rating - Inferential/Thin for the specific narrated encounter's historicity and for any claim beyond what the surviving saying itself states, matching desert.source.apophthegmata-patrum's own unconditional bound. This is one of a small number of sayings this world's own surviving record attributes to a named amma by name - genuinely thin material, named here rather than treated as a fuller corpus that merely went unbuilt."
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: Sarah, Alphabetical Collection - her saying to her brethren, that she is the man and they the women
+  locus: Budge, Paradise vol. 2 (Syriac Sayings), sec. 525 (vendored line 2438) - her saying to her brethren, that she is a man and they are women
 canon_question_id: _fleet.canon.f6-p-06
 tags:
 - identity-collision
@@ -28,7 +28,7 @@ exchange:
     We will not pretend this was common ground for us. Most of what survives in our own voice
     about discernment - diakrisis, our own word for it - and authority is attributed to men. But
     we do have one clear case. Amma Sarah used to say to her brothers, in words we still have:
-    it is I who am the man, and you who are the women. Those words were passed down among us the
+    it is I who am a man, and you who are women. Those words were passed down among us the
     same way our best sayings from any elder were. An apophthegma, we called such a word: a
     short saying passed down. What it cost her, our record does not say, and it does not tell us
     what led her to say it. This is a small amount of material carrying a large question, and we
@@ -53,11 +53,7 @@ and the fleet exemplar's own craft convention, which both reserve
 quotation marks for a verified verbatim quote: to a participant,
 quotation marks in spoken content are the verbatim claim. Sarah's words
 are kept, first person unchanged, matching the Arsenius turn's own
-convention. The turn states the claim this record can support: not
-that no man was ever tested, but that no man is shown being tested on
-the ground of his sex specifically - Palladius ch. XXII, cited by two
-sibling demonstrations in this same set, has Paul tested at length
-before being received.
+convention.
 
 diakrisis is labeled where discernment itself is the subject, and
 apophthegma is labeled where the sayings themselves are the subject,

@@ -380,7 +380,7 @@ def apply_net(
         tagged = shorter
     shown = {grounding_net.placed_key(entry["sentence"]) for entry in net_result["sentences"]}
     net_result["reply_shape"] = {
-        "placed": [rid for sentence, rid in shaped["placed_sentences"].items() if sentence in shown],
+        "placed": list(dict.fromkeys(rid for sentence, rid in shaped["placed_sentences"].items() if sentence in shown)),
         "removed": removed,
     }
     text = grounding_net.shown_text(tagged, net_result["sentences"])
@@ -694,6 +694,7 @@ def _run_ordinary_voice_turn(
     placement = PlacementContext(
         offered=frozenset(prepared.offered_ids.get("quote", [])),
         voiced=frozenset(voiced_quotes), told_stories=frozenset(told_stories),
+        offered_stories=frozenset(prepared.offered_stories) - frozenset(told_stories),
     )
     _net = functools.partial(apply_net, quotable_texts=echo_sources, placement=placement)
 

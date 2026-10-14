@@ -81,7 +81,7 @@ _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 # transcript for transparency markup: one turn's raw text ended inside an
 # unclosed "[[don.dw.room-for-diss", which strip_tags' own re.sub below
 # left untouched, verbatim, brackets and all.
-_DANGLING_TAG = re.compile(r"\[\[(?:\s*quote\s*:\s*)?[a-z0-9_.-]*\Z", re.IGNORECASE)
+_DANGLING_TAG = re.compile(r"\[\[(?:\s*(?:quote|story)\s*:\s*)?[a-z0-9_.-]*\Z", re.IGNORECASE)
 
 
 def _drop_truncated_tail(text: str) -> tuple[str, bool]:
@@ -114,12 +114,15 @@ def _drop_truncated_tail(text: str) -> tuple[str, bool]:
 # A quote marker, [[quote:<record id>]]: where the voice asks for a quote
 # record's rendering to be placed (engine.m4.quote_placement).
 QUOTE_MARKER = re.compile(r"\[\[\s*quote\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORECASE)
-_DISPLAY_TAG = re.compile(rf"\s*(?:\[\[[a-z0-9_.-]+\]\]|(?i:{QUOTE_MARKER.pattern}))")
+# A story marker, [[story:<record id>]]: where the voice asks for a story
+# record's telling to be placed (engine.m4.quote_placement).
+STORY_MARKER = re.compile(r"\[\[\s*story\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORECASE)
+_DISPLAY_TAG = re.compile(rf"\s*(?:\[\[[a-z0-9_.-]+\]\]|(?i:{QUOTE_MARKER.pattern})|(?i:{STORY_MARKER.pattern}))")
 
 
 def strip_tags(text: str) -> str:
     """The display transform: what the participant-facing stream emits.
-    Record tags and quote markers both come off."""
+    Record tags and quote and story markers come off."""
     text, _ = _drop_truncated_tail(text)
     return _DISPLAY_TAG.sub("", text)
 
@@ -615,6 +618,8 @@ REASON_QUOTE_RECORD_UNVOICED = "tagged to a quote record that has not been place
 REASON_QUOTE_WORDS = "gives a quote record's words without placing it"
 REASON_PLACED_MISMATCH = "placed quote does not match its record"
 WHY_PLACED = "quote placed by code, verbatim to its record"
+REASON_STORY_MISMATCH = "placed story does not match its record"
+WHY_STORY_PLACED = "story placed by code, verbatim to its record"
 
 # A sentence withheld for one of these reasons carries a quote's words, or
 # words attributed to someone, that code did not place. It is dropped from
@@ -622,7 +627,7 @@ WHY_PLACED = "quote placed by code, verbatim to its record"
 QUOTATION_DROP_REASONS = frozenset({
     REASON_TYPED_QUOTATION, REASON_ATTRIBUTION, REASON_ATTRIBUTION_LEAD, REASON_UNPLACED_WORDS, REASON_LEAD_IN,
     REASON_QUOTE_RECORD_UNPLACED, REASON_QUOTE_RECORD_UNVOICED, REASON_QUOTE_WORDS, REASON_PLACED_MISMATCH,
-    REASON_WORDS_WITHOUT_QUOTE_RECORD,
+    REASON_WORDS_WITHOUT_QUOTE_RECORD, REASON_STORY_MISMATCH,
 })
 
 # Attribution formulas. A quotation needs no quotation marks to be one:
@@ -861,6 +866,25 @@ def _placed_verdict(text: str, tags: list[str], records: dict[str, dict], index:
     return {"sentence": text, "tags": tags, "verdict": "ok", "why": WHY_PLACED, "placed_quote": record_id}
 
 
+def _placed_story_verdict(text: str, tags: list[str], records: dict[str, dict], record_id: str) -> dict:
+    """A sentence of a story record's telling that code placed: it stands
+    in the telling word for word, tagged with that record. The telling's
+    speech is the record's own rendering, so no quotation check applies."""
+    record = records.get(record_id) or {}
+    holds = (
+        record.get("record_type") == "story" and record_id in tags and bool(text.strip())
+        and placed_key(text) in placed_key(record.get("telling") or "")
+    )
+    if not holds:
+        return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_STORY_MISMATCH}
+    return {"sentence": text, "tags": tags, "verdict": "ok", "why": WHY_STORY_PLACED, "placed_story": record_id}
+
+
+def _placed(entry: dict) -> bool:
+    """The sentence is code's: a placed quote, or a sentence of a placed story."""
+    return bool(entry.get("placed_quote") or entry.get("placed_story"))
+
+
 def placed_quote_holds(composed: str, records: dict[str, dict], index: QuotationIndex, record_id: str) -> bool:
     """A sentence code composed around a quote record (tags included) passes
     the net's placed-quote check: the one test placement and the net share."""
@@ -884,6 +908,8 @@ def _quotation_verdict(
     attributed to someone without quotation marks are withheld; and so is a
     sentence that gives a quote in other words (_unplaced_quote)."""
     if placed_id is not None:
+        if (records.get(placed_id) or {}).get("record_type") == "story":
+            return _placed_story_verdict(text, tags, records, placed_id)
         return _placed_verdict(text, tags, records, index, placed_id)
     checked = _checked_pairs(text)
     outside = _outside_quotations(text, checked)
@@ -962,7 +988,7 @@ def _apply_quotation_context(entries: list[dict], sizes: list[int]) -> None:
     starts = [sum(sizes[:p]) for p in range(len(sizes))]
 
     def withhold(i: int, why: str) -> None:
-        if not entries[i].get("placed_quote"):
+        if not _placed(entries[i]):
             entries[i].update(verdict="withhold", why=why)
 
     for i, entry in enumerate(entries):
@@ -985,13 +1011,13 @@ def _apply_quotation_context(entries: list[dict], sizes: list[int]) -> None:
         else:
             followers = range(0)
         if lead_only:
-            if followers and entries[followers[0]].get("placed_quote"):
+            if followers and _placed(entries[followers[0]]):
                 continue
             withhold(i, REASON_ATTRIBUTION_LEAD)
         for k in followers:
             # the words end where a placed quote begins, or where the story
             # they were spoken in is narrated again (_narrates_story)
-            if entries[k].get("placed_quote") or (not lead_only and entries[k].get("narrates_story")):
+            if _placed(entries[k]) or (not lead_only and entries[k].get("narrates_story")):
                 break
             withhold(k, REASON_UNPLACED_WORDS)
 
