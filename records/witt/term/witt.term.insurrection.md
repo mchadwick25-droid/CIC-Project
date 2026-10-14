@@ -48,7 +48,7 @@ relations:
   target: witt.term.sects-and-new-spirits
 - type: associated-with
   target: witt.term.prayer
-plain_meaning: In 1522, common people were angry, and we understood why. Still, we refused violence and
+plain_meaning: In 1522, common people were angry, and we understood their anger. Still, we refused violence and
   trusted God to watch over his own Word. This describes only that one year, not our later history.
 world_word: insurrection -- 'the common man,' 1522's own vocabulary, bound to that year
 false_friend:
