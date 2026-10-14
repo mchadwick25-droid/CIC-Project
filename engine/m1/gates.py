@@ -1594,6 +1594,16 @@ def gate_horizon(records, fleet, registry) -> list[str]:
     return findings
 
 
+def gate_question_ending(records, fleet, registry) -> list[str]:
+    """A voiced record's spoken sentence never ends on a bare question word:
+    an honest limit names the question it cannot answer
+    (engine.m1.question_endings)."""
+    from .question_endings import bare_question_hits
+
+    return [f"{rid}.{label}: ends on a bare question word; name the question it cannot answer - {sentence!r}"
+            for rid, label, sentence in bare_question_hits(records)]
+
+
 GATES = {
     "schema-validation": gate_schema_validation,
     "referential": gate_referential,
@@ -1618,6 +1628,7 @@ GATES = {
     "use-note-shape": gate_use_note_shape,
     "cells-required": gate_cells_required,
     "horizon": gate_horizon,
+    "question-ending": gate_question_ending,
     "no-build-attribution": gate_no_build_attribution,
     "voice-perspective": gate_voice_perspective,
     "id-convention": gate_id_convention,

@@ -1911,3 +1911,12 @@ Status: CLOSED for the five fields. The words named above stay open for the proj
 ### OG-37. The come-back line made self-standing, after the eleven-world live test, 2026-10-14.
 
 The 13 October eleven-world live test ended don Q6 ("What would you want me to understand?") with "So yes, you could come back to us.", lifted from `don.dw.becoming-one-of-us`, where it answered a question about wrongdoers that the participant had not asked. The witness now reads "So a wrongdoer could come back to us. It depended on who the wrongdoer was, and no rule of ours survives that explains the difference." Same facts and the same hedge; only the address to the participant is gone. `engine.m10.cli records don` and `regate don` pass. Package rebuilt and repinned: `packages/don/2026-10-14T00-42-54Z`, `manifest_hash` `sha256:355603939df97557fb54b804d5dd477ab5e508d9ec2bddc9a165ee28238b56f9`; the site JSON was recompiled. This pin supersedes the one in OG-36. Decision Log: "2026-10-14 - Eleven-world fix slice". Status: CLOSED.
+
+### OG-38. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `don.dw.forgiving-a-man-and-trusting-a-hand` `text`: "We just never wrote down when." now reads "We just never wrote down when to stop pressing it."
+- `don.term.reception-without-reordination` `senses.translational`: "It does not preserve anyone explaining why." now reads "It does not preserve anyone explaining why the rule was set aside."
+
+`engine.m10.cli records don` and `regate don --base origin/main` pass. `senses.translational` is shown on the term's gloss card; it is not in the spoken-field registry, so the gate does not read it, and it was fixed by hand. Package rebuilt and repinned: `packages/don/2026-10-14T20-19-16Z`, `manifest_hash` `sha256:a3af4244d529d8499ed897e10fd9c6b455f4b1490e73092850e992992d4f9e8a`. Status: CLOSED.

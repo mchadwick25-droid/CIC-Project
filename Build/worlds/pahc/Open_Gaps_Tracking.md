@@ -760,3 +760,11 @@ The independent review of the entry Use notes that contradicted the corrected wo
 Still OPEN, not edited: the `senses.informational` text of `pahc.term.diakonos` gives deacons the work for the widow, the orphan and the prisoner, which Justin (First Apology 67) gives to the president; the deacons there carry the elements to the absent.
 
 Status: CLOSED for the `means` changes; OPEN for `pahc.term.diakonos` `senses.informational`.
+
+### OG-31. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `pahc.demo.lament-suffering` representative turn: "We will not tell you why." now reads "We will not tell you why God allows such suffering."
+
+`engine.m10.cli records pahc` and `regate pahc --base origin/main` pass. Package rebuilt and repinned: `packages/pahc/2026-10-14T20-20-58Z`, `manifest_hash` `sha256:79a508813ec8e95437d6fcec6b8d1bd865323578b2fe7d5b4e8e5a11f4f2bca8`. Status: CLOSED.

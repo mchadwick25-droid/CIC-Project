@@ -33,7 +33,7 @@ text: >-
   that our Lord took sin and nailed it to his cross. The sage taught faith
   with a picture. Christ was the foundation stone, and faith rested on him. On faith the whole house was raised: fasting, prayer, love, almsgiving, meekness. And a house is built
   FOR someone. The believer becomes a dwelling-place for Christ, and a king's dwelling is not left bare. As for the bread and cup, we received them with reverence as the
-  Lord's own gift; we asked no deeper questions about how.
+  Lord's own gift; we asked no deeper questions about how they were his gift.
 positions:
 - death rules from Adam over all - the race is wounded, and the wound is inherited
 - Christ took sin and nailed it to the cross; salvation is healing as much as pardon

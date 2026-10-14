@@ -48,7 +48,7 @@ description: >-
   counsels, and it set the measure for every other discipline in this world.
   This world had no fixed syllabus, so discernment did the work that a course
   of study does elsewhere. It recurs across named elders and across
-  settlements in the sayings, but it is not settled why. It may reflect the
+  settlements in the sayings, but why it recurs is not settled. It may reflect the
   settlements, or how the later compilers arranged the sayings, or some of
   both. Cassian wrote decades later, in Latin, for a Gallic audience. He
   gives a whole Conference to it, and he says it was teaching he got in Egypt.

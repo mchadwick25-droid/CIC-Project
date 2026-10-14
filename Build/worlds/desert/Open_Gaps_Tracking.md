@@ -942,3 +942,12 @@ Status: OPEN.
 **Divine acts in a story's introduction, OPEN.** An introduction that gives the story's act, not its words, to a divine person the story does not name ("Our Lord once judged a brother" on the Moses story) still holds, the same shape as the ruled example "God showed Moses his own faults". Not yet decided by the project lead; no change made. The divine-speaker guard itself (a divine person named as speaker must be in the story's own text) is built, with the project lead's reason logged in the Decision Log entry of 14 October.
 
 **The switch declared on every world.** The cross-world registry check requires every formation world's entry to carry the same keys, so the other ten registries now say `story_placement: false`. Nothing they compile changes: `frame.json` carries the key only when it is true.
+
+### OG-34. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `desert.demo.lament-suffering` representative turn: "Our record gives no answer to why." now reads "Our record gives no answer to why God allows such suffering."
+- `desert.gravity.diakrisis` `description`: "but it is not settled why." now reads "but why it recurs is not settled."
+
+`engine.m10.cli records desert` and `regate desert --base origin/main` pass. Package rebuilt and repinned: `packages/desert/2026-10-14T20-18-54Z`, `manifest_hash` `sha256:b49f16218b0ee7dda7506a6f4e74c92c26830db8e82fc74d6b23631700056ae1`. Status: CLOSED.
