@@ -43,7 +43,7 @@ exchange:
     among us, penthos and paraklēsis. The rule between them was that tears were allowed but despair was
     refused, and hope was argued for, never simply asserted over the
     grieving.
-    So we cannot tell you why. What we can tell you is that our people
+    So we cannot tell you why God allows such suffering. What we can tell you is that our people
     carried their dead to God with open eyes and wet faces. They held to the
     resurrection as a hope, and they still grieved.
 ---
