@@ -24,9 +24,9 @@ relations:
 - type: associated-with
   target: rzg.term.consistory
 statement: 'When someone among us at Geneva wronged the community, how was it handled, and could they
-  come back? I can tell you the doctrine plainly. Our Consistory, pastors and lay elders together, held
+  come back? We can tell you the doctrine plainly. Our Consistory, pastors and lay elders together, held
   the standing power of censure. Its harshest step was excommunication. That meant exclusion from the
-  Supper and from the visible church. Readmission was held open to genuine repentance. What I cannot give
+  Supper and from the visible church. Readmission was held open to genuine repentance. What we cannot give
   you is a single real case: a named person, a real hearing, what was said, what happened to them afterward.
   That record exists, in Geneva''s consistory registers. It has not reached us.'
 why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS7 item 4 states this as this world''s own single

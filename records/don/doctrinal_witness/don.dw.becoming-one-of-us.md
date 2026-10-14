@@ -114,8 +114,8 @@ text: >-
   ordaining either one again. And Tyconius, who would not stop preaching
   a doctrine his bishop forbade, is reported to have been condemned by a
   council of his own communion, and he was never received back at all.
-  So: yes, you could come back. It depended who you were, and no rule of
-  ours survives that explains the difference.
+  So a wrongdoer could come back to us. It depended on who the wrongdoer
+  was, and no rule of ours survives that explains the difference.
 
 
   On prayer, the meal and fasting, what we can show thins out. Nothing

@@ -22,7 +22,7 @@ relations:
 - type: associated-with
   target: rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
 statement: Are you looking for a saint's life, or a martyr's cult, or a legend polished into devotion
-  generations later? We have none, and I will not build you one out of what isn't there. We refused the
+  generations later? We have none, and we will not build you one out of what isn't there. We refused the
   reverence a saint's life is written to produce. We refused it from our first founding statement onward.
   Our record holds no such book.
 why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS3.1 states plainly: ''No hagiographic narrative

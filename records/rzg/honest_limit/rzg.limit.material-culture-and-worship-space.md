@@ -19,10 +19,10 @@ sources:
     from, not a material-culture source itself
   license: public-domain
 relations: []
-statement: 'If you walked into one of our worship spaces, what would you actually see? I can tell you
-  what we refused: no image to bow to, no altar built for a sacrifice we no longer offer. What I cannot
+statement: 'If you walked into one of our worship spaces, what would you actually see? We can tell you
+  what we refused: no image to bow to, no altar built for a sacrifice we no longer offer. What we cannot
   give you is a description of the space itself: its size, its furnishing, what the walls looked like.
-  No source in our record describes it directly. What I have told you is reasoned from our doctrine, not
+  No source in our record describes it directly. What we have told you is reasoned from our doctrine, not
   read off a witness who was standing there.'
 why_sources_cannot_answer: 'Doc_07_Integrated_Ecology_Analysis.md SS2G states this limit plainly: ''no
   vendored source in this world''s corpus directly describes physical worship spaces, furnishings, or

@@ -13,8 +13,11 @@ and returns tagged text the net checks:
   before it as its lead-in; words after the marker in its sentence are cut.
 - a marker for a record that is not in this turn's evidence, one the
   conversation has already voiced, a marker past the one quote a reply may
-  carry, or a record whose rendering cannot be set apart as one quotation
-  places nothing, and the sentence that introduced it goes with it.
+  carry, a record whose rendering cannot be set apart as one quotation, or
+  a placement the net's own placed-quote check refuses
+  (grounding_net.placed_quote_holds) places nothing, and the sentence that
+  introduced it goes with it. Only a quote that is placed counts toward
+  the one a reply may carry.
 - a story the conversation has already told keeps its first tagged
   sentence, as a reference back; later sentences tagged to it go.
 
@@ -29,7 +32,15 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from engine.m4.grounding_net import QUOTE_MARKER, placed_key, quoted_span_positions, reads_as_lead, strip_tags
+from engine.m4.grounding_net import (
+    QUOTE_MARKER,
+    QuotationIndex,
+    placed_key,
+    placed_quote_holds,
+    quoted_span_positions,
+    reads_as_lead,
+    strip_tags,
+)
 from engine.m4.rhythm import MAX_PLACED_QUOTES_PER_REPLY
 from engine.prose import quote_aware_sentences
 
@@ -37,11 +48,15 @@ _MARKER_ID = re.compile(r"\[\[\s*quote\s*:\s*([a-z0-9_.-]+)\s*\]\]", re.IGNORECA
 _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 _PARAGRAPH_BREAK = re.compile(r"\n\s*\n")
 _SENTENCE_END = re.compile(r"[.!?](?=\s|$)")
+# What may follow a marker and still end its sentence: closing punctuation,
+# and the closing mark of a quotation the voice typed around it.
+_MARKER_TAIL = re.compile(r"^[\s.,;:!?\"'\u201d\u2019\u00bb)\]]+")
 
 REASON_NOT_OFFERED = "quote record not in this turn's evidence"
 REASON_ALREADY_VOICED = "quote record already voiced in this conversation"
 REASON_SECOND_QUOTE = "second placed quote in one reply"
 REASON_NOT_SETTABLE = "rendering cannot be set apart as one quotation"
+REASON_PLACED_MISMATCH = "placed quote does not match its record"
 REASON_LEAD_IN = "lead-in to a quote that was not placed"
 REASON_STORY_RETOLD = "story already told in this conversation"
 
@@ -101,16 +116,17 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
     to the sentence as the voice wrote it, marker included), "removed" (each
     sentence removed, with why, and as the voice wrote it in "draft")}."""
     report = _Report()
+    index = QuotationIndex(repository_records)
     paragraphs_out: list[list[str]] = []
     story_seen: set[str] = set()
 
     for paragraph in (p for p in _PARAGRAPH_BREAK.split(tagged_text or "") if p.strip()):
         kept: list[str] = []
         sentences = quote_aware_sentences(paragraph)
-        index = 0
-        while index < len(sentences):
-            sentence = sentences[index]
-            index += 1
+        position = 0
+        while position < len(sentences):
+            sentence = sentences[position]
+            position += 1
 
             marker = QUOTE_MARKER.search(sentence)
             if marker:
@@ -127,10 +143,12 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
                     composed = f"{_lead_for_quote(lead)} “{rendering}” [[{record['id']}]]".strip()
                     if not _settable(composed, rendering):
                         reason, composed = REASON_NOT_SETTABLE, None
+                    elif not placed_quote_holds(composed, repository_records, index, record["id"]):
+                        # decided here, as the net decides it, so a quote the
+                        # net would refuse never takes the reply's one place
+                        reason, composed = REASON_PLACED_MISMATCH, None
                 if composed is None:
-                    report.drop(
-                        f"{lead} {QUOTE_MARKER.sub('', sentence)}".strip() if lead else sentence, reason, draft=drafted,
-                    )
+                    report.drop(QUOTE_MARKER.sub("", drafted).strip() or drafted, reason, draft=drafted)
                     if not lead and (previous := _take_lead_in(kept, paragraphs_out, only_if_lead=True)):
                         report.drop(previous, REASON_LEAD_IN)
                 else:
@@ -139,13 +157,13 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
                     report.placed_drafts[placed_key(strip_tags(composed))] = drafted
                     paragraphs_out.append(kept)
                     kept = []
-                tail = re.sub(r"^[\s.,;:!?]+", "", rest)
+                tail = _MARKER_TAIL.sub("", rest)
                 if tail:
                     if tail[0].islower() or tail[0].isdigit():
                         ended = _SENTENCE_END.search(tail)
                         tail = tail[ended.end():].strip() if ended else ""
                     if tail:
-                        sentences.insert(index, tail)
+                        sentences.insert(position, tail)
                 continue
 
             story_tags = [t for t in _TAG.findall(sentence) if t in context.told_stories]

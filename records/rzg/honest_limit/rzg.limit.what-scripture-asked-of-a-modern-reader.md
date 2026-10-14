@@ -19,10 +19,10 @@ sources:
   license: public-domain
 relations: []
 statement: You ask what a modern reader might miss in these texts, or whether the violence in some of
-  them troubled our people. I cannot answer either. Nothing in our record reflects on the difficulty of
+  them troubled our people. We cannot answer either. Nothing in our record reflects on the difficulty of
   Scripture's violent content as such. Nothing states what a modern reader might specifically miss, beyond
-  the reading method we can already show you. I would rather tell you plainly than reach for an answer
-  our record does not give me.
+  the reading method we can already show you. We would rather tell you plainly than reach for an answer
+  our record does not give us.
 why_sources_cannot_answer: 'Checked directly against every term, story, and quote in this world''s own
   corpus: F2-I''s own substantive material (rzg.term.sola-scriptura, rzg.term.catechism, rzg.quote.taught-better-from-scripture,
   rzg.story.first-zurich-disputation) states HOW this world read scripture -- its own reading method and

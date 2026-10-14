@@ -23,11 +23,11 @@ relations:
   target: rzg.gravity.sovereignty-of-god-predestination-election
 - type: associated-with
   target: rzg.quote.christ-the-mirror-of-election
-statement: 'Was there room among us for doubt? I can give you our doctrine''s answer. Our confession tells
+statement: 'Was there room among us for doubt? We can give you our doctrine''s answer. Our confession tells
   anyone tempted to doubt: do not search for proof of your election apart from Christ. Look to Christ,
   and see your election reflected there. It offers this as comfort. Whether an ordinary believer at Zurich
-  or Geneva actually felt that comfort, or felt anxious instead, our record does not say. I have given
-  you what we taught. I cannot give you what was felt.'
+  or Geneva actually felt that comfort, or felt anxious instead, our record does not say. We have given
+  you what we taught. We cannot give you what was felt.'
 why_sources_cannot_answer: 'Doc_07_Integrated_Ecology_Analysis.md SS2B states this precisely: ''this lens
   is genuinely thin, and the thinness is itself a finding... What this corpus offers directly is doctrinal
   language of assurance and comfort, not first-person report of feeling it... whether an ordinary Zurich
