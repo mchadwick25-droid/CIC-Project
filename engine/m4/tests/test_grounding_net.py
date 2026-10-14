@@ -73,12 +73,32 @@ def _placed(lead, record):
     return sentence, {strip_tags(sentence).strip(): record["id"]}
 
 
+CLEMENT_QUOTE = {**QUOTE_RECORD, "speaker_or_author": "fix.figure.clement"}
+CLEMENT_REPOSITORY = {**REPOSITORY, CLEMENT_QUOTE["id"]: CLEMENT_QUOTE}
+
+
 def test_a_quote_placed_by_code_passes_verbatim_to_its_record():
-    text, placed = _placed("As it was sung:", QUOTE_RECORD)
-    entry = check_turn(text, REPOSITORY, placed=placed)["sentences"][0]
+    text, placed = _placed("Clement wrote:", CLEMENT_QUOTE)
+    entry = check_turn(text, CLEMENT_REPOSITORY, placed=placed)["sentences"][0]
     assert entry["verdict"] == "ok"
     assert entry["placed_quote"] == "fix.quote.new-song"
     assert "verbatim" in entry["why"]
+
+
+def test_a_placed_quote_whose_lead_in_does_not_name_its_speaker_is_refused():
+    # the project lead's ruling of 14 October: code checks the name and adds no words
+    for lead in ("As it was sung:", "One of us wrote:", "He wrote:"):
+        text, placed = _placed(lead, CLEMENT_QUOTE)
+        entry = check_turn(text, CLEMENT_REPOSITORY, placed=placed)["sentences"][0]
+        assert (entry["verdict"], entry["why"]) == ("withhold", REASON_SPEAKER_UNNAMED), lead
+    assert REASON_SPEAKER_UNNAMED in QUOTATION_DROP_REASONS
+
+
+def test_a_lead_in_that_leaves_a_quotation_mark_open_is_refused():
+    # syr Q4, 14 October: the voice's own rewording in an unclosed mark
+    text, placed = _placed('Clement wrote: "Behold the new song, for it made men', CLEMENT_QUOTE)
+    entry = check_turn(text, CLEMENT_REPOSITORY, placed=placed)["sentences"][0]
+    assert (entry["verdict"], entry["why"]) == ("withhold", REASON_LEAD_TYPES_QUOTATION)
 
 
 def test_the_same_words_typed_by_the_voice_are_withheld_even_when_verbatim():
@@ -581,17 +601,18 @@ def test_a_placed_rendering_grounds_and_the_archaic_text_is_never_what_is_placed
     quote = {"id": "fix.quote.rendering-match", "record_type": "quote",
              "text": "the elders spoke of paradise restored",
              "modern_rendering": "the elders talked about paradise being brought back"}
-    text, placed = _placed("He said:", quote)
+    quote["speaker_or_author"] = "Abba Poemen"
+    text, placed = _placed("Abba Poemen said:", quote)
     entry = check_turn(text, {"fix.quote.rendering-match": quote}, placed=placed)["sentences"][0]
     assert entry["verdict"] == "ok"
-    archaic = 'He said: “the elders spoke of paradise restored” [[fix.quote.rendering-match]]'
+    archaic = 'Abba Poemen said: “the elders spoke of paradise restored” [[fix.quote.rendering-match]]'
     entry = check_turn(archaic, {"fix.quote.rendering-match": quote}, placed={strip_tags(archaic).strip(): quote["id"]})["sentences"][0]
     assert entry["why"] == "placed quote does not match its record"
 
 
 # --- quotation marks and attribution -------------------------------------------
 
-from engine.m4.grounding_net import QUOTATION_DROP_REASONS, QuotationIndex, quoted_span_positions, shown_text
+from engine.m4.grounding_net import QUOTATION_DROP_REASONS, REASON_LEAD_TYPES_QUOTATION, REASON_SPEAKER_UNNAMED, QuotationIndex, quoted_span_positions, shown_text
 
 SPEAKER_QUOTE = {
     "id": "fix.quote.clement-song", "record_type": "quote", "speaker_or_author": "fix.figure.clement",
@@ -894,13 +915,18 @@ def test_every_sentence_after_an_attribution_colon_goes_not_only_the_first():
     assert [w[1] for w in whys] == ["withhold", "withhold", "withhold", "ok"]
 
 
-def test_an_introduction_followed_by_a_placed_quote_stands():
-    placed_sentence = f"“{EPHREM_QUOTE['modern_rendering']}” [[w.quote.a]]"
-    for text in (f"Ephrem put it this way. {placed_sentence}", f"Ephrem said this:\n\n{placed_sentence}"):
-        result = check_turn(text, EPHREM_REPOSITORY, placed={strip_tags(placed_sentence).strip(): "w.quote.a"})
-        lead, quote = result["sentences"]
-        assert lead["why"] not in QUOTATION_DROP_REASONS, text
-        assert quote["verdict"] == "ok" and quote["placed_quote"] == "w.quote.a", text
+def test_an_introduction_placed_with_its_quote_stands_and_a_bare_quote_after_one_does_not():
+    # Placement joins an introduction standing before a marker to the quote
+    # (quote_placement._take_lead_in), so the speaker is named in the placed
+    # sentence itself. A placed quote with no lead of its own names no one.
+    joined = f"Ephrem put it this way: “{EPHREM_QUOTE['modern_rendering']}” [[w.quote.a]]"
+    result = check_turn(joined, EPHREM_REPOSITORY, placed={strip_tags(joined).strip(): "w.quote.a"})
+    (quote,) = result["sentences"]
+    assert quote["verdict"] == "ok" and quote["placed_quote"] == "w.quote.a"
+    bare = f"“{EPHREM_QUOTE['modern_rendering']}” [[w.quote.a]]"
+    result = check_turn(f"Ephrem put it this way. {bare}", EPHREM_REPOSITORY, placed={strip_tags(bare).strip(): "w.quote.a"})
+    refused = result["sentences"][1]
+    assert refused["verdict"] == "withhold" and refused["why"] in QUOTATION_DROP_REASONS and not refused.get("placed_quote")
 
 
 def test_a_typed_quotation_standing_alone_takes_its_lead_in():
@@ -937,10 +963,14 @@ def test_a_quotes_own_gist_is_not_its_words():
     assert _entry(SHIP_QUOTE["use_note"]["means"], SHIP_REPOSITORY)["why"] != QUOTE_WORDS
 
 
-def test_a_record_the_sentence_is_tagged_to_may_hold_the_same_words_unless_the_speaker_is_named():
+def test_a_record_the_sentence_is_tagged_to_may_hold_the_same_words_speaker_named_or_not():
+    # 14 October retest (pahc Q1): wording the sentence's own witness holds
+    # is the world's telling, even when it names the quote's speaker
     words = "the Church is a ship whose mast is the cross and whose pilot is Christ, safe to harbour"
     assert _entry(f"For us, {words} [[w.witness.ship]].", SHIP_REPOSITORY)["verdict"] == "ok"
-    assert _entry(f"Ephrem sang that {words} [[w.witness.ship]].", SHIP_REPOSITORY)["why"] == QUOTE_WORDS
+    assert _entry(f"Ephrem sang that {words} [[w.witness.ship]].", SHIP_REPOSITORY)["verdict"] == "ok"
+    # words only the quote holds are still its words
+    assert _entry(f"Ephrem sang: {SHIP_RETOLD} [[w.witness.ship]].", SHIP_REPOSITORY)["why"] == QUOTE_WORDS
 
 
 def test_a_quote_already_voiced_is_not_checked_for_its_words():

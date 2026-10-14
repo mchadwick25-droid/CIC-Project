@@ -15,8 +15,9 @@ and returns tagged text the net checks:
   conversation has already voiced, a marker past the one quote a reply may
   carry, a record whose rendering cannot be set apart as one quotation, or
   a placement the net's own placed-quote check refuses
-  (grounding_net.placed_quote_holds) places nothing, and the sentence that
-  introduced it goes with it. Only a quote that is placed counts toward
+  (grounding_net.placed_quote_refusal: among its reasons, a lead-in that
+  does not name the quote's speaker, or that types a quotation of its own)
+  places nothing, and the sentence that introduced it goes with it. Only a quote that is placed counts toward
   the one a reply may carry.
 - a story the conversation has already told keeps its first tagged
   sentence, as a reference back; later sentences tagged to it go.
@@ -36,7 +37,7 @@ from engine.m4.grounding_net import (
     QUOTE_MARKER,
     QuotationIndex,
     placed_key,
-    placed_quote_holds,
+    placed_quote_refusal,
     quoted_span_positions,
     reads_as_lead,
     strip_tags,
@@ -143,10 +144,10 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
                     composed = f"{_lead_for_quote(lead)} “{rendering}” [[{record['id']}]]".strip()
                     if not _settable(composed, rendering):
                         reason, composed = REASON_NOT_SETTABLE, None
-                    elif not placed_quote_holds(composed, repository_records, index, record["id"]):
+                    elif refusal := placed_quote_refusal(composed, repository_records, index, record["id"]):
                         # decided here, as the net decides it, so a quote the
                         # net would refuse never takes the reply's one place
-                        reason, composed = REASON_PLACED_MISMATCH, None
+                        reason, composed = refusal, None
                 if composed is None:
                     report.drop(QUOTE_MARKER.sub("", drafted).strip() or drafted, reason, draft=drafted)
                     if not lead and (previous := _take_lead_in(kept, paragraphs_out, only_if_lead=True)):
