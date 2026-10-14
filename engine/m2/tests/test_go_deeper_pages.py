@@ -297,17 +297,25 @@ def test_the_privacy_page_go_deeper_words_read_at_the_target_level_and_name_no_m
     assert text, "the section's words were not found"
     assert score_turn(text).passed, score_turn(text).failures
     assert not re.search(r"[$€£]|\d+\s*%", text)
-    assert "30 days" in text and "14 more days" in text
-    assert "payment ID" in text and "one hour" in text, "what is kept, and for how long, is stated"
-    assert "no ID is shared" not in text, "the records do share the payment ID, so a blanket 'no ID is shared' would be untrue"
-    assert "share no ID" in text and "share the payment ID" in text
-    assert "never receives" not in text, "Stripe's notice can carry a name and email to us"
+    assert "30 days" in text and "14 more days" in text and "90 days" in text
+    assert "sells nothing" in text and "any payment" in text
+    assert "only a count of each answer" in text and "not linked to you or to your code" in text
+    assert "network address" in text and "scrambled" in text
 
 
-def test_the_privacy_page_numbers_match_the_free_window_and_the_backup_keep():
+def test_the_privacy_page_names_no_payment_service_or_purchase_in_the_go_deeper_section():
+    html = (SITE / "privacy.html").read_text()
+    section = html[html.index('id="go-deeper"'):html.index('id="retention"')]
+    assert not re.search(r"Stripe|payment ID|refund|you pay|purchase", section, re.I)
+
+
+def test_the_privacy_page_numbers_match_the_meters_own_retention():
     from engine.api import db_backup
+    from engine.deeper import meter
 
     html = (SITE / "privacy.html").read_text()
     section = html[html.index('id="go-deeper"'):html.index('id="retention"')]
-    assert f"{load_ops().rates.free_window_days} days" in section
+    assert f"We delete this record {load_ops().rates.free_window_days} days after that first day." in section
+    assert f"we delete it {meter.RETENTION_DAYS} days after the end of the week it was last used." in section
+    assert f"We delete it {meter.PILOT_RETENTION_DAYS} days after that day." in section
     assert f"{db_backup._DEFAULT_RETENTION_DAYS} more days" in section

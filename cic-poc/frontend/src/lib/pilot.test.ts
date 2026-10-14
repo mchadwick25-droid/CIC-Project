@@ -26,16 +26,16 @@ afterEach(() => {
 });
 
 describe('the pilot join', () => {
-  it('asks once for a link, saves the code and clears the address', async () => {
+  it('asks once for a link and its role, saves the code and clears the address', async () => {
     const fetchMock = answer(200, { joined: true, code: SHOWN, tokens: 1100, conversations: 10 });
-    const { pilot, deeper } = await load(true, '#cic-pilot=pastors-link-key-0123456789');
+    const { pilot, deeper } = await load(true, '#cic-pilot=pastors-link-key-0123456789&role=pastor_or_teacher');
     await vi.waitFor(() => expect(pilot.pilotSnapshot().status).toBe('ready'));
     const joins = fetchMock.mock.calls.filter(([target]) => target === '/api/deeper/pilot-join');
     expect(joins).toHaveLength(1);
     const [url, init] = joins[0];
     expect(url).toBe('/api/deeper/pilot-join');
     expect(init).toMatchObject({ method: 'POST', credentials: 'omit', referrerPolicy: 'no-referrer' });
-    expect(JSON.parse(init.body)).toEqual({ link: 'pastors-link-key-0123456789' });
+    expect(JSON.parse(init.body)).toEqual({ link: 'pastors-link-key-0123456789', role: 'pastor_or_teacher' });
     expect(pilot.pilotSnapshot()).toEqual({ status: 'ready', tokens: 1100, conversations: 10 });
     expect(deeper.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
     expect(window.location.hash).toBe('');
@@ -43,17 +43,17 @@ describe('the pilot join', () => {
 
   it('never offers the pack again to a browser that joined', async () => {
     answer(200, { joined: true, code: SHOWN, tokens: 1100, conversations: 10 });
-    await load(true, '#cic-pilot=general');
+    await load(true, '#cic-pilot=general&role=academic');
     await vi.waitFor(() => expect(localStorage.getItem('cic_pilot')).toBe('1'));
     const again = answer(200, {});
-    const { pilot } = await load(true, '#cic-pilot=general');
+    const { pilot } = await load(true, '#cic-pilot=general&role=academic');
     await vi.waitFor(() => expect(pilot.pilotSnapshot().status).toBe('already'));
     expect(again).not.toHaveBeenCalled();
   });
 
   it.each(['full', 'ended', 'address_limit'])('says so when the server answers %s, and keeps no code', async (reason) => {
     answer(409, { joined: false, reason });
-    const { pilot, deeper } = await load(true, '#cic-pilot=general');
+    const { pilot, deeper } = await load(true, '#cic-pilot=general&role=academic');
     await vi.waitFor(() => expect(pilot.pilotSnapshot().status).toBe(reason));
     expect(deeper.codeHeaders()).toEqual({});
     expect(localStorage.getItem('cic_pilot')).toBeNull();
@@ -61,38 +61,51 @@ describe('the pilot join', () => {
 
   it('shows nothing when the link is closed or not named', async () => {
     answer(404, { detail: 'Not Found' });
-    const { pilot } = await load(true, '#cic-pilot=general');
+    const { pilot } = await load(true, '#cic-pilot=general&role=academic');
     await vi.waitFor(() => expect(pilot.pilotSnapshot().status).toBeNull());
     expect(localStorage.getItem('cic_pilot')).toBeNull();
   });
 
   it('says it failed when the server cannot be reached or sends nothing usable', async () => {
     vi.stubGlobal('fetch', vi.fn().mockRejectedValue(new Error('offline')));
-    const { pilot } = await load(true, '#cic-pilot=general');
+    const { pilot } = await load(true, '#cic-pilot=general&role=academic');
     await vi.waitFor(() => expect(pilot.pilotSnapshot().status).toBe('failed'));
     expect(localStorage.getItem('cic_pilot')).toBeNull();
   });
 
   it('does not ask for a code the server sent that is not a code', async () => {
     answer(200, { joined: true, code: 'nope', tokens: 1100, conversations: 10 });
-    const { pilot } = await load(true, '#cic-pilot=general');
+    const { pilot } = await load(true, '#cic-pilot=general&role=academic');
     await vi.waitFor(() => expect(pilot.pilotSnapshot().status).toBe('failed'));
     expect(localStorage.getItem('cic_pilot')).toBeNull();
   });
 
-  it.each(['#cic-pilot=a b', '#cic-pilot=', '#cic-pilot=x&y=1', '#cic-pilot=../x', `#cic-pilot=${'x'.repeat(65)}`])(
-    'asks nothing for the malformed fragment %s',
+  it.each([
+    '#cic-pilot=a b&role=academic', '#cic-pilot=', '#cic-pilot=x&y=1', '#cic-pilot=../x&role=academic',
+    `#cic-pilot=${'x'.repeat(65)}&role=academic`, '#cic-pilot=general', '#cic-pilot=general&role=',
+    '#cic-pilot=general&role=Academic', '#cic-pilot=general&role=academic&x=1',
+  ])(
+    'asks nothing for the malformed fragment %s, and clears it',
     async (hash) => {
       const fetchMock = answer(200, {});
       const { pilot } = await load(true, hash);
       expect(fetchMock).not.toHaveBeenCalled();
       expect(pilot.pilotSnapshot().status).toBeNull();
+      expect(window.location.hash).toBe('');
     }
   );
 
+  it('says it failed when the server refuses the role', async () => {
+    answer(400, { detail: 'role must be one of the list' });
+    const { pilot, deeper } = await load(true, '#cic-pilot=general&role=not_a_role');
+    await vi.waitFor(() => expect(pilot.pilotSnapshot().status).toBe('failed'));
+    expect(deeper.codeHeaders()).toEqual({});
+    expect(localStorage.getItem('cic_pilot')).toBeNull();
+  });
+
   it('asks nothing with the module off, and still takes the key out of the address', async () => {
     const fetchMock = answer(200, {});
-    const { pilot } = await load(false, '#cic-pilot=general');
+    const { pilot } = await load(false, '#cic-pilot=general&role=academic');
     expect(fetchMock).not.toHaveBeenCalled();
     expect(pilot.pilotSnapshot().status).toBeNull();
     expect(window.location.hash).toBe('');

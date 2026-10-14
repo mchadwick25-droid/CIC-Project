@@ -261,8 +261,9 @@ def test_a_real_runtime_rebuilt_on_the_same_file_and_key_does_not_refill_a_visit
         second.claims.close()
 
 
-def test_the_shipped_pilot_names_its_audiences_all_closed():
+def test_the_shipped_pilot_opens_general_alone():
     ops = load_ops()
     assert set(ops.pilot_audiences) == {"general", "pastors", "historians"}
-    assert not any(a.pilot_open for a in ops.pilot_audiences.values())
+    assert [a.pilot_open for a in ops.pilot_audiences.values()] == [True, False, False]
     assert [a.public for a in ops.pilot_audiences.values()] == [True, False, False]
+    assert (ops.pilot_audiences["general"].pilot_cap, ops.pilot_audiences["general"].per_address) == (100, 1)

@@ -37,8 +37,46 @@ def test_the_offer_is_the_words_mark_approved():
         for b in blocks
     )
     assert any(b.startswith("In return, we ask you to answer a short questionnaire after") and b.endswith("You do not need to give your name or email.") for b in blocks)
-    assert "Places are limited." in blocks
+    assert any(b.startswith("Places are limited to") and b.endswith("One pack per person.") for b in blocks)
     assert 'id="pilot-button"' in PAGE.read_text() and ">Get my free pack<" in PAGE.read_text()
+
+
+def test_the_places_on_the_page_are_the_general_audiences_cap_and_one_each():
+    general = load_ops().pilot_audiences["general"]
+    html = PAGE.read_text()
+    assert re.findall(r'data-ops="pilot-cap">([\d,]+)<', html) == [f"{general.pilot_cap:,}"]
+    assert general.per_address == 1 and "One pack per person." in html
+
+
+def _options(html: str, select_id: str) -> list[tuple[str, str]]:
+    block = re.search(rf'<select id="{select_id}"[^>]*>(.*?)</select>', html, re.S).group(1)
+    return re.findall(r'<option(?: value="([^"]*)")?[^>]*>([^<]+)</option>', block)
+
+
+def test_the_role_choice_is_required_and_its_answers_are_the_feedback_forms_and_the_servers():
+    from engine.deeper.meter import PILOT_ROLES
+
+    html = PAGE.read_text()
+    assert re.search(r'<select id="pilot-role" name="role" required>', html)
+    options = _options(html, "pilot-role")
+    assert options[0] == ("", "Choose one") and '<option value="" selected disabled>' in html
+    feedback = [text for _value, text in _options((SITE / "pilot-feedback.html").read_text(), "perspective")]
+    assert [text for _value, text in options[1:]] == feedback
+    assert dict(options[1:]) == PILOT_ROLES
+    assert 'label for="pilot-role"' in html
+
+
+def test_the_join_form_goes_to_the_app_only_with_a_role():
+    out = _node(
+        f"""const p = require({json.dumps(str(SCRIPT))});
+        console.log(JSON.stringify([
+          p.joinUrl('https://app.example', 'general', ''), p.joinUrl('https://app.example', 'general', 'Bad Role'),
+          p.joinUrl('https://app.example', 'general', 'a&b'), p.joinUrl('https://app.example', '', 'general')
+        ]))"""
+    )
+    assert out == [None, None, None, None]
+    script = SCRIPT.read_text()
+    assert 'getElementById("pilot-form")' in script and "preventDefault" in script and "form.elements.role.value" in script
 
 
 def test_the_figures_are_the_pilot_packs_in_the_operations_file():
@@ -79,12 +117,14 @@ def test_the_link_comes_from_the_query_and_only_a_well_formed_one_goes_into_the_
         console.log(JSON.stringify([
           p.linkOf(''), p.linkOf('?for=pastors-link-key-0123456789'), p.linkOf('?for='), p.linkOf('?for=a%20b'),
           p.linkOf('?for=historians-key-0123456789&fbclid=1'), p.linkOf('?for=../x'), p.linkOf('?utm=1'), p.linkOf('?for=' + 'x'.repeat(65)),
-          p.joinUrl('https://app.example/', 'pastors-link-key-0123456789'), p.joinUrl('https://app.example', 'general')
+          p.joinUrl('https://app.example/', 'pastors-link-key-0123456789', 'pastor_or_teacher'),
+          p.joinUrl('https://app.example', 'general', 'prefer_not_to_say')
         ]))"""
     )
     assert out == [
         "general", "pastors-link-key-0123456789", None, None, "historians-key-0123456789", None, "general", None,
-        "https://app.example/#cic-pilot=pastors-link-key-0123456789", "https://app.example/#cic-pilot=general",
+        "https://app.example/#cic-pilot=pastors-link-key-0123456789&role=pastor_or_teacher",
+        "https://app.example/#cic-pilot=general&role=prefer_not_to_say",
     ]
 
 

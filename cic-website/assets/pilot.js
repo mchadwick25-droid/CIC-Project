@@ -11,9 +11,13 @@
     return LINK.test(name) ? name : null;
   }
 
-  // The app's address for the pack: the link travels in the fragment, which no server is sent.
-  function joinUrl(appOrigin, link) {
-    return appOrigin.replace(/\/+$/, "") + "/#cic-pilot=" + link;
+  // One of the join form's role values. The server holds the list and checks it.
+  var ROLE = /^[a-z_]{1,32}$/;
+
+  // The app's address for the pack: the link and the chosen role travel in the fragment, which no server is sent.
+  function joinUrl(appOrigin, link, role) {
+    if (!LINK.test(link || "") || !ROLE.test(role || "")) return null;
+    return appOrigin.replace(/\/+$/, "") + "/#cic-pilot=" + link + "&role=" + role;
   }
 
   var api = { linkOf: linkOf, joinUrl: joinUrl };
@@ -27,6 +31,11 @@
   if (root.location.search && root.history && root.history.replaceState) root.history.replaceState(null, "", root.location.pathname);
   // Nothing shows until the pilot is opened in the site's config, so a link found early shows an empty page.
   if (!config.pilot || !link) return;
-  root.document.getElementById("pilot-button").setAttribute("href", joinUrl(config.app, link));
+  var form = root.document.getElementById("pilot-form");
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var target = joinUrl(config.app, link, form.elements.role.value);
+    if (target) root.location.assign(target);
+  });
   root.document.getElementById("pilot-offer").hidden = false;
 })(typeof window !== "undefined" ? window : this);
