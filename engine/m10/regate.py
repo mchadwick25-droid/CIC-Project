@@ -3,8 +3,9 @@
 `records <code> [--freeze]` fails when a world lacks a record type the site
 and the facilitator need (world_front, facilitator_brief, search_record) or
 its compiled site JSON, at the states the M1 cross-world gate requires them
-(admitted, open) or with --freeze, and whenever it cannot produce its
-capsule. A world outside the grandfathered set may not carry a waiver for
+(admitted, open) or with --freeze, whenever a spoken sentence ends on a bare
+question word (engine.m1.question_endings), and whenever it cannot produce
+its capsule. A world outside the grandfathered set may not carry a waiver for
 those types, and may carry any other waiver only with an owning finding and
 the project lead's approval. `regate` applies the same waiver rule.
 
@@ -25,6 +26,7 @@ from pathlib import Path
 from engine.m1 import cross_world, gates, schemas
 from engine.m1.fk import fk_grade
 from engine.m1.loader import load_world_records, parse_record_text
+from engine.m1.question_endings import bare_question_hits
 from engine.m1.spoken_scaffolding import scaffolding_hits
 from engine.m9.enforce import ACCEPTED_OPEN as M9_ACCEPTED_OPEN
 from engine.m9.enforce import GRANDFATHERED_WORLDS, PROJECT_LEAD, new_world_waiver_problem
@@ -313,6 +315,10 @@ def run_records(code: str, root: Path = REPO_ROOT, *, freeze: bool = False) -> R
         report.notes.append(f"state {state!r}: required record types and the site JSON are checked from {'/'.join(cross_world.REQUIRED_TYPES_STATES)} or with --freeze")
     report.findings.extend(new_world_waiver_findings(code))
     report.findings.extend(scaffolding_findings(code, records, path, report.notes))
+    report.findings.extend(
+        Finding(f"{path}/{rid}", "question-ending", f"{label}: ends on a bare question word; name the question it cannot answer - {sentence!r}")
+        for rid, label, sentence in bare_question_hits(records)
+    )
     try:
         from engine.m2 import builders
 
