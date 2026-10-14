@@ -25,7 +25,7 @@ exchange:
   text: Ignatius called Jesus Christ our God again and again. He did it when he opened his letters and
     when he closed them. It was a phrase of worship. That word of yours, Trinity, is not one we used.
     How calling Jesus God fits with calling the Father God, none of us whose writing survives ever wrote
-    out. We did call him God, and we cannot tell you we had settled how.
+    out. We did call him God. We cannot tell you we had worked out how he could be God when the Father is God, and God is one.
 ---
 Worked exchange for the CENTER translational cell (C-T) - a period
 term ("Trinity") is named, then answered honestly about its absence
