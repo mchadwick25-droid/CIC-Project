@@ -6544,3 +6544,11 @@ Carries out the 13 October ruling "Eleven-world live test: promotion held for on
 - The independent review's recheck confirmed all three of its blocking findings fixed (the confession rule's leak, named "own words", the stream before the backstop), and found an older streaming leak this slice did not cause: a quotation the voice types over several sentences streams before the net removes it. Streaming is off for the pilot; registered in System Health tracking (2026-10-14).
 - Readability: 56 of 66 replies under grade 8. Not addressed, and the gate is not lowered; whether the concision directive ("the fewest sentences") drives the clipping needs the retest to judge.
 - A scan of the other ten worlds' spoken fields finds first-person singular forms, mostly inside quoted words; they were not separated or changed here.
+
+## 2026-10-14 - Retest after the fix slice: one more slice before promotion
+
+**The test.** The named live test "eleven-world retest after the fix slice, 14 October" ran on `main` after the fix slice merged, with the same six questions. Mark approved $3 and then raised it to $4.50. The run spent $3.82, counting desert's interrupted first run at its full cap. Seven worlds completed: rzg, pahc, syr, alx, desert, ijc and hal. Cappadocian, witt, don and gallic were stopped by the spending guard, which holds each call's worst case against the cap. The harness then discarded their completed turns. That harness bug is fixed with this entry. Reports are `engine/m4/reports/live-turn-report-<world>-2026-10-14-retest.json`; the independent reading is `Build/Ministry/Operations/Audits/live11_retest_reading_2026-10-14.json`.
+
+**What it showed.** Placed quotes naming their speaker rose from 3 of 6 to 8 of 10. No quote marker was invented, and cuts fell from 38 to 20. Three errors still reached a participant: pahc credited 1 Clement's chain to Justin, ijc gave a reason for Eusebius's signature that no record holds, and syr typed its own rewording of an Ephrem line in quotation marks. Eight cuts still removed a world's own wording.
+
+**Ruling (the project lead).** One more fix slice before promotion, then the full eleven-world test. Placed quotes: after generation, code checks that the lead-in sentence names the quote record's speaker. If it does not, the quote is not placed and its lead-in goes. Code adds no words.
