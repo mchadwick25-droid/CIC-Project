@@ -17,10 +17,17 @@ scrub and before quote placement:
   stands as its own paragraphs; the voice's text goes on after it. A marker
   standing alone takes the sentence before it as its introduction; words
   after the marker in its sentence are cut.
+- the introduction names the story's own people or the community: every
+  name it carries (a capitalised word past its first) stands in the story's
+  telling, `tellable_as` or `use_note.means`, and it carries one of them or
+  "we", "us", "our", "ours". One that names anyone else goes, and the story
+  is still placed, after the voice's text before it; code adds no words.
 - a marker for a story not offered this turn, one without a telling, one
-  the conversation has already told, a second story in one reply, or an
-  introduction that shares no word with the story's `tellable_as` or
-  `use_note.means` places nothing, and its sentence goes with it.
+  the conversation has already told, or a second story in one reply places
+  nothing, and its sentence goes with it.
+- a sentence the voice wrote itself, tagged to a story offered for
+  placement that the reply did not place, goes: the story reaches a
+  participant only as its own telling.
 
 Each placed sentence is returned in "placed_sentences", and the grounding
 net verifies it against the telling word for word
@@ -44,14 +51,18 @@ from engine.m4.quote_placement import (
     _Report,
     _take_lead_in,
 )
-from engine.prose import content_words, quote_aware_sentences
+from engine.prose import quote_aware_sentences
 
+_NAME = re.compile(r"\b[A-Z][a-z][A-Za-z'’-]*")
+_COMMUNITY = re.compile(r"\b(?:we|us|our|ours)\b", re.IGNORECASE)
+_TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 _STORY_MARKER_ID = re.compile(r"\[\[\s*story\s*:\s*([a-z0-9_.-]+)\s*\]\]", re.IGNORECASE)
 _CLOSING = re.compile(r"([.!?]+[\"'”’)]*)\s*$")
 
 REASON_STORY_NOT_OFFERED = "story record not offered for placement this turn"
 REASON_SECOND_STORY = "second placed story in one reply"
-REASON_STORY_SUBJECT = "introduction names nothing the story is about"
+REASON_STORY_INTRO = "introduction names someone the story does not"
+REASON_STORY_PARAPHRASE = "tells an offered story without placing it"
 MAX_PLACED_STORIES_PER_REPLY = 1
 
 STORY_OFFERS_LINE = "Stories you may place this turn, and no others: {offers}."
@@ -93,7 +104,8 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
     report = _Report()
     placed: list[str] = []
     paragraphs_out: list[list[str]] = []
-    if not STORY_MARKER.search(tagged_text or ""):
+    unplaced = context.offered_stories - context.told_stories
+    if not STORY_MARKER.search(tagged_text or "") and not unplaced & set(_TAG.findall(tagged_text or "")):
         return {"text": tagged_text or "", "placed": [], "placed_sentences": {}, "placed_drafts": {}, "removed": []}
 
     for paragraph in (p for p in _PARAGRAPH_BREAK.split(tagged_text or "") if p.strip()):
@@ -114,13 +126,15 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
             if reason is None and not lead:
                 lead = _take_lead_in(kept, paragraphs_out, sealed)
                 drafted = f"{lead} {drafted}".strip()
-            if reason is None and not _names_story_subject(lead, record):
-                reason = REASON_STORY_SUBJECT
             if reason is None:
-                intro = _story_intro(lead, record["id"])
-                kept.append(intro)
-                report.placed_drafts[placed_key(strip_tags(intro))] = drafted
-                paragraphs_out.append(kept)
+                if _intro_holds(lead, record):
+                    intro = _story_intro(lead, record["id"])
+                    kept.append(intro)
+                    report.placed_drafts[placed_key(strip_tags(intro))] = drafted
+                elif lead:
+                    report.drop(lead, REASON_STORY_INTRO, draft=drafted)
+                if kept:
+                    paragraphs_out.append(kept)
                 kept = []
                 for block in _telling_paragraphs(record):
                     for tagged in block:
@@ -141,6 +155,7 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
         if kept:
             paragraphs_out.append(kept)
 
+    paragraphs_out = _without_paraphrase(paragraphs_out, unplaced - set(placed), report)
     return {
         "text": "\n\n".join(" ".join(p) for p in paragraphs_out if p),
         "placed": placed,
@@ -168,11 +183,37 @@ def _story_verdict(
     return None, record
 
 
-def _names_story_subject(lead: str, record: dict) -> bool:
-    """The introduction shares a content word with what the story is about:
-    its tellable_as or its use note's meaning."""
-    subject = " ".join(filter(None, [record.get("tellable_as"), (record.get("use_note") or {}).get("means")]))
-    return bool(content_words(strip_tags(lead)) & content_words(subject))
+def _intro_holds(lead: str, record: dict) -> bool:
+    """The introduction names the story's own people or the community, and
+    no one else (module docstring)."""
+    text = strip_tags(lead).strip()
+    story = " ".join(filter(None, [record.get("telling"), record.get("tellable_as"), (record.get("use_note") or {}).get("means")]))
+    known = set(_NAME.findall(story))
+    names = _NAME.findall(text)
+    # A sentence's first word is capitalised whatever it is, so it counts
+    # only when the story names it.
+    later = names[1:] if _NAME.match(text) else names
+    if any(name not in known for name in later):
+        return False
+    return any(name in known for name in names) or bool(_COMMUNITY.search(text))
+
+
+def _without_paraphrase(paragraphs: list[list[str]], stories: set[str], report: _Report) -> list[list[str]]:
+    """The paragraphs without the voice's own sentences tagged to a story in
+    `stories`: offered for placement and not placed in this reply."""
+    if not stories:
+        return paragraphs
+    out = []
+    for paragraph in paragraphs:
+        kept = []
+        for sentence in paragraph:
+            if stories & set(_TAG.findall(sentence)):
+                report.drop(sentence, REASON_STORY_PARAPHRASE)
+            else:
+                kept.append(sentence)
+        if kept:
+            out.append(kept)
+    return out
 
 
 def _story_intro(lead: str, record_id: str) -> str:

@@ -14,7 +14,8 @@ from engine.m4.quote_placement import REASON_STORY_RETOLD, PlacementContext
 from engine.m4.story_placement import (
     REASON_SECOND_STORY,
     REASON_STORY_NOT_OFFERED,
-    REASON_STORY_SUBJECT,
+    REASON_STORY_INTRO,
+    REASON_STORY_PARAPHRASE,
     STORY_PLACE_LINE,
     place_stories,
 )
@@ -177,9 +178,23 @@ def test_a_reply_places_one_story_at_most(desert):
     assert _whys(net_result) == [REASON_SECOND_STORY]
 
 
-def test_an_introduction_that_names_nothing_the_story_is_about_places_nothing(desert):
-    text, _c, net_result = _net(f"Here is one of ours [[story:{MOSES}]].\n\n{MOSES_AFTER}", desert, _offer(MOSES))
-    assert text == MOSES_AFTER_SHOWN and _whys(net_result) == [REASON_STORY_SUBJECT]
+def test_an_introduction_naming_someone_the_story_does_not_goes_and_the_story_is_still_placed(desert):
+    draft = f"As Athanasius told it, Moses judged a brother [[story:{MOSES}]].\n\n{MOSES_AFTER}"
+    text, _c, net_result = _net(draft, desert, _offer(MOSES))
+    assert "Athanasius" not in text
+    assert text == f"{_telling_shown(desert[MOSES])}\n\n{MOSES_AFTER_SHOWN}"
+    assert net_result["reply_shape"]["placed"] == [MOSES]
+    assert _whys(net_result) == [REASON_STORY_INTRO]
+
+
+def test_an_introduction_naming_the_community_alone_holds(desert):
+    text, _c, net_result = _net(f"Here is one of ours [[story:{MOSES}]].", desert, _offer(MOSES))
+    assert text.startswith("Here is one of ours:\n\n") and net_result["reply_shape"]["removed"] == []
+
+
+def test_an_introduction_naming_no_one_and_not_the_community_goes(desert):
+    text, _c, net_result = _net(f"Consider this [[story:{MOSES}]].", desert, _offer(MOSES))
+    assert text == _telling_shown(desert[MOSES]) and _whys(net_result) == [REASON_STORY_INTRO]
 
 
 def test_the_net_refuses_a_placed_sentence_that_is_not_in_the_records_telling(desert):
@@ -217,10 +232,23 @@ def test_a_second_story_marker_after_a_placed_story_leaves_the_telling_whole(des
     assert _whys(net_result) == [REASON_SECOND_STORY]
 
 
+def test_the_improvised_live_reply_is_withheld_where_the_story_could_have_been_placed(desert):
+    text, _c, net_result = _net(f"{MOSES_IMPROVISED}\n\n{MOSES_AFTER}", desert, _offer(MOSES))
+    assert text == MOSES_AFTER_SHOWN
+    assert _whys(net_result) == [REASON_STORY_PARAPHRASE] * 4
+
+
 def test_the_improvised_live_reply_is_unchanged_on_a_world_that_does_not_place_stories(desert):
-    on, _c, _r = _net(MOSES_IMPROVISED, desert, _offer(MOSES))
-    off, _c, _r = _net(MOSES_IMPROVISED, desert, PlacementContext())
-    assert on == off
+    text, _c, net_result = _net(MOSES_IMPROVISED, desert, PlacementContext())
+    assert "summoned to judge an erring brother" in text
+    assert REASON_STORY_PARAPHRASE not in _whys(net_result) and net_result["reply_shape"]["placed"] == []
+
+
+def test_the_voice_may_speak_of_a_story_once_it_is_placed(desert):
+    after = "That is how we learned to look at our own faults first [[desert.story.moses-leaking-jug]]."
+    text, _c, net_result = _net(f"{MOSES_INTRO} {after}", desert, _offer(MOSES))
+    assert text.endswith("That is how we learned to look at our own faults first.")
+    assert net_result["reply_shape"]["removed"] == []
 
 
 # ---- the switch, the evidence block and the stream ------------------------
