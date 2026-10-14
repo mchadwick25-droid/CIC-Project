@@ -119,11 +119,9 @@ def word_count(s: str) -> int:
 
 
 # A story's `telling` is excluded on the same ground as a `quote` record:
-# the speech inside it is a modern-English rendering authored by Opus and
-# checked against the vendored source before the record passes review, so
-# the question this survey asks is already owned for it (Mark's ruling of
-# 2026-10-14, Build/worlds/desert/Open_Gaps_Tracking.md, the story-tellings
-# entry).
+# the speech inside it is a modern-English rendering, authored and checked
+# against the vendored source like a quote's modern_rendering, so the
+# question this survey asks is already owned for it.
 _OWNED_RENDERING_FIELDS = {("story", "telling")}
 
 
