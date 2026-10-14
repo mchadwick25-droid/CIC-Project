@@ -1320,7 +1320,10 @@ def render_evidence_block(evidence: dict) -> str:
             descriptors.append(f"{how} in round {round_no}")
         elif candidate.get("already_told_this_session"):
             descriptors.append("already told this session")
-        line = f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}"
+        if candidate.get("placeable"):
+            line = f"- [[story:{candidate['id']}]] {', '.join(descriptors)} to place (cite as [[{candidate['id']}]]) — {head}"
+        else:
+            line = f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}"
         if candidate.get("means"):
             line += f" | means: {candidate['means']}"
         guards = candidate.get("claim_guards")

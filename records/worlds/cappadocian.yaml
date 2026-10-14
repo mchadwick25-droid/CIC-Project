@@ -29,3 +29,4 @@ state: admitted
 package:
   manifest_hash: "sha256:6dd866633f5af31c5cf050c1bdd3f767ed647e8d6903b587048f9be789fa0eea"
   location: "packages/cappadocian/2026-10-14T04-44-04Z"
+story_placement: false

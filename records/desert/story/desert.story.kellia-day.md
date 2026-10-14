@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Inferential/Thin throughout, per the prior build's cleared Story Repository Chunk Template's own rule: a Tier 4 reconstruction always carries this level regardless of individual element quality, since the reconstruction itself - assembling several independently attested elements into one day - is not itself independently attested as a single account."
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "the constant/near-constant Psalter recitation this world's own tradition attests as the substrate of prayer"
+  locus: "Budge, Paradise vol. 2 (Syriac Sayings), sec. 527 (vendored line 2442) - the men in the cells kept a daily rule of assembled service and hand-work; and sec. 637 (vendored line 2810) - the Fathers sang the Psalms in their cells. Neither saying states that the Psalter was recited constantly, and sec. 527 does not name the settlement, so constancy and the Kellia setting rest on the wider tradition, not on a single saying cited here"
 - source_id: desert.source.kellia-excavations
   locus: "the cell as basic architectural unit - single cells to multi-room hermitages, each with an attached oratory"
 - source_id: desert.source.athanasius-vita-antonii
