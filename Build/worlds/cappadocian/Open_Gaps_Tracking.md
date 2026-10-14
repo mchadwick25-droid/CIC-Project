@@ -866,3 +866,12 @@ Status: CLOSED.
 The horizon gate now reads `use_note.means`, which the evidence block gives the voice (System Hub Decision Log, 14 October second fix slice). `cappadocian.dw.not-later-formulas` `use_note.means` named transubstantiation (the Fourth Lateran Council, 1215). It now says "inherited guilt, a change in the bread's substance, and faith alone were not categories this world used", which keeps the fact without the later term. The record's `text` and `positions` still name it, under the existing `m1:horizon/cappadocian` waiver (4). Package rebuilt and repinned.
 
 Status: CLOSED for `use_note.means`.
+
+### OG-47. Honest limits name their question, 2026-10-14.
+
+The project lead ruled on 14 October (option C) that an honest-limit sentence names the question it cannot answer and never ends on a bare question word, after a pahc record ended "We cannot tell you we had settled how." The new question-ending gate (`engine/m1/question_endings.py`) flags any spoken sentence that ends that way; System Hub Decision Log, "Honest limits name their question: records check and writing rule", 2026-10-14. Each sentence below now names its question with words its record, or the participant's own question, already holds. No claim, name or date is added.
+
+- `cappadocian.demo.where-was-god` representative turn: "So we cannot tell you why." now reads "So we cannot tell you why God allows such suffering."
+- `cappadocian.dw.customs-from-the-apostles` `text`: "most of us not even knowing why." now reads "most of us not even knowing why we faced east."
+
+`engine.m10.cli records cappadocian` and `regate cappadocian --base origin/main` pass. Package rebuilt and repinned: `packages/cappadocian/2026-10-14T20-18-46Z`, `manifest_hash` `sha256:405ced30579e226bc2b1ce239572c4ca0a655b22cfa8602d15f2b55f2c5675c0`. Status: CLOSED.
