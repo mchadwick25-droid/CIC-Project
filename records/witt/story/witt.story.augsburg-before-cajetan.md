@@ -20,9 +20,10 @@ confidence:
     rather than direct documentation.
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: '"Of Imperial Diets and Assemblies in Causes of Religion" - the 1518 Augsburg account in Luther''s
-    own later retelling, verified verbatim at this locus (the safe-conduct, the Italian who led him to
-    Cajetan, "Revoco," the three-fold kneeling, "Under Heaven")'
+  locus: >-
+    "Of Imperial Diets and Assemblies in Causes of Religion" - the 1518 Augsburg account in Luther's own
+    later retelling: the safe-conduct, the Italian who led him to Cajetan, "Revoco," his kneeling and
+    then lying on the ground until the Cardinal three times bade him rise, and "Under Heaven"
   license: public-domain
 retrieval:
   tier: 2
@@ -48,26 +49,27 @@ narrative_tier_justification: 'Tier 2, Collected and Traditional Material: a lat
   years later by students, collected and edited by named hands (Doc_09 witt-S02). Academic consensus,
   per that same Cross-Walk entry, treats the tradition as authentic even where individual attribution
   or wording cannot be verified - which is exactly the shape of confidence this story carries.'
-tellable_as: Summoned to Augsburg in 1518 to answer for his teaching before the papal legate, a young
-  friar with an imperial safe-conduct kneels three times before Cardinal Cajetan, is told to speak one
-  word - "Revoco," I recant - and, pressed on where he could possibly find safety if he refuses, answers
-  simply, "Under Heaven."
-text: 'Years later, at his own table, Luther told his students how it had gone at Augsburg, in the summer
-  of 1518 - the first time Rome tried, in person, to make him take his words back.
+tellable_as: >-
+  Summoned to Augsburg in 1518, Luther is told by an Italian that one word will do: "Revoco," I recant.
+  He goes to Cardinal Cajetan, kneels, and then lies flat on the ground. The next day the Cardinal asks
+  where he can hope to find safety. Luther answers, "Under Heaven."
+text: >-
+  Years later, at his own table, Luther told his students how it had gone at Augsburg, in the summer of
+  1518 - the first time Rome tried, in person, to make him take his words back.
 
   He had been summoned, he said, and Frederick, the Elector of Saxony, had arranged him a strong escort
   and a safe-conduct. He was warned not to trust the Italians. He waited three days in Augsburg before
-  the Emperor''s own safe-conduct arrived; in that time, an Italian came to him and led him to Cardinal
+  the Emperor's own safe-conduct arrived; in that time, an Italian came to him and led him to Cardinal
   Cajetan, urging him the whole way to recant - it would take only one word, the Italian said, Revoco,
-  "I recant," and the Cardinal would send him home to his Elector in honor and the Pope''s good favor.
+  "I recant," and the Cardinal would send him home to his Elector in honor and the Pope's good favor.
   When Luther came before the Cardinal, he told his students, he knelt first on his knees, then all the
   way down to the ground, and stayed there until Cajetan three times bade him rise. The Cardinal was pleased
   by this - he hoped, Luther said, that it meant he would think better of things.
 
-  The next day Luther came again, and would not recant anything. "What," the Cardinal said to him, "thinkest
-  thou that the Pope careth for Germany? Or dost thou think that the Princes will raise arms and armies
-  to maintain and defend thee? Oh, no; where wilt thou remain in safety?" And Luther told his students
-  what he had answered: "Under Heaven."'
+  The next day Luther came again, and would not recant anything. "What? thinkest thou that the Pope careth
+  for Germany? or dost thou think that the Princes will raise arms and armies to maintain and defend thee?
+  Oh, no; where wilt thou remain in safety?" the Cardinal said to him. And Luther told his students what
+  he had answered: "Under Heaven."
 absent_detail: This account is Luther's own later memory, told to students and recorded by them - not
   a transcript taken at Augsburg in 1518. It gives no exact date beyond "the 9th of July," no independent
   witness to the words exchanged, and no account of Cajetan's own side of the conversation beyond what

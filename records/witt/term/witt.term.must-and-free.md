@@ -17,27 +17,29 @@ confidence:
     and not claimed more broadly.
 sources:
 - source_id: witt.source.luther-treatise-on-christian-liberty
-  locus: Christian Liberty, opening only -- 'a Christian man is a perfectly free lord of all... a perfectly
+  locus: >-
+    Christian Liberty, opening only -- 'a Christian man is a perfectly free lord of all... a perfectly
     dutiful servant of all'
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
   locus: the Eight Wittenberg Sermons, all eight -- 'take note of these two things, must and free'
   license: public-domain
 - source_id: witt.source.luther-that-doctrines-of-men-are
-  locus: That Doctrines of Men Are to Be Rejected, cited among this entry's Registry rows (Doc_06 SS5
-    entry 7.5)
+  locus: That Doctrines of Men Are to Be Rejected
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism -- 'no one should by any means be coerced or compelled, lest we institute
-    a new murdering of souls'
+  locus: >-
+    the Large Catechism -- 'no one should by any means be coerced or compelled, lest we institute a new
+    murdering of souls'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- holy-days 'observed without sin... nevertheless consciences are not
-    to be burdened'
+  locus: >-
+    the Augsburg Confession -- holy-days 'observed without sin... nevertheless consciences are not to
+    be burdened'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'the use of liberty is to be so controlled that the inexperienced
-    may not be offended'
+  locus: >-
+    the Apology -- 'the use of liberty is to be so controlled that the inexperienced may not be offended'
   license: public-domain
 retrieval:
   tier: 1

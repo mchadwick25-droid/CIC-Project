@@ -27,11 +27,9 @@ exchange:
     the women's own lives, the sick and the dying. Here is our problem. Our
     record comes from courts and bishops, and it noticed ordinary people
     mostly when they filled a basilica or a riot. We know the crowds of our
-    cities were there. On one besieged night they enter the record singing,
-    and for a moment we hear them. The only women our record shows acting are
-    two empresses, and even they speak only through other men's accounts. The
-    daily bread, the household, the deathbed of an ordinary believer: those
-    were lived, not written, and we will not invent them.
+    cities were there. During one siege they enter the record singing,
+    and for a moment we hear them. The women our record shows acting are mostly two empresses, and even they speak only through other men's accounts. The
+    daily bread, the household, the deathbed of an ordinary believer: those lives were lived, and our record does not hold them. We will not invent them.
 
 ---
 The honest-limit-in-voice pattern: the limit record's own statement,

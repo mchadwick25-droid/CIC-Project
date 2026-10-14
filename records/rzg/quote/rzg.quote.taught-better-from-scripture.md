@@ -25,10 +25,10 @@ speaker_or_author: Huldrych Zwingli
 license: verbatim
 modern_lens_note: A modern reader may hear false modesty ahead of a debate already decided. We hear our
   own founder's own opening confession, before six hundred witnesses, staking everything on the text alone.
-modern_rendering: The articles and opinions below, I, Ulrich Zwingli, confess to have preached in the
-  worthy city of Zurich. They are based on the Scriptures, which are called inspired by God. Where I
-  have not now correctly understood these Scriptures, I will allow myself to be taught better. I will
-  accept that correction only from these Scriptures themselves.
+modern_rendering: I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the
+  good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where
+  my present understanding of these Scriptures is not correct, I will let myself be taught better. But
+  I will be taught only from these same Scriptures.
 use_note:
   means: "Zwingli rests his preached articles on Scripture and will accept correction only from Scripture itself."
   not_for:

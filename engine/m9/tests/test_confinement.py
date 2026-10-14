@@ -29,7 +29,7 @@ def _shelf() -> Shelf:
 
 def _base_records() -> dict:
     def source(rid, **kw):
-        base = {"id": rid, "record_type": "source", "register": "etic", "sources": []}
+        base = {"id": rid, "record_type": "source", "register": "etic", "sources": [], "citation": f"An Author, {rid} (1900)"}
         base.update(kw)
         return base
 
@@ -52,6 +52,23 @@ def test_clean_shelf_and_records_produce_no_findings():
     records = _base_records()
     findings = run_all(records, _shelf())
     assert findings == {name: [] for name in CHECKS}
+
+
+def test_source_citation_missing():
+    records = _base_records()
+    del records["src.trad"]["citation"]
+    findings = run_all(records, _shelf())
+    assert findings["source-citation"] == [
+        "src.trad: no citation, so its source line shows author, work and rights_status as written"
+    ]
+
+
+def test_source_citation_carrying_build_text():
+    records = _base_records()
+    records["src.trad"]["citation"] = "An Author, A Work (1900); vendored as cic/texts/trad.txt"
+    records["src.ctx"]["citation"] = "An Author, A Work, as verified in the legacy Doc_02"
+    findings = run_all(records, _shelf())
+    assert [f.split(":")[0] for f in findings["source-citation"]] == ["src.trad", "src.ctx"]
 
 
 def test_source_kind_missing_kind():

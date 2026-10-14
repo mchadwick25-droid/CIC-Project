@@ -31,28 +31,21 @@ relations:
   target: pahc.gravity.authority-consolidation
 narrative_tier: 1
 narrative_tier_justification: "Classified Tier 1 rather than Tier 3: Hermas names himself as the direct recipient and narrator of these visions in his own surviving text - direct textual attestation of a named author reporting his own experience, not a hagiographic account attributed to a figure by someone else after the fact. The genre distinction is disclosed explicitly: this classification rests on the text's own attestation of reporting the visions, not on a claim that an elderly woman or a shepherd-figure literally appeared."
-tellable_as: >-
-  A freedman in Rome named Hermas reports a series of visions, delivered
-  through an elderly woman who turns out to be the Church herself. Their
-  message: God has granted one further chance to repent after baptism, before
-  that door closes.
-text: >-
-  Hermas, a freedman living in Rome, tells us in his own text that he received
-  a series of visions. In the first, an elderly woman appears to him. He later
-  learns she represents the Church itself. Asked why she seems old, he is
-  told: 'Because she was created first of all. On this account is she old. And
-  for her sake was the world made.' In a later vision she grows younger and
-  more radiant, as his own understanding and the Church's own renewal move
-  forward. Through her, and later through a figure called the Shepherd, Hermas
-  is given the message that becomes the center of his book. God has granted
-  one, and only one, further chance for repentance after baptism for those who
-  have fallen into serious sin. It is offered now, before that door closes for
-  good. Hermas names Clement, who is instructed to send copies of the visions
-  to other cities, and Grapte, who is instructed to warn the widows and
-  orphans. Hermas himself is told to read the words in Rome 'along with the
-  presbyters who preside over the Church.' That places his own household
-  squarely inside Rome's plural-leadership pattern: specific, named roles, not
-  a single bishop.
+tellable_as: A man in Rome named Hermas, who says he was once sold as a slave, reports a series of visions.
+  An old woman gives them, and she turns out to be the Church herself. The message is that God has granted
+  one more chance to repent after baptism, before that door closes.
+text: 'Hermas, a man in Rome who says he was once sold as a slave, tells us in his own text that he received
+  a series of visions. In the first, an elderly woman appears to him. He later learns she represents the
+  Church itself. Asked why she seems old, he is told: ''Because she was created first of all. On this
+  account is she old. And for her sake was the world made.'' In a later vision she grows younger and more
+  radiant, as his own understanding and the Church''s own renewal move forward. Through her, and later
+  through a figure called the Shepherd, Hermas is given the message that becomes the center of his book.
+  God has granted one, and only one, further chance for repentance after baptism for those who have fallen
+  into serious sin. It is offered now, before that door closes for good. Hermas names Clement, who is
+  instructed to send copies of the visions to other cities, and Grapte, who is instructed to warn the
+  widows and orphans. Hermas himself is told to read the words in Rome ''along with the presbyters who
+  preside over the Church.'' That shows a Rome led by several presbyters, with named roles for Clement
+  and Grapte, and names no single bishop.'
 absent_detail: "Nothing in Hermas's own text says how widely his visions actually circulated once Clement carried them onward, or how the wider Roman community first received them."
 modern_contrast: >
   A modern reader often hears "one further chance for repentance after
@@ -62,7 +55,7 @@ modern_contrast: >
   named visionary's own report, with no developed doctrinal apparatus
   of merit, penance-scale, or afterlife geography behind it.
 use_note:
-  means: "A freedman in Rome named Hermas reports visions, delivered through an elderly woman who is the Church herself, granting one further chance to repent after baptism."
+  means: "A man in Rome named Hermas, who says he was once sold as a slave, reported visions given by an old woman who is the Church herself, granting one more chance to repent after baptism."
   not_for:
     - "an early form of purgatory or indulgences"
     - "a developed doctrine of merit, penance-scale or afterlife geography"

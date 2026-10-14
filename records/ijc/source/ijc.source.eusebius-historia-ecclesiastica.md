@@ -16,6 +16,7 @@ sources: []
 author: "Eusebius of Caesarea (c. 260-339 CE)"
 work: "Historia Ecclesiastica (Church History), Books VIII-X - the persecution's end, the toleration edicts, and the alliance's first decade; earlier books used only as background"
 edition: "trans. Arthur Cushman McGiffert, Nicene and Post-Nicene Fathers series 2 vol. 1 (1890), vendored as cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+citation: Eusebius of Caesarea, Historia Ecclesiastica (Church History), trans. Arthur Cushman McGiffert, Nicene and Post-Nicene Fathers, series 2, vol. 1 (1890)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

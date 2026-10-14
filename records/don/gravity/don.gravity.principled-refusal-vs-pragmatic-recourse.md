@@ -19,13 +19,13 @@ confidence:
     -- this divergence is named, not smoothed over.
 sources:
 - source_id: don.source.optatus-against-donatists
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Book III: Donatus''s retort, Quid est imperatori cum ecclesia?'
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Anulinus''s report of 313 to Constantine'
   license: public-domain
 - source_id: don.source.augustine-answer-to-letters-of-petilian
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the legal moves against the Maximianists, as Augustine reports them'
   license: public-domain
 relations:
 - type: associated-with

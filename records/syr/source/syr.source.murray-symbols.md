@@ -17,6 +17,7 @@ author: Robert Murray
 work: 'Symbols of Church and Kingdom: A Study in Early Syriac Tradition (Cambridge, 1975; revised ed.
   Gorgias, 2004) - still foundational for this world''s symbolic-typological theology and the qyama'
 edition: consultation-only; no edition vendored
+citation: 'Robert Murray, Symbols of Church and Kingdom: A Study in Early Syriac Tradition (Cambridge, 1975; rev. ed. Gorgias, 2004)'
 kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: verified as a genuine Syriac specialist, correctly anchored (legacy Doc_02 SS4)

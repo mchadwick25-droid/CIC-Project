@@ -20,6 +20,9 @@ sources:
 - source_id: hal.source.jerome-ep107
   locus: secs. 4-7 (a child raised toward baptism and consecration)
   license: public-domain
+- source_id: hal.source.jerome-against-jovinianus
+  locus: Book II (the Lord's body and blood)
+  license: public-domain
 text: >-
   We held that everyone inherits Adam's fall, and everyone needs the
   washing of baptism. Our last great argument came close to that ground.
@@ -28,14 +31,12 @@ text: >-
   not once but in every act. The exact machinery of inherited guilt was
   still being worked out in our own lifetime, in a dispute we joined
   late and left unfinished. The bread and cup were the Lord's body and
-  blood, received with fear and love - and that is nearly all our record
-  says. The later word transubstantiation and the later debates belong
-  to other centuries. We did not speak of being saved by faith alone. We
-  preached grace against the proud and works against the idle in the
-  same breath. Having given away fortunes for Christ, we were never
-  going to say works count for nothing; having fought the Pelagians, we
-  were never going to say grace is optional. We refused both easy
-  halves.
+  blood, and that is nearly all our record says. The later word
+  transubstantiation and the later debates belong to other centuries. We
+  did not speak of being saved by faith alone. Having given away
+  fortunes for Christ, we were never going to say works count for
+  nothing; having fought the Pelagians, we were never going to say grace
+  is optional.
 positions:
 - no one lives without sin; grace is required in every act (the anti-Pelagian position)
 - baptism washes inherited sin; children were brought toward it from infancy

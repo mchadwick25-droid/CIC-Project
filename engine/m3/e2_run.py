@@ -212,7 +212,7 @@ def main(argv=None) -> int:
         "voice_model_id": voice_model_id, "safety_model_id": safety_model_id, "region": args.region,
         "mode": args.mode, "arms": {"records-only": ["records_only"], "pair": ["off", "records_only"], "live-attach": ["live_attach"]}.get(args.mode, list(ARMS)),
         "records_only_directive": RECORDS_ONLY if args.mode in ("records-only", "pair") else None,
-        "citation_attach": "on, safety model" if args.mode == "live-attach" else "off", "self_revision": "off (production)", "sentence_enforce": "off (production)",
+        "citation_attach": "on, safety model" if args.mode == "live-attach" else "off", "self_revision": "off (production)",
         "max_usd": args.max_usd, "authorized_by": args.authorized_by,
         "package_manifest_hash": {w: registry[w]["package"]["manifest_hash"] for w in worlds},
     }

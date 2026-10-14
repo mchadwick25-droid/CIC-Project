@@ -24,8 +24,8 @@ sources:
 text: As man consists of body, soul, and spirit, so too does Scripture which has been granted by God for
   the salvation of men.
 modern_rendering: >-
-  Just as a human being consists of body, soul, and spirit, so too does
-  Scripture. It too was given by God, for the salvation of humankind.
+  Just as a human being consists of body, soul and spirit, so too does
+  Scripture. God granted it for the salvation of humankind.
 speaker_or_author: alx.figure.origen
 license: verbatim
 modern_lens_note: >

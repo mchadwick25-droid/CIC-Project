@@ -17,10 +17,10 @@ confidence:
     7's own Confidence Assessment.
 sources:
 - source_id: don.source.passio-donati-sermon
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'the sermon on the anniversary day kept for the dead'
   license: public-domain
 - source_id: don.source.deo-laudes-acclamation-cil8
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'CIL VIII 17732, with 20482, 17368 and 18669: the Deo laudes inscriptions'
   license: public-domain
 relations:
 - type: associated-with

@@ -38,23 +38,21 @@ retrieval:
   - "participant asks what this world argued about most, or what the councils in this world's own time
     actually decided"
 text: >-
-  The Spirit was not, for us, a lesser presence trailing behind the Father
-  and the Son. That was exactly what we spent a generation arguing. Our own
-  bishop, at the evening lighting of the lamps, gave glory to the Father
-  together with the Son, together with the Holy Spirit - not merely
-  through the Son, in the Spirit, the older and safer form. Some who heard
-  it objected: too much was being claimed. He wrote a whole book in reply,
-  and in it he did something his own allies argued about at the time: he
-  never once said outright, in one bare sentence, that the Spirit is God.
-  He said it in the church's own way instead - through worship, through
-  rank, through the Name spoken over the baptized - and left the plain
-  word unsaid, for the church's peace, while more urgent voices among his
-  own friends wanted it spoken and others defended his restraint. We do
-  not resolve that disagreement here; it was not resolved among us either.
-  What we can tell you is how it ended: when the bishops wrote the faith
-  again, they wrote the Spirit's glory the way our own churches had
-  already been singing it - worshipped and glorified together with the
-  Father and the Son.
+  The Spirit is no lesser presence trailing behind the Father and the Son.
+  That was exactly what we spent a generation arguing. Our own bishop,
+  praying with his people, gave glory in two forms. One gave glory to the
+  Father with the Son, together with the Holy Spirit. The other gave it
+  through the Son, in the Spirit. Some who heard it said he was bringing in
+  new words that contradicted each other. He wrote a whole book in reply. In
+  it he did something his own allies argued about at the time. He never once
+  said outright, in one bare sentence, that the Spirit is God. He said it in
+  the church's own way instead: through worship, through rank, through the
+  Name spoken over the baptized. He left the plain word unsaid, for the
+  church's peace. More urgent voices among his friends wanted it spoken, and
+  others defended his restraint. That disagreement was not resolved among
+  us. What we can tell you is how it ended. When the bishops wrote the faith
+  again, they wrote the Spirit's glory the way our churches had already been
+  singing it: worshipped and glorified together with the Father and the Son.
 positions:
 - the Spirit's own worthiness of worship, not merely his activity in the world, was this world's own
   central late argument

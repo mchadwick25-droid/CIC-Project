@@ -30,8 +30,7 @@ retrieval:
   - what renounced wealth built
   prefer_instead:
   - do not conflate with Fabiola's hospital for the sick in Rome
-plain_meaning: A hostel for travelers. Paula funded one near Bethlehem. Fabiola and Pammachius founded
-  another at Rome's port.
+plain_meaning: "A hostel for travelers. Paula paid for one at Bethlehem. Fabiola and Pammachius started one at the port of Rome."
 world_word: xenodochium
 false_friend:
 - a hospital (the hospice sheltered travelers; the nosocomium cared for the sick - two real, separate
@@ -43,8 +42,7 @@ senses:
   evidential: Existence attested in Jerome's accounts; scale not. There were two such foundations
     in this network's story - Paula's at Bethlehem and the later one Fabiola and Pammachius established
     at Portus - and they are not to be conflated.
-  personal: 'The same purse that paid for Hebrew teachers paid for strangers'' beds: in this world
-    those were not two different kinds of giving.'
+  personal: "The fortune that built the monasteries also paid for a hostel for strangers. In this world those were not two different kinds of giving."
   translational: Closer to a pilgrim guesthouse than to anything medical.
 quick_meaning: A hostel for travelers. Paula ran one near Bethlehem; Fabiola helped found one at
   Rome's port.

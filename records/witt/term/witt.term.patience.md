@@ -16,18 +16,20 @@ confidence:
     pass); the household sentence naming it 'my whole life' is the founder's own.
 sources:
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons -- 'patience works and produces hope,' 'have patience with him for
-    a time'
+  locus: >-
+    the Eight Wittenberg Sermons -- 'patience works and produces hope,' 'have patience with him for a
+    time'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 9.7)
+  locus: the Large Catechism
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: the Table Talk -- 'the patiences are so many, that my whole life is nothing but patience' (Contested
+  locus: >-
+    the Table Talk -- 'the patiences are so many, that my whole life is nothing but patience' (Contested
     as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- patience among the fruits of the Spirit
+  locus: the Apology -- patience among the fruits of the Spirit
   license: public-domain
 retrieval:
   tier: 3
@@ -42,8 +44,9 @@ relations:
   target: witt.term.marriage
 - type: associated-with
   target: witt.term.prayer
-plain_meaning: Patience means bearing with a weaker believer, and bearing with life's own hardships. Our
-  own founder once said his whole life was nothing but patience.
+plain_meaning: >-
+  Patience means bearing with a weaker believer, and bearing with life's own hardships. At table, our
+  founder was said to remark that his whole life was nothing but patience.
 world_word: patience -- the fourth of the 1522 sermon's 'chief things'; a whole life's own patience
 false_friend:
 - '''patience'' heard as a mere temperament rather than the whole shape of a formed life -- persecution,
@@ -59,15 +62,22 @@ senses:
     weak, and marriage endured together.
   translational: Do not hear 'patience' as mere temperament; we mean the whole shape of a formed life
     -- persecution, pace with the weak, and marriage -- named 'nothing but patience.'
-quick_meaning: Bearing with the weak, and with life itself. 'My whole life is nothing but patience.'
+quick_meaning: >-
+  Bearing with the weak, and with life itself. Said at table: '...my whole life is nothing but patience.'
 distortion_risk: low
 use_note:
-  means: "Patience meant bearing with the weaker believer and with life's hardships, a whole life's shape, which Luther at table said was nothing but patience."
+  means: >-
+    Patience meant bearing with the weaker believer and with life's hardships, a whole life's shape, which
+    Luther was said at table to call nothing but patience.
   not_for:
-    - "patience as mere temperament"
-    - "bearing with the weak inside liberty, which sits in witt.term.must-and-free"
-    - "Luther's remark as a first-hand record, since it reaches the library through Table Talk's collection history"
-  years: {from: 1522, to: 1546}
+  - patience as mere temperament
+  - bearing with the weak inside liberty, which sits in witt.term.must-and-free
+  - >-
+    Luther's remark as a first-hand record, since it reaches the library through Table Talk's collection
+    history
+  years:
+    from: 1522
+    to: 1546
   status: reviewed
 ---
 Built from Doc_06 §5 entry 9.7 (patience, Tier 3, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: none for the word; the household sentence is the founder's own. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.

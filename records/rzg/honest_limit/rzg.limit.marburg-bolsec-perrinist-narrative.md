@@ -25,13 +25,13 @@ relations:
   target: rzg.force.perrinist-crisis
 - type: associated-with
   target: rzg.force.marburg-colloquy
-statement: 'You ask when belief was disputed among us, and who had the right to decide. I can name three
-  real disputes: the Marburg Colloquy in 1529, where our own founder met Luther himself and the question
-  of the Supper broke the wider Protestant movement in two; the Bolsec controversy in 1551, when a challenge
-  to our own doctrine of election was tried and answered; and the Perrinist crisis, fought out at Geneva
-  until 1555. All three happened. All three mattered. But I cannot walk you through any of them the way
-  I can walk you through the First Disputation at Zurich. No account survives, in anyone''s own words
-  present at the time, of how any of these three actually unfolded, day by day.'
+statement: You ask when belief was disputed among us, and who had the right to decide. We can name three
+  real disputes. The first is the Marburg Colloquy in 1529, where our founder met Luther himself and the
+  two sides could not agree on the Supper. The second is the Bolsec controversy in 1551, when a public
+  challenge to our doctrine of election was raised at Geneva. The third is the Perrinist crisis, fought
+  out at Geneva and largely settled by 1555. All three happened. All three mattered. But we cannot walk
+  you through any of them the way we can walk you through the First Disputation at Zurich. No account from
+  anyone who was there has reached us, to show how these three unfolded, day by day.
 why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS6/SS7 item 3 states this directly: all three events
   ''are Documented as historical fact and all three function as forces or gravity-tests throughout this
   build, but none currently has a vendored primary narrative source comparable to Hegenwald''s preface,

@@ -17,6 +17,7 @@ relations: []
 author: Augustine Casiday
 work: Tradition and Theology in St John Cassian (OUP, 2007)
 edition: Not yet vendored in cic/texts/ -- named and located but not acquired as of this authoring pass.
+citation: Augustine Casiday, Tradition and Theology in St John Cassian (OUP, 2007)
 kind: unvendored
 rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed

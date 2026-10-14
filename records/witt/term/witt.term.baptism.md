@@ -17,8 +17,9 @@ confidence:
     mostly under the sacrament entry above.
 sources:
 - source_id: witt.source.luther-treatise-on-the-holy-sacrament
-  locus: Concerning Baptism (1519), opening only -- 'the life of a Christian, from baptism to the grave,
-    is nothing else than the beginning of a blessed death'
+  locus: >-
+    Concerning Baptism (1519), opening only -- 'the life of a Christian, from baptism to the grave, is
+    nothing else than the beginning of a blessed death'
   license: public-domain
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
   locus: Christian Nobility -- 'through baptism all of us are consecrated to the priesthood'
@@ -27,13 +28,14 @@ sources:
   locus: the Eight Wittenberg Sermons -- baptism among the 'many absolutions'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, opening only -- 'faith clings to the water, and believes that it is Baptism'
+  locus: >-
+    the Large Catechism, opening only -- 'faith clings to the water, and believes that it is Baptism'
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism -- the old Adam drowned daily
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession, cited among this entry's Registry rows (Doc_06 SS5 entry 5.2)
+  locus: the Augsburg Confession
   license: public-domain
 retrieval:
   tier: 2

@@ -23,24 +23,24 @@ sources:
   locus: Christian Nobility -- Scripture's own authority against pope, councils, fathers
   license: public-domain
 - source_id: witt.source.luther-treatise-on-christian-liberty
-  locus: Christian Liberty -- 'one thing and one only is necessary... the most holy Word of God, the Gospel
+  locus: >-
+    Christian Liberty -- 'one thing and one only is necessary... the most holy Word of God, the Gospel
     of Christ'
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
   locus: the Eight Wittenberg Sermons -- 'I did nothing; the Word did it all'
   license: public-domain
 - source_id: witt.source.luther-that-doctrines-of-men-are
-  locus: That Doctrines of Men Are to Be Rejected, cited among this entry's Registry rows (Doc_06 SS5
-    entry 3.1)
+  locus: That Doctrines of Men Are to Be Rejected
   license: public-domain
 - source_id: witt.source.luther-secular-authority-to-what-extent-it
-  locus: Secular Authority, cited among this entry's Registry rows (Doc_06 SS5 entry 3.1)
+  locus: Secular Authority
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: the Large Catechism -- 'accedat verbum ad elementum et fit sacramentum'
   license: public-domain
 - source_id: witt.source.luther-small-catechism
-  locus: the Small Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 3.1)
+  locus: the Small Catechism
   license: public-domain
 - source_id: witt.source.luther-ein-feste-burg-ist-unser-gott
   locus: the hymns, Hymn XXVI -- 'one little word can fell him'

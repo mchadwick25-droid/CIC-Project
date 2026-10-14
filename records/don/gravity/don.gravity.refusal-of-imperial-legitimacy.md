@@ -35,7 +35,7 @@ sources:
   locus: the conciliar and imperial documentary record of 313-314, including Anulinus's relatio
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: the 411 Conference acts, via the vendored Migne printing - Registry row 55
+  locus: 'the acts of the 411 Conference'
   license: public-domain
 relations:
 - type: associated-with

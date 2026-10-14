@@ -2,6 +2,8 @@
 a new figure at most every third round, the world's own words for what it
 held, and a quote or story already used referred back to rather than repeated.
 Everything here reads the transcript only; nothing is stored."""
+import re
+
 import pytest
 
 from engine.m4 import turn_prep
@@ -10,7 +12,7 @@ from engine.m4.rhythm import RhythmTally, asks_for_the_words, tally_from_transcr
 from engine.m4.turn_prep import (
     LEXICON_LINE,
     NO_NEW_FIGURE_LINE,
-    QUOTE_LINE,
+    QUOTE_DUE_LINE,
     REFER_BACK_LINE,
     prepare_voice_turn_inputs,
 )
@@ -100,12 +102,18 @@ def _quotes(prepared):
     return [c for c in prepared_candidates(prepared) if c["record_type"] == "quote"]
 
 
+_CANDIDATE_LINE = re.compile(r"^- (?:\[\[(?:quote:)?)?([a-z0-9_.-]+)(?:\]\])? (\w+)")
+
+
 def prepared_candidates(prepared):
-    block = prepared.user_message
     return [
-        {"id": line.split("[[")[1].split("]]")[0], "record_type": line.split("]] ")[1].split(",")[0].split(" ")[0], "line": line}
-        for line in block.splitlines() if line.startswith("- [[")
+        {"id": match.group(1), "record_type": match.group(2), "line": line}
+        for line in prepared.user_message.splitlines() if (match := _CANDIDATE_LINE.match(line))
     ]
+
+
+def _record_text(record_id):
+    return _records()[record_id]["modern_rendering"]
 
 
 def _tag(how, round_no):
@@ -152,31 +160,31 @@ def test_an_old_transcript_without_a_transparency_plan_tallies_nothing():
 
 def test_a_quote_voiced_one_round_ago_drops_the_quote_line_and_the_floor_to_one():
     prepared = _prepare(_transcript(_voice(quotes=["fix.quote.a"])))
-    assert QUOTE_LINE not in prepared.turn_directive
+    assert QUOTE_DUE_LINE not in prepared.turn_directive
     assert len(_fresh_quotes(prepared)) == 1
 
 
 def test_a_quote_voiced_three_rounds_ago_brings_the_line_and_the_normal_floor_back():
     prepared = _prepare(_transcript(_voice(quotes=["fix.quote.a"]), _voice(), _voice()))
-    assert QUOTE_LINE in prepared.turn_directive
+    assert QUOTE_DUE_LINE in prepared.turn_directive
     assert len(_fresh_quotes(prepared)) == 2
 
 
 def test_two_rounds_ago_is_still_too_soon():
     prepared = _prepare(_transcript(_voice(quotes=["fix.quote.a"]), _voice()))
-    assert QUOTE_LINE not in prepared.turn_directive
+    assert QUOTE_DUE_LINE not in prepared.turn_directive
 
 
 def test_a_first_turn_asks_for_a_quote():
     prepared = _prepare([])
-    assert QUOTE_LINE in prepared.turn_directive
+    assert QUOTE_DUE_LINE in prepared.turn_directive
     assert len(_fresh_quotes(prepared)) == 2
 
 
 @pytest.mark.parametrize("message", ["What did your community say about Jesus at the meal?", "How did your community put it, the memory of Jesus at the meal?", "In their own words, what did your community remember about Jesus at the meal?"])
 def test_a_question_that_asks_for_the_words_turns_the_line_on_whatever_the_count(message):
     prepared = _prepare(_transcript(_voice(quotes=["fix.quote.a"])), kind="what_did", message=message)
-    assert QUOTE_LINE in prepared.turn_directive
+    assert QUOTE_DUE_LINE in prepared.turn_directive
     assert len(_fresh_quotes(prepared)) == 2
 
 
@@ -247,10 +255,12 @@ def test_a_quote_voiced_in_round_one_and_a_story_told_in_round_two_are_still_lis
     transcript = _transcript(_voice(quotes=["fix.quote.a"]), _voice(stories=["fix.story.s"]), _voice())
     prepared = _prepare(transcript, kind="what_did")
     lines = {c["id"]: c["line"] for c in prepared_candidates(prepared)}
-    assert _tag("voiced", 1) in lines["fix.quote.a"]
+    assert _tag("already given", 1) in lines["fix.quote.a"]
+    assert "[[quote:fix.quote.a]]" not in lines["fix.quote.a"]
+    assert _record_text("fix.quote.a") not in lines["fix.quote.a"]
     assert _tag("told", 2) in lines["fix.story.s"]
     assert REFER_BACK_LINE in prepared.turn_directive
-    assert QUOTE_LINE in prepared.turn_directive
+    assert QUOTE_DUE_LINE in prepared.turn_directive
     assert "fix.quote.a" not in [c["id"] for c in _fresh_quotes(prepared)]
     assert len(_fresh_quotes(prepared)) == 2
 
@@ -265,7 +275,21 @@ def test_a_used_quote_is_tagged_in_the_rendered_block():
         message=MESSAGE, asks=None, canon_questions=CANON, coverage=_coverage(), repository_records=_records(),
         kind="who", rhythm=tally,
     )
-    assert _tag("voiced", 1) in render_evidence_block(result)
+    block = render_evidence_block(result)
+    assert "fix.quote.a quote from Ignatius, " + _tag("already given", 1) in block
+    assert _record_text("fix.quote.a") not in block
+
+
+def test_a_fresh_quote_is_offered_by_marker_speaker_and_gist_never_by_its_words():
+    records = _records()
+    records["fix.quote.b"] = {**records["fix.quote.b"], "use_note": {"means": "Polycarp ties the memory of Jesus to the meal."}}
+    result = assemble_evidence(
+        message=MESSAGE, asks=None, canon_questions=CANON, coverage=_coverage(), repository_records=records, kind="who",
+    )
+    line = next(ln for ln in render_evidence_block(result).splitlines() if "fix.quote.b" in ln)
+    assert line.startswith("- [[quote:fix.quote.b]] quote from Polycarp")
+    assert line.endswith("| means: Polycarp ties the memory of Jesus to the meal.")
+    assert _record_text("fix.quote.b") not in line
 
 
 # ---- nothing stored -----------------------------------------------------

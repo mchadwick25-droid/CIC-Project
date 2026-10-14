@@ -20,7 +20,9 @@ confidence:
     household under this program said these same words.
 sources:
 - source_id: witt.source.luther-small-catechism
-  locus: "The Second Article, On Redemption, and its own explanation (cic:luther_small-catechism_smith1994.txt lines 186-205): the creed's own confession and the household's own 'I believe that Jesus Christ is truly God... and also truly man'"
+  locus: >-
+    The Second Article, On Redemption, and its own explanation: the creed's own confession and the household's
+    own 'I believe that Jesus Christ is truly God... and also truly man'
   license: public-domain
 retrieval:
   tier: 1
@@ -62,26 +64,26 @@ modern_lens_note: >-
   "truly man" in the same sentence is not a philosophical puzzle to us; it is why the price could be paid
   at all.
 modern_rendering: >-
-  And I believe in Jesus Christ, God's only Son, our Lord -- conceived by the Holy Spirit, born of the
-  Virgin Mary, made to suffer under Pontius Pilate, crucified, died, and buried. He went down to the dead,
-  and on the third day he rose again. He went up to heaven and sits at the right hand of God the Father,
-  the Almighty. From there he will come to judge the living and the dead.
+  And in Jesus Christ, his only Son, our Lord. He was conceived by the Holy Spirit and born of the Virgin
+  Mary. He suffered under Pontius Pilate, was crucified, died and was buried. He descended to Hell. On
+  the third day he rose again from the dead. He ascended to Heaven and sat down at the right hand of God
+  the Almighty Father. From there he will come to judge the living and the dead.
 
   What does this mean?
 
-  I believe that Jesus Christ is truly God, born of the Father before time began, and just as truly man,
-  born of the Virgin Mary. He is my Lord. He has bought me back -- a lost person, condemned -- and freed
-  me from every sin, from death, and from the devil's power. It cost him nothing made of gold or silver.
-  It cost him his own holy, precious blood, and his own innocent life and death. Because of this I belong
-  to him. I will live under him in his kingdom, and serve him, made right, innocent, and blessed forever
-  -- exactly as he himself is risen from death and lives and reigns forever. Yes, this is true.
+  I believe that Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of
+  the Virgin Mary. He is my Lord! He redeemed me, a lost and condemned person. He bought me and won me
+  from all sins, from death and from the authority of the Devil. It did not cost him gold or silver, but
+  his holy, precious blood, his innocent body -- his death! Because of this, I am his very own. I will
+  live under him in his kingdom. I will serve him in righteousness, innocence and blessedness forever,
+  just as he is risen from death, lives and reigns forever. Yes, this is true.
 relations:
 - type: associated-with
   target: witt.dw.truly-god-and-truly-man
 - type: associated-with
   target: witt.dw.how-the-promise-reached-us
 use_note:
-  means: "The Small Catechism's Second Article (1529) has the household confess Christ truly God and truly man, who redeemed each believer with his blood and rose from death."
+  means: "The Small Catechism's Second Article (1529) has the household confess Christ truly God and truly man, who redeemed each believer with his blood and his death, and who rose from death."
   not_for:
     - "a remembered personal saying of any individual, when this is recited household text"
     - "'He is my Lord' as the modern phrase 'personal Lord and Savior'"

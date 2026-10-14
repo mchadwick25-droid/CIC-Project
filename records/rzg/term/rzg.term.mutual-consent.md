@@ -30,8 +30,8 @@ relations:
   target: rzg.term.sign-and-the-thing-signified
 - type: illustrated-by
   target: rzg.story.calvins-journey-to-zurich
-plain_meaning: Mutual Consent is our own name for the Consensus Tigurinus. Zurich and Geneva signed it
-  together in 1549. It settles what we hold about the Lord's Supper.
+plain_meaning: Mutual Consent was our name for the Consensus Tigurinus. Zurich and Geneva agreed to it
+  in 1549. It stated what we held about the sacraments.
 world_word: Mutual Consent (the Consensus Tigurinus)
 false_friend:
 - a modern ecumenical statement of general Christian unity, rather than a specific negotiated doctrinal
@@ -42,15 +42,15 @@ senses:
     two cities' own confessions are one coherent thing, not two traditions later grouped together by someone
     else's classification.
   evidential: The document survives under its own title, naming both signatories directly.
-  personal: We point to this document itself, not a description of it, whenever someone doubts that our
-    two cities actually agreed rather than merely resembled each other.
-  translational: This was not a vague statement of goodwill between neighbors. It was a negotiated, specific,
-    signed text.
-quick_meaning: Our own name for the Consensus Tigurinus. Zurich and Geneva signed it together in 1549.
-  It settles what we hold about the Lord's Supper.
+  personal: Some doubted that our two cities truly agreed. We pointed to the document itself, not to a description
+    of it.
+  translational: This was not a vague statement of goodwill between neighbors. It was a negotiated, specific
+    text, put in writing and approved on both sides.
+quick_meaning: Our name for the Consensus Tigurinus. Zurich and Geneva agreed to it in 1549. It stated
+  what we held about the sacraments.
 distortion_risk: low
 use_note:
-  means: "Mutual Consent is the cities' own name for the Consensus Tigurinus, which Zurich and Geneva signed together in 1549 to settle their teaching on the Lord's Supper."
+  means: "Mutual Consent was the cities' own name for the Consensus Tigurinus, which Zurich and Geneva agreed to in 1549 as a statement of their teaching on the sacraments."
   not_for:
     - "a claim that it was a modern ecumenical statement of general Christian unity"
   years: {from: 1549, to: 1650}

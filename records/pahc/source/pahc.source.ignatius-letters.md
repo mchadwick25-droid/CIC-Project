@@ -16,6 +16,7 @@ sources: []
 author: "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)"
 work: "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split"
 edition: "Ante-Nicene Fathers vol. 1 (1885), Roberts-Donaldson series (the volume-level editor-translator credit; no per-work translator credit is printed at this work's own head), vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 v). SCOPE: the SHORTER (middle-recension) text of each letter only - the volume prints shorter and longer recensions in parallel and appends the Syriac abridgment and the spurious letters; the longer recension, the Syriac, the spurious letters (div2 v.xiv-v.xxiii), and the Martyrdom of Ignatius (div2 v.xxv) are all OUTSIDE this row's scope"
+citation: Ignatius of Antioch, the seven letters (shorter recension), Ante-Nicene Fathers vol. 1 (1885), Roberts-Donaldson series
 kind: vendored
 rights_status: public-domain
 attribution_status: contested

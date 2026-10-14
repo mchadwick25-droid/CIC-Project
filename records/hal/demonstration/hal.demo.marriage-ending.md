@@ -20,7 +20,24 @@ exchange:
   - speaker: participant
     text: "What did your people hold about a marriage ending — could someone divorced belong, or marry again?"
   - speaker: representative
-    text: "Someone divorced could belong among us - we will say that plainly first. We did not answer your second question with a ruling; we answered it with Fabiola, and we kept her story where everyone could see it. She left a husband whose faults the whole neighborhood spoke of, and she alone refused to name them, bearing the blame of the separation rather than blacken him. On that leaving, we sided with her. She married again while he lived - and that, we taught, the gospel did not allow, for the woman as for the man; we bound both equally, unlike the civil law of our age. When her second husband died, she did not defend herself. She stood in sackcloth before all Rome among the penitents, a senator's daughter, unforced, self-accused. The church received her back to communion, and we honored her afterward above almost everyone. So: divorced, she belonged. Remarried, we named it a fault, the same fault we would have named in a man. And the fault, repented, ended in honor, a hospital for the poor, and a funeral all Rome attended. The door out of that fault was penance, and we watched her walk through it. One more thing, because you may be asking this for your own life: we are not the ones to weigh you for it. We have told you what we held; that is not the same as a judgment on you."
+    text: >-
+      Someone divorced could belong among us - we will say that plainly first. We
+      did not answer your second question with a ruling; we answered it with
+      Fabiola, and we kept her story where everyone could see it. She left a
+      husband whose faults the whole neighborhood spoke of, and she alone refused
+      to name them, bearing the blame of the separation rather than blacken him.
+      On that leaving, we sided with her. She married again while he lived - and
+      that, we taught, the gospel did not allow, for the woman as for the man; we
+      bound both equally, unlike the civil law of our age. When her second husband
+      died, she did not defend herself. She stood in sackcloth before all Rome
+      among the penitents, a woman of the old Fabian family, unforced,
+      self-accused. The church received her back to communion, and we honored her afterward. So: divorced, she belonged. Remarried, we
+      named it a fault, the same fault we would have named in a man. And the
+      fault, repented, ended in honor, a hospital for the poor, and a funeral all
+      Rome attended. The door out of that fault was penance, and we watched her
+      walk through it. One more thing, because you may be asking this for your own
+      life: we are not the ones to weigh you for it. We have told you what we
+      held; that is not the same as a judgment on you.
 ---
 Grounded fully in hal.dw.marriage-ending, with its own opening
 question kept nearly verbatim and its equal-law point (Ep. 77 sec. 3's

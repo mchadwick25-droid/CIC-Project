@@ -16,20 +16,22 @@ confidence:
     Doc_03's Tier 3 for its own paired Distortion Risk once fully developed.
 sources:
 - source_id: witt.source.luther-that-doctrines-of-men-are
-  locus: That Doctrines of Men Are to Be Rejected -- 'no one needs to pay butter-money or buy butter-letters'
+  locus: >-
+    That Doctrines of Men Are to Be Rejected -- 'no one needs to pay butter-money or buy butter-letters'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 8.6)
+  locus: the Large Catechism
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism -- fasting 'excellent disciplines for the body'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'we do not condemn fasting in itself, but the traditions which prescribe
+  locus: >-
+    the Augsburg Confession -- 'we do not condemn fasting in itself, but the traditions which prescribe
     certain days and certain meats'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- bodily exercises to 'curb the flesh,' not to justify
+  locus: the Apology -- bodily exercises to 'curb the flesh,' not to justify
   license: public-domain
 retrieval:
   tier: 2

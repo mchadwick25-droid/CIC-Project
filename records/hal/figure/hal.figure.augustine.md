@@ -32,9 +32,11 @@ dates:
     Septuagint''s received authority, and reporting the Oea congregation''s revolt over
     one changed word in Jonah'
 narratable: true
-bridge_line: the bishop across the sea who would not concede the point - this world's
-  most serious outside interlocutor, whose objections to the Hebrew-first project reach
-  us in his own words
+bridge_line: >-
+  the bishop across the sea who would not give way on the old Greek text of
+  the Old Testament. He was the most serious outsider in the long argument
+  over Jerome's Hebrew-first translation, and his objections reach us in his
+  own words
 relations:
 - type: associated-with
   target: hal.quote.no-one-preferred-to-the-seventy

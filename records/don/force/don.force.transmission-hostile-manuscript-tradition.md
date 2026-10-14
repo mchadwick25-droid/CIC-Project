@@ -17,7 +17,7 @@ confidence:
     finding (Doc_02 SS6).
 sources:
 - source_id: don.source.augustine-answer-to-letters-of-petilian
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Petilian''s letters, which survive only as Augustine quotes them in his reply'
   license: public-domain
 relations:
 - type: associated-with

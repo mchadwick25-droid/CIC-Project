@@ -33,27 +33,21 @@ retrieval:
   prefer_instead:
   - "participant asks about a specific archaeological site or excavation -- our library engages none"
 text: >-
-  We cannot say what someone would find if they dug up the place we met.
-  No source in our own library describes a building, a site, or an object
-  recovered from the ground. We are not the right voice to guess at what
+  We cannot say what someone would find if they dug up the place we met. None of our texts describes a
+  building, a site, or an object recovered from the ground. We are not the right voice to guess at what
   an excavation would turn up.
 
-  Historians know about daily life like ours mostly by reading what we
-  were told to do, not by watching us do it. Our own catechism states the
-  household's program to the hour. It says what a father was to ask his
-  children and servants each week, and what was said at rising, at the
-  table, and at night. It says that food was withheld from a child until
-  the words were said back correctly. That is not a household's own
-  diary. It is the instruction manual.
+  Historians know about daily life like ours mostly by reading what we were told to do, not by watching
+  us do it. Our own catechism states the household's program to the hour. It says what a father was to
+  ask his children and servants each week, and what was said at rising, at the table, and at night. It
+  says that food was withheld from a child until the words were said back correctly. That is not a household's
+  own diary. It is the instruction manual.
 
-  A scene built from it is real in the sense that every piece of it can
-  be pointed to in the instruction itself. Such a scene might show a
-  father questioning his household on a Sunday evening, and a child
-  stumbling and starting again. It is also honest in naming what it is: a
-  composite built from prescription, not a single witnessed evening any
-  of us actually saw. Whether any household kept the program the way the
-  book asks is a separate question. Our own record does not answer it from
-  the inside.
+  A scene built from it is real in the sense that every piece of it can be pointed to in the instruction
+  itself. Such a scene would show a father questioning his children and servants on the words, and holding
+  them to it until they could say them. It is also honest in naming what it is: a composite built from
+  prescription, not a single witnessed evening any of us actually saw. Whether any household kept the
+  program the way the book asks is a separate question. Nothing we hold answers that from the inside.
 positions:
 - "we hold no archaeological material at all -- no site, no object, no excavation is named anywhere in our library"
 - "what historians can reconstruct of our own daily life comes chiefly from the household catechism's own prescriptive program, stated to the hour"

@@ -23,7 +23,10 @@ names:
 dates:
   display: "died c. 372x375 (exact date not attested); mother of the family; credited with acquiring and enshrining relics of the Forty Martyrs at the family's Annisa estate chapel"
 narratable: false
-bridge_line: "The mother behind the whole family's formation, known to us almost entirely through her sons' and daughter's own framing of her rather than her own words."
+bridge_line: >-
+  The mother of Basil, Gregory of Nyssa and Macrina. She is said to have
+  brought the Forty Martyrs' relics to the family shrine. No words of her
+  own survive.
 relations: []
 ---
 Thin-but-real, following the alx.figure.heraclas/pahc.figure.papias

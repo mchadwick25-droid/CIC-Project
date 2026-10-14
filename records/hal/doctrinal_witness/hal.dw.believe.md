@@ -24,19 +24,19 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  To someone who wants to believe and cannot, we offer what we
-  actually had: people whose belief was divided, wounded, or publicly ruined -
-  and who were not turned away. Our own great scholar told a story against
-  himself, about a heart split between Christ and the books he loved more. In
-  his own dream he stood accused of belonging to Cicero, not Christ. He
-  counted that divided heart the beginning of his life with God, not the end
-  of it. And we remembered Fabiola. Her marriage had failed. She had
-  remarried against the church's teaching while her first husband lived, and
-  all Rome knew it. She came in sackcloth, she was received, and she spent the
-  rest of her life carrying the sick in from the streets. What we
-  would say to you is not an argument. It is this: the door was opened to the
-  divided and the broken among us. What they could not yet believe, they were
-  helped to live toward.
+  To someone who wants to believe and cannot, we offer what we actually
+  had: people whose belief was divided, wounded, or publicly ruined, and
+  who were not turned away. Our own great scholar told a story against
+  himself, about a heart split between Christ and the books he loved
+  more. In his own dream he stood accused of belonging to Cicero, not
+  Christ. After that dream he swore off the old books and read scripture
+  with more zeal than he had ever given them. And we remembered Fabiola.
+  Her marriage had failed. She had remarried against the church's
+  teaching while her first husband lived, and the censure was loud. She
+  came in sackcloth, and she was received. Then she sold her property
+  and gave it to the poor, and she carried the sick in from the streets.
+  We have no argument to give you. We have this: the door was opened to
+  the divided and the broken among us.
 positions:
 - divided and struggling hearts are inside this world's own story, not outside it
 - restoration after public failure was real and remembered with honor

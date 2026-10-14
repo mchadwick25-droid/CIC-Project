@@ -30,10 +30,8 @@ relations:
   target: pahc.gravity.state-pressure
 narrative_tier: 1
 narrative_tier_justification: "A specific, dated, named-author account of a real interrogation, written to a named recipient (the emperor) who replied in writing - an unusually well-documented exchange for this period. Contested points: whether the meal Pliny describes was a eucharist, an agape meal, or something else; and whether this reflects a general legal condition or scattered, locally-triggered exposure."
-tellable_as: >-
-  A Roman governor, uncertain how to handle accusations against Christians,
-  tortures two enslaved women to learn what the community actually did. Then
-  he writes to the emperor for guidance.
+tellable_as: A Roman governor is unsure what to do about Christians brought before him. He has two enslaved
+  women tortured to learn what the community did. Then he writes to the emperor.
 text: >-
   In his letter to the emperor Trajan, Pliny the Younger, governor of
   Bithynia-Pontus, records that he was uncertain how to handle accusations

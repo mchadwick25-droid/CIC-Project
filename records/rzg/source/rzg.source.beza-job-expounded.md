@@ -27,6 +27,7 @@ discovery_channel: Source_Registry.md row 26, added 2026-09-29 (rzg Tier 4 sourc
   own note about the agents' sandbox.
 external_ids:
   rzg_source_registry_row: 26
+citation: 'Theodore Beza, Job Expounded by Theodore Beza, partly in manner of a commentary, partly in manner of a paraphrase, faithfully translated out of Latine into English (Cambridge: Printed by John Legatt, 1589)'
 kind: vendored
 ---
 Theodore Beza's own direct voice, previously entirely unvendored for this world - a partial closure of

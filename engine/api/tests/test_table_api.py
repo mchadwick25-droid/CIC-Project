@@ -886,7 +886,7 @@ def test_self_revision_runs_on_an_other_tradition_table_turn_and_not_on_an_ordin
 ):
     ijc_sentence, ijc_rid = grounded_sentence(ijc_world)
     john = ijc_world.frame["representative"]["name"]
-    revised = f"A shorter, revised answer [[{ijc_rid}]]."
+    revised = " ".join(ijc_sentence.split(" [[")[0].split()[:6]) + f" [[{ijc_rid}]]."
     client = _table_client(
         selector_script=[],
         stream_scripts=[[ijc_sentence], [revised]],
@@ -903,7 +903,7 @@ def test_self_revision_runs_on_an_other_tradition_table_turn_and_not_on_an_ordin
     # same shape engine/m4/tests/test_turn.py already pins at the unit
     # level, now proven wired at the Table too.
     assert len(client.messages.stream_calls) == 2
-    assert result["voice"]["text"] == "A shorter, revised answer."
+    assert result["voice"]["text"] == " ".join(ijc_sentence.split(" [[")[0].split()[:6]) + "."
 
 
 def test_self_revision_does_not_run_on_an_ordinary_table_turn(store, usage_store, world_loader, registry, alx_world, desert_world):
@@ -1111,7 +1111,8 @@ def test_what_another_representative_said_reaches_the_next_seat_r37_b(
     alx_sentence, _ = grounded_sentence(alx_world)
     desert_sentence, _ = grounded_sentence(desert_world)
     theon = alx_world.frame["representative"]["name"]
-    alx_turn = f"{alx_sentence} The Donatists were far from Alexandria."
+    alx_turn = alx_sentence
+    alx_shown = alx_sentence.split(" [[")[0] + "."
     client = _table_client(
         selector_script=[{"next": "desert", "reason": "r1"}],
         stream_scripts=[
@@ -1126,7 +1127,7 @@ def test_what_another_representative_said_reaches_the_next_seat_r37_b(
     result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
     assert result["voice"]["speaker"] == "desert"
     directive_text = _other_tradition_directive_text(client, call_index=2)
-    assert ': "The Donatists were far from Alexandria."' in directive_text
+    assert f': "{alx_shown}"' in directive_text
     assert f"- {theon}" in directive_text
     # The round's own question is still never quoted back.
     assert "what did you make of the Donatists?" not in directive_text
@@ -1198,7 +1199,7 @@ def test_a_streamed_table_seat_sends_its_sentences_then_the_turn(store, usage_st
     clean_sentence, rid = grounded_sentence(alx_world)
     client = _table_client(
         selector_script=[{"next": "alx", "reason": "opening"}],
-        stream_scripts=[[clean_sentence + " ", clean_sentence + " ", "That is what we hold."]],
+        stream_scripts=[[clean_sentence + " ", clean_sentence + " ", clean_sentence + " ", "That is what we hold."]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
                  streaming_enabled=True)
@@ -1259,7 +1260,7 @@ def test_continue_streams_the_next_seat(store, usage_store, world_loader, regist
     desert_sentence, _ = grounded_sentence(desert_world)
     client = _table_client(
         selector_script=[{"next": "alx", "reason": "opening"}, {"next": "desert", "reason": "second"}],
-        stream_scripts=[[alx_sentence], [desert_sentence + " ", desert_sentence + " ", "So we held."]],
+        stream_scripts=[[alx_sentence], [desert_sentence + " ", desert_sentence + " ", desert_sentence + " ", "So we held."]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client,
                  streaming_enabled=True)

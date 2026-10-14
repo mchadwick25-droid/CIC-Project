@@ -25,6 +25,7 @@ author: Theodor Mommsen and Paul M. Meyer (editors)
 work: 'Theodosiani Libri XVI cum Constitutionibus Sirmondianis et Leges Novellae ad Theodosianum Pertinentes,
   Voluminis I Pars Posterior: Textus cum Apparatu'
 edition: 'Berlin: Weidmann, 1905; vendored as cic/texts/theodosianus-16_mommsen-meyer1905.txt'
+citation: 'Theodosiani Libri XVI cum Constitutionibus Sirmondianis et Leges Novellae ad Theodosianum Pertinentes, Voluminis I Pars Posterior: Textus cum Apparatu, ed. Theodor Mommsen and Paul M. Meyer (Berlin: Weidmann, 1905)'
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: 'attributed. Title page confirmed: ''VOLVMINIS I PARS POSTERIOR'' and ''EDIDERVNT

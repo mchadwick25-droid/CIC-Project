@@ -103,8 +103,8 @@ relations:
 name: "Egypt as the measure - one reference point, two modes"
 classification: primary
 description: >-
-  This world holds Egypt up as the standard of real monastic life. But the two houses relate to
-  that standard in opposite ways.
+  This world holds Egypt up as the standard of real monastic life. But the two houses relate to that
+  standard in opposite ways.
 
   In the south, the tie is receptive. Bishop Castor wanted the customs of the East, and especially
   of Egypt, set up in a province of Gaul that had no monasteries at all. Cassian promises to fix
@@ -116,32 +116,30 @@ description: >-
 
   In the north, the tie is comparative, even competitive. Gennadius says plainly that the Dialogues
   set the life of the Eastern monks side by side with the life of Martin. One speaker in the
-  Dialogues concedes to another that Martin surpasses every hermit and solitary of the East.
-  Another passage sends word all the way to Egypt itself. However proud Egypt
-  is of its many saints, Europe need not yield to it, or to all of Asia, since Europe has Martin
-  alone. Gaul is the poorer, colder partner in this comparison.
+  Dialogues concedes to another that Martin surpasses every hermit and solitary of the East. Another
+  passage sends word all the way to Egypt itself. However proud Egypt is of its many saints, Europe
+  need not yield to it, or to all of Asia, since Europe has Martin alone. In this comparison, Gaul
+  is the challenger that claims to win.
 
   Both houses organize themselves around the same point: Egypt, as the standard of real monastic
   life. But they differ in kind. The south receives that standard as a rule to keep. The north
   measures itself against it as a rival to match. This split shows up everywhere the idea is tested.
   It repeats across every voice in this world's own literature. The Institutes' whole structure, the
   Conferences' whole frame, and the shape of the Dialogues all depend on it. In the south, formation
-  itself is nothing but this act of reception. In the north, the fit is only partial. It explains
-  the north's competitive language and the south's own talk of adapting to climate. It explains why
-  Cassian's own text is, at once, desert monasticism's Latin transmission and this world's own
-  founding literature. And it holds up across both houses, in these two different modes, wherever it
-  meets this world's other core ideas. Both halves rest on strong, direct evidence. So this record
-  finds no real doubt about the finding itself. The only open question is what it means for whether
-  this is one world or two - and this record leaves that question open.
+  is largely this act of reception. In the north, the fit is only partial. It explains the north's
+  competitive language and the south's own talk of adapting to climate. It explains why Cassian's
+  own text is, at once, desert monasticism's Latin transmission and this world's own founding
+  literature. And it holds up across both houses, in these two different modes, wherever it meets
+  this world's other core ideas. Both halves rest on strong, direct evidence. Whether the two modes
+  make one world or two is still an open question.
 
   The tie to Egypt held steady across this world's whole span. But what Egypt was needed for kept
   changing. Before Cassian ever wrote, Tours answered the Egyptian standard with rivalry. Marseilles
   and Lérins answered it, a generation later, with reception and careful adaptation. Once the fight
-  over grace broke out, the receptive mode hardened further. Egypt itself became an authority to
-  plead against Augustine and Rome - the whole line of orthodox teachers on the heart's own
-  perfection, as Cassian frames it. Under the barbarian collapse, Egypt survives as little more than
-  a byword for holiness, in the one place Salvian mentions it. The standard itself never moved. What
-  moved was what this world needed it for.
+  over grace broke out, the receptive mode hardened further. The south pleaded that its teaching
+  was the teaching of every Catholic father who had taught perfection of heart (Conf. XIII.18). Under the barbarian collapse,
+  Egypt survives as little more than a byword for holiness, in the one place Salvian mentions it.
+  The standard itself never moved. What moved was what this world needed it for.
 manifestations:
 - "Cassian's Institutes Preface: the customs 'which we have seen observed throughout Egypt and Palestine, as they were there delivered to us by the Fathers,' adapted only where 'the severity of the climate, or ... some difficulty or diversity of habits' makes them impossible in Gaul"
 - "The standing correction of Gaul: 'we cannot recollect any one who joined our monasteries keeping it up unbroken even for a year' (Inst. IV.2); Egyptian dress 'would afford a subject for derision instead of edifying the spectators' (Inst. I.10)"
@@ -153,7 +151,7 @@ use_note:
   means: "Egypt stands as the measure of real monastic life, received in the south as a rule from the fathers and matched at Tours by a saint said to outdo it."
   not_for:
     - "one Egypt shared by both houses, when that is contested in gallic.contested.egypt-two-measures"
-    - "the received customs as how Gaul actually lived, when Cassian admits no one in our monasteries kept Egypt's perseverance even for a year"
+    - "the received customs as how Gaul actually lived, when Cassian could not recall anyone in our monasteries keeping Egypt's perseverance unbroken even for a year"
     - "the rival wonders at Tours as Cassian's view, when he refuses wonders, as in gallic.gravity.virtus"
     - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 404, to: 450}

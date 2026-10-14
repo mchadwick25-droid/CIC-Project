@@ -16,6 +16,7 @@ sources: []
 author: "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II"
 work: "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness"
 edition: "trans. E. W. Watson, L. Pullan, and others, Nicene and Post-Nicene Fathers series 2 vol. 9 (1899), vendored as cic/texts/npnf209_hilary-poitiers-john-damascus.xml"
+citation: Hilary of Poitiers, De Synodis (On the Councils), trans. E. W. Watson, L. Pullan, and others, Nicene and Post-Nicene Fathers, series 2, vol. 9 (1899)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

@@ -34,12 +34,12 @@ narrative_tier_justification: 'Tier 3 (attributed/hagiographic tradition): Euseb
   note - a remembered martyr whose account has passed through devotional shaping.'
 tellable_as: The tradition of Potamiaena, a young woman put to death for her faith at Alexandria. This is how the church remembered her.
 text: 'The church remembered Potamiaena, a young woman martyred under Severus, and her mother Marcella
-  alongside her. The vendored source is explicit that Potamiaena herself was not of Origen''s own circle
+  alongside her. Potamiaena herself was not of Origen''s own circle
   of disciples - that place belongs to Basilides, the soldier who led her to execution and was himself
-  converted by her courage. Under the persecution she was threatened with what ancient cruelty reserved for women,
-  and stood fast. The judge sentenced her to death by boiling pitch, poured slowly. The soldier Basilides
-  led her out - and, the tradition says, held back the crowd''s abuse with such gentleness that she thanked
-  him and promised to ask her Lord for him when she was gone. She died with her mother. Not long after,
+  later a martyr. Under the persecution she was threatened with what ancient cruelty reserved for women,
+  and stood fast. The judge sentenced her to death by burning pitch, poured slowly. The soldier Basilides
+  led her out - and, the tradition says, held back the crowd''s abuse with such gentleness that she bade
+  him take courage and promised to ask her Lord for him when she was gone. She died with her mother. Not long after,
   Basilides, asked by his fellow soldiers to swear an oath, refused: he was a Christian, he said. His
   comrades thought he joked; he did not. He said Potamiaena had come to him in the night and set a crown
   on his head. He was beheaded. The church baptized him in prison before the end.'

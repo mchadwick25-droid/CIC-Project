@@ -24,6 +24,7 @@ relations:
 author: "Origen of Alexandria (c. 185-c. 253)"
 work: "Commentary on the Gospel of Matthew, Books I-II and X-XIV, and Commentary on the Gospel of John - Origen working through Matthew 13-18 in detail, including the graduated procedure for correcting a sinning brother at Matthew 18:15-17"
 edition: "Ante-Nicene Fathers vol. 9, vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml - the Sinning Brother chapter (Commentary on Matthew, ch. 30) at file line 36205"
+citation: Origen of Alexandria, Commentary on the Gospel of Matthew, Ante-Nicene Fathers vol. 9
 kind: vendored
 rights_status: "public-domain; ANF 1896, long out of US copyright"
 attribution_status: attributed

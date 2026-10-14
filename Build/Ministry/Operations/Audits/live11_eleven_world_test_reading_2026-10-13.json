@@ -1,0 +1,293 @@
+{
+  "method_note": "9 Oct quotes checked against records at commit 8d7e0edc2 (the version the 9 Oct reading ran on, per commit 7e6eee160). 13 Oct checked against each report's own package in /tmp/live-wt/packages/<w>/2026-10-13*/records. Readability scored with engine/m7/turn_readability.score_turn. All 132 turns: routing voice_with_directive, facilitator_events empty, result.degraded false.",
+  "worlds": {
+    "syr": {
+      "oct9_invented": [
+        "Q1 'only One was without wound' attributed to 'one of our teachers': record aphrahat-one-innocent says 'only one who is innocent'",
+        "Q2 and Q4 'Death trembled, and the dead revived': record nisibene-death-trembled says 'the dead rebelled'; in Q4 it is tagged to the wrong record (ephrem-only-begotten-dwelling)",
+        "Q5 'Three times Shapur came against Nisibis while Jacob lived, and three times the city held': invented. story.jacob-deliverance says the siege year is unknown (338, 346 or 350)"
+      ],
+      "oct13_surviving_problems": [
+        "Q2 'He healed the sick and taught in parables. He gathered followers and sent them out.' Generic gospel lines; the net marked them withhold (no shared word with gospel-harmony) but they were still shown",
+        "Q5 closer says 'his last strength for the sick'; the record has the starving in a famine (small drift)"
+      ],
+      "cuts_correct": 2,
+      "cuts_overcut": [],
+      "coherence_issues": [],
+      "quotes_apt": "Q4 places nativity-this-is-the-day ('On this day their words came true') to answer why they believed. Apt: prophecy fulfilled. Q1 and Q2 markers were for quotes not in the evidence; one id was invented (aphrahat.death.emptied-sheol).",
+      "voice_verdict": "same",
+      "voice_note": "Fidelity is better. The voice is clearer but choppier: FK 7.2 to 5.5, and all six turns are under grade 8. Some imagery was lost ('rescue and invasion both'). Q6 on the silence of women and the enslaved is strong. One coined closer.",
+      "example_oct9": "We sang him more than we defined him.",
+      "example_oct13": "Ihidaya. The Single One. One word does double duty among us.",
+      "readiness": "ready with fixes",
+      "one_line": "Clean. The 9 Oct misquotes and the invented Shapur sieges are gone. The two cuts were correct, and Q2 still carries two ungrounded gospel-summary lines."
+    },
+    "cappadocian": {
+      "oct9_invented": [
+        "Q2 block quote 'The sick man needed a physician; the fallen man, someone to raise him up...' given as 'One of our teachers wrote'. It shares no wording with any quote record and is tagged to gregory-nyssa-on-becoming-god",
+        "Q1 Gregory of Nyssa block reworded (about 63% of the record's wording)",
+        "Q6 Basil ant quote introduced by 'Basil wrote:' straight after a paragraph on delayed baptism, so it looks like his answer to that",
+        "Q6 speaks as 'I' ('That is what I would want you to understand')"
+      ],
+      "oct13_surviving_problems": [
+        "Q3 'The word itself came from the Greek schools and the old religion. We took it and filled it.' Untagged; term.eusebeia gives no origin",
+        "Q3 'A generous man who cannot name the Spirit's glory has not learned it either.' Untagged invented maxim",
+        "Q2 two sentences tagged to cappadocian.dw.taught-most, which does not exist in the package"
+      ],
+      "cuts_correct": 2,
+      "cuts_overcut": [
+        {"q": "Q1", "sentence": "The Father, the Son, and the Holy Spirit are one ousia - one being, what God is.", "why_overcut": "A plain statement of the world's core doctrine, grounded in term.ousia-hypostasis and homoousios. Common Trinitarian words tripped the 'gives a quote record's words' check."}
+      ],
+      "coherence_issues": [
+        "Q1 'And they are three hypostases' lost its 'one ousia' partner sentence, so 'they' and the contrast hang",
+        "Q6 ends 'What we handed on was not mastery. \"': a stray quotation mark left after the typed ant quote was cut, and the sentence it set up is gone"
+      ],
+      "quotes_apt": "Q3: the Basil quote on ranking the Spirit with the Father is placed under an answer about eusebeia. Not apt. Q4: the 230-word Nyssa incarnation passage hangs off 'kept it as the faith our own teachers handed down'. Weak fit for 'why did you believe', and too long.",
+      "voice_verdict": "better",
+      "voice_note": "Hard readability fails fell from 2 to 0 and FRE rose from 63 to 73, with no appended block quotes. Distinctive (font, doxology, Macrina, the ant argument). One meta line in Q2.",
+      "example_oct9": "That is what I would want you to understand: doubt was not a closed door here.",
+      "example_oct13": "That we built everything on a confession we could not finish.",
+      "readiness": "ready with fixes",
+      "one_line": "The 9 Oct invented 'sick man needed a physician' quote is gone. 13 Oct has one overcut, a stray quotation mark, and two misfit placed quotes."
+    },
+    "gallic": {
+      "oct9_invented": [
+        "Bold-headed block 'quotations' written by the voice: '**Cassian, Institutes III.3**' and '**Cassian, Conferences I.7**' share no wording with any quote record",
+        "Institutes V.26, IV.30, Life of Martin III and Vita XX blocks are loose rewrites of the records (8 to 33% match). The Vita XX block adds sentences, such as daily communion with Ithacius, that its one-sentence record does not hold",
+        "Q3 'as if on a definite mark' is in quotation marks but in no record"
+      ],
+      "oct13_surviving_problems": [
+        "Q1 'Then he said he would not believe that Christ had come.' The cut took the qualifier, so Martin now seems to deny Christ's coming",
+        "Q4 Martin's words to the devil are placed after the lead-in 'He laid it down himself and took it again:', so they read as Christ's own words",
+        "Q6 'barbarians rushed within the two divisions of Gaul': archaic wording lifted unquoted from the NPNF translation"
+      ],
+      "cuts_correct": 6,
+      "cuts_overcut": [],
+      "coherence_issues": [
+        "Q1 truncated refusal (above)",
+        "Q4 'That is the one private word we have.' Unclear after a misattributed quote",
+        "Q6 'Then he kept a monk's habits inside it.' 'it' (the see) lost its antecedent when the Ruricius lead-in was cut",
+        "Q3 merit answer repeats 'Tours ... saint's standing' three times after two cuts"
+      ],
+      "quotes_apt": "Q4: the Martin 'marks of his wounds' quote is apt to who they believed in (the crucified Christ), but the borrowed lead-in misattributes it. The offered Ruricius quote in Q6 and Martin quote in Q3 were lost because the lead-ins typed their own quotations.",
+      "voice_verdict": "better",
+      "voice_note": "The invented block quotations are gone, which is the big fidelity gain. The two houses (Tours and Marseilles) and the soldier-monk imagery survive. The voice is choppier (FK 7.6 to 5.7) and has coined closers.",
+      "example_oct9": "The mark stays fixed; the practices are judged by it.",
+      "example_oct13": "He lived it out by carrying it.",
+      "readiness": "ready with fixes",
+      "one_line": "From voice-written 'Cassian' block quotes to verbatim placement. But one truncation distorts Martin, and one placed quote reads as Christ speaking."
+    },
+    "rzg": {
+      "oct9_invented": [
+        "Q3 Zwingli 'The articles and opinions below, I, Ulrich Zwingli, confess... [only] from the aforesaid Scriptures' is pieced together with brackets and ellipses (about 40% of the record's wording)",
+        "Q1 and Q5 mirror-of-election quote carries editorial brackets and ellipses, and Q5 states it is 'Bullinger's own voice'"
+      ],
+      "oct13_surviving_problems": [
+        "The voice says 'I' twice: 'what I have said' (Q3) and 'What I cannot give you' (Q5)",
+        "Q5 'exiled to Strasbourg three years later' after 1536; the record gives 1538",
+        "Q3 'providentia, seeing beforehand' is untagged (withhold) but shown. It is accurate."
+      ],
+      "cuts_correct": 0,
+      "cuts_overcut": [
+        {"q": "Q5", "sentence": "What it does hold is the doctrine itself, in his own words, and the institutions he shaped.", "why_overcut": "No words are attributed. 'in his own words' tripped the attribution check. It was an honest-limit statement."}
+      ],
+      "coherence_issues": [],
+      "quotes_apt": "None placed. Only seniors-selected-from-the-people was offered on Q3/Q4, which is off-topic, so the voice rightly used none.",
+      "voice_verdict": "better",
+      "voice_note": "Hard fails fell from 3 to 1 (Q5 still has FRE 55). The two-city framing and triple refusal are strong and distinctive. Fix the first-person singular slips.",
+      "example_oct9": "We did not deny they read Scripture. We denied they read it whole.",
+      "example_oct13": "One was a wound from within, and it was the sharpest because it came from our own.",
+      "readiness": "ready with fixes",
+      "one_line": "Strong and grounded. One overcut on 'in his own words', two 'I' slips, and one off-by-one date."
+    },
+    "pahc": {
+      "oct9_invented": [
+        "Q1 'Here is Ignatius himself:' block reworded (about 20% of the record's wording)",
+        "Q5 Shepherd of Hermas block reworded (about 25%)",
+        "Q3 and Q4 append the same Didache block twice in one conversation"
+      ],
+      "oct13_surviving_problems": [
+        "Q5 'The one who walked him to the stake is remembered as a brother who regretted it afterward.' Invented: untagged, the net passed it as ok, and no record holds it",
+        "Q1 hard readability fail (FK 12.4, FRE 58)"
+      ],
+      "cuts_correct": 2,
+      "cuts_overcut": [
+        {"q": "Q2", "sentence": "Beyond that - what he taught, where he walked, the particular things he said and did before the cross - our own record does not lay those out the way a connected account would.", "why_overcut": "An honest-limit statement with no attributed words. The phrase 'things he said' tripped the attribution check."}
+      ],
+      "coherence_issues": [
+        "Q5 the typed Polycarp 'eighty-six years' answer was cut (correctly; its tag pahc.quote.polycarp-eighty-six-years does not exist), so the scene jumps from 'pressed him to curse Christ' to 'He was burned'",
+        "Q3 'Justin said it plainly:' introduces a quote on Socrates and Abraham that does not say what the sentence before it claims (letters and a shared table)"
+      ],
+      "quotes_apt": "Q4: Ignatius 'truly born' is apt to why they believed (truly real). Q3: Justin 'those who lived by reason are Christians' is not apt to ekklesia, and opens with a leading ellipsis.",
+      "voice_verdict": "better",
+      "voice_note": "The repetitive 'Here is X himself:' appendix frame is gone, and the leadership and silence material is honest and well put. One invented detail survived.",
+      "example_oct9": "Here is the opening of the manual itself: There are two ways...",
+      "example_oct13": "That question - who should lead - was our real fight, letter after letter.",
+      "readiness": "ready with fixes",
+      "one_line": "Better shaped, but one invented Polycarp detail reached the participant untagged, and one placed quote is off-topic."
+    },
+    "desert": {
+      "oct9_invented": [
+        "None significant found. Sayings are given as prose paraphrase close to the records (Moses' jug, Antony to the philosophers, the arch from Cassian)."
+      ],
+      "oct13_surviving_problems": [
+        "Q6 'But to hate it is....' is a truncated line. The record desert.dw.the-heart-and-the-spirit itself ends 'But to hate it is...', and a malformed tag added the extra period",
+        "Q3 'not passed around as a shareable quotable line': modern, anachronistic phrasing"
+      ],
+      "cuts_correct": 9,
+      "cuts_overcut": [
+        {"q": "Q1", "sentence": "To us Jesus is the eternal Word and Wisdom of the Father - not a created being, not brought into being out of nothing, but from the Father's own Essence, always existing together with the Father.", "why_overcut": "The world's own confession, tagged to desert.dw.god. It is not attributed words, but it was cut as 'gives a quote record's words'."},
+        {"q": "Q5", "sentence": "The elders heard him and released the brother without punishment.", "why_overcut": "Plain narration of the story's outcome. 'Words after an attribution' swept it up after Moses' saying was cut."}
+      ],
+      "coherence_issues": [
+        "Q1 now opens 'We taught plainly that there was never a time when he was not.' 'he' has no antecedent",
+        "Q5 the leaking-basket story loses Moses' words and the release, so the reply tells a story with no point",
+        "Q2 opens 'He worked miracles we attributed to God...' and then has a stray paragraph break; the philosophers exchange that explained it was cut",
+        "Q4 the placed Antony quote ('We are not the doers of these things') follows a sentence about stillness, unattributed and off-topic"
+      ],
+      "quotes_apt": "Q4: christ-worketh-them-not-we is apt to the miracles claim made earlier in Q4, but it is placed after the wrong sentence, with no speaker named.",
+      "voice_verdict": "worse",
+      "voice_note": "Fidelity is the same; 9 Oct desert was already grounded. 13 Oct lost the stories' payoffs to cuts (11 cuts, the most in the fleet) and is choppy (FK 6.1). It is still distinctive: abba and amma, the arch, the war inside.",
+      "example_oct9": "So a monk's whole attention should be fixed on one point... like a builder striking a round arch from its exact center.",
+      "example_oct13": "He came carrying a leaking basket of sand behind him. [story ends; the saying and outcome were cut]",
+      "readiness": "ready with fixes",
+      "one_line": "Was clean on 9 Oct. On 13 Oct the attribution cuts gutted two stories and left an opening pronoun with nothing before it, plus a truncated record line."
+    },
+    "alx": {
+      "oct9_invented": [
+        "No invented quotes found, but quotes were reworded: Clement schoolmaster (about 60% of the record's wording), Gregory's 'spark' and Clement's 'bee' paraphrased inside sentences given as their words"
+      ],
+      "oct13_surviving_problems": [
+        "Q3 picks 'ho Christos' as a word the participant 'might not know'. A weak choice, and its anointing explanation is untagged"
+      ],
+      "cuts_correct": 5,
+      "cuts_overcut": [],
+      "coherence_issues": [
+        "Q1 'He meant that the one who first set the world in order had come into it...' The 'He' was Clement, whose lead-in was cut, so it now reads as Jesus",
+        "Q4 ends 'not just the mind informed. \"': a stray quotation mark after the typed Athanasius passage was cut"
+      ],
+      "quotes_apt": "Q3: Clement's New Song ('made men out of stones') is loosely apt to Christ restoring creation, and is attributed to Clement. The offered Athanasius and Clement-bee quotes were lost because the lead-ins typed their own versions.",
+      "voice_verdict": "better",
+      "voice_note": "Hard fails fell from 3 to 0 and FRE rose from 65 to 74. Thinner (138 words), with some modern jargon. The Logos-as-healer conviction holds.",
+      "example_oct9": "He is not a messenger bringing news about God; he is God's own self-expression.",
+      "example_oct13": "It was not information transfer.",
+      "readiness": "ready with fixes",
+      "one_line": "Faithful and readable. Two cut artifacts: a 'He' that now points to the wrong person, and a stray closing quotation mark."
+    },
+    "hal": {
+      "oct9_invented": [
+        "Q1 'Hail, Bethlehem, house of bread' given as Paula's words, reworded from the record (about 15% match)",
+        "Q4 Jerome's 'partially acquired' Hebrew testimony reworded",
+        "Q6 build jargon leaked: 'Our own prior position-taking is part of why this force found this target'"
+      ],
+      "oct13_surviving_problems": [
+        "None major. Q2 adds generic gospel detail ('the disciples who left their nets'), not world-specific."
+      ],
+      "cuts_correct": 8,
+      "cuts_overcut": [
+        {"q": "Q4", "sentence": "Then she cried out, greeting Bethlehem as the house of bread, where the Bread come down from heaven was born [[quote:hal.quote.hail-bethlehem]]", "why_overcut": "A valid, offered, apt quote, refused as a 'second placed quote'. The first placement (eyes-of-faith) was then thrown out by the net, so the reply ended with no quote at all."}
+      ],
+      "coherence_issues": [
+        "Q5 and Q6 lost their concrete anchors (Rome's fall, the burned monastery) to correct cuts of indirect speech, but stay coherent"
+      ],
+      "quotes_apt": "None placed. Both offered Q4 quotes were lost: one correctly (its lead-in gave Jerome's report to Paula), and one to the count bug above.",
+      "voice_verdict": "better",
+      "voice_note": "The jargon leak is gone, and the cave, the Bread, Hebraica veritas and the grief stay distinctive. Plainer than 9 Oct.",
+      "example_oct9": "Our own prior position-taking is part of why this force found this target.",
+      "example_oct13": "The resurrection was true because people do not empty their houses for a lie.",
+      "readiness": "ready with fixes",
+      "one_line": "Clean and distinctive. Nine cuts, mostly correct, but they removed every quote. One was a placement-count bug."
+    },
+    "ijc": {
+      "oct9_invented": [
+        "Q4 'Canon 1 at Chalcedon condemns anyone who dares compose a different faith...' is in no record; the wording belongs to the Definition, not Canon 1",
+        "Q1 and Q2 Leo's Tome given as 'says' but reworded (about 13 to 34% of the record's wording)"
+      ],
+      "oct13_surviving_problems": [
+        "Q3 'homoios - \"like the Father\"' is a typed quotation that survived, while the parallel homoousios gloss was cut"
+      ],
+      "cuts_correct": 5,
+      "cuts_overcut": [
+        {"q": "Q2", "sentence": "He came down from heaven, was made man of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried.", "why_overcut": "The world reciting its own creed in its own voice. The cut left the reply opening 'That is what our creed says he did' with no 'that'."},
+        {"q": "Q2", "sentence": "On the third day he rose again according to the scriptures, and ascended into heaven.", "why_overcut": "Creed narration, not attributed words. With both lines gone, 'What did he do?' got no answer."},
+        {"q": "Q3", "sentence": "Homoousios - \"of one substance with the Father\".", "why_overcut": "The term's own name and gloss, cut as a 'typed quotation'. The answer then never names its word up front."},
+        {"q": "Q6", "sentence": "What an ordinary believer would have said to you, in their own words, we cannot show you; no such words were saved.", "why_overcut": "An honest-limit statement. 'in their own words' tripped the attribution check."}
+      ],
+      "coherence_issues": [
+        "Q2 non-answer that opens on a dangling 'That'",
+        "Q3 opens 'The Nicene word that binds the Son...' without naming the word",
+        "Q6 'The nearest thing we have is a crowd glimpsed once' has lost its antecedent"
+      ],
+      "quotes_apt": "Q4: Leo's Tome ('each form does what is proper to it') is apt and attributed to Leo. The Eusebius quote was correctly refused, because the record's speaker is Socrates. The Chalcedon definition was correctly refused under the one-quote limit.",
+      "voice_verdict": "worse",
+      "voice_note": "Readability improved (hard fails 2 to 1), but cuts broke Q2 and Q3, the two most basic answers. The definitional, exile-tested voice survives in Q1, Q4 and Q6.",
+      "example_oct9": "We wrote definitions, and we wrote them the way people write what they are prepared to be exiled over.",
+      "example_oct13": "That is what our creed says he did, and it is the inheritance we received. [opening line after the creed was cut]",
+      "readiness": "not ready",
+      "one_line": "The invented 'Canon 1' is gone, but four overcuts turned 'What did he do?' into a non-answer and left the word unnamed in 'what word...?'."
+    },
+    "witt": {
+      "oct9_invented": [
+        "Q3 the block given as 'the article as our confession signed it before the Emperor' (Augsburg Art. IV) matches no quote record (0%)",
+        "Q1 and Q2 Second Article blocks reworded (about 35 to 50%); 'He is my Lord! I am His very own' does not match the record's wording"
+      ],
+      "oct13_surviving_problems": [
+        "Q1 degraded: every sentence is tagged to witt.term.truly-god-and-truly-man, which does not exist (the real record is witt.dw.truly-god-and-truly-man). Zero citations",
+        "Q4 'We believed people are saved by faith alone because no other teaching appeared so often in our writings' turns a corpus-count observation into a reason for belief",
+        "Q3 the placed Augsburg Art. II (original sin) appears with no lead-in or speaker ('They also teach...') under an answer about repentance"
+      ],
+      "cuts_correct": 8,
+      "cuts_overcut": [
+        {"q": "Q2", "sentence": "What he also did was teach, and his own speech - the Gospel, the Word - is what we have of him, preached and written down, not argued into being by our own effort.", "why_overcut": "A grounded claim (dw.how-the-promise-reached-us), dropped as the 'lead-in' to a marker for a quote that does not exist."},
+        {"q": "Q2", "sentence": "On the third day he rose again from the dead, and the catechism teaches us to confess it: yes, this is true.", "why_overcut": "Only 'yes, this is true' is catechism wording. Cutting the whole sentence removed the resurrection from 'What did he do?'."}
+      ],
+      "coherence_issues": [
+        "Q1 opens 'Both, and in the same breath.' Its antecedent (truly God, truly man) was cut",
+        "Q2 answer omits the resurrection",
+        "Q3 unattributed, off-topic placed quote",
+        "Q4 the 190-word Second Article hangs off 'the Word, the water, the bread, the absolution:'"
+      ],
+      "quotes_apt": "Q3 not apt (original sin under repentance) and unattributed. Q4: the Second Article is apt to Christ but not to the sentence that introduces it, and is overlong.",
+      "voice_verdict": "worse",
+      "voice_note": "Hard fails fell from 2 to 0 and Q5 and Q6 are strong (the Brussels martyrs, the founder's own complaint). Q1 to Q4 are damaged by bad ids, cuts and misplaced quotes.",
+      "example_oct9": "That was not theory. That was the promise, held to its price.",
+      "example_oct13": "Both, and in the same breath. [opening of the degraded Q1]",
+      "readiness": "not ready",
+      "one_line": "Q1 shipped degraded and uncited because of one wrong record-type prefix. Q2 lost the resurrection, and Q3 shows an unattributed off-topic quote."
+    },
+    "don": {
+      "oct9_invented": [
+        "Q2 Marculus shown the cup, crown and palm 'four days before he was thrown'. Records: on the last night of four days' custody",
+        "Petilian 'conscience of the giver' line paraphrased as the bishop's words in Q3 and Q4; it matches the record closely in Q6"
+      ],
+      "oct13_surviving_problems": [
+        "Q4 keeps the bishop's attributed words ('how much less may we?') that were cut in Q1. Inconsistent, not invented",
+        "Q6 closes 'So yes, you could come back to us.', which answers an unasked question; the line is lifted from dw.becoming-one-of-us"
+      ],
+      "cuts_correct": 2,
+      "cuts_overcut": [],
+      "coherence_issues": [
+        "Q6 non-sequitur closer (above)"
+      ],
+      "quotes_apt": "None placed. Indirect use of records was grounded.",
+      "voice_verdict": "better",
+      "voice_note": "Unsparing, own-voice self-criticism (Bagai, forced rebaptism), well grounded. The 9 Oct martyr timing error was fixed. Short sentences, but a distinctive voice.",
+      "example_oct9": "We produced one man who could think, and we silenced him.",
+      "example_oct13": "That we were not steady about what we said we were.",
+      "readiness": "ready",
+      "one_line": "The best of the fleet. Grounded, distinctive, two correct cuts. Only a lifted closer in Q6."
+    }
+  },
+  "witt_q1_degraded": "On 13 Oct, offered_ids for 'Who is Jesus?' was empty, as it was for Q1 and Q2 in most worlds. The voice tagged every sentence to witt.term.truly-god-and-truly-man, which does not exist; the real record is witt.dw.truly-god-and-truly-man. It also wrote a marker for witt.quote.christ-redeemer-explanation, which does not exist either. The net cut the marker and three Small Catechism sentences (shown without placement). The four sentences left all resolved to an unknown record, so substantive_survives was false and degraded_by_net was true. It still shipped, with zero citations. The participant saw: 'Both, and in the same breath. The household was taught to say it every week, and the father was to hear it said back: I believe that Jesus Christ is truly God and also truly man. He is our Lord, and the catechism puts that in the first person... Christ alone is our one Mediator...' The opening 'Both' has no antecedent, and the reply has no sources.",
+  "fleet_summary": "Safety was clean in both runs: all 132 turns went to the voice, and there were no facilitator events. The 9 October run had real fidelity failures. The voice wrote block quotations that match no record (gallic 'Cassian, Institutes III.3' and 'Conferences I.7', cappadocian 'The sick man needed a physician', witt's Augsburg Art. IV), reworded most others, and invented specifics: syr 'three times Shapur came against Nisibis', ijc 'Canon 1 at Chalcedon'. On 13 October, every one of the 9 placed quotes matches its record word for word, and almost no typed quotation got through. One invented detail did reach a participant: the pahc 'brother who regretted it'. Of 61 cuts, 49 were correct and 12 were overcuts, mostly false hits on 'in his own words' or 'said' and on a world reciting its own creed. The bigger cost is what cuts leave behind: non-answers (ijc Q2, witt Q2 without the resurrection), opening pronouns with nothing before them (desert Q1, witt Q1, alx Q1), stories with no point (desert Q5), and two replies ending in a stray quotation mark. Placed quotes are verbatim but often misplaced: Martin's words read as Christ's (gallic Q4), an unattributed off-topic Augsburg article sits under repentance (witt Q3), and Antony appears unnamed (desert Q4). Hard readability fails fell from 12 to 3, but 56 of 66 turns now sit under grade 8 because the sentences are clipped. Voice: better in 7 worlds, the same in syr, and worse in desert, ijc and witt.",
+  "top_fixes": [
+    "1. Require every placed quote to name its speaker. _placed_verdict in engine/m4/grounding_net.py passes vacuously when the lead-in names no one, and _take_lead_in borrows any earlier sentence. Evidence: gallic Q4 (Martin's words after 'He laid it down himself...'), witt Q3 (Augsburg Art. II with no lead-in), desert Q4 (Antony unnamed). Either reject unattributed placements, or have code write the attribution from speaker_or_author.",
+    "2. Narrow the attribution checks. 'Words attributed without a placed quote' fires on 'in his own words' and 'things he said' (rzg Q5, ijc Q6, pahc Q2). 'Words after an attribution' takes plain narration (desert Q5 'The elders heard him and released the brother'). A world reciting its own creed or glossing its own term is treated as a quotation (ijc Q2 creed, ijc Q3 'Homoousios - \"of one substance...\"', cappadocian Q1 'one ousia', desert Q1).",
+    "3. Do not ship a reply whose cuts broke it. When a cut removes the antecedent or the answer itself, regenerate once rather than send the gap. degraded_by_net=true (witt Q1, zero citations) is currently shown as is. Evidence: ijc Q2 'That is what our creed says he did', witt Q2 with no resurrection, desert Q1 'never a time when he was not' with no antecedent, alx Q1 Clement's 'He meant' now reading as Jesus.",
+    "4. Tell the voice which quote ids it can place this turn. Q1 and Q2 offered no quote records in any world, yet the voice wrote more than 14 markers, several with invented ids: aphrahat.death.emptied-sheol, justin.1apol.46.2-3, antony-answer-philosophers, witt.quote.christ-redeemer-explanation, witt.quote.a-new-song-here-shall-be-begun. It also mis-typed record ids (witt.term.truly-god-and-truly-man for witt.dw..., cappadocian.dw.taught-most). The prompt should list exact placeable ids and say 'none this turn'.",
+    "5. Fix two quote_placement.py bugs. (a) The tail strip ^[\\s.,;:!?]+ leaves a closing quotation mark as its own sentence (cappadocian Q6 and alx Q4 end with a bare quotation mark). (b) The one-quote count includes a placement the net later rejects, so hal Q4's valid hail-bethlehem was refused and the reply ended with no quote. Minor: removed[].sentence doubles the lead-in in the report.",
+    "6. Stop untagged specific claims about named figures from passing as 'ok', and decide what 'withhold' means for display. The pahc Q5 'brother who regretted it' was invented, untagged, and passed. syr Q2 'healed the sick and taught in parables' was marked withhold but still shown.",
+    "7. Record fixes. desert.dw.the-heart-and-the-spirit ends on the truncated 'But to hate it is...', which surfaced in desert Q6. don.dw.becoming-one-of-us has the closer 'yes, you could come back', which leaks as a non sequitur in don Q6. Voice guidance on singular 'I' (rzg Q3 and Q5).",
+    "8. Watch the grade floor. 56 of 66 13 October turns are under FK 8, against 35 on 9 October: syr is at FK 5.5 and gallic at 5.7, with fragment openings like 'Ihidaya. The Single One.' This is clipping, not clarity, and is starting to flatten the worlds' voices."
+  ]
+}

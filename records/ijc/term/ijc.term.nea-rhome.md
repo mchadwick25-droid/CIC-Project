@@ -29,8 +29,7 @@ retrieval:
 relations:
 - {type: associated-with, target: ijc.term.presbeia}
 - {type: associated-with, target: ijc.term.primatus}
-plain_meaning: '"New Rome": Constantinople''s name for itself as the empire''s new seat. Not a decoration - the
-  stated ground of its claim to rank among the churches.'
+plain_meaning: "\"New Rome\" was Constantinople's name for itself as the empire's new seat. The name was the stated ground of its claim to rank among the churches."
 world_word: Nea Rhome
 distortion_risk: medium
 false_friend:
@@ -43,8 +42,7 @@ senses:
     Rome's own privileges rested on its having been "the royal city."
   evidential: The name and the reasoning survive in the conciliar record's own words - the rare case where
     a claim's premise is written into the instrument making the claim.
-  personal: To its own church the name was not vanity but honesty - the empire's weight had really moved,
-    and the name said so out loud.
+  personal: "To its own church the name said what was true: the empire's weight had really moved, and the name said so out loud."
   translational: Closer to a legal recital than a nickname - the "whereas" clause of a claim to rank.
 quick_meaning: Constantinople's name for itself - the empire's new capital, "New Rome."
 use_note:

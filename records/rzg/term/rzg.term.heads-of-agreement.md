@@ -39,11 +39,10 @@ senses:
     own way of organizing its own agreed statements, not a generic phrase for any list of doctrines.
   evidential: The Consensus Tigurinus's own text is organized under this heading, including the ninth
     Head of Agreement (Sign and the Thing Signified).
-  personal: When we cite a specific point of the Consensus, we cite it by its own Head number, the way
-    the document itself is organized.
+  personal: When we cited the Consensus, we used its Head numbers. The document was organized that way.
   translational: This is not a loose figure of speech. It names the Consensus's own formal, numbered structure.
-quick_meaning: The Consensus Tigurinus's own name for its own twenty-six articles. A specific feature
-  of that text, not a generic phrase.
+quick_meaning: The Consensus Tigurinus's own name for its twenty-six articles. A feature of that text,
+  not a generic phrase.
 distortion_risk: low
 use_note:
   means: "Heads of Agreement is the Consensus Tigurinus's own name for its twenty-six articles."

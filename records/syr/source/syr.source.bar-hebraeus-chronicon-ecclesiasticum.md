@@ -31,6 +31,7 @@ edition: "Abbeloos-Lamy critical edition with facing Latin translation (Louvain:
   vendored as cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt (Sectio
   II opens at file line 304; the Papa entry at line 1670; the Simeon bar Sabbae entry at line 2061,
   running to his martyrdom account closing at line ~2189)"
+citation: 'Bar Hebraeus, Chronicon Ecclesiasticum, vol. 3, ed. with Latin trans. Abbeloos and Lamy (Louvain: Peeters, 1872-1877)'
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

@@ -20,6 +20,7 @@ work: Lucilla's own role at the schism's founding, and a second, unnamed woman b
   passages
 edition: optatus_against-the-donatists.txt (row 1's file) and npnf101_augustine-confessions-letters.xml
   (row 6's file)
+citation: Optatus of Milevis (I.16) and Augustine of Hippo (Letter XLIII), on Lucilla and the second, unnamed woman behind the Maximianist council
 kind: unvendored
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed

@@ -18,6 +18,7 @@ author: Gregory of Nyssa
 work: Gregory of Nyssa's homilies on the Forty Martyrs of Sebaste and on Theodore the Recruit
 edition: Confirmed absent from the vendored npnf205 per row 41's own note -- a named, currently unlocated
   acquisition gap
+citation: Gregory of Nyssa, homilies on the Forty Martyrs of Sebaste and on Theodore the Recruit
 kind: unvendored
 rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed

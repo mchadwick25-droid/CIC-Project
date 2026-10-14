@@ -83,8 +83,8 @@ narrative_tier_justification: >-
   Accepted, not Documented: no independent witness.
 tellable_as: >-
   A presbyter Martin raised from boyhood storms into the courtyard. He calls his master's visions
-  ridiculous fancies, then repents within the hour. Martin will not remove him, saying he bears with
-  Brictio the way Christ bore with Judas.
+  ridiculous fancies, then soon comes back and begs pardon. Martin will not remove him: if Christ bore
+  with Judas, why should he not bear with Brictio?
 text: >-
   In the Dialogues, Sulpitius Severus has Gallus tell what happened one day at Martin's own dwelling.
   Martin had sat down on the wooden seat everyone knew, in the small open court outside his door.
@@ -127,7 +127,7 @@ modern_contrast: >-
   raised, and the community's own text is what raises the charge of barbarian boys and comely girls
   bought as slaves.
 use_note:
-  means: "Gallus relates that Brictio, raised by Martin, stormed at him and called his visions ridiculous fancies, repented within the hour, and was borne with as Christ bore Judas."
+  means: "Gallus relates that Brictio, raised by Martin, stormed at him and called his visions ridiculous fancies, soon came back to beg pardon, and was borne with as Christ bore Judas."
   not_for:
     - "a neutral report of Brictio's case, when it comes from men hostile to him"
     - "Marseilles teaching on obedience or the disclosure of thoughts, which sits in gallic.term.obedience"

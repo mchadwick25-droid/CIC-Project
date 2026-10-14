@@ -26,7 +26,7 @@ confidence:
     quoted text.
 sources:
 - source_id: ijc.source.augustine-correction-donatists
-  locus: 'chs. 6-7 (npnf104, line 19617); the concession at line 19704'
+  locus: 'chs. 6-7 (npnf104, lines 19616-19617 and 19624)'
   license: public-domain
 text: Wherefore, if the power which the Church has received by divine appointment in its due season,
   through the religious character and the faith of kings, be the instrument by which those who are found
@@ -35,13 +35,12 @@ text: Wherefore, if the power which the Church has received by divine appointmen
   men are compelled to come in to the sacred Supper, it seemed to certain of the brethren, of whom I
   was one, that although the madness of the Donatists was...
 modern_rendering: >-
-  The Church received a certain power, by God's appointment, in its proper time, through
-  the religious character and the faith of kings. Those found in the highways and hedges —
-  that is, in heresies and schisms — are compelled to come in. If this power is the means
-  of that compulsion, then let them not object to being compelled... Laws were later sent
-  into Africa that compel people to come in to the sacred Supper. Before those laws were
-  sent, this is what seemed true to some of the brethren, and I was one of them: although
-  the madness of the Donatists was...
+  The Church has received power by divine appointment, in its due season, through the religious
+  character and the faith of kings. The highways and hedges stand for heresies and schisms. Therefore,
+  if that power is what compels those found there to come in, then let them not find fault with being
+  compelled... However, there are laws by which people are compelled to come in to the sacred Supper.
+  Before those laws were sent into Africa, it seemed to some of the brethren, myself among them, that
+  although the madness of the Donatists was...
 speaker_or_author: Augustine of Hippo, writing to the imperial tribune Boniface c. 417
 license: verbatim
 modern_lens_note: >-

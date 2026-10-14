@@ -16,6 +16,7 @@ sources: []
 author: "Origen (c. 185-254 CE)"
 work: "Contra Celsum (Against Celsus)"
 edition: "trans. Frederick Crombie (books VII-VIII with W.H. Cairns), Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+citation: Origen, Contra Celsum (Against Celsus), trans. Frederick Crombie, books VII-VIII with W.H. Cairns, Ante-Nicene Fathers vol. 4 (1885)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

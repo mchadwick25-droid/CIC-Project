@@ -41,7 +41,7 @@ relations:
   target: desert.gravity.diakrisis
 - type: associated-with
   target: desert.story.moses-leaking-jug
-plain_meaning: "Discernment: the skill of judging rightly between thoughts, practices, and counsels - our own master virtue."
+plain_meaning: 'Discernment: the skill of judging rightly between thoughts, practices, and counsels. It set the measure for all our other practices.'
 world_word: diakrisis
 false_friend:
 - trusting your gut
@@ -49,8 +49,8 @@ false_friend:
 senses:
   informational: "The capacity to judge rightly - which thought is which, how much discipline a given person can bear, which authority to follow. It recurs across named elders in the sayings tradition regardless of settlement, and it is the mechanism by which every other practice was calibrated: this world's formation had no fixed syllabus, so discernment did the work a curriculum does elsewhere."
   evidential: "Attested across the sayings tradition - itself filtered through later, anonymous compilers who arranged and selected what survives, so how far the pattern crossing settlement lines reflects the settlements themselves and how far it reflects the compilers' own hand is not settled. Cassian, writing decades later in Latin for a Gallic audience, devotes a whole Conference to it as the teaching he received in Egypt. A recurring narrative pattern carries it: an eager newcomer asks an elder for an extreme practice and is redirected toward something more moderate - not less asceticism, but discerned asceticism."
-  personal: "Discernment was learned under an elder's eye, and it was aimed first at self-deception - the recognition that your own judgment is exactly what excess and vanity corrupt. Trusting yourself uncritically was the failure it existed to prevent."
-  translational: "Not a gut feeling and not private spiritual intuition. Closer to a trained clinical judgment, formed relationally, suspicious of its own confidence."
+  personal: You learned discernment under an elder's eye. It aimed first at self-deception, because your own judgment is what excess and vanity spoil. It was there to stop you trusting yourself without question.
+  translational: Not a gut feeling, and not a private hunch. It was closer to trained clinical judgment, formed with other people and wary of its own confidence.
 quick_meaning: "Judging rightly - how much, for whom, and whether you are fooling yourself."
 distortion_risk: medium
 use_note:

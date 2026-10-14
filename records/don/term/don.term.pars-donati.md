@@ -43,9 +43,9 @@ relations:
   target: don.term.ecclesia
 - type: associated-with
   target: don.term.caecilianist
-plain_meaning: Our clergy signed a formal petition as bishops 'of the party of Donatus'. Our rival seized on that
-  and said we had named a man instead of Christ's church. We do not read our own petition that way. A church may
-  be named for the man who led it back to purity.
+plain_meaning: Our clergy signed a formal petition as bishops 'of the party of Donatus'. Our rival seized
+  on that and said we had named a man instead of Christ's church. Whether we named ourselves that way
+  among ourselves, the record cannot say.
 world_word: pars Donati
 false_friend:
 - '''Donatist'' as a neutral scholarly label with no side taken'
@@ -61,11 +61,13 @@ senses:
     [PV]. What is thin is the other side of the pair: no vendored source gives this communion''s own everyday
     self-naming in its own words. Augustine''s usage, named twice in the construction record, has not
     been checked.'
-  personal: The name a movement is remembered by was given to it by the people who defeated it. That is not an
-    incidental irony here; it is the same asymmetry that governs almost everything else that survives.
-  translational: '''Didn''t they call themselves Donatists?'' -- in a legal petition, in a sense, once. Whether
-    that was how they named themselves among themselves is a question the surviving record cannot answer, because
-    the only voice that preserved the phrase preserved it as an accusation.'
+  personal: 'The name this movement is remembered by was given to it by the people who defeated it. That
+    is no small irony. It is the same thing that shaped almost everything else that survives: our enemies
+    held the pen.'
+  translational: '''Didn''t they call themselves Donatists?'' In legal petitions and court proceedings,
+    in a sense. Optatus says they used the phrase whenever they were questioned in court. Whether they named
+    themselves so among themselves, the record cannot say. The only voice that kept the phrase kept it as
+    an accusation.'
 quick_meaning: The party of Donatus -- the phrase our rival turned into a charge against us.
 distortion_risk: medium
 use_note:

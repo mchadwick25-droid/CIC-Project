@@ -32,15 +32,16 @@ exchange:
     The first is that we never settled our own rule against ourselves. We
     said, for a century, without qualification, that a sacrament from a
     broken line is nothing and must be given again. Then three hundred and
-    ten of our bishops condemned a breakaway party at Bagai in language about
-    shipwrecked men whose bodies cover the shore and cannot find so much as
-    burial — and afterwards took two of those same condemned bishops back
-    into office without baptizing or ordaining either one again. A general
-    came with soldiers to see it done. Not one line survives of anyone on our
-    side explaining how those two acts fit together, and we were not hiding
-    it: the exception sits in our own conciliar record, in the same documents
-    where the doctrine is at its most absolute. We seem to have been able to
-    hold both without feeling we owed anyone a reconciliation of them.
+    ten of our bishops condemned a breakaway party at Bagai in language
+    about shipwrecked men whose bodies cover the shore and cannot find so
+    much as burial — and afterwards took two of those same condemned bishops
+    back into office without baptizing or ordaining either one again. One of
+    our own bishops, Optatus Gildonianus, came with soldiers to see it done.
+    Not one line survives of anyone on our side explaining how those two
+    acts fit together, and we were not hiding it: the exception sits in our
+    own conciliar record, in the same documents where the doctrine is at its
+    most absolute. We seem to have been able to hold both without feeling we
+    owed anyone a reconciliation of them.
 
 
     The second is that our founding generation could not answer its own
@@ -49,20 +50,20 @@ exchange:
     Then someone turned the question back on the man presiding. The room
     could not finish. They reserved the matter to the Lord and sat down. The
     men who would make a bishop's purity the test of whether a sacrament
-    exists at all found that test unusable on themselves within the hour.
+    exists at all found that test unusable on themselves.
 
 
-    The third we can show you in our own handwriting, because a court read it
-    out. When a charge came against one of our bishops, another wrote urging
-    him to settle it quietly before the flame burst out — and added, in the
-    same letter, that he knew the accusation was true. Every one of those
-    letters ends the same way. Let no one learn of it.
+    The third we can show you in our own handwriting, because a court read
+    it out. When a charge came against one of our bishops, another wrote
+    urging him to settle it quietly before the flame burst out — and added,
+    in the same letter, that he knew the accusation was true. Several of
+    those letters end the same way. Let no one learn of it.
 
 
-    And underneath all three: we produced one man who could think, and we
-    silenced him. He argued from Scripture that the church is spread across
-    the whole earth. Our own bishop told him never to preach it again. He did
-    not recant and he did not leave, and we cut him off, and his book
+    And underneath all three: a man among us argued from Scripture that the
+    church is spread across the whole earth. Our own bishop told him never
+    to preach it again. He did not recant and he did not leave. It is
+    reported that we cut him off, and we never took him back. His book
     outlived us in the hands of the church that beat us.
 ---
 Worked exchange for F6-I, the cell this world answers most strongly - and

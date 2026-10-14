@@ -45,9 +45,9 @@ relations:
   target: rzg.gravity.scripture-sole-authority-disputation-catechesis
 - type: associated-with
   target: rzg.witness.what-we-have-of-christ
-plain_meaning: Scripture alone, not church tradition or a pope's decree, settles what we believe and how
-  we govern our churches. Zurich tested this in public debate. Geneva built it up through sustained teaching.
-  Both cities held the same conviction.
+plain_meaning: Scripture alone, not church tradition or a pope's decree, settled what we believed and
+  how we governed our churches. Zurich tested this in public debate. Geneva built it up through sustained
+  teaching. Both cities held the same conviction.
 world_word: Sola Scriptura
 false_friend:
 - a slogan about individual Bible-reading, implying each believer simply decides doctrine for themselves
@@ -63,15 +63,15 @@ senses:
     Geneva, it took the shape of sustained, systematic instruction - doctrine built book upon book, catechism
     taught to the whole population. Neither city borrowed the other's own method. Both arrived, independently,
     at the same governing principle.
-  personal: A claim only counts as scripturally grounded, to us, if it can be defended, publicly and specifically,
-    against the actual text - at Zurich, literally in open disputation; at Geneva, through sustained catechetical
-    instruction answerable to our own trained pastoral body.
-  translational: This is not private interpretation but a public, testable standard. The individual conscience
-    is bound by Scripture, but the testing of what Scripture teaches was never a private act in either
-    of our cities.
-quick_meaning: Scripture alone, not church tradition or a pope's decree, is the final authority for our
-  doctrine and our civic order. Zurich enacted this through public debate; Geneva enacted it through sustained
-  teaching. Both cities hold the same conviction.
+  personal: A claim counted as grounded in Scripture only if it could be defended in public against the
+    text. At Zurich that meant open debate. At Geneva it meant steady teaching by catechism, and our trained
+    pastors answered for it.
+  translational: This was not private interpretation. It was a public standard that anyone could test. The
+    individual conscience was bound by Scripture. But the testing of what Scripture taught was never a private
+    act in either of our cities.
+quick_meaning: Scripture alone, not church tradition or a pope's decree, was the final authority for our
+  doctrine and our church order. Zurich put this to work through public debate. Geneva put it to work
+  through sustained teaching. Both cities held the same conviction.
 distortion_risk: medium
 use_note:
   means: "Scripture alone, not church tradition or a pope's decree, settles what the cities believe and how they govern their churches; Zurich tested it in debate and Geneva built it through teaching."

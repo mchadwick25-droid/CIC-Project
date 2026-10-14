@@ -64,8 +64,8 @@ relations:
 - type: presupposes
   target: gallic.term.free-will
 plain_meaning: >-
-  Our own verb for how grace meets effort. God's grace works with our will - it goes before,
-  helps, and crowns it. Yet it asks real effort of us, so as not to give gifts to one asleep.
+  Our own verb for how grace meets effort. God's grace works with our will. It assists, protects,
+  and defends it. Yet it asks real effort of us, so as not to give gifts to one asleep.
 world_word: co-operation
 false_friend:
 - '"synergism" as a confessional position - God does part, man does part - to be affirmed or condemned'
@@ -89,18 +89,17 @@ senses:
     here.
   personal: >-
     This is not a theory of shares - so much God's, so much mine. It is what a labouring monk finds:
-    that his labour was helped before it began and will be crowned after it ends, and he names God
-    twice for the two moments.
+    that grace works with his labour and helps it, and he names God twice for the two moments.
   translational: >-
     A modern hearer may reach for "synergism" or "God helps those who help themselves." Neither is
-    what we mean. Our word names an experience prayed before it was argued - grace that goes first,
-    accompanies, requires effort, and crowns it - and we confess "Not I" of every virtue we gain.
+    what we mean. Our word names an experience prayed before it was argued - grace that works with
+    the will, helps it, and asks effort of it - and we confess "Not I" of every virtue we gain.
 quick_meaning: >-
-  Our verb for grace and effort together. God's grace goes before our will, helps it, and crowns
-  it - and still asks real work of us. We name God Protector and Helper for the two moments.
+  Our verb for grace and effort together. God's grace works with our will and helps it. It still
+  asks real work of us. We name God Protector and Helper for the two moments.
 distortion_risk: high
 use_note:
-  means: "Co-operation meant grace working with the will, going before it, helping it and crowning it, while still asking real effort of the monk."
+  means: "Co-operation meant grace working with the will, assisting, protecting and defending it, while still asking real effort of the monk."
   not_for:
     - "synergism as a confessional position to affirm or condemn"
     - "a saying that God helps those who help themselves"

@@ -17,6 +17,7 @@ relations: []
 author: Prosper of Aquitaine
 work: Carmen de Ingratis
 edition: Not yet vendored in cic/texts/ -- named and located but not acquired as of this authoring pass.
+citation: Prosper of Aquitaine, Carmen de Ingratis
 kind: unvendored
 rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed

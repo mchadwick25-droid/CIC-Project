@@ -23,6 +23,7 @@ author: Andre Mandouze
 work: 'Prosopographie chretienne du Bas-Empire, I: Prosopographie de l''Afrique chretienne (303-533) (Paris:
   CNRS, 1982)'
 edition: CNRS, 1982 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
+citation: 'Andre Mandouze, Prosopographie chretienne du Bas-Empire, I: Prosopographie de l''Afrique chretienne (303-533) (CNRS, 1982)'
 kind: unvendored
 rights_status: "in-copyright modern scholarship; consultation-only, never vendored. Cited and paraphrased, never quoted as licensed vendored material - a bibliographic record only"
 attribution_status: attributed

@@ -30,8 +30,8 @@ sources:
     Mesopotamia'; Book III heading and III.1 (iv.iii.iii.i): the daily office 'according to the rule of the
     monasteries of Palestine and Mesopotamia'; III.4 (iv.iii.iii.iv), the chapter's own title: 'How the Mattin
     office was not appointed by an ancient tradition but was started in our own day' - at Bethlehem, 'after long
-    discussion'; I.10 dress refitted for the cold; II.8 the Gallic Gloria; IV.2 no one keeping the probation
-    'even for a year'"
+    discussion'; I.10 dress refitted for the cold; II.8 the Gallic Gloria; IV.2 no one recalled keeping
+    the fathers' perseverance 'unbroken even for a year'"
   license: public-domain
 - source_id: gallic.source.cassian-conferences-part-ii
   locus: "XV.7 (iv.v.vi.vii): 'the excellence of gifts consists not in miracles but in humility'; the fathers
@@ -79,10 +79,10 @@ held_against:
   independently, but at Inferential-Thin wording; and Doc_04 section 7 hands the received content
   itself to desert-monasticism as that world's own.
 - >-
-  The reception was partial by Cassian's own admission - no one in Gaul kept the Egyptian probation
-  "even for a year" (Inst. IV.2), the dress was refitted for the cold (I.10), the Gloria was sung as the
-  East never heard (II.8) - so what the south "received" was already Gaul's adaptation, which Doc_05
-  section 7.2 identifies as the only part of Cassian that is this world's own.
+  The reception was partial by Cassian's own admission - he could not recall anyone in the Gallic
+  monasteries keeping the Egyptian perseverance "unbroken even for a year" (Inst. IV.2), the dress was
+  refitted for the cold (I.10), the Gloria was sung as the East never heard (II.8) - so what the south
+  "received" was already Gaul's adaptation, the only part of Cassian that is this world's own.
 - >-
   The split itself is a permanent qualifier, not a settled finding. Doc_04 classified G2 Primary "with
   the split-mode finding stated as a permanent qualifier," named the split-mode risk at generation and

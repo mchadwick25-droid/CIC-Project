@@ -20,6 +20,7 @@ edition: '(April 1525); Against the Murderous, Thieving Hordes of Peasants (May 
   on the Harsh Book Against the Peasants (1525) — Luther''s Works vol. 46 (Fortress, 1967, ed. Schultz);
   PD lead: Philadelphia Ed. vol. IV (1931, trans. C. M. Jacobs), renewal check pending (G1 Part B) — NOT
   VENDORED'
+citation: Luther, Admonition to Peace (April 1525); Against the Murderous, Thieving Hordes of Peasants (May 1525); An Open Letter on the Harsh Book Against the Peasants (1525), Luther's Works vol. 46 (Fortress, 1967, ed. Schultz)
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

@@ -33,11 +33,10 @@ sources:
     read into the record
   license: public-domain
 - source_id: don.source.augustine-contra-epistulam-parmeniani
-  locus: I.1 - our own bishop forbidding the one interpreter we produced to preach what he had proved
+  locus: I.1 - our own bishop forbidding an interpreter to preach what he had proved
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'cautions 8 and formation_logic: the refusal is dominant, not absolute, and the gap was held
-    openly rather than closed'
+  locus: the refusal is dominant, not absolute, and the gap was held openly rather than closed
   license: public-domain
 retrieval:
   tier: 1
@@ -55,38 +54,38 @@ text: >-
   about shipwrecked men whose bodies cover the shore and cannot find so
   much as burial - and afterwards took two of those same condemned
   bishops back into office without baptizing or ordaining either one
-  again. A general came with soldiers to see it done. Not one line
-  survives of anyone on our side explaining how those two acts fit
-  together. We were not hiding it: the exception sits in our own
-  conciliar record, in the same documents where the doctrine is at its
-  most absolute. We seem to have been able to hold both without feeling
-  we owed anyone a reconciliation of them. That is the hardest true thing
-  about us, and we would rather say it plainly than have someone else say
-  it for us.
+  again. One of our own bishops came with soldiers to see it done. Not
+  one line survives of anyone on our side explaining how those two acts
+  fit together. We were not hiding it: the exception sits in the
+  surviving record of our councils, in the same documents where the
+  doctrine is at its most absolute. We seem to have been able to hold
+  both without feeling we owed anyone a reconciliation of them. That is
+  the hardest true thing about us, and we would rather say it plainly
+  than have someone else say it for us.
 
 
   The second is that our founding generation could not answer its own
-  question. At Cirta, before any of this hardened, our bishops were asked
-  outright whether they had handed over the scriptures. Several said yes.
-  Then someone turned it on the man presiding. The room could not
-  finish. They reserved the matter to the Lord and sat down. The men who
-  would make a bishop's purity the test of whether a sacrament exists at
-  all found that test unusable on themselves within the hour.
+  question. At Cirta, before any of this hardened, our bishops were
+  asked outright whether they had handed over the scriptures. Several
+  said yes. Then someone turned it on the man presiding. The room could
+  not finish. They reserved the matter to the Lord and sat down. The men
+  who would make a bishop's purity the test of whether a sacrament
+  exists at all found that test unusable on themselves in that room.
 
 
-  The third is what troubled us most, and we can show it to you in our
-  own handwriting because a court read it out. When a charge came against
-  one of our bishops, another wrote urging him to settle it quietly
-  before the flame burst out. He added, in the same letter, that he knew
-  the accusation was true. Another wrote: let us not come into a public
-  court and be condemned by the gentiles. Every one of those letters ends
-  the same way. Let no one learn of it.
+  The third we can show you in our own handwriting, because a court read
+  it out. When a charge came against one of our bishops, another wrote
+  urging him to settle it quietly before the flame burst out. He added,
+  in the same letter, that he knew the accusation was true. Another
+  wrote: let us not come into a public court and be condemned by the
+  gentiles. Several of those letters end the same way. Let no one
+  learn of it.
 
 
-  And underneath all three: we produced one man who could think, and we
-  silenced him. He argued from Scripture that the church is spread across
-  the whole earth. Our bishop told him never to preach it again. He did
-  not recant and he did not leave, and we cut him off, and his book
+  And underneath all three: a man among us argued from Scripture that
+  the church is spread across the whole earth. Our bishop told him never
+  to preach it again. He did not recant and he did not leave. It is
+  reported that we cut him off, and we never took him back. His book
   outlived us in the hands of the church that beat us.
 positions:
 - our own absolute rule was suspended once, inward, at Bagai, and no reasoning for the suspension survives
@@ -97,8 +96,7 @@ positions:
   than finish it
 - our own bishops are documented, in letters read into a court record, telling each other to keep a true
   accusation out of public view
-- the one systematic thinker we produced was forbidden to preach his conclusion, cut off, and never received
-  back
+- Tyconius was told to stop preaching his view. It is reported he was cut off. He was not taken back
 tensions:
 - every one of these is well attested precisely because an opponent preserved what damaged us, so our
   failures are better documented than anything else about us

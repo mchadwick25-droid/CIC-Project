@@ -19,16 +19,14 @@ confidence:
     its documented existence.'
 sources:
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
-  locus: Christian Nobility, cited among this entry's Registry rows (Doc_06 SS5 entry 7.4)
+  locus: Christian Nobility
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
   locus: the Eight Wittenberg Sermons -- 'I did nothing; I left it to the Word'
   license: public-domain
 - source_id: witt.source.luther-earnest-exhortation-for-all-christians-warning
-  locus: "Earnest Exhortation, opening only -- 'the common man has been brooding over the injury he has
-    suffered'. Admonition to Peace (1525), cited among this entry's Registry rows (Doc_06 SS5 entry 7.4)
-    for context only, is not independently vendored anywhere in this library -- disclosed here rather
-    than cited as a source"
+  locus: >-
+    Earnest Exhortation, opening only -- 'the common man has been brooding over the injury he has suffered'
   license: public-domain
 retrieval:
   tier: 2

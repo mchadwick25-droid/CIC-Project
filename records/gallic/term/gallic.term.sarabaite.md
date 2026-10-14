@@ -73,8 +73,8 @@ senses:
     used inside our houses, for a specific failure: renunciation performed in public and never
     submitted to an elder.
 quick_meaning: >-
-  Cassian's third kind of monk, "rightly named" by Egypt. He renounces the world for show, lives
-  two or three together, and answers to no elder. A monk without a boundary.
+  Cassian's third kind of monk, "rightly named" by Egypt. He renounces the world for show, lives two
+  or three together, and answers to no elder. He is his own master.
 distortion_risk: low
 use_note:
   means: "Sarabaite was Egypt's name, kept by Cassian, for the false third kind of monk who renounces for show, lives two or three together and answers to no elder."

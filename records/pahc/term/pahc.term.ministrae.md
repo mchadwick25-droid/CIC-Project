@@ -35,29 +35,28 @@ relations:
   target: pahc.term.hetaeria
 - type: associated-with
   target: pahc.term.pertinacia
-plain_meaning: 'The Latin word a Roman magistrate used for two enslaved women he tortured -
-  Christians in some recognized service. What they themselves called that service, no one kept.'
+plain_meaning: The Latin word a Roman governor used for two enslaved women he had tortured. They were
+  Christians in some known service. What they called it themselves, no one kept.
 world_word: ministrae (Pliny's word, not the community's own)
 distortion_risk: high
 false_friend:
 - deaconess as a settled office title (the equivalence with diakonos is not established)
 - evidence that the community was egalitarian in a modern sense - or that women held nothing (both overclaim)
 senses:
-  informational: 'The word comes from outside: Pliny, governor of Bithynia, tortured two enslaved
-    women "who were called deaconesses (ministrae)" to find out what Christians actually did. The word is his.
-    What he names is real: women held service in that church important enough that its interrogator
-    chose them as the ones who would know.'
-  evidential: 'One sentence in one outside letter. Whether ministrae translates diakonos, whether it
-    names an office at all, whether their service matched any other community''s - this world''s own
-    voices never say. The women''s own words were extracted under torture and not even those were
-    recorded; what survives is what their torturer chose to report.'
-  personal: 'Here the record''s honesty is the content: two women served, were seized, were
-    tortured, and vanished from history unnamed. A world that will not invent their voices can still
-    refuse to let their existence be forgotten.'
-  translational: 'The modern question - could a woman carry real authority among you, and what did
-    it cost her? - meets this world''s hardest evidence exactly here: a real glimpse of women''s
-    recognized service, held inside a report produced by torture, with everything modern curiosity
-    wants to know unrecorded.'
+  informational: 'The word comes from outside: Pliny, governor of Bithynia, tortured two enslaved women
+    "who were called deaconesses (ministrae)" to find out what Christians actually did. The word is his.
+    What he names is real: women held service in that church important enough that its interrogator chose
+    them as the ones who would know.'
+  evidential: One sentence in one outside letter. Whether ministrae translates diakonos, whether it names
+    an office at all, whether their service matched any other community's - this world's own voices never
+    say. The women's own words were extracted under torture and not even those were recorded; what survives
+    is what their torturer chose to report.
+  personal: Two women who served their church were questioned under torture. The record keeps no name
+    and no word of theirs.
+  translational: 'The modern question - could a woman carry real authority among you, and what did it
+    cost her? - meets this world''s hardest evidence exactly here: a real glimpse of women''s recognized
+    service, held inside a report produced by torture, with everything modern curiosity wants to know
+    unrecorded.'
 quick_meaning: A Roman magistrate's word for two enslaved Christian women he tortured. They served their church in some recognized way. Their own account of it was never kept.
 use_note:
   means: "The Latin word a magistrate used for two enslaved women he tortured, Christians in some recognized service whose own name for it was not kept."

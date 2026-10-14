@@ -16,6 +16,7 @@ sources: []
 author: "Origen (c. 185-254 CE)"
 work: "Commentary on the Gospel of Matthew, fragments of Books I and II, and Books X-XIV in full (the surviving translated material). Books I and II in this edition are short fragments, not full books; X-XIV are full books"
 edition: "trans. John Patrick, Ante-Nicene Fathers vol. 9 (1896, ed. Allan Menzies), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+citation: Origen, Commentary on the Gospel of Matthew, trans. John Patrick, ed. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

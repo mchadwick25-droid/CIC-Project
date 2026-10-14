@@ -19,10 +19,17 @@ confidence:
     evidence that any actual Saxon congregation was in fact cold, ignorant, or negligent.
 sources:
 - source_id: witt.force.parishes-state-as-reported
-  locus: "'an ass can almost intone the lessons... God does not want hearers and repeaters of words, but doers and followers' (v2 14676-14688); 'we see to our sorrow that many pastors and preachers are very negligent' (LC 51-52); Katharina von Bora's own question about coldness in prayer (TT 3147-3150)"
+  locus: >-
+    'an ass can almost intone the lessons... God does not want hearers and repeaters of words, but doers
+    and followers' (Eight Wittenberg Sermons, 1522); 'we see to our sorrow that many pastors and preachers
+    are very negligent' (Large Catechism, preface); Katharina von Bora's question about coldness in prayer
+    (Table Talk)
   license: public-domain
 - source_id: witt.story.household-and-kate-on-prayer
-  locus: "Luther's own answer to the coldness question, verified verbatim there against cic/texts/luther_table-talk_bell1886.txt lines 3143-3152 -- 'the devil drives on his own servants continually, diligent in their false worship... but we, indeed, are ice cold therein, and negligent'"
+  locus: >-
+    Luther's answer to the coldness question in the Table Talk: 'the devil driveth on his servants continually;
+    they are diligent, and take great pains in their false worshipping, but we, indeed, are ice cold therein,
+    and negligent'
   license: public-domain
 retrieval:
   tier: 2
@@ -32,31 +39,25 @@ retrieval:
   - "participant asks what our people would have made of someone like the participant specifically -- retrieve witt.demo.someone-like-me instead, the identity-collision content this record does not repeat"
   - "participant means whether a woman could carry real authority among us -- our record does not answer that honestly beyond a single question, per witt.voice.craft's own declined-cells reasoning"
 text: >-
-  Hypocrites among those who taught the faith: that happened among us, and we will not pretend it did not. Our own founder said, more than once, across a
-  whole decade, that it happened -- not about strangers, but about
-  pastors and preachers of our own. In one parish he said flatly that a
-  donkey could intone the lessons about as well as the people repeating
-  them, because God wants doers, not repeaters of words. Years later,
-  writing for the whole territory, he said plainly that many pastors were
-  negligent, and that ordinary people held the Gospel far too lightly.
-  That is not a stranger's accusation. That is our own founder's own
-  complaint, said in his own voice, more than once.
+  Our own founder said, more than once, that the faith was failing among us, among those who taught it
+  and those who heard it, and we will not hide that he said so. He did not speak of strangers. He spoke
+  of pastors and preachers of our own. In 1522 he told his own Wittenberg congregation that an ass can
+  almost intone the lessons, because God wants doers, not repeaters of words. In 1529, in his Large Catechism,
+  he said plainly that many pastors were negligent, and that ordinary people held the Gospel far too lightly.
+  That is not a stranger's accusation. That is our own founder's own complaint, said in his own voice,
+  more than once.
 
-  We must be careful here, and honest about the shape of what we
-  actually hold. That testimony is his own -- real, and said more than
-  once -- but it is testimony, not a report from any actual parish
-  standing beside it to check it against. We do not have the records that
-  would tell us whether he was right about how bad it really was, only
-  that he believed it and said so.
+  We need to be careful here. That testimony is his own. It is real, and he gave it more than once, but
+  it is testimony. No report from an actual parish stands beside it to check it against. We do not have
+  the records that would tell us whether he was right about how bad it really was, only that he believed
+  it and said so.
 
-  On this same question of coldness, we hold one more voice, briefer,
-  closer to home. At our founder's own table, his wife Katharina asked why some
-  prayed with such fervor under the old system while we, under the new
-  one, prayed so coldly and carelessly. Our founder answered her plainly:
-  the devil drives his own servants hard, and they take great pains at
-  their false worship, while we, at the true one, grow ice-cold and
-  negligent. That answer is real, given at his own table to someone who
-  lived closest to him, and it was thought worth remembering.
+  On this same question of coldness, we hold one more voice, briefer, closer to home. At our founder's
+  own table, his wife Katharina asked why some prayed with such fervor under the old system while we,
+  under the new one, prayed so coldly and carelessly. Our founder answered her plainly: the devil drives
+  his own servants hard, and they take great pains at their false worship, while we, at the true one,
+  grow ice-cold and negligent. That answer comes down to us in the notes kept at his table, though the
+  exact words are not certain.
 positions:
 - "our own founder testified, more than once and across a decade, that pastors were negligent and that ordinary people held the Gospel too lightly -- not a stranger's charge, but his own"
 - "that testimony is real, but it is testimony, not a verified report from any actual parish -- we do not let it stand as proof of what any specific congregation was actually like"

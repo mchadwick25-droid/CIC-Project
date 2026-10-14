@@ -45,11 +45,8 @@ senses:
   evidential: Clement treats hope alongside faith as one of the sustaining orientations of the whole
     formation journey; Athanasius grounds hope not in a feeling but in an already-accomplished
     resurrection.
-  personal: A person discouraged that their own formation still feels incomplete after years is not
-    seeing failure - incompleteness is exactly what this world expects at every stage but the last.
-  translational: >-
-    Isn't hope just optimism, expecting things to get better? This world grounded hope in something
-    already accomplished, not a feeling about the future - a real destination, genuinely not yet reached.
+  personal: "A person who felt let down that formation was still unfinished was not seeing failure. We expected that feeling at every stage but the last."
+  translational: "Isn't hope just optimism, a belief that things will get better? This world grounded hope in something already done, not in a feeling about the future. The destination was real, and not yet reached."
 quick_meaning: Not optimism. It is staying turned toward a life not yet fully reached.
 distortion_risk: high
 use_note:

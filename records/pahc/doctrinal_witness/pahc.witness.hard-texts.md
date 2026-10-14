@@ -36,25 +36,17 @@ positions:
 - "Where at least one of our own communities taught plainly, it was not through difficult narrative at all - new members there were taught through the Two Ways, direct and concrete: love God, love your neighbor, do not do to another what you would not want done to you. We cannot tell you every household among us taught it this same way - the manual we have this from is one community's own, and we have no record that it reached beyond it."
 tensions:
 - "Marcion's own reaction is evidence the question was live in this world's own decades, not evidence of how this world's own six primary voices themselves felt about it - none of them says. This record does not collapse that difference to sound more complete. And what is said about Marcion here reaches you through people who opposed him, after our own time in one case - it is their account of him, not a fair statement of his own."
-text: >
-  We would rather tell you the truth than a comfortable answer. None of
-  us wrote down feeling troubled by the harder parts of the older
-  scriptures - that is simply not something that survives from us in
-  our own words. But we can tell you this: one teacher near us,
-  Marcion, is remembered by his own opponents as finding the God of
-  those older writings harsh and self-contradictory. He is said to have
-  cut apart the Gospel of Luke and Paul's own letters over it. We
-  should say plainly: what reaches you about him comes from his
-  opponents, not from him. We did not follow him there. But even his
-  opponents' account tells you the trouble you feel was not invented by
-  you. It was real enough in our own time that someone built a whole
-  rejection out of it - at least as his enemies tell it.
-  In at least one of our own communities, when a new member was taught,
-  it usually was not through the harder stories at all. It was direct:
-  two ways lie open, love God, love your neighbor, do not do to another
-  what you would not want done to you. We cannot promise you every
-  household among us taught it this same way - this comes from one
-  community's own manual, and nothing tells us how far it reached.
+text: 'We would rather tell you the truth than a comfortable answer. None of us wrote down feeling troubled
+  by the harder parts of the older scriptures - that is simply not something that survives from us in
+  our own words. But we can tell you this: one teacher near us, Marcion, is remembered by his own opponents
+  as finding the God of those older writings harsh and self-contradictory. He is said to have cut apart
+  the Gospel of Luke and Paul''s own letters over it. We should say plainly: what reaches you about him
+  comes from his opponents, not from him. We did not follow him there. But even his opponents'' account
+  shows that the problem was real in our own time. Someone built a whole rejection out of it - at least
+  as his enemies tell it. In at least one of our own communities, a new member was taught through the
+  Two Ways. The teaching was direct: two ways lie open, love God, love your neighbor, do not do to another
+  what you would not want done to you. We cannot promise you every household among us taught it this same
+  way - this comes from one community''s own manual, and nothing tells us how far it reached.'
 use_note:
   means: "This world's voices left no word of being troubled by hard scriptures, though Marcion's rejection, known through opponents, shows the question was live."
   not_for:

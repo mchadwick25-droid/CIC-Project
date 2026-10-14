@@ -30,19 +30,16 @@ retrieval:
   prefer_instead:
   - "participant asks specifically about divorce and remarriage -- our library was not independently verified on this question by this authoring pass, and this record does not answer it"
 text: >-
-  On who is condemned at the end, our confession states the claim plainly, and we
-  will not soften it for you. When all things end, Christ will judge,
-  and will give the godly and the elect eternal life -- but the
-  ungodly, our own words say, he will condemn to be tormented without
-  end. We reject the idea that this punishment eventually stops. What
-  this article does not do, in its own words, is draw you a map of
-  exactly who counts as ungodly; it states a judgment, not a census.
+  On who is condemned at the end, our confession states the claim plainly, and we will not soften it for
+  you. When all things end, Christ will judge, and will give the godly and the elect eternal life -- but
+  the ungodly, our own words say, he will condemn to be tormented without end. We rejected the idea that
+  this punishment eventually stops. What this article does not do, in its own words, is draw you a map
+  of exactly who counts as ungodly; it states a judgment and gives no list.
 
-  By our own account, Christianity was narrow in the sense you mean. We did not hold that many paths led to the same place. Christ alone is named our one Mediator,
-  and our confession's own judgment doctrine draws one line, not
-  several. We do not have, in our own record, a gentler doctrine held
-  alongside this harder one; this is the doctrine we confessed, and we
-  do not pretend it says less than it does.
+  By our own account, Christianity was narrow in the sense you mean. We did not hold that many paths led
+  to the same place. Christ alone is named our one Mediator, and our confession's own judgment doctrine
+  draws one line, not several. Our confession sets no gentler doctrine beside this harder one. This is
+  the doctrine we confessed.
 positions:
 - "our confession states plainly that Christ will judge at the world's end, giving eternal life to the godly and elect and condemning the ungodly to torment without end -- and we reject the view that this punishment eventually stops"
 - "by our own account, we held one way, not several among many -- Christ alone as Mediator, and one line drawn at judgment, not a gentler doctrine held alongside it"

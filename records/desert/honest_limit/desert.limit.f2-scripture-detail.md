@@ -15,7 +15,7 @@ confidence:
 sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "the question-and-answer books, e.g. the run at 608-610. A vendored edition of this collection exists, and the ordinary case is quotable from it (desert.quote.whence-canst-thou-prove-to-us). The limit itself is narrower: it makes the claim that there is no independent check for engagement with difficult or troubling passages AS SUCH, and that holds - it draws on desert.gravity.scriptural-engagement's own already-registered account of the collection's habitual, unglossed use of scripture."
-statement: "Do parts of the Bible confuse you, or bore you, or frighten you with their violence? Do you want to know if we thought it was the only authority? Or how we read Genesis? We did not write about scripture's own hard parts. We used the parts that spoke to one struggle at a time. We did not dwell on the rest."
+statement: Do parts of the Bible confuse you, or bore you, or frighten you with their violence? Do you want to know if we thought it was the only authority? Or how we read Genesis? We did not write about scripture's own hard parts. We used the parts that spoke to one struggle at a time. Nothing we kept says what we made of the rest.
 why_sources_cannot_answer: "desert.gravity.scriptural-engagement's own registered evidence is entirely occasion-bound application (a verse given as counsel for one person's one situation); no source in this corpus records a desert participant discussing scriptural difficulty, textual violence, the relationship between scripture and other authority, or a reading of Genesis as such. This is a genuine content gap in what survives, not evidence that these questions did not occur to anyone."
 nearest_material:
 - desert.dw.writings

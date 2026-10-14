@@ -40,9 +40,10 @@ dates:
     recalling events "some forty years" past; the German Mass work he describes belongs to the mid-1520s
     (Luther's own effort to establish it), per his own account as quoted in Bacon's Introduction.
 narratable: true
-bridge_line: Luther's own musical collaborator, kept three weeks at Wittenberg while the two of them worked
-  out, tone by tone, how the Gospel and Epistle should be sung in German - the only participant in this
-  library's account of worship who was not Luther himself.
+bridge_line: >-
+  Johann Walter, Luther's musical collaborator. Luther kept him three weeks at Wittenberg to work out
+  how the Gospel and Epistle should be sung in German. His letter, written in old age, is our only account
+  of that work from someone other than Luther.
 relations:
 - type: associated-with
   target: witt.story.first-german-mass-sung

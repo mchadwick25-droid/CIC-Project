@@ -18,12 +18,11 @@ sources:
   license: public-domain
 text: "Mere abstention from evil things is not perfection— only if thou hast entered into thy ruined mind, and hast slain the serpent that lies under the mind beneath the surface of the thoughts, and burrows into what we call the secret chambers and storehouses of the soul and murders thee — for the heart is a deep gulf — only, I say, if thou hast killed him, and cast out all the uncleanness that was in thee."
 modern_rendering: >-
-  Just keeping away from evil things is not perfection. Real change means
-  entering your own broken mind and killing the snake that lives beneath the
-  surface of your thoughts. It burrows into what we call the soul's hidden
-  rooms and storehouses, and it murders you from there. For the heart is a
-  deep gulf. Only, I say, once you have killed it, and cast out all the
-  uncleanness that was in you.
+  Just keeping away from evil things is not perfection. Perfection comes only if you have
+  entered your own ruined mind and slain the serpent. That serpent lies under the mind, beneath
+  the surface of the thoughts. It burrows into what we call the secret rooms and storehouses of
+  the soul, and it murders you. For the heart is a deep gulf. Perfection comes only, I say, if
+  you have killed it and cast out all the uncleanness that was in you.
 speaker_or_author: "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown"
 license: verbatim
 modern_lens_note: "'Heart' here is not feeling as against thinking. It is the whole interior person including the part below what one can inspect - which is why the serpent is under the mind rather than in it. The vendored file had 'cast- out' as a scan artifact a few words later; repaired in the file, recorded in its header, and outside the text quoted here."

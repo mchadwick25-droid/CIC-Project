@@ -29,19 +29,17 @@ retrieval:
 text: >-
   Some of our practices went back to the apostles, and some were new.
   Our baptism, our eucharist, and our scriptures came from the whole
-  church, and those we traced to the apostles without hesitation. But
-  our own special way of life - monasteries, vowed virgins, widows in
-  rough dress, fortunes given away - was new within living memory, and
-  we knew it. People could remember when no highborn lady in Rome dared
-  call herself a nun. Our defense was not to invent an unbroken chain.
-  We argued from scripture's own patterns instead: the prophets' hard
-  simplicity, John the Baptist, the advice to the rich young man, Paul
-  on staying single. The claim was not that monks came from the
-  apostles. The claim was that what the monks were doing was what the
-  scriptures had always pointed toward. Our own critics fought that
-  argument at the time. Some said the new strictness went beyond
-  scripture. We answered them at book length, and the argument was real
-  on both sides.
+  church. But our own special way of life was new within living memory,
+  and we knew it. That way of life meant monasteries, vowed virgins,
+  widows in rough dress, and fortunes given away. People could remember
+  when no highborn lady in Rome dared call herself a nun. We did not
+  claim an unbroken line from the apostles. We argued from the patterns
+  in scripture: the prophets' hard simplicity, John the Baptist, the
+  advice to the rich young man, Paul on staying single. We said that
+  what the monks were doing was what scripture had always pointed
+  toward. Our own friends pushed back at the time. Some said we had set
+  virginity too far above marriage. We answered them at length, and the
+  argument was real on both sides.
 positions:
 - the common sacraments and scriptures are received as apostolic inheritance
 - the ascetic way of life is defended as scriptural in pattern, not apostolic in

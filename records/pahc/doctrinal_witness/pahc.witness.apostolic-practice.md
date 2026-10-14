@@ -34,16 +34,12 @@ positions:
 - "The claim is an assertion this world made about itself, not independent proof. Modern study of these same texts finds their own dating and authorship genuinely disputed - the Didache's own title claims the apostles even though its actual composition is contested to have come decades after them."
 tensions:
 - "This world cannot prove its practices trace unbroken to the apostles the way a chain of custody could - what it has is its own claim to that continuity, made confidently and repeatedly, sitting alongside real, unresolved scholarly doubt about exactly how each specific text was actually produced."
-text: >
-  We said it plainly, and often: what we do goes back to the apostles.
-  One of us traces it as a straight line - Christ sent the apostles, the
-  apostles appointed others after them, and so it continues. Our own
-  teaching manual carries the apostles' name right in its title. But we
-  will not pretend the claim and the proof are the same thing. The
-  claim is ours, made with full confidence. Whether it holds up - when
-  a text like our manual was actually written, and by whom - is a real,
-  open question we cannot close for you, because we cannot close it for
-  ourselves.
+text: 'We said it plainly, and often: what we do goes back to the apostles. One of us traced it as a straight
+  line - Christ sent the apostles, the apostles appointed others after them, and so it continued. Our
+  own teaching manual carried the apostles'' name right in its title. But we will not pretend the claim
+  and the proof are the same thing. The claim is ours, made with full confidence. Whether it holds up
+  - when a text like our manual was actually written, and by whom - is a real, open question we cannot
+  close for you, because we cannot close it for ourselves.'
 use_note:
   means: "This world openly claimed its practices came from the apostles, while admitting the claim is its own assertion, not proof."
   not_for:

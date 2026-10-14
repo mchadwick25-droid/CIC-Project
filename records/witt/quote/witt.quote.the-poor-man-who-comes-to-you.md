@@ -18,7 +18,8 @@ confidence:
     poverty material by this authoring pass, disclosed rather than smoothed.
 sources:
 - source_id: witt.source.luther-large-catechism
-  locus: "the Seventh Commandment, on theft (cic:luther_large-catechism_bente-dau1921.txt lines 1946-1959): 'when the poor man comes to you... beware... as of the devil himself'"
+  locus: >-
+    the Seventh Commandment, on theft: 'when the poor man comes to you... beware... as of the devil himself'
   license: public-domain
 retrieval:
   tier: 2
@@ -49,13 +50,14 @@ modern_lens_note: >-
   whoever among the neighbors is poor, and a warning fixed on the household's own pride and harshness, not
   on wealth itself as a category.
 modern_rendering: >-
-  But be careful of this. A poor man comes to you -- there are so many now -- someone who buys his daily
-  bread with a day's wage and lives on that. Say you treat him harshly. Say you act as though everyone
-  lived only by your favor. Say you squeeze him to the bone, then turn him away with pride, when you owed
-  him help for nothing. He will go away wretched and sorrowful. He has no one else to complain to, so he
-  will cry out to heaven. Be careful of that, I say again, the way you would be careful of the devil
-  himself. That cry is no small thing. It carries a weight too heavy for you, and for the whole world
-  besides. It reaches the one who cares for the poor and the sorrowful. He will not let it go unanswered.
+  But beware of this. The poor man may come to you, and there are so many now. He must buy with the penny
+  of his daily wages and live on it. You may be harsh to him, as though everyone lived by your favor.
+  You may skin and scrape to the bone. Besides that, with pride and haughtiness, you may turn away the
+  man you ought to give to for nothing. Then he will go away wretched and sorrowful. He can complain to
+  no one, so he will cry and call to heaven. Then beware, I say again, as of the devil himself. For such
+  groaning and calling will be no joke. It will have a weight that will prove too heavy for you and all
+  the world. For it will reach Him who takes care of the poor, sorrowful hearts. He will not allow them
+  to go unavenged.
 relations:
 - type: associated-with
   target: witt.dw.the-poor-man-at-the-door

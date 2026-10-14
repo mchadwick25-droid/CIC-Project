@@ -32,15 +32,16 @@ text: >-
   the question of where God was. We wrote from inside it. Rome fell in
   our own lifetime - the scholar's voice stuck in his throat as he
   dictated, and famine, he wrote, outran the sword. A daughter died
-  young of the very discipline her teachers had praised, and her mother
-  collapsed at the funeral while the crowd cursed the monks. An old
-  woman who had given everything away was beaten by soldiers demanding
-  treasure she no longer had. The monastery itself burned at the hands
-  of fellow Christians. Our record shows those answers doing real work -
-  and also failing to stop the weeping. What we never did was call the
-  weeping faithlessness. Our comfort letters argue and mourn at once.
-  Our holiest people are shown grieving hardest. Those are the answers
-  we give, and our sobs come with them. We kept both on purpose.
+  young, soon after taking up the ascetic life. At her funeral the crowd
+  said fasting had killed her and that the monks should be driven out of
+  Rome, while her mother was carried out fainting. An old woman who had
+  given everything away was beaten by soldiers demanding treasure she no
+  longer had, or so Jerome was told. Our monastery was pillaged and
+  partly burned by fellow Christians. Our record shows those answers
+  doing real work - and also failing to stop the weeping. Our comfort
+  letters argue and mourn at once. One of them pardons a mother's tears
+  and still asks her to hold them back. Our holiest people are shown
+  grieving too.
 positions:
 - suffering met with the tradition's answers - judgment, reward, the safety of the dead -
   openly argued

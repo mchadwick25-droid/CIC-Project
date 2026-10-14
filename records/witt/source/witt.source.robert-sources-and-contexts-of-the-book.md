@@ -17,6 +17,7 @@ relations: []
 author: Robert Kolb & James A. Nestingen (eds.)
 work: Sources and Contexts of the Book of Concord
 edition: (Fortress, 2001) — contains the English Confutation (R39)
+citation: Robert Kolb & James A. Nestingen (eds.), Sources and Contexts of the Book of Concord (Fortress, 2001)
 kind: unvendored
 rights_status: "In-copyright; not vendored - access blocked"
 attribution_status: attributed

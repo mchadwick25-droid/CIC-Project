@@ -17,13 +17,13 @@ confidence:
     or thin evidence stream.
 sources:
 - source_id: don.source.augustine-on-baptism-against-donatists
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'On Baptism, Against the Donatists: the Cebarsussi and Bagai sentences quoted directly'
   license: public-domain
 - source_id: don.source.augustine-answer-to-letters-of-petilian
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Answer to the Letters of Petilian: the Bagai decree quoted again'
   license: public-domain
 - source_id: don.source.augustine-letter-51-to-crispinus
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Letter 51 to Crispinus: Maximianist clergy restored without reordination, their baptism accepted'
   license: public-domain
 relations:
 - type: illustrated-by

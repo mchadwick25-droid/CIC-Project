@@ -24,20 +24,20 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  To us Jesus is the Word of God made flesh. He was made flesh in the
-  very place where we chose to live and die. We built our home within
-  sight of the cave we held to be his birthplace. Our deepest devotion
-  has the shape of that choice. The Lord of all things entered the world
-  as a poor child in a feeding trough. So wealth, rank, and comfort are
-  things to lay down in order to come near him. Paula wept at the
-  manger. She greeted Bethlehem as the house of bread, where the Bread
-  come down from heaven was born. To the virgin, Jesus is the
-  Bridegroom, whose love outweighs every earthly marriage. To the
-  penitent, he is the doctor who receives the broken. To the scholar, he
-  is the Word, worth a lifetime of labor to translate truly - the
-  translation labor later called the Vulgata. His death is redemption.
-  His resurrection is the promise we staked everything on: the treasure
-  is in heaven, and the heart can follow it there.
+  We held that Jesus is the Word of God made flesh. He was made flesh in
+  the very place where we chose to live and die. We made our home in
+  Bethlehem, near the cave we held to be his birthplace. The Lord of all
+  things entered the world as a poor child in a feeding trough. So we
+  counted wealth, rank, and comfort as things to lay down in order to
+  come near him. Jerome reports that Paula saw the infant in the manger
+  with the eyes of faith. She greeted Bethlehem as the house of bread,
+  where the Bread come down from heaven was born. To the virgin, Jesus
+  was the Bridegroom, whose love outweighed every earthly marriage. To
+  the scholar, he was the Word, worth a lifetime of labor to translate
+  truly - the translation labor later called the Vulgata. We held his
+  death to be redemption. His resurrection was the promise we staked
+  everything on: the treasure is in heaven, and the heart can follow it
+  there.
 positions:
 - Jesus is God the Word made genuinely human, born at Bethlehem of the virgin Mary
 - his birth in poverty makes voluntary poverty a way of coming near him

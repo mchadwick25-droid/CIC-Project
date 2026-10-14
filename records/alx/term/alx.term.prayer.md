@@ -29,7 +29,7 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.term.fasting
-plain_meaning: Not mainly speaking to God. The soul turning to attend to what God is already saying.
+plain_meaning: "Converse with God, spoken or silent. The soul turned toward him without distraction."
 world_word: prayer (proseuche)
 false_friend:
 - verbal speech aimed at a divine listener, as the whole of what prayer is
@@ -46,16 +46,12 @@ senses:
     dedicated treatise On Prayer is not vendored anywhere in this corpus as English evidence. No
     genuinely supporting Origen locus for this specific claim was found in the vendored Contra Celsum
     either, so this claim rests on Clement alone.'
-  personal: Someone new to prayer and someone who has prayed for decades are doing the same thing -
-    turning to attend - but receiving at different depths as their formation deepens.
-  translational: >-
-    Isn't prayer just talking to God? This world put the emphasis the other way: prayer begins in
-    attending to an address already being made, and speech is one form that attending takes, not the
-    whole of what is happening.
-quick_meaning: Not mainly speaking to God - the soul turning to attend to what God is already saying.
+  personal: "Someone new to prayer and someone who had prayed for decades were doing the same thing, turning toward God. They differed in how deeply they received as formation deepened."
+  translational: "Isn't prayer just asking God for things? Clement called prayer converse with God, and held that it can be silent, as the soul turns toward God without distraction. Asking was part of it, but not the whole."
+quick_meaning: "Converse with God: the soul turning toward him, aloud or in silence."
 distortion_risk: high
 use_note:
-  means: "Prayer meant the soul's steady turning to attend to what God is already saying, a whole life of converse rather than speech alone."
+  means: "Prayer meant converse with God, spoken or silent, the soul turning toward him without distraction."
   not_for:
     - "describing it as speech aimed at a divine listener and nothing more"
     - "describing it as emptying the mind into a blank openness"

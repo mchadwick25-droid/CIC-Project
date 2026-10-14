@@ -18,6 +18,7 @@ work: 'The Lausiac History - the chapter on Ephraim, ''the deacon of the Church 
   account of his last year, independently paralleling Sozomen III.16'
 edition: trans. W.K. Lowther Clarke (SPCK, 1918); vendored as cic/texts/palladius_lausiac-history_clarke1918.txt
   (the Ephraim chapter at file line 471)
+citation: Palladius, The Lausiac History, trans. W. K. Lowther Clarke (SPCK, 1918)
 kind: vendored
 work_id: palladius-lausiac-history
 rights_status: public-domain

@@ -18,6 +18,7 @@ relations:
 author: "Origen (c. 185-254 CE)"
 work: "De Principiis (On First Principles) - English of Rufinus's Latin translation, which softened some doctrinally suspect passages"
 edition: "trans. Frederick Crombie, Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+citation: Origen, De Principiis (On First Principles), trans. Frederick Crombie, Ante-Nicene Fathers vol. 4 (1885)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

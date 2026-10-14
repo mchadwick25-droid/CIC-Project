@@ -20,6 +20,7 @@ sources: []
 author: "Anonymous; transmitted under the name of Julius Africanus, on grounds the edition itself does not defend"
 work: "The Passion of St. Symphorosa and Her Seven Sons - a Roman martyr act set under Hadrian, in which a widow and her seven sons are killed one after another"
 edition: "Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml (div2 5.6)"
+citation: The Passion of St. Symphorosa and Her Seven Sons, Ante-Nicene Fathers vol. 6 (1886)
 kind: vendored
 rights_status: public-domain
 attribution_status: "disputed - the attribution to Africanus is the point still under ruling"

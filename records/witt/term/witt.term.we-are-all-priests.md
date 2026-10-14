@@ -17,20 +17,22 @@ confidence:
     argument (8712-8724, read this pass) attesting the same substance from the confessional voice.
 sources:
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
-  locus: Christian Nobility, opening only -- 'through baptism all of us are consecrated to the priesthood'
+  locus: >-
+    Christian Nobility, opening only -- 'through baptism all of us are consecrated to the priesthood'
   license: public-domain
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: Babylonian Captivity, cited among this entry's Registry rows (Doc_06 SS5 entry 6.2)
+  locus: Babylonian Captivity
   license: public-domain
 - source_id: witt.source.luther-ein-neues-lied-wir-heben
   locus: the hymns, Hymn V -- 'true priests of God's own making'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession XIV -- 'no one should publicly teach in the Church... unless he be regularly
+  locus: >-
+    the Augsburg Confession XIV -- 'no one should publicly teach in the Church... unless he be regularly
     called'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XIII, XXIV, read this pass -- 'an holy priesthood, to offer up spiritual sacrifices'
+  locus: the Apology XIII, XXIV -- 'an holy priesthood, to offer up spiritual sacrifices'
   license: public-domain
 retrieval:
   tier: 1
@@ -86,7 +88,7 @@ senses:
   translational: 'Do not hear this as a slogan for individualism or lay preaching without a call: we mean
     a consecration given to every Christian in baptism, exercised in one''s own house and station, with
     the public office reserved to those regularly called -- one priesthood, many offices, no higher estate.'
-quick_meaning: Baptism makes every believer a priest. Public preaching still needs a proper call.
+quick_meaning: Baptism makes every believer a priest. Preaching in public still needs a call.
 distortion_risk: high
 use_note:
   means: "'We are all priests' meant that baptism consecrates every Christian a priest with no rank among them, only different tasks, yet no public preaching without a call."

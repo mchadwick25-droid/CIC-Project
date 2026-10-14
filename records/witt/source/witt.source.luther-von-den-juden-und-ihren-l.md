@@ -20,6 +20,7 @@ edition: '(1543) — Luther''s Works vol. 47 (Fortress, 1971; trans. Martin H. B
   Sherman — G1 and the Wikipedia article agree once read together: Bertram translated the treatise, Sherman
   edited the volume; Revision 0''s "minor discrepancy" was not one and is closed, Round 1 C6) — NOT VENDORED,
   genuinely blocked (G1 Part B)'
+citation: Luther, Von den Juden und ihren Lügen / On the Jews and Their Lies (1543), Luther's Works vol. 47 (Fortress, 1971; trans. Martin H. Bertram, in vol. 47 ed. Franklin Sherman)
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed

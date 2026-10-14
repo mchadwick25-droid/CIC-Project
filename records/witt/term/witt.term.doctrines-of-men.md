@@ -16,23 +16,24 @@ confidence:
     read entire this pass.
 sources:
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
-  locus: the Ninety-Five Theses, cited among this entry's Registry rows (Doc_06 SS5 entry 3.4)
+  locus: the Ninety-Five Theses
   license: public-domain
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
-  locus: Christian Nobility, cited among this entry's Registry rows (Doc_06 SS5 entry 3.4)
+  locus: Christian Nobility
   license: public-domain
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: Babylonian Captivity, cited among this entry's Registry rows (Doc_06 SS5 entry 3.4)
+  locus: Babylonian Captivity
   license: public-domain
 - source_id: witt.source.luther-that-doctrines-of-men-are
   locus: That Doctrines of Men Are to Be Rejected -- the treatise's own title and rule
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- traditions 'instituted to propitiate God, to merit grace... are opposed
+  locus: >-
+    the Augsburg Confession -- traditions 'instituted to propitiate God, to merit grace... are opposed
     to the Gospel'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XV, read entire this pass -- traditions kept 'without superstition as civil customs'
+  locus: the Apology XV -- traditions kept 'without superstition as civil customs'
   license: public-domain
 retrieval:
   tier: 2

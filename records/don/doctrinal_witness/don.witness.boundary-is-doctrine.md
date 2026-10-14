@@ -48,15 +48,19 @@ tensions:
   our own returning Maximianist clergy, received back without repeating the washing or the ordination
   it otherwise requires. We name this rather than pretend the line has never wavered on our own side of
   it.
-text: 'Call yourself Catholic if you like; we will not grant it to you. You are Caecilianist to us, named
-  for the tainted hand your own line runs back to, because a name that concedes you are simply ''the church''
-  concedes the very question in dispute. This is not a quarrel over words for their own sake. Refusing
-  your name is the same act as refusing your sacraments: the boundary we draw and the doctrine we hold
-  are one line, seen from two sides. And we will tell you plainly that this naming fight runs both directions
-  -- you have turned our own petitions'' language against us, and one of our own preachers turned your
-  word back on you in the same breath. Nor will we tell you the line has always held even on our own side:
-  we drew it against clergy who left us and then let some of them back in without asking them to cross
-  it again. We say that too, because it is also true.'
+text: >-
+  You called yourselves Catholic, and we would not grant it to you. You
+  were Caecilianists to us, named for the tainted hand your own line ran
+  back to, because a name that conceded you were simply 'the church'
+  conceded the very question in dispute. It was not a quarrel over words
+  for their own sake. Refusing your name went with refusing your
+  sacraments: the boundary we drew and the doctrine we held were one
+  line, seen from two sides. The naming fight ran both ways. Optatus
+  quotes our own petition as signed 'of the party of Donatus', and he
+  turned that against us. One of our own preachers turned your word back on you, as the place where wrong goes
+  unpunished. Nor will we tell you the line always held on our own side.
+  We drew it against clergy who left us, and then let some of them back
+  in without asking them to cross it again.
 use_note:
   means: "Donatists refused their rival the name Catholic and called it Caecilianist, presenting the naming boundary and the refusal of its sacraments as one line seen from two sides."
   not_for:

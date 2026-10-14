@@ -37,35 +37,37 @@ relations:
   target: cappadocian.gravity.precision-reserve
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: the treatise's own account of its occasion - a doxology challenged, a friend's request for a fuller answer - is the treatise's own preface, by its named author, addressed to a named contemporary. The surrounding court-pressure context is independently documented elsewhere in this world's record. Contested (Doc_02 §5, debate 10) is why Basil measured his words as he did about the Spirit's plain divinity; that dispute is carried as the era's own open argument among allies, not resolved in the telling."
-tellable_as: "A bishop's small change to a familiar doxology draws challenge, and his answer becomes a book defending how the church's own worship carries its faith."
+tellable_as: >-
+  A bishop gives glory to the Father in two forms. In one, the Son and the
+  Holy Spirit share the glory with him. He is accused of bringing in new
+  words, and his answer becomes a book about how the church's own worship
+  carries its faith.
 text: >-
   In the years when the imperial court still pressed its own creed on the
-  churches, Basil, bishop of Caesarea, stood at the evening lamp-lighting and
-  gave glory - as the churches of his own country had received it - to the
-  Father, together with the Son, together with the Holy Spirit. Some who
-  heard it objected. The older, more familiar form gave glory to the Father
-  through the Son in the Spirit; this together-with, they said, claimed too
-  much. It was one preposition, and everyone understood it was not small: to
-  glorify the Spirit together with the Father and the Son is to place the
-  Spirit on the Creator's own side of the line, and there were courtiers in
-  those years ready to make a bishop pay for saying so. A younger bishop and
-  friend, Amphilochius of Iconium, asked him to set the whole argument down,
-  and the answer became a book. Basil examined the church's own giving of
-  glory, word by word, and behind the words, the church's own customs - for,
-  he argued, not everything the church holds came to it in writing. Which
-  direction to face in prayer, how to stand on the Lord's own day, the
+  churches, Basil, bishop of Caesarea, praying with his people, gave glory
+  in two forms: to the Father with the Son, together with the Holy Spirit,
+  and to the Father through the Son in the Spirit. Some who heard it
+  objected that his words were new and contradicted each other. The
+  difference lay in a few small words, and everyone understood it was not
+  small: to glorify the Spirit together with the Father and the Son is to
+  place the Spirit on the Creator's own side of the line. A younger bishop
+  and friend, Amphilochius of Iconium, asked him to set the whole argument
+  down, and the answer became a book. Basil examined the church's own giving
+  of glory, word by word, and behind the words, the church's own customs -
+  for, he argued, not everything the church holds came to it in writing.
+  Which direction to face in prayer, how to stand on the Lord's own day, the
   threefold immersion at baptism, the very words spoken over the water: no
   council had decreed any of this, and every church kept it, and it carried
   the faith as surely as any book did. The doxology under attack, he argued,
-  belonged to that same handed-down life. What is striking - and what his own
-  allies argued about at the time - is what he did not say. Pressed to
+  belonged to that same handed-down life. What is striking - and what his
+  own allies argued about at the time - is what he did not say. Pressed to
   declare outright, in one bare sentence, that the Spirit is God, Basil
   measured his words. He said it in the church's own way, through worship,
   through rank, through the Name spoken over the baptized, and he left the
   bare word unsaid, for the sake of the church's peace, while more urgent
   voices wanted the plain word spoken and his own friends defended his
-  restraint. The doxology held. Years later, when the bishops gathered again,
-  the faith was written the way we had already been singing it: the
+  restraint. The doxology held. Years later, when the bishops gathered
+  again, the faith was written the way we had already been singing it: the
   Spirit, who together with the Father and the Son is worshipped and
   glorified.
 absent_detail: "No record survives of how the worshippers who first objected understood what was at stake for themselves - only Basil's own account of the challenge and his own argument in reply."
@@ -77,13 +79,17 @@ modern_contrast: >-
   doctrinal claim - defending a preposition was, in this world's own
   accounting, defending the whole confession of who the Spirit is.
 use_note:
-  means: "Basil gave glory to the Father together with the Son and the Spirit, drew objections, and answered with On the Holy Spirit, which evidences worship as a carrier of doctrine."
+  means: Basil, praying with his people, gave glory to the Father in two forms, was accused of new and
+    contradictory words, and answered with On the Holy Spirit, which evidences worship as a carrier of
+    doctrine.
   not_for:
-    - "a claim that Basil plainly said the Spirit is God"
-    - "the objectors' own reasons, which do not survive"
-    - "the full argument from unwritten customs, which sits in cappadocian.term.paradosis"
-    - "a verbatim phrase from the treatise, since no rendering was checked"
-  years: {from: 375, to: 381}
+  - a claim that Basil plainly said the Spirit is God
+  - the objectors' own reasons, which do not survive
+  - the full argument from unwritten customs, which sits in cappadocian.term.paradosis
+  - a verbatim phrase from the treatise, since no rendering was checked
+  years:
+    from: 375
+    to: 381
   status: reviewed
 ---
 Derived fresh from Doc_09 entry #2 (Tier 1), checked against the legacy

@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: The Large Catechism
 edition: (1529), trans. Bente & Dau, Concordia Triglotta (1921); vendored as cic/texts/luther_large-catechism_bente-dau1921.txt
+citation: Luther, The Large Catechism (1529), trans. Bente & Dau, Concordia Triglotta (1921)
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

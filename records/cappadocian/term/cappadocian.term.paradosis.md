@@ -39,9 +39,11 @@ relations:
   target: cappadocian.term.martys-martyrion
 - type: associated-with
   target: cappadocian.term.symbolon
-plain_meaning: 'Some things the church holds were never written down: which way to face in prayer, when
-  to stand, how many times to dip someone being baptized. We argued these customs were not optional
-  extras. They were the apostles'' faith, passed down in practice instead of in text.'
+plain_meaning: >-
+  Some things the churches kept were never written down: which way to face
+  in prayer, when to stand, how many times to dip someone being baptized.
+  Basil argued these customs came from the apostles. He held that they
+  carried the faith in practice, with the same force as writing.
 world_word: paradosis (agraphos)
 false_friend:
 - '''tradition versus Scripture'' as two rival authorities'

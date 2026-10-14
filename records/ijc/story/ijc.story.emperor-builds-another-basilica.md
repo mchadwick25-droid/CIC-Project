@@ -50,11 +50,7 @@ text: >-
   one Constantine had built himself, for Catholic use. He wrote to the
   Numidian bishops about it. He did not order the buildings seized, and he did
   not send troops. He left the Donatists where they were, and he paid for
-  another church to be built for the Catholics - again at his own expense. He
-  also ordered that certain tax breaks the Donatists had maneuvered the
-  Catholic lower clergy out of should be restored. The most powerful man in
-  the world, in a dispute he had summoned two councils to settle, in the end
-  paid twice and let it lie.
+  another church to be built for the Catholics - again at his own expense. He also ordered that the Catholic lower clergy be freed again from forced public service. The Donatists had maneuvered them into it. In a dispute he had summoned two councils to settle, he in the end built a second church and let the matter rest.
 use_note:
   means: "In 330 Constantine left the Donatists holding a basilica he had built and paid for another for the Catholics rather than send soldiers."
   not_for:

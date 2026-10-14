@@ -17,6 +17,7 @@ author: Fergus Millar
 work: The Roman Near East, 31 BC - AD 337 (Harvard, 1993) - Osroene/Edessa as part of the Roman East's
   provincial fabric
 edition: consultation-only; no edition vendored
+citation: Fergus Millar, The Roman Near East, 31 BC - AD 337 (Harvard, 1993)
 kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: 'verified real, with the legacy Doc_02 SS4 calibration: a Roman historian, reliable

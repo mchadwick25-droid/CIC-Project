@@ -43,10 +43,8 @@ senses:
   evidential: 'Attested only through Jerome''s obituary for her; later tradition depends on
     him. The word itself came into Latin from Greek and was left in Greek - by the very
     scholar who elsewhere insisted on translation.'
-  personal: 'She carried men dying in the streets; she washed wounds others could not look
-    at. That is the picture this world chose to remember her by.'
-  translational: 'The ancestor of the hospital, at charity''s scale, not medicine''s: care
-    and shelter for the sick poor, funded from one renounced fortune.'
+  personal: "She carried sick people on her own shoulders. She washed wounds that even men could not bear to look at. This is the picture of her that Jerome left."
+  translational: "Closer to a charity house than to a modern hospital. It gave care and shelter to the sick poor, paid for from one renounced fortune."
 quick_meaning: Fabiola's hospital in Rome - the sick gathered in from the streets and cared
   for.
 distortion_risk: medium

@@ -19,10 +19,14 @@ confidence:
     this boundary carries is stated as an inference, not shown directly (witt.force.reformed-rival-by-absence).
 sources:
 - source_id: witt.quote.congregation-of-saints
-  locus: "the whole quote: 'one holy Church is to continue forever. The Church is the congregation of saints, in which the Gospel is rightly taught and the Sacraments are rightly administered'"
+  locus: >-
+    the whole quote: 'one holy Church is to continue forever. The Church is the congregation of saints,
+    in which the Gospel is rightly taught and the Sacraments are rightly administered'
   license: public-domain
 - source_id: witt.force.reformed-rival-by-absence
-  locus: "'Zwingli' and 'Marburg' return zero hits in all ten vendored files; 'the world's own experience of Marburg is NOT RECOVERABLE from this library'; 'they reject those that teach otherwise' (AC 322-324)"
+  locus: >-
+    Article X of the Augsburg Confession: 'they reject those that teach otherwise'; no text we hold names
+    Zwingli or Marburg, or tells how the argument there was lived
   license: public-domain
 retrieval:
   tier: 2
@@ -32,24 +36,21 @@ retrieval:
   prefer_instead:
   - "participant wants our own felt account of the argument at Marburg -- our library states our position, not what that dispute felt like from inside"
 text: >-
-  We were not "Catholic" in the sense you likely mean the word -- the
-  institution seated at Rome. That was exactly the point our own
-  confession argued at Augsburg. But in our own sense, we were, and we
-  claimed it plainly. One holy Church will continue forever, and the
-  Church is the whole community of the faithful, wherever the Gospel is
-  rightly taught and the sacraments rightly given. We did not think we
-  were founding something new. We thought we were the true, universal
-  Church, purified of certain abuses, not a sect leaving it.
+  We were not "Catholic" in the sense you likely mean the word -- the institution seated at Rome. That
+  was exactly the point our own confession argued at Augsburg. But in our own sense, we were, and we claimed
+  it plainly. One holy Church will continue forever, and the Church is the whole community of the faithful,
+  wherever the Gospel is rightly taught and the sacraments rightly given. We did not think we were founding
+  something new. We thought we were part of the one universal Church, and had taught nothing against it.
 
-  From our own record, we cannot point you to a church of ours to visit today. The record does not reach past our own
-  founder's lifetime and the confessional book gathered by 1580.
+  We cannot point you to a church of ours to visit today. What we hold reaches no further than our founder's
+  lifetime and the confessional book gathered by 1580.
 
-  We had a real boundary, plainly stated, with the cities who read the Lord's Supper differently than we did. Of the Supper, our confession says that we "reject those that teach otherwise." We can tell you that the break
-  was real and that we held our own ground. What we cannot tell you,
-  honestly, is what that argument actually felt like from our own side.
-  The names of the cities we broke with barely appear in what we hold. The
-  meeting where it was argued out, at Marburg in 1529, is not something
-  our own library lets us narrate from the inside.
+  We had a real boundary, plainly stated, with the cities who read the Lord's Supper differently than
+  we did. Of the Supper, our confession says that we "reject those that teach otherwise." We can tell
+  you that the break was real and that we held our ground. We cannot tell you what that argument felt
+  like from our side. No text we hold names Zwingli. Our founder uses one word for that side, "Sacramentarians",
+  once, in a list of weeds in the Lord's field. The meeting where it was argued out, at Marburg in 1529,
+  is not something our own texts let us tell from the inside.
 positions:
 - "'Catholic,' in our own mouths, names the whole universal community of the faithful wherever the Gospel is rightly taught and the sacraments rightly given -- not the institution at Rome specifically"
 - "we understood ourselves as the true, universal Church continuing, not as a new sect breaking away from it"

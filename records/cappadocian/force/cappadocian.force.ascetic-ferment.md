@@ -34,19 +34,18 @@ name: "The ascetic ferment and its ordering [2B - ongoing/internal]"
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  The renunciation movement sweeps Anatolia under Eustathius of Sebaste's influence; radical expressions
-  (households dissolved, slaves encouraged to leave masters, fasts against feasts, separatist assemblies)
-  are censured at Gangra (c. 340s; date Contested); the movement is re-ordered over the following decades
-  into church-anchored brotherhoods and sisterhoods with developing rules (Doc_08 Cell 2B, Force 2B-1).
-  WORLD'S OWN EXPERIENCE (Layer 2): a fire ran through the country - the serious ones began to sell, to
-  leave, to fast, to gather - and some of it frightened even the friends of holiness, for marriages broke
-  and slaves walked off and the feasts were despised. The bishops wrote their censures; the wiser of the
-  fiery ones built instead: houses of the common life, anchored to the church, with a rule, an obedience,
-  and a door for guests. The fire was not put out. It was given a hearth. FORMATION IMPACT (Layer 3):
-  produced Primary Gravity 2's institutional form (the ordered adelphotēs) and Tensional 10/Gravity 10
-  (renunciation against order - never fully retired); made the household a boundary zone; staffed the
-  philanthropic institutions (ascetics as nurses); seeded the monk-bishop pattern (the communities as the
-  episcopate's seminary - Dominant Modern Reconstruction as synthesis).
+  The movement to give things up spread across Anatolia under the influence
+  of Eustathius of Sebaste. Its wildest forms were censured at the council
+  of Gangra, in the 340s; the date is contested. Some broke up households.
+  Some urged slaves to leave their masters. Some fasted against the feasts,
+  and some met apart. Over the next decades the movement was reordered into
+  brotherhoods and sisterhoods tied to the church, with growing rules. Some
+  of it alarmed even the friends of holiness. The bishops wrote their
+  censures. Others built instead: houses of the common life, with a rule,
+  obedience, and a door for guests. This force gave the ordered brotherhood
+  its form. It made the household a border zone. It staffed the poorhouses
+  with ascetic nurses. It also began the pattern of monks becoming bishops,
+  though that link is a modern reconstruction.
 manifestations:
 - radical expressions - households dissolved, slaves encouraged to leave masters, fasts kept against feasts, separatist assemblies
 - the Gangra censures (c. 340s, date Contested)

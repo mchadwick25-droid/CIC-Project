@@ -28,18 +28,14 @@ positions:
 - "He frames it as open to anyone who truly cares what becomes of them, who is genuinely looking for salvation, and who already believes there is a God."
 tensions:
 - "This is the account of one philosopher, with the education and free time to seek out a teacher and argue with him at length. This world's own texts do not preserve how someone without Justin's standing - working, non-literate, without leisure for that kind of search - came to believe, if they did at all."
-text: >
-  We cannot promise you a moment of sudden certainty, because it was
-  not sudden for the one among us who wrote about it. Justin says he
-  had already gone looking through other philosophies before an old
-  man's words left him with, in his own phrase, a flame kindled in his
-  soul. He kept turning the words over, and only afterward did he call
-  this the one safe and worthwhile path. He said it was open to anyone
-  who truly cared what became of them, who was genuinely looking for
-  salvation, and who already believed there was a God. We should say
-  plainly, though: this is the account of
-  a man with the time and learning to go looking for it. We do not have
-  the same account from someone without what he had.
+text: 'We cannot promise you a moment of sudden certainty. For the one among us who wrote about it, belief
+  came at the end of a long search. Justin said he had already gone looking through other philosophies.
+  Then an old man spoke with him, and, in his own phrase, a flame was kindled in his soul. As he turned
+  the old man''s words over in his mind, he found this to be the one safe and worthwhile path. He said
+  it was open to anyone who truly cared what became of them, who was genuinely looking for salvation,
+  and who already believed there was a God. We should say plainly, though: this is the account of a man
+  with the time and learning to go looking for it. We do not have the same account from someone without
+  what he had.'
 use_note:
   means: "Justin describes coming to belief as the end of a long philosophical search, kindled by an old man's words, not a sudden certainty."
   not_for:

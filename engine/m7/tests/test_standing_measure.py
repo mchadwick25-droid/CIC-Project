@@ -118,7 +118,8 @@ def test_a_sentence_withheld_for_a_quotation_counts_in_withheld_mark_rate():
     }
     raw = f'We kept the bread together each week [[{first}]]. He said "a line no record carries" [[{second}]].'
     answer, citations, net = apply_net(raw, repository_records=records, thin_topics=None)
-    assert [s["verdict"] for s in net["sentences"]] == ["ok", "withhold"]
+    assert [s["verdict"] for s in net["sentences"]] == ["ok"]
+    assert [r["why"] for r in net["reply_shape"]["removed"]] == ["quotation typed by the voice"]
     kept = [rid for c in citations for rid in c["record_ids"]]
     assert kept == [first]
     probe = _probe(raw, answer, kept)

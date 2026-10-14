@@ -107,7 +107,7 @@ Staging is `cic-engine-staging`, which follows `main`. Use Stripe test mode.
 10. Drive the door: copy the operations file, set a low base number in the copy, and point `CIC_DEEPER_OPS_FILE` at the copy on staging (never edit the shipped file for a test). In that copy set `door.observe` to false, because in observe mode the door narrows nothing. Run traffic until each stage is reached. Read `GET /api/admin/deeper/door` at each. Confirm the free path narrows in the order the operations file lists, free voice closes, and at the last stage a code is refused with nothing spent.
 11. Open the admin dashboard. The Go Deeper section shows the day's codes, tokens and refusals, and the "Door stage (peak)" column moves with step 10.
 12. Take a backup and restore it to a scratch copy. The restored meter file has the same balances.
-13. Flip the module off (rollback step 4). Confirm the free path is unchanged and every deeper route returns 404.
+13. Flip the module off (rollback step 4). Confirm the free path is unchanged and no deeper route does anything. With no app built, every deeper route returns 404. With the app built, a GET returns the app's home page and a POST returns 405; neither exposes data.
 14. Mark signs the checklist, listing anything that did not behave and what was done about it.
 
 ## Part 4 — No paid voice-quality run
@@ -138,7 +138,7 @@ The door starts in **observe mode** (`door.observe: true` in the operations file
 
 Do the first step that stops the harm, then stop. The order is from the lightest to the heaviest.
 
-**What pausing does and does not do.** Pausing codes stops codes being spent. It does not stop Stripe selling. A live Payment Link keeps taking money while codes are paused, and after the engine module is off (step 4) the webhook is a 404, so a buyer pays and never gets a code. Stripe retries a failed webhook for a while and then gives up. So the rule is: **stop selling before, or with, anything that removes the webhook.**
+**What pausing does and does not do.** Pausing codes stops codes being spent. It does not stop Stripe selling. A live Payment Link keeps taking money while codes are paused, and after the engine module is off (step 4) the webhook is refused (404, or 405 when the app is built), so a buyer pays and never gets a code. Stripe retries a failed webhook for a while and then gives up. So the rule is: **stop selling before, or with, anything that removes the webhook.**
 
 1. **Stop selling, and pause codes.** For any doubt about money or codes, do both together: deactivate every Payment Link in Stripe (so nothing new is sold, even from an old link or bookmark), then pause codes (`POST /api/admin/deeper/pause`, admin login; effective on the next request). The free path is untouched; a participant with a code sees the paused line.
 2. **Close the site.** Set `enabled: false` in `go-deeper-config.js`, remove the Go Deeper link and clear `PAYMENT_LINK`, and merge to `main`. Payment Links must already be deactivated (step 1).
