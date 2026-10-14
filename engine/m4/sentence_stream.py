@@ -43,6 +43,7 @@ from engine.m4.citation_cards import resolve_source_card
 from engine.m4.grounding_net import (
     QUOTATION_DROP_REASONS,
     QUOTE_MARKER,
+    STORY_MARKER,
     WITHHOLD_FLOOR,
     QuotationIndex,
     build_figure_lexicon,
@@ -168,7 +169,7 @@ class SentenceStream:
         """apply_net could change or remove this sentence, or (for the one
         after a sentence about to be released) the sentence before it."""
         raw = sentence["raw"]
-        if QUOTE_MARKER.search(raw) or strip_markdown(raw) != raw.strip():
+        if QUOTE_MARKER.search(raw) or STORY_MARKER.search(raw) or strip_markdown(raw) != raw.strip():
             return True
         if any(tag in self._told_stories for tag in sentence["tags"]):
             return True

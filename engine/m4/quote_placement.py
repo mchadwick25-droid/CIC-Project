@@ -66,10 +66,13 @@ REASON_STORY_RETOLD = "story already told in this conversation"
 class PlacementContext:
     """What one reply may place. `offered` is the quote record ids this
     turn's evidence carried; `voiced` the quote ids the conversation has
-    already voiced; `told_stories` the story ids it has already told."""
+    already voiced; `told_stories` the story ids it has already told;
+    `offered_stories` the story ids this turn may place
+    (engine.m4.story_placement; empty on a world that does not place them)."""
     offered: frozenset[str] = frozenset()
     voiced: frozenset[str] = frozenset()
     told_stories: frozenset[str] = frozenset()
+    offered_stories: frozenset[str] = frozenset()
     max_quotes: int = MAX_PLACED_QUOTES_PER_REPLY
 
     @classmethod
@@ -109,13 +112,18 @@ def _settable(composed: str, rendering: str) -> bool:
     return any(inner == rendering for _o, _c, inner in quoted_span_positions(strip_tags(composed)))
 
 
-def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], context: PlacementContext) -> dict:
+def place_quotes(
+    tagged_text: str, *, repository_records: dict[str, dict], context: PlacementContext,
+    sealed: frozenset[str] = frozenset(),
+) -> dict:
     """The voice's tagged text with its quote markers placed, as the module
     docstring describes. Returns {"text", "placed" (record ids, in order),
     "placed_sentences" (each placed sentence's text, tags stripped and
     whitespace collapsed, to its record id), "placed_drafts" (the same keys,
     to the sentence as the voice wrote it, marker included), "removed" (each
-    sentence removed, with why, and as the voice wrote it in "draft")}."""
+    sentence removed, with why, and as the voice wrote it in "draft")}.
+    A sentence tagged with a record in `sealed` (a story code placed, by
+    engine.m4.story_placement) is never taken as a lead-in."""
     report = _Report()
     index = QuotationIndex(repository_records)
     paragraphs_out: list[list[str]] = []
@@ -138,7 +146,7 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
                 composed = None
                 if reason is None:
                     if not lead:
-                        lead = _take_lead_in(kept, paragraphs_out)
+                        lead = _take_lead_in(kept, paragraphs_out, sealed)
                         drafted = f"{lead} {drafted}".strip()
                     rendering = record["modern_rendering"]
                     composed = f"{_lead_for_quote(lead)} “{rendering}” [[{record['id']}]]".strip()
@@ -150,7 +158,7 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
                         reason, composed = refusal, None
                 if composed is None:
                     report.drop(QUOTE_MARKER.sub("", drafted).strip() or drafted, reason, draft=drafted)
-                    if not lead and (previous := _take_lead_in(kept, paragraphs_out, only_if_lead=True)):
+                    if not lead and (previous := _take_lead_in(kept, paragraphs_out, sealed, only_if_lead=True)):
                         report.drop(previous, REASON_LEAD_IN)
                 else:
                     kept.append(composed)
@@ -187,17 +195,25 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
     }
 
 
-def _take_lead_in(kept: list[str], paragraphs_out: list[list[str]], *, only_if_lead: bool = False) -> str:
+def _take_lead_in(
+    kept: list[str], paragraphs_out: list[list[str]], sealed: frozenset[str] = frozenset(), *,
+    only_if_lead: bool = False,
+) -> str:
     """The sentence before a marker that stands alone: the previous sentence
     of this paragraph, or the previous paragraph's last when that paragraph
     is that one sentence or ends in a colon. With `only_if_lead` the
-    sentence must also read as an introduction."""
+    sentence must also read as an introduction. A sentence tagged with a
+    record in `sealed` is never taken."""
+    if kept and sealed & set(_TAG.findall(kept[-1])):
+        return ""
     if kept:
         if only_if_lead and not reads_as_lead(kept[-1]):
             return ""
         return kept.pop()
     if paragraphs_out and paragraphs_out[-1]:
         previous = paragraphs_out[-1]
+        if sealed & set(_TAG.findall(previous[-1])):
+            return ""
         if len(previous) == 1 or strip_tags(previous[-1]).rstrip().endswith(":"):
             if only_if_lead and not reads_as_lead(previous[-1]):
                 return ""
