@@ -485,14 +485,14 @@ def test_every_quote_record_in_the_fleet_places_word_for_word():
     # can be placed by following the directive.
     from engine.m1.loader import RECORDS_ROOT, load_world_records
     from engine.m4.evidence import _with_quote_index
-    from engine.m4.turn_prep import _speaker_name
+    from engine.m4.turn_prep import _offered_speaker
 
     unplaced = set()
     for world_dir in sorted(p for p in RECORDS_ROOT.iterdir() if (p / "quote").is_dir()):
         records = load_world_records(world_dir.name)
         for record in (r for r in records.values() if r.get("record_type") == "quote"):
             context = PlacementContext(offered=frozenset({record["id"]}))
-            speaker = _speaker_name(_with_quote_index({"id": record["id"], "record_type": "quote"}, records).get("speaker"))
+            speaker = _offered_speaker(_with_quote_index({"id": record["id"], "record_type": "quote"}, records))
             text, _c, net_result = apply_net(
                 f"{speaker} wrote: [[quote:{record['id']}]]", repository_records=records, thin_topics=None, placement=context,
             )
