@@ -330,7 +330,7 @@ def _story_lines(offers: list[dict]) -> list[str]:
     return [STORY_OFFERS_LINE.format(offers=listed), STORY_PLACE_LINE]
 
 
-def _with_placeable_stories(turn_evidence: dict, repository_records: dict[str, dict]) -> dict:
+def with_placeable_stories(turn_evidence: dict, repository_records: dict[str, dict]) -> dict:
     """The evidence with each story that may be placed marked `placeable`:
     one with a telling, not already told in this conversation."""
     candidates = [
@@ -627,7 +627,7 @@ def prepare_voice_turn_inputs(
         words_asked=quote_asked,
     )
     if world.frame.get("story_placement"):
-        turn_evidence = _with_placeable_stories(turn_evidence, repository_records)
+        turn_evidence = with_placeable_stories(turn_evidence, repository_records)
     story_offers = [c for c in turn_evidence["candidates"] if c.get("placeable")]
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message

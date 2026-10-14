@@ -1349,7 +1349,7 @@ def sentence_spans(tagged_text: str) -> list[str]:
     return [sent["raw"] for paragraph in split_into_paragraphs(tagged_text) for sent in parse_tagged(paragraph)]
 
 
-def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str]) -> str:
+def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str], *, positions: set[int] | None = None) -> str:
     """Removes each named sentence's own raw span - tag included - from
     tagged_text, whole, and rejoins what is left. The one enforcement
     action a caller may take on a flagged sentence that is not "regenerate
@@ -1375,13 +1375,31 @@ def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str]) -> str
     whose own next sentence was the one dropped) can still read as an
     unfinished promise - a semantic dangling fragment this string-level
     operation has no way to see, as opposed to the structural one
-    (broken punctuation, an empty paragraph) it does prevent."""
+    (broken punctuation, an empty paragraph) it does prevent.
+
+    With `positions`, the sentences dropped are those at these indices in
+    the turn's sentence order, not every sentence with a flagged text: a
+    sentence code placed stays when the voice wrote the same words again."""
     kept_paragraphs = []
+    index = 0
     for paragraph in split_into_paragraphs(tagged_text):
-        kept_sentences = [sent["raw"] for sent in parse_tagged(paragraph) if sent["text"] not in flagged_sentences]
+        kept_sentences = []
+        for sent in parse_tagged(paragraph):
+            dropped = index in positions if positions is not None else sent["text"] in flagged_sentences
+            index += 1
+            if not dropped:
+                kept_sentences.append(sent["raw"])
         if kept_sentences:
             kept_paragraphs.append(" ".join(kept_sentences))
     return "\n\n".join(kept_paragraphs)
+
+
+def _placed_id(placed: dict[str, str] | None, sent: dict) -> str | None:
+    """The record code placed in this sentence: its text is a placed
+    sentence's and it carries that record's tag. The same words the voice
+    wrote again, untagged or tagged otherwise, get the ordinary checks."""
+    record_id = (placed or {}).get(placed_key(sent["text"]))
+    return record_id if record_id in sent["tags"] else None
 
 
 def check_turn_with_paragraph_coverage(
@@ -1457,7 +1475,7 @@ def check_turn_with_paragraph_coverage(
                 thin_topics=thin_topics,
                 grounding_floor=grounding_floor,
                 quotation_index=quotation_index,
-                placed_quote_id=(placed or {}).get(placed_key(sent["text"])),
+                placed_quote_id=_placed_id(placed, sent),
                 paragraph_tags=own_record_ids,
             )
             for sent in parsed

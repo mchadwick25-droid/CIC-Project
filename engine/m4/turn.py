@@ -368,8 +368,10 @@ def apply_net(
         ]
         if not going:
             break
+        aligned = len(spans) == len(net_result["sentences"])
         shorter = grounding_net.drop_flagged_sentences(
             tagged, {entry.get("source_sentence") or entry["sentence"] for entry in going},
+            positions={i for i, entry in enumerate(net_result["sentences"]) if any(entry is g for g in going)} if aligned else None,
         )
         if shorter == tagged:
             break
@@ -427,7 +429,10 @@ def _same_slug_witness(record_id: str, repository_records: dict[str, dict]) -> d
 
 def _claims_ground(raw_text: str) -> bool:
     """The draft cites a record or marks a quote: it says it is grounded."""
-    return bool(grounding_net._TAG.search(raw_text) or grounding_net.QUOTE_MARKER.search(raw_text))
+    return bool(
+        grounding_net._TAG.search(raw_text) or grounding_net.QUOTE_MARKER.search(raw_text)
+        or grounding_net.STORY_MARKER.search(raw_text)
+    )
 
 
 def settle_reply(
@@ -694,7 +699,7 @@ def _run_ordinary_voice_turn(
     placement = PlacementContext(
         offered=frozenset(prepared.offered_ids.get("quote", [])),
         voiced=frozenset(voiced_quotes), told_stories=frozenset(told_stories),
-        offered_stories=frozenset(prepared.offered_stories) - frozenset(told_stories),
+        offered_stories=frozenset(prepared.offered_stories),
     )
     _net = functools.partial(apply_net, quotable_texts=echo_sources, placement=placement)
 

@@ -190,6 +190,33 @@ def test_the_net_refuses_a_placed_sentence_that_is_not_in_the_records_telling(de
     assert result["sentences"][0]["why"] == REASON_STORY_MISMATCH
 
 
+def test_the_voice_writing_a_telling_sentence_again_never_cuts_it_from_the_placed_telling(desert):
+    virgin = "desert.story.virgin-who-hid-athanasius"
+    draft = (
+        f"Our sayings keep a story of the virgin who hid Athanasius in Alexandria [[story:{virgin}]].\n\n"
+        "She hid him. That was her courage [[desert.dw.someone-like-me]]."
+    )
+    text, _c, net_result = _net(draft, desert, _offer(virgin))
+    assert _telling_shown(desert[virgin]) in text
+    assert net_result["reply_shape"]["placed"] == [virgin]
+
+
+def test_a_quote_marker_after_a_placed_story_never_takes_a_telling_sentence_as_its_lead_in(desert):
+    draft = f"{MOSES_INTRO}\n\n[[quote:desert.quote.moses-sins-run-out]]"
+    context = PlacementContext(offered=frozenset({"desert.quote.moses-sins-run-out"}), offered_stories=frozenset({MOSES}))
+    text, _c, net_result = _net(draft, desert, context)
+    assert _telling_shown(desert[MOSES]) in text
+    assert "said nothing more to him:" not in text
+    assert MOSES in net_result["reply_shape"]["placed"]
+
+
+def test_a_second_story_marker_after_a_placed_story_leaves_the_telling_whole(desert):
+    draft = f"{MOSES_INTRO}\n\n[[story:{SARAH}]]"
+    text, _c, net_result = _net(draft, desert, _offer(MOSES, SARAH))
+    assert text.endswith(_telling_shown(desert[MOSES]))
+    assert _whys(net_result) == [REASON_SECOND_STORY]
+
+
 def test_the_improvised_live_reply_is_unchanged_on_a_world_that_does_not_place_stories(desert):
     on, _c, _r = _net(MOSES_IMPROVISED, desert, _offer(MOSES))
     off, _c, _r = _net(MOSES_IMPROVISED, desert, PlacementContext())

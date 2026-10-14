@@ -160,7 +160,7 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
                 drafted = sentence[: story_marker.end()].strip()
                 reason, record = _story_verdict(story_marker.group(0), repository_records, context, len(report.stories))
                 if reason is None and not lead:
-                    lead = _take_lead_in(kept, paragraphs_out)
+                    lead = _take_lead_in(kept, paragraphs_out, report.placed_sentences)
                     drafted = f"{lead} {drafted}".strip()
                 if reason is None and not _names_story_subject(lead, record):
                     reason = REASON_STORY_SUBJECT
@@ -177,7 +177,7 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
                     report.stories.append(record["id"])
                 else:
                     report.drop(STORY_MARKER.sub("", drafted).strip() or drafted, reason, draft=drafted)
-                    if not lead and (previous := _take_lead_in(kept, paragraphs_out, only_if_lead=True)):
+                    if not lead and (previous := _take_lead_in(kept, paragraphs_out, report.placed_sentences, only_if_lead=True)):
                         report.drop(previous, REASON_LEAD_IN)
                 tail = _MARKER_TAIL.sub("", sentence[story_marker.end():])
                 if tail:
@@ -198,7 +198,7 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
                 composed = None
                 if reason is None:
                     if not lead:
-                        lead = _take_lead_in(kept, paragraphs_out)
+                        lead = _take_lead_in(kept, paragraphs_out, report.placed_sentences)
                         drafted = f"{lead} {drafted}".strip()
                     rendering = record["modern_rendering"]
                     composed = f"{_lead_for_quote(lead)} “{rendering}” [[{record['id']}]]".strip()
@@ -210,7 +210,7 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
                         reason, composed = REASON_PLACED_MISMATCH, None
                 if composed is None:
                     report.drop(QUOTE_MARKER.sub("", drafted).strip() or drafted, reason, draft=drafted)
-                    if not lead and (previous := _take_lead_in(kept, paragraphs_out, only_if_lead=True)):
+                    if not lead and (previous := _take_lead_in(kept, paragraphs_out, report.placed_sentences, only_if_lead=True)):
                         report.drop(previous, REASON_LEAD_IN)
                 else:
                     kept.append(composed)
@@ -247,17 +247,22 @@ def place_quotes(tagged_text: str, *, repository_records: dict[str, dict], conte
     }
 
 
-def _take_lead_in(kept: list[str], paragraphs_out: list[list[str]], *, only_if_lead: bool = False) -> str:
+def _take_lead_in(
+    kept: list[str], paragraphs_out: list[list[str]], placed: dict[str, str], *, only_if_lead: bool = False,
+) -> str:
     """The sentence before a marker that stands alone: the previous sentence
     of this paragraph, or the previous paragraph's last when that paragraph
     is that one sentence or ends in a colon. With `only_if_lead` the
-    sentence must also read as an introduction."""
+    sentence must also read as an introduction. A sentence code placed is
+    never taken."""
     if kept:
         if only_if_lead and not reads_as_lead(kept[-1]):
             return ""
         return kept.pop()
     if paragraphs_out and paragraphs_out[-1]:
         previous = paragraphs_out[-1]
+        if placed_key(strip_tags(previous[-1])) in placed:
+            return ""
         if len(previous) == 1 or strip_tags(previous[-1]).rstrip().endswith(":"):
             if only_if_lead and not reads_as_lead(previous[-1]):
                 return ""
