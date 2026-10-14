@@ -881,3 +881,12 @@ The 13 October eleven-world live test showed desert Q6 ending on "But to hate it
 ### OG-31. Desert Q1's confession still cut as the Antony formula, 2026-10-14.
 
 In the same test the voice answered "Who is Jesus?" with "To us Jesus is the eternal Word and Wisdom of the Father - not a created being, not brought into being out of nothing, but from the Father's own Essence, always existing together with the Father", tagged to `desert.dw.god`. The fix slice no longer cuts the world reciting its own confession, but this sentence still goes: "Wisdom" and "Essence" stand only in `desert.quote.antony-nicene-formula`, in none of desert's own witnesses or terms, so the net reads it as that quote's words (decision 61, option A). `desert.dw.god` gives the confession as "the Eternal Word of the Father's own being". Whether this sentence should stand is for the project lead; the engine change it would need is named in the Decision Log entry above. Status: OPEN.
+
+
+### OG-32. A modern word in the apophthegma guard, after the 14 October retest, 2026-10-14.
+
+desert Q3 in the 14 October retest said a saying was "not a shareable quotable line or a soundbite". The words came from `desert.term.apophthegma` `use_note.not_for`, which the evidence block gives the voice as a guard ("MUST NOT ASSERT"); the voice turned the guard into its own sentence. The guard now reads "Hearing it as a clever line made to be repeated to anyone, rather than a word given to one person". The meaning is unchanged; the modern word is gone. `false_friend` (shown on the World Profile, not to the voice) is unchanged. Package rebuilt and repinned.
+
+The same retest's desert Q4 (Antony unnamed in the quote's lead-in, so the quote is no longer placed) is an engine change, logged in the System Hub Decision Log (14 October second fix slice). desert Q5's Moses saying stays cut: the voice reworded it ("the errors of another man", where `desert.story.moses-leaking-jug` says "faults that are not mine"), and the net lets a saying stand after "he said:" only in the story's own words. desert OG-31 (Q1's confession cut as the Antony formula) is unchanged: those words stand only in the quote.
+
+Status: CLOSED.

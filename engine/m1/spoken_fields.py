@@ -154,6 +154,34 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
 }
 
 
+# Fields any record type may carry, nested under a parent field and named by
+# their dotted path. A record's use note gives the meaning the voice is
+# offered with the record: engine/m4/evidence.py writes it on the record's
+# line in the evidence block ("| means: ..."). Only gate_horizon reads this
+# table; whether the other gates should read it is not decided here.
+SHARED_SPOKEN_FIELDS: dict[str, SpokenField] = {
+    "use_note.means": SpokenField("evidence-head", "every record type; the '| means:' rider on its evidence-block line"),
+}
+
+
+def shared_fields_with_role(*roles: str) -> list[str]:
+    """SHARED_SPOKEN_FIELDS' dotted paths carrying any of the given roles."""
+    return [name for name, sf in SHARED_SPOKEN_FIELDS.items() if not roles or sf.role in roles]
+
+
+def field_texts(record: dict, field: str) -> list[str]:
+    """The strings a record holds at a field name or dotted path: the value
+    itself when it is a string, its string items when it is a list."""
+    value = record
+    for part in field.split("."):
+        value = value.get(part) if isinstance(value, dict) else None
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, list):
+        return [v for v in value if isinstance(v, str)]
+    return []
+
+
 def fields_with_role(record_type: str, *roles: str) -> list[str]:
     """Field names for a record type carrying any of the given roles, in
     registry declaration order. Passing no roles returns every declared
