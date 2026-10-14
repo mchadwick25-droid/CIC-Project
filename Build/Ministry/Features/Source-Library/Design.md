@@ -29,7 +29,7 @@ us directly.
 |---|---|---|
 | 1 | What the Library is and how far it reaches | A **reading room for our worlds**: every vendored text readable whole on our site, the citation as the door in. Built on the field's **record shape from day one** (work, edition, passage address in the edition's own labels, quotation anchor). Delivered first as a **footnote service** for desert. |
 | 2 | Where a citation's link lands | **Our reader first**, the host edition second (CCEL section page, archive.org item, Scaife or the Patristic Text Archive where a text also lives there). The **scanned page embedded** beside our text for archive.org texts comes in Stage 2. |
-| 3 | CCEL's terms while we wait for an answer | **Passage now, volumes later.** Show the cited passage in its section, credited to CCEL as the source of the file, with the link. Mark reads CCEL's copyright page live and sends the letter. Whole volumes from CCEL files open only with permission. Independent archive.org scans are the fallback if CCEL declines. |
+| 3 | CCEL's terms while we wait for an answer | **Passage now, volumes later.** Show the cited passage in its section, credited to CCEL as the source of the file, with the link. At the opening of Stage 1, Mark reads CCEL's copyright page live and sends the letter. Whole volumes from CCEL files open only with permission. Independent archive.org scans are the fallback if CCEL declines. |
 | 4 | Where the passage address lives | **Derive at build, write back, gate.** The verbatim gate computes the anchor; a mechanical pass writes it into each citation's `address` field world by world; a gate re-derives on every build and fails on drift. Loci stay free text. New loci carry no file line numbers. Work identifiers come in Stage 2. |
 | 5 | Where the reader lives | **The public site**, under its own directory, opened inside the conversation app's existing side panel. |
 | 6 | When the section cannot be pinpointed | **Work-level link, labelled "section not pinpointed"**, with the locus shown as "look for" text and a per-world coverage report. Never a guessed section. |
@@ -44,8 +44,9 @@ many worlds; nothing hard-codes "English" or the number of worlds.
 The one guarantee this whole effort exists to give, "the words you just heard are these
 words, here," is only true on a page we serve. The texts are the proof that nothing is
 generated, made visible and made shareable. They are the part of CiC that could outlast
-any conversation. And CCEL is a sister ministry that gave this project its library: we
-read their words, we credit them on every page, and we ask before we do the larger thing.
+any conversation. Where a file was downloaded from another project's site, that project is
+credited on every page that shows its text, and permission is asked before whole volumes
+are republished.
 
 ## 3. What exists today
 
@@ -213,8 +214,9 @@ the source text, which is shown as the edition printed it.
 
 - Public-domain translations and editions: shown with the file's own rights line.
 - CCEL files: decision 3 above. Passage with credit now; volumes after permission;
-  archive.org scans as fallback. CCEL's copyright page is read live by Mark before Stage 1
-  ships, because the project's wording of it is second-hand.
+  archive.org scans as fallback. CCEL's copyright page is read live by Mark at the opening
+  of Stage 1, before any CCEL-derived passage is displayed, because the project's wording
+  of it is second-hand.
 - Open-licence files (one CC BY, several CC BY-SA TEI editions): attribution shown on
   every page; any corrected text CiC publishes from a ShareAlike source carries the same
   licence.
@@ -256,8 +258,8 @@ with the record ids per world. Each world's own thread resolves its share.
 
 | Stage | Work | Stopping point |
 |---|---|---|
-| **Before pilot launch** | Design only (this document). Mark reads CCEL's copyright page live and sends the letter. A read-only dry run of anchor derivation on desert reports coverage; no model calls, no writes. | Nothing participant-facing changes. The pilot ships as it is. |
-| **Stage 1** (first job after launch) | Anchor derivation for verified quotes, shipped in the package; derivation read against real desert quotes, then written back with the gate. Library build for the texts desert cites; upload to R2. Reader v1: section, highlight, notes, provenance panel, the seven items, host link, language and OCR labels, orientation line. Card gains "Read the passage" and "This edition at its source". Work-level fallback with "section not pinpointed". Per-world coverage report. | Mark reads three desert conversations with live links. External reviewers of the desert pilot can follow every quote. |
+| **Before pilot launch** | Design only (this document). A read-only dry run of anchor derivation on desert reports coverage; no model calls, no writes. No action for Mark. | Nothing participant-facing changes. The pilot ships as it is. |
+| **Stage 1** (first job after launch) | Opening step, Mark's own: read CCEL's copyright page live and send the letter asking permission to republish the volumes. Passage display with credit does not wait on the answer. Then: anchor derivation for verified quotes, shipped in the package; derivation read against real desert quotes, then written back with the gate. Library build for the texts desert cites; upload to R2. Reader v1: section, highlight, notes, provenance panel, the seven items, host link, language and OCR labels, orientation line. Card gains "Read the passage" and "This edition at its source". Work-level fallback with "section not pinpointed". Per-world coverage report. | Mark reads three desert conversations with live links. External reviewers of the desert pilot can follow every quote. |
 | **Stage 2** (fleet) | Every vendored text, including non-English with rendering beside original. Section-level resolution for non-quote citations. Archive.org texts rebuilt from hOCR and page-number files so each quotation carries a leaf index; the page image embedded through IIIF. Work identifiers from Clavis Clavium, Syriaca and OSIS on source records. CCEL volumes opened if permission is in hand, else the scan fallback begins. Leaking-loci cleanup as its own PR. The shelf decision. | Every card in every built world links somewhere real. Coverage report per world. |
 | **Stage 3** (later, by need) | Translation layer keyed by anchor for participant languages. The browsable shelf, if decided. Open publication of citation records; a Distributed Text Services endpoint so other projects can cite us. Recension comparison where two witnesses of one work are vendored. | Each item is its own decision when the need is real. |
 

@@ -17,9 +17,10 @@ Log entry of the same date.
 machine apparatus to participants are logged as a known gap in
 `Build/Ministry/Operations/Standing/CiC_Cross_System_Analysis_Tracking.md`, not fixed.
 
-**Not done.** No code, no record edits, no package rebuild. The CCEL letter is Mark's.
+**Not done.** No code, no record edits, no package rebuild. The CCEL letter is Mark's, at
+the opening of Stage 1.
 
 ### Next action
 
-After the pilot launches: Stage 1 for desert, per `Design.md` §11. Before that, Mark
-reads CCEL's copyright page live and sends the letter.
+Nothing before the pilot launches. After it launches: Stage 1 for desert, per
+`Design.md` §11, opening with Mark's live read of CCEL's copyright page and the letter.

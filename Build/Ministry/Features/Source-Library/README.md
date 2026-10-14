@@ -40,9 +40,11 @@ Fable did the design and the research coordination. The build is Sonnet work und
 build-cycle's own self-governance, with Haiku for the mechanical write-back pass. Any
 ruling that turns out to need real back-and-forth goes back to Fable.
 
-## Dependencies on Mark before Stage 1
+## Stage 1 prerequisites
 
-- Read CCEL's copyright page live; send the letter asking permission to republish the
-  volumes. Passage display with credit does not wait on the answer.
+Nothing is needed from Mark before the pilot launches. At the opening of Stage 1:
+
+- Mark reads CCEL's copyright page live and sends the letter asking permission to
+  republish the volumes. Passage display with credit does not wait on the answer.
 - Root README map and `CiC_Repo_Structure_Tracking.md` updated before the new public
   directory on the site exists.

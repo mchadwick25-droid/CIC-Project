@@ -5539,7 +5539,9 @@ hOCR and page-number files on the same items.
 3. **CCEL posture.** Passage now with credit and link; volumes after CCEL answers;
    independent scans as the fallback if they decline. Not a strict hold (empties the
    promise for nine worlds) and not republishing the volumes now (does the thing their
-   policy asks us not to do). Mark reads the copyright page live and sends the letter.
+   policy asks us not to do). At the opening of Stage 1, after the pilot launches, Mark
+   reads the copyright page live and sends the letter. Nothing in the pilot shows CCEL
+   text on our reader, so nothing is needed from Mark before launch.
 4. **Where the address lives.** Derived at build by the verbatim gate, which already finds
    each quote's position and discards it; written back into each citation's existing
    `address` field world by world after the derivation is read against real quotes; a gate
@@ -5565,9 +5567,9 @@ participant language kept as separate dimensions; nothing hard-codes "English" o
 number of worlds; desert first.
 
 **The heart.** The texts are the proof that nothing is generated, made visible and made
-shareable. They are the part of CiC that could outlast any conversation. And CCEL is a
-sister ministry that gave this project its library: we read their words, we credit them on
-every page, and we ask before we do the larger thing.
+shareable. They are the part of CiC that could outlast any conversation. Where a file was
+downloaded from another project's site, that project is credited on every page that shows
+its text, and permission is asked before whole volumes are republished.
 
 **Filed.** Design of record: `Build/Ministry/Features/Source-Library/Design.md`. Research:
 `Research.md` beside it. Workstream row added to `Build/Ministry/Features/README.md`.
@@ -5580,6 +5582,6 @@ Each world's own thread resolves its share.
 
 ### Next action
 
-Before the pilot launches: Mark reads CCEL's copyright page live and sends the letter; a
-read-only dry run of anchor derivation on desert reports coverage. After launch: Stage 1 for
-desert per `Design.md` §11.
+Nothing for Mark before the pilot launches. Before launch, a read-only dry run of anchor
+derivation on desert reports coverage. After launch: Stage 1 for desert per `Design.md`
+§11, opening with Mark's live read of CCEL's copyright page and the letter.
