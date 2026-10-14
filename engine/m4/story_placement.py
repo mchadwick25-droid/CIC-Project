@@ -20,7 +20,8 @@ scrub and before quote placement:
 - the introduction names the story's own people or the community: every
   name it carries (a capitalised word past its first) stands in the story's
   telling, `tellable_as` or `use_note.means`, and it carries one of them or
-  "we", "us", "our", "ours". One that names anyone else goes, and the story
+  "we", "us", "our", "ours". God, Lord, Christ, Gospel, Scripture, Saint,
+  Abba and Amma never count as names. One that names anyone else goes, and the story
   is still placed, after the voice's text before it; code adds no words.
 - a marker for a story not offered this turn, one without a telling, one
   the conversation has already told, or a second story in one reply places
@@ -55,6 +56,10 @@ from engine.prose import _STOPWORDS, quote_aware_sentences
 
 _WORD = re.compile(r"[^\W\d_][\w'’-]*")
 _POSSESSIVE = re.compile(r"(?:['’]s?)$")
+# Capitalised words that are never a person's name in an introduction (the
+# project lead's ruling of 14 October). A title is skipped, the name after
+# it is not: "Abba Moses" still names Moses.
+_NOT_NAMES = frozenset({"God", "Lord", "Christ", "Gospel", "Scripture", "Saint", "Abba", "Amma"})
 _COMMUNITY = re.compile(r"\b(?:we|us|our|ours)\b", re.IGNORECASE)
 _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 _STORY_MARKER_ID = re.compile(r"\[\[\s*story\s*:\s*([a-z0-9_.-]+)\s*\]\]", re.IGNORECASE)
@@ -188,10 +193,11 @@ def _names(text: str) -> list[str]:
     """The capitalised words of a text (a capital, then a lower-case letter,
     or a word in capitals), possessive endings off and title-cased: the
     names it carries."""
-    return [
+    names = [
         _POSSESSIVE.sub("", w).title() for w in _WORD.findall(text)
         if w[0].isupper() and (w[1:2].islower() or (len(w) > 1 and w.isupper()))
     ]
+    return [name for name in names if name not in _NOT_NAMES]
 
 
 def _intro_holds(lead: str, record: dict) -> bool:
@@ -204,7 +210,7 @@ def _intro_holds(lead: str, record: dict) -> bool:
     # A sentence's first word is capitalised whatever it is; an ordinary
     # word there ("Our", "When") is not a name.
     first = _WORD.match(text)
-    later = names[1:] if first and names and first.group(0).lower() in _STOPWORDS else names
+    later = names[1:] if first and names and first.group(0).lower() in _STOPWORDS and first.group(0).title() == names[0] else names
     if any(name not in known for name in later):
         return False
     return any(name in known for name in names) or bool(_COMMUNITY.search(text))

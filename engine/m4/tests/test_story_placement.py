@@ -205,6 +205,14 @@ def test_a_possessive_name_of_the_storys_own_person_holds(desert):
         assert text.startswith(f"{intro}:"), intro
 
 
+def test_god_lord_gospel_and_titles_never_count_as_names_but_the_name_after_a_title_does(desert):
+    for intro in ("God showed Moses his own faults", "The Gospel of the Lord reached Abba Moses at Scete"):
+        text, _c, net_result = _net(f"{intro} [[story:{MOSES}]].", desert, _offer(MOSES))
+        assert net_result["reply_shape"]["removed"] == [] and text.startswith(f"{intro}:"), intro
+    text, _c, net_result = _net(f"Abba Antony said this of a brother [[story:{MOSES}]].", desert, _offer(MOSES))
+    assert text == _telling_shown(desert[MOSES]) and _whys(net_result) == [REASON_STORY_INTRO]
+
+
 def test_an_introduction_naming_the_community_alone_holds(desert):
     text, _c, net_result = _net(f"Here is one of ours [[story:{MOSES}]].", desert, _offer(MOSES))
     assert text.startswith("Here is one of ours:\n\n") and net_result["reply_shape"]["removed"] == []
