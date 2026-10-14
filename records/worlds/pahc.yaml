@@ -19,8 +19,8 @@ representative: {name: Chloe, role_label: "Household Leader"}
 state: admitted
 census_id: "post-apostolic-house-church"
 package:
-  manifest_hash: "sha256:fa039b31a85525d578bfa15430fa0b309fef302aa46eefc7b58dfecceff0a113"
-  location: "packages/pahc/2026-10-13T20-51-22Z"
+  manifest_hash: "sha256:69b9a8213b047c638d7b26363af108e835a24f5d54daeef1faa1617f7c8086db"
+  location: "packages/pahc/2026-10-14T19-27-37Z"
 thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
 living_tradition_flag: true
 story_placement: false
