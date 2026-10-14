@@ -29,3 +29,4 @@ living_tradition_flag: true
 package:
   manifest_hash: "sha256:dfbf9b41de3d260a7595f62651ead02298ca52d322aac68ca849ce9d3f95bcec"
   location: "packages/gallic/2026-10-14T04-44-39Z"
+story_placement: false
