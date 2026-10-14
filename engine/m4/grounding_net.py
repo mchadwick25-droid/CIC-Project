@@ -1280,16 +1280,19 @@ def check_turn(
     Verdicts, mapped to the design's fallback ladder:
       ok       - no checkable claim, or the claim is grounded in its own tags
                  (ratio over the floor, or a quoted span verbatim-matched)
-      withhold - the sentence never reaches the stream: unresolvable tag,
+      withhold - the sentence's citation is not shown: unresolvable tag,
                  an untagged specific claim, a quoted span found in no
                  tagged record, a tagged claim whose own sources don't
-                 carry it, or a quotation code did not place
+                 carry it, or a quotation code did not place. Only the
+                 quotation reasons (QUOTATION_DROP_REASONS) remove the
+                 sentence (engine.m4.turn.apply_net); any other withheld
+                 sentence is shown as written, without its citation
 
     placed maps the text of each sentence code composed around a quote
     record (tags stripped, placed_key) to that record's id. voiced is the
     quote records the conversation voiced before this reply.
 
-    This check decides only what may stream at all.
+    This check decides only what may be shown, and with which citations.
 
     tagged_text is backed off past any generation cut off mid-tag
     (_drop_truncated_tail) before it is split into sentences at all, the

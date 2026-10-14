@@ -25,6 +25,7 @@ from engine.m1.loader import load_world_records
 from engine.m4 import evidence, grounding_net
 from engine.m4.quote_placement import PlacementContext
 from engine.m4.turn import apply_net, settle_reply
+from engine.prose import quote_aware_sentences
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 REPORTS = REPO_ROOT / "engine" / "m4" / "reports"
@@ -209,9 +210,85 @@ def summary(results: list[tuple[dict, dict]]) -> dict:
     return counts
 
 
+# A connective claim: a reason, motive or cause joined into a sentence.
+_CONNECTIVE = re.compile(
+    r"\b(because|so that|in order to|meaning to|which is why|that is why|for this reason|therefore|so as to)\b",
+    re.IGNORECASE,
+)
+SHORT_SENTENCE_WORDS = 8
+
+
+def rhythm(text: str) -> dict:
+    """A reply's sentence lengths: their mean and spread (population
+    standard deviation, in words), and how many runs of three or more
+    sentences under SHORT_SENTENCE_WORDS words in a row it has."""
+    lengths = [len(_WORD.findall(s.lower())) for s in quote_aware_sentences(text) if _WORD.search(s.lower())]
+    if not lengths:
+        return {"sentences": 0, "mean": 0.0, "spread": 0.0, "short_runs": 0}
+    mean = sum(lengths) / len(lengths)
+    spread = (sum((n - mean) ** 2 for n in lengths) / len(lengths)) ** 0.5
+    runs, run = 0, 0
+    for n in lengths + [SHORT_SENTENCE_WORDS]:
+        if n < SHORT_SENTENCE_WORDS:
+            run += 1
+            continue
+        runs += run >= 3
+        run = 0
+    return {"sentences": len(lengths), "mean": mean, "spread": spread, "short_runs": runs}
+
+
+def connective_claims(sentences: list[dict], world_records: dict) -> list[str]:
+    """Shown sentences that join a reason, motive or cause with a connective
+    ("because", "so that", "meaning to"...) that none of the records the
+    sentence is tagged to uses: a connection the voice made, not the record."""
+    found = []
+    for entry in sentences:
+        match = _CONNECTIVE.search(entry["sentence"])
+        if not match:
+            continue
+        held = " ".join(grounding_net.all_text(world_records[t]).lower() for t in entry["tags"] if t in world_records)
+        if match.group(1).lower() not in held:
+            found.append(entry["sentence"])
+    return found
+
+
+def reply_metrics(world: str, text: str, sentences: list[dict]) -> dict:
+    return {**rhythm(text), "connective_claims": len(connective_claims(sentences, records(world)))}
+
+
+def report_metrics(world: str, report_doc: dict) -> list[dict]:
+    """reply_metrics for every reply a live-turn report recorded, for
+    measuring a retest the same way."""
+    out = []
+    for result in report_doc["results"]:
+        voice_event = (result.get("result") or {}).get("voice_event") or {}
+        out.append(reply_metrics(world, voice_event.get("text") or "", (voice_event.get("grounding") or {}).get("sentences") or []))
+    return out
+
+
+def rhythm_summary(per_reply: list[dict]) -> dict:
+    n = len(per_reply) or 1
+    return {
+        "mean_words_per_sentence": round(sum(r["mean"] for r in per_reply) / n, 1),
+        "mean_spread": round(sum(r["spread"] for r in per_reply) / n, 1),
+        "short_runs": sum(r["short_runs"] for r in per_reply),
+        "replies_with_short_runs": sum(r["short_runs"] > 0 for r in per_reply),
+        "connective_claims": sum(r["connective_claims"] for r in per_reply),
+    }
+
+
+def rhythm_before_after(results: list[tuple[dict, dict]]) -> dict:
+    """The rhythm measures over the replies as recorded on 13 October, and
+    over the same drafts as the reply shaping now gives them."""
+    before = [reply_metrics(t["world"], t["voice_event"]["text"], t["voice_event"]["grounding"]["sentences"]) for t, _r in results]
+    after = [reply_metrics(t["world"], r["text"], r["net_result"]["sentences"]) for t, r in results]
+    return {"before": rhythm_summary(before), "after": rhythm_summary(after)}
+
+
 def run_all() -> list[tuple[dict, dict]]:
     return [(turn, replay(turn)) for turn in turns()]
 
 
 if __name__ == "__main__":
-    print(json.dumps(summary(run_all()), indent=2))
+    results = run_all()
+    print(json.dumps({"replay": summary(results), "rhythm": rhythm_before_after(results)}, indent=2))

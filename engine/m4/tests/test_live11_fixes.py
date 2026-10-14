@@ -245,3 +245,64 @@ def test_the_replay_over_all_66_drafts():
     assert counts["cuts"] == 46
     assert counts["overcuts_still_cut"] == 4
     assert counts["stray_punctuation_sentences"] == 1
+
+
+# ---- reading top fix 6: untagged claims about a person; what withhold does ----
+
+
+def test_the_shape_asks_for_a_tag_on_every_claim_about_what_someone_did_named_or_not():
+    # pahc Q5: "The one who walked him to the stake is remembered as a brother
+    # who regretted it afterward." names no one, so the old contract (tag
+    # "only a sentence naming a person, place, text, number") let it go untagged
+    shape = shape_text()
+    assert "only a sentence naming a person" not in shape
+    assert "or what someone did, said, held or was, is tagged to the record it comes from, whether or not it names them" in shape
+
+
+def test_an_untagged_claim_that_names_no_one_is_still_read_as_framing_by_the_net():
+    # Recorded as it stands: the net finds no claim marker in it. A pronoun
+    # and past-tense check flags 9 sentences over the 66 replays, 8 of them
+    # framing or honest limits, so it was not adopted (Decision Log,
+    # 2026-10-14). The fix is the instruction above.
+    sentence = "The one who walked him to the stake is remembered as a brother who regretted it afterward."
+    entry = next(e for e in _replayed("pahc", 5)["net_result"]["sentences"] if e["sentence"] == sentence)
+    assert (entry["verdict"], entry["why"]) == ("ok", "no checkable claim - interpretive/connective framing")
+
+
+def test_a_withheld_sentence_is_shown_without_its_citation():
+    # syr Q2: "He healed the sick and taught in parables" shares no word with
+    # syr.dw.gospel-harmony. Since 13 October (c5fee075) a sentence withheld
+    # for a reason other than a quotation is shown as written and only loses
+    # its citation; the quotation reasons alone remove a sentence.
+    sentence = "He healed the sick and taught in parables."
+    result = _replayed("syr", 2)
+    entry = next(e for e in result["net_result"]["sentences"] if e["sentence"] == sentence)
+    assert entry["verdict"] == "withhold" and entry["why"] not in grounding_net.QUOTATION_DROP_REASONS
+    assert _shown("syr", 2, sentence)
+    records = live11_replay.records("syr")
+    _text, citations, _n = apply_net(live11_replay.rebuild_draft(_turns()[("syr", 2)]["voice_event"]),
+                                     repository_records=records, thin_topics=None)
+    assert sentence not in [c["sentence"] for c in citations]
+
+
+# ---- rhythm: varied sentence length, no added connections ----------------
+
+
+def test_the_shape_asks_for_varied_rhythm_and_no_added_reasons():
+    shape = shape_text()
+    assert "8. Vary the rhythm." in shape
+    assert "never add a reason, motive, cause or 'because' that the record does not give" in shape
+
+
+def test_rhythm_counts_runs_of_three_short_sentences_and_the_spread():
+    flat = live11_replay.rhythm("He came. He saw. He left. Then the whole household followed him across the sea to Bethlehem.")
+    assert flat["short_runs"] == 1 and flat["sentences"] == 4 and flat["spread"] > 3
+    assert live11_replay.rhythm("One two three. Four five six.")["short_runs"] == 0
+
+
+def test_a_connective_the_tagged_record_does_not_use_is_counted():
+    sentences = [
+        {"sentence": "We keep the fast because we are asked to keep it.", "tags": ["fix.witness.w"]},
+        {"sentence": "We keep the fast because the moon commands it.", "tags": []},
+    ]
+    assert live11_replay.connective_claims(sentences, FIX) == ["We keep the fast because the moon commands it."]
