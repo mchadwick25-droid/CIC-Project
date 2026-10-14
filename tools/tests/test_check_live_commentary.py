@@ -1018,10 +1018,12 @@ def test_real_fleet_true_positives_still_match_on_main():
     # exactly the intended outcome, not a false positive - so it was
     # swapped for cappadocian's own matrix-cell-code example, a fleet-wide
     # leak (the bracketed build-taxonomy tag on every gravity/force `name`)
-    # not yet remediated in any world.
+    # not yet remediated in any world. The cappadocian rulings pass later
+    # cleared ascetic-ferment.md too, so the third example is now
+    # famine-crisis.md, still carrying the tag.
     assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.capitals-gravity.md")
     assert _new_pattern_hits("records/pahc/world_core/pahc.core.house-church.md")
-    assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.ascetic-ferment.md")
+    assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.famine-crisis.md")
 
 
 def test_real_editorial_numbered_labels_not_flagged_as_headers():
@@ -1486,7 +1488,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("fixtures/seeded_defects.yaml", 280, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 242, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),
-    ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 26, "PROTECTED"),
+    ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 27, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
     # 0cbe76d5..30b1cb93): the original cappadocian.voice.craft.md:106 line
     # was cleaned as part of that effort. Re-pinned to a stable
@@ -1502,7 +1504,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # Refreshed 2026-10-03: the alx tag strip (commit 468d97ff) cleaned this
     # line. Re-pinned to the same decision log as the row above.
     ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 41, "REWRITE"),
-    ("records/alx/source/alx.source.origen-comm-matthew.md", 22, "PROTECTED"),
+    ("records/alx/source/alx.source.origen-comm-matthew.md", 23, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
     # 0cbe76d5..30b1cb93): the original hal.force.clerical-precarity.md:52
     # line was cleaned as part of that effort. Re-pinned to a stable

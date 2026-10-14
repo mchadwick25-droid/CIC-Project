@@ -435,7 +435,7 @@ def report() -> int:
     return 0
 
 
-def write_readme() -> int:
+def render_readme() -> str:
     rows = build_rows()
     lines = [
         "# Vendored public-domain source texts",
@@ -492,18 +492,37 @@ def write_readme() -> int:
         "that carry the bibliographic and wording claims."
     )
     lines.append("")
+    return "\n".join(lines)
 
-    (TEXTS_DIR / "README.md").write_text("\n".join(lines), encoding="utf-8")
-    print(f"wrote {TEXTS_DIR / 'README.md'}: {sum(1 for r in rows if r.exists)} file(s) listed")
+
+def write_readme() -> int:
+    text = render_readme()
+    (TEXTS_DIR / "README.md").write_text(text, encoding="utf-8", newline="\n")
+    print(f"wrote {TEXTS_DIR / 'README.md'}")
+    return 0
+
+
+def check_readme() -> int:
+    """README.md matches what --write-readme would write now, so a record
+    that starts or stops citing a vendored file cannot leave its row stale."""
+    path = TEXTS_DIR / "README.md"
+    current = path.read_text(encoding="utf-8") if path.exists() else ""
+    if current != render_readme():
+        print(f"{path} is stale: run `python cic/engine/texts_registry.py --write-readme` and commit it.")
+        return 1
+    print(f"OK: {path} matches the records.")
     return 0
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--write-readme", action="store_true")
+    ap.add_argument("--check-readme", action="store_true")
     args = ap.parse_args()
     if args.write_readme:
         return write_readme()
+    if args.check_readme:
+        return check_readme()
     return report()
 
 
