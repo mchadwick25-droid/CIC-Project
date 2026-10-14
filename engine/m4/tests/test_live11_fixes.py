@@ -62,7 +62,7 @@ def test_a_turn_that_offers_quotes_lists_exactly_those_ids_with_speaker_and_gist
     text = _directive(quote_offers=candidates)
     for rid in offered:
         assert f"[[quote:{rid}]]" in text
-    assert "[[quote:syr.quote.nativity-this-is-the-day]] from Ephrem (" in text
+    assert "[[quote:syr.quote.nativity-this-is-the-day]], its sentence naming Ephrem (" in text
     assert turn_prep.QUOTE_DUE_LINE in text and turn_prep.QUOTE_SPEAKER_LINE in text
     assert turn_prep.NO_QUOTE_LINE not in text and turn_prep.NO_GROUND_LINE not in text
 
