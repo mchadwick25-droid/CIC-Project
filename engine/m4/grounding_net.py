@@ -257,6 +257,9 @@ SINGLE_QUOTE_MIN_WORDS = 4
 # demonstration exchanges and the voice-craft notes.
 _NOT_QUOTABLE_TYPES = frozenset({"demonstration", "voice_craft"})
 
+# The records that state the world's own confession and definitions.
+_WORLD_OWN_TYPES = frozenset({"doctrinal_witness", "term"})
+
 _ELLIPSIS = re.compile(r"\.{3}|\u2026")
 _WORD_TOKEN = re.compile(r"[a-z0-9]+")
 
@@ -380,6 +383,7 @@ class QuotationIndex:
         self._explanations: list[set[str]] | None = None
         self._record_words: dict[str, set[str]] = {}
         self._quote_words_memo: dict[tuple, str | None] = {}
+        self._own_words: list[set[str]] | None = None
 
     def _pool(self) -> list[str]:
         if self._haystacks is None:
@@ -446,6 +450,8 @@ class QuotationIndex:
                     self._words_of(t) for t in tags
                     if (self._records.get(t) or {}).get("record_type") not in _NOT_QUOTABLE_TYPES | {"quote", None}
                 ]
+                if _in_world_voice(sentence) and not reports_speech(sentence):
+                    explanations += self._world_own_words()
             if all(len(shared - explained) >= QUOTE_WORDS_UNEXPLAINED for explained in explanations):
                 return record_id
         return None
@@ -473,6 +479,47 @@ class QuotationIndex:
                 set(_word_sequence(text)) for text in gists + [strip_tags(t) for t in self._quotable_texts] if text
             ]
         return list(self._explanations)
+
+    def _world_own_words(self) -> list[set[str]]:
+        """The world's own confession and definitions: the words of each of
+        its doctrinal witnesses and terms, one set per record."""
+        if self._own_words is None:
+            self._own_words = [
+                self._words_of(rid) for rid, rec in self._records.items() if rec.get("record_type") in _WORLD_OWN_TYPES
+            ]
+        return self._own_words
+
+    def professes(self, sentence: str, quote_record: dict) -> bool:
+        """`sentence` is the world reciting its own confession or definition,
+        though a quote holds the same words: it speaks as the world does (no
+        I, me or you), names no speaker, reports no one's speech, and every
+        word it shares with the quote, but for one at most, stands in one of
+        the world's own doctrinal witnesses or terms."""
+        if not _in_world_voice(sentence) or self.names_speaker(sentence, quote_record) or reports_speech(sentence):
+            return False
+        speaker = {
+            _stem(t) for fid in self.speaker_ids(quote_record) for a in self._figure_aliases().get(fid, ()) for t in a
+        }
+        sequences = [_word_sequence(quote_record.get("modern_rendering") or ""), _word_sequence(quote_record.get("text") or "")]
+        shared = (set(_word_sequence(sentence)) - speaker) & {w for sequence in sequences for w in sequence}
+        return any(len(shared - words) < QUOTE_WORDS_UNEXPLAINED for words in self._world_own_words())
+
+    def term_gloss(self, span: str, outside: str, tags: list[str]) -> bool:
+        """The quoted span is a term's own gloss, word for word as the world's
+        term record gives it, in a sentence that tags or names the term and
+        reports no one's speech:
+        'Homoousios - "of one substance with the Father"'."""
+        piece = " ".join(_normalize(span).split())
+        if not piece or reports_speech(outside) or not _in_world_voice(outside):
+            return False
+        words = f" {' '.join(_normalize(outside).split())} "
+        for rid, rec in self._records.items():
+            if rec.get("record_type") != "term":
+                continue
+            word = " ".join(_normalize(rec.get("world_word") or "").split())
+            if (rid in tags or (word and f" {word} " in words)) and f" {piece} " in f" {_normalize(all_text(rec))} ":
+                return True
+        return False
 
     def _words_of(self, record_id: str) -> set[str]:
         if record_id not in self._record_words:
@@ -680,11 +727,59 @@ def _subject_before(sentence: str, start: int) -> str:
     return " ".join(words)
 
 
+# A speech verb inside a noun clause - "what he taught, where he walked" -
+# names a subject, not words: the comma after it ends a list item.
+_NOUN_CLAUSE_WORDS = frozenset({"what", "whatever", "where", "how", "which", "who", "whom", "whose"})
+_WE_WORDS = frozenset({"we", "our", "us", "ours"})
+
+
+def _in_noun_clause(subject: str) -> bool:
+    return any(w.lower().strip("'’") in _NOUN_CLAUSE_WORDS for w in subject.split())
+
+
+def _parenthetical_words(text: str, match: re.Match) -> bool:
+    """'in his own words,' set off inside a sentence about something else -
+    "the doctrine itself, in his own words, and the institutions", "What a
+    believer would have said, in their own words, we cannot show you" -
+    introduces no words: a clause joins after it, or the world's own 'we'
+    takes the sentence back. Only a comma form; a colon always introduces."""
+    rest = text[match.end():]
+    first = _WORD.search(rest)
+    return bool(_CLAUSE_JOIN.match(rest)) or bool(first and first.group(0).lower() in _WE_WORDS)
+
+
 def _is_name(segment: str, index: "QuotationIndex") -> bool:
     words = segment.split()
     if not words or words[0].lower() in _NON_NAMES:
         return False
     return words[0].lower().rstrip(".") in _NAME_TITLES or index.is_known_name(segment)
+
+
+# Reporting verbs, for indirect speech: "he sang that...", "the deacon taught
+# that...". Wider than _VERB, which reads only the forms that introduce words.
+_REPORTING = re.compile(rf"\b(?:{_VERB[3:-1]}|sang|sings|sing|sung|tell|told|tells|teach|taught|teaches|confess)\b", re.IGNORECASE)
+
+
+_PERSONAL = frozenset({"i", "me", "my", "mine", "you", "your", "yours"})
+
+
+def _in_world_voice(sentence: str) -> bool:
+    """No first-person singular and no second person: the world speaks as we,
+    and an 'I' or a 'you' in words it sets down is someone's speech."""
+    return not {w.lower() for w in _WORD.findall(_TAG.sub("", sentence))} & _PERSONAL
+
+
+def reports_speech(sentence: str) -> bool:
+    """Someone other than the world's own 'we' - a person, a pronoun, or a
+    source such as 'the hymn' - is the subject of a speaking, writing or
+    teaching verb in the sentence."""
+    text = _TAG.sub("", sentence)
+    for verb in _REPORTING.finditer(text):
+        subject = [w.lower() for w in _WORD.findall(_subject_before(text, verb.start()))]
+        # "we taught plainly that" is the world speaking; "our bishops said" is not
+        if subject and "we" not in subject[-3:]:
+            return True
+    return False
 
 
 def reads_as_lead(sentence: str) -> bool:
@@ -709,12 +804,21 @@ def _attribution(outside: str, index: "QuotationIndex") -> dict | None:
     if named_colon and _is_name(named_colon.group("name"), index):
         return {"opens": True, "words": bool(_WORD.search(text[named_colon.end():]))}
     for match in _FORMULA.finditer(text):
-        if match.group("verb") and match.group(0).endswith(",") and _CLAUSE_JOIN.match(text, match.end()):
+        comma = match.group(0).rstrip().endswith(",")
+        if match.group("verb") and comma and (
+            _CLAUSE_JOIN.match(text, match.end()) or _in_noun_clause(_subject_before(text, match.start()))
+        ):
+            continue
+        if match.group("words") and comma and _parenthetical_words(text, match):
             continue
         if match.group("as"):
             subject = match.group("who")
         elif match.group("verb"):
             subject = _subject_before(text, match.start())
+        elif match.group("acc"):
+            # "according to the scriptures": the source is what follows
+            # "according to", never a pronoun earlier in the sentence
+            subject = match.group(0)
         else:
             subject = match.group(0) + " " + _subject_before(text, match.start())
         if _names_someone(subject, index):
@@ -764,6 +868,13 @@ def _placed_verdict(text: str, tags: list[str], records: dict[str, dict], index:
     return {"sentence": text, "tags": tags, "verdict": "ok", "why": WHY_PLACED, "placed_quote": record_id}
 
 
+def placed_quote_holds(composed: str, records: dict[str, dict], index: QuotationIndex, record_id: str) -> bool:
+    """A sentence code composed around a quote record (tags included) passes
+    the net's placed-quote check: the one test placement and the net share."""
+    text = strip_tags(composed).strip()
+    return _placed_verdict(text, _TAG.findall(composed), records, index, record_id)["verdict"] == "ok"
+
+
 def _quotation_verdict(
     text: str, tags: list[str], records: dict[str, dict], index: QuotationIndex, placed_id: str | None = None,
 ) -> dict | None:
@@ -786,6 +897,7 @@ def _quotation_verdict(
     typed = [
         span for span in checked
         if len(_normalize(span[2]).split()) >= SINGLE_QUOTE_MIN_WORDS and not index.echoes(span[2])
+        and not index.term_gloss(span[2], outside, tags)
     ]
     if typed or foreign_unpaired:
         entry = {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_TYPED_QUOTATION}
@@ -827,10 +939,13 @@ def _unplaced_quote(
     """A quote's words reach a participant first only as a placed quote. A
     sentence that is not one is withheld when it is tagged to a quote record
     not yet voiced, or when its wording gives the words of a quote record
-    not yet voiced (QuotationIndex.quote_words_of). With `refer_back`, a
-    sentence tagged to a voiced quote record that names its speaker is
-    withheld too."""
-    if any(rec["id"] not in index.voiced for rec in quote_records):
+    not yet voiced (QuotationIndex.quote_words_of). Neither holds for the
+    world reciting its own confession or definitions: words one of its own
+    doctrinal witnesses or terms also says, in a sentence that names no
+    speaker and reports no one's speech (QuotationIndex.professes). With
+    `refer_back`, a sentence tagged to a voiced quote record that names its
+    speaker is withheld too."""
+    if any(rec["id"] not in index.voiced and not index.professes(text, rec) for rec in quote_records):
         return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_QUOTE_RECORD_UNVOICED}
     if refer_back and any(index.names_speaker(outside, rec) for rec in quote_records):
         return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_QUOTE_RECORD_UNPLACED}
@@ -845,7 +960,8 @@ def _apply_quotation_context(entries: list[dict], sizes: list[int]) -> None:
     place over one turn's verdicts (`sizes`: sentences per paragraph). A
     sentence that opens a quotation (an attribution ending in a colon, "put
     it this way.", an unclosed guillemet) takes the rest of its paragraph
-    with it. A sentence that only introduces what follows ("Athanasius
+    with it, up to a sentence that narrates the story again when its own
+    words stood in it. A sentence that only introduces what follows ("Athanasius
     says plainly:") is kept only when a placed quote follows it; otherwise
     it goes, with the rest of its paragraph, or the next paragraph when it
     ends its own. A typed quotation standing
@@ -881,7 +997,9 @@ def _apply_quotation_context(entries: list[dict], sizes: list[int]) -> None:
                 continue
             withhold(i, REASON_ATTRIBUTION_LEAD)
         for k in followers:
-            if entries[k].get("placed_quote"):
+            # the words end where a placed quote begins, or where the story
+            # they were spoken in is narrated again (_narrates_story)
+            if entries[k].get("placed_quote") or (not lead_only and entries[k].get("narrates_story")):
                 break
             withhold(k, REASON_UNPLACED_WORDS)
 
@@ -1031,7 +1149,27 @@ def verdict_for_sentence(
     )
     if quotation is not None:
         entry["opens_quote"] = True
+    elif _narrates_story(text, entry, repository_records, quotation_index):
+        entry["narrates_story"] = True
     return entry
+
+
+_SPEAKING_PERSON = _PERSONAL | _WE_WORDS
+
+
+def _narrates_story(text: str, entry: dict, records: dict[str, dict], index: "QuotationIndex | None") -> bool:
+    """The sentence tells a story of the world as its record retells it: it
+    cites story records only and is grounded in them, speaks in no first or
+    second person, and reports no one's speech. Such a sentence is the
+    narration going on, not the words of someone the sentence before
+    quoted ("The elders heard him and released the brother")."""
+    tags = entry.get("tags") or []
+    return (
+        entry.get("verdict") == "ok" and bool(tags)
+        and all((records.get(t) or {}).get("record_type") == "story" for t in tags)
+        and not {w.lower() for w in _WORD.findall(text)} & _SPEAKING_PERSON
+        and not reports_speech(text)
+    )
 
 
 def _claim_verdict(

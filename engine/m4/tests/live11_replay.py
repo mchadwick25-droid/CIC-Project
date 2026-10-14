@@ -1,0 +1,217 @@
+"""Offline replay of the 13 October eleven-world live test: each recorded
+reply rebuilt as the voice wrote it, run back through the reply shaping a
+turn applies (engine.m4.turn.settle_reply), with no model call.
+
+The reports keep every sentence of each draft, with its tags and quote
+marker, but not the draft whole: the sentences shown are kept in order with
+their paragraph sizes, and the sentences cut are listed apart, in the order
+they were cut. `rebuild_draft` puts the cut sentences back. A placement-cut
+lead-in goes back before the marker sentence cut with it, words cut after an
+attribution go back after that attribution, a stray closing mark rejoins the
+marker sentence it was cut from, and any other cut sentence goes back after
+the shown sentence that shares the most tags and words with it. The order of
+the cut sentences among the shown ones is therefore rebuilt, not recorded;
+`recorded_match` says, for each turn, whether the rebuilt draft gives back
+the recorded reply under the engine of the day.
+
+Records are the world's own records under records/, which the 13 October
+packages were compiled from."""
+import json
+import re
+from functools import lru_cache
+from pathlib import Path
+
+from engine.m1.loader import load_world_records
+from engine.m4 import evidence, grounding_net
+from engine.m4.quote_placement import PlacementContext
+from engine.m4.turn import apply_net, settle_reply
+
+REPO_ROOT = Path(__file__).resolve().parents[3]
+REPORTS = REPO_ROOT / "engine" / "m4" / "reports"
+READING = REPO_ROOT / "Build" / "Ministry" / "Operations" / "Audits" / "live11_eleven_world_test_reading_2026-10-13.json"
+WORLDS = ("alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "rzg", "syr", "witt")
+
+_PLACEMENT_LEAD_IN = "lead-in to a quote that was not placed"
+_AFTER_ATTRIBUTION = "words after an attribution, not a placed quote"
+_SECOND_QUOTE = "second placed quote in one reply"
+_STRAY = re.compile(r"^[\s\"'“”‘’.,;:!?]+$")
+_WORD = re.compile(r"[a-z]+")
+
+
+@lru_cache(maxsize=None)
+def report(world: str) -> dict:
+    return json.loads((REPORTS / f"live-turn-report-{world}-2026-10-13-eleven-world-test.json").read_text())
+
+
+@lru_cache(maxsize=None)
+def records(world: str) -> dict:
+    return load_world_records(world)
+
+
+def _words(draft: str) -> set[str]:
+    return set(_WORD.findall(draft.lower())) | set(grounding_net._TAG.findall(draft))
+
+
+def rebuild_draft(voice_event: dict) -> str:
+    """The draft as the voice wrote it, rebuilt as the module docstring says."""
+    grounding = voice_event["grounding"]
+    sizes = [p["sentence_count"] for p in grounding["paragraph_coverage"]]
+    shown = [s["draft"] for s in grounding["sentences"]]
+    paragraphs, start = [], 0
+    for size in sizes:
+        paragraphs.append(list(shown[start : start + size]))
+        start += size
+    strays = [(p, i) for p, para in enumerate(paragraphs) for i, d in enumerate(para) if _STRAY.match(d)]
+    placed: list[tuple[int, int]] = []
+
+    def insert_after(p: int, i: int, draft: str) -> tuple[int, int]:
+        paragraphs[p].insert(i + 1, draft)
+        placed[:] = [(pp, ii + 1 if pp == p and ii > i else ii) for pp, ii in placed]
+        strays[:] = [(pp, ii + 1 if pp == p and ii > i else ii) for pp, ii in strays]
+        return p, i + 1
+
+    def bare_marker(p: int, i: int) -> bool:
+        return 0 <= i < len(paragraphs[p]) and not _words(grounding_net.QUOTE_MARKER.sub("", paragraphs[p][i]))
+
+    cuts = voice_event["reply_shape"]["removed"]
+    # A second marker was refused only because an earlier one had been placed:
+    # it goes back after the last marker the reply carries.
+    cuts = [c for c in cuts if c["why"] != _SECOND_QUOTE] + [c for c in cuts if c["why"] == _SECOND_QUOTE]
+    for n, cut in enumerate(cuts):
+        draft = cut["draft"]
+        # an attribution whose followers were cut took the rest of its
+        # paragraph with it, so nothing shown followed it there
+        opens_rest = n + 1 < len(cuts) and cuts[n + 1]["why"] == _AFTER_ATTRIBUTION
+        if cut["why"] == _SECOND_QUOTE:
+            marked = [(p, i) for p, para in enumerate(paragraphs) for i, d in enumerate(para)
+                      if grounding_net.QUOTE_MARKER.search(d)]
+            at = insert_after(*marked[-1], draft) if marked else insert_after(len(paragraphs) - 1, len(paragraphs[-1]) - 1, draft)
+        elif cut["why"] == _PLACEMENT_LEAD_IN and placed:
+            p, i = placed[-1]
+            at = insert_after(p, i - 1, draft)
+        elif cut["why"] == _AFTER_ATTRIBUTION and placed:
+            at = insert_after(*placed[-1], draft)
+        elif grounding_net.QUOTE_MARKER.search(draft) and draft.rstrip().endswith("]]") and strays:
+            p, i = strays.pop(0)
+            paragraphs[p][i] = draft + paragraphs[p][i].strip()
+            at = (p, i)
+        else:
+            own = _words(draft)
+            best, best_score = None, 0
+            for p, para in enumerate(paragraphs):
+                for i, kept in enumerate(para):
+                    score = len(own & _words(kept))
+                    if score and score >= best_score:
+                        best, best_score = (p, i), score
+            if best is None:
+                paragraphs.append([])
+                best = (len(paragraphs) - 1, -1)
+            if opens_rest:
+                best = (best[0], len(paragraphs[best[0]]) - 1)
+            if draft.lstrip()[:1] in "\"“":
+                # a typed quotation standing alone, with no lead-in cut beside it, closed the reply
+                best = (len(paragraphs) - 1, len(paragraphs[-1]) - 1)
+            # never between a lead-in and the bare marker it introduces
+            while bare_marker(best[0], best[1] + 1):
+                best = (best[0], best[1] + 1)
+            at = insert_after(*best, draft)
+        placed.append(at)
+    return "\n\n".join(" ".join(para) for para in paragraphs if para)
+
+
+def turns() -> list[dict]:
+    """Every turn of every world, with what the turn's net was given: the
+    quotes offered, the quotes and stories the conversation had already
+    cited, and the participant's words so far."""
+    out = []
+    for world in WORLDS:
+        told: set[str] = set()
+        asked: list[str] = []
+        for number, result in enumerate(report(world)["results"], start=1):
+            voice_event = result["result"]["voice_event"]
+            asked.append(result["message"])
+            out.append({
+                "world": world, "q": number, "message": result["message"], "voice_event": voice_event,
+                "told": frozenset(told), "asked": list(asked),
+            })
+            told |= {rid for c in voice_event["citations"] for rid in c["record_ids"]}
+    return out
+
+
+def replay(turn: dict) -> dict:
+    """The reply the rebuilt draft gives now: (text, net_result, fallback)."""
+    world_records = records(turn["world"])
+    voice_event = turn["voice_event"]
+    kinds = {rid: (world_records.get(rid) or {}).get("record_type") for rid in turn["told"]}
+    placement = PlacementContext(
+        offered=frozenset(voice_event["offered_ids"].get("quote", [])),
+        voiced=frozenset(r for r, k in kinds.items() if k == "quote"),
+        told_stories=frozenset(r for r, k in kinds.items() if k == "story"),
+    )
+    thin = evidence.thin_topics_for(world_records)
+
+    def net(raw):
+        return apply_net(raw, repository_records=world_records, thin_topics=thin,
+                         quotable_texts=turn["asked"], placement=placement)
+
+    draft = rebuild_draft(voice_event)
+    text, _citations, net_result = net(draft)
+    settled = settle_reply(draft, text, net_result, voice_event["offered_ids"], world_records, net)
+    return {"draft": draft, "text": settled["text"], "net_result": settled["net_result"],
+            "fallback": settled["answer_record_fallback"], "first_text": text, "first_net": net_result}
+
+
+def _speaker_named(world: str, net_result: dict) -> list[bool]:
+    world_records = records(world)
+    index = grounding_net.QuotationIndex(world_records)
+    named = []
+    for entry in net_result["sentences"]:
+        rid = entry.get("placed_quote")
+        if rid:
+            lead = grounding_net._outside_quotations(entry["sentence"], grounding_net._checked_pairs(entry["sentence"]))
+            named.append(index.names_speaker(lead, world_records[rid]))
+    return named
+
+
+def overcut_sentences() -> dict[tuple[str, int], list[str]]:
+    reading = json.loads(READING.read_text())
+    found: dict[tuple[str, int], list[str]] = {}
+    for world, entry in reading["worlds"].items():
+        for overcut in entry.get("cuts_overcut") or []:
+            sentence = grounding_net.strip_tags(overcut["sentence"]).strip()
+            found.setdefault((world, int(overcut["q"].lstrip("Q"))), []).append(sentence)
+    return found
+
+
+def _shown(sentence: str, text: str) -> bool:
+    return " ".join(sentence.split()).rstrip(".") in " ".join(text.split())
+
+
+def summary(results: list[tuple[dict, dict]]) -> dict:
+    """The counts the PR reports, over (turn, replay) pairs."""
+    overcuts = overcut_sentences()
+    counts = {
+        "turns": len(results), "cuts": 0, "overcuts_still_cut": 0, "overcuts_listed": sum(map(len, overcuts.values())),
+        "fallbacks": 0, "degraded_sent": 0, "placed_quotes": 0, "placed_without_speaker_named": 0,
+        "stray_punctuation_sentences": 0,
+    }
+    for turn, result in results:
+        net_result = result["first_net"]
+        counts["cuts"] += len(net_result["reply_shape"]["removed"])
+        counts["fallbacks"] += result["fallback"] is not None
+        counts["degraded_sent"] += bool(result["text"].strip()) and not result["net_result"]["substantive_survives"]
+        named = _speaker_named(turn["world"], net_result)
+        counts["placed_quotes"] += len(named)
+        counts["placed_without_speaker_named"] += named.count(False)
+        counts["stray_punctuation_sentences"] += sum(bool(_STRAY.match(s["sentence"])) for s in net_result["sentences"])
+        for sentence in overcuts.get((turn["world"], turn["q"]), []):
+            counts["overcuts_still_cut"] += not _shown(sentence, result["first_text"])
+    return counts
+
+
+def run_all() -> list[tuple[dict, dict]]:
+    return [(turn, replay(turn)) for turn in turns()]
+
+
+if __name__ == "__main__":
+    print(json.dumps(summary(run_all()), indent=2))

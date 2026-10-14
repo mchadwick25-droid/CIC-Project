@@ -7,6 +7,7 @@ produce byte-identical outputs.
 """
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field, replace
 
 from engine.m1.loader import load_fleet_records
@@ -260,13 +261,63 @@ OBLIQUE_WHO_DIRECTIVE = (
 )
 
 
-QUOTE_LINE = "One quote in full, placed with [[quote:id]] from the records in front of you, not one already voiced in this conversation."
+# The quotes a reply may place are exactly the turn's offered quotes not yet
+# voiced, so the directive names them, or says there are none. Told only "one
+# quote in full" on a turn whose ground offered no quote, the voice wrote
+# markers anyway, several for ids no record has (13 October live test).
+NO_QUOTE_LINE = (
+    "No quote is offered this turn. Write no [[quote:...]] marker and tag no quote record. Put no one's words "
+    "in quotation marks or after 'said', 'wrote' or a colon; say what they did or taught in your own words."
+)
+QUOTE_OFFERS_LINE = "Quotes you may place this turn, and no others: {offers}."
+QUOTE_DUE_LINE = "Place one of them in full."
+QUOTE_OPTIONAL_LINE = "Place one only where it answers the ask; no quote is needed."
+QUOTE_SPEAKER_LINE = (
+    "A marker ends a sentence that names the quote's speaker, as listed (\"Ephrem wrote: [[quote:id]]\" is the shape). "
+    "Never put it after 'he' or 'she', after an unnamed teacher, or alone after an earlier sentence. "
+    "Never write the quote's words yourself."
+)
+NO_GROUND_LINE = (
+    "No ground block this turn. Tag only with ids printed after 'cite as' above, each copied whole, "
+    "its type part included."
+)
 NO_NEW_FIGURE_LINE = "Speak of the people already named; introduce no new figure this turn."
 LEXICON_LINE = "Use the world's own words for what it held."
 REFER_BACK_LINE = (
     "Where a record marked as already used bears on this answer, refer back to it in your own way "
     "rather than repeating it."
 )
+
+
+def _speaker_name(label: str) -> str:
+    """A quote's speaker as the voice names it: the name, without the work,
+    locus or note the record's speaker field adds after it."""
+    return re.split(r"\s+--\s+|[,(;]", label or "", maxsplit=1)[0].strip() or "unattributed"
+
+
+def _quote_lines(offers: list[dict], *, due: bool) -> list[str]:
+    """The directive's quote lines: the quotes this reply may place, by
+    marker, speaker and gist, or that there are none."""
+    if not offers:
+        return [NO_QUOTE_LINE]
+    listed = "; ".join(
+        f"[[quote:{c['id']}]] from {_speaker_name(c.get('speaker'))}" + (f" ({c['gist']})" if c.get("gist") else "")
+        for c in offers
+    )
+    return [
+        QUOTE_OFFERS_LINE.format(offers=listed),
+        QUOTE_DUE_LINE if due else QUOTE_OPTIONAL_LINE,
+        QUOTE_SPEAKER_LINE,
+    ]
+
+
+def _placeable_quotes(turn_evidence: dict) -> list[dict]:
+    """The evidence block's quotes that may be placed: offered, and not
+    already given in this conversation (engine.m4.evidence._quote_line)."""
+    return [
+        c for c in turn_evidence["candidates"]
+        if c["record_type"] == "quote" and not c.get("used_in_round") and not c.get("already_told_this_session")
+    ]
 
 
 def _kind_directive(kind: str | None, oblique: bool) -> str | None:
@@ -310,6 +361,8 @@ def _build_turn_directive(
     rhythm: RhythmTally | None = None,
     quote_asked: bool = False,
     refer_back: bool = False,
+    quote_offers: list[dict] | None = None,
+    has_ground: bool = True,
 ) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
@@ -365,8 +418,9 @@ def _build_turn_directive(
         parts.append(CONCISION_DIRECTIVE)
         if kind_line := _kind_directive(kind, oblique):
             parts.append(kind_line)
-        if quote_asked or rhythm is None or rhythm.quote_due:
-            parts.append(QUOTE_LINE)
+        parts += _quote_lines(quote_offers or [], due=quote_asked or rhythm is None or rhythm.quote_due)
+        if not has_ground:
+            parts.append(NO_GROUND_LINE)
         if rhythm is not None and rhythm.figure_gate_closed:
             parts.append(NO_NEW_FIGURE_LINE)
         parts.append(LEXICON_LINE)
@@ -556,6 +610,8 @@ def prepare_voice_turn_inputs(
         rhythm=rhythm,
         quote_asked=quote_asked,
         refer_back=any(c.get("used_in_round") for c in turn_evidence["candidates"]),
+        quote_offers=_placeable_quotes(turn_evidence),
+        has_ground=bool(turn_evidence["candidates"]),
     )
     if correction:
         turn_directive = (turn_directive or "") + correction
