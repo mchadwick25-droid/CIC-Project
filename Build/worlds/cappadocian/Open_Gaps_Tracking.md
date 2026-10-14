@@ -859,3 +859,10 @@ Mark ruled that `use_note.means` is in scope where it contradicts the corrected 
 No not_for or years line was changed. The same check found that the `text` of `cappadocian.story.thaumaturgus-legend` still said "a region"; it now names the city of Neocaesarea, matching its summary and the source (cic/texts/anf06, lines 839-840).
 
 Status: CLOSED.
+
+
+### OG-46. A post-window term in a use note, found by the horizon gate, 2026-10-14.
+
+The horizon gate now reads `use_note.means`, which the evidence block gives the voice (System Hub Decision Log, 14 October second fix slice). `cappadocian.dw.not-later-formulas` `use_note.means` named transubstantiation (the Fourth Lateran Council, 1215). It now says "inherited guilt, a change in the bread's substance, and faith alone were not categories this world used", which keeps the fact without the later term. The record's `text` and `positions` still name it, under the existing `m1:horizon/cappadocian` waiver (4). Package rebuilt and repinned.
+
+Status: CLOSED for `use_note.means`.
