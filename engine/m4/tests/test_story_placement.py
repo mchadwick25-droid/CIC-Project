@@ -187,6 +187,24 @@ def test_an_introduction_naming_someone_the_story_does_not_goes_and_the_story_is
     assert _whys(net_result) == [REASON_STORY_INTRO]
 
 
+def test_an_introduction_that_opens_on_another_name_goes(desert):
+    text, _c, net_result = _net(f"Antony said this of Moses [[story:{MOSES}]].", desert, _offer(MOSES))
+    assert text == _telling_shown(desert[MOSES]) and _whys(net_result) == [REASON_STORY_INTRO]
+
+
+def test_an_introduction_naming_an_accented_or_capitalised_stranger_goes(desert):
+    for intro in ("One of us, Moses, learned it from Évagrios", "Our sayings keep Abba MOSES and ARSENIUS"):
+        text, _c, net_result = _net(f"{intro} [[story:{MOSES}]].", desert, _offer(MOSES))
+        assert _whys(net_result) == [REASON_STORY_INTRO], intro
+
+
+def test_a_possessive_name_of_the_storys_own_person_holds(desert):
+    for intro, story in (("We keep Antony's call", ANTONY_CALL), ("We keep Amma Sarah’s saying", SARAH)):
+        text, _c, net_result = _net(f"{intro} [[story:{story}]].", desert, _offer(story))
+        assert net_result["reply_shape"]["removed"] == [], intro
+        assert text.startswith(f"{intro}:"), intro
+
+
 def test_an_introduction_naming_the_community_alone_holds(desert):
     text, _c, net_result = _net(f"Here is one of ours [[story:{MOSES}]].", desert, _offer(MOSES))
     assert text.startswith("Here is one of ours:\n\n") and net_result["reply_shape"]["removed"] == []

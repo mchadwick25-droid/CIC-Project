@@ -51,9 +51,10 @@ from engine.m4.quote_placement import (
     _Report,
     _take_lead_in,
 )
-from engine.prose import quote_aware_sentences
+from engine.prose import _STOPWORDS, quote_aware_sentences
 
-_NAME = re.compile(r"\b[A-Z][a-z][A-Za-z'’-]*")
+_WORD = re.compile(r"[^\W\d_][\w'’-]*")
+_POSSESSIVE = re.compile(r"(?:['’]s?)$")
 _COMMUNITY = re.compile(r"\b(?:we|us|our|ours)\b", re.IGNORECASE)
 _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 _STORY_MARKER_ID = re.compile(r"\[\[\s*story\s*:\s*([a-z0-9_.-]+)\s*\]\]", re.IGNORECASE)
@@ -183,16 +184,27 @@ def _story_verdict(
     return None, record
 
 
+def _names(text: str) -> list[str]:
+    """The capitalised words of a text (a capital, then a lower-case letter,
+    or a word in capitals), possessive endings off and title-cased: the
+    names it carries."""
+    return [
+        _POSSESSIVE.sub("", w).title() for w in _WORD.findall(text)
+        if w[0].isupper() and (w[1:2].islower() or (len(w) > 1 and w.isupper()))
+    ]
+
+
 def _intro_holds(lead: str, record: dict) -> bool:
     """The introduction names the story's own people or the community, and
     no one else (module docstring)."""
-    text = strip_tags(lead).strip()
+    text = strip_tags(lead).strip().lstrip("\u201c\"\u2018'(")
     story = " ".join(filter(None, [record.get("telling"), record.get("tellable_as"), (record.get("use_note") or {}).get("means")]))
-    known = set(_NAME.findall(story))
-    names = _NAME.findall(text)
-    # A sentence's first word is capitalised whatever it is, so it counts
-    # only when the story names it.
-    later = names[1:] if _NAME.match(text) else names
+    known = set(_names(story))
+    names = _names(text)
+    # A sentence's first word is capitalised whatever it is; an ordinary
+    # word there ("Our", "When") is not a name.
+    first = _WORD.match(text)
+    later = names[1:] if first and names and first.group(0).lower() in _STOPWORDS else names
     if any(name not in known for name in later):
         return False
     return any(name in known for name in names) or bool(_COMMUNITY.search(text))
