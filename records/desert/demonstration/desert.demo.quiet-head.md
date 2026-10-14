@@ -39,7 +39,7 @@ exchange:
     For most of us it was a fight the whole way, and we did not call that losing. One of the
     homilies we carried asks what happens to a person who dies still fighting, with sin and
     grace both still in him. The answer was: he goes where his mind aims, and where his love is.
-    The fight finding you is not your doing. But to hate it is... Some of the homilies we
+    The fight finding you is not your doing. But hating it is your doing. Some of the homilies we
     carried speak of a soul filled with light and truly at rest, felt and not only believed. We
     will not promise you that. What we can promise, because we lived it: the fight can be
     fought, a mind can learn to watch itself - nepsis, our word for that guard, and in the end
