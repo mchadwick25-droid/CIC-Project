@@ -1221,11 +1221,14 @@ def _with_quote_index(candidate: dict, repository_records: dict[str, dict]) -> d
         return candidate
     record = repository_records.get(candidate["id"]) or {}
     gist = " ".join(((record.get("use_note") or {}).get("means") or "").split())
-    return {
-        **candidate, "speaker": _quote_speaker_label(record, repository_records) or "unattributed", "gist": gist,
-        # the name the placed-quote check looks for in the marker's sentence
-        "speaker_name": QuotationIndex(repository_records).speaker_name(record) or "unattributed",
-    }
+    name = QuotationIndex(repository_records).speaker_name(record) or "unattributed"
+    label = _quote_speaker_label(record, repository_records) or "unattributed"
+    head = label.split()[0]
+    if (repository_records.get(head) or {}).get("record_type") == "source":
+        # a source record's id stands for its writer: show the name, keep the note
+        label = name + label[len(head):]
+    # speaker_name: the name the placed-quote check looks for in the marker's sentence
+    return {**candidate, "speaker": label, "gist": gist, "speaker_name": name}
 
 
 def _quote_line(candidate: dict, descriptors: list[str]) -> str:

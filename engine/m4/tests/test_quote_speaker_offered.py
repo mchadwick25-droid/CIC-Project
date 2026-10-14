@@ -116,5 +116,5 @@ def test_one_word_of_the_offered_name_does_not_stand_for_it(world, quote_id, lea
     index = grounding_net.QuotationIndex(records)
     record = records[quote_id]
     composed = f"{lead} \u201c{record['modern_rendering']}\u201d [[{quote_id}]]"
-    assert grounding_net.placed_quote_refusal(composed, records, index, quote_id) is not None
+    assert grounding_net.placed_quote_refusal(composed, records, index, quote_id) == grounding_net.REASON_SPEAKER_UNNAMED
 
