@@ -18,11 +18,13 @@ scrub and before quote placement:
   standing alone takes the sentence before it as its introduction; words
   after the marker in its sentence are cut.
 - the introduction names the story's own people or the community: every
-  name it carries (a capitalised word past its first) stands in the story's
-  telling, `tellable_as` or `use_note.means`, and it carries one of them or
-  "we", "us", "our", "ours". God, Lord, Christ, Gospel, Scripture, Saint,
-  Abba and Amma never count as names. One that names anyone else goes, and the story
-  is still placed, after the voice's text before it; code adds no words.
+  name it carries stands in the story's telling, `tellable_as` or
+  `use_note.means`, and it carries one of them or "we", "us", "our", "ours".
+  A name is a capitalised word; the first word counts only when the story
+  or the world's own records use it as a name, and church vocabulary
+  (`_NOT_NAMES`) never counts. One that names anyone else goes, and the
+  story is still placed, after the voice's text before it; code adds no
+  words.
 - a marker for a story not offered this turn, one without a telling, one
   the conversation has already told, or a second story in one reply places
   nothing, and its sentence goes with it.
@@ -55,11 +57,18 @@ from engine.m4.quote_placement import (
 from engine.prose import _STOPWORDS, quote_aware_sentences
 
 _WORD = re.compile(r"[^\W\d_][\w'’-]*")
-_POSSESSIVE = re.compile(r"(?:['’]s?)$")
-# Capitalised words that are never a person's name in an introduction (the
-# project lead's ruling of 14 October). A title is skipped, the name after
-# it is not: "Abba Moses" still names Moses.
-_NOT_NAMES = frozenset({"God", "Lord", "Christ", "Gospel", "Scripture", "Saint", "Abba", "Amma"})
+_POSSESSIVE = re.compile(r"['’][sS]?$")
+# Church vocabulary that is never a person's name in an introduction (the
+# project lead's rulings of 14 October), kept here and nowhere else. A title
+# is skipped, the name after it is not: "Abba Moses" still names Moses. These
+# words only stop a word counting as a wrong name; an introduction must still
+# name one of the story's own people or the community.
+_NOT_NAMES = frozenset({
+    "God", "Lord", "Christ", "Jesus", "Saviour", "Savior", "Holy", "Spirit", "Father", "Son", "Trinity",
+    "Gospel", "Gospels", "Scripture", "Scriptures", "Bible", "Psalm", "Psalms",
+    "Apostle", "Apostles", "Prophet", "Prophets", "Saint", "Saints", "Abba", "Amma",
+    "Church", "Eucharist", "Baptism", "Easter", "Lent", "Sabbath", "Heaven", "Kingdom",
+})
 _COMMUNITY = re.compile(r"\b(?:we|us|our|ours)\b", re.IGNORECASE)
 _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 _STORY_MARKER_ID = re.compile(r"\[\[\s*story\s*:\s*([a-z0-9_.-]+)\s*\]\]", re.IGNORECASE)
@@ -111,6 +120,7 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
     placed: list[str] = []
     paragraphs_out: list[list[str]] = []
     unplaced = context.offered_stories - context.told_stories
+    world_names = _world_names(repository_records)
     if not STORY_MARKER.search(tagged_text or "") and not unplaced & set(_TAG.findall(tagged_text or "")):
         return {"text": tagged_text or "", "placed": [], "placed_sentences": {}, "placed_drafts": {}, "removed": []}
 
@@ -133,7 +143,7 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
                 lead = _take_lead_in(kept, paragraphs_out, sealed)
                 drafted = f"{lead} {drafted}".strip()
             if reason is None:
-                if _intro_holds(lead, record):
+                if _intro_holds(lead, record, world_names):
                     intro = _story_intro(lead, record["id"])
                     kept.append(intro)
                     report.placed_drafts[placed_key(strip_tags(intro))] = drafted
@@ -200,20 +210,43 @@ def _names(text: str) -> list[str]:
     return [name for name in names if name not in _NOT_NAMES]
 
 
-def _intro_holds(lead: str, record: dict) -> bool:
+def _story_text(record: dict) -> str:
+    return " ".join(filter(None, [record.get("telling"), record.get("tellable_as"), (record.get("use_note") or {}).get("means")]))
+
+
+def _world_names(repository_records: dict[str, dict]) -> set[str]:
+    """The words the world's own records use as names: its figures' names,
+    and each capitalised word its stories carry past a sentence's first
+    that they never write in lower case and that is no function word (a
+    quoted sentence inside a sentence begins with a capital too)."""
+    names: set[str] = set()
+    lower: set[str] = set()
+    for record in repository_records.values():
+        if record.get("record_type") == "figure":
+            names |= {n for entry in record.get("names") or [] for n in _names(entry.get("name") or "")}
+        elif record.get("record_type") == "story":
+            text = _story_text(record)
+            lower |= {w for w in _WORD.findall(text) if w.islower()}
+            for sentence in quote_aware_sentences(text):
+                names |= set(_names(" ".join(_WORD.findall(sentence)[1:])))
+    return {n for n in names if n.lower() not in lower and n.lower() not in _STOPWORDS}
+
+
+def _intro_holds(lead: str, record: dict, world_names: set[str]) -> bool:
     """The introduction names the story's own people or the community, and
-    no one else (module docstring)."""
+    no one else (module docstring). A sentence's first word is capitalised
+    whatever it is, so it counts as a name only when the story or the
+    world's own records use it as one ("Antony"), not otherwise
+    ("Remember", "Once")."""
     text = strip_tags(lead).strip().lstrip("\u201c\"\u2018'(")
-    story = " ".join(filter(None, [record.get("telling"), record.get("tellable_as"), (record.get("use_note") or {}).get("means")]))
-    known = set(_names(story))
-    names = _names(text)
-    # A sentence's first word is capitalised whatever it is; an ordinary
-    # word there ("Our", "When") is not a name.
-    first = _WORD.match(text)
-    later = names[1:] if first and names and first.group(0).lower() in _STOPWORDS and first.group(0).title() == names[0] else names
-    if any(name not in known for name in later):
+    known = set(_names(_story_text(record)))
+    words = _WORD.findall(text)
+    first = _names(words[0]) if words else []
+    later = _names(" ".join(words[1:]))
+    counted = [*(n for n in first if n in known or n in world_names), *later]
+    if any(name not in known for name in counted):
         return False
-    return any(name in known for name in names) or bool(_COMMUNITY.search(text))
+    return bool(counted) or bool(_COMMUNITY.search(text))
 
 
 def _without_paraphrase(paragraphs: list[list[str]], stories: set[str], report: _Report) -> list[list[str]]:

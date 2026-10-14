@@ -213,6 +213,25 @@ def test_god_lord_gospel_and_titles_never_count_as_names_but_the_name_after_a_ti
     assert text == _telling_shown(desert[MOSES]) and _whys(net_result) == [REASON_STORY_INTRO]
 
 
+def test_an_ordinary_opening_word_is_not_taken_for_a_name(desert):
+    for intro in ("Remember Moses and his basket", "Once Moses was asked to judge a brother", "Consider Moses at Scete"):
+        text, _c, net_result = _net(f"{intro} [[story:{MOSES}]].", desert, _offer(MOSES))
+        assert net_result["reply_shape"]["removed"] == [] and text.startswith(f"{intro}:"), intro
+
+
+def test_church_words_never_count_as_names_but_never_make_an_introduction_hold_alone(desert):
+    text, _c, net_result = _net(f"The Holy Spirit moved Abba Moses at Scete [[story:{MOSES}]].", desert, _offer(MOSES))
+    assert net_result["reply_shape"]["removed"] == []
+    for intro in ("Jesus said this", "So the LORD'S mercy reached Antony"):
+        text, _c, net_result = _net(f"{intro} [[story:{MOSES}]].", desert, _offer(MOSES))
+        assert text == _telling_shown(desert[MOSES]) and _whys(net_result) == [REASON_STORY_INTRO], intro
+
+
+def test_a_possessive_in_capitals_reads_as_its_name(desert):
+    text, _c, net_result = _net(f"So the LORD'S mercy reached MOSES at Scete [[story:{MOSES}]].", desert, _offer(MOSES))
+    assert net_result["reply_shape"]["removed"] == []
+
+
 def test_an_introduction_naming_the_community_alone_holds(desert):
     text, _c, net_result = _net(f"Here is one of ours [[story:{MOSES}]].", desert, _offer(MOSES))
     assert text.startswith("Here is one of ours:\n\n") and net_result["reply_shape"]["removed"] == []
