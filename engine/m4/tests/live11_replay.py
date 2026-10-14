@@ -353,7 +353,7 @@ def quote_sentence_scan(worlds: tuple[str, ...] = RUNS[FIRST_RUN]["worlds"]) -> 
     whose wording shares most words with it. How many of each pass the net's
     quotation checks: what a cited record lets the voice say of a quote."""
     from engine.m4.evidence import _with_quote_index
-    from engine.m4.turn_prep import _speaker_name
+    from engine.m4.turn_prep import _offered_speaker
 
     counts = {"sentences": 0, "plain": 0, "indirect": 0, "direct": 0}
     for world in worlds:
@@ -364,7 +364,7 @@ def quote_sentence_scan(worlds: tuple[str, ...] = RUNS[FIRST_RUN]["worlds"]) -> 
         for rid, rec in sorted(world_records.items()):
             if rec.get("record_type") != "quote" or not rec.get("modern_rendering"):
                 continue
-            speaker = _speaker_name(_with_quote_index({"id": rid, "record_type": "quote"}, world_records).get("speaker"))
+            speaker = _offered_speaker(_with_quote_index({"id": rid, "record_type": "quote"}, world_records))
             for sentence in quote_aware_sentences(rec["modern_rendering"]):
                 sentence = sentence.strip().strip('"\u201c\u201d').rstrip(".")
                 own = set(grounding_net._word_sequence(sentence))
