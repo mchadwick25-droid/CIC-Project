@@ -1570,3 +1570,11 @@ The project lead looked at this idea and set it aside, kept here as a possible i
 ## 2026-10-13 - The sentence-enforcement retry and set-aside removed from `main`
 
 Under the System Hub Decision Log entry "Quotes placed by code, with no paid rewrite" (2026-10-13), the open gap from the 10-11 October rollback that `main` still carries the sentence-enforcement retry and the Facilitator set-aside is closed on the branch `engine/quotes-by-code-no-rewrite`, once merged. Still open: the promotion of `main` to `live` waits on the named, capped live test of all eleven worlds, which is also the admission the promotion needs; AWS credentials in this environment failed on 13 October. The recitation retry stays on `live` and `main`, a separate decision.
+
+## 2026-10-14 - A typed multi-sentence quotation streams before the net removes it
+
+Found by the independent review of the eleven-world fix slice (System Hub Decision Log, "2026-10-14 - Eleven-world fix slice"), and present before that slice. When the voice types a quotation that runs over several sentences, `engine.m4.sentence_stream` splits it inside the open quotation marks and releases each piece; the finished reply then removes the whole quotation as typed by the voice. Replayed examples: witt Q6 (the Large Catechism passage on the Sacrament) and cappadocian Q6 (Basil's ant passage). A participant would see words the net then takes back, against the module's own "No streamed sentence is ever taken back" and decision 61.
+- Exposure: none on `live` today. Streaming stays off for the pilot (System Hub Decision Log, 2026-10-12); `CIC_API_STREAMING` is set only on staging.
+- What a fix would involve: the stream holding a sentence while a quotation mark it opened is still unclosed, the same hold-back it already applies to demonstration runs.
+- Must be fixed before streaming is turned on anywhere participants are.
+- Status: OPEN.
