@@ -204,6 +204,16 @@ services:
         sync: false
       - key: CIC_API_BACKUP_BUCKET_SECRET_ACCESS_KEY
         sync: false
+      - key: CIC_DEEPER_ENABLED
+        value: "1"
+      - key: CIC_DEEPER_SITE_ORIGIN
+        value: https://churchinconversation.com
+      - key: CIC_DEEPER_FREE_KEY
+        sync: false
+      - key: VITE_DEEPER_ENABLED
+        value: "on"
+      - key: VITE_DEEPER_SITE_ORIGIN
+        value: https://churchinconversation.com
 
   # STAGING (D3, phase 3, 2026-09-15). Deploys every push to `main` -
   # the integration sandbox - so a change is running here before it is
