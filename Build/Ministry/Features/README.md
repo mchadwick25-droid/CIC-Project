@@ -14,6 +14,7 @@ exactly what has and hasn't crossed that line.
 | [Full-UX-Design](Full-UX-Design/README.md) | V1.0 approved; visual identity live in `cic-poc/`/`cic-website/` |
 | [Prototype-Testing](Prototype-Testing/README.md) | Active pilot program |
 | [Website](Website/README.md) | Active; a held-back launch prompt awaits a world-build dependency |
+| [Source-Library](Source-Library/README.md) | Design approved to proceed 2026-10-14; every citation links to the passage in our own Library. Build starts after the pilot launches, desert first |
 
 Not here: Communication/Branding, Marketplace, Organization, Funding, and
 Scholarly-Review stay as their own top-level Ministry domains — they're not scattered
