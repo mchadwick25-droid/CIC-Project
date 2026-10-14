@@ -36,7 +36,7 @@ text: Ignatius called Jesus Christ our God again and again, in how he opened his
   closed them. It was not one passing phrase; he reached for it often. But it was worship, not an argument
   worked out. How calling Jesus God fits together with calling the Father God - with there being one God
   - none of us whose writing survives ever wrote out. We can tell you plainly that we called him God.
-  We cannot tell you we had settled how.
+  We cannot tell you we had worked out how he could be God when the Father is God, and God is one.
 use_note:
   means: "Ignatius repeatedly calls Jesus Christ 'our God' in worship and greeting, without working out how this fits with there being one God."
   not_for:
