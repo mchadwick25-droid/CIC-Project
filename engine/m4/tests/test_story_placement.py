@@ -241,6 +241,14 @@ def test_the_lord_may_be_named_as_speaker_where_the_story_itself_names_him(deser
     assert net_result["reply_shape"]["removed"] == []
 
 
+def test_the_lords_words_may_introduce_only_a_story_whose_telling_quotes_scripture(desert):
+    intro = "Here are the Lord's words, as we keep them"
+    text, _c, net_result = _net(f"{intro} [[story:{ANTONY_CALL}]].", desert, _offer(ANTONY_CALL))
+    assert net_result["reply_shape"]["removed"] == [] and text.startswith(f"{intro}:")
+    text, _c, net_result = _net(f"{intro} [[story:{MOSES}]].", desert, _offer(MOSES))
+    assert text == _telling_shown(desert[MOSES]) and _whys(net_result) == [REASON_STORY_INTRO]
+
+
 def test_a_name_the_world_never_mentions_fails_in_first_position_too(desert):
     for intro in ("Macarius told Moses this", "Paul wrote it, and we keep it", "Augustine taught us this"):
         text, _c, net_result = _net(f"{intro} [[story:{MOSES}]].", desert, _offer(MOSES))
