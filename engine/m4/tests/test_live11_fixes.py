@@ -111,12 +111,18 @@ def test_words_that_run_on_after_an_attribution_are_still_cut():
     assert "There was never a time when he was not." in _cut("desert", 4)
 
 
-def test_the_world_stating_its_own_doctrine_is_not_a_quotation():
-    # cappadocian Q1: shared wording with a Basil passage, said in the world's own term
+def test_the_world_stating_its_own_doctrine_is_read_against_its_paragraphs_records():
+    # cappadocian Q1: untagged, it shares wording with a Basil passage; its
+    # paragraph cites the world's own terms for one being and three persons
     assert _shown("cappadocian", 1, "The Father, the Son, and the Holy Spirit are one ousia - one being, what God is.")
-    # ijc Q2: the creed recited in the world's voice, tagged to the creed record
-    assert _shown("ijc", 2, "He came down from heaven, was made man of the Virgin Mary, suffered under Pontius Pilate, "
-                            "was crucified, died, and was buried.")
+
+
+def test_a_sentence_tagged_to_a_quote_not_placed_is_still_dropped():
+    # ijc Q2 tagged its creed lines to the creed quote record, which the turn
+    # did not offer (decision 61, option A). The directive now says to tag no
+    # quote record on such a turn.
+    assert "He came down from heaven, was made man of the Virgin Mary, suffered under Pontius Pilate, was crucified, " \
+        "died, and was buried." in _cut("ijc", 2)
 
 
 def test_a_term_glossed_in_its_own_records_words_keeps_its_marks():
@@ -125,10 +131,8 @@ def test_a_term_glossed_in_its_own_records_words_keeps_its_marks():
 
 
 def test_words_only_a_quote_holds_are_still_its_words():
-    # ijc Q2: "rose again ... ascended into heaven" stands in no ijc witness,
-    # only in the Nicene creed record; desert Q1: "Wisdom" and "Essence"
-    # stand only in the Antony formula, in no desert witness or term
-    assert "On the third day he rose again according to the scriptures, and ascended into heaven." in _cut("ijc", 2)
+    # desert Q1: "Wisdom" and "Essence" stand only in the Antony formula,
+    # not in desert.dw.god, the record the sentence cites
     removed = _replayed("desert", 1)["first_net"]["reply_shape"]["removed"]
     assert any(r["sentence"].startswith("To us Jesus is the eternal Word and Wisdom") for r in removed)
 
@@ -237,8 +241,8 @@ def test_the_replay_over_all_66_drafts():
     assert counts["turns"] == 66
     # nothing ungrounded is sent: witt Q1 falls back to its answer record
     assert counts["degraded_sent"] == 0 and counts["fallbacks"] == 1
-    assert counts["cuts"] == 46
-    assert counts["overcuts_still_cut"] == 4
+    assert counts["cuts"] == 51
+    assert counts["overcuts_still_cut"] == 5
     assert counts["stray_punctuation_sentences"] == 1
 
 
@@ -298,3 +302,28 @@ def test_a_connective_the_tagged_record_does_not_use_is_counted():
         {"sentence": "We keep the fast because the moon commands it.", "tags": []},
     ]
     assert live11_replay.connective_claims(sentences, FIX) == ["We keep the fast because the moon commands it."]
+
+
+def test_in_a_named_speakers_own_words_is_always_an_attribution():
+    records = live11_replay.records("desert")
+    for raw in (
+        "In Antony's own words, we must always breathe Christ and trust in him.",
+        "Antony, in his own words, we are not the doers of these things.",
+    ):
+        text, _c, net_result = apply_net(raw, repository_records=records, thin_topics=None)
+        assert text == "" and net_result["reply_shape"]["removed"], raw
+
+
+def test_a_stream_releases_nothing_before_a_grounded_sentence():
+    # witt Q1: every tag names a record that does not exist, so the reply
+    # falls back to its answer record; none of the draft may show first
+    from engine.m4.sentence_stream import SentenceStream
+
+    records = live11_replay.records("witt")
+    draft = live11_replay.rebuild_draft(_turns()[("witt", 1)]["voice_event"])
+    stream = SentenceStream(repository_records=records, world_key="witt")
+    events = [e for i in range(0, len(draft), 7) for e in stream.feed(draft[i:i + 7])]
+    assert events == [] and stream.released == 0
+    grounded = "We keep the catechism every week [[witt.dw.truly-god-and-truly-man]]. " + draft
+    stream = SentenceStream(repository_records=records, world_key="witt")
+    assert stream.feed(grounded) and stream.released >= 1

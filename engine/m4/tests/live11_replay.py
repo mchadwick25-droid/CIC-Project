@@ -10,9 +10,9 @@ lead-in goes back before the marker sentence cut with it, words cut after an
 attribution go back after that attribution, a stray closing mark rejoins the
 marker sentence it was cut from, and any other cut sentence goes back after
 the shown sentence that shares the most tags and words with it. The order of
-the cut sentences among the shown ones is therefore rebuilt, not recorded;
-`recorded_match` says, for each turn, whether the rebuilt draft gives back
-the recorded reply under the engine of the day.
+the cut sentences among the shown ones is therefore rebuilt, not recorded.
+Run under the engine the test ran on, the rebuilt drafts give back all 66
+recorded replies.
 
 Records are the world's own records under records/, which the 13 October
 packages were compiled from."""
