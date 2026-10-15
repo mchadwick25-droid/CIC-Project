@@ -9,7 +9,7 @@ import { Launch } from './screens/Launch';
 import { Conversation } from './screens/Conversation';
 import { TableRoom } from './screens/TableRoom';
 
-type Screen = 'launch' | 'conversation' | 'table';
+type Screen = 'arriving' | 'launch' | 'conversation' | 'table';
 
 // Safe cross-origin (a reference comparison, never a property read) - the
 // standard "am I inside an iframe" check. cic-website/talk.html embeds
@@ -57,6 +57,16 @@ function consumeDeepLink() {
   if (window.location.search) window.history.replaceState({}, '', window.location.pathname);
 }
 
+/** Whether this load is headed for a room rather than the launch screen:
+ * a deep link, or a session already open in this tab. The first screen
+ * can't be decided until the world list loads, so such a load holds on
+ * 'arriving' until it can - starting on 'launch' put the world cards up
+ * for that whole wait, then swapped them out. */
+function expectsRoom(): boolean {
+  const params = new URLSearchParams(window.location.search);
+  return params.has('worlds') || params.has('mode') || readStored() !== null;
+}
+
 /** Order-insensitive set equality for comparing a Table deep link's seats
  * against what's stored - reseating the same participants isn't a new
  * request, but a different lineup is. */
@@ -71,7 +81,7 @@ function App() {
   const conversation = useConversation();
   const table = useTable();
   const { worlds, isLoading: worldsLoading, error: worldsError } = useWorlds();
-  const [screen, setScreen] = useState<Screen>('launch');
+  const [screen, setScreen] = useState<Screen>(() => (expectsRoom() ? 'arriving' : 'launch'));
   const [selectedWorldKey, setSelectedWorldKey] = useState<string | null>(null);
   const [seated, setSeated] = useState<string[]>([]);
   const [tableFocus, setTableFocus] = useState(false);
@@ -172,6 +182,7 @@ function App() {
         setSeated(uniqueLinked);
         setTableFocus(true);
         consumeDeepLink();
+        setScreen('launch');
         return;
       }
       if (linked.length > 0) {
@@ -184,6 +195,7 @@ function App() {
         consumeDeepLink();
         setLaunchNotice("We couldn't find that world here — choose from the cards below.");
       }
+      setScreen('launch');
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [worldsLoading]);
@@ -232,6 +244,17 @@ function App() {
 
   return (
     <div className="app-shell">
+      {screen === 'arriving' && (
+        <p className="arriving-hold" role="status">
+          <span className="visually-hidden">Opening the conversation</span>
+          <span className="typing-dots" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </p>
+      )}
+
       {screen === 'launch' && (
         <Launch
           worlds={worlds}
