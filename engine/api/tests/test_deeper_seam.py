@@ -117,6 +117,17 @@ def code_with(runtime, amount, kind="single"):
     return runtime.meter.mint(kind, amount, f"pi_{codes.generate()}")[0]
 
 
+def expired_tester_code(runtime, tokens=20000, made=date(2026, 9, 1), days=30):
+    """A tester code made on an earlier day whose last day has passed by the runtime's today."""
+    today = runtime.meter._clock
+    runtime.meter._clock = lambda: made
+    try:
+        (code,) = runtime.meter.mint("single", tokens, f"tester_{codes.generate()}", source="tester", expires_in_days=days)
+    finally:
+        runtime.meter._clock = today
+    return code
+
+
 def solo_charge(runtime, first_round, last_round=None):
     """Tokens a solo conversation draws for rounds first_round..last_round."""
     return sum(tokens.charge(runtime.token_rates, n) for n in range(first_round, (last_round or first_round) + 1))
@@ -335,6 +346,11 @@ def limit_setup(name, store, usage_store, world_loader, registry, runtime, clien
         runtime.meter.settle(runtime.meter.reserve(code).reservation, True)
         for i in range(FREE_CAP):
             assert say(http, session_id, auth, f"q{i}").status_code == 200
+    elif name == "expired_tester":
+        http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+        session_id, auth = open_session(http, **{"X-Cic-Code": expired_tester_code(runtime)})
+        for i in range(FREE_CAP):
+            assert say(http, session_id, auth, f"q{i}").status_code == 200
     elif name == "paused":
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         code = code_with(runtime, 5)
@@ -391,7 +407,7 @@ def limit_setup(name, store, usage_store, world_loader, registry, runtime, clien
 
 
 LIMITS = [
-    "session_limit", "daily_limit", "free_cap", "zero_balance", "paused", "wrong_code", "module_error", "facilitator_only",
+    "session_limit", "daily_limit", "free_cap", "zero_balance", "expired_tester", "paused", "wrong_code", "module_error", "facilitator_only",
     "free_allowance_spent", "free_rounds_done", "door_free_closed", "door_paid_closed", "paid_round_cap",
 ]
 SAFETY_LIMITS = [*LIMITS, "observe_closed"]
@@ -477,8 +493,8 @@ def test_each_reason_a_code_cannot_carry_a_turn_gets_its_own_line_in_the_respons
     runtime.meter.settle(runtime.meter.reserve(spent).reservation, True)
     group = runtime.meter.mint("group", 50, f"pi_{codes.generate()}", daily_ceiling=1)[0]
     runtime.meter.settle(runtime.meter.reserve(group).reservation, True)
-    cases = {"spent": spent, "daily_ceiling": group, "code_not_accepted": codes.generate()}
-    for expected, code in cases.items():
+    cases = [("spent", spent), ("spent", expired_tester_code(runtime)), ("daily_ceiling", group), ("code_not_accepted", codes.generate())]
+    for expected, code in cases:
         session_id, auth = open_session(http)
         for i in range(FREE_CAP):
             say(http, session_id, auth, f"q{i}")
@@ -492,6 +508,29 @@ def test_each_reason_a_code_cannot_carry_a_turn_gets_its_own_line_in_the_respons
     runtime.meter.pause(True)
     reply = say(http, session_id, {**auth, "X-Cic-Code": live}, "more")
     assert reply.json()["limit_note"]["key"] == "paused"
+
+
+def test_a_tester_code_carries_turns_through_its_last_day_and_after_it_is_refused_as_spent_with_its_safety_check_first(
+    store, usage_store, world_loader, registry, runtime
+):
+    day = [date(2026, 10, 5)]
+    runtime.meter._clock = lambda: day[0]
+    (code,) = runtime.meter.mint("single", 20000, "tester_seam", source="tester", expires_in_days=1)
+    client = RecordingClient()
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+    day[0] = date(2026, 10, 6)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    for i in range(FREE_CAP + 1):
+        assert say(http, session_id, auth, f"q{i}").json()["routing_action"] != "session_cap_turn"
+    spent = runtime.meter.status(code).tokens_used
+    assert spent == solo_charge(runtime, FREE_CAP + 1)
+    day[0] = date(2026, 10, 7)
+    voice_before, safety_before = len(client.voice_requests), client.safety_calls
+    reply = say(http, session_id, auth, "more")
+    assert reply.json()["routing_action"] == "session_cap_turn"
+    assert reply.json()["limit_note"] == {"key": "spent", "text": runtime.ops.notes["spent"]}
+    assert client.safety_calls == safety_before + 1 and len(client.voice_requests) == voice_before
+    assert runtime.meter.status(code).tokens_used == spent and runtime.meter.status(code).remaining == 0
 
 
 def test_the_stored_pause_is_the_same_words_for_a_free_sitting_and_a_paid_one_and_the_reason_is_never_stored(

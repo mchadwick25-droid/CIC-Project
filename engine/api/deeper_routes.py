@@ -386,6 +386,18 @@ class MintRequest(BaseModel):
     mode: str = Field(..., description="one_code: a single code holding count packs. separate: count codes of one pack each")
 
 
+class TesterRequest(BaseModel):
+    tokens: int | None = Field(default=None, strict=True, description="What the one code holds; the operations file's default when left out")
+    days: int | None = Field(default=None, strict=True, description="Days after today the code keeps working; the operations file's default when left out")
+
+
+def tester_gift_cents(packs, tokens: int) -> int:
+    """What a tester grant counts toward the door as a gift: its tokens at the
+    offer's lowest price a token, rounded down to a cent."""
+    best = min(packs, key=lambda p: p.price_usd / p.tokens)
+    return tokens * best.price_usd * 100 // best.tokens
+
+
 class FundsRequest(BaseModel):
     cents: int = Field(..., description="A whole number of cents; negative takes money out")
     note: Literal["cash gift", "check gift", "other gift", "correction"] = Field(..., description="What kind of adjustment this is. A fixed list: no name or text can be typed here")
@@ -599,6 +611,42 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         response.headers["Cache-Control"] = "no-store"
         return {"mint_id": grant_id, "tokens_each": tokens, "codes": [codes.display(c) for c in made]}
 
+    @app.post("/api/admin/deeper/tester")
+    def mint_tester(req: TesterRequest, request: Request, response: Response, authorization: str | None = Header(default=None)):
+        """Makes one tester code with no payment: more tokens than a pack, and a
+        last day. It works to the end of that day, UTC, and from the next day it
+        is refused as a spent code is. It comes back in this response only, and is
+        cancelled by its mint id like any grant. It changes only how many replies
+        it carries: every message still has its safety check and the Facilitator
+        first. Counts toward the door as a gift, never a sale."""
+        authenticate_admin(request, authorization)
+        ops = runtime.ops
+        if ops is None:
+            raise HTTPException(status_code=404)
+        tokens = ops.tester_default_tokens if req.tokens is None else req.tokens
+        days = ops.tester_default_days if req.days is None else req.days
+        if not 1 <= tokens <= ops.tester_max_tokens:
+            raise HTTPException(status_code=422, detail=f"a tester code holds from 1 to {ops.tester_max_tokens} tokens")
+        if not 1 <= days <= ops.tester_max_days:
+            raise HTTPException(status_code=422, detail=f"a tester code works for 1 to {ops.tester_max_days} days")
+        grant_id = "tester_" + secrets.token_hex(12)
+        try:
+            (code,) = runtime.meter.mint(
+                "single", tokens, grant_id, 1, source="tester", daily_code_limit=ops.tester_max_per_day, expires_in_days=days,
+            )
+        except MintLimit:
+            raise HTTPException(status_code=429, detail="today's tester code limit is reached; it resets tomorrow")
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc))
+        cents = tester_gift_cents(ops.packs, tokens)
+        try:
+            if cents > 0:
+                runtime.meter.add_funds("gift", cents, grant_id, "tester grant")
+        except Exception:  # noqa: BLE001 - the code is made; a failed count must not hide it from the operator
+            logger.error("tester grant made but its gift could not be counted toward the door")
+        response.headers["Cache-Control"] = "no-store"
+        return {"mint_id": grant_id, "tokens": tokens, "expires_on": runtime.meter.status(code).expires_on, "code": codes.display(code)}
+
     @app.get("/api/admin/deeper/grants")
     def grants(request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
@@ -637,6 +685,10 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             "packs": [{"price_usd": p.price_usd, "tokens": p.tokens} for p in ops.packs] if ops is not None else [],
             "mint_limits": None if ops is None else {
                 "tokens_per_request": ops.admin_mint_max_tokens_per_request, "tokens_per_day": ops.admin_mint_max_tokens_per_day,
+            },
+            "tester": None if ops is None else {
+                "default_tokens": ops.tester_default_tokens, "max_tokens": ops.tester_max_tokens,
+                "default_days": ops.tester_default_days, "max_days": ops.tester_max_days, "per_day": ops.tester_max_per_day,
             },
         }
 
