@@ -71,8 +71,17 @@ every 5 minutes.
    to page on — a call for Mark; it's not participant-facing so a lower bar
    is reasonable.
 
-Not built this pass — this is the spec, per the runbook's own scope (item 3
-in the tech-readiness brief).
+**Built (2026-10-15, pre-pilot systems review, batch A):**
+`.github/workflows/live-watch.yml` runs `tools/live_watch.py` every 15
+minutes against production only. It fails when `/health` does not answer on
+two tries 30 seconds apart; when `/health` reports a commit other than the
+head of `live` and that head is more than 30 minutes old (a deploy that
+crashed on start-up while Render kept the old build serving); or when the
+last database backup did not upload or is more than 26 hours old. `/health`
+reports the commit from Render's `RENDER_GIT_COMMIT`. Staging is not watched.
+Scheduled workflows run only from the default branch (`main`), may start a
+few minutes late, and GitHub pauses them after 60 days without repository
+activity.
 
 ## 3. 5xx error rate
 
@@ -210,8 +219,8 @@ rather than four separate jobs).
 
 | # | Signal | Threshold options | Config surface | Built this pass? |
 |---|---|---|---|---|
-| 1 | Deploy/health-check failure | Render default (15 min) | Render Notifications | Yes — dashboard steps only, no code |
-| 2 | Ongoing `/health` uptime | 2 consecutive failures | External cron (GitHub Actions) | Spec only |
+| 1 | Deploy/health-check failure | Render default (15 min) | Render Notifications; `healthCheckPath: /health` in `render.yaml` | Yes — dashboard steps for the emails |
+| 2 | Ongoing `/health` uptime, live commit, last backup | 2 failed tries; old build 30 min after a merge; backup not uploaded or over 26 h old | `.github/workflows/live-watch.yml` (`tools/live_watch.py`) | Yes |
 | 3 | 5xx rate | A: >2%/10min · B: >5%/15min | Needs a metrics endpoint + cron | Spec only, endpoint not built |
 | 4 | Bedrock spend | A: 50%/100% · B: 100%/120% | AWS Budgets (native, free) | Yes — dashboard steps only |
 | 5 | Render disk usage | A: 70% · B: 90% | Render API + cron | Spec only, workflow not built |

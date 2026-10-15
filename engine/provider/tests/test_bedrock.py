@@ -56,3 +56,14 @@ def test_normalize_usage_tolerates_missing_cache_fields():
     n = normalize_usage(usage)
     assert (n.cache_creation_input_tokens, n.cache_read_input_tokens) == (0, 0)
     assert n.cache_engaged is False
+
+
+def test_the_conversation_client_retries_a_failed_call_once(monkeypatch):
+    from engine.provider import guard
+    from engine.provider.bedrock import make_client
+
+    monkeypatch.setenv("AWS_ACCESS_KEY_ID", "test")
+    monkeypatch.setenv("AWS_SECRET_ACCESS_KEY", "test")
+    with guard.conversation_scope():
+        client = make_client("us-east-1")
+    assert client.max_retries == 1

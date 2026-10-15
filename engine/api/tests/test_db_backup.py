@@ -2,6 +2,7 @@
 API, and the object-storage half mocked (no live AWS/R2 call), matching
 this repo's own convention for anything touching a real cloud credential
 (engine/m8's usage tests, engine/m4/tests for object_storage)."""
+import json
 import sqlite3
 from pathlib import Path
 
@@ -210,3 +211,44 @@ def test_next_run_at_picks_today_or_tomorrow():
 
     after = datetime(2026, 9, 21, 23, 0, tzinfo=timezone.utc)
     assert db_backup._next_run_at(after).date() == (after + timedelta(days=1)).date()
+
+
+def test_a_pass_that_does_not_upload_logs_a_warning_and_summarizes_as_not_uploaded(tmp_path, monkeypatch, caplog):
+    monkeypatch.delenv(db_backup._ENV_BUCKET, raising=False)
+    events_db = tmp_path / "events.db"
+    usage_db = tmp_path / "usage.db"
+    _make_db(events_db, [(1, "e")])
+    _make_db(usage_db, [(1, "u")])
+    staging = tmp_path / "staging"
+
+    with caplog.at_level("WARNING", logger="cic.api"):
+        status = db_backup.run_backup_once(str(events_db), str(usage_db), staging)
+
+    assert "not uploaded" in caplog.text
+    assert db_backup.summarize_status(staging) == {"uploaded": False, "last_run_at": status["run_at"]}
+
+
+def _write_status(staging: Path, results: dict) -> None:
+    staging.mkdir(parents=True, exist_ok=True)
+    (staging / db_backup.STATUS_FILENAME).write_text(json.dumps({"run_at": "2026-10-15T04:41:00+00:00", "results": results}))
+
+
+@pytest.mark.parametrize(
+    ("results", "uploaded"),
+    [
+        ({"events": {"outcome": "ok"}, "meter": {"outcome": "skipped"}}, True),
+        ({"events": {"outcome": "ok"}, "usage": {"outcome": "error", "error": "x"}}, False),
+        ({"events": {"outcome": "skipped"}}, False),
+        ({}, False),
+    ],
+)
+def test_summarize_status_counts_uploaded_only_when_every_found_db_reached_the_bucket(tmp_path, results, uploaded):
+    _write_status(tmp_path, results)
+    assert db_backup.summarize_status(tmp_path) == {"uploaded": uploaded, "last_run_at": "2026-10-15T04:41:00+00:00"}
+
+
+@pytest.mark.parametrize("content", [None, "not json", '{"results": {}}', "[]"])
+def test_summarize_status_reads_a_missing_or_broken_file_as_not_uploaded(tmp_path, content):
+    if content is not None:
+        (tmp_path / db_backup.STATUS_FILENAME).write_text(content)
+    assert db_backup.summarize_status(tmp_path) == {"uploaded": False, "last_run_at": None}
