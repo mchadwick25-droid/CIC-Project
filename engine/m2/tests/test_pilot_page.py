@@ -101,11 +101,11 @@ def test_the_page_names_no_price_and_reads_at_the_target_level():
     assert score.scored and score.passed, score.failures
 
 
-def test_the_page_is_unlisted_unlinked_and_empty_until_the_site_config_opens_the_pilot():
+def test_the_page_is_unlisted_and_unlinked_and_the_site_config_opens_the_pilot():
     html = PAGE.read_text()
     assert 'name="robots" content="noindex"' in html
     assert '<section class="hero" id="pilot-offer" hidden' in html
-    assert re.search(r"pilot:\s*false", (SITE / "assets" / "go-deeper-config.js").read_text())
+    assert re.search(r"pilot:\s*true", (SITE / "assets" / "go-deeper-config.js").read_text())
     for path in SITE.rglob("*"):
         if path.suffix in (".html", ".xml", ".txt", ".js") and path != PAGE and path != SCRIPT:
             assert "pilot.html" not in path.read_text(errors="ignore"), path.name
