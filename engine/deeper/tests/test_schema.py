@@ -33,6 +33,7 @@ def used_meter(tmp_path):
     m.settle(m.reserve(code).reservation, True)
     m.mint("batch", 2, "pi_b", count=2)
     m.mint("group", 9, "pi_c")
+    m.mint("single", 20000, "tester_t", source="tester", expires_in_days=30)
     m.void("pi_b")
     m.tally("payments_seen")
     m.add_funds("gift", 2500, "pi_g")
@@ -72,6 +73,13 @@ def test_meter_holds_no_time_finer_than_a_day(used_meter):
                 assert not TIME_OF_DAY.search(text), (table, value)
                 assert not EPOCH_LIKE.match(text), (table, value)
     conn.close()
+
+
+def test_a_codes_last_day_is_a_plain_date_and_nothing_finer(used_meter):
+    conn = sqlite3.connect(used_meter)
+    days = [row[0] for row in conn.execute("SELECT expires_on FROM meter WHERE expires_on IS NOT NULL")]
+    conn.close()
+    assert days == [str(date(2026, 11, 4))]
 
 
 def test_meter_stores_no_plain_code(used_meter):

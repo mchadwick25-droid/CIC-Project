@@ -188,6 +188,11 @@
           <div class="caveat" id="t-deeper-pilot-detail"></div>
         </div>
         <div class="tile">
+          <div class="label">Tester codes today</div>
+          <div class="value" id="t-deeper-tester">—</div>
+          <div class="caveat" id="t-deeper-tester-detail"></div>
+        </div>
+        <div class="tile">
           <div class="label">Pilot joins by role</div>
           <div class="caveat" id="t-deeper-pilot-roles">—</div>
           <div class="caveat">A count per role per audience only. No role is tied to a code or an address.</div>
@@ -218,6 +223,12 @@
         <button id="mint-submit" type="button">Make codes</button>
       </div>
       <div class="caveat" id="mint-limits"></div>
+      <div style="margin-top: 8px;">
+        <label>Tester code: tokens <input id="tester-tokens" type="number" min="1" value="20000" style="width: 7em;" /></label>
+        <label>days <input id="tester-days" type="number" min="1" value="30" style="width: 5em;" /></label>
+        <button id="tester-submit" type="button">Make a tester code</button>
+      </div>
+      <div class="caveat" id="tester-limits"></div>
       <div style="margin-top: 8px;">
         <input id="void-id" type="text" placeholder="Mint id or payment id to cancel" style="width: 22em;" autocomplete="off" />
         <button id="void-submit" type="button">Cancel its codes</button>
@@ -540,7 +551,7 @@
     document.getElementById("t-deeper-refused").textContent = fmtNumber(refusalTotal(today));
     document.getElementById("t-deeper-gap").textContent = fmtNumber(gaps[today.day] || 0);
     const todayRecon = (body.reconciliation || []).find((r) => r.day === today.day) || {};
-    renderGrantTiles({ ...today, admin_codes_minted: todayRecon.admin_codes_minted, pilot_codes_minted: todayRecon.pilot_codes_minted });
+    renderGrantTiles({ ...today, admin_codes_minted: todayRecon.admin_codes_minted, pilot_codes_minted: todayRecon.pilot_codes_minted, tester_codes_minted: todayRecon.tester_codes_minted });
     const wrap = document.getElementById("deeper-table-wrap");
     wrap.innerHTML = "";
     if (rows.length === 0) {
@@ -576,8 +587,9 @@
   }
   function renderGrantTiles(today) {
     document.getElementById("t-deeper-admin").textContent = fmtNumber((today || {}).admin_codes_minted || 0);
-    document.getElementById("t-deeper-admin-detail").textContent = fmtNumber(((today || {}).tokens_granted) || 0) + " tokens granted today, admin and pilot";
+    document.getElementById("t-deeper-admin-detail").textContent = fmtNumber(((today || {}).tokens_granted) || 0) + " tokens granted today, admin, pilot and tester";
     document.getElementById("t-deeper-pilot-detail").dataset.today = String((today || {}).pilot_codes_minted || 0);
+    document.getElementById("t-deeper-tester").textContent = fmtNumber((today || {}).tester_codes_minted || 0);
   }
   function deeperNotice(message, isError) {
     const slot = document.getElementById("deeper-notice");
@@ -591,7 +603,7 @@
       if (!resp.ok) return;
       const rows = (await resp.json()).grants;
       slot.textContent = rows.length
-        ? "Grants, last two days: " + rows.map((g) => g.grant_id + " (" + g.day + ", " + g.codes + " codes, " + fmtNumber(g.tokens) + " tokens" + (g.codes_void ? ", " + g.codes_void + " cancelled" : "") + ")").join("; ")
+        ? "Grants, last two days: " + rows.map((g) => g.grant_id + " (" + g.day + ", " + g.codes + " codes, " + fmtNumber(g.tokens) + " tokens" + (g.expires_on ? ", works until the end of " + g.expires_on + " UTC" : "") + (g.codes_void ? ", " + g.codes_void + " cancelled" : "") + ")").join("; ")
         : "No grants in the last two days.";
     } catch (e) { slot.textContent = ""; }
   }
@@ -629,6 +641,22 @@
     document.getElementById("mint-limits").textContent = status.mint_limits
       ? "Limits: " + fmtNumber(status.mint_limits.tokens_per_request) + " tokens a request, " + fmtNumber(status.mint_limits.tokens_per_day) + " a day. Each grant counts toward the door as a gift of the packs' price."
       : "";
+    const tester = status.tester;
+    if (tester) {
+      const tokensBox = document.getElementById("tester-tokens");
+      const daysBox = document.getElementById("tester-days");
+      if (!tokensBox.dataset.set) {
+        tokensBox.value = String(tester.default_tokens);
+        tokensBox.max = String(tester.max_tokens);
+        daysBox.value = String(tester.default_days);
+        daysBox.max = String(tester.max_days);
+        tokensBox.dataset.set = "1";
+      }
+      document.getElementById("tester-limits").textContent =
+        "One code for a professor or deep tester. Up to " + fmtNumber(tester.max_tokens) + " tokens and " + tester.max_days + " days, " + tester.per_day +
+        " codes a day. It stops working at the end of its last day, UTC. It counts toward the door as a gift, at the largest pack's price a token.";
+      document.getElementById("t-deeper-tester-detail").textContent = "Limit " + tester.per_day + " a day. Cancel one with its mint id.";
+    }
   }
   async function loadStatus() {
     try {
@@ -676,6 +704,30 @@
     deeperNotice("", false);
     await loadDeeper();
   }
+  async function makeTesterCode() {
+    const tokens = parseInt(document.getElementById("tester-tokens").value, 10);
+    const days = parseInt(document.getElementById("tester-days").value, 10);
+    if (!(tokens >= 1) || !(days >= 1)) { deeperNotice("Enter tokens and days of 1 or more.", true); return; }
+    if (!window.confirm("Make one tester code of " + fmtNumber(tokens) + " tokens that works for " + days + " days? This is a grant with no payment.")) return;
+    const resp = await fetch("/api/admin/deeper/tester", {
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ tokens: tokens, days: days }),
+    });
+    if (!resp.ok) {
+      let detail = "";
+      try { detail = (await resp.json()).detail || ""; } catch (e) {}
+      deeperNotice("No code was made (" + resp.status + "). " + detail, true);
+      return;
+    }
+    const made = await resp.json();
+    shownCodes = made.code;
+    document.getElementById("mint-codes").textContent = shownCodes;
+    document.getElementById("mint-result-note").textContent =
+      "Shown once; it cannot be shown again. " + fmtNumber(made.tokens) + " tokens. It works until the end of " + made.expires_on + " UTC. Mint id " + made.mint_id + " (paste it into the box below to cancel it).";
+    document.getElementById("mint-result").classList.remove("hidden");
+    deeperNotice("", false);
+    await loadDeeper();
+  }
   async function voidPayment() {
     const id = document.getElementById("void-id").value.trim();
     if (!id) { deeperNotice("Paste a mint id or payment id first.", true); return; }
@@ -693,6 +745,7 @@
   document.getElementById("void-submit").addEventListener("click", voidPayment);
   document.getElementById("deeper-pause-toggle").addEventListener("click", toggleDeeperPause);
   document.getElementById("mint-submit").addEventListener("click", makeCodes);
+  document.getElementById("tester-submit").addEventListener("click", makeTesterCode);
   document.getElementById("mint-hide").addEventListener("click", hideCodes);
   document.addEventListener("visibilitychange", () => { if (document.hidden) hideCodes(); });
   document.getElementById("mint-copy").addEventListener("click", async () => {
