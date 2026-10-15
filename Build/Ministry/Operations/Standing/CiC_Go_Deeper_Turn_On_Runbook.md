@@ -21,7 +21,7 @@ Three places, one kind of control each. **Stripe** holds money: the pack links, 
 
 The mint page makes codes with no payment. The codes show once on the page; copy them before leaving it. If a response is lost, cancel the mint id it showed in the dashboard's cancel box (it takes a mint id or a payment id) and make them again. Each grant counts toward the door as a gift of the packs' price.
 
-A tester code is one code for a professor or deep tester, made under "Make codes (no payment)". It holds up to 20,000 tokens (the default) and works for the days you choose (30 by default, up to 90), to the end of its last day, UTC. After that it acts as a spent code: the person sees the usual spent line and nothing is spent. Two can be made a day; a cancelled one still counts. The code shows once with its last day and mint id; cancel it with that mint id in the same box. The limits are in the operations file's `tester` section. It counts toward the door as a gift at the largest pack's price a token.
+A tester code is one code for a professor or deep tester, made under "Make codes (no payment)". It holds up to 20,000 tokens (the default) and works for the days you choose (30 by default, up to 90), to the end of its last day, UTC. After that it acts as a spent code: the person sees the usual spent line and nothing is spent. Two can be made a day; a cancelled one still counts. The code shows once with its last day and mint id; cancel it with that mint id in the same box. The limits are in the operations file's `tester` section. It counts nothing toward the door: no money comes with it.
 
 ## Offers and goodwill
 
@@ -31,7 +31,7 @@ The module makes free codes; Stripe makes every percentage discount. Name each S
 |---|---|---|
 | Free package for the pilot | the pilot join (on when `pilot_open` is true) | a gift of the pack's price |
 | One-off free grant | the dashboard mint page | a gift of the pack's price |
-| A professor or deep tester | a tester code on the dashboard mint page | a gift at the largest pack's price a token |
+| A professor or deep tester | a tester code on the dashboard mint page | nothing (no money comes with it) |
 | A percentage off for a season or a cohort | a Stripe promotion code on the chosen package | what was paid |
 | A discount on one package only | a Stripe coupon limited to that product, with promotion codes switched on only for that package's payment link | what was paid |
 | A complaint, already bought | a partial refund in Stripe | no change; the codes keep working |

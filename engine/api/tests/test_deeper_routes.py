@@ -1158,11 +1158,10 @@ def test_a_tester_code_is_a_gift_never_a_payment_a_sale_or_owed(http, minting):
     row = minting.meter.measures(1)[0]
     assert (row["tokens_granted"], row["tokens_sold"]) == (20000, 0)
     assert minting.meter.owed() == []
-    (entry,) = minting.meter.list_funds(1)
-    assert (entry["kind"], entry["cents"], entry["note"]) == ("gift", 20000 * 3000 // 6600, "tester grant")
+    assert minting.meter.list_funds(1) == []
 
 
-def test_a_tester_code_is_cancelled_by_its_mint_id_and_its_gift_leaves_the_door(http, minting):
+def test_a_tester_code_is_cancelled_by_its_mint_id_and_never_counts_toward_the_door(http, minting):
     made = make_tester(http).json()
     voided = http.post("/api/admin/deeper/void", json={"payment_id": made["mint_id"]}, headers=admin()).json()
     assert voided["voided"] == 1

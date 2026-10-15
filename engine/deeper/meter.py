@@ -59,7 +59,7 @@ MAX_FUNDS_CENTS = 10_000_000
 # What a funds entry's note may say. A fixed list, so a name typed by hand can never land in the
 # meter's file. The first four are for an adjustment made by hand; the last three are written by the
 # app itself for the grants it counts.
-NOTE_KINDS = ("cash gift", "check gift", "other gift", "correction", "pilot grant", "admin grant", "tester grant")
+NOTE_KINDS = ("cash gift", "check gift", "other gift", "correction", "pilot grant", "admin grant")
 
 MAX_TOKENS_PER_CODE = 1_000_000
 MAX_BATCH_COUNT = 1_000

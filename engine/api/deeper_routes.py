@@ -391,13 +391,6 @@ class TesterRequest(BaseModel):
     days: int | None = Field(default=None, strict=True, description="Days after today the code keeps working; the operations file's default when left out")
 
 
-def tester_gift_cents(packs, tokens: int) -> int:
-    """What a tester grant counts toward the door as a gift: its tokens at the
-    offer's lowest price a token, rounded down to a cent."""
-    best = min(packs, key=lambda p: p.price_usd / p.tokens)
-    return tokens * best.price_usd * 100 // best.tokens
-
-
 class FundsRequest(BaseModel):
     cents: int = Field(..., description="A whole number of cents; negative takes money out")
     note: Literal["cash gift", "check gift", "other gift", "correction"] = Field(..., description="What kind of adjustment this is. A fixed list: no name or text can be typed here")
@@ -638,12 +631,6 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             raise HTTPException(status_code=429, detail="today's tester code limit is reached; it resets tomorrow")
         except ValueError as exc:
             raise HTTPException(status_code=422, detail=str(exc))
-        cents = tester_gift_cents(ops.packs, tokens)
-        try:
-            if cents > 0:
-                runtime.meter.add_funds("gift", cents, grant_id, "tester grant")
-        except Exception:  # noqa: BLE001 - the code is made; a failed count must not hide it from the operator
-            logger.error("tester grant made but its gift could not be counted toward the door")
         response.headers["Cache-Control"] = "no-store"
         return {"mint_id": grant_id, "tokens": tokens, "expires_on": runtime.meter.status(code).expires_on, "code": codes.display(code)}
 
