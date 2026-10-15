@@ -168,9 +168,7 @@ def install(app, bucket_for: Callable[[Request], tuple[str, int] | None] | None 
             limiter = deeper_limiter
         else:
             return await call_next(request)
-        key, scale = client_ip(request), 1
-        if limiter is deeper_limiter:
-            key = network_of(key)
+        key, scale = network_of(client_ip(request)), 1
         if bucket_for is not None and limiter in (create_limiter, converse_limiter):
             # A request carrying a usable code is counted under that code, so
             # a class sharing one network address is not counted as one person.
