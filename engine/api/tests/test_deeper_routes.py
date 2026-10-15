@@ -1103,6 +1103,111 @@ def test_the_grants_list_names_each_grant_without_its_codes(http, minting):
     assert http.get("/api/admin/deeper/grants").status_code == 404
 
 
+# ---- tester codes ----------------------------------------------------------------
+
+def make_tester(http, headers=None, **body):
+    return http.post("/api/admin/deeper/tester", json=body, headers=headers or admin())
+
+
+def test_a_tester_code_needs_the_admin_credential(http, minting):
+    assert http.post("/api/admin/deeper/tester", json={}).status_code == 404
+    assert make_tester(http, headers=admin("wrong")).status_code == 404
+    assert minting.meter.reconciliation(1) == []
+
+
+def test_a_tester_code_takes_the_files_defaults_one_code_twenty_thousand_tokens_thirty_days(http, minting):
+    got = make_tester(http)
+    assert got.status_code == 200 and got.headers["cache-control"] == "no-store"
+    made = got.json()
+    assert set(made) == {"mint_id", "tokens", "expires_on", "code"}
+    assert made["mint_id"].startswith("tester_") and made["tokens"] == 20000 and made["expires_on"] == str(date(2026, 11, 4))
+    status = minting.meter.status(made["code"])
+    assert (status.kind, status.tokens_total, status.expires_on) == ("single", 20000, str(date(2026, 11, 4)))
+
+
+def test_the_operator_chooses_fewer_tokens_and_the_days(http, minting):
+    made = make_tester(http, tokens=5000, days=90).json()
+    assert (made["tokens"], made["expires_on"]) == (5000, str(date(2027, 1, 3)))
+    assert minting.meter.status(made["code"]).tokens_total == 5000
+
+
+@pytest.mark.parametrize(
+    "body",
+    [{"tokens": 20001}, {"tokens": 0}, {"tokens": -5}, {"days": 0}, {"days": 91}, {"tokens": "lots"}, {"tokens": True}, {"days": "30"}, {"days": 1.5}],
+)
+def test_a_tester_code_out_of_range_is_refused_and_makes_nothing(http, minting, body):
+    assert make_tester(http, **body).status_code == 422
+    assert minting.meter.reconciliation(1) == [] and minting.meter.net_funds(7)["gift"] == 0
+
+
+def test_tester_codes_stop_at_two_a_day_even_when_one_is_cancelled(http, minting):
+    first = make_tester(http).json()
+    assert make_tester(http).status_code == 200
+    http.post("/api/admin/deeper/void", json={"payment_id": first["mint_id"]}, headers=admin())
+    refused = make_tester(http)
+    assert refused.status_code == 429
+    assert minting.meter.reconciliation(1)[0]["tester_codes_minted"] == 2
+    assert mint(http).status_code == 200
+
+
+def test_a_tester_code_is_a_gift_never_a_payment_a_sale_or_owed(http, minting):
+    make_tester(http)
+    day = minting.meter.reconciliation(1)[0]
+    assert (day["payments_seen"], day["payments_minted"], day["codes_minted"], day["gap"]) == (0, 0, 0, 0)
+    assert (day["tester_codes_minted"], day["admin_codes_minted"]) == (1, 0)
+    row = minting.meter.measures(1)[0]
+    assert (row["tokens_granted"], row["tokens_sold"]) == (20000, 0)
+    assert minting.meter.owed() == []
+    (entry,) = minting.meter.list_funds(1)
+    assert (entry["kind"], entry["cents"], entry["note"]) == ("gift", 20000 * 3000 // 6600, "tester grant")
+
+
+def test_a_tester_code_is_cancelled_by_its_mint_id_and_its_gift_leaves_the_door(http, minting):
+    made = make_tester(http).json()
+    voided = http.post("/api/admin/deeper/void", json={"payment_id": made["mint_id"]}, headers=admin()).json()
+    assert voided["voided"] == 1
+    assert minting.meter.status(made["code"]).status == "void"
+    assert minting.meter.net_funds(7)["gift"] == 0
+    assert minting.meter.reconciliation(1)[0]["refunds_applied"] == 0
+    assert http.get("/api/deeper/balance", headers={"x-cic-code": made["code"]}).status_code == 404
+
+
+def test_after_its_last_day_a_tester_code_reads_as_a_spent_one_does(http, minting):
+    made = make_tester(http, days=1).json()
+    day = [date(2026, 10, 6)]
+    minting.meter._clock = lambda: day[0]
+    assert http.get("/api/deeper/balance", headers={"x-cic-code": made["code"]}).json()["remaining"] == 20000
+    day[0] = date(2026, 10, 7)
+    got = http.get("/api/deeper/balance", headers={"x-cic-code": made["code"]})
+    assert got.status_code == 200 and got.json() == {"kind": "single", "remaining": 0, "paused": False}
+
+
+def test_a_tester_code_is_never_logged(http, minting, caplog):
+    caplog.set_level(logging.DEBUG)
+    made = make_tester(http).json()
+    assert made["code"].replace(" ", "") not in caplog.text and made["code"] not in caplog.text
+
+
+def test_the_grants_list_and_status_show_the_tester_code(http, minting):
+    made = make_tester(http).json()
+    (row,) = http.get("/api/admin/deeper/grants", headers=admin()).json()["grants"]
+    assert (row["grant_id"], row["codes"], row["tokens"], row["expires_on"]) == (made["mint_id"], 1, 20000, str(date(2026, 11, 4)))
+    assert made["code"].replace(" ", "") not in json.dumps(row)
+    body = http.get("/api/admin/deeper/status", headers=admin()).json()
+    assert body["tester"] == {"default_tokens": 20000, "max_tokens": 20000, "default_days": 30, "max_days": 90, "per_day": 2}
+
+
+def test_the_dashboard_makes_one_tester_code_with_a_confirm_and_shows_its_last_day():
+    from pathlib import Path
+
+    page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
+    section = page[page.index("Make codes (no payment)"):page.index('id="mint-result"')]
+    assert 'id="tester-tokens"' in section and 'id="tester-days"' in section and 'id="tester-submit"' in section
+    assert 'id="t-deeper-tester"' in page and "tester_codes_minted" in page
+    maker = page[page.index("async function makeTesterCode"):page.index("async function voidPayment")]
+    assert "window.confirm(" in maker and "/api/admin/deeper/tester" in maker and "made.expires_on" in maker
+
+
 # ---- pilot join (S12) ----------------------------------------------------------
 
 LINK_KEYS = {"pastors": "pastors-link-key-0123456789", "historians": "historians-link-key-012345"}

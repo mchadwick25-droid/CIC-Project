@@ -11,6 +11,7 @@ from datetime import date, datetime
 import yaml
 
 from engine.deeper.door import DoorSettings, Stage
+from engine.deeper.meter import MAX_TOKENS_PER_CODE
 from engine.deeper.tokens import Pack, TokenRates
 
 OPS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "deeper", "ops", "go-deeper.yaml")
@@ -28,6 +29,7 @@ PILOT_KEYS = ("pack_usd", "pilot_end_date", "audiences")
 AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "per_address", "public")
 AUDIENCE_NAME = re.compile(r"^[a-z][a-z0-9-]{0,23}$")
 ADMIN_KEYS = ("mint_max_tokens_per_request", "mint_max_tokens_per_day")
+TESTER_KEYS = ("default_tokens", "max_tokens", "default_days", "max_days", "max_per_day")
 STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_share", "free_voice", "paid_voice"}
 
 
@@ -60,6 +62,11 @@ class DeeperOps:
     paid_round_cap_provisional: bool
     admin_mint_max_tokens_per_request: int
     admin_mint_max_tokens_per_day: int
+    tester_default_tokens: int
+    tester_max_tokens: int
+    tester_default_days: int
+    tester_max_days: int
+    tester_max_per_day: int
     pilot_pack_usd: int
     pilot_end_date: date
     pilot_audiences: dict[str, PilotAudience]
@@ -199,8 +206,8 @@ def load_ops(path: str | None = None) -> DeeperOps:
             data = yaml.safe_load(handle)
     except (OSError, yaml.YAMLError) as exc:
         raise OpsFileError(f"cannot read {path}: {exc}") from exc
-    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "paid", "admin", "pilot", "words"}:
-        raise OpsFileError("the file must hold exactly limits, tokens, door, paid, admin, pilot and words")
+    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "paid", "admin", "tester", "pilot", "words"}:
+        raise OpsFileError("the file must hold exactly limits, tokens, door, paid, admin, tester, pilot and words")
     limits = _section(data, "limits", LIMIT_KEYS)
     for key, value in limits.items():
         if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
@@ -225,6 +232,15 @@ def load_ops(path: str | None = None) -> DeeperOps:
         _whole(value, f"admin.{key}")
     if admin["mint_max_tokens_per_request"] > admin["mint_max_tokens_per_day"]:
         raise OpsFileError("admin.mint_max_tokens_per_request cannot exceed admin.mint_max_tokens_per_day")
+    tester = _section(data, "tester", TESTER_KEYS)
+    for key, value in tester.items():
+        _whole(value, f"tester.{key}")
+    if tester["default_tokens"] > tester["max_tokens"]:
+        raise OpsFileError("tester.default_tokens cannot exceed tester.max_tokens")
+    if tester["max_tokens"] > MAX_TOKENS_PER_CODE:
+        raise OpsFileError(f"tester.max_tokens cannot exceed {MAX_TOKENS_PER_CODE}")
+    if tester["default_days"] > tester["max_days"]:
+        raise OpsFileError("tester.default_days cannot exceed tester.max_days")
     pilot = _section(data, "pilot", PILOT_KEYS)
     _whole(pilot["pack_usd"], "pilot.pack_usd")
     if pilot["pack_usd"] not in [p.price_usd for p in packs]:
@@ -238,5 +254,7 @@ def load_ops(path: str | None = None) -> DeeperOps:
         group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
         door_observe=data["door"]["observe"], paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
         admin_mint_max_tokens_per_request=admin["mint_max_tokens_per_request"], admin_mint_max_tokens_per_day=admin["mint_max_tokens_per_day"],
+        tester_default_tokens=tester["default_tokens"], tester_max_tokens=tester["max_tokens"], tester_default_days=tester["default_days"],
+        tester_max_days=tester["max_days"], tester_max_per_day=tester["max_per_day"],
         pilot_pack_usd=pilot["pack_usd"], pilot_end_date=end, pilot_audiences=audiences,
     )
