@@ -227,23 +227,8 @@ p{margin:0 0 1rem}
   .hero-dek{font-size:.85rem}
 }
 
-/* ::after fade sits outside the scrolling .who-gallery entirely (a sibling
-   in paint order, pinned to .who's own bottom edge, which .who-gallery sits
-   flush against as its last child) rather than trying to stick an element
-   to the bottom of the scrolling box itself -- simpler and more reliable
-   than position:sticky here, and it doesn't scroll away with the content
-   since it's not part of the scrollable element. Marks the bottom edge
-   as scrollable so it doesn't read as the list's own hard stop. */
-.who{padding:.3rem 0 0;position:relative}
-.who::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4.5rem;background:linear-gradient(to bottom,transparent,var(--surface) 75%);pointer-events:none}
+.who{padding:.3rem 0 0}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .8rem;max-width:var(--measure);color:var(--action)}
-/* Fixed-height scroll box, not a card that just keeps growing as more
-   worlds and eras are added. min(vh,px) so it never eats the whole
-   viewport on a short screen -- same idiom as .atlas-showcase-media's
-   own height cap. overscroll-behavior-y:contain (already set) stops a
-   scroll that hits the top/bottom of this box from chaining into a
-   scroll of the whole page behind it. */
-.who-gallery{overflow-y:auto;overscroll-behavior-y:contain;padding-right:.3rem;margin:0 -.3rem 0 0}
 .era-group:not(:first-child){margin-top:1.8rem}
 .era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.3rem;margin:0}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
@@ -420,7 +405,6 @@ p{margin:0 0 1rem}
     <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
     <h2 id="who-title">Who would you like to talk with?</h2>
 
-    <div class="who-gallery" id="who-gallery">
     <div class="era-group" id="era-1">
     <h3 class="era-head">The Early Church Era<span class="dates">70–312 CE</span></h3>
     <ol class="chairs" id="era-1-chairs">
@@ -570,7 +554,6 @@ p{margin:0 0 1rem}
       </li>
     </ol>
     </div>
-    </div>
   </section>
     </div>
 
@@ -627,22 +610,6 @@ p{margin:0 0 1rem}
 <script>
 (function(){
 "use strict";
-var gallery = document.getElementById('who-gallery');
-var eraGroups = Array.prototype.slice.call(document.querySelectorAll('.era-group'));
-function sizeGallery(){
-  if (eraGroups.length < 3) { gallery.style.maxHeight = 'none'; return; }
-  var second = eraGroups[1];
-  gallery.style.maxHeight = (second.offsetTop + second.offsetHeight - eraGroups[0].offsetTop) + 'px';
-}
-if (gallery && eraGroups.length) {
-  sizeGallery();
-  var resizeTimer = null;
-  window.addEventListener('resize', function(){
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(sizeGallery, 150);
-  });
-}
-
 var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // Plays once (no loop); resting on era 10's own frame afterward read as the
