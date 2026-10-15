@@ -1141,15 +1141,13 @@ def test_a_closed_pilot_route_does_not_exist_to_a_visitor(http, runtime):
     assert runtime.meter.reconciliation(1) == []
 
 
-def test_the_shipped_pilot_opens_only_general_with_a_hundred_places_one_each(http, minting):
+def test_the_shipped_pilot_is_closed_with_general_set_to_a_hundred_places_one_each(http, minting):
     audiences = load_ops().pilot_audiences
-    assert {name for name, a in audiences.items() if a.pilot_open} == {"general"}
+    assert {name for name, a in audiences.items() if a.pilot_open} == set()
     general = audiences["general"]
     assert (general.pilot_cap, general.per_address, general.public) == (100, 1, True)
-    assert join(http).status_code == 200
-    again = join(http)
-    assert again.status_code == 409 and again.json()["reason"] == "address_limit"
-    assert minting.meter.pilot_total("general") == 1
+    assert join(http).status_code == 404
+    assert minting.meter.pilot_total("general") == 0
     assert join(http, link="pastors").status_code == 404 and join(http, link="historians").status_code == 404
 
 
