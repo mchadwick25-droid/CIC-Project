@@ -1,6 +1,7 @@
 /**
  * The pilot's free pack. A link from the site carries the audience's name, or a
- * private audience's secret key, in the address fragment (#cic-pilot=<link>); the app clears the fragment at once,
+ * private audience's secret key, and the role the person chose, in the address
+ * fragment (#cic-pilot=<link>&role=<role>); the app clears the fragment at once,
  * asks its own server for a code once, saves it like any other code, and keeps
  * a marker so a browser that has joined is never offered the pack again. The
  * marker and the code sit apart from conversations, and the request carries no
@@ -12,6 +13,14 @@ import { deeperEnabled, openPanel, saveCode } from './deeper';
 const MARKER_KEY = 'cic_pilot';
 // A public audience's name or a private audience's secret link key: letters, digits, hyphens, underscores.
 const LINK = /^[A-Za-z0-9_-]{1,64}$/;
+// One of the site form's role values. The server holds the list and checks it.
+const ROLE = /^[a-z_]{1,32}$/;
+const FRAGMENT = /^#cic-pilot=([A-Za-z0-9_-]{1,64})&role=([a-z_]{1,32})$/;
+
+export interface PilotLink {
+  link: string;
+  role: string;
+}
 
 export type PilotStatus = 'joining' | 'ready' | 'already' | 'full' | 'ended' | 'address_limit' | 'failed';
 
@@ -46,18 +55,17 @@ function setMarker() {
   }
 }
 
-/** The link a fragment named, or null. The fragment is cleared whatever it holds. */
-export function takePilotFromAddress(): string | null {
-  if (typeof window === 'undefined') return null;
-  const match = /^#cic-pilot=([^&]*)$/.exec(window.location.hash);
-  if (!match) return null;
+/** The link and role a fragment named, or null. Any pilot fragment is cleared whatever it holds. */
+export function takePilotFromAddress(): PilotLink | null {
+  if (typeof window === 'undefined' || !window.location.hash.startsWith('#cic-pilot=')) return null;
+  const match = FRAGMENT.exec(window.location.hash);
   window.history.replaceState(null, '', window.location.pathname + window.location.search);
-  return LINK.test(match[1]) ? match[1] : null;
+  return match ? { link: match[1], role: match[2] } : null;
 }
 
 /** Asks for the pack once. A browser that already joined is told so and asks nothing. */
-export async function joinPilot(link: string): Promise<void> {
-  if (!deeperEnabled || !LINK.test(link) || state.status === 'joining') return;
+export async function joinPilot(link: string, role: string): Promise<void> {
+  if (!deeperEnabled || !LINK.test(link) || !ROLE.test(role) || state.status === 'joining') return;
   if (holdsMarker()) {
     update({ ...idle, status: 'already' });
     openPanel();
@@ -72,7 +80,7 @@ export async function joinPilot(link: string): Promise<void> {
       credentials: 'omit',
       referrerPolicy: 'no-referrer',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ link }),
+      body: JSON.stringify({ link, role }),
     });
     if (response.status === 404) {
       // Closed or not named: nothing is shown, as if there were no pilot.
@@ -118,6 +126,6 @@ export function usePilot(): PilotState {
 
 if (typeof window !== 'undefined') {
   // The fragment is cleared whether or not the module is on: a key never stays in the address or the history.
-  const link = takePilotFromAddress();
-  if (deeperEnabled && link) void joinPilot(link);
+  const named = takePilotFromAddress();
+  if (deeperEnabled && named) void joinPilot(named.link, named.role);
 }

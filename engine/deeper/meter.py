@@ -64,6 +64,16 @@ MAX_TOKENS_PER_CODE = 1_000_000
 MAX_BATCH_COUNT = 1_000
 RETENTION_DAYS = 30
 PILOT_RETENTION_DAYS = 90
+# The perspective a person names when they join the pilot: the feedback form's own six answers.
+# Only a count per audience per perspective is kept, never tied to a code or an address.
+PILOT_ROLES = {
+    "general": "General",
+    "pastor_or_teacher": "Pastor or Teacher",
+    "academic": "Academic",
+    "re_examining": "Re-examining my faith",
+    "not_sure": "Not sure / more than one",
+    "prefer_not_to_say": "Prefer not to say",
+}
 DEFAULT_FREE_WINDOW_DAYS = 30
 
 _SCHEMA = """
@@ -582,16 +592,22 @@ class Meter:
         ]
 
     def join_pilot(
-        self, audience: str, address: str, tokens: int, grant_id: str, *, open_: bool, end_date: date, cap: int, per_address: int,
+        self, audience: str, address: str, tokens: int, grant_id: str, *,
+        role: str, open_: bool, end_date: date, cap: int, per_address: int,
     ) -> str:
         """Gives one pilot code to an address, or raises PilotRefused. Each
         audience has its own cap and its own count per address. The checks,
-        the count and the code commit together, so two joins at once cannot both
-        take the last place. The address is kept only as a keyed hash, with how
-        many codes it has had and the day of its first; each audience's total
-        given is one number that outlives those rows."""
+        the counts and the code commit together, so two joins at once cannot both
+        take the last place, and a refused join counts nothing. The address is
+        kept only as a keyed hash, with how many codes it has had and the day of
+        its first; each audience's total given, and its count for each role in
+        PILOT_ROLES, are plain numbers that outlive those rows and name no code
+        or address."""
+        if role not in PILOT_ROLES:
+            raise ValueError(f"unknown pilot role {role!r}")
         key = self.free_key(f"pilot:{audience}:{address}")
         total_key = f"pilot_total:{audience}"
+        role_key = f"pilot_role:{audience}:{role}"
 
         def gate(conn: sqlite3.Connection, today: str) -> None:
             if not open_:
@@ -614,6 +630,11 @@ class Meter:
                 "INSERT INTO state (key, value) VALUES (?, ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value",
                 (total_key, str(total + 1)),
             )
+            role_row = conn.execute("SELECT value FROM state WHERE key = ?", (role_key,)).fetchone()
+            conn.execute(
+                "INSERT INTO state (key, value) VALUES (?, ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value",
+                (role_key, str((int(role_row[0]) if role_row else 0) + 1)),
+            )
 
         (code,) = self.mint("single", tokens, grant_id, 1, source="pilot", within=gate)
         return code
@@ -621,6 +642,14 @@ class Meter:
     def pilot_total(self, audience: str) -> int:
         value = self.get_state(f"pilot_total:{audience}")
         return int(value) if value else 0
+
+    def pilot_roles(self, audience: str) -> dict[str, int]:
+        """How many joins of an audience named each role, with every role listed."""
+        counts = {}
+        for role in PILOT_ROLES:
+            value = self.get_state(f"pilot_role:{audience}:{role}")
+            counts[role] = int(value) if value else 0
+        return counts
 
     def _add(self, measure: str, amount: int, day: str) -> None:
         self._conn.execute(

@@ -27,6 +27,12 @@
 .code-list li{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem;min-width:0}
 .code-value{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:1.25rem;letter-spacing:.08em;overflow-wrap:anywhere}
 .state[hidden]{display:none}
+form.pilot-join{max-width:32rem;margin:1.4rem auto 0;text-align:left}
+form.pilot-join label{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.98rem;font-weight:600;margin:0 0 .4rem}
+form.pilot-join .hint{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:#B8AEA1;font-weight:400;display:block;margin-top:.15rem}
+form.pilot-join select{width:100%;font-family:'Alegreya',Georgia,serif;font-size:1rem;padding:.7rem .8rem;border:1px solid var(--rule);border-radius:5px;background:#1E1913;color:#F1E9DD}
+form.pilot-join .hero-actions{justify-content:center}
+button.btn{cursor:pointer}
 </style>
 </head>
 <body>
@@ -67,10 +73,22 @@
     <h1>Join the pilot</h1>
     <p>Go Deeper lets you keep talking after a free conversation ends. Join the pilot and we give you one free pack: <span data-ops="pilot-tokens">1,100</span> tokens, about <span data-ops="pilot-conversations">ten</span> conversations.</p>
     <p>In return, we ask you to answer a short questionnaire after <span data-pilot-end>31 December 2026</span>. You do not need to give your name or email.</p>
-    <p>Places are limited.</p>
-    <div class="hero-actions" style="margin:1.2rem 0 1rem;">
-      <a class="btn primary" id="pilot-button" href="#">Get my free pack</a>
-    </div>
+    <p>Places are limited to <span data-ops="pilot-cap">100</span>. One pack per person.</p>
+    <form class="pilot-join" id="pilot-form">
+      <label for="pilot-role">Which of these describes you best?<span class="hint">We keep only a count of each answer, not who gave it.</span></label>
+      <select id="pilot-role" name="role" required>
+        <option value="" selected disabled>Choose one</option>
+        <option value="general">General</option>
+        <option value="pastor_or_teacher">Pastor or Teacher</option>
+        <option value="academic">Academic</option>
+        <option value="re_examining">Re-examining my faith</option>
+        <option value="not_sure">Not sure / more than one</option>
+        <option value="prefer_not_to_say">Prefer not to say</option>
+      </select>
+      <div class="hero-actions" style="margin:1.2rem 0 1rem;">
+        <button type="submit" class="btn primary" id="pilot-button">Get my free pack</button>
+      </div>
+    </form>
   </section>
   <noscript><section class="page-section"><p class="fine-print">This page needs JavaScript.</p></section></noscript>
 </main>

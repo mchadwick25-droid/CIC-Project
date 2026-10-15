@@ -18,7 +18,7 @@ from engine.api.deeper_routes import DeeperConfigError, DeeperRuntime, Product, 
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore
 from engine.deeper.config import DeeperConfig
-from engine.deeper.meter import Meter
+from engine.deeper.meter import PILOT_ROLES, Meter
 
 FREE_KEY = "k" * 40
 SECRET = "whsec_test_secret"
@@ -1111,7 +1111,7 @@ LINK_KEYS = {"pastors": "pastors-link-key-0123456789", "historians": "historians
 def open_pilot(runtime, audience="general", **changes):
     import dataclasses
 
-    ops = runtime.ops or load_ops()
+    ops = runtime.ops or close_pilot(runtime).ops
     audiences = dict(ops.pilot_audiences)
     end = changes.pop("pilot_end_date", ops.pilot_end_date)
     audiences[audience] = dataclasses.replace(audiences[audience], pilot_open=True, **changes)
@@ -1120,15 +1120,37 @@ def open_pilot(runtime, audience="general", **changes):
     return runtime
 
 
-def join(http, ip="203.0.113.7", audience="general", link=None, **headers):
+def close_pilot(runtime):
+    import dataclasses
+
+    ops = load_ops()
+    audiences = {name: dataclasses.replace(a, pilot_open=False) for name, a in ops.pilot_audiences.items()}
+    runtime.ops = dataclasses.replace(ops, pilot_audiences=audiences)
+    return runtime
+
+
+def join(http, ip="203.0.113.7", audience="general", link=None, role="general", **headers):
     key = link if link is not None else LINK_KEYS.get(audience, audience)
-    return http.post("/api/deeper/pilot-join", json={"link": key}, headers={"x-forwarded-for": ip, **headers})
+    body = {"link": key} if role is None else {"link": key, "role": role}
+    return http.post("/api/deeper/pilot-join", json=body, headers={"x-forwarded-for": ip, **headers})
 
 
-def test_the_shipped_pilot_is_closed_and_the_route_then_does_not_exist_to_a_visitor(http, minting):
-    assert not any(a.pilot_open for a in load_ops().pilot_audiences.values())
+def test_a_closed_pilot_route_does_not_exist_to_a_visitor(http, runtime):
+    close_pilot(runtime)
     assert join(http).status_code == 404
-    assert minting.meter.reconciliation(1) == []
+    assert runtime.meter.reconciliation(1) == []
+
+
+def test_the_shipped_pilot_opens_only_general_with_a_hundred_places_one_each(http, minting):
+    audiences = load_ops().pilot_audiences
+    assert {name for name, a in audiences.items() if a.pilot_open} == {"general"}
+    general = audiences["general"]
+    assert (general.pilot_cap, general.per_address, general.public) == (100, 1, True)
+    assert join(http).status_code == 200
+    again = join(http)
+    assert again.status_code == 409 and again.json()["reason"] == "address_limit"
+    assert minting.meter.pilot_total("general") == 1
+    assert join(http, link="pastors").status_code == 404 and join(http, link="historians").status_code == 404
 
 
 def test_a_press_gives_one_ordinary_pack_code_shown_once(http, runtime):
@@ -1192,10 +1214,11 @@ def test_a_failed_mint_keeps_the_address_count_and_the_total_unspent(runtime):
     open_pilot(runtime)
     with pytest.raises(ValueError):
         runtime.meter.join_pilot(
-            "general", "203.0.113.5", 1100, "pi_wrong", open_=True, end_date=date(2026, 12, 31), cap=5, per_address=2,
+            "general", "203.0.113.5", 1100, "pi_wrong", role="academic", open_=True, end_date=date(2026, 12, 31), cap=5, per_address=2,
         )
     assert runtime.meter.pilot_total("general") == 0
     assert runtime.meter._conn.execute("SELECT COUNT(*) FROM pilot_joined").fetchone()[0] == 0
+    assert runtime.meter.pilot_roles("general")["academic"] == 0
 
 
 def test_the_pilot_join_answers_the_site_and_no_other_origin(http, runtime):
@@ -1212,10 +1235,14 @@ def test_the_status_reports_the_pilot_against_its_cap(http, runtime):
     status = http.get("/api/admin/deeper/status", headers=admin()).json()["pilot"]
     assert status["end_date"] == runtime.ops.pilot_end_date.isoformat()
     pilot = {row["audience"]: row for row in status["audiences"]}
+    roles = pilot["general"].pop("roles")
     assert pilot["general"] == {
         "audience": "general", "open": True, "cap": 10, "given": 1,
-        "per_address": 2, "public": True, "link_set": False,
+        "per_address": 1, "public": True, "link_set": False,
     }
+    assert roles == [
+        {"role": role, "label": label, "count": 1 if role == "general" else 0} for role, label in PILOT_ROLES.items()
+    ]
     assert pilot["pastors"]["open"] is False and pilot["pastors"]["given"] == 0
 
 
@@ -1238,7 +1265,7 @@ def test_an_address_row_is_kept_for_ninety_days_and_then_deleted(runtime):
     from engine.deeper.meter import PILOT_RETENTION_DAYS
 
     meter = runtime.meter
-    meter.join_pilot("general", "203.0.113.5", 1100, "pilot_a", open_=True, end_date=date(2027, 1, 1), cap=5, per_address=2)
+    meter.join_pilot("general", "203.0.113.5", 1100, "pilot_a", role="general", open_=True, end_date=date(2027, 1, 1), cap=5, per_address=2)
     assert PILOT_RETENTION_DAYS == 90
     first = date(2026, 10, 5)
     for days, kept in ((PILOT_RETENTION_DAYS - 1, 1), (PILOT_RETENTION_DAYS, 0)):
@@ -1289,6 +1316,7 @@ def test_a_public_audience_is_joined_by_its_name_and_a_private_key_is_not_a_publ
 
 
 def test_a_closed_unnamed_and_missing_link_all_answer_alike_with_a_404(http, runtime):
+    close_pilot(runtime)
     assert join(http, link="general").status_code == 404
     open_pilot(runtime, "pastors")
     assert join(http, link="general").status_code == 404
@@ -1319,7 +1347,7 @@ def test_one_address_across_every_audience_is_bounded_by_their_counts(http, runt
 
 
 def test_the_pilot_preflight_is_a_404_while_no_audience_is_open_and_answers_once_one_is(http, runtime):
-    runtime.ops = load_ops()
+    close_pilot(runtime)
     assert http.options("/api/deeper/pilot-join", headers={"origin": "https://site.example"}).status_code == 404
     open_pilot(runtime, "pastors")
     assert http.options("/api/deeper/pilot-join", headers={"origin": "https://site.example"}).status_code == 204
@@ -1350,6 +1378,97 @@ def test_the_old_single_pilot_total_is_dropped_when_the_file_opens(tmp_path):
     meter = Meter(path, clock=lambda: date(2026, 10, 5))
     assert meter.get_state("pilot_total") is None
     meter.close()
+
+
+def _role_counts(runtime, audience="general"):
+    return {role: n for role, n in runtime.meter.pilot_roles(audience).items() if n}
+
+
+def test_the_role_is_required_and_must_be_one_of_the_fixed_list(http, runtime):
+    open_pilot(runtime)
+    for bad in (None, "", "General", "pastor", "pastors", "x" * 64, "general "):
+        refused = join(http, role=bad)
+        assert refused.status_code == 400, bad
+        assert "role must be one of" in refused.json()["detail"]
+    assert join(http, role="x" * 65).status_code == 422
+    assert runtime.meter.pilot_total("general") == 0
+    assert runtime.meter.reconciliation(1) == []
+    assert runtime.meter._conn.execute("SELECT COUNT(*) FROM pilot_joined").fetchone()[0] == 0
+    assert _role_counts(runtime) == {}
+    assert runtime.meter.net_funds(7)["gift"] == 0
+
+
+def test_every_role_on_the_list_joins_and_counts_one(http, runtime):
+    open_pilot(runtime, per_address=1, pilot_cap=100)
+    for n, role in enumerate(PILOT_ROLES):
+        assert join(http, ip=f"198.51.100.{100 + n}", role=role).status_code == 200, role
+    assert _role_counts(runtime) == {role: 1 for role in PILOT_ROLES}
+    assert runtime.meter.pilot_total("general") == len(PILOT_ROLES)
+
+
+def test_a_role_count_rises_only_on_a_join_that_made_a_code(http, runtime):
+    open_pilot(runtime, per_address=1, pilot_cap=2)
+    assert join(http, ip="198.51.100.1", role="academic").status_code == 200
+    assert join(http, ip="198.51.100.1", role="academic").json()["reason"] == "address_limit"
+    assert join(http, ip="198.51.100.2", role="academic").status_code == 200
+    assert join(http, ip="198.51.100.3", role="general").json()["reason"] == "full"
+    assert _role_counts(runtime) == {"academic": 2}
+    open_pilot(runtime, per_address=1, pilot_cap=5, pilot_end_date=date(2026, 10, 4))
+    assert join(http, ip="198.51.100.4", role="general").json()["reason"] == "ended"
+    close_pilot(runtime)
+    assert join(http, ip="198.51.100.5", role="general").status_code == 404
+    assert _role_counts(runtime) == {"academic": 2}
+    assert runtime.meter.pilot_total("general") == 2
+
+
+def test_the_role_is_counted_per_audience(http, runtime):
+    open_pilot(runtime, "general")
+    open_pilot(runtime, "pastors")
+    join(http, ip="198.51.100.20", audience="general", role="re_examining")
+    join(http, ip="198.51.100.20", audience="pastors", role="pastor_or_teacher")
+    assert _role_counts(runtime, "general") == {"re_examining": 1}
+    assert _role_counts(runtime, "pastors") == {"pastor_or_teacher": 1}
+
+
+def test_the_role_is_kept_only_as_a_count_tied_to_no_code_or_address(http, runtime):
+    open_pilot(runtime)
+    made = join(http, ip="203.0.113.80", role="not_sure").json()
+    keys = [row[0] for row in runtime.meter._conn.execute("SELECT key FROM state WHERE key LIKE 'pilot_role:%'")]
+    assert keys == ["pilot_role:general:not_sure"]
+    assert runtime.meter.get_state("pilot_role:general:not_sure") == "1"
+    dump = "\n".join(runtime.meter._conn.iterdump())
+    assert dump.count("not_sure") == 1
+    assert codes.hash_code(codes.normalize(made["code"])) not in runtime.meter._conn.execute(
+        "SELECT group_concat(value) FROM state"
+    ).fetchone()[0]
+    for table, column in (("meter", "payment_id"), ("pilot_joined", "key_hash")):
+        values = [row[0] for row in runtime.meter._conn.execute(f"SELECT {column} FROM {table}")]
+        assert values and not any("not_sure" in v for v in values)
+
+
+def test_the_meter_refuses_a_role_off_the_list_before_anything_is_written(runtime):
+    with pytest.raises(ValueError):
+        runtime.meter.join_pilot(
+            "general", "203.0.113.5", 1100, "pilot_x", role="clergy", open_=True, end_date=date(2026, 12, 31), cap=5, per_address=2,
+        )
+    assert runtime.meter.pilot_total("general") == 0 and runtime.meter.reconciliation(1) == []
+
+
+def test_the_cap_of_a_hundred_holds_and_the_role_counts_stop_with_it(http, runtime):
+    open_pilot(runtime, pilot_cap=100, per_address=2)
+    statuses = [join(http, ip=f"10.0.{n // 200}.{n % 200}", role="general").status_code for n in range(101)]
+    assert statuses.count(200) == 100 and statuses[-1] == 409
+    assert runtime.meter.pilot_total("general") == 100
+    assert _role_counts(runtime) == {"general": 100}
+
+
+def test_the_dashboard_shows_the_role_counts_beside_the_pilot_totals():
+    from pathlib import Path
+
+    page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
+    tiles = page[page.index('id="t-deeper-pilot"'):page.index('id="t-deeper-door"')]
+    assert 'id="t-deeper-pilot-roles"' in tiles
+    assert "a.roles.map((r) => r.label" in page and "r.count" in page
 
 
 def test_a_link_key_equal_to_a_long_audience_name_is_refused_at_start():
