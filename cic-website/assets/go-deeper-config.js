@@ -8,7 +8,7 @@
   root.GoDeeperConfig = {
     enabled: true,
     // On when a pilot audience is open; off, the pilot page shows nothing.
-    pilot: true,
+    pilot: false,
     app: isLocal ? "http://localhost:5173" : "https://cic-engine.onrender.com",
     api: isLocal ? "http://localhost:8000" : "https://cic-engine.onrender.com",
   };
