@@ -94,3 +94,13 @@ Mark chose batch A, "stop the silent failures" (findings 1, 2, 5, 6, 13), with t
 **Change order, named during implementation:** "failed calls recorded in the usage ledger" is not built. A failed or timed-out Bedrock call returns no token counts, so a ledger row would have to invent them, and the ledger's schema and every reader assume real usage. Failed voice calls are already logged (`provider call failed`, with the reason, including the new `voice capacity full`). Recording them in the ledger needs a schema decision and goes back to Mark.
 
 Not in batch A, still open: findings 3, 4, 7, 8, 9, 10, 11, 12, 14, 15, the backup bucket setup, the restore drill, and the AWS charge.
+
+## Batch B — cost guards (findings 3 and 4)
+
+Converged choices:
+1. The door enforces now (`door.observe: false`), ending its observe week early, with the base lowered from $150 to $75 a week until the pilot shows what real use costs. Free voice closes at 95% of the ceiling and all voice at 100%; the safety check is never closed.
+2. Visitor tokens are minted only on an allowed session create, never on a message request. One address's tokens then hold at most `limit*(limit-1)/2` sessions beyond its own daily limit (10 at the default of 5).
+3. Every rate limiter and the free allowance count an IPv6 connection by its /64 (`engine/api/ratelimit.py`, `network_of`).
+4. Dashboard step for Mark: an AWS Budget email alert as the outer backstop (`CiC_Model_Spend_Budget_Runbook.md`).
+
+Still open after batch B: the door counts a week, so a burst can spend much of the week's ceiling in hours before it closes. Daily visitor counts are kept in memory and reset on restart.

@@ -21,7 +21,7 @@ from typing import Callable
 from fastapi import Request
 
 from engine.api.deeper_routes import DeeperRuntime
-from engine.api.ratelimit import client_ip
+from engine.api.ratelimit import client_ip, network_of
 from engine.deeper import codes, tokens
 from engine.deeper import door as door_module
 from engine.m4.grants import TurnGrant, free_grant
@@ -278,5 +278,5 @@ def new_admission(runtime: DeeperRuntime | None, request: Request, *, session_id
         return None
     return Admission(
         runtime, code_from(request), session_id=session_id, free_cap=free_cap,
-        seats=seats, visitor=getattr(request.state, "visitor_id", None) or f"ip:{client_ip(request)}",
+        seats=seats, visitor=getattr(request.state, "visitor_id", None) or f"ip:{network_of(client_ip(request))}",
     )

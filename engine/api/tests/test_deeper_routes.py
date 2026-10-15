@@ -948,7 +948,7 @@ def test_a_runtime_built_for_real_keeps_the_doors_peaks_as_the_door_is_read(tmp_
     env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}
     rt = deeper_routes.build_runtime(config, env, usage_store=UsageLogStore(tmp_path / "usage.db"))
     try:
-        assert rt.door_observe is True and rt.paid_round_cap == 40
+        assert rt.door_observe is False and rt.paid_round_cap == 40
         rt.door.state()
         (day,) = rt.meter.measures(1)
         assert (day["door_stage"], day["door_ratio_permille"], day["door_spend_cents"]) == (0, 0, 0)

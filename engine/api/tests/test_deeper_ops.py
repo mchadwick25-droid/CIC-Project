@@ -159,7 +159,7 @@ def test_the_shipped_door_is_the_documented_default():
     from engine.deeper.door import Stage
 
     door = load_ops().door
-    assert (door.base_usd, door.gift_share, door.purchase_share, door.invoice_factor) == (150.0, 0.8, 0.5, 1.35)
+    assert (door.base_usd, door.gift_share, door.purchase_share, door.invoice_factor) == (75.0, 0.8, 0.5, 1.35)
     assert door.stages == (
         Stage(at=0.66, table_free_rounds=1),
         Stage(at=0.75, solo_free_rounds=2, free_share=0.5),
@@ -202,9 +202,10 @@ def test_a_malformed_door_is_refused(tmp_path, change):
         load_ops(_write(tmp_path, data))
 
 
-def test_the_shipped_door_starts_in_observe_mode_and_the_paid_cap_is_provisional():
+def test_the_shipped_door_enforces_at_a_75_dollar_base_and_the_paid_cap_is_provisional():
     ops = load_ops()
-    assert ops.door_observe is True
+    assert ops.door_observe is False
+    assert ops.door.base_usd == 75
     assert (ops.paid_round_cap, ops.paid_round_cap_provisional) == (40, True)
 
 
