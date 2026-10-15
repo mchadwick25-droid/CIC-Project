@@ -1563,6 +1563,25 @@ button {
   max-width: var(--max-width);
 }
 
+.arriving-hold {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.arriving-hold .typing-dots {
+  margin-left: 0;
+  gap: 5px;
+}
+
+.arriving-hold .typing-dots span {
+  width: 6px;
+  height: 6px;
+}
+
 .typing-dots {
   display: inline-flex;
   align-items: flex-end;
