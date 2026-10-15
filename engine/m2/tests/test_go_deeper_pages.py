@@ -260,9 +260,9 @@ def test_the_door_line_sits_on_the_home_and_get_involved_pages_hidden(page):
     assert html.index("assets/go-deeper-config.js") < html.index("assets/door-line.js")
 
 
-def test_the_site_stays_quiet_until_the_config_says_go_deeper_is_on():
+def test_the_site_asks_the_door_only_because_the_config_says_go_deeper_is_on():
     config = (SITE / "assets" / "go-deeper-config.js").read_text()
-    assert "enabled: false" in config
+    assert "enabled: true" in config
     script = (SITE / "assets" / "door-line.js").read_text()
     assert "GoDeeperConfig.enabled" in script
 
