@@ -1483,10 +1483,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # tag is still unremediated.
     ("records/cappadocian/force/cappadocian.force.capitals-gravity.md", 25, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 272, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 279, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 162, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 280, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 242, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 287, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 249, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),
     ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 27, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
