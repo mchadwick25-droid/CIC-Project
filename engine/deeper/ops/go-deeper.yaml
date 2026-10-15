@@ -48,16 +48,19 @@ pilot:
       pilot_cap: 100
       per_address: 1
       public: true
+      questionnaire_url: null
     pastors:
       pilot_open: false
       pilot_cap: 25
       per_address: 2
       public: false
+      questionnaire_url: null
     historians:
       pilot_open: false
       pilot_cap: 25
       per_address: 2
       public: false
+      questionnaire_url: null
 words:
   limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
   notes:
