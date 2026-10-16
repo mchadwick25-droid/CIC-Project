@@ -13,6 +13,7 @@ import json
 import logging
 import os
 import queue
+import shutil
 import threading
 import time
 from dataclasses import asdict, dataclass
@@ -25,7 +26,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from engine.api import admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, ratelimit, required_secrets, table_wiring, wiring
-from engine.api.config import REPO_ROOT, Settings
+from engine.api.config import REPO_ROOT, Settings, normalize_environ
 from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
 from engine.m4 import idle_close, session_code
@@ -453,6 +454,27 @@ def _authenticate_admin(configured_token: str | None, authorization: str | None,
         raise HTTPException(status_code=404)
 
 
+def _disk_used_percent(path: Path) -> int | None:
+    """How full the disk holding the databases is, as a whole percent. None if it cannot be read."""
+    try:
+        usage = shutil.disk_usage(path)
+    except OSError:
+        return None
+    return round(usage.used * 100 / usage.total) if usage.total else None
+
+
+def _will_be_refused(state, text: str, request: Request, is_table: bool) -> bool:
+    """True for a message that will be safety-screened and then refused
+    without a reply: the same conditions engine.api.wiring.handle_message and
+    engine.api.table_wiring.handle_table_message refuse on."""
+    return (
+        (state.closed and state.close_reason != "idle")
+        or len(text) > wiring.MAX_MESSAGE_LENGTH
+        or getattr(request.state, "daily_turn_cap_reached", False)
+        or (is_table and state.round_open)
+    )
+
+
 def create_app(
     *,
     voice_client,
@@ -482,6 +504,7 @@ def create_app(
     deeper: deeper_routes.DeeperRuntime | None = None,
     build_commit: str | None = None,
     backup_staging_dir: Path | None = None,
+    data_dir: Path | None = None,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -527,6 +550,7 @@ def create_app(
         ratelimit.install(
             app, bucket_for=(lambda request: deeper_admission.burst_key(deeper, request)) if deeper is not None else None
         )
+    refused_limiter = ratelimit.SlidingWindowLimiter(*ratelimit.REFUSED_MESSAGE_LIMIT) if rate_limit else None
     app.state.deps = Deps(
         voice_client=voice_client,
         voice_model_id=voice_model_id,
@@ -560,6 +584,7 @@ def create_app(
             "status": "ok",
             "commit": build_commit or "unknown",
             "backup": db_backup.summarize_status(backup_staging_dir) if backup_staging_dir is not None else None,
+            "disk_used_percent": _disk_used_percent(data_dir) if data_dir is not None else None,
         }
 
     def _note_facilitator_only(request: Request, session_id: str) -> None:
@@ -654,6 +679,13 @@ def create_app(
         deps: Deps = request.app.state.deps
         state = _authenticate(deps.store, session_id, authorization)
         is_table = state.mode == "table"
+        if refused_limiter is not None and _will_be_refused(state, req.text, request, is_table):
+            if not refused_limiter.allow(ratelimit.network_of(ratelimit.client_ip(request))):
+                return JSONResponse(
+                    status_code=429,
+                    content={"detail": ratelimit.RETRY_DETAIL},
+                    headers={"Retry-After": str(int(refused_limiter.window))},
+                )
         admission = deeper_admission.new_admission(
             deeper, request, session_id=session_id,
             free_cap=round_module.TABLE_SESSION_ROUND_CAP if is_table else turn_module.SESSION_TURN_CAP,
@@ -951,6 +983,7 @@ def _build_real_app() -> FastAPI:
     # double-configures.
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
 
+    normalize_environ()
     required_secrets.check(dict(os.environ))
     settings = Settings.from_env()
     with guard.conversation_scope():  # the conversation path: the one place a client is built unwrapped
@@ -1032,6 +1065,7 @@ def _build_real_app() -> FastAPI:
         deeper=deeper_runtime,
         build_commit=os.environ.get("RENDER_GIT_COMMIT"),
         backup_staging_dir=backup_staging_dir,
+        data_dir=data_dir,
         # Same path m7_scheduler.start_background_scheduler was already
         # given above - one directory, two readers (the daily job writes
         # it, the usage-summary endpoint reads it).

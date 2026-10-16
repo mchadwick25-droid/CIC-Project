@@ -79,3 +79,28 @@ def test_the_invoice_factor_makes_the_door_count_what_the_bill_will_say():
 
 def test_the_open_state_closes_nothing():
     assert OPEN.free_voice and OPEN.paid_voice and OPEN.stage == 0
+
+
+def test_a_day_spending_its_share_closes_the_door_even_when_the_week_is_light():
+    import dataclasses
+
+    daily = dataclasses.replace(SETTINGS, daily_share=1 / 3)
+    state = compute(daily, 50.0, NO_FUNDS, 50.0)
+    assert state.ratio == pytest.approx(1.0) and state.paid_voice is False
+    assert compute(SETTINGS, 50.0, NO_FUNDS, 50.0).paid_voice is True
+
+
+def test_the_nearer_limit_sets_the_stage():
+    import dataclasses
+
+    daily = dataclasses.replace(SETTINGS, daily_share=1 / 3)
+    assert compute(daily, 140.0, NO_FUNDS, 10.0).ratio == pytest.approx(140 / 150)
+    assert compute(daily, 60.0, NO_FUNDS, 40.0).ratio == pytest.approx(40 / 50)
+
+
+def test_the_daily_limit_grows_with_the_weeks_money():
+    import dataclasses
+
+    daily = dataclasses.replace(SETTINGS, daily_share=1 / 3)
+    funds = {"gift": 15_000, "purchase": 0, "adjustment": 0}
+    assert compute(daily, 0.0, funds, 50.0).ratio == pytest.approx(50 / ((150 + 120) / 3))

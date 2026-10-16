@@ -378,6 +378,9 @@ def _cli(argv: list[str]) -> int:
     p_restore.add_argument("--local", action="store_true", help="--from-key is a local file, not an object key")
 
     args = parser.parse_args(argv)
+    from engine.api.config import normalize_environ
+
+    normalize_environ()
 
     if args.command == "backup":
         extra = {"meter": args.meter_db} if args.meter_db else None

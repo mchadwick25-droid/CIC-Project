@@ -70,6 +70,9 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["paid"].pop("provisional"),
         lambda d: d["door"].pop("observe"),
         lambda d: d["door"].update(observe="yes"),
+        lambda d: d["door"].pop("daily_share"),
+        lambda d: d["door"].update(daily_share=0),
+        lambda d: d["door"].update(daily_share=1.5),
         lambda d: d.pop("admin"),
         lambda d: d["admin"].pop("mint_max_tokens_per_day"),
         lambda d: d["admin"].update(mint_max_tokens_per_request=0),
@@ -169,6 +172,7 @@ def test_the_shipped_door_is_the_documented_default():
 
     door = load_ops().door
     assert (door.base_usd, door.gift_share, door.purchase_share, door.invoice_factor) == (75.0, 0.8, 0.5, 1.35)
+    assert door.daily_share == pytest.approx(0.333)
     assert door.stages == (
         Stage(at=0.66, table_free_rounds=1),
         Stage(at=0.75, solo_free_rounds=2, free_share=0.5),
