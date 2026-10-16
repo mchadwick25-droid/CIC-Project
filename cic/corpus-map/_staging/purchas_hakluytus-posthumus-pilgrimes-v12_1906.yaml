@@ -1,0 +1,42 @@
+source_file: purchas_hakluytus-posthumus-pilgrimes-v12_1906.txt
+
+assignments:
+  - row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--the-jesuit-china-mission-in-english-trigault-ricci-and-pantoja-chapters-v-viii
+    work: "The Jesuit China mission in English: Purchas's 1625 abridgement of Trigault's De Christiana expeditione (from Ricci) and Pantoja's letter from Peking of 1602 (Chapters V to VIII)"
+    author: purchas
+    locus: "Chap. V from file line 13995 (the Jesuits' entrance into Japan and China), Chap. VI from line 19677 (Pantoja's letter), Chap. VII from line 24742 (Discourse of the Kingdome of China out of Ricius and Trigautius), Chap. VIII from line 29109 (the mission to Ricci's death); Chapters I to IV are Russia, Persia, Mendes Pinto and the Philippines"
+    atlas_ids:
+      - mission-born-christianities-kirishitan-japan-kon
+    role: context
+    confidence: assigned
+    note: >
+      The English a build can quote for the China strand's Jesuit narrative: Purchas's 1625
+      rendering of Trigault, abridged and with Purchas's own Protestant asides, beside the
+      Latin already vendored (trigault_de-christiana-expeditione-apud-sinas-lat_1615.txt,
+      itself a second witness). Pantoja's letter is a missionary's first-hand account of
+      Peking. Mission voice, not convert voice. Chap. V also covers Xavier in Japan. Clean
+      OCR with marginal notes run into line ends.
+  - row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--the-jesuit-china-mission-in-english-trigault-ricci-and-pantoja-chapters-v-viii-2
+    work: "The Jesuit China mission in English: Purchas's 1625 abridgement of Trigault's De Christiana expeditione (from Ricci) and Pantoja's letter from Peking of 1602 (Chapters V to VIII)"
+    author: purchas
+    locus: "Chapters V to VIII, file lines 13995 to the end of Chap. VIII"
+    atlas_ids:
+      - the-society-of-jesus
+    role: context
+    confidence: assigned
+    note: >
+      The Society's own account of its China mission as English readers of 1625 received
+      it, through Purchas's abridgement and commentary. Context, not tradition, because the
+      words on the page are Purchas's edited English and not the Society's own text.
+  - row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--first-discoverie-of-the-philippinas-and-the-philippine-chapters-chap-iii
+    work: "'First discoverie of the Philippinas' and the Philippine material of Chap. III"
+    author: purchas
+    locus: "Chap. III, from the Table entry at file line 268 ('First discoverie of the Philippinas: written by Friar ...') to Chap. IIII"
+    atlas_ids:
+      - philippine-catholicism
+    role: context
+    confidence: provisional
+    note: >
+      Placed on the Table of contents alone; the chapter was not read for this entry. A
+      Philippine world agent should confirm what the friar's account covers before it is
+      cited.

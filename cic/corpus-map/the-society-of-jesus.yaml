@@ -3,6 +3,19 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-society-of-jesus
 works:
+- row_id: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880--the-moral-history-of-the-indies-books-v-vii-grimston-s-1604-english-2
+  work: 'The Natural and Moral History of the Indies, Vol. II: the Moral History (Books V
+    to VII), in Grimston''s 1604 English'
+  author: acosta
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'A first-generation Jesuit''s own published work on the American missions (Acosta
+    was provincial of Peru and later wrote the Society''s mission manual De procuranda). Context
+    here because it is a translated English edition, not the Society''s own text.
+
+    '
+  source_file: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880.txt
 - row_id: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908--briefe-historie-of-the-glorious-martyrdom-2
   work: A Briefe Historie of the Glorious Martyrdom of Twelve Reverend Priests (1582)
   author: allen-william
@@ -1162,6 +1175,19 @@ works:
 
     '
   source_file: nadal_scholia-in-constitutiones-lat_1883.txt
+- row_id: pages_histoire-religion-chretienne-japon-annexes-fra_1870--annexes-missionary-episcopal-papal-and-royal-documents-on-japan-1598-1651-2
+  work: 'Annexes: missionary, episcopal, papal and royal documents on the church in Japan,
+    1598-1651'
+  author: pages
+  locus: the Jesuit letters and relations among the numbered annexes (for example Valignano
+    to Acquaviva at file line 3284)
+  role: context
+  confidence: provisional
+  note: 'The Society''s Japan province writing home during the persecution, in French translation;
+    placed on the Jesuit letters the volume holds, not on a reading for that entry.
+
+    '
+  source_file: pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt
 - row_id: polanco_chronicon-v2-lat_1894--chronicon-societatis-iesu-polanco-tomus-2-1550-1552
   work: Chronicon Societatis Iesu (Polanco), Tomus 2 (1550-1552)
   author: polanco
@@ -1239,6 +1265,20 @@ works:
 
     '
   source_file: polanco_chronicon-v1-lat_1894.txt
+- row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--the-jesuit-china-mission-in-english-trigault-ricci-and-pantoja-chapters-v-viii-2
+  work: 'The Jesuit China mission in English: Purchas''s 1625 abridgement of Trigault''s De
+    Christiana expeditione (from Ricci) and Pantoja''s letter from Peking of 1602 (Chapters
+    V to VIII)'
+  author: purchas
+  locus: Chapters V to VIII, file lines 13995 to the end of Chap. VIII
+  role: context
+  confidence: assigned
+  note: 'The Society''s own account of its China mission as English readers of 1625 received
+    it, through Purchas''s abridgement and commentary. Context, not tradition, because the
+    words on the page are Purchas''s edited English and not the Society''s own text.
+
+    '
+  source_file: purchas_hakluytus-posthumus-pilgrimes-v12_1906.txt
 - row_id: ribadeneira_vita-ignatii-loiolae-lat_1572--vita-ignatii-loiolae-societatis-iesu-fundatoris
   work: Vita Ignatii Loiolae, Societatis Iesu Fundatoris
   author: ribadeneira

@@ -80,6 +80,16 @@ authors:
 
       '
     from_file: addai_doctrine-of-addai.txt
+  afonso-i-of-kongo:
+    kind: metadata-omission
+    evidence: 'The host catalogue names only the compiler (Jordao, Levy Maria, visconde de
+      Paiva Manso); the documents'' own headings and texts name their writer, ''D. Affonso
+      por graca de Deus rei de Manicongo'' (file line 444) and ''Carta de D. Affonso rei do
+      Congo'' (lines 584, 1372 and onward), so the author of those letters is supplied from
+      the documents themselves.
+
+      '
+    from_file: paiva-manso_historia-do-congo-documentos-por_1877.txt
   ambrose-hypomnemata:
     kind: pseudonymous
     evidence: 'div2 9.18 "Ambrose": "A memorial (hypomnemata) which Ambrose, a chief man of

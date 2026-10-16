@@ -5556,3 +5556,258 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: VI.5 world agent, advancedsearch, 2026-10-16
     status: not-yet-downloaded
+
+  - title: Historia do Congo (Documentos)
+    author: Levy Maria Jordao, Visconde de Paiva Manso (compiler); documents of D. Afonso I of Kongo and
+      others
+    translator: none (Portuguese originals)
+    year: 1877
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'The census names Afonso I''s letters (in Brasio''s Monumenta Missionaria Africana, 1952 onward,
+      in copyright). Paiva Manso''s 1877 corpo diplomatico prints the same letters and is public domain;
+      vendored as the Kongo strand''s own voice.
+
+      '
+    url: https://archive.org/details/historiadocongod00jorduoft
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (NOT_IN_COPYRIGHT) and direct fetch of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: paiva-manso_historia-do-congo-documentos-por_1877.txt
+  - title: Memorials of the Empire of Japon in the XVI and XVII Centuries
+    author: Thomas Rundall (ed.); William Adams (letters)
+    translator: none (English)
+    year: 1850
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Named in the task brief; the English outside witness to Japan in the prohibition years (Adams''s
+      letters 1611-1617). Vendored.
+
+      '
+    url: https://archive.org/details/memorialsofempir00rundrich
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (NOT_IN_COPYRIGHT) and direct fetch of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: rundall_memorials-of-the-empire-of-japon_1850.txt
+  - title: 'Histoire de la religion chretienne au Japon depuis 1598 jusqu''a 1651, seconde partie: Annexes'
+    author: Leon Pages (compiler and translator)
+    translator: Leon Pages (into French)
+    year: 1870
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Not named by the census; found by widening to the martyrology. The documentary volume of the standard
+      nineteenth-century history of the persecution, holding letters of Japanese Christians in French translation,
+      the nearest public-domain thing to a Kirishitan convert voice. Vendored. The narrative volume (1869)
+      is a separate lead below.
+
+      '
+    url: https://archive.org/details/histoiredelarel01paggoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (NOT_IN_COPYRIGHT) and direct fetch of the djvu.txt; volume
+      identified as the Annexes from the scan's own half-title, 2026-10-16
+    status: downloaded
+    vendored_as: pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt
+  - title: 'Hakluytus Posthumus, or Purchas His Pilgrimes, Volume XII (Jesuit China mission: Trigault from
+      Ricci, and Pantoja)'
+    author: Samuel Purchas (compiler, 1625)
+    translator: Purchas's 1625 English of Trigault and Pantoja
+    year: 1906
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Named in the task brief: the public-domain English of Trigault''s De Christiana expeditione (whose
+      Latin is vendored but garbled). The Glasgow reprint, Chapters V to VIII. Vendored.
+
+      '
+    url: https://archive.org/details/hakluytusposthum12purc
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (no copyright-status field; year read from the title page
+      MCMVI in the scan) and direct fetch of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: purchas_hakluytus-posthumus-pilgrimes-v12_1906.txt
+  - title: The Natural and Moral History of the Indies, Vol. II (the Moral History, Books V-VII)
+    author: Jose de Acosta, S.J.
+    translator: Edward Grimston (1604); ed. Clements R. Markham
+    year: 1880
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Named in the task brief; the Jesuit outside witness on Andean and Mexican religion and the mission,
+      in public-domain English. Vol. II only vendored (Vol. I is natural history).
+
+      '
+    url: https://archive.org/details/naturalmoralhist61acosrich
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (NOT_IN_COPYRIGHT) and direct fetch of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880.txt
+  - title: Historia de los indios de la Nueva Espana
+    author: Motolinia (Toribio de Benavente, O.F.M.)
+    translator: none (Spanish original); ed. Daniel Sanchez Garcia
+    year: 1914
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Named in the task brief; the Franciscan account of the Mexican conversion from inside the mission.
+      Vendored in Spanish; no public-domain English.
+
+      '
+    url: https://archive.org/details/historiadelosind00moto
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (NOT_IN_COPYRIGHT; language field 'eng' is an error) and
+      direct fetch of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt
+  - title: The Natural and Moral History of the Indies, Vol. I (the Natural History, Books I-IV)
+    author: Jose de Acosta, S.J.
+    translator: Edward Grimston (1604); ed. Clements R. Markham
+    year: 1880
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Companion volume to the vendored Vol. II; natural history, outside the world''s need. Verified
+      and left for a build that wants it.
+
+      '
+    url: https://archive.org/details/naturalmoralhist60acosrich
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (NOT_IN_COPYRIGHT) and direct fetch of the djvu.txt (sampled),
+      2026-10-16
+    status: not-yet-downloaded
+  - title: Diary of Richard Cocks, cape-merchant in the English factory in Japan, 1615-1622, 2 vols.
+    author: Richard Cocks
+    translator: ed. Edward Maunde Thompson (English)
+    year: 1883
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Named in the task brief; an English trader''s day-book through the great persecution (Hakluyt
+      Society, 2 vols). Verified public domain, not vendored this pass: Rundall and Pages cover the outside
+      and inside witness, and the diary is two large volumes. Project Gutenberg #46803 and #48012 carry
+      the same edition.
+
+      '
+    url: https://archive.org/details/diaryrichardcoc00unkngoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (NOT_IN_COPYRIGHT), 2026-10-16; vol. 2 is diaryrichardcoc01thomgoog
+      or diaryofrichardco02cock
+    status: not-yet-downloaded
+  - title: The History of that Great and Renowned Monarchy of China
+    author: Alvaro Semedo, S.J.
+    translator: English, 1655 (translator not named on the item)
+    year: 1655
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Named in the task brief; a second Jesuit account of China and the mission in seventeenth-century
+      English. Verified public domain, not vendored: Purchas''s Trigault covers the same ground, and the
+      1655 scan reads the long s as f throughout, so it would be a second witness only.
+
+      '
+    url: https://archive.org/details/historyofthatgre00seme
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (NOT_IN_COPYRIGHT) and direct fetch of the djvu.txt (sampled,
+      long-s OCR), 2026-10-16
+    status: not-yet-downloaded
+  - title: The History of the Church of Japan (Crasset), 2 vols.
+    author: Jean Crasset, S.J.
+    translator: N. N. (English, 1705)
+    year: 1705
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Widening find: the 1705 English of Crasset''s 1689 Jesuit history of the Japanese church, with
+      the martyrdoms. A secondary Jesuit narrative, not vendored; the scan is a 1705 print with long s (readable
+      after normalisation). Volume 2 is the item ending _1705_2.
+
+      '
+    url: https://archive.org/details/bim_eighteenth-century_the-history-of-the-churc_crasset-jean_1705_1
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (1705; no copyright-status field) and direct fetch of vol.
+      1 djvu.txt (sampled), 2026-10-16
+    status: not-yet-downloaded
+  - title: Doctrina christiana, y catecismo para instruccion de los indios (Third Council of Lima), Spanish,
+      Quechua and Aymara
+    author: Third Provincial Council of Lima (1583); Jose de Acosta and others
+    translator: none (trilingual original)
+    year: 1584
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Named in the task brief: the founding catechism of Andean Christianity, printed at Lima 1584.
+      Two scans exist (John Carter Brown doctrinachristia00cath, Princeton doctrinachristia00cath_0). Not
+      vendored: the OCR of the 1584 trilingual print is garbled past use even as a second witness (sampled
+      at five points). Needs a clean transcription or page images.
+
+      '
+    url: https://archive.org/details/doctrinachristia00cath
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (1584 print, no copyright-status field) and direct fetch
+      of the djvu.txt (garbled), 2026-10-16
+    status: not-yet-downloaded
+  - title: Historia general de las cosas de Nueva Espana, 3 vols. (Bustamante edition)
+    author: Bernardino de Sahagun, O.F.M.
+    translator: none (Spanish); ed. Carlos Maria de Bustamante
+    year: 1829
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Named in the task brief; the Franciscan ethnography of the Nahua in Spanish (the Nahuatl of the
+      Florentine Codex is not in this edition). Verified on the host, not vendored: three large volumes
+      of missionary ethnography, and Motolinia already carries the Franciscan mission voice. Vol. 1 is historiagenerald01saha;
+      vols. 2 and 3 are historiagenerald02saha and historiagenerald03saha.
+
+      '
+    url: https://archive.org/details/historiagenerald01saha
+    rights_basis: pd-us-by-date
+    verified_by: VI.13 world agent, metadata API (1829, Mexico; no copyright-status field), 2026-10-16
+    status: not-yet-downloaded
+  - title: Tianzhu shiyi (T'ien-chu shih-i, The True Meaning of the Lord of Heaven), Chinese
+    author: Matteo Ricci, S.J.
+    translator: none (Chinese original)
+    year: 1607
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Named by the census (in the Lancashire and Hu 1985 English, in copyright). Three scans exist on
+      archive.org: JapSin-1-44 (ARSI Jap-Sin I-44, 1607 print) carries a CC BY-NC-ND 3.0 licence, which
+      the library does not accept; 02099353.cn and 02099354.cn (Universal Library scans of a Chinese print)
+      carry no rights statement and only 24-28 KB of OCR per volume, so no usable text. Lead only until
+      a public-domain transcription is found (zh.wikisource was rate-limited this pass; its search for the
+      title returned nothing when it answered).
+
+      '
+    url: https://archive.org/details/JapSin-1-44
+    rights_basis: unsettled (CC BY-NC-ND on the ARSI scan; none stated on the Universal Library scans)
+    verified_by: VI.13 world agent, metadata API for all three items, 2026-10-16
+    status: not-yet-downloaded
+  - title: Dochirina Kirishitan, chapter 7 ('Deusu no on-okite to no mandamentos no koto'), from Kirishitan
+      bungaku sho (1926)
+    author: Society of Jesus, Nagasaki press (1600 print); ed. Muraoka Tsunetsugu
+    translator: none (Japanese original)
+    year: 1926
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'The Japanese-language catechism the census names. Japanese Wikisource transcribes chapters of
+      the 1600 Nagasaki print from Muraoka Tsunetsugu, ed., Kirishitan bungaku sho (Tokyo: Kaizosha, 1926;
+      NDL digital 971193), a 1926 publication and so public domain by date. Not vendored: the Wikisource
+      page is wiki markup with furigana the contributor says are not in the original, so vendoring needs
+      either the NDL scan (dl.ndl.go.jp is blocked from this sandbox) or a ruling that stripping the markup
+      counts as mechanical. Related pages: ''Keredo narabi ni Hiidesu no aruchigo no koto'' (chapter 6;
+      fetch failed under rate limiting) and ''Dochirina kirishitan'' (title, preface and contents only,
+      based on a 1979 Benseisha edition, URAA).
+
+      '
+    url: https://ja.wikisource.org/wiki/でうすの御掟十のまだめんとすの事
+    rights_basis: pd-us-by-date for the 1926 base text (pending a ruling on the wiki transcription)
+    verified_by: VI.13 world agent, Wikisource API fetch of the page (rev 220402, 2024-06-10) with its stated
+      base text, 2026-10-16
+    status: not-yet-downloaded
+  - title: Nueva coronica y buen gobierno (1615), Spanish transcription on Spanish Wikisource
+    author: Felipe Guaman Poma de Ayala
+    translator: none (Spanish original with Quechua)
+    year: 1615
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'Named by the census: the native Andean Christian voice. The manuscript text is public domain.
+      Spanish Wikisource holds a chapter-by-chapter transcription marked incomplete; its conventions (bracketed
+      expansions, ''[sic]'', footnote numbers) match the Royal Danish Library''s 2001 online edition (Adorno
+      and Murra), whose terms could not be read because kb.dk is blocked from this sandbox, and the Wikisource
+      pages carry no licence template of their own. Lead only until the transcription''s licence is settled.
+      The archive.org items primer-nueva-coronica-y-buen-gobierno-vol-1-1615 and guaman-poma-de-ayala-felipe.-nueva-coronica.-tomo-i-ocr-1980
+      are modern uploads of unknown provenance (the latter a 1980 edition, in copyright).
+
+      '
+    url: https://es.wikisource.org/wiki/Nueva_corónica_y_buen_gobierno
+    rights_basis: unsettled (transcription source and licence)
+    verified_by: VI.13 world agent, Wikisource API fetch of the index and two chapters, 2026-10-16
+    status: not-yet-downloaded
+  - title: 'Histoire de la religion chretienne au Japon depuis 1598 jusqu''a 1651, premiere partie: Texte'
+    author: Leon Pages
+    translator: none (French)
+    year: 1869
+    world: VI.13 mission-born-christianities-kirishitan-japan-kon
+    why: 'The narrative volume companion to the vendored Annexes. Not found on archive.org (title, creator
+      and subject searches returned only the Annexes scan). A lead to search on another host; no URL verified.
+
+      '
+    url: ''
+    rights_basis: pd-us-by-date
+    verified_by: not verified; searched archive.org advancedsearch by title and creator, 2026-10-16, no
+      hit
+    status: not-yet-downloaded
