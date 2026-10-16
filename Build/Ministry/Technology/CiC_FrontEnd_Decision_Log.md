@@ -5671,11 +5671,14 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
     arguing with a Representative and a distress channel next to every turn; the page can
     carry one quiet link and no more.
 
-**Still open, asked next.** Whether the optional text line runs through the Facilitator's
-safety classifier (a model call per flag, against the usage rules) or relies on the printed
-redirect alone. The research's direction is the printed redirect, proportionate to a box
-that is anchored to one sentence and holds one line; it is a safety and cost call, so it is
-Mark's, not a default. Until he rules, the build assumes no model call.
+13. **No safety classifier on the optional text line** (Mark, same day: "no"). The printed
+    redirect under the box is the whole mechanism, with a person reading the queue weekly.
+    No model call. Grounds: the box is one line, anchored to one sentence, and nothing could
+    reply in real time either way; a model call per flag would also breach the usage rules
+    without buying a live response. To be revisited only if the queue ever shows distress
+    written there, as a governance question, not a quiet change.
+
+All five questions put to Mark are now decided. Nothing on this item is open.
 
 **Defaults set here, to be checked when the privacy page is written.** A flag or comment
 record is kept until it is closed plus 90 days. An email address is deleted when the reply
@@ -5707,5 +5710,5 @@ Build steps, in one draft pull request, pushed once after local checks pass:
    long (defaults above), reviewed by Mark before it ships.
 4. **Operations.** Name the weekly owner. First Corrections page entry is written when the
    first flag closes, not before, so the page never carries placeholder text.
-5. **After Mark rules on the open question**, wire the classifier or leave it out, and
-   update this entry.
+
+The build is a separate thread's work; this thread's deliverable was the decision.
