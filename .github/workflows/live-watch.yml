@@ -1,0 +1,36 @@
+name: Live watch
+
+# Every 15 minutes: is the production engine up, running the head of the
+# live branch, and backing up off its disk? tools/live_watch.py does the
+# checking. A failed run is the alert: GitHub emails the account that last
+# changed this schedule. Scheduled runs only fire from the default branch,
+# and GitHub may start them a few minutes late.
+
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: live-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: tools/live_watch.py
+          sparse-checkout-cone-mode: false
+      - run: python3 tools/live_watch.py
+        env:
+          ENGINE_URL: https://cic-engine.onrender.com
+          REPO: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ github.token }}
