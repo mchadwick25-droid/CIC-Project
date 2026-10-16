@@ -136,3 +136,15 @@ def test_network_of_keeps_ipv4_mapped_addresses_apart_as_their_ipv4():
     from engine.api.ratelimit import network_of
 
     assert network_of("::ffff:1.2.3.4") == "1.2.3.4" != network_of("::ffff:5.6.7.8")
+
+
+def test_rotating_ipv6_addresses_inside_one_block_shares_one_create_limit(store, usage_store, world_loader, registry):
+    client = _app(rate_limit=True, store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
+    _, max_creates = CREATE_LIMIT
+    codes = [
+        client.post("/api/session", json={"world_key": "fix"}, headers={"x-forwarded-for": f"2001:db8:1:2::{n + 1:x}"}).status_code
+        for n in range(max_creates + 1)
+    ]
+    assert codes[-1] == 429
+    other_block = client.post("/api/session", json={"world_key": "fix"}, headers={"x-forwarded-for": "2001:db8:1:3::1"})
+    assert other_block.status_code == 201

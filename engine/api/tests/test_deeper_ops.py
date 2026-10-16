@@ -101,6 +101,11 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["pilot"]["audiences"]["general"].update(per_address=True),
         lambda d: d["pilot"]["audiences"]["general"].update(pilot_end_date="2026-12-31"),
         lambda d: d["pilot"]["audiences"]["general"].update(extra=1),
+        lambda d: d["pilot"]["audiences"]["general"].pop("questionnaire_url"),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url="http://example.org/q"),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url="https://"),
+        lambda d: d["pilot"]["audiences"]["general"].update(questionnaire_url=7),
         lambda d: d["pilot"].update(pack_usd=9),
         lambda d: d["pilot"].update(extra=1),
     ],
@@ -163,7 +168,7 @@ def test_the_shipped_door_is_the_documented_default():
     from engine.deeper.door import Stage
 
     door = load_ops().door
-    assert (door.base_usd, door.gift_share, door.purchase_share, door.invoice_factor) == (150.0, 0.8, 0.5, 1.35)
+    assert (door.base_usd, door.gift_share, door.purchase_share, door.invoice_factor) == (75.0, 0.8, 0.5, 1.35)
     assert door.stages == (
         Stage(at=0.66, table_free_rounds=1),
         Stage(at=0.75, solo_free_rounds=2, free_share=0.5),
@@ -206,9 +211,10 @@ def test_a_malformed_door_is_refused(tmp_path, change):
         load_ops(_write(tmp_path, data))
 
 
-def test_the_shipped_door_starts_in_observe_mode_and_the_paid_cap_is_provisional():
+def test_the_shipped_door_enforces_at_a_75_dollar_base_and_the_paid_cap_is_provisional():
     ops = load_ops()
-    assert ops.door_observe is True
+    assert ops.door_observe is False
+    assert ops.door.base_usd == 75
     assert (ops.paid_round_cap, ops.paid_round_cap_provisional) == (40, True)
 
 
@@ -276,9 +282,16 @@ def test_a_real_runtime_rebuilt_on_the_same_file_and_key_does_not_refill_a_visit
         second.claims.close()
 
 
-def test_the_shipped_pilot_opens_no_audience_until_its_questionnaire_is_ready():
+def test_the_shipped_pilot_opens_no_audience_without_its_questionnaire():
     ops = load_ops()
     assert set(ops.pilot_audiences) == {"general", "pastors", "historians"}
-    assert [a.pilot_open for a in ops.pilot_audiences.values()] == [False, False, False]
+    assert all(a.questionnaire_url for a in ops.pilot_audiences.values() if a.pilot_open)
     assert [a.public for a in ops.pilot_audiences.values()] == [True, False, False]
     assert (ops.pilot_audiences["general"].pilot_cap, ops.pilot_audiences["general"].per_address) == (100, 1)
+
+
+def test_an_audience_opens_once_it_has_a_questionnaire(tmp_path):
+    data = _good()
+    data["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url="https://forms.example.org/pilot")
+    general = load_ops(_write(tmp_path, data)).pilot_audiences["general"]
+    assert (general.pilot_open, general.questionnaire_url) == (True, "https://forms.example.org/pilot")
