@@ -253,3 +253,13 @@ def test_the_kept_state_holds_no_key_and_nothing_finer_than_a_stage(usage_store,
     assert set(kept) == {
         "stage", "ratio", "ceiling_usd", "table_free_rounds", "solo_free_rounds", "free_share", "free_voice", "paid_voice",
     }
+
+
+def test_the_last_24_hours_are_counted_apart_from_the_week(usage_store):
+    usage_store.append(record("recent"))
+    usage_store.append(record("older"))
+    age(usage_store, "recent", NOW - timedelta(hours=2))
+    age(usage_store, "older", NOW - timedelta(days=3))
+    week, day = deeper_door.spend_usd(usage_store, NOW)
+    one = estimate_cost(USAGE, price_tables.price_for_call("voice_generation", SONNET)).dollars
+    assert week == pytest.approx(2 * one) and day == pytest.approx(one)

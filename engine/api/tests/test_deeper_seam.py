@@ -1279,7 +1279,7 @@ def test_overlapping_free_and_paid_sittings_hit_each_stage_in_order_and_spend_st
     per_turn = 0.050001
     paid_usage = NormalizedUsage(input_tokens=16_667, output_tokens=0, cache_creation_input_tokens=0, cache_read_input_tokens=0)
     base = 1.0
-    settings = dataclasses.replace(load_ops().door, base_usd=base, invoice_factor=1.0)
+    settings = dataclasses.replace(load_ops().door, base_usd=base, invoice_factor=1.0, daily_share=None)
     runtime.door = DoorMonitor(settings, usage_store, lambda: {"gift": 0, "purchase": 0, "adjustment": 0}, refresh_seconds=0.0)
     runtime.free = FreeAllowance(runtime.meter, 10_000_000)
     client = RecordingClient()
