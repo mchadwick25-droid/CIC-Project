@@ -5625,13 +5625,15 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
    give an optional email, send. Not Option C (a review screen at the end), which
    loses everyone who closes the tab early. Not Option A alone (store the site form),
    which leaves a wrong fact reported from memory with no pointer to the sentence.
-2. **The link's words: "There may be an accuracy or clarity issue".** The card title: "Tell
-   us what is not accurate or clear". The path: Mark changed the recommended "Is this
-   right?" to "There may be a problem"; after ruling the control accuracy-only (item 12) he
-   chose "This may not be accurate" from three offered; after adding clarity (item 14) he
-   wrote the final words himself, so the link names both things the card accepts. Noted
-   at the time, not a block: "issue" and the two noun forms sit a little closer to office
-   language than the app's plain-verb voice. It passes the reading-level bar.
+2. **The link's words: "Answer was not clear or accurate".** The card title: "Tell us what
+   was not clear or accurate". The path: Mark changed the recommended "Is this right?" to
+   "There may be a problem"; after ruling the control accuracy-only (item 12) he chose "This
+   may not be accurate" from three offered; after adding clarity (item 14) he wrote "There
+   may be an accuracy or clarity issue", then asked for something that reads better, was
+   offered "This may be wrong or unclear", and wrote the final words himself. Noted at the
+   time, not a block: with no "may", the link states something about every answer it sits
+   under; a question mark ("Answer not clear or accurate?") would turn it into the reader's
+   own thought without changing a word. It passes the reading-level bar.
 3. **Disagreement goes back into the conversation, not into the flag.** The card says: "If
    you disagree with what {Name} believes, say so in the conversation. That is what it is
    for." The reasons offered are all about evidence, never about the Representative's view.
