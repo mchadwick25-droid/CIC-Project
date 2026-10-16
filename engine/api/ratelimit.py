@@ -71,6 +71,8 @@ ADMIN_LOGIN_LIMIT = (900.0, 5)
 # guessing. The signed webhook is exempt: Stripe sends from a few addresses and
 # the signature, not the address, is what admits a request.
 DEEPER_LIMIT = (60.0, 60)
+# A like, a flag or a comment: a person leaves a handful in a minute.
+FEEDBACK_LIMIT = (60.0, 20)
 # A message the service will only safety-screen and then refuse (a closed
 # conversation, an over-long message, a visitor past the daily cap, a Table
 # round still open) costs a safety call and earns no reply, so it gets a
@@ -143,11 +145,14 @@ def install(app, bucket_for: Callable[[Request], tuple[str, int] | None] | None 
     admin_limiter = SlidingWindowLimiter(*ADMIN_LIMIT)
     admin_login_limiter = SlidingWindowLimiter(*ADMIN_LOGIN_LIMIT)
     deeper_limiter = SlidingWindowLimiter(*DEEPER_LIMIT)
+    feedback_limiter = SlidingWindowLimiter(*FEEDBACK_LIMIT)
 
     @app.middleware("http")
     async def _rate_limit(request: Request, call_next):
         path = request.url.path
-        if request.method == "POST" and path == "/api/session":
+        if request.method == "POST" and (path == "/api/feedback" or (path.startswith("/api/session/") and path.endswith("/feedback"))):
+            limiter = feedback_limiter
+        elif request.method == "POST" and path == "/api/session":
             limiter = create_limiter
         elif path.startswith("/api/session/") and (
             (request.method == "POST" and (path.endswith("/message") or path.endswith("/continue")))

@@ -3,7 +3,9 @@ import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
 import { DeleteConversation, DeletedNotice } from '../components/DeleteConversation';
 import { DoorNarration } from '../components/DoorNarration';
+import { ExperienceFeedbackButton, ExperienceFeedbackCard } from '../components/ExperienceFeedback';
 import { ModernTermMark } from '../components/ModernTermMark';
+import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import type { ConversationTurn } from '../hooks/useConversation';
 import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
@@ -27,6 +29,7 @@ interface ConversationProps {
   turns: ConversationTurn[];
   // The reply so far while the voice is still writing it; empty otherwise.
   streamed?: StreamedSentence[];
+  sessionId?: string | null;
   sessionCode: string | null;
   closed: boolean;
   isLoading: boolean;
@@ -42,8 +45,9 @@ function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
 
-export function Conversation({ world, turns, streamed = [], sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart, onDelete }: ConversationProps) {
+export function Conversation({ world, turns, streamed = [], sessionId = null, sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart, onDelete }: ConversationProps) {
   const [deleted, setDeleted] = useState(false);
+  const [feedbackOpen, setFeedbackOpen] = useState(false);
   const handleDelete = async () => {
     await onDelete?.();
     setDeleted(true);
@@ -56,6 +60,7 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
       <div className="conversation__bar">
         <BrandMark size={16} />
         <div className="conversation__bar-right">
+          <ExperienceFeedbackButton open={feedbackOpen} onToggle={() => setFeedbackOpen((o) => !o)} />
           {sessionCode && (
             <div className="conversation__bar-note sans">
               Not saved to an account — this conversation lives in this tab
@@ -63,6 +68,7 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
           )}
         </div>
       </div>
+      {feedbackOpen && <ExperienceFeedbackCard page={world.worldKey} onClose={() => setFeedbackOpen(false)} />}
 
       <div className="conversation__transcript" role="log" aria-label="Conversation">
         <Arrival world={world} />
@@ -96,6 +102,16 @@ export function Conversation({ world, turns, streamed = [], sessionCode, closed,
                 {world.representativeName} · {world.cardName}
               </div>
               <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} figuresUsed={turn.figuresUsed ?? []} glosses={turn.glosses ?? []} transparency={turn.transparency} />
+              {sessionId && sessionCode && (
+                <TurnFeedback
+                  sessionId={sessionId}
+                  sessionCode={sessionCode}
+                  turnIndex={i}
+                  text={turn.text}
+                  transparency={turn.transparency}
+                  representativeName={world.representativeName}
+                />
+              )}
             </div>
           );
         })}

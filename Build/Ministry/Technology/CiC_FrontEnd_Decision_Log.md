@@ -5754,3 +5754,52 @@ Build steps, in one draft pull request, pushed once after local checks pass:
    first flag closes, not before, so the page never carries placeholder text.
 
 The build is a separate thread's work; this thread's deliverable was the decision.
+
+## 2026-10-16 (later) — Feedback from inside the conversation: built, as a draft pull request
+
+**What was built**, on the branch `feedback/inside-the-conversation`, per the entry above, the
+same day Mark said "start the build". Three slices drafted by Sonnet workers under this
+thread's briefs, reviewed and verified here:
+
+- **Engine.** `engine/feedback/store.py` (a separate SQLite file, `CIC_API_FEEDBACK_DB`, on
+  the Render disk, in the daily backup); `engine/api/feedback_routes.py` with the session
+  like-or-flag route, the public comment route with the site's CORS, and the admin list and
+  close routes; a 20-per-minute bucket for the two public routes; the purge of closed items
+  after 90 days in the daily retention pass; a Feedback section in the admin dashboard
+  with the five outcomes. The server reads a flagged sentence's record ids and confidence
+  from the stored plan; the client never names them.
+- **Conversation app.** `TurnFeedback` (the "This helped" like and the "Answer was not
+  clear or accurate" link with its card) under every stored Representative turn in the
+  one-to-one and Table rooms; `ExperienceFeedback` ("Tell us what you think") in both
+  rooms' bars and at the foot of the Launch screen, which has no bar.
+- **Site.** `assets/feedback.js` and `assets/feedback.css`; the button in every page's bar,
+  including the 11 tradition pages and the 292 generated tree pages (through
+  `Build/tools/generate_tree_pages.mjs`); `corrections.html` with its empty state; the old
+  email-building form replaced by a "Feedback has moved" page; the footer "Feedback" links
+  replaced by "Corrections"; a Feedback section on the privacy page.
+
+**Decided in the build, within the entry above:**
+
+- A like stores the turn pointer and the turn's cited record ids, no sentence. Likes do not
+  enter the admin queue, since there is nothing to answer; they are purged with the rest
+  after 90 days.
+- The flag's record ids are the union of the plan's elements on that sentence and the
+  citations whose sentence lies inside it, so a doctrinal witness cited without an element
+  is not lost.
+- The experience card on the site is fixed below the bar that holds the button, because
+  two pages (the Church Family Tree and the talk page) have fixed bars of their own.
+- The generated tree pages got the button through their generator, not by hand; the
+  regeneration changed nothing else, checked before and after.
+
+**For Mark before it ships.** Read the privacy page's new Feedback section; it states the
+retention defaults from the entry above. Nothing to set on Render: `render.yaml` carries
+the new database path, and the site origin falls back to the Go Deeper one.
+
+**Not done, by choice.** No visual pass of the app's own cards in a real browser (the engine
+cannot run here without a model region); the site's control was checked at desktop and
+phone widths with the card open. The app's cards are covered by component tests.
+
+### Next action
+
+Mark reviews the draft pull request and the privacy paragraph. On merge: name the weekly
+owner of the queue, and write the first Corrections entry when the first flag closes.

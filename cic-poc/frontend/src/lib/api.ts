@@ -136,6 +136,47 @@ export async function deleteSession(sessionId: string, sessionCode: string): Pro
   }
 }
 
+export type FlagReason = 'fact_wrong' | 'source_mismatch' | 'overcertain' | 'unclear';
+
+export type TurnFeedbackBody =
+  | { kind: 'like'; turn_index: number; sentence_index: null; reason: null; text: null; email: null }
+  | { kind: 'flag'; turn_index: number; sentence_index: number | null; reason: FlagReason; text: string | null; email: string | null };
+
+export type QuoteConsent = 'no' | 'anonymous' | 'first_name';
+
+export interface ExperienceFeedbackBody {
+  kind: 'comment';
+  page: string;
+  text: string;
+  quote_consent: QuoteConsent;
+  first_name: string | null;
+  email: string | null;
+}
+
+// A like or a flag on one stored turn, authorised by the session code.
+export async function sendTurnFeedback(sessionId: string, sessionCode: string, body: TurnFeedbackBody): Promise<void> {
+  const response = await fetch(`${API_BASE}/session/${sessionId}/feedback`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeader(sessionCode) },
+    body: JSON.stringify(body),
+  });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+}
+
+// A comment about the experience; needs no session.
+export async function sendExperienceFeedback(body: ExperienceFeedbackBody): Promise<void> {
+  const response = await fetch(`${API_BASE}/feedback`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+}
+
 // Advance the open table round by one voice turn (Artifact-7 SS6's
 // turn-at-a-time transport) - called repeatedly while round_open is true,
 // so each voice's words reach the participant as they land rather than
