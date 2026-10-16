@@ -240,6 +240,14 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  beissel:
+    kind: metadata-omission
+    evidence: 'The title page names Conrad Beissel''s Treatise on Music, from his preface
+      to the 1747 Turtel-Taube, as a text printed in this volume; the file''s leading name
+      slug is Sachse, the monograph''s author and the treatise''s translator.
+
+      '
+    from_file: sachse_music-of-ephrata-cloister-beissel-treatise_1903.txt
   budge:
     kind: metadata-omission
     evidence: 'The file is plain text and carries no markup to hold a creator, so the extractor
@@ -726,6 +734,15 @@ authors:
     kind: anonymous
     evidence: div2 7.7; no authorial claim in title or text frame.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  hochmann:
+    kind: metadata-omission
+    evidence: 'Chapter VI prints "Hochmann''s Confession of Faith, written in prison at Detmold
+      in 1702" in German facsimile and in Brumbaugh''s literal translation, naming Ernst Christoph
+      Hochmann von Hochenau as its author; the file''s leading name slug is Brumbaugh, the
+      volume''s compiler.
+
+      '
+    from_file: brumbaugh_history-german-baptist-brethren_1899.txt
   ignatius:
     kind: metadata-omission
     evidence: 'div1 5 title "IGNATIUS" over the epistles in shorter, longer and Syriac recensions;
@@ -906,6 +923,14 @@ authors:
     kind: metadata-omission
     evidence: div2 10.5 'Melito, the Philosopher' (of Sardis, per the notice).
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  miller-peter:
+    kind: metadata-omission
+    evidence: 'The title page names Rev. Peter Miller (Brother Jabez), Prior of the Ephrata
+      Community, as author of the manuscript letter written for Benjamin Franklin and as translator
+      of the proverbs; the file''s leading name slug is Beissel, author of the proverbs themselves.
+
+      '
+    from_file: beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912.txt
   moses-of-chorene:
     kind: metadata-omission
     evidence: 'div2 9.13 "Moses of Chorene: History of Armenia" — the section title names

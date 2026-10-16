@@ -8,8 +8,8 @@
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
     "total_entries": 292,
-    "entries_with_coverage": 79,
-    "entries_zero_coverage": 213
+    "entries_with_coverage": 82,
+    "entries_zero_coverage": 210
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -12361,12 +12361,166 @@
     "german-pietism-spener-francke-halle": {
       "name": "German Pietism - Spener, Francke, Halle",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Hochmann von Hochenau, Confession of Faith (Detmold, 1702), German facsimile with literal English",
+          "author": "hochmann",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "brumbaugh_history-german-baptist-brethren_1899.txt",
+          "rights": "Public Domain (published 1899, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        }
+      ]
     },
     "radical-pietism-and-the-brethren-dunkers-ephrata": {
       "name": "Radical Pietism & the Brethren (Dunkers, Ephrata)",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "A History of New Sweden: the visit to the Ephrata Cloister, 20 August 1753",
+          "author": "acrelius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "acrelius_history-of-new-sweden_reynolds1874.txt",
+          "rights": "Public Domain (published 1874, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Conrad Beissel's Treatise on Music (preface to the Turtel-Taube, 1747), Sachse's English",
+          "author": "beissel",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "sachse_music-of-ephrata-cloister-beissel-treatise_1903.txt",
+          "rights": "Public Domain (published 1903, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Mystische und sehr geheyme Sprüche (99 Mystical Proverbs, 1730), German with Miller's English",
+          "author": "beissel",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912.txt",
+          "rights": "Public Domain (published 1912, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Urständliche und Erfahrungs-volle Hohe Zeugnüsse (Beissel's theological letters, 1745)",
+          "author": "beissel",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "beissel_urstandliche-hohe-zeugnusse-deu_ephrata1745.txt",
+          "rights": "Public Domain (published 1745, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Early Germantown Brethren records and Mack family documents as printed by Brumbaugh",
+          "author": "brumbaugh",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "brumbaugh_history-german-baptist-brethren_1899.txt",
+          "rights": "Public Domain (published 1899, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Das Kleine Davidische Psalterspiel der Kinder Zions (Germantown, 1744)",
+          "author": "church-of-the-brethren",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "church-of-the-brethren_kleine-davidische-psalterspiel-deu_saur1744.txt",
+          "rights": "Public Domain (published 1744, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Materials towards a History of the American Baptists, vol. I: Pennsylvania (1770)",
+          "author": "edwards-morgan",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "edwards-morgan_materials-history-of-baptists-pennsylvania_1770.txt",
+          "rights": "Public Domain (published 1770, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Das Gesäng der einsamen und verlassenen Turtel-Taube (Ephrata hymnal, 1747)",
+          "author": "ephrata-community",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "ephrata-community_turtel-taube-hymnal-deu_1747.txt",
+          "rights": "Public Domain (published 1747, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Theosophische Lectionen, Erster Theil (Ephrata, 1752)",
+          "author": "ephrata-community",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "ephrata-community_theosophische-lectionen-deu_1752.txt",
+          "rights": "Public Domain (published 1752, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Hochmann von Hochenau, Confession of Faith (Detmold, 1702), German facsimile with literal English",
+          "author": "hochmann",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "brumbaugh_history-german-baptist-brethren_1899.txt",
+          "rights": "Public Domain (published 1899, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Chronicon Ephratense (English translation, Hark 1889)",
+          "author": "lamech-agrippa",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "lamech-agrippa_chronicon-ephratense_hark1889.txt",
+          "rights": "Public Domain (published 1889, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Chronicon Ephratense (German original, Ephrata 1786)",
+          "author": "lamech-agrippa",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "lamech-agrippa_chronicon-ephratense-deu_ephrata1786.txt",
+          "rights": "Public Domain (published 1786, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Ground Searching Questions (Grundforschende Fragen, 1713), English with German, 1860",
+          "author": "mack-alexander",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "mack-alexander_writings-bilingual_columbiana1860.txt",
+          "rights": "Public Domain (published 1860, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Memoir of Alexander Mack, Sen., by his son",
+          "author": "mack-alexander",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "mack-alexander_writings-bilingual_columbiana1860.txt",
+          "rights": "Public Domain (published 1860, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Rights and Ordinances of the House of God (A Short and Plain View), English 1810",
+          "author": "mack-alexander",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "mack-alexander_rights-and-ordinances_1810.txt",
+          "rights": "Public Domain (published 1810, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"The Library of Congress is unaware of any copyright restrictions for this item.\")"
+        },
+        {
+          "work": "Peter Miller's letter to Benjamin Franklin (1771)",
+          "author": "miller-peter",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912.txt",
+          "rights": "Public Domain (published 1912, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The Music of the Ephrata Cloister (Sachse's monograph)",
+          "author": "sachse",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "sachse_music-of-ephrata-cloister-beissel-treatise_1903.txt",
+          "rights": "Public Domain (published 1903, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Christopher Sauer's pamphlet and letter against Conrad Beissel (1739), English",
+          "author": "sauer-christopher",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "sauer-christopher_quarrel-with-beissel-1739_pennypacker1888.txt",
+          "rights": "Public Domain (published 1888, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        }
+      ]
     },
     "the-moravian-church-at-herrnhut": {
       "name": "The Moravian Church at Herrnhut",
@@ -12379,6 +12533,14 @@
           "confidence": "assigned",
           "source_file": "comenius_historia-fratrum-bohemorum-lat_1702.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Chronicon Ephratense (English translation, Hark 1889)",
+          "author": "lamech-agrippa",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "lamech-agrippa_chronicon-ephratense_hark1889.txt",
+          "rights": "Public Domain (published 1889, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
         },
         {
           "work": "Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)",
@@ -12562,7 +12724,16 @@
     "the-baptists": {
       "name": "The Baptists",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Materials towards a History of the American Baptists, vol. I: Pennsylvania (1770)",
+          "author": "edwards-morgan",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "edwards-morgan_materials-history-of-baptists-pennsylvania_1770.txt",
+          "rights": "Public Domain (published 1770, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        }
+      ]
     },
     "colonial-latin-american-devotional-catholicism": {
       "name": "Colonial Latin American Devotional Catholicism",

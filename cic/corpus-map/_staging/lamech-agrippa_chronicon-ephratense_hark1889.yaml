@@ -1,0 +1,23 @@
+source_file: lamech-agrippa_chronicon-ephratense_hark1889.txt
+assignments:
+- row_id: lamech-agrippa_chronicon-ephratense_hark1889--chronicon-ephratense-english-translation-hark-1889
+  work: Chronicon Ephratense (English translation, Hark 1889)
+  author: lamech-agrippa
+  locus: whole volume; numbered chapters
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: The community's own history of itself and of Beissel, written by two of its members from Brother
+    Lamech's diary; the inside narrative of Ephrata, the 1728 separation from the Germantown Brethren,
+    and the Eckerlin crisis. English translation of 1889; clean OCR.
+- row_id: lamech-agrippa_chronicon-ephratense_hark1889--chronicon-ephratense-english-translation-hark-1889-2
+  work: Chronicon Ephratense (English translation, Hark 1889)
+  author: lamech-agrippa
+  locus: the chapters on the 1741-42 Pennsylvania synods and Zinzendorf's visit
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: context
+  confidence: provisional
+  note: An Ephrata eyewitness view of Zinzendorf's 1742 Pennsylvania synods and of the Moravians as rivals;
+    the view from a neighbouring community, never the Moravians' own voice.

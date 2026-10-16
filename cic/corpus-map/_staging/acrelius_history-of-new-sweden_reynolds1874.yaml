@@ -1,0 +1,13 @@
+source_file: acrelius_history-of-new-sweden_reynolds1874.txt
+assignments:
+- row_id: acrelius_history-of-new-sweden_reynolds1874--a-history-of-new-sweden-the-visit-to-the-ephrata-cloister-20
+  work: 'A History of New Sweden: the visit to the Ephrata Cloister, 20 August 1753'
+  author: acrelius
+  locus: the section headed Visit by the Provost Magister Israel Acrelius to the Ephrata Cloister, Aug.
+    20, 1753
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: context
+  confidence: assigned
+  note: A Swedish Lutheran provost's first-hand description of Beissel, the Solitary's dress and worship,
+    and his argument with the brethren; outside witness, not the community's voice.

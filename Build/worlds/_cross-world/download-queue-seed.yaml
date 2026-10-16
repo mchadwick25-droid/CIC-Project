@@ -2727,3 +2727,202 @@ queue:
       confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
+
+  - title: "Chronicon Ephratense (English)"
+    author: "Brother Lamech and Agrippa (Peter Miller)"
+    translator: "J. Max Hark"
+    year: "1889"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      The Ephrata community's own chronicle in its 1889 English translation;
+      the central inside narrative for the Brethren/Ephrata world. Located by
+      the Era VIII Library research pass.
+    url: "https://archive.org/details/chroniconephrate00lame"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "lamech-agrippa_chronicon-ephratense_hark1889.txt"
+
+  - title: "Chronicon Ephratense (German, 1786)"
+    author: "Brother Lamech and Agrippa (Peter Miller)"
+    translator: "n/a (German original)"
+    year: "1786"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      The German original of the Ephrata chronicle, from the community's own
+      1786 press, vendored beside the 1889 English so quotations can be
+      checked against the community's own words.
+    url: "https://archive.org/details/spohn1131"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "lamech-agrippa_chronicon-ephratense-deu_ephrata1786.txt"
+
+  - title: "Rights and Ordinances of the House of God (English, 1810)"
+    author: "Alexander Mack"
+    translator: "anonymous (\"a friend to religion\")"
+    year: "1810"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      The founder's own statement of Brethren practice in the earliest
+      American English printing.
+    url: "https://archive.org/details/shortplainviewof00mack"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "mack-alexander_rights-and-ordinances_1810.txt"
+
+  - title: "Mack's writings with memoir, bilingual (1860)"
+    author: "Alexander Mack; Alexander Mack Jr. (memoir)"
+    translator: "unnamed (Gospel Visitor press)"
+    year: "1860"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      Carries the Ground-Searching Questions and the son's memoir of the
+      founder in English, which the 1810 translation lacks.
+    url: "https://archive.org/details/kurzevorstellun00mackgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "mack-alexander_writings-bilingual_columbiana1860.txt"
+
+  - title: "Urst\u00e4ndliche und Erfahrungs-volle Hohe Zeugn\u00fcsse (Beissel's letters)"
+    author: "Conrad Beissel"
+    translator: "n/a (German original)"
+    year: "1745"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      Beissel's own theological letters, the Ephrata Vorsteher's voice at
+      first hand; no English exists in the public domain.
+    url: "https://archive.org/details/urstandlicheunde00beis"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "beissel_urstandliche-hohe-zeugnusse-deu_ephrata1745.txt"
+
+  - title: "Theosophische Lectionen (Ephrata, 1752)"
+    author: "Ephrata community (anonymous members)"
+    translator: "n/a (German original)"
+    year: "1752"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      Own-voice spiritual testimonies of the Ephrata Solitary, the inner
+      register of the community.
+    url: "https://archive.org/details/erstertheilderth00unkn"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "ephrata-community_theosophische-lectionen-deu_1752.txt"
+
+  - title: "Turtel-Taube hymnal (Ephrata, 1747)"
+    author: "Ephrata community (Conrad Beissel, principal author)"
+    translator: "n/a (German original)"
+    year: "1747"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      The Ephrata community's own hymnal, the sung voice of the Solitary; two-
+      thirds of the hymns are Beissel's.
+    url: "https://archive.org/details/dasgesngdereinsa00ephr"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "ephrata-community_turtel-taube-hymnal-deu_1747.txt"
+
+  - title: "Kleine Davidische Psalterspiel (Brethren hymnal, 1744)"
+    author: "Church of the Brethren"
+    translator: "n/a (German original)"
+    year: "1744"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      The Germantown Brethren's own hymnal, printed by Christopher Sauer; the
+      sung voice of the congregations as distinct from Ephrata.
+    url: "https://archive.org/details/kleinedavidische00chur"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "church-of-the-brethren_kleine-davidische-psalterspiel-deu_saur1744.txt"
+
+  - title: "Beissel's 99 Mystical Proverbs with Miller's letter to Franklin (1912 printing)"
+    author: "Conrad Beissel; Peter Miller"
+    translator: "Peter Miller (18th-century English)"
+    year: "1912"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      Beissel's first printed work in German with its contemporary English,
+      and the Ephrata prior's own letter to Franklin; the separate 1730
+      Franklin print is not on any reachable host.
+    url: "https://archive.org/details/uniquemanuscript21beis"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912.txt"
+
+  - title: "Materials towards a History of the American Baptists, vol. I (1770)"
+    author: "Morgan Edwards"
+    translator: "n/a"
+    year: "1770"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata (also the-baptists)"
+    why: >
+      A 1770 Baptist survey describing the Tunkers and Ephrata from outside,
+      and the Philadelphia Baptist congregations from inside.
+    url: "https://archive.org/details/materials00edwa"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "edwards-morgan_materials-history-of-baptists-pennsylvania_1770.txt"
+
+  - title: "A History of New Sweden (1874 English)"
+    author: "Israel Acrelius"
+    translator: "William M. Reynolds"
+    year: "1874"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      A Lutheran provost's eyewitness account of Ephrata and of Beissel in
+      1753, the fullest outside description of the community in English.
+    url: "https://archive.org/details/historyofnewswed00acre"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "acrelius_history-of-new-sweden_reynolds1874.txt"
+
+  - title: "Sauer's 1739 quarrel with Beissel (Pennypacker's English, 1888)"
+    author: "Christopher Sauer the elder"
+    translator: "Samuel W. Pennypacker"
+    year: "1888"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      Christopher Sauer in his own words against Beissel; the Germantown
+      printer's voice in the hymn-stanza dispute of 1739.
+    url: "https://archive.org/details/jstor-20083250"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "sauer-christopher_quarrel-with-beissel-1739_pennypacker1888.txt"
+
+  - title: "A History of the German Baptist Brethren (1899)"
+    author: "Martin Grove Brumbaugh"
+    translator: "n/a (Brumbaugh's English of the German documents)"
+    year: "1899"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      Carries the only PD English of Hochmann von Hochenau's 1702 confession
+      and of early Germantown congregational records.
+    url: "https://archive.org/details/historyofgermanb00brum"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "brumbaugh_history-german-baptist-brethren_1899.txt"
+
+  - title: "The Music of the Ephrata Cloister, with Beissel's Treatise on Music (1903)"
+    author: "Julius Friedrich Sachse; Conrad Beissel (treatise)"
+    translator: "J. F. Sachse (the treatise)"
+    year: "1903"
+    world: "radical-pietism-and-the-brethren-dunkers-ephrata"
+    why: >
+      The English of Beissel's preface on singing, which otherwise exists only
+      in the German hymnal.
+    url: "https://archive.org/details/musicofephratacl00sach"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "sachse_music-of-ephrata-cloister-beissel-treatise_1903.txt"
