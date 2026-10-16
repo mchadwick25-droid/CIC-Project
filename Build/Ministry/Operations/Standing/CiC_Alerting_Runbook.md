@@ -223,7 +223,7 @@ rather than four separate jobs).
 | 2 | Ongoing `/health` uptime, live commit, last backup | 2 failed tries; old build 30 min after a merge; backup not uploaded or over 26 h old | `.github/workflows/live-watch.yml` (`tools/live_watch.py`) | Yes |
 | 3 | 5xx rate | A: >2%/10min · B: >5%/15min | Needs a metrics endpoint + cron | Spec only, endpoint not built |
 | 4 | Bedrock spend | A: 50%/100% · B: 100%/120% | AWS Budgets (native, free) | Yes — dashboard steps only |
-| 5 | Render disk usage | A: 70% · B: 90% | Render API + cron | Spec only, workflow not built |
+| 5 | Render disk usage | 70% | `/health` `disk_used_percent`, read by `.github/workflows/live-watch.yml` | Yes |
 | 6 | 429 rate | A: >5%/10min · B: >15%/15min | Same metrics endpoint as #3 | Spec only |
 
 Three of six (1, 4, and half of 2) are ready for Mark to turn on today with

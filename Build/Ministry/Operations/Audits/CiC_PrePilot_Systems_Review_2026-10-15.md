@@ -104,3 +104,12 @@ Converged choices:
 4. Dashboard step for Mark: an AWS Budget email alert as the outer backstop (`CiC_Model_Spend_Budget_Runbook.md`).
 
 Still open after batch B: the door counts a week, so a burst can spend much of the week's ceiling in hours before it closes. Daily visitor counts are kept in memory and reset on restart.
+
+## Batch C — the remaining pilot risks
+
+Converged choices:
+1. **Messages that are only safety-screened and refused** (a closed conversation, an over-long message, a visitor past the daily cap, a Table round still open) get their own limit of 10 a minute per address (`REFUSED_MESSAGE_LIMIT`). Each message inside the limit is still read by the safety call. Past it, the reply is the existing "please wait" 429, without a safety call, until the minute passes. **Safety-adjacent decision, made by Mark:** a person sending more than 10 messages a minute to a finished conversation sees "wait" for the extra ones; their first messages already brought the Facilitator's redirect. Normal conversation messages keep the 40-a-minute limit.
+2. **A daily door limit:** any 24 hours may spend a third of the week's ceiling (`door.daily_share: 0.333`, about $25 at the $75 base). It grows with gifts and purchases as the weekly ceiling does. The door applies whichever of the two limits is nearer. The window is rolling, so a burst late in one day cannot be followed by a fresh allowance at midnight.
+3. **Disk use** is on `/health` as a whole percent (`disk_used_percent`); the Live watch check fails at 70%.
+4. **Stray whitespace** in the service's own settings (`CIC_`, `AWS_`, `VITE_`) is stripped at start-up and by the backup command, and the names changed are logged, never the values.
+5. **Dashboard steps for Mark:** an AWS Budget with a deny action (`CiC_Model_Spend_Budget_Runbook.md`), a GitHub rule requiring CI before merge to `main`, and the site's deploy tool pinned to an exact version in Cloudflare.
