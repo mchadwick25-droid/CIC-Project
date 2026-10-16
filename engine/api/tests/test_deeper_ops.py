@@ -105,7 +105,7 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["pilot"]["audiences"]["general"].update(pilot_end_date="2026-12-31"),
         lambda d: d["pilot"]["audiences"]["general"].update(extra=1),
         lambda d: d["pilot"]["audiences"]["general"].pop("questionnaire_url"),
-        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url=None),
         lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url="http://example.org/q"),
         lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url="https://"),
         lambda d: d["pilot"]["audiences"]["general"].update(questionnaire_url=7),
