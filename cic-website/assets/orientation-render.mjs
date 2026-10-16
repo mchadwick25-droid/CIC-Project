@@ -31,12 +31,64 @@ export function escapeHtml(s) {
     .replace(/'/g, "&#39;");
 }
 
-function paragraphs(text) {
+function paragraphs(text, marks) {
   if (!text) return "";
   return String(text)
     .split(/\n\n+/)
-    .map((p) => `<p>${escapeHtml(p.trim())}</p>`)
+    .map((p) => `<p>${marks ? marks.mark(p.trim()) : escapeHtml(p.trim())}</p>`)
     .join("\n");
+}
+
+function sourceHost(url) {
+  try {
+    return url ? new URL(url).hostname.replace(/^www\./, "") : "";
+  } catch (e) {
+    return "";
+  }
+}
+
+const HIGHLIGHT_KIND_LABEL = { person: "Person", term: "Term", council: "Council", place: "Place" };
+
+// A world's orientation.highlights, applied to one stretch of reading (the
+// story, or one documented story's telling): each phrase is marked at its
+// first appearance in that stretch only, longest phrase first, never inside
+// another mark. The note shows on hover, on keyboard focus, and on tap
+// (a tap focuses the mark), with no script.
+function highlighter(compiled) {
+  const entries = ((compiled.orientation && compiled.orientation.highlights) || [])
+    .filter((h) => h && h.phrase && h.note)
+    .sort((a, b) => b.phrase.length - a.phrase.length);
+  if (!entries.length) return null;
+  const used = new Set();
+  return {
+    mark(text) {
+      const spans = [];
+      for (const h of entries) {
+        if (used.has(h.phrase)) continue;
+        const re = new RegExp(`(?<![\\p{L}\\p{N}])${h.phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\p{L}\\p{N}])`, "gu");
+        let m;
+        while ((m = re.exec(text))) {
+          const start = m.index, end = start + m[0].length;
+          if (spans.some((s) => start < s.end && end > s.start)) continue;
+          spans.push({ start, end, h });
+          used.add(h.phrase);
+          break;
+        }
+      }
+      spans.sort((a, b) => a.start - b.start);
+      let out = "", at = 0;
+      for (const { start, end, h } of spans) {
+        const kind = HIGHLIGHT_KIND_LABEL[h.kind] || "";
+        out += escapeHtml(text.slice(at, start))
+          + `<span class="hl" tabindex="0">${escapeHtml(text.slice(start, end))}`
+          + `<span class="hl-note" role="tooltip"><b>${escapeHtml(h.label || h.phrase)}</b>${escapeHtml(h.note)}`
+          + `<small>${[kind, sourceHost(h.url)].filter(Boolean).join(" \u00b7 ")}</small>`
+          + "</span></span>";
+        at = end;
+      }
+      return out + escapeHtml(text.slice(at));
+    },
+  };
 }
 
 // A figure's own in-world name (falls back to the first name entry, then
@@ -78,7 +130,8 @@ function narrationPlayer(url) {
 export function renderStory(compiled, opts) {
   const story = (compiled.orientation && compiled.orientation.story) || [];
   const player = narrationPlayer(opts && opts.narration && opts.narration.story);
-  return player + story.map((unit) => paragraphs(unit.text)).join("\n");
+  const marks = highlighter(compiled);
+  return player + story.map((unit) => paragraphs(unit.text, marks)).join("\n");
 }
 
 export function renderVoices(compiled, opts) {
@@ -123,7 +176,7 @@ export function renderDocumentedStories(compiled, opts) {
     if (s.teaser) head.push(`<p class="teaser">${escapeHtml(s.teaser)}</p>`);
     const account = s.telling || s.tellable_as;
     const documented = (opts && opts.narration && opts.narration.documented) || {};
-    const body = account ? narrationPlayer(documented[s.story_id]) + paragraphs(account) : "";
+    const body = account ? narrationPlayer(documented[s.story_id]) + paragraphs(account, highlighter(compiled)) : "";
     return [
       '<div class="docstory-entry">',
       ...head,

@@ -170,3 +170,28 @@ def test_facilitator_brief_cautions_is_a_plain_string_list_not_units():
     bad = _minimal_facilitator_brief()
     bad["cautions"] = [{"text": "a caution", "grounded_in": ["fix.term.the-way"]}]
     assert _errors(FACILITATOR_BRIEF_SCHEMA, bad) != []
+
+
+def _with_highlights(*entries) -> dict:
+    record = _minimal_world_front()
+    record["orientation"]["highlights"] = list(entries)
+    return record
+
+
+def test_highlight_grounded_in_a_record_validates():
+    entry = {"phrase": "the elder", "kind": "person", "note": "Who the elder was.", "grounded_in": ["fix.figure.the-elder"]}
+    assert _errors(WORLD_FRONT_SCHEMA, _with_highlights(entry)) == []
+
+
+def test_place_highlight_may_cite_an_outside_gazetteer_with_a_checked_date():
+    entry = {"phrase": "Cirta", "kind": "place", "note": "Today Constantine.", "url": "https://pleiades.stoa.org/places/1", "verified_on": "2026-10-16"}
+    assert _errors(WORLD_FRONT_SCHEMA, _with_highlights(entry)) == []
+
+
+def test_highlight_without_grounding_or_reference_is_rejected():
+    assert _errors(WORLD_FRONT_SCHEMA, _with_highlights({"phrase": "x", "kind": "term", "note": "n"}))
+    # an outside reference stands only for a place's modern location
+    referenced_term = {"phrase": "x", "kind": "term", "note": "n", "url": "https://example.org", "verified_on": "2026-10-16"}
+    assert _errors(WORLD_FRONT_SCHEMA, _with_highlights(referenced_term))
+    undated = {"phrase": "Cirta", "kind": "place", "note": "n", "url": "https://example.org"}
+    assert _errors(WORLD_FRONT_SCHEMA, _with_highlights(undated))

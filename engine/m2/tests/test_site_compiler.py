@@ -172,6 +172,17 @@ def test_documented_story_carries_the_story_records_telling_and_never_its_text()
     assert STORY["text"] not in payload.decode("utf-8")
 
 
+def test_highlights_pass_through_with_their_grounding_or_reference():
+    highlights = [
+        {"phrase": "the elder", "kind": "person", "note": "Who the elder was.", "grounded_in": [STORY["id"]]},
+        {"phrase": "Cirta", "kind": "place", "note": "Today Constantine.", "url": "https://pleiades.stoa.org/places/1", "verified_on": "2026-10-16"},
+    ]
+    world_front = {**WORLD_FRONT, "orientation": {**WORLD_FRONT["orientation"], "highlights": highlights}}
+    payload = compile_world_front(world_front, RECORDS, {}, compiler_version="v", records_commit="c")
+    assert json.loads(payload)["orientation"]["highlights"] == highlights
+    assert _compile()["orientation"]["highlights"] == []
+
+
 def test_floor_note_mode3_unit_resolves_from_into_grounded_in():
     out = _compile()
     assert out["orientation"]["floor_note"] == {"text": "adapted floor note", "grounded_in": [HONEST_LIMIT["id"]]}
