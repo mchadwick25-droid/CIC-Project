@@ -72,18 +72,21 @@ button.btn{cursor:pointer}
     <p class="eyebrow">The pilot</p>
     <h1>Join the pilot</h1>
     <p>Go Deeper lets you keep talking after a free conversation ends. Join the pilot and we give you one free pack: <span data-ops="pilot-tokens">1,100</span> tokens, about <span data-ops="pilot-conversations">ten</span> conversations.</p>
-    <p>In return, we ask you to answer a short questionnaire after <span data-pilot-end>31 December 2026</span>. You do not need to give your name or email.</p>
+    <p>In return, we ask you to answer <a href="https://tally.so/r/68Xe1e" rel="noopener">a short questionnaire</a> after <span data-pilot-end>31 December 2026</span>. You do not need to give your name or email.</p>
     <p>Places are limited to <span data-ops="pilot-cap">100</span>. One pack per person.</p>
     <form class="pilot-join" id="pilot-form">
       <label for="pilot-role">Which of these describes you best?<span class="hint">We keep only a count of each answer, not who gave it.</span></label>
       <select id="pilot-role" name="role" required>
         <option value="" selected disabled>Choose one</option>
-        <option value="general">General</option>
-        <option value="pastor_or_teacher">Pastor or Teacher</option>
+        <option value="curious">Curious</option>
+        <option value="pastor">Pastor</option>
+        <option value="teacher">Teacher</option>
         <option value="academic">Academic</option>
-        <option value="re_examining">Re-examining my faith</option>
-        <option value="not_sure">Not sure / more than one</option>
-        <option value="prefer_not_to_say">Prefer not to say</option>
+        <option value="re_examining">Re-examining Faith</option>
+        <option value="another_faith">Another Faith</option>
+        <option value="atheist_or_agnostic">Atheist or Agnostic</option>
+        <option value="other">Other</option>
+        <option value="prefer_not_to_say">Prefer Not to Say</option>
       </select>
       <div class="hero-actions" style="margin:1.2rem 0 1rem;">
         <button type="submit" class="btn primary" id="pilot-button">Get my free pack</button>

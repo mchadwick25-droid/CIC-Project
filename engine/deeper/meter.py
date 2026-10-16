@@ -68,12 +68,15 @@ PILOT_RETENTION_DAYS = 90
 # The perspective a person names when they join the pilot: the feedback form's own six answers.
 # Only a count per audience per perspective is kept, never tied to a code or an address.
 PILOT_ROLES = {
-    "general": "General",
-    "pastor_or_teacher": "Pastor or Teacher",
+    "curious": "Curious",
+    "pastor": "Pastor",
+    "teacher": "Teacher",
     "academic": "Academic",
-    "re_examining": "Re-examining my faith",
-    "not_sure": "Not sure / more than one",
-    "prefer_not_to_say": "Prefer not to say",
+    "re_examining": "Re-examining Faith",
+    "another_faith": "Another Faith",
+    "atheist_or_agnostic": "Atheist or Agnostic",
+    "other": "Other",
+    "prefer_not_to_say": "Prefer Not to Say",
 }
 DEFAULT_FREE_WINDOW_DAYS = 30
 
