@@ -5666,8 +5666,8 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
    Mark corrected it the same day ("when did I make a decision to hold back a reaction box,
    I just didn't want the opportunity to give feedback to the conversation to be the same
    things"). What Mark did decide: the accuracy-and-clarity flag and the place to react or
-   appreciate are two different things and must not be the same control. Where appreciation
-   and overall reaction live is the open question, asked next.
+   appreciate are two different things and must not be the same control. Settled in items
+   15 and 16 below.
 10. **The site form is replaced, not kept.** Option A is inside Option B: the email-building
     form becomes a stored form posting to the engine, with the same consent choices and
     safety line. Today's form fails silently in some browsers and truncates long answers.
@@ -5699,7 +5699,26 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
     confidence), so it is also a lead for the readability work. The link's words were
     re-checked against the widened card and settled in item 2.
 
-Open: where appreciation and overall reaction live (item 9). Everything else is decided.
+15. **A like under each reply, beside the flag** (Mark, same day: "a small like button next
+    to the answer was not clear or accurate (it is helpful if an answer is appreciated)").
+    One quiet line under every Representative turn, in the source line's muted colour: a
+    small like with a word, "This helped", then "Answer was not clear or accurate". One tap
+    fills the like and nothing else happens. Private, no count shown, never seen by the
+    Representative. Stored with the turn pointer (session, turn, record ids), so the team
+    can see which answers land and which sentences they contain, the mirror of the flag.
+    No dislike: the flag is the dislike, with a sentence and a reason attached.
+16. **The experience: "Tell us what you think", in the page bar, on every page** (Mark, same
+    day: "on the pages, but not directly connected to the conversation"; then "something
+    else that looks at the experience"; then, of three shapes, "straight to words"). One
+    steady control in the page bar of the site and the app. It opens the card that was
+    "Leave a comment": words, "May we quote you?" as three unticked choices with "No" the
+    default (No / Yes, without my name / Yes, with my first name), optional email, the safety
+    line. Stored with the page or world and the time, never the session or a turn. No
+    one-tap reaction and no like or dislike in the bar: the like lives under the replies, and
+    a second thumb on the same screen would carry a different meaning. This replaces item
+    5's placement beside "Delete this conversation"; the consent rule in item 5 stands.
+
+Nothing on this item is open.
 
 **Defaults set here, to be checked when the privacy page is written.** A flag or comment
 record is kept until it is closed plus 90 days. An email address is deleted when the reply
@@ -5720,15 +5739,17 @@ Build steps, in one draft pull request, pushed once after local checks pass:
    flag or comment, and the consent choice). `POST /api/session/{id}/feedback`, authorised
    by the session code like delete. `POST /api/feedback` for the site form. An admin
    dashboard page listing open items, with the five outcomes written back. Tests.
-2. **Conversation app.** The link under each Representative turn; the card (sentence radios
-   from the turn's transparency sentences, reason chips, optional line with the safety line,
-   optional email, Send, thank-you line); "Leave a comment" beside "Delete this
-   conversation" with the consent radios. Phone-width check. Tests alongside the existing
-   component tests.
-3. **Site.** `pilot-feedback.html` posts to the engine instead of building an email, and
-   carries the consent choices and the safety line. A new Corrections and Leads page, linked
-   from the footer. `privacy.html` gains a paragraph on what feedback stores and for how
-   long (defaults above), reviewed by Mark before it ships.
+2. **Conversation app.** One line under each Representative turn: the "This helped" like and
+   the "Answer was not clear or accurate" link; the flag card (sentence radios from the
+   turn's transparency sentences, four reason chips, optional line with the safety line,
+   optional email, Send, thank-you line); "Tell us what you think" in the page bar opening
+   the experience card with the consent radios. Phone-width check. Tests alongside the
+   existing component tests.
+3. **Site.** "Tell us what you think" in every page's bar, opening the same experience card
+   and posting to the engine. `pilot-feedback.html` is retired in favour of it, or kept as
+   the pilot questionnaire's door only. A new Corrections and Leads page, linked from the
+   footer. `privacy.html` gains a paragraph on what feedback stores and for how long
+   (defaults above), reviewed by Mark before it ships.
 4. **Operations.** Name the weekly owner. First Corrections page entry is written when the
    first flag closes, not before, so the page never carries placeholder text.
 
