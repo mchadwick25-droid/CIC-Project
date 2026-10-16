@@ -5625,12 +5625,13 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
    give an optional email, send. Not Option C (a review screen at the end), which
    loses everyone who closes the tab early. Not Option A alone (store the site form),
    which leaves a wrong fact reported from memory with no pointer to the sentence.
-2. **The link's words: "This may not be accurate".** The card title: "Tell us what is not
-   accurate". Mark first changed the recommended "Is this right?" to "There may be a
-   problem", then, after ruling that the control tests accuracy only (item 12), asked for
-   words specific to that test. Of three offered ("This may not be accurate" / "Is this
-   accurate?" / "Question a fact") he chose the first: a quiet statement, not a dare, that
-   names the one thing we test.
+2. **The link's words: "There may be an accuracy or clarity issue".** The card title: "Tell
+   us what is not accurate or clear". The path: Mark changed the recommended "Is this
+   right?" to "There may be a problem"; after ruling the control accuracy-only (item 12) he
+   chose "This may not be accurate" from three offered; after adding clarity (item 14) he
+   wrote the final words himself, so the link names both things the card accepts. Noted
+   at the time, not a block: "issue" and the two noun forms sit a little closer to office
+   language than the app's plain-verb voice. It passes the reading-level bar.
 3. **Disagreement goes back into the conversation, not into the flag.** The card says: "If
    you disagree with what {Name} believes, say so in the conversation. That is what it is
    for." The reasons offered are all about evidence, never about the Representative's view.
@@ -5688,11 +5689,11 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
     working rules say it succeeds or fails on, rigour and clarity, and nothing else. Item
     12's exclusions still hold: no "Something else", and nothing about how the reply sounds.
     A clarity flag carries the same pointer as an accuracy flag (sentence, records,
-    confidence), so it is also a lead for the readability work. The link's words are being
-    re-checked against the widened card, since "This may not be accurate" no longer names
-    everything the card accepts.
+    confidence), so it is also a lead for the readability work. The link's words were
+    re-checked against the widened card and settled in item 2.
 
-All five questions put to Mark are decided. One wording check remains from the change order.
+All five questions put to Mark are decided, and the change order is closed. Nothing on this
+item is open.
 
 **Defaults set here, to be checked when the privacy page is written.** A flag or comment
 record is kept until it is closed plus 90 days. An email address is deleted when the reply
