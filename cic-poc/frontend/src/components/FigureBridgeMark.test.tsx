@@ -23,7 +23,7 @@ describe('FigureBridgeMark full entry', () => {
     const figure: FigureUsed = {
       id: 'fix.figure.example',
       matched_name: 'Cyprian',
-      names: [{ name: 'Cyprian', tag: 'scholarly' }],
+      names: [{ name: 'Cyprian', tag: 'in-world' }],
       bridge_line: 'Example bridge line.',
       dates: { died: '258' },
       sourced_by: [{ source_id: 'src.1', citation: 'Example citation', author: null, work: null, locus: null, rights_status: null } as FigureUsed['sourced_by'][number]],
@@ -34,5 +34,6 @@ describe('FigureBridgeMark full entry', () => {
     const labels = Array.from(document.querySelectorAll('.level3__section-label')).map((el) => el.textContent);
     expect(labels).toEqual(['Who this is', 'Sources']);
     expect(screen.queryByText("What's said here, sourced from")).toBeNull();
+    expect(screen.getByText('Called, in this tradition')).toBeInTheDocument();
   });
 });
