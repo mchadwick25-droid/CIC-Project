@@ -35,6 +35,10 @@ doors-open switch (`"1"` = only admitted/open worlds are listed or seated;
 the config surface for the running service; it lives here so it stays
 documented.
 
+The real app's model client is built unguarded only on Render (where
+`RENDER` is set). Started anywhere else, `engine.api.app` needs
+`--live-test` and `--cap-usd`, like every other command that calls a model.
+
 `CIC_API_ANON_CAP_ENABLED` (`engine/api/anon_cap.py`'s own module
 docstring has the full rationale):
 `"1"` turns on a per-visitor daily cap on session creation and conversation
