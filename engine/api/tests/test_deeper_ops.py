@@ -101,6 +101,11 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["pilot"]["audiences"]["general"].update(per_address=True),
         lambda d: d["pilot"]["audiences"]["general"].update(pilot_end_date="2026-12-31"),
         lambda d: d["pilot"]["audiences"]["general"].update(extra=1),
+        lambda d: d["pilot"]["audiences"]["general"].pop("questionnaire_url"),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url="http://example.org/q"),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url="https://"),
+        lambda d: d["pilot"]["audiences"]["general"].update(questionnaire_url=7),
         lambda d: d["pilot"].update(pack_usd=9),
         lambda d: d["pilot"].update(extra=1),
     ],
@@ -276,9 +281,16 @@ def test_a_real_runtime_rebuilt_on_the_same_file_and_key_does_not_refill_a_visit
         second.claims.close()
 
 
-def test_the_shipped_pilot_opens_no_audience_until_its_questionnaire_is_ready():
+def test_the_shipped_pilot_opens_no_audience_without_its_questionnaire():
     ops = load_ops()
     assert set(ops.pilot_audiences) == {"general", "pastors", "historians"}
-    assert [a.pilot_open for a in ops.pilot_audiences.values()] == [False, False, False]
+    assert all(a.questionnaire_url for a in ops.pilot_audiences.values() if a.pilot_open)
     assert [a.public for a in ops.pilot_audiences.values()] == [True, False, False]
     assert (ops.pilot_audiences["general"].pilot_cap, ops.pilot_audiences["general"].per_address) == (100, 1)
+
+
+def test_an_audience_opens_once_it_has_a_questionnaire(tmp_path):
+    data = _good()
+    data["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url="https://forms.example.org/pilot")
+    general = load_ops(_write(tmp_path, data)).pilot_audiences["general"]
+    assert (general.pilot_open, general.questionnaire_url) == (True, "https://forms.example.org/pilot")

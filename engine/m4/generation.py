@@ -18,6 +18,7 @@ citations after the fact is exactly the post-hoc grading this design
 exists to stop doing. engine.m4.grounding_net.check_turn is what reads the
 tags this call's own output carries.
 """
+import threading
 from dataclasses import dataclass
 from typing import Callable
 
@@ -25,6 +26,17 @@ from anthropic import APIError, APITimeoutError
 
 from engine.m4.voice_request import build_voice_request
 from engine.m5.failure import CallOutcome
+
+
+# At most this many voice calls run at once in one process. A slow or
+# throttled Bedrock otherwise holds a worker thread per waiting call until
+# the server's whole thread pool is taken and every request stalls. A call
+# past the limit fails at once, through the same path as a Bedrock error.
+# The safety and reader calls never pass through here, so the gate still
+# runs on every message.
+MAX_CONCURRENT_VOICE_CALLS = 16
+_voice_slots = threading.BoundedSemaphore(MAX_CONCURRENT_VOICE_CALLS)
+VOICE_CAPACITY_FULL = "voice capacity full"
 
 
 @dataclass(frozen=True)
@@ -57,6 +69,21 @@ def stream_voice_turn(
     can show a draft while the reply is still being written. It only observes:
     the returned text and every check on it are unchanged.
     """
+    if not _voice_slots.acquire(blocking=False):
+        return CallOutcome(status="error", value={"error": VOICE_CAPACITY_FULL})
+    try:
+        return _stream(
+            client, model_id, system_prompt=system_prompt, message=message, turn_directive=turn_directive,
+            history=history, max_tokens=max_tokens, timeout=timeout, on_text=on_text,
+        )
+    finally:
+        _voice_slots.release()
+
+
+def _stream(
+    client, model_id: str, *, system_prompt: str, message: str, turn_directive: str | None,
+    history: list[dict] | None, max_tokens: int, timeout: float, on_text: Callable[[str], None] | None,
+) -> CallOutcome:
     try:
         chunks = []
         system, messages = build_voice_request(
