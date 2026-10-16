@@ -54,6 +54,74 @@ works:
   note: Placed on the entry's window (1650-1821). Greek liturgical book; its year rests on
     the host catalogue (front matter suggests the 1830s), so provisional.
   source_file: horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt
+- row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris-3
+  work: Confessio Christianae fidei (Latin), Cyril Lucaris
+  author: lucaris
+  locus: the Confession of Faith from about file line 367 to 2360; publisher's prefaces at
+    lines 39-150
+  role: context
+  confidence: assigned
+  note: 'Latin text of the Lucaris Confession that the 1672 Synod of Jerusalem answers chapter
+    by chapter in the vendored Robertson translation of the Synod''s acts. The text argued
+    against at this entry''s opening; Lucaris himself died in 1638, before the window.
+
+    '
+  source_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
+- row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--confession-of-cyril-lucaris-greek-with-latin-3
+  work: Confession of Cyril Lucaris (Greek with Latin)
+  author: lucaris
+  locus: from about file line 5636 (running heads 'Cyrilli Confessio') to about 7838
+  role: context
+  confidence: assigned
+  note: 'The Lucaris Confession (1629) in Greek and Latin: the text the Synod of Jerusalem
+    of 1672 condemns chapter by chapter. Context for this entry''s own opening act, not its
+    voice; its author died in 1638.
+
+    '
+  source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--the-confession-of-cyril-lucar-eighteen-chapters-and-four-3
+  work: The Confession of Cyril Lucar (eighteen chapters and four questions), as printed in
+    Robertson's appendix
+  author: lucaris
+  locus: Appendix from file line 6841, the Confession from 6845, Chapter I at 6868, Chapter
+    XVIII at 7751
+  role: context
+  confidence: assigned
+  note: 'The Lucar Confession as Robertson prints it in the appendix to the 1672 Synod''s
+    acts: the text the Synod''s own decrees answer one by one. Context for the entry''s opening
+    act, in English.
+
+    '
+  source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
+- row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-4
+  work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
+  author: mogila
+  locus: from about file line 7839; Pars prima (Faith) at 9190, Pars secunda (Hope) at 23757,
+    Pars tertia (Charity) at 28672
+  role: tradition
+  confidence: assigned
+  note: 'Greek and Latin text of the Orthodox Confession as received by the Synod of Jerusalem
+    (1672), whose acts stand in this same volume; the confession the Greek church held through
+    this window. Second witness for exact Greek because of the two-column scan layout.
+
+    '
+  source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: mogila_orthodox-confession_overbeck1898--the-orthodox-confession-of-the-catholic-and-apostolic-4
+  work: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa),
+    English version
+  author: mogila
+  locus: Part I (Faith) from file line 472, Part II (Hope) from 4036, Part III (Charity) from
+    5444; Robertson's notice (line 107) and Overbeck's preface (line 145) are editorial
+  role: tradition
+  confidence: assigned
+  note: 'The Orthodox Confession approved at Jassy (1642) and by the four patriarchs; the
+    Synod of Jerusalem of 1672, which opens this entry''s window, receives it as the Eastern
+    Church''s confession (Robertson''s 1899 translation of the Synod''s acts, vendored, carries
+    that reception). The confession the Greek church taught and printed through this whole
+    window. English version of 1898.
+
+    '
+  source_file: mogila_orthodox-confession_overbeck1898.txt
 - row_id: nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the-2
   work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios
     and Nikodemos, Greek'
@@ -105,3 +173,16 @@ works:
   note: Placed on the entry's window (1650-1821). An Anglican chaplain's outside account of
     1680.
   source_file: smith-thomas_account-of-the-greek-church_1680.txt
+- row_id: lucaris_confessio-and-synodal-censures-lat_1645--synodal-censures-of-the-confession-of-lucaris-by-cyril-of-2
+  work: Synodal Censures of the Confession of Lucaris, by Cyril of Berrhoea (1639) and Parthenius
+    (1642), Latin
+  author: synodal-censures-of-lucaris
+  locus: Censure of Cyril of Berrhoea from about file line 2369; Censure of Parthenius from
+    about line 3419
+  role: context
+  confidence: assigned
+  note: 'The synodal censures of 1639 and 1642 that the Synod of Jerusalem of 1672 builds
+    on; the condemnation''s own earlier stages, in Latin.
+
+    '
+  source_file: lucaris_confessio-and-synodal-censures-lat_1645.txt

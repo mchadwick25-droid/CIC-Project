@@ -15,3 +15,15 @@ assignments:
       in segments (the OCR carries stray marks and page-break running heads
       inside sentences; see Doc_02 section 7). PRIMARY source for this world's
       own Doc_02.
+  - row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-2
+    work: "The Life of the Archpriest Avvakum by Himself"
+    author: avvakum
+    locus: "whole work (at least 156pp.; Harrison & Mirrlees trans., 1924, preface by D. S. Mirsky)"
+    atlas_ids:
+      - russian-church-nikon-to-holy-synod
+    role: context
+    confidence: assigned
+    note: >
+      The view of Nikon's reforms and of the 1666-67 council from the condemned side: Avvakum's
+      own account of his exile, trial and imprisonment under the reforming church. A contemporary
+      opponent's voice for this entry, never its own. English translation of 1924.

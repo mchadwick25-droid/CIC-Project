@@ -33,3 +33,17 @@ assignments:
       same text is role context instead: this world's own doctrinal
       anchor as the Jesuits implemented it, not the Society's own
       composed voice.
+  - row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council-3
+    work: "The Canons and Decrees of the Sacred and Oecumenical Council of Trent"
+    author: council-of-trent
+    locus: "whole text"
+    atlas_ids:
+      - catholic-church-ancien-regime
+    role: tradition
+    confidence: provisional
+    note: >
+      The Tridentine canons and decrees remained the governing settlement of the Catholic Church
+      through this whole window (1650-1815); the church of the ancien regime lived, taught and
+      disputed under this text. Placed as the entry's own standing law rather than a text composed
+      in the window; provisional until the entry's own vendored sources show how they argue from
+      it.

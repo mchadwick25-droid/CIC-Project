@@ -106,3 +106,27 @@ assignments:
     note: Placed on
       the entry's window (1650-1821). Greek and Latin text of the 1672 Synod; second witness for exact Greek
       because of scan layout.
+  - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-4
+    work: "The Orthodox Confession (Confessio Orthodoxa), Greek with Latin"
+    author: mogila
+    locus: "from about file line 7839; Pars prima (Faith) at 9190, Pars secunda (Hope) at 23757, Pars tertia (Charity) at 28672"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek and Latin text of the Orthodox Confession as received by the Synod of Jerusalem
+      (1672), whose acts stand in this same volume; the confession the Greek church held through
+      this window. Second witness for exact Greek because of the two-column scan layout.
+  - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--confession-of-cyril-lucaris-greek-with-latin-3
+    work: "Confession of Cyril Lucaris (Greek with Latin)"
+    author: lucaris
+    locus: "from about file line 5636 (running heads 'Cyrilli Confessio') to about 7838"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-1650-1821
+    role: context
+    confidence: assigned
+    note: >
+      The Lucaris Confession (1629) in Greek and Latin: the text the Synod of Jerusalem of 1672
+      condemns chapter by chapter. Context for this entry's own opening act, not its voice; its
+      author died in 1638.
