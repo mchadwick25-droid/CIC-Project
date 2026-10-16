@@ -49,14 +49,14 @@ export function storyText(html) {
 
 /**
  * One About section as it would be read aloud: its headings and paragraphs in
- * page order. The small-caps eyebrow label is navigation, not text, so it is
- * left out.
+ * page order. The small-caps eyebrow label is navigation, and the audio
+ * player's own caption describes the recording, so both are left out.
  */
 export function sectionText(html, id) {
   const section = new RegExp(`<section[^>]*id="${id}"[^>]*>([\\s\\S]*?)</section>`).exec(html);
   if (!section) throw new Error(`about.html: section "${id}" not found`);
   const parts = [...section[1].matchAll(/<(h[23]|p)([^>]*)>([\s\S]*?)<\/\1>/g)]
-    .filter((m) => !/class="eyebrow"/.test(m[2]))
+    .filter((m) => !/class="(eyebrow|narration-disclosure)"/.test(m[2]))
     .map((m) => plain(m[3]))
     .filter(Boolean);
   if (!parts.length) throw new Error(`about.html: section "${id}" has no text`);

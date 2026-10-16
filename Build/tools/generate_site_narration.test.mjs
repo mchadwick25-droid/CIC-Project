@@ -4,7 +4,8 @@ import { storyText, sectionText, sitePieces, planPieces, parseArgs, fingerprint 
 
 const story = `<h1 id="story-title" class="x">Two &amp; more   years.</h1>
 <div class="story-body"><p>One <em>idea</em>.</p>\n<p>Second thought.</p></div>`;
-const about = `<section class="page-section" id="mission"><p class="eyebrow">Mission</p><h2>The aim</h2><p>First.</p>
+const about = `<section class="page-section" id="mission"><p class="eyebrow">Mission</p><h2>The aim</h2>
+<div class="narration"><audio src="a.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>First.</p>
 <div class="callout"><p class="label">Where we are</p><p>Now.</p></div></section>
 <section class="page-section" id="convictions"><p class="eyebrow">Five</p><ol><li><h3>One title</h3><p>One body.</p></li></ol></section>`;
 
@@ -16,7 +17,7 @@ test('storyText: a page without the story structure is an error', () => {
   assert.throws(() => storyText('<p>nothing</p>'), /not found/);
 });
 
-test('sectionText: headings and paragraphs in page order, eyebrow label left out', () => {
+test('sectionText: headings and paragraphs in page order, eyebrow label and player caption left out', () => {
   assert.equal(sectionText(about, 'mission'), 'The aim\n\nFirst.\n\nWhere we are\n\nNow.');
   assert.equal(sectionText(about, 'convictions'), 'One title\n\nOne body.');
   assert.throws(() => sectionText(about, 'nope'), /not found/);
