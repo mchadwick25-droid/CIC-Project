@@ -926,3 +926,11 @@ per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 **Action.** Removed from the tree: `Build/Ministry/Organization/`, `Build/Ministry/Funding/`, `Build/Ministry/Features/Funding-Strategy/`, `Archive/Ministry-Early-Days-2026-07/Funding/`, `Archive/Ministry-Early-Days-2026-07/Features/Funding-Strategy/`, `Archive/Ministry-Early-Days-2026-07/Organization/`, and the funder landscape file under `Archive/Ministry-Early-Days-2026-07/Marketplace/`. Sixty-nine files, archived to the project lead's private storage before removal. The six directories are listed in `tools/retired_paths.txt` so a stray branch cannot resurrect them. Root `README.md` line for `Build/Ministry/` updated; three citations in current documents reworded, and one citation in `Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md` carried in `tools/check_paths_baseline.txt` rather than editing that log. The files remain in git history; a history rewrite is a separate decision.
 
 **Correction, 2026-10-07 (later the same day).** The removed folder `Build/Ministry/Features/Funding-Strategy/` also held `Decision-Log.md`, whose entries from 3 October 2026 onward are the Go Deeper module's build record, cited by the turn-on runbook. Those entries are restored as `Build/Ministry/Features/Go-Deeper/Decision-Log.md` (the Go Deeper home from here on); the earlier, business entries stay in history with the rest of the folder. The runbook's citation is repointed. `Build/Ministry/Features/Funding-Strategy` stays retired.
+
+---
+
+## 2026-10-15 — `tools/live_watch.py` joins the root `tools/` scripts a workflow runs
+
+**Context.** The pre-pilot systems review (`Build/Ministry/Operations/Audits/CiC_PrePilot_Systems_Review_2026-10-15.md`) found that a deploy crashing on start-up went unnoticed while Render kept the old build serving. The project lead chose a scheduled GitHub check as the alert.
+
+**Action.** Added `tools/live_watch.py`, run every 15 minutes by `.github/workflows/live-watch.yml`, with its tests in `tools/tests/test_live_watch.py`. It stays in root `tools/` because a workflow runs it. Root `README.md`'s Build-zone paragraph now counts six such scripts and names it.
