@@ -73,6 +73,42 @@ field, the three facts are already separable by their labels.
 
 ---
 
+## 2026-10-23 — Era VI library pass: scope, and the one reader-ready convention
+
+**Instruction.** The project lead (2026-10-16): build the library for every
+census world that has not started Step 0 to Doc_02, one era per fresh
+session, in auto mode inside that scope. This session is Era VI
+(1300–1517).
+
+**Scope as applied.** The census lists 23 Era VI worlds. The Hussite and
+Bohemian Brethren world has a Doc_02 under `Build/worlds/hus/` and is out of
+scope. The other 22 are in scope. Lollardy and the Devotio Moderna have a
+Step 0 and a Doc_01 but no Doc_02, and both already have dossiers, which this
+pass completes rather than restarts. Taborite Radicalism and the Fraticelli
+carry the census status "Within Another World", and the Adamites carry
+"Contested - Evidentiary". Each still gets a dossier, and the dossier says
+whether its sources support that status. Build-or-atlas recommendations are
+the project lead's decision; the dossiers only recommend.
+
+**Reader-ready facts.** This pass follows the convention in the entry
+"Reader-ready facts recorded in the registry `notes` trailer, not a new
+schema field": a `READER:` trailer at the end of each registry note, no new
+field, and nothing added to the vendored file's own header. The Source
+Library design document is not at the path the instruction names, so the
+trailer is the only reference.
+
+**Nothing generated.** No translation, rendering or paraphrase written by a
+model enters the library. Where a non-English text has no public-domain
+English translation, the dossier records the gap.
+
+**Size.** `cic/texts/` stood at about 1.1 GB when this pass restarted, past
+the 1 GB planning trigger in `PLAN-texts-store-scaling.md`. This pass vendors
+only what a world's own voice or its hostile record needs, and each
+pull request states the size it leaves behind.
+
+
+---
+
 ## 2026-09-30 — Two Source Registry rules adopted into the Template
 
 **Ruling.** The project lead adopted both rules proposed in the entry "Step 0-2 process and gate fixes": one Confidence letter per row, with A given only when the Licensed-For content was read and verified at the source by structure marker; and corpus figures counted by two independent methods with the locale stated. His answer to the choice-box question was "Adopt both (Recommended)". Both are now written into `Build/reference/L3B-World-Build-Methodology/Source_Registry_Template.md` (the Confidence field, and a sixth rule). The Template's scale stays A to E; E marks a source later found unreliable. The proposal paragraph in the earlier entry is superseded by this one and is not edited.
