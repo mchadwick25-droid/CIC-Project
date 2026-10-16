@@ -71,6 +71,11 @@ ADMIN_LOGIN_LIMIT = (900.0, 5)
 # guessing. The signed webhook is exempt: Stripe sends from a few addresses and
 # the signature, not the address, is what admits a request.
 DEEPER_LIMIT = (60.0, 60)
+# A message the service will only safety-screen and then refuse (a closed
+# conversation, an over-long message, a visitor past the daily cap, a Table
+# round still open) costs a safety call and earns no reply, so it gets a
+# tighter bucket of its own. Each one inside it is still screened.
+REFUSED_MESSAGE_LIMIT = (60.0, 10)
 DEEPER_WEBHOOK_PATH = "/api/deeper/webhook"
 
 # Participant-facing words (full inventory in the decision log, alongside

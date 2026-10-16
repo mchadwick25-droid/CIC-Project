@@ -28,6 +28,8 @@ class DoorSettings:
     purchase_share: float
     invoice_factor: float
     stages: tuple[Stage, ...]
+    # The share of the week's ceiling that any 24 hours may spend. None: no daily limit.
+    daily_share: float | None = None
 
 
 @dataclass(frozen=True)
@@ -55,11 +57,17 @@ def ceiling_usd(settings: DoorSettings, funds_cents: dict[str, int]) -> float:
     return settings.base_usd + max(0.0, raised)
 
 
-def compute(settings: DoorSettings, list_price_spend_usd: float, funds_cents: dict[str, int]) -> DoorState:
-    """The state for a week's list-price spend against its ceiling. The spend is
-    multiplied by the invoice factor here, so the door counts what the bill will say."""
+def compute(
+    settings: DoorSettings, list_price_spend_usd: float, funds_cents: dict[str, int], day_list_price_spend_usd: float = 0.0,
+) -> DoorState:
+    """The state for a week's list-price spend against its ceiling, and the last
+    24 hours' against the daily share of it, whichever is nearer its limit. The
+    spend is multiplied by the invoice factor here, so the door counts what the
+    bill will say."""
     ceiling = ceiling_usd(settings, funds_cents)
     ratio = (list_price_spend_usd * settings.invoice_factor) / ceiling
+    if settings.daily_share is not None:
+        ratio = max(ratio, (day_list_price_spend_usd * settings.invoice_factor) / (ceiling * settings.daily_share))
     state = DoorState(stage=0, ratio=ratio, ceiling_usd=ceiling)
     for index, stage in enumerate(settings.stages, start=1):
         if ratio < stage.at:

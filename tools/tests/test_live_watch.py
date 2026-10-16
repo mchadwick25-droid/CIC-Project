@@ -13,8 +13,8 @@ OLD_HEAD_AT = NOW - timedelta(hours=2)
 GOOD_BACKUP = {"uploaded": True, "last_run_at": "2026-10-15T04:41:00+00:00"}
 
 
-def _health(commit=HEAD, backup=GOOD_BACKUP):
-    return {"status": "ok", "commit": commit, "backup": backup}
+def _health(commit=HEAD, backup=GOOD_BACKUP, disk=41):
+    return {"status": "ok", "commit": commit, "backup": backup, "disk_used_percent": disk}
 
 
 def test_all_clear():
@@ -56,3 +56,16 @@ def test_no_backup_yet_is_caught():
 
 def test_an_engine_without_a_backup_line_is_caught():
     assert live_watch.problems(_health(backup=None), HEAD, OLD_HEAD_AT, NOW) == ["The engine does not report a backup result."]
+
+
+def test_a_disk_at_the_alert_line_is_caught():
+    found = live_watch.problems(_health(disk=70), HEAD, OLD_HEAD_AT, NOW)
+    assert len(found) == 1 and "70% full" in found[0]
+
+
+def test_a_disk_below_the_line_is_clear():
+    assert live_watch.problems(_health(disk=69), HEAD, OLD_HEAD_AT, NOW) == []
+
+
+def test_an_engine_without_a_disk_line_is_caught():
+    assert live_watch.problems(_health(disk=None), HEAD, OLD_HEAD_AT, NOW) == ["The engine does not report how full its disk is."]

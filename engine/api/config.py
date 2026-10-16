@@ -6,6 +6,7 @@ engine/m5/safety_script_run.py). AWS credentials themselves are never read
 here - engine.provider.bedrock.make_client() already falls through boto3's
 standard credential chain; this module only needs to know which region.
 """
+import logging
 import os
 from dataclasses import dataclass
 from pathlib import Path
@@ -19,6 +20,25 @@ _DEFAULT_USAGE_DB = "./cic_api_usage.db"
 _DEFAULT_WORLD_KEY = "fix"
 _DEFAULT_ANON_DAILY_SESSION_LIMIT = 5
 _DEFAULT_ANON_DAILY_TURN_LIMIT = 150
+
+
+SETTING_PREFIXES = ("CIC_", "AWS_", "VITE_")
+
+
+def normalize_environ(environ=None) -> list[str]:
+    """Strips leading and trailing spaces and line breaks from the service's
+    own settings, so a value pasted with a stray newline still works. Returns
+    the names it changed, never the values."""
+    environ = os.environ if environ is None else environ
+    changed = [
+        name for name, value in list(environ.items())
+        if name.startswith(SETTING_PREFIXES) and value != value.strip()
+    ]
+    for name in changed:
+        environ[name] = environ[name].strip()
+    if changed:
+        logging.getLogger("cic.api").warning("stripped stray whitespace from settings: %s", ", ".join(sorted(changed)))
+    return changed
 
 
 class MissingConfigError(Exception):
