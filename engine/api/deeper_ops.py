@@ -23,7 +23,7 @@ FREE_KEYS = ("window_tokens", "window_days", "rounds_per_conversation")
 LATER_ROUNDS_FROM = 4
 MINIMUM_PACK_USD = 7
 LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
-DOOR_KEYS = ("observe", "base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
+DOOR_KEYS = ("observe", "base_weekly_usd", "daily_share", "gift_share", "purchase_share", "invoice_factor", "stages")
 PAID_KEYS = ("round_cap", "provisional")
 PILOT_KEYS = ("pack_usd", "pilot_end_date", "audiences")
 AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "per_address", "public", "questionnaire_url")
@@ -136,6 +136,7 @@ def _door(section) -> DoorSettings:
     if not isinstance(section["observe"], bool):
         raise OpsFileError("door.observe must be true or false")
     base = _number(section["base_weekly_usd"], "door.base_weekly_usd", low=0, inclusive_low=False)
+    daily = _number(section["daily_share"], "door.daily_share", low=0, high=1, inclusive_low=False)
     gift = _number(section["gift_share"], "door.gift_share", low=0, high=1)
     purchase = _number(section["purchase_share"], "door.purchase_share", low=0, high=1)
     factor = _number(section["invoice_factor"], "door.invoice_factor", low=1)
@@ -179,7 +180,9 @@ def _door(section) -> DoorSettings:
         if item.get("paid_voice") is False and not free_closed:
             raise OpsFileError("paid voice cannot close before free voice does")
         stages.append(Stage(**fields))
-    return DoorSettings(base_usd=base, gift_share=gift, purchase_share=purchase, invoice_factor=factor, stages=tuple(stages))
+    return DoorSettings(
+        base_usd=base, gift_share=gift, purchase_share=purchase, invoice_factor=factor, stages=tuple(stages), daily_share=daily,
+    )
 
 
 def _audiences(raw) -> dict[str, PilotAudience]:
