@@ -5620,9 +5620,9 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
 1. **The shape: Option B.** Under every Representative turn, one quiet text link in the
    muted colour of the source line. It opens a card inside the conversation: pick the
    sentence (the turn's own sentence boundaries, which already exist), pick one reason from
-   a fixed set about evidence ("I think this fact is wrong" / "The source shown does not say
-   this" / "It sounds more certain than it should" / "Something else"), add one optional
-   line, give an optional email, send. Not Option C (a review screen at the end), which
+   a fixed set of three about evidence ("I think this fact is wrong" / "The source shown
+   does not say this" / "It sounds more certain than it should"), add one optional line,
+   give an optional email, send. Not Option C (a review screen at the end), which
    loses everyone who closes the tab early. Not Option A alone (store the site form),
    which leaves a wrong fact reported from memory with no pointer to the sentence.
 2. **The link's words: "There may be a problem".** Mark's change to the recommended "Is this
@@ -5661,6 +5661,15 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
     safety line. Today's form fails silently in some browsers and truncates long answers.
 11. **One control, one queue.** The Source Library's "report an error" item on passage pages
     reuses the same reasons and the same store when it is built.
+12. **The per-turn control tests accuracy, nothing else** (Mark, same day, on the question
+    "focus on the conversation not being correct, or open to any feedback?"). No "Something
+    else" reason, and no reason about how the reply sounds; Mark: "the test is accuracy,
+    not sounds like." The card carries one line sending everything else to "Leave a
+    comment" at the end. So the split is: the reply's accuracy per turn, the experience at
+    the end. Research grounds for keeping the per-turn control narrow: open boxes on every
+    turn drowned Wikipedia's editors; an open box beside every reply is the side door for
+    arguing with a Representative and a distress channel next to every turn; the page can
+    carry one quiet link and no more.
 
 **Still open, asked next.** Whether the optional text line runs through the Facilitator's
 safety classifier (a model call per flag, against the usage rules) or relies on the printed
