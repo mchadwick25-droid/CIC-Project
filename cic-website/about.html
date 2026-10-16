@@ -19,6 +19,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -39,6 +40,7 @@
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -130,7 +132,7 @@
     <span>&copy; 2026 Church in Conversation, part of Faithways Studio, Inc. Creating safe spaces to explore faith and the story of Jesus.</span>
     <nav>
       <a href="about.html">About</a>
-      <a href="pilot-feedback.html">Feedback</a>
+      <a href="corrections.html">Corrections</a>
       <a href="privacy.html">Privacy</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
@@ -165,5 +167,6 @@ if (menu && menuToggle) {
 })();
 </script>
 <script src="assets/narration-player.js" defer></script>
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

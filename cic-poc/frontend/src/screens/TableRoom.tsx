@@ -15,7 +15,9 @@
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
 import { DeleteConversation, DeletedNotice } from '../components/DeleteConversation';
+import { ExperienceFeedbackButton, ExperienceFeedbackCard } from '../components/ExperienceFeedback';
 import { ModernTermMark } from '../components/ModernTermMark';
+import { TurnFeedback } from '../components/TurnFeedback';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry } from '../data/worlds';
@@ -26,6 +28,7 @@ interface TableRoomProps {
   seatedWorlds: WorldEntry[];
   turns: ConversationTurn[];
   streamed?: StreamedSentence[];
+  sessionId?: string | null;
   sessionCode: string | null;
   closed: boolean;
   roundOpen: boolean;
@@ -45,9 +48,10 @@ function facilitatorParagraphs(text: string): string[] {
 }
 
 export function TableRoom({
-  seatedWorlds, turns, streamed = [], sessionCode, closed, roundOpen, roundCap, isLoading, error, errorRecoverable, onSend, onResumeRound, onEnd, onRestart, onDelete,
+  seatedWorlds, turns, streamed = [], sessionId = null, sessionCode, closed, roundOpen, roundCap, isLoading, error, errorRecoverable, onSend, onResumeRound, onEnd, onRestart, onDelete,
 }: TableRoomProps) {
   const [deleted, setDeleted] = useState(false);
+  const [feedbackOpen, setFeedbackOpen] = useState(false);
   const handleDelete = async () => {
     await onDelete?.();
     setDeleted(true);
@@ -55,12 +59,14 @@ export function TableRoom({
   const byKey = new Map(seatedWorlds.map((w) => [w.worldKey, w]));
   const streamingSeat = streamed.length ? byKey.get(streamed[0].speaker) : undefined;
   const reply = streamingSeat ? streamedReply(streamed, streamingSeat.worldKey) : null;
+  const tablePage = `table:${seatedWorlds.map((w) => w.worldKey).sort().join('+')}`;
   const anyLivingTradition = seatedWorlds.some((w) => w.livingTraditionFlag);
   return (
     <div className="conversation">
       <div className="conversation__bar">
         <BrandMark size={16} />
         <div className="conversation__bar-right">
+          <ExperienceFeedbackButton open={feedbackOpen} onToggle={() => setFeedbackOpen((o) => !o)} />
           {sessionCode && (
             <div className="conversation__bar-note sans">
               Not saved to an account — this conversation lives in this tab
@@ -68,6 +74,7 @@ export function TableRoom({
           )}
         </div>
       </div>
+      {feedbackOpen && <ExperienceFeedbackCard page={tablePage} onClose={() => setFeedbackOpen(false)} />}
 
       <div className="conversation__transcript" role="log" aria-label="Conversation">
         <div className="arrival arrival--table">
@@ -147,6 +154,16 @@ export function TableRoom({
                 {world ? `${world.representativeName} · ${world.cardName}` : turn.speaker}
               </div>
               <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} figuresUsed={turn.figuresUsed ?? []} glosses={turn.glosses ?? []} transparency={turn.transparency} />
+              {sessionId && sessionCode && (
+                <TurnFeedback
+                  sessionId={sessionId}
+                  sessionCode={sessionCode}
+                  turnIndex={i}
+                  text={turn.text}
+                  transparency={turn.transparency}
+                  representativeName={world?.representativeName ?? turn.speaker}
+                />
+              )}
             </div>
           );
         })}

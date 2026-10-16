@@ -5,8 +5,8 @@
  * "turn--voice" bubble (portrait, name, nothing underneath) where the
  * spec says the voice's text should not be shown at all.
  */
-import { render } from '@testing-library/react';
-import { describe, expect, it } from 'vitest';
+import { act, cleanup, fireEvent, render } from '@testing-library/react';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { TableRoom } from './TableRoom';
 import type { WorldEntry } from '../data/worlds';
 import type { ConversationTurn } from '../hooks/useConversation';
@@ -105,5 +105,36 @@ describe('TableRoom streaming', () => {
     expect(voice?.textContent).toContain('Theon');
     expect(voice?.textContent).toContain('We told what we had been told.');
     expect(queryByText(/The table is speaking/)).toBeNull();
+  });
+});
+
+describe('TableRoom feedback controls', () => {
+  afterEach(() => {
+    cleanup();
+    vi.unstubAllGlobals();
+  });
+
+  it('puts the feedback row under a stored voice turn and not under the streaming reply', () => {
+    const turns: ConversationTurn[] = [
+      { speaker: 'participant', text: 'Who was Jesus?' },
+      { speaker: 'alx', text: 'We watched them, not counted weeks.' },
+    ];
+    const streamed = [{ index: 0, speaker: 'alx', lead: '', text: 'Still writing.', text_start: 0, text_end: 14, elements: [], cards: [] }];
+    const { container } = render(<TableRoom {...baseProps} sessionId="s1" turns={turns} streamed={streamed} isLoading />);
+    expect(container.querySelectorAll('.turn--voice')).toHaveLength(2);
+    expect(container.querySelectorAll('.turn-feedback')).toHaveLength(1);
+  });
+
+  it('posts the sorted table key as the page of an experience comment', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
+    vi.stubGlobal('fetch', fetchMock);
+    const seatedWorlds = [world({ worldKey: 'syr' }), world({ worldKey: 'alx' })];
+    const { container, getByLabelText } = render(<TableRoom {...baseProps} seatedWorlds={seatedWorlds} turns={[]} />);
+    fireEvent.click(container.querySelector('.conversation__bar-right button') as HTMLElement);
+    fireEvent.change(getByLabelText('What was this like for you? What should we do better?'), { target: { value: 'Good.' } });
+    await act(async () => {
+      fireEvent.click(container.querySelector('#experience-feedback-send') as HTMLElement);
+    });
+    expect(JSON.parse(fetchMock.mock.calls[0][1].body).page).toBe('table:alx+syr');
   });
 });

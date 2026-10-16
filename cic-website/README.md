@@ -9,6 +9,7 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 
 - `index.html` — Home
 - `about.html` — Mission, the Five Convictions, How It Works, Safety & Disclosure, About Us
+- `corrections.html` — Corrections and Leads: how flags are checked, and the closed items.
 - `support.html` — "Get Involved," rewritten with real cost figures; see its own
   header comment and the funding-strategy decision record under
   the project's private funding-strategy material for the full derivation. Currently

@@ -4,8 +4,8 @@
  * TableRoom.test.tsx pins its own table-route rendering, so the interview
  * route's own facilitator-turn branch is covered too.
  */
-import { fireEvent, render } from '@testing-library/react';
-import { describe, expect, it } from 'vitest';
+import { act, cleanup, fireEvent, render } from '@testing-library/react';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { Conversation } from './Conversation';
 import type { WorldEntry } from '../data/worlds';
 import type { ConversationTurn } from '../hooks/useConversation';
@@ -125,5 +125,53 @@ describe('Conversation - a pause at a limit', () => {
     expect(container.querySelector('.turn__note')?.textContent).toBe('Your tokens have run out. Add more to carry on.');
     expect(container.querySelector('textarea')).not.toBeDisabled();
     expect(queryByText('Meet another world')).toBeNull();
+  });
+});
+
+describe('Conversation - feedback controls', () => {
+  afterEach(() => {
+    cleanup();
+    vi.unstubAllGlobals();
+  });
+
+  const turns: ConversationTurn[] = [
+    { speaker: 'participant', text: 'Who was Jesus?' },
+    { speaker: 'fix', text: 'We told what we had been told.' },
+  ];
+  const streamed = [{ index: 0, speaker: 'fix', lead: '', text: 'Still writing.', text_start: 0, text_end: 14, elements: [], cards: [] }];
+
+  it('puts the feedback row under a finished voice turn only, not under the streaming reply', () => {
+    const { container, getByText } = render(<Conversation {...baseProps} sessionId="s1" turns={turns} streamed={streamed} isLoading />);
+    expect(container.querySelectorAll('.turn--voice')).toHaveLength(2);
+    expect(container.querySelectorAll('.turn-feedback')).toHaveLength(1);
+    expect(container.querySelector('.turn--voice .turn-feedback')).not.toBeNull();
+    expect(getByText('This helped')).toBeInTheDocument();
+  });
+
+  it('shows no feedback row without a session code', () => {
+    const { container } = render(<Conversation {...baseProps} sessionId="s1" sessionCode={null} turns={turns} />);
+    expect(container.querySelectorAll('.turn-feedback')).toHaveLength(0);
+  });
+
+  it('posts the like against the index of the turn in the transcript', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
+    vi.stubGlobal('fetch', fetchMock);
+    const { getByText } = render(<Conversation {...baseProps} sessionId="s1" turns={turns} />);
+    await act(async () => {
+      fireEvent.click(getByText('This helped'));
+    });
+    expect(JSON.parse(fetchMock.mock.calls[0][1].body).turn_index).toBe(1);
+  });
+
+  it('opens the experience card from the bar and posts the world key as the page', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'x' }) });
+    vi.stubGlobal('fetch', fetchMock);
+    const { container, getByLabelText } = render(<Conversation {...baseProps} turns={turns} />);
+    fireEvent.click(container.querySelector('.conversation__bar-right button') as HTMLElement);
+    fireEvent.change(getByLabelText('What was this like for you? What should we do better?'), { target: { value: 'Good.' } });
+    await act(async () => {
+      fireEvent.click(container.querySelector('#experience-feedback-send') as HTMLElement);
+    });
+    expect(JSON.parse(fetchMock.mock.calls[0][1].body).page).toBe('fix');
   });
 });

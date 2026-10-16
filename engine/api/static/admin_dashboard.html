@@ -308,6 +308,13 @@
       <div class="caveat" id="asks-freshness" style="margin-bottom: 8px;"></div>
       <div id="asks-table-wrap"></div>
     </section>
+
+    <section>
+      <h2>Feedback</h2>
+      <div class="caveat" style="margin-bottom: 8px;">Reply to the person before you close, if they left an email. Closing removes the email.</div>
+      <label class="caveat"><input id="feedback-show-closed" type="checkbox" /> Show closed</label>
+      <div id="feedback-table-wrap" style="margin-top: 8px; overflow-x: auto;"></div>
+    </section>
   </div>
 
 <script>
@@ -470,6 +477,73 @@
     wrap.appendChild(table);
   }
 
+  const FEEDBACK_OUTCOMES = [
+    ["corrected", "Corrected"], ["checked_stands", "Checked, stands"], ["open_lead", "Open lead"],
+    ["conviction", "A conviction, not an error"], ["no_action", "No action"],
+  ];
+  const FEEDBACK_REASONS = {
+    fact_wrong: "Fact wrong", source_mismatch: "Source does not say this", overcertain: "Too certain", unclear: "Not clear",
+  };
+
+  async function closeFeedback(id, outcome, note) {
+    const resp = await fetch("/api/admin/feedback/" + encodeURIComponent(id) + "/close", {
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ outcome, note: note || null }),
+    });
+    if (!resp.ok) throw new Error("close returned " + resp.status);
+  }
+
+  function renderFeedback(items, closed) {
+    const wrap = document.getElementById("feedback-table-wrap");
+    wrap.innerHTML = "";
+    if (!items || items.length === 0) {
+      wrap.appendChild(el("div", { class: "empty", text: closed ? "Nothing closed yet." : "Nothing waiting." }));
+      return;
+    }
+    const heads = ["Kind", "Page", "When", "Reason", "Turn", "Sentence", "Records", "Confidence", "Text", "Email", "Quote consent", "First name"];
+    heads.push(closed ? "Outcome" : "Close");
+    const table = el("table", {});
+    table.appendChild(el("thead", {}, [el("tr", {}, heads.map((h) => el("th", { text: h })))]));
+    const tbody = el("tbody", {});
+    items.forEach((item) => {
+      const cells = [
+        item.kind, item.page || "", (item.created_at || "").slice(0, 16).replace("T", " "),
+        FEEDBACK_REASONS[item.reason] || "", item.turn_index === null ? "" : String(item.turn_index),
+        item.sentence_index === null ? "" : String(item.sentence_index), (item.record_ids || []).join(", "),
+        item.confidence ? Object.entries(item.confidence).map(([k, v]) => k + ": " + (typeof v === "string" ? v : JSON.stringify(v))).join("; ") : "",
+        item.text || "", item.email || "", item.quote_consent || "", item.first_name || "",
+      ].map((t) => el("td", { text: t }));
+      if (closed) {
+        const label = (FEEDBACK_OUTCOMES.find((o) => o[0] === item.outcome) || [null, item.outcome || ""])[1];
+        cells.push(el("td", { text: label + (item.outcome_note ? " - " + item.outcome_note : "") }));
+      } else {
+        const select = el("select", {}, FEEDBACK_OUTCOMES.map(([value, label]) => el("option", { value, text: label })));
+        const note = el("input", { type: "text", placeholder: "Note", maxlength: "2000" });
+        const button = el("button", { type: "button", text: "Close" });
+        button.addEventListener("click", async () => {
+          button.disabled = true;
+          try {
+            await closeFeedback(item.id, select.value, note.value.trim());
+            await loadFeedback();
+          } catch (err) {
+            button.disabled = false;
+            document.getElementById("banners").appendChild(banner(String(err.message || err), true));
+          }
+        });
+        cells.push(el("td", {}, [select, note, button]));
+      }
+      tbody.appendChild(el("tr", {}, cells));
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+  }
+
+  async function loadFeedback() {
+    const closed = document.getElementById("feedback-show-closed").checked;
+    const body = await fetchJSON("/api/admin/feedback?status=" + (closed ? "closed" : "open"));
+    renderFeedback(body.items, closed);
+  }
+
   async function load() {
     const banners = document.getElementById("banners");
     banners.innerHTML = "";
@@ -521,6 +595,11 @@
       ? "From the daily rollup run at " + usage.asks_as_of_run + " (generated " + (usage.asks_generated_at || "unknown") + ") — not live, updates once a day."
       : "No daily rollup has produced output yet.";
     await loadDeeper();
+    try {
+      await loadFeedback();
+    } catch (err) {
+      banners.appendChild(banner("Feedback could not be loaded: " + String(err.message || err), true));
+    }
   }
 
   const REFUSAL_LABELS = {
@@ -896,6 +975,9 @@
     app.classList.add("hidden");
     gate.classList.remove("hidden");
     checkAuthStatus();
+  });
+  document.getElementById("feedback-show-closed").addEventListener("change", () => {
+    loadFeedback().catch((err) => document.getElementById("banners").appendChild(banner(String(err.message || err), true)));
   });
   document.getElementById("refresh").addEventListener("click", () => { showApp(); });
   document.getElementById("since-select").addEventListener("change", () => { showApp(); });

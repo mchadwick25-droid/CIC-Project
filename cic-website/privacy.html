@@ -19,6 +19,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -34,6 +35,7 @@
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -113,6 +115,17 @@
     <p>We do not sell your conversations, and we never quote from them.</p>
   </section>
 
+  <section class="page-section" id="feedback">
+    <p class="eyebrow">Feedback</p>
+    <h2>What we keep when you tell us something</h2>
+    <p>Under each reply in a conversation, you can mark that it helped. We then store which conversation and which reply it was, and the sources behind it.</p>
+    <p>You can also mark that a reply was not clear or not accurate. We then store which conversation and which sentence it was, the sources behind that sentence, the reason you chose, and any line you added.</p>
+    <p>In neither record do we store the words of the reply or of your conversation.</p>
+    <p>When you use &ldquo;Tell us what you think,&rdquo; we store the page you were on, what you wrote, your answer about quoting, and your email if you gave one.</p>
+    <p>We keep each item until a person has checked it, and for 90 days after that. We delete your email when we reply, or when we close the item if no reply is owed.</p>
+    <p>We quote a comment only if you said we may, and only in the way you chose. A mark on a reply is never quoted.</p>
+  </section>
+
   <section class="page-section" id="services">
     <p class="eyebrow">Services</p>
     <h2>Who helps us run it</h2>
@@ -138,7 +151,7 @@
     <span>&copy; 2026 Church in Conversation, part of Faithways Studio, Inc. Creating safe spaces to explore faith and the story of Jesus.</span>
     <nav>
       <a href="about.html">About</a>
-      <a href="pilot-feedback.html">Feedback</a>
+      <a href="corrections.html">Corrections</a>
       <a href="privacy.html" aria-current="page">Privacy</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
@@ -174,5 +187,6 @@ if (menu && menuToggle) {
 </script>
 <script src="assets/go-deeper-config.js"></script>
 <script src="assets/privacy-go-deeper.js"></script>
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>
