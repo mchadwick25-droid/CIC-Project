@@ -89,6 +89,11 @@ def seam(monkeypatch):
     return recorder
 
 
+@pytest.fixture
+def on_render(monkeypatch):
+    monkeypatch.setenv(guard.RENDER_ENV, "true")
+
+
 def _approve(monkeypatch, extra=()):
     monkeypatch.setattr(sys, "argv", ["prog", *extra, *APPROVED])
 
@@ -231,14 +236,14 @@ def test_usage_records_from_an_approved_run_carry_the_name(seam, monkeypatch):
     assert record.live_test == "guard proof"
 
 
-def test_usage_records_from_a_conversation_carry_none(seam):
+def test_usage_records_from_a_conversation_carry_none(seam, on_render):
     with guard.conversation_scope():
         bedrock.make_client("us-east-1")
     record = record_usage(usage=NormalizedUsage(1, 1, 0, 0), session_id="s", call_kind="voice_generation", model_id=HAIKU)
     assert record.live_test is None
 
 
-def test_the_conversation_path_gets_the_sdk_client_itself(seam):
+def test_the_conversation_path_gets_the_sdk_client_itself(seam, on_render):
     with guard.conversation_scope():
         client = bedrock.make_client("us-east-1")
     assert type(client).__name__ == "FakeSdkClient"
@@ -246,12 +251,28 @@ def test_the_conversation_path_gets_the_sdk_client_itself(seam):
     assert [e[0] for e in seam.events] == ["constructed"]
 
 
-def test_the_routed_conversation_client_is_unwrapped_too(seam, monkeypatch):
+def test_the_routed_conversation_client_is_unwrapped_too(seam, monkeypatch, on_render):
     monkeypatch.delenv(route.ROUTE_ENV, raising=False)
     with guard.conversation_scope():
         client, voice_id, safety_id = route.build_route("us-east-1", "haiku-4-5", "haiku-4-5")
     assert type(client).__name__ == "FakeSdkClient" and voice_id == safety_id == HAIKU
     assert guard.active_live_test_name() is None
+
+
+def test_the_conversation_scope_off_render_is_refused_like_any_command(seam, monkeypatch, capsys):
+    monkeypatch.delenv(guard.RENDER_ENV, raising=False)
+    with guard.conversation_scope(), pytest.raises(guard.LiveTestRefused):
+        bedrock.make_client("us-east-1")
+    assert seam.constructions == []
+    assert "--live-test" in capsys.readouterr().err
+
+
+def test_the_conversation_scope_off_render_with_both_flags_gets_a_capped_client(seam, monkeypatch):
+    monkeypatch.delenv(guard.RENDER_ENV, raising=False)
+    _approve(monkeypatch)
+    with guard.conversation_scope():
+        client = bedrock.make_client("us-east-1")
+    assert isinstance(client, guard._GuardedClient)
 
 
 def test_the_engine_api_builds_its_client_inside_the_conversation_scope():
