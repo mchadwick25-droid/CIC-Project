@@ -41,14 +41,6 @@ export function Arrival({ world }: ArrivalProps) {
 
       {world.doorwayDescription && <p className="arrival__horizon">{world.doorwayDescription}</p>}
 
-      <div className="arrival__thinness">
-        <div className="arrival__thinness-label sans">What this voice knows well — and doesn't</div>
-        <p>{world.thinnessStatement}</p>
-        {world.livingTraditionFlag && (
-          <p className="arrival__living-tradition">This is a bounded historical reconstruction, not today's church of the same name.</p>
-        )}
-      </div>
-
       <div className="arrival__disclosure sans">
         <p>
           The system exists to reveal Jesus through the witness of his church across history. Every other outcome serves
@@ -58,6 +50,14 @@ export function Arrival({ world }: ArrivalProps) {
         </p>
         <p>{world.representativeName}'s name is ours; every quote and claim is theirs, and you can check each one.</p>
         <p>Look for the ✲ mark after a claim — tap it to see exactly where it comes from.</p>
+      </div>
+
+      <div className="arrival__thinness">
+        <div className="arrival__thinness-label sans">What this voice knows well — and doesn't</div>
+        <p>{world.thinnessStatement}</p>
+        {world.livingTraditionFlag && (
+          <p className="arrival__living-tradition">This is a bounded historical reconstruction, not today's church of the same name.</p>
+        )}
       </div>
     </div>
   );
