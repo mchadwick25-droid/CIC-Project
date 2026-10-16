@@ -50,6 +50,23 @@ works:
 
     '
   source_file: austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870.txt
+- row_id: barlow_brutum-fulmen_1681--brutum-fulmen-pius-v-s-bull-regnans-in-excelsis-against-3
+  work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul
+    III's bull against Henry VIII annexed)
+  author: barlow
+  locus: the two embedded bull texts only, as the existing rows describe them (Regnans in
+    Excelsis in English and Latin parallel columns about lines 2280-2330; the Paul III bull
+    in Latin about lines 28695-28710)
+  role: context
+  confidence: assigned
+  note: 'The papacy''s two binding acts against this world: Paul III''s bull against Henry
+    VIII and Pius V''s 1570 excommunication and deposition of Elizabeth, which turned recusancy
+    into a question of treason. The outside opponent''s own words, printed verbatim inside
+    a 1681 Anglican polemic. Context for this world; the surrounding Barlow commentary (1681)
+    is out of window and not placed here.
+
+    '
+  source_file: barlow_brutum-fulmen_1681.txt
 - row_id: barlow-william_summe-and-substance-hampton-court-conference_1804--the-summe-and-substance-of-the-hampton-court-conference-1604
   work: The Summe and Substance of the Conference at Hampton Court, January 1604 (first printed
     1604)
@@ -68,6 +85,23 @@ works:
 
     '
   source_file: barlow-william_summe-and-substance-hampton-court-conference_1804.txt
+- row_id: calvin_letters-vol2_bonnet1858--letters-to-somerset-edward-vi-and-cranmer-1548-1552
+  work: 'Letters of John Calvin, Vol. II: the letters to the Protector Somerset (CCXXIX, CCLVII),
+    to Edward VI (CCLXXIV) and to Archbishop Cranmer (CCXCVIII, CCCXIV), 1548-1552'
+  author: calvin
+  locus: CCXXIX at file line 8702; CCLVII at 12073; CCLXXIV at 14012; CCXCVIII at 16620; CCCXIV
+    at 18559
+  role: context
+  confidence: assigned
+  note: 'Geneva''s advice to the Edwardian Reformation in its own words: Calvin urging Somerset
+    to a complete reformation by preaching and the correction of abuses (October 1548), pressing
+    Cranmer for an assembly of the learned of all the Reformed churches (July 1552), and exhorting
+    the young king to persevere (January 1551), as the edition''s own summaries describe each
+    letter. The outside Reformed voice the English church listened to and did not simply follow.
+    Context; same time, different region.
+
+    '
+  source_file: calvin_letters-vol2_bonnet1858.txt
 - row_id: campion_rationes-decem-ten-reasons-lat-eng_rickaby1914--rationes-decem-latin-3
   work: Rationes Decem (1581), Latin text, with Rickaby's English translation and Campion's
     English Challenge

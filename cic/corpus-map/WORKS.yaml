@@ -237,3 +237,216 @@ works:
       entry.
 
       '
+
+  - work_id: schleitheim-confession
+    title: The Schleitheim Confession (Brüderliche Vereinigung etlicher Kinder Gottes, sieben Artikel betreffend)
+    author: swiss-brethren
+    original_language: German
+    composed: 24 February 1527, Schleitheim (Schlatt am Randen)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Heinrich Böhmer (editor)
+      year: 1910
+      language: German
+      recension: German text with variants
+      items:
+      - cic:boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt:section-iv
+    - translator: Josef Beck (editor)
+      year: 1883
+      language: German
+      recension: German text from a Pressburg manuscript, abridged by the editor
+      items:
+      - cic:hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt:beilage-a
+    - translator: W. J. McGlothlin (from Zwingli's Latin)
+      year: 1911
+      language: English
+      recension: Zwingli's Latin version (Elenchus, 1527)
+      items:
+      - cic:mcglothlin_baptist-confessions-of-faith_1911.txt:the-anabaptists
+    - translator: Henry Preble and George W. Gilmore (the Latin pieces), in Samuel Macauley Jackson's Selected
+        Works (from Zwingli's Latin)
+      year: 1901
+      language: English
+      recension: Zwingli's Latin version, embedded in the Refutation of Baptist Tricks
+      items:
+      - cic:zwingli_selected-works_jackson1901.txt:refutation-second-part
+    notes: 'Four expressions in the corpus as of 2026-10-16: two German (Böhmer''s full text, Fraktur and
+      garbled in the OCR; Beck''s abridged text, Antiqua and readable) and two English, both of which render
+      Zwingli''s hostile Latin translation rather than the German. Any quote record should say which expression
+      it rests on, and the English should be checked against the German on the page images. The translator
+      credit for the 1901 volume follows its own preface (file lines 49-51 and 109-110): the Latin pieces
+      by Henry Preble and George W. Gilmore, the Zurich German pieces by Lawrence A. McLouth.
+
+      '
+
+  - work_id: giussano-vita-di-s-carlo-borromeo
+    title: Vita di S. Carlo Borromeo (The Life of St. Charles Borromeo)
+    author: giussano
+    original_language: Italian
+    composed: 1610 (Rome)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: null
+      year: 1855
+      language: Italian
+      recension: 1855 Naples reprint (Tipografia Arcivescovile)
+      items:
+      - cic:giussano_vita-di-s-carlo-borromeo-ita_1855.txt:whole-file
+    - translator: not named on the title page (English version issued by the Oblates of St. Charles, Westminster,
+        with preface by H. E. Manning)
+      year: 1884
+      language: English
+      recension: 1884 Burns and Oates edition, 2 vols.
+      items:
+      - cic:giussano_life-of-st-charles-borromeo-v1_1884.txt:whole-file
+      - cic:giussano_life-of-st-charles-borromeo-v2_1884.txt:whole-file
+    notes: 'Same Work, two Expressions: the Italian text (in an 1855 reprint chosen because the 1610 first-edition
+      scan on archive.org is garbled) and the 1884 English translation in two volumes. The English is the
+      quotable witness; the Italian is the wording check behind it, with the caveat that it is the 1855
+      edition''s wording, not the 1610 printing''s.
+
+      '
+
+  - work_id: gallican-confession-1559
+    title: The French Confession of Faith (Confessio Gallicana, Confession de La Rochelle)
+    author: french-reformed-synods
+    original_language: French
+    composed: 1559 (Synod of Paris); reaffirmed 1571 (Synod of La Rochelle)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: John Quick
+      year: 1692
+      language: English
+      recension: the forty-article text as the synods printed it, with the synods' observations
+      items:
+      - cic:quick_synodicon-in-gallia-reformata_1692.txt:lines-1009-1774
+    - translator: Emily O. Butler (English); French text in modern spelling from the Toulouse 1864 edition
+      year: 1877
+      language: French and English
+      recension: the forty-article text with the Preface in its original form (Schaff's headnote)
+      items:
+      - cic:schaff_gallican-confession-fra-eng_1877.txt:whole-file
+    notes: 'Two independent English renderings of the same confession, one of them printed beside the French.
+      Quick''s is the older and the one the synod acts themselves refer to; Butler''s is the clean nineteenth-
+      century text. The French in the Schaff extract is the primary wording for quotation; the 1559 old-spelling
+      French is in Beze''s Histoire ecclesiastique, tome 1 (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt,
+      lines 10569-11546), a second witness because of its OCR.
+
+      '
+  - work_id: mornay-charlotte-memoires
+    title: Memoirs of Madame de Mornay (the life of Philippe du Plessis-Mornay, written by his wife for
+      their son)
+    author: mornay-charlotte
+    original_language: French
+    composed: 1584-1606 (the dedication to her son; continued to her death)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (French original, ed. Madame de Witt from the manuscripts)
+      year: 1868
+      language: French
+      recension: de Witt's edition, tome 1 (the memoirs; tome 2 holds the letters, not vendored)
+      items:
+      - cic:mornay-charlotte_memoires-de-madame-de-mornay-t1-fra_de-witt1868.txt:whole-file
+    - translator: Lucy Crump
+      year: 1926
+      language: English
+      recension: translated from the de Witt 1868 edition (host catalogue note for the Claremont copy)
+      items:
+      - cic:mornay-charlotte_huguenot-family-in-the-xvi-century_crump1926.txt:lines-3611-12433
+    notes: 'Original and translation vendored side by side; the French is the primary wording, the English
+      a published cross-check on any Opus rendering.
+
+      '
+  - work_id: migault-journal
+    title: Journal of Jean Migault, schoolmaster (the dragonnades in Poitou, 1681-1688)
+    author: migault
+    original_language: French
+    composed: 1688 onward (written in exile for his children, per the text)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (French original, first edition from the original text, ed. N. Weiss and H. Clouzot)
+      year: 1910
+      language: French
+      recension: the original text (the editors' claim on the title page)
+      items:
+      - cic:migault_journal-fra_weiss-clouzot1910.txt:lines-1871-end
+    - translator: William Anderson
+      year: 1852
+      language: English
+      recension: from an earlier printed French text, not the 1910 edition (Anderson's introduction)
+      items:
+      - cic:migault_trials-of-a-french-protestant-family_anderson1852.txt:narrative
+    notes: 'The two expressions rest on different French bases, so the English may not match the 1910 wording
+      passage for passage; the 1910 French is the primary witness.
+
+      '
+
+  - work_id: schurman-dissertatio-de-ingenii-muliebris
+    title: Dissertatio de ingenii muliebris ad doctrinam et meliores litteras aptitudine (Whether a Christian
+      woman should be educated)
+    author: schurman
+    original_language: Latin
+    composed: 1638-1641 (first printed Paris 1638; Leiden 1641)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: null
+      year: 1648
+      language: Latin
+      recension: 'the Elzevier Opuscula printing, headed ''Problema practicum: Num foeminae Christianae
+        conveniat studium litterarum'''
+      items:
+      - cic:schurman_opuscula-lat_spanheim1648.txt:Problema practicum (line 1305) to the Epistolae (line 2464)
+    - translator: anonymous (not named on the 1659 title page)
+      year: 1659
+      language: English
+      recension: null
+      items:
+      - cic:schurman_learned-maid_1659.txt:A Logicall Exercise (line 280) to the letters (line 1946)
+  - work_id: heidelberg-catechism
+    title: The Heidelberg Catechism (1563)
+    author: ursinus-olevianus
+    original_language: German (with an authorised Latin text)
+    composed: '1563'
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Philip Schaff's edition (the English translation it prints)
+      year: 1919
+      language: English
+      recension: Schaff, Creeds of Christendom vol. III, sec. 69
+      items:
+      - cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:sec. 69 (line 1598 onward)
+    - translator: not named (the Reformed Dutch Church of North America's official text)
+      year: 1840
+      language: English
+      recension: the Dutch church's own English, with the Compendium
+      items:
+      - cic:reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt:Catechism (line
+        2703) to the Confession of Faith (line 5151)

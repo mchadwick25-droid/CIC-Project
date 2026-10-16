@@ -3254,3 +3254,2305 @@ queue:
     verified_by: 'library/source-research thread, 2026-10-16: item metadata (Princeton Theological Seminary;
       London, privately printed for the Society, 1916); no copyright-status field'
     status: not-yet-downloaded
+
+  - title: 'Quellen zur Geschichte der Wiedertäufer, I. Band: Herzogtum Württemberg'
+    author: Württemberg ducal, court and church records (Täuferakten)
+    translator: Gustav Bossert (editor)
+    year: 1930
+    world: the-anabaptist-movements
+    why: 'Closes the Täuferakten lead the world''s Step 0 left open (section 4, item 6): the only volume
+      of the Quellen zur Geschichte der (Wieder)Täufer series published by 1930. Court testimony, the inside
+      voice the census names. The scan is the 1971 Johnson Reprint of the 1930 Leipzig edition; the rights
+      basis is the 1930 imprint.
+
+      '
+    url: https://archive.org/details/QuellenZurGeschichteDerWiedertaeuferBossertWuerttemberg
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch of metadata and full text, title page read in the OCR, 2026-10-16
+    status: downloaded
+    vendored_as: taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt
+  - title: Actensammlung zur Geschichte der Zürcher Reformation in den Jahren 1519-1533
+    author: Council, courts and chancery of Zurich
+    translator: Emil Egli (editor)
+    year: 1879
+    world: the-anabaptist-movements (also the-reformed-cities-zurich-and-geneva)
+    why: 'The Zurich council''s own trial records, mandates and sentences of the first Anabaptists (Grebel,
+      Manz, Blaurock, Zollikon, Grüningen), 1525 onward, inside the record of the whole Zurich Reformation.
+      Found while running down the Täuferakten lead; the public-domain alternative to Harder''s Sources
+      of Swiss Anabaptism (1985, in copyright).
+
+      '
+    url: https://archive.org/details/bub_gb_CGRKAAAAYAAJ
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch; host licence Creative Commons Public Domain Mark 1.0, 2026-10-16
+    status: downloaded
+    vendored_as: zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt
+  - title: Die Geschichts-Bücher der Wiedertäufer in Oesterreich-Ungarn, 1526-1785
+    author: Hutterite Brethren
+    translator: Josef Beck (editor)
+    year: 1883
+    world: the-anabaptist-movements
+    why: 'The first printed edition of the Hutterite chronicles (Fontes rerum Austriacarum II/43), a readable
+      Antiqua witness beside the Wolkan 1923 edition; also prints the Schleitheim articles (abridged) and
+      the Brethren''s 1545 Rechenschaft to the Moravian lords (abridged).
+
+      '
+    url: https://archive.org/details/bub_gb_QV8R0FVHkE0C
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch; host licence Creative Commons Public Domain Mark 1.0, 2026-10-16
+    status: downloaded
+    vendored_as: hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt
+  - title: Geschicht-Buch der Hutterischen Brüder (clean second scan of the 1923 edition)
+    author: Hutterite Brethren
+    translator: Rudolf Wolkan (editor)
+    year: 1923
+    world: the-anabaptist-movements
+    why: 'The edition already vendored from the Columbia microfilm (geschichtbuchder00hutt) is garbled OCR.
+      This 2025 Internet Archive scan of the same book reads cleanly (0.93 of word tokens read as words
+      against 0.57), so the chronicle becomes quotable after checking the page images.
+
+      '
+    url: https://archive.org/details/bwb_C0-AUB-464
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch of metadata (no access restriction) and full text, title
+      page read in the OCR, 2026-10-16
+    status: downloaded
+    vendored_as: hutterite-brethren_geschicht-buch-deu_wolkan1923.txt
+  - title: 'Ausbund, das ist: Etliche schöne christliche Lieder (Lancaster, 1856 printing)'
+    author: Anabaptist (Swiss Brethren) hymnal, with Thomas von Imbroich's Confessio appended
+    translator: ''
+    year: 1856
+    world: the-anabaptist-movements
+    why: 'A cleaner scan than the vendored 1846 Lancaster printing, which is garbled OCR: 0.90 of word tokens
+      read as words against 0.53. The prison hymns the census names become quotable after checking the page
+      images. Year per the host catalogue; the title-page OCR misreads it as "1956".
+
+      '
+    url: https://archive.org/details/bub_gb_VKZXSla-jKoC
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch; host licence Creative Commons Public Domain Mark 1.0, 2026-10-16
+    status: downloaded
+    vendored_as: ausbund_etliche-schoene-christliche-lieder-deu_baer1856.txt
+  - title: Rechenschaft unsrer Religion, Lehre und Glaubens
+    author: Peter Riedemann
+    translator: ''
+    year: 1902
+    world: the-anabaptist-movements
+    why: 'The Hutterite confession of faith in the Brethren''s own 1902 American reprint; closes the Riedemann
+      lead in the brief. Garbled Fraktur OCR, vendored as second witness because no cleaner public-domain
+      scan exists and the English translations (1950, 1970) are in copyright.
+
+      '
+    url: https://archive.org/details/rechenschaftunsr00ried
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch; host statement 'The Library of Congress is unaware of any
+      copyright restrictions for this item', 2026-10-16
+    status: downloaded
+    vendored_as: riedemann_rechenschaft-deu_berne1902.txt
+  - title: Urkunden zur Geschichte des Bauernkrieges und der Wiedertäufer (Kleine Texte 50/51)
+    author: Swiss Brethren (the Schleitheim articles); peasants' war documents
+    translator: Heinrich Böhmer (editor)
+    year: 1910
+    world: the-anabaptist-movements
+    why: 'The only public-domain printing found of the full German text of the Schleitheim articles (1527),
+      which the corpus held only in English renderings of Zwingli''s Latin. Fraktur text garbled in the
+      OCR; second witness, for checking the English against the page images.
+
+      '
+    url: https://archive.org/details/urkundenzurgesch00boeh
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch of metadata and full text, title page read in the OCR, 2026-10-16
+    status: downloaded
+    vendored_as: boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt
+  - title: A Foundation and Plain Instruction of the Saving Doctrine of Our Lord Jesus Christ
+    author: Menno Simons
+    translator: I. Daniel Rupp
+    year: 1869
+    world: the-anabaptist-movements
+    why: 'An independent English translation (from the German) of Menno''s Foundation book and appended
+      treatises, Lancaster PA, J. E. Barr, 1869; clean OCR, sampled at five points. Not vendored: the Funk
+      1871 Complete Works already in the corpus sampled clean at five points, so no second witness was needed.
+      A cross-check translation if a build wants one. A Harvard copy of the 1863 Barr printing is item afoundationandp00simogoog.
+
+      '
+    url: https://archive.org/details/foundationplaini00menn
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch; host NOT_IN_COPYRIGHT, title page read in the OCR, 2026-10-16
+    status: not-yet-downloaded
+  - title: Ein Fundament und klare Anweisung von der seligmachenden Lehre unsers Herrn Jesu Christi (German,
+      from the Dutch)
+    author: Menno Simons
+    translator: anonymous German translation
+    year: 1851
+    world: the-anabaptist-movements
+    why: 'Schippach, PA: Johann M. Schünemann, 1851; the German text Rupp translated from. Not vendored:
+      not the Dutch original, and Funk 1871 is clean. Not opened beyond the catalogue record.
+
+      '
+    url: https://archive.org/details/einfundamentund00simogoog
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, metadata only; host NOT_IN_COPYRIGHT, 2026-10-16
+    status: not-yet-downloaded
+  - title: Opera omnia theologica, of Alle de godtgeleerde wercken van Menno Symons
+    author: Menno Simons
+    translator: ''
+    year: 1681
+    world: the-anabaptist-movements
+    why: 'The Dutch collected works (Amsterdam: Johannes van Veen, 1681), the original-language text behind
+      Funk''s English. Koninklijke Bibliotheek scan in the early-european-books collection; the blackletter
+      OCR is partly garbled (0.67 to 0.84 of word tokens read as words at five points). Not vendored this
+      pass: Funk 1871 is clean, and the Dutch would be a second witness for exact wording only. The 1613
+      Fundament (item ned-kbn-all-00001572-001) is the same library''s scan of the single work.
+
+      '
+    url: https://archive.org/details/ned-kbn-all-00013994-001
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch of metadata and full text, five-point sample, 2026-10-16;
+      the item carries no rights field, the work is a 1681 imprint
+    status: not-yet-downloaded
+  - title: 'Die Lieder der Wiedertäufer: ein Beitrag zur deutschen und niederländischen Literatur- und Kirchengeschichte'
+    author: Rudolf Wolkan
+    translator: ''
+    year: 1903
+    world: the-anabaptist-movements
+    why: 'Berlin: B. Behr, 1903. A scholarly study that prints many of the earliest Täufer and Dutch Anabaptist
+      hymn texts in clean Antiqua (0.77 to 0.96 of word tokens read as words at five points). Not vendored:
+      scholarship, and the clean 1856 Ausbund now carries the hymnal itself. Useful as context on authorship
+      and dating of the prison hymns.
+
+      '
+    url: https://archive.org/details/dieliederderwie00wolkgoog
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch; host NOT_IN_COPYRIGHT, 2026-10-16
+    status: not-yet-downloaded
+  - title: 'Ausbund, das ist: Etliche schöne christliche Lieder (Lancaster, 1815 printing)'
+    author: Anabaptist (Swiss Brethren) hymnal
+    translator: ''
+    year: 1815
+    world: the-anabaptist-movements
+    why: 'Lancaster: Joseph Ehrenfried, 1815. The next-cleanest Ausbund scan after the 1856 printing (0.88
+      of word tokens read as words); a fallback witness if a hymn needs checking across printings. Items
+      ausbunddasistet01unkngoog (same printing, NOT_IN_COPYRIGHT) and ausbunddasistet00imbrgoog (1834 Bär
+      printing) are also clean.
+
+      '
+    url: https://archive.org/details/bub_gb_YYkCAAAAYAAJ
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch; host licence Creative Commons Public Domain Mark 1.0, 2026-10-16
+    status: not-yet-downloaded
+  - title: Die Züricher Wiedertäufer zur Reformationszeit nach den Quellen des Staatsarchivs
+    author: Emil Egli
+    translator: ''
+    year: 1878
+    world: the-anabaptist-movements
+    why: 'Zürich: Friedrich Schulthess, 1878. Egli''s narrative of the Zurich Anabaptists from the archive
+      he then printed in the 1879 Actensammlung. Scholarship, not vendored; the documents themselves are
+      in the vendored Actensammlung.
+
+      '
+    url: https://archive.org/details/bub_gb_1j1AAAAAYAAJ_2
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, metadata only; host licence Creative Commons Public Domain Mark 1.0, 2026-10-16
+    status: not-yet-downloaded
+  - title: Berichte der Augenzeugen über das Münsterische Wiedertäuferreich
+    author: Heinrich Gresbeck and others
+    translator: Carl Adolf Cornelius (editor)
+    year: 1853
+    world: the-anabaptist-movements
+    why: 'Münster: Theissing, 1853. Eyewitness reports and acts of the Münster kingdom, 1534-35. Not vendored:
+      the world''s Step 0 excludes Münster from its mainstream scope; recorded so Doc_01 can cite a primary
+      witness for the exclusion if it wants one. Not opened beyond the catalogue record.
+
+      '
+    url: https://archive.org/details/berichtederaugen00corn
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, metadata only (contributor Princeton Theological Seminary Library; no
+      rights field; 1853 imprint), 2026-10-16
+    status: not-yet-downloaded
+  - title: Doctor Balthasar Hubmaier und die Anfänge der Wiedertaufe in Mähren
+    author: Johann Loserth
+    translator: ''
+    year: 1893
+    world: the-anabaptist-movements
+    why: 'Brünn, 1893. Loserth''s monograph on Hubmaier at Nikolsburg, quoting his writings. Scholarship,
+      Fraktur, garbled OCR (0.52 to 0.74 at five points); not vendored. No public-domain printing of Hubmaier''s
+      own German works was found on any reachable host.
+
+      '
+    url: https://archive.org/details/bub_gb_IbA_AQAAMAAJ
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, direct fetch; host licence Creative Commons Public Domain Mark 1.0, 2026-10-16
+    status: not-yet-downloaded
+  - title: Ein Apostel der Wiedertäufer (Hans Denck)
+    author: Ludwig Keller
+    translator: ''
+    year: 1882
+    world: the-anabaptist-movements
+    why: 'Leipzig: S. Hirzel, 1882. Keller''s life of Hans Denck with excerpts from Denck''s writings. Scholarship,
+      not vendored. No public-domain printing of Denck''s own works was found; the critical edition (Schriften,
+      1955-60) is in copyright.
+
+      '
+    url: https://archive.org/details/einapostelderwi00kellgoog
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent, metadata only; host NOT_IN_COPYRIGHT, 2026-10-16
+    status: not-yet-downloaded
+
+  - title: The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, 2 vols.
+    author: Giovanni Pietro Giussano
+    translator: not named on the title page (English version issued by the Oblates of St. Charles, Westminster;
+      preface by H. E. Manning)
+    year: 1884
+    world: tridentine-parish-renewal-borromean-milan (also the-tridentine-church as context)
+    why: 'The census''s named English witness. The Tridentine dossier (2026-09-15) noted it as public domain
+      on archive.org but did not vendor it; vendored this pass from the cleaner of two Google scans of the
+      same edition.
+
+      '
+    url: https://archive.org/details/TheLifeOfStCharlesBorromeoV1 and https://archive.org/details/TheLifeOfStCharlesBorromeoV2
+      (duplicate scans lifestcharlesbo00giusgoog, lifestcharlesbo01giusgoog)
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark; Harvard
+      duplicates NOT_IN_COPYRIGHT), title page read in the OCR, five-point OCR sample'
+    status: downloaded
+    vendored_as: giussano_life-of-st-charles-borromeo-v1_1884.txt; giussano_life-of-st-charles-borromeo-v2_1884.txt
+  - title: Vita di S. Carlo Borromeo (Italian original of the above)
+    author: Giovanni Pietro Giussano
+    translator: none (Italian original; 1855 Naples reprint of the 1610 text)
+    year: 1855
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'The original-language witness behind the English Life. The 1610 Rome first edition is on archive.org
+      (vitadiscarlobor00giusgoog) but its OCR is garbled; the 1855 reprint''s is legible.
+
+      '
+    url: https://archive.org/details/vitadiscarlobor01giusgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata NOT_IN_COPYRIGHT (University of California),
+      title page read, five-point OCR sample'
+    status: downloaded
+    vendored_as: giussano_vita-di-s-carlo-borromeo-ita_1855.txt
+  - title: De vita et rebus gestis Caroli S.R.E. Cardinalis, Archiepiscopi Mediolani, libri septem
+    author: Carlo Bascape (Carolus a Basilicapetri)
+    translator: none (Latin original)
+    year: 1592
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'The Latin Life by Borromeo''s secretary; no English translation exists. Vendored as a second witness
+      because every available scan (Rome, Florence, 1602 Brescia) has garbled OCR.
+
+      '
+    url: https://archive.org/details/bub_gb_RS-YD-dwzOoC (also ita-bnc-mag-00002365-001; 1602 reprint bub_gb_EPHCwnQei48C)
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, BNCR),
+      title page and dedication read, five-point OCR sample of three scans'
+    status: downloaded
+    vendored_as: bascape_de-vita-et-rebus-gestis-caroli-lat_1592.txt
+  - title: Discorsi della vita, et attioni di Carlo Borromeo
+    author: Giovanni Battista Possevino (of Mantua; not the Jesuit Antonio)
+    translator: none (Italian original)
+    year: 1591
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'Early topical Life by a member of Borromeo''s household, named in the Era VII brief. No English
+      translation exists.
+
+      '
+    url: https://archive.org/details/bub_gb_ZsccrEWFV4IC (duplicate scan bub_gb_RgCw2Hp2_V8C)
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, BNCR),
+      title page and dedication read, five-point OCR sample of both scans'
+    status: downloaded
+    vendored_as: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591.txt
+  - title: Lettere del glorioso arcivescovo di Milano S. Carlo Borromeo, per la prima volta date in luce
+    author: Carlo Borromeo
+    translator: none (Italian original; a 1762 French translation exists, archive.org 10569301bsb)
+    year: 1762
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'Borromeo''s own letters to his Roman agent Cesare Speciano, 1579-1581, from the Ambrosiana originals.
+      The Tridentine dossier (2026-09-15) closed Borromeo''s own voice as unavailable because it searched
+      only for English; under the 2026-09-25 ruling these are primary.
+
+      '
+    url: https://archive.org/details/bub_gb_KCok-f08s_AC
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, BNCF),
+      Avviso and preface read, five-point OCR sample'
+    status: downloaded
+    vendored_as: borromeo_lettere-ita_bassaglia1762.txt
+  - title: Aggiunta di una nuova raccolta di lettere di S. Carlo Borromeo
+    author: Carlo Borromeo
+    translator: none (Italian original)
+    year: 1762
+    world: tridentine-parish-renewal-borromean-milan
+    why: Supplement to the Venice Lettere, reprinting the further letters first printed at Lugano.
+    url: https://archive.org/details/bub_gb_3UNBThoVYosC
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, BNCF),
+      printer''s note read, OCR sampled'
+    status: downloaded
+    vendored_as: borromeo_aggiunta-lettere-ita_bassaglia1762.txt
+  - title: Terza raccolta di lettere inedite del glorioso S. Carlo Borromeo
+    author: Carlo Borromeo
+    translator: none (Italian original)
+    year: 1763
+    world: tridentine-parish-renewal-borromean-milan
+    why: Third collection, 1567-1584, with a chronological index of all three collections.
+    url: https://archive.org/details/bub_gb_HtDZzDNx5nIC (duplicate scan bub_gb_hW2jkztc0pgC)
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, BNCR),
+      dedication and editor''s address read, five-point OCR sample'
+    status: downloaded
+    vendored_as: borromeo_terza-raccolta-lettere-ita_agnelli1763.txt
+  - title: Ammaestramenti di San Carlo Borromeo alle persone religiose (seventeen sermons to the Angeliche),
+      2nd ed.
+    author: Carlo Borromeo
+    translator: none (Italian; editors not named)
+    year: 1902
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'Borromeo''s own preached voice in a clean modern printing; the preface admits light modernisation
+      of spelling and some phrases, so the 1720 first printing (next row) is the wording witness.
+
+      '
+    url: https://archive.org/details/ammaestramentid00borrgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata NOT_IN_COPYRIGHT (Harvard), title
+      page and preface read, five-point OCR sample'
+    status: downloaded
+    vendored_as: borromeo_ammaestramenti-alle-persone-religiose-ita_1902.txt
+  - title: Ricordi di Monsign. Illustriss. Borromeo ... per il vivere christiano ad ogni stato di persone
+    author: Carlo Borromeo
+    translator: none (Italian original)
+    year: 1580
+    world: tridentine-parish-renewal-borromean-milan
+    why: Borromeo's own lay-formation counsels, printed in his lifetime; short.
+    url: https://archive.org/details/bub_gb_6blD6BeYS-UC
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, BNCR),
+      whole short text read in the OCR'
+    status: downloaded
+    vendored_as: borromeo_ricordi-ita_1580.txt
+  - title: Sermoni familiari di S. Carlo Borromeo fatti alle monache dette Angeliche (first printing of
+      the sermons above)
+    author: Carlo Borromeo; ed. Gaetano Volpi
+    translator: none (Italian original)
+    year: 1720
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'The first printed edition of the Angeliche sermons, the wording witness behind the modernised
+      1902 text. Not vendored this pass: the OCR reads the long s as f throughout.
+
+      '
+    url: https://archive.org/details/bub_gb_At9JPge9gbkC
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, BNCF),
+      five-point OCR sample'
+    status: not-yet-downloaded
+  - title: Vita Caroli Borromei card. S. Praxedis archiepiscopi Mediolani, item opuscula duo Episcopus et
+      Cardinalis
+    author: Agostino Valier (Valerio), bishop of Verona
+    translator: none (Latin original)
+    year: 1586
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'The earliest Life, by Borromeo''s friend and fellow bishop, two years after his death, with Valier''s
+      two treatises on the bishop and the cardinal. Not vendored this pass (OCR reads the long s as f; three
+      Lives already vendored); a build thread may want it.
+
+      '
+    url: https://archive.org/details/bub_gb_RPEhTw_A6WUC (other scans bub_gb_qvD3em1DdmsC, bub_gb_DpIlKuT_KRkC,
+      bub_gb_5TK48P22VQsC)
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, University
+      of Turin), five-point OCR sample'
+    status: not-yet-downloaded
+  - title: Relatione sommaria della vita, santita, miracoli, et atti dalla canonizatione di S. Carlo Borromeo,
+      cavata fedelmente dai processi autentici
+    author: Francisco Pena
+    translator: none (Italian original)
+    year: 1610
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'The closest public-domain witness to the canonisation process the census names (1604-10): a summary
+      drawn from the authentic processes, printed at the canonisation. Not vendored this pass; OCR legible
+      with the long s read as f.
+
+      '
+    url: https://archive.org/details/bub_gb_YJpWaqE55B0C (another copy jbc.bj.uj.edu.pl.NDIGSTDR043644)
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, BNCR),
+      five-point OCR sample'
+    status: not-yet-downloaded
+  - title: Instructionum fabricae et supellectilis ecclesiasticae libri II (standalone 1577 printing)
+    author: Carlo Borromeo
+    translator: none (Latin original)
+    year: 1577
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'The fabric instructions as first printed. Not vendored: the text is already in the vendored 1599
+      Acta Ecclesiae Mediolanensis, this item is a user upload (collection milankusnjacicarchive) carrying
+      a CC BY-ND 4.0 licence claim that cannot apply to a 1577 print, and its OCR is poor.
+
+      '
+    url: https://archive.org/details/instructionum_fabricae_et_supellectilis_2_1577-caroli
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched, five-point OCR sample'
+    status: not-yet-downloaded
+  - title: Acta Ecclesiae Mediolanensis tribus partibus distincta (first edition)
+    author: Archdiocese of Milan (Carlo Borromeo)
+    translator: none (Latin original)
+    year: 1582
+    world: tridentine-parish-renewal-borromean-milan / the-tridentine-church
+    why: 'The first edition, printed in Borromeo''s lifetime. Not vendored: the 1599 second edition (borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt)
+      is already vendored and contains it with additions. Useful only if a build needs the 1582 wording.
+
+      '
+    url: https://archive.org/details/bub_gb_BD7eBc3f2ygC (other scans bub_gb___BZSHs7-gEC, bub_gb_FLBiAAAAcAAJ,
+      bub_gb_rK7n3KiZOO8C; 1603 edition bub_gb_T7IjBtdlZ0cC)
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, National
+      Library of Naples); OCR not sampled'
+    status: not-yet-downloaded
+  - title: Pastorum concionatorumque instructiones, ad concionandum, confessionisque et eucharistiae sacramenta
+      ministrandum utilissimae
+    author: Carlo Borromeo
+    translator: none (Latin original)
+    year: 1587
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'A Cologne reprint (Maternus Cholinus) of Borromeo''s instructions for pastors, preachers and confessors,
+      showing their circulation north of the Alps. Not vendored: the instructions are in the vendored 1599
+      Acta; OCR reads the long s as f.
+
+      '
+    url: https://archive.org/details/bub_gb_S-R817IVarMC
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, BNCR),
+      five-point OCR sample'
+    status: not-yet-downloaded
+  - title: Constitutiones et decreta condita in provinciali Synodo Mediolanensi septima (Federico Borromeo,
+      1609)
+    author: Archdiocese of Milan (Federico Borromeo)
+    translator: none (Latin original)
+    year: 1614
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'The seventh provincial council, inside the census window (1609) but after Carlo. Context for the
+      end of the window. Not vendored this pass; OCR not sampled.
+
+      '
+    url: https://archive.org/details/bub_gb_eptmGiJp0ssC
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Public Domain Mark, BNCR)'
+    status: not-yet-downloaded
+  - title: Devote attioni di Milano, nel tenersi il Concilio provinciale settimo, et nella traslatione di
+      sei corpi santi
+    author: Cesare Parona
+    translator: none (Italian original)
+    year: 1611
+    world: tridentine-parish-renewal-borromean-milan
+    why: An eyewitness account of Milan's public devotions at the 1609 council; end-of-window context. Not
+      vendored; OCR not sampled.
+    url: https://archive.org/details/devoteattionidim00paro
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Getty Research Institute
+      copy, no restriction flag)'
+    status: not-yet-downloaded
+  - title: 'Records of the Roman Inquisition: case of a Minorite friar, who was sentenced by S. Charles
+      Borromeo to be walled up'
+    author: ed. Richard Gibbings (hostile Protestant editor); the sentence is Borromeo's, Rome, 1564
+    translator: Gibbings (Latin and Italian with English translation)
+    year: 1853
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'A hostile outside witness carrying a genuine document in Borromeo''s name (a 1564 Inquisition
+      sentence, from his Roman years, before Milan). English translation included. Small; a build thread
+      may want it as the one hostile English witness. Not vendored this pass.
+
+      '
+    url: https://archive.org/details/cu31924029393463
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (Cornell copy, ''no known
+      copyright restrictions'' notice inside the scan), opening read'
+    status: not-yet-downloaded
+  - title: Vita di S. Carlo Borromeo (Rome, 1610 first edition)
+    author: Giovanni Pietro Giussano
+    translator: none (Italian original)
+    year: 1610
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'The first printing of Giussano''s Life. Not vendored: the OCR is garbled throughout (noise ratio
+      0.15 against 0.0025 for the 1884 English); the 1855 reprint was vendored instead. A 1615 edition (vitadiscarloborromeo00giussano)
+      was not sampled.
+
+      '
+    url: https://archive.org/details/vitadiscarlobor00giusgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata NOT_IN_COPYRIGHT (University of Lausanne),
+      five-point OCR sample'
+    status: not-yet-downloaded
+  - title: Instructions aux confesseurs de sa ville et de son diocese (French translation of Borromeo's
+      confessors' instructions)
+    author: Carlo Borromeo
+    translator: not recorded in the metadata (French)
+    year: 1702
+    world: tridentine-parish-renewal-borromean-milan
+    why: 'Shows that a French translation of the confessors'' instructions exists; no English one was found.
+      Lead only; the Latin is in the vendored Acta.
+
+      '
+    url: https://archive.org/details/instructionsauxc00char
+    rights_basis: pd-us-by-date
+    verified_by: 'Borromean Milan library agent, 2026-10-16: metadata fetched (University of Toronto Kelly
+      Library copy, no restriction flag); OCR not sampled'
+    status: not-yet-downloaded
+
+  - title: The Two Liturgies, A.D. 1549 and A.D. 1552, with other documents set forth by authority in the
+      reign of King Edward VI
+    author: Church of England
+    translator: Joseph Ketley (ed.), Parker Society
+    year: 1844
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The 1549 and 1552 Prayer Books, the Order of Communion 1548, the Primer and the Forty-two Articles
+      of 1553 in one public-domain volume; the census names the Cummings 2011 Oxford edition, which is in
+      copyright.
+
+      '
+    url: https://archive.org/details/twoliturgiesad1500churuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API read directly (NOT_IN_COPYRIGHT),
+      title page year read in the OCR (M.DCCC.XLIV)'
+    status: downloaded
+    vendored_as: church-of-england_two-liturgies-1549-1552_ketley1844.txt
+  - title: 'Liturgical Services: Liturgies and Occasional Forms of Prayer set forth in the Reign of Queen
+      Elizabeth'
+    author: Church of England
+    translator: William Keatinge Clay (ed.), Parker Society
+    year: 1847
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The 1559 Prayer Book (the Settlement book) with the 1559 Ordinal, the Latin book of 1560 and the
+      Elizabethan occasional forms of prayer 1560-1602; the modern Booty edition is in copyright.
+
+      '
+    url: https://archive.org/details/liturgicalservic00unknuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT), title page
+      year in the OCR (M.DCCC.XLVII)'
+    status: downloaded
+    vendored_as: church-of-england_liturgical-services-elizabeth-1559_clay1847.txt
+  - title: The Two Books of Homilies appointed to be read in Churches
+    author: Church of England
+    translator: John Griffiths (ed.)
+    year: 1859
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The 1547 and 1563/1571 Books of Homilies, the pulpit text of the ordinary parish, in the scholarly
+      Oxford edition with variants.
+
+      '
+    url: https://archive.org/details/twobookshomilie00grifgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT; Google Books
+      scan with its own PD notice), title page year in the OCR (M.DCCC.LIX)'
+    status: downloaded
+    vendored_as: church-of-england_two-books-of-homilies_griffiths1859.txt
+  - title: The Acts and Monuments of John Foxe, Vol. VII (Cattley/Townsend edition)
+    author: John Foxe
+    translator: Stephen Reed Cattley (ed.), George Townsend
+    year: 1837
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The Marian persecution of 1555 with the examinations of ordinary believers and the letters of
+      Bradford, Ridley, Latimer and Philpot; the census names the online TAMO variorum, which cannot be
+      vendored.
+
+      '
+    url: https://archive.org/details/actsmonumentsofj07foxe
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT); same edition
+      as the vendored Vol. III'
+    status: downloaded
+    vendored_as: foxe_acts-and-monuments-v7_cattley-townsend1837.txt
+  - title: The Acts and Monuments of John Foxe, Vol. VIII (Cattley/Townsend edition)
+    author: John Foxe
+    translator: Stephen Reed Cattley (ed.), George Townsend
+    year: 1837
+    world: the-english-reformation-and-elizabethan-settleme
+    why: '1556-1558: Cranmer''s process, the Colchester, Guernsey and Sussex martyrs, Richard Woodman''s
+      self-recorded examinations, the end of the persecution.
+
+      '
+    url: https://archive.org/details/actsmonumentsofj08foxe
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT)'
+    status: downloaded
+    vendored_as: foxe_acts-and-monuments-v8_cattley-townsend1837.txt
+  - title: The Acts and Monuments of John Foxe, Vol. VI (Cattley/Townsend edition)
+    author: John Foxe
+    translator: Stephen Reed Cattley (ed.), George Townsend
+    year: 1837
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The reign of Edward VI (altars taken down, Gardiner''s process, the 1554 Oxford disputation of
+      Cranmer, Ridley and Latimer) and the first Marian martyrs (Rogers, Hooper, Taylor); not vendored this
+      pass because Vols. VII and VIII carry the ordinary believers'' examinations the brief asked for. Contents
+      read directly in the OCR this pass.
+
+      '
+    url: https://archive.org/details/actsmonumentsofj06foxe
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT), full OCR
+      downloaded and contents read'
+    status: not-yet-downloaded
+  - title: Visitation Articles and Injunctions of the Period of the Reformation, Vol. II, 1536-1558
+    author: Church of England (royal and episcopal authorities)
+    translator: W. H. Frere and W. P. M. Kennedy (eds.)
+    year: 1910
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The Henrician, Edwardian and Marian royal and episcopal injunctions, the orders that reached every
+      parish; named in the census.
+
+      '
+    url: https://archive.org/details/visitationarticl02unknuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT), title page
+      year in the OCR (1910)'
+    status: downloaded
+    vendored_as: church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt
+  - title: Visitation Articles and Injunctions of the Period of the Reformation, Vol. III, 1559-1575
+    author: Church of England (royal and episcopal authorities)
+    translator: W. H. Frere and W. P. M. Kennedy (eds.)
+    year: 1910
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The 1559 Royal Injunctions, the Interpretations of the Bishops, Parker''s Advertisements of 1566
+      and the Elizabethan episcopal articles to 1575.
+
+      '
+    url: https://archive.org/details/visitationarticl03churuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT), title page
+      year in the OCR (1910)'
+    status: downloaded
+    vendored_as: church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910.txt
+  - title: Visitation Articles and Injunctions of the Period of the Reformation, Vol. I (historical introduction
+      and index)
+    author: W. H. Frere
+    translator: ''
+    year: 1910
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The editors'' introduction to Vols. II and III; scholarship, not a primary source, so not vendored.
+      Recorded so no one re-checks it.
+
+      '
+    url: https://archive.org/details/visitationarticl01churuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT)'
+    status: not-yet-downloaded
+  - title: The Accounts of the Wardens of the Parish of Morebath, Devon, 1520-1573
+    author: Parish of Morebath (Christopher Trychay, vicar)
+    translator: J. Erskine Binney (transcriber); F. W. Weaver (index)
+    year: 1904
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The one parish record the census names, across the whole Reformation; the only public-domain edition
+      (Duffy''s is in copyright). OCR of the early-modern orthography is a second witness only.
+
+      '
+    url: https://archive.org/details/accountswardens00weavgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT; Google Books
+      scan), title page year in the OCR (1904)'
+    status: downloaded
+    vendored_as: morebath-parish_churchwardens-accounts-1520-1573_binney1904.txt
+  - title: The Apology of the Church of England (Lady Anne Bacon's translation, 1564)
+    author: John Jewel
+    translator: Lady Anne Bacon; Henry Morley (ed.)
+    year: 1888
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The Elizabethan church''s official apology in the English chained in parish churches; clean Gutenberg
+      transcription of the 1888 Cassell edition.
+
+      '
+    url: https://www.gutenberg.org/ebooks/17678
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: Gutenberg catalogue page read directly ("Public
+      domain in the USA."), edition year 1888 in the file'
+    status: downloaded
+    vendored_as: jewel_apology-of-the-church-of-england_bacon-morley1888.txt
+  - title: The Works of Richard Hooker, Vol. I (Walton's Life; Of the Laws of Ecclesiastical Polity, Preface
+      and Books I-V), Keble's text
+    author: Richard Hooker
+    translator: John Keble (ed., 1836 text, notes omitted in this printing)
+    year: 1850
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'Books I-V complete in one clean volume; named in the census.
+
+      '
+    url: https://archive.org/details/worksofthatlearn01hookuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT), title page
+      year in the OCR (MDCCCL; the item is catalogued 1865-75)'
+    status: downloaded
+    vendored_as: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850.txt
+  - title: The Works of Richard Hooker, Vol. II (Book V with Keble's notes), 7th edition revised by Church
+      and Paget
+    author: Richard Hooker
+    translator: John Keble (ed.); R. W. Church and F. Paget (rev.)
+    year: 1888
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'Keble''s annotated Book V; not vendored because the 1850 Vol. I already carries Book V complete.
+      Downloaded and sampled this pass: clean body, Greek notes garbled.
+
+      '
+    url: https://archive.org/details/worksofthatlearn02hookuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT), title page
+      in the OCR (M DCCC LXXXVIII)'
+    status: not-yet-downloaded
+  - title: Sermons by Hugh Latimer, sometime Bishop of Worcester, Martyr, 1555
+    author: Hugh Latimer
+    translator: George Elwes Corrie (ed.), Parker Society
+    year: 1844
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The Plough sermon, the court sermons before Edward VI and the Lincolnshire sermons: the Reformation''s
+      plainest preaching voice.
+
+      '
+    url: https://archive.org/details/sermonsss00latiuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT), title page
+      year in the OCR (M.DCCC.XLIV)'
+    status: downloaded
+    vendored_as: latimer_sermons_corrie1844.txt
+  - title: Miscellaneous Writings and Letters of Thomas Cranmer (Works, Vol. II)
+    author: Thomas Cranmer
+    translator: John Edmund Cox (ed.), Parker Society
+    year: 1846
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'Cranmer''s prose outside the liturgy and his letters, including the Answer to the Devonshire rebels
+      of 1549 and the prison letters.
+
+      '
+    url: https://archive.org/details/theworksofthomas02cramuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT), title page
+      year in the OCR (M.DCCC.XLVI; the item is catalogued 1844)'
+    status: downloaded
+    vendored_as: cranmer_miscellaneous-writings-and-letters_cox1846.txt
+  - title: The Summe and Substance of the Conference at Hampton Court, January 1604 (1804 reprint)
+    author: William Barlow, Dean of Chester
+    translator: ''
+    year: 1804
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The only contemporary account of the Hampton Court Conference; short. The OCR renders long-s as
+      f, so second witness for exact wording.
+
+      '
+    url: https://archive.org/details/summesubstanceof00barl
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (Library of Congress: "unaware
+      of any copyright restrictions"; publisher catalogued as Clerkenwell, Bye and Law, 1804)'
+    status: downloaded
+    vendored_as: barlow-william_summe-and-substance-hampton-court-conference_1804.txt
+  - title: Doctrinal Treatises and Introductions to different portions of the Holy Scriptures (A Pathway
+      into the Holy Scripture; The Parable of the Wicked Mammon; The Obedience of a Christian Man; prefaces
+      to the New Testament and Pentateuch)
+    author: William Tyndale
+    translator: Henry Walter (ed.), Parker Society
+    year: 1848
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'Tyndale''s own treatises, 1525-1536, the early evangelical voice before the window proper; downloaded
+      and sampled this pass (clean), not vendored so the lead can decide whether Tyndale belongs here or
+      in a pass of his own.
+
+      '
+    url: https://archive.org/details/doctrinaltreatis00tynduoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT), title page
+      year in the OCR (M.DCCC.XLVIII)'
+    status: not-yet-downloaded
+  - title: The Prayer-Book of Queen Elizabeth, 1559, to which are appended some occasional forms of prayer
+      issued in her reign (original spelling)
+    author: Church of England
+    translator: (Ancient and Modern Library of Theological Literature)
+    year: 1890
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The 1559 book in its original spelling, printed from the British Museum copies; a second witness
+      to Clay''s modernised text if exact 1559 spelling is ever needed. Downloaded and sampled this pass;
+      not vendored.
+
+      '
+    url: https://archive.org/details/prayerbookofquee00churuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: metadata API (NOT_IN_COPYRIGHT), publisher
+      Griffith Farran, London, catalogued 1890'
+    status: not-yet-downloaded
+  - title: The Works of Nicholas Ridley, sometime Lord Bishop of London, Martyr, 1555
+    author: Nicholas Ridley
+    translator: Henry Christmas (ed.), Parker Society
+    year: 1841
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'Ridley''s own treatises and prison letters and conferences, beyond what Foxe prints. Search result
+      only; the item''s metadata page was not opened this pass.
+
+      '
+    url: https://archive.org/details/ridleysworks00ridluoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: advancedsearch result carrying possible-copyright-status
+      NOT_IN_COPYRIGHT and date 1841; metadata and OCR not yet read'
+    status: not-yet-downloaded
+  - title: The Writings of John Bradford, Vols. I and II
+    author: John Bradford
+    translator: Aubrey Townsend (ed.), Parker Society
+    year: 1848
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'Bradford''s sermons, meditations, examinations and prison letters, the most interior of the Marian
+      martyrs'' voices; also serves Puritanism as an antecedent devotional voice. Search result only, not
+      opened.
+
+      '
+    url: https://archive.org/details/writingsofjohnbr01braduoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: advancedsearch result (NOT_IN_COPYRIGHT, 1848;
+      Vol. II is writingsofjohnbr02braduoft); metadata and OCR not yet read'
+    status: not-yet-downloaded
+  - title: The Zurich Letters, comprising the correspondence of several English bishops and others with
+      some of the Helvetian reformers (first and second series)
+    author: Jewel, Parkhurst, Grindal, Sandys, Cox, Horne and others
+    translator: Hastings Robinson (ed. and tr.), Parker Society
+    year: 1842
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The Elizabethan bishops writing privately to Bullinger and Gualter about the Settlement as it
+      was made, the vestments, the queen; also serves Puritanism and the Reformed cities. Search result
+      only, not opened.
+
+      '
+    url: https://archive.org/details/thezurichletters43unknuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: advancedsearch result (NOT_IN_COPYRIGHT, 1842;
+      second series zurichletterssec00pearrich, 1845); metadata and OCR not yet read'
+    status: not-yet-downloaded
+  - title: Original Letters relative to the English Reformation, written during the reigns of Henry VIII,
+      Edward VI and Queen Mary, Vols. I and II
+    author: Hooper, Bradford, Cranmer, Bucer, Martyr, Bullinger and others
+    translator: Hastings Robinson (ed. and tr.), Parker Society
+    year: 1846
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The Henrician, Edwardian and Marian correspondence with Zurich, including Hooper''s and the Marian
+      exiles'' letters. Search result only, not opened.
+
+      '
+    url: https://archive.org/details/originallettersrefor01robi
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: advancedsearch result (NOT_IN_COPYRIGHT, 1846;
+      Vol. II originalletterr02robi); metadata and OCR not yet read'
+    status: not-yet-downloaded
+  - title: The Remains of Edmund Grindal
+    author: Edmund Grindal
+    translator: William Nicholson (ed.), Parker Society
+    year: 1843
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'Grindal''s letters, including his 1576 letter to the queen refusing to suppress the prophesyings;
+      serves Puritanism too. Search result only, not opened.
+
+      '
+    url: https://archive.org/details/theremainsofedmu00grinuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: advancedsearch result (NOT_IN_COPYRIGHT, 1843);
+      metadata and OCR not yet read'
+    status: not-yet-downloaded
+  - title: The Catechism of Thomas Becon, with other pieces written by him in the reign of King Edward the
+      Sixth
+    author: Thomas Becon
+    translator: John Ayre (ed.), Parker Society
+    year: 1844
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'Household catechesis in the Edwardian church by Cranmer''s chaplain; a lay-formation voice. Search
+      result only, not opened.
+
+      '
+    url: https://archive.org/details/catechismthomas00becogoog
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: advancedsearch result (NOT_IN_COPYRIGHT, 1844;
+      Google scan); metadata and OCR not yet read'
+    status: not-yet-downloaded
+  - title: A History of the Articles of Religion, with a series of documents from A.D. 1536 to A.D. 1615
+      (prints the Forty-two Articles of 1553 and the Thirty-nine of 1571 in Latin and English)
+    author: Charles Hardwick
+    translator: ''
+    year: 1859
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The one public-domain place found that prints the 1571 Thirty-nine Articles in parallel with 1553
+      and the Latin; the Articles are otherwise embedded in Prayer Book printings. Scholarship with primary
+      documents appended. Search result only, not opened.
+
+      '
+    url: https://archive.org/details/ahistoryarticle00hardgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: advancedsearch result (NOT_IN_COPYRIGHT, 1859;
+      the 1852 first edition is ahistoryarticle00procgoog); metadata and OCR not yet read'
+    status: not-yet-downloaded
+  - title: Church-wardens' accounts of Croscombe, Pilton, Patton, Tintinhull, Morebath and St Michael's,
+      Bath, 1349-1560
+    author: Somerset and Devon parishes
+    translator: Edmund Hobhouse (ed.), Somerset Record Society
+    year: 1890
+    world: late-medieval-lay-parish-piety
+    why: 'Five more parish account series across the Reformation (and Morebath''s earlier years), serving
+      both the late-medieval parish-piety world and this one. Search result only, not opened.
+
+      '
+    url: https://archive.org/details/churchwardensacc00hobhrich
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: advancedsearch result (NOT_IN_COPYRIGHT, 1890);
+      metadata and OCR not yet read'
+    status: not-yet-downloaded
+
+  - title: 'Synodicon in Gallia Reformata: the Acts, Decisions, Decrees and Canons of the National Councils
+      of the Reformed Churches in France (2 vols in one scan)'
+    author: John Quick (compiler and translator); the national synods of the Reformed Churches of France
+    translator: John Quick
+    year: 1692
+    world: the-huguenots
+    why: 'The census''s own first-named primary work: the Gallican Confession, the Discipline and the national
+      synod acts 1559-1659 in English. Found by archive.org advancedsearch on title; the only scan on a
+      reachable host is a microfilm digitisation with letter-noisy OCR.
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1641-1700_synodicon-in-gallia-refo_quick-john_1692
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched, OCR sampled at
+      five points, 1692 imprint read in the OCR'
+    status: downloaded
+    vendored_as: quick_synodicon-in-gallia-reformata_1692.txt
+  - title: Confessio Fidei Gallicana. The French Confession of Faith, A.D. 1559 (French and English), in
+      The Creeds of Christendom, Vol. III
+    author: Reformed Churches of France, Synod of Paris 1559; Philip Schaff (ed.)
+    translator: Emily O. Butler
+    year: 1877
+    world: the-huguenots
+    why: 'The already-vendored Schaff extract (schaff_second-helvetic-confession- heidelberg-catechism_1919.txt)
+      does not contain the Gallican Confession; this 1877 printing gives French and English in parallel
+      in clean OCR. Bounded extract of one section.
+
+      '
+    url: https://archive.org/details/creedsofchriste03scha
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: NOT_IN_COPYRIGHT in metadata, 1877
+      copyright notice read in the OCR'
+    status: downloaded
+    vendored_as: schaff_gallican-confession-fra-eng_1877.txt
+  - title: Histoire des martyrs persecutez et mis a mort pour la verite de l'Evangile (1619), Tome troisieme
+      (Livres VIII-XII)
+    author: Jean Crespin; Simon Goulart; ed. Daniel Benoit, notes Matthieu Lelievre
+    translator: ''
+    year: 1889
+    world: the-huguenots
+    why: 'The census''s second-named primary work, French only. Three volumes exist on archive.org in two
+      scans each; tome 3 is the one whose content falls in the 1559-1685 window, so only it is vendored.
+      OCR reads f for the old long s: second witness.
+
+      '
+    url: https://archive.org/details/histoiredesmarty03cres
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched (no copyright-status
+      field, no restriction), 1889 title page read in the OCR, sampled at five points'
+    status: downloaded
+    vendored_as: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt
+  - title: Histoire ecclesiastique des eglises reformees au royaume de France, Tome premier (Livres I-IV,
+      1521-1561), reprint of Antwerp 1580
+    author: attributed to Theodore de Beze; ed. G. Baum and Ed. Cunitz
+    translator: ''
+    year: 1883
+    world: the-huguenots
+    why: 'The founding narrative of the French Reformed churches, named in the lead''s brief. Tome 1 carries
+      the 1559 synod; tomes 2-3 left as leads. OCR reads f for long s in the reprinted 1580 text: second
+      witness.
+
+      '
+    url: https://archive.org/details/histoireecclsi01bz
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched (1883, Fischbacher;
+      no copyright-status field), 1882 dedication read in the OCR'
+    status: downloaded
+    vendored_as: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt
+  - title: Memoires de Madame de Mornay, Tome premier
+    author: Charlotte Arbaleste de Mornay; ed. Madame de Witt nee Guizot
+    translator: ''
+    year: 1868
+    world: the-huguenots
+    why: 'The French original of the memoirs the census names in Crump''s English. Toronto scan chosen over
+      two Google scans of the same edition after sampling.
+
+      '
+    url: https://archive.org/details/mmoiresdemadam01mornuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: NOT_IN_COPYRIGHT in metadata, 1868
+      title page read in the OCR'
+    status: downloaded
+    vendored_as: mornay-charlotte_memoires-de-madame-de-mornay-t1-fra_de-witt1868.txt
+  - title: 'A Huguenot Family in the XVI Century: the Memoirs of Philippe de Mornay, Sieur du Plessis Marly,
+      written by his wife'
+    author: Charlotte Arbaleste de Mornay
+    translator: Lucy Crump
+    year: 1926
+    world: the-huguenots
+    why: 'The census named this edition. 1926 is inside the rolling 95-year rule as of 2026 (term ended
+      2021); the British imprint does not change the pre-1931 rule this registry applies.
+
+      '
+    url: https://archive.org/details/huguenotfamilyin00mornuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: NOT_IN_COPYRIGHT in metadata, 1926
+      read on the series leaf in the OCR'
+    status: downloaded
+    vendored_as: mornay-charlotte_huguenot-family-in-the-xvi-century_crump1926.txt
+  - title: 'Journal de Jean Migault, maitre d''ecole (1681-1688): les dragonnades en Poitou'
+    author: Jean Migault; ed. N. Weiss and H. Clouzot
+    translator: ''
+    year: 1910
+    world: the-huguenots
+    why: 'The census''s named refugee narrative, first edition from the original manuscript. Clean OCR.
+
+      '
+    url: https://archive.org/details/journalpublipo00migauoft
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: NOT_IN_COPYRIGHT in metadata, 1910
+      title page read in the OCR'
+    status: downloaded
+    vendored_as: migault_journal-fra_weiss-clouzot1910.txt
+  - title: Jean Migault; or, The Trials of a French Protestant Family, during the Period of the Revocation
+      of the Edict of Nantes
+    author: Jean Migault
+    translator: William Anderson
+    year: 1852
+    world: the-huguenots
+    why: 'Public-domain English of Migault, vendored beside the French per the rule for non-English originals.
+      Made from an older printed French text, not the 1910 manuscript edition.
+
+      '
+    url: https://archive.org/details/jeanmigaultortr00migagoog
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: NOT_IN_COPYRIGHT in metadata, M.DCCC.LII
+      title page read in the OCR'
+    status: downloaded
+    vendored_as: migault_trials-of-a-french-protestant-family_anderson1852.txt
+  - title: Les Tragiques, nouvelle edition revue et annotee par Ludovic Lalanne
+    author: Theodore Agrippa d'Aubigne; ed. Ludovic Lalanne
+    translator: ''
+    year: 1857
+    world: the-huguenots
+    why: 'The Huguenot epic of the wars of religion, named in the lead''s brief; the movement''s own voice
+      in verse. No public-domain English exists.
+
+      '
+    url: https://archive.org/details/lestragiques00aubiuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: NOT_IN_COPYRIGHT in metadata, MDCCCLVII
+      title page read in the OCR'
+    status: downloaded
+    vendored_as: aubigne_les-tragiques-fra_lalanne1857.txt
+  - title: Memoirs of a Huguenot Family (James Fontaine's autobiography and family papers), with the Edict
+      of Nantes and the Edict of Revocation in English
+    author: James Fontaine and others; Ann Maury (translator and compiler)
+    translator: Ann Maury
+    year: 1853
+    world: the-huguenots
+    why: 'A clean refugee narrative in English (Saintonge to 1685, then the refuge) and the only reachable
+      clean English text of the Edict of Nantes and the Revocation, found by archive.org search on "Edict
+      of Nantes".
+
+      '
+    url: https://archive.org/details/memoirsofhuguenot00font
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: NOT_IN_COPYRIGHT in metadata, 1853
+      title page and 1852 copyright notice read in the OCR'
+    status: downloaded
+    vendored_as: fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt
+  - title: Histoire ecclesiastique des eglises reformees au royaume de France, Tomes 2 and 3 (Livres V onward,
+      1561-1563; Reuss's preface, introduction and index)
+    author: attributed to Theodore de Beze; ed. G. Baum and Ed. Cunitz; R. Reuss
+    translator: ''
+    year: 1883
+    world: the-huguenots
+    why: 'Same edition and scan family as tome 1 (vendored); not vendored this pass to hold the file count,
+      since tome 1 carries the founding synod. Tome 2 covers the colloquy of Poissy and the first war by
+      province; tome 3 the Reuss apparatus. Fetched and sampled: same f-for-long-s OCR.
+
+      '
+    url: https://archive.org/details/histoireecclsi02bz and https://archive.org/details/histoireecclsi03bz
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched for both, djvu.txt
+      downloaded and sampled'
+    status: not-yet-downloaded
+  - title: Histoire des martyrs, Tomes 1 and 2 (to 1559)
+    author: Jean Crespin; ed. Daniel Benoit and Matthieu Lelievre
+    translator: ''
+    year: 1885
+    world: the-huguenots
+    why: 'Pre-window volumes of the vendored edition (tome 1 carries the Merindol and Cabrieres material
+      of 1545, 191 Waldensian hits); of use to the Waldensian union (VI.10) and to any pre-1559 French world
+      more than to this one. Fetched and sampled; same OCR character as tome 3.
+
+      '
+    url: https://archive.org/details/histoiredesmarty01cres and https://archive.org/details/histoiredesmarty02cres
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched, djvu.txt downloaded
+      and year-counted'
+    status: not-yet-downloaded
+  - title: Memoires de Madame de Mornay, Tome second (the letters of M. and Mme du Plessis Mornay and their
+      children; de Witt's Notice)
+    author: Charlotte Arbaleste de Mornay; Philippe de Mornay; ed. Madame de Witt
+    translator: ''
+    year: 1869
+    world: the-huguenots
+    why: 'Companion volume to the vendored tome 1; family correspondence rather than the memoir, so left
+      for a build thread to call for. Clean Toronto scan sampled.
+
+      '
+    url: https://archive.org/details/mmoiresdemadam02mornuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: NOT_IN_COPYRIGHT in metadata, 1869
+      title page read in the OCR'
+    status: not-yet-downloaded
+  - title: 'Tous les synodes nationaux des Eglises reformees de France (2 vols.): the French acts of the
+      national synods, with the Discipline'
+    author: Eglises reformees de France, Synode national; Jean Aymon (ed.)
+    translator: ''
+    year: 1710
+    world: the-huguenots
+    why: 'The French original behind Quick''s English Synodicon. Not vendored because Quick already carries
+      the acts in English and the file budget was spent on the movement''s own narratives; a build thread
+      wanting the French wording of a canon should take this. OCR sampled at the head and three points:
+      readable, with the long s read as f.
+
+      '
+    url: https://archive.org/details/touslessynodesna01gl and https://archive.org/details/touslessynodesna02gl
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched (La Haye: Charles
+      Delo, 1710; Princeton copy), vol. 1 djvu.txt downloaded and sampled'
+    status: not-yet-downloaded
+  - title: An edict of the French king, prohibiting all publick exercise of the pretended Reformed Religion
+      in his kingdom (the Revocation, 1685, in English), with the French king's letter to the Elector of
+      Brandenburg and a brief account of the persecution
+    author: Louis XIV (the edict); anonymous translator
+    translator: ''
+    year: 1686
+    world: the-huguenots
+    why: 'A contemporary English printing of the Revocation. Not vendored: the OCR reads f for long s throughout
+      and Maury''s clean 1853 rendering of the same edict is in the vendored Fontaine file. Of more use
+      to the Church of the Desert (church-of-the-desert-huguenots, 1685-1787).
+
+      '
+    url: https://archive.org/details/edictoffrenchkin00unknuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: NOT_IN_COPYRIGHT in metadata, djvu.txt
+      downloaded and sampled'
+    status: not-yet-downloaded
+  - title: 'The history of the famous Edict of Nantes: containing an account of all the persecutions that
+      have been in France from its first publication to this present time (2 vols.)'
+    author: Elie Benoist
+    translator: anonymous (English edition)
+    year: 1694
+    world: the-huguenots
+    why: 'The Huguenot exile''s own history of the Edict and the persecutions, in a contemporary English
+      edition. Not vendored this pass: a narrative history rather than the movement''s own confession, acts
+      or memoirs; OCR not sampled. The French original (Delft 1693-95) was not searched.
+
+      '
+    url: https://archive.org/details/historyoffamouse01beno and https://archive.org/details/historyoffamouse02beno
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched for both volumes
+      (London: John Dutton, 1694; Princeton copies; no copyright-status field)'
+    status: not-yet-downloaded
+  - title: Cruel persecutions of the Protestants in the kingdom of France (an early English translation
+      of Jean Claude's account, reprinted)
+    author: Jean Claude (1619-1687); Narcisse Cyr (editor of the reprint)
+    translator: anonymous (seventeenth-century English, per the Epistle Dedicatory in the OCR)
+    year: 1893
+    world: the-huguenots
+    why: 'Claude''s account of the dragonnades, written in exile in 1686, in English. Not vendored: the
+      1893 reprint was sampled but not read far enough to confirm which English edition it reprints; the
+      text is a Protestant pastor''s polemical account of 1685-86, which the vendored Migault and Fontaine
+      narratives already cover from below.
+
+      '
+    url: https://archive.org/details/cruelpersecution00clau
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched (Boston 1893;
+      Library of Congress copy, ''unaware of any copyright restrictions''), djvu.txt downloaded and sampled'
+    status: not-yet-downloaded
+  - title: The memoirs of a Protestant, condemned to the galleys of France for his religion
+    author: Jean Marteilhe (1684-1777)
+    translator: Oliver Goldsmith (1758), 1895 reprint
+    year: 1895
+    world: church-of-the-desert-huguenots
+    why: 'A galley-slave memoir of 1700-1713, outside the Huguenots window but squarely inside the Church
+      of the Desert''s; recorded here so that world''s own pass starts with it.
+
+      '
+    url: https://archive.org/details/memoirsaprotest01martgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched (London: Dent,
+      1895; NOT_IN_COPYRIGHT); OCR not sampled'
+    status: not-yet-downloaded
+  - title: A compendious history of the Reformation in France and of the Reformed churches in that kingdom
+      (vols. 1-6)
+    author: Etienne Abel Laval
+    translator: ''
+    year: 1737
+    world: the-huguenots
+    why: 'An English narrative drawn from Beze''s Histoire ecclesiastique and later sources, by a Huguenot
+      refugee minister in London; the nearest thing to Beze in English, but not a translation. Context only;
+      OCR not sampled.
+
+      '
+    url: https://archive.org/details/compendioushisto01lava
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched (London: H. Woodfall
+      for the author, 1737; Princeton copy; no copyright-status field)'
+    status: not-yet-downloaded
+  - title: Histoire universelle (vols. 1-10, Societe de l'histoire de France edition)
+    author: Agrippa d'Aubigne; ed. Alphonse de Ruble (vols. 1-9), Pierre de Vaissiere (index), Jean Plattard
+    translator: ''
+    year: 1886
+    world: the-huguenots
+    why: 'd''Aubigne''s prose history of the wars; ten volumes, too large for this pass and overlapping
+      Beze and Crespin. The host description notes a 1925 Plattard volume in the set, so later volumes must
+      be date-checked one by one before any is vendored.
+
+      '
+    url: https://archive.org/details/histoireunivers01aubi
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched for vol. 1 (Paris:
+      Renouard, 1886; University of Ottawa; no copyright-status field)'
+    status: not-yet-downloaded
+  - title: 'Memoires et correspondance de Duplessis-Mornay (12 vols.: t. 1 Vie de Mornay, t. 2-12 political
+      writings and letters 1571-1614)'
+    author: Philippe de Mornay, seigneur du Plessis-Marly; Charlotte Arbaleste de Mornay
+    translator: ''
+    year: 1824
+    world: the-huguenots
+    why: 'Du Plessis-Mornay''s own writings and letters in French; the lead''s brief named him. Twelve volumes,
+      so a build thread should name the volume it needs. Not vendored this pass.
+
+      '
+    url: https://archive.org/details/mmoiresetcorresp01morn
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched for t. 1 (Paris:
+      Treuttel et Wurtz, 1824; University of Ottawa; no copyright-status field)'
+    status: not-yet-downloaded
+  - title: A treatise of the Church (Du Plessis-Mornay in Elizabethan English), and other early English
+      printings of his works
+    author: Philippe de Mornay
+    translator: sixteenth- and seventeenth-century English translators (not read)
+    year: 1579
+    world: the-huguenots
+    why: 'Mornay''s theology in English exists only in EEBO microfilm scans (archive.org bim_ items: A treatise
+      of the Church 1579 and 1581; A worke concerning the trewnesse of Christian religion 1597; A discourse
+      of life and death 1608; The mysterie of iniquitie 1612). Not vendored: OCR of these microfilm items
+      is unsampled and the Quick scan from the same series was letter-noisy; a build thread wanting Mornay''s
+      own theological voice should sample them first.
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1475-1640_a-treatise-of-the-church_mornay-philippe-de_1579
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched for the 1579 item
+      (early-english-books microfilm collection; no copyright-status field); OCR not sampled'
+    status: not-yet-downloaded
+  - title: The ecclesiasticall discipline of the Reformed churches in France (English, 1662)
+    author: Reformed Churches of France
+    translator: anonymous
+    year: 1662
+    world: the-huguenots
+    why: 'An English printing of the Discipline thirty years before Quick''s. Not vendored: Quick carries
+      the Discipline with the synods'' observations; this microfilm item''s OCR was not sampled.
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1641-1700_the-ecclesiasticall-disc_1662
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: metadata fetched (early-english-books
+      microfilm collection; no copyright-status field); OCR not sampled'
+    status: not-yet-downloaded
+  - title: Les Tragiques, publiee d'apres le manuscrit conserve parmi les papiers de l'auteur
+    author: Agrippa d'Aubigne; ed. Charles Read
+    translator: ''
+    year: 1872
+    world: the-huguenots
+    why: 'A second French witness to Les Tragiques, from the author''s manuscript. Fetched and sampled (clean
+      verse; the head of the scan is a garbled endpaper); the Lalanne 1857 edition was vendored instead
+      because its head is clean and its Notice dates the poem''s composition.
+
+      '
+    url: https://archive.org/details/lestragiquespubl00aubiuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'Era VII library session (Huguenots agent), 2026-10-16: NOT_IN_COPYRIGHT in metadata, djvu.txt
+      downloaded and sampled'
+    status: not-yet-downloaded
+
+  - title: The Resting-Place of the Minde
+    author: Willem Teellinck
+    translator: not named on the title page
+    year: 1622
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The census names Teellinck (Path of True Godliness, 2003, in copyright). This is a contemporary
+      English translation printed in London in his lifetime, found by an archive.org creator search on the
+      early-English-books microfilm collection.
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1475-1640_the-resting-place-of-the_teelinck-willem_1622
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, direct fetch of metadata and djvu text, title page read, 2026-10-16
+    status: downloaded
+    vendored_as: teellinck_resting-place-of-the-minde_1622.txt
+  - title: Pauls Complaint against his Naturall Corruption (two sermons on Romans 7:24)
+    author: Willem Teellinck
+    translator: not named on the title page
+    year: 1621
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'Second contemporary English Teellinck tract from the same search; his preached voice. The year
+      is the host catalogue''s; the OCR imprint line carries no legible year.
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1475-1640_pauls-complaint-against-_teelinck-willem_1621
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, direct fetch, 2026-10-16
+    status: downloaded
+    vendored_as: teellinck_pauls-complaint-against-his-naturall-corruption_1621.txt
+  - title: Of the Markes of the Children of God, and of their Comforts in Afflictions
+    author: Jean Taffin
+    translator: Anne Prowse
+    year: 1599
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'Named in the agent task (Taffin, 1590 English). The 1599 printing of Prowse''s translation; a
+      1609 printing also exists (bim_early-english-books-1475-1640_of-that-markes-of-the-ch_taffin-j_1609).
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1475-1640_of-the-markes-of-the-chi_taffin-jean_1599
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, direct fetch, title page read (Prowse, Kingston for Man, 1599), 2026-10-16
+    status: downloaded
+    vendored_as: taffin_markes-of-the-children-of-god_prowse1599.txt
+  - title: The Learned Maid; or, Whether a Maid may be a Scholar?
+    author: Anna Maria van Schurman
+    translator: not named on the title page
+    year: 1659
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The public-domain English of the Dissertatio the census cites in Irwin''s 1998 translation (in
+      copyright). Public Domain Review upload from a Folger copy, CC0 marked.
+
+      '
+    url: https://archive.org/details/the-learned-maid
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, direct fetch, title page read (Redmayne, 1659), licence URL on the item,
+      2026-10-16
+    status: downloaded
+    vendored_as: schurman_learned-maid_1659.txt
+  - title: Opuscula Hebraea, Graeca, Latina, Gallica, Prosaica et Metrica
+    author: Anna Maria van Schurman
+    translator: none (Latin original; ed. Friedrich Spanheim)
+    year: 1648
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The Latin original of the Dissertatio and her letters, beside the 1659 English. Google scan, OCR
+      poor: vendored as a second witness.
+
+      '
+    url: https://archive.org/details/nobilissvirgini00bevegoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, metadata NOT_IN_COPYRIGHT, title page read (Elzevier, 1648), 2026-10-16
+    status: downloaded
+    vendored_as: schurman_opuscula-lat_spanheim1648.txt
+  - title: Voetius' Catechisatie over den Heidelbergschen Catechismus (Poudroyen 1662), 2 vols.
+    author: Gisbertus Voetius
+    translator: none (Dutch original; ed. Abraham Kuyper)
+    year: 1891
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The census names Voetius''s practical works. His catechism lessons are the one Voetius text in
+      public domain on a reachable host; Kuyper''s 1891 reissue in two volumes (Princeton scans; the Google
+      scan voetiuscatechis00kuypgoog holds vol. 1 only).
+
+      '
+    url: https://archive.org/details/voetiuscatechisa01voet and https://archive.org/details/voetiuscatechisa02voet
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, direct fetch of both volumes, title page read (Huge, 1891), 2026-10-16
+    status: downloaded
+    vendored_as: voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt and voetius_catechisatie-heidelbergschen-catechismus-v2-nld_kuyper1891.txt
+  - title: De Bijenkorf der H. Roomsche Kerke, met inleiding en varianten
+    author: Philips van Marnix van Sint-Aldegonde
+    translator: none (Dutch original; 1858 edition)
+    year: 1858
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'Named in the agent task. Clean Dutch text of the 1569 satire; vendored in place of the garbled
+      English microfilm (next rows).
+
+      '
+    url: https://archive.org/details/debijenkorfderh01aldegoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, metadata NOT_IN_COPYRIGHT, title page read (Van Meenen, 1858), 2026-10-16
+    status: downloaded
+    vendored_as: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858.txt
+  - title: Kerkeraads-protocollen der Hollandsche Gemeente te Londen, 1569-1571
+    author: Dutch Reformed church at Austin Friars, London (consistory)
+    translator: none (Dutch original; ed. A. Kuyper)
+    year: 1870
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The census names the Austin Friars stranger-church records. Found by an archive.org title search
+      on "kerkeraad"; the Marnix-Vereeniging''s first volume.
+
+      '
+    url: https://archive.org/details/kerkeraadsprotoc00lond
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, metadata NOT_IN_COPYRIGHT, title page read (Kemink, 1870), 2026-10-16
+    status: downloaded
+    vendored_as: austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870.txt
+  - title: Acta van de Nederlandsche Synoden der zestiende eeuw
+    author: Dutch Reformed synods 1568-1586
+    translator: none (Dutch and Latin; ed. F. L. Rutgers)
+    year: 1889
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The synods of the exile and the first national church (Wezel, Emden, Dordrecht, Middelburg, The
+      Hague) in their own acts; found by an archive.org title search on "acta synoden".
+
+      '
+    url: https://archive.org/details/actavandenederl00rutggoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, metadata NOT_IN_COPYRIGHT, contents read, 2026-10-16
+    status: downloaded
+    vendored_as: dutch-reformed-synods_acta-1568-1586-nld_rutgers1889.txt
+  - title: The Constitution of the Reformed Dutch Church of North America, with the Catechism, Articles
+      of Faith, Canons of the Synod of Dordrecht, and Liturgy
+    author: Reformed Dutch Church of North America (General Synod)
+    translator: not named
+    year: 1840
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The one clean public-domain English printing found of the Belgic Confession, the Canons of Dort
+      and the Dutch Reformed liturgy together (Schaff vol. III prints the Belgic Confession in Latin only).
+      Also carries the Heidelberg Catechism.
+
+      '
+    url: https://archive.org/details/constitutionofre1840refo
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, metadata NOT_IN_COPYRIGHT, title page and table of contents read (Mentz,
+      1840), 2026-10-16
+    status: downloaded
+    vendored_as: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt
+  - title: The Beehive of the Romish Church
+    author: Philips van Marnix van Sint-Aldegonde
+    translator: George Gilpin the elder
+    year: 1579 (reprinted 1580, 1623, 1636)
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The contemporary English of the Bijenkorf, public domain by date. Not vendored: the EEBO microfilm
+      OCR of the black-letter 1579 print, and of the 1636 print, is garbled (rotunda r read as "2", "wordes"
+      as "wozdes", throughout); sampled at five points. Vendor when a roman-type printing or a cleaner scan
+      appears. Items checked: bim_early-english-books-1475-1640_the-beehive-of-the-romis_marnix-philips-van_1579,
+      ..._1636, ..._the-bee-hive-of-the-romi_marnix-philips-van_1580 and _1623.
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1475-1640_the-beehive-of-the-romis_marnix-philips-van_1579
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, djvu text of the 1579 and 1636 items fetched and sampled, title page
+      read (Gilpin; Dawson for Stell, 1579), 2026-10-16
+    status: not-yet-downloaded
+  - title: The marriage, baptismal and burial registers, 1571-1874, and monumental inscriptions of the Dutch
+      Reformed Church, Austin Friars, London, with a short account of the strangers and their churches
+    author: W. J. C. Moens (ed.)
+    translator: none (English introduction; Dutch registers)
+    year: 1884
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'Named in the agent task. Verified public domain (NOT_IN_COPYRIGHT), OCR readable, 1 MB. Not vendored
+      this pass: the bulk is name lists and Moens''s "Historical Introduction" is 1884 secondary prose;
+      the church''s own voice is in the vendored 1569-71 consistory minutes. Vendor if a build wants the
+      registers or the English account.
+
+      '
+    url: https://archive.org/details/marriagebaptism00moengoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, metadata NOT_IN_COPYRIGHT, djvu fetched and sampled, title page read
+      (Lymington, 1884, 300 copies), 2026-10-16
+    status: not-yet-downloaded
+  - title: Ecclesiae Londino-Batavae Archivum, tom. II (letters and tracts 1544-1622) and tom. III pts 1-2
+      (letters 1523-1874)
+    author: Dutch Reformed church at Austin Friars, London; ed. J. H. Hessels
+    translator: none (Latin, Dutch and French letters with English summaries)
+    year: 1887-1897
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'Named in the agent task. All three volumes are on archive.org, NOT_IN_COPYRIGHT (ecclesiaelondino02austuoft,
+      ecclesiaelondino31austuoft, ecclesiaelondino32austuoft), 3 to 7 MB each, OCR readable (tom. II sampled).
+      Not vendored this pass for bulk; tom. II is the one to take first (a Lasco, Micron, Utenhove and the
+      consistory''s own correspondence 1544-1622).
+
+      '
+    url: https://archive.org/details/ecclesiaelondino02austuoft
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, metadata of all three items read, tom. II djvu fetched and sampled, 2026-10-16
+    status: not-yet-downloaded
+  - title: The Dutch Annotations upon the Whole Bible (the Statenvertaling with its annotations, in English),
+      with Haak's narrative of the translation
+    author: the Dort translators (Bogerman, Baudartius, Bucerus, Walaeus, Hommius, Rolandus); Theodore Haak
+    translator: Theodore Haak
+    year: 1657
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The agent task asked for the Statenvertaling preface. The Dutch 1637 preface was not found on
+      a reachable host with a rights statement (see the closed rows). Haak''s 1657 English carries, in its
+      front matter (file lines about 60-2300 of the djvu), the Synod of Dort''s resolutions on the translation,
+      the States General''s provision, the names and methods of the translators, and the Westminster Assembly''s
+      attestation. Public domain by date, PD-mark licence on the item. Not vendored: 13 MB for the whole
+      Bible; a partial extract of the front matter is the sensible shape if a build wants it. The EEBO microfilm
+      of the same book is item bim_early-english-books-1641-1700_the-dutch-annotations-_haak-theodore-ed_1657
+      (13 MB).
+
+      '
+    url: https://archive.org/details/dutch-annotations
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, djvu fetched (after one transient 500), title page and front matter read
+      (Hills for Rothwell, Kirton and Tomlins, 1657), 2026-10-16
+    status: not-yet-downloaded
+  - title: A catechisme of the Christian religion, with the confession of faith revised in the nationall
+      synod last held at Dordrecht 1618 and 1619, and formes used in the Reformed Church of the Neatherlands,
+      translated out of Dutch
+    author: Dutch Reformed church (Nederlandse Hervormde Kerk)
+    translator: not named
+    year: 1721
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'An eighteenth-century English printing of the Dutch church''s standards and forms, earlier than
+      the 1840 American text vendored above. Found by an archive.org title search; metadata read, text not
+      fetched. A 1689 printing of the confession alone is item bim_early-english-books-1641-1700_the-confession-of-faith-_1689_0.
+
+      '
+    url: https://archive.org/details/bim_eighteenth-century_a-catechisme-of-the-chri_nederlandse-hervormde-ke_1721
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, metadata read on the host, 2026-10-16; OCR not sampled
+    status: not-yet-downloaded
+  - title: '''t Geestelyck roer van ''t coopmans schip'
+    author: Godefridus Udemans
+    translator: none (Dutch original)
+    year: 1641
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The census names Udemans. John Carter Brown Library scan of the 1641 Dordrecht printing, public
+      domain by date. Not vendored: the OCR of the black-letter Dutch is unreadable at every sampled point.
+      Vendor only from a cleaner scan or a modern public-domain reprint.
+
+      '
+    url: https://archive.org/details/tgeestelyckroerv00udem
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, metadata read, djvu fetched and sampled at five points, 2026-10-16
+    status: not-yet-downloaded
+  - title: Acta der provinciale en particuliere synoden, gehouden in de noordelijke Nederlanden gedurende
+      de jaren 1572-1620, 8 vols.
+    author: Dutch Reformed provincial synods
+    translator: none (Dutch; ed. J. Reitsma and S. D. van Veen)
+    year: 1892-1899
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The provincial synod acts for the whole window, the layer below the national synods vendored above.
+      All volumes on archive.org, NOT_IN_COPYRIGHT (actaderprovinci00veengoog to actaderprovinci08veengoog,
+      and a per_ series). Not vendored for bulk; a build should pick the province it needs. Continued for
+      Zuid-Holland 1621-1700 by Knuttel (actaderparticul00kerkgoog, 1908, NOT_IN_COPYRIGHT).
+
+      '
+    url: https://archive.org/details/actaderprovinci00veengoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, search results and metadata flags read on the host, 2026-10-16; text
+      not fetched
+    status: not-yet-downloaded
+  - title: The Marrow of Sacred Divinity (Medulla theologiae), and Conscience with the Power and Cases thereof
+    author: William Ames
+    translator: not named (English editions of 1638-1643)
+    year: 1639 (Marrow); 1639 (Conscience)
+    world: puritanism
+    why: 'English Puritan exile at Franeker, the refuge seen from an English chair; serves Puritanism first
+      and this world as context. Princeton scan marrowsacdi00ames (1639, OCR readable, long s as f) and
+      conscpo00ames (1639); EEBO microfilms of 1638, 1642 and 1643 printings also listed. Passed to the
+      Puritanism agent; not vendored here.
+
+      '
+    url: https://archive.org/details/marrowsacdi00ames
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, metadata read, Marrow djvu fetched and sampled, 2026-10-16
+    status: not-yet-downloaded
+  - title: The Works of John Robinson, pastor of the Pilgrim Fathers, 3 vols.
+    author: John Robinson
+    translator: none (ed. Robert Ashton)
+    year: 1851
+    world: puritanism
+    why: 'The Leiden separatist pastor; the English exile church in Holland in its own voice. archive.org
+      worksjohnrobins01ashtgoog, 02, 03 and worksofjohnrobin01robi to 03, all NOT_IN_COPYRIGHT. Passed to
+      the Puritanism agent; not fetched here.
+
+      '
+    url: https://archive.org/details/worksofjohnrobin01robi
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, search results and metadata flags read on the host, 2026-10-16; text
+      not fetched
+    status: not-yet-downloaded
+  - title: Joannis a Lasco Opera tam edita quam inedita, 2 vols.
+    author: Jan Laski (John a Lasco)
+    translator: none (Latin; ed. A. Kuyper)
+    year: 1866
+    world: dutch-further-reformation-and-refuge-culture
+    why: 'The London stranger church''s founding superintendent; his Forma ac ratio (1555) is the church
+      order the vendored 1569-71 minutes work under. Antecedent, before the window. archive.org joannisalascoop00asgoog
+      (NOT_IN_COPYRIGHT) and operatameditaqua01lask_0.
+
+      '
+    url: https://archive.org/details/joannisalascoop00asgoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.9 world agent, search results and metadata flag read on the host, 2026-10-16; text not
+      fetched
+    status: not-yet-downloaded
+
+  - title: Diary of Lady Margaret Hoby, 1599-1605
+    author: Margaret Hoby
+    translator: Dorothy M. Meads (editor)
+    year: 1930
+    world: puritanism (VI.8)
+    why: 'Census-named first-tier source; the earliest known Englishwoman''s diary. The archive.org copy
+      is the Houghton Mifflin (Boston and New York) issue of 1930, printed in Great Britain; the 1930 date
+      was read on the imprint page in the OCR.
+
+      '
+    url: https://archive.org/details/diaryofladymarga00hoby
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: imprint read in the OCR (1930); item carries no possible-copyright-status
+      field'
+    status: downloaded
+    vendored_as: hoby_diary-1599-1605_meads1930.txt
+  - title: Historical Notices of Events Occurring Chiefly in the Reign of Charles I, Vol. I
+    author: Nehemiah Wallington
+    translator: R. Webb (editor)
+    year: 1869
+    world: puritanism (VI.8)
+    why: Census-named artisan's notebooks; Vol. I holds his own writing.
+    url: https://archive.org/details/historicalnotice01walluoft
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; 1869 imprint in the OCR'
+    status: downloaded
+    vendored_as: wallington_historical-notices-v1_webb1869.txt
+  - title: Historical Notices of Events Occurring Chiefly in the Reign of Charles I, Vol. II
+    author: Nehemiah Wallington
+    translator: R. Webb (editor)
+    year: 1869
+    world: puritanism (VI.8)
+    why: 'Vol. II of the same edition, 1642 onward, mostly news and papers Wallington copied (sampled at
+      five points). Left unvendored because the primary voice is thinner; fetch if a build wants his Civil
+      War years.
+
+      '
+    url: https://archive.org/details/historicalnotice02walluoft
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; OCR downloaded and sampled'
+    status: not-yet-downloaded
+  - title: Two Elizabethan Puritan Diaries, by Richard Rogers and Samuel Ward
+    author: Richard Rogers; Samuel Ward
+    translator: M. M. Knappen (editor)
+    year: 1933
+    world: puritanism (VI.8)
+    why: 'Census-named diaries (Ward''s student diary; Rogers''s). A 1933 US publication: no renewal found
+      in the CCE renewal volumes for 1960-1962 (Gutenberg #11821-11826), and the item''s own rights field
+      records a HathiTrust copyright review finding public domain.
+
+      '
+    url: https://archive.org/details/twoelizabethanpu00knap
+    rights_basis: pd-us-no-renewal
+    verified_by: 'VI.8 one-world agent, 2026-10-16: renewal search recorded in the file header; host rights
+      field read'
+    status: downloaded
+    vendored_as: knappen_two-elizabethan-puritan-diaries_1933.txt
+  - title: The Autobiography of Thomas Shepard
+    author: Thomas Shepard
+    translator: Nehemiah Adams (editor)
+    year: 1832
+    world: puritanism (VI.8)
+    why: Shepard's own conversion narrative in the only public-domain printing from the manuscript (also
+      reprinted in Young 1846).
+    url: https://archive.org/details/autobiographyoft00shep3
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; 1832 imprint in the OCR'
+    status: downloaded
+    vendored_as: shepard_autobiography_adams1832.txt
+  - title: Winthrop's Journal, 'History of New England', 1630-1649, Vol. I
+    author: John Winthrop
+    translator: James Kendall Hosmer (editor)
+    year: 1908
+    world: puritanism (VI.8)
+    why: The New England governor's own journal, 1630-1640.
+    url: https://archive.org/details/winthropsjournal01wint
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: ''COPYRIGHT, 1908, BY CHARLES SCRIBNER''S SONS'' read
+      in the OCR; item carries no possible-copyright-status field'
+    status: downloaded
+    vendored_as: winthrop_journal-v1_hosmer1908.txt
+  - title: Winthrop's Journal, 'History of New England', 1630-1649, Vol. II
+    author: John Winthrop
+    translator: James Kendall Hosmer (editor)
+    year: 1908
+    world: puritanism (VI.8)
+    why: 1641-1649, the second half of the journal; not vendored this pass to keep the intake within bounds.
+    url: https://archive.org/details/winthropsjournal02wint
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; metadata read, OCR not
+      downloaded'
+    status: not-yet-downloaded
+  - title: A Golden Chaine, or the Description of Theologie (with the other treatises of the 1600 Cambridge
+      volume)
+    author: William Perkins
+    translator: ''
+    year: 1600
+    world: puritanism (VI.8)
+    why: Census-named; the movement's systematic theology. OCR garbled (second witness).
+    url: https://archive.org/details/goldenchaineorde00perk
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; 1600 title page in the
+      OCR'
+    status: downloaded
+    vendored_as: perkins_golden-chaine-and-treatises_legat1600.txt
+  - title: Seven Treatises
+    author: Richard Rogers
+    translator: ''
+    year: 1610
+    world: puritanism (VI.8)
+    why: Census-named practical divinity. OCR garbled (second witness).
+    url: https://archive.org/details/seven00roge
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: 1610 edition (host metadata; no possible-copyright-status
+      field); OCR sampled'
+    status: downloaded
+    vendored_as: rogers-richard_seven-treatises_1610.txt
+  - title: Puritan Manifestoes (An Admonition to the Parliament and kindred documents, 1572)
+    author: John Field and Thomas Wilcox (attributed); anonymous
+    translator: W. H. Frere and C. E. Douglas (editors)
+    year: 1907
+    world: puritanism (VI.8)
+    why: Census-named; the founding manifesto in its own spelling.
+    url: https://archive.org/details/puritanmanifesto00frer
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item'
+    status: downloaded
+    vendored_as: admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt
+  - title: The Presbyterian Movement in the Reign of Queen Elizabeth as illustrated by the Minute Book of
+      the Dedham Classis, 1582-1589
+    author: Dedham Classis; Richard Bancroft
+    translator: Roland G. Usher (editor)
+    year: 1905
+    world: puritanism (VI.8)
+    why: Census-named classis minutes. The Robarts scan; the Google scan (presbyterianmov00pregoog) is superseded
+      by it.
+    url: https://archive.org/details/presbyterianmove00royauoft
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; 1905 title page in the
+      OCR'
+    status: downloaded
+    vendored_as: dedham-classis_minute-book_usher1905.txt
+  - title: The Confession of Faith, the Larger and Shorter Catechisms, with the Scripture-proofs at large,
+      the Sum of Saving Knowledge, Covenants, Directories and Form of Church Government
+    author: Westminster Assembly
+    translator: ''
+    year: 1877
+    world: puritanism (VI.8); the-scottish-reformation-and-kirk (VI.5)
+    why: Clean 19th-century printing of the full standards; the 1658, 1675 and 1860 printings and Macpherson
+      1881 were checked and set aside.
+    url: https://archive.org/details/confessionoffait1877west
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; printer''s licence dated
+      21 December 1877 in the OCR'
+    status: downloaded
+    vendored_as: westminster-assembly_confession-catechisms-standards_nelson1877.txt
+  - title: The Complete Works of Richard Sibbes, D.D., Vol. I
+    author: Richard Sibbes
+    translator: A. B. Grosart (editor)
+    year: 1862
+    world: puritanism (VI.8)
+    why: The Bruised Reed and The Soul's Conflict in a clean text.
+    url: https://archive.org/details/completeworksofr01sibb
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; 1862 imprint in the OCR'
+    status: downloaded
+    vendored_as: sibbes_complete-works-v1_grosart1862.txt
+  - title: The Complete Works of Richard Sibbes, D.D., Vols. II-VII
+    author: Richard Sibbes
+    translator: A. B. Grosart (editor)
+    year: 1862-64
+    world: puritanism (VI.8)
+    why: The rest of Grosart's edition; items completeworksofr02sibb, completeworksofr05sibb, completeworksofr07sibb
+      and the uoft copies 02-04 and 07 all show NOT_IN_COPYRIGHT in the search listing. Not fetched.
+    url: https://archive.org/details/completeworksofr02sibb
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: advancedsearch listing only; metadata not opened per
+      volume'
+    status: not-yet-downloaded
+  - title: Chronicles of the First Planters of the Colony of Massachusetts Bay, 1623-1636
+    author: Alexander Young (compiler)
+    translator: ''
+    year: 1846
+    world: puritanism (VI.8)
+    why: 'Twenty-four primary documents: Higginson''s journal and New England''s Plantation, the Humble
+      Request of 1630, Dudley''s letter to the Countess of Lincoln, Roger Clap''s memoirs, Cotton''s letters
+      and reasons for removal, Richard Mather''s journal, Shepard''s memoir (contents verified in the OCR).
+      Not vendored because Shepard''s own narrative was taken from the 1832 edition and the rest is a second
+      New England layer; the strongest unvendored lead for this world.
+
+      '
+    url: https://archive.org/details/chroniclesoffirs00younuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; OCR downloaded and sampled
+      (clean, with two-column notes interleaved)'
+    status: not-yet-downloaded
+  - title: The Works of Anne Bradstreet in Prose and Verse
+    author: Anne Bradstreet
+    translator: John Harvard Ellis (editor)
+    year: 1867
+    world: puritanism (VI.8)
+    why: 'Her poems and her prose Meditations and the religious account ''To my dear children'', a New England
+      woman''s interior voice. Ellis reproduces the 1678 spelling, so the OCR shows long-s misreads in the
+      reprinted text. Not vendored this pass.
+
+      '
+    url: https://archive.org/details/worksofannebrads00brad
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; OCR downloaded and sampled;
+      1867 imprint read'
+    status: not-yet-downloaded
+  - title: The Cambridge Platform of Church Discipline, adopted in 1648, and the Confession of Faith adopted
+      in 1680
+    author: Cambridge Synod (1648); Boston Synod (1680)
+    translator: ''
+    year: 1850
+    world: puritanism (VI.8)
+    why: New England's own church order, small and clean (186 KB). Not vendored this pass to stay within
+      the file budget.
+    url: https://archive.org/details/cambridgeplatfor00cong
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; OCR downloaded and sampled;
+      1850 imprint read'
+    status: not-yet-downloaded
+  - title: The Marprelate Tracts, 1588, 1589
+    author: Martin Marprelate (pseudonym)
+    translator: William Pierce (editor)
+    year: 1911
+    world: puritanism (VI.8)
+    why: 'Census-named satirical tracts. The item carries no possible-copyright-status field; 1911 London
+      publication, public domain by date. OCR downloaded and sampled: the text pages are readable, but several
+      blank versos were OCR''d as mirrored garbage (the 30 and 70 per cent samples), so a vendored copy
+      would need a content note. Not vendored this pass.
+
+      '
+    url: https://archive.org/details/marprelatetracts0000will
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: metadata and OCR read'
+    status: not-yet-downloaded
+  - title: 'Reliquiae Baxterianae: or, Mr. Richard Baxter''s Narrative of the Most Memorable Passages of
+      his Life and Times'
+    author: Richard Baxter
+    translator: Matthew Sylvester (editor)
+    year: 1696
+    world: puritanism (VI.8); english-old-dissent (VIII)
+    why: 'Baxter''s autobiography, the fullest Puritan self-account of the 1630s-1660s. OCR downloaded and
+      sampled: long-s misreads throughout (second-witness quality). Window straddles VI.8''s end and English
+      Old Dissent; left as a lead pending that boundary ruling.
+
+      '
+    url: https://archive.org/details/reliquiaebaxteri00baxt
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; OCR sampled'
+    status: not-yet-downloaded
+  - title: The Practice of Pietie, 14th edition
+    author: Lewis Bayly
+    translator: ''
+    year: 1623
+    world: puritanism (VI.8)
+    why: 'Census-named devotional best-seller. Only EEBO microfilm items exist on archive.org; the 1623
+      item''s OCR was downloaded (after two server errors) and found badly garbled at every sample point,
+      with the long s kept as the character U+017F and column fragments interleaved. Not vendorable as a
+      quoting text; recorded so nobody re-checks the bim items.
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1475-1640_the-practice-of-pietie-_bayly-lewis-bp-of-ban_1623
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: OCR downloaded and sampled'
+    status: not-yet-downloaded
+  - title: The Works of Thomas Shepard, 3 vols.
+    author: Thomas Shepard
+    translator: John A. Albro (editor)
+    year: 1853
+    world: puritanism (VI.8)
+    why: The Sincere Convert, The Sound Believer and the other treatises in a 19th-century text; items worksofthomasshe01shep
+      to 03 (Boston, 1853). Metadata seen in the search listing only; not opened.
+    url: https://archive.org/details/worksofthomasshe01shep
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: advancedsearch listing only'
+    status: not-yet-downloaded
+  - title: A Godlie Forme of Householde Government
+    author: Robert Cleaver (with John Dod)
+    translator: ''
+    year: 1598 (also 1600, 1614 printings)
+    world: puritanism (VI.8)
+    why: Census-named; only EEBO microfilm items on archive.org (bim_early-english-books-1641-1700_a-godlie-forme-of-househ_cleaver-robert_1598
+      and the 1600 and 1614 items). Given the Bayly result, the OCR is expected to be unusable; not downloaded.
+    url: https://archive.org/details/bim_early-english-books-1475-1640_a-godlie-forme-of-househ_cleaver-robert_1600
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: advancedsearch listing only'
+    status: not-yet-downloaded
+  - title: History of Plymouth Plantation, 1620-1647
+    author: William Bradford
+    translator: Worthington C. Ford (editor, Massachusetts Historical Society)
+    year: 1912
+    world: puritanism (VI.8), as Separatist context
+    why: The Plymouth Separatists' own history; context for the New England half of the world rather than
+      its voice. Not fetched.
+    url: https://archive.org/details/historyofplymout02brad
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: NOT_IN_COPYRIGHT on the item; metadata read'
+    status: not-yet-downloaded
+  - title: The Presbyterian Movement ... Minute Book of the Dedham Classis (Google scan)
+    author: Dedham Classis
+    translator: Roland G. Usher (editor)
+    year: 1905
+    world: puritanism (VI.8)
+    why: Same edition as the vendored Robarts scan, with poorer OCR (sampled).
+    url: https://archive.org/details/presbyterianmov00pregoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.8 one-world agent, 2026-10-16
+    status: superseded
+  - title: The Humble Advice of the Assembly of Divines (Confession, with the Catechisms), 1658 printing;
+      the 1675 Glasgow printing; the 1860 Nelson printing; Macpherson's 1881 handbook
+    author: Westminster Assembly
+    translator: ''
+    year: 1658; 1675; 1860; 1881
+    world: puritanism (VI.8)
+    why: Items humbleadviceofas1658west, confessionoffait1675west, confessionoffait00westuoft, westminsterconfe01macp
+      and westminsterconf00unknuoft, all NOT_IN_COPYRIGHT; the 1658 and 1675 OCR carries long-s misreads,
+      the 1860 OCR is rougher than the 1877, and Macpherson's volumes set the confession text in italics
+      the OCR mangles.
+    url: https://archive.org/details/humbleadviceofas1658west
+    rights_basis: pd-us-by-date
+    verified_by: 'VI.8 one-world agent, 2026-10-16: OCR of each sampled'
+    status: superseded
+
+  - title: The Works of John Knox, Vol. I (History of the Reformation, Books First and Second)
+    author: John Knox
+    translator: David Laing (editor)
+    year: 1895
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The census''s own first-named primary work. Project Gutenberg carries a proofread transcription
+      of the 1895 James Thin reissue of Laing''s Wodrow Society edition (1846), preferred over the archive.org
+      OCR scans of the same edition (works01knox, worksofjohnknox01knox, both NOT_IN_COPYRIGHT).
+
+      '
+    url: https://www.gutenberg.org/ebooks/21938
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, direct fetch of pg21938.txt and the catalogue page ('Public domain in
+      the USA'), 2026-10-16
+    status: downloaded
+    vendored_as: knox_works-v1_laing1895.txt
+  - title: The Works of John Knox, Vol. II (History Book Third, the Scots Confession 1560, the First Book
+      of Discipline 1560, Books Fourth and Fifth)
+    author: John Knox
+    translator: David Laing (editor)
+    year: 1895
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'Carries the Scots Confession and the First Book of Discipline in their original Scots inside Knox''s
+      History. Proofread Gutenberg transcription of the 1895 reissue of the 1848 volume; archive.org scans
+      of the same volume are works02knox and worksjohnknoxvo00laingoog (both NOT_IN_COPYRIGHT).
+
+      '
+    url: https://www.gutenberg.org/ebooks/40886
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, direct fetch of pg40886.txt and the catalogue page ('Public domain in
+      the USA'), 2026-10-16
+    status: downloaded
+    vendored_as: knox_works-v2_laing1895.txt
+  - title: The Booke of the Universall Kirk of Scotland (Acts of the General Assembly 1560-1602, the Second
+      Book of Discipline, the Rescinded Acts 1606-1618)
+    author: Church of Scotland, General Assembly
+    translator: Alexander Peterkin (editor)
+    year: 1839
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The General Assembly''s own register and the only place found on the host that prints the Second
+      Book of Discipline (1578) with the acts around it. The three-volume Bannatyne/Maitland Club edition
+      (Thomson, 1839-45) was searched for and not located.
+
+      '
+    url: https://archive.org/details/bookeofuniversal00chur
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, metadata API (NOT_IN_COPYRIGHT) and direct fetch of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt
+  - title: Records of the Kirk of Scotland, containing the Acts and Proceedings of the General Assemblies
+      from the year 1638 downwards
+    author: Church of Scotland, General Assembly
+    translator: Alexander Peterkin (editor)
+    year: 1838
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'Not named by the census or the task brief; found by widening to the Kirk''s own acts for 1638-1650.
+      Prints the National Covenant of 1638 in full and the Glasgow Assembly''s acts and sessions, so it
+      covers the covenanted Kirk from the inside and makes a separate Covenant print unnecessary.
+
+      '
+    url: https://archive.org/details/recordsofkirkofs00chur
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, metadata API (1838, Princeton copy, no restriction) and direct fetch
+      of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838.txt
+  - title: The Book of Common Order of the Church of Scotland (John Knox's Liturgy) and the Westminster
+      Directory for the Public Worship of God
+    author: Church of Scotland; Westminster Assembly
+    translator: George W. Sprott and Thomas Leishman (editors)
+    year: 1868
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The Kirk''s own service book 1564-1645 and the Directory that replaced it, in the standard nineteenth-century
+      edition the census names. Sprott''s 1901 single-volume edition (bookofcommonorde0000chur) is a later,
+      shorter printing of the same text; the 1873 Maclauchlan edition is Carswell''s Gaelic translation
+      of 1567 with English and was not needed.
+
+      '
+    url: https://archive.org/details/comorde00chur
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, metadata API (1868, Princeton copy, no restriction) and direct fetch
+      of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+  - title: 'Register of the Minister, Elders, and Deacons of the Christian Congregation of St Andrews, Part
+      First: 1559-1582'
+    author: St Andrews Kirk Session
+    translator: David Hay Fleming (editor)
+    year: 1889
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The census''s named kirk-session register. Scottish History Society vol. IV. Four scans exist
+      on the host; the Boston College copy was the cleanest sampled.
+
+      '
+    url: https://archive.org/details/registerofminist01stan
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (sibling scans
+      registerofthemin00unknuoft and registerministe01flemgoog carry NOT_IN_COPYRIGHT)
+    status: downloaded
+    vendored_as: st-andrews-kirk-session_register-pt1-1559-1582_hay-fleming1889.txt
+  - title: 'Register of the Minister, Elders, and Deacons of the Christian Congregation of St Andrews, Part
+      Second: 1582-1600'
+    author: St Andrews Kirk Session
+    translator: David Hay Fleming (editor)
+    year: 1890
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'Second half of the same register (Scottish History Society vol. VII), with the Index to both parts.
+
+      '
+    url: https://archive.org/details/registerofminist02stan
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: st-andrews-kirk-session_register-pt2-1582-1600_hay-fleming1890.txt
+  - title: Diary of Sir Archibald Johnston of Wariston, 1632-1639
+    author: Archibald Johnston, Lord Wariston
+    translator: George Morison Paul (editor)
+    year: 1911
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The census''s named first-person covenanting conscience. Scottish History Society vol. LXI.
+
+      '
+    url: https://archive.org/details/diaryofsirarchib01warr
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, metadata API (1911, Boston College copy, no restriction) and direct fetch
+      of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: wariston_diary-1632-1639_paul1911.txt
+  - title: The Autobiography and Diary of Mr James Melvill, with a Continuation of the Diary
+    author: James Melville
+    translator: Robert Pitcairn (editor)
+    year: 1842
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'Not named by the census; the one ordinary minister''s first-person account of the Kirk between
+      Knox and the Covenant (Wodrow Society). Vendored from the Toronto scan; the Google scan autobiographyan01pitcgoog
+      is a candidate replacement if its OCR lacks the w-to-''Av'' artifact.
+
+      '
+    url: https://archive.org/details/autobiographydia00melvuoft
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, metadata API (NOT_IN_COPYRIGHT) and direct fetch of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: melville-james_autobiography-and-diary_pitcairn1842.txt
+  - title: Letters of Samuel Rutherford, with a Sketch of his Life and Biographical Notices of his Correspondents
+    author: Samuel Rutherford
+    translator: Andrew A. Bonar (editor)
+    year: 1891
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The Bonar edition the task brief names, complete (365 letters). The dated 1891-edition reprint
+      scan was vendored; Project Gutenberg #42557 is a proofread text of the same edition but its RTS printing
+      carries no year (see its own lead row below).
+
+      '
+    url: https://archive.org/details/lettersofsamuelr1894ruth
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, metadata API (NOT_IN_COPYRIGHT) and direct fetch of the djvu.txt, 2026-10-16
+    status: downloaded
+    vendored_as: rutherford_letters_bonar1891.txt
+  - title: Letters of Samuel Rutherford (Third Edition, Religious Tract Society, undated)
+    author: Samuel Rutherford
+    translator: Andrew A. Bonar (editor)
+    year: null
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'A proofread Distributed Proofreaders transcription of Bonar''s edition, cleaner than any OCR scan,
+      but the RTS ''Third Edition'' title page carries no year (its notes cite works up to 1885). Not vendored
+      under the rule against guessed years; useful as a cross-check witness for rutherford_letters_bonar1891.txt
+      if a build thread wants one.
+
+      '
+    url: https://www.gutenberg.org/ebooks/42557
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, direct fetch of pg42557.txt and the catalogue page ('Public domain in
+      the USA'), 2026-10-16
+    status: not-yet-downloaded
+  - title: The National Covenant, and Solemn League and Covenant, with the Acknowledgment of Sins and Engagement
+      to Duties, as renewed at Auchensaugh 1712
+    author: Church of Scotland (1638, 1643); Reformed Presbytery (1712)
+    translator: Thomas Henderson (editor)
+    year: 1820
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'A clean-OCR 1820 Reformed Presbyterian printing of the 1638 Covenant (pp. 40-50) and the 1643
+      Solemn League. Fetched and sampled; not vendored because the Covenant is now in the Records of the
+      Kirk (1838) from the 1639 authentic edition, and this volume''s framing is the 1712 Cameronian renovation.
+      Still the cleanest PD text of the Solemn League and Covenant found; a Puritanism or English Reformation
+      pass may want it.
+
+      '
+    url: https://archive.org/details/nationalcovenant00hend
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, metadata API (NOT_IN_COPYRIGHT) and direct fetch of the djvu.txt, 2026-10-16
+    status: not-yet-downloaded
+  - title: The History of the Kirk of Scotland, 8 vols. (Wodrow Society)
+    author: David Calderwood
+    translator: Thomas Thomson (editor)
+    year: 1842
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The great presbyterian history to 1625, with hundreds of embedded documents (including a clean
+      text of the Second Book of Discipline in vol. III). Eight volumes, 1842-1849; not vendored on selectivity.
+      All eight are on the host as Toronto scans marked NOT_IN_COPYRIGHT (historyofthekirk01calduoft, historyofthekirk02calduoft,
+      historyofkirkofs03calduoft, historyofkirkofs04calduoft, thehistoryofthek05calduoft, historyofkirkofs06calduoft,
+      historyofthekirk07calduoft, historyofkirkofs08calduoft). Vendor vol. III first if the Second Book
+      of Discipline needs a clean witness.
+
+      '
+    url: https://archive.org/details/historyofthekirk01calduoft
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, advancedsearch and metadata API for vols. 1 and 3, 2026-10-16
+    status: not-yet-downloaded
+  - title: The Letters and Journals of Robert Baillie, 1637-1662, 3 vols. (Bannatyne Club)
+    author: Robert Baillie
+    translator: David Laing (editor)
+    year: 1841
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The Glasgow minister''s letters from the Glasgow Assembly and the Westminster Assembly: the best
+      inside narrative of 1637-1650 after Wariston. Three volumes, 1841-1842, on the host as lettersandjourna01bail,
+      lettersandjourna02bail, lettersandjourna03bail (NOT_IN_COPYRIGHT). Not vendored on selectivity; vol.
+      I covers 1637-1641.
+
+      '
+    url: https://archive.org/details/lettersandjourna01bail
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, advancedsearch and metadata API for vol. 1, 2026-10-16
+    status: not-yet-downloaded
+  - title: The History of the Kirk of Scotland, from the year 1558 to August 1637, with a continuation to
+      July 1639 (Wodrow Society)
+    author: John Row
+    translator: David Laing (editor)
+    year: 1842
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'A minister''s presbyterian history covering the whole window in one volume, a candidate if Calderwood
+      is too large. On the host as thekirkofscotlan00rowuoft (NOT_IN_COPYRIGHT). Not opened this pass.
+
+      '
+    url: https://archive.org/details/thekirkofscotlan00rowuoft
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, advancedsearch and metadata API, 2026-10-16
+    status: not-yet-downloaded
+  - title: History of the Church of Scotland, beginning the year of our Lord 203 and continued to the end
+      of the reign of King James VI, 3 vols. (Spottiswoode Society)
+    author: John Spottiswood, Archbishop of St Andrews
+    translator: Michael Russell and Mark Napier (editors)
+    year: 1847
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The episcopal counter-narrative to Knox, Calderwood and Row: the one outside-the-Kirk witness
+      a build would need, by the archbishop James VI installed. Three volumes 1847-1851 on the host (historyofchurc9301spotuoft,
+      historyofchurcho02spot, historyofchur93203spotuoft, NOT_IN_COPYRIGHT). Not opened this pass.
+
+      '
+    url: https://archive.org/details/historyofchur93203spotuoft
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, advancedsearch and metadata API for vol. 3, 2026-10-16
+    status: not-yet-downloaded
+  - title: A Collection of Confessions of Faith, Catechisms, Directories, Books of Discipline, etc., of
+      publick authority in the Church of Scotland, 2 vols.
+    author: Church of Scotland
+    translator: William Dunlop (editor)
+    year: 1719
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The standard early collection of the Kirk''s own standards, including a clean eighteenth-century
+      printing of the Second Book of Discipline, the First Book of Discipline and the Scots Confession.
+      On the host as acollectionconf00ofgoog, acollectionconf01scotgoog, acollectionconf02scotgoog (Oxford
+      copies, NOT_IN_COPYRIGHT). Not opened; OCR of a 1719 print will carry long s.
+
+      '
+    url: https://archive.org/details/acollectionconf01scotgoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, advancedsearch and metadata API, 2026-10-16
+    status: not-yet-downloaded
+  - title: Selections from the Records of the Kirk Session, Presbytery, and Synod of Aberdeen, 1562-1681
+      (Spalding Club)
+    author: Aberdeen Kirk Session, Presbytery and Synod
+    translator: John Stuart (editor)
+    year: 1846
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The second printed session register the census asks for (Aberdeen). Fetched and sampled at five
+      points, OCR clean; not vendored on selectivity after St Andrews. The first download attempt returned
+      a host 500 error; the retry succeeded.
+
+      '
+    url: https://archive.org/details/selectionsfromre00aberuoft
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, metadata API (NOT_IN_COPYRIGHT) and direct fetch of the djvu.txt, 2026-10-16
+    status: not-yet-downloaded
+  - title: The Psalms of David in Metre (the Scottish Psalter of 1650)
+    author: Church of Scotland
+    translator: null
+    year: 1854
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The census''s named devotional voice. The 1650 text is in print in every decade, but the two scans
+      sampled are weak: the New York Carter 1854 printing (psalmsdavidinme00scotgoog, NOT_IN_COPYRIGHT)
+      has moderately garbled OCR, and the Library of Congress copy (psalmsofdavidinm00unse, Philadelphia,
+      Barrington and Haswell) carries no year on its title page. No Gutenberg edition exists. Lead: find
+      a cleaner dated scan.
+
+      '
+    url: https://archive.org/details/psalmsdavidinme00scotgoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, metadata API and direct fetch of both djvu.txt files, 2026-10-16
+    status: not-yet-downloaded
+  - title: Diary of Sir Archibald Johnston, Lord Wariston, 1639, with The Preservation of the Honours of
+      Scotland 1651-52 (Scottish History Society Miscellany)
+    author: Archibald Johnston, Lord Wariston
+    translator: George Morison Paul (editor)
+    year: 1896
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The 1639 diary (the year after the Glasgow Assembly), a separate SHS volume from the 1632-1639
+      diary vendored. NOT_IN_COPYRIGHT. The 1650-1654 diary (SHS second series, catalogued on the host as
+      diaryofsirarchib0002warr under 1911) was not opened.
+
+      '
+    url: https://archive.org/details/diaryofsirarchib00scotrich
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, advancedsearch and metadata API, 2026-10-16
+    status: not-yet-downloaded
+  - title: The Works of John Knox, Vols. III-VI (tracts, letters, the Frankfurt troubles, the First Blast,
+      the Geneva correspondence)
+    author: John Knox
+    translator: David Laing (editor)
+    year: 1854
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'Knox''s own letters and tracts outside the History: vols. III-VI of Laing (1854-1864). On the
+      host as Wellesley scans marked NOT_IN_COPYRIGHT (worksofjohnknox3knox, worksknox04knox, worksofjohnknox05knox,
+      worksknox06knox). Not vendored on selectivity; vol. IV (the Geneva years and the letters to Mrs Bowes)
+      would serve the Reformed Cities world as well.
+
+      '
+    url: https://archive.org/details/worksknox04knox
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, advancedsearch and metadata API for vols. 4 and 6, 2026-10-16
+    status: not-yet-downloaded
+  - title: Acts of the General Assembly of the Church of Scotland, 1638-1842
+    author: Church of Scotland, General Assembly
+    translator: null
+    year: 1843
+    world: VI.5 the-scottish-reformation-and-kirk
+    why: 'The Church Law Society''s one-volume printing of the acts alone, without Peterkin''s proceedings
+      and notes; a compact alternative witness to the Records of the Kirk for 1638-1650. NOT_IN_COPYRIGHT.
+      Not opened.
+
+      '
+    url: https://archive.org/details/actsofgeneralass00chur
+    rights_basis: pd-us-by-date
+    verified_by: VI.5 world agent, advancedsearch, 2026-10-16
+    status: not-yet-downloaded

@@ -1,0 +1,20 @@
+# Vendored for the Huguenots (Atlas VI.6) by the Era VII library session,
+# 2026-10-16. The 1926 English of the de Witt edition; public domain by
+# date under the rolling 95-year rule (1926 + 95 = 2021). The French is
+# vendored beside it.
+source_file: mornay-charlotte_huguenot-family-in-the-xvi-century_crump1926.txt
+
+assignments:
+  - row_id: mornay-charlotte_huguenot-family-in-the-xvi-century_crump1926--a-huguenot-family-in-the-xvi-century-the-memoirs
+    work: "A Huguenot Family in the XVI Century: The Memoirs of Philippe de Mornay, Sieur du Plessis Marly, Written by His Wife (Lucy Crump's translation)"
+    author: mornay-charlotte
+    locus: "the memoir from CHAPTER I at file line 3611 to AN AFTERWORD at 12433, then two letters of Mademoiselle du Plessis; Crump's introduction (editorial, 1926) at lines 219-3610 is not the memoir"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      English translation only; the French original is in
+      mornay-charlotte_memoires-de-madame-de-mornay-t1-fra_de-witt1868.txt
+      and is the primary wording. Crump's 1926 introduction is a modern
+      editorial frame, not a source. Clean OCR.

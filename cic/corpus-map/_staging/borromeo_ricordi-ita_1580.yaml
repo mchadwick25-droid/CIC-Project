@@ -1,0 +1,13 @@
+source_file: borromeo_ricordi-ita_1580.txt
+
+assignments:
+  - row_id: borromeo_ricordi-ita_1580--ricordi-per-il-vivere-christiano
+    work: "Ricordi per il vivere christiano ad ogni stato di persone (Rome, 1580)"
+    author: borromeo
+    locus: "whole pamphlet; title at file line 12; the text's own section labels ('Avvertimenti ...') are only partly legible in the OCR"
+    atlas_ids:
+      - tridentine-parish-renewal-borromean-milan
+    role: tradition
+    confidence: assigned
+    note: >
+      A short pamphlet of Borromeo's counsels for Christian living for every state of life, printed in Rome in his lifetime: the lay-formation voice the census asks for, in his own words. Legible OCR, long s read as f throughout, some broken words; verify against the page images before quoting. No English translation found.

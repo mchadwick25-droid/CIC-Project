@@ -1,0 +1,4495 @@
+Title: The Autobiography of Thomas Shepard, the Celebrated Minister of Cambridge, N. E., with Additional Notices of his Life and Character
+Creator: Thomas Shepard (1605-1649) (Nehemiah Adams, editor, pastor of the First Church in connexion with the Shepard Society)
+Publisher: Pierce and Parker, Boston
+Publication Date: 1832
+Rights: Public Domain (published 1832, pd-us-by-date)
+Source: Internet Archive item autobiographyoft00shep3, file autobiographyoft00shep3_djvu.txt, fetched directly by the library/source-research thread (Era VII session), 2026-10-16; host rights statement: possible-copyright-status NOT_IN_COPYRIGHT (contributor New York Public Library).
+Provenance note: Header prepended; the OCR text follows unchanged apart from long-s (U+017F) to s, 0 replacements (none were present). Rights basis restated: an 1832 Boston imprint is public domain in the United States by date.
+Content note: Whole volume: Adams's Advertisement (line 81), then Shepard's own autobiography printed from the manuscript in his own spelling (running heads MEMOIRS OF / THOMAS SHEPARD, from about line 99 to about line 2209), followed by Adams's own additional notices, including a record of the gathering of the Cambridge church and extracts from later writers, to the end. OCR sampled at 10/30/50/70/90 per cent and found clean; occasional misreads of proper names (Eatou for Eaton).
+---
+NYPL  RESEARCH  LIBRARIES 
+
+llllllllllllllllllll' 
+
+
+3  3433  08238489  6 
+
+
+MiPHOEli-ML., 
+
+
+Digitized  by  tine  Internet  Arciiive 
+
+in  2008  witii  funding  from 
+
+IVIicrosoft  Corporation 
+
+
+littp://www.arcli  ive.org/details/autobiograpliyoft00sliep3 
+
+
+THE 
+
+
+AITOBIOORAPHT 
+
+
+OF 
+
+
+\ 
+
+THE    CELEBRATED    MINISTER    OF    CAMBRIDGE,    N.  E- 
+
+
+VYITH  ADDITIONAL  NOTICES  OF  IIIS  LIl  E  ANIi 
+CHARACTEK, 
+
+BY  XEHEMIAH  ADAMS, 
+
+Pastor  of  the  First  Church  in  connexion  with  the  Shepard  Society, 
+
+
+BOSTOiN: 
+PUBLISHED  BY  PIERCE  AND  PARKER, 
+
+
+1832. 
+
+
+THE  NEW  YOBK      j 
+PUBLIC  LIBRARY 
+
+6250044 
+
+ASTOR»  LENOX  AND 
+
+TULI>EN  FOUNDATIONS 
+
+R  1932  L 
+
+
+Entered  according  to  Act  of  Congress,  in  the  year  1839,  by  Nelio- 
+miah  Adams,  in  the  Clerk's  OfEce  of  the  District  of  Massachusetts. 
+
+
+3J,  23,  mnttUs  ^  Co.,  3Printers» 
+
+NO.    14,   WAT.-GR    STRKET. 
+
+
+ADVERTISEMENT. 
+
+
+The  circumstances  connected  with  the  publication  of  this 
+Auto-biography  are  as  interesting  to  those  concerned  in  them 
+as  the  book  itself.     The  First  Church  in  Cambridge,  settled 
+and  built  up  by  this  great  and  good  man  Thomas  Shepard, 
+(after  the  removal  of  a  former  Church  with  their  Pastors, 
+Hooker  and  Stone,  from  Cambridge  to  Hartford,  Conn.)  was 
+compelled  a  few  years  since,  by  measures  too  well  known  to 
+the  public,  to  leave  their  place  of  worship  in  the  hands  of  a 
+Unitarian  parish,  and  two  or  three  Unitarian  male  members 
+of  the   Church.     By  decisions  of  the   Supreme  Court  of 
+Mass.  the  churches  have  been  pronounced  incompetent  to 
+retain  property  unless  connected  w^ith  an  incorporated  so- 
+ciety.    These  decisions,  made  in  opposition  to  a  vast  array 
+J->  of  facts,  and  contrary  to  the  opinions  of  many  of  the  most 
+^   distinguished  jurists  not  only  of  this,  but  of  other  States, 
+=^  have  stripped  the  churches  of  property  raised  at  the  com- 
+fy  raunion  table  or  given  expressly  for  the  use  of  the  Church 
+.,'■  by  those  who  never  dreamed   that  their  sacred  donations 
+would  be  sequestered  to  the  support  of '  another  gospel.'    The 
+x  Church  in  Cambridge  owned  a  valuable  set  of  Communion 
+1^  Plate,  parts  of  which  were  purchased,   as  appears  from  the 
+Records,  by  church  funds,  and  the  rest  given  by  individual 
+members  or  friends.     They  had  also  a  fund  of  nearly  $5000, 
+
+
+IV 
+
+constituted  originally  by  a  small  donation  from  a  member, 
+and  increased  to  the  above-named  sum  entirely  by  contribu- 
+tions at  the  Communion.  This,  however,  with  the  Plate, 
+has  been  claimed  and  recovered  by  the  Church  of  the  First 
+Parish,  and  is  now  employed  for  the  support- of  Unitarian 
+worship,  and  in  the  Unitarian  celebratiou  of  the  Sacrament. 
+Individual  members  of  the  First  Church  have  furnished  their 
+private  plate  for  Communion  seasons,  until  it  became  inexpe- 
+dient to  depend  any  longer  upon  such  supply.  In  this  extrem  • 
+ity,  the  providence  of  God  having  thrown  this  interesting  an  { 
+precious  manuscript  Auto-biography  in  our  way,  it  seemed 
+good  that  THOMAS  SHEPARD  should  have  the  delightfifl 
+privilege  of  furnishing  his  Church  with  the  means  of  celebra- 
+ting the  Ordinance  of  their  common  Saviour.  Accordingly  a 
+number  of  copies  of  the  Book  sufficient  to  defray  the  expense 
+of  a  plain  but  suitable  Communion  Service  being  engaged,  the 
+Church,  at  their  last  Communion  in  Nov.,  were  led  to  adore 
+the  providence  of  God,  in  supplying  their  necessities  in  this 
+interesting  and  affecting  manner.  It  required  no  effort  of 
+imagination  to  conceive  of  the  feelings  of  Thomas  Shepard, 
+were  he  permitted  to  see,  how  that  being  dead  he  yet  spake 
+to  us.  We  were  therefore  consoled  in  a  measure  for  the 
+spoiling  of  our  goods,  knowing  that  we  are  surrounded  by 
+such  witnesses,  and  in  the  belief  that  an  exception,  filed  by 
+him  at  the  Great  Tribunal,  to  the  treatment  of  his,  and 
+other  churches,  will  come  up  for  a  hearing  at  the  great  and 
+final  day. 
+
+This  book  which  is  now  for  the  first  time  presented  to  the 
+public  is  a  rare  specimen  of  ancient  Auto-biography.  It  is 
+in  the  form  of  a  21mo,  about  5  inches  by  3,  bound,  and  con- 
+taining 200  pages,  94  of  which  are  filled  with  the  Biogra- 
+phy, Diary,  and  a  few  scattered  accounts  of  the  Author's 
+pecuniary  concerns.  The  book  has  evidently  had  many 
+owners.  A  gentleman  in  Newbury  (Byfield)  wrote  to  the 
+Editor  that  it  was  in  the  possession  of  another  in  Mcdford» 
+
+
+On  aj)plication,  it  was  ascertained  that  it  belonged  to  the 
+Rev.  James  Blake  Howe,  of  Clarcmont,  N.  H.,  who,  upon 
+an  earnest  request,  very  politely  gave  it  to  the  present  owner, 
+in  trust,  for  the  First  Church,  connected  (in  reference  to 
+the  decisions  of  the  Courts)  with  a  new  Society,  called  the 
+"  Shepard  Congregational  Society," 
+
+This  MS.  is  in  all  probability  the  source  from  which 
+Cotton  Mather,  in  the  Magnalia,  drew  his  interesting  no- 
+tices of  Shepard.  By  a  comparison,  it  will  be  seen  that  the 
+extracts  in  the  Magnalia  are,  verbatim,  from  this  Biography^ 
+
+The  book,  in  addition  to  the  interest  which  it  will  give  to 
+the  lovers  of  antiquity,  and  of  the  curiosities  of  religious  lit- 
+erature, is  invaluable  as  a  specimen  of  simple,  childlike  con- 
+fidence in  God,  of  heartfelt  and  earnest  piety,  and  of  an  un- 
+aftected  devotional  spirit.  It  will  be  found  highly  instruc- 
+tive from  the  minute  account  given  of  the  writer's  religious 
+experience,  in  which  it  is  believed  many  will  find  great  light 
+and  direction. 
+
+The  original  orthography  has  been  carefully  preserved. 
+Several  sentences,  after  long  deliberation,  have  been  omitted 
+in  the  transcript,  as  they  were  conceived  to  be,  both  in  mat- 
+ter and  manner,  unsuited  to  what  some  call  the  fastidious- 
+ness, but  others  the  refinement  and  delicacy  of  the  age. 
+
+The  avails  of  this  book  will  be  applied  to  the  use  of  the 
+Church  with  which  the  Shepard  Society  is  connected. 
+
+Editor. 
+1* 
+
+
+mMmtim. 
+
+
+TO  MY  DEARE  SON, 
+
+VHOMilS    SKEFAF^B^ 
+
+;With  whom  I  leave  these  records  of  God's  great  kindness 
+
+to  him,  not  kiwwing  that  I  shall  live  to  tell  them 
+
+Bfiyselfe  with  my  own  mouth,  that  so  he  may 
+
+karne  to  know  &  love  the  great  & 
+
+most  high  God, 
+
+THE    GOD    OF    HIS-    FATHER, 
+
+
+Fae- Simile  of    Thonna^s  Sheparcl'i 
+liarid- writing-  . 
+
+
+01 
+
+not 
+
+
+(.i^  /S  Am.  ^-  H*  ^pA 
+
+
+Vendl^irns  Lithiprap?v^- ,  Bos^PTt 
+
+
+THE  FOLLOWING  CHAPTER  APPEARS  IN  THE  MS.  AS  AN 
+
+
+INTRODUCTION 
+
+
+In  the  yeare  of  the  Lord  1634,  Octob.  16  my- 
+selfe,  wife  and  family,  with  my  first  son  Thomas, 
+committed  ourselves  to  the  care  of  our  God  to 
+keepeuson,  and  carry  us  over  the  mighty  seas  from 
+old  England  to  New  England  ;  but  we  had  not  bin 
+two  days  on  the  sea  but  that  the  wind  arose  and 
+drave  our  ship  almost  upon  the  sands,  where  the 
+Lord  did  most  apparently  stretch  forth  his  hands  in 
+saving  us  from  them  when  we  were  within  a  very 
+little  ready  to  be  dasht  in  pieces  upon  them  ;  and 
+this  great  danger  of  sinking,  and  loosing  all  our 
+lives  was  twise  in  two  several  dayes,  that  if  there 
+had  not  bin  the  infinite  wisdom  and  power  of 
+God  to  helpe  us,  I  did  not  conceive  how  possibly 
+we  could  have  escaped  in  such  terrible  storms. 
+
+Now  one  cause  of  our  going  at  this  time  of 
+winter  was  because  we  were  persecuted  in  Old 
+England  for  the  truth  of  Christ  which  we  pro- 
+fessed there  ;  we  durst  not  stay  to  make  ourselves 
+known  there  which  would  have  bin  at  the  bapti- 
+
+
+O  INTRODUCTION. 
+
+zing  of  my  child  ;  hence  we  hastened  for  New 
+England. 
+
+After  that  we  came  from  the  sea,  my  first  son 
+fell  sick  in  passing  from  the  ship  to  the  shore  in 
+the  boat;  of  which  sickness,  within  a  fortnight 
+after,  he  died  at  Yarmouth  in  Old  England, 
+which  was  no  small  grief  to  us  ;  but  the  Lord 
+preserved  us,  and  provided  for  me  and  my  wife  a 
+hiding-place  from  the  knowledge  of  our  enemies 
+and  from  their  malice,  by  the  meanes  of  Mrs. 
+Corbet  in  Norfolk e,  in  one  of  whose  houses  we 
+stayed  all  that  hard  winter  with  our  dear  friend 
+Mr.  Roger  Harlakendon,  and  enjoyed  a  sweet 
+time  together  in  a  most  retyered  manner  ;  so  the 
+winter  being  spent,  we  were  much  perplexed 
+whither  to  goe,  and  where  to  stay  that  we  might 
+not  be  known,  and  keepe  my  second  child  so 
+secretly  as  that  it  might  not  be  baptised  until  it 
+came  to  take  of  that  ordinance  in  purity  in  old 
+England  ;  and  being  thus  doubtful  what  to  doe, 
+the  Lord  by  letters  from  London  called  us  to 
+come  thither,  where  my  wife  might  have  all  helpe 
+in  her  sickness  and  my  child  kept  secret;  and 
+this  we  concluded  for  to  doe,  and  therefore  tooke 
+our  leave  of  this  our  winter  house,  and  in  our 
+way  to  London,  we  went  to  Mr.  Burroughs  his 
+house  a  godly,  able  minister. 
+
+From  this  place  we  went  to  London,  and  there 
+the  Lord  provided  for  my   wife   and  sclfe   and 
+
+
+INTRODUCTION.  if 
+
+friends  a  very  private  house,  where  our  friends 
+did  us  all  the  good  they  could,  and  our  enemies 
+could  doe  us  no  hurt ;  where  my  wife,  on  the 
+sabbath  day  being  April  5,  1635,  was  delivered 
+mercifully  of  this  2d.  son  Thomas  ;  which  name 
+I  gave  him  because  we  thought  the  Lord  gave 
+me  the  first  son  I  lost  on  sea  in  this,  agayne,  and 
+hence  gave  him  his  brother's  name.  And  so  the 
+mother  growing  strong  the  child  began  to  grow 
+weake,  and  I  did  veryly  thinke  would  have  died 
+of  a  sore  mouth  ;  which  I  taking  to  hart,  the 
+Lord  awakened  me  in  the  night  and  stirred  mc 
+up  to  pray  for  him,  and  that  with  very  much 
+ferving  as  I  thought;  and  many  arguments  to 
+presse  the  Lord  for  his  life  came  in,  as : — 
+
+].  The  glory  the  Lord  should  have  by  be- 
+trusting  me  with  this  child,  he  should  be  the 
+Lord's  forever. 
+
+2.  Because  this  kindness  would  be  to  me  fruit  in 
+season,  if  in  the  time  of  my  privacy,  persecution, 
+and  sorrow  for  the  losse  of  my  first  child  he  would 
+give  me  this,  and  that  other,  in  this. 
+
+3.  Because  though  it  was  brought  very  low,  yet 
+then  was  the  Lord's  time  to  remember  to  helpe. 
+
+4.  Because  I  thought  if  the  Lord  should  not 
+hear  me  now,  my  soule  would  be  discouraged  from 
+seeking  to  him,  because  I  sought  for  the  first  and 
+could  not  prevayle  for  his  life,  and  this  was  sore 
+if  the  Lord  should  not  hear  me  for  this. 
+
+
+10  INTRODUCTIO.N. 
+
+5.  Because  all  healing  vertue  was  in  Xt.  Jesus 
+hands  who  was  very  tender  of  all  that  brought 
+their  sick  unto  him. 
+
+6.  Although  my  sins  might  hinder  him  from 
+doing  this,  yet  I  told  the  Lord  his  mercy  should 
+be  the  more  wonderfull  if  in  healing  my  child  of 
+his  sickness  he  would  withall  heal  me  of  my  sins  ; 
+— and  thus  after  a  sad  heavy  night  the  Lord 
+shined  upon  me  in  the  morning,  for  I  found  him 
+suddenly  and  strangely  amended  of  his  sore  mouth 
+which  I  did  expect  would  have  bin  his  death.  Oh 
+the  tenderness  of  our  God  !  Remember,  therefore, 
+my  son,  this  mercy  of  the  Lord  to  you.  Thus 
+the  child  with  the  mother  having  recovered  their 
+strength,  we  set  a  second  time  to  sea,  and  when 
+we  went,  the  child  was  so  feeble  that  diverse  of 
+our  friends  did  conclude  the  child  could  not  live 
+until  it  came  to  New  England  in  a  close  ship : 
+but  the  care  of  God  was  so  great,  that  it  was 
+made  much  better  by  the  sea,  and  more  lively 
+and  strong ;  and  in  this  voyage,  it  and  all  of  us 
+were  in  danger  of  being  drowned  by  a  most  ter- 
+rible leake  which  the  Lord  stopt  for  us ;  another 
+danger  in  the  ship  that  the  Lord  delivered  it 
+from  was  this.  The  ship  in  a  storm  tumbling 
+suddenly  on  the  one  side,  my  wife  having  the 
+child  in  her  arms  was  almost  pitcht  with  her 
+head  and  child  in  her  armes  agaynst  a  post  in 
+the  ship  ;  and  being  ready  to  fall  shec  felt  her- 
+
+
+INTRODL'CTIOX. 
+
+
+11 
+
+
+selfe  plucktback  by  shee  knew  not  what;  where- 
+by shoe  and  the  child  were  agayne  preserved  ; 
+and  I  cannot  ascribe  this  to  any  other  but  the 
+angels  of  God  who  are  ministering  spirits  for  the 
+heirs  of  life. 
+
+And  thus  after  about  eleven  weeks  sayle  from 
+old  England,  we  came  to  New  England  shore  : 
+where  the  mother  fell  sick  of  a  consumption  and 
+vou  my  child  wert  put  to  nurse  to  one  goodwife 
+Hopkins,  who  was  very  tender  of  thee:  and  af- 
+ter we  had  been  here  diverse  weekes  on  the  7th 
+of  February  or  there  about,  God  gave  thee  the 
+ordinance  of  baptism,  whereby  God  is  become 
+thy  God,  and  is  before  hand  with  thee,  that 
+whenever  you  shall  return  to  God,  he  will  un- 
+doubtedly receive  you  ;  and  this  is  a  most  high 
+and  happy  privilege ;  and  therefore  blesse  God 
+for  it.  And  now  after  that  this  had  bin  done,  thy 
+deare  mother  dyed  in  the  Lord,  departing  out  of 
+this  world  to  another,  who  did  loose  her  life  by 
+being  carefull  to  preserve  thine  ;  for  in  the  ship 
+thou  wert  so  feeble  and  froward  both  in  the  day 
+and  niofht,  that  hereby  shee  lost  her  strength  and 
+at  last  her  life.  Shee  hath  made  also  many  a 
+prayer  and  shed  many  a  tear  in  secret  for  thee  ; 
+and  this  hath  bin  oft  her  request  that  if  the  Lord 
+did  not  intend  to  glorify  himselfe  by  thee,  that  he 
+would  cut  thee  off  by  death  rather  than  to  live  to 
+dishonor  him  bv  sin  ;  and  therefore  know  it  that 
+
+
+12  INTRODUCTION. 
+
+if  you  shalt  turne  rebell  agaynst  God  and  forsake 
+God,  and  care  not  for  the  knowledge  of  him  nor 
+to  beleeve  in  his  Son,  the  Lord  will  make  all 
+these  mercys,  woes;  and  all  thy  mother's  prayers, 
+teares  and  death  to  be  a  swift  witness  agaynst 
+thee  at  the  great  day. 
+
+Thus  the  Lord  taking  away  thy  deare  mother's 
+life,  the  Lord  takes  care  for  thee  and  preserved 
+thee  in  health  untill  the  spring.  May  1,  1636. 
+And  now  the  hand  of  the  Lord  was  strecht 
+out  agaynst  my  child  ;  so  that  he  had  for  diverse 
+weekes  a  sore  mouth  both  within  and  without; 
+cheeks  and  lips  full  of  blisters  so  as  that  he  could 
+eat  no  meat,  only  suck  the  breast,  by  which  only 
+he  lived  a  long  time,  which  I  did  thinke  would 
+have  bin  its  death  agayne  ;  but  the  Lord  being 
+sought  unto  recovered  him  agayne,  and  then  the 
+humour  fell  into  his  eyes,  which  grew  so  sore 
+that  partly  by  the  humour  and  party  by  the  ill- 
+handling  and  applying  medicines  to  them,  his 
+eyes  grew  starke  blind  with  pearles  upon  both 
+eyes  and  a  white  film,  insomuch  as  it  was  a  most 
+dreadfull  sight  unto  all  the  beholders  of  him  and 
+very  pittifull ;  which  was  such  a  misery  that  me- 
+thought  now  I  had  rather  that  the  Lord  would  take 
+away  my  childe  by  death  than  let  it  lead  a  blind 
+and  a  miserable  life  :  but  the  Lord  saw  my  sor- 
+rowes,  my  teares,  my  poore  prayers  which  were 
+in  bitterness  for  him  ;  and  after  that   I  had  con- 
+
+
+INTRODUCTION.  13 
+
+eluded  I  must  have  a  blind  child  to  be  a  constant 
+sorrow  to  me  till  my  death,  and  was  made  to  be 
+contented  to  beare  the  indignation  of  the  Lord 
+because  I  had  sinned,  resolving  now  to  feare  nor 
+care  nor  greeve  no  more  but  to  be  thankfuU,  nay 
+to  love  the  Lord,  presently  I  say  upon  this  by 
+a  poore  weake  meanes,  vizt.  the  oyle  of  white  pa- 
+per, the  Lord  restored  my  child  to,  his  sight 
+suddenly  and  strangely,  I  may  aln.o.st  say  mirac- 
+ulously agayne,  which  was  no  small  joy  to  me 
+and  no  little  encouragement  to  doe  the  Lord's 
+worke  that  tooke  so  much  care  for  me  and 
+mine.  Now  consider,  my  son,  and  remember  to 
+lift  up  thy  eyes  to  heaven,  to  God  in  everlasting 
+prayses  of  him  and  dependance  upon  him ;  and 
+take  heed  thou  dost  not  make  thy  eyes  windowes 
+of  lust,  but  give  thy  eyes,  nay  thy  heart  and  whole 
+soule  and  body  to  him  that  hath  been  so  carefull 
+of  thee  when  thou  couldst  not  care  for  thyselfe. 
+
+
+m. 
+
+
+x\U  TO  BIOGRAPHY. 
+
+
+MY  EIHTH  &  LIFE, 
+
+
+}s, 
+
+
+In  the  yeare  of  Christ  1605  upon  the  5  day 
+of  Iiovember,  called  the  Powder  treason  day, 
+h  that  very  hoiire  of  the  day  wherin  the  Parla- 
+Rient  should  have  bm  blown  up  by  Popish 
+priests,  I  was  then  borne;  which  occasioned  my 
+father  to  give  me  this  name  Thomas,  because  he 
+sayd  I  would  hardly  belceve  that  ever  any  such 
+wickedness  should  be  attempted  by  men  agaynst 
+so  religious  and  good  Parlament.  My  father's 
+name  was  William  Shepard,  borne  in  a  little 
+poGie  towne  in  Northamptonshire  called  Fos- 
+secut  neare  Towcester,  h  being  a  prentice  to 
+on  Mr.  Sland  a  groser  he  marryed  on  of  his 
+daughters,  of  whom  he  begat  many  children; 
+C  scn;j,  John,  William  &  Thomas;  &  6  daugh- 
+ters; An,  Margaret,  Mary,  Elizabeth,  Hestor, 
+Sarah;  of  all  which  only  John,  Thomas,  Anna 
+Sc  Margaret   are  still  living  in  the  Town  where 
+
+
+16  MEMOIRS    OF 
+
+I  was  born,  viz.  Towcester  in  Northamptonshire, 
+6  miles  distant  from  the  towne  of  Northampton 
+in  old  England.  I  do  well  remember  my  father 
+&  have  some  little  remembrance  of  my  mother. 
+My  father  was  a  wise  prudent  man,  the  peace- 
+maker of  the  place,  &  toward  his  latter  end 
+much  blessed  of  God  in  his  estate  &  in  his  soule. 
+For  there  being  no  good  ministry  in  the  town, 
+he  was  resolved  to  goe  St  live  at  Banbury  in 
+Oxfordshire,  under  a  stirring  ministry  having 
+bought  a  house  there  for  that  end.  My  mother 
+was  a  woman  much  afflicted  in  conscience 
+sometimes  even  unto  distraction  of  mind,  yet 
+^vas  sweetly  recovered  agayne  before  shoe  died. 
+
+1  being  the  youngest,  shee  did  beare  exceeding 
+great  love  to  me,  &  made  many  prayers  for  me; 
+but  shee  died  when  I  was  about  4  years  old  & 
+my  father  lived  8t  marryed  a  second  wife  now 
+dwelling  in  the  same  town,  of  whom  he  begat 
+
+2  children,  Samuell  &  Elizabeth,  and  died  when 
+I  was  about  10  yeares  of  age.  But  while  my 
+father  &  mother  lived,  when  I  was  about  3 
+yeares  old  there  was  a  great  plague  in  the  Town 
+of  Towcester,  which  swept  away  many  in  my 
+father's  family,  both  sisters  k  servants,  I 
+being  the  youngest  Sc  best  beloved  of  my  mother 
+was  sent  away  the  day  the  plague  brake  out  to 
+live  with  my  aged  grandfather  &.  grandmother 
+in   Fossecut^   a  most   blind  town  ii  corner,  & 
+
+
+TH03IAS    SHEPARD.  17 
+
+those  I  lived  with  also  being  very  well  to  live 
+yet  very  ignorant;  <5l  there  was  I  put  to  keepe 
+geese  cc  other  such  country  woorke,  all  that 
+time  much  neglected  of  them,  &  afterwards 
+sent  from  them  unto  Adthrop,  a  little  blind 
+town  adjoining,  to  my  uncle,  where  I  had 
+more  content  but  did  learne  to  sing  St  sport  as 
+children  do  in  those  parts,  &-  dance  at  their 
+Whitson  Ales;  untill  the  plague  was  removed 
+St  my  deare  mother  dead,  who  died  not  of  the 
+plague  but  of  some  ( ther  disease  after  it;  St 
+being  come  home  my  sister  An  marryed  to  on 
+Mr.  Farmer,  St  my  sister  JMargaret  loved  mc 
+much,  who  afterward  marryed  to  my  father's 
+prentice,  viz;  Mr.  Mapler;  &.  my  father  mar- 
+ryed agayne  to  another  woman  who  did  let  me 
+see  the  difference  between  n:y  own  mother  & 
+a  step-mother;  shee  did  seeme  not  to  love  me  but 
+incensed  my  father  agaynst  me;  it  may  be  that 
+it  was  justly  also  for  my  childishness;  St  having 
+lived  thus  for  a  time,  n.y  father  sent  me  to 
+schoole  to  a  W^'lch  man,  on  >lr.  Rico,  who 
+kept  the  Free  schoole  in  the  town  of  Towces- 
+ter;  but  he  was  exceeding  curst  St  cruell  St 
+would  deale  rongly  v/ith  me,  &/  so  discouraged 
+me  wholly  f;(  m  desire  of  learni  ?>  that  I  re- 
+member I  wished  oftentimes  myselfe  in  any  con- 
+dition to  keepe  hogs  or  beasts  rather  than  to 
+goe  to  schoole  St  learne.  But  my  father  was 
+2* 
+
+
+18  MEMOIRS   OP 
+
+visited  at  last  with  sickness,  having  taken  some 
+€old  upon  some  pills  he  tooke  &  so  had  the 
+Hicketo  with  his  sickness  a  weeke  together,  in 
+which  time  I  do  remember  I  did  pray  very 
+strongly  &.  hartily  for  the  life  of  my  father,  8t 
+made  some  covenant,  if  God  would  do  it  to 
+serve  him  the  better,  as  knowing  I  should  be 
+left  alone  if  he  was  gone;  yet  the  Lord  tooke 
+him  away  by  death,  &  so  I  was  left  fatherless  &. 
+motherless  when  I  was  about  10  yeares  old,  8c 
+was  committed  to  my  step-mother  to  be  edu- 
+cated, who  therefore  had  my  portion  which  was 
+a  100  lb.  which  my  father  left  me.  But  shee 
+neglecting  my  education  very  much,  my  brother 
+John  who  was  my  only  brother  alive  desired  to 
+have  me  out  of  her  hands,  to  have  me  with  him, 
+&  he  would  bring  me  up  for  the  use  of  my  por- 
+tion, &  so  at  last  it  was  granted.  And  so  I 
+lived  with  this  my  eldest  brother,  who  showed 
+much  love  unto  me  &  unto  whom  I  owe  much; 
+for  him  God  made  to  be  both  father  and  mother 
+unto  me.  And  it  happened  that  the  cruell 
+schoolmaster  died  &  another  came  into  his 
+roome,  to  be  a  preacher  also  in  the  town  who 
+was  an  eminent  preacher  in  those  dayes  St  ac- 
+counted holy,  but  afterward  turned  a  great 
+Apostate  &&  enemy  to  all  righteousness,  St  I 
+feare  did  commit  the  unpardonable  sin.  Yet 
+it  so  fell  out  by  God's  good  providence  that  this 
+
+
+THOMAS    SHEPARD.  19 
+
+man  stirred  up  in  my  hart  a  love  Sl  desire  of 
+the  honour  of  learning,  St  therefore  I  told  my 
+friends  I  would  be  a  scholar;  &  so  the  Lord 
+blessed  me  in  my  studies  St  gave  me  some 
+knowledge  of  the  Latine  &  Greeke  tongues,  but 
+much  ungrounded  in  both.  But  I  was  studious 
+because  I  was  ambitious  of  learning  &.  being  a 
+scholar;  &  hence  when  I  could  not  take  notes 
+of  the  sermon,  I  remember  I  was  troubled  at 
+it  Sl  prayed  the  Lord  earnestly  that  he  would 
+helpe  me  to  note  sermons.  And  I  see  cause 
+of  woondring  at  the  Lord's  providence  therein, 
+for  as  soone  as  ever  1  had  prayed  (after  my  best 
+fashion)  then  for  it,  I  presently  the  next  Sab- 
+bath was  able  to  take  notes  who  the  precedent 
+Sabbath  could  do  nothing  at  all  that  way.  So  I 
+continued  till  I  was  about  15  yeares  of  age,  & 
+then  was  conceived  to  be  ripe  for  the  Universi- 
+ty. And  it  pleased  the  Lord  to  put  it  into  my 
+brother's  hart  to  provide  St  to  seeke  to  prepare  a 
+place  for  me  there,  which  was  done  in  this  man- 
+ner: On  Mr.  Cockerille,  fellow  of  Emanuel 
+Colledge  in  Cambridge,  being  a  Northampton- 
+shire man  came  down  into  the  country  to  North- 
+ampton, St  so  sent  for  me,  who  upon  examination 
+of  me  gave  my  brother  incouragement  to  send 
+me  up  to  Cambridge.  And  so  I  came  up,  St 
+though  I  was  very  raw  St  young,  yet  it  pleased 
+God  to  open  the  harts  of  others  to   admit  me 
+
+
+%U  3IEM0IRS    OF 
+
+into  the  Colledge  a  pensioner,  &  so  Mr.  Cocke- 
+rill  became  my  Tutour.  But  I  doe  here  won- 
+der &  I  hope  shall  blesse  the  Lord  forever  in 
+heaven  that  the  Lord  did  so  graciously  provide 
+for  me.  For  I  have  oft  thought  what  a  wofull 
+estate  I  had  bin  left  in,  if  the  Lord  had  left  me 
+in  that  prophane,  ignorant  town  of  Towcester 
+where  I  was  borne,  that  the  Lord  should  pluck 
+mee  out  of  that  sink  Si  Sodom,  who  was  the 
+least  in  my  father's  house,  forsaken  of  father 
+&  mother,  yet  that  the  Lord  should  fetch  me 
+out  from  thence  by  such  a  sweat  hand. 
+
+The  first  two  years  I  spent  in  Cambridge  was 
+in  studying  and  in  neg'ect  of  G  )d  St  private 
+prayer  which  I  had  sometimes  used,  and  I  did 
+not  regard  the  Lord  at  all  unless  it  were  at 
+some  fits.  The  third  yeare  wherin  I  was  Soph- 
+ister  I  began  to  be  foolish  Sc  proud,  to  show 
+myselfe  in  the  public  schooles  there  to  be  a 
+disputer  about  things  which  now  I  see  I  did  not 
+know  then  at  all  but  only  prated  about  them. 
+Toward  the  end  of  this  yeare,  when  I  was  most 
+vile,  (after  I  had  been  next  unto  the  gates  of 
+death  by  the  small  pox  the  yeare  before)  the 
+Lord  began  to  call  me  home  to  the  fellowship  of 
+his  grace,  which  was  in  this  manner. 
+
+1.  I  doe  remember  that  I  had  many  good 
+affections  (but  blind  Cv  unconstant)  oft  cast  into 
+me   since  my  father's  sickness  by  the  spirit  of 
+
+
+THOMAS    SHEFARD.  21 
+
+God  wrastling  with  me;  6l  hence  T  would  pray 
+in  secret,  &.  hence  when  I  was  at  Cambridge  I 
+heard  old  Doctor  Chadderton  the  master  of  the 
+Colledge  when  I  came,  &  the  first  yeare  I  was 
+there  to  heare  him  upon  a  Sacrament  Day  my 
+hart  was  much  affected  ;  but  I  did  brake  loose 
+from  the  Lord  agayne,  &  half  a  yeare  after  I 
+heard  Mr.  Dickinson  common  place  in  the 
+chappel  upon  these  words,  "  I  will  not  destroy 
+it  for  ten's  sake,"  Gen:  19.  &  then  agayne  was 
+much  affected,  but  I  shooke  this  off  also  &  fell 
+from  God  to  loose  &-  lewd  company,  to  lust  &. 
+pride  St  gaming  &.  bowling  8t  drinking;  yet 
+the  Lord  left  me  not,  but  a  godly  schollar  walk- 
+ing with  me  fell  to  discourse  about  the  misery 
+of  every  man  out  of  Xt.,  viz:  that  whatever 
+they  did  was  sin;  &  this  did  much  affect  me; 
+&  at  another  time  when  I  did  light  in  godly 
+company  I  heard  them  discourse  about  the 
+wrath  of  God  &  the  terrour  of  it,  &  how  intol- 
+lerable  it  was,  which  they  did  present  by  fire, 
+how  intolerable  the  torment  of  that  was  for  a 
+time;  what  then  would  eternity  be? — this  did 
+much  awaken  me,  &  I  began  to  pray  agayne; 
+but  then  by  loose  company  I  came  to  dispute  in 
+the  schooles,  Sl  then  to  joyne  to  loose  schollars 
+of  other  colledges,  &  was  fearfully  left  of  God,  &, 
+fell  to  drinke  with  them,  &  I  dranke  so  much 
+on  day  that  T  was  dead  drunk,    &  that  upon  a 
+
+
+22  3IEM0IR«    OF 
+
+Saturday  night  &  was  so  carry ed  from  the  place 
+I  had  drinked  at,  &  did  feast  at,  unto  a  schol- 
+lar's  chamber,  on  Basset  of  x's.  colledge;  & 
+knev/  not  vvhere  I  was  until  I  awakened  late  on 
+that  Sabbath  &  sick  with  my  beastly  carnage, 
+&  when  I  awakened  I  went  from  him  in  shame 
+&  confusion  &  went  out  into  the  fealds  &  there 
+spent  that  Sabbath  lying  hid  in  the  cornfealds, 
+where  the  Lord  vvho  might  justly  have  cut  me 
+off  in  the  midst  of  my  sin,  did  meet  me  with 
+much  sadness  of  hart  &  troubled  my  soule  for 
+this  St  other  my  sins  which  then  I  had  cause 
+Sc  leysure  to  thinke  of,  &t  now  when  I  was 
+woorst  he  began  to  be  best  unto  me,  &  made  me 
+resolve  to  set  upon  a  course  of  dayly  medita- 
+tion about  the  evill  of  sin  Sc  my  own  wayes; 
+yet  although  I  v/as  troubled  for  this  sin,  I  did 
+not  know  my  sinfull  nature  all  this  while. 
+
+2.  The  Lord  therefore  sent  Doctor  Preston  to 
+be  master  of  the  colledge,  &  Mr.  Ston  k  others 
+commiCnding  his  preaching  to  be  most  spirituall 
+&  excellent,  I  began  to  listen  unto  what  he 
+sayd.  The  first  sermon  he  preached  was  Rom: 
+12:  Be  renewed  in  the  spirit  of  your  irund;  in 
+opening  which  point,  viz.,  the  change  of  hart  in 
+a  xian.,  the  Lord  co  bored  my  eares  ac  that  I 
+understood  what  he  spake,  £l  the  secrets  of  my 
+soule  v/ere  laid  open  before  me,  the  hypocrisy 
+of  all  ray  good  things  I  thought  I  had  in  me;  z.z 
+
+
+THOMAS    SHEPAtin.  23 
+
+if  one  had  told  him  of  all  that  ever  I  did,  of  all 
+the  turnings  Sc  deceyts  of  my  hart;  insomuch  as 
+that  I  thought  he  was  the  most  searching 
+preacher  in  the  woorld;  and  I  began  to  love 
+him  much  &  to  blesse  God  I  did  see  my  frame 
+&  my  hypocrisy  St  selfe  &.  secret  sins;  although 
+I  found  a  hard  hart  &  could  not  be  afiected  with 
+them. 
+
+3.  I  did  therefore  set  more  constantly,  viz. 
+lG!24,May  3,  upon  this  worke  ofdayly  meditation, 
+sometimes  every  morning,  but  constantly  every 
+evening,  before  supper,  St  my  cheefe  meditation 
+was  about  the  evil  of  sin,  the  terrour  of  God's 
+wrath,  day  of  death,  beauty  of  xt.,  the  deceit- 
+fulness  of  the  hart,  Sec.  ;  but  principally  I  found 
+this  my  misery,  sin  was  not  my  greatest  evil, 
+did  ly  light  upon  me  as  yet,  yet  1  was  much 
+afrayd  of  death  St  the  flames  of  God's  wrath;  St 
+this  I  remember,  I  never  went  out  to  meditate  in 
+the  feelds,  but  I  did  find  tlie  Lord  teaching  me 
+somewhat  of  myselfe  or  himselfe,  or  the  vanity 
+of  the  worlde  I  never  saw  before;  &l  hence  I 
+tooke  out  a  little  booke  I  have  into  the  feelds, 
+&/  writ  down  v»hat  God  taught  me  least  I  should 
+forget  them,  &  so  the  Lord  encouraged  me,  &  I 
+grew  much;  but  in  my  observation  of  myselfe  I 
+did  see  my  Atheisme;  I  questioned  whether 
+there  were  a  God,  my  unbeleefe  whether  xt. 
+was  the  Messiah,  whether  the  Scriptures  were 
+
+
+24  MEMOIRS    OF 
+
+God's  word  or  no;  I  felt  all  manner  of  tempta- 
+tions to  all  kind  of  religions  not  knowing  which 
+I  should  choose;  whether  education  might  not 
+make  me  beleeve  what  I  had  beleeved,  &> 
+whether  if  I  had  bin  educated  up  among  the 
+Papists  I  should  not  have  bin  as  verily  per- 
+suaded that  Popery  is  the  truth  or  Turcisme  is 
+the  truth;  &  at  last  1  heard  of  Grindletonj  8t  I 
+did  question  whether  that  glorious  estate  of 
+perfection  mi^ht  not  be  the  truth,  &  whether 
+old  Mr.  Rogers's  Treatises  &,  the  practice  of 
+Xianity,  the  booke  which  did  first  worke  upon  my 
+hart,  whether  these  men  were  not  all  Legall  men, 
+&  there  bookes  so;  but  the  Lord  delivered  me 
+at  last  from  them;  &  in  the  conclusion  after 
+many  prayers,  meditations  &  duties,  the  Lord 
+let  me  see  3  mayne  wounds  in  my  soule.  L  I 
+could  not  feele  sin  as  my  greatest  evil.  2. 1  could 
+do  nothing  but  I  did  seeke  myselfe  in  it  &  was 
+imprisoned  there,  &  though  I  desired  to  be  a 
+preacher,  yet  it  was  honour  I  did  looke  too,  like 
+a  vile  wretch  in  the  use  of  God's  gifts  I  desired 
+to  have.  3.  I  felt  a  depth  of  Atheisme  &  unbe- 
+leefe  in  the  maine  matters  of  salvation,  &  wheth- 
+er the  Scriptures  were  God's  word;  these  things 
+did  much  trouble  me,  8c  in  the  conclusion  did  so 
+far  trouble  me,  that  I  could  not  read  the  Scrip- 
+tures or  hear  them  read  without  secret  8t  hel- 
+lish blasphemy,  calling  all  into  question,  &  all 
+
+
+THOMAS    SHEPARD.  25 
+
+X's.  miracles;  &  hereupon  I  fell  to  doubt  wheth- 
+er I  had  not  committed  the  unpardonable  sin; 
+&  because  I  did  question  whether  X  did  not 
+cast  out  devils  from  Beelzebub,  I  did  thinke 
+£t  feare  I  had;  &.  now  the  terrours  of  the  Lord 
+began  to  breake  in  like  floods  of  fire  into  my 
+soule;  for  three  quarters  of  a  year  this  tempta- 
+tion did  last,  8t  I  had  some  strong  temptations 
+to  run  my  head  agaynst  walls  St  braine  &,  kill 
+myselfe;  &  so  I  did  see  as  I  thought  God's  eter- 
+nal reprobation  of  me,  a  fruit  of  which  was  this 
+dereliction  to  these  doubts  &  darkness,  &-  I  did 
+see  God  like  a  consuming  fire,  &  an  everlast- 
+ing burning,  &  myselfe  like  a  poor  prisoner 
+leading  to  that  fire,  &l  the  thoughts  of  eternall 
+reprobation  &.  torment  did  amaze  my  spirits, 
+especially  atone  time  upon  a  sabbath  day  at  eve- 
+ning &  when  I  knew  not  what  to  do  (fori  went 
+to  no  xian,  8c  was  ashamed  to  speake  of  these 
+things)  it  came  to  my  mind  that  I  should  do  as 
+X  did;  when  he  was  in  an  agony,  he  prayed 
+earnestly;  &-  so  I  fell  down  to  prayer,  &  being 
+in  prayer,  I  saw  myselfe  so  unholy  &  God  so 
+holy  that  my  spirits  began  to  sinke ;  yet  the 
+Lord  recovered  me  &  poured  out  a  spirit  of 
+prayer  upon  me  for  free  mercy  &l  pitty,  &  in 
+the  conclusion  of  the  prayer,  I  found  the  Lord 
+helping  me  to  see  my  unworthiness  of  any 
+mercy,  &  that  T  was  worthy  to  be   cast   out  of 
+
+
+26  MEMOIRS    OF 
+
+his  sight,  &  so  leave  myselfe  with  him  to  do 
+with  me  what  he  would  ;  &  then  &  never  un- 
+til then  I  found  rest;  &-  so  my  heart  was  hum- 
+bled &L  cast  down,  &  1  v/ent  with  a  stayed 
+heart  unto  supper  late  that  night,  &  rested  there; 
+&L  SO  the  terrour  of  the  Lord  began  to  assuage 
+sweetly,  yet  when  thcce  were  gone  I  felt  my 
+sheeldlessnessof  sin  St  bondage  to  self  Sl  uncon- 
+stancy  &  loosing  what  the  Lord  had  wrought; 
+&  my  hartlessness  &■  loathing  of  God's  wayes; 
+whereupon  walking  in  the  feelds  the  Lord 
+dropt  this  meditation  unto  me:  Be  not  discour- 
+aged therefore  because  thou  art  so  vile,  but 
+make  this  double  use  of  it;  1.  loathe  thyselfc 
+the  more;  2.  feele  a  greater  neede  &  put  a 
+greater  price  upon  Jesus  X,  who  only  can  sub- 
+due thee  from  all  sin;  &  this  I  found  of  won- 
+derfull  use  to  me  in  all  my  course,  whereby  I 
+was  kept  from  sinkings  of  hart,  &  did  beat 
+Satan  as  it  were  with  his  own  weapons;  &  saw 
+Xt.  teaching  me  this  before  any  man  preached 
+any  such  thing  unto  me.  And  so  the  Lord  did 
+helpe  me  to  loathe  myselfe  in  some  measure,  &. 
+to  say  oft  why  should  I  seeke  the  glory  &.  good 
+of  myselfe,  who  am  the  greatest  enemy,  worse 
+than  the  devil  can  be  agaynst  myselfe,  which 
+selfe  ruins  me,  &-  blinds  mee  ^c. ;  &  thus  God 
+kept  my  hart  exercised,  &  here  I  began  to  for- 
+sake my  loose  company  wholly,  &.  to  do   what 
+
+
+THOMAS    SHEPARD.  27 
+
+I  could  to  worke  upon  the  harts  of  other  schol- 
+lars,  &  to  humble  them,  &  to  come  into  a  way 
+of  holy  walking  in  our  speeches  &  otherwise; 
+(but  yet  I  had  no  assurance  that  Xt.  was  mine.) 
+
+4.  The  Lord  therefore  brought  Dr.  Preston 
+to  preach  from  that  text  1  Cor.  1:  30,  Xt.  is 
+made  unto  us  wisdom,  righteousness,  sanctifi- 
+cation  &  redemption;  &  when  he  had  opened 
+how  ail  the  good  I  had,  all  the  redemption  I 
+had,  it  was  from  Jesus  Xt.,  I  did  then  begin  to 
+prise  him,  St  he  became  very  sweet  unto  me, 
+although  I  had  heard  many  a  time  Xt.  freely 
+offered  by  his  ministry  if  he  would  come  in,  &. 
+receive  him  as  Lord  &  Saviour  &  husband;  but 
+I  found  my  heart  ever  unwilling  to  accept  of 
+Xt.  upon  these  grounds;  I  found  them  impossi- 
+ble for  me  to  keepe  that  condition,  &  Xt.  was 
+not  so  sweet  as  my  lust,  but  now  the  Lord  made 
+himself  sweet  to  me  &  to  embrace  him  St  to 
+give  up  myselfe  unto  him;  but  yet  after  this  I 
+had  many  feares  St  doubts. 
+
+5.  I  found  therefore  the  Lord  revealing  free 
+mercy,  St  that  all  my  heipe  was  in  that,  to  give 
+me  Xt.,  St  so  to  enable  me  to  beleeve  in  xt., 
+St  accept  of  him,  &  here  I  did  rest.  The  Lord 
+also  letting  mee  see  my  constant  vileness  in 
+everything.  6.  Put  mee  to  this  question:  why 
+did  the  Lord  Jesus  keepe  the  Law.?  [Hee] 
+had  no  guile  in  his  hart,  St  had  no  unbrokenness, 
+
+
+28  MEMOIRS    OP 
+
+but  holiness  there.  Was  it  not  for  them  that 
+did  want  it;  &  here  I  saw  Xt.  Jesus'  righteous- 
+ness for  a  poore  sinner's  ungodliness:  but  yet 
+questioning-  whether  ever  the  Lord  would  ap- 
+ply this  &  give  this  unto  mee. 
+
+7.  The  Lord  made  mee  see  that  so  many  as 
+received  him,  he  gave  power  to  become  the  sons 
+of  God,  John  1:  12;  Sc  I  saw  the  Lord  gave 
+me  a  hart  to  receive  Xt.,  with  a  naked  hand 
+even  a  naked  xt.,  &  so  hee  gave  me  peace. 
+
+And  thus  I  continued  till  I  was  Gyeares  stand- 
+ing, &L  then  went  halfe  a  yeare  before  I  was 
+Master  of  Arts,  to  Mr.  Weld's  house  at  Tar- 
+ling,  where  I  enjoyed  the  blessing  of  his  &  Mr. 
+Hooker's  ministry  at  Chelmsford;  but  before  I 
+came  there  I  was  very  solicitous  what  would 
+become  of  me  when  I  was  Master  of  Arts;  for 
+then  my  time  &  portion  would  be  spent,  but 
+when  I  came  thither  &  had  bin  there  some  little 
+season  until  I  was  ready  to  be  Master  of  Arts, 
+Dr.  AVilson  had  purposed  to  get  me  upon  a  lee* 
+ture,  &  give  30  lb.  per  annum  for  the  mainte- 
+nance of  it;  &L  when  I  was  among  those  worthies 
+in  Essex,  where  we  had  monthly  fasts,  they  did 
+propound  it  unto  mee  to  take  (he  Lecture  &.  to 
+set  it  up  at  a  great  town  in  Essex  called  Cogs- 
+hall.  And  so  Mr.  Weld  especially  prest  me 
+unto  it  &L  wished  me  to  seeke  God  about  it; 
+&  after  fasting  &  prayer,  the  ministers  in  those 
+
+
+THOMAS    SHEPARD.  29 
+
+parts  of  Essex  had  a  day  of  humiliation  k  they 
+did  seeke  the  Lord  for  direction  where  to  place 
+the  Lecture,  Sc  toward  the  evening  of  that  day 
+they  began  to  consider  whether  I  should  goe 
+to  Cogshall  or  not.  JMost  of  the  ministers  were 
+for  it,  because  it  was  a  great  town,  &  they  did 
+not  knov/  any  place  that  did  desire  it  but  they. 
+Mr.  Hooker  only  did  object  agaynst  my  going 
+thither,  for  being  but  young  &,  unexperienced, 
+&  there  being  an  old  yet  sly  8c  malicious  minis- 
+ter in  the  town,  who  did  seem,  to  give  waye  to 
+it  to  have  it  there,  did  therefore  say  it  was  dan- 
+gerous for  little  birds  to  build  under  the  nests 
+of  old  ravens  &  kites.  But  while  they  were 
+thus  debating  it,  the  town  of  Earles-Colne 
+being  3  miles  off  from  Essex,  hearing  that  there 
+was  such  a  lecture  to  be  given  freely,  &  con- 
+sidering that  the  lecture  might  convict  that 
+poore  towne,  they  did  therefore  just  at  this  time 
+of  the  day  come  to  the  place  where  the  minis- 
+ters met,  viz.  at  Tarling  in  Essex  to  desire  that 
+it  mi^'ht  be  settled  there  for  three  yeares  (for 
+no  longer  was  it  to  continue  in  any  place  be- 
+cause it  was  conceived  if  any  good  was  done, 
+it  would  be  within  such  a  time,  &  then  if  it  went 
+away  from  them,  the  people  in  a  populous 
+towne  would  be  glad  to  maintayne  the  man 
+themselves,  or  if  no  good  was  done  it  was  pitty 
+they  should  have  it  any  longer.)  When  they 
+3* 
+
+
+39  MEMOIRS    OP 
+
+thus  came  for  it  the  ministers  with  one  joynt 
+consent  advised  me  to  accept  of  the  people's 
+call,  &  to  stay  among  them,  if  I  found  upon  my 
+preaching  a  little  season  with  them  that  they  still 
+continued  in  their  desires  for  my  continuance 
+there.  Thus  I,  who  was  so  young,  so  weake, 
+unexperienced  Sc  unfit  for  so  great  a  woorke, 
+was  called  out  by  12  or  16  ministers  of  Xt.  to 
+the  woorke,  which  did  much  incourage  my  hart 
+&  for  the  Lord's  goodness  herein  I  shall  I  hope 
+never  forget  his  love,  for  I  might  have  been 
+cast  away  upon  a  blind  place  without  the  helpe 
+of  any  ministry  about  me  ;  I  might  have  been 
+sent  to  some  gentleman's  house  to  have  bin 
+corrupted  with  the  sins  in  it;  but  this  I  have 
+found,  the  Lord  was  not  content  to  take  me 
+from  one  town  to  another,  but  from  the  woorst 
+town  I  thinke  in  the  woorld  to  the  best  place 
+for  knowledge  &  learning,  viz.,  to  Cambridge, 
+&  there  the  Lord  was  not  content  to  give  me 
+good  meanes,  but  the  best  meanes,  8t  minis- 
+try &  help  of  private  xtians.,  for  Dr.  Preston  & 
+Mr.  Goodwin  were  the  most  able  men  for 
+preaching  Xt.  in  this  latter  age;  &l  when  I 
+came  from  thence,  the  Lord  sent  me  to  the  best 
+county  in  England,  viz.,  to  Essex,  &c  set  me  in 
+the  midst  of  the  best  ministry  in  the  country,  by 
+whose  monthely  fasts  h,  conferences  I  found 
+much  of  God,  &  thus  the  Lord  Jesus  provided 
+
+
+THOMAS    SHEPARD.  3l 
+
+for  me  of  all  thinors  of  the  best.  So  beincp  re- 
+solved  to  goe  unto  Earles-Colne  in  Essex,  after 
+my  commencing  Mr.  of  Arts,  k  my  sinful  taking 
+of  orders  about  a  fortnight  after  of  the  Bishop 
+of  Peterborovv,  viz.,  B.  Dove;  I  came  to  the 
+town  8c  boarded  in  Mr.  Cosins  his  house,  an 
+aged  but  godly  &,  cheerful  xtian  &  school- 
+master in  the  town,  by  whose  society  I  was 
+much  refreshed,  there  being  not  one  man  else 
+in  all  the  town  that  had  any  godliness  but  him, 
+that  I  could  understand;  so  having  preached 
+upon  the  Sabbath  day  out  of  2.  Cor.  5.  19.,  all 
+the  town  gave  me  a  call,  &  set  to  their  hands  in 
+writing,  &  so  I  saw  God  would  have  me  to  be 
+there,  but  how  to  be  there  &  continue  there  I 
+could  not  tell;  yet  1  sinfully  got  a  license  to 
+officiate  the  cure  of  the  Bishop  of  London's 
+register  before  my  name  was  known;  by  ver- 
+tue  of  that  I  had  much  helpe,  but  when  I  had 
+been  here  awhile  &  the  Lord  had  blessed  my 
+labours  to  diverse  in  &  out  of  the  town,  espe- 
+cially to  the  cheef  house  in  the  town,  the  Pria- 
+ry,  Mr.  Harlakinder's  children,  where  the  Lord 
+wrought  mightily  upon  his  eldest  son,  Richard, 
+(now  dwelling  there)  &  afterward  on  Mr.  Rog- 
+er, who  came  over  with  mee  to  New  England 
+&  dyed  here,  Satan  began  to  rage,  &  the  Com- 
+missaries, registers,  &.  others  to  pursue  me  &. 
+to  threaten  me,  as  thinking  I  was  a  Noncon- 
+
+
+32  WEMoms  OF 
+
+foimable  man;  (when  for  the  most  of  that  time 
+I  was  not  resolved  either  way,  but  w^as  darke  in 
+those  things)  yet  the  Lord  having  v/oorke  to 
+do  in  the  place  kept  me  a  poore  ignorant  thing 
+agaynst  them  all  untill  such  time  as  my  woorke 
+was  done,  by  strange  &  wonderfull  means.  Not- 
+withstanding all  the  malice  of  the  ministers 
+round  about  me,  the  Lord  had  one  way  or 
+other  to  deliver  me.  The  course  I  tooke  in  my 
+preaching  was  1 .  to  shew  the  people  their  mis- 
+ery. 2.  The  remedy,  xt.  Jesus.  3.  How  they 
+should  walke  answerable  to  his  mercy  being  re- 
+deemed by  Xt.,  &  so  I  found  the  Lord  putting 
+forth  his  strength  in  my  extreame  weakness,  k. 
+not  forsaking  of  me  when  I  was  so  foolish  as  I 
+have  w^ondered  since  why  the  Lord  hath  done 
+any  good  to  mee  &  by  m.ee.  So  the  time  of  3 
+yeares  being  expired  the  people  Vvould  not  let 
+me  goe,  but  gathered  about  <£40  yearly  for  me, 
+£v  so  I  was  intended  to  stay  there  if  the  Lord 
+would,  &  prevayled  to  set  up  the  lecture  in  the 
+town  of  Towcester,  where  I  was  borne,  as  know- 
+ing no  greater  love  I  could  express  to  my  pooro 
+freends  than  thus;  &  so  Mr.  Ston  (Dr.  Wilson 
+giving  way  thereto)  had  the  lecture  &  went  to 
+Towcester  with,  it,  where  the  Lord  was  with  him, 
+&  thus  I  saw  the  Lord's  mercy  following  me  to 
+make  me  a  poor  instrument  of  s(!nding  the  gos- 
+pell  to  the  place  of  my  nativity. 
+
+
+THOMAS    SHEPARD. 
+
+
+33 
+
+
+So  when  I  had  preached  awhile  at  Earles- 
+Colne  about  half  a  yeare,  the  Lord  saw  me  un- 
+fit &.  unworthy  to  continue  me  there  any  longer, 
+&L  so  the  Bishop  of  London  Mountaigne  being 
+removed  to  Yorke,  8t  Bishop  Laud  (now  Arch- 
+Bishop)  coming  in  his  place  as  a  fierce  enemy 
+to  all  righteousness  6l  a  man  fitted  of  God  to 
+be  a  scourge  to  his  people,  he  presently  (not 
+having  been  long  in  the  place)  but  sent  for  me 
+up  to  London,  k,  there  never  asking  me  wheth- 
+er I  would  subscribe,  (as  I  remember)  but  what 
+I  had  to  do  to  preach  in  his  Diocesse,  chiding 
+also  Dr.  Wilson  for  setting  up  this  lecture  in 
+his  Diocesse.  After  many  rayling  speeches 
+agaynst  me,  forbad  me  to  preach,  &z,  not  only 
+so,  but  if  I  went  to  preach,  any  where  else  his 
+hand  would  reach  me;  8t  so  God  put  me  to  si- 
+lence there,  which  did  somewhat  humble  me, 
+for  I  did  thinke  it  was  for  my  sins  the  Lord  did 
+set  him  thus  agaynst  me — yet  when  I  was  thus 
+silenced  the  Lord  stirred  me  up  freends.  The 
+house  of  the  Harlakinders  were  so  many  fathers 
+&  mothers  to  me,  &  they  &  the  people  would 
+have  me  live  there,  tho,  I  did  nothing  but  stay  in 
+the  place,  but  remayneing  about  halfe  a  yeare 
+after  this  silencing  among  them,  the  Lord  let 
+me  see  into  the  evil!  of  the  English  Ceremonies, 
+Crosse,  surplice  and  kneeling;  and  the  Bishop 
+of  London,  viz.,  Laud,  comming  down  to  visit, 
+
+
+34 
+
+
+MEMOIRS    OF 
+
+
+he  cited  me  to  appeare  before  him  at  the  court 
+of  Reldoiij  where  I  appearing  he  asked  me  what 
+I  did  in  the  place,  &.  I  told  him  I  studyed;  he 
+asked  me  what?  I  told  him  the  fathers;  he  re- 
+plyed  I  might  thank  him  for  that,  yet  charged 
+me  to  depart  the  place.  1  asked  him  whither  I 
+should  goe;  to  the  University,  said  he.  I  told 
+him  I  had  no  meanes  to  subsist  there;  yet  he 
+charged  me  to  depart  the  place.  Now  about 
+this  time  I  had  great  desire  to  change  my  es- 
+tate; and  I  had  bin  praying  3  yeares  before 
+that  the  Lord  would  carry  me  to  such  a  place 
+where  T  might  have  a  meet  yoke-fellow,  and  I 
+had  a  call  at  this  time  to  goe  to  Yorkshire,  to 
+preach  there  in  a  gentleman's  house;  but  I  <3id 
+not  desire  to  stir  till  the  Bishop  fired  me  out  of 
+this  place;  for  the  Bishop  having  thus  charged 
+me  to  depart,  and  being  2  dayes  after  to  visit  at 
+Dunmow  in  Essex,  Mr.  Weld,  Mr.  Daniel  Rog- 
+ers, Mr.  Ward,  Mr.  Marshall,  Mr.  Wharton 
+consulted  together  whether  it  was  best  to  let 
+such  a  swine  to  root  up  God's  plants  in  Essex, 
+and  not  to  give  him  some  check,  whereupon  it 
+was  agreed  upon  privately  at  Braintry,  that 
+some  should  speake  to  him  and  give  him  a 
+check;  so  Mr.  Weld  and  I  travilling  together 
+had  some  thought  of  going  to  New  England,  but 
+we  did  thinke  it  best  to  goe  unto  Ireland  and 
+preach  there,   and  to  goe   by  Scotland   thither: 
+
+
+THOMAS    SHEPARD.  O^ 
+
+but  when  we  came  to  the  church,  Mr.  Weld 
+stood  and  heard  without  (beuig  excommunicated 
+by  him.)  I  being  now  free  went  within^  and 
+after  sermon  Mr.  Weld  went  up  to  hear  the 
+Bishop  speake,  and  being  scene  to  follow  the 
+Bishop,  the  first  thing  he  did  was  to  examine 
+Mr.  Weld  what  he  did  to  follow  him,  and  to 
+stand  upon  holy  ground;  thereupon  he  was  com- 
+mitted to  the  Pursevant  and  bound  over  to 
+answer  it  at  the  high  Commission;  but  when 
+Mr.  Weld  was  pleading  for  himself  and  that  it 
+was  ignorance  that  made  him  come  in,  the  Bish- 
+op asked  whither  he  intended  to  goe,  whether 
+to  New  England,  and  if  so  whether  I  would  ^oe 
+with  him.  While  he  was  thus  speaking  I  came 
+into  the  crowd  and  heard  the  words,  others  bid 
+me  goe  away  but  neglecting  to  do  it,  a  godly 
+man  pulled  me  away  with  violence  out  of  the 
+crowd;  and  as  soon  as  ever  I  was  done  the 
+Apparitor  calls  for  jMr.  Shepard  and  the  Purse- 
+vant was  sent  presently  after  to  fmde  me  out, 
+but  he  that  pulled  me  away  (Mr.  Holbeech  by 
+name,  a  schoolmaster  at  Felsted  in  Essex)  has- 
+tened our  horses,  and  away  we  rid  as  fast  as  we 
+could,  and  so  the  Lord  delivered  us  out  of  the 
+hand  of  that  lyon  a  third  time;  and  now  I  per- 
+ceived I  could  not  stay  in  Colne  without  dan- 
+ger, and  hereupon  receiveing  a  letter  from  Mr. 
+Ezekiel  Rogers,  then  living  at  Rowly  in  York- 
+
+
+36  MEMOIRS    OP 
+
+shire  to  encourage  me  to  come  to  the  knight's 
+house,  called  Sir  Richard  Darley,  dwelling  at  a 
+town  called  Buttercrambe,  and  the  knight's  two 
+sons,  viz.  Mr.  Henry  and  Mr.  Richard  Darley, 
+promising  me  JE20  a  yeare  for  their  part,  and  the 
+knight  promising  me  my  table,  and  the  letters 
+sent  to  me  crying  with  that  voyce  of  the  man  of 
+Macedonia,  come  and  help  us;  hereupon  I  re- 
+solved to  follow  the  Lord  to  so  remote  and 
+strange  a  place,  the  rather  because  I  might  be 
+far  from  the  hearing  of  the  malicious  Bishop 
+Laud,  who  had  threatened  me  if  I  preached  any 
+where.  So  when  I  was  determined  to  goe,  the 
+gentleman  sent  a  man  to  me  to  be  my  guide  in 
+my  journey,  who  comming  for  me,  with  much 
+greefe  of  hart  I  forsook  Essex  and  Earles-Colne 
+and  they  me;  going  as  it  were  now  I  knew  not 
+whither. 
+
+So  as  we  traviled  (which  was  5  or  6  days 
+together  neare  unto  Winter)  the  Lord  sent  much 
+raine  and  ill  weather,  insomuch  as  the  floods 
+were  up  when  we  came  neare  Yorkshire,  and 
+hardly  passable  ;  at  last  we  came  to  a  towne 
+called  Ferry  brig,  where  the  waters  were  up  and 
+ran  over  the  bridge  for  halfe  a  mile  together  and 
+more  ;  so  we  hired  a  guide  to  lead  us,  but  when 
+he  had  gone  a  little  way  the  violence  of  the  wa- 
+ter was  such  that  he  first  fell  in,  and  after  him 
+another  man,  who  was  neare  drowning  before 
+
+
+THOMAS    r-HEPARD. 
+
+
+my  eyes,  whereupon  my  hart  was  so  smitten  with 
+feare  of  the  dun«-er,  and  my  head  so  dizyed  with 
+the  running  of  the  water,  that  had  not  the  Lord 
+immediately  uphehl  me  and  my  horse  also,  and  so 
+provided  it,  1  had  certainly  perished  that  rout, 
+hut  the  Lord  was  strong  in  my  weaknes.  We 
+went  on  by  some  little  direction  upon  the  bridge, 
+and  at  last  I  fell  in,yet  in  a  place  where  the  waters 
+were  not  so  violent  but  I  sate  rpon  my  horse, 
+which  being  a  very  good  horse  clambered  up 
+upon  the  bridge  agayne,  but  Mr.  Darley's  man 
+for  feare  of  me,  fell  in  also  but  came  out  safe 
+agayne  and  so  we  came  to  the  dry  land,  where  we 
+had  a  house  and  shifted  ourselves  and  went  to 
+prayer  and  blest  God  tor  the  wonderful  preser- 
+vation of  us,  and  the  Lord  made  me  then  to  pro- 
+fesse  that  I  now  looked  upon  my  life  as  a  new 
+life  given  unto  me,  which  I  saw  good  reason  to 
+give  up  unto  him  and  his  service,  and  truly 
+about  this  time  tha  Lord  that  had  only  dealt  gent- 
+ly with  me  before,  began  to  afflict  me  and  let 
+me  taste  how  20od  it  was  to  be  under  histutour- 
+ing,  so  I  came  to  Yorke  late  upon  Saturday 
+night,  and  having  refresht  ourselves  there,  I 
+came  to  Buttercrambe  to  Sir  R  chi  rd's  house 
+that  night  very  wet  and  late,  vrhich  is  about  7 
+miles  off  from  Yorke. 
+
+Now  as  soon  as  I  came  into  the  house  I  found 
+diverse    of  them    at    Dice    and    Tables.       Mr. 
+4 
+
+
+38  MEMOIRS    OF 
+
+Richard  Darley  one  of  the  brothers  being  to  re- 
+turn to  London  the  Munday  after  and  being 
+desirous  to  hear  me  preach,  sent  me  speedily  to 
+my  lodgings  (the  best  in  the  house)  and  so  I 
+preached  the  day  after  once  and  then  he  depart- 
+ed the  day  after,  having  carefully  desired  my 
+comfortable  abode  there,  but  I  do  remember  I 
+never  was  so  low  sunk  in  my  spirit  as  about  this 
+time,  for,  1.  I  was  now  far  from  all  freends,  2. 
+I  was  I  saw  in  a  profane  house,  not  any  sin- 
+cerely good.  3.  I  was  in  a  vile  wicked  town 
+and  country.  4.  I  was  unknown  and  exposed 
+to  all  wrongs.  5.  T  was  unsufficient  to  do  any 
+woorke,  and  my  sins  were  upon  me,  and  here- 
+upon I  was  very  low  and  sunke  deepe,  yet  the 
+Lord  did  not  leave  me  comtbrtless,  for  tho  the 
+Lady  was  churlish,  yet  Sir  Richard  was  ingeni- 
+ous, and  I  found  in  the  house  3  servants,  viz. 
+Tho.  Fugill,  Mrs.  Margaret  Tauteville,  the 
+knight's  kinswoman,  that  was  afterwards  my 
+wife,  and  Ruth  Bushell  (who  married  to  Ed- 
+ward Michelson)  very  carefull  of  me,  which 
+somewhat  refreshed  me,  but  it  happened  that 
+when  I  had  bin  there  a  little  while  there  was  a 
+marriage  of  one  Mr.  Allured,  a  most  prophane 
+young  gentleman,  to  Sir  Richard's  daughter.  I 
+was  desired  to  preach  at  their  marriage,  at  which 
+sermon  the  Lord  first  toucht  the  hart  of  Mrs. 
+Margaret  with  very  great  terrors  for  sin,  and  her 
+
+
+THOMAS    SHEPARD.  89 
+
+Christless  estate,  whereupon  others  began  to 
+looke  about  them,  especially  the  gentlewoman 
+lately  married,  Mrs.  Allured  ;  and  the  Lord 
+brake  both  their  hearts  very  kindly,  then  others 
+in  the  family,  viz.  Mr.  Allured.  lie  fell  to  fast- 
+ing and  prayer  and  great  reformation  ;  others 
+also  were  reformed  and  their  hearts  changed, 
+the  whole  family  brought  to  external  duties; 
+but  I  remember  none  in  the  town  or  about  it 
+brought  home  ;  and  thus  the  Lord  was  with  me 
+and  gave  us  favour  and  freends  and  respect  of 
+all  in  the  family,  and  the  Lord  taught  me  much 
+of  his  goodness  and  sweetness,  and  when  he 
+had  fitted  a  wife  for  me  he  then  gave  me  her, 
+who  was  a  most  sweet  humble  woman  full  of 
+Christ,  and  a  very  discerning  Xtian.;  a  wife, 
+who  vvas  most  incomparably  loving  to  me  and 
+every  way  amiable  and  holy  and  endued  with 
+a  very  sweet  spirit  of  prayer;  and  thus  the  Lord 
+answered  my  desires,  when  my  adversaries  in- 
+tended most  hurt  to  me,  the  Lord  was  then  best 
+unto  me  and  used  me  the  more  kindly  in  every 
+place;  for  the  Lord  turned  all  the  sons  and  Sir 
+Richard  and  Mr.  Allured  so  unto  me  that  they  not 
+only  gave  her  freely  to  be  my  wife,  but  enlarged 
+her  portion  also;  and  thus  I  did  marry  the  best 
+and  fittest  woman  in  the  woorld  unto  me,  after  I 
+had  preached  in  tiiis  place  about  a  12  month;  for 
+which  m.ercy  to  me,  in  my  exiled  condition  in  a 
+
+
+40 
+
+
+MEMOIRS    OF 
+
+
+Strange  place  I  did  promise  the  Lord  that  this 
+mercy  should  knit  my  hart  the  nearer  to  him 
+and  that  his  love  should  constrain  me  ;  but  I  have 
+ill  requited  the  Lord  since  that  time;  and  forgot 
+myself  and  my  promise  also. 
+
+But  now  when  we  were  marryed  in  the  yeare 
+1632,  shee  was  unv»illing  to  stay  at  Butter- 
+crambe,  and  I  saw  no  means  or  like!)  hood  of 
+abode  there,  for  Bishop  Neale  comming  up  to 
+Yorke,  no  freends  could  procure  my  liberty  of 
+him  without  subscription  ;  and  hereupon  the 
+Lord  gave  me  a  call  to  Northumberland,  to  a 
+town,  called  Heddon,  5  miles  beyond  Newcastle, 
+which  when  I  had  considered  of  and  saw  no 
+place  but  that  to  goe  unto,  and  saw  the  people 
+very  desirous  of  it,  and  that  I  might  preach  there 
+in  peace  being  far  from  any  Bishops  I  did  resolve 
+to  depart  thither,  and  so  being  accompanied  with 
+Mr.  Allured  to  the  place  I  came  not  without 
+many  feares  of  enemies  and  my  poore  wife  full 
+of  fears.  It  was  not  a  place  of  subsistence  with 
+any  comfort  to  me  there;  but  the  good  Lord, 
+who  all  my  life  followed  me,  made  this  place  the 
+fittest  for  me,  and  I  found  many  sweet  freends 
+and  Xtian  acquaintance,  Mrs.  Sherbourne 
+maintaining  me,  and  Mrs.  Fenwick  lending  us 
+the  use  of  her  house,  so  God  comforted  us  in 
+our  solitary  and  yet  marryed  condition  many 
+wayes. 
+
+
+THOMAS    SHEPARD.  41 
+
+Now  when  I  was  here  the  Lord  blest  my  la- 
+bours both  to  the  saynts  and  sundry  others  about 
+Newcastle,  and  I  came  here  to  read  &  know  more 
+of  the  Ceremonies,  Church  government  and  es- 
+tate, and  the  unlawful  standing  of  Bishops  than 
+in  any  other  place.  I  lived  at  Mrs.  Fenwick's 
+house  for  a  time  about  a  12  month  or  half  ayeare, 
+and  then  we  went  and  dwelt  alone  in  a  town  neare 
+
+Heddon  called ,  in  a  house  which  we  found 
+
+haunted  with  the  devil  as  we  conceived,  for 
+when  we  came  in  to  it  a  known  witch  went  out 
+of  it,  and  being  troubled  with  noyses  4  or  5 
+nights  together,  we  sought  God  by  prayer  to  re- 
+move so  sore  a  tryall,  and  the  Lord  heard  and 
+blest  us  there  and  removed  the  trouble,  but  after 
+we  were  settled  the  Bishop  put  in  a  Priest,  who 
+would  not  suffer  me  to  preach  publikely  any 
+more.  Hereupon  the  meanes  was  used  to  the 
+Bishop  of  Durham,  Bishop  Morton  and  he  pro- 
+fessed he  durst  not  give  me  liberty  because 
+Laud  had  taken  notice  of  me,  so  I  preached  up 
+and  down  in  the  country,  and  at  last  privately 
+in  Mr,  Fenwick's  house,  and  there  I  stayed  till 
+Mr.  Cotton,  Mr.  Hooker,  Ston,  Weld  went  to 
+New  England,  and  hereupon  most  of  the  godly 
+in  England  were  awakened  and  intended  much 
+to  goe  to  jSew  England,  and  I  having  a  call  by 
+diverse  freends  in  New  England  to  come  over, 
+and  many  in  Old  England  desiring  me  to  goe  over 
+4* 
+
+
+42  MEMOIRS    OF 
+
+and  promising  to  gee  with  me  I  did  hereupon 
+resolve  togoe  thither,  especially  considering  the 
+season,  and  thus  the  Lord  blest  me  in  this  darke 
+country  and  gave  me  a  son  called  Thomas,  Anno 
+1633  ;  my  poore  v*'ife  being  in  sore  extremities 
+4  dayes  by  reason  she  had  an  unskilful  midwife; 
+but  as  the  affliction  was  very  bitter,  so  the  Lord 
+did  teach  me  much  by  it,  and  I  had  need  of  it, 
+for  I  began  to  grow  secretly  proud  and  full  of  sen- 
+suality delighting  my  soul  in  my  deare  wife 
+more  than  in  my  God,  whom  I  had  promised  bet- 
+ter unto,  and  my  spirit  grew  fierce  in  some 
+things,  and  secretly  mindless  of  the  souls  of  the 
+people,  but  the  Lord  by  this  affliction  of  my  wife 
+learnt  me  to  desire  to  feare  him  more  and  to 
+keep  his  dread  in  my  hart;  and  so  seeing  I  had 
+bin  tossed  from  the  South  to  the  ISoith  of  Eng- 
+land and  novv'  could  goe  no  farther,  I  then  began 
+to  listen  to  a  call  to  New  England. 
+
+The  reasons,  which  swayed  me  to  come  to  Is  . 
+E.  were  many.  1.  I  saw  no  call  to  any  other 
+place  in  Old  England  nor  way  of  subsistence  in 
+peace  and  comfort  to.  me  and  my  family,  !2. 
+Diverse  people  in  Old  England  of  my  dear 
+freends  desired  me  to  goe  to  N.  E.  there  to  live 
+together,  and  some  went  before  and  writ  to  me 
+of  providing  a  place  for  a  company  of  us,  one  of 
+which  was  John  Bridge,  and  I  saw  diverse  fam- 
+ilies of  myxtian  freends,  who  were  resolved 
+t^'+Her  to  goe  with  me. 
+
+
+THOMAS    SHEPARD.  43 
+
+3.  I  saw  the  Lord  departed  from  England 
+%vhen  Mr.  Hooker  and  Mr.  Cotton  were  gone, 
+and  I  saw  the  harts  of  most  of  the  godly  set  and 
+bent  that  way,  and  I  did  think  I  should  feele  ma- 
+ny miseries  if  I  stayed  behind. 
+
+4.  My  judgement  was  then  convinced  not 
+only  of  the  evil  of  ceremonies,  but  of  mixt  com- 
+munion, and  joyning  with  such  in  sacraments, 
+tho,  I  ever  judged  it  lawfull  to  joyne  with  them 
+in  preaching. 
+
+5.  I  saw  it  my  duty  to  desire  the  fruition  of 
+all  God's  ordinances,  which  I  could  not  enjoy  in 
+Old  England. 
+
+6.  My  dear  wite  did  much  long  to  see  me 
+settled  there  in  peace  and  so  put  me  on  to  it. 
+
+7.  Although  it  was  true  I  should  stay  and 
+sufter  for  Xt.  yet  1  saw  no  rule  for  it  now  the 
+Lord  had  opened  a  doore  of  escape;  otherwise 
+I  did  incline  much  to  stay  and  si:^er  especially 
+after  our  sea  stormes. 
+
+8.  Tho'  my  ends  were  mixt  and  I  looked  much 
+to  my  own  quiet,  yet  the  Lord  let  me  see  the 
+glory  of  those  Liberties  in  N.  England,  and 
+made  me  purpose,  if  ever  I  come  over,  to  live 
+among  God's  people  as  one  come  out  from  the 
+dead,  to  his  praise;  tho'  since  I  have  seene  as 
+the  Lord's  goodness,  so  my  own  exceeding 
+weakness  to  be  as  good  as  I  thought  to  have  bin, 
+and  although  they  did  desire  me  to  stay  in  the 
+
+
+44  MEMOIRS    OF 
+
+North  and  preach  privately  yet,  1.  I  saw  that 
+this  time  could  not  be  long  without  trouble  from 
+King  Charles. 
+
+2.  I  saw  no  reason  to  spend  my  time  private- 
+ly when  I  might  possibly  exercise  my  talent 
+publikely  in.  N.  E. 
+
+3.  I  did  hope  my  going  over  might  make  them 
+to  follow  me. 
+
+4.  I  considered  how  sad  a  thing  it  would  be 
+for  me  to  leave  my  wife  and  child  (if  I  should 
+dy  in  that  rude  place  of  the  North)  where  was 
+nothing  but  barbarous  wickedness  generally, 
+and  how  sweet  it  would  be  to  leave  them  among 
+God's  people  tho'  poore. 
+
+5.  My  liberty  in  private  was  dayly  threatened, 
+and  I  thought  it  wisdom  to  depart  before  the 
+Pursevants  came  out,  for  so  I  might  depart  with 
+iviore  peace  and  lesser  trouble  and  danger  to  me 
+and  my  freen^s,  a^ci  I  knew  not  whether  God 
+would  have  me  to  hazard  my  person  and  com- 
+fort of  me  and  all  mine,  for  a  disorderly  manner 
+of  preaching  privately  (as  it  was  reputed)  in 
+those  parts,  so  after  I  had  preached  my  farewell 
+sermon  at  Newcastle  I  departed  from  the  North 
+in  a  ship  laden  with  coles  for  Ipswich,  about  the 
+beginning  of  June,  after  I  had  bin  about  a  year 
+in  the  North  the  Lord  having  blest  some  few 
+sermons  and  notes  to  diverse  in  Newcastle,  from 
+whom  1  parted  filled  with  their  love,  and  so  the 
+
+
+THOMAS    SHEFARD. 
+
+
+45 
+
+
+Lord  gave  us  a  speedy  voyage  from  thence  to 
+Ipswich  in  Old  England,  whether  I  came  in  a 
+disguised  manner  with  my  wife  and  child  and 
+mayd,  and  stayed  awhile  at  Mr.  Russel's  house, 
+another  while  at  Mr.  Collins,  his  house,  and  then 
+went  down  to  Essex  to  the  town  where  I  had 
+preached,  viz.  Earles-Colne  to  Mr.  Richard 
+Harlakenden's  house  where  I  lived  privately 
+with  much  love  from  them  all  ;  as  also  from  Mr. 
+Joseph  Cooke,  and  also  with  freends  at  London 
+and  Northamptonshire.  Truly  I  found  this 
+time  of  my  life  wherein  I  was  so  tossed  up  and 
+downe  and  had  no  place  of  settling,  hut  kept 
+secret  in  regard  of  the  Bishops,  the  most  uncom- 
+fortable and  fruitless  time  to  my  own  soul  es- 
+pecially that  ever  I  had  in  my  life;  therefore  I 
+did  long  to  be  in  N.  E.  as  soon  as  might  be, 
+and  therefore  there  being  diverse  godly  Xtians 
+resolved  to  goe  toward  the  latter  end  of  the  yeare, 
+if  I  would  goe;  I  did  therefore  resolve  to  goe 
+that  yeare,  the  end  of  the  summer  I  came  from 
+the  North;  and  the  time  appointed  for  the  ship 
+to  goe  out  was  about  a  month  or  fortnight  before 
+Michaelmas  (as  they  here  call  it.)  The  ship 
+was  called  the  Hope  of  Ipswich,  the  master  of 
+it  (a  very  able  seaman)  was  Mr.  Gurling,  who 
+professed  much  love  to  me,  who  had  got  this 
+ship  of  400  tun  from  the  Danes,  and  as  some 
+report,  it  was  by  some  fraud;  but  he  denyed  it 
+
+
+46  MEMOIRS    OF 
+
+and  being  a  man  very  loving  and  fuJl  of  fayre 
+promises  of  going  at  the  time  appointed,  and 
+an  able  seaman;  hence  we  resolved  to  adventure 
+that  time  tho'  dangerous  in  regard  of  the  ap- 
+proaching winter.  Now  here  the  Lord's  won- 
+derfull  terrour  and  mercy  to  us  did  appeare. 
+
+For  being  come  to  Ipswich  with  my  family  at 
+the  time  appointed  the  ship  was  not  ready  and 
+we  stayed  6  or  8  weeks  longer  than  the  time 
+promised  for  her  going;  and  so  it  was  very  late 
+in  the  yeare,  and  very  dangerous  to  goe  to  sea, 
+and  indeed  if  we  had  gone,  doubtless  we  had  all 
+perished  upon  the  seas,  it  being  so  extreame 
+cold  and  tempestuous  winter;  but  yet  we  could 
+not  goe  back  when  v/e  had  gone  so  far,  and  the 
+Lord  saw  it  good  to  chastise  us  for  rushing  on- 
+ward too  soone,  and  hazarding  ourselves  in  that 
+manner,  and  I  had  many  feares  and  much  dark- 
+ness (I  remember)  overspread  my  soule,  doubt- 
+ing of  our  way,  yet  I  say  we  could  not  goe  back 
+only  I  learnt  from  that  time  never  to  goe  about 
+a  sad  businesse  in  the  darke,  unless  God's  call 
+within  as  well  as  that  without  be  very  strong 
+and  cleare  and  comfortable,  so  that  in  the  year 
+1634,  about  the  beginning  of  the  winter,  we  set 
+saile  from  Harwich,  and  having  gone  some  few 
+leagues  on  to  the  sea;  the  wind  stopt  us  that 
+night  and  so  we  cast  anchor  in  a  dangerous 
+place,  and  on  the  morning  the  wind  grew  fierce 
+
+
+THOMAS    SHEPARD. 
+
+
+47 
+
+
+and  rough  agaynst  us  full,  and  drave  us  toward 
+the  sands,  but  the  vessel  being  laden  too  heavy 
+at  the  head  would  not  stir  for  all  that  which  the 
+seamen  could  doe,  but  drave  us  full  upon  the 
+sands  neare  Harwich  harbour;  and  the  ship  did 
+grate  upon  the  sands,  and  was  in  great  danger; 
+but  the  Lord  directed  one  man  to  cut  some  ca- 
+ble or  rope  in  the  ship  and  so  shee  was  turned 
+about  and  was  beaten  quite  backward  toward 
+Yarmouth,  quite  out  of  our  way;  but  while 
+the  ship  was  in  this  great  danger,  a  wonderfull 
+miraculous  providence  did  appear  to  us,  for  one 
+of  the  seamen,  that  he  might  save  the  vessel 
+fell  in  when  it  was  in  that  danger,  and  so  was 
+carryed  a  mile  or  more  from  the  ship,  and  given 
+for  dead  and  gone;  the  ship  was  then  in  such 
+danger  that  none  could  attend  to  follow  him; 
+and  when  it  was  out  of  the  danger  it  was  a  very 
+great  hazard  to  the  lives  of  any  that  would  take 
+the  skiph  and  seek  to  fmd  him;  yet  it  please^ 
+the  Lord  that  being  discerned  afar  off  floating 
+upon  the  waters,  o  of  the  seamen  adventured 
+out  upon  the  rough  waters,  and  at  last  about  an 
+houre  after  he  fell  into  the  sea  (as  we  appre- 
+hended) they  came  and  found  him  floating  upon 
+the  waters,  never  able  to  swim,  but  supported 
+by  a  divine  hand  all  this  while,  when  the  men 
+came  to  him  they  were  glad  to  find  him,  but 
+concluded  he  was  dead,  and  so  got  him  into  the 
+
+
+48  MEMOIRS    OF 
+
+skiph,  and  when  he  was  there  tumbled  him  down 
+as  one  dead,  yet  one  of  them  said  to  the  rest  let 
+us  use  what  meanes  we  can  if  there  be  life  to 
+preserve  it.  And  thereupon  turned  his  head 
+downward  for  the  water  to  run  out,  and  having 
+done  so,  the  fellow  began  to  gaspe  and  breathe, 
+then  thej  applied  other  meanes  they  had  ;  and 
+so  he  began  at  last  to  move  and  then  to  speake 
+and  by  that  time  he  came  to  ship  he  was 
+pretty  well  and  able  to  walke;  and  so  the  Lord 
+shewed  us  his  great  power,  whereupon  a  godly 
+man  in  the  ship  then  sayd  this  man's  danger  and 
+deliverance  is  a  type  of  ours,  for  he  did  feare 
+dangers  were  neare  unto  us  and  that  yet  the 
+Lord's  power  hould  be  shewn  in  saving  of  us, 
+for  so  indeed  it  was;  for  the  wind  did  drive  us 
+quite  backward  out  of  our  way  and  gave  us  no 
+place  to  anchor  at  until  we  came  unto  Yar- 
+mouth rodes,  an  open  place  at  sea  yet  fit  for  an- 
+chorage, but  otherwise  a  very  dangerous  place, 
+and  so  we  came  thither  thorow  many  uncomfort- 
+ble  hazards  within  80  hours  and  cast  anchor  in 
+Yarmouth  rodes,  which  when  we  had  done  upon 
+a  Saturday  morning  the  Lord  sent  a  mast  dread- 
+full,  and  terrible  storm  of  wind  from  the  West, 
+so  dreadfull  that  to  this  day  the  seamen  call  it 
+Windy  Saturday  ;  that  it  also  scattered  many 
+ships  in  diverse  coasts  at  that  time,  and  diverse 
+ships  were  cast  away,  one  among  the  rest  which 
+
+
+THOMAS    SHEPARD.  49 
+
+was  tbe  seaman's  ship  who  came  with  us  from 
+New  Castle  was  cast  away  and  he  and  all  his 
+were  perished,  but  when  the  wind  thus  arose 
+the  master  cast  all  his  anchors,  but  the  storm 
+was  so  terrible  that  the  anchors  broke  and  the 
+ship  drave  toward  the  sands  where  we  could  not 
+be  cast  awaj;  whereupon  the  master  cries  out 
+that  we  were  dead  men,  and  thereupon  the 
+whole  company  goe  to  prayer,  but  the  vessel 
+drave  so  neare  to  the  sands  that  the  master  shot 
+off  two  pieces  of  ordnance  to  the  tov/n  for  helpe 
+to  save  the  passengers.  The  town  perceived  it 
+and  lOOOds  came  upon  the  walls  of  Yarmouth, 
+and  looked  upon  us,  hearing  we  were  New  Eng- 
+land men,  and  pittyed  much  and  gave  us  for 
+gone,  because  they  saw  other  ships  perishing 
+neare  unto  us  at  that  time;  but  could  not  send 
+any  helpe  unto  us,  tho'  much  mony  was  offered 
+by  some  to  hazard  themselves  for  us;  so  the 
+master,  not  knowing  what  to  do,  it  pleased  tlie 
+Lord  that  there  was  one  Mr.  Cork  a  drunken 
+fellow  but  no  seaman,  yet  one  that  had  bin  at 
+sea  often,  v/ould  come  in  a  humour  unto  New 
+England  with  us;  whether  it  was  to  see  the 
+country  or  no  I  cannot  tell,  but  sure  I  am  God 
+intend  3d  it  for  good  ur.to  us  to  make  him  an  in- 
+strument to  save  all  our  lives;  for  he  persuaded 
+the  master  to  cut  down  his  mainemast.  The 
+master  was  unwilling  to  it,  and  besotted,  not 
+5 
+
+
+50  MEMOIRS    OF 
+
+sensible  of  ours  and  his  own  losse.  At  last  this 
+Cork  calls  for  hatchets,  tells  the  master  if  you 
+be  a  man  save  the  lives  of  your  passengers,  cut 
+down  your  mainemast.  Hereupon  he  encoura- 
+ged all  the  company,  who  were  forlorne  and 
+hopeless  of  life,  and  the  seamen  presently  cut 
+down  the  mast  aboard,  just  at  that  very  time 
+wherein  we  all  gave  ourselves  for  gone  to  see 
+neither  Old  nor  New  England,  nor  faces  of 
+freends  any  more,  there  being  neare  upon  200 
+passengers,  and  so  when  the  mast  was  down, 
+the  master  had  one  little  anchor  left,  and  cast  it 
+out,  but  the  ship  was  driven  away  toward  the 
+sands  still,  and  the  seamen  came  to  us  and  bid 
+us  looke  (pointing  to  the  place)  where  our 
+graves  should  shortly  be;  conceiving  also  that 
+the  wind  had  broken  off  this  anchor  also;  so  the 
+master  professed  he  had  done  what  he  could, 
+and  therefore  now  desired  us  to  goe  to  prayer, 
+so  Mr.  Norton  in  one  place  and  myself  in  an- 
+other part  of  the  ship,  he  with  the  passengers 
+and  myself  with  the  mariners  above  decks,  went 
+to  prayer  and  committed  our  soules  and  bodies 
+unto  the  Lord  that  gave  them;  immediately  af- 
+ter prayer  the  wind  began  to  abate  and  the  ship 
+stayed,  for  the  last  anchor  was  not  broke  (as  we 
+conceived)  but  only  rent  up  with  the  wind  and 
+so  drave,  and  was  drawn  along  plowing  the 
+sands    with  the   violence    of  the    wind;  which 
+
+
+THOMAS    SHEPARD.  51 
+
+abating  after  prayer  (tho'  still  very  terrible)  the 
+ship  was  stopt  just  when  it  was  ready  to  be 
+swallowed  up  of  the  sands,  a  very  little  way  oft' 
+from  it;  and  so  we  rid  it  out,  yet  not  without 
+fear  of  our  lives,  iho'  the  anchor  stopt  the  ship; 
+because  the  cable  was  let  out  so  far  that  a  little 
+rope  held  the  cable,  and  the  cable,  the  little  an- 
+chor, and  the  little  anchor  the  great  ship  in  this 
+great  storme,  but  when  one  of  the  company  per- 
+ceived that  we  were  so  strangely  preserved,  had 
+these  woords,  "that  threed  we  hang  by  will  save 
+us;  "  for  so  we  accounted  of  the  rope  fastened 
+to  the  anchor,  in  comparison  of  the  fierce  storme; 
+and  so  indeed  it  did,  the  Lord  shewing  his  dread- 
+ful power  towards  us,  and  yet  his  unspeakable 
+rich  mercy  to  us,  vvho  in  depths  of  mercy  heard, 
+nay  helped  us,  where  we  could  not  cry  throw 
+the  disconsolate  fears  we  had,  out  of  these 
+depths  of  seas  and  miseries;  this  deliverance  was 
+so  great  that  I  then  did  thinke  if  ever  the  Lord 
+did  bring  me  to  shore  agayne  I  would  live  like 
+one  come  and  risen  from  the  dead.  This  is  one 
+of  those  living  mercies  the  Lord  hath  shown  me, 
+a  mercy  to  myselfe,  to  my  wife  and  child  then 
+living,  and  unto  my  deare  freends  then  with  me 
+viz.  brother  Champney,  Frosty  Goft*  and  diverse 
+others,  most  deare  saints;  and  also  to  all  with 
+me,  and  how  would  the  name  of  the  Lord  suffer- 
+ed, if  we  had  so  perished;  that  the  Lord  Jesus 
+
+
+52 
+
+
+MEMOIRS    OF 
+
+
+diould  have  respect  to  me  so  vile  and  one  at 
+that  time  full  of  many  temptations  imd  weak- 
+nesses, amazed  much,  and  deeply  afrayd  of 
+God's  terrour,  yet  supported. 
+
+I  desire  this  mercy  may  be  remembered  of 
+my  children  and  their  children's  children  when 
+I  am  dead,  and  cannot  prayse  the  Lord  in  the 
+land  of  the  living  any  more;  and  so  we  contin- 
+ued that  night,  many  sick,  many  weake,  and 
+discouraged,  many  sad  harts;  yet  upon  the 
+Sabbath  morning  we  departed  and  went  out  of 
+the  ship;  I  feare  a  little  too  soone  for  we  should 
+have  spent  that  day  in  praysing  of  him,  yet  we 
+Vv'ere  afraid  of  neglecting  a  season  of  providence 
+in  going  out  while  we  had  a  calm;  and  many 
+sick  folke  were  unfit  for  that  woorke  and  had 
+need  of  refreshing  at  shore.  So  upon  the  Sab- 
+bath day  morning  boats  came  to  our  vessel  from 
+the  town;  and  so  my  deare  wife  and  child  went 
+in  the  first  boat,  but  here  the  Lord  saw  that 
+these  matters  were  not  sufficient  to  wash  away 
+my  filth  and  sinfulness  and  therefore  he  cast  me 
+into  the  fire  as  soon  as  ever  I  was  upon  the  sea 
+in  the  boat,  for  there  my  first  borne  child  very 
+precious  to  my  soule,  and  dearly  beloved  of  me 
+was  smitten  with  sickness,  the  Lord  sent  a 
+vomiting  upon  it  whereby  it  grew  faint  and  no- 
+thing that  v/e  could  use  could  stop  its  vomiting 
+altho  Vv'e  had  many  helps  at  Yarmouth  and  thiu 
+
+
+THOMAS    SlIEPARD.  53 
+
+was  a  very  bitter  affliction  to  me  and  the  Lord 
+now  sliowed  me  my  weake  laitli,  want  ofieare, 
+pride,  carnall  content,  immoderate  love  of  crea- 
+tures, and  of  my  child  especially,  and  begat  in 
+me  some  desires  and  purposes  to  feare  his  name; 
+but  yet  the  Lord  would  not  be  intreated  for  the 
+life  of  it  and  after  a  fortnight's  sickness  at  last  it 
+gave  up  the  ghost,  when  its  mother  had  given  it 
+up  to  the  Lord  and  was  buried  at  Yarmouth,  where 
+I  durst  not  be  present  least  the  Pursevunts  should 
+apprehend  me  and  I  should  be  discovered  which 
+was  a  great  affliction  and  very  bitter  to  me  and 
+my  deare  wife,  and  hereby  1  saw  the  Lord  did 
+come  neare  to  me,  and  I  did  verily  feare  the 
+Lord  would  take  away  my  wife  also,  if  not  my- 
+selfe  not  long  after  and  these  afflictions  together 
+with  the  Lord's  crossing  us  and  being  so  direct- 
+ly agaynst  our  voyage  made  me  secretly  willing 
+to  stay  and  suffer  in  England  and  my  hart  was 
+not  so  much  toward  New  England,  yet  this  sat- 
+isfied me  that  seeing  there  was  a  dore  opened 
+of  escape,  why  should  I  suffer,  and  I  considered 
+how  unfit  I  was  to  goe  to  such  a  good  land  with 
+such  an  unmortitied  hard  darke  formall  hypo- 
+criticall  hart  and  therefore  no  wonder  if  the 
+Lord  did  thus  crosse  me;  and  the  Lord  made 
+me  feare  my  affliction  came  in  part  for  running 
+too  far  in  a  way  of  separation  from  the  Assem- 
+blies in  England,  tho'  I  blesse  God  I  have  ever 
+
+
+54  MEMOIRS    OF 
+
+believed  there  are  true  churches  in  many  par- 
+ishes in  England  where  the  Lord  sets  up  able 
+men  and  ministers  of  his  gospell;  and  I  have 
+abhorred  to  refuse  to  heare  any  able  minister  in 
+England;  so  that  now  having  buried  my  first 
+borne  and  being  in  great  sadness  and  not  know- 
+ing where  to  goe  nor  what  to  doe,  the  Lord  sent 
+Mr.  Roger  Harlakenden  and  my  brother  Samu- 
+el Shepard  to  visit  me  after  they  had  heard  of 
+our  escape  at  sea,  who  much  refreshed  us  and 
+clave  to  me  in  my  sorrowes,  and  being  casting 
+about  where  to  goe  and  live,  Mr.  Bridge  their 
+minister  in  Norwich  sent  for  me  to  come  and 
+live  with  him,  and  being  come,  one  Mrs.  Cor- 
+bett,  who  lived  five  miles  off  Norwich  an  aged 
+eminent  godly  gentlewoman  hearing  of  my  com- 
+ming  and  that  by  being  with  Mr.  Bridge  mig-ht 
+hazLrd  his  liberty  by  countenancing  of  me,  she 
+did  therefore  freely  offer  to  me  a  great  house  of 
+hers  standing  empty  at  atowne  called  Bastwick, 
+and  there  the  Lord  stird  up  her  hart  to  shew  all 
+love  to  me,  which  did  much  lighten  and  sweet- 
+en my  sorrowes,  and  I  saw  the  Lord  Jesus' 
+care  herein  to  me  and  saw  cause  of  trusting 
+him  in  times  of  straits,  who  set  me  in  such  a 
+place,  where  I  lived  for  half  a  yeare  all  the 
+winter  long  among  and  with  my  friends  (Mr. 
+Harlakenden  dwelling  with  me  bearing  all  the 
+charge  of  housekeeping)   and  far  from  the  no- 
+
+
+THOMAS    SHEPARD,  55 
+
+tice  of  my  enemies,  where  we  enjoyed  sweet 
+fellowship  one  with  another  and  also  with  God, 
+in  a  house  which  was  fit  to  entertayne  any  prince 
+for  faireness,  greatnes  and  pleasantness.  Here 
+the  Lord  hid  us  all  the  winter  long,  and  when  it 
+W'ls  fit  to  travayle  in  the  Spring  we  went  up  to 
+London,  Mr.  Harlakenden  not  forsaking  me  all 
+this  while,  for  he  was  a  father  and  mother  to 
+me,  and  when  we  came  to  London  to  Mrs. 
+Sherborne  not  knowing  what  to  doe  nor  where 
+to  live  privately,  the  Lord  provided  a  very  pri- 
+vate place  for  us;  where  my  second  son  Thom- 
+as, was  borne,  and  none  but  our  freends  did 
+know  of  it,  and  so  by  this  meanes  my  son  was 
+not  baptized  until  we  came  to  New  England 
+the  winter  following,  being  borne  in  London, 
+Aprill  5,  16;55.  When  we  had  bin  also  at 
+London  for  a  time  and  began  to  be  known  in 
+the  place  my  wife  was  sick,  the  Lord  put  it  into 
+our  harts  to  remoove  to  another  place  in  Mr. 
+Eldred^s  house  in  liondon,  which  stood  empty 
+and  the  very  night  we  were  all  come  away, 
+there  came  the  Pursevants  and  others  to  search 
+after  us,  but  the  Lord  delivered  us  out  of  their 
+hands,  and  so  when  the  Lord  had  recovered 
+my  wife,  we  began  to  prepare  for  a  removal  over 
+agayne  to  New  England.  And  the  Lord 
+seemed  to  make  our  way  playne. 
+
+1.  Because  I  had  no  other  call  to  any  place 
+in  England. 
+
+
+5Q  MEMOIRS    OF 
+
+2.  Many  more  of  God's  people  resolved  to 
+goe  with  me,  as  Mr.  Roger  Harlakenden  and 
+Mr.  Champneyj  8tc.  ; 
+
+3.  The  Lord  saw  our  unfitness  and  the  unfit- 
+ness of  our  going  the   yeare  before,  and  there- 
+fore giving  us  good   freeness  to  accompany  % 
+and  good  company   in  the   ship  we  set  forv.T..a 
+about   the  10    of   August    1635,  with  myselfe, 
+wife  and  my  little   son  Thomas  and  other  pre- 
+cious freends,   having   tasted  much    of    God's 
+mercy  in  England  and  lamenting  the  losse  of 
+our  native  country  when  we  tooke  cur  last  view 
+of  it.     In  our  voyage  upon  the  sea  the  Lord  was 
+very  tender  of  me  and  kept  me  from  violence  of 
+the  sea  sickness.     In  our  comming  we  were  re- 
+freshed with  the  society  of  Mr.  Wilson,  Mr. 
+Jones  by  their  fayth  and  prayers  and  preaching. 
+The  ship  w^e  came  in  was  very  rotten  and  unfit 
+for  such  a  voyage,  and  therefore  the  first  storme 
+we  had,  we   had  a  very  great   leake,   which  did 
+much  apall  and  affect  us;  yet  the  Lord   discov- 
+ered it  unto  us  when   we  were  thinking   of  re- 
+turning back  agayne;  and  much  comforted  our 
+harts.     We  had  many  storms,  in  one  of  which 
+my  deare  wife  tooke  such  a  cold  and  got  such 
+weakness  as  that  shee   fell  into  a  consumption, 
+of  which   shee    afterward   dyed;  and  also  the 
+Lord  preserved  her  with  the  child  in  her  armes 
+from  eminent   and   apparent   death,  for  by  the 
+
+
+THOMAS    SHEPARD.  Oi 
+
+shaking  of  the  ship  in  a  violent  storme  her  head 
+was  pitcht  agaynst  an  iron  bolt  and  the  Lord 
+miraculously  preserved  the  child  and  recovered 
+my  wife:  This  was  a  great  affliction  to  me,  and 
+was  a  cause  of  many  sad  thoughts  in  the  ship 
+how  to  behave  myselfe  when  I  came  to  New 
+England.  My  resolutions  I  have  written  down 
+in  my  little  booke;  and  so  the  Lord  after  many 
+sad  storms  and  wearisome  days  and  many 
+longings  to  see  the  shore,  the  Lord  brought  us 
+to  the  sight  of  it  upon  Oct.  2,  Anno  1635  and 
+upon  Oct.  the  3d,  we  arrived  with  my  wife_, 
+child,  brother  Samuel,  Mr.  Harlakenden,  Mr. 
+Cooke,  &LC.,  at  Boston  with  rejoicing  in  our 
+God  after  a  longscme  voyage,  my  deare  wive's 
+great  desire  being  nov;  fulfilled,  which  was  to 
+leave  me  in  safety  from  the  hand  of  my  enemies 
+and  among  God's  people,  and  also  the  child 
+under  God's  precious  ordinances. 
+
+Now  when  we  came  upon  shore  we  were 
+kindly  saluted  and  entertained  by  many  freends 
+and  were  the  first  3  dayes  in  the  house  of  Mr. 
+Coddington  being  treasurer  at  that  time,  and 
+that  with  much  love. 
+
+When  we  had  been  here  two  dayes,  upon  Mun- 
+day  Oct,  6,  we  came  (being  cent  for  by  freends 
+at  Nev/town)  to  them  to  my  brother  Mr.  Ston's 
+house;  and  that  congregation  being  upon  their 
+remooval  to   Hartford  at   Connecticut,  myselfe 
+
+
+oS  MEMOIRS    OF 
+
+and  those  that  came  with  me  found  many  houses 
+empty  and  many  persons  willing  to  sell^  and  here 
+our  company  bought  off  their  bouses  to  dwell 
+in  until  we  should  see  another  place  fit  to  re- 
+move unto,  l)ut  having  bin  here  some  time  di- 
+verse of  our  brethren  did  desire  to  sit  still  and 
+not  to  remoove  farther,  partly  because  of  the 
+fellowship  of  the  churches,  partly  because  they 
+thought  their  lives  were  short  and  remoovals  to 
+near  plantations  full  of  troubles,  partly  because 
+they  found  sufficient  for  themselves  and  their 
+company.  Hereupon  there  was  a  purpose  to 
+enter  into  church  fellowship,  which  we  did  the 
+yeare  after  about  the  end  of  the  winter;  a  fort- 
+night after  which  my  deare  wife  Margaret 
+dyed,  being  first  received  into  church  fellowship, 
+which  as  she  much  longed  for  so  the  Lord  did 
+so  sweeten  it  unto  her,  that  she  was  hereby 
+exceedingly  cheered  and  comforted  with  the 
+sense^^of  God's  love,  which  continued  until  her 
+last  gaspe. 
+
+No  sooner  were  we  thus  set  down  and  en- 
+tered into  church  fellowship;  but  the  Lord  ex- 
+ercised us  and  the  whole  country  with  the 
+opinions  of  Familists;  begun  by  Mrs.  Hutchin- 
+son, raised  up  to  a  great  height  by  J^lr.  Vane, 
+too  suddenly  chosen  governour  and  maintained 
+too  obscurely  by  Mr.  Cotton,  and  propagated 
+too  boldly  by  the  members  of  Boston,  and  aome 
+
+
+THOMAS    SHEPARD.  59 
+
+in  other  churches  by  meanes  of  which  divisions 
+by  those  opinions,  the  ancient  received  truth 
+came  to  be  darkened,  God's  name  to  be  blas- 
+phemed, the  churche's  glory  diminished,  many 
+godly  greeved,  many  wretches  hardened,  de- 
+ceiving and  being  deceived,  growing  woorse 
+and  woorse;  the  principall  opinion  and  seed  of 
+all  the  rest  was  this,  viz.,  that  a  Xtian  should 
+not  take  any  evidence  of  God's  special  grace 
+and  love  towards  him  by  the  sight  of  any  graces 
+or  conditionall  evangelicall  promises  to  fayth 
+or  sanctification  in  way  of  ratiocination;  for 
+this  was  evidence  and  so  a  way  of  woorks,  but 
+it  must  be  without  the  sight  of  any  grace,  faith, 
+holiness  or  special  change  in  himselfe  by  imme- 
+diate revelation  and  because  that  the  whole 
+scripture  do  give  such  cleare,  plaine  and  nota- 
+ble evidences  of  favour  to  persons  called  and 
+sanctified;  hence  they  said  that  a  second  evi- 
+dence might  be  taken  from  hence  but  no  first 
+evidence;  but  from  hence  it  arose  that  as  all 
+error  is  fruitfull,  so  this  opinion  did  gender 
+above  a  hundred  monstrous  opinions  in  the 
+country  ;  which  the  elders  perceiving  having 
+used  all  private  brotherly  meanes  with  Mr.  Cot- 
+ton first,  and  yet  no  healing,  hereupon  they 
+publikely  preached  both  against  opinions  pub- 
+likely  and  privately  maintayned;  and  I  account 
+it  no  small  mercy  to  myselfe  that  the  Lord  kept 
+
+
+fiO  MEMOIRS    OP 
+
+me  from  that  contagion  and  gave  me  any  hart 
+or  light  to  see  thorow  those  devises  of  men's 
+heads;  altho  I  found  it  a  most  uncomfortable 
+time  to  live  in  contention,  and  the  Lord  was 
+graciously  pleased  by  giving  witnesse  agaynst 
+them  to  keepe  his  poore  church  spotless  and 
+cleare  from  them.  This  division  in  the  church 
+began  to  trouble  the  commonwealth.  Mr. 
+Wiieelwright,  a  man  of  a  bold  and  stiff  conceipt 
+of  his  own  woorth  and  light  preached  (as  the 
+Court  judged)  a  seditious  sermon,  stirring  up 
+all  sorts  agaynst  those  that  preached  a  cove- 
+nant of  woorks;^  meaning  all  the  Elders  in  the 
+country,  that  pfe ached  justification  by  fayth  and 
+assurance  of  it  by  sight  of  fayth,  and  sanclifica- 
+tion,  being  enabled  thereto  by  the  spirit:  The 
+troubles  thus  increasing  and  all  meanes  used 
+for  crushing  and  curing  these  sorts  a  synod  was 
+thought  of  and  called,  from  the  example.  Acts 
+15,  wherein  by  the  helpe  of  all  the  Elders 
+joyned  together,  those  errours  thorow  the  grace 
+and  power  of  xt.  were  discovered,  the  defenders 
+of  them  convinced  and  ashamed,  the  truth  stab- 
+lished,  and  the  consciences  of  the  saynts  set- 
+tied;  there  being  a  most  wonderful  presence  of 
+Xt's  spirit  in  that  assembly  held  at  Cambridge 
+An.  1637,  about  August  and  continued  a  month 
+together  in  publike  agitation?;  for  the  issue  of 
+this  svnod  was  this. 
+
+
+THOMAS    SREPARD.  61 
+
+1.  The  Pekoat  Indians  were  fully  discomfited, 
+for  as  the  opinions  arose,  wars  did  arise,  and 
+when  these  began  to  be  crusht  by  the  ministry 
+of  the  Elders  and  by  opposing  Mr.  Vane  and 
+casting  him  and  others  from  being  magistrates 
+y°  enemies  began  to  be  cruslii:  and  were  per- 
+fectly subdued  by  the  end  of  the  synod. 
+
+2.  The  magistrates  tooke  counsel  and  ex- 
+iled Mr.  Wheelright,  Mrs.  Hutchinson  and 
+diverse  Ilanders,  whom  the  Lord  did  strangely 
+discover,  giving  most  of  them  over  to  all  man- 
+ner of  filthy  opinions,  until  many  that  held  with 
+them  before  were  ashamed  of  them;  and  so  the 
+Lord  within  one  yeare  wrought  a  great  change 
+among  us. 
+
+At  this  time  I  cannot  omit  the  goodness  of 
+God  as  to  myselfe,  so  to  all  the  country  in  de- 
+livering us  from  the  Pekoat  furies.  These  In- 
+dians were  the  stoutest,  proudest  and  most  suc- 
+cessful! in  their  wars  of  all  the  Indians.  Their 
+cheef  Sachem  was  Sassakus,  a  proud,  cruel  and 
+unhappy  and  headstrong  prince,  who  not  wil- 
+ling to  be  guided  by  the  persuasions  of  his  fel- 
+low, an  aged  Sachem  Monianattuck,  nor  fear- 
+ing the  revenge  of  the  English,  having  first 
+suckt  the  blood  of  Captain  Ston  and  Mr.  Oldam 
+and  found  it  so  sv/eet,  and  bis  proceedings  for 
+one  whole  winter  so  succpssfull.  that  having  be- 
+sieged and  killed    about   four   men   that   kept 
+
+
+62  MEMOIRS    OF 
+
+Seabrook   fort,  he  adventured  to  fall   upon  the 
+English   in  the  river   at  Wethersfield  where  he 
+slew  9  or  ten  men,  women  and  children  at  un- 
+awares and  tooke  two  maids  prisoners,  carrying 
+them    away    captive   to   the    Pekoat    country. 
+Hereupon  those   upon  the  river  first  gathered 
+about  seventy  men   and  sent  them  into  the  Pe- 
+koat country,  to  make  that  the  seat  of  war,  and 
+to  revenge  the  death  of  these  innocents,  whom 
+they  barbarously   and  most   unnaturally  slew; 
+these  men  marched  two  days  and   nights  from 
+the  way  of  the  Naraganset  unto  Pekoat.     Be- 
+ing guided  by  those  Indians,  then  the   ancient 
+enemies  of  the  Pekoats,  they  intended  to  as- 
+sault Sasukus  fort,    but   falling   short  of  it  the 
+second    night  the    Providence  of  God  guided 
+them  to   another  nearer,  full  of  stout   men  and 
+there  brot  soldiers,   being  as  it  were   coopt  up 
+there,  to  the   number  of  three  or  four  hundred 
+in  all  for  the  divine  slaughter  by  the  hand  of  the 
+English.     These  therefore  being  all  night  mak- 
+ing merry  and  singing  the  death  of  the  English 
+the  next  day.     Toward  breake  of  the  day  being 
+very  heavy  with  sleep  the   English  drew  neare 
+within  the   sight  of  the  fort,   very  weary  with 
+travayle  and  want  of  sleepe,   at  which  time  five 
+hundred    Naragansets   fled  for   feare   and  only 
+two  of  the  company  stood  lo  i-  to  conduct  them 
+to  the  fort  and  vhe  doors  and  entrances  thereof. 
+
+
+THOMAS    SHEPARD.  63 
+
+The  English  being  come  to  it  awakened  the 
+fort  with  a  peale  of  muskets,  directed  into  the 
+midst  of  their  wigwams,  and  after  this,  some  i;n- 
+dertaking  to  compasse  the  fort  without,  some 
+adventured  into  the  fort  upon  the  very  faces  of 
+the  enemy  standing  ready  with  their  arrows 
+ready  bent  to  shoot  whoever  should  adventure, 
+but  the  English  casting  by  their  peeces,  took 
+their  swords  in  their  hands  (the  Lord  doubling 
+their  strength  and  courage)  and  fell  upon  the 
+Indians,  where  a  hot  fight  continued  about  the 
+space  of  an  houre,  at  last  by  the  directioapf  one 
+Captayne  Mason  their  wigwams  were  set  on 
+fire  as  being  dry  and  contiguous  one  to  another 
+was  right  dreadfull  to  the  Indians,  some  burning, 
+some  bleeding  to  death  by  the  sword ^  some  re- 
+sisting till  they  were  cut  off,  some  flying  were 
+beat  down  by  the  men  without,  until  the  Lord 
+had  utterly  consumed  the  whole  company  ex- 
+cept four  or  five  girles  they  tooke  prisoners,  and 
+dealt  with  them  at  Seabrooke  as  they  dealt  with 
+ours  at  Wethersfield,  and  tis  verily  thought 
+scarce  one  man  escaped  unless  one  or  two  to 
+carry  foorth  tydings  of  the  lamentable  end  of 
+their  fellowes;  and  of  the  English  not  one  man 
+was  killed,  but  one  by  the  musket  of  an  Eng- 
+lishman (as  was  conceived),  some  were  wounded 
+much,  but  all  recovered  and  restored  agayne. 
+Thus  the  Lord  having  delivered  the  country 
+
+
+64  MEMOIRS    OF 
+
+from  war  with  Indians  and  Familists  (who  arose 
+and  fell  together)  he  was  pleased  to  direct  the 
+harts  of  the  magistrates  (then  keeping  Court 
+^ordinarily  in  our  town  because  of  their  stirs  at 
+Boston)  to  thinke  of  erecting  a  Schoole  or  Col- 
+ledge  and  that  speedily  to  be  a  nursery  of  knowl- 
+edge in  these  deserts  and  supply  for  posterity, 
+and  because  this  towne  (then  called  Newtowne) 
+was  hereto  [by]  God's  great  care  and  good- 
+ness kept  spotless  from  the  contagion  of  the 
+opinions,  therefore  at  the  desire  of  some  of  our 
+town^lke  Deputies  of  the  Court  having  got  Mr. 
+Eaton  to  attend  the  Schoole,  the  Court  for  that 
+and  sundry  other  reasons  determined  to  erect  the 
+Colledge  here,  which  was  no  sooner  done  but 
+the  cheefe  of  the  magistrates  and  Eiders  sent  to 
+England  to  desire  heipe  to  forward  this  woorke, 
+but  they  all  neglecting  us  (in  a  manner)  the  Lord 
+put  it  into  the  hart  of  one  IMr.  Harvard,  who  dyed 
+woorth  £1600  to  give  ha.fe  his  estate  to  the 
+erecting  of  the  schoole.  This  man  was  a  schol- 
+lar  and  pious  in  his  life  and  enlarged  toward  the 
+country  and  the  good  of  it  in  life  and  death,  but 
+no  sooner  warj  this  given  but  Mr.  Eatou  (pro- 
+fessing valiantly  yet  falsely  and  most  deceitful- 
+ly the  feare  of  God)  did  lavish  out  a  great  part 
+of  it,  and  being  for  his  cruelty  to  his  schoUers, 
+especially  to  one  Biscoe  and  as  also  for  some 
+other  wantonness  in  life  not  so  notoriously  known 
+
+
+THOMAS    SHEPARD.  65 
+
+driven  the  country;  the  Lord  about  a  yeare 
+after,  graciously  made  up  the  breach  by  one 
+Mr.  Dunstar,  a  man  pious,  painfull  and  fit  to 
+teach  and  very  fit  to  lay  the  foundations  of  the 
+domesticall  affairs  of  the  Colledge;  v»^hom  God 
+hath  much  honoured  and  blessed. 
+
+The  sin  of  Mr.  Eaton  was  at  first  not  so 
+clearly  discerned  by  me,  yet  after  more  full 
+information  I  saw  his  sin  great  and  my  igno- 
+rance and  want  of  wisdom  and  watchfulness  over 
+him  very  great,  for  which  I  desire  to  mourn  all 
+my  life  and  tor  the  breach  of  his  family,  jpi 
+
+But  thus  the  Lord  hath  bin  very  good  unto 
+me,  in  planting  the  place  I  lived  in  with  such  a 
+mercy  to  myselfe,  such  a  blessing  to  my  chil- 
+dren and  the  country,  such  an  opportunity  of 
+doing  gpod  to  many  by  doing  good  to  students, 
+as  the  schoole  is. 
+
+After  this  I  fell  sick  after  Mr.  Harlakenden's 
+death,  my  most  deare  freenu,  and  most  precious 
+servant  of  Jesus  Xt. ;  and  when  I  was  very 
+low  and  my  blood  much  corrupted,  the  Lord  re- 
+vived me  and  after  that  tooke  pleasure  in  me  to 
+bless  my  labours  that  I  was  not  altogether  use- 
+less nor  fruitless. 
+
+And  not  only  to  speake  by  me  to  his  people 
+but  likewise  to  print  my  notes  upon  the  nine 
+principles  I  intendedto  proceed  on  with  in  York- 
+shire,   but    never    intended    them  or  imagined 
+
+
+66  MEMOIRS   OF 
+
+they  should  be  for  the  presse:  yet  six  of  them 
+being  finished  in  Old  England  and  printed  and 
+the  other  3  desired,  I  finished  (the  Lord  help- 
+ing) those  at  Cambridge  and  so  sent  them  to 
+England,  where  they  also  are  printed,  which  I 
+do  not  glory  in  (for  I  know  my  weakness)  that 
+my  name  is  up  by  this  meanes  but  that  the  Lord 
+may  be  pleased  to  do  seme  good  by  them  there 
+in  my  absence,  for  I  have  seene  the  Lord 
+making  improvement  of  my  weak  abilities  as 
+far  as  they  could  reach,  and  of  myselfe  to  the 
+utmoa^i  which  I  desire  to  blesse  his  name  for- 
+ever for. 
+
+Oct,  1637.  The  yeare  after  those  wars  in  the 
+country  God  having  taken  away  my  first  wife, 
+the  Lord  gave  me  a  fieeond,  the  eldest  daugh- 
+ter of  Mr.  Hooker,  a  blessed  store;  and  the 
+I^ord  hath  made  her  a  great  blessing  to  me  to 
+carry  on  matters  in  the  family  with  much  care 
+and  wisdom  and  to  seeke  the  Lord  God  of  her 
+father. 
+
+The  first  child  I  had  by  her  (being  a  son) 
+dyed.  The  second  (whom  the  Lord,  I  blesse,. 
+hath  hitherto  spared)  viz.  my  litt:e  Samuel,  is 
+yet  living.  The  third  son  viz.  my  son  John, 
+after  16  weeks,  departed  on  the  Sabbath  day 
+morning,  a  day  of  rest  to  the  bosom  of  rest  to 
+him  who  gave  it,  which  was  no  small  affliction 
+and  heart-breaking  to  me  that  I  should  provoke 
+
+
+THOMAS   SHEPARD,  b{ 
+
+the  Lord  to  strike  at  my  innocent  children  for 
+my  sake. 
+
+The  Lord  thus  afflicting  yet  continued  peace 
+to  the  country,  that  amazing  mercy  when  all 
+England  and  Europe  are  in  a  flame  the  Lord 
+hath  set  me  and  my  children  aside  from  the 
+flames  of  the  fires  in  Yorkshire  and  Northum- 
+berland, whence  if  we  had  not  bin  delivered,  I 
+had  bin  in  great  afflictions  and  temptations,  very 
+weake  and  unfit  to  be  tossed  up  and  downe  and 
+to  brave  violent  persecution;  the  Lord  there- 
+fore hath  shewed  his  tenderness  to  me  and  mine 
+iu  carrying  me  to  a  land  of  peace,  tho'  a  place 
+of  tryall;  where  the  Lord  hath  made  the  savage 
+Indians,  who  conspired  the  death  of  all  the 
+English  by  Miantinomo  upon  a  sudden  if  Uncas 
+could  have  bin  cut  off  first,  who  stood  in  their 
+way  and  determined  an  open  war  upon  us  by 
+the  privy  suggestions  of  Neutrall  En^Hsh  from 
+the  Hand;  to  seeke  for  peace  from  us  upon  our 
+own  termes  without  blood  shed,  Aug,   26.  1645. 
+
+But  the  Lord  hath  not  bin  woont  to  let  me 
+live  long  without  some  affliction  or  other,  yet 
+ever  mixt  with  some  mercy,  and  therefore  April 
+the  2d  1 646,  as  he  gave  me  another  son,  John, 
+so  he  tooke  away  ray  most  deare,  precious, 
+meeke  and  loving  wife,  having  left  behind  her 
+two  hopefuil  branches  very  dear  children,  Sam- 
+uel and  John.     This  affliction  was  very  heavy 
+
+
+ti3  MEMOIRS    OF 
+
+to  me,  for  in  it  the  Lord  seemed  to  withdraw 
+his  tender  care  for  me  and  mine,  which  he  gra- 
+ciously manifested  by  my  deare  wife,  also  re- 
+fused to  hear  prayer  when  I  did  thinke  he  would 
+have  hearkened  and  let  me  see  his  bewty  in  the 
+land  of  the  living  in  restoring  of  her  to  health 
+agayne;  also  taking  her  away  in  the  prime  time 
+of  her  life,  when  shee  might  have  lived  to  have 
+glorified  the  Lord  long,  also  in  threatening  me 
+to  proceed  in  rooting  out  my  family,  and  that 
+he  would  not  stop  having  begun  here  as  in  Ely 
+for  not  being  zealous  enough  agaynst  the  sins 
+of  his  son,  and  I  saw  that  if  I  had  profited  by 
+former  afflictions  of  this  nature,  I  should  not 
+have  had  this  scourge;  but  I  am  the  Lord's, 
+and  he  may  doe  with  me  what  he  will;  he  did 
+teach  me  to  prize  a  little  grace  gained  by  a 
+crosse  as  a  sufficient  recompence  for  all  out- 
+ward losses,  but  this  losse  was  very  great;  shee 
+was  a  woman  of  incomparable  meekness  of  spir- 
+it towards  myselfe  especially,  and  very  loving; 
+of  great  prudence  to  take  care  for  and  order  my 
+family  afl^Eiyres  being  neither  too  lavish  nor  sor- 
+did in  any  thing  so  that  I  knew  not  what  was 
+under  her  hands:  She  had  an  excellency  to 
+reproove  for  sin  and  discerne  the  evills  of  men. 
+She  loved  God's  people  dearly  and  studious  to 
+profit  by  their  fellowship  and  therefore  loved 
+their  company.     She  loved  God's  word  exceed- 
+
+
+THOMAS    SHEPARD.  69 
+
+ingly,  and  hence  was  glad  shee  could  read  my 
+notes,  which  she  had  to  muse  on  every  weeke. 
+She  had  a  spirit  of  prayer  beyond  ordinary  of 
+her  time  and  experience.  She  was  fit  to  dy 
+long  before  she  did  dy,  even  after  the  death  of 
+her  first  born,  which  was  a  great  affliction  to 
+her,  but  her  woorke  not  bein^-  done  then,  she 
+lived  almost  9  yeares  with  me  and  was  the  com- 
+fort of  my  life  to  me  and  the  last  sacrament  be- 
+fore her  lying  in,  seemed  to  be  full  of  Christ  and 
+thereby  fitted  for  heaven,  Shee  did  oft  say 
+shee  should  not  outlive  this  child;  and  wher. 
+her  fever  first  began  (by  taking  some  cold)  shee 
+told  me  soe  that  we  should  love  exceedingly 
+together  because  v.'e  should  not  live  long  to- 
+gether. Her  paine  tooke  away  her  sleepe, 
+want  of  sleepe  wrought  much  distemper  in  her 
+head  and  fJled  it  with  fantasies  and  distractions, 
+but  without  raging.  The  night  before  shee 
+dyed,  shee  had  about  6  hours  unquiet  sleepe, 
+but  that  so  cooled  and  settled  her  head,  that 
+when  she  knew  none  else  so  as  to  speake  to 
+them,  yet  she  knew  Jesus  Xt.  and  could  speake 
+to  him  and  therefore  as  soone  as  she  awakened 
+out  of  sleepe  shee  brake  out  into  a  most  heav- 
+enly hart-breaking  prayer  after  Xt.  her  deare 
+Redeemer  for  the  spirit  of  life;  and  so  continued 
+praying  until  the  last  hour  of  her  death,  "  Lord 
+tko'  I  [am]   unworthy,  Lord,   one   woord,    one 
+
+
+^U  MEMOIRS    OP 
+
+woord,  &.C."  and  so  gave  up  the  ghost:  thu3 
+God  hath  visited  and  scourged  me  for  my  sins 
+and  sought  to  weane  we  from  this  woorld,  but 
+I  have  ever  found  it  a  difficult  thing  to  profit 
+even  but  a  little  by  the  sorest  and  sharpest 
+afflictions. 
+
+
+The  writer  pauses  in  his  account  of  himself 
+within  a  very  few  years  of  his  death.  The  last 
+date  in  the  foregoing  pages  is  that  of  the  birth 
+of  his  son,  April  2d,  1646,  and  he  died  Aug.  25^ 
+1649:  So  that  only  three  years  at  most  inter- 
+vened between  the  finishing  of  his  biography, 
+and  his  death.  He  was  however  m.arried  the 
+third  time,  1647,  to  Margaret  Boradill.  Their 
+son  Jeremiah  was  afterward  minister  of  Lynn. i 
+
+It  will  be  proper  to  give  in  this  connexion  the 
+remaining  contents  of  the  litile  Book. 
+
+ANNO   16S9, 
+THE    GOOD    THINGS    1    HAVE     RECEIVED    OF    THE    LORD. 
+
+1.  He  is  the  God  of  my  being,  v/ho  might 
+have  made  me  a  woorme. 
+
+2.  He  is  the  God  of  my  life  and  length  of 
+dayes,  with  health,  which  I  have  enjoyed  long. 
+
+3.  He  is  the  God  who  tooke  me  up,  when  my 
+
+1   rarmcr. 
+
+
+THOMAS    SHEPAHD. 
+
+
+71 
+
+
+own  mother  dyed,  who  loved  me,  and  when  my 
+stepmother  cared  not  for  me,  and  v/hen  my  father 
+also  dyed,  and  forsooke  me  when  1  was  young 
+and  little,  and  could  not  take  care  for  myselfe. 
+
+4.  He  is  the  God,  that  brought  me  out  of 
+Egypt,  that  prophane  aid  wicked  town  where 
+I  was  borne  and  bred  under  the  care  of  one  of 
+my  own  brethren  and  that  gave  me  time  and 
+will  to  desire  learning,  where  if  I  had  lived,  I 
+had  sinned  and  bin  forever  damned. 
+
+5.  He  is  the  God  that  brought  me,  the  last  and 
+most  despised  of  my  father's  house  to  the  Univer- 
+sity of  Cambridge  and  strangely  made  way  for 
+me  there,  after  many  prayers  for  it  and  promises 
+(when  I  was  young)  to  be  the  Lord's,  if  he 
+should  do  that  for  me;  tho'  it  were  by  spending 
+all  the  portion  my  father  left  me,  which  accord- 
+ingly was  done. 
+
+6.  He  is  the  God  that  began  to  strive  with 
+me  there  as  soone  almost  as  I  came  thither,  by 
+Mr.  Dickinson  and  Dr.  Chadderton's  sejrmons, 
+and  although  I  oft  resisted  the  Lord  and  neg- 
+lected secret  prayer,  and  care  of  his  v/ays  a 
+long  time  and  followed  my  bowling  loose  com- 
+pany until  I  came  to  that  height  of  pride  that 
+for  their  sakes  I  was  once  or  twice  dead  drunke 
+and  lived  in  speculative  wantonness  (yet  still 
+refrayned  from  grosse  acts  of  sin  which  some 
+of  my  own  familiars  were  to  their  horrour  and 
+
+
+"^2  MEMOIRS    OF 
+
+thame  overtaken  with)  yet  at  this  very  time  of 
+being  woorst  and  under  wrath  the  Lord  dealt 
+most  graciously  with  rne,  and  made  my  last  act 
+of  drunkenness  the  beginning  of  more  serious 
+thoughts  of  making  my  peace  with  God. 
+
+7.  He  is  the  God  that  when  I  was  thus  in  this 
+place  made  me  acquainted  with  many  godly 
+freonds,  whose  lives  and  examples  were  or 
+might  have  bin,  patterns  to  me.  Mr.  Ston,  Mr. 
+Simonds,  whose  speeches  God  alway  blest  to 
+me  especially  when  they  described  God's  wrath 
+by  the  fire  side,  and  the  intollerable  torment  of 
+the  fire,  and  when  in  walking  with  one  I  heard 
+him  set  out  men's  misery  that  all  they  did  was 
+sin  v/ithout  ><t.,  and  he  blessed  also  their  coun- 
+sel to  me  to  read  the  practise  of  Xtianity,  which 
+did  much  affect  me,  and  to  heare  Dr.  Preston. 
+
+8.  It  is  the  God  that  sent  I  thinke  the  best 
+ministers  in  the  woorld  to  call  me,  Dr.  Preston, 
+and  Mr.  Goodwin.  The  words  of  the  first  at 
+the  first  sermon  he  made  when  he  came  into  the 
+College  as  Master  of  it,  and  diverse  that  he 
+preached  at  that  time,  did  open  my  hart  and 
+convince  me  of  my  unbeleefe,  and  of  a  total 
+emptiness,  of  all  enmity  agaynst  all  good;  and 
+the  Lord  made  me  honour  him  highly  and  love 
+him  dearly  although  many  godly  men  spake 
+agaynst  him. 
+
+9.  He  is  the  God  that   set  me  not  onlv  to  at- 
+
+
+THOMAS    SHEPARD.  73 
+
+tend  upon  the  woord  publikely,  but  to  private 
+meditations  and  prayer,  in  which  I  seldom 
+sought  but  found  the  Lord  taking  me  out  of  the 
+woorld  when  I  was  scoffed  at  for  what  I  did, 
+and  I  so  found  him  in  meditation  that  I  was 
+constrained  to  carry  my  booke  into  the  feelds  to 
+
+%vright  down  what  God 
+
+10,  In  these  ordinances  he  is  the  God  that 
+convinced  me  of  my  guilt,  fikh  of  sin,  self  seek- 
+ing and  love  of  honour  of  men  in  all  I  did,  and 
+humbled  me  under  both  so  as  to  set  a  high- 
+er price  on  Xt.  and  grace,  and  to  loath  myselfe 
+the  more,  and  so  I  was  eased  of  a  woorld  of  dis- 
+couragement. He  also  shewed  me  the  worth 
+of  xt.  and  made  my  soul  satisfied  with  him  and 
+cleave  to  him,  because  God  had  made  him 
+righteousness,  1  Cor.  1:3.  and  here  also  re- 
+vealed his  free  justification  and  gave  me  sup- 
+port and  rest  upon  and  in  his  promises  made  to 
+them  that  receive  him  as  Lord  and  king,  which 
+I  found  my  hart  unwilling  to  love;  w^iich  was 
+the  ground  or  rather  occasion  of  many  tempta- 
+tions of  Atheisme,  Judaisme,  Familisme,  Pope- 
+ry, despaire  as  having  sinned  the  unpardonable 
+sin;  but  yet  the  Lord  at  last  made  me  yield  up 
+myselfe  to  his  condemning  will  as  good,  which 
+gave  me  great  peace,  quietijess,  thorov\^  the 
+blood  and  pitty  of  Xt.  I  have  met  with  all 
+kinds  of  temptations,  but  after  my  conversion 
+7 
+
+
+74 
+
+
+MEMOIRS    OF 
+
+
+was  never  tempted  to  Arminianisme,  my  own  ex- 
+perience so  sensibly  confuting  the  freedom  of 
+will. 
+
+11.  He  is  the  God  which  melted  my  hart  after 
+a  relapse  from  the  glorious  condition  I  had  in 
+Cambridge,  by  taking  a  journey  into  the  coun- 
+try with  a  carnal  professor,  and  this  the  Lord 
+did  when  I  never  sought  nor  regarded  him. 
+
+12.  He  is  the  God  that  made  me  a  poore 
+meanes  of  scattering  the  knowledge  of  xt.  and 
+setting  up  days  of  fasting  and  holy  conference 
+and  conscientious  Sabbath  keeping.  I  was 
+weake  every  way  and  young  among  the  schol- 
+lars,  where  I  lived  and  to  study  what  to  do  for 
+the  Lord. 
+
+13.  He  is  the  God  that  carryed  me  into  Es- 
+sex from  Cambridge  and  gave  me  the  most 
+sweet  society  of  so  many  godly  ministers,  as  Mr. 
+Hooker,  and  Mr.  Wells,  and  Mr.  Wharton, 
+Mr.  Bedell,  and  Mr.  Barrowes,  &c.,  although 
+I  could  do  no  good  among  them. 
+
+14.  He  is  the  God  that  sent  me  by  all  these 
+ministers  to  obey  the  voice  of  God  and  the  call 
+of  the  people  of  Earles-Colne,  a  most  prophane 
+place,  where  the  Lord  blessed  my  poore  labours 
+to  Mr.  Harlakenden  and  his  family,  and  to  many 
+others  in  the  town  and  country  and  how  the 
+Lord  kept  me  from  troubles  3  yeares  and  a 
+halfe  until  the  Bishop  Laud  put  me  to  silence 
+
+
+THOMAS    SHEPARD. 
+
+
+and  would  not  let  me  live  in  the  town,  and  this 
+he  did,  when  I  looked  to  be  made  a  shame  and 
+confusion  to  all. 
+
+T^he  following  is  a  Specimen  of  the  ^iulhor's  Book-hecping, 
+
+John  Bridge  hath  £3  of  what  I  am  to  receive  from  my 
+
+brother 
+Received  of  Giles  Archer  £54  the  other  shilling  was  not 
+
+in  his  booke 
+Received  of  him  of  Towcester  505.  at  one  time  and  30^. 
+
+at  another  time,  in  all  £4. 
+My  brother  Samuel  owes  me  for  the  house  £33 
+
+and  I  lent  him 10 
+
+So  that  in  all  tis £03 
+
+I  received  from  my  brother  Samuel 
+]  .  from  himselfe  from  the  ship     .        -         -  £5 
+
+2.  By  Mr.  Winthrop  ...         -  20 
+
+3    He  paid  to  Mr.  Hooker  for  me  in  lieu  of 
+
+the  house -         Go 
+
+£10  of  which  £65  was  borrowed  of  me  so  that 
+partly  to  myselfe  and  partly  to  IMr.  Hooker, 
+my  brother  hath  payd — to  Mr.  Hooker  55 
+
+to  myselfe         ------  25 
+
+So  that  I  have  received  in  all  for  him  for  the 
+
+payment  of  his  house  _         -        -         .         80 
+
+So  that  he  now  owes  me  -         -         .  13 
+
+To  my  brother  Davenport  for  taking  in  the 
+
+meadow  in  long  march        -         -         -         -  117 
+
+To  Mr.  Andrews  for  rale  -        -         -        -    2  0  0 
+
+To  John  Bridge  -  -  -        -        2  0  0 
+
+To  Mr.  Andrews        -  -        £19  or  20 
+
+
+76                                     MEMOIRS    OF 
+
+Delivered  to  Mr.  Buddy        .        .        -        - 
+
+£10 
+
+To  my  brother  Samuel       .         -         -         - 
+
+10 
+
+out  of  it 
+
+24 
+
+To  Mr.  Buckly  again          -         -         -         . 
+
+15 
+
+In  all               
+
+25 
+
+My  brother  Sam  paid  to  Mr.  Hooker 
+
+65 
+
+I  have  paid  to  Mr.  Buckly  for  him     - 
+
+25 
+
+So  that  there  is  not  paid         -         -         -         . 
+
+90 
+
+To  rec'd     £93                    Do. 
+
+£3  0 
+
+1  rec'd              5                    Per.  meadow 
+
+1  1  7 
+
+2  rec'd           20                    Forrates  to  Andover 
+
+2  0 
+
+3  rec'd            65                    To  John  Bridge 
+
+2  0  0 
+
+Sum            £90 
+
+£6  3  7 
+
+Paid  also  to  Mr.  Andrews 
+
+for  his  house 
+
+19 
+
+£25  3  7 
+
+Lent  to  ray  brother  Town  £2 
+Lent  to  Ministers  for 
+
+Farneside  3 
+
+Brother  Champney  hath 
+
+of  John  Birchenson 
+
+his  money  2 
+
+To  John  Trumble  for  carriage 
+due  in  Mr.  Goodwin's  books 
+to  him  for  fetching  Mr.  Harryer 
+to  him  fur  goodman  Orts 
+
+
+6^. 
+4 
+1  4 
+
+
+.11  4 
+
+
+THOMAS    SHEPARD.  77 
+
+Reckonings  between  Robert  and  I 
+
+£    1.    (I. 
+All  reckonings  being  made  even  I  pai;I  him  5    17  7 
+
+Of  his  year's  wages,  which  came  to  £7 
+so  that  there  remains  to  be  paid  -         -         1      9,  5 
+
+M  ay  1,1646. 
+
+1  paid  to  Robert  Latham  for  his  second  year's  service 
+upon  Nov.  12,  1646,  eight  pound,  of  which  he  received 
+£3  in  money  and  £5  of  Mr.  Glover  of  Dorchester. 
+
+There  remayns  due  to  Robert  £1  5  5  because  he  paid 
+s3  to  one  for  me. 
+
+Also  I  am  to  remember  him  for  his  time  from  iVlicheel- 
+mas  to  Nov.  9,  which  he  left  to  me  to  give  him  any  thing 
+or  nothing,  for  he  was  one  week  with  me  and  had  his 
+board  freely. 
+
+1  left  to  pay  for  nayles  vl  lid.  having  given  him  ^^2  3 
+for  part  of  them. 
+
+The  MS.  also  contains  the  following  para- 
+graph, by  a  modern  hand. 
+
+^  In  another  Manuscript  of  Mr.  Shepards, 
+there  is  this  passage — "  Dec.  16,  1630,  I  was 
+inhibited  from  preaching  in  the  Diocess  of 
+London  by  Dr.  Laud,  Bishop  of  that  Diocess. 
+As  soon  as  I  came  in  the  morning  about  8  of 
+the  clock,  falling  into  a  fit  of  rage  he  asked  me 
+what  degree  I  had  taken  in  the  University.  I 
+answered,  I  was  Master  of  Arts.  He  asked 
+me  of  what  Colledge.''  I  answered  of  Emanuel. 
+He  asked  me  how  long  I  had  lived  in  his  Dio- 
+7* 
+
+
+78  MEMOIRS    OP 
+
+cess?  I  answered  3  years  and  upwards.  He 
+asked  who  maintained  me  all  this  while,  charg- 
+ing me  to  deal  plainly  with  him,  adding  withal 
+that  he  had  been  more  cheated  and  equivocated 
+with  by  some  of  my  malignant  faction  than  ever 
+man  was  by  Jesuit.  At  the  speaking  of  which 
+words  he  looked  as  though  blood  would  have 
+gushed  out  of  his  face,  and  did  shake  as  if  he 
+had  been  haunted  with  an  ague  fit, — to  my  ap- 
+prehension, by  reason  of  his  extreme  malice 
+and  secret  venome.  I  desired  him  to  excuse 
+me.  He  fell  then  to  threaten  me  and  withal  to 
+bitter  railing,  calling  me  all  to  nought,  saying 
+— "  You  prating  coxcomb,  do  you  think  all  the 
+learning  is  in  your  brain?"  He  pronounced 
+his  sentence  thus.  1  charge  you  that  you 
+neither  preach,  read,  marry,  bury,  or  exercise 
+any  ministerial  functions  in  any  part  of  my 
+Diocess;  for  if  you  do,  and  I  hear  of  it,  I'll  be 
+upon  your  back  and  follow  you  wherever  you 
+go,  in  any  part  of  this  kingdom,  and  so  everlast- 
+ingly disenable  you.  I  besought  him  not  to 
+deal  so  in  behalf  of  a  pooretown, — here  he  stopt 
+me  in  what  I  was  going  to  say, — "  a  poor  town! 
+You  have  made  a  company  of  seditious  factious 
+bedlams.  And  what  do  you  prate  to  me  of  a 
+poor  town?  "  I  prayed  him  to  sufler  me  to  cate- 
+chise on  the  Sabbath  days,  in  the  afternoon.  He 
+replied,  '^  spare  your  breath,  I'll  have  no  such 
+
+
+THOMAS    SHEPARD.  79 
+
+fellows  prate  in  my  Diocess.  Get  you  gone! 
+And  make  ycur  complaints  to  wliom  you  will!  " 
+So  away  I  went — and  blessed  be  God  that  I 
+may  go  to  him." 
+
+PRIVATE    MEDITATION. 
+
+I  seeke  not  the  Lord  in  prayer  till  I  find  him 
+h.   1.    I  manifest   contempt  of  xt.,    can   live 
+without  him 
+
+2.  contempt  of  his 
+
+3.  Forsake  Xt.,  who  loves  my  company  and 
+is  angry  with  me  for  not  keeping  it. 
+
+2.  Then  I  goe  from  prayer  and  follow  my 
+calling  but  not  for  the  Lord,  am  not  holy  in  all 
+manner  of  conversation,  and  hence  I  loose  what 
+I  got  in  prayer,  nay  forget  what  I  gained  and 
+so  make  no  progresse  in  a  xtian  course,  and  so 
+either  there  is  no  life  of  Xt.  which  is  most  sad, 
+or  if  there  be  any  I  crucify  it  and  disfigure  it 
+and  put  it  to  open  shame,  which  is  most  sad 
+also. 
+
+3.  I  maintayne  me  a  will  and  firme  resolu- 
+tion^ when  I  see  to  avoyd  those  practises.  Re- 
+member my  soule  to  wait  all  the  day  long  upon 
+him  to  plant  it  in  thee,  for  my  soyle  will  not  bear 
+it  nor  bring  it  foorth. 
+
+4.  I  would  faine  have  notice  of  a  worke  of 
+grace  in  my  hart  that  so  I  might  be  comforted 
+in  the  midst  of  my  sins,  which  I  am  not  resolved 
+to  leave. 
+
+
+80  MEMOIRS    OF 
+
+APRIL  4,  1639. 
+PREPARATION    FOR    A    FAST. 
+
+May  not  I  be  the  cause  of  the  churches'  sor- 
+rowes,  which  are  renewed  upon  us,  for  what 
+have  the  sheepe  done? 
+
+For  I .  My  hart  lying  long  out  from  the  Lord 
+1 .  sent  a  terrible  storme  at  sea  to  awaken  me, 
+and  the  deliverance  from  it  was  so  sweet  that  I 
+could  not  but  thinke  my  life  should  after  that  be 
+only  heavenly,  as  being  called  from  an  apparent 
+death  to  live  a  new  life. 
+
+2.  Immediately  upon  this  my  child  was  taken 
+from  me,  my  first  borne,  which  made  me  re- 
+member how  bitter  it  was  to  crosse  the  Lord's 
+love. 
+
+3.  Set  my  face  towards  New  England;  when 
+considering  the  liberties  of  God's  house  I  re- 
+solved and  thought  it  fit  to  be  wholly  for  the 
+Lord  in  all  manner  of  holiness  at  bed  and 
+board. 
+
+4.  Then  the  Lord  tooke  my  deare  wife  from 
+me,  and  this  made  me  resolve  to  delyght  no 
+more  in  creatures,  but  in  the  Lord  to  seeke 
+him. 
+
+5.  Then  the  Lord  threatened  blindness  to  my 
+child,  and  this  made  God's  will  afilicting  sweet  to 
+me,  but  much  more  commanding  and  promising 
+that  I  would  do  his  will  and  leave  those  things 
+
+
+THOMAS    SHEPARD.  81 
+
+to  himself,  but  oh  how  is  my  gold  become  dim 
+and  how  little  have  I  answered  the  Lord,  con- 
+sidering also  my  ship  resolutions,  which  I  have 
+writ  down.  I  have  v/anted  both  remembrance, 
+hart,  strength,  or  will  to  do  any  of  these  things, 
+and  therefore  have  not  cause  to  blame  the  Lord, 
+for  he  hath  persuaded  my  hart  to  this^  but  my 
+own  concupiscence  and  vile  sins,  which.  Lord 
+that  I  may  mourn  for,  that  thou  mayst  restore 
+comforts  to  me.  Apostacy  from  God  is  griev- 
+ous, tho'  but  in  a  little  degree;  to  serve  Satan 
+without  promise,  to  forsake  the  Lord's  promise. 
+What  evill  have  I  found  in  the  Lord's?  This 
+brings  more  disgrace  upon  the  Lord  than  if 
+there  never  had  bin  any  coming  to  him.  This 
+is  a  sin  against  more  love  Lord  might  never 
+have  drawn. 
+
+2.  The  people  being  committed  to  me  1.  not 
+pittyed  some,  2.  nor  prayed  for,  3.  nor  visited, 
+4.  nor  have  I  shewn  much  love  unto. 
+
+3.  The  family  I  have  not  edifyed,  nor  in- 
+structed, nor  taken  all  occasions  of  speech  with 
+them. 
+
+4.  The  gospel  I  have  preached  1.  not  scene 
+in  the  glory,  2.  not  beleeved,  3.  not  affected  at, 
+4.  not  seeking  to  Xt.  for  supply,  that  all  has  bin 
+dead  woorke,  and  fruit  of  pride. 
+
+5.  Walking  dayly  without  that  approving  my- 
+selfe  unto  him  and  his,  tho'  I  do  his  woorke  yet 
+
+
+b2  MEMOIRS    OF 
+
+I  do  not  mind  him  in  it,  his  command  and  his 
+presence — nor  yet  any  endeavour  to  grow  some- 
+what every  day. 
+
+b.  My  not  lamenting  the  falls  of  professors 
+and  condition  of  the  country,  who  are  not  in- 
+deed the  glory  of  God  in  the  woorld  nor  the  holy 
+people. 
+
+Is  it  not  hence 
+1.  That  many  pillars  in  this   church   have 
+fallen,  as  if  the   Lord   would  not  betrust  such 
+precious  vessels  to  my  care,   and  hath  not  the 
+sorrow  lyen  upon  me. 
+
+2.  h.  universal  mortality,  when  Hezekiah's 
+hart  was  lifted  up,  then  wrath  came  not  only  on 
+him  but  on  all  the  rest. 
+
+3.  h.  I  have  had  this  long  sickness  as  if  the 
+Lord  would  delight  no  more  in  me  to  use  me. 
+
+O  my  God,  who  shall  be  like  to  thee  in  par- 
+doning and  subduing  mine  iniquities. 
+
+This  is  all  of  Mr.  Shepard's  writing  which  is 
+legible  in  the  MS.  There  are  a  few  pages  by 
+another  hand,  but  of  these  the  following  only  is 
+intelligible: 
+
+W"  a  soul  may  know  he  shall  be  able  to  hold 
+out  in  time  oftryall: 
+
+1.  W"  his  soul  is  in  fear  he  shall  be  not  able 
+to  hold  out  but  shall  fail  the  LJ  in  time  oftryall, 
+and  is  brought  tharby  to  hang  on  God's  naked 
+marcy  to  uphold  him,  andpris  that  marcy. 
+
+
+THOMAS    SHEPARD.  83 
+
+2.  He  must  then  beleeve  if  the  inioyment  of 
+that  marcy  be  good  for  him,  or  the  taking  away 
+of  such  a  comfort  from  him  or  deliverance  from 
+an  affliction  be  best  for  him  the  L''  will  undoubt- 
+edly give  it  or  withhold  it,  and  this  the  soul  is 
+bound  to  beleeve  and  heareby  to  perswad  his 
+hart  he  shall  be  inabled  to  answer  the  L'^'s  ex- 
+specktatione 
+
+2  Cor.   12:  10. 
+
+It  would  seem  that  this  was  written  by  way 
+of  meditation  upon  certain  passages  in  Mr. 
+Shepard's  life. 
+
+The  following  are  some  of  the  particulars  of 
+Mr.  Shepard's  death.  *'  Returning  home  from 
+a  council  at  Rowly,  he  fell  into  a  quinsie  with 
+a  symptomatica!  fever,  which  suddenly  stopped 
+a  silve}'  trumpet^  from  w^ience  the  people  of  God 
+had  often  heard  the  joyful  sound.  Among  other 
+passages  uttered  by  him  when  he  lay  a  dying, 
+he  addressed  those  that  were  about  him  with 
+these  words:  '  Oh  love  the  Lord  Jesus  very  much: 
+that  little  part  I  have  in  Mm  is  no  small  comfort 
+to  me  now.''^  "  He  said  to  the  young  ministers 
+around  him,  '  That  their  ivork  ivas  great,  and 
+called  for  great  seriousness,^  and  mentioned 
+to  them  three  things   concerning  himself:    That 
+
+1  Cotton  Mather,  Book  iU.  Chap   V.  Magnalia. 
+
+
+84  MEMOIRS    OF 
+
+the  study  of  every  Sermon  cost  him  tears: '  '  That 
+before  he  preached  any  Sermon  he  got  good  by  it 
+himself : '"  and  ^  That  he  always  went  into  the 
+pulpit  as  if  he  were  to  give  up  his  account  to  his 
+Master. "^^ 
+
+He  left  three  sons,  viz.  Thomas,  Pastor  of 
+the  first  Church  in  Charlestown,  Jeremiah, 
+Minister  of  Lynn,  and  Samuel,  who  also  entered 
+the  Ministry  but  died  at  an  early  age.^ 
+
+The  following  notices  of  Shepard  are  found 
+in  various  cotemporary  authors. 
+
+One  writer  calls  him,  '  That  gratious,  sweete 
+Heavenly  minded  and  soule-ravishing  Minis- 
+ter, Mr.  Thomas  Shejjheard^  in;  whose  soule 
+the  Lord  shed  abroad  his  love  so  abundantly, 
+that  thousands  of  souls  have  cause  to  blesse 
+God  for  him,  even  at  this  very  day,  who  are 
+the  scale  of  his  ministrey,  and  hee  a  man  of  a 
+thousand,  indued  with  abundance  of  true  sa- 
+ving knowledge  for  himselfe  and  others,  yet 
+his  natural!  parts  were  weake,  but  spent  to  I  he 
+full.' 3 
+
+
+1  Historical  Collections,  Vo'.  VII.  First  Scries,  p.  44. 
+
+2  Historical  Collections,  Vd.  VI.  p.  604.  Second  Series. 
+
+3  Wonder  Working  Providence  of  Zioii's  Saviour,  p.  77. 
+
+
+THOMAS    SHEPARD. 
+
+
+85 
+
+
+Formation  of  the  Church    at   Cambridge  and  Is- 
+
+TRODUCTiON     OF     Mr.    ShEPARD     TO      THE      PaSTORAL 
+
+Office. 
+
+^  Mr.  Shepherd  a  godly  minister  came  lately 
+out  of  England,  and  diverse  other  good  Chris- 
+tians intending  to  raise  a  chh.  Body  came  and 
+acquainted  y*^  magistrates  herewith  who  gave 
+their  approbation.  They  also  sent  to  all  the 
+neighbouring  Chhs.  for  the  Elders  to  give  yr  as- 
+sistance att  a  certain  day  att  Newtown,  (Cam- 
+bridge) when  yy  should  constitute  this  Body; 
+and  accordingly  att  this  day  there  met  a  great 
+assembly  when  y*^  Proceeding  was  as  followeth. 
+
+'Mr.  Shepherd  and  two  others  (who  hereafter 
+to  be  chosen  to  office)  Sat  together  in  y^  Elders 
+seat:  when  ye  Elder  of  them  began  with  Prayer. 
+After  this,  Mr.  Shepherd  prayed,  with  deep 
+confession  of  Sin,  and  Exercised  out  of  Eph.  V. 
+that  he  might  make  it  to  himself  a  holy,  &c. 
+and  also  opened  y°  cause  of  y^  Meeting,  <S'c. 
+Then  y^  Elder  desired  to  know  of  y*'  Chh.  as- 
+sembled, what  number  were  needful  to  make  a 
+Chh.,  and  how  they  ought  to  proceed  in  this 
+action.  Whereupon  some  of  y^^  Ancient  Minis- 
+ters conferring  severally  together  made  answer, 
+That  y''  Scripture  did  not  set  down  any  certain 
+rule  for  y°  number.  Three  they  thought  were 
+too  few,  because  by   Matt,  18,   an   appeal  was 
+
+
+86 
+
+
+MEMOIRS    OF 
+
+
+allowed  to  be  made  from  three;  But  that  seven 
+might  be  a  fitt  number.  And  for  their  proceed- 
+ing they  advised  that  such  as  were  to  join  should 
+make  Confession  of  their  faith,  and  declare 
+what  worke  of  grace  the  Lord  had  wrought  in 
+them.  Which  accordingly  they  did,  Mr.  Shep- 
+herd first:  then  4  others:  then  y*^  Elder,  and  one 
+who  was  to  be  a  Deacon  (who  had  also  prayed) 
+and  another  member.  Then  y*^  Covenant  was 
+read,  and  they  all  gave  a  solemn  assent  to  it. 
+Then  y*'  Elder  desired  of  y''  Churches,  that  if 
+they  did  approve  them  to  be  a  Church,  they 
+would  give  them  y'^  right  hand  of  Fellowship. 
+Whereupon  Mr.  Cotton  (upon  Short  Speech 
+with  some  others  near  him)  in  y°  name  of  the 
+Churches  gave  his  hand  to  the  Elder,  with  a 
+Short  Speech  of  their  assent,  and  desired  y" 
+peace  of  the  Lord  Jesus  to  be  with  them. — 
+Then  Mr.  Shepherd  made  an  Exhortation  to  y^ 
+rest  of  this  Body  about  y^  nature  of  their  Cove- 
+nant and  to  stand  firm  to  it,  and  commended  to 
+y*"^  Lord  in  a  most  heavenly  Prayer. — Then  y^ 
+Elder  told  the  assembly  that  they  were  intended 
+to  choose  Mr.  Shepherd  for  their  Pastor,  (by 
+y^  name  of  y  Brother  who  Exercised)  and  de- 
+sired the  Churches  that  if  they  had  any  thing  to 
+Except  against  him  they  would  impart  it  before 
+y^  day  of  Ordination.   Then  he  gavey^  churches 
+
+
+THOMAS    SHEPARD. 
+
+
+87 
+
+
+hands,  for  their  assistance,   and   so  left  them  to 
+y^  Lord.'  ' 
+
+The  following  Letters  are  copied  from  the  Original 
+MSS.  in  the  possession  of  the  "  Historical  Society,"  and 
+are  a  great  curiosity.  Mr.  Shepard  was  on  the  Council 
+called  to  lay  the  foundation  of  Mr.  Richard  Mather's 
+Church  in  Dorchester,  but  was  not  satisfied  with  the 
+evidence  given  by  three  individuals  of  being  suitable  per- 
+sons to  found  a  Church,  Upon  his  return  to  Cambridge 
+he  wrote  the  following  letter  to  Mr.  Mather,  assigning 
+his  reasons  for  the  bold  and  faithful  stand  which  he  took 
+before  the  Council.  It  is  well  worthy  of  perusal  by  those 
+who  are  in  like  manner  called  upon  to  lay  the  founda- 
+tion of  Churches. 
+
+[superscription.] 
+
+To  his  loving  friend  and  hrother,  Mr.  3Iad~ 
+der^Sj  at  Dorchester  he  these  dd. 
+
+Deare  brother. 
+
+As  it  was  a  sad  thing  to  us  to  defer  the  uniting 
+of  your  people  together,  so  it  would  add  affliction 
+to  nij  sorrow,  if  that  yourselfe,  (whom  the  Lord 
+hath  abundantly  qualified  and  fitted  for  hiraselfe,) 
+and  church  and  people   should  take  to  hart  too 
+
+
+1  This  is  copied  from  the  Records  of  the  First  Church  in  Cam- 
+bridge, being  a  letter  from  Rev.  Dr.  Stiles,  of  Newport,  1772,  to  Rev. 
+I'r.  Appleton,  then  Pastor,  in  or.'er  to  supp  y  the  place  of  the  ac- 
+count of  the  formation  of  the  Church,  supposed  to  be  contained  in 
+the  first  Vol.  of  Record-;  unfortunately  1  st.  Br.  Stiles  copies  from 
+the  "MS.  of  Gov.  Winthrop's  Journal,"  Sts  Winthrop's  Journal, 
+1635,  Mj,  13. 
+
+
+88 
+
+
+MEMOIRS    OF 
+
+
+much  so  solemn  a  demurre  and  stop  to  the  pro- 
+ceedings of  those  that  were  to  be  united  to  you; 
+for  what  would  this  be  but  a  privy  quarrelling  at 
+the  wise  providence  of  our  God,  that  knows  what 
+physick  is  best  to  be  given,  and  a  greeving  in- 
+deed for  that  good  hand  of  God,  in  which  we 
+ought  abundantly  to  rejoice,  for  I  am  confident 
+of  it  that  there  is  nothing  in  his  cup  so  bitter, 
+but  by  waiting  awhile  yourselfe  and  people  will 
+find  such  sweetness  in  the  bottom  and  conclu- 
+sion of  it  as  shall  make  you  and  them  a  double 
+amends.  David  had  a  great  desire  to  build  the 
+Lord  a  temple,  and  he  was  content  with  the  sad 
+message  of  the  prophet,  he  must  not  do  it,  his 
+son  should.  It  was  quite  honour  enough  unto 
+him  to  provide  stuff  for  it.  I  persuade  myselfe 
+the  Lord  intends  to  do  more  for  you,  and  by  you, 
+in  the  place  where  the  Lord  hath  set  you,  and 
+that  he  will  honour  you  with  a  more  glorious 
+service  than  that  of  Solomon's,  to  build  him  a 
+temple  not  of  stones,  but  of  saints  elect  and  pre- 
+cious, yet  you  know  how  many  yeares  Solomon 
+waited  before  the  temple  came  to  be  erected. 
+
+All  the  stones  of  it  were  hewn  and  hammered 
+out  in  mount  Lebanon,  so  that  no  axe  nor  ham- 
+mer v/as  heard  knocking  while  the  temple  was 
+a  building.  1  Kings  6:  7.  Oh,  let  not  a  little 
+waiting  be  grievous  or  sad  to  you  while  your 
+stones,  your  people,  are  preparing  themselves, 
+
+
+THOMAS    SHEPARD. 
+
+
+89 
+
+
+or  the  Lord  rather  is  preparing  of  them,  to  be 
+built  on  the  foundation  stone,  that  when  you 
+meet  agayne  together,  there  may  not  be  any 
+hammer  heard,  any  doubt  made,  any  pause  oc- 
+casioned, by  any  neglect  of  them  in  not  seeking 
+to  gather  their  evidences  better,  both  to  quiet 
+their  owne  soules  before  the  Lord,  and  to  sat- 
+isfy the  consciences  of  other  men.  As  for  my- 
+selfe  I  was  very  loth  to  speake,  but  I  thought 
+(and  I  have  found  it  since)  that  I  should  neither 
+be  accounted  faithfull  to  the  church  that  sent 
+me,  neither  should  I  manifest  the  tenderness  of 
+the  good  of  your  people,  if  I  had  not  spoken 
+what  I  did.  I  did  confesse,  and  do  confesse 
+still,  that,  although  there  were  divers  weak- 
+nesses in  most  which  I  did,  and  do  willingly  with 
+a  spirit  of  love,  cover  and  passe  by,  as  knowing 
+what  I  am  myselfe,  yet  there  were  3  of  them 
+cheefly,  that  I  was  not  satisfyed  scarce  in  any 
+measure  with,  their  profession  of  their  faith;  not 
+but  that  I  doe  believe  upon  your  own  tryall  ot 
+them  (which  I  persuade  myselfe  w'ill  not  be 
+slighty  in  laying  a  foundation)  but  that  they 
+might  have  grace,  yet  because  we  came  not 
+here  to  find  gracious  harts,  but  to  see  them  too. 
+'Tis  not  faith  but  visible  faith,  that  must  make 
+a  visible  church,  and  be  the  foundation  of  visible 
+communion,  which  faith  I  say,  because  my 
+v/eaknes  could  not  then  see   in  some  of  them 
+
+
+90  MEMOIRS    OF 
+
+by  their  professions,  I  therefore  spake  what  I 
+did  with  respect  to  yourselfe  and  tendernes  also 
+to  them  that  so  they  might  either  expresse  them- 
+selves more  fully  for  satisfaction  of  the  churches 
+(which  I  did  chiefly  desire)  or  if  there  were  not 
+time  for  this,  that  they  might  defer  till  another 
+time,  which  you  see  was  the  generall  vote  of  all 
+the  churches  which  course  I  have  and  do  thinke 
+hath  this  3  fold  good  wrapt  up  in  it.  1.  That 
+if  your  people  then  doubtfull  to  us,  be  indeed 
+sincere,  this  might  make  them  more  humble  and 
+make  them  search  themselves  more  narrowly, 
+and  make  them  cast  away  all  their  blurred  ev- 
+idences, and  get  fairer  and  shew  better,  and  so 
+find  more  peace  and  keep  more  close  to  God 
+than  ever  before;  and  on  the  contrary,  if  they 
+be  unsound  that  this  might  be  a  meanes  to  dis- 
+cover them,  for  either  you  will  find  them  proud, 
+passionate  and  discontented  at  this  (which  I  be- 
+lieve is  far  from  all  of  them)  or  else  you  will 
+see  that  this  doth  little  good,  and  woorkes  little 
+upon  them  ;  which  unto  my  own  selfe  would  be 
+a  shrewd  evidence  of  little  or  no  grace,  if  the 
+majesty  and  presence  of  God  in  so  many  churches 
+so  ready  to  receive  you,  should  woorke  no  more 
+awe  nor  sad  laying  to  hart  such  a  sentence  as 
+this  hath  bin;  for  believe  it,  brother,  we  have 
+bin  generally  mistaken  in  most  men,  and  in  great 
+professors  these  times  have  lately  shewn,  and 
+
+
+THOMAS    SHEPARD.  91 
+
+this  place  hath  discovered  more  false  harts  than 
+ever  we  saw  before  ;  and  it  will  be  your  com- 
+fort to  be  very  wary  and  very  sharpe  in  looking 
+to  the  harts  and  spirits  of  those  you  signe  your- 
+selfe  unto  especially  at  first  ;  least  you  meet 
+with  those  sad  breaches,  which  other  churches 
+have  had,  and  all  by  want  of  care  or  skill  to  pick 
+foorth  fit  stones  for  so  glorious  a  foundation  as 
+posterity  to  come  may  build  upon  and  blesse 
+the  Lord. 
+
+2.  By  this  meanes  others  will  not  be  too  for- 
+ward to  set  upon  this  woorke,  which  after  sad 
+tryall  will  be  found  utterly  unfit  for  it ;  for  'tis 
+not  a  woorke  for  all  professors,  nor  for  all  godly 
+men  to  lay  a  foundation  of  a  church,  for  many 
+godly  men  may  have  some  od  distemps  that  may 
+make  for  the  mine  of  the  building,  therefore  not 
+fit  for  a  foundation;  many  godly  men  are  weake 
+and  simple  and  unable  to  discerne,  and  so  may 
+easily  receive  in  such  as  may  afterward  ruine 
+them,  hence  unfit  to  lay  a  foundation,  not  that  I 
+judge  thus  of  your  people.  I  dare  not  thinke 
+soe,  but  if  those  that  be  fit  have  bin  stopt  thus 
+in  their  way,  how  will  this  make  others  to 
+tremble  and  feare,  in  attempting  this  woorke 
+lesse  able  than  yourselves. 
+
+3.  By  this  meanes  I  beleeve  and  hope  that 
+the  communion  of  saints  will  be  set  at  a  higher 
+price,  when  'tis  scene  that  'tis  not  an  honour 
+that  the  Lord  will  alway  put  on  nor  bestow  and 
+
+
+92  MEMOIRS    OF 
+
+give  away  unto  his  own  people.  I  doe  therefore 
+intreat  you  in  the  Lord  that  you  would  not  hang 
+down  your  head,  but  rejoyce  at  this  good  provi- 
+dence of  the  Lord,  which  will  abound  so  much 
+to  his  prayse  and  your  future  peace  ;  neither 
+let  it  discourage  you  nor  any  of  your  brethren 
+to  goe  on  in  the  woorke  for  after  times  ;  but 
+having  looked  over  their  own  evidences  a  little 
+better,  and  humbled  their  soules  for  this,  and 
+thirsting  the  more  after  the  Lord  in  his  temple 
+and  ordinances,  while  with  David  they  are  de- 
+prived for  a  season  of  them  ;  that  hereafter  you 
+would  come  foorth  agayne  (it  may  be  some  of 
+your  virgins  have  bin  sleeping  and  this  may 
+awaken  them)  with  your  lamps  trimmed,  your 
+lamps  burning,  your  v/edding  garments  on  to 
+meet  the  bridegroome  ;  and  if  others  will  fall 
+and  sleep  agayne,  and  not  get  their  oyle  when 
+they  have  had  this  warning,  what  do  they  do 
+but  discover  themselves  to  be  but  foolish  ones  ; 
+•who  though  they  knock  hereafter  and  cry  Lord, 
+Lord,  it  may  be  xt  nor  his  spouse  will  ever  let 
+them  in.  Thus  with  my  unfaigned  love  to  all 
+your  brethren,  whom  I  honour  and  tender  in  the 
+Lord,  with  my  poor  prayers  for  you  and  them 
+that  in  his  time  he  would  unite  and  bring  you 
+together,  I  rest  in  great  hast . 
+
+Your  brother  in  Christ, 
+
+THO.  SUEPARD. 
+
+From  JVeiDtoion  (Cambridge) 
+April  2,  1G3C. 
+
+
+THOMAS    SHEPARD.  93 
+
+The  following  is  Mr.  Mather's  answer. 
+
+Deare  brother, 
+
+Your  letter  hath  been  very  welcome  to  me 
+and  so  hath  also  your  counsell  therein,  not  to 
+be  too  much  troubled  at  the  stay  and  stop,  which 
+the  good  hand  of  the  Lord  hath  put  to  our  in- 
+tended proceedings.  And  as  for  what  you  spake 
+that  day  I  blesse  the  Lord  for  it,  I  am  so  farre 
+from  any  hard  thoughts  towards  you  for  y®  same, 
+y*^  you  have  by  your  free  and  faithfull  dealing 
+that  day  endeared  yourselfe  in  my  esteeme  more 
+than  ever  ;  though  you  were  alwaies  much 
+honored  &-  very  dear  unto  mee.  And  blessed 
+be  the  name  of  our  good  God  forever  y*  put  it 
+into  your  hearts  and  mouths,  all  of  you  to  ex- 
+presse  yourselves  as  you  did,  for  we  now  see 
+(though  farre  from  what  we  might  see,  but 
+ye  Lord  now  hath  given  us  some  poore  measure 
+to  see)  our  unworthinesse  of  such  a  privilege  as 
+church  communion  is,  and  our  unfitnesse  for 
+such  a  worke  as  to  enter  into  covenant  with 
+himself  and  to  bee  accepted  of  his  people  ; 
+neither  is  it  any  discouragement  to  me  at  all  yt; 
+such  a  barre  and  stopp  was  put  in  our  way,  we 
+being  so  unworthy  ;  but  here,  brother,  is  the 
+thing  which  my  soul  hath  most  need  of,  even  to 
+be  humbled  for  our  presuming  to  attempt  so 
+farre,  &  for  our  abusing  the  Lord's  name  &  or- 
+
+
+94 
+
+
+MExMOIRS    OF 
+
+
+dinances,  &  the  presence  of  his  saints ;  not 
+bringing  us  y^  wedding  garment  fairly  putt  upon 
+us,  which  only  might  have  made  us  accepted  in 
+y"^  eyes  of  y''  King,  &.  of  all  his  servaunts  there 
+present  yt  day  :  Alas  for  it,  yt  we  had  not  hearts 
+to  addresse  our  selves  in  better  manner  to  such 
+a  weighty  service  ;  &  y*  pride  should  prick  us 
+on  without  due  consideration  of  what  we  took  in 
+hand  ;  but  y®  Lord  saw  our  disease,  &>  hath 
+given  us  physicke  suteable  ;  Oh  pray  for  us 
+y*  it  may  have  a  kindly  working  on  us  for  our 
+healing.  Indeed  he  hath  let  us  blood  in  y°  right 
+veyne,  for  arrogancy  was  our  distemper,  and 
+hee  hath  given  us  a  medicine  for  it  accordingly, 
+&  fit  it  was  that  our  high  mynd  should  be  fol- 
+lowed by  a  fall  &  with  contempt.  The  Lord  is 
+just  (Sl  holy,  8l  we  are  worthy  only  of  ever- 
+lasting shame  Sc  contempt.  I  have  great  reason 
+here  to  take  shame  unto  myself  &  to  receive  the 
+portion  which  the  Lord  tenders  mee  to  drink  for 
+the  healing  the  pride  and  vain-glory  of  my  heart. 
+Deare  Sir,  helpe  a  poore  creature,  I  beseech 
+you  by  your  prayers  for  an  humble  spirit  ;  v/ho 
+see  the  Lord  calling  on  mee  for  it  by  his  woord 
+&  by  this  good  providence  of  his,  &  yet  cannot 
+bee  humbled  for  all  this.  If  you  knew  or  could 
+beleeve  that  it  were  with  mee  this  way  as  in- 
+deed it  is,  you  would  pray  for  mee  ;  &.  pray 
+earnestly  too,  as  in  a  matter  of  great  need;  in- 
+
+
+THOMAS    SHEPARD. 
+
+
+95 
+
+
+deed  so  great  y*  I  cannot  tell  you  of  my  pride, 
+but  my  proud  heart  is  tickled  with  pride  even 
+at  y^  very  telling  of  it.  Oh  that  I  were  sensible 
+of  it,  Sl  could  bewaile  it,  and  crave  helpe  against 
+it  without  fayning  &  without  counterfeiting  or 
+hypocrisy. 
+
+Good  Sir,  pray  for  mee.  If  y°  Lord  heale  the 
+distemps  of  my  spirit  at  your  request  in  the  name 
+of  y'^  Lord  Jesus,  your  reward  shall  be  great  ; 
+St  if  he  meanes  to  do  my  soul  good,  it  may  be  he 
+will  moove  you  to  pray  for  mee  therein  ;  and 
+if  he  so  do,  no  doubt  (however  it  may  go  with 
+mee)  your  labour  shall  not  be  lost,  but  your 
+prayers  will  turn  into  your  own  bosome.  Now 
+as  concerning  our  attempting  y^  worke  agayne, 
+I  know  not  what  to  say,  but  this  I  may  say 
+truely  ;  If  y^  ccunterfetting  Gibeonites  were 
+made  hewers  of  wood  &.  drawers  of  water,  be- 
+cause they  beguiled  Israel  to  enter  into  league 
+&/  covenant  with  them,  when  they  were  not  ye 
+men  yt  they  seemed  to  be  ;  it  is  as  much  as  we 
+are  worthy  of  (oh  y*  I  could  say  this  word  feel- 
+ingly &  without  fayning)  that  we  may  be 
+hewers  of  wood  6lc.  for  y^  churches  here  be- 
+cause we  attempted  a  league  &  covenant  with 
+the  churches,  St  were  not  worthy  of  such  a  mat- 
+ter nor  meet  to  be  covenanted  with,  though 
+(blessed  be  y^  Lord  for  it)  y^  heads  of  y^  con- 
+gregation of  the  Lord's  Israel  here  were  notsoe 
+
+
+96  MEMOIRS    OF 
+
+hasty  &L  rash  &.  credulous,  as  they  were  in  the 
+days  of  Joshua.  And  for  my  own  particular 
+thus  :  If  y®  Lord  say  hee  hath  no  dehght  in  mee, 
+nor  will  accept  any  such  service  as  this  at  my 
+hand,  I  desire  to  say  what  David  in  the  like 
+case  could  say  it  without  fayning  8c  with  a  feel- 
+ing heart,  behold  here  am  I,  let  him  do  as 
+seemeth  good  in  his  eyes.  2  Sam.  15:  20.  for 
+indeed  if  this  work  had  gone  forward  I  perceive 
+it  was  in  the  heart  of  them  that  attempted  ****^ 
+St  have  *  *  a  tyme  upon  some  further  worke  & 
+office  among  themselves,  nov/  I  am  too  *  *  of  my 
+own  insuffitiency  for  such  worke  by  them  in- 
+tended, yet  I  have  no  reason  to  be  sorry  for 
+aught  the  Lord  hath  done,  for  such  things  I 
+knov/  to  be  needfull  in  the  Pastors  &l  Teachers 
+of  churches,  &.  myselfe  so  insufficient  for  them, 
+y*  I  have  looked  at  the  attempted  joyning  in 
+Church- fellowship  with  some  feare  &  trembling; 
+in  regard  of  the  heavy  burden,  which  might  have 
+been  laid  on  my  shoulders,  if  his  worke  had 
+gone  forward.  Now  it  may  be  bee.  y"^  Lord 
+sees  mee,  as  indeed  I  am,  not  able  nor  fit  for  such 
+worke  as  was  by  men  intended  espetially  to 
+bring  myselfe  along,  they  therefore  [have]  done 
+as  we  see,  Sc  therefore  I  am  lesse  grieved  at  the 
+stopp,  which  he  hath  made.  But  you  will  say 
+why  then  did  you  present  yourselfe  with  the 
+people  before  the  Lord  &  the  churches.     1  will 
+
+
+THOMAS    SHEPARD.  97 
+
+tell  you  the  truth  therein.  They  pressed  me 
+unto  it  with  much  importunity,  &  so  did  others 
+also  ;  till  I  was  ashamed  to  deny  any  longer,  &. 
+laid  it  on  mee  as  a  thing  to  which  I  was  bound 
+in  conscience  to  assent,  bee.  if  I  yielded  not  to 
+joyne  there  would  be  (said  they)  no  church  at 
+all  in  this  place,  &  so  a  tribe,  as  it  were,  should 
+perish  out  of  Israel,  &  all  through  my  default. 
+This  kind  of  arguing  meeting  that  inward  vain- 
+glory, which  I  spake  of  before  was  it  y'^  drew 
+mee  forward,  &  prevailed  against  that  con- 
+sciousnesse  of  my  owne  insufficiency,  &.  against 
+that  timorousnesse  that  sometymes  I  have  found 
+in  myselfe.  But  why  then  did  we  bring  stones 
+so  unhammered  &  unhewn,  evidences  of  faith 
+no  fairer  &c.  In  this.  Sir,  you  lay  your  finger 
+upon  our  sore  directly,  neither  can  we  here  put 
+in  any  other  plea  but  guilty.  The  good  Lord 
+pardon,  saith  Hezekiah,  every  one  that  pre- 
+pareth  his  heart  to  seeke  God,  though  he  be  not 
+cleansed  according  to  the  purification  of  the 
+sanctuary.  Let  us  beg  the  help  of  your  prayers 
+for  pardon  herein  as  Hezekiah  did,  pardon  for 
+y*  people,  &l  for  more  grace  &l  care  y'  if  we  ever 
+come  forth  again  for  y®  same  purpose  (which  for 
+my  part  I  am  much  afraid  to  do)  we  may  not 
+come  to  the  dishonour  of  God,  &  griefe  of  his 
+saints  as  the  last  time  we  did.  The  Lord  render 
+you  a  rich  &  plentifull  reward  for  your  love  & 
+9 
+
+
+98  MEMOIRS    OF 
+
+faithfulnesse.  ****  It  was  pride  that  made  me 
+afraid  to  have  my  weaknesses  espied,  yea  it  was 
+pride  that  induced  me  to  yield  to  their  importu- 
+nity, because  1  was  desirous  to  have  the  glory  8c 
+praise  of  being  tractable  &.  easy  when  intreated  &, 
+not  to  be  noted  for  a  stubborne  &  of  a  stiff  spirit. 
+Now  good  Sir,  strive  for  me  with  the  Lord  y*^  he 
+y*  resisteth  y°  proud  and  giveth  grace  to  the  hum- 
+ble, would  worke  in  me  another  spirit,  for  you 
+see  I  am  wholly  composed  of  pride. 
+To  my  deare  friend  &  very  loving  brother 
+Mr.  Thomas  Shepard,  at  New  Towne.  dd. 
+
+After  an  account  of  Mrs.  Hutchinson's  here- 
+sies in  1636,  the  author  of  The  wonder  work- 
+ing Providence  of  Zion's  Saviour  '  gives  this 
+curious  narration.^ 
+
+"But  to  end  this  dismall  yeare  of  sixteene 
+hundred  thirty-six,  take  here  these  rrowfull  com- 
+plaint of  a  poore  soule  in  misse  of  its  expecta- 
+tion at  landing,  who  being  incountered  with 
+some  Errorists  at  his  first  landing,  when  he 
+saw  that  good  old  way  of  Christ  rejected  by 
+them,  end  hee  could  not  skill  in  that  new  light, 
+which  was  the  common  theame  of  every  man's 
+Discourse,  hee  betooke  him  to  a  narrow  Indian 
+path,  in  which  his  serious  Meditations  soone  led 
+
+1  Pa"e  101. 
+
+
+THOMAS    SHEPARD.  99 
+
+him,  where  none  but  senceiess  Trees  and  ec- 
+choing  Rocks  make  answer  to  his  heart-easeing' 
+mone.  Oh  quoth  he  where  am  I  become,  is 
+this  the  place  where  those  Reverend  Preachers 
+are  fled,  that  Christ  was  pleased  to  make  use 
+of  to  rouse  up  his  rich  graces  in  many  a  droop- 
+ing soule;  here  have  I  met  with  some  that  tell 
+mee,  I  must  take  a  naked  Christ.  Oh,  woe  is 
+mee  if  Christ  be  naked  to  mee,  wherewith  shall 
+I  be  cloathed,  but  methinks  I  most  wonder  they 
+tell  me  of  casting  of  all  godly  sorrow  for  sin  as 
+unbeseeming  a  soule,  that  is  united  to  Christ 
+by  Faithj  and  there  was  a  little  nimbled  tongued 
+woman  among  them,  who  said  she  could  bring 
+me  acquainted  with  one  of  her  own  se?^  that 
+would  shew  me  a  way,  if  I  could  attaine  it, 
+even  Revelations,  full  of  such  ravishing  joy 
+that  I  should  never  have  cause  to  be  sorry  for 
+sinne,  so  long  as  I  live,  and  as  for  her  part  shee 
+had  attained  it  already;  a  company  of  legall 
+Professors,  quoth  she  lie  poring  on  the  Law 
+which  Christ  hath  abolished,  and  when  you 
+breake  it  then  you  breake  your  joy,  and  now  no 
+way  will  serve  your  time,  but  a  deepe  sorrow. 
+These  and  divers  others  expressions  intimate 
+unto  mee,  that  here  I  shall  finde  little  in- 
+crease in  the  Graces  of  Christ,  through  the 
+hearing  of  his  word  Preached,  and  other  of  his 
+blessed  Ordinances.      Oh   cunning  Devill,  the 
+
+ft25004X 
+
+
+100  MEMOIRS    OF 
+
+Lord  Christ  rebuke  thee,  that  under  pretence 
+of  a  free  and  ample  Gospell  shuts  out  the  soule 
+from  partaking  with  the  Divine  Nature  of 
+Christ,  in  that  mysticall  Union  of  his  Blessed 
+Spirit  creating,  and  continuing  his  Graces  in 
+the  soule:  my  deare  Christ,  it  was  thy  work 
+that  moved  me  hither  to  come,  hoping  to  find 
+thy  powerfull  presence  in  the  Preaching  of  the 
+Word,  although  administered  by  sorry  men, 
+subject  to  like  infirmities  with  others  of  God's 
+people,  and  also  by  the  glass  of  the  Law,  to 
+have  my  sinfull  corrupt  nature  discovered  daily 
+more  and  more,  and  my  utter  inability  of  any 
+thing  that  is  good,  magnifying  hereby  the  free 
+grace  of  Christ;  who  of  his  good  will  and  pleas- 
+ure worketh  in  us  to  will  and  to  doe,  working  all 
+our  works  in  us  and  for  us. 
+
+"  But  here  they  tell  me  of  a  naked  Christ. 
+What  is  the  whole  life  of  a  Christian  upon  this 
+Earth?  But  through  the  power  of  Christ  to  die 
+to  sinne,  and  live  to  holinesse  and  righteous- 
+nesse,  and  for  that  end  to  be  diligent  in  the  use 
+of  meanes:  at  the  uttering  of  this  word  he  starts 
+up  from  the  greene  bed  of  his  complainte,  with 
+resolution  to  hear  some  one  of  these  able  Min- 
+isters Preach  (whom  report  had  so  valued)  be- 
+fore his  will  should  make  choyce  of  any  one 
+principle,  though  of  crossing  the  broade  Seas 
+back  againe,  then  turning  his  face  to  the  Sun,  ho 
+
+
+THOMAS    SHEPARD.  101 
+
+steered  his  course  to  the  next  Town,  and  after 
+some  small  travell  hee  came  to  a  large  plaine, 
+no  sooner  was  hee  entered  thereon,  but  hearing 
+the  sound  of  a  Drum  he  was  directed  toward  it 
+by  a  broade  beaten  way,  following  this  rode  he 
+demands  of  the  next  man  he  met  what  the  sig- 
+nall  of  the  Drum  ment,  the  reply  was  made  they 
+had  as  yet  no  Bell  to  call  men  to  meeting;  and 
+therefore  made  use  of  a  Drum.  Who  is  it,  quoth 
+hee,  Lectures  at  this  Towne.  The  other  re- 
+plies, I  see  you  are  a  stranger,  new  come  over, 
+seeing  you  know  not  the  man,  it  is  one  Mr. 
+Shepheard.  Verily  quoth  the  other  you  hit  the 
+right,  I  am  new  come  over  indeed,  and  have 
+been  told  since  I  came,  most  of  your  Ministers 
+are  legall  Preachers,  only  if  I  mistake  not  they 
+told  me  this  man  Preached  a  finer  covenant  of 
+woorkes  than  the  other,  but  however  I  shall 
+make  what  haste  I  can  to  heare  him.  Fare 
+you  well;  then  hasting  thither  hee  croudeth 
+through  the  thickest,  where  having  stayed  while 
+the  glasse  was  turned  up  twice,  the  man  was 
+metamorphosed,  and  was  fain  to  hang  down  his 
+head  often,  lest  his  watry  eyes  should  blab 
+abroad  the  secret  conjunction  of  his  affections, 
+the  heart  crying  loud  to  the  Lord's  ecchoing 
+answer,  to  his  blessed  spirit,  that  caused  the 
+Speech  of  a  poore  weake  pale  complectioned 
+man  to  take  such  impression  in  his  soule  at  pre- 
+9* 
+
+
+102  MEMOIRS    OF 
+
+sent,  by  applying  the  word  so  aptly,  as  if  hee 
+had  beene  hisPrivy  Counsellor,  cleering  Christ's 
+worke  of  grace  in  the  soule  from  all  those 
+false  Doctrines,  which  the  Erronious  party  had 
+affrighted  him  withall,  and  now  he  resolves  (the 
+Lord  willing)  to  live  and  die  with  the  Ministers 
+of  JW?/?  England,  whom  hee  now  saw  the  Lord 
+had  not  onely  made  zealous  to  stand  for  the 
+truth  of  his  Discipline,  but  also  of  the  Doc- 
+trine, aiid  not  to  give  ground  one  inch.'' 
+
+Cotton  Mather,  introducing  his  account  of 
+Shepard,  says,  "  Let  the  reader  now  go  with 
+me  and  I  will  show  him  one  of  the  happiest  men 
+that  ever  we  saw;  as  great  a  converter  of  souls 
+as  has  ordinarily  been  known  in  our  days."  ^ 
+
+Again,  ''  It  was  with  a  respect  unto  the  en- 
+lightening and  powerful  ministry  of  Mr.  Shep- 
+ard, that  when  the  foundation  of  a  collcdge  was 
+to  be  laid,  Cambridge,  rather  than  any  other 
+place,  was  pitched  upon  to  be  the  seat  of  that 
+happy  seminary."  ^ 
+
+"  Of  BIr.  Shepard  I  have  been  told  (says  Mr. 
+Prince)  that  he  scarce  ever  preached  a  sermon 
+but  some  or  other  of  his  congregation  were 
+struck  with  great  distress  and  cried  out  in  agony, 
+'  What   shall   I  do  to   be   saved.'     Though  his 
+
+
+1  Ma^nalir.,  B.  III.  Cl.ap.  V 
+
+2  Ibid. 
+
+
+THOMAS    SHEPARD.  103 
+
+voice  was  low  yet  so  searching  was  his  preach- 
+ing, and  so  great  a  power  attending,  as  a  hypo- 
+crite could  not  easily  bear  it,  and  it  seemed  al- 
+most irresistible."  * 
+
+'^  As  he  was  a  very  studious  person,  and  a 
+very  lively  preacher,  and  one  who  therefore 
+took  great  pains  in  his  prepm-ations,  for  his  pub- 
+lick  labours,  which  preparations  he  would  usu- 
+ally finish  on  Saturday  by  two  o'clock  in  the 
+afternoon:  with  respect  whereunto  he  once  used 
+these  words:  God  will  curse  that  man's  la- 
+hours,  that  lumbers  up  and  damn  in  the  loorld  all 
+the  week,  and  then  upon  Saturday  in  the  afternoon 
+goes  to  his  study;  when  as  God  knows  that  time 
+ivere  little  enough  to  pray  in  and  loeep  in,  and  get 
+his  heart  into  a  frame  fit  for  the  approaching 
+Sabbath.  So  the  character  of  his  daily  conver- 
+sation was  a  trembling  ivalk  with  God."  ^ 
+
+"  President  Edwards  styles  Mr.  Shepard 
+'that  famous  experimental  divine;'  and  in 
+his  ^  Treatise  concerning  religious  affections,' 
+makes  a  greater  use  of  his  writings,  particularly 
+of  his  Parable  of  the  Ten  Virgins  than  of  any 
+other  writings  whatever."  ^ 
+
+"This  year  1649, Aug.  25.  that  faithful  and 
+
+J  Prince's  Sermons  published  by  Dr.  Erskine  p.  60. 
+
+2  Magnalia,  Book  III.  Chap.  V. 
+
+3  Historical  Collections,  Vol.  V.  First  Series,  45. 
+
+
+104  MEMOIRS    OF 
+
+eminent  servant  of  Christ  Mr.  Thomas  Shep- 
+ard  died,  who  was  a  soul  searching  Minister  of 
+the  Gospel  and  Pastor  of  the  Church  of  Christ 
+at  Cambridge.  By  his  death  not  only  that 
+Church  and  people^  but  also  all  JVew  England 
+sustained  a  very  great  loss;  he  not  only  preached 
+the  Gospel  profitably  and  very  successfully, 
+but  also  hath  left  behind  him  divers  worthy 
+works  of  special  use,  in  reference  unto  the 
+clearing  up  the  state  of  the  soul  to  God  and 
+man;  the  benefit  thereof,  those  can  best  expe- 
+rience who  are  most  conversant  in  the  improv- 
+ing of  them  and  have  God's  blessing  on  them 
+therein  to  their  souls  good.  His  Body  was 
+honourably  buried  at  Cambridge  in  New  Eng- 
+land. 
+
+"  '  Blessed  are  the  dead  that  die  in  the  Lord, 
+for  their  v^orks  follow  them.'  "  ^ 
+
+The  following  works  of  Shepard  are  men- 
+tioned by  contemporary  writers. 
+
+1.  '^  Among  his  composures  of  the  more  doc- 
+trinal sort  the  bell  seems  to  be  borne  by  his  elab- 
+orate and  judicious  treatise,  entitled  theses 
+sABBATiCiE;  whcrciu  he  hath  handled  the  moral- 
+ity   of  the   Sabbath   with  a   degree   of    reason, 
+
+1  Morto.,'s  N.  E's.  Memorial,  1721.  p.  1C9. 
+
+
+THOMAS    SHEPARD.  105 
+
+reading,   and  religion  which  is  truly   extraordi- 
+nary." ' 
+
+2.  or  Cautions  against    Spiritual 
+
+
+Drunkenness. — ^  In  which  Sermon,  he  uttered 
+this  complaint:  Do  ive  not  see  great  imsettledness 
+in  the  Covenant  of  God,  ivalking  ivith  God  at 
+per  adventures,  and  hanchey^ings  after  divisions 
+and  distractions.'*  '^ 
+
+3.  The  Sincere  Convert. — "  which  the  au- 
+thor would  commonly  call  his  ragged  child. 
+He  said:  It  was  a  collection  of  notes  in  a  dark 
+town  in  England,  which  one  procuring  of  me  puh- 
+lishcd  icitliout  my  ivill  or  privity.  "  ^ 
+
+4.  The  Souno  Believer. — A  copy  of  this 
+work,  lately  found  in  the  possession  of  a  mem- 
+ber of  this  parish  has  this  Title  page:  "The 
+Sound  Believer.  A  Treatise  of  Evangelical 
+Conversion.  Discovering  the  Work  of  Christ's 
+Spirit,  in  reconciling  of  a  sinner  to  God.  By 
+Thomas  Shepard,  sometime  of  Emanuel  Col- 
+lege in  Cambridge,  since  Preacher  of  God's  in 
+New  England."  In  the  Dedication  '  To  his 
+dear  Friend,  Mr,  Vf.  Greenhill,'  he  says,  as  a 
+reason  for  publishing  this  Book,  '  /  knew  not 
+what  the  Lord'^s  meaning  shoidd  he  to  bring  to 
+light  withoid  any  privity,  knowledge,  or  ivill  the 
+
+
+1  Magnalia    Book  III.  Chap.  V. 
+
+2  Ibid. 
+^  Ibid, 
+
+
+106  MEMOIRS    OF 
+
+former  part  (referring  to  the  Sincere  Convert) 
+unless  it  was  to  awaken  and  enforce  me,  (being 
+desired)   to    publish   the  rest  :     our  Works  I 
+
+THOUGHT  should  RESEMBLE  God's  WORKS,    NOT 
+
+BE  LEFT  13IPERFECT."  The  Book  is  foundcd 
+on  this  text,  Hosea  XIII.  IX.  '  O  Israel  thou 
+hast  destroyed  thyself ;  but  in  me  is  thy  help.  '^ 
+It  is  well  worthy  of  a  reprint. 
+
+5.  A  Sermon,  "  tending  to  clear  vp  the  old 
+way  of  Christ  in  the  Churches  of  New  Eng- 
+land'' 
+
+6.  A  Letter.  ^^  JVtw  England's  lamentalion 
+for  Old  England's  Err  ours."    Cambridge  1663. 
+
+7.  Select  Cases  Resolved. 
+
+8.  The  Church-membership  of  Children  ;  and 
+
+9.  The  Soul's  Jewel,  in  Two  Sermons. 
+
+10.  The  Parable  of  the  Ten  Virgins; — 
+*  whereof  the  venerable  names  of  Greenhill, 
+Calamy,  Jackson,  Ash,  Taylor  have  sub- 
+scribed this  testimony.  "  That  though  a  vein  of 
+serious,  solid  and  heart}/  piety  runs  through  all  this 
+author's  icorks,  yet  he  hath  reserved  the  best  wine 
+till  the  last."  ^ 
+
+
+1  Magnalia  ,  Book  111.  Chap.   V.      For  several   other  works 
+Shepard,  see  Catalogue  of  Harvard  College  Lihiary,  &c. 
+Nos.  7,  8  and  9  are  in  posses-  iun  of ; he  '  Historical  Society/ 
+
+
+THOMAS    SHEPARD,  107 
+
+
+Perhaps  these  notices  cjinnot  be  concluded 
+more  appropriately  than  by  applying  to  this  emi- 
+nent man  a  '  Funeral  Elegy  '  on  his  predecessor 
+the  famous  Hooker,  written  by  Mr.  John  Cot- 
+ton, every  word  of  which  is  as  true  of  Shepard 
+as  of  the  former,^ 
+
+To  see  three  things  was  holy  Austin's  wish 
+Rome'in  her  flower,  Christ  Jesus  in  the  flesh, 
+
+And  Paul  i'  the  Pulpit :  Lately  men  might  see 
+Two  first  and  more  in  Shepard's  ministry. 
+
+Zion  in  beauty  is  a  fairer  sight 
+Than  Rome  in  Flower  with  all  her  glory  dlght: 
+
+Yet  Zion's  beauty  did  most  clearly  shine, 
+In  Skepard's  Rule  and  Doctrine,  both  divine, 
+
+Christ  in  the  Spirit  is  more  than  Christ  in  Fleshy 
+Our  souls  to  quicken,  and  our  States  to  bless. 
+
+Yet  Christ  in  Spirit  brake  forth  mightily 
+In  faithful  tSiiiLPAKn's  searching  ministry. 
+
+Paul  in  the  Pulpit,  Shepard  could  not  reach, 
+Y'et  did  he  Christ  in  Spirit  so  lively  preach, 
+
+That  living  hearers  thought  he  did  inherit 
+A  double  Portion  of  Paul's  lively  Spirit. 
+
+Prudent  in  rule,  in  Argument  quick,  full, 
+Fervent  in  prayer,  in  Preaching  powerfull ; 
+
+That  well  did  Learned  Ames  record  bear 
+The  like  to  him  he  never  wont  to  hear. 
+
+1  Mo  t.  n's  N.  E's  Memorial,  1721.  p.  163. 
+
+
+108  MEMOIRS    OF    THOMAS    SHEPARD. 
+
+Twas  of  Geneva's  Worthies  said,  with  wonder 
+(Those  Vv^orthies  three)  Farell  was  wont  to  Thunder, 
+
+Vircet,  like  Rain,  on  tender  Grass  to  shower  : 
+But  Calvin  lively  Oracles  to  pour. 
+
+All  these  in  Shepard's  spirit  did  remain, 
+A  Son  of  Thunder,  and  a  shower  of  Rain, 
+
+A  pourer  forth  of  lively  Oracles, 
+In  saving  Souls  the  sum  cf  Miracles, 
+
+Now  blessed  Shepard  thou  art  set  on  high 
+Above  the  thankless  world  and  cloudy  skie  ; 
+
+Do  thou,  of  all  thy  labour  reap  the  Crown, 
+Whilst  we  here  reap  the  seed  which  thou  hast  sown. 
+
+
+An  Epitaph,    selected    from  a    Latin  Elegy 
+made  upon  him,  is: 
+
+'  Nominis,  Officiique  fuit  Concordia  Dulcis; 
+Officio  Pastor,  JVomine  Pastor  erat.' 
+
+His  Name  and  Office  sweetly  did  agree  : 
+Shepard,  by  name,  and  in  his  Ministry. 
+
+
+CONCLU^SION 
+
+
+A  parish  priest  was  of  the  pilgrim  train, 
+
+Y\n  awful,  reverend  and  religious  man  : 
+
+"f^e  bore  his  great  commiission  in  liis  look, 
+
+But  sweetly  tempered  awe,  aud  softened  all  he  spoke  . 
+
+ile  preached  the  joys  of  heaven  and  pains  of  lielK 
+
+And  warned  tlie  sinner  with  hocominfr  7;eal, — 
+
+i^lt  on  etprn.Ml  nicrcy  lovo.i  to  dwei!, 
+
+^)IlvnE^•. 
+
+There  nev^er  was  a  character  more  strongly 
+marked  than  that  of  the  subject  of  this  book, 
+which  at  the  same  time  left  upon  the  beholder, 
+ns  the  predominating  impressioR,  the  sense  of 
+something  soft  and  beautiful.  In  reading  the 
+Autobiography,  and  in  collecting  the  notices 
+of  its  author,  two  words  seemed  to  express  in 
+a  singularly  j^ist  and  perfect  manner,  the  leading 
+features  of  his  character  and  mind  :  ^  Shnplicity 
+andgodhj  Sincerity.'^  These  characteristics  strike 
+Ihe  reader  before  he  has  finished  many  pages 
+10 
+
+
+110  CHARArXER    OF 
+
+of  the  book.  What  unaffected  feeling  f  It  is 
+pure  nature,  flowing  like  a  silent  stream  over 
+its  own  natural  bed.  Like  the  writers  of  his 
+age,  he  uses  words  without  much  regard  to 
+comeliness  of  expression,  but  with  a  '■  semper  in- 
+stans  sibi)''  or  cumulative,  manner,  which  indi- 
+cates a  feeling  and  sincere  heart.  Sometimes, 
+when  a  preceding  sentence  lias  filled  us  with 
+emotion,  and  we  read  on,  an  expression  of  godly 
+sorrow  or  of  pious  reflection  strikes  the  mind 
+with  overcoming  powerj — while  the  man  himself, 
+seemingly  unconscious  of  the  greatness  of  his 
+meaning,  proceeds  immediately  to  an  incidental 
+circumstance,  after  the  manner  of  the  sacred 
+penman.  Thus,  after  the  sublime  but  monrnful 
+words  of  Hezekiah  in  the  prospect  of  death. 
+The  gTare  cantiGl  praisr,  thee,  deah  cannot  ccle- 
+hrafe  thee; — fhc  Uviiipr^  d^  living,  he  shall  praise 
+thee,  as  I  do  this  dai/^ — it  is  added,  as  it  were  in 
+the  same  breath,  For  Isaiah  had  said.  Let  them, 
+&c.  describing  the  simple  remedy  that  changed 
+this  sorrow  of  the  king  to  joy. 
+
+What  an  illustration  of  this,  and  of  his  simple, 
+childlike  way  of  reasoning  and  feeling,  have  we 
+in  his  own  description  of  the  cause  of  his  first 
+
+
+lilO-MAS)    SHEPAUD.  Hi 
+
+religious  impressions.  *  When  I  did  light  in 
+godly  comjmr.y  I  heard  them  discourse  about 
+the  wrath  of  God  and  tiie  terrour  of  it,  and  ho\v 
+intolerable  it  was,  which  they  did  present  by  fire 
+—  how  intolerable  the  torment  oi  that  was  for  a 
+time — what  th; a  ?rau'J  ii^rnilij  be  /  '  And  again, 
+as  a  retison  why  he  '  did  presse  the  Lord  '  to 
+spare  tlie  life  of  his  second  soa  ;  ^  because  I 
+sought  for  y^  f  rst,  and  could  not  prevayle  for 
+his  life  ;  and  this  was  sore  ':fihe  Lord  did  not  he  are 
+mc fur  this.- 
+
+Instances  illustrative  of  this  trait  of  character 
+pervade  his  life.  His  reasons  for  leaving  Old 
+England,  because  he  liiought  that  he  saw  the 
+Lord  departing  from  it,  '  when  Mr.  Cotton  and 
+Mr.  Hooker  were  gone  ; '  his  peculiar  manner  of 
+recognizing  the  su|>erintending  providence  of 
+God,  which  sometimes  excites  a  smile,  it  is  so 
+much  like  a  child's  words  to  his  father  in  the 
+dark  ;  his  constant  fear  of  *■  crossing  the  Lord's 
+love  ;  '  his  immediate  prostration  of  soul  before 
+Him  at  the  slightest  intimation  of  His  displea- 
+sure ;  and  many  other  instances  of  the  samo 
+kind,  cannot  fail  to  interest  the  reader.  We 
+«;ee  in  them  an  illustration  of  the  principle  that 
+
+
+ri2  CHARACTER    OF 
+
+in  proportion  as  the  character  of  man  ts  assim- 
+ilated to  God,  a  quick  sensibility  to  His  pre- 
+sence, and  under  the  influence  of  tins,  a  perfect 
+simplicity  of  feeling  is  begotten  in  the  soul. 
+
+He  was  a  man  of  prayer.  When  lie  was  very 
+young  he  '  wrestled '  for  his  father's  life,  '  and 
+made  some  covenant  if  God  would  spare  him.' 
+He  notes  it  as  a  dark  passage  in  his  life  when^. 
+at  the  University,  he  spent  some  time  '  in  neglect 
+of  private  prayer,'  though  he  was  not  then  a 
+Christian.  What  .a  specimen  of  intercessory 
+prayer  is  his  entreaty  for  the  life  of  his  child. 
+When  he  had  escaped  drowning  at  '  Ferry  brig,' 
+(bridge)  no  sooner  had  he  reheved  himself  from 
+his  uncomfortable  condition,  than  he  took  his 
+companions  with  him  and  '  went  to  prayer.' 
+Thus  through  his  life  he  walked  with  God,  and 
+as  the  natural  effect,  he  poured  forth  such  feel- 
+ings and  expressions  in  his  public  devotional 
+services  that  all  his  fellow-worshippers  felt  that 
+he  had  a  strange  access  to  the  mercy-seat. 
+The  writer,  who  gives  the  history  of  the  for- 
+mation of  this  church,  cannot  help  observing 
+that  '  Mr.  Shepard  then  made  a  most  heavenlv 
+prayer.' 
+
+
+THOMAS     SHEPARD.  113 
+
+He  was  a  man  of  great  humility.  He  was 
+indeed  conscious  that  God  had  made  him  useful 
+as  a  minister,  and  that  he  had  gifts  which  would 
+be  profitable  to  tiie  Church  in  -this  or  any  land. 
+He  did  not  undervalue  himself,  or  affect  a  false 
+humility  by  unjust  expressior.s  of  his  unworthi- 
+ness, — neither  did  he,  like  some,  .consider  him- 
+self as  honoring  God  the  more,  in  proportion 
+as  he  despised  himself  or  his  services.  But 
+through  his  life,  a  consciousness  that  sin  was 
+mingled  with  much  that  he  did,  and  that  he  came 
+far  short  of  his  duty,  and  that  he  was  prone  to 
+forsake  God  for  other  sources  of  enjoyment, 
+made  him  a  weeping  Prophet.  The  contrast  of 
+his  own  character  with  that  of  his  Maker,  which 
+was  impressed  upon  him  so  frequently  by  his 
+seasons  of  fasting  and  prayer,  made  him  feel 
+like  Job,  when  he  said-^*  but  now  mine  eye 
+seeth  thee  ;  wherefore  I  abhor  myself,  and  re- 
+pent in  dust  and  ashes.' 
+
+From  all  this  we  gather  the  secret  of  his 
+great  success  in  preaching.  Kvery  pious  hearer 
+knows  that  whenever  he  has  received  spiritual 
+benefit  from  a  minister,  it  has  been  conveyed 
+by  thoughts  which  seemed  to  have  around  them 
+10* 
+
+
+114  CHARACTER    OF 
+
+an  unction  from  the  Holy  One.  Baxter  says  tha? 
+the  sermons  by  which  he  himself  found  access 
+to  the  heart,  were  those  which  he  had  begged 
+of  the  Lord  in  prayer.  In  reading  Shepard'^s 
+SermonSj  we  feel  that  he  had  this  unction,  and 
+that  he  obtained  it  by  his  uncommon  habits  of 
+devotion..  We  are  told  that  h«  finished  his  pre- 
+paration for  the  Sabbath  on  Saturday  afternoon, 
+and  spent  the  rest  of  the  time  before  the  public 
+exercises  of  the  Lord's  day,  in  devout  medita^ 
+tion  and  prayer.  He  said,  when  dying,  that  the 
+study  of  every  sermon  cost  him  tears.  The 
+truth  of  this  declaration  is  impressed  on  his 
+discourses.  He  knew  where  to  carry  his  rising 
+trains  of  thought  to  have  them  enlarged,  and 
+rectified,  and  breathed  upon  ;  and  as  he  wrestled 
+with  God  for  words  to  express  the  growing  emo- 
+tions of  his  soul,  there  flew  one  of  the  seraphim 
+and  touched  his  lips  as  with  a  live  coal  from  off  the 
+altar.  It  is  evident  from  his  sermonson  the  Para- 
+ble of  the  Ten  Virgin.?,  '  that  he  spake  in  words 
+which  the  Holy  Ghost  teacheth; '  for  though 
+they  manifest  extensive  reading  and  research, 
+so  that  Calamy,  to  mention  no  others,  has  given 
+them  the  highest  praise,  it  is  plainly  evident  that 
+
+
+THOMAS    SHEPARD.  1  15 
+
+the  effect  which  they  produce  upon  the  mind 
+comes  from  something  in  them  which  is  far  above 
+the  ordinary  power  of  talent  or  learning. 
+As  the  Saviour  describes  the  secret  operation 
+of  the  Spirit  by  the  similitude  of  the  unseen 
+wind,  so  in  the  preachinof  of  this  holy  man,  an 
+influence  fell  upon  the  hearers,  like  the  mys- 
+terious, overwhelming  presence  of  the  Spirit  of 
+God.  He  wrote  from  his  own  heart,  and  was 
+therefore  sure  to  reach  the  heart,  detect  the 
+sins,  satisfy  the  wants,  and  comfort  the  souls  of 
+others.  He  was  peculiarly  successful  in  ex- 
+posing hypocrisy.  He  fulfilled  the  prophecy 
+concerning  the  Christian  dispensation,  in  being  a 
+refiner's  fire  for  the  purification  of  the  sons  of 
+Levi,  making  many  a  Christian  a  priest  unto 
+God,  insomuch  that  a  writer  of  his  time  speaks 
+of  Shepard's  church  as  forming  a  wonderful  ex- 
+ception to  the  spirit  of  heresy  and  division  which 
+entered  the  churches  of  New  England.  The 
+fact  that  it  was  always  asked  upon  the  Sabbath 
+by  those  who  had  not  attended  worship,  "  Who 
+was  wrought  upon  to-day  r  "  shows  that,  like  the 
+Apostles,  he  rose  to  preach,  expecting  that  the 
+word   of  God   would    take    immediate    effect. 
+
+
+116 
+
+
+CHARACTER    OF 
+
+
+Living  as  he  did  in  such  converse  with  eternal 
+scenes,  he  felt  in  his  own  spirit  the  powers  of  the 
+world  to  come.  Two  subjects  were  favorite 
+themes  in  his  discourses  :  the  exceeding  sinful- 
+ness and  the  tremendous  consequences  of  sin, 
+and  the  greatness  and  glory  of  the  Saviour's 
+character.  There  was  exceeding  tenderness 
+and  pathos  in  his  invitation  of  a  sinner  to  Christ. 
+He  seemedalmost  to  carry  the  anxious  sinner  in 
+his  arms  to  the  Saviour,  and  endeavored  to  make 
+him  consent,  before  they  parted,  that  he  would 
+own  Him  as  his  Lord.  He  was  a  son  of  thunder 
+as  well  as  of  consolation  ;  but  at  the  close  of  all 
+his  terrible  denunciations  against  the  wicked, 
+
+"■  Tlie  stilitr  sound  .-iUfcef-Js,  iuk! — Cod  is  there.' 
+
+There  was  one  circumstance  which  made  his 
+preaching  instructive  as  well  as  convincing. 
+From  an  intimate  acquaintance  with  his  own 
+heart  he  was  a  great  casuist.  Questions  of  a 
+perplexing  nature  connected  with  religious  ex- 
+perience, and  Christian  duty,  were  solved  by 
+him  with  great  discrimination  and  skill.  His 
+^Select  Cases  Resolved  '  consists  of  answers  to 
+several  inquiries  of  a  Christian  friend  in  Eng- 
+
+
+THOMAS    SHErARD,  117 
+
+land,  of  which  two  writers  of  a  recommendatory 
+preface  to  the  fourth  edition  say,  ^  we  have  sel- 
+dom seen  acuteness,  profoundness,  and  godhness 
+so  happil}'  matched.'  This  gift  was  cultivated 
+by  a  striking  anxiety  that  no  one  of  his  flock 
+should  be  a  self-deceiver.  It  was  the  burden 
+of  his  preaching  to  his  Church  that  they  should 
+know  what  was  the  hope  of  their  calling,  and; 
+give  diligence  to  make  this  calling  sure.  He 
+was  incessant  in  warning  every  man  and  teach- 
+ing every  man,  that  he  might  present  every 
+man  faultless  in  Christ. 
+
+To  the  Members  of  this  Church,  founded  and 
+established  by  this  eminent  servant  of  Christ 
+Jesus,  there  is  great  instruction  and  comfort  to 
+be  derived  from  this  book,  which  is  now  afFec- 
+tionately  commended  to  their  regard.  A  great 
+responsibility  rests  upon  us  in  having  had  such 
+a  man  in  this  interesting  relation.  There  was 
+great  wisdom  in  making  a  man  the  founder  of 
+the  Jewish  nation,  who  was  pre-eminent  for  his 
+faith  ;  inasmuch  as  the  trials  which  were  coming 
+upon  them  would  teach  them  the  value  of  faith 
+more  than  of  any  thing  else,  while  their  rev- 
+erence for  their   patriarch  would   inspire  theni^ 
+
+
+il8  CHARACTER    OF 
+
+to  imitate  his  example.  Your  Siiepard  suffered 
+the  loss  ofall  things  for  Christ,  and  went  through 
+much  tribulation,  to  found  this  church.  '  Take, 
+my  brethren,'  this  prophet  who  has  spoken  to 
+you  in  times  past,  and  now,  though  dead,  in  this 
+book,  '  for  an  example  of  suffering  affliction, 
+and  patience.'  You  have  been  called  to  great 
+sacrifices  of  property,  and  of  feeling,  for  what 
+you  believe  to  be  the  truth.  If  the  decisions  of 
+our  tribunals  are  in  agreement  with  the  mind  of 
+Christ,  you  would  not  change  them.  If  others 
+have  said  to  you,  '  Bow  down,  that  we  may  go 
+over/  if  they  have  unjustly  taken  your  funds 
+and  your  sacred  vessels,  there  is  One  that  has 
+saidj  ^  I  hate  robbery  for  burnt-offering  5 '  and 
+must  regard  the  emblems  borne  in  those  vessels 
+as  the  shew  bread  of  iniquity  and  the  wine  of 
+deceit.*     Whether  they  or  you  are  right  in  this 
+
+*  In  addition  to  wiiiil  has  al  eady  b  en  Siid  up'U  this  :ub- 
+ject,  it  may  be  proper  to  sa'e,  th:it  although  ;it  thp  time  nf 
+the  secessio  1  of  tha  First  Church  from  the  Fir.st  Parish  in  Cain- 
+Lridge,  there  was  property  in  the  p.  sseEsion  of  the  latter  to  the 
+amount  of  at  least  10  or  $12,000,  they  novert' eless  prosecmed  lin 
+Church  for  their  little  find  raised  ;t  the  Comniunion  tab  e.  1  lie 
+sum  of  nearly  $5000  '  menli  ned  in  the  Preface  ofthis  b  ok,  inckidrs 
+PJateaud  other  Church  property.  The  fund  itself  was  only  $4100!  But 
+we  are  h  ppy  ti.  say  t!,at  only  uuc  half  of  those  male  in.  inb.rs  of  tbtf 
+
+
+THOiMAS    SHEPARD.  119 
+
+case,  the  Lord  knoweth  them  that  are  his.  Re- 
+ceive the  remarkable  coincidence  of  the  dis- 
+covery of  this  book  ".ith  the  time  of  your  ne- 
+cessity, as  a  proof  that  your  Redeemer  liveth,  and 
+that  there  is  a  remembrance  of  you  in  heaven 
+in  the  prayers  of  him  H'hose  petitions,  when  on 
+earth,  for  his  church  are  doubtless  kept  in  the 
+golden  vials  full  of  odors,  which  are  the  prayers 
+of  saints. 
+
+One  or  two  things  in  this  book    are    worthy 
+of  special   observation   by  the   members  of  our 
+
+
+Church  who  remained  with  the  Parish  were  actively  concerned  in 
+iheso  t!ansactions.  In  saying  t!. at  ihere  were  '  two  or  t'iree  '  who 
+still  remained,— we  refer  to  those  who  supported  the  pari:^h  in  all 
+theii  proceedings.  It  is  really  painful  to  bring  these  things  to  re- 
+membrance. No  f  eling  of  retaliation  prompts  us.  We  conceive  it 
+to  be  ourduiy  t.)  show  the  spirit  and  tendency  of  a  religious  system, 
+as  'liberal '  in  its  p.ofessions  of  chari.y  as  in  its  injuries  of  the;  rights 
+of  others.  Equity,  not  the  letter  of  the  law,  should  be  the  rule  of 
+professing  Christians,  especially  if  they  have  attained  to  '  en'arged 
+views'  o'Cliristian'ity.  We  would  gladly  have  been  siUntup.n  this 
+subject,  were  we  not  convinced  that  there  has  be?  n  and  is  now  an  ac- 
+quiescence en  the  part  of  the  Evangelical  communiiy  in  the  violation 
+of  their  rights  by  which  their  Chu)  ches  have  been  laid  waste,  and  some 
+of  their  mosi  important  institutions  perverted.  It  is  only  when  we 
+have  learned  that  our  right  of  suffrage  is  a  religious  duty,  and  a  silent 
+submission  to  public  injuries  a  crime,  that  our  rights  wU  be  re- 
+spected, and  our  Listitutions  redeemed  to  'Christ  and  the  Church.' 
+
+
+120  CHARACTER    OI 
+
+church,  as  well  as  of  all  the  churches  m  this 
+region.  I.  The  great  importance  which  Shepard 
+attached  to  th«  practice  of  Infant  Baptism, 
+During  his  persecution  frorn  pla<^e  to  place  in 
+Old  England,  it  was  his  anxious  care  to  find 
+a  refuge  where  he  could  safely  obtain  the  ordi- 
+nance of  Baptism  for  a  child.  And  at  last,  one 
+reason  which  induced  him  to  seek  a  removal  to 
+New  England,  was  that  he  could  here  enjoy  this 
+ordinance  in  its  purity.  There  is  no  passage 
+in  his  life  more  affecting  than  that  in  which  he 
+IS  so  particular  to  remind  his  son  that  he  has 
+been  baptised.  ^  And  after  we  had  been  here 
+diverse  weekes,'  he  tells  him  '  God  gave  thee  the 
+ordinance  of  Baptism,  whereby  God  is  become 
+thy  God,  and  is  beforehand  with  thee,  so  that 
+when  thou  shalt  return  to  God  he  will  undoubt- 
+edly receive  thee.'  One  of  the  most  able  of  his 
+works  is  entitled  '  The  Church  Membership  of 
+Children.,  and  their  right  to  Baptism,  according 
+to  that  holy  and  everlasting  Covenant  of  God  es- 
+tablished between  Himself  and  the  faithful  and 
+their  seed  after  {hem  in  their  generations.^  In 
+this  book  he  shows,  with  singular  acuteness, 
+that  God   had   from   the  beginning  an   outward 
+
+
+THOMAS    SHEPARD.  121 
+
+and  inward  covenant  with  men,  and  that  all  the 
+Jewish  nation  were  admitted  to  the  outward 
+covenant,  in  order  that  by  external  privileges 
+they  might  be  '  Jews  inwardly.'  He  then  proves 
+that 'Uhe  covenant  then  and  now  is  for  sub- 
+stance the  same."  1.  Because  the  covenant 
+made  with  Abraham  is  renewed  in  the  Gospel, 
+Heb.  viii.  10.  2.  Because  Abraham's  covenant 
+is '^  of  Gospel  and  eternal  privileges."  3.  Be- 
+cause there  was  never  any  covenant  but  it  was 
+either  of  grace  or  works  ;  that  of  grace  which  was 
+made  with  Abraham, — that  of  works,  on  Mount 
+Sinai.  '^  But  (Gal.  iii.  17.)  the  covenant  which 
+was  confirmed  afore  by  Christ,  the  law  480 
+years  after  cannot  disannul."  5.  Because  the 
+promise,  I  will  be  a  God  to  thee  and  thy  seed, 
+does  not  belong  to  the  mere  lineal  descend- 
+ants of  Abraham,  inasmuch  as  it  is  said  of  the 
+Jews,  ^  they  are  broken  off  by  unbelief,  and  by 
+faiili  shall  be  graffed  in.'  If  therefore  they 
+were  broken  off  by  unbelief,  then  they  stood  as 
+members  of  the  church  by  faith  ;  and  if  by  faith 
+they  should  be  graffed  in,  then  they  stood  by 
+faith  at  first.  Hence  not  the  lineal  but  the 
+faithful  descendants,  are  heirs  according  to  the 
+11 
+
+
+122  CHARACTER    OF 
+
+promise.     If  so,  believers  under  the  New  Tes- 
+tament have  the   same   privilege  with   ancient 
+Jews,  viz.  ;  that  their  children  are  included  with 
+them  in   the   covenant.     He   then  shows  that 
+"  there  is  the  same  inward  cause  moving  God, 
+to  take    in   the   children   of  believing   church 
+members  into  the  church  and  covenant  now,  to 
+be  of  the  number  of  his  people,  as  there  was  for 
+taking  the  Jews  and  their  children.     For  the 
+only  reason  why  the  Lord  took  in  the  children 
+of  the  Jews  with  themselves  was  his  love  to- 
+wards them.    ^  Because  he  loved  thy  fathers,  there- 
+fore he  chose  their  seed.''    Deut.  iv,  37,  and  x.  15. 
+So  that  I  do  from  hence  beheve  that  either  God's 
+love  is  in  these  days  of  his  gospel  less  unto  his 
+people  and  servants  than  in  the  days  of  the  Old 
+Testament  ;   or  if  it  be  as  great,  that  then  the 
+same  love  respects  the  seed  of  his  people  now 
+as  then  it  did.     And  therefore,  if  then  because 
+He  loved  them,  He  chose  their  seed  to  be  of  his 
+church:  so  in  these  days,  because  He  loveth  m5, 
+He  chooseth  our  seed  to  be  of  his  church  also." 
+The  common  arguments  against  Infant  Bap- 
+tism are  answered  in  an  original  and  satisfactory 
+manner.     It  is  objected,  he  says,  that  ^  if  chil- 
+
+
+THOMAS    SHEPARD.  123 
+
+dren  be  members,  then  they  must  come  to  the 
+Lord's  supper;  for  you  know  no  difference  be- 
+tween member  and  member,  in  point  of  privi- 
+lege, unless  they  be  under  some  sin.'  Answer, 
+'  Yes,  verily,  there  is  a  plain  difference  between 
+member  and  member  (though  professing  believ- 
+ers) in  point  of  privilege,  though  they  be  under 
+no  sin:  for  a  man  may  speak  and  prophesy  in  the 
+church,  not  women.  A  company  of  men  may 
+make  a  church,  and  so  receive  in  and  cast  out 
+of  the  church,  but  not  women,  though  professing 
+saints.'  He  also  argues  that  '  a  man  may  be- 
+lieve in  Christ,  and  yet  be  very  ignorant  of  the 
+nature,  use,  and  ends  of  the  Lord's  supper; 
+now  such  may  be  baptized  as  soon  as  ever  faith 
+appears,  Mark  xvi.  16  ;  but  they  may  not  be 
+admitted  to  the  Lord's  supper,  because  through 
+their  extreme  ignorance,  they  cannot  discern 
+the  Lord's  body.  If  therefore  children  be  able 
+to  examine  themselves  and  discern  the  Lord's 
+body,  they  may  then  eat.*  He  then  answers 
+the  following  question:  ^  What  good  is  it  ei- 
+ther for  a  wicked  or  an  elect  child,  till  he  be 
+converted,  to  be  in  the  Church?  or  what  good 
+may  any  have  by  being  in  the   Church  till  they 
+
+
+124  CHARACTER    OF 
+
+can  profit  by  what  they  enjoy  ? '  Answer.  '  The 
+Apostle  puts  the  like  case,  and  gives  you  an 
+answer:  what  advantage  hath  the  Jew ^  and  what 
+profit  is  there  in  circumcision.  What  use  or 
+profit  could  the  infants  then  make  of  their 
+church  covenant,  membership,  or  seal,  who  un- 
+derstand none  of  these  things?  Do  you  think 
+ihe  Lord  exposed  his  holy  ordinances  then  unto 
+contempt,  find  is  more  careful  that  they  may  be 
+more  profitably  used  now?  was  there  no  good 
+by  circumcision?  Yea,  saiththe  Apostle,  much 
+every  way.^  An  illustration  of  this  point  in 
+another  place  in  his  book,  is  this  :  '  These 
+children  may  not  be  the  sons  of  God  and  his 
+people,  really  and  savingly,  but  God  will  honor 
+them  outwardly  at  least  with  his  name  and  priv- 
+ilege; just  as  one  that  adopts  a  youngster  tells 
+the  father  that  if  the  child  carry  himself  well 
+toward  him,  when  he  is  grown  up  to  years,  he 
+shall  possess  the  inheritance  itself ;  hut  yet  in  the 
+mean  while  he  shall  have  this  favor  to  be  called 
+his  son,  and  be  of  his  family  and  household,  and 
+so  be  reckoned  among  the  number  of  his  sons.' 
+
+But   to   leave    his  argument,  what    amazing 
+power    did   this  man    possess  over  his   son  by 
+
+
+THOMAS    SHEPARD.  125 
+
+being   able  to  say  to  him,  God  gave  thee  the 
+
+ORDINANCE  OF  BAPTISM,  WHEREBY  GoD  IS  BE- 
+COME THY  God,  and  is  beforehand  with  thee, 
+
+THAT  whenever  THOU  SHALT  RETURN  TO  GoD 
+HE    WILL     UNDOUBTEDLY     RECEIVE     THEE !       And 
+
+what  a  loss  is  it  to  a  parent  who  cannot  lay 
+upon  a  child  this  solemn  responsibility  of  choos- 
+ing the  service  of  that  God  who  has  so  gracious- 
+ly included  him  in  His  covenant.  '  What  would 
+Shepard  say  to  the  members  of  our  churches 
+who  have  forsaken  the  covenant  of  their  God, 
+in  neglecting  this  invitation  and  promise  to  their 
+seed?  This  son  was  early  a  subject  of  renew- 
+ing grace,  and  reflected  great  honor  upon  his 
+father's  memory  and  upon  the  Church,  as  a 
+faithful  and  distinguished  minister.  All  his 
+children  of  whom  we  have  any  knowledge  were 
+likewise  useful  in  the  Church,  verifying  the 
+promise  of  God  to  him  and  '  to  his  seed.' 
+
+The  Half-Way  covenant,  that  polluter  of  the 
+fountain  set  open  for  Judah  and  Jerusalem,  was 
+invented  at  a  later  day,  in  order  to  make  men 
+nominally  Church  members,  that  so  they  might 
+be  eligible  to  offices  of  civil  trust;  and  because 
+piety  had  greatly   declined,  it  was  thought  that 
+
+
+1^6  MEMOIRS    OF 
+
+by  inviting  all  who  would  '  acknowledge  the 
+covenant,'  and  thus  be  entitled  to  baptism  for 
+their  children,  (though  they  themselves  were 
+prohibited  from  the  Lord's  supper)  there  would 
+in  this  way  be  a  good  prospect  of  securing  a 
+righteous  seed  in  the  coming  generation.  Such 
+however  was  the  confidence  of  our  fathers  in 
+the  moral  influence  of  having  been  baptized, 
+when  the  subjects  themselves  should  come  to 
+years  of  reflection.  But,  alas!  multitudes  at  the 
+present  day,  with  only  a  superficial  acquaintance 
+or  rather  an  entire  ignorance  of  the  nature  of 
+the  Covenant  with  believers,  have  been  deterred 
+from  availing  themselves  of  this  blessed  privi- 
+lege, by  the  ridicule,  or  the  sophistical  or  equal- 
+ly superficial  objections  of  Christian  friends. 
+A  great  part  of  those  who  practise  the  Ordi- 
+nance, it  is  to  be  feared,  think  of  it  only  as  a 
+solemn  formality  of  giving  a  child  a  name! 
+The  Apostle  reproving  un  ancient  Church  for 
+its  abuse  of  the  Lord's  supper,  says,  '  For  this 
+cause  many  are  weak  and  sickly  among  you,  and 
+many  sleep.''  May  not  the  present  acknowl- 
+edged state  of  declension  in  many  of  our 
+Churches,  and  the  low  standard  of  piety,  and 
+
+
+THOMAS    SHEPARD.  127 
+
+our  frequent  exposure,  especially  at  times  of 
+great  religious  interest,  to  sectarian  proseljtism, 
+proceed  in  part  from  the  lamentable  neglect  of 
+the  Covenant  which  God  made  with  us  in  Abra- 
+ham? Should  it  not  be  a  solemn  inquiry  with 
+all  the  members  of  our  churches,  who  are  neg- 
+lecting the  baptism  of  their  children,  whether, 
+thus  far  at  least,  they  do  not  break  covenant 
+with  their  God  ? 
+
+ir.  In  the  conduct  of  Shepard  at  the  formation 
+of  the  Church  in  Dorchester,  where  with  a  bold- 
+ness and  fidelity  seldom  imitated,  he  refused  to 
+lay  hands  on  some  of  the  candidates  for  mem- 
+bership, we  see  a  spirit  which  is  a  safeguard  of 
+the  Churches  against  corruption,  from  the  ad- 
+mission of  unworthy  meiiibers. 
+
+That  indiscriminating  'judgment  of  charity' 
+which  has  been  the  rule  to  so  great  an  extent 
+in  the  admission  of  members  to  the  church, 
+however  it  may  appear  to  some  to  indicate  a 
+kind  heart,  is  a  mistaken  and  ruinous  principle. 
+Shepard  thought  that  if  those  individuals  to 
+whose  admission  he  demurred,  were  really 
+Christians,  their  rejection  could  not  prejudice 
+
+
+128  CHARACTER    OF 
+
+their  final  acceptance  by  Christ.     He  chose  to 
+err,  if  at  all,  on  the  side  of  the  general  good, 
+rather  than  of  individual  feeling.    It  is  believed 
+that  his  example   in   this   respect  will  confirm 
+those  churches  in   their  procedure,  who   have 
+lately  determined  on  the  observance  of  stricter 
+rules,  and  a  more  thorough  investigation  of  the 
+evidences  of  Christian  character  in  respect  to 
+candidates  for  the   Church.     The  Saviour  has 
+lately  been  amongst  some  of  the  Churches  of 
+this  region  with  his  fan,   and  has  thoroughly 
+purged    his   floor.     The    foundation    has   been 
+laid  anew  in  many  places  for  a  more   spiritual 
+temple.     Let  us  be  careful  what  we  build  upor> 
+this    foundation,   that,    if  possible,    the   super- 
+structure may  not   soon  again  be  tried  by  fire. 
+Members  of  the  Church  must  feel  that  a  solemn 
+responsibility  rests  on   each  of  them,  and  not 
+merely  upon  the  minister,  to  guard  the  purity 
+of  the  Church,  both  by  their  own  holy  living,  and 
+by  refusing  to  lay  hands  suddenly  on  any  man. 
+While  the  Priest  ministers  at  the  altar,  they,  like 
+Vestal  VirginSy  must  see  that  its  sacred  fire 
+is  fed,  and  that   iniquity  like  a  flood  no  longe? 
+deluges  the  pilgrim  sanctuaries. 
+
+
+THOMAS    SHEPARD,  129 
+
+To  conclude.  A  thought  which  interests  and 
+fills  the  soul  when  we  read  the  lives  of  learned, 
+eloquent,  yet  humble,  affectionate  men,  is,  that 
+these  minds  are  not  lost,  but  are  now  *  living  unto 
+God.'  What  an  assemblage  of  greatness  and  glory 
+is  gathered  together  in  heaven !  What  an  amount 
+of  sanctified,  noble  intellect!  What  vast  variety 
+of  character!  what  infinitely  diversified  powers! 
+God  is  constantly  increasing  the  beauty  and 
+glory  of  this  society  by  the  accession  of  great 
+and  good  men  from  this  earth.  As  one  and 
+another  of  the  eminent  servants  of  Jesus  have 
+of  late  gone  to  their  rest,  and  we  have  con- 
+templated their  meeting  in  heaven  with  those 
+whose  characters  they  and  we  have  loved,  how 
+desirable  has  it  seemed  to  die  ;  nay,  rather,  that 
+whilst  we  live,  we  should,  by  all  means,  so  im- 
+prove our  Christian  character,  our  intellectual 
+and  moral  powers,  that  we  may  be  fitted  for  the 
+society  of  the  great  and  just.  May  this  be  the 
+endeavor  of  all  who  reverence  the  name  of 
+Shepard,  or,  like  the  members  of  this  Church, 
+have  in  their  pious  recollection  the  example  of 
+A  FRIEND,  whose  life  on  earth  has  made  him  a 
+Morning  star  in  the  firmament  of  heaven. 
+
+
+JUN  1  2  1356 
+
+

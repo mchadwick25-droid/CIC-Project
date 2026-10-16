@@ -1,0 +1,31 @@
+# Vendored for Atlas VI.9 (Dutch Further Reformation and Refuge Culture) by the
+# Era VII library session, 2026-10-16; see that world's Source Readiness Dossier.
+source_file: teellinck_resting-place-of-the-minde_1622.txt
+
+assignments:
+  - row_id: teellinck_resting-place-of-the-minde_1622--the-resting-place-of-the-minde
+    work: "The Resting-Place of the Minde (1622 English translation)"
+    author: teellinck
+    locus: "whole file: title page at line 16, 'To the Christian Reader' at line 82, the treatise to the end"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      Willem Teellinck's own devotional voice (Middelburg, 1579-1629), in an English
+      translation printed in his lifetime; the earliest Nadere Reformatie author the census
+      names. Primary voice, ready to quote once each passage is checked against the page image
+      (microfilm OCR, readable). The Dutch original is not vendored; no public-domain scan
+      with a rights statement was found.
+  - row_id: teellinck_resting-place-of-the-minde_1622--the-resting-place-of-the-minde-2
+    work: "The Resting-Place of the Minde (1622 English translation)"
+    author: teellinck
+    locus: "whole file"
+    atlas_ids:
+      - puritanism
+    role: transmission
+    confidence: provisional
+    note: >
+      Custody, not voice: a London press (Haviland for Brewster, 1622) carried this Dutch
+      tract to English readers in the Puritan decades. Placed on that printing history alone;
+      the file was not read for its English reception.

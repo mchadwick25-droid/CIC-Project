@@ -1,0 +1,47 @@
+source_file: perkins_golden-chaine-and-treatises_legat1600.txt
+
+assignments:
+  - row_id: perkins_golden-chaine-and-treatises_legat1600--a-golden-chaine-or-the-description-of-theologie
+    work: "A Golden Chaine: or, the Description of Theologie (with Beza's table for comforting afflicted consciences)"
+    author: perkins
+    locus: "from the address To the Christian Reader after the title page (file line 17) through the 58 chapters (chapter headings 'CHAP. n' as printed, from about line 1255 to about line 11699)"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      Perkins's ordered account of the causes of salvation and
+      damnation, the movement's best-known systematic work. SECOND
+      WITNESS for exact wording: the 1600 print's OCR carries systematic
+      long-s misreads (faluation, Chrift) and broken words in every
+      sample; use it to locate passages and verify against the page
+      images before quoting (Mark's OCR ruling, 2026-09-25). No cleaner
+      public-domain scan of the Golden Chaine was found this pass.
+  - row_id: perkins_golden-chaine-and-treatises_legat1600--the-other-treatises-collected-in-the-1600-volume
+    work: "The other treatises collected in the 1600 volume: An Exposition of the Creed, An Exposition of the Lords Prayer, A Treatise tending unto a Declaration whether a man be in the estate of damnation or grace, A Case of Conscience, A Direction for the Government of the Tongue, Two Treatises (Repentance; the Combat of the Flesh and Spirit)"
+    author: perkins
+    locus: "the volume's own contents lists at file lines 349-569; the Creed exposition carries running heads 'of the Creede' from about line 19809; the Lords Prayer exposition from about line 34368; the Direction for the Government of the Tongue from about line 48106; Two Treatises from about line 49737"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: provisional
+    note: >
+      Perkins's practical and casuistical works printed with the Golden
+      Chaine: the pieces the census calls 'practical divinity as used'
+      (casuistry, assurance, the tongue). Same OCR caveat as the first
+      row (second witness). Provisional because the boundaries of each
+      treatise in the file were located from the contents lists and
+      running heads, not read through.
+  - row_id: perkins_golden-chaine-and-treatises_legat1600--a-golden-chaine-or-the-description-of-theologie-2
+    work: "A Golden Chaine: or, the Description of Theologie"
+    author: perkins
+    locus: "as the first row"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      Perkins was a conforming Cambridge divine inside the Elizabethan
+      church, so his theology is also a voice of that entry; placed as
+      context on window and place pending a ruling on where the
+      'moderate Puritan' authors belong (dossier section 5).

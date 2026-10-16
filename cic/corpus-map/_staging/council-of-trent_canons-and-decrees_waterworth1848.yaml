@@ -33,3 +33,19 @@ assignments:
       same text is role context instead: this world's own doctrinal
       anchor as the Jesuits implemented it, not the Society's own
       composed voice.
+
+  - row_id: council-of-trent_canons-and-decrees_waterworth1848--canons-and-decrees-borromean-milan
+    work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
+    author: council-of-trent
+    locus: whole volume; the reform decrees of Sessions XXI-XXV (seminaries, residence, visitation, synods)
+      are the parts the Milan legislation executes
+    atlas_ids:
+    - tridentine-parish-renewal-borromean-milan
+    role: antecedent
+    confidence: assigned
+    note: 'The authority this world''s own legislation argues from: the Acta Ecclesiae Mediolanensis names
+      the Council of Trent 256 times and frames its councils and synods as carrying out Trent''s decrees.
+      Antecedent, not tradition: Trent is the-tridentine-church''s own voice (native claim there, per the
+      Tridentine dossier), and the Borromean texts are its application to one province.
+
+      '

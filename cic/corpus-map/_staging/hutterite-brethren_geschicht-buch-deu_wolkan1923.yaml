@@ -1,0 +1,24 @@
+# Vendored by the library/source-research thread (Era VII session,
+# one-world agent for the-anabaptist-movements, 2026-10-16): a clean
+# second scan of the 1923 edition already in the corpus as
+# hutterite-brethren_geschichtbuch_wolkan1923-deu.txt (garbled OCR).
+source_file: hutterite-brethren_geschicht-buch-deu_wolkan1923.txt
+
+assignments:
+  - row_id: hutterite-brethren_geschicht-buch-deu_wolkan1923--geschicht-buch-der-hutterischen-brueder-clean-scan
+    work: "Geschicht-Buch der Hutterischen Brüder (Wolkan, 1923), clean scan"
+    author: hutterite-brethren
+    locus: "whole text: the Brethren's Vorrede an den Leser at file line 2840 (OCR 'Lefer'), the chronicle under year headings from Anno 1527 (line 5888) to Anno 1665 (line 44636), then the editor's variant notes"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      The same 1923 Wolkan edition as the file already assigned to this
+      world, from a different scan (Internet Archive 2025) whose Fraktur
+      OCR is clean: 0.93 of word tokens read as words against 0.57 in the
+      earlier file, sampled at five points. This is the witness to quote
+      from, verified against its page images; the earlier file stays as
+      the record of its own scan. Primary voice of the Moravian wing, in
+      German. No public-domain English translation exists (Plough 1987 is
+      in copyright).

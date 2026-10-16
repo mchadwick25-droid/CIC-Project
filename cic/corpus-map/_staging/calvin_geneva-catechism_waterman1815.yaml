@@ -15,3 +15,22 @@ assignments:
       Calvin's own catechetical voice - the census's own general-knowledge
       "sources" field named this work unverified; now directly host-verified
       and vendored.
+
+  - row_id: calvin_geneva-catechism_waterman1815--the-catechism-of-the-church-of-geneva-2
+    work: The Catechism of the Church of Geneva (Calvin, 1541/1545), as the Kirk of Scotland's own catechism
+      1564-1648
+    author: calvin
+    locus: whole file (English version); the Kirk's use is documented in the Sprott-Leishman Book of Common
+      Order volume, kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt,
+      lines 331 and 1466-1488
+    atlas_ids:
+    - the-scottish-reformation-and-kirk
+    role: context
+    confidence: provisional
+    note: 'The First Book of Discipline required Calvin''s Catechism and the Kirk bound it with the Book
+      of Common Order; Sunday catechising followed its divisions until the Westminster Shorter Catechism
+      replaced it in 1648. Placed on that documented use; the Waterman text was not read for this world,
+      and it is an 1815 English rendering, not the Scottish printing. CORPUS-USE tier: same time, different
+      region.
+
+      '

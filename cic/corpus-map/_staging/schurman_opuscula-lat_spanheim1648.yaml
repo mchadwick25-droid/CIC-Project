@@ -1,0 +1,19 @@
+# Vendored for Atlas VI.9 (Dutch Further Reformation and Refuge Culture) by the
+# Era VII library session, 2026-10-16; see that world's Source Readiness Dossier.
+source_file: schurman_opuscula-lat_spanheim1648.txt
+
+assignments:
+  - row_id: schurman_opuscula-lat_spanheim1648--opuscula-dissertatio-and-epistolae
+    work: "Opuscula Hebraea, Graeca, Latina, Gallica (1648): the Dissertatio on women's learning and the Latin and French letters"
+    author: schurman
+    locus: "Spanheim's 'Lectori' from about line 180; the Dissertatio under the heading 'Problema practicum' at line 1305 (addressed to Andre Rivet, line 1311); the 'Epistolae' from line 2464 to the end"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      The Latin original of the Learned Maid and van Schurman's own correspondence with Rivet,
+      Gassendi, Salmasius, Beverwijck and others, printed by the Elzeviers in her lifetime.
+      SECOND WITNESS, not a clean text: Google OCR of a 1648 print with long s read as f and
+      many broken characters; use to cross-check the 1659 English (schurman_learned-
+      maid_1659.txt), not to quote from directly.

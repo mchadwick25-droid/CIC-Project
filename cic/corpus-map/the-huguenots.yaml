@@ -181,6 +181,21 @@ works:
 
     '
   source_file: fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt
+- row_id: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562--les-pseaumes-mis-en-rime-francoise-the-genevan-psalter-2
+  work: Les Pseaumes mis en rime francoise (the Genevan Psalter, complete 1562 edition)
+  author: marot-beze
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'The census names the Marot-Beze Psalter as this world''s own primary practice ("sung
+    at the stake, in battle, in secret assemblies"). The vendored 1562 Geneva printing is
+    the complete psalter as the French churches sang it, printed "avec privilege du Roy" for
+    the French market (the file''s own title page). Same file serves the Reformed Cities (VI.2);
+    here it is the movement''s own voice, not context. CORPUS-USE tier: same time-place, named
+    by the census and never opened for this world.
+
+    '
+  source_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
 - row_id: migault_trials-of-a-french-protestant-family_anderson1852--jean-migault-or-the-trials-of-a-french-protestant-family
   work: Jean Migault; or, The Trials of a French Protestant Family, during the Period of the
     Revocation of the Edict of Nantes (William Anderson's translation)

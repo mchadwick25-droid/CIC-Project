@@ -14,3 +14,22 @@ assignments:
     is checked against the page image: the scan is legible with occasional letter-level misreads. Word-form
     coverage against a clean Latin vocabulary is 0.57; the Spanish, Italian and Portuguese passages and
     the notes lower it, so the figure is a comparison across files and not a measure of accuracy.'
+
+- row_id: borgia_sanctus-franciscus-borgia-v5-lat_1911--borromeo-borgia-letters-1569
+  work: Letters between Carlo Borromeo and Francis Borgia, 1569 (epist. 713 and 806)
+  author: borromeo
+  locus: epist. 713, Borgia to Borromeo, Rome 2 April 1569, heading 'CAROLO CARDINALI BORROMAEO' at file
+    line 4626; epist. 806, Borromeo to Borgia, Milan 30 November 1569, heading 'CAROLUS BORROMAEUS, CARDINALIS
+    PATRI FRANCISCO BORGIAE' at file line 13704
+  atlas_ids:
+  - tridentine-parish-renewal-borromean-milan
+  role: tradition
+  confidence: assigned
+  note: 'Borromeo''s own letter of 30 November 1569, in Italian, thanking the Jesuit general for the Society''s
+    prayers after the attempt on his life (the letter speaks of "quella meschina anima, che ha macchinato
+    contra la persona mia"), printed from a copy in the Monumenta Borgia; and Borgia''s letter to him
+    about the Milan Jesuit college. A small but genuine piece of Borromeo''s own voice from inside the
+    window, and the counterpart to the letters about the Jesuits vendored from the 1762-63 collections.
+    Filed under `borromeo` for the 806 letter; the 713 letter is Borgia''s.
+
+    '

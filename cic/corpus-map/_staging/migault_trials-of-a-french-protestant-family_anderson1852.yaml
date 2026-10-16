@@ -1,0 +1,32 @@
+# Vendored for the Huguenots (Atlas VI.6) by the Era VII library session,
+# 2026-10-16. English translation (1852) of an earlier printed French text
+# of Migault's journal; the 1910 French from the manuscript is vendored
+# beside it and is the primary wording.
+source_file: migault_trials-of-a-french-protestant-family_anderson1852.txt
+
+assignments:
+  - row_id: migault_trials-of-a-french-protestant-family_anderson1852--jean-migault-or-the-trials-of-a-french-protestant-family
+    work: "Jean Migault; or, The Trials of a French Protestant Family, during the Period of the Revocation of the Edict of Nantes (William Anderson's translation)"
+    author: migault
+    locus: "the narrative after Anderson's Historical Introduction (editorial, 1852); the Google notice and introduction occupy the head of the file"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      English translation only, from a printed French text older than the
+      1910 manuscript edition, so wording may diverge; use as a
+      cross-check on migault_journal-fra_weiss-clouzot1910.txt, not as the
+      primary witness. Clean OCR.
+
+  - row_id: migault_trials-of-a-french-protestant-family_anderson1852--jean-migault-or-the-trials-of-a-french-protestant-family-2
+    work: "Jean Migault; or, The Trials of a French Protestant Family, during the Period of the Revocation of the Edict of Nantes (William Anderson's translation)"
+    author: migault
+    locus: "the narrative"
+    atlas_ids:
+      - church-of-the-desert-huguenots
+    role: tradition
+    confidence: provisional
+    note: >
+      Same placement as the French: the narrative runs into the refuge
+      after 1685. Placed on window.

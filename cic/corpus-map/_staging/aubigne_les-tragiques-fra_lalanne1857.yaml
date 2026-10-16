@@ -1,0 +1,20 @@
+# Vendored for the Huguenots (Atlas VI.6) by the Era VII library session,
+# 2026-10-16. No public-domain English translation of Les Tragiques was
+# found (dossier section 4).
+source_file: aubigne_les-tragiques-fra_lalanne1857.txt
+
+assignments:
+  - row_id: aubigne_les-tragiques-fra_lalanne1857--les-tragiques
+    work: "Les Tragiques (the seven books: Miseres, Princes, La Chambre doree, Les Feux, Les Fers, Vengeances, Jugement), with d'Aubigne's own Aux lecteurs and Preface"
+    author: aubigne
+    locus: "Aux lecteurs at file line 1521, Preface at 2077, Miseres at 2832, Princes at 5003, La Chambre doree at 7668, Les Feux at 9480, Les Fers at 11729, Vengeances at 14440, Jugement at 16397; Lalanne's Notice (editorial) at 59 and the publisher's catalogue after 19230 are not the work"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      The Huguenot epic of the wars of religion by a soldier of Henri de
+      Navarre: the martyrs' book (Les Feux) and the massacres (Les Fers)
+      in the movement's own voice, in verse. French original, clean OCR,
+      primary; no English rendering exists in the public domain, so any
+      English a Representative speaks must be rendered from this text.

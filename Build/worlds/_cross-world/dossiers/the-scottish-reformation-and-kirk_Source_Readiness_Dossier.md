@@ -1,0 +1,97 @@
+# Source Readiness Dossier — The Scottish Reformation & Kirk
+
+See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
+
+**Atlas ID:** VI.5
+**Corpus-map slug:** `the-scottish-reformation-and-kirk`
+**Time window:** 1560–1650
+**Region(s):** Scotland (census region group: North Europe)
+**Dossier author / date:** library/source-research thread, Era VII session, one-world agent, 2026-10-16
+**Corpus-map / `cic/texts/` state as of:** 2026-10-16, branch `library/era-vii-2026-10`. No bucket `cic/corpus-map/the-scottish-reformation-and-kirk.yaml` existed before this pass. Ten files were vendored this pass with staging files written; the registry, seed and cross-link rows sit in the lead's fragment files until merged.
+
+## 1. Already assigned
+
+Nothing was assigned before this pass. The ten staging files below were written this pass and validated with `corpus_map_merge.py --check` (24 works, 27 assignment rows, 4 Atlas entries). All ten are public domain by date; rights and host statements are in each file's own header.
+
+| work | author | role | confidence | approx. scale | source file |
+|---|---|---|---|---|---|
+| History of the Reformation, Books First and Second (1494–1559) | knox | tradition | assigned | 1.37 MB, proofread Gutenberg text | `knox_works-v1_laing1895.txt` |
+| History Book Third, the Scots Confession (1560), the First Book of Discipline (1560), Books Fourth and Fifth | knox | tradition | assigned | 1.43 MB, proofread Gutenberg text | `knox_works-v2_laing1895.txt` |
+| Acts of the General Assembly 1560–1602; the Second Book of Discipline (1578); the Rescinded Acts 1606–1618 | kirk-of-scotland | tradition | assigned | 1.5 MB OCR | `kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt` |
+| The National Covenant (1638); Acts and proceedings of the Glasgow Assembly 1638 and the Assemblies to 1650; Assemblies 1651–1654 (context, provisional) | kirk-of-scotland | tradition | assigned | 4.7 MB OCR | `kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838.txt` |
+| The Book of Common Order (1564 text, modernised spelling); the Westminster Directory (1645, provisional) | kirk-of-scotland | tradition | assigned / provisional | 0.8 MB OCR | `kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt` |
+| Register of the St Andrews Kirk Session, Part First 1559–1582 | st-andrews-kirk-session | tradition | assigned | 1.27 MB OCR | `st-andrews-kirk-session_register-pt1-1559-1582_hay-fleming1889.txt` |
+| Register of the St Andrews Kirk Session, Part Second 1582–1600, with the index to both parts | st-andrews-kirk-session | tradition | assigned | 1.36 MB OCR | `st-andrews-kirk-session_register-pt2-1582-1600_hay-fleming1890.txt` |
+| Diary of Sir Archibald Johnston of Wariston, 1632–1639 | wariston | tradition | assigned | 1.17 MB OCR | `wariston_diary-1632-1639_paul1911.txt` |
+| Autobiography and Diary of James Melville 1556–1601, and the True Narration of the Declining Age of the Kirk 1596–1610 | melville-james | tradition | assigned | 2.0 MB OCR, w-to-"Av" artifact | `melville-james_autobiography-and-diary_pitcairn1842.txt` |
+| Letters of Samuel Rutherford (365 letters, 1627–1661), Bonar's edition | rutherford | tradition | assigned | 1.9 MB OCR | `rutherford_letters_bonar1891.txt` |
+
+Total added to `cic/texts/`: about 17 MB. Every file's OCR was sampled at five points (10/30/50/70/90 per cent). Two caveats are written into the headers and staging notes: the opening pages of the Second Book of Discipline in the Peterkin 1839 volume are garbled (second witness for those pages only), and the Melville scan reads the letter w as "Av" in many places (quotes need the page image).
+
+Non-exclusive placements written in the same staging files: Knox vols. I–II as `context` for the English Reformation (VI.4, Knox's English ministry and the 1560 intervention, provisional); the Scots Confession and First Book of Discipline and the Book of Common Order as `context` for the Reformed Cities (VI.2, the Genevan model carried to a nation, provisional); the Westminster Directory as `tradition` for Puritanism (VI.8) and `context` for VI.4 (provisional); the Records' 1643–1648 Assemblies as `context` for VI.8 and VI.4 (provisional); Rutherford's London letters as `context` for VI.8 (provisional).
+
+## 2. Cross-link opportunities
+
+Checked by grep over the `Title:`/`Creator:` headers and the bodies of all 479 vendored files for Knox, Scotland, Scottish, Kirk, Wariston, Rutherford, Calderwood and St Andrews, then by opening each plausible hit.
+
+- **`calvin_letters-vol4_bonnet1858.txt`** (Reformed Cities VI.2, `tradition`). Fifty-three hits. Two letters from Calvin to Knox (DXLIX, 1559, answering questions sent from Scotland; DXC, 1561, on the progress of the Reformation in Scotland) and Calvin's 1559 account of his conversation with Knox about the First Blast, with Bonnet's note on the lost Knox–Calvin correspondence. Read for this placement. Tier: same time, different region. Proposed row in `crosslink_fragment.yaml`, `context`, `assigned`.
+- **`calvin_geneva-catechism_waterman1815.txt`** (Reformed Cities VI.2). Calvin's Catechism was the Kirk's own catechism from 1564 to 1648, bound with the Book of Common Order; the Sprott–Leishman volume vendored this pass documents the Sunday catechising from it (its lines 331 and 1466–1488). The Waterman text itself was not read for Scotland. Tier: same time, different region. Proposed row, `context`, `provisional`.
+- **`calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt`** (VI.2). The Genevan ordinances are the model behind both Books of Discipline. Not opened for this world; no row proposed until a Doc_02 wants the comparison. Tier: same time, different region.
+- **`schaff_second-helvetic-confession-heidelberg-catechism_1919.txt`**. Thirteen hits, all in Schaff's editorial matter (the Kirk's 1566 approval of the Second Helvetic Confession; Bonar's catechisms of the Scottish Reformation). Editorial, not a primary cross-link; noted for Doc_02, no row.
+- **`foxe_acts-and-monuments-v3_cattley-townsend1837.txt`** (Lollardy, Hussites). Eighteen hits on "Scotland", all incidental medieval mentions; vol. III does not reach the Scottish martyrs. Knox vol. I's Appendix V prints Foxe's account of Henry Forrest and the other Scottish martyrs, so Foxe's Scottish material is already in hand through Laing. No row.
+- **`mcglothlin_baptist-confessions-of-faith_1911.txt`** (Anabaptists). Two incidental mentions (Westminster displacing Knox's Confession). No row.
+- Out of window, named only: `bede_ecclesiastical-history` (28), `wesley-j_journal-v1` (23), `busch_chronicon-windeshemense` (14), `gillett_life-and-times-of-huss-v2` (9), `asbury_journal` (20 across three volumes), `sarpi_history-of-the-council-of-trent` (8, Mary Queen of Scots at Trent). None is a cross-link for this world.
+
+## 3. Verified acquisition leads
+
+The ten vendored editions are in §1 and in `seed_fragment.yaml` as `downloaded`. The leads below were verified on the host (metadata API or direct fetch, 2026-10-16) and not vendored, each for the reason given.
+
+| title | author | translator/editor | year | url | rights basis | verified by (method + date) |
+|---|---|---|---|---|---|---|
+| Letters of Samuel Rutherford, Third Edition (Religious Tract Society) | Rutherford | Bonar | undated on title page | gutenberg.org/ebooks/42557 | Gutenberg "Public domain in the USA" | direct fetch of pg42557.txt, 2026-10-16. Proofread text of the same Bonar edition; not vendored because the printing carries no year (rule against guessed years). Cross-check witness. |
+| The National Covenant and Solemn League and Covenant, with the Auchensaugh Acknowledgment and Engagement (1712) | Church of Scotland; Reformed Presbytery | Thomas Henderson | 1820 | archive.org/details/nationalcovenant00hend | pd-us-by-date; NOT_IN_COPYRIGHT | direct fetch and five-point sample, clean, 2026-10-16. The 1638 Covenant is at its pp. 40–50 and the Solemn League at pp. 50 ff. Not vendored because the Covenant is now in the Records of the Kirk (1838) from the 1639 authentic edition; the cleanest PD text of the Solemn League found. |
+| The History of the Kirk of Scotland, 8 vols. (Wodrow Society) | David Calderwood | Thomas Thomson | 1842–1849 | archive.org/details/historyofthekirk01calduoft (vols. 1–8 all present as Toronto scans) | pd-us-by-date; NOT_IN_COPYRIGHT | metadata API vols. 1 and 3, 2026-10-16. Not vendored on selectivity. Vol. III carries a clean Second Book of Discipline. |
+| The Letters and Journals of Robert Baillie, 3 vols. (Bannatyne Club) | Robert Baillie | David Laing | 1841–1842 | archive.org/details/lettersandjourna01bail | pd-us-by-date; NOT_IN_COPYRIGHT | metadata API vol. 1, 2026-10-16. Not vendored on selectivity; the best inside narrative of 1637–1650 after Wariston. |
+| The History of the Kirk of Scotland 1558–1637, with continuation to 1639 (Wodrow Society) | John Row | David Laing | 1842 | archive.org/details/thekirkofscotlan00rowuoft | pd-us-by-date; NOT_IN_COPYRIGHT | metadata API, 2026-10-16. Not opened. |
+| History of the Church of Scotland, 3 vols. (Spottiswoode Society) | John Spottiswood | Russell and Napier | 1847–1851 | archive.org/details/historyofchur93203spotuoft | pd-us-by-date; NOT_IN_COPYRIGHT | metadata API vol. 3, 2026-10-16. The episcopal outside witness. Not opened. |
+| A Collection of Confessions of Faith, Catechisms, Directories, Books of Discipline, 2 vols. | Church of Scotland | William Dunlop | 1719–1722 | archive.org/details/acollectionconf01scotgoog | pd-us-by-date; NOT_IN_COPYRIGHT | metadata API, 2026-10-16. Clean early printing of the Second Book of Discipline; not opened; 1719 print will carry long s. |
+| Selections from the Records of the Kirk Session, Presbytery, and Synod of Aberdeen 1562–1681 (Spalding Club) | Aberdeen session, presbytery, synod | John Stuart | 1846 | archive.org/details/selectionsfromre00aberuoft | pd-us-by-date; NOT_IN_COPYRIGHT | direct fetch and five-point sample, clean, 2026-10-16. Not vendored on selectivity after St Andrews. |
+| The Psalms of David in Metre (Scottish Psalter 1650) | Church of Scotland | none | 1854 (New York: Carter) | archive.org/details/psalmsdavidinme00scotgoog | pd-us-by-date; NOT_IN_COPYRIGHT | direct fetch, 2026-10-16. OCR moderately garbled; the Library of Congress copy psalmsofdavidinm00unse carries no year on its page. Lead: find a cleaner dated scan. |
+| Diary of Lord Wariston, 1639 (SHS Miscellany) | Wariston | G. M. Paul | 1896 | archive.org/details/diaryofsirarchib00scotrich | pd-us-by-date; NOT_IN_COPYRIGHT | metadata API, 2026-10-16. Separate volume; not vendored. |
+| The Works of John Knox, vols. III–VI | Knox | Laing | 1854–1864 | archive.org/details/worksknox04knox (also worksofjohnknox3knox, worksofjohnknox05knox, worksknox06knox) | pd-us-by-date; NOT_IN_COPYRIGHT | metadata API vols. 4 and 6, 2026-10-16. Knox's tracts and letters; not vendored on selectivity. |
+| Acts of the General Assembly of the Church of Scotland 1638–1842 | General Assembly | Church Law Society | 1843 | archive.org/details/actsofgeneralass00chur | pd-us-by-date; NOT_IN_COPYRIGHT | advancedsearch, 2026-10-16. Compact alternative to the Records; not opened. |
+
+## 4. Checked and closed
+
+| candidate | why it looked promising | why it's closed |
+|---|---|---|
+| Perth Kirk Session records printed before 1931 | Named in the census beside St Andrews and Aberdeen | archive.org advancedsearch for "perth kirk session" returns only two 18th-century Associate Presbytery pamphlets (bim_eighteenth-century_... 1747, 1759). The Perth register was first printed by the Scottish History Society in 2012 (Todd), in copyright. Nothing to vendor. |
+| The National Covenant, 1689 printing (archive.org natinant00chur, Princeton) | A seventeenth-century print of the Covenant | Fetched and sampled at five points: long-s OCR so garbled that no line is quotable ("perfwaded", "Thmtnings"). Closed as a text witness; page images could still serve a collation. |
+| Knox, History of the Reformation, ed. Dickinson 1949 (archive.org historyofreforma01knoxuoft, historyofreforma02knoxuoft, historyofreforma0002john) | The census's own named edition | Published 1949, in copyright; no rights statement on the items. Superseded here by Laing's edition (Gutenberg). |
+| Knox, History of the Reformation, modernised by Cuthbert Lennox 1905 (Gutenberg #48250, archive.org thehistoryofther48250gut) | A clean modern-English text | A modernised and abridged rendering, not Knox's text; the project quotes the original Scots from Laing. Not needed. |
+| "Works of John Knox, Volume 2 - the Original Classic Edition" (archive.org worksofjohnknoxv0000john, 2013) | Turned up in the Knox search | A 2013 print-on-demand reissue, no rights statement; the same text is in the Gutenberg Laing volume. |
+| Second Book of Discipline as a standalone edition | The task brief lists it as its own item | archive.org advancedsearch for "book of discipline" returns only Methodist, Quaker and American Presbyterian books of discipline plus a 1755 "Short sum of the First Book of Discipline" (bim_eighteenth-century_a-short-sum-of-the-first_church-of-scotland_1755). The 1578 text was never printed alone in a PD edition found; it is vendored inside Peterkin's Booke of the Universall Kirk (garbled first pages) and is clean in Dunlop 1719 and Calderwood vol. III (§3). |
+| Scottish Psalter 1650 on Project Gutenberg | A proofread psalter would be ideal | gutenberg.org search "psalms of david in metre" returns "No records found" (2026-10-16). |
+| Bannatyne/Maitland Club "Acts and Proceedings of the General Assemblies of the Kirk of Scotland", 3 vols. (Thomson, 1839–1845) | The fuller edition of the same register Peterkin abridged | advancedsearch on "universall kirk" returns only Peterkin's 1839 edition (four scans: bookeofuniversal00chur, thebookeoftheuni00unknuoft, and the NLS pair bookeofuniversal01scot/02scot). The Thomson edition was not found on the host under its own title; closed as not located, not as absent. |
+| Register of the St Andrews Kirk Session, Google scans (registerministe01flemgoog, registerministe00flemgoog) and the Toronto scan (registerofthemin00unknuoft) | Duplicates of the two parts | Same edition; the Boston College scans were vendored. The Google and Toronto identifiers are recorded here only so nobody re-checks them. |
+| Rutherford, Letters, Thomas Smith edition (1867, 1875, 1881, 1891) and the 18th-century "Joshua Redivivus" printings | Other PD editions of the same letters | Not needed beside Bonar's complete edition; the 1664 orthography survives in the Joshua Redivivus prints (archive.org joshuaredivivuso00ruth, 1826, NOT_IN_COPYRIGHT) if a build thread ever wants the old spelling. |
+| Edgar, Old Church Life in Scotland: Lectures on Kirk-Session and Presbytery Records (1885–1886) | Turned up in every kirk-session search | Nineteenth-century lectures quoting the records; scholarship, not a primary source. |
+
+## 5. Open cross-world questions
+
+- **Reformed Cities (VI.2, built and live) and this world's Genevan texts.** The Book of Common Order was made in Geneva in 1556 for the English exiles Knox served; the Scots Confession and the First Book of Discipline carry the Genevan order to a nation; Calvin's Catechism was the Kirk's own catechism. The rows written this pass give VI.2 `context` on each and give this world the native claim. Whether VI.2 wants to cite the Forme of Prayers of 1556 as its own text (the Geneva print is not vendored) is for that world's thread.
+- **Puritanism (VI.8) and the Westminster Directory, Confession and Catechisms.** The Directory is vendored this pass inside a Scottish volume and placed as `tradition` for VI.8 (provisional). The Westminster Confession and Catechisms themselves are not yet vendored anywhere; whichever Doc_02 (VI.8 or this world) reaches them first should vendor them and settle who holds native register. The Solemn League and Covenant (1643) is a joint Anglo-Scottish text; the cleanest PD print found is the 1820 Henderson volume (§3).
+- **English Reformation (VI.4).** Knox's English years (1549–1554) and the 1560 intervention are placed as `context` for VI.4, provisional. The Marian exiles' Frankfurt troubles (Knox vol. IV, not vendored) touch both worlds.
+- **A later Scottish world.** `ATLAS-TARGETS.md` has no entry for the Covenanters of 1660–1690 or the Church of Scotland after 1690 (search on "scot", "covenant", "presbyter": only VI.5 and the Iona entry). The Records of the Kirk run to 1654 and Rutherford's letters to 1661, so the 1651–1654 rows are placed as `context` for this world. Whether the census needs a Restoration Covenanter entry is a portfolio question, not decided here.
+
+## 6. Step 0 scope notes and recommendation
+
+**Floor (A1).** The census floorNote is "No question" and nothing found this pass disturbs it. The Scots Confession (1560) is plainly Nicene and Chalcedonian in its articles on God and on Christ. No floor-adjacent complication of the Anabaptist kind exists here.
+
+**Sourcing (B1) and ecology (B2).** The Kirk's own voice is now in hand across every genre the census asked for: its confession and both books of discipline, the General Assembly's acts for 1560–1602 and 1638–1650 with the National Covenant, its service book, the densest surviving kirk-session register for 1559–1600, two first-person diaries (a minister in the Melvillian years, a lawyer in the covenanting years), and the letters that became the Kirk's devotional classic. Everything is public domain by date and most of it is clean OCR or proofread text. The census's claim that the session records are denser than Geneva's still rests on Todd's authority; the St Andrews register itself is vendored, so a build thread can judge that claim against the text. The ecology is unusually balanced for a Reformation world: institutional (Assembly, session), confessional, liturgical, narrative (Knox, Melville) and interior (Wariston, Rutherford), with one outside witness (Spottiswood) verified but not vendored.
+
+**Uniqueness (B3).** Real, and testable from the texts: the national-covenantal logic (a whole kingdom bound by public oath, 1581 to 1638 to 1643) and the parish session as the unit of discipline are not Geneva's and not Puritanism's. The risk is the opposite one: Knox's voice is so strong that a Representative could collapse into him. The register, the diaries and Rutherford exist precisely to keep the world wider than Knox, and the census's own note ("the Kirk went on to outgrow Knox himself") should govern Doc_04 and Doc_10.
+
+**Audiences (B4) and scale (B5).** A large, bounded corpus of about 17 MB, mostly in Scots, which raises a readability question for quotation that the NorthStar standard already handles for other non-modern voices. Presbyterian and Reformed audiences worldwide trace to this world, and the Covenant story is well known beyond them.
+
+**Recommendation: build.** The floor is clear, the Kirk's own voice is vendored across every genre the census named, the ecology has institutional, narrative and interior registers in balance, and the uniqueness test (nation, covenant, session) can be argued from the texts in hand rather than from secondary claims. The two things a build thread should settle early are the Westminster-texts boundary with Puritanism (§5) and the Knox-dominance gravity risk (B3). This is a recommendation for Mark, not a decision.

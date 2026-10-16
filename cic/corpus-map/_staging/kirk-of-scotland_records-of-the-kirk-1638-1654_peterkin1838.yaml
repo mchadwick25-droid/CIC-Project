@@ -1,0 +1,63 @@
+source_file: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838.txt
+
+assignments:
+  - row_id: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838--national-covenant-1638
+    work: "The National Covenant (1638): The Confession of Faith of the Kirk of Scotland, subscribed at first by the King's Majesty and his Household in 1580, and now subscribed in the year 1638"
+    author: kirk-of-scotland
+    locus: "heading 'CONFESSION OF FAITH OF THE KIRK OF SCOTLAND' at file line 975, with its 1638 title ('The Confession of Faith, subscribed at first by the King's Majesty ... and now subscribed in the yeere 1638 by us, Noblemen, Barons, Gentlemen, Burgesses, Ministers, and Commons'), printed in full inside Peterkin's Introduction (which runs from line 320 to about 2538); the subscription band 'Wee Noblemen, Barons, Gentlemen, Burgesses ...' recurs at 11396 and 13619 in the 1638 proceedings"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The text the census names as this world's centre: the Negative
+      Confession of 1581, the list of Acts of Parliament establishing the
+      reformed religion, and the 1638 band, as the Assembly's own clerks
+      printed it in 1639. Primary voice, ready to quote once checked against
+      the page image. Printed here in an 1838 edition from the 1639 authentic
+      edition; a seventeenth-century printing (archive.org natinant00chur,
+      1689) exists but its OCR is unusable.
+  - row_id: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838--acts-and-proceedings-of-the-general-assemblies-1638-1650
+    work: "Records of the Kirk of Scotland: the Principal Acts of the Glasgow Assembly of 1638 with its full proceedings, and the Acts of the General Assemblies of 1639 to 1650"
+    author: kirk-of-scotland
+    locus: "'THE PRINCIPALL ACTS OF THE SOLEMNE GENERALL ASSEMBLY' (Glasgow, 21 November 1638, reprinted from the 1639 Edinburgh edition) from file line 2540; the detailed report of the Glasgow Assembly's sessions from 21088 ('GENERAL ASSEMBLY AT GLASGOW, 1638'); index of its principal acts at 49690; then each Assembly under its own heading 'GENERAL ASSEMBLY, AT <place>, <year>' (Edinburgh 1639 at 32336, St Andrews 1642 at 51736, Edinburgh 1643 at 56852, 1644 at 65754, 1645 at 69099, 1647 at 76935, 1648 at 81875, 1649 at 88415, with 1640, 1641, 1646 and 1650 between them); Appendix from 98396; Index from 111693"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The covenanted Kirk's own acts: the abolition of episcopacy and the
+      Perth Articles at Glasgow, the national fasts, the acts against
+      witchcraft and swearing, the approval of the Westminster standards,
+      the Act of Classes, and the Kirk at the height of its national
+      ambition. Primary institutional voice; Peterkin's notes and historical
+      illustrations are editorial and must not be quoted as the Kirk's. OCR
+      sampled clean, with ordinary scan errors; check quotes against the page
+      image.
+  - row_id: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838--acts-of-the-general-assemblies-1651-1654
+    work: "Records of the Kirk of Scotland: the Assemblies of 1651 to 1654 and the Protester-Resolutioner papers"
+    author: kirk-of-scotland
+    locus: "after the 1650 Assembly, continuing to the volume's Appendix at file line 98396; running heads reach 1654"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: context
+    confidence: provisional
+    note: >
+      Beyond the census window (1560-1650): the split of the covenanted Kirk
+      into Protesters and Resolutioners under Cromwell. Placed as context for
+      how this world ends; not read for this pass.
+  - row_id: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838--acts-of-the-general-assemblies-1643-1648-westminster
+    work: "Records of the Kirk of Scotland: the Assemblies of 1643-1648, the Solemn League and Covenant and the Kirk's approval of the Westminster Assembly's Directory, Confession and Catechisms"
+    author: kirk-of-scotland
+    locus: "Assembly of Edinburgh 1643 from file line 56852, 1644 from 65754, 1645 from 69099, 1647 from 76935, 1648 from 81875"
+    atlas_ids:
+      - puritanism
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      The Scottish side of the Westminster settlement: the Kirk's acts
+      approving the Solemn League and Covenant and adopting the Westminster
+      Directory (1645), Confession (1647) and Catechisms (1648). Placed on the
+      window and the documented relation; the 1643-1648 acts were not read for
+      this pass, so the placement is provisional.

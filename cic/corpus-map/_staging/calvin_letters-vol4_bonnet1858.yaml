@@ -39,3 +39,21 @@ assignments:
       to the Bohemian Brethren, per Bonnet''s own footnote, and is not a Piedmont letter.
 
       '
+
+  - row_id: calvin_letters-vol4_bonnet1858--letters-of-john-calvin-compiled-from-the-original-3
+    work: 'Letters of John Calvin, Vol. IV: the letters to John Knox (DXLIX, 1559; DXC, 1561) and the 1559
+      letter on Knox''s First Blast'
+    author: calvin
+    locus: letter DXLIX 'To John Knox' at file line 3494 (answers on ecclesiastical questions from Scotland,
+      1559); letter DXC 'To John Knox' at 8545 (on the progress of the Reformation in Scotland, 1561); the
+      letter on Knox's pamphlet against the government of women from about 2288 (Calvin's own account of
+      his conversation with Knox); Bonnet's note at 8579 on the lost Knox-Calvin correspondence
+    atlas_ids:
+    - the-scottish-reformation-and-kirk
+    role: context
+    confidence: assigned
+    note: 'Geneva speaking to the Scottish Kirk''s founder in the founding years: Calvin''s rulings on questions
+      Knox sent from Scotland and his own distancing from the First Blast. Read for this placement (the
+      letters and Bonnet''s notes); CORPUS-USE tier: same time, different region.
+
+      '

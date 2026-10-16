@@ -1,0 +1,2440 @@
+Title: Urkunden zur Geschichte des Bauernkrieges und der Wiedertäufer (Kleine Texte für theologische und philologische Vorlesungen und Übungen, 50/51)
+Creator: Heinrich Böhmer (1869-1927), Editor; the Schleitheim articles themselves are the Swiss Brethren's own anonymous text of 24 February 1527
+Publisher: Bonn: A. Marcus und E. Weber's Verlag, 1910
+Publication Date: 1910
+Rights: Public Domain (published 1910; public domain by date)
+Language: deu
+Source: Internet Archive item urkundenzurgesch00boeh, file urkundenzurgesch00boeh_djvu.txt, fetched directly by the library/source-research thread (Era VII session, one-world agent for the-anabaptist-movements), 2026-10-16; host rights statement: none on the item (no possible-copyright-status or licence field; contributor Robarts, University of Toronto).
+Provenance note: Header prepended; the OCR text follows unchanged apart from long-s to s normalisation (0 occurrences, none present). Rights basis restated: a 1910 Bonn imprint, read off the scanned title page, is public domain by date.
+Content note: Vendored for its section IV, "Die sieben Artikel von Schlatt am Randen", Böhmer's edition of the German text of the Schleitheim articles (1527) with his variant notes; sections I-III (the peasants' Twelve Articles, the question of their author, the Memmingen articles) are the peasants' war, outside this world, present in the file but not assigned. SECOND WITNESS for scan quality (Mark's OCR ruling, 2026-09-25): the document texts are set in Fraktur and their OCR is garbled, while Böhmer's Antiqua introductions and notes are clean; sampled at five points. It is vendored because it is the only public-domain printing found of the full German Schleitheim text (Beck 1883, Beilage A, prints it abridged), against which the once-removed English of McGlothlin 1911 and Jackson 1901 can be checked on the page images.
+---
+Boehmer,  Heinrich 
+
+Urkunden  aur  Geschichte 
+des  Bauernkrieges  und  der 
+V/iedertaufer 
+
+
+:leine  texte  für  theologische  und  philologische 
+vorle:sungen  und  Übungen 
+
+HERAUSGEGEBEN  VON  HANS  LIETZMANN 
+
+
+50/5'  -— 
+
+•  tJBWARY 
+
+KNOX  COULEGE. 
+
+URKUNDEN 
+
+
+ZUR 
+
+
+<';eschichte  des  Bauernkrieges 
+und  der  wiedertäufer 
+
+
+1 1  ER ausgegeben 
+VON 
+
+DR.  H.  BÖHMER 
+
+O.    PROFESSOR    IN    BONN 
+
+
+PREIS  GEH.  0.80  M. 
+
+
+BONN 
+
+A.   MARCUS   UND    K.    WEBKR'S    VERLAG 
+
+I9IO 
+
+
+Verlag  von  J.  C.  B.  Mohr  (Paul  Siebeck)  in  Tübingen 
+
+Handbuch  zum  Neuen  Testament 
+
+in  Verliindung  mit 
+
+H.  Gressniaun,  W.  Heitmüller,  E.  Klostermanu,    F.  Xiebergall, 
+
+E.  Freuscheu,    L.  Radei'macher,    H.  Schlosser,    F.  Wendland, 
+
+H.  Windisch 
+
+herausgegeben   von 
+
+Hans  Lietzmann 
+
+Vom  ,, Handbuch  zum  Neuen  Testament"  L;elangten  bis  Dezember 
+1909  15  Lieferungen  zur  Ausgal>c-.  J^avon  l)il(len  Lieferung  2,  7,  8,  9, 
+10,  12  und  14  den  V.  Band,  die 
+
+Praktische  Auslegung  des   Neuen  Testaments 
+
+— ^— — —     für  Prediger  und  Religionslehrer.     
+
+Linzein  M.   11.20.     Gebunden  iM.    i  ^. — . 
+Bei  Subskrijjtion  auf  das  ganze  Handbuch  Pr.  M.  10.—.  Geb.  M.   12. — . 
+
+Aus  den  übrigen   Bänden  sind  bis  jetzt  erschienen: 
+Band  I,   2 :    Die  hellenistisch-römische  Kultur  in  ihren  Bezie- 
+hungen zu  Judentum  und  Christentum.    Von  P.  W  c  n  d  I  a  n  d. 
+
+Mit  5  Abbild,  i.  Text  u.  1 2  Tafln.    Lex  8.    Einzeln  M.  5.—.    Gebd. 
+
+M,  7. — .    Subskr. -Preis  M.  4.50.     (Lieferung  3  u.  4.) 
+Band  II.     Die  Evangelien.    Bogen  i  — 10:    Markus.    Unt.  ^litwkg. 
+
+von  Hugo  Gressmann  erklärt  v.  Erich  Kloster  mann.   Lex  8. 
+
+Einzeln  M.  2.85.  Gbd.  M.  3.80.  Subskr.-Preis  M.  2.56.  (Lieferung  6."/J 
+
+Do|ipeI-Lieferg.) 
+Band  II,    i,  Bogen    11 — 24:  Matthäus.     Unt.  Mitwirkung  von  Hugö'^' 
+
+Gressmann  erklärt  von  Erich  Klostermann.    Lex  8.     Einzeln 
+
+M.  4. — .  Gbd.  M.  5.—.  Sub.skr.-Pr.  M.  3.62    (Lieferimg  13  und  15.) 
+Band  III.    »Briefe  des  Apostels  Paulus«  Bogen  i — 5:  An  die  Römer. 
+
+Erklärt  von  Hans  Lietzmann.     Lex  8.     Einzeln  M.   1.50.    '"rbd. 
+
+M.  2.50.     Subskr.-Preis  M.    1.35.     (Lieferung  i.) 
+Band  III.     »Briefe    des  Apostels   Paulus«    Bogen  6  — 11    und    12 — 15: 
+
+An  die  Korinther  I  und  II.     Erklärt  von  Hans  Lietzmann. 
+
+Lex.  8.     Einzeln  M.   2.80.     Gbd.    M.  3.80.     Subskr.-Preis    M.   2.52. 
+
+(Lieferung  5  u.    11.)     Galaterbrief  erscheint  Febniar  igjp. 
+
+Prospekte  und  Textprol)cn  stehen  zur  Verfügung. 
+
+Übersicht  über  das  Sammelwerk: 
+
+1  'id  I:  I  Grammatik  des  neucestamentlichen  Griechisch  von  L.  Rader- 
+macher. 2.  Die  hellenistisch-römische  Kultur  in  ihren  BeziehungL-n 
+zu  Judentum  und  Christentum  von  P.  Wendl^nd.  (Erschienen. 
+Einzelpreis  M.  5.—.  Gebd.  M.  7. — .)  3.  Die  urchristlichen  Lite- 
+raturformen von  P.  Wendland. 
+
+Band  II:  I.  Die  Synoptiker  unter  Mitwirkung  von  H.  Gressmann, 
+erklärt  von  E.  Kloster  mann.  Erschienen  Markus:  Liefening  6. 
+Matthäus:  i.  Hälfte  (Lieferung  13),  2.  Hälfte  (Lieferung  15)  2.  Jo- 
+hannesevangelium, erklärt  von  E.  Klostermann. 
+
+'  :id  HI:  I.  Die  vier  paulinischen  Hauptbriefe  erklärt  von  H.  f^ietz- 
+mann.  Erschienen  Römerbrief,  I.  und  IL  Korintherbrief :  Lfg.  i, 
+5  u.  II.  Galaterbrief  unter  der  Presse.  2.  Die  neun  übrigen  pau- 
+linischen Briefe  erklärt  von  E.  K  loste  r  mann  u.  H.  Lietzmann. 
+
+Band  IV:  i.  Die  Apostelgeschichte,  erklärt  von  E.  Preuschen;  i.  Ka- 
+tholische Briefe,  erklärt  von  H.  Windisch;  3.  Hebräerbiicf,  erklärt 
+von  H.  Schlosser;  4.   Aj^okaUpse,  erklärt  von  W.  Hei  tm  üller. 
+
+1   1      \     l':;i!  ■;  TestamcAts  für  Prediger  und Re^ 
+
+
+KLEINE  TEXTE  FÜR  THEOLOGISCHE  UND  PHILOLOGISCHE 
+VORLESUNGEN  UND  ÜBUNGEN 
+
+HERAUSGEGEBEN  VON  HANS  JLIETZMANN 
+50/51 
+
+
+URKUNDEN 
+
+ZUR 
+
+GESCHICHTE  DES  BAUERNKRIEGES 
+UND  DER  WIEDERTÄUFER 
+
+
+HERAUSGEGEBEN 
+VON 
+
+DR.  H.  BÖHMER 
+
+O.    PROFESSOR    IN    BONN 
+
+
+BONN 
+
+A.   MARCUS  UND   E.   WEBER'S   VERLAG 
+
+I9IO 
+
+
+I.  Die  zwölf  artikel 
+
+
+^4 
+
+
+wurden  schon  ende  Febraar  1525  von  den  bauem  der  reichsstadt 
+Memmingen  in  ihrer  eingäbe  an  den  dortigen  rat  benutzt.  Am  19.  März 
+wurden  sie  in  Ulm  auf  dem  markte  feilgehalten.  Am  21.  März  kamen  sie 
+in  abschrift,  am  22.  im  druck  nach  München.  Am  24.  bereits  suchte  der 
+herzog  Wilhelm  IV.  von  Bayern  durch  ein  verbot  den  weiteren  verkauf  zu 
+verhindern.  Bis  ende  Mai  erschienen  im  ganzen  mindestens  25  dnicke,  deren 
+ermittelung  vor  allem  Alfred  Stern,  Alfred  Götze  und  Wilhelm  Stolze  zu 
+verdanken  ist.  Außerdem  sind  noch  sieben,  zum  teil  unvollständige,  ab- 
+schriften  auf  uns  gekommen. 
+
+Ich  teile  auf  gnind  eines  druckes  von  Melchior  Ramminger  in 
+Augsburg  =  M  (vorhanden  in  Berlin,  kgl.  Bibliothek,  Flugschriften  1525 
+No.  2a,  andere  fundorte  bei  Götze,  Hist.  Vierteljahrsschrift  5,  1902, 
+s.  8  f.)  diejenige  fassung  der  artikel  mit,  die  bereits  den  Memminger 
+baiiem  ende  1525  vorlag  und  seit  März  1525  die  allcrweiteste  Verbreitung 
+gefunden  hat.  Der  druck  ist  sehr  fehlerhaft,  der  text  bisweilen  schwer 
+zu  verstehen.  Außer  dieser  meist  gelesenen  fassung  gibt  es  noch  eine 
+andere  rezension,  die  nur  durch  zwei  dnicke  vertreten  ist:  B',  zu  findtii 
+in  der  großherzoglich  Hessischen  Hofbibliothek  zu  Darmstadt  unter 
+M  1012/20,  imd  C,  vorhanden  in  der  Stadtbibliothek  zu  Freiburg  im 
+Breisgau  und  im  Stadtarchiv  zu  Colmar.  Die  viel  erörterte  frage,  welche 
+der  beiden  fassungen  die  ältere  sei,  kann  hier  unentschieden  bleiben. 
+Denn  hier  handelt  es  sich  darum,  diejenige  fassung  mitzuteilen,  in  der 
+die  Schrift  am  stärksten  gewirkt  hat.  Ich  habe  mich  daher  damit  be- 
+gnügt die  abweichungen  von  B'  und  C  zu  notieren.  Gelegentlich  ist 
+auch  das  Oberdorfer  exemplar  sowie  der  druck  von  Hieronymus  Höltzel 
+in   Nürnberg  =  J,   beide   der   klasse    der    M  angehcmg,  benutzt  worden. 
+
+Literatur:  Alfred  Stern,  lieber  die  zwölf  Artikel  der  Bauern, 
+Leipzig  1868.  Derselbe,  Die  Streitfrage  über  den  Ursprung  des  Artikel- 
+briefes und  der  12  Artikel  der  Bauern,  Forschungen  zur  deutschen  Ge- 
+schichte 12  s.  475  ff.  Alfred  Götze,  Ueber  die  12  Artikel,  Historische 
+Vierteljahrsschrift  4  s.  I  ff .  Derselbe,  Die  zwölf  Artikel  der  Bauern  1525, 
+kritisch  herausgegeben,  ebd.  5  s.  I  ff.  Derselbe,  Zur  Ueberlieferung  der 
+12  Artikel,  ebd.  7  s.  53  ff.,  vgl.  8  s.  201  ff.  Derselbe,  Die  Entstehung  der 
+12  Artikel,  Neue  Jahrbücher  für  das  klassische  Altertum  7  s.  2 13  ff.  Der- 
+selbe, Sebastian  Lotzers  Schriften,  Leipzig  1902,  Wilhelm  Stolze,  Die 
+12  Artikel  von  1525  und  ihr  Verfasser,  Historische  Zeitschrift  91  (n.  f^jl 
+s.  I  ff.  Derselbe,  Zur  Geschichte  der  12  Artikel  von  1525.  Historische 
+Vierteljahrsschrift  6  s.  i  — 16.  Derselbe,  Der  deutsche  Bauernkrieg,  Halle  1907. 
+Franz  Ludwig  Baumann,  Die  12  Artikel  der  oberschwäbischen  Bauern  1525, 
+Kempten  1896.  K.  Lehnert,  Studien  zur  Gesch.  der  1 2  Artikel,  Dissertation, 
+Halle  1894.  —  Die  abbreviaturen  des  dnickes  habe  ich  aufgelöst,  dagegen  die 
+Orthographie  und,  soweit  es  irgend  anging,  auch  die  Interpunktion  beibehalten. 
+
+Zum  texte  und  Inhalte  vgl.  I.  die  gutachten  der  drei  von  den  bauem 
+selbst  erwählten  aussprecher  des  göttlichen  rechtes:  Luther,  Ermahnung 
+zum  Frieden,  Weimarer  ausgäbe  18  s.  291  ff. ;  Melanchthon,  Confutatio 
+Articulorum  Rusticanonim,  Corpus  Ref.  20  s.  641  ff.;  Johann  Brenz, 
+Rhattschlag  und  Gutbeduncken  über  der  Bauern  gestellte  und  für  Evange- 
+lische dargegebene  Zwölff  Articul,  ungedruckt,  vgl.  Hartmann  und  Jäger, 
+Joh.  Brenz,  Hamburg  1840,  i  s.  85  ff.  —  II.  die  wichtigsten  nach- 
+urkunden  der  artikel:  die  Memminger  und  die  Langenerringer  artikel, 
+ed.  Fr.  L.  Baumann,  Akten  zur  Geschichte  des  Bauernkriegs  in  Ober- 
+schwaben, Freiburg  1877,  s.  161  ff. ;  die  artikel  der  Rheingauer  bauem, 
+Annalen  der  Gesellschaft  für  Nassauische  Altertumskunde  12  s.  67  ff.  und 
+Gnodalius-Schlusserus,  Der  peurisch  Krieg,  Basel  1573,  s.  35  ff-;  artikel  und 
+
+
+DIE  ZWÖLF  ARTIKEL  3 
+
+beschwerden  der  gemeine  gepursam  im  Sundgau  und  die  antwoit  der 
+dortigen  Ritterschaft  und  prälaten,  ed.  Schreiber,  Der  deutsche  Bauern- 
+krieg 3  s.  I3ff. ;  vertrag  des  Markgrafen  Ernst  von  Baden  mit  seinen 
+Untertanen  in  den  herrschaften  Rütteln  usw.,  Zeitschrift  für  Gesch.  des 
+Oberrheins  34  s.  419 ff.  —  Zum  inhalte  vgl.  femer  die  artikel  der  bauem 
+von  Stühlingen,  Fürstenberg,  Hausen,  Göschweiler,  ed.  Fr.  L.  Baumann, 
+Akten  s.  188  ff. ;  die  Urkunden  bei  Schreiber  i  s.  41  ff.  I79ff. ;  2 
+s.  I  f.  3 — 6;  die  von  W.  Vogt  mitgeteilten  klagartikel,  Zeitschnft  des 
+historischen  Vereins  für  Schwaben  und  Neuburg  6  (1879)  s.  301  f.  305  ff. 
+316.  319  ff.  330 ff.  337 ff.  Ueber  die  ungeheure  literatur  vgl.  Dahl- 
+mann-Waitz,  Quellenkunde'  s.  74.  480  ff ;  Stolze,  Der  Bauernkrieg,  anhang; 
+Theodor  Knapp,  Gesammelte  Beiträge  zur  Rechts- und  Wirtschaftsgeschichte 
+vornehmlich  des  deutschen  Bauernstandes,  Tübingen   1902. 
+
+
+T>r)C  ©runL)(id)en  UnD  rccbten  ^aupt 
+
+5lrticfc(,  aller  ^^aurfcbafft  unnb 
+
+^nnberfcffen  ber  ®aJOlld)cn  iinnb 
+
+'^ßcltlicbcn  obcrfai)tcn,  t>on 
+
+rDolc^en  fi)  fic^  bcfchmcrt 
+
+öermajncn.  * 
+
+
+e 
+
+
+X)cm  (5l)n(llicf)en  feefer  ^rpb  örnib 
+®nab  gottoö  burd)  ßbriflum. 
+
+«  fei)n  iMl  roibev  dmficn,  tk  x)emut>  uon  lücg 
+
+fu    tcv    fevfammleten    $>iiuvfd)afft,    ba^    @» 
+
+uangelion    ^ü    fcfMiiehnu    vx^nds   nemeii,    fflg» 
+
+ciit,   Ni^    fei)n   t\(  fvüd)t,   t»e?  ucweii  Qmw- 
+
+(lelion^'?     0]t)cmaiu    iiebovfam    fei)n,    an    aU 
+
+len  Dvttcn  ftd^  empov  heben  iMinb  iinffpomen^  mit  gvoiTcm 
+
+geiwalt  ;\ühanff  lauften   iMib  fid^  vottcn,   @ai|Tltd)  inmJ) 
+
+10  TOeltlid)e    obevfaitcn    ytvcfovmievcn,    aufi^u-eptten  ^    3rt 
+
+inlleüd^t  gav  ju  evfd>lagen?    5(Uen  bifen  ©otlofen  fveiicn= 
+
+Itd^en   in-tailevn,   ''^Intnjuvten   bife   nad^gcfdnibne   9(rticf= 
+
+el,  Qlni  ev(len  ba?  ü)e  Mfe  fd>niad\   tei-  roovt  gotec^  anff 
+
+beben,  3um  anbevn  tie  migebovfaniifait,  ^a  ti(  Q'm- 
+
+15  p6vnng   aller   Manien   6't)vi(lenlid>   enbtfdnilfcigen,   3nm 
+
+cvften,  m  bae  (ruangelion  nit  ain  m-fad^  bei  (^nipcinng^ 
+
+en  ober  anftrnven.   !Di)e  iüei)l  ef  ain  rebe  ift,  ucn  (2^vt(TD 
+
+
+•^ie  rt)itfr 
+(Shrfften. 
+
+
+X)eö  neuen 
+
+Suanaell 
+
+friicht. 
+
+
+Untraurt 
+t'  artWel. 
+
+entfct)ul= 
+ttfliig  fcer 
+'Hrtidcll. 
+
+
+1  9?'  nnb  (5':  Qlrttcfel  fo  pcßiinb  porgeroenbt  »on  ber  gemei)nen  ^^anrcer» 
+|'d^afff,  bte  fid^  allenthalben  ^nfammenvottet,  m\  wegen  bev  iwarhett  bet)= 
+Itanbt  \u  tbnn,  niitfanipt  oerantiucvt  nnb  gntlid^eni  befd>eibt  genanter 
+^Änm)erfd)afFt.  "tOJ  <2QQ(iQ  XXV.  !.  ^;\etvt  am  IUI.  3)ie  jept  i(T  f)pe  ba^ 
+anfabe  bac^  gevid^t  pon  bem  häufe  ©ptte^. 
+
+2  'uffbeümen'  =  aufbäumen  B'     3  'außzüreütten'  B' 
+
+
+j  DIE  ZWÖLF  ARTIKEL 
+
+flema.  i   fem  i>eihaiJTnc[n]  5KeiTia ',  üßctd^e  roort  imiD  leben,  nicbtj 
+
+bann,  liebe,  Srite,  03ebiUbt,  lMU^^  ainigfaiteii  leinet.    ^Ilfo 
+
+^^  alte  tit  in  til'cn  GhviiTnm  glauben,  Iieplid>,  A-viMiit,  ©e= 
+
+tultici,  iMib  iiiniii  loevten,  £p  ^ann  ter  lJvnn^  aUev  *.Jlr= 
+
+ticfel  tev  Q^aiincn  i'JJßie  ^ann  flav  (^efchen  luirt»  2»^  (5"= 
+
+uaiicielion   ^iihovcn,   lnI^   ^em  genief;  ^it  leben,  tahin  iie= 
+
+viitt  i|T,  üi^ie  nuuien   tann  tie  iiM^eidMiiTen  tae  (fiuan= 
+
+gelion  ain   inTa(t>  ttv  (JmlHM'unii,  iMit  tc?  iMuiehcrfani^ 
+
+nennend    2)aö  abev  ettliit   witevdnnilen  vnb  fciint  tef; 
+
+©uangelit,  üi'itcr  follid^e  annmttnng  iMiub  becjening  iu1> 
+
+Ionen   vnb  anffbßnien,   i|T   bac^  (Jnancielion   nit   url'ad>, 
+
+öonbev  bcr  tcüfel  bev  i'd^eblid^it  fennb  t^cf,  Ciüangelij, 
+
+ber  fDld>e^  bmd>  bcn  un(i(auben  in  ben  Temen  enverft, 
+
+^pemirte  ba5  rocit  ©otcj  (bne^  liebe,  finb,  rnb  ainici 
+
+fait  lernet^»  iMibeviietrncft  vnnb  wcohjenpnunen  rcnvbe. 
+
+(%  ij.) 
+
+3inn  anbeni   bann  flav  lautcv  folget,  bae  bne  ??an)ven 
+
+in   jren  xHvtirfeln  foldves?  (Jnangclion  ^itv  lecv  iMib  leben 
+
+begeienbt,  nit  miigen   uncieljovfam,  '2hifFvnvifd\    genennt 
+
+wevben,  !>b   ni^tv  0)Dt  bie  'iVinven  uiad^  fennem   njovt 
+
+,,   ni  leben  angfllid^  viiffent'^  evboven  will,    ^li'ev  anll  ben 
+Oicma.  11.  '  .  '^  ,    ^.^  .... 
+
+ei'oie.  40.  iiullen  gotei<  Labien y  Ubev  iinll  in  letn  gend^t  gvennen V 
+
+Srobi  3    -*^'  '^^^^'  *^^'^^  KDiifv  niai}e|Tet  UM)bev|lveben.   J^at  ev  bie  Finb= 
+
+tjitD  u     cy  ^jvjfiei  ;ju  j,ii  fd^rel)enbt,   erhöret,  iMib  anf;  ber  hanb 
+
+•»^^(»avaoni^  evlebiget?    '3J?ag  ev  nit  nod^  f)eut  bie  fennen 
+
+eure.  18.  erretten?   3^1  fi"  »virt«  cn-etten  ?  2?Mib  in  ainer  fnrn V  Tftv- 
+
+halben    0'bri|Tlid>er    lefer,    £oUid>c    07ad>i>plgenbt    *?lrt: 
+
+ticfel  mfe  mit  flfi^Iv  ^nb  nad>  mal«  ln•tail^ 
+
+^i)e''  nadiuclgcnt  bie  'üvtiifci 
+
+Der  crrt  Qlrticfel 
+
+^Imh    (5"r|Ten     i|T     iMifer     biemi'ittig    bptt    nnib 
+
+beger,    and>    iMifer    aller    will    unnb    mannnng, 
+
+ba?    wir    nnn    fnrobin    gemalt    vnb    mad^t 
+
+lüoUen   haben,   tni '   ain   ganr^e  gemam  fol  ain 
+
+1.  ihini.  3'lV'arer  felbe  ©nußlen  iMib  fncfcn.    Qlnd^  geroalt  haben 
+
+9utu"  14  ^^"  ü'lbigen  roiber  :^iientfenen,   mann  er  nö)  lMlgepnrlid^ 
+
+hiclbt,  7}ix  felbig  erroolt  iV'arrer  feil  rn-j  baj  hailig  Q- 
+
+nangeli  lauter  unnb  Elar  prebigen  onc  allen  menütlid)en  ^i\- 
+
+
+3 
+
+
+I  Rom  I,  3  ff.  2  so  B'.  'Hyemitte  das  das  wort  gotes  liebe' 
+usw.  M.  3  so  B'.  'lernent'  M.  4  =  die  ängstlich  darum  beten,  nach 
+seinem  wort  leben  zu  können  5  vgl.  zu  den  mai^inalieii  Rom  11, 
+33  ff-  Jcs  40,  13  .Rom  8,  31  ff.  Ex  3,  7.  14,  10  Luc  18,  7  8  6  'Hye  —  Art." 
+fehlt  B'.      7  'das'  fehlt  M. 
+
+
+DIE  ZWÖLF  ARTIKEL 
+
+
+Xieutro.  17 
+
+Qxoti.  31 
+rciitro.  10 
+
+
+Sohann.  6 
+ÖJflUata.  2 
+
+
+IBie  bann 
+tit  gannß 
+epJftel  ju 
+bcn  ^cbr. 
+("aßet 
+
+IJfQl.  109 
+
+
+@enefi.  14 
+
+
+De.  18.  12 
+
+
+10  fah,  (cor  mi  OtfHt,  bann  iMiJ  tcn  luaven  iilautuMi  |Tet  ^uer= 
+fnntiiicn,  iioiM '  mu^  ain  m-fact^  ciot  unib  -  fein  (inab  ^ü  (Mt= 
+ten,  iMuii^  bcn  fflbniicn  iinu-fn  (ilaiutcn  ein(n)lbcn  mt 
+in  iMU^  (n'iTcttcn,  T^ann  iinuin  \'tm  cicnab  in  inife  nitetn: 
+gepi)ltet  luivM,  (o  Mei)lHMi  umv  |TeR  flfiM"i1>  iMint  Mut,  Mi 
+
+15  bann  nictsJ  nuR  i(l,  loic  fUivlid)  in  bev  gefdnitft  (Tat  bae 
+wiv  aUatn  bunt  ben  univen  (jdinbcn  <y'i  gpt  fonuncn  finb= 
+en,  iMib  iiKain  buvd)  fenn  (niniif)fvhi(ifair  faliii  nn'uTen 
+werben,  Tavnnib  i|T  vni  ain  f6lliri)ev  inn-iiccv  iMuib  ^VfUn- 
+vev  upit  ncrron  iMinb  in  bifev  (jeiTalt  in  bei*  gefdmfr  (legvinbt.^ 
+
+I)er  anbei-  avticfel, 
+3um    anbcin    nad>    bem    bev    Se^at    auff    iiefeht    ift 
+im  alten   Jeilament  vnb  im  Plenen  ali-  evfiilbt,  nidne 
+beflminbei-  uuMlen  \m  benn-eduen  fpvn  iel)at^  oevn  geben, 
+
+5  Tiod)  wie  Md>  iietntvf,  bem  nad)  man  fol  in  ©ot  (jeten, 
+i>nnb  ben  fei)nen  mitaplen,  g,dmt  ei  ainem  ^))favvei-  fo  flav 
+ba^  win-f  (?oti^  pcrfinbr,  (Sei)en  miv  be^^  wi([en  f^infuro 
+bifen  ^ef)af,  onfev  fivd)  'tropft ''  ü'»  bann  ain  c^emain  \(iM, 
+
+i^Hiiji 
+SoUen   einfomnilen  iMib  ernnemen,   bavnon  ainem  'iV'arv: 
+
+lo  ev  fo  uüu  ainev  gan(^en  lU'main  erwölt  mivt,  fenn  ^^>)m(id) 
+gnugfam   auffent^alt  iieben,    jm   iMib   ben    fei)nen,    nad) 
+
+I  'gibt  uns'  B'  2  'und  sein  gnad'  M.  3  zu  den  verweisen  am 
+rande  vgl.  i.  Tim  3,  i — 7  Titus  i,  6  —  9  Act.  14,  23  Deut  17,  9—13 
+Ex  31,  I  ff  bestellung  der  Werkmeister  der  stiftshütte  —  allegorische 
+auslegung!  Deut  10,  22  ff.  Job.  6,  63  Gal  2,  16.  zum  inhalt  vgl.  die 
+Algäuer  artikel  vom  24.  febniar  1525  ed.  Cornelius  a.  a.  o.  s.  199  ff. 
+nr.  2  und  3 :  Zum  andern  so  sind  das  die  artikul.  Der  erst,  das  man 
+kainem  pfarrar  kain  schlissel  sol  zu  der  kirchen  lan,  und  sol  mit  im 
+reden,  das  er  dz  heiig  evangelium  j^redigen  und  epistulan  und  alt  imd 
+nui  testament  und  was  sich  dazu  vergleicht,  und  nit  menstlich  [menschlich] 
+trem  [träume]  und  uffsatzunga.  Und  weller  das  nit  thon  wil  und 
+sich  nit  wel  weisen  lassen,  den  sol  man  überauss  weisen  und  abthon'. 
+Ulrich  Artzt,  brief  vom  20.  februar,  Schwaben-Neuburg  6,  315:  die 
+Bauern  von  Kempten  wollten  das  ewangelij  und  gotz  wort  wie  andere 
+haben ;  der  rat  von  Kempten  sagt  ihnen  zu :  niemand  werde  wider  das 
+evangelium  predigen;  vgl.  die  gleichlautende  bitte  der  bußmannshäuser, 
+brief  vom  22.  februar,  ebd  s.  320.  Bundesordnung-entwurf  art.  6,  7; 
+art.  3,  8;  offizielle  fassung  art.  6  4  zehenden  B'.  =  der  große  zehnt; 
+diesen  zehnten  wollten  auch  die  Baltringer  bauern  leisten,  vgl.  ihre  be- 
+schwerdebriefe  an  den  schwäbischen  bund  vom  16.  februar  1525,  Zeit- 
+schrift des  histor.  Vereins  für  Schwaben  und  Neuburg  6  s.  316  ff. 
+10,  s.  237  ff.  255  ff.  Baumann  s.  47  5  kirchenpröpste,  kirchmeier,  kirchen- 
+meister,  heiligenpfleger,  kirchengeschworene,  zechmeister,  zechpröpste  = 
+die  laien ,  denen  die  Verwaltung  des  pfarrvermögens  anvertraut  war, 
+vgl.  F.  X.  Künstle,  Die  deutsche  Pfarrei  und  ihr  Recht  zu  Ausgang  des 
+Mittelalteis,  Kirchenrechtliche  Abhandlungen,  herausgegeben  von  U.  Stutz, 
+20.  heft,  Stuttgart  1905,  s.  76  f. 
+
+
+6  DIE  ZWÖLF  ARTIKEL 
+
+■Ceutro.  35  fi-fantnii?  ahm-  ganzen   ijniaiit,   rnnt  wai:   iibei  blenbt 
+1.  ibtm.  5  ^"^^  '"^^"  laniifii  liiirffricicn,  fo  im  fclbcii  torff  vcl•(H^n^lln 
+
+awotto.  10.  ffi^iit"  mittailcn,  luld^'  qcflalr  tai"ad>  wiiit  cvfaiitmie  aiii= 
+1.  Gor.  9.  , 
+
+cv  ciematn,  umC' -  iibev  Mci)bt  fpll  mau  (^ehairrcii,  ptMiuui 
+
+.■^{iiDtfii '  mnOt   i>LMi  (lUibö  uor  au'qcii,  T^iuinit  man  faiii 
+
+lanbr?   iTcucv  tnvff  auff  l'cii  aimfii  aiilfiii-u  \  Bol  mann 
+
+VHMi  Mfcm  iibcifclMir?  anfniittcn,  'Md)  ob  fad>"  roecc  Da^ 
+
+ein  diriii  ajue  pbev  nifi'  ^6lffel•  weren,  tic  ben  tehenben  ielH  oev= 
+lioic  erriet  .         .  . 
+
+tun«      t'aiiftt  hfttent  auu  crtltd^ev  not  natluMi,  tic  leltM^icn''  fp  tar= 
+
+nmb  ^n  v^iiicn,   in'  ter  iieilair  haben  ron  anncm  iianncn 
+
+fovff  ^a•  fol  fij  nir  cntiielrnn,  Sonbcv  roiv  ivcilen  nnc-  \m\nh 
+
+üKatth^5  ''"^^''^  '^^'''^'''  "'^^^^  ^Kitalt  iMinb  )ad>  mir  im  iHn-i^lcnd>cn,  jm 
+
+aKaj'cii  nie  foUid».?  lüibfv  mit  ^i>mlid>ev  ^dC  iMit  ^ent  ablPiTcn ',  'ilbcv 
+
+'^"'nemen**  ^^^^^  ^'t'"  hiiuem  torff  \oUidyi  (rvfaurtt  bat  iMint  jve  forra= 
+
+icn  jncn   felbö  fold^e  ^iigcapgcnt  haben,   ivoUen  rnb  fol= 
+
+en  iMit  fei)nt  jncn  nidnc-  wcntere  fd>n(biii  ^luieben,   al= 
+
+ain  wie  obflat  iMifevn  (Tiwpltcn  iV'avvcv '"  bavmit  \nmt-. 
+
+erhalten  "  o^el•  ben  bnvfftiiien  mit= 
+
+tailcn,  mie  bie  hailia  iierd>rnitt  innhclt,   3n  l'cnen  c\n\\V 
+
+lid^,  ober  iveltt[id>.    ben  Hannen  ^ehat''  lopllen  njiv  ijav 
+
+nit  lieben,  3)ann  Wot  bev  ben-  b^  iM'd>  fven  bcm  meni\tcn  bc= 
+
+@fneii6.  1.  f^•f^affen,  bae  wir  fnv  ain  iMunmlid>ini  ;iehat  f*cRen,  ben 
+
+bie  menfd)en   evbid^t  haben,   I^avnmb  «?6Uen  mir  m  nit 
+
+wenttcv  ijeben'l 
+
+I  'nach  —  such'  fehlt  B'  2  "ob  aber  etwas  weiters  überblyb,  so 
+soll  man  das  behalten,  ob  man'  usw.  B'  3  =  einen  kriegszug  unter- 
+nehmen vgl.  Grimm  Rechtsaltertümer  i  s.  409  4  =  auferlegen,  an- 
+läge =  aufläge,  Steuer,  vgl.  Lexer  sub  voce  5  =  Ursache  6  'die  selbigen 
+an  zuzeigen  unnd  das  selbig  dorff  herfürbringen,  auch  soll  der  selb  gleicher 
+mass  von  uns  gehalten  und  vergleichen  nach  gestalt  der  sach,  zu  zymlicher 
+zeyt  und  zyl,  jm  solchen  zehenden  wider  ablösen'  B'  -  'wie  und  in 
+waszer  gestalt  syesz  von  eym  gantzen  dorff  hetten,  die  söln  es  nit  ent- 
+gelten'J.  'in'  =  ihn,  nämlich  den  zehat  8  ^  angemessen  9  'ablassen'  M. 
+10  unsern  e^^v611ten  Pfarrer  oder  den  dürfftigen  mitteilen'  B'  1 1  in  M 
+folgen  hier  die  unpassenden  worte :  'Nach  malen  ablesen'  1 2  decimae 
+minutae,  hier  =  fleisch-,  Vieh-,  Blutzehnt,  vgl.  Lamprecht.  Deutsche> 
+Wirtschaftsleben  im  Mitt.  i  s.  113  ff.  608  ff.  Grimm  2  s.  46  ff.  In  den 
+geistlichen  herrschaften  hatten  meist  die  geistlichen  gnmdherren,  kl<">ster, 
+Stifter  usw.,  den  ganzen  zehnten,  den  großen  wie  den  kleinen  an  sich 
+gerissen.  Der  pfarrer  bezog  hier  höchstens  eine  geringere  quote  des  zehnten 
+oder  den  kleinen  zehnten  oder  gar  nur  ein  drittel  des  kleinen  zehnten, 
+seltener  die  hälfte  des  großen  und  kleinen  zehnten,  vgl.  Künstle  a.  a.  o. 
+s.  94  f.  Pestalozzi,  das  Zürcherische  Kirchengut,  dissertation  Zürich  1903, 
+s.  27  ff.  Den  hier  geforderten  nachweis,  daß  er  den  zehnten  von  der 
+gemeinde  gekauft  habe,  konnte  natürlich  kein  grundherr  erbringen. 
+13  zu  den  marginalien  vgl.  Ps  iio,  4  Genesis  14,  20  Deut  18,  1  ff.  12, 
+6  ff.  25.  4  I.  Tim  5,  18  Matth  10,  9  ff.  i.  Cor.  9,  9  Matth  5,  40  ff. 
+Luk  6,  29  Genesis   i,  20  ff. 
+
+
+DIE  ZWÖLF  ARTIKEL 
+
+
+(ime.  63 
+1.  "IVtri.  1. 
+1  (Shor.  7. 
+»Homa.  13 
+©arten.  6. 
+1  «l^ctr.  i. 
+
+
+■Beut.  6 
+
+aWathet.  4 
+
+Succ.  4 
+
+8uce  e 
+
+SWath.  6 
+
+3ohan.  13. 
+
+
+Dtoma.  13 
+
+
+Mctuu  5 
+
+Win  Sbrift 
+
+lidic  erbiet 
+
+tiing. 
+
+
+35ev  tvit  avttcfcl. 
+Bum  ^r^ttelI,  3rt  tev  tuMiid^  (>»)f;^ev  gcwcfcii,  ta^  mau 
+piie  fiiv  jv '  nigcn  leüt  iiebatfcii  f)al>cii,  itt6ld>«^ '  ^ü  fv(mrm= 
+en  i(T,  atujefef)eii  '  tai^  un?  (5l)ii|Tu^  all  mitt  fci^ncm  fD(l= 
+5  padtd^cm  plut  ocrgiuTen ',  nibi^t  mt  fvfaiifft  f)ar,  tew 
+^prtri'n  CjlciHt  allf^  \wl  alK^  T^eii  ()LHl>|1en,  frnii  aufi  ge= 
+nonimen.  S'arumb  fi-nntt  fid)  mit  tcv  gcfdn-nfft  t>ac- 
+lüir  frei)  fepeii  mib*^  luöllcii  fein  Dlit  b^  lüiv  gav  fi-ei)  xoöU 
+(en  ffi)ii,  fain  obevfait  ba^en  wellen,  i.'evnet  vnß  @ott 
+
+lo  nit.  3Btr  foUen  in  gepotten  (eben,  nit  i)n  frepem  flci)fd>lidi= 
+en  miinvi(en.  @cn^el•  got  lieben,  jn  ali?  miferni  v^evven 
+jn  pnfcvn  ned>|len  evfcnnen,  on^  alles?  tai?  [tljpn]'',  fp  mnr  aiut 
+gern  fetten,  ba?  vnm  @üt  am  nad>rmal  gepotten  i)at 
+i\u  ainev  (eft.    2>avum(>  folten  unv  nad)  feinem  gepct  leben. 
+
+1=.  V^igt  mb  lueifit  inie  tiü  gepct  nit  an  ta?  wiv  ber  obevf= 
+fait  nit  forfam '  fepen,  nit  allain  bev  obevBait,  funbev  \m 
+fcUen  mi  gegen  jeberman  btemntignn,  ba^  roiv  aud)  ge= 
+vcn  gegen  iMifev  erwelten  imb  gefehten  obevtai^t  (fo  une 
+»on  ÖDt  gefeRt^  jn  allen  ,^imlid)en  iMuib  (iljvitllid^en  fad)= 
+
+2o  en  geven''  gebovfam  fein,  fepen  aud)  onjwenfel  jniievbenbt" 
+iMifj  bei-  aigeufdnift  ale  mar  iMUib  red)t  Ul)ri|1eu  gevcu 
+eubtlafTeu  obev  \>m  jm  ©naugeli  bee  bevid)teu,  b^  wivß 
+fepen'". 
+
+!Der  23ieit  *2lvticfe(. 
+3um  inevten  i|T  infi  bev  jm  braud)  gewefen,  b^  fann  arm« 
+er  mau  nit  geuHi(r  gef)abt  ij^m,  tai'  miUpvet  gerigel  ober 
+nfd)  jn  rlieiTeubeu  waiTer  nit  \n  üuten  ^ü  gelaffcu  werben, 
+
+5  we(d^s?  iMi^  "  gauR  iMm)m(id)  iMiub  iMibruber(id)  buurft,'-'  fuu« 
+ber  aigeuuuRig  onnb  '^  bem  wort  @oß  nit  genief;  fein,  Qlud) 
+in  et(id)cn  ortern  bie  oberfait'^  ou^  b^  gewi(b  ju  trntj  iMib 
+
+I  fehlt  B'  2  so  B'.  'wölch'  M.  3  'unangesehen'  B'  4  =  blut- 
+vergiessen,  'vergussen'  fehlt  B'  5  B'  läßt  'und  wollen  —  sunder'  z.  16 
+weg  und  fährt  fort:  'Wir  wollen  uns  auch  gern  gegen  yedemian  de- 
+mütigen, unnd  sunderlich  gegen  unseren  gesetzten  obren,  so  uns  von  got 
+gesetzt  sein,  den  auch  gehorchen  in  allen  zynilichen  sachen,  so  nit  wider 
+got  seind'.  In  M  ist  der  text  in  Unordnung.  6  ergänzt  aus  dem  Ober- 
+dorfer exemplar  7  so  M;  Götze  faßt  den  ganzen  satz  als  fragesatz  und 
+streicht  nit  nach  gepot.  Besser  streicht  man  es  wohl  vor  korsam  ==  ge- 
+horsam 8  so  M.  9  'wedendt'  M.  10  zu  den  marginalien  vgl.  Jes  53, 
+4  ff.  I  Petr  I,  18  f.  I  Cor  7,  23  Rom  13,  i  ff.  Sapientia  6,  4  i  Petr  2, 
+13  Deut  6,  13  Matth  4,  10  Luk  4,  8  Luk  6,  31  f.  ]\Iatth  5,  46  Joh  13, 
+34  f.  Rom  13,  I  f.  Act.  5,  23  II  'über  daz  wildtpret,  gefygels  oder  fysch 
+in  flyessenden  wasseni,  der  keins  nit  z{i  fahen,  welchs  uns'  B'  12  'be- 
+dunckt'  B'  13  'und  dem  klaren  wort  gottes  gantz  entgegen'  B'  14  lies 
+'oberkaiten' 
+
+
+8  DIE  ZW()LF  ARTIKEL 
+
+mcrf)ti(icm  fd)abcii  ()abcii,  wir  im?  tj  u"l'er  O'o  @ot  ^fm 
+
+•ift"*'  'lo  '"^"f^'^"   ^"  "'M'   iViidMVn  \)nt  (aiTen)  tte  unumnifftiiKii 
+
+r.  limo  7  t^i)cv  ^ü  mnifi  i^evn-cRcii  imitanliiiflid>)  LI'old^s<  unvaiidM' 
+
+\e[o}\'.  2°'  ^f'^^"'  im'iiTen» 
+
+Hd"  ^"b*^  ^^^^  ^"  (lil(fd)iueuicu    ta^  ivibcr  &ott  mt  tem  ned>(Tcii 
+
+tmin      t|l,  2ßatui  alS5  ©Ott  bcv  f)evr  fceu  iiieiifd>cii  fi|"d>üff,  ()at  cv 
+
+rtUdic*r'=  im  gcanilt  C{tbt\\  vbcv  alle  t^icv,  ubev  ixw  fpgel  im  liifft 
+
+bietiin«    ^,„f,  jj(,pj.  i,f„  f^j-^^  ]„,  amiTcv.    T)armnb  ift  iMifer  begcveii : 
+
+loami  aiiu'v  uniJTcv  ()fttf  b^  evi^  mit  flmuifamer  fd>rifTt-'  ['(■- 
+
+lücDÜMi  mno,  tni-'  man  tav?  tuaiTi'v  iMnin)iTeiilrd^ '  a(fp  ev: 
+
+faufft'  ()ettf,  bciieveii  umv  jme  nit  mit  (iciimlt  ^ü  iicmcii 
+
+(Simbev   man    mnil    ain   (i"()vi|Tlid)    ewlfcd^en    baninncn 
+
+l)abcn  uon  lücnen  bvubevlid>cr  lieb,  aber  lüer  nit  nnnaiam 
+
+an  Vliesen  bavnm   fan  t^on'-,  foH";  ainer  (^cmaijn  vnn(id^= 
+
+tv  weil";  mittailen  '. 
+
+T'ev  /vunfft  avticfel. 
+3nm  fnnfftcn  l'eijcn  wir  and>  befdnvevt  ter  bel)clnnnii 
+{)alb,  Dann  mifeve  ^erCdnifften  i)([bfnt  jncn  bie  boiRfi* 
+alle  aKain  fleaianet,  iMinb  wann  tev  avm  man  wa^  bebarff 
+miif!  evi^  mnb  ^wan  i^eibt  fanffen,  i|T  iMun'ev  mat)nnnii 
+hu''fracn  ^^^^^^'  ''"^'  ^'"^^'1'^'^"  ''*''^'^"'  ^"^  ^abeui^  (leiillid^  ober  wclt(id> 
+raiv  t'cs  1  jinien  bie  eC'  nit  evfanfft  haben,   foUen  anner  ciannen  iU'= 
+
+'i'l'*njaiit  ^"'^'"   '^^'^''*"   '^"^'^^''"   ^'^"^'"'   ^'"^  '^'"''^"  iKmapn  ^imlidun- 
+
+tft       weif;  fvei)  fein  aim  l)ctlid^en''  fein  notnrfft  jnf;  häuf;  yi  bren^ 
+
+en  mnb  fnnfl  laiTen  nemen,  and^  wann  i>pn  nöten  fein  würbe 
+
+\\\  V)mmern  and^  umb  fnniT  nemen,  toA)  mit  wiiTni  ber  fo  pon 
+
+AieraiiB    ^gy  qcmain  barui  crwelt  werben,   öd  aber  faine  verhanbnn 
+
+iMwttunt;   wer,  bann  ba-j  \o  reblid^  erfanfTt  \\t  worbenn,  eot  mau 
+
+flndKhcn   1"^^  ""f  ^<'"  ffll'iflfii  brieberlid^  iMib  ii^ri|'telid>  uercileid>= 
+
+Wirt,  anflc  f„   sißaun  aber  ba-^  ant  am  anfana  auf;  jnen  felb^  geao: 
+leiten  bic       '  ,  _  ,„  ^ 
+
+ociortnct-  iiuet  Wer  werben  oub  uadMnale  oerfaunt"  werben,  cSPi 
+
+'lid'crrblrt  '"'1"   "'•'*'  >■'fV9lcid^en  nad>  geiTalt  ber  fad^  fnb  erfantnuf; 
+tiin.T      brieber(id>er  lieb  iMib  heiliger  gefd^rifft. " 
+
+T^er  eed>fl  articfel. 
+3nm  fed>(Teu  i|T  vnfer  hart  befd^wernng  ber  bpenil  haU 
+beu  iu6ld)e  von  tag  jn  tag  gemert  werben  iMib  teglid^  ^ii 
+
+
+I  =  weil  2  ergänzt  aus  B'  3  'schriff  M.  4  ließ :  'jm  wyssenlich' 
+=  ihm  wissentlich.  Sinn:  die  bauern  wollen  dem  herrn  den  bach  nicht 
+mit  gewalt  nehmen,  falls  er  beweisen  kann,  daß  die  gemeinde  ihm  den- 
+selben wissentlich  verkauft  hat  5  lies :  'verkaufft'  6  wer  keinen  beweis 
+dafür  erbringen  kann  7  vgl.  zu  den  marginalien  Genesis  i,  uff.  Act 
+20,  12  ff.  1  Tim  4,  3  ff.  (I  Tim  7  dnickfehler)  1  Cor  10,  30.  31  Col 
+I,  I2ff.  8  =  Wälder  9  'yegklichen'  B'  10  'erk.iufft"  B'  11  Zum  in- 
+halte  vgl.  Stuhlinger  -A-V  nr.   11,  Fürstenberger  AA  nr.  2 
+
+
+DIE  ZWÖLF  ARTIKEL  9 
+
+iiemfii,  l^cijevcii  mir  tiv^  mau  aiti  ^imtid>  ctiifcd)fii  bar 
+5  ein  tt)ü,  iMiB  bei-  niaiTcn  ntt  fo  ^ait  t>efd)iüevcn,  Sonbcv 
+iMi^  giiebtci  f)icv  jimen  anfcd^cii  wie  iMifcv  ©Iteni  ijebteut  'Mma.  101 
+
+^aben  aUaiii  iiad^  laut  bcj  wovt  gotj. 
+
+Der  Spbent  Qlvttcfcl. 
+3»m  übcubeu  b^i  wir  biumrp  \>m  aiw  l)cvfd>afft  uit  n)et)= 
+tev  w6Uc  laiTeu  [H'fdniun-cu,  fonber  wicf;  aiu  hfrfd)afft  ^t)m= 
+lid)er  weif?  aini  uerlcndn  alfo  l'ol  crfi  ^cfincu  laut  ber  t>cr= 
+
+5  ainiguuii  ber  Ferren  mib  [Hiucru,  Der  f)err  foU  jn  -  uit  weiter 
+jTODUcieu  ncd)  brt)ugcu  nier  bi)eu|l  ncdi  aubcn^  pou  jm 
+umO  i'uuft  begereu,  S^arniit  ber  ^aur  fplpd)  gütt  du  be=  |^t^-  ^5 
+
+fdnwerf  alfo  riieMid)"  braud)eu  i>ub  niciTen  mug,  ob  aber 
+beö  ^crru  bieniT  luni  uotteu  wereu,  fol  jm  ber  baur  roitlig 
+
+•o  t>ub  gef)orfam  für  auber  feiu,  bodi  \n  (Tuub  inib  ^ept,  iai 
+bem  baurcn  uit  ^ü  uad)tait  bneu,  iMiub  jme  umb  apueu 
+jjijmlid^eu  pffeuuiug  betV'  tf)üu. 
+
+!l>er  M)ttt  ^Irticfel. 
+3um  ad>teu  fepeu '  wir  befdMvert,  inmb  ber  vi(.  fo  guter  juueu 
+f)nbt\\,  Mi'  bie  felbigeu  guter  bie  giilt  uit  ertrageu  fiubcu 
+iMib  iic  ^aureu  tai  jr  barauff  eiubieiJeu  ouub  rerberbeu, 
+5  ba^  bie  ^erfd^afft  ixe  felbigeu  guter,  erber  leute  ■  befid^fig^ 
+eu  laiTcu,  iMib  md)  ber  biUifapt  aiu  gplt;'  erfd^opff,  ba  mit 
+ber  baur  feiu  arbait  uit  omb  fuuiT  t^ne,  M\m  aiu  i)etlid>er  Wath.  10  "o 
+
+tagiuercfer  i|l  fepue  lou«  mirbig. 
+
+®er  Okuubt  *^(rticfel. 
+3iim  ueüuteu  feneu  mt)r  befdMuertt  ber  groiTeu  freoel",  fo  Staic.  10 
+
+mau  iTeB  uem  famiug  mad>t,  uit  t\  mau  w\\  (Irafft  uad>  *■'  ^^' 
+
+gcitalt  ber  \'aö},   fuuber  ^ü  ,^epteu  awk  groffem  uei)b,  mi 
+5  ^it  ^epteu  auf5  groffem  guuft,  3ff  '■'"tiffv  mapnuug,  oue  gj,"^^-  26 
+
+bet)  alter  gefd>ribuer  jhraff  ITrafTeu,  baniad^  tie  fad>  ge= 
+f)aubclt  i(l,  oub  uit  uad>  guufl'-'  [28J 
+
+
+I  Rom  10,  4  2  'jn'  fehlt  B'  3  nihig,  siehe  Laxer  sub  voce 
+4  Luk  3,  14  51  Thess  4,  6  6  nämlich  den  dienst  7  'sey'  M. 
+8  'erberleüe'  M.  9  =  Pachtzins  10  Matth  10,  10  11  ^  die  ver- 
+gehen, die  mit  strafen  an  haut  und  haar  (auspeitschen,  schimpfliches 
+scheren  des  haares  usw.)  oder  mit  büße  und  wette  (geldbuße  und  fricdens- 
+geld  an  den  richter)  geahndet  werden,  =  mittelschwere  vergehen,  die 
+von  den  ungerichten  —  todeswürdigen  verbrechen  —  und  den  niederen 
+freveln  —  polizeivergehen  —  zu  unterscheiden  sind,  vgl.  unser  „forst- 
+frevel",  „baumfrevel"',  „Jagdfrevel",  Grimm  2  s.  177  ff.;  unten  Memniinger 
+Artikel  ur.  7,  antwort  des  rates  von  Memmingen  12  vgl.  Jes  10,  i  f. 
+Eph  6,  9     Luk  3,   14    Jer  26,   14 
+
+
+lO  DIE  ZWÖLF  ARTIKEL 
+
+Der  3cf)ciit  ''Uxtidel. 
+Bsie  oben  3um  ^ef)enl»cn  fet)en  loir  bcfdnücrt,  tae  etlicb  haben  inen 
+
+VUCC  6  o 
+
+jugeau]nft,  lötfen  bev  g(eid>en  ccfev  bte  bann  ainer  gemein 
+^i  gef)erentt,  T'icfellMgen  weiten  lüiv  miter  ^n  iMifeni 
+ghriftH*  gematnen  f)anten  ncmen,  (S6  fen  Ninn  fad>  bar  man^ 
+erbietuna  j.pt,(^^,  eifanftt  i)<\\>,  n?ann  man?  abci  unlnllnd^er  wenf? 
+crEaufTt  f)ct,  >SdI  man  fid)  gutlid)  iMinb  bricbevlid)  mit 
+ainanbcv  uerglctd)en  nad)  geftalt  bev  fad)' 
+
+Der  Qlnlfft  5Ivticfel. 
+
+X)eutrc.  i8  3üm  ailften  wellen  iviv  ben  Inaud^  genant  ben  tobtfall^ 
+
+'Wth.  23  flfliii  i'iiiib  gav  abtf)un  t)a[m,  T>tn  nimmer  leiben  nod>  ge(lat= 
+
+eiaic.  n  ff„^  ^^,,<  ^i^^„  TOttmen  rcaifen  ba^^  jr  tuiberöot  unnb  eeren, 
+
+alfo  fd^entlid^  nemen  berauben  fcl,  wie  e^  an  ml  ortten 
+
+I  meniiierlai) '  geiTalt'  gefd^ehen  itl,  un  oon  ben,  fp  fn  befd^np= 
+
+cn  ■'  iMib  befd>irmen  folten,  banb  fn  imi^  gefdMinben  iMinb 
+
+gefd>aben,  iMib  wann  fi)  wenig  mg  bcttenbt  gebabr,  hetf= 
+
+enbt  bin  gar  genDmen,/b^  ©ot  nit  mer  leiben  wnl,  fnnber 
+
+fol  gauR  abfein,  fain  menfd^  I  l'oU  I  "nidU^  f)i\\^xo  fdnilbig  fein 
+
+511  geben,  weber  wenig  nod)  üt)l. ' 
+
+5j^cfd)tuf5. 
+
+Sie  mpi  3um    ;\welften  i|t  iMifer  befdUfiB  fiib  enbtli)d>e  mannnng, 
+
+fi  im  ifort  wann  ainer  ober  mer  ^^(rticfel  alf;  f)ie  gejlelbt  (£0  bem 
+
+flifrffcri  i'f"  ^^^"^^^  ®i-''te«  nit  gcmef?)  weven,  ale  wir  bann  nit  oermain^ 
+
+tn.      en  bie  fclbigen  artirfel,  wo  man  imi?  mir  bem  wort  (^Hne 
+
+erbietiina   ^i'^  v>n^nnltd>  au^ngen,   wolt  wnr  barnon  abiiiMi,  wann 
+
+mane  mij  mit  grnnbt-  ber  fdu-ifft  erflert.    Cb  man  imi? 
+
+IdMMi  etlid>  artiffel  i)eB  ^u  lijef;,  Dnb  l)emad>  \id'\  bcfcnbt 
+
+tn^  iMired^t  weren,  foUen  fi)  von  iTnnban  tobt  onb  abfein. 
+
+niduö  mer  gelten,  ber  gleid>cn  ob  ftd^  in  ber  fdnifft  mit 
+
+ber  warbait  mer  artirfcl  crninben,  bie  wiber  Wot  iMib 
+
+befdMvernne  bee  nad^Ten  weren,  wollen''  wir  mm  and> 
+
+vorbehalten,   onnb  befdMoiTen   haben,  unnb  rn«   in  aller 
+
+(JhriiTlid^er  leer  neben  onb  brand>en,   barnmb  wir  C^ott 
+
+ben  Ferren   bitten  wollen,  ber  rne  bae  felbig  geben  Pan 
+
+iMinb  üniiT  nnemant,  !Der  fi-ib  Qt)xiüi  fet)  mit  \>m  allen. 
+
+^^  ij. 
+
+
+I  Liik  6,  21  ff.  2  der  artikel  bezieht  sich  auf  die  allmenden  oder 
+gemeinen  marken  3  'der  todtfal'  B'  =  erbschaftsabgabe ,  auch  mor- 
+tuarium,  besthaupt,  hauptfall,  sterbefall,  geläß,  kurmede,  buteil,  beile- 
+vinge  usw.  genannt,  vgl.  Grimm  Rechtsaltertümer  ^  i  s.  504  ff.  4  'menger- 
+ley'  B'  5  so  B';  'besitzen'  M.  6  so  B'  7  vgl.  Deut  18  Matth  23.  14 
+Jes    10,   I  ff.     8  'grnntd'  M.     9  'wöll'  M. 
+
+
+1 1 
+
+
+II.  Zur  Fraee  nach  dem  Verfasser  der  zwölf  Artikel. 
+
+
+'fc> 
+
+
+1.  Bekeniitnis  Thomas  Münzers  1525  Mai  16,  nach 
+dem  für  Herzog  Georg  von  Sachsen  gefertigten  Exemplar 
+des  Verhörs,  Seidemann,  Thomas  Münzer,  Beilage  44,  S.  152. 
+
+9(u£f  ctltd^eu  avttgfcln,  \o  bne  tvuebev  bewogen,  bDe  '^me  nit  mi^tid) 
+fei)n,  fei}ii  bt)e  jwelff  avttgfel  im  fduueviniielbev  baiivn  jum  tept  geroeiT 
+mit  mibcre. 
+
+2.  llvfad)'  lüavumb  Der  lu ibcvtciüf fcv  ^lUttvon  unb  evftev 
+aiil^engcr  Doctov  ^altf)afav  ^i'tbmaiv  ju  2Bien  auff  beti 
+je^enben  tag  '3Kar fit  ^JliitiD  1528  uevbrant  fei.  ©ebvucft 
+^u  Dve^ben  biivd)  Üßolffgang  @tccfet  MDXXVIII. 
+
+f.  4.  'jtem  auff  S\i\  ^a.  beueet  an  bic  9tegeiiteii  ^u  3"Ht>iugf  tüibev 
+©DCtor  93altf)afav  auf;gangen  beftnbet  ftd)  bas?  ftinber  T^octov  ^i^altfjafav  / 
+M  tu  flabt  2Balbf;f)iit  erobert  in  übet  n3ci)i^  gefunben  fepnbt  bie  anfd)Ieg 
+011b  furnelniicii  ber  'i^nvevn  /  bev  felbigen  articfcl  ad)t  blettev  /  fio  2)Dctor 
+Q3a(tf)aüu-  mit  eigener  banb  gefdmben  /  bie  übrigen  fint  burd>  anberc  ge-- 
+fd)viben  /  bodi  burd)  Dbn  gebeffcrt.  Unb  leret  bovinne  /  wie  ba-^  uolgf 
+einer  t)eben  lanbfd)aftt  jnfamen  fbonien  nnnb  einen  Q^nnb  niad)en  foKen. 
+@ö  fei)  and)  bie  jeit  fd^on  fomen  /  baö  ©Ott  ber  iüeltlid)en  Ferren  fdnnbcn  / 
+fd)abcn  /  (Torfen  ,  blorfcn  /  zwingen  /  tvingen  /  unb  anber  tijrannci)  nid>t 
+mc^r  leiben  woUe.  (Sie  t^uen  mit  ben  armen  lewten  wie  J^trobeö  mit 
+ben  unfd^ulbigen  finbelcin.  '^llf;o  f)<\[^  ber  morberifd)  /  l'otlningifd> 
+Jpcrfiog  VI  ©Ufa?  /  Babern-  /  unb  aubcrf?wo  /  feiner  Aurfllid^er  burd)= 
+(eud)tirfcit  erfte  prob  getban.  Domit  aber  fo(d^^  abgeflalt  /  mn^  man 
+infamen  fomen  unb  orbunng  niad^en  nad>  bem  wort  ©ottc^  /  ©orauff  foK 
+
+
+I  Göttingen,  Bibliothek,  Hist.  Ecclesiastica  190b.  Sendschreiben 
+von  Johann  Faber  (Fabri)  an  Herzog  Georg  von  Sachsen.  Datum 
+zu  Wienn  auff  den  XI.  tag  Martii.  Anno  etc.  XXVIII ;  über 
+den  Verfasser  vgl.  Hauck-Herzog  Realencyklopädie^  5  s.  717  ff.  In  der 
+Widmung    an    Herzog  Georg    erklärt  Faber  f.  2  ;    'bomit  fein  f)anblnng  — 
+
+an  tag  gebrad)t  werbe,  babe  id^  d.  i^-.  ©.  —  ein  @nmmari  feiner  niif;= 
+banbeinng  '  aui^  feineu  eigen  baubgefdirifften  /  unb  auberer 
+V>lcten     wollen  v>fdn-eibeu  /  "wie  bann  —  (i.  '^.  &.  gnebiglid)  begert  bat'. 
+
+f.  6'  behauptet  er,  daß  er  nach  der  eroberung  Waldshuts  (5./6.  dez.  1525) 
+in  Hubniaiers  hause  eine  haussuchung  mit  den  „Herrn  Commissarien" 
+gehalten  habe,  Er  schließt  f.  7'  mit  der  Versicherung:  'weld>er  ber  i\t, 
+fio  einen  \weifTel  tregt  /  ber  mag  unb  wirbt  t^  finben  in  S\b.  ^a.  ^i 
+Jpnngaru  unnb  ^J^ebmeu  (fauVei)eu  /  bo  bann  fein  befeutnic*  burd>  eigen  / 
+beß  Soctor  Q?altbafarö  i)(i\\t  /  gefd>riben  fciub.'  2  anspiehmg  auf  das 
+blutbad  das  der  herzog  von  Lothringen  am  17.  Mai  1525  unter  den  bauem 
+zu  Zabem  anrichtete,  vgl.  K.  Hartfelder,  Zur  Gesch.  des  Bauernkriegs  s.  130  f. 
+
+
+12  ZUR  FRAGE  NACH  DEM 
+
+tic  ©emetn  ^cr  iMMiPcit  jum  eriTeii  ,  ^imi  aiiteiii  mit  txittew  mal 
+fd)retbeu  /  tae  fie  tu  bei  '^nitcifd^afft  imb  uoreinicimic?  fl)Dmeii  /  Uiit  wo 
+ftc  iuri>t  f^onien  /  atebenn  fet)  etticv  l'llll^h1^l^fft  vii^fliUTfii  /  i>tx  Clurcfcit 
+bae  3d>wcvbt  ^luiehnieii  /  imt  i'iiicm  niitcrni  yi(?cbeii  '  \mi  f50  bae  ein 
+Sanbfd^atTt  iii(l>t  tf)iic  /  i'io  oinuMllicic  \\t  in  bcr  5M>nii  lailcr.  Uiinb  Iccvt 
+cilfio  wie  man  Äcni(i  A-i'iv|Tcn  J?erRoc)cn  iinb'i.'anMf;(nnii  fciu-ii  feile  / 
+ü?emtid>  \\o  baf  i^oliif  boi>  cinaiibev  fen  /  ba?  fte  ^iiKunen  iielcbeii  ba?  luovt 
+©Pttf^  ^ii^alteii  iiniib  unber  ^ivelffen  no  man  uoit  beii  '^aiüern  fi'iv  |\tled^t 
+foU  finev  evivelet  lüerbcn  unnb  \oU  baran  Der  \Mbel  nid>t  an()efel>en 
+mevben.  Unnl'  ilo  bevfellMi^e  nad^uDIclenl)^l  aud^  muiefdMcft  lüiirbe  '  unb  ucn 
+einer  Vanbfd>afff  ^nm  bvitten  mal  aeftvafft  ,'  mnq  berfelHii  and^  alnicfeiu 
+werben  /  unb  foden  bie  Vanbn\tafft  bne^u  eiuanber  uerbinben  \)hv  leib  eher  / 
+gut  nnb  blut  ^ufamen  ^niTverfon  uunb  ucvciiiTen.  —  üöo  aber  bic  ab= 
+gefeiuen  /?evrn  nd^  redten  auMren  leert  er  im  fierben  (iapitcl  ;  foU  \\( 
+erfenneu  bcr  iicm  .Öerr  inn  melrlid^en  '^aiin  unb  luo  ber  '^ann  nid>t 
+belffeii  würbe  ,  alpbanu  i'oU  ber  new  i'anbilherr  feinem  Vaub  auffpieten  , 
+ober  friegßlewte  auff  ber  i'anbfd>a(ft  foilen  annefimeu  /  unb  beu  U)ibber= 
+fpennifien  [f.  öl  beimfud^en  /  bamit  tie  blutbnriTigen  J'prannen  aufuietiUiet 
+luerbeu.  —  2^L^rnad^  i^oUiet  burdi  l>Dctor  ^^altbafar»?  .Öanbfdn-iefft  /  wie 
+man  «itebt  ^Karrfr  unb  T^crfter  iiewinuen  foll  uunb  ein  auffdn-eibnug 
+in  bie  i'aub  ^u  aller  auffrur  mit  eiutieleiUfU  articfeln  '  nnb  i|T  ba? 
+Datum  ^u  SBalbfihut.  —  T^omit  aber  nebermann  miiTe  iinvj  ber  ujeltlid> 
+9.\uui  fei)  /  f;o  bat  er  ein  foubcr?  Ö'apitel  befsbalben  tiefest  ,  0?emlid^ 
+weldKt  in  bifjer  einigung  nid^t  fen  aber  fein  luoUe  /  mit  bem  foll  mau 
+Hid)t  gcmeiufd^afft  baben  /  in  eiTcu  /  trincfeu  /  babeu  /  malen  /  bacfeu  / 
+acfcru  /  mebeu  fpei^  /  foru  /  trancf  /  bolf^  /  fleif*.  Unb  mit  «)eib  uunb 
+fiub  beu  mibberfpeunigen  yigefd>irft  werben.  T^orauff  feilen  von  iTunban 
+/  alle  ^dMoiTer  .Ulöiler  nnb  ^Dfaffenbcwfer  im  '3aun  norfünbiget 
+werben  /  uunb  ba?  bie  au?  beu  (gdMoiTcrn  unb  .UloiTern  feilen  in  gmaiue 
+bewfer  Rieben.  2Ber  aud^  bie  wibberfpeuuigeuaufFbelt'  foll  audMUi 'l^ann 
+fein  /  bartyi  feil  mau  bet)  @^reii  /  enben  /  unb  b^^M'^f»  Pflidueu  /  mit 
+nielen  bebreiiniugeu  /  bie  aubern  /  ijo  bei)  beu  uertribeu  AÜnlen  feinb  / 
+abmaneu. 
+
+(Je   i)^^^  aud<  biefelbigeu  articfel  f!0  oiel  iuutri|'Hid>eu  abfer»  ,  uub 
+ineutterenen     ba?  id>  feins*  weg;?  biefelbigeu  auf;fdneiben  barff  ned>  wil 
+bomit  nidn  ergerui?  berau«  eroelge. 
+
+ß'r  bat  and^  über  fold)  3"ltvuctieu  /  bie  er  gen  .Öall  uunb  aubere 
+ort  aufigefd>icft  foubcre  Q^aweru  articfel  ixt  in  bcin  brucf 
+auügaugen  gemad>t  '  boraue  eruolget  '  ba?  bie  Sti'ilinger  'iöawern  / 
+uub  in  bem  Klecfow  * ,  bie  erften  gewefeu  feinb  bie  fid>  wibber  bie  l'^bircfeit 
+erhebt  /  boraiif-  bie  jenierlid^   uunb  erfd>rpcfcu  aufFiur  uunb  blutoerginen 
+
+
+I   unterhält.     2  Kletgau. 
+
+
+VP:R FASSER  DER  ZWÖLF  ARTIKEL  13 
+
+entlTaiibfu  ift  /  Mm  aiut  lMllid>  cv  /  iiadi  tcni  Ynti)tx  Ut  l'dMilt  h<\t  ! 
+Hi>  leijtfv  ob  f)mi?frrtf)aii|"enb  5^a>ueni  evfd>lii(icii  /  iiiil'  fiel  f)iiiibfittbaii)'enl> 
+roitmen  imb  ivai)feii  gemad^t  weiten  feiiib. 
+
+f  6'  Unb  bemnadi  fein  f)anMun{i  Op  boef;  —  5<'t  >)5v  '9)tfl.  rtiift  fein 
+^lUiMung  befenntniv^  /  uvgidU  /  »nb  eigene  f)ant>gefd>vifft  ^n  'JiMenn 
+t)^n  fnr  9{iduev  niil»  !iRat>t  (Teilen  laffen  /  nnfc  i)T  offentlid>  fein  nrgid>f 
+tn  benfein  ine(  tbanfent  nlenfd^en  iH>r(efen  worlien  /  wie  hieniad^  luMget  / 
+nnb  niiv  \>m  boni  ."liiduev  bev  etaDt  ii'ienn  '  jngefdntff. 
+llrgidu'  fo  offentlid)  uovlefen. 
+
+@v(Tlid)  1:)<M  ©pctor  93alt^afai-  J>nbin<<i)ev  /  befant  /  rote  er  ^n  2BaIbf?= 
+6nt  geprebigf  /  witbev  bie  Cbivcfeit  /  anffrnvige  bing  /  bie  nid)t  ^u  nib 
+gebient  /  fonber  ift  geiüefen  wxXax  ©ot  /  9led)t  /  iMib  fein  geiüiiTcn  / 
+bovnn^  inel  anbbevwevticfeir  iMuib  entpovnng  icibber  Ik  Obircfeit  /  and> 
+gvpe  blntnorgieiTung  cntfpvnngen. 
+
+3rfni  mehr  bat  er  betant  /  wie  er  ben  von  üüatbft^nt  h^xh  belffen 
+raten  iMib  brieff  mad)en  /  an  .^6.  '3Ka.  berfelben  i^txt  Anvft(id)er  bnrd)= 
+lend>ticfeit     bie  bo  nie()r  gebient  ^aben  ;\n  abroerffnng  /  benn  i,\\  ge^orfam. 
+
+3tem  niebr  ijat  er  befant  /  wie  er  \\\  ben  gebad)fen  uon  üßalbf^bnt  / 
+D^nen  in  »bre  (jeiufer  gangen  /  mtb  nitt  i)f)nen  gerebt  /  fte  5«ben  ber  fad^en 
+red>t  iMuib  fueg  /  fte  follen  barauff  flerben  onb  genefen.  .^ab  D^nen  and) 
+geraten  unnb  gebolffen  /  ini  fte  (^lucntnal  einen  et)b  i^nfanien'  gefdnvoren 
+6aben  /  fte  foKen  \\&\  aller  ber  enueven  /  \)\i  fte  bei  ber  leer  /  bie  er  ge= 
+prebiget  /  nidu  bleiben  luolten  /  rerlaiTcn  /  iiai  er  and)  befentlid>  /  iai 
+er  tuibber  0)ptt  iMib  fein  geroiiTen  /  and)  wtbber  bte  Obircfeit  /  fei)  ge= 
+»efen. 
+
+3tem  mcf)r  f)at  er  befant  /  wie  er  ber  iBaiuern  '.Hrticfet  /  fjo  i)f)tn 
+von  i)bnen  an«  beni  bcre'  ^nfomen  feinb  /  biefelbigen  t)^nen  erwei^tert 
+iMib  anf;gelegt  /  nnb  benfelbigen  fpld>e  eingebilbet  /  bie  antjnnebmen  al^ 
+(5bri|Tlid>  iMib  billid^.  (Jr  befeiit  attd^  ba?  er  barinn  geirret  onb  on= 
+red>t  getban. 
+
+3teni  niebr  \)C[t  er  befant  /  luie  ec'  \\d)  i:)K\h  antragen  /  t\\i  ettlid) 
+otel  i?on  ber  il'bircfeif  /  mi  ber  (labt  2ßalbf^bnt  /  gen  J^eiiffenbcrg-^  gangen  / 
+3n  beni  h^y.^  er  /  wib  ber  Jpan^  '^Wt'tller  !^aivmei(ter  /  an  ftat  be^  ©d>ult= 
+5ei^  tu  ©mein  bernffen  lauen  in  ba*^  .'■){abtf)awi^  /  ba  entgegen  anget^eigt  / 
+an^  beneel  ei)ne?  ?){abte  iMib  Öerid^t?  /  einer  ©nieinb  /  ben  berid^t  /  mit 
+bee  JHeid>f-  bnnb  /  \>'\i  an  |1at  .^6.  i9?a.  berfelbigen  ^eit  Jyi'iriTlid^er  bitrd)= 
+lenduicfeit  be^  luillen^  gemefen  /  bie  iStabt  ^u  i'tbernallen  unb  bie 
+'3[^nrgerfd^afft  ^iiiTraffen  /  alf;D  atitvinebinen  /  weld^er  iMiber  i)nen  foldiij 
+nid>t  tf)nn  ivolte  /  ber  niodu  aui^  ber  ^U\t  \\^(\\  /  bi|^  bie  \aA)  beffer 
+itiirbe.  9(ufT  ba^  ^at  er  /  Doctor  93altf)afar  PtTentlid)  /  oon  peberman 
+»rlanb  genommen,  borau(T  beim  gangen  onb  gcfagt  /  er  moll  in   bem  be= 
+
+
+I    aussage  vor  gericht.      2   beer.     3    Laufenhurg  a.   Rh. 
+
+
+H 
+
+
+ZUR  FRAGE  NACH  DEM 
+
+
+nd)t  iiidn  fein.  'Dcrnad)  yi  movcien^  luid^  ^em  fvucnuil  au?  ^a•  *8taM 
+ganzen  ,  O^id^  bemfcllMucn  fen  cv  Foinen  gen  3uvd)  /  iMib  ^oi■e[^(l  uon 
+wegen  tev  wil>tcvU\\vi\  alüo  cjcfangen  n^Ol•^en  /  bann  tiet'elb  roibev 
+Den  3it)tnglin  gewefl  Dem  Die  i^pn  3nrd^  anfjvingen.  Q'v  ift  md)  \ii 
+3uvd^  Der  iviDDevtauff  halben  Dpfet^it  gerecft'  ivovDen  /  unD  (lab  an 
+mniTcn  geigen  /  wer  i>f)n  ju  fold^er  ?au(T  geurfad^t  f)ab  /  unb  wae  er 
+in  i)^rer  gepiet  uor  perfon  getawlft  ^al>  /  Derf)alb  er  /  i^on  wegen  Det 
+BinDcrfawft  /  offentlid>  ein  wiDerrnff  getl)an. 
+
+3teni  mehr  f)at  er  befant  /  Da«  er  foId^  preDig  gethan  imiD  Dart^u 
+rrtDt  iMiD  t^at  gehen  /  Domit  er  Dohe»)  ein  gut  (ehen  hahen  /  onD  ein  ^err 
+fein  m6d^te.  3»  foldunn  allem  /  hefenf  er  fid>  lMlrcd^t  gethan.  ^?Iud^  t)f)r 
+gruuD  iMiD  lunnenien  gewefl  /  fein  Chircfeit  3uhahen  ^onDer  allein  onDer 
+\)t)n  felhiT  einen  ^ufdnH'iten  miD  ^uerwelen. 
+
+3tem  mc^r  hcfent  gemelter  !DoitLH-  Q?althafar  /  er  l)alt  gor  nid>te 
+i>pn  Dem  'Sacrament  tei  ^iltaxi  /  nod^  mni  Der  finDertaroff. 
+
+3.  Doctoris  Joann  Fabri,  Orthodoxae  fidei 
+catholica  defensio  adversus  doctorem 
+Balthasarum  Pacimontanum^,  Lipsiae  1528, 
+f.  XI  b :  Posthac  multa  et  longa  verborum  serie  sediciosos 
+articulos  Evangelicis  monumentis  applicaveris. 
+
+4.  Johannes  Kessler,  Sabbata,  hrsg.  unter  Mit- 
+wirkung von  E.  Egli  und  R.  Schoch  vom  Hist.  Verein 
+des  Kantons  St.  Gallen,  St.  Gallen    1902,  p.   175/6. 
+
+3ii  ^el11  i|l  bcf  .^ulDrid?  <2dMniD ',  Der  unDer  bem  lail  ainig  gciTnt) 
+tag  /  gen  ^temmtngen  gangen  /  guter  .öpffnuug  '  er  ronrDe  Da  perfonen 
+miDen  /  Die  in  feinem  fnruemen  im  mßdUen  f)ilflid^  unD  beraten  fin  uuD 
+evFantnnc^  hielten  tntfdu'r  nation  gelartileu  weUten  Die  fad^  nad>  per= 
+nuigen  ©Pttef<  lucrr  nügcfprintcn  feilte  haimgefTelt  wcrDen  ,  all  Die  in 
+ain  fumme  unD  orDnung  iTellen  fampt  auDven  artiflcn  /  fo  Der  -Öerrfd^aft 
+furgclialten  niHiiHMiDig  beDunfen  iinirDe. 
+
+1)0  i\i  im  ann-agt  SebaiTiou  l'pt?er  genannt  /  an  fnrftner'  /  ale 
+an  gcfduiftglcrter  uuD  fpllid^er  Dingen  f)alb  al^  ein  erfaruer  gcfell.  2Bie 
+ev  aber  Darumb  angelangt  worDen  /  f)at  er  Dem  .'g»nlD^d^cn  fin  bitt  balD  ^ 
+abgefd^lagen  /  wie  mir  Der  ^Eebaitipu  felbiT  gefagt  als*  er  fie"  ^i  2^»i"t 
+©allen  fampt  auDren  uimettenn  panthitcn  fid>  an  ^it  lang  ufenthielt 
+unb  9efprod)en:  l'ieber  J>ulbrid>  /  3>ir  i(l  nit  uumiiTeuD     wie  über  ainem 
+
+I  gefoltert;  vgl.  R.  Stähelin  Zwingli  i,  s.  515.  2  so  heisst  Hub- 
+maier  nach  seinem  geburtsort  Friedberg  in  bayem.  Fabers  schrift  stammt 
+aus  dem  Juli  1528.  Inhaltsangabe  von  Alfred  Stern  in  Forschungen 
+für  deutsche  Geschichte  12  s.  501 — 503.  3  seines  Zeichens  ein  Huf- 
+schmied aus  Sulmingen,  oberamt  Laupheim.  'obrister  Hauptmann'  des 
+Baltringer  haufens,  vgl.  Landesordnung  Cornelius  a.  a.  o.  s.  191;  Bau- 
+mami, Akten  s.   139.     4  kürschner.     5  schleich     6  so! 
+
+
+VERFASSER    DER    ZWÖLF  ARTIKEL 
+
+
+15 
+
+
+gewaltigem  ()er  o^erfler  bift;  Otcvumb  biv  befimbev  gefd^icfte  /  gelevfe 
+mannev  nct  ftiil'  /  ®p  bin  id)  ein  ainfaltigcv  /  gemainer  f^anbwevf^gefeU; 
+f»al>  mict^  am  taitiem  f)Df  nod)  in  tcinev  faii^lj  je  geübt  /  ja  nie  feinet 
+notaiien  mbititnt  gewefen-,  bavumb  nad^  ber  fd^mere  bine^^  f)anbclö  mit 
+mir  nit  vevfovget  bifl\  2)Dd>  m»«  letjTen  /  nad)bem  ev  \id)  nit  miter  n^v- 
+reben  mDd)t  /  6*it  ev  bewilliget  /  onangefcd^en  ainid)evlai  befolbung  /  fo 
+fer^  man  fid)  an  fienen  ftifj  unb  evnft  roplle  uevnügen"^  lajTen.  ®o 
+nun  ^iilbvid>  i>evmeint  mit  ainem  guten  ;  gefd)icften  fdn'ibev  uerfed)en 
+ftn  /  lief;  ev  aiiten  tag  evnemmen  gen  ^?emmingen  /  bcn  f;anbel  jü  hnwt- 
+fdUagen. 
+
+5.  Zwing  11  an  Vadian,  Zürich  1525  oct.  11,  opp.  ed. 
+Schuler  et  Schulthess  7  p.  417: 
+
+Insimulant  Wittenbergenses,  superciliosum  genus  hominum 
+Sertorium  ^  nostrum  quasi  conditiones  sive  articulüs  seditio- 
+sorum  agricolarum  finxerit  quod  ego  in  literis  ad  Froscho- 
+verum  inde  missis  vidi.  Sed  fortasse  nihil  intererit  revellere 
+istorum  falsam  opinionem. 
+
+6.  Johannes  Carion,  Chronica,  i.  ausgäbe  1532,  neudruck 
+Wittenberg   1546  f.   226': 
+
+Qintv  genannt  @d)aplev  f)nt  ,^melfF  ^^Ivtirfcl  gemadn  /  genant  uon 
+(J5fiftlid>ev  fveiheit .  bai^  man  bev  Obevfeit  nid)t  ynö  geben  foll  etc.  Duvd) 
+bicfe  Qlvticfel  meint  man  fei)  bev  p6fel  bee  mever  tetlö  evveget. 
+
+7.  Jacob  US  Holtzvvart,  Rustica  seditio  totius  fere  Germa- 
+niae^,  ed.  Fr.  L.  Baumann,  Quellen  zur  Geschichte  des 
+Bauernkriegs  in  Oberschwaben,  Bibliothek  des  Litterarischen 
+Vereins  in  Stuttgart   129.  bd.  (1876)  s.  652: 
+
+Hos  articulos  ideo  e  germana  in  latinam  transtuli  linguam, 
+ut  in  hoc  opere  cerni  posset  quas  causas  rustici  suae  seditioni 
+praetexerint.  Quinque  priores  articuli  de  eligendo  parrocho, 
+de  decimis,  de  carnali  Servitute,  de  communi  captura  piscium, 
+avium,  ferarum  etc.  potissimum  conficti  sunt  a  falsis  concio- 
+natoribus.  Reliqui  articuli  ad  gravamina  pertinent,  quae  cum 
+a  rusticis  cuidam  j^raedicatori  Memingensi  essent 
+allata,  ipse  detortis  scripturis,  ut  est  videre  in  marginibus  ea 
+confirmavit  et  de  suo  multa  adjecit. 
+
+8.  Heinrich  B  u  1 1  i  n  g  e  r ,  Historia  (Reformationsgeschichte) 
+c.  138,  ed.  Hottinger  und  Vögeli,  Frauenfeld  1838,  i 
+p.  245: 
+
+
+I  so  fem.  2  begnügen.  3  =  Schappeler,  vgl.  brief  Schappelers  an 
+Zwingli  vom  2.  Mai  1528,  ebd.  j).  392  f.  4  verfaßt  1530,  handschrift  von 
+1538.     L'eber  den  Verfasser  siehe  Bauniann  a.  a.  o.  s.  7 18  ff. 
+
+
+l6  ANDERE  URKUNDEN 
+
+2Bev  aber  teil  puren  tife  articfel  anc^äbfii  unb  ufr^fi)dMiet  habe 
+fnn  mit  (jereüiTe^  (lefagr  rocrben  /  beim  bvie  rrtlid^f  fi)  tem  !?pctor  (ibriiloff 
+£cbappelfv  I-^p'i  ®r.  ©iiUe»  m'i  cjabcnb.  -l^pii  bcm  icb  aber  felb?  nu  bann 
+ftnilT'  iiebovt  b^b  ba^  er  |'id>  bcf;  ufflagc'  hpd)lidW'fi"d>iv>arer.  Un^  uMllene 
+rin  /  fo  er  nod^  Cfavipu  im  laben  mnbcn  ^a^  er  inn  beräbren  n''6llen  ; 
+Denn  tmm  (letvaUt  unb  nnräd>t  bel'd>abe  babe  nie  nur  mirt  teu  miven 
+aebanblcr     fnenb  imm  and)  ('6m[id>-  articfel  in  fin  iinn  fnmmen. 
+
+
+III.  Andere  Urkunden. 
+I.  Die  loMemminger  Artikel,    1525  Februar  24  bis 
+
+
+o 
+
+
+März 
+
+kopie  im  ratsarchiv  zu  Memmingen,  entdeckt  von 
+Eugen  Rohling,  mitgeteilt,  aber  ohne  den  einleitenden  brief 
+und  ohne  die  antwort  des  rates,  von  C.  A.  Cornelius,  Studien 
+zur  Geschichte  des  Bauernkriegs,  Abhandlungen  der  Mün- 
+chener Akademie,  historische  Klasse,  9  s.  180 — 183,  voll- 
+ständig von  Baumann,  Akten  s.   iiq  — 126. 
+
+2.  Der  Bundesvertrag  der  drei  oberschwä- 
+bischen Haufen,  geschlossen  am  7.  März  1525 
+zu  Memmingen,  originaldruck  in  der  Hof-  und  Staats- 
+bibliothek zu  München ,  mitgeteilt  von  Cornelius  a.  a.  o. 
+s.  193 — 186.  Von  diesem  vertrag  sind  noch  mehrere  ent- 
+würfe bekannt,  der  eine,  F,  datiert  vom  6.  März,  befindet 
+sich  im  ratsarchiv  zu  Freiburg  i.  B.,  herausgegeben  von 
+Cornelius  a.  a.  o.  s.  187 — 190,  der  andere,  A,  in  den 
+papieren  des  Ulrich  Artzt,  datiert  vom  7.  März,  heraus- 
+gegeben \on  Wilhelm  Vogt,  Zeitschr.  des  Histor.  Vereins  für 
+Schwaben  und  Neuburg  6  s.  356 — 359.  Zum  inhalte  vgl. 
+Max  Radlkofer  Johann  Eberlin  von  Günzburg  und  sein 
+Vetter  Hans  Jakob  Wehe  von  Leipheim,  Nürdlingen  1887, 
+s.  289  ff.  Fr.  L.  Baumann,  Die  zwölf  Artikel,  Kempten 
+1896,  s.  6öff. 
+
+3.  Die  Predigtordnung  des  bauernheers  ist  erhalten 
+auf  einem  zettel,  den  der  schwäbische  bundeshauptmann 
+Ulrich  Artzt  von  Augsburg  einem  briefe  an  den  Augsburger 
+rat  vom  12.  März  1525  beigelegt  hat.  Der  text  ist  mit- 
+geteilt von  Max  Radlkofer  a.  a.  o.  s.  303  f. 
+
+
+I   =  einmal      2  =  so  beschaffen,  dergleichen. 
+
+
+DIE    10  MEMNnNGER   ARTIKEL  17 
+
+
+I.  Die   10  Memminger  Artikel. 
+
+J?  ein  ad)  fiiifc  bell  im  6  t  bie  articcl, 
+fo  bie  evbern  mit'ertbon  t>ei-  bawr6  = 
+lewt  unb  MnbevfäiV  bev  \lat  ^c- 
+mtnge«  i)ie  iicd)(t  freitag  vxv- 
+f d> i n c n  p D v  v a t  ge w c f e n  f u  v ^ a  1 1 e  11. 
+
+Dfv  almfd)tig  eivig  gütig  ©ot  uerleid^c  iin^  fein  g6tlid)e  gnab  unb  goiiiT  / 
+M^  wir  jii  red)tev  reavl^aftigcv  cvfantiniiT  feinö  gotlid)en  roiUenö  fomeii 
+rangen  /  and)  un^  im  ,^eit  bcr  gaben  -  alfo  gegen  ainanber  fjalten  ,  ba» 
+roir  ,^ule|T  bie  fvon  ber  feligfaifc  erlangen.    vMmen. 
+
+JurfidUig  /  evfam  unb  rceif;  /  gonftig  '  lieb  Ferren!  Okd)bem '  ain 
+evfamer  rat  gut  uniTcn  liregt  /  tüie  roir  nad)(l  fret)tag  an  bc:^  bailigen 
+jroolfboten  fant  5Katl)iai^  tag*  vov  e.  e.  ro.^  errd)inen  finb  unb  ba  be= 
+gert  ;  nad)  laut  unb  inf)alt  be^  gctlid)en  roortö  /  ainen  entfd)aib  etlid)er 
+articel  falben  /  fo  iinö  bebnncfen  bemfelbeu  gDtlid)en  roort  nit  geraeff  fein 
+etc.  /  bemnad)  f)at  nn^  ain  erfamcr  rat  ain  frenntlid)en  /  tugentfamen"* 
+unb  criftenlid^en  befdniib  geben  /  auf  tie  mainung:  roir  mugen  unfer 
+artidel  unb  befdnuertnuf;  bart^un  /  al^bann  fo  roellc  ain  erfamer  rat  nad^ 
+laut  bei?  gotlidu'n  rocrti^  ain  guebig  einfe^en  barinn  f)aben:  alfo  ^ab  roir 
+^ie  etlid>  articel  itergriffen  '  /  roie  ^ernad)  uolgt.', 
+
+5nr^  er|l  i(l  unfer  biemutigi|l  t)oA)it  bit  unb  beger  /  baö  roir  nun 
+^infuroifelb  ainen  pfarrer  erHefen  unb  erroollen'' /  bcr  nnö  tai  gotlid)  all= 
+med)tig  lebeubig  roort  unb  baillig  eroangelion  roel^e^  i|T  ain  fpeif;  uu= 
+ferer  feil  /  rain  lauter  unb  dar  nad)  redeten  rerflanb  i^erfinb  unbprebige 
+on  allem  menfd>en  ,^ufat5  /  ler  unb  gebot.  Den  ifelben  pfarrer  rool  roir 
+aud^  mit  jt)mlid>er-'  aufent^altnng  "^  feiner  leibenarung  üerfed)eu.  -loa  ftd) 
+aber  ain  lollidicr  pfar  ungeburlid)  rourbe  galten  /  Hi  roir  alöban  im  roiber 
+Urlaub  geben  "  mugen  unb  ainen  anbercn  ain  fein  jTat  wollen '".  Da?  alroeg 
+mit  roißen  ainer  ganzen  gemainb.  Dan  roir  i)e  unuerfimben  bci^  gotlid)en 
+tportö^''  nit  feiig  roerben  mugen  /  roie  ber  bailig  '•))arolU'i^  uur  anzeigt  etc. 
+
+
+I  der  dörfer:  Woringen  Dickenreishausen,  Hitzenhofen,  Hart,  Bux- 
+heim,  Steinheim,  Berg,  Ungerhausen,  Holzgüiiz,  Lauben,  Frickenhausen, 
+Ariesried,  Dankeisried,  Bertzanhusen  (?),  Daxberg,  Erkheim,  Gottenau, 
+Bronnen,  Amendingen,  Wesbach,  Boos,  Unterrieden,  Bloß,  Buxach,  Volk- 
+ratshofen,  Priemen,  Westerhart,  vgl.  das  schreiben  der  bauem  an  den  rat 
+vom  24.  Februar  1525,  Baumann  Akten  s.  i  igf.  2  so  die  kopie.  des  guten  (?) 
+3  nachdem,  'nachdem  und'  =  da,  weil.  vgl.  J.  Grimm  Wörterbuch 
+sub  voce  4  24.  Februar  5  euer  ersam  Weisheit  6  rechtschaffen, 
+wacker,  brauchbar,  vorzüglich  7  zusammenfassen  8  lies  erv^'öllen  = 
+erwählen  9  angemessen  10  unterhalt  11  urlaub  geben  =  entlassen 
+12  wählen      13  ohne  kenntnis   des   göttlichen  wertes 
+
+Böhmer,  Bauernkrieg.  2 
+
+
+l8  DIE    lo  MEMMINGER  ARTIKEL 
+
+3um  aii^evn  /  naditem  mmt  rotv  bi^^ev  trungenliclV  gcbalteti  lüovben 
+fft)cii  /  bell  ^f^enbcn  ^ii  geben  /  ^aben  roiv  bafiiv  /  \m  follen  hinfiiv  bfniin  * 
+^e^cnbeii  niev  ,^ii  geben  i'dnUbig  fein  /  bteweil  nnf;  boj  (wilig  new  teifament 
+nit  bai-ju  uerbinbt ''.  *ilud)  rooUen  wir  bem  ■*  pfarvev  mit  leiblid^ev  Jiotbnvft 
+uevfel^en. 
+
+A-mi'  biit  fi)  i|T  biel^ev  iin  bvand^  gel)alten  werben  '  ba?  lüiv  fuv  eroer 
+nigen  /  avm  [ent  gehalten  worben  fei)en.  üßeld^ee  ^u  cvbannen  ifl  /  an- 
+gefeljen  /  baß  nnf^  Sriflne  aU  mit  feinem  teuren  bint  evlofet  nnb  evfauft 
+i)<[t  I  ben  bivten  gleid)  fo  wol  al^^  ben  faifer.  Dar  wir  aber  barnmb 
+bbain  oberFait  fjaben  woHen  /  ifl  nnfer  mainung  nit  /  fonbcr  wir  lüoUen 
+aUer  obertait  /  oon  0)pt  georbnet  /  in  allen  ^nmlid^en  nnb  gebi'irlid^en 
+fad^en  gern  gcborfam  fein;  feien  and^  nnjwcifel"  /  ir  werben  nne  bev 
+aigcnfdwft  a(6  criiTenlid)  \)cxxt\\  gern  entlalTen  etc. 
+
+V'lm  vierten  i|T  nn^l)cr^  im  brand)  geroefen  /  bae  ain  armer  mann 
+nit  madit  gehabt  f)at  /  \)<ni  gcwilb'  j^n  fad^en  ober  fdneßen;  benelben 
+gteid^en  mit  ben  ftfd>en  in  flief'fnb  waiTeni  i)T  nne  aud^  nit  ^ngelaftcn 
+worben.  üßeUbc*^  nn^  ganh  nnbiUid>  bebnncft  nnb  bem  wert  ©ottce  nit 
+gemeH  fein.  2Bann  alc^  C^ot  ber  f)er  ben  menfd>en  erfd>afrcn  /  bat  er  im  gewalt 
+geben  nber  ben  nfdi  im  waiTer  /  bem^  fogel  im  Inft  unb  nber  alle  tier  auf 
+erben  tU.  J?ie  tft  nnfer  begern  nit  /  wo  ainer  ain  xoa^tx  bete  /  fo  er» 
+fanft  wer  /  nnb  Xi<xi  unwifjen  *  /  \i<^  muefle  man  ain  cri|Tenlid>  einfeben 
+baben  /  i'^on  wegen  brieber(id>er  liebe  etc. 
+
+3nm  fünften  i|T  nnfer  biemuetig  bit  nnb  begcr  ,  nad^bem  nnb  wir 
+nn^bcf  liing  bivt  befdMoert  werben  fet)n  ber  bieniT  balben  ,  welbe  ihmi  t<k% 
+^u  rag  fid^  gemert  nnb  .^ngenomen  baben  /  begercn  ba^  ain  gnebig  ein: 
+febcn  bifvi)nn  gebrandn  werbe  /  wie  bic  eitern  gebient  baben  allein  nacb 
+laut  Ui  wort  ©ote^  tti.'\ 
+
+^\\\w  fed>|Ten  begern  wir  /  lui  wir  binniro  nit  mcr  mit  erfd>aR"'  alfo 
+befdnuert  werben  fonbern  wie  ainem  ain  gut  gelid>en  werb  umb  ain 
+^nmlid^en  gult"  /  bae^  er  al-^ban  mit  fambt  feinen  nad>fomen  foUid>  gut 
+weiter  nnbefctwert  brand^en  nuigen  etc. 
+
+3um  fibenben  finb  etlidie  borffer  befd>wert  be>^  groiTen  fi-affel(?'-'  l)al= 
+ben;  begern  /  bac^  man  fn  bleiben  laiTe  bei  altem  berfomen  etc. 
+
+3nm  ad>tenben  i|t  nnfer  biemntig  bit  nnb  beger:  nad>bem  unb  etlid)e 
+borfev  ain  \cit  ^er  befdnt» ert  werben  finb  an  bolR  /  acfcr  /  mebem  '^  unb 
+
+
+1  gezwungener  maßen  2  kein  3  rechtlich  verjiflichtet  4  so! 
+5  ohne  zweifei  =  zweifeln  nicht  6  bisher  7  wildpret  8  lies:  das 
+im  wissen,  vgl.  oben  s.  8  n.  4 ;  sinn:  so  von  ihm  mit  wissen  der  ge- 
+meinde erkauft  wäre  9  der  text  wird  erst  verständlich  durch  vergleich 
+mit  an.  6  der  bauern  10  =  die  abgäbe,  welche  bei  aenderung  des  lehen- 
+iiiannes  oder  lehnsherm  von  einem  gute  entrichtet  werden  muß ,  vgl. 
+Baumann,  Die  12  Artikel  s.  116  11  =  zins  12  siehe  oben  s.  9  n.  il 
+13  mähder  =  wiesen 
+
+
+DIE    lo  MEMMINGER   ARTIKEL 
+
+
+19 
+
+
+anber  iicveittigFaitfii  ,  fo  atner  (icmeint  por  Renten  ^ugehorici  qcroefen  / 
+ta?  unj  ticfelbcn  mtn  etnJ)ciibiii  (ifttii'rt>t  werten  tu. 
+
+3iim  neunten  i\i  nni'er  uleimci  bit  /  n?an  wir  einen  lel^enhern  fein 
+c^nlt  nd)tcn  '  ba^  wir  iiljtan  nüt  unferer  hab  nuigen  unfern  frumen  • 
+fd^affen  nub  tiefelben  uerfawfen  wa  es  nn?  nut>  unb  gelegen  \]1  /  un^ 
+»er^inbert  be?  lel}enf)erren "  etc.  '2ßa  fact>  wäre  ba?  @Dt  ber  almechtig 
+über  unö  oerftengtc  /  tai  «in  miHgewecbö  ferne  ober  ber  fmgel  fdUtege  / 
+ia^  alitan  ber  lecf)en^er  ain  nad)laj;  ber  gult^  '  bie  wad)  geiTatt  ber 
+facb  etc. 
+
+3nm  jebenben  tiT  nnfer  unbertanigiit  bit  unb  begehr:  nad^bem  unb 
+unfer'  et(id>er  gieter  fo  l)od>  befdnvert  finb  /  ba?  wir  aim  tail"  nit  wol 
+tubd  bleiben  mngen  /  begern  auf  biemutigi|T  /  bci«i  ain  ringerung '  bierinn 
+gebroud^r  unb  furgenomen  werbe  etc. 
+
+3nm  befluf;  ift  nnfer  entlid>e  mainung  unb  wil  '  wa  wir  einen  ober 
+nur  articel  a(bie  geiTelt  "l^etten  /  fo  bem  wort  @otte^  nit  gmef;  weren  ' 
+ül6  wir  ban  nit  oermainen  /  bie  fclben  articel  falten  nn»  nid^t  gelten, 
+©ergleid^en  '  wn  m\6  fd^on  articel  ^ugelaßen  worben"  unb  fid>  nadwal^ 
+burd>  bae  wort  @otj  dar  befunben''  unred>r  fein  wolten  wir  ba*  gar 
+nit  haben.  Jöerwiber  /  Wd  wir  ain  ober  mer  articel  nad>mal^  befunben  / 
+fo  beni  wort  @otte^  entgegen  unb  ynviber  weren  /  i|T  nnfer  beger  /  bie-- 
+felbigen  al^eit  ainem  erfamen  rat  fur^ubalten  unb  anjnjaigen.  Dann  biefe 
+l^anblung  i|l  gleid>  fo  wol  für  eud>  /  unfere  guniTigen  led^enheren  /  als 
+für  im^.  2)an  je"  (Jrifhi^  faget":  'wer  nun  aine  von  bifen  flainiTen  ge= 
+botten  anflofet  unb  leret  bie  leut  alfo  /  ber  wirt  ber  claineiT  im  bimelridV 
+etc.  Üßir  feien  aber  unge;;weifelter  boffnuug  ^u  eud^  al?  unfern  criiTen^ 
+lid)en  obeni  e.  e.  w. '■  werbe  un-^  mer  unb  criiTenlid^er  hierin  bebencfen  / 
+ban  wir  fnrhalten  inib  cr^elen  mugen.  .'>>iemit  wol''  wir  une  eud^  in 
+gnaben  befolhen  baben.  ©rbiettcn  nn?  aller  unbertenigfeit  gegen  e.  e.  w. 
+ju  erjaigen  etc. 
+
+^crnad)  folgt  ainci?  erfamen  ratö  ^^u  'ElDtemmingen  ant  = 
+wurt  auf  feiner  unbertM"?"  ^fv  pawrn  '  articfet  irer  be  = 
+fd>werungen.    [Iöl'ö  iOTar^  15. | 
+
+3n  9lrt.  1.  Qluf  ben  eriTen  artirfel  will  ain  3tat  feinen  nntertl)Dnen 
+MÜ  ben  pfarren  tit  im  ^ugef)prn  /  cri)Tenlid>  felforger  /  wo  fie  baran 
+mangel  f)etten  fo  erfl  er  bie  befomen  mag  fd^atfen  unb  oer^elfcu  fo 
+fie  and>  baran  benugig  fein'^  wollen.  Qiber  mit  Üöorringcn '*  unb  anberen 
+•'l^farren  /  tie  aim  rat  nit  j^u  perleid^en  iujieen  ,  will  ain  rat  oon  wegen 
+
+
+I  in  der  oberschwäbischen  mundart  ursprünglich  =  >-ieh,  hier  =  pacht 
+entricliten;  vgl.  Baumann  s.  216  n.  i  2  nutzen,  gewinn,  vorteil  3  ohne 
+daß  der  lehnshen  es  hindert  4  ergänze  =  gewähre  5  genitiv  6  zum 
+teil  7  Verringerung  8  'werden'  hs.  9  'befunde'  hs.  10  irgend  ein- 
+mal II  Matth.  5,  19  12  s.  17  n.  5  13  wollen  14  sich  begnügen 
+15  dorf  bei  Memmingen,  vgl.  s.  17  n.   i 
+
+2* 
+
+
+2ü  DIE    lo  MEMMINGER  ARTIKEL 
+
+fftner  unberti^Diien  mit  bcnfelben  pfiUTcn  um  bei)  inen  nianc^el  ift  cjeren 
+enijllid)  reben  nad^malö  am  fied)  ciji  punver  nut  taven  feien  rooUt  / 
+bem  led)cn^en-en  '  bavnmb  jnfd)ieiben  /  feinen  nnbevtonen  ainen  anbern 
+pfavrer  ^ü  geben  ober  feinen  unbeitboncn  j\u  vergönnen  /  felb^  ainen  ;;u 
+evrocfen  etc. 
+
+Bu  QIrt.  2.  ^^(uf  ben  'anberen  avtirfel  ben  ^ed^enben  betveffenb  / 
+fief)t  meine  ^evien  fuv  gut  an  Mi-  bie  paun•fd^aft  unb|  unbeitf)oncii 
+alfo  mit  bem  avticfel  /  ben  ,:\ed)enben  belangenb  \li\i  ftanben  fo  fang 
+bif!  bie  gemainen  pamifdmft  aUentf)aIben  bei)  gemainen  ffenben  bejbunb^* 
+vertragen  nierben.  SBafj  bann  bie  pann-fdmft  bei)  ben  anbevn  iven  ^fnren 
+erlangen  /  VüoUen    ftc  iven  nnbertbonen  batlelb  and)  niipev^igen  '  geben. 
+
+3u  9irt.  3  9Inf  ben  tvitttn  avticfel  /  bie  (eibaigenfdmft  betveffent  / 
+miemol  meine  ^evven  biefelben  alfo  nmb  ain  mevflid>  fomma  gelte  fr= 
+fauft  ^aben  /  nnb  bie  leibaigenfdiaft  ainen  cviilcnman  an  bev  fei  feligfait 
+nitt  l)inbevt  /  nod)  bann'  bamit  bie  unbevt^cnen  aine  vatC'  genaigten 
+unllen  fed)en  unb  evfcnnen  mugen  /  fc  moUenb  fie  ive  iinrcvtcnen  follid^er 
+leibaigenfd)aft  /  fo  ftl  bev  aim  xnt  ^ngebovig  unb  Ipermanb  fein  /  evlanen  unb 
+lebig  jelen  /  bod)  ba^  ftc  meinen  berven  javlid)  bagegen  ain  ^imlid>  fd)ivmgelt 
+geben  unb  fonft  tainen  anbeven  fd>ivm  /  bieroeil  fie  in  ain^  vat?'  ^ming  unb 
+penn''  fein  /  anmemen  unb  fainen  /  bev  nitt  fvei)  fei)  /  ^u  inen  yed^en 
+laßen;  befigleid)en  /  tai  feine  unbevt^anen  '  man:  unb  fvamenpevfpnen 
+ju  fainem  aigen  /  fonbev  fvei)en  leiiten  fied^  pcrbenraten  unb  ftnift  ainem 
+rat  ale  iv  obevfait  in  allen  ;\imlid^en  bingen  ale  fleuevn  raifeu'^  >inb 
+bcvgleid)en  /  botten  nnb  pevbotten  gebovfam  fei)en ;  unb  fo  ainev  /  tat'  ev 
+fd)ulbig  ifl  /  ^alt  /  mag  ev  bann  nnvcrhnibevt  aiiie  vate  i^ied'en  ,  xoa  er 
+will. 
+
+3u  ^Jlrt.  4.  3um  inerten  reellen  meine  bevren  gern  zugeben  ba^ 
+ire  unbertl^onen  /  foferr  aine  ratc^  fpvjl  nnb  obevfeit  geet  unb  nitt 
+weiter  /  M^  gemilb  unb  gefugei  ^nr  ncttnvfr  nnb  infpnbev  ma  \i(  ta^ 
+in  unb  auf  bem  ireu  betretteu  wpl  fa^eii  unb  fd^ief;en  feilen  nnb  mugen  ' 
+aber  bavju  ben  vedUen  maibivcvcfge^eug  nnb  iTvicf  nirt  gepiand>en  fcnber 
+baffelbig  bev  l)evvfd>aft  allain  yifleen  unb  gebuvu  nnb  wann  bie  unbev= 
+t^onen  alfo  bem  gewilb  nad)geen  unb  ta^  fd>ief5en  ober  taben  wollen  ,  fo 
+folleu  fie  fuv  fied^  febeii  bavniit  \ic  niemanb^  bavbnrd^  an  in  nnb  uft  bem 
+feineu  fain  fd)abcn  .^nfiegen. 
+
+1)ex  fveDeii  waiTcv  b^^l^fv  it't  'li»^  vate  will  /  baf;  favobiu  in  einem 
+fließenben  ober  flillftenben  wafjer  baif  evfanft  iil  /  niemanbf'  eifd^en  feil. 
+2Bellid)e  wafiev  aber  fovmal?  fi-ei)  nnb  gemaiii  gewc)f  fci)en  feilen  ned> 
+frei)  fein  /  nnb  jebevmann  mit  bem  beren '  aber  fou|T  fainem  anbern  ge= 
+jeiig  /  ttud)  nitt  mer  pifd)  auf  ein  mal  ;  bann  ainer  in  feinem  haw  ffibe 
+
+1  dem  pation  2  der  schwäbische  bund  3  eigentlich :  unversiigt, 
+hier:  reichlich  4  dennoch  5  bann  6  kriegszüge  7  'kleines,  sack- 
+förmiges,   an.  einem    stiele    befestigtes   netz' 
+
+
+\ 
+
+
+DIE    lo  MEMMINGER   ARTIKEL  21 
+
+
+ciTm  mit  pvaud>en  iiiaci;  imb  tie  ubeviflcu  iiirt  uevfd^cncfcn  iiod^  uevfciufffii  / 
+^\i  fifd)eii  unb  ^u  fad^eii  fvlaiibct  fein  tamit  tit  watlev  unb  (pumpen' 
+nitr  nfd>cpft  ober  gefd^^ücllt  aud^  fcic  mofev-  iiub  (^dlcbev '  lu'tr  uevtevbt 
+Dbfv  alnjfcjvaben  obcv  bem  gcmaiiien  man  pvoilen  fduibcn  tabiird^  ^ugemogt 
+
+3u  51  vt.  .1.  3nin  fnnften  bev  ticnft  6iilt'  fonbcn  ftcd>  ain^  vatö 
+nntevr()pucn  bet  mevtail  nitt  fonbev  befd^iücni  /  bann  inen  biefelben  bienft  / 
+ee  fte  iiin  rat  cvfanft  hat  von  anbevn  hevren  anfgele^f  njorbcn.  Davnmb 
+bebuifen  fie  tiefen  artirfel  nitt  fepeii  M  ob  ain  rat  \ie  «Ifo  [>efd^roert 
+^at.  5^id^t  beftp  wieniiiev  wa  feine  unbevt^onen  ettwaf;  yi  hart  anliegen 
+hatten  nnb  ainem  rat  infonberhait  an^aigten  nnb  tie  beilanbbvief^  and> 
+gehint  werben  /  luit  er  fied)  baranf  gegen  inen  and>  gntigflid^  er^iigf"- 
+
+8n  'Hvt.  fi.  onm  fed)|Ten  /  bie  Drfd>eh  betreffenb  rooKenb  meine 
+herren  hinnirp  fainen  mer  «emen  /  aber  bargegen  fainen  hof  nitt 
+lenger  '  bann  ein  jar  uerleid^en.  9(lfo  mann  ainer  fein  gnlt  nitt  geben 
+ober  Dtn  hof  nitt  berolidv'"  halten  mnrb  /  ba«*  er  bann  benfelben  mann 
+e^  im  gefeUt  '  nber  ain  jar  mtber  uerloben**  nnb  ainem  anbern  uer= 
+leid^en '.  20pUid>er  aber  ben  alten  orfdMR  nitt  geben  /  ber  mag  fein  hof 
+and)  |arlid>  empfad^en  pon  nemem  /  mie  ber  jeßtgemelt  articfcl  uermag. 
+
+3n  5(rt.  7,  Der  frefel  l^alber  in  hPlffni  i(l  meiner  hffi'en  miU  / 
+bas?  i)ie  bnef?  nnb  (h'af  in  ben  banholfter  nnb  ber  gemainben  hi-^lRf^  ölfirf) 
+gehalten  nnb  bie  fh\if  jebe6  ffucfe  anf  ain  gnlbiii  gefeht  merb.  Da^u 
+toill  ain  rat  jeber  ^eit  feinen  unberthonen  ju  irer  npttnrft  ^imlidi  brenn=, 
+jcnn:  unb  ^imerhplfi  geben  nnb  perfd>affen.  T^ann  ber  anbern  frefel  halber 
+ad^ten  meine  hftven  ta^  e^  billid^  bep  jeßt  anfgefefiten  frafeten  ,  tit  swm 
+tail  auf  irer  unberthonen  felbi?  begern  nnb  anrufen  gemad^t  fein  unb  umb 
+mer  fi'iebeu  millen  babet)  bleib  unb  enberung  uermiten  merb. 
+
+3u  -^Irt.  8.  2Beiter  ma  t>ii  gemainben  an  hPlR  mpber  acfer  ober 
+anberen  befdnuert  maren  fp  mngen  bie  nnberthpnen  baffelb  aim  rat  in= 
+fonberhait  andi  an^ngen  fo  miert  ein  rat  ettlid>  rat^frcnnb  mf  ben  angen= 
+fdiein  oerorbnen  unb  mn-hin  erfarung  h'^^f»  /  wa  ainer  gemainb  ettmaf? 
+entzogen  /  ob  ir  nitt  etmae  anber^  bargegen  an  bie  iTatt  gegeben  worbcn 
+fei)  /  nnb  nad^bem  ain  rat  baj  ftnbt  /  fied>  /  mcfj  er  fd)ulbig  ju  t^on  ijT  / 
+halten. 
+
+3u  5(rt.  5».  5(uf  ben  neunten  artifel  fan  ain  rat  nitt  mif;en  bai 
+er  fein  unberthonen  /  ma  fte  iie  gnlt  beeilt  ba(<  ir  ^u  oerfaufeit  gefperrt 
+hab;  roa  ober  iine  e^  e^  aber  befd^ehen  tuer  ;  mttgen  lamter  oeriTanbig 
+anvitgeit  miert  fied^  ain  rat  ber  pillid^feit  bariitn  halten,  ^p  attd^  ber 
+hagel  fd^lieg  ,  fo  miU  ain  rat  itadi  beftd)tignttg  bee  fd>abene  ain  ai|Tenlid} 
+nad)l<i6en  an  ber  gnlt  ^tt  thnn  perfd^affen. 
+
+I  tiefe  stelle  in  einem  wasser,  wasserwirbel  2  =  mäder,  wiesen 
+3  gestade  4  die  pachturkunden ;  bestand  =  pacht  5  in  gutem  anbau 
+6    verpachten     7  ergänze :  'mag' 
+
+
+22  DIE    10  MEMMINGER  ARTIKEL 
+
+3«  9(rt.  10.    3um  j^ed^eiibcii      wpUid^e  gietcv  i>cinuimeii  tcfd^wfrt 
+fein  /  tic  wiU  am  vat  ;;u  beftdUtiieii  ucrorbncn  imb  /  iiad)beni   cv  riiibt 
+aiii  ^tm(id>  aiiifcd^en  t^on. 
+
+3ii  bem  aUem  bereit  im  aiii  vat  fein  oDcifait  (^cfov  mit  bcm  anhanci ' 
+ob  er  fied)  bariiin  cttmaf;  /  baö  roibev  bae  wort  gottee!  ober  bic  tullidniit 
+mev  ober  eö  foiiiT  ^u  i\>K>\\  iitrr  mad^t  f)ctt     iiadVciclafifii  /  fo  roiK  er  iiue 
+t<xi  ^u  mi)iiteni  /  mcni  ober  c^an^  ab^iitboii  vorbehalten  ()aben  /  inmaf;en 
+nnb  roic  fein  nnbertfionen  in  iro  artirfel  aud^  K\iert  (laben. 
+
+2.  Die  Bundesordnung. 
+
+J>"'»anl)Innci    nnb    artirfel    '    fo    förgenomen 
+
+roorben  anf  aftermontag  nad^  3ni''0caiMt-  ron 
+
+aUen  retten  ber  henffen''^  /   fo  fid^  uu'amcn 
+
+oerpflidn   haben  in  bem  namen  bor  heiligen 
+
+unterteilten  breieinigfeit. 
+
+3)em  almed^tigen   ewigen  @ot  \\\  loh  nnb   eher  unb   ernfnng '  bee 
+
+heiligen  erangelii  nnb  gotlidn^  roort^  /  and>   \\\  heiilanb  ber  gered>tigfeif 
+
+nnb  g6tlid^l^   red^ten   i|l   ber   du-iiTenlid^en  oereinignng  nnb  pinitnin';  an= 
+
+gefangen  /  nnb  niemann     er  \n  gei|Tlid>  ober  u>eltlid^       ^n  oerbrne   nnb 
+
+nad^feit  /  fo  oil  bac^   eoangelinm  unb  ginlid^  redn  inhalt  nnb  anzeigt  , 
+
+nnb  infonberheit  \\\  mernng  hrüberlid^r  liehe. 
+
+\.  ©r|Tlidi  erpent  \\A)  ein  erfame  lantfd>aft  biefer  dn-i|lenlid^en  oer= 
+einignng  wa6  man  geiftlid^er  ober  n)eltlid>er  oherteit  oon  gotlid^em  redeten 
+ju  thnn  fd>ntbig  /  bem  felhen  in  feinen  weg  wiberwertig  fein  fonber  ge= 
+l^orfamlidi  hi^tten. 
+
+2.  3tem  ej  iit  einer  erfamen  lantfdwft  wil  nnb  meinnng  ba^  ein 
+gemeiner  lanfrrib  gehalten  nnb  niemann  bem  anbern  wiber  redu  thne.  Ch 
+fid)  aber  begeben  mnrbe  /  bac'  iemantö  mit  bem  anbern  \\\  flieg  nnb  aniH-nr 
+bewegt  fo  foU  fid)  niemante  rotten  ober  parteieu  in  feinen  weg 
+nnb  fol  bie  ned^T  perfoii  /  in  \\i\ni  ffante  \\t  fei  /  mad>t  haben  fiib  }^\\ 
+mad>en  unb  \\\  pieten^  T'er  fol  oon  flnnb  an  bei  bem  erften  fribpieten 
+ober  rieffen  gehalten  werben  /  nnb  weld>er  foUid>  fritpieten  nit  hielten 
+rourbe     ber  fol  nad>  feiner  oerfdnilbnng  gei'h-aft  werben. 
+
+3.  3tem  wai^  befantlid^er  fdnilt  ober  barnmb  man  briet  unb  figel 
+ober  glebwirbig  urbar''  hat  /  fc  oerfallen  feinb  follcu  beeilt  werben.  Cb 
+aber  iemanti^  ein  einret  ^u  haben  oermeint  fol  im  bat?  red>t  vorbehalten 
+fein  ,'  bod)  ieberman  o\\\  fein  coffen  nnb  gemeiner  lantfd>aft  biefer  d>ri|Ten= 
+lid^er  oereinnng  h'^lber  nnbegriffen.  Unb  angenb'  fdnilben  al(<  ^ehenb  nnb 
+imb  anber  rent  unb  gnlt  ,  follen  flil  flen  V\i!  \\\  anf;rrag  bei?  h'i'il'fl^- 
+
+1  Zusatz  2  7.  März  3  'von  allen  huffen  (häufen)  und  reten'  (rotten) 
+A.  'häufen  und  ruten'  A  4  so  F  :^  erhöhung  'anriffung'  M  'erhöhung'  A 
+5  =  gebieten     6  =  glaubwürdige  zinsregister     7  =  was  schulden  angeht 
+
+
+DIE  BUNDESORDNUNG 
+
+
+2?i 
+
+
+4.  3ti'ni  fo  fitlPtlcv  unutcii  Kiit  tieficv  laiitavt '  uit'^  o^iko^tw  imb  iiit 
+in  tiefcv  dn•i(Te^[td^cl•  ucvctiuciimg  uevpmitcn  foUen  bteffibeu  itihatcr  ber 
+fdUoiTei-  mit  frcmiflid^cv  crmammci  evfud>t  weiten  /  biu^  fte  im  •'  fd^to^  iiit 
+roeirei-  im  mit  profant^  v'  \imlid>cv  iiottm-ft  perfefieu  imi>  biefelben 
+fd>le|Tev  weiter  mit  (lefdn'ifi  iiod^  i>cvfpneii  bic  nidM  in  tif;e  ucreinuncj 
+get^on  befehen.  C^  i'ie  abev  weiter  /  ban  t>iill)er  l'efd>eben  befct?en  / 
+tae  foUen  i'te  t^nn  mit  leuten  bießer  oereinnnci  oerpnnben  nnb  zugehörig  / 
+tinf  ihren  coflen  m\l  fdmben.    T^er!ii[eid>en  tic  cl6|Ter. 
+
+5,  3tem  wo  bienflleiit  weren  /  Die  furjTcn  nnt»  ^eren  fcienen  bie 
+follen  iren  eib  anfgcben  .unb  fagen '"  /  nnb  fo  \k  bai^  tf)un  follen  fie  in 
+bieße  fereinnng  angenomen®  werben,  üOeld^erö  aber  nit  tf^Pii  wil  ber 
+fol  weib  nnb  Hnt  ^u  im  nemcn  iinb  ein  lantfdmft  nnbetrupt  lallen,  "il'c 
+aber  ein  ber  ein  amptman  '  Pber  anbern  /  fo  in  bifer  lUTpiiitnifj  i|T  /  er: 
+vorberte";  fp  fol  berfelb  nit  allein  ünibcr  ^wen  ober  brei  mit  im  ncmen 
+nnb  bpven  laiJen  /  x\>(^i  mit  im  gebanbclt  werbe. 
+
+H.  3tfm^  »Vü  Pfarrer  ober  lUiari  fein  foUen  \\e  freuntlid^  erfud^t  nnb 
+gebetten  werben  ,  bac-  beilig  epangelinm  ^u  perfnnben  nnb  ,yi  prebigen. 
+Unb  weld^e  baij  tbnn  wollen  /  ben  fol  biefclb  pfar  ein  gepiirlid^e  nnber= 
+battnng  geben,  "löeld^e  aber  folid^^  nid^t  tbnn  wollen  '  bie  follen  genrlopt 
+werben  nnb  bie'°  pfar  mit  einem  anbern  oerfebn  werben". 
+
+T.  3tfni  ob  fid>  iemante  mit  feiner  oberfeit  in  ein  oertrag  einladen 
+weit  /  fp  fol  er  on  oorwifjcn  nnb  oerwillignng  gemeiner  lantfd^aft  biefier  '- 
+pereinnng  nit  bcfdMienen.  Unb  '^i'  mit  oerwillignng  bemelter  lanbfdnift 
+bei^  befd>lPiTen  wnrbe  /  nid>tj  beiler  weniger  fpllen  biefelben  m  ewiger 
+oerpnntnnf;  nnb  d)rifTlidHT  oereinnng  fid)  oerwilligen  nnb  barin  beleiben. 
+
+
+I  =  landschaft,  vgl.  Grimm  sub  voce  2  druckfehler ;  zu  streichen 
+3  lies  'ir'  4  proviant.  5  'iren  eid  ufsagen'  ¥A  6  =  aufgenommen 
+7  accusativ:  einen  amtmann  8  =  vorladen  9  F  liest:  'Item  wo  pfarrer 
+Averent  /  dan  der  vicarien  Avellen  wir  gar  nit  /  sollen  fnmtlicb  ersucht  und 
+gepetten  werden  das  heiig  ewangelium  furhin  zu  verkünden  und  iren  irsal 
+bekennen  und  abstellen'  A :  'Item  wo  pfarrer  oder  viairien  wörend  oder 
+seint  /  sollend  frundtiich  ersucht  werden  und  gebeten'  etc.  10  'und  die 
+pfarr  durch  die  wal  der  pfargnosen  mit  einem  andern  versehen'  F  1 1  In 
+F  und  A  steht  als  artikel  7  resp.  3  noch  folgende  bcstimmung:  'Uf  das 
+auch  aller  zank  und  hader  ('krieg'  A)  in  geistlichen  Sachen  abgeleint  werde  und 
+nit  (fehlt  A)  einer  den  andern  uf  der  kantzel  für  ein  ketzer  wie  bißher 
+usschnie  und  schelte  /  sol  allein  /  wie  abgemelt  /  das  gütlich  wort  on 
+allen  menschlichen  zusacz  gepredigt  werden.  Wo  sich  aber  je  solcher 
+span  (=  zwist)  begebe  /  soUent  die  priester  der  selben  lantschaft  oder 
+flecken  mit  iren  biblicn  zusamen  beruft  werden  ('flecken  sollen  zu- 
+samen  kumen  in  ein  offenlich  gesprcch'  A)  und  die  handlung  nach 
+Inhalt  der  heiligen  geschrift  ('bibel'  A)  und  nit  nach  menschlichem  be- 
+dunken  ('oder  ratschlag'  A)  entscheiden  und  endlich  (fehlt  A)  usge- 
+sprochen  werden  /  in  bywesen  gemeiner  kriegsgenossen  derselben  enden 
+(ußgesprochen  werden  und  solle  die  parthei  so  underlegen  kost  und 
+expenß  tragen'  A)      12  so  F,  A. 
+
+
+24  DIE  BUNDESORDNUNG 
+
+8.  jtem  ff  füllen  von  icbcni  baiifFen  tiefier  poveimiiui  ein  pbcvilen 
+imfc  Pier  rct  gcovtfiit  unl)  gefönt  iverten;  Me  feilen  pewiilt  fiaben  mir 
+fartipt  «ntevn  ol'evften  luib  retten  ^u  5*>"t'len  /  rote  fid>  geln'irt  ^amit 
+bie  gemeinb  nict)t  ahuegen  v'f'imf'  nu'iiTe. 
+
+9.  3tfm  e^  follen  fein  vanlMiic'  guter  fc  tifen  mitrerroanten  ent= 
+wert-  /  nn^erhalten^  unb  paffiert.^  merken. 
+
+10.  3tem  n>eld>c.  f^antrocrFelent  irer  arl^eit  nad^  onf;  ttm  Uuib  ^ied^en 
+TOPlten  ;  ber  fol  feinem  vu^rhanptman  anloben  iid)  unber  biefe  d^riftlid^e 
+uereinnng  nit  beiTeUen  laffen  fpuber  idp  er  horte  nnb  uernem  ba?  bief;er 
+Uintfdmft  lüiberroertigr^  ^uffeen  njolte  /  follid^?  bief;er  uereinnng  ^i  wiffen  tbun 
+unb  fo  ei  vm  netten  rourbe  von  ilnnb  an  feinem  ratterlanb  yi^ied^en 
+unb  belffen  ju  retten.    ®ef!gleid>en  follen  bie  friegnleut  and>  eerbunben  fein. 
+
+11.  Q6  follen  gerid>t  unb  red^t     wie  ror  befd^ehen     furgang  baben. 
+
+12.  3tem''  uu^imlid>e  fpiel  /  gonleiTern  unb  yitrinefen  iil  penunren. 
+21?er  ba«  nit  bflt     fol  nad^  feiner  perfd^ulbung  geilraft  werben. 
+
+jnernad>''  fein  beiTimpt  tit  boctorei^  /  \o  anzeigt 
+
+fein  ;\n  aui^fpred>ung  bd  götlid^en  redeten. 
+
+Doctor  ^artinn^  ^ufbev 
+
+^l^b'lipii'^  ?}(elanctbon 
+
+5)octor  jcüob  Ztvani  jn  ^)f5lenben ' 
+
+Cfmnber  \u  0?eurmbcrg' 
+
+3?ibliianu:^  yi  Vierlingen" 
+
+■^Katbeui?  Seiler  nnb  feine  gefelien  jn  ^trafibnrg'" 
+
+(lonrabue  prebicant  ju  Ulm" 
+
+^Vebicant  i\i  Sy\[i  '-' 
+
+'l^rebicant  bei  ben  parfußern  jn  ^Ingepnrg '" 
+
+^l-^rebicant  ^u  ^}{ieblingen*^ 
+
+^IVebicant  ^u  ^inbam  im  clofler'* 
+
+lllrid^  Bannglin  unb  feine  gefelien  ^u  Biird^ 
+
+"X^rebicant  ^u  ."Kentlingeu  '^ 
+
+T^er  ^Vebicant  jn  .Kempten  auf  bem  berg'". 
+
+
+I  =  geraubt  2  =  weggenommen  3  'und  erhalten,  behuset  noch 
+bassiert  werden'  F  4  :^  passieren  lassen  5  vgl.  Algäuer  artikel 
+vom  24.  Februar  6  diese  liste  ist  erst  am  17./18.  März  aufgestellt 
+worden  vgl.  Radlkofer  s.  309  7  Jakob  Strauß  aus  Basel,  damals 
+Pfarrer  zu  Eisenach,  nicht  Eisleben,  wie  hier  angenommen  wird, 
+vgl.  über  ihn  Realencyklopädie  *  19  s.  92ff  8  Oslander  von  Nürnberg 
+9  Billicanus  von  N<")rdlingen  10  Matthäus  Zell,  vgl.  Realenc>'klopädie'' 
+21  s.  650  ff.  Die  gesellen  Zells  waren  Martin  Bucer  und  Woifgang 
+Fabricius  Capito  11  Conrad  Sam  oder  Som,  vgl.  ebd.  17  s.  415  ff. 
+12  Johann  Brentz  13  Michael  Keller,  vgl.  Roth,  Augsburgs  Refor- 
+niationsgeschichte  s.  142  f.,  154  f.  14  Hans  Zwick  zu  Riedlingen,  vgl. 
+Realencykl.  21  s.  768  ff.  15  Sigmund  Rötlin ,  prediger  in  barfüßer- 
+kloster  zu  Lindau,  vgl.  Historisch-politische  Blätter  i8b8  bd.  62  16  Mat- 
+thäus .'Mber     17  ^Iathias  Waibel,  aus  Martinszell,  prediger  von  St.  Lorenz 
+
+
+PREDIGTORDNUNG 
+
+
+^0 
+
+
+3.  Predigtordnung.     1525  etwa  März    12. 
+
+T)ie  d^^|lltd^cn  Jörubcv  Derlfii]  Mate  von  aUen  .Raufen  (^ccrtnct  / 
+gilben  rid>  fiiif)c(liiilid^  ciufd^loiTf"  wo  ^iV'arrev  o^er  ^IHebuiev  waren  in 
+(Statten  '  Alecfen  ottx  T^orfern  l'o  mit  bem  .Raufen  i>eveiniiit  nnb  l»ic= 
+felben  ''Dviefter  Mi  "iOort  (3ottci>  nidu  nad^  bem  redeten  'l?cv|Tanb  >?er= 
+hniben  fonbcrn  auf  ifu'em  alten  üßefen  unb  ^rand)eu  legen'  biefelben 
+■iHavrev  unb  'Diencx  foKeu  uon  eriTeu'  ermaf^nt  werben  /  ab^ufte^en  unb 
+aUein  bai^  'iBort  ©otteö  fnrnefimen  unb  erfunben'  /  aud^  nad>  red^tcm 
+'IVrfTanb  erfUircn.  2Bo  aber  ein  fo!d>er  ^H-iefler  nid^t  ab|Tef)en  fonberu 
+in  feinem  Aurnef)men  bleiben  wollte  /  al^bann  mag  if)m  eine  "Dfarrmenge 
+Urlaub  geben  unb  einen  anbern  an  feiner  (IM  oerorbncn  ber  ibnen  taug= 
+lid>  unb  gefallig  fei.  2pld)e6  i|T  unfer  aller ,'  fo  vereinigt  finb  /  Meinung 
+unb  "üMlle. 
+
+
+IV.    Die    sieben    Artikel    von    Schlatt    am  Randen 
+
+wurden  am  24  Februar  1527  in  einer  Versammlung  ober- 
+deutscher täufer  in  dem  jetzigen  badischen  dorfe  Schlatt, 
+Amtsbezirk  Engen,  angenommen  und  in  gestalt  eines  Send- 
+schreibens =  A  alsbald  von  dem  leiter  derselben,  Michael 
+Sattler,  den  täuferischen  gemeinden  mitgeteilt.  Sie  fanden 
+handschriftlich  sofort  eine  außerordentliche  Verbreitung. 
+'Nemo  ferme  vestrum  est  qui  tarn  bene  conditarum  legum 
+vestrarum  exemplar  descriptum  non  habeat',  behauptet  Zwingli 
+schon  im  Juli  1527,  opp.  ed.  Schuler  et  Schulthess  3 
+p.  387  f.  Doch  schrieb  man,  wie  es  scheint,  meist  nur 
+die  artikel  selbst  ab,  nicht  das  ganze  Sendschreiben,  in 
+dem  sie  Sattler  mitgeteilt  hatte.  In  dieser  gestalt  erhielt 
+sie  wenigstens  Zwingli  im  April  1527  von  Berchtold  Haller 
+als  bekenntnis  der  Berner  täufer  zugesandt.  Da  die  täufer 
+selbst  aus  furcht  vor  dem  urteil  der  gebildeten  und  frommen, 
+wie  er  meinte,  sie  nicht  drucken  ließen,  übersetzte  der  Züricher 
+reformator  diese  rezension  der  artikel  =  B  im  Juli  1527 
+ad  verbum  ins  lateinische  und  gab  sie  mit  einer  ausführlichen 
+Widerlegung  im  August  im  zweiten  teile  seiner  Schrift  'In  cata- 
+bapti.starum  strophas  elenchus'  heraus,  opp.  3  p.  387 — 413. 
+Geraume  zeit  nach  Sattlers  märtyrertod,  21  Mai   1527,  wurde 
+
+
+in  Kempten,    vgl.   über   ihn    Nikolaus    Thoman,    Weißenhomer   Historie, 
+Bibliothek    des    literar.  Vereins   zu  Stuttgart   bd.   129  s.   113;    Fläschütz, 
+Chronik    von    Kempten,    ebd.    s.    377;    Schreiber    des    Truchsessen    ebd. 
+s-  533     Fr.  L.  Baumann,  Gesch.  des  Allgäu.  3  bd.  passim 
+I   =  bestehen     2  zuerst     3  verkündigen 
+
+
+2  6  SIEBEN  ARTIKEL  VON  SCHLATT 
+
+B  auch  ins  französische  übersetzt  und  mit  der  französischen 
+Version  eines  berichtes  über  Sattlers  mart}Tium  an  unbekanntem 
+orte  gedruckt.  Dieser  druck  ist  zur  zeit  verschollen.  Wir  kennen 
+ihn  nur  aus  der  gegenschrift,  die  Calvin  1544  auf  die  bitte 
+de  plusieurs  bons  fideles,  qui  me  l'ont  envoye  de  bien  loing 
+verfaßt  hat  (Brieve  instruction  pour  armer  tous  bons  fideles 
+contre  les  erreurs  de  la  secte  commune  des  Anabaptistes 
+opp.  C.  R.  7  p.  45 — 142).  Calvin  führt  nur  artikel  i,  2, 
+6,  7  'de  cette  belle  Resolution  cornue'  unvollständig  an,  über 
+die  übrigen  geht  er  mit  einigen  kurzen  bemerkungen  hinweg. 
+Er  hielt  die  resolution  für  ein  ganz  geringes  produkt,  p.  54. 
+7g.  65.  Der  entstehungsort  und  der  autor  waren  ihm  un- 
+bekannt, desgleichen  der  familienname  de  je  ne  say  quel 
+Michel,  dessen  martyrium  die  in  dem  livret  auf  die  artikel 
+folgende  historie  schilderte.  Von  alledem  war  mithin  in  dei 
+französischen  version  von  B  nichts  zu  finden.  —  Inzwischen 
+war  A  samt  einem  sendbriefe  Sattlers  an  die  gemeinde 
+Gottes  zu  Horb  am  Neckar  und  einem  berichte  über  Sattlers 
+martyrium  ('die  Artickel  und  handlung,  so  INIichael  Sattler  zu 
+Rotenburg  am  Neckar  mit  seinem  blut  bezeuget  hat'j  in 
+deutscher  spräche  im  drucke  erschienen.  Zwei  dieser  drucke 
+sind  auf  uns  gekommen:  A  i,  vorlianden  in  zwei  exemplaren 
+in  München  Staatsbibliothek,  vgl.  Cornelius,  Geschichte  des 
+Münsterschen  Aufruhrs  2  s.  39  ff.,  ohne  Jahreszahl  und  druckort; 
+A  2,  vorhanden  in  Berlin  kgl.  Bibl.  und  bei  antiquar  Haupt 
+in  Leipzig;  hier  folgt  noch  bl.  DI:  'Von  der  Ehescheidung 
+auß  den  worten  Christi',  ein  kleiner  auch  holländisch  erhaltener 
+traktat  Sattlers,  vgl.  Bibliotheca  Reformatoria  Neerlandica  5 
+(190g)  p.  630 — 633;  am  Schlüsse:  B.  M.  L.  1533.  Dies  'B. 
+M.  L.'  ist  vielleicht  druckfehler  für  B  M  S  =  Michael  Sattler,  der 
+sich  schon  durch  das  zitat  aus  4.  Esra  als  Verfasser  verrät. 
+Mit  Luther  und  Luthers  sermon  vom  ehelichen  stände  W  A 
+IV,  2  p.  287  ff.  hat  der  traktat  gar  nichts  zu  tun.  Nach  einem 
+A  2  sehr  nahestehenden  texte  wurde  A  mit  anderen  Schriften 
+Sattlers  1560  ins  holländische  übersetzt,  vgl.  die  ausgäbe  von 
+S.  Cramer  in  Bibliotheca  Ref.  Neerl.  5  p.  585 — 613.  A  2 
+selbst  druckte  wieder  ab  Walther  Köhler  in  den  Flugschriften 
+aus  den  ersten  Jahren  der  Reformation  bd.  2,  heft  3,  Leipzig 
+1908.  Eine  aus  den  kreisen  der  mährischen  täufer  stammende 
+spätere  abschrift  edierte  verkürzt  Josef  Beck  in :  Geschichts- 
+bücher der  Wiedertäufer  in  Oesterreich-Ungam,  Fontes 
+rerum  Austriacarum  t.  43  (1883),  p.  41  ff.  Ueber  Michael 
+Sattler   vgl.    W.  Kr.hler    und    S.  Cramer    a.    a.    o.      Die    von 
+
+
+SIEBEN  ARTIKEL  VON  SCHLATT  2-] 
+
+J.  Beck  a.  a.  o.  s.  2-]  anm.  erwähnten  episteln  und  send- 
+briefe  Sattlers,  die  in  den  Codices  163.  190.  221  der  Dom- 
+kapitelsbibliothek zu  Preßburg  (Porszony,  Ungarn)  überliefert 
+sind,  sind  noch  nicht  herausgegeben  und  auf  ihre  echtheit 
+untersucht.  Welches  ansehens  die  artikel  sich  erfreuten,  beweist 
+I.  die  oben  erwähnte  angäbe  Zwingiis,  2.  Calvin  a.  a.  o. 
+p.  54 :  sept  articles  ausquelz  tous  Anabaptistes  adherent 
+communement,  p.  56  belle  resolution  cornue,  laquelle  ils 
+tiennent  pour  revelation  descendue  du  ciel.  3.  Sendschreiben 
+der  täuferversammlung  zu  Straßburg  von  1557  an  die 
+niederländischen  brüder,  ed.  A.  Hulshof,  Geschiedenis  van 
+de  Dorpsgezinden  te  Straatsburg  (1905),  p.  226  ff. 
+
+
+^15rütier(ichc  »ei'cpnj.cjung  e^lic^cr  finber  ©ottce" 
+ftben  5lrtjcfc(  betreffend. 
+
+J^rcub  ,  n-icl>  i>nti  [Hn-m()evRiiifeit  mm  i^iifenn  Gatter  biivit  t>tf  oer^ 
+e>)nigun(i  bef;  Mut?  (2(n't(Ti  3ffii  /  mit  M'upt  be»  O^^Ihmi  beß  gei)fte  ,'  ber 
+i^om  oattev  ncfcubt  wivt  aUcii  citaulMiK»  Vt  ffci'rf«  iMib  tvoiT  iMib  l^eitenbiiv 
+fe>)t  in  aller  tniblal  (nf!  au  bae  cnbe  /  '■^Imcii  /  3ei  mit  allen  licM)abevu 
+©Dtte^  iMib  finbern  \)tXs  \\t6>Xi  l  \\it\<X)t  .^erfprei)t '  feint  allentfjalbcn/roo  fi)  t^on 
+ÖDt  iMifevm  iMttev  oenn-bnet  feint  /  mo  fte  Dcrfamlet  feint  epnnuttigltdi  in 
+et)nem  ®Dt  iMib  x^oXUx  inifer  allcv ;  ©enab  muib  ftieb  im  f)erhen  fei)  mit 
+iwA)  allen  /  Linien. 
+
+l'ieben  in  bem  .'öerrn  bruber  »nb  fd^wejlern  /  one  i|T  alreeg  ^um  etilen 
+iMib  nivnenibilen  aniiclecien  euwer  trp(T  iMib  l>evfid^el•nnl^  emueve  c^ewiffen?  / 
+M)elri>^  etwan'  uenuivret  \o<xi  bamit  jv  nit  jmmev  ale  bic  aufUenbigen 
+»on  »nn^  gefnnbevt  würben  unb  fdnev  i>aft^  au^^gefdUoiTen  nad)  [nUig6ei)t^  / 
+fonbev  t^i  jr  end)  luiberumb  menben  m6d)ten  jn  ben  ivarcn  ingepflanpten 
+gliebern  Q.^x\^\  I  bie  in  gerüflet  werben  buvd)  gebnlttgfent  iMib  er= 
+fennung  fein  fe(t>i>^  ,  unb  alfo  wibernmb  mit  »m  uere>)nbart  mürben  in 
+ber  fvafft  einei^  gotlidien  dn-i|llid>en  gei)fti$  inib  eifferc^  nad)  ®pt. 
+
+^i'  i|l  and>  offenbar  mit  mt)  tanfent(i(ttgfet)t  bev  teuffei  imi^  ab= 
+gerocut  bab  bamit  ev  jueu  '■  b^  mevcf  Öottei^  mc(d>cö  in  imui^  jnm  te»)l 
+bavmbermglid)  iMib  gncbiglid^  angehebt  t|I  wovben  /  jcvflor  vnb  ju  boben 
+ridu.  *2lber  bev  trem  btrt  iMifev  feien  /  (Jbridne  ber  fpld'eö  angebaben 
+}!}<xt  in  pune,  ber  mirt  baiTelb  biO  an  bae  enb  rid>teu  onnb  leren '  ^iifeincv 
+ecr  »nb  »nferem  ^ej)t  /  *i{men. 
+
+
+I  =  zerspreut  =  zerstreut     2    zuvor     3    ganz     4  von  rechts  wegen 
+:  Selbsterkenntnis     6  fehlt  H  in  ihnen?     ~  druckfehler!  keren  ?  lenken? 
+
+
+^8  SIEBEN  ARTIKEL  VON  SCHLATT 
+
+Sieben  ln-i'ii?ev  uut»  fdMüeftevn  /  wir  tie  ba  oerfanUet  feint  aewefen  im 
+Jperni  ftU  edUaten  am  Stauten  '  miteinanber  in  -  iTncfen  mi  articfeln 
+t()ün  hmit  alten  lieM)a(>evn  ©otte^  /  b\  wir  perenniiit  feint  Worten  fp 
+\>m  betreffen  /  im  sperren  ^itbatten  a(^  tie  qeborfamen  ®pttef  fintcr  unt 
+fnn  iMib  tpd^tern  /  tie  ta  abiiefuntert  feint  rnt  feilen  fein  ppn  ber  weit 
+in  alwetv'  tl)nn  iMit  laiTen  /  \>uJ>  ciPt  fei  enniii  preifi  rnt  leb  cn  aller  bn'iber 
+wiberfpred^en  /  (?anR  wpl  yifrieten.  3"  fold^em  haben  wir  aefpmt  tie 
+ennicifcnt  bef;  uatteri?  iMib  unfere  iiemeiMien*  (Jhrifti  mit  jrem  i^eniT  mit 
+iMi>^  gewefen  fein  •'.  T^aini  ter  Jperr  i\t  ter  ()err  te\]  fritee  mt  nit  bef; 
+iamU  I  wie  '^)aulii^  iJiije«)gt  [i.  Äor.  14,  33].  T>a6  jr  aber  fenlanten 
+in  wai<  articfeln  fpld>?  (iefd>ehen  fei  /  fplten  ibr  mercfen  vnl»  rerilan. 
+
+Cr^  ilT  i>on  etlid>en  falfd>en  bn'ibern  iMiter  une  iHift  (!i^pf;e  eniernuf;  in= 
+gefurt  worben  /  l\  fid>  etlid>  i*pn  bem  iil*iiiben  abiif'^^fiiM  baben  in  bem 
+fte  uermei)nt  haben  '  ixt  freibe»)t  iti^  iicnile^  vnb  (JbriiTi  fid>  üben  onb 
+brand^en.  i^old^e  aber  baben  flefelef  ber  warbept  iMib  feint  ergeben  wprben 
+(\\\  jrem  mtepl)  ber  (lenlbent  iMinb  freihewt  bef5  flepfd^e  /  unb  haben  flead^tet 
+ber  (jlaub  unb  lieb  mog  e?  allec'  tbün  iMib  leiben  unb  jnen  nid>tC'  fd*aben 
+npd^  uerbamlid^  fein  /  bweil  \\t  affo  iilaubiii  feien. 
+
+^^terefent  /  jr  (^lieber  03orte^  in  (JhriiTp  jifüi  '  ber  alaub  an  bimlifd^en 
+uatter  burd>  3ff"m  (JbriiTnm  t|T  nit  alfp  (leiTalt  wirtfet  i>nb  banblet  nit 
+fold^e  binii  /  fp  bife  falfd>e  brüber  unb  fd>wc|Tern  hanbeln  unb  leren; 
+Eliten  eud^  unb  feint  qemanet  uor  fold>en  bann  \\t  bienen  nit  unferm 
+»fltter     fonber  ibrem  uatter  /  bem  ?enffel. 
+
+Witx  ibr  nit  alfp;  bann  bie  ba  (Jbrifti  feint  /  bie  haben  ihr  fleufd> 
+gecreiihiciet  mit  fampt  allen  iieU'nTcn  unb  beiiirben  |@al.  5,  2\]  '  jr  ueriTan 
+mid>  wpl  /  unb  t\(  brnber  wehte  wir  nieunen  ^Ibfnnberet  end^  upn 
+jnen  /  bann  \i(  feint  uerfert.  '^ittent  ben  J>rren  umb  jre  erfanntnnf;  ^nr 
+büfi  unb  un^*'  umb  be|lenbitit'ci}t  ben  aniiegrifnen  weg^  fnr^nwanblen  nad^ 
+ber  cbr  (iPtteeS  unb  feinet  fun«  (ihriiti  ^.Hmen. 
+
+■Die  ^ilrticfel  /  fo  wir  (lebanbelt  haben  /  unb  in  benen  wir  eune 
+werben  /  feint  bicfc: 
+
+1.  Zaiü.  2.  33ann.  3.  '^redNung  tcy,  hm.  4.  ^v^lbfnnberunii  uon 
+greiueln.  ö.  Jpirten  in  ber  oemeijn.  6.  ;E:d>werbt  unb  ber  7.  (rpbt.  1.  ?mm 
+erften:  3p  merefent  upn  bem  Jaufr:  Ter  Jauff  fpl  aeben  werben  allen 
+bencn  /  fp  gelernt  fint  /  bie  biif;  unb  cnbrung  t(\]  leben?  unb  glanben 
+in  ber  roar^cpt  /  ia\,  jbre  fnnb  burd>  ö'briiTnm  hinweg  genummen  feien 
+
+
+I  Schlatt  am  Randen,  amtsbezirk  Engen,  groBherzogtum  Baden. 
+Fürstenbergisches  lehen  im  besitze  der  Freiherrn  vonStöfflingen,  vgl.  Krieger, 
+Topographisches  Wörterbuch  des  Großherzogtums  Baden'.  1905,  2  s.  850 
+und  die  karte  bei  S.  Riezler,  Gesch.  des  fürstl.  Hauses  Fürstenberg. 
+Tübingen  1883  2  'in  —  artickeln'  wohl  durch  versehen  des  setzers  hierher 
+geraten;  gehört  nach:  'vereynigt  seint  worden'  3  in  jedem  4  allen  gemein- 
+sam, alle  umfassend.      5  accus,  cum  infinitivo!      6  für  uns 
+
+
+SIEBEN  ARTIKEL  VON  SCHLATT  2q 
+
+mt  allen  benen  ,  fo  WDllcii  anuiblen  tu  bcv  offcriTeemii;  3ff"  <Jbvi(lt  /  wib 
+mit  im  t^eflvabeu  wölleii  fein  in  tobt  /  »ff  b^  fte  mit  jm  i^fferflan  mögen  / 
+iMtb  allen  benen  \o  e£*  in  fold^ev  meimnng  von  oni<  begeren  onb  forbem 
+burd^  lu1^  felb^.  ^it  bem  loerben  auf;gefd>loiTfii  «He  finber  tauf,  be^ 
+Q^apiTi^  h6d>|le  onb  evfie  gvewel.  3o(d^^  h<\bt  jr'  grnnbt  onb  ^eugnuß  ber 
+Idirifft  onb  tn-audi  bev  Qlpo(le(  gjiat  28  [i\  i»l  ,  g)?av  16  [o.  IH]  /  ^^Ict 
+2  [0.  38],  8  [0.  3Hf.l,  16  [O.  31,  33],  19  [O.  4  f.].  Dej?  lüDllen  iviv 
+iMi^  einfeltiglid^  bod)  oeftiglid)  halten  iMib  oel•ftd^evt  fein. 
+
+2.  3nm  anbern:  @int  miv  fevennigt  wovben  oon  bem  33ann  alfo: 
+T^er  -^ann  foll  gebrandet  werben  mir  allen  benen  fo  ftd^  bem  .öervn  ev= 
+geben  haben  /  nad^^üwanbeln  in  feinen  gebotten  /  onb  mit  allen  benen  / 
+bie  in  ei)nen  leip  Ql)x\\ii  getanffr  feint  unn-ben  onnb  ftd^  laffen  hnbev  ober 
+fdMveiTern  nennen  onb  bod^  ernvann'-'  entfd^liprfcn  ^  onb  fallen  in  enn 
+falC  onb  fünb  /  onb  onmiffentlid> ''  obevcilt  werben.  Dofelben  foUen  oer= 
+mant  werben  yim  anbern"'^  mal  f)ei)mlidi  onb  v""  britten  mal  offcnlid) 
+oor  aller  gmeon  gflrafft'  ober  gebannt  werben  nad>  bem  befeld>  Sf)rif^i* 
+'^at.  18  [0.  15  ff.].  @old^'^  aber  fol  gfd>eben  nad^  orbenung  be>^  geo|li< 
+['^M.  5,  23 ff.]  oor  bem  brotbred>cn''  bamit  wir  einmntiglid^  onb  in 
+enner  liebe  oon  eonem  brot  bred>en  onb  effen  mögen  onb  oon  eonem  feld^ 
+trincfen. 
+
+3.  Biim  britten:  3»  ixm  brotbred^en  feint  wir'"  ei)n6  worben  unb 
+oerepnbart:  Qille  tk  ein  brot  bred^en  wijllen  ^nr  gebed)tnuf?  tei^  brod^nen 
+leip^  Qi)xiHi  j  isnb  alle  tie  oon  ei)nem  tranf  trincfen  wollen  ^ü  einer 
+gebedunnf?  bef?  oergoflenen  blntc^  (J()ri|li  bie  follen  oorbin  vereinigt  fein 
+in  epncn  leip  SbrifTi  /  b^  ifl  in  bt)  gemei)n  (}3ottei^  '  nff  tt)eld)en  (JhriiTuö 
+t\  l>inpt  iH  I  nemlid^  bnrd)  ben  tanff;  bann  ,  wie  ber''  "^.Vuiln-j  an^epgct 
+Li.  J\or.  10,  211,  fo  mögen  wir  nit  auff  ei)n  mal  tei)ll)afTtig  fein  li\\ 
+S?txx\\  tifd)  onb  ber  teufeP^  tifd>  /  wir  mögen  and)  nitt  off  einmal  tepU 
+6afftig  fein  onb  trincfen  oon  tn-  .<?errn  feld^  onb  its\  teufeli?''-  feld);  ^ 
+ifl  /  alle  '  t)\t  gemeonfdHiffr  haben  mit  ben  tobten  werrfen  ber  finiTernun  / 
+\!\t  f^abcn  UX)\\  teol ''  am  lied^t  ,  alfo  alle  /  bi)  bem  tenffel  folgen  onnb  ber 
+weit  /  bie  haben  fepn  tei)l  mit  benen  /  bie  jii  öot  ane  ber  weit  berufen 
+feint  /  *'^lllc  /  bie  in  bem  argen  liegen  /  bie  haben  fei)n  tet)l  an  bem 
+guten. 
+
+
+I  'habemus'  Zw.  2  zuweilen  3  =  'labi'  4  fäl  =  fehler  Beck 
+'faute'  Calvin  5  'par  inadvertence,  sans  propos  deliberc'  Calvin  6  'bis 
+in  occulto'  Zw.,  'jusqu'ä  deux  fois'  Calvin  7  'corrigi  debent'  Zw. 
+'bannis'  Calvin  8  'unsers  Chr.'  A  i  9  'devant  tonte  la  congregation, 
+afinque  puissions  d'un  niesme  zele  rompre  le  pain  ensemble  et  boire  du 
+calice'  Calvin  lo  'mir'  A2  ii  'divus  Paulus'  Zw.  zu  ergänzen  wohl: 
+'der  heilige  P.'  12  'daemonum'  Zw.  'des  Duyuels'  H.  13  nullam 
+habent  communionem  cum  his  qui  ad  Deum  ex  hoc  mundo  vocati 
+sunt'   Zw. 
+
+
+30 
+
+
+SIEBEN  ARTIKEL  VON  SCHLATT 
+
+
+9(lfo  aud>  fol  mb  muß  fein:  2BeId)er  nit  i)At  Die  bmiffung  erntet' 
+QOt^  \ü  einem  glauben  /  i^ii  einem  tauff  /  \ü  einem  genil  ^ii  einem  leip  , 
+mir  allen  fintein  Wotri^gmenn  tev  mag  and^  nit  mit  inen  ein  bvot  qt- 
+madu  merten  wie  Mnn  fein  muf;  iva  man  ba?  Inot  inn  ber  roarbept 
+nact  lern  befeld>  0'l)ri|Ti  ^l•ed^cn  luil. 
+
+4.  Büm  uievben:  feint  wir  i'erennigt  werben  i'on  ber  atumbiung '. 
+@oI  gcfd>el)en  /  ddu  ben  bofen  iMib  oom  argen  bae  ber  tenitel  inn  ber 
+rocit  gepflanjt  i)(it  /  alfo  /  allein  b^  wir  nit  gemepnfdMfrt  mit  jnen 
+f)fll>en  iMib  mit  jnen  lauffen  in  bie  gemenge^  jrev  greiueln;  ba«^  ift  alfo: 
+T)roei[  alle  (bie  nit  getxetten  feint  in  iie  geliorfame*  t(\\  glanben^  iMib 
+tie  fid^  nit  i^erei)nigt  haben  mit  ÖPt  / 1>\  fp  feinen  willen  tinni  wollen»  enn 
+groiTev  gvcwcl  oor  gpt  feint  /  fo  fann  mt  mag  anbei?  nit  ocn  jnen 
+wad^fen  ober  entfpvingcn  bann  grenlid^e  bing.  Olu  i|T  je  nid>t^  anberö 
+in''  aller  creatur  bann  giit^  iMib  bi>fee  /  gläubig  rub  ungläubig''  /  liniternuB 
+DHb  lied)t  weit'  VMib  tk  auf;  ber  weit  feint  /  tempel  (^ottee  i?nb  bie 
+®6ften  Sbriftne  onb  ^^elial  /  vnb  fet)ueö  mag  mit  bem  anbern  tenl 
+l^aben. 
+
+0]u  i)l  iMi'j  aud^  tai  gbot  befi  .'öerru  [2.  .Hör.  6,  17  fl  offenbar  in 
+wektem  er  uns?  licniT  abgefünbert  fein  onb  werben  i'^on  bem  bi)fen  fo  wi>l 
+er  rnfer  öot  fein  /  iMib  werben  wir  feine  fuu  onb  ti>d>ter  fein. 
+
+rlBeitter  vermant  er  iMi?  I'ilpoc.  K^,  4ff.],  barumb  vm  5^abt)lDn  vnb 
+bem  jrbifd^en  ©gnpto  auf?jiigan  tn6  wir  nit  aud>  tepl6afftig  werben  irer 
+>?ual  onb  leiben  /  fo  ber  Jöerr  ober  ftc  fnren  wirt. 
+
+'?lun  bem  allen  follen  wir  lernen  /  tai  alle?  wa?  nit  mit  ruferm 
+©ot  inib  ObriiTo  uereijnigt  ift  '  nidits?  anbere  fei  bann  bn  grewel  weld>e 
+wir  meiben  follen  unb  fliehen.  3"  bem  werben  oennei>nt  alle  '^apillid>e 
+Pub  wiberbäp)'{lid>e  *"  werF  onnb  öotti^bientlc  /  perfammelung  /  fird>gaug/ 
+weinheufer  burgerfd^afften  iMinb  ocrpflidnung  td^  pnglanbenr  ^  iMib  anbere 
+mer  ber  gleid^cn  /  bie  bann  tie  weit  für  bod^  helt  /  pnb  bod^  |Tracf^'° 
+wiber  ben  befeld)  ©ottee  gh^ublet  werben  /  nad^  ber  mafi  aller  ongered>= 
+tigfeDt  /  iie  in  ber  weit  i|T.  i>on  biefem  allem  follen  wir  abgefünbert 
+werben  wt  Um  tenl  mit  fold^en  haben  '  bann  e^  feinb  etttel  grewel  / 
+bie  iMine  oerhaiTet  nuuten  ror  iMiferm  (Jhrit^P  Jffn  /  weldier  imiC'  entlebigt 
+bat  von  ber  bieniTbarfent  tcü  rlel>fd^£^  pnb  rnc^  gfdncft  gcmadM  bem  bieniT 
+©Dttie  bniHt  ben  geniT     weld^en  er  pn^  geben  hat. 
+
+
+I  'sui'  Zw.  vgl.  Eph.  4,  4  f f .  2  'de  defectione,  separatione  et 
+devitatione'  Zw.  3  'inde  gemeenschaft'  H.  "in  communicatione'  Zw. 
+4  noch  Femininum ,  wie  mhd.  für  nhd.  Masoilinum  5  'in  mundo  — 
+neque  in  universa  creatura'  Zw.  6  'fideles  et  infideles"  Zw.  'geloove 
+ende  ongeloove'  —  falsch  —  H.  "  'raundani'  Zw.  8  'secundopapistica 
+opera  .  .  .  aiipellaraur  a  pontificiis  haeretici ,  a  catabaptistis  autem 
+secundopapistae ,  ut  qui  baptismum  infantiura  et  quaedam  alia  nescio 
+quae,  quae  isti  noUent,  servemus  in  Ecclesia'  Zw.  9  'civitates  et 
+foedera  infidelitaüs'   Zw.  'verbindinghe'  H.       10  'ex  diametro'  Zw. 
+
+
+SIEBEN  ARTIKEL  VON  SCHLATT  31 
+
+'^(Ifo '  ivevten  mi  und)  uou  mi  omc^vfiffelt  i»ie  ondnifKidK  /  and)' 
+teufelifiteii  toaffeii  bef)  gcwaltö  fallen  /  M  tu  feint  fdnvert  f)iimafd>  iMib 
+bcr  (ileid)en  /  iMiD  allcv  jvev  pvand)''  fnr  frennbc  ctev  luilicv  bie  feint  / 
+in  fi-aft  tef;  \wvt6  SOvillt  l'3Jit.  0,  39]:  jf  foUent  tem  obel  nit 
+roiCcviTan. 
+
+5.  3nm  fünften:  feint  wiv  i'ei*ei)niiit  lüovbcn  oon  ben  Jpivten  in  bev 
+gmetMi  Wertet  alfo :  T^ev  6irt  in  bev  gniemi  qontt^  fol  eonev  fein  nad)  bev 
+ovbennng  'i\nili  |i.  Zim.  3,  7]  ganfi  i>nb  gav  bev  e»)n  gnt  ,^cngnnfi  ijah 
+»on  benen  /  iX)  anf;er  bem  glanben  feint.  Sold^eö'*  ampt  fot  fein  lefen  / 
+vctnmnen  pnb  leven  manen  /  flmffen'^  bannen  in  ber  gemepn  /  i>nb 
+allen  bvnbcrn  iMib  fdMPeftevn  jnr  beijernng  i>Drbeten''  /  b^  brot  anheben  jii 
+bved^en  mt  in  allen  bingen  t(fi  Icipö  Qt)vi\ti  ad>t  f^aben  ini '  er  gebarot 
+iMib  gcbeiTevr  au-vb  mt  bem  le(lerev  bev  nuinb  luevbe  i^eviTopfft. 
+
+Difev  abev  fol  ev^alten  wevben  wa  cv  mangel  ^aben  lunvb  pon 
+bev  gmet)n  /  wcldie  jn  'evipelt  hat  /  bmit  /  weld^ev  bem  ©uangelio 
+bienet,  and^  pon  benifelben  lebe  wie  bev  .f>erve  pevDvbnet^  t)at  [l  .^ov. 
+9,  141.  Zc  aber  ei)n  bivt  etipa^  5«nblen^  ipnvb  b^  ^n  ftvaffen  wev  fol 
+mit  J5m  niduö  gehanbelr  wevben  on  ^lüen  obev  tvd  jengen  |'?}lt.  18,  ItJff.l 
+3}nb  fo  fpe  fünben  /  foUen  ftc  uov  allen  geiTvafft  werben  /  tamit  tie  anbern 
+fovd^t  baben. 
+
+-So  abev  i>ie\(\-  ^ivt  pevtrieben  ober  biird^  ta^  cveiiR  bem  ()evven  hin= 
+gcfiivt  lunvb  /  fol  Pon  ftnnb  an  '"  ei)n  anbevev  an  bie  (latt  pevovbnct  ipevben  / 
+bamit  Mi  polcflin  pnb  benjTiin  ©otteij  nit  jev|Tövt"  roevbe. 
+
+H.  Bnm  fed>|Ten :  feint  ipiv  pevei)nigt  ipovben  Pon  bem  fdnpevt  alfo : 
+Dae  fdMPevt  i(l  epnÖottiö  ovbennnge  anfiev()alb  bev  polfDmmenf)ept(J^vi|1i/ 
+iueld>eö  ben  bi,>fen  tlvafft  i^ib  tobtet  /  pnb  ben  gnten  fd)üßt  pnb  fd)ivmbt. 
+3m  '■  ®efafi  ipivt  b^  fdnvevt  georbnet  Pbcr  bie  böfen  iür  ftvaff  pnb  jnm 
+tob  pnb  baijelbig  \n  bvaud>en  feint  geovbnct  tx)  lücltlid^en  obevfepten 
+imöm.  i3,  iff.]. 
+
+3n  bev  polfommenbeit  Qf)viiti  abev  ipivt  bev  '^ann  gebrand)t  aUem  ;^ü 
+epner  mannng  pnb  annfd^lieiTnng  te\\  ber  gefiinbet  hat  on  '-^  tobt  be^ 
+Hei)fd)6  /  allei^n  bnint  bie  mammg  pnb  ben  befeld)  ,  nit  mev  jiifnnbigen 
+[3o6.  8,  in. 
+
+
+I  'Vigore  hujus  constitutionis  decident  a  nobis  diabolica  arma  vio- 
+lentiae'  Zw.  2  'ja  00c'  H.  3  'omnis  usus  eorum'  Zw.  4  'Hujus'  Zw. 
+5  'corrigere  sive  (ex)conimunicare'  Zw.  6  'bene  praecox  tain  in  oratione 
+quam  in  fractione  panis'  7  'quo  et  fulciatur  et  augeatur,  ut  noiiien 
+Dei  per  nos  colatur  et  laudetur,  biasphcmis  autcm  os  obstruatur'  Zw. 
+8  'verde'  A  2  9  'quid  accusatione  dignum  admiserit'  Zw.  lo  'e 
+vesligio'  Zw.  1 1  'verstroyt'  li.  'dispergatur,  sed  per  exhortationem  ser- 
+vetur  consolationenique  accipiat'  Zw.  12  'In  dem'  A  i  13  'ad  interitum 
+camis  soluminodo'  —  falsch  —  Zw.  'Mais  en  la  perfcclion  de  Christ 
+rexcommunication  est  la  derniere  peine  sans  mort  corporelle'  Calvin 
+
+
+32 
+
+
+SIEBEN  ARTIKEL  VON  SCHLATT 
+
+
+^1111  m\t  offv^ilf  i^on  iMlcn  /  iit  nit  erfcinifii  tm  wiUen  Qi}xi\li 
+liegen  iMiJ  /  ob  amt  e»)n  (Jf;n(l  mog  ober  fpUe  bj  (dwert  bvaiid>eii  gegen 
+t>em  böfen  i>nib  teil  gören  fdM°it3  iMib  fd)ivm  wiUen  otev  uml>  bei-  liebe 
+wiUen  V 
+
+''^InniMirf  i|T  geoffenbart  einmnttglid^  alfo:  Ö'f)vi|luii  (evt '  inib  beiildit 
+iMi^  CJKt.  11,  9f.  I,  b^  wir  oon  jm  lernen  foKen  /bann  er  fei  milt  oub 
+oon  f)erhen  bemi'itig  /  inib  fo  werben  »vir  rfi  lünben  iMti'er  feien.  Oin  fagt 
+(Jl)ri(tui<  I3p()-  ''^^  11 1  Jimi  heibnifd)en  -  weiblin /ba«  im  eebrnd^  begriffen 
+worben  ivaj*  /  nit  b^  mann  c^  uer|Tei)nigcn  folt  nad)  bem  gefatjt '  feine* 
+patterö  (iMib  ev  bod)  fagt  [3ol^.  8,  28]:  wie  mir  ber  Dattcr  befplf^en 
+^af  /  alfo  tf)u  id)*)  fonber"  ber  barmf^erhigfent  iMib  per^eifnmg  iMib  ma= 
+nung  nit  mer  yifitnben  /  inib  fprid)t:  gang  bin  iMib  uinbe  nit  mer.  ScUidvj** 
+feilen  mir  \>m  gent^lid^  audi  balten  nad^  ber  reget  ^(\\  -^anni*. 
+
+3üm  anbern  mirt  gfragt  tc^^  fd^mertl^  falben  ,/  Ol  ein  Ö'briil  fcl  rr= 
+tet)l  fpred^en  in  meltlid^en  ^angf  imb  fpan '  /  fo  bie  unglanbigen  mitein= 
+anber  ()aben?  3(1  i>h  b«  epig  antmnrt:  (»^riiTn^  [l'nf.  12,  13f.]  bat  nit 
+wöUew  entfd^ei)ben  ober  intei)len  .^mifdKn  brnber  onnb  briiber  ttfi  erbteilö 
+halben     fonber  bat  ftd>  beiTelben  gemibert**;  alfo  follen  mir  ibm^  alId^  tbnn. 
+
+3fnn  britten  mirt  gefraget  te\;  fd>mertij  balben:  Zv\  l>\^  m\  obergfept 
+fein  /  fo  einer  ba  jfi  ermelt  mirfV  T^em  mirt  alfo  geantmnrt:  Cfbriilnei 
+f)flt  follen  gemad)t  merben  ^\\  einem  Bünig  /  iMib  er  iit  gfloben  IjPb-  ^t  1">I 
+iMib  f)at  nit  angefeben  bie  orbennng  feineö  uatterö;  alfo  follen  mir  jm  and> 
+tbnn  onb  jm  nad^  lanffen  ,  fo  merben  mir  nit  in  ber  finiTernüf;  manbleii; 
+bann  er  fagt  felbe  |'5)tt.  l«,  211:  meld^er  nad^  mir  fonimen  mol  ber  iH'r= 
+lengne  fid>  felbi?  inib  neme  fein  crenn  oif  fid)  onb  folge  mir  nad^.  '.'ind> 
+oerbent  er  felb|T  ben  gmalt '"  idi  fd^mert£^  onb  fagt  l^^U.  20,  251:  Di> 
+meltlid>en  fiirften  b''ifd>en  etc.  jr  aber  nit  alfo.  2Beifter  fagt  '»XVinlnJ 
+lüi'm.  8,  301:  ®eld>c  @ott  oerfeben  bat  /  bie  bat  er  and>  verorbnet 
+bj  fi)  gleid)bertig  "  fein  follen  bem  ebenbilb  fein^  fun^  etc.  'ihid)  fagt  ^IVtrn-^ 
+[1  ''))etr.  2,  21 1:  (ibriiTn'j  bat  gelitten  nit  geberrfd^t  /  onb  bat  imk>  ein 
+ebenbilb^*  gelaiTen     bai^  jr  folt  nad)folgen  feinen  fnüilapffen. 
+
+3n  letfl  mirt  gemercft  /  b^  t6  bem  dn-i|Ten  nit  mag  ^imen  ein  oberfert 
+\n  fein  in  ben  iTnrfen'':  T^er  oberfent "  regimcnt  i|l  nad^  bem  fleifd>  fo 
+i(t  ber  d>ri(len  nad^  bem  gei)|T  /  jr  t}t\\Uv  iMib  monnng  i|T  bleiblid*  in 
+bicfev  melt  /  fo  iil  ber  d>ri|Ten  im  bimel    jr  bnrgerfd^artt  i|T  in  bifer  toelt 
+
+
+I  'docet  nos  ut'  Zw.  2  fehlt  Zw.  3  'juxta  legem  qui  tarnen  dixerai' 
+Zw.  4  'loquor'  Zw.  5  'sed  loquebatur  cum  ea  ex  inisericordia  .  .  ne 
+ultra  peccet'  Zw.  6  genitiv !  an  solchen  festhalten  'nobis  observandum 
+est'  Zw.  7  'in  causis  saecularibus  inter  vim  et  vim,  litem  et  liteni"  Zw. 
+8  sich  weigern.  9  dabei  sich  verhalten  10  'an  Christianus  officium 
+aut  m.igislratus  esse  debant'  Zw.  1 1  'gleichburtig'  Beck,  'gelijckformich' 
+H.  'confonnes"  Zw.  12  so  auch  nihd.  =  Vorbild  13  'ex  his  quac 
+sequuntur'   Zw.      14   'obrer'  A   2 
+
+
+SIEBEN  ARTIKEL  VON  SCHLATT  33 
+
+(d  \\i  i!(v  dn-i|Ten  (nivGevfdMifft  im  Jumcl  VWl  3,  20]  /  ive  (Iretfi^  oiit 
+fvifii^  warfen  feint  fleifd>lid>  \>nt  allenn  witcx  ta\  fleijfd^  /  t'ev  dMi|Ten 
+nniffen  abcv  fnit  (leiiTlid^  wiDcv  tie  lu'ue|li(?ung '  teil  tenffeli^.  Dn  iuelt= 
+lid^en  werben  gewännet  mit  |Tal)c(-  imiI)  eifen  aber  bie  dnijlen  fint  ge= 
+wapnet  mit  bem  ^arnafd)  ©ottei^  /  mit  warbest  /  gered^ti(1fel)t  /  trieb 
+fllauten  5et)l  unb  mit  bem  wert  ®ott^.  3"  fumma:  2Baö^  (ihriflue 
+iMifer  hanpt  anff  iMinö  gefinnet  ift  /  ba^  aUeö  foUen  bie  glieber  bef?  leipe 
+^firifti  bnrd)  jn  geftnnet  fein  /  bmit  fei)n  fpaltnng  inn  bem  teip  fei  /  M- 
+invcb  er  ^eriTort  werbe;  bann  enn  jglid)^  reid>  bai<  inn  jm  fel(>|T  ^ertenlt 
+ifl  '  tüirb  ^erilcirt  werben  |53U.  12,  25 1.  Bo  nnn  g^riitn^  atfo  i|l  /  wie 
+von  jm  gefdn-ieben  itet^tt  '  fi>  mnffen  bie  gliber  and)  alio  fein  bmit  fein 
+leip  gaiih  onb  ewnig  Meib  \n  feiner  fell>^  beiTerung*  iMib  erbawung. 
+
+7.  Biim  ftebenben  feint  wir  pereijnigt  werben  pon  bem  6j)b  a(fo: 
+T'er  ©nb  i|T  e»)«  befeftiguug  ^  pnber  benen  ;  bie  ia  f^awäew  ober  perl)ei)i5en  / 
+Pub  i(t  im  gefa«  ge^ei)ffen  werben  /  bai?  er  fpt  gefd^e^en  bei  bem  namen 
+©ptte^  '  aUepn  warbafftig  Pub  nit  falfdv  Cf f)n(Tn^  /  ber  bp  polfonimen^ept 
+ben  gfa«  leret  perbent"  ben  feinen  Mt^  fdweren  weber  red)t  i\od) 
+faifd>  /  weber  beim  Jt>imet  /  nDd>  bei  bem  erbrid)  '  npd>  bei  5ci"ufalem  / 
+npd>  bei  pnferm  ^anpt  ["^Kt.  5,  34—36)  ,  pnb  b^  pmb  ber  prfad^  wiUen  / 
+rote  er  balt  ^ernad)er  [p.  36]  fpridU:  T'ann  jr  mögen  nit  epn  l)ar  wii^ 
+ober  fd)warft  mad^en.  ©efjent  jü  /  brumb  i\i  n\i(^  fd>weren  perbotten; 
+bann  wir  mögen  nit  /  bai^  in  bem  fd)weren  per^epffen  ipirt  /  eriTatten  '  / 
+bwcil  wir  bai^  aUermintl  an  pn^  nit  mijgen  enbcrn, 
+
+Ohi  feint  etlid)  /  tk  bem  einfettigen  gebot  ©otteö  nit  glauben  geben  / 
+funber  fic  fagen  Pub  fragen  alfo :  (S"p  nun  /  ^at  ©ot  bem  Qlbra^am  ge= 
+fd>WDren  burd)  fid)  felbe"  /  bweil  er  @ott  wn^  (ta  er  jm  per^ief;  /  baö 
+er  jm  wol  wollte  pnb  wolt  fein  Wot  fein  /  fo  er  feine  gbot  ^ielt  |®eneft^ 
+26,  3])  roarumb  folte  id)  bann  nitt  aud)  fdnueren  /  fo  id)  ci)ncm  ettwa^ 
+perbiefiV  \Hntwurt:  Ji>6r  luaö  bie  fd^rifTt  fagt:  @ot  '  M  er  wolt  ben 
+erben  ber  oerbeniTung  pberfdMvenrflid)  beweifen  /  bj  fein  rat^  nit  wancfet  / 
+f)at  er  epnen  epb  bar\wifdvn  gelegt''  /  auf  tni'  wir  burd)  jipep  pntüancf: 
+lid^e  bing  (barburd)  e^  onmoglid)  i\t  tai'  ©Ott  liege)  epn  ftarrfen  troft 
+f)abcn.  ^^Kercf  ben  periTanb  bifer  gfd)rift:  ©ot  bat  gewalt  jütbnu  /  baß 
+er  btr  perbeut  /  bann  ci  \\l  jm  aUei<  mcglidv  ©ot  i}at  bem  QUnabam  ge^ 
+fd^woren  epnen  epb  /  fagt  bie  fdn'ifft  /  barnmb  er  tai  beweife  /  b^  fein 
+rath  nit  wancft  /  b^  i(t:  C?^  modU  im  niemant  feinem  wiUen  wieberflan 
+Pub  binbereu  /  pnb  barumb  mod^t  er  ben  epb  t)Alxen.    2Bir  aber  mögen 
+
+
+I  'munitiones'  Zw.  2  'aere'  Zw.  3  'quemadmodum  —  erga  nos 
+animatus  sit'  Zw.  4  'ad  sui  conservationem'  Zw.  5  'confimiatio  inter  eos 
+qui  litigant  aut  promittunt'  Zw.  'une  confirmation  qui  se  doit  seulcinent 
+faire  an  nom  de  Dieu'  Calvin  6  'der  verbeut'  A  1  7  'volbrengen'  H. 
+'praestare'  Zw.  8  =  bei  sich  selber  g  'interposuit,  ut  spem  habeamus. 
+Sententiam  hujus  scripturae  sie  accipe'  Zw. 
+
+Böhmer,  Bauernkrieg.  3 
+
+
+34  SIEBEN  ARTIKEL  VON  SCHLATT 
+
+ni&iti  I  wie  broben   oon'  (J^viilo  Ci,t\Kuyt  ifl  /  &aö  \\<\x  ten  ftaltcii  obbcr 
+Iet)|len;  biuiimb  foUcn  unv  nidue  fdnüorcn. 
+
+D'iu  fflcien  ettliri)  wcitrev  «Ifo :  (5^  fei  nirt  bei  ©ot  nevbotren  ^^ufd^weven 
+in  bem  ueuweii  4:e|Tanient  uniib '  bod^  im  alten  cif botten  /  funber  fei  allepn 
+bei  beni  ^imcl  /  erbrrid^  3fvu|"rt(em  /  iMib  bei  iMiferm  b^mpt  ocrbctteu 
+in  fdnveven.  ^Innmivt:  f)6v  bie  fd>iifft  \^t.  :>,  3tf.;i:  SfBev  ba  fd>meret 
+bei  bem  f^imel''  /  bev  fdnucret  bei  bem  itiil  Wotteö  /  iMib  bei  beni  /  ber 
+branff  ftnet.  '9)Jevcf  /  fdnüeven  bei  bem  \)mi\  i(T  i^evbotten,  ber  mir  ei)n 
+(Tnl  ©otte  i|t(^-,  wie  oil  mer  i|l  oerboften  bei  nDtfelb^V  3r  "«nii  iMmb 
+blinben  /  w\  i|l  fli-ofier  /  bev  |tu(  pbev  bev  bvauff  fiht?     [^t.  23,  iHff.J 
+
+Dlod^"*  fagen  erlidr  wann  nnn  b^  iMivedu  i|T  /  wann  mann  öor  ;\n  bev 
+wav5ft)t  bvand)t  /  fo  f)aben  apollel''  '^ctxwi  nnb  ^\niUi^  and^  9efd>wpven. 
+^■?(ntwnvt:  "l^tvn^  iMuib  ^Vmln^  i^engen''  aUct)n  b^  /  weldis  pcn  Wor  bem 
+9Ibva^am  bnvd^  ben  et)b  uevbeiiTcn  wa?  /  \k  felb^  oerbeiiTen  nidM?  alf 
+bi)  e;rempel  f(av  ann't)(|en.  beugen  abei  iMib  fd^weven  i|T  jwei^erlet).  I^ann 
+fo  mann  fd^wevet  fo  oevf)eif;t  mann  eviT  fänftiiie  bing  /  wi)  bem  Qlbvabe 
+(Jbriflns?  i-'cvbeiiTen  i|l  wovben  weld^en  wn  (ange  jeit  f)ernad^  enfp^angen 
+()aben.  @d  mann  aber  jenget  /  fo  ^eijget  mann  an  ba^  gegenwevtig  obip 
+gilt  obber  boß  fei  /  wie  ber  ©imeon  »on  (J6rt(lo  jü  5Jtaria  fprad>  i?nb 
+jeugef  [8nt.  2,  34]:  @if)e,  bifer  wirf  gefetu  ^n  einem  fal  iMib  anfevflenna 
+uieler  in  '^ivml  /  iMib  ^n  epem  ^ei)d>en     bem  wiberfpvod^en  wirr. 
+
+!DergIeid)en '  f)at  imi(^  (J^rifln«^  and>  gelerr ,  ba  er  fagt  \^')\x.  '^.  :m\: 
+©nwer  reb  fol  fein  ja  ja  /  rnb  nei)n  /  nciMi  bann  xoc<i  rber  b^  iil 
+ifl  pon  argem.  (5r  fagt:  ©nwer  vebe  ober  worr  fol  fein  ja  iMinb  nenn  , 
+!Daö  mann  nit  neriTan  w6(le  ba^  er  tii  meimnng  ^ügelaiTen  i^c^i''.  CFhriitne 
+i(T  cinfcUig  ja  iMib  nepn  iMib  alle  /  bie  il^n  einfeltig  fiid^en  /  werben  fein 
+wort  verftan.    Qlmen. 
+
+i?ieben  brnber  iMib  fd^üeflern  im  .'öeiTii!  Dae  fint  bie  articfel  /  X)\t 
+ettlid)  britber  binf^er  irrig  iMib  bem  waren  uerilanb  ongIid>"  uerflanben 
+^aben  /  iMib  bmit  oil  fdnivu1>er  gewiücn  uerwirt  barbnrd>  ber  nam  03orte 
+gar  grofUid)  oerleiTert  t|T  worben  ,  brnmb  bann  nott  iil  gwefen  i\\i'  wir 
+Derei)nigt  feint  worben  im  Jperrn  ;  ©ot  fei  tob  uiib  pretf;  /  wie  bann 
+gfd)eben  i|t, 
+
+9?n  /  bweil  j^r  reidUid>  periTanben  babent  ben  willen  ©otte£^  jimial 
+burd)  mi>  geoffenbart  fein '"  /  wirt  nobt  fein  /  \}Ai'  jr  ben  erFanten  willen 
+©Dtfei?  barriglid^"  /  onabgeweiu'*  /  polnbringen.  T^ann  jr  wiiTent  wol  ' 
+\y>i\i  bem  fnedue  511  lone  bort'^  /  ber  ba  wiiTentlid>  fnnbet. 
+
+I  =  durch  2  'in  novo  test.  non  esse  vetitum,  ne  per  Deum  juremus, 
+sed  in  vetere.  Hie  autem  vetitum,  ne  per  coelum  —  vetetur'  Zw.  3  'per 
+tenipium  aut  coelum'  Zw.  4  'Adhuc  tamen'  Zw.  5  so  A  i,  2!  'de 
+apostolen'  H.  6  'testantur'  Zw.  ~  'Ad  hunc  modum'  Zw.  8  'ne  sie 
+velimus  eum  accipere ,  quasi  admiserit  juiationem'  Zw.  9  nicht  ent- 
+sprechend. 10  accus,  cum  infinitivo,  wie  auch  bei  Luther  11  beharrlich 
+12  'sonder  ophonden'  H.  ohne  aufenthalt     13  gehört,  gebührt 
+
+
+SIEBEN  ARTIKEL  VON   SCHLATT 
+
+
+35 
+
+
+^HIM  I  WrtP  jv  PtiwiiTentltd)  (icthan  lMl^  ('efainit  ()abfn  mivccbt  fle= 
+Oanblct*  /  t^  i)T  ciid)  oev^tcf;eu  /  biirdi  ba?  (ilaiibic?  gebet  /  iweldiee  inn 
+MX[i  m  bev  ucifamlunci  iteibrad>t  i|l  für  unfer  aUcv  fa(  mib  fd)ült  /  biivd) 
+bie  gcnebtg  i>cr3eif)img  {^m&  omib  buvd)  ba^  Mfit  3ffii  (JOrifti  /  9(men. 
+
+Jpabcnt  rtd)f  auf  aUe  /  Xsii  iiit  luaiiblen  iiad>  bev  einfeltigfept  goflid^er 
+»ar^ept  /  bie  in  btfem  ^liff  tgviffcti  '\^  ww  inu^  in  ber  üerfamliing  / 
+bamtt  jebcrnian  gevegtert  merb  iMiber  i>ii^  biivd>  bie  vegel  beß  ^aiiif  /  oitnb 
+füro^in'-  i>er()üt  luevbe  bev  falfdKU  In-ubev  iMib  fdMveftcvn  jügang  mibev  iMi^. 
+
+Sünbevt  a(>  i^on  eiid)  iime  böf;  i|l  /  fo  rot((  ber  ^eit  eroer  @ot  fein  / 
+wib  jv  roevbent  fein  fune  vnb  tod^tev  fein  [2.  jvov.  6,  17f.l. 
+
+hieben  brnber  /  fcienf  ingebenrf  /  roa^  ^Vuitnö  feinen  'Situm  i?ev= 
+manet.  ©r  fpvid^t  alfo  {Z\t.  2,  llff.]:  T>ie  ^et)(fam  genab  ©otteö  i|T  ev= 
+fd)tenen  allen  /  iMib  jüd)tigct  mi  I  bj  wir  fotlen  perleugnen  bj  ongöftid) 
+jDefen  minb  bie  roeltlid^eu  lüfte  /  iMtb  ^üduig  /  geredif  /  iMib  gotffelig  leben 
+in  biefcr  weit  iMib  loarten  .auff  i\t  felbig  Hoffnung  i>nb  evfd^einung  ber 
+hervligfent  bef?  gvoiTon  ®Dtre^  inib  unfevc^  f)e»)lanb(S  3efn  Sbtiffi  /  l'fv  ftd> 
+felbi^  füv  iMtei  geben  l)at  /  r'ff  bas?  ev  i^n^  evlofer  pdu  aller  i>ngerednigfei)t 
+ünnb  rei)niget  jm  felb  et)n  i^olcf  ,^um  epgent^unib  /  bai^  M  eiffevig  icere 
+\\\  guten  roercfen.  3)aö  bencfet ,'  vnub  feicut  bcf;  geubet  /  fo  rairt  bev  Jpevr 
+be^  friebeni<  mit  cud)  fein. 
+
+Der  nam  ©ottei^  fei  eivig  gebeuebeit  iMib  \)^A)  gelobet  /  Linien. 
+Der  Jperv  geb  eud)  feinen  friben  /  ^^Hmen. 
+
+9lcta  ednaten  am  JHanben  /  anff  ^attf)ie^  ^Inno  S9t.®..\\^  tJÜ. 
+
+
+I   accus,  cum  infinit.      2  hinfort     3   24.   Eebruar 
+
+
+Frommannsche  Hofbuchdruckerei    (Hermann  Pohle)    in  Jena.  —   3644 
+
+
+A.  )Iarcus  und  E.  Wel>ei*'s  Verlas  in  Bonn. 
+
+
+KLEINE  TEXTE  FÜR  THEOLOGISCHE  UND  PHILOLOGISCHE 
+VORLESUNGEN  UND  ÜBUNGEN 
+
+HERAUSGEGEBEN    VON    HANS     r.IETZ.MANN 
+
+1  Das  ]Muratorische  Fragment  und  die  monarclüanischen 
+
+prologe  zu  den  evangelien,  herausgegeben  von  Prof.  Lic. 
+H  ans  Lietz mann.    2.  Aufl.     16  S.    0.30  M. 
+
+2  Die  drei  ältesten  Martyrologien,  herausgegeben  von 
+
+Prof.  Lic.  Hans  Lietz  mann.     16  S.    0.40  M. 
+
+3  .\pocrypha  I :   Reste  des  Petrusevangeliums,  der  Petrus- 
+
+apocalypse  und  des  Kerygma  Petri,  herausgegeben  von  Prof. 
+Lic.  Dr.  Erich  K 1  os  t  er  m  an  n.  2.  Aufl.    16  S.  0.30  M. 
+
+4  Ausgewählte    Predigten    i  :    Origines  Homilie  X  über 
+
+den    Propheten  Jeremias,    herausgegeben    von  Prof.  Lic. 
+Dr.  Ericli  Klostermann.     16  S.    0.30  M. 
+
+5  Liturgische  TEXTk  i:  Zur  geschichte  der  orientalischen 
+
+taufe  und  messe  im  2.  und  4.  Jahrhundert,  ausgewählt  von 
+Prof.  Lic.  Hans  Lietzmann.    2.  Ailfl.    16  S.   0.30  M. 
+
+6  Die  Didache,  mit  kritischem  apparat  herausgegeben  von 
+
+Prof.  Lic.  Hans  Lietzmann.  2.  Aufl.   16  S.   0.30  M. 
+
+7  Babylonisch-assyrische  Texte,  übersetzt  von  Prof.  Dr. 
+
+Carl  Bezold  i:  Die  schöpfungsiegende.   20  S.   0.30  M. 
+
+8  Apocrypha  II :  Evangelien,  herausgegeben  von  Prof.  Lic. 
+
+Dr.  Erich  Klostermann.     18  S.    0.40  M. 
+g  Ptolemaeus  Brief   an    die   Flora,  herausgegeben  von 
+Prof.  D.  Adolf  Harnack.     10  S.    0.30  M. 
+
+10  Die  Himmelfahrt  des  Mose,    herausgegeben  von  Prof. 
+
+Lic.  Dr.  Carl  C lernen.     16  S.    0.30  M. 
+
+1 1  Apocrypha  iii  :  Agrapha,  neue  Oxyrhynchuslogia,  hrsgeg. 
+
+von  Prof.  Lic.  Dr.  Erich  Klostermann.    20  S.    0.40  M. 
+
+12  Apocrypha  iv;    Die   apokryphen   briefe   des    Paulus    an 
+
+die  Laodicener  und  Korinther,  herausgegeben  von  Prof. 
+D.  Adolf  Harnack.    23  S.    0.40  M. 
+
+13  Ausgewählte  Predigten  ii  :  Fünf  festpredigten  Augustins 
+
+in  gereimter  prosa,  herausgegeben  von  Prof.  Lic.  H  ans 
+Lietzmann.     16  S.    0.30  M. 
+
+14  Griechische    Papyri,   ausgewählt   und    erklärt    von    Lic. 
+
+Hans  Lietzmann.    16  S.    0.40  M. 
+
+15/16  Der  Prophet  Amos,  Hebräisch  und  Griechisch,  heraus- 
+gegeben von  D.Johannes  Meinhold  und  Lic.  Hans 
+Lietzmann.    32  S.     i.oo  M. 
+
+17/18  Symbole  der  alten  Kirche,  ausgewählt  von  Prof. 
+Lic.  Hans  Lietzmann.    32  S.    0.80  M. 
+
+,19  Liturgische  Texte  ii  :  Ordo  missae  secundum  missalc 
+romanum,  herausgegeben  von  Prof.  Lic.  Hans  Lietz- 
+nn.    23  S.    0.40  M. 
+
+
+A.  Marcus  und  E.  Webkr's  Verlag  in  Bonn 
+
+
+I 
+
+
+20  Antike  Fluchtafeln,    ausgewählt  und  erklärt  von   Prol 
+
+Dr.  Richard  Wünsch.    28  S.    0.60  M.  t 
+
+21  Die  Wittenherger  u.  Leisniger  Kastenordnung  1522 
+
+1523,  herausg.v.  Prof.  Lic.  H.  Lietz mann.   24  S.  0.60  M 
+22/23  Die  ji'iDiscH-ARAMÄiscHEN  Papyri  VON  AssuAN  sprach 
+
+lieh  u.sachl.  erklärt  von  Lic.  Dr.  W.  Staerk.  3g  S.  i.ooM 
+24/25  Martin  Luthers  geistliche  Lieder  herausgegeben  voi 
+
+Prof.  Dr.  Albert  Leitzmann.    31   S.    0.60  M. 
+26/27/28  Lateinische  christliche  Inschriften  mit  einen 
+
+anhang  jüdischer  inschriften,  ausgewählt  und  erklärt  voi 
+
+Prof.  Dr.  Ernst  Diehl.    48  S.     1.20  M. 
+29/30  Res  gestae  divi  Avgvsti,  herausgegeben  und  erklär 
+
+von  Prof.  Dr.  Ernst  Diehl.    2.  Aufl.     40  S.     1.20  AJ 
+31    Zwei  neue  Evangelienfragmente,  herausgegeben   unt 
+
+erklärt  von  H.  B,  Swete.     15  S.    0,40  M. 
+^2   Aramäische  Urkunden  zur  Geschichte  des  Judentums  in 
+
+VI  und  V  Jahrhundert  vor  Chr.,  sprachlich  und  sachlici 
+
+erklärt  von  Prof.  Lic.  Dr.  W.  Staerk.      16  S.     0.60  M 
+33/34  Supplementum   Lvricum,    neue   bruchstücke  von  Ar 
+
+chilochus  Alcaeus  Sappho  Corinna  Pindar,  ausgewählt  un» 
+
+erklärt    von  Prof.  Dr.  Ernst    Diehl.     35  S.      i.oo  M 
+
+35  Liturgische  Texte  111 :  Die  konstantinopolitanische  mess 
+
+liturgie  vor  dem  IX  Jahrhundert :  Uebersichtliche  zu 
+sammenstellung  des  wichtigsten  quellenmaterials  von  Di 
+Anton  Baumstark.      16  S.     0.40  M. 
+
+36  Liturgische   Texte   iv  :    Martin    Luthers    Von    ordnun 
+
+gottesdiensts,  Taufbüchlein,  Formula  missae  et  communi 
+onis  1523  herausgegeben  von  Prof.  D.  Hans  Lietz 
+mann.     24  S.     0.60  M. 
+
+37  Liturgische  Texte  v:  Martin  Luthers  Deutsche  Mess 
+
+1526,  herausgegeben  von  Prof.  D.Hans  Lietz  man; 
+
+16  S.    0.40  M. 
+38/40  Altlateinische  Inschriften  von  Dr.  Ernst  Di  eh 
+
+64  S.     1.80  M; 
+^  1/43  Fasti  Consulares  Imperii  Romani    von  30  v.  Ch 
+
+bis  565  n.  Chr.  mit  Kaiserliste  und  Anhang  bearbeitet  vo 
+
+Will y  Lieb enam.      128  S.     3  M.,  gbd.  3.40  M. 
+44/46  Menandri  reliquiae  nuper  repertae  herausgegeben  vo 
+
+Prof.  Dr.  Siegfried  Sudhaus.     65  S.      1.80  M. 
+47/4Q  Lateinische  altkirchliche  Poesie  ausgewählt  vc 
+
+Prof.  D.   Hans  Lietzmann.     64  S.      1.50  M. 
+50/51    Urkunden    zur    Geschichte    des    Bauernkriegf 
+
+ixD    der   Wiedertäufer    herausgegeben    von    Dr.    l 
+
+Böhmer.     36  S.     0.80  M. 
+
+
+Ftommannich«  BuchtUuckerei  iUaroMJiii  FaU^  in  Jena.  —   304 4 
+
+
+r/  v/  ~>y 
+
+
+PLEASE  DO  NOT  REMOVE 
+CARDS  OR  SLIPS  FROM  THIS  POCKET 
+
+
+UNIVERSITY  OF  TORONTO  LIBRARY 
+
+
+Boehmer,  Heinrich 
+
+Urkunden  zur  Geschichte 
+des  Bauernkrieges  und  der 
+Wiedertäufer 
+
+

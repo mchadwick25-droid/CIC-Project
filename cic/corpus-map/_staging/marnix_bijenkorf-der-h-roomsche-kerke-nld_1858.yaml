@@ -1,0 +1,32 @@
+# Vendored for Atlas VI.9 (Dutch Further Reformation and Refuge Culture) by the
+# Era VII library session, 2026-10-16; see that world's Source Readiness Dossier.
+source_file: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858.txt
+
+assignments:
+  - row_id: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858--de-bijenkorf-der-h-roomsche-kerke
+    work: "De Bijenkorf der H. Roomsche Kerke (1569; 1858 edition with introduction and variants)"
+    author: marnix
+    locus: "volume 1: the 1858 'Inleiding' after line 188, 'Voor-reden des boecks' at line 793, the Bijenkorf text to the 'Inhoud' at line 13028; volume 2 from 'Tweede boekdeel' at line 13256 to its 'Inhoud' at line 23722"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      Marnix van Sint-Aldegonde's satire on the Roman church, written in exile in 1569 by the
+      Reformed nobleman who became William of Orange's confidant: the Revolt-era voice of the
+      refuge, at the front edge of the window. Dutch original, clean OCR, primary voice ready
+      to quote once verified. The 1858 editorial introduction and variants are not Marnix's.
+      The contemporary English translation (Gilpin, 1579) is public domain but its microfilm
+      OCR is black-letter garbled; see the dossier.
+  - row_id: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858--de-bijenkorf-der-h-roomsche-kerke-2
+    work: "De Bijenkorf der H. Roomsche Kerke (1569)"
+    author: marnix
+    locus: "the Bijenkorf text as above"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: >
+      A contemporary opponent's polemic against the post-Tridentine church (Sonnius, the first
+      bishop of Antwerp, is its addressee). Placed on its subject; not read for Trent-specific
+      matter.

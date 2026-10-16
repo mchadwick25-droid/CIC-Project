@@ -1,0 +1,19 @@
+# Vendored for Atlas VI.9 (Dutch Further Reformation and Refuge Culture) by the
+# Era VII library session, 2026-10-16; see that world's Source Readiness Dossier.
+source_file: schurman_learned-maid_1659.txt
+
+assignments:
+  - row_id: schurman_learned-maid_1659--the-learned-maid-or-whether-a-maid-may-be-a-scholar
+    work: "The Learned Maid; or, Whether a Maid may be a Scholar? (1659 English rendering of the Dissertatio, with letters)"
+    author: schurman
+    locus: "the 'Logicall Exercise' from line 280; the letters from line 1946 (to Gassendi at line 1952, to a 'Most Noble Lady' at line 2140) to the end"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      Anna Maria van Schurman (Utrecht, 1607-1678), the learned woman of Voetius' circle,
+      arguing in 1641 that a Christian woman should study letters. The census names the 1998
+      Irwin translation (in copyright); this 1659 London rendering is the public-domain one.
+      Primary voice in English, second-rate OCR: quote only after checking the page image. The
+      Latin is in schurman_opuscula-lat_spanheim1648.txt.

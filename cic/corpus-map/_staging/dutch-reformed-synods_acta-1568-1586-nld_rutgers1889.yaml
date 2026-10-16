@@ -1,0 +1,31 @@
+# Vendored for Atlas VI.9 (Dutch Further Reformation and Refuge Culture) by the
+# Era VII library session, 2026-10-16; see that world's Source Readiness Dossier.
+source_file: dutch-reformed-synods_acta-1568-1586-nld_rutgers1889.txt
+
+assignments:
+  - row_id: dutch-reformed-synods_acta-1568-1586-nld_rutgers1889--acta-van-de-nederlandsche-synoden-der-zestiende-eeuw
+    work: "Acta van de Nederlandsche Synoden der zestiende eeuw (Wezel 1568, Emden 1571, Dordrecht 1574 and 1578, Middelburg 1581, 's-Gravenhage 1586)"
+    author: dutch-reformed-synods
+    locus: "'Inhoud' at line 334; Wezel articles from line 562; Emden acts ('Acta ofte Handelinghen') from line 2912; Dordrecht 1574 from line 5713; Dordrecht 1578 from line 10658; Middelburg 1581 from line 15764; 's-Gravenhage 1586 from line 22366; Rutgers' introductions and the appended letters are marked as such in the 'Inhoud'"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      The founding synods of the Dutch Reformed church, held first in exile (Wezel, Emden) and
+      then in the liberated provinces: church order, discipline, catechism, the Belgic
+      Confession adopted, letters from the exile churches in England and Germany. The
+      institutional voice of the refuge becoming a national church, all inside the window.
+      Dutch (some Latin) original, clean OCR, primary voice ready to quote once verified;
+      Rutgers' 1889 introductions are editorial. No English translation exists.
+  - row_id: dutch-reformed-synods_acta-1568-1586-nld_rutgers1889--acta-van-de-nederlandsche-synoden-der-zestiende-eeuw-2
+    work: "Acta van de Nederlandsche Synoden der zestiende eeuw"
+    author: dutch-reformed-synods
+    locus: "the church orders of 1578, 1581 and 1586 (lines 10658, 15764, 22366 onward)"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: antecedent
+    confidence: provisional
+    note: >
+      The church order and confessional subscription the Remonstrants later contested were set
+      by these synods. Placed on that relation; not read for the later controversy.

@@ -1,0 +1,44 @@
+# Vendored for Atlas VI.9 (Dutch Further Reformation and Refuge Culture) by the
+# Era VII library session, 2026-10-16; see that world's Source Readiness Dossier.
+source_file: voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt
+
+assignments:
+  - row_id: voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891--voetius-catechisatie-over-den-heidelbergschen-catechismus-v1
+    work: "Voetius' Catechisatie over den Heidelbergschen Catechismus, v1 (catechism questions 1-68 (misery, redemption, the creed through the ascension and the church))"
+    author: voetius
+    locus: "Kuyper's 'Inleiding' from line 89 (dated Amsterdam, 13 June 1891, line 775); Voetius' preliminary questions on religion and scripture follow, then catechism questions 1 to 68 ('Vrage 1.' and so on, headings as printed) to the end of the volume"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      Gisbertus Voetius (1589-1676), Utrecht professor and the census's named Nadere
+      Reformatie theologian, teaching the Heidelberg Catechism by question and answer; taken
+      down and printed by Poudroyen in 1662, so the text sits at the late edge of the window
+      (Voetius' Utrecht ministry began 1634). Dutch original, primary voice, clean OCR, ready
+      to quote once verified. No public-domain English translation exists; Kuyper's 1891
+      introduction is editorial.
+  - row_id: voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891--voetius-catechisatie-over-den-heidelbergschen-catechismus-v1-2
+    work: "Voetius' Catechisatie, v1"
+    author: voetius
+    locus: "Kuyper's 'Inleiding' from line 89 (dated Amsterdam, 13 June 1891, line 775); Voetius' preliminary questions on religion and scripture follow, then catechism questions 1 to 68 ('Vrage 1.' and so on, headings as printed) to the end of the volume"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: >
+      Voetius sat at Dort (1618-19) and these lessons name the Remonstranten among the errors
+      refuted. A contemporary opponent's teaching voice for the Remonstrant entry; placed on
+      his role and the sampled text, not read through for Remonstrant matter.
+  - row_id: voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891--voetius-catechisatie-over-den-heidelbergschen-catechismus-v1-3
+    work: "Voetius' Catechisatie, v1"
+    author: voetius
+    locus: "Kuyper's 'Inleiding' (volume 1, from line 89) and the whole reissue"
+    atlas_ids:
+      - dutch-neo-calvinism-secession-churches
+    role: antecedent
+    confidence: provisional
+    note: >
+      Abraham Kuyper reissued Voetius in 1891 with his own introduction, claiming him as the
+      authority the Neo-Calvinist churches argued from. Placed on that editorial fact;
+      Kuyper's introduction was not read in full.

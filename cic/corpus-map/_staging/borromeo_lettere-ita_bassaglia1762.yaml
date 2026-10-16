@@ -1,0 +1,13 @@
+source_file: borromeo_lettere-ita_bassaglia1762.txt
+
+assignments:
+  - row_id: borromeo_lettere-ita_bassaglia1762--lettere-1762
+    work: "Lettere del glorioso arcivescovo di Milano S. Carlo Borromeo (Venice, 1762)"
+    author: borromeo
+    locus: "printer's 'AVVISO' at file line 54 and 'PREFAZIONE' at 130 (editorial); the letters from line 619 ('Di Milano alli xi. di Marzo MDLXXVIIII') through the letter from Rome at line 2899 and the following letters; the printer's book catalogue at the end of the file is not Borromeo's text"
+    atlas_ids:
+      - tridentine-parish-renewal-borromean-milan
+    role: tradition
+    confidence: assigned
+    note: >
+      Borromeo's own letters, in Italian, dictated to his secretary and annotated and signed by him, to his agent at Rome Cesare Speciano, 1579-1581, copied from the Ambrosiana originals; his autograph additions are marked (a). His own administrative and pastoral voice, including the seminary and the Milan Jesuits. Caveat: a purposeful selection printed in 1762 during the campaign against the Society of Jesus, chosen for his disputes with the Jesuits; not his whole correspondence, and the printer admits leaving letters out. Legible OCR, long s read as f in places; verify against page images before quoting. No English translation exists (a French one of 1762 is on archive.org as 10569301bsb).

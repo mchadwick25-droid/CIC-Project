@@ -31,3 +31,20 @@ assignments:
       world.
 
       '
+
+  - row_id: calvin_letters-vol2_bonnet1858--letters-to-somerset-edward-vi-and-cranmer-1548-1552
+    work: 'Letters of John Calvin, Vol. II: the letters to the Protector Somerset (CCXXIX, CCLVII), to Edward
+      VI (CCLXXIV) and to Archbishop Cranmer (CCXCVIII, CCCXIV), 1548-1552'
+    author: calvin
+    locus: CCXXIX at file line 8702; CCLVII at 12073; CCLXXIV at 14012; CCXCVIII at 16620; CCCXIV at 18559
+    atlas_ids:
+    - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: assigned
+    note: 'Geneva''s advice to the Edwardian Reformation in its own words: Calvin urging Somerset to a complete
+      reformation by preaching and the correction of abuses (October 1548), pressing Cranmer for an assembly
+      of the learned of all the Reformed churches (July 1552), and exhorting the young king to persevere
+      (January 1551), as the edition''s own summaries describe each letter. The outside Reformed voice the
+      English church listened to and did not simply follow. Context; same time, different region.
+
+      '

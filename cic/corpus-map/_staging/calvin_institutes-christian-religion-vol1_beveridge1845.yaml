@@ -17,3 +17,18 @@ assignments:
       Calvin's own systematic theology, 1559 final Latin edition, in the
       standard-cited Beveridge 1845 English translation. Book I: the
       knowledge of God as Creator, the created order, providence.
+
+  - row_id: calvin_institutes-christian-religion-vol1_beveridge1845--institutes-book-ii-against-the-anabaptists-on-oaths
+    work: Institutes of the Christian Religion, Book II.8.26-27 (the Anabaptists' rejection of oaths refuted)
+      and II.10 (the Anabaptists on the Old Testament)
+    author: calvin
+    locus: II.8 section 26 summary at file line 23729; II.10 summary naming Servetus and the Anabaptists
+      at 27053, text at 27196
+    atlas_ids:
+    - the-anabaptist-movements
+    role: context
+    confidence: assigned
+    note: 'Calvin against the Anabaptist refusal of the oath (Schleitheim article 7) and their reading of
+      the two testaments. Same time, different region. Read at the loci given, 2026-10-16.
+
+      '

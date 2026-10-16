@@ -1,0 +1,23 @@
+# Vendored for the Huguenots (Atlas VI.6) by the Era VII library session,
+# 2026-10-16. Tome 1 (the memoirs) of de Witt's 1868-69 edition; tome 2
+# (letters and the editor's Notice) is a verified lead, archive.org
+# mmoiresdemadam02mornuoft. The English translation (Crump 1926) is
+# vendored beside it.
+source_file: mornay-charlotte_memoires-de-madame-de-mornay-t1-fra_de-witt1868.txt
+
+assignments:
+  - row_id: mornay-charlotte_memoires-de-madame-de-mornay-t1-fra_de-witt1868--memoires-de-madame-de-mornay-tome-premier
+    work: "Memoires de Madame de Mornay (the life of Philippe du Plessis-Mornay, written for their son), Tome premier"
+    author: mornay-charlotte
+    locus: "de Witt's Sommaires (editorial) from file line 131; the memoirs proper follow, from the dedication to her son and the year 1549, with the editor's footnotes"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      A Huguenot woman's own French: her escape from the St Bartholomew's
+      massacre (1572), the refuge at Sedan, the court of Navarre, the
+      consistory of Montauban's censure of her (1584), the years of the
+      League. Primary voice; clean OCR; quotable once checked against the
+      page image. The English is in
+      mornay-charlotte_huguenot-family-in-the-xvi-century_crump1926.txt.

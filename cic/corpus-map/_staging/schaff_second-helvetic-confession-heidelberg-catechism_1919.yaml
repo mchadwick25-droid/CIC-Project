@@ -57,3 +57,46 @@ assignments:
       consistent with the floor. A distinct pastoral/catechetical voice
       alongside Calvin's Geneva Catechism, from the Reformed tradition's
       German wing.
+
+  - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--second-helvetic-confession-against-the-anabaptists
+    work: 'The Second Helvetic Confession (1566): the passages against the Anabaptists'
+    author: bullinger
+    locus: file lines 1222 (ministers' maintenance), 1294 ('We are therefore no Anabaptists'), 1571 (the
+      magistracy)
+    atlas_ids:
+    - the-anabaptist-movements
+    role: context
+    confidence: assigned
+    note: 'The Swiss Reformed confession''s explicit condemnations of the Anabaptists on baptism and the
+      magistracy, from the same Swiss lands a generation after Schleitheim. Same time and place. Read at
+      the loci given, 2026-10-16. Author slug as the existing staging file uses it for this confession;
+      if that file uses another slug, use that one.
+
+      '
+
+  - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563-2
+    work: The Heidelberg Catechism (1563)
+    author: ursinus-olevianus
+    locus: Sec. 69 of the source volume (original pp. 529-554); file line 1598 onward
+    atlas_ids:
+    - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: 'The Dutch Reformed church''s own catechism: Schaff''s introduction in this very file (line 2724)
+      records that the synods of Emden 1571 and Dort 1574 "recommended and enjoined its use", and Voetius''
+      whole Catechisatie (vendored 2026-10-16) is a commentary on it. Read for this placement. A second
+      English expression is in reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt.
+
+      '
+  - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563-3
+    work: The Heidelberg Catechism (1563)
+    author: ursinus-olevianus
+    locus: Sec. 69 of the source volume; file line 1598 onward
+    atlas_ids:
+    - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: 'The catechism whose revision the Remonstrants sought and the Synod of Dort reaffirmed. Placed
+      on that relation only; left to the Remonstrants-and-Dort agent to confirm or recast.
+
+      '

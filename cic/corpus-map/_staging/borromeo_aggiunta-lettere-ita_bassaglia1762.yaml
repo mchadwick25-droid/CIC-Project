@@ -1,0 +1,13 @@
+source_file: borromeo_aggiunta-lettere-ita_bassaglia1762.txt
+
+assignments:
+  - row_id: borromeo_aggiunta-lettere-ita_bassaglia1762--aggiunta-lettere-1762
+    work: "Aggiunta di una nuova raccolta di lettere di S. Carlo Borromeo (Venice, 1762)"
+    author: borromeo
+    locus: "'IL LIBRAIO a chi legge' at file line 51 (editorial); the letters from line 645 ('Di Roma XXV. di Luglio MDLXXVIIII') to the end"
+    atlas_ids:
+      - tridentine-parish-renewal-borromean-milan
+    role: tradition
+    confidence: assigned
+    note: >
+      Supplement to the 1762 Venice Lettere: further letters of 1579-1581 reprinted from the Lugano Nuova raccolta, on the same seminary and Jesuit matters. Same purposeful selection and the same caveats as borromeo_lettere-ita_bassaglia1762.txt. Legible OCR, long s read as f in places.

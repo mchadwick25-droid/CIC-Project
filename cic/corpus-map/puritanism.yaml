@@ -102,6 +102,50 @@ works:
 
     '
   source_file: barlow-william_summe-and-substance-hampton-court-conference_1804.txt
+- row_id: barlow-william_summe-and-substance-hampton-court-conference_1804--the-hampton-court-conference-1604-puritanism
+  work: The Summe and Substance of the Conference at Hampton Court, January 1604 (the Puritan
+    ministers' requests and the king's answers, as reported by Dean Barlow)
+  author: barlow-william
+  locus: whole file (3754 lines); the Puritans' objections from about file line 192
+  role: context
+  confidence: assigned
+  note: 'The one official record of the Puritan party''s hearing before James I (Reynolds
+    and the ministers of the Millenary Petition), written by a conformist dean and hostile
+    in its framing; what the godly asked for in 1604 survives here only in their opponents''
+    report. Cross-link tier: same time and place.
+
+    '
+  source_file: barlow-william_summe-and-substance-hampton-court-conference_1804.txt
+- row_id: beza_job-expounded_legatt1589--job-expounded-in-english-for-the-godly-reader-1589-puritanism
+  work: Job Expounded by Theodore Beza, in the 1589 English translation printed by John Legatt,
+    Cambridge
+  author: beza
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'Beza englished for the Cambridge godly by the same university printer who issued
+    Perkins''s Golden Chaine in 1600 (perkins_golden-chaine-and-treatises_legat1600.txt, whose
+    title page names Beza''s table); evidence of the Genevan divinity the English Puritans
+    read, not a Puritan voice itself. Provisional, placed on printer, place and date. Cross-link
+    tier: same time and place.
+
+    '
+  source_file: beza_job-expounded_legatt1589.txt
+- row_id: church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910--parker-s-advertisements-and-the-vestiarian-enforcement-puritanism
+  work: Archbishop Parker's Advertisements (1566) and the Elizabethan visitation articles
+    enforcing the surplice and ceremonies, 1559-1575
+  author: church-of-england
+  locus: Parker's Advertisements listed as item XXXVII in the contents (file line 159); the
+    surplice and cope enforcement at about line 3402
+  role: context
+  confidence: provisional
+  note: 'The enforcement documents of the vestiarian controversy, the moment the word ''puritan''
+    was coined for the London ministers who refused the surplice in 1566. The establishment''s
+    own orders, placed as context on the window; the volume was not read for this purpose
+    beyond its contents list. Cross-link tier: same time and place.
+
+    '
+  source_file: church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910.txt
 - row_id: church-of-england_liturgical-services-elizabeth-1559_clay1847--the-book-of-common-prayer-1559-with-the-litany-and-the-ordinal-2
   work: The Book of Common Prayer (1559), with the Litany and Suffrages (1559) and the Form
     and Manner of making Bishops, Priests and Deacons (1559)
@@ -118,6 +162,20 @@ works:
 
     '
   source_file: church-of-england_liturgical-services-elizabeth-1559_clay1847.txt
+- row_id: church-of-england_liturgical-services-elizabeth-1559_clay1847--the-book-of-common-prayer-1559-puritanism
+  work: The Book of Common Prayer (1559), with the Litany and the Ordinal
+  author: church-of-england
+  locus: 'as the VI.4 row: Litany from file line 1593, the 1559 Prayer Book from its contents
+    at line 2660, the Ordinal at line 17772'
+  role: context
+  confidence: provisional
+  note: 'The book the Admonition''s View of Popish Abuses attacks clause by clause (admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt)
+    and the Westminster Directory of 1645 replaced. Placed as the opposed text; provisional
+    because the Puritan objections were not matched to the book''s own wording this pass.
+    Cross-link tier: same time and place.
+
+    '
+  source_file: church-of-england_liturgical-services-elizabeth-1559_clay1847.txt
 - row_id: church-of-england_two-books-of-homilies_griffiths1859--the-second-book-of-homilies-1563-1571-2
   work: The Second Book of Homilies (1563/1571), including Against Peril of Idolatry and the
     Homily against Disobedience and Wilful Rebellion
@@ -129,6 +187,19 @@ works:
     the Homilies are the conformist pulpit the Puritan movement defined itself against, and
     also the text its own preachers were bound to. Placed as the establishment''s text the
     Puritan world argued with; provisional, on window and place.
+
+    '
+  source_file: church-of-england_two-books-of-homilies_griffiths1859.txt
+- row_id: church-of-england_two-books-of-homilies_griffiths1859--the-two-books-of-homilies-puritanism
+  work: The Two Books of Homilies appointed to be read in Churches
+  author: church-of-england
+  locus: as the VI.4 rows
+  role: context
+  confidence: provisional
+  note: 'The Admonition''s Certaine Articles defend the charge that reading homilies in church
+    is ''as evill as playing on a stage'' (the Manifestoes file, about line 8560); the Homilies
+    are the text the Puritan preaching ministry defined itself against. Context on that basis;
+    the Homilies themselves were not read this pass.
 
     '
   source_file: church-of-england_two-books-of-homilies_griffiths1859.txt
@@ -163,6 +234,21 @@ works:
 
     '
   source_file: dedham-classis_minute-book_usher1905.txt
+- row_id: foxe_acts-and-monuments-v8_cattley-townsend1837--the-marian-martyrs-as-read-by-the-godly-household-puritanism
+  work: The Acts and Monuments of John Foxe, Vol. VIII (the Marian martyrs, 1555-1558)
+  author: foxe
+  locus: as the VI.4 rows
+  role: context
+  confidence: provisional
+  note: 'The Book of Martyrs is the one book Lady Hoby''s diary records being read aloud to
+    her household (hoby_diary-1599-1605_meads1930.txt, file line 9984, ''hard one read of
+    the Booke of Marters''; Meads''s note at line 14952 on Bright''s abridgement). Whether
+    this makes Foxe an antecedent for VI.8 under the README''s ''argues from'' rule, or context
+    only, is an open question for the lead (dossier section 5); placed as context, provisional,
+    until ruled. Cross-link tier: same time and place.
+
+    '
+  source_file: foxe_acts-and-monuments-v8_cattley-townsend1837.txt
 - row_id: hoby_diary-1599-1605_meads1930--diary-of-lady-margaret-hoby-1599-1605
   work: Diary of Lady Margaret Hoby, 1599-1605 (B.M. MS. Egerton 2614)
   author: hoby
@@ -178,6 +264,21 @@ works:
 
     '
   source_file: hoby_diary-1599-1605_meads1930.txt
+- row_id: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850--preface-to-the-laws-of-ecclesiastical-polity-puritanism
+  work: Of the Laws of Ecclesiastical Polity, the Preface 'to them that seek (as they term
+    it) the reformation of laws and orders ecclesiastical in the Church of England', with
+    Books I-V
+  author: hooker
+  locus: the Preface (heading PREFACE at file line 4122; Walton's Life names Cartwright from
+    line 1877); the five Books follow
+  role: context
+  confidence: assigned
+  note: 'The establishment''s considered answer to the Admonition and Cartwright line, addressed
+    to the Puritans directly; the view of this world from its most able opponent. Contemporary
+    opponent, so context by the README rule. Cross-link tier: same time and place.
+
+    '
+  source_file: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850.txt
 - row_id: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850--of-the-laws-of-ecclesiastical-polity-preface-and-books-i-v-2
   work: Of the Laws of Ecclesiastical Polity, the Preface and Books I-V (1593-1597)
   author: hooker

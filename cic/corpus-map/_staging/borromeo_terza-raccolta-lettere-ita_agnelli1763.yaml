@@ -1,0 +1,13 @@
+source_file: borromeo_terza-raccolta-lettere-ita_agnelli1763.txt
+
+assignments:
+  - row_id: borromeo_terza-raccolta-lettere-ita_agnelli1763--terza-raccolta-lettere-1763
+    work: "Terza raccolta di lettere inedite di S. Carlo Borromeo (Lugano, 1763)"
+    author: borromeo
+    locus: "Agnelli's dedication from the head of the file and 'EDITORE a chi legge' at line 167 (editorial, openly anti-Jesuit); the letters from about line 400 ('LETTERA III.' at 665; most letter headings are not caught by the OCR); 'INDICE UNIVERSALE' of all three collections, in date order with one-line summaries, from line 7789"
+    atlas_ids:
+      - tridentine-parish-renewal-borromean-milan
+    role: tradition
+    confidence: assigned
+    note: >
+      Third collection of Borromeo's letters, 1567-1584, on the seminary, the Jesuits of Milan and diocesan government, with letters to and from Cesare Speciano and others; the closing chronological index summarises every letter in all three collections and is the quickest way into them. Same purposeful anti-Jesuit selection of 1762-63; the dedication says so itself. Legible OCR, long s read as f throughout, some broken words; verify against page images before quoting.

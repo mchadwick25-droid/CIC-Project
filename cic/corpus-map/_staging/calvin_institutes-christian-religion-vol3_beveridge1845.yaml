@@ -16,3 +16,18 @@ assignments:
     note: >
       Book IV: the church, sacraments, and civil government - completes
       the Beveridge 1845 three-volume Institutes.
+
+  - row_id: calvin_institutes-christian-religion-vol3_beveridge1845--institutes-book-iv-against-the-anabaptists
+    work: 'Institutes of the Christian Religion, Book IV: the passages against the Anabaptists (IV.1 on
+      the church''s purity, IV.16 on infant baptism, IV.20 on civil government)'
+    author: calvin
+    locus: IV.1 at file line 1472; IV.16 arguments of the Anabaptists from line 15307 (sections 10 and 16
+      at 15710 and 15732); IV.20 on civil government, the Anabaptists' objections, from line 23300
+    atlas_ids:
+    - the-anabaptist-movements
+    role: context
+    confidence: assigned
+    note: 'Calvin''s sustained refutation of Anabaptist positions on the church, paedobaptism and the magistracy
+      (1559 text, Beveridge''s English). Same time, different region (Geneva). Read at the loci given, 2026-10-16.
+
+      '

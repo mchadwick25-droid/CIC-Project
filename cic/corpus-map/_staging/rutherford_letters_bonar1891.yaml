@@ -1,0 +1,33 @@
+source_file: rutherford_letters_bonar1891.txt
+
+assignments:
+  - row_id: rutherford_letters_bonar1891--letters-of-samuel-rutherford
+    work: "Letters of Samuel Rutherford (Letters I-CCCLXV, 1627-1661), with Bonar's Sketch of his Life and Biographical Notices of his Correspondents"
+    author: rutherford
+    locus: "Bonar's Preface at file line 77 and Contents of each letter from 120; 'LETTERS.' at 2954, Letter I at 2957 ('For Marion M'Naught') through Letter CCCLXV at 37429 ('To Mr. John Murray, Minister at Methven'); Index from 37496, Index of Special Subjects at 38269, Glossary at 38594, the Appendix on editions with the sample of the 1664 orthography at 41280-41284"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The Kirk's devotional voice at its most intense: the Anwoth minister's
+      letters to his parishioners and to Lady Kenmure and Marion M'Naught,
+      most of them from his confinement in Aberdeen (1636-1638), on Christ
+      as bridegroom, suffering and the Covenant. Bonar modernised the
+      spelling; the original orthography survives only in the appendix
+      sample and in the seventeenth-century printings. Primary voice, ready
+      to quote once checked against the page image; OCR sampled clean.
+      Bonar's biographical notices before each letter are editorial.
+  - row_id: rutherford_letters_bonar1891--letters-of-samuel-rutherford-2
+    work: "Letters of Samuel Rutherford: the London letters of 1643-1647 (Rutherford as a Scottish commissioner at the Westminster Assembly)"
+    author: rutherford
+    locus: "letters dated from London within the chronological sequence, file lines 2957-37480"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      Rutherford sat in the Westminster Assembly for four years and wrote
+      from London; his Letters were reprinted for English Puritan and later
+      Nonconformist readers. Placed on that relation; the London letters were
+      not read for this pass.

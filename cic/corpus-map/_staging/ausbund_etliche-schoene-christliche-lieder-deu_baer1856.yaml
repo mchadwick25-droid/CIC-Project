@@ -1,0 +1,24 @@
+# Vendored by the library/source-research thread (Era VII session,
+# one-world agent for the-anabaptist-movements, 2026-10-16): a clean
+# printing of the hymnal already in the corpus as
+# ausbund_lancaster1846-deu.txt (garbled OCR).
+source_file: ausbund_etliche-schoene-christliche-lieder-deu_baer1856.txt
+
+assignments:
+  - row_id: ausbund_etliche-schoene-christliche-lieder-deu_baer1856--ausbund-das-ist-etliche-schoene-christliche-lieder-1856
+    work: "Ausbund, das ist: Etliche schöne christliche Lieder (Lancaster, 1856 printing)"
+    author: ausbund
+    locus: "whole volume: Vorrede at file line 93; hymns headed 'Das 1 Lied.' (line 250) onward; Register of first lines at 38321; CONFESSIO of Thomas von Imbroich at 38814; the Bericht of the Swiss Brethren follows it; 'Sechs schöne geistliche Lieder' appendix from 41903"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      The movement's own hymnal, the prison hymns the census names, in a
+      clean Fraktur OCR (0.90 of word tokens read as words against 0.53
+      in the 1846 file, sampled at five points). This is the witness to
+      quote from, verified against its page images; the 1846 file stays
+      as the record of its own scan. Primary voice, in German. The
+      appended Confessio of Thomas von Imbroich (martyred Cologne 1558)
+      is a distinct work bound in; a later pass may split it out. No
+      public-domain English translation exists.

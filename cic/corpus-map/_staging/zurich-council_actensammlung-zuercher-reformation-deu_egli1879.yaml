@@ -1,0 +1,40 @@
+# Vendored by the library/source-research thread (Era VII session,
+# one-world agent for the-anabaptist-movements, 2026-10-16). The Zurich
+# council's own acts, 1519-1533: the Täufer trial records sit inside the
+# record of the whole Zurich Reformation, so the volume serves two worlds.
+source_file: zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt
+
+assignments:
+  - row_id: zurich-council_actensammlung-zuercher-reformation-deu_egli1879--actensammlung-zur-geschichte-der-zuercher-reformation-1519-1533
+    work: "Actensammlung zur Geschichte der Zürcher Reformation in den Jahren 1519-1533 (Egli, 1879)"
+    author: zurich-council
+    locus: "the Täufer documents within the year sections 1525 (heading at file line 17205) through 1533 (first heading at 51850); numbered documents Nr. 1-2001, the last (2001.) at line 54089; the Personenregister follows from line 60107"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      Zurich's council, court and chancery records of the first
+      Anabaptists: mandates against rebaptism, interrogations, trial
+      records and sentences of Grebel, Manz, Blaurock and the Zollikon and
+      Grüningen groups, 1525 onward, in sixteenth-century Swiss German
+      with Egli's regesta. Primary voice for the court-testimony genre,
+      coerced speech inside a hostile frame, as the census warns. Clean
+      Antiqua OCR, sampled at five points; ready to quote once verified
+      against the page images. No public-domain English translation
+      (Harder 1985 is in copyright).
+  - row_id: zurich-council_actensammlung-zuercher-reformation-deu_egli1879--actensammlung-zur-geschichte-der-zuercher-reformation-1519-1533-2
+    work: "Actensammlung zur Geschichte der Zürcher Reformation in den Jahren 1519-1533 (Egli, 1879)"
+    author: zurich-council
+    locus: "whole volume: year sections 1519 (file line 251) through 1533; numbered documents Nr. 1-2001"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      The council's own record of the Zurich Reformation under Zwingli,
+      1519-1533: mandates, disputations, the dissolution of the
+      monasteries, the Ehegericht, the Kappel wars. Institutional primary
+      voice of the city church, in German. Placed here because the Zurich
+      portions were read while checking the Täufer material; the Reformed
+      Cities build thread decides its weight.

@@ -1,0 +1,26 @@
+# Vendored by the library/source-research thread (Era VII session,
+# one-world agent for the-anabaptist-movements, 2026-10-16), closing the
+# Taeuferakten lead named open in the world's Step 0 (section 4, item 6).
+source_file: taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt
+
+assignments:
+  - row_id: taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930--quellen-zur-geschichte-der-wiedertaeufer-i-herzogtum-wuerttemberg
+    work: "Quellen zur Geschichte der Wiedertäufer, I. Band: Herzogtum Württemberg (Bossert, 1930)"
+    author: taeuferakten-wuerttemberg
+    locus: "whole volume: Vorwort from file line 259, Einleitung from 392, the 1,256 numbered documents in year order from about line 1300 to the last number (1256.) at line 55585, then Nachträge, Personenregister from 70311 and Sachregister from 76572"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      The Täuferakten volume for the duchy of Württemberg: ducal mandates,
+      visitation and interrogation reports, the prisoners' own confessions
+      and answers, and lists of Täufer, 1521/1527 to 1641, in German.
+      Primary voice for the court-testimony genre the census names, read
+      with the caution the census itself gives (testimony under
+      interrogation is coerced speech, and the authorities' regesta are
+      the hostile frame around it). Clean Antiqua OCR, sampled at five
+      points; ready to quote once each passage is verified against the
+      page images. No public-domain English translation exists. The scan
+      reproduces the 1971 Johnson Reprint of the 1930 Leipzig edition;
+      the rights basis is the 1930 publication date.
