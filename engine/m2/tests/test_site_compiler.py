@@ -8,6 +8,8 @@ import json
 
 from engine.m2.site_compiler import compile_world_front
 
+CHECKED_ON = "2026-10-16"
+
 STORY = {
     "id": "fix.story.the-long-road",
     "record_type": "story",
@@ -175,7 +177,7 @@ def test_documented_story_carries_the_story_records_telling_and_never_its_text()
 def test_highlights_pass_through_with_their_grounding_or_reference():
     highlights = [
         {"phrase": "the elder", "kind": "person", "note": "Who the elder was.", "grounded_in": [STORY["id"]]},
-        {"phrase": "Cirta", "kind": "place", "note": "Today Constantine.", "url": "https://pleiades.stoa.org/places/1", "verified_on": "2026-10-16"},
+        {"phrase": "Cirta", "kind": "place", "note": "Today Constantine.", "url": "https://pleiades.stoa.org/places/1", "verified_on": CHECKED_ON},
     ]
     world_front = {**WORLD_FRONT, "orientation": {**WORLD_FRONT["orientation"], "highlights": highlights}}
     payload = compile_world_front(world_front, RECORDS, {}, compiler_version="v", records_commit="c")

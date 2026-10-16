@@ -38,230 +38,133 @@ skim:
 orientation:
   story:
   - text: >-
-      This world's own record runs from 311 or 312 to 439, centered on
-      Carthage and the Roman provinces of North Africa - Africa
-      Proconsularis, Numidia, Byzacena, and Mauretania. It is not a
-      doctrinal heresy. Both this communion and the rival it split from
-      confessed the same Nicene faith, word for word. What was
-      contested was narrower and sharper: whether a bishop's own
-      conduct under persecution could void what his hand later gave.
-      One conviction runs through everything this world did - purity,
-      rite, memory, and refusal are four faces of a single claim: this
-      is the pure, persecuted, true church, proved by what it will not
-      concede and by what it has suffered for refusing to concede it.
+      From around 311 until 439, two rival churches stood side by side
+      in Roman North Africa, centered on Carthage. Both confessed the
+      same Nicene faith, word for word. They split over one question.
+      Could a bishop's conduct under persecution void what his hand
+      later gave? One side said yes. It called itself the Church of the
+      Martyrs, the one pure, persecuted and true church. History calls
+      its members Donatists, after an early bishop, though nothing
+      suggests they chose that name.
     grounded_in: [don.core.donatism]
   - text: >-
-      The conviction was not new in 311. Half a century earlier,
-      eighty-seven African bishops meeting at Carthage under Cyprian
-      had already ruled that baptism given outside the true church
-      washes nothing. This world's founders read themselves as
-      continuing that African ruling, not inventing one - a claim
-      their own opponents had to answer at length, arguing that
-      Cyprian, however holy, was not a canonical authority. Then came
-      the Diocletianic persecution of 303 to 305, and a demand no
-      earlier dispute had tested: that clergy surrender the scriptures
-      themselves, on pain of death. Some did. Some refused and suffered
-      for it. What a minister did in that one moment, this world held,
-      was not incidental to whether his hand could be trusted
-      afterward.
-    grounded_in: [don.force.cyprianic-rigorist-inheritance, don.term.purity-ministerial, don.force.diocletianic-persecution-traditio-demand]
+      The quarrel began in the persecution of 303 to 305. Officials
+      demanded that clergy hand over the scriptures or die. Some did.
+      Others refused and suffered for it. This church held that what a
+      minister did in that moment decided whether his hand could be
+      trusted afterward. When it ended, Caecilian was elected bishop of
+      Carthage. Felix of Aptungi, who ordained him, was accused of
+      handing over the scriptures. If that was true, this church held,
+      the new bishop was no bishop at all. A rival party made Majorinus
+      bishop in his place. The emperor later had the charge against
+      Felix tried, and Felix was cleared. This church never accepted
+      that one hearing could settle the whole dispute.
+    grounded_in: [don.force.diocletianic-persecution-traditio-demand, don.term.purity-ministerial, don.figure.caecilian, don.figure.felix-of-aptungi, don.figure.majorinus, don.gravity.ministerial-purity, don.story.acta-purgationis-felicis]
   - text: >-
-      The rupture itself began, as this world's own record tells it,
-      with a personal rebuke. A wealthy laywoman of Carthage, Lucilla,
-      kissed a martyr's bone before communion; the archdeacon Caecilian
-      rebuked her for it in public, and she did not forget it. When
-      persecution passed and the bishop who had led Carthage through it
-      did not return, Caecilian was elected in his place over two
-      disappointed rivals - and the man who consecrated him, Felix of
-      Aptungi, was accused of having surrendered the scriptures
-      himself. On this world's own doctrine, that accusation, if true,
-      voided the consecration and everything flowing from it. A rival
-      party would not accept it: they consecrated Majorinus, from
-      Lucilla's own household, beside Caecilian rather than in his
-      place. Majorinus's successor Donatus gave the movement the name
-      history remembers it by, though nothing suggests his own people
-      chose that name for themselves. Lucilla is the one woman this
-      world's own record names - and she reaches us only inside the
-      hostile narrative that blamed her for the whole split.
-    grounded_in: [don.story.lucilla-affair, don.figure.lucilla, don.figure.caecilian, don.figure.felix-of-aptungi, don.figure.majorinus, don.figure.donatus, don.gravity.ministerial-purity]
-  - text: >-
-      Two founding-era inquiries complicate any tidy version of this
-      story, and this world's own record keeps both rather than
-      smoothing them away. Before the schism hardened, a council of
-      Numidian bishops at Cirta asked itself the same question it would
-      soon put to Caecilian: had any of them handed over the
-      scriptures? Several said yes. When the question turned back on
-      the bishop presiding, the room could not finish it, and simply
-      agreed to leave the matter to God. And when Constantine ordered a
-      formal inquiry into the accusation against Felix of Aptungi, it
-      did not vindicate the accusers: a notary confessed, under threat
-      of torture, that he had forged the letter used to prove the
-      charge - working, he said, for the rigorist side. This world's
-      own tradition never claimed that inquiry as a win. It held
-      instead that the wider dispute involved more people and more
-      evidence than one proceeding could settle.
-    grounded_in: [don.story.council-of-cirta, don.story.acta-purgationis-felicis, don.figure.felix-of-aptungi]
-  - text: >-
-      Seven years after the rival consecration, a Roman official
-      investigating the same money heard testimony that damages this
-      world's own founding generation more than any opponent's own
-      argument does. Letters from its own bishops, read into a court
-      record in 320, urge each other to keep a true accusation quiet
-      rather than let it reach a public court. One admits outright
-      that he knows the charge against a fellow bishop, Silvanus of
-      Cirta, is true. This world's own record does not hide the
-      letters. It keeps them, because hiding them was never this
-      world's own discipline.
-    grounded_in: [don.story.gesta-apud-zenophilum, don.figure.silvanus-of-cirta, don.figure.purpurius]
-  - text: >-
-      The doctrine had one enacted consequence, repeated for a century:
-      anyone crossing from the rival communion was washed again -
-      though this world never called it a second baptism. A hand from a
-      broken line, it held, had given nothing the first time, so what
-      happened at its own font was a person's first true entry into the
-      church, not a repetition of an empty rite. Successive imperial
-      edicts named the practice specifically as an offense, which tells
-      its own story about how public an act it was. The one clean
-      exception on record is a group of Maximianist clergy, discussed
-      below, received back without the rite repeated at all - the door
-      was not always as narrow as this world's own reputation for rigor
-      suggests.
+      The doctrine had one public consequence, repeated for a century.
+      Anyone who crossed over from the rival church was washed again.
+      This church never called it a second baptism. A hand from a broken
+      line had given nothing the first time, so its font marked a
+      person's first true entry into the church. Imperial edicts named
+      the practice as an offense.
     grounded_in: [don.gravity.rebaptism-boundary-marking, don.term.rebaptism]
   - text: >-
-      This world held two persecutions apart in memory, deliberately.
-      The Diocletianic terror was suffered alongside the eventual
-      rival, before the schism existed, and it supplied the founding
-      accusation. The Macarian repression of 347 to 348 was suffered
-      specifically at that same rival's own urging, through the
-      emperor's commissioners - and it supplied the dead this world
-      actually commemorates. A bishop named Marculus, who had already
-      given up worldly advancement before persecution ever reached him,
-      was shown a vision of a cup, a crown, and a palm during four days
-      of fasting, then thrown from a cliff called Novapetra. Two laymen
-      of Carthage, Isaac and Maximianus, were flogged and their bodies
-      weighted and sunk in the sea; their own bishop, Macrobius, wrote
-      to the surviving congregation that what had happened to those two
-      might yet be asked of any of them. Every year, at the grave, on
-      the appointed day, this world read such accounts aloud again -
-      not to remember something finished, but to be shown again what it
-      already believed itself to be. On two pillars near one of its own
-      principal towns, Bagai, two words are still legible, cut into
-      stone with no hostile hand between them and any later reader: Deo
-      laudes. Praise to God. It is the one piece of this world's own
-      voice that reached us unmediated.
-    grounded_in: [don.gravity.martyr-cult-identity, don.story.passio-marculi, don.story.macrobius-letter, don.quote.deo-laudes, don.term.deo-laudes]
+      Persecution came a second time in 347 and 348, and this time it
+      came at the rival church's urging, through the emperor's
+      commissioners. It gave this church the martyrs it remembered.
+      Bishop Marculus, after four days of fasting, was shown a cup, a
+      crown and a palm, then thrown from a cliff called Novapetra. Two
+      laymen of Carthage, Isaac and Maximianus, were flogged and sunk in
+      the sea. Every year, at the grave, the church read such accounts
+      aloud again.
+    grounded_in: [don.gravity.martyr-cult-identity, don.story.passio-marculi, don.story.macrobius-letter]
   - text: >-
-      By the fourth century's later decades this was not a fringe
-      protest but a complete, parallel church: its own bishops, its own
-      basilicas, its own councils, contesting the same towns as its
-      rival across four Roman provinces. At the great Conference of
-      Carthage in 411, two hundred and seventy-nine of its bishops
-      answered a roll call against two hundred and eighty-six from the
-      other side. In Numidia specifically, this world's own record
-      states plainly, it was not a minority current but simply the
-      ordinary church of the countryside.
+      By the later fourth century this was a full parallel church. It
+      had its own bishops, basilicas and councils, and it contested the
+      same towns as its rival. In Numidia it was simply the ordinary
+      church of the countryside.
     grounded_in: [don.gravity.parallel-institutional-hierarchy, don.dw.two-churches-in-one-town]
   - text: >-
-      The clearest statement of what this world would not concede is
-      five words remembered from its own founding bishop, reported
-      inside the very work written to refute him: what has the emperor
-      to do with the church? Rome's hearing in 313 and the Council of
-      Arles in 314 both ruled against this communion, and both rulings
-      were rejected - not because a council cannot decide anything, but
-      because a court whose venue and rules already belong to a state
-      that has picked a side is not the church judging itself. This
-      world's own record does not pretend the refusal was ever
-      absolute. Three times, at three real moments, it turned to the
-      very machinery it otherwise refused to recognize: petitioning
-      Constantine himself in 313, petitioning Julian for confiscated
-      basilicas back in 361, and invoking the empire's own
-      anti-heretical law against its own breakaway Maximianist
-      dissidents in the 390s. Each turn came at a moment the state
-      briefly offered something to gain by engaging it. This world's
-      own texts state the exceptions in the same breath as the
-      principle, and never treated naming the gap as requiring that it
-      be closed.
-    grounded_in: [don.term.refusal-of-imperial-legitimacy, don.quote.donatus-quid-est-imperatori, don.gravity.principled-refusal-vs-pragmatic-recourse]
+      Its bishop Donatus is remembered for one line, kept by the man who
+      wrote against him. What has the emperor to do with the church?
+      Rome's hearing in 313 and the Council of Arles in 314 ruled
+      against this church, and it rejected both rulings. A court run on
+      a state's terms, in its view, was not the church judging itself.
+      Still, its own texts admit exceptions. Three times it turned to
+      the state when that served its case. It petitioned Constantine in
+      313 and Julian in 361. In the 390s it invoked imperial law against
+      its own breakaway Maximianists.
+    grounded_in: [don.term.refusal-of-imperial-legitimacy, don.quote.donatus-quid-est-imperatori, don.gravity.principled-refusal-vs-pragmatic-recourse, don.figure.donatus]
   - text: >-
-      This world produced exactly one systematic theologian, and cut
-      him off. Tyconius, a layman, argued from Scripture - at length,
-      and too well to simply dismiss - that the church was spread
-      across the whole earth, which meant, followed to its own
-      conclusion, that the rival communion still in that wider
-      fellowship had not lost anything by staying in it. His own bishop
-      at Carthage told him never to preach it again. He did not recant,
-      and did not leave; he kept arguing from inside the party that had
-      silenced him, and was cut off for good, reportedly by a council
-      whose own act does not survive to be checked. His one surviving
-      book, the Book of Rules, crossed over anyway - read for centuries
-      afterward by the Catholic bishop, Augustine, who had helped
-      defeat the party that condemned its author.
-    grounded_in: [don.figure.tyconius, don.story.tyconius-condemnation, don.term.liber-regularum]
+      At the Conference of Carthage in 411, two hundred and seventy-nine
+      of its bishops faced two hundred and eighty-six from the other
+      side. They stood before an imperial judge, as Christ had stood
+      before his governor, and refused the chairs he offered. The judge
+      granted that the name Catholic belonged to whichever side held the
+      truth. Then he ruled that an imperial rescript had already given
+      the name to the other side.
+    grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.gravity.parallel-institutional-hierarchy]
   - text: >-
-      This world's own hardest tension is internal, not external, and
-      it kept the tension visible rather than resolving it. In 393 a
-      deacon named Maximian broke away and was consecrated a rival
-      primate; the following year a much larger council at Bagai, three
-      hundred and ten bishops strong, condemned his party in language
-      about shipwrecked bodies that could not even find burial. Then,
-      within a few years, that same council took two of the condemned
-      bishops back into full office - without repeating either their
-      baptism or their ordination. No explanation for holding both
-      positions survives from this world's own side. It did not hide
-      the exception. It is stated in the same conciliar record that
-      states the doctrine at its most absolute.
-    grounded_in: [don.story.bagai-reconciliation, don.gravity.purity-rigor-vs-institutional-reception]
+      The record closes in 439, when a Vandal army took Carthage. That
+      ended the Roman rule this church had defined itself against. The
+      contest went on under the Vandals, and then under the Eastern
+      empire. In the 590s Pope Gregory the Great wrote letters about
+      rebaptism still going on in Numidia, and pressed for an inquiry.
+      After that, the record goes silent. No line from it to any church
+      alive today has ever been shown.
+    grounded_in: [don.core.donatism]
   - text: >-
-      The clearest and least mediated look at this world's own bishops
-      arguing for themselves comes from the very end of its recorded
-      life. At the great Conference of Carthage in 411, an imperial
-      judge offered the standing bishops chairs; Petilian of Constantina
-      thanked him and refused, since Christ himself had not refused to
-      stand before his own governor. Emeritus of Caesarea carried the
-      argument for three days, holding the court to its own procedure
-      before its substance, and when the argument at last reached
-      Scripture, answered a wheat-and-tares reading verse for verse out
-      of the same books. He signed the transcript of his own words,
-      again and again, with his appeal reserved - putting his name to
-      the record while refusing, in the same stroke, to concede the
-      proceeding itself. The judge conceded, out loud, that the name
-      Catholic belonged to whichever side the truth was found with -
-      then ruled that he was nonetheless bound by an imperial rescript
-      that had already given the name to the other side.
-    grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.figure.emeritus, don.quote.emeritus-magno-argumento]
-  - text: >-
-      The window this account covers closes in 439, not because the
-      two-party contest itself ended there but because that year a
-      Vandal army took Carthage and removed the one power - the Roman,
-      Catholic-aligned imperial state - this world's whole refusal was
-      defined against. The contest itself went on for a further
-      century and a half under Vandal and then Byzantine rule, still
-      legislated against, until Pope Gregory the Great wrote letters
-      in the 590s pressing for an inquiry into Donatist rebaptism
-      still being practiced in Numidia. After that, this world's own
-      record simply falls silent. No line from it to any communion a
-      person could visit today is documented anywhere, and this
-      world's own Living Tradition Status has never been confirmed.
-      Almost everything recounted above was written down by two men
-      arguing against this world, not by this world itself - and of
-      the handful of women its own record allows any real agency to,
-      not one left a word in her own voice.
-    grounded_in: [don.core.donatism, don.limit.womens-own-voice]
+      Almost everything known about this church was written by two men
+      arguing against it. Its own voice survives in four short texts,
+      and in two words cut into pillars near Bagai: Deo laudes, praise
+      to God. No hostile hand stands between those words and a modern
+      reader.
+    grounded_in: [don.core.donatism, don.quote.deo-laudes, don.term.deo-laudes]
   documented_stories:
+  - story_id: don.story.council-of-cirta
+    title: "Bishops Who Left the Question to God"
+    when: "305 or 307 or later (the council's date is disputed)"
+    teaser: "Bishops in Numidia ask each other who gave up the scriptures, and several say they did. When the question turns on the man in charge, they leave it to God."
+    grounded_in: [don.story.council-of-cirta]
+  - story_id: don.story.lucilla-affair
+    title: "A Rebuke Over a Martyr's Bone, and a Rival Bishop"
+    when: "311 or 312 (the Carthage election and the rival consecration)"
+    teaser: "A rich woman is told off for kissing a martyr's bone. Then a disputed vote ends with a rival bishop. The only account comes from the man who blames her."
+    grounded_in: [don.story.lucilla-affair, don.figure.lucilla, don.figure.caecilian, don.figure.majorinus]
+  - story_id: don.story.acta-purgationis-felicis
+    title: "A Forged Letter and the Bishop Who Was Cleared"
+    when: "314 or 315"
+    teaser: "The emperor orders a trial of the bishop said to have given up the scriptures. Under threat of torture, a town official admits he added false lines to a letter."
+    grounded_in: [don.story.acta-purgationis-felicis, don.figure.felix-of-aptungi]
   - story_id: don.story.gesta-apud-zenophilum
     title: "Four Hundred Pieces of Silver, and Letters Asking for Silence"
     when: "320 (the inquiry before Zenophilus); the money and consecration it investigates date to c. 305-312"
-    teaser: "A Roman official puts named witnesses under oath and reads a bishop's own letters into the record - letters that admit an accusation was true and beg that no one find out."
+    teaser: "A Roman official puts named witnesses under oath. A bishop's own letters are read into the record. They admit an accusation was true and beg that no one find out."
     grounded_in: [don.story.gesta-apud-zenophilum, don.figure.silvanus-of-cirta, don.figure.lucilla]
+  - story_id: don.story.passio-marculi
+    title: "A Cup, a Crown, and a Palm at Novapetra"
+    when: "347-348 (the Macarian persecution; the text gives a day but no year)"
+    teaser: "A bishop who gave up worldly advancement is flogged, shown a cup, a crown, and a palm, and thrown from a cliff. This is the church's own account."
+    grounded_in: [don.story.passio-marculi]
+  - story_id: don.story.macrobius-letter
+    title: "A Bishop Writes About Two Men Sunk in the Sea"
+    when: "347-348"
+    teaser: "Bishop Macrobius writes to the people of Carthage about Isaac and Maximianus. The proconsul had them sunk in the sea so that no one could honor them."
+    grounded_in: [don.story.macrobius-letter]
+  - story_id: don.story.tyconius-condemnation
+    title: "The Layman Who Argued the Church Reached the Whole Earth"
+    when: "around 380 (Parmenian's letter; the later condemnation is reported, not witnessed)"
+    teaser: "A layman argues from Scripture that the church spans the whole earth. His bishop tells him to stop. He neither recants nor leaves, and a council reportedly condemns him."
+    grounded_in: [don.story.tyconius-condemnation, don.figure.tyconius]
   - story_id: don.story.bagai-reconciliation
     title: "Condemned as Shipwrecked, Then Taken Back Without a Word"
     when: "393 (the Cebarsussi rupture); 394 (the Bagai council and reception)"
-    teaser: "Three hundred and ten bishops condemn a breakaway party in the harshest language this world ever used on itself - then take two of the condemned back into office without repeating a single rite."
+    teaser: "Three hundred and ten bishops condemn a breakaway group in the harshest words they ever used. Later our party takes two of them back, and no rite is done again."
     grounded_in: [don.story.bagai-reconciliation, don.figure.primian, don.figure.maximian-of-cebarsussi]
   - story_id: don.story.conference-of-carthage-411
     title: "Three Days Standing Before a Judge Already Told Who Was Right"
     when: "1-8 June 411"
-    teaser: "Two hundred and seventy-nine bishops refuse an imperial judge's offered chairs and argue for three days against a rescript that had already named the other side the church."
+    teaser: "Two hundred and seventy-nine bishops refuse the chairs a judge offers them. For three days they argue against an order that had already named the other side the church."
     grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.figure.emeritus]
   voices:
   - figure: don.figure.donatus
@@ -442,6 +345,122 @@ orientation:
     note: "Three books quoting a Donatist bishop's own letters clause by clause in order to refute them - the fullest surviving Donatist voice, reaching us because it was chosen for answerability, not because anyone wanted it preserved for its own sake."
   - source: don.source.migne-pl11-collatio-carthaginiensis
     note: "The transcript of the 411 Conference of Carthage - the one place in this world's record where its own bishops argue their own case, in their own recorded words, with no adversary curating what survived. Also this corpus's worst-damaged scan, so exact wording throughout is a careful reading of a difficult copy, not a settled critical edition."
+  highlights:
+  - phrase: "traditores"
+    kind: term
+    note: "Latin for those who handed over. It names clergy accused of giving the scriptures to the persecutors. This church held that such a man could no longer baptize or ordain."
+    grounded_in: [don.term.traditor-traditio]
+  - phrase: "primate"
+    kind: term
+    note: "The senior bishop of a church. This church's primate sat at Carthage, and its rival claimed the same seat for its own man."
+    grounded_in: [don.term.primas]
+  - phrase: "proconsul"
+    kind: term
+    note: "A Roman official who judged court cases in a province. One cleared Felix of the charge. Another put Isaac and Maximianus on trial."
+    grounded_in: [don.figure.felix-of-aptungi, don.figure.isaac]
+  - phrase: "rescript"
+    kind: term
+    note: "A written ruling from an emperor. In 411 the judge held that an earlier rescript had already given the name Catholic to the rival church."
+    grounded_in: [don.story.conference-of-carthage-411, don.figure.marcellinus]
+  - phrase: "Catholic"
+    kind: term
+    note: "The word means universal. Both churches claimed it as their title. The state granted it to the rival, and this church called that side Caecilianists."
+    grounded_in: [don.term.catholicus, don.term.caecilianist]
+  - phrase: "Nicene faith"
+    kind: term
+    note: "The shared faith in the Trinity and in Christ held across Latin North Africa. Both churches confessed it. They split over which bishops were valid."
+    grounded_in: [don.core.donatism]
+  - phrase: "Maximianists"
+    kind: term
+    note: "People who followed Maximian, a deacon made rival head of the church in 393. A larger meeting of bishops at Bagai condemned them in 394."
+    grounded_in: [don.force.maximianist-fracture, don.figure.maximian-of-cebarsussi, don.term.concilium]
+  - phrase: "persecution of 303 to 305"
+    label: "Diocletian's persecution"
+    kind: term
+    note: "Diocletian and the emperors who ruled with him hunted Christians in these years. They ordered clergy to hand over the scriptures and church vessels to be destroyed."
+    grounded_in: [don.force.diocletianic-persecution-traditio-demand]
+  - phrase: "Vandal"
+    kind: term
+    note: "The Vandals invaded Roman North Africa in 429 and took Carthage in 439. That ended the Roman state that this church had defined itself against."
+    grounded_in: [don.force.vandal-capture-of-carthage, don.core.donatism]
+  - phrase: "Rome's hearing"
+    kind: council
+    note: "A hearing at Rome in 313, where Constantine sent the dispute after this church petitioned him. It ruled against this church, which rejected the result."
+    grounded_in: [don.figure.constantine, don.dw.who-decides-a-disputed-case]
+  - phrase: "Council of Arles"
+    kind: council
+    note: "A meeting of bishops in 314. Constantine sent the African dispute there. It ruled against this church, and this church rejected the ruling."
+    grounded_in: [don.figure.constantine, don.dw.who-decides-a-disputed-case]
+  - phrase: "Conference of Carthage"
+    kind: council
+    note: "A court hearing in 411, ordered by the emperor to settle the quarrel. The judge Marcellinus ran it. The record stops before any verdict."
+    grounded_in: [don.story.conference-of-carthage-411, don.figure.marcellinus]
+  - phrase: "Donatus"
+    kind: person
+    note: "Primate at Carthage from about 313 until his death in exile about 347. The movement is named for him. Not one page of his own survives."
+    grounded_in: [don.figure.donatus]
+  - phrase: "Petilian"
+    kind: person
+    note: "Bishop of Constantina for this church. With Emeritus, he spoke for it in 411. His letters survive only because Augustine quoted them to answer them."
+    grounded_in: [don.figure.petilian]
+  - phrase: "Tyconius"
+    kind: person
+    note: "A writer in this church in the 370s and 380s who composed the Book of Rules, seven rules for reading scripture. A council reportedly condemned him around 380."
+    grounded_in: [don.figure.tyconius, don.term.liber-regularum]
+  - phrase: "Augustine"
+    kind: person
+    note: "Catholic bishop of Hippo from 395 or 396 until 430. He wrote against this church and argued against it at the 411 Conference."
+    grounded_in: [don.figure.augustine]
+  - phrase: "Optatus"
+    kind: person
+    note: "A Catholic bishop of Milevis who wrote seven books against this church in the 360s and revised them about 385. Most of its early history reaches us through him."
+    grounded_in: [don.figure.optatus-of-milevis, don.figure.optatus]
+  - phrase: "Flavius Marcellinus"
+    kind: person
+    note: "The imperial officer sent to judge the hearing of 411. He belonged to neither church. He was put to death in 413 on another charge."
+    grounded_in: [don.figure.marcellinus]
+  - phrase: "the emperor's commissioners"
+    label: "Paul and Macarius"
+    kind: person
+    note: "Paul and Macarius, who forced this church to join its rival in 347 and 348. Their force sometimes killed."
+    grounded_in: [don.force.macarian-repression]
+  - phrase: "Numidia"
+    kind: place
+    note: "A Roman province of North Africa and the heartland of this church, where it far outnumbered its rival."
+    grounded_in: [don.core.donatism]
+  - phrase: "Cirta"
+    kind: place
+    note: "An ancient city of Numidia, now the city of Constantine. Bishops met there in a council whose date is disputed, 305, 307 or later."
+    grounded_in: [don.story.council-of-cirta, don.source.monceaux-histoire-litteraire-tome6]
+  - phrase: "Aptungi"
+    kind: place
+    note: "Town of the bishop Felix, who consecrated Caecilian. A 1912 study places it at the ruins of Henchir Es-Souar."
+    grounded_in: [don.figure.felix-of-aptungi, don.source.monceaux-histoire-litteraire-tome4]
+  - phrase: "Bagai"
+    kind: place
+    note: "A town in Numidia where 310 bishops met in 394."
+    grounded_in: [don.term.concilium, don.force.maximianist-fracture]
+  - phrase: "Cebarsussi"
+    kind: place
+    note: "The place where a council of this church elected Maximian rival primate in 393."
+    grounded_in: [don.term.concilium, don.force.maximianist-fracture]
+  - phrase: "Novapetra"
+    kind: place
+    note: "A cliff where the Passio Marculi says Marculus was held four days and then thrown to his death."
+    grounded_in: [don.story.passio-marculi, don.figure.marculus]
+  - phrase: "Vegesela"
+    kind: place
+    note: "A place in Numidia where Marculus was seized, according to the account of his death."
+    grounded_in: [don.figure.marculus, don.story.passio-marculi]
+  - phrase: "The emperor"
+    label: "Constantine"
+    kind: person
+    note: "Constantine, who became emperor in 306. He had the charge against Felix tried, and the trial ended in 314 or 315."
+    grounded_in: [don.figure.constantine]
+  - phrase: "Optatus Gildonianus"
+    kind: person
+    note: "A bishop of this church who used soldiers to bring the two condemned bishops back. He is a different man from Optatus of Milevis."
+    grounded_in: [don.story.bagai-reconciliation]
 narrative:
   who_speaks:
     text: >-

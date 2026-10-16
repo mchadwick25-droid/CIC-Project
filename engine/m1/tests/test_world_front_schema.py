@@ -12,6 +12,8 @@ from engine.m1.schemas import build_schema
 WORLD_FRONT_SCHEMA = build_schema("world_front")
 FACILITATOR_BRIEF_SCHEMA = build_schema("facilitator_brief")
 
+CHECKED_ON = "2026-10-16"
+
 
 def _errors(schema: dict, record: dict) -> list[str]:
     return [e.message for e in Draft202012Validator(schema).iter_errors(record)]
@@ -48,7 +50,7 @@ def _minimal_world_front(**overrides) -> dict:
                     "text": "still practiced today",
                     "url": "https://example.org",
                     "grounded_in": ["fix.term.the-way"],
-                    "verified_on": "2026-09-19",
+                    "verified_on": CHECKED_ON,
                 }
             ],
             "relations_summary": {"text": "r", "grounded_in": ["fix.term.the-way"]},
@@ -184,14 +186,14 @@ def test_highlight_grounded_in_a_record_validates():
 
 
 def test_place_highlight_may_cite_an_outside_gazetteer_with_a_checked_date():
-    entry = {"phrase": "Cirta", "kind": "place", "note": "Today Constantine.", "url": "https://pleiades.stoa.org/places/1", "verified_on": "2026-10-16"}
+    entry = {"phrase": "Cirta", "kind": "place", "note": "Today Constantine.", "url": "https://pleiades.stoa.org/places/1", "verified_on": CHECKED_ON}
     assert _errors(WORLD_FRONT_SCHEMA, _with_highlights(entry)) == []
 
 
 def test_highlight_without_grounding_or_reference_is_rejected():
     assert _errors(WORLD_FRONT_SCHEMA, _with_highlights({"phrase": "x", "kind": "term", "note": "n"}))
     # an outside reference stands only for a place's modern location
-    referenced_term = {"phrase": "x", "kind": "term", "note": "n", "url": "https://example.org", "verified_on": "2026-10-16"}
+    referenced_term = {"phrase": "x", "kind": "term", "note": "n", "url": "https://example.org", "verified_on": CHECKED_ON}
     assert _errors(WORLD_FRONT_SCHEMA, _with_highlights(referenced_term))
     undated = {"phrase": "Cirta", "kind": "place", "note": "n", "url": "https://example.org"}
     assert _errors(WORLD_FRONT_SCHEMA, _with_highlights(undated))
