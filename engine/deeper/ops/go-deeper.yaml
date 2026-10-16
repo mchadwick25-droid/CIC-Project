@@ -22,8 +22,8 @@ tokens:
     - {price_usd: 15, tokens: 2750}
     - {price_usd: 30, tokens: 6600}
 door:
-  observe: true
-  base_weekly_usd: 150
+  observe: false
+  base_weekly_usd: 75
   gift_share: 0.8
   purchase_share: 0.5
   invoice_factor: 1.35

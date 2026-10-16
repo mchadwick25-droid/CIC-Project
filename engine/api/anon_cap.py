@@ -53,7 +53,7 @@ from typing import Callable
 from fastapi import Request
 from fastapi.responses import JSONResponse
 
-from engine.api.ratelimit import client_ip
+from engine.api.ratelimit import client_ip, network_of
 
 COOKIE_NAME = "cic_visitor"
 _TOKEN_BYTES = 18  # 144 bits, base64url-encoded by secrets.token_urlsafe
@@ -177,27 +177,16 @@ class DailyVisitorLimiter:
             return True
 
     def mint_seeded_token(self, ip: str, secret: str) -> str:
-        """Mint a fresh visitor token, seeded from the ip: bucket's CURRENT
-        count rather than starting at zero: minting a pristine, zero-count
-        bucket on every cookie-less request would let an attacker who
-        never returns a cookie harvest an effectively unlimited supply of
-        fresh daily allowances - delete the cookie, get a new empty-bucket
-        token, repeat. Seeding from the
-        ip bucket bounds the exploit instead of eliminating the mint: an
-        attacker who harvests N tokens before the ip: bucket itself caps
-        out can still redeem some leftover headroom on each one (the
-        tokens were seeded at increasing counts, so each has some room
-        below the daily limit) - bounded by daily_session_limit^2 in the
-        worst case, not unlimited, and that whole harvest still has to
-        happen at ratelimit.py's 6-creates/min burst rate. This does NOT
-        alias the new token's bucket to the ip bucket's own object (a
-        stricter fix that would close the gap completely) because that
-        would also collapse every DIFFERENT real visitor behind a shared/
-        NAT'd IP onto the exact same daily allowance before any of them
-        has even sent a cookie back - the one thing a pure per-IP daily
-        limit (rejected as Option C in the report) does wrong and this
-        module exists to avoid. Documented as an accepted, bounded,
-        rate-limited residual - not claimed as fully closed."""
+        """Mint a fresh visitor token, seeded from the ip: bucket's current
+        count rather than zero, so dropping the cookie never buys a fresh
+        daily allowance. Called only on an allowed session create, after
+        that create has counted against the ip: bucket: the k-th token an
+        address mints starts at k sessions, so all its tokens together hold
+        at most daily_session_limit*(daily_session_limit-1)/2 sessions
+        beyond the address's own daily_session_limit. The new token's
+        bucket is not the ip bucket itself, because that would put every
+        real visitor behind one shared or NAT'd address on a single
+        allowance before any of them has a cookie."""
         with self._lock:
             ip_bucket = self._bucket_locked(f"ip:{ip}")
             token = issue_token(secret)
@@ -238,10 +227,9 @@ def install(
     on a 429 - minting there was a real bug: it let an attacker harvest an
     unlimited supply of fresh, empty-bucket tokens purely by getting
     rejected repeatedly, never needing a single request to actually
-    succeed) and is seeded from the ip: bucket's current count rather than
-    starting at zero (DailyVisitorLimiter.mint_seeded_token's own
-    docstring has the full reasoning and the accepted, bounded residual
-    this still leaves).
+    succeed), only on a session create (never on a message), and is seeded
+    from the ip: bucket's current count rather than starting at zero
+    (DailyVisitorLimiter.mint_seeded_token's own docstring has the bound).
 
     The mint (when needed) now happens BEFORE call_next rather than after
     - still strictly inside the ALLOWED branch, so the "never mint on a
@@ -263,8 +251,11 @@ def install(
 
         raw_cookie = request.cookies.get(COOKIE_NAME)
         visitor_id = verify_token(raw_cookie, secret) if raw_cookie else None
-        needs_new_token = visitor_id is None
-        ip = client_ip(request)
+        # A token is minted only where a session opens. A message request
+        # without a cookie stays on the address bucket, so tokens cannot be
+        # collected by sending messages that never open anything.
+        needs_new_token = visitor_id is None and is_create
+        ip = network_of(client_ip(request))
         bucket_key = visitor_id or f"ip:{ip}"
 
         # exempt(request, is_create) says whether the caller vouches for the
