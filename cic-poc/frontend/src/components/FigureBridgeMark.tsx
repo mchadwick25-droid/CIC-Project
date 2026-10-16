@@ -3,14 +3,10 @@
  * text, using InlineBridge's shared hover/click (desktop) and
  * tap/tap-through (phone) grammar.
  *
- * Level 3 leads with what's actually being said here and where it comes
- * from (`sourced_by` - the real primary sources behind this sentence, per
- * engine.m4.name_bridge.attach_cited_sources), not with the figure's own
- * biography: the point is not just who a named figure is, but the
- * reference behind what they're saying, so a participant can actually
- * look at the source document. Who-this-is (both recorded names,
- * whichever the voice actually said, and the dates) stays, but as the
- * second thing, not the point.
+ * Level 3 shows who this is (both recorded names, whichever the voice
+ * actually said, and the dates), then the sources behind this sentence
+ * (`sourced_by`, per engine.m4.name_bridge.attach_cited_sources), so a
+ * participant can look at the source document itself.
  */
 import type { FigureUsed } from '../types/conversation';
 import { InlineBridge } from './InlineBridge';
@@ -49,9 +45,6 @@ export function FigureBridgeMark({ label, figure }: FigureBridgeMarkProps) {
       level3Title={figure.matched_name}
       level3={
         <>
-          <p className="level3__section-label">What's said here, sourced from</p>
-          <SourceList sources={figure.sourced_by} empty="Nothing in this sentence was drawn from a source." />
-
           <p className="level3__section-label">Who this is</p>
           <ul className="level3__names">
             {figure.names.map((n) => (
@@ -63,6 +56,9 @@ export function FigureBridgeMark({ label, figure }: FigureBridgeMarkProps) {
           </ul>
           {figure.bridge_line && <p>{figure.bridge_line}</p>}
           {dates && <p className="level3__dates">{dates}</p>}
+
+          <p className="level3__section-label">Sources</p>
+          <SourceList sources={figure.sourced_by} empty="Nothing in this sentence was drawn from a source." />
         </>
       }
     />
