@@ -14,10 +14,15 @@
  * Usage:
  *   ELEVENLABS_API_KEY=... node Build/tools/generate_world_narration.mjs \
  *     --world <census-id> --voice-id <id> --model <model_id> \
- *     --api-speed <n> --tempo <n> --settings-json '<voice_settings>' [--prefix '[audio tag] '] [--dry-run] [--force]
+ *     --api-speed <n> --tempo <n> --settings-json '<voice_settings>' [--prefix '[audio tag] '] [--only <key,...>] [--dry-run] [--force]
  *
  * --prefix puts an instruction (e.g. an accent tag) in front of every request's
  * text; it is printed and recorded in the manifest.
+ *
+ * A piece already in the manifest is skipped. --only names the pieces to
+ * record (story, legacy, docstory-<story id>), whether or not they are in
+ * the manifest, so a changed text is re-recorded without paying for the
+ * rest; --force records every piece.
  *
  * Voice, model, settings, speed and tempo are all required (except --dry-run)
  * and never read from the environment; the run prints what it sends and the
@@ -37,7 +42,7 @@ export const worldManifestPath = path.join(worldAudioDir, 'manifest.json');
 export const MAX_CHARS_PER_REQUEST = 4500;
 
 export function parseArgs(argv) {
-  const o = { world: null, voiceId: null, model: null, apiSpeed: null, tempo: null, settingsJson: null, prefix: '', dryRun: false, force: false };
+  const o = { world: null, voiceId: null, model: null, apiSpeed: null, tempo: null, settingsJson: null, prefix: '', only: null, dryRun: false, force: false };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') o.dryRun = true;
@@ -49,6 +54,7 @@ export function parseArgs(argv) {
     else if (a === '--tempo') o.tempo = Number(argv[++i]);
     else if (a === '--settings-json') o.settingsJson = argv[++i];
     else if (a === '--prefix') o.prefix = argv[++i];
+    else if (a === '--only') o.only = argv[++i].split(',').map((k) => k.trim()).filter(Boolean);
     else throw new Error(`unrecognized argument: ${a}`);
   }
   return o;
@@ -95,7 +101,12 @@ async function run() {
   const opts = parseArgs(process.argv.slice(2));
   if (!opts.world) throw new Error('--world is required');
   const compiled = JSON.parse(fs.readFileSync(path.join(worldsDataDir, `${opts.world}.json`), 'utf-8'));
-  const pieces = worldPieces(compiled);
+  const all = worldPieces(compiled);
+  if (opts.only) {
+    const unknown = opts.only.filter((k) => !all.some((p) => p.key === k));
+    if (unknown.length) throw new Error(`--only names no such piece: ${unknown.join(', ')}`);
+  }
+  const pieces = opts.only ? all.filter((p) => opts.only.includes(p.key)) : all;
   const manifest = fs.existsSync(worldManifestPath) ? JSON.parse(fs.readFileSync(worldManifestPath, 'utf-8')) : {};
   const chars = pieces.reduce((n, p) => n + p.parts.reduce((m, t) => m + t.length, 0), 0);
   console.log(`=== World narration ${opts.dryRun ? '(dry run)' : ''}: ${opts.world} ===`);
@@ -121,7 +132,7 @@ async function run() {
   let credits = 0;
   for (const p of pieces) {
     const finalPath = path.join(outDir, `${p.key}.mp3`);
-    if (entry[p.key] && !opts.force) { console.log(`  skip (in manifest): ${p.key}`); continue; }
+    if (entry[p.key] && !opts.force && !opts.only) { console.log(`  skip (in manifest): ${p.key}`); continue; }
     const partFiles = [];
     for (const [i, text] of p.parts.entries()) {
       const { audio, cost } = await synthesizeWithCost(opts.prefix + text, { apiKey, voiceId: opts.voiceId, modelId: opts.model, voiceSettings: settings, outputFormat: NARRATION_OUTPUT_FORMAT });

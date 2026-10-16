@@ -33,6 +33,11 @@ test('parseArgs: paid settings only from flags', () => {
   assert.throws(() => parseArgs(['--bogus']), /unrecognized/);
 });
 
+test('parseArgs: --only lists the pieces to record', () => {
+  assert.deepEqual(parseArgs(['--only', 'story, docstory-w.story.a']).only, ['story', 'docstory-w.story.a']);
+  assert.equal(parseArgs([]).only, null);
+});
+
 test('parseArgs: --prefix is read from the command and defaults to empty', () => {
   assert.equal(parseArgs(['--prefix', '[tag] ']).prefix, '[tag] ');
   assert.equal(parseArgs([]).prefix, '');
