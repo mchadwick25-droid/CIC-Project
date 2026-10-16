@@ -26,7 +26,7 @@ LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
 DOOR_KEYS = ("observe", "base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
 PAID_KEYS = ("round_cap", "provisional")
 PILOT_KEYS = ("pack_usd", "pilot_end_date", "audiences")
-AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "per_address", "public")
+AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "per_address", "public", "questionnaire_url")
 AUDIENCE_NAME = re.compile(r"^[a-z][a-z0-9-]{0,23}$")
 ADMIN_KEYS = ("mint_max_tokens_per_request", "mint_max_tokens_per_day")
 TESTER_KEYS = ("default_tokens", "max_tokens", "default_days", "max_days", "max_per_day")
@@ -44,6 +44,8 @@ class PilotAudience:
     per_address: int
     # A public audience is joined by its name; any other only by a secret link key held in the server's environment.
     public: bool
+    # The questionnaire a joiner answers. An audience cannot open without one.
+    questionnaire_url: str | None = None
 
 
 @dataclass(frozen=True)
@@ -195,7 +197,12 @@ def _audiences(raw) -> dict[str, PilotAudience]:
             raise OpsFileError(f"pilot audience {name}: public must be true or false")
         _whole(item["pilot_cap"], f"pilot audience {name} pilot_cap")
         _whole(item["per_address"], f"pilot audience {name} per_address")
-        audiences[name] = PilotAudience(item["pilot_open"], item["pilot_cap"], item["per_address"], item["public"])
+        url = item["questionnaire_url"]
+        if url is not None and not (isinstance(url, str) and url.startswith("https://") and len(url) > len("https://")):
+            raise OpsFileError(f"pilot audience {name}: questionnaire_url must be an https:// link or null")
+        if item["pilot_open"] and url is None:
+            raise OpsFileError(f"pilot audience {name}: pilot_open needs a questionnaire_url; the pilot does not open before its questionnaire exists")
+        audiences[name] = PilotAudience(item["pilot_open"], item["pilot_cap"], item["per_address"], item["public"], url)
     return audiences
 
 

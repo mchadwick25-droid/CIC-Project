@@ -113,6 +113,7 @@ services:
     dockerfilePath: ./engine/Dockerfile
     dockerContext: .
     plan: standard
+    healthCheckPath: /health
     disk:
       name: cic-engine-data
       mountPath: /data
@@ -235,6 +236,7 @@ services:
     dockerfilePath: ./engine/Dockerfile
     dockerContext: .
     plan: starter
+    healthCheckPath: /health
     disk:
       name: cic-engine-staging-data
       mountPath: /data

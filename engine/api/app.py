@@ -24,7 +24,7 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, ratelimit, table_wiring, wiring
+from engine.api import admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, ratelimit, required_secrets, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
 from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
@@ -480,6 +480,8 @@ def create_app(
     m7_audit_root: Path | None = None,
     admin_auth_store: admin_auth.AdminAuthStore | None = None,
     deeper: deeper_routes.DeeperRuntime | None = None,
+    build_commit: str | None = None,
+    backup_staging_dir: Path | None = None,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -549,7 +551,16 @@ def create_app(
 
     @app.get("/health")
     def health():
-        return {"status": "ok"}
+        """Always 200 while the process serves, so Render's deploy check
+        never turns on a backup result. The commit says which build is
+        live; the backup line says whether last night's copy left the
+        disk. The scheduled check in .github/workflows/live-watch.yml
+        reads both."""
+        return {
+            "status": "ok",
+            "commit": build_commit or "unknown",
+            "backup": db_backup.summarize_status(backup_staging_dir) if backup_staging_dir is not None else None,
+        }
 
     def _note_facilitator_only(request: Request, session_id: str) -> None:
         if deeper is None:
@@ -940,6 +951,7 @@ def _build_real_app() -> FastAPI:
     # double-configures.
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
 
+    required_secrets.check(dict(os.environ))
     settings = Settings.from_env()
     with guard.conversation_scope():  # the conversation path: the one place a client is built unwrapped
         client, voice_model_id, safety_model_id = build_route(settings.region, settings.voice_model_pattern, settings.safety_model_pattern)  # ONE client, reused for both roles
@@ -978,8 +990,9 @@ def _build_real_app() -> FastAPI:
         deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ), usage_store=usage_store)
         deeper_routes.install_access_log_filter()
         deeper_routes.start_retention_thread(deeper_runtime)
+    backup_staging_dir = data_dir / "backups-staging"
     db_backup.start_background_scheduler(
-        settings.events_db_path, settings.usage_db_path, data_dir / "backups-staging",
+        settings.events_db_path, settings.usage_db_path, backup_staging_dir,
         qc_db_path=settings.qc_db_path,
         extra_dbs={"meter": deeper_config.meter_db_path} if deeper_runtime is not None else None,
     )
@@ -1017,6 +1030,8 @@ def _build_real_app() -> FastAPI:
         qc_recorder=qc_recorder,
         streaming_enabled=settings.streaming_enabled,
         deeper=deeper_runtime,
+        build_commit=os.environ.get("RENDER_GIT_COMMIT"),
+        backup_staging_dir=backup_staging_dir,
         # Same path m7_scheduler.start_background_scheduler was already
         # given above - one directory, two readers (the daily job writes
         # it, the usage-summary endpoint reads it).

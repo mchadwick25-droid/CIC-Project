@@ -91,9 +91,15 @@ idle-close threads in `_build_real_app()`) runs once a day, backs up both
 DBs, verifies each with `PRAGMA integrity_check`, uploads to
 `db-backups/<service>/<events|usage>/<timestamp>.db` in the service's own
 bucket, and prunes objects older than 14 days. Its last outcome is on disk at
-`/data/backups-staging/last_run.json` (readable via `render ssh`, below) —
-not yet surfaced through `/api/admin/pilot-summary` or any other endpoint;
-that is a reasonable small follow-on, not built this pass.
+`/data/backups-staging/last_run.json` (readable via `render ssh`, below).
+The public `/health` route reports two facts from it: whether every database
+the last pass found reached the bucket (`backup.uploaded`), and when that pass
+ran (`backup.last_run_at`). It shows no names, keys or errors. A pass that
+backs up without uploading also logs a warning. The Live watch workflow
+(`.github/workflows/live-watch.yml`) reads `/health` every 15 minutes and
+fails, emailing you, when the last pass did not upload or is more than 26
+hours old. Until the one-time setup above is done it fails on every run: that
+is the alert doing its job.
 
 To check on it or list what's backed up, from a local checkout with the R2
 credentials exported:
