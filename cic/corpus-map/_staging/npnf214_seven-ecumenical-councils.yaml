@@ -758,3 +758,42 @@ assignments:
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
     of it. Patriarch 458-471, inside that entry's 451-622 window.
+
+- row_id: npnf214_seven-ecumenical-councils--constantinople-553-anathemas-origen-new-laura
+  work: "The Second Council of Constantinople (553): the anathemas against Origen (the outcome of the New Laura's Origenist crisis)"
+  author: council-of-constantinople-553
+  locus: "div1 12, the Origen anathemas (12.9-12.10)"
+  atlas_ids:
+    - chalcedonian-monasticism-judean-desert-and-gaza
+  role: context
+  confidence: assigned
+  note: >
+    The imperial condemnation that ended the Origenist party of the Palestinian New Laura
+    (Cyril of Scythopolis's Vita Sabae tells the local story). Era III Library pass,
+    2026-10-16.
+
+- row_id: npnf214_seven-ecumenical-councils--chalcedon-constantinople-553-egypt-context
+  work: "The Councils of Chalcedon (451) and Constantinople II (553): the councils the Egyptian church rejected or received under pressure"
+  author: council-of-chalcedon-451
+  locus: "div1 11 and div1 12"
+  atlas_ids:
+    - cyrilline-miaphysite-egyptian-christianity
+  role: context
+  confidence: provisional
+  note: >
+    Chalcedon as the event the Egyptian entry defines itself against; placed as context
+    here (the -tradition sibling bucket carries the same acts, and the dossier names the
+    duplicate-id question as needs-ruling). Era III Library pass, 2026-10-16.
+
+- row_id: npnf214_seven-ecumenical-councils--toledo-iii-filioque-excursus
+  work: "The excursus on the Filioque, quoting Toledo III's creed decree in English ('King Recarede ... through all the churches of Spain and Gallaecia')"
+  author: council-of-constantinople-381
+  locus: "div1 ix.iv (raw file around line 13739)"
+  atlas_ids:
+    - nicene-visigothic-iberia
+  role: context
+  confidence: provisional
+  note: >
+    The NPNF editor's own excursus, not conciliar text; useful only as the one vendored
+    English rendering of Toledo III's decree. The author slug is the volume's nearest
+    council row, recorded plainly. Era III Library pass, 2026-10-16.

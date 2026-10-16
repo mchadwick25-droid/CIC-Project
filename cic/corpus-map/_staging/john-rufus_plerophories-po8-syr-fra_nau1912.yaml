@@ -1,0 +1,31 @@
+source_file: john-rufus_plerophories-po8-syr-fra_nau1912.txt
+
+assignments:
+  - row_id: john-rufus_plerophories-po8-syr-fra_nau1912--plerophories
+    work: "John Rufus, Plerophories (testimonies and revelations against Chalcedon)"
+    author: john-rufus
+    locus: "PO 8 fasc. 1, chapters 1-89"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+      - chalcedonian-monasticism-judean-desert-and-gaza
+      - cyrilline-miaphysite-egyptian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      The Gaza anti-Chalcedonians' own book of visions against the council, c. 515.
+      Tradition for the West Syriac communion; for the Chalcedonian Gaza entry and for Egypt
+      it is the rival or ally voice - context. One provisional row; each build splits the
+      role.
+
+  - row_id: john-rufus_plerophories-po8-syr-fra_nau1912--severus-cathedral-homilies-58-69
+    work: "Severus of Antioch, Homiliae cathedrales LVIII-LXIX (tr. Brière)"
+    author: severus-of-antioch
+    locus: "the Brière fascicle in PO 8"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Severus's own preaching at Antioch, in Jacob of Edessa's Syriac with French. The West
+      Syriac dossier named the Cathedral Homilies as a target for Severus's own doctrinal
+      voice; this fascicle is the first vendored.

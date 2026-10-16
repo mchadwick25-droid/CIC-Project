@@ -1,0 +1,16 @@
+source_file: procopius_wars-5-6-gothic_dewing1919.txt
+
+assignments:
+  - row_id: procopius_wars-5-6-gothic_dewing1919--wars-v-vi-gothic-war
+    work: "History of the Wars, Books V-VI (the Gothic War, 535-540)"
+    author: procopius
+    locus: "whole text"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+      - gothic-and-vandal-homoian-christianity
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: >
+      The war that emptied the Italy of Benedict's Dialogues; the Ostrogothic Arian court
+      seen by an imperial officer; Justinian's reconquest. Context in each.

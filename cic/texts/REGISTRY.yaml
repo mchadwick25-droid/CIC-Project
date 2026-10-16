@@ -3443,7 +3443,7 @@
     document - a different Capitularia volume - and is not used. Serves carolingian-reform-
     christianity.
 
-- filename: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt
+- filename: cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681.txt
   supplied_by: >-
     Claude (tech-readiness build thread: re-vendored from a stale, unmerged
     PR's own already-located acquisition; not independently re-verified
@@ -3462,6 +3462,16 @@
     this file needs unusually careful individual eye-verification given the OCR quality -
     flagged explicitly in the file's own header. Serves
     chalcedonian-monasticism-judean-desert-and-gaza.
+    CORRECTION OF RECORD, 2026-10-16 (Library thread, Era III): the Vita Sabae is NOT in this
+    file. The volume is Cotelier's tomus II (title leaf "TOMUS SECUNDUS"; contents list
+    Asterius, Euthymii Vita, Moschus chapters, Zonaras, Balsamon); the running head
+    "EUTHYMII VITA" recurs and no "SABAE VITA" head occurs. The Vita Sabae is in tomus III
+    (1686), an open lead whose only located scan (archive.org bub_gb_PLhdE15tQTAC) has
+    unusable OCR. Renamed from cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.
+    txt; header corrected; body unchanged. SECTIONS: printed page numbers and Cotelier's
+    chapters. CREDIT: Cotelier, Ecclesiae Graecae Monumenta II (1681). REPUBLISH: whole
+    text (Latin column). Serves chalcedonian-monasticism-judean-desert-and-gaza (Vita
+    Euthymii: tradition, second witness).
 
 - filename: dhuoda_liber-manualis_bondurand1887.txt
   supplied_by: >-
@@ -3476,7 +3486,7 @@
     lemanueldedhuoda00dhuo1887 corrected to lemanueldedhuoda00dhuo. Serves carolingian-
     reform-christianity.
 
-- filename: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt
+- filename: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt
   supplied_by: >-
     Claude (tech-readiness build thread: re-vendored from a stale, unmerged
     PR's own already-located acquisition; not independently re-verified
@@ -3494,6 +3504,18 @@
     Barsanuphius/John "I Carry Half Your Burden" citation this report's story needs remains
     an open, unresolved sourcing gap, not silently closed. Serves chalcedonian-monasticism-
     judean-desert-and-gaza.
+    CORRECTION OF RECORD, 2026-10-16 (Library thread, Era III): this file is NOT PG 88 and
+    contains no Dorotheus. It is PG 87 part 3 - John Moschus, Pratum Spirituale, and
+    Sophronius of Jerusalem's works, with the end of Procopius of Gaza and Alexander
+    Monachus - as its own running heads show (checked line by line; "Dorothe" occurs
+    seventeen times in passing only). Renamed from dorotheus-gaza_doctrinae-instructiones-
+    grc-lat_migne-pg88.txt; header corrected; body unchanged. The real PG 88 is vendored as
+    dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt. The
+    Barsanuphius/John gap the note above records is closed by that file (their answers to
+    Dorotheus's questions are in it). SECTIONS: Migne columns; Pratum by chapter. CREDIT:
+    Patrologia Graeca 87.3 (Migne, 1860). REPUBLISH: whole text (Latin column; the Greek is
+    not recovered). Serves chalcedonian-monasticism-judean-desert-and-gaza (Moschus:
+    tradition) and byzantine-imperial-church-heraclian-iconoclast (Sophronius).
 
 - filename: egeria_pilgrimage-of-silvia_bernard1896.txt
   supplied_by: >-
@@ -6758,3 +6780,243 @@
     header prepended per cic/texts/INTAKE.md, body otherwise unaltered. This volume's
     own closing errata note (retained verbatim) flags one date correction against Vol.
     II (a misprint of 1797 for 1799).
+- filename: procopius_secret-history_athenian-society1896.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; Gutenberg eBook
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Secret History (Anecdota), anonymous English translation privately printed
+    for the Athenian Society, 1896. RIGHTS: public domain by date (1896); Gutenberg's own
+    "Public domain in the USA" statement read. Clean transcription, not OCR. SECTIONS:
+    numbered chapters I-XXX. CREDIT: Procopius, The Secret History, anon. tr. (Athenian
+    Society, 1896). REPUBLISH: whole text. Serves byzantine-imperial-church-justinianic
+    (context: a court historian's hostile account of the imperial couple who ran the
+    church); the Theodora passages need confidence tagging before any record uses them.
+- filename: procopius_buildings_stewart1888.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; Gutenberg eBook
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Buildings (De Aedificiis), tr. Aubrey Stewart (PPTS, 1888), complete in six
+    books. RIGHTS: public domain by date (1888). Clean transcription. SECTIONS: Book and
+    chapter. CREDIT: Procopius, Of the Buildings of Justinian, tr. Aubrey Stewart (PPTS,
+    1888). REPUBLISH: whole text. Serves byzantine-imperial-church-justinianic (Book I,
+    Hagia Sophia), chalcedonian-monasticism-judean-desert-and-gaza and jerusalem-liturgical-
+    pilgrimage-christianity (Book V), latin-africa-under-byzantium (Book VI). Duplicated as
+    OCR inside the PPTS vol. 2 file; quote from this one.
+- filename: procopius_wars-1-2-persian_dewing1914.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; Gutenberg eBook
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Wars I-II (Persian War), tr. H. B. Dewing, Loeb 1914, English only. RIGHTS:
+    public domain by date (first printed 1914). Clean transcription. SECTIONS: book,
+    chapter, Loeb section numbers. CREDIT: Procopius, History of the Wars, tr. H. B. Dewing
+    (Loeb, 1914). REPUBLISH: whole text. Serves byzantine-imperial-church-justinianic
+    (context), nubian-christianity and aksumite-christianity (I.19-20), georgian-
+    christianity (I.12), armenian-christianity-after-avarayr and the-church-of-the-east-
+    under-persia (the Persian frontier).
+- filename: procopius_wars-3-4-vandalic_dewing1916.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; Gutenberg eBook
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Wars III-IV (Vandalic War), tr. H. B. Dewing, Loeb 1916, English only.
+    RIGHTS: public domain by date (first printed 1916). Clean transcription. SECTIONS: book,
+    chapter, Loeb section numbers. CREDIT: Procopius, History of the Wars, tr. H. B. Dewing
+    (Loeb, 1916). REPUBLISH: whole text. Serves latin-africa-under-byzantium and gothic-and-
+    vandal-homoian-christianity (context) and byzantine-imperial-church-justinianic.
+- filename: procopius_wars-5-6-gothic_dewing1919.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; Gutenberg eBook
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Wars V-VI (Gothic War, 535-540), tr. H. B. Dewing, Loeb 1919, English only.
+    RIGHTS: public domain by date (1919). Clean transcription. SECTIONS: book, chapter, Loeb
+    section numbers. CREDIT: Procopius, History of the Wars, tr. H. B. Dewing (Loeb, 1919).
+    REPUBLISH: whole text. Serves early-benedictine-italian-monasticism (the Italy Benedict
+    lived in), gothic-and-vandal-homoian-christianity (the Ostrogothic kingdom from outside)
+    and byzantine-imperial-church-justinianic.
+- filename: procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata and reprint leaf read directly)
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Wars VI.16-VII.35 (Gothic War continued), tr. H. B. Dewing, Loeb vol. IV,
+    first printed 1924 (scan is the 1962 reprint; reprint leaf read). RIGHTS: public domain
+    by date, first printing 1924; archive.org NOT_IN_COPYRIGHT. OCR: English clean, Greek
+    garbled. SECTIONS: book, chapter, Loeb sections. CREDIT: Procopius, History of the Wars,
+    tr. H. B. Dewing (Loeb, 1924). REPUBLISH: whole text (English). Serves early-
+    benedictine-italian-monasticism and byzantine-imperial-church-justinianic (context).
+- filename: procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata and reprint leaf read directly)
+  date_added: '2026-10-16'
+  notes: >-
+    Procopius, Wars VII.36-VIII, tr. H. B. Dewing, Loeb vol. V, first printed 1928 (scan is
+    the 1962 reprint; reprint leaf read). RIGHTS: public domain by date, first printing
+    1928; archive.org NOT_IN_COPYRIGHT. OCR: English clean, Greek garbled. SECTIONS: book,
+    chapter, Loeb sections. CREDIT: Procopius, History of the Wars, tr. H. B. Dewing (Loeb,
+    1928). REPUBLISH: whole text (English). Serves byzantine-imperial-church-justinianic
+    and, for the Lazica chapters, georgian-christianity (context).
+- filename: akathist-hymn_little-compline-grc-eng_london1919.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly, NOT_IN_COPYRIGHT)
+  date_added: '2026-10-16'
+  notes: >-
+    The Akathist Hymn and Little Compline, Greek with English prose, London: Williams and
+    Norgate, 1919 (Greek Church in London series). RIGHTS: public domain by date (1919);
+    archive.org NOT_IN_COPYRIGHT. OCR: English clean, Greek mixed. SECTIONS: the 24 stanzas
+    of the Akathist (alphabetic acrostic) and the compline order. CREDIT: The Akathist Hymn
+    and Little Compline (Williams and Norgate, 1919). REPUBLISH: whole text. Serves
+    byzantine-imperial-church-justinianic as transmission/tradition pending a ruling on its
+    date (Contested: 6th or 7th century). A 1917 verse rendering (Birkbeck and Woodward,
+    Longmans; archive.org acathisthymnofho00orth) was verified and not vendored.
+- filename: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly, NOT_IN_COPYRIGHT)
+  date_added: '2026-10-16'
+  notes: >-
+    Palestine Pilgrims' Text Society vol. II (bound: Eucherius and the Breviarius 1890,
+    Theodosius 1893, Procopius Buildings 1888, Antoninus of Piacenza 1896), tr. Aubrey
+    Stewart. RIGHTS: public domain by date; archive.org NOT_IN_COPYRIGHT. OCR clean.
+    SECTIONS: per part, chapters; Procopius by book/chapter. CREDIT: PPTS vol. II, tr. A.
+    Stewart (1888-96). REPUBLISH: whole text. Serves jerusalem-liturgical-pilgrimage-
+    christianity (the pilgrim texts) and chalcedonian-monasticism-judean-desert-and-gaza
+    (Theodosius and the Piacenza pilgrim on the desert monasteries, context). The Buildings
+    text is a second witness to the Gutenberg transcription.
+- filename: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    pg-88 metadata and title leaf read directly; the volume's running heads checked against
+    its contents)
+  date_added: '2026-10-16'
+  notes: >-
+    Migne, Patrologia Graeca 88 (1860/1864): Dorotheus of Gaza's Doctrinae and letters with
+    his questions to Barsanuphius and John and their answers; John Climacus, Ladder;
+    Agathias, Histories; Cosmas Indicopleustes; Gregory of Antioch; John the Faster. Greek
+    with Latin. RIGHTS: public domain by date (Migne 1860-64 printing); the archive.org item
+    carries no copyright field, so the imprint is the basis. OCR: Latin rough but readable,
+    Greek garbled - SECOND WITNESS ONLY, never quotable as Greek. SECTIONS: Migne columns;
+    Doctrina numbers; Interrogatio numbers; Climacus gradus; Agathias books. CREDIT:
+    Patrologia Graeca 88 (Migne). REPUBLISH: whole text (Latin column). This is the real PG
+    88, vendored to replace the mislabelled file that had carried Dorotheus's name (see the
+    entry for john-moschus_pratum-spirituale-sophronius-opera- grc-lat_migne-pg87-3.txt).
+    Serves chalcedonian-monasticism-judean-desert-and-gaza (Dorotheus, Barsanuphius and
+    John: tradition) and byzantine-imperial-church- justinianic (Agathias: context; John the
+    Faster: tradition). Cosmas is vendored separately in English (cosmas-
+    indicopleustes_christian-topography_mccrindle1897.txt).
+- filename: collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata and title page read directly)
+  date_added: '2026-10-16'
+  notes: >-
+    Collectio Avellana part I (CSEL 35.1, Guenther 1895), letters 1-104, Latin. RIGHTS:
+    public domain by date (1895); no copyright field on the item. OCR readable with
+    apparatus interleaved. SECTIONS: letter numbers with headings. CREDIT: Collectio
+    Avellana, ed. O. Guenther, CSEL 35 (1895). REPUBLISH: whole text. No PD English. Serves
+    byzantine-imperial-church-justinianic (Hormisdas and the ending of the Acacian schism;
+    imperial letters) and latin-africa-under-byzantium (the 535 Carthage council's letter,
+    ep. 85).
+- filename: collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata and title page read directly)
+  date_added: '2026-10-16'
+  notes: >-
+    Collectio Avellana part II (CSEL 35.2, Guenther 1898), letters 105-244, Latin. RIGHTS:
+    public domain by date (1898); no copyright field on the item. OCR readable. SECTIONS:
+    letter numbers. CREDIT: Collectio Avellana, ed. O. Guenther, CSEL 35 (1898). REPUBLISH:
+    whole text. No PD English. Serves byzantine-imperial-church-justinianic (Justinian's own
+    letters and edicts to Rome: tradition) and latin-africa-under-byzantium (the Three
+    Chapters correspondence: context).
+- filename: justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly, NOT_IN_COPYRIGHT)
+  date_added: '2026-10-16'
+  notes: >-
+    Justinian, Novellae (Corpus Iuris Civilis vol. III, Schoell-Kroll, Weidmann 1895), Greek
+    with Latin. RIGHTS: public domain by date (1895); archive.org NOT_IN_COPYRIGHT. OCR:
+    Latin readable, Greek garbled - second witness for the Greek. SECTIONS: Novel and
+    chapter numbers. CREDIT: Justinian, Novellae, ed. Schoell and Kroll, CIC III (1895).
+    REPUBLISH: whole text. No PD English (Scott 1932 needs a renewal check). Serves
+    byzantine-imperial-church-justinianic (tradition: the emperor's own church law).
+- filename: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata and the volume's chronicle headings read directly)
+  date_added: '2026-10-16'
+  notes: >-
+    Mommsen, Chronica minora II (MGH AA 11, 1894): Marcellinus Comes, Victor of Tunnuna,
+    John of Biclaro, Isidore's Chronica and Historia Gothorum, Marius of Avenches and
+    others, Latin. RIGHTS: public domain by date (1894); no copyright field on the item. OCR
+    readable. SECTIONS: per chronicle, by year/entry number. CREDIT: Chronica minora II, ed.
+    Mommsen, MGH AA 11 (1894). REPUBLISH: whole text. No PD English. Serves byzantine-
+    imperial-church-justinianic (Marcellinus: context), latin-africa-under- byzantium
+    (Victor of Tunnuna: tradition), nicene-visigothic-iberia (Biclaro, Isidore: tradition),
+    nubian-christianity (Biclaro on Makuria: context), gothic-and-vandal- homoian-
+    christianity (Isidore's History: context), merovingian-gallic-christianity (Marius of
+    Avenches: context).
+- filename: zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly, NOT_IN_COPYRIGHT; fascicle title lines read in the fetched text)
+  date_added: '2026-10-16'
+  notes: >-
+    Patrologia Orientalis 2 (1903-07): Zacharias Scholasticus, Life of Severus, and John of
+    Beth Aphthonia, Life of Severus (Kugener; Syriac with French), plus Revillout's Coptic
+    apocrypha. RIGHTS: public domain by date; archive.org NOT_IN_COPYRIGHT. OCR: French
+    readable, Syriac/Coptic garbled. SECTIONS: PO page numbers. CREDIT: PO 2, ed. Kugener
+    (1903-07). REPUBLISH: whole text. No PD English. Closes the lead the West Syriac dossier
+    left unverified (which translator/edition of the Life of Severus). Serves syriac-
+    orthodox-west-syriac-christianity (tradition), cyrilline-miaphysite-egyptian-
+    christianity (Severus's Alexandrian years: context) and chalcedonian-monasticism-judean-
+    desert-and-gaza (the rival Gaza circle around Peter the Iberian: context).
+- filename: john-rufus_petrus-der-iberer-vita-syr-deu_raabe1895.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly, NOT_IN_COPYRIGHT)
+  date_added: '2026-10-16'
+  notes: >-
+    Raabe, Petrus der Iberer (Hinrichs 1895): the Syriac Life of Peter the Iberian with
+    German translation. RIGHTS: public domain by date (1895); archive.org NOT_IN_COPYRIGHT.
+    OCR: German good, Syriac garbled. SECTIONS: chapter/page. CREDIT: Petrus der Iberer, ed.
+    R. Raabe (1895). REPUBLISH: whole text. No PD English. Serves chalcedonian-monasticism-
+    judean-desert-and-gaza (the anti-Chalcedonian rival at Gaza: context), georgian-
+    christianity (the Georgian prince: context; the dossier names his placement as a needs-
+    ruling) and syriac-orthodox-west-syriac-christianity (tradition of the communion he
+    belonged to).
+- filename: john-rufus_plerophories-po8-syr-fra_nau1912.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly, NOT_IN_COPYRIGHT; 'PLEROPHORIES' title line read in the fetched
+    text)
+  date_added: '2026-10-16'
+  notes: >-
+    Patrologia Orientalis 8 (1912): John Rufus, Plerophories (Nau; Syriac with French), with
+    Severus's Cathedral Homilies LVIII-LXIX (Brière) and the Armenian Synaxarion (Basset).
+    RIGHTS: public domain by date; archive.org NOT_IN_COPYRIGHT. OCR: French readable,
+    Syriac garbled. SECTIONS: PO pages; Plerophories by chapter number. CREDIT: PO 8, ed.
+    Nau and Brière (1912). REPUBLISH: whole text. No PD English. Serves syriac-orthodox-
+    west-syriac-christianity (tradition), chalcedonian-monasticism- judean-desert-and-gaza
+    (the rival Gaza circle: context) and cyrilline-miaphysite-egyptian-christianity (Timothy
+    and Dioscorus traditions: context).
+- filename: antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt
+  supplied_by: >-
+    Claude (Library thread, Era III source-readiness pass, 2026-10-16; archive.org item
+    metadata read directly; 'Sancti Georgii conversatio in laura Calamonis' located in the
+    fetched text)
+  date_added: '2026-10-16'
+  notes: >-
+    Analecta Bollandiana 7 (1888), containing Antony of Choziba's Life of George of Choziba
+    (Greek, ed. Houze). RIGHTS: public domain by date (1888); no copyright field on the
+    item. OCR: Greek rough - SECOND WITNESS ONLY. SECTIONS: journal pages; the Life by
+    chapter. CREDIT: Analecta Bollandiana 7 (1888). REPUBLISH: whole text. No PD English.
+    Serves chalcedonian-monasticism-judean-desert-and-gaza (tradition: a Judean-desert
+    monk's own account of 614).

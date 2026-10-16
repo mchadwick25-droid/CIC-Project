@@ -12,3 +12,16 @@ assignments:
     note: >
       Continuation of severus-of-antioch_select-letters-book6-part1_
       brooks1903.txt - same work, same author, same reasoning.
+
+  - row_id: severus-of-antioch_select-letters-book6-part2_brooks1904--egypt-dioscorus-timothy-letters
+    work: "Select Letters, Book VI part 2: to Dioscorus II of Alexandria (516); on the feast of Dioscorus; in defence of Timothy Aelurus"
+    author: severus-of-antioch
+    locus: "raw file lines ~1465, ~2118-2128, ~2390-2400"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      "The memory of the thrice-blessed Dioscorus ... now counted among the heretics in
+      Alexandria": Severus on the Egyptian church's own saints. Tier 1 cross-link, Era III
+      Library pass, 2026-10-16.

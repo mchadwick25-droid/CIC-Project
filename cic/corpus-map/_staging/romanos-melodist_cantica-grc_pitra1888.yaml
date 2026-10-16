@@ -1,0 +1,16 @@
+source_file: romanos-melodist_cantica-grc_pitra1888.txt
+
+assignments:
+  - row_id: romanos-melodist_cantica-grc_pitra1888--kontakia
+    work: "Romanos the Melodist, Cantica (kontakia), ed. Pitra (Greek; Latin apparatus)"
+    author: romanos-melodist
+    locus: "whole file"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: tradition
+    confidence: provisional
+    note: >
+      The capital's great hymnographer under Justinian, vendored earlier but assigned to no
+      bucket until the Era III Library pass (2026-10-16). SECOND WITNESS ONLY: the Greek
+      OCR is unusable and only Pitra's Latin apparatus reads; no public-domain English
+      exists.

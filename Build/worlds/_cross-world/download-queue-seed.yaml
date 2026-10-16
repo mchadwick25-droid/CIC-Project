@@ -2429,6 +2429,9 @@ queue:
       confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
+    vendored_as: "cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681.txt"
+    vendored_note: >-
+      CORRECTION 2026-10-16 (Library thread, Era III): the file holds Cotelier tomus II, which carries the Vita Euthymii only; the Vita Sabae is in tomus III (1686), not vendored (its only located scan, archive.org bub_gb_PLhdE15tQTAC, has unusable OCR). Renamed accordingly.
 
   - title: "Liber Manualis"
     author: "Dhuoda"
@@ -2461,6 +2464,9 @@ queue:
       confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
+    vendored_as: "john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
+    vendored_note: >-
+      CORRECTION 2026-10-16 (Library thread, Era III): this identifier is PG 87.3 (Moschus, Sophronius), not PG 88, and contains no Dorotheus; the file was renamed to say what it holds. The real PG 88 (archive.org pg-88) is vendored under a separate row dated 2026-10-16.
 
   - title: "The Pilgrimage of S. Silvia [Egeria] of Aquitania to the Holy Places"
     author: "Egeria"
@@ -2727,3 +2733,307 @@ queue:
       confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
+
+  - title: "The Secret History of the Court of Justinian"
+    author: "Procopius of Caesarea"
+    translator: "anonymous (Athenian Society)"
+    year: 1896
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Found by the Era III Library pass (2026-10-16): Procopius's Anecdota in a public-
+      domain English rendering, the only insider account of Justinian's and Theodora's
+      household; nothing by Procopius was vendored before this pass.
+    url: "https://www.gutenberg.org/ebooks/12916"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 1896
+      imprint and PD statement read, 2026-10-16
+    status: downloaded
+    vendored_as: "procopius_secret-history_athenian-society1896.txt"
+
+  - title: "Of the Buildings of Justinian"
+    author: "Procopius of Caesarea"
+    translator: "Aubrey Stewart"
+    year: 1888
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (2026-10-16): the one surviving description of Hagia Sophia by a
+      contemporary, plus Justinian's churches in Palestine, Sinai and Africa.
+    url: "https://www.gutenberg.org/ebooks/65404"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 1888
+      imprint and PD statement read, 2026-10-16
+    status: downloaded
+    vendored_as: "procopius_buildings_stewart1888.txt"
+
+  - title: "History of the Wars, Books I and II: The Persian War"
+    author: "Procopius of Caesarea"
+    translator: "H. B. Dewing"
+    year: 1914
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (2026-10-16): the court historian of Justinian's reign in public-
+      domain English; I.19-20 is also the main outside witness for Nubia and Aksum, I.12 for
+      Christian Iberia.
+    url: "https://www.gutenberg.org/ebooks/16764"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched directly;
+      'First Printed 1914' and PD statement read, 2026-10-16
+    status: downloaded
+    vendored_as: "procopius_wars-1-2-persian_dewing1914.txt"
+
+  - title: "History of the Wars, Books III and IV: The Vandalic War"
+    author: "Procopius of Caesarea"
+    translator: "H. B. Dewing"
+    year: 1916
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (2026-10-16): the eyewitness narrative of the reconquest of
+      Vandal Africa in 533-34, including the Arian clergy at Cyprian's shrine.
+    url: "https://www.gutenberg.org/ebooks/16765"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched directly;
+      'First Printed 1916' and PD statement read, 2026-10-16
+    status: downloaded
+    vendored_as: "procopius_wars-3-4-vandalic_dewing1916.txt"
+
+  - title: "History of the Wars, Books V and VI: The Gothic War"
+    author: "Procopius of Caesarea"
+    translator: "H. B. Dewing"
+    year: 1919
+    world: "early-benedictine-italian-monasticism"
+    why: >
+      Era III Library pass (2026-10-16): the eyewitness narrative of the Gothic war that is
+      the backdrop of Benedict's Italy and of the Ostrogothic Arian kingdom's end.
+    url: "https://www.gutenberg.org/ebooks/20298"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 1919
+      imprint and PD statement read, 2026-10-16
+    status: downloaded
+    vendored_as: "procopius_wars-5-6-gothic_dewing1919.txt"
+
+  - title: "Procopius, History of the Wars, Books VI.16-VII.35 (Loeb vol. IV)"
+    author: "Procopius of Caesarea"
+    translator: "H. B. Dewing"
+    year: 1924
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (2026-10-16): continues the Gothic War past the Gutenberg volumes
+      (which stop at VI.15); Totila's Italy.
+    url: "https://archive.org/details/procopiuswitheng04procuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT); the
+      volume's own 'First printed 1924' leaf read in the fetched text, 2026-10-16
+    status: downloaded
+    vendored_as: "procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt"
+
+  - title: "Procopius, History of the Wars, Books VII.36-VIII (Loeb vol. V)"
+    author: "Procopius of Caesarea"
+    translator: "H. B. Dewing"
+    year: 1928
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (2026-10-16): completes the Wars; Book VIII's Lazica chapters are
+      the fullest outside account of the Christian Lazi and the Caucasus front.
+    url: "https://archive.org/details/procopiuswitheng05procuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT); the
+      volume's own 'First printed 1928' leaf read in the fetched text, 2026-10-16
+    status: downloaded
+    vendored_as: "procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt"
+
+  - title: "The Akathist Hymn and Little Compline (Greek text with English rendering)"
+    author: "anonymous (Akathistos hymn)"
+    translator: "unnamed (Greek Church in London series)"
+    year: 1919
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (2026-10-16): the one great Constantinopolitan hymn of the period
+      available in public-domain English with its Greek; date and authorship contested, so
+      it carries a confidence flag.
+    url: "https://archive.org/details/akathisthymnlitt00londuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT, 1919);
+      title page read in the fetched text, 2026-10-16
+    status: downloaded
+    vendored_as: "akathist-hymn_little-compline-grc-eng_london1919.txt"
+
+  - title: "Library of the Palestine Pilgrims' Text Society, vol. II (Eucherius, Breviarius, Theodosius, Procopius Buildings, Antoninus of Piacenza)"
+    author: "Theodosius; Antoninus of Piacenza; Eucherius (attrib.); Procopius"
+    translator: "Aubrey Stewart"
+    year: 1896
+    world: "chalcedonian-monasticism-judean-desert-and-gaza"
+    why: >
+      Era III Library pass (2026-10-16): the two 6th-century pilgrim itineraries
+      (Theodosius, the Piacenza pilgrim) are the only outside English witnesses to the
+      Judean-desert and Gaza monasteries in their own day; vol. I was already vendored for
+      Egeria.
+    url: "https://archive.org/details/p2libraryofpales01paleuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT); the
+      four parts' title pages read in the fetched text, 2026-10-16
+    status: downloaded
+    vendored_as: "ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt"
+
+  - title: "Patrologia Graeca 88: Dorotheus of Gaza, Barsanuphius and John (questions), John Climacus, Agathias, Cosmas, John the Faster"
+    author: "Dorotheus of Gaza; John Climacus; Agathias; and others"
+    translator: "Migne (Greek with Latin)"
+    year: 1860
+    world: "chalcedonian-monasticism-judean-desert-and-gaza"
+    why: >
+      Era III Library pass (2026-10-16): the file vendored 2026-09-25 as "Dorotheus, PG 88"
+      turned out to be PG 87.3 (Moschus and Sophronius). This item is the real volume, with
+      Dorotheus's instructions and his exchange with Barsanuphius and John - the Gaza
+      world's own voice in its only public-domain witness.
+    url: "https://archive.org/details/pg-88"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (no copyright field; 1860
+      imprint); running heads 'S. DOROTHEI ABBATIS' and 'S. JOANNIS CLIMACI' and the
+      Barsanuphius 'Interrogatio' section located in the fetched text, 2026-10-16
+    status: downloaded
+    vendored_as: "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt"
+
+  - title: "Collectio Avellana, pars I (epistulae I-CIV), CSEL 35.1"
+    author: "Collectio Avellana (popes and emperors, 367-553)"
+    translator: "Otto Guenther (ed.)"
+    year: 1895
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (2026-10-16): the primary Latin record of Rome-Constantinople
+      correspondence through the Acacian schism, and the 535 letter of the restored African
+      church. Latin only.
+    url: "https://archive.org/details/epistulaeimperat01gnth"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1895 Tempsky; no
+      copyright field); title page read in the fetched text, 2026-10-16
+    status: downloaded
+    vendored_as: "collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt"
+
+  - title: "Collectio Avellana, pars II (epistulae CV-CCXLIV), CSEL 35.2"
+    author: "Collectio Avellana (Justinian, Vigilius and others)"
+    translator: "Otto Guenther (ed.)"
+    year: 1898
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (2026-10-16): Justinian's own church letters and edicts in the
+      Latin of the Roman archive; the emperor's voice is otherwise absent from the corpus.
+    url: "https://archive.org/details/epistulaeimperat02gnth"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Tempsky; no copyright
+      field); 'Exemplum epistolae Iustiniani' located in the fetched text, 2026-10-16
+    status: downloaded
+    vendored_as: "collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898.txt"
+
+  - title: "Corpus Iuris Civilis vol. III: Novellae (Justinian's Novels)"
+    author: "Justinian I"
+    translator: "Rudolf Schoell and Wilhelm Kroll (eds.)"
+    year: 1895
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      Era III Library pass (2026-10-16): the imperial church's own law code in the emperor's
+      words; nothing of Justinian's legislation was vendored before this pass.
+    url: "https://archive.org/details/corpusiuriscivil03krueuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Weidmann 1892-95), 2026-10-16
+    status: downloaded
+    vendored_as: "justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt"
+
+  - title: "Chronica minora II (MGH Auctores antiquissimi 11): Marcellinus Comes, Victor of Tunnuna, John of Biclaro, Isidore, Marius of Avenches"
+    author: "Marcellinus Comes; Victor of Tunnuna; John of Biclaro; Isidore of Seville; Marius of Avenches"
+    translator: "Theodor Mommsen (ed.)"
+    year: 1894
+    world: "latin-africa-under-byzantium"
+    why: >
+      Era III Library pass (2026-10-16): six Era III worlds share this one volume; Victor of
+      Tunnuna is the African church's own chronicle, Biclaro the Visigothic one, and
+      Biclaro's single sentence on Makuria is the only Latin witness to Nubia's second
+      conversion.
+    url: "https://archive.org/details/chronicaminorasa11momm"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Weidmann 1894; no
+      copyright field); the Marcellinus, Victor and Biclaro headings located in the fetched
+      text, 2026-10-16
+    status: downloaded
+    vendored_as: "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+
+  - title: "Patrologia Orientalis II: Vie de Sévère par Zacharie le Scholastique; Vie de Sévère par Jean de Beith-Aphthonia"
+    author: "Zacharias Scholasticus; John of Beth Aphthonia"
+    translator: "M.-A. Kugener (Syriac text with French translation)"
+    year: 1903
+    world: "syriac-orthodox-west-syriac-christianity"
+    why: >
+      Era III Library pass (2026-10-16): the West Syriac dossier (§3) named the Life of
+      Severus as a lead without confirming its edition; this is Kugener's PO 2 edition,
+      confirmed on the host. Serves three Era III worlds.
+    url: "https://archive.org/details/patrologiaorient02pariuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT); 'VIE
+      DE SEVERE, PAR ZACHARIE LE SCHOLASTIQUE' title line read in the fetched text,
+      2026-10-16
+    status: downloaded
+    vendored_as: "zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+
+  - title: "Petrus der Iberer (Syriac Life of Peter the Iberian with German translation)"
+    author: "John Rufus of Maiuma (attrib.)"
+    translator: "Richard Raabe"
+    year: 1895
+    world: "chalcedonian-monasticism-judean-desert-and-gaza"
+    why: >
+      Era III Library pass (2026-10-16): the one Life of the anti-Chalcedonian leader of
+      Gaza-Maiuma in a public-domain translation; serves the Gaza, Georgian and West Syriac
+      entries.
+    url: "https://archive.org/details/petrusderiberer00raabgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Hinrichs 1895), 2026-10-16
+    status: downloaded
+    vendored_as: "john-rufus_petrus-der-iberer-vita-syr-deu_raabe1895.txt"
+
+  - title: "Patrologia Orientalis VIII: Jean Rufus, Plérophories (with Severus, Homiliae cathedrales LVIII-LXIX)"
+    author: "John Rufus of Maiuma; Severus of Antioch"
+    translator: "F. Nau; M. Brière (Syriac with French)"
+    year: 1912
+    world: "chalcedonian-monasticism-judean-desert-and-gaza"
+    why: >
+      Era III Library pass (2026-10-16): the anti-Chalcedonian Gaza circle's own testimony
+      collection, the rival voice the Chalcedonian Gaza entry must reckon with; also
+      Severus's homilies, a West Syriac dossier lead.
+    url: "https://archive.org/details/patrologiaorient08pariuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT);
+      'PLEROPHORIES' title read in the fetched text, 2026-10-16
+    status: downloaded
+    vendored_as: "john-rufus_plerophories-po8-syr-fra_nau1912.txt"
+
+  - title: "Analecta Bollandiana 7 (1888): Antony of Choziba, Vita sancti Georgii Chozibitae"
+    author: "Antony of Choziba"
+    translator: "C. Houze (ed., Greek)"
+    year: 1888
+    world: "chalcedonian-monasticism-judean-desert-and-gaza"
+    why: >
+      Era III Library pass (2026-10-16): the only first-hand account of the Judean desert
+      monasteries at the Persian conquest of 614, in its only public-domain edition.
+    url: "https://archive.org/details/sim_analecta-bollandiana_1888_7"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1888; no copyright
+      field); the Life's heading located in the fetched text, 2026-10-16
+    status: downloaded
+    vendored_as: "antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt"

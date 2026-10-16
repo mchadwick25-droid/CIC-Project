@@ -16,3 +16,29 @@ assignments:
       Theodore) boundary an Atlas story cites was not pinpointed across
       this or the two following fascicules (OCR noise defeated a
       Roman-numeral chapter search) - a disclosed, open imprecision.
+
+  - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--life-10-simeon-beth-arsham-persian-debater
+    work: "Lives of the Eastern Saints 10 (Simeon of Beth Arsham, the Persian Debater: his disputes with the Catholicos Babai before the Persian king, c. 499-504)"
+    author: john-ephesus
+    locus: "Life 10 (raw file lines ~8279-9423)"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: context
+    confidence: assigned
+    note: >
+      A West Syriac opponent working inside Persia, debating the Church of the East's
+      catholicos at court: a contemporary hostile witness. Era III Library pass, 2026-10-16.
+
+  - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--synaxaire-arabe-jacobite-v-basset
+    work: "Le Synaxaire arabe jacobite, V (months Baounah to Mesore), ed. and tr. R. Basset (bound in this PO volume): the Coptic church's calendar notices of Dioscorus, Timothy, Theodosius, Benjamin and the murder of Proterius"
+    author: john-ephesus
+    locus: "the Synaxaire arabe section (raw file lines ~49000-64550)"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: transmission
+    confidence: provisional
+    note: >
+      Not John of Ephesus's work: PO 17 binds Basset's Coptic-Arabic Synaxarion (a 13th-
+      century compilation, French translation) after the Lives. Transmission of the Egyptian
+      church's memory of its 5th-7th-century patriarchs; the author slug is the file's,
+      recorded plainly. Era III Library pass, 2026-10-16.

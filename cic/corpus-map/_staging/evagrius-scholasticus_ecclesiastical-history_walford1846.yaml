@@ -33,3 +33,53 @@ assignments:
       own definition, "the view from outside: a pagan critic, a civil
       historian, or a contemporary opponent," not this entry's own
       voice.
+
+  - row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--iv-7-iv-33-gaza-barsanuphius-zosimas
+    work: "Ecclesiastical History IV.7 (Zosimas of Caesarea) and IV.33 (Barsanuphius of Gaza); Severus at Maiuma (II.5-III.33 passim)"
+    author: evagrius-scholasticus
+    locus: "Book IV ch. 7 (raw file lines ~7976-8080) and ch. 33 (~9257-9277); Severus's Gaza years in Book III"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: context
+    confidence: assigned
+    note: >
+      The only vendored English words about Barsanuphius the Egyptian recluse near Gaza, and
+      Zosimas; a Chalcedonian lawyer's outside view. Era III Library pass, 2026-10-16.
+
+  - row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--vi-21-khosrau-ii-sira
+    work: "Ecclesiastical History VI.21 (Khosrau II's offerings to St Sergius and his Christian queen Sira)"
+    author: evagrius-scholasticus
+    locus: "Book VI ch. 21 (raw file lines ~11951-12070)"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: context
+    confidence: assigned
+    note: >
+      The Persian king's own letters, as Evagrius quotes them, naming his Christian queen: a
+      rare outside view of Christians at the Sasanian court. Era III Library pass,
+      2026-10-16.
+
+  - row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--v-7-persarmenian-revolt-572
+    work: "Ecclesiastical History V.7 (the Persarmenian revolt of 572 under Vardan)"
+    author: evagrius-scholasticus
+    locus: "Book V ch. 7 (raw file lines ~10212-10240)"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+    role: context
+    confidence: provisional
+    note: >
+      Just after the entry's 554 close; the Armenian revolt against Persian fire-worship
+      seen from Antioch. Provisional on the window. Era III Library pass, 2026-10-16.
+
+  - row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--iv-14-iv-16-huneric-carthage
+    work: "Ecclesiastical History IV.14 (Huneric's persecution) and IV.16 (the expedition against Carthage, 533); IV.38 (the Fifth Council)"
+    author: evagrius-scholasticus
+    locus: "Book IV ch. 14 (raw file ~8277-8330), ch. 16 (~8415), ch. 38 (~9553)"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+      - latin-africa-under-byzantium
+    role: context
+    confidence: assigned
+    note: >
+      Huneric "a professor of the creed of Arius" and the reconquest, from Antioch; outside
+      witness for both African entries. Era III Library pass, 2026-10-16.

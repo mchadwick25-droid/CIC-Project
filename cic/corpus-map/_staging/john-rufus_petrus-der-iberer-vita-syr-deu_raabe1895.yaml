@@ -1,0 +1,18 @@
+source_file: john-rufus_petrus-der-iberer-vita-syr-deu_raabe1895.txt
+
+assignments:
+  - row_id: john-rufus_petrus-der-iberer-vita-syr-deu_raabe1895--life-of-peter-the-iberian
+    work: "Life of Peter the Iberian (Syriac, with German translation)"
+    author: john-rufus
+    locus: "whole text"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+      - georgian-christianity
+      - syriac-orthodox-west-syriac-christianity
+    role: context
+    confidence: needs-ruling
+    note: >
+      Peter the Iberian was a Georgian royal hostage, a Palestinian monk and the anti-
+      Chalcedonian bishop of Maiuma: three worlds have a claim and the dossiers name his
+      placement as a needs-ruling. Recorded as context for the Chalcedonian Gaza entry (the
+      rival), with the Georgian and West Syriac placements undecided.
