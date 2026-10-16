@@ -5682,7 +5682,17 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
     without buying a live response. To be revisited only if the queue ever shows distress
     written there, as a governance question, not a quiet change.
 
-All five questions put to Mark are now decided. Nothing on this item is open.
+14. **Change order to item 12: clarity joins accuracy** (Mark, same day: "add not clear and
+    give room for that, we are about rigor and craft"). A fourth reason on the card, in
+    Mark's words: "This is not clear". The control now tests the two things the project's
+    working rules say it succeeds or fails on, rigour and clarity, and nothing else. Item
+    12's exclusions still hold: no "Something else", and nothing about how the reply sounds.
+    A clarity flag carries the same pointer as an accuracy flag (sentence, records,
+    confidence), so it is also a lead for the readability work. The link's words are being
+    re-checked against the widened card, since "This may not be accurate" no longer names
+    everything the card accepts.
+
+All five questions put to Mark are decided. One wording check remains from the change order.
 
 **Defaults set here, to be checked when the privacy page is written.** A flag or comment
 record is kept until it is closed plus 90 days. An email address is deleted when the reply
