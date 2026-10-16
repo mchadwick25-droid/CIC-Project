@@ -89,6 +89,15 @@ works:
   note: Anonymous members' statements of their spiritual state, the closest Ephrata comes
     to the member-memoir genre; German original, Fraktur OCR, no PD English.
   source_file: ephrata-community_theosophische-lectionen-deu_1752.txt
+- row_id: freylinghausen_geistreiches-gesangbuch-deu_halle1730--geist-reiches-gesang-buch-halle-1730-edition-3
+  work: Geist-reiches Gesang-Buch (Halle, 1730 edition)
+  author: freylinghausen
+  locus: whole volume
+  role: antecedent
+  confidence: provisional
+  note: The Brethren's Kleine Davidische Psalterspiel (1744) draws on the Halle collections;
+    provisional.
+  source_file: freylinghausen_geistreiches-gesangbuch-deu_halle1730.txt
 - row_id: brumbaugh_history-german-baptist-brethren_1899--hochmann-von-hochenau-confession-of-faith-detmold-1702
   work: Hochmann von Hochenau, Confession of Faith (Detmold, 1702), German facsimile with
     literal English

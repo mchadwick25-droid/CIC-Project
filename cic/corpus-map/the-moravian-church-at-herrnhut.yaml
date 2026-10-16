@@ -3,6 +3,15 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-moravian-church-at-herrnhut
 works:
+- row_id: arndt_true-christianity_boehm-schaeffer1868--true-christianity-wahres-christentum-bohm-schaeffer-english-2
+  work: True Christianity (Wahres Christentum), Böhm-Schaeffer English 1868
+  author: arndt
+  locus: whole work
+  role: antecedent
+  confidence: provisional
+  note: Read at Herrnhut as in every Pietist household; provisional until a Moravian source
+    record argues from it.
+  source_file: arndt_true-christianity_boehm-schaeffer1868.txt
 - row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina-3
   work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
   author: comenius
@@ -17,6 +26,15 @@ works:
 
     '
   source_file: comenius_historia-fratrum-bohemorum-lat_1702.txt
+- row_id: freylinghausen_geistreiches-gesangbuch-deu_halle1730--geist-reiches-gesang-buch-halle-1730-edition-2
+  work: Geist-reiches Gesang-Buch (Halle, 1730 edition)
+  author: freylinghausen
+  locus: whole volume
+  role: antecedent
+  confidence: provisional
+  note: Herrnhut's first hymnody drew on the Halle book; provisional until the Moravian hymnals
+    vendored show the dependence.
+  source_file: freylinghausen_geistreiches-gesangbuch-deu_halle1730.txt
 - row_id: lamech-agrippa_chronicon-ephratense_hark1889--chronicon-ephratense-english-translation-hark-1889-2
   work: Chronicon Ephratense (English translation, Hark 1889)
   author: lamech-agrippa
@@ -26,6 +44,16 @@ works:
   note: An Ephrata eyewitness view of Zinzendorf's 1742 Pennsylvania synods and of the Moravians
     as rivals; the view from a neighbouring community, never the Moravians' own voice.
   source_file: lamech-agrippa_chronicon-ephratense_hark1889.txt
+- row_id: spener_pia-desideria-deu_koehler1841--pia-desideria-1675-german-leipzig-1841-edition-2
+  work: Pia Desideria (1675), German, Leipzig 1841 edition
+  author: spener
+  locus: whole work
+  role: antecedent
+  confidence: provisional
+  note: Zinzendorf was Spener's godson and Herrnhut's conventicle pattern descends from the
+    collegia pietatis Spener proposes here; provisional until the Moravian sources vendored
+    show how they argue from it.
+  source_file: spener_pia-desideria-deu_koehler1841.txt
 - row_id: unity-of-the-brethren_church-constitution_seifferth1866--church-constitution-of-the-bohemian-and-moravian-brethren-2
   work: Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)
   author: unity-of-the-brethren

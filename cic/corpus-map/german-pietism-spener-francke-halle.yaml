@@ -3,6 +3,155 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: german-pietism-spener-francke-halle
 works:
+- row_id: american-sunday-school-union_memoirs-of-francke_1831--memoirs-of-augustus-hermann-francke-the-compiler-s-narrative
+  work: Memoirs of Augustus Hermann Francke (the compiler's narrative)
+  author: american-sunday-school-union
+  locus: the whole volume outside the quoted passages
+  role: context
+  confidence: assigned
+  note: Nineteenth-century evangelical retrospect; orientation only.
+  source_file: american-sunday-school-union_memoirs-of-francke_1831.txt
+- row_id: arndt_true-christianity_boehm-schaeffer1868--true-christianity-wahres-christentum-bohm-schaeffer-english
+  work: True Christianity (Wahres Christentum), Böhm-Schaeffer English 1868
+  author: arndt
+  locus: whole work; four books with numbered chapters
+  role: antecedent
+  confidence: assigned
+  note: Spener's Pia Desideria was first printed as a preface to Arndt's sermons and names
+    him as the model of true Christianity; the Pietists argued from this text.
+  source_file: arndt_true-christianity_boehm-schaeffer1868.txt
+- row_id: burk_memoir-of-bengel_walker1837--bengel-s-letters-prayers-and-sayings-as-translated-in-burk-s
+  work: Bengel's letters, prayers and sayings as translated in Burk's Memoir (1837)
+  author: bengel
+  locus: the quoted letters and sayings throughout; Burk's narrative excluded
+  role: tradition
+  confidence: provisional
+  note: Bengel's private voice at second hand through a son-in-law's memoir and an English
+    translator; provisional until each item is checked against a German text.
+  source_file: burk_memoir-of-bengel_walker1837.txt
+- row_id: bengel_erklaerte-offenbarung-johannis-deu_1740--erklarte-offenbarung-johannis-1740
+  work: Erklärte Offenbarung Johannis (1740)
+  author: bengel
+  locus: whole work; by Revelation chapter and verse
+  role: tradition
+  confidence: assigned
+  note: Württemberg Pietism's eschatology in Bengel's own words; rough Fraktur OCR, edition
+    year to be confirmed against the scan.
+  source_file: bengel_erklaerte-offenbarung-johannis-deu_1740.txt
+- row_id: bengel_gnomon-of-the-new-testament-v1_fausset1857--gnomon-of-the-new-testament-vol-i-matthew-mark-english-1857
+  work: Gnomon of the New Testament, vol. I (Matthew-Mark), English 1857
+  author: bengel
+  locus: whole volume; book, chapter and verse
+  role: tradition
+  confidence: assigned
+  note: Württemberg Pietism's exegete in his own words; the census places Bengel inside this
+    world.
+  source_file: bengel_gnomon-of-the-new-testament-v1_fausset1857.txt
+- row_id: bengel_introduction-to-exposition-of-apocalypse_robertson1757--introduction-preface-conclusion-and-marginal-notes-of-the
+  work: Introduction, Preface, Conclusion and marginal notes of the Erklärte Offenbarung,
+    English 1757
+  author: bengel
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: Bengel's own framing of his apocalyptic exposition, in a translation made in his lifetime's
+    shadow (1757); the full commentary stands in the vendored German.
+  source_file: bengel_introduction-to-exposition-of-apocalypse_robertson1757.txt
+- row_id: burk_memoir-of-bengel_walker1837--a-memoir-of-the-life-and-writings-of-john-albert-bengel-burk
+  work: A Memoir of the Life and Writings of John Albert Bengel (Burk's narrative)
+  author: burk
+  locus: whole volume outside the quoted material
+  role: context
+  confidence: assigned
+  note: Nineteenth-century biography; orientation only.
+  source_file: burk_memoir-of-bengel_walker1837.txt
+- row_id: francke_christ-the-sum-and-substance-of-scripture_1732--christ-the-sum-and-substance-of-all-the-holy-scriptures-1732
+  work: Christ the Sum and Substance of all the Holy Scriptures (1732 English)
+  author: francke
+  locus: the numbered Sections
+  role: tradition
+  confidence: assigned
+  note: Francke on reading all Scripture for Christ; own voice.
+  source_file: francke_christ-the-sum-and-substance-of-scripture_1732.txt
+- row_id: francke_faith-in-christ-sermon_1709--faith-in-christ-inconsistent-with-a-sollicitous-concern
+  work: Faith in Christ inconsistent with a sollicitous Concern about the Things of this World
+    (Halle sermon, 1708; English 1709)
+  author: francke
+  locus: whole sermon
+  role: tradition
+  confidence: assigned
+  note: Francke preaching at Halle; own voice.
+  source_file: francke_faith-in-christ-sermon_1709.txt
+- row_id: american-sunday-school-union_memoirs-of-francke_1831--francke-s-conversion-narrative-lebenslauf-as-quoted-in-the
+  work: Francke's conversion narrative (Lebenslauf) as quoted in the 1831 Memoirs
+  author: francke
+  locus: chapter II, His Residence at Luneburg, the first-person passages
+  role: tradition
+  confidence: provisional
+  note: Francke in his own voice on the 1687 crisis, at second hand through an 1817 German
+    life and an 1831 English compilation; provisional until checked against a German text.
+  source_file: american-sunday-school-union_memoirs-of-francke_1831.txt
+- row_id: francke_nicodemus-against-fear-of-man_1801--nicodemus-or-a-treatise-against-the-fear-of-man-1701-english
+  work: Nicodemus, or a Treatise against the Fear of Man (1701), English
+  author: francke
+  locus: chapters 1-8 and the dedication
+  role: tradition
+  confidence: assigned
+  note: Francke's pastoral theology of courage before men; own voice in a complete English
+    text.
+  source_file: francke_nicodemus-against-fear-of-man_1801.txt
+- row_id: francke_pietas-hallensis_1705--pietas-hallensis-the-orphan-house-narrative-1705-english
+  work: 'Pietas Hallensis: the orphan-house narrative (1705 English)'
+  author: francke
+  locus: the narrative sections and the appended privileges
+  role: tradition
+  confidence: assigned
+  note: Francke's first-person account of the Halle foundations and their providential funding.
+  source_file: francke_pietas-hallensis_1705.txt
+- row_id: francke_christ-the-sum-and-substance-of-scripture_1732--preface-drawn-from-francke-s-own-account-of-his-early-life
+  work: Preface drawn from Francke's own account of his early life (the 1687 Lüneburg conversion)
+  author: francke
+  locus: the preface, roman-numbered pages
+  role: tradition
+  confidence: provisional
+  note: First-person quotations from the Lebenslauf inside an anonymous preface; provisional
+    because paraphrase and quotation alternate and the German original is not vendored.
+  source_file: francke_christ-the-sum-and-substance-of-scripture_1732.txt
+- row_id: francke_footsteps-of-divine-providence_1788--the-footsteps-of-divine-providence-the-halle-orphan-house
+  work: The Footsteps of Divine Providence (the Halle orphan-house narrative), 1788 English
+  author: francke
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: Francke's own account of prayer answered in the funding of the Halle foundations;
+    same text as Pietas Hallensis in a clean later edition.
+  source_file: francke_footsteps-of-divine-providence_1788.txt
+- row_id: francke_pietas-hallensis_1705--the-translator-s-preface-with-a-short-history-of-pietism
+  work: The translator's preface with a short history of Pietism (1705)
+  author: francke
+  locus: the preface before the narrative; its heading 'Pietists'
+  role: context
+  confidence: assigned
+  note: An English sympathiser's account of Spener and the Pietist controversies as of 1705;
+    the view from London, not Halle's own.
+  source_file: francke_pietas-hallensis_1705.txt
+- row_id: freylinghausen_geistreiches-gesangbuch-deu_halle1730--geist-reiches-gesang-buch-halle-1730-edition
+  work: Geist-reiches Gesang-Buch (Halle, 1730 edition)
+  author: freylinghausen
+  locus: whole volume; numbered hymns and stanzas
+  role: tradition
+  confidence: assigned
+  note: Halle Pietism's own hymnody; German original.
+  source_file: freylinghausen_geistreiches-gesangbuch-deu_halle1730.txt
+- row_id: guericke_life-of-francke_jackson1837--the-life-of-augustus-herman-franke-guericke-english-1837
+  work: The Life of Augustus Herman Franke (Guericke, English 1837)
+  author: guericke
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: Nineteenth-century scholarship quoting Francke's own prayers and letters; use to locate,
+    then verify each quotation against a Francke text.
+  source_file: guericke_life-of-francke_jackson1837.txt
 - row_id: brumbaugh_history-german-baptist-brethren_1899--hochmann-von-hochenau-confession-of-faith-detmold-1702-2
   work: Hochmann von Hochenau, Confession of Faith (Detmold, 1702), German facsimile with
     literal English
@@ -13,3 +162,38 @@ works:
   note: The radical wing's confession, from a preacher formed at Halle under Francke and then
     separated from the church; the view from Halle's radical edge, not Halle's own.
   source_file: brumbaugh_history-german-baptist-brethren_1899.txt
+- row_id: spener_geistliches-priesterthum-deu_steinkopf1851--das-geistliche-priesterthum-siebenzig-fragen-und-antworten
+  work: Das geistliche Priesterthum (Siebenzig Fragen und Antworten, 1677)
+  author: spener
+  locus: whole work; numbered questions 1-70
+  role: tradition
+  confidence: assigned
+  note: The lay priesthood as Spener taught it in question and answer; own voice.
+  source_file: spener_geistliches-priesterthum-deu_steinkopf1851.txt
+- row_id: spener_pia-desideria-deu_koehler1841--pia-desideria-1675-german-leipzig-1841-edition
+  work: Pia Desideria (1675), German, Leipzig 1841 edition
+  author: spener
+  locus: whole work; the six Vorschläge under their own headings
+  role: tradition
+  confidence: assigned
+  note: Spener's diagnosis of the church and six proposals for reform, the programme every
+    later Pietist cited. German original; no PD English.
+  source_file: spener_pia-desideria-deu_koehler1841.txt
+- row_id: spener_pia-desideria-deu_zunner1706--pia-desideria-frankfurt-1706-printing
+  work: Pia Desideria, Frankfurt 1706 printing
+  author: spener
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: Second witness to the text, close to Spener's lifetime printings; rough OCR.
+  source_file: spener_pia-desideria-deu_zunner1706.txt
+- row_id: ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718--propagation-of-the-gospel-in-the-east-the-tranquebar
+  work: 'Propagation of the Gospel in the East: the Tranquebar missionaries'' letters (English,
+    1718)'
+  author: ziegenbalg
+  locus: whole work; numbered letters in three parts
+  role: tradition
+  confidence: assigned
+  note: Halle Pietism's first mission in the missionaries' own letters; the institutional
+    reach the census names.
+  source_file: ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718.txt

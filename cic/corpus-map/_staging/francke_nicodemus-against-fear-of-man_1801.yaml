@@ -1,0 +1,21 @@
+source_file: francke_nicodemus-against-fear-of-man_1801.txt
+assignments:
+- row_id: francke_nicodemus-against-fear-of-man_1801--nicodemus-or-a-treatise-against-the-fear-of-man-1701-english
+  work: Nicodemus, or a Treatise against the Fear of Man (1701), English
+  author: francke
+  locus: chapters 1-8 and the dedication
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Francke's pastoral theology of courage before men; own voice in a complete English text.
+- row_id: francke_nicodemus-against-fear-of-man_1801--nicodemus-or-a-treatise-against-the-fear-of-man-1701-english-2
+  work: Nicodemus, or a Treatise against the Fear of Man (1701), English
+  author: francke
+  locus: whole tract
+  atlas_ids:
+  - the-methodist-revival
+  role: antecedent
+  confidence: provisional
+  note: Wesley abridged and reprinted this tract repeatedly from 1739; the full text behind his extracts.
+    Provisional until a meth source record argues from it.

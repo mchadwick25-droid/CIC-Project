@@ -10630,6 +10630,14 @@
           "rights": "Public Domain (pre-1930 publication); the item description records the Bavarian State Library (MDZ) as the source and gives no reuse statement"
         },
         {
+          "work": "True Christianity (Wahres Christentum), Böhm-Schaeffer English 1868",
+          "author": "arndt",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "arndt_true-christianity_boehm-schaeffer1868.txt",
+          "rights": "Public Domain (Project Gutenberg eBook #34736, released as public domain in the USA; the underlying edition was published 1868, more than 95 years ago)"
+        },
+        {
           "work": "Patriarch Jeremias II's replies to the Wirtemberg theologians on the Augsburg Confession, 1576-1581 (Latin translation)",
           "author": "jeremias-ii",
           "role": "context",
@@ -12363,12 +12371,180 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Memoirs of Augustus Hermann Francke (the compiler's narrative)",
+          "author": "american-sunday-school-union",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "american-sunday-school-union_memoirs-of-francke_1831.txt",
+          "rights": "Public Domain (published 1831, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "True Christianity (Wahres Christentum), Böhm-Schaeffer English 1868",
+          "author": "arndt",
+          "role": "antecedent",
+          "confidence": "assigned",
+          "source_file": "arndt_true-christianity_boehm-schaeffer1868.txt",
+          "rights": "Public Domain (Project Gutenberg eBook #34736, released as public domain in the USA; the underlying edition was published 1868, more than 95 years ago)"
+        },
+        {
+          "work": "Bengel's letters, prayers and sayings as translated in Burk's Memoir (1837)",
+          "author": "bengel",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "burk_memoir-of-bengel_walker1837.txt",
+          "rights": "Public Domain (published 1837, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Erklärte Offenbarung Johannis (1740)",
+          "author": "bengel",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "bengel_erklaerte-offenbarung-johannis-deu_1740.txt",
+          "rights": "Public Domain (published 1740, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Gnomon of the New Testament, vol. I (Matthew-Mark), English 1857",
+          "author": "bengel",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "bengel_gnomon-of-the-new-testament-v1_fausset1857.txt",
+          "rights": "Public Domain (published 1857, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Introduction, Preface, Conclusion and marginal notes of the Erklärte Offenbarung, English 1757",
+          "author": "bengel",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "bengel_introduction-to-exposition-of-apocalypse_robertson1757.txt",
+          "rights": "Public Domain (published 1757, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "A Memoir of the Life and Writings of John Albert Bengel (Burk's narrative)",
+          "author": "burk",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "burk_memoir-of-bengel_walker1837.txt",
+          "rights": "Public Domain (published 1837, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Christ the Sum and Substance of all the Holy Scriptures (1732 English)",
+          "author": "francke",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "francke_christ-the-sum-and-substance-of-scripture_1732.txt",
+          "rights": "Public Domain (published 1732, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Faith in Christ inconsistent with a sollicitous Concern about the Things of this World (Halle sermon, 1708; English 1709)",
+          "author": "francke",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "francke_faith-in-christ-sermon_1709.txt",
+          "rights": "Public Domain (published 1709, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Francke's conversion narrative (Lebenslauf) as quoted in the 1831 Memoirs",
+          "author": "francke",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "american-sunday-school-union_memoirs-of-francke_1831.txt",
+          "rights": "Public Domain (published 1831, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Nicodemus, or a Treatise against the Fear of Man (1701), English",
+          "author": "francke",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "francke_nicodemus-against-fear-of-man_1801.txt",
+          "rights": "Public Domain (published 1801, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Pietas Hallensis: the orphan-house narrative (1705 English)",
+          "author": "francke",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "francke_pietas-hallensis_1705.txt",
+          "rights": "Public Domain (published 1705, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Preface drawn from Francke's own account of his early life (the 1687 Lüneburg conversion)",
+          "author": "francke",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "francke_christ-the-sum-and-substance-of-scripture_1732.txt",
+          "rights": "Public Domain (published 1732, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "The Footsteps of Divine Providence (the Halle orphan-house narrative), 1788 English",
+          "author": "francke",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "francke_footsteps-of-divine-providence_1788.txt",
+          "rights": "Public Domain (published 1788, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"<a href=\"http://creativecommons.org/publicdomain/mark/1.0/\" rel=\"ugc nofollow\">This work is available under the Creative Commons, Public Domain Mark</a>\")"
+        },
+        {
+          "work": "The translator's preface with a short history of Pietism (1705)",
+          "author": "francke",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "francke_pietas-hallensis_1705.txt",
+          "rights": "Public Domain (published 1705, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Geist-reiches Gesang-Buch (Halle, 1730 edition)",
+          "author": "freylinghausen",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "freylinghausen_geistreiches-gesangbuch-deu_halle1730.txt",
+          "rights": "Public Domain (published 1730, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"http://creativecommons.org/publicdomain/mark/1.0/\")"
+        },
+        {
+          "work": "The Life of Augustus Herman Franke (Guericke, English 1837)",
+          "author": "guericke",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "guericke_life-of-francke_jackson1837.txt",
+          "rights": "Public Domain (published 1837, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "Hochmann von Hochenau, Confession of Faith (Detmold, 1702), German facsimile with literal English",
           "author": "hochmann",
           "role": "context",
           "confidence": "provisional",
           "source_file": "brumbaugh_history-german-baptist-brethren_1899.txt",
           "rights": "Public Domain (published 1899, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Das geistliche Priesterthum (Siebenzig Fragen und Antworten, 1677)",
+          "author": "spener",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "spener_geistliches-priesterthum-deu_steinkopf1851.txt",
+          "rights": "Public Domain (published 1851, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Pia Desideria (1675), German, Leipzig 1841 edition",
+          "author": "spener",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "spener_pia-desideria-deu_koehler1841.txt",
+          "rights": "Public Domain (published 1841, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"http://creativecommons.org/publicdomain/mark/1.0/\")"
+        },
+        {
+          "work": "Pia Desideria, Frankfurt 1706 printing",
+          "author": "spener",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "spener_pia-desideria-deu_zunner1706.txt",
+          "rights": "Public Domain (published 1706, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Propagation of the Gospel in the East: the Tranquebar missionaries' letters (English, 1718)",
+          "author": "ziegenbalg",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718.txt",
+          "rights": "Public Domain (published 1718, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         }
       ]
     },
@@ -12449,6 +12625,14 @@
           "rights": "Public Domain (published 1752, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
+          "work": "Geist-reiches Gesang-Buch (Halle, 1730 edition)",
+          "author": "freylinghausen",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "freylinghausen_geistreiches-gesangbuch-deu_halle1730.txt",
+          "rights": "Public Domain (published 1730, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"http://creativecommons.org/publicdomain/mark/1.0/\")"
+        },
+        {
           "work": "Hochmann von Hochenau, Confession of Faith (Detmold, 1702), German facsimile with literal English",
           "author": "hochmann",
           "role": "tradition",
@@ -12527,6 +12711,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "True Christianity (Wahres Christentum), Böhm-Schaeffer English 1868",
+          "author": "arndt",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "arndt_true-christianity_boehm-schaeffer1868.txt",
+          "rights": "Public Domain (Project Gutenberg eBook #34736, released as public domain in the USA; the underlying edition was published 1868, more than 95 years ago)"
+        },
+        {
           "work": "Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)",
           "author": "comenius",
           "role": "antecedent",
@@ -12535,12 +12727,28 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Geist-reiches Gesang-Buch (Halle, 1730 edition)",
+          "author": "freylinghausen",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "freylinghausen_geistreiches-gesangbuch-deu_halle1730.txt",
+          "rights": "Public Domain (published 1730, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"http://creativecommons.org/publicdomain/mark/1.0/\")"
+        },
+        {
           "work": "Chronicon Ephratense (English translation, Hark 1889)",
           "author": "lamech-agrippa",
           "role": "context",
           "confidence": "provisional",
           "source_file": "lamech-agrippa_chronicon-ephratense_hark1889.txt",
           "rights": "Public Domain (published 1889, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Pia Desideria (1675), German, Leipzig 1841 edition",
+          "author": "spener",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "spener_pia-desideria-deu_koehler1841.txt",
+          "rights": "Public Domain (published 1841, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"http://creativecommons.org/publicdomain/mark/1.0/\")"
         },
         {
           "work": "Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)",
@@ -12581,12 +12789,28 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Gnomon of the New Testament, vol. I (Matthew-Mark), English 1857",
+          "author": "bengel",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "bengel_gnomon-of-the-new-testament-v1_fausset1857.txt",
+          "rights": "Public Domain (published 1857, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
           "work": "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I -- Curnock's own Editorial Introduction",
           "author": "curnock-nehemiah",
           "role": "context",
           "confidence": "assigned",
           "source_file": "wesley-j_journal-v1_curnock1909.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Nicodemus, or a Treatise against the Fear of Man (1701), English",
+          "author": "francke",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "francke_nicodemus-against-fear-of-man_1801.txt",
+          "rights": "Public Domain (published 1801, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
         },
         {
           "work": "A Collection of Hymns, for the Use of the People Called Methodists - the hymns themselves (Charles Wesley, principal author)",
@@ -12915,6 +13139,22 @@
           "confidence": "assigned",
           "source_file": "bellarmine_notes-of-the-church_1688.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Pietas Hallensis: the orphan-house narrative (1705 English)",
+          "author": "francke",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "francke_pietas-hallensis_1705.txt",
+          "rights": "Public Domain (published 1705, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Propagation of the Gospel in the East: the Tranquebar missionaries' letters (English, 1718)",
+          "author": "ziegenbalg",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718.txt",
+          "rights": "Public Domain (published 1718, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         }
       ]
     },

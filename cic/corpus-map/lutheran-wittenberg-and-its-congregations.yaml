@@ -15,6 +15,15 @@ works:
     (Andreae, Crusius and others), not Wittenberg''s faculty, and the volume was printed at
     Wittenberg in 1584; so the fit to this entry is provisional. Latin only in this file.'
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+- row_id: arndt_true-christianity_boehm-schaeffer1868--true-christianity-wahres-christentum-bohm-schaeffer-english-3
+  work: True Christianity (Wahres Christentum), Böhm-Schaeffer English 1868
+  author: arndt
+  locus: whole work
+  role: context
+  confidence: provisional
+  note: Arndt (1555-1621) is Lutheran orthodoxy's own devotional writer, born within that
+    world's window and writing just after it closes; provisional placement for a later pass.
+  source_file: arndt_true-christianity_boehm-schaeffer1868.txt
 - row_id: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584--patriarch-jeremias-ii-s-replies-to-the-wirtemberg-2
   work: Patriarch Jeremias II's replies to the Wirtemberg theologians on the Augsburg Confession,
     1576-1581 (Latin translation)

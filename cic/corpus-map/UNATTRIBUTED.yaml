@@ -248,6 +248,14 @@ authors:
 
       '
     from_file: sachse_music-of-ephrata-cloister-beissel-treatise_1903.txt
+  bengel:
+    kind: metadata-omission
+    evidence: 'The title page names the volume as the life and writings of John Albert Bengel
+      and the text prints his letters, prayers and sayings in translation; the file''s leading
+      name slug is Burk, the memoir''s compiler.
+
+      '
+    from_file: burk_memoir-of-bengel_walker1837.txt
   budge:
     kind: metadata-omission
     evidence: 'The file is plain text and carries no markup to hold a creator, so the extractor

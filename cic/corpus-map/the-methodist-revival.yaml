@@ -38,6 +38,16 @@ works:
 
     '
   source_file: asbury_journal-v3_1821.txt
+- row_id: bengel_gnomon-of-the-new-testament-v1_fausset1857--gnomon-of-the-new-testament-vol-i-matthew-mark-english-1857-2
+  work: Gnomon of the New Testament, vol. I (Matthew-Mark), English 1857
+  author: bengel
+  locus: whole volume
+  role: antecedent
+  confidence: provisional
+  note: Wesley's Explanatory Notes upon the New Testament (1755) abridge the Gnomon by Wesley's
+    own statement; provisional until the Notes are vendored and the dependence shown in a
+    record.
+  source_file: bengel_gnomon-of-the-new-testament-v1_fausset1857.txt
 - row_id: wesley-j_journal-v1_curnock1909--the-journal-of-the-rev-john-wesley-a-m-curnock-edition-vol-i-2
   work: The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I -- Curnock's own
     Editorial Introduction
@@ -51,6 +61,15 @@ works:
 
     '
   source_file: wesley-j_journal-v1_curnock1909.txt
+- row_id: francke_nicodemus-against-fear-of-man_1801--nicodemus-or-a-treatise-against-the-fear-of-man-1701-english-2
+  work: Nicodemus, or a Treatise against the Fear of Man (1701), English
+  author: francke
+  locus: whole tract
+  role: antecedent
+  confidence: provisional
+  note: Wesley abridged and reprinted this tract repeatedly from 1739; the full text behind
+    his extracts. Provisional until a meth source record argues from it.
+  source_file: francke_nicodemus-against-fear-of-man_1801.txt
 - row_id: wesley-c_hymns-methodists_1780--a-collection-of-hymns-for-the-use-of-the-people-called-2
   work: A Collection of Hymns, for the Use of the People Called Methodists - the hymns themselves
     (Charles Wesley, principal author)

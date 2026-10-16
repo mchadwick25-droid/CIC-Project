@@ -32,3 +32,21 @@ works:
 
     '
   source_file: bellarmine_notes-of-the-church_1688.txt
+- row_id: francke_pietas-hallensis_1705--pietas-hallensis-the-orphan-house-narrative-1705-english-2
+  work: 'Pietas Hallensis: the orphan-house narrative (1705 English)'
+  author: francke
+  locus: whole work
+  role: context
+  confidence: provisional
+  note: Published by the SPCK's printer Downing for an English readership; the Halle model
+    as the English voluntary societies received it. Provisional placement.
+  source_file: francke_pietas-hallensis_1705.txt
+- row_id: ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718--propagation-of-the-gospel-in-the-east-the-tranquebar-2
+  work: 'Propagation of the Gospel in the East: the Tranquebar missionaries'' letters (English,
+    1718)'
+  author: ziegenbalg
+  locus: the dedication to Archbishop Wake and the SPG
+  role: context
+  confidence: provisional
+  note: The Halle-SPCK-SPG connection as the English church received it; provisional.
+  source_file: ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718.txt

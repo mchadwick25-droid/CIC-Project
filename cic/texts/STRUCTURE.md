@@ -47,6 +47,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 711,016 | 711,016 | alcuin_opera-omnia-letters_migne-pl100-101_1863 |
 
+## `american-sunday-school-union_memoirs-of-francke_1831.txt`
+
+1 section(s) to level 2 · ~36,134 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 36,134 | 36,134 | american-sunday-school-union_memoirs-of-francke_1831 |
+
 ## `ammianus-marcellinus_roman-history_yonge1862.txt`
 
 1 section(s) to level 2 · ~264,224 words of text · ~0 words of apparatus
@@ -734,6 +742,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 53,804 | 53,804 | aristides_apology-syriac-grc-eng_harris-robinson1893 |
 
+## `arndt_true-christianity_boehm-schaeffer1868.txt`
+
+1 section(s) to level 2 · ~304,651 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 304,651 | 304,651 | arndt_true-christianity_boehm-schaeffer1868 |
+
 ## `arnobius_adversus-nationes-lat_reifferscheid-csel4.txt`
 
 1 section(s) to level 2 · ~129,402 words of text · ~0 words of apparatus
@@ -1246,6 +1262,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 88,570 | 88,570 | bellarmine_souls-ascension-to-god_hall1703 |
 
+## `bengel_erklaerte-offenbarung-johannis-deu_1740.txt`
+
+1 section(s) to level 2 · ~219,024 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 219,024 | 219,024 | bengel_erklaerte-offenbarung-johannis-deu_1740 |
+
+## `bengel_gnomon-of-the-new-testament-v1_fausset1857.txt`
+
+1 section(s) to level 2 · ~252,127 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 252,127 | 252,127 | bengel_gnomon-of-the-new-testament-v1_fausset1857 |
+
+## `bengel_introduction-to-exposition-of-apocalypse_robertson1757.txt`
+
+1 section(s) to level 2 · ~67,389 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 67,389 | 67,389 | bengel_introduction-to-exposition-of-apocalypse_robertson1757 |
+
 ## `benson_cyprian-his-life-his-times-his-work_1897.txt`
 
 1 section(s) to level 2 · ~268,752 words of text · ~0 words of apparatus
@@ -1333,6 +1373,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 118,956 | 118,956 | brumbaugh_history-german-baptist-brethren_1899 |
+
+## `burk_memoir-of-bengel_walker1837.txt`
+
+1 section(s) to level 2 · ~228,783 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 228,783 | 228,783 | burk_memoir-of-bengel_walker1837 |
 
 ## `busch_chronicon-windeshemense-lat_grube1886.txt`
 
@@ -2038,6 +2086,54 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 365,441 | 365,441 | francis-xavier_monumenta-xaveriana-v2-lat_1912 |
 
+## `francke_christ-the-sum-and-substance-of-scripture_1732.txt`
+
+1 section(s) to level 2 · ~81,467 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 81,467 | 81,467 | francke_christ-the-sum-and-substance-of-scripture_1732 |
+
+## `francke_faith-in-christ-sermon_1709.txt`
+
+1 section(s) to level 2 · ~10,282 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 10,282 | 10,282 | francke_faith-in-christ-sermon_1709 |
+
+## `francke_footsteps-of-divine-providence_1788.txt`
+
+1 section(s) to level 2 · ~49,562 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 49,562 | 49,562 | francke_footsteps-of-divine-providence_1788 |
+
+## `francke_nicodemus-against-fear-of-man_1801.txt`
+
+1 section(s) to level 2 · ~36,165 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 36,165 | 36,165 | francke_nicodemus-against-fear-of-man_1801 |
+
+## `francke_pietas-hallensis_1705.txt`
+
+1 section(s) to level 2 · ~93,124 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 93,124 | 93,124 | francke_pietas-hallensis_1705 |
+
+## `freylinghausen_geistreiches-gesangbuch-deu_halle1730.txt`
+
+1 section(s) to level 2 · ~291,329 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 291,329 | 291,329 | freylinghausen_geistreiches-gesangbuch-deu_halle1730 |
+
 ## `gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt`
 
 1 section(s) to level 2 · ~64,765 words of text · ~0 words of apparatus
@@ -2181,6 +2277,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 391,167 | 391,167 | gsell_inscriptions-latines-de-lalgerie-tome1-proconsulaire-fra-lat_1922 |
+
+## `guericke_life-of-francke_jackson1837.txt`
+
+1 section(s) to level 2 · ~93,297 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 93,297 | 93,297 | guericke_life-of-francke_jackson1837 |
 
 ## `harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906.txt`
 
@@ -6881,6 +6985,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 273,837 | 273,837 | society-of-jesus_monumenta-paedagogica-lat-spa_1901 |
 
+## `spener_geistliches-priesterthum-deu_steinkopf1851.txt`
+
+1 section(s) to level 2 · ~6,718 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 6,718 | 6,718 | spener_geistliches-priesterthum-deu_steinkopf1851 |
+
+## `spener_pia-desideria-deu_koehler1841.txt`
+
+1 section(s) to level 2 · ~87,992 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 87,992 | 87,992 | spener_pia-desideria-deu_koehler1841 |
+
+## `spener_pia-desideria-deu_zunner1706.txt`
+
+1 section(s) to level 2 · ~76,172 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 76,172 | 76,172 | spener_pia-desideria-deu_zunner1706 |
+
 ## `sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt`
 
 1 section(s) to level 2 · ~228,963 words of text · ~0 words of apparatus
@@ -7184,6 +7312,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 55,810 | 55,810 | zerbolt_spiritual-ascent_arthur1908 |
+
+## `ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718.txt`
+
+1 section(s) to level 2 · ~117,103 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 117,103 | 117,103 | ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718 |
 
 ## `zwingli_latin-works-correspondence-vol1_jackson1912.txt`
 

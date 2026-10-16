@@ -2926,3 +2926,239 @@ queue:
     verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
     status: downloaded
     vendored_as: "sachse_music-of-ephrata-cloister-beissel-treatise_1903.txt"
+
+  - title: "Pia Desideria (German, 1841 reprint)"
+    author: "Philipp Jakob Spener"
+    translator: "n/a (German original)"
+    year: "1841"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      The founding document of Pietism; the only PD text is the German, since
+      the one English translation (1964) is in copyright.
+    url: "https://archive.org/details/bub_gb_p9crAAAAYAAJ"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "spener_pia-desideria-deu_koehler1841.txt"
+
+  - title: "Pia Desideria (German, Frankfurt 1706)"
+    author: "Philipp Jakob Spener"
+    translator: "n/a (German original)"
+    year: "1706"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      An early printing of Pia Desideria to stand beside the 1841 reprint as a
+      second witness.
+    url: "https://archive.org/details/11303913bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "spener_pia-desideria-deu_zunner1706.txt"
+
+  - title: "Das geistliche Priesterthum (German, 1851 reprint)"
+    author: "Philipp Jakob Spener"
+    translator: "n/a (German original)"
+    year: "1851"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      Spener's seventy questions on the spiritual priesthood, the doctrinal
+      basis of the Pietist conventicle.
+    url: "https://archive.org/details/siebenzigfragenu00phil"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "spener_geistliches-priesterthum-deu_steinkopf1851.txt"
+
+  - title: "Pietas Hallensis (English, 1705)"
+    author: "August Hermann Francke"
+    translator: "unnamed (attributed to A. W. B\u00f6hm)"
+    year: "1705"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      Francke's founding narrative of the Halle institutions in the English
+      that reached the SPCK circle, plus the earliest English history of
+      Pietism.
+    url: "https://archive.org/details/bim_eighteenth-century_pietas-hallensis-or-a-p_francke-august-hermann_1705"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "francke_pietas-hallensis_1705.txt"
+
+  - title: "The Footsteps of Divine Providence (English, 1788)"
+    author: "August Hermann Francke"
+    translator: "unnamed"
+    year: "1788"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      Clean English of the Halle providential narrative, beside the noisier
+      1705 first printing.
+    url: "https://archive.org/details/b28777104"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "francke_footsteps-of-divine-providence_1788.txt"
+
+  - title: "Nicodemus, or a Treatise against the Fear of Man (English, 1801)"
+    author: "August Hermann Francke"
+    translator: "anonymous (1706)"
+    year: "1801"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      Francke's own-voice tract complete in PD English; the 1706 and 1739-98
+      printings are garbled or Wesley's abridgements.
+    url: "https://archive.org/details/nicodemusortre00fran"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "francke_nicodemus-against-fear-of-man_1801.txt"
+
+  - title: "Christ the Sum and Substance of all the Holy Scriptures (English, 1732)"
+    author: "August Hermann Francke"
+    translator: "anonymous ('an Antient Doctor of Physick')"
+    year: "1732"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      Francke's hermeneutic in PD English with the earliest English witness to
+      his conversion narrative.
+    url: "https://archive.org/details/christussacraesc00franiala"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "francke_christ-the-sum-and-substance-of-scripture_1732.txt"
+
+  - title: "Memoirs of Augustus Hermann Francke (1831)"
+    author: "American Sunday-School Union"
+    translator: "unnamed"
+    year: "1831"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      The fullest PD English rendering of Francke's conversion narrative,
+      quoted inside an 1831 memoir.
+    url: "https://archive.org/details/memoirsofaugustu00amer"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "american-sunday-school-union_memoirs-of-francke_1831.txt"
+
+  - title: "Guericke's Life of Francke (English, 1837)"
+    author: "H. E. F. Guericke"
+    translator: "Samuel Jackson"
+    year: "1837"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      The standard biography, PD in English, quoting Francke's prayers and
+      letters that have no other PD English route.
+    url: "https://archive.org/details/lifeofaugustushe00guer"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "guericke_life-of-francke_jackson1837.txt"
+
+  - title: "Faith in Christ inconsistent with a sollicitous Concern (sermon, English 1709)"
+    author: "August Hermann Francke"
+    translator: "anonymous"
+    year: "1709"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      A Francke sermon in his own voice, in English contemporary with its
+      preaching.
+    url: "https://archive.org/details/bim_eighteenth-century_faith-in-christ-inconsi_francke-august-hermann_1709"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "francke_faith-in-christ-sermon_1709.txt"
+
+  - title: "True Christianity (Arndt, English 1868)"
+    author: "Johann Arndt"
+    translator: "A. W. B\u00f6hm (1712), rev. C. F. Schaeffer"
+    year: "1868"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      The devotional antecedent of the whole movement, in clean PD English.
+    url: "https://www.gutenberg.org/ebooks/34736"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "arndt_true-christianity_boehm-schaeffer1868.txt"
+
+  - title: "Gnomon of the New Testament, vol. I (English, 1857)"
+    author: "Johann Albrecht Bengel"
+    translator: "A. R. Fausset (ed.)"
+    year: "1857"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      Bengel's own exegesis in PD English; Württemberg Pietism's voice and the
+      source of Wesley's Notes.
+    url: "https://archive.org/details/gnomonofthenewte01benguoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "bengel_gnomon-of-the-new-testament-v1_fausset1857.txt"
+
+  - title: "Erkl\u00e4rte Offenbarung Johannis (German, 1740)"
+    author: "Johann Albrecht Bengel"
+    translator: "n/a (German original)"
+    year: "1740"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      Bengel's apocalyptic chronology in his own German; the partial English
+      of 1757 is vendored beside it.
+    url: "https://archive.org/details/erklrteoffenbar00benggoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "bengel_erklaerte-offenbarung-johannis-deu_1740.txt"
+
+  - title: "Bengelius's Introduction to his Exposition of the Apocalypse (English, 1757)"
+    author: "Johann Albrecht Bengel"
+    translator: "John Robertson"
+    year: "1757"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      The one PD English route into Bengel's Revelation chronology.
+    url: "https://archive.org/details/bengeliussintrod00beng"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "bengel_introduction-to-exposition-of-apocalypse_robertson1757.txt"
+
+  - title: "Burk's Memoir of Bengel (English, 1837)"
+    author: "J. C. F. Burk"
+    translator: "R. F. Walker"
+    year: "1837"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      Bengel's letters and sayings survive in PD English only inside this
+      memoir.
+    url: "https://archive.org/details/amemoirlifeandw00burkgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "burk_memoir-of-bengel_walker1837.txt"
+
+  - title: "Freylinghausen's Geist-reiches Gesang-Buch (Halle, 1730)"
+    author: "J. A. Freylinghausen (ed.)"
+    translator: "n/a (German original)"
+    year: "1730"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      The Halle hymnbook, the Pietist movement as it sang.
+    url: "https://archive.org/details/bub_gb_sYZFAAAAcAAJ"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "freylinghausen_geistreiches-gesangbuch-deu_halle1730.txt"
+
+  - title: "Propagation of the Gospel in the East (Tranquebar letters, English 1718)"
+    author: "Bartholom\u00e4us Ziegenbalg and others"
+    translator: "A. W. B\u00f6hm"
+    year: "1718"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      Halle's missionaries in their own letters, in the English Böhm made for
+      the SPCK and SPG.
+    url: "https://archive.org/details/propagationofgos00zieg"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-16"
+    status: downloaded
+    vendored_as: "ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718.txt"
