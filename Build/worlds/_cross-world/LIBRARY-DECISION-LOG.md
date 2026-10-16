@@ -13,6 +13,58 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-10-16 — Era VI library pass: scope, and where the reader-ready facts for each text are recorded
+
+**Instruction.** The project lead (2026-10-16): build the library for every
+census world that has not started Step 0 to Doc_02, one era per fresh
+session, in auto mode inside that scope. This session is Era VI
+(1300–1517). Three sibling sessions run Eras III, VII and VIII at the same
+time on the same shared files.
+
+**Scope as applied.** The census lists 23 Era VI worlds. The Hussite and
+Bohemian Brethren world (`hus`) has a Doc_02 under `Build/worlds/hus/` and is
+out of scope. The other 22 are in scope, Lollardy and the Devotio Moderna
+included: both have a Step 0 and a Doc_01 under `Build/World-Builds/` but no
+Doc_02, and both already have dossiers, which this pass completes rather than
+restarts. Taborite Radicalism and the Fraticelli carry the census status
+"Within Another World"; the Adamites carry "Contested - Evidentiary". Each
+still gets a dossier, and the dossier's recommendation says whether the
+sources support that status. Build-or-atlas recommendations are the project
+lead's decision; the dossiers only recommend.
+
+**Where the Source Library facts live.** The Source Library design
+(2026-10-14) asks that every vendored text record how its edition labels its
+divisions, the credit line a public page should show, and whether the rights
+allow republishing the whole text or only passages. That design document is
+not in the repository at the path the instruction names
+(`Build/Ministry/Features/Source-Library/Design.md`), and
+`cic/texts/REGISTRY.yaml` has no field for any of the three. Rather than add
+schema fields that three concurrent sessions might name differently, this
+pass records them in two places that already exist: three new header lines in
+the vendored file itself (`Sections:`, `Credit:`, `Republish:`, after the
+`Content note:` line, so the file carries its own reader-ready facts the way
+it already carries its own rights line), and the same three facts as labelled
+sentences (`SECTIONS:`, `CREDIT:`, `REPUBLISH:`) at the end of the file's
+`notes` in `REGISTRY.yaml`, so a generator can lift them without opening the
+text. For files vendored before this pass under the in-scope worlds, the
+registry note gains the same three sentences as an appended addition; the
+earlier text of the note is left as written. When the design document lands
+and names a schema, the labelled sentences are the migration source; nothing
+else needs to change. This is a recording convention, not a rule change: the
+rule stays what the design says.
+
+**Nothing generated.** No translation, rendering or paraphrase written by a
+model enters the library in this pass. Where a non-English text has no
+public-domain English translation, the dossier records the gap and the
+registry note says the file stands alone.
+
+**Size.** `cic/texts/` stood at 671 MB (66% of the 1 GB planning trigger in
+`PLAN-texts-store-scaling.md`) before this pass. Four era sessions vendoring
+at once may cross that trigger together. Crossing it is a planning cue, not
+a defect; the pull request for each era states the size it leaves behind.
+
+---
+
 ## 2026-09-30 — Two Source Registry rules adopted into the Template
 
 **Ruling.** The project lead adopted both rules proposed in the entry "Step 0-2 process and gate fixes": one Confidence letter per row, with A given only when the Licensed-For content was read and verified at the source by structure marker; and corpus figures counted by two independent methods with the locale stated. His answer to the choice-box question was "Adopt both (Recommended)". Both are now written into `Build/reference/L3B-World-Build-Methodology/Source_Registry_Template.md` (the Confidence field, and a sixth rule). The Template's scale stays A to E; E marks a source later found unreliable. The proposal paragraph in the earlier entry is superseded by this one and is not edited.
