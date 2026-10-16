@@ -49,7 +49,7 @@ export function FigureBridgeMark({ label, figure }: FigureBridgeMarkProps) {
           <ul className="level3__names">
             {figure.names.map((n) => (
               <li key={n.tag}>
-                <span className="level3__names-tag">{n.tag === 'in-world' ? 'Called, in this world' : 'Known to scholars as'}</span>
+                <span className="level3__names-tag">{n.tag === 'in-world' ? 'Called, in this tradition' : 'Known to scholars as'}</span>
                 {n.name}
               </li>
             ))}
