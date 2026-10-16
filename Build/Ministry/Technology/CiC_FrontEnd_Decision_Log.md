@@ -5625,8 +5625,12 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
    give an optional email, send. Not Option C (a review screen at the end), which
    loses everyone who closes the tab early. Not Option A alone (store the site form),
    which leaves a wrong fact reported from memory with no pointer to the sentence.
-2. **The link's words: "There may be a problem".** Mark's change to the recommended "Is this
-   right?". The card title stays "Tell us what seems wrong".
+2. **The link's words: "This may not be accurate".** The card title: "Tell us what is not
+   accurate". Mark first changed the recommended "Is this right?" to "There may be a
+   problem", then, after ruling that the control tests accuracy only (item 12), asked for
+   words specific to that test. Of three offered ("This may not be accurate" / "Is this
+   accurate?" / "Question a fact") he chose the first: a quiet statement, not a dare, that
+   names the one thing we test.
 3. **Disagreement goes back into the conversation, not into the flag.** The card says: "If
    you disagree with what {Name} believes, say so in the conversation. That is what it is
    for." The reasons offered are all about evidence, never about the Representative's view.
