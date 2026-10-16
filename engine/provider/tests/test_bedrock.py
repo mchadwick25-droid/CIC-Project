@@ -64,6 +64,7 @@ def test_the_conversation_client_retries_a_failed_call_once(monkeypatch):
 
     monkeypatch.setenv("AWS_ACCESS_KEY_ID", "test")
     monkeypatch.setenv("AWS_SECRET_ACCESS_KEY", "test")
+    monkeypatch.setenv(guard.RENDER_ENV, "true")
     with guard.conversation_scope():
         client = make_client("us-east-1")
     assert client.max_retries == 1

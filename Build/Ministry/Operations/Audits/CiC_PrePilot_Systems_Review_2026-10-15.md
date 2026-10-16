@@ -113,3 +113,11 @@ Converged choices:
 3. **Disk use** is on `/health` as a whole percent (`disk_used_percent`); the Live watch check fails at 70%.
 4. **Stray whitespace** in the service's own settings (`CIC_`, `AWS_`, `VITE_`) is stripped at start-up and by the backup command, and the names changed are logged, never the values.
 5. **Dashboard steps for Mark:** an AWS Budget with a deny action (`CiC_Model_Spend_Budget_Runbook.md`), a GitHub rule requiring CI before merge to `main`, and the site's deploy tool pinned to an exact version in Cloudflare.
+
+## Backup set up and restore drilled — 2026-10-16
+
+Finding 1's remaining steps, done by Mark from the dashboards and the `cic-engine` Shell:
+1. The R2 bucket `cic-db-backups` and a bucket-scoped key pair are set in Render. The first pass uploaded all three databases; `/health` reports `"uploaded": true` and `disk_used_percent` 1.
+2. A restore drill brought each backup back into a scratch folder and matched every table's row count to the live file (`CiC_Backup_Restore_Runbook.md`, "First production upload and restore drill"). Run on production into `/tmp`, not on staging, to add no cost.
+
+Still open on finding 1: the full suspend-overwrite-resume restore has not been run for real; Go Deeper claims and the admin login file are not in the backup.
