@@ -76,6 +76,15 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["admin"].update(mint_max_tokens_per_day=True),
         lambda d: d["admin"].update(mint_max_tokens_per_request=99999),
         lambda d: d["admin"].update(extra=1),
+        lambda d: d.pop("tester"),
+        lambda d: d["tester"].pop("max_per_day"),
+        lambda d: d["tester"].update(extra=1),
+        lambda d: d["tester"].update(default_tokens=0),
+        lambda d: d["tester"].update(max_days=True),
+        lambda d: d["tester"].update(max_tokens="20000"),
+        lambda d: d["tester"].update(default_tokens=20001),
+        lambda d: d["tester"].update(default_days=91),
+        lambda d: d["tester"].update(default_tokens=1_000_001, max_tokens=1_000_001),
         lambda d: d.pop("pilot"),
         lambda d: d["pilot"].pop("audiences"),
         lambda d: d["pilot"].pop("pilot_end_date"),
@@ -212,6 +221,12 @@ def test_the_shipped_mint_limits_hold_at_least_the_largest_pack():
     ops = load_ops()
     assert ops.admin_mint_max_tokens_per_request >= max(p.tokens for p in ops.packs)
     assert ops.admin_mint_max_tokens_per_request <= ops.admin_mint_max_tokens_per_day
+
+
+def test_the_shipped_tester_section_holds_the_stated_defaults():
+    ops = load_ops()
+    assert (ops.tester_default_tokens, ops.tester_max_tokens) == (20000, 20000)
+    assert (ops.tester_default_days, ops.tester_max_days, ops.tester_max_per_day) == (30, 90, 2)
 
 
 @pytest.mark.parametrize("key", [None, "", "short"])
