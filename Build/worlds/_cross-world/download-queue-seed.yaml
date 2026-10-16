@@ -2936,3 +2936,321 @@ queue:
     verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata fetched
       2026-10-16; file lists not checked for a text derivative'
     status: not-yet-downloaded
+
+  - title: 'The Condition of Catholics under James I: Father Gerard''s Narrative of the Gunpowder Plot,
+      with his Life'
+    author: John Gerard, S.J. (1564-1637)
+    translator: John Morris, S.J. (editor; translator of the Autobiography extracts)
+    year: 1871
+    world: recusant-english-catholicism
+    why: 'The public-domain route to Gerard''s autobiography and his own Narrative; the census names the
+      Caraman 1951 translation, which is in copyright. Found by archive.org title search; the Gutenberg
+      transcription chosen over the OCR scans because it is clean.
+
+      '
+    url: https://www.gutenberg.org/ebooks/35501
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: Gutenberg catalogue "Public domain in the
+      USA"; 1871 title page in the transcription; archive.org scans conditionofcatho01gerauoft and conditioncathol00geragoog
+      carry NOT_IN_COPYRIGHT for the same edition'
+    status: downloaded
+    vendored_as: gerard-john_condition-of-catholics-under-james-i_morris1871.txt
+  - title: The Troubles of Our Catholic Forefathers Related by Themselves, First Series
+    author: various recusant writers; John Morris, S.J. (editor)
+    translator: John Morris, S.J.
+    year: 1872
+    world: recusant-english-catholicism
+    why: 'Household and convent narratives in the writers'' own words (Babthorpes, Tregians, Southcotes,
+      Tichbornes, St Monica''s); the women''s and household record.
+
+      '
+    url: https://archive.org/details/troublesofourcat01morr
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: title page 1872 in the OCR; item has no copyright-status
+      field and no access restriction'
+    status: downloaded
+    vendored_as: morris-john_troubles-of-our-catholic-forefathers-ser1_1872.txt
+  - title: The Troubles of Our Catholic Forefathers Related by Themselves, Second Series (Life of Father
+      William Weston; The Fall of Anthony Tyrrell)
+    author: William Weston, S.J.; Anthony Tyrrell; John Morris, S.J. (editor)
+    translator: John Morris, S.J.
+    year: 1875
+    world: recusant-english-catholicism
+    why: 'Weston''s autobiography in the only public-domain English (Caraman''s 1955 translation is in copyright),
+      and Tyrrell''s own confession of his apostasy.
+
+      '
+    url: https://archive.org/details/troublesofourcat02morr_0
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: title page 1875 in the OCR; no copyright-status
+      field, no access restriction'
+    status: downloaded
+    vendored_as: morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt
+  - title: The Troubles of Our Catholic Forefathers Related by Themselves, Third Series (incl. Mush's Life
+      of Margaret Clitherow)
+    author: John Mush; Richard Holtby, S.J.; anonymous recusant writers; John Morris, S.J. (editor)
+    translator: John Morris, S.J.
+    year: 1877
+    world: recusant-english-catholicism
+    why: 'Mush''s True Report of the Life and Martyrdom of Mrs Margaret Clitherow, named by the census,
+      plus Holtby and the York prison papers.
+
+      '
+    url: https://archive.org/details/troublesofourcat03morr_0
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: title page 1877 in the OCR; no copyright-status
+      field, no access restriction'
+    status: downloaded
+    vendored_as: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  - title: Memoirs of Missionary Priests ... 1577 to 1684, revised and corrected by J. H. Pollen
+    author: Richard Challoner
+    translator: J. H. Pollen, S.J. (editor)
+    year: 1924
+    world: recusant-english-catholicism
+    why: 'The community''s own martyrology in its best annotated edition; 1924 falls inside the rolling
+      95-year window.
+
+      '
+    url: https://archive.org/details/memoirsofmission00chal
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: title page "P. J. Kenedy and Sons ... 1924"
+      in the OCR; no copyright-status field, no access restriction; a Burns Oates & Washbourne 1924 printing
+      is also on archive.org as memoirsofmission0000chal'
+    status: downloaded
+    vendored_as: challoner_memoirs-of-missionary-priests_pollen1924.txt
+  - title: A Briefe Historie of the Glorious Martyrdom of Twelve Reverend Priests (1582), ed. Pollen
+    author: William Allen
+    translator: J. H. Pollen, S.J. (editor)
+    year: 1908
+    world: recusant-english-catholicism
+    why: 'The first martyrology of Campion and his companions, in original spelling; partial (Pollen omits
+      the Latin letter, the Latin verses, Allen''s Introduction and the examinations).
+
+      '
+    url: https://archive.org/details/martyrdomoffath00alleuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: NOT_IN_COPYRIGHT in item metadata; title page
+      MCMVIII in the OCR'
+    status: downloaded
+    vendored_as: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908.txt
+  - title: Mary Magdalen's Funeral Tears; The Triumphs over Death; and An Epistle of Comfort
+    author: Robert Southwell, S.J.
+    translator: W. Jos. Walter (editor)
+    year: 1822
+    world: recusant-english-catholicism
+    why: 'Southwell''s prose, above all the Epistle of Comfort to the imprisoned Catholics, in a clean 19th-century
+      reprint; the EEBO microfilm OCR of the 1605 edition is garbled.
+
+      '
+    url: https://archive.org/details/MaryMagdalensFuneralTears
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: title page "London: Keating & Co. ... 1822"
+      in the OCR; no copyright-status field, no access restriction'
+    status: downloaded
+    vendored_as: southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822.txt
+  - title: Ten Reasons Proposed to His Adversaries for Disputation (Rationes Decem), Latin text with English
+      translation
+    author: Edmund Campion
+    translator: Joseph Rickaby, S.J.; introduction J. H. Pollen, S.J.
+    year: 1914
+    world: recusant-english-catholicism
+    why: 'Campion''s Latin original and an English translation in one volume, with the English Challenge
+      (Brag) printed in full in the introduction.
+
+      '
+    url: https://archive.org/details/tenreasonspropos00campuoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: NOT_IN_COPYRIGHT in item metadata; title page
+      1914 in the OCR; the English alone is also at Project Gutenberg #13133'
+    status: downloaded
+    vendored_as: campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt
+  - title: Unpublished Documents relating to the English Martyrs, Vol. I, 1584-1603 (Catholic Record Society
+      Vol. V)
+    author: various (priests, lay Catholics, state officers)
+    translator: J. H. Pollen, S.J. (editor)
+    year: 1908
+    world: recusant-english-catholicism
+    why: 'The state''s record (examinations, informers'' reports, Council letters) and the community''s
+      own letters side by side, from the archives with shelfmarks.
+
+      '
+    url: https://archive.org/details/unpublisheddocum01polluoft
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: NOT_IN_COPYRIGHT in item metadata; title page
+      1908 in the OCR'
+    status: downloaded
+    vendored_as: catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908.txt
+  - title: The Life of the Most Honourable and Vertuous Lady the La. Magdalen Viscountesse Montague
+    author: Richard Smith (Bishop of Chalcedon)
+    translator: C. F. (1627 English translation of Smith's Latin)
+    year: 1627
+    world: recusant-english-catholicism
+    why: 'Named by the census for the women''s and household record; the only public-domain witness is this
+      microfilm scan, vendored as a SECOND WITNESS because its OCR is garbled.
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1475-1640_the-life-of-the-most-hon_smith-richard-bp-of-c_1627
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: title page "Permissu Superiorum, M.DC.XXVII"
+      in the OCR; no copyright-status field, no access restriction'
+    status: downloaded
+    vendored_as: smith-richard_life-of-lady-magdalen-montague_cf1627.txt
+  - title: A True, Sincere and Modest Defence of English Catholics (1584), 2 vols. (Catholic Library)
+    author: William Allen
+    translator: none (English original; 1914 reprint)
+    year: 1914
+    world: recusant-english-catholicism
+    why: 'Allen''s answer to Burghley''s "Execution of Justice in England": the community''s political apologia.
+      Verified and sampled (OCR clean) but not vendored this pass, to keep the intake at ten files; next
+      in line.
+
+      '
+    url: https://archive.org/details/truesinceremodes01alleuoft (vol. 1); https://archive.org/details/truesinceremodes02alleuoft
+      (vol. 2)
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: both items NOT_IN_COPYRIGHT (Kelly Library,
+      Toronto); Manresa Press / Herder 1914; OCR sampled at five points, clean'
+    status: not-yet-downloaded
+  - title: The Letters and Memorials of William, Cardinal Allen (1532-1594)
+    author: William Allen
+    translator: T. F. Knox (editor; Records of the English Catholics, vol. 2)
+    year: 1882
+    world: recusant-english-catholicism
+    why: 'Allen''s own correspondence running the Douai-Rheims seminary and the mission. Not vendored this
+      pass; metadata verified, OCR not sampled.
+
+      '
+    url: https://archive.org/details/lettersmemorials00alle
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: item metadata (Princeton Theological Seminary;
+      London: D. Nutt, 1882); no copyright-status field; the 1965 reprint (lettersmemorials0000alle) is
+      a different, restricted item'
+    status: not-yet-downloaded
+  - title: The Complete Poems of Robert Southwell, S.J.
+    author: Robert Southwell
+    translator: Alexander B. Grosart (editor)
+    year: 1872
+    world: recusant-english-catholicism
+    why: 'Southwell''s verse (The Burning Babe, St Peter''s Complaint) in the fullest public-domain edition.
+      Not vendored this pass: the Google scan''s OCR is only moderate; the Boston Public Library scan (completepoemsofr00sout_0,
+      1872) should be sampled first and preferred if cleaner. Turnbull''s 1856 Poetical Works (poeticalworksre00soutgoog,
+      NOT_IN_COPYRIGHT) is a smaller alternative.
+
+      '
+    url: https://archive.org/details/completepoems00grosgoog
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: NOT_IN_COPYRIGHT in item metadata (University
+      of Michigan / Google); OCR sampled at five points, readable but with scan noise'
+    status: not-yet-downloaded
+  - title: A Christian Directory, Guiding Men to their Eternal Salvation
+    author: Robert Persons (Parsons), S.J.
+    translator: none (English original; 1739 edition)
+    year: 1739
+    world: recusant-english-catholicism
+    why: 'The most-read Catholic devotional book of the period. The 1739 scan''s OCR renders every long
+      s as f throughout (not a normalisable character), so it would be a second witness only; the 1851 edition
+      (christiandirecto0000revr) is in an internetarchivebooks collection and its access status was not
+      confirmed. Lead, not download.
+
+      '
+    url: https://archive.org/details/christiandirecto00pars
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: NOT_IN_COPYRIGHT in item metadata (Princeton
+      Theological Seminary); OCR sampled at five points, long s as f throughout'
+    status: not-yet-downloaded
+  - title: The New Testament of Jesus Christ, translated faithfully into English ... in the English College
+      of Rheims (1582)
+    author: Gregory Martin (translator); William Allen and Richard Bristow (editors)
+    translator: Gregory Martin
+    year: 1582
+    world: recusant-english-catholicism
+    why: 'The households'' own New Testament, with its annotations. Two scans: Princeton''s (thenewtestamento00rhei,
+      NOT_IN_COPYRIGHT, but the catalogue marks it "Defective", lacking several pages) and Boston Public
+      Library''s (nevvtestamentofi00mart, complete copy, no status field). OCR of the Princeton scan sampled
+      at five points: readable but with long s as f throughout, so second-witness quality. Not vendored
+      this pass (2.9-3.2 MB each); a build that wants the annotations should take the BPL scan.
+
+      '
+    url: https://archive.org/details/nevvtestamentofi00mart (BPL); https://archive.org/details/thenewtestamento00rhei
+      (Princeton, defective)
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: item metadata for both; OCR of the Princeton
+      scan sampled'
+    status: not-yet-downloaded
+  - title: The Holie Bible faithfully translated into English out of the authentical Latin (Douai Old Testament,
+      1609-10)
+    author: Gregory Martin (translator); Allen, Bristow, Worthington (editors)
+    translator: Gregory Martin
+    year: 1609
+    world: recusant-english-catholicism
+    why: 'The Douai Old Testament named by the census. Metadata verified only; OCR not sampled; 3.3 MB.
+      Lead.
+
+      '
+    url: https://archive.org/details/holiebiblefaithf00mart_0
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: item metadata (Boston Public Library; Doway:
+      Laurence Kellam, 1609); no copyright-status field'
+    status: not-yet-downloaded
+  - title: A Manual of Prayers, newly gathered out of many authors (1583)
+    author: anonymous (the recusant Manual)
+    translator: none
+    year: 1583
+    world: recusant-english-catholicism
+    why: 'The households'' prayer book named by the census. The only scan is an EEBO microfilm whose OCR
+      is garbled at every sample point; lead only until a clean scan or a later edition is found.
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1475-1640_a-manual-of-prayers-new_manual_1583
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: item metadata; OCR sampled at five points,
+      garbled'
+    status: not-yet-downloaded
+  - title: Catholic Record Society, Miscellanea I, II and III (1905-1906)
+    author: Catholic Record Society (various documents)
+    translator: various editors (Pollen, Gillow and others)
+    year: 1906
+    world: recusant-english-catholicism
+    why: 'Misc. II (vol. 2) carries Father Persons'' memoirs (first part, chapters on the English College
+      and the first Jesuit mission) and records of Welsh Marches recusants; Misc. III (vol. 3) carries the
+      Tower Bills 1575-1589, the life and martyrdom of Thomas Maxfield (1616) and Sir Robert Crosse''s enquiry
+      about his Catholic wife (1607). Contents read from the scans'' own tables of contents; not vendored
+      this pass.
+
+      '
+    url: https://archive.org/details/publicationscat45britgoog (vol. 1); https://archive.org/details/publicationscat31britgoog
+      (vol. 2); https://archive.org/details/publicationscat46britgoog (vol. 3)
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: all three NOT_IN_COPYRIGHT in item metadata
+      (Google scans, Michigan and California); opening pages read for volume number and contents'
+    status: not-yet-downloaded
+  - title: The Douay College Diaries, Third, Fourth and Fifth, 1598-1654, with the Rheims Report 1579-80
+      (CRS vols. 10-11)
+    author: English College, Douai
+    translator: E. H. Burton and T. L. Williams (editors)
+    year: 1911
+    world: recusant-english-catholicism
+    why: 'The seminary''s own Latin diary for the whole window; the Rheims Report. Metadata verified; OCR
+      not sampled; lead.
+
+      '
+    url: https://archive.org/details/douaycollegediar10engl (vol. 10); https://archive.org/details/douaycollegediar11engl
+      (vol. 11)
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: item metadata (Allen County Public Library
+      scans; London, 1911); no copyright-status field'
+    status: not-yet-downloaded
+  - title: Recusant Roll, No. I, 1592-3 (CRS vol. 18)
+    author: Great Britain, Exchequer
+    translator: editor not read from the scan
+    year: 1916
+    world: recusant-english-catholicism
+    why: 'The state''s fining record, parish by parish. Metadata verified; the editor''s name must be read
+      off the title page before use. Lead.
+
+      '
+    url: https://archive.org/details/recusantrollnoi100grea
+    rights_basis: pd-us-by-date
+    verified_by: 'library/source-research thread, 2026-10-16: item metadata (Princeton Theological Seminary;
+      London, privately printed for the Society, 1916); no copyright-status field'
+    status: not-yet-downloaded

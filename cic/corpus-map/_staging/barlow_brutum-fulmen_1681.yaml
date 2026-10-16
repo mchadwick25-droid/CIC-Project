@@ -44,3 +44,21 @@ assignments:
       above, which carries only the two bulls' own verbatim text.
       Closes a gap identified in this world's own Source Readiness
       Dossier §3.
+
+  - row_id: barlow_brutum-fulmen_1681--brutum-fulmen-pius-v-s-bull-regnans-in-excelsis-against-2
+    work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul III's bull
+      against Henry VIII annexed)
+    author: barlow
+    locus: the Regnans in Excelsis text in English/Latin parallel columns, c. file lines 2280-2330 (as the
+      existing row states)
+    atlas_ids:
+    - recusant-english-catholicism
+    role: context
+    confidence: assigned
+    note: 'The 1570 bull that excommunicated and deposed Elizabeth is the act the recusants lived under:
+      it is what the "bloody questions" put to Campion and the priests were about, and what Allen''s Defence
+      (1584) and Campion''s Challenge (article iv) answer. Not the community''s own voice (papal), and printed
+      here inside Barlow''s hostile 1681 Anglican polemic, so context. Cross-link found by header search
+      of cic/texts (CORPUS-USE tier: named-never-opened for this world; same time-place).
+
+      '

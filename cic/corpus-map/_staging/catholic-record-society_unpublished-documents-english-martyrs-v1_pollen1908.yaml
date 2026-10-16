@@ -1,0 +1,56 @@
+source_file: catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908.txt
+
+assignments:
+  - row_id: catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908--catholic-writers-documents
+    work: "Unpublished Documents relating to the English Martyrs, Vol. I, 1584-1603: the documents written by Catholics (priests' and lay prisoners' letters, accounts of arrests and deaths, Walpole's letters)"
+    author: catholic-record-society
+    locus: "documents numbered I to CV in date order, listed in the Contents from file line 366; Pollen's introduction from file line 190; the documents themselves from file line 1503; the Catholic-written items are identified by their headings (e.g. 'LXXIII. Two letters of Father Henry Walpole, 3 September 1593', Contents line 701)"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Filed under the publishing society's slug, the corporate-work convention this
+      corpus uses for a documentary series (jesuit-relations). The Catholic-written
+      documents are primary voice, printed from the archives in their own spelling and
+      language (English, some Latin with Pollen's translation), each with its shelfmark.
+      Which documents are Catholic-written and which are the state's is decided per
+      document from its heading; this row and the next divide the volume by that test,
+      not by page range.
+  - row_id: catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908--state-documents
+    work: "Unpublished Documents relating to the English Martyrs, Vol. I, 1584-1603: the state's documents (examinations, informers' reports, gaol certificates, Council and Treasurer's letters)"
+    author: catholic-record-society
+    locus: "as above, documents I to CV from file line 1503; the state items are identified by their headings (e.g. 'III. Examination of William Hartley, 13 Aug., 1581', Contents line 384; 'VI. Accusations by Topcliffe against William Dean', line 387)"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: context
+    confidence: assigned
+    note: >
+      The persecutors' own bookkeeping the census asks for: examinations (some under
+      torture), Topcliffe's and Fleetwood's reports, the Privy Council's orders, printed
+      from the Record Office. Hostile administrative record, quotable as the state's
+      voice, never as the community's.
+  - row_id: catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908--state-documents-2
+    work: "Unpublished Documents relating to the English Martyrs, Vol. I, 1584-1603: the state's documents"
+    author: catholic-record-society
+    locus: "documents I to CV from file line 1503, the state items by heading"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      The Elizabethan state's own record of enforcing the Settlement against priests and
+      recusants. The Settlement is a church world and these are Council and Exchequer
+      papers, so context rather than tradition; placed on window and place.
+  - row_id: catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908--catholic-writers-documents-2
+    work: "Unpublished Documents relating to the English Martyrs, Vol. I, 1584-1603: the Jesuit-written documents (letters of Weston, Walpole, Southwell and other Jesuits of the English mission)"
+    author: catholic-record-society
+    locus: "documents I to CV from file line 1503, the Jesuit-written items by heading (e.g. LXXIII, Walpole, Contents line 701)"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: provisional
+    note: >
+      Letters of the Society's English missioners to their superiors and to the English
+      College, printed from the Jesuit archives. Placed on the headings; not read
+      document by document this pass.

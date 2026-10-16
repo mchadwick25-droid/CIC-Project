@@ -3,6 +3,19 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-society-of-jesus
 works:
+- row_id: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908--briefe-historie-of-the-glorious-martyrdom-2
+  work: A Briefe Historie of the Glorious Martyrdom of Twelve Reverend Priests (1582)
+  author: allen-william
+  locus: file lines 682 to 7530; the Campion chapter 682 to 2682
+  role: context
+  confidence: provisional
+  note: 'The first account of Campion''s death, by the secular priest who ran the seminary
+    and had sent him: an ally''s account from outside the Society, not the Society''s own
+    voice. Walpole''s verses on Campion (by a future Jesuit, then a layman) are printed here.
+    Placed as context on that reading.
+
+    '
+  source_file: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908.txt
 - row_id: boero_life-of-peter-faber_coleridge1873--the-life-of-the-blessed-peter-favre-faber-of-the-society-of
   work: The Life of the Blessed Peter Favre (Faber), of the Society of Jesus
   author: boero
@@ -74,6 +87,19 @@ works:
     Portuguese passages and the notes lower it, so the figure is a comparison across files
     and not a measure of accuracy.'
   source_file: broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903.txt
+- row_id: campion_rationes-decem-ten-reasons-lat-eng_rickaby1914--rationes-decem-latin-2
+  work: Rationes Decem (1581), Latin text, with Rickaby's English translation and Campion's
+    English Challenge
+  author: campion
+  locus: 'whole volume: Latin from file line 1245, English translation from 3778, the Challenge
+    from 351'
+  role: tradition
+  confidence: assigned
+  note: 'Campion''s own voice as a Jesuit of the first English mission; the Challenge states
+    the Society''s rule against meddling in matters of state in his own words (article iv).
+
+    '
+  source_file: campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt
 - row_id: canisius_summe-of-christian-doctrine_anon1622--a-summe-of-christian-doctrine
   work: A Summe of Christian Doctrine
   author: canisius
@@ -113,6 +139,32 @@ works:
     the main text in the OCR. A cleaner Latin edition would serve as the quotable witness.
     Word-form coverage against a clean Latin vocabulary is 0.62.'
   source_file: canisius_summa-doctrinae-christianae-lat_1573.txt
+- row_id: catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908--catholic-writers-documents-2
+  work: 'Unpublished Documents relating to the English Martyrs, Vol. I, 1584-1603: the Jesuit-written
+    documents (letters of Weston, Walpole, Southwell and other Jesuits of the English mission)'
+  author: catholic-record-society
+  locus: documents I to CV from file line 1503, the Jesuit-written items by heading (e.g.
+    LXXIII, Walpole, Contents line 701)
+  role: tradition
+  confidence: provisional
+  note: 'Letters of the Society''s English missioners to their superiors and to the English
+    College, printed from the Jesuit archives. Placed on the headings; not read document by
+    document this pass.
+
+    '
+  source_file: catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908.txt
+- row_id: challoner_memoirs-of-missionary-priests_pollen1924--memoirs-of-missionary-priests-1577-to-1650-2
+  work: Memoirs of Missionary Priests, 1577 to 1684 (Pollen's revised edition)
+  author: challoner
+  locus: whole volume; the Jesuit entries are marked 'S.J.' in the running heads and entries
+  role: context
+  confidence: provisional
+  note: 'A secular vicar apostolic''s martyrology that covers the Society''s English martyrs
+    (Campion, Southwell, Walpole, Garnet and others) from outside the Society. Placed on that
+    coverage, not read for its treatment of the Society as such.
+
+    '
+  source_file: challoner_memoirs-of-missionary-priests_pollen1924.txt
 - row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council
   work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
   author: council-of-trent
@@ -193,6 +245,31 @@ works:
 
     '
   source_file: francis-xavier_life-and-letters-v2_coleridge1872.txt
+- row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--narrative-of-the-gunpowder-plot-2
+  work: A Narrative of the Gunpowder Plot (John Gerard's own English account, written c. 1606,
+    printed from the Stonyhurst autograph)
+  author: gerard-john
+  locus: heading 'A NARRATIVE OF THE GUNPOWDER PLOT.' at file line 9102 to the index at line
+    18198
+  role: tradition
+  confidence: assigned
+  note: 'Gerard is a Jesuit writing to clear the Society (Garnet, Oldcorne, Gerard himself)
+    of complicity in the Plot; chapters IX-XV are the Society''s own defence of its English
+    superior. The English mission''s voice inside the Society''s world.
+
+    '
+  source_file: gerard-john_condition-of-catholics-under-james-i_morris1871.txt
+- row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--holtby-on-persecution-in-the-north-2
+  work: Father Richard Holtby on Persecution in the North
+  author: holtby-richard
+  locus: file lines 5017 to 10653
+  role: tradition
+  confidence: provisional
+  note: 'A Jesuit missioner''s report to a Jesuit superior; placed on that fact, the report''s
+    own Jesuit framing not read closely this pass.
+
+    '
+  source_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
 - row_id: ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904--acta-p-ignatii-the-autobiography-original-spanish-and
   work: Acta P. Ignatii (the Autobiography, original Spanish and Italian) and early writings
     on Ignatius
@@ -975,6 +1052,32 @@ works:
     and the notes lower it, so the figure is a comparison across files and not a measure of
     accuracy.'
   source_file: lainez_epistolae-et-acta-v8-lat_1917.txt
+- row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--life-of-father-john-gerard-2
+  work: The Life of Father John Gerard (Morris's biography, built on long verbatim translated
+    extracts from Gerard's Latin Autobiography)
+  author: morris-john
+  locus: file line 92 to line 9102
+  role: tradition
+  confidence: assigned
+  note: 'The autobiography of a Jesuit of the English mission, as translated and framed by
+    a later Jesuit; same caveat as the recusant row (Gerard''s words only where marked).
+
+    '
+  source_file: gerard-john_condition-of-catholics-under-james-i_morris1871.txt
+- row_id: morris-john_troubles-of-our-catholic-forefathers-ser1_1872--nine-papers-of-the-first-series-2
+  work: 'The Troubles of Our Catholic Forefathers, First Series: the two Jesuit papers (Father
+    Tesimond''s landing in England; Father Richard Blount and Scotney Castle)'
+  author: morris-john
+  locus: file lines 7036 to 8805 (Tesimond) and 8809 to 10280 (Blount and Scotney)
+  role: tradition
+  confidence: provisional
+  note: 'Narratives of two Jesuits of the English mission: the fragment of Oswald Tesimond''s
+    own autobiography (Morris''s introduction, file line 7036) and the Scotney Castle papers
+    on Richard Blount''s escape. Placed on the papers'' own subjects; the narrating voice
+    of each was not read closely this pass, so provisional.
+
+    '
+  source_file: morris-john_troubles-of-our-catholic-forefathers-ser1_1872.txt
 - row_id: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595--adnotationes-et-meditationes-in-evangelia
   work: Adnotationes et Meditationes in Evangelia
   author: nadal
@@ -1258,6 +1361,17 @@ works:
     is 0.77; the Spanish, Italian and Portuguese passages and the notes lower it, so the figure
     is a comparison across files and not a measure of accuracy.'
   source_file: society-of-jesus_monumenta-paedagogica-lat-spa_1901.txt
+- row_id: southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822--an-epistle-of-comfort-2
+  work: An Epistle of Comfort (Walter's 1822 reprint)
+  author: southwell
+  locus: file line 5364 to the end
+  role: tradition
+  confidence: assigned
+  note: 'A Jesuit of the English mission writing to prisoners for the faith; the Society''s
+    own pastoral voice in England.
+
+    '
+  source_file: southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822.txt
 - row_id: trigault_de-christiana-expeditione-apud-sinas-lat_1615--de-christiana-expeditione-apud-sinas-trigault-from-ricci
   work: De Christiana expeditione apud Sinas (Trigault, from Ricci)
   author: trigault
@@ -1273,3 +1387,16 @@ works:
     in this group. A quotation needs the page image, and this 1615 printing is the only Latin
     printing of the work found.'
   source_file: trigault_de-christiana-expeditione-apud-sinas-lat_1615.txt
+- row_id: morris-john_troubles-of-our-catholic-forefathers-ser2_1875--life-of-father-william-weston-2
+  work: The Life of Father William Weston, S.J. (Morris's Life, built on his English translation
+    of Weston's Latin autobiography)
+  author: weston-william
+  locus: file line 559 to line 13394
+  role: tradition
+  confidence: assigned
+  note: 'The autobiography of the Society''s superior in England 1584-1586, with Chapter II
+    (''The English Jesuit Mission'') and Chapter XVI (''College life in prison'', the Wisbech
+    stirs seen from the Jesuit side). Same translation caveat as the recusant row.
+
+    '
+  source_file: morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt

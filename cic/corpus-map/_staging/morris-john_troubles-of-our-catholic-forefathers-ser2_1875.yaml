@@ -1,0 +1,62 @@
+source_file: morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt
+
+authors_ruled:
+  weston-william:
+    kind: metadata-omission
+    evidence: >
+      The title page names only the editor, John Morris. Morris's preface (file line 184)
+      speaks of "Father Weston's autobiography" as the Latin text he translates, and the
+      Life (heading at file line 559) prints Weston's first-person narrative in quotation
+      ("It was told to me in 1595 or 1596", about file line 12900). The slug is supplied
+      from Morris's own statement of authorship.
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt
+  tyrrell-anthony:
+    kind: metadata-omission
+    evidence: >
+      The volume's contents (file line about 330) print "The true and wonderful Story of
+      the lamentable Fall of Anthony Tyrrell, Priest, from the Catholic Faith, written by
+      his own hand"; heading at file line 13394. The title page names only Morris.
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt
+
+assignments:
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser2_1875--life-of-father-william-weston
+    work: "The Life of Father William Weston, S.J. (Morris's Life, built on his English translation of Weston's Latin autobiography, with the state papers printed as reached)"
+    author: weston-william
+    locus: "heading 'LIFE OF FATHER WILLIAM WESTON.' at file line 559; Chapters I-XVII run to the second paper at line 13394"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Weston's own narrative of the mission (landing 1584, the exiles of 1585, the
+      exorcisms, arrest 1586, the Clink, Wisbech, the Tower) in Morris's 1875 English,
+      inside Morris's own frame. Quotable as Weston only where Morris marks the words as
+      Weston's; translation only, the Latin original is not in the corpus. This is the
+      public-domain route to the autobiography the census names (Caraman's 1955
+      translation is in copyright).
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser2_1875--life-of-father-william-weston-2
+    work: "The Life of Father William Weston, S.J. (Morris's Life, built on his English translation of Weston's Latin autobiography)"
+    author: weston-william
+    locus: "file line 559 to line 13394"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      The autobiography of the Society's superior in England 1584-1586, with Chapter II
+      ('The English Jesuit Mission') and Chapter XVI ('College life in prison', the Wisbech
+      stirs seen from the Jesuit side). Same translation caveat as the recusant row.
+  - row_id: morris-john_troubles-of-our-catholic-forefathers-ser2_1875--fall-of-anthony-tyrrell
+    work: "The Fall of Anthony Tyrrell (Tyrrell's own confession, 'written by his own hand', with the contemporary preface and Morris's introduction)"
+    author: tyrrell-anthony
+    locus: "heading 'II. THE FALL OF ANTHONY TYRRELL.' at file line 13394 to the index"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      A seminary priest's own account of apostatising under Burghley's handling, accusing
+      innocent men, and recanting: the community's record of its own informer, in his
+      words (English original, printed from manuscript). Useful for the state's methods
+      and the community's fear of betrayal; a contested and self-serving witness, which
+      the Preface to the Christian Reader (file line about 13400) already says.

@@ -45,6 +45,18 @@ works:
 
     '
   source_file: barlow_brutum-fulmen_1681.txt
+- row_id: bascape_de-vita-et-rebus-gestis-caroli-lat_1592--de-vita-et-rebus-gestis-caroli-2
+  work: De vita et rebus gestis Caroli S.R.E. Cardinalis, Archiepiscopi Mediolani, libri septem
+  author: bascape
+  locus: as above
+  role: context
+  confidence: assigned
+  note: 'Context for the Tridentine Church: the Latin Life of its model bishop by his own
+    secretary, dedicated to the Duke of Bavaria for a readership beyond Milan. Second witness
+    only (garbled OCR); see the Borromean Milan row.
+
+    '
+  source_file: bascape_de-vita-et-rebus-gestis-caroli-lat_1592.txt
 - row_id: bellarmine_eternal-happiness-of-the-saints_dalton--the-eternal-happiness-of-the-saints
   work: The Eternal Happiness of the Saints
   author: bellarmine
@@ -147,6 +159,69 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- row_id: giussano_life-of-st-charles-borromeo-v1_1884--life-of-st-charles-borromeo-vol-i-2
+  work: The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. I (Books I-IV)
+  author: giussano
+  locus: 'as above: Giussano''s text from file line 5286'
+  role: context
+  confidence: assigned
+  note: 'For the Tridentine Church as a whole this is the Life of the bishop the Catholic
+    world took as the model of Trent''s reforming prelate, told from inside one diocese. Context
+    here, not the church''s own institutional voice: that voice is the Trent decrees and Catechism
+    already in this bucket. Closes the Tridentine dossier''s finding (2026-09-15) that Giussano
+    was public domain but not yet vendored.
+
+    '
+  source_file: giussano_life-of-st-charles-borromeo-v1_1884.txt
+- row_id: giussano_life-of-st-charles-borromeo-v2_1884--life-of-st-charles-borromeo-vol-ii-2
+  work: The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. II (Books V-IX
+    and index)
+  author: giussano
+  locus: 'as above: Giussano''s text from file line 457'
+  role: context
+  confidence: assigned
+  note: 'Context for the Tridentine Church as the Life of its model bishop (see the Vol. I
+    row). Book VII''s chapters on Borromeo''s respect for the Holy See and on the Council
+    of Trent are the parts most directly about the whole church.
+
+    '
+  source_file: giussano_life-of-st-charles-borromeo-v2_1884.txt
+- row_id: giussano_vita-di-s-carlo-borromeo-ita_1855--vita-di-s-carlo-borromeo-2
+  work: Vita di S. Carlo Borromeo (Italian original, 1855 Naples reprint of the 1610 text)
+  author: giussano
+  locus: as above
+  role: context
+  confidence: assigned
+  note: 'Italian original of the English Life assigned to this bucket as context; see the
+    giussano_life-of-st-charles-borromeo rows.
+
+    '
+  source_file: giussano_vita-di-s-carlo-borromeo-ita_1855.txt
+- row_id: jewel_apology-of-the-church-of-england_bacon-morley1888--the-apology-of-the-church-of-england-lady-bacon-s-translation-2
+  work: The Apology of the Church of England, Lady Anne Bacon's translation of 1564
+  author: jewel
+  locus: as above, file lines 149 to 3696
+  role: context
+  confidence: provisional
+  note: 'Written while Trent sat and addressed to it (Part VI argues why the English would
+    not come to the council): a contemporary Protestant opponent''s view of the Roman church
+    and its council. Placed as context; provisional, on window and subject without that world''s
+    own reading.
+
+    '
+  source_file: jewel_apology-of-the-church-of-england_bacon-morley1888.txt
+- row_id: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858--de-bijenkorf-der-h-roomsche-kerke-2
+  work: De Bijenkorf der H. Roomsche Kerke (1569)
+  author: marnix
+  locus: the Bijenkorf text as above
+  role: context
+  confidence: provisional
+  note: 'A contemporary opponent''s polemic against the post-Tridentine church (Sonnius, the
+    first bishop of Antwerp, is its addressee). Placed on its subject; not read for Trent-specific
+    matter.
+
+    '
+  source_file: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858.txt
 - row_id: pius-v_apostolicarum-epistolarum-lat_1640--apostolicarum-pii-quinti-pont-max-epistolarum-libri-quinque
   work: Apostolicarum Pii Quinti Pont. Max. Epistolarum Libri Quinque
   author: pius-v
@@ -177,6 +252,17 @@ works:
 
     '
   source_file: pole_seditious-oration_wythers1560.txt
+- row_id: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591--discorsi-della-vita-et-attioni-di-carlo-borromeo-2
+  work: Discorsi della vita, et attioni di Carlo Borromeo
+  author: possevino-giovanni-battista
+  locus: as above
+  role: context
+  confidence: provisional
+  note: 'Placed on window and subject only: a 1591 Life of the model Tridentine bishop. The
+    file was not read for what it says of the whole church, so the fit is provisional.
+
+    '
+  source_file: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591.txt
 - row_id: roman-breviary_bute1908--the-roman-breviary-reformed-by-order-of-the-council-of-trent
   work: The Roman Breviary (reformed by order of the Council of Trent; published by Pius V;
     revised by Clement VIII, Urban VIII, and Leo XIII)
