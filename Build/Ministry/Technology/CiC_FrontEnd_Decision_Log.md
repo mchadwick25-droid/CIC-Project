@@ -5660,9 +5660,14 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
    and no more: Corrected / Checked, stands / Open lead / A conviction, not an error / No
    action. Anything real becomes a numbered entry in that world's `Open_Gaps_Tracking.md`,
    as the standing rule already requires. Closed items go on the Corrections page.
-9. **No reaction mark at first.** The private "That stayed with me" mark (no count shown,
-   never seen by the Representative) is held back. It can be added if the conversation page
-   feels cold without it. The research says it would be mostly positive noise.
+9. **Reactions and appreciation: open, not decided.** This item first recorded "no reaction
+   mark at first" as Mark's decision. It was not: the thread read his "go with the
+   recommendation" as covering the recommendation's own "without the reaction mark", and
+   Mark corrected it the same day ("when did I make a decision to hold back a reaction box,
+   I just didn't want the opportunity to give feedback to the conversation to be the same
+   things"). What Mark did decide: the accuracy-and-clarity flag and the place to react or
+   appreciate are two different things and must not be the same control. Where appreciation
+   and overall reaction live is the open question, asked next.
 10. **The site form is replaced, not kept.** Option A is inside Option B: the email-building
     form becomes a stored form posting to the engine, with the same consent choices and
     safety line. Today's form fails silently in some browsers and truncates long answers.
@@ -5694,8 +5699,7 @@ them flag more. Disagreement is not error, and the systems that keep them apart 
     confidence), so it is also a lead for the readability work. The link's words were
     re-checked against the widened card and settled in item 2.
 
-All five questions put to Mark are decided, and the change order is closed. Nothing on this
-item is open.
+Open: where appreciation and overall reaction live (item 9). Everything else is decided.
 
 **Defaults set here, to be checked when the privacy page is written.** A flag or comment
 record is kept until it is closed plus 90 days. An email address is deleted when the reply
