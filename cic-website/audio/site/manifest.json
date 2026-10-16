@@ -13,7 +13,7 @@
     "chars": 1777
   },
   "about-mission": {
-    "hash": "fac048b676acfe89",
+    "hash": "0616b1448a38fa84",
     "voiceId": "pqHfZKP75CvOlQylNhV4",
     "model": "eleven_v4",
     "outputFormat": "mp3_44100_64",
@@ -23,7 +23,7 @@
       "style": 0.1,
       "use_speaker_boost": true
     },
-    "chars": 1357
+    "chars": 1234
   },
   "about-convictions": {
     "hash": "f6c2a5d1ecf04b5e",
