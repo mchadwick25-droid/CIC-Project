@@ -5585,3 +5585,118 @@ Each world's own thread resolves its share.
 Nothing for Mark before the pilot launches. Before launch, a read-only dry run of anchor
 derivation on desert reports coverage. After launch: Stage 1 for desert per `Design.md`
 §11, opening with Mark's live read of CCEL's copyright page and the letter.
+
+## 2026-10-16 — Feedback from inside the conversation: one quiet link under every reply
+
+**Origin.** Mark, 16 October: people are asking for easy ways to comment, make a
+recommendation, or press a "this is wrong" button. His words: "I value the ability to
+challenge a wrong fact, or something we can research to get better. I think having a place
+to get comments and instant feel is good too." Then: "What do other systems do? How do we
+make it an easy interaction/reaction? The email isn't enough."
+
+**What existed.** One path: the footer's "Feedback" link to `cic-website/pilot-feedback.html`,
+a long form that builds an email in the person's own mail app, stored nowhere by us. Nothing
+inside the conversation app. The privacy page promises conversations are kept 90 days and
+never quoted. Mark's standing rule: quote only from recommendations, and only with clear
+permission. The Source Library decision of 14 October already puts a "report an error" item
+on every passage page.
+
+**How it was decided.** Research first (three passes: AI chat products and documentation
+sites; Wikipedia, Community Notes, news corrections desks, museum and Bible-app correction
+forms; reaction design, micro-surveys, consent and safety practice), then the tensions for
+CiC, then three named options, in one Artifact. Mark took the recommendation with one change
+to the wording. The research rests on search excerpts, since the sandbox blocks page reads;
+unverified figures are marked as such in the Artifact and are not repeated here as fact.
+
+**What the research changed.** A bare thumbs up or down is near-worthless: used on a few
+percent of replies, by people at the extremes, and it names nothing to fix. An open text box
+on every turn failed even for Wikipedia on noise and moderation load. The systems that
+work point at one exact sentence or record. No surveyed system promises a personal reply;
+the good ones publish what they corrected. Telling people a flag will be acted on makes
+them flag more. Disagreement is not error, and the systems that keep them apart stay usable.
+
+**Decided (Mark, 2026-10-16):**
+
+1. **The shape: Option B.** Under every Representative turn, one quiet text link in the
+   muted colour of the source line. It opens a card inside the conversation: pick the
+   sentence (the turn's own sentence boundaries, which already exist), pick one reason from
+   a fixed set about evidence ("I think this fact is wrong" / "The source shown does not say
+   this" / "It sounds more certain than it should" / "Something else"), add one optional
+   line, give an optional email, send. Not Option C (a review screen at the end), which
+   loses everyone who closes the tab early. Not Option A alone (store the site form),
+   which leaves a wrong fact reported from memory with no pointer to the sentence.
+2. **The link's words: "There may be a problem".** Mark's change to the recommended "Is this
+   right?". The card title stays "Tell us what seems wrong".
+3. **Disagreement goes back into the conversation, not into the flag.** The card says: "If
+   you disagree with what {Name} believes, say so in the conversation. That is what it is
+   for." The reasons offered are all about evidence, never about the Representative's view.
+4. **What is stored.** A pointer, never the text: session, world, turn index, sentence
+   index, the record ids and confidence tags behind that sentence, the reason, the optional
+   line, the optional email, the time. The team opens the conversation itself within the
+   90 days, which Mark's rule allows. The flagged sentence's metadata is already computed
+   on every turn, so nothing new runs at conversation time. No model call.
+5. **Comments live at the end of the conversation**, beside "Delete this conversation", under
+   "Leave a comment". Consent to quote is asked there and only there, as three unticked
+   choices with "No" the default: No / Yes, without my name / Yes, with my first name.
+   Separate from "Email, if you would like a reply". A fact flag is never quotable material.
+6. **Safety line under every text box**, in the app and on the site form, the project's own
+   redirect wording, which names no organisation: "A person reads these, usually within a
+   week. No one reads them live. If you need help now, please reach out to someone real: a
+   person you trust, a crisis line, or emergency services where you are." Free text is
+   small and secondary: it appears only after a reason is chosen, and it is one line.
+7. **What the person gets back, all three layers.** At once, on screen: "Thank you. We check
+   every one of these against the sources. What we find goes on our Corrections page."
+   Later, in public: a Corrections and Leads page on the site, one line per closed flag
+   (world, date, what was questioned, what we checked, outcome), never naming or quoting
+   the person. If they left an email: one short reply from a person when the flag closes.
+8. **How it closes.** One owner reads the queue weekly in the admin dashboard. Five outcomes
+   and no more: Corrected / Checked, stands / Open lead / A conviction, not an error / No
+   action. Anything real becomes a numbered entry in that world's `Open_Gaps_Tracking.md`,
+   as the standing rule already requires. Closed items go on the Corrections page.
+9. **No reaction mark at first.** The private "That stayed with me" mark (no count shown,
+   never seen by the Representative) is held back. It can be added if the conversation page
+   feels cold without it. The research says it would be mostly positive noise.
+10. **The site form is replaced, not kept.** Option A is inside Option B: the email-building
+    form becomes a stored form posting to the engine, with the same consent choices and
+    safety line. Today's form fails silently in some browsers and truncates long answers.
+11. **One control, one queue.** The Source Library's "report an error" item on passage pages
+    reuses the same reasons and the same store when it is built.
+
+**Still open, asked next.** Whether the optional text line runs through the Facilitator's
+safety classifier (a model call per flag, against the usage rules) or relies on the printed
+redirect alone. The research's direction is the printed redirect, proportionate to a box
+that is anchored to one sentence and holds one line; it is a safety and cost call, so it is
+Mark's, not a default. Until he rules, the build assumes no model call.
+
+**Defaults set here, to be checked when the privacy page is written.** A flag or comment
+record is kept until it is closed plus 90 days. An email address is deleted when the reply
+is sent, or at close if no reply is owed. If the participant deletes the conversation, the
+flag's pointer dies but the record ids survive, so the lead survives in weaker form.
+
+**The heart.** The one thing a participant can give us that no reviewer can is the moment
+they thought "that is not right". Catching it there, tied to the sentence and its sources,
+serves scholarly rigour directly. Sending disagreement back into the conversation protects
+the encounter the project exists for. Publishing what we found closes the loop the way the
+evidence says works, and the way a project that already shows its sources should.
+
+### Next action
+
+Build steps, in one draft pull request, pushed once after local checks pass:
+
+1. **Engine.** A feedback record type in the existing store (fields in item 4, plus kind:
+   flag or comment, and the consent choice). `POST /api/session/{id}/feedback`, authorised
+   by the session code like delete. `POST /api/feedback` for the site form. An admin
+   dashboard page listing open items, with the five outcomes written back. Tests.
+2. **Conversation app.** The link under each Representative turn; the card (sentence radios
+   from the turn's transparency sentences, reason chips, optional line with the safety line,
+   optional email, Send, thank-you line); "Leave a comment" beside "Delete this
+   conversation" with the consent radios. Phone-width check. Tests alongside the existing
+   component tests.
+3. **Site.** `pilot-feedback.html` posts to the engine instead of building an email, and
+   carries the consent choices and the safety line. A new Corrections and Leads page, linked
+   from the footer. `privacy.html` gains a paragraph on what feedback stores and for how
+   long (defaults above), reviewed by Mark before it ships.
+4. **Operations.** Name the weekly owner. First Corrections page entry is written when the
+   first flag closes, not before, so the page never carries placeholder text.
+5. **After Mark rules on the open question**, wire the classifier or leave it out, and
+   update this entry.
