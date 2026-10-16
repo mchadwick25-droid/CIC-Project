@@ -28,14 +28,14 @@ afterEach(() => {
 describe('the pilot join', () => {
   it('asks once for a link and its role, saves the code and clears the address', async () => {
     const fetchMock = answer(200, { joined: true, code: SHOWN, tokens: 1100, conversations: 10 });
-    const { pilot, deeper } = await load(true, '#cic-pilot=pastors-link-key-0123456789&role=pastor_or_teacher');
+    const { pilot, deeper } = await load(true, '#cic-pilot=pastors-link-key-0123456789&role=pastor');
     await vi.waitFor(() => expect(pilot.pilotSnapshot().status).toBe('ready'));
     const joins = fetchMock.mock.calls.filter(([target]) => target === '/api/deeper/pilot-join');
     expect(joins).toHaveLength(1);
     const [url, init] = joins[0];
     expect(url).toBe('/api/deeper/pilot-join');
     expect(init).toMatchObject({ method: 'POST', credentials: 'omit', referrerPolicy: 'no-referrer' });
-    expect(JSON.parse(init.body)).toEqual({ link: 'pastors-link-key-0123456789', role: 'pastor_or_teacher' });
+    expect(JSON.parse(init.body)).toEqual({ link: 'pastors-link-key-0123456789', role: 'pastor' });
     expect(pilot.pilotSnapshot()).toEqual({ status: 'ready', tokens: 1100, conversations: 10 });
     expect(deeper.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
     expect(window.location.hash).toBe('');
