@@ -22,3 +22,20 @@ assignments:
       volume's own title page names Marcus Robert Gilchrist as translator,
       where Vols. I-II name no individual translator - see this file's
       own intake header.
+
+  - row_id: calvin_letters-vol4_bonnet1858--letters-of-john-calvin-compiled-from-the-original-2
+    work: Letters of John Calvin, Vol. IV, DC 'To the Pastors of Zurich', Geneva 14 July 1561, a collection
+      in favour of the Evangelical Churches of Piedmont, and the surrounding letters on the valleys' war
+      of 1560-61
+    author: calvin
+    locus: DC 'To the Pastors of Zurich' at line 9512; Bonnet's index entries for Piedmont and the Waldenses
+      from line 20468
+    atlas_ids:
+    - the-waldensian-reformed-union
+    role: context
+    confidence: assigned
+    note: 'Calvin writing for the brethren ''from the valley of Angrogne'' after the 1560-61 war, admitting
+      Geneva had dissuaded them from taking up arms. Note that DLXVII ''To the Waldenses'' (line 5506) is
+      to the Bohemian Brethren, per Bonnet''s own footnote, and is not a Piedmont letter.
+
+      '

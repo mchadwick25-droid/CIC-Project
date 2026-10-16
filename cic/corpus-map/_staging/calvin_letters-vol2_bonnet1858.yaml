@@ -16,3 +16,18 @@ assignments:
     note: >
       Continues Calvin's correspondence from Vol. I, same edition and
       vendoring basis.
+
+  - row_id: calvin_letters-vol2_bonnet1858--letters-of-john-calvin-compiled-from-the-original-2
+    work: Letters of John Calvin, Vol. II, the letter to Wolfgang Musculus on the prohibition of the Vaudois
+      conferences, with Bonnet's notes on the Vaudois of Provence
+    author: calvin
+    locus: CCLV 'To Wolfgang Musculus' at line 11779; Bonnet's note on the Cantons' letters for the Vaudois
+      of Provence at line 943
+    atlas_ids:
+    - the-waldensian-reformed-union
+    role: context
+    confidence: provisional
+    note: 'Placed on the letter heading and the editor''s note; the letter itself was not read for this
+      world.
+
+      '

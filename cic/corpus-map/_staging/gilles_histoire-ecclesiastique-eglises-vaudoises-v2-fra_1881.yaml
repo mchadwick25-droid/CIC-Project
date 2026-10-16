@@ -1,0 +1,30 @@
+source_file: gilles_histoire-ecclesiastique-eglises-vaudoises-v2-fra_1881.txt
+
+assignments:
+  - row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v2-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-ii
+    work: "Histoire ecclésiastique des Églises Vaudoises de l'an 1160 au 1643, Tome deuxième (chapters XXXIX-LXII)"
+    author: gilles
+    locus: "whole file; 'CHAPITRE XXXIX.' at line 59, chapter LXII from line 15412 to the close of the year 1643 at line 16354"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: tradition
+    confidence: assigned
+    note: >
+      The second half of Gilles's history: the 1580s to the end of 1643,
+      written by a pastor who lived most of it (the plague of 1630 that killed
+      the valleys' pastors, the edicts, the disputes with the monks). Entirely
+      inside this entry's window. Primary voice in French, OCR clean; ready to
+      quote once verified against the page image. No public-domain English
+      translation exists.
+  - row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v2-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-ii-2
+    work: "Histoire ecclésiastique des Églises Vaudoises, Tome deuxième, the passages on the valleys under the French crown (Pragela, Val Cluson, the Dauphiné edicts)"
+    author: gilles
+    locus: "scattered through chapters XXXIX-LXII; not itemised"
+    atlas_ids:
+      - the-huguenots
+    role: context
+    confidence: provisional
+    note: >
+      The Dauphiné valleys were French Reformed churches under the Edict of
+      Nantes, and Gilles reports their edicts and synods alongside the Savoyard
+      valleys. Placed on window and place without reading those passages.

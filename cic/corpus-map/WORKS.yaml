@@ -207,3 +207,33 @@ works:
       internal div markers; Budge's is one of the still-unmodeled
       multi-work compilations noted under athanasius-vita-antonii above) --
       narrowing them to real loci is future work, not done here.
+
+  - work_id: perrin-histoire-des-vaudois
+    title: Histoire des Vaudois (History of the Old Waldenses and Albigenses)
+    author: perrin
+    original_language: French
+    composed: 1618-1619
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (original)
+      year: 1619
+      language: French
+      recension: Geneva 1619 printing, Part I only in the vendored scan
+      items:
+      - cic:perrin_histoire-des-vaudois-fra_1619.txt:part-i
+    - translator: the 1624 London translation (catalogued as Samuel Lennard's; not read off the vendored
+        OCR), reprinted Philadelphia 1847
+      year: 1847
+      language: English
+      recension: all three parts
+      items:
+      - cic:perrin_history-ancient-christians-valleys-alps_1847.txt:parts-i-ii-and-doctrine
+    notes: 'The French scan holds Part I only; the English holds all three parts. The 1847 volume also carries
+      Boyer''s History of the Vaudois as its Part III, which is a different work and is not part of this
+      entry.
+
+      '

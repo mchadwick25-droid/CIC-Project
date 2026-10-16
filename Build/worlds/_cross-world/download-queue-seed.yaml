@@ -2727,3 +2727,212 @@ queue:
       confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
+
+  - title: The History of the Evangelical Churches of the Valleys of Piemont
+    author: Samuel Morland
+    translator: none (English original)
+    year: 1658
+    world: the-waldensian-reformed-union
+    why: 'The 1655 massacre dossier with the sworn depositions, the Angrogna confession of 1532 and the
+      Confession of 1655 in English; the census''s own named primary work. Found by archive.org advancedsearch
+      on creator and title.
+
+      '
+    url: https://archive.org/details/historyofevangel00morl
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata and full
+      text fetched 2026-10-16; title page read in the OCR; no rights field and no access restriction on
+      the item'
+    status: downloaded
+    vendored_as: morland_history-evangelical-churches-piemont_1658.txt
+  - title: Histoire ecclésiastique des Églises Vaudoises de l'an 1160 au 1643, tomes I-II
+    author: Pierre Gilles
+    translator: none (French original; 1881 Pignerol re-edition)
+    year: 1881
+    world: the-waldensian-reformed-union
+    why: 'The valleys'' own history by their pastor, the census''s own named primary work; the 1881 re-edition
+      has clean OCR where the 1644 and 1655 Geneva printings do not. Found by archive.org advancedsearch.
+
+      '
+    url: https://archive.org/details/histoireecclesia01gill and https://archive.org/details/histoireecclesia02gill
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata and full
+      text of both volumes fetched 2026-10-16; title pages read in the OCR; no rights field and no access
+      restriction'
+    status: downloaded
+    vendored_as: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt and gilles_histoire-ecclesiastique-eglises-vaudoises-v2-fra_1881.txt
+  - title: Histoire générale des Églises Évangéliques des Vallées de Piémont ou Vaudoises, livres I-II
+    author: Jean Léger
+    translator: none (French original)
+    year: 1669
+    world: the-waldensian-reformed-union
+    why: 'The moderator''s own history after 1655 with the Confession of 1655 and the lists of the killed;
+      the census''s own named primary work. The two archive.org scans are Book I and Book II of the same
+      printing. Found by archive.org advancedsearch on the title.
+
+      '
+    url: https://archive.org/details/bub_gb_kzsAtn028N8C (Book I) and https://archive.org/details/bub_gb_Yf_DYoc9lb0C
+      (Book II)
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata (Public
+      Domain Mark licenseurl, National Library of Naples) and full text of both scans fetched 2026-10-16;
+      title pages read in the OCR'
+    status: downloaded
+    vendored_as: leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt and leger_histoire-generale-eglises-vaudoises-livre2-fra_1669.txt
+  - title: Histoire des Vaudois, divisée en trois parties (Part I in this scan)
+    author: Jean Paul Perrin
+    translator: none (French original)
+    year: 1619
+    world: the-waldensian-reformed-union
+    why: 'The synod-commissioned history of 1619 with the 1532 articles in French; the original of the English
+      Perrin. The scan holds Part I only. Found by archive.org advancedsearch on creator.
+
+      '
+    url: https://archive.org/details/bub_gb_i-OELQwHc4IC
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata (Public
+      Domain Mark licenseurl) and full text fetched 2026-10-16; title page read in the OCR; body checked
+      and found to end with Part I'
+    status: downloaded
+    vendored_as: perrin_histoire-des-vaudois-fra_1619.txt
+  - title: 'History of the Ancient Christians inhabiting the Valleys of the Alps: I. The Waldenses. II.
+      The Albigenses. III. The Vaudois'
+    author: Jean Paul Perrin (Parts I-II); Pierre Boyer with Henri Arnaud (Part III)
+    translator: the 1624 London translation of Perrin, reprinted; Part III English original
+    year: 1847
+    world: the-waldensian-reformed-union
+    why: 'The public-domain English of Perrin''s three parts, and Boyer''s 1692 English narrative of 1655
+      to 1689 in the same volume. Found by archive.org advancedsearch on creator Perrin.
+
+      '
+    url: https://archive.org/details/historyancientc00boyegoog
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata (NOT_IN_COPYRIGHT)
+      and full text fetched 2026-10-16; title pages and the Part III preface read in the OCR'
+    status: downloaded
+    vendored_as: perrin_history-ancient-christians-valleys-alps_1847.txt
+  - title: Histoire ecclésiastique des Églises Réformées, recueillies en quelques Valées de Piedmont (the
+      1644 Geneva original of Gilles)
+    author: Pierre Gilles
+    translator: none (French original)
+    year: 1644
+    world: the-waldensian-reformed-union
+    why: 'The original printing of the vendored 1881 re-edition, for checking the 1881 text where a quote
+      matters. Not vendored: the OCR renders long s as f with many broken words, and the 1881 text is clean.
+      A second scan of a 1655 Geneva printing is bub_gb_3bpEABVwNjwC.
+
+      '
+    url: https://archive.org/details/bub_gb_v8j3OAjFNOoC
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata (Public
+      Domain Mark, National Central Library of Rome) and full text fetched and sampled 2026-10-16'
+    status: not-yet-downloaded
+  - title: 'Luthers fore-runners: or, a cloud of witnesses deposing for the Protestant faith (the 1624 English
+      of Perrin)'
+    author: Jean Paul Perrin
+    translator: Samuel Lennard (named on the 1624 title page by the catalogues; not read off this OCR)
+    year: 1624
+    world: the-waldensian-reformed-union
+    why: 'The original 1624 London printing of the English Perrin, all three parts. Not vendored: the vendored
+      1847 reprint carries the same translation with clean OCR; this EEBO microfilm OCR has 16,302 long-s
+      glyphs and many broken words, and is kept as a lead for checking the 1847 text against the first printing.
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1475-1640_luthers-fore-runners-_perrin-jean-paul_1624
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata and full
+      text fetched and sampled 2026-10-16; the item carries no rights field; the translator''s name is a
+      catalogue claim, not read in this OCR'
+    status: not-yet-downloaded
+  - title: The History of the Vaudois (1692)
+    author: Pierre Boyer
+    translator: none (English original)
+    year: 1692
+    world: the-waldensian-reformed-union
+    why: 'The original of the Part III the vendored 1847 Perrin volume gives ''from Boyer''. Not vendored:
+      the 1847 text is in hand; the EEBO microfilm OCR was not fetched this pass. Lead for checking the
+      1847 text.
+
+      '
+    url: https://archive.org/details/bim_early-english-books-1641-1700_the-history-of-the-vaudo_boyer-pierre_1692_0
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata fetched
+      2026-10-16 (England: printed for Edward Mory, 1692; no rights field); full text not fetched'
+    status: not-yet-downloaded
+  - title: An Account of the late persecution of the Protestants in the vallys of Piemont by the Duke of
+      Savoy and the French king, in the year 1686
+    author: anonymous
+    translator: none (English original)
+    year: 1688
+    world: the-waldensian-reformed-union
+    why: 'A contemporary English account of 1686, the sequel the census''s ''1655+'' reaches toward. Not
+      vendored: after the main window and not needed for the first build; Boyer''s narrative in the 1847
+      volume covers 1686.
+
+      '
+    url: https://archive.org/details/accountoflateper00unse
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata fetched
+      2026-10-16 (Oxford: at the Theatre for John Crosley, 1688; Princeton copy; no rights field); full
+      text not fetched'
+    status: not-yet-downloaded
+  - title: History of the Waldenses of Italy, from their origin to the Reformation
+    author: Emilio Comba, trans. Teofilo E. Comba
+    translator: Teofilo E. Comba
+    year: 1889
+    world: the-waldensian-reformed-union
+    why: 'Secondary scholarship (the Waldensian theological college''s own historian) in English, ending
+      at the Reformation; no Chanforan text in it. Not vendored: not a primary source. Lead for a build''s
+      secondary reading, and for the medieval Waldensian entries.
+
+      '
+    url: https://archive.org/details/historyofwaldens00comb (Princeton copy; a Cornell copy is cu31924029440512)
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata and full
+      text fetched and sampled 2026-10-16; title page read; no rights field, no access restriction'
+    status: not-yet-downloaded
+  - title: 'The Israel of the Alps: a complete history of the Waldenses and their colonies, 2 vols.'
+    author: Alexis Muston, trans. John Montgomery
+    translator: John Montgomery
+    year: 1875
+    world: the-waldensian-reformed-union
+    why: 'Secondary nineteenth-century narrative in English covering 1532 to 1689 and after, with document
+      extracts. Not vendored: not a primary source. The 1866 Blackie first edition is israelalpsacomp01mustgoog
+      and israelalpsacomp00mustgoog; an 1852 Hazlitt translation of the earlier version is israelalpsahist00mustgoog.
+
+      '
+    url: https://archive.org/details/israelofalpscomp01must and https://archive.org/details/israelofalpscomp02must
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata and full
+      text fetched and sampled 2026-10-16; no rights field, no access restriction'
+    status: not-yet-downloaded
+  - title: Waldensian researches during a second visit to the Vaudois of Piemont
+    author: William Stephen Gilly
+    translator: none (English original)
+    year: 1831
+    world: the-waldensian-reformed-union
+    why: 'An English clergyman''s 1831 travel-and-research book, out of window; quotes Morland and Léger.
+      Not vendored: secondary and later. The 1824 Narrative of an Excursion is narrativeofexcur00gill.
+
+      '
+    url: https://archive.org/details/waldensianresear00gill
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata and full
+      text fetched and sampled 2026-10-16; no rights field'
+    status: not-yet-downloaded
+  - title: The Olivetan Bible (French, 1535)
+    author: Pierre Robert Olivétan
+    translator: Pierre Robert Olivétan
+    year: 1535
+    world: the-waldensian-reformed-union
+    why: 'The union''s own deliverable, the Bible the valleys paid for. Two archive.org items exist (olivetan,
+      Public Domain Mark; bible_olivetan_1535, Public Domain Mark, stated as taken from e-rara.ch). Not
+      vendored: a whole Bible is out of scale for the corpus and only the preface and dedication would serve
+      a build; whether either item carries a text derivative was not checked.
+
+      '
+    url: https://archive.org/details/olivetan and https://archive.org/details/bible_olivetan_1535
+    rights_basis: pd-us-by-date
+    verified_by: 'Claude (library/source-research thread, Era VII session, VI.10 agent): metadata fetched
+      2026-10-16; file lists not checked for a text derivative'
+    status: not-yet-downloaded

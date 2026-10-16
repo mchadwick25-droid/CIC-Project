@@ -6758,3 +6758,114 @@
     header prepended per cic/texts/INTAKE.md, body otherwise unaltered. This volume's
     own closing errata note (retained verbatim) flags one date correction against Vol.
     II (a misprint of 1797 for 1799).
+- filename: morland_history-evangelical-churches-piemont_1658.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.10 agent)
+  date_added: '2026-10-16'
+  notes: 'The History of the Evangelical Churches of the Valleys of Piemont (London: Henry Hills for Adoniram
+    Byfield, 1658), by Sir Samuel Morland, Cromwell''s envoy to Savoy in 1655. RIGHTS: public domain by
+    date (1658). Fetched directly (curl, raw bytes) from Internet Archive item historyofevangel00morl
+    (Princeton Theological Seminary Library copy; the item carries no rights field and no access restriction),
+    the item''s own _djvu.txt derivative; header prepended per cic/texts/INTAKE.md, body unaltered. Three
+    Books: the valleys and their ancient documents and confessions (with the Angrogna confession of 12
+    September 1532 and a brief Confession of Faith of the Reformed Churches of Piemont printed in Italian),
+    the persecutions and the 1655 massacre with the sworn depositions, and the diplomacy to 1658. The
+    Princeton copy lacks gathering Mmmm4 (two pages) by the item''s own signature statement. The OCR renders
+    the long s as f throughout (not as the long-s glyph, so the quote gate cannot normalise it), so this
+    file is a second witness for exact wording until a cleaner scan is vendored. READER: sections — "three
+    Books (''BOOK I.'', ''SECOND BOOK'', ''THIRD BOOK'') with chapter headings as printed (''CHAP. IV.''),
+    running heads and page numbers kept in the OCR" ; credit — "The History of the Evangelical Churches
+    of the Valleys of Piemont, Samuel Morland, London: Henry Hills for Adoniram Byfield, 1658; digital
+    text from Internet Archive item historyofevangel00morl (contributor Princeton Theological Seminary
+    Library)" ; republish — whole text, public domain by date.'
+- filename: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.10 agent)
+  date_added: '2026-10-16'
+  notes: 'Histoire ecclésiastique des Églises Vaudoises de l''an 1160 au 1643, Tome premier (Pignerol:
+    Chiantore & Mascarelli, 1881), by Pierre Gilles, pastor of La Tour; a re-edition of the Geneva 1644
+    original. French. RIGHTS: public domain by date (1881). Fetched directly (curl, raw bytes) from Internet
+    Archive item histoireecclesia01gill (Princeton Theological Seminary Library copy; no rights field,
+    no access restriction), the item''s own _djvu.txt derivative; header prepended, body unaltered. Chapters
+    I-XXXVIII, origins to the 1580s. OCR clean. No public-domain English translation of Gilles exists;
+    this is the valleys'' own history in its own language, the primary witness for the 1532 union and
+    the first Reformed generation. READER: sections — "chapter headings as printed (''CHAPITRE XIV.''),
+    page numbers and running heads kept in the OCR" ; credit — "Histoire ecclésiastique des Églises Vaudoises
+    de l''an 1160 au 1643, tome I, Pierre Gilles, Pignerol: Chiantore & Mascarelli, 1881; digital text
+    from Internet Archive item histoireecclesia01gill (contributor Princeton Theological Seminary Library)"
+    ; republish — whole text, public domain by date.'
+- filename: gilles_histoire-ecclesiastique-eglises-vaudoises-v2-fra_1881.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.10 agent)
+  date_added: '2026-10-16'
+  notes: 'Same work as gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt, Tome deuxième,
+    chapters XXXIX-LXII, the 1580s to the end of 1643. RIGHTS and edition as stated for Tome premier.
+    Fetched directly (curl, raw bytes) from Internet Archive item histoireecclesia02gill (Princeton Theological
+    Seminary Library copy), the item''s own _djvu.txt derivative; header prepended, body unaltered. OCR
+    clean. READER: sections — "chapter headings as printed (''CHAPITRE XXXIX.''), page numbers and running
+    heads kept in the OCR" ; credit — "Histoire ecclésiastique des Églises Vaudoises de l''an 1160 au
+    1643, tome II, Pierre Gilles, Pignerol: Chiantore & Mascarelli, 1881; digital text from Internet Archive
+    item histoireecclesia02gill (contributor Princeton Theological Seminary Library)" ; republish — whole
+    text, public domain by date.'
+- filename: leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.10 agent)
+  date_added: '2026-10-16'
+  notes: 'Histoire générale des Églises Évangéliques des Vallées de Piémont ou Vaudoises, Livre premier
+    (Leiden: Jean Le Carpentier, 1669), by Jean Léger, moderator of the valleys'' churches in 1655, later
+    of the Walloon church of Leiden. French. RIGHTS: public domain by date (1669); the host item carries
+    the Creative Commons Public Domain Mark. Fetched directly (curl, raw bytes) from Internet Archive
+    item bub_gb_kzsAtn028N8C (National Library of Naples copy, Google-digitised), the item''s own _djvu.txt
+    derivative; header prepended, body unaltered. Book I: the valleys'' doctrine and discipline, the ''ancient''
+    documents (whose early dating is contested) and the confessions, ending with what Léger calls the
+    latest Confession of their faith (its date was not read this pass). The OCR renders long s as f with
+    many broken words: second witness for exact wording until a cleaner scan is vendored. No public-domain
+    English translation of Léger exists. READER: sections — "chapter headings as printed (''CHAP. XXX.''),
+    many chapter numbers lost in the OCR; page numbers and marginal notes kept" ; credit — "Histoire générale
+    des Églises Évangéliques des Vallées de Piémont ou Vaudoises, livre I, Jean Léger, Leiden: Jean Le
+    Carpentier, 1669; digital text from Internet Archive item bub_gb_kzsAtn028N8C (contributor National
+    Library of Naples)" ; republish — whole text, public domain by date.'
+- filename: leger_histoire-generale-eglises-vaudoises-livre2-fra_1669.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.10 agent)
+  date_added: '2026-10-16'
+  notes: 'Same work as leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt, Livre second: the
+    persecutions to 1664, with the Easter 1655 massacre, Léger''s lists of the killed by name and place,
+    the Pignerol treaty and the events of 1663-64. RIGHTS and edition as stated for Book I. Fetched directly
+    (curl, raw bytes) from Internet Archive item bub_gb_Yf_DYoc9lb0C (National Library of Naples copy,
+    Google-digitised, Public Domain Mark), the item''s own _djvu.txt derivative; header prepended, body
+    unaltered. The OCR is poorer than Book I (title page, marginalia and closing pages garbled, long s
+    as f): second witness for exact wording. READER: sections — "chapter headings as printed (''CHAP.''),
+    most chapter numbers lost in the OCR; page numbers and marginal notes kept" ; credit — "Histoire générale
+    des Églises Évangéliques des Vallées de Piémont ou Vaudoises, livre II, Jean Léger, Leiden: Jean Le
+    Carpentier, 1669; digital text from Internet Archive item bub_gb_Yf_DYoc9lb0C (contributor National
+    Library of Naples)" ; republish — whole text, public domain by date.'
+- filename: perrin_histoire-des-vaudois-fra_1619.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.10 agent)
+  date_added: '2026-10-16'
+  notes: 'Histoire des Vaudois, divisée en trois parties (Geneva: Pierre & Jacques Chouët, 1619), by Jean
+    Paul Perrin, Reformed pastor at Nyons in Dauphiné, written at the commission of the valleys'' synod.
+    French. RIGHTS: public domain by date (1619); the host item carries the Creative Commons Public Domain
+    Mark. Fetched directly (curl, raw bytes) from Internet Archive item bub_gb_i-OELQwHc4IC (contributor
+    recorded as ''unknown library'', Google-digitised), the item''s own _djvu.txt derivative; header prepended,
+    body unaltered. PARTIAL: the scan holds the front matter and Part I only (the Waldenses, Books I-II,
+    with the 1532 articles of the ministers and the Provence massacre of 1545); Parts II and III are not
+    in it. The English of all three parts is in perrin_history-ancient-christians-valleys-alps_1847.txt.
+    The OCR renders long s as f: second witness for exact wording until a cleaner scan is vendored. READER:
+    sections — "chapter headings as printed (''CHAPITRE I''), page numbers and marginal notes kept in
+    the OCR; Part I only" ; credit — "Histoire des Vaudois, Jean Paul Perrin, Geneva: Pierre & Jacques
+    Chouët, 1619; digital text from Internet Archive item bub_gb_i-OELQwHc4IC" ; republish — whole text,
+    public domain by date.'
+- filename: perrin_history-ancient-christians-valleys-alps_1847.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, world VI.10 agent)
+  date_added: '2026-10-16'
+  notes: 'History of the Ancient Christians inhabiting the Valleys of the Alps: I. The Waldenses. II.
+    The Albigenses. III. The Vaudois (Philadelphia: Griffith and Simon, 1847). Parts I and II and the
+    doctrine-and-catechism part are Perrin''s Histoire des Vaudois in the English translation first printed
+    in London in 1624; Part III, the History of the Vaudois, is by the volume''s own statement given from
+    Pierre Boyer (London, 1692) with additions from Henri Arnaud, not Perrin''s work, and is carried under
+    the author slug boyer in the staging file. RIGHTS: public domain by date (1847); host item possible-copyright-status
+    NOT_IN_COPYRIGHT. Fetched directly (curl, raw bytes) from Internet Archive item historyancientc00boyegoog
+    (New York Public Library copy, Google-digitised), the item''s own _djvu.txt derivative, Google''s
+    digitisation notice retained at the head; header prepended, body unaltered. OCR clean in Parts I and
+    II and most of III; the 1689 journal near the end is garbled. READER: sections — "three parts with
+    separate title pages, Book and Part headings as printed (''BOOK II.'', ''PART IV.''), page numbers
+    kept in the OCR" ; credit — "History of the Ancient Christians inhabiting the Valleys of the Alps,
+    Jean Paul Perrin (Parts I-II) and Pierre Boyer (Part III), Philadelphia: Griffith and Simon, 1847;
+    digital text from Internet Archive item historyancientc00boyegoog (contributor New York Public Library)"
+    ; republish — whole text, public domain by date.'

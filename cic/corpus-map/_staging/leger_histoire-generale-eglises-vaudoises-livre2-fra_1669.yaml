@@ -1,0 +1,31 @@
+source_file: leger_histoire-generale-eglises-vaudoises-livre2-fra_1669.txt
+
+assignments:
+  - row_id: leger_histoire-generale-eglises-vaudoises-livre2-fra_1669--histoire-generale-des-eglises-evangeliques-livre-second
+    work: "Histoire générale des Églises Évangéliques des Vallées de Piémont ou Vaudoises, Livre second (1669): the persecutions to 1664, with the Easter 1655 massacre and the lists of the killed"
+    author: leger
+    locus: "whole file; chapter headings at lines 823, 5976, 6479, 9210, 12408 and 20584 (the OCR has lost most chapter numbers); the 1655 massacre lists of the killed by name and place in the chapter from line 9210 (Janavel's family at lines 11936-12371)"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: tradition
+    confidence: assigned
+    note: >
+      The valleys' own moderator's account of the persecutions, written four
+      years after 1655 from the inside and in exile. Book II is the fullest
+      insider record of the massacre, the Pignerol treaty and the years to
+      1664. Primary voice in French. The OCR is poorer than Book I (garbled
+      title page, marginalia and closing pages, long s as f): second witness
+      for wording until a cleaner scan is vendored. No public-domain English
+      translation exists.
+  - row_id: leger_histoire-generale-eglises-vaudoises-livre2-fra_1669--histoire-generale-des-eglises-evangeliques-livre-second-2
+    work: "Histoire générale, Livre second, the passages on the French crown and the Dauphiné valleys"
+    author: leger
+    locus: "scattered through Book II; not itemised"
+    atlas_ids:
+      - the-huguenots
+    role: context
+    confidence: provisional
+    note: >
+      Léger reports the French king's part in 1655 and the Dauphiné valleys'
+      fate, and wrote from the Walloon church of Leiden, the Huguenot refuge.
+      Placed on window and place without reading those passages.

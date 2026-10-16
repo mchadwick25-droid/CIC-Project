@@ -110,6 +110,14 @@ authors:
 
       '
     from_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+  ancient-editor-note-book:
+    kind: anonymous
+    evidence: 'Paper I is headed "An Ancient Editor''s Note Book" (file line 526); Morris''s
+      introduction presents it as an unnamed Elizabethan Catholic''s collection, and no author
+      is named.
+
+      '
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
   annales-regni-francorum:
     kind: anonymous
     evidence: 'A royal Frankish court chronicle compiled by anonymous annalists (the continuation
@@ -214,6 +222,16 @@ authors:
 
       '
     from_file: asbury_journal-v1_1821.txt
+  bancroft:
+    kind: metadata-omission
+    evidence: 'The host''s own creator field names ''Bancroft, Richard, 1544-1610'' beside
+      the Dedham Classis and Usher, and Usher''s preface (file line 57 onward) states that
+      the introduction prints ''a narrative of the movement as a whole by Richard Bancroft,
+      an account hostile to the Presbyterians''. Bancroft is not the file-name prefix because
+      the volume''s primary document is the classis''s own minute book.
+
+      '
+    from_file: dedham-classis_minute-book_usher1905.txt
   bar-hebraeus:
     kind: metadata-omission
     evidence: 'This is this corpus''s first plain-text-vendored (non-CCEL) named author, so
@@ -240,6 +258,15 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  boyer:
+    kind: metadata-omission
+    evidence: 'The volume''s own preface to its Part III (file lines 17058-17083) says the
+      History of the Vaudois is ''given from Boyer'' with additions from Henri Arnaud, and
+      the host catalogue names only Perrin; the author of Part III is Pierre Boyer, The History
+      of the Vaudois (London, 1692), supplied here from the volume''s own statement.
+
+      '
+    from_file: perrin_history-ancient-christians-valleys-alps_1847.txt
   budge:
     kind: metadata-omission
     evidence: 'The file is plain text and carries no markup to hold a creator, so the extractor
@@ -621,6 +648,17 @@ authors:
 
       '
     from_file: lucian_works-vol4-peregrine_fowler1905.txt
+  french-reformed-synods:
+    kind: metadata-omission
+    evidence: 'Not CCEL-derived markup (a plain-text archive.org OCR extract), so no automatic
+      author slug exists. The Confession of Faith, the Discipline and the synod acts in this
+      volume are corporate acts of the national synods of the Reformed Churches of France
+      (Paris 1559 to Loudun 1659), translated by John Quick from manuscript acts; Quick is
+      the compiler, not the author of those acts. A corporate slug on the pattern of council-of-trent
+      and synod-of-dort.
+
+      '
+    from_file: quick_synodicon-in-gallia-reformata_1692.txt
   gennadius-scholarius:
     kind: metadata-omission
     evidence: 'The volume''s own title page names ''Gennadii Confessiones I. II.'' among its
@@ -703,6 +741,15 @@ authors:
     kind: metadata-omission
     evidence: div2 10.6 'Hegesippus' names the author.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  henry-iv-france:
+    kind: metadata-omission
+    evidence: 'Not CCEL-derived markup. The Edict of Nantes in the appendix opens "Henry,
+      by the Grace of God, King of France and Navarre" and is dated "Given at Nantes, April,
+      1598" in the file itself; a royal act, so a slug for the issuing king, on the pattern
+      of corporate and state authors already in the map.
+
+      '
+    from_file: fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt
   hermas:
     kind: pseudonymous
     evidence: 'div1 2 title "THE PASTOR OF HERMAS"; anf02 DC.Creator lists athenagoras, clement_alex,
@@ -726,6 +773,13 @@ authors:
     kind: anonymous
     evidence: div2 7.7; no authorial claim in title or text frame.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  holtby-richard:
+    kind: metadata-omission
+    evidence: 'Paper heading at file line 5017, "Father Richard Holtby on Persecution in the
+      North", and the contents'' "Father Holtby''s Narrative"; the title page names only Morris.
+
+      '
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
   ignatius:
     kind: metadata-omission
     evidence: 'div1 5 title "IGNATIUS" over the epistles in shorter, longer and Syriac recensions;
@@ -844,6 +898,14 @@ authors:
 
       '
     from_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  louis-xiv-france:
+    kind: metadata-omission
+    evidence: 'Not CCEL-derived markup. The Edict of Revocation in the appendix opens "Louis,
+      by the grace of God King of France and Navarre" and the file heads it "Edict of the
+      King, which revokes that of Nantes" (Fontainebleau, October 1685).
+
+      '
+    from_file: fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt
   mara-bar-serapion:
     kind: metadata-omission
     evidence: 'div2 9.17 "A Letter of Mara, Son of Serapion" — the title names the author,
@@ -906,6 +968,16 @@ authors:
     kind: metadata-omission
     evidence: div2 10.5 'Melito, the Philosopher' (of Sardis, per the notice).
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  morris-john:
+    kind: metadata-omission
+    evidence: 'The title page (file line 1 header; Gutenberg transcription of the 1871 title
+      page) reads "Edited, with His Life, by John Morris, Priest of the Society of Jesus".
+      The file''s leading name slug is Gerard, the author of the Narrative; the Life (file
+      line 92 onward) is Morris''s own composition, so his slug is supplied here from the
+      title page.
+
+      '
+    from_file: gerard-john_condition-of-catholics-under-james-i_morris1871.txt
   moses-of-chorene:
     kind: metadata-omission
     evidence: 'div2 9.13 "Moses of Chorene: History of Armenia" — the section title names
@@ -914,6 +986,14 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  mush-john:
+    kind: metadata-omission
+    evidence: 'The volume''s table of contents (file line about 438) and the paper heading
+      at file line 15726 read "Mr. John Mush''s Life of Margaret Clitherow"; the title page
+      names only the editor, John Morris.
+
+      '
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
   narrative-of-zosimus:
     kind: anonymous
     evidence: 'div1 11: the narrative concerning the Blessed Ones (Rechabites) framed around
@@ -938,6 +1018,13 @@ authors:
 
       '
     from_file: harris_odes-and-psalms-of-solomon_harris1911.txt
+  ousebridge-kidcote-prisoner:
+    kind: anonymous
+    evidence: 'Paper IV is headed "Notes by a Prisoner in Ousebridge Kidcote" (file line 10657);
+      the writer is not named.
+
+      '
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
   pantaenus:
     kind: metadata-omission
     evidence: div2 10.15 'Pantaenus, the Alexandrian Philosopher'.
@@ -1166,15 +1253,13 @@ authors:
     from_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
   swiss-brethren:
     kind: anonymous
-    evidence: 'The Schleitheim Confession''s own historical authorship is traditionally associated
-      with Michael Sattler, but this vendored translation (McGlothlin, 1911, pp. 3-9) carries
-      no individual author attribution in its own text or headnote - it is presented as a
-      collective confessional statement issued by the assembled Swiss Brethren, not a named
-      individual''s own composition. Used here as a collective-body slug, the same footing
-      this file''s own `authors_ruled` convention gives an anonymous work.
+    evidence: 'Böhmer''s section IV heading, "Die sieben Artikel von Schlatt am Randen" (file
+      line 1711), and his introduction there date the text to the gathering of 24 February
+      1527 and name no author; the corpus map already uses the slug swiss-brethren for this
+      same work in mcglothlin_baptist-confessions-of-faith_1911.yaml.
 
       '
-    from_file: mcglothlin_baptist-confessions-of-faith_1911.txt
+    from_file: boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt
   symmachus:
     kind: metadata-omission
     evidence: 'div2 titles "Memorial of Symmachus, the Prefect of the City." (5.1) and "The
@@ -1292,6 +1377,14 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  tyrrell-anthony:
+    kind: metadata-omission
+    evidence: 'The volume''s contents (file line about 330) print "The true and wonderful
+      Story of the lamentable Fall of Anthony Tyrrell, Priest, from the Catholic Faith, written
+      by his own hand"; heading at file line 13394. The title page names only Morris.
+
+      '
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt
   ursinus-olevianus:
     kind: metadata-omission
     evidence: 'Not CCEL-derived markup. The file''s own intake header credits "Zacharias Ursinus
@@ -1302,6 +1395,28 @@ authors:
 
       '
     from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  walton:
+    kind: metadata-omission
+    evidence: 'Izaak Walton is named on the file''s own title page ("WITH AN ACCOUNT OF HIS
+      LIFE AND DEATH, BY ISAAC WALTON") and the Life carries his own dedication to Bishop
+      Morley and his preface. The file-name prefix is hooker because the volume is Hooker''s
+      works; Walton''s Life inside it is a separate work by a separate author, so it takes
+      its own slug.
+
+      '
+    from_file: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850.txt
+  ward-samuel:
+    kind: metadata-omission
+    evidence: 'The volume''s own title page (file lines 84-99) names the two diarists, ''Richard
+      Rogers and Samuel Ward'', with M. M. Knappen as editor; the file is named for the editor
+      because it carries two authors'' diaries, so neither diarist is the file-name prefix.
+      Samuel Ward (1572-1643), Master of Sidney Sussex College, Cambridge, and a member of
+      the Westminster Assembly, is identified in Knappen''s Life of Samuel Ward (line 2552).
+      Richard Rogers takes the slug rogers-richard, which is the file-name prefix of rogers-richard_seven-treatises_1610.txt,
+      vendored the same day.
+
+      '
+    from_file: knappen_two-elizabethan-puritan-diaries_1933.txt
   wesley-charles:
     kind: metadata-omission
     evidence: 'Plain-text intake file with no CCEL DC.Creator. Its header names Charles Wesley
@@ -1329,3 +1444,20 @@ authors:
 
       '
     from_file: wesley-j_large-minutes_1850.txt
+  weston-william:
+    kind: metadata-omission
+    evidence: 'The title page names only the editor, John Morris. Morris''s preface (file
+      line 184) speaks of "Father Weston''s autobiography" as the Latin text he translates,
+      and the Life (heading at file line 559) prints Weston''s first-person narrative in quotation
+      ("It was told to me in 1595 or 1596", about file line 12900). The slug is supplied from
+      Morris''s own statement of authorship.
+
+      '
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt
+  yorkshire-recusant:
+    kind: anonymous
+    evidence: 'Paper II is headed "A Yorkshire Recusant''s Relation" (file line 3266); the
+      writer is not named.
+
+      '
+    from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt

@@ -3,6 +3,19 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-reformed-cities-zurich-and-geneva
 works:
+- row_id: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883--histoire-ecclesiastique-des-eglises-reformees-tome-premier-2
+  work: Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580),
+    Tome premier, Livres I-IV
+  author: beza
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Compiled in Geneva under Beza''s name from reports sent to Geneva by the French churches;
+    Geneva''s own record of its mission field. Placed on authorship and place; not read against
+    the Reformed Cities'' own Doc_02.
+
+    '
+  source_file: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt
 - row_id: beza_job-expounded_legatt1589--job-expounded-by-theodore-beza-partly-in-manner-of-a
   work: 'Job Expounded by Theodore Beza: Partly in Manner of a Commentary, Partly in Manner
     of a Paraphrase; Faithfully Translated out of Latine into English'
@@ -185,6 +198,88 @@ works:
 
     '
   source_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+- row_id: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--histoire-des-martyrs-tome-troisieme-livres-viii-xii-3
+  work: Histoire des martyrs persecutez et mis a mort pour la verite de l'Evangile (1619 recension),
+    Tome troisieme, Livres VIII-XII
+  author: crespin
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Compiled and printed in Geneva by a Genevan printer; the book the Reformed cities
+    sent back into France. Placed on that relation only.
+
+    '
+  source_file: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt
+- row_id: schaff_gallican-confession-fra-eng_1877--confessio-fidei-gallicana-the-french-confession-of-faith-2
+  work: Confessio Fidei Gallicana. The French Confession of Faith, A.D. 1559 (French text
+    in modern spelling with Emily O. Butler's English translation)
+  author: french-reformed-synods
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'Drafted in Geneva for the French churches per Schaff''s headnote; the clearest surviving
+    statement of what Geneva''s daughter church professed. Placed on that relation, not read
+    against the Reformed Cities'' own sources.
+
+    '
+  source_file: schaff_gallican-confession-fra-eng_1877.txt
+- row_id: quick_synodicon-in-gallia-reformata_1692--the-confession-of-faith-of-the-reformed-churches-of-france-2
+  work: The Confession of Faith, held and professed by the Reformed Churches of France (1559),
+    English version
+  author: french-reformed-synods
+  locus: heading at file line 1009, running to the Discipline heading at line 1775
+  role: context
+  confidence: provisional
+  note: 'The daughter church''s confession, drafted on a Genevan model (Schaff''s headnote
+    credits Calvin and Chandieu); Beza presided at the synod of La Rochelle 1571 that reaffirmed
+    it (Quick, near line 5339). Placed on that relation, not read against the Reformed Cities''
+    own sources.
+
+    '
+  source_file: quick_synodicon-in-gallia-reformata_1692.txt
+- row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-i-4
+  work: Histoire ecclésiastique des Églises Vaudoises, Tome premier, the chapters on the synod
+    of 1532 and the Geneva connection
+  author: gilles
+  locus: the chapters around line 2447 (Farel and Saunier at the 1532 synod) and the chapters
+    following on the French Bible
+  role: context
+  confidence: provisional
+  note: 'The valleys'' side of the 1532 meeting with Farel and Saunier and of the Bible the
+    valleys paid for. Placed on the window and the named figures without reading the whole
+    chapter.
+
+    '
+  source_file: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt
+- row_id: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868--book-of-common-order-2
+  work: The Book of Common Order (the Forme of Prayers of the English congregation at Geneva,
+    1556, as adopted in Scotland)
+  author: kirk-of-scotland
+  locus: as above; Sprott's Introduction from file line 501 traces each section to the 'Book
+    of Geneva'
+  role: context
+  confidence: provisional
+  note: 'This liturgy was first made in Geneva (1556) for the English exiles whom Knox served,
+    with Calvin''s approval, before Scotland adopted it. Placed on that origin; the file carries
+    the 1564 Scottish text, not the Geneva print, so the Reformed Cities world should treat
+    it as a derived witness.
+
+    '
+  source_file: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+- row_id: knox_works-v2_laing1895--scots-confession-and-first-book-of-discipline-genevan-model
+  work: The Scots Confession (1560) and the First Book of Discipline (1560), as the Genevan
+    model applied to a whole kingdom
+  author: knox
+  locus: Confession from file line 3802; Buke of Discipline from 7492 to before 10629
+  role: context
+  confidence: provisional
+  note: 'Knox had ministered in Calvin''s Geneva (1556-1559) and the Scottish confession and
+    polity are the Genevan order carried to a nation. Placed on that relation only; the texts
+    were not read for what they say about Geneva, so the fit is provisional and the Reformed
+    Cities world should treat them as a downstream witness, not its own voice.
+
+    '
+  source_file: knox_works-v2_laing1895.txt
 - row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris-2
   work: Confessio Christianae fidei (Latin), Cyril Lucaris
   author: lucaris
@@ -263,6 +358,22 @@ works:
 
     '
   source_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+- row_id: zurich-council_actensammlung-zuercher-reformation-deu_egli1879--actensammlung-zur-geschichte-der-zuercher-reformation-1519-1533-2
+  work: Actensammlung zur Geschichte der Zürcher Reformation in den Jahren 1519-1533 (Egli,
+    1879)
+  author: zurich-council
+  locus: 'whole volume: year sections 1519 (file line 251) through 1533; numbered documents
+    Nr. 1-2001'
+  role: tradition
+  confidence: assigned
+  note: 'The council''s own record of the Zurich Reformation under Zwingli, 1519-1533: mandates,
+    disputations, the dissolution of the monasteries, the Ehegericht, the Kappel wars. Institutional
+    primary voice of the city church, in German. Placed here because the Zurich portions were
+    read while checking the Täufer material; the Reformed Cities build thread decides its
+    weight.
+
+    '
+  source_file: zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt
 - row_id: zwingli_selected-works_jackson1901--selected-works-letter-to-erasmus-the-petition-to-the-bishop
   work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical
     marriage; the Acts of the First and Second Zurich Disputations; the 1527 Refutation of
