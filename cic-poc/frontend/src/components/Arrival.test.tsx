@@ -37,3 +37,16 @@ describe('Arrival', () => {
     expect(getByText(/Look for the ✲ mark after a claim/)).toBeInTheDocument();
   });
 });
+
+describe('Arrival order', () => {
+  it('puts the disclosure before the folded "knows well" box, and keeps the living-tradition line outside it', () => {
+    const { container } = render(<Arrival world={world({ livingTraditionFlag: true })} />);
+    const disclosure = container.querySelector('.arrival__disclosure')!;
+    const thinness = container.querySelector('details.arrival__thinness') as HTMLDetailsElement;
+    expect(thinness).not.toBeNull();
+    expect(thinness.open).toBe(false);
+    expect(disclosure.compareDocumentPosition(thinness) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    const living = container.querySelector('.arrival__living-tradition')!;
+    expect(thinness.contains(living)).toBe(false);
+  });
+});
