@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 /**
  * Narrate a built world's own long-form text in that world's Representative
- * voice: the world story (orientation.story), each documented story, and the
- * legacy piece. Text only; never a teaser, caveat, hedge or bio.
+ * voice: the world story (orientation.story), each documented story's
+ * telling, and the legacy piece. Never a teaser, caveat, hedge or bio, and
+ * never a story's source wording (`text`), which the site JSON does not carry.
  *
- * Output: cic-website/audio/worlds/<census-id>/{story,docstory-<n>,legacy}.mp3
+ * Output: cic-website/audio/worlds/<census-id>/{story,docstory-<story id>,legacy}.mp3
  * and cic-website/audio/worlds/manifest.json, which the Atlas panel and the
  * static tradition pages read to decide which players to show. A story longer
  * than the model's per-request limit is sent in parts and joined into one file.
@@ -74,9 +75,9 @@ export function worldPieces(compiled) {
   const pieces = [];
   const story = (o.story || []).map((u) => u.text).filter(Boolean);
   if (story.length) pieces.push({ key: 'story', parts: splitParagraphs(story) });
-  (o.documented_stories || []).forEach((s, i) => {
-    if (s.text && s.text.trim()) pieces.push({ key: `docstory-${i}`, parts: splitParagraphs([s.text]) });
-  });
+  for (const s of o.documented_stories || []) {
+    if (s.telling && s.telling.trim()) pieces.push({ key: `docstory-${s.story_id}`, parts: splitParagraphs(s.telling.split(/\n\n+/)) });
+  }
   const legacy = (o.legacy || []).map((u) => u.text).filter(Boolean);
   if (legacy.length) pieces.push({ key: 'legacy', parts: splitParagraphs(legacy) });
   return pieces;

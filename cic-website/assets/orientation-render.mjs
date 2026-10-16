@@ -73,7 +73,7 @@ function narrationPlayer(url) {
   ].join("");
 }
 
-// opts.narration = { story: url, legacy: url, documented: [url|null, ...] },
+// opts.narration = { story: url, legacy: url, documented: { [story_id]: url } },
 // built by the caller from cic-website/audio/worlds/manifest.json.
 export function renderStory(compiled, opts) {
   const story = (compiled.orientation && compiled.orientation.story) || [];
@@ -103,9 +103,9 @@ export function renderVoices(compiled, opts) {
   return ['<div class="orient-voices">', ...blocks, "</div>"].join("\n");
 }
 
-// title/when/teaser are always visible - only the full text (the actual
-// documented account) sits behind the disclosure. Reuses atlas-v3.html's
-// own docstory-item/docstory naming convention for visual consistency,
+// title/when/teaser are always visible - only the story's own telling
+// (its tellable_as where it has no telling yet) sits behind the
+// disclosure. Reuses atlas-v3.html's own docstory-item/docstory naming convention for visual consistency,
 // but not its exact hide/show split: the Atlas panel's own pre-existing
 // pattern puts the teaser behind a hover tooltip on the collapsed
 // summary, while this shared renderer (used by both surfaces, so they
@@ -121,7 +121,9 @@ export function renderDocumentedStories(compiled, opts) {
     const head = [`<h4>${escapeHtml(s.title || "")}</h4>`];
     if (s.when) head.push(`<p class="meta">${escapeHtml(s.when)}</p>`);
     if (s.teaser) head.push(`<p class="teaser">${escapeHtml(s.teaser)}</p>`);
-    const body = (s.tellable_as ? narrationPlayer(opts && opts.narration && opts.narration.documented && opts.narration.documented[i]) : "") + (s.tellable_as ? paragraphs(s.tellable_as) : "");
+    const account = s.telling || s.tellable_as;
+    const documented = (opts && opts.narration && opts.narration.documented) || {};
+    const body = account ? narrationPlayer(documented[s.story_id]) + paragraphs(account) : "";
     return [
       '<div class="docstory-entry">',
       ...head,
@@ -276,9 +278,11 @@ export function renderPullQuotes(compiled) {
 export function narrationUrls(entry, base) {
   if (!entry) return null;
   const url = (k) => (entry[k] ? base + entry[k].file : null);
-  const last = Math.max(-1, ...Object.keys(entry).map((k) => (/^docstory-(\d+)$/.exec(k) || [])[1]).filter((n) => n !== undefined).map(Number));
-  const documented = [];
-  for (let i = 0; i <= last; i++) documented.push(url(`docstory-${i}`));
+  const documented = {};
+  for (const k of Object.keys(entry)) {
+    const m = /^docstory-(.+)$/.exec(k);
+    if (m) documented[m[1]] = url(k);
+  }
   return { story: url("story"), legacy: url("legacy"), documented };
 }
 

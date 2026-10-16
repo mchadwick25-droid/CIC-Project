@@ -162,6 +162,16 @@ def test_documented_story_pulls_its_own_curated_fields_and_the_story_records_tel
     assert STORY["text"] not in json.dumps(out)
 
 
+def test_documented_story_carries_the_story_records_telling_and_never_its_text():
+    out = _compile()
+    assert out["orientation"]["documented_stories"][0]["telling"] is None
+    told = {**STORY, "telling": "The story told in plain modern English."}
+    payload = compile_world_front(WORLD_FRONT, {**RECORDS, STORY["id"]: told}, {}, compiler_version="v", records_commit="c")
+    entry = json.loads(payload)["orientation"]["documented_stories"][0]
+    assert entry["telling"] == told["telling"]
+    assert STORY["text"] not in payload.decode("utf-8")
+
+
 def test_floor_note_mode3_unit_resolves_from_into_grounded_in():
     out = _compile()
     assert out["orientation"]["floor_note"] == {"text": "adapted floor note", "grounded_in": [HONEST_LIMIT["id"]]}
