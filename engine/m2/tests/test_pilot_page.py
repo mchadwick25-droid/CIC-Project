@@ -117,13 +117,13 @@ def test_the_link_comes_from_the_query_and_only_a_well_formed_one_goes_into_the_
         console.log(JSON.stringify([
           p.linkOf(''), p.linkOf('?for=pastors-link-key-0123456789'), p.linkOf('?for='), p.linkOf('?for=a%20b'),
           p.linkOf('?for=historians-key-0123456789&fbclid=1'), p.linkOf('?for=../x'), p.linkOf('?utm=1'), p.linkOf('?for=' + 'x'.repeat(65)),
-          p.joinUrl('https://app.example/', 'pastors-link-key-0123456789', 'pastor_or_teacher'),
+          p.joinUrl('https://app.example/', 'pastors-link-key-0123456789', 'pastor'),
           p.joinUrl('https://app.example', 'general', 'prefer_not_to_say')
         ]))"""
     )
     assert out == [
         "general", "pastors-link-key-0123456789", None, None, "historians-key-0123456789", None, "general", None,
-        "https://app.example/#cic-pilot=pastors-link-key-0123456789&role=pastor_or_teacher",
+        "https://app.example/#cic-pilot=pastors-link-key-0123456789&role=pastor",
         "https://app.example/#cic-pilot=general&role=prefer_not_to_say",
     ]
 
