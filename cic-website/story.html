@@ -47,6 +47,7 @@
 .updates li:last-child{margin-bottom:0}
 .back-link{font-family:'Alegreya Sans',sans-serif;font-weight:600;font-size:.9rem;display:inline-block;margin:0 0 2.5rem}
 </style>
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -67,6 +68,7 @@
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -118,7 +120,7 @@
     <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
     <nav aria-label="Footer">
       <a href="about.html">About</a>
-      <a href="pilot-feedback.html">Feedback</a>
+      <a href="corrections.html">Corrections</a>
       <a href="privacy.html">Privacy</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
@@ -153,5 +155,6 @@ if (menu && menuToggle) {
 })();
 </script>
 <script src="assets/narration-player.js" defer></script>
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

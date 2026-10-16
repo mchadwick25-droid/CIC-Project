@@ -1710,3 +1710,232 @@ button {
   font: inherit;
   cursor: pointer;
 }
+
+/* Feedback: the quiet line under a Representative turn, the flag card it
+   opens, and the experience card opened from the page bar. */
+.turn-feedback {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--spacing-xs) var(--spacing-md);
+  margin-top: var(--spacing-sm);
+  font-family: var(--font-family-ui);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--color-text-muted);
+}
+
+.turn-feedback button,
+.experience-feedback__toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.turn-feedback__like {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  text-decoration: none;
+}
+
+.turn-feedback__like:disabled {
+  cursor: default;
+}
+
+.turn-feedback__flag {
+  text-decoration: underline;
+}
+
+.turn-feedback__flag:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.turn-feedback button:focus-visible,
+.experience-feedback__toggle:focus-visible,
+.feedback-card__actions button:focus-visible,
+.feedback-card__field:focus-visible,
+.feedback-card__option input:focus-visible,
+.feedback-card__chip input:focus-visible + label {
+  outline: 2px solid var(--color-mark-dot);
+  outline-offset: 2px;
+}
+
+.experience-feedback__toggle {
+  font-family: var(--font-family-ui);
+  font-size: 0.72rem;
+  text-decoration: underline;
+  color: var(--color-text-muted);
+}
+
+.experience-feedback {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  box-sizing: border-box;
+}
+
+.feedback-card {
+  margin-top: var(--spacing-sm);
+  padding: var(--spacing-md);
+  box-sizing: border-box;
+  width: 100%;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.experience-feedback .feedback-card {
+  margin-top: 0;
+}
+
+.feedback-card__title {
+  margin: 0 0 var(--spacing-sm);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.feedback-card__group {
+  border: none;
+  margin: 0 0 var(--spacing-sm);
+  padding: 0;
+  min-width: 0;
+}
+
+.feedback-card__group legend,
+.feedback-card__label {
+  display: block;
+  padding: 0;
+  margin: 0 0 var(--spacing-xs);
+  font-weight: 600;
+}
+
+.feedback-card__label {
+  margin-top: var(--spacing-sm);
+}
+
+.feedback-card__option {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);
+  cursor: pointer;
+}
+
+.feedback-card__option input {
+  margin-top: 0.3rem;
+  flex-shrink: 0;
+}
+
+.feedback-card__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.feedback-card__chip {
+  position: relative;
+  max-width: 100%;
+}
+
+.feedback-card__chip input {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.feedback-card__chip label {
+  display: block;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.feedback-card__chip input:checked + label {
+  border-color: var(--color-text);
+  color: var(--color-text);
+}
+
+.feedback-card__fine {
+  margin: var(--spacing-xs) 0 0;
+  font-size: 0.76rem;
+  color: var(--color-text-muted);
+}
+
+.feedback-card__field {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.45rem 0.6rem;
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  color: var(--color-text);
+  font: inherit;
+}
+
+.feedback-card__field:disabled {
+  opacity: 0.5;
+}
+
+.feedback-card__field::placeholder {
+  color: var(--color-text-muted);
+}
+
+.feedback-card__failed {
+  margin: var(--spacing-sm) 0 0;
+  color: var(--color-error);
+}
+
+.feedback-card__thanks {
+  margin: var(--spacing-sm) 0 0;
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+.feedback-card__actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.feedback-card__actions button {
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: var(--border-radius);
+  color: inherit;
+  padding: 0.35rem 0.9rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.feedback-card__actions button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.launch__foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-md) 0 var(--spacing-lg);
+}
+
+.launch__foot .experience-feedback {
+  margin-top: var(--spacing-sm);
+}

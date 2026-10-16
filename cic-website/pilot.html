@@ -34,6 +34,7 @@ form.pilot-join select{width:100%;font-family:'Alegreya',Georgia,serif;font-size
 form.pilot-join .hero-actions{justify-content:center}
 button.btn{cursor:pointer}
 </style>
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -54,6 +55,7 @@ button.btn{cursor:pointer}
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -102,7 +104,7 @@ button.btn{cursor:pointer}
     <span>&copy; 2026 Church in Conversation. A ministry in formation.</span>
     <nav>
       <a href="about.html">About</a>
-      <a href="pilot-feedback.html">Feedback</a>
+      <a href="corrections.html">Corrections</a>
       <a href="privacy.html">Privacy</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
@@ -138,5 +140,6 @@ if (menu && menuToggle) {
 }
 })();
 </script>
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

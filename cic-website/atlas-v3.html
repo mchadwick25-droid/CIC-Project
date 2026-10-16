@@ -364,6 +364,7 @@ svg#world{display:block;overflow:visible}
      of the entire interactive map, not just late-arriving type. -->
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans:wght@400;600;700&family=Cinzel:wght@600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans:wght@400;600;700&family=Cinzel:wght@600&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 
@@ -372,6 +373,7 @@ svg#world{display:block;overflow:visible}
   <h1>Church Family Tree</h1>
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to today</span>
   <div class="spacer"></div>
+  <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
   <button id="resetBtn" type="button">Reset view</button>
 </div>
 <div class="feature-bar" aria-label="Main features">
@@ -41925,5 +41927,6 @@ window.OrientationNarrationUrls = narrationUrls;
 if (window.__orientationRenderResolve) window.__orientationRenderResolve(RENDERERS);
 </script>
 <script src="assets/narration-player.js" defer></script>
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

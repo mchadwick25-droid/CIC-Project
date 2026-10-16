@@ -279,6 +279,7 @@ function App() {
           world={world}
           turns={conversation.turns}
           streamed={conversation.streamed}
+          sessionId={conversation.sessionId}
           sessionCode={conversation.sessionCode}
           closed={conversation.closed}
           isLoading={conversation.isLoading}
@@ -300,6 +301,7 @@ function App() {
           seatedWorlds={seatedWorlds}
           turns={table.turns}
           streamed={table.streamed}
+          sessionId={table.sessionId}
           sessionCode={table.sessionCode}
           closed={table.closed}
           roundOpen={table.roundOpen}

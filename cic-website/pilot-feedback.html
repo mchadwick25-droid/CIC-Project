@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pilot Feedback — Church in Conversation</title>
-<meta name="description" content="Tell us what you found. Optional feedback for pilot participants, seven questions, low-pressure.">
-<meta property="og:title" content="Pilot Feedback — Church in Conversation">
-<meta property="og:description" content="Tell us what you found. Optional feedback for pilot participants, seven questions, low-pressure.">
+<title>Feedback Has Moved — Church in Conversation</title>
+<meta name="description" content="Where to send feedback: the Tell us what you think button in the top bar of every page.">
+<meta property="og:title" content="Feedback Has Moved — Church in Conversation">
+<meta property="og:description" content="Where to send feedback: the Tell us what you think button in the top bar of every page.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://churchinconversation.com/pilot-feedback.html">
 <meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
@@ -19,26 +19,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
-<style>
-form.feedback label{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.98rem;font-weight:600;margin:1.3rem 0 .4rem}
-form.feedback label:first-of-type{margin-top:0}
-form.feedback .hint{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:#B8AEA1;font-weight:400;display:block;margin-top:.15rem}
-form.feedback input, form.feedback select, form.feedback textarea{
-  width:100%;font-family:'Alegreya',Georgia,serif;font-size:1rem;padding:.7rem .8rem;
-  border:1px solid var(--rule);border-radius:5px;background:#1E1913;color:#F1E9DD}
-form.feedback textarea{min-height:5rem;resize:vertical}
-.optin{background:#1E1913;border:1px solid var(--rule);border-left:3px solid var(--gold-leaf);
-  border-radius:0 6px 6px 0;padding:1.1rem 1.3rem;margin:0 0 1.8rem;font-size:.96rem;color:#B8AEA1}
-.submit-row{text-align:center;margin-top:1.8rem}
-.mailto-fallback{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:#B8AEA1;margin-top:.8rem}
-/* Dark is the default site-wide; .optin, .hint, .mailto-fallback, and the
-   form fields/textarea below are all colored for that directly rather than
-   through --vellum/--iron-gall/--muted, which still hold their light-mode
-   values everywhere on this site (form fields and .optin's background were
-   the last light leftovers here - --iron-gall text on a --vellum field
-   would have gone invisible once the field itself went dark, so both were
-   fixed together). */
-</style>
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -59,6 +40,7 @@ form.feedback textarea{min-height:5rem;resize:vertical}
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -74,130 +56,20 @@ form.feedback textarea{min-height:5rem;resize:vertical}
 
 <main id="main">
   <section class="hero" style="padding-bottom:1rem;">
-    <p class="eyebrow">Pilot Feedback</p>
-    <h1>Tell us what you found</h1>
-    <p class="lede">You just sat down with a Representative &mdash; we'd like to know what that was actually like.</p>
+    <p class="eyebrow">Feedback</p>
+    <h1>Feedback has moved</h1>
   </section>
 
   <section class="page-section">
-    <div class="optin">This is optional, and it's only for us &mdash; to help us see clearly what's working and what isn't as we keep building. Answer whatever feels comfortable to share, and skip anything you'd rather not.</div>
-
-    <form class="feedback" id="feedbackForm" action="mailto:info@churchinconversation.com" method="post" enctype="text/plain">
-      <label for="perspective">Which of the four perspectives did you engage as?</label>
-      <select id="perspective" name="Perspective">
-        <option>Curious</option>
-        <option>Pastor</option>
-        <option>Teacher</option>
-        <option>Academic</option>
-        <option>Re-examining Faith</option>
-        <option>Another Faith</option>
-        <option>Atheist or Agnostic</option>
-        <option>Other</option>
-        <option>Prefer Not to Say</option>
-      </select>
-
-      <label for="tradition">Which tradition(s) did you speak with?</label>
-      <input type="text" id="tradition" name="Tradition" placeholder="e.g. Chloe (Scattered Households), or more than one">
-
-      <label for="confusing">Was anything confusing, or did it assume knowledge you didn't have?<span class="hint">Optional</span></label>
-      <textarea id="confusing" name="Confusing"></textarea>
-
-      <label for="invented">Did anything feel invented, overstated, or not actually backed by what was shown to you?<span class="hint">Optional &mdash; this is the one we most want to hear if the answer is yes</span></label>
-      <textarea id="invented" name="Invented_or_overstated"></textarea>
-
-      <label for="opened">What did this open up for you, if anything &mdash; a thought, a question, a story you'd be willing to share?<span class="hint">Optional</span></label>
-      <textarea id="opened" name="What_it_opened"></textarea>
-
-      <label for="fundable">Looking past what's rough today, do you see enough potential here that this is fundable &mdash; worth real investment as we keep building it?<span class="hint">Optional</span></label>
-      <textarea id="fundable" name="Fundable_potential"></textarea>
-
-      <label for="else">Anything else &mdash; the good, the off, the thin, the wrong. We want to hear it plainly.<span class="hint">Optional</span></label>
-      <textarea id="else" name="Anything_else"></textarea>
-
-      <label for="name">Your name<span class="hint">Optional &mdash; leave blank to stay anonymous</span></label>
-      <input type="text" id="name" name="Name">
-
-      <label for="email">Email<span class="hint">Optional &mdash; only if you're open to us following up</span></label>
-      <input type="email" id="email" name="Email">
-
-      <div class="submit-row">
-        <button type="submit" class="btn primary">Send this to us</button>
-        <p class="mailto-fallback">This opens your email app with everything filled in &mdash; you still send it yourself. Nothing open? Email us directly at <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
-      </div>
-    </form>
-
-    <div id="copyFallback" hidden style="margin-top:1.4rem">
-      <p class="mailto-fallback">Your answers are long enough that a mailto link might cut them off in some email apps. Copy everything below and paste it into a new email to <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a> instead:</p>
-      <textarea id="copyFallbackText" readonly style="width:100%;min-height:12rem;font-family:'Alegreya',Georgia,serif;font-size:.9rem;padding:.7rem .8rem;border:1px solid var(--rule);border-radius:5px;background:#1E1913;color:#F1E9DD"></textarea>
-    </div>
+    <p>On every page there is now a &ldquo;Tell us what you think&rdquo; button in the top bar. Use it to say what the site or a conversation was like, and what we should do better. Under each reply in a conversation, you can also mark what helped and what was not clear or accurate.</p>
+    <p>What we find when we check a reply is listed on the <a href="corrections.html">Corrections and Leads</a> page.</p>
+    <p>You can also write to us at <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
   </section>
 </main>
 
 <script>
 (function(){
 "use strict";
-/* Builds a mailto: link by hand from the field values and navigates to it,
-   exactly the way clicking an <a href="mailto:..."> would -- not a form
-   POST to a mailto: action, which several major browsers silently no-op
-   instead of opening the mail client (real, unreliable, and gives the
-   visitor no signal that nothing happened). A plain mailto: link click is
-   reliably supported everywhere a form-post-to-mailto isn't. The form
-   still carries its original action/method/enctype too, as a no-JS
-   fallback -- less reliable than the JS path above, but strictly better
-   than a bare form with no action at all, which a JS-disabled visitor
-   would submit as a plain GET to this same page, silently wiping every
-   answer with no explanation. Still no server, still no account created
-   anywhere, still the participant's own email client sending it -- same
-   "no accounts, no gatekeeping" shape as the rest of this site. */
-const form = document.getElementById('feedbackForm');
-/* Some email clients/OSes truncate or refuse mailto: links well before any
-   formal spec limit - ~2000 chars is the commonly-cited safe ceiling (old
-   Internet Explorer/Outlook territory, but still the tightest real target).
-   Six free-text fields can exceed that easily, which would silently cut off
-   or drop exactly the answers this form most wants to hear - the same
-   failure class the mailto link above fixes for browser behavior, just
-   triggered by content length instead. Long answers
-   fall back to a copy/paste box instead of a
-   mailto: link that might arrive truncated with no signal that it was. */
-const MAILTO_SAFE_LENGTH = 1800;
-form.addEventListener('submit', function(e){
-  e.preventDefault();
-  const val = id => (document.getElementById(id).value || '').trim();
-  const line = (label, id, fallback) => label + ': ' + (val(id) || fallback);
-  const subject = 'Pilot Feedback';
-  const body = [
-    line('Perspective', 'perspective', ''),
-    line('Tradition(s)', 'tradition', '(not answered)'),
-    '',
-    line('Confusing', 'confusing', '(not answered)'),
-    '',
-    line('Invented or overstated', 'invented', '(not answered)'),
-    '',
-    line("What it opened", 'opened', '(not answered)'),
-    '',
-    line('Fundable potential', 'fundable', '(not answered)'),
-    '',
-    line('Anything else', 'else', '(not answered)'),
-    '',
-    line('Name', 'name', '(anonymous)'),
-    line('Email', 'email', '(not given)')
-  ].join('\n');
-  const mailto = 'mailto:info@churchinconversation.com'
-    + '?subject=' + encodeURIComponent(subject)
-    + '&body=' + encodeURIComponent(body);
-  if (mailto.length > MAILTO_SAFE_LENGTH) {
-    const box = document.getElementById('copyFallback');
-    const text = document.getElementById('copyFallbackText');
-    text.value = 'Subject: ' + subject + '\n\n' + body;
-    box.hidden = false;
-    text.focus();
-    text.select();
-    box.scrollIntoView({behavior: 'smooth', block: 'nearest'});
-    return;
-  }
-  window.location.href = mailto;
-});
-
 var menu = document.querySelector('.menu');
 var menuToggle = document.getElementById('menu-toggle');
 if (menu && menuToggle) {
@@ -228,10 +100,12 @@ if (menu && menuToggle) {
     <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
     <nav>
       <a href="about.html">About</a>
+      <a href="corrections.html">Corrections</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
   </div>
 </footer>
 
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

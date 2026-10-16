@@ -1,0 +1,171 @@
+/* "Tell us what you think": the header button and the card it opens.
+   Linked on every page, including those with their own inline styles, so the
+   colours here are the site's dark palette written out directly. */
+
+.feedback-toggle {
+  font-family: 'Alegreya Sans', 'Trebuchet MS', system-ui, sans-serif;
+  font-size: .85rem;
+  font-weight: 700;
+  color: #F1E9DD;
+  background: none;
+  border: 1px solid rgba(241, 233, 221, .16);
+  border-radius: 999px;
+  padding: .5rem 1.1rem;
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.feedback-toggle:hover,
+.feedback-toggle:focus-visible,
+.feedback-toggle[aria-expanded="true"] {
+  border-color: #E08C74;
+  color: #E08C74;
+}
+
+/* Site header: the button sits beside Menu, at the right end of the row. */
+.site-header > :has(> .feedback-toggle) .feedback-toggle { margin-left: auto; }
+.site-header > :has(> .feedback-toggle) .feedback-toggle + .menu { margin-left: 0; }
+@media (min-width: 1000px) and (max-width: 1179px) {
+  .site-header > :has(> .feedback-toggle + .menu) { display: flex; flex-wrap: wrap; }
+}
+@media (min-width: 1180px) {
+  .site-header > :has(> .feedback-toggle + .menu) {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content max-content;
+    column-gap: .75rem;
+  }
+  .site-header > :has(> .feedback-toggle + .menu) .feedback-toggle { margin-left: 0; }
+  .site-header > :has(> .feedback-toggle + .menu) .brand { margin-right: .25rem; }
+}
+
+/* Church Family Tree bar: the button takes the look of the Reset button. */
+.topbar .feedback-toggle { white-space: nowrap; }
+
+/* Conversation page bar: the button sits at the right end. */
+.bar .feedback-toggle { min-height: 36px; padding: .35rem .9rem; font-size: .8rem; }
+@media (max-width: 480px) {
+  .bar .feedback-toggle { margin-left: auto; }
+}
+
+/* The card. Fixed below the bar that holds the button, so it opens in view
+   on every page layout. */
+.feedback-card {
+  position: fixed;
+  z-index: 100;
+  right: 1.25rem;
+  width: min(27rem, calc(100vw - 2.5rem));
+  overflow-y: auto;
+  padding: 1.25rem;
+  background: #1E1913;
+  color: #F1E9DD;
+  border: 1px solid rgba(241, 233, 221, .16);
+  border-radius: 8px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, .5);
+  font-family: 'Alegreya', 'Iowan Old Style', Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.feedback-card[hidden],
+.feedback-card [hidden] { display: none !important; }
+@media (max-width: 640px) {
+  .feedback-card { left: 1.25rem; width: auto; }
+}
+.feedback-card *, .feedback-card *::before, .feedback-card *::after { box-sizing: border-box; }
+.feedback-card h2 {
+  font-family: 'Alegreya', 'Iowan Old Style', Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+  color: #F1E9DD;
+}
+.feedback-card label,
+.feedback-card legend {
+  font-family: 'Alegreya Sans', 'Trebuchet MS', system-ui, sans-serif;
+  font-size: .98rem;
+  font-weight: 600;
+  color: #F1E9DD;
+}
+.feedback-card .fb-field { display: block; margin: 0 0 1rem; }
+.feedback-card .fb-field > label { display: block; margin: 0 0 .4rem; }
+.feedback-card textarea,
+.feedback-card input[type="text"],
+.feedback-card input[type="email"] {
+  width: 100%;
+  font-family: 'Alegreya', Georgia, serif;
+  font-size: 1rem;
+  padding: .6rem .7rem;
+  border: 1px solid rgba(241, 233, 221, .3);
+  border-radius: 5px;
+  background: #17130F;
+  color: #F1E9DD;
+}
+.feedback-card textarea { min-height: 7rem; resize: vertical; }
+.feedback-card input:disabled { opacity: .5; }
+.feedback-card fieldset { border: 0; margin: 0 0 1rem; padding: 0; min-width: 0; }
+.feedback-card legend { padding: 0; margin: 0 0 .2rem; }
+.feedback-card .fb-radio {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  min-height: 44px;
+}
+.feedback-card .fb-radio label { font-weight: 400; font-size: 1rem; }
+.feedback-card .fb-radio input[type="radio"] {
+  flex: 0 0 auto;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: 0;
+  accent-color: #E08C74;
+}
+.feedback-card .fb-radio input[type="text"] { flex: 1 1 auto; width: auto; min-width: 0; padding: .4rem .6rem; }
+.feedback-card .fb-radio.fb-name { flex-wrap: wrap; }
+.feedback-card .fb-note {
+  font-family: 'Alegreya Sans', 'Trebuchet MS', system-ui, sans-serif;
+  font-size: .86rem;
+  line-height: 1.45;
+  color: #B8AEA1;
+  margin: 0 0 1rem;
+}
+.feedback-card .fb-vh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.feedback-card .fb-actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.feedback-card .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  font-family: 'Alegreya Sans', 'Trebuchet MS', system-ui, sans-serif;
+  font-weight: 600;
+  font-size: .95rem;
+  padding: .6rem 1.4rem;
+  border-radius: 4px;
+  border: 1.5px solid #A13E2B;
+  cursor: pointer;
+}
+.feedback-card .btn.primary { background: #A13E2B; color: #FEFCF8; }
+.feedback-card .btn.primary:hover { background: #B45309; border-color: #B45309; }
+.feedback-card .btn.secondary { background: transparent; color: #E08C74; border-color: #E08C74; }
+.feedback-card .btn.secondary:hover { background: rgba(224, 140, 116, .12); }
+.feedback-card .btn:disabled { opacity: .6; cursor: default; }
+.feedback-card .fb-error {
+  font-family: 'Alegreya Sans', 'Trebuchet MS', system-ui, sans-serif;
+  font-size: .95rem;
+  color: #F0A98F;
+  margin: 0 0 1rem;
+}
+.feedback-card .fb-error:empty { display: none; }
+.feedback-card .fb-done {
+  font-size: 1.05rem;
+  margin: 0 0 1rem;
+}
+.feedback-card .fb-done:empty { display: none; }

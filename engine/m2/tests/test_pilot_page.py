@@ -53,15 +53,13 @@ def _options(html: str, select_id: str) -> list[tuple[str, str]]:
     return re.findall(r'<option(?: value="([^"]*)")?[^>]*>([^<]+)</option>', block)
 
 
-def test_the_role_choice_is_required_and_its_answers_are_the_feedback_forms_and_the_servers():
+def test_the_role_choice_is_required_and_its_answers_are_the_servers():
     from engine.deeper.meter import PILOT_ROLES
 
     html = PAGE.read_text()
     assert re.search(r'<select id="pilot-role" name="role" required>', html)
     options = _options(html, "pilot-role")
     assert options[0] == ("", "Choose one") and '<option value="" selected disabled>' in html
-    feedback = [text for _value, text in _options((SITE / "pilot-feedback.html").read_text(), "perspective")]
-    assert [text for _value, text in options[1:]] == feedback
     assert dict(options[1:]) == PILOT_ROLES
     assert 'label for="pilot-role"' in html
 
