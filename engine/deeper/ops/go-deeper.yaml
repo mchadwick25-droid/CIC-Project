@@ -24,6 +24,7 @@ tokens:
 door:
   observe: false
   base_weekly_usd: 75
+  daily_share: 0.333
   gift_share: 0.8
   purchase_share: 0.5
   invoice_factor: 1.35

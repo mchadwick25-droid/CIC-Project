@@ -5,7 +5,8 @@ Fails, so GitHub emails the repository owner, when any of these holds:
 - /health does not answer twice in a row;
 - the engine runs a commit other than the head of the `live` branch, and that
   head is older than a deploy normally takes;
-- the last database backup did not reach the bucket, or is more than a day old.
+- the last database backup did not reach the bucket, or is more than a day old;
+- the disk holding the databases is DISK_ALERT_PERCENT full or more.
 
 Reads only the public /health route and the public GitHub API. Makes no model
 call and sends nothing to the engine but that one GET.
@@ -22,6 +23,7 @@ from datetime import datetime, timedelta, timezone
 
 DEPLOY_GRACE = timedelta(minutes=30)
 BACKUP_MAX_AGE = timedelta(hours=26)
+DISK_ALERT_PERCENT = 70
 HEALTH_ATTEMPTS = 2
 HEALTH_RETRY_SECONDS = 30
 TIMEOUT_SECONDS = 20
@@ -64,6 +66,11 @@ def problems(health: dict | None, head_sha: str, head_at: datetime, now: datetim
             f"The engine runs {running[:12]}, but live has been at {head_sha[:12]} since "
             f"{head_at:%Y-%m-%d %H:%M} UTC. The newer deploy has not gone live; check Render's deploy log."
         )
+    disk = health.get("disk_used_percent")
+    if not isinstance(disk, int):
+        found.append("The engine does not report how full its disk is.")
+    elif disk >= DISK_ALERT_PERCENT:
+        found.append(f"The engine's disk is {disk}% full. Clear space or enlarge the disk before it fills.")
     backup = health.get("backup")
     if not isinstance(backup, dict):
         found.append("The engine does not report a backup result.")
@@ -86,7 +93,7 @@ def main() -> int:
     health = fetch_health(engine_url)
     head_sha, head_at = fetch_live_head(repo, os.environ.get("GITHUB_TOKEN"))
     found = problems(health, head_sha, head_at, datetime.now(timezone.utc))
-    lines = [f"- {p}" for p in found] or ["- All clear: the engine answers, runs the head of live, and last night's backup uploaded."]
+    lines = [f"- {p}" for p in found] or ["- All clear: the engine answers, runs the head of live, last night's backup uploaded, and the disk has room."]
     report = "\n".join([f"## Live watch: {engine_url}", *lines])
     print(report)
     if summary := os.environ.get("GITHUB_STEP_SUMMARY"):
