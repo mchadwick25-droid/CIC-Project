@@ -52,13 +52,13 @@ export function Arrival({ world }: ArrivalProps) {
         <p>Look for the ✲ mark after a claim — tap it to see exactly where it comes from.</p>
       </div>
 
-      <div className="arrival__thinness">
-        <div className="arrival__thinness-label sans">What this voice knows well — and doesn't</div>
+      <details className="arrival__thinness">
+        <summary className="arrival__thinness-label sans">What this voice knows well — and doesn't</summary>
         <p>{world.thinnessStatement}</p>
-        {world.livingTraditionFlag && (
-          <p className="arrival__living-tradition">This is a bounded historical reconstruction, not today's church of the same name.</p>
-        )}
-      </div>
+      </details>
+      {world.livingTraditionFlag && (
+        <p className="arrival__living-tradition">This is a bounded historical reconstruction, not today's church of the same name.</p>
+      )}
     </div>
   );
 }
