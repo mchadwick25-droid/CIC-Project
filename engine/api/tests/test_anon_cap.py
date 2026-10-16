@@ -296,3 +296,28 @@ def test_a_crisis_message_over_the_daily_cap_still_gets_the_facilitator_redirect
     body = resp.json()
     assert body["routing_action"] == "safety_turn"
     assert body["facilitator"]["resources_appended"]
+
+
+def test_a_message_request_without_a_cookie_never_mints_a_token(store, usage_store, world_loader, registry):
+    client = _app(
+        anon_cap_enabled=True, secret="s3cret", store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+    )
+    created = client.post("/api/session", json={"world_key": "fix"}).json()
+    for _ in range(3):
+        client.cookies.clear()
+        response = _send(client, created)
+        assert COOKIE_NAME not in response.cookies
+
+
+def test_rotating_ipv6_addresses_inside_one_block_shares_one_daily_allowance(store, usage_store, world_loader, registry):
+    client = _app(
+        anon_cap_enabled=True, secret="s3cret", daily_session_limit=2, store=store, usage_store=usage_store,
+        world_loader=world_loader, registry=registry,
+    )
+    tokens = []
+    for n in range(4):
+        client.cookies.clear()
+        response = client.post("/api/session", json={"world_key": "fix"}, headers={"x-forwarded-for": f"2001:db8:1:2::{n + 1}"})
+        if response.status_code == 201:
+            tokens.append(response.cookies[COOKIE_NAME])
+    assert len(tokens) == 2
