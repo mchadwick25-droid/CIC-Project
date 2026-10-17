@@ -1023,11 +1023,12 @@
  "hieronymian-ascetic-literary": {
   "story": {
    "file": "hieronymian-ascetic-literary/story.mp3",
-   "chars": 6620,
+   "chars": 3984,
    "voiceId": "75MqelvgFq5upx0r44WK",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "prefix": "[speaking with a slight Italian accent] ",
    "settings": {
     "stability": 0.6,
@@ -1038,11 +1039,12 @@
   },
   "docstory-hal.story.rome-crisis": {
    "file": "hieronymian-ascetic-literary/docstory-hal.story.rome-crisis.mp3",
-   "chars": 884,
+   "chars": 862,
    "voiceId": "75MqelvgFq5upx0r44WK",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "prefix": "[speaking with a slight Italian accent] ",
    "settings": {
     "stability": 0.6,
@@ -1058,6 +1060,7 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "prefix": "[speaking with a slight Italian accent] ",
    "settings": {
     "stability": 0.6,
@@ -1068,11 +1071,12 @@
   },
   "docstory-hal.story.marcella-death": {
    "file": "hieronymian-ascetic-literary/docstory-hal.story.marcella-death.mp3",
-   "chars": 1010,
+   "chars": 912,
    "voiceId": "75MqelvgFq5upx0r44WK",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "prefix": "[speaking with a slight Italian accent] ",
    "settings": {
     "stability": 0.6,
@@ -1088,6 +1092,102 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-hal.story.ciceronian-dream": {
+   "file": "hieronymian-ascetic-literary/docstory-hal.story.ciceronian-dream.mp3",
+   "chars": 1145,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-hal.story.marcella-standing": {
+   "file": "hieronymian-ascetic-literary/docstory-hal.story.marcella-standing.mp3",
+   "chars": 1117,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-hal.story.paula-epitaph": {
+   "file": "hieronymian-ascetic-literary/docstory-hal.story.paula-epitaph.mp3",
+   "chars": 1132,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-hal.story.journey-to-bethlehem": {
+   "file": "hieronymian-ascetic-literary/docstory-hal.story.journey-to-bethlehem.mp3",
+   "chars": 950,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-hal.story.rufinus-rupture": {
+   "file": "hieronymian-ascetic-literary/docstory-hal.story.rufinus-rupture.mp3",
+   "chars": 876,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-hal.story.attack-416": {
+   "file": "hieronymian-ascetic-literary/docstory-hal.story.attack-416.mp3",
+   "chars": 876,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "prefix": "[speaking with a slight Italian accent] ",
    "settings": {
     "stability": 0.6,
