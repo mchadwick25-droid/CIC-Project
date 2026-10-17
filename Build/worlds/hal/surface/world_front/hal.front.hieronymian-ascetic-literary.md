@@ -17,24 +17,25 @@ export:
 skim:
   tile:
     text: >-
-      Between 382 and 420 CE, a scholar and a circle of Roman women built a
-      new kind of Christian life. It was built on scripture, on giving
-      things up, and on the written word. Jerome came to Rome in 382. He
-      joined a household of ascetic women. The widow Marcella had already
-      gathered them. He brought Hebrew learning. They brought money,
-      conviction, and their own hard questions about scripture. The
-      partnership moved to Bethlehem. There, the widow Paula and her
-      daughter Eustochium built monasteries. They also built a guesthouse
-      for travelers. Jerome spent decades there. He turned the Old
-      Testament into Latin, straight from the Hebrew it was first written
-      in. Marcella stayed in Rome. Clergy still brought her their hardest
-      questions about scripture. No one here held church office. Authority
-      ran on learning and money instead. Fierce arguments tested this
-      world. One was with an old friend, over a condemned teacher. One was
-      with a fellow scholar, over a single changed word. One was an armed
-      attack that burned the Bethlehem monasteries. Not one word survives
-      in the women's own hand. Everything we know of them comes through
-      Jerome's own pen.
+      Between 382 and 420 CE, a scholar and a circle of Roman women
+      built a new kind of Christian life. It joined the study of
+      scripture with giving things up. Jerome came to Rome in 382 and
+      joined a household of ascetic women that the widow Marcella had
+      already gathered. He brought Hebrew learning. They brought money
+      and conviction, and hard questions of their own about scripture.
+      The partnership moved to Bethlehem. There the widow Paula and
+      her daughter Eustochium built monasteries and a guesthouse for
+      travelers. Jerome spent decades there. He turned the Old
+      Testament into Latin, straight from the Hebrew it was first
+      written in. Marcella stayed in Rome. Jerome says priests were
+      sometimes among those who brought her hard questions about
+      scripture. No one here held a bishop's office. Authority ran on
+      learning and money instead. Fierce arguments tested the circle.
+      Jerome broke with an old friend over a condemned teacher, and
+      quarreled with a fellow scholar over one changed word. In 416,
+      armed men burned the Bethlehem monasteries. Not one word
+      survives in the women's own hand. Nearly everything we know of
+      them comes through Jerome's pen.
     grounded_in: [hal.core.hieronymian]
 orientation:
   story:
@@ -291,7 +292,7 @@ orientation:
     grounded_in: [hal.force.marcella-household, hal.story.marcella-death]
   - phrase: "Oea"
     kind: place
-    note: "Oea began as a Phoenician town and later became a Roman–Berber colony. Its site is now Tripoli, in Libya. The uproar over Jonah took place here."
+    note: "Oea began as a Phoenician town. Its site is now Tripoli, in Libya. The uproar over Jonah took place here."
     url: https://pleiades.stoa.org/places/344456
     verified_on: "2026-10-17"
     grounded_in: [hal.story.oea-gourd]
@@ -304,7 +305,7 @@ orientation:
     grounded_in: [hal.figure.augustine]
   - phrase: "Jerome"
     kind: person
-    note: "A Christian scholar who lived in Rome and then in Bethlehem. He died in 420. His letters and prefaces carry nearly everything we know of this circle."
+    note: "A Christian scholar who lived in Rome, then Bethlehem, and died in 420. His letters carry nearly everything we know of this circle."
     grounded_in: [hal.figure.jerome]
   - phrase: "Damasus"
     kind: person
@@ -312,7 +313,7 @@ orientation:
     grounded_in: [hal.figure.damasus]
   - phrase: "Marcella"
     kind: person
-    note: "A widow of Rome who died in 410. Her house on the Aventine hill was already a place of fasting and scripture study when Jerome arrived. Jerome's memorial of her is the main source."
+    note: "A widow of Rome who died in 410. Her Aventine house was already a place of fasting and scripture study when Jerome arrived."
     grounded_in: [hal.figure.marcella]
   - phrase: "Blaesilla"
     kind: person
@@ -324,11 +325,11 @@ orientation:
     grounded_in: [hal.figure.paula, hal.figure.paula-younger]
   - phrase: "Eustochium"
     kind: person
-    note: "Paula's daughter, vowed to a virgin's life from her youth. Jerome wrote her a long letter on virginity. She led the Bethlehem women after her mother died."
+    note: "Paula's daughter, vowed to a virgin's life from her youth. She led the Bethlehem women after her mother died."
     grounded_in: [hal.figure.eustochium]
   - phrase: "Augustine"
     kind: person
-    note: "Bishop of Hippo, who lived from 354 to 430. He wrote to Jerome for about twenty-five years. His letters argue against giving up the old Greek text."
+    note: "Bishop of Hippo, 354 to 430. He wrote to Jerome for about twenty-five years, arguing against giving up the old Greek text."
     grounded_in: [hal.figure.augustine, hal.force.augustine-dispute]
   - phrase: "Alaric"
     kind: person
