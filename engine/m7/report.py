@@ -210,8 +210,11 @@ def write_canon_candidates(out_dir: Path, audits: list[dict], min_count: int = 2
     An ask recurring across sessions (or min_count times overall) is raw
     material for the Question Canon; a human decides what enters (spec stage
     9: 'a real question enters the canon' - a person rules, this file only
-    counts)."""
+    counts). Internal sessions (the team's own tests) are left out, and only
+    their number is recorded."""
     out_dir.mkdir(parents=True, exist_ok=True)
+    internal_left_out = sum(1 for a in audits if a.get("internal"))
+    audits = [a for a in audits if not a.get("internal")]
     counts: Counter = Counter()
     sessions_for: dict[str, set] = {}
     for a in audits:
@@ -228,6 +231,7 @@ def write_canon_candidates(out_dir: Path, audits: list[dict], min_count: int = 2
         "access": "operator-only: contains participant-authored asks (Artifact-8 §4)",
         "generated_at": _now(),
         "lineage_session_ids": [a["session_id"] for a in audits],
+        "internal_sessions_left_out": internal_left_out,
         "min_count": min_count,
         "total_distinct_asks": len(counts),
         "candidates": candidates,

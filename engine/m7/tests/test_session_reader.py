@@ -46,3 +46,14 @@ def test_cap_close_never_reopens(tmp_path):
     session = read_session(store, "s1")
     assert session.closed is True
     assert session.close_reason == "cap"
+
+
+def test_internal_is_read_from_session_started_and_absent_reads_false(tmp_path):
+    store = Store(tmp_path / "events.db")
+    _start_session(store, "old")
+    _append(store, "ours", "session_started", {
+        "mode": "interview", "frame": None, "code_hash": "abc",
+        "world_key": "fix", "package_manifest_hash": "sha256:x", "internal": True,
+    })
+    assert read_session(store, "old").internal is False
+    assert read_session(store, "ours").internal is True
