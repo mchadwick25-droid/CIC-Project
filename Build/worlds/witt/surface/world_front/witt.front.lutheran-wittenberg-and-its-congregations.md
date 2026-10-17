@@ -22,8 +22,7 @@ export:
 skim:
   tile:
     text: >-
-      In 1517, Martin Luther, an Augustinian friar and professor at the young university
-      of Wittenberg, wrote to his archbishop against the sale of indulgences. The
+      In 1517, Martin Luther, an Augustinian friar who taught theology at the university of Wittenberg, wrote to his archbishop against the sale of indulgences. The
       letter began a movement that set Scripture against a hierarchy standing between
       people and God. It held that a person stands before God by a gift received through
       faith, apart from works. Princes and city councils took the reform into their
@@ -45,8 +44,7 @@ orientation:
   - text: >-
       At the heart of this tradition sits a frightened conscience. The commandments teach a person to despair of his own powers, and then
       God's promise comforts him. A sinner is freely justified for Christ's sake,
-      through faith. The sacraments carry that promise. Baptism is daily, and
-      absolution is given as though from God himself. In the Supper, Christ's body
+      through faith. The sacraments carry that promise. Baptism means the old self is drowned by daily sorrow and repentance, and absolution is given as though from God himself. In the Supper, Christ's body
       and blood are truly present, in and under the bread and wine, and this
       church gives no explanation of how.
     grounded_in: [witt.gravity.terrified-and-comforted-conscience, witt.gravity.justified-by-faith-alone, witt.gravity.promise-and-sign, witt.term.confession-and-absolution, witt.gravity.bodily-presence, witt.term.transubstantiation]
@@ -79,15 +77,13 @@ orientation:
   - text: >-
       The reform also taught people in their own language. German hymns were sung
       inside the Mass. Wittenberg's first hymn-book was printed in 1524 and held
-      eight hymns, four of them Luther's. Johann Walter later remembered Luther
-      keeping him three weeks at Wittenberg to set the Gospel and Epistle in
-      German, until the first German Mass was sung.
+      eight hymns, four of them Luther's. Johann Walter later remembered that Luther kept him at Wittenberg for three weeks. Walter wrote out the notes for some of the Gospels and Epistles, until the first German Mass was sung.
     grounded_in: [witt.gravity.german-for-the-people, witt.story.speratus-hymn-under-the-window, witt.story.first-german-mass-sung]
   - text: >-
       The reform's chief tool for forming people was a household catechism,
       written in 1529. Its three parts were the Ten Commandments, the Creed and
       the Lord's Prayer. A father was to question his children and servants at
-      least once a week. The young were to recite the parts daily and get neither food nor drink until they could. After each part came the question, what does this mean? At Luther's own table, a student remembered his wife, Katharina von Bora, asking why the old church prayed with such fervor and their own household so coldly.
+      least once a week. The young were to recite the parts daily and get neither food nor drink until they could. After each part came the question, what does this mean? At his table, Luther told his students that his wife, Katharina von Bora, had asked him a question. Why did the old church pray so hard, and their own household so coldly?
     grounded_in: [witt.gravity.household-catechism, witt.story.household-catechism-lesson-typical-practice, witt.term.what-does-this-mean, witt.story.household-and-kate-on-prayer]
   - text: >-
       In 1530 the Emperor called a Diet to Augsburg, to deal with the Turk and to hear the quarrels over religion. Melanchthon wrote the Augsburg Confession for it. An elector, several princes and the senates of two cities signed it. Luther's name is not among them. The Confession rejected those who taught otherwise about the Supper.
@@ -97,10 +93,7 @@ orientation:
     grounded_in: [witt.core.witt, witt.force.absent-inputs-1525-and-1555, witt.contested.1543-treatise-later-effect, witt.limit.record-thinnest, witt.force.parishes-state-as-reported]
   - text: >-
       Luther died in the mid-1540s. In 1580 a fuller book of confessions was
-      gathered, the Book of Concord, which drew together the catechisms and the
-      confession given decades before. A family of churches grew from these
-      congregations. They still teach a catechism like this one and still sing in
-      the language of the people.
+      gathered, the Book of Concord. It drew together the catechisms and the confession given decades before.
     grounded_in: [witt.core.witt, witt.source.book-of-concord]
   documented_stories:
   - story_id: witt.story.letter-to-albrecht-and-theses-circulation
@@ -166,7 +159,7 @@ orientation:
     title: Patience and a Question About Prayer
     when: Remembered at Luther's table, between 1531 and 1546
     teaser: >-
-      At table, Luther said his whole life was patience. A student also remembered a question from his wife, Katharina von Bora. Why did the old church pray so hard, and their own house so coldly?
+      At table, Luther said his whole life was patience. He also told of a question from his wife, Katharina von Bora. Why did the old church pray so hard, and their own house so coldly?
     grounded_in: [witt.story.household-and-kate-on-prayer, witt.figure.katharina-von-bora]
   voices:
   - figure: witt.figure.luther
@@ -197,8 +190,7 @@ orientation:
     text: >-
       Katharina von Bora was Luther's wife. One question of hers survives in this
       record. She asked why the old church prayed with such fervor while their own
-      household prayed so coldly. A student remembered it and wrote it down years
-      later.
+      household prayed so coldly. Luther told it at table, and a student wrote it down years later.
     grounded_in: [witt.figure.katharina-von-bora, witt.story.household-and-kate-on-prayer]
     hedge: >-
       That question is the only place any woman speaks in this record. It passed through
@@ -330,7 +322,7 @@ orientation:
     grounded_in: [witt.story.worms-1521]
   - phrase: "Elector"
     kind: term
-    note: "Frederick of Saxony was Luther's prince, and Elector was his title. Luther said Frederick gave him a guard in 1518."
+    note: "Elector was the title of Saxony's ruling prince, Luther's own prince. Frederick held it in 1518. By 1530 John held it."
     grounded_in: [witt.story.augsburg-before-cajetan, witt.story.return-and-the-eight-sermons]
   - phrase: "Wartburg"
     kind: place
@@ -342,11 +334,11 @@ orientation:
     grounded_in: [witt.term.catechism, witt.gravity.household-catechism]
   - phrase: "absolution"
     kind: term
-    note: "Forgiveness spoken to a person who has admitted sin, heard as though from God himself. This church kept private confession as a comfort and never forced it."
+    note: "Forgiveness spoken to a person who confessed sin, heard as if from God himself. Private confession was kept as a comfort, not forced."
     grounded_in: [witt.term.confession-and-absolution]
   - phrase: "the Supper"
     kind: term
-    note: "The meal of bread and wine. This church taught that Christ's body and blood are truly present in and under the bread and wine, and it did not explain how."
+    note: "The meal of bread and wine. Christ's body and blood are truly present in and under them, this church taught, without explaining how."
     grounded_in: [witt.term.sacrament-of-the-altar, witt.gravity.bodily-presence]
   - phrase: "conscience"
     kind: term
