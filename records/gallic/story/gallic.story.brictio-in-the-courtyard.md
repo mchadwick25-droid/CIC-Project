@@ -113,6 +113,7 @@ text: >-
   Afterward, Gallus says, whenever this same Brictio was accused of serious wrongdoing, Martin would not
   remove him from the presbyterate. He did not want anyone to suspect him of avenging his own injury,
   and he often gave his reason: he bore with Brictio the way Christ had borne with Judas.
+telling: "One day Martin sat on his wooden seat, the one we all knew, in the little court outside his door. Gallus says Martin saw two demons on the rock above the monastery, calling out with glee, \"Come here, Brictio, come here, Brictio.\" Then Brictio burst in, raging.\n\nBrictio was a presbyter, a priest, whom Martin had raised in the monastery from boyhood. The day before, Martin had rebuked him, because Brictio had owned nothing when he joined the clergy and was now buying horses and slaves. Many said the slaves included boys bought from beyond the frontier and girls chosen for their looks. Pale with fury, Brictio claimed he was the holier man, since he had grown up in the Church while Martin had been a soldier. He called Martin's visions ridiculous fancies and nearly struck him, but Martin answered him gently.\n\nBrictio stormed out, sure he had won. Soon he came back, threw himself at Martin's feet and begged for pardon, admitting that a demon had taken hold of him. Martin forgave him easily. Afterward, whenever Brictio was accused of serious wrongs, Martin would not remove him. He did not want anyone to think he was avenging an insult to himself. If Christ bore with Judas, he would ask, why should he not bear with Brictio?"
 absent_detail: >-
   Brictio's own side is never heard; every word of his is reported by men hostile to him. Our own
   evidence does not say what became of him - the record ends at Martin's own refusal to remove him from
@@ -136,6 +137,3 @@ use_note:
   years: {from: 404, to: 406}
   status: reviewed
 ---
-No separate figure record exists for Brictio: he appears in this single story and nowhere else in the
-world's built evidence, and nothing may be asserted about him beyond this locus - he is fully carried
-here.

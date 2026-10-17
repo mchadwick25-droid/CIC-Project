@@ -265,6 +265,8 @@
           <div class="caveat">Summed across all of a visitor's sessions in this range. Average <span id="t-average-visitor-total">—</span></div>
         </div>
       </div>
+      <div class="caveat" id="t-internal-left-out" style="margin-top: 8px;"></div>
+      <div class="caveat" style="margin-top: 4px;">To keep your own tests out of these numbers, open this link once on each browser or phone you test with: <a href="https://churchinconversation.com/talk.html?ours=1">churchinconversation.com/talk.html?ours=1</a>. To undo it on a browser, open the same link with ours=0.</div>
     </section>
 
     <section>
@@ -569,6 +571,9 @@
     document.getElementById("t-average-session").textContent = fmtDuration(v.average_session_seconds);
     document.getElementById("t-median-visitor-total").textContent = fmtDuration(v.median_visitor_total_seconds);
     document.getElementById("t-average-visitor-total").textContent = fmtDuration(v.average_visitor_total_seconds);
+    const leftOut = v.internal_sessions_left_out || 0;
+    document.getElementById("t-internal-left-out").textContent =
+      fmtNumber(leftOut) + " of our own test sessions " + (leftOut === 1 ? "is" : "are") + " left out of these numbers and the counts below.";
 
     document.getElementById("t-total-sessions").textContent = fmtNumber(pilot.total_sessions);
     document.getElementById("t-open-sessions").textContent = fmtNumber(pilot.open_sessions);

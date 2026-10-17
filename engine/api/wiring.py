@@ -222,6 +222,7 @@ def create_session(
     require_admitted: bool = False,
     package_cache_dir: Path | None = None,
     visitor_id: str | None = None,
+    internal: bool = False,
 ) -> tuple[str, str]:
     """Returns (session_id, raw_code). The raw code is returned exactly once
     - only its hash is ever stored (engine.m4.session_code).
@@ -233,7 +234,7 @@ def create_session(
     visitor_id passes straight through to open_session - see its own
     docstring; None here (anon_cap off, or a non-HTTP caller) is not an
     error, just a session the usage dashboard can't attribute to a
-    visitor."""
+    visitor. internal passes through the same way."""
     _check_admission(registry, world_key, require_admitted=require_admitted)
     world = _load_world(world_loader, registry, world_key, package_cache_dir=package_cache_dir)
     session_id = str(uuid.uuid4())
@@ -248,6 +249,7 @@ def create_session(
         code_hash=session_code.hash_code(raw_code),
         package_manifest_hash=world.manifest_hash,
         visitor_id=visitor_id,
+        internal=internal,
         # The directory this world actually loaded from, pinned alongside
         # its hash - registry[world_key] re-read here rather than reusing
         # any value from _load_world above, since that call's own default
@@ -364,6 +366,9 @@ class PilotSummary:
     table_round_counts_on_cap: dict[str, int]
     earliest_session_at: str | None
     latest_session_at: str | None
+    # Sessions from a browser the team marked as its own, left out of every
+    # count above.
+    internal_sessions_left_out: int = 0
 
 
 def get_pilot_summary(store: Store, *, since: str | None = None) -> PilotSummary:
@@ -371,8 +376,10 @@ def get_pilot_summary(store: Store, *, since: str | None = None) -> PilotSummary
     than re-deriving the event fold a second way - this only tallies what
     that reader already exposes per session, never re-reads raw events
     itself. `since` passes straight through to Store.list_session_ids,
-    the same M7-sweep filter."""
+    the same M7-sweep filter. Internal sessions (the team's own tests) are
+    left out and only counted."""
     session_ids = store.list_session_ids(since=since)
+    internal_left_out = 0
     by_mode: dict[str, int] = {}
     closed_by_reason: dict[str, int] = {}
     table_round_counts_on_cap: dict[str, int] = {}
@@ -383,6 +390,9 @@ def get_pilot_summary(store: Store, *, since: str | None = None) -> PilotSummary
     for session_id in session_ids:
         session = read_session(store, session_id)
         if session is None:
+            continue
+        if session.internal:
+            internal_left_out += 1
             continue
         by_mode[session.mode] = by_mode.get(session.mode, 0) + 1
         if session.first_at and (earliest is None or session.first_at < earliest):
@@ -408,13 +418,14 @@ def get_pilot_summary(store: Store, *, since: str | None = None) -> PilotSummary
             table_round_counts_on_cap[round_no] = table_round_counts_on_cap.get(round_no, 0) + 1
 
     return PilotSummary(
-        total_sessions=len(session_ids),
+        total_sessions=len(session_ids) - internal_left_out,
         by_mode=by_mode,
         open_sessions=open_sessions,
         closed_by_reason=closed_by_reason,
         table_round_counts_on_cap=table_round_counts_on_cap,
         earliest_session_at=earliest,
         latest_session_at=latest,
+        internal_sessions_left_out=internal_left_out,
     )
 
 
@@ -446,7 +457,9 @@ class VisitorUsage:
     few very long or very short sessions would otherwise skew the average
     alone. A session runs from its start to its last message, reply or
     Facilitator turn; a session opened and left without a message is
-    counted on its own, not as a zero-length conversation."""
+    counted on its own, not as a zero-length conversation. Internal sessions
+    (the team's own tests) are in none of these figures; they are only
+    counted, in internal_sessions_left_out."""
 
     unique_visitors: int
     sessions_with_visitor_id: int
@@ -455,6 +468,7 @@ class VisitorUsage:
     average_session_seconds: float | None
     median_visitor_total_seconds: float | None
     average_visitor_total_seconds: float | None
+    internal_sessions_left_out: int = 0
 
 
 @dataclass(frozen=True)
@@ -644,10 +658,14 @@ def get_usage_summary(
     without_a_message = 0
     session_durations: list[float] = []
     visitor_totals: dict[str, float] = {}
+    internal_left_out = 0
 
     for session_id in session_ids:
         session = read_session(store, session_id)
         if session is None or session.first_at is None:
+            continue
+        if session.internal:
+            internal_left_out += 1
             continue
         if session.visitor_id:
             visitor_ids.add(session.visitor_id)
@@ -670,6 +688,7 @@ def get_usage_summary(
         average_session_seconds=average_session,
         median_visitor_total_seconds=median_visitor_total,
         average_visitor_total_seconds=average_visitor_total,
+        internal_sessions_left_out=internal_left_out,
     )
 
     by_route: dict[str, dict] = {}
