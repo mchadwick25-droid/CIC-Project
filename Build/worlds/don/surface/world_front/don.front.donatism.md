@@ -38,87 +38,89 @@ skim:
 orientation:
   story:
   - text: >-
-      From around 311 until 439, two rival churches stood side by side
-      in Roman North Africa, centered on Carthage. Both confessed the
-      same Nicene faith, word for word. They split over one question.
+      From around 311, two rival churches stood side by side in Roman
+      North Africa, centered on Carthage and Numidia. This account
+      follows them to 439. Both held the same faith in the Trinity and
+      in Christ, in the same Latin words. They split over one question.
       Could a bishop's conduct under persecution void what his hand
       later gave? One side said yes. It called itself the Church of the
       Martyrs, the one pure, persecuted and true church. History calls
-      its members Donatists, after an early bishop, though nothing
-      suggests they chose that name.
-    grounded_in: [don.core.donatism]
+      its members Donatists, after an early bishop. In court, its
+      bishops called themselves 'the party of Donatus'.
+    grounded_in: [don.core.donatism, don.dw.the-creed-we-shared, don.term.pars-donati]
   - text: >-
       The quarrel began in the persecution of 303 to 305. Officials
-      demanded that clergy hand over the scriptures or die. Some did.
-      Others refused and suffered for it. This church held that what a
-      minister did in that moment decided whether his hand could be
-      trusted afterward. When it ended, Caecilian was elected bishop of
-      Carthage. Felix of Aptungi, who ordained him, was accused of
-      handing over the scriptures. If that was true, this church held,
-      the new bishop was no bishop at all. A rival party made Majorinus
-      bishop in his place. The emperor later had the charge against
-      Felix tried, and Felix was cleared. This church never accepted
-      that one hearing could settle the whole dispute.
-    grounded_in: [don.force.diocletianic-persecution-traditio-demand, don.term.purity-ministerial, don.figure.caecilian, don.figure.felix-of-aptungi, don.figure.majorinus, don.gravity.ministerial-purity, don.story.acta-purgationis-felicis]
+      demanded that clergy hand over the scriptures and the church's
+      vessels to be destroyed. Some did. Others refused and suffered for
+      it. The Donatists held that what a minister did in that moment
+      decided whether his hand could be trusted afterward. In 311 or
+      312, Caecilian was elected bishop of Carthage. Felix of Aptungi,
+      who ordained him, was accused of handing over the scriptures. If
+      that was true, they held, the new bishop was no bishop at all. A
+      rival party made Majorinus bishop in his place. The emperor later
+      had the charge against Felix tried. Under threat of torture, a
+      witness admitted forging part of the evidence, and Felix was
+      cleared.
+    grounded_in: [don.force.diocletianic-persecution-traditio-demand, don.term.traditor-traditio, don.term.purity-ministerial, don.figure.caecilian, don.figure.felix-of-aptungi, don.figure.majorinus, don.gravity.ministerial-purity, don.story.acta-purgationis-felicis, don.core.donatism]
   - text: >-
       The doctrine had one public consequence, repeated for a century.
       Anyone who crossed over from the rival church was washed again.
-      This church never called it a second baptism. A hand from a broken
-      line had given nothing the first time, so its font marked a
-      person's first true entry into the church. Imperial edicts named
-      the practice as an offense.
+      The Donatists did not count it as a second baptism. A hand from a
+      broken line had given nothing the first time. So their font gave a
+      convert the first real baptism of their life. Imperial edicts
+      named the practice as an offense.
     grounded_in: [don.gravity.rebaptism-boundary-marking, don.term.rebaptism]
   - text: >-
-      Persecution came a second time in 347 and 348, and this time it
-      came at the rival church's urging, through the emperor's
-      commissioners. It gave this church the martyrs it remembered.
-      Bishop Marculus, after four days of fasting, was shown a cup, a
-      crown and a palm, then thrown from a cliff called Novapetra. Two
+      Persecution came again in 347 and 348. This time it came at the
+      rival church's urging, through the emperor's commissioners. The
+      church's own account says that Bishop Marculus was held four days
+      at a cliff called Novapetra. There he fasted and was shown a
+      vision of a cup, a crown and a palm. Then he was thrown down. Two
       laymen of Carthage, Isaac and Maximianus, were flogged and sunk in
       the sea. Every year, at the grave, the church read such accounts
       aloud again.
-    grounded_in: [don.gravity.martyr-cult-identity, don.story.passio-marculi, don.story.macrobius-letter]
+    grounded_in: [don.gravity.martyr-cult-identity, don.force.macarian-repression, don.story.passio-marculi, don.story.macrobius-letter]
   - text: >-
       By the later fourth century this was a full parallel church. It
       had its own bishops, basilicas and councils, and it contested the
-      same towns as its rival. In Numidia it was simply the ordinary
-      church of the countryside.
-    grounded_in: [don.gravity.parallel-institutional-hierarchy, don.dw.two-churches-in-one-town]
+      same towns as its rival. In Numidia it had far more people than
+      its rival. There it was the ordinary church of the village.
+    grounded_in: [don.gravity.parallel-institutional-hierarchy, don.dw.two-churches-in-one-town, don.core.donatism]
   - text: >-
-      Its bishop Donatus is remembered for one line, kept by the man who
-      wrote against him. What has the emperor to do with the church?
-      Rome's hearing in 313 and the Council of Arles in 314 ruled
-      against this church, and it rejected both rulings. A court run on
-      a state's terms, in its view, was not the church judging itself.
-      Still, its own texts admit exceptions. Three times it turned to
-      the state when that served its case. It petitioned Constantine in
-      313 and Julian in 361. In the 390s it invoked imperial law against
-      its own breakaway Maximianists.
-    grounded_in: [don.term.refusal-of-imperial-legitimacy, don.quote.donatus-quid-est-imperatori, don.gravity.principled-refusal-vs-pragmatic-recourse, don.figure.donatus]
+      Optatus, who wrote against the Donatists, reports that their
+      bishop Donatus once asked what the emperor had to do with the
+      church. The hearing at Rome in 313 and the Council of Arles in 314
+      ruled against them, and they rejected both rulings. A council
+      called and enforced by a state that already favored their rival
+      was not, in their view, the church judging itself. Still, three
+      times they turned to the state when that served their case. They
+      petitioned Constantine in 313 and Julian in 361. In the 390s they
+      invoked imperial law against their own breakaway Maximianists.
+    grounded_in: [don.term.refusal-of-imperial-legitimacy, don.quote.donatus-quid-est-imperatori, don.gravity.principled-refusal-vs-pragmatic-recourse, don.figure.donatus, don.figure.optatus-of-milevis]
   - text: >-
-      At the Conference of Carthage in 411, two hundred and seventy-nine
-      of its bishops faced two hundred and eighty-six from the other
-      side. They stood before an imperial judge, as Christ had stood
-      before his governor, and refused the chairs he offered. The judge
-      granted that the name Catholic belonged to whichever side held the
-      truth. Then he ruled that an imperial rescript had already given
-      the name to the other side.
-    grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.gravity.parallel-institutional-hierarchy]
+      At the Conference of Carthage in 411, about two hundred and eighty
+      Donatist bishops faced a slightly larger number from the other
+      side. The imperial judge offered them chairs, and they refused.
+      Christ had stood before his governor, said Petilian, one of their
+      spokesmen, and so would they. The judge granted that the name
+      Catholic belonged to whichever side held the truth. Then he said
+      he was bound by an imperial rescript that had already given the
+      name to the other side. He ruled against the Donatists, and penal
+      laws against them followed.
+    grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.figure.marcellinus, don.gravity.parallel-institutional-hierarchy, don.force.conference-of-411-verdict]
   - text: >-
-      The record closes in 439, when a Vandal army took Carthage. That
-      ended the Roman rule this church had defined itself against. The
-      contest went on under the Vandals, and then under the Eastern
-      empire. In the 590s Pope Gregory the Great wrote letters about
+      This story ends in 439, when a Vandal army took Carthage. That
+      removed the Roman power the Donatists had defined themselves
+      against. The contest went on under the Vandals, and then under the
+      emperors of the East. In the 590s Pope Gregory the Great wrote of
       rebaptism still going on in Numidia, and pressed for an inquiry.
-      After that, the record goes silent. No line from it to any church
-      alive today has ever been shown.
-    grounded_in: [don.core.donatism]
+    grounded_in: [don.core.donatism, don.force.vandal-capture-of-carthage]
   - text: >-
-      Almost everything known about this church was written by two men
-      arguing against it. Its own voice survives in four short texts,
-      and in two words cut into pillars near Bagai: Deo laudes, praise
-      to God. No hostile hand stands between those words and a modern
-      reader.
+      Almost everything known about the Donatists was written by two men
+      arguing against them. Their own voice survives in four short texts
+      and in their bishops' words at the hearing of 411. It survives too
+      in two words cut into pillars near Bagai, Deo laudes, praise to
+      God.
     grounded_in: [don.core.donatism, don.quote.deo-laudes, don.term.deo-laudes]
   documented_stories:
   - story_id: don.story.council-of-cirta
@@ -129,7 +131,7 @@ orientation:
   - story_id: don.story.lucilla-affair
     title: "A Rebuke Over a Martyr's Bone, and a Rival Bishop"
     when: "311 or 312 (the Carthage election and the rival consecration)"
-    teaser: "A rich woman is told off for kissing a martyr's bone. Then a disputed vote ends with a rival bishop. The only account comes from the man who blames her."
+    teaser: "A rich woman is told off for kissing a martyr's bone. Then a disputed vote ends with a rival bishop. The story of the rebuke comes only from the man who blames her."
     grounded_in: [don.story.lucilla-affair, don.figure.lucilla, don.figure.caecilian, don.figure.majorinus]
   - story_id: don.story.acta-purgationis-felicis
     title: "A Forged Letter and the Bishop Who Was Cleared"
@@ -139,12 +141,12 @@ orientation:
   - story_id: don.story.gesta-apud-zenophilum
     title: "Four Hundred Pieces of Silver, and Letters Asking for Silence"
     when: "320 (the inquiry before Zenophilus); the money and consecration it investigates date to c. 305-312"
-    teaser: "A Roman official puts named witnesses under oath. A bishop's own letters are read into the record. They admit an accusation was true and beg that no one find out."
+    teaser: "A Roman official puts named witnesses under oath. Bishops' letters are read aloud. One admits the charge was true, and several beg that no one find out."
     grounded_in: [don.story.gesta-apud-zenophilum, don.figure.silvanus-of-cirta, don.figure.lucilla]
   - story_id: don.story.passio-marculi
-    title: "A Cup, a Crown, and a Palm at Novapetra"
+    title: "A Cup, a Crown and a Palm at Novapetra"
     when: "347-348 (the Macarian persecution; the text gives a day but no year)"
-    teaser: "A bishop who gave up worldly advancement is flogged, shown a cup, a crown, and a palm, and thrown from a cliff. This is the church's own account."
+    teaser: "In his church's own account, a bishop who gave up worldly advancement is flogged, shown a cup, a crown and a palm, and thrown from a cliff."
     grounded_in: [don.story.passio-marculi]
   - story_id: don.story.macrobius-letter
     title: "A Bishop Writes About Two Men Sunk in the Sea"
@@ -152,20 +154,20 @@ orientation:
     teaser: "Bishop Macrobius writes to the people of Carthage about Isaac and Maximianus. The proconsul had them sunk in the sea so that no one could honor them."
     grounded_in: [don.story.macrobius-letter]
   - story_id: don.story.tyconius-condemnation
-    title: "The Layman Who Argued the Church Reached the Whole Earth"
+    title: "The Writer Who Argued the Church Reached the Whole Earth"
     when: "around 380 (Parmenian's letter; the later condemnation is reported, not witnessed)"
-    teaser: "A layman argues from Scripture that the church spans the whole earth. His bishop tells him to stop. He neither recants nor leaves, and a council reportedly condemns him."
+    teaser: "A writer argues from Scripture that the church spans the whole earth. His bishop tells him to stop. He neither recants nor leaves, and a council reportedly condemns him."
     grounded_in: [don.story.tyconius-condemnation, don.figure.tyconius]
   - story_id: don.story.bagai-reconciliation
-    title: "Condemned as Shipwrecked, Then Taken Back Without a Word"
-    when: "393 (the Cebarsussi rupture); 394 (the Bagai council and reception)"
-    teaser: "Three hundred and ten bishops condemn a breakaway group in the harshest words they ever used. Later our party takes two of them back, and no rite is done again."
+    title: "Condemned as Shipwrecked, Then Taken Back as They Were"
+    when: "393 to 398 (the Cebarsussi rupture in 393, the Bagai council in 394, the return of two bishops afterward)"
+    teaser: "Three hundred and ten bishops condemn a breakaway group as shipwrecked men. Later their church takes two of its bishops back, and does not baptize or ordain them again."
     grounded_in: [don.story.bagai-reconciliation, don.figure.primian, don.figure.maximian-of-cebarsussi]
   - story_id: don.story.conference-of-carthage-411
-    title: "Three Days Standing Before a Judge Already Told Who Was Right"
-    when: "1-8 June 411"
-    teaser: "Two hundred and seventy-nine bishops refuse the chairs a judge offers them. For three days they argue against an order that had already named the other side the church."
-    grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.figure.emeritus]
+    title: "Three Days Standing Before a Judge Bound by the Emperor's Word"
+    when: "June 411"
+    teaser: "Bishops refuse the chairs a judge offers them. For three days they argue before a judge bound by an order that already calls the other side Catholic."
+    grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.figure.emeritus, don.figure.marcellinus]
   voices:
   - figure: don.figure.donatus
     text: >-
@@ -348,11 +350,11 @@ orientation:
   highlights:
   - phrase: "traditores"
     kind: term
-    note: "Latin for those who handed over. It names clergy accused of giving the scriptures to the persecutors. This church held that such a man could no longer baptize or ordain."
+    note: "Latin for those who handed over. It names clergy said to have given up the scriptures in the persecution. Donatists held that such a man could no longer baptize or ordain."
     grounded_in: [don.term.traditor-traditio]
   - phrase: "primate"
     kind: term
-    note: "The senior bishop of a church. This church's primate sat at Carthage, and its rival claimed the same seat for its own man."
+    note: "The senior bishop of a church. The Donatist primate sat at Carthage, and the rival church claimed the same seat for its own man."
     grounded_in: [don.term.primas]
   - phrase: "proconsul"
     kind: term
@@ -360,16 +362,16 @@ orientation:
     grounded_in: [don.figure.felix-of-aptungi, don.figure.isaac]
   - phrase: "rescript"
     kind: term
-    note: "A written ruling from an emperor. In 411 the judge held that an earlier rescript had already given the name Catholic to the rival church."
+    note: "A written ruling from an emperor. In 411 the judge said that an earlier rescript had already given the name Catholic to the rival church."
     grounded_in: [don.story.conference-of-carthage-411, don.figure.marcellinus]
   - phrase: "Catholic"
     kind: term
-    note: "The word means universal. Both churches claimed it as their title. The state granted it to the rival, and this church called that side Caecilianists."
+    note: "The word means universal. Both churches claimed it as their title. The state granted it to the rival, and the Donatists called that side Caecilianists."
     grounded_in: [don.term.catholicus, don.term.caecilianist]
-  - phrase: "Nicene faith"
+  - phrase: "the same faith"
     kind: term
-    note: "The shared faith in the Trinity and in Christ held across Latin North Africa. Both churches confessed it. They split over which bishops were valid."
-    grounded_in: [don.core.donatism]
+    note: "The faith in the Trinity and in Christ held across Latin North Africa. Both churches confessed it in the same Latin words. They split over which bishops were valid."
+    grounded_in: [don.core.donatism, don.dw.the-creed-we-shared]
   - phrase: "Maximianists"
     kind: term
     note: "People who followed Maximian, a deacon made rival head of the church in 393. A larger meeting of bishops at Bagai condemned them in 394."
@@ -381,52 +383,52 @@ orientation:
     grounded_in: [don.force.diocletianic-persecution-traditio-demand]
   - phrase: "Vandal"
     kind: term
-    note: "The Vandals invaded Roman North Africa in 429 and took Carthage in 439. That ended the Roman state that this church had defined itself against."
+    note: "The Vandals invaded Roman North Africa in 429 and took Carthage in 439. That took away the Roman power that had judged the Donatists and used force on them."
     grounded_in: [don.force.vandal-capture-of-carthage, don.core.donatism]
-  - phrase: "Rome's hearing"
+  - phrase: "hearing at Rome"
     kind: council
-    note: "A hearing at Rome in 313, where Constantine sent the dispute after this church petitioned him. It ruled against this church, which rejected the result."
+    note: "A hearing at Rome in 313. The Donatists had asked Constantine for a ruling, and he sent the case there. It went against them, and they rejected it."
     grounded_in: [don.figure.constantine, don.dw.who-decides-a-disputed-case]
   - phrase: "Council of Arles"
     kind: council
-    note: "A meeting of bishops in 314. Constantine sent the African dispute there. It ruled against this church, and this church rejected the ruling."
+    note: "A meeting of bishops in 314. Constantine sent the African dispute there. It went against the Donatists, and they rejected it."
     grounded_in: [don.figure.constantine, don.dw.who-decides-a-disputed-case]
   - phrase: "Conference of Carthage"
     kind: council
-    note: "A court hearing in 411, ordered by the emperor to settle the quarrel. The judge Marcellinus ran it. The record stops before any verdict."
-    grounded_in: [don.story.conference-of-carthage-411, don.figure.marcellinus]
+    note: "A court hearing in 411, held on the emperor's orders to end the quarrel. The judge Marcellinus ran it, and he ruled against the Donatists."
+    grounded_in: [don.story.conference-of-carthage-411, don.figure.marcellinus, don.force.conference-of-411-verdict]
   - phrase: "Donatus"
     kind: person
-    note: "Primate at Carthage from about 313 until his death in exile about 347. The movement is named for him. Not one page of his own survives."
+    note: "Primate at Carthage from about 313. He was exiled about 347 and died in exile. The movement is named for him. Not one page of his own survives."
     grounded_in: [don.figure.donatus]
   - phrase: "Petilian"
     kind: person
-    note: "Bishop of Constantina for this church. With Emeritus, he spoke for it in 411. His letters survive only because Augustine quoted them to answer them."
+    note: "A Donatist bishop at Constantina. He and Emeritus spoke for his church in 411. His letters live on only in the books Augustine wrote to answer them."
     grounded_in: [don.figure.petilian]
   - phrase: "Tyconius"
     kind: person
-    note: "A writer in this church in the 370s and 380s who composed the Book of Rules, seven rules for reading scripture. A council reportedly condemned him around 380."
+    note: "A Donatist writer of the 370s and 380s. He wrote the Book of Rules, seven rules for reading scripture. A council is said to have condemned him around 380."
     grounded_in: [don.figure.tyconius, don.term.liber-regularum]
   - phrase: "Augustine"
     kind: person
-    note: "Catholic bishop of Hippo from 395 or 396 until 430. He wrote against this church and argued against it at the 411 Conference."
+    note: "Catholic bishop of Hippo from 395 or 396 until 430. He wrote against the Donatists, and he argued with them at the hearing of 411."
     grounded_in: [don.figure.augustine]
   - phrase: "Optatus"
     kind: person
-    note: "A Catholic bishop of Milevis who wrote seven books against this church in the 360s and revised them about 385. Most of its early history reaches us through him."
+    note: "A Catholic bishop of Milevis who wrote seven books against the Donatists in the 360s. He revised them about 385. Most of their early history reaches us through him."
     grounded_in: [don.figure.optatus-of-milevis, don.figure.optatus]
   - phrase: "Flavius Marcellinus"
     kind: person
-    note: "The imperial officer sent to judge the hearing of 411. He belonged to neither church. He was put to death in 413 on another charge."
+    note: "The imperial officer sent to judge the hearing of 411. He was the emperor's officer, not a cleric of either church. He was put to death in 413 on another charge."
     grounded_in: [don.figure.marcellinus]
   - phrase: "the emperor's commissioners"
     label: "Paul and Macarius"
     kind: person
-    note: "Paul and Macarius, who forced this church to join its rival in 347 and 348. Their force sometimes killed."
+    note: "Paul and Macarius, who forced the Donatists into union with their rival in 347 and 348. At times they killed."
     grounded_in: [don.force.macarian-repression]
   - phrase: "Numidia"
     kind: place
-    note: "A Roman province of North Africa and the heartland of this church. Its towns in these stories, such as Cirta and Bagai, lie in today's Algeria."
+    note: "A Roman province of North Africa and the Donatist heartland. Its towns in these stories, such as Cirta and Bagai, lie in today's Algeria."
     url: https://pleiades.stoa.org/places/981539
     verified_on: "2026-10-17"
     grounded_in: [don.core.donatism]
@@ -456,7 +458,7 @@ orientation:
     grounded_in: [don.term.concilium, don.force.maximianist-fracture]
   - phrase: "Novapetra"
     kind: place
-    note: "The cliff where Marculus was held and killed. It is probably the site now called Henchir Encedda, in today's Algeria."
+    note: "Where Marculus was held four days at a cliff and thrown from it. The place is probably the site now called Henchir Encedda, in today's Algeria."
     url: https://pleiades.stoa.org/places/334604
     verified_on: "2026-10-17"
     grounded_in: [don.story.passio-marculi, don.figure.marculus]
@@ -473,7 +475,7 @@ orientation:
     grounded_in: [don.figure.constantine]
   - phrase: "Optatus Gildonianus"
     kind: person
-    note: "A bishop of this church who used soldiers to bring the two condemned bishops back. He is a different man from Optatus of Milevis."
+    note: "A Donatist bishop who used soldiers to bring the two condemned bishops back. He is not the same man as Optatus of Milevis."
     grounded_in: [don.story.bagai-reconciliation]
   - phrase: "Carthage"
     kind: place
