@@ -309,6 +309,9 @@
       <h2>Questions people ask</h2>
       <div class="caveat" id="asks-freshness" style="margin-bottom: 8px;"></div>
       <div id="asks-table-wrap"></div>
+      <h3 style="margin-top: 16px;">Every question, last 7 days</h3>
+      <div class="caveat" id="recent-questions-note" style="margin-bottom: 8px;"></div>
+      <div id="recent-questions-wrap" style="overflow-x: auto;"></div>
     </section>
 
     <section>
@@ -479,6 +482,34 @@
     wrap.appendChild(table);
   }
 
+  function renderRecentQuestions(questions, total) {
+    const wrap = document.getElementById("recent-questions-wrap");
+    wrap.innerHTML = "";
+    document.getElementById("recent-questions-note").textContent =
+      "Word for word, newest first, live. Your own marked browsers are left out." +
+      (total > questions.length ? " Showing the newest " + fmtNumber(questions.length) + " of " + fmtNumber(total) + "." : "");
+    if (!questions || questions.length === 0) {
+      wrap.appendChild(el("div", { class: "empty", text: "No questions in the last 7 days." }));
+      return;
+    }
+    const table = el("table", {});
+    table.appendChild(el("thead", {}, [el("tr", {}, [
+      el("th", { text: "When (UTC)" }),
+      el("th", { text: "World" }),
+      el("th", { text: "Question" }),
+    ])]));
+    const tbody = el("tbody", {});
+    questions.forEach((q) => {
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: q.asked_at.slice(0, 16).replace("T", " ") }),
+        el("td", { text: q.world_keys.join(", ") }),
+        el("td", { text: q.text }),
+      ]));
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+  }
+
   const FEEDBACK_OUTCOMES = [
     ["corrected", "Corrected"], ["checked_stands", "Checked, stands"], ["open_lead", "Open lead"],
     ["conviction", "A conviction, not an error"], ["no_action", "No action"],
@@ -595,6 +626,7 @@
 
     renderSpendSplit(usage.live_use, usage.named_tests);
     renderAsksTable(usage.top_asks);
+    renderRecentQuestions(usage.recent_questions || [], usage.recent_questions_total || 0);
     const freshness = document.getElementById("asks-freshness");
     freshness.textContent = usage.asks_as_of_run
       ? "From the daily rollup run at " + usage.asks_as_of_run + " (generated " + (usage.asks_generated_at || "unknown") + ") — not live, updates once a day."
