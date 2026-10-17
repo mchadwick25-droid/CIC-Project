@@ -38,8 +38,7 @@ skim:
 orientation:
   story:
   - text: >-
-      This story runs from 312 to 451, in Rome, Constantinople and Milan.
-      Where does final authority over the church sit? The emperor, a council
+      From 312 to 451, in Rome, Constantinople and Milan, the church fought over one question. Who has the last word over it? The emperor, a council
       and the bishop of Rome each had a claim. Rome traced its standing to
       the apostle Peter. Constantinople based its rank on being near the
       emperor. Ambrose of Milan held that a bishop's sacraments and moral
@@ -54,12 +53,10 @@ orientation:
     grounded_in: [ijc.story.vision-and-alliance, ijc.story.dream-before-battle, ijc.contested.constantine-conversion, ijc.force.constantine-alliance]
   - text: >-
       A council in the East deposed Athanasius, the bishop of Alexandria. In 341 Julius, bishop of Rome, wrote back that the custom was to
-      write to Rome first. His letter survives because Athanasius quoted it.
-      From these years, it is the earliest surviving voice of Rome's claim. Those he wrote to
-      disputed how old and settled that custom was.
+      write to Rome first. Those he wrote to disputed how old and settled that custom was.
     grounded_in: [ijc.story.letter-that-outranked-a-council, ijc.quote.julius-custom, ijc.figure.julius, ijc.gravity.primacy-claiming]
   - text: >-
-      The alliance never kept one shape. Under Constantius II the empire's
+      Imperial favor did not stay with one creed. Under Constantius II the empire's
       own church confessed that the Son is like the Father. That creed is
       called Homoian. Valens enforced it again in the East. For roughly two
       decades it was the official faith, and bishops who held the Nicene faith were deposed and exiled.
@@ -74,7 +71,7 @@ orientation:
   - text: >-
       In 388 Christians burned the synagogue at Callinicum, on the eastern
       frontier. Theodosius ordered the local bishop to pay for a new one.
-      Ambrose would not offer the sacrament until the emperor promised to change it, and Theodosius gave in. Here Ambrose used his power to shield the people who set the fire. The Jewish community has no voice in the sources.
+      Ambrose would not offer the sacrament until the emperor promised to change it, and Theodosius gave in. Here Ambrose used his power to shield the people who set the fire.
     grounded_in: [ijc.story.callinicum-synagogue]
   - text: >-
       In 390 a riot at Thessalonica killed one of the emperor's generals.
@@ -92,13 +89,13 @@ orientation:
       honored the same way. Leo's legates objected, and Leo refused the
       canon. He wrote to the emperor that
       things secular stand on a different basis from things divine. He said
-      Constantinople was a royal city and could never be an apostolic see. The council that defined who Christ is left open where the church's final authority sits.
+      Constantinople was a royal city and could never be an apostolic see.
     grounded_in: [ijc.story.tome-that-would-not-bend, ijc.quote.peter-has-spoken, ijc.quote.canon28-equal-privileges, ijc.quote.leo-things-secular, ijc.force.leo-rejects-canon-28, ijc.term.tomus, ijc.quote.chalcedon-definition]
   documented_stories:
   - story_id: ijc.story.dream-before-battle
     title: "Constantine's Dream at the Milvian Bridge"
     when: "312, before the battle at the Milvian Bridge"
-    teaser: "Lactantius writes that a dream told Constantine to mark Christ's sign on his soldiers' shields. This is the earlier and plainer account. It has no vision in the sky."
+    teaser: "Lactantius writes that a dream told Constantine to mark Christ's sign on his soldiers' shields before the battle at the bridge."
     grounded_in: [ijc.story.dream-before-battle, ijc.figure.constantine]
   - story_id: ijc.story.vision-and-alliance
     title: "Eusebius and the Cross of Light"
@@ -113,7 +110,7 @@ orientation:
   - story_id: ijc.story.letter-that-outranked-a-council
     title: "Julius of Rome Writes to the East"
     when: "341, a letter from Rome"
-    teaser: "A council in the East removes Athanasius. Julius, bishop of Rome, says the custom is to write to Rome first. We have his letter because Athanasius quoted it."
+    teaser: "A council in the East removes Athanasius. Julius, bishop of Rome, says the custom is to write to Rome first."
     grounded_in: [ijc.story.letter-that-outranked-a-council, ijc.figure.julius]
   - story_id: ijc.story.altar-of-victory
     title: "The Altar of Victory: Rome's Old Religion Makes Its Case"
@@ -320,7 +317,7 @@ orientation:
     grounded_in: [ijc.story.letter-that-outranked-a-council, ijc.source.athanasius-apologia-contra-arianos]
   - phrase: "Julius"
     kind: person
-    note: "Bishop of Rome from 337 to 352. His letter of 341 is the earliest surviving voice, from these years, of Rome's claim to review other churches' judgments."
+    note: "Bishop of Rome from 337 to 352. His letter of 341 claimed Rome's right to review other churches' judgments."
     grounded_in: [ijc.figure.julius]
   - phrase: "Constantius II"
     kind: person
