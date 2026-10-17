@@ -61,6 +61,9 @@ class AuditSession:
     # an aggregate rollup unlike participant_messages/gate_decisions above -
     # see wiring.get_usage_summary, the one place this is actually read.
     visitor_id: str | None = None
+    # session_started.internal: a session from a browser the team marked as
+    # its own. Absent reads False (engine.m4.entrance.open_session).
+    internal: bool = False
 
 
 ACTIVITY_EVENT_TYPES = frozenset({"participant_message", "facilitator_turn", "voice_turn", "turn_committed"})
@@ -81,6 +84,7 @@ def read_session(store: Store, session_id: str) -> AuditSession | None:
             session = AuditSession(session_id=session_id, mode=mode, world_keys=world_keys, closed=False, close_reason=None)
             session.first_at = ev.created_at
             session.visitor_id = p.get("visitor_id")
+            session.internal = p.get("internal") is True
         if session is None:
             # A log that doesn't start with session_started is itself a
             # finding; collect it as a bare session so nothing is dropped.
