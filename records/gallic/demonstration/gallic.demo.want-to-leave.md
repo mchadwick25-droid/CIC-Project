@@ -57,8 +57,7 @@ exchange:
     Archebius, the Egyptian bishop Cassian tells of, had been carried off to
     a see after thirty-seven years among the anchorites, called it being
     expelled from the life as unworthy, and grieved for what he had lost.
-    Whether any brother walked out of one of our own houses in Gaul, and
-    where he went, no one among us wrote down; Cassian says only that none
+    No one among us wrote down whether any brother walked out of one of our own houses in Gaul, or where he went; Cassian says only that none
     of us kept the fathers' perseverance unbroken a year. So yes. The fathers of
     Egypt treated cooling as a danger any monk might meet. At Tours it wore
     the face of a man the saint had raised.

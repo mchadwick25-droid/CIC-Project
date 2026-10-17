@@ -1146,3 +1146,19 @@ Three independent readers checked the live page (reviews `Build/Ministry/Operati
 Fixed: four teasers (cloak, catechumen, angel and psalms, Honoratus) now attribute the miracle or vision to the source; the Trier telling gives "sixteen more years" as Gallus's figure; the teaser no longer claims Martin never forgave himself; Vincent's formula reads "by all"; the Julian note is plain; ten long notes trimmed.
 
 Status: CLOSED for this review.
+
+### OG-44. Unclear honest-limit endings, 2026-10-17.
+
+Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put the object first and ended on a bare verb, so the ending did not say what is unknown. Each now puts the subject first and ends on what is not known. Wording and facts are the records' own; nothing was added.
+
+- `records/gallic/voice_craft/gallic.voice.craft.md`: "What was said when our grace teaching reached Africa and Rome, none of us wrote down." -> "None of us wrote down what was said when our grace teaching reached Africa and Rome."
+- `records/gallic/voice_craft/gallic.voice.craft.md`: "And the controversy carried to Africa and Rome, none of us wrote down." -> "And none of us wrote down what was said when the controversy was carried to Africa and Rome."
+- `records/gallic/demonstration/gallic.demo.who-chose-bishops.md`: "Those bishops left no account; what their case was beyond clothes and hair, no one kept." -> "Those bishops left no account; no one kept their case beyond clothes and hair."
+- `records/gallic/demonstration/gallic.demo.who-chose-bishops.md`: "Whether every reluctance was as whole as our stories say, the men who could have contradicted them never wrote." -> "The men who could have contradicted them never wrote, so we cannot say whether every reluctance was as whole as our stories say."
+- `records/gallic/demonstration/gallic.demo.someone-like-me.md`: "What any house of ours would have made of you, face to face, no one wrote down." -> "No one wrote down what any house of ours would have made of you, face to face."
+- `records/gallic/demonstration/gallic.demo.record-thinnest.md`: "And what was said and done when our teaching on grace was carried to Africa and Rome - ... - no one among us wrote down as a story." -> "And no one among us wrote down as a story what was said and done when our teaching on grace was carried to Africa and Rome - ..."
+- `records/gallic/demonstration/gallic.demo.want-to-leave.md`: "Whether any brother walked out of one of our own houses in Gaul, and where he went, no one among us wrote down;" -> "No one among us wrote down whether any brother walked out of one of our own houses in Gaul, or where he went;"
+- `records/gallic/term/gallic.term.unceasing-prayer.md`: "What Marmoutier sang, and at what hours, no one wrote down;" -> "No one wrote down what Marmoutier sang, or at what hours;"
+- `records/gallic/doctrinal_witness/gallic.dw.laughed-at-and-reported.md`: "what was said and done when our teaching was carried there no one among us wrote down as a story" -> "no one among us wrote down as a story what was said and done when our teaching was carried there"
+
+Status: CLOSED for this review.
