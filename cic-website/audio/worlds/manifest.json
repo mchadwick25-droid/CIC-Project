@@ -2,11 +2,12 @@
  "post-apostolic-house-church": {
   "story": {
    "file": "post-apostolic-house-church/story.mp3",
-   "chars": 5303,
+   "chars": 3701,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
    "tempo": 1.15,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.35,
     "similarity_boost": 0.93,
@@ -16,11 +17,12 @@
   },
   "docstory-pahc.story.ignatius-guarded-journey": {
    "file": "post-apostolic-house-church/docstory-pahc.story.ignatius-guarded-journey.mp3",
-   "chars": 1482,
+   "chars": 1318,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
    "tempo": 1.15,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.35,
     "similarity_boost": 0.93,
@@ -30,11 +32,12 @@
   },
   "docstory-pahc.story.grandsons-before-domitian": {
    "file": "post-apostolic-house-church/docstory-pahc.story.grandsons-before-domitian.mp3",
-   "chars": 1118,
+   "chars": 1273,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
    "tempo": 1.15,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.35,
     "similarity_boost": 0.93,
@@ -44,11 +47,12 @@
   },
   "docstory-pahc.story.quintus-recantation": {
    "file": "post-apostolic-house-church/docstory-pahc.story.quintus-recantation.mp3",
-   "chars": 1204,
+   "chars": 1190,
    "voiceId": "1gkXJMvrzBWAwt0XqBaa",
    "model": "eleven_v3",
    "apiSpeed": 1.12,
    "tempo": 1.15,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.35,
     "similarity_boost": 0.93,
@@ -63,6 +67,111 @@
    "model": "eleven_v3",
    "apiSpeed": 1.12,
    "tempo": 1.15,
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-pahc.story.nero-scapegoating": {
+   "file": "post-apostolic-house-church/docstory-pahc.story.nero-scapegoating.mp3",
+   "chars": 1280,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-pahc.story.didache-eucharist": {
+   "file": "post-apostolic-house-church/docstory-pahc.story.didache-eucharist.mp3",
+   "chars": 1112,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-pahc.story.first-clement-corinthian-dispute": {
+   "file": "post-apostolic-house-church/docstory-pahc.story.first-clement-corinthian-dispute.mp3",
+   "chars": 1077,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-pahc.story.polycarp-forwards-letters": {
+   "file": "post-apostolic-house-church/docstory-pahc.story.polycarp-forwards-letters.mp3",
+   "chars": 819,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-pahc.story.pliny-interrogation": {
+   "file": "post-apostolic-house-church/docstory-pahc.story.pliny-interrogation.mp3",
+   "chars": 1372,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-pahc.story.justin-sunday-gathering": {
+   "file": "post-apostolic-house-church/docstory-pahc.story.justin-sunday-gathering.mp3",
+   "chars": 981,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-pahc.story.martyrdom-of-polycarp": {
+   "file": "post-apostolic-house-church/docstory-pahc.story.martyrdom-of-polycarp.mp3",
+   "chars": 1357,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.35,
     "similarity_boost": 0.93,
