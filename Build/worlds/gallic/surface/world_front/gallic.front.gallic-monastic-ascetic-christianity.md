@@ -291,7 +291,7 @@ orientation:
     grounded_in: [gallic.figure.sulpitius, gallic.source.sulpitius-vita-martini]
   - phrase: "Julian"
     kind: person
-    note: "Sulpitius names him Julian Caesar. A modern editor identifies him as Julian the Apostate, a name Sulpitius never uses."
+    note: "Sulpitius calls him only Julian Caesar. An editor today says he was Julian the Apostate. The Life of Martin never says so."
     grounded_in: [gallic.story.discharge-before-caesar, gallic.figure.martin, gallic.source.npnf-editorial-apparatus]
   - phrase: "Priscillian"
     kind: person
