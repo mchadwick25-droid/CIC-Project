@@ -5,22 +5,23 @@ time_window: {start: 70, end: 200}
 place: "Antioch/Syria, Asia Minor, Rome"
 doorway_place: "Antioch, the cities of Asia Minor, and Rome"
 doorway_description: >-
-  After the apostles died, the church lived in ordinary houses.
+  After the apostles died, the church lived in households.
   Greek-speaking believers gathered around household tables in Antioch, in
   the cities of Asia Minor, and in Rome. Letters held these scattered
   communities together. Ignatius, a bishop under guard, wrote ahead to the
   churches on his road to execution. Clement of Rome wrote at length to
-  settle a quarrel in Corinth. There were no church buildings yet, no finished New Testament,
-  no safety in the law. There were only communities working out, generation
-  by generation, what it meant to stay one church across an empire.
+  settle a quarrel in Corinth. These churches had no buildings of their own
+  yet and no finished New Testament, and the law did not protect them. In
+  these years they were still settling who should lead, and how scattered
+  households could stay one church by letter.
 card_name: "The Scattered Households"
 app: {order: 2, accent_color: "#439975", portrait: "/images/portraits/thumb/house-churches.webp"}
 representative: {name: Chloe, role_label: "Household Leader"}
 state: admitted
 census_id: "post-apostolic-house-church"
 package:
-  manifest_hash: "sha256:2d2e7b22cabdb60e55602824e5ecf8afa3ba2362f47a552410c0956f7399d2a6"
-  location: "packages/pahc/2026-10-17T20-49-16Z"
+  manifest_hash: "sha256:eeb6985c2fb1e26b393430c6e536e706c9944b086538846455d3c0b8cc1cd78d"
+  location: "packages/pahc/2026-10-17T23-28-06Z"
 thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
 living_tradition_flag: true
 story_placement: false
