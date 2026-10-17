@@ -37,6 +37,7 @@ tellable_as: Lactantius tells of a dream before the Milvian Bridge, and it is th
 text: 'Lactantius tells it differently, and earlier. In his account Constantine was directed in a dream to mark the heavenly sign on his soldiers'' shields - the letter-mark that stands for Christ - and so to go into battle. He did as commanded, and by that mark his army
   prevailed at the bridge. There is no daylight vision here, no army of witnesses, no sky-written words.
   A dream, a command, an obedience - and the victory that followed.'
+telling: "Lactantius tells the story of the Milvian Bridge differently, and he tells it earlier than Eusebius does. His account has no vision seen by daylight and no army of witnesses. Nor does it have a standard carried before the troops, or words written across the sky.\n\nIn his telling, Constantine was directed in a dream to mark the heavenly sign on his soldiers' shields and so to go into battle. The sign was the letter mark that stands for Christ. Constantine did as he had been commanded, and by that mark, Lactantius says, his army won at the bridge."
 absent_detail: Everything the later, fuller telling supplies - the vision seen by all, the standard, the
   words in the sky - is absent from this earlier account, and the absence is the point; the two versions
   agree on the event's consequence far more than on its form, and the record does not adjudicate between
