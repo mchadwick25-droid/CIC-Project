@@ -84,12 +84,12 @@ RECORDS_DIR = REPO_ROOT / "records"
 # two numbers specifically. The first is "go re-read the plan"; the second is
 # "act on it". Printed by report() below, never enforced - crossing either is
 # not a defect.
-_SIZE_TRIGGER_BYTES = 1024 * 1024 * 1024
-_SIZE_URGENT_BYTES = 1536 * 1024 * 1024
+_SIZE_TRIGGER_BYTES = 4 * 1024 * 1024 * 1024
+_SIZE_URGENT_BYTES = 5 * 1024 * 1024 * 1024
 
 
 def _size_label(size_bytes: int) -> str:
-    """A size as the plan names it: 1GB, 1.5GB."""
+    """A size as the plan names it: 4GB, 5GB."""
     return f"{size_bytes / (1024 ** 3):g}GB"
 
 # Two conventions seen across what's actually been vendored, both CCEL's
