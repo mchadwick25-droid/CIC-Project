@@ -22,8 +22,7 @@ skim:
       ordination. The split began with a charge. The bishop who
       consecrated the new bishop of Carthage was said to have handed the
       scriptures over to be burned. If that hand was tainted, the
-      Donatists held, all it gave afterward was empty. So a rival church
-      grew up with its own bishops. Anyone who came over to it was
+      Donatists held, all it gave afterward was empty. So they built a church of their own, with its own bishops. Anyone who came over to it was
       washed again by a hand that had never failed. It called itself the
       Church of the Martyrs. Persecution came again, at the rival
       church's urging. The Donatists kept the names of their dead and
@@ -47,8 +46,7 @@ orientation:
       called itself the Church of the Martyrs, the one pure, persecuted
       and true church. History calls its members Donatists, after an
       early bishop. Optatus, an opponent, says its bishops called
-      themselves 'the party of Donatus' when questioned in court. What
-      they called themselves among themselves is not known.
+      themselves 'the party of Donatus' when questioned in court. Whether they used that name among themselves is not known.
     grounded_in: [don.core.donatism, don.dw.the-creed-we-shared, don.term.pars-donati]
   - text: >-
       The quarrel began in the persecution of 303 to 305. Officials
@@ -79,8 +77,7 @@ orientation:
       days at a cliff called Novapetra. There he fasted and was shown a
       vision of a cup, a crown and a palm. Then he was thrown down. Two
       laymen of Carthage, Isaac and Maximianus, were flogged and sunk in
-      the sea. Every year, at the grave, they read such accounts aloud
-      again.
+      the sea. Every year, at the grave, they read such accounts aloud.
     grounded_in: [don.gravity.martyr-cult-identity, don.force.macarian-repression, don.story.passio-marculi, don.story.macrobius-letter]
   - text: >-
       By the later fourth century it was a full parallel church, with
@@ -103,12 +100,10 @@ orientation:
       At the Conference of Carthage in 411, about two hundred and eighty
       Donatist bishops faced a slightly larger number of rivals. The
       imperial judge offered them chairs, and they refused. Christ had
-      stood before his governor, said their spokesman Petilian, and so
-      would they. The judge granted that the name Catholic belonged to
+      stood before his governor, said Petilian, one of their speakers, and so would they. The judge granted that the name Catholic belonged to
       whichever side held the truth. Then he said he was bound by an
       imperial rescript that had already given the name to the other
-      side. He ruled against the Donatists, and penal laws against them
-      followed.
+      side. He ruled against the Donatists, and penal laws followed.
     grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.figure.marcellinus, don.gravity.parallel-institutional-hierarchy, don.force.conference-of-411-verdict]
   - text: >-
       This story ends in 439, when a Vandal army took Carthage. That
@@ -212,9 +207,7 @@ orientation:
       court touch the case itself until it had settled the day, the
       mandates and who was bringing the charge. When the argument
       reached Scripture, he answered a reading of the wheat and the
-      weeds verse for verse, from the same books. He signed the notary's
-      record of most of what he said, and added that he kept his right
-      to appeal.
+      weeds verse for verse, from the same books. He signed the notary's record of most of what he said. At times he added that he kept his right to appeal.
     grounded_in: [don.figure.emeritus, don.quote.emeritus-magno-argumento, don.story.conference-of-carthage-411]
     hedge: >-
       The transcript survives in a badly damaged printed copy. Only
