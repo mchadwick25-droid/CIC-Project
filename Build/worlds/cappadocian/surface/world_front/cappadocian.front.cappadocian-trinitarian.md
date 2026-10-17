@@ -17,21 +17,22 @@ export:
 skim:
   tile:
     text: >-
-      Between about 325 and 394 CE, Christians in Cappadocia and Pontus
-      fought two contests at once. One was public. Emperors kept
-      switching which creed they favored. This world's own bishops were
+      Between about 325 and 394 CE, Christians in Cappadocia and
+      Pontus fought two contests at once. One was public. Emperors
+      kept switching which creed they favored. Their bishops were
       threatened and exiled. In 381, they were finally vindicated. The
-      other contest was interior. How far can worship's own words go in
-      naming who the Holy Spirit really is? One family and one
+      other contest was interior. It asked how far the words of
+      worship could go in naming the Holy Spirit. One family and one
       friendship carried most of the argument. Basil of Caesarea, his
-      brother Gregory of Nyssa, their sister Macrina, and Basil's friend
-      Gregory of Nazianzus wrote and preached the answer. They defended
-      one claim: the Son and the Spirit are fully what the Father is.
-      The same exactness reordered how this world treated the poor. A
-      famine came. Basil named hoarding landowners from the pulpit. He
-      later built a poorhouse outside his own city's walls. No woman's
-      own words survive on their own. Did the three teachers ever agree
-      on one settled scheme? That is itself an open question today.
+      brother Gregory of Nyssa, their sister Macrina, and Basil's
+      friend Gregory of Nazianzus wrote and preached the answer. They
+      held that the Son and the Spirit are fully what the Father is.
+      The same exactness reordered how these churches treated the
+      poor. When famine came, Basil, then a priest, preached against
+      landowners who hoarded grain. He later built a poorhouse outside
+      his own city's walls. No woman's own words survive. Whether the
+      three teachers ever agreed on one settled scheme is still
+      debated.
     grounded_in: [cappadocian.core.cappadocian]
 orientation:
   story:
@@ -79,9 +80,8 @@ orientation:
       Father in two forms. One was with the Son, together with the Holy
       Spirit, and the other was through the Son, in the Holy Spirit.
       Basil reports that some who heard him called his words new and
-      contradictory. The words looked small. Yet to glorify the Spirit
-      together with the Father and the Son placed the Spirit on the
-      Creator's side of the line.
+      contradictory. To glorify the Spirit together with the Father and
+      the Son placed the Spirit on the Creator's side of the line.
     grounded_in: [cappadocian.story.doxology-stand, cappadocian.quote.basil-on-the-doxology-challenge, cappadocian.term.doxologia]
   - text: >-
       Amphilochius of Iconium, a younger bishop and friend, asked Basil
@@ -127,7 +127,7 @@ orientation:
   documented_stories:
   - story_id: cappadocian.story.forty-sebaste
     title: "Forty Soldiers on a Frozen Lake"
-    when: "About 320, under one of the last empire-wide persecutions"
+    when: "About 320, in one of the last persecutions"
     teaser: "Tradition tells of forty soldiers at Sebaste made to stand all night on a frozen lake. A warm bath waits on the shore for anyone who gives up the faith. One man breaks, and a guard takes his place."
     grounded_in: [cappadocian.story.forty-sebaste, cappadocian.figure.forty-of-sebaste, cappadocian.figure.emmelia]
   - story_id: cappadocian.story.athens-friendship
@@ -304,7 +304,7 @@ orientation:
     grounded_in: [cappadocian.core.cappadocian, cappadocian.figure.basil]
   - phrase: "Pontus"
     kind: place
-    note: "A province in what is now Turkey. After Helena, the mother of the emperor Constantine, died, it was renamed for her. Basil's family had a home at Annisa, in Pontus."
+    note: "This province is in Turkey today. It got a new name for Helena after she died. She was Constantine's mother. Basil's family had a home at Annisa, in Pontus."
     url: https://pleiades.stoa.org/places/1001924
     verified_on: "2026-10-17"
     grounded_in: [cappadocian.core.cappadocian]
@@ -316,7 +316,7 @@ orientation:
     grounded_in: [cappadocian.figure.basil, cappadocian.term.basileias]
   - phrase: "Nicaea"
     kind: place
-    note: "A Greek city of northwestern Anatolia, now İznik in Turkey. A council of bishops met here in 325. Its word homoousios said the Son is fully what the Father is."
+    note: "A Greek city of northwestern Anatolia, now İznik in Turkey. A council of bishops met here in 325."
     url: https://pleiades.stoa.org/places/511268
     verified_on: "2026-10-17"
     grounded_in: [cappadocian.force.imperial-church-arrival, cappadocian.term.homoousios]
@@ -334,7 +334,7 @@ orientation:
     grounded_in: [cappadocian.story.gregory-constantinople]
   - phrase: "Council of Constantinople"
     kind: council
-    note: "Bishops met in Constantinople in 381. They upheld the Nicene faith and spoke of the Spirit in the words of worship. Gregory of Nazianzus presided for a short time, then resigned."
+    note: "Bishops met in Constantinople in 381 and kept the Nicene faith. Gregory of Nazianzus led them for a short time, then resigned."
     grounded_in: [cappadocian.force.theodosian-settlement, cappadocian.story.gregory-constantinople]
   - phrase: "Basil of Caesarea"
     kind: person
@@ -346,7 +346,7 @@ orientation:
     grounded_in: [cappadocian.figure.gregory-of-nyssa]
   - phrase: "Gregory of Nazianzus"
     kind: person
-    note: "Born about 329 or 330 and died about 390. He was Basil's friend from student days, bishop of Sasima in name only, and briefly bishop of Constantinople."
+    note: "Born about 329 or 330, died about 390. Basil's friend from student days, he was briefly bishop of Constantinople."
     grounded_in: [cappadocian.figure.gregory-of-nazianzus]
   - phrase: "Macrina"
     kind: person
@@ -362,7 +362,7 @@ orientation:
     grounded_in: [cappadocian.figure.valens]
   - phrase: "Modestus"
     kind: person
-    note: "Prefect of the East under Valens, active from about 369 or 370 to 377. Valens sent him to bring Basil into line in 371 or 372."
+    note: "Prefect of the East under Valens, from about 369 or 370 to 377. Valens sent him to bring Basil into line."
     grounded_in: [cappadocian.figure.modestus]
   - phrase: "Theodosius"
     kind: person
@@ -378,7 +378,7 @@ orientation:
     grounded_in: [cappadocian.term.ousia-hypostasis]
   - phrase: "Hypostasis"
     kind: term
-    note: "Greek for who God is. Father, Son and Holy Spirit are each a real someone. Scholars disagree on whether Basil or Gregory of Nyssa wrote Letter 38, the text most cited for it."
+    note: "Greek for who God is. Father, Son and Holy Spirit are each a real someone."
     grounded_in: [cappadocian.term.ousia-hypostasis, cappadocian.quote.ousia-and-hypostasis]
   - phrase: "eusebeia"
     kind: term
