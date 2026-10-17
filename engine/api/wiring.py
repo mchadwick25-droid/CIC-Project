@@ -10,7 +10,7 @@ import json
 import statistics
 import uuid
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Callable
 
@@ -550,6 +550,17 @@ class AskCandidate:
 
 
 @dataclass(frozen=True)
+class RecentQuestion:
+    asked_at: str
+    world_keys: list[str]
+    text: str
+
+
+RECENT_QUESTION_DAYS = 7
+RECENT_QUESTION_LIMIT = 500
+
+
+@dataclass(frozen=True)
 class UsageSummary:
     visitors: VisitorUsage
     by_world: list[WorldUsage]
@@ -560,6 +571,25 @@ class UsageSummary:
     asks_as_of_run: str | None = None
     live_use: LiveUse = field(default_factory=lambda: LiveUse(LIVE_USE_LABEL, 0, 0.0, 0))
     named_tests: NamedTests = field(default_factory=lambda: NamedTests(NAMED_TESTS_LABEL, [], 0.0, 0))
+    recent_questions: list[RecentQuestion] = field(default_factory=list)
+    recent_questions_total: int = 0
+
+
+def _recent_questions(store: Store, now: datetime) -> tuple[list[RecentQuestion], int]:
+    """Every participant message of the last RECENT_QUESTION_DAYS, word for
+    word, newest first, the team's own sessions left out. Operator-only, the
+    same tier as top_asks. At most RECENT_QUESTION_LIMIT, with the full count."""
+    cutoff = (now - timedelta(days=RECENT_QUESTION_DAYS)).isoformat()
+    found: list[RecentQuestion] = []
+    for session_id in store.list_session_ids(since=cutoff):
+        session = read_session(store, session_id)
+        if session is None or session.internal:
+            continue
+        for message in session.participant_messages:
+            if message["at"] >= cutoff and message["text"].strip():
+                found.append(RecentQuestion(message["at"], session.world_keys, message["text"]))
+    found.sort(key=lambda q: q.asked_at, reverse=True)
+    return found[:RECENT_QUESTION_LIMIT], len(found)
 
 
 def _latest_canon_candidates(m7_audit_root: Path) -> tuple[list[AskCandidate], str | None, str | None]:
@@ -630,7 +660,7 @@ def _read_named_test_report(path: Path) -> NamedTest:
 
 def get_usage_summary(
     store: Store, usage_store: UsageLogStore, *, since: str | None = None, m7_audit_root: Path | None = None,
-    live_test_reports_dir: Path | None = None,
+    live_test_reports_dir: Path | None = None, now: datetime | None = None,
 ) -> UsageSummary:
     """The usage dashboard's one aggregate:
     unique visitors and duration (the stated top priority), cost/tokens
@@ -751,6 +781,7 @@ def get_usage_summary(
     asks_as_of_run: str | None = None
     if m7_audit_root is not None:
         top_asks, asks_generated_at, asks_as_of_run = _latest_canon_candidates(m7_audit_root)
+    recent_questions, recent_questions_total = _recent_questions(store, now or datetime.now(timezone.utc))
 
     return UsageSummary(
         visitors=visitors,
@@ -766,6 +797,8 @@ def get_usage_summary(
             recorded_priced_dollars=sum(t.priced_total_usd or 0.0 for t in named),
             tests_with_gaps=sum(1 for t in named if t.missing),
         ),
+        recent_questions=recent_questions,
+        recent_questions_total=recent_questions_total,
     )
 
 
