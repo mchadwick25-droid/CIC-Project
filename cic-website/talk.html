@@ -92,6 +92,13 @@ var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
 var target = new URL(APP + '/');
 if (worlds) { target.searchParams.set('worlds', worlds); }
 target.searchParams.set('mode', mode);
+var ours = params.get('ours');
+if (ours === '1' || ours === '0') { target.searchParams.set('ours', ours); }
+if (ours !== null) {
+  params.delete('ours');
+  var rest = params.toString();
+  window.history.replaceState(window.history.state, '', window.location.pathname + (rest ? '?' + rest : '') + window.location.hash);
+}
 if (window.location.hash.indexOf('#q=') === 0) { target.hash = window.location.hash.slice(1); }
 
 var frame = document.getElementById('talk-frame');
