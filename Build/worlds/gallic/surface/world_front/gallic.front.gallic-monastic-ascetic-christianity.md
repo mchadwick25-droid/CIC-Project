@@ -291,7 +291,7 @@ orientation:
     grounded_in: [gallic.figure.sulpitius, gallic.source.sulpitius-vita-martini]
   - phrase: "Julian"
     kind: person
-    note: "Sulpitius calls him just Julian Caesar. That is all. A modern editor says he is Julian the Apostate. Sulpitius does not."
+    note: "Sulpitius names him Julian Caesar. A modern editor identifies him as Julian the Apostate, a name Sulpitius never uses."
     grounded_in: [gallic.story.discharge-before-caesar, gallic.figure.martin, gallic.source.npnf-editorial-apparatus]
   - phrase: "Priscillian"
     kind: person
@@ -309,7 +309,7 @@ orientation:
     grounded_in: [gallic.contested.egypt-two-measures, gallic.quote.postumianus-you-have-conquered-all-the-eremites, gallic.force.egyptian-standard]
   - phrase: "Chaeremon"
     kind: person
-    note: "An old man whose cell stood near Panephysis in Egypt. Years later, in Gaul, Cassian set down his teaching in his own words."
+    note: "An old man whose cell stood near Panephysis in Egypt. Years later, in Gaul, Cassian set down his teaching in Cassian's own words."
     grounded_in: [gallic.story.germanus-scruple-at-morning-service, gallic.figure.cassian]
   - phrase: "synod"
     kind: term
