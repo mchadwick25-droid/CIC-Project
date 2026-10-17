@@ -55,6 +55,8 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
   const transcriptRef = useRef<HTMLDivElement>(null);
   const askedRef = useRef<HTMLDivElement>(null);
   const roomRef = useRef<HTMLDivElement>(null);
+  // Where the newest question was brought to rest, until the reader scrolls.
+  const restingAt = useRef<number | null>(null);
   const handleDelete = async () => {
     await onDelete?.();
     setDeleted(true);
@@ -67,24 +69,53 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
 
   // Room under the newest exchange, so its question can reach the top of the
   // transcript; it shrinks as the reply fills the screen.
-  useLayoutEffect(() => {
+  const fitRoom = () => {
     const box = transcriptRef.current;
     const asked = askedRef.current;
     const room = roomRef.current;
     if (!box || !asked || !room) return;
     const exchange = room.offsetTop - asked.offsetTop;
     room.style.height = `${Math.max(0, box.clientHeight - exchange - ASKED_TOP_GAP)}px`;
-  });
+  };
+  useLayoutEffect(fitRoom);
+
+  const bringAskedToRest = (smooth: boolean) => {
+    const box = transcriptRef.current;
+    const asked = askedRef.current;
+    if (!box || !asked || typeof box.scrollTo !== 'function') return;
+    const top = Math.max(0, asked.offsetTop - ASKED_TOP_GAP);
+    restingAt.current = top;
+    box.scrollTo({ top, behavior: smooth ? 'smooth' : 'auto' });
+  };
 
   // Each question rises to the top of the transcript once it is sent, and
   // again when the reply begins, so the answer has the screen below it.
   useEffect(() => {
-    const box = transcriptRef.current;
-    const asked = askedRef.current;
-    if (!box || !asked || typeof box.scrollTo !== 'function') return;
     const still = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-    box.scrollTo({ top: Math.max(0, asked.offsetTop - ASKED_TOP_GAP), behavior: still ? 'auto' : 'smooth' });
+    bringAskedToRest(!still);
   }, [participantTurns, replyBegun]);
+
+  // The screen can change height under a resting question (the site's bars
+  // fold away, a keyboard opens); keep it at rest unless the reader has
+  // scrolled away from it.
+  useEffect(() => {
+    const box = transcriptRef.current;
+    if (!box || typeof ResizeObserver === 'undefined') return;
+    const observer = new ResizeObserver(() => {
+      fitRoom();
+      if (restingAt.current !== null) bringAskedToRest(false);
+    });
+    const leaveRest = () => {
+      restingAt.current = null;
+    };
+    const moves = ['wheel', 'touchmove', 'keydown'] as const;
+    observer.observe(box);
+    moves.forEach((type) => box.addEventListener(type, leaveRest, { passive: true }));
+    return () => {
+      observer.disconnect();
+      moves.forEach((type) => box.removeEventListener(type, leaveRest));
+    };
+  }, []);
 
   return (
     <div className="conversation">

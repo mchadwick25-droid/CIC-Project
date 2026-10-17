@@ -239,6 +239,13 @@ function App() {
     setScreen('launch');
   };
 
+  // Once a conversation has started, the site page around the frame hides
+  // its own bars, so only the portrait and names sit above the transcript.
+  const conversationStarted = screen === 'conversation' && conversation.turns.some((t) => t.speaker === 'participant');
+  useEffect(() => {
+    if (isEmbedded) window.parent.postMessage({ type: 'cic:started', started: conversationStarted }, '*');
+  }, [conversationStarted]);
+
   const world = selectedWorldKey ? findWorld(worlds, selectedWorldKey) : undefined;
   const seatedWorlds = (screen === 'table' && table.worldKeys.length > 0 ? table.worldKeys : seated)
     .map((k) => findWorld(worlds, k))
