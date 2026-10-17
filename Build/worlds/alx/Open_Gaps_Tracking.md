@@ -748,3 +748,14 @@ Status: OPEN for the project lead.
 The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" and dash asides, and several fail the readability gate at the base, as `regate alx` reports. The same holds for the Donatist record (don OG-40).
 
 Status: OPEN for the project lead to schedule.
+
+### OG-31. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the tile no longer states Origen's act as fact; Leonides's card no longer contradicts the source on Origen's age ("not yet seventeen", also in the record `text`); two short tellings reached 120 words; the two "scholars" hedges in the cards are emic; the Arsinoe note says "probably"; build wording and long highlight notes are trimmed.
+**Open:**
+- `alx.story.plague-nursing` telling is 119 words; the review did not flag it.
+- The Leonides teaser keeps "sixteen-year-old", which fits the source.
+
+Status: CLOSED for this review; the open items above are for the project lead.

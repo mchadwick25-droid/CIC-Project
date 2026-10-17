@@ -17,22 +17,24 @@ export:
 skim:
   tile:
     text: >-
-      Between about 150 and 400 CE, Christians in Alexandria built a faith
-      around teaching. Teachers led seekers through Scripture, layer by
-      layer: the plain story first, then a deeper meaning underneath it,
-      opening onto Christ himself. That reached the literate few. Ordinary
-      believers met the same faith another way, through baptism, the shared
-      meal, and the yearly round of fasts. Clement and Origen were confident
-      that Greek learning could serve Christ, not threaten him. Two real
-      authorities never merged here: the teacher's, earned by demonstrated
-      wisdom, and the bishop's, handed down by office. When a young Origen
-      took a hard verse from Matthew too literally and acted on it, his
-      bishop first praised his zeal, then turned the same act against him
-      years later. When plague struck the city, the bishop wrote that his
-      own people nursed the dying while others fled. When villages came to
-      disagree over how to read Scripture, another bishop sat with them for
-      three days until they agreed. This world's own record was kept almost
-      entirely by literate men. No woman's own words survive.
+      Between about 150 and 400 CE, Christians in Alexandria built a
+      faith around teaching. Teachers led seekers through Scripture
+      layer by layer. The plain story came first, then a deeper
+      meaning that opened onto Christ himself. That reached the
+      literate few. Ordinary believers met the same faith another way,
+      through baptism, the shared meal, and the yearly round of fasts.
+      Clement and Origen were confident that Greek learning could
+      serve Christ. A teacher and a bishop each held real authority,
+      and the two never became one. The teacher's came from the wisdom
+      people saw in him. The bishop's was an office handed down.
+      Eusebius reports that a young Origen took a hard verse from
+      Matthew literally and acted on it. His bishop first admired his
+      daring, then later turned the act against him. When plague
+      struck the city, the bishop wrote that his own people nursed the
+      dying while others fled. When villages came to disagree over how
+      to read Scripture, another bishop sat with them for three days
+      until they agreed. What survives was written almost entirely by
+      literate men. No woman's own words survive.
     grounded_in: [alx.core.alexandria]
 orientation:
   story:
@@ -103,7 +105,7 @@ orientation:
       After Nicaea, the bishop of Alexandria became the guard of the
       creed across Egypt. His tools were letters, councils and exile.
       Among those who could read, the long bond between teacher and
-      student was no longer the main way formation worked.
+      student was no longer the main way faith was formed.
     grounded_in: [alx.force.post-nicene-authority-shift, alx.force.transmission-ending, alx.gravity.learning-formation]
   - text: >-
       Later tradition ends the line of teachers with Didymus and says he
@@ -136,7 +138,7 @@ orientation:
   - story_id: alx.story.origen-daring-deed
     title: "A Hard Verse and a Young Teacher, as Eusebius Tells It"
     when: "Origen's early teaching years; used against him in 231 or 232"
-    teaser: "Eusebius reports that young Origen took a hard verse in Matthew at its word. His bishop first praised him and later denounced him, and some scholars doubt the act happened."
+    teaser: "Eusebius reports that young Origen took a hard verse in Matthew at its word. His bishop first praised him and later denounced him, and some have doubted the act happened."
     grounded_in: [alx.story.origen-daring-deed, alx.figure.origen, alx.figure.demetrius, alx.quote.demetrius-accused-him-bitterly]
   - story_id: alx.story.origen-demetrius
     title: "The Break Between Origen and His Bishop"
@@ -274,7 +276,7 @@ orientation:
   highlights:
   - phrase: "Alexandria"
     kind: place
-    note: "A port city in Egypt's Nile Delta, founded by Alexander the Great in 332 or 331 BCE. Its modern name is Iskandariya. This tradition grew in and around it."
+    note: "A port city in Egypt's Nile Delta, founded by Alexander the Great in 332 or 331 BCE. Its modern name is Iskandariya."
     url: https://pleiades.stoa.org/places/727070
     verified_on: "2026-10-17"
     grounded_in: [alx.core.alexandria]
@@ -286,7 +288,7 @@ orientation:
     grounded_in: [alx.story.origen-demetrius, alx.figure.origen]
   - phrase: "Arsinoite district"
     kind: place
-    note: "Arsinoe was the capital of this district, called a nome. The city's site is Medinet el-Fayum, in today's Egypt. The villages that followed Nepos were here."
+    note: "The capital here was probably Arsinoe. It stood at Medinet el-Fayum, in Egypt today. The villages that followed Nepos lay here."
     url: https://pleiades.stoa.org/places/736948
     verified_on: "2026-10-17"
     grounded_in: [alx.story.arsinoite-conference]
@@ -311,7 +313,7 @@ orientation:
     grounded_in: [alx.figure.clement]
   - phrase: "Origen"
     kind: person
-    note: "Origen lived from about 185 to about 253. He taught in Alexandria until he broke with his bishop, then in Caesarea. Much of the writing that survives from this tradition is his."
+    note: "Origen lived from about 185 to about 253. He taught in Alexandria until he broke with his bishop. Then he taught in Caesarea."
     grounded_in: [alx.figure.origen, alx.core.alexandria]
   - phrase: "Demetrius"
     kind: person
@@ -331,15 +333,15 @@ orientation:
     grounded_in: [alx.force.arian-controversy]
   - phrase: "Athanasius"
     kind: person
-    note: "Born about 296, he was bishop of Alexandria from 328 to 373 and was exiled five times. His book On the Incarnation contains the line about people sharing God's life."
+    note: "Born about 296, he was bishop of Alexandria from 328 to 373. He was exiled five times."
     grounded_in: [alx.figure.athanasius, alx.quote.athanasius-made-god]
   - phrase: "Didymus"
     kind: person
-    note: "Didymus the Blind, about 309 or 313 to about 398. He took in Scripture through hearing and memory. Later tradition says he headed the school, though Palladius, Jerome and Socrates, who describe him, do not."
+    note: "Didymus the Blind, about 309 or 313 to about 398. Later tradition says he headed the school. Palladius, Jerome and Socrates do not say so."
     grounded_in: [alx.figure.didymus, alx.story.didymus-meeting]
   - phrase: "Eusebius"
     kind: person
-    note: "Eusebius of Caesarea, about 260 to 339, wrote a Church History. It is the main source for the line of teachers and for Origen's break with Demetrius. He is more reliable where he quotes documents than where he tells of succession."
+    note: "Eusebius of Caesarea, about 260 to 339. His Church History is the main source here. He is more reliable when he quotes documents."
     grounded_in: [alx.source.eusebius-historia-ecclesiastica, alx.contested.didaskaleion-institution]
   - phrase: "Palladius"
     kind: person
@@ -352,7 +354,7 @@ orientation:
   - phrase: "Gregory"
     label: "Gregory of Neocaesarea"
     kind: person
-    note: "About 213 to about 270. He studied under Origen at Caesarea from about 233 to 238. The date and author of his farewell speech have been questioned."
+    note: "About 213 to about 270. He studied with Origen at Caesarea from about 233 to 238. People question the date and author of his farewell speech."
     grounded_in: [alx.figure.gregory-thaumaturgus, alx.source.gregory-address-to-origen]
   - phrase: "Logos"
     kind: term
@@ -364,7 +366,7 @@ orientation:
     grounded_in: [alx.term.allegoria, alx.contested.allegory-from-within]
   - phrase: "homoousios"
     kind: term
-    note: "Greek for of one substance. The council at Nicaea used it to say the Son is fully God. Critics said the word is not in Scripture."
+    note: "Greek for of one substance. The council at Nicaea used it to say the Son is fully God. Critics said it is not in Scripture."
     grounded_in: [alx.term.homoousios]
   - phrase: "Eucharist"
     kind: term
@@ -392,7 +394,7 @@ orientation:
     grounded_in: [alx.term.episkopos, alx.story.origen-demetrius]
   - phrase: "Ephesus"
     kind: place
-    note: "A great city of Ionia, in Asia Minor. Its ruins lie by Selçuk, in today's Turkey. Clement's story of John is set in a city near it."
+    note: "A great city of Ionia. Its ruins lie by Selçuk, in today's Turkey. Clement's story of John is set in a city near it."
     url: https://pleiades.stoa.org/places/599612
     verified_on: "2026-10-17"
     grounded_in: [alx.story.john-young-robber]
