@@ -46,17 +46,17 @@ pytestmark = pytest.mark.skipif(shutil.which("node") is None, reason="node is no
 @pytest.mark.parametrize("value", ["1", "0"])
 def test_ours_is_forwarded_and_removed_from_the_page_address(value):
     result = _run(f"?worlds=desert&ours={value}&mode=table", "#q=hello")
-    assert result["src"] == f"https://cic-engine.onrender.com/?worlds=desert&mode=table&ours={value}#q=hello"
+    assert result["src"] == f"https://app.churchinconversation.com/?worlds=desert&mode=table&ours={value}#q=hello"
     assert result["replaced"] == ["/talk.html?worlds=desert&mode=table#q=hello"]
 
 
 def test_other_ours_values_are_dropped_not_forwarded():
     result = _run("?ours=yes")
-    assert result["src"] == "https://cic-engine.onrender.com/?mode=interview"
+    assert result["src"] == "https://app.churchinconversation.com/?mode=interview"
     assert result["replaced"] == ["/talk.html"]
 
 
 def test_without_ours_the_target_and_address_are_unchanged():
     result = _run("?worlds=desert")
-    assert result["src"] == "https://cic-engine.onrender.com/?worlds=desert&mode=interview"
+    assert result["src"] == "https://app.churchinconversation.com/?worlds=desert&mode=interview"
     assert result["replaced"] == []
