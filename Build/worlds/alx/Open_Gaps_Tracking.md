@@ -724,3 +724,27 @@ The project lead ruled on 14 October (option C) that an honest-limit sentence na
 - `alx.demo.woman-authority` representative turn: "and we have told you why." now reads "and we have told you why so little is left."
 
 `engine.m10.cli records alx` and `regate alx --base origin/main` pass. Package rebuilt and repinned: `packages/alx/2026-10-14T20-18-29Z`, `manifest_hash` `sha256:1ad35a46e0ff50299da1c005b7fcfb917cf513c13ce1ae76733fec0cfb944dc4`. Status: CLOSED.
+
+### OG-28. Atlas story pass: shorter story, nine card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built tradition's Atlas story to run four to five minutes, with the other episodes moved into stories on the card. He approved the Alexandria story and card list, then the tellings, then a sample recording. `orientation.story` is now 10 units and 622 words, down from 12 units and about 1,070 words. `documented_stories` shows all nine story records in date order. Each story record gained a `telling`, which the card shows and plays. `orientation.highlights` adds 29 short notes; place notes cite Pleiades for modern locations (checked 2026-10-17). At his ruling, add-on endings that only say what does not survive are cut, including the closing unit on women's, non-readers' and enslaved people's missing voices, which stays in `alx.limit.f5-women-own-words` and `alx.core.alexandria`. Review: `Build/Ministry/Operations/Audits/alx_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/alx/2026-10-17T03-06-15Z`, `manifest_hash` `sha256:9ac3f31fbee7ff76109be3e3f368b99730bdcc207e942d6d1254452913208401`. This pin supersedes the one in OG-27. The story and the nine tellings were recorded in the existing Alexandria voice.
+
+**Open:**
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+### OG-29. Record disagreements found during the Atlas story pass, 2026-10-17.
+
+The pass followed the more cautious record in each case and changed no record. Each needs a ruling on which wording is right:
+- `alx.story.plague-nursing`: `text` says "about the year 260", but `use_note.years` is 262 to 263. The card follows the text.
+- `alx.story.didymus-meeting` `absent_detail` says Didymus's books are lost "except in fragments"; `alx.core.alexandria` `thin_topics` says his De Trinitate was transmitted on its own and printed in 1769. The story and telling say "most of his books".
+- `alx.term.homoousios` says Athanasius spent "forty-six years" defending the word, without the attribution `alx.figure.athanasius` gives it (Socrates; the scholarly dates are 328 to 373).
+- `alx.figure.pantaenus` cites Eusebius HE V.10, while its own precision note puts the bee identification at HE V.11.
+- `alx.figure.gregory-thaumaturgus` says most scholars hold to the Address's authorship and date; `alx.source.gregory-address-to-origen` says later scholarship reaffirmed Nautin's doubt. The telling says only that scholars have questioned it.
+
+Status: OPEN for the project lead.
+
+### OG-30. Other world_front sections keep AI tells and "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" and dash asides, and several fail the readability gate at the base, as `regate alx` reports. The same holds for the Donatist record (don OG-40).
+
+Status: OPEN for the project lead to schedule.
