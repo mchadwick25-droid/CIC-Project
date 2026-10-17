@@ -85,6 +85,7 @@ text: >-
   the exact words at the stake, the precise sequence of the Louvain proceedings, the martyrs' own cheerfulness
   in the moment of death - is the ballad's own telling, in its own commemorative voice, not an independent
   eyewitness report.
+telling: "Luther's ballad opens by calling itself \"a new and wondrous story,\" sung \"to his great praise and glory,\" the glory of God.\n\nOn the first of July, 1523, two young monks named John and Henry were burned at Brussels. Theologians from Louvain had examined them and pressed them to give up the evangelical teaching, and they refused. Word reached Wittenberg quickly, and within months Luther had written his song.\n\nIt calls them \"two youths, highly gifted with rich and heavenly graces.\" In the song, the Louvain theologians try every device to make them recant, and the two stand firm \"like rocks.\" In its words, \"for God's dear Word they shed their blood,\" and \"they won the crown of martyrs.\"\n\nThe ballad says their monks' habits were stripped from them before the burning. They answered, it says, with \"a cheerful Amen,\" glad to be free of \"Satan's mock and masquerade.\""
 absent_detail: The vendored text does not give either man's family name, age, or any biographical detail
   beyond "John" and "Henry," and does not call them "Augustinian" anywhere in its own wording - that identification,
   where it appears elsewhere, is a historical identification made outside this text, not this text's own
