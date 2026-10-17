@@ -40,182 +40,134 @@ skim:
 orientation:
   story:
   - text: >-
-      This world's own record runs from about 360 to 450 CE, in Roman Gaul.
-      It holds two separate households of monks that never once wrote to
-      each other. One grew up in the Loire valley, around the town of
-      Tours. The other grew up on an island called Lérins, off the
-      Mediterranean coast, and in the nearby city of Marseilles. Nothing in
-      this world's own evidence puts the two households in contact. What
-      holds them together is a shared idea, not a shared conversation.
-      Neither house claims to have invented its own way of life. Both call
-      themselves keepers of what came before them, never authors of
-      something new.
+      In Roman Gaul, between about 360 and 450 CE, two households of
+      monks lived out one idea. One grew up in the Loire valley, around
+      the town of Tours. The other grew up on an island called Lérins,
+      off the Mediterranean coast, and in the nearby city of Marseilles.
+      Nothing in the evidence shows the two ever wrote to each other.
+      Both called themselves keepers of what came before them.
     grounded_in: [gallic.core.gallic]
   - text: >-
-      The northern household's founder was a soldier named Martin. Around
-      360, before a battle, the army was giving out a gift of money to the
-      troops. When his turn came, Martin asked for his discharge instead.
-      He told the commander, named in the record only as Julian Caesar,
-      that he had served him as a soldier long enough; now he would serve
-      Christ, and it was not right for him to fight. Accused of cowardice,
-      Martin offered to walk out unarmed between the two armies the next
-      morning, trusting only the sign of the cross. He never had to. The
-      enemy asked for peace overnight, and the battle never happened.
-      Martin got his discharge and went to Hilary, the bishop of Poitiers.
-    grounded_in: [gallic.gravity.soldier-of-christ, gallic.story.discharge-before-caesar, gallic.figure.martin]
-  - text: >-
-      Years later, the people of Tours wanted Martin as their own bishop.
-      He did not want the office. A citizen named Ruricius lied that his
-      own wife was sick, to draw Martin out of his monastery. Once he was
-      on the road, a crowd blocked every way back, so he could not turn
-      around. A few bishops objected: his clothes were poor and his hair a
-      mess, unfit for so great an honor. The reader picked to read that
-      day's psalm could not get through the crowd. Someone else grabbed the
-      psalter instead and read out whatever verse came open, a line about
-      strength made perfect against enemies. The people cheered, and the
-      objectors fell silent. As bishop, Martin kept living like a monk
-      outside the city walls, and many monks he trained were later made
+      The northern household began with a soldier named Martin. While he
+      served under Julian, then Caesar, he asked for his discharge
+      before a battle. He would serve Christ now, he said. Years later
+      the people of Tours took him from his monastery by a trick and
+      made him their bishop. As bishop, Martin kept living like a monk
+      outside the city walls. Many monks he trained were later made
       bishops themselves.
-    grounded_in: [gallic.gravity.monk-bishop, gallic.story.election-at-tours, gallic.figure.martin]
+    grounded_in: [gallic.gravity.soldier-of-christ, gallic.story.discharge-before-caesar, gallic.figure.martin, gallic.gravity.monk-bishop, gallic.story.election-at-tours]
   - text: >-
-      Two generations after Martin, a different pattern appeared in the
-      south. A man named Honoratus went alone to a small island off the
-      coast, a place so overrun with snakes that no one else would live
-      there. He went unafraid, singing a psalm, and the record says the
-      snakes gave way before him. He built what his own community later
-      called a camp of God, in a place made for no life at all. Honoratus
-      wanted nothing more than to stay a monk on his island. The office
-      found him anyway: he was made bishop of the nearby city of Arles.
-      Another monk trained on the same island, Faustus, later became
-      bishop of Riez. This world's own record says almost nothing about an
-      ordinary day on the island - only how its founder arrived, and how
-      the office came looking for him.
+      Two generations later, a man named Honoratus went alone to a small
+      island off the coast. Snakes had driven everyone else away. He
+      went in unafraid, singing a psalm, and the record says the snakes
+      gave way. He wanted only to stay a monk there. Even so, he later
+      became bishop of the nearby city of Arles. Faustus, another monk
+      trained on the island, became bishop of Riez.
     grounded_in: [gallic.gravity.monk-bishop, gallic.story.honoratus-and-the-island, gallic.figure.honoratus]
   - text: >-
-      Both households treated the monks of Egypt as the standard to
-      measure against. But they did it in opposite ways. In the south, the
-      relationship was reception. Cassian's task was to bring the East's
-      customs home to Gaul. He corrected anything built on, in his own
-      words, "the fancy of any one who has founded a monastery." He
-      changed only what the colder climate truly required. In the north,
-      the relationship was comparison, not reception. Sulpitius has a
-      traveler just back from Egypt declare that Martin alone was worth as
-      much as all its hermits and holy men put together. Gaul was a rival
-      to Egypt here, not a debtor. This world's own two households never
-      argued the comparison out with each other. They simply held it in
-      two different ways, at the same time, without ever comparing notes.
-    grounded_in: [gallic.gravity.egypt-as-measure, gallic.figure.cassian, gallic.figure.martin]
+      Both households measured themselves against the monks of Egypt. In
+      the south, that meant reception. Cassian lived among the Egyptian
+      monks and brought their customs home to Gaul, changing only what
+      the colder climate required. In the north, it meant comparison.
+      Sulpitius has a traveler from Egypt say that Martin alone was
+      worth all its hermits put together. Both households also agreed
+      that nothing true could be new. Vincent, a monk on Lérins, wrote
+      that true faith is what has been believed everywhere, always, by
+      everyone.
+    grounded_in: [gallic.gravity.egypt-as-measure, gallic.figure.cassian, gallic.figure.martin, gallic.gravity.received-not-invented, gallic.figure.vincent]
   - text: >-
-      Both households also agreed that nothing true could be new. Vincent,
-      a monk on the same island, wrote a short book meant only as a memory
-      aid, "to provide against my forgetfulness," as he put it himself. His
-      test for telling true faith from a corruption dressed up as one was
-      simple: what has been believed everywhere, always, by everyone. He
-      called himself not an author but a keeper, not a teacher but a
-      disciple. Cassian's own writing carried the same conviction north
-      from Egypt. He passed on a story the fathers of Egypt told about
-      themselves: unable to agree how many psalms to sing each evening,
-      they were still arguing when the hour for prayer arrived. One of them
-      rose to sing anyway. He finished the twelfth psalm, said "Alleluia,"
-      and vanished. The fathers understood the number to be fixed by that
-      one messenger, not by their own decision. Neither monk chose his own
-      rule. Both received one, and called it received.
-    grounded_in: [gallic.gravity.received-not-invented, gallic.story.the-angel-and-the-twelve-psalms, gallic.figure.vincent]
+      The south named its goal purity of heart. Cassian taught that
+      fasting and night prayer were only aids toward it. What matters
+      most is discretion, which he called the mother of all virtues.
+      Tours built its record on power instead. Martin once brought a
+      dead catechumen, a new believer not yet baptized, back to life.
+      Another night the devil came to him dressed as Christ. Martin
+      refused him. The only Christ he would accept still carried the
+      marks of his wounds. Cassian warned that a monk who boasts of
+      casting out demons has already failed.
+    grounded_in: [gallic.gravity.interior-road, gallic.gravity.virtus, gallic.story.raising-of-the-catechumen, gallic.quote.martin-on-the-christ-with-wounds, gallic.figure.cassian]
   - text: >-
-      The south's own formation program had a name for its goal: purity of
-      heart. Cassian taught that fasting, all-night prayer, and giving up
-      possessions were not the goal itself, only aids toward it. What
-      matters most is discretion, which he called the mother of all
-      virtues - the one that keeps every other virtue from ruining itself
-      through excess. The program named eight faults a monk had to fight in
-      turn, from gluttony to pride, each with its own remedy handed down by
-      the fathers. Tours had no such vocabulary at all. Martin's own record
-      shows a similar instinct at work without ever naming it - his
-      discernment of a false vision of Christ - but it never speaks of
-      purity of heart, discretion, or a fault-list of its own.
-    grounded_in: [gallic.gravity.interior-road]
-  - text: >-
-      The south's most famous argument began, by its own account, as an
-      ordinary worry at prayer. Cassian and his friend Germanus had spent
-      an evening in Egypt listening to an elder teach on chastity. The
-      elder ended with one troubling sentence: that no one becomes master
-      of the good by his own effort alone. The next morning, still turning
-      it over, they asked him to explain himself. He answered with a
-      farmer's field. A farmer who will not plow gets no harvest - his
-      effort matters. But even a hard-working farmer gets nothing without
-      rain he cannot make happen himself. The elder concluded that the very
-      wish to do good starts with God, and it is for us to follow that
-      grace day by day. That morning's answer grew into a whole argument
-      about how much of a monk's progress is God's gift and how much is
-      his own labor - an argument that later reached Rome, and this world's
-      own record never settles it.
+      The south's best-known argument began as a worry at prayer. In
+      Egypt, Cassian and his friend Germanus heard an elder say that no
+      one becomes master of the good by effort alone. Asked what he
+      meant, he answered with a farmer's field. A farmer who will not
+      plow gets no harvest. But even a hard worker gets nothing without
+      rain he cannot make. The wish to do good, the elder said, starts
+      with God. That answer grew into a long argument over how much of a
+      monk's progress is God's gift and how much is his own. It later
+      reached Rome. The record never settles it.
     grounded_in: [gallic.gravity.grace-and-effort, gallic.story.germanus-scruple-at-morning-service, gallic.contested.beginning-of-good-will]
   - text: >-
-      At Tours, the record is organized around a different idea entirely:
-      power, felt and shown. Martin once found a catechumen, a new believer
-      not yet baptized, lying dead. He shut himself alone with the body,
-      stretched himself over it, and after two hours the man opened his
-      eyes. Another night, the devil came to Martin dressed as Christ, in
-      royal purple and a jeweled crown. Martin refused to believe him: the
-      only Christ he would accept still carried the marks of his own
-      wounds. Cassian, in the south, refused this whole way of measuring a
-      monk. He would not, in his own words, weave a tale of God's wonders
-      and signs, and warned that a monk who boasts of casting out demons
-      has already failed. The two households never argued this difference
-      out either. One built its record around power. The other built its
-      record around refusing to.
-    grounded_in: [gallic.gravity.virtus, gallic.story.raising-of-the-catechumen, gallic.quote.martin-on-the-christ-with-wounds, gallic.figure.cassian]
+      On bishops and councils, the two households disagreed. At Tours,
+      Martin kept his distance from other bishops. At the emperor's
+      court in Trier, he once took communion with bishops he had
+      refused, to save lives. He regretted it for the rest of his life
+      and never attended a synod again. In the south, church councils
+      were trusted as guardians of the truth. The record leaves that
+      disagreement standing.
+    grounded_in: [gallic.gravity.authority-ambivalence, gallic.story.trier-and-the-ithacian-communion, gallic.figure.martin, gallic.story.election-at-tours]
   - text: >-
-      Bishops and church councils sat at the center of this world's deepest
-      disagreement with itself. At Tours, the office was something to be
-      wary of: bishops resisted Martin's election, and some of his own
-      accusers turned out to be bishops themselves. The emperor once called
-      Martin to court, to stop tribunes being sent to hunt heretics in
-      Spain. Martin agreed to share communion there with bishops he had
-      refused before - the same bishops who had pushed for a heretic's
-      execution. He did it to save lives, then regretted it for the rest
-      of his own life. He never sat with a group of bishops again. His
-      discipline reached his own household, too, and not always gently. A
-      presbyter he had raised from boyhood was named Brictio. People
-      inside Martin's own community accused Brictio of buying enslaved
-      children - boys taken from beyond the frontier, and girls chosen,
-      the record says, for their looks. When Martin corrected him, Brictio
-      raged at his own master in public, calling his visions ridiculous
-      fancies. He repented within the hour. Martin never removed him from
-      office, saying: "If Christ bore with Judas, why should not I bear
-      with Brictio?" In the south, by contrast, church councils were
-      trusted as guardians of the truth, not as something to flee. This
-      world's own record does not resolve the disagreement between its two
-      households. It states it plainly and leaves it standing.
-    grounded_in: [gallic.gravity.authority-ambivalence, gallic.story.trier-and-the-ithacian-communion, gallic.story.brictio-in-the-courtyard, gallic.figure.martin]
-  - text: >-
-      Almost everything this world's northern half knows comes from
-      one writer. Sulpitius Severus was a wealthy layman who gave up
-      his own career to follow Martin. He was never present for any of
-      the events he describes, and he says so himself. His real
-      sources were Martin's own household, and sometimes Martin
-      himself. That single-author risk runs through every surviving
-      Tours story. When Martin's own death drew near, he traveled to
-      make peace among quarreling clergy in a nearby town. He already
-      knew he was dying. His own monks wanted to lay him on a soft bed
-      of straw. He refused. He chose sackcloth and ashes instead,
-      saying he had sinned if he left his monks a different example to
-      follow. He was carried back to Tours. A crowd the record puts at
-      two thousand buried him: monks, old men, young soldiers who had
-      just sworn service to Christ, and a choir of consecrated women
-      who held back their own tears out of modesty.
-    grounded_in: [gallic.gravity.named-example, gallic.figure.sulpitius, gallic.story.death-of-martin-at-condate]
+      Almost everything known about Tours comes from one writer.
+      Sulpitius Severus was a layman who gave up his career to follow
+      Martin. He was never present for the events he describes, and he
+      says so himself. When Martin's death drew near, he traveled to
+      make peace among quarreling clergy. His monks wanted to lay him on
+      straw. He chose sackcloth and ashes, so as not to leave them a
+      different example. Sulpitius says almost two thousand monks
+      gathered for his funeral. The record closes around 450, with the
+      argument over grace and effort still open.
+    grounded_in: [gallic.gravity.named-example, gallic.figure.sulpitius, gallic.story.death-of-martin-at-condate, gallic.core.gallic]
   documented_stories:
+  - story_id: gallic.story.the-cloak-at-amiens
+    title: "Half a Cloak at the Gate of Amiens"
+    when: "While Martin was still a soldier and not yet baptized; the text gives no year"
+    teaser: "A soldier cuts his cloak in two for a naked beggar at the city gate. That night he sees Christ wearing the half he gave away."
+    grounded_in: [gallic.story.the-cloak-at-amiens, gallic.figure.martin]
   - story_id: gallic.story.discharge-before-caesar
     title: "Martin Asks Caesar for His Discharge"
     when: "c. 360, before a battle in Gaul, on the eve of Martin's discharge from the Roman army"
-    teaser: "Accused of cowardice for refusing to fight, a soldier offers to walk unarmed toward the enemy line - and the enemy surrenders before morning."
+    teaser: "Called a coward for refusing to fight, a soldier offers to walk at the enemy with no weapons. Before morning, the enemy asks for peace."
     grounded_in: [gallic.story.discharge-before-caesar, gallic.figure.martin]
+  - story_id: gallic.story.raising-of-the-catechumen
+    title: "Martin Brings a Dead Catechumen Back"
+    when: "After Martin left the army and set up his monastery; the text gives no year"
+    teaser: "Martin returns to find a new believer dead before baptism. He bolts the door and stretches himself over the body. Two hours later the man opens his eyes."
+    grounded_in: [gallic.story.raising-of-the-catechumen]
+  - story_id: gallic.story.election-at-tours
+    title: "The Monk Tricked Into the Bishop's Chair"
+    when: "Years after Martin's discharge; the text gives no year"
+    teaser: "A citizen feigns a sick wife to draw a monk from his monastery. Some bishops object to his shabby clothes and hair. A psalm opened at random answers them."
+    grounded_in: [gallic.story.election-at-tours, gallic.figure.martin]
   - story_id: gallic.story.trier-and-the-ithacian-communion
     title: "Martin Yields Once, at the Emperor's Court"
     when: "385/386, after the execution of Priscillian and his companions at Trier"
-    teaser: "To stop tribunes from being sent to hunt heretics in Spain, a bishop takes communion with men he despises - and never fully forgives himself."
+    teaser: "A bishop shares communion with men he had refused, so that troops will not be sent to hunt heretics in Spain. He never fully forgives himself."
     grounded_in: [gallic.story.trier-and-the-ithacian-communion, gallic.figure.martin]
+  - story_id: gallic.story.brictio-in-the-courtyard
+    title: "If Christ Bore with Judas"
+    when: "Undated; told in Sulpitius's Dialogues, about 404 to 406"
+    teaser: "A presbyter Martin raised from boyhood rages at him, then begs pardon within the hour. Martin will not remove him. If Christ bore with Judas, why not Brictio?"
+    grounded_in: [gallic.story.brictio-in-the-courtyard, gallic.figure.martin]
+  - story_id: gallic.story.death-of-martin-at-condate
+    title: "Martin Refuses the Straw"
+    when: "397, at Condate"
+    teaser: "Knowing his end is near, Martin goes to make peace among quarreling clergy. Dying, he turns down straw for sackcloth and ashes, so as not to set a softer example."
+    grounded_in: [gallic.story.death-of-martin-at-condate, gallic.figure.sulpitius]
+  - story_id: gallic.story.the-angel-and-the-twelve-psalms
+    title: "The Angel Who Fixed the Psalms"
+    when: "Set in the early days of Egypt's monks, no year given; Cassian wrote it down in Gaul"
+    teaser: "Egyptian fathers cannot agree how many psalms to sing each evening. The hour for prayer arrives, and one father sings twelve and vanishes. They take twelve as the number."
+    grounded_in: [gallic.story.the-angel-and-the-twelve-psalms]
+  - story_id: gallic.story.germanus-scruple-at-morning-service
+    title: "The Farmer Who Still Needs the Rain"
+    when: "Set in Egypt, no year given; Cassian wrote it down in Gaul, not later than 426"
+    teaser: "Two friends come to morning prayer troubled by one sentence from the night before. The old man cuts the service short and answers with a farmer who still needs rain."
+    grounded_in: [gallic.story.germanus-scruple-at-morning-service]
+  - story_id: gallic.story.honoratus-and-the-island
+    title: "Honoratus and the Island of Snakes"
+    when: "Told in a funeral sermon by his successor at Arles; the text gives no year"
+    teaser: "A founder walks unafraid onto an island shunned for its snakes, singing a psalm. The snakes give way. Then the priest's headband catches the man who ran from it."
+    grounded_in: [gallic.story.honoratus-and-the-island, gallic.figure.honoratus]
   voices:
   - figure: gallic.figure.martin
     text: >-
