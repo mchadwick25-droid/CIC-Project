@@ -463,6 +463,19 @@ works:
 
     '
   source_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901--council-of-arles-314-in-mansi-tom-2
+  work: 'Council of Arles (314): canons and synodal letter, in Mansi tom. 2'
+  author: council-of-arles-314
+  locus: heading CONCILIUM ARELATENSE at file line 430; syllabus entries at file lines 439-500
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. The Latin acts of the council that heard the Donatist
+    appeal after Rome 313. Latin and Greek conciliar collection in the 1901 Welter facsimile
+    of the 18th-century edition; long s rendered as f in the OCR, so quotations need the page
+    image.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901.txt
 - row_id: codex-canonum-ecclesiae-africanae_bruns-pars1-1839--the-code-of-canons-of-the-african-church-codex-canonum-2
   work: The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council
     of Carthage, 419)
@@ -717,6 +730,22 @@ works:
 
     '
   source_file: gregory-great_epistolae-selectae_turchi1907.txt
+- row_id: hefele_history-of-the-councils-v1-to-nicaea_clark1872--history-of-the-councils-vol-1
+  work: Hefele, A History of the Councils of the Church, vol. 1 (to Nicaea 325 (Arles 314
+    at section 15; Book II on Nicaea from file line 492)), English translation, 1872
+  author: hefele
+  locus: whole file; to Nicaea 325 (Arles 314 at section 15; Book II on Nicaea from file line
+    492)
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. Nineteenth-century Roman Catholic scholarly reconstruction
+    of the pre-Nicene synods, Arles 314 and the Council of Nicaea, in Clark''s English series.
+    Secondary: a finding aid to the primary documents and a witness to nineteenth- century
+    reading of the councils, never evidence of the events. Same footing as the hefele-leclercq
+    French slices already in the map.
+
+    '
+  source_file: hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt
 - row_id: chronica-minora-liber-genealogus_mommsen1892--liber-genealogus
   work: Liber Genealogus
   author: liber-genealogus
@@ -771,6 +800,35 @@ works:
 
     '
   source_file: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923--histoire-litteraire-tome-vi-duplicate-of-vendored-file
+  work: 'Histoire littéraire de l''Afrique chrétienne, Tome VI: Littérature donatiste au temps
+    de saint Augustin (1922), duplicate scan'
+  author: monceaux
+  locus: file lines 142 to about 21970
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). The same text as monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt,
+    carried because the Toronto scan binds tomes VI and VII as one item. Cite the earlier
+    file for tome VI; this row exists so the duplicate is visible, not hidden.
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923.txt
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923--histoire-litteraire-tome-vii-saint-augustin-et-le-donatisme
+  work: 'Histoire littéraire de l''Afrique chrétienne, Tome VII: Saint Augustin et le donatisme
+    (1923)'
+  author: monceaux
+  locus: file lines 21985 to the end (title page 21972 to 21976); the writings of 411-430
+    and the Conference of Carthage in the table of contents at 38884 to 39034
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). Monceaux''s own study (1923, French) of Augustine''s
+    campaign against Donatism, including the Conference of Carthage of 411 and the Breviculus,
+    Ad Donatistas post collationem, the Emeritus writings and Contra Gaudentium: modern secondary
+    scholarship, a finding aid to the Latin sources, never evidence of 411. Completes the
+    series whose tomes I-VI are already in the map.
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923.txt
 - row_id: optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2
   work: Against the Donatists (De Schismate Donatistarum, Books I-VII)
   author: optatus

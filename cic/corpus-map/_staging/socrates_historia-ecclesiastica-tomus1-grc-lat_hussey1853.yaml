@@ -1,0 +1,20 @@
+source_file: socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt
+
+assignments:
+  - row_id: socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853--historia-ecclesiastica-greek-tomus-1
+    work: "Socrates Scholasticus, Historia ecclesiastica, Greek text with Latin version, Hussey 1853, tomus 1"
+    author: socrates
+    locus: "Books I-IV; Book I carries Nicaea (Paphnutius at file lines 6225 and 9952)"
+    atlas_ids:
+      - imperial-juridical-christianity
+      - novatianism
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. Greek original behind the English of npnf202_socrates-
+      sozomen-ecclesiastical-histories.xml. Book I (Nicaea, the Arian dispute, Constantine),
+      Books II-IV (Constantius, Julian, Valens). Socrates records Novatian traditions
+      sympathetically, which is why novatianism is listed; that is a context placement, not
+      the movement's own voice. Near-contemporary Constantinopolitan narrative (c. 440), not
+      eyewitness. Primary original-language witness; Greek and Latin both recovered in the
+      OCR; verify against the page image before quoting.

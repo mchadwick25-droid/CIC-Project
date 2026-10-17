@@ -1,0 +1,44 @@
+source_file: po08_john-rufus-plerophories-and-others-fra_1912.txt
+authors_ruled:
+  john-rufus:
+    kind: metadata-omission
+    evidence: Series volume, plain text; fascicle I's title names "Jean Rufus, évêque de Maïouma" as author
+      of the Plerophories (file lines 218-239), with Nau as editor and translator. Not the same man as
+      the Roman historian Rufus or any existing slug.
+assignments:
+- row_id: po08_john-rufus-plerophories-and-others-fra_1912--plerophories-syriac-orthodox
+  work: John Rufus, Plerophories (anti-Chalcedonian testimonies and revelations, c. 512), French with
+    Syriac (Nau, PO 8.1, 1912)
+  author: john-rufus
+  locus: fascicle I from file line 224; text from 612; appendix at 11873
+  atlas_ids:
+  - syriac-orthodox-west-syriac-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Chalcedon 451). Eighty-nine memory stories against Chalcedon from
+    the Gaza circle of Peter the Iberian, written in Greek about 512 and preserved in Syriac within the
+    Syriac Orthodox tradition, whose own anti-Chalcedonian literature it joined. A reception and legend
+    witness, two generations after 451; never evidence of the council itself. French recovered; the Syriac
+    column is garbled in this OCR. ROLE IS A JUDGMENT CALL: Palestinian in origin, Syriac Orthodox in
+    survival and use; recorded as tradition for the tradition that kept and read it, provisional.'
+- row_id: po08_john-rufus-plerophories-and-others-fra_1912--plerophories-chalcedonian-monasticism
+  work: John Rufus, Plerophories (PO 8.1, 1912)
+  author: john-rufus
+  locus: fascicle I from file line 224; Juvenal and the Jerusalem revolt throughout
+  atlas_ids:
+  - chalcedonian-monasticism-judean-desert-and-gaza
+  role: context
+  confidence: provisional
+  note: 'The anti-Chalcedonian monks of Gaza on Juvenal''s acceptance of the council and on the Chalcedonian
+    Palestinian establishment: the contemporary opponent''s view of this entry. Context.'
+- row_id: po08_john-rufus-plerophories-and-others-fra_1912--severus-cathedral-homilies-58-69
+  work: Severus of Antioch, Cathedral Homilies LVIII-LXIX, Syriac version of Jacob of Edessa, French (Brière,
+    PO 8.2, 1912)
+  author: severus-of-antioch
+  locus: fascicle II (volume contents at file lines 27-45)
+  atlas_ids:
+  - syriac-orthodox-west-syriac-christianity
+  role: tradition
+  confidence: provisional
+  note: 'A second Syriac Orthodox voice in the same volume: Severus''s own homilies. Not read for this
+    batch beyond the contents list; placed with the Select Letters already in the map.'

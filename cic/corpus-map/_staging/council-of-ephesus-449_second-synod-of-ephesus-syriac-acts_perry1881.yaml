@@ -1,0 +1,36 @@
+source_file: council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt
+assignments:
+- row_id: council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881--ephesus-449-syriac-acts-cyrilline
+  work: 'The Second Synod of Ephesus (449): the Syriac acts of the session of 22 August 449, English (Perry,
+    1881)'
+  author: council-of-ephesus-449
+  locus: the council text under the running head from file line 2453; Ibas from 1917, Theodoret 2129,
+    Domnus 2140
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (Chalcedon 451). Dioscorus''s council in its own acts: the Alexandrian
+    party''s synod condemning Ibas, Irenaeus, Theodoret and Domnus, the one record of its second session.
+    Primary document of 449 from the side that held it.'
+- row_id: council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881--ephesus-449-syriac-acts-syriac-orthodox
+  work: The Second Synod of Ephesus (449), Syriac acts (Perry, 1881)
+  author: council-of-ephesus-449
+  locus: whole file
+  atlas_ids:
+  - syriac-orthodox-west-syriac-christianity
+  role: transmission
+  confidence: provisional
+  note: 'Custody: the acts survive only in a Syriac Orthodox manuscript (BM Add. 14530, sixth century)
+    whose scribes preserved them because their church approved of the council. Voice assigned to the Cyrilline
+    entry.'
+- row_id: council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881--ephesus-449-syriac-acts-imperial-juridical
+  work: The Second Synod of Ephesus (449), Syriac acts (Perry, 1881)
+  author: council-of-ephesus-449
+  locus: whole file; Perry's list of Flavian's appeals to Leo at file lines 843-865
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: provisional
+  note: 'The council the emperor Theodosius convened and Leo called a robbery, in its own record, with
+    the appeals that reached Rome: ijc''s central question (who judges a council) in the documents. Context.'

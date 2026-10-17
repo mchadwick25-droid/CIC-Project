@@ -1794,6 +1794,19 @@ works:
 
     '
   source_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901--council-of-arles-314-in-mansi-tom-2
+  work: 'Council of Arles (314): canons and synodal letter, in Mansi tom. 2'
+  author: council-of-arles-314
+  locus: heading CONCILIUM ARELATENSE at file line 430; syllabus entries at file lines 439-500
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch. The Latin acts of the council that heard the Donatist
+    appeal after Rome 313. Latin and Greek conciliar collection in the 1901 Welter facsimile
+    of the 18th-century edition; long s rendered as f in the OCR, so quotations need the page
+    image.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901--codex-canonum-ecclesiae-africanae-in-mansi-tom-3
   work: Codex canonum Ecclesiae Africanae, in Mansi tom. 3
   author: council-of-carthage-419
@@ -2785,6 +2798,22 @@ works:
 
     '
   source_file: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923--histoire-litteraire-tome-vii-saint-augustin-et-le-donatisme
+  work: 'Histoire littéraire de l''Afrique chrétienne, Tome VII: Saint Augustin et le donatisme
+    (1923)'
+  author: monceaux
+  locus: file lines 21985 to the end (title page 21972 to 21976); the writings of 411-430
+    and the Conference of Carthage in the table of contents at 38884 to 39034
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). Monceaux''s own study (1923, French) of Augustine''s
+    campaign against Donatism, including the Conference of Carthage of 411 and the Breviculus,
+    Ad Donatistas post collationem, the Emeritus writings and Contra Gaudentium: modern secondary
+    scholarship, a finding aid to the Latin sources, never evidence of 411. Completes the
+    series whose tomes I-VI are already in the map.
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923.txt
 - row_id: optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii
   work: Against the Donatists (De Schismate Donatistarum, Books I-VII)
   author: optatus

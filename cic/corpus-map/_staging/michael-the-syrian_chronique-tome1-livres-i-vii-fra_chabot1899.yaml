@@ -1,0 +1,54 @@
+source_file: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt
+
+authors_ruled:
+  michael-the-syrian:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML markup
+      only) has not seen the author. Michael the Syrian (Michael Rabo, 1126-1199), Syriac
+      Orthodox patriarch of Antioch, is a real, well-attested author; the title page names
+      him (file lines 58-68: 'Chronique de Michel le Syrien, patriarche jacobite d'Antioche
+      (1166-1199) ... traduite en français par J.-B. Chabot, tome premier, Paris 1899').
+      The same slug was ruled this batch for tome II.
+
+assignments:
+  - row_id: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899--chronique-tome-i-books-i-vii-french
+    work: "Chronique, tome I, Books I-VII (Chabot's French translation, 1899)"
+    author: michael-the-syrian
+    locus: "whole file; Book VII from file line 55190"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      A Syriac Orthodox patriarch's world chronicle from the creation to the sons of
+      Constantine, in French translation (the Syriac is in Chabot's tome IV, not held).
+      The West Syriac tradition's own historical self-account; English translation does
+      not exist in the public domain, so this French is the readable witness. Reception
+      source for every fourth-century event it tells.
+  - row_id: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899--chronique-book-vii-on-the-fourth-century-councils-french
+    work: "Chronique, Book VII: Nicaea, Tyre, Sardica, Sirmium, Seleucia, Milan and Rimini (Chabot's French)"
+    author: michael-the-syrian
+    locus: "Nicaea chapter at file line 55601; Tyre and the hand of Arsenius at 57275; Sirmium and Seleucia at 58036; Sardica at 58048 and 58056; Milan at 58136; Rimini at 58206 and 58212"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Twelfth-century Syriac Orthodox memory of the Constantinian-dynasty councils,
+      compiled from Socrates, Theodoret and lost Syriac sources: how a later non-
+      Chalcedonian tradition remembered the imperial church's councils. Context, and a
+      reception witness only, never evidence of the events.
+  - row_id: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899--chronique-book-vii-syriac-renaissance-chronicle-french
+    work: "Chronique, Books I-VII (Chabot's French)"
+    author: michael-the-syrian
+    locus: "whole file"
+    atlas_ids:
+      - syriac-renaissance
+    role: tradition
+    confidence: provisional
+    note: >
+      Michael's chronicle is the great historical work of the Syriac Renaissance of the
+      twelfth and thirteenth centuries; its own voice. The same double placement was made
+      for tome II this batch; a project-lead call if the two entries should not both hold
+      it as tradition.

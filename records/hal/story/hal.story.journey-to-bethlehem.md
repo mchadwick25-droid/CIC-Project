@@ -46,6 +46,7 @@ text: Paula went down to the harbor at Portus, with her children
   a great crowd of monks. She wished to press deeper into the desert and stay among the monastic
   settlements. Instead she turned back to Bethlehem. She lived there in a poor lodging at
   first, then in the monasteries her fortune built, for the rest of her life.
+telling: "Paula went down to the harbor at Portus, and her children stood on the shore. Jerome's memorial of her says her eyes were dry and lifted toward heaven as the ship pulled out. Her little son stretched out his hands from the beach.\n\nShe sailed east by way of Cyprus, where the bishop Epiphanius kept her for ten days. She went on to Antioch. Then she traveled the whole length of the holy places, with scripture in hand at every stop. At the cave in Bethlehem she wept, Jerome says. In his telling, she greeted the town by name, the house of bread, where the Bread from heaven was born.\n\nShe went on into Egypt, to Nitria. There the bishop Isidore came out to meet her with a great crowd of monks. Paula wished to press deeper into the desert and stay among the monks' settlements. Instead she turned back to Bethlehem. She lived in a poor lodging at first. Then, Jerome writes, she lived in the monasteries her fortune built, for the rest of her life."
 absent_detail: 'The telling is Jerome''s epitaph for Paula, written for her daughter -
   idealizing by genre; her dry eyes and her words at the manger are his report. The famous
   desert-father names invoked in the Nitria passage are a rhetorical flourish, not a

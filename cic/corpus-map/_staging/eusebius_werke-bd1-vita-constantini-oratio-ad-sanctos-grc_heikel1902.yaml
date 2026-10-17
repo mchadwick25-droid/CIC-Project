@@ -1,0 +1,17 @@
+source_file: eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt
+
+assignments:
+  - row_id: eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902--vita-constantini-greek
+    work: "Eusebius, Vita Constantini, Oratio ad sanctos and Laus Constantini, Greek (GCS, Heikel 1902)"
+    author: eusebius
+    locus: "whole file; Vita Constantini Book III (Nicaea) chapter headings from about file line 10475"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. Greek original behind the English Life of Constantine in
+      npnf201_eusebius-church-history-life-of-constantine.xml, whose staging row carries
+      role tradition for this world; this follows it. The one eyewitness narrative of
+      Nicaea, written as imperial panegyric. Primary original-language witness; Greek
+      recovered; verify against the page image before quoting.

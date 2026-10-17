@@ -1,0 +1,26 @@
+source_file: elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt
+
+authors_ruled:
+  elias-of-nisibis:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The
+      author is real and named on both title pages (file lines 51 and 8824): Elias bar
+      Shinaya, metropolitan of Nisibis (975-1046), Church of the East. Brooks and Chabot
+      are translators. A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910--opus-chronologicum-latin-translation
+    work: "Opus chronologicum (Chronography of Elias of Nisibis, 1018/19), Latin translation, both parts"
+    author: elias-of-nisibis
+    locus: "whole file; the synod of Isaac and Marutha dated A.Gr. 721 at file line 5089; Dadyeshu in the catalogue of catholicoi at 3519"
+    atlas_ids:
+      - persian-church-of-the-east-early
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). An eleventh-century Church of the East
+      chronicler's dated tables, each entry naming its source: the tradition's own later
+      memory of its early synods and catholicoi, never evidence of the events on its own.
+      Latin translation only; the Syriac text volumes are not in this file. OCR middling.

@@ -1,0 +1,20 @@
+source_file: athanasius_opera-omnia-pg26-grc-lat_migne1857.txt
+
+assignments:
+  - row_id: athanasius_opera-omnia-pg26-grc-lat_migne1857--athanasius-opera-pg-26-greek
+    work: "Athanasius, Opera omnia, Patrologia Graeca 26 (Migne 1857): Orationes contra Arianos, De Decretis Nicaenae Synodi (with Eusebius of Caesarea's letter), De Synodis (Thalia fragments, Arius's letter to Alexander, the creeds of 359-360), Epistolae, Vita Antonii, Festal letters"
+    author: athanasius
+    locus: "Greek column; homoousios recovered 154 times, e.g. file line 24095"
+    atlas_ids:
+      - alexandria-catechetical
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. Greek original behind the English of npnf204_athanasius-
+      select-works-letters.xml. SECOND WITNESS ONLY: in this OCR the Latin translation
+      column is garbled into Greek-looking glyphs throughout and the Greek column is legible
+      only in places; nothing is quotable until verified against the scanned page. Role kept
+      at context (the alx bucket's own Athanasius rows decide tradition placement; this row
+      only makes the Greek findable). Not a quotable primary witness until a cleaner scan is
+      vendored.

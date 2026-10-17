@@ -59,3 +59,22 @@ works:
 
     '
   source_file: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt
+- row_id: po08_john-rufus-plerophories-and-others-fra_1912--plerophories-chalcedonian-monasticism
+  work: John Rufus, Plerophories (PO 8.1, 1912)
+  author: john-rufus
+  locus: fascicle I from file line 224; Juvenal and the Jerusalem revolt throughout
+  role: context
+  confidence: provisional
+  note: 'The anti-Chalcedonian monks of Gaza on Juvenal''s acceptance of the council and on
+    the Chalcedonian Palestinian establishment: the contemporary opponent''s view of this
+    entry. Context.'
+  source_file: po08_john-rufus-plerophories-and-others-fra_1912.txt
+- row_id: life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895--peter-the-iberian-chalcedonian-monasticism
+  work: The Syriac Life of Peter the Iberian (Raabe, 1895)
+  author: life-of-peter-the-iberian
+  locus: whole file; Juvenal and the Jerusalem revolt 2726-2806
+  role: context
+  confidence: provisional
+  note: The contemporary opponent's account of Juvenal and of the Chalcedonian settlement
+    in Palestine. Context.
+  source_file: life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt
