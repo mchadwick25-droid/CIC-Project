@@ -821,3 +821,5 @@ The project lead found these in a live app conversation. `records/worlds/pahc.ya
 - Build/Ministry design drafts still carry "ordinary houses" (for example `Build/Ministry/Features/Website-V2/Sandbox/D1-directions/05-product-led-clarity/meet-chloe.html`).
 
 Status: CLOSED for the records; OPEN for the Facilitator welcome text.
+
+The two readability findings the `pahc.force.state-pressure` rewrite removed cut the pahc count from 113 to 111, so the `m1:readability/pahc` waiver in `engine/m9/enforce.py` is tightened to 111.
