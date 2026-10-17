@@ -38,10 +38,15 @@ Reviewer: Opus 5.5, site-editing thread, with three independent Opus reviews tha
 9. Every old-translation quote in the tellings is now a modern rendering or plain reported speech.
 10. Smaller fixes: the Domitian date follows `use_note.years`; the Polycarp teaser says "put to death"; first mentions of Ignatius, Polycarp, Justin and Tacitus are introduced; unclear pronouns in four teasers; build wording ("the sources", "carried at full strength") removed.
 
+11. A targeted recheck after the recording found that the Quintus telling said the letter tells of him "first". Germanicus comes first, in chapter 3. It also found empty tails left in six tellings. Those six were fixed, an independent reviewer re-confirmed them, and they were re-recorded. The fix had cut the Nero telling's only single-episode line, which the reviewer blocked. That line is restored.
+
+## Recordings
+
+Voice `1gkXJMvrzBWAwt0XqBaa`, model `eleven_v3`, speed 1.12, tempo 1.15, stability 0.35, similarity 0.93, style 0, speaker boost on, read from the run's printed settings. The project lead approved a sample of story unit 1 (281 characters, 136 credits). Full run: story and ten tellings, 15,480 characters, 7,505 credits. Re-record of six tellings: 5,923 characters, 2,872 credits. Durations by ffprobe: story 4 min 9 s; tellings 47 s to 97 s.
+
 ## Left open
 
-- The recordings are not yet made (OG-32).
-- Five story records' own text disagrees with the source (OG-33).
+- Six story records' own text disagrees with the source (OG-33).
 - The readability gate does not score tellings (OG-34).
 - Other world_front sections and a stale body note (OG-35).
 

@@ -771,21 +771,21 @@ The project lead ruled on 14 October (option C) that an honest-limit sentence na
 
 ### OG-32. Atlas story pass: shorter story, ten card stories with tellings, highlights, 2026-10-17.
 
-The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card. He approved the House Churches story and the ten tellings in conversation on 17 October. `orientation.story` is now 8 units and 642 words, down from 8 units and 917 words. `documented_stories` shows ten stories in date order, seven of them new. Each of the ten story records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 22 short notes, and place notes cite Pleiades (checked 2026-10-17). The tile now says the communities gathered in households, after the project lead caught "ordinary houses", which no record supports. Review: `Build/Ministry/Operations/Audits/pahc_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/pahc/2026-10-17T03-09-11Z`, `manifest_hash` `sha256:efa796fd3dbeeb10658545e583c04fba2bb89c99d918ce5d7df0bc6b37d612a7`. This pin supersedes the one in OG-31.
+The project lead asked for each built world's Atlas story to run four to five minutes, with the other episodes moved into stories on the card. He approved the House Churches story and the ten tellings in conversation on 17 October. `orientation.story` is now 8 units and 642 words, down from 8 units and 917 words. `documented_stories` shows ten stories in date order, seven of them new. Each of the ten story records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 22 short notes, and place notes cite Pleiades (checked 2026-10-17). The tile now says the communities gathered in households, after the project lead caught "ordinary houses", which no record supports. Review: `Build/Ministry/Operations/Audits/pahc_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/pahc/2026-10-17T03-51-40Z`, `manifest_hash` `sha256:3e11eaca20ff64189f949714f711809680b013c009aaedfdc246a0c1519d7bf2`. This pin supersedes the one in OG-31. The story and the ten tellings are recorded in the House Churches voice (`1gkXJMvrzBWAwt0XqBaa`, `eleven_v3`, speed 1.12, tempo 1.15), after the project lead approved a sample of the first unit. The full run was 15,480 characters and 7,505 credits. A targeted recheck then found a factual error and empty tails in six tellings. The project lead had those six fixed and re-recorded: 5,923 characters, 2,872 credits.
 
 **Open:**
-- The card's recordings of the main story and of the ten tellings are not yet made. The project lead approves a sample first.
 - The package change makes the next promotion's admission stale. The project lead rules on that run.
 
 Status: OPEN.
 
-### OG-33. Five story records' own text disagrees with the vendored source, 2026-10-17.
+### OG-33. Six story records' own text disagrees with the vendored source, 2026-10-17.
 
 A source check during the Atlas story pass read the tellings against the vendored texts. The tellings now follow the source, but the records' own `text` (and in one case `tellable_as`) still carries the errors:
 - `pahc.story.pliny-interrogation`: the text puts the torture of the two women before the account of the meetings. In Pliny's letter (`cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml`, around line 19487) former Christians describe the meetings first. Pliny then tortures the women "in order to ascertain the truth". As written, a reader can take the account to be the women's words, against the record's own `use_note.not_for`.
 - `pahc.story.quintus-recantation`: the text and `tellable_as` say the letter names Quintus before it praises Polycarp. The letter praises Polycarp in chapter 1 and names Germanicus before Quintus (`cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml`, chapters 1 to 4). The text also says Polycarp "spent his last days" at "a quiet house in the country". The source says "a country house not far distant from the city", and in chapter 6 he moves to another dwelling.
 - `pahc.story.martyrdom-of-polycarp`: "the games were already finished". Chapter 12 says the shows of wild beasts were finished.
 - `pahc.story.grandsons-before-domitian`: "some thirty-nine plethra" drops the source's "only", and the text drops "only 9000 denaria".
+- `pahc.story.first-clement-corinthian-dispute`: `modern_contrast` calls the letter "unrequested". 1 Clement 1 answers "the points respecting which you consulted us", so Corinth had asked.
 
 These are reviewed records, so the pass did not change them. The project lead rules on correcting them.
 
