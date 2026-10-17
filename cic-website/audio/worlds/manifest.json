@@ -787,11 +787,12 @@
  "the-reformed-cities-zurich-and-geneva": {
   "story": {
    "file": "the-reformed-cities-zurich-and-geneva/story.mp3",
-   "chars": 7362,
+   "chars": 3775,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -801,11 +802,12 @@
   },
   "docstory-rzg.story.first-zurich-disputation": {
    "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.first-zurich-disputation.mp3",
-   "chars": 978,
+   "chars": 786,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -815,11 +817,12 @@
   },
   "docstory-rzg.story.calvins-journey-to-zurich": {
    "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.calvins-journey-to-zurich.mp3",
-   "chars": 879,
+   "chars": 919,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -829,11 +832,12 @@
   },
   "docstory-rzg.story.myconius-account-of-zwinglis-death": {
    "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.myconius-account-of-zwinglis-death.mp3",
-   "chars": 993,
+   "chars": 1149,
    "voiceId": "G9IX883XKLA81NnaTUzh",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
