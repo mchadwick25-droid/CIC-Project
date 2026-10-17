@@ -94,6 +94,9 @@ Anything for Mark to review or approve — options to choose between, a draft to
 |---|---|
 | CI/infra mechanical fix (config, workflow YAML, build script) | Just do it |
 | Package rebuild after a `records/` edit | Just do it |
+| Merging your own pull request once its CI is green (into `live` first, then `main`), bringing it up to date when it falls behind, and checking the deploy | Just do it (Mark, 2026-10-17) |
+| Making a change Mark approved in chat in a connected service (Tally and the like), including publishing it | Just do it (Mark, 2026-10-17) |
+| Anything only a dashboard can do (Render, AWS, Cloudflare, GitHub settings) | Give Mark the exact steps |
 | Doc-hygiene fix on content that isn't your own thread's | Flag it, don't touch it |
 | Cross-world or portfolio-level decision | Always ask |
 | Governance or methodology change | Always ask |
