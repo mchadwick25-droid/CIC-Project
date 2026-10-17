@@ -240,11 +240,12 @@
  "desert-monasticism": {
   "story": {
    "file": "desert-monasticism/story.mp3",
-   "chars": 3657,
+   "chars": 3664,
    "voiceId": "A9evEp8yGjv4c3WsIKuY",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.75,
     "similarity_boost": 0.75,
@@ -254,11 +255,12 @@
   },
   "docstory-desert.story.antony-call": {
    "file": "desert-monasticism/docstory-desert.story.antony-call.mp3",
-   "chars": 877,
+   "chars": 1268,
    "voiceId": "A9evEp8yGjv4c3WsIKuY",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.75,
     "similarity_boost": 0.75,
@@ -268,11 +270,12 @@
   },
   "docstory-desert.story.antony-secret-burial": {
    "file": "desert-monasticism/docstory-desert.story.antony-secret-burial.mp3",
-   "chars": 1548,
+   "chars": 1276,
    "voiceId": "A9evEp8yGjv4c3WsIKuY",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.75,
     "similarity_boost": 0.75,
@@ -282,11 +285,12 @@
   },
   "docstory-desert.story.sarapion-anthropomorphite": {
    "file": "desert-monasticism/docstory-desert.story.sarapion-anthropomorphite.mp3",
-   "chars": 1772,
+   "chars": 1383,
    "voiceId": "A9evEp8yGjv4c3WsIKuY",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.75,
     "similarity_boost": 0.75,
@@ -301,6 +305,111 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-desert.story.antony-tomb-combat": {
+   "file": "desert-monasticism/docstory-desert.story.antony-tomb-combat.mp3",
+   "chars": 1317,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-desert.story.antony-withdrawal": {
+   "file": "desert-monasticism/docstory-desert.story.antony-withdrawal.mp3",
+   "chars": 1276,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-desert.story.pachomius-founding": {
+   "file": "desert-monasticism/docstory-desert.story.pachomius-founding.mp3",
+   "chars": 1038,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-desert.story.angel-hands-the-tablet": {
+   "file": "desert-monasticism/docstory-desert.story.angel-hands-the-tablet.mp3",
+   "chars": 1115,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-desert.story.arsenius-flee": {
+   "file": "desert-monasticism/docstory-desert.story.arsenius-flee.mp3",
+   "chars": 465,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-desert.story.moses-leaking-jug": {
+   "file": "desert-monasticism/docstory-desert.story.moses-leaking-jug.mp3",
+   "chars": 680,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-desert.story.sarah-answer": {
+   "file": "desert-monasticism/docstory-desert.story.sarah-answer.mp3",
+   "chars": 290,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.75,
     "similarity_boost": 0.75,
