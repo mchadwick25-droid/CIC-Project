@@ -261,8 +261,10 @@ def _orientation(world_front: dict, records: dict) -> dict:
         "relations_summary": _resolve_unit(orientation.get("relations_summary")),
         "sourcing": _resolve_unit(orientation.get("sourcing")),
         "read_first": read_first,
+        # A highlight's verified_on is the build's own check date; the page
+        # shows the gazetteer link, never the date.
         "highlights": [
-            {k: entry[k] for k in ("phrase", "label", "kind", "note", "grounded_in", "url", "verified_on") if k in entry}
+            {k: entry[k] for k in ("phrase", "label", "kind", "note", "grounded_in", "url") if k in entry}
             for entry in orientation.get("highlights") or []
         ],
     }

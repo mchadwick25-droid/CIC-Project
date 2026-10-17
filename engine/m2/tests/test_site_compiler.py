@@ -174,14 +174,16 @@ def test_documented_story_carries_the_story_records_telling_and_never_its_text()
     assert STORY["text"] not in payload.decode("utf-8")
 
 
-def test_highlights_pass_through_with_their_grounding_or_reference():
+def test_highlights_pass_through_with_their_grounding_or_link_but_not_the_check_date():
     highlights = [
         {"phrase": "the elder", "kind": "person", "note": "Who the elder was.", "grounded_in": [STORY["id"]]},
         {"phrase": "Cirta", "kind": "place", "note": "Today Constantine.", "url": "https://pleiades.stoa.org/places/1", "verified_on": CHECKED_ON},
     ]
     world_front = {**WORLD_FRONT, "orientation": {**WORLD_FRONT["orientation"], "highlights": highlights}}
     payload = compile_world_front(world_front, RECORDS, {}, compiler_version="v", records_commit="c")
-    assert json.loads(payload)["orientation"]["highlights"] == highlights
+    emitted = json.loads(payload)["orientation"]["highlights"]
+    assert emitted[0] == highlights[0]
+    assert emitted[1] == {k: v for k, v in highlights[1].items() if k != "verified_on"}
     assert _compile()["orientation"]["highlights"] == []
 
 
