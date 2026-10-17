@@ -6758,3 +6758,118 @@
     header prepended per cic/texts/INTAKE.md, body otherwise unaltered. This volume's
     own closing errata note (retained verbatim) flags one date correction against Vol.
     II (a misprint of 1797 for 1799).
+- filename: patrum-nicaenorum-nomina_subscription-lists-lat_gelzer-hilgenfeld-cuntz1898.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Gelzer, Hilgenfeld and Cuntz, Patrum Nicaenorum nomina (Teubner, 1898): the critical edition
+    of the Nicene subscription lists in six languages. Closes the Wants-register item 'Nicaea
+    subscription lists' (cappadocian). Only the Latin text is recovered in this OCR; the five
+    non-Latin columns are not (verified by character count, both archive.org scans). Fetched
+    directly from Internet Archive item patrumnicaenoru00cuntgoog. RIGHTS: pd-us-by-date, 1898;
+    the item is tagged NOT_IN_COPYRIGHT.
+- filename: gelasius-cyzicus_kirchengeschichte-historia-concilii-nicaeni-grc_loeschcke-heinemann1918.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Gelasius of Cyzicus, Kirchengeschichte (GCS, Loeschcke and Heinemann, 1918): the Greek text
+    of the fifth-century history of the Council of Nicaea, a reception witness that elaborates
+    the council's scenes. Fetched directly from Internet Archive item
+    gelasiuskircheng00gelauoft. RIGHTS: pd-us-by-date, 1918; the item is tagged
+    NOT_IN_COPYRIGHT. Greek and German both recovered in the OCR.
+- filename: socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Socrates Scholasticus, Historia ecclesiastica, Greek text, Hussey's Oxford edition (1853),
+    tomus I. Original-language witness behind NPNF 2.02. Fetched directly from Internet Archive
+    item socratisscholas01socrgoog. RIGHTS: pd-us-by-date, 1853; the item is tagged
+    NOT_IN_COPYRIGHT.
+- filename: socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Socrates Scholasticus, Historia ecclesiastica, Greek text, Hussey's Oxford edition (1853),
+    tomus II. Fetched directly from Internet Archive item socratisscholas00socrgoog. RIGHTS:
+    pd-us-by-date, 1853; the item is tagged NOT_IN_COPYRIGHT. Hussey's volume III (notes only)
+    was not fetched.
+- filename: eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Eusebius, Werke Bd. 1 (GCS, Heikel, 1902): Greek text of the Vita Constantini, Oratio ad
+    sanctos and Laus Constantini. Original-language witness behind NPNF 2.01's Life of
+    Constantine. Fetched directly from Internet Archive item eusebiuswerke01euse. RIGHTS:
+    pd-us-by-date, 1902; the item has no rights tag.
+- filename: eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Eusebius, Werke Bd. 2.2 (GCS, Schwartz and Mommsen, 1908): Greek text of HE VI-X with
+    Rufinus's Latin, and Rufinus's own continuation Books X-XI (the Latin Nicaea narrative
+    behind the Paphnutius and converted-philosopher stories). Fetched directly from Internet
+    Archive item p2eusebiuswerke02euse. RIGHTS: pd-us-by-date, 1908; the item has no rights tag.
+- filename: hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Hefele, A History of the Councils of the Church, vol. I (to Nicaea), Clark's English
+    translation, 2nd ed. (T. & T. Clark, 1872). Secondary, nineteenth-century. Fetched directly
+    from Internet Archive item historyofcouncil00hefeuoft. RIGHTS: pd-us-by-date, 1872; the item
+    is tagged NOT_IN_COPYRIGHT. The download-queue-seed row for this volume pointed at
+    archive.org item ahistorychristi00plumgoog, which on its title page is Volume II (1876), not
+    Volume I; this row supersedes it.
+- filename: hefele_history-of-the-councils-v2-326-429_oxenham1876.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Hefele, A History of the Councils of the Church, vol. II (326-429), Oxenham's English
+    translation (T. & T. Clark, 1876). Secondary, nineteenth-century. Fetched directly from
+    Internet Archive item historyofcouncil02hefeuoft. RIGHTS: pd-us-by-date, 1876; the item is
+    tagged NOT_IN_COPYRIGHT.
+- filename: hefele_history-of-the-councils-v3-431-451_clark1883.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Hefele, A History of the Councils of the Church, vol. III (431-451: Ephesus, Ephesus II,
+    Chalcedon), English translation (T. & T. Clark, 1883). Secondary, nineteenth-century.
+    Fetched directly from Internet Archive item historyofcouncil03hefeuoft. RIGHTS:
+    pd-us-by-date, 1883; the item is tagged NOT_IN_COPYRIGHT.
+- filename: hefele_conciliengeschichte-bd1-deu_2e-aufl1873.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Hefele, Conciliengeschichte Bd. 1, 2nd ed. (Herder, 1873): German original of the English
+    vol. I. Fraktur OCR, poor. Fetched directly from Internet Archive item
+    conciliengeschic01hefeuoft. RIGHTS: pd-us-by-date, 1873; the item is tagged
+    NOT_IN_COPYRIGHT. Partly closes the download-queue-seed row 'Conciliengeschichte, Bd. 1 and
+    2 (2nd ed.)'; Bd. 2 was not fetched.
+- filename: athanasius_opera-omnia-pg25-grc-lat_migne1857.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Migne, Patrologia Graeca 25 (Athanasius I, 1857): Greek original of the Apologia contra
+    Arianos, Historia Arianorum and the other historical-apologetic works behind NPNF 2.04.
+    SECOND WITNESS: the Latin column is garbled into Greek-looking glyphs throughout; Greek
+    legible in places, verify against the page image. Fetched directly from Internet Archive
+    item patrologiae_cursus_completus_gr_vol_025. RIGHTS: pd-us-by-date, 1857; the item carries
+    the Public Domain Mark 1.0.
+- filename: athanasius_opera-omnia-pg26-grc-lat_migne1857.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Migne, Patrologia Graeca 26 (Athanasius II, 1857): Greek original of the Orations against
+    the Arians, De Decretis, De Synodis (Thalia fragments, Arius's letter, the creeds of 359)
+    and the letters behind NPNF 2.04. SECOND WITNESS: the Latin column is garbled into
+    Greek-looking glyphs throughout; Greek legible in places, verify against the page image.
+    Fetched directly from Internet Archive item patrologiae_cursus_completus_gr_vol_026. RIGHTS:
+    pd-us-by-date, 1857; the item carries the Public Domain Mark 1.0.
+- filename: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901.txt
+  supplied_by: "Claude (Shared-Events source-research thread, Era 2 batch: located on archive.org, item metadata and title page read, djvu.txt fetched directly, byte count equal to the host's listed size)"
+  date_added: '2026-10-17'
+  notes: >-
+    Mansi, Sacrorum conciliorum collectio, tomus 2 (councils 305-346: Arles 314, Nicaea 325,
+    Tyre 335, Antioch 341), in the 1901 Welter facsimile of the 18th-century Zatta edition,
+    matching the tomus 3 and 4 files already vendored. Fetched directly from Internet Archive
+    item sacrorumconcilio0002phil. RIGHTS: pd-us-by-date; 1901 facsimile date read in the OCR of
+    the title page; the item has no rights tag. OCR renders the long s as f.

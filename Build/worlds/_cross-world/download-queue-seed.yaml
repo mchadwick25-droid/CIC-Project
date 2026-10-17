@@ -2135,7 +2135,7 @@ queue:
     url: "https://archive.org/details/ahistorychristi00plumgoog"
     rights_basis: pd-us-by-date
     verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; metadata only; volume and translator not confirmed"
-    status: not-yet-downloaded
+    status: superseded
 
   - title: "Des heiligen Th. Z. Zyprianus, Bischofes zu Karthago, und Martyrers saemmtliche aechte Werke"
     author: "Cyprian of Carthage"
@@ -2727,3 +2727,179 @@ queue:
       confirmed against archive.org directly for a representative sample of this
       batch
     status: downloaded
+
+
+  - title: "Patrum Nicaenorum nomina Latine, Graece, Coptice, Syriace, Arabice, Armeniace"
+    author: "Heinrich Gelzer, Heinrich Hilgenfeld, Otto Cuntz (eds.)"
+    translator: ""
+    year: 1898
+    world: "imperial-juridical-christianity"
+    why: >
+      The critical edition of the Nicene subscription lists; closes the Wants-register item
+      "Nicaea subscription lists" (cappadocian). Only the Latin recensions are recovered in the
+      OCR; the five non-Latin columns need the page images (both archive.org scans checked).
+    url: "https://archive.org/details/patrumnicaenoru00cuntgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: archive.org metadata (1898, Teubner, NOT_IN_COPYRIGHT), preface date read in the OCR, djvu.txt fetched directly, byte count equal to the host's listed size"
+    status: downloaded
+
+  - title: "Gelasius Kirchengeschichte (GCS 28)"
+    author: "Gelasius of Cyzicus"
+    translator: "Gerhard Loeschcke and Margret Heinemann (eds.)"
+    year: 1918
+    world: "imperial-juridical-christianity"
+    why: >
+      Greek text of the fifth-century history of the Council of Nicaea: the reception witness
+      for the elaborated council scenes (philosopher disputation, Spyridon).
+    url: "https://archive.org/details/gelasiuskircheng00gelauoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: title page read in the OCR (Hinrichs, 1918), NOT_IN_COPYRIGHT tag, djvu.txt fetched directly, byte count equal to the host's listed size"
+    status: downloaded
+
+  - title: "Socratis Scholastici Ecclesiastica historia, tomus I and tomus II (Greek with Latin)"
+    author: "Socrates Scholasticus"
+    translator: "Robert Hussey (ed.)"
+    year: 1853
+    world: "imperial-juridical-christianity"
+    why: >
+      Greek original behind NPNF 2.02's Socrates; Book I (Nicaea), VI (the Oak), VII (Ephesus).
+      Two items: socratisscholas01socrgoog (tomus I) and socratisscholas00socrgoog (tomus II);
+      the third volume (annotations only, socratisscholas02socrgoog) was not fetched.
+    url: "https://archive.org/details/socratisscholas01socrgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: title pages read in the OCR (Oxford, M.DCCC.LIII, TOMUS I / TOMUS II), NOT_IN_COPYRIGHT tags, djvu.txt fetched directly, byte counts equal to the host's listed sizes"
+    status: downloaded
+
+  - title: "Eusebius Werke, Bd. 1: Über das Leben Constantins; Rede an die heilige Versammlung; Tricennatsrede (GCS)"
+    author: "Eusebius of Caesarea"
+    translator: "Ivar A. Heikel (ed.)"
+    year: 1902
+    world: "imperial-juridical-christianity"
+    why: >
+      Greek original of the Vita Constantini, the one eyewitness narrative of Nicaea, behind
+      NPNF 2.01.
+    url: "https://archive.org/details/eusebiuswerke01euse"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: title page read in the OCR (Erster Band, Heikel, 1902), djvu.txt fetched directly, byte count equal to the host's listed size; the item has no rights tag"
+    status: downloaded
+
+  - title: "Eusebius Werke, Bd. 2.2: Kirchengeschichte VI-X, Märtyrer in Palästina, with Rufinus's Latin and Rufinus X-XI (GCS)"
+    author: "Eusebius of Caesarea; Rufinus of Aquileia"
+    translator: "Eduard Schwartz and Theodor Mommsen (eds.)"
+    year: 1908
+    world: "imperial-juridical-christianity"
+    why: >
+      Rufinus's own Latin continuation (Books X-XI, 402-403) is the earliest Latin narrative
+      of Nicaea and the first written source for the Paphnutius scene; no public-domain
+      English of it exists.
+    url: "https://archive.org/details/p2eusebiuswerke02euse"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: title page read in the OCR (Zweiter Band, zweiter Teil, Schwartz, Mommsen, 1908), djvu.txt fetched directly, byte count equal to the host's listed size; the item has no rights tag"
+    status: downloaded
+
+  - title: "A History of the Councils of the Church, vol. I (to Nicaea), 2nd ed."
+    author: "Karl Joseph von Hefele"
+    translator: "William R. Clark"
+    year: 1872
+    world: "imperial-juridical-christianity"
+    why: >
+      Secondary finding aid to the pre-Nicene synods, Arles 314 and Nicaea. Supersedes the
+      earlier seed row for this volume, whose archive.org item (ahistorychristi00plumgoog)
+      is Volume II (1876) on its title page.
+    url: "https://archive.org/details/historyofcouncil00hefeuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: title page read in the OCR (Clark, Second edition revised, MDCCCLXXII), NOT_IN_COPYRIGHT tag, djvu.txt fetched directly, byte count equal to the host's listed size"
+    status: downloaded
+
+  - title: "A History of the Councils of the Church, vol. II (326-429)"
+    author: "Karl Joseph von Hefele"
+    translator: "Henry Nutcombe Oxenham"
+    year: 1876
+    world: "imperial-juridical-christianity"
+    why: >
+      Secondary finding aid to Tyre, Sardica, Ariminum and Seleucia, Aquileia, Constantinople
+      381 and the Oak.
+    url: "https://archive.org/details/historyofcouncil02hefeuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: title page read in the OCR (Volume II, A.D. 326 to A.D. 429, Oxenham, 1876), NOT_IN_COPYRIGHT tag, djvu.txt fetched directly, byte count equal to the host's listed size"
+    status: downloaded
+
+  - title: "A History of the Councils of the Church, vol. III (431-451)"
+    author: "Karl Joseph von Hefele"
+    translator: "the editor of Hagenbach's History of Doctrines (archive.org credits William R. Clark)"
+    year: 1883
+    world: "imperial-juridical-christianity"
+    why: >
+      Secondary finding aid to Ephesus 431, Ephesus 449 and Chalcedon.
+    url: "https://archive.org/details/historyofcouncil03hefeuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: title page read in the OCR (Volume III, A.D. 431 to A.D. 451, 1883), NOT_IN_COPYRIGHT tag, djvu.txt fetched directly, byte count equal to the host's listed size"
+    status: downloaded
+
+  - title: "Conciliengeschichte, Bd. 1, 2nd ed."
+    author: "Karl Joseph von Hefele"
+    translator: ""
+    year: 1873
+    world: "imperial-juridical-christianity"
+    why: >
+      German original of the English vol. I. Fraktur OCR, poor; the English is the readable
+      witness. Bd. 2 (the existing bundled seed row) was not fetched.
+    url: "https://archive.org/details/conciliengeschic01hefeuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: title page and preface date read in the OCR (Zweite, verbesserte Auflage; Rottenburg, Januar 1873), NOT_IN_COPYRIGHT tag, djvu.txt fetched directly, byte count equal to the host's listed size"
+    status: downloaded
+
+  - title: "Patrologia Graeca 25 and 26: Athanasius, Opera omnia"
+    author: "Athanasius of Alexandria"
+    translator: "J.-P. Migne (ed.)"
+    year: 1857
+    world: "alexandria-catechetical"
+    why: >
+      Greek original behind NPNF 2.04. SECOND WITNESS ONLY: the Latin column is garbled into
+      Greek-looking glyphs throughout and the Greek is legible only in places. Two items:
+      patrologiae_cursus_completus_gr_vol_025 and _026.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_026"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: archive.org metadata (1857, Public Domain Mark 1.0 licence URL), Greek sampled in the OCR, djvu.txt fetched directly, byte counts equal to the host's listed sizes; the title-page year is not legible in the OCR"
+    status: downloaded
+
+  - title: "Sacrorum conciliorum nova et amplissima collectio, tomus 2 (305-346), Welter facsimile"
+    author: "Giovanni Domenico Mansi (ed.)"
+    translator: ""
+    year: 1901
+    world: "imperial-juridical-christianity"
+    why: >
+      Latin and Greek acts and documents of Arles 314, Nicaea 325, Tyre 335 and Antioch 341,
+      matching the tomus 3 and 4 files already vendored.
+    url: "https://archive.org/details/sacrorumconcilio0002phil"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: 1901 Welter facsimile line read in the OCR of the title page, council headings located, djvu.txt fetched directly, byte count equal to the host's listed size; the item has no rights tag"
+    status: downloaded
+
+  - title: "Sozomeni Ecclesiastica historia, vol. 2 (Greek)"
+    author: "Sozomen"
+    translator: "Robert Hussey (ed.)"
+    year: 1860
+    world: "imperial-juridical-christianity"
+    why: >
+      Greek original behind NPNF 2.02's Sozomen. Only one of Hussey's three volumes located
+      on archive.org this pass; not fetched until the set can be completed.
+    url: "https://archive.org/details/sozomeniecclesia02sozo"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: archive.org metadata read (Oxford 1860, v.2, djvu 2.7 MB); not opened"
+    status: not-yet-downloaded
+
+  - title: "Epiphanii episcopi Constantiae Opera (Dindorf), Panarion volumes"
+    author: "Epiphanius of Salamis"
+    translator: "Wilhelm Dindorf (ed.)"
+    year: 1859
+    world: "imperial-juridical-christianity"
+    why: >
+      Greek of Panarion 68-69 and 73 (the Melitians; Arius's letters; the Homoiousian
+      documents of 358-359). archive.org items opera41epip, opera42epip, opera05epip
+      (Princeton copies); which volume holds haer. 69, and whether the Greek was recovered,
+      not yet determined.
+    url: "https://archive.org/details/opera05epip"
+    rights_basis: pd-us-by-date
+    verified_by: "Shared-Events source-research thread, 2026-10-17: archive.org metadata read (Leipzig 1859, volumes 4.1, 4.2, 5); not opened"
+    status: not-yet-downloaded

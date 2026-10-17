@@ -55,3 +55,29 @@ the Great Schism "is an essential story to tell".
 - **Later sources are welcome** where they show how an event was applied or remembered.
   Their date and standpoint are named; they never stand in for evidence of the event
   itself.
+
+## 2026-10-17 — Non-English sources are primary material (Mark)
+
+As with the other Library sources, non-English documents that are public domain or openly
+licensed can be used as primary source material. That covers critical editions and
+original-language texts: Greek, Latin, Syriac, Coptic, Armenian, Georgian, Ge'ez, Arabic,
+German, Dutch, Czech and others. The sourcing thread searches for them actively, especially
+for the non-Western events and the dissenting voices, which English translations often leave
+out. The Library's existing rules for language tags and mixed-language files apply
+(`cic/texts/README.md`, `cic/texts/INTAKE.md`). Relayed to the sourcing thread by the
+site-editing session on 2026-10-17; it restates the Library ruling of 2026-09-25 in
+`Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md` for this workstream.
+
+## 2026-10-17 — Era 2 sourcing opened; dossier shape for events
+
+The source-research thread began with Era 2 (Imperial Church, 312-451), Nicaea first as
+the pilot. Each event gets a Source Readiness Dossier at
+`Build/Ministry/Features/Shared-Events/dossiers/<event-id>_Source_Readiness_Dossier.md`,
+adapted from the Library's dossier template to the eight parts of an event story, with
+fixed sections: what the Library held; what was vendored; what the sources can carry part
+by part; the dissenting side in its own words; legends (contemporary silence shown from our
+files, earliest text held that carries the legend, or "not located"); reception and memory
+by tradition; verified leads not fetched; checked and closed; gaps and escalations;
+corpus-map notes. The Nicaea dossier is the exemplar. Rights are verified from the host
+record or the file's own title page; what each OCR actually recovered (which scripts) is
+stated in every header, since several Google scans recover only the Latin-script column.

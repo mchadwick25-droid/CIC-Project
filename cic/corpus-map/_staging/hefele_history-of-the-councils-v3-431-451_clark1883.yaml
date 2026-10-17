@@ -1,0 +1,18 @@
+source_file: hefele_history-of-the-councils-v3-431-451_clark1883.txt
+
+assignments:
+  - row_id: hefele_history-of-the-councils-v3-431-451_clark1883--history-of-the-councils-vol-3
+    work: "Hefele, A History of the Councils of the Church, vol. 3 (431 to 451 (Ephesus from file line 439)), English translation, 1883"
+    author: hefele
+    locus: "whole file; 431 to 451 (Ephesus from file line 439)"
+    atlas_ids:
+      - imperial-juridical-christianity
+      - cyrilline-miaphysite-egyptian-tradition
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. Nineteenth-century Roman Catholic scholarly reconstruction
+      of Ephesus 431, the reunion of 433, Eutyches, Ephesus 449 and Chalcedon 451, in
+      Clark's English series. Secondary: a finding aid to the primary documents and a
+      witness to nineteenth-century reading of the councils, never evidence of the events.
+      Same footing as the hefele-leclercq French slices already in the map.
