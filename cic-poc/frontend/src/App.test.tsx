@@ -61,6 +61,19 @@ describe('first screen', () => {
     expect(container.querySelector('.launch')).toBeNull();
   });
 
+  it('puts a question carried in as #q= in the message box, unsent, and drops it from the address', async () => {
+    window.history.replaceState({}, '', `/?worlds=donatism&mode=interview#q=${encodeURIComponent("What did you make of the Traditores' bishops?")}`);
+    const { container } = render(<App />);
+    expect(window.location.hash).toBe('');
+    expect(window.location.search).toBe('?worlds=donatism&mode=interview');
+
+    releaseWorlds();
+    await waitFor(() => expect(container.querySelector('.arrival')).not.toBeNull());
+    const box = container.querySelector('.composer-row textarea') as HTMLTextAreaElement;
+    expect(box.value).toBe("What did you make of the Traditores' bishops?");
+    expect(container.querySelector('.turn--participant')).toBeNull();
+  });
+
   it('falls back to the launch screen when the deep link names no known world', async () => {
     window.history.replaceState({}, '', '/?worlds=nowhere&mode=interview');
     const { container } = render(<App />);
