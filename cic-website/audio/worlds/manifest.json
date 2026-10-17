@@ -74,11 +74,12 @@
  "alexandria-catechetical": {
   "story": {
    "file": "alexandria-catechetical/story.mp3",
-   "chars": 6329,
+   "chars": 3630,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -88,11 +89,12 @@
   },
   "docstory-alx.story.plague-nursing": {
    "file": "alexandria-catechetical/docstory-alx.story.plague-nursing.mp3",
-   "chars": 754,
+   "chars": 660,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -102,11 +104,12 @@
   },
   "docstory-alx.story.arsinoite-conference": {
    "file": "alexandria-catechetical/docstory-alx.story.arsinoite-conference.mp3",
-   "chars": 1128,
+   "chars": 1183,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -116,11 +119,12 @@
   },
   "docstory-alx.story.origen-daring-deed": {
    "file": "alexandria-catechetical/docstory-alx.story.origen-daring-deed.mp3",
-   "chars": 1035,
+   "chars": 1189,
    "voiceId": "q5DSap58ea32P9TmDyTg",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
@@ -135,6 +139,96 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.john-young-robber": {
+   "file": "alexandria-catechetical/docstory-alx.story.john-young-robber.mp3",
+   "chars": 1108,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.leonides-martyrdom": {
+   "file": "alexandria-catechetical/docstory-alx.story.leonides-martyrdom.mp3",
+   "chars": 822,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.potamiaena": {
+   "file": "alexandria-catechetical/docstory-alx.story.potamiaena.mp3",
+   "chars": 968,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.origen-demetrius": {
+   "file": "alexandria-catechetical/docstory-alx.story.origen-demetrius.mp3",
+   "chars": 587,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.gregory-formation": {
+   "file": "alexandria-catechetical/docstory-alx.story.gregory-formation.mp3",
+   "chars": 1059,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-alx.story.didymus-meeting": {
+   "file": "alexandria-catechetical/docstory-alx.story.didymus-meeting.mp3",
+   "chars": 554,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.7,
     "similarity_boost": 0.75,
