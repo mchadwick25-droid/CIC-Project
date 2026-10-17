@@ -17,107 +17,281 @@ export:
 skim:
   tile:
     text: >-
-      Between about 320 and 430 CE, Christians in Egypt began leaving their
-      villages for the desert's edge. The movement never really stopped.
-      Persecution had just ended, so these Christians took up a different
-      struggle: fighting the tempting thoughts that rise up from inside a
-      person, not a sword from outside. This way of life took three real,
-      different shapes. Some lived alone, guided by an elder's hard-earned
-      wisdom. Others lived together under a written rule. A third group
-      lived somewhere between the two. No one ever settled which kind of
-      authority, personal or official, actually held a community together.
-    grounded_in: [desert.core.desert]
+      Between about 320 and 430, Christians in Egypt left their villages for
+      the edge of the desert. The last empire-wide persecution had ended.
+      The tradition describes its struggle as one against demons, and the
+      tempting thoughts they stirred in a person's mind. Monks lived in
+      three ways. Some lived alone, as Antony did after he gave away his
+      inheritance. Others lived in settlements such as Nitria, Kellia and
+      Scetis. They kept small cells and gathered once a week for worship.
+      Pachomius gathered monks into houses under a written rule. Elders
+      guided the hermits and the settlements. A rule and appointed offices
+      governed the Pachomian houses. These two kinds of authority stood side
+      by side through these years. Evagrius, an educated monk at Kellia,
+      wrote a system for sorting the thoughts a monk fights into eight
+      kinds. He died in January 399. A controversy that began over how to
+      picture God led to the expulsion of Origen's monk followers from Egypt
+      in 400. It scattered Evagrius's circle.
+    grounded_in: [desert.core.desert, desert.force.martyrdom-unavailable, desert.story.antony-call, desert.story.pachomius-founding, desert.gravity.authority-tension, desert.gravity.elder-authority, desert.gravity.evagrian-systematization, desert.force.origenist-controversy, desert.figure.evagrius, desert.term.synaxis, desert.term.kellion]
 orientation:
   story:
   - text: >-
-      By the early fourth century, the long Roman persecution of Christians
-      had ended. For people who had once measured their faith by a
-      willingness to die for it, that ending left a real question: what
-      kind of struggle was left? This world's answer was to leave ordinary
-      village life for the desert's edge, and to treat that leaving itself
-      as the whole work of a Christian life, not just its starting point.
-      The struggle once fought against a persecutor from outside was now
-      fought against tempting thoughts from within.
-    grounded_in: [desert.core.desert]
+      Between about 320 and 430, Christians in Egypt left their villages
+      for the edge of the desert. The last empire-wide persecution had
+      ended between 311 and 313. Until then, dying for the faith had
+      been a way to offer everything. The tradition describes its own
+      struggle in the language of that total confrontation. Now the
+      fight was against demons, and the tempting thoughts they stirred
+      in a person's mind. These Christians saw the leaving itself as the
+      whole work of a Christian life.
+    grounded_in: [desert.core.desert, desert.force.martyrdom-unavailable, desert.gravity.withdrawal]
   - text: >-
-      One young Egyptian landowner named Antony gave this pattern its
-      clearest shape. He heard a Gospel reading in church and took it as
-      spoken to him alone: sell what you have, give it to the poor, and
-      follow me. He gave away his land that same day, and weeks later gave
-      away everything else after hearing a second reading. He placed his
-      sister with a community of women, then began the discipline himself -
-      first close to home, then further out, until he had spent decades at
-      what he called the inner mountain.
-    grounded_in: [desert.story.antony-call, desert.figure.antony]
+      Athanasius, bishop of Alexandria, wrote the Life of Antony between
+      about 356 and 362. The movement's founding portrait rests mostly
+      on that one book, and scholars question how far its details are
+      history. Athanasius says Antony was about eighteen or twenty when
+      his parents died. That was about 270. Soon after, he heard the
+      Gospel read in church as if it had been read for him. He gave the
+      family land to the villagers, and then he gave away the rest.
+    grounded_in: [desert.story.antony-call, desert.figure.antony, desert.source.athanasius-vita-antonii, desert.core.desert]
   - text: >-
-      Not everyone lived Antony's way. Around 320, a man named Pachomius
-      founded the desert's first community bound by a written rule rather
-      than one elder's own example. By his death in 346, tradition says his
-      federation had grown to nine houses for men and two for women, with
-      membership in the low thousands - a rough count from a witness
-      writing decades later, not a precise census. Authority here came from
-      a rule and named offices, not only from a person's own earned
-      reputation.
+      Antony then left in stages. He lived first near his village, then
+      in an abandoned fort across the river. Last, he went to a mountain
+      in the inner desert, three days' journey out. Athanasius gives a
+      reason only for the last move. Crowds kept finding Antony, and he
+      wanted quiet. By this account he stayed on that mountain for most
+      of the rest of his life.
+    grounded_in: [desert.story.antony-withdrawal, desert.figure.antony]
+  - text: >-
+      Not every monk lived alone. About 320, Pachomius gathered monks
+      into a community at Tabennesi. Palladius, a monk who lived in
+      Egypt, wrote long after Pachomius died. He says an angel gave
+      Pachomius a tablet with a rule on it. Tradition says the community
+      had nine houses for men and two for women when he died in 346. It
+      puts the members, roughly, in the low thousands.
     grounded_in: [desert.story.pachomius-founding, desert.figure.pachomius, desert.gravity.koinonia]
   - text: >-
-      This world had two forms of authority. One was a life earned through
-      years of discipline. The other was an office conferred by a written
-      rule. The two existed side by side for this world's whole history,
-      and neither one ever fully replaced the other. Even Pachomius, the
-      rule's own founder, was remembered afterward less as an officeholder
-      and more as a father whose own example had formed his community.
-    grounded_in: [desert.gravity.authority-tension, desert.gravity.elder-authority]
+      Monks also lived in settlements such as Nitria, Kellia and Scetis.
+      They kept small cells and gathered once a week for worship.
+      Authority worked in two ways. Hermits and the monks of the
+      settlements looked to an elder called abba or amma. This was a
+      person whose wisdom had been proved. Elders held no office. In
+      Pachomius's houses, a written rule and appointed offices governed.
+      Even so, people remembered Pachomius himself as a father-elder.
+      Both kinds of authority stood side by side through these years.
+    grounded_in: [desert.gravity.authority-tension, desert.gravity.elder-authority, desert.term.geron-abba-amma, desert.term.synaxis, desert.term.kellion, desert.figure.pachomius]
   - text: >-
-      What kept any of this from tipping into excess was discernment. This
-      world's own word for it was diakrisis. There was no fixed program
-      here - no set number of fasts, no fixed hours of prayer for everyone.
-      An elder's real skill was judging how much a particular person could
-      actually bear. The tradition's most common story shape is simple: an
-      eager newcomer asks for something extreme, and an elder redirects him
-      toward something more moderate instead.
-    grounded_in: [desert.gravity.diakrisis]
+      The desert had no fixed course of study. Discernment did that
+      work. Called diakrisis, it was the skill of judging how much
+      discipline a particular person could bear. In the collected
+      sayings of the elders, one pattern recurs. An eager newcomer asks
+      an elder for an extreme practice, and the elder steers him toward
+      something more moderate.
+    grounded_in: [desert.gravity.diakrisis, desert.term.diakrisis, desert.source.apophthegmata-patrum]
   - text: >-
-      This life was never as cut off from ordinary village life as its own
-      words about total withdrawal suggest. Diggers at one settlement,
-      Kellia, found a marketplace operating right alongside the monks' own
-      cells. That is real evidence of trade running alongside the
-      discipline of leaving the world behind.
-    grounded_in: [desert.gravity.economic-embeddedness]
+      Evagrius was a formally educated man. Basil of Caesarea ordained
+      him a reader, and Gregory of Nazianzus made him a deacon. About
+      385 he settled at Kellia, where he lived for fourteen years. There
+      he wrote a system for the struggle. It sorted the tempting
+      thoughts, the logismoi, into eight kinds. It also set out a path
+      from practice to freedom from passion, and then to contemplation.
+      The system belonged to him and his learned circle.
+    grounded_in: [desert.figure.evagrius, desert.gravity.evagrian-systematization, desert.term.logismoi]
   - text: >-
-      One participant, Evagrius, stood out by his education. He was
-      trained in Greek philosophy and ordained by two of the great
-      Cappadocian bishops. He took this world's raw, occasion-bound wisdom
-      about tempting thoughts and organized it into the desert's most
-      complete scheme. It named eight categories of temptation. It also
-      built a ladder rising from practice to a stilled, contemplative
-      seeing of God.
-    grounded_in: [desert.figure.evagrius, desert.gravity.evagrian-systematization]
+      Evagrius died at Kellia in January 399. That year Theophilus, the
+      bishop of Alexandria, sent an Easter letter saying that God has no
+      human body. John Cassian, a monk who had lived at Scete, wrote
+      about it decades later. He reports that almost all the monks of
+      Egypt took the letter badly. They felt it went against Scripture,
+      which they took to give God a human form. Theophilus then reversed
+      course, for reasons scholars dispute. He campaigned against the
+      followers of the teacher Origen.
+    grounded_in: [desert.figure.evagrius, desert.force.origenist-controversy, desert.story.sarapion-anthropomorphite]
   - text: >-
-      That scheme cost the desert something. Evagrius died at Kellia in
-      January 399. Just months later, a controversy broke out that his own
-      learned circle could not survive. A bishop's letter argued against
-      picturing God in human form. It split simple monks from educated
-      ones, and within the year his circle had been driven out of Egypt.
-      One old monk of Scete, Sarapion, is remembered breaking down in tears
-      in the middle of a prayer, right after a visiting deacon persuaded
-      him that God has no human shape. It was the human cost of a
-      correction that, on its own terms, was probably right.
-    grounded_in: [desert.force.origenist-controversy, desert.story.sarapion-anthropomorphite]
+      In 400, a council at Alexandria condemned Origen and the monks who
+      followed him. That year four monk leaders called the Tall
+      Brothers, and others among them, had to leave Egypt. The circle
+      around Evagrius was broken up.
+    grounded_in: [desert.force.origenist-controversy, desert.figure.evagrius]
   documented_stories:
   - story_id: desert.story.antony-call
     title: "Antony Hears the Gospel Read for Him"
     when: "c. 270 (a few months after his parents' deaths)"
-    teaser: "A young landowner walks into church one ordinary day, and the Bible reading that morning changes his whole life before nightfall."
+    teaser: "Athanasius tells of Antony, a young man whose parents died not long before. He hears the Gospel read in church and takes it as read for him. He gives the family land to the villagers."
     grounded_in: [desert.story.antony-call, desert.figure.antony]
+  - story_id: desert.story.antony-tomb-combat
+    title: "Antony Beaten in the Tombs, and Back Again"
+    when: "about 270 to 286 (the Vita gives no years)"
+    teaser: "Athanasius has demons beat Antony in a tomb until he cannot speak. An acquaintance carries him to the village church. At midnight Antony comes to himself and asks to be carried back."
+    grounded_in: [desert.story.antony-tomb-combat, desert.figure.antony]
+  - story_id: desert.story.antony-withdrawal
+    title: "Antony Moves Further Out"
+    when: "about 270 to 313 (the Vita gives no years)"
+    teaser: "Antony leaves the world in stages. He lives near his village, then in an abandoned fort across the river, then on a mountain in the inner desert. Athanasius gives a reason only for the last move, that crowds beset him and he could not be still."
+    grounded_in: [desert.story.antony-withdrawal, desert.figure.antony]
+  - story_id: desert.story.pachomius-founding
+    title: "Pachomius, the Angel and the Brass Tablet"
+    when: "about 318 to 346 (the founding is most often placed about 320, and Pachomius died in 346)"
+    teaser: "Palladius says an angel appears to Pachomius in his cave and sends him to gather the young monks. The angel gives him a brass tablet with a rule written on it."
+    grounded_in: [desert.story.pachomius-founding, desert.figure.pachomius]
+  - story_id: desert.story.angel-hands-the-tablet
+    title: "The Rule That Opens With an Angel"
+    when: "about 318 to 346 (the years of Pachomius's community)"
+    teaser: "The Ethiopic text of the Pachomian rule opens with a story about where it came from. An angel of the Lord hands Pachomius an iron tablet with the rule written on it. Pachomius answers that the prayers are few."
+    grounded_in: [desert.story.angel-hands-the-tablet, desert.figure.pachomius]
+  - story_id: desert.story.arsenius-flee
+    title: "Arsenius Asks How to Live"
+    when: "undated, within about 320 to 430"
+    teaser: "One saying has Arsenius pray in the palace to be shown how to live, and a voice tells him to flee from men. A second saying has him pray the same prayer as a monk. This time the voice adds silence and a life of silent contemplation."
+    grounded_in: [desert.story.arsenius-flee]
+  - story_id: desert.story.moses-leaking-jug
+    title: "Moses Comes to Judge With a Leaking Basket"
+    when: "undated, within about 320 to 430 (told as tradition)"
+    teaser: "A congregation at Scete meets to judge a brother who has done wrong. Abba Moses comes at last, carrying a basket of sand with a hole in it. He says the sand is his own sins running out behind him, and the congregation sets the brother free."
+    grounded_in: [desert.story.moses-leaking-jug]
+  - story_id: desert.story.sarah-answer
+    title: "Amma Sarah Speaks to Her Brothers"
+    when: "undated, within about 320 to 430"
+    teaser: "A saying has Amma Sarah tell her brothers that she is a man and they are women. The saying accepts the era's view that courage is manly and weakness womanly. She claims the first for herself."
+    grounded_in: [desert.story.sarah-answer, desert.figure.sarah]
   - story_id: desert.story.antony-secret-burial
-    title: "Buried Where No One Will Ever Find Him"
+    title: "Buried Where Only Two Men Knew"
     when: "356 (Antony's death)"
-    teaser: "At the end of his life, the desert's most famous monk gives one final order: hide my body so well that no one, not even you, can ever turn me into a shrine."
+    teaser: "Antony will not die among the monks who beg him to stay. He orders the two men who serve him to bury him in secret. Athanasius writes that no one but those two knows where he lies."
     grounded_in: [desert.story.antony-secret-burial]
   - story_id: desert.story.sarapion-anthropomorphite
     title: "They Have Taken My God Away From Me"
-    when: "399 (soon after a bishop's Festal Letter reached Scete)"
-    teaser: "A revered old monk finally accepts that God has no human body or face. He immediately breaks down in tears. The only way he ever knew how to pray to God is suddenly gone."
+    when: "399 (soon after the bishop's Easter letter reached Scete)"
+    teaser: "Cassian tells of Sarapion, an old monk at Scete who holds that God has a human form. A learned visiting deacon persuades him otherwise. As the brothers rise to pray, Sarapion weeps and cries out that they have taken his God away from him."
+    grounded_in: [desert.story.sarapion-anthropomorphite]
+  highlights:
+  - phrase: "Alexandria"
+    kind: place
+    note: "An old port city in Egypt's Nile Delta. Alexander the Great founded it in 332 or 331 BCE. In Arabic it is called Iskandariya."
+    url: https://pleiades.stoa.org/places/727070
+    verified_on: "2026-10-17"
+    grounded_in: [desert.source.athanasius-vita-antonii]
+  - phrase: "Tabennesi"
+    kind: place
+    note: "A place where Pachomius gathered his first monks. It is also spelled Tabennisis, and it lies in today's Egypt."
+    url: https://pleiades.stoa.org/places/786125
+    verified_on: "2026-10-17"
+    grounded_in: [desert.figure.pachomius]
+  - phrase: "Nitria"
+    kind: place
+    note: "A settlement of monks. Palladius says its church was in use only on Saturday and Sunday. Its site lies at Kom el-Barnugi, in today's Egypt."
+    url: https://pleiades.stoa.org/places/727176
+    verified_on: "2026-10-17"
+    grounded_in: [desert.term.synaxis, desert.gravity.withdrawal]
+  - phrase: "Kellia"
+    kind: place
+    note: "A settlement of monks' cells. More than 1,500 structures have been identified there. Its site lies at Kousour el-Robbeyat, in today's Egypt."
+    url: https://pleiades.stoa.org/places/727141
+    verified_on: "2026-10-17"
+    grounded_in: [desert.source.kellia-excavations, desert.term.kellion]
+  - phrase: "Scetis"
+    kind: place
+    note: "A valley in northern Egypt, now called Wadi el Natrun. Monks of the Coptic church settled there from late antiquity."
+    url: https://pleiades.stoa.org/places/727232
+    verified_on: "2026-10-17"
+    grounded_in: [desert.source.cassian-conferences, desert.gravity.withdrawal]
+  - phrase: "Scete"
+    kind: place
+    note: "This is the same place as Scetis, a valley in northern Egypt. It is now called Wadi el Natrun."
+    url: https://pleiades.stoa.org/places/727232
+    verified_on: "2026-10-17"
+    grounded_in: [desert.story.sarapion-anthropomorphite, desert.story.moses-leaking-jug]
+  - phrase: "empire-wide persecution"
+    kind: term
+    note: "This was the last persecution of Christians across the whole Roman Empire. It began in 303 and ended between 311 and 313."
+    grounded_in: [desert.force.martyrdom-unavailable]
+  - phrase: "Life of Antony"
+    kind: term
+    note: "Athanasius wrote this life of Antony between about 356 and 362. It is the most influential text about the movement. He wrote it from outside the movement."
+    grounded_in: [desert.source.athanasius-vita-antonii]
+  - phrase: "abba or amma"
+    kind: term
+    note: "Abba is the title for a proven elder who is a man, and amma for a woman. Their word carried teaching weight, though they held no office."
+    grounded_in: [desert.term.geron-abba-amma]
+  - phrase: "diakrisis"
+    kind: term
+    note: "Discernment, the trained skill of judging rightly between thoughts, practices and counsels. It did the work that a course of study does elsewhere."
+    grounded_in: [desert.term.diakrisis]
+  - phrase: "collected sayings"
+    kind: term
+    note: "Short words from an elder, each given to one person at one moment of need. Later compilers gathered them after about 430."
+    grounded_in: [desert.term.apophthegma, desert.source.apophthegmata-patrum]
+  - phrase: "logismoi"
+    kind: term
+    note: "The unwanted thoughts and urges a monk fought. The list of eight kinds is Evagrius's own, and the wider movement did not share it."
+    grounded_in: [desert.term.logismoi]
+  - phrase: "Easter letter"
+    kind: term
+    note: "Theophilus's letter of 399. Cassian says it announced Easter and also took up the belief that God has a human body."
+    grounded_in: [desert.force.origenist-controversy, desert.source.cassian-conferences]
+  - phrase: "Tall Brothers"
+    kind: person
+    note: "Four brothers who led monasteries in Egypt. The historian Socrates says people called them the Tall Monks, for their height."
+    grounded_in: [desert.force.origenist-controversy, desert.source.socrates-historia-ecclesiastica]
+  - phrase: "council at Alexandria"
+    kind: council
+    note: "A church council held in 400. It condemned Origen and the monks who followed him."
+    grounded_in: [desert.force.origenist-controversy]
+  - phrase: "Antony"
+    kind: person
+    note: "An Egyptian monk, about 251 to 356. Nearly all that is known of him comes from the Life that Athanasius wrote."
+    grounded_in: [desert.figure.antony, desert.source.athanasius-vita-antonii]
+  - phrase: "Athanasius"
+    kind: person
+    note: "Bishop of Alexandria, about 296 to 373. He was not a desert monk, and he wrote about Antony from outside."
+    grounded_in: [desert.source.athanasius-vita-antonii]
+  - phrase: "Pachomius"
+    kind: person
+    note: "A monk who lived from about 292 to 346. He started a community of monks at Tabennesi. This is most often dated to about 320."
+    grounded_in: [desert.figure.pachomius]
+  - phrase: "Palladius"
+    kind: person
+    note: "A monk in Egypt about 388 to 399 who later became a bishop. He wrote the Lausiac History about 419 to 420."
+    grounded_in: [desert.source.palladius-lausiac-history]
+  - phrase: "Evagrius"
+    kind: person
+    note: "A monk who lived about 345 to 399. He settled at Kellia and died there in January 399."
+    grounded_in: [desert.figure.evagrius]
+  - phrase: "Basil of Caesarea"
+    kind: person
+    note: "Bishop of Caesarea. Palladius says he made Evagrius a reader."
+    grounded_in: [desert.figure.evagrius, desert.source.palladius-lausiac-history]
+  - phrase: "Gregory of Nazianzus"
+    kind: person
+    note: "A bishop who, Palladius says, ordained Evagrius a deacon."
+    grounded_in: [desert.figure.evagrius, desert.source.palladius-lausiac-history]
+  - phrase: "Theophilus"
+    kind: person
+    note: "He was bishop of Alexandria. His Easter letter of 399 began a quarrel. In 400, monks who followed Origen had to leave Egypt."
+    grounded_in: [desert.force.origenist-controversy]
+  - phrase: "John Cassian"
+    kind: person
+    note: "A monk who lived about 360 to 435. He wrote the Conferences in Gaul, decades after the events they tell of."
+    grounded_in: [desert.source.cassian-conferences]
+  - phrase: "Origen"
+    kind: person
+    note: "A Christian teacher in Alexandria, who lived about 185 to 253. His book On First Principles set out the ideas behind the quarrel."
+    grounded_in: [desert.source.origen-de-principiis]
+  - phrase: "Arsenius"
+    kind: person
+    note: "A monk of the Syriac sayings. Two of them tell of a voice that showed him how to live. The first places him in a palace."
+    grounded_in: [desert.story.arsenius-flee]
+  - phrase: "Abba Moses"
+    kind: person
+    note: "An elder at Scete in the Syriac sayings. Abba means father, a title of respect for an elder."
+    grounded_in: [desert.story.moses-leaking-jug, desert.term.geron-abba-amma]
+  - phrase: "Amma Sarah"
+    kind: person
+    note: "One of a few women remembered by name in the desert tradition. The Syriac collection keeps six sayings under her name."
+    grounded_in: [desert.figure.sarah]
+  - phrase: "Sarapion"
+    kind: person
+    note: "An old monk at Scete who had kept a strict life for a long time."
     grounded_in: [desert.story.sarapion-anthropomorphite]
   voices:
   - figure: desert.figure.antony

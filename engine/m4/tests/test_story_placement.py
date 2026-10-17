@@ -112,7 +112,7 @@ def test_the_improvised_details_of_the_live_reply_do_not_reach_the_participant(d
 
 def test_the_speech_inside_a_placed_telling_is_never_cut_as_a_typed_quotation(desert):
     text, _c, net_result = _net(MOSES_DRAFT, desert, _offer(MOSES))
-    assert '"This sand is my sins, running down behind me, and I cannot see them.' in text
+    assert 'the sand was "my sins, running down behind me. I cannot see them."' in text
     assert not [s for s in net_result["sentences"] if s.get("placed_story") and s["verdict"] != "ok"]
 
 
