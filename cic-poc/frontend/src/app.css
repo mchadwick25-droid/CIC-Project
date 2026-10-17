@@ -1045,31 +1045,38 @@ button {
 
 .composer-row textarea {
   flex: 1;
-  min-height: 44px;
+  min-height: 52px;
   max-height: 200px;
-  padding: 11px 14px;
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
+  padding: 14px 16px;
+  background: #2A231B;
+  border: 1.5px solid rgba(241, 233, 221, 0.38);
+  border-radius: 12px;
   font-family: var(--font-family-ui);
-  font-size: 1rem;
+  font-size: 1.06rem;
+  line-height: 1.4;
   color: var(--color-text);
   resize: none;
 }
 
+.composer-row textarea:focus {
+  outline: none;
+  border-color: var(--color-representative);
+  box-shadow: 0 0 0 3px rgba(220, 154, 62, 0.22);
+}
+
 .composer-row textarea::placeholder {
-  color: var(--color-text-light);
+  color: #D9CFC2;
 }
 
 .composer-row button {
   flex-shrink: 0;
-  height: 44px;
-  padding: 0 18px;
+  height: 52px;
+  padding: 0 20px;
   background: var(--color-primary);
   color: var(--color-on-primary);
   border: none;
   border-radius: var(--border-radius);
-  font-size: 0.86rem;
+  font-size: 0.95rem;
   font-weight: 700;
   cursor: pointer;
 }
