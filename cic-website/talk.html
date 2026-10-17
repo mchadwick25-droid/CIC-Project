@@ -96,7 +96,7 @@ if (from) {
 }
 
 var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
-var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
+var APP = isLocal ? 'http://localhost:5173' : 'https://app.churchinconversation.com';
 
 var target = new URL(APP + '/');
 if (worlds) { target.searchParams.set('worlds', worlds); }
