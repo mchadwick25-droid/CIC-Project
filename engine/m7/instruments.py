@@ -451,6 +451,7 @@ def run_all(s: AuditSession, names: dict[str, list[str]] | None = None,
         "world_keys": s.world_keys,
         "closed": s.closed,
         "close_reason": s.close_reason,
+        "internal": s.internal,
         "counts": {
             "events": s.event_count,
             "participant_messages": len(s.participant_messages),
