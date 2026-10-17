@@ -340,11 +340,11 @@ orientation:
   - phrase: "persecution of 303 to 305"
     label: "Diocletian's persecution"
     kind: term
-    note: "Diocletian and his fellow emperors hunted Christians in these years. They ordered clergy to hand over the scriptures. Church vessels were to be destroyed."
+    note: "Diocletian and his fellow emperors hunted Christians in these years. They ordered clergy to hand over the scriptures and church vessels to be destroyed."
     grounded_in: [don.force.diocletianic-persecution-traditio-demand]
   - phrase: "Vandal"
     kind: term
-    note: "The Vandals invaded Roman North Africa in 429 and took Carthage in 439. That ended the Roman power that had judged the Donatists and forced them."
+    note: "The Vandals invaded Roman North Africa in 429 and took Carthage in 439. That ended the Roman power that had judged the Donatists and coerced them."
     grounded_in: [don.force.vandal-capture-of-carthage, don.core.donatism]
   - phrase: "hearing at Rome"
     kind: council
