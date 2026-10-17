@@ -842,3 +842,27 @@ Per Mark's ruling of 13 October, `use_note.means` is in scope where it contradic
 **Checked and left as they were, by request.** `hal.dw.church-failure`'s scorpion wording is not in its means (the change above concerns the violence wording only), and `hal.story.attack-416` (the means speaks of the women's lost report and does not say they wrote a letter), `hal.quote.detestable-monks` (the fasting claim stays with the crowd).
 
 Status: CLOSED.
+
+## OG-23. Atlas story pass: shorter story, nine card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built tradition's Atlas story to run four to five minutes, with the other episodes moved into stories on the card. He approved the Bethlehem Circle story and card list, then the tellings, then a sample recording. `orientation.story` is now 9 units and 691 words, down from 11 units and about 1,150 words. `documented_stories` shows nine story records in date order. Each of those records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 17 short notes; place notes cite Pleiades for modern locations (checked 2026-10-17). Episodes cut with no story record of their own stay in their records: Fabiola and the Portus hostel, Palladius's counter-account, the Hebrew-fluency question, and family resistance to Paula's leaving. Review: `Build/Ministry/Operations/Audits/hal_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/hal/2026-10-17T13-45-54Z`, `manifest_hash` `sha256:f9ca759df95602a5ce7717a7f084083bf83e8f560fd84dde8617866202a63641`. This pin supersedes the previous one. The story and the nine tellings were recorded in the existing voice.
+
+**Open:**
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+## OG-24. Record disagreements found during the Atlas story pass, 2026-10-17.
+
+The pass followed the more cautious record in each case and changed no record. Each needs a ruling on which wording is right:
+- `hal.story.ciceronian-dream` gives `use_note.years` 384 to 384, while `hal.quote.a-follower-of-cicero-and-not-of-christ` locates the dream in the illness of 374. The card dates the dream about 374, told in a letter of 384.
+- `hal.story.paula-epitaph` `use_note.not_for` asks for a closing acknowledgment that her own voice was not kept. Under the project lead's ruling on add-on endings, the telling opens with it instead; he approved that telling on 2026-10-17. The record's wording should follow.
+- `hal.contested.paula-jerome-relationship` gives Paula nineteen years at Bethlehem, while `hal.figure.paula` gives 386 to 404. The story gives no count.
+- `hal.quote.no-one-preferred-to-the-seventy` text has Augustine grant that the Jews call Jerome's work faithful, while its lens note says he "gives away every point". The story follows the quote text.
+- `hal.figure.marcella` bridge_line calls the Aventine household a circle before Jerome came, while `hal.force.marcella-household` rates a multi-woman household as a modern reconstruction. The story and note follow the force record.
+
+Status: OPEN for the project lead.
+
+## OG-25. Other world_front sections keep AI tells and "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" wording and dash asides. The same holds for the Alexandria and Cappadocia records.
+
+Status: OPEN for the project lead to schedule.
