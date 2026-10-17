@@ -63,6 +63,7 @@ text: >-
 
   The signers offer it to the Emperor as a summary of their teaching. They add that they are ready, God
   willing, to say more from the Scriptures.
+telling: "\"Most Invincible Emperor, Caesar Augustus, Most Clement Lord.\" With that greeting opens the confession Melanchthon wrote for the Diet at Augsburg in 1530.\n\nThe Emperor had called the Diet to deal with \"measures against the Turk,\" the ancient enemy of the Christian name. It was also to hear the quarrels over religion in the German lands.\n\nAt the close of the confession stands a list of names. It begins with John, Duke of Saxony and Elector. George, Margrave of Brandenburg, follows, then Ernest, Duke of Lueneburg. Philip, Landgrave of Hesse, is there, with John Frederick, Duke of Saxony, and Francis, Duke of Lueneburg. Wolfgang, Prince of Anhalt, is named next. Two city councils close the list, the Senate and Magistracy of Nuremberg and the Senate of Reutlingen. Luther's name is not among them.\n\nPrinces and city councils stand together and call themselves \"Your Imperial Majesty's faithful subjects.\" They offer the Emperor a summary of their teaching, and they are ready, God willing, to say more from the Scriptures."
 absent_detail: This library holds the Confession's preface and signatures directly, but not an eyewitness
   account of its reading before the Diet itself - no description of the room, the Emperor's own reaction,
   or the proceedings that followed its presentation. Luther is not among the signatories in this library's
