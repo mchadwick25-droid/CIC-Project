@@ -54,6 +54,7 @@ text: >-
   difficulties - including Sasima's wound - had come, and had not, in any
   simple sense, been resolved before Basil died. What Gregory chose to
   remember first, standing to eulogize his friend, was Athens.
+telling: "Basil and Gregory of Nazianzus met as students, most likely at Athens. Both had gone there for the fullest education their world offered.\n\nGregory's memory of Athens comes from two works. One is the great funeral speech he gave for Basil, years afterward. The other is his long poem about his life, written later still. He wrote both after the friendship had met real trouble, the wound of Sasima among it. That trouble had not been simply resolved before Basil died. Standing at his friend's funeral, Gregory chose to remember Athens first.\n\nWhat grew between them, Gregory said, was one soul lodged in two bodies. They shared lodging, books and purpose. Worldly advancement was not their aim, he says, and they studied together toward one goal, the fullest possible turn toward God.\n\nWhen their studies ended, both men went home to Cappadocia to begin the ascetic and church careers that would define them."
 absent_detail: "No account of the friendship survives from Basil's own side; everything here is Gregory's retrospective portrait, composed after his friend's death and after their own falling-out at Sasima."
 modern_contrast: >-
   A modern reader might take "one soul in two bodies" as simple,
