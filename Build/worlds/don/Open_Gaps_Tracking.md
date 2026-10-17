@@ -1996,3 +1996,11 @@ Three independent readers checked the live page (reviews `Build/Ministry/Operati
 Fixed: the story is 696 words, under its cap; the setup-and-reveal question is gone; the Passio Marculi teaser is shorter; the Cebarsussi note no longer names a province no record carries; the Maximianists, Petilian and ten other notes trimmed.
 
 Status: CLOSED for this review.
+
+### OG-44. Unclear honest-limit endings, 2026-10-17.
+
+Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put the object first and ended on a bare verb, so the ending did not say what is unknown. Each now puts the subject first and ends on what is not known. Wording and facts are the records' own; nothing was added.
+
+- `records/don/doctrinal_witness/don.dw.the-creed-we-shared.md`: "Whether he died to take our punishment, in our place, for our sins, nobody among us wrote down, for or against." -> "Nobody among us wrote down, for or against, whether he died to take our punishment, in our place, for our sins."
+
+Status: CLOSED for this review.
