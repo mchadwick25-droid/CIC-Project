@@ -294,17 +294,17 @@ orientation:
     grounded_in: [gallic.story.trier-and-the-ithacian-communion, gallic.force.court-at-trier]
   - phrase: "the emperor's court"
     label: "Maximus"
-    kind: hint
+    kind: person
     note: "The emperor was Maximus. The record calls him a usurper. At Trier he took the side of Ithacius, who had accused Priscillian."
     grounded_in: [gallic.force.court-at-trier, gallic.story.trier-and-the-ithacian-communion]
   - phrase: "a traveler from Egypt"
     label: "Postumianus"
-    kind: hint
+    kind: person
     note: "This is Postumianus, a character in the Dialogues of Sulpitius. He has just come back from Egypt. His praise of Martin was written by Sulpitius."
     grounded_in: [gallic.contested.egypt-two-measures, gallic.quote.postumianus-you-have-conquered-all-the-eremites, gallic.force.egyptian-standard]
   - phrase: "an elder"
     label: "Chaeremon"
-    kind: hint
+    kind: person
     note: "Chaeremon, an old man whose cell stood near Panephysis in Egypt. Cassian wrote down his answer much later in Gaul, so the speeches are Cassian's own composition."
     grounded_in: [gallic.story.germanus-scruple-at-morning-service, gallic.figure.cassian]
   - phrase: "synod"
