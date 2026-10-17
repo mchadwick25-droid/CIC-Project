@@ -41,82 +41,88 @@ orientation:
   story:
   - text: >-
       In Roman Gaul, between about 360 and 450 CE, two households of
-      monks lived out one idea. One grew up in the Loire valley, around
-      the town of Tours. The other grew up on an island called Lérins,
-      off the Mediterranean coast, and in the nearby city of Marseilles.
-      Nothing in the evidence shows the two ever wrote to each other.
-      Both called themselves keepers of what came before them.
-    grounded_in: [gallic.core.gallic]
+      monks lived out the same idea. In both, a monk who was made a
+      bishop went on living as a monk. One grew up in the Loire
+      valley, around the town of Tours. The other grew up on Lérins, a
+      small island off the Mediterranean coast, and in the city of
+      Marseilles. No evidence shows that the two ever wrote to each
+      other.
+    grounded_in: [gallic.core.gallic, gallic.gravity.monk-bishop]
   - text: >-
-      The northern household began with a soldier named Martin. While he
-      served under Julian, then Caesar, he asked for his discharge
-      before a battle. He would serve Christ now, he said. Years later
-      the people of Tours took him from his monastery by a trick and
-      made him their bishop. As bishop, Martin kept living like a monk
-      outside the city walls. Many monks he trained were later made
-      bishops themselves.
+      The northern household began with a soldier named Martin. Before
+      a battle, he asked his commander, Julian Caesar, for his
+      discharge, to serve Christ instead. Years later the people of
+      Tours drew him out of his monastery by a trick and made him
+      their bishop. As bishop, Martin kept the plain habits of a monk,
+      and many of the monks he trained were later made bishops.
     grounded_in: [gallic.gravity.soldier-of-christ, gallic.story.discharge-before-caesar, gallic.figure.martin, gallic.gravity.monk-bishop, gallic.story.election-at-tours]
   - text: >-
-      Two generations later, a man named Honoratus went alone to a small
-      island off the coast. Snakes had driven everyone else away. He
-      went in unafraid, singing a psalm, and the record says the snakes
-      gave way. He wanted only to stay a monk there. Even so, he later
-      became bishop of the nearby city of Arles. Faustus, another monk
-      trained on the island, became bishop of Riez.
-    grounded_in: [gallic.gravity.monk-bishop, gallic.story.honoratus-and-the-island, gallic.figure.honoratus]
+      In the years after Martin's death, a man named Honoratus took
+      his followers to Lérins. The island stood empty, because it was
+      filthy and no one went near it for fear of snakes. His disciple
+      Hilary preached that Honoratus went in unafraid, with a psalm on
+      his lips, and the snakes gave way. Honoratus had run from church
+      office, but on the island the priesthood caught up with him. In
+      time he became a bishop himself.
+    grounded_in: [gallic.gravity.monk-bishop, gallic.story.honoratus-and-the-island, gallic.figure.honoratus, gallic.figure.martin]
   - text: >-
-      Both households measured themselves against the monks of Egypt. In
-      the south, that meant reception. Cassian lived among the Egyptian
-      monks and brought their customs home to Gaul, changing only what
-      the colder climate required. In the north, it meant comparison.
-      Sulpitius has a traveler from Egypt say that Martin alone was
-      worth all its hermits put together. Both households also agreed
-      that nothing true could be new. Vincent, a monk on Lérins, wrote
-      that true faith is what has been believed everywhere, always, by
-      everyone.
-    grounded_in: [gallic.gravity.egypt-as-measure, gallic.figure.cassian, gallic.figure.martin, gallic.gravity.received-not-invented, gallic.figure.vincent]
+      Both households measured themselves against the monks of Egypt,
+      in different ways. The south took Egypt's customs as a rule to
+      keep. John Cassian had lived among the Egyptian monks and
+      brought their customs home to Gaul. He changed them only where
+      Gaul's harsh climate or different habits made them impossible or
+      too hard. The north set Martin beside Egypt's hermits. The Tours
+      writer Sulpitius has a traveler just back from Egypt admit that
+      Martin had outdone them all.
+    grounded_in: [gallic.gravity.egypt-as-measure, gallic.figure.cassian, gallic.quote.cassian-adapts-egypt-to-gaul, gallic.figure.martin, gallic.quote.postumianus-you-have-conquered-all-the-eremites]
   - text: >-
-      The south named its goal purity of heart. Cassian taught that
-      fasting and night prayer were only aids toward it. What matters
-      most is discretion, which he called the mother of all virtues.
-      Tours built its record on power instead. Martin once brought a
-      dead catechumen, a new believer not yet baptized, back to life.
-      Another night the devil came to him dressed as Christ. Martin
-      refused him. The only Christ he would accept still carried the
-      marks of his wounds. Cassian warned that a monk who boasts of
-      casting out demons has already failed.
-    grounded_in: [gallic.gravity.interior-road, gallic.gravity.virtus, gallic.story.raising-of-the-catechumen, gallic.quote.martin-on-the-christ-with-wounds, gallic.figure.cassian]
+      From the fathers of Egypt, the south received a goal called
+      purity of heart, and fasting and night prayer were only aids
+      toward it. The monk was kept on course by discretion, the
+      judgment that tells when a practice goes too far. The Egyptian
+      fathers called it the mother of all virtues. On Lérins, Vincent
+      wrote that the true faith is what has been believed everywhere,
+      always, by everyone.
+    grounded_in: [gallic.gravity.interior-road, gallic.term.purity-of-heart, gallic.term.discretion, gallic.gravity.received-not-invented, gallic.figure.vincent, gallic.quote.believed-everywhere-always-by-all]
   - text: >-
-      The south's best-known argument began as a worry at prayer. In
-      Egypt, Cassian and his friend Germanus heard an elder say that no
-      one becomes master of the good by effort alone. Asked what he
-      meant, he answered with a farmer's field. A farmer who will not
-      plow gets no harvest. But even a hard worker gets nothing without
-      rain he cannot make. The wish to do good, the elder said, starts
-      with God. That answer grew into a long argument over how much of a
-      monk's progress is God's gift and how much is his own. It later
-      reached Rome. The record never settles it.
+      Cassian refused to tell stories of wonders. In Cassian's
+      Conferences, an Egyptian elder says the fathers never counted a
+      monk good if he showed off his power over demons. Tours told its
+      story through power instead. Sulpitius tells how Martin brought
+      a dead catechumen, a new believer not yet baptized, back to
+      life. He also tells how the devil once came to Martin dressed as
+      Christ. Martin refused him. He would believe only in a Christ
+      who bore the marks of his wounds.
+    grounded_in: [gallic.gravity.virtus, gallic.figure.cassian, gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles, gallic.quote.humility-mistress-of-virtues-not-exorcism, gallic.story.raising-of-the-catechumen, gallic.quote.martin-on-the-christ-with-wounds]
+  - text: >-
+      By Cassian's own account, the south's best-known argument began
+      as a worry at prayer. In Egypt, an old man named Chaeremon told
+      Cassian and his friend Germanus that no one masters the good by
+      effort alone. When Germanus objected, Chaeremon answered with a
+      farmer. A farmer who never plows gets no crop, yet even the
+      hardest worker needs rain he cannot make. The wish to do good,
+      the old man said, comes first from God. That answer grew into a
+      whole Conference on grace and effort.
     grounded_in: [gallic.gravity.grace-and-effort, gallic.story.germanus-scruple-at-morning-service, gallic.contested.beginning-of-good-will]
   - text: >-
-      On bishops and councils, the two households disagreed. At Tours,
-      Martin kept his distance from other bishops. At the emperor's
-      court in Trier, he once took communion with bishops he had
-      refused, to save lives. He regretted it for the rest of his life
-      and never attended a synod again. In the south, church councils
-      were trusted as guardians of the truth. The record leaves that
-      disagreement standing.
-    grounded_in: [gallic.gravity.authority-ambivalence, gallic.story.trier-and-the-ithacian-communion, gallic.figure.martin, gallic.story.election-at-tours]
+      At Tours, some bishops had opposed Martin's election. Later, at
+      the emperor's court in Trier, Martin once took communion with
+      bishops he had refused, to save lives. He felt it cost him some
+      of his power, and he never attended a synod again. Vincent, by
+      contrast, wrote that the decrees of an ancient general council
+      should be preferred to the rashness and ignorance of a few.
+    grounded_in: [gallic.gravity.authority-ambivalence, gallic.story.election-at-tours, gallic.story.trier-and-the-ithacian-communion, gallic.figure.martin, gallic.quote.council-over-rashness-and-ignorance]
   - text: >-
-      Almost everything known about Tours comes from one writer.
-      Sulpitius Severus was a layman who gave up his career to follow
-      Martin. He was never present for the events he describes, and he
-      says so himself. When Martin's death drew near, he traveled to
-      make peace among quarreling clergy. His monks wanted to lay him on
-      straw. He chose sackcloth and ashes, so as not to leave them a
-      different example. Sulpitius says almost two thousand monks
-      gathered for his funeral. The record closes around 450, with the
-      argument over grace and effort still open.
-    grounded_in: [gallic.gravity.named-example, gallic.figure.sulpitius, gallic.story.death-of-martin-at-condate, gallic.core.gallic]
+      Almost everything known about Tours comes from Sulpitius
+      Severus, an Aquitanian who visited Martin there. He was not
+      present for most of what he tells, and says he learned it from
+      Martin and those who lived with him. Knowing his end was near,
+      Martin went to make peace among the quarreling clergy at
+      Condate. As he lay dying, his monks asked to put straw under
+      him. He kept to sackcloth and ashes, so as not to leave them a
+      different example. Almost two thousand monks, it is said, came
+      to his funeral.
+    grounded_in: [gallic.gravity.named-example, gallic.figure.sulpitius, gallic.story.death-of-martin-at-condate]
   documented_stories:
   - story_id: gallic.story.the-cloak-at-amiens
     title: "Half a Cloak at the Gate of Amiens"
@@ -125,8 +131,8 @@ orientation:
     grounded_in: [gallic.story.the-cloak-at-amiens, gallic.figure.martin]
   - story_id: gallic.story.discharge-before-caesar
     title: "Martin Asks Caesar for His Discharge"
-    when: "c. 360, before a battle in Gaul, on the eve of Martin's discharge from the Roman army"
-    teaser: "Called a coward for refusing to fight, a soldier offers to walk at the enemy with no weapons. Before morning, the enemy asks for peace."
+    when: "Before a battle in Gaul, when Martin left the army; the text gives no year"
+    teaser: "Called a coward for refusing to fight, a soldier offers to face the enemy unarmed. The next day, the enemy asks for peace."
     grounded_in: [gallic.story.discharge-before-caesar, gallic.figure.martin]
   - story_id: gallic.story.raising-of-the-catechumen
     title: "Martin Brings a Dead Catechumen Back"
@@ -134,39 +140,39 @@ orientation:
     teaser: "Martin returns to find a new believer dead before baptism. He bolts the door and stretches himself over the body. Two hours later the man opens his eyes."
     grounded_in: [gallic.story.raising-of-the-catechumen]
   - story_id: gallic.story.election-at-tours
-    title: "The Monk Tricked Into the Bishop's Chair"
+    title: "The Monk Lured Out to Be Made Bishop"
     when: "Years after Martin's discharge; the text gives no year"
-    teaser: "A citizen feigns a sick wife to draw a monk from his monastery. Some bishops object to his shabby clothes and hair. A psalm opened at random answers them."
+    teaser: "A citizen pretends his wife is sick to draw a monk from his monastery. Some bishops object to his shabby clothes and hair. A psalm opened at random answers them."
     grounded_in: [gallic.story.election-at-tours, gallic.figure.martin]
   - story_id: gallic.story.trier-and-the-ithacian-communion
     title: "Martin Yields Once, at the Emperor's Court"
-    when: "385/386, after the execution of Priscillian and his companions at Trier"
-    teaser: "A bishop shares communion with men he had refused, so that troops will not be sent to hunt heretics in Spain. He never fully forgives himself."
+    when: "After Priscillian was put to death, while Maximus ruled at Trier; the text gives no year"
+    teaser: "To save lives, a bishop takes communion with men he had refused. He also stops officers from being sent to hunt heretics in Spain. He never fully forgives himself."
     grounded_in: [gallic.story.trier-and-the-ithacian-communion, gallic.figure.martin]
   - story_id: gallic.story.brictio-in-the-courtyard
     title: "If Christ Bore with Judas"
     when: "Undated; told in Sulpitius's Dialogues, about 404 to 406"
-    teaser: "A presbyter Martin raised from boyhood rages at him, then begs pardon within the hour. Martin will not remove him. If Christ bore with Judas, why not Brictio?"
+    teaser: "A priest Martin raised from boyhood rages at him, then soon comes back to beg pardon. Martin will not remove him. If Christ bore with Judas, why not Brictio?"
     grounded_in: [gallic.story.brictio-in-the-courtyard, gallic.figure.martin]
   - story_id: gallic.story.death-of-martin-at-condate
     title: "Martin Refuses the Straw"
     when: "397, at Condate"
-    teaser: "Knowing his end is near, Martin goes to make peace among quarreling clergy. Dying, he turns down straw for sackcloth and ashes, so as not to set a softer example."
+    teaser: "Knowing his end is near, Martin goes to make peace among quarreling clergy. Dying, he turns down straw for sackcloth and ashes, so as not to leave a different example."
     grounded_in: [gallic.story.death-of-martin-at-condate, gallic.figure.sulpitius]
   - story_id: gallic.story.the-angel-and-the-twelve-psalms
-    title: "The Angel Who Fixed the Psalms"
+    title: "The Angel Who Set the Number of Psalms"
     when: "Set in the early days of Egypt's monks, no year given; Cassian wrote it down in Gaul"
     teaser: "Egyptian fathers cannot agree how many psalms to sing each evening. The hour for prayer arrives, and one father sings twelve and vanishes. They take twelve as the number."
     grounded_in: [gallic.story.the-angel-and-the-twelve-psalms]
   - story_id: gallic.story.germanus-scruple-at-morning-service
     title: "The Farmer Who Still Needs the Rain"
     when: "Set in Egypt, no year given; Cassian wrote it down in Gaul, not later than 426"
-    teaser: "Two friends come to morning prayer troubled by one sentence from the night before. The old man cuts the service short and answers with a farmer who still needs rain."
+    teaser: "Two friends come to morning prayer troubled by something an old monk said the night before. He cuts the service short and answers with a farmer who still needs rain."
     grounded_in: [gallic.story.germanus-scruple-at-morning-service]
   - story_id: gallic.story.honoratus-and-the-island
     title: "Honoratus and the Island of Snakes"
     when: "Told in a funeral sermon by his successor at Arles; the text gives no year"
-    teaser: "A founder walks unafraid onto an island shunned for its snakes, singing a psalm. The snakes give way. Then the priest's headband catches the man who ran from it."
+    teaser: "A founder walks unafraid onto an island shunned for its filth and snakes, a psalm on his lips. The snakes give way. Then, his disciple says, the priesthood he had run from catches up with him there."
     grounded_in: [gallic.story.honoratus-and-the-island, gallic.figure.honoratus]
   voices:
   - figure: gallic.figure.martin
@@ -282,7 +288,7 @@ orientation:
   highlights:
   - phrase: "Sulpitius"
     kind: person
-    note: "An Aquitanian of an illustrious family who wrote the Life of Martin. He says he learned the facts partly from Martin and partly from people who lived with him."
+    note: "An Aquitanian, from a leading family by his editors' account, who wrote the Life of Martin. He says he learned the facts partly from Martin and partly from people who lived with him."
     grounded_in: [gallic.figure.sulpitius, gallic.source.sulpitius-vita-martini]
   - phrase: "Julian"
     kind: person
@@ -290,30 +296,29 @@ orientation:
     grounded_in: [gallic.story.discharge-before-caesar, gallic.figure.martin, gallic.source.npnf-editorial-apparatus]
   - phrase: "Priscillian"
     kind: person
-    note: "A man put to death after the bishop Ithacius accused him. The account says little of his followers. A hostile writer sums up the charges."
+    note: "A man put to death after the bishop Ithacius accused him. Sulpitius, who was hostile to him, sums up the charges in his Sacred History."
     grounded_in: [gallic.story.trier-and-the-ithacian-communion, gallic.force.court-at-trier]
   - phrase: "the emperor's court"
     label: "Maximus"
     kind: person
-    note: "The emperor was Maximus. The record calls him a usurper. At Trier he took the side of Ithacius, who had accused Priscillian."
+    note: "The emperor was Maximus. At Trier he took the side of Ithacius, the man who had accused Priscillian."
     grounded_in: [gallic.force.court-at-trier, gallic.story.trier-and-the-ithacian-communion]
-  - phrase: "a traveler from Egypt"
+  - phrase: "a traveler just back from Egypt"
     label: "Postumianus"
     kind: person
-    note: "This is Postumianus, a character in the Dialogues of Sulpitius. He has just come back from Egypt. His praise of Martin was written by Sulpitius."
+    note: "This is Postumianus, who speaks in the Dialogues of Sulpitius. Sulpitius wrote his praise of Martin."
     grounded_in: [gallic.contested.egypt-two-measures, gallic.quote.postumianus-you-have-conquered-all-the-eremites, gallic.force.egyptian-standard]
-  - phrase: "an elder"
-    label: "Chaeremon"
+  - phrase: "Chaeremon"
     kind: person
-    note: "Chaeremon, an old man whose cell stood near Panephysis in Egypt. Cassian wrote down his answer much later in Gaul, so the speeches are Cassian's own composition."
+    note: "An old man whose cell stood near Panephysis in Egypt. Cassian wrote down his words decades later in Gaul, setting out in his own composition what he had heard."
     grounded_in: [gallic.story.germanus-scruple-at-morning-service, gallic.figure.cassian]
   - phrase: "synod"
     kind: term
-    note: "A meeting of bishops. After Trier, Martin stayed away from them. At Lérins, ancient councils were trusted to guard the faith. The record leaves both views standing."
+    note: "A meeting of bishops. After Trier, Martin stayed away from them. Vincent, a monk of Lérins, trusted the decrees of an ancient general council to guard the faith."
     grounded_in: [gallic.term.council-synod, gallic.story.trier-and-the-ithacian-communion]
   - phrase: "communion"
     kind: term
-    note: "Fellowship in the church, and the sacrament within it. To withhold it was the church's sharpest penalty. Martin said that one forced communion cost him some of his power."
+    note: "Fellowship in the church, and the sacrament within it. To withhold it was the church's sharpest penalty. Martin felt that one forced communion cost him some of his power."
     grounded_in: [gallic.term.communion, gallic.story.trier-and-the-ithacian-communion]
   - phrase: "sackcloth"
     kind: term
@@ -321,11 +326,11 @@ orientation:
     grounded_in: [gallic.term.sackcloth-and-ashes]
   - phrase: "discretion"
     kind: term
-    note: "Cassian's word for the judgment that keeps each virtue from going wrong. A monk gained it through humility, by testing his thoughts against the advice of the elders."
+    note: "The Egyptian fathers' word, passed on by Cassian, for the judgment that keeps each virtue from going wrong. A monk gained it through humility, by testing his thoughts against the advice of the elders."
     grounded_in: [gallic.term.discretion]
   - phrase: "purity of heart"
     kind: term
-    note: "The monk's nearest goal, short of the kingdom of heaven itself. Cassian ranked fasting and night prayer as aids to it, never as the point."
+    note: "The monk's nearest goal, short of the kingdom of heaven itself. The Egyptian fathers, as Cassian reports them, ranked fasting and night prayer as aids to it, never as the point."
     grounded_in: [gallic.term.purity-of-heart]
   - phrase: "grace"
     kind: term
@@ -333,7 +338,7 @@ orientation:
     grounded_in: [gallic.term.grace, gallic.contested.beginning-of-good-will]
   - phrase: "virgins"
     kind: term
-    note: "Women who had taken a consecrated state, with its own dress. The record names none of them, and not one of them speaks."
+    note: "Women who had taken a consecrated state, with its own dress. No woman among them is named, and none speaks."
     grounded_in: [gallic.term.virgin-virginity, gallic.story.death-of-martin-at-condate]
   - phrase: "heretics"
     kind: term
@@ -357,12 +362,6 @@ orientation:
     url: https://pleiades.stoa.org/places/157906
     verified_on: "2026-10-17"
     grounded_in: [gallic.figure.honoratus]
-  - phrase: "Lerins"
-    kind: place
-    note: "The island is now Île Saint-Honorat, off the coast of France. Honoratus founded a monastery there."
-    url: https://pleiades.stoa.org/places/157906
-    verified_on: "2026-10-17"
-    grounded_in: [gallic.figure.honoratus]
   - phrase: "Amiens"
     kind: place
     note: "Roman Samarobriva, now the city of Amiens in France. Martin met the beggar at its gate."
@@ -375,21 +374,9 @@ orientation:
     url: https://pleiades.stoa.org/places/108894
     verified_on: "2026-10-17"
     grounded_in: [gallic.force.court-at-trier]
-  - phrase: "Arles"
-    kind: place
-    note: "A city of Roman Gaul, now Arles in France. Honoratus became its bishop. Hilary came after him."
-    url: https://pleiades.stoa.org/places/148217
-    verified_on: "2026-10-17"
-    grounded_in: [gallic.figure.honoratus, gallic.story.honoratus-and-the-island, gallic.force.episcopal-recruitment]
-  - phrase: "Riez"
-    kind: place
-    note: "A Roman town in the territory of the Reii, now Riez in France. Faustus of Lérins became its bishop."
-    url: https://pleiades.stoa.org/places/157805
-    verified_on: "2026-10-17"
-    grounded_in: [gallic.force.episcopal-recruitment, gallic.contested.massilian-label]
   - phrase: "Condate"
     kind: place
-    note: "The church where Martin went to settle a quarrel among the clergy, and where he died. It is probably today's Candes-Saint-Martin in France."
+    note: "The settlement where Martin went to make peace among the clergy of its church, and where he died. It is probably today's Candes-Saint-Martin in France."
     url: https://pleiades.stoa.org/places/138305
     verified_on: "2026-10-17"
     grounded_in: [gallic.story.death-of-martin-at-condate]
@@ -442,272 +429,3 @@ narrative:
   - gallic.term.soldier-of-christ
   - gallic.term.commonitory-peregrinus
 ---
-BASE-FIX CONFIRMED FIRST. This worktree was found at session start on
-`e2291dfb` (origin/main), NOT a descendant of `claude/amazing-lovelace-
-coy644` - `Build/worlds/desert/surface/world_front/desert.front.desert-monasticism.md`
-did not exist. Per the task's explicit instruction, ran `git reset --hard
-origin/claude/amazing-lovelace-coy644` (working tree was already clean; no
-stash needed) rather than attempting to reconstruct anything by hand. HEAD
-is now `ff679fcc` ("Merge cappadocian world_front content"), and all three
-prior world_front records (desert, syr, cappadocian) plus the world's own
-gate/schema infrastructure exist. Confirmed before any authoring began.
-
-WORLD KEY - checked directly, not assumed. `records/worlds/gallic.yaml`
-(`engine.m1.registry.load_registry()`) gives `world_id:
-gallic-monastic-ascetic-christianity`. `cic-website/data/world-census.json`
-and `atlas-v3.html`'s matching `DATA.movements[]` entry both key this world
-as the SAME string, `gallic-monastic-ascetic-christianity` - unlike
-Cappadocian, where the two diverged. This record's own `id` and filename
-follow the established sibling convention
-(`<registry-code>.front.<world_id-slug>`), and since world_id and census_id
-are identical here, both the id and the `census_id` schema field carry the
-same string, with no cappadocian-style divergence to reconcile.
-
-SOURCING METHOD. Every unit's `grounded_in` names a record this session
-opened and read directly - `records/gallic/world_core/gallic.core.gallic.md`
-for the world-level frame (time window, formation_logic's reception
-grammar, thinness, cautions); all five `figure` records' own
-`bridge_line`/`dates`/body notes for `orientation.voices`; all ten
-`gravity` records (three Primary: monk-bishop, egypt-as-measure,
-received-not-invented; two Tensional: virtus, authority-ambivalence; five
-Supporting: interior-road, soldier-of-christ, grace-and-effort,
-named-example, judgment-imminent-present) paired with the `story` records
-each one's own `relations[]` names as `illustrates`/`associated-with` for
-`orientation.story`; the two `honest_limit` records for `narrative.quiet`
-(gallic.limit.only-on-paper chosen; see JUDGMENT CALLS); all three `quote`
-records for `narrative.pull_quotes` (mode 2, `modern_rendering` only,
-never `text`); `gallic.dw.one-person-two-substances`,
-`gallic.quote.one-substance-three-persons`, and
-`gallic.contested.beginning-of-good-will` for `orientation.floor_note`;
-`gallic.force.synodal-commission` and `gallic.force.transmission-in-ending`
-for `orientation.legacy`; `gallic.force.arian-scattering` for
-`orientation.relations_summary`. No unit here restates a claim from
-`cic-website/data/world-census.json` or `atlas-v3.html` without first
-checking it against the record(s) it cites - several claims in that live
-prose did NOT survive that check and were dropped rather than carried
-forward unverified (below).
-
-CLAIMS FOUND ON THE LIVE SITE AND DELIBERATELY NOT CARRIED FORWARD, each
-checked directly against this world's own record set before being dropped:
-
-1. `world-census.json`'s own `legacy` field claims "Cassian's Conferences
-   became the West's standing handbook of the interior life: Benedict's
-   Rule commends them by name and prescribes them as daily reading" and
-   that "the Rule of Benedict" carried this world's teaching "into every
-   Benedictine house in Europe." `gallic.core.gallic`'s own cautions field
-   states explicitly that "the Rule of Benedict (a full century past this
-   world's own close)" is an "Excluded Named Comparanda," named as "the
-   single most plausible place a builder... would otherwise reach for a
-   more vivid or more familiar phrase from outside this world's own
-   recoverable life." Dropped entirely, not softened - voicing Benedict at
-   all, even to disclaim him, is the exact contamination risk the caution
-   names.
-2. The same `legacy` field's claims that "Lérins itself is still a
-   monastery... it has occupied since about 410," that "Martin became the
-   patron saint of France and one of the most widely venerated saints in
-   the medieval West, with thousands of churches carrying his name," and
-   that the Gallic objection to Augustine "was still being fought over at
-   the Reformation" are all present-tense or centuries-post-window
-   reception claims. `gallic.core.gallic`'s own `horizon` field states
-   directly: "What is not ours is anything after that span closes... the
-   later cult, basilica, and chroniclers of Martin's own city" - and
-   `gallic.figure.martin`'s own body note repeats it: "Everything after
-   397 - the basilica, the cult's growth, Gregory of Tours - is outside
-   the window." No record in this world's own store registers a claim
-   about medieval veneration, modern Lérins, or the Reformation. Dropped
-   entirely.
-3. `world-census.json`'s own `relationsSummary` field (and the matching
-   fleet-relations edges in both `world-census.json` and `atlas-v3.html`)
-   claim this world is "the seedbed of the Merovingian Gallic church" and,
-   "through Lérins and Tours, of Irish monasticism" - both post-window
-   claims with no record in `records/gallic/` behind them. A third fleet
-   edge ("gallic-monastic-ascetic-christianity" to
-   "early-benedictine-italian-monasticism", "Benedict's Rule commends
-   Cassian's Conferences by name") repeats the same Excluded Named
-   Comparanda from item 1 above. All three dropped from
-   `orientation.relations_summary`; the one relation actually kept
-   (Hilary of Poitiers, the "gallic-nicene-episcopate" world) is
-   independently grounded in this world's own `gallic.force.
-   arian-scattering` and `gallic.core.gallic`'s own doorway_description,
-   not in the live site's framing of it.
-4. `atlas-v3.html`'s fleet-relations edge from "gallic-nicene-episcopate"
-   to this world claims "Hilary ordained Martin of Tours, who founded the
-   West's first monastery at Ligugé." Two problems, checked directly:
-   `gallic.core.gallic`'s own cautions field names "Ligugé" as one of
-   "four editorial place-names [that] occur nowhere in the ancient texts
-   as this build reads them and must never be voiced as this world's own
-   words" - so the place-name itself is barred, not merely uncertain. And
-   no record in this world's own store states that Hilary "ordained"
-   Martin (only that Martin went to Hilary at Poitiers after his
-   discharge, and that Hilary's own exile is separately attested) or that
-   any monastery was "the West's first." `orientation.relations_summary`
-   keeps only what is actually grounded - Hilary's exile, and that Martin
-   gathered his first followers near the bishop who received him - and
-   drops "ordained," "founded," "Ligugé," and "first" entirely.
-5. `entry.tile`'s and `longDescription`'s claim that Honoratus's community
-   is "on the island of Lérins" and that he "became bishop of Arles
-   himself" is well-grounded (kept, per `gallic.figure.honoratus`); but
-   the site's further claim that "other monks from the island followed
-   him into the office, at Arles and at Riez" is kept only in the single,
-   already-approved form `gallic.gravity.monk-bishop`'s own manifestations
-   field states it (Faustus, via Gennadius ch. LXXXVI) - not extended with
-   any date, number, or claim of a settled "network," which this world's
-   own record does not make inside its own window.
-6. No `experienceToday` entry exists on this world's site data at all
-   (`cic-website/atlas-v3.html`'s and `world-census.json`'s gallic entries
-   both lack the field) - `orientation.experience_today` is correctly
-   absent here, not a scope decision this pass had to make.
-
-KNOWN PITFALLS FROM ALL THREE PRIOR BUILDS, CHECKED DELIBERATELY:
-
-`modern_rendering` GAPS - matches Cappadocian's finding, not desert's or
-syriac's. Desert found 14/59 (24%) quote coverage; syriac found 18/34
-(53%). A direct check of all three of `records/gallic/quote/*.md` finds
-THREE of THREE (100%) already carrying a populated `modern_rendering`
-field, all with `license: verbatim`. All three are used in
-`narrative.pull_quotes` above, and each was confirmed to resolve to a
-real, non-null `text` field by running
-`engine.m2.site_compiler.compile_world_front()` against this record (see
-the calling agent's own VALIDATION report).
-
-NAME-DISAMBIGUATION RISK - checked deliberately, the specific risk desert
-(two Serapions) and Cappadocian (three Gregorys) each found. This world
-has no repeated first name among its five figure records (Martin, Cassian,
-Honoratus, Sulpitius, Vincent) and no unnamed companion promoted to a
-false identity - `gallic.figure.cassian`'s own body note explicitly warns
-that "Germanus" in this world's stories is "Cassian's companion, never
-Germanus of Auxerre," and this record's own `orientation.story` paragraph
-on Germanus's scruple never gives Germanus a surname or implies one. No
-disambiguation defect found.
-
-CROSS-RECORD CONSISTENCY CHECK (the desert pilot's own flagged pitfall).
-Every record cited above was checked against its own `relations[]`
-siblings for drift before use. Specifically: `gallic.story.
-brictio-in-the-courtyard`'s own `divergence_note` and body note were read
-in full before including the Brictio material in `orientation.story` -
-its own text states plainly that "nothing in our vendored text says" what
-became of Brictio and that "a participant who knows from elsewhere that a
-Brictius later held the see of Tours must be told plainly that nothing in
-our vendored text says so"; this record's own prose makes no claim about
-Brictio's later career, only what the story itself narrates. `gallic.dw.
-one-person-two-substances` and `gallic.quote.one-substance-three-persons`
-were checked against each other for wording agreement (the dw's own
-paraphrase of the Vincent formula matches the quote's `modern_rendering`
-exactly) - no divergence found. `gallic.gravity.monk-bishop` and
-`gallic.gravity.authority-ambivalence` (a declared `tension-with` pair)
-were both read in full and checked against each other - both name the
-same Doc_04 "G1-G9 competition" consistently, with no contradictory
-clause on either side. NO CROSS-RECORD CONTRADICTION WAS FOUND. Reported
-as a clean check, not a silent skip.
-
-THE SAFETY-SENSITIVE MATERIAL NAMED IN THE TASK. `gallic.story.
-brictio-in-the-courtyard` - Brictio's own accusation (buying enslaved
-children, "boys belonging to barbarous nations" and "girls also of a
-comely appearance") and Martin's refusal to remove him ("If Christ bore
-with Judas, why should not I bear with Brictio?") - is voiced directly in
-`orientation.story`'s tenth paragraph, alongside the Trier/Ithacian
-material it is already `associated-with` in the gravity layer
-(authority-ambivalence). It is not softened, moved to a footnote, or
-allowed to drop out of the retelling: the paragraph states the accusation
-in the same plain terms the story record itself uses, names what Brictio
-was accused of without euphemism, and states that Martin's own reasoning
-(not wanting to be suspected of revenging a personal injury) is what the
-text itself gives, not an invented justification. This is participant-
-facing content, not Representative dialogue, but the same "don't let it
-quietly disappear" instruction applies to both.
-
-DOCUMENTED_STORIES MIGRATION - matches syriac's and Cappadocian's finding,
-not desert's. `atlas-v3.html`'s gallic `documentedStories` array holds
-exactly two entries ("'I Am Christ's Soldier; I Am Not Allowed to Fight'"
-and "Martin at Trier: The Compromise That Cost Him His Power"), and both
-matched an EXISTING record directly on comparison of date, figures, and
-content: `gallic.story.discharge-before-caesar` (c. 360, the donative and
-discharge) and `gallic.story.trier-and-the-ithacian-communion` (385/386,
-the Ithacian communion). No new story record was authored this session;
-scope item 2 ("reconcile documentedStories into real story records where
-none exists") required no new authoring because both already existed.
-`title`/`teaser` were written fresh against what each record's own
-`text`/`tellable_as` fields actually say, not copied from the site's own
-prose (which uses "Treves" for what this world's own vendored-text
-convention keeps as "Trier" in the site's title but "Treves" inside the
-record itself, per `gallic.story.trier-and-the-ithacian-communion`'s own
-body note - this record's own `title`
-field uses "Martin Yields Once, at the Emperor's Court" to sidestep the
-place-name entirely rather than pick a side of that spelling question).
-
-JUDGMENT CALLS, flagged plainly:
-
-(a) `orientation.voices` uses four of this world's five figure records
-(Martin, Cassian, Honoratus, Sulpitius), omitting only Vincent - who is
-this world's one figure explicitly marked `narratable: false` in his own
-record, "argued, not defaulted": his own body note states "there is no
-event of Vincent's to tell from any side," distinct from a merely thin
-figure. Including Sulpitius as a fourth voice (rather than only the three
-narratable-and-storied subjects) is itself a judgment call: his own figure
-record calls him a "BOUNDARY FIGURE... not the protagonist of any story,"
-but load-bearing precisely because the whole northern half of this
-world's evidence is his single corpus - the Author Gravity flag his own
-record and `gallic.gravity.virtus`'s own record both name as the reason
-G6 is Tensional rather than Primary. Voicing him directly, with a hedge
-that states this risk in plain terms, seemed more honest than leaving that
-single-author dependency implicit across every other voice and every
-Tours story paragraph.
-
-(b) `narrative.quiet` names `gallic.limit.only-on-paper` rather than this
-world's other honest_limit record (`gallic.limit.no-one-who-saw-him`, on
-the evidentiary distance from Christ's own lifetime) - chosen because it
-is the silence `orientation.sourcing`, `orientation.story`'s Lérins/island
-paragraph, and the women's-voice sentence in `orientation.sourcing` all
-make audible in advance (the same "closes a thread already opened"
-reasoning both pilots and Cappadocian used for their own `quiet` choice).
-`gallic.limit.no-one-who-saw-him` answers a different, more purely
-Christological silence (canon cell C-E) that this record's `floor_note`
-does not open a thread on.
-
-(c) `narrative.questions` is left EMPTY - a genuine, structural finding
-about this world's own build, not a scope shortcut, and worth flagging as
-its own item below.
-
-(d) `orientation.legacy` is deliberately ONE entry, phrased as a boundary
-statement rather than a reception claim - consistent with `gallic.core.
-gallic`'s own explicit warning against extending this world's own record
-past the evidentiary horizon its `horizon` field states in its own words.
-Cappadocian's own precedent (one cautious entry, not a padded list) is
-followed here for the same reason: this world's own governing record
-warns against making its own aftermath look better-documented than it is.
-
-(e) `orientation.story`'s fifth gravity, `gallic.gravity.
-judgment-imminent-present`, is the one gravity this record's `orientation.
-story` does NOT give its own paragraph. It is that record's own
-self-description: "SUPPORTING (provisional, the weakest in the document)"
-and "the thinnest row in the matrix," with its own weight sitting mostly
-in a fourth voice (Salvian) outside this world's three founding voices.
-Omitted deliberately, on the same "don't pad" reasoning as (d), rather
-than forced into a paragraph that would overstate its own load-bearing
-weight.
-
-ESCALATION-WORTHY FINDING, reported rather than worked around:
-`narrative.questions` requires {cell, demonstration, cite}, and every
-prior world_front (desert, syriac, cappadocian) built each entry from a
-demonstration record and a doctrinal_witness record sharing the SAME
-canon cell (confirmed by re-reading all three: syriac's C-I/F3-I pair,
-desert's C-E/C-I pair, and cappadocian's C-I/C-T pair each match cell-for-
-cell between their own `demonstration` and `cite` fields). This world's
-nine demonstration records were built entirely for F-cells (F1-T, F1-I,
-F2-E, F3-I, F3-P, F4-P, F5-I, F6-I, F6-P twice), and its four
-doctrinal_witness records were built entirely for C-cells plus one F-cell
-that has no matching demonstration (C-I, C-P, C-T, F3-E). A direct
-cross-check (every demo cell against every dw cell) finds ZERO cells
-shared between the two record sets anywhere in this world's build - unlike
-all three prior worlds, where at least one cell had both. Populating
-`narrative.questions` would therefore require either citing a
-doctrinal_witness whose own cell does not match the demonstration next to
-it (misleading a participant about what the paired "cell" actually
-covers, given this field's own established fleet convention), or
-inventing a new demonstration record for a C-cell - both refused. This
-appears to be a genuine gap in this world's own Doc_08/Doc_09 build
-(no demonstration record was ever written for any C-cell), not something
-this world_front pass can or should paper over by authoring new content
-outside its own scope. Flagged here and logged to `worlds/gallic/
-Open_Gaps_Tracking.md` (created this session, first entry) rather than
-silently left empty with no explanation.
