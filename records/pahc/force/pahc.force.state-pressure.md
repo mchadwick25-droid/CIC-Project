@@ -41,20 +41,19 @@ relations:
 name: "State Legal Precarity [2A - ongoing/external]"
 matrix_cell: 2A
 kind: ongoing
-description: "HISTORICAL EVENT: Pliny's Letters 10.96-97 (c. 111-113 CE, Bithynia-Pontus) is the
-  earliest Roman administrative document on Christians and shows no prior standing law; Trajan's
-  rescript explicitly forbids seeking Christians out. Tacitus and Suetonius corroborate earlier,
-  scattered episodes. WORLD'S OWN EXPERIENCE: a name could be given, an accusation made, and a
-  choice demanded, without warning and without any way to know in advance whether it would happen
-  to you. This was not constant terror - most days brought no demand to name yourself or choose - but it was near enough
-  that a member organized some real part of their emotional life around it. Carrying this world's
-  own name in public was, at once, a legal exposure and a claim about the truth, held together as a
-  single thing rather than two. FORMATION IMPACT: sustains martyrdom-meaning as its direct internal
-  answer; plausibly explains the near-total absence of institutional self-documentation across this
-  world's own evidentiary base, since durable, seizable written records carried their own risk; and
-  its very unevenness - never becoming severe or centralized enough to force one strand's authority
-  answer to displace the other's - is a condition of possibility for this world's own genuine
-  two-strand plurality persisting as long as it did."
+description: "HISTORICAL EVENT: Pliny's Letters 10.96-97 (about 111-113 CE, Bithynia-Pontus) are the
+  earliest Roman official document on Christians. They show that no standing law came before them.
+  Trajan's rescript forbids seeking Christians out. Tacitus and Suetonius back up earlier,
+  scattered episodes. THE COMMUNITY'S OWN EXPERIENCE: a name could be given, an accusation made
+  and a choice demanded without warning. No one could know in advance whether it would happen
+  to them. This was not constant terror. Most days brought no demand to name yourself or choose.
+  But it came near enough that a member built some real part of their emotional life around it.
+  Carrying the community's name in public was a legal risk and a claim about the truth at once,
+  held as a single thing. FORMATION IMPACT: it sustains martyrdom-meaning as the community's direct
+  internal answer. It may explain why almost no records of the community's own organization survive.
+  Written records that could be seized carried their own risk. The pressure was also uneven. It was
+  never severe or central enough to make one strand's answer on authority displace the other's. So
+  the two-strand plurality lasted as long as it did."
 manifestations:
 - "Pliny's interrogation of Christians in Bithynia-Pontus, with two enslaved ministrae tortured for testimony"
 - "Nero scapegoating Christians for the Great Fire of Rome, per Tacitus"
