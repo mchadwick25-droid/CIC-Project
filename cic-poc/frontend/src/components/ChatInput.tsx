@@ -6,7 +6,7 @@
  * navigate away client-side. The session is not actually closed server-side
  * and stays resumable by its code, so the label says what really happens.
  */
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { GoDeeperPanel } from './GoDeeperPanel';
 import { useAskAgain } from '../hooks/useAskAgain';
 import type { ConversationTurn } from '../hooks/useConversation';
@@ -19,21 +19,36 @@ interface ChatInputProps {
   placeholder: string;
   disabled?: boolean;
   turns?: ConversationTurn[];
+  // Shown beside "Leave for now", under the box.
+  endExtra?: ReactNode;
 }
 
-export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns = [] }: ChatInputProps) {
+export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns = [], endExtra }: ChatInputProps) {
   const [message, setMessage] = useState('');
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const askAgainRef = useRef<HTMLButtonElement>(null);
   const { pending, submit, confirm, decline } = useAskAgain(turns, onSend);
 
-  useEffect(() => {
+  const fitHeight = useCallback(() => {
     const textarea = textareaRef.current;
-    if (textarea) {
-      textarea.style.height = 'auto';
-      textarea.style.height = `${Math.min(textarea.scrollHeight, 200)}px`;
-    }
-  }, [message]);
+    if (!textarea) return;
+    textarea.style.height = 'auto';
+    const border = textarea.offsetHeight - textarea.clientHeight;
+    textarea.style.height = `${Math.min(textarea.scrollHeight + border, 200)}px`;
+  }, []);
+
+  useEffect(fitHeight, [message, fitHeight]);
+
+  // The first measure can run before the web font arrives; measure again then.
+  useEffect(() => {
+    let live = true;
+    document.fonts?.ready.then(() => {
+      if (live) fitHeight();
+    });
+    return () => {
+      live = false;
+    };
+  }, [fitHeight]);
 
   const handleSubmit = useCallback(
     (e: React.FormEvent) => {
@@ -100,7 +115,8 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false, turns 
           </div>
         </div>
       )}
-      <div className="conversation__end">
+      <div className={endExtra ? 'conversation__end conversation__end--with-extra' : 'conversation__end'}>
+        {endExtra}
         {/* Stage 0b (Build-Plan.md): Leave never takes `disabled` - a
             participant mid-turn or inside an open Table round must still
             be able to walk away. Only Send/the textarea gate on it. */}

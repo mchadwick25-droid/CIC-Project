@@ -98,6 +98,7 @@ text: >-
   the Judge said this was the man for whom Martin was praying. He was ordered back by the same angels
   and "given up to Martin." From that day, the tradition says, Martin's name grew so well known that
   all people reckoned him holy. They also held him to be powerful and truly apostolic.
+telling: "Martin had set up a monastery for himself not far from the town. A catechumen, a man still preparing for baptism, came to live with him and learn from his teaching and his life. Within a few days the man fell ill with fever. Martin was away for three days, and when he came back the man was dead, so suddenly that he had never been baptized.\n\nAs Sulpitius tells it, Martin sent everyone out of the cell, bolted the door and stretched himself full length on the body. He prayed, and when he sensed that power was present, he rose and waited for the Lord's mercy. Within two hours the dead man began to stir and opened his eyes. Martin cried out his thanks so loudly that the brothers rushed in and found alive the man they had left dead. He was baptized at once and lived for many years.\n\nHe used to tell us what had happened to him. He had stood before the Judge and been sent to a gloomy place among common crowds. Then two angels said that he was the man Martin was praying for, and he was given back to Martin. From that day, people counted Martin holy, powerful and truly apostolic."
 absent_detail: >-
   The catechumen is never named; the monastery is named only as "not far from the town" (the
   identifications Ligugé and Poitiers are editorial, not in Sulpitius's chapter). Nothing at this locus
@@ -119,10 +120,3 @@ use_note:
   years: {from: 397, to: 397}
   status: reviewed
 ---
-Neither "Ligugé" nor "Poitiers" appears in the narrative: Sulpitius names the monastery only as "not
-far from the town," and those identifications are editorial, not his own words (see absent_detail).
-
-The raising itself, from Martin's return to the moment the brethren see the man alive, is carried in
-full, verbatim, in gallic.quote.martin-raises-the-catechumen; the man's becoming Martin's first witness
-and the growth of Martin's reputation are carried in gallic.quote.the-catechumens-testimony. This
-record paraphrases both in its own voice and points to those records for the exact wording.
