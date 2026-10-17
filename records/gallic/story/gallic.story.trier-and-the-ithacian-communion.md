@@ -135,6 +135,7 @@ text: >-
   did, he admitted with tears that he felt this loss came from that one compromised communion, taken
   briefly and against his own will. He lived sixteen years after this, but never again attended a
   synod, and stayed carefully away from every gathering of bishops.
+telling: "We have this story from Gallus, one of Martin's disciples, in Sulpitius's Dialogues. Martin never told it outside his own household.\n\nAfter Priscillian was put to death, the emperor Maximus protected Ithacius, the bishop who had accused him. The bishops gathered at Trier stood by Ithacius. Maximus was about to send tribunes, officers with power over life and death, into Spain to hunt down heretics. Martin came to the court and begged that none be sent, to spare the heretics as well as the true Christians. In his Sacred History, Sulpitius tells of an earlier stage, before Priscillian's death. There he says Martin held it a shocking wrong for a worldly ruler to judge a church case.\n\nThe bishops begged Maximus to turn against Martin, and Maximus ordered death for the people Martin had defended. Martin hurried to the palace that night and promised to take communion with the bishops if those lives were spared and the tribunes called back. Maximus agreed. The next day, when a bishop named Felix was ordained, Martin took communion, yet he would never put his name to it in writing.\n\nLeaving the city, he sat alone in the woods near a village called Andethanna, torn with grief. Gallus says an angel came and told him his remorse was just, though he had no other way out. Afterward his healing sometimes came more slowly, and with tears Martin blamed that one communion. He lived sixteen more years and never went to a synod again."
 absent_detail: >-
   The Priscillianists themselves are not narrated here; Sulpitius's hostile summary of the charges
   against Priscillian in the Sacred History is his report of a trial, not our knowledge of the movement.
@@ -157,11 +158,3 @@ use_note:
   years: {from: 397, to: 406}
   status: reviewed
 ---
-The record id keeps the technical slug "trier-..." as a stable identifier, though the vendored volume's
-own spelling is "Treves," which every in-record use of the place name follows.
-
-The narrative's verbatim wording is carried in three quote records, each re-verified directly against
-the vendored npnf211 file: gallic.quote.gallus-on-the-tribunes-for-the-spains (Dialogues III.11),
-gallic.quote.gallus-on-the-forced-communion-and-the-angel (Dialogues III.12-13), and
-gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause (Sacred History II.50, a related,
-distinct telling of an earlier phase, not independent corroboration).
