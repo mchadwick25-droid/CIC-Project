@@ -416,7 +416,7 @@
   },
   "docstory-syr.story.ephrem-roll-and-vine": {
    "file": "syriac-edessa-nisibis/docstory-syr.story.ephrem-roll-and-vine.mp3",
-   "chars": 1309,
+   "chars": 1287,
    "voiceId": "9iUwwAQbShIkp628a5fO",
    "model": "eleven_v4",
    "apiSpeed": 1,
@@ -461,7 +461,7 @@
   },
   "docstory-syr.story.basil-legend": {
    "file": "syriac-edessa-nisibis/docstory-syr.story.basil-legend.mp3",
-   "chars": 998,
+   "chars": 982,
    "voiceId": "9iUwwAQbShIkp628a5fO",
    "model": "eleven_v4",
    "apiSpeed": 1,
