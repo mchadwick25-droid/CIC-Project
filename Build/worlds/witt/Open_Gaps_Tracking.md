@@ -2694,3 +2694,5 @@ Fixed: Katharina's question is Luther's own report (story, teaser, voice); the E
 - Authoring modern renderings for the Wittenberg quotes would let the tellings quote them directly.
 
 Status: OPEN for the project lead on the three items above.
+
+The recheck also removed "young university" from the census copy of the tile (`cic-website/data/world-census.json`, `index.html`, `atlas-v3.html` and the tradition page).
