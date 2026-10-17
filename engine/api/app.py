@@ -369,6 +369,12 @@ class AskCandidateResponse(BaseModel):
     session_ids: list[str]
 
 
+class RecentQuestionResponse(BaseModel):
+    asked_at: str
+    world_keys: list[str]
+    text: str
+
+
 class UsageSummaryResponse(BaseModel):
     """Admin-only, see wiring.get_usage_summary's own docstring - the same
     operator-only tier /api/admin/pilot-summary already lives at, extended
@@ -382,6 +388,8 @@ class UsageSummaryResponse(BaseModel):
     asks_as_of_run: str | None
     live_use: LiveUseResponse
     named_tests: NamedTestsResponse
+    recent_questions: list[RecentQuestionResponse] = []
+    recent_questions_total: int = 0
 
 
 class WorldSummary(BaseModel):

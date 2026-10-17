@@ -39,7 +39,7 @@ class AuditSession:
     world_keys: list[str]           # one entry for an interview
     closed: bool
     close_reason: str | None
-    participant_messages: list[dict] = field(default_factory=list)  # {"seq", "text"} - operator-only (Artifact-8 §4)
+    participant_messages: list[dict] = field(default_factory=list)  # {"seq", "text", "at"} - operator-only (Artifact-8 §4)
     gate_decisions: list[dict] = field(default_factory=list)        # payloads verbatim, with "seq"
     voice_turns: list[VoiceTurnRecord] = field(default_factory=list)
     facilitator_turns: list[dict] = field(default_factory=list)     # {"seq", "kind", "text"}
@@ -105,7 +105,7 @@ def read_session(store: Store, session_id: str) -> AuditSession | None:
             session.closed = False
             session.close_reason = None
         if ev.event_type == "participant_message":
-            session.participant_messages.append({"seq": ev.seq, "text": p.get("text", "")})
+            session.participant_messages.append({"seq": ev.seq, "text": p.get("text", ""), "at": ev.created_at})
         elif ev.event_type == "gate_decision":
             session.gate_decisions.append({"seq": ev.seq, **p})
         elif ev.event_type == "turn_selected":
