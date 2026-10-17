@@ -19,6 +19,9 @@ type Screen = 'arriving' | 'launch' | 'conversation' | 'table';
 // reads as "the site broke and reverted to the old design" when rendered
 // inside a themed iframe dressed up to look like part of the new site.
 const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
+// The site page around the frame already carries the wordmark and its own
+// "Tell us what you think"; the app's first-screen bar drops its copies.
+if (isEmbedded) document.documentElement.classList.add('is-framed');
 
 /**
  * The deep-link grammar - the ONE contract between the discovery surfaces

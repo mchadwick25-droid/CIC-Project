@@ -61,6 +61,7 @@ afterEach(() => {
   vi.restoreAllMocks();
   vi.unstubAllGlobals();
   sessionStorage.clear();
+  document.documentElement.classList.remove('is-framed');
 });
 
 describe('framed in talk.html', () => {
@@ -68,6 +69,12 @@ describe('framed in talk.html', () => {
     const { container, post } = await renderFramed([door, { speaker: 'participant', text: 'Who are you?' }]);
     await waitFor(() => expect(container.querySelector('.conversation__who')).not.toBeNull());
     expect(startedMessages(post).slice(-1)[0]).toEqual({ type: 'cic:started', started: true });
+  });
+
+  it('marks the page as framed, so the first-screen bar drops the site\'s duplicates', async () => {
+    const { container } = await renderFramed([door]);
+    await waitFor(() => expect(container.querySelector('.arrival')).not.toBeNull());
+    expect(document.documentElement.classList.contains('is-framed')).toBe(true);
   });
 
   it('says it has not started while only the welcome is there', async () => {
