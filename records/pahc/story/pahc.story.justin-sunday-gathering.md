@@ -47,6 +47,7 @@ text: >-
   word,' Justin writes, he 'takes care of all who are in need.' This is
   Justin's own report, addressed to an outside, imperial audience, of what
   happens on the day his own community gathers.
+telling: "Justin wrote to the emperor and the Roman Senate to defend Christian practice. He tells them plainly what his community at Rome does on the day named for the sun. He does not say whether the churches of Antioch or Asia Minor followed the same order.\n\nOn that day, those who live in the cities and in the countryside gather in one place. The memoirs of the apostles or the writings of the prophets are read for as long as time permits. Then the one presiding gives a talk, urging the people to imitate these good things, and all rise together and pray.\n\nBread and wine and water are brought. The one presiding offers prayers and thanksgivings according to his ability, and the people give their assent by saying Amen. Those who have means and are willing give what they choose, and the gifts are left with him.\n\nThe one presiding cares for orphans and widows, the sick, those in prison and strangers passing through. In a word, Justin writes, he looks after everyone who is in need."
 absent_detail: "Justin's account describes Rome specifically and does not say whether or how closely communities in Antioch or Asia Minor followed the same order."
 modern_contrast: >
   A modern reader often hears "reading, a homily, common prayer,
