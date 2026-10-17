@@ -1045,11 +1045,12 @@
  "lutheran-wittenberg-and-its-congregations": {
   "story": {
    "file": "lutheran-wittenberg-and-its-congregations/story.mp3",
-   "chars": 6639,
+   "chars": 3759,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -1059,11 +1060,12 @@
   },
   "docstory-witt.story.letter-to-albrecht-and-theses-circulation": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.letter-to-albrecht-and-theses-circulation.mp3",
-   "chars": 2684,
+   "chars": 1250,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -1073,11 +1075,12 @@
   },
   "docstory-witt.story.return-and-the-eight-sermons": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.return-and-the-eight-sermons.mp3",
-   "chars": 1840,
+   "chars": 1037,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -1087,11 +1090,12 @@
   },
   "docstory-witt.story.diet-of-augsburg-1530": {
    "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.diet-of-augsburg-1530.mp3",
-   "chars": 1476,
+   "chars": 1028,
    "voiceId": "40lgdJOC1ND7hPOQX92p",
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
@@ -1106,6 +1110,111 @@
    "model": "eleven_v4",
    "apiSpeed": 1,
    "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.augsburg-before-cajetan": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.augsburg-before-cajetan.mp3",
+   "chars": 1049,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.worms-1521": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.worms-1521.mp3",
+   "chars": 1077,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.brussels-martyrs": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.brussels-martyrs.mp3",
+   "chars": 870,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.speratus-hymn-under-the-window": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.speratus-hymn-under-the-window.mp3",
+   "chars": 542,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.first-german-mass-sung": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.first-german-mass-sung.mp3",
+   "chars": 977,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.household-catechism-lesson-typical-practice": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.household-catechism-lesson-typical-practice.mp3",
+   "chars": 1205,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-witt.story.household-and-kate-on-prayer": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-witt.story.household-and-kate-on-prayer.mp3",
+   "chars": 939,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
    "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
